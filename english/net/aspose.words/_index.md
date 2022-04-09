@@ -1,7 +1,7 @@
 ---
 title: Aspose.Words Namespace
 second_title: Aspose.Words for .NET API Reference
-description: The Aspose.Words namespace provides classes for generating, converting, modifying, rendering and printing Microsoft Word documents without utilizing Microsoft Word.Aspose.Words is written completely in C#, CLS compliant and contains only safe managed code. Microsoft Word is not required in order to use Aspose.Words.The classes in the Aspose.Words namespace borrow best practices from two well-known frameworks: Microsoft Word Automation and System.Xml. A document in Aspose.Words is represented by a tree of nodes, much like in XML DOM. Where possible, class, method and property names match those found in Microsoft Word Automation. The main classes in this namespace are:
+description: The Aspose.Words namespace provides classes for generating, converting, modifying, rendering and printing Microsoft Word documents without utilizing Microsoft Word.Aspose.Words is written completely in C#, CLS compliant and contains only safe managed code. Microsoft Word is not required in order to use Aspose.Words.The classes in the Aspose.Words namespace borrow best practices from two well-known frameworks, Microsoft Word Automation and System.Xml. A document in Aspose.Words is represented by a tree of nodes, much like in XML DOM. Where possible, class, method and property names match those found in Microsoft Word Automation.
 type: docs
 weight: 10
 url: /net/aspose.words/
