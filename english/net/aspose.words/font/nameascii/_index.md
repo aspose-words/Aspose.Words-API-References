@@ -1,7 +1,7 @@
 ---
-title: "NameAscii"
+title: NameAscii
 second_title: Aspose.Words for .NET API Reference
-description: ""
+description: 
 type: docs
 weight: 40
 url: /net/aspose.words/font/nameascii/

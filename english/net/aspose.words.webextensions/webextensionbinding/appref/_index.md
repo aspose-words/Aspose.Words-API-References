@@ -1,7 +1,7 @@
 ---
-title: "AppRef"
+title: AppRef
 second_title: Aspose.Words for .NET API Reference
-description: ""
+description: 
 type: docs
 weight: 40
 url: /net/aspose.words.webextensions/webextensionbinding/appref/

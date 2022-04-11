@@ -1,7 +1,7 @@
 ---
-title: "HorizontalAlignment"
+title: HorizontalAlignment
 second_title: Aspose.Words for .NET API Reference
-description: ""
+description: 
 type: docs
 weight: 890
 url: /net/aspose.words.drawing/horizontalalignment/

@@ -1,7 +1,7 @@
 ---
-title: "FieldEmbed"
+title: FieldEmbed
 second_title: Aspose.Words for .NET API Reference
-description: ""
+description: 
 type: docs
 weight: 1650
 url: /net/aspose.words.fields/fieldembed/

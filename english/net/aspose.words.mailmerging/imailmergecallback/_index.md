@@ -1,7 +1,7 @@
 ---
-title: "IMailMergeCallback"
+title: IMailMergeCallback
 second_title: Aspose.Words for .NET API Reference
-description: ""
+description: 
 type: docs
 weight: 3520
 url: /net/aspose.words.mailmerging/imailmergecallback/

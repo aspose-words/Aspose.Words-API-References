@@ -1,7 +1,7 @@
 ---
-title: "AxisCrosses"
+title: AxisCrosses
 second_title: Aspose.Words for .NET API Reference
-description: ""
+description: 
 type: docs
 weight: 520
 url: /net/aspose.words.drawing.charts/axiscrosses/

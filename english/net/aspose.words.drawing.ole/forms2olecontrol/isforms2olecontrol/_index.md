@@ -1,7 +1,7 @@
 ---
-title: "IsForms2OleControl"
+title: IsForms2OleControl
 second_title: Aspose.Words for .NET API Reference
-description: ""
+description: 
 type: docs
 weight: 60
 url: /net/aspose.words.drawing.ole/forms2olecontrol/isforms2olecontrol/

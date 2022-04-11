@@ -1,7 +1,7 @@
 ---
-title: "BaseWebExtensionCollection<T>"
+title: BaseWebExtensionCollection<T>
 second_title: Aspose.Words for .NET API Reference
-description: ""
+description: 
 type: docs
 weight: 6300
 url: /net/aspose.words.webextensions/basewebextensioncollection-1/

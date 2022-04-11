@@ -1,7 +1,7 @@
 ---
-title: "RevisionType"
+title: RevisionType
 second_title: Aspose.Words for .NET API Reference
-description: ""
+description: 
 type: docs
 weight: 4460
 url: /net/aspose.words/revisiontype/

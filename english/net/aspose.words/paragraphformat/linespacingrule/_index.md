@@ -1,7 +1,7 @@
 ---
-title: "LineSpacingRule"
+title: LineSpacingRule
 second_title: Aspose.Words for .NET API Reference
-description: ""
+description: 
 type: docs
 weight: 280
 url: /net/aspose.words/paragraphformat/linespacingrule/

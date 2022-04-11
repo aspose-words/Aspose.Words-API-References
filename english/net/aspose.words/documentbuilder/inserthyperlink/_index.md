@@ -1,7 +1,7 @@
 ---
-title: "InsertHyperlink"
+title: InsertHyperlink
 second_title: Aspose.Words for .NET API Reference
-description: ""
+description: 
 type: docs
 weight: 280
 url: /net/aspose.words/documentbuilder/inserthyperlink/

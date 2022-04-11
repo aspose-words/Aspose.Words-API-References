@@ -1,7 +1,7 @@
 ---
-title: "ResourceLoadingArgs"
+title: ResourceLoadingArgs
 second_title: Aspose.Words for .NET API Reference
-description: ""
+description: 
 type: docs
 weight: 3430
 url: /net/aspose.words.loading/resourceloadingargs/

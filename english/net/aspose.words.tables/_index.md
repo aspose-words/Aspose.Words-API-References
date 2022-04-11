@@ -1,7 +1,7 @@
 ---
-title: "Aspose.Words.Tables"
+title: Aspose.Words.Tables
 second_title: Aspose.Words for .NET API Reference
-description: "The Aspose.Words.Tables namespace contains classes that represent tables, rows, cells and their formatting."
+description: The Aspose.Words.Tables namespace contains classes that represent tables, rows, cells and their formatting.
 type: docs
 weight: 250
 url: /net/aspose.words.tables/

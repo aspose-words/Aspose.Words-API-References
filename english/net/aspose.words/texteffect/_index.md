@@ -1,7 +1,7 @@
 ---
-title: "TextEffect"
+title: TextEffect
 second_title: Aspose.Words for .NET API Reference
-description: ""
+description: 
 type: docs
 weight: 6030
 url: /net/aspose.words/texteffect/

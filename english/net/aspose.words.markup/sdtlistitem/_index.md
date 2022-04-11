@@ -1,7 +1,7 @@
 ---
-title: "SdtListItem"
+title: SdtListItem
 second_title: Aspose.Words for .NET API Reference
-description: ""
+description: 
 type: docs
 weight: 3720
 url: /net/aspose.words.markup/sdtlistitem/

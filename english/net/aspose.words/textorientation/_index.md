@@ -1,7 +1,7 @@
 ---
-title: "TextOrientation"
+title: TextOrientation
 second_title: Aspose.Words for .NET API Reference
-description: ""
+description: 
 type: docs
 weight: 6040
 url: /net/aspose.words/textorientation/

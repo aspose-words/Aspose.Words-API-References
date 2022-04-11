@@ -1,7 +1,7 @@
 ---
-title: "WrapType"
+title: WrapType
 second_title: Aspose.Words for .NET API Reference
-description: ""
+description: 
 type: docs
 weight: 1220
 url: /net/aspose.words.drawing/wraptype/

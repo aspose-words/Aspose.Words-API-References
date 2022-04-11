@@ -1,7 +1,7 @@
 ---
-title: "Aspose.Words.MailMerging"
+title: Aspose.Words.MailMerging
 second_title: Aspose.Words for .NET API Reference
-description: "The Aspose.Words.MailMerging namespace contains classes of the "original" mail merge reporting engine.This reporting engine requires the document to be marked up with Microsoft Word mail merge fields, but supports more functionality than Microsoft Word's mail merge.The engine allows to quickly and easily populate a report template with data from various sources such as DataTable, DataSet, DataView, IDataReader or an array of values.The [`MailMerge`](aspose.words.mailmerging/mailmerge) object which provides access to the reporting functionality is available via the [`Document.MailMerge`](aspose.words/document/mailmerge) property.For the newer and more advanced reporting engine based on the LINQ method syntax see Reporting."
+description: The Aspose.Words.MailMerging namespace contains classes of the "original" mail merge reporting engine.This reporting engine requires the document to be marked up with Microsoft Word mail merge fields, but supports more functionality than Microsoft Word's mail merge.The engine allows to quickly and easily populate a report template with data from various sources such as DataTable, DataSet, DataView, IDataReader or an array of values.The [`MailMerge`](aspose.words.mailmerging/mailmerge) object which provides access to the reporting functionality is available via the [`Document.MailMerge`](aspose.words/document/mailmerge) property.For the newer and more advanced reporting engine based on the LINQ method syntax see Reporting.
 type: docs
 weight: 140
 url: /net/aspose.words.mailmerging/

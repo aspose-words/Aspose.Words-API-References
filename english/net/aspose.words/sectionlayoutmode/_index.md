@@ -1,7 +1,7 @@
 ---
-title: "SectionLayoutMode"
+title: SectionLayoutMode
 second_title: Aspose.Words for .NET API Reference
-description: ""
+description: 
 type: docs
 weight: 5370
 url: /net/aspose.words/sectionlayoutmode/

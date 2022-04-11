@@ -1,7 +1,7 @@
 ---
-title: "DocumentSecurity"
+title: DocumentSecurity
 second_title: Aspose.Words for .NET API Reference
-description: ""
+description: 
 type: docs
 weight: 4180
 url: /net/aspose.words.properties/documentsecurity/

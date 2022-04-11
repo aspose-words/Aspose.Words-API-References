@@ -1,7 +1,7 @@
 ---
-title: "Forms2OleControlCollection"
+title: Forms2OleControlCollection
 second_title: Aspose.Words for .NET API Reference
-description: ""
+description: 
 type: docs
 weight: 980
 url: /net/aspose.words.drawing.ole/forms2olecontrolcollection/

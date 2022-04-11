@@ -1,7 +1,7 @@
 ---
-title: "Aspose.Words.Reporting"
+title: Aspose.Words.Reporting
 second_title: Aspose.Words for .NET API Reference
-description: "This namespace contains classes of the Aspose.Words' new reporting engine that supports report templates marked up with a language based on the LINQ Method Syntax.This new reporting engine is more advanced than the original mail merge reporting engine MailMerging and allows to retrieve data from any .NET class, perform grouping, sorting, joining and interpret C# expressions."
+description: This namespace contains classes of the Aspose.Words' new reporting engine that supports report templates marked up with a language based on the LINQ Method Syntax.This new reporting engine is more advanced than the original mail merge reporting engine MailMerging and allows to retrieve data from any .NET class, perform grouping, sorting, joining and interpret C# expressions.
 type: docs
 weight: 210
 url: /net/aspose.words.reporting/

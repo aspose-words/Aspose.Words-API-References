@@ -1,7 +1,7 @@
 ---
-title: "ParagraphFormat"
+title: ParagraphFormat
 second_title: Aspose.Words for .NET API Reference
-description: ""
+description: 
 type: docs
 weight: 140
 url: /net/aspose.words/style/paragraphformat/

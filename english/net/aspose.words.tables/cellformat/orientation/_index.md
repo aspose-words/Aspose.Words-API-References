@@ -1,7 +1,7 @@
 ---
-title: "Orientation"
+title: Orientation
 second_title: Aspose.Words for .NET API Reference
-description: ""
+description: 
 type: docs
 weight: 140
 url: /net/aspose.words.tables/cellformat/orientation/

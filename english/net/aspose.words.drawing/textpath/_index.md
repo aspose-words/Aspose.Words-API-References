@@ -1,7 +1,7 @@
 ---
-title: "TextPath"
+title: TextPath
 second_title: Aspose.Words for .NET API Reference
-description: ""
+description: 
 type: docs
 weight: 1170
 url: /net/aspose.words.drawing/textpath/

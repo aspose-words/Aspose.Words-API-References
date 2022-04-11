@@ -1,7 +1,7 @@
 ---
-title: "PdfZoomBehavior"
+title: PdfZoomBehavior
 second_title: Aspose.Words for .NET API Reference
-description: ""
+description: 
 type: docs
 weight: 5170
 url: /net/aspose.words.saving/pdfzoombehavior/

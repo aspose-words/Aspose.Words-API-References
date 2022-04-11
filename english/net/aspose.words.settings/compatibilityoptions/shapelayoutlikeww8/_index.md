@@ -1,7 +1,7 @@
 ---
-title: "ShapeLayoutLikeWW8"
+title: ShapeLayoutLikeWW8
 second_title: Aspose.Words for .NET API Reference
-description: ""
+description: 
 type: docs
 weight: 340
 url: /net/aspose.words.settings/compatibilityoptions/shapelayoutlikeww8/

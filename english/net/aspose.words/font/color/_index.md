@@ -1,7 +1,7 @@
 ---
-title: "Color"
+title: Color
 second_title: Aspose.Words for .NET API Reference
-description: ""
+description: 
 type: docs
 weight: 190
 url: /net/aspose.words/font/color/

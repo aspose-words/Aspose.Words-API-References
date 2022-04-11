@@ -1,7 +1,7 @@
 ---
-title: "FindReplaceDirection"
+title: FindReplaceDirection
 second_title: Aspose.Words for .NET API Reference
-description: ""
+description: 
 type: docs
 weight: 4270
 url: /net/aspose.words.replacing/findreplacedirection/

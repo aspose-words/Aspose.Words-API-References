@@ -1,7 +1,7 @@
 ---
-title: "StructuredDocumentTagCollection"
+title: StructuredDocumentTagCollection
 second_title: Aspose.Words for .NET API Reference
-description: ""
+description: 
 type: docs
 weight: 3770
 url: /net/aspose.words.markup/structureddocumenttagcollection/

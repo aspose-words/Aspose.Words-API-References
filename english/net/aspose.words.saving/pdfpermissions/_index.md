@@ -1,7 +1,7 @@
 ---
-title: "PdfPermissions"
+title: PdfPermissions
 second_title: Aspose.Words for .NET API Reference
-description: ""
+description: 
 type: docs
 weight: 5140
 url: /net/aspose.words.saving/pdfpermissions/

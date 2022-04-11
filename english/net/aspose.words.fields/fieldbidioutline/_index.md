@@ -1,7 +1,7 @@
 ---
-title: "FieldBidiOutline"
+title: FieldBidiOutline
 second_title: Aspose.Words for .NET API Reference
-description: ""
+description: 
 type: docs
 weight: 1470
 url: /net/aspose.words.fields/fieldbidioutline/

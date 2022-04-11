@@ -1,7 +1,7 @@
 ---
-title: "ImportFormatMode"
+title: ImportFormatMode
 second_title: Aspose.Words for .NET API Reference
-description: ""
+description: 
 type: docs
 weight: 2970
 url: /net/aspose.words/importformatmode/

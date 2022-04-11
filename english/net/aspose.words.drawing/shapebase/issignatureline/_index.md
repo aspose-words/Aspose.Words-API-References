@@ -1,7 +1,7 @@
 ---
-title: "IsSignatureLine"
+title: IsSignatureLine
 second_title: Aspose.Words for .NET API Reference
-description: ""
+description: 
 type: docs
 weight: 610
 url: /net/aspose.words.drawing/shapebase/issignatureline/

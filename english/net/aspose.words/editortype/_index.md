@@ -1,7 +1,7 @@
 ---
-title: "EditorType"
+title: EditorType
 second_title: Aspose.Words for .NET API Reference
-description: ""
+description: 
 type: docs
 weight: 1270
 url: /net/aspose.words/editortype/

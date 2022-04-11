@@ -1,7 +1,7 @@
 ---
-title: "Group"
+title: Group
 second_title: Aspose.Words for .NET API Reference
-description: ""
+description: 
 type: docs
 weight: 80
 url: /net/aspose.words/revision/group/

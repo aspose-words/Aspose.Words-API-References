@@ -1,7 +1,7 @@
 ---
-title: "MarkupLanguage"
+title: MarkupLanguage
 second_title: Aspose.Words for .NET API Reference
-description: ""
+description: 
 type: docs
 weight: 490
 url: /net/aspose.words.drawing/shapebase/markuplanguage/

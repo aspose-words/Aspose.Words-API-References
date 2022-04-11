@@ -1,7 +1,7 @@
 ---
-title: "FieldEQ"
+title: FieldEQ
 second_title: Aspose.Words for .NET API Reference
-description: ""
+description: 
 type: docs
 weight: 1630
 url: /net/aspose.words.fields/fieldeq/

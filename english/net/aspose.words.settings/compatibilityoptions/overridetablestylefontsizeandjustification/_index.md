@@ -1,7 +1,7 @@
 ---
-title: "OverrideTableStyleFontSizeAndJustification"
+title: OverrideTableStyleFontSizeAndJustification
 second_title: Aspose.Words for .NET API Reference
-description: ""
+description: 
 type: docs
 weight: 680
 url: /net/aspose.words.settings/compatibilityoptions/overridetablestylefontsizeandjustification/

@@ -1,7 +1,7 @@
 ---
-title: "VariableCollection"
+title: VariableCollection
 second_title: Aspose.Words for .NET API Reference
-description: ""
+description: 
 type: docs
 weight: 6140
 url: /net/aspose.words/variablecollection/

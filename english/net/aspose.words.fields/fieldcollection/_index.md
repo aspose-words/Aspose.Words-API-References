@@ -1,7 +1,7 @@
 ---
-title: "FieldCollection"
+title: FieldCollection
 second_title: Aspose.Words for .NET API Reference
-description: ""
+description: 
 type: docs
 weight: 1510
 url: /net/aspose.words.fields/fieldcollection/

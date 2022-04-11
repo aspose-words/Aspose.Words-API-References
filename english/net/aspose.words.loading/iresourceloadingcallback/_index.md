@@ -1,7 +1,7 @@
 ---
-title: "IResourceLoadingCallback"
+title: IResourceLoadingCallback
 second_title: Aspose.Words for .NET API Reference
-description: ""
+description: 
 type: docs
 weight: 3380
 url: /net/aspose.words.loading/iresourceloadingcallback/

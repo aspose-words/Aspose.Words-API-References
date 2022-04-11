@@ -1,7 +1,7 @@
 ---
-title: "RightExpression"
+title: RightExpression
 second_title: Aspose.Words for .NET API Reference
-description: ""
+description: 
 type: docs
 weight: 40
 url: /net/aspose.words.fields/fieldskipif/rightexpression/

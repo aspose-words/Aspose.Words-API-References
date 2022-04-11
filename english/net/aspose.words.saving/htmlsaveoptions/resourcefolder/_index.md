@@ -1,7 +1,7 @@
 ---
-title: "ResourceFolder"
+title: ResourceFolder
 second_title: Aspose.Words for .NET API Reference
-description: ""
+description: 
 type: docs
 weight: 320
 url: /net/aspose.words.saving/htmlsaveoptions/resourcefolder/

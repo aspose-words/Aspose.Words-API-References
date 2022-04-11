@@ -1,7 +1,7 @@
 ---
-title: "CurrentStory"
+title: CurrentStory
 second_title: Aspose.Words for .NET API Reference
-description: ""
+description: 
 type: docs
 weight: 620
 url: /net/aspose.words/documentbuilder/currentstory/

@@ -1,7 +1,7 @@
 ---
-title: "CertificateHolder"
+title: CertificateHolder
 second_title: Aspose.Words for .NET API Reference
-description: ""
+description: 
 type: docs
 weight: 350
 url: /net/aspose.words.digitalsignatures/certificateholder/

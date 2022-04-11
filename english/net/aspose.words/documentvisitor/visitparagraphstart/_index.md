@@ -1,7 +1,7 @@
 ---
-title: "VisitParagraphStart"
+title: VisitParagraphStart
 second_title: Aspose.Words for .NET API Reference
-description: ""
+description: 
 type: docs
 weight: 90
 url: /net/aspose.words/documentvisitor/visitparagraphstart/

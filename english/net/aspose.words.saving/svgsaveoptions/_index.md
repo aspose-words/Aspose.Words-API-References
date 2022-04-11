@@ -1,7 +1,7 @@
 ---
-title: "SvgSaveOptions"
+title: SvgSaveOptions
 second_title: Aspose.Words for .NET API Reference
-description: ""
+description: 
 type: docs
 weight: 5230
 url: /net/aspose.words.saving/svgsaveoptions/

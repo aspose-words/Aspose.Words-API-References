@@ -1,7 +1,7 @@
 ---
-title: "FieldNumWords"
+title: FieldNumWords
 second_title: Aspose.Words for .NET API Reference
-description: ""
+description: 
 type: docs
 weight: 2030
 url: /net/aspose.words.fields/fieldnumwords/

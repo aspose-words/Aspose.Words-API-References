@@ -1,7 +1,7 @@
 ---
-title: "PdfDigitalSignatureHashAlgorithm"
+title: PdfDigitalSignatureHashAlgorithm
 second_title: Aspose.Words for .NET API Reference
-description: ""
+description: 
 type: docs
 weight: 5070
 url: /net/aspose.words.saving/pdfdigitalsignaturehashalgorithm/

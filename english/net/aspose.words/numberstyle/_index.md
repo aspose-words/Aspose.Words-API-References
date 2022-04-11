@@ -1,7 +1,7 @@
 ---
-title: "NumberStyle"
+title: NumberStyle
 second_title: Aspose.Words for .NET API Reference
-description: ""
+description: 
 type: docs
 weight: 4010
 url: /net/aspose.words/numberstyle/

@@ -1,7 +1,7 @@
 ---
-title: "ContinuousSectionRestart"
+title: ContinuousSectionRestart
 second_title: Aspose.Words for .NET API Reference
-description: ""
+description: 
 type: docs
 weight: 3040
 url: /net/aspose.words.layout/continuoussectionrestart/

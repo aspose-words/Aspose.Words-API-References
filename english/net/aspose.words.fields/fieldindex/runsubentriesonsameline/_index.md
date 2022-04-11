@@ -1,7 +1,7 @@
 ---
-title: "RunSubentriesOnSameLine"
+title: RunSubentriesOnSameLine
 second_title: Aspose.Words for .NET API Reference
-description: ""
+description: 
 type: docs
 weight: 130
 url: /net/aspose.words.fields/fieldindex/runsubentriesonsameline/

@@ -1,7 +1,7 @@
 ---
-title: "RevisionBarsColor"
+title: RevisionBarsColor
 second_title: Aspose.Words for .NET API Reference
-description: ""
+description: 
 type: docs
 weight: 140
 url: /net/aspose.words.layout/revisionoptions/revisionbarscolor/

@@ -1,7 +1,7 @@
 ---
-title: "LanguageId"
+title: LanguageId
 second_title: Aspose.Words for .NET API Reference
-description: ""
+description: 
 type: docs
 weight: 170
 url: /net/aspose.words.fields/fieldindex/languageid/

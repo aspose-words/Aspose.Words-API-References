@@ -1,7 +1,7 @@
 ---
-title: "FieldSymbol"
+title: FieldSymbol
 second_title: Aspose.Words for .NET API Reference
-description: ""
+description: 
 type: docs
 weight: 2260
 url: /net/aspose.words.fields/fieldsymbol/

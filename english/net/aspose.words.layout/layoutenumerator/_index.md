@@ -1,7 +1,7 @@
 ---
-title: "LayoutEnumerator"
+title: LayoutEnumerator
 second_title: Aspose.Words for .NET API Reference
-description: ""
+description: 
 type: docs
 weight: 3080
 url: /net/aspose.words.layout/layoutenumerator/

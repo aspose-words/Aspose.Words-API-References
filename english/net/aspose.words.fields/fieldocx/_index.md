@@ -1,7 +1,7 @@
 ---
-title: "FieldOcx"
+title: FieldOcx
 second_title: Aspose.Words for .NET API Reference
-description: ""
+description: 
 type: docs
 weight: 2040
 url: /net/aspose.words.fields/fieldocx/

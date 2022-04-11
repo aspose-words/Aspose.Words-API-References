@@ -1,7 +1,7 @@
 ---
-title: "AutoSpaceLikeWord95"
+title: AutoSpaceLikeWord95
 second_title: Aspose.Words for .NET API Reference
-description: ""
+description: 
 type: docs
 weight: 390
 url: /net/aspose.words.settings/compatibilityoptions/autospacelikeword95/

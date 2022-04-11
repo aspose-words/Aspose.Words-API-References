@@ -1,7 +1,7 @@
 ---
-title: "Aspose.Words.Themes"
+title: Aspose.Words.Themes
 second_title: Aspose.Words for .NET API Reference
-description: "The Aspose.Words.Themes namespace provides classes that allow to access theme information in Microsoft Word documents."
+description: The Aspose.Words.Themes namespace provides classes that allow to access theme information in Microsoft Word documents.
 type: docs
 weight: 260
 url: /net/aspose.words.themes/

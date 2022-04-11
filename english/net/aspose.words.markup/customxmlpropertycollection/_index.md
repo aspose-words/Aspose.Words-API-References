@@ -1,7 +1,7 @@
 ---
-title: "CustomXmlPropertyCollection"
+title: CustomXmlPropertyCollection
 second_title: Aspose.Words for .NET API Reference
-description: ""
+description: 
 type: docs
 weight: 3650
 url: /net/aspose.words.markup/customxmlpropertycollection/

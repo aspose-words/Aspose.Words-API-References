@@ -1,7 +1,7 @@
 ---
-title: "WebExtensionStoreType"
+title: WebExtensionStoreType
 second_title: Aspose.Words for .NET API Reference
-description: ""
+description: 
 type: docs
 weight: 6420
 url: /net/aspose.words.webextensions/webextensionstoretype/

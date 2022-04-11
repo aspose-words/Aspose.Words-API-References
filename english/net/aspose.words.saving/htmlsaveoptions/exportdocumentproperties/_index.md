@@ -1,7 +1,7 @@
 ---
-title: "ExportDocumentProperties"
+title: ExportDocumentProperties
 second_title: Aspose.Words for .NET API Reference
-description: ""
+description: 
 type: docs
 weight: 130
 url: /net/aspose.words.saving/htmlsaveoptions/exportdocumentproperties/

@@ -1,7 +1,7 @@
 ---
-title: "DateDisplayFormat"
+title: DateDisplayFormat
 second_title: Aspose.Words for .NET API Reference
-description: ""
+description: 
 type: docs
 weight: 250
 url: /net/aspose.words.markup/structureddocumenttag/datedisplayformat/

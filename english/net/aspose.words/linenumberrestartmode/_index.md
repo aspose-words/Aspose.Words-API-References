@@ -1,7 +1,7 @@
 ---
-title: "LineNumberRestartMode"
+title: LineNumberRestartMode
 second_title: Aspose.Words for .NET API Reference
-description: ""
+description: 
 type: docs
 weight: 3170
 url: /net/aspose.words/linenumberrestartmode/

@@ -1,7 +1,7 @@
 ---
-title: "IsLayoutInCell"
+title: IsLayoutInCell
 second_title: Aspose.Words for .NET API Reference
-description: ""
+description: 
 type: docs
 weight: 620
 url: /net/aspose.words.drawing/shapebase/islayoutincell/

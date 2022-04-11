@@ -1,7 +1,7 @@
 ---
-title: "LastChild"
+title: LastChild
 second_title: Aspose.Words for .NET API Reference
-description: ""
+description: 
 type: docs
 weight: 200
 url: /net/aspose.words/compositenode/lastchild/

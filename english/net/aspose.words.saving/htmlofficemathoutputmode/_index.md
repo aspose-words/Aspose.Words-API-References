@@ -1,7 +1,7 @@
 ---
-title: "HtmlOfficeMathOutputMode"
+title: HtmlOfficeMathOutputMode
 second_title: Aspose.Words for .NET API Reference
-description: ""
+description: 
 type: docs
 weight: 4750
 url: /net/aspose.words.saving/htmlofficemathoutputmode/

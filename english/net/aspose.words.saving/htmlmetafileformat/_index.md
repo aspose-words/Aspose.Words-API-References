@@ -1,7 +1,7 @@
 ---
-title: "HtmlMetafileFormat"
+title: HtmlMetafileFormat
 second_title: Aspose.Words for .NET API Reference
-description: ""
+description: 
 type: docs
 weight: 4740
 url: /net/aspose.words.saving/htmlmetafileformat/

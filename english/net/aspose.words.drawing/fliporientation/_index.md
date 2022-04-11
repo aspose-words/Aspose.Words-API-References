@@ -1,7 +1,7 @@
 ---
-title: "FlipOrientation"
+title: FlipOrientation
 second_title: Aspose.Words for .NET API Reference
-description: ""
+description: 
 type: docs
 weight: 830
 url: /net/aspose.words.drawing/fliporientation/

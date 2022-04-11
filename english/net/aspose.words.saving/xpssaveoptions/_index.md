@@ -1,7 +1,7 @@
 ---
-title: "XpsSaveOptions"
+title: XpsSaveOptions
 second_title: Aspose.Words for .NET API Reference
-description: ""
+description: 
 type: docs
 weight: 5340
 url: /net/aspose.words.saving/xpssaveoptions/

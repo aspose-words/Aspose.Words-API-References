@@ -1,7 +1,7 @@
 ---
-title: "FieldSeparator"
+title: FieldSeparator
 second_title: Aspose.Words for .NET API Reference
-description: ""
+description: 
 type: docs
 weight: 2180
 url: /net/aspose.words.fields/fieldseparator/

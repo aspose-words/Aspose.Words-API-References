@@ -1,7 +1,7 @@
 ---
-title: "InchToPoint"
+title: InchToPoint
 second_title: Aspose.Words for .NET API Reference
-description: ""
+description: 
 type: docs
 weight: 40
 url: /net/aspose.words/convertutil/inchtopoint/

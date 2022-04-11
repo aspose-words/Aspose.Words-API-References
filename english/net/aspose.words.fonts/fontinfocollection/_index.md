@@ -1,7 +1,7 @@
 ---
-title: "FontInfoCollection"
+title: FontInfoCollection
 second_title: Aspose.Words for .NET API Reference
-description: ""
+description: 
 type: docs
 weight: 2690
 url: /net/aspose.words.fonts/fontinfocollection/

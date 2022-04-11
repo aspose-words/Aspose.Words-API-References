@@ -1,7 +1,7 @@
 ---
-title: "FieldAdvance"
+title: FieldAdvance
 second_title: Aspose.Words for .NET API Reference
-description: ""
+description: 
 type: docs
 weight: 1360
 url: /net/aspose.words.fields/fieldadvance/

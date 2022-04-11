@@ -1,7 +1,7 @@
 ---
-title: "FieldChar"
+title: FieldChar
 second_title: Aspose.Words for .NET API Reference
-description: ""
+description: 
 type: docs
 weight: 1490
 url: /net/aspose.words.fields/fieldchar/

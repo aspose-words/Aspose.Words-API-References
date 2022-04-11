@@ -1,7 +1,7 @@
 ---
-title: "Inline"
+title: Inline
 second_title: Aspose.Words for .NET API Reference
-description: ""
+description: 
 type: docs
 weight: 3000
 url: /net/aspose.words/inline/

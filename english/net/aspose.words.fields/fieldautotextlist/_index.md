@@ -1,7 +1,7 @@
 ---
-title: "FieldAutoTextList"
+title: FieldAutoTextList
 second_title: Aspose.Words for .NET API Reference
-description: ""
+description: 
 type: docs
 weight: 1440
 url: /net/aspose.words.fields/fieldautotextlist/

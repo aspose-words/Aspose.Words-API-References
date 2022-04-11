@@ -1,7 +1,7 @@
 ---
-title: "BasicTextShaperCache"
+title: BasicTextShaperCache
 second_title: Aspose.Words for .NET API Reference
-description: ""
+description: 
 type: docs
 weight: 5610
 url: /net/aspose.words.shaping/basictextshapercache/

@@ -1,7 +1,7 @@
 ---
-title: "RevisionsView"
+title: RevisionsView
 second_title: Aspose.Words for .NET API Reference
-description: ""
+description: 
 type: docs
 weight: 710
 url: /net/aspose.words/document/revisionsview/

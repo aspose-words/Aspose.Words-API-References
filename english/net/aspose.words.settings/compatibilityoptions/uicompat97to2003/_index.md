@@ -1,7 +1,7 @@
 ---
-title: "UICompat97To2003"
+title: UICompat97To2003
 second_title: Aspose.Words for .NET API Reference
-description: ""
+description: 
 type: docs
 weight: 720
 url: /net/aspose.words.settings/compatibilityoptions/uicompat97to2003/

@@ -1,7 +1,7 @@
 ---
-title: "FontFamilyName"
+title: FontFamilyName
 second_title: Aspose.Words for .NET API Reference
-description: ""
+description: 
 type: docs
 weight: 10
 url: /net/aspose.words.fonts/physicalfontinfo/fontfamilyname/

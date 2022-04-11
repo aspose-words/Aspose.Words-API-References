@@ -1,7 +1,7 @@
 ---
-title: "WarningInfoCollection"
+title: WarningInfoCollection
 second_title: Aspose.Words for .NET API Reference
-description: ""
+description: 
 type: docs
 weight: 6240
 url: /net/aspose.words/warninginfocollection/

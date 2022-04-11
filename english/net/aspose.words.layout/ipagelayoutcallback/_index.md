@@ -1,7 +1,7 @@
 ---
-title: "IPageLayoutCallback"
+title: IPageLayoutCallback
 second_title: Aspose.Words for .NET API Reference
-description: ""
+description: 
 type: docs
 weight: 3050
 url: /net/aspose.words.layout/ipagelayoutcallback/

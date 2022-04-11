@@ -1,7 +1,7 @@
 ---
-title: "BarcodeParameters"
+title: BarcodeParameters
 second_title: Aspose.Words for .NET API Reference
-description: ""
+description: 
 type: docs
 weight: 1290
 url: /net/aspose.words.fields/barcodeparameters/

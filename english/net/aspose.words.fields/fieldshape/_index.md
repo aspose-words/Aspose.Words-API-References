@@ -1,7 +1,7 @@
 ---
-title: "FieldShape"
+title: FieldShape
 second_title: Aspose.Words for .NET API Reference
-description: ""
+description: 
 type: docs
 weight: 2210
 url: /net/aspose.words.fields/fieldshape/

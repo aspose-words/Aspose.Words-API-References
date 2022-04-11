@@ -1,7 +1,7 @@
 ---
-title: "AllowSpaceOfSameStyleInTable"
+title: AllowSpaceOfSameStyleInTable
 second_title: Aspose.Words for .NET API Reference
-description: ""
+description: 
 type: docs
 weight: 550
 url: /net/aspose.words.settings/compatibilityoptions/allowspaceofsamestyleintable/

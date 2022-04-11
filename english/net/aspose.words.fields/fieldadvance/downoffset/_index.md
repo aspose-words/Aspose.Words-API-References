@@ -1,7 +1,7 @@
 ---
-title: "DownOffset"
+title: DownOffset
 second_title: Aspose.Words for .NET API Reference
-description: ""
+description: 
 type: docs
 weight: 20
 url: /net/aspose.words.fields/fieldadvance/downoffset/

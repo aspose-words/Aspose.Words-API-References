@@ -1,7 +1,7 @@
 ---
-title: "IsItalic"
+title: IsItalic
 second_title: Aspose.Words for .NET API Reference
-description: ""
+description: 
 type: docs
 weight: 50
 url: /net/aspose.words.fields/fieldxe/isitalic/

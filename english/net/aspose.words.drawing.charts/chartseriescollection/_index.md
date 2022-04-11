@@ -1,7 +1,7 @@
 ---
-title: "ChartSeriesCollection"
+title: ChartSeriesCollection
 second_title: Aspose.Words for .NET API Reference
-description: ""
+description: 
 type: docs
 weight: 730
 url: /net/aspose.words.drawing.charts/chartseriescollection/

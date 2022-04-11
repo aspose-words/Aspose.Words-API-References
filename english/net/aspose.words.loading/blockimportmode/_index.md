@@ -1,7 +1,7 @@
 ---
-title: "BlockImportMode"
+title: BlockImportMode
 second_title: Aspose.Words for .NET API Reference
-description: ""
+description: 
 type: docs
 weight: 3300
 url: /net/aspose.words.loading/blockimportmode/

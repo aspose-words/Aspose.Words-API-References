@@ -1,7 +1,7 @@
 ---
-title: "TruncateFontHeightsLikeWP6"
+title: TruncateFontHeightsLikeWP6
 second_title: Aspose.Words for .NET API Reference
-description: ""
+description: 
 type: docs
 weight: 250
 url: /net/aspose.words.settings/compatibilityoptions/truncatefontheightslikewp6/

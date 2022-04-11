@@ -1,7 +1,7 @@
 ---
-title: "PdfDigitalSignatureDetails"
+title: PdfDigitalSignatureDetails
 second_title: Aspose.Words for .NET API Reference
-description: ""
+description: 
 type: docs
 weight: 5060
 url: /net/aspose.words.saving/pdfdigitalsignaturedetails/

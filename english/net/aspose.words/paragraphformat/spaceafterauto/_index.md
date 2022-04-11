@@ -1,7 +1,7 @@
 ---
-title: "SpaceAfterAuto"
+title: SpaceAfterAuto
 second_title: Aspose.Words for .NET API Reference
-description: ""
+description: 
 type: docs
 weight: 230
 url: /net/aspose.words/paragraphformat/spaceafterauto/

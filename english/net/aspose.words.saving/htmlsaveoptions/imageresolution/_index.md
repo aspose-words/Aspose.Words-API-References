@@ -1,7 +1,7 @@
 ---
-title: "ImageResolution"
+title: ImageResolution
 second_title: Aspose.Words for .NET API Reference
-description: ""
+description: 
 type: docs
 weight: 400
 url: /net/aspose.words.saving/htmlsaveoptions/imageresolution/

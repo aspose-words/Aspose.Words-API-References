@@ -1,7 +1,7 @@
 ---
-title: "SectionCollection"
+title: SectionCollection
 second_title: Aspose.Words for .NET API Reference
-description: ""
+description: 
 type: docs
 weight: 5360
 url: /net/aspose.words/sectioncollection/

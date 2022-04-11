@@ -1,7 +1,7 @@
 ---
-title: "Active"
+title: Active
 second_title: Aspose.Words for .NET API Reference
-description: ""
+description: 
 type: docs
 weight: 30
 url: /net/aspose.words.settings/odsorecipientdata/active/

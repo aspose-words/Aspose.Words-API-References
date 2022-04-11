@@ -1,7 +1,7 @@
 ---
-title: "Dark1"
+title: Dark1
 second_title: Aspose.Words for .NET API Reference
-description: ""
+description: 
 type: docs
 weight: 70
 url: /net/aspose.words.themes/themecolors/dark1/

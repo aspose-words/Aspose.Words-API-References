@@ -1,7 +1,7 @@
 ---
-title: "NameOfApplication"
+title: NameOfApplication
 second_title: Aspose.Words for .NET API Reference
-description: ""
+description: 
 type: docs
 weight: 180
 url: /net/aspose.words.properties/builtindocumentproperties/nameofapplication/

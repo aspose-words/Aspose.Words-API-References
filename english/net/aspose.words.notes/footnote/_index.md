@@ -1,7 +1,7 @@
 ---
-title: "Footnote"
+title: Footnote
 second_title: Aspose.Words for .NET API Reference
-description: ""
+description: 
 type: docs
 weight: 3960
 url: /net/aspose.words.notes/footnote/

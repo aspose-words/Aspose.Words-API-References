@@ -1,7 +1,7 @@
 ---
-title: "Underline"
+title: Underline
 second_title: Aspose.Words for .NET API Reference
-description: ""
+description: 
 type: docs
 weight: 6120
 url: /net/aspose.words/underline/

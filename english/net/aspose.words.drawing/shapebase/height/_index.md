@@ -1,7 +1,7 @@
 ---
-title: "Height"
+title: Height
 second_title: Aspose.Words for .NET API Reference
-description: ""
+description: 
 type: docs
 weight: 370
 url: /net/aspose.words.drawing/shapebase/height/

@@ -1,7 +1,7 @@
 ---
-title: "HtmlControlType"
+title: HtmlControlType
 second_title: Aspose.Words for .NET API Reference
-description: ""
+description: 
 type: docs
 weight: 3350
 url: /net/aspose.words.loading/htmlcontroltype/

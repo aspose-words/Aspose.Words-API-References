@@ -1,7 +1,7 @@
 ---
-title: "NodeList"
+title: NodeList
 second_title: Aspose.Words for .NET API Reference
-description: ""
+description: 
 type: docs
 weight: 3920
 url: /net/aspose.words/nodelist/

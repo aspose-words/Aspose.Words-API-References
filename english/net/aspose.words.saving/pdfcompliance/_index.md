@@ -1,7 +1,7 @@
 ---
-title: "PdfCompliance"
+title: PdfCompliance
 second_title: Aspose.Words for .NET API Reference
-description: ""
+description: 
 type: docs
 weight: 5040
 url: /net/aspose.words.saving/pdfcompliance/

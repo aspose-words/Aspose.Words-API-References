@@ -1,7 +1,7 @@
 ---
-title: "FileCorruptedException"
+title: FileCorruptedException
 second_title: Aspose.Words for .NET API Reference
-description: ""
+description: 
 type: docs
 weight: 2560
 url: /net/aspose.words/filecorruptedexception/

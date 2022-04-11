@@ -1,7 +1,7 @@
 ---
-title: "MoveLastChild"
+title: MoveLastChild
 second_title: Aspose.Words for .NET API Reference
-description: ""
+description: 
 type: docs
 weight: 70
 url: /net/aspose.words.layout/layoutenumerator/movelastchild/

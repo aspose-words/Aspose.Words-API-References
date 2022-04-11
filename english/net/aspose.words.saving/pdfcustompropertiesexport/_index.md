@@ -1,7 +1,7 @@
 ---
-title: "PdfCustomPropertiesExport"
+title: PdfCustomPropertiesExport
 second_title: Aspose.Words for .NET API Reference
-description: ""
+description: 
 type: docs
 weight: 5050
 url: /net/aspose.words.saving/pdfcustompropertiesexport/

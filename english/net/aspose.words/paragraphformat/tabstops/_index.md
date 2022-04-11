@@ -1,7 +1,7 @@
 ---
-title: "TabStops"
+title: TabStops
 second_title: Aspose.Words for .NET API Reference
-description: ""
+description: 
 type: docs
 weight: 410
 url: /net/aspose.words/paragraphformat/tabstops/

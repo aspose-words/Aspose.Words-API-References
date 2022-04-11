@@ -1,7 +1,7 @@
 ---
-title: "IsComposite"
+title: IsComposite
 second_title: Aspose.Words for .NET API Reference
-description: ""
+description: 
 type: docs
 weight: 160
 url: /net/aspose.words/compositenode/iscomposite/

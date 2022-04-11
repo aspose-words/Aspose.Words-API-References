@@ -1,7 +1,7 @@
 ---
-title: "StoryType"
+title: StoryType
 second_title: Aspose.Words for .NET API Reference
-description: ""
+description: 
 type: docs
 weight: 5730
 url: /net/aspose.words/storytype/

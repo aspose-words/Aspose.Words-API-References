@@ -1,7 +1,7 @@
 ---
-title: "DocumentProperty"
+title: DocumentProperty
 second_title: Aspose.Words for .NET API Reference
-description: ""
+description: 
 type: docs
 weight: 4160
 url: /net/aspose.words.properties/documentproperty/

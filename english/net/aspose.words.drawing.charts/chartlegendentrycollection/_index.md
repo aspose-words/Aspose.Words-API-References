@@ -1,7 +1,7 @@
 ---
-title: "ChartLegendEntryCollection"
+title: ChartLegendEntryCollection
 second_title: Aspose.Words for .NET API Reference
-description: ""
+description: 
 type: docs
 weight: 690
 url: /net/aspose.words.drawing.charts/chartlegendentrycollection/

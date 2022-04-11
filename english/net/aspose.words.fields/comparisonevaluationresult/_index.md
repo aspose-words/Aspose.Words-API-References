@@ -1,7 +1,7 @@
 ---
-title: "ComparisonEvaluationResult"
+title: ComparisonEvaluationResult
 second_title: Aspose.Words for .NET API Reference
-description: ""
+description: 
 type: docs
 weight: 1300
 url: /net/aspose.words.fields/comparisonevaluationresult/

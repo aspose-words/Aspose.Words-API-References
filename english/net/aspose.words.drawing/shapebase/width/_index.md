@@ -1,7 +1,7 @@
 ---
-title: "Width"
+title: Width
 second_title: Aspose.Words for .NET API Reference
-description: ""
+description: 
 type: docs
 weight: 360
 url: /net/aspose.words.drawing/shapebase/width/

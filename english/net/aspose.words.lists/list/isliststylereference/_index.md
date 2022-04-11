@@ -1,7 +1,7 @@
 ---
-title: "IsListStyleReference"
+title: IsListStyleReference
 second_title: Aspose.Words for .NET API Reference
-description: ""
+description: 
 type: docs
 weight: 100
 url: /net/aspose.words.lists/list/isliststylereference/

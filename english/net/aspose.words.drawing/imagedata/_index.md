@@ -1,7 +1,7 @@
 ---
-title: "ImageData"
+title: ImageData
 second_title: Aspose.Words for .NET API Reference
-description: ""
+description: 
 type: docs
 weight: 920
 url: /net/aspose.words.drawing/imagedata/

@@ -1,7 +1,7 @@
 ---
-title: "TextBoxWrapMode"
+title: TextBoxWrapMode
 second_title: Aspose.Words for .NET API Reference
-description: ""
+description: 
 type: docs
 weight: 1160
 url: /net/aspose.words.drawing/textboxwrapmode/

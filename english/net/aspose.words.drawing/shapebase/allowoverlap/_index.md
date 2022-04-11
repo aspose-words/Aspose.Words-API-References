@@ -1,7 +1,7 @@
 ---
-title: "AllowOverlap"
+title: AllowOverlap
 second_title: Aspose.Words for .NET API Reference
-description: ""
+description: 
 type: docs
 weight: 290
 url: /net/aspose.words.drawing/shapebase/allowoverlap/

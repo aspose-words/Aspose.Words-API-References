@@ -1,7 +1,7 @@
 ---
-title: "RowFormat"
+title: RowFormat
 second_title: Aspose.Words for .NET API Reference
-description: ""
+description: 
 type: docs
 weight: 5940
 url: /net/aspose.words.tables/rowformat/

@@ -1,7 +1,7 @@
 ---
-title: "GetFontsSources"
+title: GetFontsSources
 second_title: Aspose.Words for .NET API Reference
-description: ""
+description: 
 type: docs
 weight: 40
 url: /net/aspose.words.fonts/fontsettings/getfontssources/

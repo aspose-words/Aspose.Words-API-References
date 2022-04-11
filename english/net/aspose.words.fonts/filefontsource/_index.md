@@ -1,7 +1,7 @@
 ---
-title: "FileFontSource"
+title: FileFontSource
 second_title: Aspose.Words for .NET API Reference
-description: ""
+description: 
 type: docs
 weight: 2630
 url: /net/aspose.words.fonts/filefontsource/

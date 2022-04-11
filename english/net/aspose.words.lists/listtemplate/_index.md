@@ -1,7 +1,7 @@
 ---
-title: "ListTemplate"
+title: ListTemplate
 second_title: Aspose.Words for .NET API Reference
-description: ""
+description: 
 type: docs
 weight: 3270
 url: /net/aspose.words.lists/listtemplate/

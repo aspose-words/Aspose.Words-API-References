@@ -1,7 +1,7 @@
 ---
-title: "UseWord97LineBreakRules"
+title: UseWord97LineBreakRules
 second_title: Aspose.Words for .NET API Reference
-description: ""
+description: 
 type: docs
 weight: 430
 url: /net/aspose.words.settings/compatibilityoptions/useword97linebreakrules/

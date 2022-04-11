@@ -1,7 +1,7 @@
 ---
-title: "ApplyBreakingRules"
+title: ApplyBreakingRules
 second_title: Aspose.Words for .NET API Reference
-description: ""
+description: 
 type: docs
 weight: 470
 url: /net/aspose.words.settings/compatibilityoptions/applybreakingrules/

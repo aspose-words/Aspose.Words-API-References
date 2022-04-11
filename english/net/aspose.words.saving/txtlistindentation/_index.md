@@ -1,7 +1,7 @@
 ---
-title: "TxtListIndentation"
+title: TxtListIndentation
 second_title: Aspose.Words for .NET API Reference
-description: ""
+description: 
 type: docs
 weight: 5280
 url: /net/aspose.words.saving/txtlistindentation/

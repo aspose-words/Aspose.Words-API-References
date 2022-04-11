@@ -1,7 +1,7 @@
 ---
-title: "FieldDate"
+title: FieldDate
 second_title: Aspose.Words for .NET API Reference
-description: ""
+description: 
 type: docs
 weight: 1570
 url: /net/aspose.words.fields/fielddate/

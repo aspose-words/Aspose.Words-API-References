@@ -1,7 +1,7 @@
 ---
-title: "RowCollection"
+title: RowCollection
 second_title: Aspose.Words for .NET API Reference
-description: ""
+description: 
 type: docs
 weight: 5930
 url: /net/aspose.words.tables/rowcollection/

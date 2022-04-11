@@ -1,7 +1,7 @@
 ---
-title: "StyleName"
+title: StyleName
 second_title: Aspose.Words for .NET API Reference
-description: ""
+description: 
 type: docs
 weight: 340
 url: /net/aspose.words.markup/structureddocumenttag/stylename/

@@ -1,7 +1,7 @@
 ---
-title: "FieldEditTime"
+title: FieldEditTime
 second_title: Aspose.Words for .NET API Reference
-description: ""
+description: 
 type: docs
 weight: 1640
 url: /net/aspose.words.fields/fieldedittime/

@@ -1,7 +1,7 @@
 ---
-title: "FontsFolder"
+title: FontsFolder
 second_title: Aspose.Words for .NET API Reference
-description: ""
+description: 
 type: docs
 weight: 340
 url: /net/aspose.words.saving/htmlsaveoptions/fontsfolder/

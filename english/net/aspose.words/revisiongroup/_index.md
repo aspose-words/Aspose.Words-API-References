@@ -1,7 +1,7 @@
 ---
-title: "RevisionGroup"
+title: RevisionGroup
 second_title: Aspose.Words for .NET API Reference
-description: ""
+description: 
 type: docs
 weight: 4440
 url: /net/aspose.words/revisiongroup/

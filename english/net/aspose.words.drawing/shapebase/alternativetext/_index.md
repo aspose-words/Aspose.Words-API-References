@@ -1,7 +1,7 @@
 ---
-title: "AlternativeText"
+title: AlternativeText
 second_title: Aspose.Words for .NET API Reference
-description: ""
+description: 
 type: docs
 weight: 130
 url: /net/aspose.words.drawing/shapebase/alternativetext/

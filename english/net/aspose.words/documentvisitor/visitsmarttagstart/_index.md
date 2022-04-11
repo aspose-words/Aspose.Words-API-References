@@ -1,7 +1,7 @@
 ---
-title: "VisitSmartTagStart"
+title: VisitSmartTagStart
 second_title: Aspose.Words for .NET API Reference
-description: ""
+description: 
 type: docs
 weight: 380
 url: /net/aspose.words/documentvisitor/visitsmarttagstart/

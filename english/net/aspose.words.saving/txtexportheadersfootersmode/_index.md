@@ -1,7 +1,7 @@
 ---
-title: "TxtExportHeadersFootersMode"
+title: TxtExportHeadersFootersMode
 second_title: Aspose.Words for .NET API Reference
-description: ""
+description: 
 type: docs
 weight: 5270
 url: /net/aspose.words.saving/txtexportheadersfootersmode/

@@ -1,7 +1,7 @@
 ---
-title: "TableAlignment"
+title: TableAlignment
 second_title: Aspose.Words for .NET API Reference
-description: ""
+description: 
 type: docs
 weight: 5960
 url: /net/aspose.words.tables/tablealignment/

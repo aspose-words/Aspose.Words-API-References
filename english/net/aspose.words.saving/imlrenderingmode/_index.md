@@ -1,7 +1,7 @@
 ---
-title: "ImlRenderingMode"
+title: ImlRenderingMode
 second_title: Aspose.Words for .NET API Reference
-description: ""
+description: 
 type: docs
 weight: 4900
 url: /net/aspose.words.saving/imlrenderingmode/

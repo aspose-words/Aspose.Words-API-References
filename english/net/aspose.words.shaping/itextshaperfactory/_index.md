@@ -1,7 +1,7 @@
 ---
-title: "ITextShaperFactory"
+title: ITextShaperFactory
 second_title: Aspose.Words for .NET API Reference
-description: ""
+description: 
 type: docs
 weight: 5670
 url: /net/aspose.words.shaping/itextshaperfactory/

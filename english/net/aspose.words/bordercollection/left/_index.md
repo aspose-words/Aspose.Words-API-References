@@ -1,7 +1,7 @@
 ---
-title: "Left"
+title: Left
 second_title: Aspose.Words for .NET API Reference
-description: ""
+description: 
 type: docs
 weight: 50
 url: /net/aspose.words/bordercollection/left/

@@ -1,7 +1,7 @@
 ---
-title: "VisitBuildingBlockStart"
+title: VisitBuildingBlockStart
 second_title: Aspose.Words for .NET API Reference
-description: ""
+description: 
 type: docs
 weight: 440
 url: /net/aspose.words/documentvisitor/visitbuildingblockstart/

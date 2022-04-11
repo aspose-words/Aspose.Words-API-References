@@ -1,7 +1,7 @@
 ---
-title: "ShowLeaderLines"
+title: ShowLeaderLines
 second_title: Aspose.Words for .NET API Reference
-description: ""
+description: 
 type: docs
 weight: 90
 url: /net/aspose.words.drawing.charts/chartdatalabel/showleaderlines/

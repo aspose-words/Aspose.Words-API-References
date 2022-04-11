@@ -1,7 +1,7 @@
 ---
-title: "RecognizeUtf8Text"
+title: RecognizeUtf8Text
 second_title: Aspose.Words for .NET API Reference
-description: ""
+description: 
 type: docs
 weight: 20
 url: /net/aspose.words.loading/rtfloadoptions/recognizeutf8text/

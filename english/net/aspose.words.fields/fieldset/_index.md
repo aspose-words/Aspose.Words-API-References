@@ -1,7 +1,7 @@
 ---
-title: "FieldSet"
+title: FieldSet
 second_title: Aspose.Words for .NET API Reference
-description: ""
+description: 
 type: docs
 weight: 2200
 url: /net/aspose.words.fields/fieldset/

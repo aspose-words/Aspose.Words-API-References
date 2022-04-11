@@ -1,7 +1,7 @@
 ---
-title: "JoinStyle"
+title: JoinStyle
 second_title: Aspose.Words for .NET API Reference
-description: ""
+description: 
 type: docs
 weight: 950
 url: /net/aspose.words.drawing/joinstyle/

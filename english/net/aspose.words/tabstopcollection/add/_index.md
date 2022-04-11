@@ -1,7 +1,7 @@
 ---
-title: "Add"
+title: Add
 second_title: Aspose.Words for .NET API Reference
-description: ""
+description: 
 type: docs
 weight: 60
 url: /net/aspose.words/tabstopcollection/add/

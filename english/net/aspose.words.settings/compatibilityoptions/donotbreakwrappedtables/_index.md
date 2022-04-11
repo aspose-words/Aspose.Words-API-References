@@ -1,7 +1,7 @@
 ---
-title: "DoNotBreakWrappedTables"
+title: DoNotBreakWrappedTables
 second_title: Aspose.Words for .NET API Reference
-description: ""
+description: 
 type: docs
 weight: 440
 url: /net/aspose.words.settings/compatibilityoptions/donotbreakwrappedtables/

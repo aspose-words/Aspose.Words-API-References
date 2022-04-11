@@ -1,7 +1,7 @@
 ---
-title: "Value"
+title: Value
 second_title: Aspose.Words for .NET API Reference
-description: ""
+description: 
 type: docs
 weight: 60
 url: /net/aspose.words.drawing.charts/axisbound/value/

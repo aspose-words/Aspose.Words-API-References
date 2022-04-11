@@ -1,7 +1,7 @@
 ---
-title: "WidowControl"
+title: WidowControl
 second_title: Aspose.Words for .NET API Reference
-description: ""
+description: 
 type: docs
 weight: 90
 url: /net/aspose.words/paragraphformat/widowcontrol/

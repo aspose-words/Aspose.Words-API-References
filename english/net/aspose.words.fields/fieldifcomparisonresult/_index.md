@@ -1,7 +1,7 @@
 ---
-title: "FieldIfComparisonResult"
+title: FieldIfComparisonResult
 second_title: Aspose.Words for .NET API Reference
-description: ""
+description: 
 type: docs
 weight: 1810
 url: /net/aspose.words.fields/fieldifcomparisonresult/

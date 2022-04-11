@@ -1,7 +1,7 @@
 ---
-title: "RelativeVerticalPosition"
+title: RelativeVerticalPosition
 second_title: Aspose.Words for .NET API Reference
-description: ""
+description: 
 type: docs
 weight: 1060
 url: /net/aspose.words.drawing/relativeverticalposition/

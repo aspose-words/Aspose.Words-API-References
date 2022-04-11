@@ -1,7 +1,7 @@
 ---
-title: "IFieldUpdatingCallback"
+title: IFieldUpdatingCallback
 second_title: Aspose.Words for .NET API Reference
-description: ""
+description: 
 type: docs
 weight: 2490
 url: /net/aspose.words.fields/ifieldupdatingcallback/

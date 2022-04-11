@@ -1,7 +1,7 @@
 ---
-title: "PreferredWidthType"
+title: PreferredWidthType
 second_title: Aspose.Words for .NET API Reference
-description: ""
+description: 
 type: docs
 weight: 5910
 url: /net/aspose.words.tables/preferredwidthtype/

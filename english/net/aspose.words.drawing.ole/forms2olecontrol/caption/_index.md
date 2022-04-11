@@ -1,7 +1,7 @@
 ---
-title: "Caption"
+title: Caption
 second_title: Aspose.Words for .NET API Reference
-description: ""
+description: 
 type: docs
 weight: 10
 url: /net/aspose.words.drawing.ole/forms2olecontrol/caption/

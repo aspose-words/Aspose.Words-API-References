@@ -1,7 +1,7 @@
 ---
-title: "OutlineOptions"
+title: OutlineOptions
 second_title: Aspose.Words for .NET API Reference
-description: ""
+description: 
 type: docs
 weight: 4990
 url: /net/aspose.words.saving/outlineoptions/

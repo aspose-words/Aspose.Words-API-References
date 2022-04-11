@@ -1,7 +1,7 @@
 ---
-title: "BuildingBlockType"
+title: BuildingBlockType
 second_title: Aspose.Words for .NET API Reference
-description: ""
+description: 
 type: docs
 weight: 160
 url: /net/aspose.words.buildingblocks/buildingblocktype/
