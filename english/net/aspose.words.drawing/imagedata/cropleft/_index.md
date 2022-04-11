@@ -1,7 +1,7 @@
 ---
-title: CropLeft
+title: "CropLeft"
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: ""
 type: docs
 weight: 160
 url: /net/aspose.words.drawing/imagedata/cropleft/

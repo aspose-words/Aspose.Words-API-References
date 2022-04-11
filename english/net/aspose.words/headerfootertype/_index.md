@@ -1,7 +1,7 @@
 ---
-title: HeaderFooterType
+title: "HeaderFooterType"
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: ""
 type: docs
 weight: 2880
 url: /net/aspose.words/headerfootertype/

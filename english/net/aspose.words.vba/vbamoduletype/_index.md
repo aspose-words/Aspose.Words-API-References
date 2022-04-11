@@ -1,7 +1,7 @@
 ---
-title: VbaModuleType
+title: "VbaModuleType"
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: ""
 type: docs
 weight: 6170
 url: /net/aspose.words.vba/vbamoduletype/

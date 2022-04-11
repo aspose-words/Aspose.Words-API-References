@@ -1,7 +1,7 @@
 ---
-title: Horizontal
+title: "Horizontal"
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: ""
 type: docs
 weight: 90
 url: /net/aspose.words/bordercollection/horizontal/

@@ -1,7 +1,7 @@
 ---
-title: OdsoFieldMappingType
+title: "OdsoFieldMappingType"
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: ""
 type: docs
 weight: 5530
 url: /net/aspose.words.settings/odsofieldmappingtype/

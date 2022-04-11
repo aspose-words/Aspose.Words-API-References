@@ -1,7 +1,7 @@
 ---
-title: PropertyType
+title: "PropertyType"
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: ""
 type: docs
 weight: 4190
 url: /net/aspose.words.properties/propertytype/

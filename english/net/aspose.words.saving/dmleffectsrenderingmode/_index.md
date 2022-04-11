@@ -1,7 +1,7 @@
 ---
-title: DmlEffectsRenderingMode
+title: "DmlEffectsRenderingMode"
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: ""
 type: docs
 weight: 4570
 url: /net/aspose.words.saving/dmleffectsrenderingmode/

@@ -1,7 +1,7 @@
 ---
-title: Table
+title: "Table"
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: ""
 type: docs
 weight: 100
 url: /net/aspose.words.tables/table/table/

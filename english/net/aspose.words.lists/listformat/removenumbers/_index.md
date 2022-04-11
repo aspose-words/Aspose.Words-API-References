@@ -1,7 +1,7 @@
 ---
-title: RemoveNumbers
+title: "RemoveNumbers"
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: ""
 type: docs
 weight: 30
 url: /net/aspose.words.lists/listformat/removenumbers/

@@ -1,7 +1,7 @@
 ---
-title: ExportImagesAsBase64
+title: "ExportImagesAsBase64"
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: ""
 type: docs
 weight: 170
 url: /net/aspose.words.saving/htmlsaveoptions/exportimagesasbase64/

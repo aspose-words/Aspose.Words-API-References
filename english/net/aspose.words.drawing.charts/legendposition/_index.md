@@ -1,7 +1,7 @@
 ---
-title: LegendPosition
+title: "LegendPosition"
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: ""
 type: docs
 weight: 770
 url: /net/aspose.words.drawing.charts/legendposition/

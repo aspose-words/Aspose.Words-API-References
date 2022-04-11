@@ -1,7 +1,7 @@
 ---
-title: IStructuredDocumentTag
+title: "IStructuredDocumentTag"
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: ""
 type: docs
 weight: 3670
 url: /net/aspose.words.markup/istructureddocumenttag/

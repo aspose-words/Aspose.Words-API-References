@@ -1,7 +1,7 @@
 ---
-title: ChartAxisType
+title: "ChartAxisType"
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: ""
 type: docs
 weight: 610
 url: /net/aspose.words.drawing.charts/chartaxistype/

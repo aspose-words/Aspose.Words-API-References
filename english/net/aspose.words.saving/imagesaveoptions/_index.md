@@ -1,7 +1,7 @@
 ---
-title: ImageSaveOptions
+title: "ImageSaveOptions"
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: ""
 type: docs
 weight: 4880
 url: /net/aspose.words.saving/imagesaveoptions/

@@ -1,7 +1,7 @@
 ---
-title: LineWrapLikeWord6
+title: "LineWrapLikeWord6"
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: ""
 type: docs
 weight: 270
 url: /net/aspose.words.settings/compatibilityoptions/linewraplikeword6/

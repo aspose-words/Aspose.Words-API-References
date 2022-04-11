@@ -1,7 +1,7 @@
 ---
-title: GetChildDataSource
+title: "GetChildDataSource"
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: ""
 type: docs
 weight: 30
 url: /net/aspose.words.mailmerging/imailmergedatasource/getchilddatasource/

@@ -1,7 +1,7 @@
 ---
-title: FieldMergingArgsBase
+title: "FieldMergingArgsBase"
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: ""
 type: docs
 weight: 3500
 url: /net/aspose.words.mailmerging/fieldmergingargsbase/

@@ -1,7 +1,7 @@
 ---
-title: WrapSide
+title: "WrapSide"
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: ""
 type: docs
 weight: 1210
 url: /net/aspose.words.drawing/wrapside/

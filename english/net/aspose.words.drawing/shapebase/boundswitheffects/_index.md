@@ -1,7 +1,7 @@
 ---
-title: BoundsWithEffects
+title: "BoundsWithEffects"
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: ""
 type: docs
 weight: 470
 url: /net/aspose.words.drawing/shapebase/boundswitheffects/

@@ -1,7 +1,7 @@
 ---
-title: InsertOleObjectAsIcon
+title: "InsertOleObjectAsIcon"
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: ""
 type: docs
 weight: 350
 url: /net/aspose.words/documentbuilder/insertoleobjectasicon/

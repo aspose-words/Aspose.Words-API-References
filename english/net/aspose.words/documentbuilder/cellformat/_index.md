@@ -1,7 +1,7 @@
 ---
-title: CellFormat
+title: "CellFormat"
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: ""
 type: docs
 weight: 570
 url: /net/aspose.words/documentbuilder/cellformat/

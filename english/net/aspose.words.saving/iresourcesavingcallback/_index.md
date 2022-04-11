@@ -1,7 +1,7 @@
 ---
-title: IResourceSavingCallback
+title: "IResourceSavingCallback"
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: ""
 type: docs
 weight: 4840
 url: /net/aspose.words.saving/iresourcesavingcallback/

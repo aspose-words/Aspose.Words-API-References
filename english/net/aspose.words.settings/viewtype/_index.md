@@ -1,7 +1,7 @@
 ---
-title: ViewType
+title: "ViewType"
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: ""
 type: docs
 weight: 5570
 url: /net/aspose.words.settings/viewtype/

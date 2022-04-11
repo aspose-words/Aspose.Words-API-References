@@ -1,7 +1,7 @@
 ---
-title: VisitAbsolutePositionTab
+title: "VisitAbsolutePositionTab"
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: ""
 type: docs
 weight: 370
 url: /net/aspose.words/documentvisitor/visitabsolutepositiontab/

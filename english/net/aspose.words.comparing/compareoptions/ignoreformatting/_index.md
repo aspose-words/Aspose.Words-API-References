@@ -1,7 +1,7 @@
 ---
-title: IgnoreFormatting
+title: "IgnoreFormatting"
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: ""
 type: docs
 weight: 80
 url: /net/aspose.words.comparing/compareoptions/ignoreformatting/

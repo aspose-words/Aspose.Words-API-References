@@ -1,7 +1,7 @@
 ---
-title: FieldMergeRec
+title: "FieldMergeRec"
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: ""
 type: docs
 weight: 1960
 url: /net/aspose.words.fields/fieldmergerec/

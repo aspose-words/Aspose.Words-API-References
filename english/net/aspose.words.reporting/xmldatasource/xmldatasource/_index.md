@@ -1,7 +1,7 @@
 ---
-title: XmlDataSource
+title: "XmlDataSource"
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: ""
 type: docs
 weight: 10
 url: /net/aspose.words.reporting/xmldatasource/xmldatasource/

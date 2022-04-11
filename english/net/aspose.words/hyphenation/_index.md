@@ -1,7 +1,7 @@
 ---
-title: Hyphenation
+title: "Hyphenation"
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: ""
 type: docs
 weight: 2910
 url: /net/aspose.words/hyphenation/

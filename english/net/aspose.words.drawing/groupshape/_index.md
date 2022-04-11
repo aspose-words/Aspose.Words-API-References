@@ -1,7 +1,7 @@
 ---
-title: GroupShape
+title: "GroupShape"
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: ""
 type: docs
 weight: 880
 url: /net/aspose.words.drawing/groupshape/

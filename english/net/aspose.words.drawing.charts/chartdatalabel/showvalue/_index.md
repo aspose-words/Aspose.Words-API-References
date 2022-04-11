@@ -1,7 +1,7 @@
 ---
-title: ShowValue
+title: "ShowValue"
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: ""
 type: docs
 weight: 80
 url: /net/aspose.words.drawing.charts/chartdatalabel/showvalue/

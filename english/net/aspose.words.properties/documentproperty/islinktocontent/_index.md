@@ -1,7 +1,7 @@
 ---
-title: IsLinkToContent
+title: "IsLinkToContent"
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: ""
 type: docs
 weight: 110
 url: /net/aspose.words.properties/documentproperty/islinktocontent/

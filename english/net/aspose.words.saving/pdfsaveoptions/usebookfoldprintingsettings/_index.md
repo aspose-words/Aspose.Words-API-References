@@ -1,7 +1,7 @@
 ---
-title: UseBookFoldPrintingSettings
+title: "UseBookFoldPrintingSettings"
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: ""
 type: docs
 weight: 210
 url: /net/aspose.words.saving/pdfsaveoptions/usebookfoldprintingsettings/

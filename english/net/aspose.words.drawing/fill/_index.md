@@ -1,7 +1,7 @@
 ---
-title: Fill
+title: "Fill"
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: ""
 type: docs
 weight: 810
 url: /net/aspose.words.drawing/fill/

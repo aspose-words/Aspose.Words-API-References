@@ -1,7 +1,7 @@
 ---
-title: SetMapping
+title: "SetMapping"
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: ""
 type: docs
 weight: 10
 url: /net/aspose.words.markup/xmlmapping/setmapping/

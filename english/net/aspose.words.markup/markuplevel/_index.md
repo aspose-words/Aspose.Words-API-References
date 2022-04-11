@@ -1,7 +1,7 @@
 ---
-title: MarkupLevel
+title: "MarkupLevel"
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: ""
 type: docs
 weight: 3680
 url: /net/aspose.words.markup/markuplevel/

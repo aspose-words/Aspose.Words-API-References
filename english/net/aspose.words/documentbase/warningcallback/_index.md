@@ -1,7 +1,7 @@
 ---
-title: WarningCallback
+title: "WarningCallback"
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: ""
 type: docs
 weight: 80
 url: /net/aspose.words/documentbase/warningcallback/

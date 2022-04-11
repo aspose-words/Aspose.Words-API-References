@@ -1,7 +1,7 @@
 ---
-title: IChartDataPoint
+title: "IChartDataPoint"
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: ""
 type: docs
 weight: 760
 url: /net/aspose.words.drawing.charts/ichartdatapoint/

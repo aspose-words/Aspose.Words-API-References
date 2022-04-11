@@ -1,7 +1,7 @@
 ---
-title: ListLevelAlignment
+title: "ListLevelAlignment"
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: ""
 type: docs
 weight: 3250
 url: /net/aspose.words.lists/listlevelalignment/

@@ -1,7 +1,7 @@
 ---
-title: HasDataLabels
+title: "HasDataLabels"
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: ""
 type: docs
 weight: 80
 url: /net/aspose.words.drawing.charts/chartseries/hasdatalabels/

@@ -1,7 +1,7 @@
 ---
-title: TabLeader
+title: "TabLeader"
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: ""
 type: docs
 weight: 5800
 url: /net/aspose.words/tableader/

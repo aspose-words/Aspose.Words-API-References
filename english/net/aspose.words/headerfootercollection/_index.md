@@ -1,7 +1,7 @@
 ---
-title: HeaderFooterCollection
+title: "HeaderFooterCollection"
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: ""
 type: docs
 weight: 2870
 url: /net/aspose.words/headerfootercollection/

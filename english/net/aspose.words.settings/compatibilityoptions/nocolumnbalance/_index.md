@@ -1,7 +1,7 @@
 ---
-title: NoColumnBalance
+title: "NoColumnBalance"
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: ""
 type: docs
 weight: 70
 url: /net/aspose.words.settings/compatibilityoptions/nocolumnbalance/

@@ -1,7 +1,7 @@
 ---
-title: OriginalLoadFormat
+title: "OriginalLoadFormat"
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: ""
 type: docs
 weight: 630
 url: /net/aspose.words/document/originalloadformat/

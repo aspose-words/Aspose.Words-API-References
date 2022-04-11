@@ -1,7 +1,7 @@
 ---
-title: MetafileRenderingMode
+title: "MetafileRenderingMode"
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: ""
 type: docs
 weight: 4920
 url: /net/aspose.words.saving/metafilerenderingmode/

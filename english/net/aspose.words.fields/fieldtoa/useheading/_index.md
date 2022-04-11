@@ -1,7 +1,7 @@
 ---
-title: UseHeading
+title: "UseHeading"
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: ""
 type: docs
 weight: 80
 url: /net/aspose.words.fields/fieldtoa/useheading/

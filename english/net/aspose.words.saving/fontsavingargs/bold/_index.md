@@ -1,7 +1,7 @@
 ---
-title: Bold
+title: "Bold"
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: ""
 type: docs
 weight: 30
 url: /net/aspose.words.saving/fontsavingargs/bold/

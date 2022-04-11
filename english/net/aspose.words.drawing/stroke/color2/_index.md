@@ -1,7 +1,7 @@
 ---
-title: Color2
+title: "Color2"
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: ""
 type: docs
 weight: 30
 url: /net/aspose.words.drawing/stroke/color2/

@@ -1,7 +1,7 @@
 ---
-title: DashStyle
+title: "DashStyle"
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: ""
 type: docs
 weight: 790
 url: /net/aspose.words.drawing/dashstyle/

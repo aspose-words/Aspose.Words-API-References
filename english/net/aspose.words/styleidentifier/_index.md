@@ -1,7 +1,7 @@
 ---
-title: StyleIdentifier
+title: "StyleIdentifier"
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: ""
 type: docs
 weight: 5760
 url: /net/aspose.words/styleidentifier/

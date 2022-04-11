@@ -1,7 +1,7 @@
 ---
-title: VisitGlossaryDocumentEnd
+title: "VisitGlossaryDocumentEnd"
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: ""
 type: docs
 weight: 430
 url: /net/aspose.words/documentvisitor/visitglossarydocumentend/

@@ -1,7 +1,7 @@
 ---
-title: OleControl
+title: "OleControl"
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: ""
 type: docs
 weight: 1000
 url: /net/aspose.words.drawing.ole/olecontrol/

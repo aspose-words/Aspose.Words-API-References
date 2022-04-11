@@ -1,7 +1,7 @@
 ---
-title: ChartSeries
+title: "ChartSeries"
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: ""
 type: docs
 weight: 720
 url: /net/aspose.words.drawing.charts/chartseries/

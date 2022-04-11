@@ -1,7 +1,7 @@
 ---
-title: ImageType
+title: "ImageType"
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: ""
 type: docs
 weight: 940
 url: /net/aspose.words.drawing/imagetype/

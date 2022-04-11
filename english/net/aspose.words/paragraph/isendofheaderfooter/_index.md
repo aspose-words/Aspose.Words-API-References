@@ -1,7 +1,7 @@
 ---
-title: IsEndOfHeaderFooter
+title: "IsEndOfHeaderFooter"
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: ""
 type: docs
 weight: 150
 url: /net/aspose.words/paragraph/isendofheaderfooter/

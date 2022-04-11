@@ -1,7 +1,7 @@
 ---
-title: UseFELayout
+title: "UseFELayout"
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: ""
 type: docs
 weight: 670
 url: /net/aspose.words.settings/compatibilityoptions/usefelayout/

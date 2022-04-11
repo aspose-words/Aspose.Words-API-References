@@ -1,7 +1,7 @@
 ---
-title: WebExtensionProperty
+title: "WebExtensionProperty"
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: ""
 type: docs
 weight: 6380
 url: /net/aspose.words.webextensions/webextensionproperty/

@@ -1,7 +1,7 @@
 ---
-title: TextFormFieldType
+title: "TextFormFieldType"
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: ""
 type: docs
 weight: 2530
 url: /net/aspose.words.fields/textformfieldtype/

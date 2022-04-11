@@ -1,7 +1,7 @@
 ---
-title: Watermark
+title: "Watermark"
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: ""
 type: docs
 weight: 6270
 url: /net/aspose.words/watermark/

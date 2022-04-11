@@ -1,7 +1,7 @@
 ---
-title: LayoutOptions
+title: "LayoutOptions"
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: ""
 type: docs
 weight: 700
 url: /net/aspose.words/document/layoutoptions/

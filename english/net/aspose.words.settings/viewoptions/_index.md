@@ -1,7 +1,7 @@
 ---
-title: ViewOptions
+title: "ViewOptions"
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: ""
 type: docs
 weight: 5560
 url: /net/aspose.words.settings/viewoptions/

@@ -1,7 +1,7 @@
 ---
-title: NonBreakingHyphenChar
+title: "NonBreakingHyphenChar"
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: ""
 type: docs
 weight: 240
 url: /net/aspose.words/controlchar/nonbreakinghyphenchar/

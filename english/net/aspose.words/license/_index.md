@@ -1,7 +1,7 @@
 ---
-title: License
+title: "License"
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: ""
 type: docs
 weight: 3160
 url: /net/aspose.words/license/

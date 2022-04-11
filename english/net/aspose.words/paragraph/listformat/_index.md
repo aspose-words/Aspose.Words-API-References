@@ -1,7 +1,7 @@
 ---
-title: ListFormat
+title: "ListFormat"
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: ""
 type: docs
 weight: 180
 url: /net/aspose.words/paragraph/listformat/

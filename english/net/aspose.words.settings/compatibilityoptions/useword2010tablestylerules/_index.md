@@ -1,7 +1,7 @@
 ---
-title: UseWord2010TableStyleRules
+title: "UseWord2010TableStyleRules"
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: ""
 type: docs
 weight: 710
 url: /net/aspose.words.settings/compatibilityoptions/useword2010tablestylerules/

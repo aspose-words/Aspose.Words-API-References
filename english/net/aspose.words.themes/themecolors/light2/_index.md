@@ -1,7 +1,7 @@
 ---
-title: Light2
+title: "Light2"
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: ""
 type: docs
 weight: 120
 url: /net/aspose.words.themes/themecolors/light2/

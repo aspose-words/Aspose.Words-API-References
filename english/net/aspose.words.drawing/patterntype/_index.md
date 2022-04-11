@@ -1,7 +1,7 @@
 ---
-title: PatternType
+title: "PatternType"
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: ""
 type: docs
 weight: 1030
 url: /net/aspose.words.drawing/patterntype/

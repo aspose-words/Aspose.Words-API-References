@@ -1,7 +1,7 @@
 ---
-title: Story
+title: "Story"
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: ""
 type: docs
 weight: 5720
 url: /net/aspose.words/story/

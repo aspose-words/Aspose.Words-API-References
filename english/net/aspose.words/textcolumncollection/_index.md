@@ -1,7 +1,7 @@
 ---
-title: TextColumnCollection
+title: "TextColumnCollection"
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: ""
 type: docs
 weight: 6010
 url: /net/aspose.words/textcolumncollection/

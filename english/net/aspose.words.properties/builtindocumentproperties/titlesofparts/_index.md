@@ -1,7 +1,7 @@
 ---
-title: TitlesOfParts
+title: "TitlesOfParts"
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: ""
 type: docs
 weight: 330
 url: /net/aspose.words.properties/builtindocumentproperties/titlesofparts/

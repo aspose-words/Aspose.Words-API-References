@@ -1,7 +1,7 @@
 ---
-title: Compare
+title: "Compare"
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: ""
 type: docs
 weight: 240
 url: /net/aspose.words/document/compare/

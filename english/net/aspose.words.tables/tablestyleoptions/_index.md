@@ -1,7 +1,7 @@
 ---
-title: TableStyleOptions
+title: "TableStyleOptions"
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: ""
 type: docs
 weight: 5980
 url: /net/aspose.words.tables/tablestyleoptions/

@@ -1,7 +1,7 @@
 ---
-title: AutoFitBehavior
+title: "AutoFitBehavior"
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: ""
 type: docs
 weight: 5840
 url: /net/aspose.words.tables/autofitbehavior/

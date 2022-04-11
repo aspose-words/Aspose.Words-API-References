@@ -1,7 +1,7 @@
 ---
-title: CompressionLevel
+title: "CompressionLevel"
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: ""
 type: docs
 weight: 60
 url: /net/aspose.words.saving/ooxmlsaveoptions/compressionlevel/

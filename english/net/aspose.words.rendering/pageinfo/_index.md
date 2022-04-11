@@ -1,7 +1,7 @@
 ---
-title: PageInfo
+title: "PageInfo"
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: ""
 type: docs
 weight: 4240
 url: /net/aspose.words.rendering/pageinfo/

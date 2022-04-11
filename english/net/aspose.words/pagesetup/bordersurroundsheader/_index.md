@@ -1,7 +1,7 @@
 ---
-title: BorderSurroundsHeader
+title: "BorderSurroundsHeader"
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: ""
 type: docs
 weight: 380
 url: /net/aspose.words/pagesetup/bordersurroundsheader/

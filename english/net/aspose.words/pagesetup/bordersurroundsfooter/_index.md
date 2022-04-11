@@ -1,7 +1,7 @@
 ---
-title: BorderSurroundsFooter
+title: "BorderSurroundsFooter"
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: ""
 type: docs
 weight: 390
 url: /net/aspose.words/pagesetup/bordersurroundsfooter/

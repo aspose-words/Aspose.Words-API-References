@@ -1,7 +1,7 @@
 ---
-title: TextureIndex
+title: "TextureIndex"
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: ""
 type: docs
 weight: 6060
 url: /net/aspose.words/textureindex/

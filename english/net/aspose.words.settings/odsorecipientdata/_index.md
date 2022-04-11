@@ -1,7 +1,7 @@
 ---
-title: OdsoRecipientData
+title: "OdsoRecipientData"
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: ""
 type: docs
 weight: 5540
 url: /net/aspose.words.settings/odsorecipientdata/

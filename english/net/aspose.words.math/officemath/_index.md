@@ -1,7 +1,7 @@
 ---
-title: OfficeMath
+title: "OfficeMath"
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: ""
 type: docs
 weight: 3820
 url: /net/aspose.words.math/officemath/

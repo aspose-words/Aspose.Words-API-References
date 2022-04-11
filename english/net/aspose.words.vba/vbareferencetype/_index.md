@@ -1,7 +1,7 @@
 ---
-title: VbaReferenceType
+title: "VbaReferenceType"
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: ""
 type: docs
 weight: 6210
 url: /net/aspose.words.vba/vbareferencetype/

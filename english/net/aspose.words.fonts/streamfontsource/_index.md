@@ -1,7 +1,7 @@
 ---
-title: StreamFontSource
+title: "StreamFontSource"
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: ""
 type: docs
 weight: 2800
 url: /net/aspose.words.fonts/streamfontsource/

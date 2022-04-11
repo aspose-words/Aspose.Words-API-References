@@ -1,7 +1,7 @@
 ---
-title: WPSpaceWidth
+title: "WPSpaceWidth"
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: ""
 type: docs
 weight: 310
 url: /net/aspose.words.settings/compatibilityoptions/wpspacewidth/

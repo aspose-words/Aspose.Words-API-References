@@ -1,7 +1,7 @@
 ---
-title: SpecialChar
+title: "SpecialChar"
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: ""
 type: docs
 weight: 5710
 url: /net/aspose.words/specialchar/

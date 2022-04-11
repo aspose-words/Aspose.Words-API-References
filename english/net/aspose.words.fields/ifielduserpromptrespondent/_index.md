@@ -1,7 +1,7 @@
 ---
-title: IFieldUserPromptRespondent
+title: "IFieldUserPromptRespondent"
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: ""
 type: docs
 weight: 2500
 url: /net/aspose.words.fields/ifielduserpromptrespondent/

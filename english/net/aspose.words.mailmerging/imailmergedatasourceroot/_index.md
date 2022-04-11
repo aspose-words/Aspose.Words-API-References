@@ -1,7 +1,7 @@
 ---
-title: IMailMergeDataSourceRoot
+title: "IMailMergeDataSourceRoot"
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: ""
 type: docs
 weight: 3540
 url: /net/aspose.words.mailmerging/imailmergedatasourceroot/

@@ -1,7 +1,7 @@
 ---
-title: OoxmlCompliance
+title: "OoxmlCompliance"
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: ""
 type: docs
 weight: 4970
 url: /net/aspose.words.saving/ooxmlcompliance/

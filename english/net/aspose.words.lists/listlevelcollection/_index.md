@@ -1,7 +1,7 @@
 ---
-title: ListLevelCollection
+title: "ListLevelCollection"
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: ""
 type: docs
 weight: 3260
 url: /net/aspose.words.lists/listlevelcollection/

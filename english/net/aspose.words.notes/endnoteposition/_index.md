@@ -1,7 +1,7 @@
 ---
-title: EndnotePosition
+title: "EndnotePosition"
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: ""
 type: docs
 weight: 3950
 url: /net/aspose.words.notes/endnoteposition/

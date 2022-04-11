@@ -1,7 +1,7 @@
 ---
-title: TableSubstitutionRule
+title: "TableSubstitutionRule"
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: ""
 type: docs
 weight: 2820
 url: /net/aspose.words.fonts/tablesubstitutionrule/

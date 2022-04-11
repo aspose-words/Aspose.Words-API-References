@@ -1,7 +1,7 @@
 ---
-title: Direction
+title: "Direction"
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: ""
 type: docs
 weight: 40
 url: /net/aspose.words.replacing/findreplaceoptions/direction/

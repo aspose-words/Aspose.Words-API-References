@@ -1,7 +1,7 @@
 ---
-title: MathObjectType
+title: "MathObjectType"
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: ""
 type: docs
 weight: 3810
 url: /net/aspose.words.math/mathobjecttype/

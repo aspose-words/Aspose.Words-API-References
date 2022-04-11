@@ -1,7 +1,7 @@
 ---
-title: EmfPlusDualRenderingMode
+title: "EmfPlusDualRenderingMode"
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: ""
 type: docs
 weight: 4640
 url: /net/aspose.words.saving/emfplusdualrenderingmode/

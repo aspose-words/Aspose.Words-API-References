@@ -1,7 +1,7 @@
 ---
-title: GrowAutofit
+title: "GrowAutofit"
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: ""
 type: docs
 weight: 510
 url: /net/aspose.words.settings/compatibilityoptions/growautofit/

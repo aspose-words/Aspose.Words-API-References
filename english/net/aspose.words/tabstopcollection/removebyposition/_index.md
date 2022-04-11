@@ -1,7 +1,7 @@
 ---
-title: RemoveByPosition
+title: "RemoveByPosition"
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: ""
 type: docs
 weight: 70
 url: /net/aspose.words/tabstopcollection/removebyposition/

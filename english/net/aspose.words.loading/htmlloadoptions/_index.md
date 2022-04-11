@@ -1,7 +1,7 @@
 ---
-title: HtmlLoadOptions
+title: "HtmlLoadOptions"
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: ""
 type: docs
 weight: 3360
 url: /net/aspose.words.loading/htmlloadoptions/

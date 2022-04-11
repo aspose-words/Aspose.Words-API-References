@@ -1,7 +1,7 @@
 ---
-title: CssStyleSheetType
+title: "CssStyleSheetType"
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: ""
 type: docs
 weight: 4550
 url: /net/aspose.words.saving/cssstylesheettype/

@@ -1,7 +1,7 @@
 ---
-title: AltName
+title: "AltName"
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: ""
 type: docs
 weight: 90
 url: /net/aspose.words.fonts/fontinfo/altname/

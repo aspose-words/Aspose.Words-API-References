@@ -1,7 +1,7 @@
 ---
-title: Texture
+title: "Texture"
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: ""
 type: docs
 weight: 60
 url: /net/aspose.words/shading/texture/

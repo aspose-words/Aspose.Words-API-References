@@ -1,7 +1,7 @@
 ---
-title: SignOptions
+title: "SignOptions"
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: ""
 type: docs
 weight: 400
 url: /net/aspose.words.digitalsignatures/signoptions/

@@ -1,7 +1,7 @@
 ---
-title: ApplyBulletDefault
+title: "ApplyBulletDefault"
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: ""
 type: docs
 weight: 10
 url: /net/aspose.words.lists/listformat/applybulletdefault/

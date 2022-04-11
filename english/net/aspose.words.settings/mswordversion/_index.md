@@ -1,7 +1,7 @@
 ---
-title: MsWordVersion
+title: "MsWordVersion"
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: ""
 type: docs
 weight: 5470
 url: /net/aspose.words.settings/mswordversion/

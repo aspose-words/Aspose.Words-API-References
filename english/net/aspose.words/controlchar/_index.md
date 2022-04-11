@@ -1,7 +1,7 @@
 ---
-title: ControlChar
+title: "ControlChar"
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: ""
 type: docs
 weight: 330
 url: /net/aspose.words/controlchar/

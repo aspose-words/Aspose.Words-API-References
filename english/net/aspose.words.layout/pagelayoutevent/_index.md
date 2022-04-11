@@ -1,7 +1,7 @@
 ---
-title: PageLayoutEvent
+title: "PageLayoutEvent"
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: ""
 type: docs
 weight: 3110
 url: /net/aspose.words.layout/pagelayoutevent/

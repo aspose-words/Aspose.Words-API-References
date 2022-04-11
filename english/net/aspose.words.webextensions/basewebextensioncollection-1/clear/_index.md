@@ -1,7 +1,7 @@
 ---
-title: Clear
+title: "Clear"
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: ""
 type: docs
 weight: 20
 url: /net/aspose.words.webextensions/basewebextensioncollection-1/clear/

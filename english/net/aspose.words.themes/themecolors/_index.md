@@ -1,7 +1,7 @@
 ---
-title: ThemeColors
+title: "ThemeColors"
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: ""
 type: docs
 weight: 6090
 url: /net/aspose.words.themes/themecolors/

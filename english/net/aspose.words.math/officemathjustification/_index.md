@@ -1,7 +1,7 @@
 ---
-title: OfficeMathJustification
+title: "OfficeMathJustification"
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: ""
 type: docs
 weight: 3840
 url: /net/aspose.words.math/officemathjustification/

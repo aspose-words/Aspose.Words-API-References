@@ -1,7 +1,7 @@
 ---
-title: TextWrapping
+title: "TextWrapping"
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: ""
 type: docs
 weight: 5990
 url: /net/aspose.words.tables/textwrapping/

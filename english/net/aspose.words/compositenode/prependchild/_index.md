@@ -1,7 +1,7 @@
 ---
-title: PrependChild
+title: "PrependChild"
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: ""
 type: docs
 weight: 80
 url: /net/aspose.words/compositenode/prependchild/

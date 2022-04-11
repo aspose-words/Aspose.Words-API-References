@@ -1,7 +1,7 @@
 ---
-title: LastSection
+title: "LastSection"
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: ""
 type: docs
 weight: 460
 url: /net/aspose.words/document/lastsection/

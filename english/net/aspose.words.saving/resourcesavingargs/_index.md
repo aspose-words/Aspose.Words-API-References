@@ -1,7 +1,7 @@
 ---
-title: ResourceSavingArgs
+title: "ResourceSavingArgs"
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: ""
 type: docs
 weight: 5190
 url: /net/aspose.words.saving/resourcesavingargs/

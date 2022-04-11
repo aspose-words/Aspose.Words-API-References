@@ -1,7 +1,7 @@
 ---
-title: SpaceChar
+title: "SpaceChar"
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: ""
 type: docs
 weight: 260
 url: /net/aspose.words/controlchar/spacechar/

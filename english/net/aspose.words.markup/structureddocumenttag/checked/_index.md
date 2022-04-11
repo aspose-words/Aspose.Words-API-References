@@ -1,7 +1,7 @@
 ---
-title: Checked
+title: "Checked"
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: ""
 type: docs
 weight: 220
 url: /net/aspose.words.markup/structureddocumenttag/checked/

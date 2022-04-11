@@ -1,7 +1,7 @@
 ---
-title: DistanceBottom
+title: "DistanceBottom"
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: ""
 type: docs
 weight: 390
 url: /net/aspose.words.drawing/shapebase/distancebottom/

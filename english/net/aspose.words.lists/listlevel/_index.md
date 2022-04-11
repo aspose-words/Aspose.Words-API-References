@@ -1,7 +1,7 @@
 ---
-title: ListLevel
+title: "ListLevel"
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: ""
 type: docs
 weight: 3240
 url: /net/aspose.words.lists/listlevel/

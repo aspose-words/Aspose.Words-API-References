@@ -1,7 +1,7 @@
 ---
-title: IImageSavingCallback
+title: "IImageSavingCallback"
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: ""
 type: docs
 weight: 4820
 url: /net/aspose.words.saving/iimagesavingcallback/

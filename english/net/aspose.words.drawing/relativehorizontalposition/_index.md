@@ -1,7 +1,7 @@
 ---
-title: RelativeHorizontalPosition
+title: "RelativeHorizontalPosition"
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: ""
 type: docs
 weight: 1050
 url: /net/aspose.words.drawing/relativehorizontalposition/

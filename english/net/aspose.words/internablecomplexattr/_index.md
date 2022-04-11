@@ -1,7 +1,7 @@
 ---
-title: InternableComplexAttr
+title: "InternableComplexAttr"
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: ""
 type: docs
 weight: 3020
 url: /net/aspose.words/internablecomplexattr/

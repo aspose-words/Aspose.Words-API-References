@@ -1,7 +1,7 @@
 ---
-title: StyleType
+title: "StyleType"
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: ""
 type: docs
 weight: 5770
 url: /net/aspose.words/styletype/
