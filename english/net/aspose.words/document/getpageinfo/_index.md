@@ -14,9 +14,9 @@ Gets the page size, orientation and other information about a page that might be
 public PageInfo GetPageInfo(int pageIndex)
 ```
 
-| parameter | description |
-| --- | --- |
-| pageIndex | The 0-based page index. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| pageIndex | Int32 | The 0-based page index. |
 
 ### See Also
 

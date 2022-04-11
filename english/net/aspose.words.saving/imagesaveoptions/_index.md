@@ -16,7 +16,7 @@ public class ImageSaveOptions : FixedPageSaveOptions
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [ImageSaveOptions](imagesaveoptions)(…) | Initializes a new instance of this class that can be used to save rendered images in the Tiff, Png, Bmp, Emf, Jpeg or Svg format. Png, Bmp, Jpeg or Svg format. |
 | [HorizontalResolution](horizontalresolution) { get; set; } | Gets or sets the horizontal resolution for the generated images, in dots per inch. |
@@ -37,6 +37,121 @@ public class ImageSaveOptions : FixedPageSaveOptions
 | [UseGdiEmfRenderer](usegdiemfrenderer) { get; set; } | Gets or sets a value determining whether to use GDI+ or Aspose.Words metafile renderer when saving to EMF. |
 | [VerticalResolution](verticalresolution) { get; set; } | Gets or sets the vertical resolution for the generated images, in dots per inch. |
 | [Clone](clone)() | Creates a deep clone of this object. |
+
+### Examples
+
+Renders a page of a Word document into an image with transparent or colored background.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+builder.Font.Name = "Times New Roman";
+builder.Font.Size = 24;
+builder.Writeln("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.");
+
+builder.InsertImage(ImageDir + "Logo.jpg");
+
+// Create an "ImageSaveOptions" object which we can pass to the document's "Save" method
+// to modify the way in which that method renders the document into an image.
+ImageSaveOptions imgOptions = new ImageSaveOptions(SaveFormat.Png);
+
+// Set the "PaperColor" property to a transparent color to apply a transparent
+// background to the document while rendering it to an image.
+imgOptions.PaperColor = Color.Transparent;
+
+doc.Save(ArtifactsDir + "ImageSaveOptions.PaperColor.Transparent.png", imgOptions);
+
+// Set the "PaperColor" property to an opaque color to apply that color
+// as the background of the document as we render it to an image.
+imgOptions.PaperColor = Color.LightCoral;
+
+doc.Save(ArtifactsDir + "ImageSaveOptions.PaperColor.LightCoral.png", imgOptions);
+```
+
+Shows how to configure compression while saving a document as a JPEG.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+builder.InsertImage(ImageDir + "Logo.jpg");
+
+// Create an "ImageSaveOptions" object which we can pass to the document's "Save" method
+// to modify the way in which that method renders the document into an image.
+ImageSaveOptions imageOptions = new ImageSaveOptions(SaveFormat.Jpeg);
+
+// Set the "JpegQuality" property to "10" to use stronger compression when rendering the document.
+// This will reduce the file size of the document, but the image will display more prominent compression artifacts.
+imageOptions.JpegQuality = 10;
+
+doc.Save(ArtifactsDir + "ImageSaveOptions.JpegQuality.HighCompression.jpg", imageOptions);
+
+Assert.That(20000, Is.AtLeast(new FileInfo(ArtifactsDir + "ImageSaveOptions.JpegQuality.HighCompression.jpg").Length));
+
+// Set the "JpegQuality" property to "100" to use weaker compression when rending the document.
+// This will improve the quality of the image at the cost of an increased file size.
+imageOptions.JpegQuality = 100;
+
+doc.Save(ArtifactsDir + "ImageSaveOptions.JpegQuality.HighQuality.jpg", imageOptions);
+
+Assert.That(60000, Is.LessThan(new FileInfo(ArtifactsDir + "ImageSaveOptions.JpegQuality.HighQuality.jpg").Length));
+```
+
+Shows how to specify a resolution while rendering a document to PNG.
+
+```csharp
+Document doc = new Document();
+            DocumentBuilder builder = new DocumentBuilder(doc);
+
+            builder.Font.Name = "Times New Roman";
+            builder.Font.Size = 24;
+            builder.Writeln("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.");
+
+            builder.InsertImage(ImageDir + "Logo.jpg");
+
+            // Create an "ImageSaveOptions" object which we can pass to the document's "Save" method
+            // to modify the way in which that method renders the document into an image.
+            ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Png);
+
+            // Set the "Resolution" property to "72" to render the document in 72dpi.
+            options.Resolution = 72;
+
+            doc.Save(ArtifactsDir + "ImageSaveOptions.Resolution.72dpi.png", options);
+
+            Assert.That(120000, Is.AtLeast(new FileInfo(ArtifactsDir + "ImageSaveOptions.Resolution.72dpi.png").Length));
+
+#if NET48 || JAVA
+            Image image = Image.FromFile(ArtifactsDir + "ImageSaveOptions.Resolution.72dpi.png");
+
+            Assert.AreEqual(612, image.Width);
+            Assert.AreEqual(792, image.Height);
+#elif NET5_0 || __MOBILE__
+            using (SKBitmap image = SKBitmap.Decode(ArtifactsDir + "ImageSaveOptions.Resolution.72dpi.png")) 
+            {
+                Assert.AreEqual(612, image.Width);
+                Assert.AreEqual(792, image.Height);
+            }
+#endif
+            // Set the "Resolution" property to "300" to render the document in 300dpi.
+            options.Resolution = 300;
+
+            doc.Save(ArtifactsDir + "ImageSaveOptions.Resolution.300dpi.png", options);
+
+            Assert.That(700000, Is.LessThan(new FileInfo(ArtifactsDir + "ImageSaveOptions.Resolution.300dpi.png").Length));
+
+#if NET48 || JAVA
+            image = Image.FromFile(ArtifactsDir + "ImageSaveOptions.Resolution.300dpi.png");
+
+            Assert.AreEqual(2550, image.Width);
+            Assert.AreEqual(3300, image.Height);
+#elif NET5_0 || __MOBILE__
+            using (SKBitmap image = SKBitmap.Decode(ArtifactsDir + "ImageSaveOptions.Resolution.300dpi.png")) 
+            {
+                Assert.AreEqual(2550, image.Width);
+                Assert.AreEqual(3300, image.Height);
+            }
+#endif
+```
 
 ### See Also
 

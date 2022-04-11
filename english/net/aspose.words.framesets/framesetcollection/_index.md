@@ -16,7 +16,7 @@ public class FramesetCollection : IEnumerable<Frameset>
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [FramesetCollection](framesetcollection)() | The default constructor. |
 | [Count](count) { get; } | Gets the number of frames or frames pages contained in the collection. |

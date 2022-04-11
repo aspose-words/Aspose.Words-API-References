@@ -16,7 +16,7 @@ public class TxtSaveOptions : TxtSaveOptionsBase
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [TxtSaveOptions](txtsaveoptions)() | The default constructor. |
 | [AddBidiMarks](addbidimarks) { get; set; } | Specifies whether to add bi-directional marks before each BiDi run when exporting in plain text format. |
@@ -25,6 +25,36 @@ public class TxtSaveOptions : TxtSaveOptionsBase
 | [PreserveTableLayout](preservetablelayout) { get; set; } | Specifies whether the program should attempt to preserve layout of tables when saving in the plain text format. The default value is false. |
 | override [SaveFormat](saveformat) { get; set; } | Specifies the format in which the document will be saved if this save options object is used. Can only be Text. |
 | [SimplifyListLabels](simplifylistlabels) { get; set; } | Specifies whether the program should simplify list labels in case of complex label formatting not being adequately represented by plain text. |
+
+### Examples
+
+Shows how to save a .txt document with a custom paragraph break.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+builder.Writeln("Paragraph 1.");
+builder.Writeln("Paragraph 2.");
+builder.Write("Paragraph 3.");
+
+// Create a "TxtSaveOptions" object, which we can pass to the document's "Save" method
+// to modify how we save the document to plaintext.
+TxtSaveOptions txtSaveOptions = new TxtSaveOptions();
+
+Assert.AreEqual(SaveFormat.Text, txtSaveOptions.SaveFormat);
+
+// Set the "ParagraphBreak" to a custom value that we wish to put at the end of every paragraph.
+txtSaveOptions.ParagraphBreak = " End of paragraph.\n\n\t";
+
+doc.Save(ArtifactsDir + "TxtSaveOptions.ParagraphBreak.txt", txtSaveOptions);
+
+string docText = File.ReadAllText(ArtifactsDir + "TxtSaveOptions.ParagraphBreak.txt");
+
+Assert.AreEqual("Paragraph 1. End of paragraph.\n\n\t" +
+                "Paragraph 2. End of paragraph.\n\n\t" +
+                "Paragraph 3. End of paragraph.\n\n\t", docText);
+```
 
 ### See Also
 

@@ -1,5 +1,5 @@
 ---
-title: Aspose.Words.Drawing.Charts Namespace
+title: Aspose.Words.Drawing.Charts
 second_title: Aspose.Words for .NET API Reference
 description: The Aspose.Words.Drawing.Charts namespace provides classes that allow to access charts in Microsoft Word documents.
 type: docs
@@ -8,23 +8,15 @@ url: /net/aspose.words.drawing.charts/
 ---
 The Aspose.Words.Drawing.Charts namespace provides classes that allow to access charts in Microsoft Word documents.
 
-## Members
+## Classes
 
-| public type | description |
+| Class | Description |
 | --- | --- |
 | class [AxisBound](./axisbound) | Represents minimum or maximum bound of axis values. |
-| enum [AxisBuiltInUnit](./axisbuiltinunit) | Specifies the display units for an axis. |
-| enum [AxisCategoryType](./axiscategorytype) | Specifies type of a category axis. |
-| enum [AxisCrosses](./axiscrosses) | Specifies the possible crossing points for an axis. |
 | class [AxisDisplayUnit](./axisdisplayunit) | Provides access to the scaling options of the display units for the value axis. |
-| enum [AxisScaleType](./axisscaletype) | Specifies the possible scale types for an axis. |
 | class [AxisScaling](./axisscaling) | Represents the scaling options of the axis. |
-| enum [AxisTickLabelPosition](./axisticklabelposition) | Specifies the possible positions for tick labels. |
-| enum [AxisTickMark](./axistickmark) | Specifies the possible positions for tick marks. |
-| enum [AxisTimeUnit](./axistimeunit) | Specifies the unit of time for axes. |
 | class [Chart](./chart) | Provides access to the chart shape properties. |
 | class [ChartAxis](./chartaxis) | Represents the axis options of the chart. |
-| enum [ChartAxisType](./chartaxistype) | Specifies type of chart axis. |
 | class [ChartDataLabel](./chartdatalabel) | Represents data label on a chart point or trendline. |
 | class [ChartDataLabelCollection](./chartdatalabelcollection) | Represents a collection of [`ChartDataLabel`](aspose.words.drawing.charts/chartdatalabel). |
 | class [ChartDataPoint](./chartdatapoint) | Allows to specify formatting of a single data point on the chart. |
@@ -38,8 +30,24 @@ The Aspose.Words.Drawing.Charts namespace provides classes that allow to access 
 | class [ChartSeries](./chartseries) | Represents chart series properties. |
 | class [ChartSeriesCollection](./chartseriescollection) | Represents collection of a [`ChartSeries`](aspose.words.drawing.charts/chartseries). |
 | class [ChartTitle](./charttitle) | Provides access to the chart title properties. |
-| enum [ChartType](./charttype) | Specifies type of a chart. |
+## Interfaces
+
+| Interface | Description |
+| --- | --- |
 | interface [IChartDataPoint](./ichartdatapoint) | Contains properties of a single data point on the chart. |
+## Enumeration
+
+| Enumeration | Description |
+| --- | --- |
+| enum [AxisBuiltInUnit](./axisbuiltinunit) | Specifies the display units for an axis. |
+| enum [AxisCategoryType](./axiscategorytype) | Specifies type of a category axis. |
+| enum [AxisCrosses](./axiscrosses) | Specifies the possible crossing points for an axis. |
+| enum [AxisScaleType](./axisscaletype) | Specifies the possible scale types for an axis. |
+| enum [AxisTickLabelPosition](./axisticklabelposition) | Specifies the possible positions for tick labels. |
+| enum [AxisTickMark](./axistickmark) | Specifies the possible positions for tick marks. |
+| enum [AxisTimeUnit](./axistimeunit) | Specifies the unit of time for axes. |
+| enum [ChartAxisType](./chartaxistype) | Specifies type of chart axis. |
+| enum [ChartType](./charttype) | Specifies type of a chart. |
 | enum [LegendPosition](./legendposition) | Specifies the possible positions for a chart legend. |
 | enum [MarkerSymbol](./markersymbol) | Specifies marker symbol style. |
 

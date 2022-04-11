@@ -8,8 +8,6 @@ url: /net/aspose.words.markup/istructureddocumenttag/wordopenxml/
 ---
 ## IStructuredDocumentTag.WordOpenXML property
 
-Gets a string that represents the XML contained within the node in the FlatOpc format.
-
 ```csharp
 public string WordOpenXML { get; }
 ```

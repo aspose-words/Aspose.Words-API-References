@@ -16,12 +16,28 @@ public class MemoryFontSource : FontSourceBase
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [MemoryFontSource](memoryfontsource)(…) | Ctor. (3 constructors) |
 | [CacheKey](cachekey) { get; } | The key of this source in the cache. |
 | [FontData](fontdata) { get; } | Binary font data. |
 | override [Type](type) { get; } | Returns the type of the font source. |
+
+### Examples
+
+Shows how to use a byte array with data from a font file as a font source.
+
+```csharp
+byte[] fontBytes = File.ReadAllBytes(MyDir + "Alte DIN 1451 Mittelschrift.ttf");
+MemoryFontSource memoryFontSource = new MemoryFontSource(fontBytes, 0);
+
+Document doc = new Document();
+doc.FontSettings = new FontSettings();
+doc.FontSettings.SetFontsSources(new FontSourceBase[] { memoryFontSource });
+
+Assert.AreEqual(FontSourceType.MemoryFont, memoryFontSource.Type);
+Assert.AreEqual(0, memoryFontSource.Priority);
+```
 
 ### See Also
 

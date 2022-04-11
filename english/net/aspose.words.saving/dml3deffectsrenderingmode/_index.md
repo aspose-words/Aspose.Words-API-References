@@ -16,7 +16,7 @@ public enum Dml3DEffectsRenderingMode
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | Basic | `0` | A lightweight and stable rendering, based on the internal engine, but advanced effects such as lighting, materials and other additional effects are not displayed when using this mode. Please see documentation for details. |
 | Advanced | `1` | Rendering of an extended list of special effects including advanced 3D effects such as bevels, lighting and materials. |

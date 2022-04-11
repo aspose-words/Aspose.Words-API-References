@@ -14,9 +14,31 @@ Specifies the inner bottom margin in points for a shape.
 public double InternalMarginBottom { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 The default value is 1/20 inch.
+
+### Examples
+
+Shows how to set internal margins for a text box.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+// Insert another textbox with specific margins.
+Shape textBoxShape = builder.InsertShape(ShapeType.TextBox, 100, 100);
+TextBox textBox = textBoxShape.TextBox;
+textBox.InternalMarginTop = 15;
+textBox.InternalMarginBottom = 15;
+textBox.InternalMarginLeft = 15;
+textBox.InternalMarginRight = 15;
+
+builder.MoveTo(textBoxShape.LastParagraph);
+builder.Write("Text placed according to textbox margins.");
+
+doc.Save(ArtifactsDir + "Shape.TextBoxMargins.docx");
+```
 
 ### See Also
 

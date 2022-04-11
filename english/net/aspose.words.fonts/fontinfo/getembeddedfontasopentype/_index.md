@@ -14,13 +14,38 @@ Gets an embedded font file in OpenType format. Fonts in Embedded OpenType format
 public byte[] GetEmbeddedFontAsOpenType(EmbeddedFontStyle style)
 ```
 
-| parameter | description |
-| --- | --- |
-| style | Specifies the font style to retrieve. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| style | EmbeddedFontStyle | Specifies the font style to retrieve. |
 
 ## Return Value
 
 Returns `null` if the specified font is not embedded.
+
+### Examples
+
+Shows how to extract an embedded font from a document, and save it to the local file system.
+
+```csharp
+Document doc = new Document(MyDir + "Embedded font.docx");
+
+FontInfo embeddedFont = doc.FontInfos["Alte DIN 1451 Mittelschrift"];
+byte[] embeddedFontBytes = embeddedFont.GetEmbeddedFont(EmbeddedFontFormat.OpenType, EmbeddedFontStyle.Regular);
+
+File.WriteAllBytes(ArtifactsDir + "Alte DIN 1451 Mittelschrift.ttf", embeddedFontBytes);
+
+// Embedded font formats may be different in other formats such as .doc.
+// We need to know the correct format before we can extract the font.
+doc = new Document(MyDir + "Embedded font.doc");
+
+Assert.IsNull(doc.FontInfos["Alte DIN 1451 Mittelschrift"].GetEmbeddedFont(EmbeddedFontFormat.OpenType, EmbeddedFontStyle.Regular));
+Assert.IsNotNull(doc.FontInfos["Alte DIN 1451 Mittelschrift"].GetEmbeddedFont(EmbeddedFontFormat.EmbeddedOpenType, EmbeddedFontStyle.Regular));
+
+// Also, we can convert embedded OpenType format, which comes from .doc documents, to OpenType.
+embeddedFontBytes = doc.FontInfos["Alte DIN 1451 Mittelschrift"].GetEmbeddedFontAsOpenType(EmbeddedFontStyle.Regular);
+
+File.WriteAllBytes(ArtifactsDir + "Alte DIN 1451 Mittelschrift.otf", embeddedFontBytes);
+```
 
 ### See Also
 

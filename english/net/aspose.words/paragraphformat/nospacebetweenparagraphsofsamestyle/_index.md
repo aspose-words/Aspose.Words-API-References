@@ -14,9 +14,41 @@ When true, [`SpaceBefore`](../spacebefore) and [`SpaceAfter`](../spaceafter) wil
 public bool NoSpaceBetweenParagraphsOfSameStyle { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 This setting only takes affect when applied to a paragraph style. If applied to a paragraph directly, it has no effect.
+
+### Examples
+
+Shows how to apply no spacing between paragraphs with the same style.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+// Apply a large amount of spacing before and after paragraphs that this builder will create.
+builder.ParagraphFormat.SpaceBefore = 24;
+builder.ParagraphFormat.SpaceAfter = 24;
+
+// Set the "NoSpaceBetweenParagraphsOfSameStyle" flag to "true" to apply
+// no spacing between paragraphs with the same style, which will group similar paragraphs.
+// Leave the "NoSpaceBetweenParagraphsOfSameStyle" flag as "false"
+// to evenly apply spacing to every paragraph.
+builder.ParagraphFormat.NoSpaceBetweenParagraphsOfSameStyle = noSpaceBetweenParagraphsOfSameStyle;
+
+builder.ParagraphFormat.Style = doc.Styles["Normal"];
+builder.Writeln($"Paragraph in the \"{builder.ParagraphFormat.Style.Name}\" style.");
+builder.Writeln($"Paragraph in the \"{builder.ParagraphFormat.Style.Name}\" style.");
+builder.Writeln($"Paragraph in the \"{builder.ParagraphFormat.Style.Name}\" style.");
+builder.ParagraphFormat.Style = doc.Styles["Quote"];
+builder.Writeln($"Paragraph in the \"{builder.ParagraphFormat.Style.Name}\" style.");
+builder.Writeln($"Paragraph in the \"{builder.ParagraphFormat.Style.Name}\" style.");
+builder.ParagraphFormat.Style = doc.Styles["Normal"];
+builder.Writeln($"Paragraph in the \"{builder.ParagraphFormat.Style.Name}\" style.");
+builder.Writeln($"Paragraph in the \"{builder.ParagraphFormat.Style.Name}\" style.");
+
+doc.Save(ArtifactsDir + "ParagraphFormat.ParagraphSpacingSameStyle.docx");
+```
 
 ### See Also
 

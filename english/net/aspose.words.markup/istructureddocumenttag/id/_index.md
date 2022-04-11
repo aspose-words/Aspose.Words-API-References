@@ -8,8 +8,6 @@ url: /net/aspose.words.markup/istructureddocumenttag/id/
 ---
 ## IStructuredDocumentTag.Id property
 
-Specifies a unique read-only persistent numerical Id for this SDT.
-
 ```csharp
 public int Id { get; }
 ```

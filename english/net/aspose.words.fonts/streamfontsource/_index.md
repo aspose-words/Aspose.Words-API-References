@@ -16,26 +16,49 @@ public abstract class StreamFontSource : FontSourceBase
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [CacheKey](cachekey) { get; } | The key of this source in the cache. |
 | [Type](type) { get; } | Returns the type of the font source. |
 | abstract [OpenFontDataStream](openfontdatastream)() | This method should open the stream with font data on demand. |
 
-## Protected Members
-
-| name | description |
-| --- | --- |
-| [StreamFontSource](streamfontsource)() | The default constructor. |
-| [StreamFontSource](streamfontsource)(…) |  (2 constructors) |
-
-## Remarks
+### Remarks
 
 In order to use the stream font source you should create a derived class from the [`StreamFontSource`](../streamfontsource) and provide implementation of the [`OpenFontDataStream`](./openfontdatastream) method.
 
 [`OpenFontDataStream`](./openfontdatastream) method could be called several times. For the first time it will be called when Aspose.Words scans the provided font sources to get the list of available fonts. Later it may be called if the font is used in the document to parse the font data and to embed the font data to some output formats.
 
 [`StreamFontSource`](../streamfontsource) may be useful because it allows to load the font data only when it is required and not to store it in the memory for the [`FontSettings`](../fontsettings) lifetime.
+
+### Examples
+
+Shows how to load fonts from stream.
+
+```csharp
+public void StreamFontSourceFileRendering()
+{
+    FontSettings fontSettings = new FontSettings();
+    fontSettings.SetFontsSources(new FontSourceBase[] { new StreamFontSourceFile() });
+
+    DocumentBuilder builder = new DocumentBuilder();
+    builder.Document.FontSettings = fontSettings;
+    builder.Font.Name = "Kreon-Regular";
+    builder.Writeln("Test aspose text when saving to PDF.");
+
+    builder.Document.Save(ArtifactsDir + "FontSettings.StreamFontSourceFileRendering.pdf");
+}
+
+/// <summary>
+/// Load the font data only when required instead of storing it in the memory for the entire lifetime of the "FontSettings" object.
+/// </summary>
+private class StreamFontSourceFile : StreamFontSource
+{
+    public override Stream OpenFontDataStream()
+    {
+        return File.OpenRead(FontsDir + "Kreon-Regular.ttf");
+    }
+}
+```
 
 ### See Also
 

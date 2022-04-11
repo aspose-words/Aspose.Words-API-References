@@ -8,31 +8,29 @@ url: /net/aspose.words.markup/istructureddocumenttag/
 ---
 ## IStructuredDocumentTag interface
 
-Interface to define a common data for [`StructuredDocumentTag`](../structureddocumenttag) and [`StructuredDocumentTagRangeStart`](../structureddocumenttagrangestart).
-
 ```csharp
 public interface IStructuredDocumentTag
 ```
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
-| [Color](color) { get; set; } | Gets or sets the color of the structured document tag. |
-| [Id](id) { get; } | Specifies a unique read-only persistent numerical Id for this SDT. |
-| [IsShowingPlaceholderText](isshowingplaceholdertext) { get; set; } | Specifies whether the content of this SDT shall be interpreted to contain placeholder text (as opposed to regular text contents within the SDT). |
-| [Level](level) { get; } | Gets the level at which this SDT occurs in the document tree. |
-| [LockContentControl](lockcontentcontrol) { get; set; } | When set to true, this property will prohibit a user from deleting this SDT. |
-| [LockContents](lockcontents) { get; set; } | When set to true, this property will prohibit a user from editing the contents of this SDT. |
-| [Placeholder](placeholder) { get; } | Gets the [`BuildingBlock`](../../aspose.words.buildingblocks/buildingblock) containing placeholder text which should be displayed when this SDT run contents are empty, the associated mapped XML element is empty as specified via the [`XmlMapping`](./xmlmapping) element or the [`IsShowingPlaceholderText`](./isshowingplaceholdertext) element is true. |
-| [PlaceholderName](placeholdername) { get; set; } | Gets or sets Name of the [`BuildingBlock`](../../aspose.words.buildingblocks/buildingblock) containing placeholder text. |
-| [SdtType](sdttype) { get; } | Gets type of this Structured document tag. |
-| [Tag](tag) { get; set; } | Specifies a tag associated with the current SDT node. Can not be null. |
-| [Title](title) { get; set; } | Specifies the friendly name associated with this SDT. Can not be null. |
-| [WordOpenXML](wordopenxml) { get; } | Gets a string that represents the XML contained within the node in the FlatOpc format. |
-| [XmlMapping](xmlmapping) { get; } | Gets an object that represents the mapping of this structured document tag to XML data in a custom XML part of the current document. |
-| [IsRanged](isranged)() | Returns true if this instance is a ranged structured document tag. |
-| [StructuredDocumentTagNode](structureddocumenttagnode)() | Returns Node object that implements this interface. |
+| [Color](color) { get; set; } |  |
+| [Id](id) { get; } |  |
+| [IsShowingPlaceholderText](isshowingplaceholdertext) { get; set; } |  |
+| [Level](level) { get; } |  |
+| [LockContentControl](lockcontentcontrol) { get; set; } |  |
+| [LockContents](lockcontents) { get; set; } |  |
+| [Placeholder](placeholder) { get; } |  |
+| [PlaceholderName](placeholdername) { get; set; } |  |
+| [SdtType](sdttype) { get; } |  |
+| [Tag](tag) { get; set; } |  |
+| [Title](title) { get; set; } |  |
+| [WordOpenXML](wordopenxml) { get; } |  |
+| [XmlMapping](xmlmapping) { get; } |  |
+| [IsRanged](isranged)() |  |
+| [StructuredDocumentTagNode](structureddocumenttagnode)() |  |
 
 ### See Also
 

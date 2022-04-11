@@ -16,7 +16,7 @@ public class MailMerge
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [CleanupOptions](cleanupoptions) { get; set; } | Gets or sets a set of flags that specify what items should be removed during mail merge. |
 | [CleanupParagraphsWithPunctuationMarks](cleanupparagraphswithpunctuationmarks) { get; set; } | Gets or sets a value indicating whether paragraphs with punctuation marks are considered as empty and should be removed if the RemoveEmptyParagraphs option is specified. |
@@ -42,9 +42,54 @@ public class MailMerge
 | [GetRegionsByName](getregionsbyname)(…) | Returns a collection of mail merge regions with the specified name. |
 | [GetRegionsHierarchy](getregionshierarchy)() | Returns a full hierarchy of regions (with fields) available in the document. |
 
-## Remarks
+### Remarks
 
 For mail merge operation to work, the document should contain Word MERGEFIELD and optionally NEXT fields. During mail merge operation, merge fields in the document are replaced with values from your data source.There are two distinct ways to use mail merge: with mail merge regions and without.The simplest mail merge is without regions and it is very similar to how mail merge works in Word. Use Execute methods to merge information from some data source such as DataTable, DataSet, DataView, IDataReader or an array of objects into your document. The MailMerge object processes all records of the data source and copies and appends content of the whole document for each record.Note that when MailMerge object encounters a NEXT field, it selects next record in the data source and continues merging without copying any content.Use ExecuteWithRegions methods to merge information into a document with mail merge regions defined. You can use DataSet, DataTable, DataView or IDataReader as data sources for this operation.You need to use mail merge regions if you want to dynamically grow portions inside the document. Without mail merge regions whole document will be repeated for every record of the data source.
+
+### Examples
+
+Shows how to execute a mail merge with data from a DataTable.
+
+```csharp
+public void ExecuteDataTable()
+{
+    DataTable table = new DataTable("Test");
+    table.Columns.Add("CustomerName");
+    table.Columns.Add("Address");
+    table.Rows.Add(new object[] { "Thomas Hardy", "120 Hanover Sq., London" });
+    table.Rows.Add(new object[] { "Paolo Accorti", "Via Monte Bianco 34, Torino" });
+
+    // Below are two ways of using a DataTable as the data source for a mail merge.
+    // 1 -  Use the entire table for the mail merge to create one output mail merge document for every row in the table:
+    Document doc = CreateSourceDocExecuteDataTable();
+
+    doc.MailMerge.Execute(table);
+
+    doc.Save(ArtifactsDir + "MailMerge.ExecuteDataTable.WholeTable.docx");
+
+    // 2 -  Use one row of the table to create one output mail merge document:
+    doc = CreateSourceDocExecuteDataTable();
+
+    doc.MailMerge.Execute(table.Rows[1]);
+
+    doc.Save(ArtifactsDir + "MailMerge.ExecuteDataTable.OneRow.docx");
+}
+
+/// <summary>
+/// Creates a mail merge source document.
+/// </summary>
+private static Document CreateSourceDocExecuteDataTable()
+{
+    Document doc = new Document();
+    DocumentBuilder builder = new DocumentBuilder(doc);
+
+    builder.InsertField(" MERGEFIELD CustomerName ");
+    builder.InsertParagraph();
+    builder.InsertField(" MERGEFIELD Address ");
+
+    return doc;
+}
+```
 
 ### See Also
 

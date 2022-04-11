@@ -16,7 +16,7 @@ public enum LayoutFlow
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | Horizontal | `0` | Text is displayed horizontally. |
 | TopToBottomIdeographic | `1` | Ideographic text is displayed vertically. |
@@ -24,6 +24,30 @@ public enum LayoutFlow
 | TopToBottom | `3` | Text is displayed vertically. |
 | HorizontalIdeographic | `4` | Ideographic text is displayed horizontally. |
 | Vertical | `5` | Text is displayed vertically. |
+
+### Examples
+
+Shows how to add text to a text box, and change its orientation
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+Shape textbox = new Shape(doc, ShapeType.TextBox)
+{
+    Width = 100, 
+    Height = 100,
+    TextBox = { LayoutFlow = LayoutFlow.BottomToTop }
+};
+
+textbox.AppendChild(new Paragraph(doc));
+builder.InsertNode(textbox);
+
+builder.MoveTo(textbox.FirstParagraph);
+builder.Write("This text is flipped 90 degrees to the left.");
+
+doc.Save(ArtifactsDir + "Drawing.TextBox.docx");
+```
 
 ### See Also
 

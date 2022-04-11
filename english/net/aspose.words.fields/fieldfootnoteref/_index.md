@@ -16,9 +16,40 @@ public class FieldFootnoteRef : Field
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [FieldFootnoteRef](fieldfootnoteref)() | The default constructor. |
+
+### Examples
+
+Shows how to cross-reference footnotes with the FOOTNOTEREF field.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+builder.StartBookmark("CrossRefBookmark");
+builder.Write("Hello world!");
+builder.InsertFootnote(FootnoteType.Footnote, "Cross referenced footnote.");
+builder.EndBookmark("CrossRefBookmark");
+builder.InsertParagraph();
+
+// Insert a FOOTNOTEREF field, which lets us reference a footnote more than once while re-using the same footnote marker.
+builder.Write("CrossReference: ");
+FieldFootnoteRef field = (FieldFootnoteRef) builder.InsertField(FieldType.FieldFootnoteRef, true);
+
+// Reference the bookmark that we have created with the FOOTNOTEREF field. That bookmark contains a footnote marker
+// belonging to the footnote we inserted. The field will display that footnote marker.
+builder.MoveTo(field.Separator);
+builder.Write("CrossRefBookmark");
+
+Assert.AreEqual(" FOOTNOTEREF CrossRefBookmark", field.GetFieldCode());
+
+doc.UpdateFields();
+
+// This field works only in older versions of Microsoft Word.
+doc.Save(ArtifactsDir + "Field.FOOTNOTEREF.doc");
+```
 
 ### See Also
 

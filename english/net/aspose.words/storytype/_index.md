@@ -16,7 +16,7 @@ public enum StoryType
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | None | `0` | Default value. There is no such story in the document. |
 | MainText | `1` | Contains the main text of the document, represented by [`Body`](../body). |
@@ -36,6 +36,27 @@ public enum StoryType
 | EndnoteSeparator | `15` | Contains the text of the endnote separator, represented by FootnoteSeparator. |
 | EndnoteContinuationSeparator | `16` | Contains the text of the endnote continuation separator, represented by FootnoteSeparator. |
 | EndnoteContinuationNotice | `17` | Contains the text of the endnote continuation notice separator, represented by FootnoteSeparator. |
+
+### Examples
+
+Shows how to remove all shapes from a node.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+// Use a DocumentBuilder to insert a shape. This is an inline shape,
+// which has a parent Paragraph, which is a child node of the first section's Body.
+builder.InsertShape(ShapeType.Cube, 100.0, 100.0);
+
+Assert.AreEqual(1, doc.GetChildNodes(NodeType.Shape, true).Count);
+
+// We can delete all shapes from the child paragraphs of this Body.
+Assert.AreEqual(StoryType.MainText, doc.FirstSection.Body.StoryType);
+doc.FirstSection.Body.DeleteShapes();
+
+Assert.AreEqual(0, doc.GetChildNodes(NodeType.Shape, true).Count);
+```
 
 ### See Also
 

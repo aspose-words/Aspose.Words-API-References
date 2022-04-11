@@ -16,7 +16,7 @@ public interface IDocumentLoadingCallback
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Notify](notify)(…) | This is called to notify of document loading progress. |
 

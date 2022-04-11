@@ -14,15 +14,15 @@ Accepts a visitor.
 public override bool Accept(DocumentVisitor visitor)
 ```
 
-| parameter | description |
-| --- | --- |
-| visitor | The visitor that will visit the node. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| visitor | DocumentVisitor | The visitor that will visit the node. |
 
 ## Return Value
 
 False if the visitor requested the enumeration to stop.
 
-## Remarks
+### Remarks
 
 Calls DocumentVisitor.VisitSpecialChar.For more info see the Visitor design pattern.
 

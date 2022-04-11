@@ -16,7 +16,7 @@ public enum DocumentDirection
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | LeftToRight | `0` | Left to right direction. |
 | RightToLeft | `1` | Right to left direction. |

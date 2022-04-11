@@ -16,7 +16,7 @@ public sealed class DocumentLoadingArgs
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [EstimatedProgress](estimatedprogress) { get; } | Overall estimated percentage progress. |
 

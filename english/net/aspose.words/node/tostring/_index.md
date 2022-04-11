@@ -3,7 +3,7 @@ title: ToString
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 90
+weight: 80
 url: /net/aspose.words/node/tostring/
 ---
 ## Node.ToString method (1 of 2)
@@ -17,6 +17,75 @@ public string ToString(SaveFormat saveFormat)
 ## Return Value
 
 The content of the node in the specified format.
+
+### Examples
+
+Shows the difference between calling the GetText and ToString methods on a node.
+
+```csharp
+Document doc = new Document();
+
+DocumentBuilder builder = new DocumentBuilder(doc);
+builder.InsertField("MERGEFIELD Field");
+
+// GetText will retrieve the visible text as well as field codes and special characters.
+Assert.AreEqual("\u0013MERGEFIELD Field\u0014«Field»\u0015\u000c", doc.GetText());
+
+// ToString will give us the document's appearance if saved to a passed save format.
+Assert.AreEqual("«Field»\r\n", doc.ToString(SaveFormat.Text));
+```
+
+Exports the content of a node to String in HTML format.
+
+```csharp
+Document doc = new Document(MyDir + "Document.docx");
+
+Node node = doc.LastSection.Body.LastParagraph;
+
+// When we call the ToString method using the html SaveFormat overload,
+// it converts the node's contents to their raw html representation.
+Assert.AreEqual("<p style=\"margin-top:0pt; margin-bottom:8pt; line-height:108%; font-size:12pt\">" +
+                "<span style=\"font-family:'Times New Roman'\">Hello World!</span>" +
+                "</p>", node.ToString(SaveFormat.Html));
+
+// We can also modify the result of this conversion using a SaveOptions object.
+HtmlSaveOptions saveOptions = new HtmlSaveOptions();
+saveOptions.ExportRelativeFontSize = true;
+
+Assert.AreEqual("<p style=\"margin-top:0pt; margin-bottom:8pt; line-height:108%\">" +
+                "<span style=\"font-family:'Times New Roman'\">Hello World!</span>" +
+                "</p>", node.ToString(saveOptions));
+```
+
+Shows how to extract the list labels of all paragraphs that are list items.
+
+```csharp
+Document doc = new Document(MyDir + "Rendering.docx");
+doc.UpdateListLabels();
+
+NodeCollection paras = doc.GetChildNodes(NodeType.Paragraph, true);
+
+// Find if we have the paragraph list. In our document, our list uses plain Arabic numbers,
+// which start at three and ends at six.
+foreach (Paragraph paragraph in paras.OfType<Paragraph>().Where(p => p.ListFormat.IsListItem))
+{
+    Console.WriteLine($"List item paragraph #{paras.IndexOf(paragraph)}");
+
+    // This is the text we get when getting when we output this node to text format.
+    // This text output will omit list labels. Trim any paragraph formatting characters. 
+    string paragraphText = paragraph.ToString(SaveFormat.Text).Trim();
+    Console.WriteLine($"\tExported Text: {paragraphText}");
+
+    ListLabel label = paragraph.ListLabel;
+
+    // This gets the position of the paragraph in the current level of the list. If we have a list with multiple levels,
+    // this will tell us what position it is on that level.
+    Console.WriteLine($"\tNumerical Id: {label.LabelValue}");
+
+    // Combine them together to include the list label with the text in the output.
+    Console.WriteLine($"\tList label combined with text: {label.LabelString} {paragraphText}");
+}
+```
 
 ### See Also
 
@@ -35,13 +104,37 @@ Exports the content of the node into a string using the specified save options.
 public string ToString(SaveOptions saveOptions)
 ```
 
-| parameter | description |
-| --- | --- |
-| saveOptions | Specifies the options that control how the node is saved. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| saveOptions | SaveOptions | Specifies the options that control how the node is saved. |
 
 ## Return Value
 
 The content of the node in the specified format.
+
+### Examples
+
+Exports the content of a node to String in HTML format.
+
+```csharp
+Document doc = new Document(MyDir + "Document.docx");
+
+Node node = doc.LastSection.Body.LastParagraph;
+
+// When we call the ToString method using the html SaveFormat overload,
+// it converts the node's contents to their raw html representation.
+Assert.AreEqual("<p style=\"margin-top:0pt; margin-bottom:8pt; line-height:108%; font-size:12pt\">" +
+                "<span style=\"font-family:'Times New Roman'\">Hello World!</span>" +
+                "</p>", node.ToString(SaveFormat.Html));
+
+// We can also modify the result of this conversion using a SaveOptions object.
+HtmlSaveOptions saveOptions = new HtmlSaveOptions();
+saveOptions.ExportRelativeFontSize = true;
+
+Assert.AreEqual("<p style=\"margin-top:0pt; margin-bottom:8pt; line-height:108%\">" +
+                "<span style=\"font-family:'Times New Roman'\">Hello World!</span>" +
+                "</p>", node.ToString(saveOptions));
+```
 
 ### See Also
 

@@ -14,11 +14,23 @@ Converts a [`SaveFormat`](../../saveformat) value to a [`LoadFormat`](../../load
 public static LoadFormat SaveFormatToLoadFormat(SaveFormat saveFormat)
 ```
 
-## Exceptions
+### Exceptions
 
 | exception | condition |
 | --- | --- |
 | ArgumentException | Throws when cannot convert. |
+
+### Examples
+
+Shows how to convert a save format to its corresponding load format.
+
+```csharp
+Assert.AreEqual(LoadFormat.Html, FileFormatUtil.SaveFormatToLoadFormat(SaveFormat.Html));
+
+// Some file types can have documents saved to, but not loaded from using Aspose.Words.
+// If we attempt to convert a save format of such a type to a load format, an exception will be thrown.
+Assert.Throws<ArgumentException>(() => FileFormatUtil.SaveFormatToLoadFormat(SaveFormat.Jpeg));
+```
 
 ### See Also
 

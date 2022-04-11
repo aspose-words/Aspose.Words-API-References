@@ -16,7 +16,7 @@ public enum TabLeader
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | None | `0` | No leader line is displayed. |
 | Dots | `1` | The leader line is made up from dots. |

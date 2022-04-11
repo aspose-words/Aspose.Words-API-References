@@ -16,7 +16,7 @@ public class WebExtensionProperty
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [WebExtensionProperty](webextensionproperty)(…) | Creates web extension custom property with specified name and value. |
 | [Name](name) { get; set; } | Specifies a custom property name |

@@ -8,18 +8,16 @@ url: /net/aspose.words.loading/blockimportmode/
 ---
 ## BlockImportMode enumeration
 
-Specifies how properties of block-level elements are imported from HTML-based documents.
-
 ```csharp
 public enum BlockImportMode
 ```
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
-| Merge | `0` | Properties of parent blocks are merged and stored on child elements (i.e. paragraphs or tables). |
-| Preserve | `1` | Properties of parent blocks are imported to a special logical structure and are stored separately from document nodes. |
+| Merge | `0` |  |
+| Preserve | `1` |  |
 
 ### See Also
 

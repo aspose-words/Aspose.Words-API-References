@@ -16,7 +16,7 @@ public enum TextDmlEffect
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | Glow | `0` | Glow effect, in which a color blurred outline is added outside the edges of the object. |
 | Fill | `1` | Fill overlay effect. |

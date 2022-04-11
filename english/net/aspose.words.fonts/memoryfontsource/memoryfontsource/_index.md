@@ -14,9 +14,25 @@ Ctor.
 public MemoryFontSource(byte[] fontData)
 ```
 
-| parameter | description |
-| --- | --- |
-| fontData | Binary font data. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| fontData | Byte[] | Binary font data. |
+
+### Examples
+
+Shows how to use a byte array with data from a font file as a font source.
+
+```csharp
+byte[] fontBytes = File.ReadAllBytes(MyDir + "Alte DIN 1451 Mittelschrift.ttf");
+MemoryFontSource memoryFontSource = new MemoryFontSource(fontBytes, 0);
+
+Document doc = new Document();
+doc.FontSettings = new FontSettings();
+doc.FontSettings.SetFontsSources(new FontSourceBase[] { memoryFontSource });
+
+Assert.AreEqual(FontSourceType.MemoryFont, memoryFontSource.Type);
+Assert.AreEqual(0, memoryFontSource.Priority);
+```
 
 ### See Also
 
@@ -34,10 +50,26 @@ Ctor.
 public MemoryFontSource(byte[] fontData, int priority)
 ```
 
-| parameter | description |
-| --- | --- |
-| fontData | Binary font data. |
-| priority | Font source priority. See the [`Priority`](../../fontsourcebase/priority) property description for more information. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| fontData | Byte[] | Binary font data. |
+| priority | Int32 | Font source priority. See the [`Priority`](../../fontsourcebase/priority) property description for more information. |
+
+### Examples
+
+Shows how to use a byte array with data from a font file as a font source.
+
+```csharp
+byte[] fontBytes = File.ReadAllBytes(MyDir + "Alte DIN 1451 Mittelschrift.ttf");
+MemoryFontSource memoryFontSource = new MemoryFontSource(fontBytes, 0);
+
+Document doc = new Document();
+doc.FontSettings = new FontSettings();
+doc.FontSettings.SetFontsSources(new FontSourceBase[] { memoryFontSource });
+
+Assert.AreEqual(FontSourceType.MemoryFont, memoryFontSource.Type);
+Assert.AreEqual(0, memoryFontSource.Priority);
+```
 
 ### See Also
 
@@ -55,11 +87,11 @@ Ctor.
 public MemoryFontSource(byte[] fontData, int priority, string cacheKey)
 ```
 
-| parameter | description |
-| --- | --- |
-| fontData | Binary font data. |
-| priority | Font source priority. See the [`Priority`](../../fontsourcebase/priority) property description for more information. |
-| cacheKey | The key of this source in the cache. See [`CacheKey`](../cachekey) property description for more information. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| fontData | Byte[] | Binary font data. |
+| priority | Int32 | Font source priority. See the [`Priority`](../../fontsourcebase/priority) property description for more information. |
+| cacheKey | String | The key of this source in the cache. See [`CacheKey`](../cachekey) property description for more information. |
 
 ### See Also
 

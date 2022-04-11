@@ -14,6 +14,40 @@ Specifies whether the CSS (Cascading Style Sheet) should be embedded into Html d
 public bool ExportEmbeddedCss { get; set; }
 ```
 
+### Examples
+
+Shows how to determine where to store CSS stylesheets when exporting a document to Html.
+
+```csharp
+Document doc = new Document(MyDir + "Rendering.docx");
+
+// When we export a document to html, Aspose.Words will also create a CSS stylesheet to format the document with.
+// Setting the "ExportEmbeddedCss" flag to "true" save the CSS stylesheet to a .css file,
+// and link to the file from the html document using a <link> element.
+// Setting the flag to "false" will embed the CSS stylesheet within the Html document,
+// which will create only one file instead of two.
+HtmlFixedSaveOptions htmlFixedSaveOptions = new HtmlFixedSaveOptions
+{
+    ExportEmbeddedCss = exportEmbeddedCss
+};
+
+doc.Save(ArtifactsDir + "HtmlFixedSaveOptions.ExportEmbeddedCss.html", htmlFixedSaveOptions);
+
+string outDocContents = File.ReadAllText(ArtifactsDir + "HtmlFixedSaveOptions.ExportEmbeddedCss.html");
+
+if (exportEmbeddedCss)
+{
+    Assert.True(Regex.Match(outDocContents, "<style type=\"text/css\">").Success);
+    Assert.False(File.Exists(ArtifactsDir + "HtmlFixedSaveOptions.ExportEmbeddedCss/styles.css"));
+}
+else
+{
+    Assert.True(Regex.Match(outDocContents,
+        "<link rel=\"stylesheet\" type=\"text/css\" href=\"HtmlFixedSaveOptions[.]ExportEmbeddedCss/styles[.]css\" media=\"all\" />").Success);
+    Assert.True(File.Exists(ArtifactsDir + "HtmlFixedSaveOptions.ExportEmbeddedCss/styles.css"));
+}
+```
+
 ### See Also
 
 * class [HtmlFixedSaveOptions](../../htmlfixedsaveoptions)

@@ -14,7 +14,7 @@ public interface ITextShaperFactory
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [GetTextShaper](gettextshaper)(…) |  (2 methods) |
 

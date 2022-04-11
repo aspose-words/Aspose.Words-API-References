@@ -16,7 +16,7 @@ public class SignatureLineOptions
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [SignatureLineOptions](signaturelineoptions)() | The default constructor. |
 | [AllowComments](allowcomments) { get; set; } | Gets or sets a value indicating that the signer can add comments in the Sign dialog. Default value for this property is false. |

@@ -16,7 +16,7 @@ public class ReportingEngine
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [ReportingEngine](reportingengine)() | Initializes a new instance of this class. |
 | [KnownTypes](knowntypes) { get; } | Gets an unordered set (i.e. a collection of unique items) containing Type objects which fully or partially qualified names can be used within report templates processed by this engine instance to invoke the corresponding types' static members, perform type casts, etc. |

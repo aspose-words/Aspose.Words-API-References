@@ -3,7 +3,7 @@ title: IsForms2OleControl
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 70
+weight: 60
 url: /net/aspose.words.drawing.ole/forms2olecontrol/isforms2olecontrol/
 ---
 ## Forms2OleControl.IsForms2OleControl property

@@ -16,13 +16,62 @@ public class FieldMergeRec : Field
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [FieldMergeRec](fieldmergerec)() | The default constructor. |
 
-## Remarks
+### Remarks
 
 At the moment the MERGEREC and MERGESEQ fields implement the same functionality because we don't know for sure how to skip records in Aspose.Words mail merge.
+
+### Examples
+
+Shows how to use MERGEREC and MERGESEQ fields to the number and count mail merge records in a mail merge's output documents.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+builder.Write("Dear ");
+FieldMergeField fieldMergeField = (FieldMergeField)builder.InsertField(FieldType.FieldMergeField, true);
+fieldMergeField.FieldName = "Name";
+builder.Writeln(",");
+
+// A MERGEREC field will print the row number of the data being merged in every merge output document.
+builder.Write("\nRow number of record in data source: ");
+FieldMergeRec fieldMergeRec = (FieldMergeRec)builder.InsertField(FieldType.FieldMergeRec, true);
+
+Assert.AreEqual(" MERGEREC ", fieldMergeRec.GetFieldCode());
+
+// A MERGESEQ field will count the number of successful merges and print the current value on each respective page.
+// If a mail merge skips no rows and invokes no SKIP/SKIPIF/NEXT/NEXTIF fields, then all merges are successful.
+// The MERGESEQ and MERGEREC fields will display the same results of their mail merge was successful.
+builder.Write("\nSuccessful merge number: ");
+FieldMergeSeq fieldMergeSeq = (FieldMergeSeq)builder.InsertField(FieldType.FieldMergeSeq, true);
+
+Assert.AreEqual(" MERGESEQ ", fieldMergeSeq.GetFieldCode());
+
+// Insert a SKIPIF field, which will skip a merge if the name is "John Doe".
+FieldSkipIf fieldSkipIf = (FieldSkipIf)builder.InsertField(FieldType.FieldSkipIf, true);
+builder.MoveTo(fieldSkipIf.Separator);
+fieldMergeField = (FieldMergeField)builder.InsertField(FieldType.FieldMergeField, true);
+fieldMergeField.FieldName = "Name";
+fieldSkipIf.LeftExpression = "=";
+fieldSkipIf.RightExpression = "John Doe";
+
+// Create a data source with 3 rows, one of them having "John Doe" as a value for the "Name" column.
+// Since a SKIPIF field will be triggered once by that value, the output of our mail merge will have 2 pages instead of 3.
+// On page 1, the MERGESEQ and MERGEREC fields will both display "1".
+// On page 2, the MERGEREC field will display "3" and the MERGESEQ field will display "2".
+DataTable table = new DataTable("Employees");
+table.Columns.Add("Name");
+table.Rows.Add(new[] { "Jane Doe" });
+table.Rows.Add(new[] { "John Doe" });
+table.Rows.Add(new[] { "Joe Bloggs" });
+
+doc.MailMerge.Execute(table);
+doc.Save(ArtifactsDir + "Field.MERGEREC.MERGESEQ.docx");
+```
 
 ### See Also
 

@@ -16,7 +16,7 @@ public class CsvDataLoadOptions
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [CsvDataLoadOptions](csvdataloadoptions)() | Initializes a new instance of this class with default options. |
 | [CsvDataLoadOptions](csvdataloadoptions)(…) | Initializes a new instance of this class with specifying whether CSV data contains column names at the first line. |
@@ -25,7 +25,7 @@ public class CsvDataLoadOptions
 | [HasHeaders](hasheaders) { get; set; } | Gets or sets a value indicating whether the first record of CSV data contains column names. |
 | [QuoteChar](quotechar) { get; set; } | Gets or sets the character that is used to quote field values. |
 
-## Remarks
+### Remarks
 
 An instance of this class can be passed into constructors of [`CsvDataSource`](../csvdatasource).
 

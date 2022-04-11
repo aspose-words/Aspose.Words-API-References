@@ -16,14 +16,47 @@ public class FieldQuote : Field
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [FieldQuote](fieldquote)() | The default constructor. |
 | [Text](text) { get; set; } | Gets or sets the text to retrieve. |
 
-## Remarks
+### Remarks
 
 Retrieves the specified text.
+
+### Examples
+
+Shows to use the QUOTE field.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+// Insert a QUOTE field, which will display the value of its Text property.
+FieldQuote field = (FieldQuote)builder.InsertField(FieldType.FieldQuote, true);
+field.Text = "\"Quoted text\"";
+
+Assert.AreEqual(" QUOTE  \"\\\"Quoted text\\\"\"", field.GetFieldCode());
+
+// Insert a QUOTE field and nest a DATE field inside it.
+// DATE fields update their value to the current date every time we open the document using Microsoft Word.
+// Nesting the DATE field inside the QUOTE field like this will freeze its value
+// to the date when we created the document.
+builder.Write("\nDocument creation date: ");
+field = (FieldQuote)builder.InsertField(FieldType.FieldQuote, true);
+builder.MoveTo(field.Separator);
+builder.InsertField(FieldType.FieldDate, true);
+
+Assert.AreEqual(" QUOTE \u0013 DATE \u0014" + DateTime.Now.Date.ToShortDateString() + "\u0015", field.GetFieldCode());
+
+// Update all the fields to display their correct results.
+doc.UpdateFields();
+
+Assert.AreEqual("\"Quoted text\"", doc.Range.Fields[0].Result);
+
+doc.Save(ArtifactsDir + "Field.QUOTE.docx");
+```
 
 ### See Also
 

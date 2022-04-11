@@ -16,7 +16,7 @@ public class DocumentProperty
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [IsLinkToContent](islinktocontent) { get; } | Shows whether this property is linked to content or not. |
 | [LinkSource](linksource) { get; } | Gets the source of a linked custom document property. |
@@ -29,6 +29,37 @@ public class DocumentProperty
 | [ToDouble](todouble)() | Returns the property value as double. |
 | [ToInt](toint)() | Returns the property value as integer. |
 | override [ToString](tostring)() | Returns the property value as a string formatted according to the current locale. |
+
+### Examples
+
+Shows how to work with built-in document properties.
+
+```csharp
+Document doc = new Document(MyDir + "Properties.docx");
+
+// The "Document" object contains some of its metadata in its members.
+Console.WriteLine($"Document filename:\n\t \"{doc.OriginalFileName}\"");
+
+// The document also stores metadata in its built-in properties.
+// Each built-in property is a member of the document's "BuiltInDocumentProperties" object.
+Console.WriteLine("Built-in Properties:");
+foreach (DocumentProperty docProperty in doc.BuiltInDocumentProperties)
+{
+    Console.WriteLine(docProperty.Name);
+    Console.WriteLine($"\tType:\t{docProperty.Type}");
+
+    // Some properties may store multiple values.
+    if (docProperty.Value is ICollection<object>)
+    {
+        foreach (object value in docProperty.Value as ICollection<object>)
+            Console.WriteLine($"\tValue:\t\"{value}\"");
+    }
+    else
+    {
+        Console.WriteLine($"\tValue:\t\"{docProperty.Value}\"");
+    }
+}
+```
 
 ### See Also
 

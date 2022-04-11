@@ -16,7 +16,7 @@ public class Font
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AllCaps](allcaps) { get; set; } | True if the font is formatted as all capital letters. |
 | [AutoColor](autocolor) { get; } | Returns the present calculated color of the text (black or white) to be used for 'auto color'. If the color is not 'auto' then returns [`Color`](./color). |
@@ -75,9 +75,68 @@ public class Font
 | [ClearFormatting](clearformatting)() | Resets to default font formatting. |
 | [HasDmlEffect](hasdmleffect)(…) | Checks if particular DrawingML text effect is applied. |
 
-## Remarks
+### Remarks
 
 You do not create instances of the [`Font`](../font) class directly. You just use [`Font`](../font) to access the font properties of the various objects such as [`Run`](../run), [`Paragraph`](../paragraph), [`Style`](../style), [`DocumentBuilder`](../documentbuilder).
+
+### Examples
+
+Shows how to format a run of text using its font property.
+
+```csharp
+Document doc = new Document();
+Run run = new Run(doc, "Hello world!");
+
+Aspose.Words.Font font = run.Font;
+font.Name = "Courier New";
+font.Size = 36;
+font.HighlightColor = Color.Yellow;
+
+doc.FirstSection.Body.FirstParagraph.AppendChild(run);
+doc.Save(ArtifactsDir + "Font.CreateFormattedRun.docx");
+```
+
+Shows how to insert a string surrounded by a border into a document.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+builder.Font.Border.Color = Color.Green;
+builder.Font.Border.LineWidth = 2.5d;
+builder.Font.Border.LineStyle = LineStyle.DashDotStroker;
+
+builder.Write("Text surrounded by green border.");
+
+doc.Save(ArtifactsDir + "Border.FontBorder.docx");
+```
+
+Shows how to create and use a paragraph style with list formatting.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+// Create a custom paragraph style.
+Style style = doc.Styles.Add(StyleType.Paragraph, "MyStyle1");
+style.Font.Size = 24;
+style.Font.Name = "Verdana";
+style.ParagraphFormat.SpaceAfter = 12;
+
+// Create a list and make sure the paragraphs that use this style will use this list.
+style.ListFormat.List = doc.Lists.Add(ListTemplate.BulletDefault);
+style.ListFormat.ListLevelNumber = 0;
+
+// Apply the paragraph style to the document builder's current paragraph, and then add some text.
+builder.ParagraphFormat.Style = style;
+builder.Writeln("Hello World: MyStyle1, bulleted list.");
+
+// Change the document builder's style to one that has no list formatting and write another paragraph.
+builder.ParagraphFormat.Style = doc.Styles["Normal"];
+builder.Writeln("Hello World: Normal.");
+
+builder.Document.Save(ArtifactsDir + "Styles.ParagraphStyleBulletedList.docx");
+```
 
 ### See Also
 

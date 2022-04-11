@@ -14,11 +14,11 @@ Creates a plain text document from a stream. Automatically detects the file form
 public PlainTextDocument(Stream stream)
 ```
 
-| parameter | description |
-| --- | --- |
-| stream | The stream where to extract the text from. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| stream | Stream | The stream where to extract the text from. |
 
-## Exceptions
+### Exceptions
 
 | exception | condition |
 | --- | --- |
@@ -31,9 +31,28 @@ public PlainTextDocument(Stream stream)
 | NotSupportedException | The stream does not support reading or seeking. |
 | ObjectDisposedException | The stream is a disposed object. |
 
-## Remarks
+### Remarks
 
 The document must be stored at the beginning of the stream. The stream must support random positioning.
+
+### Examples
+
+Shows how to load the contents of a Microsoft Word document in plaintext using stream.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+builder.Writeln("Hello world!");
+doc.Save(ArtifactsDir + "PlainTextDocument.LoadFromStream.docx");
+
+using (FileStream stream = new FileStream(ArtifactsDir + "PlainTextDocument.LoadFromStream.docx", FileMode.Open))
+{
+    PlainTextDocument plaintext = new PlainTextDocument(stream);
+
+    Assert.AreEqual("Hello world!", plaintext.Text.Trim());
+}
+```
 
 ### See Also
 
@@ -51,11 +70,11 @@ Creates a plain text document from a file. Automatically detects the file format
 public PlainTextDocument(string fileName)
 ```
 
-| parameter | description |
-| --- | --- |
-| fileName | Name of the file to extract the text from. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| fileName | String | Name of the file to extract the text from. |
 
-## Exceptions
+### Exceptions
 
 | exception | condition |
 | --- | --- |
@@ -65,6 +84,22 @@ public PlainTextDocument(string fileName)
 | IOException | There is an input/output exception. |
 | [IncorrectPasswordException](../../incorrectpasswordexception) | The document is encrypted and requires a password to open, but you supplied an incorrect password. |
 | ArgumentException | The name of the file cannot be null or empty string. |
+
+### Examples
+
+Shows how to load the contents of a Microsoft Word document in plaintext.
+
+```csharp
+Document doc = new Document(); 
+DocumentBuilder builder = new DocumentBuilder(doc);
+builder.Writeln("Hello world!");
+
+doc.Save(ArtifactsDir + "PlainTextDocument.Load.docx");
+
+PlainTextDocument plaintext = new PlainTextDocument(ArtifactsDir + "PlainTextDocument.Load.docx");
+
+Assert.AreEqual("Hello world!", plaintext.Text.Trim());
+```
 
 ### See Also
 
@@ -82,12 +117,12 @@ Creates a plain text document from a stream. Allows to specify additional option
 public PlainTextDocument(Stream stream, LoadOptions loadOptions)
 ```
 
-| parameter | description |
-| --- | --- |
-| stream | The stream where to extract the text from. |
-| loadOptions | Additional options to use when loading a document. Can be null. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| stream | Stream | The stream where to extract the text from. |
+| loadOptions | LoadOptions | Additional options to use when loading a document. Can be null. |
 
-## Exceptions
+### Exceptions
 
 | exception | condition |
 | --- | --- |
@@ -100,9 +135,35 @@ public PlainTextDocument(Stream stream, LoadOptions loadOptions)
 | NotSupportedException | The stream does not support reading or seeking. |
 | ObjectDisposedException | The stream is a disposed object. |
 
-## Remarks
+### Remarks
 
 The document must be stored at the beginning of the stream. The stream must support random positioning.
+
+### Examples
+
+Shows how to load the contents of an encrypted Microsoft Word document in plaintext using stream.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+builder.Writeln("Hello world!");
+
+OoxmlSaveOptions saveOptions = new OoxmlSaveOptions();
+saveOptions.Password = "MyPassword";
+
+doc.Save(ArtifactsDir + "PlainTextDocument.LoadFromStreamWithOptions.docx", saveOptions);
+
+LoadOptions loadOptions = new LoadOptions();
+loadOptions.Password = "MyPassword";
+
+using (FileStream stream = new FileStream(ArtifactsDir + "PlainTextDocument.LoadFromStreamWithOptions.docx", FileMode.Open))
+{
+    PlainTextDocument plaintext = new PlainTextDocument(stream, loadOptions);
+
+    Assert.AreEqual("Hello world!", plaintext.Text.Trim());
+}
+```
 
 ### See Also
 
@@ -121,12 +182,12 @@ Creates a plain text document from a file. Allows to specify additional options 
 public PlainTextDocument(string fileName, LoadOptions loadOptions)
 ```
 
-| parameter | description |
-| --- | --- |
-| fileName | Name of the file to extract the text from. |
-| loadOptions | Additional options to use when loading a document. Can be null. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| fileName | String | Name of the file to extract the text from. |
+| loadOptions | LoadOptions | Additional options to use when loading a document. Can be null. |
 
-## Exceptions
+### Exceptions
 
 | exception | condition |
 | --- | --- |
@@ -136,6 +197,28 @@ public PlainTextDocument(string fileName, LoadOptions loadOptions)
 | IOException | There is an input/output exception. |
 | [IncorrectPasswordException](../../incorrectpasswordexception) | The document is encrypted and requires a password to open, but you supplied an incorrect password. |
 | ArgumentException | The name of the file cannot be null or empty string. |
+
+### Examples
+
+Shows how to load the contents of an encrypted Microsoft Word document in plaintext.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+builder.Writeln("Hello world!");
+
+OoxmlSaveOptions saveOptions = new OoxmlSaveOptions();
+saveOptions.Password = "MyPassword";
+
+doc.Save(ArtifactsDir + "PlainTextDocument.LoadEncrypted.docx", saveOptions);
+
+LoadOptions loadOptions = new LoadOptions();
+loadOptions.Password = "MyPassword";
+
+PlainTextDocument plaintext = new PlainTextDocument(ArtifactsDir + "PlainTextDocument.LoadEncrypted.docx", loadOptions);
+
+Assert.AreEqual("Hello world!", plaintext.Text.Trim());
+```
 
 ### See Also
 

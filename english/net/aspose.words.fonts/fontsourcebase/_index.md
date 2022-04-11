@@ -16,19 +16,28 @@ public abstract class FontSourceBase
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Priority](priority) { get; } | Returns the font source priority. |
 | abstract [Type](type) { get; } | Returns the type of the font source. |
 | [WarningCallback](warningcallback) { get; set; } | Called during processing of font source when an issue is detected that might result in formatting fidelity loss. |
 | [GetAvailableFonts](getavailablefonts)() | Returns list of fonts available via this source. |
 
-## Protected Members
+### Examples
 
-| name | description |
-| --- | --- |
-| [FontSourceBase](fontsourcebase)() | The default constructor. |
-| [FontSourceBase](fontsourcebase)(…) |  |
+Shows how to use a font file in the local file system as a font source.
+
+```csharp
+FileFontSource fileFontSource = new FileFontSource(MyDir + "Alte DIN 1451 Mittelschrift.ttf", 0);
+
+Document doc = new Document();
+doc.FontSettings = new FontSettings();
+doc.FontSettings.SetFontsSources(new FontSourceBase[] { fileFontSource });
+
+Assert.AreEqual(MyDir + "Alte DIN 1451 Mittelschrift.ttf", fileFontSource.FilePath);
+Assert.AreEqual(FontSourceType.FontFile, fileFontSource.Type);
+Assert.AreEqual(0, fileFontSource.Priority);
+```
 
 ### See Also
 

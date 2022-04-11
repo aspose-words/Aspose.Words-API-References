@@ -1,5 +1,5 @@
 ---
-title: Aspose.Words.Shaping Namespace
+title: Aspose.Words.Shaping
 second_title: Aspose.Words for .NET API Reference
 description: The Aspose.Words.Shaping namespace contains classes to provide support for OpenType features using external text shaping engines.
 type: docs
@@ -8,17 +8,25 @@ url: /net/aspose.words.shaping/
 ---
 The Aspose.Words.Shaping namespace contains classes to provide support for OpenType features using external text shaping engines.
 
-## Members
+## Classes
 
-| public type | description |
+| Class | Description |
 | --- | --- |
 | class [BasicTextShaperCache](./basictextshapercache) |  |
 | class [Cluster](./cluster) |  |
-| enum [Direction](./direction) |  |
-| enum [FontFeature](./fontfeature) |  |
 | class [Glyph](./glyph) |  |
+## Interfaces
+
+| Interface | Description |
+| --- | --- |
 | interface [ITextShaper](./itextshaper) |  |
 | interface [ITextShaperFactory](./itextshaperfactory) |  |
+## Enumeration
+
+| Enumeration | Description |
+| --- | --- |
+| enum [Direction](./direction) |  |
+| enum [FontFeature](./fontfeature) |  |
 | enum [ScriptShapingLevel](./scriptshapinglevel) |  |
 | enum [UnicodeScript](./unicodescript) |  |
 

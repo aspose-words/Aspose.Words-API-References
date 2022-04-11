@@ -16,7 +16,7 @@ public enum ImageType
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | NoImage | `0` | The is no image data. |
 | Unknown | `1` | An unknown image type or image type that cannot be directly stored inside a Microsoft Word document. |
@@ -26,6 +26,26 @@ public enum ImageType
 | Jpeg | `5` | JPEG JFIF. |
 | Png | `6` | Portable Network Graphics. |
 | Bmp | `7` | Windows Bitmap. |
+
+### Examples
+
+Shows how to add an image to a shape and check its type.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+byte[] imageBytes = File.ReadAllBytes(ImageDir + "Logo.jpg");
+
+using (MemoryStream stream = new MemoryStream(imageBytes))
+{
+    Image image = Image.FromStream(stream);
+
+    // The image in the URL is a .gif. Inserting it into a document converts it into a .png.
+    Shape imgShape = builder.InsertImage(image);
+    Assert.AreEqual(ImageType.Jpeg, imgShape.ImageData.ImageType);
+}
+```
 
 ### See Also
 

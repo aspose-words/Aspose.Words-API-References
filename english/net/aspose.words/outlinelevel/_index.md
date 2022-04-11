@@ -16,7 +16,7 @@ public enum OutlineLevel
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | Level1 | `0` | The paragraph is at the outline level 1 (topmost level). |
 | Level2 | `1` | The paragraph is at the outline level 2. |

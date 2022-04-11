@@ -16,7 +16,7 @@ public class LoadOptions
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [LoadOptions](loadoptions)() | Initializes a new instance of this class with default values. |
 | [LoadOptions](loadoptions)(…) | A shortcut to initialize a new instance of this class with the specified password to load an encrypted document. (2 constructors) |
@@ -36,6 +36,30 @@ public class LoadOptions
 | [TempFolder](tempfolder) { get; set; } | Allows to use temporary files when reading document. By default this property is `null` and no temporary files are used. |
 | [UpdateDirtyFields](updatedirtyfields) { get; set; } | Specifies whether to update the fields with the `dirty` attribute. |
 | [WarningCallback](warningcallback) { get; set; } | Called during a load operation, when an issue is detected that might result in data or formatting fidelity loss. |
+
+### Examples
+
+Shows how to load an encrypted Microsoft Word document.
+
+```csharp
+Document doc;
+
+// Aspose.Words throw an exception if we try to open an encrypted document without its password.
+Assert.Throws<IncorrectPasswordException>(() => doc = new Document(MyDir + "Encrypted.docx"));
+
+// When loading such a document, the password is passed to the document's constructor using a LoadOptions object.
+LoadOptions options = new LoadOptions("docPassword");
+
+// There are two ways of loading an encrypted document with a LoadOptions object.
+// 1 -  Load the document from the local file system by filename:
+doc = new Document(MyDir + "Encrypted.docx", options);
+
+// 2 -  Load the document from a stream:
+using (Stream stream = File.OpenRead(MyDir + "Encrypted.docx"))
+{
+    doc = new Document(stream, options);
+}
+```
 
 ### See Also
 

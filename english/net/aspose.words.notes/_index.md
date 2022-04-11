@@ -1,5 +1,5 @@
 ---
-title: Aspose.Words.Notes Namespace
+title: Aspose.Words.Notes
 second_title: Aspose.Words for .NET API Reference
 description: The Aspose.Words.Notes namespace provides classes to work with Microsoft Word endnotes and footnotes.
 type: docs
@@ -8,15 +8,19 @@ url: /net/aspose.words.notes/
 ---
 The Aspose.Words.Notes namespace provides classes to work with Microsoft Word endnotes and footnotes.
 
-## Members
+## Classes
 
-| public type | description |
+| Class | Description |
 | --- | --- |
 | class [EndnoteOptions](./endnoteoptions) | Represents the endnote numbering options for a document or section. |
-| enum [EndnotePosition](./endnoteposition) | Defines the endnote position. |
 | class [Footnote](./footnote) | Represents a container for text of a footnote or endnote. |
-| enum [FootnoteNumberingRule](./footnotenumberingrule) | Determines when automatic footnote or endnote numbering restarts. |
 | class [FootnoteOptions](./footnoteoptions) | Represents the footnote numbering options for a document or section. |
+## Enumeration
+
+| Enumeration | Description |
+| --- | --- |
+| enum [EndnotePosition](./endnoteposition) | Defines the endnote position. |
+| enum [FootnoteNumberingRule](./footnotenumberingrule) | Determines when automatic footnote or endnote numbering restarts. |
 | enum [FootnotePosition](./footnoteposition) | Defines the footnote position. |
 | enum [FootnoteType](./footnotetype) | Specifies whether this is a footnote or an endnote. |
 

@@ -16,7 +16,7 @@ public class FieldInclude : Field
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [FieldInclude](fieldinclude)() | The default constructor. |
 | [BookmarkName](bookmarkname) { get; set; } | Gets or sets the name of the bookmark in the document to include. |
@@ -24,9 +24,31 @@ public class FieldInclude : Field
 | [SourceFullName](sourcefullname) { get; set; } | Gets or sets the location of the document. |
 | [TextConverter](textconverter) { get; set; } | Gets or sets the name of the text converter for the format of the included file. |
 
-## Remarks
+### Remarks
 
 Inserts all or part of the text and graphics contained in another document.
+
+### Examples
+
+Shows how to create an INCLUDE field, and set its properties.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+// We can use an INCLUDE field to import a portion of another document in the local file system.
+// The bookmark from the other document that we reference with this field contains this imported portion.
+FieldInclude field = (FieldInclude)builder.InsertField(FieldType.FieldInclude, true);
+field.SourceFullName = MyDir + "Bookmarks.docx";
+field.BookmarkName = "MyBookmark1";
+field.LockFields = false;
+field.TextConverter = "Microsoft Word";
+
+Assert.True(Regex.Match(field.GetFieldCode(), " INCLUDE .* MyBookmark1 \\\\c \"Microsoft Word\"").Success);
+
+doc.UpdateFields();
+doc.Save(ArtifactsDir + "Field.INCLUDE.docx");
+```
 
 ### See Also
 

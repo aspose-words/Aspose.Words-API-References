@@ -14,9 +14,9 @@ Allows a COM application to load a [`Document`](../../document) from an IStream 
 public Document OpenIStream(IStream stream)
 ```
 
-| parameter | description |
-| --- | --- |
-| stream | A .NET IStream object that contains the document to load. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| stream | IStream | A .NET IStream object that contains the document to load. |
 
 ## Return Value
 

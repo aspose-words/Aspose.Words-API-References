@@ -16,7 +16,7 @@ public class XmlMapping
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [CustomXmlPart](customxmlpart) { get; } | Returns the custom XML data part to which the parent structured document tag is mapped. |
 | [IsMapped](ismapped) { get; } | Returns true if the parent structured document tag is successfully mapped to XML data. |
@@ -25,6 +25,39 @@ public class XmlMapping
 | [XPath](xpath) { get; } | Returns the XPath expression, which is evaluated to find the custom XML node that is mapped to the parent structured document tag. |
 | [Delete](delete)() | Deletes mapping of the parent structured document to XML data. |
 | [SetMapping](setmapping)(…) | Sets a mapping between the parent structured document tag and an XML node of a custom XML data part. |
+
+### Examples
+
+Shows how to set XML mappings for custom XML parts.
+
+```csharp
+Document doc = new Document();
+
+// Construct an XML part that contains text and add it to the document's CustomXmlPart collection.
+string xmlPartId = Guid.NewGuid().ToString("B");
+string xmlPartContent = "<root><text>Text element #1</text><text>Text element #2</text></root>";
+CustomXmlPart xmlPart = doc.CustomXmlParts.Add(xmlPartId, xmlPartContent);
+
+Assert.AreEqual("<root><text>Text element #1</text><text>Text element #2</text></root>", 
+    Encoding.UTF8.GetString(xmlPart.Data));
+
+// Create a structured document tag that will display the contents of our CustomXmlPart.
+StructuredDocumentTag tag = new StructuredDocumentTag(doc, SdtType.PlainText, MarkupLevel.Block);
+
+// Set a mapping for our structured document tag. This mapping will instruct
+// our structured document tag to display a portion of the XML part's text contents that the XPath points to.
+// In this case, it will be contents of the the second "<text>" element of the first "<root>" element: "Text element #2".
+tag.XmlMapping.SetMapping(xmlPart, "/root[1]/text[2]", "xmlns:ns='http://www.w3.org/2001/XMLSchema'");
+
+Assert.True(tag.XmlMapping.IsMapped);
+Assert.AreEqual(xmlPart, tag.XmlMapping.CustomXmlPart);
+Assert.AreEqual("/root[1]/text[2]", tag.XmlMapping.XPath);
+Assert.AreEqual("xmlns:ns='http://www.w3.org/2001/XMLSchema'", tag.XmlMapping.PrefixMappings);
+
+// Add the structured document tag to the document to display the content from our custom part.
+doc.FirstSection.Body.AppendChild(tag);
+doc.Save(ArtifactsDir + "StructuredDocumentTag.XmlMapping.docx");
+```
 
 ### See Also
 

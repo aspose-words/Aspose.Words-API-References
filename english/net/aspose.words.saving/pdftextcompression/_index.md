@@ -16,10 +16,35 @@ public enum PdfTextCompression
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | None | `0` | No compression. |
 | Flate | `1` | Flate (ZIP) compression. |
+
+### Examples
+
+Shows how to apply text compression when saving a document to PDF.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+for (int i = 0; i < 100; i++)
+    builder.Writeln("Lorem ipsum dolor sit amet, consectetur adipiscing elit, " +
+                    "sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.");
+
+// Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+// to modify how that method converts the document to .PDF.
+PdfSaveOptions options = new PdfSaveOptions();
+
+// Set the "TextCompression" property to "PdfTextCompression.None" to not apply any
+// compression to text when we save the document to PDF.
+// Set the "TextCompression" property to "PdfTextCompression.Flate" to apply ZIP compression
+// to text when we save the document to PDF. The larger the document, the bigger the impact that this will have.
+options.TextCompression = pdfTextCompression;
+
+doc.Save(ArtifactsDir + "PdfSaveOptions.TextCompression.pdf", options);
+```
 
 ### See Also
 

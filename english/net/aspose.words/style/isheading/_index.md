@@ -3,7 +3,7 @@ title: IsHeading
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 70
+weight: 60
 url: /net/aspose.words/style/isheading/
 ---
 ## Style.IsHeading property
@@ -12,6 +12,31 @@ True when the style is one of the built-in Heading styles.
 
 ```csharp
 public bool IsHeading { get; }
+```
+
+### Examples
+
+Shows how to access a document's style collection.
+
+```csharp
+Document doc = new Document();
+
+Assert.AreEqual(4, doc.Styles.Count);
+
+// Enumerate and list all the styles that a document created using Aspose.Words contains by default.
+using (IEnumerator<Style> stylesEnum = doc.Styles.GetEnumerator())
+{
+    while (stylesEnum.MoveNext())
+    {
+        Style curStyle = stylesEnum.Current;
+        Console.WriteLine($"Style name:\t\"{curStyle.Name}\", of type \"{curStyle.Type}\"");
+        Console.WriteLine($"\tSubsequent style:\t{curStyle.NextParagraphStyleName}");
+        Console.WriteLine($"\tIs heading:\t\t\t{curStyle.IsHeading}");
+        Console.WriteLine($"\tIs QuickStyle:\t\t{curStyle.IsQuickStyle}");
+
+        Assert.AreEqual(doc, curStyle.Document);
+    }
+}
 ```
 
 ### See Also

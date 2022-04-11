@@ -16,13 +16,34 @@ public class FieldLastSavedBy : Field
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [FieldLastSavedBy](fieldlastsavedby)() | The default constructor. |
 
-## Remarks
+### Remarks
 
 Retrieves the name of the user who last modified and saved the current document, as recorded in the LastModifiedBy property of the built-in document properties.
+
+### Examples
+
+Shows how to use the LASTSAVEDBY field.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+// If we create a document in Microsoft Word, it will have the user's name in the "Last saved by" built-in property.
+// If we make a document programmatically, this property will be null, and we will need to assign a value. 
+doc.BuiltInDocumentProperties.LastSavedBy = "John Doe";
+
+// We can use the LASTSAVEDBY field to display the value of this property in the document.
+FieldLastSavedBy field = (FieldLastSavedBy)builder.InsertField(FieldType.FieldLastSavedBy, true);
+
+Assert.AreEqual(" LASTSAVEDBY ", field.GetFieldCode());
+Assert.AreEqual("John Doe", field.Result);
+
+doc.Save(ArtifactsDir + "Field.LASTSAVEDBY.docx");
+```
 
 ### See Also
 

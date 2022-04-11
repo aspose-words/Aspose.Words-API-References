@@ -16,13 +16,46 @@ public class FieldBidiOutline : Field
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [FieldBidiOutline](fieldbidioutline)() | The default constructor. |
 
-## Remarks
+### Remarks
 
 This field is identical to the AUTONUMLGL field, except for the separator that delimits each level of the paragraph numbering.
+
+### Examples
+
+Shows how to create right-to-left language-compatible lists with BIDIOUTLINE fields.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+// The BIDIOUTLINE field numbers paragraphs like the AUTONUM/LISTNUM fields,
+// but is only visible when a right-to-left editing language is enabled, such as Hebrew or Arabic.
+// The following field will display ".1", the RTL equivalent of list number "1.".
+FieldBidiOutline field = (FieldBidiOutline)builder.InsertField(FieldType.FieldBidiOutline, true);
+builder.Writeln("שלום");
+
+Assert.AreEqual(" BIDIOUTLINE ", field.GetFieldCode());
+
+// Add two more BIDIOUTLINE fields, which will display ".2" and ".3".
+builder.InsertField(FieldType.FieldBidiOutline, true);
+builder.Writeln("שלום");
+builder.InsertField(FieldType.FieldBidiOutline, true);
+builder.Writeln("שלום");
+
+// Set the horizontal text alignment for every paragraph in the document to RTL.
+foreach (Paragraph para in doc.GetChildNodes(NodeType.Paragraph, true))
+{
+    para.ParagraphFormat.Bidi = true;
+}
+
+// If we enable a right-to-left editing language in Microsoft Word, our fields will display numbers.
+// Otherwise, they will display "###".
+doc.Save(ArtifactsDir + "Field.BIDIOUTLINE.docx");
+```
 
 ### See Also
 

@@ -1,5 +1,5 @@
 ---
-title: Aspose.Words.Fields Namespace
+title: Aspose.Words.Fields
 second_title: Aspose.Words for .NET API Reference
 description: The Aspose.Words.Fields namespace contains classes that represent Microsoft Word fields in a document.
 type: docs
@@ -8,9 +8,9 @@ url: /net/aspose.words.fields/
 ---
 The Aspose.Words.Fields namespace contains classes that represent Microsoft Word fields in a document.
 
-## Members
+## Classes
 
-| public type | description |
+| Class | Description |
 | --- | --- |
 | class [BarcodeParameters](./barcodeparameters) | Container class for barcode parameters to pass-through to BarcodeGenerator. |
 | class [ComparisonEvaluationResult](./comparisonevaluationresult) | The comparison evaluation result. |
@@ -64,13 +64,11 @@ The Aspose.Words.Fields namespace contains classes that represent Microsoft Word
 | class [FieldGreetingLine](./fieldgreetingline) | Implements the GREETINGLINE field. |
 | class [FieldHyperlink](./fieldhyperlink) | Implements the HYPERLINK field |
 | class [FieldIf](./fieldif) | Implements the IF field. |
-| enum [FieldIfComparisonResult](./fieldifcomparisonresult) | Specifies the result of the IF field condition evaluation. |
 | class [FieldImport](./fieldimport) | Implements the IMPORT field. |
 | class [FieldInclude](./fieldinclude) | Implements the INCLUDE field. |
 | class [FieldIncludePicture](./fieldincludepicture) | Implements the INCLUDEPICTURE field. |
 | class [FieldIncludeText](./fieldincludetext) | Implements the INCLUDETEXT field. |
 | class [FieldIndex](./fieldindex) | Implements the INDEX field. |
-| enum [FieldIndexFormat](./fieldindexformat) | Specifies the formatting for the [`FieldIndex`](aspose.words.fields/fieldindex) fields in a document. |
 | class [FieldInfo](./fieldinfo) | Implements the INFO field. |
 | class [FieldKeywords](./fieldkeywords) | Implements the KEYWORDS field. |
 | class [FieldLastSavedBy](./fieldlastsavedby) | Implements the LASTSAVEDBY field. |
@@ -117,27 +115,37 @@ The Aspose.Words.Fields namespace contains classes that represent Microsoft Word
 | class [FieldTitle](./fieldtitle) | Implements the TITLE field. |
 | class [FieldToa](./fieldtoa) | Implements the TOA field. |
 | class [FieldToc](./fieldtoc) | Implements the TOC field. |
-| enum [FieldType](./fieldtype) | Specifies Microsoft Word field types. |
 | class [FieldUnknown](./fieldunknown) | Implements an unknown or unrecognized field. |
-| enum [FieldUpdateCultureSource](./fieldupdateculturesource) | Indicates what culture to use during field update. |
 | class [FieldUserAddress](./fielduseraddress) | Implements the USERADDRESS field. |
 | class [FieldUserInitials](./fielduserinitials) | Implements the USERINITIALS field. |
 | class [FieldUserName](./fieldusername) | Implements the USERNAME field. |
 | class [FieldXE](./fieldxe) | Implements the XE field. |
 | class [FormField](./formfield) | Represents a single form field. |
 | class [FormFieldCollection](./formfieldcollection) | A collection of FormField objects that represent all the form fields in a range. |
-| enum [GeneralFormat](./generalformat) | Specifies a general format that is applied to a numeric, text, or any field result. A field may have a combination of general formats. |
 | class [GeneralFormatCollection](./generalformatcollection) | Represents a typed collection of general formats. |
+| class [MergeFieldImageDimension](./mergefieldimagedimension) | Represents an image dimension (i.e. the width or the height) used across a mail merge process. |
+| class [ToaCategories](./toacategories) | Represents a table of authorities categories. |
+| class [UserInformation](./userinformation) | Specifies information about the user. |
+## Interfaces
+
+| Interface | Description |
+| --- | --- |
 | interface [IBarcodeGenerator](./ibarcodegenerator) | Public interface for barcode custom generator. Implementation should be provided by user. |
 | interface [IComparisonExpressionEvaluator](./icomparisonexpressionevaluator) | When implemented, allows to override default comparison expressions evaluation for the [`FieldIf`](aspose.words.fields/fieldif) and [`FieldCompare`](aspose.words.fields/fieldcompare) fields. |
 | interface [IFieldResultFormatter](./ifieldresultformatter) | Implement this interface if you want to control how the field result is formatted. |
 | interface [IFieldUpdateCultureProvider](./ifieldupdatecultureprovider) | When implemented, provides a CultureInfo object that should be used during the update of a particular field. |
 | interface [IFieldUpdatingCallback](./ifieldupdatingcallback) | Implement this interface if you want to have your own custom methods called during a field update. |
 | interface [IFieldUserPromptRespondent](./ifielduserpromptrespondent) | Represents the respondent to user prompts during field update. |
-| class [MergeFieldImageDimension](./mergefieldimagedimension) | Represents an image dimension (i.e. the width or the height) used across a mail merge process. |
+## Enumeration
+
+| Enumeration | Description |
+| --- | --- |
+| enum [FieldIfComparisonResult](./fieldifcomparisonresult) | Specifies the result of the IF field condition evaluation. |
+| enum [FieldIndexFormat](./fieldindexformat) | Specifies the formatting for the [`FieldIndex`](aspose.words.fields/fieldindex) fields in a document. |
+| enum [FieldType](./fieldtype) | Specifies Microsoft Word field types. |
+| enum [FieldUpdateCultureSource](./fieldupdateculturesource) | Indicates what culture to use during field update. |
+| enum [GeneralFormat](./generalformat) | Specifies a general format that is applied to a numeric, text, or any field result. A field may have a combination of general formats. |
 | enum [MergeFieldImageDimensionUnit](./mergefieldimagedimensionunit) | Specifies an unit of an image dimension (i.e. the width or the height) used across a mail merge process. |
 | enum [TextFormFieldType](./textformfieldtype) | Specifies the type of a text form field. |
-| class [ToaCategories](./toacategories) | Represents a table of authorities categories. |
-| class [UserInformation](./userinformation) | Specifies information about the user. |
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

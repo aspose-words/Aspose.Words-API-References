@@ -14,14 +14,48 @@ Creates a new header or footer of the specified type.
 public HeaderFooter(DocumentBase doc, HeaderFooterType headerFooterType)
 ```
 
-| parameter | description |
-| --- | --- |
-| doc | The owner document. |
-| headerFooterType | A [`HeaderFooterType`](../headerfootertype) value that specifies the type of the header or footer. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| doc | DocumentBase | The owner document. |
+| headerFooterType | HeaderFooterType | A [`HeaderFooterType`](../headerfootertype) value that specifies the type of the header or footer. |
 
-## Remarks
+### Remarks
 
 When HeaderFooter is created, it belongs to the specified document, but is not yet part of the document and ParentNode is null.To append HeaderFooter to a Section use Section.InsertAfter, Section.InsertBefore, HeadersFooters.Add or HeadersFooters.Insert.
+
+### Examples
+
+Shows how to create a header and a footer.
+
+```csharp
+Document doc = new Document();
+
+// Create a header and append a paragraph to it. The text in that paragraph
+// will appear at the top of every page of this section, above the main body text.
+HeaderFooter header = new HeaderFooter(doc, HeaderFooterType.HeaderPrimary);
+doc.FirstSection.HeadersFooters.Add(header);
+
+Paragraph para = header.AppendParagraph("My header.");
+
+Assert.True(header.IsHeader);
+Assert.True(para.IsEndOfHeaderFooter);
+
+// Create a footer and append a paragraph to it. The text in that paragraph
+// will appear at the bottom of every page of this section, below the main body text.
+HeaderFooter footer = new HeaderFooter(doc, HeaderFooterType.FooterPrimary);
+doc.FirstSection.HeadersFooters.Add(footer);
+
+para = footer.AppendParagraph("My footer.");
+
+Assert.False(footer.IsHeader);
+Assert.True(para.IsEndOfHeaderFooter);
+
+Assert.AreEqual(footer, para.ParentStory);
+Assert.AreEqual(footer.ParentSection, para.ParentSection);
+Assert.AreEqual(footer.ParentSection, header.ParentSection);
+
+doc.Save(ArtifactsDir + "HeaderFooter.Create.docx");
+```
 
 ### See Also
 

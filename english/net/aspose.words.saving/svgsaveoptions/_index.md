@@ -16,7 +16,7 @@ public class SvgSaveOptions : FixedPageSaveOptions
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [SvgSaveOptions](svgsaveoptions)() | The default constructor. |
 | [ExportEmbeddedImages](exportembeddedimages) { get; set; } | Specified whether images should be embedded into SVG document as base64. Note setting this flag can significantly increase size of output SVG file. |
@@ -27,6 +27,46 @@ public class SvgSaveOptions : FixedPageSaveOptions
 | override [SaveFormat](saveformat) { get; set; } | Specifies the format in which the document will be saved if this save options object is used. Can only be Svg. |
 | [ShowPageBorder](showpageborder) { get; set; } | Controls whether a border is added to the outline of the page. Default is `true`. |
 | [TextOutputMode](textoutputmode) { get; set; } | Gets or sets a value determining how text should be rendered in SVG. |
+
+### Examples
+
+Shows how to manipulate and print the URIs of linked resources created while converting a document to .svg.
+
+```csharp
+public void SvgResourceFolder()
+{
+    Document doc = new Document(MyDir + "Rendering.docx");
+
+    SvgSaveOptions options = new SvgSaveOptions
+    {
+        SaveFormat = SaveFormat.Svg,
+        ExportEmbeddedImages = false,
+        ResourcesFolder = ArtifactsDir + "SvgResourceFolder",
+        ResourcesFolderAlias = ArtifactsDir + "SvgResourceFolderAlias",
+        ShowPageBorder = false,
+
+        ResourceSavingCallback = new ResourceUriPrinter()
+    };
+
+    Directory.CreateDirectory(options.ResourcesFolderAlias);
+
+    doc.Save(ArtifactsDir + "SvgSaveOptions.SvgResourceFolder.svg", options);
+}
+
+/// <summary>
+/// Counts and prints URIs of resources contained by as they are converted to .svg.
+/// </summary>
+private class ResourceUriPrinter : IResourceSavingCallback
+{
+    void IResourceSavingCallback.ResourceSaving(ResourceSavingArgs args)
+    {
+        Console.WriteLine($"Resource #{++mSavedResourceCount} \"{args.ResourceFileName}\"");
+        Console.WriteLine("\t" + args.ResourceFileUri);
+    }
+
+    private int mSavedResourceCount;
+}
+```
 
 ### See Also
 

@@ -14,11 +14,11 @@ Saves the font search cache to the stream.
 public void SaveSearchCache(Stream outputStream)
 ```
 
-| parameter | description |
-| --- | --- |
-| outputStream | Output stream. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| outputStream | Stream | Output stream. |
 
-## Remarks
+### Remarks
 
 See [`SetFontsSources`](../setfontssources) method description for more info.
 

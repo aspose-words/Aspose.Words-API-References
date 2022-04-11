@@ -16,16 +16,38 @@ public class Frameset
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Frameset](frameset)() | The default constructor. |
 | [ChildFramesets](childframesets) { get; } | Gets the collection of child frames and frames pages. |
 | [FrameDefaultUrl](framedefaulturl) { get; set; } | Gets or sets the web page URL or document file name to display in this frame. |
 | [IsFrameLinkToFile](isframelinktofile) { get; set; } | Gets or sets a value indicating whether the web page or document file name specified in the [`FrameDefaultUrl`](./framedefaulturl) property is an external resource the frame is linked with. |
 
-## Remarks
+### Remarks
 
 If the [`ChildFramesets`](./childframesets) property contains items, this instance is a frames page, otherwise it is a single frame.
+
+### Examples
+
+Shows how to access frames on-page.
+
+```csharp
+// Document contains several frames with links to other documents.
+Document doc = new Document(MyDir + "Frameset.docx");
+
+// We can check the default URL (a web page URL or local document) or if the frame is an external resource.
+Assert.AreEqual("https://file-examples-com.github.io/uploads/2017/02/file-sample_100kB.docx",
+    doc.Frameset.ChildFramesets[0].ChildFramesets[0].FrameDefaultUrl);
+Assert.True(doc.Frameset.ChildFramesets[0].ChildFramesets[0].IsFrameLinkToFile);
+
+Assert.AreEqual("Document.docx", doc.Frameset.ChildFramesets[1].FrameDefaultUrl);
+Assert.False(doc.Frameset.ChildFramesets[1].IsFrameLinkToFile);
+
+// Change properties for one of our frames.
+doc.Frameset.ChildFramesets[0].ChildFramesets[0].FrameDefaultUrl =
+    "https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Absolute%20position%20tab.docx";
+doc.Frameset.ChildFramesets[0].ChildFramesets[0].IsFrameLinkToFile = false;
+```
 
 ### See Also
 

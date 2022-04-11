@@ -14,9 +14,40 @@ Returns the present calculated color of the text (black or white) to be used for
 public Color AutoColor { get; }
 ```
 
-## Remarks
+### Remarks
 
 When text has 'automatic color', the actual color of text is calculated automatically so that it is readable against the background color. As you change the background color, the text color will automatically switch to black or white in MS Word to maximize legibility.
+
+### Examples
+
+Shows how to improve readability by automatically selecting text color based on the brightness of its background.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+// If a run's Font object does not specify text color, it will automatically
+// select either black or white depending on the background color's color.
+Assert.AreEqual(Color.Empty.ToArgb(), builder.Font.Color.ToArgb());
+
+// The default color for text is black. If the color of the background is dark, black text will be difficult to see.
+// To solve this problem, the AutoColor property will display this text in white.
+builder.Font.Shading.BackgroundPatternColor = Color.DarkBlue;
+
+builder.Writeln("The text color automatically chosen for this run is white.");
+
+Assert.AreEqual(Color.White.ToArgb(), doc.FirstSection.Body.Paragraphs[0].Runs[0].Font.AutoColor.ToArgb());
+
+// If we change the background to a light color, black will be a more
+// suitable text color than white so that the auto color will display it in black.
+builder.Font.Shading.BackgroundPatternColor = Color.LightBlue;
+
+builder.Writeln("The text color automatically chosen for this run is black.");
+
+Assert.AreEqual(Color.Black.ToArgb(), doc.FirstSection.Body.Paragraphs[1].Runs[0].Font.AutoColor.ToArgb());
+
+doc.Save(ArtifactsDir + "Font.SetFontAutoColor.docx");
+```
 
 ### See Also
 

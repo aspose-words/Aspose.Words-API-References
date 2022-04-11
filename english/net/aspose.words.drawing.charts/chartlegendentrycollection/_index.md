@@ -16,7 +16,7 @@ public class ChartLegendEntryCollection : IEnumerable<ChartLegendEntry>
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Count](count) { get; } | Returns the number of [`ChartLegendEntry`](../chartlegendentry) in this collection. |
 | [Item](item) { get; } | Returns [`ChartLegendEntry`](../chartlegendentry) for the specified index. |

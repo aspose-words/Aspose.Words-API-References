@@ -14,6 +14,18 @@ Gets or sets indication of whether the "Use printer metrics to lay out document"
 public bool IgnorePrinterMetrics { get; set; }
 ```
 
+### Examples
+
+Shows how to ignore 'Use printer metrics to lay out document' option.
+
+```csharp
+Document doc = new Document(MyDir + "Rendering.docx");
+
+doc.LayoutOptions.IgnorePrinterMetrics = false;
+
+doc.Save(ArtifactsDir + "Document.IgnorePrinterMetrics.docx");
+```
+
 ### See Also
 
 * class [LayoutOptions](../../layoutoptions)

@@ -1,5 +1,5 @@
 ---
-title: Aspose.Words.Tables Namespace
+title: Aspose.Words.Tables
 second_title: Aspose.Words for .NET API Reference
 description: The Aspose.Words.Tables namespace contains classes that represent tables, rows, cells and their formatting.
 type: docs
@@ -8,24 +8,28 @@ url: /net/aspose.words.tables/
 ---
 The Aspose.Words.Tables namespace contains classes that represent tables, rows, cells and their formatting.
 
-## Members
+## Classes
 
-| public type | description |
+| Class | Description |
 | --- | --- |
-| enum [AutoFitBehavior](./autofitbehavior) | Determines how Aspose.Words resizes the table when you invoke the [`AutoFit`](aspose.words.tables/table/autofit) method. |
 | class [Cell](./cell) | Represents a table cell. |
 | class [CellCollection](./cellcollection) | Provides typed access to a collection of [`Cell`](aspose.words.tables/cell) nodes. |
 | class [CellFormat](./cellformat) | Represents all formatting for a table cell. |
-| enum [CellMerge](./cellmerge) | Specifies how a cell in a table is merged with other cells. |
-| enum [CellVerticalAlignment](./cellverticalalignment) | Specifies vertical justification of text inside a table cell. |
 | class [PreferredWidth](./preferredwidth) | Represents a value and its unit of measure that is used to specify the preferred width of a table or a cell. |
-| enum [PreferredWidthType](./preferredwidthtype) | Specifies the unit of measurement for the preferred width of a table or cell. |
 | class [Row](./row) | Represents a table row. |
 | class [RowCollection](./rowcollection) | Provides typed access to a collection of [`Row`](aspose.words.tables/row) nodes. |
 | class [RowFormat](./rowformat) | Represents all formatting for a table row. |
 | class [Table](./table) | Represents a table in a Word document. |
-| enum [TableAlignment](./tablealignment) | Specifies alignment for an inline table. |
 | class [TableCollection](./tablecollection) | Provides typed access to a collection of [`Table`](aspose.words.tables/table) nodes. |
+## Enumeration
+
+| Enumeration | Description |
+| --- | --- |
+| enum [AutoFitBehavior](./autofitbehavior) | Determines how Aspose.Words resizes the table when you invoke the [`AutoFit`](aspose.words.tables/table/autofit) method. |
+| enum [CellMerge](./cellmerge) | Specifies how a cell in a table is merged with other cells. |
+| enum [CellVerticalAlignment](./cellverticalalignment) | Specifies vertical justification of text inside a table cell. |
+| enum [PreferredWidthType](./preferredwidthtype) | Specifies the unit of measurement for the preferred width of a table or cell. |
+| enum [TableAlignment](./tablealignment) | Specifies alignment for an inline table. |
 | [Flags] enum [TableStyleOptions](./tablestyleoptions) | Specifies how table style is applied to a table. |
 | enum [TextWrapping](./textwrapping) | Specifies how text is wrapped around the table. |
 

@@ -14,9 +14,25 @@ Ctor.
 public FileFontSource(string filePath)
 ```
 
-| parameter | description |
-| --- | --- |
-| filePath | Path to font file. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| filePath | String | Path to font file. |
+
+### Examples
+
+Shows how to use a font file in the local file system as a font source.
+
+```csharp
+FileFontSource fileFontSource = new FileFontSource(MyDir + "Alte DIN 1451 Mittelschrift.ttf", 0);
+
+Document doc = new Document();
+doc.FontSettings = new FontSettings();
+doc.FontSettings.SetFontsSources(new FontSourceBase[] { fileFontSource });
+
+Assert.AreEqual(MyDir + "Alte DIN 1451 Mittelschrift.ttf", fileFontSource.FilePath);
+Assert.AreEqual(FontSourceType.FontFile, fileFontSource.Type);
+Assert.AreEqual(0, fileFontSource.Priority);
+```
 
 ### See Also
 
@@ -34,10 +50,26 @@ Ctor.
 public FileFontSource(string filePath, int priority)
 ```
 
-| parameter | description |
-| --- | --- |
-| filePath | Path to font file. |
-| priority | Font source priority. See the [`Priority`](../../fontsourcebase/priority) property description for more information. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| filePath | String | Path to font file. |
+| priority | Int32 | Font source priority. See the [`Priority`](../../fontsourcebase/priority) property description for more information. |
+
+### Examples
+
+Shows how to use a font file in the local file system as a font source.
+
+```csharp
+FileFontSource fileFontSource = new FileFontSource(MyDir + "Alte DIN 1451 Mittelschrift.ttf", 0);
+
+Document doc = new Document();
+doc.FontSettings = new FontSettings();
+doc.FontSettings.SetFontsSources(new FontSourceBase[] { fileFontSource });
+
+Assert.AreEqual(MyDir + "Alte DIN 1451 Mittelschrift.ttf", fileFontSource.FilePath);
+Assert.AreEqual(FontSourceType.FontFile, fileFontSource.Type);
+Assert.AreEqual(0, fileFontSource.Priority);
+```
 
 ### See Also
 
@@ -55,11 +87,11 @@ Ctor.
 public FileFontSource(string filePath, int priority, string cacheKey)
 ```
 
-| parameter | description |
-| --- | --- |
-| filePath | Path to font file. |
-| priority | Font source priority. See the [`Priority`](../../fontsourcebase/priority) property description for more information. |
-| cacheKey | The key of this source in the cache. See [`CacheKey`](../cachekey) property description for more information. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| filePath | String | Path to font file. |
+| priority | Int32 | Font source priority. See the [`Priority`](../../fontsourcebase/priority) property description for more information. |
+| cacheKey | String | The key of this source in the cache. See [`CacheKey`](../cachekey) property description for more information. |
 
 ### See Also
 

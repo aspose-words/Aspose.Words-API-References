@@ -16,7 +16,7 @@ public class BuiltInDocumentProperties : DocumentPropertyCollection
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Author](author) { get; set; } | Gets or sets the name of the document's author. |
 | [Bytes](bytes) { get; set; } | Represents an estimate of the number of bytes in the document. |
@@ -52,11 +52,42 @@ public class BuiltInDocumentProperties : DocumentPropertyCollection
 | [Version](version) { get; set; } | Represents the version number of the application that created the document. |
 | [Words](words) { get; set; } | Represents an estimate of the number of words in the document. |
 
-## Remarks
+### Remarks
 
 Provides access to [`DocumentProperty`](../documentproperty) objects by their names (using an indexer) and via a set of typed properties that return values of appropriate types.
 
 The names of the properties are case-insensitive.The properties in the collection are sorted alphabetically by name.
+
+### Examples
+
+Shows how to work with built-in document properties.
+
+```csharp
+Document doc = new Document(MyDir + "Properties.docx");
+
+// The "Document" object contains some of its metadata in its members.
+Console.WriteLine($"Document filename:\n\t \"{doc.OriginalFileName}\"");
+
+// The document also stores metadata in its built-in properties.
+// Each built-in property is a member of the document's "BuiltInDocumentProperties" object.
+Console.WriteLine("Built-in Properties:");
+foreach (DocumentProperty docProperty in doc.BuiltInDocumentProperties)
+{
+    Console.WriteLine(docProperty.Name);
+    Console.WriteLine($"\tType:\t{docProperty.Type}");
+
+    // Some properties may store multiple values.
+    if (docProperty.Value is ICollection<object>)
+    {
+        foreach (object value in docProperty.Value as ICollection<object>)
+            Console.WriteLine($"\tValue:\t\"{value}\"");
+    }
+    else
+    {
+        Console.WriteLine($"\tValue:\t\"{docProperty.Value}\"");
+    }
+}
+```
 
 ### See Also
 

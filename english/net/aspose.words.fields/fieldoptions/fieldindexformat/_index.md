@@ -14,6 +14,26 @@ Gets or sets a `FieldIndexFormat` that represents the formatting for the [`Field
 public FieldIndexFormat FieldIndexFormat { get; set; }
 ```
 
+### Examples
+
+Shows how to formatting FieldIndex fields.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+builder.Write("A");
+builder.InsertBreak(BreakType.LineBreak);
+builder.InsertField("XE \"A\"");
+builder.Write("B");
+
+builder.InsertField(" INDEX \\e \" · \" \\h \"A\" \\c \"2\" \\z \"1033\"", null);
+
+doc.FieldOptions.FieldIndexFormat = FieldIndexFormat.Fancy;
+doc.UpdateFields();
+
+doc.Save(ArtifactsDir + "Field.SetFieldIndexFormat.docx");
+```
+
 ### See Also
 
 * enum [FieldIndexFormat](../../fieldindexformat)

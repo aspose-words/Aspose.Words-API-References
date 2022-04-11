@@ -14,15 +14,15 @@ Accepts a visitor.
 public override bool Accept(DocumentVisitor visitor)
 ```
 
-| parameter | description |
-| --- | --- |
-| visitor | The visitor that will visit the nodes. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| visitor | DocumentVisitor | The visitor that will visit the nodes. |
 
 ## Return Value
 
 True if all nodes were visited; false if DocumentVisitor stopped the operation before visiting all nodes.
 
-## Remarks
+### Remarks
 
 Enumerates over this node and all of its children. Each node calls a corresponding method on DocumentVisitor.For more info see the Visitor design pattern.
 

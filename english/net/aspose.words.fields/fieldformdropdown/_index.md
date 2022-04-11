@@ -16,13 +16,32 @@ public class FieldFormDropDown : Field
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [FieldFormDropDown](fieldformdropdown)() | The default constructor. |
 
-## Remarks
+### Remarks
 
 Inserts a drop-down list style form field.
+
+### Examples
+
+Shows how to process FORMCHECKBOX, FORMDROPDOWN and FORMTEXT fields.
+
+```csharp
+// These fields are legacy equivalents of the FormField. We can read, but not create these fields using Aspose.Words.
+// In Microsoft Word, we can insert these fields via the Legacy Tools menu in the Developer tab.
+Document doc = new Document(MyDir + "Form fields.docx");
+
+FieldFormCheckBox fieldFormCheckBox = (FieldFormCheckBox)doc.Range.Fields[1];
+Assert.AreEqual(" FORMCHECKBOX \u0001", fieldFormCheckBox.GetFieldCode());
+
+FieldFormDropDown fieldFormDropDown = (FieldFormDropDown)doc.Range.Fields[2];
+Assert.AreEqual(" FORMDROPDOWN \u0001", fieldFormDropDown.GetFieldCode());
+
+FieldFormText fieldFormText = (FieldFormText)doc.Range.Fields[0];
+Assert.AreEqual(" FORMTEXT \u0001", fieldFormText.GetFieldCode());
+```
 
 ### See Also
 

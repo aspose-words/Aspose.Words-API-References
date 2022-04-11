@@ -1,16 +1,16 @@
 ---
-title: Aspose.Words.Markup Namespace
+title: Aspose.Words.Markup
 second_title: Aspose.Words for .NET API Reference
-description: The Aspose.Words.Markup namespace contains classes that represent customer defined semantics in a document, smart tags, custom XML and structured document tags (content controls).
+description: The Aspose.Words.Markup namespace contains classes that represent customer defined semantics in a document: smart tags, custom XML and structured document tags (content controls).
 type: docs
 weight: 150
 url: /net/aspose.words.markup/
 ---
 The Aspose.Words.Markup namespace contains classes that represent customer defined semantics in a document: smart tags, custom XML and structured document tags (content controls).
 
-## Members
+## Classes
 
-| public type | description |
+| Class | Description |
 | --- | --- |
 | class [CustomPart](./custompart) | Represents a custom (arbitrary content) part, that is not defined by the ISO/IEC 29500 standard. |
 | class [CustomPartCollection](./custompartcollection) | Represents a collection of [`CustomPart`](aspose.words.markup/custompart) objects. |
@@ -19,19 +19,27 @@ The Aspose.Words.Markup namespace contains classes that represent customer defin
 | class [CustomXmlProperty](./customxmlproperty) | Represents a single custom XML attribute or a smart tag property. |
 | class [CustomXmlPropertyCollection](./customxmlpropertycollection) | Represents a collection of custom XML attributes or smart tag properties. |
 | class [CustomXmlSchemaCollection](./customxmlschemacollection) | A collection of strings that represent XML schemas that are associated with a custom XML part. |
-| interface [IStructuredDocumentTag](./istructureddocumenttag) | Interface to define a common data for [`StructuredDocumentTag`](aspose.words.markup/structureddocumenttag) and [`StructuredDocumentTagRangeStart`](aspose.words.markup/structureddocumenttagrangestart). |
+| class [SdtListItem](./sdtlistitem) | This element specifies a single list item within a parent ComboBox or DropDownList structured document tag. |
+| class [SdtListItemCollection](./sdtlistitemcollection) | Provides access to [`SdtListItem`](aspose.words.markup/sdtlistitem) elements of a structured document tag. |
+| class [SmartTag](./smarttag) | This element specifies the presence of a smart tag around one or more inline structures (runs, images, fields,etc.) within a paragraph. |
+| class [StructuredDocumentTag](./structureddocumenttag) | Represents a structured document tag (SDT or content control) in a document. |
+| class [StructuredDocumentTagCollection](./structureddocumenttagcollection) |  |
+| class [StructuredDocumentTagRangeEnd](./structureddocumenttagrangeend) | Represents an end of ranged structured document tag which accepts multi-sections content. See also [`StructuredDocumentTagRangeStart`](aspose.words.markup/structureddocumenttagrangestart) node. |
+| class [StructuredDocumentTagRangeStart](./structureddocumenttagrangestart) | Represents a start of ranged structured document tag which accepts multi-sections content. See also [`StructuredDocumentTagRangeEnd`](aspose.words.markup/structureddocumenttagrangeend). |
+| class [XmlMapping](./xmlmapping) | Specifies the information that is used to establish a mapping between the parent structured document tag and an XML element stored within a custom XML data part in the document. |
+## Interfaces
+
+| Interface | Description |
+| --- | --- |
+| interface [IStructuredDocumentTag](./istructureddocumenttag) |  |
+## Enumeration
+
+| Enumeration | Description |
+| --- | --- |
 | enum [MarkupLevel](./markuplevel) | Specifies the level in the document tree where a particular [`StructuredDocumentTag`](aspose.words.markup/structureddocumenttag) can occur. |
 | enum [SdtAppearance](./sdtappearance) | Specifies the appearance of a structured document tag. |
 | enum [SdtCalendarType](./sdtcalendartype) | Specifies the possible types of calendars which can be used to specify [`CalendarType`](aspose.words.markup/structureddocumenttag/calendartype) in an Office Open XML document. |
 | enum [SdtDateStorageFormat](./sdtdatestorageformat) | Specifies how the date for a date SDT is stored/retrieved when the SDT is bound to an XML node in the document's data store. |
-| class [SdtListItem](./sdtlistitem) | This element specifies a single list item within a parent ComboBox or DropDownList structured document tag. |
-| class [SdtListItemCollection](./sdtlistitemcollection) | Provides access to [`SdtListItem`](aspose.words.markup/sdtlistitem) elements of a structured document tag. |
 | enum [SdtType](./sdttype) | Specifies the type of a structured document tag (SDT) node. |
-| class [SmartTag](./smarttag) | This element specifies the presence of a smart tag around one or more inline structures (runs, images, fields,etc.) within a paragraph. |
-| class [StructuredDocumentTag](./structureddocumenttag) | Represents a structured document tag (SDT or content control) in a document. |
-| class [StructuredDocumentTagCollection](./structureddocumenttagcollection) | A collection of [`IStructuredDocumentTag`](aspose.words.markup/istructureddocumenttag) instances that represent the structured document tags in the specified range. |
-| class [StructuredDocumentTagRangeEnd](./structureddocumenttagrangeend) | Represents an end of ranged structured document tag which accepts multi-sections content. See also [`StructuredDocumentTagRangeStart`](aspose.words.markup/structureddocumenttagrangestart) node. |
-| class [StructuredDocumentTagRangeStart](./structureddocumenttagrangestart) | Represents a start of ranged structured document tag which accepts multi-sections content. See also [`StructuredDocumentTagRangeEnd`](aspose.words.markup/structureddocumenttagrangeend). |
-| class [XmlMapping](./xmlmapping) | Specifies the information that is used to establish a mapping between the parent structured document tag and an XML element stored within a custom XML data part in the document. |
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

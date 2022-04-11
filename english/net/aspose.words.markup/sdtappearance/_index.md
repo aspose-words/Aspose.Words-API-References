@@ -16,7 +16,7 @@ public enum SdtAppearance
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | BoundingBox | `0` | Represents a structured document tag shown as a shaded rectangle or bounding box. |
 | Tags | `1` | Represents a structured document tag shown as start and end markers. |

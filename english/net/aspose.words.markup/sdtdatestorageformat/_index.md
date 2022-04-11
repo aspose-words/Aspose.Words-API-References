@@ -16,7 +16,7 @@ public enum SdtDateStorageFormat
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | Date | `0` | The date value for a date SDT is stored as a date in the standard XML Schema Date format. |
 | DateTime | `1` | The date value for a date SDT is stored as a date in the standard XML Schema DateTime format. |

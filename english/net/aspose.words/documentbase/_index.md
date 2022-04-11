@@ -16,7 +16,7 @@ public abstract class DocumentBase : CompositeNode
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [BackgroundShape](backgroundshape) { get; set; } | Gets or sets the background shape of the document. Can be null. |
 | override [Document](document) { get; } |  |
@@ -29,18 +29,26 @@ public abstract class DocumentBase : CompositeNode
 | [WarningCallback](warningcallback) { get; set; } | Called during various document processing procedures when an issue is detected that might result in data or formatting fidelity loss. |
 | [ImportNode](importnode)(…) | Imports a node from another document to the current document. (2 methods) |
 
-## Protected Members
-
-| name | description |
-| --- | --- |
-| [DocumentBase](documentbase)() | The default constructor. |
-| [ResetState](resetstate)() |  |
-
-## Remarks
+### Remarks
 
 Aspose.Words represents a Word document as a tree of nodes. [`DocumentBase`](../documentbase) is a root node of the tree that contains all other nodes of the document.
 
 [`DocumentBase`](../documentbase) also stores document-wide information such as [`Styles`](./styles) and [`Lists`](./lists) that the tree nodes might refer to.
+
+### Examples
+
+Shows how to initialize the subclasses of DocumentBase.
+
+```csharp
+Document doc = new Document();
+
+Assert.AreEqual(typeof(DocumentBase), doc.GetType().BaseType);
+
+GlossaryDocument glossaryDoc = new GlossaryDocument();
+doc.GlossaryDocument = glossaryDoc;
+
+Assert.AreEqual(typeof(DocumentBase), glossaryDoc.GetType().BaseType);
+```
 
 ### See Also
 

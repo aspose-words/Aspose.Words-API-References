@@ -8,8 +8,6 @@ url: /net/aspose.words.markup/istructureddocumenttag/title/
 ---
 ## IStructuredDocumentTag.Title property
 
-Specifies the friendly name associated with this SDT. Can not be null.
-
 ```csharp
 public string Title { get; set; }
 ```

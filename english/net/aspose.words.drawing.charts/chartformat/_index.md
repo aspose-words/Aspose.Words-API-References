@@ -16,7 +16,7 @@ public class ChartFormat
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Fill](fill) { get; } | Gets fill formatting for the parent chart element. |
 | [Stroke](stroke) { get; } | Gets line formatting for the parent chart element. |

@@ -14,6 +14,25 @@ Gets the time the document was signed.
 public DateTime SignTime { get; }
 ```
 
+### Examples
+
+Shows how to validate and display information about each signature in a document.
+
+```csharp
+Document doc = new Document(MyDir + "Digitally signed.docx");
+
+foreach (DigitalSignature signature in doc.DigitalSignatures)
+{
+    Console.WriteLine($"{(signature.IsValid ? "Valid" : "Invalid")} signature: ");
+    Console.WriteLine($"\tReason:\t{signature.Comments}"); 
+    Console.WriteLine($"\tType:\t{signature.SignatureType}");
+    Console.WriteLine($"\tSign time:\t{signature.SignTime}");
+    Console.WriteLine($"\tSubject name:\t{signature.CertificateHolder.Certificate.SubjectName}");
+    Console.WriteLine($"\tIssuer name:\t{signature.CertificateHolder.Certificate.IssuerName.Name}");
+    Console.WriteLine();
+}
+```
+
 ### See Also
 
 * class [DigitalSignature](../../digitalsignature)

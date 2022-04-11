@@ -16,20 +16,50 @@ public class WriteProtection
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [IsWriteProtected](iswriteprotected) { get; } | Returns true when a write protection password is set. |
 | [ReadOnlyRecommended](readonlyrecommended) { get; set; } | Specifies whether the document author has recommended that the document be opened as read-only. |
 | [SetPassword](setpassword)(…) | Sets the write protection password for the document. |
 | [ValidatePassword](validatepassword)(…) | Returns true if the specified password is the same as the write-protection password the document was protected with. If document is not write-protected with password then returns false. |
 
-## Remarks
+### Remarks
 
 Write protection specifies whether the author has recommended that the document is to be opened as read-only and/or require a password to modify a document.
 
 Write protection is different from document protection. Write protection is specified in Microsoft Word in the options of the Save As dialog box.
 
 You do not create instances of this class directly. You access document protection settings via the [`WriteProtection`](../../aspose.words/document/writeprotection) property.
+
+### Examples
+
+Shows how to protect a document with a password.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+builder.Writeln("Hello world! This document is protected.");
+
+// Enter a password up to 15 characters in length, and then verify the document's protection status.
+doc.WriteProtection.SetPassword("MyPassword");
+doc.WriteProtection.ReadOnlyRecommended = true;
+
+Assert.IsTrue(doc.WriteProtection.IsWriteProtected);
+Assert.IsTrue(doc.WriteProtection.ValidatePassword("MyPassword"));
+
+// Protection does not prevent the document from being edited programmatically, nor does it encrypt the contents.
+doc.Save(ArtifactsDir + "Document.WriteProtection.docx");
+doc = new Document(ArtifactsDir + "Document.WriteProtection.docx");
+
+Assert.IsTrue(doc.WriteProtection.IsWriteProtected);
+
+builder = new DocumentBuilder(doc);
+builder.MoveToDocumentEnd();
+builder.Writeln("Writing text in a protected document.");
+
+Assert.AreEqual("Hello world! This document is protected." +
+                "\rWriting text in a protected document.", doc.GetText().Trim());
+```
 
 ### See Also
 

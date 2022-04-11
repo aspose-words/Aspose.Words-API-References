@@ -16,7 +16,7 @@ public class TextBox
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [FitShapeToText](fitshapetotext) { get; set; } | Determines whether Microsoft Word will grow the shape to fit text. |
 | [InternalMarginBottom](internalmarginbottom) { get; set; } | Specifies the inner bottom margin in points for a shape. |
@@ -32,9 +32,71 @@ public class TextBox
 | [BreakForwardLink](breakforwardlink)() | Breaks the link to the next TextBox. |
 | [IsValidLinkTarget](isvalidlinktarget)(…) | Determines whether this TextBox can be linked to the target Textbox. |
 
-## Remarks
+### Remarks
 
 Use the [`TextBox`](../shape/textbox) property to access text properties of a shape. You do not create instances of the [`TextBox`](../textbox) class directly.
+
+### Examples
+
+Shows how to set internal margins for a text box.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+// Insert another textbox with specific margins.
+Shape textBoxShape = builder.InsertShape(ShapeType.TextBox, 100, 100);
+TextBox textBox = textBoxShape.TextBox;
+textBox.InternalMarginTop = 15;
+textBox.InternalMarginBottom = 15;
+textBox.InternalMarginLeft = 15;
+textBox.InternalMarginRight = 15;
+
+builder.MoveTo(textBoxShape.LastParagraph);
+builder.Write("Text placed according to textbox margins.");
+
+doc.Save(ArtifactsDir + "Shape.TextBoxMargins.docx");
+```
+
+Shows how to set the orientation of text inside a text box.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+Shape textBoxShape = builder.InsertShape(ShapeType.TextBox, 150, 100);
+TextBox textBox = textBoxShape.TextBox;
+
+// Move the document builder to inside the TextBox and add text.
+builder.MoveTo(textBoxShape.LastParagraph);
+builder.Writeln("Hello world!");
+builder.Write("Hello again!");
+
+// Set the "LayoutFlow" property to set an orientation for the text contents of this text box.
+textBox.LayoutFlow = layoutFlow;
+
+doc.Save(ArtifactsDir + "Shape.TextBoxLayoutFlow.docx");
+```
+
+Shows how to get a text box to resize itself to fit its contents tightly.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+Shape textBoxShape = builder.InsertShape(ShapeType.TextBox, 150, 100);
+TextBox textBox = textBoxShape.TextBox;
+
+// Apply these values to both these members to get the parent shape to fit
+// tightly around the text contents, ignoring the dimensions we have set.
+textBox.FitShapeToText = true;
+textBox.TextBoxWrapMode = TextBoxWrapMode.None;
+
+builder.MoveTo(textBoxShape.LastParagraph);
+builder.Write("Text fit tightly inside textbox.");
+
+doc.Save(ArtifactsDir + "Shape.TextBoxFitShapeToText.docx");
+```
 
 ### See Also
 

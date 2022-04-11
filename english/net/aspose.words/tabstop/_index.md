@@ -16,7 +16,7 @@ public sealed class TabStop
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [TabStop](tabstop)(…) | Initializes a new instance of this class. (2 constructors) |
 | [Alignment](alignment) { get; set; } | Gets or sets the alignment of text at this tab stop. |
@@ -26,9 +26,32 @@ public sealed class TabStop
 | [Equals](equals)(…) | Compares with the specified TabStop. |
 | override [GetHashCode](gethashcode)() | Calculates hash code for this object. |
 
-## Remarks
+### Remarks
 
 Normally, a tab stop specifies a position where a tab stop exists. But because tab stops can be inherited from parent styles, it might be needed for the child object to define explicitly that there is no tab stop at a given position. To clear an inherited tab stop at a given position, create a TabStop object and set [`Alignment`](./alignment) to `TabAlignment.Clear`.For more information see [`TabStopCollection`](../tabstopcollection).
+
+### Examples
+
+Shows how to modify the position of the right tab stop in TOC related paragraphs.
+
+```csharp
+Document doc = new Document(MyDir + "Table of contents.docx");
+
+// Iterate through all paragraphs with TOC result-based styles; this is any style between TOC and TOC9.
+foreach (Paragraph para in doc.GetChildNodes(NodeType.Paragraph, true).OfType<Paragraph>())
+    if (para.ParagraphFormat.Style.StyleIdentifier >= StyleIdentifier.Toc1 &&
+        para.ParagraphFormat.Style.StyleIdentifier <= StyleIdentifier.Toc9)
+    {
+        // Get the first tab used in this paragraph, this should be the tab used to align the page numbers.
+        TabStop tab = para.ParagraphFormat.TabStops[0];
+
+        // Replace the first default tab, stop with a custom tab stop.
+        para.ParagraphFormat.TabStops.RemoveByPosition(tab.Position);
+        para.ParagraphFormat.TabStops.Add(tab.Position - 50, tab.Alignment, tab.Leader);
+    }
+
+doc.Save(ArtifactsDir + "Styles.ChangeTocsTabStops.docx");
+```
 
 ### See Also
 

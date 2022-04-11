@@ -16,7 +16,7 @@ public class KnownTypeSet : IEnumerable<Type>
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Count](count) { get; } | Gets the count of items in the set. |
 | [Add](add)(…) | Adds the specified Type object to the set. Throws ArgumentException in the following cases: |

@@ -14,9 +14,33 @@ Gets or sets a value determining zoom factor (in percentages) for a document.
 public int ZoomFactor { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 This value is used only if [`ZoomBehavior`](../zoombehavior) is set to ZoomFactor.
+
+### Examples
+
+Shows how to set the default zooming that a reader applies when opening a rendered PDF document.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+builder.Writeln("Hello world!");
+
+// Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+// to modify how that method converts the document to .PDF.
+// Set the "ZoomBehavior" property to "PdfZoomBehavior.ZoomFactor" to get a PDF reader to
+// apply a percentage-based zoom factor when we open the document with it.
+// Set the "ZoomFactor" property to "25" to give the zoom factor a value of 25%.
+PdfSaveOptions options = new PdfSaveOptions
+{
+    ZoomBehavior = PdfZoomBehavior.ZoomFactor,
+    ZoomFactor = 25
+};
+
+// When we open this document using a reader such as Adobe Acrobat, we will see the document scaled at 1/4 of its actual size.
+doc.Save(ArtifactsDir + "PdfSaveOptions.ZoomBehaviour.pdf", options);
+```
 
 ### See Also
 

@@ -14,9 +14,20 @@ Gets the format of the original document that was loaded into this object.
 public LoadFormat OriginalLoadFormat { get; }
 ```
 
-## Remarks
+### Remarks
 
 If you created a new blank document, returns the Doc value.
+
+### Examples
+
+Shows how to retrieve details of a document's load operation.
+
+```csharp
+Document doc = new Document(MyDir + "Document.docx");
+
+Assert.AreEqual(MyDir + "Document.docx", doc.OriginalFileName);
+Assert.AreEqual(LoadFormat.Docx, doc.OriginalLoadFormat);
+```
 
 ### See Also
 

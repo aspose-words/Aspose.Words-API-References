@@ -16,12 +16,29 @@ public class PhysicalFontInfo
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [FilePath](filepath) { get; } | Path to the font file if any. |
 | [FontFamilyName](fontfamilyname) { get; } | Family name of the font. |
 | [FullFontName](fullfontname) { get; } | Full name of the font. |
 | [Version](version) { get; } | Version string of the font. |
+
+### Examples
+
+Shows how to list available fonts.
+
+```csharp
+// Configure Aspose.Words to source fonts from a custom folder, and then print every available font.
+FontSourceBase[] folderFontSource = { new FolderFontSource(FontsDir, true) };
+
+foreach (PhysicalFontInfo fontInfo in folderFontSource[0].GetAvailableFonts())
+{
+    Console.WriteLine("FontFamilyName : {0}", fontInfo.FontFamilyName);
+    Console.WriteLine("FullFontName  : {0}", fontInfo.FullFontName);
+    Console.WriteLine("Version  : {0}", fontInfo.Version);
+    Console.WriteLine("FilePath : {0}\n", fontInfo.FilePath);
+}
+```
 
 ### See Also
 

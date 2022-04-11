@@ -16,12 +16,28 @@ public class FileFontSource : FontSourceBase
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [FileFontSource](filefontsource)(…) | Ctor. (3 constructors) |
 | [CacheKey](cachekey) { get; } | The key of this source in the cache. |
 | [FilePath](filepath) { get; } | Path to the font file. |
 | override [Type](type) { get; } | Returns the type of the font source. |
+
+### Examples
+
+Shows how to use a font file in the local file system as a font source.
+
+```csharp
+FileFontSource fileFontSource = new FileFontSource(MyDir + "Alte DIN 1451 Mittelschrift.ttf", 0);
+
+Document doc = new Document();
+doc.FontSettings = new FontSettings();
+doc.FontSettings.SetFontsSources(new FontSourceBase[] { fileFontSource });
+
+Assert.AreEqual(MyDir + "Alte DIN 1451 Mittelschrift.ttf", fileFontSource.FilePath);
+Assert.AreEqual(FontSourceType.FontFile, fileFontSource.Type);
+Assert.AreEqual(0, fileFontSource.Priority);
+```
 
 ### See Also
 

@@ -14,6 +14,35 @@ Initializes an instance of this class.
 public PdfDigitalSignatureDetails()
 ```
 
+### Examples
+
+Shows how to sign a generated PDF document.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+builder.Writeln("Contents of signed PDF.");
+
+CertificateHolder certificateHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "aw");
+
+// Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+// to modify how that method converts the document to .PDF.
+PdfSaveOptions options = new PdfSaveOptions();
+
+// Configure the "DigitalSignatureDetails" object of the "SaveOptions" object to
+// digitally sign the document as we render it with the "Save" method.
+DateTime signingTime = DateTime.Now;
+options.DigitalSignatureDetails =
+    new PdfDigitalSignatureDetails(certificateHolder, "Test Signing", "My Office", signingTime);
+options.DigitalSignatureDetails.HashAlgorithm = PdfDigitalSignatureHashAlgorithm.Sha256;
+
+Assert.AreEqual("Test Signing", options.DigitalSignatureDetails.Reason);
+Assert.AreEqual("My Office", options.DigitalSignatureDetails.Location);
+Assert.AreEqual(signingTime.ToUniversalTime(), options.DigitalSignatureDetails.SignatureDate.ToUniversalTime());
+
+doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignature.pdf", options);
+```
+
 ### See Also
 
 * class [PdfDigitalSignatureDetails](../../pdfdigitalsignaturedetails)
@@ -31,12 +60,41 @@ public PdfDigitalSignatureDetails(CertificateHolder certificateHolder, string re
     string location, DateTime signatureDate)
 ```
 
-| parameter | description |
-| --- | --- |
-| certificateHolder | A certificate holder which contains the certificate itself. |
-| reason | The reason for signing. |
-| location | The location of signing. |
-| signatureDate | The date and time of signing. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| certificateHolder | CertificateHolder | A certificate holder which contains the certificate itself. |
+| reason | String | The reason for signing. |
+| location | String | The location of signing. |
+| signatureDate | DateTime | The date and time of signing. |
+
+### Examples
+
+Shows how to sign a generated PDF document.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+builder.Writeln("Contents of signed PDF.");
+
+CertificateHolder certificateHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "aw");
+
+// Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+// to modify how that method converts the document to .PDF.
+PdfSaveOptions options = new PdfSaveOptions();
+
+// Configure the "DigitalSignatureDetails" object of the "SaveOptions" object to
+// digitally sign the document as we render it with the "Save" method.
+DateTime signingTime = DateTime.Now;
+options.DigitalSignatureDetails =
+    new PdfDigitalSignatureDetails(certificateHolder, "Test Signing", "My Office", signingTime);
+options.DigitalSignatureDetails.HashAlgorithm = PdfDigitalSignatureHashAlgorithm.Sha256;
+
+Assert.AreEqual("Test Signing", options.DigitalSignatureDetails.Reason);
+Assert.AreEqual("My Office", options.DigitalSignatureDetails.Location);
+Assert.AreEqual(signingTime.ToUniversalTime(), options.DigitalSignatureDetails.SignatureDate.ToUniversalTime());
+
+doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignature.pdf", options);
+```
 
 ### See Also
 

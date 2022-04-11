@@ -14,7 +14,7 @@ Gets or sets the file name (without path) where the font will be saved to.
 public string FontFileName { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 This property allows you to redefine how the font file names are generated during export to HTML.
 
@@ -23,6 +23,63 @@ When the event is fired, this property contains the file name that was generated
 Aspose.Words automatically generates a unique file name for every embedded font when exporting to HTML format. How the font file name is generated depends on whether you save the document to a file or to a stream.When saving a document to a file, the generated font file name looks like &lt;document base file name&gt;.&lt;original file name&gt;&lt;optional suffix&gt;.&lt;extension&gt;.When saving a document to a stream, the generated font file name looks like Aspose.Words.&lt;document guid&gt;.&lt;original file name&gt;&lt;optional suffix&gt;.&lt;extension&gt;.
 
 `FontFileName` must contain only the file name without the path. Aspose.Words determines the path for saving using the document file name, the [`FontsFolder`](../../htmlsaveoptions/fontsfolder) and [`FontsFolderAlias`](../../htmlsaveoptions/fontsfolderalias) properties.
+
+### Examples
+
+Shows how to define custom logic for exporting fonts when saving to HTML.
+
+```csharp
+public void SaveExportedFonts()
+{
+    Document doc = new Document(MyDir + "Rendering.docx");
+
+    // Configure a SaveOptions object to export fonts to separate files.
+    // Set a callback that will handle font saving in a custom manner.
+    HtmlSaveOptions options = new HtmlSaveOptions
+    {
+        ExportFontResources = true,
+        FontSavingCallback = new HandleFontSaving()
+    };
+
+    // The callback will export .ttf files and save them alongside the output document.
+    doc.Save(ArtifactsDir + "HtmlSaveOptions.SaveExportedFonts.html", options);
+
+    foreach (string fontFilename in Array.FindAll(Directory.GetFiles(ArtifactsDir), s => s.EndsWith(".ttf")))
+    {
+        Console.WriteLine(fontFilename);
+    }
+
+}
+
+/// <summary>
+/// Prints information about exported fonts and saves them in the same local system folder as their output .html.
+/// </summary>
+public class HandleFontSaving : IFontSavingCallback
+{
+    void IFontSavingCallback.FontSaving(FontSavingArgs args)
+    {
+        Console.Write($"Font:\t{args.FontFamilyName}");
+        if (args.Bold) Console.Write(", bold");
+        if (args.Italic) Console.Write(", italic");
+        Console.WriteLine($"\nSource:\t{args.OriginalFileName}, {args.OriginalFileSize} bytes\n");
+
+        // We can also access the source document from here.
+        Assert.True(args.Document.OriginalFileName.EndsWith("Rendering.docx"));
+
+        Assert.True(args.IsExportNeeded);
+        Assert.True(args.IsSubsettingNeeded);
+
+        // There are two ways of saving an exported font.
+        // 1 -  Save it to a local file system location:
+        args.FontFileName = args.OriginalFileName.Split(Path.DirectorySeparatorChar).Last();
+
+        // 2 -  Save it to a stream:
+        args.FontStream =
+            new FileStream(ArtifactsDir + args.OriginalFileName.Split(Path.DirectorySeparatorChar).Last(), FileMode.Create);
+        Assert.False(args.KeepFontStreamOpen);
+    }
+}
+```
 
 ### See Also
 

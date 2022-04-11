@@ -16,7 +16,7 @@ public interface IComparisonExpressionEvaluator
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Evaluate](evaluate)(…) | Evaluates comparison expression. |
 

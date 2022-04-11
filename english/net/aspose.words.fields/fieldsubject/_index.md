@@ -16,14 +16,46 @@ public class FieldSubject : Field
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [FieldSubject](fieldsubject)() | The default constructor. |
 | [Text](text) { get; set; } | Gets or sets the text of the subject. |
 
-## Remarks
+### Remarks
 
 Retrieves, and optionally sets, the document's subject, as recorded in the Subject property of the built-in document properties.
+
+### Examples
+
+Shows how to use the SUBJECT field.
+
+```csharp
+Document doc = new Document();
+
+// Set a value for the document's "Subject" built-in property.
+doc.BuiltInDocumentProperties.Subject = "My subject";
+
+// Create a SUBJECT field to display the value of that built-in property.
+DocumentBuilder builder = new DocumentBuilder(doc);
+FieldSubject field = (FieldSubject)builder.InsertField(FieldType.FieldSubject, true);
+field.Update();
+
+Assert.AreEqual(" SUBJECT ", field.GetFieldCode());
+Assert.AreEqual("My subject", field.Result);
+
+// If we give the SUBJECT field's Text property value and update it, the field will
+// overwrite the current value of the "Subject" built-in property with the value of its Text property,
+// and then display the new value.
+field.Text = "My new subject";
+field.Update();
+
+Assert.AreEqual(" SUBJECT  \"My new subject\"", field.GetFieldCode());
+Assert.AreEqual("My new subject", field.Result);
+
+Assert.AreEqual("My new subject", doc.BuiltInDocumentProperties.Subject);
+
+doc.Save(ArtifactsDir + "Field.SUBJECT.docx");
+```
 
 ### See Also
 

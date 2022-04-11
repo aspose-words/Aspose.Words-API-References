@@ -3,7 +3,7 @@ title: CacheKey
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 30
+weight: 20
 url: /net/aspose.words.fonts/streamfontsource/cachekey/
 ---
 ## StreamFontSource.CacheKey property
@@ -14,7 +14,7 @@ The key of this source in the cache.
 public string CacheKey { get; }
 ```
 
-## Remarks
+### Remarks
 
 This key is used to identify cache item when saving/loading font search cache with [`SaveSearchCache`](../../fontsettings/savesearchcache) and [`SetFontsSources`](../../fontsettings/setfontssources) methods.
 

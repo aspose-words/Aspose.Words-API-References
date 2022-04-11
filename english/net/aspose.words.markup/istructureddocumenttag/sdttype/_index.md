@@ -8,8 +8,6 @@ url: /net/aspose.words.markup/istructureddocumenttag/sdttype/
 ---
 ## IStructuredDocumentTag.SdtType property
 
-Gets type of this Structured document tag.
-
 ```csharp
 public SdtType SdtType { get; }
 ```

@@ -14,6 +14,32 @@ Gets or sets the text of the "button" that appears in the document, such that it
 public string DisplayText { get; set; }
 ```
 
+### Examples
+
+Shows to insert a GOTOBUTTON field.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+// Add a GOTOBUTTON field. When we double-click this field in Microsoft Word,
+// it will take the text cursor to the bookmark whose name the Location property references.
+FieldGoToButton field = (FieldGoToButton)builder.InsertField(FieldType.FieldGoToButton, true);
+field.DisplayText = "My Button";
+field.Location = "MyBookmark";
+
+Assert.AreEqual(" GOTOBUTTON  MyBookmark My Button", field.GetFieldCode());
+
+// Insert a valid bookmark for the field to reference.
+builder.InsertBreak(BreakType.PageBreak);
+builder.StartBookmark(field.Location);
+builder.Writeln("Bookmark text contents.");
+builder.EndBookmark(field.Location);
+
+doc.UpdateFields();
+doc.Save(ArtifactsDir + "Field.GOTOBUTTON.docx");
+```
+
 ### See Also
 
 * class [FieldGoToButton](../../fieldgotobutton)

@@ -14,7 +14,7 @@ Gets or sets the character that is used to comment lines of CSV data.
 public char CommentChar { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 The default value is '#' (number sign).
 

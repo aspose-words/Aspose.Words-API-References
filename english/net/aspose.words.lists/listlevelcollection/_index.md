@@ -16,11 +16,123 @@ public class ListLevelCollection : IEnumerable<ListLevel>
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Count](count) { get; } | Gets the number of levels in this list. |
 | [Item](item) { get; set; } | Gets a list level by index. |
 | [GetEnumerator](getenumerator)() | Gets the enumerator object that will enumerate levels in this list. |
+
+### Examples
+
+Shows how to create a list style and use it in a document.
+
+```csharp
+Document doc = new Document();
+
+// A list allows us to organize and decorate sets of paragraphs with prefix symbols and indents.
+// We can create nested lists by increasing the indent level. 
+// We can begin and end a list by using a document builder's "ListFormat" property. 
+// Each paragraph that we add between a list's start and the end will become an item in the list.
+// We can contain an entire List object within a style.
+Style listStyle = doc.Styles.Add(StyleType.List, "MyListStyle");
+
+List list1 = listStyle.List;
+
+Assert.True(list1.IsListStyleDefinition);
+Assert.False(list1.IsListStyleReference);
+Assert.True(list1.IsMultiLevel);
+Assert.AreEqual(listStyle, list1.Style);
+
+// Change the appearance of all list levels in our list.
+foreach (ListLevel level in list1.ListLevels)
+{
+    level.Font.Name = "Verdana";
+    level.Font.Color = Color.Blue;
+    level.Font.Bold = true;
+}
+
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+builder.Writeln("Using list style first time:");
+
+// Create another list from a list within a style.
+List list2 = doc.Lists.Add(listStyle);
+
+Assert.False(list2.IsListStyleDefinition);
+Assert.True(list2.IsListStyleReference);
+Assert.AreEqual(listStyle, list2.Style);
+
+// Add some list items that our list will format.
+builder.ListFormat.List = list2;
+builder.Writeln("Item 1");
+builder.Writeln("Item 2");
+builder.ListFormat.RemoveNumbers();
+
+builder.Writeln("Using list style second time:");
+
+// Create and apply another list based on the list style.
+List list3 = doc.Lists.Add(listStyle);
+builder.ListFormat.List = list3;
+builder.Writeln("Item 1");
+builder.Writeln("Item 2");
+builder.ListFormat.RemoveNumbers();
+
+builder.Document.Save(ArtifactsDir + "Lists.CreateAndUseListStyle.docx");
+```
+
+Shows how to apply custom list formatting to paragraphs when using DocumentBuilder.
+
+```csharp
+Document doc = new Document();
+
+// A list allows us to organize and decorate sets of paragraphs with prefix symbols and indents.
+// We can create nested lists by increasing the indent level. 
+// We can begin and end a list by using a document builder's "ListFormat" property. 
+// Each paragraph that we add between a list's start and the end will become an item in the list.
+// Create a list from a Microsoft Word template, and customize the first two of its list levels.
+List list = doc.Lists.Add(ListTemplate.NumberDefault);
+
+ListLevel listLevel = list.ListLevels[0];
+listLevel.Font.Color = Color.Red;
+listLevel.Font.Size = 24;
+listLevel.NumberStyle = NumberStyle.OrdinalText;
+listLevel.StartAt = 21;
+listLevel.NumberFormat = "\x0000";
+
+listLevel.NumberPosition = -36;
+listLevel.TextPosition = 144;
+listLevel.TabPosition = 144;
+
+listLevel = list.ListLevels[1];
+listLevel.Alignment = ListLevelAlignment.Right;
+listLevel.NumberStyle = NumberStyle.Bullet;
+listLevel.Font.Name = "Wingdings";
+listLevel.Font.Color = Color.Blue;
+listLevel.Font.Size = 24;
+
+// This NumberFormat value will create star-shaped bullet list symbols.
+listLevel.NumberFormat = "\xf0af";
+listLevel.TrailingCharacter = ListTrailingCharacter.Space;
+listLevel.NumberPosition = 144;
+
+// Create paragraphs and apply both list levels of our custom list formatting to them.
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+builder.ListFormat.List = list;
+builder.Writeln("The quick brown fox...");
+builder.Writeln("The quick brown fox...");
+
+builder.ListFormat.ListIndent();
+builder.Writeln("jumped over the lazy dog.");
+builder.Writeln("jumped over the lazy dog.");
+
+builder.ListFormat.ListOutdent();
+builder.Writeln("The quick brown fox...");
+
+builder.ListFormat.RemoveNumbers();
+
+builder.Document.Save(ArtifactsDir + "Lists.CreateCustomList.docx");
+```
 
 ### See Also
 

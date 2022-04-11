@@ -16,7 +16,7 @@ public enum TabAlignment
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | Left | `0` | Left-aligns the text after the tab stop. |
 | Center | `1` | Centers the text around the tab stop. |

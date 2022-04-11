@@ -14,9 +14,9 @@ Adds the specified node to the end of the stdContent range.
 public Node AppendChild(Node newChild)
 ```
 
-| parameter | description |
-| --- | --- |
-| newChild | The node to add. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| newChild | Node | The node to add. |
 
 ## Return Value
 

@@ -14,7 +14,7 @@ public sealed class BasicTextShaperCache : IDisposable, ITextShaperFactory
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [BasicTextShaperCache](basictextshapercache)(…) |  |
 | [Dispose](dispose)() |  |

@@ -1,5 +1,5 @@
 ---
-title: Aspose.Words.Rendering Namespace
+title: Aspose.Words.Rendering
 second_title: Aspose.Words for .NET API Reference
 description: The Aspose.Words.Rendering namespace provides classes that allow to customize printing or rendering of documents.
 type: docs
@@ -8,9 +8,9 @@ url: /net/aspose.words.rendering/
 ---
 The Aspose.Words.Rendering namespace provides classes that allow to customize printing or rendering of documents.
 
-## Members
+## Classes
 
-| public type | description |
+| Class | Description |
 | --- | --- |
 | abstract class [NodeRendererBase](./noderendererbase) | Base class for [`ShapeRenderer`](aspose.words.rendering/shaperenderer) and [`OfficeMathRenderer`](aspose.words.rendering/officemathrenderer). |
 | class [OfficeMathRenderer](./officemathrenderer) | Provides methods to render an individual [`OfficeMath`](aspose.words.math/officemath) to a raster or vector image or to a Graphics object. |

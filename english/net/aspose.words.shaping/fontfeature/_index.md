@@ -14,7 +14,7 @@ public enum FontFeature
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | GlyphCompositionDecomposition | `1667460464` |  |
 | StandardLigatures | `1818847073` |  |

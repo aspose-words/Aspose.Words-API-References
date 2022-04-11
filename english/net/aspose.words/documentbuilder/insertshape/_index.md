@@ -14,15 +14,40 @@ Inserts inline shape with specified type and size.
 public Shape InsertShape(ShapeType shapeType, double width, double height)
 ```
 
-| parameter | description |
-| --- | --- |
-| shapeType | The shape type to insert into the document. |
-| width | The width of the shape in points. |
-| height | The height of the shape in points. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| shapeType | ShapeType | The shape type to insert into the document. |
+| width | Double | The width of the shape in points. |
+| height | Double | The height of the shape in points. |
 
 ## Return Value
 
 The shape node that was inserted.
+
+### Examples
+
+Shows how to insert DML shapes into a document.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+// Below are two wrapping types that shapes may have.
+// 1 -  Floating:
+builder.InsertShape(ShapeType.TopCornersRounded, RelativeHorizontalPosition.Page, 100, 
+        RelativeVerticalPosition.Page, 100, 50, 50, WrapType.None);
+
+// 2 -  Inline:
+builder.InsertShape(ShapeType.DiagonalCornersRounded, 50, 50);
+
+// If you need to create "non-primitive" shapes, such as SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,
+// TopCornersOneRoundedOneSnipped, SingleCornerRounded, TopCornersRounded, or DiagonalCornersRounded,
+// then save the document with "Strict" or "Transitional" compliance, which allows saving shape as DML.
+OoxmlSaveOptions saveOptions = new OoxmlSaveOptions(SaveFormat.Docx);
+saveOptions.Compliance = OoxmlCompliance.Iso29500_2008_Transitional;
+
+doc.Save(ArtifactsDir + "Shape.ShapeInsertion.docx", saveOptions);
+```
 
 ### See Also
 
@@ -43,20 +68,45 @@ public Shape InsertShape(ShapeType shapeType, RelativeHorizontalPosition horzPos
     RelativeVerticalPosition vertPos, double top, double width, double height, WrapType wrapType)
 ```
 
-| parameter | description |
-| --- | --- |
-| shapeType | The shape type to insert into the document |
-| horzPos | Specifies where the horizontal distance to the shape is measured from. |
-| left | Distance in points from the origin to the left side of the shape. |
-| vertPos | Specifies where the vertical distance to the shape is measured from. |
-| top | Distance in points from the origin to the top side of the shape. |
-| width | The width of the shape in points. |
-| height | The width of the shape in points. |
-| wrapType | Specifies how to wrap text around the shape. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| shapeType | ShapeType | The shape type to insert into the document |
+| horzPos | RelativeHorizontalPosition | Specifies where the horizontal distance to the shape is measured from. |
+| left | Double | Distance in points from the origin to the left side of the shape. |
+| vertPos | RelativeVerticalPosition | Specifies where the vertical distance to the shape is measured from. |
+| top | Double | Distance in points from the origin to the top side of the shape. |
+| width | Double | The width of the shape in points. |
+| height | Double | The width of the shape in points. |
+| wrapType | WrapType | Specifies how to wrap text around the shape. |
 
 ## Return Value
 
 The shape node that was inserted.
+
+### Examples
+
+Shows how to insert DML shapes into a document.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+// Below are two wrapping types that shapes may have.
+// 1 -  Floating:
+builder.InsertShape(ShapeType.TopCornersRounded, RelativeHorizontalPosition.Page, 100, 
+        RelativeVerticalPosition.Page, 100, 50, 50, WrapType.None);
+
+// 2 -  Inline:
+builder.InsertShape(ShapeType.DiagonalCornersRounded, 50, 50);
+
+// If you need to create "non-primitive" shapes, such as SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,
+// TopCornersOneRoundedOneSnipped, SingleCornerRounded, TopCornersRounded, or DiagonalCornersRounded,
+// then save the document with "Strict" or "Transitional" compliance, which allows saving shape as DML.
+OoxmlSaveOptions saveOptions = new OoxmlSaveOptions(SaveFormat.Docx);
+saveOptions.Compliance = OoxmlCompliance.Iso29500_2008_Transitional;
+
+doc.Save(ArtifactsDir + "Shape.ShapeInsertion.docx", saveOptions);
+```
 
 ### See Also
 

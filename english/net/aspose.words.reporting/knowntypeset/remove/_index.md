@@ -14,9 +14,9 @@ Removes the specified Type object from the set. Throws ArgumentException if *typ
 public void Remove(Type type)
 ```
 
-| parameter | description |
-| --- | --- |
-| type | A Type object to remove. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| type | Type | A Type object to remove. |
 
 ### See Also
 

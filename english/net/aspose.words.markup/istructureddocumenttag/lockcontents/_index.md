@@ -8,8 +8,6 @@ url: /net/aspose.words.markup/istructureddocumenttag/lockcontents/
 ---
 ## IStructuredDocumentTag.LockContents property
 
-When set to true, this property will prohibit a user from editing the contents of this SDT.
-
 ```csharp
 public bool LockContents { get; set; }
 ```

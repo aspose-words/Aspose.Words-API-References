@@ -16,9 +16,22 @@ public class FieldOcx : Field
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [FieldOcx](fieldocx)() | The default constructor. |
+
+### Examples
+
+Shows how to insert an OCX field.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+FieldOcx field = (FieldOcx)builder.InsertField(FieldType.FieldOcx, true);
+
+Assert.AreEqual(" OCX ", field.GetFieldCode());
+```
 
 ### See Also
 

@@ -16,7 +16,7 @@ public class ResourceSavingArgs
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Document](document) { get; } | Gets the document object that is currently being saved. |
 | [KeepResourceStreamOpen](keepresourcestreamopen) { get; set; } | Specifies whether Aspose.Words should keep the stream open or close it after saving a resource. |
@@ -24,7 +24,7 @@ public class ResourceSavingArgs
 | [ResourceFileUri](resourcefileuri) { get; set; } | Gets or sets the uniform resource identifier (URI) used to reference the resource file from the document. |
 | [ResourceStream](resourcestream) { get; set; } | Allows to specify the stream where the resource will be saved to. |
 
-## Remarks
+### Remarks
 
 By default, when Aspose.Words saves a document to fixed page HTML or SVG, it saves each resource into a separate file. Aspose.Words uses the document file name and a unique number to generate unique file name for each resource found in the document.
 
@@ -33,6 +33,48 @@ By default, when Aspose.Words saves a document to fixed page HTML or SVG, it sav
 To apply your own logic for generating resource file names use the [`ResourceFileName`](./resourcefilename) property.
 
 To save resources into streams instead of files, use the [`ResourceStream`](./resourcestream) property.
+
+### Examples
+
+Shows how to use a callback to track external resources created while converting a document to HTML.
+
+```csharp
+public void ResourceSavingCallback()
+{
+    Document doc = new Document(MyDir + "Bullet points with alternative font.docx");
+
+    FontSavingCallback callback = new FontSavingCallback();
+
+    HtmlFixedSaveOptions saveOptions = new HtmlFixedSaveOptions
+    {
+        ResourceSavingCallback = callback
+    };
+
+    doc.Save(ArtifactsDir + "HtmlFixedSaveOptions.UsingMachineFonts.html", saveOptions);
+
+    Console.WriteLine(callback.GetText());
+}
+
+private class FontSavingCallback : IResourceSavingCallback
+{
+    /// <summary>
+    /// Called when Aspose.Words saves an external resource to fixed page HTML or SVG.
+    /// </summary>
+    public void ResourceSaving(ResourceSavingArgs args)
+    {
+        mText.AppendLine($"Original document URI:\t{args.Document.OriginalFileName}");
+        mText.AppendLine($"Resource being saved:\t{args.ResourceFileName}");
+        mText.AppendLine($"Full uri after saving:\t{args.ResourceFileUri}\n");
+    }
+
+    public string GetText()
+    {
+        return mText.ToString();
+    }
+
+    private readonly StringBuilder mText = new StringBuilder();
+}
+```
 
 ### See Also
 

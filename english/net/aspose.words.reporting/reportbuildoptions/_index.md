@@ -17,7 +17,7 @@ public enum ReportBuildOptions
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | None | `0x0` | Specifies default options. |
 | AllowMissingMembers | `0x1` | Specifies that missing object members should be treated as null literals by the engine. This option affects only access to instance (that is, non-static) object members and extension methods. If this option is not set, the engine throws an exception when encounters a missing object member. |

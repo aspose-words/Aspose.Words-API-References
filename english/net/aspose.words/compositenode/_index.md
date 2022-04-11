@@ -16,7 +16,7 @@ public abstract class CompositeNode : Node, IEnumerable<Node>, IXPathNavigable
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [ChildNodes](childnodes) { get; } | Gets all immediate child nodes of this node. |
 | [Count](count) { get; } | Gets the number of immediate children of this node. |
@@ -40,23 +40,55 @@ public abstract class CompositeNode : Node, IEnumerable<Node>, IXPathNavigable
 | [SelectNodes](selectnodes)(…) | Selects a list of nodes matching the XPath expression. |
 | [SelectSingleNode](selectsinglenode)(…) | Selects the first Node that matches the XPath expression. |
 
-## Protected Members
-
-| name | description |
-| --- | --- |
-| [CompositeNode](compositenode)() | The default constructor. |
-| [CompositeNode](compositenode)(…) |  |
-| [AcceptChildren](acceptchildren)(…) |  |
-| [AcceptCore](acceptcore)(…) |  |
-| [CoreRemoveSelfOnly](coreremoveselfonly)() |  |
-
-## Remarks
+### Remarks
 
 A document is represented as a tree of nodes, similar to DOM or XmlDocument.For more info see the Composite design pattern.The [`CompositeNode`](../compositenode) class:
 
 * Provides access to the child nodes.
 * Implements Composite operations such as insert and remove children.
 * Provides methods for XPath navigation.
+
+### Examples
+
+Shows how to traverse through a composite node's collection of child nodes.
+
+```csharp
+Document doc = new Document();
+
+// Add two runs and one shape as child nodes to the first paragraph of this document.
+Paragraph paragraph = (Paragraph)doc.GetChild(NodeType.Paragraph, 0, true);
+paragraph.AppendChild(new Run(doc, "Hello world! "));
+
+Shape shape = new Shape(doc, ShapeType.Rectangle);
+shape.Width = 200;
+shape.Height = 200;
+// Note that the 'CustomNodeId' is not saved to an output file and exists only during the node lifetime.
+shape.CustomNodeId = 100;
+shape.WrapType = WrapType.Inline;
+paragraph.AppendChild(shape);
+
+paragraph.AppendChild(new Run(doc, "Hello again!"));
+
+// Iterate through the paragraph's collection of immediate children,
+// and print any runs or shapes that we find within.
+NodeCollection children = paragraph.ChildNodes;
+
+Assert.AreEqual(3, paragraph.ChildNodes.Count);
+
+foreach (Node child in children)
+    switch (child.NodeType)
+    {
+        case NodeType.Run:
+            Console.WriteLine("Run contents:");
+            Console.WriteLine($"\t\"{child.GetText().Trim()}\"");
+            break;
+        case NodeType.Shape:
+            Shape childShape = (Shape)child;
+            Console.WriteLine("Shape:");
+            Console.WriteLine($"\t{childShape.ShapeType}, {childShape.Width}x{childShape.Height}");
+            break;
+    }
+```
 
 ### See Also
 

@@ -3,7 +3,7 @@ title: NextPreOrder
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 70
+weight: 60
 url: /net/aspose.words/node/nextpreorder/
 ---
 ## Node.NextPreOrder method
@@ -14,13 +14,41 @@ Gets next node according to the pre-order tree traversal algorithm.
 public Node NextPreOrder(Node rootNode)
 ```
 
-| parameter | description |
-| --- | --- |
-| rootNode | The top node (limit) of traversal. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| rootNode | Node | The top node (limit) of traversal. |
 
 ## Return Value
 
 Next node in pre-order order. Null if reached the rootNode.
+
+### Examples
+
+Shows how to traverse the document's node tree using the pre-order traversal algorithm, and delete any encountered shape with an image.
+
+```csharp
+Document doc = new Document(MyDir + "Images.docx");
+
+Assert.AreEqual(9, 
+    doc.GetChildNodes(NodeType.Shape, true).OfType<Shape>().Count(s => s.HasImage));
+
+Node curNode = doc;
+while (curNode != null)
+{
+    Node nextNode = curNode.NextPreOrder(doc);
+
+    if (curNode.PreviousPreOrder(doc) != null && nextNode != null)
+        Assert.AreEqual(curNode, nextNode.PreviousPreOrder(doc));
+
+    if (curNode.NodeType == NodeType.Shape && ((Shape)curNode).HasImage)
+        curNode.Remove();
+
+    curNode = nextNode;
+}
+
+Assert.AreEqual(0,
+    doc.GetChildNodes(NodeType.Shape, true).OfType<Shape>().Count(s => s.HasImage));
+```
 
 ### See Also
 

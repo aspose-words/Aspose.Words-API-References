@@ -14,7 +14,7 @@ Changes field type values [`FieldType`](../../../aspose.words.fields/fieldchar/f
 public void NormalizeFieldTypes()
 ```
 
-## Remarks
+### Remarks
 
 Use this method after document changes that affect field types.
 

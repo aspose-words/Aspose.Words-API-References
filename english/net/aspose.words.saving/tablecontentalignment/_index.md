@@ -16,7 +16,7 @@ public enum TableContentAlignment
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | Auto | `0` | The alignment will be taken from the first paragraph in corresponding table column. |
 | Left | `1` | The content of tables will be aligned to the Left. |

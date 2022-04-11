@@ -16,7 +16,7 @@ public abstract class ShapeBase : CompositeNode
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AllowOverlap](allowoverlap) { get; set; } | Gets or sets a value that specifies whether this shape can overlap other shapes. |
 | [AlternativeText](alternativetext) { get; set; } | Defines alternative text to be displayed instead of a graphic. |
@@ -81,15 +81,29 @@ public abstract class ShapeBase : CompositeNode
 | [RemoveShapeAttr](removeshapeattr)(…) | Reserved for system use. IShapeAttrSource. |
 | [SetShapeAttr](setshapeattr)(…) | Reserved for system use. IShapeAttrSource. |
 
-## Protected Members
-
-| name | description |
-| --- | --- |
-| [ShapeBase](shapebase)(…) |  |
-
-## Remarks
+### Remarks
 
 This is an abstract class. The two derived classes that you can instantiate are [`Shape`](../shape) and [`GroupShape`](../groupshape).A shape is a node in the document tree.If the shape is a child of a [`Paragraph`](../../aspose.words/paragraph) object, then the shape is said to be "top-level". Top-level shapes are measured and positioned in points.A shape can also occur as a child of a [`GroupShape`](../groupshape) object when several shapes are grouped. Child shapes of a group shape are positioned in the coordinate space and units defined by the [`CoordSize`](./coordsize) and [`CoordOrigin`](./coordorigin) properties of the parent group shape.A shape can be positioned inline with text or floating. The positioning method is controlled using the [`WrapType`](./wraptype) property.When a shape is floating, it is positioned relative to something (e.g the current paragraph, the margin or the page). The relative positioning of the shape is specified using the [`RelativeHorizontalPosition`](./relativehorizontalposition) and [`RelativeVerticalPosition`](./relativeverticalposition) properties.A floating shape be positioned explicitly using the [`Left`](./left) and [`Top`](./top) properties or aligned relative to some other object using the [`HorizontalAlignment`](./horizontalalignment) and [`VerticalAlignment`](./verticalalignment) properties.
+
+### Examples
+
+Shows how to insert a floating image to the center of a page.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+// Insert a floating image that will appear behind the overlapping text and align it to the page's center.
+Shape shape = builder.InsertImage(ImageDir + "Logo.jpg");
+shape.WrapType = WrapType.None;
+shape.BehindText = true;
+shape.RelativeHorizontalPosition = RelativeHorizontalPosition.Page;
+shape.RelativeVerticalPosition = RelativeVerticalPosition.Page;
+shape.HorizontalAlignment = HorizontalAlignment.Center;
+shape.VerticalAlignment = VerticalAlignment.Center;
+
+doc.Save(ArtifactsDir + "Image.CreateFloatingPageCenter.docx");
+```
 
 ### See Also
 

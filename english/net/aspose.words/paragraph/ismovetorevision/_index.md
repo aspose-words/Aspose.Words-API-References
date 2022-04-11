@@ -14,6 +14,37 @@ Returns true if this object was moved (inserted) in Microsoft Word while change 
 public bool IsMoveToRevision { get; }
 ```
 
+### Examples
+
+Shows how to check whether a paragraph is a move revision.
+
+```csharp
+Document doc = new Document(MyDir + "Revisions.docx");
+
+// This document contains "Move" revisions, which appear when we highlight text with the cursor,
+// and then drag it to move it to another location
+// while tracking revisions in Microsoft Word via "Review" -> "Track changes".
+Assert.AreEqual(6, doc.Revisions.Count(r => r.RevisionType == RevisionType.Moving));
+
+ParagraphCollection paragraphs = doc.FirstSection.Body.Paragraphs;
+
+// Move revisions consist of pairs of "Move from", and "Move to" revisions. 
+// These revisions are potential changes to the document that we can either accept or reject.
+// Before we accept/reject a move revision, the document
+// must keep track of both the departure and arrival destinations of the text.
+// The second and the fourth paragraph define one such revision, and thus both have the same contents.
+Assert.AreEqual(paragraphs[1].GetText(), paragraphs[3].GetText());
+
+// The "Move from" revision is the paragraph where we dragged the text from.
+// If we accept the revision, this paragraph will disappear,
+// and the other will remain and no longer be a revision.
+Assert.True(paragraphs[1].IsMoveFromRevision);
+
+// The "Move to" revision is the paragraph where we dragged the text to.
+// If we reject the revision, this paragraph instead will disappear, and the other will remain.
+Assert.True(paragraphs[3].IsMoveToRevision);
+```
+
 ### See Also
 
 * class [Paragraph](../../paragraph)

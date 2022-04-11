@@ -16,7 +16,7 @@ public enum VisitorAction
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | Continue | `0` | The visitor requests the enumeration to continue. |
 | SkipThisNode | `1` | The visitor requests to skip the current node and continue enumeration. |

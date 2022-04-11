@@ -16,7 +16,7 @@ public class OfficeMath : CompositeNode
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [DisplayType](displaytype) { get; set; } | Gets/sets Office Math display format type which represents whether an equation is displayed inline with the text or displayed on its own line. |
 | [EquationXmlEncoding](equationxmlencoding) { get; set; } | Gets/sets an encoding that was used to encode equation XML, if this office math object is read from equation XML. We use the encoding on saving a document to write in same encoding that it was read. |
@@ -27,11 +27,36 @@ public class OfficeMath : CompositeNode
 | override [Accept](accept)(…) | Accepts a visitor. |
 | [GetMathRenderer](getmathrenderer)() | Creates and returns an object that can be used to render this equation into an image. |
 
-## Remarks
+### Remarks
 
 In this version of Aspose.Words, [`OfficeMath`](../officemath) nodes do not provide public methods and properties to create or modify a OfficeMath object. In this version you are not able to instantiate Math nodes or modify existing except deleting them.
 
 [`OfficeMath`](../officemath) can only be a child of [`Paragraph`](../../aspose.words/paragraph).
+
+### Examples
+
+Shows how to set office math display formatting.
+
+```csharp
+Document doc = new Document(MyDir + "Office math.docx");
+
+OfficeMath officeMath = (OfficeMath) doc.GetChild(NodeType.OfficeMath, 0, true);
+
+// OfficeMath nodes that are children of other OfficeMath nodes are always inline.
+// The node we are working with is the base node to change its location and display type.
+Assert.AreEqual(MathObjectType.OMathPara, officeMath.MathObjectType);
+Assert.AreEqual(NodeType.OfficeMath, officeMath.NodeType);
+Assert.AreEqual(officeMath.ParentNode, officeMath.ParentParagraph);
+
+// OOXML and WML formats use the "EquationXmlEncoding" property.
+Assert.IsNull(officeMath.EquationXmlEncoding);
+
+// Change the location and display type of the OfficeMath node.
+officeMath.DisplayType = OfficeMathDisplayType.Display;
+officeMath.Justification = OfficeMathJustification.Left;
+
+doc.Save(ArtifactsDir + "Shape.OfficeMath.docx");
+```
 
 ### See Also
 

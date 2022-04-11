@@ -3,7 +3,7 @@ title: ExportGeneratorName
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 50
+weight: 40
 url: /net/aspose.words.saving/saveoptions/exportgeneratorname/
 ---
 ## SaveOptions.ExportGeneratorName property
@@ -12,6 +12,19 @@ When true, causes the name and version of Aspose.Words to be embedded into produ
 
 ```csharp
 public bool ExportGeneratorName { get; set; }
+```
+
+### Examples
+
+Shows how to disable adding name and version of Aspose.Words into produced files.
+
+```csharp
+Document doc = new Document();
+
+// Use https://docs.aspose.com/words/net/generator-or-producer-name-included-in-output-documents/ to know how to check the result.
+OoxmlSaveOptions saveOptions = new OoxmlSaveOptions { ExportGeneratorName = false };
+
+doc.Save(ArtifactsDir + "OoxmlSaveOptions.ExportGeneratorName.docx", saveOptions);
 ```
 
 ### See Also

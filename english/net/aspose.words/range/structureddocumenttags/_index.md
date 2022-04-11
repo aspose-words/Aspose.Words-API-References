@@ -8,8 +8,6 @@ url: /net/aspose.words/range/structureddocumenttags/
 ---
 ## Range.StructuredDocumentTags property
 
-Returns a `StructuredDocumentTags` collection that represents all structured document tags in the range.
-
 ```csharp
 public StructuredDocumentTagCollection StructuredDocumentTags { get; }
 ```

@@ -3,7 +3,7 @@ title: Dml3DEffectsRenderingMode
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 190
+weight: 180
 url: /net/aspose.words.saving/saveoptions/dml3deffectsrenderingmode/
 ---
 ## SaveOptions.Dml3DEffectsRenderingMode property
@@ -14,7 +14,7 @@ Gets or sets a value determining how 3D effects are rendered.
 public Dml3DEffectsRenderingMode Dml3DEffectsRenderingMode { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 The default value is Basic.
 

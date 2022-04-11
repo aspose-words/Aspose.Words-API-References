@@ -14,13 +14,42 @@ Retrieves a Comment at the given index.
 public Comment this[int index] { get; }
 ```
 
-| parameter | description |
-| --- | --- |
-| index | An index into the collection. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index |  | An index into the collection. |
 
-## Remarks
+### Remarks
 
 The index is zero-based.Negative indexes are allowed and indicate access from the back of the collection. For example -1 means the last item, -2 means the second before last and so on.If index is greater than or equal to the number of items in the list, this returns a null reference.If index is negative and its absolute value is greater than the number of items in the list, this returns a null reference.
+
+### Examples
+
+Shows how to remove comment replies.
+
+```csharp
+Document doc = new Document();
+
+Comment comment = new Comment(doc, "John Doe", "J.D.", DateTime.Now);
+comment.SetText("My comment.");
+
+doc.FirstSection.Body.FirstParagraph.AppendChild(comment);
+
+comment.AddReply("Joe Bloggs", "J.B.", DateTime.Now, "New reply");
+comment.AddReply("Joe Bloggs", "J.B.", DateTime.Now, "Another reply");
+
+Assert.AreEqual(2, comment.Replies.Count()); 
+
+// Below are two ways of removing replies from a comment.
+// 1 -  Use the "RemoveReply" method to remove replies from a comment individually:
+comment.RemoveReply(comment.Replies[0]);
+
+Assert.AreEqual(1, comment.Replies.Count());
+
+// 2 -  Use the "RemoveAllReplies" method to remove all replies from a comment at once:
+comment.RemoveAllReplies();
+
+Assert.AreEqual(0, comment.Replies.Count());
+```
 
 ### See Also
 

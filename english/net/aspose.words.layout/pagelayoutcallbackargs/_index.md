@@ -16,7 +16,7 @@ public class PageLayoutCallbackArgs
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Document](document) { get; } | Gets document. |
 | [Event](event) { get; } | Gets event. |

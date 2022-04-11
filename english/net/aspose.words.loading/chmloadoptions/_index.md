@@ -16,7 +16,7 @@ public class ChmLoadOptions : LoadOptions
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [ChmLoadOptions](chmloadoptions)() | Initializes a new instance of this class with default values. |
 | [OriginalFileName](originalfilename) { get; set; } | The name of the CHM file. Default value is `null`. |

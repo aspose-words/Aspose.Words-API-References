@@ -16,12 +16,12 @@ public class XmlDataLoadOptions
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [XmlDataLoadOptions](xmldataloadoptions)() | Initializes a new instance of this class with default options. |
 | [AlwaysGenerateRootObject](alwaysgeneraterootobject) { get; set; } | Gets or sets a flag indicating whether a generated data source will always contain an object for an XML root element. If an XML root element has no attributes and all its child elements have same names, such an object is not created by default. |
 
-## Remarks
+### Remarks
 
 An instance of this class can be passed into constructors of [`XmlDataSource`](../xmldatasource).
 

@@ -1,5 +1,5 @@
 ---
-title: Aspose.Words.Properties Namespace
+title: Aspose.Words.Properties
 second_title: Aspose.Words for .NET API Reference
 description: The Aspose.Words.Properties namespace provides classes to work with custom and built-in document properties such as title, keywords, company etc.
 type: docs
@@ -8,14 +8,18 @@ url: /net/aspose.words.properties/
 ---
 The Aspose.Words.Properties namespace provides classes to work with custom and built-in document properties such as title, keywords, company etc.
 
-## Members
+## Classes
 
-| public type | description |
+| Class | Description |
 | --- | --- |
 | class [BuiltInDocumentProperties](./builtindocumentproperties) | A collection of built-in document properties. |
 | class [CustomDocumentProperties](./customdocumentproperties) | A collection of custom document properties. |
 | class [DocumentProperty](./documentproperty) | Represents a custom or built-in document property. |
 | abstract class [DocumentPropertyCollection](./documentpropertycollection) | Base class for [`BuiltInDocumentProperties`](aspose.words.properties/builtindocumentproperties) and [`CustomDocumentProperties`](aspose.words.properties/customdocumentproperties) collections. |
+## Enumeration
+
+| Enumeration | Description |
+| --- | --- |
 | [Flags] enum [DocumentSecurity](./documentsecurity) | Used as a value for the [`Security`](aspose.words.properties/builtindocumentproperties/security) property. Specifies the security level of a document as a numeric value. |
 | enum [PropertyType](./propertytype) | Specifies data type of a document property. |
 

@@ -8,8 +8,6 @@ url: /net/aspose.words.markup/istructureddocumenttag/level/
 ---
 ## IStructuredDocumentTag.Level property
 
-Gets the level at which this SDT occurs in the document tree.
-
 ```csharp
 public MarkupLevel Level { get; }
 ```

@@ -16,7 +16,7 @@ public sealed class Comment : InlineStory
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Comment](comment)(…) | Initializes a new instance of the Comment class. (2 constructors) |
 | [Ancestor](ancestor) { get; } | Returns the parent Comment object. Returns null for top-level comments. |
@@ -34,7 +34,7 @@ public sealed class Comment : InlineStory
 | [RemoveReply](removereply)(…) | Removes the specified reply to this comment. |
 | [SetText](settext)(…) | This is a convenience method that allows to easily set text of the comment. |
 
-## Remarks
+### Remarks
 
 A comment is an annotation which is anchored to a region of text or to a position in text. A comment can contain an arbitrary amount of block-level content.
 
@@ -43,6 +43,55 @@ If a [`Comment`](../comment) object occurs on its own, the comment is anchored t
 To anchor a comment to a region of text three objects are required: [`Comment`](../comment), [`CommentRangeStart`](../commentrangestart) and [`CommentRangeEnd`](../commentrangeend). All three objects need to share the same [`Id`](./id) value.
 
 [`Comment`](../comment) is an inline-level node and can only be a child of [`Paragraph`](../paragraph).[`Comment`](../comment) can contain [`Paragraph`](../paragraph) and [`Table`](../../aspose.words.tables/table) child nodes.
+
+### Examples
+
+Shows how to add a comment to a paragraph.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+builder.Write("Hello world!");
+
+Comment comment = new Comment(doc, "John Doe", "JD", DateTime.Today);
+builder.CurrentParagraph.AppendChild(comment);
+builder.MoveTo(comment.AppendChild(new Paragraph(doc)));
+builder.Write("Comment text.");
+
+Assert.AreEqual(DateTime.Today, comment.DateTime);
+
+// In Microsoft Word, we can right-click this comment in the document body to edit it, or reply to it. 
+doc.Save(ArtifactsDir + "InlineStory.AddComment.docx");
+```
+
+Shows how to add a comment to a document, and then reply to it.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+Comment comment = new Comment(doc, "John Doe", "J.D.", DateTime.Now);
+comment.SetText("My comment.");
+
+// Place the comment at a node in the document's body.
+// This comment will show up at the location of its paragraph,
+// outside the right-side margin of the page, and with a dotted line connecting it to its paragraph.
+builder.CurrentParagraph.AppendChild(comment);
+
+// Add a reply, which will show up under its parent comment.
+comment.AddReply("Joe Bloggs", "J.B.", DateTime.Now, "New reply");
+
+// Comments and replies are both Comment nodes.
+Assert.AreEqual(2, doc.GetChildNodes(NodeType.Comment, true).Count);
+
+// Comments that do not reply to other comments are "top-level". They have no ancestor comments.
+Assert.Null(comment.Ancestor);
+
+// Replies have an ancestor top-level comment.
+Assert.AreEqual(comment, comment.Replies[0].Ancestor);
+
+doc.Save(ArtifactsDir + "Comment.AddCommentWithReply.docx");
+```
 
 ### See Also
 

@@ -14,7 +14,7 @@ public enum ScriptShapingLevel
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | None | `0` |  |
 | Unknown | `1` |  |

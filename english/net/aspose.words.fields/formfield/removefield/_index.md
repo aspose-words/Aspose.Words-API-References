@@ -14,9 +14,20 @@ Removes the complete form field, not just the form field special character.
 public void RemoveField()
 ```
 
-## Remarks
+### Remarks
 
 If there is a bookmark associated with the form field, the bookmark is not removed.
+
+### Examples
+
+Shows how to delete a form field.
+
+```csharp
+Document doc = new Document(MyDir + "Form fields.docx");
+
+FormField formField = doc.Range.FormFields[3];
+formField.RemoveField();
+```
 
 ### See Also
 

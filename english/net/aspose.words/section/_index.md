@@ -16,7 +16,7 @@ public sealed class Section : CompositeNode
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Section](section)(…) | Initializes a new instance of the Section class. |
 | [Body](body) { get; } | Returns the Body child node of the section. |
@@ -33,9 +33,56 @@ public sealed class Section : CompositeNode
 | [EnsureMinimum](ensureminimum)() | Ensures that the section has Body with one Paragraph. |
 | [PrependContent](prependcontent)(…) | Inserts a copy of content of the source section at the beginning of this section. |
 
-## Remarks
+### Remarks
 
 Section can have one [`Body`](./body) and maximum one [`HeaderFooter`](../headerfooter) of each [`HeaderFooterType`](../headerfootertype). Body and HeaderFooter nodes can be in any order inside Section.A minimal valid section needs to have Body with one Paragraph.Each section has its own set of properties that specify page size, orientation, margins etc.You can create a copy of a section using [`Clone`](../node/clone). The copy can be inserted into the same or different document.To add, insert or remove a whole section including section break and section properties use methods of the Sections object.To copy and insert just content of the section excluding the section break and section properties use AppendContent and PrependContent methods.
+
+### Examples
+
+Shows how to construct an Aspose.Words document by hand.
+
+```csharp
+Document doc = new Document();
+
+// A blank document contains one section, one body and one paragraph.
+// Call the "RemoveAllChildren" method to remove all those nodes,
+// and end up with a document node with no children.
+doc.RemoveAllChildren();
+
+// This document now has no composite child nodes that we can add content to.
+// If we wish to edit it, we will need to repopulate its node collection.
+// First, create a new section, and then append it as a child to the root document node.
+Section section = new Section(doc);
+doc.AppendChild(section);
+
+// Set some page setup properties for the section.
+section.PageSetup.SectionStart = SectionStart.NewPage;
+section.PageSetup.PaperSize = PaperSize.Letter;
+
+// A section needs a body, which will contain and display all its contents
+// on the page between the section's header and footer.
+Body body = new Body(doc);
+section.AppendChild(body);
+
+// Create a paragraph, set some formatting properties, and then append it as a child to the body.
+Paragraph para = new Paragraph(doc);
+
+para.ParagraphFormat.StyleName = "Heading 1";
+para.ParagraphFormat.Alignment = ParagraphAlignment.Center;
+
+body.AppendChild(para);
+
+// Finally, add some content to do the document. Create a run,
+// set its appearance and contents, and then append it as a child to the paragraph.
+Run run = new Run(doc);
+run.Text = "Hello World!";
+run.Font.Color = Color.Red;
+para.AppendChild(run);
+
+Assert.AreEqual("Hello World!", doc.GetText().Trim());
+
+doc.Save(ArtifactsDir + "Section.CreateManually.docx");
+```
 
 ### See Also
 

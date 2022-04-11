@@ -16,7 +16,7 @@ public class DocumentBuilder
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [DocumentBuilder](documentbuilder)() | Initializes a new instance of this class. |
 | [DocumentBuilder](documentbuilder)(…) | Initializes a new instance of this class. |
@@ -85,9 +85,124 @@ public class DocumentBuilder
 | [Writeln](writeln)() | Inserts a paragraph break into the document. |
 | [Writeln](writeln)(…) | Inserts a string and a paragraph break into the document. |
 
-## Remarks
+### Remarks
 
 DocumentBuilder makes the process of building a Document easier. Document is a composite object consisting of a tree of nodes and while inserting content nodes directly into the tree is possible, it requires good understanding of the tree structure. DocumentBuilder is a "facade" for the complex structure of Document and allows to insert content and formatting quickly and easily.Create a DocumentBuilder and associate it with a [`Document`](./document).The DocumentBuilder has an internal cursor where the text will be inserted when you call [`Write`](./write), [`Writeln`](./writeln), [`InsertBreak`](./insertbreak) and other methods. You can navigate the DocumentBuilder cursor to a different location in a document using various MoveToXXX methods.Use the [`Font`](./font) property to specify character formatting that will apply to all text inserted from the current position in the document onwards.Use the [`ParagraphFormat`](./paragraphformat) property to specify paragraph formatting for the current and all paragraphs that will be inserted.Use the [`PageSetup`](./pagesetup) property to specify page and section properties for the current section and all section that will be inserted.Use the [`CellFormat`](./cellformat) and [`RowFormat`](./rowformat) properties to specify formatting properties for table cells and rows. User the [`InsertCell`](./insertcell) and [`EndRow`](./endrow) methods to build a table.Note that Font, ParagraphFormat and PageSetup properties are updated whenever you navigate to a different place in the document to reflect formatting properties available at the new location.
+
+### Examples
+
+Shows how to use a document builder to create a table.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+// Start the table, then populate the first row with two cells.
+builder.StartTable();
+builder.InsertCell();
+builder.Write("Row 1, Cell 1.");
+builder.InsertCell();
+builder.Write("Row 1, Cell 2.");
+
+// Call the builder's "EndRow" method to start a new row.
+builder.EndRow();
+builder.InsertCell();
+builder.Write("Row 2, Cell 1.");
+builder.InsertCell();
+builder.Write("Row 2, Cell 2.");
+builder.EndTable();
+
+doc.Save(ArtifactsDir + "DocumentBuilder.CreateTable.docx");
+```
+
+Shows how to create headers and footers in a document using DocumentBuilder.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+// Specify that we want different headers and footers for first, even and odd pages.
+builder.PageSetup.DifferentFirstPageHeaderFooter = true;
+builder.PageSetup.OddAndEvenPagesHeaderFooter = true;
+
+// Create the headers, then add three pages to the document to display each header type.
+builder.MoveToHeaderFooter(HeaderFooterType.HeaderFirst);
+builder.Write("Header for the first page");
+builder.MoveToHeaderFooter(HeaderFooterType.HeaderEven);
+builder.Write("Header for even pages");
+builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
+builder.Write("Header for all other pages");
+
+builder.MoveToSection(0);
+builder.Writeln("Page1");
+builder.InsertBreak(BreakType.PageBreak);
+builder.Writeln("Page2");
+builder.InsertBreak(BreakType.PageBreak);
+builder.Writeln("Page3");
+
+doc.Save(ArtifactsDir + "DocumentBuilder.HeadersAndFooters.docx");
+```
+
+Shows how to build a table with custom borders.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+builder.StartTable();
+
+// Setting table formatting options for a document builder
+// will apply them to every row and cell that we add with it.
+builder.ParagraphFormat.Alignment = ParagraphAlignment.Center;
+
+builder.CellFormat.ClearFormatting();
+builder.CellFormat.Width = 150;
+builder.CellFormat.VerticalAlignment = CellVerticalAlignment.Center;
+builder.CellFormat.Shading.BackgroundPatternColor = Color.GreenYellow;
+builder.CellFormat.WrapText = false;
+builder.CellFormat.FitText = true;
+
+builder.RowFormat.ClearFormatting();
+builder.RowFormat.HeightRule = HeightRule.Exactly;
+builder.RowFormat.Height = 50;
+builder.RowFormat.Borders.LineStyle = LineStyle.Engrave3D;
+builder.RowFormat.Borders.Color = Color.Orange;
+
+builder.InsertCell();
+builder.Write("Row 1, Col 1");
+
+builder.InsertCell();
+builder.Write("Row 1, Col 2");
+builder.EndRow();
+
+// Changing the formatting will apply it to the current cell,
+// and any new cells that we create with the builder afterward.
+// This will not affect the cells that we have added previously.
+builder.CellFormat.Shading.ClearFormatting();
+
+builder.InsertCell();
+builder.Write("Row 2, Col 1");
+
+builder.InsertCell();
+builder.Write("Row 2, Col 2");
+
+builder.EndRow();
+
+// Increase row height to fit the vertical text.
+builder.InsertCell();
+builder.RowFormat.Height = 150;
+builder.CellFormat.Orientation = TextOrientation.Upward;
+builder.Write("Row 3, Col 1");
+
+builder.InsertCell();
+builder.CellFormat.Orientation = TextOrientation.Downward;
+builder.Write("Row 3, Col 2");
+
+builder.EndRow();
+builder.EndTable();
+
+doc.Save(ArtifactsDir + "DocumentBuilder.InsertTable.docx");
+```
 
 ### See Also
 

@@ -16,7 +16,7 @@ public class MarkdownSaveOptions : TxtSaveOptionsBase
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [MarkdownSaveOptions](markdownsaveoptions)() | Initializes a new instance of this class that can be used to save a document in the Markdown format. |
 | [ExportImagesAsBase64](exportimagesasbase64) { get; set; } | Specifies whether images are saved in Base64 format to the output file. Default is `false`. |

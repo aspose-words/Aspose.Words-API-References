@@ -16,13 +16,42 @@ public class FieldEditTime : Field
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [FieldEditTime](fieldedittime)() | The default constructor. |
 
-## Remarks
+### Remarks
 
 Retrieves the total editing time, in minutes, since the document was created.
+
+### Examples
+
+Shows how to use the EDITTIME field.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+// The EDITTIME field will show, in minutes,
+// the time spent with the document open in a Microsoft Word window.
+builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
+builder.Write("You've been editing this document for ");
+FieldEditTime field = (FieldEditTime)builder.InsertField(FieldType.FieldEditTime, true);
+builder.Writeln(" minutes.");
+
+// This built in document property tracks the minutes. Microsoft Word uses this property
+// to track the time spent with the document open. We can also edit it ourselves.
+doc.BuiltInDocumentProperties.TotalEditingTime = 10;
+field.Update();
+
+Assert.AreEqual(" EDITTIME ", field.GetFieldCode());
+Assert.AreEqual("10", field.Result);
+
+// The field does not update itself in real-time, and will also have to be
+// manually updated in Microsoft Word anytime we need an accurate value.
+doc.UpdateFields();
+doc.Save(ArtifactsDir + "Field.EDITTIME.docx");
+```
 
 ### See Also
 

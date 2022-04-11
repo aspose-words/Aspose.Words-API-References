@@ -16,7 +16,7 @@ public class PdfLoadOptions : LoadOptions
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [PdfLoadOptions](pdfloadoptions)() | The default constructor. |
 | [PageCount](pagecount) { get; set; } | Gets or sets the number of pages to read. Default is MaxValue which means all pages of the document will be read. |

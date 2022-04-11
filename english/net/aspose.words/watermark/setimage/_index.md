@@ -43,18 +43,18 @@ Adds Image watermark into the document.
 public void SetImage(string imagePath, ImageWatermarkOptions options)
 ```
 
-| parameter | description |
-| --- | --- |
-| imagePath | Path to the image file that is displayed as a watermark. |
-| options | Defines additional options for the image watermark. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| imagePath | String | Path to the image file that is displayed as a watermark. |
+| options | ImageWatermarkOptions | Defines additional options for the image watermark. |
 
-## Exceptions
+### Exceptions
 
 | exception | condition |
 | --- | --- |
 | ArgumentNullException | Throws when the path is null. |
 
-## Remarks
+### Remarks
 
 If [`ImageWatermarkOptions`](../../imagewatermarkoptions) is null, the watermark will be set with default options.
 

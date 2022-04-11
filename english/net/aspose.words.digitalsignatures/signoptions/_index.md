@@ -16,7 +16,7 @@ public class SignOptions
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [SignOptions](signoptions)() | The default constructor. |
 | [Comments](comments) { get; set; } | Specifies comments on the digital signature. Default value is empty string (Empty). |

@@ -16,13 +16,62 @@ public class FieldSection : Field
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [FieldSection](fieldsection)() | The default constructor. |
 
-## Remarks
+### Remarks
 
 Retrieves the number of the current section.
+
+### Examples
+
+Shows how to use SECTION and SECTIONPAGES fields to number pages by sections.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
+builder.ParagraphFormat.Alignment = ParagraphAlignment.Right;
+
+// A SECTION field displays the number of the section it is in.
+builder.Write("Section ");
+FieldSection fieldSection = (FieldSection)builder.InsertField(FieldType.FieldSection, true);
+
+Assert.AreEqual(" SECTION ", fieldSection.GetFieldCode());
+
+// A PAGE field displays the number of the page it is in.
+builder.Write("\nPage ");
+FieldPage fieldPage = (FieldPage)builder.InsertField(FieldType.FieldPage, true);
+
+Assert.AreEqual(" PAGE ", fieldPage.GetFieldCode());
+
+// A SECTIONPAGES field displays the number of pages that the section it is in spans across.
+builder.Write(" of ");
+FieldSectionPages fieldSectionPages = (FieldSectionPages)builder.InsertField(FieldType.FieldSectionPages, true);
+
+Assert.AreEqual(" SECTIONPAGES ", fieldSectionPages.GetFieldCode());
+
+// Move out of the header back into the main document and insert two pages.
+// All these pages will be in the first section. Our fields, which appear once every header,
+// will number the current/total pages of this section.
+builder.MoveToDocumentEnd();
+builder.InsertBreak(BreakType.PageBreak);
+builder.InsertBreak(BreakType.PageBreak);
+
+// We can insert a new section with the document builder like this.
+// This will affect the values displayed in the SECTION and SECTIONPAGES fields in all upcoming headers.
+builder.InsertBreak(BreakType.SectionBreakNewPage);
+
+// The PAGE field will keep counting pages across the whole document.
+// We can manually reset its count at each section to keep track of pages section-by-section.
+builder.CurrentSection.PageSetup.RestartPageNumbering = true;
+builder.InsertBreak(BreakType.PageBreak);
+
+doc.UpdateFields();
+doc.Save(ArtifactsDir + "Field.SECTION.SECTIONPAGES.docx");
+```
 
 ### See Also
 

@@ -16,13 +16,33 @@ public class HyphenationOptions
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [HyphenationOptions](hyphenationoptions)() | The default constructor. |
 | [AutoHyphenation](autohyphenation) { get; set; } | Gets or sets value determining whether automatic hyphenation is turned on for the document. Default value for this property is false. |
 | [ConsecutiveHyphenLimit](consecutivehyphenlimit) { get; set; } | Gets or sets the maximum number of consecutive lines that can end with hyphens. Default value for this property is 0. |
 | [HyphenateCaps](hyphenatecaps) { get; set; } | Gets or sets value determining whether words written in all capital letters are hyphenated. Default value for this property is true. |
 | [HyphenationZone](hyphenationzone) { get; set; } | Gets or sets the distance in 1/20 of a point from the right margin within which you do not want to hyphenate words. Default value for this property is 360 (0.25 inch). |
+
+### Examples
+
+Shows how to configure automatic hyphenation.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+builder.Font.Size = 24;
+builder.Writeln("Lorem ipsum dolor sit amet, consectetur adipiscing elit, " +
+                "sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.");
+
+doc.HyphenationOptions.AutoHyphenation = true;
+doc.HyphenationOptions.ConsecutiveHyphenLimit = 2;
+doc.HyphenationOptions.HyphenationZone = 720;
+doc.HyphenationOptions.HyphenateCaps = true;
+
+doc.Save(ArtifactsDir + "Document.HyphenationOptions.docx");
+```
 
 ### See Also
 

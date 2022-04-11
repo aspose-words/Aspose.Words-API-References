@@ -16,7 +16,7 @@ public sealed class BorderCollection : IEnumerable<Border>
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Bottom](bottom) { get; } | Gets the bottom border. |
 | [Color](color) { get; set; } | Gets or sets the border color. |
@@ -35,9 +35,27 @@ public sealed class BorderCollection : IEnumerable<Border>
 | [Equals](equals)(…) | Compares collections of borders. |
 | [GetEnumerator](getenumerator)() | Returns an enumerator object that can be used to iterate over all borders in the collection. |
 
-## Remarks
+### Remarks
 
 Different document elements have different borders. For example, ParagraphFormat has Bottom, Left, Right and Top borders. You can specify different formatting for each border independently or enumerate through all borders and apply same formatting.
+
+### Examples
+
+Shows how to insert a paragraph with a top border.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+Border topBorder = builder.ParagraphFormat.Borders[BorderType.Top];
+topBorder.Color = Color.Red;
+topBorder.LineWidth = 4.0d;
+topBorder.LineStyle = LineStyle.DashSmallGap;
+
+builder.Writeln("Text with a red top border.");
+
+doc.Save(ArtifactsDir + "Border.ParagraphTopBorder.docx");
+```
 
 ### See Also
 

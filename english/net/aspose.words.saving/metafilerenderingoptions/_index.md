@@ -16,7 +16,7 @@ public class MetafileRenderingOptions
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [MetafileRenderingOptions](metafilerenderingoptions)() | The default constructor. |
 | [EmfPlusDualRenderingMode](emfplusdualrenderingmode) { get; set; } | Gets or sets a value determining how EMF+ Dual metafiles should be rendered. |
@@ -24,6 +24,58 @@ public class MetafileRenderingOptions
 | [RenderingMode](renderingmode) { get; set; } | Gets or sets a value determining how metafile images should be rendered. |
 | [ScaleWmfFontsToMetafileSize](scalewmffontstometafilesize) { get; set; } | Gets or sets a value determining whether or not to scale fonts in WMF metafile according to metafile size on the page. |
 | [UseEmfEmbeddedToWmf](useemfembeddedtowmf) { get; set; } | Gets or sets a value determining how WMF metafiles with embedded EMF metafiles should be rendered. |
+
+### Examples
+
+Shows added a fallback to bitmap rendering and changing type of warnings about unsupported metafile records.
+
+```csharp
+public void HandleBinaryRasterWarnings()
+{
+    Document doc = new Document(MyDir + "WMF with image.docx");
+
+    MetafileRenderingOptions metafileRenderingOptions = new MetafileRenderingOptions();
+
+    // Set the "EmulateRasterOperations" property to "false" to fall back to bitmap when
+    // it encounters a metafile, which will require raster operations to render in the output PDF.
+    metafileRenderingOptions.EmulateRasterOperations = false;
+
+    // Set the "RenderingMode" property to "VectorWithFallback" to try to render every metafile using vector graphics.
+    metafileRenderingOptions.RenderingMode = MetafileRenderingMode.VectorWithFallback;
+
+    // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+    // to modify how that method converts the document to .PDF and applies the configuration
+    // in our MetafileRenderingOptions object to the saving operation.
+    PdfSaveOptions saveOptions = new PdfSaveOptions();
+    saveOptions.MetafileRenderingOptions = metafileRenderingOptions;
+
+    HandleDocumentWarnings callback = new HandleDocumentWarnings();
+    doc.WarningCallback = callback;
+
+    doc.Save(ArtifactsDir + "PdfSaveOptions.HandleBinaryRasterWarnings.pdf", saveOptions);
+
+    Assert.AreEqual(1, callback.Warnings.Count);
+    Assert.AreEqual("'R2_XORPEN' binary raster operation is partly supported.",
+        callback.Warnings[0].Description);
+}
+
+/// <summary>
+/// Prints and collects formatting loss-related warnings that occur upon saving a document.
+/// </summary>
+public class HandleDocumentWarnings : IWarningCallback
+{
+    public void Warning(WarningInfo info)
+    {
+        if (info.WarningType == WarningType.MinorFormattingLoss)
+        {
+            Console.WriteLine("Unsupported operation: " + info.Description);
+            Warnings.Warning(info);
+        }
+    }
+
+    public WarningInfoCollection Warnings = new WarningInfoCollection();
+}
+```
 
 ### See Also
 

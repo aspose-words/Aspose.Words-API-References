@@ -16,7 +16,7 @@ public enum FillType
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | Solid | `1` | Solid fill. |
 | Patterned | `2` | Patterned fill. |

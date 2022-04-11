@@ -16,13 +16,41 @@ public class DefaultFontSubstitutionRule : FontSubstitutionRule
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [DefaultFontName](defaultfontname) { get; set; } | Gets or sets the default font name. |
 
-## Remarks
+### Remarks
 
 This rule defines single default font name to be used for substitution if the original font is not available.
+
+### Examples
+
+Shows how to set the default font substitution rule.
+
+```csharp
+Document doc = new Document();
+FontSettings fontSettings = new FontSettings();
+doc.FontSettings = fontSettings;
+
+// Get the default substitution rule within FontSettings.
+// This rule will substitute all missing fonts with "Times New Roman".
+DefaultFontSubstitutionRule defaultFontSubstitutionRule = fontSettings.SubstitutionSettings.DefaultFontSubstitution;
+Assert.True(defaultFontSubstitutionRule.Enabled);
+Assert.AreEqual("Times New Roman", defaultFontSubstitutionRule.DefaultFontName);
+
+// Set the default font substitute to "Courier New".
+defaultFontSubstitutionRule.DefaultFontName = "Courier New";
+
+// Using a document builder, add some text in a font that we do not have to see the substitution take place,
+// and then render the result in a PDF.
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+builder.Font.Name = "Missing Font";
+builder.Writeln("Line written in a missing font, which will be substituted with Courier New.");
+
+doc.Save(ArtifactsDir + "FontSettings.DefaultFontSubstitutionRule.pdf");
+```
 
 ### See Also
 

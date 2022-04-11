@@ -16,7 +16,7 @@ public enum WarningSource
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | Unknown | `0` | The warning source is not specified. |
 | Layout | `1` | Module that builds a document layout. |

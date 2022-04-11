@@ -8,8 +8,6 @@ url: /net/aspose.words.markup/istructureddocumenttag/isranged/
 ---
 ## IStructuredDocumentTag.IsRanged method
 
-Returns true if this instance is a ranged structured document tag.
-
 ```csharp
 public bool IsRanged()
 ```

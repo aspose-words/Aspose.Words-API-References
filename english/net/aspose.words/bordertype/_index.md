@@ -16,7 +16,7 @@ public enum BorderType
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | None | `-1` | Default value. |
 | Bottom | `0` | Specifies the bottom border of a paragraph or a table cell. |
@@ -27,6 +27,24 @@ public enum BorderType
 | Vertical | `5` | Specifies the vertical border between cells in a table. |
 | DiagonalDown | `6` | Specifies the diagonal border in a table cell. |
 | DiagonalUp | `7` | Specifies the diagonal border in a table cell. |
+
+### Examples
+
+Shows how to insert a paragraph with a top border.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+Border topBorder = builder.ParagraphFormat.Borders[BorderType.Top];
+topBorder.Color = Color.Red;
+topBorder.LineWidth = 4.0d;
+topBorder.LineStyle = LineStyle.DashSmallGap;
+
+builder.Writeln("Text with a red top border.");
+
+doc.Save(ArtifactsDir + "Border.ParagraphTopBorder.docx");
+```
 
 ### See Also
 

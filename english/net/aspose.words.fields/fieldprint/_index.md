@@ -16,15 +16,42 @@ public class FieldPrint : Field
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [FieldPrint](fieldprint)() | The default constructor. |
 | [PostScriptGroup](postscriptgroup) { get; set; } | Gets or sets the drawing rectangle that the PostScript instructions operate on. |
 | [PrinterInstructions](printerinstructions) { get; set; } | Gets or sets the printer-specific control code characters or PostScript instructions. |
 
-## Remarks
+### Remarks
 
 An instruction to send the printer-specific control code characters to the selected printer when the document is printed.
+
+### Examples
+
+Shows to insert a PRINT field.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+builder.Write("My paragraph");
+
+// The PRINT field can send instructions to the printer.
+FieldPrint field = (FieldPrint)builder.InsertField(FieldType.FieldPrint, true);
+
+// Set the area for the printer to perform instructions over.
+// In this case, it will be the paragraph that contains our PRINT field.
+field.PostScriptGroup = "para";
+
+// When we use a printer that supports PostScript to print our document,
+// this command will turn the entire area that we specified in "field.PostScriptGroup" white.
+field.PrinterInstructions = "erasepage";
+
+Assert.AreEqual(" PRINT  erasepage \\p para", field.GetFieldCode());
+
+doc.UpdateFields();
+doc.Save(ArtifactsDir + "Field.PRINT.docx");
+```
 
 ### See Also
 

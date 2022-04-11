@@ -16,7 +16,7 @@ public enum HorizontalRuleAlignment
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | Left | `0` | Aligned to the left. |
 | Center | `1` | Aligned to the center. |

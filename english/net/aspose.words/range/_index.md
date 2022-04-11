@@ -16,12 +16,12 @@ public class Range
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Bookmarks](bookmarks) { get; } | Returns a [`Bookmarks`](./bookmarks) collection that represents all bookmarks in the range. |
 | [Fields](fields) { get; } | Returns a [`Fields`](./fields) collection that represents all fields in the range. |
 | [FormFields](formfields) { get; } | Returns a [`FormFields`](./formfields) collection that represents all form fields in the range. |
-| [StructuredDocumentTags](structureddocumenttags) { get; } | Returns a [`StructuredDocumentTags`](./structureddocumenttags) collection that represents all structured document tags in the range. |
+| [StructuredDocumentTags](structureddocumenttags) { get; } |  |
 | [Text](text) { get; } | Gets the text of the range. |
 | [Delete](delete)() | Deletes all characters of the range. |
 | [NormalizeFieldTypes](normalizefieldtypes)() | Changes field type values [`FieldType`](../../aspose.words.fields/fieldchar/fieldtype) of [`FieldStart`](../../aspose.words.fields/fieldstart), [`FieldSeparator`](../../aspose.words.fields/fieldseparator), [`FieldEnd`](../../aspose.words.fields/fieldend) in this range so that they correspond to the field types contained in the field codes. |
@@ -30,9 +30,22 @@ public class Range
 | [UnlinkFields](unlinkfields)() | Unlinks fields in this range. |
 | [UpdateFields](updatefields)() | Updates the values of document fields in this range. |
 
-## Remarks
+### Remarks
 
 The document is represented by a tree of nodes and the nodes provide operations to work with the tree, but some operations are easier to perform if the document is treated as a contiguous sequence of text.Range is a "facade" interface that provide methods that treat the document or portions of the document as "flat" text regardless of the fact that the document nodes are stored in a tree-like object model.Range does not contain any text or nodes, it is merely a view or "window" over a fragment of a document.
+
+### Examples
+
+Shows how to get the text contents of all the nodes that a range covers.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+builder.Write("Hello world!");
+
+Assert.AreEqual("Hello world!", doc.Range.Text.Trim());
+```
 
 ### See Also
 

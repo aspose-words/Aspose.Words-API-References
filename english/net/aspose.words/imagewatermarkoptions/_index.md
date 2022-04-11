@@ -16,7 +16,7 @@ public class ImageWatermarkOptions
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [ImageWatermarkOptions](imagewatermarkoptions)() | The default constructor. |
 | [IsWashout](iswashout) { get; set; } | Gets or sets a boolean value which is responsible for washout effect of the watermark. The default value is True. |

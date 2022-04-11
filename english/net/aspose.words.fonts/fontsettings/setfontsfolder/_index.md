@@ -14,10 +14,66 @@ Sets the folder where Aspose.Words looks for TrueType fonts when rendering docum
 public void SetFontsFolder(string fontFolder, bool recursive)
 ```
 
-| parameter | description |
-| --- | --- |
-| fontFolder | The folder that contains TrueType fonts. |
-| recursive | True to scan the specified folders for fonts recursively. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| fontFolder | String | The folder that contains TrueType fonts. |
+| recursive | Boolean | True to scan the specified folders for fonts recursively. |
+
+### Examples
+
+Shows how to set a font source directory.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+builder.Font.Name = "Arvo";
+builder.Writeln("Hello world!");
+builder.Font.Name = "Amethysta";
+builder.Writeln("The quick brown fox jumps over the lazy dog.");
+
+// Our font sources do not contain the font that we have used for text in this document.
+// If we use these font settings while rendering this document,
+// Aspose.Words will apply a fallback font to text which has a font that Aspose.Words cannot locate.
+FontSourceBase[] originalFontSources = FontSettings.DefaultInstance.GetFontsSources();
+
+Assert.AreEqual(1, originalFontSources.Length);
+Assert.True(originalFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Arial"));
+
+// The default font sources are missing the two fonts that we are using in this document.
+Assert.False(originalFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Arvo"));
+Assert.False(originalFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Amethysta"));
+
+// Use the "SetFontsFolder" method to set a directory which will act as a new font source.
+// Pass "false" as the "recursive" argument to include fonts from all the font files that are in the directory
+// that we are passing in the first argument, but not include any fonts in any of that directory's subfolders.
+// Pass "true" as the "recursive" argument to include all font files in the directory that we are passing
+// in the first argument, as well as all the fonts in its subdirectories.
+FontSettings.DefaultInstance.SetFontsFolder(FontsDir, recursive);
+
+FontSourceBase[] newFontSources = FontSettings.DefaultInstance.GetFontsSources();
+
+Assert.AreEqual(1, newFontSources.Length);
+Assert.False(newFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Arial"));
+Assert.True(newFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Arvo"));
+
+// The "Amethysta" font is in a subfolder of the font directory.
+if (recursive)
+{
+    Assert.AreEqual(25, newFontSources[0].GetAvailableFonts().Count);
+    Assert.True(newFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Amethysta"));
+}
+else
+{
+    Assert.AreEqual(18, newFontSources[0].GetAvailableFonts().Count);
+    Assert.False(newFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Amethysta"));
+}
+
+doc.Save(ArtifactsDir + "FontSettings.SetFontsFolder.pdf");
+
+// Restore the original font sources.
+FontSettings.DefaultInstance.SetFontsSources(originalFontSources);
+```
 
 ### See Also
 

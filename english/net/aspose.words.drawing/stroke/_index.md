@@ -16,7 +16,7 @@ public class Stroke
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [BackColor](backcolor) { get; set; } | Gets or sets the background color of the stroke. |
 | [Color](color) { get; set; } | Defines the color of a stroke. |
@@ -39,9 +39,38 @@ public class Stroke
 | [Visible](visible) { get; set; } | Gets or sets a flag indicating whether the stroke is visible. |
 | [Weight](weight) { get; set; } | Defines the brush thickness that strokes the path of a shape in points. |
 
-## Remarks
+### Remarks
 
 Use the [`Stroke`](../shape/stroke) property to access stroke properties of a shape. You do not create instances of the [`Stroke`](../stroke) class directly.
+
+### Examples
+
+Shows how change stroke properties.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+Shape shape = builder.InsertShape(ShapeType.Rectangle, RelativeHorizontalPosition.LeftMargin, 100,
+    RelativeVerticalPosition.TopMargin, 100, 200, 200, WrapType.None);
+
+// Basic shapes, such as the rectangle, have two visible parts.
+// 1 -  The fill, which applies to the area within the outline of the shape:
+shape.Fill.ForeColor = Color.White;
+
+// 2 -  The stroke, which marks the outline of the shape:
+// Modify various properties of this shape's stroke.
+Stroke stroke = shape.Stroke;
+stroke.On = true;
+stroke.Weight = 5;
+stroke.Color = Color.Red;
+stroke.DashStyle = DashStyle.ShortDashDotDot;
+stroke.JoinStyle = JoinStyle.Miter;
+stroke.EndCap = EndCap.Square;
+stroke.LineStyle = ShapeLineStyle.Triple;
+
+doc.Save(ArtifactsDir + "Shape.Stroke.docx");
+```
 
 ### See Also
 

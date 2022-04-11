@@ -16,16 +16,31 @@ public class SubDocument : Node
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | override [NodeType](nodetype) { get; } | Returns NodeType.SubDocument |
 | override [Accept](accept)(…) | Accepts a visitor. |
 
-## Remarks
+### Remarks
 
 In this version of Aspose.Words, [`SubDocument`](../subdocument) nodes do not provide public methods and properties to create or modify a subdocument. In this version you are not able to instantiate SubDocument nodes or modify existing except deleting them.
 
 [`SubDocument`](../subdocument) can only be a child of [`Paragraph`](../paragraph).
+
+### Examples
+
+Shows how to access a master document's subdocument.
+
+```csharp
+Document doc = new Document(MyDir + "Master document.docx");
+
+NodeCollection subDocuments = doc.GetChildNodes(NodeType.SubDocument, true);
+
+// This node serves as a reference to an external document, and its contents cannot be accessed.
+SubDocument subDocument = (SubDocument)subDocuments[0];
+
+Assert.False(subDocument.IsComposite);
+```
 
 ### See Also
 

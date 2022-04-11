@@ -16,7 +16,7 @@ public class GradientStop
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [GradientStop](gradientstop)(…) | Initializes a new instance of the [`GradientStop`](../gradientstop) class. (2 constructors) |
 | [Color](color) { get; set; } | Gets or sets a value representing the color of the gradient stop. |

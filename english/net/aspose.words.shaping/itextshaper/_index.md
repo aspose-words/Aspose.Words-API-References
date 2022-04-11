@@ -14,7 +14,7 @@ public interface ITextShaper : IDisposable
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [ShapeText](shapetext)(…) |  |
 

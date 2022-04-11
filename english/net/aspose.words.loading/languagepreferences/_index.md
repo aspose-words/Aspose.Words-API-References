@@ -16,16 +16,32 @@ public class LanguagePreferences
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [LanguagePreferences](languagepreferences)() | The default constructor. |
 | [DefaultEditingLanguage](defaulteditinglanguage) { get; set; } | Gets or sets default editing language. |
 | [AddEditingLanguage](addeditinglanguage)(…) | Adds additional editing language. |
 | [AddEditingLanguages](addeditinglanguages)(…) | Adds additional editing languages. |
 
-## Remarks
+### Remarks
 
 Implements 'Set the Office Language Preferences' dialog in Word.
+
+### Examples
+
+Shows how to apply language preferences when loading a document.
+
+```csharp
+LoadOptions loadOptions = new LoadOptions();
+loadOptions.LanguagePreferences.AddEditingLanguage(EditingLanguage.Japanese);
+
+Document doc = new Document(MyDir + "No default editing language.docx", loadOptions);
+
+int localeIdFarEast = doc.Styles.DefaultFont.LocaleIdFarEast;
+Console.WriteLine(localeIdFarEast == (int)EditingLanguage.Japanese
+    ? "The document either has no any FarEast language set in defaults or it was set to Japanese originally."
+    : "The document default FarEast language was set to another than Japanese language originally, so it is not overridden.");
+```
 
 ### See Also
 

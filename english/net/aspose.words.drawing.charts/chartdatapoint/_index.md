@@ -16,7 +16,7 @@ public class ChartDataPoint : IChartDataPoint
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Bubble3D](bubble3d) { get; set; } |  |
 | [Explosion](explosion) { get; set; } |  |
@@ -26,9 +26,69 @@ public class ChartDataPoint : IChartDataPoint
 | [Marker](marker) { get; } |  |
 | [ClearFormat](clearformat)() | Clears format of this data point. The properties are set to the default values defined in the parent series. |
 
-## Remarks
+### Remarks
 
 On a series, the [`ChartDataPoint`](../chartdatapoint) object is a member of the [`ChartDataPointCollection`](../chartdatapointcollection). The [`ChartDataPointCollection`](../chartdatapointcollection) contains a [`ChartDataPoint`](../chartdatapoint) object for each point.
+
+### Examples
+
+Shows how to work with data points on a line chart.
+
+```csharp
+[Test]
+public void ChartDataPoint()
+{
+    Document doc = new Document();
+    DocumentBuilder builder = new DocumentBuilder(doc);
+
+    Shape shape = builder.InsertChart(ChartType.Line, 500, 350);
+    Chart chart = shape.Chart;
+
+    Assert.AreEqual(3, chart.Series.Count);
+    Assert.AreEqual("Series 1", chart.Series[0].Name);
+    Assert.AreEqual("Series 2", chart.Series[1].Name);
+    Assert.AreEqual("Series 3", chart.Series[2].Name);
+
+    // Emphasize the chart's data points by making them appear as diamond shapes.
+    foreach (ChartSeries series in chart.Series) 
+        ApplyDataPoints(series, 4, MarkerSymbol.Diamond, 15);
+
+    // Smooth out the line that represents the first data series.
+    chart.Series[0].Smooth = true;
+
+    // Verify that data points for the first series will not invert their colors if the value is negative.
+    using (IEnumerator<ChartDataPoint> enumerator = chart.Series[0].DataPoints.GetEnumerator())
+    {
+        while (enumerator.MoveNext())
+        {
+            Assert.False(enumerator.Current.InvertIfNegative);
+        }
+    }
+
+    // For a cleaner looking graph, we can clear format individually.
+    chart.Series[1].DataPoints[2].ClearFormat();
+
+    // We can also strip an entire series of data points at once.
+    chart.Series[2].DataPoints.ClearFormat();
+
+    doc.Save(ArtifactsDir + "Charts.ChartDataPoint.docx");
+}
+
+/// <summary>
+/// Applies a number of data points to a series.
+/// </summary>
+private static void ApplyDataPoints(ChartSeries series, int dataPointsCount, MarkerSymbol markerSymbol, int dataPointSize)
+{
+    for (int i = 0; i < dataPointsCount; i++)
+    {
+        ChartDataPoint point = series.DataPoints[i];
+        point.Marker.Symbol = markerSymbol;
+        point.Marker.Size = dataPointSize;
+
+        Assert.AreEqual(i, point.Index);
+    }
+}
+```
 
 ### See Also
 

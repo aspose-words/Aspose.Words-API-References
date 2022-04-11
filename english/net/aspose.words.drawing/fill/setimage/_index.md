@@ -14,9 +14,9 @@ Changes the fill type to single image.
 public void SetImage(byte[] imageBytes)
 ```
 
-| parameter | description |
-| --- | --- |
-| imageBytes | The image bytes array. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| imageBytes | Byte[] | The image bytes array. |
 
 ### See Also
 
@@ -34,9 +34,9 @@ Changes the fill type to single image.
 public void SetImage(Stream stream)
 ```
 
-| parameter | description |
-| --- | --- |
-| stream | The stream that contains the image bytes. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| stream | Stream | The stream that contains the image bytes. |
 
 ### See Also
 
@@ -54,9 +54,9 @@ Changes the fill type to single image.
 public void SetImage(string fileName)
 ```
 
-| parameter | description |
-| --- | --- |
-| fileName | The path to the image file. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| fileName | String | The path to the image file. |
 
 ### See Also
 

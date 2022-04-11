@@ -14,7 +14,7 @@ Gets or sets the file name (without path) where the resource will be saved to.
 public string ResourceFileName { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 This property allows you to redefine how the resource file names are generated during export to fixed page HTML or SVG.
 
@@ -25,6 +25,48 @@ Aspose.Words automatically generates a unique file name for every resource when 
 `ResourceFileName` must contain only the file name without the path. Aspose.Words determines the path for saving and the value of the `src` attribute for writing to fixed page HTML or SVG using the document file name, the [`ResourcesFolder`](../../htmlfixedsaveoptions/resourcesfolder) or [`ResourcesFolder`](../../svgsaveoptions/resourcesfolder) and [`ResourcesFolderAlias`](../../htmlfixedsaveoptions/resourcesfolderalias) or [`ResourcesFolderAlias`](../../svgsaveoptions/resourcesfolderalias) properties.
 
 [`ResourcesFolder`](../../htmlfixedsaveoptions/resourcesfolder)[`ResourcesFolder`](../../svgsaveoptions/resourcesfolder)[`ResourcesFolderAlias`](../../htmlfixedsaveoptions/resourcesfolderalias)[`ResourcesFolderAlias`](../../svgsaveoptions/resourcesfolderalias)
+
+### Examples
+
+Shows how to use a callback to track external resources created while converting a document to HTML.
+
+```csharp
+public void ResourceSavingCallback()
+{
+    Document doc = new Document(MyDir + "Bullet points with alternative font.docx");
+
+    FontSavingCallback callback = new FontSavingCallback();
+
+    HtmlFixedSaveOptions saveOptions = new HtmlFixedSaveOptions
+    {
+        ResourceSavingCallback = callback
+    };
+
+    doc.Save(ArtifactsDir + "HtmlFixedSaveOptions.UsingMachineFonts.html", saveOptions);
+
+    Console.WriteLine(callback.GetText());
+}
+
+private class FontSavingCallback : IResourceSavingCallback
+{
+    /// <summary>
+    /// Called when Aspose.Words saves an external resource to fixed page HTML or SVG.
+    /// </summary>
+    public void ResourceSaving(ResourceSavingArgs args)
+    {
+        mText.AppendLine($"Original document URI:\t{args.Document.OriginalFileName}");
+        mText.AppendLine($"Resource being saved:\t{args.ResourceFileName}");
+        mText.AppendLine($"Full uri after saving:\t{args.ResourceFileUri}\n");
+    }
+
+    public string GetText()
+    {
+        return mText.ToString();
+    }
+
+    private readonly StringBuilder mText = new StringBuilder();
+}
+```
 
 ### See Also
 

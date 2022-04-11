@@ -16,7 +16,7 @@ public class OdsoFieldMapData
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [OdsoFieldMapData](odsofieldmapdata)() | The default constructor. |
 | [Column](column) { get; set; } | Specifies the zero-based index of the column within an external data source which shall be mapped to the local name of a specific MERGEFIELD field. The default value is 0. |
@@ -25,9 +25,49 @@ public class OdsoFieldMapData
 | [Type](type) { get; set; } | Specifies if a given mail merge field has been mapped to a column in the given external data source or not. The default value is Default. |
 | [Clone](clone)() | Returns a deep clone of this object. |
 
-## Remarks
+### Remarks
 
 Microsoft Word provides some predefined merge field names that it allows to insert into a document as MERGEFIELD or use in the ADDRESSBLOCK or GREETINGLINE fields. The information specified in [`OdsoFieldMapData`](../odsofieldmapdata) allows to map one column in the external data source to a single predefined merge field.
+
+### Examples
+
+Shows how to access the collection of data that maps data source columns to merge fields.
+
+```csharp
+Document doc = new Document(MyDir + "Odso data.docx");
+
+// This collection defines how a mail merge will map columns from a data source
+// to predefined MERGEFIELD, ADDRESSBLOCK and GREETINGLINE fields.
+OdsoFieldMapDataCollection dataCollection = doc.MailMergeSettings.Odso.FieldMapDatas;
+Assert.AreEqual(30, dataCollection.Count);
+
+using (IEnumerator<OdsoFieldMapData> enumerator = dataCollection.GetEnumerator())
+{
+    int index = 0;
+    while (enumerator.MoveNext())
+    {
+        Console.WriteLine($"Field map data index {index++}, type \"{enumerator.Current.Type}\":");
+
+        Console.WriteLine(
+            enumerator.Current.Type != OdsoFieldMappingType.Null
+                ? $"\tColumn \"{enumerator.Current.Name}\", number {enumerator.Current.Column} mapped to merge field \"{enumerator.Current.MappedName}\"."
+                : "\tNo valid column to field mapping data present.");
+    }
+}
+
+// Clone the elements in this collection.
+Assert.AreNotEqual(dataCollection[0], dataCollection[0].Clone());
+
+// Use the "RemoveAt" method elements individually by index.
+dataCollection.RemoveAt(0);
+
+Assert.AreEqual(29, dataCollection.Count);
+
+// Use the "Clear" method to clear the entire collection at once.
+dataCollection.Clear();
+
+Assert.AreEqual(0, dataCollection.Count);
+```
 
 ### See Also
 

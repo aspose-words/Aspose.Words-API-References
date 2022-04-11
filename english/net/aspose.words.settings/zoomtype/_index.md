@@ -16,7 +16,7 @@ public enum ZoomType
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | Custom | `0` | Zoom percentage is set explicitly. It is not recalculated automatically when control size changes. |
 | None | `0` | Indicates to use the explicit zoom percentage. Same as Custom. |

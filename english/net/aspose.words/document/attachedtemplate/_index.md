@@ -14,15 +14,36 @@ Gets or sets the full path of the template attached to the document.
 public string AttachedTemplate { get; set; }
 ```
 
-## Exceptions
+### Exceptions
 
 | exception | condition |
 | --- | --- |
 | ArgumentNullException | Throws if you attempt to set to a null value. |
 
-## Remarks
+### Remarks
 
 Empty string means the document is attached to the Normal template.
+
+### Examples
+
+Shows how to set a default template for documents that do not have attached templates.
+
+```csharp
+Document doc = new Document();
+
+// Enable automatic style updating, but do not attach a template document.
+doc.AutomaticallyUpdateStyles = true;
+
+Assert.AreEqual(string.Empty, doc.AttachedTemplate);
+
+// Since there is no template document, the document had nowhere to track style changes.
+// Use a SaveOptions object to automatically set a template
+// if a document that we are saving does not have one.
+SaveOptions options = SaveOptions.CreateSaveOptions("Document.DefaultTemplate.docx");
+options.DefaultTemplate = MyDir + "Business brochure.dotx";
+
+doc.Save(ArtifactsDir + "Document.DefaultTemplate.docx", options);
+```
 
 ### See Also
 

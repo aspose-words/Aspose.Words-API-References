@@ -8,15 +8,9 @@ url: /net/aspose.words.markup/structureddocumenttagcollection/remove/
 ---
 ## StructuredDocumentTagCollection.Remove method
 
-Removes the structured document tag with the specified identifier.
-
 ```csharp
 public void Remove(int id)
 ```
-
-| parameter | description |
-| --- | --- |
-| id | The structured document tag identifier. |
 
 ### See Also
 

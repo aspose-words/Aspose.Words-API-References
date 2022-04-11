@@ -16,11 +16,11 @@ public class HtmlLoadOptions : LoadOptions
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [HtmlLoadOptions](htmlloadoptions)() | Initializes a new instance of this class with default values. |
 | [HtmlLoadOptions](htmlloadoptions)(…) | A shortcut to initialize a new instance of this class with the specified password to load an encrypted document. (2 constructors) |
-| [BlockImportMode](blockimportmode) { get; set; } | Gets or sets a value that specifies how properties of block-level elements are imported. Default value is Merge. |
+| [BlockImportMode](blockimportmode) { get; set; } |  |
 | [ConvertSvgToEmf](convertsvgtoemf) { get; set; } | Gets or sets a value indicating whether to convert loaded SVG images to the EMF format. Default value is `false` and, if possible, loaded SVG images are stored as is without conversion. |
 | [IgnoreNoscriptElements](ignorenoscriptelements) { get; set; } | Gets or sets a value indicating whether to ignore &lt;noscript&gt; HTML elements. Default value is `false`. |
 | [PreferredControlType](preferredcontroltype) { get; set; } | Gets or sets preferred type of document nodes that will represent imported &lt;input&gt; and &lt;select&gt; elements. Default value is FormField. |

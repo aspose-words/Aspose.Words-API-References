@@ -16,13 +16,29 @@ public class PclSaveOptions : FixedPageSaveOptions
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [PclSaveOptions](pclsaveoptions)() | The default constructor. |
 | [FallbackFontName](fallbackfontname) { get; set; } | Name of the font that will be used if no expected font is found in printer and built-in fonts collections. |
 | [RasterizeTransformedElements](rasterizetransformedelements) { get; set; } | Gets or sets a value determining whether or not complex transformed elements should be rasterized before saving to PCL document. Default is `true`. |
 | override [SaveFormat](saveformat) { get; set; } | Specifies the format in which the document will be saved if this save options object is used. Can only be Pcl. |
 | [AddPrinterFont](addprinterfont)(…) | Adds information about font that is uploaded to the printer by manufacturer. |
+
+### Examples
+
+Shows how to rasterize complex elements while saving a document to PCL.
+
+```csharp
+Document doc = new Document(MyDir + "Rendering.docx");
+
+PclSaveOptions saveOptions = new PclSaveOptions
+{
+    SaveFormat = SaveFormat.Pcl,
+    RasterizeTransformedElements = true
+};
+
+doc.Save(ArtifactsDir + "PclSaveOptions.RasterizeElements.pcl", saveOptions);
+```
 
 ### See Also
 

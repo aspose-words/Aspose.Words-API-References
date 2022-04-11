@@ -16,7 +16,7 @@ public class WebExtensionBinding
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [WebExtensionBinding](webextensionbinding)(…) | Creates web extension binding with specified parameters. |
 | [AppRef](appref) { get; set; } | Specifies the binding key used to map the binding entry in this list with the bound data in the document. |

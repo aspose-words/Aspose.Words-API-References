@@ -14,9 +14,22 @@ Gets the text of the range.
 public string Text { get; }
 ```
 
-## Remarks
+### Remarks
 
 The returned string includes all control and special characters as described in [`ControlChar`](../../controlchar).
+
+### Examples
+
+Shows how to get the text contents of all the nodes that a range covers.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+builder.Write("Hello world!");
+
+Assert.AreEqual("Hello world!", doc.Range.Text.Trim());
+```
 
 ### See Also
 

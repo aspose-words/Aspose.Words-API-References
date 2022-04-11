@@ -14,9 +14,9 @@ Creates a new data source with data from a CSV stream using default options for 
 public CsvDataSource(Stream csvStream)
 ```
 
-| parameter | description |
-| --- | --- |
-| csvStream | The stream of CSV data to be used as the data source. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| csvStream | Stream | The stream of CSV data to be used as the data source. |
 
 ### See Also
 
@@ -34,9 +34,9 @@ Creates a new data source with data from a CSV file using default options for pa
 public CsvDataSource(string csvPath)
 ```
 
-| parameter | description |
-| --- | --- |
-| csvPath | The path to the CSV file to be used as the data source. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| csvPath | String | The path to the CSV file to be used as the data source. |
 
 ### See Also
 
@@ -54,10 +54,10 @@ Creates a new data source with data from a CSV stream using the specified option
 public CsvDataSource(Stream csvStream, CsvDataLoadOptions options)
 ```
 
-| parameter | description |
-| --- | --- |
-| csvStream | The stream of CSV data to be used as the data source. |
-| options | Options for parsing the CSV data. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| csvStream | Stream | The stream of CSV data to be used as the data source. |
+| options | CsvDataLoadOptions | Options for parsing the CSV data. |
 
 ### See Also
 
@@ -76,10 +76,10 @@ Creates a new data source with data from a CSV file using the specified options 
 public CsvDataSource(string csvPath, CsvDataLoadOptions options)
 ```
 
-| parameter | description |
-| --- | --- |
-| csvPath | The path to the CSV file to be used as the data source. |
-| options | Options for parsing the CSV data. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| csvPath | String | The path to the CSV file to be used as the data source. |
+| options | CsvDataLoadOptions | Options for parsing the CSV data. |
 
 ### See Also
 

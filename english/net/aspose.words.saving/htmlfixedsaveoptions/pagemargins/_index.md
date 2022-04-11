@@ -14,13 +14,33 @@ Specifies the margins around pages in an HTML document. The margins value is mea
 public double PageMargins { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 Depends on the value of [`PageHorizontalAlignment`](../pagehorizontalalignment) property:
 
 * Defines top, bottom and left page margins if the value is Left.
 * Defines top, bottom and right page margins if the value is Right.
 * Defines top and bottom page margins if the value is Center.
+
+### Examples
+
+Shows how to adjust page margins when saving a document to HTML.
+
+```csharp
+Document doc = new Document(MyDir + "Document.docx");
+
+HtmlFixedSaveOptions saveOptions = new HtmlFixedSaveOptions
+{
+    PageMargins = 15
+};
+
+doc.Save(ArtifactsDir + "HtmlFixedSaveOptions.PageMargins.html", saveOptions);
+
+string outDocContents = File.ReadAllText(ArtifactsDir + "HtmlFixedSaveOptions.PageMargins/styles.css");
+
+Assert.True(Regex.Match(outDocContents,
+    "[.]awpage { position:relative; border:solid 1pt black; margin:15pt auto 15pt auto; overflow:hidden; }").Success);
+```
 
 ### See Also
 

@@ -14,12 +14,6 @@ Thrown during document load, when the plugin required for reading the document f
 public class DocumentReaderPluginLoadException : Exception
 ```
 
-## Protected Members
-
-| name | description |
-| --- | --- |
-| [DocumentReaderPluginLoadException](documentreaderpluginloadexception)(…) |  |
-
 ### See Also
 
 * namespace [Aspose.Words](../../aspose.words)

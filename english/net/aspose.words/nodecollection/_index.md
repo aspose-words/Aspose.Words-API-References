@@ -16,7 +16,7 @@ public class NodeCollection : IEnumerable<Node>
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Count](count) { get; } | Gets the number of nodes in the collection. |
 | [Item](item) { get; } | Retrieves a node at the given index. |
@@ -30,9 +30,51 @@ public class NodeCollection : IEnumerable<Node>
 | [RemoveAt](removeat)(…) | Removes the node at the specified index from the collection and from the document. |
 | [ToArray](toarray)() | Copies all nodes from the collection to a new array of nodes. |
 
-## Remarks
+### Remarks
 
 NodeCollection does not own the nodes it contains, rather, is just a selection of nodes of the specified type, but the nodes are stored in the tree under their respective parent nodes.NodeCollection supports indexed access, iteration and provides add and remove methods.The NodeCollection collection is "live", i.e. changes to the children of the node object that it was created from are immediately reflected in the nodes returned by the NodeCollection properties and methods.NodeCollection is returned by [`GetChildNodes`](../compositenode/getchildnodes) and also serves as a base class for typed node collections such as [`SectionCollection`](../sectioncollection), [`ParagraphCollection`](../paragraphcollection) etc.NodeCollection can be "flat" and contain only immediate children of the node it was created from, or it can be "deep" and contain all descendant children.
+
+### Examples
+
+Shows how to replace all textbox shapes with image shapes.
+
+```csharp
+Document doc = new Document(MyDir + "Textboxes in drawing canvas.docx");
+
+Shape[] shapes = doc.GetChildNodes(NodeType.Shape, true).OfType<Shape>().ToArray();
+
+Assert.AreEqual(3, shapes.Count(s => s.ShapeType == ShapeType.TextBox));
+Assert.AreEqual(1, shapes.Count(s => s.ShapeType == ShapeType.Image));
+
+foreach (Shape shape in shapes)
+{
+    if (shape.ShapeType == ShapeType.TextBox)
+    {
+        Shape replacementShape = new Shape(doc, ShapeType.Image);
+        replacementShape.ImageData.SetImage(ImageDir + "Logo.jpg");
+        replacementShape.Left = shape.Left;
+        replacementShape.Top = shape.Top;
+        replacementShape.Width = shape.Width;
+        replacementShape.Height = shape.Height;
+        replacementShape.RelativeHorizontalPosition = shape.RelativeHorizontalPosition;
+        replacementShape.RelativeVerticalPosition = shape.RelativeVerticalPosition;
+        replacementShape.HorizontalAlignment = shape.HorizontalAlignment;
+        replacementShape.VerticalAlignment = shape.VerticalAlignment;
+        replacementShape.WrapType = shape.WrapType;
+        replacementShape.WrapSide = shape.WrapSide;
+
+        shape.ParentNode.InsertAfter(replacementShape, shape);
+        shape.Remove();
+    }
+}
+
+shapes = doc.GetChildNodes(NodeType.Shape, true).OfType<Shape>().ToArray();
+
+Assert.AreEqual(0, shapes.Count(s => s.ShapeType == ShapeType.TextBox));
+Assert.AreEqual(4, shapes.Count(s => s.ShapeType == ShapeType.Image));
+
+doc.Save(ArtifactsDir + "Shape.ReplaceTextboxesWithImages.docx");
+```
 
 ### See Also
 

@@ -14,7 +14,7 @@ public class Glyph
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Glyph](glyph)(…) |  |
 | [Advance](advance) { get; set; } |  |

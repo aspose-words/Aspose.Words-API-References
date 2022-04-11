@@ -16,7 +16,7 @@ public enum PresetTexture
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | None | `-1` | No Texture. |
 | BlueTissuePaper | `1` | Blue tissue paper texture. |

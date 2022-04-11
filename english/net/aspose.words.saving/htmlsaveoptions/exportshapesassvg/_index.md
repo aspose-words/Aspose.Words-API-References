@@ -14,7 +14,7 @@ Controls whether [`Shape`](../../../aspose.words.drawing/shape) nodes are conver
 public bool ExportShapesAsSvg { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 If this option is set to `true`, [`Shape`](../../../aspose.words.drawing/shape) nodes are exported as &lt;svg&gt; elements. Otherwise, they are rendered to bitmaps and are exported as &lt;img&gt; elements.
 

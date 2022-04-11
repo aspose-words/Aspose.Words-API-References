@@ -14,7 +14,7 @@ public enum Forms2OleControlType
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | OptionButton | `0` |  |
 | Label | `1` |  |

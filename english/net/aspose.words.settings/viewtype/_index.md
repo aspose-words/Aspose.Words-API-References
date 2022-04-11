@@ -16,7 +16,7 @@ public enum ViewType
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | None | `0` | The document shall be rendered in the default view of the application. |
 | Reading | `0` | The document shall be rendered in the default view of the application. |
@@ -24,6 +24,24 @@ public enum ViewType
 | Outline | `3` | The document shall be rendered in a view optimized for outlining or creating long documents. |
 | Normal | `4` | The document shall be rendered in a view optimized for outlining or creating long documents. |
 | Web | `5` | The document shall be rendered in a view mimicking the way this document would be displayed in a web page. |
+
+### Examples
+
+Shows how to set a custom zoom factor, which older versions of Microsoft Word will apply to a document upon loading.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+builder.Writeln("Hello world!");
+
+doc.ViewOptions.ViewType = ViewType.PageLayout;
+doc.ViewOptions.ZoomPercent = 50;
+
+Assert.AreEqual(ZoomType.Custom, doc.ViewOptions.ZoomType);
+Assert.AreEqual(ZoomType.None, doc.ViewOptions.ZoomType);
+
+doc.Save(ArtifactsDir + "ViewOptions.SetZoomPercentage.doc");
+```
 
 ### See Also
 

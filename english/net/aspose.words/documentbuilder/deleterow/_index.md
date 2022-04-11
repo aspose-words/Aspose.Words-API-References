@@ -14,18 +14,47 @@ Deletes a row from a table.
 public Row DeleteRow(int tableIndex, int rowIndex)
 ```
 
-| parameter | description |
-| --- | --- |
-| tableIndex | The index of the table. |
-| rowIndex | The index of the row in the table. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| tableIndex | Int32 | The index of the table. |
+| rowIndex | Int32 | The index of the row in the table. |
 
 ## Return Value
 
 The row node that was just removed.
 
-## Remarks
+### Remarks
 
 If the cursor is inside the row that is being deleted, the cursor is moved out to the next row or to the next paragraph after the table.If you delete a row from a table that contains only one row, the whole table is deleted.For the index parameters, when index is greater than or equal to 0, it specifies an index from the beginning with 0 being the first element. When index is less than 0, it specified an index from the end with -1 being the last element.
+
+### Examples
+
+Shows how to delete a row from a table.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+Table table = builder.StartTable();
+builder.InsertCell();
+builder.Write("Row 1, cell 1.");
+builder.InsertCell();
+builder.Write("Row 1, cell 2.");
+builder.EndRow();
+builder.InsertCell();
+builder.Write("Row 2, cell 1.");
+builder.InsertCell();
+builder.Write("Row 2, cell 2.");
+builder.EndTable();
+
+Assert.AreEqual(2, table.Rows.Count);
+
+// Delete the first row of the first table in the document.
+builder.DeleteRow(0, 0);
+
+Assert.AreEqual(1, table.Rows.Count);
+Assert.AreEqual("Row 2, cell 1.\aRow 2, cell 2.\a\a", table.GetText().Trim());
+```
 
 ### See Also
 

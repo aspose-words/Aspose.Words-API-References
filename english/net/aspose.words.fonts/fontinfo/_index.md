@@ -16,7 +16,7 @@ public class FontInfo
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AltName](altname) { get; set; } | Gets or sets the alternate name for the font. |
 | [Charset](charset) { get; set; } | Gets or sets the character set for the font. |
@@ -28,9 +28,27 @@ public class FontInfo
 | [GetEmbeddedFont](getembeddedfont)(…) | Gets a specific embedded font file. |
 | [GetEmbeddedFontAsOpenType](getembeddedfontasopentype)(…) | Gets an embedded font file in OpenType format. Fonts in Embedded OpenType format are converted to OpenType. |
 
-## Remarks
+### Remarks
 
 You do not create instances of this class directly. Use the [`FontInfos`](../../aspose.words/documentbase/fontinfos) property to access the collection of fonts defined in a document.
+
+### Examples
+
+Shows how to print the details of what fonts are present in a document.
+
+```csharp
+Document doc = new Document(MyDir + "Embedded font.docx");
+
+FontInfoCollection allFonts = doc.FontInfos;
+
+// Print all the used and unused fonts in the document.
+for (int i = 0; i < allFonts.Count; i++)
+{
+    Console.WriteLine($"Font index #{i}");
+    Console.WriteLine($"\tName: {allFonts[i].Name}");
+    Console.WriteLine($"\tIs {(allFonts[i].IsTrueType ? "" : "not ")}a trueType font");
+}
+```
 
 ### See Also
 

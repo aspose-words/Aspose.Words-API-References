@@ -16,17 +16,61 @@ public static class DigitalSignatureUtil
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | static [LoadSignatures](loadsignatures)(…) | Loads digital signatures from document. (2 methods) |
 | static [RemoveAllSignatures](removeallsignatures)(…) | Removes all digital signatures from source file and writes unsigned file to destination file. (2 methods) |
 | static [Sign](sign)(…) | Signs source document using given [`CertificateHolder`](../certificateholder) and [`SignOptions`](../signoptions) with digital signature and writes signed document to destination stream. Document should be either Doc or Docx.Output will be written to the start of stream and stream size will be updated with content length. (4 methods) |
 
-## Remarks
+### Remarks
 
 Since digital signature works with file content rather than Document Object Model these methods are put into a separate class.
 
 Supported formats are Doc and Docx.
+
+### Examples
+
+Shows how to load signatures from a digitally signed document.
+
+```csharp
+// There are two ways of loading a signed document's collection of digital signatures using the DigitalSignatureUtil class.
+// 1 -  Load from a document from a local file system filename:
+DigitalSignatureCollection digitalSignatures = 
+    DigitalSignatureUtil.LoadSignatures(MyDir + "Digitally signed.docx");
+
+// If this collection is nonempty, then we can verify that the document is digitally signed.
+Assert.AreEqual(1, digitalSignatures.Count);
+
+// 2 -  Load from a document from a FileStream:
+using (Stream stream = new FileStream(MyDir + "Digitally signed.docx", FileMode.Open))
+{
+    digitalSignatures = DigitalSignatureUtil.LoadSignatures(stream);
+    Assert.AreEqual(1, digitalSignatures.Count);
+}
+```
+
+Shows how to remove digital signatures from a digitally signed document.
+
+```csharp
+// There are two ways of using the DigitalSignatureUtil class to remove digital signatures
+// from a signed document by saving an unsigned copy of it somewhere else in the local file system.
+// 1 - Determine the locations of both the signed document and the unsigned copy by filename strings:
+DigitalSignatureUtil.RemoveAllSignatures(MyDir + "Digitally signed.docx",
+    ArtifactsDir + "DigitalSignatureUtil.LoadAndRemove.FromString.docx");
+
+// 2 - Determine the locations of both the signed document and the unsigned copy by file streams:
+using (Stream streamIn = new FileStream(MyDir + "Digitally signed.docx", FileMode.Open))
+{
+    using (Stream streamOut = new FileStream(ArtifactsDir + "DigitalSignatureUtil.LoadAndRemove.FromStream.docx", FileMode.Create))
+    {
+        DigitalSignatureUtil.RemoveAllSignatures(streamIn, streamOut);
+    }
+}
+
+// Verify that both our output documents have no digital signatures.
+Assert.That(DigitalSignatureUtil.LoadSignatures(ArtifactsDir + "DigitalSignatureUtil.LoadAndRemove.FromString.docx"), Is.Empty);
+Assert.That(DigitalSignatureUtil.LoadSignatures(ArtifactsDir + "DigitalSignatureUtil.LoadAndRemove.FromStream.docx"), Is.Empty);
+```
 
 ### See Also
 

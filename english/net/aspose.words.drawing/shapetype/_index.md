@@ -16,7 +16,7 @@ public enum ShapeType
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | Image | `75` | The shape is an image. |
 | TextBox | `202` | The shape is a textbox. Note that shapes of many other types can also have text inside them too. A shape does not have to have this type to contain text. |
@@ -268,6 +268,60 @@ public enum ShapeType
 | ChartStar | `245` | Chart star. |
 | ChartX | `246` | Chart X. |
 | MinValue | `-2` | Reserved for the system use. |
+
+### Examples
+
+Shows how to insert a shape with an image from the local file system into a document.
+
+```csharp
+Document doc = new Document();
+
+// The "Shape" class's public constructor will create a shape with "ShapeMarkupLanguage.Vml" markup type.
+// If you need to create a shape of a non-primitive type, such as SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,
+// TopCornersOneRoundedOneSnipped, SingleCornerRounded, TopCornersRounded, or DiagonalCornersRounded,
+// please use DocumentBuilder.InsertShape.
+Shape shape = new Shape(doc, ShapeType.Image);
+shape.ImageData.SetImage(ImageDir + "Windows MetaFile.wmf");
+shape.Width = 100;
+shape.Height = 100;
+
+doc.FirstSection.Body.FirstParagraph.AppendChild(shape);
+
+doc.Save(ArtifactsDir + "Image.FromFile.docx");
+```
+
+Shows how Aspose.Words identify shapes.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+builder.InsertShape(ShapeType.Heptagon, RelativeHorizontalPosition.Page, 0,
+    RelativeVerticalPosition.Page, 0, 0, 0, WrapType.None);
+
+builder.InsertShape(ShapeType.Cloud, RelativeHorizontalPosition.RightMargin, 0,
+    RelativeVerticalPosition.Page, 0, 0, 0, WrapType.None);
+
+builder.InsertShape(ShapeType.MathPlus, RelativeHorizontalPosition.RightMargin, 0,
+    RelativeVerticalPosition.Page, 0, 0, 0, WrapType.None);
+
+// To correct identify shape types you need to work with shapes as DML.
+OoxmlSaveOptions saveOptions = new OoxmlSaveOptions(SaveFormat.Docx)
+{
+    // "Strict" or "Transitional" compliance allows to save shape as DML.
+    Compliance = OoxmlCompliance.Iso29500_2008_Transitional
+};
+
+doc.Save(ArtifactsDir + "Shape.ShapeTypes.docx", saveOptions);
+doc = new Document(ArtifactsDir + "Shape.ShapeTypes.docx");
+
+Shape[] shapes = doc.GetChildNodes(NodeType.Shape, true).OfType<Shape>().ToArray();
+
+foreach (Shape shape in shapes)
+{
+    Console.WriteLine(shape.ShapeType);
+}
+```
 
 ### See Also
 

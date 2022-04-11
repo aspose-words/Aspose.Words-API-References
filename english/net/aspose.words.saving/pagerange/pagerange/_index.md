@@ -14,14 +14,29 @@ Creates a new page range object.
 public PageRange(int from, int to)
 ```
 
-| parameter | description |
-| --- | --- |
-| from | The starting page zero-based index. |
-| to | The ending page zero-based index. If it exceeds the index of the last page in the document, it is truncated to fit in the document on rendering. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| from | Int32 | The starting page zero-based index. |
+| to | Int32 | The ending page zero-based index. If it exceeds the index of the last page in the document, it is truncated to fit in the document on rendering. |
 
-## Remarks
+### Remarks
 
 MaxValue means the last page in the document.
+
+### Examples
+
+Shows how to extract pages based on exact page ranges.
+
+```csharp
+Document doc = new Document(MyDir + "Images.docx");
+
+ImageSaveOptions imageOptions = new ImageSaveOptions(SaveFormat.Tiff);
+PageSet pageSet = new PageSet(new PageRange(1, 1), new PageRange(2, 3), new PageRange(1, 3),
+    new PageRange(2, 4), new PageRange(1, 1));
+
+imageOptions.PageSet = pageSet;
+doc.Save(ArtifactsDir + "ImageSaveOptions.ExportVariousPageRanges.tiff", imageOptions);
+```
 
 ### See Also
 

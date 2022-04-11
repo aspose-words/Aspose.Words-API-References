@@ -16,7 +16,7 @@ public enum FieldIndexFormat
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | Template | `0` | From template. |
 | Classic | `1` | Classic. |

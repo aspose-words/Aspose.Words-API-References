@@ -16,7 +16,7 @@ public enum SaveFormat
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | Unknown | `0` | Default, invalid value for file format. |
 | Doc | `10` | Saves the document in the Microsoft Word 97 - 2007 Document format. |
@@ -54,6 +54,16 @@ public enum SaveFormat
 | Emf | `103` | Renders a page of the document and saves it as a vector EMF (Enhanced Meta File) file. |
 | Jpeg | `104` | Renders a page of the document and saves it as a JPEG file. |
 | Gif | `105` | Renders a page of the document and saves it as a GIF file. |
+
+### Examples
+
+Shows how to convert from DOCX to HTML format.
+
+```csharp
+Document doc = new Document(MyDir + "Document.docx");
+
+doc.Save(ArtifactsDir + "Document.ConvertToHtml.html", SaveFormat.Html);
+```
 
 ### See Also
 

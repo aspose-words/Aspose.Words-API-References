@@ -18,9 +18,28 @@ public OfficeMathRenderer GetMathRenderer()
 
 The renderer object for this equation.
 
-## Remarks
+### Remarks
 
 This method just invokes the [`OfficeMathRenderer`](../../../aspose.words.rendering/officemathrenderer) constructor and passes this object as a parameter.
+
+### Examples
+
+Shows how to render an Office Math object into an image file in the local file system.
+
+```csharp
+Document doc = new Document(MyDir + "Office math.docx");
+
+OfficeMath math = (OfficeMath)doc.GetChild(NodeType.OfficeMath, 0, true);
+
+// Create an "ImageSaveOptions" object to pass to the node renderer's "Save" method to modify
+// how it renders the OfficeMath node into an image.
+ImageSaveOptions saveOptions = new ImageSaveOptions(SaveFormat.Png);
+
+// Set the "Scale" property to 5 to render the object to five times its original size.
+saveOptions.Scale = 5;
+
+math.GetMathRenderer().Save(ArtifactsDir + "Shape.RenderOfficeMath.png", saveOptions);
+```
 
 ### See Also
 

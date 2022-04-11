@@ -16,7 +16,7 @@ public enum StyleIdentifier
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | BookTitle | `264` |  |
 | CommentReference | `39` | The Annotation (Comment) Reference style. |
@@ -397,9 +397,40 @@ public enum StyleIdentifier
 | User | `4094` | A user defined style. |
 | Nil | `12287` | Reserved for internal use. |
 
-## Remarks
+### Remarks
 
 The names of built-in styles in MS Word are localized for different languages. Using a style identifier you can find the correct style regardless of the document language.All user defined styles are assigned the StyleIdentifier.User value.
+
+### Examples
+
+Shows how to change the style of existing text.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+// Below are two ways of referencing styles.
+// 1 -  Using the style name:
+builder.Font.StyleName = "Emphasis";
+builder.Writeln("Text originally in \"Emphasis\" style");
+
+// 2 -  Using a built-in style identifier:
+builder.Font.StyleIdentifier = StyleIdentifier.IntenseEmphasis;
+builder.Writeln("Text originally in \"Intense Emphasis\" style");
+
+// Convert all uses of one style to another,
+// using the above methods to reference old and new styles.
+foreach (Run run in doc.GetChildNodes(NodeType.Run, true).OfType<Run>())
+{
+    if (run.Font.StyleName == "Emphasis")
+        run.Font.StyleName = "Strong";
+
+    if (run.Font.StyleIdentifier == StyleIdentifier.IntenseEmphasis)
+        run.Font.StyleIdentifier = StyleIdentifier.Strong;
+}
+
+doc.Save(ArtifactsDir + "Font.ChangeStyle.docx");
+```
 
 ### See Also
 

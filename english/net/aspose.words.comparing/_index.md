@@ -1,5 +1,5 @@
 ---
-title: Aspose.Words.Comparing Namespace
+title: Aspose.Words.Comparing
 second_title: Aspose.Words for .NET API Reference
 description: The Aspose.Words.Comparing namespace provides classes and enumerations that allow to specify additional options when comparing documents.
 type: docs
@@ -8,11 +8,15 @@ url: /net/aspose.words.comparing/
 ---
 The Aspose.Words.Comparing namespace provides classes and enumerations that allow to specify additional options when comparing documents.
 
-## Members
+## Classes
 
-| public type | description |
+| Class | Description |
 | --- | --- |
 | class [CompareOptions](./compareoptions) | Allows to choose advanced options for document comparison operation. |
+## Enumeration
+
+| Enumeration | Description |
+| --- | --- |
 | enum [ComparisonTargetType](./comparisontargettype) | Allows to specify base document which will be used during comparison. Default value is Current. |
 | enum [Granularity](./granularity) | Specifies the granularity of changes to track when comparing two documents. |
 

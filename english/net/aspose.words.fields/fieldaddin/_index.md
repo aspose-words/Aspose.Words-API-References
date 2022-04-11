@@ -16,13 +16,26 @@ public class FieldAddIn : Field
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [FieldAddIn](fieldaddin)() | The default constructor. |
 
-## Remarks
+### Remarks
 
 Contains data created by an add-in.
+
+### Examples
+
+Shows how to process an ADDIN field.
+
+```csharp
+Document doc = new Document(MyDir + "Field sample - ADDIN.docx");
+
+// Aspose.Words does not support inserting ADDIN fields, but we can still load and read them.
+FieldAddIn field = (FieldAddIn)doc.Range.Fields[0];
+
+Assert.AreEqual(" ADDIN \"My value\" ", field.GetFieldCode());
+```
 
 ### See Also
 

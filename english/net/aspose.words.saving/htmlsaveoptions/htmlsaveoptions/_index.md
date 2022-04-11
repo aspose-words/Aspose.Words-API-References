@@ -14,6 +14,30 @@ Initializes a new instance of this class that can be used to save a document in 
 public HtmlSaveOptions()
 ```
 
+### Examples
+
+Shows how to use a specific encoding when saving a document to .epub.
+
+```csharp
+Document doc = new Document(MyDir + "Rendering.docx");
+
+// Use a SaveOptions object to specify the encoding for a document that we will save.
+HtmlSaveOptions saveOptions = new HtmlSaveOptions();
+saveOptions.SaveFormat = SaveFormat.Epub;
+saveOptions.Encoding = Encoding.UTF8;
+
+// By default, an output .epub document will have all its contents in one HTML part.
+// A split criterion allows us to segment the document into several HTML parts.
+// We will set the criteria to split the document into heading paragraphs.
+// This is useful for readers who cannot read HTML files more significant than a specific size.
+saveOptions.DocumentSplitCriteria = DocumentSplitCriteria.HeadingParagraph;
+
+// Specify that we want to export document properties.
+saveOptions.ExportDocumentProperties = true;
+
+doc.Save(ArtifactsDir + "HtmlSaveOptions.Doc2EpubSaveOptions.epub", saveOptions);
+```
+
 ### See Also
 
 * class [HtmlSaveOptions](../../htmlsaveoptions)
@@ -30,9 +54,42 @@ Initializes a new instance of this class that can be used to save a document in 
 public HtmlSaveOptions(SaveFormat saveFormat)
 ```
 
-| parameter | description |
-| --- | --- |
-| saveFormat | Can be Html, Mhtml or Epub. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| saveFormat | SaveFormat | Can be Html, Mhtml or Epub. |
+
+### Examples
+
+Shows how to save a document to a specific version of HTML.
+
+```csharp
+Document doc = new Document(MyDir + "Rendering.docx");
+
+HtmlSaveOptions options = new HtmlSaveOptions(SaveFormat.Html)
+{
+    HtmlVersion = htmlVersion,
+    PrettyFormat = true
+};
+
+doc.Save(ArtifactsDir + "HtmlSaveOptions.HtmlVersions.html", options);
+
+// Our HTML documents will have minor differences to be compatible with different HTML versions.
+string outDocContents = File.ReadAllText(ArtifactsDir + "HtmlSaveOptions.HtmlVersions.html");
+
+switch (htmlVersion)
+{
+    case HtmlVersion.Html5:
+        Assert.True(outDocContents.Contains("<a id=\"_Toc76372689\"></a>"));
+        Assert.True(outDocContents.Contains("<a id=\"_Toc76372689\"></a>"));
+        Assert.True(outDocContents.Contains("<table style=\"-aw-border-insideh:0.5pt single #000000; -aw-border-insidev:0.5pt single #000000; border-collapse:collapse\">"));
+        break;
+    case HtmlVersion.Xhtml:
+        Assert.True(outDocContents.Contains("<a name=\"_Toc76372689\"></a>"));
+        Assert.True(outDocContents.Contains("<ul type=\"disc\" style=\"margin:0pt; padding-left:0pt\">"));
+        Assert.True(outDocContents.Contains("<table cellspacing=\"0\" cellpadding=\"0\" style=\"-aw-border-insideh:0.5pt single #000000; -aw-border-insidev:0.5pt single #000000; border-collapse:collapse\""));
+        break;
+}
+```
 
 ### See Also
 

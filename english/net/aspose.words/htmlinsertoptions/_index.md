@@ -17,7 +17,7 @@ public enum HtmlInsertOptions
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | None | `0x0` | Use the default options when inserting HTML. |
 | UseBuilderFormatting | `0x1` | Use font and paragraph formatting specified in [`DocumentBuilder`](../documentbuilder) as base formatting for text inserted from HTML. |

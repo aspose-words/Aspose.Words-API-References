@@ -14,7 +14,7 @@ public enum Direction
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | Default | `0` |  |
 | LTR | `0` |  |

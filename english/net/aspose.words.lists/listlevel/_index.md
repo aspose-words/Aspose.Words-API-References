@@ -16,7 +16,7 @@ public class ListLevel
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Alignment](alignment) { get; set; } | Gets or sets the justification of the actual number of the list item. |
 | [CustomNumberStyleFormat](customnumberstyleformat) { get; } | Gets the custom number style format for this list level. For example: "a, ç, ĝ, ...". |
@@ -38,9 +38,65 @@ public class ListLevel
 | override [GetHashCode](gethashcode)() | Calculates hash code for this object. |
 | static [GetEffectiveValue](geteffectivevalue)(…) | Reports the string representation of the [`ListLevel`](../listlevel) object for the specified index of the list item. Parameters specify the [`NumberStyle`](../../aspose.words/numberstyle) and an optional format string used when Custom is specified. |
 
-## Remarks
+### Remarks
 
 You do not create objects of this class. List level objects are created automatically when a list is created. You access [`ListLevel`](../listlevel) objects via the [`ListLevelCollection`](../listlevelcollection) collection.Use the properties of [`ListLevel`](../listlevel) to specify list formatting for individual list levels.
+
+### Examples
+
+Shows how to apply custom list formatting to paragraphs when using DocumentBuilder.
+
+```csharp
+Document doc = new Document();
+
+// A list allows us to organize and decorate sets of paragraphs with prefix symbols and indents.
+// We can create nested lists by increasing the indent level. 
+// We can begin and end a list by using a document builder's "ListFormat" property. 
+// Each paragraph that we add between a list's start and the end will become an item in the list.
+// Create a list from a Microsoft Word template, and customize the first two of its list levels.
+List list = doc.Lists.Add(ListTemplate.NumberDefault);
+
+ListLevel listLevel = list.ListLevels[0];
+listLevel.Font.Color = Color.Red;
+listLevel.Font.Size = 24;
+listLevel.NumberStyle = NumberStyle.OrdinalText;
+listLevel.StartAt = 21;
+listLevel.NumberFormat = "\x0000";
+
+listLevel.NumberPosition = -36;
+listLevel.TextPosition = 144;
+listLevel.TabPosition = 144;
+
+listLevel = list.ListLevels[1];
+listLevel.Alignment = ListLevelAlignment.Right;
+listLevel.NumberStyle = NumberStyle.Bullet;
+listLevel.Font.Name = "Wingdings";
+listLevel.Font.Color = Color.Blue;
+listLevel.Font.Size = 24;
+
+// This NumberFormat value will create star-shaped bullet list symbols.
+listLevel.NumberFormat = "\xf0af";
+listLevel.TrailingCharacter = ListTrailingCharacter.Space;
+listLevel.NumberPosition = 144;
+
+// Create paragraphs and apply both list levels of our custom list formatting to them.
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+builder.ListFormat.List = list;
+builder.Writeln("The quick brown fox...");
+builder.Writeln("The quick brown fox...");
+
+builder.ListFormat.ListIndent();
+builder.Writeln("jumped over the lazy dog.");
+builder.Writeln("jumped over the lazy dog.");
+
+builder.ListFormat.ListOutdent();
+builder.Writeln("The quick brown fox...");
+
+builder.ListFormat.RemoveNumbers();
+
+builder.Document.Save(ArtifactsDir + "Lists.CreateCustomList.docx");
+```
 
 ### See Also
 

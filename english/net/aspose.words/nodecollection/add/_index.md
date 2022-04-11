@@ -14,21 +14,50 @@ Adds a node to the end of the collection.
 public void Add(Node node)
 ```
 
-| parameter | description |
-| --- | --- |
-| node | The node to be added to the end of the collection. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| node | Node | The node to be added to the end of the collection. |
 
-## Exceptions
+### Exceptions
 
 | exception | condition |
 | --- | --- |
 | NotSupportedException | The NodeCollection is a "deep" collection. |
 
-## Remarks
+### Remarks
 
 The node is inserted as a child into the node object from which the collection was created.
 
 If the newChild is already in the tree, it is first removed.If the node being inserted was created from another document, you should use [`ImportNode`](../../documentbase/importnode) to import the node to the current document. The imported node can then be inserted into the current document.
+
+### Examples
+
+Shows how to prepare a new section node for editing.
+
+```csharp
+Document doc = new Document();
+
+// A blank document comes with a section, which has a body, which in turn has a paragraph.
+// We can add contents to this document by adding elements such as text runs, shapes, or tables to that paragraph.
+Assert.AreEqual(NodeType.Section, doc.GetChild(NodeType.Any, 0, true).NodeType);
+Assert.AreEqual(NodeType.Body, doc.Sections[0].GetChild(NodeType.Any, 0, true).NodeType);
+Assert.AreEqual(NodeType.Paragraph, doc.Sections[0].Body.GetChild(NodeType.Any, 0, true).NodeType);
+
+// If we add a new section like this, it will not have a body, or any other child nodes.
+doc.Sections.Add(new Section(doc));
+
+Assert.AreEqual(0, doc.Sections[1].GetChildNodes(NodeType.Any, true).Count);
+
+// Run the "EnsureMinimum" method to add a body and a paragraph to this section to begin editing it.
+doc.LastSection.EnsureMinimum();
+
+Assert.AreEqual(NodeType.Body, doc.Sections[1].GetChild(NodeType.Any, 0, true).NodeType);
+Assert.AreEqual(NodeType.Paragraph, doc.Sections[1].Body.GetChild(NodeType.Any, 0, true).NodeType);
+
+doc.Sections[0].Body.FirstParagraph.AppendChild(new Run(doc, "Hello world!"));
+
+Assert.AreEqual("Hello world!", doc.GetText().Trim());
+```
 
 ### See Also
 

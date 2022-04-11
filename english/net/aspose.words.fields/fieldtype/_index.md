@@ -16,7 +16,7 @@ public enum FieldType
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | FieldNone | `0` | Field type is not specified or unknown. |
 | FieldCannotParse | `1` | Specifies that the field was unable to be parsed. |
@@ -115,6 +115,49 @@ public enum FieldType
 | FieldUserAddress | `62` | Specifies the USERADDRESS field. |
 | FieldUserInitials | `61` | Specifies the USERINITIALS field. |
 | FieldUserName | `60` | Specifies the USERNAME field. |
+
+### Examples
+
+Shows how to insert a field into a document using a field code.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+Field field = builder.InsertField("DATE \\@ \"dddd, MMMM dd, yyyy\"");
+
+Assert.AreEqual(FieldType.FieldDate, field.Type);
+Assert.AreEqual("DATE \\@ \"dddd, MMMM dd, yyyy\"", field.GetFieldCode());
+
+// This overload of the InsertField method automatically updates inserted fields.
+Assert.That(DateTime.Parse(field.Result), Is.EqualTo(DateTime.Today).Within(1).Days);
+```
+
+Shows how to work with a FieldStart node.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+FieldDate field = (FieldDate)builder.InsertField(FieldType.FieldDate, true);
+field.Format.DateTimeFormat = "dddd, MMMM dd, yyyy";
+field.Update();
+
+FieldChar fieldStart = field.Start;
+
+Assert.AreEqual(FieldType.FieldDate, fieldStart.FieldType);
+Assert.AreEqual(false, fieldStart.IsDirty);
+Assert.AreEqual(false, fieldStart.IsLocked);
+
+// Retrieve the facade object which represents the field in the document.
+field = (FieldDate)fieldStart.GetField();
+
+Assert.AreEqual(false, field.IsLocked);
+Assert.AreEqual(" DATE  \\@ \"dddd, MMMM dd, yyyy\"", field.GetFieldCode());
+
+// Update the field to show the current date.
+field.Update();
+```
 
 ### See Also
 

@@ -14,6 +14,16 @@ Returns a revision group at the specified index.
 public RevisionGroup this[int index] { get; }
 ```
 
+### Examples
+
+Shows how to get a group of revisions in a document.
+
+```csharp
+Document doc = new Document(MyDir + "Revisions.docx");
+
+RevisionGroup revisionGroup = doc.Revisions.Groups[0];
+```
+
 ### See Also
 
 * class [RevisionGroup](../../revisiongroup)

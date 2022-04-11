@@ -14,11 +14,24 @@ Unlinks fields in this range.
 public void UnlinkFields()
 ```
 
-## Remarks
+### Remarks
 
 Replaces all the fields in this range with their most recent results.
 
 To unlink fields in the whole document use `UnlinkFields`.
+
+### Examples
+
+Shows how to unlink all fields in a range.
+
+```csharp
+Document doc = new Document(MyDir + "Linked fields.docx");
+
+Section newSection = (Section)doc.Sections[0].Clone(true);
+doc.Sections.Add(newSection);
+
+doc.Sections[1].Range.UnlinkFields();
+```
 
 ### See Also
 

@@ -16,7 +16,7 @@ public class TextWatermarkOptions
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [TextWatermarkOptions](textwatermarkoptions)() | The default constructor. |
 | [Color](color) { get; set; } | Gets or sets font color. The default value is Color.Silver. |

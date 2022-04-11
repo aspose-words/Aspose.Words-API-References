@@ -14,6 +14,33 @@ Specifies a cyclic redundancy check (CRC) checksum of the [`Data`](../data) cont
 public long DataChecksum { get; }
 ```
 
+### Examples
+
+Shows how the checksum is calculated in a runtime.
+
+```csharp
+Document doc = new Document();
+
+StructuredDocumentTag richText = new StructuredDocumentTag(doc, SdtType.RichText, MarkupLevel.Block);
+doc.FirstSection.Body.AppendChild(richText);
+
+// The checksum is read-only and computed using the data of the corresponding custom XML data part.
+richText.XmlMapping.SetMapping(doc.CustomXmlParts.Add(Guid.NewGuid().ToString(),
+    "<root><text>ContentControl</text></root>"), "/root/text", "");
+
+long checksum = richText.XmlMapping.CustomXmlPart.DataChecksum;
+Console.WriteLine(checksum);
+
+richText.XmlMapping.SetMapping(doc.CustomXmlParts.Add(Guid.NewGuid().ToString(),
+    "<root><text>Updated ContentControl</text></root>"), "/root/text", "");
+
+long updatedChecksum = richText.XmlMapping.CustomXmlPart.DataChecksum;
+Console.WriteLine(updatedChecksum);
+
+// We changed the XmlPart of the tag, and the checksum was updated at runtime.
+Assert.AreNotEqual(checksum, updatedChecksum);
+```
+
 ### See Also
 
 * class [CustomXmlPart](../../customxmlpart)

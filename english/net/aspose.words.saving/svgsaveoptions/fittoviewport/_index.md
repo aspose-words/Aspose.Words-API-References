@@ -14,6 +14,24 @@ Specifies if the output SVG should fill the available viewport area (browser win
 public bool FitToViewPort { get; set; }
 ```
 
+### Examples
+
+Shows how to mimic the properties of images when converting a .docx document to .svg.
+
+```csharp
+Document doc = new Document(MyDir + "Document.docx");
+
+// Configure the SvgSaveOptions object to save with no page borders or selectable text.
+SvgSaveOptions options = new SvgSaveOptions
+{
+    FitToViewPort = true,
+    ShowPageBorder = false,
+    TextOutputMode = SvgTextOutputMode.UsePlacedGlyphs
+};
+
+doc.Save(ArtifactsDir + "SvgSaveOptions.SaveLikeImage.svg", options);
+```
+
 ### See Also
 
 * class [SvgSaveOptions](../../svgsaveoptions)

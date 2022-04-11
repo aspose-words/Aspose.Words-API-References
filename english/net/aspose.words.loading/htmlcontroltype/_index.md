@@ -16,7 +16,7 @@ public enum HtmlControlType
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | FormField | `0` |  |
 | StructuredDocumentTag | `1` |  |

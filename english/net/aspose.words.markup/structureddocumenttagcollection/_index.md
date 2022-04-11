@@ -8,22 +8,20 @@ url: /net/aspose.words.markup/structureddocumenttagcollection/
 ---
 ## StructuredDocumentTagCollection class
 
-A collection of [`IStructuredDocumentTag`](../istructureddocumenttag) instances that represent the structured document tags in the specified range.
-
 ```csharp
 public class StructuredDocumentTagCollection : IEnumerable<IStructuredDocumentTag>
 ```
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
-| [Count](count) { get; } | Returns the number of structured document tags in the collection. |
-| [Item](item) { get; } | Returns the structured document tag by Id. |
-| [GetByTag](getbytag)(…) | Returns the first structured document tag encountered in the collection with the specified tag. |
-| [GetByTitle](getbytitle)(…) | Returns the first structured document tag encountered in the collection with the specified title. |
-| [GetEnumerator](getenumerator)() | Returns an enumerator object. |
-| [Remove](remove)(…) | Removes the structured document tag with the specified identifier. |
+| [Count](count) { get; } |  |
+| [Item](item) { get; } |  |
+| [GetByTag](getbytag)(…) |  |
+| [GetByTitle](getbytitle)(…) |  |
+| [GetEnumerator](getenumerator)() |  |
+| [Remove](remove)(…) |  |
 
 ### See Also
 

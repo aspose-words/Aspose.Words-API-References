@@ -14,7 +14,7 @@ Gets or sets a value determining whether or not to substitute TrueType fonts Ari
 public bool UseCoreFonts { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 The default value is `false`. When this value is set to `true` Arial, Times New Roman, Courier New and Symbol fonts are replaced in PDF document with corresponding core Type 1 font.
 
@@ -27,6 +27,36 @@ PDF/A and PDF/UA compliance requires all fonts to be embedded. `false` value wil
 Core fonts are not supported when saving to PDF 2.0 format. `false` value will be used automatically when saving to PDF 2.0.
 
 This option has a higher priority then [`FontEmbeddingMode`](../fontembeddingmode) option.
+
+### Examples
+
+Shows how enable/disable PDF Type 1 font substitution.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+builder.Font.Name = "Arial";
+builder.Writeln("Hello world!");
+builder.Font.Name = "Courier New";
+builder.Writeln("The quick brown fox jumps over the lazy dog.");
+
+// Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+// to modify how that method converts the document to .PDF.
+PdfSaveOptions options = new PdfSaveOptions();
+
+// Set the "UseCoreFonts" property to "true" to replace some fonts,
+// including the two fonts in our document, with their PDF Type 1 equivalents.
+// Set the "UseCoreFonts" property to "false" to not apply PDF Type 1 fonts.
+options.UseCoreFonts = useCoreFonts;
+
+doc.Save(ArtifactsDir + "PdfSaveOptions.EmbedCoreFonts.pdf", options);
+
+if (useCoreFonts)
+    Assert.That(3000, Is.AtLeast(new FileInfo(ArtifactsDir + "PdfSaveOptions.EmbedCoreFonts.pdf").Length));
+else
+    Assert.That(30000, Is.LessThan(new FileInfo(ArtifactsDir + "PdfSaveOptions.EmbedCoreFonts.pdf").Length));
+```
 
 ### See Also
 

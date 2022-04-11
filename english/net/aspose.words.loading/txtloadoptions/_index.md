@@ -16,7 +16,7 @@ public class TxtLoadOptions : LoadOptions
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [TxtLoadOptions](txtloadoptions)() | Initializes a new instance of this class with default values. |
 | [DetectNumberingWithWhitespaces](detectnumberingwithwhitespaces) { get; set; } | Allows to specify how numbered list items are recognized when document is imported from plain text format. The default value is true. |

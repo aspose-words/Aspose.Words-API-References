@@ -16,7 +16,7 @@ public class Odso
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Odso](odso)() | The default constructor. |
 | [ColumnDelimiter](columndelimiter) { get; set; } | Specifies the character which shall be interpreted as the column delimiter used to separate columns within external data sources. The default value is 0 which means there is no column delimiter defined. |
@@ -29,13 +29,62 @@ public class Odso
 | [UdlConnectString](udlconnectstring) { get; set; } | Specifies the Universal Data Link (UDL) connection string used to connect to an external data source. The default value is an empty string. |
 | [Clone](clone)() | Returns a deep clone of this object. |
 
-## Remarks
+### Remarks
 
 ODSO seems to be the "new" way the newer Microsoft Word versions prefer to use when specifying certain types of data sources for a mail merge document. ODSO probably first appeared in Microsoft Word 2000.
 
 The use of ODSO is poorly documented and the best way to learn how to use the properties of this object is to create a document with a desired data source manually in Microsoft Word and then open that document using Aspose.Words and examine the properties of the [`MailMergeSettings`](../../aspose.words/document/mailmergesettings) and [`Odso`](../mailmergesettings/odso) objects. This is a good approach to take if you want to learn how to programmatically configure a data source, for example.
 
 You do not normally need to create objects of this class directly because ODSO settings are always available via the [`Odso`](../mailmergesettings/odso) property.
+
+### Examples
+
+Shows how to execute a mail merge with data from an Office Data Source Object.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+builder.Write("Dear ");
+builder.InsertField("MERGEFIELD FirstName", "<FirstName>");
+builder.Write(" ");
+builder.InsertField("MERGEFIELD LastName", "<LastName>");
+builder.Writeln(": ");
+builder.InsertField("MERGEFIELD Message", "<Message>");
+
+// Create a data source in the form of an ASCII file, with the "|" character
+// acting as the delimiter that separates columns. The first line contains the three columns' names,
+// and each subsequent line is a row with their respective values.
+string[] lines = { "FirstName|LastName|Message",
+    "John|Doe|Hello! This message was created with Aspose Words mail merge." };
+string dataSrcFilename = ArtifactsDir + "MailMerge.MailMergeSettings.DataSource.txt";
+
+File.WriteAllLines(dataSrcFilename, lines);
+
+MailMergeSettings settings = doc.MailMergeSettings;
+settings.MainDocumentType = MailMergeMainDocumentType.MailingLabels;
+settings.CheckErrors = MailMergeCheckErrors.Simulate;
+settings.DataType = MailMergeDataType.Native;
+settings.DataSource = dataSrcFilename;
+settings.Query = "SELECT * FROM " + doc.MailMergeSettings.DataSource;
+settings.LinkToQuery = true;
+settings.ViewMergedData = true;
+
+Assert.AreEqual(MailMergeDestination.Default, settings.Destination);
+Assert.False(settings.DoNotSupressBlankLines);
+
+Odso odso = settings.Odso;
+odso.DataSource = dataSrcFilename;
+odso.DataSourceType = OdsoDataSourceType.Text;
+odso.ColumnDelimiter = '|';
+odso.FirstRowContainsColumnNames = true;
+
+Assert.AreNotSame(odso, odso.Clone());
+Assert.AreNotSame(settings, settings.Clone());
+
+// Opening this document in Microsoft Word will execute the mail merge before displaying the contents. 
+doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
+```
 
 ### See Also
 

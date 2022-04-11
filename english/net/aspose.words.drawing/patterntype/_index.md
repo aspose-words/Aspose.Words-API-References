@@ -16,7 +16,7 @@ public enum PatternType
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | None | `-1` | No pattern. |
 | Percent10 | `1` | 10% of the foreground color. |

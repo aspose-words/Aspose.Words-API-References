@@ -16,7 +16,7 @@ public interface IDocumentReaderPlugin
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Read](read)(…) | Reads the data from the specified stream into the [`Document`](../document) instance. |
 

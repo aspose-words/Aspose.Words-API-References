@@ -14,6 +14,26 @@ If the table has no rows, creates and appends one Row.
 public void EnsureMinimum()
 ```
 
+### Examples
+
+Shows how to ensure that a table node contains the nodes we need to add content.
+
+```csharp
+Document doc = new Document();
+Table table = new Table(doc);
+doc.FirstSection.Body.AppendChild(table);
+
+// Tables contain rows, which contain cells, which may contain paragraphs
+// with typical elements such as runs, shapes, and even other tables.
+// Our new table has none of these nodes, and we cannot add contents to it until it does.
+Assert.AreEqual(0, table.GetChildNodes(NodeType.Any, true).Count);
+
+// Calling the "EnsureMinimum" method on a table will ensure that
+// the table has at least one row and one cell with an empty paragraph.
+table.EnsureMinimum();
+table.FirstRow.FirstCell.FirstParagraph.AppendChild(new Run(doc, "Hello world!"));
+```
+
 ### See Also
 
 * class [Table](../../table)

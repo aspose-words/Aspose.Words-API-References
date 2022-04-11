@@ -16,7 +16,7 @@ public sealed class PageRange
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [PageRange](pagerange)(…) | Creates a new page range object. |
 

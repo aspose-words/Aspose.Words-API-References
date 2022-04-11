@@ -14,7 +14,7 @@ Gets or sets a value determining whether to use GDI+ or Aspose.Words metafile re
 public bool UseGdiEmfRenderer { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 If set to `true` GDI+ metafile renderer is used. I.e. content is written to GDI+ graphics object and saved to metafile.
 
@@ -25,6 +25,37 @@ Has effect only when saving to EMF.
 GDI+ saving works only on .NET.
 
 The default value is `true`.
+
+### Examples
+
+Shows how to choose a renderer when converting a document to .emf.
+
+```csharp
+Document doc = new Document();
+            DocumentBuilder builder = new DocumentBuilder(doc);
+
+            builder.ParagraphFormat.Style = doc.Styles["Heading 1"];
+            builder.Writeln("Hello world!");
+            builder.InsertImage(ImageDir + "Logo.jpg");
+
+            // When we save the document as an EMF image, we can pass a SaveOptions object to select a renderer for the image.
+            // If we set the "UseGdiEmfRenderer" flag to "true", Aspose.Words will use the GDI+ renderer.
+            // If we set the "UseGdiEmfRenderer" flag to "false", Aspose.Words will use its own metafile renderer.
+            ImageSaveOptions saveOptions = new ImageSaveOptions(SaveFormat.Emf);
+            saveOptions.UseGdiEmfRenderer = useGdiEmfRenderer;
+
+            doc.Save(ArtifactsDir + "ImageSaveOptions.Renderer.emf", saveOptions);
+
+            // The GDI+ renderer usually creates larger files.
+            if (useGdiEmfRenderer)
+#if NET48 || JAVA
+                Assert.That(300000, Is.LessThan(new FileInfo(ArtifactsDir + "ImageSaveOptions.Renderer.emf").Length));
+#elif NET5_0
+                Assert.That(30000, Is.AtLeast(new FileInfo(ArtifactsDir + "ImageSaveOptions.Renderer.emf").Length));
+#endif
+            else
+                Assert.That(30000, Is.AtLeast(new FileInfo(ArtifactsDir + "ImageSaveOptions.Renderer.emf").Length));
+```
 
 ### See Also
 

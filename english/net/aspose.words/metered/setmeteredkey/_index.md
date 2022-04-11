@@ -14,10 +14,30 @@ Sets metered public and private key. If you purchase metered license, when start
 public void SetMeteredKey(string publicKey, string privateKey)
 ```
 
-| parameter | description |
-| --- | --- |
-| publicKey | public key |
-| privateKey | private key |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| publicKey | String | public key |
+| privateKey | String | private key |
+
+### Examples
+
+Shows how to activate a Metered license and track credit/consumption.
+
+```csharp
+// Create a new Metered license, and then print its usage statistics.
+Metered metered = new Metered();
+metered.SetMeteredKey("MyPublicKey", "MyPrivateKey");
+
+Console.WriteLine($"Credit before operation: {Metered.GetConsumptionCredit()}");
+Console.WriteLine($"Consumption quantity before operation: {Metered.GetConsumptionQuantity()}");
+
+// Operate using Aspose.Words, and then print our metered stats again to see how much we spent.
+Document doc = new Document(MyDir + "Document.docx");
+doc.Save(ArtifactsDir + "Metered.Usage.pdf");
+
+Console.WriteLine($"Credit after operation: {Metered.GetConsumptionCredit()}");
+Console.WriteLine($"Consumption quantity after operation: {Metered.GetConsumptionQuantity()}");
+```
 
 ### See Also
 

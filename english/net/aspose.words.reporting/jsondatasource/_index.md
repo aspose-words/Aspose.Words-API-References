@@ -16,11 +16,11 @@ public class JsonDataSource
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [JsonDataSource](jsondatasource)(…) | Creates a new data source with data from a JSON file using default options for parsing JSON data. (4 constructors) |
 
-## Remarks
+### Remarks
 
 To access data of the corresponding file or stream while generating a report, pass an instance of this class as a data source to one of [`ReportingEngine`](../reportingengine).BuildReport overloads.
 

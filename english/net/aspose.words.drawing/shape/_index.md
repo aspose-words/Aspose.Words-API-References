@@ -16,7 +16,7 @@ public sealed class Shape : ShapeBase
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Shape](shape)(…) | Creates a new shape object. |
 | [Chart](chart) { get; } | Provides access to the chart properties if this shape has a Chart. |
@@ -44,9 +44,97 @@ public sealed class Shape : ShapeBase
 | override [Accept](accept)(…) | Accepts a visitor. |
 | [UpdateSmartArtDrawing](updatesmartartdrawing)() | Updates SmartArt pre-rendered drawing by using Aspose.Words's SmartArt cold rendering engine. |
 
-## Remarks
+### Remarks
 
 Using the [`Shape`](../shape) class you can create or modify shapes in a Microsoft Word document.An important property of a shape is its [`ShapeType`](../shapebase/shapetype). Shapes of different types can have different capabilities in a Word document. For example, only image and OLE shapes can have images inside them. Most of the shapes can have text, but not all.Shapes that can have text, can contain [`Paragraph`](../../aspose.words/paragraph) and [`Table`](../../aspose.words.tables/table) nodes as children.
+
+### Examples
+
+Shows how to insert a floating image to the center of a page.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+// Insert a floating image that will appear behind the overlapping text and align it to the page's center.
+Shape shape = builder.InsertImage(ImageDir + "Logo.jpg");
+shape.WrapType = WrapType.None;
+shape.BehindText = true;
+shape.RelativeHorizontalPosition = RelativeHorizontalPosition.Page;
+shape.RelativeVerticalPosition = RelativeVerticalPosition.Page;
+shape.HorizontalAlignment = HorizontalAlignment.Center;
+shape.VerticalAlignment = VerticalAlignment.Center;
+
+doc.Save(ArtifactsDir + "Image.CreateFloatingPageCenter.docx");
+```
+
+Shows how to extract images from a document, and save them to the local file system as individual files.
+
+```csharp
+Document doc = new Document(MyDir + "Images.docx");
+
+// Get the collection of shapes from the document,
+// and save the image data of every shape with an image as a file to the local file system.
+NodeCollection shapes = doc.GetChildNodes(NodeType.Shape, true);
+
+Assert.AreEqual(9, shapes.Count(s => ((Shape)s).HasImage));
+
+int imageIndex = 0;
+foreach (Shape shape in shapes.OfType<Shape>())
+{
+    if (shape.HasImage)
+    {
+        // The image data of shapes may contain images of many possible image formats. 
+        // We can determine a file extension for each image automatically, based on its format.
+        string imageFileName =
+            $"File.ExtractImages.{imageIndex}{FileFormatUtil.ImageTypeToExtension(shape.ImageData.ImageType)}";
+        shape.ImageData.Save(ArtifactsDir + imageFileName);
+        imageIndex++;
+    }
+}
+```
+
+Shows how to delete all shapes from a document.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+// Insert two shapes along with a group shape with another shape inside it.
+builder.InsertShape(ShapeType.Rectangle, 400, 200);
+builder.InsertShape(ShapeType.Star, 300, 300);
+
+GroupShape group = new GroupShape(doc);
+group.Bounds = new RectangleF(100, 50, 200, 100);
+group.CoordOrigin = new Point(-1000, -500);
+
+Shape subShape = new Shape(doc, ShapeType.Cube);
+subShape.Width = 500;
+subShape.Height = 700;
+subShape.Left = 0;
+subShape.Top = 0;
+
+group.AppendChild(subShape);
+builder.InsertNode(group);
+
+Assert.AreEqual(3, doc.GetChildNodes(NodeType.Shape, true).Count);
+Assert.AreEqual(1, doc.GetChildNodes(NodeType.GroupShape, true).Count);
+
+// Remove all Shape nodes from the document.
+NodeCollection shapes = doc.GetChildNodes(NodeType.Shape, true);
+shapes.Clear();
+
+// All shapes are gone, but the group shape is still in the document.
+Assert.AreEqual(1, doc.GetChildNodes(NodeType.GroupShape, true).Count);
+Assert.AreEqual(0, doc.GetChildNodes(NodeType.Shape, true).Count);
+
+// Remove all group shapes separately.
+NodeCollection groupShapes = doc.GetChildNodes(NodeType.GroupShape, true);
+groupShapes.Clear();
+
+Assert.AreEqual(0, doc.GetChildNodes(NodeType.GroupShape, true).Count);
+Assert.AreEqual(0, doc.GetChildNodes(NodeType.Shape, true).Count);
+```
 
 ### See Also
 

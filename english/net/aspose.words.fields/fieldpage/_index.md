@@ -16,13 +16,53 @@ public class FieldPage : Field
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [FieldPage](fieldpage)() | The default constructor. |
 
-## Remarks
+### Remarks
 
 Retrieves the number of the current page.
+
+### Examples
+
+Shows how to use NUMCHARS, NUMWORDS, NUMPAGES and PAGE fields to track the size of our documents.
+
+```csharp
+Document doc = new Document(MyDir + "Paragraphs.docx");
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+builder.MoveToHeaderFooter(HeaderFooterType.FooterPrimary);
+builder.ParagraphFormat.Alignment = ParagraphAlignment.Center;
+
+// Below are three types of fields that we can use to track the size of our documents.
+// 1 -  Track the character count with a NUMCHARS field:
+FieldNumChars fieldNumChars = (FieldNumChars)builder.InsertField(FieldType.FieldNumChars, true);       
+builder.Writeln(" characters");
+
+// 2 -  Track the word count with a NUMWORDS field:
+FieldNumWords fieldNumWords = (FieldNumWords)builder.InsertField(FieldType.FieldNumWords, true);
+builder.Writeln(" words");
+
+// 3 -  Use both PAGE and NUMPAGES fields to display what page the field is on,
+// and the total number of pages in the document:
+builder.ParagraphFormat.Alignment = ParagraphAlignment.Right;
+builder.Write("Page ");
+FieldPage fieldPage = (FieldPage)builder.InsertField(FieldType.FieldPage, true);
+builder.Write(" of ");
+FieldNumPages fieldNumPages = (FieldNumPages)builder.InsertField(FieldType.FieldNumPages, true);
+
+Assert.AreEqual(" NUMCHARS ", fieldNumChars.GetFieldCode());
+Assert.AreEqual(" NUMWORDS ", fieldNumWords.GetFieldCode());
+Assert.AreEqual(" NUMPAGES ", fieldNumPages.GetFieldCode());
+Assert.AreEqual(" PAGE ", fieldPage.GetFieldCode());
+
+// These fields will not maintain accurate values in real time
+// while we edit the document programmatically using Aspose.Words, or in Microsoft Word.
+// We need to update them every we need to see an up-to-date value. 
+doc.UpdateFields();
+doc.Save(ArtifactsDir + "Field.NUMCHARS.NUMWORDS.NUMPAGES.PAGE.docx");
+```
 
 ### See Also
 

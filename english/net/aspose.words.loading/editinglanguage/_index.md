@@ -16,7 +16,7 @@ public enum EditingLanguage
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | Afrikaans | `1078` |  |
 | Albanian | `1052` |  |
@@ -245,6 +245,22 @@ public enum EditingLanguage
 | Yi | `1144` |  |
 | Yiddish | `1085` |  |
 | Yoruba | `1130` |  |
+
+### Examples
+
+Shows how to apply language preferences when loading a document.
+
+```csharp
+LoadOptions loadOptions = new LoadOptions();
+loadOptions.LanguagePreferences.AddEditingLanguage(EditingLanguage.Japanese);
+
+Document doc = new Document(MyDir + "No default editing language.docx", loadOptions);
+
+int localeIdFarEast = doc.Styles.DefaultFont.LocaleIdFarEast;
+Console.WriteLine(localeIdFarEast == (int)EditingLanguage.Japanese
+    ? "The document either has no any FarEast language set in defaults or it was set to Japanese originally."
+    : "The document default FarEast language was set to another than Japanese language originally, so it is not overridden.");
+```
 
 ### See Also
 

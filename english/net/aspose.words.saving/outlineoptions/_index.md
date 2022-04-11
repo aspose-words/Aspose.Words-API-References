@@ -16,7 +16,7 @@ public class OutlineOptions
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [OutlineOptions](outlineoptions)() | The default constructor. |
 | [BookmarksOutlineLevels](bookmarksoutlinelevels) { get; } | Allows to specify individual bookmarks outline level. |
@@ -25,6 +25,35 @@ public class OutlineOptions
 | [DefaultBookmarksOutlineLevel](defaultbookmarksoutlinelevel) { get; set; } | Specifies the default level in the document outline at which to display Word bookmarks. |
 | [ExpandedOutlineLevels](expandedoutlinelevels) { get; set; } | Specifies how many levels in the document outline to show expanded when the file is viewed. |
 | [HeadingsOutlineLevels](headingsoutlinelevels) { get; set; } | Specifies how many levels of headings (paragraphs formatted with the Heading styles) to include in the document outline. |
+
+### Examples
+
+Shows to process bookmarks in headers/footers in a document that we are rendering to PDF.
+
+```csharp
+Document doc = new Document(MyDir + "Bookmarks in headers and footers.docx");
+
+// Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+// to modify how that method converts the document to .PDF.
+PdfSaveOptions saveOptions = new PdfSaveOptions();
+
+// Set the "PageMode" property to "PdfPageMode.UseOutlines" to display the outline navigation pane in the output PDF.
+saveOptions.PageMode = PdfPageMode.UseOutlines;
+
+// Set the "DefaultBookmarksOutlineLevel" property to "1" to display all
+// bookmarks at the first level of the outline in the output PDF.
+saveOptions.OutlineOptions.DefaultBookmarksOutlineLevel = 1;
+
+// Set the "HeaderFooterBookmarksExportMode" property to "HeaderFooterBookmarksExportMode.None" to
+// not export any bookmarks that are inside headers/footers.
+// Set the "HeaderFooterBookmarksExportMode" property to "HeaderFooterBookmarksExportMode.First" to
+// only export bookmarks in the first section's header/footers.
+// Set the "HeaderFooterBookmarksExportMode" property to "HeaderFooterBookmarksExportMode.All" to
+// export bookmarks that are in all headers/footers.
+saveOptions.HeaderFooterBookmarksExportMode = headerFooterBookmarksExportMode;
+
+doc.Save(ArtifactsDir + "PdfSaveOptions.HeaderFooterBookmarksExportMode.pdf", saveOptions);
+```
 
 ### See Also
 

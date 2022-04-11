@@ -14,7 +14,7 @@ public class Cluster
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Cluster](cluster)(…) |  |
 | [Codepoints](codepoints) { get; } |  |

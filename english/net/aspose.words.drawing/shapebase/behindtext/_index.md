@@ -3,7 +3,7 @@ title: BehindText
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 310
+weight: 300
 url: /net/aspose.words.drawing/shapebase/behindtext/
 ---
 ## ShapeBase.BehindText property
@@ -14,9 +14,29 @@ Specifies whether the shape is below or above text.
 public bool BehindText { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 Has effect only for top level shapes.The default value is false.
+
+### Examples
+
+Shows how to insert a floating image to the center of a page.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+// Insert a floating image that will appear behind the overlapping text and align it to the page's center.
+Shape shape = builder.InsertImage(ImageDir + "Logo.jpg");
+shape.WrapType = WrapType.None;
+shape.BehindText = true;
+shape.RelativeHorizontalPosition = RelativeHorizontalPosition.Page;
+shape.RelativeVerticalPosition = RelativeVerticalPosition.Page;
+shape.HorizontalAlignment = HorizontalAlignment.Center;
+shape.VerticalAlignment = VerticalAlignment.Center;
+
+doc.Save(ArtifactsDir + "Image.CreateFloatingPageCenter.docx");
+```
 
 ### See Also
 

@@ -16,7 +16,7 @@ public sealed class Watermark
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Type](type) { get; } | Gets the watermark type. |
 | [Remove](remove)() | Removes the watermark. |

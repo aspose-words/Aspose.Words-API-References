@@ -16,7 +16,7 @@ public enum JsonSimpleValueParseMode
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | Loose | `0` | Specifies the mode where types of JSON simple values are determined upon parsing of their string representations. For example, the type of 'prop' from the JSON snippet '{ prop: "123" }' is determined as integer in this mode. |
 | Strict | `1` | Specifies the mode where types of JSON simple values are determined from JSON notation itself. For example, the type of 'prop' from the JSON snippet '{ prop: "123" }' is determined as string in this mode. |

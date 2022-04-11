@@ -14,11 +14,11 @@ Creates an one-page set based on exact page index.
 public PageSet(int page)
 ```
 
-| parameter | description |
-| --- | --- |
-| page | Zero-based index of the page. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| page | Int32 | Zero-based index of the page. |
 
-## Remarks
+### Remarks
 
 If a page is encountered that is not in the document, an exception will be thrown during rendering. MaxValue means the last page in the document.
 
@@ -38,13 +38,39 @@ Creates a page set based on exact page indices.
 public PageSet(params int[] pages)
 ```
 
-| parameter | description |
-| --- | --- |
-| pages | Zero-based indices of pages. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| pages | Int32[] | Zero-based indices of pages. |
 
-## Remarks
+### Remarks
 
 If a page is encountered that is not in the document, an exception will be thrown during rendering. MaxValue means the last page in the document.
+
+### Examples
+
+Shows how to extract pages based on exact page indices.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+// Add five pages to the document.
+for (int i = 1; i < 6; i++)
+{
+    builder.Write("Page " + i);
+    builder.InsertBreak(BreakType.PageBreak);
+}
+
+// Create an "XpsSaveOptions" object, which we can pass to the document's "Save" method
+// to modify how that method converts the document to .XPS.
+XpsSaveOptions xpsOptions = new XpsSaveOptions();
+
+// Use the "PageSet" property to select a set of the document's pages to save to output XPS.
+// In this case, we will choose, via a zero-based index, only three pages: page 1, page 2, and page 4.
+xpsOptions.PageSet = new PageSet(0, 1, 3);
+
+doc.Save(ArtifactsDir + "XpsSaveOptions.ExportExactPages.xps", xpsOptions);
+```
 
 ### See Also
 
@@ -62,13 +88,28 @@ Creates a page set based on ranges.
 public PageSet(params PageRange[] ranges)
 ```
 
-| parameter | description |
-| --- | --- |
-| ranges | Array of page ranges. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ranges | PageRange[] | Array of page ranges. |
 
-## Remarks
+### Remarks
 
 If a range is encountered that starts after the last page in the document, an exception will be thrown during rendering. All ranges that end after the last page are truncated to fit in the document.
+
+### Examples
+
+Shows how to extract pages based on exact page ranges.
+
+```csharp
+Document doc = new Document(MyDir + "Images.docx");
+
+ImageSaveOptions imageOptions = new ImageSaveOptions(SaveFormat.Tiff);
+PageSet pageSet = new PageSet(new PageRange(1, 1), new PageRange(2, 3), new PageRange(1, 3),
+    new PageRange(2, 4), new PageRange(1, 1));
+
+imageOptions.PageSet = pageSet;
+doc.Save(ArtifactsDir + "ImageSaveOptions.ExportVariousPageRanges.tiff", imageOptions);
+```
 
 ### See Also
 

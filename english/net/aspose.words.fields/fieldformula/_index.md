@@ -16,13 +16,37 @@ public class FieldFormula : Field
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [FieldFormula](fieldformula)() | The default constructor. |
 
-## Remarks
+### Remarks
 
 Calcualtes the result of an expression.
+
+### Examples
+
+Shows how to use the formula field to display the result of an equation.
+
+```csharp
+Document doc = new Document();
+
+// Use a field builder to construct a mathematical equation,
+// then create a formula field to display the equation's result in the document.
+FieldBuilder fieldBuilder = new FieldBuilder(FieldType.FieldFormula);
+fieldBuilder.AddArgument(2);
+fieldBuilder.AddArgument("*");
+fieldBuilder.AddArgument(5);
+
+FieldFormula field = (FieldFormula)fieldBuilder.BuildAndInsert(doc.FirstSection.Body.FirstParagraph);
+field.Update();
+
+Assert.AreEqual(" = 2 * 5 ", field.GetFieldCode());
+Assert.AreEqual("10", field.Result);
+
+doc.UpdateFields();
+doc.Save(ArtifactsDir + "Field.FORMULA.docx");
+```
 
 ### See Also
 

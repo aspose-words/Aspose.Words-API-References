@@ -16,7 +16,7 @@ public enum RevisionColor
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | Auto | `0` | Default. |
 | Black | `1` | Represents 000000 color. |
@@ -37,6 +37,28 @@ public enum RevisionColor
 | Yellow | `16` | Represents fad272 color. |
 | NoHighlight | `17` | No color is used to highlight revision changes. |
 | ByAuthor | `18` | Revisions of each author receive their own color for highlighting from a predfined set of hi-contrast colors. |
+
+### Examples
+
+Shows how to alter the appearance of revisions in a rendered output document.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+// Insert a revision, then change the color of all revisions to green.
+builder.Writeln("This is not a revision.");
+doc.StartTrackRevisions("John Doe", DateTime.Now);
+builder.Writeln("This is a revision.");
+doc.StopTrackRevisions();
+builder.Writeln("This is not a revision.");
+
+// Remove the bar that appears to the left of every revised line.
+doc.LayoutOptions.RevisionOptions.InsertedTextColor = RevisionColor.BrightGreen;
+doc.LayoutOptions.RevisionOptions.ShowRevisionBars = false;
+
+doc.Save(ArtifactsDir + "Document.LayoutOptionsRevisions.pdf");
+```
 
 ### See Also
 

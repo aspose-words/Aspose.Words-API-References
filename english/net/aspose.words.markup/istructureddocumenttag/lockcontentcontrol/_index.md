@@ -8,8 +8,6 @@ url: /net/aspose.words.markup/istructureddocumenttag/lockcontentcontrol/
 ---
 ## IStructuredDocumentTag.LockContentControl property
 
-When set to true, this property will prohibit a user from deleting this SDT.
-
 ```csharp
 public bool LockContentControl { get; set; }
 ```

@@ -3,7 +3,7 @@ title: DefaultTemplate
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 130
+weight: 120
 url: /net/aspose.words.saving/saveoptions/defaulttemplate/
 ---
 ## SaveOptions.DefaultTemplate property
@@ -14,9 +14,30 @@ Gets or sets path to default template (including filename). Default value for th
 public string DefaultTemplate { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 If specified, this path is used to load template when [`AutomaticallyUpdateStyles`](../../../aspose.words/document/automaticallyupdatestyles) is true, but [`AttachedTemplate`](../../../aspose.words/document/attachedtemplate) is empty.
+
+### Examples
+
+Shows how to set a default template for documents that do not have attached templates.
+
+```csharp
+Document doc = new Document();
+
+// Enable automatic style updating, but do not attach a template document.
+doc.AutomaticallyUpdateStyles = true;
+
+Assert.AreEqual(string.Empty, doc.AttachedTemplate);
+
+// Since there is no template document, the document had nowhere to track style changes.
+// Use a SaveOptions object to automatically set a template
+// if a document that we are saving does not have one.
+SaveOptions options = SaveOptions.CreateSaveOptions("Document.DefaultTemplate.docx");
+options.DefaultTemplate = MyDir + "Business brochure.dotx";
+
+doc.Save(ArtifactsDir + "Document.DefaultTemplate.docx", options);
+```
 
 ### See Also
 

@@ -14,15 +14,61 @@ Sets the sources where Aspose.Words looks for TrueType fonts when rendering docu
 public void SetFontsSources(FontSourceBase[] sources)
 ```
 
-| parameter | description |
-| --- | --- |
-| sources | An array of sources that contain TrueType fonts. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| sources | FontSourceBase[] | An array of sources that contain TrueType fonts. |
 
-## Remarks
+### Remarks
 
 By default, Aspose.Words looks for fonts installed to the system.
 
 Setting this property resets the cache of all previously loaded fonts.
+
+### Examples
+
+Shows how to add a font source to our existing font sources.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+builder.Font.Name = "Arial";
+builder.Writeln("Hello world!");
+builder.Font.Name = "Amethysta";
+builder.Writeln("The quick brown fox jumps over the lazy dog.");
+builder.Font.Name = "Junction Light";
+builder.Writeln("The quick brown fox jumps over the lazy dog.");
+
+FontSourceBase[] originalFontSources = FontSettings.DefaultInstance.GetFontsSources();
+
+Assert.AreEqual(1, originalFontSources.Length);
+
+Assert.True(originalFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Arial"));
+
+// The default font source is missing two of the fonts that we are using in our document.
+// When we save this document, Aspose.Words will apply fallback fonts to all text formatted with inaccessible fonts.
+Assert.False(originalFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Amethysta"));
+Assert.False(originalFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Junction Light"));
+
+// Create a font source from a folder that contains fonts.
+FolderFontSource folderFontSource = new FolderFontSource(FontsDir, true);
+
+// Apply a new array of font sources that contains the original font sources, as well as our custom fonts.
+FontSourceBase[] updatedFontSources = { originalFontSources[0], folderFontSource };
+FontSettings.DefaultInstance.SetFontsSources(updatedFontSources);
+
+// Verify that Aspose.Words has access to all required fonts before we render the document to PDF.
+updatedFontSources = FontSettings.DefaultInstance.GetFontsSources();
+
+Assert.True(updatedFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Arial"));
+Assert.True(updatedFontSources[1].GetAvailableFonts().Any(f => f.FullFontName == "Amethysta"));
+Assert.True(updatedFontSources[1].GetAvailableFonts().Any(f => f.FullFontName == "Junction Light"));
+
+doc.Save(ArtifactsDir + "FontSettings.AddFontSource.pdf");
+
+// Restore the original font sources.
+FontSettings.DefaultInstance.SetFontsSources(originalFontSources);
+```
 
 ### See Also
 
@@ -41,12 +87,12 @@ Sets the sources where Aspose.Words looks for TrueType fonts and additionally lo
 public void SetFontsSources(FontSourceBase[] sources, Stream cacheInputStream)
 ```
 
-| parameter | description |
-| --- | --- |
-| sources | An array of sources that contain TrueType fonts. |
-| cacheInputStream | Input stream with saved font search cache. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| sources | FontSourceBase[] | An array of sources that contain TrueType fonts. |
+| cacheInputStream | Stream | Input stream with saved font search cache. |
 
-## Remarks
+### Remarks
 
 Loading previously saved font search cache will speed up the font cache initialization process. It is especially useful when access to font sources is complicated (e.g. when fonts are loaded via network).
 

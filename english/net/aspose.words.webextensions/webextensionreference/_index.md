@@ -16,7 +16,7 @@ public class WebExtensionReference
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [WebExtensionReference](webextensionreference)() | The default constructor. |
 | [Id](id) { get; set; } | Identifier associated with the web extension within a catalog provider. |

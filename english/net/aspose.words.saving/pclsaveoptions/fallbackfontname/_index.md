@@ -14,9 +14,28 @@ Name of the font that will be used if no expected font is found in printer and b
 public string FallbackFontName { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 If no fallback is found, a warning is generated and "Arial" font is used.
+
+### Examples
+
+Shows how to declare a font that a printer will apply to printed text as a substitute should its original font be unavailable.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+builder.Font.Name = "Non-existent font";
+builder.Write("Hello world!");
+
+PclSaveOptions saveOptions = new PclSaveOptions();
+saveOptions.FallbackFontName = "Times New Roman";
+
+// This document will instruct the printer to apply "Times New Roman" to the text with the missing font.
+// Should "Times New Roman" also be unavailable, the printer will default to the "Arial" font.
+doc.Save(ArtifactsDir + "PclSaveOptions.SetPrinterFont.pcl", saveOptions);
+```
 
 ### See Also
 

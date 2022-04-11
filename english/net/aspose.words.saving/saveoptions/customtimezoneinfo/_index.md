@@ -3,7 +3,7 @@ title: CustomTimeZoneInfo
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 220
+weight: 210
 url: /net/aspose.words.saving/saveoptions/customtimezoneinfo/
 ---
 ## SaveOptions.CustomTimeZoneInfo property
@@ -14,7 +14,7 @@ Gets or sets custom local time zone used for date/time fields.
 public TimeZoneInfo CustomTimeZoneInfo { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 This option is available in either .Net framework starting from 3.5 version or .Net Standard.
 

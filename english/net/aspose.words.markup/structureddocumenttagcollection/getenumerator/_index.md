@@ -8,8 +8,6 @@ url: /net/aspose.words.markup/structureddocumenttagcollection/getenumerator/
 ---
 ## StructuredDocumentTagCollection.GetEnumerator method
 
-Returns an enumerator object.
-
 ```csharp
 public IEnumerator<IStructuredDocumentTag> GetEnumerator()
 ```

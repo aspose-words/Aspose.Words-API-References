@@ -14,9 +14,27 @@ Allows to specify `TextOrientation` for the whole page. Default value is Horizon
 public TextOrientation TextOrientation { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 This property is only supported for MS Word native formats DOCX, WML, RTF and DOC.
+
+### Examples
+
+Shows how to set text orientation.
+
+```csharp
+Document doc = new Document();
+
+DocumentBuilder builder = new DocumentBuilder(doc);
+builder.Writeln("Hello world!");
+
+// Set the "TextOrientation" property to "TextOrientation.Upward" to rotate all the text 90 degrees
+// to the right so that all left-to-right text now goes top-to-bottom.
+PageSetup pageSetup = doc.Sections[0].PageSetup;
+pageSetup.TextOrientation = TextOrientation.Upward;
+
+doc.Save(ArtifactsDir + "PageSetup.SetTextOrientation.docx");
+```
 
 ### See Also
 

@@ -14,19 +14,37 @@ Inserts an chart object into the document and scales it to the specified size.
 public Shape InsertChart(ChartType chartType, double width, double height)
 ```
 
-| parameter | description |
-| --- | --- |
-| chartType | The chart type to insert into the document. |
-| width | The width of the image in points. Can be a negative or zero value to request 100% scale. |
-| height | The height of the image in points. Can be a negative or zero value to request 100% scale. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| chartType | ChartType | The chart type to insert into the document. |
+| width | Double | The width of the image in points. Can be a negative or zero value to request 100% scale. |
+| height | Double | The height of the image in points. Can be a negative or zero value to request 100% scale. |
 
 ## Return Value
 
 The image node that was just inserted.
 
-## Remarks
+### Remarks
 
 You can change the image size, location, positioning method and other settings using the [`Shape`](../../../aspose.words.drawing/shape) object returned by this method.
+
+### Examples
+
+Shows how to insert a pie chart into a document.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+Chart chart = builder.InsertChart(ChartType.Pie, ConvertUtil.PixelToPoint(300), 
+    ConvertUtil.PixelToPoint(300)).Chart;
+chart.Series.Clear();
+chart.Series.Add("My fruit",
+    new[] { "Apples", "Bananas", "Cherries" },
+    new[] { 1.3, 2.2, 1.5 });
+
+doc.Save(ArtifactsDir + "DocumentBuilder.InsertPieChart.docx");
+```
 
 ### See Also
 
@@ -47,24 +65,38 @@ public Shape InsertChart(ChartType chartType, RelativeHorizontalPosition horzPos
     RelativeVerticalPosition vertPos, double top, double width, double height, WrapType wrapType)
 ```
 
-| parameter | description |
-| --- | --- |
-| chartType | The chart type to insert into the document. |
-| horzPos | Specifies where the distance to the image is measured from. |
-| left | Distance in points from the origin to the left side of the image. |
-| vertPos | Specifies where the distance to the image measured from. |
-| top | Distance in points from the origin to the top side of the image. |
-| width | The width of the image in points. Can be a negative or zero value to request 100% scale. |
-| height | The height of the image in points. Can be a negative or zero value to request 100% scale. |
-| wrapType | Specifies how to wrap text around the image. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| chartType | ChartType | The chart type to insert into the document. |
+| horzPos | RelativeHorizontalPosition | Specifies where the distance to the image is measured from. |
+| left | Double | Distance in points from the origin to the left side of the image. |
+| vertPos | RelativeVerticalPosition | Specifies where the distance to the image measured from. |
+| top | Double | Distance in points from the origin to the top side of the image. |
+| width | Double | The width of the image in points. Can be a negative or zero value to request 100% scale. |
+| height | Double | The height of the image in points. Can be a negative or zero value to request 100% scale. |
+| wrapType | WrapType | Specifies how to wrap text around the image. |
 
 ## Return Value
 
 The image node that was just inserted.
 
-## Remarks
+### Remarks
 
 You can change the image size, location, positioning method and other settings using the [`Shape`](../../../aspose.words.drawing/shape) object returned by this method.
+
+### Examples
+
+Shows how to specify position and wrapping while inserting a chart.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+builder.InsertChart(ChartType.Pie, RelativeHorizontalPosition.Margin, 100, RelativeVerticalPosition.Margin,
+    100, 200, 100, WrapType.Square);
+
+doc.Save(ArtifactsDir + "DocumentBuilder.InsertedChartRelativePosition.docx");
+```
 
 ### See Also
 

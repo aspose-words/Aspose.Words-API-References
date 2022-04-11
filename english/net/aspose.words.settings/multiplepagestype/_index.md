@@ -16,7 +16,7 @@ public enum MultiplePagesType
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | Normal | `0` | Normal printing, no multiple pages specified. |
 | MirrorMargins | `1` | Swaps left and right margins on facing pages. |

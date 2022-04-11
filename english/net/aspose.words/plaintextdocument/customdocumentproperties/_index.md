@@ -14,6 +14,25 @@ Gets `CustomDocumentProperties` of the document.
 public CustomDocumentProperties CustomDocumentProperties { get; }
 ```
 
+### Examples
+
+Shows how to load the contents of a Microsoft Word document in plaintext and then access the original document's custom properties.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+builder.Writeln("Hello world!");
+doc.CustomDocumentProperties.Add("Location of writing", "123 Main St, London, UK");
+
+doc.Save(ArtifactsDir + "PlainTextDocument.CustomDocumentProperties.docx");
+
+PlainTextDocument plaintext = new PlainTextDocument(ArtifactsDir + "PlainTextDocument.CustomDocumentProperties.docx");
+
+Assert.AreEqual("Hello world!", plaintext.Text.Trim());
+Assert.AreEqual("123 Main St, London, UK", plaintext.CustomDocumentProperties["Location of writing"].Value);
+```
+
 ### See Also
 
 * class [CustomDocumentProperties](../../../aspose.words.properties/customdocumentproperties)

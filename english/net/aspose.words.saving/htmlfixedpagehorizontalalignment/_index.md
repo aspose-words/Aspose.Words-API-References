@@ -16,11 +16,44 @@ public enum HtmlFixedPageHorizontalAlignment
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | Left | `0` | Align pages to the left. |
 | Center | `1` | Center pages. This is the default value. |
 | Right | `2` | Align pages to the right. |
+
+### Examples
+
+Shows how to set the horizontal alignment of pages when saving a document to HTML.
+
+```csharp
+Document doc = new Document(MyDir + "Rendering.docx");
+
+HtmlFixedSaveOptions htmlFixedSaveOptions = new HtmlFixedSaveOptions
+{
+    PageHorizontalAlignment = pageHorizontalAlignment
+};
+
+doc.Save(ArtifactsDir + "HtmlFixedSaveOptions.HorizontalAlignment.html", htmlFixedSaveOptions);
+
+string outDocContents = File.ReadAllText(ArtifactsDir + "HtmlFixedSaveOptions.HorizontalAlignment/styles.css");
+
+switch (pageHorizontalAlignment)
+{
+    case HtmlFixedPageHorizontalAlignment.Center:
+        Assert.True(Regex.Match(outDocContents,
+            "[.]awpage { position:relative; border:solid 1pt black; margin:10pt auto 10pt auto; overflow:hidden; }").Success);
+        break;
+    case HtmlFixedPageHorizontalAlignment.Left:
+        Assert.True(Regex.Match(outDocContents, 
+            "[.]awpage { position:relative; border:solid 1pt black; margin:10pt auto 10pt 10pt; overflow:hidden; }").Success);
+        break;
+    case HtmlFixedPageHorizontalAlignment.Right:
+        Assert.True(Regex.Match(outDocContents, 
+            "[.]awpage { position:relative; border:solid 1pt black; margin:10pt 10pt 10pt auto; overflow:hidden; }").Success);
+        break;
+}
+```
 
 ### See Also
 

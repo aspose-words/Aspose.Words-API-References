@@ -8,15 +8,9 @@ url: /net/aspose.words.markup/structureddocumenttagcollection/item/
 ---
 ## StructuredDocumentTagCollection indexer
 
-Returns the structured document tag by Id.
-
 ```csharp
 public IStructuredDocumentTag this[int id] { get; }
 ```
-
-| parameter | description |
-| --- | --- |
-| id | The structured document tag identifier. |
 
 ### See Also
 

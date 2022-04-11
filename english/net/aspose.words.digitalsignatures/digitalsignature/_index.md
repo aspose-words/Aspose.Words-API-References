@@ -16,7 +16,7 @@ public class DigitalSignature
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [CertificateHolder](certificateholder) { get; } | Returns the certificate holder object that contains the certificate was used to sign the document. |
 | [Comments](comments) { get; } | Gets the signing purpose comment. |
@@ -26,6 +26,25 @@ public class DigitalSignature
 | [SignTime](signtime) { get; } | Gets the time the document was signed. |
 | [SubjectName](subjectname) { get; } | Returns the subject distinguished name of the certificate that was used to sign the document. |
 | override [ToString](tostring)() | Returns a user-friendly string that displays the value of this object. |
+
+### Examples
+
+Shows how to validate and display information about each signature in a document.
+
+```csharp
+Document doc = new Document(MyDir + "Digitally signed.docx");
+
+foreach (DigitalSignature signature in doc.DigitalSignatures)
+{
+    Console.WriteLine($"{(signature.IsValid ? "Valid" : "Invalid")} signature: ");
+    Console.WriteLine($"\tReason:\t{signature.Comments}"); 
+    Console.WriteLine($"\tType:\t{signature.SignatureType}");
+    Console.WriteLine($"\tSign time:\t{signature.SignTime}");
+    Console.WriteLine($"\tSubject name:\t{signature.CertificateHolder.Certificate.SubjectName}");
+    Console.WriteLine($"\tIssuer name:\t{signature.CertificateHolder.Certificate.IssuerName.Name}");
+    Console.WriteLine();
+}
+```
 
 ### See Also
 

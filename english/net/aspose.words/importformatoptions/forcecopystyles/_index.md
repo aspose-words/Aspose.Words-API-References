@@ -14,7 +14,7 @@ Gets or sets a boolean value indicating either to copy conflicting styles in Kee
 public bool ForceCopyStyles { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 By default, if a matching style already exists in a destination document, the source style formatting is expanded into direct node attributes and the style of this node is reset to a default.
 

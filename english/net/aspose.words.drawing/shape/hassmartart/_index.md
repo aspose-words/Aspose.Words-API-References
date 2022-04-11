@@ -14,6 +14,18 @@ Returns true if this Shape has a SmartArt object.
 public bool HasSmartArt { get; }
 ```
 
+### Examples
+
+Shows how to count the number of shapes in a document with SmartArt objects.
+
+```csharp
+Document doc = new Document(MyDir + "SmartArt.docx");
+
+int numberOfSmartArtShapes = doc.GetChildNodes(NodeType.Shape, true).Cast<Shape>().Count(shape => shape.HasSmartArt);
+
+Assert.AreEqual(2, numberOfSmartArtShapes);
+```
+
 ### See Also
 
 * class [Shape](../../shape)

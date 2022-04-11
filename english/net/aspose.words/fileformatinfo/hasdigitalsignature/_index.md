@@ -14,9 +14,33 @@ Returns true if this document contains a digital signature. This property merely
 public bool HasDigitalSignature { get; }
 ```
 
-## Remarks
+### Remarks
 
 This property exists to help you sort documents that are digitally signed from those that are not. If you use Aspose.Words to modify and save a document that is digitally signed, then the digital signature will be lost. This is by design because a digital signature exists to guard the authenticity of a document. Using this property you can detect digitally signed documents before processing them in the same way as normal documents and take some action to avoid losing the digital signature, for example notify the user.
+
+### Examples
+
+Shows how to use the FileFormatUtil class to detect the document format and presence of digital signatures.
+
+```csharp
+// Use a FileFormatInfo instance to verify that a document is not digitally signed.
+FileFormatInfo info = FileFormatUtil.DetectFileFormat(MyDir + "Document.docx");
+
+Assert.AreEqual(".docx", FileFormatUtil.LoadFormatToExtension(info.LoadFormat));
+Assert.False(info.HasDigitalSignature);
+
+CertificateHolder certificateHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "aw", null);
+DigitalSignatureUtil.Sign(MyDir + "Document.docx", ArtifactsDir + "File.DetectDigitalSignatures.docx",
+    certificateHolder, new SignOptions() { SignTime = DateTime.Now });
+
+// Use a new FileFormatInstance to confirm that it is signed.
+info = FileFormatUtil.DetectFileFormat(ArtifactsDir + "File.DetectDigitalSignatures.docx");
+
+Assert.True(info.HasDigitalSignature);
+
+// We can load and access the signatures of a signed document in a collection like this.
+Assert.AreEqual(1, DigitalSignatureUtil.LoadSignatures(ArtifactsDir + "File.DetectDigitalSignatures.docx").Count);
+```
 
 ### See Also
 

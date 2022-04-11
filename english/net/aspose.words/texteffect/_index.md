@@ -16,7 +16,7 @@ public enum TextEffect
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | None | `0` |  |
 | LasVegasLights | `1` |  |

@@ -16,7 +16,7 @@ public class VbaProject
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [VbaProject](vbaproject)() | Creates a blank VbaProject. |
 | [CodePage](codepage) { get; } | Returns the VBA project’s code page. |
@@ -25,6 +25,34 @@ public class VbaProject
 | [Name](name) { get; set; } | Gets or sets VBA project name. |
 | [References](references) { get; } | Gets a collection of VBA project references. |
 | [Clone](clone)() | Performs a copy of the [`VbaProject`](../vbaproject). |
+
+### Examples
+
+Shows how to access a document's VBA project information.
+
+```csharp
+Document doc = new Document(MyDir + "VBA project.docm");
+
+// A VBA project contains a collection of VBA modules.
+VbaProject vbaProject = doc.VbaProject;
+Console.WriteLine(vbaProject.IsSigned
+    ? $"Project name: {vbaProject.Name} signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n"
+    : $"Project name: {vbaProject.Name} not signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n");
+
+VbaModuleCollection vbaModules = doc.VbaProject.Modules; 
+
+Assert.AreEqual(vbaModules.Count(), 3);
+
+foreach (VbaModule module in vbaModules)
+    Console.WriteLine($"Module name: {module.Name};\nModule code:\n{module.SourceCode}\n");
+
+// Set new source code for VBA module. You can access VBA modules in the collection either by index or by name.
+vbaModules[0].SourceCode = "Your VBA code...";
+vbaModules["Module1"].SourceCode = "Your VBA code...";
+
+// Remove a module from the collection.
+vbaModules.Remove(vbaModules[2]);
+```
 
 ### See Also
 

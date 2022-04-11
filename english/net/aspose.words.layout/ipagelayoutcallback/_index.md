@@ -16,11 +16,11 @@ public interface IPageLayoutCallback
 
 ## Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Notify](notify)(…) | This is called to notify of layout build and rendering progress. |
 
-## Remarks
+### Remarks
 
 The primary use for this interface is to allow application code to abort build process.
 
@@ -29,6 +29,70 @@ It is possible to build page layout model for only a few pages at start of the d
 Note, however, that rendering results may not match what would be rendered for each page if process would have finished.
 
 This technique may not work for every document or may fail completely.
+
+### Examples
+
+Shows how to track layout changes with a layout callback.
+
+```csharp
+[Test]
+public void PageLayoutCallback()
+{
+    Document doc = new Document();
+    doc.BuiltInDocumentProperties.Title = "My Document";
+
+    DocumentBuilder builder = new DocumentBuilder(doc);
+    builder.Writeln("Hello world!");
+
+    doc.LayoutOptions.Callback = new RenderPageLayoutCallback();
+    doc.UpdatePageLayout();
+
+    doc.Save(ArtifactsDir + "Layout.PageLayoutCallback.pdf");
+}
+
+/// <summary>
+/// Notifies us when we save the document to a fixed page format
+/// and renders a page that we perform a page reflow on to an image in the local file system.
+/// </summary>
+private class RenderPageLayoutCallback : IPageLayoutCallback
+{
+    public void Notify(PageLayoutCallbackArgs a)
+    {
+        switch (a.Event)
+        {
+            case PageLayoutEvent.PartReflowFinished:
+                NotifyPartFinished(a);
+                break;
+            case PageLayoutEvent.ConversionFinished:
+                NotifyConversionFinished(a);
+                break;
+        }
+    }
+
+    private void NotifyPartFinished(PageLayoutCallbackArgs a)
+    {
+        Console.WriteLine($"Part at page {a.PageIndex + 1} reflow.");
+        RenderPage(a, a.PageIndex);
+    }
+
+    private void NotifyConversionFinished(PageLayoutCallbackArgs a)
+    {
+        Console.WriteLine($"Document \"{a.Document.BuiltInDocumentProperties.Title}\" converted to page format.");
+    }
+
+    private void RenderPage(PageLayoutCallbackArgs a, int pageIndex)
+    {
+        ImageSaveOptions saveOptions = new ImageSaveOptions(SaveFormat.Png) { PageSet = new PageSet(pageIndex) };
+
+        using (FileStream stream =
+            new FileStream(ArtifactsDir + $@"PageLayoutCallback.page-{pageIndex + 1} {++mNum}.png",
+                FileMode.Create))
+            a.Document.Save(stream, saveOptions);
+    }
+
+    private int mNum;
+}
+```
 
 ### See Also
 

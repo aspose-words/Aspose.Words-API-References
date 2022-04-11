@@ -26,9 +26,9 @@ Adds the specified Type object to the set. Throws ArgumentException in the follo
 public void Add(Type type)
 ```
 
-| parameter | description |
-| --- | --- |
-| type | A Type object to add. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| type | Type | A Type object to add. |
 
 ### See Also
 

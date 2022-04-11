@@ -16,7 +16,7 @@ public class Field
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [DisplayResult](displayresult) { get; } | Gets the text that represents the displayed field result. |
 | [End](end) { get; } | Gets the node that represents the field end. |
@@ -35,13 +35,7 @@ public class Field
 | [Update](update)() | Performs the field update. Throws if the field is being updated already. |
 | [Update](update)(…) | Performs a field update. Throws if the field is being updated already. |
 
-## Protected Members
-
-| name | description |
-| --- | --- |
-| virtual [NeedStoreOldResultNodes](needstoreoldresultnodes)() |  |
-
-## Remarks
+### Remarks
 
 A field in a Word document is a complex structure consisting of multiple nodes that include field start, field code, field separator, field result and field end. Fields can be nested, contain rich content and span multiple paragraphs or sections in a document. The [`Field`](../field) class is a "facade" object that provides properties and methods that allow to work with a field as a single object.
 
@@ -54,6 +48,23 @@ The process of calculating field results is called the field update. Aspose.Word
 You can get the plain text version of the field code using the [`GetFieldCode`](./getfieldcode) method. You can get and set the plain text version of the field result using the [`Result`](./result) property. Both the field code and field result can contain complex content, such as nested fields, paragraphs, shapes, tables and in this case you might want to work with the field nodes directly if you need more control.
 
 You do not create instances of the [`Field`](../field) class directly. To create a new field use the [`InsertField`](../../aspose.words/documentbuilder/insertfield) method.
+
+### Examples
+
+Shows how to insert a field into a document using a field code.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+Field field = builder.InsertField("DATE \\@ \"dddd, MMMM dd, yyyy\"");
+
+Assert.AreEqual(FieldType.FieldDate, field.Type);
+Assert.AreEqual("DATE \\@ \"dddd, MMMM dd, yyyy\"", field.GetFieldCode());
+
+// This overload of the InsertField method automatically updates inserted fields.
+Assert.That(DateTime.Parse(field.Result), Is.EqualTo(DateTime.Today).Within(1).Days);
+```
 
 ### See Also
 

@@ -14,10 +14,10 @@ Initializes width and height to the given values in pixels. Initializes resoluti
 public ImageSize(int widthPixels, int heightPixels)
 ```
 
-| parameter | description |
-| --- | --- |
-| widthPixels | Width in pixels. |
-| heightPixels | Height in pixels. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| widthPixels | Int32 | Width in pixels. |
+| heightPixels | Int32 | Height in pixels. |
 
 ### See Also
 
@@ -36,12 +36,12 @@ public ImageSize(int widthPixels, int heightPixels, double horizontalResolution,
     double verticalResolution)
 ```
 
-| parameter | description |
-| --- | --- |
-| widthPixels | Width in pixels. |
-| heightPixels | Height in pixels. |
-| horizontalResolution | Horizontal resolution in DPI. |
-| verticalResolution | Vertical resolution in DPI. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| widthPixels | Int32 | Width in pixels. |
+| heightPixels | Int32 | Height in pixels. |
+| horizontalResolution | Double | Horizontal resolution in DPI. |
+| verticalResolution | Double | Vertical resolution in DPI. |
 
 ### See Also
 

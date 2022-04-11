@@ -3,7 +3,7 @@ title: Count
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 60
+weight: 50
 url: /net/aspose.words.webextensions/basewebextensioncollection-1/count/
 ---
 ## BaseWebExtensionCollection&lt;T&gt;.Count property
@@ -12,6 +12,32 @@ Gets the number of elements contained in the collection.
 
 ```csharp
 public int Count { get; }
+```
+
+### Examples
+
+Shows how to work with a document's collection of web extensions.
+
+```csharp
+Document doc = new Document(MyDir + "Web extension.docx");
+
+Assert.AreEqual(1, doc.WebExtensionTaskPanes.Count);
+
+// Print all properties of the document's web extension.
+WebExtensionPropertyCollection webExtensionPropertyCollection = doc.WebExtensionTaskPanes[0].WebExtension.Properties;
+using (IEnumerator<WebExtensionProperty> enumerator = webExtensionPropertyCollection.GetEnumerator())
+{
+    while (enumerator.MoveNext())
+    {
+        WebExtensionProperty webExtensionProperty = enumerator.Current;
+        Console.WriteLine($"Binding name: {webExtensionProperty.Name}; Binding value: {webExtensionProperty.Value}");
+    }
+}
+
+// Remove the web extension.
+doc.WebExtensionTaskPanes.Remove(0);
+
+Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
 ```
 
 ### See Also

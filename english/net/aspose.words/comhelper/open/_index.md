@@ -14,17 +14,39 @@ Allows a COM application to load [`Document`](../../document) from a stream.
 public Document Open(Stream stream)
 ```
 
-| parameter | description |
-| --- | --- |
-| stream | A .NET stream object that contains the document to load. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| stream | Stream | A .NET stream object that contains the document to load. |
 
 ## Return Value
 
 A [`Document`](../../document) object that represents a Word document.
 
-## Remarks
+### Remarks
 
 This method is same as calling the [`Document`](../../document) constructor with a stream parameter.
+
+### Examples
+
+Shows how to open documents using the ComHelper class.
+
+```csharp
+// The ComHelper class allows us to load documents from within COM clients.
+ComHelper comHelper = new ComHelper();
+
+// 1 -  Using a local system filename:
+Document doc = comHelper.Open(MyDir + "Document.docx");
+
+Assert.AreEqual("Hello World!\r\rHello Word!\r\r\rHello World!", doc.GetText().Trim());
+
+// 2 -  From a stream:
+using (FileStream stream = new FileStream(MyDir + "Document.docx", FileMode.Open))
+{
+    doc = comHelper.Open(stream);
+
+    Assert.AreEqual("Hello World!\r\rHello Word!\r\r\rHello World!", doc.GetText().Trim());
+}
+```
 
 ### See Also
 
@@ -43,19 +65,19 @@ Allows a COM application to load a [`Document`](../../document) from a file.
 public Document Open(string fileName)
 ```
 
-| parameter | description |
-| --- | --- |
-| fileName | Filename of the document to load. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| fileName | String | Filename of the document to load. |
 
 ## Return Value
 
 A [`Document`](../../document) object that represents a Word document.
 
-## Remarks
+### Remarks
 
 This method is same as calling the [`Document`](../../document) constructor with a file name parameter.
 
-## Examples
+### Examples
 
 ```csharp
 [VBScript]
@@ -65,6 +87,26 @@ Set helper = CreateObject("Aspose.Words.ComHelper")
 
 Dim doc
 Set doc = helper.Open(fileName)
+```
+
+Shows how to open documents using the ComHelper class.
+
+```csharp
+// The ComHelper class allows us to load documents from within COM clients.
+ComHelper comHelper = new ComHelper();
+
+// 1 -  Using a local system filename:
+Document doc = comHelper.Open(MyDir + "Document.docx");
+
+Assert.AreEqual("Hello World!\r\rHello Word!\r\r\rHello World!", doc.GetText().Trim());
+
+// 2 -  From a stream:
+using (FileStream stream = new FileStream(MyDir + "Document.docx", FileMode.Open))
+{
+    doc = comHelper.Open(stream);
+
+    Assert.AreEqual("Hello World!\r\rHello Word!\r\r\rHello World!", doc.GetText().Trim());
+}
 ```
 
 ### See Also

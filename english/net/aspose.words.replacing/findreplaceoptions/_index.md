@@ -16,7 +16,7 @@ public class FindReplaceOptions
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [FindReplaceOptions](findreplaceoptions)() | The default constructor. |
 | [FindReplaceOptions](findreplaceoptions)(…) |  (3 constructors) |
@@ -35,6 +35,51 @@ public class FindReplaceOptions
 | [SmartParagraphBreakReplacement](smartparagraphbreakreplacement) { get; set; } | Gets or sets a boolean value indicating either it is allowed to replace paragraph break when there is no next sibling paragraph. |
 | [UseLegacyOrder](uselegacyorder) { get; set; } | True indicates that a text search is performed sequentially from top to bottom considering the text boxes. Default value is false. |
 | [UseSubstitutions](usesubstitutions) { get; set; } | Gets or sets a boolean value indicating whether to recognize and use substitutions within replacement patterns. The default value is `false`. |
+
+### Examples
+
+Shows how to toggle case sensitivity when performing a find-and-replace operation.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+builder.Writeln("Ruby bought a ruby necklace.");
+
+// We can use a "FindReplaceOptions" object to modify the find-and-replace process.
+FindReplaceOptions options = new FindReplaceOptions();
+
+// Set the "MatchCase" flag to "true" to apply case sensitivity while finding strings to replace.
+// Set the "MatchCase" flag to "false" to ignore character case while searching for text to replace.
+options.MatchCase = matchCase;
+
+doc.Range.Replace("Ruby", "Jade", options);
+
+Assert.AreEqual(matchCase ? "Jade bought a ruby necklace." : "Jade bought a Jade necklace.",
+    doc.GetText().Trim());
+```
+
+Shows how to toggle standalone word-only find-and-replace operations.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+builder.Writeln("Jackson will meet you in Jacksonville.");
+
+// We can use a "FindReplaceOptions" object to modify the find-and-replace process.
+FindReplaceOptions options = new FindReplaceOptions();
+
+// Set the "FindWholeWordsOnly" flag to "true" to replace the found text if it is not a part of another word.
+// Set the "FindWholeWordsOnly" flag to "false" to replace all text regardless of its surroundings.
+options.FindWholeWordsOnly = findWholeWordsOnly;
+
+doc.Range.Replace("Jackson", "Louis", options);
+
+Assert.AreEqual(
+    findWholeWordsOnly ? "Louis will meet you in Jacksonville." : "Louis will meet you in Louisville.",
+    doc.GetText().Trim());
+```
 
 ### See Also
 

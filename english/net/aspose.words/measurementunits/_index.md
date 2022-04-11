@@ -16,7 +16,7 @@ public enum MeasurementUnits
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | Inches | `0` | Inches. |
 | Centimeters | `1` | Centimeters. |

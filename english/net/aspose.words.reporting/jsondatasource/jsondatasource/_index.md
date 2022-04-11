@@ -14,9 +14,9 @@ Creates a new data source with data from a JSON stream using default options for
 public JsonDataSource(Stream jsonStream)
 ```
 
-| parameter | description |
-| --- | --- |
-| jsonStream | The stream of JSON data to be used as the data source. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| jsonStream | Stream | The stream of JSON data to be used as the data source. |
 
 ### See Also
 
@@ -34,9 +34,9 @@ Creates a new data source with data from a JSON file using default options for p
 public JsonDataSource(string jsonPath)
 ```
 
-| parameter | description |
-| --- | --- |
-| jsonPath | The path to the JSON file to be used as the data source. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| jsonPath | String | The path to the JSON file to be used as the data source. |
 
 ### See Also
 
@@ -54,10 +54,10 @@ Creates a new data source with data from a JSON stream using the specified optio
 public JsonDataSource(Stream jsonStream, JsonDataLoadOptions options)
 ```
 
-| parameter | description |
-| --- | --- |
-| jsonStream | The stream of JSON data to be used as the data source. |
-| options | Options for parsing JSON data. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| jsonStream | Stream | The stream of JSON data to be used as the data source. |
+| options | JsonDataLoadOptions | Options for parsing JSON data. |
 
 ### See Also
 
@@ -76,10 +76,10 @@ Creates a new data source with data from a JSON file using the specified options
 public JsonDataSource(string jsonPath, JsonDataLoadOptions options)
 ```
 
-| parameter | description |
-| --- | --- |
-| jsonPath | The path to the JSON file to be used as the data source. |
-| options | Options for parsing JSON data. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| jsonPath | String | The path to the JSON file to be used as the data source. |
+| options | JsonDataLoadOptions | Options for parsing JSON data. |
 
 ### See Also
 

@@ -8,8 +8,6 @@ url: /net/aspose.words.markup/structureddocumenttagcollection/count/
 ---
 ## StructuredDocumentTagCollection.Count property
 
-Returns the number of structured document tags in the collection.
-
 ```csharp
 public int Count { get; }
 ```

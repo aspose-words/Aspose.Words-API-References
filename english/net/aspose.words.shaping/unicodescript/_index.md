@@ -14,7 +14,7 @@ public enum UnicodeScript
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | Adlam | `1097100397` |  |
 | Caucasian_Albanian | `1097295970` |  |

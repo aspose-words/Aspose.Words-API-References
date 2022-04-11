@@ -16,7 +16,7 @@ public class Chart
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [AxisX](axisx) { get; } | Provides access to properties of the X axis of the chart. |
 | [AxisY](axisy) { get; } | Provides access to properties of the Y axis of the chart. |
@@ -25,6 +25,31 @@ public class Chart
 | [Series](series) { get; } | Provides access to series collection. |
 | [SourceFullName](sourcefullname) { get; set; } | Gets the path and name of an xls/xlsx file this chart is linked to. |
 | [Title](title) { get; } | Provides access to the chart title properties. |
+
+### Examples
+
+Shows how to insert a chart and set a title.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+// Insert a chart shape with a document builder and get its chart.
+Shape chartShape = builder.InsertChart(ChartType.Bar, 400, 300);
+Chart chart = chartShape.Chart;
+
+// Use the "Title" property to give our chart a title, which appears at the top center of the chart area.
+ChartTitle title = chart.Title;
+title.Text = "My Chart";
+
+// Set the "Show" property to "true" to make the title visible. 
+title.Show = true;
+
+// Set the "Overlay" property to "true" Give other chart elements more room by allowing them to overlap the title
+title.Overlay = true;
+
+doc.Save(ArtifactsDir + "Charts.ChartTitle.docx");
+```
 
 ### See Also
 

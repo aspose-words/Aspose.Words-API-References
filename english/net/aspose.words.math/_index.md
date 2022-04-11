@@ -1,5 +1,5 @@
 ---
-title: Aspose.Words.Math Namespace
+title: Aspose.Words.Math
 second_title: Aspose.Words for .NET API Reference
 description: The Aspose.Words.Math namespace contains classes that represent Office Math elements.
 type: docs
@@ -8,12 +8,16 @@ url: /net/aspose.words.math/
 ---
 The Aspose.Words.Math namespace contains classes that represent Office Math elements.
 
-## Members
+## Classes
 
-| public type | description |
+| Class | Description |
+| --- | --- |
+| class [OfficeMath](./officemath) | Represents an Office Math object such as function, equation, matrix or alike. Can contain child elements including runs of mathematical text, bookmarks, comments, other [`OfficeMath`](aspose.words.math/officemath) instances and some other nodes. |
+## Enumeration
+
+| Enumeration | Description |
 | --- | --- |
 | enum [MathObjectType](./mathobjecttype) | Specifies type of an Office Math object. |
-| class [OfficeMath](./officemath) | Represents an Office Math object such as function, equation, matrix or alike. Can contain child elements including runs of mathematical text, bookmarks, comments, other [`OfficeMath`](aspose.words.math/officemath) instances and some other nodes. |
 | enum [OfficeMathDisplayType](./officemathdisplaytype) | Specifies the display format type of the equation. |
 | enum [OfficeMathJustification](./officemathjustification) | Specifies the justification of the equation. |
 

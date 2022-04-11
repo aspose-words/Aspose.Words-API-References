@@ -16,7 +16,7 @@ public class Fill
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [BackColor](backcolor) { get; set; } | Gets or sets a Color object that represents the background color for the fill. |
 | [FillType](filltype) { get; } | Gets a fill type. |
@@ -41,9 +41,41 @@ public class Fill
 | [Solid](solid)(…) | Sets the fill to a specified uniform color. |
 | [TwoColorGradient](twocolorgradient)(…) | Sets the specified fill to a two-color gradient. (2 methods) |
 
-## Remarks
+### Remarks
 
 Use the [`Fill`](../shapebase/fill) or [`Fill`](../../aspose.words/font/fill) property to access fill properties of an object. You do not create instances of the [`Fill`](../fill) class directly.
+
+### Examples
+
+Shows how to fill a shape with a solid color.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+// Write some text, and then cover it with a floating shape.
+builder.Font.Size = 32;
+builder.Writeln("Hello world!");
+
+Shape shape = builder.InsertShape(ShapeType.CloudCallout, RelativeHorizontalPosition.LeftMargin, 25,
+    RelativeVerticalPosition.TopMargin, 25, 250, 150, WrapType.None);
+
+// Use the "StrokeColor" property to set the color of the outline of the shape.
+shape.StrokeColor = Color.CadetBlue;
+
+// Use the "FillColor" property to set the color of the inside area of the shape.
+shape.FillColor = Color.LightBlue;
+
+// The "Opacity" property determines how transparent the color is on a 0-1 scale,
+// with 1 being fully opaque, and 0 being invisible.
+// The shape fill by default is fully opaque, so we cannot see the text that this shape is on top of.
+Assert.AreEqual(1.0d, shape.Fill.Opacity);
+
+// Set the shape fill color's opacity to a lower value so that we can see the text underneath it.
+shape.Fill.Opacity = 0.3;
+
+doc.Save(ArtifactsDir + "Shape.Fill.docx");
+```
 
 ### See Also
 

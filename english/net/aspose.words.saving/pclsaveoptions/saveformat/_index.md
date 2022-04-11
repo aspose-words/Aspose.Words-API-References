@@ -14,6 +14,22 @@ Specifies the format in which the document will be saved if this save options ob
 public override SaveFormat SaveFormat { get; set; }
 ```
 
+### Examples
+
+Shows how to rasterize complex elements while saving a document to PCL.
+
+```csharp
+Document doc = new Document(MyDir + "Rendering.docx");
+
+PclSaveOptions saveOptions = new PclSaveOptions
+{
+    SaveFormat = SaveFormat.Pcl,
+    RasterizeTransformedElements = true
+};
+
+doc.Save(ArtifactsDir + "PclSaveOptions.RasterizeElements.pcl", saveOptions);
+```
+
 ### See Also
 
 * enum [SaveFormat](../../../aspose.words/saveformat)

@@ -14,13 +14,6 @@ Base class for internable complex attribute. Internable complex attribute should
 public abstract class InternableComplexAttr
 ```
 
-## Protected Members
-
-| name | description |
-| --- | --- |
-| [InternableComplexAttr](internablecomplexattr)() | The default constructor. |
-| [NotifyChanging](notifychanging)() |  |
-
 ### See Also
 
 * namespace [Aspose.Words](../../aspose.words)

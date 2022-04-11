@@ -16,7 +16,7 @@ public sealed class PageSet
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [PageSet](pageset)(…) | Creates an one-page set based on exact page index. (3 constructors) |
 | static [All](all) { get; } | Gets a set with all the pages of the document in their original order. |

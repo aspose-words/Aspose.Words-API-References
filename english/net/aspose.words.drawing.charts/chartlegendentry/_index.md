@@ -16,12 +16,12 @@ public class ChartLegendEntry
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Font](font) { get; } | Provides access to the font formatting of this legend entry. |
 | [IsHidden](ishidden) { get; set; } | Gets or sets a value indicating whether this entry is hidden in the chart legend. The default value is false. |
 
-## Remarks
+### Remarks
 
 A legend entry corresponds to a specific chart series or trendline.The text of the entry is the name of the series or trendline. The text cannot be changed.
 

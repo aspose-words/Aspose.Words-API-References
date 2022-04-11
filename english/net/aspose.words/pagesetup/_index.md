@@ -16,7 +16,7 @@ public class PageSetup
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [Bidi](bidi) { get; set; } | Specifies that this section contains bidirectional (complex scripts) text. |
 | [BorderAlwaysInFront](borderalwaysinfront) { get; set; } | Specifies where the page border is positioned relative to intersecting texts and objects. |
@@ -62,9 +62,40 @@ public class PageSetup
 | [VerticalAlignment](verticalalignment) { get; set; } | Returns or sets the vertical alignment of text on each page in a document or section. |
 | [ClearFormatting](clearformatting)() | Resets page setup to default paper size, margins and orientation. |
 
-## Remarks
+### Remarks
 
 PageSetup object contains all the page setup attributes of a section (left margin, bottom margin, paper size, and so on) as properties.
+
+### Examples
+
+Shows how to apply and revert page setup settings to sections in a document.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+// Modify the page setup properties for the builder's current section and add text.
+builder.PageSetup.Orientation = Orientation.Landscape;
+builder.PageSetup.VerticalAlignment = PageVerticalAlignment.Center;
+builder.Writeln("This is the first section, which landscape oriented with vertically centered text.");
+
+// If we start a new section using a document builder,
+// it will inherit the builder's current page setup properties.
+builder.InsertBreak(BreakType.SectionBreakNewPage);
+
+Assert.AreEqual(Orientation.Landscape, doc.Sections[1].PageSetup.Orientation);
+Assert.AreEqual(PageVerticalAlignment.Center, doc.Sections[1].PageSetup.VerticalAlignment);
+
+// We can revert its page setup properties to their default values using the "ClearFormatting" method.
+builder.PageSetup.ClearFormatting();
+
+Assert.AreEqual(Orientation.Portrait, doc.Sections[1].PageSetup.Orientation);
+Assert.AreEqual(PageVerticalAlignment.Top, doc.Sections[1].PageSetup.VerticalAlignment);
+
+builder.Writeln("This is the second section, which is in default Letter paper size, portrait orientation and top alignment.");
+
+doc.Save(ArtifactsDir + "PageSetup.ClearFormatting.docx");
+```
 
 ### See Also
 

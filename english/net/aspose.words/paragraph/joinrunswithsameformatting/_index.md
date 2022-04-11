@@ -18,6 +18,44 @@ public int JoinRunsWithSameFormatting()
 
 Number of joins performed. When N adjacent runs are being joined they count as N - 1 joins.
 
+### Examples
+
+Shows how to simplify paragraphs by merging superfluous runs.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+// Insert four runs of text into the paragraph.
+builder.Write("Run 1. ");
+builder.Write("Run 2. ");
+builder.Write("Run 3. ");
+builder.Write("Run 4. ");
+
+// If we open this document in Microsoft Word, the paragraph will look like one seamless text body.
+// However, it will consist of four separate runs with the same formatting. Fragmented paragraphs like this
+// may occur when we manually edit parts of one paragraph many times in Microsoft Word.
+Paragraph para = builder.CurrentParagraph;
+
+Assert.AreEqual(4, para.Runs.Count);
+
+// Change the style of the last run to set it apart from the first three.
+para.Runs[3].Font.StyleIdentifier = StyleIdentifier.Emphasis;
+
+// We can run the "JoinRunsWithSameFormatting" method to optimize the document's contents
+// by merging similar runs into one, reducing their overall count.
+// This method also returns the number of runs that this method merged.
+// These two merges occurred to combine Runs #1, #2, and #3,
+// while leaving out Run #4 because it has an incompatible style.
+Assert.AreEqual(2, para.JoinRunsWithSameFormatting());
+
+// The number of runs left will equal the original count
+// minus the number of run merges that the "JoinRunsWithSameFormatting" method carried out.
+Assert.AreEqual(2, para.Runs.Count);
+Assert.AreEqual("Run 1. Run 2. Run 3. ", para.Runs[0].Text);
+Assert.AreEqual("Run 4. ", para.Runs[1].Text);
+```
+
 ### See Also
 
 * class [Paragraph](../../paragraph)

@@ -16,7 +16,7 @@ public abstract class Story : CompositeNode
 
 ## Public Members
 
-| name | description |
+| Name | Description |
 | --- | --- |
 | [FirstParagraph](firstparagraph) { get; } | Gets the first paragraph in the story. |
 | [LastParagraph](lastparagraph) { get; } | Gets the last paragraph in the story. |
@@ -26,9 +26,30 @@ public abstract class Story : CompositeNode
 | [AppendParagraph](appendparagraph)(…) | A shortcut method that creates a [`Paragraph`](../paragraph) object with optional text and appends it to the end of this object. |
 | [DeleteShapes](deleteshapes)() | Deletes all shapes from the text of this story. |
 
-## Remarks
+### Remarks
 
 Text of a Word document is said to consist of several stories. The main text is stored in the main text story represented by [`Body`](../body), each header and footer is stored in a separate story represented by [`HeaderFooter`](../headerfooter).
+
+### Examples
+
+Shows how to remove all shapes from a node.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+// Use a DocumentBuilder to insert a shape. This is an inline shape,
+// which has a parent Paragraph, which is a child node of the first section's Body.
+builder.InsertShape(ShapeType.Cube, 100.0, 100.0);
+
+Assert.AreEqual(1, doc.GetChildNodes(NodeType.Shape, true).Count);
+
+// We can delete all shapes from the child paragraphs of this Body.
+Assert.AreEqual(StoryType.MainText, doc.FirstSection.Body.StoryType);
+doc.FirstSection.Body.DeleteShapes();
+
+Assert.AreEqual(0, doc.GetChildNodes(NodeType.Shape, true).Count);
+```
 
 ### See Also
 

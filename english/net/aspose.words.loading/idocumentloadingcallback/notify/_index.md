@@ -14,11 +14,11 @@ This is called to notify of document loading progress.
 public void Notify(DocumentLoadingArgs args)
 ```
 
-| parameter | description |
-| --- | --- |
-| args | An argument of the event. |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| args | DocumentLoadingArgs | An argument of the event. |
 
-## Remarks
+### Remarks
 
 The primary uses for this interface is to allow application code to obtain progress status and abort loading process.
 

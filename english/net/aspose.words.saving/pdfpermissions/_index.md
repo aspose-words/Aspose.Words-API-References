@@ -17,7 +17,7 @@ public enum PdfPermissions
 
 ## Values
 
-| name | value | description |
+| Name | Value | Description |
 | --- | --- | --- |
 | DisallowAll | `0x0` | Disallows all operations on the PDF document. This is the default value. |
 | AllowAll | `0xFFFF` | Allows all operations on the PDF document. |
@@ -29,6 +29,36 @@ public enum PdfPermissions
 | DocumentAssembly | `0x400` | Assemble the document (insert, rotate, or delete pages and create document outline items or thumbnail images), even if ModifyContents is clear. |
 | Printing | `0x4` | Print the document (possibly not at the highest quality level, depending on whether HighResolutionPrinting is also set). |
 | HighResolutionPrinting | `0x804` | Print the document to a representation from which a faithful digital copy of the PDF content could be generated, based on an implementation-dependent algorithm. When this flag is clear (and Printing is set), printing shall be limited to a low-level representation of the appearance, possibly of degraded quality. |
+
+### Examples
+
+Shows how to set permissions on a saved PDF document.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+builder.Writeln("Hello world!");
+
+PdfEncryptionDetails encryptionDetails =
+    new PdfEncryptionDetails("password", string.Empty);
+
+// Start by disallowing all permissions.
+encryptionDetails.Permissions = PdfPermissions.DisallowAll;
+
+// Extend permissions to allow the editing of annotations.
+encryptionDetails.Permissions = PdfPermissions.ModifyAnnotations | PdfPermissions.DocumentAssembly;
+
+// Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+// to modify how that method converts the document to .PDF.
+PdfSaveOptions saveOptions = new PdfSaveOptions();
+
+// Enable encryption via the "EncryptionDetails" property.
+saveOptions.EncryptionDetails = encryptionDetails;
+
+// When we open this document, we will need to provide the password before accessing its contents.
+doc.Save(ArtifactsDir + "PdfSaveOptions.EncryptionPermissions.pdf", saveOptions);
+```
 
 ### See Also
 

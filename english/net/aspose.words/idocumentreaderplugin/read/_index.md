@@ -14,11 +14,11 @@ Reads the data from the specified stream into the [`Document`](../../document) i
 public void Read(Stream src, LoadOptions loadOptions, Document document)
 ```
 
-| parameter | description |
-| --- | --- |
-| src | The source stream to read the document from. |
-| loadOptions | An additional load options to load the document. |
-| document | The instance of the [`Document`](../../document) class to read the data to. If the instance contains some content, it will be overridden by the data from the source stream |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| src | Stream | The source stream to read the document from. |
+| loadOptions | LoadOptions | An additional load options to load the document. |
+| document | Document | The instance of the [`Document`](../../document) class to read the data to. If the instance contains some content, it will be overridden by the data from the source stream |
 
 ### See Also
 

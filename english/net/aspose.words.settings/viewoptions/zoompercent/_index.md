@@ -14,9 +14,27 @@ Gets or sets the percentage (between 10 and 500) at which you want to view your 
 public int ZoomPercent { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 If value is 0 then this property uses 100 instead, else if value is less than 10 or greater than 500 this property throws.Although Aspose.Words is able to read and write this option, its usage is application-specific. For example MS Word 2013 does not respect the value of this option.
+
+### Examples
+
+Shows how to set a custom zoom factor, which older versions of Microsoft Word will apply to a document upon loading.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+builder.Writeln("Hello world!");
+
+doc.ViewOptions.ViewType = ViewType.PageLayout;
+doc.ViewOptions.ZoomPercent = 50;
+
+Assert.AreEqual(ZoomType.Custom, doc.ViewOptions.ZoomType);
+Assert.AreEqual(ZoomType.None, doc.ViewOptions.ZoomType);
+
+doc.Save(ArtifactsDir + "ViewOptions.SetZoomPercentage.doc");
+```
 
 ### See Also
 
