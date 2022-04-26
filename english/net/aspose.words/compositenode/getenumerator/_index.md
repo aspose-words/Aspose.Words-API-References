@@ -3,7 +3,7 @@ title: GetEnumerator
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 60
+weight: 110
 url: /net/aspose.words/compositenode/getenumerator/
 ---
 ## CompositeNode.GetEnumerator method

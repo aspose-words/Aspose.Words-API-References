@@ -11,7 +11,7 @@ url: /net/aspose.words.markup/sdtlistitem/sdtlistitem/
 Initializes a new instance of this class.
 
 ```csharp
-public SdtListItem(string value)
+public SdtListItem(string displayText, string value)
 ```
 
 ### Examples
@@ -81,7 +81,7 @@ Assert.AreEqual(0, listItems.Count);
 Initializes a new instance of this class.
 
 ```csharp
-public SdtListItem(string displayText, string value)
+public SdtListItem(string value)
 ```
 
 ### Examples

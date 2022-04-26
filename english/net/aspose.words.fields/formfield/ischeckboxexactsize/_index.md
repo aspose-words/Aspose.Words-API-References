@@ -3,7 +3,7 @@ title: IsCheckBoxExactSize
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 240
+weight: 110
 url: /net/aspose.words.fields/formfield/ischeckboxexactsize/
 ---
 ## FormField.IsCheckBoxExactSize property

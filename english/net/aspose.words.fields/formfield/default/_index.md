@@ -3,12 +3,12 @@ title: Default
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 230
+weight: 40
 url: /net/aspose.words.fields/formfield/default/
 ---
 ## FormField.Default property
 
-Gets or sets the default value of the check box form field. Default value for this property is false.
+Gets or sets the default value of the check box form field. Default value for this property is **false**.
 
 ```csharp
 public bool Default { get; set; }

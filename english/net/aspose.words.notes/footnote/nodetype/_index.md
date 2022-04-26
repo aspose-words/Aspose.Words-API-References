@@ -3,12 +3,12 @@ title: NodeType
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 30
+weight: 40
 url: /net/aspose.words.notes/footnote/nodetype/
 ---
 ## Footnote.NodeType property
 
-Returns NodeType.Footnote.
+Returns **NodeType.Footnote**.
 
 ```csharp
 public override NodeType NodeType { get; }

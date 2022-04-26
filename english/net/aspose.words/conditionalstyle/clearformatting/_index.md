@@ -3,7 +3,7 @@ title: ClearFormatting
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 10
+weight: 100
 url: /net/aspose.words/conditionalstyle/clearformatting/
 ---
 ## ConditionalStyle.ClearFormatting method

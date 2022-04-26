@@ -3,7 +3,7 @@ title: IResourceLoadingCallback
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 3380
+weight: 3350
 url: /net/aspose.words.loading/iresourceloadingcallback/
 ---
 ## IResourceLoadingCallback interface
@@ -14,11 +14,11 @@ Implement this interface if you want to control how Aspose.Words loads external 
 public interface IResourceLoadingCallback
 ```
 
-## Members
+## Methods
 
 | Name | Description |
 | --- | --- |
-| [ResourceLoading](resourceloading)(…) | Called when Aspose.Words loads any external resource. |
+| [ResourceLoading](resourceloading)(ResourceLoadingArgs) | Called when Aspose.Words loads any external resource. |
 
 ### Examples
 

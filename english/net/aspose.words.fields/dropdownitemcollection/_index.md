@@ -3,7 +3,7 @@ title: DropDownItemCollection
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 1320
+weight: 1300
 url: /net/aspose.words.fields/dropdownitemcollection/
 ---
 ## DropDownItemCollection class
@@ -14,20 +14,25 @@ A collection of strings that represent all the items in a drop-down form field.
 public class DropDownItemCollection : IEnumerable<string>
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
 | [Count](count) { get; } | Gets the number of elements contained in the collection. |
 | [Item](item) { get; set; } | Gets or sets the element at the specified index. |
-| [Add](add)(…) | Adds a string to the end of the collection. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [Add](add)(string) | Adds a string to the end of the collection. |
 | [Clear](clear)() | Removes all elements from the collection. |
-| [Contains](contains)(…) | Determines whether the collection contains the specified value. |
+| [Contains](contains)(string) | Determines whether the collection contains the specified value. |
 | [GetEnumerator](getenumerator)() | Returns an enumerator object that can be used to iterate over all items in the collection. |
-| [IndexOf](indexof)(…) | Returns the zero-based index of the specified value in the collection. |
-| [Insert](insert)(…) | Inserts a string into the collection at the specified index. |
-| [Remove](remove)(…) | Removes the specified value from the collection. |
-| [RemoveAt](removeat)(…) | Removes a value at the specified index. |
+| [IndexOf](indexof)(string) | Returns the zero-based index of the specified value in the collection. |
+| [Insert](insert)(int, string) | Inserts a string into the collection at the specified index. |
+| [Remove](remove)(string) | Removes the specified value from the collection. |
+| [RemoveAt](removeat)(int) | Removes a value at the specified index. |
 
 ### Examples
 

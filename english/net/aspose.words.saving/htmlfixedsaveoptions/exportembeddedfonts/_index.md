@@ -3,7 +3,7 @@ title: ExportEmbeddedFonts
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 90
+weight: 50
 url: /net/aspose.words.saving/htmlfixedsaveoptions/exportembeddedfonts/
 ---
 ## HtmlFixedSaveOptions.ExportEmbeddedFonts property

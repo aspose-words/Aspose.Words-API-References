@@ -3,7 +3,7 @@ title: DockState
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 60
+weight: 20
 url: /net/aspose.words.webextensions/taskpane/dockstate/
 ---
 ## TaskPane.DockState property

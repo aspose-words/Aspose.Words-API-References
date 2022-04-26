@@ -3,7 +3,7 @@ title: SpaceForUL
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 220
+weight: 440
 url: /net/aspose.words.settings/compatibilityoptions/spaceforul/
 ---
 ## CompatibilityOptions.SpaceForUL property

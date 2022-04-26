@@ -3,12 +3,12 @@ title: SpellingChecked
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 360
+weight: 390
 url: /net/aspose.words/document/spellingchecked/
 ---
 ## Document.SpellingChecked property
 
-Returns true if the document has been checked for spelling.
+Returns **true** if the document has been checked for spelling.
 
 ```csharp
 public bool SpellingChecked { get; set; }
@@ -16,7 +16,7 @@ public bool SpellingChecked { get; set; }
 
 ### Remarks
 
-To recheck the spelling in the document, set this property to false.
+To recheck the spelling in the document, set this property to **false**.
 
 ### Examples
 

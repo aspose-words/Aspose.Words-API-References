@@ -3,7 +3,7 @@ title: HorizontalAlignment
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 890
+weight: 870
 url: /net/aspose.words.drawing/horizontalalignment/
 ---
 ## HorizontalAlignment enumeration
@@ -18,7 +18,7 @@ public enum HorizontalAlignment
 
 | Name | Value | Description |
 | --- | --- | --- |
-| None | `0` | The object is explicitly positioned, usually using its Left property. |
+| None | `0` | The object is explicitly positioned, usually using its **Left** property. |
 | Default | `0` | Same as None. |
 | Left | `1` | Specifies that the object shall be left aligned to the horizontal alignment base. |
 | Center | `2` | Specifies that the object shall be centered with respect to the horizontal alignment base. |

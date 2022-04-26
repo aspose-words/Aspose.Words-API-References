@@ -3,7 +3,7 @@ title: FieldIncludePicture
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 1840
+weight: 1820
 url: /net/aspose.words.fields/fieldincludepicture/
 ---
 ## FieldIncludePicture class
@@ -14,11 +14,16 @@ Implements the INCLUDEPICTURE field.
 public class FieldIncludePicture : Field
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [FieldIncludePicture](fieldincludepicture)() | The default constructor. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [GraphicFilter](graphicfilter) { get; set; } | Gets or sets the name of the filter for the format of the graphic that is to be inserted. |
 | [IsLinked](islinked) { get; set; } | Gets or sets whether to reduce the file size by not storing graphics data with the document. |
 | [ResizeHorizontally](resizehorizontally) { get; set; } | Gets or sets whether to resize the picture horizontally from the source. |

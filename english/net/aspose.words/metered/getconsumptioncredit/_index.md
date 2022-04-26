@@ -34,6 +34,10 @@ Console.WriteLine($"Consumption quantity before operation: {Metered.GetConsumpti
 Document doc = new Document(MyDir + "Document.docx");
 doc.Save(ArtifactsDir + "Metered.Usage.pdf");
 
+// Aspose Metered Licensing mechanism does not send the usage data to purchase server every time,
+// you need to use waiting.
+System.Threading.Thread.Sleep(10000);
+
 Console.WriteLine($"Credit after operation: {Metered.GetConsumptionCredit()}");
 Console.WriteLine($"Consumption quantity after operation: {Metered.GetConsumptionQuantity()}");
 ```

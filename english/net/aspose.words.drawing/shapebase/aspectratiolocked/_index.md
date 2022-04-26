@@ -3,7 +3,7 @@ title: AspectRatioLocked
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 280
+weight: 40
 url: /net/aspose.words.drawing/shapebase/aspectratiolocked/
 ---
 ## ShapeBase.AspectRatioLocked property
@@ -16,7 +16,9 @@ public bool AspectRatioLocked { get; set; }
 
 ### Remarks
 
-The default value depends on the [`ShapeType`](../shapetype), for the ShapeType.Image it is true but for the other shape types it is false.Has effect for top level shapes only.
+The default value depends on the [`ShapeType`](../shapetype), for the ShapeType.Image it is **true** but for the other shape types it is **false**.
+
+Has effect for top level shapes only.
 
 ### Examples
 

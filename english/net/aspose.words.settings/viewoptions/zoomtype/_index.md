@@ -3,7 +3,7 @@ title: ZoomType
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 20
+weight: 60
 url: /net/aspose.words.settings/viewoptions/zoomtype/
 ---
 ## ViewOptions.ZoomType property

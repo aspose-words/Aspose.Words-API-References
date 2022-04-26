@@ -3,7 +3,7 @@ title: FontsFolder
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 340
+weight: 330
 url: /net/aspose.words.saving/htmlsaveoptions/fontsfolder/
 ---
 ## HtmlSaveOptions.FontsFolder property

@@ -3,7 +3,7 @@ title: UnconditionalMergeFieldsAndRegions
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 220
+weight: 140
 url: /net/aspose.words.mailmerging/mailmerge/unconditionalmergefieldsandregions/
 ---
 ## MailMerge.UnconditionalMergeFieldsAndRegions property
@@ -16,7 +16,7 @@ public bool UnconditionalMergeFieldsAndRegions { get; set; }
 
 ### Remarks
 
-The default value is false.
+The default value is **false**.
 
 ### Examples
 

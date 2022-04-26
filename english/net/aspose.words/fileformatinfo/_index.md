@@ -3,7 +3,7 @@ title: FileFormatInfo
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 2570
+weight: 2550
 url: /net/aspose.words/fileformatinfo/
 ---
 ## FileFormatInfo class
@@ -14,7 +14,7 @@ Contains data returned by [`FileFormatUtil`](../fileformatutil) document format 
 public class FileFormatInfo
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |

@@ -14,12 +14,17 @@ Represents collection of a [`ChartDataPoint`](../chartdatapoint).
 public class ChartDataPointCollection : IEnumerable<ChartDataPoint>
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
 | [Count](count) { get; } | Returns the number of [`ChartDataPoint`](../chartdatapoint) in this collection. |
 | [Item](item) { get; } | Returns [`ChartDataPoint`](../chartdatapoint) for the specified index. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
 | [ClearFormat](clearformat)() | Clears format of all [`ChartDataPoint`](../chartdatapoint) in this collection. |
 | [GetEnumerator](getenumerator)() | Returns an enumerator object. |
 

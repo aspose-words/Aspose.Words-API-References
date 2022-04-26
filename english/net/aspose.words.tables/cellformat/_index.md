@@ -3,7 +3,7 @@ title: CellFormat
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 5870
+weight: 5820
 url: /net/aspose.words.tables/cellformat/
 ---
 ## CellFormat class
@@ -14,7 +14,7 @@ Represents all formatting for a table cell.
 public class CellFormat
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -32,8 +32,13 @@ public class CellFormat
 | [VerticalMerge](verticalmerge) { get; set; } | Specifies how the cell is merged with other cells vertically. |
 | [Width](width) { get; set; } | Gets the width of the cell in points. |
 | [WrapText](wraptext) { get; set; } | If true, wrap text for the cell. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
 | [ClearFormatting](clearformatting)() | Resets to default cell formatting. Does not change the width of the cell. |
-| [SetPaddings](setpaddings)(…) | Sets the amount of space (in points) to add to the left/top/right/bottom of the contents of cell. |
+| [SetPaddings](setpaddings)(double, double, double, double) | Sets the amount of space (in points) to add to the left/top/right/bottom of the contents of cell. |
 
 ### Examples
 

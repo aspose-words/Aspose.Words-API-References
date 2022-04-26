@@ -3,7 +3,7 @@ title: IReplacingCallback
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 4290
+weight: 4240
 url: /net/aspose.words.replacing/ireplacingcallback/
 ---
 ## IReplacingCallback interface
@@ -14,11 +14,11 @@ Implement this interface if you want to have your own custom method called durin
 public interface IReplacingCallback
 ```
 
-## Members
+## Methods
 
 | Name | Description |
 | --- | --- |
-| [Replacing](replacing)(…) | A user defined method that is called during a replace operation for each match found just before a replace is made. |
+| [Replacing](replacing)(ReplacingArgs) | A user defined method that is called during a replace operation for each match found just before a replace is made. |
 
 ### Examples
 

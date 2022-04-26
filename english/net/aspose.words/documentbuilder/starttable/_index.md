@@ -3,7 +3,7 @@ title: StartTable
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 430
+weight: 610
 url: /net/aspose.words/documentbuilder/starttable/
 ---
 ## DocumentBuilder.StartTable method
@@ -20,7 +20,9 @@ The table node that was just created.
 
 ### Remarks
 
-The next method to call is [`InsertCell`](../insertcell).This method starts a nested table when called inside a cell.
+The next method to call is [`InsertCell`](../insertcell).
+
+This method starts a nested table when called inside a cell.
 
 ### Examples
 

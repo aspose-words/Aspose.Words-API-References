@@ -3,7 +3,7 @@ title: Width
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 100
+weight: 130
 url: /net/aspose.words.tables/cellformat/width/
 ---
 ## CellFormat.Width property

@@ -3,7 +3,7 @@ title: SourceItem
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 100
+weight: 110
 url: /net/aspose.words.drawing/oleformat/sourceitem/
 ---
 ## OleFormat.SourceItem property
@@ -16,7 +16,9 @@ public string SourceItem { get; set; }
 
 ### Remarks
 
-The default value is an empty string.For example, if the source file is a Microsoft Excel workbook, the `SourceItem` property might return "Workbook1!R3C1:R4C2" if the OLE object contains only a few cells from the worksheet.
+The default value is an empty string.
+
+For example, if the source file is a Microsoft Excel workbook, the `SourceItem` property might return "Workbook1!R3C1:R4C2" if the OLE object contains only a few cells from the worksheet.
 
 ### Examples
 

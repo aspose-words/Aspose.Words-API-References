@@ -3,7 +3,7 @@ title: Theme
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 570
+weight: 400
 url: /net/aspose.words/document/theme/
 ---
 ## Document.Theme property

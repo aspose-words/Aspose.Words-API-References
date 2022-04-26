@@ -3,7 +3,7 @@ title: SuppressBottomSpacing
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 300
+weight: 480
 url: /net/aspose.words.settings/compatibilityoptions/suppressbottomspacing/
 ---
 ## CompatibilityOptions.SuppressBottomSpacing property

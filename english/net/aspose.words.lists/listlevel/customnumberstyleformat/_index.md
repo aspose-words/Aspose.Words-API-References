@@ -3,7 +3,7 @@ title: CustomNumberStyleFormat
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 80
+weight: 20
 url: /net/aspose.words.lists/listlevel/customnumberstyleformat/
 ---
 ## ListLevel.CustomNumberStyleFormat property

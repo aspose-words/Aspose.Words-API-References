@@ -3,7 +3,7 @@ title: XmlMapping
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 3800
+weight: 3750
 url: /net/aspose.words.markup/xmlmapping/
 ---
 ## XmlMapping class
@@ -14,17 +14,22 @@ Specifies the information that is used to establish a mapping between the parent
 public class XmlMapping
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
 | [CustomXmlPart](customxmlpart) { get; } | Returns the custom XML data part to which the parent structured document tag is mapped. |
-| [IsMapped](ismapped) { get; } | Returns true if the parent structured document tag is successfully mapped to XML data. |
+| [IsMapped](ismapped) { get; } | Returns **true** if the parent structured document tag is successfully mapped to XML data. |
 | [PrefixMappings](prefixmappings) { get; } | Returns XML namespace prefix mappings to evaluate the [`XPath`](./xpath). |
 | [StoreItemId](storeitemid) { get; } | Specifies the custom XML data identifier for the custom XML data part which shall be used to evaluate the [`XPath`](./xpath) expression. |
 | [XPath](xpath) { get; } | Returns the XPath expression, which is evaluated to find the custom XML node that is mapped to the parent structured document tag. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
 | [Delete](delete)() | Deletes mapping of the parent structured document to XML data. |
-| [SetMapping](setmapping)(…) | Sets a mapping between the parent structured document tag and an XML node of a custom XML data part. |
+| [SetMapping](setmapping)(CustomXmlPart, string, string) | Sets a mapping between the parent structured document tag and an XML node of a custom XML data part. |
 
 ### Examples
 

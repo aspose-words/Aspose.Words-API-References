@@ -3,12 +3,12 @@ title: Range
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 160
+weight: 80
 url: /net/aspose.words/node/range/
 ---
 ## Node.Range property
 
-Returns a Range object that represents the portion of a document that is contained in this node.
+Returns a **Range** object that represents the portion of a document that is contained in this node.
 
 ```csharp
 public Range Range { get; }

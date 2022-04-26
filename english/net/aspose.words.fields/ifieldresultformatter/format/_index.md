@@ -3,20 +3,20 @@ title: Format
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 30
+weight: 10
 url: /net/aspose.words.fields/ifieldresultformatter/format/
 ---
 ## IFieldResultFormatter.Format method (1 of 2)
 
-Called when Aspose.Words applies a number format switch, i.e. \* Ordinal.
+Called when Aspose.Words applies a capitalization format switch, i.e. \* Upper.
 
 ```csharp
-public string Format(double value, GeneralFormat format)
+public string Format(string value, GeneralFormat format)
 ```
 
 ### Remarks
 
-The implementation should return null to indicate that the default formatting should be applied.
+The implementation should return **null** to indicate that the default formatting should be applied.
 
 ### Examples
 
@@ -163,15 +163,15 @@ private class FieldResultFormatter : IFieldResultFormatter
 
 ## IFieldResultFormatter.Format method (2 of 2)
 
-Called when Aspose.Words applies a capitalization format switch, i.e. \* Upper.
+Called when Aspose.Words applies a number format switch, i.e. \* Ordinal.
 
 ```csharp
-public string Format(string value, GeneralFormat format)
+public string Format(double value, GeneralFormat format)
 ```
 
 ### Remarks
 
-The implementation should return null to indicate that the default formatting should be applied.
+The implementation should return **null** to indicate that the default formatting should be applied.
 
 ### Examples
 

@@ -3,7 +3,7 @@ title: InsertHyperlink
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 280
+weight: 340
 url: /net/aspose.words/documentbuilder/inserthyperlink/
 ---
 ## DocumentBuilder.InsertHyperlink method
@@ -26,7 +26,9 @@ A [`Field`](../../../aspose.words.fields/field) object that represents the inser
 
 ### Remarks
 
-Note that you need to specify font formatting for the hyperlink display text explicitly using the [`Font`](../font) property.This methods internally calls [`InsertField`](../insertfield) to insert an MS Word HYPERLINK field into the document.
+Note that you need to specify font formatting for the hyperlink display text explicitly using the [`Font`](../font) property.
+
+This methods internally calls [`InsertField`](../insertfield) to insert an MS Word HYPERLINK field into the document.
 
 ### Examples
 

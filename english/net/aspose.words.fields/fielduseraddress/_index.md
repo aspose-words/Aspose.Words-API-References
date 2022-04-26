@@ -3,7 +3,7 @@ title: FieldUserAddress
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 2370
+weight: 2350
 url: /net/aspose.words.fields/fielduseraddress/
 ---
 ## FieldUserAddress class
@@ -14,11 +14,16 @@ Implements the USERADDRESS field.
 public class FieldUserAddress : Field
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [FieldUserAddress](fielduseraddress)() | The default constructor. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [UserAddress](useraddress) { get; set; } | Gets or sets the current user's postal address. |
 
 ### Remarks

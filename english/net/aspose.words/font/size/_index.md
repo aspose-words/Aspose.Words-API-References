@@ -3,7 +3,7 @@ title: Size
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 130
+weight: 340
 url: /net/aspose.words/font/size/
 ---
 ## Font.Size property

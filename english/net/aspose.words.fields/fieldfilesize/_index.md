@@ -3,7 +3,7 @@ title: FieldFileSize
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 1680
+weight: 1660
 url: /net/aspose.words.fields/fieldfilesize/
 ---
 ## FieldFileSize class
@@ -14,17 +14,24 @@ Implements the FILESIZE field.
 public class FieldFileSize : Field
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [FieldFileSize](fieldfilesize)() | The default constructor. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [IsInKilobytes](isinkilobytes) { get; set; } | Gets or sets whether to display the file size in kilobytes. |
 | [IsInMegabytes](isinmegabytes) { get; set; } | Gets or sets whether to display the file size in megabytes. |
 
 ### Remarks
 
-Retrieves the size of the current document's file or 0 if the size cannot be determined.In the current implementation, uses the [`OriginalFileName`](../../aspose.words/document/originalfilename) property to retrieve the file name used to determine the file size.
+Retrieves the size of the current document's file or 0 if the size cannot be determined.
+
+In the current implementation, uses the [`OriginalFileName`](../../aspose.words/document/originalfilename) property to retrieve the file name used to determine the file size.
 
 ### Examples
 

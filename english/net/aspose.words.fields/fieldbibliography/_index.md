@@ -3,7 +3,7 @@ title: FieldBibliography
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 1460
+weight: 1440
 url: /net/aspose.words.fields/fieldbibliography/
 ---
 ## FieldBibliography class
@@ -14,11 +14,16 @@ Implements the BIBLIOGRAPHY field.
 public class FieldBibliography : Field
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [FieldBibliography](fieldbibliography)() | The default constructor. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [FormatLanguageId](formatlanguageid) { get; set; } | Gets or sets the language ID that is used to format the bibliographic sources in the document. |
 
 ### Remarks

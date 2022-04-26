@@ -3,7 +3,7 @@ title: FieldKeywords
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 1890
+weight: 1870
 url: /net/aspose.words.fields/fieldkeywords/
 ---
 ## FieldKeywords class
@@ -14,16 +14,21 @@ Implements the KEYWORDS field.
 public class FieldKeywords : Field
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [FieldKeywords](fieldkeywords)() | The default constructor. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [Text](text) { get; set; } | Gets or sets the text of the keywords. |
 
 ### Remarks
 
-Retrieves, and optionally sets, the document's keywords, as recorded in the Keywords property of the built-in document properties.
+Retrieves, and optionally sets, the document's keywords, as recorded in the **Keywords** property of the built-in document properties.
 
 ### Examples
 

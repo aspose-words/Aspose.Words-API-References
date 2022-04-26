@@ -3,7 +3,7 @@ title: ListLevel
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 3240
+weight: 3220
 url: /net/aspose.words.lists/listlevel/
 ---
 ## ListLevel class
@@ -14,7 +14,7 @@ Defines formatting for a list level.
 public class ListLevel
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -32,15 +32,22 @@ public class ListLevel
 | [TabPosition](tabposition) { get; set; } | Returns or sets the tab position (in points) for the list level. |
 | [TextPosition](textposition) { get; set; } | Returns or sets the position (in points) for the second line of wrapping text for the list level. |
 | [TrailingCharacter](trailingcharacter) { get; set; } | Returns or sets the character inserted after the number for the list level. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
 | [CreatePictureBullet](createpicturebullet)() | Creates picture bullet shape for the current list level. |
 | [DeletePictureBullet](deletepicturebullet)() | Deletes picture bullet for the current list level. |
-| [Equals](equals)(…) | Compares with the specified ListLevel. |
+| [Equals](equals)(ListLevel) | Compares with the specified ListLevel. |
 | override [GetHashCode](gethashcode)() | Calculates hash code for this object. |
-| static [GetEffectiveValue](geteffectivevalue)(…) | Reports the string representation of the [`ListLevel`](../listlevel) object for the specified index of the list item. Parameters specify the [`NumberStyle`](../../aspose.words/numberstyle) and an optional format string used when Custom is specified. |
+| static [GetEffectiveValue](geteffectivevalue)(int, NumberStyle, string) | Reports the string representation of the [`ListLevel`](../listlevel) object for the specified index of the list item. Parameters specify the [`NumberStyle`](../../aspose.words/numberstyle) and an optional format string used when Custom is specified. |
 
 ### Remarks
 
-You do not create objects of this class. List level objects are created automatically when a list is created. You access [`ListLevel`](../listlevel) objects via the [`ListLevelCollection`](../listlevelcollection) collection.Use the properties of [`ListLevel`](../listlevel) to specify list formatting for individual list levels.
+You do not create objects of this class. List level objects are created automatically when a list is created. You access [`ListLevel`](../listlevel) objects via the [`ListLevelCollection`](../listlevelcollection) collection.
+
+Use the properties of [`ListLevel`](../listlevel) to specify list formatting for individual list levels.
 
 ### Examples
 

@@ -3,10 +3,48 @@ title: Load
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 10
+weight: 20
 url: /net/aspose.words.fonts/fontfallbacksettings/load/
 ---
 ## FontFallbackSettings.Load method (1 of 2)
+
+Loads font fallback settings from XML file.
+
+```csharp
+public void Load(string fileName)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| fileName | String | Input file name. |
+
+### Examples
+
+Shows how to load and save font fallback settings to/from an XML document in the local file system.
+
+```csharp
+Document doc = new Document(MyDir + "Rendering.docx");
+
+// Load an XML document that defines a set of font fallback settings.
+FontSettings fontSettings = new FontSettings();
+fontSettings.FallbackSettings.Load(MyDir + "Font fallback rules.xml");
+
+doc.FontSettings = fontSettings;
+doc.Save(ArtifactsDir + "FontSettings.LoadFontFallbackSettingsFromFile.pdf");
+
+// Save our document's current font fallback settings as an XML document.
+doc.FontSettings.FallbackSettings.Save(ArtifactsDir + "FallbackSettings.xml");
+```
+
+### See Also
+
+* class [FontFallbackSettings](../../fontfallbacksettings)
+* namespace [Aspose.Words.Fonts](../../fontfallbacksettings)
+* assembly [Aspose.Words](../../../)
+
+---
+
+## FontFallbackSettings.Load method (2 of 2)
 
 Loads fallback settings from XML stream.
 
@@ -42,44 +80,6 @@ using (FileStream fontFallbackStream =
 {
     doc.FontSettings.FallbackSettings.Save(fontFallbackStream);
 }
-```
-
-### See Also
-
-* class [FontFallbackSettings](../../fontfallbacksettings)
-* namespace [Aspose.Words.Fonts](../../fontfallbacksettings)
-* assembly [Aspose.Words](../../../)
-
----
-
-## FontFallbackSettings.Load method (2 of 2)
-
-Loads font fallback settings from XML file.
-
-```csharp
-public void Load(string fileName)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| fileName | String | Input file name. |
-
-### Examples
-
-Shows how to load and save font fallback settings to/from an XML document in the local file system.
-
-```csharp
-Document doc = new Document(MyDir + "Rendering.docx");
-
-// Load an XML document that defines a set of font fallback settings.
-FontSettings fontSettings = new FontSettings();
-fontSettings.FallbackSettings.Load(MyDir + "Font fallback rules.xml");
-
-doc.FontSettings = fontSettings;
-doc.Save(ArtifactsDir + "FontSettings.LoadFontFallbackSettingsFromFile.pdf");
-
-// Save our document's current font fallback settings as an XML document.
-doc.FontSettings.FallbackSettings.Save(ArtifactsDir + "FallbackSettings.xml");
 ```
 
 ### See Also

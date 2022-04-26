@@ -3,7 +3,7 @@ title: Protect
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 100
+weight: 620
 url: /net/aspose.words/document/protect/
 ---
 ## Document.Protect method (1 of 2)
@@ -20,7 +20,11 @@ public void Protect(ProtectionType type)
 
 ### Remarks
 
-When a document is protected, the user can make only limited changes, such as adding annotations, making revisions, or completing a form.When you protect a document, and the document already has a protection password, the existing protection password is not changed.When you protect a document, and the document does not have a protection password, this method assigns a random password that makes it impossible to unprotect the document in Microsoft Word, but you still can unprotect the document in Aspose.Words as it does not require a password when unprotecting.
+When a document is protected, the user can make only limited changes, such as adding annotations, making revisions, or completing a form.
+
+When you protect a document, and the document already has a protection password, the existing protection password is not changed.
+
+When you protect a document, and the document does not have a protection password, this method assigns a random password that makes it impossible to unprotect the document in Microsoft Word, but you still can unprotect the document in Aspose.Words as it does not require a password when unprotecting.
 
 ### Examples
 

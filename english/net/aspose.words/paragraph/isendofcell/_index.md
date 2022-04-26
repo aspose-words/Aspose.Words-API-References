@@ -3,7 +3,7 @@ title: IsEndOfCell
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 120
+weight: 50
 url: /net/aspose.words/paragraph/isendofcell/
 ---
 ## Paragraph.IsEndOfCell property

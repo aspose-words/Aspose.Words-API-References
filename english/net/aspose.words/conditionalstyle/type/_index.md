@@ -3,7 +3,7 @@ title: Type
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 120
+weight: 90
 url: /net/aspose.words/conditionalstyle/type/
 ---
 ## ConditionalStyle.Type property

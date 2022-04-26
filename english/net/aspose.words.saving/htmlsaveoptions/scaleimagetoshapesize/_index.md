@@ -3,7 +3,7 @@ title: ScaleImageToShapeSize
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 420
+weight: 460
 url: /net/aspose.words.saving/htmlsaveoptions/scaleimagetoshapesize/
 ---
 ## HtmlSaveOptions.ScaleImageToShapeSize property

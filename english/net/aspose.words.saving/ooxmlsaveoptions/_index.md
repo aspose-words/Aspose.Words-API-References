@@ -3,7 +3,7 @@ title: OoxmlSaveOptions
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 4980
+weight: 4930
 url: /net/aspose.words.saving/ooxmlsaveoptions/
 ---
 ## OoxmlSaveOptions class
@@ -14,12 +14,17 @@ Can be used to specify additional options when saving a document into the Docx, 
 public class OoxmlSaveOptions : SaveOptions
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [OoxmlSaveOptions](ooxmlsaveoptions)() | Initializes a new instance of this class that can be used to save a document in the Docx format. |
-| [OoxmlSaveOptions](ooxmlsaveoptions)(…) | Initializes a new instance of this class that can be used to save a document in the Docx, Docm, Dotx, Dotm or FlatOpc format. |
+| [OoxmlSaveOptions](ooxmlsaveoptions)(SaveFormat) | Initializes a new instance of this class that can be used to save a document in the Docx, Docm, Dotx, Dotm or FlatOpc format. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [Compliance](compliance) { get; set; } | Specifies the OOXML version for the output document. The default value is Ecma376_2006. |
 | [CompressionLevel](compressionlevel) { get; set; } | Specifies the compression level used to save document. The default value is Normal. |
 | [KeepLegacyControlChars](keeplegacycontrolchars) { get; set; } | Keeps original representation of legacy control characters. |

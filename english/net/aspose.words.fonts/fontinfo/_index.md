@@ -3,7 +3,7 @@ title: FontInfo
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 2680
+weight: 2660
 url: /net/aspose.words.fonts/fontinfo/
 ---
 ## FontInfo class
@@ -14,7 +14,7 @@ Specifies information about a font used in the document.
 public class FontInfo
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -25,8 +25,13 @@ public class FontInfo
 | [Name](name) { get; } | Gets the name of the font. |
 | [Panose](panose) { get; set; } | Gets or sets the PANOSE typeface classification number. |
 | [Pitch](pitch) { get; set; } | The pitch indicates if the font is fixed pitch, proportionally spaced, or relies on a default setting. |
-| [GetEmbeddedFont](getembeddedfont)(…) | Gets a specific embedded font file. |
-| [GetEmbeddedFontAsOpenType](getembeddedfontasopentype)(…) | Gets an embedded font file in OpenType format. Fonts in Embedded OpenType format are converted to OpenType. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [GetEmbeddedFont](getembeddedfont)(EmbeddedFontFormat, EmbeddedFontStyle) | Gets a specific embedded font file. |
+| [GetEmbeddedFontAsOpenType](getembeddedfontasopentype)(EmbeddedFontStyle) | Gets an embedded font file in OpenType format. Fonts in Embedded OpenType format are converted to OpenType. |
 
 ### Remarks
 

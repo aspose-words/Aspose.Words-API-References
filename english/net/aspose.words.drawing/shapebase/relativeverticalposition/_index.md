@@ -3,7 +3,7 @@ title: RelativeVerticalPosition
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 530
+weight: 410
 url: /net/aspose.words.drawing/shapebase/relativeverticalposition/
 ---
 ## ShapeBase.RelativeVerticalPosition property
@@ -16,7 +16,9 @@ public RelativeVerticalPosition RelativeVerticalPosition { get; set; }
 
 ### Remarks
 
-The default value is Paragraph.Has effect only for top level floating shapes.
+The default value is Paragraph.
+
+Has effect only for top level floating shapes.
 
 ### Examples
 

@@ -3,7 +3,7 @@ title: InsertOleObject
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 340
+weight: 370
 url: /net/aspose.words/documentbuilder/insertoleobject/
 ---
 ## DocumentBuilder.InsertOleObject method (1 of 3)

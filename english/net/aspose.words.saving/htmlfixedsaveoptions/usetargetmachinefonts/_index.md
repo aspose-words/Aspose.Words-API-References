@@ -3,7 +3,7 @@ title: UseTargetMachineFonts
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 180
+weight: 190
 url: /net/aspose.words.saving/htmlfixedsaveoptions/usetargetmachinefonts/
 ---
 ## HtmlFixedSaveOptions.UseTargetMachineFonts property

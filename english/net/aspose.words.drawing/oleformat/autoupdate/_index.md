@@ -3,7 +3,7 @@ title: AutoUpdate
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 110
+weight: 10
 url: /net/aspose.words.drawing/oleformat/autoupdate/
 ---
 ## OleFormat.AutoUpdate property
@@ -16,7 +16,7 @@ public bool AutoUpdate { get; set; }
 
 ### Remarks
 
-The default value is false.
+The default value is **false**.
 
 ### Examples
 

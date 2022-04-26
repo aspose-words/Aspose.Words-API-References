@@ -3,7 +3,7 @@ title: ImageFieldMergingArgs
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 3550
+weight: 3520
 url: /net/aspose.words.mailmerging/imagefieldmergingargs/
 ---
 ## ImageFieldMergingArgs class
@@ -14,7 +14,7 @@ Provides data for the [`ImageFieldMerging`](../ifieldmergingcallback/imagefieldm
 public class ImageFieldMergingArgs : FieldMergingArgsBase
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -27,7 +27,11 @@ public class ImageFieldMergingArgs : FieldMergingArgsBase
 
 ### Remarks
 
-This event occurs during mail merge when an image mail merge field is encountered in the document. You can respond to this event to return a file name, stream, or an Image object to the mail merge engine so it is inserted into the document.There are three properties available [`ImageFileName`](./imagefilename), [`ImageStream`](./imagestream) and [`Image`](./image) to specify where the image must be taken from. Set only one of these properties.To insert an image mail merge field into a document in Word, select Insert/Field command, then select MergeField and type Image:MyFieldName.
+This event occurs during mail merge when an image mail merge field is encountered in the document. You can respond to this event to return a file name, stream, or an Image object to the mail merge engine so it is inserted into the document.
+
+There are three properties available [`ImageFileName`](./imagefilename), [`ImageStream`](./imagestream) and [`Image`](./image) to specify where the image must be taken from. Set only one of these properties.
+
+To insert an image mail merge field into a document in Word, select Insert/Field command, then select MergeField and type Image:MyFieldName.
 
 ### Examples
 

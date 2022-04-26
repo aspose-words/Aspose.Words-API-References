@@ -3,7 +3,7 @@ title: Subscript
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 300
+weight: 430
 url: /net/aspose.words/font/subscript/
 ---
 ## Font.Subscript property

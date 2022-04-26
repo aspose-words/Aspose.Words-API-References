@@ -3,7 +3,7 @@ title: InsertCell
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 420
+weight: 250
 url: /net/aspose.words/documentbuilder/insertcell/
 ---
 ## DocumentBuilder.InsertCell method
@@ -20,7 +20,13 @@ The cell node that was just inserted.
 
 ### Remarks
 
-To start a table, just call InsertCell. After this, any content you add using other methods of the [`DocumentBuilder`](../../documentbuilder) class will be added to the current cell.To start a new cell in the same row, call InsertCell again.To end a table row call [`EndRow`](../endrow).Use the [`CellFormat`](../cellformat) property to specify cell formatting.
+To start a table, just call **InsertCell**. After this, any content you add using other methods of the [`DocumentBuilder`](../../documentbuilder) class will be added to the current cell.
+
+To start a new cell in the same row, call **InsertCell** again.
+
+To end a table row call [`EndRow`](../endrow).
+
+Use the [`CellFormat`](../cellformat) property to specify cell formatting.
 
 ### Examples
 

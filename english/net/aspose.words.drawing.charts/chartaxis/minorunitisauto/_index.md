@@ -3,7 +3,7 @@ title: MinorUnitIsAuto
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 130
+weight: 150
 url: /net/aspose.words.drawing.charts/chartaxis/minorunitisauto/
 ---
 ## ChartAxis.MinorUnitIsAuto property

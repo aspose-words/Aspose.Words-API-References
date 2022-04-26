@@ -3,7 +3,7 @@ title: Element
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 40
+weight: 20
 url: /net/aspose.words.markup/smarttag/element/
 ---
 ## SmartTag.Element property

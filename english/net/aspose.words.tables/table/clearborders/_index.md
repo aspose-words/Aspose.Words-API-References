@@ -3,7 +3,7 @@ title: ClearBorders
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 20
+weight: 370
 url: /net/aspose.words.tables/table/clearborders/
 ---
 ## Table.ClearBorders method

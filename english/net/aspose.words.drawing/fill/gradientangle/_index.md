@@ -3,7 +3,7 @@ title: GradientAngle
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 180
+weight: 40
 url: /net/aspose.words.drawing/fill/gradientangle/
 ---
 ## Fill.GradientAngle property

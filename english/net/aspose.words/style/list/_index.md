@@ -3,7 +3,7 @@ title: List
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 150
+weight: 90
 url: /net/aspose.words/style/list/
 ---
 ## Style.List property

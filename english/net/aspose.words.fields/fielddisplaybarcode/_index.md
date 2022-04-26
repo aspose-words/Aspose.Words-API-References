@@ -3,7 +3,7 @@ title: FieldDisplayBarcode
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 1600
+weight: 1580
 url: /net/aspose.words.fields/fielddisplaybarcode/
 ---
 ## FieldDisplayBarcode class
@@ -14,11 +14,16 @@ Implements the DISPLAYBARCODE field.
 public class FieldDisplayBarcode : Field
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [FieldDisplayBarcode](fielddisplaybarcode)() | The default constructor. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [AddStartStopChar](addstartstopchar) { get; set; } | Gets or sets whether to add Start/Stop characters for barcode types NW7 and CODE39. |
 | [BackgroundColor](backgroundcolor) { get; set; } | Gets or sets the background color of the barcode symbol. Valid values are in the range [0, 0xFFFFFF] |
 | [BarcodeType](barcodetype) { get; set; } | Gets or sets the barcode type (QR, etc.) |

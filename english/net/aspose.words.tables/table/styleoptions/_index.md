@@ -3,7 +3,7 @@ title: StyleOptions
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 260
+weight: 300
 url: /net/aspose.words.tables/table/styleoptions/
 ---
 ## Table.StyleOptions property

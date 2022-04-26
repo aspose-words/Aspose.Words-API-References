@@ -3,7 +3,7 @@ title: DocumentSavingArgs
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 4610
+weight: 4560
 url: /net/aspose.words.saving/documentsavingargs/
 ---
 ## DocumentSavingArgs class
@@ -14,7 +14,7 @@ An argument passed into [`Notify`](../idocumentsavingcallback/notify).
 public sealed class DocumentSavingArgs
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |

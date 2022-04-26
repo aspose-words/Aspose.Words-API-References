@@ -3,7 +3,7 @@ title: MoveToMergeField
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 140
+weight: 530
 url: /net/aspose.words/documentbuilder/movetomergefield/
 ---
 ## DocumentBuilder.MoveToMergeField method (1 of 2)

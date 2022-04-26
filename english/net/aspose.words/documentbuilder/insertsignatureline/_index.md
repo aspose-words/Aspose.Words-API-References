@@ -3,7 +3,7 @@ title: InsertSignatureLine
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 400
+weight: 420
 url: /net/aspose.words/documentbuilder/insertsignatureline/
 ---
 ## DocumentBuilder.InsertSignatureLine method (1 of 2)

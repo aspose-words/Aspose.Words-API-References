@@ -3,7 +3,7 @@ title: VerticalAlignment
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 550
+weight: 500
 url: /net/aspose.words.drawing/shapebase/verticalalignment/
 ---
 ## ShapeBase.VerticalAlignment property
@@ -16,7 +16,9 @@ public VerticalAlignment VerticalAlignment { get; set; }
 
 ### Remarks
 
-The default value is None.Has effect only for top level floating shapes.
+The default value is None.
+
+Has effect only for top level floating shapes.
 
 ### Examples
 

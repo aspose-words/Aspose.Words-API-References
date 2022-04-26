@@ -3,7 +3,7 @@ title: IsLinkedToPrevious
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 70
+weight: 40
 url: /net/aspose.words/headerfooter/islinkedtoprevious/
 ---
 ## HeaderFooter.IsLinkedToPrevious property
@@ -16,7 +16,9 @@ public bool IsLinkedToPrevious { get; set; }
 
 ### Remarks
 
-Default is true.Note, when your link a header or footer, its contents is cleared.
+Default is true.
+
+Note, when your link a header or footer, its contents is cleared.
 
 ### Examples
 

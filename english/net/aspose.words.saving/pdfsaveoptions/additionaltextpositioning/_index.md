@@ -3,7 +3,7 @@ title: AdditionalTextPositioning
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 290
+weight: 20
 url: /net/aspose.words.saving/pdfsaveoptions/additionaltextpositioning/
 ---
 ## PdfSaveOptions.AdditionalTextPositioning property

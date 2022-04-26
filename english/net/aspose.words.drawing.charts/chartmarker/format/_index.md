@@ -3,7 +3,7 @@ title: Format
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 30
+weight: 10
 url: /net/aspose.words.drawing.charts/chartmarker/format/
 ---
 ## ChartMarker.Format property

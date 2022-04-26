@@ -3,7 +3,7 @@ title: TableOfFiguresLabel
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 40
+weight: 160
 url: /net/aspose.words.fields/fieldtoc/tableoffigureslabel/
 ---
 ## FieldToc.TableOfFiguresLabel property

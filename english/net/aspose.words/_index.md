@@ -1,12 +1,12 @@
 ---
 title: Aspose.Words
 second_title: Aspose.Words for .NET API Reference
-description: The Aspose.Words namespace provides classes for generating, converting, modifying, rendering and printing Microsoft Word documents without utilizing Microsoft Word.Aspose.Words is written completely in C#, CLS compliant and contains only safe managed code. Microsoft Word is not required in order to use Aspose.Words.The classes in the Aspose.Words namespace borrow best practices from two well-known frameworks Microsoft Word Automation and System.Xml. A document in Aspose.Words is represented by a tree of nodes, much like in XML DOM. Where possible, class, method and property names match those found in Microsoft Word Automation. The main classes in this namespace are
+description: The **Aspose.Words** namespace provides classes for generating, converting, modifying, rendering and printing Microsoft Word documents without utilizing Microsoft Word.
 type: docs
 weight: 10
 url: /net/aspose.words/
 ---
-The Aspose.Words namespace provides classes for generating, converting, modifying, rendering and printing Microsoft Word documents without utilizing Microsoft Word.Aspose.Words is written completely in C#, CLS compliant and contains only safe managed code. Microsoft Word is not required in order to use Aspose.Words.The classes in the Aspose.Words namespace borrow best practices from two well-known frameworks: Microsoft Word Automation and System.Xml. A document in Aspose.Words is represented by a tree of nodes, much like in XML DOM. Where possible, class, method and property names match those found in Microsoft Word Automation. The main classes in this namespace are:
+The **Aspose.Words** namespace provides classes for generating, converting, modifying, rendering and printing Microsoft Word documents without utilizing Microsoft Word.
 
 ## Classes
 
@@ -46,7 +46,7 @@ The Aspose.Words namespace provides classes for generating, converting, modifyin
 | class [Font](./font) | Contains font attributes (font name, font size, color, and so on) for an object. |
 | class [FrameFormat](./frameformat) | Represents frame related formatting for a paragraph. |
 | class [HeaderFooter](./headerfooter) | Represents a container for the header or footer text of a section. |
-| class [HeaderFooterCollection](./headerfootercollection) | Provides typed access to [`HeaderFooter`](aspose.words/headerfooter) nodes of a Section. |
+| class [HeaderFooterCollection](./headerfootercollection) | Provides typed access to [`HeaderFooter`](aspose.words/headerfooter) nodes of a **Section**. |
 | static class [Hyphenation](./hyphenation) | Provides methods for working with hyphenation dictionaries. These dictionaries prescribe where words of a specific language can be hyphenated. |
 | class [ImageWatermarkOptions](./imagewatermarkoptions) | Contains options that can be specified when adding a watermark with image. |
 | class [ImportFormatOptions](./importformatoptions) | Allows to specify various import options to format output. |
@@ -74,18 +74,18 @@ The Aspose.Words namespace provides classes for generating, converting, modifyin
 | class [Run](./run) | Represents a run of characters with the same font formatting. |
 | class [RunCollection](./runcollection) | Provides typed access to a collection of [`Run`](aspose.words/run) nodes. |
 | class [Section](./section) | Represents a single section in a document. |
-| class [SectionCollection](./sectioncollection) | A collection of Section objects in the document. |
+| class [SectionCollection](./sectioncollection) | A collection of **Section** objects in the document. |
 | class [Shading](./shading) | Contains shading attributes for an object. |
 | class [SignatureLineOptions](./signaturelineoptions) | Allows to specify options for signature line being inserted. Used in [`DocumentBuilder`](aspose.words/documentbuilder). |
 | class [SpecialChar](./specialchar) | Base class for special characters in the document. |
 | abstract class [Story](./story) | Base class for elements that contain block-level nodes [`Paragraph`](aspose.words/paragraph) and [`Table`](aspose.words.tables/table). |
 | class [Style](./style) | Represents a single built-in or user-defined style. |
 | class [StyleCollection](./stylecollection) | A collection of Style objects that represent both the built-in and user-defined styles in a document. |
-| class [SubDocument](./subdocument) | Represents a SubDocument - which is a reference to an externally stored document. |
+| class [SubDocument](./subdocument) | Represents a **SubDocument** - which is a reference to an externally stored document. |
 | class [TableStyle](./tablestyle) | Represents a table style. |
-| class [TabStop](./tabstop) | Represents a single custom tab stop. The TabStop object is a member of the [`TabStopCollection`](aspose.words/tabstopcollection) collection. |
+| class [TabStop](./tabstop) | Represents a single custom tab stop. The **TabStop** object is a member of the [`TabStopCollection`](aspose.words/tabstopcollection) collection. |
 | class [TabStopCollection](./tabstopcollection) | A collection of [`TabStop`](aspose.words/tabstop) objects that represent custom tabs for a paragraph or a style. |
-| class [TextColumn](./textcolumn) | Represents a single text column. TextColumn is a member of the [`TextColumnCollection`](aspose.words/textcolumncollection) collection. The TextColumns collection includes all the columns in a section of a document. |
+| class [TextColumn](./textcolumn) | Represents a single text column. **TextColumn** is a member of the [`TextColumnCollection`](aspose.words/textcolumncollection) collection. The **TextColumns** collection includes all the columns in a section of a document. |
 | class [TextColumnCollection](./textcolumncollection) | A collection of [`TextColumn`](aspose.words/textcolumn) objects that represent all the columns of text in a section of a document. |
 | class [TextWatermarkOptions](./textwatermarkoptions) | Contains options that can be specified when adding a watermark with text. |
 | class [UnsupportedFileFormatException](./unsupportedfileformatexception) | Thrown during document load, when the document format is not recognized or not supported by Aspose.Words. |
@@ -115,7 +115,7 @@ The Aspose.Words namespace provides classes for generating, converting, modifyin
 | enum [EmphasisMark](./emphasismark) | Specifies possible types of emphasis mark. |
 | enum [HeaderFooterType](./headerfootertype) | Identifies the type of header or footer found in a Word file. |
 | enum [HeightRule](./heightrule) | Specifies the rule for determining the height of an object. |
-| [Flags] enum [HtmlInsertOptions](./htmlinsertoptions) | Specifies options for the [`InsertHtml`](aspose.words/documentbuilder/inserthtml) method. |
+| enum [HtmlInsertOptions](./htmlinsertoptions) | Specifies options for the [`InsertHtml`](aspose.words/documentbuilder/inserthtml) method. |
 | enum [ImportFormatMode](./importformatmode) | Specifies how formatting is merged when importing content from another document. |
 | enum [LineNumberRestartMode](./linenumberrestartmode) | Determines when automatic line numbering restarts. |
 | enum [LineSpacingRule](./linespacingrule) | Specifies line spacing values for a paragraph. |
@@ -138,7 +138,7 @@ The Aspose.Words namespace provides classes for generating, converting, modifyin
 | enum [SaveFormat](./saveformat) | Indicates the format in which the document is saved. |
 | enum [SectionLayoutMode](./sectionlayoutmode) | Specifies the layout mode for a section allowing to define the document grid behavior. |
 | enum [SectionStart](./sectionstart) | The type of break at the beginning of the section. |
-| enum [StoryType](./storytype) | Text of a Word document is stored in stories. StoryType identifies a story. |
+| enum [StoryType](./storytype) | Text of a Word document is stored in stories. **StoryType** identifies a story. |
 | enum [StyleIdentifier](./styleidentifier) | Locale independent style identifier. |
 | enum [StyleType](./styletype) | Represents type of the style. |
 | enum [TabAlignment](./tabalignment) | Specifies the alignment/type of a tab stop. |
@@ -150,7 +150,7 @@ The Aspose.Words namespace provides classes for generating, converting, modifyin
 | enum [Underline](./underline) | Indicates type of the underline applied to a font. |
 | enum [VisitorAction](./visitoraction) | Allows the visitor to control the enumeration of nodes. |
 | enum [WarningSource](./warningsource) | Specifies the module that produces a warning during document loading or saving. |
-| [Flags] enum [WarningType](./warningtype) | Specifies the type of a warning that is issued by Aspose.Words during document loading or saving. |
+| enum [WarningType](./warningtype) | Specifies the type of a warning that is issued by Aspose.Words during document loading or saving. |
 | enum [WatermarkLayout](./watermarklayout) | Defines layout of the watermark relative to the watermark center. |
 | enum [WatermarkType](./watermarktype) | Specifies the watermark type. |
 

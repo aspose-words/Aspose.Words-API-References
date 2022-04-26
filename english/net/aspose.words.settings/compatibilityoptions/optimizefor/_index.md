@@ -3,7 +3,7 @@ title: OptimizeFor
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 10
+weight: 720
 url: /net/aspose.words.settings/compatibilityoptions/optimizefor/
 ---
 ## CompatibilityOptions.OptimizeFor method

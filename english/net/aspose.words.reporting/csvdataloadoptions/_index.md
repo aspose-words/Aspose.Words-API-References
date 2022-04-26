@@ -3,7 +3,7 @@ title: CsvDataLoadOptions
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 4320
+weight: 4270
 url: /net/aspose.words.reporting/csvdataloadoptions/
 ---
 ## CsvDataLoadOptions class
@@ -14,12 +14,17 @@ Represents options for parsing CSV data.
 public class CsvDataLoadOptions
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [CsvDataLoadOptions](csvdataloadoptions)() | Initializes a new instance of this class with default options. |
-| [CsvDataLoadOptions](csvdataloadoptions)(…) | Initializes a new instance of this class with specifying whether CSV data contains column names at the first line. |
+| [CsvDataLoadOptions](csvdataloadoptions)(bool) | Initializes a new instance of this class with specifying whether CSV data contains column names at the first line. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [CommentChar](commentchar) { get; set; } | Gets or sets the character that is used to comment lines of CSV data. |
 | [Delimiter](delimiter) { get; set; } | Gets or sets the character to be used as a column delimiter. |
 | [HasHeaders](hasheaders) { get; set; } | Gets or sets a value indicating whether the first record of CSV data contains column names. |

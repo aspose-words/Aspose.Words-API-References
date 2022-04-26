@@ -3,7 +3,7 @@ title: Hyphenation
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 2910
+weight: 2890
 url: /net/aspose.words/hyphenation/
 ---
 ## Hyphenation class
@@ -14,15 +14,21 @@ Provides methods for working with hyphenation dictionaries. These dictionaries p
 public static class Hyphenation
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
 | static [Callback](callback) { get; set; } | Gets or sets callback interface used to request dictionaries when page layout of the document is built. This allows delay loading of dictionaries which may be useful when processing documents in many languages. |
 | static [WarningCallback](warningcallback) { get; set; } | Called during a load hyphenation patterns, when an issue is detected that might result in formatting fidelity loss. |
-| static [IsDictionaryRegistered](isdictionaryregistered)(…) | Returns False if for the specified language there is no dictionary registered or if registered is Null dictionary, True otherwise. |
-| static [RegisterDictionary](registerdictionary)(…) | Registers and loads a hyphenation dictionary for the specified language from a stream. Throws if dictionary cannot be read or has invalid format. (2 methods) |
-| static [UnregisterDictionary](unregisterdictionary)(…) | Unregisters a hyphenation dictionary for the specified language. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| static [IsDictionaryRegistered](isdictionaryregistered)(string) | Returns False if for the specified language there is no dictionary registered or if registered is Null dictionary, True otherwise. |
+| static [RegisterDictionary](registerdictionary)(string, Stream) | Registers and loads a hyphenation dictionary for the specified language from a stream. Throws if dictionary cannot be read or has invalid format. |
+| static [RegisterDictionary](registerdictionary)(string, string) | Registers and loads a hyphenation dictionary for the specified language from file. Throws if dictionary cannot be read or has invalid format. |
+| static [UnregisterDictionary](unregisterdictionary)(string) | Unregisters a hyphenation dictionary for the specified language. |
 
 ### Examples
 

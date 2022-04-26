@@ -3,7 +3,7 @@ title: VbaProject
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 6180
+weight: 6130
 url: /net/aspose.words.vba/vbaproject/
 ---
 ## VbaProject class
@@ -14,16 +14,26 @@ Provides access to VBA project information. A VBA project inside the document is
 public class VbaProject
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [VbaProject](vbaproject)() | Creates a blank VbaProject. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [CodePage](codepage) { get; } | Returns the VBA project’s code page. |
 | [IsSigned](issigned) { get; } | Shows whether the VbaProject is signed or not. |
 | [Modules](modules) { get; } | Returns collection of VBA project modules. |
 | [Name](name) { get; set; } | Gets or sets VBA project name. |
 | [References](references) { get; } | Gets a collection of VBA project references. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
 | [Clone](clone)() | Performs a copy of the [`VbaProject`](../vbaproject). |
 
 ### Examples

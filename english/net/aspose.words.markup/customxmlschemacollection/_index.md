@@ -3,7 +3,7 @@ title: CustomXmlSchemaCollection
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 3660
+weight: 3630
 url: /net/aspose.words.markup/customxmlschemacollection/
 ---
 ## CustomXmlSchemaCollection class
@@ -14,19 +14,24 @@ A collection of strings that represent XML schemas that are associated with a cu
 public class CustomXmlSchemaCollection : IEnumerable<string>
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
 | [Count](count) { get; } | Gets the number of elements contained in the collection. |
 | [Item](item) { get; set; } | Gets or sets the element at the specified index. |
-| [Add](add)(…) | Adds an item to the collection. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [Add](add)(string) | Adds an item to the collection. |
 | [Clear](clear)() | Removes all elements from the collection. |
 | [Clone](clone)() | Makes a deep clone of this object. |
 | [GetEnumerator](getenumerator)() | Returns an enumerator object that can be used to iterate over all items in the collection. |
-| [IndexOf](indexof)(…) | Returns the zero-based index of the specified value in the collection. |
-| [Remove](remove)(…) | Removes the specified value from the collection. |
-| [RemoveAt](removeat)(…) | Removes a value at the specified index. |
+| [IndexOf](indexof)(string) | Returns the zero-based index of the specified value in the collection. |
+| [Remove](remove)(string) | Removes the specified value from the collection. |
+| [RemoveAt](removeat)(int) | Removes a value at the specified index. |
 
 ### Remarks
 

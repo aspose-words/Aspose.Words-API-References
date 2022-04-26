@@ -3,7 +3,7 @@ title: DoNotVertAlignCellWithSp
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 620
+weight: 230
 url: /net/aspose.words.settings/compatibilityoptions/donotvertaligncellwithsp/
 ---
 ## CompatibilityOptions.DoNotVertAlignCellWithSp property

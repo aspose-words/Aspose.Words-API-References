@@ -3,7 +3,7 @@ title: RotateWithObject
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 160
+weight: 120
 url: /net/aspose.words.drawing/fill/rotatewithobject/
 ---
 ## Fill.RotateWithObject property

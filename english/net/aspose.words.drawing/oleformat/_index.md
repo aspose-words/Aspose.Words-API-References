@@ -3,7 +3,7 @@ title: OleFormat
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 1010
+weight: 990
 url: /net/aspose.words.drawing/oleformat/
 ---
 ## OleFormat class
@@ -14,7 +14,7 @@ Provides access to the data of an OLE object or ActiveX control.
 public class OleFormat
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -24,16 +24,22 @@ public class OleFormat
 | [IsLink](islink) { get; } | Returns true if the OLE object is linked (when [`SourceFullName`](./sourcefullname) is specified). |
 | [IsLocked](islocked) { get; set; } | Specifies whether the link to the OLE object is locked from updates. |
 | [OleControl](olecontrol) { get; } | Gets [`OleControl`](./olecontrol) objects if this OLE object is an ActiveX control. Otherwise this property is null. |
-| [OleIcon](oleicon) { get; } | Gets the draw aspect of the OLE object. When true, the OLE object is displayed as an icon. When false, the OLE object is displayed as content. |
+| [OleIcon](oleicon) { get; } | Gets the draw aspect of the OLE object. When **true**, the OLE object is displayed as an icon. When **false**, the OLE object is displayed as content. |
 | [OlePackage](olepackage) { get; } | Provide access to [`OlePackage`](../olepackage) if OLE object is an OLE Package. Returns null otherwise. |
 | [ProgId](progid) { get; set; } | Gets or sets the ProgID of the OLE object. |
 | [SourceFullName](sourcefullname) { get; set; } | Gets or sets the path and name of the source file for the linked OLE object. |
 | [SourceItem](sourceitem) { get; set; } | Gets or sets a string that is used to identify the portion of the source file that is being linked. |
 | [SuggestedExtension](suggestedextension) { get; } | Gets the file extension suggested for the current embedded object if you want to save it into a file. |
 | [SuggestedFileName](suggestedfilename) { get; } | Gets the file name suggested for the current embedded object if you want to save it into a file. |
-| [GetOleEntry](getoleentry)(…) | Gets OLE object data entry. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [GetOleEntry](getoleentry)(string) | Gets OLE object data entry. |
 | [GetRawData](getrawdata)() | Gets OLE object raw data. |
-| [Save](save)(…) | Saves the data of the embedded object into the specified stream. (2 methods) |
+| [Save](save)(Stream) | Saves the data of the embedded object into the specified stream. |
+| [Save](save)(string) | Saves the data of the embedded object into a file with the specified name. |
 
 ### Remarks
 

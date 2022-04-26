@@ -14,7 +14,7 @@ Represents a collection of [`ConditionalStyle`](../conditionalstyle) objects.
 public sealed class ConditionalStyleCollection : IEnumerable<ConditionalStyle>
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -32,6 +32,11 @@ public sealed class ConditionalStyleCollection : IEnumerable<ConditionalStyle>
 | [OddRowBanding](oddrowbanding) { get; } | Gets the odd row banding style. |
 | [TopLeftCell](topleftcell) { get; } | Gets the top left cell style. |
 | [TopRightCell](toprightcell) { get; } | Gets the top right cell style. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
 | [ClearFormatting](clearformatting)() | Clears all conditional styles of the table style. |
 | [GetEnumerator](getenumerator)() | Returns an enumerator object that can be used to iterate over all conditional styles in the collection. |
 

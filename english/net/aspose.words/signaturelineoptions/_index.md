@@ -3,7 +3,7 @@ title: SignatureLineOptions
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 5700
+weight: 5650
 url: /net/aspose.words/signaturelineoptions/
 ---
 ## SignatureLineOptions class
@@ -14,18 +14,23 @@ Allows to specify options for signature line being inserted. Used in [`DocumentB
 public class SignatureLineOptions
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [SignatureLineOptions](signaturelineoptions)() | The default constructor. |
-| [AllowComments](allowcomments) { get; set; } | Gets or sets a value indicating that the signer can add comments in the Sign dialog. Default value for this property is false. |
-| [DefaultInstructions](defaultinstructions) { get; set; } | Gets or sets a value indicating that default instructions is shown in the Sign dialog. Default value for this property is true. |
-| [Email](email) { get; set; } | Gets or sets suggested signer's e-mail address. Default value for this property is empty string (Empty). |
-| [Instructions](instructions) { get; set; } | Gets or sets instructions to the signer that are displayed on signing the signature line. Default value for this property is empty string (Empty). |
-| [ShowDate](showdate) { get; set; } | Gets or sets a value indicating that sign date is shown in the signature line. Default value for this property is true. |
-| [Signer](signer) { get; set; } | Gets or sets suggested signer of the signature line. Default value for this property is empty string (Empty). |
-| [SignerTitle](signertitle) { get; set; } | Gets or sets suggested signer's title. Default value for this property is empty string (Empty). |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
+| [AllowComments](allowcomments) { get; set; } | Gets or sets a value indicating that the signer can add comments in the Sign dialog. Default value for this property is **false**. |
+| [DefaultInstructions](defaultinstructions) { get; set; } | Gets or sets a value indicating that default instructions is shown in the Sign dialog. Default value for this property is **true**. |
+| [Email](email) { get; set; } | Gets or sets suggested signer's e-mail address. Default value for this property is **empty string** (Empty). |
+| [Instructions](instructions) { get; set; } | Gets or sets instructions to the signer that are displayed on signing the signature line. Default value for this property is **empty string** (Empty). |
+| [ShowDate](showdate) { get; set; } | Gets or sets a value indicating that sign date is shown in the signature line. Default value for this property is **true**. |
+| [Signer](signer) { get; set; } | Gets or sets suggested signer of the signature line. Default value for this property is **empty string** (Empty). |
+| [SignerTitle](signertitle) { get; set; } | Gets or sets suggested signer's title. Default value for this property is **empty string** (Empty). |
 
 ### See Also
 

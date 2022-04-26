@@ -3,7 +3,7 @@ title: Frameset
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 670
+weight: 160
 url: /net/aspose.words/document/frameset/
 ---
 ## Document.Frameset property
@@ -16,7 +16,7 @@ public Frameset Frameset { get; }
 
 ### Remarks
 
-If the document is not framed, the property has the null value.
+If the document is not framed, the property has the **null** value.
 
 ### Examples
 

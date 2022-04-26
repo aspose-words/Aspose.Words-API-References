@@ -3,7 +3,7 @@ title: TxtSaveOptions
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 5290
+weight: 5240
 url: /net/aspose.words.saving/txtsaveoptions/
 ---
 ## TxtSaveOptions class
@@ -14,15 +14,20 @@ Can be used to specify additional options when saving a document into the Text f
 public class TxtSaveOptions : TxtSaveOptionsBase
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [TxtSaveOptions](txtsaveoptions)() | The default constructor. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [AddBidiMarks](addbidimarks) { get; set; } | Specifies whether to add bi-directional marks before each BiDi run when exporting in plain text format. |
 | [ListIndentation](listindentation) { get; } | Gets a ListIndentation object that specifies how many and which character to use for indentation of list levels. By default it is zero count of character '\0', that means no indentation. |
 | [MaxCharactersPerLine](maxcharactersperline) { get; set; } | Gets or sets an integer value that specifies the maximum number of characters per one line. The default value is 0, that means no limit. |
-| [PreserveTableLayout](preservetablelayout) { get; set; } | Specifies whether the program should attempt to preserve layout of tables when saving in the plain text format. The default value is false. |
+| [PreserveTableLayout](preservetablelayout) { get; set; } | Specifies whether the program should attempt to preserve layout of tables when saving in the plain text format. The default value is **false**. |
 | override [SaveFormat](saveformat) { get; set; } | Specifies the format in which the document will be saved if this save options object is used. Can only be Text. |
 | [SimplifyListLabels](simplifylistlabels) { get; set; } | Specifies whether the program should simplify list labels in case of complex label formatting not being adequately represented by plain text. |
 

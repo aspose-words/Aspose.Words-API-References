@@ -3,7 +3,7 @@ title: BuiltInDocumentProperties
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 4140
+weight: 4090
 url: /net/aspose.words.properties/builtindocumentproperties/
 ---
 ## BuiltInDocumentProperties class
@@ -14,7 +14,7 @@ A collection of built-in document properties.
 public class BuiltInDocumentProperties : DocumentPropertyCollection
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -56,7 +56,9 @@ public class BuiltInDocumentProperties : DocumentPropertyCollection
 
 Provides access to [`DocumentProperty`](../documentproperty) objects by their names (using an indexer) and via a set of typed properties that return values of appropriate types.
 
-The names of the properties are case-insensitive.The properties in the collection are sorted alphabetically by name.
+The names of the properties are case-insensitive.
+
+The properties in the collection are sorted alphabetically by name.
 
 ### Examples
 

@@ -3,7 +3,7 @@ title: CustomDocumentProperties
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 4150
+weight: 4100
 url: /net/aspose.words.properties/customdocumentproperties/
 ---
 ## CustomDocumentProperties class
@@ -14,18 +14,24 @@ A collection of custom document properties.
 public class CustomDocumentProperties : DocumentPropertyCollection
 ```
 
-## Public Members
+## Methods
 
 | Name | Description |
 | --- | --- |
-| [Add](add)(…) | Creates a new custom document property of the PropertyType.String data type. (5 methods) |
-| [AddLinkToContent](addlinktocontent)(…) | Creates a new linked to content custom document property. |
+| [Add](add)(string, bool) | Creates a new custom document property of the **PropertyType.Boolean** data type. |
+| [Add](add)(string, DateTime) | Creates a new custom document property of the **PropertyType.DateTime** data type. |
+| [Add](add)(string, double) | Creates a new custom document property of the **PropertyType.Float** data type. |
+| [Add](add)(string, int) | Creates a new custom document property of the **PropertyType.Number** data type. |
+| [Add](add)(string, string) | Creates a new custom document property of the **PropertyType.String** data type. |
+| [AddLinkToContent](addlinktocontent)(string, string) | Creates a new linked to content custom document property. |
 
 ### Remarks
 
 Each [`DocumentProperty`](../documentproperty) object represents a custom property of a container document.
 
-The names of the properties are case-insensitive.The properties in the collection are sorted alphabetically by name.
+The names of the properties are case-insensitive.
+
+The properties in the collection are sorted alphabetically by name.
 
 ### Examples
 

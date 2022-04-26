@@ -3,7 +3,7 @@ title: CalculateOnExit
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 120
+weight: 10
 url: /net/aspose.words.fields/formfield/calculateonexit/
 ---
 ## FormField.CalculateOnExit property
@@ -16,7 +16,7 @@ public bool CalculateOnExit { get; set; }
 
 ### Remarks
 
-Setting CalculateOnExit only affects the behavior of the form field when the document is opened in Microsoft Word. Aspose.Words never updates references to the form field.
+Setting **CalculateOnExit** only affects the behavior of the form field when the document is opened in Microsoft Word. Aspose.Words never updates references to the form field.
 
 ### Examples
 

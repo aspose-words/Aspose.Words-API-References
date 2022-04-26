@@ -3,7 +3,7 @@ title: UseSingleBorderforContiguousCells
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 100
+weight: 650
 url: /net/aspose.words.settings/compatibilityoptions/usesingleborderforcontiguouscells/
 ---
 ## CompatibilityOptions.UseSingleBorderforContiguousCells property

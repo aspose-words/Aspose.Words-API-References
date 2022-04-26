@@ -3,7 +3,7 @@ title: IsImage
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 230
+weight: 270
 url: /net/aspose.words.drawing/shapebase/isimage/
 ---
 ## ShapeBase.IsImage property

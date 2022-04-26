@@ -3,7 +3,7 @@ title: IDocumentReaderPlugin
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 2920
+weight: 2900
 url: /net/aspose.words/idocumentreaderplugin/
 ---
 ## IDocumentReaderPlugin interface
@@ -14,11 +14,11 @@ Defines an interface for external reader plugins that can read a file into a doc
 public interface IDocumentReaderPlugin
 ```
 
-## Members
+## Methods
 
 | Name | Description |
 | --- | --- |
-| [Read](read)(…) | Reads the data from the specified stream into the [`Document`](../document) instance. |
+| [Read](read)(Stream, LoadOptions, Document) | Reads the data from the specified stream into the [`Document`](../document) instance. |
 
 ### See Also
 

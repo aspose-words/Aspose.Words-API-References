@@ -3,7 +3,7 @@ title: FileFormatUtil
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 2580
+weight: 2560
 url: /net/aspose.words/fileformatutil/
 ---
 ## FileFormatUtil class
@@ -14,19 +14,20 @@ Provides utility methods for working with file formats, such as detecting file f
 public static class FileFormatUtil
 ```
 
-## Public Members
+## Methods
 
 | Name | Description |
 | --- | --- |
-| static [ContentTypeToLoadFormat](contenttypetoloadformat)(…) | Converts IANA content type into a load format enumerated value. |
-| static [ContentTypeToSaveFormat](contenttypetosaveformat)(…) | Converts IANA content type into a save format enumerated value. |
-| static [DetectFileFormat](detectfileformat)(…) | Detects and returns the information about a format of a document stored in a disk file. (2 methods) |
-| static [ExtensionToSaveFormat](extensiontosaveformat)(…) | Converts a file name extension into a [`SaveFormat`](../saveformat) value. |
-| static [ImageTypeToExtension](imagetypetoextension)(…) | Converts an Aspose.Words image type enumerated value into a file extension. The returned extension is a lower-case string with a leading dot. |
-| static [LoadFormatToExtension](loadformattoextension)(…) | Converts a load format enumerated value into a file extension. The returned extension is a lower-case string with a leading dot. |
-| static [LoadFormatToSaveFormat](loadformattosaveformat)(…) | Converts a [`LoadFormat`](../loadformat) value to a [`SaveFormat`](../saveformat) value if possible. |
-| static [SaveFormatToExtension](saveformattoextension)(…) | Converts a save format enumerated value into a file extension. The returned extension is a lower-case string with a leading dot. |
-| static [SaveFormatToLoadFormat](saveformattoloadformat)(…) | Converts a [`SaveFormat`](../saveformat) value to a [`LoadFormat`](../loadformat) value if possible. |
+| static [ContentTypeToLoadFormat](contenttypetoloadformat)(string) | Converts IANA content type into a load format enumerated value. |
+| static [ContentTypeToSaveFormat](contenttypetosaveformat)(string) | Converts IANA content type into a save format enumerated value. |
+| static [DetectFileFormat](detectfileformat)(Stream) | Detects and returns the information about a format of a document stored in a stream. |
+| static [DetectFileFormat](detectfileformat)(string) | Detects and returns the information about a format of a document stored in a disk file. |
+| static [ExtensionToSaveFormat](extensiontosaveformat)(string) | Converts a file name extension into a [`SaveFormat`](../saveformat) value. |
+| static [ImageTypeToExtension](imagetypetoextension)(ImageType) | Converts an Aspose.Words image type enumerated value into a file extension. The returned extension is a lower-case string with a leading dot. |
+| static [LoadFormatToExtension](loadformattoextension)(LoadFormat) | Converts a load format enumerated value into a file extension. The returned extension is a lower-case string with a leading dot. |
+| static [LoadFormatToSaveFormat](loadformattosaveformat)(LoadFormat) | Converts a [`LoadFormat`](../loadformat) value to a [`SaveFormat`](../saveformat) value if possible. |
+| static [SaveFormatToExtension](saveformattoextension)(SaveFormat) | Converts a save format enumerated value into a file extension. The returned extension is a lower-case string with a leading dot. |
+| static [SaveFormatToLoadFormat](saveformattoloadformat)(SaveFormat) | Converts a [`SaveFormat`](../saveformat) value to a [`LoadFormat`](../loadformat) value if possible. |
 
 ### Examples
 

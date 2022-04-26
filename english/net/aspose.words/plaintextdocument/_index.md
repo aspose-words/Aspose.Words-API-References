@@ -3,7 +3,7 @@ title: PlainTextDocument
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 4130
+weight: 4080
 url: /net/aspose.words/plaintextdocument/
 ---
 ## PlainTextDocument class
@@ -14,11 +14,19 @@ Allows to extract plain-text representation of the document's content.
 public class PlainTextDocument
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
-| [PlainTextDocument](plaintextdocument)(…) | Creates a plain text document from a file. Automatically detects the file format. (4 constructors) |
+| [PlainTextDocument](plaintextdocument)(Stream) | Creates a plain text document from a stream. Automatically detects the file format. |
+| [PlainTextDocument](plaintextdocument)(string) | Creates a plain text document from a file. Automatically detects the file format. |
+| [PlainTextDocument](plaintextdocument)(Stream, LoadOptions) | Creates a plain text document from a stream. Allows to specify additional options such as an encryption password. |
+| [PlainTextDocument](plaintextdocument)(string, LoadOptions) | Creates a plain text document from a file. Allows to specify additional options such as an encryption password. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [BuiltInDocumentProperties](builtindocumentproperties) { get; } | Gets [`BuiltInDocumentProperties`](./builtindocumentproperties) of the document. |
 | [CustomDocumentProperties](customdocumentproperties) { get; } | Gets [`CustomDocumentProperties`](./customdocumentproperties) of the document. |
 | [Text](text) { get; } | Gets textual content of the document concatenated as a string. |

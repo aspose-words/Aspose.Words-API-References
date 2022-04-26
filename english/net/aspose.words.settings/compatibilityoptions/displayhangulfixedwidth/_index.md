@@ -3,7 +3,7 @@ title: DisplayHangulFixedWidth
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 600
+weight: 110
 url: /net/aspose.words.settings/compatibilityoptions/displayhangulfixedwidth/
 ---
 ## CompatibilityOptions.DisplayHangulFixedWidth property

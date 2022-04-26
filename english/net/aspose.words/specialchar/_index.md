@@ -3,7 +3,7 @@ title: SpecialChar
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 5710
+weight: 5660
 url: /net/aspose.words/specialchar/
 ---
 ## SpecialChar class
@@ -14,17 +14,26 @@ Base class for special characters in the document.
 public class SpecialChar : Inline
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
-| override [NodeType](nodetype) { get; } | Returns NodeType.SpecialChar. |
-| override [Accept](accept)(…) | Accepts a visitor. |
+| override [NodeType](nodetype) { get; } | Returns **NodeType.SpecialChar**. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| override [Accept](accept)(DocumentVisitor) | Accepts a visitor. |
 | override [GetText](gettext)() | Gets the special character that this node represents. |
 
 ### Remarks
 
-A Microsoft Word document can include a number of special characters that represent fields, form fields, shapes, OLE objects, footnotes etc. For the list of special characters see [`ControlChar`](../controlchar).SpecialChar is an inline-node and can only be a child of Paragraph.SpecialChar char is used as a base class for more specific classes that represent special characters that Aspose.Words provides programmatic access for. The SpecialChar class is also used itself to represent special character for which Aspose.Words does not provide detailed programmatic access.
+A Microsoft Word document can include a number of special characters that represent fields, form fields, shapes, OLE objects, footnotes etc. For the list of special characters see [`ControlChar`](../controlchar).
+
+**SpecialChar** is an inline-node and can only be a child of **Paragraph**.
+
+**SpecialChar** char is used as a base class for more specific classes that represent special characters that Aspose.Words provides programmatic access for. The **SpecialChar** class is also used itself to represent special character for which Aspose.Words does not provide detailed programmatic access.
 
 ### Examples
 

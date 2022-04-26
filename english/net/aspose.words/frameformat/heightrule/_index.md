@@ -3,7 +3,7 @@ title: HeightRule
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 10
+weight: 20
 url: /net/aspose.words/frameformat/heightrule/
 ---
 ## FrameFormat.HeightRule property

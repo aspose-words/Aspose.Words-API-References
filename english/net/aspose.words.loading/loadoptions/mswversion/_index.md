@@ -3,7 +3,7 @@ title: MswVersion
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 140
+weight: 100
 url: /net/aspose.words.loading/loadoptions/mswversion/
 ---
 ## LoadOptions.MswVersion property

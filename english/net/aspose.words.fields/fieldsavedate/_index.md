@@ -3,7 +3,7 @@ title: FieldSaveDate
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 2150
+weight: 2130
 url: /net/aspose.words.fields/fieldsavedate/
 ---
 ## FieldSaveDate class
@@ -14,11 +14,16 @@ Implements the SAVEDATE field.
 public class FieldSaveDate : Field
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [FieldSaveDate](fieldsavedate)() | The default constructor. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [UseLunarCalendar](uselunarcalendar) { get; set; } | Gets or sets whether to use the Hijri Lunar or Hebrew Lunar calendar. |
 | [UseSakaEraCalendar](usesakaeracalendar) { get; set; } | Gets or sets whether to use the Saka Era calendar. |
 | [UseUmAlQuraCalendar](useumalquracalendar) { get; set; } | Gets or sets whether to use the Um-al-Qura calendar. |

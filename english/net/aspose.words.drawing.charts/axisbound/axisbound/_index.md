@@ -3,7 +3,7 @@ title: AxisBound
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 40
+weight: 10
 url: /net/aspose.words.drawing.charts/axisbound/axisbound/
 ---
 ## AxisBound constructor (1 of 3)
@@ -81,10 +81,10 @@ doc.Save(ArtifactsDir + "Charts.AxisBound.docx");
 
 ## AxisBound constructor (2 of 3)
 
-Creates an axis bound represented as datetime value.
+Creates an axis bound represented as a number.
 
 ```csharp
-public AxisBound(DateTime datetime)
+public AxisBound(double value)
 ```
 
 ### Examples
@@ -144,10 +144,10 @@ doc.Save(ArtifactsDir + "Charts.DateTimeValues.docx");
 
 ## AxisBound constructor (3 of 3)
 
-Creates an axis bound represented as a number.
+Creates an axis bound represented as datetime value.
 
 ```csharp
-public AxisBound(double value)
+public AxisBound(DateTime datetime)
 ```
 
 ### Examples

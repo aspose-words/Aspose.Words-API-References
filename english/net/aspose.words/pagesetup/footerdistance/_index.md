@@ -3,7 +3,7 @@ title: FooterDistance
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 220
+weight: 130
 url: /net/aspose.words/pagesetup/footerdistance/
 ---
 ## PageSetup.FooterDistance property

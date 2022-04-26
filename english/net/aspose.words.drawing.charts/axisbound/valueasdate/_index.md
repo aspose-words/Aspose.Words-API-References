@@ -3,7 +3,7 @@ title: ValueAsDate
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 70
+weight: 40
 url: /net/aspose.words.drawing.charts/axisbound/valueasdate/
 ---
 ## AxisBound.ValueAsDate property

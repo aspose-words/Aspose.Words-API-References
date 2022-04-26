@@ -3,7 +3,7 @@ title: FieldTemplate
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 2290
+weight: 2270
 url: /net/aspose.words.fields/fieldtemplate/
 ---
 ## FieldTemplate class
@@ -14,11 +14,16 @@ Implements the TEMPLATE field.
 public class FieldTemplate : Field
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [FieldTemplate](fieldtemplate)() | The default constructor. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [IncludeFullPath](includefullpath) { get; set; } | Gets or sets whether to include the full file path name. |
 
 ### Remarks

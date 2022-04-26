@@ -3,7 +3,7 @@ title: HeaderSource
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 120
+weight: 100
 url: /net/aspose.words.settings/mailmergesettings/headersource/
 ---
 ## MailMergeSettings.HeaderSource property

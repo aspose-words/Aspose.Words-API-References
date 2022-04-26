@@ -3,7 +3,7 @@ title: Clsid
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 140
+weight: 20
 url: /net/aspose.words.drawing/oleformat/clsid/
 ---
 ## OleFormat.Clsid property

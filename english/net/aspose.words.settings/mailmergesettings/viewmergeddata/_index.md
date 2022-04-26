@@ -3,7 +3,7 @@ title: ViewMergedData
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 190
+weight: 170
 url: /net/aspose.words.settings/mailmergesettings/viewmergeddata/
 ---
 ## MailMergeSettings.ViewMergedData property

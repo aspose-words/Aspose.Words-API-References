@@ -3,7 +3,7 @@ title: VisitStructuredDocumentTagEnd
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 410
+weight: 440
 url: /net/aspose.words/documentvisitor/visitstructureddocumenttagend/
 ---
 ## DocumentVisitor.VisitStructuredDocumentTagEnd method

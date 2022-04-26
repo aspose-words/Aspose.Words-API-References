@@ -3,7 +3,7 @@ title: ListLevelNumber
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 60
+weight: 40
 url: /net/aspose.words.lists/listformat/listlevelnumber/
 ---
 ## ListFormat.ListLevelNumber property
@@ -16,7 +16,9 @@ public int ListLevelNumber { get; set; }
 
 ### Remarks
 
-In Word documents, lists may consist of 1 or 9 levels, numbered 0 to 8.Has effect only when the [`List`](../list) property is set to reference a valid list.
+In Word documents, lists may consist of 1 or 9 levels, numbered 0 to 8.
+
+Has effect only when the [`List`](../list) property is set to reference a valid list.
 
 ### Examples
 

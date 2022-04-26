@@ -3,7 +3,7 @@ title: GeneralFormatCollection
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 2440
+weight: 2420
 url: /net/aspose.words.fields/generalformatcollection/
 ---
 ## GeneralFormatCollection class
@@ -14,16 +14,21 @@ Represents a typed collection of general formats.
 public class GeneralFormatCollection : IEnumerable<GeneralFormat>
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
 | [Count](count) { get; } | Gets the total number of the items in the collection. |
 | [Item](item) { get; } | Gets a general format at the specified index. |
-| [Add](add)(…) | Adds a general format to the collection. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [Add](add)(GeneralFormat) | Adds a general format to the collection. |
 | [GetEnumerator](getenumerator)() | Returns an enumerator object. |
-| [Remove](remove)(…) | Removes all occurrences of the specified general format from the collection. |
-| [RemoveAt](removeat)(…) | Removes a general format occurrence at the specified index. |
+| [Remove](remove)(GeneralFormat) | Removes all occurrences of the specified general format from the collection. |
+| [RemoveAt](removeat)(int) | Removes a general format occurrence at the specified index. |
 
 ### Examples
 

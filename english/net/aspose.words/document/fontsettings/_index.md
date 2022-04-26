@@ -3,7 +3,7 @@ title: FontSettings
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 660
+weight: 140
 url: /net/aspose.words/document/fontsettings/
 ---
 ## Document.FontSettings property

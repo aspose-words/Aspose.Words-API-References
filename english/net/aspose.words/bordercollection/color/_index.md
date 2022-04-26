@@ -3,7 +3,7 @@ title: Color
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 140
+weight: 20
 url: /net/aspose.words/bordercollection/color/
 ---
 ## BorderCollection.Color property
@@ -16,7 +16,9 @@ public Color Color { get; set; }
 
 ### Remarks
 
-Returns the color of the first border in the collection.Sets the color of all borders in the collection excluding diagonal borders.
+Returns the color of the first border in the collection.
+
+Sets the color of all borders in the collection excluding diagonal borders.
 
 ### Examples
 

@@ -3,7 +3,7 @@ title: OptionalHyphenChar
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 250
+weight: 190
 url: /net/aspose.words/controlchar/optionalhyphenchar/
 ---
 ## ControlChar.OptionalHyphenChar field

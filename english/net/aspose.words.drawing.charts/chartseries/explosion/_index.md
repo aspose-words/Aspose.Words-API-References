@@ -3,7 +3,7 @@ title: Explosion
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 10
+weight: 40
 url: /net/aspose.words.drawing.charts/chartseries/explosion/
 ---
 ## ChartSeries.Explosion property

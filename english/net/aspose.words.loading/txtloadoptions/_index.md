@@ -3,7 +3,7 @@ title: TxtLoadOptions
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 3470
+weight: 3440
 url: /net/aspose.words.loading/txtloadoptions/
 ---
 ## TxtLoadOptions class
@@ -14,11 +14,16 @@ Allows to specify additional options when loading Text document into a [`Documen
 public class TxtLoadOptions : LoadOptions
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [TxtLoadOptions](txtloadoptions)() | Initializes a new instance of this class with default values. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [DetectNumberingWithWhitespaces](detectnumberingwithwhitespaces) { get; set; } | Allows to specify how numbered list items are recognized when document is imported from plain text format. The default value is true. |
 | [DocumentDirection](documentdirection) { get; set; } | Gets or sets a document direction. The default value is LeftToRight. |
 | [LeadingSpacesOptions](leadingspacesoptions) { get; set; } | Gets or sets preferred option of a leading space handling. Default value is ConvertToIndent. |

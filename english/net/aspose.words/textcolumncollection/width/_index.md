@@ -3,7 +3,7 @@ title: Width
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 40
+weight: 60
 url: /net/aspose.words/textcolumncollection/width/
 ---
 ## TextColumnCollection.Width property
@@ -16,7 +16,7 @@ public double Width { get; }
 
 ### Remarks
 
-Has effect only when [`EvenlySpaced`](../evenlyspaced) is set to true.
+Has effect only when [`EvenlySpaced`](../evenlyspaced) is set to **true**.
 
 ### See Also
 

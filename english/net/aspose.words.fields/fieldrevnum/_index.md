@@ -3,7 +3,7 @@ title: FieldRevNum
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 2140
+weight: 2120
 url: /net/aspose.words.fields/fieldrevnum/
 ---
 ## FieldRevNum class
@@ -14,7 +14,7 @@ Implements the REVNUM field.
 public class FieldRevNum : Field
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
@@ -22,7 +22,7 @@ public class FieldRevNum : Field
 
 ### Remarks
 
-Retrieves the document's revision number, as recorded in the Revision property of the built-in document properties.
+Retrieves the document's revision number, as recorded in the **Revision** property of the built-in document properties.
 
 ### Examples
 

@@ -3,7 +3,7 @@ title: FieldInfo
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 1880
+weight: 1860
 url: /net/aspose.words.fields/fieldinfo/
 ---
 ## FieldInfo class
@@ -14,11 +14,16 @@ Implements the INFO field.
 public class FieldInfo : Field
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [FieldInfo](fieldinfo)() | The default constructor. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [InfoType](infotype) { get; set; } | Gets or sets the type of the document property to insert. |
 | [NewValue](newvalue) { get; set; } | Gets or sets an optional value that updates the property. |
 

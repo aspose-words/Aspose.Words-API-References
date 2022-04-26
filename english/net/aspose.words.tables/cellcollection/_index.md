@@ -3,7 +3,7 @@ title: CellCollection
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 5860
+weight: 5810
 url: /net/aspose.words.tables/cellcollection/
 ---
 ## CellCollection class
@@ -14,11 +14,16 @@ Provides typed access to a collection of [`Cell`](../cell) nodes.
 public class CellCollection : NodeCollection
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
-| [Item](item) { get; } | Retrieves a Cell at the given index. |
+| [Item](item) { get; } | Retrieves a **Cell** at the given index. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
 | [ToArray](toarray)() | Copies all cells from the collection to a new array of cells. |
 
 ### Examples

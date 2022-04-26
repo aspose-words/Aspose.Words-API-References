@@ -3,7 +3,7 @@ title: PageStartingNumber
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 280
+weight: 300
 url: /net/aspose.words/pagesetup/pagestartingnumber/
 ---
 ## PageSetup.PageStartingNumber property
@@ -16,7 +16,7 @@ public int PageStartingNumber { get; set; }
 
 ### Remarks
 
-The [`RestartPageNumbering`](../restartpagenumbering) property, if set to false, will override the PageStartingNumber property so that page numbering can continue from the previous section.
+The [`RestartPageNumbering`](../restartpagenumbering) property, if set to **false**, will override the **PageStartingNumber** property so that page numbering can continue from the previous section.
 
 ### Examples
 

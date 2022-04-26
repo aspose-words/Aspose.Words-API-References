@@ -3,7 +3,7 @@ title: Position
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 390
+weight: 300
 url: /net/aspose.words/font/position/
 ---
 ## Font.Position property

@@ -3,12 +3,12 @@ title: NodeType
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 70
+weight: 220
 url: /net/aspose.words.markup/structureddocumenttag/nodetype/
 ---
 ## StructuredDocumentTag.NodeType property
 
-Returns NodeType.StructuredDocumentTag.
+Returns **NodeType.StructuredDocumentTag**.
 
 ```csharp
 public override NodeType NodeType { get; }

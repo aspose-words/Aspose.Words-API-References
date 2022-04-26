@@ -3,7 +3,7 @@ title: ColumnStripe
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 140
+weight: 70
 url: /net/aspose.words/tablestyle/columnstripe/
 ---
 ## TableStyle.ColumnStripe property

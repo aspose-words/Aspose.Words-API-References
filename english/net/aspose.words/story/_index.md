@@ -3,7 +3,7 @@ title: Story
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 5720
+weight: 5670
 url: /net/aspose.words/story/
 ---
 ## Story class
@@ -14,7 +14,7 @@ Base class for elements that contain block-level nodes [`Paragraph`](../paragrap
 public abstract class Story : CompositeNode
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -23,7 +23,12 @@ public abstract class Story : CompositeNode
 | [Paragraphs](paragraphs) { get; } | Gets a collection of paragraphs that are immediate children of the story. |
 | [StoryType](storytype) { get; } | Gets the type of this story. |
 | [Tables](tables) { get; } | Gets a collection of tables that are immediate children of the story. |
-| [AppendParagraph](appendparagraph)(…) | A shortcut method that creates a [`Paragraph`](../paragraph) object with optional text and appends it to the end of this object. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [AppendParagraph](appendparagraph)(string) | A shortcut method that creates a [`Paragraph`](../paragraph) object with optional text and appends it to the end of this object. |
 | [DeleteShapes](deleteshapes)() | Deletes all shapes from the text of this story. |
 
 ### Remarks

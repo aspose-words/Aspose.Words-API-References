@@ -3,7 +3,7 @@ title: Odso
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 5490
+weight: 5440
 url: /net/aspose.words.settings/odso/
 ---
 ## Odso class
@@ -14,11 +14,16 @@ Specifies the Office Data Source Object (ODSO) settings for a mail merge data so
 public class Odso
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [Odso](odso)() | The default constructor. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [ColumnDelimiter](columndelimiter) { get; set; } | Specifies the character which shall be interpreted as the column delimiter used to separate columns within external data sources. The default value is 0 which means there is no column delimiter defined. |
 | [DataSource](datasource) { get; set; } | Specifies the location of the external data source to be connected to a document to perform the mail merge. The default value is an empty string. |
 | [DataSourceType](datasourcetype) { get; set; } | Specifies the type of the external data source to be connected to as part of the ODSO connection information for this mail merge. The default value is Default. |
@@ -27,6 +32,11 @@ public class Odso
 | [RecipientDatas](recipientdatas) { get; set; } | Gets or sets a collection of objects that specify inclusion/exclusion of individual records in the mail merge. This object is never null. |
 | [TableName](tablename) { get; set; } | Specifies the particular set of data that a source shall be connected to within an external data source. The default value is an empty string. |
 | [UdlConnectString](udlconnectstring) { get; set; } | Specifies the Universal Data Link (UDL) connection string used to connect to an external data source. The default value is an empty string. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
 | [Clone](clone)() | Returns a deep clone of this object. |
 
 ### Remarks

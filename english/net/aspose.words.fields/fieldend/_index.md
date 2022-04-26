@@ -3,7 +3,7 @@ title: FieldEnd
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 1660
+weight: 1640
 url: /net/aspose.words.fields/fieldend/
 ---
 ## FieldEnd class
@@ -14,17 +14,28 @@ Represents an end of a Word field in a document.
 public class FieldEnd : FieldChar
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
-| [HasSeparator](hasseparator) { get; } | Returns true if this field has a separator. |
+| [HasSeparator](hasseparator) { get; } | Returns **true** if this field has a separator. |
 | override [NodeType](nodetype) { get; } | Returns FieldEnd. |
-| override [Accept](accept)(…) | Accepts a visitor. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| override [Accept](accept)(DocumentVisitor) | Accepts a visitor. |
 
 ### Remarks
 
-[`FieldEnd`](../fieldend) is an inline-level node and represented by the [`FieldEndChar`](../../aspose.words/controlchar/fieldendchar) control character in the document.[`FieldEnd`](../fieldend) can only be a child of [`Paragraph`](../../aspose.words/paragraph).A complete field in a Microsoft Word document is a complex structure consisting of a field start character, field code, field separator character, field result and field end character. Some fields only have field start, field code and field end.To easily insert a new field into a document, use the [`InsertField`](../../aspose.words/documentbuilder/insertfield) method.
+[`FieldEnd`](../fieldend) is an inline-level node and represented by the [`FieldEndChar`](../../aspose.words/controlchar/fieldendchar) control character in the document.
+
+[`FieldEnd`](../fieldend) can only be a child of [`Paragraph`](../../aspose.words/paragraph).
+
+A complete field in a Microsoft Word document is a complex structure consisting of a field start character, field code, field separator character, field result and field end character. Some fields only have field start, field code and field end.
+
+To easily insert a new field into a document, use the [`InsertField`](../../aspose.words/documentbuilder/insertfield) method.
 
 ### Examples
 

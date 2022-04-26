@@ -3,7 +3,7 @@ title: IDocumentPartSavingCallback
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 4790
+weight: 4740
 url: /net/aspose.words.saving/idocumentpartsavingcallback/
 ---
 ## IDocumentPartSavingCallback interface
@@ -14,11 +14,11 @@ Implement this interface if you want to receive notifications and control how As
 public interface IDocumentPartSavingCallback
 ```
 
-## Members
+## Methods
 
 | Name | Description |
 | --- | --- |
-| [DocumentPartSaving](documentpartsaving)(…) | Called when Aspose.Words is about to save a document part. |
+| [DocumentPartSaving](documentpartsaving)(DocumentPartSavingArgs) | Called when Aspose.Words is about to save a document part. |
 
 ### Examples
 

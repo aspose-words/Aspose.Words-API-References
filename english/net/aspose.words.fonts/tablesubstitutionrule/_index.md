@@ -3,7 +3,7 @@ title: TableSubstitutionRule
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 2820
+weight: 2800
 url: /net/aspose.words.fonts/tablesubstitutionrule/
 ---
 ## TableSubstitutionRule class
@@ -14,18 +14,20 @@ Table font substitution rule.
 public class TableSubstitutionRule : FontSubstitutionRule
 ```
 
-## Public Members
+## Methods
 
 | Name | Description |
 | --- | --- |
-| [AddSubstitutes](addsubstitutes)(…) | Adds substitute font names for given original font name. |
-| [GetSubstitutes](getsubstitutes)(…) | Returns array containing substitute font names for the specified original font name. |
-| [Load](load)(…) | Loads table substitution settings from XML file. (2 methods) |
+| [AddSubstitutes](addsubstitutes)(string, params string[]) | Adds substitute font names for given original font name. |
+| [GetSubstitutes](getsubstitutes)(string) | Returns array containing substitute font names for the specified original font name. |
+| [Load](load)(Stream) | Loads table substitution settings from XML stream. |
+| [Load](load)(string) | Loads table substitution settings from XML file. |
 | [LoadAndroidSettings](loadandroidsettings)() | Loads predefined table substitution settings for Linux platform. |
 | [LoadLinuxSettings](loadlinuxsettings)() | Loads predefined table substitution settings for Linux platform. |
 | [LoadWindowsSettings](loadwindowssettings)() | Loads predefined table substitution settings for Windows platform. |
-| [Save](save)(…) | Saves the current table substitution settings to file. (2 methods) |
-| [SetSubstitutes](setsubstitutes)(…) | Override substitute font names for given original font name. |
+| [Save](save)(Stream) | Saves the current table substitution settings to stream. |
+| [Save](save)(string) | Saves the current table substitution settings to file. |
+| [SetSubstitutes](setsubstitutes)(string, params string[]) | Override substitute font names for given original font name. |
 
 ### Remarks
 

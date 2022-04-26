@@ -3,7 +3,7 @@ title: ListIndent
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 40
+weight: 70
 url: /net/aspose.words.lists/listformat/listindent/
 ---
 ## ListFormat.ListIndent method
@@ -16,7 +16,9 @@ public void ListIndent()
 
 ### Remarks
 
-This method changes the list level and applies formatting properties of the new level.In Word documents, lists may consist of up to nine levels. List formatting for each level specifies what bullet or number is used, left indent, space between the bullet and text etc.
+This method changes the list level and applies formatting properties of the new level.
+
+In Word documents, lists may consist of up to nine levels. List formatting for each level specifies what bullet or number is used, left indent, space between the bullet and text etc.
 
 ### Examples
 

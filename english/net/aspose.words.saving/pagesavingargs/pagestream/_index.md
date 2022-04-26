@@ -3,7 +3,7 @@ title: PageStream
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 20
+weight: 50
 url: /net/aspose.words.saving/pagesavingargs/pagestream/
 ---
 ## PageSavingArgs.PageStream property

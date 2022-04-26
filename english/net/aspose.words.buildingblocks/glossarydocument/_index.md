@@ -14,17 +14,27 @@ Represents the root element for a glossary document within a Word document. A gl
 public class GlossaryDocument : DocumentBase
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [GlossaryDocument](glossarydocument)() | The default constructor. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [BuildingBlocks](buildingblocks) { get; } | Returns a typed collection that represents all building blocks in the glossary document. |
 | [FirstBuildingBlock](firstbuildingblock) { get; } | Gets the first building block in the glossary document. |
 | [LastBuildingBlock](lastbuildingblock) { get; } | Gets the last building block in the glossary document. |
 | override [NodeType](nodetype) { get; } | Returns the GlossaryDocument value. |
-| override [Accept](accept)(…) | Accepts a visitor. |
-| [GetBuildingBlock](getbuildingblock)(…) | Finds a building block using the specified gallery, category and name. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| override [Accept](accept)(DocumentVisitor) | Accepts a visitor. |
+| [GetBuildingBlock](getbuildingblock)(BuildingBlockGallery, string, string) | Finds a building block using the specified gallery, category and name. |
 
 ### Remarks
 
@@ -34,7 +44,7 @@ To access building blocks, you need to load a document into a [`Document`](../..
 
 [`GlossaryDocument`](../glossarydocument) can contain any number of [`BuildingBlock`](../buildingblock) objects. Each [`BuildingBlock`](../buildingblock) represents one document part.
 
-Corresponds to the glossaryDocument and docParts elements in OOXML.
+Corresponds to the **glossaryDocument** and **docParts** elements in OOXML.
 
 ### Examples
 

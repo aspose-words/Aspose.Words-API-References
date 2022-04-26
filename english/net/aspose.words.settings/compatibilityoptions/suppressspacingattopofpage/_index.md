@@ -3,7 +3,7 @@ title: SuppressSpacingAtTopOfPage
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 180
+weight: 490
 url: /net/aspose.words.settings/compatibilityoptions/suppressspacingattopofpage/
 ---
 ## CompatibilityOptions.SuppressSpacingAtTopOfPage property

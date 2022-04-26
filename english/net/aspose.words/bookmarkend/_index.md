@@ -14,18 +14,32 @@ Represents an end of a bookmark in a Word document.
 public class BookmarkEnd : Node
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
-| [BookmarkEnd](bookmarkend)(…) | Initializes a new instance of the [`BookmarkEnd`](../bookmarkend) class. |
+| [BookmarkEnd](bookmarkend)(DocumentBase, string) | Initializes a new instance of the [`BookmarkEnd`](../bookmarkend) class. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [Name](name) { get; set; } | Gets or sets the bookmark name. |
 | override [NodeType](nodetype) { get; } | Returns BookmarkEnd. |
-| override [Accept](accept)(…) | Accepts a visitor. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| override [Accept](accept)(DocumentVisitor) | Accepts a visitor. |
 
 ### Remarks
 
-A complete bookmark in a Word document consists of a [`BookmarkStart`](../bookmarkstart) and a matching [`BookmarkEnd`](../bookmarkend) with the same bookmark name.[`BookmarkStart`](../bookmarkstart) and [`BookmarkEnd`](../bookmarkend) are just markers inside a document that specify where the bookmark starts and ends.Use the [`Bookmark`](../bookmark) class as a "facade" to work with a bookmark as a single object.
+A complete bookmark in a Word document consists of a [`BookmarkStart`](../bookmarkstart) and a matching [`BookmarkEnd`](../bookmarkend) with the same bookmark name.
+
+[`BookmarkStart`](../bookmarkstart) and [`BookmarkEnd`](../bookmarkend) are just markers inside a document that specify where the bookmark starts and ends.
+
+Use the [`Bookmark`](../bookmark) class as a "facade" to work with a bookmark as a single object.
 
 ### Examples
 

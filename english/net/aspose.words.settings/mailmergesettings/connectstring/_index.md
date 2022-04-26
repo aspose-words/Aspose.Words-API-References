@@ -3,7 +3,7 @@ title: ConnectString
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 70
+weight: 50
 url: /net/aspose.words.settings/mailmergesettings/connectstring/
 ---
 ## MailMergeSettings.ConnectString property

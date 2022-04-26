@@ -3,7 +3,7 @@ title: MoveToBookmark
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 160
+weight: 470
 url: /net/aspose.words/documentbuilder/movetobookmark/
 ---
 ## DocumentBuilder.MoveToBookmark method (1 of 2)
@@ -24,7 +24,13 @@ True if the bookmark was found; false otherwise.
 
 ### Remarks
 
-Moves the cursor to a position just after the start of the bookmark with the specified name.The comparison is not case-sensitive. If the bookmark was not found, false is returned and the cursor is not moved.Inserting new text does not replace existing text of the bookmark.Note that some bookmarks in the document are assigned to form fields. Moving to such a bookmark and inserting text there inserts the text into the form field code. Although this will not invalidate the form field, the inserted text will not be visible because it becomes part of the field code.
+Moves the cursor to a position just after the start of the bookmark with the specified name.
+
+The comparison is not case-sensitive. If the bookmark was not found, false is returned and the cursor is not moved.
+
+Inserting new text does not replace existing text of the bookmark.
+
+Note that some bookmarks in the document are assigned to form fields. Moving to such a bookmark and inserting text there inserts the text into the form field code. Although this will not invalidate the form field, the inserted text will not be visible because it becomes part of the field code.
 
 ### Examples
 
@@ -105,7 +111,11 @@ True if the bookmark was found; false otherwise.
 
 ### Remarks
 
-Moves the cursor to a position before or after the bookmark start or end.If desired position is not at inline level, moves to the next paragraph.The comparison is not case-sensitive. If the bookmark was not found, false is returned and the cursor is not moved.
+Moves the cursor to a position before or after the bookmark start or end.
+
+If desired position is not at inline level, moves to the next paragraph.
+
+The comparison is not case-sensitive. If the bookmark was not found, false is returned and the cursor is not moved.
 
 ### Examples
 

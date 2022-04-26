@@ -24,7 +24,9 @@ False if the visitor requested the enumeration to stop.
 
 ### Remarks
 
-Calls DocumentVisitor.VisitAbsolutePositionTab.For more info see the Visitor design pattern.
+Calls DocumentVisitor.VisitAbsolutePositionTab.
+
+For more info see the Visitor design pattern.
 
 ### Examples
 

@@ -3,7 +3,7 @@ title: NoColumnBalance
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 70
+weight: 330
 url: /net/aspose.words.settings/compatibilityoptions/nocolumnbalance/
 ---
 ## CompatibilityOptions.NoColumnBalance property

@@ -3,7 +3,7 @@ title: ZoomFactor
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 160
+weight: 300
 url: /net/aspose.words.saving/pdfsaveoptions/zoomfactor/
 ---
 ## PdfSaveOptions.ZoomFactor property

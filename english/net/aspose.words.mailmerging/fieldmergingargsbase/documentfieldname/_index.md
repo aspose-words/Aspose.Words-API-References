@@ -3,7 +3,7 @@ title: DocumentFieldName
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 50
+weight: 20
 url: /net/aspose.words.mailmerging/fieldmergingargsbase/documentfieldname/
 ---
 ## FieldMergingArgsBase.DocumentFieldName property
@@ -16,7 +16,9 @@ public string DocumentFieldName { get; }
 
 ### Remarks
 
-If you have a mapping from a document field name to a different data source field name, then this is the original field name as specified in the document.If you specified a field name prefix, for example "Image:MyFieldName" in the document, then DocumentFieldName returns field name without the prefix, that is "MyFieldName".
+If you have a mapping from a document field name to a different data source field name, then this is the original field name as specified in the document.
+
+If you specified a field name prefix, for example "Image:MyFieldName" in the document, then **DocumentFieldName** returns field name without the prefix, that is "MyFieldName".
 
 ### Examples
 

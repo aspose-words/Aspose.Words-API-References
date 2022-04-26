@@ -3,7 +3,7 @@ title: Visible
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 60
+weight: 190
 url: /net/aspose.words.drawing/stroke/visible/
 ---
 ## Stroke.Visible property
@@ -16,7 +16,7 @@ public bool Visible { get; set; }
 
 ### Remarks
 
-The default value for a [`Shape`](../../shape) is true.
+The default value for a [`Shape`](../../shape) is **true**.
 
 ### Examples
 

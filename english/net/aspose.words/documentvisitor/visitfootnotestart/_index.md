@@ -3,7 +3,7 @@ title: VisitFootnoteStart
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 240
+weight: 220
 url: /net/aspose.words/documentvisitor/visitfootnotestart/
 ---
 ## DocumentVisitor.VisitFootnoteStart method

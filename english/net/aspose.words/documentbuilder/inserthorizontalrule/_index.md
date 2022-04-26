@@ -3,7 +3,7 @@ title: InsertHorizontalRule
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 410
+weight: 320
 url: /net/aspose.words/documentbuilder/inserthorizontalrule/
 ---
 ## DocumentBuilder.InsertHorizontalRule method

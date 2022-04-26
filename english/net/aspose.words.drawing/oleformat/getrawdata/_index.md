@@ -3,7 +3,7 @@ title: GetRawData
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 30
+weight: 150
 url: /net/aspose.words.drawing/oleformat/getrawdata/
 ---
 ## OleFormat.GetRawData method

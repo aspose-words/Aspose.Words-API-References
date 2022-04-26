@@ -3,7 +3,7 @@ title: ChildNodes
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 180
+weight: 10
 url: /net/aspose.words/compositenode/childnodes/
 ---
 ## CompositeNode.ChildNodes property
@@ -16,7 +16,9 @@ public NodeCollection ChildNodes { get; }
 
 ### Remarks
 
-Note, `ChildNodes` is equivalent to calling `GetChildNodes(NodeType.Any, false)` and creates and returns a new collection every time it is accessed.If there are no child nodes, this property returns an empty collection.
+Note, `ChildNodes` is equivalent to calling `GetChildNodes(NodeType.Any, false)` and creates and returns a new collection every time it is accessed.
+
+If there are no child nodes, this property returns an empty collection.
 
 ### Examples
 

@@ -3,7 +3,7 @@ title: FieldPrivate
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 2100
+weight: 2080
 url: /net/aspose.words.fields/fieldprivate/
 ---
 ## FieldPrivate class
@@ -14,7 +14,7 @@ Implements the PRIVATE field.
 public class FieldPrivate : Field
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |

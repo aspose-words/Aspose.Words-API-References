@@ -3,12 +3,12 @@ title: SignerTitle
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 30
+weight: 80
 url: /net/aspose.words/signaturelineoptions/signertitle/
 ---
 ## SignatureLineOptions.SignerTitle property
 
-Gets or sets suggested signer's title. Default value for this property is empty string (Empty).
+Gets or sets suggested signer's title. Default value for this property is **empty string** (Empty).
 
 ```csharp
 public string SignerTitle { get; set; }

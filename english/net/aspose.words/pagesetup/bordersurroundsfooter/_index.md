@@ -3,7 +3,7 @@ title: BorderSurroundsFooter
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 390
+weight: 60
 url: /net/aspose.words/pagesetup/bordersurroundsfooter/
 ---
 ## PageSetup.BorderSurroundsFooter property

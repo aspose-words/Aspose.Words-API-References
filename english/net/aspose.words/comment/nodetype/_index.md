@@ -3,12 +3,12 @@ title: NodeType
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 70
+weight: 80
 url: /net/aspose.words/comment/nodetype/
 ---
 ## Comment.NodeType property
 
-Returns NodeType.Comment.
+Returns **NodeType.Comment**.
 
 ```csharp
 public override NodeType NodeType { get; }

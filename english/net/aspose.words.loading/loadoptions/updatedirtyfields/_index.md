@@ -3,7 +3,7 @@ title: UpdateDirtyFields
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 150
+weight: 160
 url: /net/aspose.words.loading/loadoptions/updatedirtyfields/
 ---
 ## LoadOptions.UpdateDirtyFields property

@@ -3,7 +3,7 @@ title: FontSettings
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 2730
+weight: 2710
 url: /net/aspose.words.fonts/fontsettings/
 ---
 ## FontSettings class
@@ -14,20 +14,31 @@ Specifies font settings for a document.
 public class FontSettings
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [FontSettings](fontsettings)() | The default constructor. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | static [DefaultInstance](defaultinstance) { get; } | Static default font settings. |
 | [FallbackSettings](fallbacksettings) { get; } | Settings related to font fallback mechanism. |
 | [SubstitutionSettings](substitutionsettings) { get; } | Settings related to font substitution mechanism. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
 | [GetFontsSources](getfontssources)() | Gets a copy of the array that contains the list of sources where Aspose.Words looks for TrueType fonts. |
 | [ResetFontSources](resetfontsources)() | Resets the fonts sources to the system default. |
-| [SaveSearchCache](savesearchcache)(…) | Saves the font search cache to the stream. |
-| [SetFontsFolder](setfontsfolder)(…) | Sets the folder where Aspose.Words looks for TrueType fonts when rendering documents or embedding fonts. This is a shortcut to [`SetFontsFolders`](./setfontsfolders) for setting only one font directory. |
-| [SetFontsFolders](setfontsfolders)(…) | Sets the folders where Aspose.Words looks for TrueType fonts when rendering documents or embedding fonts. |
-| [SetFontsSources](setfontssources)(…) | Sets the sources where Aspose.Words looks for TrueType fonts when rendering documents or embedding fonts. (2 methods) |
+| [SaveSearchCache](savesearchcache)(Stream) | Saves the font search cache to the stream. |
+| [SetFontsFolder](setfontsfolder)(string, bool) | Sets the folder where Aspose.Words looks for TrueType fonts when rendering documents or embedding fonts. This is a shortcut to [`SetFontsFolders`](./setfontsfolders) for setting only one font directory. |
+| [SetFontsFolders](setfontsfolders)(string[], bool) | Sets the folders where Aspose.Words looks for TrueType fonts when rendering documents or embedding fonts. |
+| [SetFontsSources](setfontssources)(FontSourceBase[]) | Sets the sources where Aspose.Words looks for TrueType fonts when rendering documents or embedding fonts. |
+| [SetFontsSources](setfontssources)(FontSourceBase[], Stream) | Sets the sources where Aspose.Words looks for TrueType fonts and additionally loads previously saved font search cache. |
 
 ### Remarks
 

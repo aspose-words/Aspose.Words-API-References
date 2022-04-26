@@ -3,7 +3,7 @@ title: IgnoreFields
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 40
+weight: 60
 url: /net/aspose.words.comparing/compareoptions/ignorefields/
 ---
 ## CompareOptions.IgnoreFields property

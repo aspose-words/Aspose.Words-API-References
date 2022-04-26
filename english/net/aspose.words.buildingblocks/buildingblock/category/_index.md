@@ -3,7 +3,7 @@ title: Category
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 110
+weight: 30
 url: /net/aspose.words.buildingblocks/buildingblock/category/
 ---
 ## BuildingBlock.Category property
@@ -20,7 +20,7 @@ Building blocks in Microsoft Word user interface are arranged into Galleries. Ea
 
 Cannot be `null` and cannot be an empty string.
 
-Corresponds to the docPartPr.category.name element in OOXML.
+Corresponds to the **docPartPr.category.name** element in OOXML.
 
 ### Examples
 

@@ -3,7 +3,7 @@ title: Paragraphs
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 200
+weight: 230
 url: /net/aspose.words.properties/builtindocumentproperties/paragraphs/
 ---
 ## BuiltInDocumentProperties.Paragraphs property

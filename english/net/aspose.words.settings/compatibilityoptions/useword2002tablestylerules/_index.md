@@ -3,7 +3,7 @@ title: UseWord2002TableStyleRules
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 500
+weight: 660
 url: /net/aspose.words.settings/compatibilityoptions/useword2002tablestylerules/
 ---
 ## CompatibilityOptions.UseWord2002TableStyleRules property

@@ -3,7 +3,7 @@ title: NumberPosition
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 160
+weight: 80
 url: /net/aspose.words.lists/listlevel/numberposition/
 ---
 ## ListLevel.NumberPosition property

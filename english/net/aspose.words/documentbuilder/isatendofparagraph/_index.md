@@ -3,7 +3,7 @@ title: IsAtEndOfParagraph
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 590
+weight: 100
 url: /net/aspose.words/documentbuilder/isatendofparagraph/
 ---
 ## DocumentBuilder.IsAtEndOfParagraph property

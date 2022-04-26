@@ -3,7 +3,7 @@ title: ClearShading
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 40
+weight: 380
 url: /net/aspose.words.tables/table/clearshading/
 ---
 ## Table.ClearShading method

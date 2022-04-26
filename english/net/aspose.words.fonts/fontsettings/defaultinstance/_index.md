@@ -3,7 +3,7 @@ title: DefaultInstance
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 80
+weight: 20
 url: /net/aspose.words.fonts/fontsettings/defaultinstance/
 ---
 ## FontSettings.DefaultInstance property

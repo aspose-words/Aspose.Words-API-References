@@ -3,7 +3,7 @@ title: PopFont
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 80
+weight: 560
 url: /net/aspose.words/documentbuilder/popfont/
 ---
 ## DocumentBuilder.PopFont method

@@ -3,7 +3,7 @@ title: KeepDocumentPartStreamOpen
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 30
+weight: 40
 url: /net/aspose.words.saving/documentpartsavingargs/keepdocumentpartstreamopen/
 ---
 ## DocumentPartSavingArgs.KeepDocumentPartStreamOpen property

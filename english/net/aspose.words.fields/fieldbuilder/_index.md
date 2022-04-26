@@ -3,7 +3,7 @@ title: FieldBuilder
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 1480
+weight: 1460
 url: /net/aspose.words.fields/fieldbuilder/
 ---
 ## FieldBuilder class
@@ -14,14 +14,27 @@ Builds a field from field code tokens (arguments and switches).
 public class FieldBuilder
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
-| [FieldBuilder](fieldbuilder)(…) | Initializes an instance of the [`FieldBuilder`](../fieldbuilder) class. |
-| [AddArgument](addargument)(…) | Adds a field's argument. (5 methods) |
-| [AddSwitch](addswitch)(…) | Adds a field's switch. (4 methods) |
-| [BuildAndInsert](buildandinsert)(…) | Builds and inserts a field into the document before the specified inline node. (2 methods) |
+| [FieldBuilder](fieldbuilder)(FieldType) | Initializes an instance of the [`FieldBuilder`](../fieldbuilder) class. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [AddArgument](addargument)(double) | Adds a field's argument. |
+| [AddArgument](addargument)(FieldArgumentBuilder) | Adds a field's argument represented by [`FieldArgumentBuilder`](../fieldargumentbuilder) to the field's code. |
+| [AddArgument](addargument)(FieldBuilder) | Adds a child field represented by another [`FieldBuilder`](../fieldbuilder) to the field's code. |
+| [AddArgument](addargument)(int) | Adds a field's argument. |
+| [AddArgument](addargument)(string) | Adds a field's argument. |
+| [AddSwitch](addswitch)(string) | Adds a field's switch. |
+| [AddSwitch](addswitch)(string, double) | Adds a field's switch. |
+| [AddSwitch](addswitch)(string, int) | Adds a field's switch. |
+| [AddSwitch](addswitch)(string, string) | Adds a field's switch. |
+| [BuildAndInsert](buildandinsert)(Inline) | Builds and inserts a field into the document before the specified inline node. |
+| [BuildAndInsert](buildandinsert)(Paragraph) | Builds and inserts a field into the document to the end of the specified paragraph. |
 
 ### Examples
 

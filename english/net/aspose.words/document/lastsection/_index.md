@@ -3,7 +3,7 @@ title: LastSection
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 460
+weight: 220
 url: /net/aspose.words/document/lastsection/
 ---
 ## Document.LastSection property

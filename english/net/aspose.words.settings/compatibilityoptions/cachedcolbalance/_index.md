@@ -3,7 +3,7 @@ title: CachedColBalance
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 660
+weight: 80
 url: /net/aspose.words.settings/compatibilityoptions/cachedcolbalance/
 ---
 ## CompatibilityOptions.CachedColBalance property

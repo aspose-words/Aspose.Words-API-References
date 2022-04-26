@@ -3,7 +3,7 @@ title: SwapInsideAndOutsideForMirrorIndentsAndRelativePositioning
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 700
+weight: 540
 url: /net/aspose.words.settings/compatibilityoptions/swapinsideandoutsideformirrorindentsandrelativepositioning/
 ---
 ## CompatibilityOptions.SwapInsideAndOutsideForMirrorIndentsAndRelativePositioning property

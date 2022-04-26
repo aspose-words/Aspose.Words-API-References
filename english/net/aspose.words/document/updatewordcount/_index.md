@@ -3,7 +3,7 @@ title: UpdateWordCount
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 120
+weight: 770
 url: /net/aspose.words/document/updatewordcount/
 ---
 ## Document.UpdateWordCount method (1 of 2)
@@ -16,7 +16,11 @@ public void UpdateWordCount()
 
 ### Remarks
 
-UpdateWordCount recalculates and updates Characters, Words and Paragraphs properties in the [`BuiltInDocumentProperties`](../builtindocumentproperties) collection of the Document.Note that UpdateWordCount does not update number of lines and pages properties. Use the `UpdateWordCount` overload and pass True value as a parameter to do that.When you use an evaluation version, the evaluation watermark will also be included in the word count.
+**UpdateWordCount** recalculates and updates Characters, Words and Paragraphs properties in the [`BuiltInDocumentProperties`](../builtindocumentproperties) collection of the **Document**.
+
+Note that **UpdateWordCount** does not update number of lines and pages properties. Use the `UpdateWordCount` overload and pass True value as a parameter to do that.
+
+When you use an evaluation version, the evaluation watermark will also be included in the word count.
 
 ### Examples
 

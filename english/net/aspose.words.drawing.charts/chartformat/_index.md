@@ -14,7 +14,7 @@ Represents the formatting of a chart element.
 public class ChartFormat
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |

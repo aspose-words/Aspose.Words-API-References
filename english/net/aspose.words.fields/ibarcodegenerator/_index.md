@@ -3,7 +3,7 @@ title: IBarcodeGenerator
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 2450
+weight: 2430
 url: /net/aspose.words.fields/ibarcodegenerator/
 ---
 ## IBarcodeGenerator interface
@@ -14,12 +14,12 @@ Public interface for barcode custom generator. Implementation should be provided
 public interface IBarcodeGenerator
 ```
 
-## Members
+## Methods
 
 | Name | Description |
 | --- | --- |
-| [GetBarcodeImage](getbarcodeimage)(…) | Generate barcode image using the set of parameters (for DisplayBarcode field). |
-| [GetOldBarcodeImage](getoldbarcodeimage)(…) | Generate barcode image using the set of parameters (for old-fashioned Barcode field). |
+| [GetBarcodeImage](getbarcodeimage)(BarcodeParameters) | Generate barcode image using the set of parameters (for DisplayBarcode field). |
+| [GetOldBarcodeImage](getoldbarcodeimage)(BarcodeParameters) | Generate barcode image using the set of parameters (for old-fashioned Barcode field). |
 
 ### Remarks
 

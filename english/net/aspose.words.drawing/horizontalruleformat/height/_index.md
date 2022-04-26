@@ -3,7 +3,7 @@ title: Height
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 20
+weight: 30
 url: /net/aspose.words.drawing/horizontalruleformat/height/
 ---
 ## HorizontalRuleFormat.Height property
@@ -22,7 +22,11 @@ public double Height { get; set; }
 
 ### Remarks
 
-This is a shortcut to the [`Height`](../../shapebase/height) property.Valid values ​​range from 0 to 1584 inclusive.The default value is 1.5.
+This is a shortcut to the [`Height`](../../shapebase/height) property.
+
+Valid values ​​range from 0 to 1584 inclusive.
+
+The default value is 1.5.
 
 ### Examples
 

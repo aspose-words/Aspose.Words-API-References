@@ -3,12 +3,12 @@ title: NodeType
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 40
+weight: 140
 url: /net/aspose.words.fields/formfield/nodetype/
 ---
 ## FormField.NodeType property
 
-Returns NodeType.FormField.
+Returns **NodeType.FormField**.
 
 ```csharp
 public override NodeType NodeType { get; }

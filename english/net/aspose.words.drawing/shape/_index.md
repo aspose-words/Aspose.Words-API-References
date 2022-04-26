@@ -3,7 +3,7 @@ title: Shape
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 1070
+weight: 1050
 url: /net/aspose.words.drawing/shape/
 ---
 ## Shape class
@@ -14,11 +14,16 @@ Represents an object in the drawing layer, such as an AutoShape, textbox, freefo
 public sealed class Shape : ShapeBase
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
-| [Shape](shape)(…) | Creates a new shape object. |
+| [Shape](shape)(DocumentBase, ShapeType) | Creates a new shape object. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [Chart](chart) { get; } | Provides access to the chart properties if this shape has a Chart. |
 | [ExtrusionEnabled](extrusionenabled) { get; } | Returns true if an extrusion effect is enabled. |
 | [FillColor](fillcolor) { get; set; } | Defines the brush color that fills the closed path of the shape. |
@@ -33,7 +38,7 @@ public sealed class Shape : ShapeBase
 | override [NodeType](nodetype) { get; } | Returns Shape. |
 | [OleFormat](oleformat) { get; } | Provides access to the OLE data of a shape. For a shape that is not an OLE object or ActiveX control, returns null. |
 | [ShadowEnabled](shadowenabled) { get; } | Returns true if a shadow effect is enabled. |
-| [SignatureLine](signatureline) { get; } | Gets [`SignatureLine`](./signatureline) object if the shape is a signature line. Returns null otherwise. |
+| [SignatureLine](signatureline) { get; } | Gets [`SignatureLine`](./signatureline) object if the shape is a signature line. Returns **null** otherwise. |
 | [StoryType](storytype) { get; } | Returns Textbox. |
 | [Stroke](stroke) { get; } | Defines a stroke for a shape. |
 | [StrokeColor](strokecolor) { get; set; } | Defines the color of a stroke. |
@@ -41,12 +46,21 @@ public sealed class Shape : ShapeBase
 | [StrokeWeight](strokeweight) { get; set; } | Defines the brush thickness that strokes the path of a shape in points. |
 | [TextBox](textbox) { get; } | Defines attributes that specify how text is displayed in a shape. |
 | [TextPath](textpath) { get; } | Defines the text of the text path (of a WordArt object). |
-| override [Accept](accept)(…) | Accepts a visitor. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| override [Accept](accept)(DocumentVisitor) | Accepts a visitor. |
 | [UpdateSmartArtDrawing](updatesmartartdrawing)() | Updates SmartArt pre-rendered drawing by using Aspose.Words's SmartArt cold rendering engine. |
 
 ### Remarks
 
-Using the [`Shape`](../shape) class you can create or modify shapes in a Microsoft Word document.An important property of a shape is its [`ShapeType`](../shapebase/shapetype). Shapes of different types can have different capabilities in a Word document. For example, only image and OLE shapes can have images inside them. Most of the shapes can have text, but not all.Shapes that can have text, can contain [`Paragraph`](../../aspose.words/paragraph) and [`Table`](../../aspose.words.tables/table) nodes as children.
+Using the [`Shape`](../shape) class you can create or modify shapes in a Microsoft Word document.
+
+An important property of a shape is its [`ShapeType`](../shapebase/shapetype). Shapes of different types can have different capabilities in a Word document. For example, only image and OLE shapes can have images inside them. Most of the shapes can have text, but not all.
+
+Shapes that can have text, can contain [`Paragraph`](../../aspose.words/paragraph) and [`Table`](../../aspose.words.tables/table) nodes as children.
 
 ### Examples
 

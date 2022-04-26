@@ -3,7 +3,7 @@ title: ToaCategories
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 2540
+weight: 2520
 url: /net/aspose.words.fields/toacategories/
 ---
 ## ToaCategories class
@@ -14,11 +14,16 @@ Represents a table of authorities categories.
 public class ToaCategories
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [ToaCategories](toacategories)() | The default constructor. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | static [DefaultCategories](defaultcategories) { get; } | Gets the default table of authorities categories. |
 | [Item](item) { get; set; } | Gets or sets the category heading by category number. |
 

@@ -3,7 +3,7 @@ title: BorderAppliesTo
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 370
+weight: 30
 url: /net/aspose.words/pagesetup/borderappliesto/
 ---
 ## PageSetup.BorderAppliesTo property

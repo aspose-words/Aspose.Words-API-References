@@ -3,7 +3,7 @@ title: VisitSectionEnd
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 40
+weight: 370
 url: /net/aspose.words/documentvisitor/visitsectionend/
 ---
 ## DocumentVisitor.VisitSectionEnd method

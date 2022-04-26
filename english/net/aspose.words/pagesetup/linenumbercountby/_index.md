@@ -3,7 +3,7 @@ title: LineNumberCountBy
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 300
+weight: 190
 url: /net/aspose.words/pagesetup/linenumbercountby/
 ---
 ## PageSetup.LineNumberCountBy property

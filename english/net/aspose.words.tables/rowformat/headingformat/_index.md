@@ -3,7 +3,7 @@ title: HeadingFormat
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 60
+weight: 30
 url: /net/aspose.words.tables/rowformat/headingformat/
 ---
 ## RowFormat.HeadingFormat property

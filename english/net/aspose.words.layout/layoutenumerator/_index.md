@@ -3,7 +3,7 @@ title: LayoutEnumerator
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 3080
+weight: 3060
 url: /net/aspose.words.layout/layoutenumerator/
 ---
 ## LayoutEnumerator class
@@ -14,11 +14,16 @@ Enumerates page layout entities of a document. You can use this class to walk ov
 public class LayoutEnumerator
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
-| [LayoutEnumerator](layoutenumerator)(…) | Initializes new instance of this class. |
+| [LayoutEnumerator](layoutenumerator)(Document) | Initializes new instance of this class. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [Current](current) { get; set; } | Gets or sets current position in the page layout model. This property returns an opaque object which corresponds to the current layout entity. |
 | [Document](document) { get; } | Gets document this instance enumerates. |
 | [Kind](kind) { get; } | Gets the kind of the current entity. This can be an empty string but never null. |
@@ -26,12 +31,17 @@ public class LayoutEnumerator
 | [Rectangle](rectangle) { get; } | Returns the bounding rectangle of the current entity relative to the page top left corner (in points). |
 | [Text](text) { get; } | Gets text of the current span entity. Throws for other entity types. |
 | [Type](type) { get; } | Gets the type of the current entity. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
 | [MoveFirstChild](movefirstchild)() | Moves to the first child entity. |
 | [MoveLastChild](movelastchild)() | Moves to the last child entity. |
 | [MoveNext](movenext)() | Moves to the next sibling entity in visual order. When iterating lines of a paragraph broken across pages this method will not move to the next page but rather move to the next entity on the same page. |
 | [MoveNextLogical](movenextlogical)() | Moves to the next sibling entity in a logical order. When iterating lines of a paragraph broken across pages this method will move to the next line even if it resides on another page. |
 | [MoveParent](moveparent)() | Moves to the parent entity. |
-| [MoveParent](moveparent)(…) | Moves to the parent entity of the specified type. |
+| [MoveParent](moveparent)(LayoutEntityType) | Moves to the parent entity of the specified type. |
 | [MovePrevious](moveprevious)() | Moves to the previous sibling entity. |
 | [MovePreviousLogical](movepreviouslogical)() | Moves to the previous sibling entity in a logical order. When iterating lines of a paragraph broken across pages this method will move to the previous line even if it resides on another page. |
 | [Reset](reset)() | Moves the enumerator to the first page of the document. |

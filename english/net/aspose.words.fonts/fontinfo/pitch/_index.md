@@ -3,7 +3,7 @@ title: Pitch
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 30
+weight: 70
 url: /net/aspose.words.fonts/fontinfo/pitch/
 ---
 ## FontInfo.Pitch property

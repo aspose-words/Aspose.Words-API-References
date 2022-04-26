@@ -3,7 +3,7 @@ title: Right
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 340
+weight: 420
 url: /net/aspose.words.drawing/shapebase/right/
 ---
 ## ShapeBase.Right property
@@ -16,7 +16,9 @@ public double Right { get; }
 
 ### Remarks
 
-For a top-level shape, the value is in points and relative to the shape anchor.For shapes in a group, the value is in the coordinate space and units of the parent group.
+For a top-level shape, the value is in points and relative to the shape anchor.
+
+For shapes in a group, the value is in the coordinate space and units of the parent group.
 
 ### Examples
 

@@ -3,7 +3,7 @@ title: UsePrinterMetrics
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 330
+weight: 640
 url: /net/aspose.words.settings/compatibilityoptions/useprintermetrics/
 ---
 ## CompatibilityOptions.UsePrinterMetrics property

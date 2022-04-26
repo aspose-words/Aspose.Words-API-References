@@ -3,7 +3,7 @@ title: EntryType
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 70
+weight: 40
 url: /net/aspose.words.fields/fieldindex/entrytype/
 ---
 ## FieldIndex.EntryType property

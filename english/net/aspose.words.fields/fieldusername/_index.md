@@ -3,7 +3,7 @@ title: FieldUserName
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 2390
+weight: 2370
 url: /net/aspose.words.fields/fieldusername/
 ---
 ## FieldUserName class
@@ -14,11 +14,16 @@ Implements the USERNAME field.
 public class FieldUserName : Field
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [FieldUserName](fieldusername)() | The default constructor. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [UserName](username) { get; set; } | Gest or sets the current user's name. |
 
 ### Remarks

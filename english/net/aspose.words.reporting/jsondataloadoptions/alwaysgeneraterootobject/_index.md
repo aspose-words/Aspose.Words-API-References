@@ -3,7 +3,7 @@ title: AlwaysGenerateRootObject
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 40
+weight: 20
 url: /net/aspose.words.reporting/jsondataloadoptions/alwaysgeneraterootobject/
 ---
 ## JsonDataLoadOptions.AlwaysGenerateRootObject property
@@ -16,7 +16,7 @@ public bool AlwaysGenerateRootObject { get; set; }
 
 ### Remarks
 
-The default value is false.
+The default value is **false**.
 
 ### See Also
 

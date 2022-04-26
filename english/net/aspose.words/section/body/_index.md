@@ -3,12 +3,12 @@ title: Body
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 110
+weight: 20
 url: /net/aspose.words/section/body/
 ---
 ## Section.Body property
 
-Returns the Body child node of the section.
+Returns the **Body** child node of the section.
 
 ```csharp
 public Body Body { get; }
@@ -16,7 +16,9 @@ public Body Body { get; }
 
 ### Remarks
 
-Body contains main text of the section.Returns null if the section does not have a Body node among its children.
+**Body** contains main text of the section.
+
+Returns null if the section does not have a **Body** node among its children.
 
 ### Examples
 

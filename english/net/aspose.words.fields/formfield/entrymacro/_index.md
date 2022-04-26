@@ -3,7 +3,7 @@ title: EntryMacro
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 130
+weight: 80
 url: /net/aspose.words.fields/formfield/entrymacro/
 ---
 ## FormField.EntryMacro property
@@ -16,7 +16,9 @@ public string EntryMacro { get; set; }
 
 ### Remarks
 
-The entry macro runs when the form field gets the focus in Microsoft Word.Microsoft Word allows strings with at most 32 characters.
+The entry macro runs when the form field gets the focus in Microsoft Word.
+
+Microsoft Word allows strings with at most 32 characters.
 
 ### Examples
 

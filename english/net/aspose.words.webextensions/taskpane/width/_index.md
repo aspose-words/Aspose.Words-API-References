@@ -3,7 +3,7 @@ title: Width
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 30
+weight: 70
 url: /net/aspose.words.webextensions/taskpane/width/
 ---
 ## TaskPane.Width property

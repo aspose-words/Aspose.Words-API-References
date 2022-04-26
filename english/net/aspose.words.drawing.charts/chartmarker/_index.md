@@ -3,7 +3,7 @@ title: ChartMarker
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 700
+weight: 680
 url: /net/aspose.words.drawing.charts/chartmarker/
 ---
 ## ChartMarker class
@@ -14,7 +14,7 @@ Represents a chart data marker.
 public class ChartMarker
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |

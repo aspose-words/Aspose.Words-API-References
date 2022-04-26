@@ -14,16 +14,22 @@ A collection of [`Bookmark`](../bookmark) objects that represent the bookmarks i
 public class BookmarkCollection : IEnumerable<Bookmark>
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
 | [Count](count) { get; } | Returns the number of bookmarks in the collection. |
 | [Item](item) { get; } | Returns a bookmark at the specified index. (2 indexers) |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
 | [Clear](clear)() | Removes all bookmarks from this collection and from the document. |
 | [GetEnumerator](getenumerator)() | Returns an enumerator object. |
-| [Remove](remove)(…) | Removes the specified bookmark from the document. (2 methods) |
-| [RemoveAt](removeat)(…) | Removes a bookmark at the specified index. |
+| [Remove](remove)(Bookmark) | Removes the specified bookmark from the document. |
+| [Remove](remove)(string) | Removes a bookmark with the specified name. |
+| [RemoveAt](removeat)(int) | Removes a bookmark at the specified index. |
 
 ### Examples
 

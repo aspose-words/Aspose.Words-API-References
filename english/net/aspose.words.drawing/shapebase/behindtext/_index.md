@@ -3,7 +3,7 @@ title: BehindText
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 300
+weight: 50
 url: /net/aspose.words.drawing/shapebase/behindtext/
 ---
 ## ShapeBase.BehindText property
@@ -16,7 +16,9 @@ public bool BehindText { get; set; }
 
 ### Remarks
 
-Has effect only for top level shapes.The default value is false.
+Has effect only for top level shapes.
+
+The default value is **false**.
 
 ### Examples
 

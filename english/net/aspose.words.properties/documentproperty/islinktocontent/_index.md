@@ -3,7 +3,7 @@ title: IsLinkToContent
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 110
+weight: 10
 url: /net/aspose.words.properties/documentproperty/islinktocontent/
 ---
 ## DocumentProperty.IsLinkToContent property

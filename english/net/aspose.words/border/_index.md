@@ -14,7 +14,7 @@ Represents a border of an object.
 public class Border : InternableComplexAttr
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -24,9 +24,14 @@ public class Border : InternableComplexAttr
 | [LineStyle](linestyle) { get; set; } | Gets or sets the border style. |
 | [LineWidth](linewidth) { get; set; } | Gets or sets the border width in points. |
 | [Shadow](shadow) { get; set; } | Gets or sets a value indicating whether the border has a shadow. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
 | [ClearFormatting](clearformatting)() | Resets border properties to default values. |
-| [Equals](equals)(…) | Determines whether the specified border is equal in value to the current border. |
-| override [Equals](equals)(…) | Determines whether the specified object is equal in value to the current object. |
+| [Equals](equals)(Border) | Determines whether the specified border is equal in value to the current border. |
+| override [Equals](equals)(object) | Determines whether the specified object is equal in value to the current object. |
 | override [GetHashCode](gethashcode)() | Serves as a hash function for this type. |
 
 ### Remarks

@@ -8,7 +8,7 @@ url: /net/aspose.words.drawing/signatureline/instructions/
 ---
 ## SignatureLine.Instructions property
 
-Gets or sets instructions to the signer that are displayed on signing the signature line. This property is ignored if [`DefaultInstructions`](../defaultinstructions) is set. Default value for this property is empty string (Empty).
+Gets or sets instructions to the signer that are displayed on signing the signature line. This property is ignored if [`DefaultInstructions`](../defaultinstructions) is set. Default value for this property is **empty string** (Empty).
 
 ```csharp
 public string Instructions { get; set; }

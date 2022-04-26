@@ -3,7 +3,7 @@ title: DeleteFields
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 70
+weight: 170
 url: /net/aspose.words.mailmerging/mailmerge/deletefields/
 ---
 ## MailMerge.DeleteFields method
@@ -16,7 +16,9 @@ public void DeleteFields()
 
 ### Remarks
 
-This method removes MERGEFIELD and NEXT fields from the document.This method could be useful if your mail merge operation does not always need to populate all fields in the document. Use this method to remove all remaining mail merge fields.
+This method removes MERGEFIELD and NEXT fields from the document.
+
+This method could be useful if your mail merge operation does not always need to populate all fields in the document. Use this method to remove all remaining mail merge fields.
 
 ### Examples
 

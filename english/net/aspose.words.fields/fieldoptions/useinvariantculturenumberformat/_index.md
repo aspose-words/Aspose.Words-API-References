@@ -3,7 +3,7 @@ title: UseInvariantCultureNumberFormat
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 90
+weight: 180
 url: /net/aspose.words.fields/fieldoptions/useinvariantculturenumberformat/
 ---
 ## FieldOptions.UseInvariantCultureNumberFormat property
@@ -16,11 +16,11 @@ public bool UseInvariantCultureNumberFormat { get; set; }
 
 ### Remarks
 
-When this property is set to true, number format is taken from an invariant culture.
+When this property is set to **true**, number format is taken from an invariant culture.
 
-When this property is set to false, number format is taken from the current thread's culture.
+When this property is set to **false**, number format is taken from the current thread's culture.
 
-The default value is false.
+The default value is **false**.
 
 ### Examples
 

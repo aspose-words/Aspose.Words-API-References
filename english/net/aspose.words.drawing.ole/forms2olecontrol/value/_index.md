@@ -3,7 +3,7 @@ title: Value
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 20
+weight: 60
 url: /net/aspose.words.drawing.ole/forms2olecontrol/value/
 ---
 ## Forms2OleControl.Value property

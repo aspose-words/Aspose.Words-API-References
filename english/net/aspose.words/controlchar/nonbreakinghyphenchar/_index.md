@@ -3,7 +3,7 @@ title: NonBreakingHyphenChar
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 240
+weight: 160
 url: /net/aspose.words/controlchar/nonbreakinghyphenchar/
 ---
 ## ControlChar.NonBreakingHyphenChar field
@@ -16,7 +16,9 @@ public const char NonBreakingHyphenChar;
 
 ### Remarks
 
-Nonbreaking Hyphen in Microsoft Word does not correspond to the Unicode character U+2011 non-breaking hyphen but instead represents internal information that tells Microsoft Word to display a hyphen and not to break a line.Useful info: http://www.cs.tut.fi/~jkorpela/dashes.html#linebreaks.
+Nonbreaking Hyphen in Microsoft Word does not correspond to the Unicode character U+2011 non-breaking hyphen but instead represents internal information that tells Microsoft Word to display a hyphen and not to break a line.
+
+Useful info: http://www.cs.tut.fi/~jkorpela/dashes.html#linebreaks.
 
 ### Examples
 

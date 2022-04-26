@@ -3,7 +3,7 @@ title: ThemeFonts
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 6110
+weight: 6060
 url: /net/aspose.words.themes/themefonts/
 ---
 ## ThemeFonts class
@@ -14,7 +14,7 @@ Represents a collection of fonts in the font scheme, allowing to specify differe
 public class ThemeFonts
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |

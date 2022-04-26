@@ -3,7 +3,7 @@ title: ChartType
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 750
+weight: 730
 url: /net/aspose.words.drawing.charts/charttype/
 ---
 ## ChartType enumeration

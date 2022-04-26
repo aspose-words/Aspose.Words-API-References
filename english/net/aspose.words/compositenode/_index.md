@@ -14,7 +14,7 @@ Base class for nodes that can contain other nodes.
 public abstract class CompositeNode : Node, IEnumerable<Node>, IXPathNavigable
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -24,25 +24,34 @@ public abstract class CompositeNode : Node, IEnumerable<Node>, IXPathNavigable
 | [HasChildNodes](haschildnodes) { get; } | Returns true if this node has any child nodes. |
 | override [IsComposite](iscomposite) { get; } | Returns true as this node can have child nodes. |
 | [LastChild](lastchild) { get; } | Gets the last child of the node. |
-| [AppendChild](appendchild)(…) | Adds the specified node to the end of the list of child nodes for this node. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [AppendChild](appendchild)(Node) | Adds the specified node to the end of the list of child nodes for this node. |
 | [CreateNavigator](createnavigator)() | Reserved for system use. IXPathNavigable. |
-| [GetChild](getchild)(…) | Returns an Nth child node that matches the specified type. |
-| [GetChildNodes](getchildnodes)(…) | Returns a live collection of child nodes that match the specified type. |
+| [GetChild](getchild)(NodeType, int, bool) | Returns an Nth child node that matches the specified type. |
+| [GetChildNodes](getchildnodes)(NodeType, bool) | Returns a live collection of child nodes that match the specified type. |
 | [GetEnumerator](getenumerator)() | Provides support for the for each style iteration over the child nodes of this node. |
 | override [GetText](gettext)() | Gets the text of this node and of all its children. |
-| [IndexOf](indexof)(…) | Returns the index of the specified child node in the child node array. |
-| [InsertAfter](insertafter)(…) | Inserts the specified node immediately after the specified reference node. |
-| [InsertBefore](insertbefore)(…) | Inserts the specified node immediately before the specified reference node. |
-| [PrependChild](prependchild)(…) | Adds the specified node to the beginning of the list of child nodes for this node. |
+| [IndexOf](indexof)(Node) | Returns the index of the specified child node in the child node array. |
+| [InsertAfter](insertafter)(Node, Node) | Inserts the specified node immediately after the specified reference node. |
+| [InsertBefore](insertbefore)(Node, Node) | Inserts the specified node immediately before the specified reference node. |
+| [PrependChild](prependchild)(Node) | Adds the specified node to the beginning of the list of child nodes for this node. |
 | [RemoveAllChildren](removeallchildren)() | Removes all the child nodes of the current node. |
-| [RemoveChild](removechild)(…) | Removes the specified child node. |
+| [RemoveChild](removechild)(Node) | Removes the specified child node. |
 | [RemoveSmartTags](removesmarttags)() | Removes all [`SmartTag`](../../aspose.words.markup/smarttag) descendant nodes of the current node. |
-| [SelectNodes](selectnodes)(…) | Selects a list of nodes matching the XPath expression. |
-| [SelectSingleNode](selectsinglenode)(…) | Selects the first Node that matches the XPath expression. |
+| [SelectNodes](selectnodes)(string) | Selects a list of nodes matching the XPath expression. |
+| [SelectSingleNode](selectsinglenode)(string) | Selects the first Node that matches the XPath expression. |
 
 ### Remarks
 
-A document is represented as a tree of nodes, similar to DOM or XmlDocument.For more info see the Composite design pattern.The [`CompositeNode`](../compositenode) class:
+A document is represented as a tree of nodes, similar to DOM or XmlDocument.
+
+For more info see the Composite design pattern.
+
+The [`CompositeNode`](../compositenode) class:
 
 * Provides access to the child nodes.
 * Implements Composite operations such as insert and remove children.

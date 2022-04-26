@@ -3,12 +3,12 @@ title: IsMoveToRevision
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 110
+weight: 60
 url: /net/aspose.words/inlinestory/ismovetorevision/
 ---
 ## InlineStory.IsMoveToRevision property
 
-Returns true if this object was moved (inserted) in Microsoft Word while change tracking was enabled.
+Returns **true** if this object was moved (inserted) in Microsoft Word while change tracking was enabled.
 
 ```csharp
 public bool IsMoveToRevision { get; }

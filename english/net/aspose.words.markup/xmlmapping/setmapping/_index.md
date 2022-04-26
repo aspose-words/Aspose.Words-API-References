@@ -3,7 +3,7 @@ title: SetMapping
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 10
+weight: 70
 url: /net/aspose.words.markup/xmlmapping/setmapping/
 ---
 ## XmlMapping.SetMapping method

@@ -3,7 +3,7 @@ title: Shadow
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 160
+weight: 110
 url: /net/aspose.words/bordercollection/shadow/
 ---
 ## BorderCollection.Shadow property
@@ -16,7 +16,9 @@ public bool Shadow { get; set; }
 
 ### Remarks
 
-Gets the value from the first border in the collection.Sets the value for all borders in the collection excluding diagonal borders.
+Gets the value from the first border in the collection.
+
+Sets the value for all borders in the collection excluding diagonal borders.
 
 ### Examples
 

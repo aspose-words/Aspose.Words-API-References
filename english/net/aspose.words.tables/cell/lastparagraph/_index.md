@@ -3,7 +3,7 @@ title: LastParagraph
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 70
+weight: 60
 url: /net/aspose.words.tables/cell/lastparagraph/
 ---
 ## Cell.LastParagraph property

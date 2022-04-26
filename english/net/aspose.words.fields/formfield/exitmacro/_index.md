@@ -3,7 +3,7 @@ title: ExitMacro
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 140
+weight: 90
 url: /net/aspose.words.fields/formfield/exitmacro/
 ---
 ## FormField.ExitMacro property
@@ -16,7 +16,9 @@ public string ExitMacro { get; set; }
 
 ### Remarks
 
-The exit macro runs when the form field loses the focus in Microsoft Word.Microsoft Word allows strings with at most 32 characters.
+The exit macro runs when the form field loses the focus in Microsoft Word.
+
+Microsoft Word allows strings with at most 32 characters.
 
 ### Examples
 

@@ -3,7 +3,7 @@ title: DefaultTabStop
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 560
+weight: 90
 url: /net/aspose.words/document/defaulttabstop/
 ---
 ## Document.DefaultTabStop property

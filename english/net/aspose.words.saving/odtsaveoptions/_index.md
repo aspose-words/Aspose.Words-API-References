@@ -3,7 +3,7 @@ title: OdtSaveOptions
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 4960
+weight: 4910
 url: /net/aspose.words.saving/odtsaveoptions/
 ---
 ## OdtSaveOptions class
@@ -14,13 +14,19 @@ Can be used to specify additional options when saving a document into the Odt or
 public class OdtSaveOptions : SaveOptions
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [OdtSaveOptions](odtsaveoptions)() | Initializes a new instance of this class that can be used to save a document in the Odt format. |
-| [OdtSaveOptions](odtsaveoptions)(…) | Initializes a new instance of this class that can be used to save a document in the Odt format encrypted with a password. (2 constructors) |
-| [IsStrictSchema11](isstrictschema11) { get; set; } | Specifies whether export should correspond to ODT specification 1.1 strictly. OOo 3.0 displays files correctly when they contain elements and attributes of ODT 1.2. Use "false" for this purpose, or "true" for strict conformity of specification 1.1. The default value is false. |
+| [OdtSaveOptions](odtsaveoptions)(SaveFormat) | Initializes a new instance of this class that can be used to save a document in the Odt or Ott format. |
+| [OdtSaveOptions](odtsaveoptions)(string) | Initializes a new instance of this class that can be used to save a document in the Odt format encrypted with a password. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
+| [IsStrictSchema11](isstrictschema11) { get; set; } | Specifies whether export should correspond to ODT specification 1.1 strictly. OOo 3.0 displays files correctly when they contain elements and attributes of ODT 1.2. Use "false" for this purpose, or "true" for strict conformity of specification 1.1. The default value is **false**. |
 | [MeasureUnit](measureunit) { get; set; } | Allows to specify units of measure to apply to document content. The default value is Centimeters |
 | [Password](password) { get; set; } | Gets or sets a password to encrypt document. |
 | override [SaveFormat](saveformat) { get; set; } | Specifies the format in which the document will be saved if this save options object is used. Can be Odt or Ott. |

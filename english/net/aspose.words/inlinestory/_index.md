@@ -3,7 +3,7 @@ title: InlineStory
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 3010
+weight: 2990
 url: /net/aspose.words/inlinestory/
 ---
 ## InlineStory class
@@ -14,7 +14,7 @@ Base class for inline-level nodes that can contain paragraphs and tables.
 public abstract class InlineStory : CompositeNode
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -22,18 +22,25 @@ public abstract class InlineStory : CompositeNode
 | [Font](font) { get; } | Provides access to the font formatting of the anchor character of this object. |
 | [IsDeleteRevision](isdeleterevision) { get; } | Returns true if this object was deleted in Microsoft Word while change tracking was enabled. |
 | [IsInsertRevision](isinsertrevision) { get; } | Returns true if this object was inserted in Microsoft Word while change tracking was enabled. |
-| [IsMoveFromRevision](ismovefromrevision) { get; } | Returns true if this object was moved (deleted) in Microsoft Word while change tracking was enabled. |
-| [IsMoveToRevision](ismovetorevision) { get; } | Returns true if this object was moved (inserted) in Microsoft Word while change tracking was enabled. |
+| [IsMoveFromRevision](ismovefromrevision) { get; } | Returns **true** if this object was moved (deleted) in Microsoft Word while change tracking was enabled. |
+| [IsMoveToRevision](ismovetorevision) { get; } | Returns **true** if this object was moved (inserted) in Microsoft Word while change tracking was enabled. |
 | [LastParagraph](lastparagraph) { get; } | Gets the last paragraph in the story. |
 | [Paragraphs](paragraphs) { get; } | Gets a collection of paragraphs that are immediate children of the story. |
 | [ParentParagraph](parentparagraph) { get; } | Retrieves the parent [`Paragraph`](../paragraph) of this node. |
 | abstract [StoryType](storytype) { get; } | Returns the type of the story. |
 | [Tables](tables) { get; } | Gets a collection of tables that are immediate children of the story. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
 | [EnsureMinimum](ensureminimum)() | If the last child is not a paragraph, creates and appends one empty paragraph. |
 
 ### Remarks
 
-InlineStory is a container for block-level nodes [`Paragraph`](../paragraph) and [`Table`](../../aspose.words.tables/table).The classes that derive from InlineStory are inline-level nodes that can contain their own text (paragraphs and tables). For example, a Comment node contains text of a comment and a Footnote contains text of a footnote.
+**InlineStory** is a container for block-level nodes [`Paragraph`](../paragraph) and [`Table`](../../aspose.words.tables/table).
+
+The classes that derive from **InlineStory** are inline-level nodes that can contain their own text (paragraphs and tables). For example, a **Comment** node contains text of a comment and a **Footnote** contains text of a footnote.
 
 ### Examples
 

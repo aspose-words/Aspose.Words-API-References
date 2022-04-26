@@ -3,7 +3,7 @@ title: InsertHtml
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 360
+weight: 330
 url: /net/aspose.words/documentbuilder/inserthtml/
 ---
 ## DocumentBuilder.InsertHtml method (1 of 3)

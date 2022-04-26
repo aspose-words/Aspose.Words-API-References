@@ -3,7 +3,7 @@ title: LastSavedBy
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 130
+weight: 160
 url: /net/aspose.words.properties/builtindocumentproperties/lastsavedby/
 ---
 ## BuiltInDocumentProperties.LastSavedBy property

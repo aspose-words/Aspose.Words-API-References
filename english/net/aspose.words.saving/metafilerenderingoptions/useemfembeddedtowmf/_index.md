@@ -3,7 +3,7 @@ title: UseEmfEmbeddedToWmf
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 40
+weight: 60
 url: /net/aspose.words.saving/metafilerenderingoptions/useemfembeddedtowmf/
 ---
 ## MetafileRenderingOptions.UseEmfEmbeddedToWmf property
@@ -18,7 +18,13 @@ public bool UseEmfEmbeddedToWmf { get; set; }
 
 WMF metafiles could contain embedded EMF data. MS Word in most cases uses embedded EMF data. GDI+ always uses WMF data.
 
-When this value is set to `true`, Aspose.Words uses embedded EMF data when rendering.When this value is set to `false`, Aspose.Words uses WMF data when rendering.This option is used only when metafile is rendered as vector graphics. When metafile is rendered to bitmap, WMF data is always used.The default value is `true`.
+When this value is set to `true`, Aspose.Words uses embedded EMF data when rendering.
+
+When this value is set to `false`, Aspose.Words uses WMF data when rendering.
+
+This option is used only when metafile is rendered as vector graphics. When metafile is rendered to bitmap, WMF data is always used.
+
+The default value is `true`.
 
 ### Examples
 

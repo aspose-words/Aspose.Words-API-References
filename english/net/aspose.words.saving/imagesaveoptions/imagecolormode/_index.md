@@ -3,7 +3,7 @@ title: ImageColorMode
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 120
+weight: 40
 url: /net/aspose.words.saving/imagesaveoptions/imagecolormode/
 ---
 ## ImageSaveOptions.ImageColorMode property

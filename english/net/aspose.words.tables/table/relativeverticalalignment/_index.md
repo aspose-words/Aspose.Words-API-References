@@ -3,7 +3,7 @@ title: RelativeVerticalAlignment
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 380
+weight: 240
 url: /net/aspose.words.tables/table/relativeverticalalignment/
 ---
 ## Table.RelativeVerticalAlignment property

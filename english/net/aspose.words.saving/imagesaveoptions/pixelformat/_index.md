@@ -3,7 +3,7 @@ title: PixelFormat
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 60
+weight: 100
 url: /net/aspose.words.saving/imagesaveoptions/pixelformat/
 ---
 ## ImageSaveOptions.PixelFormat property
@@ -18,7 +18,9 @@ public ImagePixelFormat PixelFormat { get; set; }
 
 This property has effect only when saving to raster image formats.
 
-The default value is Format32BppArgb.Pixel format of the output image may differ from the set value because of work of GDI+.
+The default value is Format32BppArgb.
+
+Pixel format of the output image may differ from the set value because of work of GDI+.
 
 ### Examples
 

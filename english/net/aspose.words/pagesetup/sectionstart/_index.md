@@ -3,7 +3,7 @@ title: SectionStart
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 60
+weight: 360
 url: /net/aspose.words/pagesetup/sectionstart/
 ---
 ## PageSetup.SectionStart property

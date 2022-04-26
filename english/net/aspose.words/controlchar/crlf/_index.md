@@ -3,7 +3,7 @@ title: CrLf
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 110
+weight: 60
 url: /net/aspose.words/controlchar/crlf/
 ---
 ## ControlChar.CrLf field

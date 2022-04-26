@@ -3,7 +3,7 @@ title: Right
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 60
+weight: 100
 url: /net/aspose.words/bordercollection/right/
 ---
 ## BorderCollection.Right property

@@ -3,7 +3,7 @@ title: SourceFullName
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 30
+weight: 110
 url: /net/aspose.words.fields/fielddde/sourcefullname/
 ---
 ## FieldDde.SourceFullName property

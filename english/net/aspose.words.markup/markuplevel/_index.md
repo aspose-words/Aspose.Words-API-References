@@ -3,7 +3,7 @@ title: MarkupLevel
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 3680
+weight: 3640
 url: /net/aspose.words.markup/markuplevel/
 ---
 ## MarkupLevel enumeration

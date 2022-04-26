@@ -3,7 +3,7 @@ title: GetIndexByPosition
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 50
+weight: 90
 url: /net/aspose.words/tabstopcollection/getindexbyposition/
 ---
 ## TabStopCollection.GetIndexByPosition method

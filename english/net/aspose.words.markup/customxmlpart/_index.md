@@ -3,7 +3,7 @@ title: CustomXmlPart
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 3620
+weight: 3590
 url: /net/aspose.words.markup/customxmlpart/
 ---
 ## CustomXmlPart class
@@ -14,15 +14,25 @@ Represents a Custom XML Data Storage Part (custom XML data within a package).
 public class CustomXmlPart
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [CustomXmlPart](customxmlpart)() | The default constructor. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [Data](data) { get; set; } | Gets or sets the XML content of this Custom XML Data Storage Part. |
 | [DataChecksum](datachecksum) { get; } | Specifies a cyclic redundancy check (CRC) checksum of the [`Data`](./data) content. |
 | [Id](id) { get; set; } | Gets or sets the string that identifies this custom XML part within an OOXML document. |
 | [Schemas](schemas) { get; } | Specifies the set of XML schemas that are associated with this custom XML part. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
 | [Clone](clone)() | Makes a "deep enough" copy of the object. Does not duplicate the bytes of the [`Data`](./data) value. |
 
 ### Remarks

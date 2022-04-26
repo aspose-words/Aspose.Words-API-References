@@ -3,7 +3,7 @@ title: ShowDataLabelsRange
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 100
+weight: 80
 url: /net/aspose.words.drawing.charts/chartdatalabel/showdatalabelsrange/
 ---
 ## ChartDataLabel.ShowDataLabelsRange property

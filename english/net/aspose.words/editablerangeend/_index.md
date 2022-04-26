@@ -3,7 +3,7 @@ title: EditableRangeEnd
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 1250
+weight: 1230
 url: /net/aspose.words/editablerangeend/
 ---
 ## EditableRangeEnd class
@@ -14,18 +14,29 @@ Represents an end of an editable range in a Word document.
 public sealed class EditableRangeEnd : Node
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
 | [EditableRangeStart](editablerangestart) { get; } | Corresponding EditableRangeStart, received by ID. |
 | [Id](id) { get; set; } | Specifies the identifier of the editable range. |
 | override [NodeType](nodetype) { get; } | Returns EditableRangeEnd. |
-| override [Accept](accept)(…) | Accepts a visitor. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| override [Accept](accept)(DocumentVisitor) | Accepts a visitor. |
 
 ### Remarks
 
-A complete editable range in a Word document consists of a [`EditableRangeStart`](./editablerangestart) and a matching [`EditableRangeEnd`](../editablerangeend) with the same Id.[`EditableRangeStart`](./editablerangestart) and [`EditableRangeEnd`](../editablerangeend) are just markers inside a document that specify where the editable range starts and ends.Use the [`EditableRange`](../editablerange) class as a "facade" to work with an editable range as a single object.Currently editable ranges are supported only at the inline-level, that is inside [`Paragraph`](../paragraph), but editable range start and editable range end can be in different paragraphs.
+A complete editable range in a Word document consists of a [`EditableRangeStart`](./editablerangestart) and a matching [`EditableRangeEnd`](../editablerangeend) with the same Id.
+
+[`EditableRangeStart`](./editablerangestart) and [`EditableRangeEnd`](../editablerangeend) are just markers inside a document that specify where the editable range starts and ends.
+
+Use the [`EditableRange`](../editablerange) class as a "facade" to work with an editable range as a single object.
+
+Currently editable ranges are supported only at the inline-level, that is inside [`Paragraph`](../paragraph), but editable range start and editable range end can be in different paragraphs.
 
 ### Examples
 

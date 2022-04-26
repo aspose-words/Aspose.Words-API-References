@@ -3,7 +3,7 @@ title: DoNotSnapToGridInCell
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 450
+weight: 170
 url: /net/aspose.words.settings/compatibilityoptions/donotsnaptogridincell/
 ---
 ## CompatibilityOptions.DoNotSnapToGridInCell property

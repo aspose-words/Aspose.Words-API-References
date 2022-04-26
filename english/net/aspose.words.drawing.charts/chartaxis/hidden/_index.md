@@ -3,7 +3,7 @@ title: Hidden
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 250
+weight: 80
 url: /net/aspose.words.drawing.charts/chartaxis/hidden/
 ---
 ## ChartAxis.Hidden property
@@ -16,7 +16,7 @@ public bool Hidden { get; set; }
 
 ### Remarks
 
-Default value is false.
+Default value is **false**.
 
 ### Examples
 

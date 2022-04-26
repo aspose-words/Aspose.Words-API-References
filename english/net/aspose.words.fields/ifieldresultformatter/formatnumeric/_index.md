@@ -3,7 +3,7 @@ title: FormatNumeric
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 10
+weight: 30
 url: /net/aspose.words.fields/ifieldresultformatter/formatnumeric/
 ---
 ## IFieldResultFormatter.FormatNumeric method
@@ -16,7 +16,7 @@ public string FormatNumeric(double value, string format)
 
 ### Remarks
 
-The implementation should return null to indicate that the default formatting should be applied.
+The implementation should return **null** to indicate that the default formatting should be applied.
 
 ### Examples
 

@@ -3,7 +3,7 @@ title: AppendDocument
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 60
+weight: 510
 url: /net/aspose.words/document/appenddocument/
 ---
 ## Document.AppendDocument method (1 of 2)

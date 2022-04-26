@@ -3,7 +3,7 @@ title: Name
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 30
+weight: 230
 url: /net/aspose.words/font/name/
 ---
 ## Font.Name property
@@ -16,7 +16,9 @@ public string Name { get; set; }
 
 ### Remarks
 
-When getting, returns [`NameAscii`](../nameascii).When setting, sets [`NameAscii`](../nameascii), [`NameBi`](../namebi), [`NameFarEast`](../namefareast) and [`NameOther`](../nameother) to the specified value.
+When getting, returns [`NameAscii`](../nameascii).
+
+When setting, sets [`NameAscii`](../nameascii), [`NameBi`](../namebi), [`NameFarEast`](../namefareast) and [`NameOther`](../nameother) to the specified value.
 
 ### Examples
 

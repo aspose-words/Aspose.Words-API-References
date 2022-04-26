@@ -3,7 +3,7 @@ title: Shading
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 510
+weight: 320
 url: /net/aspose.words/font/shading/
 ---
 ## Font.Shading property

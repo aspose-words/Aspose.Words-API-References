@@ -3,7 +3,7 @@ title: Clone
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 40
+weight: 530
 url: /net/aspose.words/document/clone/
 ---
 ## Document.Clone method

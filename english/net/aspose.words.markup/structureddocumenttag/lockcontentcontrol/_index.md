@@ -3,12 +3,12 @@ title: LockContentControl
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 130
+weight: 190
 url: /net/aspose.words.markup/structureddocumenttag/lockcontentcontrol/
 ---
 ## StructuredDocumentTag.LockContentControl property
 
-When set to true, this property will prohibit a user from deleting this SDT.
+When set to true, this property will prohibit a user from deleting this **SDT**.
 
 ```csharp
 public bool LockContentControl { get; set; }

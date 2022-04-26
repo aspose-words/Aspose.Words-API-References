@@ -3,7 +3,7 @@ title: PdfLoadOptions
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 3410
+weight: 3380
 url: /net/aspose.words.loading/pdfloadoptions/
 ---
 ## PdfLoadOptions class
@@ -14,11 +14,16 @@ Allows to specify additional options when loading Pdf document into a [`Document
 public class PdfLoadOptions : LoadOptions
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [PdfLoadOptions](pdfloadoptions)() | The default constructor. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [PageCount](pagecount) { get; set; } | Gets or sets the number of pages to read. Default is MaxValue which means all pages of the document will be read. |
 | [PageIndex](pageindex) { get; set; } | Gets or sets the 0-based index of the first page to read. Default is 0. |
 | [SkipPdfImages](skippdfimages) { get; set; } | Gets or sets the flag indicating whether images must be skipped while loading PDF document. Default is False. |

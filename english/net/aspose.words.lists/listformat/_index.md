@@ -3,7 +3,7 @@ title: ListFormat
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 3220
+weight: 3200
 url: /net/aspose.words.lists/listformat/
 ---
 ## ListFormat class
@@ -14,7 +14,7 @@ Allows to control what list formatting is applied to a paragraph.
 public class ListFormat
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -22,6 +22,11 @@ public class ListFormat
 | [List](list) { get; set; } | Gets or sets the list this paragraph is a member of. |
 | [ListLevel](listlevel) { get; } | Returns the list level formatting plus any formatting overrides applied to the current paragraph. |
 | [ListLevelNumber](listlevelnumber) { get; set; } | Gets or sets the list level number (0 to 8) for the paragraph. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
 | [ApplyBulletDefault](applybulletdefault)() | Starts a new default bulleted list and applies it to the paragraph. |
 | [ApplyNumberDefault](applynumberdefault)() | Starts a new default numbered list and applies it to the paragraph. |
 | [ListIndent](listindent)() | Increases the list level of the current paragraph by one level. |
@@ -30,7 +35,19 @@ public class ListFormat
 
 ### Remarks
 
-A paragraph in a Microsoft Word document can be bulleted or numbered. When a paragraph is bulleted or numbered, it is said that list formatting is applied to the paragraph.You do not create objects of the [`ListFormat`](../listformat) class directly. You access [`ListFormat`](../listformat) as a property of another object that can have list formatting associated with it. At the moment the objects that can have list formatting are: [`Paragraph`](../../aspose.words/paragraph), [`Style`](../../aspose.words/style) and [`DocumentBuilder`](../../aspose.words/documentbuilder).[`ListFormat`](../listformat) of a [`Paragraph`](../../aspose.words/paragraph) specifies what list formatting and list level is applied to that particular paragraph.[`ListFormat`](../listformat) of a [`Style`](../../aspose.words/style) (applicable to paragraph styles only) allows to specify what list formatting and list level is applied to all paragraphs of that particular style.[`ListFormat`](../listformat) of a [`DocumentBuilder`](../../aspose.words/documentbuilder) provides access to the list formatting at the current cursor position inside the [`DocumentBuilder`](../../aspose.words/documentbuilder).The list formatting itself is stored inside a [`List`](../list) object that is stored separately from the paragraphs. The list objects are stored inside a [`ListCollection`](../listcollection) collection. There is a single [`ListCollection`](../listcollection) collection per [`Document`](../../aspose.words/document).The paragraphs do not physically belong to a list. The paragraphs just reference a particular list object via the [`List`](./list) property and a particular level in the list via the [`ListLevelNumber`](./listlevelnumber) property. By setting these two properties you control what bullets and numbering is applied to a paragraph.
+A paragraph in a Microsoft Word document can be bulleted or numbered. When a paragraph is bulleted or numbered, it is said that list formatting is applied to the paragraph.
+
+You do not create objects of the [`ListFormat`](../listformat) class directly. You access [`ListFormat`](../listformat) as a property of another object that can have list formatting associated with it. At the moment the objects that can have list formatting are: [`Paragraph`](../../aspose.words/paragraph), [`Style`](../../aspose.words/style) and [`DocumentBuilder`](../../aspose.words/documentbuilder).
+
+[`ListFormat`](../listformat) of a [`Paragraph`](../../aspose.words/paragraph) specifies what list formatting and list level is applied to that particular paragraph.
+
+[`ListFormat`](../listformat) of a [`Style`](../../aspose.words/style) (applicable to paragraph styles only) allows to specify what list formatting and list level is applied to all paragraphs of that particular style.
+
+[`ListFormat`](../listformat) of a [`DocumentBuilder`](../../aspose.words/documentbuilder) provides access to the list formatting at the current cursor position inside the [`DocumentBuilder`](../../aspose.words/documentbuilder).
+
+The list formatting itself is stored inside a [`List`](../list) object that is stored separately from the paragraphs. The list objects are stored inside a [`ListCollection`](../listcollection) collection. There is a single [`ListCollection`](../listcollection) collection per [`Document`](../../aspose.words/document).
+
+The paragraphs do not physically belong to a list. The paragraphs just reference a particular list object via the [`List`](./list) property and a particular level in the list via the [`ListLevelNumber`](./listlevelnumber) property. By setting these two properties you control what bullets and numbering is applied to a paragraph.
 
 ### Examples
 

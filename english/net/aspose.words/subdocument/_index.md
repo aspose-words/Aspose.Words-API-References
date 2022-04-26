@@ -3,23 +3,28 @@ title: SubDocument
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 5780
+weight: 5730
 url: /net/aspose.words/subdocument/
 ---
 ## SubDocument class
 
-Represents a SubDocument - which is a reference to an externally stored document.
+Represents a **SubDocument** - which is a reference to an externally stored document.
 
 ```csharp
 public class SubDocument : Node
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
-| override [NodeType](nodetype) { get; } | Returns NodeType.SubDocument |
-| override [Accept](accept)(…) | Accepts a visitor. |
+| override [NodeType](nodetype) { get; } | Returns **NodeType.SubDocument** |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| override [Accept](accept)(DocumentVisitor) | Accepts a visitor. |
 
 ### Remarks
 

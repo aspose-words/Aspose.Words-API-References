@@ -3,7 +3,7 @@ title: HtmlSaveOptions
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 4760
+weight: 4710
 url: /net/aspose.words.saving/htmlsaveoptions/
 ---
 ## HtmlSaveOptions class
@@ -14,12 +14,17 @@ Can be used to specify additional options when saving a document into the Html, 
 public class HtmlSaveOptions : SaveOptions
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [HtmlSaveOptions](htmlsaveoptions)() | Initializes a new instance of this class that can be used to save a document in the Html format. |
-| [HtmlSaveOptions](htmlsaveoptions)(…) | Initializes a new instance of this class that can be used to save a document in the Html, Mhtml or Epub format. |
+| [HtmlSaveOptions](htmlsaveoptions)(SaveFormat) | Initializes a new instance of this class that can be used to save a document in the Html, Mhtml or Epub format. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [AllowNegativeIndent](allownegativeindent) { get; set; } | Specifies whether negative left and right indents of paragraphs are normalized when saving to HTML, MHTML or EPUB. Default value is `false`. |
 | [CssClassNamePrefix](cssclassnameprefix) { get; set; } | Specifies a prefix which is added to all CSS class names. Default value is an empty string and generated CSS class names have no common prefix. |
 | [CssSavingCallback](csssavingcallback) { get; set; } | Allows to control how CSS styles are saved when a document is saved to HTML, MHTML or EPUB. |

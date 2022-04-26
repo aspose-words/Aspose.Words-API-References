@@ -3,7 +3,7 @@ title: LinkSource
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 100
+weight: 20
 url: /net/aspose.words.properties/documentproperty/linksource/
 ---
 ## DocumentProperty.LinkSource property

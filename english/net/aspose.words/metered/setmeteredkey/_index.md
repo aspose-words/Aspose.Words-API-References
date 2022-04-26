@@ -3,7 +3,7 @@ title: SetMeteredKey
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 10
+weight: 20
 url: /net/aspose.words/metered/setmeteredkey/
 ---
 ## Metered.SetMeteredKey method
@@ -34,6 +34,10 @@ Console.WriteLine($"Consumption quantity before operation: {Metered.GetConsumpti
 // Operate using Aspose.Words, and then print our metered stats again to see how much we spent.
 Document doc = new Document(MyDir + "Document.docx");
 doc.Save(ArtifactsDir + "Metered.Usage.pdf");
+
+// Aspose Metered Licensing mechanism does not send the usage data to purchase server every time,
+// you need to use waiting.
+System.Threading.Thread.Sleep(10000);
 
 Console.WriteLine($"Credit after operation: {Metered.GetConsumptionCredit()}");
 Console.WriteLine($"Consumption quantity after operation: {Metered.GetConsumptionQuantity()}");

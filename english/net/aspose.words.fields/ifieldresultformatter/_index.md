@@ -3,7 +3,7 @@ title: IFieldResultFormatter
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 2470
+weight: 2450
 url: /net/aspose.words.fields/ifieldresultformatter/
 ---
 ## IFieldResultFormatter interface
@@ -14,13 +14,14 @@ Implement this interface if you want to control how the field result is formatte
 public interface IFieldResultFormatter
 ```
 
-## Members
+## Methods
 
 | Name | Description |
 | --- | --- |
-| [Format](format)(…) | Called when Aspose.Words applies a capitalization format switch, i.e. \* Upper. (2 methods) |
-| [FormatDateTime](formatdatetime)(…) | Called when Aspose.Words applies a date/time format switch, i.e. \@ "dd.MM.yyyy". |
-| [FormatNumeric](formatnumeric)(…) | Called when Aspose.Words applies a numeric format switch, i.e. \# "#.##". |
+| [Format](format)(double, GeneralFormat) | Called when Aspose.Words applies a number format switch, i.e. \* Ordinal. |
+| [Format](format)(string, GeneralFormat) | Called when Aspose.Words applies a capitalization format switch, i.e. \* Upper. |
+| [FormatDateTime](formatdatetime)(DateTime, string, CalendarType) | Called when Aspose.Words applies a date/time format switch, i.e. \@ "dd.MM.yyyy". |
+| [FormatNumeric](formatnumeric)(double, string) | Called when Aspose.Words applies a numeric format switch, i.e. \# "#.##". |
 
 ### Examples
 

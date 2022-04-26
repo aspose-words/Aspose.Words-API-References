@@ -3,7 +3,7 @@ title: IFieldUpdatingCallback
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 2490
+weight: 2470
 url: /net/aspose.words.fields/ifieldupdatingcallback/
 ---
 ## IFieldUpdatingCallback interface
@@ -14,12 +14,12 @@ Implement this interface if you want to have your own custom methods called duri
 public interface IFieldUpdatingCallback
 ```
 
-## Members
+## Methods
 
 | Name | Description |
 | --- | --- |
-| [FieldUpdated](fieldupdated)(…) | A user defined method that is called just after a field is updated. |
-| [FieldUpdating](fieldupdating)(…) | A user defined method that is called just before a field is updated. |
+| [FieldUpdated](fieldupdated)(Field) | A user defined method that is called just after a field is updated. |
+| [FieldUpdating](fieldupdating)(Field) | A user defined method that is called just before a field is updated. |
 
 ### Examples
 

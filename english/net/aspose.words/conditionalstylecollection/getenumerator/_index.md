@@ -3,7 +3,7 @@ title: GetEnumerator
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 20
+weight: 160
 url: /net/aspose.words/conditionalstylecollection/getenumerator/
 ---
 ## ConditionalStyleCollection.GetEnumerator method

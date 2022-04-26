@@ -3,7 +3,7 @@ title: NextParagraphStyleName
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 110
+weight: 120
 url: /net/aspose.words/style/nextparagraphstylename/
 ---
 ## Style.NextParagraphStyleName property

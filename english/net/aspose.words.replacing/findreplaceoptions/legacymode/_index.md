@@ -3,7 +3,7 @@ title: LegacyMode
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 150
+weight: 110
 url: /net/aspose.words.replacing/findreplaceoptions/legacymode/
 ---
 ## FindReplaceOptions.LegacyMode property

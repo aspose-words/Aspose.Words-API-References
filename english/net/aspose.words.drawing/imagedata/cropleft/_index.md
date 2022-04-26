@@ -3,7 +3,7 @@ title: CropLeft
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 160
+weight: 70
 url: /net/aspose.words.drawing/imagedata/cropleft/
 ---
 ## ImageData.CropLeft property
@@ -16,7 +16,9 @@ public double CropLeft { get; set; }
 
 ### Remarks
 
-The amount of cropping can range from -1.0 to 1.0. The default value is 0. Note that a value of 1 will display no picture at all. Negative values will result in the picture being squeezed inward from the edge being cropped (the empty space between the picture and the cropped edge will be filled by the fill color of the shape). Positive values less than 1 will result in the remaining picture being stretched to fit the shape.The default value is 0.
+The amount of cropping can range from -1.0 to 1.0. The default value is 0. Note that a value of 1 will display no picture at all. Negative values will result in the picture being squeezed inward from the edge being cropped (the empty space between the picture and the cropped edge will be filled by the fill color of the shape). Positive values less than 1 will result in the remaining picture being stretched to fit the shape.
+
+The default value is 0.
 
 ### Examples
 

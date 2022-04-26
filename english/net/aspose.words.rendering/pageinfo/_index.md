@@ -3,7 +3,7 @@ title: PageInfo
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 4240
+weight: 4190
 url: /net/aspose.words.rendering/pageinfo/
 ---
 ## PageInfo class
@@ -14,7 +14,7 @@ Represents information about a particular document page.
 public class PageInfo
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -24,7 +24,13 @@ public class PageInfo
 | [PaperTray](papertray) { get; } | Gets the paper tray (bin) for this page as specified in the document. The value is implementation (printer) specific. |
 | [SizeInPoints](sizeinpoints) { get; } | Gets the page size in points. |
 | [WidthInPoints](widthinpoints) { get; } | Gets the width of the page in points. |
-| [GetSizeInPixels](getsizeinpixels)(…) | Calculates the page size in pixels for a specified zoom factor and resolution. (2 methods) |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [GetSizeInPixels](getsizeinpixels)(float, float) | Calculates the page size in pixels for a specified zoom factor and resolution. |
+| [GetSizeInPixels](getsizeinpixels)(float, float, float) | Calculates the page size in pixels for a specified zoom factor and resolution. |
 
 ### Remarks
 

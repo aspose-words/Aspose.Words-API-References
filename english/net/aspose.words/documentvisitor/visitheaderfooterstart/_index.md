@@ -3,7 +3,7 @@ title: VisitHeaderFooterStart
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 70
+weight: 290
 url: /net/aspose.words/documentvisitor/visitheaderfooterstart/
 ---
 ## DocumentVisitor.VisitHeaderFooterStart method

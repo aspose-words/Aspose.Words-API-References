@@ -3,7 +3,7 @@ title: ExportRoundtripInformation
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 310
+weight: 250
 url: /net/aspose.words.saving/htmlsaveoptions/exportroundtripinformation/
 ---
 ## HtmlSaveOptions.ExportRoundtripInformation property

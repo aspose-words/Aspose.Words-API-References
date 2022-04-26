@@ -3,7 +3,7 @@ title: SetPaddings
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 20
+weight: 160
 url: /net/aspose.words.tables/cellformat/setpaddings/
 ---
 ## CellFormat.SetPaddings method

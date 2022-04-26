@@ -3,7 +3,7 @@ title: ExportListLabels
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 190
+weight: 200
 url: /net/aspose.words.saving/htmlsaveoptions/exportlistlabels/
 ---
 ## HtmlSaveOptions.ExportListLabels property

@@ -3,7 +3,7 @@ title: DateTimeFormat
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 20
+weight: 10
 url: /net/aspose.words.fields/fieldformat/datetimeformat/
 ---
 ## FieldFormat.DateTimeFormat property

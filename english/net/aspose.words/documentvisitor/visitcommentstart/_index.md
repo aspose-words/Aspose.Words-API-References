@@ -3,7 +3,7 @@ title: VisitCommentStart
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 260
+weight: 130
 url: /net/aspose.words/documentvisitor/visitcommentstart/
 ---
 ## DocumentVisitor.VisitCommentStart method

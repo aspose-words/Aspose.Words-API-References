@@ -3,7 +3,7 @@ title: Name
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 30
+weight: 110
 url: /net/aspose.words/style/name/
 ---
 ## Style.Name property
@@ -16,7 +16,9 @@ public string Name { get; set; }
 
 ### Remarks
 
-Can not be empty string.If there already is a style with such name in the collection, then this style will override it. All affected nodes will reference new style.
+Can not be empty string.
+
+If there already is a style with such name in the collection, then this style will override it. All affected nodes will reference new style.
 
 ### Examples
 

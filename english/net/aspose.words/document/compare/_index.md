@@ -3,7 +3,7 @@ title: Compare
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 240
+weight: 540
 url: /net/aspose.words/document/compare/
 ---
 ## Document.Compare method (1 of 2)

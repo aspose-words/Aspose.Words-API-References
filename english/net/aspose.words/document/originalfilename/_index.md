@@ -3,7 +3,7 @@ title: OriginalFileName
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 620
+weight: 270
 url: /net/aspose.words/document/originalfilename/
 ---
 ## Document.OriginalFileName property

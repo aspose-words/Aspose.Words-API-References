@@ -3,7 +3,7 @@ title: RemoveAt
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 30
+weight: 80
 url: /net/aspose.words.markup/custompartcollection/removeat/
 ---
 ## CustomPartCollection.RemoveAt method

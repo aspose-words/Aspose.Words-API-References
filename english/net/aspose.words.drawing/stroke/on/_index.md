@@ -3,7 +3,7 @@ title: On
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 10
+weight: 130
 url: /net/aspose.words.drawing/stroke/on/
 ---
 ## Stroke.On property
@@ -16,7 +16,7 @@ public bool On { get; set; }
 
 ### Remarks
 
-The default value for a [`Shape`](../../shape) is true.
+The default value for a [`Shape`](../../shape) is **true**.
 
 ### Examples
 

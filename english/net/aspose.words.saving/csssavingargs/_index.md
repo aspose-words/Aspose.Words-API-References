@@ -3,7 +3,7 @@ title: CssSavingArgs
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 4540
+weight: 4490
 url: /net/aspose.words.saving/csssavingargs/
 ---
 ## CssSavingArgs class
@@ -14,7 +14,7 @@ Provides data for the [`CssSaving`](../icsssavingcallback/csssaving) event.
 public class CssSavingArgs
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -25,7 +25,7 @@ public class CssSavingArgs
 
 ### Remarks
 
-By default, when Aspose.Words saves a document to HTML, it saves CSS information inline (as a value of the style attribute on every element).
+By default, when Aspose.Words saves a document to HTML, it saves CSS information inline (as a value of the **style** attribute on every element).
 
 [`CssSavingArgs`](../csssavingargs) allows to save CSS information into file by providing your own stream object.
 

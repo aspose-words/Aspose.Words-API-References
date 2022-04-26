@@ -3,7 +3,7 @@ title: ExportTextBoxAsSvg
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 250
+weight: 270
 url: /net/aspose.words.saving/htmlsaveoptions/exporttextboxassvg/
 ---
 ## HtmlSaveOptions.ExportTextBoxAsSvg property

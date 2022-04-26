@@ -3,7 +3,7 @@ title: LibId
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 20
+weight: 10
 url: /net/aspose.words.vba/vbareference/libid/
 ---
 ## VbaReference.LibId property

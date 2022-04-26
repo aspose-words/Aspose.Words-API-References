@@ -3,13 +3,13 @@ title: GetString
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 20
+weight: 70
 url: /net/aspose.words.shaping/cluster/getstring/
 ---
 ## Cluster.GetString method (1 of 2)
 
 ```csharp
-public string GetString()
+public static string GetString(Cluster[] clusters)
 ```
 
 ### See Also
@@ -23,7 +23,7 @@ public string GetString()
 ## Cluster.GetString method (2 of 2)
 
 ```csharp
-public static string GetString(Cluster[] clusters)
+public string GetString()
 ```
 
 ### See Also

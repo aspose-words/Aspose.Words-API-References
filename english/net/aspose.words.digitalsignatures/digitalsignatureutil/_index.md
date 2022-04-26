@@ -14,13 +14,18 @@ Provides methods for signing document.
 public static class DigitalSignatureUtil
 ```
 
-## Public Members
+## Methods
 
 | Name | Description |
 | --- | --- |
-| static [LoadSignatures](loadsignatures)(…) | Loads digital signatures from document. (2 methods) |
-| static [RemoveAllSignatures](removeallsignatures)(…) | Removes all digital signatures from source file and writes unsigned file to destination file. (2 methods) |
-| static [Sign](sign)(…) | Signs source document using given [`CertificateHolder`](../certificateholder) and [`SignOptions`](../signoptions) with digital signature and writes signed document to destination stream. Document should be either Doc or Docx.Output will be written to the start of stream and stream size will be updated with content length. (4 methods) |
+| static [LoadSignatures](loadsignatures)(Stream) | Loads digital signatures from document using stream. |
+| static [LoadSignatures](loadsignatures)(string) | Loads digital signatures from document. |
+| static [RemoveAllSignatures](removeallsignatures)(Stream, Stream) | Removes all digital signatures from document in source stream and writes unsigned document to destination stream. |
+| static [RemoveAllSignatures](removeallsignatures)(string, string) | Removes all digital signatures from source file and writes unsigned file to destination file. |
+| static [Sign](sign)(Stream, Stream, CertificateHolder) | Signs source document using given [`CertificateHolder`](../certificateholder) with digital signature and writes signed document to destination stream. |
+| static [Sign](sign)(string, string, CertificateHolder) | Signs source document using given [`CertificateHolder`](../certificateholder) with digital signature and writes signed document to destination file. |
+| static [Sign](sign)(Stream, Stream, CertificateHolder, SignOptions) | Signs source document using given [`CertificateHolder`](../certificateholder) and [`SignOptions`](../signoptions) with digital signature and writes signed document to destination stream. |
+| static [Sign](sign)(string, string, CertificateHolder, SignOptions) | Signs source document using given [`CertificateHolder`](../certificateholder) and [`SignOptions`](../signoptions) with digital signature and writes signed document to destination file. |
 
 ### Remarks
 

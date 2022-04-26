@@ -3,7 +3,7 @@ title: Add
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 10
+weight: 30
 url: /net/aspose.words.webextensions/basewebextensioncollection-1/add/
 ---
 ## BaseWebExtensionCollection&lt;T&gt;.Add method

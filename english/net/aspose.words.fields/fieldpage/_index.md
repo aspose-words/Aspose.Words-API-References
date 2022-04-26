@@ -3,7 +3,7 @@ title: FieldPage
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 2060
+weight: 2040
 url: /net/aspose.words.fields/fieldpage/
 ---
 ## FieldPage class
@@ -14,7 +14,7 @@ Implements the PAGE field.
 public class FieldPage : Field
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |

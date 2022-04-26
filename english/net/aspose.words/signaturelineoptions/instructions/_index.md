@@ -3,12 +3,12 @@ title: Instructions
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 60
+weight: 50
 url: /net/aspose.words/signaturelineoptions/instructions/
 ---
 ## SignatureLineOptions.Instructions property
 
-Gets or sets instructions to the signer that are displayed on signing the signature line. Default value for this property is empty string (Empty).
+Gets or sets instructions to the signer that are displayed on signing the signature line. Default value for this property is **empty string** (Empty).
 
 ```csharp
 public string Instructions { get; set; }

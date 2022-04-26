@@ -3,7 +3,7 @@ title: ExportHeadersFootersMode
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 160
+weight: 170
 url: /net/aspose.words.saving/htmlsaveoptions/exportheadersfootersmode/
 ---
 ## HtmlSaveOptions.ExportHeadersFootersMode property

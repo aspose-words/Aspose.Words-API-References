@@ -3,7 +3,7 @@ title: Thumbnail
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 250
+weight: 280
 url: /net/aspose.words.properties/builtindocumentproperties/thumbnail/
 ---
 ## BuiltInDocumentProperties.Thumbnail property

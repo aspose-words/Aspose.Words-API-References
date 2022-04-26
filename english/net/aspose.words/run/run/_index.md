@@ -3,12 +3,12 @@ title: Run
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 30
+weight: 10
 url: /net/aspose.words/run/run/
 ---
 ## Run constructor (1 of 2)
 
-Initializes a new instance of the Run class.
+Initializes a new instance of the **Run** class.
 
 ```csharp
 public Run(DocumentBase doc)
@@ -20,7 +20,9 @@ public Run(DocumentBase doc)
 
 ### Remarks
 
-When Run is created, it belongs to the specified document, but is not yet part of the document and ParentNode is null.To append Run to the document use InsertAfter or InsertBefore on the paragraph where you want the run inserted.
+When **Run** is created, it belongs to the specified document, but is not yet part of the document and **ParentNode** is null.
+
+To append **Run** to the document use InsertAfter or InsertBefore on the paragraph where you want the run inserted.
 
 ### Examples
 
@@ -80,7 +82,7 @@ doc.Save(ArtifactsDir + "Section.CreateManually.docx");
 
 ## Run constructor (2 of 2)
 
-Initializes a new instance of the Run class.
+Initializes a new instance of the **Run** class.
 
 ```csharp
 public Run(DocumentBase doc, string text)
@@ -93,7 +95,9 @@ public Run(DocumentBase doc, string text)
 
 ### Remarks
 
-When Run is created, it belongs to the specified document, but is not yet part of the document and ParentNode is null.To append Run to the document use InsertAfter or InsertBefore on the paragraph where you want the run inserted.
+When **Run** is created, it belongs to the specified document, but is not yet part of the document and **ParentNode** is null.
+
+To append **Run** to the document use InsertAfter or InsertBefore on the paragraph where you want the run inserted.
 
 ### Examples
 

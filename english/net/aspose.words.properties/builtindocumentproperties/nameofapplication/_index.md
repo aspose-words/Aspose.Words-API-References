@@ -3,7 +3,7 @@ title: NameOfApplication
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 180
+weight: 210
 url: /net/aspose.words.properties/builtindocumentproperties/nameofapplication/
 ---
 ## BuiltInDocumentProperties.NameOfApplication property

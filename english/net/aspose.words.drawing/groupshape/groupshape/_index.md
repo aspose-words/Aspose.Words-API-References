@@ -3,7 +3,7 @@ title: GroupShape
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 20
+weight: 10
 url: /net/aspose.words.drawing/groupshape/groupshape/
 ---
 ## GroupShape constructor
@@ -20,7 +20,9 @@ public GroupShape(DocumentBase doc)
 
 ### Remarks
 
-By default, the shape is floating and has default location and size.You should specify desired shape properties after you created a shape.
+By default, the shape is floating and has default location and size.
+
+You should specify desired shape properties after you created a shape.
 
 ### Examples
 

@@ -3,7 +3,7 @@ title: InsertTextInput
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 290
+weight: 450
 url: /net/aspose.words/documentbuilder/inserttextinput/
 ---
 ## DocumentBuilder.InsertTextInput method

@@ -3,7 +3,7 @@ title: RetainFirstSectionStart
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 230
+weight: 120
 url: /net/aspose.words.mailmerging/mailmerge/retainfirstsectionstart/
 ---
 ## MailMerge.RetainFirstSectionStart property
@@ -16,7 +16,7 @@ public bool RetainFirstSectionStart { get; set; }
 
 ### Remarks
 
-The default value is true.
+The default value is **true**.
 
 ### See Also
 

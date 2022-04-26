@@ -3,7 +3,7 @@ title: DocumentProperty
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 4160
+weight: 4110
 url: /net/aspose.words.properties/documentproperty/
 ---
 ## DocumentProperty class
@@ -14,7 +14,7 @@ Represents a custom or built-in document property.
 public class DocumentProperty
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -23,6 +23,11 @@ public class DocumentProperty
 | [Name](name) { get; } | Returns the name of the property. |
 | [Type](type) { get; } | Gets the data type of the property. |
 | [Value](value) { get; set; } | Gets or sets the value of the property. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
 | [ToBool](tobool)() | Returns the property value as bool. |
 | [ToByteArray](tobytearray)() | Returns the property value as byte array. |
 | [ToDateTime](todatetime)() | Returns the property value as DateTime in UTC. |

@@ -3,7 +3,7 @@ title: PclSaveOptions
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 5030
+weight: 4980
 url: /net/aspose.words.saving/pclsaveoptions/
 ---
 ## PclSaveOptions class
@@ -14,15 +14,25 @@ Can be used to specify additional options when saving a document into the Pcl fo
 public class PclSaveOptions : FixedPageSaveOptions
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [PclSaveOptions](pclsaveoptions)() | The default constructor. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [FallbackFontName](fallbackfontname) { get; set; } | Name of the font that will be used if no expected font is found in printer and built-in fonts collections. |
 | [RasterizeTransformedElements](rasterizetransformedelements) { get; set; } | Gets or sets a value determining whether or not complex transformed elements should be rasterized before saving to PCL document. Default is `true`. |
 | override [SaveFormat](saveformat) { get; set; } | Specifies the format in which the document will be saved if this save options object is used. Can only be Pcl. |
-| [AddPrinterFont](addprinterfont)(…) | Adds information about font that is uploaded to the printer by manufacturer. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [AddPrinterFont](addprinterfont)(string, string) | Adds information about font that is uploaded to the printer by manufacturer. |
 
 ### Examples
 

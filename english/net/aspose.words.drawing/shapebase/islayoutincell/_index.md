@@ -3,7 +3,7 @@ title: IsLayoutInCell
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 620
+weight: 300
 url: /net/aspose.words.drawing/shapebase/islayoutincell/
 ---
 ## ShapeBase.IsLayoutInCell property
@@ -16,7 +16,9 @@ public bool IsLayoutInCell { get; set; }
 
 ### Remarks
 
-The default value is true.Has effect only for top level shapes, the property [`WrapType`](../wraptype) of which is set to value other than [`Inline`](../../../aspose.words/inline).
+The default value is **true**.
+
+Has effect only for top level shapes, the property [`WrapType`](../wraptype) of which is set to value other than [`Inline`](../../../aspose.words/inline).
 
 ### Examples
 

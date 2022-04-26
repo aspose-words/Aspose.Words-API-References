@@ -3,7 +3,7 @@ title: FieldAdvance
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 1360
+weight: 1340
 url: /net/aspose.words.fields/fieldadvance/
 ---
 ## FieldAdvance class
@@ -14,11 +14,16 @@ Implements the ADVANCE field.
 public class FieldAdvance : Field
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [FieldAdvance](fieldadvance)() | The default constructor. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [DownOffset](downoffset) { get; set; } | Gets or sets the number of points by which the text that follows the field should be moved down. |
 | [HorizontalPosition](horizontalposition) { get; set; } | Gets or sets the number of points by which the text that follows the field should be moved horizontally from the left edge of the column, frame, or text box. |
 | [LeftOffset](leftoffset) { get; set; } | Gets or sets the number of points by which the text that follows the field should be moved left. |

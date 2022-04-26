@@ -3,7 +3,7 @@ title: Frameset
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 2840
+weight: 2820
 url: /net/aspose.words.framesets/frameset/
 ---
 ## Frameset class
@@ -14,11 +14,16 @@ Represents a frames page or a single frame on a frames page.
 public class Frameset
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [Frameset](frameset)() | The default constructor. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [ChildFramesets](childframesets) { get; } | Gets the collection of child frames and frames pages. |
 | [FrameDefaultUrl](framedefaulturl) { get; set; } | Gets or sets the web page URL or document file name to display in this frame. |
 | [IsFrameLinkToFile](isframelinktofile) { get; set; } | Gets or sets a value indicating whether the web page or document file name specified in the [`FrameDefaultUrl`](./framedefaulturl) property is an external resource the frame is linked with. |

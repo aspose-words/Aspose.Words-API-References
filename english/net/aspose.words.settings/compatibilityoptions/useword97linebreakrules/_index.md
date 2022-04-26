@@ -3,7 +3,7 @@ title: UseWord97LineBreakRules
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 430
+weight: 680
 url: /net/aspose.words.settings/compatibilityoptions/useword97linebreakrules/
 ---
 ## CompatibilityOptions.UseWord97LineBreakRules property

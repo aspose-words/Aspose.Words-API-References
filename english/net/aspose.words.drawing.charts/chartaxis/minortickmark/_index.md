@@ -3,7 +3,7 @@ title: MinorTickMark
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 70
+weight: 130
 url: /net/aspose.words.drawing.charts/chartaxis/minortickmark/
 ---
 ## ChartAxis.MinorTickMark property

@@ -3,7 +3,7 @@ title: InsertAsUnicode
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 130
+weight: 90
 url: /net/aspose.words.fields/fieldlink/insertasunicode/
 ---
 ## FieldLink.InsertAsUnicode property

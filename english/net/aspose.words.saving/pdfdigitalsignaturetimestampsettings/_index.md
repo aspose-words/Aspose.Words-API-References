@@ -3,7 +3,7 @@ title: PdfDigitalSignatureTimestampSettings
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 5080
+weight: 5030
 url: /net/aspose.words.saving/pdfdigitalsignaturetimestampsettings/
 ---
 ## PdfDigitalSignatureTimestampSettings class
@@ -14,12 +14,18 @@ Contains settings of the digital signature timestamp.
 public class PdfDigitalSignatureTimestampSettings
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [PdfDigitalSignatureTimestampSettings](pdfdigitalsignaturetimestampsettings)() | Initializes an instance of this class. |
-| [PdfDigitalSignatureTimestampSettings](pdfdigitalsignaturetimestampsettings)(…) | Initializes an instance of this class. (2 constructors) |
+| [PdfDigitalSignatureTimestampSettings](pdfdigitalsignaturetimestampsettings)(string, string, string) | Initializes an instance of this class. |
+| [PdfDigitalSignatureTimestampSettings](pdfdigitalsignaturetimestampsettings)(string, string, string, TimeSpan) | Initializes an instance of this class. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [Password](password) { get; set; } | Timestamp server password. |
 | [ServerUrl](serverurl) { get; set; } | Timestamp server URL. |
 | [Timeout](timeout) { get; set; } | Time-out value for accessing timestamp server. |

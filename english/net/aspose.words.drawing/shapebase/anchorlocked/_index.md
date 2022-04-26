@@ -3,7 +3,7 @@ title: AnchorLocked
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 270
+weight: 30
 url: /net/aspose.words.drawing/shapebase/anchorlocked/
 ---
 ## ShapeBase.AnchorLocked property
@@ -16,7 +16,11 @@ public bool AnchorLocked { get; set; }
 
 ### Remarks
 
-The default value is false.Has effect only for top level shapes.This property affects behavior of the shape's anchor in Microsoft Word. When the anchor is not locked, moving the shape in Microsoft Word can move the shape's anchor too.
+The default value is **false**.
+
+Has effect only for top level shapes.
+
+This property affects behavior of the shape's anchor in Microsoft Word. When the anchor is not locked, moving the shape in Microsoft Word can move the shape's anchor too.
 
 ### Examples
 

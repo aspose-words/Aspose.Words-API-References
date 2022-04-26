@@ -3,7 +3,7 @@ title: Font
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 2590
+weight: 2570
 url: /net/aspose.words/font/
 ---
 ## Font class
@@ -14,7 +14,7 @@ Contains font attributes (font name, font size, color, and so on) for an object.
 public class Font
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -72,8 +72,13 @@ public class Font
 | [TintAndShade](tintandshade) { get; set; } | Gets or sets a double value that lightens or darkens a color. |
 | [Underline](underline) { get; set; } | Gets or sets the type of underline applied to the font. |
 | [UnderlineColor](underlinecolor) { get; set; } | Gets or sets the color of the underline applied to the font. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
 | [ClearFormatting](clearformatting)() | Resets to default font formatting. |
-| [HasDmlEffect](hasdmleffect)(…) | Checks if particular DrawingML text effect is applied. |
+| [HasDmlEffect](hasdmleffect)(TextDmlEffect) | Checks if particular DrawingML text effect is applied. |
 
 ### Remarks
 

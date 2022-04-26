@@ -3,7 +3,7 @@ title: IsLink
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 100
+weight: 150
 url: /net/aspose.words.drawing/imagedata/islink/
 ---
 ## ImageData.IsLink property

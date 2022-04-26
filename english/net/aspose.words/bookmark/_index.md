@@ -14,17 +14,22 @@ Represents a single bookmark.
 public class Bookmark
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
 | [BookmarkEnd](bookmarkend) { get; } | Gets the node that represents the end of the bookmark. |
 | [BookmarkStart](bookmarkstart) { get; } | Gets the node that represents the start of the bookmark. |
 | [FirstColumn](firstcolumn) { get; } | Gets the zero-based index of the first column of the table column range associated with the bookmark. |
-| [IsColumn](iscolumn) { get; } | Returns true if this bookmark is a table column bookmark. |
+| [IsColumn](iscolumn) { get; } | Returns **true** if this bookmark is a table column bookmark. |
 | [LastColumn](lastcolumn) { get; } | Gets the zero-based index of the last column of the table column range associated with the bookmark. |
 | [Name](name) { get; set; } | Gets or sets the name of the bookmark. |
 | [Text](text) { get; set; } | Gets or sets the text enclosed in the bookmark. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
 | [Remove](remove)() | Removes the bookmark from the document. Does not remove text inside the bookmark. |
 
 ### Remarks

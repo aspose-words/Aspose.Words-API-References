@@ -3,7 +3,7 @@ title: HorizontalAlignment
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 540
+weight: 210
 url: /net/aspose.words.drawing/shapebase/horizontalalignment/
 ---
 ## ShapeBase.HorizontalAlignment property
@@ -16,7 +16,9 @@ public HorizontalAlignment HorizontalAlignment { get; set; }
 
 ### Remarks
 
-The default value is None.Has effect only for top level floating shapes.
+The default value is None.
+
+Has effect only for top level floating shapes.
 
 ### Examples
 

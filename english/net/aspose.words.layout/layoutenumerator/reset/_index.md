@@ -3,7 +3,7 @@ title: Reset
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 10
+weight: 160
 url: /net/aspose.words.layout/layoutenumerator/reset/
 ---
 ## LayoutEnumerator.Reset method

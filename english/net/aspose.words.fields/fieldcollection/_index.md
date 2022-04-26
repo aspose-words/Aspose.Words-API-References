@@ -3,7 +3,7 @@ title: FieldCollection
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 1510
+weight: 1490
 url: /net/aspose.words.fields/fieldcollection/
 ---
 ## FieldCollection class
@@ -14,20 +14,29 @@ A collection of [`Field`](../field) objects that represents the fields in the sp
 public class FieldCollection : IEnumerable<Field>
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
 | [Count](count) { get; } | Returns the number of the fields in the collection. |
 | [Item](item) { get; } | Returns a field at the specified index. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
 | [Clear](clear)() | Removes all fields of this collection from the document and from this collection itself. |
 | [GetEnumerator](getenumerator)() | Returns an enumerator object. |
-| [Remove](remove)(…) | Removes the specified field from this collection and from the document. |
-| [RemoveAt](removeat)(…) | Removes a field at the specified index from this collection and from the document. |
+| [Remove](remove)(Field) | Removes the specified field from this collection and from the document. |
+| [RemoveAt](removeat)(int) | Removes a field at the specified index from this collection and from the document. |
 
 ### Remarks
 
-An instance of this collection iterates fields which start fall within the specified range.The [`FieldCollection`](../fieldcollection) collection does not own the fields it contains, rather, is just a selection of fields.The [`FieldCollection`](../fieldcollection) collection is "live", i.e. changes to the children of the node object that it was created from are immediately reflected in the fields returned by the [`FieldCollection`](../fieldcollection) properties and methods.
+An instance of this collection iterates fields which start fall within the specified range.
+
+The [`FieldCollection`](../fieldcollection) collection does not own the fields it contains, rather, is just a selection of fields.
+
+The [`FieldCollection`](../fieldcollection) collection is "live", i.e. changes to the children of the node object that it was created from are immediately reflected in the fields returned by the [`FieldCollection`](../fieldcollection) properties and methods.
 
 ### Examples
 

@@ -3,7 +3,7 @@ title: Accept
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 10
+weight: 30
 url: /net/aspose.words.fields/fieldstart/accept/
 ---
 ## FieldStart.Accept method
@@ -20,11 +20,13 @@ public override bool Accept(DocumentVisitor visitor)
 
 ## Return Value
 
-False if the visitor requested the enumeration to stop.
+**False** if the visitor requested the enumeration to stop.
 
 ### Remarks
 
-Calls [`VisitFieldStart`](../../../aspose.words/documentvisitor/visitfieldstart).For more info see the Visitor design pattern.
+Calls [`VisitFieldStart`](../../../aspose.words/documentvisitor/visitfieldstart).
+
+For more info see the Visitor design pattern.
 
 ### Examples
 

@@ -3,7 +3,7 @@ title: MailMergeCheckErrors
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 5420
+weight: 5370
 url: /net/aspose.words.settings/mailmergecheckerrors/
 ---
 ## MailMergeCheckErrors enumeration

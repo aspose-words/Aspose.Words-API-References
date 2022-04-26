@@ -3,7 +3,7 @@ title: FieldPrintDate
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 2090
+weight: 2070
 url: /net/aspose.words.fields/fieldprintdate/
 ---
 ## FieldPrintDate class
@@ -14,11 +14,16 @@ Implements the PRINTDATE field.
 public class FieldPrintDate : Field
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [FieldPrintDate](fieldprintdate)() | The default constructor. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [UseLunarCalendar](uselunarcalendar) { get; set; } | Gets or sets whether to use the Hijri Lunar or Hebrew Lunar calendar. |
 | [UseSakaEraCalendar](usesakaeracalendar) { get; set; } | Gets or sets whether to use the Saka Era calendar. |
 | [UseUmAlQuraCalendar](useumalquracalendar) { get; set; } | Gets or sets whether to use the Um-al-Qura calendar. |

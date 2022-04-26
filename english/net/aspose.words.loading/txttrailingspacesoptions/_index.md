@@ -3,7 +3,7 @@ title: TxtTrailingSpacesOptions
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 3480
+weight: 3450
 url: /net/aspose.words.loading/txttrailingspacesoptions/
 ---
 ## TxtTrailingSpacesOptions enumeration

@@ -3,7 +3,7 @@ title: SourceItem
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 40
+weight: 110
 url: /net/aspose.words.fields/fieldddeauto/sourceitem/
 ---
 ## FieldDdeAuto.SourceItem property

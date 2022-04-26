@@ -14,25 +14,36 @@ Represents a container for text of a comment.
 public sealed class Comment : InlineStory
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
-| [Comment](comment)(…) | Initializes a new instance of the Comment class. (2 constructors) |
+| [Comment](comment)(DocumentBase) | Initializes a new instance of the **Comment** class. |
+| [Comment](comment)(DocumentBase, string, string, DateTime) | Initializes a new instance of the **Comment** class. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [Ancestor](ancestor) { get; } | Returns the parent Comment object. Returns null for top-level comments. |
 | [Author](author) { get; set; } | Returns or sets the author name for a comment. |
 | [DateTime](datetime) { get; set; } | Gets the date and time that the comment was made. |
 | [Done](done) { get; set; } | Gets or sets flag indicating that the comment has been marked done. |
 | [Id](id) { get; } | Gets the comment identifier. |
 | [Initial](initial) { get; set; } | Returns or sets the initials of the user associated with a specific comment. |
-| override [NodeType](nodetype) { get; } | Returns NodeType.Comment. |
+| override [NodeType](nodetype) { get; } | Returns **NodeType.Comment**. |
 | [Replies](replies) { get; } | Returns a collection of [`Comment`](../comment) objects that are immediate children of the specified comment. |
-| override [StoryType](storytype) { get; } | Returns StoryType.Comments. |
-| override [Accept](accept)(…) | Accepts a visitor. |
-| [AddReply](addreply)(…) | Adds a reply to this comment. |
+| override [StoryType](storytype) { get; } | Returns **StoryType.Comments**. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| override [Accept](accept)(DocumentVisitor) | Accepts a visitor. |
+| [AddReply](addreply)(string, string, DateTime, string) | Adds a reply to this comment. |
 | [RemoveAllReplies](removeallreplies)() | Removes all replies to this comment. |
-| [RemoveReply](removereply)(…) | Removes the specified reply to this comment. |
-| [SetText](settext)(…) | This is a convenience method that allows to easily set text of the comment. |
+| [RemoveReply](removereply)(Comment) | Removes the specified reply to this comment. |
+| [SetText](settext)(string) | This is a convenience method that allows to easily set text of the comment. |
 
 ### Remarks
 
@@ -42,7 +53,9 @@ If a [`Comment`](../comment) object occurs on its own, the comment is anchored t
 
 To anchor a comment to a region of text three objects are required: [`Comment`](../comment), [`CommentRangeStart`](../commentrangestart) and [`CommentRangeEnd`](../commentrangeend). All three objects need to share the same [`Id`](./id) value.
 
-[`Comment`](../comment) is an inline-level node and can only be a child of [`Paragraph`](../paragraph).[`Comment`](../comment) can contain [`Paragraph`](../paragraph) and [`Table`](../../aspose.words.tables/table) child nodes.
+[`Comment`](../comment) is an inline-level node and can only be a child of [`Paragraph`](../paragraph).
+
+[`Comment`](../comment) can contain [`Paragraph`](../paragraph) and [`Table`](../../aspose.words.tables/table) child nodes.
 
 ### Examples
 

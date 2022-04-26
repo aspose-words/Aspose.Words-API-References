@@ -3,7 +3,7 @@ title: ColorMode
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 70
+weight: 10
 url: /net/aspose.words.saving/fixedpagesaveoptions/colormode/
 ---
 ## FixedPageSaveOptions.ColorMode property

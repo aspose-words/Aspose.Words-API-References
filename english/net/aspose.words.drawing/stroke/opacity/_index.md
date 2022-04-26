@@ -3,7 +3,7 @@ title: Opacity
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 190
+weight: 140
 url: /net/aspose.words.drawing/stroke/opacity/
 ---
 ## Stroke.Opacity property

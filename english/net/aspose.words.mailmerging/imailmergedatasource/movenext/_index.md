@@ -3,7 +3,7 @@ title: MoveNext
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 10
+weight: 40
 url: /net/aspose.words.mailmerging/imailmergedatasource/movenext/
 ---
 ## IMailMergeDataSource.MoveNext method

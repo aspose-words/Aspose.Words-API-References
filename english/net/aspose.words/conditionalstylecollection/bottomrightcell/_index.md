@@ -3,7 +3,7 @@ title: BottomRightCell
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 160
+weight: 20
 url: /net/aspose.words/conditionalstylecollection/bottomrightcell/
 ---
 ## ConditionalStyleCollection.BottomRightCell property

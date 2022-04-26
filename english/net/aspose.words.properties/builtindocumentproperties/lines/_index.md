@@ -3,7 +3,7 @@ title: Lines
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 150
+weight: 180
 url: /net/aspose.words.properties/builtindocumentproperties/lines/
 ---
 ## BuiltInDocumentProperties.Lines property

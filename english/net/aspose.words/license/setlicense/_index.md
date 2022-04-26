@@ -3,10 +3,71 @@ title: SetLicense
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 10
+weight: 20
 url: /net/aspose.words/license/setlicense/
 ---
 ## License.SetLicense method (1 of 2)
+
+Licenses the component.
+
+```csharp
+public void SetLicense(string licenseName)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| licenseName | String | Can be a full or short file name or name of an embedded resource. Use an empty string to switch to evaluation mode. |
+
+### Remarks
+
+Tries to find the license in the following locations:
+
+1. Explicit path.
+
+2. The folder that contains the Aspose component assembly.
+
+3. The folder that contains the client's calling assembly.
+
+4. The folder that contains the entry (startup) assembly.
+
+5. An embedded resource in the client's calling assembly.
+
+**Note:**On the .NET Compact Framework, tries to find the license only in these locations:
+
+1. Explicit path.
+
+2. An embedded resource in the client's calling assembly.
+
+### Examples
+
+Shows how initialize a license for Aspose.Words using a license file in the local file system.
+
+```csharp
+// Set the license for our Aspose.Words product by passing the local file system filename of a valid license file.
+string licenseFileName = Path.Combine(LicenseDir, "Aspose.Words.NET.lic");
+
+License license = new License();
+license.SetLicense(licenseFileName);
+
+// Create a copy of our license file in the binaries folder of our application.
+string licenseCopyFileName = Path.Combine(AssemblyDir, "Aspose.Words.NET.lic");
+File.Copy(licenseFileName, licenseCopyFileName);
+
+// If we pass a file's name without a path,
+// the SetLicense will search several local file system locations for this file.
+// One of those locations will be the "bin" folder, which contains a copy of our license file.
+license.SetLicense("Aspose.Words.NET.lic");
+```
+
+### See Also
+
+* class [License](../../license)
+* namespace [Aspose.Words](../../license)
+* assembly [Aspose.Words](../../../)
+
+---
+
+## License.SetLicense method (2 of 2)
 
 Licenses the component.
 
@@ -33,51 +94,6 @@ using (Stream myStream = File.OpenRead(Path.Combine(LicenseDir, "Aspose.Words.NE
     License license = new License();
     license.SetLicense(myStream);
 }
-```
-
-### See Also
-
-* class [License](../../license)
-* namespace [Aspose.Words](../../license)
-* assembly [Aspose.Words](../../../)
-
----
-
-## License.SetLicense method (2 of 2)
-
-Licenses the component.
-
-```csharp
-public void SetLicense(string licenseName)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| licenseName | String | Can be a full or short file name or name of an embedded resource. Use an empty string to switch to evaluation mode. |
-
-### Remarks
-
-Tries to find the license in the following locations:1. Explicit path.2. The folder that contains the Aspose component assembly.3. The folder that contains the client's calling assembly.4. The folder that contains the entry (startup) assembly.5. An embedded resource in the client's calling assembly.Note:On the .NET Compact Framework, tries to find the license only in these locations:1. Explicit path.2. An embedded resource in the client's calling assembly.
-
-### Examples
-
-Shows how initialize a license for Aspose.Words using a license file in the local file system.
-
-```csharp
-// Set the license for our Aspose.Words product by passing the local file system filename of a valid license file.
-string licenseFileName = Path.Combine(LicenseDir, "Aspose.Words.NET.lic");
-
-License license = new License();
-license.SetLicense(licenseFileName);
-
-// Create a copy of our license file in the binaries folder of our application.
-string licenseCopyFileName = Path.Combine(AssemblyDir, "Aspose.Words.NET.lic");
-File.Copy(licenseFileName, licenseCopyFileName);
-
-// If we pass a file's name without a path,
-// the SetLicense will search several local file system locations for this file.
-// One of those locations will be the "bin" folder, which contains a copy of our license file.
-license.SetLicense("Aspose.Words.NET.lic");
 ```
 
 ### See Also

@@ -3,7 +3,7 @@ title: LineUnitBefore
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 250
+weight: 220
 url: /net/aspose.words/paragraphformat/lineunitbefore/
 ---
 ## ParagraphFormat.LineUnitBefore property

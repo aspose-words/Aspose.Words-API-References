@@ -3,7 +3,7 @@ title: KnownTypeSet
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 4370
+weight: 4320
 url: /net/aspose.words.reporting/knowntypeset/
 ---
 ## KnownTypeSet class
@@ -14,15 +14,20 @@ Represents an unordered set (i.e. a collection of unique items) containing Type 
 public class KnownTypeSet : IEnumerable<Type>
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
 | [Count](count) { get; } | Gets the count of items in the set. |
-| [Add](add)(…) | Adds the specified Type object to the set. Throws ArgumentException in the following cases: |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [Add](add)(Type) | Adds the specified Type object to the set. Throws ArgumentException in the following cases: |
 | [Clear](clear)() | Removes all items from the set. |
 | [GetEnumerator](getenumerator)() | Returns An IEnumerator object to iterate over items of the set. |
-| [Remove](remove)(…) | Removes the specified Type object from the set. Throws ArgumentException if *type* is null. |
+| [Remove](remove)(Type) | Removes the specified Type object from the set. Throws ArgumentException if *type* is null. |
 
 ### See Also
 

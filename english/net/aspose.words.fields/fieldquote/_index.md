@@ -3,7 +3,7 @@ title: FieldQuote
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 2110
+weight: 2090
 url: /net/aspose.words.fields/fieldquote/
 ---
 ## FieldQuote class
@@ -14,11 +14,16 @@ Implements the QUOTE field.
 public class FieldQuote : Field
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [FieldQuote](fieldquote)() | The default constructor. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [Text](text) { get; set; } | Gets or sets the text to retrieve. |
 
 ### Remarks

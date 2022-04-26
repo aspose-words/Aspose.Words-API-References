@@ -3,7 +3,7 @@ title: Hidden
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 330
+weight: 140
 url: /net/aspose.words/font/hidden/
 ---
 ## Font.Hidden property

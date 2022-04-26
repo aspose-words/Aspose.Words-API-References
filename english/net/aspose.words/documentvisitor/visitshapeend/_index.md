@@ -3,7 +3,7 @@ title: VisitShapeEnd
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 310
+weight: 390
 url: /net/aspose.words/documentvisitor/visitshapeend/
 ---
 ## DocumentVisitor.VisitShapeEnd method

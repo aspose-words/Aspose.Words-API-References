@@ -3,7 +3,7 @@ title: Underline
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 6120
+weight: 6070
 url: /net/aspose.words/underline/
 ---
 ## Underline enumeration

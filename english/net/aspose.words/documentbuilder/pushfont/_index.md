@@ -3,7 +3,7 @@ title: PushFont
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 70
+weight: 570
 url: /net/aspose.words/documentbuilder/pushfont/
 ---
 ## DocumentBuilder.PushFont method

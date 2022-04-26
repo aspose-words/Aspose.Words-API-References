@@ -3,7 +3,7 @@ title: ForeColor
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 120
+weight: 30
 url: /net/aspose.words.drawing/fill/forecolor/
 ---
 ## Fill.ForeColor property

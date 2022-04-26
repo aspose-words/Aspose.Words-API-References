@@ -3,68 +3,10 @@ title: InsertOleObjectAsIcon
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 350
+weight: 380
 url: /net/aspose.words/documentbuilder/insertoleobjectasicon/
 ---
 ## DocumentBuilder.InsertOleObjectAsIcon method (1 of 3)
-
-Inserts an embedded OLE object as icon from a stream into the document. Allows to specify icon file and caption. Detects OLE object type using given progID parameter.
-
-```csharp
-public Shape InsertOleObjectAsIcon(Stream stream, string progId, string iconFile, 
-    string iconCaption)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| stream | Stream | Stream containing application data. |
-| progId | String | ProgId of OLE object. |
-| iconFile | String | Full path to the ICO file. If the value is null, Aspose.Words will use a predefined image. |
-| iconCaption | String | Icon caption. If the value is null, Aspose.Words will use the a predefined icon caption. |
-
-## Return Value
-
-Shape node containing Ole object and inserted at the current Builder position.
-
-### Examples
-
-Shows how to insert an embedded or linked OLE object as icon into the document.
-
-```csharp
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-
-// If 'iconFile' and 'iconCaption' are omitted, this overloaded method selects
-// the icon according to 'progId' and uses the filename for the icon caption.
-builder.InsertOleObjectAsIcon(MyDir + "Presentation.pptx", "Package", false, ImageDir + "Logo icon.ico", "My embedded file");
-
-builder.InsertBreak(BreakType.LineBreak);
-
-using (FileStream stream = new FileStream(MyDir + "Presentation.pptx", FileMode.Open))
-{
-    // If 'iconFile' and 'iconCaption' are omitted, this overloaded method selects
-    // the icon according to the file extension and uses the filename for the icon caption.
-    Shape shape = builder.InsertOleObjectAsIcon(stream, "PowerPoint.Application", ImageDir + "Logo icon.ico",
-        "My embedded file stream");
-
-    OlePackage setOlePackage = shape.OleFormat.OlePackage;
-    setOlePackage.FileName = "Presentation.pptx";
-    setOlePackage.DisplayName = "Presentation.pptx";
-}
-
-doc.Save(ArtifactsDir + "DocumentBuilder.InsertOleObjectAsIcon.docx");
-```
-
-### See Also
-
-* class [Shape](../../../aspose.words.drawing/shape)
-* class [DocumentBuilder](../../documentbuilder)
-* namespace [Aspose.Words](../../documentbuilder)
-* assembly [Aspose.Words](../../../)
-
----
-
-## DocumentBuilder.InsertOleObjectAsIcon method (2 of 3)
 
 Inserts an embedded or linked OLE object as icon into the document. Allows to specify icon file and caption. Detects OLE object type using file extension.
 
@@ -126,7 +68,7 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertOleObject.docx");
 
 ---
 
-## DocumentBuilder.InsertOleObjectAsIcon method (3 of 3)
+## DocumentBuilder.InsertOleObjectAsIcon method (2 of 3)
 
 Inserts an embedded or linked OLE object as icon into the document. Allows to specify icon file and caption. Detects OLE object type using given progID parameter.
 
@@ -142,6 +84,64 @@ public Shape InsertOleObjectAsIcon(string fileName, string progId, bool isLinked
 | isLinked | Boolean | If true then linked OLE object is inserted otherwise embedded OLE object is inserted. |
 | iconFile | String | Full path to the ICO file. If the value is null, Aspose.Words will use a predefined image. |
 | iconCaption | String | Icon caption. If the value is null, Aspose.Words will use the file name. |
+
+## Return Value
+
+Shape node containing Ole object and inserted at the current Builder position.
+
+### Examples
+
+Shows how to insert an embedded or linked OLE object as icon into the document.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+// If 'iconFile' and 'iconCaption' are omitted, this overloaded method selects
+// the icon according to 'progId' and uses the filename for the icon caption.
+builder.InsertOleObjectAsIcon(MyDir + "Presentation.pptx", "Package", false, ImageDir + "Logo icon.ico", "My embedded file");
+
+builder.InsertBreak(BreakType.LineBreak);
+
+using (FileStream stream = new FileStream(MyDir + "Presentation.pptx", FileMode.Open))
+{
+    // If 'iconFile' and 'iconCaption' are omitted, this overloaded method selects
+    // the icon according to the file extension and uses the filename for the icon caption.
+    Shape shape = builder.InsertOleObjectAsIcon(stream, "PowerPoint.Application", ImageDir + "Logo icon.ico",
+        "My embedded file stream");
+
+    OlePackage setOlePackage = shape.OleFormat.OlePackage;
+    setOlePackage.FileName = "Presentation.pptx";
+    setOlePackage.DisplayName = "Presentation.pptx";
+}
+
+doc.Save(ArtifactsDir + "DocumentBuilder.InsertOleObjectAsIcon.docx");
+```
+
+### See Also
+
+* class [Shape](../../../aspose.words.drawing/shape)
+* class [DocumentBuilder](../../documentbuilder)
+* namespace [Aspose.Words](../../documentbuilder)
+* assembly [Aspose.Words](../../../)
+
+---
+
+## DocumentBuilder.InsertOleObjectAsIcon method (3 of 3)
+
+Inserts an embedded OLE object as icon from a stream into the document. Allows to specify icon file and caption. Detects OLE object type using given progID parameter.
+
+```csharp
+public Shape InsertOleObjectAsIcon(Stream stream, string progId, string iconFile, 
+    string iconCaption)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| stream | Stream | Stream containing application data. |
+| progId | String | ProgId of OLE object. |
+| iconFile | String | Full path to the ICO file. If the value is null, Aspose.Words will use a predefined image. |
+| iconCaption | String | Icon caption. If the value is null, Aspose.Words will use the a predefined icon caption. |
 
 ## Return Value
 

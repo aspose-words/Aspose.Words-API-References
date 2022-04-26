@@ -3,7 +3,7 @@ title: FontConfigSubstitutionRule
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 2650
+weight: 2630
 url: /net/aspose.words.fonts/fontconfigsubstitutionrule/
 ---
 ## FontConfigSubstitutionRule class
@@ -14,11 +14,16 @@ Font config substitution rule.
 public class FontConfigSubstitutionRule : FontSubstitutionRule
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
 | override [Enabled](enabled) { set; } | Specifies whether the rule is enabled or not. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
 | [IsFontConfigAvailable](isfontconfigavailable)() | Check if fontconfig utility is available or not. |
 | [ResetCache](resetcache)() | Resets the cache of fontconfig calling results. |
 

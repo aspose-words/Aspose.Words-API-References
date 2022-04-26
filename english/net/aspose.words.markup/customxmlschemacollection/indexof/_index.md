@@ -3,7 +3,7 @@ title: IndexOf
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 30
+weight: 70
 url: /net/aspose.words.markup/customxmlschemacollection/indexof/
 ---
 ## CustomXmlSchemaCollection.IndexOf method

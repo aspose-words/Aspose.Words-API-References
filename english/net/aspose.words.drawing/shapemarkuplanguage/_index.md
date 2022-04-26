@@ -3,7 +3,7 @@ title: ShapeMarkupLanguage
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 1100
+weight: 1080
 url: /net/aspose.words.drawing/shapemarkuplanguage/
 ---
 ## ShapeMarkupLanguage enumeration

@@ -3,7 +3,7 @@ title: HeadingPairs
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 320
+weight: 110
 url: /net/aspose.words.properties/builtindocumentproperties/headingpairs/
 ---
 ## BuiltInDocumentProperties.HeadingPairs property

@@ -3,7 +3,7 @@ title: BiLevel
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 220
+weight: 10
 url: /net/aspose.words.drawing/imagedata/bilevel/
 ---
 ## ImageData.BiLevel property
@@ -16,7 +16,7 @@ public bool BiLevel { get; set; }
 
 ### Remarks
 
-The default value is false.
+The default value is **false**.
 
 ### Examples
 

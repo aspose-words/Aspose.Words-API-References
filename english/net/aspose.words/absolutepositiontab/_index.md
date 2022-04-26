@@ -14,11 +14,11 @@ An absolute position tab is a character which is used to advance the position on
 public class AbsolutePositionTab : SpecialChar
 ```
 
-## Public Members
+## Methods
 
 | Name | Description |
 | --- | --- |
-| override [Accept](accept)(…) | Accepts a visitor. |
+| override [Accept](accept)(DocumentVisitor) | Accepts a visitor. |
 
 ### Examples
 

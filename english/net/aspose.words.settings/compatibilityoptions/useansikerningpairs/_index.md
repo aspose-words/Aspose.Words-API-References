@@ -3,7 +3,7 @@ title: UseAnsiKerningPairs
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 650
+weight: 610
 url: /net/aspose.words.settings/compatibilityoptions/useansikerningpairs/
 ---
 ## CompatibilityOptions.UseAnsiKerningPairs property

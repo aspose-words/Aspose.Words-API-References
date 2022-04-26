@@ -16,7 +16,7 @@ public ComparisonEvaluationResult Evaluate(Field field, ComparisonExpression exp
 
 ### Remarks
 
-The implementation should return null to indicate that the default evaluation should be performed.
+The implementation should return **null** to indicate that the default evaluation should be performed.
 
 ### See Also
 

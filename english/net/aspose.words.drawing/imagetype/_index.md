@@ -3,7 +3,7 @@ title: ImageType
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 940
+weight: 920
 url: /net/aspose.words.drawing/imagetype/
 ---
 ## ImageType enumeration

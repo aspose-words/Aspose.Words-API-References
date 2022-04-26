@@ -3,7 +3,7 @@ title: FieldMergeSeq
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 1970
+weight: 1950
 url: /net/aspose.words.fields/fieldmergeseq/
 ---
 ## FieldMergeSeq class
@@ -14,7 +14,7 @@ Implements the MERGESEQ field.
 public class FieldMergeSeq : Field
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |

@@ -3,7 +3,7 @@ title: ShapeRenderer
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 4250
+weight: 4200
 url: /net/aspose.words.rendering/shaperenderer/
 ---
 ## ShapeRenderer class
@@ -14,11 +14,11 @@ Provides methods to render an individual [`Shape`](../../aspose.words.drawing/sh
 public class ShapeRenderer : NodeRendererBase
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
-| [ShapeRenderer](shaperenderer)(…) | Initializes a new instance of this class. |
+| [ShapeRenderer](shaperenderer)(ShapeBase) | Initializes a new instance of this class. |
 
 ### Examples
 

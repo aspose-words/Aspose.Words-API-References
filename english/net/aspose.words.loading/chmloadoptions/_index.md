@@ -3,7 +3,7 @@ title: ChmLoadOptions
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 3310
+weight: 3280
 url: /net/aspose.words.loading/chmloadoptions/
 ---
 ## ChmLoadOptions class
@@ -14,11 +14,16 @@ Allows to specify additional options when loading CHM document into a [`Document
 public class ChmLoadOptions : LoadOptions
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [ChmLoadOptions](chmloadoptions)() | Initializes a new instance of this class with default values. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [OriginalFileName](originalfilename) { get; set; } | The name of the CHM file. Default value is `null`. |
 
 ### See Also

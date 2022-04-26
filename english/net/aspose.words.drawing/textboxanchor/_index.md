@@ -3,7 +3,7 @@ title: TextBoxAnchor
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 1150
+weight: 1130
 url: /net/aspose.words.drawing/textboxanchor/
 ---
 ## TextBoxAnchor enumeration

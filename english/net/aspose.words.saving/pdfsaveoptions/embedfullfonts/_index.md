@@ -3,7 +3,7 @@ title: EmbedFullFonts
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 110
+weight: 100
 url: /net/aspose.words.saving/pdfsaveoptions/embedfullfonts/
 ---
 ## PdfSaveOptions.EmbedFullFonts property

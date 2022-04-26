@@ -3,12 +3,12 @@ title: ListItems
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 210
+weight: 180
 url: /net/aspose.words.markup/structureddocumenttag/listitems/
 ---
 ## StructuredDocumentTag.ListItems property
 
-Gets [`SdtListItemCollection`](../../sdtlistitemcollection) associated with this SDT.
+Gets [`SdtListItemCollection`](../../sdtlistitemcollection) associated with this **SDT**.
 
 ```csharp
 public SdtListItemCollection ListItems { get; }

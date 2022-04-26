@@ -3,7 +3,7 @@ title: DistanceRight
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 410
+weight: 150
 url: /net/aspose.words.drawing/shapebase/distanceright/
 ---
 ## ShapeBase.DistanceRight property
@@ -16,7 +16,9 @@ public double DistanceRight { get; set; }
 
 ### Remarks
 
-The default value is 1/8 inch.Has effect only for top level shapes.
+The default value is 1/8 inch.
+
+Has effect only for top level shapes.
 
 ### Examples
 

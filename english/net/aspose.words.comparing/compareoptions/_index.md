@@ -14,15 +14,20 @@ Allows to choose advanced options for document comparison operation.
 public class CompareOptions
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [CompareOptions](compareoptions)() | The default constructor. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [Granularity](granularity) { get; set; } | Specifies whether changes are tracked by character or by word. Default value is WordLevel. |
 | [IgnoreCaseChanges](ignorecasechanges) { get; set; } | True indicates that documents comparison is case insensitive. By default comparison is case sensitive. |
 | [IgnoreComments](ignorecomments) { get; set; } | Specifies whether to compare differences in comments. By default comments are not ignored. |
-| [IgnoreDmlUniqueId](ignoredmluniqueid) { get; set; } | Specifies whether to ignore difference in DrawingML unique Id. Default value is false. |
+| [IgnoreDmlUniqueId](ignoredmluniqueid) { get; set; } | Specifies whether to ignore difference in DrawingML unique Id. Default value is **false**. |
 | [IgnoreFields](ignorefields) { get; set; } | Specifies whether to compare differences in fields. By default fields are not ignored. |
 | [IgnoreFootnotes](ignorefootnotes) { get; set; } | Specifies whether to compare differences in footnotes and endnotes. By default footnotes are not ignored. |
 | [IgnoreFormatting](ignoreformatting) { get; set; } | True indicates that formatting is ignored. By default document formatting is not ignored. |

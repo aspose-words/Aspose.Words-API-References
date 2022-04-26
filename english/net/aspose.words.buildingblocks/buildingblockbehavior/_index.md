@@ -25,7 +25,7 @@ public enum BuildingBlockBehavior
 
 ### Remarks
 
-Corresponds to the ST_DocPartBehavior type in OOXML.
+Corresponds to the **ST_DocPartBehavior** type in OOXML.
 
 ### Examples
 

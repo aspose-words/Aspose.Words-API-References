@@ -3,7 +3,7 @@ title: Subject
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 230
+weight: 260
 url: /net/aspose.words.properties/builtindocumentproperties/subject/
 ---
 ## BuiltInDocumentProperties.Subject property

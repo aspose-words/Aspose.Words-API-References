@@ -3,7 +3,7 @@ title: JoinRunsWithSameFormatting
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 20
+weight: 280
 url: /net/aspose.words/paragraph/joinrunswithsameformatting/
 ---
 ## Paragraph.JoinRunsWithSameFormatting method
@@ -16,7 +16,7 @@ public int JoinRunsWithSameFormatting()
 
 ## Return Value
 
-Number of joins performed. When N adjacent runs are being joined they count as N - 1 joins.
+Number of joins performed. When **N** adjacent runs are being joined they count as **N - 1** joins.
 
 ### Examples
 

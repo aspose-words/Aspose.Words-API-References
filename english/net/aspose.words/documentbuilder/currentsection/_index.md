@@ -3,7 +3,7 @@ title: CurrentSection
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 630
+weight: 60
 url: /net/aspose.words/documentbuilder/currentsection/
 ---
 ## DocumentBuilder.CurrentSection property

@@ -3,7 +3,7 @@ title: TextInputFormat
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 160
+weight: 200
 url: /net/aspose.words.fields/formfield/textinputformat/
 ---
 ## FormField.TextInputFormat property
@@ -16,7 +16,11 @@ public string TextInputFormat { get; set; }
 
 ### Remarks
 
-If the text form field contains regular text, then valid format strings are "", "UPPERCASE", "LOWERCASE", "FIRST CAPITAL" and "TITLE CASE". The strings are case-insensitive.If the text form field contains a number or a date/time value, then valid format strings are number or date and time format strings.Microsoft Word allows strings with at most 64 characters.
+If the text form field contains regular text, then valid format strings are "", "UPPERCASE", "LOWERCASE", "FIRST CAPITAL" and "TITLE CASE". The strings are case-insensitive.
+
+If the text form field contains a number or a date/time value, then valid format strings are number or date and time format strings.
+
+Microsoft Word allows strings with at most 64 characters.
 
 ### Examples
 

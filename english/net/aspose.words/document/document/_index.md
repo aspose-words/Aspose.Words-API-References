@@ -3,7 +3,7 @@ title: Document
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 290
+weight: 10
 url: /net/aspose.words/document/document/
 ---
 ## Document constructor (1 of 5)
@@ -16,7 +16,9 @@ public Document()
 
 ### Remarks
 
-The document paper size is Letter by default. If you want to change page setup, use [`Section.PageSetup`](../../section/pagesetup).After creation, you can use [`DocumentBuilder`](../../documentbuilder) to add document content easily.
+The document paper size is Letter by default. If you want to change page setup, use [`Section.PageSetup`](../../section/pagesetup).
+
+After creation, you can use [`DocumentBuilder`](../../documentbuilder) to add document content easily.
 
 ### Examples
 
@@ -68,82 +70,6 @@ Assert.AreEqual("Test encrypted document.", doc.FirstSection.Body.FirstParagraph
 ---
 
 ## Document constructor (2 of 5)
-
-Opens an existing document from a stream. Automatically detects the file format.
-
-```csharp
-public Document(Stream stream)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| stream | Stream | Stream where to load the document from. |
-
-### Exceptions
-
-| exception | condition |
-| --- | --- |
-| [UnsupportedFileFormatException](../../unsupportedfileformatexception) | The document format is not recognized or not supported. |
-| [FileCorruptedException](../../filecorruptedexception) | The document appears to be corrupted and cannot be loaded. |
-| Exception | There is a problem with the document and it should be reported to Aspose.Words developers. |
-| IOException | There is an input/output exception. |
-| [IncorrectPasswordException](../../incorrectpasswordexception) | The document is encrypted and requires a password to open, but you supplied an incorrect password. |
-| ArgumentNullException | The stream cannot be null. |
-| NotSupportedException | The stream does not support reading or seeking. |
-| ObjectDisposedException | The stream is a disposed object. |
-
-### Remarks
-
-The document must be stored at the beginning of the stream. The stream must support random positioning.
-
-### Examples
-
-Shows how to load a document using a stream.
-
-```csharp
-using (Stream stream = File.OpenRead(MyDir + "Document.docx"))
-{
-    Document doc = new Document(stream);
-
-    Assert.AreEqual("Hello World!\r\rHello Word!\r\r\rHello World!", doc.GetText().Trim());
-}
-```
-
-Shows how to load a document from a URL.
-
-```csharp
-// Create a URL that points to a Microsoft Word document.
-const string url = "https://omextemplates.content.office.net/support/templates/en-us/tf16402488.dotx";
-
-// Download the document into a byte array, then load that array into a document using a memory stream.
-using (WebClient webClient = new WebClient())
-{
-    byte[] dataBytes = webClient.DownloadData(url);
-
-    using (MemoryStream byteStream = new MemoryStream(dataBytes))
-    {
-        Document doc = new Document(byteStream);
-
-        // At this stage, we can read and edit the document's contents and then save it to the local file system.
-        Assert.AreEqual("Use this section to highlight your relevant passions, activities, and how you like to give back. " +
-                        "It’s good to include Leadership and volunteer experiences here. " +
-                        "Or show off important extras like publications, certifications, languages and more.",
-            doc.FirstSection.Body.Paragraphs[4].GetText().Trim());
-
-        doc.Save(ArtifactsDir + "Document.LoadFromWeb.docx");
-    }
-}
-```
-
-### See Also
-
-* class [Document](../../document)
-* namespace [Aspose.Words](../../document)
-* assembly [Aspose.Words](../../../)
-
----
-
-## Document constructor (3 of 5)
 
 Opens an existing document from a file. Automatically detects the file format.
 
@@ -225,7 +151,164 @@ Assert.AreEqual("Hello world!", textFragmentAbsorber.Text.Trim());
 
 ---
 
+## Document constructor (3 of 5)
+
+Opens an existing document from a file. Allows to specify additional options such as an encryption password.
+
+```csharp
+public Document(string fileName, LoadOptions loadOptions)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| fileName | String | File name of the document to open. |
+| loadOptions | LoadOptions | Additional options to use when loading a document. Can be null. |
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| [UnsupportedFileFormatException](../../unsupportedfileformatexception) | The document format is not recognized or not supported. |
+| [FileCorruptedException](../../filecorruptedexception) | The document appears to be corrupted and cannot be loaded. |
+| Exception | There is a problem with the document and it should be reported to Aspose.Words developers. |
+| IOException | There is an input/output exception. |
+| [IncorrectPasswordException](../../incorrectpasswordexception) | The document is encrypted and requires a password to open, but you supplied an incorrect password. |
+| ArgumentException | The name of the file cannot be null or empty string. |
+
+### Examples
+
+Shows how to load an encrypted Microsoft Word document.
+
+```csharp
+Document doc;
+
+// Aspose.Words throw an exception if we try to open an encrypted document without its password.
+Assert.Throws<IncorrectPasswordException>(() => doc = new Document(MyDir + "Encrypted.docx"));
+
+// When loading such a document, the password is passed to the document's constructor using a LoadOptions object.
+LoadOptions options = new LoadOptions("docPassword");
+
+// There are two ways of loading an encrypted document with a LoadOptions object.
+// 1 -  Load the document from the local file system by filename:
+doc = new Document(MyDir + "Encrypted.docx", options);
+
+// 2 -  Load the document from a stream:
+using (Stream stream = File.OpenRead(MyDir + "Encrypted.docx"))
+{
+    doc = new Document(stream, options);
+}
+```
+
+Shows how to create and load documents.
+
+```csharp
+// There are two ways of creating a Document object using Aspose.Words.
+// 1 -  Create a blank document:
+Document doc = new Document();
+
+// New Document objects by default come with the minimal set of nodes
+// required to begin adding content such as text and shapes: a Section, a Body, and a Paragraph.
+doc.FirstSection.Body.FirstParagraph.AppendChild(new Run(doc, "Hello world!"));
+
+// 2 -  Load a document that exists in the local file system:
+doc = new Document(MyDir + "Document.docx");
+
+// Loaded documents will have contents that we can access and edit.
+Assert.AreEqual("Hello World!", doc.FirstSection.Body.FirstParagraph.GetText().Trim());
+
+// Some operations that need to occur during loading, such as using a password to decrypt a document,
+// can be done by passing a LoadOptions object when loading the document.
+doc = new Document(MyDir + "Encrypted.docx", new LoadOptions("docPassword"));
+
+Assert.AreEqual("Test encrypted document.", doc.FirstSection.Body.FirstParagraph.GetText().Trim());
+```
+
+### See Also
+
+* class [LoadOptions](../../../aspose.words.loading/loadoptions)
+* class [Document](../../document)
+* namespace [Aspose.Words](../../document)
+* assembly [Aspose.Words](../../../)
+
+---
+
 ## Document constructor (4 of 5)
+
+Opens an existing document from a stream. Automatically detects the file format.
+
+```csharp
+public Document(Stream stream)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| stream | Stream | Stream where to load the document from. |
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| [UnsupportedFileFormatException](../../unsupportedfileformatexception) | The document format is not recognized or not supported. |
+| [FileCorruptedException](../../filecorruptedexception) | The document appears to be corrupted and cannot be loaded. |
+| Exception | There is a problem with the document and it should be reported to Aspose.Words developers. |
+| IOException | There is an input/output exception. |
+| [IncorrectPasswordException](../../incorrectpasswordexception) | The document is encrypted and requires a password to open, but you supplied an incorrect password. |
+| ArgumentNullException | The stream cannot be null. |
+| NotSupportedException | The stream does not support reading or seeking. |
+| ObjectDisposedException | The stream is a disposed object. |
+
+### Remarks
+
+The document must be stored at the beginning of the stream. The stream must support random positioning.
+
+### Examples
+
+Shows how to load a document using a stream.
+
+```csharp
+using (Stream stream = File.OpenRead(MyDir + "Document.docx"))
+{
+    Document doc = new Document(stream);
+
+    Assert.AreEqual("Hello World!\r\rHello Word!\r\r\rHello World!", doc.GetText().Trim());
+}
+```
+
+Shows how to load a document from a URL.
+
+```csharp
+// Create a URL that points to a Microsoft Word document.
+const string url = "https://omextemplates.content.office.net/support/templates/en-us/tf16402488.dotx";
+
+// Download the document into a byte array, then load that array into a document using a memory stream.
+using (WebClient webClient = new WebClient())
+{
+    byte[] dataBytes = webClient.DownloadData(url);
+
+    using (MemoryStream byteStream = new MemoryStream(dataBytes))
+    {
+        Document doc = new Document(byteStream);
+
+        // At this stage, we can read and edit the document's contents and then save it to the local file system.
+        Assert.AreEqual("Use this section to highlight your relevant passions, activities, and how you like to give back. " +
+                        "It’s good to include Leadership and volunteer experiences here. " +
+                        "Or show off important extras like publications, certifications, languages and more.",
+            doc.FirstSection.Body.Paragraphs[4].GetText().Trim());
+
+        doc.Save(ArtifactsDir + "Document.LoadFromWeb.docx");
+    }
+}
+```
+
+### See Also
+
+* class [Document](../../document)
+* namespace [Aspose.Words](../../document)
+* assembly [Aspose.Words](../../../)
+
+---
+
+## Document constructor (5 of 5)
 
 Opens an existing document from a stream. Allows to specify additional options such as an encryption password.
 
@@ -321,87 +404,6 @@ using (Stream stream = File.OpenRead(MyDir + "Encrypted.docx"))
 {
     doc = new Document(stream, options);
 }
-```
-
-### See Also
-
-* class [LoadOptions](../../../aspose.words.loading/loadoptions)
-* class [Document](../../document)
-* namespace [Aspose.Words](../../document)
-* assembly [Aspose.Words](../../../)
-
----
-
-## Document constructor (5 of 5)
-
-Opens an existing document from a file. Allows to specify additional options such as an encryption password.
-
-```csharp
-public Document(string fileName, LoadOptions loadOptions)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| fileName | String | File name of the document to open. |
-| loadOptions | LoadOptions | Additional options to use when loading a document. Can be null. |
-
-### Exceptions
-
-| exception | condition |
-| --- | --- |
-| [UnsupportedFileFormatException](../../unsupportedfileformatexception) | The document format is not recognized or not supported. |
-| [FileCorruptedException](../../filecorruptedexception) | The document appears to be corrupted and cannot be loaded. |
-| Exception | There is a problem with the document and it should be reported to Aspose.Words developers. |
-| IOException | There is an input/output exception. |
-| [IncorrectPasswordException](../../incorrectpasswordexception) | The document is encrypted and requires a password to open, but you supplied an incorrect password. |
-| ArgumentException | The name of the file cannot be null or empty string. |
-
-### Examples
-
-Shows how to load an encrypted Microsoft Word document.
-
-```csharp
-Document doc;
-
-// Aspose.Words throw an exception if we try to open an encrypted document without its password.
-Assert.Throws<IncorrectPasswordException>(() => doc = new Document(MyDir + "Encrypted.docx"));
-
-// When loading such a document, the password is passed to the document's constructor using a LoadOptions object.
-LoadOptions options = new LoadOptions("docPassword");
-
-// There are two ways of loading an encrypted document with a LoadOptions object.
-// 1 -  Load the document from the local file system by filename:
-doc = new Document(MyDir + "Encrypted.docx", options);
-
-// 2 -  Load the document from a stream:
-using (Stream stream = File.OpenRead(MyDir + "Encrypted.docx"))
-{
-    doc = new Document(stream, options);
-}
-```
-
-Shows how to create and load documents.
-
-```csharp
-// There are two ways of creating a Document object using Aspose.Words.
-// 1 -  Create a blank document:
-Document doc = new Document();
-
-// New Document objects by default come with the minimal set of nodes
-// required to begin adding content such as text and shapes: a Section, a Body, and a Paragraph.
-doc.FirstSection.Body.FirstParagraph.AppendChild(new Run(doc, "Hello world!"));
-
-// 2 -  Load a document that exists in the local file system:
-doc = new Document(MyDir + "Document.docx");
-
-// Loaded documents will have contents that we can access and edit.
-Assert.AreEqual("Hello World!", doc.FirstSection.Body.FirstParagraph.GetText().Trim());
-
-// Some operations that need to occur during loading, such as using a password to decrypt a document,
-// can be done by passing a LoadOptions object when loading the document.
-doc = new Document(MyDir + "Encrypted.docx", new LoadOptions("docPassword"));
-
-Assert.AreEqual("Test encrypted document.", doc.FirstSection.Body.FirstParagraph.GetText().Trim());
 ```
 
 ### See Also

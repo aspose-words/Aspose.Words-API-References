@@ -3,7 +3,7 @@ title: InsertBefore
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 100
+weight: 150
 url: /net/aspose.words/compositenode/insertbefore/
 ---
 ## CompositeNode.InsertBefore method
@@ -27,7 +27,9 @@ The inserted node.
 
 If refChild is null, inserts newChild at the end of the list of child nodes.
 
-If the newChild is already in the tree, it is first removed.If the node being inserted was created from another document, you should use [`ImportNode`](../../documentbase/importnode) to import the node to the current document. The imported node can then be inserted into the current document.
+If the newChild is already in the tree, it is first removed.
+
+If the node being inserted was created from another document, you should use [`ImportNode`](../../documentbase/importnode) to import the node to the current document. The imported node can then be inserted into the current document.
 
 ### Examples
 

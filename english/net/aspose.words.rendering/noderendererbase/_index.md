@@ -3,7 +3,7 @@ title: NodeRendererBase
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 4220
+weight: 4170
 url: /net/aspose.words.rendering/noderendererbase/
 ---
 ## NodeRendererBase class
@@ -14,19 +14,28 @@ Base class for [`ShapeRenderer`](../shaperenderer) and [`OfficeMathRenderer`](..
 public abstract class NodeRendererBase
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
 | [BoundsInPoints](boundsinpoints) { get; } | Gets the actual bounds of the shape in points. |
 | [OpaqueBoundsInPoints](opaqueboundsinpoints) { get; } | Gets the opaque bounds of the shape in points. |
 | [SizeInPoints](sizeinpoints) { get; } | Gets the actual size of the shape in points. |
-| [GetBoundsInPixels](getboundsinpixels)(…) | Calculates the bounds of the shape in pixels for a specified zoom factor and resolution. (2 methods) |
-| [GetOpaqueBoundsInPixels](getopaqueboundsinpixels)(…) | Calculates the opaque bounds of the shape in pixels for a specified zoom factor and resolution. (2 methods) |
-| [GetSizeInPixels](getsizeinpixels)(…) | Calculates the size of the shape in pixels for a specified zoom factor and resolution. (2 methods) |
-| [RenderToScale](rendertoscale)(…) |  |
-| [RenderToSize](rendertosize)(…) |  |
-| [Save](save)(…) | Renders the shape into an image and saves into a file. (2 methods) |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [GetBoundsInPixels](getboundsinpixels)(float, float) | Calculates the bounds of the shape in pixels for a specified zoom factor and resolution. |
+| [GetBoundsInPixels](getboundsinpixels)(float, float, float) | Calculates the bounds of the shape in pixels for a specified zoom factor and resolution. |
+| [GetOpaqueBoundsInPixels](getopaqueboundsinpixels)(float, float) | Calculates the opaque bounds of the shape in pixels for a specified zoom factor and resolution. |
+| [GetOpaqueBoundsInPixels](getopaqueboundsinpixels)(float, float, float) | Calculates the opaque bounds of the shape in pixels for a specified zoom factor and resolution. |
+| [GetSizeInPixels](getsizeinpixels)(float, float) | Calculates the size of the shape in pixels for a specified zoom factor and resolution. |
+| [GetSizeInPixels](getsizeinpixels)(float, float, float) | Calculates the size of the shape in pixels for a specified zoom factor and resolution. |
+| [RenderToScale](rendertoscale)(SKCanvas, float, float, float) |  |
+| [RenderToSize](rendertosize)(SKCanvas, float, float, float, float) |  |
+| [Save](save)(Stream, ImageSaveOptions) | Renders the shape into an image and saves into a stream. |
+| [Save](save)(string, ImageSaveOptions) | Renders the shape into an image and saves into a file. |
 
 ### Examples
 

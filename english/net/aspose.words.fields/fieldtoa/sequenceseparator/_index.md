@@ -3,7 +3,7 @@ title: SequenceSeparator
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 40
+weight: 90
 url: /net/aspose.words.fields/fieldtoa/sequenceseparator/
 ---
 ## FieldToa.SequenceSeparator property

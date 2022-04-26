@@ -3,7 +3,7 @@ title: Lf
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 30
+weight: 110
 url: /net/aspose.words/controlchar/lf/
 ---
 ## ControlChar.Lf field

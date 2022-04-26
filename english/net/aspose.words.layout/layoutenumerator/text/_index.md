@@ -3,7 +3,7 @@ title: Text
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 130
+weight: 70
 url: /net/aspose.words.layout/layoutenumerator/text/
 ---
 ## LayoutEnumerator.Text property

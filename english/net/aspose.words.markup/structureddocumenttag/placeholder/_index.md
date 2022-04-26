@@ -3,7 +3,7 @@ title: Placeholder
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 80
+weight: 230
 url: /net/aspose.words.markup/structureddocumenttag/placeholder/
 ---
 ## StructuredDocumentTag.Placeholder property

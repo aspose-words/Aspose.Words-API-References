@@ -3,7 +3,7 @@ title: Equals
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 20
+weight: 170
 url: /net/aspose.words/style/equals/
 ---
 ## Style.Equals method

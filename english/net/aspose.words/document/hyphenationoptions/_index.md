@@ -3,7 +3,7 @@ title: HyphenationOptions
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 510
+weight: 210
 url: /net/aspose.words/document/hyphenationoptions/
 ---
 ## Document.HyphenationOptions property

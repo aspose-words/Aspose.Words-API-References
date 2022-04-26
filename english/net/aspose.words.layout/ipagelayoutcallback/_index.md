@@ -3,7 +3,7 @@ title: IPageLayoutCallback
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 3050
+weight: 3030
 url: /net/aspose.words.layout/ipagelayoutcallback/
 ---
 ## IPageLayoutCallback interface
@@ -14,11 +14,11 @@ Implement this interface if you want to have your own custom method called durin
 public interface IPageLayoutCallback
 ```
 
-## Members
+## Methods
 
 | Name | Description |
 | --- | --- |
-| [Notify](notify)(…) | This is called to notify of layout build and rendering progress. |
+| [Notify](notify)(PageLayoutCallbackArgs) | This is called to notify of layout build and rendering progress. |
 
 ### Remarks
 

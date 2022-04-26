@@ -3,7 +3,7 @@ title: HRef
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 110
+weight: 220
 url: /net/aspose.words.drawing/shapebase/href/
 ---
 ## ShapeBase.HRef property
@@ -16,11 +16,21 @@ public string HRef { get; set; }
 
 ### Remarks
 
-The default value is an empty string.Below are examples of valid values for this property:Full URI: `https://www.aspose.com/`.Full file name: `C:\\My Documents\\SalesReport.doc`.
+The default value is an empty string.
+
+Below are examples of valid values for this property:
+
+Full URI: `https://www.aspose.com/`.
+
+Full file name: `C:\\My Documents\\SalesReport.doc`.
 
 Relative URI: `../../../resource.txt`
 
-Relative file name: `..\\My Documents\\SalesReport.doc`.Bookmark within another document: `https://www.aspose.com/Products/Default.aspx#Suites`Bookmark within this document: `#BookmakName`.
+Relative file name: `..\\My Documents\\SalesReport.doc`.
+
+Bookmark within another document: `https://www.aspose.com/Products/Default.aspx#Suites`
+
+Bookmark within this document: `#BookmakName`.
 
 ### Examples
 

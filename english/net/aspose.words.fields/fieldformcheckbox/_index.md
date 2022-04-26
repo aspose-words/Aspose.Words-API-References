@@ -3,7 +3,7 @@ title: FieldFormCheckBox
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 1710
+weight: 1690
 url: /net/aspose.words.fields/fieldformcheckbox/
 ---
 ## FieldFormCheckBox class
@@ -14,7 +14,7 @@ Implements the FORMCHECKBOX field.
 public class FieldFormCheckBox : Field
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |

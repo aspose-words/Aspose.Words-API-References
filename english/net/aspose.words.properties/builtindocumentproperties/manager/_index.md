@@ -3,7 +3,7 @@ title: Manager
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 170
+weight: 200
 url: /net/aspose.words.properties/builtindocumentproperties/manager/
 ---
 ## BuiltInDocumentProperties.Manager property

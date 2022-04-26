@@ -3,7 +3,7 @@ title: StartTrackRevisions
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 220
+weight: 680
 url: /net/aspose.words/document/starttrackrevisions/
 ---
 ## Document.StartTrackRevisions method (1 of 2)
@@ -11,16 +11,23 @@ url: /net/aspose.words/document/starttrackrevisions/
 Starts automatically marking all further changes you make to the document programmatically as revision changes.
 
 ```csharp
-public void StartTrackRevisions(string author)
+public void StartTrackRevisions(string author, DateTime dateTime)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | author | String | Initials of the author to use for revisions. |
+| dateTime | DateTime | The date and time to use for revisions. |
 
 ### Remarks
 
-If you call this method and then make some changes to the document programmatically, save the document and later open the document in MS Word you will see these changes as revisions.Currently Aspose.Words supports tracking of node insertions and deletions only. Formatting changes are not recorded as revisions.Automatic tracking of changes is supported both when modifying this document through node manipulations as well as when using [`DocumentBuilder`](../../documentbuilder)This method does not change the [`TrackRevisions`](../trackrevisions) option and does not use its value for the purposes of revision tracking.
+If you call this method and then make some changes to the document programmatically, save the document and later open the document in MS Word you will see these changes as revisions.
+
+Currently Aspose.Words supports tracking of node insertions and deletions only. Formatting changes are not recorded as revisions.
+
+Automatic tracking of changes is supported both when modifying this document through node manipulations as well as when using [`DocumentBuilder`](../../documentbuilder)
+
+This method does not change the [`TrackRevisions`](../trackrevisions) option and does not use its value for the purposes of revision tracking.
 
 ### Examples
 
@@ -81,17 +88,22 @@ doc.Save(ArtifactsDir + "Document.StartTrackRevisions.docx");
 Starts automatically marking all further changes you make to the document programmatically as revision changes.
 
 ```csharp
-public void StartTrackRevisions(string author, DateTime dateTime)
+public void StartTrackRevisions(string author)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | author | String | Initials of the author to use for revisions. |
-| dateTime | DateTime | The date and time to use for revisions. |
 
 ### Remarks
 
-If you call this method and then make some changes to the document programmatically, save the document and later open the document in MS Word you will see these changes as revisions.Currently Aspose.Words supports tracking of node insertions and deletions only. Formatting changes are not recorded as revisions.Automatic tracking of changes is supported both when modifying this document through node manipulations as well as when using [`DocumentBuilder`](../../documentbuilder)This method does not change the [`TrackRevisions`](../trackrevisions) option and does not use its value for the purposes of revision tracking.
+If you call this method and then make some changes to the document programmatically, save the document and later open the document in MS Word you will see these changes as revisions.
+
+Currently Aspose.Words supports tracking of node insertions and deletions only. Formatting changes are not recorded as revisions.
+
+Automatic tracking of changes is supported both when modifying this document through node manipulations as well as when using [`DocumentBuilder`](../../documentbuilder)
+
+This method does not change the [`TrackRevisions`](../trackrevisions) option and does not use its value for the purposes of revision tracking.
 
 ### Examples
 

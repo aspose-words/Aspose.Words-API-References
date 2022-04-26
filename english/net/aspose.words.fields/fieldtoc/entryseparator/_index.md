@@ -3,7 +3,7 @@ title: EntrySeparator
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 120
+weight: 70
 url: /net/aspose.words.fields/fieldtoc/entryseparator/
 ---
 ## FieldToc.EntrySeparator property

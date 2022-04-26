@@ -3,7 +3,7 @@ title: LoadOptions
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 3400
+weight: 3370
 url: /net/aspose.words.loading/loadoptions/
 ---
 ## LoadOptions class
@@ -14,12 +14,18 @@ Allows to specify additional options (such as password or base URI) when loading
 public class LoadOptions
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [LoadOptions](loadoptions)() | Initializes a new instance of this class with default values. |
-| [LoadOptions](loadoptions)(…) | A shortcut to initialize a new instance of this class with the specified password to load an encrypted document. (2 constructors) |
+| [LoadOptions](loadoptions)(string) | A shortcut to initialize a new instance of this class with the specified password to load an encrypted document. |
+| [LoadOptions](loadoptions)(LoadFormat, string, string) | A shortcut to initialize a new instance of this class with properties set to the specified values. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [BaseUri](baseuri) { get; set; } | Gets or sets the string that will be used to resolve relative URIs found in the document into absolute URIs when required. Can be null or empty string. Default is null. |
 | [ConvertMetafilesToPng](convertmetafilestopng) { get; set; } | Gets or sets whether to convert metafile (Wmf or Emf) images to Png image format. |
 | [ConvertShapeToOfficeMath](convertshapetoofficemath) { get; set; } | Gets or sets whether to convert shapes with EquationXML to Office Math objects. |

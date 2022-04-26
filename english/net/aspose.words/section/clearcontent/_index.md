@@ -3,7 +3,7 @@ title: ClearContent
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 50
+weight: 90
 url: /net/aspose.words/section/clearcontent/
 ---
 ## Section.ClearContent method
@@ -16,7 +16,9 @@ public void ClearContent()
 
 ### Remarks
 
-The text of [`Body`](../body) is cleared, only one empty paragraph is left that represents the section break.The text of all headers and footers is cleared, but [`HeaderFooter`](../../headerfooter) objects themselves are not removed.
+The text of [`Body`](../body) is cleared, only one empty paragraph is left that represents the section break.
+
+The text of all headers and footers is cleared, but [`HeaderFooter`](../../headerfooter) objects themselves are not removed.
 
 ### Examples
 

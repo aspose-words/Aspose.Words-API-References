@@ -3,7 +3,7 @@ title: Scaling
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 360
+weight: 310
 url: /net/aspose.words/font/scaling/
 ---
 ## Font.Scaling property

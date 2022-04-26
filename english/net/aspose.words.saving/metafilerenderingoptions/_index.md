@@ -3,7 +3,7 @@ title: MetafileRenderingOptions
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 4930
+weight: 4880
 url: /net/aspose.words.saving/metafilerenderingoptions/
 ---
 ## MetafileRenderingOptions class
@@ -14,11 +14,16 @@ Allows to specify additional metafile rendering options.
 public class MetafileRenderingOptions
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [MetafileRenderingOptions](metafilerenderingoptions)() | The default constructor. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [EmfPlusDualRenderingMode](emfplusdualrenderingmode) { get; set; } | Gets or sets a value determining how EMF+ Dual metafiles should be rendered. |
 | [EmulateRasterOperations](emulaterasteroperations) { get; set; } | Gets or sets a value determining whether or not the raster operations should be emulated. |
 | [RenderingMode](renderingmode) { get; set; } | Gets or sets a value determining how metafile images should be rendered. |

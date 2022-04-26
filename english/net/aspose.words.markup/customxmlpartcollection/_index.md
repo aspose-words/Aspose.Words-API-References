@@ -3,7 +3,7 @@ title: CustomXmlPartCollection
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 3630
+weight: 3600
 url: /net/aspose.words.markup/customxmlpartcollection/
 ---
 ## CustomXmlPartCollection class
@@ -14,19 +14,30 @@ Represents a collection of Custom XML Parts. The items are [`CustomXmlPart`](../
 public class CustomXmlPartCollection : IEnumerable<CustomXmlPart>
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [CustomXmlPartCollection](customxmlpartcollection)() | The default constructor. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [Count](count) { get; } | Gets the number of elements contained in the collection. |
 | [Item](item) { get; set; } | Gets or sets an item at the specified index. |
-| [Add](add)(…) | Adds an item to the collection. (2 methods) |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [Add](add)(CustomXmlPart) | Adds an item to the collection. |
+| [Add](add)(string, string) | Creates a new XML part with the specified XML and adds it to the collection. |
 | [Clear](clear)() | Removes all elements from the collection. |
 | [Clone](clone)() | Makes a deep copy of this collection and its items. |
-| [GetById](getbyid)(…) | Finds and returns a custom XML part by its identifier. |
+| [GetById](getbyid)(string) | Finds and returns a custom XML part by its identifier. |
 | [GetEnumerator](getenumerator)() | Returns an enumerator object that can be used to iterate over all items in the collection. |
-| [RemoveAt](removeat)(…) | Removes an item at the specified index. |
+| [RemoveAt](removeat)(int) | Removes an item at the specified index. |
 
 ### Remarks
 

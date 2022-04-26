@@ -3,7 +3,7 @@ title: LayoutEntityType
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 3070
+weight: 3050
 url: /net/aspose.words.layout/layoutentitytype/
 ---
 ## LayoutEntityType enumeration
@@ -19,20 +19,20 @@ public enum LayoutEntityType
 
 | Name | Value | Description |
 | --- | --- | --- |
-| None | `0x0` | Default value. |
-| Page | `0x1` | Represents page of a document. Page may have Column, HeaderFooter and Comment child entities. |
-| Column | `0x2` | Represents a column of text on a page. Column may have the same child entities as Cell, plus Footnote, Endnote and NoteSeparator entities. |
-| Row | `0x8` | Represents a table row. Row may have Cell as child entities. |
-| Cell | `0x10` | Represents a table cell. Cell may have Line and Row child entities. |
-| Line | `0x20` | Represents line of characters of text and inline objects. Line may have Span child entities. |
-| Span | `0x40` | Represents one or more characters in a line. This include special characters like field start/end markers, bookmarks and comments. Span may not have child entities. |
-| Footnote | `0x100` | Represents placeholder for footnote content. Footnote may have Note child entities. |
-| Endnote | `0x200` | Represents placeholder for endnote content. Endnote may have Note child entities. |
-| Note | `0x4000` | Represents placeholder for note content. Note may have Line and Row child entities. |
-| HeaderFooter | `0x400` | Represents placeholder for header/footer content on a page. HeaderFooter may have Line and Row child entities. |
-| TextBox | `0x800` | Represents text area inside of a shape. Textbox may have Line and Row child entities. |
-| Comment | `0x1000` | Represents placeholder for comment content. Comment may have Line and Row child entities. |
-| NoteSeparator | `0x2000` | Represents footnote/endnote separator. NoteSeparator may have Line and Row child entities. |
+| None | `0` | Default value. |
+| Page | `1` | Represents page of a document. Page may have Column, HeaderFooter and Comment child entities. |
+| Column | `2` | Represents a column of text on a page. Column may have the same child entities as Cell, plus Footnote, Endnote and NoteSeparator entities. |
+| Row | `8` | Represents a table row. Row may have Cell as child entities. |
+| Cell | `10` | Represents a table cell. Cell may have Line and Row child entities. |
+| Line | `20` | Represents line of characters of text and inline objects. Line may have Span child entities. |
+| Span | `40` | Represents one or more characters in a line. This include special characters like field start/end markers, bookmarks and comments. Span may not have child entities. |
+| Footnote | `100` | Represents placeholder for footnote content. Footnote may have Note child entities. |
+| Endnote | `200` | Represents placeholder for endnote content. Endnote may have Note child entities. |
+| Note | `4000` | Represents placeholder for note content. Note may have Line and Row child entities. |
+| HeaderFooter | `400` | Represents placeholder for header/footer content on a page. HeaderFooter may have Line and Row child entities. |
+| TextBox | `800` | Represents text area inside of a shape. Textbox may have Line and Row child entities. |
+| Comment | `1000` | Represents placeholder for comment content. Comment may have Line and Row child entities. |
+| NoteSeparator | `2000` | Represents footnote/endnote separator. NoteSeparator may have Line and Row child entities. |
 
 ### Examples
 

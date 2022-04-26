@@ -3,7 +3,7 @@ title: Section
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 90
+weight: 10
 url: /net/aspose.words/section/section/
 ---
 ## Section constructor
@@ -20,7 +20,9 @@ public Section(DocumentBase doc)
 
 ### Remarks
 
-When the section is created, it belongs to the specified document, but is not yet part of the document and ParentNode is null.To include Section into a document use Document.InsertAfter, Document.InsertBefore or Sections.Add and Section.Insert methods.
+When the section is created, it belongs to the specified document, but is not yet part of the document and **ParentNode** is null.
+
+To include Section into a document use Document.InsertAfter, Document.InsertBefore or Sections.Add and Section.Insert methods.
 
 ### Examples
 

@@ -3,7 +3,7 @@ title: MoveTo
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 190
+weight: 460
 url: /net/aspose.words/documentbuilder/moveto/
 ---
 ## DocumentBuilder.MoveTo method
@@ -20,7 +20,11 @@ public void MoveTo(Node node)
 
 ### Remarks
 
-When node is an inline-level node, the cursor is moved to this node and further content will be inserted before that node.When node is a Paragraph, the cursor is moved to the end of the paragraph and further content will be inserted just before the paragraph break.When node is a block-level node but not a Paragraph, the cursor is moved to the end of the first paragraph into block-level node and further content will be inserted just before the paragraph break.
+When node is an inline-level node, the cursor is moved to this node and further content will be inserted before that node.
+
+When node is a **Paragraph**, the cursor is moved to the end of the paragraph and further content will be inserted just before the paragraph break.
+
+When node is a block-level node but not a Paragraph, the cursor is moved to the end of the first paragraph into block-level node and further content will be inserted just before the paragraph break.
 
 ### Examples
 

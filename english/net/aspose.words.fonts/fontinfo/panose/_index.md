@@ -3,7 +3,7 @@ title: Panose
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 70
+weight: 60
 url: /net/aspose.words.fonts/fontinfo/panose/
 ---
 ## FontInfo.Panose property

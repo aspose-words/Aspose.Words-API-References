@@ -3,7 +3,7 @@ title: FieldFormula
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 1750
+weight: 1730
 url: /net/aspose.words.fields/fieldformula/
 ---
 ## FieldFormula class
@@ -14,7 +14,7 @@ Implements the = (formula) field.
 public class FieldFormula : Field
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |

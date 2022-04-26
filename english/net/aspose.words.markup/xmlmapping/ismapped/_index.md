@@ -3,12 +3,12 @@ title: IsMapped
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 60
+weight: 20
 url: /net/aspose.words.markup/xmlmapping/ismapped/
 ---
 ## XmlMapping.IsMapped property
 
-Returns true if the parent structured document tag is successfully mapped to XML data.
+Returns **true** if the parent structured document tag is successfully mapped to XML data.
 
 ```csharp
 public bool IsMapped { get; }

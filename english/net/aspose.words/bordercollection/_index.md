@@ -14,7 +14,7 @@ A collection of Border objects.
 public sealed class BorderCollection : IEnumerable<Border>
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -31,8 +31,13 @@ public sealed class BorderCollection : IEnumerable<Border>
 | [Shadow](shadow) { get; set; } | Gets or sets a value indicating whether the border has a shadow. |
 | [Top](top) { get; } | Gets the top border. |
 | [Vertical](vertical) { get; } | Gets the vertical border that is used between cells. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
 | [ClearFormatting](clearformatting)() | Removes all borders of an object. |
-| [Equals](equals)(…) | Compares collections of borders. |
+| [Equals](equals)(BorderCollection) | Compares collections of borders. |
 | [GetEnumerator](getenumerator)() | Returns an enumerator object that can be used to iterate over all borders in the collection. |
 
 ### Remarks

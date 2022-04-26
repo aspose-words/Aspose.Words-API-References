@@ -3,7 +3,7 @@ title: MailMergeSettings
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 5460
+weight: 5410
 url: /net/aspose.words.settings/mailmergesettings/
 ---
 ## MailMergeSettings class
@@ -14,11 +14,16 @@ Specifies all of the mail merge information for a document.
 public class MailMergeSettings
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [MailMergeSettings](mailmergesettings)() | The default constructor. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [ActiveRecord](activerecord) { get; set; } | Specifies the one-based index of the record from the data source which shall be displayed in Microsoft Word. The default value is 1. |
 | [AddressFieldName](addressfieldname) { get; set; } | Specifies the column within the data source that contains e-mail addresses. The default value is an empty string. |
 | [CheckErrors](checkerrors) { get; set; } | Specifies the type of error reporting which shall be conducted by Microsoft Word when performing a mail merge. The default value is Default. |
@@ -35,6 +40,11 @@ public class MailMergeSettings
 | [Odso](odso) { get; set; } | Gets or sets the object that specifies the Office Data Source Object (ODSO) settings. |
 | [Query](query) { get; set; } | Contains the Structured Query Language string that shall be run against the specified external data source to return the set of records which shall be imported into the document when the mail merge operation is performed. The default value is an empty string. |
 | [ViewMergedData](viewmergeddata) { get; set; } | Specifies that Microsoft Word shall display the data from the specified external data source where merge fields have been inserted (e.g. preview merged data). The default value is `false`. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
 | [Clear](clear)() | Clears the mail merge settings in such a way that when the document is saved, no mail merge settings will be saved and it will become a normal document. |
 | [Clone](clone)() | Returns a deep clone of this object. |
 

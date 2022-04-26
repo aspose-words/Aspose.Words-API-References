@@ -3,7 +3,7 @@ title: DigitalSignatures
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 650
+weight: 100
 url: /net/aspose.words/document/digitalsignatures/
 ---
 ## Document.DigitalSignatures property

@@ -3,7 +3,7 @@ title: RemoveSelfOnly
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 60
+weight: 240
 url: /net/aspose.words.markup/structureddocumenttagrangestart/removeselfonly/
 ---
 ## StructuredDocumentTagRangeStart.RemoveSelfOnly method

@@ -3,7 +3,7 @@ title: MailMergeCleanupOptions
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 3570
+weight: 3540
 url: /net/aspose.words.mailmerging/mailmergecleanupoptions/
 ---
 ## MailMergeCleanupOptions enumeration
@@ -19,13 +19,13 @@ public enum MailMergeCleanupOptions
 
 | Name | Value | Description |
 | --- | --- | --- |
-| None | `0x0` | Specifies a default value. |
-| RemoveEmptyParagraphs | `0x1` | Specifies whether paragraphs that contained mail merge fields with no data should be removed from the document. When this option is set, paragraphs which contain region start and end merge fields which are otherwise empty are also removed. |
-| RemoveUnusedRegions | `0x2` | Specifies whether unused mail merge regions should be removed from the document. |
-| RemoveUnusedFields | `0x4` | Specifies whether unused merge fields should be removed from the document. |
-| RemoveContainingFields | `0x8` | Specifies whether fields that contain merge fields (for example, IFs) should be removed from the document if the nested merge fields are removed. |
-| RemoveStaticFields | `0x10` | Specifies whether static fields should be removed from the document. Static fields are fields, which results remain the same upon any document change. Fields, which do not store their results in a document and are calculated on the fly (like FieldListNum, FieldSymbol, etc.) are not considered to be static. |
-| RemoveEmptyTableRows | `0x20` | Specifies whether empty rows that contain mail merge regions should be removed from the document. |
+| None | `0` | Specifies a default value. |
+| RemoveEmptyParagraphs | `1` | Specifies whether paragraphs that contained mail merge fields with no data should be removed from the document. When this option is set, paragraphs which contain region start and end merge fields which are otherwise empty are also removed. |
+| RemoveUnusedRegions | `2` | Specifies whether unused mail merge regions should be removed from the document. |
+| RemoveUnusedFields | `4` | Specifies whether unused merge fields should be removed from the document. |
+| RemoveContainingFields | `8` | Specifies whether fields that contain merge fields (for example, IFs) should be removed from the document if the nested merge fields are removed. |
+| RemoveStaticFields | `10` | Specifies whether static fields should be removed from the document. Static fields are fields, which results remain the same upon any document change. Fields, which do not store their results in a document and are calculated on the fly (like FieldListNum, FieldSymbol, etc.) are not considered to be static. |
+| RemoveEmptyTableRows | `20` | Specifies whether empty rows that contain mail merge regions should be removed from the document. |
 
 ### Examples
 

@@ -3,7 +3,7 @@ title: RevisionGroupCollection
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 4450
+weight: 4400
 url: /net/aspose.words/revisiongroupcollection/
 ---
 ## RevisionGroupCollection class
@@ -14,12 +14,17 @@ A collection of [`RevisionGroup`](../revisiongroup) objects that represent revis
 public sealed class RevisionGroupCollection : IEnumerable<RevisionGroup>
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
 | [Count](count) { get; } | Returns the number of revision groups in the collection. |
 | [Item](item) { get; } | Returns a revision group at the specified index. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
 | [GetEnumerator](getenumerator)() | Returns an enumerator object. |
 
 ### Remarks

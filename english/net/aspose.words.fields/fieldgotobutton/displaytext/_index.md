@@ -3,7 +3,7 @@ title: DisplayText
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 30
+weight: 20
 url: /net/aspose.words.fields/fieldgotobutton/displaytext/
 ---
 ## FieldGoToButton.DisplayText property

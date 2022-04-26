@@ -3,7 +3,7 @@ title: IsWordArt
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 250
+weight: 350
 url: /net/aspose.words.drawing/shapebase/iswordart/
 ---
 ## ShapeBase.IsWordArt property

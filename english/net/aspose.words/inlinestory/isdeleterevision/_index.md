@@ -3,7 +3,7 @@ title: IsDeleteRevision
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 90
+weight: 30
 url: /net/aspose.words/inlinestory/isdeleterevision/
 ---
 ## InlineStory.IsDeleteRevision property

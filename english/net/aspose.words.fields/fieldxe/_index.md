@@ -3,7 +3,7 @@ title: FieldXE
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 2400
+weight: 2380
 url: /net/aspose.words.fields/fieldxe/
 ---
 ## FieldXE class
@@ -14,11 +14,16 @@ Implements the XE field.
 public class FieldXE : Field
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [FieldXE](fieldxe)() | The default constructor. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [EntryType](entrytype) { get; set; } | Gets or sets an index entry type. |
 | [IsBold](isbold) { get; set; } | Gets or sets whether to apply bold formatting to the entry's page number. |
 | [IsItalic](isitalic) { get; set; } | Gets or sets whether to apply italic formatting to the entry's page number. |

@@ -3,7 +3,7 @@ title: AllowBreakAcrossPages
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 10
+weight: 20
 url: /net/aspose.words/tablestyle/allowbreakacrosspages/
 ---
 ## TableStyle.AllowBreakAcrossPages property
@@ -16,7 +16,7 @@ public bool AllowBreakAcrossPages { get; set; }
 
 ### Remarks
 
-The default value is true.
+The default value is **true**.
 
 ### Examples
 

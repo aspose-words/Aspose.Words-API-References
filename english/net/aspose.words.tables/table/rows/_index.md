@@ -3,7 +3,7 @@ title: Rows
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 140
+weight: 260
 url: /net/aspose.words.tables/table/rows/
 ---
 ## Table.Rows property

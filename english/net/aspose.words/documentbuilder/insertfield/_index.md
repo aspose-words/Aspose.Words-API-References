@@ -3,80 +3,10 @@ title: InsertField
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 270
+weight: 300
 url: /net/aspose.words/documentbuilder/insertfield/
 ---
 ## DocumentBuilder.InsertField method (1 of 3)
-
-Inserts a Word field into a document and updates the field result.
-
-```csharp
-public Field InsertField(string fieldCode)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| fieldCode | String | The field code to insert (without curly braces). |
-
-## Return Value
-
-A [`Field`](../../../aspose.words.fields/field) object that represents the inserted field.
-
-### Remarks
-
-This method inserts a field into a document and updates the field result immediately. Aspose.Words can update fields of most types, but not all. For more details see the [`InsertField`](../insertfield) overload.
-
-### Examples
-
-Shows how to insert a field into a document using a field code.
-
-```csharp
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-
-Field field = builder.InsertField("DATE \\@ \"dddd, MMMM dd, yyyy\"");
-
-Assert.AreEqual(FieldType.FieldDate, field.Type);
-Assert.AreEqual("DATE \\@ \"dddd, MMMM dd, yyyy\"", field.GetFieldCode());
-
-// This overload of the InsertField method automatically updates inserted fields.
-Assert.That(DateTime.Parse(field.Result), Is.EqualTo(DateTime.Today).Within(1).Days);
-```
-
-Shows how to insert fields, and move the document builder's cursor to them.
-
-```csharp
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-builder.InsertField(@"MERGEFIELD MyMergeField1 \* MERGEFORMAT");
-builder.InsertField(@"MERGEFIELD MyMergeField2 \* MERGEFORMAT");
-
-// Move the cursor to the first MERGEFIELD.
-builder.MoveToMergeField("MyMergeField1", true, false);
-
-// Note that the cursor is placed immediately after the first MERGEFIELD, and before the second.
-Assert.AreEqual(doc.Range.Fields[1].Start, builder.CurrentNode);
-Assert.AreEqual(doc.Range.Fields[0].End, builder.CurrentNode.PreviousSibling);
-
-// If we wish to edit the field's field code or contents using the builder,
-// its cursor would need to be inside a field.
-// To place it inside a field, we would need to call the document builder's MoveTo method
-// and pass the field's start or separator node as an argument.
-builder.Write(" Text between our merge fields. ");
-
-doc.Save(ArtifactsDir + "DocumentBuilder.MergeFields.docx");
-```
-
-### See Also
-
-* class [Field](../../../aspose.words.fields/field)
-* class [DocumentBuilder](../../documentbuilder)
-* namespace [Aspose.Words](../../documentbuilder)
-* assembly [Aspose.Words](../../../)
-
----
-
-## DocumentBuilder.InsertField method (2 of 3)
 
 Inserts a Word field into a document and optionally updates the field result.
 
@@ -149,6 +79,76 @@ else
 
 ---
 
+## DocumentBuilder.InsertField method (2 of 3)
+
+Inserts a Word field into a document and updates the field result.
+
+```csharp
+public Field InsertField(string fieldCode)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| fieldCode | String | The field code to insert (without curly braces). |
+
+## Return Value
+
+A [`Field`](../../../aspose.words.fields/field) object that represents the inserted field.
+
+### Remarks
+
+This method inserts a field into a document and updates the field result immediately. Aspose.Words can update fields of most types, but not all. For more details see the [`InsertField`](../insertfield) overload.
+
+### Examples
+
+Shows how to insert a field into a document using a field code.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+Field field = builder.InsertField("DATE \\@ \"dddd, MMMM dd, yyyy\"");
+
+Assert.AreEqual(FieldType.FieldDate, field.Type);
+Assert.AreEqual("DATE \\@ \"dddd, MMMM dd, yyyy\"", field.GetFieldCode());
+
+// This overload of the InsertField method automatically updates inserted fields.
+Assert.That(DateTime.Parse(field.Result), Is.EqualTo(DateTime.Today).Within(1).Days);
+```
+
+Shows how to insert fields, and move the document builder's cursor to them.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+builder.InsertField(@"MERGEFIELD MyMergeField1 \* MERGEFORMAT");
+builder.InsertField(@"MERGEFIELD MyMergeField2 \* MERGEFORMAT");
+
+// Move the cursor to the first MERGEFIELD.
+builder.MoveToMergeField("MyMergeField1", true, false);
+
+// Note that the cursor is placed immediately after the first MERGEFIELD, and before the second.
+Assert.AreEqual(doc.Range.Fields[1].Start, builder.CurrentNode);
+Assert.AreEqual(doc.Range.Fields[0].End, builder.CurrentNode.PreviousSibling);
+
+// If we wish to edit the field's field code or contents using the builder,
+// its cursor would need to be inside a field.
+// To place it inside a field, we would need to call the document builder's MoveTo method
+// and pass the field's start or separator node as an argument.
+builder.Write(" Text between our merge fields. ");
+
+doc.Save(ArtifactsDir + "DocumentBuilder.MergeFields.docx");
+```
+
+### See Also
+
+* class [Field](../../../aspose.words.fields/field)
+* class [DocumentBuilder](../../documentbuilder)
+* namespace [Aspose.Words](../../documentbuilder)
+* assembly [Aspose.Words](../../../)
+
+---
+
 ## DocumentBuilder.InsertField method (3 of 3)
 
 Inserts a Word field into a document without updating the field result.
@@ -168,7 +168,11 @@ A [`Field`](../../../aspose.words.fields/field) object that represents the inser
 
 ### Remarks
 
-Fields in Microsoft Word documents consist of a field code and a field result. The field code is like a formula and the field result is like the value that the formula produces. The field code may also contain field switches that are like additional instructions to perform a specific action.You can switch between displaying field codes and results in your document in Microsoft Word using the keyboard shortcut Alt+F9. Field codes appear between curly braces ( { } ).To create a field, you need to specify a field type, field code and a "placeholder" field value. If you are not sure about a particular field code syntax, create the field in Microsoft Word first and switch to see its field code.
+Fields in Microsoft Word documents consist of a field code and a field result. The field code is like a formula and the field result is like the value that the formula produces. The field code may also contain field switches that are like additional instructions to perform a specific action.
+
+You can switch between displaying field codes and results in your document in Microsoft Word using the keyboard shortcut Alt+F9. Field codes appear between curly braces ( { } ).
+
+To create a field, you need to specify a field type, field code and a "placeholder" field value. If you are not sure about a particular field code syntax, create the field in Microsoft Word first and switch to see its field code.
 
 Aspose.Words can calculate field results for most of the field types, but this method does not update the field result automatically. Because the field result is not calculated automatically, you are expected to pass some string value (or even an empty string) that will be inserted into the field result. This value will remain in the field result as a placeholder until the field is updated. To update the field result you can call [`Update`](../../../aspose.words.fields/field/update) on the field object returned to you or [`UpdateFields`](../../document/updatefields) to update fields in the whole document.
 

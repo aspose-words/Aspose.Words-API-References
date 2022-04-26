@@ -3,7 +3,7 @@ title: FieldSectionPages
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 2170
+weight: 2150
 url: /net/aspose.words.fields/fieldsectionpages/
 ---
 ## FieldSectionPages class
@@ -14,7 +14,7 @@ Implements the SECTIONPAGES field.
 public class FieldSectionPages : Field
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |

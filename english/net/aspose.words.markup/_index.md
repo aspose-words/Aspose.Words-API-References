@@ -1,12 +1,12 @@
 ---
 title: Aspose.Words.Markup
 second_title: Aspose.Words for .NET API Reference
-description: The Aspose.Words.Markup namespace contains classes that represent customer defined semantics in a document smart tags, custom XML and structured document tags (content controls).
+description: The **Aspose.Words.Markup** namespace contains classes that represent customer defined semantics in a document smart tags, custom XML and structured document tags (content controls).
 type: docs
 weight: 150
 url: /net/aspose.words.markup/
 ---
-The Aspose.Words.Markup namespace contains classes that represent customer defined semantics in a document: smart tags, custom XML and structured document tags (content controls).
+The **Aspose.Words.Markup** namespace contains classes that represent customer defined semantics in a document: smart tags, custom XML and structured document tags (content controls).
 
 ## Classes
 
@@ -23,15 +23,9 @@ The Aspose.Words.Markup namespace contains classes that represent customer defin
 | class [SdtListItemCollection](./sdtlistitemcollection) | Provides access to [`SdtListItem`](aspose.words.markup/sdtlistitem) elements of a structured document tag. |
 | class [SmartTag](./smarttag) | This element specifies the presence of a smart tag around one or more inline structures (runs, images, fields,etc.) within a paragraph. |
 | class [StructuredDocumentTag](./structureddocumenttag) | Represents a structured document tag (SDT or content control) in a document. |
-| class [StructuredDocumentTagCollection](./structureddocumenttagcollection) |  |
-| class [StructuredDocumentTagRangeEnd](./structureddocumenttagrangeend) | Represents an end of ranged structured document tag which accepts multi-sections content. See also [`StructuredDocumentTagRangeStart`](aspose.words.markup/structureddocumenttagrangestart) node. |
-| class [StructuredDocumentTagRangeStart](./structureddocumenttagrangestart) | Represents a start of ranged structured document tag which accepts multi-sections content. See also [`StructuredDocumentTagRangeEnd`](aspose.words.markup/structureddocumenttagrangeend). |
+| class [StructuredDocumentTagRangeEnd](./structureddocumenttagrangeend) | Represents an end of **ranged** structured document tag which accepts multi-sections content. See also [`StructuredDocumentTagRangeStart`](aspose.words.markup/structureddocumenttagrangestart) node. |
+| class [StructuredDocumentTagRangeStart](./structureddocumenttagrangestart) | Represents a start of **ranged** structured document tag which accepts multi-sections content. See also [`StructuredDocumentTagRangeEnd`](aspose.words.markup/structureddocumenttagrangeend). |
 | class [XmlMapping](./xmlmapping) | Specifies the information that is used to establish a mapping between the parent structured document tag and an XML element stored within a custom XML data part in the document. |
-## Interfaces
-
-| Interface | Description |
-| --- | --- |
-| interface [IStructuredDocumentTag](./istructureddocumenttag) |  |
 ## Enumeration
 
 | Enumeration | Description |

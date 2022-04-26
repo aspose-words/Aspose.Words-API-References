@@ -3,7 +3,7 @@ title: SdtAppearance
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 3690
+weight: 3650
 url: /net/aspose.words.markup/sdtappearance/
 ---
 ## SdtAppearance enumeration

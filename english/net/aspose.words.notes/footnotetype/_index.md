@@ -3,7 +3,7 @@ title: FootnoteType
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 4000
+weight: 3950
 url: /net/aspose.words.notes/footnotetype/
 ---
 ## FootnoteType enumeration

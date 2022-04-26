@@ -3,12 +3,12 @@ title: NodeType
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 80
+weight: 170
 url: /net/aspose.words/paragraph/nodetype/
 ---
 ## Paragraph.NodeType property
 
-Returns NodeType.Paragraph.
+Returns **NodeType.Paragraph**.
 
 ```csharp
 public override NodeType NodeType { get; }

@@ -14,19 +14,33 @@ Represents a container for the main text of a section.
 public class Body : Story
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
-| [Body](body)(…) | Initializes a new instance of the Body class. |
-| override [NodeType](nodetype) { get; } | Returns NodeType.Body. |
+| [Body](body)(DocumentBase) | Initializes a new instance of the **Body** class. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
+| override [NodeType](nodetype) { get; } | Returns **NodeType.Body**. |
 | [ParentSection](parentsection) { get; } | Gets the parent section of this story. |
-| override [Accept](accept)(…) | Accepts a visitor. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| override [Accept](accept)(DocumentVisitor) | Accepts a visitor. |
 | [EnsureMinimum](ensureminimum)() | If the last child is not a paragraph, creates and appends one empty paragraph. |
 
 ### Remarks
 
-Body can contain Paragraph and Table child nodes.Body is a section-level node and can only be a child of Section. There can only be one Body in a Section.A minimal valid Body needs to contain at least one Paragraph.
+**Body** can contain **Paragraph** and **Table** child nodes.
+
+**Body** is a section-level node and can only be a child of **Section**. There can only be one **Body** in a **Section**.
+
+A minimal valid **Body** needs to contain at least one **Paragraph**.
 
 ### Examples
 

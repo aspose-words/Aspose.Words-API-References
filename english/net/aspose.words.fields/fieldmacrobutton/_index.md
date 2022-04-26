@@ -3,7 +3,7 @@ title: FieldMacroButton
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 1930
+weight: 1910
 url: /net/aspose.words.fields/fieldmacrobutton/
 ---
 ## FieldMacroButton class
@@ -14,17 +14,24 @@ Implements the MACROBUTTON field.
 public class FieldMacroButton : Field
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [FieldMacroButton](fieldmacrobutton)() | The default constructor. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [DisplayText](displaytext) { get; set; } | Gets or sets the text to appear as the "button" that is selected to run the macro or command. |
 | [MacroName](macroname) { get; set; } | Gets or sets the name of the macro or command to run. |
 
 ### Remarks
 
-Allows a macro or command to be run.In Aspose.Words this field can also act as a merge field.
+Allows a macro or command to be run.
+
+In Aspose.Words this field can also act as a merge field.
 
 ### Examples
 

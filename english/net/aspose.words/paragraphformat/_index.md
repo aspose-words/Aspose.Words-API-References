@@ -3,7 +3,7 @@ title: ParagraphFormat
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 4120
+weight: 4070
 url: /net/aspose.words/paragraphformat/
 ---
 ## ParagraphFormat class
@@ -14,7 +14,7 @@ Represents all the formatting for a paragraph.
 public class ParagraphFormat
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -23,12 +23,12 @@ public class ParagraphFormat
 | [Alignment](alignment) { get; set; } | Gets or sets text alignment for the paragraph. |
 | [Bidi](bidi) { get; set; } | Gets or sets whether this is a right-to-left paragraph. |
 | [Borders](borders) { get; } | Gets collection of borders of the paragraph. |
-| [CharacterUnitFirstLineIndent](characterunitfirstlineindent) { get; set; } | Gets or sets the value (in characters) for the first-line or hanging indent. Use positive values to set the first-line indent, and negative values to set the hanging indent. |
+| [CharacterUnitFirstLineIndent](characterunitfirstlineindent) { get; set; } | Gets or sets the value (in characters) for the first-line or hanging indent. |
 | [CharacterUnitLeftIndent](characterunitleftindent) { get; set; } | Gets or sets the left indent value (in characters) for the specified paragraphs. |
 | [CharacterUnitRightIndent](characterunitrightindent) { get; set; } | Gets or sets the right indent value (in characters) for the specified paragraphs. |
 | [DropCapPosition](dropcapposition) { get; set; } | Gets or sets the position for a drop cap text. |
 | [FarEastLineBreakControl](fareastlinebreakcontrol) { get; set; } | Gets or sets a flag indicating whether East Asian line-breaking rules are applied to the current paragraph. |
-| [FirstLineIndent](firstlineindent) { get; set; } | Gets or sets the value (in points) for a first line or hanging indent. Use positive values to set the first-line indent, and negative values to set the hanging indent. |
+| [FirstLineIndent](firstlineindent) { get; set; } | Gets or sets the value (in points) for a first line or hanging indent. |
 | [HangingPunctuation](hangingpunctuation) { get; set; } | Gets or sets a flag indicating whether hanging punctuation is enabled for the current paragraph. |
 | [IsHeading](isheading) { get; } | True when the paragraph style is one of the built-in Heading styles. |
 | [IsListItem](islistitem) { get; } | True when the paragraph is an item in a bulleted or numbered list. |
@@ -57,7 +57,12 @@ public class ParagraphFormat
 | [SuppressLineNumbers](suppresslinenumbers) { get; set; } | Specifies whether the current paragraph's lines should be exempted from line numbering which is applied in the parent section. |
 | [TabStops](tabstops) { get; } | Gets the collection of custom tab stops defined for this object. |
 | [WidowControl](widowcontrol) { get; set; } | True if the first and last lines in the paragraph are to remain on the same page as the rest of the paragraph. |
-| [WordWrap](wordwrap) { get; set; } | If this property is false, Latin text in the middle of a word can be wrapped for the current paragraph. Otherwise Latin text is wrapped by whole words. |
+| [WordWrap](wordwrap) { get; set; } | If this property is **false**, Latin text in the middle of a word can be wrapped for the current paragraph. Otherwise Latin text is wrapped by whole words. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
 | [ClearFormatting](clearformatting)() | Resets to default paragraph formatting. |
 
 ### Examples

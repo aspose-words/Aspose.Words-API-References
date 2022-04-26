@@ -3,12 +3,12 @@ title: Id
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 40
+weight: 20
 url: /net/aspose.words.markup/structureddocumenttagrangeend/id/
 ---
 ## StructuredDocumentTagRangeEnd.Id property
 
-Specifies a unique read-only persistent numerical Id for this StructuredDocumentTagRange node. Corresponding [`StructuredDocumentTagRangeStart`](../../structureddocumenttagrangestart) node has the same [`Id`](../../structureddocumenttagrangestart/id).
+Specifies a unique read-only persistent numerical Id for this **StructuredDocumentTagRange** node. Corresponding [`StructuredDocumentTagRangeStart`](../../structureddocumenttagrangestart) node has the same [`Id`](../../structureddocumenttagrangestart/id).
 
 ```csharp
 public int Id { get; }

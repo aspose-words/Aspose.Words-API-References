@@ -3,7 +3,7 @@ title: FieldTime
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 2300
+weight: 2280
 url: /net/aspose.words.fields/fieldtime/
 ---
 ## FieldTime class
@@ -14,7 +14,7 @@ Implements the TIME field.
 public class FieldTime : Field
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |

@@ -3,7 +3,7 @@ title: RtfSaveOptions
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 5200
+weight: 5150
 url: /net/aspose.words.saving/rtfsaveoptions/
 ---
 ## RtfSaveOptions class
@@ -14,11 +14,16 @@ Can be used to specify additional options when saving a document into the Rtf fo
 public class RtfSaveOptions : SaveOptions
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [RtfSaveOptions](rtfsaveoptions)() | The default constructor. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [ExportCompactSize](exportcompactsize) { get; set; } | Allows to make output RTF documents smaller in size, but if they contain RTL (right-to-left) text, it will not be displayed correctly. Default value is `false`. |
 | [ExportImagesForOldReaders](exportimagesforoldreaders) { get; set; } | Specifies whether the keywords for "old readers" are written to RTF or not. This can significantly affect the size of the RTF document. Default value is `true`. |
 | override [SaveFormat](saveformat) { get; set; } | Specifies the format in which the document will be saved if this save options object is used. Can only be Rtf. |

@@ -3,7 +3,7 @@ title: ShapeLayoutLikeWW8
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 340
+weight: 420
 url: /net/aspose.words.settings/compatibilityoptions/shapelayoutlikeww8/
 ---
 ## CompatibilityOptions.ShapeLayoutLikeWW8 property

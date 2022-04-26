@@ -3,7 +3,7 @@ title: InsertRelativePosition
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 70
+weight: 80
 url: /net/aspose.words.fields/fieldref/insertrelativeposition/
 ---
 ## FieldRef.InsertRelativePosition property

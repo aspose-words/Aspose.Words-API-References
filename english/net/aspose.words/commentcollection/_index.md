@@ -14,11 +14,11 @@ Provides typed access to a collection of [`Comment`](../comment) nodes.
 public class CommentCollection : NodeCollection
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
-| [Item](item) { get; } | Retrieves a Comment at the given index. |
+| [Item](item) { get; } | Retrieves a **Comment** at the given index. |
 
 ### Examples
 

@@ -3,7 +3,7 @@ title: MeasurementUnit
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 190
+weight: 60
 url: /net/aspose.words.layout/revisionoptions/measurementunit/
 ---
 ## RevisionOptions.MeasurementUnit property

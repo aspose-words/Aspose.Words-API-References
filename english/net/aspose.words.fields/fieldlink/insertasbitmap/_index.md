@@ -3,7 +3,7 @@ title: InsertAsBitmap
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 60
+weight: 40
 url: /net/aspose.words.fields/fieldlink/insertasbitmap/
 ---
 ## FieldLink.InsertAsBitmap property

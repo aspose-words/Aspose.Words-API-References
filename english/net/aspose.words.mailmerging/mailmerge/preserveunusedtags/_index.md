@@ -3,7 +3,7 @@ title: PreserveUnusedTags
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 130
+weight: 80
 url: /net/aspose.words.mailmerging/mailmerge/preserveunusedtags/
 ---
 ## MailMerge.PreserveUnusedTags property
@@ -16,7 +16,7 @@ public bool PreserveUnusedTags { get; set; }
 
 ### Remarks
 
-The default value is false.
+The default value is **false**.
 
 ### Examples
 

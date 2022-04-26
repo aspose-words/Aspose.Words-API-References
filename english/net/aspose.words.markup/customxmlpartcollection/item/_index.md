@@ -3,7 +3,7 @@ title: Item
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 90
+weight: 30
 url: /net/aspose.words.markup/customxmlpartcollection/item/
 ---
 ## CustomXmlPartCollection indexer

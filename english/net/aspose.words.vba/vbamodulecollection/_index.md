@@ -3,7 +3,7 @@ title: VbaModuleCollection
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 6160
+weight: 6110
 url: /net/aspose.words.vba/vbamodulecollection/
 ---
 ## VbaModuleCollection class
@@ -14,14 +14,19 @@ Represents a collection of [`VbaModule`](../vbamodule) objects.
 public sealed class VbaModuleCollection : IEnumerable<VbaModule>
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
 | [Count](count) { get; } | Returns the number of VBA modules in the collection. |
 | [Item](item) { get; } | Retrieves a [`VbaModule`](../vbamodule) object by index. (2 indexers) |
-| [Add](add)(…) | Adds a module to the collection. |
-| [Remove](remove)(…) | Removes the specified module from the collection. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [Add](add)(VbaModule) | Adds a module to the collection. |
+| [Remove](remove)(VbaModule) | Removes the specified module from the collection. |
 
 ### Examples
 

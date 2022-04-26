@@ -3,7 +3,7 @@ title: GroupShape
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 880
+weight: 860
 url: /net/aspose.words.drawing/groupshape/
 ---
 ## GroupShape class
@@ -14,17 +14,29 @@ Represents a group of shapes in a document.
 public class GroupShape : ShapeBase
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
-| [GroupShape](groupshape)(…) | Creates a new group shape. |
+| [GroupShape](groupshape)(DocumentBase) | Creates a new group shape. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | override [NodeType](nodetype) { get; } | Returns GroupShape. |
-| override [Accept](accept)(…) | Accepts a visitor. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| override [Accept](accept)(DocumentVisitor) | Accepts a visitor. |
 
 ### Remarks
 
-A [`GroupShape`](../groupshape) is a composite node and can have [`Shape`](../shape) and [`GroupShape`](../groupshape) nodes as children.Each [`GroupShape`](../groupshape) defines a new coordinate system for its child shapes. The coordinate system is defined using the [`CoordSize`](../shapebase/coordsize) and [`CoordOrigin`](../shapebase/coordorigin) properties.
+A [`GroupShape`](../groupshape) is a composite node and can have [`Shape`](../shape) and [`GroupShape`](../groupshape) nodes as children.
+
+Each [`GroupShape`](../groupshape) defines a new coordinate system for its child shapes. The coordinate system is defined using the [`CoordSize`](../shapebase/coordsize) and [`CoordOrigin`](../shapebase/coordorigin) properties.
 
 ### Examples
 

@@ -3,7 +3,7 @@ title: PageBreakChar
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 170
+weight: 210
 url: /net/aspose.words/controlchar/pagebreakchar/
 ---
 ## ControlChar.PageBreakChar field

@@ -3,7 +3,7 @@ title: TabPosition
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 150
+weight: 120
 url: /net/aspose.words.lists/listlevel/tabposition/
 ---
 ## ListLevel.TabPosition property

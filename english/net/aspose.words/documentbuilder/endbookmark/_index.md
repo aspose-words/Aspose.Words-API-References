@@ -3,7 +3,7 @@ title: EndBookmark
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 10
+weight: 190
 url: /net/aspose.words/documentbuilder/endbookmark/
 ---
 ## DocumentBuilder.EndBookmark method
@@ -24,7 +24,9 @@ The bookmark end node that was just created.
 
 ### Remarks
 
-Bookmarks in a document can overlap and span any range. To create a valid bookmark you need to call both [`StartBookmark`](../startbookmark) and `EndBookmark` with the same bookmarkName parameter.Badly formed bookmarks or bookmarks with duplicate names will be ignored when the document is saved.
+Bookmarks in a document can overlap and span any range. To create a valid bookmark you need to call both [`StartBookmark`](../startbookmark) and `EndBookmark` with the same **bookmarkName** parameter.
+
+Badly formed bookmarks or bookmarks with duplicate names will be ignored when the document is saved.
 
 ### Examples
 

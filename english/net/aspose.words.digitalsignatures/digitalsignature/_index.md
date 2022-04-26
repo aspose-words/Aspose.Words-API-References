@@ -14,7 +14,7 @@ Represents a digital signature on a document and the result of its verification.
 public class DigitalSignature
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -25,6 +25,11 @@ public class DigitalSignature
 | [SignatureType](signaturetype) { get; } | Gets the type of the digital signature. |
 | [SignTime](signtime) { get; } | Gets the time the document was signed. |
 | [SubjectName](subjectname) { get; } | Returns the subject distinguished name of the certificate that was used to sign the document. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
 | override [ToString](tostring)() | Returns a user-friendly string that displays the value of this object. |
 
 ### Examples

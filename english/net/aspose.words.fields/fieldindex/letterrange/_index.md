@@ -3,7 +3,7 @@ title: LetterRange
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 120
+weight: 90
 url: /net/aspose.words.fields/fieldindex/letterrange/
 ---
 ## FieldIndex.LetterRange property

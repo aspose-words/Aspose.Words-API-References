@@ -3,7 +3,7 @@ title: MergeFieldImageDimension
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 2510
+weight: 2490
 url: /net/aspose.words.fields/mergefieldimagedimension/
 ---
 ## MergeFieldImageDimension class
@@ -14,11 +14,17 @@ Represents an image dimension (i.e. the width or the height) used across a mail 
 public class MergeFieldImageDimension
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
-| [MergeFieldImageDimension](mergefieldimagedimension)(…) | Creates an image dimension instance with the given value in points. (2 constructors) |
+| [MergeFieldImageDimension](mergefieldimagedimension)(double) | Creates an image dimension instance with the given value in points. |
+| [MergeFieldImageDimension](mergefieldimagedimension)(double, MergeFieldImageDimensionUnit) | Creates an image dimension instance with the given value and the given unit. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [Unit](unit) { get; set; } | The unit. |
 | [Value](value) { get; set; } | The value. |
 

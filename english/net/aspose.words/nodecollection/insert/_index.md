@@ -3,7 +3,7 @@ title: Insert
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 20
+weight: 80
 url: /net/aspose.words/nodecollection/insert/
 ---
 ## NodeCollection.Insert method
@@ -23,13 +23,19 @@ public void Insert(int index, Node node)
 
 | exception | condition |
 | --- | --- |
-| NotSupportedException | The NodeCollection is a "deep" collection. |
+| NotSupportedException | The **NodeCollection** is a "deep" collection. |
 
 ### Remarks
 
-The node is inserted as a child into the node object from which the collection was created.If the index is equal to or greater than Count, the node is added at the end of the collection.If the index is negative and its absolute value is greater than Count, the node is added at the end of the collection.
+The node is inserted as a child into the node object from which the collection was created.
 
-If the newChild is already in the tree, it is first removed.If the node being inserted was created from another document, you should use [`ImportNode`](../../documentbase/importnode) to import the node to the current document. The imported node can then be inserted into the current document.
+If the index is equal to or greater than Count, the node is added at the end of the collection.
+
+If the index is negative and its absolute value is greater than Count, the node is added at the end of the collection.
+
+If the newChild is already in the tree, it is first removed.
+
+If the node being inserted was created from another document, you should use [`ImportNode`](../../documentbase/importnode) to import the node to the current document. The imported node can then be inserted into the current document.
 
 ### Examples
 

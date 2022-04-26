@@ -3,7 +3,7 @@ title: FieldToa
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 2320
+weight: 2300
 url: /net/aspose.words.fields/fieldtoa/
 ---
 ## FieldToa class
@@ -14,11 +14,16 @@ Implements the TOA field.
 public class FieldToa : Field
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [FieldToa](fieldtoa)() | The default constructor. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [BookmarkName](bookmarkname) { get; set; } | Gets or sets the name of the bookmark that marks the portion of the document used to build the table. |
 | [EntryCategory](entrycategory) { get; set; } | Gets or sets the integral category for entries included in the table. |
 | [EntrySeparator](entryseparator) { get; set; } | Gets or sets the character sequence that is used to separate a table of authorities entry and its page number. |

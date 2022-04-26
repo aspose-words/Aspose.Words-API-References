@@ -3,7 +3,7 @@ title: BottomMargin
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 200
+weight: 80
 url: /net/aspose.words/pagesetup/bottommargin/
 ---
 ## PageSetup.BottomMargin property

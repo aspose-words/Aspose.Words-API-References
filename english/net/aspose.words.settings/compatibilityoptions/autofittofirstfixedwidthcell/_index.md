@@ -3,7 +3,7 @@ title: AutofitToFirstFixedWidthCell
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 580
+weight: 50
 url: /net/aspose.words.settings/compatibilityoptions/autofittofirstfixedwidthcell/
 ---
 ## CompatibilityOptions.AutofitToFirstFixedWidthCell property

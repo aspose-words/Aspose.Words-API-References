@@ -3,7 +3,7 @@ title: ParagraphBreakFont
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 220
+weight: 180
 url: /net/aspose.words/paragraph/paragraphbreakfont/
 ---
 ## Paragraph.ParagraphBreakFont property

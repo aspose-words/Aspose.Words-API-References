@@ -3,7 +3,7 @@ title: IMailMergeCallback
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 3520
+weight: 3490
 url: /net/aspose.words.mailmerging/imailmergecallback/
 ---
 ## IMailMergeCallback interface
@@ -14,7 +14,7 @@ Implement this interface if you want to receive notifications while mail merge i
 public interface IMailMergeCallback
 ```
 
-## Members
+## Methods
 
 | Name | Description |
 | --- | --- |

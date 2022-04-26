@@ -3,7 +3,7 @@ title: Delete
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 10
+weight: 50
 url: /net/aspose.words/range/delete/
 ---
 ## Range.Delete method

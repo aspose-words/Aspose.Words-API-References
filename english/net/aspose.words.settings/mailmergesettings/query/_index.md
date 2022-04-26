@@ -3,7 +3,7 @@ title: Query
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 180
+weight: 160
 url: /net/aspose.words.settings/mailmergesettings/query/
 ---
 ## MailMergeSettings.Query property

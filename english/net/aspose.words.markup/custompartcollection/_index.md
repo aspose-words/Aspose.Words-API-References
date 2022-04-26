@@ -3,7 +3,7 @@ title: CustomPartCollection
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 3610
+weight: 3580
 url: /net/aspose.words.markup/custompartcollection/
 ---
 ## CustomPartCollection class
@@ -14,18 +14,28 @@ Represents a collection of [`CustomPart`](../custompart) objects.
 public class CustomPartCollection : IEnumerable<CustomPart>
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [CustomPartCollection](custompartcollection)() | The default constructor. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [Count](count) { get; } | Gets the number of elements contained in the collection. |
 | [Item](item) { get; set; } | Gets or sets an item at the specified index. |
-| [Add](add)(…) | Adds an item to the collection. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [Add](add)(CustomPart) | Adds an item to the collection. |
 | [Clear](clear)() | Removes all elements from the collection. |
 | [Clone](clone)() | Makes a deep copy of this collection and its items. |
 | [GetEnumerator](getenumerator)() | Returns an enumerator object that can be used to iterate over all items in the collection. |
-| [RemoveAt](removeat)(…) | Removes an item at the specified index. |
+| [RemoveAt](removeat)(int) | Removes an item at the specified index. |
 
 ### Remarks
 

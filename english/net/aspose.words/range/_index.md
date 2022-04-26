@@ -3,7 +3,7 @@ title: Range
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 4210
+weight: 4160
 url: /net/aspose.words/range/
 ---
 ## Range class
@@ -14,25 +14,36 @@ Represents a contiguous area in a document.
 public class Range
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
 | [Bookmarks](bookmarks) { get; } | Returns a [`Bookmarks`](./bookmarks) collection that represents all bookmarks in the range. |
 | [Fields](fields) { get; } | Returns a [`Fields`](./fields) collection that represents all fields in the range. |
 | [FormFields](formfields) { get; } | Returns a [`FormFields`](./formfields) collection that represents all form fields in the range. |
-| [StructuredDocumentTags](structureddocumenttags) { get; } |  |
 | [Text](text) { get; } | Gets the text of the range. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
 | [Delete](delete)() | Deletes all characters of the range. |
 | [NormalizeFieldTypes](normalizefieldtypes)() | Changes field type values [`FieldType`](../../aspose.words.fields/fieldchar/fieldtype) of [`FieldStart`](../../aspose.words.fields/fieldstart), [`FieldSeparator`](../../aspose.words.fields/fieldseparator), [`FieldEnd`](../../aspose.words.fields/fieldend) in this range so that they correspond to the field types contained in the field codes. |
-| [Replace](replace)(…) | Replaces all occurrences of a specified character string pattern with a replacement string. (4 methods) |
+| [Replace](replace)(Regex, string) | Replaces all occurrences of a character pattern specified by a regular expression with another string. |
+| [Replace](replace)(string, string) | Replaces all occurrences of a specified character string pattern with a replacement string. |
+| [Replace](replace)(Regex, string, FindReplaceOptions) | Replaces all occurrences of a character pattern specified by a regular expression with another string. |
+| [Replace](replace)(string, string, FindReplaceOptions) | Replaces all occurrences of a specified character string pattern with a replacement string. |
 | [ToDocument](todocument)() | Constructs a new fully formed document that contains the range. |
 | [UnlinkFields](unlinkfields)() | Unlinks fields in this range. |
 | [UpdateFields](updatefields)() | Updates the values of document fields in this range. |
 
 ### Remarks
 
-The document is represented by a tree of nodes and the nodes provide operations to work with the tree, but some operations are easier to perform if the document is treated as a contiguous sequence of text.Range is a "facade" interface that provide methods that treat the document or portions of the document as "flat" text regardless of the fact that the document nodes are stored in a tree-like object model.Range does not contain any text or nodes, it is merely a view or "window" over a fragment of a document.
+The document is represented by a tree of nodes and the nodes provide operations to work with the tree, but some operations are easier to perform if the document is treated as a contiguous sequence of text.
+
+**Range** is a "facade" interface that provide methods that treat the document or portions of the document as "flat" text regardless of the fact that the document nodes are stored in a tree-like object model.
+
+**Range** does not contain any text or nodes, it is merely a view or "window" over a fragment of a document.
 
 ### Examples
 

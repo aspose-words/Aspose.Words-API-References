@@ -14,17 +14,25 @@ Provides methods for COM clients to load a document into Aspose.Words.
 public class ComHelper
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [ComHelper](comhelper)() | Initializes a new instance of this class. |
-| [Open](open)(…) | Allows a COM application to load a [`Document`](../document) from a file. (2 methods) |
-| [OpenIStream](openistream)(…) | Allows a COM application to load a [`Document`](../document) from an IStream object. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [Open](open)(Stream) | Allows a COM application to load [`Document`](../document) from a stream. |
+| [Open](open)(string) | Allows a COM application to load a [`Document`](../document) from a file. |
+| [OpenIStream](openistream)(IStream) | Allows a COM application to load a [`Document`](../document) from an IStream object. |
 
 ### Remarks
 
-Use the [`ComHelper`](../comhelper) class to load a document from a file or stream into a [`Document`](../document) object in a COM application.The [`Document`](../document) class provides a default constructor to create a new document and also provides overloaded constructors to load a document from a file or stream. If you are using Aspose.Words from a .NET application, you can use all of the [`Document`](../document) constructors directly, but if you are using Aspose.Words from a COM application, only the default [`Document`](../document) constructor is available.
+Use the [`ComHelper`](../comhelper) class to load a document from a file or stream into a [`Document`](../document) object in a COM application.
+
+The [`Document`](../document) class provides a default constructor to create a new document and also provides overloaded constructors to load a document from a file or stream. If you are using Aspose.Words from a .NET application, you can use all of the [`Document`](../document) constructors directly, but if you are using Aspose.Words from a COM application, only the default [`Document`](../document) constructor is available.
 
 ### Examples
 

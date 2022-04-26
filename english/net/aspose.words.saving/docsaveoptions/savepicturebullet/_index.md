@@ -3,12 +3,12 @@ title: SavePictureBullet
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 60
+weight: 50
 url: /net/aspose.words.saving/docsaveoptions/savepicturebullet/
 ---
 ## DocSaveOptions.SavePictureBullet property
 
-When `false`, PictureBullet data is not saved to output document. Default value is true.
+When `false`, PictureBullet data is not saved to output document. Default value is **true**.
 
 ```csharp
 public bool SavePictureBullet { get; set; }

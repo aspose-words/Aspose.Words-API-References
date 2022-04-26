@@ -3,7 +3,7 @@ title: Remove
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 30
+weight: 60
 url: /net/aspose.words.webextensions/basewebextensioncollection-1/remove/
 ---
 ## BaseWebExtensionCollection&lt;T&gt;.Remove method

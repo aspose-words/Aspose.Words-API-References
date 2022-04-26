@@ -3,7 +3,7 @@ title: TextBox
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 1140
+weight: 1120
 url: /net/aspose.words.drawing/textbox/
 ---
 ## TextBox class
@@ -14,7 +14,7 @@ Defines attributes that specify how a text is displayed inside a shape.
 public class TextBox
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -29,8 +29,13 @@ public class TextBox
 | [Previous](previous) { get; } | Returns a TextBox that represents the previous TextBox in a sequence of shapes. |
 | [TextBoxWrapMode](textboxwrapmode) { get; set; } | Determines how text wraps inside a shape. |
 | [VerticalAnchor](verticalanchor) { get; set; } | Specifies the vertical alignment of the text within a shape. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
 | [BreakForwardLink](breakforwardlink)() | Breaks the link to the next TextBox. |
-| [IsValidLinkTarget](isvalidlinktarget)(…) | Determines whether this TextBox can be linked to the target Textbox. |
+| [IsValidLinkTarget](isvalidlinktarget)(TextBox) | Determines whether this TextBox can be linked to the target Textbox. |
 
 ### Remarks
 

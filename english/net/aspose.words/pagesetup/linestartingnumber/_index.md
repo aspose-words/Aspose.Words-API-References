@@ -3,7 +3,7 @@ title: LineStartingNumber
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 320
+weight: 230
 url: /net/aspose.words/pagesetup/linestartingnumber/
 ---
 ## PageSetup.LineStartingNumber property

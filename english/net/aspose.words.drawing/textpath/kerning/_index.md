@@ -3,7 +3,7 @@ title: Kerning
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 110
+weight: 60
 url: /net/aspose.words.drawing/textpath/kerning/
 ---
 ## TextPath.Kerning property
@@ -16,7 +16,7 @@ public bool Kerning { get; set; }
 
 ### Remarks
 
-The default value is false.
+The default value is **false**.
 
 ### Examples
 

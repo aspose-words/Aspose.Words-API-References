@@ -3,7 +3,7 @@ title: ContentStatus
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 290
+weight: 80
 url: /net/aspose.words.properties/builtindocumentproperties/contentstatus/
 ---
 ## BuiltInDocumentProperties.ContentStatus property

@@ -3,7 +3,7 @@ title: SymbolRotation
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 70
+weight: 180
 url: /net/aspose.words.fields/barcodeparameters/symbolrotation/
 ---
 ## BarcodeParameters.SymbolRotation property

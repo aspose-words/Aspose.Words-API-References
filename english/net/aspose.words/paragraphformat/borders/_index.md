@@ -3,7 +3,7 @@ title: Borders
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 360
+weight: 50
 url: /net/aspose.words/paragraphformat/borders/
 ---
 ## ParagraphFormat.Borders property

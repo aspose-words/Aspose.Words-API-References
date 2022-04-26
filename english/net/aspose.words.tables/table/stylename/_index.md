@@ -3,7 +3,7 @@ title: StyleName
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 280
+weight: 290
 url: /net/aspose.words.tables/table/stylename/
 ---
 ## Table.StyleName property

@@ -3,7 +3,7 @@ title: SmallCaps
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 310
+weight: 360
 url: /net/aspose.words/font/smallcaps/
 ---
 ## Font.SmallCaps property

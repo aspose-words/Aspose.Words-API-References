@@ -3,7 +3,7 @@ title: Theme
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 6070
+weight: 6020
 url: /net/aspose.words.themes/theme/
 ---
 ## Theme class
@@ -14,11 +14,16 @@ Represents document Theme, and provides access to main theme parts including [`M
 public class Theme
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [Theme](theme)() | The default constructor. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [Colors](colors) { get; } | Allows to specify the set of theme colors for the document. |
 | [MajorFonts](majorfonts) { get; } | Allows to specify the set of major fonts for different languages. |
 | [MinorFonts](minorfonts) { get; } | Allows to specify the set of minor fonts for different languages. |

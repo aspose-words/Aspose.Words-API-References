@@ -3,29 +3,39 @@ title: StructuredDocumentTagRangeEnd
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 3780
+weight: 3730
 url: /net/aspose.words.markup/structureddocumenttagrangeend/
 ---
 ## StructuredDocumentTagRangeEnd class
 
-Represents an end of ranged structured document tag which accepts multi-sections content. See also [`StructuredDocumentTagRangeStart`](../structureddocumenttagrangestart) node.
+Represents an end of **ranged** structured document tag which accepts multi-sections content. See also [`StructuredDocumentTagRangeStart`](../structureddocumenttagrangestart) node.
 
 ```csharp
 public class StructuredDocumentTagRangeEnd : Node
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
-| [StructuredDocumentTagRangeEnd](structureddocumenttagrangeend)(…) | Initializes a new instance of the Structured document tag range end class. |
-| [Id](id) { get; } | Specifies a unique read-only persistent numerical Id for this StructuredDocumentTagRange node. Corresponding [`StructuredDocumentTagRangeStart`](../structureddocumenttagrangestart) node has the same [`Id`](../structureddocumenttagrangestart/id). |
+| [StructuredDocumentTagRangeEnd](structureddocumenttagrangeend)(DocumentBase, int) | Initializes a new instance of the **Structured document tag range end** class. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
+| [Id](id) { get; } | Specifies a unique read-only persistent numerical Id for this **StructuredDocumentTagRange** node. Corresponding [`StructuredDocumentTagRangeStart`](../structureddocumenttagrangestart) node has the same [`Id`](../structureddocumenttagrangestart/id). |
 | override [NodeType](nodetype) { get; } |  |
-| override [Accept](accept)(…) |  |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| override [Accept](accept)(DocumentVisitor) |  |
 
 ### Remarks
 
-Can be immediate child of [`Body`](../../aspose.words/body) node only.
+Can be immediate child of [`Body`](../../aspose.words/body) node **only**.
 
 ### Examples
 

@@ -3,7 +3,7 @@ title: Gallery
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 100
+weight: 60
 url: /net/aspose.words.buildingblocks/buildingblock/gallery/
 ---
 ## BuildingBlock.Gallery property
@@ -18,7 +18,7 @@ public BuildingBlockGallery Gallery { get; set; }
 
 Building blocks in Microsoft Word user interface are arranged into Galleries. Each `Gallery` can have multiple Categories. Each block within a [`Category`](../category) has a [`Name`](../name).
 
-Corresponds to the docPartPr.category.gallery element in OOXML.
+Corresponds to the **docPartPr.category.gallery** element in OOXML.
 
 ### Examples
 

@@ -3,7 +3,7 @@ title: FlatOpcXmlMappingOnly
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 220
+weight: 90
 url: /net/aspose.words.saving/saveoptions/flatopcxmlmappingonly/
 ---
 ## SaveOptions.FlatOpcXmlMappingOnly property

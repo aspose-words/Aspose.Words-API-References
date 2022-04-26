@@ -3,7 +3,7 @@ title: PageSetup
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 550
+weight: 140
 url: /net/aspose.words/documentbuilder/pagesetup/
 ---
 ## DocumentBuilder.PageSetup property

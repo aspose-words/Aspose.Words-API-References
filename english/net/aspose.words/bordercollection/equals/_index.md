@@ -3,7 +3,7 @@ title: Equals
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 10
+weight: 150
 url: /net/aspose.words/bordercollection/equals/
 ---
 ## BorderCollection.Equals method

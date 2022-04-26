@@ -3,7 +3,7 @@ title: HasHeaders
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 20
+weight: 40
 url: /net/aspose.words.reporting/csvdataloadoptions/hasheaders/
 ---
 ## CsvDataLoadOptions.HasHeaders property
@@ -16,7 +16,7 @@ public bool HasHeaders { get; set; }
 
 ### Remarks
 
-The default value is false.
+The default value is **false**.
 
 ### See Also
 

@@ -3,7 +3,7 @@ title: LocaleIdBi
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 480
+weight: 210
 url: /net/aspose.words/font/localeidbi/
 ---
 ## Font.LocaleIdBi property

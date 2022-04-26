@@ -3,7 +3,7 @@ title: VisitStructuredDocumentTagRangeStart
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 490
+weight: 460
 url: /net/aspose.words/documentvisitor/visitstructureddocumenttagrangestart/
 ---
 ## DocumentVisitor.VisitStructuredDocumentTagRangeStart method

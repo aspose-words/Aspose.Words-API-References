@@ -10,7 +10,7 @@ url: /net/aspose.words.saving/txtsaveoptionsbase/forcepagebreaks/
 
 Allows to specify whether the page breaks should be preserved during export.
 
-The default value is false.
+The default value is **false**.
 
 ```csharp
 public bool ForcePageBreaks { get; set; }

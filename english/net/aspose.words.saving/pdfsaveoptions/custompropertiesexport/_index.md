@@ -3,7 +3,7 @@ title: CustomPropertiesExport
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 140
+weight: 50
 url: /net/aspose.words.saving/pdfsaveoptions/custompropertiesexport/
 ---
 ## PdfSaveOptions.CustomPropertiesExport property
@@ -18,7 +18,7 @@ public PdfCustomPropertiesExport CustomPropertiesExport { get; set; }
 
 Default value is None.
 
-Metadata value is not supported when saving to PDF/A. Standard will be used instead.
+Metadata value is not supported when saving to PDF/A. Standard will be used instead for PDF/A-1 and PDF/A-2 and None for PDF/A-4.
 
 Standard value is not supported when saving to PDF 2.0. Metadata will be used instead.
 

@@ -3,7 +3,7 @@ title: FieldTA
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 2270
+weight: 2250
 url: /net/aspose.words.fields/fieldta/
 ---
 ## FieldTA class
@@ -14,11 +14,16 @@ Implements the TA field.
 public class FieldTA : Field
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [FieldTA](fieldta)() | The default constructor. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [EntryCategory](entrycategory) { get; set; } | Gets or sets the integral entry category, which is a number that corresponds to the order of categories. |
 | [IsBold](isbold) { get; set; } | Gets or sets whether to apply bold formatting to the page number for the entry. |
 | [IsItalic](isitalic) { get; set; } | Gets or sets whether to apply italic formatting to the page number for the entry. |

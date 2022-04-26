@@ -3,7 +3,7 @@ title: ClearFormat
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 20
+weight: 130
 url: /net/aspose.words.drawing.charts/chartdatalabelcollection/clearformat/
 ---
 ## ChartDataLabelCollection.ClearFormat method

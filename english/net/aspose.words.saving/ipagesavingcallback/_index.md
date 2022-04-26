@@ -3,7 +3,7 @@ title: IPageSavingCallback
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 4830
+weight: 4780
 url: /net/aspose.words.saving/ipagesavingcallback/
 ---
 ## IPageSavingCallback interface
@@ -14,11 +14,11 @@ Implement this interface if you want to control how Aspose.Words saves separate 
 public interface IPageSavingCallback
 ```
 
-## Members
+## Methods
 
 | Name | Description |
 | --- | --- |
-| [PageSaving](pagesaving)(…) | Called when Aspose.Words saves a separate page to fixed page formats. |
+| [PageSaving](pagesaving)(PageSavingArgs) | Called when Aspose.Words saves a separate page to fixed page formats. |
 
 ### Examples
 

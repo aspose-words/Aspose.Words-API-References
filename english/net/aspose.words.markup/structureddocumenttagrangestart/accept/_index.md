@@ -3,7 +3,7 @@ title: Accept
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 20
+weight: 190
 url: /net/aspose.words.markup/structureddocumenttagrangestart/accept/
 ---
 ## StructuredDocumentTagRangeStart.Accept method

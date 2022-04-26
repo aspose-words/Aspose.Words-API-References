@@ -3,12 +3,12 @@ title: HasMacros
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 530
+weight: 190
 url: /net/aspose.words/document/hasmacros/
 ---
 ## Document.HasMacros property
 
-Returns true if the document has a VBA project (macros).
+Returns **true** if the document has a VBA project (macros).
 
 ```csharp
 public bool HasMacros { get; }

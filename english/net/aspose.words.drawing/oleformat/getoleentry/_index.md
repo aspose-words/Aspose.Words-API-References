@@ -3,7 +3,7 @@ title: GetOleEntry
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 20
+weight: 140
 url: /net/aspose.words.drawing/oleformat/getoleentry/
 ---
 ## OleFormat.GetOleEntry method

@@ -3,7 +3,7 @@ title: StatusText
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 80
+weight: 180
 url: /net/aspose.words.fields/formfield/statustext/
 ---
 ## FormField.StatusText property
@@ -16,7 +16,9 @@ public string StatusText { get; set; }
 
 ### Remarks
 
-If the OwnStatus property is set to true, the StatusText property specifies the status bar text. If the OwnStatus property is set to false, the StatusText property specifies the name of an AutoText entry that contains status bar text for the form field. Microsoft Word allows strings with at most 138 characters.
+If the OwnStatus property is set to true, the StatusText property specifies the status bar text. If the OwnStatus property is set to false, the StatusText property specifies the name of an AutoText entry that contains status bar text for the form field.
+
+Microsoft Word allows strings with at most 138 characters.
 
 ### Examples
 

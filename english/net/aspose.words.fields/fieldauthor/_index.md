@@ -3,7 +3,7 @@ title: FieldAuthor
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 1390
+weight: 1370
 url: /net/aspose.words.fields/fieldauthor/
 ---
 ## FieldAuthor class
@@ -14,16 +14,21 @@ Implements the AUTHOR field.
 public class FieldAuthor : Field
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [FieldAuthor](fieldauthor)() | The default constructor. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [AuthorName](authorname) { get; set; } | Gets or sets the document author's name. |
 
 ### Remarks
 
-Retrieves, and optionally sets, the document author's name, as recorded in the Author property of the built-in document properties.
+Retrieves, and optionally sets, the document author's name, as recorded in the **Author** property of the built-in document properties.
 
 ### Examples
 

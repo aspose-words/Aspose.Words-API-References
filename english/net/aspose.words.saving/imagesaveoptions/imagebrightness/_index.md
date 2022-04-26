@@ -3,7 +3,7 @@ title: ImageBrightness
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 130
+weight: 30
 url: /net/aspose.words.saving/imagesaveoptions/imagebrightness/
 ---
 ## ImageSaveOptions.ImageBrightness property

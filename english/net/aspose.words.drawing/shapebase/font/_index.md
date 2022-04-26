@@ -3,7 +3,7 @@ title: Font
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 600
+weight: 190
 url: /net/aspose.words.drawing/shapebase/font/
 ---
 ## ShapeBase.Font property

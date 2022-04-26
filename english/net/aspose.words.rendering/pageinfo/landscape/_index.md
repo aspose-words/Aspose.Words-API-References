@@ -3,7 +3,7 @@ title: Landscape
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 70
+weight: 20
 url: /net/aspose.words.rendering/pageinfo/landscape/
 ---
 ## PageInfo.Landscape property

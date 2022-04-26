@@ -3,7 +3,7 @@ title: Shape
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 40
+weight: 60
 url: /net/aspose.words.mailmerging/imagefieldmergingargs/shape/
 ---
 ## ImageFieldMergingArgs.Shape property
@@ -16,7 +16,9 @@ public Shape Shape { get; set; }
 
 ### Remarks
 
-When this property is specified, the mail merge engine ignores all other properties like [`ImageFileName`](../imagefilename) or [`ImageStream`](../imagestream) and simply inserts the shape into the document.Use this property to fully control the process of merging an image merge field. For example, you can specify [`WrapType`](../../../aspose.words.drawing/shapebase/wraptype) or any other shape property to fine tune the resulting node. However, please note that you are responsible for providing the content of the shape.
+When this property is specified, the mail merge engine ignores all other properties like [`ImageFileName`](../imagefilename) or [`ImageStream`](../imagestream) and simply inserts the shape into the document.
+
+Use this property to fully control the process of merging an image merge field. For example, you can specify [`WrapType`](../../../aspose.words.drawing/shapebase/wraptype) or any other shape property to fine tune the resulting node. However, please note that you are responsible for providing the content of the shape.
 
 ### See Also
 

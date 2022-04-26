@@ -3,7 +3,7 @@ title: ToDouble
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 30
+weight: 90
 url: /net/aspose.words.properties/documentproperty/todouble/
 ---
 ## DocumentProperty.ToDouble method

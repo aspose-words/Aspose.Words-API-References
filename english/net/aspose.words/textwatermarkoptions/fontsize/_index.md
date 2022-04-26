@@ -22,7 +22,9 @@ public float FontSize { get; set; }
 
 ### Remarks
 
-Valid values range from 0 to 65.5 inclusive. Auto font size means that the watermark will be scaled to its max width and max height relative to the page margins.
+Valid values range from 0 to 65.5 inclusive.
+
+Auto font size means that the watermark will be scaled to its max width and max height relative to the page margins.
 
 ### Examples
 

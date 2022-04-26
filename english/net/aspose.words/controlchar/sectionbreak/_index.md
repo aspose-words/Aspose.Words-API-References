@@ -3,7 +3,7 @@ title: SectionBreak
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 70
+weight: 240
 url: /net/aspose.words/controlchar/sectionbreak/
 ---
 ## ControlChar.SectionBreak field

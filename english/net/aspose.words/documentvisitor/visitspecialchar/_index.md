@@ -3,7 +3,7 @@ title: VisitSpecialChar
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 360
+weight: 430
 url: /net/aspose.words/documentvisitor/visitspecialchar/
 ---
 ## DocumentVisitor.VisitSpecialChar method

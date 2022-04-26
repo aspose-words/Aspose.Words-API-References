@@ -3,7 +3,7 @@ title: DoNotWrapTextWithPunct
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 480
+weight: 250
 url: /net/aspose.words.settings/compatibilityoptions/donotwraptextwithpunct/
 ---
 ## CompatibilityOptions.DoNotWrapTextWithPunct property

@@ -3,7 +3,7 @@ title: LanguagePreferences
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 3390
+weight: 3360
 url: /net/aspose.words.loading/languagepreferences/
 ---
 ## LanguagePreferences class
@@ -14,14 +14,24 @@ Allows to set up language preferences.
 public class LanguagePreferences
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [LanguagePreferences](languagepreferences)() | The default constructor. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [DefaultEditingLanguage](defaulteditinglanguage) { get; set; } | Gets or sets default editing language. |
-| [AddEditingLanguage](addeditinglanguage)(…) | Adds additional editing language. |
-| [AddEditingLanguages](addeditinglanguages)(…) | Adds additional editing languages. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [AddEditingLanguage](addeditinglanguage)(EditingLanguage) | Adds additional editing language. |
+| [AddEditingLanguages](addeditinglanguages)(EditingLanguage[]) | Adds additional editing languages. |
 
 ### Remarks
 

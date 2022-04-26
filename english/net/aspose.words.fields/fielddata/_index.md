@@ -3,7 +3,7 @@ title: FieldData
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 1550
+weight: 1530
 url: /net/aspose.words.fields/fielddata/
 ---
 ## FieldData class
@@ -14,7 +14,7 @@ Implements the DATA field.
 public class FieldData : Field
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |

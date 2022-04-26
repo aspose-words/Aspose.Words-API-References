@@ -3,7 +3,7 @@ title: StyleCollection
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 5750
+weight: 5700
 url: /net/aspose.words/stylecollection/
 ---
 ## StyleCollection class
@@ -14,7 +14,7 @@ A collection of Style objects that represent both the built-in and user-defined 
 public class StyleCollection : IEnumerable<Style>
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -23,8 +23,13 @@ public class StyleCollection : IEnumerable<Style>
 | [DefaultParagraphFormat](defaultparagraphformat) { get; } | Gets document default paragraph formatting. |
 | [Document](document) { get; } | Gets the owner document. |
 | [Item](item) { get; } | Gets a style by name or alias. (3 indexers) |
-| [Add](add)(…) | Creates a new user defined style and adds it the collection. |
-| [AddCopy](addcopy)(…) | Copies a style into this collection. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [Add](add)(StyleType, string) | Creates a new user defined style and adds it the collection. |
+| [AddCopy](addcopy)(Style) | Copies a style into this collection. |
 | [ClearQuickStyleGallery](clearquickstylegallery)() | Removes all styles from the Quick Style Gallery panel. |
 | [GetEnumerator](getenumerator)() | Gets an enumerator object that will enumerate styles in the alphabetical order of their names. |
 

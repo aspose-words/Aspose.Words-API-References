@@ -3,7 +3,7 @@ title: CopyStylesFromTemplate
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 250
+weight: 550
 url: /net/aspose.words/document/copystylesfromtemplate/
 ---
 ## Document.CopyStylesFromTemplate method (1 of 2)
@@ -11,7 +11,7 @@ url: /net/aspose.words/document/copystylesfromtemplate/
 Copies styles from the specified template to a document.
 
 ```csharp
-public void CopyStylesFromTemplate(Document template)
+public void CopyStylesFromTemplate(string template)
 ```
 
 ### Remarks
@@ -19,15 +19,6 @@ public void CopyStylesFromTemplate(Document template)
 When styles are copied from a template to a document, like-named styles in the document are redefined to match the style descriptions in the template. Unique styles from the template are copied to the document. Unique styles in the document remain intact.
 
 ### Examples
-
-Shows how to copies styles from the template to a document via Document.
-
-```csharp
-Document template = new Document(MyDir + "Rendering.docx");
-Document target = new Document(MyDir + "Document.docx");
-
-target.CopyStylesFromTemplate(template);
-```
 
 Shows how to copy styles from one document to another.
 
@@ -89,7 +80,7 @@ Assert.AreEqual(21, target.Styles.Count);
 Copies styles from the specified template to a document.
 
 ```csharp
-public void CopyStylesFromTemplate(string template)
+public void CopyStylesFromTemplate(Document template)
 ```
 
 ### Remarks
@@ -97,6 +88,15 @@ public void CopyStylesFromTemplate(string template)
 When styles are copied from a template to a document, like-named styles in the document are redefined to match the style descriptions in the template. Unique styles from the template are copied to the document. Unique styles in the document remain intact.
 
 ### Examples
+
+Shows how to copies styles from the template to a document via Document.
+
+```csharp
+Document template = new Document(MyDir + "Rendering.docx");
+Document target = new Document(MyDir + "Document.docx");
+
+target.CopyStylesFromTemplate(template);
+```
 
 Shows how to copy styles from one document to another.
 

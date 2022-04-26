@@ -3,12 +3,12 @@ title: IsMoveFromRevision
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 250
+weight: 130
 url: /net/aspose.words/paragraph/ismovefromrevision/
 ---
 ## Paragraph.IsMoveFromRevision property
 
-Returns true if this object was moved (deleted) in Microsoft Word while change tracking was enabled.
+Returns **true** if this object was moved (deleted) in Microsoft Word while change tracking was enabled.
 
 ```csharp
 public bool IsMoveFromRevision { get; }

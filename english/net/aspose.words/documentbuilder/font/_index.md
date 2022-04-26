@@ -3,7 +3,7 @@ title: Font
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 490
+weight: 90
 url: /net/aspose.words/documentbuilder/font/
 ---
 ## DocumentBuilder.Font property
@@ -16,7 +16,9 @@ public Font Font { get; }
 
 ### Remarks
 
-Use Font to access and modify font formatting properties.Specify font formatting before inserting text.
+Use **Font** to access and modify font formatting properties.
+
+Specify font formatting before inserting text.
 
 ### Examples
 

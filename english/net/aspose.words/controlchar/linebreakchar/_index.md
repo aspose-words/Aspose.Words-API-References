@@ -3,7 +3,7 @@ title: LineBreakChar
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 160
+weight: 130
 url: /net/aspose.words/controlchar/linebreakchar/
 ---
 ## ControlChar.LineBreakChar field

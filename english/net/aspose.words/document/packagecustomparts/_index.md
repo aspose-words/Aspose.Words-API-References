@@ -3,7 +3,7 @@ title: PackageCustomParts
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 590
+weight: 290
 url: /net/aspose.words/document/packagecustomparts/
 ---
 ## Document.PackageCustomParts property

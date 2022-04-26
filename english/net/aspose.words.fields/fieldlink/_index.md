@@ -3,7 +3,7 @@ title: FieldLink
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 1910
+weight: 1890
 url: /net/aspose.words.fields/fieldlink/
 ---
 ## FieldLink class
@@ -14,11 +14,16 @@ Implements the LINK field.
 public class FieldLink : Field
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [FieldLink](fieldlink)() | The default constructor. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [AutoUpdate](autoupdate) { get; set; } | Gets or sets whether to update this field automatically. |
 | [FormatUpdateType](formatupdatetype) { get; set; } | Gets or sets a way the linked object updates its formatting. |
 | [InsertAsBitmap](insertasbitmap) { get; set; } | Gets or sets whether to insert the linked object as a bitmap. |

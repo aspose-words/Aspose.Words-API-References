@@ -3,7 +3,7 @@ title: CommentColor
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 170
+weight: 10
 url: /net/aspose.words.layout/revisionoptions/commentcolor/
 ---
 ## RevisionOptions.CommentColor property

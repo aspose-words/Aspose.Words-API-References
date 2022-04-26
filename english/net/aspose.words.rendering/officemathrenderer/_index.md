@@ -3,7 +3,7 @@ title: OfficeMathRenderer
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 4230
+weight: 4180
 url: /net/aspose.words.rendering/officemathrenderer/
 ---
 ## OfficeMathRenderer class
@@ -14,11 +14,11 @@ Provides methods to render an individual [`OfficeMath`](../../aspose.words.math/
 public class OfficeMathRenderer : NodeRendererBase
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
-| [OfficeMathRenderer](officemathrenderer)(…) | Initializes a new instance of this class. |
+| [OfficeMathRenderer](officemathrenderer)(OfficeMath) | Initializes a new instance of this class. |
 
 ### Examples
 

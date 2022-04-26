@@ -3,7 +3,7 @@ title: SpaceAfter
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 260
+weight: 290
 url: /net/aspose.words/paragraphformat/spaceafter/
 ---
 ## ParagraphFormat.SpaceAfter property
@@ -22,7 +22,9 @@ public double SpaceAfter { get; set; }
 
 ### Remarks
 
-Has no effect when [`SpaceAfterAuto`](../spaceafterauto) is true.Valid values ​​range from 0 to 1584 inclusive.
+Has no effect when [`SpaceAfterAuto`](../spaceafterauto) is true.
+
+Valid values ​​range from 0 to 1584 inclusive.
 
 ### Examples
 

@@ -3,7 +3,7 @@ title: DownsampleOptions
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 4630
+weight: 4580
 url: /net/aspose.words.saving/downsampleoptions/
 ---
 ## DownsampleOptions class
@@ -14,11 +14,16 @@ Allows to specify downsample options.
 public class DownsampleOptions
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [DownsampleOptions](downsampleoptions)() | The default constructor. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [DownsampleImages](downsampleimages) { get; set; } | Specifies whether images should be downsampled. |
 | [Resolution](resolution) { get; set; } | Specifies the resolution in pixels per inch which the images should be downsampled to. |
 | [ResolutionThreshold](resolutionthreshold) { get; set; } | Specifies the threshold resolution in pixels per inch. If resolution of an image in the document is less than threshold value, the downsampling algorithm will not be applied. A value of 0 means the threshold check is not used and all images that can be reduced in size are downsampled. |

@@ -3,7 +3,7 @@ title: Inline
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 3000
+weight: 2980
 url: /net/aspose.words/inline/
 ---
 ## Inline class
@@ -14,7 +14,7 @@ Base class for inline-level nodes that can have character formatting associated 
 public abstract class Inline : Node
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -22,13 +22,13 @@ public abstract class Inline : Node
 | [IsDeleteRevision](isdeleterevision) { get; } | Returns true if this object was deleted in Microsoft Word while change tracking was enabled. |
 | [IsFormatRevision](isformatrevision) { get; } | Returns true if formatting of the object was changed in Microsoft Word while change tracking was enabled. |
 | [IsInsertRevision](isinsertrevision) { get; } | Returns true if this object was inserted in Microsoft Word while change tracking was enabled. |
-| [IsMoveFromRevision](ismovefromrevision) { get; } | Returns true if this object was moved (deleted) in Microsoft Word while change tracking was enabled. |
-| [IsMoveToRevision](ismovetorevision) { get; } | Returns true if this object was moved (inserted) in Microsoft Word while change tracking was enabled. |
+| [IsMoveFromRevision](ismovefromrevision) { get; } | Returns **true** if this object was moved (deleted) in Microsoft Word while change tracking was enabled. |
+| [IsMoveToRevision](ismovetorevision) { get; } | Returns **true** if this object was moved (inserted) in Microsoft Word while change tracking was enabled. |
 | [ParentParagraph](parentparagraph) { get; } | Retrieves the parent [`Paragraph`](../paragraph) of this node. |
 
 ### Remarks
 
-A class derived from Inline can be a child of Paragraph.
+A class derived from **Inline** can be a child of **Paragraph**.
 
 ### Examples
 

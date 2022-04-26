@@ -3,7 +3,7 @@ title: ToByteArray
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 40
+weight: 210
 url: /net/aspose.words.drawing/imagedata/tobytearray/
 ---
 ## ImageData.ToByteArray method

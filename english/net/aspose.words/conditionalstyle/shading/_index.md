@@ -3,7 +3,7 @@ title: Shading
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 60
+weight: 70
 url: /net/aspose.words/conditionalstyle/shading/
 ---
 ## ConditionalStyle.Shading property

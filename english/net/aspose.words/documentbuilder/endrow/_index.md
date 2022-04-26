@@ -3,7 +3,7 @@ title: EndRow
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 450
+weight: 220
 url: /net/aspose.words/documentbuilder/endrow/
 ---
 ## DocumentBuilder.EndRow method
@@ -20,7 +20,9 @@ The row node that was just finished.
 
 ### Remarks
 
-Call EndRow to end a table row. If you call [`InsertCell`](../insertcell) immediately after that, then the table continues on a new row.Use the [`RowFormat`](../rowformat) property to specify row formatting.
+Call **EndRow** to end a table row. If you call [`InsertCell`](../insertcell) immediately after that, then the table continues on a new row.
+
+Use the [`RowFormat`](../rowformat) property to specify row formatting.
 
 ### Examples
 

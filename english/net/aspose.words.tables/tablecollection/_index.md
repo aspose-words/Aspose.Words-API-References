@@ -3,7 +3,7 @@ title: TableCollection
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 5970
+weight: 5920
 url: /net/aspose.words.tables/tablecollection/
 ---
 ## TableCollection class
@@ -14,11 +14,16 @@ Provides typed access to a collection of [`Table`](../table) nodes.
 public class TableCollection : NodeCollection
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
-| [Item](item) { get; } | Retrieves a Table at the given index. |
+| [Item](item) { get; } | Retrieves a **Table** at the given index. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
 | [ToArray](toarray)() | Copies all tables from the collection to a new array of tables. |
 
 ### Examples

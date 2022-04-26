@@ -3,7 +3,7 @@ title: HeaderFooter
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 2860
+weight: 2840
 url: /net/aspose.words/headerfooter/
 ---
 ## HeaderFooter class
@@ -14,21 +14,37 @@ Represents a container for the header or footer text of a section.
 public class HeaderFooter : Story
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
-| [HeaderFooter](headerfooter)(…) | Creates a new header or footer of the specified type. |
+| [HeaderFooter](headerfooter)(DocumentBase, HeaderFooterType) | Creates a new header or footer of the specified type. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [HeaderFooterType](headerfootertype) { get; } | Gets the type of this header/footer. |
-| [IsHeader](isheader) { get; } | True if this HeaderFooter object is a header. |
+| [IsHeader](isheader) { get; } | True if this **HeaderFooter** object is a header. |
 | [IsLinkedToPrevious](islinkedtoprevious) { get; set; } | True if this header or footer is linked to the corresponding header or footer in the previous section. |
-| override [NodeType](nodetype) { get; } | Returns NodeType.HeaderFooter. |
+| override [NodeType](nodetype) { get; } | Returns **NodeType.HeaderFooter**. |
 | [ParentSection](parentsection) { get; } | Gets the parent section of this story. |
-| override [Accept](accept)(…) | Accepts a visitor. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| override [Accept](accept)(DocumentVisitor) | Accepts a visitor. |
 
 ### Remarks
 
-HeaderFooter can contain Paragraph and Table child nodes.HeaderFooter is a section-level node and can only be a child of Section. There can only be one HeaderFooter or each [`HeaderFooterType`](./headerfootertype) in a Section.If Section does not have a HeaderFooter of a specific type or the HeaderFooter has no child nodes, this header/footer is considered linked to the header/footer of the same type of the previous section in Microsoft Word.When HeaderFooter contains at least one Paragraph, it is no longer considered linked to previous in Microsoft Word.
+**HeaderFooter** can contain **Paragraph** and **Table** child nodes.
+
+**HeaderFooter** is a section-level node and can only be a child of **Section**. There can only be one **HeaderFooter** or each [`HeaderFooterType`](./headerfootertype) in a **Section**.
+
+If **Section** does not have a **HeaderFooter** of a specific type or the **HeaderFooter** has no child nodes, this header/footer is considered linked to the header/footer of the same type of the previous section in Microsoft Word.
+
+When **HeaderFooter** contains at least one **Paragraph**, it is no longer considered linked to previous in Microsoft Word.
 
 ### Examples
 

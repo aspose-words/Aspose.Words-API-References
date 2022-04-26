@@ -3,138 +3,16 @@ title: Sign
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 10
+weight: 30
 url: /net/aspose.words.digitalsignatures/digitalsignatureutil/sign/
 ---
 ## DigitalSignatureUtil.Sign method (1 of 4)
 
-Signs source document using given [`CertificateHolder`](../../certificateholder) with digital signature and writes signed document to destination stream. Document should be either Doc or Docx.Output will be written to the start of stream and stream size will be updated with content length.
+Signs source document using given [`CertificateHolder`](../../certificateholder) and [`SignOptions`](../../signoptions) with digital signature and writes signed document to destination stream.
 
-```csharp
-public static void Sign(Stream srcStream, Stream dstStream, CertificateHolder certHolder)
-```
+Document should be either Doc or Docx.
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| srcStream | Stream | The stream which contains the document to sign. |
-| dstStream | Stream | The stream that signed document will be written to. |
-| certHolder | CertificateHolder | [`CertificateHolder`](../../certificateholder) object with certificate that used to sign file. The certificate in holder MUST contain private keys and have the X509KeyStorageFlags.Exportable flag set. |
-
-### Examples
-
-Shows how to sign documents with X.509 certificates.
-
-```csharp
-// Verify that a document is not signed.
-Assert.False(FileFormatUtil.DetectFileFormat(MyDir + "Document.docx").HasDigitalSignature);
-
-// Create a CertificateHolder object from a PKCS12 file, which we will use to sign the document.
-CertificateHolder certificateHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "aw", null);
-
-// There are two ways of saving a signed copy of a document to the local file system:
-// 1 - Designate a document by a local system filename and save a signed copy at a location specified by another filename.
-DigitalSignatureUtil.Sign(MyDir + "Document.docx", ArtifactsDir + "Document.DigitalSignature.docx", 
-    certificateHolder, new SignOptions() { SignTime = DateTime.Now } );
-
-Assert.True(FileFormatUtil.DetectFileFormat(ArtifactsDir + "Document.DigitalSignature.docx").HasDigitalSignature);
-
-// 2 - Take a document from a stream and save a signed copy to another stream.
-using (FileStream inDoc = new FileStream(MyDir + "Document.docx", FileMode.Open))
-{
-    using (FileStream outDoc = new FileStream(ArtifactsDir + "Document.DigitalSignature.docx", FileMode.Create))
-    {
-        DigitalSignatureUtil.Sign(inDoc, outDoc, certificateHolder);
-    }
-}
-
-Assert.True(FileFormatUtil.DetectFileFormat(ArtifactsDir + "Document.DigitalSignature.docx").HasDigitalSignature);
-
-// Please verify that all of the document's digital signatures are valid and check their details.
-Document signedDoc = new Document(ArtifactsDir + "Document.DigitalSignature.docx");
-DigitalSignatureCollection digitalSignatureCollection = signedDoc.DigitalSignatures;
-
-Assert.True(digitalSignatureCollection.IsValid);
-Assert.AreEqual(1, digitalSignatureCollection.Count);
-Assert.AreEqual(DigitalSignatureType.XmlDsig, digitalSignatureCollection[0].SignatureType);
-Assert.AreEqual("CN=Morzal.Me", signedDoc.DigitalSignatures[0].IssuerName);
-Assert.AreEqual("CN=Morzal.Me", signedDoc.DigitalSignatures[0].SubjectName);
-```
-
-### See Also
-
-* class [CertificateHolder](../../certificateholder)
-* class [DigitalSignatureUtil](../../digitalsignatureutil)
-* namespace [Aspose.Words.DigitalSignatures](../../digitalsignatureutil)
-* assembly [Aspose.Words](../../../)
-
----
-
-## DigitalSignatureUtil.Sign method (2 of 4)
-
-Signs source document using given [`CertificateHolder`](../../certificateholder) with digital signature and writes signed document to destination file. Document should be either Doc or Docx.
-
-```csharp
-public static void Sign(string srcFileName, string dstFileName, CertificateHolder certHolder)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| srcFileName | String | The file name of the document to sign. |
-| dstFileName | String | The file name of the signed document output. |
-| certHolder | CertificateHolder | [`CertificateHolder`](../../certificateholder) object with certificate that used to sign file. The certificate in holder MUST contain private keys and have the X509KeyStorageFlags.Exportable flag set. |
-
-### Examples
-
-Shows how to sign documents with X.509 certificates.
-
-```csharp
-// Verify that a document is not signed.
-Assert.False(FileFormatUtil.DetectFileFormat(MyDir + "Document.docx").HasDigitalSignature);
-
-// Create a CertificateHolder object from a PKCS12 file, which we will use to sign the document.
-CertificateHolder certificateHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "aw", null);
-
-// There are two ways of saving a signed copy of a document to the local file system:
-// 1 - Designate a document by a local system filename and save a signed copy at a location specified by another filename.
-DigitalSignatureUtil.Sign(MyDir + "Document.docx", ArtifactsDir + "Document.DigitalSignature.docx", 
-    certificateHolder, new SignOptions() { SignTime = DateTime.Now } );
-
-Assert.True(FileFormatUtil.DetectFileFormat(ArtifactsDir + "Document.DigitalSignature.docx").HasDigitalSignature);
-
-// 2 - Take a document from a stream and save a signed copy to another stream.
-using (FileStream inDoc = new FileStream(MyDir + "Document.docx", FileMode.Open))
-{
-    using (FileStream outDoc = new FileStream(ArtifactsDir + "Document.DigitalSignature.docx", FileMode.Create))
-    {
-        DigitalSignatureUtil.Sign(inDoc, outDoc, certificateHolder);
-    }
-}
-
-Assert.True(FileFormatUtil.DetectFileFormat(ArtifactsDir + "Document.DigitalSignature.docx").HasDigitalSignature);
-
-// Please verify that all of the document's digital signatures are valid and check their details.
-Document signedDoc = new Document(ArtifactsDir + "Document.DigitalSignature.docx");
-DigitalSignatureCollection digitalSignatureCollection = signedDoc.DigitalSignatures;
-
-Assert.True(digitalSignatureCollection.IsValid);
-Assert.AreEqual(1, digitalSignatureCollection.Count);
-Assert.AreEqual(DigitalSignatureType.XmlDsig, digitalSignatureCollection[0].SignatureType);
-Assert.AreEqual("CN=Morzal.Me", signedDoc.DigitalSignatures[0].IssuerName);
-Assert.AreEqual("CN=Morzal.Me", signedDoc.DigitalSignatures[0].SubjectName);
-```
-
-### See Also
-
-* class [CertificateHolder](../../certificateholder)
-* class [DigitalSignatureUtil](../../digitalsignatureutil)
-* namespace [Aspose.Words.DigitalSignatures](../../digitalsignatureutil)
-* assembly [Aspose.Words](../../../)
-
----
-
-## DigitalSignatureUtil.Sign method (3 of 4)
-
-Signs source document using given [`CertificateHolder`](../../certificateholder) and [`SignOptions`](../../signoptions) with digital signature and writes signed document to destination stream. Document should be either Doc or Docx.Output will be written to the start of stream and stream size will be updated with content length.
+**Output will be written to the start of stream and stream size will be updated with content length.**
 
 ```csharp
 public static void Sign(Stream srcStream, Stream dstStream, CertificateHolder certHolder, 
@@ -184,9 +62,11 @@ using (Stream streamIn = new FileStream(MyDir + "Document.docx", FileMode.Open))
 
 ---
 
-## DigitalSignatureUtil.Sign method (4 of 4)
+## DigitalSignatureUtil.Sign method (2 of 4)
 
-Signs source document using given [`CertificateHolder`](../../certificateholder) and [`SignOptions`](../../signoptions) with digital signature and writes signed document to destination file. Document should be either Doc or Docx.
+Signs source document using given [`CertificateHolder`](../../certificateholder) and [`SignOptions`](../../signoptions) with digital signature and writes signed document to destination file.
+
+Document should be either Doc or Docx.
 
 ```csharp
 public static void Sign(string srcFileName, string dstFileName, CertificateHolder certHolder, 
@@ -317,6 +197,138 @@ Shows how to add a signature line to a document, and then sign it using a digita
 
 * class [CertificateHolder](../../certificateholder)
 * class [SignOptions](../../signoptions)
+* class [DigitalSignatureUtil](../../digitalsignatureutil)
+* namespace [Aspose.Words.DigitalSignatures](../../digitalsignatureutil)
+* assembly [Aspose.Words](../../../)
+
+---
+
+## DigitalSignatureUtil.Sign method (3 of 4)
+
+Signs source document using given [`CertificateHolder`](../../certificateholder) with digital signature and writes signed document to destination stream.
+
+Document should be either Doc or Docx.
+
+**Output will be written to the start of stream and stream size will be updated with content length.**
+
+```csharp
+public static void Sign(Stream srcStream, Stream dstStream, CertificateHolder certHolder)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| srcStream | Stream | The stream which contains the document to sign. |
+| dstStream | Stream | The stream that signed document will be written to. |
+| certHolder | CertificateHolder | [`CertificateHolder`](../../certificateholder) object with certificate that used to sign file. The certificate in holder MUST contain private keys and have the X509KeyStorageFlags.Exportable flag set. |
+
+### Examples
+
+Shows how to sign documents with X.509 certificates.
+
+```csharp
+// Verify that a document is not signed.
+Assert.False(FileFormatUtil.DetectFileFormat(MyDir + "Document.docx").HasDigitalSignature);
+
+// Create a CertificateHolder object from a PKCS12 file, which we will use to sign the document.
+CertificateHolder certificateHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "aw", null);
+
+// There are two ways of saving a signed copy of a document to the local file system:
+// 1 - Designate a document by a local system filename and save a signed copy at a location specified by another filename.
+DigitalSignatureUtil.Sign(MyDir + "Document.docx", ArtifactsDir + "Document.DigitalSignature.docx", 
+    certificateHolder, new SignOptions() { SignTime = DateTime.Now } );
+
+Assert.True(FileFormatUtil.DetectFileFormat(ArtifactsDir + "Document.DigitalSignature.docx").HasDigitalSignature);
+
+// 2 - Take a document from a stream and save a signed copy to another stream.
+using (FileStream inDoc = new FileStream(MyDir + "Document.docx", FileMode.Open))
+{
+    using (FileStream outDoc = new FileStream(ArtifactsDir + "Document.DigitalSignature.docx", FileMode.Create))
+    {
+        DigitalSignatureUtil.Sign(inDoc, outDoc, certificateHolder);
+    }
+}
+
+Assert.True(FileFormatUtil.DetectFileFormat(ArtifactsDir + "Document.DigitalSignature.docx").HasDigitalSignature);
+
+// Please verify that all of the document's digital signatures are valid and check their details.
+Document signedDoc = new Document(ArtifactsDir + "Document.DigitalSignature.docx");
+DigitalSignatureCollection digitalSignatureCollection = signedDoc.DigitalSignatures;
+
+Assert.True(digitalSignatureCollection.IsValid);
+Assert.AreEqual(1, digitalSignatureCollection.Count);
+Assert.AreEqual(DigitalSignatureType.XmlDsig, digitalSignatureCollection[0].SignatureType);
+Assert.AreEqual("CN=Morzal.Me", signedDoc.DigitalSignatures[0].IssuerName);
+Assert.AreEqual("CN=Morzal.Me", signedDoc.DigitalSignatures[0].SubjectName);
+```
+
+### See Also
+
+* class [CertificateHolder](../../certificateholder)
+* class [DigitalSignatureUtil](../../digitalsignatureutil)
+* namespace [Aspose.Words.DigitalSignatures](../../digitalsignatureutil)
+* assembly [Aspose.Words](../../../)
+
+---
+
+## DigitalSignatureUtil.Sign method (4 of 4)
+
+Signs source document using given [`CertificateHolder`](../../certificateholder) with digital signature and writes signed document to destination file.
+
+Document should be either Doc or Docx.
+
+```csharp
+public static void Sign(string srcFileName, string dstFileName, CertificateHolder certHolder)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| srcFileName | String | The file name of the document to sign. |
+| dstFileName | String | The file name of the signed document output. |
+| certHolder | CertificateHolder | [`CertificateHolder`](../../certificateholder) object with certificate that used to sign file. The certificate in holder MUST contain private keys and have the X509KeyStorageFlags.Exportable flag set. |
+
+### Examples
+
+Shows how to sign documents with X.509 certificates.
+
+```csharp
+// Verify that a document is not signed.
+Assert.False(FileFormatUtil.DetectFileFormat(MyDir + "Document.docx").HasDigitalSignature);
+
+// Create a CertificateHolder object from a PKCS12 file, which we will use to sign the document.
+CertificateHolder certificateHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "aw", null);
+
+// There are two ways of saving a signed copy of a document to the local file system:
+// 1 - Designate a document by a local system filename and save a signed copy at a location specified by another filename.
+DigitalSignatureUtil.Sign(MyDir + "Document.docx", ArtifactsDir + "Document.DigitalSignature.docx", 
+    certificateHolder, new SignOptions() { SignTime = DateTime.Now } );
+
+Assert.True(FileFormatUtil.DetectFileFormat(ArtifactsDir + "Document.DigitalSignature.docx").HasDigitalSignature);
+
+// 2 - Take a document from a stream and save a signed copy to another stream.
+using (FileStream inDoc = new FileStream(MyDir + "Document.docx", FileMode.Open))
+{
+    using (FileStream outDoc = new FileStream(ArtifactsDir + "Document.DigitalSignature.docx", FileMode.Create))
+    {
+        DigitalSignatureUtil.Sign(inDoc, outDoc, certificateHolder);
+    }
+}
+
+Assert.True(FileFormatUtil.DetectFileFormat(ArtifactsDir + "Document.DigitalSignature.docx").HasDigitalSignature);
+
+// Please verify that all of the document's digital signatures are valid and check their details.
+Document signedDoc = new Document(ArtifactsDir + "Document.DigitalSignature.docx");
+DigitalSignatureCollection digitalSignatureCollection = signedDoc.DigitalSignatures;
+
+Assert.True(digitalSignatureCollection.IsValid);
+Assert.AreEqual(1, digitalSignatureCollection.Count);
+Assert.AreEqual(DigitalSignatureType.XmlDsig, digitalSignatureCollection[0].SignatureType);
+Assert.AreEqual("CN=Morzal.Me", signedDoc.DigitalSignatures[0].IssuerName);
+Assert.AreEqual("CN=Morzal.Me", signedDoc.DigitalSignatures[0].SubjectName);
+```
+
+### See Also
+
+* class [CertificateHolder](../../certificateholder)
 * class [DigitalSignatureUtil](../../digitalsignatureutil)
 * namespace [Aspose.Words.DigitalSignatures](../../digitalsignatureutil)
 * assembly [Aspose.Words](../../../)

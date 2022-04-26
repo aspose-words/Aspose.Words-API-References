@@ -14,7 +14,7 @@ Represents the axis options of the chart.
 public class ChartAxis
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |

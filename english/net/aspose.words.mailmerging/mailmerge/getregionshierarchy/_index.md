@@ -3,7 +3,7 @@ title: GetRegionsHierarchy
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 60
+weight: 230
 url: /net/aspose.words.mailmerging/mailmerge/getregionshierarchy/
 ---
 ## MailMerge.GetRegionsHierarchy method

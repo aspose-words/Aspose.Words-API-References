@@ -3,7 +3,7 @@ title: BuiltInTemplatesPaths
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 180
+weight: 20
 url: /net/aspose.words.fields/fieldoptions/builtintemplatespaths/
 ---
 ## FieldOptions.BuiltInTemplatesPaths property
@@ -16,7 +16,9 @@ public string[] BuiltInTemplatesPaths { get; set; }
 
 ### Remarks
 
-This property is used by the [`FieldAutoText`](../../fieldautotext) and [`FieldGlossary`](../../fieldglossary) fields, if referenced auto text entry is not found in the [`AttachedTemplate`](../../../aspose.words/document/attachedtemplate) template.By default MS Word stores built-in templates in c:\Users\&lt;username&gt;\AppData\Roaming\Microsoft\Document Building Blocks\1033\16\Built-In Building Blocks.dotx and C:\Users\&lt;username&gt;\AppData\Roaming\Microsoft\Templates\Normal.dotm files.
+This property is used by the [`FieldAutoText`](../../fieldautotext) and [`FieldGlossary`](../../fieldglossary) fields, if referenced auto text entry is not found in the [`AttachedTemplate`](../../../aspose.words/document/attachedtemplate) template.
+
+By default MS Word stores built-in templates in c:\Users\&lt;username&gt;\AppData\Roaming\Microsoft\Document Building Blocks\1033\16\Built-In Building Blocks.dotx and C:\Users\&lt;username&gt;\AppData\Roaming\Microsoft\Templates\Normal.dotm files.
 
 ### Examples
 

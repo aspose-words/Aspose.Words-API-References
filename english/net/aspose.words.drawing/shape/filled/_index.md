@@ -3,7 +3,7 @@ title: Filled
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 120
+weight: 50
 url: /net/aspose.words.drawing/shape/filled/
 ---
 ## Shape.Filled property
@@ -16,7 +16,9 @@ public bool Filled { get; set; }
 
 ### Remarks
 
-This is a shortcut to the On property.The default value is true.
+This is a shortcut to the On property.
+
+The default value is **true**.
 
 ### Examples
 

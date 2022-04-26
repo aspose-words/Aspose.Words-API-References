@@ -1,12 +1,12 @@
 ---
 title: Aspose.Words.Math
 second_title: Aspose.Words for .NET API Reference
-description: The Aspose.Words.Math namespace contains classes that represent Office Math elements.
+description: The **Aspose.Words.Math** namespace contains classes that represent Office Math elements.
 type: docs
 weight: 160
 url: /net/aspose.words.math/
 ---
-The Aspose.Words.Math namespace contains classes that represent Office Math elements.
+The **Aspose.Words.Math** namespace contains classes that represent Office Math elements.
 
 ## Classes
 

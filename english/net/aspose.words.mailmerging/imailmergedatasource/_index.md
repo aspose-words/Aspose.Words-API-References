@@ -3,7 +3,7 @@ title: IMailMergeDataSource
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 3530
+weight: 3500
 url: /net/aspose.words.mailmerging/imailmergedatasource/
 ---
 ## IMailMergeDataSource interface
@@ -14,13 +14,18 @@ Implement this interface to allow mail merge from a custom data source, such as 
 public interface IMailMergeDataSource
 ```
 
-## Members
+## Properties
 
 | Name | Description |
 | --- | --- |
 | [TableName](tablename) { get; } | Returns the name of the data source. |
-| [GetChildDataSource](getchilddatasource)(…) | The Aspose.Words mail merge engine invokes this method when it encounters a beginning of a nested mail merge region. |
-| [GetValue](getvalue)(…) | Returns a value for the specified field name or false if the field is not found. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [GetChildDataSource](getchilddatasource)(string) | The Aspose.Words mail merge engine invokes this method when it encounters a beginning of a nested mail merge region. |
+| [GetValue](getvalue)(string, out object) | Returns a value for the specified field name or false if the field is not found. |
 | [MoveNext](movenext)() | Advances to the next record in the data source. |
 
 ### Remarks

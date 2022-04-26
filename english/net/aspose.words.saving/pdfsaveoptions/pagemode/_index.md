@@ -3,7 +3,7 @@ title: PageMode
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 230
+weight: 220
 url: /net/aspose.words.saving/pdfsaveoptions/pagemode/
 ---
 ## PdfSaveOptions.PageMode property

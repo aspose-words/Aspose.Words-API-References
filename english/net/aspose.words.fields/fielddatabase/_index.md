@@ -3,7 +3,7 @@ title: FieldDatabase
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 1560
+weight: 1540
 url: /net/aspose.words.fields/fielddatabase/
 ---
 ## FieldDatabase class
@@ -14,11 +14,16 @@ Implements the DATABASE field.
 public class FieldDatabase : Field
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [FieldDatabase](fielddatabase)() | The default constructor. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [Connection](connection) { get; set; } | Gets or sets a connection to the data. |
 | [FileName](filename) { get; set; } | Gets or sets the complete path and file name of the database |
 | [FirstRecord](firstrecord) { get; set; } | Gets or sets the integral record number of the first data record to insert. |

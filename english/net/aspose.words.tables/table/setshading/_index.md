@@ -3,7 +3,7 @@ title: SetShading
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 30
+weight: 430
 url: /net/aspose.words.tables/table/setshading/
 ---
 ## Table.SetShading method

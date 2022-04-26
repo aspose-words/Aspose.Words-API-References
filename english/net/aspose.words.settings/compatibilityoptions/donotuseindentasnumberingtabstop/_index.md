@@ -3,7 +3,7 @@ title: DoNotUseIndentAsNumberingTabStop
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 530
+weight: 220
 url: /net/aspose.words.settings/compatibilityoptions/donotuseindentasnumberingtabstop/
 ---
 ## CompatibilityOptions.DoNotUseIndentAsNumberingTabStop property

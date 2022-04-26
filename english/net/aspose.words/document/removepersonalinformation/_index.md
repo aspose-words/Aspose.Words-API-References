@@ -3,7 +3,7 @@ title: RemovePersonalInformation
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 750
+weight: 320
 url: /net/aspose.words/document/removepersonalinformation/
 ---
 ## Document.RemovePersonalInformation property

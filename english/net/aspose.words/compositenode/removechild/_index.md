@@ -3,7 +3,7 @@ title: RemoveChild
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 110
+weight: 180
 url: /net/aspose.words/compositenode/removechild/
 ---
 ## CompositeNode.RemoveChild method

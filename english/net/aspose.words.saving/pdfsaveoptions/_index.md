@@ -3,7 +3,7 @@ title: PdfSaveOptions
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 5150
+weight: 5100
 url: /net/aspose.words.saving/pdfsaveoptions/
 ---
 ## PdfSaveOptions class
@@ -14,11 +14,16 @@ Can be used to specify additional options when saving a document into the Pdf fo
 public class PdfSaveOptions : FixedPageSaveOptions
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [PdfSaveOptions](pdfsaveoptions)() | Initializes a new instance of this class that can be used to save a document in the Pdf format. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [AdditionalTextPositioning](additionaltextpositioning) { get; set; } | A flag specifying whether to write additional text positioning operators or not. |
 | [Compliance](compliance) { get; set; } | Specifies the PDF standards compliance level for output documents. |
 | [CreateNoteHyperlinks](createnotehyperlinks) { get; set; } | Specifies whether to convert footnote/endnote references in main text story into active hyperlinks. When clicked the hyperlink will lead to the corresponding footnote/endnote. Default is `false`. |
@@ -48,6 +53,11 @@ public class PdfSaveOptions : FixedPageSaveOptions
 | [UseCoreFonts](usecorefonts) { get; set; } | Gets or sets a value determining whether or not to substitute TrueType fonts Arial, Times New Roman, Courier New and Symbol with core PDF Type 1 fonts. |
 | [ZoomBehavior](zoombehavior) { get; set; } | Gets or sets a value determining what type of zoom should be applied when a document is opened with a PDF viewer. |
 | [ZoomFactor](zoomfactor) { get; set; } | Gets or sets a value determining zoom factor (in percentages) for a document. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
 | [Clone](clone)() | Creates a deep clone of this object. |
 
 ### Examples

@@ -3,7 +3,7 @@ title: FieldPrint
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 2080
+weight: 2060
 url: /net/aspose.words.fields/fieldprint/
 ---
 ## FieldPrint class
@@ -14,11 +14,16 @@ Implements the PRINT field.
 public class FieldPrint : Field
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [FieldPrint](fieldprint)() | The default constructor. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [PostScriptGroup](postscriptgroup) { get; set; } | Gets or sets the drawing rectangle that the PostScript instructions operate on. |
 | [PrinterInstructions](printerinstructions) { get; set; } | Gets or sets the printer-specific control code characters or PostScript instructions. |
 

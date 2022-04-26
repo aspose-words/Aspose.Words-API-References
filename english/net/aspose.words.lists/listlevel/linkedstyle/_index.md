@@ -3,7 +3,7 @@ title: LinkedStyle
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 180
+weight: 60
 url: /net/aspose.words.lists/listlevel/linkedstyle/
 ---
 ## ListLevel.LinkedStyle property

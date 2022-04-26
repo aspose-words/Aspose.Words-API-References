@@ -3,12 +3,12 @@ title: IsHidden
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 140
+weight: 20
 url: /net/aspose.words.drawing.charts/chartdatalabel/ishidden/
 ---
 ## ChartDataLabel.IsHidden property
 
-Gets/sets a flag indicating whether this label is hidden. The default value is false.
+Gets/sets a flag indicating whether this label is hidden. The default value is **false**.
 
 ```csharp
 public bool IsHidden { get; set; }

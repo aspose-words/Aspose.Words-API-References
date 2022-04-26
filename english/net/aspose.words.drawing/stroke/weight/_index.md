@@ -3,7 +3,7 @@ title: Weight
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 80
+weight: 200
 url: /net/aspose.words.drawing/stroke/weight/
 ---
 ## Stroke.Weight property

@@ -3,7 +3,7 @@ title: IDocumentLoadingCallback
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 3370
+weight: 3340
 url: /net/aspose.words.loading/idocumentloadingcallback/
 ---
 ## IDocumentLoadingCallback interface
@@ -14,11 +14,11 @@ Implement this interface if you want to have your own custom method called durin
 public interface IDocumentLoadingCallback
 ```
 
-## Members
+## Methods
 
 | Name | Description |
 | --- | --- |
-| [Notify](notify)(…) | This is called to notify of document loading progress. |
+| [Notify](notify)(DocumentLoadingArgs) | This is called to notify of document loading progress. |
 
 ### See Also
 

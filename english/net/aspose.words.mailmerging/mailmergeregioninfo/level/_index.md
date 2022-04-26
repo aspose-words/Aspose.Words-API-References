@@ -3,7 +3,7 @@ title: Level
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 70
+weight: 30
 url: /net/aspose.words.mailmerging/mailmergeregioninfo/level/
 ---
 ## MailMergeRegionInfo.Level property

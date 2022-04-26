@@ -3,7 +3,7 @@ title: FieldStyleRef
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 2240
+weight: 2220
 url: /net/aspose.words.fields/fieldstyleref/
 ---
 ## FieldStyleRef class
@@ -14,11 +14,16 @@ Implements the STYLEREF field.
 public class FieldStyleRef : Field
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [FieldStyleRef](fieldstyleref)() | The default constructor. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [InsertParagraphNumber](insertparagraphnumber) { get; set; } | Gets or sets whether to insert the paragraph number of the referenced paragraph exactly as it appears in the document. |
 | [InsertParagraphNumberInFullContext](insertparagraphnumberinfullcontext) { get; set; } | Gets or sets whether to insert the paragraph number of the referenced paragraph in full context. |
 | [InsertParagraphNumberInRelativeContext](insertparagraphnumberinrelativecontext) { get; set; } | Gets or sets whether to insert the paragraph number of the referenced paragraph in relative context. |

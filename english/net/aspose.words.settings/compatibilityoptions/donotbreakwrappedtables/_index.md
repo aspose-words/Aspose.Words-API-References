@@ -3,7 +3,7 @@ title: DoNotBreakWrappedTables
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 440
+weight: 140
 url: /net/aspose.words.settings/compatibilityoptions/donotbreakwrappedtables/
 ---
 ## CompatibilityOptions.DoNotBreakWrappedTables property

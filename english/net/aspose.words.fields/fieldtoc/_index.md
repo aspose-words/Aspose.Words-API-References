@@ -3,7 +3,7 @@ title: FieldToc
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 2330
+weight: 2310
 url: /net/aspose.words.fields/fieldtoc/
 ---
 ## FieldToc class
@@ -14,11 +14,16 @@ Implements the TOC field.
 public class FieldToc : Field
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [FieldToc](fieldtoc)() | The default constructor. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [BookmarkName](bookmarkname) { get; set; } | Gets or sets the name of the bookmark that marks the portion of the document used to build the table. |
 | [CaptionlessTableOfFiguresLabel](captionlesstableoffigureslabel) { get; set; } | Gets or sets the name of the sequence identifier used when building a table of figures that does not include caption's label and number. |
 | [CustomStyles](customstyles) { get; set; } | Gets or sets a list of styles other than the built-in heading styles to include in the table of contents. |
@@ -35,6 +40,11 @@ public class FieldToc : Field
 | [SequenceSeparator](sequenceseparator) { get; set; } | Gets or sets the character sequence that is used to separate sequence numbers and page numbers. |
 | [TableOfFiguresLabel](tableoffigureslabel) { get; set; } | Gets or sets the name of the sequence identifier used when building a table of figures. |
 | [UseParagraphOutlineLevel](useparagraphoutlinelevel) { get; set; } | Gets or sets whether to use the applied paragraph outline level. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
 | [UpdatePageNumbers](updatepagenumbers)() | Updates the page numbers for items in this table of contents. |
 
 ### Remarks

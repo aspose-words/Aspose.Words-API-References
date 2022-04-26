@@ -3,7 +3,7 @@ title: ToString
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 50
+weight: 80
 url: /net/aspose.words.tables/preferredwidth/tostring/
 ---
 ## PreferredWidth.ToString method

@@ -3,7 +3,7 @@ title: Parent
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 130
+weight: 80
 url: /net/aspose.words.drawing/textbox/parent/
 ---
 ## TextBox.Parent property

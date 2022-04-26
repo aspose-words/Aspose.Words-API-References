@@ -3,7 +3,7 @@ title: Before
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 100
+weight: 50
 url: /net/aspose.words/tabstopcollection/before/
 ---
 ## TabStopCollection.Before method
@@ -24,7 +24,7 @@ A tab stop object or null if a suitable tab stop was not found.
 
 ### Remarks
 
-Skips tab stops with Alignment set to `TabAlignment.Bar`.
+Skips tab stops with **Alignment** set to `TabAlignment.Bar`.
 
 ### Examples
 

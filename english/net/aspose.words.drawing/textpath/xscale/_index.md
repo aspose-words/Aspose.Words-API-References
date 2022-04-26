@@ -16,7 +16,9 @@ public bool XScale { get; set; }
 
 ### Remarks
 
-The default value is false.If true, the text runs along a path from left to right along the x value of the lower boundary of the shape.
+The default value is **false**.
+
+If **true**, the text runs along a path from left to right along the x value of the lower boundary of the shape.
 
 ### Examples
 

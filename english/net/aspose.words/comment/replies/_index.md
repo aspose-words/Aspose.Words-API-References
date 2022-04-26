@@ -3,7 +3,7 @@ title: Replies
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 140
+weight: 90
 url: /net/aspose.words/comment/replies/
 ---
 ## Comment.Replies property

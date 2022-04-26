@@ -3,7 +3,7 @@ title: CurrentParagraph
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 610
+weight: 50
 url: /net/aspose.words/documentbuilder/currentparagraph/
 ---
 ## DocumentBuilder.CurrentParagraph property

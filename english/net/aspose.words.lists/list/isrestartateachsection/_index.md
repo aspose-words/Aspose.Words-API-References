@@ -3,12 +3,12 @@ title: IsRestartAtEachSection
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 80
+weight: 50
 url: /net/aspose.words.lists/list/isrestartateachsection/
 ---
 ## List.IsRestartAtEachSection property
 
-Specifies whether list should be restarted at each section. Default value is false.
+Specifies whether list should be restarted at each section. Default value is **false**.
 
 ```csharp
 public bool IsRestartAtEachSection { get; set; }
@@ -16,7 +16,9 @@ public bool IsRestartAtEachSection { get; set; }
 
 ### Remarks
 
-This option is supported only in RTF, DOC and DOCX document formats.This option will be written to DOCX only if [`OoxmlCompliance`](../../../aspose.words.saving/ooxmlcompliance) is higher then Ecma376_2006.
+This option is supported only in RTF, DOC and DOCX document formats.
+
+This option will be written to DOCX only if [`OoxmlCompliance`](../../../aspose.words.saving/ooxmlcompliance) is higher then Ecma376_2006.
 
 ### Examples
 

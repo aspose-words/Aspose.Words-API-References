@@ -3,7 +3,7 @@ title: Run
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 4480
+weight: 4430
 url: /net/aspose.words/run/
 ---
 ## Run class
@@ -14,19 +14,32 @@ Represents a run of characters with the same font formatting.
 public class Run : Inline
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
-| [Run](run)(…) | Initializes a new instance of the Run class. (2 constructors) |
-| override [NodeType](nodetype) { get; } | Returns NodeType.Run. |
+| [Run](run)(DocumentBase) | Initializes a new instance of the **Run** class. |
+| [Run](run)(DocumentBase, string) | Initializes a new instance of the **Run** class. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
+| override [NodeType](nodetype) { get; } | Returns **NodeType.Run**. |
 | [Text](text) { get; set; } | Gets or sets the text of the run. |
-| override [Accept](accept)(…) | Accepts a visitor. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| override [Accept](accept)(DocumentVisitor) | Accepts a visitor. |
 | override [GetText](gettext)() | Gets the text of the run. |
 
 ### Remarks
 
-All text of the document is stored in runs of text.Run can only be a child of Paragraph or inline StructuredDocumentTag.
+All text of the document is stored in runs of text.
+
+**Run** can only be a child of **Paragraph** or inline **StructuredDocumentTag**.
 
 ### Examples
 

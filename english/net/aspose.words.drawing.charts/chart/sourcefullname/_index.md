@@ -3,7 +3,7 @@ title: SourceFullName
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 70
+weight: 60
 url: /net/aspose.words.drawing.charts/chart/sourcefullname/
 ---
 ## Chart.SourceFullName property
@@ -11,7 +11,7 @@ url: /net/aspose.words.drawing.charts/chart/sourcefullname/
 Gets the path and name of an xls/xlsx file this chart is linked to.
 
 ```csharp
-public string SourceFullName { get; set; }
+public string SourceFullName { get; }
 ```
 
 ### See Also

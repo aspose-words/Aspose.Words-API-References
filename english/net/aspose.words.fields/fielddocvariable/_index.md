@@ -3,7 +3,7 @@ title: FieldDocVariable
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 1620
+weight: 1600
 url: /net/aspose.words.fields/fielddocvariable/
 ---
 ## FieldDocVariable class
@@ -14,11 +14,16 @@ Implements DOCVARIABLE field.
 public class FieldDocVariable : Field
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [FieldDocVariable](fielddocvariable)() | The default constructor. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [VariableName](variablename) { get; set; } | Gets or sets the name of the document variable to retrieve. |
 
 ### Examples

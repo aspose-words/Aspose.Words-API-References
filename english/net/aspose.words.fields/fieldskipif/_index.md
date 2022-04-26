@@ -3,7 +3,7 @@ title: FieldSkipIf
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 2220
+weight: 2200
 url: /net/aspose.words.fields/fieldskipif/
 ---
 ## FieldSkipIf class
@@ -14,11 +14,16 @@ Implements the SKIPIF field.
 public class FieldSkipIf : Field
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [FieldSkipIf](fieldskipif)() | The default constructor. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [ComparisonOperator](comparisonoperator) { get; set; } | Gets or sets the comparison operator. |
 | [LeftExpression](leftexpression) { get; set; } | Gets or sets the left part of the comparison expression. |
 | [RightExpression](rightexpression) { get; set; } | Gets or sets the right part of the comparison expression. |

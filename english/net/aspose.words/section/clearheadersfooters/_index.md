@@ -3,7 +3,7 @@ title: ClearHeadersFooters
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 60
+weight: 100
 url: /net/aspose.words/section/clearheadersfooters/
 ---
 ## Section.ClearHeadersFooters method
@@ -16,7 +16,9 @@ public void ClearHeadersFooters()
 
 ### Remarks
 
-The text of all headers and footers is cleared, but [`HeaderFooter`](../../headerfooter) objects themselves are not removed.This makes headers and footers of this section linked to headers and footers of the previous section.
+The text of all headers and footers is cleared, but [`HeaderFooter`](../../headerfooter) objects themselves are not removed.
+
+This makes headers and footers of this section linked to headers and footers of the previous section.
 
 ### Examples
 

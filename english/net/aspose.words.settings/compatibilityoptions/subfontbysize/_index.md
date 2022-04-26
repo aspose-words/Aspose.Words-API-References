@@ -3,7 +3,7 @@ title: SubFontBySize
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 260
+weight: 470
 url: /net/aspose.words.settings/compatibilityoptions/subfontbysize/
 ---
 ## CompatibilityOptions.SubFontBySize property

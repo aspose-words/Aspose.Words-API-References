@@ -3,7 +3,7 @@ title: Clear
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 40
+weight: 30
 url: /net/aspose.words.layout/layoutcollector/clear/
 ---
 ## LayoutCollector.Clear method

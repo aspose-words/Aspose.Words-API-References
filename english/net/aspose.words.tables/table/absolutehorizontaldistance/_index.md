@@ -3,7 +3,7 @@ title: AbsoluteHorizontalDistance
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 410
+weight: 20
 url: /net/aspose.words.tables/table/absolutehorizontaldistance/
 ---
 ## Table.AbsoluteHorizontalDistance property

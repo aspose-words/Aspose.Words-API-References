@@ -3,7 +3,7 @@ title: FieldGlossary
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 1760
+weight: 1740
 url: /net/aspose.words.fields/fieldglossary/
 ---
 ## FieldGlossary class
@@ -14,11 +14,16 @@ Implements the GLOSSARY field.
 public class FieldGlossary : Field
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [FieldGlossary](fieldglossary)() | The default constructor. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [EntryName](entryname) { get; set; } | Gets or sets the name of the glossary entry to insert. |
 
 ### Remarks

@@ -3,7 +3,7 @@ title: DefaultTextInputChar
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 280
+weight: 70
 url: /net/aspose.words/controlchar/defaulttextinputchar/
 ---
 ## ControlChar.DefaultTextInputChar field

@@ -3,7 +3,7 @@ title: CellVerticalAlignment
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 5890
+weight: 5840
 url: /net/aspose.words.tables/cellverticalalignment/
 ---
 ## CellVerticalAlignment enumeration

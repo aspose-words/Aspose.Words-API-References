@@ -3,7 +3,7 @@ title: ThemeFontFarEast
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 100
+weight: 500
 url: /net/aspose.words/font/themefontfareast/
 ---
 ## Font.ThemeFontFarEast property

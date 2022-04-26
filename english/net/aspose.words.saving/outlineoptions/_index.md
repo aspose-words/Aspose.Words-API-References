@@ -3,7 +3,7 @@ title: OutlineOptions
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 4990
+weight: 4940
 url: /net/aspose.words.saving/outlineoptions/
 ---
 ## OutlineOptions class
@@ -14,11 +14,16 @@ Allows to specify outline options.
 public class OutlineOptions
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [OutlineOptions](outlineoptions)() | The default constructor. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [BookmarksOutlineLevels](bookmarksoutlinelevels) { get; } | Allows to specify individual bookmarks outline level. |
 | [CreateMissingOutlineLevels](createmissingoutlinelevels) { get; set; } | Gets or sets a value determining whether or not to create missing outline levels when the document is exported. |
 | [CreateOutlinesForHeadingsInTables](createoutlinesforheadingsintables) { get; set; } | Specifies whether or not to create outlines for headings (paragraphs formatted with the Heading styles) inside tables. |

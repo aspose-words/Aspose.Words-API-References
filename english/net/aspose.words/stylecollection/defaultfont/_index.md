@@ -3,7 +3,7 @@ title: DefaultFont
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 60
+weight: 20
 url: /net/aspose.words/stylecollection/defaultfont/
 ---
 ## StyleCollection.DefaultFont property

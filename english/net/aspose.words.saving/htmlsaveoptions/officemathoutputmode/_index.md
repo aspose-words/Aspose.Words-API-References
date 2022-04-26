@@ -3,7 +3,7 @@ title: OfficeMathOutputMode
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 440
+weight: 410
 url: /net/aspose.words.saving/htmlsaveoptions/officemathoutputmode/
 ---
 ## HtmlSaveOptions.OfficeMathOutputMode property

@@ -3,7 +3,7 @@ title: VersionsCount
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 550
+weight: 440
 url: /net/aspose.words/document/versionscount/
 ---
 ## Document.VersionsCount property
@@ -16,7 +16,9 @@ public int VersionsCount { get; }
 
 ### Remarks
 
-Versions in Microsoft Word are accessed via the File/Versions menu. Microsoft Word supports versions only for DOC files.This property allows to detect if there were document versions stored in this document before it was opened in Aspose.Words. Aspose.Words provides no other support for document versions. If you save this document using Aspose.Words, the document will be saved without versions.
+Versions in Microsoft Word are accessed via the File/Versions menu. Microsoft Word supports versions only for DOC files.
+
+This property allows to detect if there were document versions stored in this document before it was opened in Aspose.Words. Aspose.Words provides no other support for document versions. If you save this document using Aspose.Words, the document will be saved without versions.
 
 ### Examples
 

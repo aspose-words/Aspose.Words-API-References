@@ -3,7 +3,7 @@ title: PreferredWidth
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 5900
+weight: 5850
 url: /net/aspose.words.tables/preferredwidth/
 ---
 ## PreferredWidth class
@@ -14,19 +14,29 @@ Represents a value and its unit of measure that is used to specify the preferred
 public sealed class PreferredWidth
 ```
 
-## Public Members
+## Properties
+
+| Name | Description |
+| --- | --- |
+| [Type](type) { get; } | Gets the unit of measure used for this preferred width value. |
+| [Value](value) { get; } | Gets the preferred width value. The unit of measure is specified in the [`Type`](./type) property. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| static [FromPercent](frompercent)(double) | A creation method that returns a new instance that represents a preferred width specified as a percentage. |
+| static [FromPoints](frompoints)(double) | A creation method that returns a new instance that represents a preferred width specified using a number of points. |
+| override [Equals](equals)(object) | Determines whether the specified object is equal in value to the current object. |
+| [Equals](equals)(PreferredWidth) | Determines whether the specified PreferredWidth is equal in value to the current PreferredWidth. |
+| override [GetHashCode](gethashcode)() | Serves as a hash function for this type. |
+| override [ToString](tostring)() | Returns a user-friendly string that displays the value of this object. |
+
+## Other Members
 
 | Name | Description |
 | --- | --- |
 | static readonly [Auto](auto) | Returns an instance that represents the "preferred width is not specified" value. |
-| static [FromPercent](frompercent)(…) | A creation method that returns a new instance that represents a preferred width specified as a percentage. |
-| static [FromPoints](frompoints)(…) | A creation method that returns a new instance that represents a preferred width specified using a number of points. |
-| [Type](type) { get; } | Gets the unit of measure used for this preferred width value. |
-| [Value](value) { get; } | Gets the preferred width value. The unit of measure is specified in the [`Type`](./type) property. |
-| override [Equals](equals)(…) | Determines whether the specified object is equal in value to the current object. |
-| [Equals](equals)(…) | Determines whether the specified PreferredWidth is equal in value to the current PreferredWidth. |
-| override [GetHashCode](gethashcode)() | Serves as a hash function for this type. |
-| override [ToString](tostring)() | Returns a user-friendly string that displays the value of this object. |
 
 ### Remarks
 

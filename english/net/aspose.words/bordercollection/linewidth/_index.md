@@ -3,7 +3,7 @@ title: LineWidth
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 120
+weight: 90
 url: /net/aspose.words/bordercollection/linewidth/
 ---
 ## BorderCollection.LineWidth property
@@ -16,7 +16,9 @@ public double LineWidth { get; set; }
 
 ### Remarks
 
-Returns the width of the first border in the collection.Sets the width of all borders in the collection excluding diagonal borders.
+Returns the width of the first border in the collection.
+
+Sets the width of all borders in the collection excluding diagonal borders.
 
 ### Examples
 

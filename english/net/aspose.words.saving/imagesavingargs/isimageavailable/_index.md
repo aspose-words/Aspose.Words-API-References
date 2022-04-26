@@ -3,7 +3,7 @@ title: IsImageAvailable
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 30
+weight: 50
 url: /net/aspose.words.saving/imagesavingargs/isimageavailable/
 ---
 ## ImageSavingArgs.IsImageAvailable property

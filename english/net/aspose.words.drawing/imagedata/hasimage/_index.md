@@ -3,7 +3,7 @@ title: HasImage
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 70
+weight: 110
 url: /net/aspose.words.drawing/imagedata/hasimage/
 ---
 ## ImageData.HasImage property

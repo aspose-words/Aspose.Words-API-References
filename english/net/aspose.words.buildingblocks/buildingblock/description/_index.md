@@ -3,7 +3,7 @@ title: Description
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 90
+weight: 40
 url: /net/aspose.words.buildingblocks/buildingblock/description/
 ---
 ## BuildingBlock.Description property
@@ -20,7 +20,7 @@ The description may contain any string content, usually additional information.
 
 Cannot be `null`, but can be an empty string.
 
-Corresponds to the docPartPr.description element in OOXML.
+Corresponds to the **docPartPr.description** element in OOXML.
 
 ### Examples
 

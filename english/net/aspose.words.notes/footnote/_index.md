@@ -3,7 +3,7 @@ title: Footnote
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 3960
+weight: 3910
 url: /net/aspose.words.notes/footnote/
 ---
 ## Footnote class
@@ -14,21 +14,35 @@ Represents a container for text of a footnote or endnote.
 public class Footnote : InlineStory
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
-| [Footnote](footnote)(…) | Initializes an instance of the Footnote class. |
+| [Footnote](footnote)(DocumentBase, FootnoteType) | Initializes an instance of the **Footnote** class. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [FootnoteType](footnotetype) { get; } | Returns a value that specifies whether this is a footnote or endnote. |
 | [IsAuto](isauto) { get; set; } | Holds a value that specifies whether this is a auto-numbered footnote or footnote with user defined custom reference mark. |
-| override [NodeType](nodetype) { get; } | Returns NodeType.Footnote. |
-| [ReferenceMark](referencemark) { get; set; } | Gets/sets custom reference mark to be used for this footnote. Default value is empty string (Empty), meaning auto-numbered footnotes are used. |
-| override [StoryType](storytype) { get; } | Returns StoryType.Footnotes or StoryType.Endnotes. |
-| override [Accept](accept)(…) | Accepts a visitor. |
+| override [NodeType](nodetype) { get; } | Returns **NodeType.Footnote**. |
+| [ReferenceMark](referencemark) { get; set; } | Gets/sets custom reference mark to be used for this footnote. Default value is **empty string** (Empty), meaning auto-numbered footnotes are used. |
+| override [StoryType](storytype) { get; } | Returns **StoryType.Footnotes** or **StoryType.Endnotes**. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| override [Accept](accept)(DocumentVisitor) | Accepts a visitor. |
 
 ### Remarks
 
-The Footnote class is used to represent both footnotes and endnotes in a Word document.Footnote is an inline-level node and can only be a child of Paragraph.Footnote can contain Paragraph and Table child nodes.
+The **Footnote** class is used to represent both footnotes and endnotes in a Word document.
+
+**Footnote** is an inline-level node and can only be a child of **Paragraph**.
+
+**Footnote** can contain **Paragraph** and **Table** child nodes.
 
 ### Examples
 

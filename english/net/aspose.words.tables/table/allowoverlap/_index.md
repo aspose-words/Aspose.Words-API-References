@@ -3,7 +3,7 @@ title: AllowOverlap
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 430
+weight: 70
 url: /net/aspose.words.tables/table/allowoverlap/
 ---
 ## Table.AllowOverlap property

@@ -3,7 +3,7 @@ title: Column
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 40
+weight: 30
 url: /net/aspose.words.settings/odsorecipientdata/column/
 ---
 ## OdsoRecipientData.Column property

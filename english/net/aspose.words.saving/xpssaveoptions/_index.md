@@ -3,7 +3,7 @@ title: XpsSaveOptions
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 5340
+weight: 5290
 url: /net/aspose.words.saving/xpssaveoptions/
 ---
 ## XpsSaveOptions class
@@ -14,12 +14,17 @@ Can be used to specify additional options when saving a document into the Xps fo
 public class XpsSaveOptions : FixedPageSaveOptions
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [XpsSaveOptions](xpssaveoptions)() | Initializes a new instance of this class that can be used to save a document in the Xps format. |
-| [XpsSaveOptions](xpssaveoptions)(…) | Initializes a new instance of this class that can be used to save a document in the Xps or OpenXps format. |
+| [XpsSaveOptions](xpssaveoptions)(SaveFormat) | Initializes a new instance of this class that can be used to save a document in the Xps or OpenXps format. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [OutlineOptions](outlineoptions) { get; } | Allows to specify outline options. |
 | override [SaveFormat](saveformat) { get; set; } | Specifies the format in which the document will be saved if this save options object is used. Can only be Xps. |
 | [UseBookFoldPrintingSettings](usebookfoldprintingsettings) { get; set; } | Gets or sets a boolean value indicating whether the document should be saved using a booklet printing layout, if it is specified via [`MultiplePages`](../../aspose.words/pagesetup/multiplepages). |

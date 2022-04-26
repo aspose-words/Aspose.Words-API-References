@@ -3,7 +3,7 @@ title: AdjustLineHeightInTable
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 370
+weight: 10
 url: /net/aspose.words.settings/compatibilityoptions/adjustlineheightintable/
 ---
 ## CompatibilityOptions.AdjustLineHeightInTable property

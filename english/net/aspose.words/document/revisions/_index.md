@@ -3,7 +3,7 @@ title: Revisions
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 690
+weight: 330
 url: /net/aspose.words/document/revisions/
 ---
 ## Document.Revisions property

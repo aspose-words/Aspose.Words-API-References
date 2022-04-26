@@ -3,7 +3,7 @@ title: NonBreakingSpaceChar
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 270
+weight: 180
 url: /net/aspose.words/controlchar/nonbreakingspacechar/
 ---
 ## ControlChar.NonBreakingSpaceChar field

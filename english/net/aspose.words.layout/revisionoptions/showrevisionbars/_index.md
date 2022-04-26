@@ -3,7 +3,7 @@ title: ShowRevisionBars
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 20
+weight: 180
 url: /net/aspose.words.layout/revisionoptions/showrevisionbars/
 ---
 ## RevisionOptions.ShowRevisionBars property

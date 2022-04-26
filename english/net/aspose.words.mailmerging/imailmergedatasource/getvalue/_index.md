@@ -3,7 +3,7 @@ title: GetValue
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 20
+weight: 30
 url: /net/aspose.words.mailmerging/imailmergedatasource/getvalue/
 ---
 ## IMailMergeDataSource.GetValue method
@@ -21,7 +21,7 @@ public bool GetValue(string fieldName, out object fieldValue)
 
 ## Return Value
 
-true if value was found.
+**true** if value was found.
 
 ### Examples
 

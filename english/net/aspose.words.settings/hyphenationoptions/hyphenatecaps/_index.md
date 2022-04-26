@@ -3,12 +3,12 @@ title: HyphenateCaps
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 50
+weight: 40
 url: /net/aspose.words.settings/hyphenationoptions/hyphenatecaps/
 ---
 ## HyphenationOptions.HyphenateCaps property
 
-Gets or sets value determining whether words written in all capital letters are hyphenated. Default value for this property is true.
+Gets or sets value determining whether words written in all capital letters are hyphenated. Default value for this property is **true**.
 
 ```csharp
 public bool HyphenateCaps { get; set; }

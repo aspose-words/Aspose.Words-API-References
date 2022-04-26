@@ -3,7 +3,7 @@ title: FieldFillIn
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 1690
+weight: 1670
 url: /net/aspose.words.fields/fieldfillin/
 ---
 ## FieldFillIn class
@@ -14,11 +14,16 @@ Implements the FILLIN field.
 public class FieldFillIn : Field
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [FieldFillIn](fieldfillin)() | The default constructor. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [DefaultResponse](defaultresponse) { get; set; } | Gets or sets default user response (initial value contained in the prompt window). |
 | [PromptOnceOnMailMerge](promptonceonmailmerge) { get; set; } | Gets or sets whether the user response should be recieved once per a mail merge operation. |
 | [PromptText](prompttext) { get; set; } | Gets or sets the prompt text (the title of the prompt window). |

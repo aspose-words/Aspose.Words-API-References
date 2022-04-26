@@ -3,7 +3,7 @@ title: Top
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 70
+weight: 120
 url: /net/aspose.words/bordercollection/top/
 ---
 ## BorderCollection.Top property

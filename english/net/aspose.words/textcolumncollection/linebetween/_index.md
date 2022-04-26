@@ -3,12 +3,12 @@ title: LineBetween
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 50
+weight: 40
 url: /net/aspose.words/textcolumncollection/linebetween/
 ---
 ## TextColumnCollection.LineBetween property
 
-When true, adds a vertical line between columns.
+When **true**, adds a vertical line between columns.
 
 ```csharp
 public bool LineBetween { get; set; }

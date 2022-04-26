@@ -3,7 +3,7 @@ title: TabStops
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 410
+weight: 380
 url: /net/aspose.words/paragraphformat/tabstops/
 ---
 ## ParagraphFormat.TabStops property

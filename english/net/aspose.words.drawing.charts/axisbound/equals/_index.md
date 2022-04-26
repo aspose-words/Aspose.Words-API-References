@@ -3,7 +3,7 @@ title: Equals
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 10
+weight: 50
 url: /net/aspose.words.drawing.charts/axisbound/equals/
 ---
 ## AxisBound.Equals method

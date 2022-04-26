@@ -3,7 +3,7 @@ title: Kerning
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 400
+weight: 180
 url: /net/aspose.words/font/kerning/
 ---
 ## Font.Kerning property

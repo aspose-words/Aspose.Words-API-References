@@ -3,7 +3,7 @@ title: LayoutCollector
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 3060
+weight: 3040
 url: /net/aspose.words.layout/layoutcollector/
 ---
 ## LayoutCollector class
@@ -14,17 +14,27 @@ This class allows to compute page numbers of document nodes.
 public class LayoutCollector
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
-| [LayoutCollector](layoutcollector)(…) | Initializes an instance of this class. |
+| [LayoutCollector](layoutcollector)(Document) | Initializes an instance of this class. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [Document](document) { get; set; } | Gets or sets the document this collector instance is attached to. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
 | [Clear](clear)() | Clears all collected layout data. Call this method after document was manually updated, or layout was rebuilt. |
-| [GetEndPageIndex](getendpageindex)(…) | Gets 1-based index of the page where node ends. Returns 0 if node cannot be mapped to a page. |
-| [GetEntity](getentity)(…) | Returns an opaque position of the [`LayoutEnumerator`](../layoutenumerator) which corresponds to the specified node. You can use returned value as an argument to [`Current`](../layoutenumerator/current) given the document being enumerated and the document of the node are the same. |
-| [GetNumPagesSpanned](getnumpagesspanned)(…) | Gets number of pages the specified node spans. 0 if node is within a single page. This is the same as [`GetEndPageIndex`](./getendpageindex) - [`GetStartPageIndex`](./getstartpageindex). |
-| [GetStartPageIndex](getstartpageindex)(…) | Gets 1-based index of the page where node begins. Returns 0 if node cannot be mapped to a page. |
+| [GetEndPageIndex](getendpageindex)(Node) | Gets 1-based index of the page where node ends. Returns 0 if node cannot be mapped to a page. |
+| [GetEntity](getentity)(Node) | Returns an opaque position of the [`LayoutEnumerator`](../layoutenumerator) which corresponds to the specified node. You can use returned value as an argument to [`Current`](../layoutenumerator/current) given the document being enumerated and the document of the node are the same. |
+| [GetNumPagesSpanned](getnumpagesspanned)(Node) | Gets number of pages the specified node spans. 0 if node is within a single page. This is the same as [`GetEndPageIndex`](./getendpageindex) - [`GetStartPageIndex`](./getstartpageindex). |
+| [GetStartPageIndex](getstartpageindex)(Node) | Gets 1-based index of the page where node begins. Returns 0 if node cannot be mapped to a page. |
 
 ### Remarks
 

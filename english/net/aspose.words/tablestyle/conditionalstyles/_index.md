@@ -3,7 +3,7 @@ title: ConditionalStyles
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 150
+weight: 80
 url: /net/aspose.words/tablestyle/conditionalstyles/
 ---
 ## TableStyle.ConditionalStyles property

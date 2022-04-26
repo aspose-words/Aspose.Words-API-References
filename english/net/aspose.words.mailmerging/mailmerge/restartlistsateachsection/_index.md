@@ -3,7 +3,7 @@ title: RestartListsAtEachSection
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 170
+weight: 110
 url: /net/aspose.words.mailmerging/mailmerge/restartlistsateachsection/
 ---
 ## MailMerge.RestartListsAtEachSection property
@@ -16,7 +16,7 @@ public bool RestartListsAtEachSection { get; set; }
 
 ### Remarks
 
-The default value is true.
+The default value is **true**.
 
 ### Examples
 

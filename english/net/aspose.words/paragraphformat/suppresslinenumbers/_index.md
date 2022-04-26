@@ -3,7 +3,7 @@ title: SuppressLineNumbers
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 70
+weight: 370
 url: /net/aspose.words/paragraphformat/suppresslinenumbers/
 ---
 ## ParagraphFormat.SuppressLineNumbers property

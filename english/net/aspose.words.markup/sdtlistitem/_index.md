@@ -3,7 +3,7 @@ title: SdtListItem
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 3720
+weight: 3680
 url: /net/aspose.words.markup/sdtlistitem/
 ---
 ## SdtListItem class
@@ -14,11 +14,17 @@ This element specifies a single list item within a parent ComboBox or DropDownLi
 public class SdtListItem
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
-| [SdtListItem](sdtlistitem)(…) | Initializes a new instance of this class. (2 constructors) |
+| [SdtListItem](sdtlistitem)(string) | Initializes a new instance of this class. |
+| [SdtListItem](sdtlistitem)(string, string) | Initializes a new instance of this class. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [DisplayText](displaytext) { get; } | Gets the text to display in the run content in place of the [`Value`](./value) attribute contents for this list item. |
 | [Value](value) { get; } | Gets the value of this list item. |
 

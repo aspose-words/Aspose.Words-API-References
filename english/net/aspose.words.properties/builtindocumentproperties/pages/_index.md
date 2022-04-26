@@ -3,7 +3,7 @@ title: Pages
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 190
+weight: 220
 url: /net/aspose.words.properties/builtindocumentproperties/pages/
 ---
 ## BuiltInDocumentProperties.Pages property

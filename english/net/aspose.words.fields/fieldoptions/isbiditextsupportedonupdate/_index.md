@@ -3,7 +3,7 @@ title: IsBidiTextSupportedOnUpdate
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 30
+weight: 120
 url: /net/aspose.words.fields/fieldoptions/isbiditextsupportedonupdate/
 ---
 ## FieldOptions.IsBidiTextSupportedOnUpdate property
@@ -16,11 +16,11 @@ public bool IsBidiTextSupportedOnUpdate { get; set; }
 
 ### Remarks
 
-When this property is set to true, additional steps are performed to produce Right-To-Left language (i.e. Arabic or Hebrew) compatible field result during its update.
+When this property is set to **true**, additional steps are performed to produce Right-To-Left language (i.e. Arabic or Hebrew) compatible field result during its update.
 
-When this property is set to false and Right-To-Left language is used, correctness of field result after its update is not guaranteed.
+When this property is set to **false** and Right-To-Left language is used, correctness of field result after its update is not guaranteed.
 
-The default value is false.
+The default value is **false**.
 
 ### Examples
 

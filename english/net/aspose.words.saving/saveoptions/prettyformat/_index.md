@@ -3,12 +3,12 @@ title: PrettyFormat
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 60
+weight: 120
 url: /net/aspose.words.saving/saveoptions/prettyformat/
 ---
 ## SaveOptions.PrettyFormat property
 
-When `true`, pretty formats output where applicable. Default value is false.
+When `true`, pretty formats output where applicable. Default value is **false**.
 
 ```csharp
 public bool PrettyFormat { get; set; }
@@ -16,7 +16,7 @@ public bool PrettyFormat { get; set; }
 
 ### Remarks
 
-Set to true to make HTML, MHTML, EPUB, WordML, RTF, DOCX and ODT output human readable. Useful for testing or debugging.
+Set to **true** to make HTML, MHTML, EPUB, WordML, RTF, DOCX and ODT output human readable. Useful for testing or debugging.
 
 ### Examples
 

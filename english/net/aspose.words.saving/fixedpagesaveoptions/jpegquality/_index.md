@@ -3,7 +3,7 @@ title: JpegQuality
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 60
+weight: 20
 url: /net/aspose.words.saving/fixedpagesaveoptions/jpegquality/
 ---
 ## FixedPageSaveOptions.JpegQuality property
@@ -18,7 +18,9 @@ public int JpegQuality { get; set; }
 
 Has effect only when a document contains JPEG images.
 
-Use this property to get or set the quality of the images inside a document when saving in fixed page format. The value may vary from 0 to 100 where 0 means worst quality but maximum compression and 100 means best quality but minimum compression.The default value is 95.
+Use this property to get or set the quality of the images inside a document when saving in fixed page format. The value may vary from 0 to 100 where 0 means worst quality but maximum compression and 100 means best quality but minimum compression.
+
+The default value is 95.
 
 ### Examples
 

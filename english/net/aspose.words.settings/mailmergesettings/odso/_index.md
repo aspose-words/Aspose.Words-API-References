@@ -3,7 +3,7 @@ title: Odso
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 170
+weight: 150
 url: /net/aspose.words.settings/mailmergesettings/odso/
 ---
 ## MailMergeSettings.Odso property

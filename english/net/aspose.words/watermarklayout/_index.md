@@ -3,7 +3,7 @@ title: WatermarkLayout
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 6280
+weight: 6230
 url: /net/aspose.words/watermarklayout/
 ---
 ## WatermarkLayout enumeration

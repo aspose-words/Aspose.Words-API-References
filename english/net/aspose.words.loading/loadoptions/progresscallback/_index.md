@@ -3,7 +3,7 @@ title: ProgressCallback
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 80
+weight: 130
 url: /net/aspose.words.loading/loadoptions/progresscallback/
 ---
 ## LoadOptions.ProgressCallback property
@@ -16,7 +16,7 @@ public IDocumentLoadingCallback ProgressCallback { get; set; }
 
 ### Remarks
 
-Docx, FlatOpc, Docm, Dotm, Dotx, Markdown formats supported.
+Docx, FlatOpc, Docm, Dotm, Dotx, Markdown, Rtf, WordML formats supported.
 
 ### See Also
 

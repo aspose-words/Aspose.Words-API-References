@@ -3,7 +3,7 @@ title: BoundsWithEffects
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 470
+weight: 90
 url: /net/aspose.words.drawing/shapebase/boundswitheffects/
 ---
 ## ShapeBase.BoundsWithEffects property

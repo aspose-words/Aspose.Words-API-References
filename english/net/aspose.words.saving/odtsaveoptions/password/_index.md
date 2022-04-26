@@ -3,7 +3,7 @@ title: Password
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 50
+weight: 40
 url: /net/aspose.words.saving/odtsaveoptions/password/
 ---
 ## OdtSaveOptions.Password property

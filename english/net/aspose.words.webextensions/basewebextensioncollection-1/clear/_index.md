@@ -3,7 +3,7 @@ title: Clear
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 20
+weight: 40
 url: /net/aspose.words.webextensions/basewebextensioncollection-1/clear/
 ---
 ## BaseWebExtensionCollection&lt;T&gt;.Clear method

@@ -3,7 +3,7 @@ title: FieldAutoNum
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 1400
+weight: 1380
 url: /net/aspose.words.fields/fieldautonum/
 ---
 ## FieldAutoNum class
@@ -14,11 +14,16 @@ Implements the AUTONUM field.
 public class FieldAutoNum : Field
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [FieldAutoNum](fieldautonum)() | The default constructor. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [SeparatorCharacter](separatorcharacter) { get; set; } | Gets or sets the separator character to be used. |
 
 ### Remarks

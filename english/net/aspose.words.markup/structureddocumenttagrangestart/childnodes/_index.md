@@ -3,7 +3,7 @@ title: ChildNodes
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 90
+weight: 20
 url: /net/aspose.words.markup/structureddocumenttagrangestart/childnodes/
 ---
 ## StructuredDocumentTagRangeStart.ChildNodes property

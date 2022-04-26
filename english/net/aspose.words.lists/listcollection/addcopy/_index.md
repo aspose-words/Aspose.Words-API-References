@@ -3,7 +3,7 @@ title: AddCopy
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 30
+weight: 50
 url: /net/aspose.words.lists/listcollection/addcopy/
 ---
 ## ListCollection.AddCopy method
@@ -24,7 +24,9 @@ The newly created list.
 
 ### Remarks
 
-The source list can be from any document. If the source list belongs to a different document, a copy of the list is created and added to the current document.If the source list is a reference to or a definition of a list style, the newly created list is not related to the original list style.
+The source list can be from any document. If the source list belongs to a different document, a copy of the list is created and added to the current document.
+
+If the source list is a reference to or a definition of a list style, the newly created list is not related to the original list style.
 
 ### Examples
 

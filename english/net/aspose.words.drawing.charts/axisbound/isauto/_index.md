@@ -3,7 +3,7 @@ title: IsAuto
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 50
+weight: 20
 url: /net/aspose.words.drawing.charts/axisbound/isauto/
 ---
 ## AxisBound.IsAuto property

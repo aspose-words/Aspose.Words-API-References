@@ -3,7 +3,7 @@ title: Write
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 210
+weight: 620
 url: /net/aspose.words/documentbuilder/write/
 ---
 ## DocumentBuilder.Write method

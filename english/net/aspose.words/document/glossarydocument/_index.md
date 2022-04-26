@@ -3,7 +3,7 @@ title: GlossaryDocument
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 610
+weight: 170
 url: /net/aspose.words/document/glossarydocument/
 ---
 ## Document.GlossaryDocument property

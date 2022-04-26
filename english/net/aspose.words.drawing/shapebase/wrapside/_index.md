@@ -3,7 +3,7 @@ title: WrapSide
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 570
+weight: 520
 url: /net/aspose.words.drawing/shapebase/wrapside/
 ---
 ## ShapeBase.WrapSide property
@@ -16,7 +16,9 @@ public WrapSide WrapSide { get; set; }
 
 ### Remarks
 
-The default value is Both.Has effect only for top level shapes.
+The default value is Both.
+
+Has effect only for top level shapes.
 
 ### Examples
 

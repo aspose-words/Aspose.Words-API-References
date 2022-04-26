@@ -3,7 +3,7 @@ title: IsSignatureLine
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 610
+weight: 330
 url: /net/aspose.words.drawing/shapebase/issignatureline/
 ---
 ## ShapeBase.IsSignatureLine property

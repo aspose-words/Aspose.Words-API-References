@@ -3,7 +3,7 @@ title: FieldGreetingLine
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 1780
+weight: 1760
 url: /net/aspose.words.fields/fieldgreetingline/
 ---
 ## FieldGreetingLine class
@@ -14,14 +14,24 @@ Implements the GREETINGLINE field.
 public class FieldGreetingLine : Field
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [FieldGreetingLine](fieldgreetingline)() | The default constructor. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [AlternateText](alternatetext) { get; set; } | Gets or sets the text to include in the field if the name is blank. |
 | [LanguageId](languageid) { get; set; } | Gets or sets the language id used to format the name. |
 | [NameFormat](nameformat) { get; set; } | Gets or sets the format of the name included in the field. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
 | [GetFieldNames](getfieldnames)() | Returns a collection of mail merge field names used by the field. |
 
 ### Remarks

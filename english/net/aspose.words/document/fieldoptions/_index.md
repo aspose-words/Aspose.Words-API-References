@@ -3,12 +3,12 @@ title: FieldOptions
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 740
+weight: 120
 url: /net/aspose.words/document/fieldoptions/
 ---
 ## Document.FieldOptions property
 
-Gets a FieldOptions object that represents options to control field handling in the document.
+Gets a **FieldOptions** object that represents options to control field handling in the document.
 
 ```csharp
 public FieldOptions FieldOptions { get; }

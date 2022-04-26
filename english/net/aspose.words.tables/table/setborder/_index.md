@@ -3,7 +3,7 @@ title: SetBorder
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 10
+weight: 410
 url: /net/aspose.words.tables/table/setborder/
 ---
 ## Table.SetBorder method

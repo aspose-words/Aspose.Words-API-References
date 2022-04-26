@@ -8,26 +8,6 @@ url: /net/aspose.words.reporting/csvdatasource/csvdatasource/
 ---
 ## CsvDataSource constructor (1 of 4)
 
-Creates a new data source with data from a CSV stream using default options for parsing CSV data.
-
-```csharp
-public CsvDataSource(Stream csvStream)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| csvStream | Stream | The stream of CSV data to be used as the data source. |
-
-### See Also
-
-* class [CsvDataSource](../../csvdatasource)
-* namespace [Aspose.Words.Reporting](../../csvdatasource)
-* assembly [Aspose.Words](../../../)
-
----
-
-## CsvDataSource constructor (2 of 4)
-
 Creates a new data source with data from a CSV file using default options for parsing CSV data.
 
 ```csharp
@@ -46,17 +26,17 @@ public CsvDataSource(string csvPath)
 
 ---
 
-## CsvDataSource constructor (3 of 4)
+## CsvDataSource constructor (2 of 4)
 
-Creates a new data source with data from a CSV stream using the specified options for parsing CSV data.
+Creates a new data source with data from a CSV file using the specified options for parsing CSV data.
 
 ```csharp
-public CsvDataSource(Stream csvStream, CsvDataLoadOptions options)
+public CsvDataSource(string csvPath, CsvDataLoadOptions options)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| csvStream | Stream | The stream of CSV data to be used as the data source. |
+| csvPath | String | The path to the CSV file to be used as the data source. |
 | options | CsvDataLoadOptions | Options for parsing the CSV data. |
 
 ### See Also
@@ -68,17 +48,37 @@ public CsvDataSource(Stream csvStream, CsvDataLoadOptions options)
 
 ---
 
-## CsvDataSource constructor (4 of 4)
+## CsvDataSource constructor (3 of 4)
 
-Creates a new data source with data from a CSV file using the specified options for parsing CSV data.
+Creates a new data source with data from a CSV stream using default options for parsing CSV data.
 
 ```csharp
-public CsvDataSource(string csvPath, CsvDataLoadOptions options)
+public CsvDataSource(Stream csvStream)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| csvPath | String | The path to the CSV file to be used as the data source. |
+| csvStream | Stream | The stream of CSV data to be used as the data source. |
+
+### See Also
+
+* class [CsvDataSource](../../csvdatasource)
+* namespace [Aspose.Words.Reporting](../../csvdatasource)
+* assembly [Aspose.Words](../../../)
+
+---
+
+## CsvDataSource constructor (4 of 4)
+
+Creates a new data source with data from a CSV stream using the specified options for parsing CSV data.
+
+```csharp
+public CsvDataSource(Stream csvStream, CsvDataLoadOptions options)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| csvStream | Stream | The stream of CSV data to be used as the data source. |
 | options | CsvDataLoadOptions | Options for parsing the CSV data. |
 
 ### See Also

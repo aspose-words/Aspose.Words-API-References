@@ -3,7 +3,7 @@ title: TableStyleOptions
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 5980
+weight: 5930
 url: /net/aspose.words.tables/tablestyleoptions/
 ---
 ## TableStyleOptions enumeration
@@ -19,15 +19,15 @@ public enum TableStyleOptions
 
 | Name | Value | Description |
 | --- | --- | --- |
-| None | `0x0` | No table style formatting is applied. |
-| FirstRow | `0x20` | Apply first row conditional formatting. |
-| LastRow | `0x40` | Apply last row conditional formatting. |
-| FirstColumn | `0x80` | Apply 1 first column conditional formatting. |
-| LastColumn | `0x100` | Apply last column conditional formatting. |
-| RowBands | `0x200` | Apply row banding conditional formatting. |
-| ColumnBands | `0x400` | Apply column banding conditional formatting. |
-| Default2003 | `0x600` | Row and column banding is applied. This is Microsoft Word default for old formats such as DOC, WML and RTF. |
-| Default | `0x2A0` | This is Microsoft Word defaults. |
+| None | `0` | No table style formatting is applied. |
+| FirstRow | `20` | Apply first row conditional formatting. |
+| LastRow | `40` | Apply last row conditional formatting. |
+| FirstColumn | `80` | Apply 1 first column conditional formatting. |
+| LastColumn | `100` | Apply last column conditional formatting. |
+| RowBands | `200` | Apply row banding conditional formatting. |
+| ColumnBands | `400` | Apply column banding conditional formatting. |
+| Default2003 | `600` | Row and column banding is applied. This is Microsoft Word default for old formats such as DOC, WML and RTF. |
+| Default | `2A0` | This is Microsoft Word defaults. |
 
 ### Examples
 

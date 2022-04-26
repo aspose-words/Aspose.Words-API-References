@@ -3,7 +3,7 @@ title: InsertChart
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 380
+weight: 260
 url: /net/aspose.words/documentbuilder/insertchart/
 ---
 ## DocumentBuilder.InsertChart method (1 of 2)

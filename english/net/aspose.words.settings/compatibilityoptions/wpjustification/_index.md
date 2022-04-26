@@ -3,7 +3,7 @@ title: WPJustification
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 320
+weight: 690
 url: /net/aspose.words.settings/compatibilityoptions/wpjustification/
 ---
 ## CompatibilityOptions.WPJustification property

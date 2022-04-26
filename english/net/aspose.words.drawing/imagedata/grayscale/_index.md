@@ -3,7 +3,7 @@ title: GrayScale
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 230
+weight: 100
 url: /net/aspose.words.drawing/imagedata/grayscale/
 ---
 ## ImageData.GrayScale property
@@ -16,7 +16,7 @@ public bool GrayScale { get; set; }
 
 ### Remarks
 
-The default value is false.
+The default value is **false**.
 
 ### Examples
 

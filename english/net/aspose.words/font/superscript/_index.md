@@ -3,7 +3,7 @@ title: Superscript
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 290
+weight: 440
 url: /net/aspose.words/font/superscript/
 ---
 ## Font.Superscript property

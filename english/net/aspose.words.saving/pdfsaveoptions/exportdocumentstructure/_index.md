@@ -3,7 +3,7 @@ title: ExportDocumentStructure
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 190
+weight: 120
 url: /net/aspose.words.saving/pdfsaveoptions/exportdocumentstructure/
 ---
 ## PdfSaveOptions.ExportDocumentStructure property

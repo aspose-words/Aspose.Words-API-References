@@ -3,7 +3,7 @@ title: Italic
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 70
+weight: 50
 url: /net/aspose.words.drawing/textpath/italic/
 ---
 ## TextPath.Italic property
@@ -16,7 +16,7 @@ public bool Italic { get; set; }
 
 ### Remarks
 
-The default value is false.
+The default value is **false**.
 
 ### Examples
 

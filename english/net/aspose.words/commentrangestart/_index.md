@@ -14,14 +14,24 @@ Denotes the start of a region of text that has a comment associated with it.
 public sealed class CommentRangeStart : Node
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
-| [CommentRangeStart](commentrangestart)(…) | Initializes a new instance of this class. |
+| [CommentRangeStart](commentrangestart)(DocumentBase, int) | Initializes a new instance of this class. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [Id](id) { get; set; } | Specifies the identifier of the comment to which this region is linked. |
 | override [NodeType](nodetype) { get; } | Returns CommentRangeStart. |
-| override [Accept](accept)(…) | Accepts a visitor. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| override [Accept](accept)(DocumentVisitor) | Accepts a visitor. |
 
 ### Remarks
 

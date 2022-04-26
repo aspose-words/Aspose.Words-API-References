@@ -3,7 +3,7 @@ title: SuppressNonDelimiters
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 70
+weight: 80
 url: /net/aspose.words.fields/fieldstyleref/suppressnondelimiters/
 ---
 ## FieldStyleRef.SuppressNonDelimiters property

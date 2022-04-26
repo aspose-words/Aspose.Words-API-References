@@ -3,7 +3,7 @@ title: DoNotAutofitConstrainedTables
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 570
+weight: 120
 url: /net/aspose.words.settings/compatibilityoptions/donotautofitconstrainedtables/
 ---
 ## CompatibilityOptions.DoNotAutofitConstrainedTables property

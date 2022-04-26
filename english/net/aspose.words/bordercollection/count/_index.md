@@ -3,7 +3,7 @@ title: Count
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 110
+weight: 30
 url: /net/aspose.words/bordercollection/count/
 ---
 ## BorderCollection.Count property

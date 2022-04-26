@@ -3,7 +3,7 @@ title: Orientation
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 160
+weight: 260
 url: /net/aspose.words/pagesetup/orientation/
 ---
 ## PageSetup.Orientation property
@@ -16,7 +16,7 @@ public Orientation Orientation { get; set; }
 
 ### Remarks
 
-Changing Orientation swaps [`PageWidth`](../pagewidth) and [`PageHeight`](../pageheight).
+Changing **Orientation** swaps [`PageWidth`](../pagewidth) and [`PageHeight`](../pageheight).
 
 ### Examples
 

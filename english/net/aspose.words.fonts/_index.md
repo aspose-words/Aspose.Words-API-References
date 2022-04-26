@@ -1,12 +1,12 @@
 ---
 title: Aspose.Words.Fonts
 second_title: Aspose.Words for .NET API Reference
-description: The Aspose.Words.Fonts namespace provides classes and enumerations to access information about fonts used in a document.
+description: The **Aspose.Words.Fonts** namespace provides classes and enumerations to access information about fonts used in a document.
 type: docs
 weight: 90
 url: /net/aspose.words.fonts/
 ---
-The Aspose.Words.Fonts namespace provides classes and enumerations to access information about fonts used in a document.
+The **Aspose.Words.Fonts** namespace provides classes and enumerations to access information about fonts used in a document.
 
 ## Classes
 
@@ -35,7 +35,7 @@ The Aspose.Words.Fonts namespace provides classes and enumerations to access inf
 | Enumeration | Description |
 | --- | --- |
 | enum [EmbeddedFontFormat](./embeddedfontformat) | Specifies format of particular embedded font inside [`FontInfo`](aspose.words.fonts/fontinfo) object. |
-| [Flags] enum [EmbeddedFontStyle](./embeddedfontstyle) | Specifies the style of an embedded font inside a [`FontInfo`](aspose.words.fonts/fontinfo) object. |
+| enum [EmbeddedFontStyle](./embeddedfontstyle) | Specifies the style of an embedded font inside a [`FontInfo`](aspose.words.fonts/fontinfo) object. |
 | enum [FontFamily](./fontfamily) | Represents the font family. |
 | enum [FontPitch](./fontpitch) | Represents the font pitch. |
 | enum [FontSourceType](./fontsourcetype) | Specifies the type of a font source. |

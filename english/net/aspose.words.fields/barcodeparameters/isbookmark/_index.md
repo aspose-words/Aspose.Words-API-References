@@ -3,7 +3,7 @@ title: IsBookmark
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 160
+weight: 120
 url: /net/aspose.words.fields/barcodeparameters/isbookmark/
 ---
 ## BarcodeParameters.IsBookmark property

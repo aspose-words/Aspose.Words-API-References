@@ -3,7 +3,7 @@ title: Author
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 120
+weight: 30
 url: /net/aspose.words/comment/author/
 ---
 ## Comment.Author property

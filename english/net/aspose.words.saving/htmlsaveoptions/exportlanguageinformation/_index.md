@@ -3,7 +3,7 @@ title: ExportLanguageInformation
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 180
+weight: 190
 url: /net/aspose.words.saving/htmlsaveoptions/exportlanguageinformation/
 ---
 ## HtmlSaveOptions.ExportLanguageInformation property
@@ -16,7 +16,7 @@ public bool ExportLanguageInformation { get; set; }
 
 ### Remarks
 
-When this property is set to `true` Aspose.Words outputs lang HTML attribute on the document elements that specify language. This can be needed to preserve language related semantics.
+When this property is set to `true` Aspose.Words outputs **lang** HTML attribute on the document elements that specify language. This can be needed to preserve language related semantics.
 
 ### Examples
 

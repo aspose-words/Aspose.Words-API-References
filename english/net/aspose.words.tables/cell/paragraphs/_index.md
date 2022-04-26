@@ -3,7 +3,7 @@ title: Paragraphs
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 110
+weight: 80
 url: /net/aspose.words.tables/cell/paragraphs/
 ---
 ## Cell.Paragraphs property

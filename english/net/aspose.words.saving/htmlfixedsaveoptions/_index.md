@@ -3,7 +3,7 @@ title: HtmlFixedSaveOptions
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 4730
+weight: 4680
 url: /net/aspose.words.saving/htmlfixedsaveoptions/
 ---
 ## HtmlFixedSaveOptions class
@@ -14,11 +14,16 @@ Can be used to specify additional options when saving a document into the HtmlFi
 public class HtmlFixedSaveOptions : FixedPageSaveOptions
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [HtmlFixedSaveOptions](htmlfixedsaveoptions)() | The default constructor. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [CssClassNamesPrefix](cssclassnamesprefix) { get; set; } | Specifies prefix which is added to all class names in style.css file. Default value is `"aw"`. |
 | [Encoding](encoding) { get; set; } | Specifies the encoding to use when exporting to HTML. Default value is `new UTF8Encoding(true)` (UTF-8 with BOM). |
 | [ExportEmbeddedCss](exportembeddedcss) { get; set; } | Specifies whether the CSS (Cascading Style Sheet) should be embedded into Html document. |

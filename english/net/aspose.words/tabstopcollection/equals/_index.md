@@ -3,15 +3,15 @@ title: Equals
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 10
+weight: 70
 url: /net/aspose.words/tabstopcollection/equals/
 ---
 ## TabStopCollection.Equals method (1 of 2)
 
-Determines whether the specified object is equal in value to the current object.
+Determines whether the specified TabStopCollection is equal in value to the current TabStopCollection.
 
 ```csharp
-public override bool Equals(object obj)
+public bool Equals(TabStopCollection rhs)
 ```
 
 ### Examples
@@ -65,10 +65,10 @@ doc.Save(ArtifactsDir + "TabStopCollection.TabStopCollection.docx");
 
 ## TabStopCollection.Equals method (2 of 2)
 
-Determines whether the specified TabStopCollection is equal in value to the current TabStopCollection.
+Determines whether the specified object is equal in value to the current object.
 
 ```csharp
-public bool Equals(TabStopCollection rhs)
+public override bool Equals(object obj)
 ```
 
 ### Examples

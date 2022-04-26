@@ -3,7 +3,7 @@ title: ICssSavingCallback
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 4780
+weight: 4730
 url: /net/aspose.words.saving/icsssavingcallback/
 ---
 ## ICssSavingCallback interface
@@ -14,11 +14,11 @@ Implement this interface if you want to control how Aspose.Words saves CSS (Casc
 public interface ICssSavingCallback
 ```
 
-## Members
+## Methods
 
 | Name | Description |
 | --- | --- |
-| [CssSaving](csssaving)(…) | Called when Aspose.Words saves an CSS (Cascading Style Sheet). |
+| [CssSaving](csssaving)(CssSavingArgs) | Called when Aspose.Words saves an CSS (Cascading Style Sheet). |
 
 ### Examples
 

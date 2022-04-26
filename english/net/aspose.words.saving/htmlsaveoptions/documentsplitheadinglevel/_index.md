@@ -3,7 +3,7 @@ title: DocumentSplitHeadingLevel
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 100
+weight: 90
 url: /net/aspose.words.saving/htmlsaveoptions/documentsplitheadinglevel/
 ---
 ## HtmlSaveOptions.DocumentSplitHeadingLevel property
@@ -16,9 +16,9 @@ public int DocumentSplitHeadingLevel { get; set; }
 
 ### Remarks
 
-When [`DocumentSplitCriteria`](../documentsplitcriteria) includes HeadingParagraph and this property is set to a value from 1 to 9, the document will be split at paragraphs formatted using Heading 1, Heading 2 , Heading 3 etc. styles up to the specified heading level.
+When [`DocumentSplitCriteria`](../documentsplitcriteria) includes HeadingParagraph and this property is set to a value from 1 to 9, the document will be split at paragraphs formatted using **Heading 1**, **Heading 2** , **Heading 3** etc. styles up to the specified heading level.
 
-By default, only Heading 1 and Heading 2 paragraphs cause the document to be split. Setting this property to zero will cause the document not to be split at heading paragraphs at all.
+By default, only **Heading 1** and **Heading 2** paragraphs cause the document to be split. Setting this property to zero will cause the document not to be split at heading paragraphs at all.
 
 ### Examples
 

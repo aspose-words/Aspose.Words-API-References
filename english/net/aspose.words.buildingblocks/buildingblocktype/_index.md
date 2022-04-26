@@ -30,7 +30,7 @@ public enum BuildingBlockType
 
 ### Remarks
 
-Corresponds to the ST_DocPartType type in OOXML.
+Corresponds to the **ST_DocPartType** type in OOXML.
 
 ### Examples
 

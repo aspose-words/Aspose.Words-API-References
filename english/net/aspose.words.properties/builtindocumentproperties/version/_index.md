@@ -3,7 +3,7 @@ title: Version
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 300
+weight: 320
 url: /net/aspose.words.properties/builtindocumentproperties/version/
 ---
 ## BuiltInDocumentProperties.Version property

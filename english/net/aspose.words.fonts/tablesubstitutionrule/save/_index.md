@@ -3,20 +3,20 @@ title: Save
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 50
+weight: 70
 url: /net/aspose.words.fonts/tablesubstitutionrule/save/
 ---
 ## TableSubstitutionRule.Save method (1 of 2)
 
-Saves the current table substitution settings to stream.
+Saves the current table substitution settings to file.
 
 ```csharp
-public void Save(Stream outputStream)
+public void Save(string fileName)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| outputStream | Stream | Output stream. |
+| fileName | String | Output file name. |
 
 ### Examples
 
@@ -63,15 +63,15 @@ using (FileStream fileStream = new FileStream(ArtifactsDir + "FontSettings.Table
 
 ## TableSubstitutionRule.Save method (2 of 2)
 
-Saves the current table substitution settings to file.
+Saves the current table substitution settings to stream.
 
 ```csharp
-public void Save(string fileName)
+public void Save(Stream outputStream)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fileName | String | Output file name. |
+| outputStream | Stream | Output stream. |
 
 ### Examples
 

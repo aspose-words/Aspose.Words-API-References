@@ -3,7 +3,7 @@ title: UpdateSmartArtDrawing
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 10
+weight: 250
 url: /net/aspose.words.drawing/shape/updatesmartartdrawing/
 ---
 ## Shape.UpdateSmartArtDrawing method

@@ -3,7 +3,7 @@ title: FieldSymbol
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 2260
+weight: 2240
 url: /net/aspose.words.fields/fieldsymbol/
 ---
 ## FieldSymbol class
@@ -14,11 +14,16 @@ Implements a SYMBOL field.
 public class FieldSymbol : Field
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [FieldSymbol](fieldsymbol)() | The default constructor. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [CharacterCode](charactercode) { get; set; } | Gets or sets the character's code point value in decimal or hexadecimal. |
 | [DontAffectsLineSpacing](dontaffectslinespacing) { get; set; } | Gets or sets whether the character retrieved by the field affects the line spacing of the paragraph. |
 | [FontName](fontname) { get; set; } | Gets or sets the name of the font of the character retrieved by the field. |

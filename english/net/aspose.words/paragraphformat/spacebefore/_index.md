@@ -3,7 +3,7 @@ title: SpaceBefore
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 240
+weight: 310
 url: /net/aspose.words/paragraphformat/spacebefore/
 ---
 ## ParagraphFormat.SpaceBefore property
@@ -22,7 +22,9 @@ public double SpaceBefore { get; set; }
 
 ### Remarks
 
-Has no effect when [`SpaceBeforeAuto`](../spacebeforeauto) is true.Valid values range from 0 to 1584 inclusive.
+Has no effect when [`SpaceBeforeAuto`](../spacebeforeauto) is true.
+
+Valid values range from 0 to 1584 inclusive.
 
 ### Examples
 

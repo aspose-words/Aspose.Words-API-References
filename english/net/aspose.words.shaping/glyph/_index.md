@@ -3,7 +3,7 @@ title: Glyph
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 5650
+weight: 5600
 url: /net/aspose.words.shaping/glyph/
 ---
 ## Glyph class
@@ -12,17 +12,27 @@ url: /net/aspose.words.shaping/glyph/
 public class Glyph
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
-| [Glyph](glyph)(…) |  |
+| [Glyph](glyph)(int, short, short, short) |  |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [Advance](advance) { get; set; } |  |
 | [AdvanceOffset](advanceoffset) { get; } |  |
 | [AscenderOffset](ascenderoffset) { get; } |  |
 | [GlyphIndex](glyphindex) { get; } |  |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
 | [Clone](clone)() |  |
-| virtual [GetWidth](getwidth)(…) |  |
+| virtual [GetWidth](getwidth)(int, float) |  |
 
 ### See Also
 

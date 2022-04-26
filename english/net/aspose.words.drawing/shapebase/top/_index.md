@@ -3,7 +3,7 @@ title: Top
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 330
+weight: 490
 url: /net/aspose.words.drawing/shapebase/top/
 ---
 ## ShapeBase.Top property
@@ -16,7 +16,13 @@ public double Top { get; set; }
 
 ### Remarks
 
-For a top-level shape, the value is in points and relative to the shape anchor.For shapes in a group, the value is in the coordinate space and units of the parent group.The default value is 0.Has effect only for floating shapes.
+For a top-level shape, the value is in points and relative to the shape anchor.
+
+For shapes in a group, the value is in the coordinate space and units of the parent group.
+
+The default value is 0.
+
+Has effect only for floating shapes.
 
 ### Examples
 

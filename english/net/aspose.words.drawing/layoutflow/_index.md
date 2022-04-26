@@ -3,7 +3,7 @@ title: LayoutFlow
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 960
+weight: 940
 url: /net/aspose.words.drawing/layoutflow/
 ---
 ## LayoutFlow enumeration

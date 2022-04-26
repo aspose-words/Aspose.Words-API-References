@@ -3,7 +3,7 @@ title: FieldImport
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 1820
+weight: 1800
 url: /net/aspose.words.fields/fieldimport/
 ---
 ## FieldImport class
@@ -14,11 +14,16 @@ Implements the IMPORT field.
 public class FieldImport : Field
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [FieldImport](fieldimport)() | The default constructor. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [GraphicFilter](graphicfilter) { get; set; } | Gets or sets the name of the filter for the format of the graphic that is to be inserted. |
 | [IsLinked](islinked) { get; set; } | Gets or sets whether to reduce the file size by not storing graphics data with the document. |
 | [SourceFullName](sourcefullname) { get; set; } | Gets or sets the location of the picture. |

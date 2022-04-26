@@ -3,7 +3,7 @@ title: Remove
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 40
+weight: 60
 url: /net/aspose.words.drawing/gradientstopcollection/remove/
 ---
 ## GradientStopCollection.Remove method

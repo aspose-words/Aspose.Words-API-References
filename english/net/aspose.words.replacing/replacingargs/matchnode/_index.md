@@ -3,7 +3,7 @@ title: MatchNode
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 20
+weight: 40
 url: /net/aspose.words.replacing/replacingargs/matchnode/
 ---
 ## ReplacingArgs.MatchNode property

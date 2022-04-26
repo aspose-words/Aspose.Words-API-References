@@ -3,7 +3,7 @@ title: CustomStyles
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 140
+weight: 40
 url: /net/aspose.words.fields/fieldtoc/customstyles/
 ---
 ## FieldToc.CustomStyles property

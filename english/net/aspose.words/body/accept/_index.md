@@ -3,7 +3,7 @@ title: Accept
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 10
+weight: 40
 url: /net/aspose.words/body/accept/
 ---
 ## Body.Accept method
@@ -24,7 +24,9 @@ True if all nodes were visited; false if DocumentVisitor stopped the operation b
 
 ### Remarks
 
-Enumerates over this node and all of its children. Each node calls a corresponding method on DocumentVisitor.For more info see the Visitor design pattern.
+Enumerates over this node and all of its children. Each node calls a corresponding method on DocumentVisitor.
+
+For more info see the Visitor design pattern.
 
 Calls DocumentVisitor.VisitBodyStart, then calls Accept for all child nodes of the section and calls DocumentVisitor.VisitBodyEnd at the end.
 

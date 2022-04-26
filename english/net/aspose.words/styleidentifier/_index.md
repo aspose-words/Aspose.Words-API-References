@@ -3,7 +3,7 @@ title: StyleIdentifier
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 5760
+weight: 5710
 url: /net/aspose.words/styleidentifier/
 ---
 ## StyleIdentifier enumeration
@@ -399,7 +399,9 @@ public enum StyleIdentifier
 
 ### Remarks
 
-The names of built-in styles in MS Word are localized for different languages. Using a style identifier you can find the correct style regardless of the document language.All user defined styles are assigned the StyleIdentifier.User value.
+The names of built-in styles in MS Word are localized for different languages. Using a style identifier you can find the correct style regardless of the document language.
+
+All user defined styles are assigned the StyleIdentifier.User value.
 
 ### Examples
 

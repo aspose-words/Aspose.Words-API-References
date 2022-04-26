@@ -3,7 +3,7 @@ title: FacingIdentificationMark
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 170
+weight: 90
 url: /net/aspose.words.fields/barcodeparameters/facingidentificationmark/
 ---
 ## BarcodeParameters.FacingIdentificationMark property

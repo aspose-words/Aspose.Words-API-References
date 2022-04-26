@@ -3,7 +3,7 @@ title: WidthPercent
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 10
+weight: 50
 url: /net/aspose.words.drawing/horizontalruleformat/widthpercent/
 ---
 ## HorizontalRuleFormat.WidthPercent property
@@ -22,7 +22,9 @@ public double WidthPercent { get; set; }
 
 ### Remarks
 
-Valid values ​​range from 1 to 100 inclusive.The default value is 100.
+Valid values ​​range from 1 to 100 inclusive.
+
+The default value is 100.
 
 ### Examples
 

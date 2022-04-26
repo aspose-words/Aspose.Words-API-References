@@ -3,7 +3,7 @@ title: DocumentPropertyCollection
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 4170
+weight: 4120
 url: /net/aspose.words.properties/documentpropertycollection/
 ---
 ## DocumentPropertyCollection class
@@ -14,23 +14,30 @@ Base class for [`BuiltInDocumentProperties`](../builtindocumentproperties) and [
 public abstract class DocumentPropertyCollection : IEnumerable<DocumentProperty>
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
 | [Count](count) { get; } | Gets number of items in the collection. |
 | [Item](item) { get; } | Returns a [`DocumentProperty`](../documentproperty) object by index. |
 | virtual [Item](item) { get; } | Returns a [`DocumentProperty`](../documentproperty) object by the name of the property. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
 | [Clear](clear)() | Removes all properties from the collection. |
-| [Contains](contains)(…) | Returns true if a property with the specified name exists in the collection. |
+| [Contains](contains)(string) | Returns true if a property with the specified name exists in the collection. |
 | [GetEnumerator](getenumerator)() | Returns an enumerator object that can be used to iterate over all items in the collection. |
-| [IndexOf](indexof)(…) | Gets the index of a property by name. |
-| [Remove](remove)(…) | Removes a property with the specified name from the collection. |
-| [RemoveAt](removeat)(…) | Removes a property at the specified index. |
+| [IndexOf](indexof)(string) | Gets the index of a property by name. |
+| [Remove](remove)(string) | Removes a property with the specified name from the collection. |
+| [RemoveAt](removeat)(int) | Removes a property at the specified index. |
 
 ### Remarks
 
-The names of the properties are case-insensitive.The properties in the collection are sorted alphabetically by name.
+The names of the properties are case-insensitive.
+
+The properties in the collection are sorted alphabetically by name.
 
 ### Examples
 

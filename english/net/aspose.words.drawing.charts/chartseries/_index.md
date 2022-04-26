@@ -3,7 +3,7 @@ title: ChartSeries
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 720
+weight: 700
 url: /net/aspose.words.drawing.charts/chartseries/
 ---
 ## ChartSeries class
@@ -14,7 +14,7 @@ Represents chart series properties.
 public class ChartSeries : IChartDataPoint
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -25,7 +25,6 @@ public class ChartSeries : IChartDataPoint
 | [Format](format) { get; } | Provides access to fill and line formatting of the series. |
 | [HasDataLabels](hasdatalabels) { get; set; } | Gets or sets a flag indicating whether data labels are displayed for the series. |
 | [InvertIfNegative](invertifnegative) { get; set; } |  |
-| [LegendEntry](legendentry) { get; } | Gets a legend entry for this chart series. |
 | [Marker](marker) { get; } |  |
 | [Name](name) { get; set; } | Gets or sets the name of the series, if name is not set explicitly it is generated using index. By default returns Series plus one based index. |
 | [Smooth](smooth) { get; set; } | Allows to specify whether the line connecting the points on the chart shall be smoothed using Catmull-Rom splines. |

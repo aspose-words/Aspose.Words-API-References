@@ -1,12 +1,12 @@
 ---
 title: Aspose.Words.Fields
 second_title: Aspose.Words for .NET API Reference
-description: The Aspose.Words.Fields namespace contains classes that represent Microsoft Word fields in a document.
+description: The **Aspose.Words.Fields** namespace contains classes that represent Microsoft Word fields in a document.
 type: docs
 weight: 80
 url: /net/aspose.words.fields/
 ---
-The Aspose.Words.Fields namespace contains classes that represent Microsoft Word fields in a document.
+The **Aspose.Words.Fields** namespace contains classes that represent Microsoft Word fields in a document.
 
 ## Classes
 
@@ -121,7 +121,7 @@ The Aspose.Words.Fields namespace contains classes that represent Microsoft Word
 | class [FieldUserName](./fieldusername) | Implements the USERNAME field. |
 | class [FieldXE](./fieldxe) | Implements the XE field. |
 | class [FormField](./formfield) | Represents a single form field. |
-| class [FormFieldCollection](./formfieldcollection) | A collection of FormField objects that represent all the form fields in a range. |
+| class [FormFieldCollection](./formfieldcollection) | A collection of **FormField** objects that represent all the form fields in a range. |
 | class [GeneralFormatCollection](./generalformatcollection) | Represents a typed collection of general formats. |
 | class [MergeFieldImageDimension](./mergefieldimagedimension) | Represents an image dimension (i.e. the width or the height) used across a mail merge process. |
 | class [ToaCategories](./toacategories) | Represents a table of authorities categories. |

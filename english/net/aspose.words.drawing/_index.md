@@ -1,12 +1,12 @@
 ---
 title: Aspose.Words.Drawing
 second_title: Aspose.Words for .NET API Reference
-description: The Aspose.Words.Drawing namespace provides classes that allow to create and modify drawing objects.
+description: The **Aspose.Words.Drawing** namespace provides classes that allow to create and modify drawing objects.
 type: docs
 weight: 50
 url: /net/aspose.words.drawing/
 ---
-The Aspose.Words.Drawing namespace provides classes that allow to create and modify drawing objects.
+The **Aspose.Words.Drawing** namespace provides classes that allow to create and modify drawing objects.
 
 ## Classes
 
@@ -37,7 +37,7 @@ The Aspose.Words.Drawing namespace provides classes that allow to create and mod
 | enum [DashStyle](./dashstyle) | Dashed line style. |
 | enum [EndCap](./endcap) | Specifies line cap style. |
 | enum [FillType](./filltype) | Specifies fill type for a fillable object. |
-| [Flags] enum [FlipOrientation](./fliporientation) | Possible values for the orientation of a shape. |
+| enum [FlipOrientation](./fliporientation) | Possible values for the orientation of a shape. |
 | enum [GradientStyle](./gradientstyle) | Specifies the style for a gradient fill. |
 | enum [GradientVariant](./gradientvariant) | Specifies the variant for a gradient fill. |
 | enum [HorizontalAlignment](./horizontalalignment) | Specifies horizontal alignment of a floating shape, text frame or floating table. |

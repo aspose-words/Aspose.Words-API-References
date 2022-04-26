@@ -3,7 +3,7 @@ title: Clone
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 20
+weight: 100
 url: /net/aspose.words/node/clone/
 ---
 ## Node.Clone method
@@ -24,7 +24,9 @@ The cloned node.
 
 ### Remarks
 
-This method serves as a copy constructor for nodes. The cloned node has no parent, but belongs to the same document as the original node.This method always performs a deep copy of the node. The isCloneChildren parameter specifies whether to perform copy all child nodes as well.
+This method serves as a copy constructor for nodes. The cloned node has no parent, but belongs to the same document as the original node.
+
+This method always performs a deep copy of the node. The isCloneChildren parameter specifies whether to perform copy all child nodes as well.
 
 ### Examples
 

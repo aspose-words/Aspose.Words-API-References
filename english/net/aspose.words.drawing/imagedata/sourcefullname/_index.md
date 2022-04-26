@@ -3,7 +3,7 @@ title: SourceFullName
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 120
+weight: 170
 url: /net/aspose.words.drawing/imagedata/sourcefullname/
 ---
 ## ImageData.SourceFullName property
@@ -16,7 +16,9 @@ public string SourceFullName { get; set; }
 
 ### Remarks
 
-The default value is an empty string.If `SourceFullName` is not an empty string, the image is linked.
+The default value is an empty string.
+
+If `SourceFullName` is not an empty string, the image is linked.
 
 ### Examples
 

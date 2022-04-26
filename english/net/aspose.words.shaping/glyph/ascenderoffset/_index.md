@@ -3,7 +3,7 @@ title: AscenderOffset
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 70
+weight: 40
 url: /net/aspose.words.shaping/glyph/ascenderoffset/
 ---
 ## Glyph.AscenderOffset property

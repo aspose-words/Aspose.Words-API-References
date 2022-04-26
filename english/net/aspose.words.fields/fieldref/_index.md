@@ -3,7 +3,7 @@ title: FieldRef
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 2130
+weight: 2110
 url: /net/aspose.words.fields/fieldref/
 ---
 ## FieldRef class
@@ -14,11 +14,16 @@ Implements the REF field.
 public class FieldRef : Field
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [FieldRef](fieldref)() | The default constructor. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [BookmarkName](bookmarkname) { get; set; } | Gets or sets the referenced bookmark's name. |
 | [IncludeNoteOrComment](includenoteorcomment) { get; set; } | Gets or sets whether to increment footnote, endnote, and annotation numbers that are marked by the bookmark, and insert the corresponding footnote, endnote, and comment text. |
 | [InsertHyperlink](inserthyperlink) { get; set; } | Gets or sets whether to create a hyperlink to the bookmarked paragraph. |

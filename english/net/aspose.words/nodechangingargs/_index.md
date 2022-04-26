@@ -3,7 +3,7 @@ title: NodeChangingArgs
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 3890
+weight: 3840
 url: /net/aspose.words/nodechangingargs/
 ---
 ## NodeChangingArgs class
@@ -14,7 +14,7 @@ Provides data for methods of the [`INodeChangingCallback`](../inodechangingcallb
 public class NodeChangingArgs
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |

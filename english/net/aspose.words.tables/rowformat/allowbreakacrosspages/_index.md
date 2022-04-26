@@ -3,7 +3,7 @@ title: AllowBreakAcrossPages
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 50
+weight: 10
 url: /net/aspose.words.tables/rowformat/allowbreakacrosspages/
 ---
 ## RowFormat.AllowBreakAcrossPages property

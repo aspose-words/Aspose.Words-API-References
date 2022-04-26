@@ -3,7 +3,7 @@ title: TextInputType
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 170
+weight: 210
 url: /net/aspose.words.fields/formfield/textinputtype/
 ---
 ## FormField.TextInputType property

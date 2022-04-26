@@ -3,7 +3,7 @@ title: XPath
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 40
+weight: 50
 url: /net/aspose.words.markup/xmlmapping/xpath/
 ---
 ## XmlMapping.XPath property

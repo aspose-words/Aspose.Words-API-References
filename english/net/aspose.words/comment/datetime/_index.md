@@ -3,7 +3,7 @@ title: DateTime
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 110
+weight: 40
 url: /net/aspose.words/comment/datetime/
 ---
 ## Comment.DateTime property

@@ -3,7 +3,7 @@ title: ContentType
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 280
+weight: 90
 url: /net/aspose.words.properties/builtindocumentproperties/contenttype/
 ---
 ## BuiltInDocumentProperties.ContentType property

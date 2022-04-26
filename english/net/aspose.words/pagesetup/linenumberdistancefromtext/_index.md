@@ -3,7 +3,7 @@ title: LineNumberDistanceFromText
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 310
+weight: 200
 url: /net/aspose.words/pagesetup/linenumberdistancefromtext/
 ---
 ## PageSetup.LineNumberDistanceFromText property

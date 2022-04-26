@@ -3,7 +3,7 @@ title: Row
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 5920
+weight: 5870
 url: /net/aspose.words.tables/row/
 ---
 ## Row class
@@ -14,26 +14,40 @@ Represents a table row.
 public class Row : CompositeNode
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
-| [Row](row)(…) | Initializes a new instance of the Row class. |
-| [Cells](cells) { get; } | Provides typed access to the Cell child nodes of the row. |
-| [FirstCell](firstcell) { get; } | Returns the first Cell in the row. |
+| [Row](row)(DocumentBase) | Initializes a new instance of the **Row** class. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
+| [Cells](cells) { get; } | Provides typed access to the **Cell** child nodes of the row. |
+| [FirstCell](firstcell) { get; } | Returns the first **Cell** in the row. |
 | [IsFirstRow](isfirstrow) { get; } | True if this is the first row in a table; false otherwise. |
 | [IsLastRow](islastrow) { get; } | True if this is the last row in a table; false otherwise. |
-| [LastCell](lastcell) { get; } | Returns the last Cell in the row. |
-| override [NodeType](nodetype) { get; } | Returns NodeType.Row. |
+| [LastCell](lastcell) { get; } | Returns the last **Cell** in the row. |
+| override [NodeType](nodetype) { get; } | Returns **NodeType.Row**. |
 | [ParentTable](parenttable) { get; } | Returns the immediate parent table of the row. |
 | [RowFormat](rowformat) { get; } | Provides access to the formatting properties of the row. |
-| override [Accept](accept)(…) | Accepts a visitor. |
-| [EnsureMinimum](ensureminimum)() | If the Row has no cells, creates and appends one Cell. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| override [Accept](accept)(DocumentVisitor) | Accepts a visitor. |
+| [EnsureMinimum](ensureminimum)() | If the **Row** has no cells, creates and appends one **Cell**. |
 | override [GetText](gettext)() | Gets the text of all cells in this row including the end of row character. |
 
 ### Remarks
 
-Row can only be a child of a Table.Row can contain one or more Cell nodes.A minimal valid row needs to have at least one Cell.
+**Row** can only be a child of a **Table**.
+
+**Row** can contain one or more **Cell** nodes.
+
+A minimal valid row needs to have at least one **Cell**.
 
 ### Examples
 

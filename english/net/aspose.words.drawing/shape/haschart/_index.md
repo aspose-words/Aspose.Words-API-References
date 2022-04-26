@@ -3,7 +3,7 @@ title: HasChart
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 230
+weight: 70
 url: /net/aspose.words.drawing/shape/haschart/
 ---
 ## Shape.HasChart property

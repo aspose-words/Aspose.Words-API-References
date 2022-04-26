@@ -3,7 +3,7 @@ title: CellSpacing
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 80
+weight: 60
 url: /net/aspose.words/tablestyle/cellspacing/
 ---
 ## TableStyle.CellSpacing property

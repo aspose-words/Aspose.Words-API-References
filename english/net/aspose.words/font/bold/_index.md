@@ -3,7 +3,7 @@ title: Bold
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 150
+weight: 40
 url: /net/aspose.words/font/bold/
 ---
 ## Font.Bold property

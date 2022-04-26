@@ -3,7 +3,7 @@ title: LineSpacing
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 380
+weight: 190
 url: /net/aspose.words/font/linespacing/
 ---
 ## Font.LineSpacing property

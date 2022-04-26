@@ -3,7 +3,7 @@ title: UserPromptRespondent
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 40
+weight: 190
 url: /net/aspose.words.fields/fieldoptions/userpromptrespondent/
 ---
 ## FieldOptions.UserPromptRespondent property
@@ -16,9 +16,9 @@ public IFieldUserPromptRespondent UserPromptRespondent { get; set; }
 
 ### Remarks
 
-If the value of this property is set to null, the fields that require user response on prompting (such as [`FieldAsk`](../../fieldask) or [`FieldFillIn`](../../fieldfillin)) are not updated.
+If the value of this property is set to **null**, the fields that require user response on prompting (such as [`FieldAsk`](../../fieldask) or [`FieldFillIn`](../../fieldfillin)) are not updated.
 
-The default value is null.
+The default value is **null**.
 
 ### Examples
 

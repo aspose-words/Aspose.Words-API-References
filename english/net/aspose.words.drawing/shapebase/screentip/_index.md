@@ -3,7 +3,7 @@ title: ScreenTip
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 100
+weight: 440
 url: /net/aspose.words.drawing/shapebase/screentip/
 ---
 ## ShapeBase.ScreenTip property

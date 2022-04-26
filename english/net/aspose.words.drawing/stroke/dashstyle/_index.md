@@ -3,7 +3,7 @@ title: DashStyle
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 90
+weight: 40
 url: /net/aspose.words.drawing/stroke/dashstyle/
 ---
 ## Stroke.DashStyle property

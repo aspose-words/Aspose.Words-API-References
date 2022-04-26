@@ -3,7 +3,7 @@ title: Remove
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 10
+weight: 60
 url: /net/aspose.words/editablerange/remove/
 ---
 ## EditableRange.Remove method

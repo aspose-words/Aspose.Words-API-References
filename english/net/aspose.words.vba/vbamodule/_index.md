@@ -3,7 +3,7 @@ title: VbaModule
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 6150
+weight: 6100
 url: /net/aspose.words.vba/vbamodule/
 ---
 ## VbaModule class
@@ -14,14 +14,24 @@ Provides access to VBA project module.
 public class VbaModule
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [VbaModule](vbamodule)() | Creates an empty module. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [Name](name) { get; set; } | Gets or sets VBA project module name. |
 | [SourceCode](sourcecode) { get; set; } | Gets or sets VBA project module source code. |
 | [Type](type) { get; set; } | Specifies whether the module is a procedural module, document module, class module, or designer module. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
 | [Clone](clone)() | Performs a copy of the [`VbaModule`](../vbamodule). |
 
 ### Examples

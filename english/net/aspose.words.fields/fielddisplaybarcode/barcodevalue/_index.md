@@ -3,7 +3,7 @@ title: BarcodeValue
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 20
+weight: 50
 url: /net/aspose.words.fields/fielddisplaybarcode/barcodevalue/
 ---
 ## FieldDisplayBarcode.BarcodeValue property

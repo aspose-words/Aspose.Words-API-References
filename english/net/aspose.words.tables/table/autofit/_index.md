@@ -3,7 +3,7 @@ title: AutoFit
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 50
+weight: 360
 url: /net/aspose.words.tables/table/autofit/
 ---
 ## Table.AutoFit method

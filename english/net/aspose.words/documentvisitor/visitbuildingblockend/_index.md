@@ -3,7 +3,7 @@ title: VisitBuildingBlockEnd
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 450
+weight: 60
 url: /net/aspose.words/documentvisitor/visitbuildingblockend/
 ---
 ## DocumentVisitor.VisitBuildingBlockEnd method

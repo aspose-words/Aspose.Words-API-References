@@ -3,7 +3,7 @@ title: ShowSpellingErrors
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 350
+weight: 380
 url: /net/aspose.words/document/showspellingerrors/
 ---
 ## Document.ShowSpellingErrors property

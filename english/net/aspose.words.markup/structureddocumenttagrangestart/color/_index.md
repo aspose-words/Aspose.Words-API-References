@@ -3,7 +3,7 @@ title: Color
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 130
+weight: 30
 url: /net/aspose.words.markup/structureddocumenttagrangestart/color/
 ---
 ## StructuredDocumentTagRangeStart.Color property

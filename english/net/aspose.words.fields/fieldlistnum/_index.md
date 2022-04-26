@@ -3,7 +3,7 @@ title: FieldListNum
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 1920
+weight: 1900
 url: /net/aspose.words.fields/fieldlistnum/
 ---
 ## FieldListNum class
@@ -14,11 +14,16 @@ Implements the LISTNUM field.
 public class FieldListNum : Field
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [FieldListNum](fieldlistnum)() | The default constructor. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [HasListName](haslistname) { get; } | Returns a value indicating whether the name of an abstract numbering definition is provided by the field's code. |
 | [ListLevel](listlevel) { get; set; } | Gets or sets the level in the list, overriding the default behavior of the field. |
 | [ListName](listname) { get; set; } | Gets or sets the name of the abstract numbering definition used for the numbering. |

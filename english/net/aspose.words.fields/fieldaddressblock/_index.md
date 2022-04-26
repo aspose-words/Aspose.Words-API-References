@@ -3,7 +3,7 @@ title: FieldAddressBlock
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 1350
+weight: 1330
 url: /net/aspose.words.fields/fieldaddressblock/
 ---
 ## FieldAddressBlock class
@@ -14,16 +14,26 @@ Implements the ADDRESSBLOCK field.
 public class FieldAddressBlock : Field
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [FieldAddressBlock](fieldaddressblock)() | The default constructor. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [ExcludedCountryOrRegionName](excludedcountryorregionname) { get; set; } | Gets or sets the excluded country/region name. |
 | [FormatAddressOnCountryOrRegion](formataddressoncountryorregion) { get; set; } | Gets or sets whether to format the address according to the country/region of the recipient as defined by POST*CODE (Universal Postal Union 2006). |
 | [IncludeCountryOrRegionName](includecountryorregionname) { get; set; } | Gets or sets whether to include the name of the country/region. |
 | [LanguageId](languageid) { get; set; } | Gets or sets the language ID used to format the address. |
 | [NameAndAddressFormat](nameandaddressformat) { get; set; } | Gets or sets the name and address format. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
 | [GetFieldNames](getfieldnames)() | Returns a collection of mail merge field names used by the field. |
 
 ### Remarks

@@ -3,7 +3,7 @@ title: TextColumnCollection
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 6010
+weight: 5960
 url: /net/aspose.words/textcolumncollection/
 ---
 ## TextColumnCollection class
@@ -14,21 +14,32 @@ A collection of [`TextColumn`](../textcolumn) objects that represent all the col
 public class TextColumnCollection
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
 | [Count](count) { get; } | Gets the number of columns in the section of a document. |
-| [EvenlySpaced](evenlyspaced) { get; set; } | True if text columns are of equal width and evenly spaced. |
+| [EvenlySpaced](evenlyspaced) { get; set; } | **True** if text columns are of equal width and evenly spaced. |
 | [Item](item) { get; } | Returns a text column at the specified index. |
-| [LineBetween](linebetween) { get; set; } | When true, adds a vertical line between columns. |
+| [LineBetween](linebetween) { get; set; } | When **true**, adds a vertical line between columns. |
 | [Spacing](spacing) { get; set; } | When columns are evenly spaced, gets or sets the amount of space between each column in points. |
 | [Width](width) { get; } | When columns are evenly spaced, gets the width of the columns. |
-| [SetCount](setcount)(…) | Arranges text into the specified number of text columns. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [SetCount](setcount)(int) | Arranges text into the specified number of text columns. |
 
 ### Remarks
 
-Use [`SetCount`](./setcount) to set the number of text columns.To make all columns equal width and spaced evenly, set [`EvenlySpaced`](./evenlyspaced) to true and specify the amount of space between the columns in [`Spacing`](./spacing). MS Word will automatically calculate column widths.If you have EvenlySpaced set to false, you need to specify width and spacing for each column individually. Use the indexer to access individual [`TextColumn`](../textcolumn) objects.When using custom column widths, make sure the sum of all column widths and spacings between them equals page width minus left and right page margins.
+Use [`SetCount`](./setcount) to set the number of text columns.
+
+To make all columns equal width and spaced evenly, set [`EvenlySpaced`](./evenlyspaced) to **true** and specify the amount of space between the columns in [`Spacing`](./spacing). MS Word will automatically calculate column widths.
+
+If you have **EvenlySpaced** set to **false**, you need to specify width and spacing for each column individually. Use the indexer to access individual [`TextColumn`](../textcolumn) objects.
+
+When using custom column widths, make sure the sum of all column widths and spacings between them equals page width minus left and right page margins.
 
 ### Examples
 

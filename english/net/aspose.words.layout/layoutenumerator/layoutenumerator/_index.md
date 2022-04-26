@@ -3,7 +3,7 @@ title: LayoutEnumerator
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 90
+weight: 10
 url: /net/aspose.words.layout/layoutenumerator/layoutenumerator/
 ---
 ## LayoutEnumerator constructor

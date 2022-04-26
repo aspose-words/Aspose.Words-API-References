@@ -3,7 +3,7 @@ title: Add
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 20
+weight: 30
 url: /net/aspose.words.markup/customxmlschemacollection/add/
 ---
 ## CustomXmlSchemaCollection.Add method

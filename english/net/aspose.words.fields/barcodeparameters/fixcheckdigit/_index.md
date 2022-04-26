@@ -3,7 +3,7 @@ title: FixCheckDigit
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 140
+weight: 100
 url: /net/aspose.words.fields/barcodeparameters/fixcheckdigit/
 ---
 ## BarcodeParameters.FixCheckDigit property

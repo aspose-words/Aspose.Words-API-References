@@ -3,7 +3,7 @@ title: FieldAutoTextList
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 1440
+weight: 1420
 url: /net/aspose.words.fields/fieldautotextlist/
 ---
 ## FieldAutoTextList class
@@ -14,11 +14,16 @@ Implements the AUTOTEXTLIST field.
 public class FieldAutoTextList : Field
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [FieldAutoTextList](fieldautotextlist)() | The default constructor. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [EntryName](entryname) { get; set; } | Gets or sets the name of the AutoText entry. |
 | [ListStyle](liststyle) { get; set; } | Gets or sets the name of the style on which the list to contain entries is based. |
 | [ScreenTip](screentip) { get; set; } | Gets or sets the text of the ScreenTip to show. |

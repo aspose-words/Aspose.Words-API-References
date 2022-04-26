@@ -3,7 +3,7 @@ title: FieldIf
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 1800
+weight: 1780
 url: /net/aspose.words.fields/fieldif/
 ---
 ## FieldIf class
@@ -14,21 +14,33 @@ Implements the IF field.
 public class FieldIf : Field
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [FieldIf](fieldif)() | The default constructor. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [ComparisonOperator](comparisonoperator) { get; set; } | Gets or sets the comparison operator. |
 | [FalseText](falsetext) { get; set; } | Gets or sets the text displayed if the comparison expression is false. |
 | [LeftExpression](leftexpression) { get; set; } | Gets or sets the left part of the comparison expression. |
 | [RightExpression](rightexpression) { get; set; } | Gets or sets the right part of the comparison expression. |
 | [TrueText](truetext) { get; set; } | Gets or sets the text displayed if the comparison expression is true. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
 | [EvaluateCondition](evaluatecondition)() | Evaluates the condition. |
 
 ### Remarks
 
-Compares the values designated by the expressions [`LeftExpression`](./leftexpression) and [`RightExpression`](./rightexpression) in comparison using the operator designated by [`ComparisonOperator`](./comparisonoperator).A field in the following format will be used as a mail merge source: { IF 0 = 0 "{PatientsNameFML}" "" \* MERGEFORMAT }
+Compares the values designated by the expressions [`LeftExpression`](./leftexpression) and [`RightExpression`](./rightexpression) in comparison using the operator designated by [`ComparisonOperator`](./comparisonoperator).
+
+A field in the following format will be used as a mail merge source: { IF 0 = 0 "{PatientsNameFML}" "" \* MERGEFORMAT }
 
 ### Examples
 

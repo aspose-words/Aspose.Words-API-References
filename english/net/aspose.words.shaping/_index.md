@@ -1,12 +1,12 @@
 ---
 title: Aspose.Words.Shaping
 second_title: Aspose.Words for .NET API Reference
-description: The Aspose.Words.Shaping namespace contains classes to provide support for OpenType features using external text shaping engines.
+description: The **Aspose.Words.Shaping** namespace contains classes to provide support for OpenType features using external text shaping engines.
 type: docs
 weight: 240
 url: /net/aspose.words.shaping/
 ---
-The Aspose.Words.Shaping namespace contains classes to provide support for OpenType features using external text shaping engines.
+The **Aspose.Words.Shaping** namespace contains classes to provide support for OpenType features using external text shaping engines.
 
 ## Classes
 

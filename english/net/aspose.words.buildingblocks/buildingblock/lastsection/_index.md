@@ -3,7 +3,7 @@ title: LastSection
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 60
+weight: 80
 url: /net/aspose.words.buildingblocks/buildingblock/lastsection/
 ---
 ## BuildingBlock.LastSection property

@@ -3,12 +3,12 @@ title: ShowLegendKey
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 70
+weight: 90
 url: /net/aspose.words.drawing.charts/chartdatalabelcollection/showlegendkey/
 ---
 ## ChartDataLabelCollection.ShowLegendKey property
 
-Allows to specify whether legend key is to be displayed for the data labels of the entire series. Default value is false.
+Allows to specify whether legend key is to be displayed for the data labels of the entire series. Default value is **false**.
 
 ```csharp
 public bool ShowLegendKey { get; set; }

@@ -1,18 +1,18 @@
 ---
 title: Aspose.Words.Settings
 second_title: Aspose.Words for .NET API Reference
-description: The Aspose.Words.Settings namespace contains classes and enums that are used when specifying various settings and options stored in a document. These are mail merge, write protection, compatibility and other settings.
+description: The **Aspose.Words.Settings** namespace contains classes and enums that are used when specifying various settings and options stored in a document. These are mail merge, write protection, compatibility and other settings.
 type: docs
 weight: 230
 url: /net/aspose.words.settings/
 ---
-The Aspose.Words.Settings namespace contains classes and enums that are used when specifying various settings and options stored in a document. These are mail merge, write protection, compatibility and other settings.
+The **Aspose.Words.Settings** namespace contains classes and enums that are used when specifying various settings and options stored in a document. These are mail merge, write protection, compatibility and other settings.
 
 ## Classes
 
 | Class | Description |
 | --- | --- |
-| class [CompatibilityOptions](./compatibilityoptions) | Contains compatibility options (that is, the user preferences entered on the Compatibility tab of the Options dialog in Microsoft Word). |
+| class [CompatibilityOptions](./compatibilityoptions) | Contains compatibility options (that is, the user preferences entered on the **Compatibility** tab of the **Options** dialog in Microsoft Word). |
 | class [HyphenationOptions](./hyphenationoptions) | Allows to configure document hyphenation options. |
 | class [MailMergeSettings](./mailmergesettings) | Specifies all of the mail merge information for a document. |
 | class [Odso](./odso) | Specifies the Office Data Source Object (ODSO) settings for a mail merge data source. |

@@ -3,12 +3,12 @@ title: IsTemporary
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 190
+weight: 160
 url: /net/aspose.words.markup/structureddocumenttag/istemporary/
 ---
 ## StructuredDocumentTag.IsTemporary property
 
-Specifies whether this SDT shall be removed from the WordProcessingML document when its contents are modified.
+Specifies whether this **SDT** shall be removed from the WordProcessingML document when its contents are modified.
 
 ```csharp
 public bool IsTemporary { get; set; }

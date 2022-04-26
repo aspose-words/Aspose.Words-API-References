@@ -3,7 +3,7 @@ title: ReplacingArgs
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 4310
+weight: 4260
 url: /net/aspose.words.replacing/replacingargs/
 ---
 ## ReplacingArgs class
@@ -14,13 +14,13 @@ Provides data for a custom replace operation.
 public class ReplacingArgs
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
 | [GroupIndex](groupindex) { get; set; } | Identifies, by index, a captured group in the [`Match`](./match) that is to be replaced with the [`Replacement`](./replacement) string. |
 | [GroupName](groupname) { get; set; } | Identifies, by name, a captured group in the [`Match`](./match) that is to be replaced with the [`Replacement`](./replacement) string. |
-| [Match](match) { get; } | The Match resulting from a single regular expression match during a Replace. |
+| [Match](match) { get; } | The Match resulting from a single regular expression match during a **Replace**. |
 | [MatchNode](matchnode) { get; } | Gets the node that contains the beginning of the match. |
 | [MatchOffset](matchoffset) { get; } | Gets the zero-based starting position of the match from the start of the node that contains the beginning of the match. |
 | [Replacement](replacement) { get; set; } | Gets or sets the replacement string. |

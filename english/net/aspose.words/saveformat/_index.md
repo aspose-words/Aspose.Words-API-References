@@ -3,7 +3,7 @@ title: SaveFormat
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 4500
+weight: 4450
 url: /net/aspose.words/saveformat/
 ---
 ## SaveFormat enumeration
@@ -45,8 +45,8 @@ public enum SaveFormat
 | Odt | `60` | Saves the document as an ODF Text Document. |
 | Ott | `61` | Saves the document as an ODF Text Document Template. |
 | Text | `70` | Saves the document in the plain text format. |
-| XamlFlow | `71` | Beta. Saves the document in the Extensible Application Markup Language (XAML) format as a flow document. |
-| XamlFlowPack | `72` | Beta. Saves the document in the Extensible Application Markup Language (XAML) package format as a flow document. |
+| XamlFlow | `71` | **Beta.** Saves the document in the Extensible Application Markup Language (XAML) format as a flow document. |
+| XamlFlowPack | `72` | **Beta.** Saves the document in the Extensible Application Markup Language (XAML) package format as a flow document. |
 | Markdown | `73` | Saves the document in the Markdown format. |
 | Tiff | `100` | Renders a page or pages of the document and saves them into a single or multipage TIFF file. |
 | Png | `101` | Renders a page of the document and saves it as a PNG file. |

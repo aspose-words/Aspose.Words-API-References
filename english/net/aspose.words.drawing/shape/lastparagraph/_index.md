@@ -3,7 +3,7 @@ title: LastParagraph
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 200
+weight: 120
 url: /net/aspose.words.drawing/shape/lastparagraph/
 ---
 ## Shape.LastParagraph property

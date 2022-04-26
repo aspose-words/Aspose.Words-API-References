@@ -3,7 +3,7 @@ title: NodeType
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 40
+weight: 130
 url: /net/aspose.words.drawing/shape/nodetype/
 ---
 ## Shape.NodeType property

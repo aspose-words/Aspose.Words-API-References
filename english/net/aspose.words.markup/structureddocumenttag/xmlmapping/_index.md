@@ -3,7 +3,7 @@ title: XmlMapping
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 350
+weight: 310
 url: /net/aspose.words.markup/structureddocumenttag/xmlmapping/
 ---
 ## StructuredDocumentTag.XmlMapping property

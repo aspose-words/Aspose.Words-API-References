@@ -3,7 +3,7 @@ title: CustomNodeId
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 170
+weight: 10
 url: /net/aspose.words/node/customnodeid/
 ---
 ## Node.CustomNodeId property
@@ -16,7 +16,11 @@ public int CustomNodeId { get; set; }
 
 ### Remarks
 
-Default is zero.This identifier can be set and used arbitrarily. For example, as a key to get external data.Important note, specified value is not saved to an output file and exists only during the node lifetime.
+Default is zero.
+
+This identifier can be set and used arbitrarily. For example, as a key to get external data.
+
+Important note, specified value is not saved to an output file and exists only during the node lifetime.
 
 ### Examples
 

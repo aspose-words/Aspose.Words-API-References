@@ -8,10 +8,10 @@ url: /net/aspose.words.digitalsignatures/digitalsignatureutil/removeallsignature
 ---
 ## DigitalSignatureUtil.RemoveAllSignatures method (1 of 2)
 
-Removes all digital signatures from document in source stream and writes unsigned document to destination stream. Output will be written to the start of stream and stream size will be updated with content length.
+Removes all digital signatures from source file and writes unsigned file to destination file.
 
 ```csharp
-public static void RemoveAllSignatures(Stream srcStream, Stream dstStream)
+public static void RemoveAllSignatures(string srcFileName, string dstFileName)
 ```
 
 ### Examples
@@ -49,10 +49,12 @@ Assert.That(DigitalSignatureUtil.LoadSignatures(ArtifactsDir + "DigitalSignature
 
 ## DigitalSignatureUtil.RemoveAllSignatures method (2 of 2)
 
-Removes all digital signatures from source file and writes unsigned file to destination file.
+Removes all digital signatures from document in source stream and writes unsigned document to destination stream.
+
+**Output will be written to the start of stream and stream size will be updated with content length.**
 
 ```csharp
-public static void RemoveAllSignatures(string srcFileName, string dstFileName)
+public static void RemoveAllSignatures(Stream srcStream, Stream dstStream)
 ```
 
 ### Examples

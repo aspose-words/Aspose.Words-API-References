@@ -3,7 +3,7 @@ title: LegendPosition
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 770
+weight: 750
 url: /net/aspose.words.drawing.charts/legendposition/
 ---
 ## LegendPosition enumeration

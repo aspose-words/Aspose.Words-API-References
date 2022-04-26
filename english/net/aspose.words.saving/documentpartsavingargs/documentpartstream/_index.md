@@ -3,7 +3,7 @@ title: DocumentPartStream
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 40
+weight: 30
 url: /net/aspose.words.saving/documentpartsavingargs/documentpartstream/
 ---
 ## DocumentPartSavingArgs.DocumentPartStream property
@@ -16,7 +16,13 @@ public Stream DocumentPartStream { get; set; }
 
 ### Remarks
 
-This property allows you to save document parts to streams instead of files during HTML export.The default value is `null`. When this property is `null`, the document part will be saved to a file specified in the [`DocumentPartFileName`](../documentpartfilename) property.When saving to a stream in HTML format is requested by [`Save`](../../../aspose.words/document/save) or [`Save`](../../../aspose.words/document/save) and first document part is about to be saved, Aspose.Words suggests here the main output stream initially passed by the caller.When saving to EPUB format that is a container format based on HTML, `DocumentPartStream` cannot be specified because all subsidiary parts will be encapsulated into a single output package.
+This property allows you to save document parts to streams instead of files during HTML export.
+
+The default value is `null`. When this property is `null`, the document part will be saved to a file specified in the [`DocumentPartFileName`](../documentpartfilename) property.
+
+When saving to a stream in HTML format is requested by [`Save`](../../../aspose.words/document/save) or [`Save`](../../../aspose.words/document/save) and first document part is about to be saved, Aspose.Words suggests here the main output stream initially passed by the caller.
+
+When saving to EPUB format that is a container format based on HTML, `DocumentPartStream` cannot be specified because all subsidiary parts will be encapsulated into a single output package.
 
 ### Examples
 

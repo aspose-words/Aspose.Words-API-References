@@ -3,7 +3,7 @@ title: RightPadding
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 90
+weight: 60
 url: /net/aspose.words/conditionalstyle/rightpadding/
 ---
 ## ConditionalStyle.RightPadding property

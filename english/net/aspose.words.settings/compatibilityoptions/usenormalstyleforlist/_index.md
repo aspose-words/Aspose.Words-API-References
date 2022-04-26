@@ -3,7 +3,7 @@ title: UseNormalStyleForList
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 520
+weight: 630
 url: /net/aspose.words.settings/compatibilityoptions/usenormalstyleforlist/
 ---
 ## CompatibilityOptions.UseNormalStyleForList property

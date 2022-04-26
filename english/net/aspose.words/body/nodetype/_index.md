@@ -3,12 +3,12 @@ title: NodeType
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 40
+weight: 20
 url: /net/aspose.words/body/nodetype/
 ---
 ## Body.NodeType property
 
-Returns NodeType.Body.
+Returns **NodeType.Body**.
 
 ```csharp
 public override NodeType NodeType { get; }

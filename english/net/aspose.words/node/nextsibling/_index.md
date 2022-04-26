@@ -3,7 +3,7 @@ title: NextSibling
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 140
+weight: 40
 url: /net/aspose.words/node/nextsibling/
 ---
 ## Node.NextSibling property

@@ -3,7 +3,7 @@ title: EndCap
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 110
+weight: 80
 url: /net/aspose.words.drawing/stroke/endcap/
 ---
 ## Stroke.EndCap property

@@ -3,7 +3,7 @@ title: ForgetLastTabAlignment
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 380
+weight: 270
 url: /net/aspose.words.settings/compatibilityoptions/forgetlasttabalignment/
 ---
 ## CompatibilityOptions.ForgetLastTabAlignment property

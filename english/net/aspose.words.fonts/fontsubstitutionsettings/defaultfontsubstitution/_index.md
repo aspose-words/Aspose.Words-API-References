@@ -3,7 +3,7 @@ title: DefaultFontSubstitution
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 30
+weight: 10
 url: /net/aspose.words.fonts/fontsubstitutionsettings/defaultfontsubstitution/
 ---
 ## FontSubstitutionSettings.DefaultFontSubstitution property

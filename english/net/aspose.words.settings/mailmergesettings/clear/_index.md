@@ -3,7 +3,7 @@ title: Clear
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 10
+weight: 180
 url: /net/aspose.words.settings/mailmergesettings/clear/
 ---
 ## MailMergeSettings.Clear method

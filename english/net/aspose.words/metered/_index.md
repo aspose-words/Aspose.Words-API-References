@@ -3,7 +3,7 @@ title: Metered
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 3860
+weight: 3810
 url: /net/aspose.words/metered/
 ---
 ## Metered class
@@ -14,12 +14,17 @@ Provides methods to set metered key.
 public class Metered
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [Metered](metered)() | Initializes a new instance of this class. |
-| [SetMeteredKey](setmeteredkey)(…) | Sets metered public and private key. If you purchase metered license, when start application, this API should be called, normally, this is enough. However, if always fail to upload consumption data and exceed 24 hours, the license will be set to evaluation status, to avoid such case, you should regularly check the license status, if it is evaluation status, call this API again. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [SetMeteredKey](setmeteredkey)(string, string) | Sets metered public and private key. If you purchase metered license, when start application, this API should be called, normally, this is enough. However, if always fail to upload consumption data and exceed 24 hours, the license will be set to evaluation status, to avoid such case, you should regularly check the license status, if it is evaluation status, call this API again. |
 | static [GetConsumptionCredit](getconsumptioncredit)() | Gets consumption credit |
 | static [GetConsumptionQuantity](getconsumptionquantity)() | Gets consumption file size |
 
@@ -53,6 +58,10 @@ Console.WriteLine($"Consumption quantity before operation: {Metered.GetConsumpti
 // Operate using Aspose.Words, and then print our metered stats again to see how much we spent.
 Document doc = new Document(MyDir + "Document.docx");
 doc.Save(ArtifactsDir + "Metered.Usage.pdf");
+
+// Aspose Metered Licensing mechanism does not send the usage data to purchase server every time,
+// you need to use waiting.
+System.Threading.Thread.Sleep(10000);
 
 Console.WriteLine($"Credit after operation: {Metered.GetConsumptionCredit()}");
 Console.WriteLine($"Consumption quantity after operation: {Metered.GetConsumptionQuantity()}");

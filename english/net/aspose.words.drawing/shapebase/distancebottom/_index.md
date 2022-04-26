@@ -3,7 +3,7 @@ title: DistanceBottom
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 390
+weight: 130
 url: /net/aspose.words.drawing/shapebase/distancebottom/
 ---
 ## ShapeBase.DistanceBottom property
@@ -16,7 +16,9 @@ public double DistanceBottom { get; set; }
 
 ### Remarks
 
-The default value is 0.Has effect only for top level shapes.
+The default value is 0.
+
+Has effect only for top level shapes.
 
 ### Examples
 

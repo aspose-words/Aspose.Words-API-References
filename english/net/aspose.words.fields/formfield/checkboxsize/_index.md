@@ -3,7 +3,7 @@ title: CheckBoxSize
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 250
+weight: 20
 url: /net/aspose.words.fields/formfield/checkboxsize/
 ---
 ## FormField.CheckBoxSize property

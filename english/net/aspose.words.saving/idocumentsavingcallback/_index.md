@@ -3,7 +3,7 @@ title: IDocumentSavingCallback
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 4800
+weight: 4750
 url: /net/aspose.words.saving/idocumentsavingcallback/
 ---
 ## IDocumentSavingCallback interface
@@ -14,11 +14,11 @@ Implement this interface if you want to have your own custom method called durin
 public interface IDocumentSavingCallback
 ```
 
-## Members
+## Methods
 
 | Name | Description |
 | --- | --- |
-| [Notify](notify)(…) | This is called to notify of document saving progress. |
+| [Notify](notify)(DocumentSavingArgs) | This is called to notify of document saving progress. |
 
 ### See Also
 

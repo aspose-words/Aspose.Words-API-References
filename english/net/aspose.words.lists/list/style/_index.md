@@ -3,7 +3,7 @@ title: Style
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 110
+weight: 80
 url: /net/aspose.words.lists/list/style/
 ---
 ## List.Style property
@@ -16,7 +16,11 @@ public Style Style { get; }
 
 ### Remarks
 
-If this list is not associated with a list style, the property will return null.A list could be a reference to a list style, in this case [`IsListStyleReference`](../isliststylereference) will be true.A list could be a definition of a list style, in this case [`IsListStyleDefinition`](../isliststyledefinition) will be true. Such a list cannot be applied to paragraphs in the document directly.
+If this list is not associated with a list style, the property will return null.
+
+A list could be a reference to a list style, in this case [`IsListStyleReference`](../isliststylereference) will be true.
+
+A list could be a definition of a list style, in this case [`IsListStyleDefinition`](../isliststyledefinition) will be true. Such a list cannot be applied to paragraphs in the document directly.
 
 ### Examples
 

@@ -3,7 +3,7 @@ title: FirstPageTray
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 240
+weight: 120
 url: /net/aspose.words/pagesetup/firstpagetray/
 ---
 ## PageSetup.FirstPageTray property

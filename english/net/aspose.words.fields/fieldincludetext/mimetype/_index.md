@@ -3,7 +3,7 @@ title: MimeType
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 100
+weight: 50
 url: /net/aspose.words.fields/fieldincludetext/mimetype/
 ---
 ## FieldIncludeText.MimeType property

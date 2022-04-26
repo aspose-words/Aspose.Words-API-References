@@ -3,7 +3,7 @@ title: Words
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 310
+weight: 330
 url: /net/aspose.words.properties/builtindocumentproperties/words/
 ---
 ## BuiltInDocumentProperties.Words property

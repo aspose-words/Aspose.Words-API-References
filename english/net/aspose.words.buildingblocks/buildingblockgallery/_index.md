@@ -60,7 +60,7 @@ public enum BuildingBlockGallery
 
 ### Remarks
 
-Corresponds to the ST_DocPartGallery type in OOXML.
+Corresponds to the **ST_DocPartGallery** type in OOXML.
 
 ### Examples
 

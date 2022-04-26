@@ -3,7 +3,7 @@ title: Item
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 40
+weight: 60
 url: /net/aspose.words/bordercollection/item/
 ---
 ## BorderCollection indexer (1 of 2)

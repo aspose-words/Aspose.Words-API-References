@@ -3,7 +3,7 @@ title: After
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 90
+weight: 40
 url: /net/aspose.words/tabstopcollection/after/
 ---
 ## TabStopCollection.After method
@@ -24,7 +24,7 @@ A tab stop object or null if a suitable tab stop was not found.
 
 ### Remarks
 
-Skips tab stops with Alignment set to `TabAlignment.Bar`.
+Skips tab stops with **Alignment** set to `TabAlignment.Bar`.
 
 ### Examples
 

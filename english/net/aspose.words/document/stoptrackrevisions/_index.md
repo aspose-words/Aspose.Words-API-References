@@ -3,7 +3,7 @@ title: StopTrackRevisions
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 230
+weight: 690
 url: /net/aspose.words/document/stoptrackrevisions/
 ---
 ## Document.StopTrackRevisions method

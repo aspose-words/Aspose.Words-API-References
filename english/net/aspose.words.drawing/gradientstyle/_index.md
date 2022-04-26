@@ -3,7 +3,7 @@ title: GradientStyle
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 860
+weight: 840
 url: /net/aspose.words.drawing/gradientstyle/
 ---
 ## GradientStyle enumeration

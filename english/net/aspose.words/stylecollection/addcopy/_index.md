@@ -3,7 +3,7 @@ title: AddCopy
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 40
+weight: 70
 url: /net/aspose.words/stylecollection/addcopy/
 ---
 ## StyleCollection.AddCopy method

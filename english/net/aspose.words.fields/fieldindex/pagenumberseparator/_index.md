@@ -3,7 +3,7 @@ title: PageNumberSeparator
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 50
+weight: 120
 url: /net/aspose.words.fields/fieldindex/pagenumberseparator/
 ---
 ## FieldIndex.PageNumberSeparator property

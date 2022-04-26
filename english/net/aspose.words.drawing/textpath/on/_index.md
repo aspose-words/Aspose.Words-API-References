@@ -3,7 +3,7 @@ title: On
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 10
+weight: 70
 url: /net/aspose.words.drawing/textpath/on/
 ---
 ## TextPath.On property
@@ -16,7 +16,7 @@ public bool On { get; set; }
 
 ### Remarks
 
-The default value is false.
+The default value is **false**.
 
 ### Examples
 

@@ -3,12 +3,12 @@ title: SaveRoutingSlip
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 40
+weight: 60
 url: /net/aspose.words.saving/docsaveoptions/saveroutingslip/
 ---
 ## DocSaveOptions.SaveRoutingSlip property
 
-When `false`, RoutingSlip data is not saved to output document. Default value is true.
+When `false`, RoutingSlip data is not saved to output document. Default value is **true**.
 
 ```csharp
 public bool SaveRoutingSlip { get; set; }

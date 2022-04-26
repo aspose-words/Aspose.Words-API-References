@@ -8,7 +8,7 @@ url: /net/aspose.words.digitalsignatures/certificateholder/certificate/
 ---
 ## CertificateHolder.Certificate property
 
-Returns the instance of X509Certificate2 which holds private, public keys and certificate chain.
+Returns the instance of **X509Certificate2** which holds private, public keys and certificate chain.
 
 ```csharp
 public X509Certificate2 Certificate { get; }

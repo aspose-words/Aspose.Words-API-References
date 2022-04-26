@@ -3,7 +3,7 @@ title: RemoveByIndex
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 80
+weight: 110
 url: /net/aspose.words/tabstopcollection/removebyindex/
 ---
 ## TabStopCollection.RemoveByIndex method

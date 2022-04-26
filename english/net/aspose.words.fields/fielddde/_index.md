@@ -3,7 +3,7 @@ title: FieldDde
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 1580
+weight: 1560
 url: /net/aspose.words.fields/fielddde/
 ---
 ## FieldDde class
@@ -14,11 +14,16 @@ Implements the DDE field.
 public class FieldDde : Field
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [FieldDde](fielddde)() | The default constructor. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [AutoUpdate](autoupdate) { get; set; } | Gets or sets whether to update this field automatically. |
 | [InsertAsBitmap](insertasbitmap) { get; set; } | Gets or sets whether to insert the linked object as a bitmap. |
 | [InsertAsHtml](insertashtml) { get; set; } | Gets or sets whether to insert the linked object as HTML format text. |

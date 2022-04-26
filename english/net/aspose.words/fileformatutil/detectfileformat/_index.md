@@ -3,75 +3,10 @@ title: DetectFileFormat
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 10
+weight: 30
 url: /net/aspose.words/fileformatutil/detectfileformat/
 ---
 ## FileFormatUtil.DetectFileFormat method (1 of 2)
-
-Detects and returns the information about a format of a document stored in a stream.
-
-```csharp
-public static FileFormatInfo DetectFileFormat(Stream stream)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| stream | Stream | The stream. |
-
-## Return Value
-
-A [`FileFormatInfo`](../../fileformatinfo) object that contains the detected information.
-
-### Remarks
-
-The stream must be positioned at the beginning of the document.
-
-When this method returns, the position in the stream is restored to the original position.
-
-Even if this method detects the document format, it does not guarantee that the specified document is valid. This method only detects the document format by reading data that is sufficient for detection. To fully verify that a document is valid you need to load the document into a [`Document`](../../document) object.
-
-This method throws [`FileCorruptedException`](../../filecorruptedexception) when the format is recognized, but the detection cannot complete because of corruption.
-
-### Examples
-
-Shows how to use the FileFormatUtil methods to detect the format of a document.
-
-```csharp
-// Load a document from a file that is missing a file extension, and then detect its file format.
-using (FileStream docStream = File.OpenRead(MyDir + "Word document with missing file extension"))
-{
-    FileFormatInfo info = FileFormatUtil.DetectFileFormat(docStream);
-    LoadFormat loadFormat = info.LoadFormat;
-
-    Assert.AreEqual(LoadFormat.Doc, loadFormat);
-
-    // Below are two methods of converting a LoadFormat to its corresponding SaveFormat.
-    // 1 -  Get the file extension string for the LoadFormat, then get the corresponding SaveFormat from that string:
-    string fileExtension = FileFormatUtil.LoadFormatToExtension(loadFormat);
-    SaveFormat saveFormat = FileFormatUtil.ExtensionToSaveFormat(fileExtension);
-
-    // 2 -  Convert the LoadFormat directly to its SaveFormat:
-    saveFormat = FileFormatUtil.LoadFormatToSaveFormat(loadFormat);
-
-    // Load a document from the stream, and then save it to the automatically detected file extension.
-    Document doc = new Document(docStream);
-
-    Assert.AreEqual(".doc", FileFormatUtil.SaveFormatToExtension(saveFormat));
-
-    doc.Save(ArtifactsDir + "File.SaveToDetectedFileFormat" + FileFormatUtil.SaveFormatToExtension(saveFormat));
-}
-```
-
-### See Also
-
-* class [FileFormatInfo](../../fileformatinfo)
-* class [FileFormatUtil](../../fileformatutil)
-* namespace [Aspose.Words](../../fileformatutil)
-* assembly [Aspose.Words](../../../)
-
----
-
-## FileFormatUtil.DetectFileFormat method (2 of 2)
 
 Detects and returns the information about a format of a document stored in a disk file.
 
@@ -134,6 +69,71 @@ Assert.True(info.HasDigitalSignature);
 
 // We can load and access the signatures of a signed document in a collection like this.
 Assert.AreEqual(1, DigitalSignatureUtil.LoadSignatures(ArtifactsDir + "File.DetectDigitalSignatures.docx").Count);
+```
+
+### See Also
+
+* class [FileFormatInfo](../../fileformatinfo)
+* class [FileFormatUtil](../../fileformatutil)
+* namespace [Aspose.Words](../../fileformatutil)
+* assembly [Aspose.Words](../../../)
+
+---
+
+## FileFormatUtil.DetectFileFormat method (2 of 2)
+
+Detects and returns the information about a format of a document stored in a stream.
+
+```csharp
+public static FileFormatInfo DetectFileFormat(Stream stream)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| stream | Stream | The stream. |
+
+## Return Value
+
+A [`FileFormatInfo`](../../fileformatinfo) object that contains the detected information.
+
+### Remarks
+
+The stream must be positioned at the beginning of the document.
+
+When this method returns, the position in the stream is restored to the original position.
+
+Even if this method detects the document format, it does not guarantee that the specified document is valid. This method only detects the document format by reading data that is sufficient for detection. To fully verify that a document is valid you need to load the document into a [`Document`](../../document) object.
+
+This method throws [`FileCorruptedException`](../../filecorruptedexception) when the format is recognized, but the detection cannot complete because of corruption.
+
+### Examples
+
+Shows how to use the FileFormatUtil methods to detect the format of a document.
+
+```csharp
+// Load a document from a file that is missing a file extension, and then detect its file format.
+using (FileStream docStream = File.OpenRead(MyDir + "Word document with missing file extension"))
+{
+    FileFormatInfo info = FileFormatUtil.DetectFileFormat(docStream);
+    LoadFormat loadFormat = info.LoadFormat;
+
+    Assert.AreEqual(LoadFormat.Doc, loadFormat);
+
+    // Below are two methods of converting a LoadFormat to its corresponding SaveFormat.
+    // 1 -  Get the file extension string for the LoadFormat, then get the corresponding SaveFormat from that string:
+    string fileExtension = FileFormatUtil.LoadFormatToExtension(loadFormat);
+    SaveFormat saveFormat = FileFormatUtil.ExtensionToSaveFormat(fileExtension);
+
+    // 2 -  Convert the LoadFormat directly to its SaveFormat:
+    saveFormat = FileFormatUtil.LoadFormatToSaveFormat(loadFormat);
+
+    // Load a document from the stream, and then save it to the automatically detected file extension.
+    Document doc = new Document(docStream);
+
+    Assert.AreEqual(".doc", FileFormatUtil.SaveFormatToExtension(saveFormat));
+
+    doc.Save(ArtifactsDir + "File.SaveToDetectedFileFormat" + FileFormatUtil.SaveFormatToExtension(saveFormat));
+}
 ```
 
 ### See Also

@@ -3,7 +3,7 @@ title: Title
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 130
+weight: 180
 url: /net/aspose.words.drawing/imagedata/title/
 ---
 ## ImageData.Title property

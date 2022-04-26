@@ -3,7 +3,7 @@ title: Initial
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 100
+weight: 70
 url: /net/aspose.words/comment/initial/
 ---
 ## Comment.Initial property

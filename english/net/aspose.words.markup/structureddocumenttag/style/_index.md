@@ -3,7 +3,7 @@ title: Style
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 330
+weight: 260
 url: /net/aspose.words.markup/structureddocumenttag/style/
 ---
 ## StructuredDocumentTag.Style property

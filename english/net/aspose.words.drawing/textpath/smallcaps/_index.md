@@ -3,7 +3,7 @@ title: SmallCaps
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 80
+weight: 130
 url: /net/aspose.words.drawing/textpath/smallcaps/
 ---
 ## TextPath.SmallCaps property
@@ -16,7 +16,7 @@ public bool SmallCaps { get; set; }
 
 ### Remarks
 
-The default value is false.
+The default value is **false**.
 
 ### Examples
 

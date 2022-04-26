@@ -3,7 +3,7 @@ title: FieldCitation
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 1500
+weight: 1480
 url: /net/aspose.words.fields/fieldcitation/
 ---
 ## FieldCitation class
@@ -14,16 +14,21 @@ Implements the CITATION field.
 public class FieldCitation : Field
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [FieldCitation](fieldcitation)() | The default constructor. |
-| [AnotherSourceTag](anothersourcetag) { get; set; } | Gets or sets a value that mathes the Tag element's value of another source to be included in the citation. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
+| [AnotherSourceTag](anothersourcetag) { get; set; } | Gets or sets a value that mathes the **Tag** element's value of another source to be included in the citation. |
 | [FormatLanguageId](formatlanguageid) { get; set; } | Gets or sets the language ID that is used in conjunction with the specified bibliographic style to format the citation in the document. |
 | [PageNumber](pagenumber) { get; set; } | Gets or sets a page number associated with the citation. |
 | [Prefix](prefix) { get; set; } | Gets or sets a prefix that is prepended to the citation. |
-| [SourceTag](sourcetag) { get; set; } | Gets or sets a value that mathes the Tag element's value of the source to insert. |
+| [SourceTag](sourcetag) { get; set; } | Gets or sets a value that mathes the **Tag** element's value of the source to insert. |
 | [Suffix](suffix) { get; set; } | Gets or sets a suffix that is appended to the citation. |
 | [SuppressAuthor](suppressauthor) { get; set; } | Gets or sets whether the author information is suppressed from the citation. |
 | [SuppressTitle](suppresstitle) { get; set; } | Gets or sets whether the title information is suppressed from the citation. |
@@ -32,7 +37,7 @@ public class FieldCitation : Field
 
 ### Remarks
 
-Inserts the contents of the Source element with a specified Tag element using a bibliographic style.
+Inserts the contents of the **Source** element with a specified **Tag** element using a bibliographic style.
 
 ### Examples
 

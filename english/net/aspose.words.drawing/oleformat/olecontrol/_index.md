@@ -3,7 +3,7 @@ title: OleControl
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 160
+weight: 60
 url: /net/aspose.words.drawing/oleformat/olecontrol/
 ---
 ## OleFormat.OleControl property

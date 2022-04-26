@@ -3,7 +3,7 @@ title: AcceptAllRevisions
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 90
+weight: 500
 url: /net/aspose.words/document/acceptallrevisions/
 ---
 ## Document.AcceptAllRevisions method

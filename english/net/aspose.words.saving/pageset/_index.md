@@ -3,7 +3,7 @@ title: PageSet
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 5020
+weight: 4970
 url: /net/aspose.words.saving/pageset/
 ---
 ## PageSet class
@@ -14,11 +14,18 @@ Describes a random set of pages.
 public sealed class PageSet
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
-| [PageSet](pageset)(…) | Creates an one-page set based on exact page index. (3 constructors) |
+| [PageSet](pageset)(int) | Creates an one-page set based on exact page index. |
+| [PageSet](pageset)(params int[]) | Creates a page set based on exact page indices. |
+| [PageSet](pageset)(params PageRange[]) | Creates a page set based on ranges. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | static [All](all) { get; } | Gets a set with all the pages of the document in their original order. |
 | static [Even](even) { get; } | Gets a set with all the even pages of the document in their original order. |
 | static [Odd](odd) { get; } | Gets a set with all the odd pages of the document in their original order. |

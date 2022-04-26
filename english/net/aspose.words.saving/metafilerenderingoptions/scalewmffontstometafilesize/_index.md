@@ -3,7 +3,7 @@ title: ScaleWmfFontsToMetafileSize
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 60
+weight: 50
 url: /net/aspose.words.saving/metafilerenderingoptions/scalewmffontstometafilesize/
 ---
 ## MetafileRenderingOptions.ScaleWmfFontsToMetafileSize property
@@ -18,7 +18,13 @@ public bool ScaleWmfFontsToMetafileSize { get; set; }
 
 When WMF metafiles are displayed in MS Word, fonts may be scaled according to actual metafile size on the page.
 
-When this value is set to `true`, Aspose.Words emulates font scaling according to metafile size on the page.When this value is set to `false`, Aspose.Words displays the fonts as metafile is rendered to its default size.This option is used only when metafile is rendered as vector graphics.The default value is `true`.
+When this value is set to `true`, Aspose.Words emulates font scaling according to metafile size on the page.
+
+When this value is set to `false`, Aspose.Words displays the fonts as metafile is rendered to its default size.
+
+This option is used only when metafile is rendered as vector graphics.
+
+The default value is `true`.
 
 ### Examples
 

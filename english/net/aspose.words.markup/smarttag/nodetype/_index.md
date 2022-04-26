@@ -8,7 +8,7 @@ url: /net/aspose.words.markup/smarttag/nodetype/
 ---
 ## SmartTag.NodeType property
 
-Returns NodeType.SmartTag.
+Returns **NodeType.SmartTag**.
 
 ```csharp
 public override NodeType NodeType { get; }

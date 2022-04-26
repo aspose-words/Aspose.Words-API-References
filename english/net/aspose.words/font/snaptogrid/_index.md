@@ -3,7 +3,7 @@ title: SnapToGrid
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 550
+weight: 370
 url: /net/aspose.words/font/snaptogrid/
 ---
 ## Font.SnapToGrid property

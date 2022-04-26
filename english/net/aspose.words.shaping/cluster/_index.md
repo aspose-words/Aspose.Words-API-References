@@ -3,7 +3,7 @@ title: Cluster
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 5620
+weight: 5570
 url: /net/aspose.words.shaping/cluster/
 ---
 ## Cluster class
@@ -12,18 +12,28 @@ url: /net/aspose.words.shaping/cluster/
 public class Cluster
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
-| [Cluster](cluster)(…) |  |
+| [Cluster](cluster)(int[], Glyph[]) |  |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [Codepoints](codepoints) { get; } |  |
 | [CodepointsLength](codepointslength) { get; } |  |
 | [Glyphs](glyphs) { get; } |  |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
 | [DeepClone](deepclone)() |  |
 | [GetString](getstring)() |  |
-| [GetWidth](getwidth)(…) |  |
-| static [GetString](getstring)(…) |  |
+| [GetWidth](getwidth)(int, float) |  |
+| static [GetString](getstring)(Cluster[]) |  |
 
 ### See Also
 

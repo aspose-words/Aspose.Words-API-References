@@ -3,7 +3,7 @@ title: OutlineLevel
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 320
+weight: 240
 url: /net/aspose.words/paragraphformat/outlinelevel/
 ---
 ## ParagraphFormat.OutlineLevel property

@@ -3,7 +3,7 @@ title: OleControl
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 1000
+weight: 980
 url: /net/aspose.words.drawing.ole/olecontrol/
 ---
 ## OleControl class
@@ -14,7 +14,7 @@ Represents OLE ActiveX control.
 public class OleControl
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |

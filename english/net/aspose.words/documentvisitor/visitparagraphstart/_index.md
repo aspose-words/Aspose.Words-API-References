@@ -3,7 +3,7 @@ title: VisitParagraphStart
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 90
+weight: 330
 url: /net/aspose.words/documentvisitor/visitparagraphstart/
 ---
 ## DocumentVisitor.VisitParagraphStart method

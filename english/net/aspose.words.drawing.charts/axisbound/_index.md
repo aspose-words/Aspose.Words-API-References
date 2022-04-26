@@ -14,16 +14,27 @@ Represents minimum or maximum bound of axis values.
 public sealed class AxisBound
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [AxisBound](axisbound)() | Creates a new instance indicating that axis bound should be determined automatically by a word-processing application. |
-| [AxisBound](axisbound)(…) | Creates an axis bound represented as a number. (2 constructors) |
+| [AxisBound](axisbound)(DateTime) | Creates an axis bound represented as datetime value. |
+| [AxisBound](axisbound)(double) | Creates an axis bound represented as a number. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [IsAuto](isauto) { get; } | Returns a flag indicating that axis bound should be determined automatically. |
 | [Value](value) { get; } | Returns numeric value of axis bound. |
 | [ValueAsDate](valueasdate) { get; } | Returns value of axis bound represented as datetime. |
-| override [Equals](equals)(…) | Determines whether the specified object is equal in value to the current object. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| override [Equals](equals)(object) | Determines whether the specified object is equal in value to the current object. |
 | override [GetHashCode](gethashcode)() | Serves as a hash function for this type. |
 | override [ToString](tostring)() | Returns a user-friendly string that displays the value of this object. |
 

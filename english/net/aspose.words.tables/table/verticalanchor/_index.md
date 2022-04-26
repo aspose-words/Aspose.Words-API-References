@@ -3,7 +3,7 @@ title: VerticalAnchor
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 400
+weight: 340
 url: /net/aspose.words.tables/table/verticalanchor/
 ---
 ## Table.VerticalAnchor property

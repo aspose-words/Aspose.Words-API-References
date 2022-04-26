@@ -3,7 +3,7 @@ title: MoveToSection
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 120
+weight: 550
 url: /net/aspose.words/documentbuilder/movetosection/
 ---
 ## DocumentBuilder.MoveToSection method
@@ -20,7 +20,9 @@ public void MoveToSection(int sectionIndex)
 
 ### Remarks
 
-When sectionIndex is greater than or equal to 0, it specifies an index from the beginning of the document with 0 being the first section. When sectionIndex is less than 0, it specified an index from the end of the document with -1 being the last section.The cursor is moved to the first paragraph in the Body of the specified section.
+When sectionIndex is greater than or equal to 0, it specifies an index from the beginning of the document with 0 being the first section. When sectionIndex is less than 0, it specified an index from the end of the document with -1 being the last section.
+
+The cursor is moved to the first paragraph in the **Body** of the specified section.
 
 ### Examples
 

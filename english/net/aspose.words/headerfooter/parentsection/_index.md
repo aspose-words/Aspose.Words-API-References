@@ -3,7 +3,7 @@ title: ParentSection
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 40
+weight: 60
 url: /net/aspose.words/headerfooter/parentsection/
 ---
 ## HeaderFooter.ParentSection property
@@ -16,7 +16,7 @@ public Section ParentSection { get; }
 
 ### Remarks
 
-ParentSection is equivalent to `(Section)ParentNode`.
+**ParentSection** is equivalent to `(Section)ParentNode`.
 
 ### Examples
 

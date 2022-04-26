@@ -3,7 +3,7 @@ title: VisitBuildingBlockStart
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 440
+weight: 70
 url: /net/aspose.words/documentvisitor/visitbuildingblockstart/
 ---
 ## DocumentVisitor.VisitBuildingBlockStart method

@@ -3,7 +3,7 @@ title: AppendContent
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 40
+weight: 80
 url: /net/aspose.words/section/appendcontent/
 ---
 ## Section.AppendContent method
@@ -20,7 +20,11 @@ public void AppendContent(Section sourceSection)
 
 ### Remarks
 
-Only content of [`Body`](../body) of the source section is copied, page setup, headers and footers are not copied.The nodes are automatically imported if the source section belongs to a different document.No new section is created in the destination document.
+Only content of [`Body`](../body) of the source section is copied, page setup, headers and footers are not copied.
+
+The nodes are automatically imported if the source section belongs to a different document.
+
+No new section is created in the destination document.
 
 ### Examples
 

@@ -3,7 +3,7 @@ title: Clear
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 60
+weight: 40
 url: /net/aspose.words.markup/customxmlschemacollection/clear/
 ---
 ## CustomXmlSchemaCollection.Clear method

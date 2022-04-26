@@ -1,12 +1,12 @@
 ---
 title: Aspose.Words.Loading
 second_title: Aspose.Words for .NET API Reference
-description: The Aspose.Words.Loading namespace provides classes and enumerations that allow to specify additional options when loading documents.
+description: The **Aspose.Words.Loading** namespace provides classes and enumerations that allow to specify additional options when loading documents.
 type: docs
 weight: 130
 url: /net/aspose.words.loading/
 ---
-The Aspose.Words.Loading namespace provides classes and enumerations that allow to specify additional options when loading documents.
+The **Aspose.Words.Loading** namespace provides classes and enumerations that allow to specify additional options when loading documents.
 
 ## Classes
 
@@ -31,7 +31,6 @@ The Aspose.Words.Loading namespace provides classes and enumerations that allow 
 
 | Enumeration | Description |
 | --- | --- |
-| enum [BlockImportMode](./blockimportmode) |  |
 | enum [DocumentDirection](./documentdirection) | Allows to specify the direction to flow the text in a document. |
 | enum [EditingLanguage](./editinglanguage) | Specifies the editing language. |
 | enum [HtmlControlType](./htmlcontroltype) | Type of document nodes that represent &lt;input&gt; and &lt;select&gt; elements imported from HTML. |

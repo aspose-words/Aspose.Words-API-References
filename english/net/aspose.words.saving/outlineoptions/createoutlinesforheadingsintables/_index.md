@@ -3,7 +3,7 @@ title: CreateOutlinesForHeadingsInTables
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 70
+weight: 40
 url: /net/aspose.words.saving/outlineoptions/createoutlinesforheadingsintables/
 ---
 ## OutlineOptions.CreateOutlinesForHeadingsInTables property
@@ -16,7 +16,7 @@ public bool CreateOutlinesForHeadingsInTables { get; set; }
 
 ### Remarks
 
-Default value is false.
+Default value is **false**.
 
 ### Examples
 

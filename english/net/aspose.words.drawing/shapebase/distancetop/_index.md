@@ -3,7 +3,7 @@ title: DistanceTop
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 380
+weight: 160
 url: /net/aspose.words.drawing/shapebase/distancetop/
 ---
 ## ShapeBase.DistanceTop property
@@ -16,7 +16,9 @@ public double DistanceTop { get; set; }
 
 ### Remarks
 
-The default value is 0.Has effect only for top level shapes.
+The default value is 0.
+
+Has effect only for top level shapes.
 
 ### Examples
 

@@ -3,7 +3,7 @@ title: PdfDigitalSignatureDetails
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 5060
+weight: 5010
 url: /net/aspose.words.saving/pdfdigitalsignaturedetails/
 ---
 ## PdfDigitalSignatureDetails class
@@ -14,12 +14,17 @@ Contains details for signing a PDF document with a digital signature.
 public class PdfDigitalSignatureDetails
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [PdfDigitalSignatureDetails](pdfdigitalsignaturedetails)() | Initializes an instance of this class. |
-| [PdfDigitalSignatureDetails](pdfdigitalsignaturedetails)(…) | Initializes an instance of this class. |
+| [PdfDigitalSignatureDetails](pdfdigitalsignaturedetails)(CertificateHolder, string, string, DateTime) | Initializes an instance of this class. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [CertificateHolder](certificateholder) { get; set; } | Returns the certificate holder object that contains the certificate was used to sign the document. |
 | [HashAlgorithm](hashalgorithm) { get; set; } | Gets or sets the hash algorithm. |
 | [Location](location) { get; set; } | Gets or sets the location of the signing. |

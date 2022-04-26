@@ -3,7 +3,7 @@ title: UseAltKinsokuLineBreakRules
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 540
+weight: 600
 url: /net/aspose.words.settings/compatibilityoptions/usealtkinsokulinebreakrules/
 ---
 ## CompatibilityOptions.UseAltKinsokuLineBreakRules property

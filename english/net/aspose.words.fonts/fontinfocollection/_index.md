@@ -3,7 +3,7 @@ title: FontInfoCollection
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 2690
+weight: 2670
 url: /net/aspose.words.fonts/fontinfocollection/
 ---
 ## FontInfoCollection class
@@ -14,16 +14,21 @@ Represents a collection of fonts used in a document.
 public class FontInfoCollection : IEnumerable<FontInfo>
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
 | [Count](count) { get; } | Gets the number of elements contained in the collection. |
-| [EmbedSystemFonts](embedsystemfonts) { get; set; } | Specifies whether or not to embed System fonts into the document. Default value for this property is false. |
-| [EmbedTrueTypeFonts](embedtruetypefonts) { get; set; } | Specifies whether or not to embed TrueType fonts in a document when it is saved. Default value for this property is false. |
+| [EmbedSystemFonts](embedsystemfonts) { get; set; } | Specifies whether or not to embed System fonts into the document. Default value for this property is **false**. |
+| [EmbedTrueTypeFonts](embedtruetypefonts) { get; set; } | Specifies whether or not to embed TrueType fonts in a document when it is saved. Default value for this property is **false**. |
 | [Item](item) { get; } | Gets a font with the specified name. (2 indexers) |
-| [SaveSubsetFonts](savesubsetfonts) { get; set; } | Specifies whether or not to save a subset of the embedded TrueType fonts with the document. Default value for this property is false. |
-| [Contains](contains)(…) | Determines whether the collection contains a font with the given name. |
+| [SaveSubsetFonts](savesubsetfonts) { get; set; } | Specifies whether or not to save a subset of the embedded TrueType fonts with the document. Default value for this property is **false**. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [Contains](contains)(string) | Determines whether the collection contains a font with the given name. |
 | [GetEnumerator](getenumerator)() | Returns an enumerator object that can be used to iterate over all items in the collection. |
 
 ### Remarks

@@ -3,7 +3,7 @@ title: FieldRD
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 2120
+weight: 2100
 url: /net/aspose.words.fields/fieldrd/
 ---
 ## FieldRD class
@@ -14,11 +14,16 @@ Implements the RD field.
 public class FieldRD : Field
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [FieldRD](fieldrd)() | The default constructor. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [FileName](filename) { get; set; } | Gets or sets the name of the file to include when generating a table of contents, table of authorities, or index. |
 | [IsPathRelative](ispathrelative) { get; set; } | Gets or sets whether the path is relative to the current document. |
 

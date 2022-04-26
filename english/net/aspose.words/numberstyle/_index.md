@@ -3,7 +3,7 @@ title: NumberStyle
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 4010
+weight: 3960
 url: /net/aspose.words/numberstyle/
 ---
 ## NumberStyle enumeration

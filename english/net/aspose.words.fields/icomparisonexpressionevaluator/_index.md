@@ -3,7 +3,7 @@ title: IComparisonExpressionEvaluator
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 2460
+weight: 2440
 url: /net/aspose.words.fields/icomparisonexpressionevaluator/
 ---
 ## IComparisonExpressionEvaluator interface
@@ -14,11 +14,11 @@ When implemented, allows to override default comparison expressions evaluation f
 public interface IComparisonExpressionEvaluator
 ```
 
-## Members
+## Methods
 
 | Name | Description |
 | --- | --- |
-| [Evaluate](evaluate)(…) | Evaluates comparison expression. |
+| [Evaluate](evaluate)(Field, ComparisonExpression) | Evaluates comparison expression. |
 
 ### See Also
 

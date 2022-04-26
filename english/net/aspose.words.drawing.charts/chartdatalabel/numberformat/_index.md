@@ -3,7 +3,7 @@ title: NumberFormat
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 130
+weight: 40
 url: /net/aspose.words.drawing.charts/chartdatalabel/numberformat/
 ---
 ## ChartDataLabel.NumberFormat property

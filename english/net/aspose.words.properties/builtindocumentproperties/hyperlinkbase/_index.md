@@ -3,7 +3,7 @@ title: HyperlinkBase
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 100
+weight: 120
 url: /net/aspose.words.properties/builtindocumentproperties/hyperlinkbase/
 ---
 ## BuiltInDocumentProperties.HyperlinkBase property

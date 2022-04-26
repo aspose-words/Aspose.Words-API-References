@@ -3,7 +3,7 @@ title: Type
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 130
+weight: 120
 url: /net/aspose.words.buildingblocks/buildingblock/type/
 ---
 ## BuildingBlock.Type property
@@ -18,7 +18,7 @@ public BuildingBlockType Type { get; set; }
 
 The building block type can influence the visibility and behavior of the building block in Microsoft Word.
 
-Corresponds to the docPartPr.types element in OOXML.
+Corresponds to the **docPartPr.types** element in OOXML.
 
 ### Examples
 

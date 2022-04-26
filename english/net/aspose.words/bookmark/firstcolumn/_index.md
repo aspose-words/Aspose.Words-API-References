@@ -3,7 +3,7 @@ title: FirstColumn
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 70
+weight: 30
 url: /net/aspose.words/bookmark/firstcolumn/
 ---
 ## Bookmark.FirstColumn property
@@ -16,7 +16,7 @@ public int FirstColumn { get; }
 
 ### Remarks
 
-Returns -1 if this bookmark is not a table column bookmark.
+Returns **-1** if this bookmark is not a table column bookmark.
 
 ### Examples
 

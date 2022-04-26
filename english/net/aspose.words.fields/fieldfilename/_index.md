@@ -3,7 +3,7 @@ title: FieldFileName
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 1670
+weight: 1650
 url: /net/aspose.words.fields/fieldfilename/
 ---
 ## FieldFileName class
@@ -14,16 +14,23 @@ Implements the FILENAME field.
 public class FieldFileName : Field
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [FieldFileName](fieldfilename)() | The default constructor. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [IncludeFullPath](includefullpath) { get; set; } | Gets or sets whether to include the full file path name. |
 
 ### Remarks
 
-Retrieves the name of the current document from its storage location.In the current implementation, uses the [`OriginalFileName`](../../aspose.words/document/originalfilename) property to retrieve the file name. If the document was loaded from a stream or created blank, uses the name of the file that is being saved to (if known).
+Retrieves the name of the current document from its storage location.
+
+In the current implementation, uses the [`OriginalFileName`](../../aspose.words/document/originalfilename) property to retrieve the file name. If the document was loaded from a stream or created blank, uses the name of the file that is being saved to (if known).
 
 ### Examples
 

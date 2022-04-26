@@ -3,7 +3,7 @@ title: WarningCallback
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 80
+weight: 90
 url: /net/aspose.words/documentbase/warningcallback/
 ---
 ## DocumentBase.WarningCallback property

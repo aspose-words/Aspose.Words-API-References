@@ -3,12 +3,14 @@ title: PaperColor
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 50
+weight: 90
 url: /net/aspose.words.saving/imagesaveoptions/papercolor/
 ---
 ## ImageSaveOptions.PaperColor property
 
-Gets or sets the background (paper) color for the generated images. The default value is White.
+Gets or sets the background (paper) color for the generated images.
+
+The default value is White.
 
 ```csharp
 public Color PaperColor { get; set; }

@@ -3,7 +3,7 @@ title: VisitSectionStart
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 30
+weight: 380
 url: /net/aspose.words/documentvisitor/visitsectionstart/
 ---
 ## DocumentVisitor.VisitSectionStart method

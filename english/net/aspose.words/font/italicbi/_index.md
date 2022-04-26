@@ -3,7 +3,7 @@ title: ItalicBi
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 180
+weight: 170
 url: /net/aspose.words/font/italicbi/
 ---
 ## Font.ItalicBi property

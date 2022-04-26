@@ -3,7 +3,7 @@ title: UlTrailSpace
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 160
+weight: 580
 url: /net/aspose.words.settings/compatibilityoptions/ultrailspace/
 ---
 ## CompatibilityOptions.UlTrailSpace property

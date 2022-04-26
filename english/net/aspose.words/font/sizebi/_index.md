@@ -3,7 +3,7 @@ title: SizeBi
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 140
+weight: 350
 url: /net/aspose.words/font/sizebi/
 ---
 ## Font.SizeBi property

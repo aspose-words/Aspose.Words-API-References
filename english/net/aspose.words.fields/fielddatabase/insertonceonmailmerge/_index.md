@@ -3,7 +3,7 @@ title: InsertOnceOnMailMerge
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 80
+weight: 70
 url: /net/aspose.words.fields/fielddatabase/insertonceonmailmerge/
 ---
 ## FieldDatabase.InsertOnceOnMailMerge property

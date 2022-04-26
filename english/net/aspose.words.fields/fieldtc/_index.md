@@ -3,7 +3,7 @@ title: FieldTC
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 2280
+weight: 2260
 url: /net/aspose.words.fields/fieldtc/
 ---
 ## FieldTC class
@@ -14,11 +14,16 @@ Implements the TC field.
 public sealed class FieldTC : Field
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [FieldTC](fieldtc)() | The default constructor. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [EntryLevel](entrylevel) { get; set; } | Gets or sets the level of the entry. |
 | [OmitPageNumber](omitpagenumber) { get; set; } | Gets or sets whether page number in TOC should be omitted for this field. |
 | [Text](text) { get; set; } | Gets or sets the text of the entry. |

@@ -3,7 +3,7 @@ title: ImageSaveOptions
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 4880
+weight: 4830
 url: /net/aspose.words.saving/imagesaveoptions/
 ---
 ## ImageSaveOptions class
@@ -14,11 +14,16 @@ Allows to specify additional options when rendering document pages or shapes to 
 public class ImageSaveOptions : FixedPageSaveOptions
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
-| [ImageSaveOptions](imagesaveoptions)(…) | Initializes a new instance of this class that can be used to save rendered images in the Tiff, Png, Bmp, Emf, Jpeg or Svg format. Png, Bmp, Jpeg or Svg format. |
+| [ImageSaveOptions](imagesaveoptions)(SaveFormat) | Initializes a new instance of this class that can be used to save rendered images in the Tiff, Png, Bmp, Emf, Jpeg or Svg format. Png, Bmp, Jpeg or Svg format. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [HorizontalResolution](horizontalresolution) { get; set; } | Gets or sets the horizontal resolution for the generated images, in dots per inch. |
 | [ImageBrightness](imagebrightness) { get; set; } | Gets or sets the brightness for the generated images. |
 | [ImageColorMode](imagecolormode) { get; set; } | Gets or sets the color mode for the generated images. |
@@ -26,7 +31,7 @@ public class ImageSaveOptions : FixedPageSaveOptions
 | [JpegQuality](jpegquality) { get; set; } | Gets or sets a value determining the quality of the generated JPEG images. |
 | [MetafileRenderingOptions](metafilerenderingoptions) { get; } | Allows to specify how metafiles are treated in the rendered output. |
 | [PageSet](pageset) { get; set; } | Gets or sets the pages to render. Default is all the pages in the document. |
-| [PaperColor](papercolor) { get; set; } | Gets or sets the background (paper) color for the generated images. The default value is White. |
+| [PaperColor](papercolor) { get; set; } | Gets or sets the background (paper) color for the generated images. |
 | [PixelFormat](pixelformat) { get; set; } | Gets or sets the pixel format for the generated images. |
 | [Resolution](resolution) { set; } | Sets both horizontal and vertical resolution for the generated images, in dots per inch. |
 | override [SaveFormat](saveformat) { get; set; } | Specifies the format in which the rendered document pages or shapes will be saved if this save options object is used. Can be a raster Tiff, Png, Bmp, Jpeg or vector Emf, Svg. |
@@ -36,6 +41,11 @@ public class ImageSaveOptions : FixedPageSaveOptions
 | [TiffCompression](tiffcompression) { get; set; } | Gets or sets the type of compression to apply when saving generated images to the TIFF format. |
 | [UseGdiEmfRenderer](usegdiemfrenderer) { get; set; } | Gets or sets a value determining whether to use GDI+ or Aspose.Words metafile renderer when saving to EMF. |
 | [VerticalResolution](verticalresolution) { get; set; } | Gets or sets the vertical resolution for the generated images, in dots per inch. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
 | [Clone](clone)() | Creates a deep clone of this object. |
 
 ### Examples

@@ -3,12 +3,12 @@ title: Comment
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 60
+weight: 10
 url: /net/aspose.words/comment/comment/
 ---
 ## Comment constructor (1 of 2)
 
-Initializes a new instance of the Comment class.
+Initializes a new instance of the **Comment** class.
 
 ```csharp
 public Comment(DocumentBase doc)
@@ -20,7 +20,9 @@ public Comment(DocumentBase doc)
 
 ### Remarks
 
-When Comment is created, it belongs to the specified document, but is not yet part of the document and ParentNode is null.To append Comment to the document use InsertAfter or InsertBefore on the paragraph where you want the comment inserted.
+When **Comment** is created, it belongs to the specified document, but is not yet part of the document and **ParentNode** is null.
+
+To append **Comment** to the document use InsertAfter or InsertBefore on the paragraph where you want the comment inserted.
 
 After creating a comment, don't forget to set its [`Author`](../author), [`Initial`](../initial) and [`DateTime`](../datetime) properties.
 
@@ -193,7 +195,7 @@ public class CommentInfoPrinter : DocumentVisitor
 
 ## Comment constructor (2 of 2)
 
-Initializes a new instance of the Comment class.
+Initializes a new instance of the **Comment** class.
 
 ```csharp
 public Comment(DocumentBase doc, string author, string initial, DateTime dateTime)

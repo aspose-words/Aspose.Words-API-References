@@ -3,7 +3,7 @@ title: Color
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 40
+weight: 20
 url: /net/aspose.words.drawing/horizontalruleformat/color/
 ---
 ## HorizontalRuleFormat.Color property
@@ -16,7 +16,9 @@ public Color Color { get; set; }
 
 ### Remarks
 
-This is a shortcut to the Color property.The default value is Gray.
+This is a shortcut to the Color property.
+
+The default value is Gray.
 
 ### Examples
 

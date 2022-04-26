@@ -3,7 +3,7 @@ title: SdtType
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 3740
+weight: 3700
 url: /net/aspose.words.markup/sdttype/
 ---
 ## SdtType enumeration

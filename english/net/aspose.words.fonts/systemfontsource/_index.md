@@ -3,7 +3,7 @@ title: SystemFontSource
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 2810
+weight: 2790
 url: /net/aspose.words.fonts/systemfontsource/
 ---
 ## SystemFontSource class
@@ -14,13 +14,23 @@ Represents all TrueType fonts installed to the system.
 public class SystemFontSource : FontSourceBase
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [SystemFontSource](systemfontsource)() | Ctor. |
-| [SystemFontSource](systemfontsource)(…) | Ctor. |
+| [SystemFontSource](systemfontsource)(int) | Ctor. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | override [Type](type) { get; } | Returns the type of the font source. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
 | static [GetSystemFontFolders](getsystemfontfolders)() | Returns system font folders or empty array if folders are not accessible. |
 
 ### Examples

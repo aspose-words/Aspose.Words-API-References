@@ -3,7 +3,7 @@ title: DistanceRight
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 340
+weight: 140
 url: /net/aspose.words.tables/table/distanceright/
 ---
 ## Table.DistanceRight property

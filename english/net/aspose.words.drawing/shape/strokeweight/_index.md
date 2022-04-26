@@ -3,7 +3,7 @@ title: StrokeWeight
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 100
+weight: 210
 url: /net/aspose.words.drawing/shape/strokeweight/
 ---
 ## Shape.StrokeWeight property
@@ -16,7 +16,9 @@ public double StrokeWeight { get; set; }
 
 ### Remarks
 
-This is a shortcut to the [`Weight`](../../stroke/weight) property.The default value is 0.75.
+This is a shortcut to the [`Weight`](../../stroke/weight) property.
+
+The default value is 0.75.
 
 ### Examples
 

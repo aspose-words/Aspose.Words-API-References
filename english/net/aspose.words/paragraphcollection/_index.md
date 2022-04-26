@@ -3,7 +3,7 @@ title: ParagraphCollection
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 4110
+weight: 4060
 url: /net/aspose.words/paragraphcollection/
 ---
 ## ParagraphCollection class
@@ -14,11 +14,16 @@ Provides typed access to a collection of [`Paragraph`](../paragraph) nodes.
 public class ParagraphCollection : NodeCollection
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
-| [Item](item) { get; } | Retrieves a Paragraph at the given index. |
+| [Item](item) { get; } | Retrieves a **Paragraph** at the given index. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
 | [ToArray](toarray)() | Copies all paragraphs from the collection to a new array of paragraphs. |
 
 ### Examples

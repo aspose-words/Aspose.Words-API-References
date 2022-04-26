@@ -3,7 +3,7 @@ title: LineSpacing
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 290
+weight: 180
 url: /net/aspose.words/paragraphformat/linespacing/
 ---
 ## ParagraphFormat.LineSpacing property
@@ -16,7 +16,9 @@ public double LineSpacing { get; set; }
 
 ### Remarks
 
-When LineSpacingRule property is set to AtLeast, the line spacing can be greater than or equal to, but never less than the specified LineSpacing value.When LineSpacingRule property is set to Exactly, the line spacing never changes from the specified LineSpacing value, even if a larger font is used within the paragraph.
+When LineSpacingRule property is set to AtLeast, the line spacing can be greater than or equal to, but never less than the specified LineSpacing value.
+
+When LineSpacingRule property is set to Exactly, the line spacing never changes from the specified LineSpacing value, even if a larger font is used within the paragraph.
 
 ### Examples
 

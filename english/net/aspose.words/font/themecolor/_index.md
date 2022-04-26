@@ -3,7 +3,7 @@ title: ThemeColor
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 200
+weight: 460
 url: /net/aspose.words/font/themecolor/
 ---
 ## Font.ThemeColor property

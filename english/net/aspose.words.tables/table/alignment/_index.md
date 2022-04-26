@@ -3,7 +3,7 @@ title: Alignment
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 150
+weight: 40
 url: /net/aspose.words.tables/table/alignment/
 ---
 ## Table.Alignment property

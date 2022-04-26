@@ -3,7 +3,7 @@ title: SequenceName
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 140
+weight: 150
 url: /net/aspose.words.fields/fieldindex/sequencename/
 ---
 ## FieldIndex.SequenceName property

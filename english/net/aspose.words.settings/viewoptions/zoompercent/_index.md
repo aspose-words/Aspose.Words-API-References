@@ -3,7 +3,7 @@ title: ZoomPercent
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 30
+weight: 50
 url: /net/aspose.words.settings/viewoptions/zoompercent/
 ---
 ## ViewOptions.ZoomPercent property
@@ -16,7 +16,9 @@ public int ZoomPercent { get; set; }
 
 ### Remarks
 
-If value is 0 then this property uses 100 instead, else if value is less than 10 or greater than 500 this property throws.Although Aspose.Words is able to read and write this option, its usage is application-specific. For example MS Word 2013 does not respect the value of this option.
+If value is 0 then this property uses 100 instead, else if value is less than 10 or greater than 500 this property throws.
+
+Although Aspose.Words is able to read and write this option, its usage is application-specific. For example MS Word 2013 does not respect the value of this option.
 
 ### Examples
 

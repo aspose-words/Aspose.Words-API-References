@@ -3,7 +3,7 @@ title: IWarningCallback
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 2950
+weight: 2930
 url: /net/aspose.words/iwarningcallback/
 ---
 ## IWarningCallback interface
@@ -14,11 +14,11 @@ Implement this interface if you want to have your own custom method called to ca
 public interface IWarningCallback
 ```
 
-## Members
+## Methods
 
 | Name | Description |
 | --- | --- |
-| [Warning](warning)(…) | Aspose.Words invokes this method when it encounters some issue during document loading or saving that might result in loss of formatting or data fidelity. |
+| [Warning](warning)(WarningInfo) | Aspose.Words invokes this method when it encounters some issue during document loading or saving that might result in loss of formatting or data fidelity. |
 
 ### Examples
 

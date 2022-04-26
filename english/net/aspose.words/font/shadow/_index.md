@@ -3,7 +3,7 @@ title: Shadow
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 250
+weight: 330
 url: /net/aspose.words/font/shadow/
 ---
 ## Font.Shadow property

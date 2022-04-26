@@ -3,7 +3,7 @@ title: SelectFldWithFirstOrLastChar
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 460
+weight: 410
 url: /net/aspose.words.settings/compatibilityoptions/selectfldwithfirstorlastchar/
 ---
 ## CompatibilityOptions.SelectFldWithFirstOrLastChar property

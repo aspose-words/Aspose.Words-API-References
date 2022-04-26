@@ -3,7 +3,7 @@ title: Italic
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 510
+weight: 120
 url: /net/aspose.words/documentbuilder/italic/
 ---
 ## DocumentBuilder.Italic property

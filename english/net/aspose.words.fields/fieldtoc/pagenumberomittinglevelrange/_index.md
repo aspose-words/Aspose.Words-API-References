@@ -3,7 +3,7 @@ title: PageNumberOmittingLevelRange
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 100
+weight: 110
 url: /net/aspose.words.fields/fieldtoc/pagenumberomittinglevelrange/
 ---
 ## FieldToc.PageNumberOmittingLevelRange property

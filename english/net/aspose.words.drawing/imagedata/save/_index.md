@@ -3,7 +3,7 @@ title: Save
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 50
+weight: 190
 url: /net/aspose.words.drawing/imagedata/save/
 ---
 ## ImageData.Save method (1 of 2)

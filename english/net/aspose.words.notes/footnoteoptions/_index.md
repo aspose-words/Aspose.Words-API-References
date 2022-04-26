@@ -3,7 +3,7 @@ title: FootnoteOptions
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 3980
+weight: 3930
 url: /net/aspose.words.notes/footnoteoptions/
 ---
 ## FootnoteOptions class
@@ -14,7 +14,7 @@ Represents the footnote numbering options for a document or section.
 public sealed class FootnoteOptions
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |

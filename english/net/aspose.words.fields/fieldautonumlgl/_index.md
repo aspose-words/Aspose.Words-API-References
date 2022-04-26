@@ -3,7 +3,7 @@ title: FieldAutoNumLgl
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 1410
+weight: 1390
 url: /net/aspose.words.fields/fieldautonumlgl/
 ---
 ## FieldAutoNumLgl class
@@ -14,11 +14,16 @@ Implements the AUTONUMLGL field.
 public class FieldAutoNumLgl : Field
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [FieldAutoNumLgl](fieldautonumlgl)() | The default constructor. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [RemoveTrailingPeriod](removetrailingperiod) { get; set; } | Gets or sets whether to display the number without a trailing period. |
 | [SeparatorCharacter](separatorcharacter) { get; set; } | Gets or sets the separator character to be used. |
 

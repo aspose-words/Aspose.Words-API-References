@@ -3,7 +3,7 @@ title: Remove
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 60
+weight: 90
 url: /net/aspose.words.fields/dropdownitemcollection/remove/
 ---
 ## DropDownItemCollection.Remove method

@@ -3,7 +3,7 @@ title: OlePackage
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 150
+weight: 80
 url: /net/aspose.words.drawing/oleformat/olepackage/
 ---
 ## OleFormat.OlePackage property

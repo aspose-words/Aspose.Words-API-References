@@ -3,7 +3,7 @@ title: FieldAsk
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 1380
+weight: 1360
 url: /net/aspose.words.fields/fieldask/
 ---
 ## FieldAsk class
@@ -14,11 +14,16 @@ Implements the ASK field.
 public class FieldAsk : Field
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [FieldAsk](fieldask)() | The default constructor. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [BookmarkName](bookmarkname) { get; set; } | Gets or sets the name of the bookmark. |
 | [DefaultResponse](defaultresponse) { get; set; } | Gets or sets default user response (initial value contained in the prompt window). |
 | [PromptOnceOnMailMerge](promptonceonmailmerge) { get; set; } | Gets or sets whether the user response should be recieved once per a mail merge operation. |

@@ -3,7 +3,7 @@ title: SetData
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 10
+weight: 40
 url: /net/aspose.words.loading/resourceloadingargs/setdata/
 ---
 ## ResourceLoadingArgs.SetData method

@@ -3,7 +3,7 @@ title: StrikeThrough
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 140
+weight: 150
 url: /net/aspose.words.drawing/textpath/strikethrough/
 ---
 ## TextPath.StrikeThrough property
@@ -16,7 +16,7 @@ public bool StrikeThrough { get; set; }
 
 ### Remarks
 
-The default value is false.
+The default value is **false**.
 
 ### Examples
 

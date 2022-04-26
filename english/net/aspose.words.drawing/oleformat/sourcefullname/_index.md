@@ -3,7 +3,7 @@ title: SourceFullName
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 90
+weight: 100
 url: /net/aspose.words.drawing/oleformat/sourcefullname/
 ---
 ## OleFormat.SourceFullName property
@@ -16,7 +16,9 @@ public string SourceFullName { get; set; }
 
 ### Remarks
 
-The default value is an empty string.If `SourceFullName` is not an empty string, the OLE object is linked.
+The default value is an empty string.
+
+If `SourceFullName` is not an empty string, the OLE object is linked.
 
 ### Examples
 

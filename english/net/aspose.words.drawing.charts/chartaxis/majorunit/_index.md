@@ -3,7 +3,7 @@ title: MajorUnit
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 90
+weight: 100
 url: /net/aspose.words.drawing.charts/chartaxis/majorunit/
 ---
 ## ChartAxis.MajorUnit property
@@ -18,7 +18,7 @@ public double MajorUnit { get; set; }
 
 Valid range of a value is greater than zero. The property has effect for time category and value axes.
 
-Setting this property sets the [`MajorUnitIsAuto`](../majorunitisauto) property to false.
+Setting this property sets the [`MajorUnitIsAuto`](../majorunitisauto) property to **false**.
 
 ### Examples
 

@@ -3,7 +3,7 @@ title: ImageSize
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 930
+weight: 910
 url: /net/aspose.words.drawing/imagesize/
 ---
 ## ImageSize class
@@ -14,11 +14,17 @@ Contains information about image size and resolution.
 public class ImageSize
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
-| [ImageSize](imagesize)(…) | Initializes width and height to the given values in pixels. Initializes resolution to 96 dpi. (2 constructors) |
+| [ImageSize](imagesize)(int, int) | Initializes width and height to the given values in pixels. Initializes resolution to 96 dpi. |
+| [ImageSize](imagesize)(int, int, double, double) | Initializes width, height and resolution to the given values. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [HeightPixels](heightpixels) { get; } | Gets the height of the image in pixels. |
 | [HeightPoints](heightpoints) { get; } | Gets the height of the image in points. 1 point is 1/72 inch. |
 | [HorizontalResolution](horizontalresolution) { get; } | Gets the horizontal resolution in DPI. |

@@ -3,7 +3,7 @@ title: VisitRowStart
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 130
+weight: 350
 url: /net/aspose.words/documentvisitor/visitrowstart/
 ---
 ## DocumentVisitor.VisitRowStart method

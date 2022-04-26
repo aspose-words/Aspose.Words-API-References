@@ -3,60 +3,10 @@ title: Writeln
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 220
+weight: 630
 url: /net/aspose.words/documentbuilder/writeln/
 ---
 ## DocumentBuilder.Writeln method (1 of 2)
-
-Inserts a paragraph break into the document.
-
-```csharp
-public void Writeln()
-```
-
-### Remarks
-
-Calls [`InsertParagraph`](../insertparagraph).
-
-### Examples
-
-Shows how to create headers and footers in a document using DocumentBuilder.
-
-```csharp
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-
-// Specify that we want different headers and footers for first, even and odd pages.
-builder.PageSetup.DifferentFirstPageHeaderFooter = true;
-builder.PageSetup.OddAndEvenPagesHeaderFooter = true;
-
-// Create the headers, then add three pages to the document to display each header type.
-builder.MoveToHeaderFooter(HeaderFooterType.HeaderFirst);
-builder.Write("Header for the first page");
-builder.MoveToHeaderFooter(HeaderFooterType.HeaderEven);
-builder.Write("Header for even pages");
-builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
-builder.Write("Header for all other pages");
-
-builder.MoveToSection(0);
-builder.Writeln("Page1");
-builder.InsertBreak(BreakType.PageBreak);
-builder.Writeln("Page2");
-builder.InsertBreak(BreakType.PageBreak);
-builder.Writeln("Page3");
-
-doc.Save(ArtifactsDir + "DocumentBuilder.HeadersAndFooters.docx");
-```
-
-### See Also
-
-* class [DocumentBuilder](../../documentbuilder)
-* namespace [Aspose.Words](../../documentbuilder)
-* assembly [Aspose.Words](../../../)
-
----
-
-## DocumentBuilder.Writeln method (2 of 2)
 
 Inserts a string and a paragraph break into the document.
 
@@ -113,6 +63,56 @@ Assert.AreEqual(TextOrientation.Upward, table.Rows[1].Cells[0].CellFormat.Orient
 Assert.AreEqual(TextOrientation.Downward, table.Rows[1].Cells[1].CellFormat.Orientation);
 
 doc.Save(ArtifactsDir + "DocumentBuilder.BuildTable.docx");
+```
+
+### See Also
+
+* class [DocumentBuilder](../../documentbuilder)
+* namespace [Aspose.Words](../../documentbuilder)
+* assembly [Aspose.Words](../../../)
+
+---
+
+## DocumentBuilder.Writeln method (2 of 2)
+
+Inserts a paragraph break into the document.
+
+```csharp
+public void Writeln()
+```
+
+### Remarks
+
+Calls [`InsertParagraph`](../insertparagraph).
+
+### Examples
+
+Shows how to create headers and footers in a document using DocumentBuilder.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+// Specify that we want different headers and footers for first, even and odd pages.
+builder.PageSetup.DifferentFirstPageHeaderFooter = true;
+builder.PageSetup.OddAndEvenPagesHeaderFooter = true;
+
+// Create the headers, then add three pages to the document to display each header type.
+builder.MoveToHeaderFooter(HeaderFooterType.HeaderFirst);
+builder.Write("Header for the first page");
+builder.MoveToHeaderFooter(HeaderFooterType.HeaderEven);
+builder.Write("Header for even pages");
+builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
+builder.Write("Header for all other pages");
+
+builder.MoveToSection(0);
+builder.Writeln("Page1");
+builder.InsertBreak(BreakType.PageBreak);
+builder.Writeln("Page2");
+builder.InsertBreak(BreakType.PageBreak);
+builder.Writeln("Page3");
+
+doc.Save(ArtifactsDir + "DocumentBuilder.HeadersAndFooters.docx");
 ```
 
 ### See Also

@@ -3,7 +3,7 @@ title: OdsoFieldMapData
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 5510
+weight: 5460
 url: /net/aspose.words.settings/odsofieldmapdata/
 ---
 ## OdsoFieldMapData class
@@ -14,15 +14,25 @@ Specifies how a column in the external data source shall be mapped to the predef
 public class OdsoFieldMapData
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [OdsoFieldMapData](odsofieldmapdata)() | The default constructor. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [Column](column) { get; set; } | Specifies the zero-based index of the column within an external data source which shall be mapped to the local name of a specific MERGEFIELD field. The default value is 0. |
 | [MappedName](mappedname) { get; set; } | Specifies the predefined merge field name which shall be mapped to the column number specified by the [`Column`](./column) property within this field mapping. The default value is an empty string. |
 | [Name](name) { get; set; } | Specifies the column name within an external data source for the column whose index is specified by the [`Column`](./column) property. The default value is an empty string. |
 | [Type](type) { get; set; } | Specifies if a given mail merge field has been mapped to a column in the given external data source or not. The default value is Default. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
 | [Clone](clone)() | Returns a deep clone of this object. |
 
 ### Remarks

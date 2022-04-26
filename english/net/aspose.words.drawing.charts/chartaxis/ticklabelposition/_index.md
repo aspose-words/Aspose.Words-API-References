@@ -3,7 +3,7 @@ title: TickLabelPosition
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 80
+weight: 220
 url: /net/aspose.words.drawing.charts/chartaxis/ticklabelposition/
 ---
 ## ChartAxis.TickLabelPosition property

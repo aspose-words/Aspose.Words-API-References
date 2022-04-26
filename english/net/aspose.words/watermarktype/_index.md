@@ -3,7 +3,7 @@ title: WatermarkType
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 6290
+weight: 6240
 url: /net/aspose.words/watermarktype/
 ---
 ## WatermarkType enumeration
@@ -18,8 +18,8 @@ public enum WatermarkType
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Text | `0` | Indicates that the text will be used as a watermark. Such a watermark corresponds to a WordArt object. |
-| Image | `1` | Indicates that the image will be used as a watermark. Such a watermark corresponds to a shape with image. |
+| Text | `0` | Indicates that the text will be used as a watermark. |
+| Image | `1` | Indicates that the image will be used as a watermark. |
 | None | `2` | Indicates watermark is no set. |
 
 ### Examples

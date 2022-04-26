@@ -3,7 +3,7 @@ title: AddSwitch
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 20
+weight: 30
 url: /net/aspose.words.fields/fieldbuilder/addswitch/
 ---
 ## FieldBuilder.AddSwitch method (1 of 4)
@@ -115,13 +115,13 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 Adds a field's switch.
 
 ```csharp
-public FieldBuilder AddSwitch(string switchName, double switchArgument)
+public FieldBuilder AddSwitch(string switchName, string switchArgument)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | switchName | String | The switch name. |
-| switchArgument | Double | The switch value. |
+| switchArgument | String | The switch value. |
 
 ### Examples
 
@@ -317,13 +317,13 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 Adds a field's switch.
 
 ```csharp
-public FieldBuilder AddSwitch(string switchName, string switchArgument)
+public FieldBuilder AddSwitch(string switchName, double switchArgument)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | switchName | String | The switch name. |
-| switchArgument | String | The switch value. |
+| switchArgument | Double | The switch value. |
 
 ### Examples
 

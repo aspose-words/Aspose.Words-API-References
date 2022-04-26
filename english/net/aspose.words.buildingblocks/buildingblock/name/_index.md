@@ -3,7 +3,7 @@ title: Name
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 70
+weight: 90
 url: /net/aspose.words.buildingblocks/buildingblock/name/
 ---
 ## BuildingBlock.Name property
@@ -20,7 +20,7 @@ The name may contain any string content, usually a friendly identifier. Multiple
 
 Cannot be `null` and cannot be an empty string.
 
-Corresponds to the docPartPr.name element in OOXML.
+Corresponds to the **docPartPr.name** element in OOXML.
 
 ### Examples
 

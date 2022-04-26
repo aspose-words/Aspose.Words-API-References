@@ -3,7 +3,7 @@ title: AlignTablesRowByRow
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 400
+weight: 20
 url: /net/aspose.words.settings/compatibilityoptions/aligntablesrowbyrow/
 ---
 ## CompatibilityOptions.AlignTablesRowByRow property

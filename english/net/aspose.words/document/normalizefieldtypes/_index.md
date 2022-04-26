@@ -3,7 +3,7 @@ title: NormalizeFieldTypes
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 170
+weight: 610
 url: /net/aspose.words/document/normalizefieldtypes/
 ---
 ## Document.NormalizeFieldTypes method

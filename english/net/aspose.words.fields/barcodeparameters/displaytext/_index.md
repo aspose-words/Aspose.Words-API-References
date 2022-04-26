@@ -3,7 +3,7 @@ title: DisplayText
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 120
+weight: 70
 url: /net/aspose.words.fields/barcodeparameters/displaytext/
 ---
 ## BarcodeParameters.DisplayText property

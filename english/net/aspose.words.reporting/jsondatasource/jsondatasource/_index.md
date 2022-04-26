@@ -8,26 +8,6 @@ url: /net/aspose.words.reporting/jsondatasource/jsondatasource/
 ---
 ## JsonDataSource constructor (1 of 4)
 
-Creates a new data source with data from a JSON stream using default options for parsing JSON data.
-
-```csharp
-public JsonDataSource(Stream jsonStream)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| jsonStream | Stream | The stream of JSON data to be used as the data source. |
-
-### See Also
-
-* class [JsonDataSource](../../jsondatasource)
-* namespace [Aspose.Words.Reporting](../../jsondatasource)
-* assembly [Aspose.Words](../../../)
-
----
-
-## JsonDataSource constructor (2 of 4)
-
 Creates a new data source with data from a JSON file using default options for parsing JSON data.
 
 ```csharp
@@ -46,17 +26,37 @@ public JsonDataSource(string jsonPath)
 
 ---
 
-## JsonDataSource constructor (3 of 4)
+## JsonDataSource constructor (2 of 4)
 
-Creates a new data source with data from a JSON stream using the specified options for parsing JSON data.
+Creates a new data source with data from a JSON stream using default options for parsing JSON data.
 
 ```csharp
-public JsonDataSource(Stream jsonStream, JsonDataLoadOptions options)
+public JsonDataSource(Stream jsonStream)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | jsonStream | Stream | The stream of JSON data to be used as the data source. |
+
+### See Also
+
+* class [JsonDataSource](../../jsondatasource)
+* namespace [Aspose.Words.Reporting](../../jsondatasource)
+* assembly [Aspose.Words](../../../)
+
+---
+
+## JsonDataSource constructor (3 of 4)
+
+Creates a new data source with data from a JSON file using the specified options for parsing JSON data.
+
+```csharp
+public JsonDataSource(string jsonPath, JsonDataLoadOptions options)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| jsonPath | String | The path to the JSON file to be used as the data source. |
 | options | JsonDataLoadOptions | Options for parsing JSON data. |
 
 ### See Also
@@ -70,15 +70,15 @@ public JsonDataSource(Stream jsonStream, JsonDataLoadOptions options)
 
 ## JsonDataSource constructor (4 of 4)
 
-Creates a new data source with data from a JSON file using the specified options for parsing JSON data.
+Creates a new data source with data from a JSON stream using the specified options for parsing JSON data.
 
 ```csharp
-public JsonDataSource(string jsonPath, JsonDataLoadOptions options)
+public JsonDataSource(Stream jsonStream, JsonDataLoadOptions options)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| jsonPath | String | The path to the JSON file to be used as the data source. |
+| jsonStream | Stream | The stream of JSON data to be used as the data source. |
 | options | JsonDataLoadOptions | Options for parsing JSON data. |
 
 ### See Also

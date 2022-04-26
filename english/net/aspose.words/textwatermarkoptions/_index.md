@@ -3,7 +3,7 @@ title: TextWatermarkOptions
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 6050
+weight: 6000
 url: /net/aspose.words/textwatermarkoptions/
 ---
 ## TextWatermarkOptions class
@@ -14,11 +14,16 @@ Contains options that can be specified when adding a watermark with text.
 public class TextWatermarkOptions
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [TextWatermarkOptions](textwatermarkoptions)() | The default constructor. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [Color](color) { get; set; } | Gets or sets font color. The default value is Color.Silver. |
 | [FontFamily](fontfamily) { get; set; } | Gets or sets font family name. The default value is "Calibri". |
 | [FontSize](fontsize) { get; set; } | Gets or sets a font size. The default value is 0 - auto. |

@@ -3,7 +3,7 @@ title: LocaleIdFarEast
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 490
+weight: 220
 url: /net/aspose.words/font/localeidfareast/
 ---
 ## Font.LocaleIdFarEast property

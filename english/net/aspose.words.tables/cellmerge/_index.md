@@ -3,7 +3,7 @@ title: CellMerge
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 5880
+weight: 5830
 url: /net/aspose.words.tables/cellmerge/
 ---
 ## CellMerge enumeration

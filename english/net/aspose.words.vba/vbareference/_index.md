@@ -3,7 +3,7 @@ title: VbaReference
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 6190
+weight: 6140
 url: /net/aspose.words.vba/vbareference/
 ---
 ## VbaReference class
@@ -14,7 +14,7 @@ Implements a reference to an Automation type library or VBA project.
 public abstract class VbaReference
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |

@@ -3,15 +3,15 @@ title: Equals
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 30
+weight: 60
 url: /net/aspose.words.tables/preferredwidth/equals/
 ---
 ## PreferredWidth.Equals method (1 of 2)
 
-Determines whether the specified object is equal in value to the current object.
+Determines whether the specified PreferredWidth is equal in value to the current PreferredWidth.
 
 ```csharp
-public override bool Equals(object obj)
+public bool Equals(PreferredWidth other)
 ```
 
 ### Examples
@@ -61,10 +61,10 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertCellsWithPreferredWidths.docx");
 
 ## PreferredWidth.Equals method (2 of 2)
 
-Determines whether the specified PreferredWidth is equal in value to the current PreferredWidth.
+Determines whether the specified object is equal in value to the current object.
 
 ```csharp
-public bool Equals(PreferredWidth other)
+public override bool Equals(object obj)
 ```
 
 ### Examples

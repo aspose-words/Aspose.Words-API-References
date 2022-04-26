@@ -3,7 +3,7 @@ title: IFontSavingCallback
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 4810
+weight: 4760
 url: /net/aspose.words.saving/ifontsavingcallback/
 ---
 ## IFontSavingCallback interface
@@ -14,11 +14,11 @@ Implement this interface if you want to receive notifications and control how As
 public interface IFontSavingCallback
 ```
 
-## Members
+## Methods
 
 | Name | Description |
 | --- | --- |
-| [FontSaving](fontsaving)(…) | Called when Aspose.Words is about to save a font resource. |
+| [FontSaving](fontsaving)(FontSavingArgs) | Called when Aspose.Words is about to save a font resource. |
 
 ### Examples
 

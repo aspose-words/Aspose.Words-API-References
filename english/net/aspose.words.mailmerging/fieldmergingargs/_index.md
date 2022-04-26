@@ -3,18 +3,18 @@ title: FieldMergingArgs
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 3490
+weight: 3460
 url: /net/aspose.words.mailmerging/fieldmergingargs/
 ---
 ## FieldMergingArgs class
 
-Provides data for the MergeField event.
+Provides data for the **MergeField** event.
 
 ```csharp
 public class FieldMergingArgs : FieldMergingArgsBase
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -22,7 +22,7 @@ public class FieldMergingArgs : FieldMergingArgsBase
 
 ### Remarks
 
-The MergeField event occurs during mail merge when a simple mail merge field is encountered in the document. You can respond to this event to return text for the mail merge engine to insert into the document.
+The **MergeField** event occurs during mail merge when a simple mail merge field is encountered in the document. You can respond to this event to return text for the mail merge engine to insert into the document.
 
 ### Examples
 

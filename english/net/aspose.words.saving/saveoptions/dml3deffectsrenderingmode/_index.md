@@ -3,7 +3,7 @@ title: Dml3DEffectsRenderingMode
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 180
+weight: 50
 url: /net/aspose.words.saving/saveoptions/dml3deffectsrenderingmode/
 ---
 ## SaveOptions.Dml3DEffectsRenderingMode property

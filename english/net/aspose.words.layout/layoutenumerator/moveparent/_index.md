@@ -3,7 +3,7 @@ title: MoveParent
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 80
+weight: 130
 url: /net/aspose.words.layout/layoutenumerator/moveparent/
 ---
 ## LayoutEnumerator.MoveParent method (1 of 2)

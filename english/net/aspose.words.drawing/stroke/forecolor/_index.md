@@ -3,7 +3,7 @@ title: ForeColor
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 40
+weight: 90
 url: /net/aspose.words.drawing/stroke/forecolor/
 ---
 ## Stroke.ForeColor property

@@ -3,12 +3,12 @@ title: Checked
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 220
+weight: 60
 url: /net/aspose.words.markup/structureddocumenttag/checked/
 ---
 ## StructuredDocumentTag.Checked property
 
-Gets/Sets current state of the Checkbox SDT. Default value for this property is false.
+Gets/Sets current state of the Checkbox **SDT**. Default value for this property is false.
 
 ```csharp
 public bool Checked { get; set; }

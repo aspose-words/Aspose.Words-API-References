@@ -3,7 +3,7 @@ title: ExportImagesAsBase64
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 170
+weight: 180
 url: /net/aspose.words.saving/htmlsaveoptions/exportimagesasbase64/
 ---
 ## HtmlSaveOptions.ExportImagesAsBase64 property
@@ -16,7 +16,7 @@ public bool ExportImagesAsBase64 { get; set; }
 
 ### Remarks
 
-When this property is set to `true` images data are exported directly into the img elements and separate files are not created.
+When this property is set to `true` images data are exported directly into the **img** elements and separate files are not created.
 
 ### Examples
 

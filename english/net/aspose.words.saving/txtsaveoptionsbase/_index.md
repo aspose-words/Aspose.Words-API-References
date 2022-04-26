@@ -3,7 +3,7 @@ title: TxtSaveOptionsBase
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 5300
+weight: 5250
 url: /net/aspose.words.saving/txtsaveoptionsbase/
 ---
 ## TxtSaveOptionsBase class
@@ -14,11 +14,11 @@ The base class for specifying additional options when saving a document into a t
 public abstract class TxtSaveOptionsBase : SaveOptions
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
-| [Encoding](encoding) { get; set; } | Specifies the encoding to use when exporting in text formats. Default value is Encoding.UTF8. |
+| [Encoding](encoding) { get; set; } | Specifies the encoding to use when exporting in text formats. Default value is **Encoding.UTF8**. |
 | [ExportHeadersFootersMode](exportheadersfootersmode) { get; set; } | Specifies the way headers and footers are exported to the text formats. Default value is PrimaryOnly. |
 | [ForcePageBreaks](forcepagebreaks) { get; set; } | Allows to specify whether the page breaks should be preserved during export. |
 | [ParagraphBreak](paragraphbreak) { get; set; } | Specifies the string to use as a paragraph break when exporting in text formats. |

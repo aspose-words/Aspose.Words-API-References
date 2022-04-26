@@ -3,7 +3,7 @@ title: StyleIdentifier
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 290
+weight: 280
 url: /net/aspose.words.tables/table/styleidentifier/
 ---
 ## Table.StyleIdentifier property

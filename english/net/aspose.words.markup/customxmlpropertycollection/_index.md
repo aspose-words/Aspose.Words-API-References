@@ -3,7 +3,7 @@ title: CustomXmlPropertyCollection
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 3650
+weight: 3620
 url: /net/aspose.words.markup/customxmlpropertycollection/
 ---
 ## CustomXmlPropertyCollection class
@@ -14,19 +14,24 @@ Represents a collection of custom XML attributes or smart tag properties.
 public class CustomXmlPropertyCollection : IEnumerable<CustomXmlProperty>
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
 | [Count](count) { get; } | Gets the number of elements contained in the collection. |
 | [Item](item) { get; } | Gets a property with the specified name. (2 indexers) |
-| [Add](add)(…) | Adds a property to the collection. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [Add](add)(CustomXmlProperty) | Adds a property to the collection. |
 | [Clear](clear)() | Removes all elements from the collection. |
-| [Contains](contains)(…) | Determines whether the collection contains a property with the given name. |
+| [Contains](contains)(string) | Determines whether the collection contains a property with the given name. |
 | [GetEnumerator](getenumerator)() | Returns an enumerator object that can be used to iterate over all items in the collection. |
-| [IndexOfKey](indexofkey)(…) | Returns the zero-based index of the specified property in the collection. |
-| [Remove](remove)(…) | Removes a property with the specified name from the collection. |
-| [RemoveAt](removeat)(…) | Removes a property at the specified index. |
+| [IndexOfKey](indexofkey)(string) | Returns the zero-based index of the specified property in the collection. |
+| [Remove](remove)(string) | Removes a property with the specified name from the collection. |
+| [RemoveAt](removeat)(int) | Removes a property at the specified index. |
 
 ### Remarks
 

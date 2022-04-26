@@ -3,7 +3,7 @@ title: ThumbnailGeneratingOptions
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 4260
+weight: 4210
 url: /net/aspose.words.rendering/thumbnailgeneratingoptions/
 ---
 ## ThumbnailGeneratingOptions class
@@ -14,11 +14,16 @@ Can be used to specify additional options when generating thumbnail for a docume
 public class ThumbnailGeneratingOptions
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [ThumbnailGeneratingOptions](thumbnailgeneratingoptions)() | The default constructor. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [GenerateFromFirstPage](generatefromfirstpage) { get; set; } | Specifies whether to generate thumbnail from first page of the document or first image. |
 | [ThumbnailSize](thumbnailsize) { get; set; } | Size of generated thumbnail in pixels. Default is 600x900. |
 

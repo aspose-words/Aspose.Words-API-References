@@ -3,7 +3,7 @@ title: WebExtensionBinding
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 6350
+weight: 6300
 url: /net/aspose.words.webextensions/webextensionbinding/
 ---
 ## WebExtensionBinding class
@@ -14,11 +14,16 @@ Specifies a binding relationship between a web extension and the data in the doc
 public class WebExtensionBinding
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
-| [WebExtensionBinding](webextensionbinding)(…) | Creates web extension binding with specified parameters. |
+| [WebExtensionBinding](webextensionbinding)(string, WebExtensionBindingType, string) | Creates web extension binding with specified parameters. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [AppRef](appref) { get; set; } | Specifies the binding key used to map the binding entry in this list with the bound data in the document. |
 | [BindingType](bindingtype) { get; set; } | Specifies the binding type. |
 | [Id](id) { get; set; } | Specifies the binding identifier. |

@@ -3,20 +3,20 @@ title: Open
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 10
+weight: 20
 url: /net/aspose.words/comhelper/open/
 ---
 ## ComHelper.Open method (1 of 2)
 
-Allows a COM application to load [`Document`](../../document) from a stream.
+Allows a COM application to load a [`Document`](../../document) from a file.
 
 ```csharp
-public Document Open(Stream stream)
+public Document Open(string fileName)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | Stream | A .NET stream object that contains the document to load. |
+| fileName | String | Filename of the document to load. |
 
 ## Return Value
 
@@ -24,9 +24,19 @@ A [`Document`](../../document) object that represents a Word document.
 
 ### Remarks
 
-This method is same as calling the [`Document`](../../document) constructor with a stream parameter.
+This method is same as calling the [`Document`](../../document) constructor with a file name parameter.
 
 ### Examples
+
+```csharp
+[VBScript]
+
+Dim helper
+Set helper = CreateObject("Aspose.Words.ComHelper")
+
+Dim doc
+Set doc = helper.Open(fileName)
+```
 
 Shows how to open documents using the ComHelper class.
 
@@ -59,15 +69,15 @@ using (FileStream stream = new FileStream(MyDir + "Document.docx", FileMode.Open
 
 ## ComHelper.Open method (2 of 2)
 
-Allows a COM application to load a [`Document`](../../document) from a file.
+Allows a COM application to load [`Document`](../../document) from a stream.
 
 ```csharp
-public Document Open(string fileName)
+public Document Open(Stream stream)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fileName | String | Filename of the document to load. |
+| stream | Stream | A .NET stream object that contains the document to load. |
 
 ## Return Value
 
@@ -75,19 +85,9 @@ A [`Document`](../../document) object that represents a Word document.
 
 ### Remarks
 
-This method is same as calling the [`Document`](../../document) constructor with a file name parameter.
+This method is same as calling the [`Document`](../../document) constructor with a stream parameter.
 
 ### Examples
-
-```csharp
-[VBScript]
-
-Dim helper
-Set helper = CreateObject("Aspose.Words.ComHelper")
-
-Dim doc
-Set doc = helper.Open(fileName)
-```
 
 Shows how to open documents using the ComHelper class.
 

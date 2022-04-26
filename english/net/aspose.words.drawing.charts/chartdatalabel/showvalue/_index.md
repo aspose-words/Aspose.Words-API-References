@@ -3,7 +3,7 @@ title: ShowValue
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 80
+weight: 130
 url: /net/aspose.words.drawing.charts/chartdatalabel/showvalue/
 ---
 ## ChartDataLabel.ShowValue property

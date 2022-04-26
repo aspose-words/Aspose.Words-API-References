@@ -3,7 +3,7 @@ title: MovedToTextColor
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 100
+weight: 90
 url: /net/aspose.words.layout/revisionoptions/movedtotextcolor/
 ---
 ## RevisionOptions.MovedToTextColor property

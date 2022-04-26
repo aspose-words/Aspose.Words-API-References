@@ -3,7 +3,7 @@ title: LocaleId
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 470
+weight: 200
 url: /net/aspose.words/font/localeid/
 ---
 ## Font.LocaleId property

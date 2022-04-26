@@ -3,7 +3,7 @@ title: FontSavingCallback
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 370
+weight: 320
 url: /net/aspose.words.saving/htmlsaveoptions/fontsavingcallback/
 ---
 ## HtmlSaveOptions.FontSavingCallback property

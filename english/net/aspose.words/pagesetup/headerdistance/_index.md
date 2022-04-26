@@ -3,7 +3,7 @@ title: HeaderDistance
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 210
+weight: 160
 url: /net/aspose.words/pagesetup/headerdistance/
 ---
 ## PageSetup.HeaderDistance property

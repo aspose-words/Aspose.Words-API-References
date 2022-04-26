@@ -3,7 +3,7 @@ title: NodeImporter
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 3910
+weight: 3860
 url: /net/aspose.words/nodeimporter/
 ---
 ## NodeImporter class
@@ -14,16 +14,32 @@ Allows to efficiently perform repeated import of nodes from one document to anot
 public class NodeImporter
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
-| [NodeImporter](nodeimporter)(…) | Initializes a new instance of the [`NodeImporter`](../nodeimporter) class. (2 constructors) |
-| [ImportNode](importnode)(…) | Imports a node from one document into another. |
+| [NodeImporter](nodeimporter)(DocumentBase, DocumentBase, ImportFormatMode) | Initializes a new instance of the [`NodeImporter`](../nodeimporter) class. |
+| [NodeImporter](nodeimporter)(DocumentBase, DocumentBase, ImportFormatMode, ImportFormatOptions) | Initializes a new instance of the [`NodeImporter`](../nodeimporter) class. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [ImportNode](importnode)(Node, bool) | Imports a node from one document into another. |
 
 ### Remarks
 
-Aspose.Words provides functionality for easy copying and moving fragments between Microsoft Word documents. This is known as "importing nodes". Before you can insert a fragment from one document into another, you need to "import" it. Importing creates a deep clone of the original node, ready to be inserted into the destination document.The simplest way to import a node is to use the [`ImportNode`](../documentbase/importnode) method provided by the [`DocumentBase`](../documentbase) object.However, when you need to import nodes from one document to another multiple times, it is better to use the [`NodeImporter`](../nodeimporter) class. The [`NodeImporter`](../nodeimporter) class allows to minimize the number of styles and lists created in the destination document.Copying or moving fragments from one Microsoft Word document to another presents a number of technical challenges for Aspose.Words. In a Word document, styles and list formatting are stored centrally, separately from the text of the document. The paragraphs and runs of text merely reference the styles by internal unique identifiers.The challenges arise from the fact that styles and lists are different in different documents. For example, to copy a paragraph formatted with the Heading 1 style from one document to another, a number of things must be taken into account: decide whether to copy the Heading 1 style from the source document to the destination document, clone the paragraph, update the cloned paragraph so it refers to the correct Heading 1 style in the destination document. If the style had to be copied, all the styles that it references (based on style and next paragraph style) should be analyzed and possibly copied too and so on. Similar issues exist when copying bulleted or numbered paragraphs because Microsoft Word stores list definitions separately from text.The [`NodeImporter`](../nodeimporter) class is like a context, that holds the "translation tables" during the import. It correctly translates between styles and lists in the source and destination documents.
+Aspose.Words provides functionality for easy copying and moving fragments between Microsoft Word documents. This is known as "importing nodes". Before you can insert a fragment from one document into another, you need to "import" it. Importing creates a deep clone of the original node, ready to be inserted into the destination document.
+
+The simplest way to import a node is to use the [`ImportNode`](../documentbase/importnode) method provided by the [`DocumentBase`](../documentbase) object.
+
+However, when you need to import nodes from one document to another multiple times, it is better to use the [`NodeImporter`](../nodeimporter) class. The [`NodeImporter`](../nodeimporter) class allows to minimize the number of styles and lists created in the destination document.
+
+Copying or moving fragments from one Microsoft Word document to another presents a number of technical challenges for Aspose.Words. In a Word document, styles and list formatting are stored centrally, separately from the text of the document. The paragraphs and runs of text merely reference the styles by internal unique identifiers.
+
+The challenges arise from the fact that styles and lists are different in different documents. For example, to copy a paragraph formatted with the Heading 1 style from one document to another, a number of things must be taken into account: decide whether to copy the Heading 1 style from the source document to the destination document, clone the paragraph, update the cloned paragraph so it refers to the correct Heading 1 style in the destination document. If the style had to be copied, all the styles that it references (based on style and next paragraph style) should be analyzed and possibly copied too and so on. Similar issues exist when copying bulleted or numbered paragraphs because Microsoft Word stores list definitions separately from text.
+
+The [`NodeImporter`](../nodeimporter) class is like a context, that holds the "translation tables" during the import. It correctly translates between styles and lists in the source and destination documents.
 
 ### Examples
 

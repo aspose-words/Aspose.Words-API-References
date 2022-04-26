@@ -3,7 +3,7 @@ title: OfficeMath
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 3820
+weight: 3770
 url: /net/aspose.words.math/officemath/
 ---
 ## OfficeMath class
@@ -14,7 +14,7 @@ Represents an Office Math object such as function, equation, matrix or alike. Ca
 public class OfficeMath : CompositeNode
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -22,9 +22,14 @@ public class OfficeMath : CompositeNode
 | [EquationXmlEncoding](equationxmlencoding) { get; set; } | Gets/sets an encoding that was used to encode equation XML, if this office math object is read from equation XML. We use the encoding on saving a document to write in same encoding that it was read. |
 | [Justification](justification) { get; set; } | Gets/sets Office Math justification. |
 | [MathObjectType](mathobjecttype) { get; } | Gets type [`MathObjectType`](./mathobjecttype) of this Office Math object. |
-| override [NodeType](nodetype) { get; } | Returns NodeType.OfficeMath. |
+| override [NodeType](nodetype) { get; } | Returns **NodeType.OfficeMath**. |
 | [ParentParagraph](parentparagraph) { get; } | Retrieves the parent [`Paragraph`](../../aspose.words/paragraph) of this node. |
-| override [Accept](accept)(…) | Accepts a visitor. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| override [Accept](accept)(DocumentVisitor) | Accepts a visitor. |
 | [GetMathRenderer](getmathrenderer)() | Creates and returns an object that can be used to render this equation into an image. |
 
 ### Remarks

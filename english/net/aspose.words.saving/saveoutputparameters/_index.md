@@ -3,7 +3,7 @@ title: SaveOutputParameters
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 5220
+weight: 5170
 url: /net/aspose.words.saving/saveoutputparameters/
 ---
 ## SaveOutputParameters class
@@ -14,7 +14,7 @@ This object is returned to the caller after a document is saved and contains add
 public class SaveOutputParameters
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |

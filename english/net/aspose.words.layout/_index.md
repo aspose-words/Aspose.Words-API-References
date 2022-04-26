@@ -1,12 +1,12 @@
 ---
 title: Aspose.Words.Layout
 second_title: Aspose.Words for .NET API Reference
-description: The Aspose.Words.Layout namespace provides classes that allow to access information such as on what page and where on a page particular document elements are positioned, when the document is formatted into pages.
+description: The **Aspose.Words.Layout** namespace provides classes that allow to access information such as on what page and where on a page particular document elements are positioned, when the document is formatted into pages.
 type: docs
 weight: 110
 url: /net/aspose.words.layout/
 ---
-The Aspose.Words.Layout namespace provides classes that allow to access information such as on what page and where on a page particular document elements are positioned, when the document is formatted into pages.
+The **Aspose.Words.Layout** namespace provides classes that allow to access information such as on what page and where on a page particular document elements are positioned, when the document is formatted into pages.
 
 ## Classes
 
@@ -28,7 +28,7 @@ The Aspose.Words.Layout namespace provides classes that allow to access informat
 | --- | --- |
 | enum [CommentDisplayMode](./commentdisplaymode) | Specifies the rendering mode for document comments. |
 | enum [ContinuousSectionRestart](./continuoussectionrestart) | Represents different behaviors when computing page numbers in a continuous section that restarts page numbering. |
-| [Flags] enum [LayoutEntityType](./layoutentitytype) | Types of the layout entities. |
+| enum [LayoutEntityType](./layoutentitytype) | Types of the layout entities. |
 | enum [PageLayoutEvent](./pagelayoutevent) | A code of event raised during page layout model build and rendering. |
 | enum [RevisionColor](./revisioncolor) | Allows to specify color of document revisions. |
 | enum [RevisionTextEffect](./revisiontexteffect) | Allows to specify decoration effect for revisions of document text. |

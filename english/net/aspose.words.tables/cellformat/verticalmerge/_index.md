@@ -16,7 +16,9 @@ public CellMerge VerticalMerge { get; set; }
 
 ### Remarks
 
-Cells can only be merged vertically if their left and right boundaries are identical.When cells are vertically merged, the display areas of the merged cells are consolidated. The consolidated area is used to display the contents of the first vertically merged cell and all other vertically merged cells must be empty.
+Cells can only be merged vertically if their left and right boundaries are identical.
+
+When cells are vertically merged, the display areas of the merged cells are consolidated. The consolidated area is used to display the contents of the first vertically merged cell and all other vertically merged cells must be empty.
 
 ### Examples
 

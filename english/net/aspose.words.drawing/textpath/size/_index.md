@@ -3,7 +3,7 @@ title: Size
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 50
+weight: 120
 url: /net/aspose.words.drawing/textpath/size/
 ---
 ## TextPath.Size property

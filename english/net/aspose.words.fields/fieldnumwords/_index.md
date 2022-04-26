@@ -3,7 +3,7 @@ title: FieldNumWords
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 2030
+weight: 2010
 url: /net/aspose.words.fields/fieldnumwords/
 ---
 ## FieldNumWords class
@@ -14,7 +14,7 @@ Implements the NUMWORDS field.
 public class FieldNumWords : Field
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
@@ -22,7 +22,7 @@ public class FieldNumWords : Field
 
 ### Remarks
 
-Retrieves the number of words in the current document, as recorded in the Words property of the built-in document properties.
+Retrieves the number of words in the current document, as recorded in the **Words** property of the built-in document properties.
 
 ### Examples
 

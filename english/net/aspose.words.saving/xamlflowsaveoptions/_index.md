@@ -3,7 +3,7 @@ title: XamlFlowSaveOptions
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 5330
+weight: 5280
 url: /net/aspose.words.saving/xamlflowsaveoptions/
 ---
 ## XamlFlowSaveOptions class
@@ -14,12 +14,17 @@ Can be used to specify additional options when saving a document into the XamlFl
 public class XamlFlowSaveOptions : SaveOptions
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [XamlFlowSaveOptions](xamlflowsaveoptions)() | Initializes a new instance of this class that can be used to save a document in the XamlFlow format. |
-| [XamlFlowSaveOptions](xamlflowsaveoptions)(…) | Initializes a new instance of this class that can be used to save a document in the XamlFlow or XamlFlowPack format. |
+| [XamlFlowSaveOptions](xamlflowsaveoptions)(SaveFormat) | Initializes a new instance of this class that can be used to save a document in the XamlFlow or XamlFlowPack format. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [ImageSavingCallback](imagesavingcallback) { get; set; } | Allows to control how images are saved when a document is saved to XAML. |
 | [ImagesFolder](imagesfolder) { get; set; } | Specifies the physical folder where images are saved when exporting a document to XAML format. Default is an empty string. |
 | [ImagesFolderAlias](imagesfolderalias) { get; set; } | Specifies the name of the folder used to construct image URIs written into an XAML document. Default is an empty string. |

@@ -3,7 +3,7 @@ title: Type
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 10
+weight: 260
 url: /net/aspose.words.drawing.charts/chartaxis/type/
 ---
 ## ChartAxis.Type property

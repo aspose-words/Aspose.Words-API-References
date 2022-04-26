@@ -3,7 +3,7 @@ title: FieldNoteRef
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 2000
+weight: 1980
 url: /net/aspose.words.fields/fieldnoteref/
 ---
 ## FieldNoteRef class
@@ -14,11 +14,16 @@ Implements the NOTEREF field.
 public class FieldNoteRef : Field
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [FieldNoteRef](fieldnoteref)() | The default constructor. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [BookmarkName](bookmarkname) { get; set; } | Gets or sets the name of the bookmark. |
 | [InsertHyperlink](inserthyperlink) { get; set; } | Gets or sets whether to insert a hyperlink to the bookmarked paragraph. |
 | [InsertReferenceMark](insertreferencemark) { get; set; } | Inserts the reference mark with the same character formatting as the Footnote Reference or Endnote Reference style. |

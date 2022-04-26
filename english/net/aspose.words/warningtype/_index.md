@@ -3,7 +3,7 @@ title: WarningType
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 6260
+weight: 6210
 url: /net/aspose.words/warningtype/
 ---
 ## WarningType enumeration
@@ -19,17 +19,17 @@ public enum WarningType
 
 | Name | Value | Description |
 | --- | --- | --- |
-| DataLossCategory | `0xFF` | Some text/char/image or other data will be missing from either the document tree following load, or from the created document following save. |
-| DataLoss | `0x1` | Generic data loss, no specific code. |
-| MajorFormattingLossCategory | `0xFF00` | The resulting document or a particular location in it might look substantially different compared to the original document. |
-| MajorFormattingLoss | `0x100` | Generic major formatting loss, no specific code. |
-| MinorFormattingLossCategory | `0xFF0000` | The resulting document or a particular location in it might look somewhat different compared to the original document. |
-| MinorFormattingLoss | `0x10000` | Generic minor formatting loss, no specific code. |
-| FontSubstitution | `0x20000` | Font has been substituted. |
-| FontEmbedding | `0x40000` | Loss of embedded font information during document saving. |
-| UnexpectedContentCategory | `0xF000000` | Some content in the source document could not be recognized (i.e. is unsupported), this may or may not cause issues or result in data/formatting loss. |
-| UnexpectedContent | `0x1000000` | Generic unexpected content, no specific code. |
-| Hint | `0x10000000` | Advises of a potential problem or suggests an improvement. |
+| DataLossCategory | `FF` | Some text/char/image or other data will be missing from either the document tree following load, or from the created document following save. |
+| DataLoss | `1` | Generic data loss, no specific code. |
+| MajorFormattingLossCategory | `FF00` | The resulting document or a particular location in it might look substantially different compared to the original document. |
+| MajorFormattingLoss | `100` | Generic major formatting loss, no specific code. |
+| MinorFormattingLossCategory | `FF0000` | The resulting document or a particular location in it might look somewhat different compared to the original document. |
+| MinorFormattingLoss | `10000` | Generic minor formatting loss, no specific code. |
+| FontSubstitution | `20000` | Font has been substituted. |
+| FontEmbedding | `40000` | Loss of embedded font information during document saving. |
+| UnexpectedContentCategory | `F000000` | Some content in the source document could not be recognized (i.e. is unsupported), this may or may not cause issues or result in data/formatting loss. |
+| UnexpectedContent | `1000000` | Generic unexpected content, no specific code. |
+| Hint | `10000000` | Advises of a potential problem or suggests an improvement. |
 
 ### Examples
 

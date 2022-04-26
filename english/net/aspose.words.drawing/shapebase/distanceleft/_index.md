@@ -3,7 +3,7 @@ title: DistanceLeft
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 400
+weight: 140
 url: /net/aspose.words.drawing/shapebase/distanceleft/
 ---
 ## ShapeBase.DistanceLeft property
@@ -16,7 +16,9 @@ public double DistanceLeft { get; set; }
 
 ### Remarks
 
-The default value is 1/8 inch.Has effect only for top level shapes.
+The default value is 1/8 inch.
+
+Has effect only for top level shapes.
 
 ### Examples
 

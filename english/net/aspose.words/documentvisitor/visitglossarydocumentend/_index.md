@@ -3,7 +3,7 @@ title: VisitGlossaryDocumentEnd
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 430
+weight: 240
 url: /net/aspose.words/documentvisitor/visitglossarydocumentend/
 ---
 ## DocumentVisitor.VisitGlossaryDocumentEnd method

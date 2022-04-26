@@ -3,7 +3,7 @@ title: SwapBordersFacingPgs
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 130
+weight: 530
 url: /net/aspose.words.settings/compatibilityoptions/swapbordersfacingpgs/
 ---
 ## CompatibilityOptions.SwapBordersFacingPgs property

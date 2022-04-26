@@ -3,7 +3,7 @@ title: DigitalSignatureDetails
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 100
+weight: 60
 url: /net/aspose.words.saving/pdfsaveoptions/digitalsignaturedetails/
 ---
 ## PdfSaveOptions.DigitalSignatureDetails property
@@ -15,8 +15,6 @@ public PdfDigitalSignatureDetails DigitalSignatureDetails { get; set; }
 ```
 
 ### Remarks
-
-At the moment digitally signing PDF documents is only available on .NET 2.0 or higher.
 
 The default value is null and the output document will not be signed. When this property is set to a valid [`PdfDigitalSignatureDetails`](../../pdfdigitalsignaturedetails) object, then the output PDF document will be digitally signed.
 

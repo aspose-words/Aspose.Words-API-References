@@ -3,7 +3,7 @@ title: FieldHyperlink
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 1790
+weight: 1770
 url: /net/aspose.words.fields/fieldhyperlink/
 ---
 ## FieldHyperlink class
@@ -14,11 +14,16 @@ Implements the HYPERLINK field
 public class FieldHyperlink : Field
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [FieldHyperlink](fieldhyperlink)() | The default constructor. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [Address](address) { get; set; } | Gets or sets a location where this hyperlink jumps. |
 | [IsImageMap](isimagemap) { get; set; } | Gets or sets whether to append coordinates to the hyperlink for a server-side image map. |
 | [OpenInNewWindow](openinnewwindow) { get; set; } | Gets or sets whether to open the destination site in a new web browser window. |

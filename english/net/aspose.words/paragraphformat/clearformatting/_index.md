@@ -3,7 +3,7 @@ title: ClearFormatting
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 10
+weight: 410
 url: /net/aspose.words/paragraphformat/clearformatting/
 ---
 ## ParagraphFormat.ClearFormatting method

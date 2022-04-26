@@ -3,7 +3,7 @@ title: LocaleId
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 140
+weight: 60
 url: /net/aspose.words.fields/field/localeid/
 ---
 ## Field.LocaleId property

@@ -14,7 +14,7 @@ Allows to specify formatting of a single data point on the chart.
 public class ChartDataPoint : IChartDataPoint
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -24,6 +24,11 @@ public class ChartDataPoint : IChartDataPoint
 | [Index](index) { get; } | Index of the data point this object applies formatting to. |
 | [InvertIfNegative](invertifnegative) { get; set; } |  |
 | [Marker](marker) { get; } |  |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
 | [ClearFormat](clearformat)() | Clears format of this data point. The properties are set to the default values defined in the parent series. |
 
 ### Remarks

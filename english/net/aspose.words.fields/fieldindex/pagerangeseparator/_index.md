@@ -3,7 +3,7 @@ title: PageRangeSeparator
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 80
+weight: 130
 url: /net/aspose.words.fields/fieldindex/pagerangeseparator/
 ---
 ## FieldIndex.PageRangeSeparator property

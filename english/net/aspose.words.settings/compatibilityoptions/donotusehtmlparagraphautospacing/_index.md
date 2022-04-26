@@ -3,7 +3,7 @@ title: DoNotUseHTMLParagraphAutoSpacing
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 360
+weight: 210
 url: /net/aspose.words.settings/compatibilityoptions/donotusehtmlparagraphautospacing/
 ---
 ## CompatibilityOptions.DoNotUseHTMLParagraphAutoSpacing property

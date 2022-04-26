@@ -3,7 +3,7 @@ title: ConvertSvgToEmf
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 60
+weight: 20
 url: /net/aspose.words.loading/htmlloadoptions/convertsvgtoemf/
 ---
 ## HtmlLoadOptions.ConvertSvgToEmf property

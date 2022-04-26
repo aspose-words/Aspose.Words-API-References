@@ -3,7 +3,7 @@ title: Border
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 500
+weight: 60
 url: /net/aspose.words/font/border/
 ---
 ## Font.Border property

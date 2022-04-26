@@ -3,7 +3,7 @@ title: FieldNumPages
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 2020
+weight: 2000
 url: /net/aspose.words.fields/fieldnumpages/
 ---
 ## FieldNumPages class
@@ -14,7 +14,7 @@ Implements the NUMPAGES field.
 public class FieldNumPages : Field
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
@@ -22,7 +22,7 @@ public class FieldNumPages : Field
 
 ### Remarks
 
-Retrieves the number of pages in the current document, as recorded in the Pages property of the built-in document properties.
+Retrieves the number of pages in the current document, as recorded in the **Pages** property of the built-in document properties.
 
 ### Examples
 

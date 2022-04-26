@@ -3,7 +3,7 @@ title: TickLabelSpacing
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 210
+weight: 230
 url: /net/aspose.words.drawing.charts/chartaxis/ticklabelspacing/
 ---
 ## ChartAxis.TickLabelSpacing property
@@ -18,7 +18,7 @@ public int TickLabelSpacing { get; set; }
 
 The property has effect for text category and series axes. It is not supported by MS Office 2016 new charts. Valid range of a value is greater than or equal to 1.
 
-Setting this property sets the [`TickLabelSpacingIsAuto`](../ticklabelspacingisauto) property to false.
+Setting this property sets the [`TickLabelSpacingIsAuto`](../ticklabelspacingisauto) property to **false**.
 
 ### Examples
 

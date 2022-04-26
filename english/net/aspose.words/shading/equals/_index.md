@@ -3,15 +3,15 @@ title: Equals
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 20
+weight: 50
 url: /net/aspose.words/shading/equals/
 ---
 ## Shading.Equals method (1 of 2)
 
-Determines whether the specified object is equal in value to the current object.
+Determines whether the specified Shading is equal in value to the current Shading.
 
 ```csharp
-public override bool Equals(object obj)
+public bool Equals(Shading rhs)
 ```
 
 ### See Also
@@ -24,10 +24,10 @@ public override bool Equals(object obj)
 
 ## Shading.Equals method (2 of 2)
 
-Determines whether the specified Shading is equal in value to the current Shading.
+Determines whether the specified object is equal in value to the current object.
 
 ```csharp
-public bool Equals(Shading rhs)
+public override bool Equals(object obj)
 ```
 
 ### See Also

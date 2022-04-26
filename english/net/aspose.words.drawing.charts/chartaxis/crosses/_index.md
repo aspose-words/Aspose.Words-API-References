@@ -3,7 +3,7 @@ title: Crosses
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 30
+weight: 40
 url: /net/aspose.words.drawing.charts/chartaxis/crosses/
 ---
 ## ChartAxis.Crosses property

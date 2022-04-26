@@ -3,7 +3,7 @@ title: IHyphenationCallback
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 2930
+weight: 2910
 url: /net/aspose.words/ihyphenationcallback/
 ---
 ## IHyphenationCallback interface
@@ -14,11 +14,11 @@ Implemented by classes which can register hyphenation dictionaries.
 public interface IHyphenationCallback
 ```
 
-## Members
+## Methods
 
 | Name | Description |
 | --- | --- |
-| [RequestDictionary](requestdictionary)(…) | Notifies application that hyphenation dictionary for the specified language wasn't found and may need to be registered. |
+| [RequestDictionary](requestdictionary)(string) | Notifies application that hyphenation dictionary for the specified language wasn't found and may need to be registered. |
 
 ### Examples
 

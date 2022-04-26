@@ -3,7 +3,7 @@ title: FieldAutoNumOut
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 1420
+weight: 1400
 url: /net/aspose.words.fields/fieldautonumout/
 ---
 ## FieldAutoNumOut class
@@ -14,7 +14,7 @@ Implements the AUTONUMOUT field.
 public class FieldAutoNumOut : Field
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |

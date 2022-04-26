@@ -3,7 +3,7 @@ title: SmartStyleBehavior
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 20
+weight: 70
 url: /net/aspose.words/importformatoptions/smartstylebehavior/
 ---
 ## ImportFormatOptions.SmartStyleBehavior property
@@ -16,9 +16,9 @@ public bool SmartStyleBehavior { get; set; }
 
 ### Remarks
 
-When this option is enabled, the source style will be expanded into a direct attributes inside a destination document, if KeepSourceFormatting importing mode is used.
+When this option is **enabled**, the source style will be expanded into a direct attributes inside a destination document, if KeepSourceFormatting importing mode is used.
 
-When this option is disabled, the source style will be expanded only if it is numbered. Existing destination attributes will not be overridden, including lists.
+When this option is **disabled**, the source style will be expanded only if it is numbered. Existing destination attributes will not be overridden, including lists.
 
 ### Examples
 

@@ -3,49 +3,10 @@ title: Item
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 90
+weight: 50
 url: /net/aspose.words/stylecollection/item/
 ---
 ## StyleCollection indexer (1 of 3)
-
-Gets a style by index.
-
-```csharp
-public Style this[int index] { get; }
-```
-
-### Examples
-
-Shows how to add a Style to a document's styles collection.
-
-```csharp
-Document doc = new Document();
-StyleCollection styles = doc.Styles;
-
-// Set default parameters for new styles that we may later add to this collection.
-styles.DefaultFont.Name = "Courier New";
-
-// If we add a style of the "StyleType.Paragraph", the collection will apply the values of
-// its "DefaultParagraphFormat" property to the style's "ParagraphFormat" property.
-styles.DefaultParagraphFormat.FirstLineIndent = 15.0;
-
-// Add a style, and then verify that it has the default settings.
-styles.Add(StyleType.Paragraph, "MyStyle");
-
-Assert.AreEqual("Courier New", styles[4].Font.Name);
-Assert.AreEqual(15.0, styles["MyStyle"].ParagraphFormat.FirstLineIndent);
-```
-
-### See Also
-
-* class [Style](../../style)
-* class [StyleCollection](../../stylecollection)
-* namespace [Aspose.Words](../../stylecollection)
-* assembly [Aspose.Words](../../../)
-
----
-
-## StyleCollection indexer (2 of 3)
 
 Gets a style by name or alias.
 
@@ -55,7 +16,9 @@ public Style this[string name] { get; }
 
 ### Remarks
 
-Case sensitive, returns null if the style with the given name is not found.If this is an English name of a built in style that does not yet exist, automatically creates it.
+Case sensitive, returns null if the style with the given name is not found.
+
+If this is an English name of a built in style that does not yet exist, automatically creates it.
 
 ### Examples
 
@@ -89,7 +52,7 @@ doc.Save(ArtifactsDir + "Document.UpdatePageLayout.2.pdf");
 
 ---
 
-## StyleCollection indexer (3 of 3)
+## StyleCollection indexer (2 of 3)
 
 Gets a built-in style by its locale independent identifier.
 
@@ -131,6 +94,45 @@ Assert.AreEqual(15.0, styles["MyStyle"].ParagraphFormat.FirstLineIndent);
 
 * class [Style](../../style)
 * enum [StyleIdentifier](../../styleidentifier)
+* class [StyleCollection](../../stylecollection)
+* namespace [Aspose.Words](../../stylecollection)
+* assembly [Aspose.Words](../../../)
+
+---
+
+## StyleCollection indexer (3 of 3)
+
+Gets a style by index.
+
+```csharp
+public Style this[int index] { get; }
+```
+
+### Examples
+
+Shows how to add a Style to a document's styles collection.
+
+```csharp
+Document doc = new Document();
+StyleCollection styles = doc.Styles;
+
+// Set default parameters for new styles that we may later add to this collection.
+styles.DefaultFont.Name = "Courier New";
+
+// If we add a style of the "StyleType.Paragraph", the collection will apply the values of
+// its "DefaultParagraphFormat" property to the style's "ParagraphFormat" property.
+styles.DefaultParagraphFormat.FirstLineIndent = 15.0;
+
+// Add a style, and then verify that it has the default settings.
+styles.Add(StyleType.Paragraph, "MyStyle");
+
+Assert.AreEqual("Courier New", styles[4].Font.Name);
+Assert.AreEqual(15.0, styles["MyStyle"].ParagraphFormat.FirstLineIndent);
+```
+
+### See Also
+
+* class [Style](../../style)
 * class [StyleCollection](../../stylecollection)
 * namespace [Aspose.Words](../../stylecollection)
 * assembly [Aspose.Words](../../../)

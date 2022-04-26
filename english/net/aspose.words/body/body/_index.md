@@ -3,12 +3,12 @@ title: Body
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 30
+weight: 10
 url: /net/aspose.words/body/body/
 ---
 ## Body constructor
 
-Initializes a new instance of the Body class.
+Initializes a new instance of the **Body** class.
 
 ```csharp
 public Body(DocumentBase doc)
@@ -20,7 +20,9 @@ public Body(DocumentBase doc)
 
 ### Remarks
 
-When Body is created, it belongs to the specified document, but is not yet part of the document and ParentNode is null.To append Body to a Section use Section.InsertAfter or Section.InsertBefore.
+When **Body** is created, it belongs to the specified document, but is not yet part of the document and **ParentNode** is null.
+
+To append **Body** to a **Section** use Section.InsertAfter or Section.InsertBefore.
 
 ### Examples
 

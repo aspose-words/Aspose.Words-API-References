@@ -3,7 +3,7 @@ title: BuildingBlock
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 20
+weight: 10
 url: /net/aspose.words.buildingblocks/buildingblock/buildingblock/
 ---
 ## BuildingBlock constructor
@@ -20,7 +20,9 @@ public BuildingBlock(GlossaryDocument glossaryDoc)
 
 ### Remarks
 
-When [`BuildingBlock`](../../buildingblock) is created, it belongs to the specified glossary document, but is not yet part of the glossary document and [`ParentNode`](../../../aspose.words/node/parentnode) is `null`.To append [`BuildingBlock`](../../buildingblock) to a [`GlossaryDocument`](../../glossarydocument) use [`AppendChild`](../../../aspose.words/compositenode/appendchild).
+When [`BuildingBlock`](../../buildingblock) is created, it belongs to the specified glossary document, but is not yet part of the glossary document and [`ParentNode`](../../../aspose.words/node/parentnode) is `null`.
+
+To append [`BuildingBlock`](../../buildingblock) to a [`GlossaryDocument`](../../glossarydocument) use [`AppendChild`](../../../aspose.words/compositenode/appendchild).
 
 ### Examples
 

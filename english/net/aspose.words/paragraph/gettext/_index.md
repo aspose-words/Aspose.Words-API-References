@@ -3,7 +3,7 @@ title: GetText
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 60
+weight: 260
 url: /net/aspose.words/paragraph/gettext/
 ---
 ## Paragraph.GetText method

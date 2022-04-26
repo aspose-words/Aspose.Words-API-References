@@ -3,7 +3,7 @@ title: PsSaveOptions
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 5180
+weight: 5130
 url: /net/aspose.words.saving/pssaveoptions/
 ---
 ## PsSaveOptions class
@@ -14,11 +14,16 @@ Can be used to specify additional options when saving a document into the Ps for
 public class PsSaveOptions : FixedPageSaveOptions
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [PsSaveOptions](pssaveoptions)() | The default constructor. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | override [SaveFormat](saveformat) { get; set; } | Specifies the format in which the document will be saved if this save options object is used. Can only be Ps. |
 | [UseBookFoldPrintingSettings](usebookfoldprintingsettings) { get; set; } | Gets or sets a boolean value indicating whether the document should be saved using a booklet printing layout, if it is specified via [`MultiplePages`](../../aspose.words/pagesetup/multiplepages). |
 

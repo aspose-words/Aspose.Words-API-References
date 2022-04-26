@@ -3,7 +3,7 @@ title: ResourceLoadingCallback
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 60
+weight: 140
 url: /net/aspose.words.loading/loadoptions/resourceloadingcallback/
 ---
 ## LoadOptions.ResourceLoadingCallback property

@@ -3,7 +3,7 @@ title: IgnoreComments
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 60
+weight: 40
 url: /net/aspose.words.comparing/compareoptions/ignorecomments/
 ---
 ## CompareOptions.IgnoreComments property

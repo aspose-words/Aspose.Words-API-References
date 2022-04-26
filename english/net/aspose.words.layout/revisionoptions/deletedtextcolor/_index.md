@@ -3,7 +3,7 @@ title: DeletedTextColor
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 60
+weight: 20
 url: /net/aspose.words.layout/revisionoptions/deletedtextcolor/
 ---
 ## RevisionOptions.DeletedTextColor property

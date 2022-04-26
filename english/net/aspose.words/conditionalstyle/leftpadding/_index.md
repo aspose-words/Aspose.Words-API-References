@@ -3,7 +3,7 @@ title: LeftPadding
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 80
+weight: 40
 url: /net/aspose.words/conditionalstyle/leftpadding/
 ---
 ## ConditionalStyle.LeftPadding property

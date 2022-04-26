@@ -3,7 +3,7 @@ title: InternableComplexAttr
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 3020
+weight: 3000
 url: /net/aspose.words/internablecomplexattr/
 ---
 ## InternableComplexAttr class

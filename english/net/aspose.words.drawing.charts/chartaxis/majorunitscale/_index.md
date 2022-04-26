@@ -3,7 +3,7 @@ title: MajorUnitScale
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 110
+weight: 120
 url: /net/aspose.words.drawing.charts/chartaxis/majorunitscale/
 ---
 ## ChartAxis.MajorUnitScale property

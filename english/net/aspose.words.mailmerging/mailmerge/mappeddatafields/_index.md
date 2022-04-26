@@ -3,7 +3,7 @@ title: MappedDataFields
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 180
+weight: 50
 url: /net/aspose.words.mailmerging/mailmerge/mappeddatafields/
 ---
 ## MailMerge.MappedDataFields property

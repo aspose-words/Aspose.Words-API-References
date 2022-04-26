@@ -3,7 +3,7 @@ title: FieldInclude
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 1830
+weight: 1810
 url: /net/aspose.words.fields/fieldinclude/
 ---
 ## FieldInclude class
@@ -14,11 +14,16 @@ Implements the INCLUDE field.
 public class FieldInclude : Field
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [FieldInclude](fieldinclude)() | The default constructor. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [BookmarkName](bookmarkname) { get; set; } | Gets or sets the name of the bookmark in the document to include. |
 | [LockFields](lockfields) { get; set; } | Gets or sets whether to prevent fields in the included document from being updated. |
 | [SourceFullName](sourcefullname) { get; set; } | Gets or sets the location of the document. |

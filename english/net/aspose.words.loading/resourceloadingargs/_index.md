@@ -3,7 +3,7 @@ title: ResourceLoadingArgs
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 3430
+weight: 3400
 url: /net/aspose.words.loading/resourceloadingargs/
 ---
 ## ResourceLoadingArgs class
@@ -14,14 +14,19 @@ Provides data for the [`ResourceLoading`](../iresourceloadingcallback/resourcelo
 public class ResourceLoadingArgs
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
 | [OriginalUri](originaluri) { get; } | Original URI of the resource as specified in imported document. |
 | [ResourceType](resourcetype) { get; } | Type of resource. |
 | [Uri](uri) { get; set; } | URI of the resource which is used for downloading if [`ResourceLoading`](../iresourceloadingcallback/resourceloading) returns Default. |
-| [SetData](setdata)(…) | Sets user provided data of the resource which is used if [`ResourceLoading`](../iresourceloadingcallback/resourceloading) returns UserProvided. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [SetData](setdata)(byte[]) | Sets user provided data of the resource which is used if [`ResourceLoading`](../iresourceloadingcallback/resourceloading) returns UserProvided. |
 
 ### Examples
 

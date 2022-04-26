@@ -3,7 +3,7 @@ title: Document
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 160
+weight: 30
 url: /net/aspose.words.layout/layoutenumerator/document/
 ---
 ## LayoutEnumerator.Document property

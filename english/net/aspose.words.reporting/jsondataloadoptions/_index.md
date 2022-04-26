@@ -3,7 +3,7 @@ title: JsonDataLoadOptions
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 4340
+weight: 4290
 url: /net/aspose.words.reporting/jsondataloadoptions/
 ---
 ## JsonDataLoadOptions class
@@ -14,13 +14,18 @@ Represents options for parsing JSON data.
 public class JsonDataLoadOptions
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [JsonDataLoadOptions](jsondataloadoptions)() | Initializes a new instance of this class with default options. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [AlwaysGenerateRootObject](alwaysgeneraterootobject) { get; set; } | Gets or sets a flag indicating whether a generated data source will always contain an object for a JSON root element. If a JSON root element contains a single complex property, such an object is not created by default. |
-| [ExactDateTimeParseFormats](exactdatetimeparseformats) { get; set; } | Gets or sets exact formats for parsing JSON date-time values while loading JSON. The default is null. |
+| [ExactDateTimeParseFormats](exactdatetimeparseformats) { get; set; } | Gets or sets exact formats for parsing JSON date-time values while loading JSON. The default is **null**. |
 | [SimpleValueParseMode](simplevalueparsemode) { get; set; } | Gets or sets a mode for parsing JSON simple values (null, boolean, number, integer, and string) while loading JSON. Such a mode does not affect parsing of date-time values. The default is Loose. |
 
 ### Remarks

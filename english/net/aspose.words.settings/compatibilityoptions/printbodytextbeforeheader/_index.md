@@ -3,7 +3,7 @@ title: PrintBodyTextBeforeHeader
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 200
+weight: 390
 url: /net/aspose.words.settings/compatibilityoptions/printbodytextbeforeheader/
 ---
 ## CompatibilityOptions.PrintBodyTextBeforeHeader property

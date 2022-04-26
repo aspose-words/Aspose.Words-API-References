@@ -3,7 +3,7 @@ title: ExportRelativeFontSize
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 230
+weight: 240
 url: /net/aspose.words.saving/htmlsaveoptions/exportrelativefontsize/
 ---
 ## HtmlSaveOptions.ExportRelativeFontSize property
@@ -18,7 +18,7 @@ public bool ExportRelativeFontSize { get; set; }
 
 In many existing documents (HTML, IDPF EPUB) font sizes are specified in relative units. This allows applications to adjust text size when viewing/processing documents. For instance, Microsoft Internet Explorer has "View-&gt;Text Size" submenu, Adobe Digital Editions has two buttons: Increase/Decrease Text Size. If you expect this functionality to work then set `ExportRelativeFontSize` property to `true`.
 
-Aspose Words document model contains and operates only with absolute font size units. Relative units need additional logic to be recalculated from some initial (standard) size. Font size of Normal document style is taken as standard. For instance, if Normal has 12pt font and some text is 18pt then it will be output as 1.5em. to the HTML.
+Aspose Words document model contains and operates only with absolute font size units. Relative units need additional logic to be recalculated from some initial (standard) size. Font size of **Normal** document style is taken as standard. For instance, if **Normal** has 12pt font and some text is 18pt then it will be output as **1.5em.** to the HTML.
 
 When this option is enabled, document elements other than text will still have absolute sizes. Also some text-related attributes might be expressed absolutely. In particular, line spacing specified with "exactly" rule might produce unwanted results when scaling text. So the source documents should be properly designed and tested when exporting with `ExportRelativeFontSize` set to `true`.
 

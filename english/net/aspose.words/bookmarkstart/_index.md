@@ -14,20 +14,34 @@ Represents a start of a bookmark in a Word document.
 public class BookmarkStart : Node
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
-| [BookmarkStart](bookmarkstart)(…) | Initializes a new instance of the [`BookmarkStart`](../bookmarkstart) class. |
+| [BookmarkStart](bookmarkstart)(DocumentBase, string) | Initializes a new instance of the [`BookmarkStart`](../bookmarkstart) class. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [Bookmark](bookmark) { get; } | Gets the facade object that encapsulates this bookmark start and end. |
 | [Name](name) { get; set; } | Gets or sets the bookmark name. |
 | override [NodeType](nodetype) { get; } | Returns BookmarkStart. |
-| override [Accept](accept)(…) | Accepts a visitor. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| override [Accept](accept)(DocumentVisitor) | Accepts a visitor. |
 | override [GetText](gettext)() | Returns an empty string. |
 
 ### Remarks
 
-A complete bookmark in a Word document consists of a [`BookmarkStart`](../bookmarkstart) and a matching [`BookmarkEnd`](../bookmarkend) with the same bookmark name.[`BookmarkStart`](../bookmarkstart) and [`BookmarkEnd`](../bookmarkend) are just markers inside a document that specify where the bookmark starts and ends.Use the [`Bookmark`](./bookmark) class as a "facade" to work with a bookmark as a single object.
+A complete bookmark in a Word document consists of a [`BookmarkStart`](../bookmarkstart) and a matching [`BookmarkEnd`](../bookmarkend) with the same bookmark name.
+
+[`BookmarkStart`](../bookmarkstart) and [`BookmarkEnd`](../bookmarkend) are just markers inside a document that specify where the bookmark starts and ends.
+
+Use the [`Bookmark`](./bookmark) class as a "facade" to work with a bookmark as a single object.
 
 ### Examples
 

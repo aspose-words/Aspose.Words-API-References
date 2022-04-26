@@ -3,7 +3,7 @@ title: DoNotUseEastAsianBreakRules
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 490
+weight: 200
 url: /net/aspose.words.settings/compatibilityoptions/donotuseeastasianbreakrules/
 ---
 ## CompatibilityOptions.DoNotUseEastAsianBreakRules property

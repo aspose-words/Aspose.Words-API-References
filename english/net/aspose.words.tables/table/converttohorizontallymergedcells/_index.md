@@ -3,7 +3,7 @@ title: ConvertToHorizontallyMergedCells
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 60
+weight: 390
 url: /net/aspose.words.tables/table/converttohorizontallymergedcells/
 ---
 ## Table.ConvertToHorizontallyMergedCells method
@@ -16,7 +16,11 @@ public void ConvertToHorizontallyMergedCells()
 
 ### Remarks
 
-Table cells can be horizontally merged either using merge flags [`HorizontalMerge`](../../cellformat/horizontalmerge) or using cell width [`Width`](../../cellformat/width).When table cell is merged by width property [`HorizontalMerge`](../../cellformat/horizontalmerge) is meaningless but sometimes having merge flags is more convenient way.Use this method to transforms table cells horizontally merged by width to cells merged by merge flags.
+Table cells can be horizontally merged either using merge flags [`HorizontalMerge`](../../cellformat/horizontalmerge) or using cell width [`Width`](../../cellformat/width).
+
+When table cell is merged by width property [`HorizontalMerge`](../../cellformat/horizontalmerge) is meaningless but sometimes having merge flags is more convenient way.
+
+Use this method to transforms table cells horizontally merged by width to cells merged by merge flags.
 
 ### Examples
 

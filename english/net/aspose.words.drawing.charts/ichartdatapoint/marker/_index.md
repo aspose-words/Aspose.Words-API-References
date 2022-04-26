@@ -3,7 +3,7 @@ title: Marker
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 30
+weight: 40
 url: /net/aspose.words.drawing.charts/ichartdatapoint/marker/
 ---
 ## IChartDataPoint.Marker property

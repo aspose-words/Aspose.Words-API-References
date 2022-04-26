@@ -3,7 +3,7 @@ title: VisitOfficeMathEnd
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 350
+weight: 300
 url: /net/aspose.words/documentvisitor/visitofficemathend/
 ---
 ## DocumentVisitor.VisitOfficeMathEnd method

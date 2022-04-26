@@ -3,7 +3,7 @@ title: CommentRangeStart
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 20
+weight: 10
 url: /net/aspose.words/commentrangestart/commentrangestart/
 ---
 ## CommentRangeStart constructor
@@ -21,7 +21,9 @@ public CommentRangeStart(DocumentBase doc, int id)
 
 ### Remarks
 
-When [`CommentRangeStart`](../../commentrangestart) is created, it belongs to the specified document, but is not yet part of the document and [`ParentNode`](../../node/parentnode) is null.To append a [`CommentRangeStart`](../../commentrangestart) to the document use InsertAfter or InsertBefore on the paragraph where you want the comment inserted.
+When [`CommentRangeStart`](../../commentrangestart) is created, it belongs to the specified document, but is not yet part of the document and [`ParentNode`](../../node/parentnode) is null.
+
+To append a [`CommentRangeStart`](../../commentrangestart) to the document use InsertAfter or InsertBefore on the paragraph where you want the comment inserted.
 
 ### Examples
 

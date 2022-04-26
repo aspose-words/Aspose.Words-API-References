@@ -3,7 +3,7 @@ title: OdsoDataSourceType
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 5500
+weight: 5450
 url: /net/aspose.words.settings/odsodatasourcetype/
 ---
 ## OdsoDataSourceType enumeration

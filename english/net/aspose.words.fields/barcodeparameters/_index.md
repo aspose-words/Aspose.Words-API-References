@@ -3,7 +3,7 @@ title: BarcodeParameters
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 1290
+weight: 1270
 url: /net/aspose.words.fields/barcodeparameters/
 ---
 ## BarcodeParameters class
@@ -14,11 +14,16 @@ Container class for barcode parameters to pass-through to BarcodeGenerator.
 public class BarcodeParameters
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [BarcodeParameters](barcodeparameters)() | The default constructor. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [AddStartStopChar](addstartstopchar) { get; set; } | Whether to add Start/Stop characters for barcode types NW7 and CODE39. |
 | [BackgroundColor](backgroundcolor) { get; set; } | Bar code background color (0x000000 - 0xFFFFFF) |
 | [BarcodeType](barcodetype) { get; set; } | Bar code type. |

@@ -3,7 +3,7 @@ title: DeleteShapes
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 10
+weight: 70
 url: /net/aspose.words/story/deleteshapes/
 ---
 ## Story.DeleteShapes method

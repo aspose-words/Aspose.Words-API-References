@@ -3,7 +3,7 @@ title: RtfLoadOptions
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 3450
+weight: 3420
 url: /net/aspose.words.loading/rtfloadoptions/
 ---
 ## RtfLoadOptions class
@@ -14,11 +14,16 @@ Allows to specify additional options when loading Rtf document into a [`Document
 public class RtfLoadOptions : LoadOptions
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [RtfLoadOptions](rtfloadoptions)() | Initializes a new instance of this class with default values. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [RecognizeUtf8Text](recognizeutf8text) { get; set; } | When set to true, CharsetDetector will try to detect UTF8 characters, they will be preserved during import. |
 
 ### Examples

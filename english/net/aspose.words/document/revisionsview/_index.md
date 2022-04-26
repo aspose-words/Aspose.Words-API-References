@@ -3,7 +3,7 @@ title: RevisionsView
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 710
+weight: 340
 url: /net/aspose.words/document/revisionsview/
 ---
 ## Document.RevisionsView property
@@ -16,7 +16,7 @@ public RevisionsView RevisionsView { get; set; }
 
 ### Remarks
 
-The default value is Original.
+The default value is .
 
 ### Examples
 

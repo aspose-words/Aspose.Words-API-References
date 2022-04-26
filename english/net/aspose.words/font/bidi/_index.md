@@ -3,7 +3,7 @@ title: Bidi
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 440
+weight: 30
 url: /net/aspose.words/font/bidi/
 ---
 ## Font.Bidi property

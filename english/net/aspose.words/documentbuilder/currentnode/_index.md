@@ -3,7 +3,7 @@ title: CurrentNode
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 600
+weight: 40
 url: /net/aspose.words/documentbuilder/currentnode/
 ---
 ## DocumentBuilder.CurrentNode property
@@ -16,7 +16,9 @@ public Node CurrentNode { get; }
 
 ### Remarks
 
-CurrentNode is a cursor of DocumentBuilder and points to a Node that is a direct child of a Paragraph. Any insert operations you perform using DocumentBuilder will insert before the CurrentNode.When the current paragraph is empty or the cursor is positioned just before the end of the paragraph, CurrentNode returns null.
+**CurrentNode** is a cursor of **DocumentBuilder** and points to a **Node** that is a direct child of a **Paragraph**. Any insert operations you perform using **DocumentBuilder** will insert before the **CurrentNode**.
+
+When the current paragraph is empty or the cursor is positioned just before the end of the paragraph, **CurrentNode** returns null.
 
 ### Examples
 

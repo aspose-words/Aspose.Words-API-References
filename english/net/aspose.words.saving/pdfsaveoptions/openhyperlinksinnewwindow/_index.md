@@ -3,7 +3,7 @@ title: OpenHyperlinksInNewWindow
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 180
+weight: 200
 url: /net/aspose.words.saving/pdfsaveoptions/openhyperlinksinnewwindow/
 ---
 ## PdfSaveOptions.OpenHyperlinksInNewWindow property
@@ -20,7 +20,7 @@ The default value is `false`. When this value is set to `true` hyperlinks are sa
 
 Note that if this option is set to `true` hyperlinks can't work in some PDF readers e.g. Chrome, Firefox.
 
-JavaScript actions are prohibited by PDF/A compliance. `false` will be used automatically when saving to PDF/A.
+JavaScript actions are prohibited by PDF/A-1 and PDF/A-2 compliance. `false` will be used automatically when saving to PDF/A-1 and PDF/A-2.
 
 ### Examples
 

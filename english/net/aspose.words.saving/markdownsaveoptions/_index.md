@@ -3,7 +3,7 @@ title: MarkdownSaveOptions
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 4910
+weight: 4860
 url: /net/aspose.words.saving/markdownsaveoptions/
 ---
 ## MarkdownSaveOptions class
@@ -14,11 +14,16 @@ Class to specify additional options when saving a document into the Markdown for
 public class MarkdownSaveOptions : TxtSaveOptionsBase
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [MarkdownSaveOptions](markdownsaveoptions)() | Initializes a new instance of this class that can be used to save a document in the Markdown format. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [ExportImagesAsBase64](exportimagesasbase64) { get; set; } | Specifies whether images are saved in Base64 format to the output file. Default is `false`. |
 | [ImageSavingCallback](imagesavingcallback) { get; set; } | Allows to control how images are saved when a document is saved to Markdown format. |
 | [ImagesFolder](imagesfolder) { get; set; } | Specifies the physical folder where images are saved when exporting a document to the Markdown format. Default is an empty string. |

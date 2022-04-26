@@ -3,7 +3,7 @@ title: DocumentDirection
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 3320
+weight: 3290
 url: /net/aspose.words.loading/documentdirection/
 ---
 ## DocumentDirection enumeration

@@ -3,7 +3,7 @@ title: OriginalLoadFormat
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 630
+weight: 280
 url: /net/aspose.words/document/originalloadformat/
 ---
 ## Document.OriginalLoadFormat property

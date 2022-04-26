@@ -3,7 +3,7 @@ title: WebExtensionProperty
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 6380
+weight: 6330
 url: /net/aspose.words.webextensions/webextensionproperty/
 ---
 ## WebExtensionProperty class
@@ -14,11 +14,16 @@ Specifies a web extension custom property.
 public class WebExtensionProperty
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
-| [WebExtensionProperty](webextensionproperty)(…) | Creates web extension custom property with specified name and value. |
+| [WebExtensionProperty](webextensionproperty)(string, string) | Creates web extension custom property with specified name and value. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [Name](name) { get; set; } | Specifies a custom property name |
 | [Value](value) { get; set; } | Specifies a custom property value. |
 

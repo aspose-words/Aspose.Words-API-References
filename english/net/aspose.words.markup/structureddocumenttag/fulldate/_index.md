@@ -3,12 +3,12 @@ title: FullDate
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 260
+weight: 130
 url: /net/aspose.words.markup/structureddocumenttag/fulldate/
 ---
 ## StructuredDocumentTag.FullDate property
 
-Specifies the full date and time last entered into this SDT.
+Specifies the full date and time last entered into this **SDT**.
 
 ```csharp
 public DateTime FullDate { get; set; }

@@ -3,7 +3,7 @@ title: AllCaps
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 320
+weight: 10
 url: /net/aspose.words/font/allcaps/
 ---
 ## Font.AllCaps property

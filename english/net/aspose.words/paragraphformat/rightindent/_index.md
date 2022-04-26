@@ -3,7 +3,7 @@ title: RightIndent
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 180
+weight: 260
 url: /net/aspose.words/paragraphformat/rightindent/
 ---
 ## ParagraphFormat.RightIndent property

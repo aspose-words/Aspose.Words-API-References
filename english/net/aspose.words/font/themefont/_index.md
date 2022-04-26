@@ -3,7 +3,7 @@ title: ThemeFont
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 80
+weight: 470
 url: /net/aspose.words/font/themefont/
 ---
 ## Font.ThemeFont property

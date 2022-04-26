@@ -3,7 +3,7 @@ title: RemoveNumbers
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 30
+weight: 90
 url: /net/aspose.words.lists/listformat/removenumbers/
 ---
 ## ListFormat.RemoveNumbers method

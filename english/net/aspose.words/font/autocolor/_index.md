@@ -3,7 +3,7 @@ title: AutoColor
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 220
+weight: 20
 url: /net/aspose.words/font/autocolor/
 ---
 ## Font.AutoColor property

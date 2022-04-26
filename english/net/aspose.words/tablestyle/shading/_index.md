@@ -3,7 +3,7 @@ title: Shading
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 110
+weight: 130
 url: /net/aspose.words/tablestyle/shading/
 ---
 ## TableStyle.Shading property

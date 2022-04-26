@@ -3,7 +3,7 @@ title: DistanceFromText
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 150
+weight: 40
 url: /net/aspose.words/bordercollection/distancefromtext/
 ---
 ## BorderCollection.DistanceFromText property
@@ -16,7 +16,11 @@ public double DistanceFromText { get; set; }
 
 ### Remarks
 
-Gets the distance from text for the first border.Sets the distance from text for all borders in the collection excluding diagonal borders.Has no effect and will be automatically reset to zero for borders of table cells.
+Gets the distance from text for the first border.
+
+Sets the distance from text for all borders in the collection excluding diagonal borders.
+
+Has no effect and will be automatically reset to zero for borders of table cells.
 
 ### Examples
 

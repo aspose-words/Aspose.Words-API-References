@@ -3,7 +3,7 @@ title: PrependContent
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 30
+weight: 140
 url: /net/aspose.words/section/prependcontent/
 ---
 ## Section.PrependContent method
@@ -20,7 +20,11 @@ public void PrependContent(Section sourceSection)
 
 ### Remarks
 
-Only content of [`Body`](../body) of the source section is copied, page setup, headers and footers are not copied.The nodes are automatically imported if the source section belongs to a different document.No new section is created in the destination document.
+Only content of [`Body`](../body) of the source section is copied, page setup, headers and footers are not copied.
+
+The nodes are automatically imported if the source section belongs to a different document.
+
+No new section is created in the destination document.
 
 ### Examples
 

@@ -3,7 +3,7 @@ title: FieldUnknown
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 2350
+weight: 2330
 url: /net/aspose.words.fields/fieldunknown/
 ---
 ## FieldUnknown class
@@ -14,7 +14,7 @@ Implements an unknown or unrecognized field.
 public class FieldUnknown : Field
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |

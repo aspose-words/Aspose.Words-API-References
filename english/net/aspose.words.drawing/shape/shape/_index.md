@@ -3,7 +3,7 @@ title: Shape
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 30
+weight: 10
 url: /net/aspose.words.drawing/shape/shape/
 ---
 ## Shape constructor

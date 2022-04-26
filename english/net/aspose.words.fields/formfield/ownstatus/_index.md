@@ -3,7 +3,7 @@ title: OwnStatus
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 90
+weight: 160
 url: /net/aspose.words.fields/formfield/ownstatus/
 ---
 ## FormField.OwnStatus property

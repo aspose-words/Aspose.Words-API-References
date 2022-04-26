@@ -3,10 +3,47 @@ title: Item
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 70
+weight: 20
 url: /net/aspose.words.properties/documentpropertycollection/item/
 ---
 ## DocumentPropertyCollection indexer (1 of 2)
+
+Returns a [`DocumentProperty`](../../documentproperty) object by the name of the property.
+
+```csharp
+public virtual DocumentProperty this[string name] { get; }
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| name |  | The case-insensitive name of the property to retrieve. |
+
+### Remarks
+
+Returns null if a property with the specified name is not found.
+
+### Examples
+
+Shows how to create a custom document property which contains a date and time.
+
+```csharp
+Document doc = new Document();
+
+doc.CustomDocumentProperties.Add("AuthorizationDate", DateTime.Now);
+
+Console.WriteLine($"Document authorized on {doc.CustomDocumentProperties["AuthorizationDate"].ToDateTime()}");
+```
+
+### See Also
+
+* class [DocumentProperty](../../documentproperty)
+* class [DocumentPropertyCollection](../../documentpropertycollection)
+* namespace [Aspose.Words.Properties](../../documentpropertycollection)
+* assembly [Aspose.Words](../../../)
+
+---
+
+## DocumentPropertyCollection indexer (2 of 2)
 
 Returns a [`DocumentProperty`](../../documentproperty) object by index.
 
@@ -38,43 +75,6 @@ foreach (var customDocumentProperty in doc.CustomDocumentProperties)
     Console.WriteLine($"\tType:\t{customDocumentProperty.Type}");
     Console.WriteLine($"\tValue:\t\"{customDocumentProperty.Value}\"");
 }
-```
-
-### See Also
-
-* class [DocumentProperty](../../documentproperty)
-* class [DocumentPropertyCollection](../../documentpropertycollection)
-* namespace [Aspose.Words.Properties](../../documentpropertycollection)
-* assembly [Aspose.Words](../../../)
-
----
-
-## DocumentPropertyCollection indexer (2 of 2)
-
-Returns a [`DocumentProperty`](../../documentproperty) object by the name of the property.
-
-```csharp
-public virtual DocumentProperty this[string name] { get; }
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| name |  | The case-insensitive name of the property to retrieve. |
-
-### Remarks
-
-Returns null if a property with the specified name is not found.
-
-### Examples
-
-Shows how to create a custom document property which contains a date and time.
-
-```csharp
-Document doc = new Document();
-
-doc.CustomDocumentProperties.Add("AuthorizationDate", DateTime.Now);
-
-Console.WriteLine($"Document authorized on {doc.CustomDocumentProperties["AuthorizationDate"].ToDateTime()}");
 ```
 
 ### See Also

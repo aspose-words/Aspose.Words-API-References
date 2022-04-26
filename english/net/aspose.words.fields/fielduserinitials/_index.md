@@ -3,7 +3,7 @@ title: FieldUserInitials
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 2380
+weight: 2360
 url: /net/aspose.words.fields/fielduserinitials/
 ---
 ## FieldUserInitials class
@@ -14,11 +14,16 @@ Implements the USERINITIALS field.
 public class FieldUserInitials : Field
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [FieldUserInitials](fielduserinitials)() | The default constructor. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [UserInitials](userinitials) { get; set; } | Gets or sets the current user's initials. |
 
 ### Remarks

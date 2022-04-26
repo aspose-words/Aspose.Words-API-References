@@ -3,18 +3,20 @@ title: ThemeColors
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 6090
+weight: 6040
 url: /net/aspose.words.themes/themecolors/
 ---
 ## ThemeColors class
 
-Represents the color scheme of the document theme which contains twelve colors.ThemeColors object contains six accent colors, two dark colors, two light colors and a color for each of a hyperlink and followed hyperlink.
+Represents the color scheme of the document theme which contains twelve colors.
+
+ThemeColors object contains six accent colors, two dark colors, two light colors and a color for each of a hyperlink and followed hyperlink.
 
 ```csharp
 public class ThemeColors
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |

@@ -3,7 +3,7 @@ title: InsertDocument
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 60
+weight: 290
 url: /net/aspose.words/documentbuilder/insertdocument/
 ---
 ## DocumentBuilder.InsertDocument method (1 of 2)

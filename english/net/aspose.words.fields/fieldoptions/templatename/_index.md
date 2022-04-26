@@ -16,7 +16,9 @@ public string TemplateName { get; set; }
 
 ### Remarks
 
-This property is used by the [`FieldTemplate`](../../fieldtemplate) field if the [`AttachedTemplate`](../../../aspose.words/document/attachedtemplate) property is empty.If this property is empty, the default template file name `Normal.dotm` is used.
+This property is used by the [`FieldTemplate`](../../fieldtemplate) field if the [`AttachedTemplate`](../../../aspose.words/document/attachedtemplate) property is empty.
+
+If this property is empty, the default template file name `Normal.dotm` is used.
 
 ### Examples
 

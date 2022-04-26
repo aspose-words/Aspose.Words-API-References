@@ -3,7 +3,7 @@ title: VbaReferenceCollection
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 6200
+weight: 6150
 url: /net/aspose.words.vba/vbareferencecollection/
 ---
 ## VbaReferenceCollection class
@@ -14,14 +14,19 @@ Represents a collection of [`VbaReference`](../vbareference) objects.
 public sealed class VbaReferenceCollection : IEnumerable<VbaReference>
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
 | [Count](count) { get; } | Returns the number of VBA references in the collection. |
 | [Item](item) { get; } | Gets [`VbaReference`](../vbareference) object at the specified index. |
-| [Remove](remove)(…) | Removes the first occurrence of a specified VbaReference item from the collection. |
-| [RemoveAt](removeat)(…) | Removes the VbaReference element at the specified index of the the collection. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [Remove](remove)(VbaReference) | Removes the first occurrence of a specified VbaReference item from the collection. |
+| [RemoveAt](removeat)(int) | Removes the VbaReference element at the specified index of the the collection. |
 
 ### Examples
 

@@ -14,17 +14,22 @@ Allows to specify options for document signing.
 public class SignOptions
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [SignOptions](signoptions)() | The default constructor. |
-| [Comments](comments) { get; set; } | Specifies comments on the digital signature. Default value is empty string (Empty). |
-| [DecryptionPassword](decryptionpassword) { get; set; } | The password to decrypt source document. Default value is empty string (Empty). |
-| [ProviderId](providerid) { get; set; } | Specifies the class ID of the signature provider. Default value is Empty (all zeroes) Guid. |
-| [SignatureLineId](signaturelineid) { get; set; } | Signature line identifier. Default value is Empty (all zeroes) Guid. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
+| [Comments](comments) { get; set; } | Specifies comments on the digital signature. Default value is **empty string** (Empty). |
+| [DecryptionPassword](decryptionpassword) { get; set; } | The password to decrypt source document. Default value is **empty string** (Empty). |
+| [ProviderId](providerid) { get; set; } | Specifies the class ID of the signature provider. Default value is **Empty (all zeroes) Guid**. |
+| [SignatureLineId](signaturelineid) { get; set; } | Signature line identifier. Default value is **Empty (all zeroes) Guid**. |
 | [SignatureLineImage](signaturelineimage) { get; set; } | The image that will be shown in associated [`SignatureLine`](../../aspose.words.drawing/signatureline). Default value is `null`. |
-| [SignTime](signtime) { get; set; } | The date of signing. Default value is current time (Now). |
+| [SignTime](signtime) { get; set; } | The date of signing. Default value is **current time** (Now). |
 
 ### See Also
 

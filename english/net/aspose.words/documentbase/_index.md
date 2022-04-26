@@ -14,7 +14,7 @@ Provides the abstract base class for a main document and a glossary document of 
 public abstract class DocumentBase : CompositeNode
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -27,7 +27,13 @@ public abstract class DocumentBase : CompositeNode
 | [ResourceLoadingCallback](resourceloadingcallback) { get; set; } | Allows to control how external resources are loaded. |
 | [Styles](styles) { get; } | Returns a collection of styles defined in the document. |
 | [WarningCallback](warningcallback) { get; set; } | Called during various document processing procedures when an issue is detected that might result in data or formatting fidelity loss. |
-| [ImportNode](importnode)(…) | Imports a node from another document to the current document. (2 methods) |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [ImportNode](importnode)(Node, bool) | Imports a node from another document to the current document. |
+| [ImportNode](importnode)(Node, bool, ImportFormatMode) | Imports a node from another document to the current document with an option to control formatting. |
 
 ### Remarks
 

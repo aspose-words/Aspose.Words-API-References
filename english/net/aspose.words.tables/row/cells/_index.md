@@ -3,12 +3,12 @@ title: Cells
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 110
+weight: 20
 url: /net/aspose.words.tables/row/cells/
 ---
 ## Row.Cells property
 
-Provides typed access to the Cell child nodes of the row.
+Provides typed access to the **Cell** child nodes of the row.
 
 ```csharp
 public CellCollection Cells { get; }

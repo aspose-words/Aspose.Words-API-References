@@ -3,7 +3,7 @@ title: ReportingEngine
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 4390
+weight: 4340
 url: /net/aspose.words.reporting/reportingengine/
 ---
 ## ReportingEngine class
@@ -14,17 +14,29 @@ Provides routines to populate template documents with data and a set of settings
 public class ReportingEngine
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [ReportingEngine](reportingengine)() | Initializes a new instance of this class. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [KnownTypes](knowntypes) { get; } | Gets an unordered set (i.e. a collection of unique items) containing Type objects which fully or partially qualified names can be used within report templates processed by this engine instance to invoke the corresponding types' static members, perform type casts, etc. |
 | [Options](options) { get; set; } | Gets or sets a set of flags controlling behavior of this [`ReportingEngine`](../reportingengine) instance while building a report. |
-| [BuildReport](buildreport)(…) | Populates the specified template document with data from the specified source making it a ready report. (3 methods) |
-| [Equals](equals)(…) |  |
-| [GetHashCode](gethashcode)() |  |
 | static [UseReflectionOptimization](usereflectionoptimization) { get; set; } | Gets or sets a value indicating whether invocations of custom type members performed via reflection API are optimized using dynamic class generation or not. The default value is true. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [BuildReport](buildreport)(Document, object) | Populates the specified template document with data from the specified source making it a ready report. |
+| [BuildReport](buildreport)(Document, object, string) | Populates the specified template document with data from the specified source making it a ready report. |
+| [BuildReport](buildreport)(Document, object[], string[]) | Populates the specified template document with data from the specified sources making it a ready report. |
+| [Equals](equals)(object) |  |
+| [GetHashCode](gethashcode)() |  |
 
 ### See Also
 

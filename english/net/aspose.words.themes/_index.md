@@ -1,19 +1,19 @@
 ---
 title: Aspose.Words.Themes
 second_title: Aspose.Words for .NET API Reference
-description: The Aspose.Words.Themes namespace provides classes that allow to access theme information in Microsoft Word documents.
+description: The **Aspose.Words.Themes** namespace provides classes that allow to access theme information in Microsoft Word documents.
 type: docs
 weight: 260
 url: /net/aspose.words.themes/
 ---
-The Aspose.Words.Themes namespace provides classes that allow to access theme information in Microsoft Word documents.
+The **Aspose.Words.Themes** namespace provides classes that allow to access theme information in Microsoft Word documents.
 
 ## Classes
 
 | Class | Description |
 | --- | --- |
 | class [Theme](./theme) | Represents document Theme, and provides access to main theme parts including [`MajorFonts`](aspose.words.themes/theme/majorfonts), [`MinorFonts`](aspose.words.themes/theme/minorfonts) and [`Colors`](aspose.words.themes/theme/colors) |
-| class [ThemeColors](./themecolors) | Represents the color scheme of the document theme which contains twelve colors.ThemeColors object contains six accent colors, two dark colors, two light colors and a color for each of a hyperlink and followed hyperlink. |
+| class [ThemeColors](./themecolors) | Represents the color scheme of the document theme which contains twelve colors. |
 | class [ThemeFonts](./themefonts) | Represents a collection of fonts in the font scheme, allowing to specify different fonts for different languages [`Latin`](aspose.words.themes/themefonts/latin), [`EastAsian`](aspose.words.themes/themefonts/eastasian) and [`ComplexScript`](aspose.words.themes/themefonts/complexscript). |
 ## Enumeration
 

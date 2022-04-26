@@ -3,7 +3,7 @@ title: FrameFormat
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 2830
+weight: 2810
 url: /net/aspose.words/frameformat/
 ---
 ## FrameFormat class
@@ -14,7 +14,7 @@ Represents frame related formatting for a paragraph.
 public class FrameFormat
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -33,7 +33,9 @@ public class FrameFormat
 
 ### Remarks
 
-This object is always created. If a paragraph is a frame, then all properties will contain respective values, otherwise all properties are set to their defaults.Use [`IsFrame`](./isframe) to check whether paragraph is a frame.
+This object is always created. If a paragraph is a frame, then all properties will contain respective values, otherwise all properties are set to their defaults.
+
+Use [`IsFrame`](./isframe) to check whether paragraph is a frame.
 
 ### Examples
 

@@ -3,7 +3,7 @@ title: DisplayUnit
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 180
+weight: 60
 url: /net/aspose.words.drawing.charts/chartaxis/displayunit/
 ---
 ## ChartAxis.DisplayUnit property

@@ -3,7 +3,7 @@ title: HeadingsOutlineLevels
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 30
+weight: 70
 url: /net/aspose.words.saving/outlineoptions/headingsoutlinelevels/
 ---
 ## OutlineOptions.HeadingsOutlineLevels property

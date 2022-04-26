@@ -3,7 +3,7 @@ title: StyleName
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 380
+weight: 350
 url: /net/aspose.words/paragraphformat/stylename/
 ---
 ## ParagraphFormat.StyleName property

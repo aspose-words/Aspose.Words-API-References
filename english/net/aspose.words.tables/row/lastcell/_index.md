@@ -3,12 +3,12 @@ title: LastCell
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 100
+weight: 60
 url: /net/aspose.words.tables/row/lastcell/
 ---
 ## Row.LastCell property
 
-Returns the last Cell in the row.
+Returns the last **Cell** in the row.
 
 ```csharp
 public Cell LastCell { get; }

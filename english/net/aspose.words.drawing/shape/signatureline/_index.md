@@ -3,12 +3,12 @@ title: SignatureLine
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 220
+weight: 160
 url: /net/aspose.words.drawing/shape/signatureline/
 ---
 ## Shape.SignatureLine property
 
-Gets `SignatureLine` object if the shape is a signature line. Returns null otherwise.
+Gets `SignatureLine` object if the shape is a signature line. Returns **null** otherwise.
 
 ```csharp
 public SignatureLine SignatureLine { get; }

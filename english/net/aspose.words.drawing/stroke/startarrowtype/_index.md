@@ -3,7 +3,7 @@ title: StartArrowType
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 130
+weight: 160
 url: /net/aspose.words.drawing/stroke/startarrowtype/
 ---
 ## Stroke.StartArrowType property

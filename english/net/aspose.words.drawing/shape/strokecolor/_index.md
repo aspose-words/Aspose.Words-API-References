@@ -3,7 +3,7 @@ title: StrokeColor
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 110
+weight: 190
 url: /net/aspose.words.drawing/shape/strokecolor/
 ---
 ## Shape.StrokeColor property
@@ -16,7 +16,9 @@ public Color StrokeColor { get; set; }
 
 ### Remarks
 
-This is a shortcut to the [`Color`](../../stroke/color) property.The default value is Black.
+This is a shortcut to the [`Color`](../../stroke/color) property.
+
+The default value is Black.
 
 ### Examples
 

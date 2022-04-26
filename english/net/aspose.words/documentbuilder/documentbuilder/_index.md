@@ -3,7 +3,7 @@ title: DocumentBuilder
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 470
+weight: 10
 url: /net/aspose.words/documentbuilder/documentbuilder/
 ---
 ## DocumentBuilder constructor (1 of 2)
@@ -16,7 +16,7 @@ public DocumentBuilder()
 
 ### Remarks
 
-Creates a new DocumentBuilder object and attaches it to a new [`Document`](../document) object.
+Creates a new **DocumentBuilder** object and attaches it to a new [`Document`](../document) object.
 
 ### Examples
 
@@ -59,7 +59,7 @@ public DocumentBuilder(Document doc)
 
 ### Remarks
 
-Creates a new DocumentBuilder object, attaches to the specified [`Document`](../document) object. The cursor is positioned at the beginning of the document.
+Creates a new **DocumentBuilder** object, attaches to the specified [`Document`](../document) object. The cursor is positioned at the beginning of the document.
 
 ### Examples
 

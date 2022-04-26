@@ -3,7 +3,7 @@ title: Add
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 20
+weight: 40
 url: /net/aspose.words.lists/listcollection/add/
 ---
 ## ListCollection.Add method (1 of 2)
@@ -24,7 +24,9 @@ The newly created list.
 
 ### Remarks
 
-Aspose.Words list templates correspond to the 21 list templates available in the Bullets and Numbering dialog box in Microsoft Word 2003.All lists created using this method have 9 list levels.
+Aspose.Words list templates correspond to the 21 list templates available in the Bullets and Numbering dialog box in Microsoft Word 2003.
+
+All lists created using this method have 9 list levels.
 
 ### Examples
 

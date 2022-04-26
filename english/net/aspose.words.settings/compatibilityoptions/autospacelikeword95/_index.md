@@ -3,7 +3,7 @@ title: AutoSpaceLikeWord95
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 390
+weight: 60
 url: /net/aspose.words.settings/compatibilityoptions/autospacelikeword95/
 ---
 ## CompatibilityOptions.AutoSpaceLikeWord95 property

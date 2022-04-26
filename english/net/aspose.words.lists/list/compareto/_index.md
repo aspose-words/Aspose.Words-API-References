@@ -3,15 +3,15 @@ title: CompareTo
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 30
+weight: 90
 url: /net/aspose.words.lists/list/compareto/
 ---
 ## List.CompareTo method (1 of 2)
 
-Compares the specified list to the current list.
+Compares the specified object to the current object.
 
 ```csharp
-public int CompareTo(List other)
+public int CompareTo(object obj)
 ```
 
 ### See Also
@@ -24,10 +24,10 @@ public int CompareTo(List other)
 
 ## List.CompareTo method (2 of 2)
 
-Compares the specified object to the current object.
+Compares the specified list to the current list.
 
 ```csharp
-public int CompareTo(object obj)
+public int CompareTo(List other)
 ```
 
 ### See Also

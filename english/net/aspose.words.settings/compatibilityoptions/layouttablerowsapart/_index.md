@@ -3,7 +3,7 @@ title: LayoutTableRowsApart
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 420
+weight: 300
 url: /net/aspose.words.settings/compatibilityoptions/layouttablerowsapart/
 ---
 ## CompatibilityOptions.LayoutTableRowsApart property

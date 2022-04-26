@@ -3,7 +3,7 @@ title: CustomPart
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 3600
+weight: 3570
 url: /net/aspose.words.markup/custompart/
 ---
 ## CustomPart class
@@ -14,16 +14,26 @@ Represents a custom (arbitrary content) part, that is not defined by the ISO/IEC
 public class CustomPart
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [CustomPart](custompart)() | The default constructor. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [ContentType](contenttype) { get; set; } | Specifies the content type of this custom part. |
 | [Data](data) { get; set; } | Contains the data of this custom part. |
 | [IsExternal](isexternal) { get; set; } | `False` if this custom part is stored inside the OOXML package. `True` if this custom part is an external target. |
 | [Name](name) { get; set; } | Gets or sets this part's absolute name within the OOXML package or the target URL. |
 | [RelationshipType](relationshiptype) { get; set; } | Gets or sets the relationship type from the parent part to this custom part. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
 | [Clone](clone)() | Makes a "deep enough" copy of the object. Does not duplicate the bytes of the [`Data`](./data) value. |
 
 ### Remarks

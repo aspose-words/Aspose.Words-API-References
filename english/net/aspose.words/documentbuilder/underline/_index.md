@@ -3,7 +3,7 @@ title: Underline
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 520
+weight: 170
 url: /net/aspose.words/documentbuilder/underline/
 ---
 ## DocumentBuilder.Underline property

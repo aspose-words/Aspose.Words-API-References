@@ -3,7 +3,7 @@ title: LayoutOptions
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 3090
+weight: 3070
 url: /net/aspose.words.layout/layoutoptions/
 ---
 ## LayoutOptions class
@@ -14,11 +14,16 @@ Holds the options that allow controlling the document layout process.
 public class LayoutOptions
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [LayoutOptions](layoutoptions)() | The default constructor. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [Callback](callback) { get; set; } | Gets or sets [`IPageLayoutCallback`](../ipagelayoutcallback) implementation used by page layout model. |
 | [CommentDisplayMode](commentdisplaymode) { get; set; } | Gets or sets the way comments are rendered. Default value is ShowInBalloons. |
 | [ContinuousSectionPageNumberingRestart](continuoussectionpagenumberingrestart) { get; set; } | Gets or sets the mode of behavior for computing page numbers when a continuous section restarts the page numbering. |

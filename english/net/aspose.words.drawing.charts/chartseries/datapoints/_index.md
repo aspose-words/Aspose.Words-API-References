@@ -3,7 +3,7 @@ title: DataPoints
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 50
+weight: 30
 url: /net/aspose.words.drawing.charts/chartseries/datapoints/
 ---
 ## ChartSeries.DataPoints property

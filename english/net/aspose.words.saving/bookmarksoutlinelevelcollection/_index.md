@@ -3,7 +3,7 @@ title: BookmarksOutlineLevelCollection
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 4510
+weight: 4460
 url: /net/aspose.words.saving/bookmarksoutlinelevelcollection/
 ---
 ## BookmarksOutlineLevelCollection class
@@ -14,20 +14,30 @@ A collection of individual bookmarks outline level.
 public class BookmarksOutlineLevelCollection : IEnumerable<KeyValuePair<string, int>>
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [BookmarksOutlineLevelCollection](bookmarksoutlinelevelcollection)() | The default constructor. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [Count](count) { get; } | Gets the number of elements contained in the collection. |
 | [Item](item) { get; set; } | Gets or a sets a bookmark outline level by the bookmark name. (2 indexers) |
-| [Add](add)(…) | Adds a bookmark to the collection. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [Add](add)(string, int) | Adds a bookmark to the collection. |
 | [Clear](clear)() | Removes all elements from the collection. |
-| [Contains](contains)(…) | Determines whether the collection contains a bookmark with the given name. |
+| [Contains](contains)(string) | Determines whether the collection contains a bookmark with the given name. |
 | [GetEnumerator](getenumerator)() |  |
-| [IndexOfKey](indexofkey)(…) | Returns the zero-based index of the specified bookmark in the collection. |
-| [Remove](remove)(…) | Removes a bookmark with the specified name from the collection. |
-| [RemoveAt](removeat)(…) | Removes a bookmark at the specified index. |
+| [IndexOfKey](indexofkey)(string) | Returns the zero-based index of the specified bookmark in the collection. |
+| [Remove](remove)(string) | Removes a bookmark with the specified name from the collection. |
+| [RemoveAt](removeat)(int) | Removes a bookmark at the specified index. |
 
 ### Remarks
 

@@ -3,7 +3,7 @@ title: UseFELayout
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 670
+weight: 620
 url: /net/aspose.words.settings/compatibilityoptions/usefelayout/
 ---
 ## CompatibilityOptions.UseFELayout property

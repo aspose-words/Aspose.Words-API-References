@@ -3,7 +3,7 @@ title: Result
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 90
+weight: 70
 url: /net/aspose.words.fields/field/result/
 ---
 ## Field.Result property

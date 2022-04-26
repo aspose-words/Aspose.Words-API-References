@@ -3,7 +3,7 @@ title: IsDeleteRevision
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 240
+weight: 40
 url: /net/aspose.words/paragraph/isdeleterevision/
 ---
 ## Paragraph.IsDeleteRevision property

@@ -3,7 +3,7 @@ title: IsListItem
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 310
+weight: 140
 url: /net/aspose.words/paragraphformat/islistitem/
 ---
 ## ParagraphFormat.IsListItem property

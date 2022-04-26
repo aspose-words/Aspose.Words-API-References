@@ -3,7 +3,7 @@ title: List
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 3200
+weight: 3180
 url: /net/aspose.words.lists/list/
 ---
 ## List class
@@ -14,7 +14,7 @@ Represents formatting of a list.
 public class List : IComparable<List>
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -22,18 +22,32 @@ public class List : IComparable<List>
 | [IsListStyleDefinition](isliststyledefinition) { get; } | Returns true if this list is a definition of a list style. |
 | [IsListStyleReference](isliststylereference) { get; } | Returns true if this list is a reference to a list style. |
 | [IsMultiLevel](ismultilevel) { get; } | Returns true when the list contains 9 levels; false when 1 level. |
-| [IsRestartAtEachSection](isrestartateachsection) { get; set; } | Specifies whether list should be restarted at each section. Default value is false. |
+| [IsRestartAtEachSection](isrestartateachsection) { get; set; } | Specifies whether list should be restarted at each section. Default value is **false**. |
 | [ListId](listid) { get; } | Gets the unique identifier of the list. |
 | [ListLevels](listlevels) { get; } | Gets the collection of list levels for this list. |
 | [Style](style) { get; } | Gets the list style that this list references or defines. |
-| [CompareTo](compareto)(…) | Compares the specified object to the current object. (2 methods) |
-| [Equals](equals)(…) | Compares with the specified list. |
-| override [Equals](equals)(…) |  |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [CompareTo](compareto)(List) | Compares the specified list to the current list. |
+| [CompareTo](compareto)(object) | Compares the specified object to the current object. |
+| [Equals](equals)(List) | Compares with the specified list. |
+| override [Equals](equals)(object) |  |
 | override [GetHashCode](gethashcode)() | Calculates hash code for this list object. |
 
 ### Remarks
 
-A list in a Microsoft Word document is a set of list formatting properties. Each list can have up to 9 levels and formatting properties, such as number style, start value, indent, tab position etc are defined separately for each level.A [`List`](../list) object always belongs to the [`ListCollection`](../listcollection) collection.To create a new list, use the Add methods of the [`ListCollection`](../listcollection) collection.To modify formatting of a list, use [`ListLevel`](../listlevel) objects found in the [`ListLevels`](./listlevels) collection.To apply or remove list formatting from a paragraph, use [`ListFormat`](../listformat).
+A list in a Microsoft Word document is a set of list formatting properties. Each list can have up to 9 levels and formatting properties, such as number style, start value, indent, tab position etc are defined separately for each level.
+
+A [`List`](../list) object always belongs to the [`ListCollection`](../listcollection) collection.
+
+To create a new list, use the Add methods of the [`ListCollection`](../listcollection) collection.
+
+To modify formatting of a list, use [`ListLevel`](../listlevel) objects found in the [`ListLevels`](./listlevels) collection.
+
+To apply or remove list formatting from a paragraph, use [`ListFormat`](../listformat).
 
 ### Examples
 

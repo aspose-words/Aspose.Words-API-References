@@ -3,7 +3,7 @@ title: Shadow
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 120
+weight: 110
 url: /net/aspose.words.drawing/textpath/shadow/
 ---
 ## TextPath.Shadow property
@@ -16,7 +16,7 @@ public bool Shadow { get; set; }
 
 ### Remarks
 
-The default value is false.
+The default value is **false**.
 
 ### Examples
 

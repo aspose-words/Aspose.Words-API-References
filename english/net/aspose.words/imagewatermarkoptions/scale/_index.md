@@ -3,7 +3,7 @@ title: Scale
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 20
+weight: 30
 url: /net/aspose.words/imagewatermarkoptions/scale/
 ---
 ## ImageWatermarkOptions.Scale property
@@ -22,7 +22,9 @@ public double Scale { get; set; }
 
 ### Remarks
 
-Valid values range from 0 to 65.5 inclusive.Auto scale means that the watermark will be scaled to its max width and max height relative to the page margins.
+Valid values range from 0 to 65.5 inclusive.
+
+Auto scale means that the watermark will be scaled to its max width and max height relative to the page margins.
 
 ### Examples
 

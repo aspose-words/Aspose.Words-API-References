@@ -3,7 +3,7 @@ title: DistanceTop
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 350
+weight: 150
 url: /net/aspose.words.tables/table/distancetop/
 ---
 ## Table.DistanceTop property

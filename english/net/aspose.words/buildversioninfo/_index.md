@@ -14,7 +14,7 @@ Provides information about the current product name and version.
 public static class BuildVersionInfo
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |

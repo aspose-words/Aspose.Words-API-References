@@ -3,7 +3,7 @@ title: ProtectionType
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 430
+weight: 310
 url: /net/aspose.words/document/protectiontype/
 ---
 ## Document.ProtectionType property
@@ -16,7 +16,9 @@ public ProtectionType ProtectionType { get; }
 
 ### Remarks
 
-This property allows to retrieve the currently set document protection type. To change the document protection type use the [`Protect`](../protect) and [`Unprotect`](../unprotect) methods.When a document is protected, the user can make only limited changes, such as adding annotations, making revisions, or completing a form.
+This property allows to retrieve the currently set document protection type. To change the document protection type use the [`Protect`](../protect) and [`Unprotect`](../unprotect) methods.
+
+When a document is protected, the user can make only limited changes, such as adding annotations, making revisions, or completing a form.
 
 Note that document protection is different from write protection. Write protection is specified using the [`WriteProtection`](../writeprotection)
 

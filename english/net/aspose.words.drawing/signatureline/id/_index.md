@@ -3,12 +3,14 @@ title: Id
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 80
+weight: 40
 url: /net/aspose.words.drawing/signatureline/id/
 ---
 ## SignatureLine.Id property
 
-Gets or sets identifier for this signature line. This identifier can be associated with a digital signature, when signing document using [`DigitalSignatureUtil`](../../../aspose.words.digitalsignatures/digitalsignatureutil). This value must be unique and by default it is randomly generated new Guid (NewGuid).
+Gets or sets identifier for this signature line.
+
+This identifier can be associated with a digital signature, when signing document using [`DigitalSignatureUtil`](../../../aspose.words.digitalsignatures/digitalsignatureutil). This value must be unique and by default it is randomly generated new Guid (NewGuid).
 
 ```csharp
 public Guid Id { get; set; }

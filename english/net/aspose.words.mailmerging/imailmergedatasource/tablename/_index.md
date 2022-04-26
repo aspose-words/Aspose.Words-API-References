@@ -3,7 +3,7 @@ title: TableName
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 40
+weight: 10
 url: /net/aspose.words.mailmerging/imailmergedatasource/tablename/
 ---
 ## IMailMergeDataSource.TableName property
@@ -20,7 +20,9 @@ The name of the data source. Empty string if the data source has no name.
 
 ### Remarks
 
-If you are implementing [`IMailMergeDataSource`](../../imailmergedatasource), return the name of the data source from this property.Aspose.Words uses this name to match against the mail merge region name specified in the template document. The comparison between the data source name and the mail merge region name is not case sensitive.
+If you are implementing [`IMailMergeDataSource`](../../imailmergedatasource), return the name of the data source from this property.
+
+Aspose.Words uses this name to match against the mail merge region name specified in the template document. The comparison between the data source name and the mail merge region name is not case sensitive.
 
 ### Examples
 

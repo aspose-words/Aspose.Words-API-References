@@ -3,7 +3,7 @@ title: BookmarkStart
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 40
+weight: 20
 url: /net/aspose.words/bookmark/bookmarkstart/
 ---
 ## Bookmark.BookmarkStart property

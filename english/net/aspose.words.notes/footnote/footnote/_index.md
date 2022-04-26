@@ -3,12 +3,12 @@ title: Footnote
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 20
+weight: 10
 url: /net/aspose.words.notes/footnote/footnote/
 ---
 ## Footnote constructor
 
-Initializes an instance of the Footnote class.
+Initializes an instance of the **Footnote** class.
 
 ```csharp
 public Footnote(DocumentBase doc, FootnoteType footnoteType)
@@ -21,7 +21,9 @@ public Footnote(DocumentBase doc, FootnoteType footnoteType)
 
 ### Remarks
 
-When Footnote is created, it belongs to the specified document, but is not yet part of the document and ParentNode is null.To append Footnote to the document use InsertAfter or InsertBefore on the paragraph where you want the footnote inserted.
+When **Footnote** is created, it belongs to the specified document, but is not yet part of the document and **ParentNode** is null.
+
+To append **Footnote** to the document use InsertAfter or InsertBefore on the paragraph where you want the footnote inserted.
 
 ### Examples
 

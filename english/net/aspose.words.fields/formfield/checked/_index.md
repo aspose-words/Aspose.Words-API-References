@@ -3,12 +3,12 @@ title: Checked
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 220
+weight: 30
 url: /net/aspose.words.fields/formfield/checked/
 ---
 ## FormField.Checked property
 
-Gets or sets the checked status of the check box form field. Default value for this property is false.
+Gets or sets the checked status of the check box form field. Default value for this property is **false**.
 
 ```csharp
 public bool Checked { get; set; }

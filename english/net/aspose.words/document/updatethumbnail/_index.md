@@ -3,51 +3,10 @@ title: UpdateThumbnail
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 20
+weight: 760
 url: /net/aspose.words/document/updatethumbnail/
 ---
 ## Document.UpdateThumbnail method (1 of 2)
-
-Updates [`Thumbnail`](../../../aspose.words.properties/builtindocumentproperties/thumbnail) of the document using default options.
-
-```csharp
-public void UpdateThumbnail()
-```
-
-### Examples
-
-Shows how to update a document's thumbnail.
-
-```csharp
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-
-builder.Writeln("Hello world!");
-builder.InsertImage(ImageDir + "Logo.jpg");
-
-// There are two ways of setting a thumbnail image when saving a document to .epub.
-// 1 -  Use the document's first page:
-doc.UpdateThumbnail();
-doc.Save(ArtifactsDir + "Document.UpdateThumbnail.FirstPage.epub");
-
-// 2 -  Use the first image found in the document:
-ThumbnailGeneratingOptions options = new ThumbnailGeneratingOptions();
-options.ThumbnailSize = new Size(400, 400);
-options.GenerateFromFirstPage = false;
-
-doc.UpdateThumbnail(options);
-doc.Save(ArtifactsDir + "Document.UpdateThumbnail.FirstImage.epub");
-```
-
-### See Also
-
-* class [Document](../../document)
-* namespace [Aspose.Words](../../document)
-* assembly [Aspose.Words](../../../)
-
----
-
-## Document.UpdateThumbnail method (2 of 2)
 
 Updates [`Thumbnail`](../../../aspose.words.properties/builtindocumentproperties/thumbnail) of the document according to the specified options.
 
@@ -91,6 +50,47 @@ doc.Save(ArtifactsDir + "Document.UpdateThumbnail.FirstImage.epub");
 ### See Also
 
 * class [ThumbnailGeneratingOptions](../../../aspose.words.rendering/thumbnailgeneratingoptions)
+* class [Document](../../document)
+* namespace [Aspose.Words](../../document)
+* assembly [Aspose.Words](../../../)
+
+---
+
+## Document.UpdateThumbnail method (2 of 2)
+
+Updates [`Thumbnail`](../../../aspose.words.properties/builtindocumentproperties/thumbnail) of the document using default options.
+
+```csharp
+public void UpdateThumbnail()
+```
+
+### Examples
+
+Shows how to update a document's thumbnail.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+builder.Writeln("Hello world!");
+builder.InsertImage(ImageDir + "Logo.jpg");
+
+// There are two ways of setting a thumbnail image when saving a document to .epub.
+// 1 -  Use the document's first page:
+doc.UpdateThumbnail();
+doc.Save(ArtifactsDir + "Document.UpdateThumbnail.FirstPage.epub");
+
+// 2 -  Use the first image found in the document:
+ThumbnailGeneratingOptions options = new ThumbnailGeneratingOptions();
+options.ThumbnailSize = new Size(400, 400);
+options.GenerateFromFirstPage = false;
+
+doc.UpdateThumbnail(options);
+doc.Save(ArtifactsDir + "Document.UpdateThumbnail.FirstImage.epub");
+```
+
+### See Also
+
 * class [Document](../../document)
 * namespace [Aspose.Words](../../document)
 * assembly [Aspose.Words](../../../)

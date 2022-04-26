@@ -3,12 +3,12 @@ title: SourceTag
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 20
+weight: 60
 url: /net/aspose.words.fields/fieldcitation/sourcetag/
 ---
 ## FieldCitation.SourceTag property
 
-Gets or sets a value that mathes the Tag element's value of the source to insert.
+Gets or sets a value that mathes the **Tag** element's value of the source to insert.
 
 ```csharp
 public string SourceTag { get; set; }

@@ -1,12 +1,12 @@
 ---
 title: Aspose.Words.Rendering
 second_title: Aspose.Words for .NET API Reference
-description: The Aspose.Words.Rendering namespace provides classes that allow to customize printing or rendering of documents.
+description: The **Aspose.Words.Rendering** namespace provides classes that allow to customize printing or rendering of documents.
 type: docs
 weight: 190
 url: /net/aspose.words.rendering/
 ---
-The Aspose.Words.Rendering namespace provides classes that allow to customize printing or rendering of documents.
+The **Aspose.Words.Rendering** namespace provides classes that allow to customize printing or rendering of documents.
 
 ## Classes
 

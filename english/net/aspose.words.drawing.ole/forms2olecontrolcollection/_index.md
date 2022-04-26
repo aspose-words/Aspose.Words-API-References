@@ -3,7 +3,7 @@ title: Forms2OleControlCollection
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 980
+weight: 960
 url: /net/aspose.words.drawing.ole/forms2olecontrolcollection/
 ---
 ## Forms2OleControlCollection class
@@ -14,11 +14,16 @@ Represents collection of [`Forms2OleControl`](../forms2olecontrol) objects.
 public class Forms2OleControlCollection
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [Forms2OleControlCollection](forms2olecontrolcollection)() | The default constructor. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [Count](count) { get; } | Gets count of objects in the collection. |
 | [Item](item) { get; } | Gets [`Forms2OleControl`](../forms2olecontrol) object at specified index. |
 

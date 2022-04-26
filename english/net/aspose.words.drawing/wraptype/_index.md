@@ -3,7 +3,7 @@ title: WrapType
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 1220
+weight: 1200
 url: /net/aspose.words.drawing/wraptype/
 ---
 ## WrapType enumeration

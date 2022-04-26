@@ -3,7 +3,7 @@ title: ToStream
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 30
+weight: 230
 url: /net/aspose.words.drawing/imagedata/tostream/
 ---
 ## ImageData.ToStream method
@@ -16,7 +16,13 @@ public Stream ToStream()
 
 ### Remarks
 
-If the image bytes are stored in the shape, creates and returns a MemoryStream object.If the image is linked and stored in a file, opens the file and returns a FileStream object.If the image is linked and stored in an external URL, downloads the file and returns a MemoryStream object.Is it the responsibility of the caller to dispose the stream object.
+If the image bytes are stored in the shape, creates and returns a MemoryStream object.
+
+If the image is linked and stored in a file, opens the file and returns a FileStream object.
+
+If the image is linked and stored in an external URL, downloads the file and returns a MemoryStream object.
+
+Is it the responsibility of the caller to dispose the stream object.
 
 ### Examples
 

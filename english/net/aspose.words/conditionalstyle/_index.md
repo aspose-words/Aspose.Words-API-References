@@ -14,7 +14,7 @@ Represents special formatting applied to some area of a table with assigned tabl
 public sealed class ConditionalStyle
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -27,8 +27,13 @@ public sealed class ConditionalStyle
 | [Shading](shading) { get; } | Gets a [`Shading`](../shading) object that refers to the shading formatting for this conditional style. |
 | [TopPadding](toppadding) { get; set; } | Gets or sets the amount of space (in points) to add above the contents of table cells. |
 | [Type](type) { get; } | Gets table area to which this conditional style relates. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
 | [ClearFormatting](clearformatting)() | Clears formatting of this conditional style. |
-| override [Equals](equals)(…) |  |
+| override [Equals](equals)(object) |  |
 | override [GetHashCode](gethashcode)() | Calculates hash code for this object. |
 
 ### Examples

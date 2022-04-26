@@ -3,12 +3,12 @@ title: Match
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 10
+weight: 30
 url: /net/aspose.words.replacing/replacingargs/match/
 ---
 ## ReplacingArgs.Match property
 
-The Match resulting from a single regular expression match during a Replace.
+The Match resulting from a single regular expression match during a **Replace**.
 
 ```csharp
 public Match Match { get; }
@@ -16,7 +16,7 @@ public Match Match { get; }
 
 ### Remarks
 
-Match.Index" gets the zero-based starting position of the match from the start of the find and replace range.
+**Match.Index"** gets the zero-based starting position of the match from the start of the find and replace range.
 
 ### Examples
 

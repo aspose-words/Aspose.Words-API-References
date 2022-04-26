@@ -3,7 +3,7 @@ title: StreamFontSource
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 2800
+weight: 2780
 url: /net/aspose.words.fonts/streamfontsource/
 ---
 ## StreamFontSource class
@@ -14,12 +14,17 @@ Base class for user-defined stream font source.
 public abstract class StreamFontSource : FontSourceBase
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
 | [CacheKey](cachekey) { get; } | The key of this source in the cache. |
 | [Type](type) { get; } | Returns the type of the font source. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
 | abstract [OpenFontDataStream](openfontdatastream)() | This method should open the stream with font data on demand. |
 
 ### Remarks

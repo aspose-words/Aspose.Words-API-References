@@ -3,12 +3,12 @@ title: ContentsFont
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 170
+weight: 80
 url: /net/aspose.words.markup/structureddocumenttag/contentsfont/
 ---
 ## StructuredDocumentTag.ContentsFont property
 
-Font formatting that will be applied to text entered into SDT.
+Font formatting that will be applied to text entered into **SDT**.
 
 ```csharp
 public Font ContentsFont { get; }

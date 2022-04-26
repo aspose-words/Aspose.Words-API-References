@@ -3,7 +3,7 @@ title: RelationshipType
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 40
+weight: 60
 url: /net/aspose.words.markup/custompart/relationshiptype/
 ---
 ## CustomPart.RelationshipType property

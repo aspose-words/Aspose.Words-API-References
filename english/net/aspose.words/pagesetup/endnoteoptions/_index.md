@@ -3,7 +3,7 @@ title: EndnoteOptions
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 420
+weight: 110
 url: /net/aspose.words/pagesetup/endnoteoptions/
 ---
 ## PageSetup.EndnoteOptions property

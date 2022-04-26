@@ -3,7 +3,7 @@ title: Bounds
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 450
+weight: 70
 url: /net/aspose.words.drawing/shapebase/bounds/
 ---
 ## ShapeBase.Bounds property
@@ -18,7 +18,9 @@ public RectangleF Bounds { get; set; }
 
 Ignores aspect ratio lock upon setting.
 
-For a top-level shape, the value is in points and relative to the shape anchor.For shapes in a group, the value is in the coordinate space and units of the parent group.
+For a top-level shape, the value is in points and relative to the shape anchor.
+
+For shapes in a group, the value is in the coordinate space and units of the parent group.
 
 ### Examples
 

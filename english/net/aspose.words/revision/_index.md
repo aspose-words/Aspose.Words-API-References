@@ -3,7 +3,7 @@ title: Revision
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 4420
+weight: 4370
 url: /net/aspose.words/revision/
 ---
 ## Revision class
@@ -14,7 +14,7 @@ Represents a revision (tracked change) in a document node or style. Use [`Revisi
 public class Revision
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -24,6 +24,11 @@ public class Revision
 | [ParentNode](parentnode) { get; } | Gets the immediate parent node (owner) of this revision. This property will work for any revision type other than StyleDefinitionChange. |
 | [ParentStyle](parentstyle) { get; } | Gets the immediate parent style (owner) of this revision. This property will work for only for the StyleDefinitionChange revision type. |
 | [RevisionType](revisiontype) { get; } | Gets the type of this revision. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
 | [Accept](accept)() | Accepts this revision. |
 | [Reject](reject)() | Reject this revision. |
 

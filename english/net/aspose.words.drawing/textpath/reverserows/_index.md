@@ -3,7 +3,7 @@ title: ReverseRows
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 180
+weight: 80
 url: /net/aspose.words.drawing/textpath/reverserows/
 ---
 ## TextPath.ReverseRows property
@@ -16,7 +16,9 @@ public bool ReverseRows { get; set; }
 
 ### Remarks
 
-The default value is false.If true, the layout order of rows is reversed. This attribute is used for vertical text layout.
+The default value is **false**.
+
+If **true**, the layout order of rows is reversed. This attribute is used for vertical text layout.
 
 ### Examples
 

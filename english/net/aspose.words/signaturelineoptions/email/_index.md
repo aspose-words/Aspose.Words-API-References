@@ -8,7 +8,7 @@ url: /net/aspose.words/signaturelineoptions/email/
 ---
 ## SignatureLineOptions.Email property
 
-Gets or sets suggested signer's e-mail address. Default value for this property is empty string (Empty).
+Gets or sets suggested signer's e-mail address. Default value for this property is **empty string** (Empty).
 
 ```csharp
 public string Email { get; set; }

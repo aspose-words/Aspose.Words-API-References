@@ -3,12 +3,12 @@ title: Signer
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 10
+weight: 100
 url: /net/aspose.words.drawing/signatureline/signer/
 ---
 ## SignatureLine.Signer property
 
-Gets or sets suggested signer of the signature line. Default value for this property is empty string (Empty).
+Gets or sets suggested signer of the signature line. Default value for this property is **empty string** (Empty).
 
 ```csharp
 public string Signer { get; set; }

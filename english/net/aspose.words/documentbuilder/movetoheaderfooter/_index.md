@@ -3,7 +3,7 @@ title: MoveToHeaderFooter
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 130
+weight: 520
 url: /net/aspose.words/documentbuilder/movetoheaderfooter/
 ---
 ## DocumentBuilder.MoveToHeaderFooter method
@@ -20,7 +20,13 @@ public void MoveToHeaderFooter(HeaderFooterType headerFooterType)
 
 ### Remarks
 
-After you moved the cursor into a header or footer, you can use the rest of DocumentBuilder methods to modify the contents of the header or footer.If you want to create headers and footers different for the first page, you need to set [`DifferentFirstPageHeaderFooter`](../../pagesetup/differentfirstpageheaderfooter).If you want to create headers and footers different for even and odd pages, you need to set [`OddAndEvenPagesHeaderFooter`](../../pagesetup/oddandevenpagesheaderfooter).Use [`MoveToSection`](../movetosection) to move out of the header into the main text.
+After you moved the cursor into a header or footer, you can use the rest of DocumentBuilder methods to modify the contents of the header or footer.
+
+If you want to create headers and footers different for the first page, you need to set [`DifferentFirstPageHeaderFooter`](../../pagesetup/differentfirstpageheaderfooter).
+
+If you want to create headers and footers different for even and odd pages, you need to set [`OddAndEvenPagesHeaderFooter`](../../pagesetup/oddandevenpagesheaderfooter).
+
+Use [`MoveToSection`](../movetosection) to move out of the header into the main text.
 
 ### Examples
 

@@ -3,7 +3,7 @@ title: StrikeThrough
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 230
+weight: 390
 url: /net/aspose.words/font/strikethrough/
 ---
 ## Font.StrikeThrough property

@@ -14,14 +14,24 @@ Denotes the end of a region of text that has a comment associated with it.
 public sealed class CommentRangeEnd : Node
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
-| [CommentRangeEnd](commentrangeend)(…) | Initializes a new instance of this class. |
+| [CommentRangeEnd](commentrangeend)(DocumentBase, int) | Initializes a new instance of this class. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [Id](id) { get; set; } | Specifies the identifier of the comment to which this region is linked to. |
 | override [NodeType](nodetype) { get; } | Returns CommentRangeEnd. |
-| override [Accept](accept)(…) | Accepts a visitor. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| override [Accept](accept)(DocumentVisitor) | Accepts a visitor. |
 
 ### Remarks
 

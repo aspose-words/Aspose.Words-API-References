@@ -3,7 +3,7 @@ title: SizeInPoints
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 500
+weight: 460
 url: /net/aspose.words.drawing/shapebase/sizeinpoints/
 ---
 ## ShapeBase.SizeInPoints property

@@ -3,7 +3,7 @@ title: GradientStop
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 840
+weight: 820
 url: /net/aspose.words.drawing/gradientstop/
 ---
 ## GradientStop class
@@ -14,14 +14,25 @@ Represents one gradient stop.
 public class GradientStop
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
-| [GradientStop](gradientstop)(…) | Initializes a new instance of the [`GradientStop`](../gradientstop) class. (2 constructors) |
+| [GradientStop](gradientstop)(Color, double) | Initializes a new instance of the [`GradientStop`](../gradientstop) class. |
+| [GradientStop](gradientstop)(Color, double, double) | Initializes a new instance of the [`GradientStop`](../gradientstop) class. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [Color](color) { get; set; } | Gets or sets a value representing the color of the gradient stop. |
 | [Position](position) { get; set; } | Gets or sets a value representing the position of a stop within the gradient expressed as a percent in range 0.0 to 1.0. |
 | [Transparency](transparency) { get; set; } | Gets or sets a value representing the transparency of the gradient fill expressed as a percent in range 0.0 to 1.0. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
 | [Remove](remove)() | Removes the gradient stop from the parent [`GradientStopCollection`](../gradientstopcollection). |
 
 ### See Also

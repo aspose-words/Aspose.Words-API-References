@@ -3,7 +3,7 @@ title: TextPath
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 1170
+weight: 1150
 url: /net/aspose.words.drawing/textpath/
 ---
 ## TextPath class
@@ -14,7 +14,7 @@ Defines the text and formatting of the text path (of a WordArt object).
 public class TextPath
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |

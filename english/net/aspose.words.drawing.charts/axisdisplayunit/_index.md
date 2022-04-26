@@ -14,11 +14,16 @@ Provides access to the scaling options of the display units for the value axis.
 public class AxisDisplayUnit
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [AxisDisplayUnit](axisdisplayunit)() | The default constructor. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [CustomUnit](customunit) { get; set; } | Gets or sets a user-defined divisor to scale display units on the value axis. |
 | [Document](document) { get; } | Returns the Document the title holder belongs. |
 | [Unit](unit) { get; set; } | Gets or sets the scaling value of the display units as one of the predefined values. |

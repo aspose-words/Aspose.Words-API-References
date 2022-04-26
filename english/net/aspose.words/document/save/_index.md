@@ -3,7 +3,7 @@ title: Save
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 70
+weight: 670
 url: /net/aspose.words/document/save/
 ---
 ## Document.Save method (1 of 5)
@@ -59,153 +59,6 @@ pdfDoc.Save(ArtifactsDir + "PDF2Word.ConvertPdfToDocx.docx");
 
 ## Document.Save method (2 of 5)
 
-Saves the document to a stream using the specified format.
-
-```csharp
-public SaveOutputParameters Save(Stream stream, SaveFormat saveFormat)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| stream | Stream | Stream where to save the document. |
-| saveFormat | SaveFormat | The format in which to save the document. |
-
-## Return Value
-
-Additional information that you can optionally use.
-
-### Examples
-
-Shows how to save a document to a stream.
-
-```csharp
-Document doc = new Document(MyDir + "Document.docx");
-
-using (MemoryStream dstStream = new MemoryStream())
-{
-    doc.Save(dstStream, SaveFormat.Docx);
-
-    // Verify that the stream contains the document.
-    Assert.AreEqual("Hello World!\r\rHello Word!\r\r\rHello World!", new Document(dstStream).GetText().Trim());
-}
-```
-
-Shows how to save a document to an image via stream, and then read the image from that stream.
-
-```csharp
-Document doc = new Document();
-            DocumentBuilder builder = new DocumentBuilder(doc);
-
-            builder.Font.Name = "Times New Roman";
-            builder.Font.Size = 24;
-            builder.Writeln("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.");
-
-            builder.InsertImage(ImageDir + "Logo.jpg");
-
-#if NET48 || JAVA
-            using (MemoryStream stream = new MemoryStream())
-            {
-                doc.Save(stream, SaveFormat.Bmp);
-
-                stream.Position = 0;
-
-                // Read the stream back into an image.
-                using (Image image = Image.FromStream(stream))
-                {
-                    Assert.AreEqual(ImageFormat.Bmp, image.RawFormat);
-                    Assert.AreEqual(816, image.Width);
-                    Assert.AreEqual(1056, image.Height);
-                }
-            }
-#elif NET5_0 || __MOBILE__
-            using (MemoryStream stream = new MemoryStream())
-            {
-                doc.Save(stream, SaveFormat.Bmp);
-
-                stream.Position = 0;
-
-                SKCodec codec = SKCodec.Create(stream);
-
-                Assert.AreEqual(SKEncodedImageFormat.Bmp, codec.EncodedFormat);
-
-                stream.Position = 0;
-
-                using (SKBitmap image = SKBitmap.Decode(stream))
-                {
-                    Assert.AreEqual(816, image.Width);
-                    Assert.AreEqual(1056, image.Height);
-                }
-            }
-#endif
-```
-
-### See Also
-
-* class [SaveOutputParameters](../../../aspose.words.saving/saveoutputparameters)
-* enum [SaveFormat](../../saveformat)
-* class [Document](../../document)
-* namespace [Aspose.Words](../../document)
-* assembly [Aspose.Words](../../../)
-
----
-
-## Document.Save method (3 of 5)
-
-Saves the document to a stream using the specified save options.
-
-```csharp
-public SaveOutputParameters Save(Stream stream, SaveOptions saveOptions)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| stream | Stream | Stream where to save the document. |
-| saveOptions | SaveOptions | Specifies the options that control how the document is saved. Can be null. If this is null, the document will be saved in the binary DOC format. |
-
-## Return Value
-
-Additional information that you can optionally use.
-
-### Examples
-
-Shows how to convert only some of the pages in a document to PDF.
-
-```csharp
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-
-builder.Writeln("Page 1.");
-builder.InsertBreak(BreakType.PageBreak);
-builder.Writeln("Page 2.");
-builder.InsertBreak(BreakType.PageBreak);
-builder.Writeln("Page 3.");
-
-using (Stream stream = File.Create(ArtifactsDir + "PdfSaveOptions.OnePage.pdf"))
-{
-    // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
-    // to modify how that method converts the document to .PDF.
-    PdfSaveOptions options = new PdfSaveOptions();
-
-    // Set the "PageIndex" to "1" to render a portion of the document starting from the second page.
-    options.PageSet = new PageSet(1);
-
-    // This document will contain one page starting from page two, which will only contain the second page.
-    doc.Save(stream, options);
-}
-```
-
-### See Also
-
-* class [SaveOutputParameters](../../../aspose.words.saving/saveoutputparameters)
-* class [SaveOptions](../../../aspose.words.saving/saveoptions)
-* class [Document](../../document)
-* namespace [Aspose.Words](../../document)
-* assembly [Aspose.Words](../../../)
-
----
-
-## Document.Save method (4 of 5)
-
 Saves the document to a file in the specified format.
 
 ```csharp
@@ -241,7 +94,7 @@ doc.Save(ArtifactsDir + "Document.ConvertToHtml.html", SaveFormat.Html);
 
 ---
 
-## Document.Save method (5 of 5)
+## Document.Save method (3 of 5)
 
 Saves the document to a file using the specified save options.
 
@@ -434,6 +287,153 @@ options.OutlineOptions.HeadingsOutlineLevels = 4;
 options.OutlineOptions.ExpandedOutlineLevels = 2;
 
 doc.Save(ArtifactsDir + "PdfSaveOptions.ExpandedOutlineLevels.pdf", options);
+```
+
+### See Also
+
+* class [SaveOutputParameters](../../../aspose.words.saving/saveoutputparameters)
+* class [SaveOptions](../../../aspose.words.saving/saveoptions)
+* class [Document](../../document)
+* namespace [Aspose.Words](../../document)
+* assembly [Aspose.Words](../../../)
+
+---
+
+## Document.Save method (4 of 5)
+
+Saves the document to a stream using the specified format.
+
+```csharp
+public SaveOutputParameters Save(Stream stream, SaveFormat saveFormat)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| stream | Stream | Stream where to save the document. |
+| saveFormat | SaveFormat | The format in which to save the document. |
+
+## Return Value
+
+Additional information that you can optionally use.
+
+### Examples
+
+Shows how to save a document to a stream.
+
+```csharp
+Document doc = new Document(MyDir + "Document.docx");
+
+using (MemoryStream dstStream = new MemoryStream())
+{
+    doc.Save(dstStream, SaveFormat.Docx);
+
+    // Verify that the stream contains the document.
+    Assert.AreEqual("Hello World!\r\rHello Word!\r\r\rHello World!", new Document(dstStream).GetText().Trim());
+}
+```
+
+Shows how to save a document to an image via stream, and then read the image from that stream.
+
+```csharp
+Document doc = new Document();
+            DocumentBuilder builder = new DocumentBuilder(doc);
+
+            builder.Font.Name = "Times New Roman";
+            builder.Font.Size = 24;
+            builder.Writeln("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.");
+
+            builder.InsertImage(ImageDir + "Logo.jpg");
+
+#if NET48 || JAVA
+            using (MemoryStream stream = new MemoryStream())
+            {
+                doc.Save(stream, SaveFormat.Bmp);
+
+                stream.Position = 0;
+
+                // Read the stream back into an image.
+                using (Image image = Image.FromStream(stream))
+                {
+                    Assert.AreEqual(ImageFormat.Bmp, image.RawFormat);
+                    Assert.AreEqual(816, image.Width);
+                    Assert.AreEqual(1056, image.Height);
+                }
+            }
+#elif NET5_0 || __MOBILE__
+            using (MemoryStream stream = new MemoryStream())
+            {
+                doc.Save(stream, SaveFormat.Bmp);
+
+                stream.Position = 0;
+
+                SKCodec codec = SKCodec.Create(stream);
+
+                Assert.AreEqual(SKEncodedImageFormat.Bmp, codec.EncodedFormat);
+
+                stream.Position = 0;
+
+                using (SKBitmap image = SKBitmap.Decode(stream))
+                {
+                    Assert.AreEqual(816, image.Width);
+                    Assert.AreEqual(1056, image.Height);
+                }
+            }
+#endif
+```
+
+### See Also
+
+* class [SaveOutputParameters](../../../aspose.words.saving/saveoutputparameters)
+* enum [SaveFormat](../../saveformat)
+* class [Document](../../document)
+* namespace [Aspose.Words](../../document)
+* assembly [Aspose.Words](../../../)
+
+---
+
+## Document.Save method (5 of 5)
+
+Saves the document to a stream using the specified save options.
+
+```csharp
+public SaveOutputParameters Save(Stream stream, SaveOptions saveOptions)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| stream | Stream | Stream where to save the document. |
+| saveOptions | SaveOptions | Specifies the options that control how the document is saved. Can be null. If this is null, the document will be saved in the binary DOC format. |
+
+## Return Value
+
+Additional information that you can optionally use.
+
+### Examples
+
+Shows how to convert only some of the pages in a document to PDF.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+builder.Writeln("Page 1.");
+builder.InsertBreak(BreakType.PageBreak);
+builder.Writeln("Page 2.");
+builder.InsertBreak(BreakType.PageBreak);
+builder.Writeln("Page 3.");
+
+using (Stream stream = File.Create(ArtifactsDir + "PdfSaveOptions.OnePage.pdf"))
+{
+    // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+    // to modify how that method converts the document to .PDF.
+    PdfSaveOptions options = new PdfSaveOptions();
+
+    // Set the "PageIndex" to "1" to render a portion of the document starting from the second page.
+    options.PageSet = new PageSet(1);
+
+    // This document will contain one page starting from page two, which will only contain the second page.
+    doc.Save(stream, options);
+}
 ```
 
 ### See Also

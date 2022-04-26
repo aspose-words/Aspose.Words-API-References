@@ -3,7 +3,7 @@ title: Opacity
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 100
+weight: 90
 url: /net/aspose.words.drawing/fill/opacity/
 ---
 ## Fill.Opacity property

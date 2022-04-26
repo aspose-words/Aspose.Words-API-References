@@ -3,7 +3,7 @@ title: DisplayDocTitle
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 260
+weight: 70
 url: /net/aspose.words.saving/pdfsaveoptions/displaydoctitle/
 ---
 ## PdfSaveOptions.DisplayDocTitle property

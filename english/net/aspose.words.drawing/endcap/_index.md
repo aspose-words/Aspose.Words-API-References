@@ -3,7 +3,7 @@ title: EndCap
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 800
+weight: 780
 url: /net/aspose.words.drawing/endcap/
 ---
 ## EndCap enumeration

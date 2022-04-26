@@ -14,11 +14,16 @@ A collection of [`BuildingBlock`](../buildingblock) objects in the document.
 public class BuildingBlockCollection : NodeCollection
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
 | [Item](item) { get; } | Retrieves a building block at the given index. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
 | [ToArray](toarray)() | Copies all building blocks from the collection to a new array of building blocks. |
 
 ### Remarks

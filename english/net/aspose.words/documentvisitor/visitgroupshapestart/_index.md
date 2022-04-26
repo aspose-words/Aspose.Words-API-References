@@ -3,7 +3,7 @@ title: VisitGroupShapeStart
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 320
+weight: 270
 url: /net/aspose.words/documentvisitor/visitgroupshapestart/
 ---
 ## DocumentVisitor.VisitGroupShapeStart method

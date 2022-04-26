@@ -3,7 +3,7 @@ title: FontSourceBase
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 2740
+weight: 2720
 url: /net/aspose.words.fonts/fontsourcebase/
 ---
 ## FontSourceBase class
@@ -14,13 +14,18 @@ This is an abstract base class for the classes that allow the user to specify va
 public abstract class FontSourceBase
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
 | [Priority](priority) { get; } | Returns the font source priority. |
 | abstract [Type](type) { get; } | Returns the type of the font source. |
 | [WarningCallback](warningcallback) { get; set; } | Called during processing of font source when an issue is detected that might result in formatting fidelity loss. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
 | [GetAvailableFonts](getavailablefonts)() | Returns list of fonts available via this source. |
 
 ### Examples

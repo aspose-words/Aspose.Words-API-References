@@ -3,7 +3,7 @@ title: RemoveMacros
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 140
+weight: 640
 url: /net/aspose.words/document/removemacros/
 ---
 ## Document.RemoveMacros method

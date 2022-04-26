@@ -3,7 +3,7 @@ title: NoLeading
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 210
+weight: 350
 url: /net/aspose.words.settings/compatibilityoptions/noleading/
 ---
 ## CompatibilityOptions.NoLeading property

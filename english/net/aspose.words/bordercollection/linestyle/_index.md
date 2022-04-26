@@ -3,7 +3,7 @@ title: LineStyle
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 130
+weight: 80
 url: /net/aspose.words/bordercollection/linestyle/
 ---
 ## BorderCollection.LineStyle property
@@ -16,7 +16,9 @@ public LineStyle LineStyle { get; set; }
 
 ### Remarks
 
-Returns the style of the first border in the collection.Sets the style of all borders in the collection excluding diagonal borders.
+Returns the style of the first border in the collection.
+
+Sets the style of all borders in the collection excluding diagonal borders.
 
 ### Examples
 

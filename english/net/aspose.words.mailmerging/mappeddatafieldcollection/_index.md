@@ -3,7 +3,7 @@ title: MappedDataFieldCollection
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 3590
+weight: 3560
 url: /net/aspose.words.mailmerging/mappeddatafieldcollection/
 ---
 ## MappedDataFieldCollection class
@@ -14,18 +14,23 @@ Allows to automatically map between names of fields in your data source and name
 public class MappedDataFieldCollection : IEnumerable<KeyValuePair<string, string>>
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
 | [Count](count) { get; } | Gets the number of elements contained in the collection. |
 | [Item](item) { get; set; } | Gets or sets the name of the field in the data source associated with the specified mail merge field. |
-| [Add](add)(…) | Adds a new field mapping. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [Add](add)(string, string) | Adds a new field mapping. |
 | [Clear](clear)() | Removes all elements from the collection. |
-| [ContainsKey](containskey)(…) | Determines whether a mapping from the specified field in the document exists in the collection. |
-| [ContainsValue](containsvalue)(…) | Determines whether a mapping from the specified field in the data source exists in the collection. |
+| [ContainsKey](containskey)(string) | Determines whether a mapping from the specified field in the document exists in the collection. |
+| [ContainsValue](containsvalue)(string) | Determines whether a mapping from the specified field in the data source exists in the collection. |
 | [GetEnumerator](getenumerator)() | Returns a dictionary enumerator object that can be used to iterate over all items in the collection. |
-| [Remove](remove)(…) | Removes a field mapping. |
+| [Remove](remove)(string) | Removes a field mapping. |
 
 ### Remarks
 

@@ -3,7 +3,7 @@ title: ShapeType
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 1110
+weight: 1090
 url: /net/aspose.words.drawing/shapetype/
 ---
 ## ShapeType enumeration
@@ -21,9 +21,9 @@ public enum ShapeType
 | Image | `75` | The shape is an image. |
 | TextBox | `202` | The shape is a textbox. Note that shapes of many other types can also have text inside them too. A shape does not have to have this type to contain text. |
 | Group | `-1` | The shape is a group shape. |
-| OleObject | `-2` | The shape is an OLE object. You cannot create shapes of this type in the document. |
-| OleControl | `201` | The shape is an ActiveX control. You cannot create shapes of this type in the document. |
-| NonPrimitive | `0` | A shape drawn by user and consisting of multiple segments and/or vertices (curve, freeform or scribble). You cannot create shapes of this type in the document. |
+| OleObject | `-2` | The shape is an OLE object. |
+| OleControl | `201` | The shape is an ActiveX control. |
+| NonPrimitive | `0` | A shape drawn by user and consisting of multiple segments and/or vertices (curve, freeform or scribble). |
 | Rectangle | `1` |  |
 | RoundRectangle | `2` |  |
 | Ellipse | `3` |  |
@@ -122,7 +122,7 @@ public enum ShapeType
 | VerticalScroll | `97` |  |
 | HorizontalScroll | `98` |  |
 | CircularArrow | `99` |  |
-| CustomShape | `100` | This shape type seems to be set for shapes that are not part of the standard set of the auto shapes in Microsoft Word. For example, if you insert a new auto shape from ClipArt. You cannot create shapes of this type in the document. |
+| CustomShape | `100` | This shape type seems to be set for shapes that are not part of the standard set of the auto shapes in Microsoft Word. For example, if you insert a new auto shape from ClipArt. |
 | UturnArrow | `101` |  |
 | CurvedRightArrow | `102` |  |
 | CurvedLeftArrow | `103` |  |

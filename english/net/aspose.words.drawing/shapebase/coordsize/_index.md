@@ -3,7 +3,7 @@ title: CoordSize
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 590
+weight: 120
 url: /net/aspose.words.drawing/shapebase/coordsize/
 ---
 ## ShapeBase.CoordSize property

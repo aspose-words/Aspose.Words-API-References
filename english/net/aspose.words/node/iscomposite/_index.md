@@ -3,7 +3,7 @@ title: IsComposite
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 150
+weight: 30
 url: /net/aspose.words/node/iscomposite/
 ---
 ## Node.IsComposite property

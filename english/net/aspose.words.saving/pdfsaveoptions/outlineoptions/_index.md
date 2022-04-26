@@ -3,7 +3,7 @@ title: OutlineOptions
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 40
+weight: 210
 url: /net/aspose.words.saving/pdfsaveoptions/outlineoptions/
 ---
 ## PdfSaveOptions.OutlineOptions property

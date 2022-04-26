@@ -3,7 +3,7 @@ title: Emboss
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 270
+weight: 100
 url: /net/aspose.words/font/emboss/
 ---
 ## Font.Emboss property

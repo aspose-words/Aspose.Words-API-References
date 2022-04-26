@@ -3,7 +3,7 @@ title: LineNumberRestartMode
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 3170
+weight: 3150
 url: /net/aspose.words/linenumberrestartmode/
 ---
 ## LineNumberRestartMode enumeration

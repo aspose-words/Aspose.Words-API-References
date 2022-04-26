@@ -14,7 +14,7 @@ Represents a collection of [`ChartDataLabel`](../chartdatalabel).
 public class ChartDataLabelCollection : IEnumerable<ChartDataLabel>
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -22,14 +22,19 @@ public class ChartDataLabelCollection : IEnumerable<ChartDataLabel>
 | [Item](item) { get; } | Returns [`ChartDataLabel`](../chartdatalabel) for the specified index. |
 | [NumberFormat](numberformat) { get; } | Gets an [`ChartNumberFormat`](../chartnumberformat) instance allowing to set number format for the data labels of the entire series. |
 | [Separator](separator) { get; set; } | Gets or sets string separator used for the data labels of the entire series. The default is a comma, except for pie charts showing only category name and percentage, when a line break shall be used instead. |
-| [ShowBubbleSize](showbubblesize) { get; set; } | Allows to specify whether bubble size is to be displayed for the data labels of the entire series. Applies only to Bubble charts. Default value is false. |
-| [ShowCategoryName](showcategoryname) { get; set; } | Allows to specify whether category name is to be displayed for the data labels of the entire series. Default value is false. |
-| [ShowDataLabelsRange](showdatalabelsrange) { get; set; } | Allows to specify whether values from data labels range to be displayed in the data labels of the entire series. Default value is false. |
-| [ShowLeaderLines](showleaderlines) { get; set; } | Allows to specify whether data label leader lines need be shown for the data labels of the entire series. Default value is false. |
-| [ShowLegendKey](showlegendkey) { get; set; } | Allows to specify whether legend key is to be displayed for the data labels of the entire series. Default value is false. |
-| [ShowPercentage](showpercentage) { get; set; } | Allows to specify whether percentage value is to be displayed for the data labels of the entire series. Default value is false. Applies only to Pie charts. |
-| [ShowSeriesName](showseriesname) { get; set; } | Returns or sets a Boolean to indicate the series name display behavior for the data labels of the entire series. True to show the series name. False to hide. By default false. |
-| [ShowValue](showvalue) { get; set; } | Allows to specify whether values are to be displayed in the data labels of the entire series. Default value is false. |
+| [ShowBubbleSize](showbubblesize) { get; set; } | Allows to specify whether bubble size is to be displayed for the data labels of the entire series. Applies only to Bubble charts. Default value is **false**. |
+| [ShowCategoryName](showcategoryname) { get; set; } | Allows to specify whether category name is to be displayed for the data labels of the entire series. Default value is **false**. |
+| [ShowDataLabelsRange](showdatalabelsrange) { get; set; } | Allows to specify whether values from data labels range to be displayed in the data labels of the entire series. Default value is **false**. |
+| [ShowLeaderLines](showleaderlines) { get; set; } | Allows to specify whether data label leader lines need be shown for the data labels of the entire series. Default value is **false**. |
+| [ShowLegendKey](showlegendkey) { get; set; } | Allows to specify whether legend key is to be displayed for the data labels of the entire series. Default value is **false**. |
+| [ShowPercentage](showpercentage) { get; set; } | Allows to specify whether percentage value is to be displayed for the data labels of the entire series. Default value is **false**. Applies only to Pie charts. |
+| [ShowSeriesName](showseriesname) { get; set; } | Returns or sets a Boolean to indicate the series name display behavior for the data labels of the entire series. **True** to show the series name. **False** to hide. By default **false**. |
+| [ShowValue](showvalue) { get; set; } | Allows to specify whether values are to be displayed in the data labels of the entire series. Default value is **false**. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
 | [ClearFormat](clearformat)() | Clears format of all [`ChartDataLabel`](../chartdatalabel) in this collection. |
 | [GetEnumerator](getenumerator)() | Returns an enumerator object. |
 

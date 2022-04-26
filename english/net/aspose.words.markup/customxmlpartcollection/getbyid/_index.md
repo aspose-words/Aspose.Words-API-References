@@ -3,7 +3,7 @@ title: GetById
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 50
+weight: 70
 url: /net/aspose.words.markup/customxmlpartcollection/getbyid/
 ---
 ## CustomXmlPartCollection.GetById method

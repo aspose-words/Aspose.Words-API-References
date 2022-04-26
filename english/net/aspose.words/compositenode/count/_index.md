@@ -3,7 +3,7 @@ title: Count
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 210
+weight: 20
 url: /net/aspose.words/compositenode/count/
 ---
 ## CompositeNode.Count property

@@ -3,12 +3,12 @@ title: AnotherSourceTag
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 110
+weight: 20
 url: /net/aspose.words.fields/fieldcitation/anothersourcetag/
 ---
 ## FieldCitation.AnotherSourceTag property
 
-Gets or sets a value that mathes the Tag element's value of another source to be included in the citation.
+Gets or sets a value that mathes the **Tag** element's value of another source to be included in the citation.
 
 ```csharp
 public string AnotherSourceTag { get; set; }

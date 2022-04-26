@@ -3,7 +3,7 @@ title: DataSource
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 80
+weight: 60
 url: /net/aspose.words.settings/mailmergesettings/datasource/
 ---
 ## MailMergeSettings.DataSource property

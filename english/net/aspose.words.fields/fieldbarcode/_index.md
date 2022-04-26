@@ -3,7 +3,7 @@ title: FieldBarcode
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 1450
+weight: 1430
 url: /net/aspose.words.fields/fieldbarcode/
 ---
 ## FieldBarcode class
@@ -14,11 +14,16 @@ Implements the BARCODE field.
 public class FieldBarcode : Field
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [FieldBarcode](fieldbarcode)() | The default constructor. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [FacingIdentificationMark](facingidentificationmark) { get; set; } | Gets or sets the type of a Facing Identification Mark (FIM) to insert. |
 | [IsBookmark](isbookmark) { get; set; } | Gets or sets whether [`PostalAddress`](./postaladdress) is the name of a bookmark. |
 | [IsUSPostalAddress](isuspostaladdress) { get; set; } | Gets or sets whether [`PostalAddress`](./postaladdress) is a U.S. postal address. |

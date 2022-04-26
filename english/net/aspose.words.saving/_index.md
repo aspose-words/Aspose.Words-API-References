@@ -1,12 +1,12 @@
 ---
 title: Aspose.Words.Saving
 second_title: Aspose.Words for .NET API Reference
-description: The Aspose.Words.Saving namespace provides classes and enumerations that allow to specify additional options for saving or converting documents.
+description: The **Aspose.Words.Saving** namespace provides classes and enumerations that allow to specify additional options for saving or converting documents.
 type: docs
 weight: 220
 url: /net/aspose.words.saving/
 ---
-The Aspose.Words.Saving namespace provides classes and enumerations that allow to specify additional options for saving or converting documents.
+The **Aspose.Words.Saving** namespace provides classes and enumerations that allow to specify additional options for saving or converting documents.
 
 ## Classes
 
@@ -71,7 +71,7 @@ The Aspose.Words.Saving namespace provides classes and enumerations that allow t
 | enum [Dml3DEffectsRenderingMode](./dml3deffectsrenderingmode) | Specifies how 3D shape effects are rendered. |
 | enum [DmlEffectsRenderingMode](./dmleffectsrenderingmode) | Specifies how DrawingML effects are rendered to fixed page formats. |
 | enum [DmlRenderingMode](./dmlrenderingmode) | Specifies how DrawingML shapes are rendered to fixed page formats. |
-| [Flags] enum [DocumentSplitCriteria](./documentsplitcriteria) | Specifies how the document is split into parts when saving to Html or Epub format. |
+| enum [DocumentSplitCriteria](./documentsplitcriteria) | Specifies how the document is split into parts when saving to Html or Epub format. |
 | enum [EmfPlusDualRenderingMode](./emfplusdualrenderingmode) | Specifies how Aspose.Words should render EMF+ Dual metafiles. |
 | enum [ExportFontFormat](./exportfontformat) | Indicates the format that is used to export fonts while rendering to HTML fixed format. |
 | enum [ExportHeadersFootersMode](./exportheadersfootersmode) | Specifies how headers and footers are exported to HTML, MHTML or EPUB. |
@@ -97,7 +97,7 @@ The Aspose.Words.Saving namespace provides classes and enumerations that allow t
 | enum [PdfImageColorSpaceExportMode](./pdfimagecolorspaceexportmode) | Specifies how the color space will be selected for the images in PDF document. |
 | enum [PdfImageCompression](./pdfimagecompression) | Specifies the type of compression applied to images in the PDF file. |
 | enum [PdfPageMode](./pdfpagemode) | Specifies how the PDF document should be displayed when opened in the PDF reader. |
-| [Flags] enum [PdfPermissions](./pdfpermissions) | Specifies the operations that are allowed to a user on an encrypted PDF document. |
+| enum [PdfPermissions](./pdfpermissions) | Specifies the operations that are allowed to a user on an encrypted PDF document. |
 | enum [PdfTextCompression](./pdftextcompression) | Specifies a type of compression applied to all content in the PDF file except images. |
 | enum [PdfZoomBehavior](./pdfzoombehavior) | Specifies the type of zoom applied to a PDF document when it is opened in a PDF viewer. |
 | enum [SvgTextOutputMode](./svgtextoutputmode) |  |

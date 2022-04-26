@@ -16,7 +16,9 @@ public int ConsecutiveHyphenLimit { get; set; }
 
 ### Remarks
 
-If value of this property is set to 0, any number of consecutive lines can end with hyphens.The property does not have effect when saving to fixed page formats e.g. PDF.
+If value of this property is set to 0, any number of consecutive lines can end with hyphens.
+
+The property does not have effect when saving to fixed page formats e.g. PDF.
 
 ### Examples
 

@@ -3,7 +3,7 @@ title: LeftPadding
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 30
+weight: 100
 url: /net/aspose.words/tablestyle/leftpadding/
 ---
 ## TableStyle.LeftPadding property

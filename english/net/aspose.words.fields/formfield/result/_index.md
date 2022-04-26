@@ -3,7 +3,7 @@ title: Result
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 70
+weight: 170
 url: /net/aspose.words.fields/formfield/result/
 ---
 ## FormField.Result property
@@ -16,7 +16,15 @@ public string Result { get; set; }
 
 ### Remarks
 
-For a text form field the result is the text that is in the field.For a checkbox form field the result can be "1" or "0" to indicate checked or unchecked.For a dropdown form field the result is the string selected in the dropdown.Setting `Result` for a text form field does not apply the text format specified in [`TextInputFormat`](../textinputformat). If you want to set a value and apply the format, use the [`SetTextInputValue`](../settextinputvalue) method.For a text form field the [`TextInputDefault`](../textinputdefault) value is applied if *value* is `null`.
+For a text form field the result is the text that is in the field.
+
+For a checkbox form field the result can be "1" or "0" to indicate checked or unchecked.
+
+For a dropdown form field the result is the string selected in the dropdown.
+
+Setting `Result` for a text form field does not apply the text format specified in [`TextInputFormat`](../textinputformat). If you want to set a value and apply the format, use the [`SetTextInputValue`](../settextinputvalue) method.
+
+For a text form field the [`TextInputDefault`](../textinputdefault) value is applied if *value* is `null`.
 
 ### Examples
 

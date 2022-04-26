@@ -3,7 +3,7 @@ title: RelativeHorizontalPosition
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 520
+weight: 400
 url: /net/aspose.words.drawing/shapebase/relativehorizontalposition/
 ---
 ## ShapeBase.RelativeHorizontalPosition property
@@ -16,7 +16,9 @@ public RelativeHorizontalPosition RelativeHorizontalPosition { get; set; }
 
 ### Remarks
 
-The default value is Column.Has effect only for top level floating shapes.
+The default value is Column.
+
+Has effect only for top level floating shapes.
 
 ### Examples
 

@@ -3,7 +3,7 @@ title: Section
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 5350
+weight: 5300
 url: /net/aspose.words/section/
 ---
 ## Section class
@@ -14,28 +14,48 @@ Represents a single section in a document.
 public sealed class Section : CompositeNode
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
-| [Section](section)(…) | Initializes a new instance of the Section class. |
-| [Body](body) { get; } | Returns the Body child node of the section. |
+| [Section](section)(DocumentBase) | Initializes a new instance of the Section class. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
+| [Body](body) { get; } | Returns the **Body** child node of the section. |
 | [HeadersFooters](headersfooters) { get; } | Provides access to the headers and footers nodes of the section. |
-| override [NodeType](nodetype) { get; } | Returns NodeType.Section. |
+| override [NodeType](nodetype) { get; } | Returns **NodeType.Section**. |
 | [PageSetup](pagesetup) { get; } | Returns an object that represents page setup and section properties. |
 | [ProtectedForForms](protectedforforms) { get; set; } | True if the section is protected for forms. When a section is protected for forms, users can select and modify text only in form fields in Microsoft Word. |
-| override [Accept](accept)(…) | Accepts a visitor. |
-| [AppendContent](appendcontent)(…) | Inserts a copy of content of the source section at the end of this section. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| override [Accept](accept)(DocumentVisitor) | Accepts a visitor. |
+| [AppendContent](appendcontent)(Section) | Inserts a copy of content of the source section at the end of this section. |
 | [ClearContent](clearcontent)() | Clears the section. |
 | [ClearHeadersFooters](clearheadersfooters)() | Clears the headers and footers of this section. |
 | [Clone](clone)() | Creates a duplicate of this section. |
 | [DeleteHeaderFooterShapes](deleteheaderfootershapes)() | Deletes all shapes (drawing objects) from the headers and footers of this section. |
 | [EnsureMinimum](ensureminimum)() | Ensures that the section has Body with one Paragraph. |
-| [PrependContent](prependcontent)(…) | Inserts a copy of content of the source section at the beginning of this section. |
+| [PrependContent](prependcontent)(Section) | Inserts a copy of content of the source section at the beginning of this section. |
 
 ### Remarks
 
-Section can have one [`Body`](./body) and maximum one [`HeaderFooter`](../headerfooter) of each [`HeaderFooterType`](../headerfootertype). Body and HeaderFooter nodes can be in any order inside Section.A minimal valid section needs to have Body with one Paragraph.Each section has its own set of properties that specify page size, orientation, margins etc.You can create a copy of a section using [`Clone`](../node/clone). The copy can be inserted into the same or different document.To add, insert or remove a whole section including section break and section properties use methods of the Sections object.To copy and insert just content of the section excluding the section break and section properties use AppendContent and PrependContent methods.
+**Section** can have one [`Body`](./body) and maximum one [`HeaderFooter`](../headerfooter) of each [`HeaderFooterType`](../headerfootertype). **Body** and **HeaderFooter** nodes can be in any order inside **Section**.
+
+A minimal valid section needs to have **Body** with one **Paragraph**.
+
+Each section has its own set of properties that specify page size, orientation, margins etc.
+
+You can create a copy of a section using [`Clone`](../node/clone). The copy can be inserted into the same or different document.
+
+To add, insert or remove a whole section including section break and section properties use methods of the **Sections** object.
+
+To copy and insert just content of the section excluding the section break and section properties use **AppendContent** and **PrependContent** methods.
 
 ### Examples
 

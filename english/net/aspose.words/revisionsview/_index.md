@@ -3,7 +3,7 @@ title: RevisionsView
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 4470
+weight: 4420
 url: /net/aspose.words/revisionsview/
 ---
 ## RevisionsView enumeration

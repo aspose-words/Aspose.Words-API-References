@@ -3,7 +3,7 @@ title: CustomXmlParts
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 580
+weight: 80
 url: /net/aspose.words/document/customxmlparts/
 ---
 ## Document.CustomXmlParts property

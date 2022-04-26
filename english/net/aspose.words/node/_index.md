@@ -3,7 +3,7 @@ title: Node
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 3870
+weight: 3820
 url: /net/aspose.words/node/
 ---
 ## Node class
@@ -14,7 +14,7 @@ Base class for all nodes of a Word document.
 public abstract class Node
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -25,20 +25,31 @@ public abstract class Node
 | abstract [NodeType](nodetype) { get; } | Gets the type of this node. |
 | [ParentNode](parentnode) { get; } | Gets the immediate parent of this node. |
 | [PreviousSibling](previoussibling) { get; } | Gets the node immediately preceding this node. |
-| [Range](range) { get; } | Returns a Range object that represents the portion of a document that is contained in this node. |
-| abstract [Accept](accept)(…) | Accepts a visitor. |
-| [Clone](clone)(…) | Creates a duplicate of the node. |
-| [GetAncestor](getancestor)(…) | Gets the first ancestor of the specified object type. (2 methods) |
+| [Range](range) { get; } | Returns a **Range** object that represents the portion of a document that is contained in this node. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| abstract [Accept](accept)(DocumentVisitor) | Accepts a visitor. |
+| [Clone](clone)(bool) | Creates a duplicate of the node. |
+| [GetAncestor](getancestor)(NodeType) | Gets the first ancestor of the specified [`NodeType`](../nodetype). |
+| [GetAncestor](getancestor)(Type) | Gets the first ancestor of the specified object type. |
 | virtual [GetText](gettext)() | Gets the text of this node and of all its children. |
-| [NextPreOrder](nextpreorder)(…) | Gets next node according to the pre-order tree traversal algorithm. |
-| [PreviousPreOrder](previouspreorder)(…) | Gets the previous node according to the pre-order tree traversal algorithm. |
+| [NextPreOrder](nextpreorder)(Node) | Gets next node according to the pre-order tree traversal algorithm. |
+| [PreviousPreOrder](previouspreorder)(Node) | Gets the previous node according to the pre-order tree traversal algorithm. |
 | [Remove](remove)() | Removes itself from the parent. |
-| [ToString](tostring)(…) | Exports the content of the node into a string in the specified format. (2 methods) |
-| static [NodeTypeToString](nodetypetostring)(…) | A utility method that converts a node type enum value into a user friendly string. |
+| [ToString](tostring)(SaveFormat) | Exports the content of the node into a string in the specified format. |
+| [ToString](tostring)(SaveOptions) | Exports the content of the node into a string using the specified save options. |
+| static [NodeTypeToString](nodetypetostring)(NodeType) | A utility method that converts a node type enum value into a user friendly string. |
 
 ### Remarks
 
-A document is represented as a tree of nodes, similar to DOM or XmlDocument.For more info see the Composite design pattern.The [`Node`](../node) class:
+A document is represented as a tree of nodes, similar to DOM or XmlDocument.
+
+For more info see the Composite design pattern.
+
+The [`Node`](../node) class:
 
 * Defines the child node interface.
 * Defines the interface for visiting nodes.

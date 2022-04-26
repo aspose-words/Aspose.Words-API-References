@@ -3,7 +3,7 @@ title: ParentStyle
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 70
+weight: 50
 url: /net/aspose.words/revision/parentstyle/
 ---
 ## Revision.ParentStyle property

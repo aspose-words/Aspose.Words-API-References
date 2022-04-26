@@ -3,7 +3,7 @@ title: IsDirty
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 40
+weight: 20
 url: /net/aspose.words.fields/fieldchar/isdirty/
 ---
 ## FieldChar.IsDirty property

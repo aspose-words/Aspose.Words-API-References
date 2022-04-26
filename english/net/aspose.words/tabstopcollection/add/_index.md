@@ -3,7 +3,7 @@ title: Add
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 60
+weight: 30
 url: /net/aspose.words/tabstopcollection/add/
 ---
 ## TabStopCollection.Add method (1 of 2)

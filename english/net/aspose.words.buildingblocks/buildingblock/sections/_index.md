@@ -3,7 +3,7 @@ title: Sections
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 40
+weight: 110
 url: /net/aspose.words.buildingblocks/buildingblock/sections/
 ---
 ## BuildingBlock.Sections property

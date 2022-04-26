@@ -3,7 +3,7 @@ title: ZOrder
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 430
+weight: 540
 url: /net/aspose.words.drawing/shapebase/zorder/
 ---
 ## ShapeBase.ZOrder property
@@ -16,7 +16,15 @@ public int ZOrder { get; set; }
 
 ### Remarks
 
-Has effect only for top level shapes.The default value is 0.The number represents the stacking precedence. A shape with a higher number will be displayed as if it were overlapping (in "front" of) a shape with a lower number. The order of overlapping shapes is independent for shapes in the header and in the main text of the document.The display order of child shapes in a group shape is determined by their order inside the group shape.
+Has effect only for top level shapes.
+
+The default value is 0.
+
+The number represents the stacking precedence. A shape with a higher number will be displayed as if it were overlapping (in "front" of) a shape with a lower number.
+
+The order of overlapping shapes is independent for shapes in the header and in the main text of the document.
+
+The display order of child shapes in a group shape is determined by their order inside the group shape.
 
 ### Examples
 

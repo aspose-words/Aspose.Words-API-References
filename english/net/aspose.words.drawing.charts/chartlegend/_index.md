@@ -14,11 +14,16 @@ Represents chart legend properties.
 public class ChartLegend
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
-| [LegendEntries](legendentries) { get; } | Returns a collection of legend entries for all series and trendlines of the parent chart. |
+| [ChartLegend](chartlegend)() | Initializes a new instance of the [`ChartLegend`](../chartlegend) class. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [Overlay](overlay) { get; set; } | Determines whether other chart elements shall be allowed to overlap legend. Default value is false. |
 | [Position](position) { get; set; } | Specifies the position of the legend on a chart. Default value is Right. |
 

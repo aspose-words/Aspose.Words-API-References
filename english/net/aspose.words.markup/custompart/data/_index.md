@@ -3,7 +3,7 @@ title: Data
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 70
+weight: 30
 url: /net/aspose.words.markup/custompart/data/
 ---
 ## CustomPart.Data property

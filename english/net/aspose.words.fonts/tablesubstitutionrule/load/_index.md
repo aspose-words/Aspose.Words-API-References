@@ -3,20 +3,20 @@ title: Load
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 10
+weight: 30
 url: /net/aspose.words.fonts/tablesubstitutionrule/load/
 ---
 ## TableSubstitutionRule.Load method (1 of 2)
 
-Loads table substitution settings from XML stream.
+Loads table substitution settings from XML file.
 
 ```csharp
-public void Load(Stream stream)
+public void Load(string fileName)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | Stream | Input stream. |
+| fileName | String | Input file name. |
 
 ### Examples
 
@@ -85,15 +85,15 @@ doc.Save(ArtifactsDir + "FontSettings.TableSubstitutionRule.Custom.pdf");
 
 ## TableSubstitutionRule.Load method (2 of 2)
 
-Loads table substitution settings from XML file.
+Loads table substitution settings from XML stream.
 
 ```csharp
-public void Load(string fileName)
+public void Load(Stream stream)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fileName | String | Input file name. |
+| stream | Stream | Input stream. |
 
 ### Examples
 

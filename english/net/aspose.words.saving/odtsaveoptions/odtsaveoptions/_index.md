@@ -40,6 +40,22 @@ doc.Save(ArtifactsDir + "OdtSaveOptions.Odt11Schema.odt", saveOptions);
 
 ## OdtSaveOptions constructor (2 of 3)
 
+Initializes a new instance of this class that can be used to save a document in the Odt format encrypted with a password.
+
+```csharp
+public OdtSaveOptions(string password)
+```
+
+### See Also
+
+* class [OdtSaveOptions](../../odtsaveoptions)
+* namespace [Aspose.Words.Saving](../../odtsaveoptions)
+* assembly [Aspose.Words](../../../)
+
+---
+
+## OdtSaveOptions constructor (3 of 3)
+
 Initializes a new instance of this class that can be used to save a document in the Odt or Ott format.
 
 ```csharp
@@ -85,22 +101,6 @@ Assert.AreEqual("Hello world!", doc.GetText().Trim());
 ### See Also
 
 * enum [SaveFormat](../../../aspose.words/saveformat)
-* class [OdtSaveOptions](../../odtsaveoptions)
-* namespace [Aspose.Words.Saving](../../odtsaveoptions)
-* assembly [Aspose.Words](../../../)
-
----
-
-## OdtSaveOptions constructor (3 of 3)
-
-Initializes a new instance of this class that can be used to save a document in the Odt format encrypted with a password.
-
-```csharp
-public OdtSaveOptions(string password)
-```
-
-### See Also
-
 * class [OdtSaveOptions](../../odtsaveoptions)
 * namespace [Aspose.Words.Saving](../../odtsaveoptions)
 * assembly [Aspose.Words](../../../)

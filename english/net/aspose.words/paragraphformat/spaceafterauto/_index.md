@@ -3,7 +3,7 @@ title: SpaceAfterAuto
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 230
+weight: 300
 url: /net/aspose.words/paragraphformat/spaceafterauto/
 ---
 ## ParagraphFormat.SpaceAfterAuto property

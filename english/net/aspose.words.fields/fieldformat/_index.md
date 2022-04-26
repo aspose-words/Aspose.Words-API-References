@@ -3,7 +3,7 @@ title: FieldFormat
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 1740
+weight: 1720
 url: /net/aspose.words.fields/fieldformat/
 ---
 ## FieldFormat class
@@ -14,7 +14,7 @@ Provides typed access to field's numeric, date and time, and general formatting.
 public class FieldFormat
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |

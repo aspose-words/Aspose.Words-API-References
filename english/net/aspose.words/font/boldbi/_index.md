@@ -3,7 +3,7 @@ title: BoldBi
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 160
+weight: 50
 url: /net/aspose.words/font/boldbi/
 ---
 ## Font.BoldBi property

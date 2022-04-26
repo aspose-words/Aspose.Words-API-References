@@ -3,7 +3,7 @@ title: CurrentUser
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 120
+weight: 40
 url: /net/aspose.words.fields/fieldoptions/currentuser/
 ---
 ## FieldOptions.CurrentUser property

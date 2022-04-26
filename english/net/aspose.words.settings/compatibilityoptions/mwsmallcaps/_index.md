@@ -3,7 +3,7 @@ title: MWSmallCaps
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 230
+weight: 320
 url: /net/aspose.words.settings/compatibilityoptions/mwsmallcaps/
 ---
 ## CompatibilityOptions.MWSmallCaps property

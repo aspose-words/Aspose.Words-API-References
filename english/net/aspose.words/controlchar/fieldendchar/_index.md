@@ -3,7 +3,7 @@ title: FieldEndChar
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 230
+weight: 80
 url: /net/aspose.words/controlchar/fieldendchar/
 ---
 ## ControlChar.FieldEndChar field

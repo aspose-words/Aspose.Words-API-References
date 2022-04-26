@@ -3,7 +3,7 @@ title: InsertCheckBox
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 300
+weight: 270
 url: /net/aspose.words/documentbuilder/insertcheckbox/
 ---
 ## DocumentBuilder.InsertCheckBox method (1 of 2)

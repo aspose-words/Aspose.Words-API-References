@@ -3,7 +3,7 @@ title: PageCount
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 680
+weight: 300
 url: /net/aspose.words/document/pagecount/
 ---
 ## Document.PageCount property

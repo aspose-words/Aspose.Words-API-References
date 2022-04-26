@@ -3,7 +3,7 @@ title: CharactersPerLine
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 110
+weight: 90
 url: /net/aspose.words/pagesetup/charactersperline/
 ---
 ## PageSetup.CharactersPerLine property

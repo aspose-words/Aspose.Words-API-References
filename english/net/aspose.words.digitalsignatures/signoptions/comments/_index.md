@@ -8,7 +8,7 @@ url: /net/aspose.words.digitalsignatures/signoptions/comments/
 ---
 ## SignOptions.Comments property
 
-Specifies comments on the digital signature. Default value is empty string (Empty).
+Specifies comments on the digital signature. Default value is **empty string** (Empty).
 
 ```csharp
 public string Comments { get; set; }

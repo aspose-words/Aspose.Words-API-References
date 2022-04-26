@@ -3,7 +3,7 @@ title: WrapType
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 560
+weight: 530
 url: /net/aspose.words.drawing/shapebase/wraptype/
 ---
 ## ShapeBase.WrapType property
@@ -16,7 +16,9 @@ public WrapType WrapType { get; set; }
 
 ### Remarks
 
-The default value is None.Has effect only for top level shapes.
+The default value is None.
+
+Has effect only for top level shapes.
 
 ### Examples
 

@@ -3,12 +3,12 @@ title: ReferenceMark
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 70
+weight: 50
 url: /net/aspose.words.notes/footnote/referencemark/
 ---
 ## Footnote.ReferenceMark property
 
-Gets/sets custom reference mark to be used for this footnote. Default value is empty string (Empty), meaning auto-numbered footnotes are used.
+Gets/sets custom reference mark to be used for this footnote. Default value is **empty string** (Empty), meaning auto-numbered footnotes are used.
 
 ```csharp
 public string ReferenceMark { get; set; }
@@ -16,7 +16,7 @@ public string ReferenceMark { get; set; }
 
 ### Remarks
 
-If this property is set to empty string (Empty) or null, then [`IsAuto`](../isauto) property will automatically be set to true, if set to anything else then [`IsAuto`](../isauto) will be set to false.
+If this property is set to **empty string** (Empty) or null, then [`IsAuto`](../isauto) property will automatically be set to true, if set to anything else then [`IsAuto`](../isauto) will be set to false.
 
 RTF-format can only store 1 symbol as custom reference mark, so upon export only the first symbol will be written others will be discard.
 

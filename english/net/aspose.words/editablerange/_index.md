@@ -3,7 +3,7 @@ title: EditableRange
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 1240
+weight: 1220
 url: /net/aspose.words/editablerange/
 ---
 ## EditableRange class
@@ -14,7 +14,7 @@ Represents a single editable range.
 public class EditableRange
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -23,6 +23,11 @@ public class EditableRange
 | [EditorGroup](editorgroup) { get; set; } | Returns or sets an alias (or editing group) which shall be used to determine if the current user shall be allowed to edit this editable range. |
 | [Id](id) { get; } | Gets the editable range identifier. |
 | [SingleUser](singleuser) { get; set; } | Returns or sets the single user for editable range. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
 | [Remove](remove)() | Removes the editable range from the document. Does not remove content inside the editable range. |
 
 ### Remarks

@@ -3,7 +3,7 @@ title: FieldDate
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 1570
+weight: 1550
 url: /net/aspose.words.fields/fielddate/
 ---
 ## FieldDate class
@@ -14,11 +14,16 @@ Implements the DATE field.
 public class FieldDate : Field
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [FieldDate](fielddate)() | The default constructor. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [UseLastFormat](uselastformat) { get; set; } | Gets or sets whether to use a format last used by the hosting application when inserting a new DATE field. |
 | [UseLunarCalendar](uselunarcalendar) { get; set; } | Gets or sets whether to use the Hijri Lunar or Hebrew Lunar calendar. |
 | [UseSakaEraCalendar](usesakaeracalendar) { get; set; } | Gets or sets whether to use the Saka Era calendar. |

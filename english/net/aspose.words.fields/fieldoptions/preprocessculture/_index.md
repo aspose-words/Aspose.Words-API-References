@@ -3,7 +3,7 @@ title: PreProcessCulture
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 110
+weight: 140
 url: /net/aspose.words.fields/fieldoptions/preprocessculture/
 ---
 ## FieldOptions.PreProcessCulture property
@@ -16,7 +16,9 @@ public CultureInfo PreProcessCulture { get; set; }
 
 ### Remarks
 
-Currently this property only affects value of the [`FieldDocProperty`](../../fielddocproperty) field.The default value is null. When this property is set to null, the [`FieldDocProperty`](../../fielddocproperty) field's value is preprocessed with the culture controlled by the [`FieldUpdateCultureSource`](../fieldupdateculturesource) property.
+Currently this property only affects value of the [`FieldDocProperty`](../../fielddocproperty) field.
+
+The default value is **null**. When this property is set to **null**, the [`FieldDocProperty`](../../fielddocproperty) field's value is preprocessed with the culture controlled by the [`FieldUpdateCultureSource`](../fieldupdateculturesource) property.
 
 ### Examples
 

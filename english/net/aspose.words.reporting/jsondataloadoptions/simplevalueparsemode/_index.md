@@ -3,7 +3,7 @@ title: SimpleValueParseMode
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 20
+weight: 40
 url: /net/aspose.words.reporting/jsondataloadoptions/simplevalueparsemode/
 ---
 ## JsonDataLoadOptions.SimpleValueParseMode property

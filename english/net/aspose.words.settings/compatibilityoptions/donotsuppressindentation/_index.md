@@ -3,7 +3,7 @@ title: DoNotSuppressIndentation
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 560
+weight: 180
 url: /net/aspose.words.settings/compatibilityoptions/donotsuppressindentation/
 ---
 ## CompatibilityOptions.DoNotSuppressIndentation property

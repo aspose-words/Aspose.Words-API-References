@@ -3,7 +3,7 @@ title: StoryType
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 50
+weight: 170
 url: /net/aspose.words.drawing/shape/storytype/
 ---
 ## Shape.StoryType property

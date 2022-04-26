@@ -3,7 +3,7 @@ title: WebExtensionReference
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 6400
+weight: 6350
 url: /net/aspose.words.webextensions/webextensionreference/
 ---
 ## WebExtensionReference class
@@ -14,11 +14,16 @@ Represents the reference to a web extension. The reference is used to identify t
 public class WebExtensionReference
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [WebExtensionReference](webextensionreference)() | The default constructor. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [Id](id) { get; set; } | Identifier associated with the web extension within a catalog provider. |
 | [Store](store) { get; set; } | Specifies the instance of the marketplace where the web extension is stored. |
 | [StoreType](storetype) { get; set; } | Specifies the type of marketplace. |

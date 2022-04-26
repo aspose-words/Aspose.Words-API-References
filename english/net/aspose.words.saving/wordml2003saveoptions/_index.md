@@ -3,7 +3,7 @@ title: WordML2003SaveOptions
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 5310
+weight: 5260
 url: /net/aspose.words.saving/wordml2003saveoptions/
 ---
 ## WordML2003SaveOptions class
@@ -14,11 +14,16 @@ Can be used to specify additional options when saving a document into the WordML
 public class WordML2003SaveOptions : SaveOptions
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [WordML2003SaveOptions](wordml2003saveoptions)() | The default constructor. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | override [SaveFormat](saveformat) { get; set; } | Specifies the format in which the document will be saved if this save options object is used. Can only be WordML. |
 
 ### Remarks

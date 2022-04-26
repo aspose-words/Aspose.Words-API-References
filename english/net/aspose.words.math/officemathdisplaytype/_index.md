@@ -3,7 +3,7 @@ title: OfficeMathDisplayType
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 3830
+weight: 3780
 url: /net/aspose.words.math/officemathdisplaytype/
 ---
 ## OfficeMathDisplayType enumeration

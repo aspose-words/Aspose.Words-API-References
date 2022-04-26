@@ -3,7 +3,7 @@ title: SectionStart
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 5380
+weight: 5330
 url: /net/aspose.words/sectionstart/
 ---
 ## SectionStart enumeration

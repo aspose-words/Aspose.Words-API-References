@@ -3,7 +3,7 @@ title: ShadowEnabled
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 70
+weight: 150
 url: /net/aspose.words.drawing/shape/shadowenabled/
 ---
 ## Shape.ShadowEnabled property

@@ -3,7 +3,7 @@ title: DoNotVertAlignInTxbx
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 640
+weight: 240
 url: /net/aspose.words.settings/compatibilityoptions/donotvertalignintxbx/
 ---
 ## CompatibilityOptions.DoNotVertAlignInTxbx property

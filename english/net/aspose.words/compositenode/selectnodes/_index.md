@@ -3,7 +3,7 @@ title: SelectNodes
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 40
+weight: 200
 url: /net/aspose.words/compositenode/selectnodes/
 ---
 ## CompositeNode.SelectNodes method

@@ -3,7 +3,7 @@ title: PdfEncryptionDetails
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 5090
+weight: 5040
 url: /net/aspose.words.saving/pdfencryptiondetails/
 ---
 ## PdfEncryptionDetails class
@@ -14,11 +14,16 @@ Contains details for encrypting and access permissions for a PDF document.
 public class PdfEncryptionDetails
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
-| [PdfEncryptionDetails](pdfencryptiondetails)(…) | Initializes an instance of this class. |
+| [PdfEncryptionDetails](pdfencryptiondetails)(string, string) | Initializes an instance of this class. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [OwnerPassword](ownerpassword) { get; set; } | Specifies the owner password for the encrypted PDF document. |
 | [Permissions](permissions) { get; set; } | Specifies the operations that are allowed to a user on an encrypted PDF document. The default value is DisallowAll. |
 | [UserPassword](userpassword) { get; set; } | Specifies the user password required for opening the encrypted PDF document. |

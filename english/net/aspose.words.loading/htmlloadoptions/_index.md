@@ -3,7 +3,7 @@ title: HtmlLoadOptions
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 3360
+weight: 3330
 url: /net/aspose.words.loading/htmlloadoptions/
 ---
 ## HtmlLoadOptions class
@@ -14,13 +14,18 @@ Allows to specify additional options when loading HTML document into a [`Documen
 public class HtmlLoadOptions : LoadOptions
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [HtmlLoadOptions](htmlloadoptions)() | Initializes a new instance of this class with default values. |
-| [HtmlLoadOptions](htmlloadoptions)(…) | A shortcut to initialize a new instance of this class with the specified password to load an encrypted document. (2 constructors) |
-| [BlockImportMode](blockimportmode) { get; set; } |  |
+| [HtmlLoadOptions](htmlloadoptions)(string) | A shortcut to initialize a new instance of this class with the specified password to load an encrypted document. |
+| [HtmlLoadOptions](htmlloadoptions)(LoadFormat, string, string) | A shortcut to initialize a new instance of this class with properties set to the specified values. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [ConvertSvgToEmf](convertsvgtoemf) { get; set; } | Gets or sets a value indicating whether to convert loaded SVG images to the EMF format. Default value is `false` and, if possible, loaded SVG images are stored as is without conversion. |
 | [IgnoreNoscriptElements](ignorenoscriptelements) { get; set; } | Gets or sets a value indicating whether to ignore &lt;noscript&gt; HTML elements. Default value is `false`. |
 | [PreferredControlType](preferredcontroltype) { get; set; } | Gets or sets preferred type of document nodes that will represent imported &lt;input&gt; and &lt;select&gt; elements. Default value is FormField. |

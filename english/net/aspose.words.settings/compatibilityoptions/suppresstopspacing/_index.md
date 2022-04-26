@@ -3,7 +3,7 @@ title: SuppressTopSpacing
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 90
+weight: 510
 url: /net/aspose.words.settings/compatibilityoptions/suppresstopspacing/
 ---
 ## CompatibilityOptions.SuppressTopSpacing property

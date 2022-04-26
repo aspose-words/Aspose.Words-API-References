@@ -3,7 +3,7 @@ title: InsertComboBox
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 310
+weight: 280
 url: /net/aspose.words/documentbuilder/insertcombobox/
 ---
 ## DocumentBuilder.InsertComboBox method

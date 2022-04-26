@@ -3,7 +3,7 @@ title: NumberSeparator
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 30
+weight: 90
 url: /net/aspose.words.fields/fieldref/numberseparator/
 ---
 ## FieldRef.NumberSeparator property

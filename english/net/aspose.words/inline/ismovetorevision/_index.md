@@ -8,7 +8,7 @@ url: /net/aspose.words/inline/ismovetorevision/
 ---
 ## Inline.IsMoveToRevision property
 
-Returns true if this object was moved (inserted) in Microsoft Word while change tracking was enabled.
+Returns **true** if this object was moved (inserted) in Microsoft Word while change tracking was enabled.
 
 ```csharp
 public bool IsMoveToRevision { get; }

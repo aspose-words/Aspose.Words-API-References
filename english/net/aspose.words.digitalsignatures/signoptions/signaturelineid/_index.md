@@ -3,12 +3,12 @@ title: SignatureLineId
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 40
+weight: 50
 url: /net/aspose.words.digitalsignatures/signoptions/signaturelineid/
 ---
 ## SignOptions.SignatureLineId property
 
-Signature line identifier. Default value is Empty (all zeroes) Guid.
+Signature line identifier. Default value is **Empty (all zeroes) Guid**.
 
 ```csharp
 public Guid SignatureLineId { get; set; }

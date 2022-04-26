@@ -14,12 +14,12 @@ Represents data label on a chart point or trendline.
 public class ChartDataLabel
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
 | [Index](index) { get; } | Specifies the index of the containing element. This index shall determine which of the parent's children collection this element applies to. Default value is 0. |
-| [IsHidden](ishidden) { get; set; } | Gets/sets a flag indicating whether this label is hidden. The default value is false. |
+| [IsHidden](ishidden) { get; set; } | Gets/sets a flag indicating whether this label is hidden. The default value is **false**. |
 | [IsVisible](isvisible) { get; } | Returns true if this data label has something to display. |
 | [NumberFormat](numberformat) { get; } | Returns number format of the parent element. |
 | [Separator](separator) { get; set; } | Gets or sets string separator used for the data labels on a chart. The default is a comma, except for pie charts showing only category name and percentage, when a line break shall be used instead. |
@@ -31,6 +31,11 @@ public class ChartDataLabel
 | [ShowPercentage](showpercentage) { get; set; } | Allows to specify if percentage value is to be displayed for the data labels on a chart. Default value is false. |
 | [ShowSeriesName](showseriesname) { get; set; } | Returns or sets a Boolean to indicate the series name display behavior for the data labels on a chart. True to show the series name. False to hide. By default false. |
 | [ShowValue](showvalue) { get; set; } | Allows to specify if values are to be displayed in the data labels. Default value is false. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
 | [ClearFormat](clearformat)() | Clears format of this data label. The properties are set to the default values defined in the parent data label collection. |
 
 ### Remarks

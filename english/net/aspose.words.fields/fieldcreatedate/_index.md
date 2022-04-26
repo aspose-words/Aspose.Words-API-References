@@ -3,7 +3,7 @@ title: FieldCreateDate
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 1540
+weight: 1520
 url: /net/aspose.words.fields/fieldcreatedate/
 ---
 ## FieldCreateDate class
@@ -14,11 +14,16 @@ Implements the CREATEDATE field.
 public class FieldCreateDate : Field
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [FieldCreateDate](fieldcreatedate)() | The default constructor. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [UseLunarCalendar](uselunarcalendar) { get; set; } | Gets or sets whether to use the Hijri Lunar or Hebrew Lunar calendar. |
 | [UseSakaEraCalendar](usesakaeracalendar) { get; set; } | Gets or sets whether to use the Saka Era calendar. |
 | [UseUmAlQuraCalendar](useumalquracalendar) { get; set; } | Gets or sets whether to use the Um-al-Qura calendar. |

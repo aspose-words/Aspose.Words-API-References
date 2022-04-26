@@ -3,7 +3,7 @@ title: PresetTexture
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 1040
+weight: 1020
 url: /net/aspose.words.drawing/presettexture/
 ---
 ## PresetTexture enumeration

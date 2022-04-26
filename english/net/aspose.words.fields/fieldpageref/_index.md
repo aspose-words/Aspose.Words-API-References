@@ -3,7 +3,7 @@ title: FieldPageRef
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 2070
+weight: 2050
 url: /net/aspose.words.fields/fieldpageref/
 ---
 ## FieldPageRef class
@@ -14,11 +14,16 @@ Implements the PAGEREF field.
 public class FieldPageRef : Field
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [FieldPageRef](fieldpageref)() | The default constructor. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [BookmarkName](bookmarkname) { get; set; } | Gets or sets the name of the bookmark. |
 | [InsertHyperlink](inserthyperlink) { get; set; } | Gets or sets whether to insert a hyperlink to the bookmarked paragraph. |
 | [InsertRelativePosition](insertrelativeposition) { get; set; } | Gets or sets whether to insert a relative position of the bookmarked paragraph. |

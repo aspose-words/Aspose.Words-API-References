@@ -3,7 +3,7 @@ title: TxtListIndentation
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 5280
+weight: 5230
 url: /net/aspose.words.saving/txtlistindentation/
 ---
 ## TxtListIndentation class
@@ -14,11 +14,16 @@ Specifies how list levels are indented when document is exporting to Text format
 public class TxtListIndentation
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [TxtListIndentation](txtlistindentation)() | The default constructor. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [Character](character) { get; set; } | Gets or sets which character to use for indenting list levels. The default value is '\0', that means there is no indentation. |
 | [Count](count) { get; set; } | Gets or sets how many [`Character`](./character) to use as indentation per one list level. The default value is 0, that means no indentation. |
 

@@ -3,20 +3,20 @@ title: Item
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 90
+weight: 20
 url: /net/aspose.words.markup/customxmlpropertycollection/item/
 ---
 ## CustomXmlPropertyCollection indexer (1 of 2)
 
-Gets a property at the specified index.
+Gets a property with the specified name.
 
 ```csharp
-public CustomXmlProperty this[int index] { get; }
+public CustomXmlProperty this[string name] { get; }
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| index |  | Zero-based index of the property. |
+| name |  | Case-sensitive name of the property to locate. |
 
 ### Examples
 
@@ -83,15 +83,15 @@ Assert.AreEqual(0, properties.Count);
 
 ## CustomXmlPropertyCollection indexer (2 of 2)
 
-Gets a property with the specified name.
+Gets a property at the specified index.
 
 ```csharp
-public CustomXmlProperty this[string name] { get; }
+public CustomXmlProperty this[int index] { get; }
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name |  | Case-sensitive name of the property to locate. |
+| index |  | Zero-based index of the property. |
 
 ### Examples
 

@@ -3,7 +3,7 @@ title: Accept
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 10
+weight: 20
 url: /net/aspose.words/specialchar/accept/
 ---
 ## SpecialChar.Accept method
@@ -24,7 +24,9 @@ False if the visitor requested the enumeration to stop.
 
 ### Remarks
 
-Calls DocumentVisitor.VisitSpecialChar.For more info see the Visitor design pattern.
+Calls DocumentVisitor.VisitSpecialChar.
+
+For more info see the Visitor design pattern.
 
 ### See Also
 

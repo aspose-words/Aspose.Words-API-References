@@ -3,7 +3,7 @@ title: VerticalAlignment
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 1200
+weight: 1180
 url: /net/aspose.words.drawing/verticalalignment/
 ---
 ## VerticalAlignment enumeration
@@ -18,7 +18,7 @@ public enum VerticalAlignment
 
 | Name | Value | Description |
 | --- | --- | --- |
-| None | `0` | The object is explicitly positioned, usually using its Top property. |
+| None | `0` | The object is explicitly positioned, usually using its **Top** property. |
 | Top | `1` | Specifies that the object shall be at the top of the vertical alignment base. |
 | Center | `2` | Specifies that the object shall be centered with respect to the vertical alignment base. |
 | Bottom | `3` | Specifies that the object shall be at the bottom of the vertical alignment base. |

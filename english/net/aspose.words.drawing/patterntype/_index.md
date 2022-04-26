@@ -3,7 +3,7 @@ title: PatternType
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 1030
+weight: 1010
 url: /net/aspose.words.drawing/patterntype/
 ---
 ## PatternType enumeration

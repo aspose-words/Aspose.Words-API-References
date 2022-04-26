@@ -3,7 +3,7 @@ title: FontSavingArgs
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 4690
+weight: 4640
 url: /net/aspose.words.saving/fontsavingargs/
 ---
 ## FontSavingArgs class
@@ -14,7 +14,7 @@ Provides data for the [`FontSaving`](../ifontsavingcallback/fontsaving) event.
 public class FontSavingArgs
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -32,7 +32,7 @@ public class FontSavingArgs
 
 ### Remarks
 
-When Aspose.Words saves a document to HTML or related formats and [`ExportFontResources`](../htmlsaveoptions/exportfontresources) is set to true, it saves each font subject for export into a separate file.
+When Aspose.Words saves a document to HTML or related formats and [`ExportFontResources`](../htmlsaveoptions/exportfontresources) is set to **true**, it saves each font subject for export into a separate file.
 
 [`FontSavingArgs`](../fontsavingargs) controls whether particular font resource should be exported and how.
 

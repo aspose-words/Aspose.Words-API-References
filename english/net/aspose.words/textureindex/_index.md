@@ -3,7 +3,7 @@ title: TextureIndex
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 6060
+weight: 6010
 url: /net/aspose.words/textureindex/
 ---
 ## TextureIndex enumeration

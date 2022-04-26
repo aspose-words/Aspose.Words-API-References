@@ -3,7 +3,7 @@ title: IndexOf
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 140
+weight: 130
 url: /net/aspose.words/compositenode/indexof/
 ---
 ## CompositeNode.IndexOf method

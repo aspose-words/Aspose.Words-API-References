@@ -3,7 +3,7 @@ title: HasDmlEffect
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 10
+weight: 560
 url: /net/aspose.words/font/hasdmleffect/
 ---
 ## Font.HasDmlEffect method

@@ -3,7 +3,7 @@ title: CommentDisplayMode
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 3030
+weight: 3010
 url: /net/aspose.words.layout/commentdisplaymode/
 ---
 ## CommentDisplayMode enumeration

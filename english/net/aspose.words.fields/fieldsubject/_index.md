@@ -3,7 +3,7 @@ title: FieldSubject
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 2250
+weight: 2230
 url: /net/aspose.words.fields/fieldsubject/
 ---
 ## FieldSubject class
@@ -14,16 +14,21 @@ Implements the SUBJECT field.
 public class FieldSubject : Field
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [FieldSubject](fieldsubject)() | The default constructor. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [Text](text) { get; set; } | Gets or sets the text of the subject. |
 
 ### Remarks
 
-Retrieves, and optionally sets, the document's subject, as recorded in the Subject property of the built-in document properties.
+Retrieves, and optionally sets, the document's subject, as recorded in the **Subject** property of the built-in document properties.
 
 ### Examples
 

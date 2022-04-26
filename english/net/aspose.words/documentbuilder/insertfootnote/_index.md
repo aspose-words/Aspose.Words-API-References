@@ -3,7 +3,7 @@ title: InsertFootnote
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 320
+weight: 310
 url: /net/aspose.words/documentbuilder/insertfootnote/
 ---
 ## DocumentBuilder.InsertFootnote method (1 of 2)

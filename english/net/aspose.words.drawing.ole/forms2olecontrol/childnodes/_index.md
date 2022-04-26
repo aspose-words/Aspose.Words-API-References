@@ -3,7 +3,7 @@ title: ChildNodes
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 40
+weight: 20
 url: /net/aspose.words.drawing.ole/forms2olecontrol/childnodes/
 ---
 ## Forms2OleControl.ChildNodes property
@@ -16,7 +16,7 @@ public Forms2OleControlCollection ChildNodes { get; }
 
 ### Remarks
 
-Returns null if this control can not have children.
+Returns **null** if this control can not have children.
 
 ### Examples
 

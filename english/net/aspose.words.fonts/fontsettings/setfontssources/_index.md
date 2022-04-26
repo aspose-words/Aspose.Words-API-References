@@ -3,7 +3,7 @@ title: SetFontsSources
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 30
+weight: 100
 url: /net/aspose.words.fonts/fontsettings/setfontssources/
 ---
 ## FontSettings.SetFontsSources method (1 of 2)
@@ -96,7 +96,7 @@ public void SetFontsSources(FontSourceBase[] sources, Stream cacheInputStream)
 
 Loading previously saved font search cache will speed up the font cache initialization process. It is especially useful when access to font sources is complicated (e.g. when fonts are loaded via network).
 
-When saving and loading font search cache, fonts in the provided sources are identified via cache key. For the fonts in the [`SystemFontSource`](../../systemfontsource) and [`FolderFontSource`](../../folderfontsource) cache key is the path to the font file. For [`MemoryFontSource`](../../memoryfontsource) and [`StreamFontSource`](../../streamfontsource) cache key is defined in the [`CacheKey`](../../memoryfontsource/cachekey) and [`CacheKey`](../../streamfontsource/cachekey) properties respectively. For the [`FileFontSource`](../../filefontsource) cache key is either [`CacheKey`](../../filefontsource/cachekey) property or a file path if the [`CacheKey`](../../filefontsource/cachekey) is null.
+When saving and loading font search cache, fonts in the provided sources are identified via cache key. For the fonts in the [`SystemFontSource`](../../systemfontsource) and [`FolderFontSource`](../../folderfontsource) cache key is the path to the font file. For [`MemoryFontSource`](../../memoryfontsource) and [`StreamFontSource`](../../streamfontsource) cache key is defined in the [`CacheKey`](../../memoryfontsource/cachekey) and [`CacheKey`](../../streamfontsource/cachekey) properties respectively. For the [`FileFontSource`](../../filefontsource) cache key is either [`CacheKey`](../../filefontsource/cachekey) property or a file path if the [`CacheKey`](../../filefontsource/cachekey) is **null**.
 
 It is highly recommended to provide the same font sources when loading cache as at the time the cache was saved. Any changes in the font sources (e.g. adding new fonts, moving font files or changing the cache key) may lead to the inaccurate font resolving by Aspose.Words.
 

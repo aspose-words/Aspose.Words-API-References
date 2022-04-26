@@ -3,7 +3,7 @@ title: SvgSaveOptions
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 5230
+weight: 5180
 url: /net/aspose.words.saving/svgsaveoptions/
 ---
 ## SvgSaveOptions class
@@ -14,13 +14,18 @@ Can be used to specify additional options when saving a document into the Svg fo
 public class SvgSaveOptions : FixedPageSaveOptions
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [SvgSaveOptions](svgsaveoptions)() | The default constructor. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [ExportEmbeddedImages](exportembeddedimages) { get; set; } | Specified whether images should be embedded into SVG document as base64. Note setting this flag can significantly increase size of output SVG file. |
-| [FitToViewPort](fittoviewport) { get; set; } | Specifies if the output SVG should fill the available viewport area (browser window or container). When set to true width and height of output SVG are set to 100%. The default value is false. |
+| [FitToViewPort](fittoviewport) { get; set; } | Specifies if the output SVG should fill the available viewport area (browser window or container). When set to true width and height of output SVG are set to 100%. |
 | [ResourceSavingCallback](resourcesavingcallback) { get; set; } | Allows to control how resources (images) are saved when a document is exported to SVG format. |
 | [ResourcesFolder](resourcesfolder) { get; set; } | Specifies the physical folder where resources (images) are saved when exporting a document to Svg format. Default is `null`. |
 | [ResourcesFolderAlias](resourcesfolderalias) { get; set; } | Specifies the name of the folder used to construct image URIs written into an SVG document. Default is `null`. |

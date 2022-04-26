@@ -3,7 +3,7 @@ title: LoadFormat
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 3290
+weight: 3270
 url: /net/aspose.words/loadformat/
 ---
 ## LoadFormat enumeration

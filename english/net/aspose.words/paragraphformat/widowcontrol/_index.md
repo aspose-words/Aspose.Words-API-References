@@ -3,7 +3,7 @@ title: WidowControl
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 90
+weight: 390
 url: /net/aspose.words/paragraphformat/widowcontrol/
 ---
 ## ParagraphFormat.WidowControl property

@@ -3,7 +3,7 @@ title: AutomaticallyUpdateStyles
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 310
+weight: 30
 url: /net/aspose.words/document/automaticallyupdatestyles/
 ---
 ## Document.AutomaticallyUpdateStyles property

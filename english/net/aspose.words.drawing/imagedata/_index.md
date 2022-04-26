@@ -3,7 +3,7 @@ title: ImageData
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 920
+weight: 900
 url: /net/aspose.words.drawing/imagedata/
 ---
 ## ImageData class
@@ -14,7 +14,7 @@ Defines an image for a shape.
 public class ImageData
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -36,15 +36,29 @@ public class ImageData
 | [IsLinkOnly](islinkonly) { get; } | Returns true if the image is linked and not stored in the document. |
 | [SourceFullName](sourcefullname) { get; set; } | Gets or sets the path and name of the source file for the linked image. |
 | [Title](title) { get; set; } | Defines the title of an image. |
-| [Save](save)(…) | Saves the image into the specified stream. (2 methods) |
-| [SetImage](setimage)(…) |  (3 methods) |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [Save](save)(Stream) | Saves the image into the specified stream. |
+| [Save](save)(string) | Saves the image into a file. |
+| [SetImage](setimage)(SKBitmap) |  |
+| [SetImage](setimage)(Stream) | Sets the image that the shape displays. |
+| [SetImage](setimage)(string) | Sets the image that the shape displays. |
 | [ToByteArray](tobytearray)() | Returns image bytes for any image regardless whether the image is stored or linked. |
 | [ToImage](toimage)() | Gets the image stored in the shape as a Image object. |
 | [ToStream](tostream)() | Creates and returns a stream that contains the image bytes. |
 
 ### Remarks
 
-Use the [`ImageData`](../shape/imagedata) property to access and modify the image inside a shape. You do not create instances of the [`ImageData`](../imagedata) class directly.An image can be stored inside a shape, linked to external file or both (linked and stored in the document).Regardless of whether the image is stored inside the shape or linked, you can always access the actual image using the [`ToByteArray`](./tobytearray), [`ToStream`](./tostream), [`ToImage`](./toimage) or [`Save`](./save) methods. If the image is stored inside the shape, you can also directly access it using the [`ImageBytes`](./imagebytes) property.To store an image inside a shape use the [`SetImage`](./setimage) method. To link an image to a shape, set the [`SourceFullName`](./sourcefullname) property.
+Use the [`ImageData`](../shape/imagedata) property to access and modify the image inside a shape. You do not create instances of the [`ImageData`](../imagedata) class directly.
+
+An image can be stored inside a shape, linked to external file or both (linked and stored in the document).
+
+Regardless of whether the image is stored inside the shape or linked, you can always access the actual image using the [`ToByteArray`](./tobytearray), [`ToStream`](./tostream), [`ToImage`](./toimage) or [`Save`](./save) methods. If the image is stored inside the shape, you can also directly access it using the [`ImageBytes`](./imagebytes) property.
+
+To store an image inside a shape use the [`SetImage`](./setimage) method. To link an image to a shape, set the [`SourceFullName`](./sourcefullname) property.
 
 ### Examples
 

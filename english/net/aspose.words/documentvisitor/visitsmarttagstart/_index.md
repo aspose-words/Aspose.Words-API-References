@@ -3,7 +3,7 @@ title: VisitSmartTagStart
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 380
+weight: 420
 url: /net/aspose.words/documentvisitor/visitsmarttagstart/
 ---
 ## DocumentVisitor.VisitSmartTagStart method

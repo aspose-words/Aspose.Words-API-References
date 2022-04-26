@@ -3,7 +3,7 @@ title: TwoColorGradient
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 50
+weight: 210
 url: /net/aspose.words.drawing/fill/twocolorgradient/
 ---
 ## Fill.TwoColorGradient method (1 of 2)

@@ -3,7 +3,7 @@ title: Height
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 370
+weight: 200
 url: /net/aspose.words.drawing/shapebase/height/
 ---
 ## ShapeBase.Height property
@@ -16,7 +16,11 @@ public double Height { get; set; }
 
 ### Remarks
 
-For a top-level shape, the value is in points.For shapes in a group, the value is in the coordinate space and units of the parent group.The default value is 0.
+For a top-level shape, the value is in points.
+
+For shapes in a group, the value is in the coordinate space and units of the parent group.
+
+The default value is 0.
 
 ### Examples
 

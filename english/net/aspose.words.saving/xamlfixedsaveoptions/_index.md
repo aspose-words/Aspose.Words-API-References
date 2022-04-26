@@ -3,7 +3,7 @@ title: XamlFixedSaveOptions
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 5320
+weight: 5270
 url: /net/aspose.words.saving/xamlfixedsaveoptions/
 ---
 ## XamlFixedSaveOptions class
@@ -14,11 +14,16 @@ Can be used to specify additional options when saving a document into the XamlFi
 public class XamlFixedSaveOptions : FixedPageSaveOptions
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [XamlFixedSaveOptions](xamlfixedsaveoptions)() | The default constructor. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [ResourceSavingCallback](resourcesavingcallback) { get; set; } | Allows to control how resources (images and fonts) are saved when a document is exported to fixed page Xaml format. |
 | [ResourcesFolder](resourcesfolder) { get; set; } | Specifies the physical folder where resources (images and fonts) are saved when exporting a document to fixed page Xaml format. Default is `null`. |
 | [ResourcesFolderAlias](resourcesfolderalias) { get; set; } | Specifies the name of the folder used to construct image URIs written into an fixed page Xaml document. Default is `null`. |

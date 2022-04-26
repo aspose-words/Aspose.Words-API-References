@@ -3,12 +3,12 @@ title: BuildingBlockCategory
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 300
+weight: 30
 url: /net/aspose.words.markup/structureddocumenttag/buildingblockcategory/
 ---
 ## StructuredDocumentTag.BuildingBlockCategory property
 
-Specifies category of building block for this SDT node. Can not be null.
+Specifies category of building block for this **SDT** node. Can not be null.
 
 ```csharp
 public string BuildingBlockCategory { get; set; }
@@ -16,7 +16,7 @@ public string BuildingBlockCategory { get; set; }
 
 ### Remarks
 
-Accessing this property will only work for BuildingBlockGallery and DocPartObj SDT types. It is read-only for SDT of the document part type.
+Accessing this property will only work for BuildingBlockGallery and DocPartObj SDT types. It is read-only for **SDT** of the document part type.
 
 For all other SDT types exception will occur.
 

@@ -3,7 +3,7 @@ title: FontSubstitutionSettings
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 2770
+weight: 2750
 url: /net/aspose.words.fonts/fontsubstitutionsettings/
 ---
 ## FontSubstitutionSettings class
@@ -14,7 +14,7 @@ Specifies font substitution mechanism settings.
 public class FontSubstitutionSettings
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |

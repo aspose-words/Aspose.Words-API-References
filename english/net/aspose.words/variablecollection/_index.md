@@ -3,7 +3,7 @@ title: VariableCollection
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 6140
+weight: 6090
 url: /net/aspose.words/variablecollection/
 ---
 ## VariableCollection class
@@ -14,23 +14,30 @@ A collection of document variables.
 public class VariableCollection : IEnumerable<KeyValuePair<string, string>>
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
 | [Count](count) { get; } | Gets the number of elements contained in the collection. |
 | [Item](item) { get; set; } | Gets or a sets a document variable by the case-insensitive name. null values are not allowed as a right hand side of the assignment and will be replaced by empty string. (2 indexers) |
-| [Add](add)(…) | Adds a document variable to the collection. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [Add](add)(string, string) | Adds a document variable to the collection. |
 | [Clear](clear)() | Removes all elements from the collection. |
-| [Contains](contains)(…) | Determines whether the collection contains a document variable with the given name. |
+| [Contains](contains)(string) | Determines whether the collection contains a document variable with the given name. |
 | [GetEnumerator](getenumerator)() | Returns an enumerator object that can be used to iterate over all variable in the collection. |
-| [IndexOfKey](indexofkey)(…) | Returns the zero-based index of the specified document variable in the collection. |
-| [Remove](remove)(…) | Removes a document variable with the specified name from the collection. |
-| [RemoveAt](removeat)(…) | Removes a document variable at the specified index. |
+| [IndexOfKey](indexofkey)(string) | Returns the zero-based index of the specified document variable in the collection. |
+| [Remove](remove)(string) | Removes a document variable with the specified name from the collection. |
+| [RemoveAt](removeat)(int) | Removes a document variable at the specified index. |
 
 ### Remarks
 
-Variable names and values are strings.Variable names are case-insensitive.
+Variable names and values are strings.
+
+Variable names are case-insensitive.
 
 ### Examples
 

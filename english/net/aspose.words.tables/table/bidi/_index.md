@@ -3,7 +3,7 @@ title: Bidi
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 180
+weight: 80
 url: /net/aspose.words.tables/table/bidi/
 ---
 ## Table.Bidi property

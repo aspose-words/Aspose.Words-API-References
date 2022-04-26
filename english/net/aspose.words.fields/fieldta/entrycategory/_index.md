@@ -3,7 +3,7 @@ title: EntryCategory
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 30
+weight: 20
 url: /net/aspose.words.fields/fieldta/entrycategory/
 ---
 ## FieldTA.EntryCategory property

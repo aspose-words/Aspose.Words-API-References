@@ -3,7 +3,7 @@ title: FlipOrientation
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 830
+weight: 810
 url: /net/aspose.words.drawing/fliporientation/
 ---
 ## FlipOrientation enumeration
@@ -19,10 +19,10 @@ public enum FlipOrientation
 
 | Name | Value | Description |
 | --- | --- | --- |
-| None | `0x0` | Coordinates are not flipped. |
-| Horizontal | `0x1` | Flip along the y-axis, reversing the x-coordinates. |
-| Vertical | `0x2` | Flip along the x-axis, reversing the y-coordinates. |
-| Both | `0x3` | Flip along both the y- and x-axis. |
+| None | `0` | Coordinates are not flipped. |
+| Horizontal | `1` | Flip along the y-axis, reversing the x-coordinates. |
+| Vertical | `2` | Flip along the x-axis, reversing the y-coordinates. |
+| Both | `3` | Flip along both the y- and x-axis. |
 
 ### Examples
 

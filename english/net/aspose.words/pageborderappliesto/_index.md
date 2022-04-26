@@ -3,7 +3,7 @@ title: PageBorderAppliesTo
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 4040
+weight: 3990
 url: /net/aspose.words/pageborderappliesto/
 ---
 ## PageBorderAppliesTo enumeration

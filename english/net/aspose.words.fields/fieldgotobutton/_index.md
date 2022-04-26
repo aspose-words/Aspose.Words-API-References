@@ -3,7 +3,7 @@ title: FieldGoToButton
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 1770
+weight: 1750
 url: /net/aspose.words.fields/fieldgotobutton/
 ---
 ## FieldGoToButton class
@@ -14,11 +14,16 @@ Implements the GOTOBUTTON field.
 public class FieldGoToButton : Field
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [FieldGoToButton](fieldgotobutton)() | The default constructor. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [DisplayText](displaytext) { get; set; } | Gets or sets the text of the "button" that appears in the document, such that it can be selected to activate the jump. |
 | [Location](location) { get; set; } | Gets or sets the name of a bookmark, a page number, or some other item to jump to. |
 

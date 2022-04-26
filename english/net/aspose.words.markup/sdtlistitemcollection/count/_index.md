@@ -3,7 +3,7 @@ title: Count
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 70
+weight: 10
 url: /net/aspose.words.markup/sdtlistitemcollection/count/
 ---
 ## SdtListItemCollection.Count property

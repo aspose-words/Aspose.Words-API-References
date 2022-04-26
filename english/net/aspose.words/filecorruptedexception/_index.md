@@ -3,7 +3,7 @@ title: FileCorruptedException
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 2560
+weight: 2540
 url: /net/aspose.words/filecorruptedexception/
 ---
 ## FileCorruptedException class

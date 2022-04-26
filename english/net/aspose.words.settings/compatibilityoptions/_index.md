@@ -3,18 +3,18 @@ title: CompatibilityOptions
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 5400
+weight: 5350
 url: /net/aspose.words.settings/compatibilityoptions/
 ---
 ## CompatibilityOptions class
 
-Contains compatibility options (that is, the user preferences entered on the Compatibility tab of the Options dialog in Microsoft Word).
+Contains compatibility options (that is, the user preferences entered on the **Compatibility** tab of the **Options** dialog in Microsoft Word).
 
 ```csharp
 public class CompatibilityOptions
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -74,7 +74,7 @@ public class CompatibilityOptions
 | [SwapInsideAndOutsideForMirrorIndentsAndRelativePositioning](swapinsideandoutsideformirrorindentsandrelativepositioning) { get; set; } |  |
 | [TransparentMetafiles](transparentmetafiles) { get; set; } | Specifies not to blank the area behind metafile pictures. |
 | [TruncateFontHeightsLikeWP6](truncatefontheightslikewp6) { get; set; } | Emulate WordPerfect 6.x Font Height Calculation. |
-| [UICompat97To2003](uicompat97to2003) { get; set; } | True to disable UI functionality which is not compatible with Word97-2003. Default value is false. |
+| [UICompat97To2003](uicompat97to2003) { get; set; } | **True** to disable UI functionality which is not compatible with Word97-2003. Default value is **false**. |
 | [UlTrailSpace](ultrailspace) { get; set; } | Underline All Trailing Spaces. |
 | [UnderlineTabInNumList](underlinetabinnumlist) { get; set; } | Underline Following Character Following Numbering. |
 | [UseAltKinsokuLineBreakRules](usealtkinsokulinebreakrules) { get; set; } | Use Alternate Set of East Asian Line Breaking Rules. |
@@ -89,7 +89,12 @@ public class CompatibilityOptions
 | [WPJustification](wpjustification) { get; set; } | Emulate WordPerfect 6.x Paragraph Justification. |
 | [WPSpaceWidth](wpspacewidth) { get; set; } | Specifies whether to set the width of a space as is done in WordPerfect 5.x. |
 | [WrapTrailSpaces](wraptrailspaces) { get; set; } | Line Wrap Trailing Spaces. |
-| [OptimizeFor](optimizefor)(…) | Allows to optimize the document contents as well as default Aspose.Words behavior to a particular versions of MS Word. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [OptimizeFor](optimizefor)(MsWordVersion) | Allows to optimize the document contents as well as default Aspose.Words behavior to a particular versions of MS Word. |
 
 ### Examples
 

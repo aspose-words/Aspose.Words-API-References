@@ -3,7 +3,7 @@ title: ComplexScript
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 450
+weight: 80
 url: /net/aspose.words/font/complexscript/
 ---
 ## Font.ComplexScript property

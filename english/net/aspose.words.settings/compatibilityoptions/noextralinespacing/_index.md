@@ -3,7 +3,7 @@ title: NoExtraLineSpacing
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 290
+weight: 340
 url: /net/aspose.words.settings/compatibilityoptions/noextralinespacing/
 ---
 ## CompatibilityOptions.NoExtraLineSpacing property

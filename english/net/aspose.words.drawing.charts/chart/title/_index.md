@@ -3,7 +3,7 @@ title: Title
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 20
+weight: 70
 url: /net/aspose.words.drawing.charts/chart/title/
 ---
 ## Chart.Title property

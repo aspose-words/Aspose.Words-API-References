@@ -3,7 +3,7 @@ title: StyleIdentifier
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 540
+weight: 410
 url: /net/aspose.words/font/styleidentifier/
 ---
 ## Font.StyleIdentifier property

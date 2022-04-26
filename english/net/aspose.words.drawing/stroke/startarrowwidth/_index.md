@@ -3,7 +3,7 @@ title: StartArrowWidth
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 150
+weight: 170
 url: /net/aspose.words.drawing/stroke/startarrowwidth/
 ---
 ## Stroke.StartArrowWidth property

@@ -3,12 +3,12 @@ title: DateStorageFormat
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 270
+weight: 110
 url: /net/aspose.words.markup/structureddocumenttag/datestorageformat/
 ---
 ## StructuredDocumentTag.DateStorageFormat property
 
-Gets/sets format in which the date for a date SDT is stored when the SDT is bound to an XML node in the document's data store. Default value is DateTime
+Gets/sets format in which the date for a date SDT is stored when the **SDT** is bound to an XML node in the document's data store. Default value is DateTime
 
 ```csharp
 public SdtDateStorageFormat DateStorageFormat { get; set; }

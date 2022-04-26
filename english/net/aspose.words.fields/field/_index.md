@@ -3,7 +3,7 @@ title: Field
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 1330
+weight: 1310
 url: /net/aspose.words.fields/field/
 ---
 ## Field class
@@ -14,7 +14,7 @@ Represents a Microsoft Word document field.
 public class Field
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -28,12 +28,17 @@ public class Field
 | [Separator](separator) { get; } | Gets the node that represents the field separator. Can be null. |
 | [Start](start) { get; } | Gets the node that represents the start of the field. |
 | virtual [Type](type) { get; } | Gets the Microsoft Word field type. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
 | [GetFieldCode](getfieldcode)() | Returns text between field start and field separator (or field end if there is no separator). Both field code and field result of child fields are included. |
-| [GetFieldCode](getfieldcode)(…) | Returns text between field start and field separator (or field end if there is no separator). |
-| [Remove](remove)() | Removes the field from the document. Returns a node right after the field. If the field's end is the last child of its parent node, returns its parent paragraph. If the field is already removed, returns null. |
+| [GetFieldCode](getfieldcode)(bool) | Returns text between field start and field separator (or field end if there is no separator). |
+| [Remove](remove)() | Removes the field from the document. Returns a node right after the field. If the field's end is the last child of its parent node, returns its parent paragraph. If the field is already removed, returns **null**. |
 | [Unlink](unlink)() | Performs the field unlink. |
 | [Update](update)() | Performs the field update. Throws if the field is being updated already. |
-| [Update](update)(…) | Performs a field update. Throws if the field is being updated already. |
+| [Update](update)(bool) | Performs a field update. Throws if the field is being updated already. |
 
 ### Remarks
 

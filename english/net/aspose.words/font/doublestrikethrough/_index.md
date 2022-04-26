@@ -3,7 +3,7 @@ title: DoubleStrikeThrough
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 240
+weight: 90
 url: /net/aspose.words/font/doublestrikethrough/
 ---
 ## Font.DoubleStrikeThrough property

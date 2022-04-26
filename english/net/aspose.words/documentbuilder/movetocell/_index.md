@@ -3,7 +3,7 @@ title: MoveToCell
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 180
+weight: 480
 url: /net/aspose.words/documentbuilder/movetocell/
 ---
 ## DocumentBuilder.MoveToCell method
@@ -23,7 +23,9 @@ public void MoveToCell(int tableIndex, int rowIndex, int columnIndex, int charac
 
 ### Remarks
 
-The navigation is performed inside the current story of the current section.For the index parameters, when index is greater than or equal to 0, it specifies an index from the beginning with 0 being the first element. When index is less than 0, it specified an index from the end with -1 being the last element.
+The navigation is performed inside the current story of the current section.
+
+For the index parameters, when index is greater than or equal to 0, it specifies an index from the beginning with 0 being the first element. When index is less than 0, it specified an index from the end with -1 being the last element.
 
 ### Examples
 

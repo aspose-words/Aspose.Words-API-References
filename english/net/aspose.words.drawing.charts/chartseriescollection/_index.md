@@ -3,7 +3,7 @@ title: ChartSeriesCollection
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 730
+weight: 710
 url: /net/aspose.words.drawing.charts/chartseriescollection/
 ---
 ## ChartSeriesCollection class
@@ -14,16 +14,24 @@ Represents collection of a [`ChartSeries`](../chartseries).
 public class ChartSeriesCollection : IEnumerable<ChartSeries>
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
 | [Count](count) { get; } | Returns the number of [`ChartSeries`](../chartseries) in this collection. |
 | [Item](item) { get; } | Returns a [`ChartSeries`](../chartseries) at the specified index. |
-| [Add](add)(…) | Adds new [`ChartSeries`](../chartseries) to this collection. Use this method to add series to any type of Bar, Column, Line and Surface charts. (4 methods) |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [Add](add)(string, DateTime[], double[]) | Adds new [`ChartSeries`](../chartseries) to this collection. Use this method to add series to any type of Area, Radar and Stock charts. |
+| [Add](add)(string, double[], double[]) | Adds new [`ChartSeries`](../chartseries) to this collection. Use this method to add series to any type of Scatter charts. |
+| [Add](add)(string, string[], double[]) | Adds new [`ChartSeries`](../chartseries) to this collection. Use this method to add series to any type of Bar, Column, Line and Surface charts. |
+| [Add](add)(string, double[], double[], double[]) | Adds new [`ChartSeries`](../chartseries) to this collection. Use this method to add series to any type of Bubble charts. |
 | [Clear](clear)() | Removes all [`ChartSeries`](../chartseries) from this collection. |
 | [GetEnumerator](getenumerator)() | Returns an enumerator object. |
-| [RemoveAt](removeat)(…) | Removes a [`ChartSeries`](../chartseries) at the specified index. |
+| [RemoveAt](removeat)(int) | Removes a [`ChartSeries`](../chartseries) at the specified index. |
 
 ### Examples
 

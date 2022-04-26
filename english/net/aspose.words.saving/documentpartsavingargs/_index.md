@@ -3,7 +3,7 @@ title: DocumentPartSavingArgs
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 4600
+weight: 4550
 url: /net/aspose.words.saving/documentpartsavingargs/
 ---
 ## DocumentPartSavingArgs class
@@ -14,7 +14,7 @@ Provides data for the [`DocumentPartSaving`](../idocumentpartsavingcallback/docu
 public class DocumentPartSavingArgs
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -25,7 +25,11 @@ public class DocumentPartSavingArgs
 
 ### Remarks
 
-When Aspose.Words saves a document to HTML or related formats and [`DocumentSplitCriteria`](../htmlsaveoptions/documentsplitcriteria) is specified, the document is split into parts and by default, each document part is saved into a separate file.Class [`DocumentPartSavingArgs`](../documentpartsavingargs) allows you to control how each document part will be saved. It allows to redefine how file names are generated or to completely circumvent saving of document parts into files by providing your own stream objects.To save document parts into streams instead of files, use the [`DocumentPartStream`](./documentpartstream) property.
+When Aspose.Words saves a document to HTML or related formats and [`DocumentSplitCriteria`](../htmlsaveoptions/documentsplitcriteria) is specified, the document is split into parts and by default, each document part is saved into a separate file.
+
+Class [`DocumentPartSavingArgs`](../documentpartsavingargs) allows you to control how each document part will be saved. It allows to redefine how file names are generated or to completely circumvent saving of document parts into files by providing your own stream objects.
+
+To save document parts into streams instead of files, use the [`DocumentPartStream`](./documentpartstream) property.
 
 ### Examples
 

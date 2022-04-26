@@ -3,7 +3,7 @@ title: Guid
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 80
+weight: 70
 url: /net/aspose.words.buildingblocks/buildingblock/guid/
 ---
 ## BuildingBlock.Guid property
@@ -18,7 +18,7 @@ public Guid Guid { get; set; }
 
 Can be used by an application to uniquely reference a building block regardless of different naming due to localization.
 
-Corresponds to the docPartPr.guid element in OOXML.
+Corresponds to the **docPartPr.guid** element in OOXML.
 
 ### Examples
 

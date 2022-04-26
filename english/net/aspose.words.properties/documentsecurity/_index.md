@@ -3,7 +3,7 @@ title: DocumentSecurity
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 4180
+weight: 4130
 url: /net/aspose.words.properties/documentsecurity/
 ---
 ## DocumentSecurity enumeration
@@ -19,11 +19,11 @@ public enum DocumentSecurity
 
 | Name | Value | Description |
 | --- | --- | --- |
-| None | `0x0` | There are no security states specified by the property. |
-| PasswordProtected | `0x1` | The document is password protected. (Note has never been seen in a document so far). |
-| ReadOnlyRecommended | `0x2` | The document to be opened read-only if possible, but the setting can be overridden. |
-| ReadOnlyEnforced | `0x4` | The document to always be opened read-only. |
-| ReadOnlyExceptAnnotations | `0x8` | The document to always be opened read-only except for annotations. |
+| None | `0` | There are no security states specified by the property. |
+| PasswordProtected | `1` | The document is password protected. (Note has never been seen in a document so far). |
+| ReadOnlyRecommended | `2` | The document to be opened read-only if possible, but the setting can be overridden. |
+| ReadOnlyEnforced | `4` | The document to always be opened read-only. |
+| ReadOnlyExceptAnnotations | `8` | The document to always be opened read-only except for annotations. |
 
 ### Examples
 

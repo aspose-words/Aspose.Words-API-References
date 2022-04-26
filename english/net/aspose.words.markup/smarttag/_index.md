@@ -3,7 +3,7 @@ title: SmartTag
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 3750
+weight: 3710
 url: /net/aspose.words.markup/smarttag/
 ---
 ## SmartTag class
@@ -14,22 +14,34 @@ This element specifies the presence of a smart tag around one or more inline str
 public class SmartTag : CompositeNode
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
-| [SmartTag](smarttag)(…) | Initializes a new instance of the [`SmartTag`](../smarttag) class. |
+| [SmartTag](smarttag)(DocumentBase) | Initializes a new instance of the [`SmartTag`](../smarttag) class. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [Element](element) { get; set; } | Specifies the name of the smart tag within the document. |
-| override [NodeType](nodetype) { get; } | Returns NodeType.SmartTag. |
+| override [NodeType](nodetype) { get; } | Returns **NodeType.SmartTag**. |
 | [Properties](properties) { get; } | A collection of the smart tag properties. |
 | [Uri](uri) { get; set; } | Specifies the namespace URI of the smart tag. |
-| override [Accept](accept)(…) | Accepts a visitor. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| override [Accept](accept)(DocumentVisitor) | Accepts a visitor. |
 
 ### Remarks
 
 Smart tags is a kind of custom XML markup. Smart tags provide a facility for embedding customer-defined semantics into the document via the ability to provide a basic namespace/name for a run or set of runs within a document.
 
-[`SmartTag`](../smarttag) can be a child of a [`Paragraph`](../../aspose.words/paragraph) or another [`SmartTag`](../smarttag) node.The complete list of child nodes that can occur inside a smart tag consists of [`BookmarkStart`](../../aspose.words/bookmarkstart), [`BookmarkEnd`](../../aspose.words/bookmarkend), [`FieldStart`](../../aspose.words.fields/fieldstart), [`FieldSeparator`](../../aspose.words.fields/fieldseparator), [`FieldEnd`](../../aspose.words.fields/fieldend), [`FormField`](../../aspose.words.fields/formfield), [`Comment`](../../aspose.words/comment), [`Footnote`](../../aspose.words.notes/footnote), [`Run`](../../aspose.words/run), [`SpecialChar`](../../aspose.words/specialchar), [`Shape`](../../aspose.words.drawing/shape), [`GroupShape`](../../aspose.words.drawing/groupshape), [`CommentRangeStart`](../../aspose.words/commentrangestart), [`CommentRangeEnd`](../../aspose.words/commentrangeend), [`SmartTag`](../smarttag).
+[`SmartTag`](../smarttag) can be a child of a [`Paragraph`](../../aspose.words/paragraph) or another [`SmartTag`](../smarttag) node.
+
+The complete list of child nodes that can occur inside a smart tag consists of [`BookmarkStart`](../../aspose.words/bookmarkstart), [`BookmarkEnd`](../../aspose.words/bookmarkend), [`FieldStart`](../../aspose.words.fields/fieldstart), [`FieldSeparator`](../../aspose.words.fields/fieldseparator), [`FieldEnd`](../../aspose.words.fields/fieldend), [`FormField`](../../aspose.words.fields/formfield), [`Comment`](../../aspose.words/comment), [`Footnote`](../../aspose.words.notes/footnote), [`Run`](../../aspose.words/run), [`SpecialChar`](../../aspose.words/specialchar), [`Shape`](../../aspose.words.drawing/shape), [`GroupShape`](../../aspose.words.drawing/groupshape), [`CommentRangeStart`](../../aspose.words/commentrangestart), [`CommentRangeEnd`](../../aspose.words/commentrangeend), [`SmartTag`](../smarttag).
 
 ### Examples
 

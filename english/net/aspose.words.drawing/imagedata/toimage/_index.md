@@ -3,7 +3,7 @@ title: ToImage
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 20
+weight: 220
 url: /net/aspose.words.drawing/imagedata/toimage/
 ---
 ## ImageData.ToImage method
@@ -16,7 +16,9 @@ public SKBitmap ToImage()
 
 ### Remarks
 
-A new Image object is created every time this method is called.It is the responsibility of the caller to dispose the image object.
+A new Image object is created every time this method is called.
+
+It is the responsibility of the caller to dispose the image object.
 
 ### Examples
 

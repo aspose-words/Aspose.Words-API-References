@@ -3,7 +3,7 @@ title: Bidi
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 90
+weight: 30
 url: /net/aspose.words/tablestyle/bidi/
 ---
 ## TableStyle.Bidi property
@@ -16,9 +16,9 @@ public bool Bidi { get; set; }
 
 ### Remarks
 
-When true, the cells in rows are laid out right to left.
+When **true**, the cells in rows are laid out right to left.
 
-The default value is false.
+The default value is **false**.
 
 ### Examples
 

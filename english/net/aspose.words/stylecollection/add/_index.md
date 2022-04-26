@@ -3,7 +3,7 @@ title: Add
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 30
+weight: 60
 url: /net/aspose.words/stylecollection/add/
 ---
 ## StyleCollection.Add method
@@ -21,7 +21,11 @@ public Style Add(StyleType type, string name)
 
 ### Remarks
 
-You can create character, paragraph or a list style.When creating a list style, the style is created with default numbered list formatting (1 \ a \ i).Throws an exception if a style with this name already exists.
+You can create character, paragraph or a list style.
+
+When creating a list style, the style is created with default numbered list formatting (1 \ a \ i).
+
+Throws an exception if a style with this name already exists.
 
 ### Examples
 

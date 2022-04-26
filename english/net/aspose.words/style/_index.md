@@ -3,7 +3,7 @@ title: Style
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 5740
+weight: 5690
 url: /net/aspose.words/style/
 ---
 ## Style class
@@ -14,7 +14,7 @@ Represents a single built-in or user-defined style.
 public class Style
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -34,7 +34,12 @@ public class Style
 | [StyleIdentifier](styleidentifier) { get; } | Gets the locale independent style identifier for a built-in style. |
 | [Styles](styles) { get; } | Gets the collection of styles this style belongs to. |
 | [Type](type) { get; } | Gets the style type (paragraph or character). |
-| [Equals](equals)(…) | Compares with the specified style. Styles Istds are compared for built-in styles only. Styles defaults are not included in comparison. Base style, linked style and next paragraph style are recursively compared. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [Equals](equals)(Style) | Compares with the specified style. Styles Istds are compared for built-in styles only. Styles defaults are not included in comparison. Base style, linked style and next paragraph style are recursively compared. |
 | [Remove](remove)() | Removes the specified style from the document. |
 
 ### Examples

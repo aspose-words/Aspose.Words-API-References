@@ -3,7 +3,7 @@ title: ParagraphBreak
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 90
+weight: 220
 url: /net/aspose.words/controlchar/paragraphbreak/
 ---
 ## ControlChar.ParagraphBreak field

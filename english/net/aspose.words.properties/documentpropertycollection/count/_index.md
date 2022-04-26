@@ -3,7 +3,7 @@ title: Count
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 80
+weight: 10
 url: /net/aspose.words.properties/documentpropertycollection/count/
 ---
 ## DocumentPropertyCollection.Count property

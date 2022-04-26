@@ -3,7 +3,7 @@ title: NameOther
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 70
+weight: 270
 url: /net/aspose.words/font/nameother/
 ---
 ## Font.NameOther property

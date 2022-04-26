@@ -3,7 +3,7 @@ title: SingleUser
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 30
+weight: 50
 url: /net/aspose.words/editablerange/singleuser/
 ---
 ## EditableRange.SingleUser property
@@ -16,7 +16,15 @@ public string SingleUser { get; set; }
 
 ### Remarks
 
-This editor can be stored in one of the following forms:DOMAIN\Username - for users whose access shall be authenticated using the current user's domain credentials.user@domain.com - for users whose access shall be authenticated using the user's e-mail address as credentials.user - for users whose access shall be authenticated using the current user's machine credentials.Single user and editor group cannot be set simultaneously for the specific editable range, if the one is set, the other will be clear.
+This editor can be stored in one of the following forms:
+
+DOMAIN\Username - for users whose access shall be authenticated using the current user's domain credentials.
+
+user@domain.com - for users whose access shall be authenticated using the user's e-mail address as credentials.
+
+user - for users whose access shall be authenticated using the current user's machine credentials.
+
+Single user and editor group cannot be set simultaneously for the specific editable range, if the one is set, the other will be clear.
 
 ### Examples
 

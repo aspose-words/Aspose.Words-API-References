@@ -3,7 +3,7 @@ title: FilePath
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 20
+weight: 30
 url: /net/aspose.words.fonts/filefontsource/filepath/
 ---
 ## FileFontSource.FilePath property

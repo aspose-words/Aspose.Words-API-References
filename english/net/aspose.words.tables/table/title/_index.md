@@ -3,7 +3,7 @@ title: Title
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 310
+weight: 320
 url: /net/aspose.words.tables/table/title/
 ---
 ## Table.Title property

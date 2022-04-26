@@ -3,7 +3,7 @@ title: VisitCommentRangeStart
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 460
+weight: 120
 url: /net/aspose.words/documentvisitor/visitcommentrangestart/
 ---
 ## DocumentVisitor.VisitCommentRangeStart method

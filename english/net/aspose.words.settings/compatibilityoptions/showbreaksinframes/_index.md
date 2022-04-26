@@ -3,7 +3,7 @@ title: ShowBreaksInFrames
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 120
+weight: 430
 url: /net/aspose.words.settings/compatibilityoptions/showbreaksinframes/
 ---
 ## CompatibilityOptions.ShowBreaksInFrames property

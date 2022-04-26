@@ -3,7 +3,7 @@ title: SuppressTopSpacingWP
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 240
+weight: 520
 url: /net/aspose.words.settings/compatibilityoptions/suppresstopspacingwp/
 ---
 ## CompatibilityOptions.SuppressTopSpacingWP property

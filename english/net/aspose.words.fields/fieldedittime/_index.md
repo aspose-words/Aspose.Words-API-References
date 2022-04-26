@@ -3,7 +3,7 @@ title: FieldEditTime
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 1640
+weight: 1620
 url: /net/aspose.words.fields/fieldedittime/
 ---
 ## FieldEditTime class
@@ -14,7 +14,7 @@ Implements the EDITTIME field.
 public class FieldEditTime : Field
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |

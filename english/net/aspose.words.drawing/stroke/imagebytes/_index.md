@@ -3,7 +3,7 @@ title: ImageBytes
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 200
+weight: 100
 url: /net/aspose.words.drawing/stroke/imagebytes/
 ---
 ## Stroke.ImageBytes property

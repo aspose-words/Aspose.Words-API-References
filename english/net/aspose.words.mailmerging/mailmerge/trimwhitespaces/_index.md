@@ -3,7 +3,7 @@ title: TrimWhitespaces
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 210
+weight: 130
 url: /net/aspose.words.mailmerging/mailmerge/trimwhitespaces/
 ---
 ## MailMerge.TrimWhitespaces property
@@ -16,7 +16,7 @@ public bool TrimWhitespaces { get; set; }
 
 ### Remarks
 
-The default value is true.
+The default value is **true**.
 
 ### Examples
 

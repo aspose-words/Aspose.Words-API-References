@@ -3,7 +3,7 @@ title: FillColor
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 130
+weight: 40
 url: /net/aspose.words.drawing/shape/fillcolor/
 ---
 ## Shape.FillColor property
@@ -16,7 +16,9 @@ public Color FillColor { get; set; }
 
 ### Remarks
 
-This is a shortcut to the Color property.The default value is White.
+This is a shortcut to the Color property.
+
+The default value is White.
 
 ### Examples
 

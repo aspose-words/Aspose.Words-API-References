@@ -3,7 +3,7 @@ title: Position
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 10
+weight: 30
 url: /net/aspose.words.notes/footnoteoptions/position/
 ---
 ## FootnoteOptions.Position property

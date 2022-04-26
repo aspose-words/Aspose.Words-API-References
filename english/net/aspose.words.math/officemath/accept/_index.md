@@ -3,7 +3,7 @@ title: Accept
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 10
+weight: 70
 url: /net/aspose.words.math/officemath/accept/
 ---
 ## OfficeMath.Accept method
@@ -24,7 +24,9 @@ True if all nodes were visited; false if DocumentVisitor stopped the operation b
 
 ### Remarks
 
-Enumerates over this node and all of its children. Each node calls a corresponding method on DocumentVisitor.For more info see the Visitor design pattern.
+Enumerates over this node and all of its children. Each node calls a corresponding method on DocumentVisitor.
+
+For more info see the Visitor design pattern.
 
 Calls [`VisitOfficeMathStart`](../../../aspose.words/documentvisitor/visitofficemathstart), then calls [`Accept`](../../../aspose.words/node/accept) for all child nodes of the Office Math and calls [`VisitOfficeMathEnd`](../../../aspose.words/documentvisitor/visitofficemathend) at the end.
 

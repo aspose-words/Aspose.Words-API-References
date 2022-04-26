@@ -3,7 +3,7 @@ title: AllowOverlap
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 290
+weight: 10
 url: /net/aspose.words.drawing/shapebase/allowoverlap/
 ---
 ## ShapeBase.AllowOverlap property
@@ -20,7 +20,7 @@ This property affects behavior of the shape in Microsoft Word. Aspose.Words igno
 
 This property is applicable only to top level shapes.
 
-The default value is true.
+The default value is **true**.
 
 ### Examples
 

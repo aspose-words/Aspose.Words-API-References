@@ -3,7 +3,7 @@ title: Shadow
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 90
+weight: 60
 url: /net/aspose.words/border/shadow/
 ---
 ## Border.Shadow property

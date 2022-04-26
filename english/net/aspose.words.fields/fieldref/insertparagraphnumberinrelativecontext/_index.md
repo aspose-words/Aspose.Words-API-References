@@ -3,7 +3,7 @@ title: InsertParagraphNumberInRelativeContext
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 80
+weight: 70
 url: /net/aspose.words.fields/fieldref/insertparagraphnumberinrelativecontext/
 ---
 ## FieldRef.InsertParagraphNumberInRelativeContext property

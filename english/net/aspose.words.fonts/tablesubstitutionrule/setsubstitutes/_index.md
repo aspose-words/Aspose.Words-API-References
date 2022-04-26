@@ -3,7 +3,7 @@ title: SetSubstitutes
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 70
+weight: 80
 url: /net/aspose.words.fonts/tablesubstitutionrule/setsubstitutes/
 ---
 ## TableSubstitutionRule.SetSubstitutes method

@@ -3,7 +3,7 @@ title: List
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 80
+weight: 20
 url: /net/aspose.words.lists/listformat/list/
 ---
 ## ListFormat.List property
@@ -16,7 +16,11 @@ public List List { get; set; }
 
 ### Remarks
 
-The list that is being assigned to this property must belong to the current document.The list that is being assigned to this property must not be a list style definition.Setting this property to null removes bullets and numbering from the paragraph and sets the list level number to zero. Setting this property to null is equivalent to calling [`RemoveNumbers`](../removenumbers).
+The list that is being assigned to this property must belong to the current document.
+
+The list that is being assigned to this property must not be a list style definition.
+
+Setting this property to null removes bullets and numbering from the paragraph and sets the list level number to zero. Setting this property to null is equivalent to calling [`RemoveNumbers`](../removenumbers).
 
 ### Examples
 

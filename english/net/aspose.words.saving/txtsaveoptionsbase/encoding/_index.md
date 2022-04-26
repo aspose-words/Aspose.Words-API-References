@@ -8,7 +8,7 @@ url: /net/aspose.words.saving/txtsaveoptionsbase/encoding/
 ---
 ## TxtSaveOptionsBase.Encoding property
 
-Specifies the encoding to use when exporting in text formats. Default value is Encoding.UTF8.
+Specifies the encoding to use when exporting in text formats. Default value is **Encoding.UTF8**.
 
 ```csharp
 public Encoding Encoding { get; set; }

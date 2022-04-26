@@ -3,7 +3,7 @@ title: INodeChangingCallback
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 2940
+weight: 2920
 url: /net/aspose.words/inodechangingcallback/
 ---
 ## INodeChangingCallback interface
@@ -14,14 +14,14 @@ Implement this interface if you want to receive notifications when nodes are ins
 public interface INodeChangingCallback
 ```
 
-## Members
+## Methods
 
 | Name | Description |
 | --- | --- |
-| [NodeInserted](nodeinserted)(…) | Called when a node belonging to this document has been inserted into another node. |
-| [NodeInserting](nodeinserting)(…) | Called just before a node belonging to this document is about to be inserted into another node. |
-| [NodeRemoved](noderemoved)(…) | Called when a node belonging to this document has been removed from its parent. |
-| [NodeRemoving](noderemoving)(…) | Called just before a node belonging to this document is about to be removed from the document. |
+| [NodeInserted](nodeinserted)(NodeChangingArgs) | Called when a node belonging to this document has been inserted into another node. |
+| [NodeInserting](nodeinserting)(NodeChangingArgs) | Called just before a node belonging to this document is about to be inserted into another node. |
+| [NodeRemoved](noderemoved)(NodeChangingArgs) | Called when a node belonging to this document has been removed from its parent. |
+| [NodeRemoving](noderemoving)(NodeChangingArgs) | Called just before a node belonging to this document is about to be removed from the document. |
 
 ### Examples
 

@@ -8,15 +8,15 @@ url: /net/aspose.words.fonts/fontinfocollection/item/
 ---
 ## FontInfoCollection indexer (1 of 2)
 
-Gets a font at the specified index.
+Gets a font with the specified name.
 
 ```csharp
-public FontInfo this[int index] { get; }
+public FontInfo this[string name] { get; }
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| index |  | Zero-based index of the font. |
+| name |  | Case-insensitive name of the font to locate. |
 
 ### Examples
 
@@ -54,15 +54,15 @@ File.WriteAllBytes(ArtifactsDir + "Alte DIN 1451 Mittelschrift.otf", embeddedFon
 
 ## FontInfoCollection indexer (2 of 2)
 
-Gets a font with the specified name.
+Gets a font at the specified index.
 
 ```csharp
-public FontInfo this[string name] { get; }
+public FontInfo this[int index] { get; }
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name |  | Case-insensitive name of the font to locate. |
+| index |  | Zero-based index of the font. |
 
 ### Examples
 

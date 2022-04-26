@@ -3,7 +3,7 @@ title: ListLevelCollection
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 3260
+weight: 3240
 url: /net/aspose.words.lists/listlevelcollection/
 ---
 ## ListLevelCollection class
@@ -14,12 +14,17 @@ A collection of list formatting for each level in a list.
 public class ListLevelCollection : IEnumerable<ListLevel>
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
 | [Count](count) { get; } | Gets the number of levels in this list. |
 | [Item](item) { get; set; } | Gets a list level by index. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
 | [GetEnumerator](getenumerator)() | Gets the enumerator object that will enumerate levels in this list. |
 
 ### Examples

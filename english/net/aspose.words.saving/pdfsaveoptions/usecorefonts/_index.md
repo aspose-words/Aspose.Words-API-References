@@ -3,7 +3,7 @@ title: UseCoreFonts
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 130
+weight: 280
 url: /net/aspose.words.saving/pdfsaveoptions/usecorefonts/
 ---
 ## PdfSaveOptions.UseCoreFonts property

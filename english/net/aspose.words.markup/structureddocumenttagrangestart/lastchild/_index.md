@@ -3,7 +3,7 @@ title: LastChild
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 100
+weight: 60
 url: /net/aspose.words.markup/structureddocumenttagrangestart/lastchild/
 ---
 ## StructuredDocumentTagRangeStart.LastChild property

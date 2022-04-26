@@ -3,7 +3,7 @@ title: NumberFormat
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 90
+weight: 70
 url: /net/aspose.words.lists/listlevel/numberformat/
 ---
 ## ListLevel.NumberFormat property
@@ -16,7 +16,11 @@ public string NumberFormat { get; set; }
 
 ### Remarks
 
-Among normal text characters, the string can contain placeholder characters \x0000 to \x0008 representing the numbers from the corresponding list levels.For example, the string "\x0000.\x0001)" will generate a list label that looks something like "1.5)". The number "1" is the current number from the 1st list level, the number "5" is the current number from the 2nd list level.Null is not allowed, but an empty string meaning no number is valid.
+Among normal text characters, the string can contain placeholder characters \x0000 to \x0008 representing the numbers from the corresponding list levels.
+
+For example, the string "\x0000.\x0001)" will generate a list label that looks something like "1.5)". The number "1" is the current number from the 1st list level, the number "5" is the current number from the 2nd list level.
+
+Null is not allowed, but an empty string meaning no number is valid.
 
 ### Examples
 

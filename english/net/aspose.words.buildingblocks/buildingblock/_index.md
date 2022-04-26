@@ -14,11 +14,16 @@ Represents a glossary document entry such as a Building Block, AutoText or an Au
 public class BuildingBlock : CompositeNode
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
-| [BuildingBlock](buildingblock)(…) | Initializes a new instance of this class. |
+| [BuildingBlock](buildingblock)(GlossaryDocument) | Initializes a new instance of this class. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [Behavior](behavior) { get; set; } | Specifies the behavior that shall be applied when the contents of the building block is inserted into the main document. |
 | [Category](category) { get; set; } | Specifies the second-level categorization for the building block. |
 | [Description](description) { get; set; } | Gets or sets the description associated with this building block. |
@@ -30,15 +35,22 @@ public class BuildingBlock : CompositeNode
 | override [NodeType](nodetype) { get; } | Returns the BuildingBlock value. |
 | [Sections](sections) { get; } | Returns a collection that represents all sections in the building block. |
 | [Type](type) { get; set; } | Specifies the building block type. |
-| override [Accept](accept)(…) | Accepts a visitor. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| override [Accept](accept)(DocumentVisitor) | Accepts a visitor. |
 
 ### Remarks
 
-[`BuildingBlock`](../buildingblock) can contain only [`Section`](../../aspose.words/section) nodes.[`BuildingBlock`](../buildingblock) can only be a child of [`GlossaryDocument`](../glossarydocument).
+[`BuildingBlock`](../buildingblock) can contain only [`Section`](../../aspose.words/section) nodes.
+
+[`BuildingBlock`](../buildingblock) can only be a child of [`GlossaryDocument`](../glossarydocument).
 
 You can create new building blocks and insert them into a glossary document. You can modify or delete existing building blocks. You can copy or move building blocks between documents. You can insert content of a building block into a document.
 
-Corresponds to the docPart, docPartPr and docPartBody elements in OOXML.
+Corresponds to the **docPart**, **docPartPr** and **docPartBody** elements in OOXML.
 
 ### Examples
 

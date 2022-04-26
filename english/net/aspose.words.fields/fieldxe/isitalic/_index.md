@@ -3,7 +3,7 @@ title: IsItalic
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 50
+weight: 40
 url: /net/aspose.words.fields/fieldxe/isitalic/
 ---
 ## FieldXE.IsItalic property

@@ -3,7 +3,7 @@ title: IsFormatRevision
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 270
+weight: 90
 url: /net/aspose.words/paragraph/isformatrevision/
 ---
 ## Paragraph.IsFormatRevision property

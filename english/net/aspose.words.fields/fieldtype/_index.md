@@ -3,7 +3,7 @@ title: FieldType
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 2340
+weight: 2320
 url: /net/aspose.words.fields/fieldtype/
 ---
 ## FieldType enumeration
@@ -84,7 +84,7 @@ public enum FieldType
 | FieldNumChars | `28` | Specifies the NUMCHARS field. |
 | FieldNumPages | `26` | Specifies the NUMPAGES field. |
 | FieldNumWords | `27` | Specifies the NUMWORDS field. |
-| FieldOcx | `87` | Specifies the OCX field.Normally, Aspose.Words will represent an ActiveX control as a [`Shape`](../../aspose.words.drawing/shape) object, but for some documents, where a control does not have data and/or seems to be invalid, it will be represented as a field. |
+| FieldOcx | `87` | Specifies the OCX field. |
 | FieldPage | `33` | Specifies the PAGE field. |
 | FieldPageRef | `37` | Specifies the PAGEREF field. |
 | FieldPrint | `48` | Specifies the PRINT field. |

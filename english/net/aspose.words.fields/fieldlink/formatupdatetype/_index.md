@@ -3,7 +3,7 @@ title: FormatUpdateType
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 80
+weight: 30
 url: /net/aspose.words.fields/fieldlink/formatupdatetype/
 ---
 ## FieldLink.FormatUpdateType property

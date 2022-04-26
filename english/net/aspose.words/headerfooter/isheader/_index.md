@@ -3,12 +3,12 @@ title: IsHeader
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 60
+weight: 30
 url: /net/aspose.words/headerfooter/isheader/
 ---
 ## HeaderFooter.IsHeader property
 
-True if this HeaderFooter object is a header.
+True if this **HeaderFooter** object is a header.
 
 ```csharp
 public bool IsHeader { get; }

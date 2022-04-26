@@ -3,7 +3,7 @@ title: EmphasisMark
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 560
+weight: 110
 url: /net/aspose.words/font/emphasismark/
 ---
 ## Font.EmphasisMark property

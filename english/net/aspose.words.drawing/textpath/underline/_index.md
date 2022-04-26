@@ -3,7 +3,7 @@ title: Underline
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 130
+weight: 190
 url: /net/aspose.words.drawing/textpath/underline/
 ---
 ## TextPath.Underline property
@@ -16,7 +16,7 @@ public bool Underline { get; set; }
 
 ### Remarks
 
-The default value is false.
+The default value is **false**.
 
 ### Examples
 

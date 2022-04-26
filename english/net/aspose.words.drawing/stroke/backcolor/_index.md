@@ -3,7 +3,7 @@ title: BackColor
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 50
+weight: 10
 url: /net/aspose.words.drawing/stroke/backcolor/
 ---
 ## Stroke.BackColor property

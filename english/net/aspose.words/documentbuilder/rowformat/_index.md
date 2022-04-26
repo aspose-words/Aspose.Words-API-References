@@ -3,7 +3,7 @@ title: RowFormat
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 560
+weight: 160
 url: /net/aspose.words/documentbuilder/rowformat/
 ---
 ## DocumentBuilder.RowFormat property

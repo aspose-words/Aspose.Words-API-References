@@ -3,7 +3,7 @@ title: Count
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 30
+weight: 20
 url: /net/aspose.words.drawing.ole/forms2olecontrolcollection/count/
 ---
 ## Forms2OleControlCollection.Count property

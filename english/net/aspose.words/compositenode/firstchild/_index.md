@@ -3,7 +3,7 @@ title: FirstChild
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 190
+weight: 30
 url: /net/aspose.words/compositenode/firstchild/
 ---
 ## CompositeNode.FirstChild property

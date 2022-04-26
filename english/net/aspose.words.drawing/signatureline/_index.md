@@ -3,7 +3,7 @@ title: SignatureLine
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 1120
+weight: 1100
 url: /net/aspose.words.drawing/signatureline/
 ---
 ## SignatureLine class
@@ -14,21 +14,21 @@ Provides access to signature line properties.
 public class SignatureLine
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
-| [AllowComments](allowcomments) { get; set; } | Gets or sets a value indicating that the signer can add comments in the Sign dialog. Default value for this property is false. |
-| [DefaultInstructions](defaultinstructions) { get; set; } | Gets or sets a value indicating that default instructions is shown in the Sign dialog. Default value for this property is true. |
-| [Email](email) { get; set; } | Gets or sets suggested signer's e-mail address. Default value for this property is empty string (Empty). |
-| [Id](id) { get; set; } | Gets or sets identifier for this signature line. This identifier can be associated with a digital signature, when signing document using [`DigitalSignatureUtil`](../../aspose.words.digitalsignatures/digitalsignatureutil). This value must be unique and by default it is randomly generated new Guid (NewGuid). |
-| [Instructions](instructions) { get; set; } | Gets or sets instructions to the signer that are displayed on signing the signature line. This property is ignored if [`DefaultInstructions`](./defaultinstructions) is set. Default value for this property is empty string (Empty). |
+| [AllowComments](allowcomments) { get; set; } | Gets or sets a value indicating that the signer can add comments in the Sign dialog. Default value for this property is **false**. |
+| [DefaultInstructions](defaultinstructions) { get; set; } | Gets or sets a value indicating that default instructions is shown in the Sign dialog. Default value for this property is **true**. |
+| [Email](email) { get; set; } | Gets or sets suggested signer's e-mail address. Default value for this property is **empty string** (Empty). |
+| [Id](id) { get; set; } | Gets or sets identifier for this signature line. |
+| [Instructions](instructions) { get; set; } | Gets or sets instructions to the signer that are displayed on signing the signature line. This property is ignored if [`DefaultInstructions`](./defaultinstructions) is set. Default value for this property is **empty string** (Empty). |
 | [IsSigned](issigned) { get; } | Indicates that signature line is signed by digital signature. |
 | [IsValid](isvalid) { get; } | Indicates that signature line is signed by digital signature and this digital signature is valid. |
 | [ProviderId](providerid) { get; set; } | Gets or sets signature provider identifier for this signature line. Default value is "{00000000-0000-0000-0000-000000000000}". |
-| [ShowDate](showdate) { get; set; } | Gets or sets a value indicating that sign date is shown in the signature line. Default value for this property is true. |
-| [Signer](signer) { get; set; } | Gets or sets suggested signer of the signature line. Default value for this property is empty string (Empty). |
-| [SignerTitle](signertitle) { get; set; } | Gets or sets suggested signer's title (for example, Manager). Default value for this property is empty string (Empty). |
+| [ShowDate](showdate) { get; set; } | Gets or sets a value indicating that sign date is shown in the signature line. Default value for this property is **true**. |
+| [Signer](signer) { get; set; } | Gets or sets suggested signer of the signature line. Default value for this property is **empty string** (Empty). |
+| [SignerTitle](signertitle) { get; set; } | Gets or sets suggested signer's title (for example, Manager). Default value for this property is **empty string** (Empty). |
 
 ### Examples
 

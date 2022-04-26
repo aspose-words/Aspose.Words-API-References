@@ -3,7 +3,7 @@ title: Item
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 60
+weight: 20
 url: /net/aspose.words/bookmarkcollection/item/
 ---
 ## BookmarkCollection indexer (1 of 2)
@@ -20,7 +20,13 @@ public Bookmark this[int index] { get; }
 
 ### Remarks
 
-The index is zero-based.Negative indexes are allowed and indicate access from the back of the collection. For example -1 means the last item, -2 means the second before last and so on.If index is greater than or equal to the number of items in the list, this returns a null reference.If index is negative and its absolute value is greater than the number of items in the list, this returns a null reference.
+The index is zero-based.
+
+Negative indexes are allowed and indicate access from the back of the collection. For example -1 means the last item, -2 means the second before last and so on.
+
+If index is greater than or equal to the number of items in the list, this returns a null reference.
+
+If index is negative and its absolute value is greater than the number of items in the list, this returns a null reference.
 
 ### Examples
 

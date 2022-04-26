@@ -3,7 +3,7 @@ title: TableWidthOutputMode
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 430
+weight: 470
 url: /net/aspose.words.saving/htmlsaveoptions/tablewidthoutputmode/
 ---
 ## HtmlSaveOptions.TableWidthOutputMode property
@@ -16,7 +16,7 @@ public HtmlElementSizeOutputMode TableWidthOutputMode { get; set; }
 
 ### Remarks
 
-In the HTML format, table, row and cell elements (&lt;table&gt;, &lt;tr&gt;, &lt;th&gt;, &lt;td&gt;) can have their widths specified either in relative (percentage) or in absolute units. In a document in Aspose.Words, tables, rows and cells can have their widths specified using either relative or absolute units too.
+In the HTML format, table, row and cell elements (**&lt;table&gt;**, **&lt;tr&gt;**, **&lt;th&gt;**, **&lt;td&gt;**) can have their widths specified either in relative (percentage) or in absolute units. In a document in Aspose.Words, tables, rows and cells can have their widths specified using either relative or absolute units too.
 
 When you convert a document to HTML using Aspose.Words, you might want to control how table, row and cell widths are exported to affect how the resulting document is displayed in the visual agent (e.g. a browser or viewer).
 

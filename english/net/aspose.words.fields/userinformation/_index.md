@@ -3,7 +3,7 @@ title: UserInformation
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 2550
+weight: 2530
 url: /net/aspose.words.fields/userinformation/
 ---
 ## UserInformation class
@@ -14,11 +14,16 @@ Specifies information about the user.
 public class UserInformation
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [UserInformation](userinformation)() | The default constructor. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | static [DefaultUser](defaultuser) { get; } | Default user information. |
 | [Address](address) { get; set; } | Gets or sets the user's postal address. |
 | [Initials](initials) { get; set; } | Gets or sets the user's initials. |

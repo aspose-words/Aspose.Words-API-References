@@ -3,7 +3,7 @@ title: Spacing
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 30
+weight: 50
 url: /net/aspose.words/textcolumncollection/spacing/
 ---
 ## TextColumnCollection.Spacing property
@@ -16,7 +16,7 @@ public double Spacing { get; set; }
 
 ### Remarks
 
-Has effect only when [`EvenlySpaced`](../evenlyspaced) is set to true.
+Has effect only when [`EvenlySpaced`](../evenlyspaced) is set to **true**.
 
 ### Examples
 

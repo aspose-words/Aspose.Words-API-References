@@ -3,7 +3,7 @@ title: DoNotBreakConstrainedForcedTable
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 630
+weight: 130
 url: /net/aspose.words.settings/compatibilityoptions/donotbreakconstrainedforcedtable/
 ---
 ## CompatibilityOptions.DoNotBreakConstrainedForcedTable property

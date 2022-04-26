@@ -3,7 +3,7 @@ title: CustomXmlProperty
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 3640
+weight: 3610
 url: /net/aspose.words.markup/customxmlproperty/
 ---
 ## CustomXmlProperty class
@@ -14,11 +14,16 @@ Represents a single custom XML attribute or a smart tag property.
 public class CustomXmlProperty
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
-| [CustomXmlProperty](customxmlproperty)(…) | Initializes a new instance of this class. |
+| [CustomXmlProperty](customxmlproperty)(string, string, string) | Initializes a new instance of this class. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [Name](name) { get; } | Specifies the name of the custom XML attribute or smart tag property. |
 | [Uri](uri) { get; set; } | Gets or sets the namespace URI of the custom XML attribute or smart tag property. |
 | [Value](value) { get; set; } | Gets or sets the value of the custom XML attribute or smart tag property. |

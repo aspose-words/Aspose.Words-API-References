@@ -3,7 +3,7 @@ title: Description
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 320
+weight: 110
 url: /net/aspose.words.tables/table/description/
 ---
 ## Table.Description property

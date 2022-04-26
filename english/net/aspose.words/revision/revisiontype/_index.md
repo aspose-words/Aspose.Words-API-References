@@ -3,7 +3,7 @@ title: RevisionType
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 50
+weight: 60
 url: /net/aspose.words/revision/revisiontype/
 ---
 ## Revision.RevisionType property

@@ -3,7 +3,7 @@ title: TextPath
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 180
+weight: 230
 url: /net/aspose.words.drawing/shape/textpath/
 ---
 ## Shape.TextPath property

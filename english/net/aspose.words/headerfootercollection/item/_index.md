@@ -3,87 +3,12 @@ title: Item
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 30
+weight: 10
 url: /net/aspose.words/headerfootercollection/item/
 ---
 ## HeaderFooterCollection indexer (1 of 2)
 
-Retrieves a HeaderFooter of the specified type.
-
-```csharp
-public HeaderFooter this[HeaderFooterType headerFooterType] { get; }
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| headerFooterType |  | A [`HeaderFooterType`](../../headerfootertype) value that specifies the type of the header/footer to retrieve. |
-
-### Remarks
-
-Returns null if the header/footer of the specified type is not found.
-
-### Examples
-
-Shows how to replace text in a document's footer.
-
-```csharp
-Document doc = new Document(MyDir + "Footer.docx");
-
-HeaderFooterCollection headersFooters = doc.FirstSection.HeadersFooters;
-HeaderFooter footer = headersFooters[HeaderFooterType.FooterPrimary];
-
-FindReplaceOptions options = new FindReplaceOptions
-{
-    MatchCase = false,
-    FindWholeWordsOnly = false
-};
-
-int currentYear = DateTime.Now.Year;
-footer.Range.Replace("(C) 2006 Aspose Pty Ltd.", $"Copyright (C) {currentYear} by Aspose Pty Ltd.", options);
-
-doc.Save(ArtifactsDir + "HeaderFooter.ReplaceText.docx");
-```
-
-Shows how to delete all footers from a document.
-
-```csharp
-Document doc = new Document(MyDir + "Header and footer types.docx");
-
-// Iterate through each section and remove footers of every kind.
-foreach (Section section in doc.OfType<Section>())
-{
-    // There are three kinds of footer and header types.
-    // 1 -  The "First" header/footer, which only appears on the first page of a section.
-    HeaderFooter footer = section.HeadersFooters[HeaderFooterType.FooterFirst];
-    footer?.Remove();
-
-    // 2 -  The "Primary" header/footer, which appears on odd pages.
-    footer = section.HeadersFooters[HeaderFooterType.FooterPrimary];
-    footer?.Remove();
-
-    // 3 -  The "Even" header/footer, which appears on even pages. 
-    footer = section.HeadersFooters[HeaderFooterType.FooterEven];
-    footer?.Remove();
-
-    Assert.AreEqual(0, section.HeadersFooters.Count(hf => !((HeaderFooter)hf).IsHeader));
-}
-
-doc.Save(ArtifactsDir + "HeaderFooter.RemoveFooters.docx");
-```
-
-### See Also
-
-* class [HeaderFooter](../../headerfooter)
-* enum [HeaderFooterType](../../headerfootertype)
-* class [HeaderFooterCollection](../../headerfootercollection)
-* namespace [Aspose.Words](../../headerfootercollection)
-* assembly [Aspose.Words](../../../)
-
----
-
-## HeaderFooterCollection indexer (2 of 2)
-
-Retrieves a HeaderFooter at the given index.
+Retrieves a **HeaderFooter** at the given index.
 
 ```csharp
 public HeaderFooter this[int index] { get; }
@@ -95,7 +20,13 @@ public HeaderFooter this[int index] { get; }
 
 ### Remarks
 
-The index is zero-based.Negative indexes are allowed and indicate access from the back of the collection. For example -1 means the last item, -2 means the second before last and so on.If index is greater than or equal to the number of items in the list, this returns a null reference.If index is negative and its absolute value is greater than the number of items in the list, this returns a null reference.
+The index is zero-based.
+
+Negative indexes are allowed and indicate access from the back of the collection. For example -1 means the last item, -2 means the second before last and so on.
+
+If index is greater than or equal to the number of items in the list, this returns a null reference.
+
+If index is negative and its absolute value is greater than the number of items in the list, this returns a null reference.
 
 ### Examples
 
@@ -162,6 +93,81 @@ doc.Save(ArtifactsDir + "HeaderFooter.Link.docx");
 ### See Also
 
 * class [HeaderFooter](../../headerfooter)
+* class [HeaderFooterCollection](../../headerfootercollection)
+* namespace [Aspose.Words](../../headerfootercollection)
+* assembly [Aspose.Words](../../../)
+
+---
+
+## HeaderFooterCollection indexer (2 of 2)
+
+Retrieves a **HeaderFooter** of the specified type.
+
+```csharp
+public HeaderFooter this[HeaderFooterType headerFooterType] { get; }
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| headerFooterType |  | A [`HeaderFooterType`](../../headerfootertype) value that specifies the type of the header/footer to retrieve. |
+
+### Remarks
+
+Returns null if the header/footer of the specified type is not found.
+
+### Examples
+
+Shows how to replace text in a document's footer.
+
+```csharp
+Document doc = new Document(MyDir + "Footer.docx");
+
+HeaderFooterCollection headersFooters = doc.FirstSection.HeadersFooters;
+HeaderFooter footer = headersFooters[HeaderFooterType.FooterPrimary];
+
+FindReplaceOptions options = new FindReplaceOptions
+{
+    MatchCase = false,
+    FindWholeWordsOnly = false
+};
+
+int currentYear = DateTime.Now.Year;
+footer.Range.Replace("(C) 2006 Aspose Pty Ltd.", $"Copyright (C) {currentYear} by Aspose Pty Ltd.", options);
+
+doc.Save(ArtifactsDir + "HeaderFooter.ReplaceText.docx");
+```
+
+Shows how to delete all footers from a document.
+
+```csharp
+Document doc = new Document(MyDir + "Header and footer types.docx");
+
+// Iterate through each section and remove footers of every kind.
+foreach (Section section in doc.OfType<Section>())
+{
+    // There are three kinds of footer and header types.
+    // 1 -  The "First" header/footer, which only appears on the first page of a section.
+    HeaderFooter footer = section.HeadersFooters[HeaderFooterType.FooterFirst];
+    footer?.Remove();
+
+    // 2 -  The "Primary" header/footer, which appears on odd pages.
+    footer = section.HeadersFooters[HeaderFooterType.FooterPrimary];
+    footer?.Remove();
+
+    // 3 -  The "Even" header/footer, which appears on even pages. 
+    footer = section.HeadersFooters[HeaderFooterType.FooterEven];
+    footer?.Remove();
+
+    Assert.AreEqual(0, section.HeadersFooters.Count(hf => !((HeaderFooter)hf).IsHeader));
+}
+
+doc.Save(ArtifactsDir + "HeaderFooter.RemoveFooters.docx");
+```
+
+### See Also
+
+* class [HeaderFooter](../../headerfooter)
+* enum [HeaderFooterType](../../headerfootertype)
 * class [HeaderFooterCollection](../../headerfootercollection)
 * namespace [Aspose.Words](../../headerfootercollection)
 * assembly [Aspose.Words](../../../)

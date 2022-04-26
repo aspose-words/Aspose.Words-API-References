@@ -3,7 +3,7 @@ title: MergeDuplicateRegions
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 140
+weight: 60
 url: /net/aspose.words.mailmerging/mailmerge/mergeduplicateregions/
 ---
 ## MailMerge.MergeDuplicateRegions property
@@ -16,7 +16,7 @@ public bool MergeDuplicateRegions { get; set; }
 
 ### Remarks
 
-The default value is false.
+The default value is **false**.
 
 ### Examples
 

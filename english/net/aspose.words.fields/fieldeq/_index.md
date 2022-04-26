@@ -3,7 +3,7 @@ title: FieldEQ
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 1630
+weight: 1610
 url: /net/aspose.words.fields/fieldeq/
 ---
 ## FieldEQ class
@@ -14,7 +14,7 @@ Implements the EQ field.
 public class FieldEQ : Field
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |

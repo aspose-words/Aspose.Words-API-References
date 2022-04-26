@@ -3,7 +3,7 @@ title: VisitFieldStart
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 180
+weight: 200
 url: /net/aspose.words/documentvisitor/visitfieldstart/
 ---
 ## DocumentVisitor.VisitFieldStart method
@@ -24,7 +24,15 @@ A [`VisitorAction`](../../visitoraction) value that specifies how to continue th
 
 ### Remarks
 
-A field in a Word Word document consists of a field code and field value.For example, a field that displays a page number can be represented as follows:[FieldStart]PAGE[FieldSeparator]98[FieldEnd]The field separator separates field code from field value in the document. Note that some fields have only field code and do not have field separator and field value.Fields can be nested.
+A field in a Word Word document consists of a field code and field value.
+
+For example, a field that displays a page number can be represented as follows:
+
+[FieldStart]PAGE[FieldSeparator]98[FieldEnd]
+
+The field separator separates field code from field value in the document. Note that some fields have only field code and do not have field separator and field value.
+
+Fields can be nested.
 
 ### Examples
 

@@ -3,12 +3,12 @@ title: Multiline
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 310
+weight: 210
 url: /net/aspose.words.markup/structureddocumenttag/multiline/
 ---
 ## StructuredDocumentTag.Multiline property
 
-Specifies whether this SDT allows multiple lines of text.
+Specifies whether this **SDT** allows multiple lines of text.
 
 ```csharp
 public bool Multiline { get; set; }

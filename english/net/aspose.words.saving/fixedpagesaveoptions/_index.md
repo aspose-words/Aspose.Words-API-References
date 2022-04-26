@@ -3,7 +3,7 @@ title: FixedPageSaveOptions
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 4680
+weight: 4630
 url: /net/aspose.words.saving/fixedpagesaveoptions/
 ---
 ## FixedPageSaveOptions class
@@ -14,7 +14,7 @@ Contains common options that can be specified when saving a document into fixed 
 public abstract class FixedPageSaveOptions : SaveOptions
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -25,7 +25,12 @@ public abstract class FixedPageSaveOptions : SaveOptions
 | virtual [OptimizeOutput](optimizeoutput) { get; set; } | Flag indicates whether it is required to optimize output. If this flag is set redundant nested canvases and empty canvases are removed, also neighbor glyphs with the same formatting are concatenated. Note: The accuracy of the content display may be affected if this property is set to true. Default is false. |
 | [PageSavingCallback](pagesavingcallback) { get; set; } | Allows to control how separate pages are saved when a document is exported to fixed page format. |
 | [PageSet](pageset) { get; set; } | Gets or sets the pages to render. Default is all the pages in the document. |
-| override [Equals](equals)(…) | Determines whether the specified object is equal in value to the current object. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| override [Equals](equals)(object) | Determines whether the specified object is equal in value to the current object. |
 
 ### Examples
 

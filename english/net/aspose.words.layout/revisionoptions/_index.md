@@ -3,7 +3,7 @@ title: RevisionOptions
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 3130
+weight: 3110
 url: /net/aspose.words.layout/revisionoptions/
 ---
 ## RevisionOptions class
@@ -14,7 +14,7 @@ Allows to control how document revisions are handled during layout process.
 public class RevisionOptions
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |

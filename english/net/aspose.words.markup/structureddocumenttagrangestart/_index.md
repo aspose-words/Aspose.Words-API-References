@@ -3,22 +3,27 @@ title: StructuredDocumentTagRangeStart
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 3790
+weight: 3740
 url: /net/aspose.words.markup/structureddocumenttagrangestart/
 ---
 ## StructuredDocumentTagRangeStart class
 
-Represents a start of ranged structured document tag which accepts multi-sections content. See also [`StructuredDocumentTagRangeEnd`](../structureddocumenttagrangeend).
+Represents a start of **ranged** structured document tag which accepts multi-sections content. See also [`StructuredDocumentTagRangeEnd`](../structureddocumenttagrangeend).
 
 ```csharp
-public class StructuredDocumentTagRangeStart : Node, IEnumerable<Node>, IStructuredDocumentTag
+public class StructuredDocumentTagRangeStart : Node, IEnumerable<Node>
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
-| [StructuredDocumentTagRangeStart](structureddocumenttagrangestart)(…) | Initializes a new instance of the Structured document tag range start class. |
+| [StructuredDocumentTagRangeStart](structureddocumenttagrangestart)(DocumentBase, SdtType) | Initializes a new instance of the **Structured document tag range start** class. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [ChildNodes](childnodes) { get; } | Gets all nodes between this range start node and the range end node. |
 | [Color](color) { get; set; } | Gets or sets the color of the structured document tag. |
 | [Id](id) { get; } | Specifies a unique read-only persistent numerical Id for this structured document tag. |
@@ -36,16 +41,21 @@ public class StructuredDocumentTagRangeStart : Node, IEnumerable<Node>, IStructu
 | [Title](title) { get; set; } | Specifies the friendly name associated with this structured document tag. Can not be null. |
 | [WordOpenXML](wordopenxml) { get; } | Gets a string that represents the XML contained within the node in the FlatOpc format. |
 | [XmlMapping](xmlmapping) { get; } | Gets an object that represents the mapping of this structured document tag range to XML data in a custom XML part of the current document. |
-| override [Accept](accept)(…) |  |
-| [AppendChild](appendchild)(…) | Adds the specified node to the end of the stdContent range. |
-| [GetChildNodes](getchildnodes)(…) | Returns a live collection of child nodes that match the specified types. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| override [Accept](accept)(DocumentVisitor) |  |
+| [AppendChild](appendchild)(Node) | Adds the specified node to the end of the stdContent range. |
+| [GetChildNodes](getchildnodes)(NodeType, bool) | Returns a live collection of child nodes that match the specified types. |
 | [GetEnumerator](getenumerator)() | Provides support for the for each style iteration over the child nodes of this node. |
 | [RemoveAllChildren](removeallchildren)() | Removes all the nodes between this range start node and the range end node. |
 | [RemoveSelfOnly](removeselfonly)() | Removes this range start and appropriate range end nodes of the structured document tag, but keeps its content inside the document tree. |
 
 ### Remarks
 
-Can be immediate child of [`Body`](../../aspose.words/body) node only.
+Can be immediate child of [`Body`](../../aspose.words/body) node **only**.
 
 ### Examples
 
@@ -81,7 +91,6 @@ Console.WriteLine($"\t|NodeType: {rangeEndTag.NodeType}");
 ### See Also
 
 * class [Node](../../aspose.words/node)
-* interface [IStructuredDocumentTag](../istructureddocumenttag)
 * namespace [Aspose.Words.Markup](../../aspose.words.markup)
 * assembly [Aspose.Words](../../)
 

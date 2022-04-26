@@ -3,7 +3,7 @@ title: ImportFormatOptions
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 2980
+weight: 2960
 url: /net/aspose.words/importformatoptions/
 ---
 ## ImportFormatOptions class
@@ -14,11 +14,16 @@ Allows to specify various import options to format output.
 public class ImportFormatOptions
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [ImportFormatOptions](importformatoptions)() | The default constructor. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [ForceCopyStyles](forcecopystyles) { get; set; } | Gets or sets a boolean value indicating either to copy conflicting styles in KeepSourceFormatting mode. The default value is `false`. |
 | [IgnoreHeaderFooter](ignoreheaderfooter) { get; set; } | Gets or sets a boolean value that specifies that source formatting of headers/footers content ignored if KeepSourceFormatting mode is used. The default value is `true`. |
 | [IgnoreTextBoxes](ignoretextboxes) { get; set; } | Gets or sets a boolean value that specifies that source formatting of textboxes content ignored if KeepSourceFormatting mode is used. The default value is `true`. |

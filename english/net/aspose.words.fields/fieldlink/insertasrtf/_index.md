@@ -3,7 +3,7 @@ title: InsertAsRtf
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 110
+weight: 70
 url: /net/aspose.words.fields/fieldlink/insertasrtf/
 ---
 ## FieldLink.InsertAsRtf property

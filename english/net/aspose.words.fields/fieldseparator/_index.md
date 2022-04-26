@@ -3,7 +3,7 @@ title: FieldSeparator
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 2180
+weight: 2160
 url: /net/aspose.words.fields/fieldseparator/
 ---
 ## FieldSeparator class
@@ -14,16 +14,27 @@ Represents a Word field separator that separates the field code from the field r
 public class FieldSeparator : FieldChar
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
 | override [NodeType](nodetype) { get; } | Returns FieldSeparator. |
-| override [Accept](accept)(…) | Accepts a visitor. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| override [Accept](accept)(DocumentVisitor) | Accepts a visitor. |
 
 ### Remarks
 
-[`FieldSeparator`](../fieldseparator) is an inline-level node and represented by the [`FieldSeparatorChar`](../../aspose.words/controlchar/fieldseparatorchar) control character in the document.[`FieldSeparator`](../fieldseparator) can only be a child of [`Paragraph`](../../aspose.words/paragraph).A complete field in a Microsoft Word document is a complex structure consisting of a field start character, field code, field separator character, field result and field end character. Some fields only have field start, field code and field end.To easily insert a new field into a document, use the [`InsertField`](../../aspose.words/documentbuilder/insertfield) method.
+[`FieldSeparator`](../fieldseparator) is an inline-level node and represented by the [`FieldSeparatorChar`](../../aspose.words/controlchar/fieldseparatorchar) control character in the document.
+
+[`FieldSeparator`](../fieldseparator) can only be a child of [`Paragraph`](../../aspose.words/paragraph).
+
+A complete field in a Microsoft Word document is a complex structure consisting of a field start character, field code, field separator character, field result and field end character. Some fields only have field start, field code and field end.
+
+To easily insert a new field into a document, use the [`InsertField`](../../aspose.words/documentbuilder/insertfield) method.
 
 ### Examples
 

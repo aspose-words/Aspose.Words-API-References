@@ -3,7 +3,7 @@ title: FieldSeq
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 2190
+weight: 2170
 url: /net/aspose.words.fields/fieldseq/
 ---
 ## FieldSeq class
@@ -14,11 +14,16 @@ Implements the SEQ field.
 public class FieldSeq : Field
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [FieldSeq](fieldseq)() | The default constructor. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [BookmarkName](bookmarkname) { get; set; } | Gets or sets a bookmark name that refers to an item elsewhere in the document rather than in the current location. |
 | [InsertNextNumber](insertnextnumber) { get; set; } | Gets or sets whether to insert the next sequence number for the specified item. |
 | [ResetHeadingLevel](resetheadinglevel) { get; set; } | Gets or sets an integer number representing a heading level to reset the sequence number to. Returns -1 if the number is absent. |

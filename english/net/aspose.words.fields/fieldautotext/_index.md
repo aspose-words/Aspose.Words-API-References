@@ -3,7 +3,7 @@ title: FieldAutoText
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 1430
+weight: 1410
 url: /net/aspose.words.fields/fieldautotext/
 ---
 ## FieldAutoText class
@@ -14,11 +14,16 @@ Implements the AUTOTEXT field.
 public class FieldAutoText : Field
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [FieldAutoText](fieldautotext)() | The default constructor. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [EntryName](entryname) { get; set; } | Gets or sets the name of the AutoText entry. |
 
 ### Remarks

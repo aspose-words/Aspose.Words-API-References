@@ -3,7 +3,7 @@ title: Document
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 480
+weight: 80
 url: /net/aspose.words/documentbuilder/document/
 ---
 ## DocumentBuilder.Document property

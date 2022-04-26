@@ -3,7 +3,7 @@ title: FieldUpdateCultureProvider
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 20
+weight: 80
 url: /net/aspose.words.fields/fieldoptions/fieldupdatecultureprovider/
 ---
 ## FieldOptions.FieldUpdateCultureProvider property
@@ -16,7 +16,7 @@ public IFieldUpdateCultureProvider FieldUpdateCultureProvider { get; set; }
 
 ### Remarks
 
-The provider is requested when the value of [`FieldUpdateCultureSource`](../fieldupdateculturesource) is FieldUpdateCultureSource.FieldCode.
+The provider is requested when the value of [`FieldUpdateCultureSource`](../fieldupdateculturesource) is **FieldUpdateCultureSource.FieldCode**.
 
 If the provider is present, then the culture object it returns is used for the field update. Otherwise, a system culture is used.
 

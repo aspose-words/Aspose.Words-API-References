@@ -3,12 +3,12 @@ title: BuildingBlockGallery
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 290
+weight: 40
 url: /net/aspose.words.markup/structureddocumenttag/buildingblockgallery/
 ---
 ## StructuredDocumentTag.BuildingBlockGallery property
 
-Specifies type of building block for this SDT. Can not be null.
+Specifies type of building block for this **SDT**. Can not be null.
 
 ```csharp
 public string BuildingBlockGallery { get; set; }
@@ -16,7 +16,7 @@ public string BuildingBlockGallery { get; set; }
 
 ### Remarks
 
-Accessing this property will only work for BuildingBlockGallery and DocPartObj SDT types. It is read-only for SDT of the document part type.
+Accessing this property will only work for BuildingBlockGallery and DocPartObj SDT types. It is read-only for **SDT** of the document part type.
 
 For all other SDT types exception will occur.
 

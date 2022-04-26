@@ -3,7 +3,7 @@ title: Clone
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 70
+weight: 50
 url: /net/aspose.words.markup/customxmlschemacollection/clone/
 ---
 ## CustomXmlSchemaCollection.Clone method

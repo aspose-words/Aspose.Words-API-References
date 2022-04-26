@@ -3,7 +3,7 @@ title: TextFormFieldType
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 2530
+weight: 2510
 url: /net/aspose.words.fields/textformfieldtype/
 ---
 ## TextFormFieldType enumeration

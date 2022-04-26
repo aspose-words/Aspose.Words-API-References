@@ -3,7 +3,7 @@ title: InsertShape
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 370
+weight: 410
 url: /net/aspose.words/documentbuilder/insertshape/
 ---
 ## DocumentBuilder.InsertShape method (1 of 2)

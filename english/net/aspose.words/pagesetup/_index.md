@@ -3,7 +3,7 @@ title: PageSetup
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 4060
+weight: 4010
 url: /net/aspose.words/pagesetup/
 ---
 ## PageSetup class
@@ -14,7 +14,7 @@ Represents the page setup properties of a section.
 public class PageSetup
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -27,7 +27,7 @@ public class PageSetup
 | [BorderSurroundsHeader](bordersurroundsheader) { get; set; } | Specifies whether the page border includes or excludes the header. |
 | [BottomMargin](bottommargin) { get; set; } | Returns or sets the distance (in points) between the bottom edge of the page and the bottom boundary of the body text. |
 | [CharactersPerLine](charactersperline) { get; set; } | Gets or sets the number of characters per line in the document grid. |
-| [DifferentFirstPageHeaderFooter](differentfirstpageheaderfooter) { get; set; } | True if a different header or footer is used on the first page. |
+| [DifferentFirstPageHeaderFooter](differentfirstpageheaderfooter) { get; set; } | **True** if a different header or footer is used on the first page. |
 | [EndnoteOptions](endnoteoptions) { get; } | Provides options that control numbering and positioning of endnotes in this section. |
 | [FirstPageTray](firstpagetray) { get; set; } | Gets or sets the paper tray (bin) to use for the first page of a section. The value is implementation (printer) specific. |
 | [FooterDistance](footerdistance) { get; set; } | Returns or sets the distance (in points) between the footer and the bottom of the page. |
@@ -42,7 +42,7 @@ public class PageSetup
 | [LinesPerPage](linesperpage) { get; set; } | Gets or sets the number of lines per page in the document grid. |
 | [LineStartingNumber](linestartingnumber) { get; set; } | Gets or sets the starting line number. |
 | [MultiplePages](multiplepages) { get; set; } | For multiple page documents, gets or sets how a document is printed or rendered so that it can be bound as a booklet. |
-| [OddAndEvenPagesHeaderFooter](oddandevenpagesheaderfooter) { get; set; } | True if the document has different headers and footers for odd-numbered and even-numbered pages. |
+| [OddAndEvenPagesHeaderFooter](oddandevenpagesheaderfooter) { get; set; } | **True** if the document has different headers and footers for odd-numbered and even-numbered pages. |
 | [Orientation](orientation) { get; set; } | Returns or sets the orientation of the page. |
 | [OtherPagesTray](otherpagestray) { get; set; } | Gets or sets the paper tray (bin) to be used for all but the first page of a section. The value is implementation (printer) specific. |
 | [PageHeight](pageheight) { get; set; } | Returns or sets the height of the page in points. |
@@ -50,21 +50,26 @@ public class PageSetup
 | [PageStartingNumber](pagestartingnumber) { get; set; } | Gets or sets the starting page number of the section. |
 | [PageWidth](pagewidth) { get; set; } | Returns or sets the width of the page in points. |
 | [PaperSize](papersize) { get; set; } | Returns or sets the paper size. |
-| [RestartPageNumbering](restartpagenumbering) { get; set; } | True if page numbering restarts at the beginning of the section. |
+| [RestartPageNumbering](restartpagenumbering) { get; set; } | **True** if page numbering restarts at the beginning of the section. |
 | [RightMargin](rightmargin) { get; set; } | Returns or sets the distance (in points) between the right edge of the page and the right boundary of the body text. |
 | [RtlGutter](rtlgutter) { get; set; } | Gets or sets whether Microsoft Word uses gutters for the section based on a right-to-left language or a left-to-right language. |
 | [SectionStart](sectionstart) { get; set; } | Returns or sets the type of section break for the specified object. |
 | [SheetsPerBooklet](sheetsperbooklet) { get; set; } | Returns or sets the number of pages to be included in each booklet. |
-| [SuppressEndnotes](suppressendnotes) { get; set; } | True if endnotes are printed at the end of the next section that doesn't suppress endnotes. Suppressed endnotes are printed before the endnotes in that section. |
+| [SuppressEndnotes](suppressendnotes) { get; set; } | **True** if endnotes are printed at the end of the next section that doesn't suppress endnotes. Suppressed endnotes are printed before the endnotes in that section. |
 | [TextColumns](textcolumns) { get; } | Returns a collection that represents the set of text columns. |
 | [TextOrientation](textorientation) { get; set; } | Allows to specify [`TextOrientation`](./textorientation) for the whole page. Default value is Horizontal |
 | [TopMargin](topmargin) { get; set; } | Returns or sets the distance (in points) between the top edge of the page and the top boundary of the body text. |
 | [VerticalAlignment](verticalalignment) { get; set; } | Returns or sets the vertical alignment of text on each page in a document or section. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
 | [ClearFormatting](clearformatting)() | Resets page setup to default paper size, margins and orientation. |
 
 ### Remarks
 
-PageSetup object contains all the page setup attributes of a section (left margin, bottom margin, paper size, and so on) as properties.
+**PageSetup** object contains all the page setup attributes of a section (left margin, bottom margin, paper size, and so on) as properties.
 
 ### Examples
 

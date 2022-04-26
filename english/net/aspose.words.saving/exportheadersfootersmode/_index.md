@@ -3,7 +3,7 @@ title: ExportHeadersFootersMode
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 4660
+weight: 4610
 url: /net/aspose.words.saving/exportheadersfootersmode/
 ---
 ## ExportHeadersFootersMode enumeration

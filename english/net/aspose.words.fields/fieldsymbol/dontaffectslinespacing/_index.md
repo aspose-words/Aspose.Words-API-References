@@ -3,7 +3,7 @@ title: DontAffectsLineSpacing
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 80
+weight: 30
 url: /net/aspose.words.fields/fieldsymbol/dontaffectslinespacing/
 ---
 ## FieldSymbol.DontAffectsLineSpacing property

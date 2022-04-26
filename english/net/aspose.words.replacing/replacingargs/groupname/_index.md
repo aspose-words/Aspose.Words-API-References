@@ -3,7 +3,7 @@ title: GroupName
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 50
+weight: 20
 url: /net/aspose.words.replacing/replacingargs/groupname/
 ---
 ## ReplacingArgs.GroupName property
@@ -16,7 +16,9 @@ public string GroupName { get; set; }
 
 ### Remarks
 
-When group name is null, [`GroupIndex`](../groupindex) is used to identify the group.Default is null.
+When group name is null, [`GroupIndex`](../groupindex) is used to identify the group.
+
+Default is null.
 
 ### Examples
 

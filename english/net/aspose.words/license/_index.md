@@ -3,7 +3,7 @@ title: License
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 3160
+weight: 3140
 url: /net/aspose.words/license/
 ---
 ## License class
@@ -14,12 +14,18 @@ Provides methods to license the component.
 public class License
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [License](license)() | Initializes a new instance of this class. |
-| [SetLicense](setlicense)(…) | Licenses the component. (2 methods) |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [SetLicense](setlicense)(Stream) | Licenses the component. |
+| [SetLicense](setlicense)(string) | Licenses the component. |
 
 ### Examples
 

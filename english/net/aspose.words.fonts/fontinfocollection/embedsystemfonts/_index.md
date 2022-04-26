@@ -3,14 +3,14 @@ title: EmbedSystemFonts
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 60
+weight: 20
 url: /net/aspose.words.fonts/fontinfocollection/embedsystemfonts/
 ---
 ## FontInfoCollection.EmbedSystemFonts property
 
-Specifies whether or not to embed System fonts into the document. Default value for this property is false.
+Specifies whether or not to embed System fonts into the document. Default value for this property is **false**.
 
-This option works only when [`EmbedTrueTypeFonts`](../embedtruetypefonts) option is set to true.
+This option works only when [`EmbedTrueTypeFonts`](../embedtruetypefonts) option is set to **true**.
 
 ```csharp
 public bool EmbedSystemFonts { get; set; }

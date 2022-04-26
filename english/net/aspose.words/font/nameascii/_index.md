@@ -3,7 +3,7 @@ title: NameAscii
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 40
+weight: 240
 url: /net/aspose.words/font/nameascii/
 ---
 ## Font.NameAscii property

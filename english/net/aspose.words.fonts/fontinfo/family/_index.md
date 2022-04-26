@@ -3,7 +3,7 @@ title: Family
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 50
+weight: 30
 url: /net/aspose.words.fonts/fontinfo/family/
 ---
 ## FontInfo.Family property

@@ -3,7 +3,7 @@ title: Bold
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 60
+weight: 10
 url: /net/aspose.words.drawing/textpath/bold/
 ---
 ## TextPath.Bold property
@@ -16,7 +16,7 @@ public bool Bold { get; set; }
 
 ### Remarks
 
-The default value is false.
+The default value is **false**.
 
 ### Examples
 

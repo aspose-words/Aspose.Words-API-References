@@ -3,7 +3,7 @@ title: TaskPane
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 6310
+weight: 6260
 url: /net/aspose.words.webextensions/taskpane/
 ---
 ## TaskPane class
@@ -14,11 +14,16 @@ Represents an add-in task pane object.
 public class TaskPane
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [TaskPane](taskpane)() | The default constructor. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [DockState](dockstate) { get; set; } | Specifies the last-docked location of this task pane object. |
 | [IsLocked](islocked) { get; set; } | Specifies whether the task pane is locked to the document in the UI and cannot be closed by the user. |
 | [IsVisible](isvisible) { get; set; } | Specifies whether the task pane shows as visible by default when the document opens. |

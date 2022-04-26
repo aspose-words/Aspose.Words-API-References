@@ -3,16 +3,20 @@ title: Add
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 40
+weight: 30
 url: /net/aspose.words.drawing.charts/chartseriescollection/add/
 ---
 ## ChartSeriesCollection.Add method (1 of 4)
 
-Adds new [`ChartSeries`](../../chartseries) to this collection. Use this method to add series to any type of Area, Radar and Stock charts.
+Adds new [`ChartSeries`](../../chartseries) to this collection. Use this method to add series to any type of Bar, Column, Line and Surface charts.
 
 ```csharp
-public ChartSeries Add(string seriesName, DateTime[] dates, double[] values)
+public ChartSeries Add(string seriesName, string[] categories, double[] values)
 ```
+
+## Return Value
+
+Recently added [`ChartSeries`](../../chartseries) object.
 
 ### Examples
 
@@ -220,15 +224,11 @@ private static Chart AppendChart(DocumentBuilder builder, ChartType chartType, d
 
 ## ChartSeriesCollection.Add method (3 of 4)
 
-Adds new [`ChartSeries`](../../chartseries) to this collection. Use this method to add series to any type of Bar, Column, Line and Surface charts.
+Adds new [`ChartSeries`](../../chartseries) to this collection. Use this method to add series to any type of Area, Radar and Stock charts.
 
 ```csharp
-public ChartSeries Add(string seriesName, string[] categories, double[] values)
+public ChartSeries Add(string seriesName, DateTime[] dates, double[] values)
 ```
-
-## Return Value
-
-Recently added [`ChartSeries`](../../chartseries) object.
 
 ### Examples
 

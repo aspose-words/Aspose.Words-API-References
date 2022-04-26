@@ -3,7 +3,7 @@ title: HeightPoints
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 70
+weight: 30
 url: /net/aspose.words.drawing/imagesize/heightpoints/
 ---
 ## ImageSize.HeightPoints property

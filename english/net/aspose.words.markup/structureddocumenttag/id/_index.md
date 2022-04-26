@@ -3,12 +3,12 @@ title: Id
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 120
+weight: 140
 url: /net/aspose.words.markup/structureddocumenttag/id/
 ---
 ## StructuredDocumentTag.Id property
 
-Specifies a unique read-only persistent numerical Id for this SDT.
+Specifies a unique read-only persistent numerical Id for this **SDT**.
 
 ```csharp
 public int Id { get; }

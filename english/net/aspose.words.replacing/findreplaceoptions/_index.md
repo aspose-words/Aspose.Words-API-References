@@ -3,7 +3,7 @@ title: FindReplaceOptions
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 4280
+weight: 4230
 url: /net/aspose.words.replacing/findreplaceoptions/
 ---
 ## FindReplaceOptions class
@@ -14,12 +14,19 @@ Specifies options for find/replace operations.
 public class FindReplaceOptions
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [FindReplaceOptions](findreplaceoptions)() | The default constructor. |
-| [FindReplaceOptions](findreplaceoptions)(…) |  (3 constructors) |
+| [FindReplaceOptions](findreplaceoptions)(FindReplaceDirection) |  |
+| [FindReplaceOptions](findreplaceoptions)(IReplacingCallback) |  |
+| [FindReplaceOptions](findreplaceoptions)(FindReplaceDirection, IReplacingCallback) |  |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [ApplyFont](applyfont) { get; } | Text formatting applied to new content. |
 | [ApplyParagraphFormat](applyparagraphformat) { get; } | Paragraph formatting applied to new content. |
 | [Direction](direction) { get; set; } | Selects direction for replace. Default value is Forward. |

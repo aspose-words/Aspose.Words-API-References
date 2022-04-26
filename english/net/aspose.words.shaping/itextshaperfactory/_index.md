@@ -3,7 +3,7 @@ title: ITextShaperFactory
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 5670
+weight: 5620
 url: /net/aspose.words.shaping/itextshaperfactory/
 ---
 ## ITextShaperFactory interface
@@ -12,11 +12,12 @@ url: /net/aspose.words.shaping/itextshaperfactory/
 public interface ITextShaperFactory
 ```
 
-## Members
+## Methods
 
 | Name | Description |
 | --- | --- |
-| [GetTextShaper](gettextshaper)(…) |  (2 methods) |
+| [GetTextShaper](gettextshaper)(string, int) |  |
+| [GetTextShaper](gettextshaper)(string, byte[], int) |  |
 
 ### See Also
 

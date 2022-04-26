@@ -3,7 +3,7 @@ title: IsMultiLevel
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 60
+weight: 40
 url: /net/aspose.words.lists/list/ismultilevel/
 ---
 ## List.IsMultiLevel property
@@ -16,7 +16,9 @@ public bool IsMultiLevel { get; }
 
 ### Remarks
 
-The lists that you create with Aspose.Words are always multi-level lists and contain 9 levels.Microsoft Word 2003 and later always create multi-level lists with 9 levels. But in some documents, created with earlier versions of Microsoft Word you might encounter lists that have 1 level only.
+The lists that you create with Aspose.Words are always multi-level lists and contain 9 levels.
+
+Microsoft Word 2003 and later always create multi-level lists with 9 levels. But in some documents, created with earlier versions of Microsoft Word you might encounter lists that have 1 level only.
 
 ### Examples
 

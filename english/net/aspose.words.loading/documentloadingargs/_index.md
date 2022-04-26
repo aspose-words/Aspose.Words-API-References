@@ -3,7 +3,7 @@ title: DocumentLoadingArgs
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 3330
+weight: 3300
 url: /net/aspose.words.loading/documentloadingargs/
 ---
 ## DocumentLoadingArgs class
@@ -14,7 +14,7 @@ An argument passed into [`Notify`](../idocumentloadingcallback/notify).
 public sealed class DocumentLoadingArgs
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |

@@ -3,7 +3,7 @@ title: Scaling
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 200
+weight: 190
 url: /net/aspose.words.drawing.charts/chartaxis/scaling/
 ---
 ## ChartAxis.Scaling property

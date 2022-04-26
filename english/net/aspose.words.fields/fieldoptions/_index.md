@@ -3,7 +3,7 @@ title: FieldOptions
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 2050
+weight: 2030
 url: /net/aspose.words.fields/fieldoptions/
 ---
 ## FieldOptions class
@@ -14,7 +14,7 @@ Represents options to control field handling in a document.
 public sealed class FieldOptions
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |

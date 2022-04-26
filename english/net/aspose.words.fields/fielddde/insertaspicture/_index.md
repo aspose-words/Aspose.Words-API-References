@@ -3,7 +3,7 @@ title: InsertAsPicture
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 90
+weight: 50
 url: /net/aspose.words.fields/fielddde/insertaspicture/
 ---
 ## FieldDde.InsertAsPicture property

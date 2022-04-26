@@ -3,7 +3,7 @@ title: RowFormat
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 5940
+weight: 5890
 url: /net/aspose.words.tables/rowformat/
 ---
 ## RowFormat class
@@ -14,7 +14,7 @@ Represents all formatting for a table row.
 public class RowFormat
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -23,6 +23,11 @@ public class RowFormat
 | [HeadingFormat](headingformat) { get; set; } | True if the row is repeated as a table heading on every page when the table spans more than one page. |
 | [Height](height) { get; set; } | Gets or sets the height of the table row in points. |
 | [HeightRule](heightrule) { get; set; } | Gets or sets the rule for determining the height of the table row. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
 | [ClearFormatting](clearformatting)() | Resets to default row formatting. |
 
 ### Examples

@@ -3,7 +3,7 @@ title: Color
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 190
+weight: 70
 url: /net/aspose.words/font/color/
 ---
 ## Font.Color property

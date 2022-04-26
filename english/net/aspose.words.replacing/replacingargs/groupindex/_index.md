@@ -3,7 +3,7 @@ title: GroupIndex
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 60
+weight: 10
 url: /net/aspose.words.replacing/replacingargs/groupindex/
 ---
 ## ReplacingArgs.GroupIndex property
@@ -16,7 +16,9 @@ public int GroupIndex { get; set; }
 
 ### Remarks
 
-`GroupIndex` has effect only when [`GroupName`](../groupname) is null.Default is zero.
+`GroupIndex` has effect only when [`GroupName`](../groupname) is null.
+
+Default is zero.
 
 ### Examples
 

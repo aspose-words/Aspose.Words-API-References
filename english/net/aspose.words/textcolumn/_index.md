@@ -3,18 +3,18 @@ title: TextColumn
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 6000
+weight: 5950
 url: /net/aspose.words/textcolumn/
 ---
 ## TextColumn class
 
-Represents a single text column. TextColumn is a member of the [`TextColumnCollection`](../textcolumncollection) collection. The TextColumns collection includes all the columns in a section of a document.
+Represents a single text column. **TextColumn** is a member of the [`TextColumnCollection`](../textcolumncollection) collection. The **TextColumns** collection includes all the columns in a section of a document.
 
 ```csharp
 public class TextColumn
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -23,7 +23,9 @@ public class TextColumn
 
 ### Remarks
 
-TextColumn objects are only used to specify columns with custom width and spacing. If you want the columns in the document to be of equal width, set TextColumns.[`EvenlySpaced`](../textcolumncollection/evenlyspaced) to true.When a new TextColumn is created it has its width and spacing set to zero.
+**TextColumn** objects are only used to specify columns with custom width and spacing. If you want the columns in the document to be of equal width, set TextColumns.[`EvenlySpaced`](../textcolumncollection/evenlyspaced) to **true**.
+
+When a new **TextColumn** is created it has its width and spacing set to zero.
 
 ### Examples
 

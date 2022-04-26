@@ -3,7 +3,7 @@ title: IsLinkOnly
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 110
+weight: 160
 url: /net/aspose.words.drawing/imagedata/islinkonly/
 ---
 ## ImageData.IsLinkOnly property

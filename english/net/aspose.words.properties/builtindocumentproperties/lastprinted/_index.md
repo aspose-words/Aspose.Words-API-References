@@ -3,7 +3,7 @@ title: LastPrinted
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 120
+weight: 150
 url: /net/aspose.words.properties/builtindocumentproperties/lastprinted/
 ---
 ## BuiltInDocumentProperties.LastPrinted property

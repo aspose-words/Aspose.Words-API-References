@@ -3,7 +3,7 @@ title: FieldTitle
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 2310
+weight: 2290
 url: /net/aspose.words.fields/fieldtitle/
 ---
 ## FieldTitle class
@@ -14,16 +14,21 @@ Implements the TITLE field.
 public class FieldTitle : Field
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [FieldTitle](fieldtitle)() | The default constructor. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [Text](text) { get; set; } | Gets or sets the text of the title. |
 
 ### Remarks
 
-Retrieves, and optionally sets, the document's title, as recorded in the Title property of the built-in document properties.
+Retrieves, and optionally sets, the document's title, as recorded in the **Title** property of the built-in document properties.
 
 ### Examples
 

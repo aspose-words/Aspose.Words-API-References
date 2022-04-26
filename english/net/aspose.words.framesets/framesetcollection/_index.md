@@ -3,7 +3,7 @@ title: FramesetCollection
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 2850
+weight: 2830
 url: /net/aspose.words.framesets/framesetcollection/
 ---
 ## FramesetCollection class
@@ -14,13 +14,23 @@ Represents a collection of instances of the [`Frameset`](../frameset) class.
 public class FramesetCollection : IEnumerable<Frameset>
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [FramesetCollection](framesetcollection)() | The default constructor. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [Count](count) { get; } | Gets the number of frames or frames pages contained in the collection. |
 | [Item](item) { get; } | Gets a frame or frames page at the specified index. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
 | [GetEnumerator](getenumerator)() |  |
 
 ### See Also

@@ -3,7 +3,7 @@ title: AutoFitBehavior
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 5840
+weight: 5790
 url: /net/aspose.words.tables/autofitbehavior/
 ---
 ## AutoFitBehavior enumeration

@@ -3,7 +3,7 @@ title: BasicTextShaperCache
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 5610
+weight: 5560
 url: /net/aspose.words.shaping/basictextshapercache/
 ---
 ## BasicTextShaperCache class
@@ -12,11 +12,16 @@ url: /net/aspose.words.shaping/basictextshapercache/
 public sealed class BasicTextShaperCache : IDisposable, ITextShaperFactory
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
-| [BasicTextShaperCache](basictextshapercache)(…) |  |
+| [BasicTextShaperCache](basictextshapercache)(ITextShaperFactory) |  |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
 | [Dispose](dispose)() |  |
 
 ### See Also

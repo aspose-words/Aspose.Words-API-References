@@ -3,7 +3,7 @@ title: IsUSPostalAddress
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 180
+weight: 130
 url: /net/aspose.words.fields/barcodeparameters/isuspostaladdress/
 ---
 ## BarcodeParameters.IsUSPostalAddress property

@@ -3,7 +3,7 @@ title: MinorUnitScale
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 140
+weight: 160
 url: /net/aspose.words.drawing.charts/chartaxis/minorunitscale/
 ---
 ## ChartAxis.MinorUnitScale property

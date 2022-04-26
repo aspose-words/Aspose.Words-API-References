@@ -3,7 +3,7 @@ title: DocSaveOptions
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 4590
+weight: 4540
 url: /net/aspose.words.saving/docsaveoptions/
 ---
 ## DocSaveOptions class
@@ -14,17 +14,22 @@ Can be used to specify additional options when saving a document into the Doc or
 public class DocSaveOptions : SaveOptions
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [DocSaveOptions](docsaveoptions)() | Initializes a new instance of this class that can be used to save a document in the Doc format. |
-| [DocSaveOptions](docsaveoptions)(…) | Initializes a new instance of this class that can be used to save a document in the Doc or Dot format. |
-| [AlwaysCompressMetafiles](alwayscompressmetafiles) { get; set; } | When `false`, small metafiles are not compressed for performance reason. Default value is true, all metafiles are compressed regardless of its size. |
+| [DocSaveOptions](docsaveoptions)(SaveFormat) | Initializes a new instance of this class that can be used to save a document in the Doc or Dot format. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
+| [AlwaysCompressMetafiles](alwayscompressmetafiles) { get; set; } | When `false`, small metafiles are not compressed for performance reason. Default value is **true**, all metafiles are compressed regardless of its size. |
 | [Password](password) { get; set; } | Gets/sets a password to encrypt document using RC4 encryption method. |
 | override [SaveFormat](saveformat) { get; set; } | Specifies the format in which the document will be saved if this save options object is used. Can be Doc or Dot. |
-| [SavePictureBullet](savepicturebullet) { get; set; } | When `false`, PictureBullet data is not saved to output document. Default value is true. |
-| [SaveRoutingSlip](saveroutingslip) { get; set; } | When `false`, RoutingSlip data is not saved to output document. Default value is true. |
+| [SavePictureBullet](savepicturebullet) { get; set; } | When `false`, PictureBullet data is not saved to output document. Default value is **true**. |
+| [SaveRoutingSlip](saveroutingslip) { get; set; } | When `false`, RoutingSlip data is not saved to output document. Default value is **true**. |
 
 ### Remarks
 

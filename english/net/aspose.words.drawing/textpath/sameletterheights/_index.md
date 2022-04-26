@@ -3,7 +3,7 @@ title: SameLetterHeights
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 150
+weight: 100
 url: /net/aspose.words.drawing/textpath/sameletterheights/
 ---
 ## TextPath.SameLetterHeights property
@@ -16,7 +16,7 @@ public bool SameLetterHeights { get; set; }
 
 ### Remarks
 
-The default value is false.
+The default value is **false**.
 
 ### Examples
 

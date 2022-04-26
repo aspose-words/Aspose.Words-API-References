@@ -3,7 +3,7 @@ title: ToDateTime
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 40
+weight: 80
 url: /net/aspose.words.properties/documentproperty/todatetime/
 ---
 ## DocumentProperty.ToDateTime method
@@ -16,7 +16,9 @@ public DateTime ToDateTime()
 
 ### Remarks
 
-Throws an exception if the property type is not DateTime.Microsoft Word stores only the date part (no time) for custom date properties.
+Throws an exception if the property type is not DateTime.
+
+Microsoft Word stores only the date part (no time) for custom date properties.
 
 ### Examples
 

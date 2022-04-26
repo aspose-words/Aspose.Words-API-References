@@ -3,7 +3,7 @@ title: Spacing
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 190
+weight: 140
 url: /net/aspose.words.drawing/textpath/spacing/
 ---
 ## TextPath.Spacing property

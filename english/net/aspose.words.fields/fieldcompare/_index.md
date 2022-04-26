@@ -3,7 +3,7 @@ title: FieldCompare
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 1530
+weight: 1510
 url: /net/aspose.words.fields/fieldcompare/
 ---
 ## FieldCompare class
@@ -14,11 +14,16 @@ Implements the COMPARE field.
 public class FieldCompare : Field
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [FieldCompare](fieldcompare)() | The default constructor. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [ComparisonOperator](comparisonoperator) { get; set; } | Gets or sets the comparison operator. |
 | [LeftExpression](leftexpression) { get; set; } | Gets or sets the left part of the comparison expression. |
 | [RightExpression](rightexpression) { get; set; } | Gets or sets the right part of the comparison expression. |

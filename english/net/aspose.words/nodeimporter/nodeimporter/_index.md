@@ -3,7 +3,7 @@ title: NodeImporter
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 20
+weight: 10
 url: /net/aspose.words/nodeimporter/nodeimporter/
 ---
 ## NodeImporter constructor (1 of 2)

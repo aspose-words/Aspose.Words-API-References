@@ -3,7 +3,7 @@ title: SetText
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 10
+weight: 40
 url: /net/aspose.words/watermark/settext/
 ---
 ## Watermark.SetText method (1 of 2)

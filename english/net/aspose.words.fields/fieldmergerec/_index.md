@@ -3,7 +3,7 @@ title: FieldMergeRec
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 1960
+weight: 1940
 url: /net/aspose.words.fields/fieldmergerec/
 ---
 ## FieldMergeRec class
@@ -14,7 +14,7 @@ Implements the MERGEREC field.
 public class FieldMergeRec : Field
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |

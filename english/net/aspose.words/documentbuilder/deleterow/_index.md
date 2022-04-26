@@ -3,7 +3,7 @@ title: DeleteRow
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 200
+weight: 180
 url: /net/aspose.words/documentbuilder/deleterow/
 ---
 ## DocumentBuilder.DeleteRow method
@@ -25,7 +25,11 @@ The row node that was just removed.
 
 ### Remarks
 
-If the cursor is inside the row that is being deleted, the cursor is moved out to the next row or to the next paragraph after the table.If you delete a row from a table that contains only one row, the whole table is deleted.For the index parameters, when index is greater than or equal to 0, it specifies an index from the beginning with 0 being the first element. When index is less than 0, it specified an index from the end with -1 being the last element.
+If the cursor is inside the row that is being deleted, the cursor is moved out to the next row or to the next paragraph after the table.
+
+If you delete a row from a table that contains only one row, the whole table is deleted.
+
+For the index parameters, when index is greater than or equal to 0, it specifies an index from the beginning with 0 being the first element. When index is less than 0, it specified an index from the end with -1 being the last element.
 
 ### Examples
 

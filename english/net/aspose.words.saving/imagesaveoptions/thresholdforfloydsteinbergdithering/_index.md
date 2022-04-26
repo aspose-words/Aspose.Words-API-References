@@ -3,7 +3,7 @@ title: ThresholdForFloydSteinbergDithering
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 180
+weight: 140
 url: /net/aspose.words.saving/imagesaveoptions/thresholdforfloydsteinbergdithering/
 ---
 ## ImageSaveOptions.ThresholdForFloydSteinbergDithering property

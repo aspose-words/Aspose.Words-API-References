@@ -3,7 +3,7 @@ title: FileFontSource
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 2630
+weight: 2610
 url: /net/aspose.words.fonts/filefontsource/
 ---
 ## FileFontSource class
@@ -14,11 +14,18 @@ Represents the single TrueType font file stored in the file system.
 public class FileFontSource : FontSourceBase
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
-| [FileFontSource](filefontsource)(…) | Ctor. (3 constructors) |
+| [FileFontSource](filefontsource)(string) | Ctor. |
+| [FileFontSource](filefontsource)(string, int) | Ctor. |
+| [FileFontSource](filefontsource)(string, int, string) | Ctor. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [CacheKey](cachekey) { get; } | The key of this source in the cache. |
 | [FilePath](filepath) { get; } | Path to the font file. |
 | override [Type](type) { get; } | Returns the type of the font source. |

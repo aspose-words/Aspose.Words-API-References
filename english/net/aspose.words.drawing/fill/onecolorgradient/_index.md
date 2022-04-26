@@ -3,7 +3,7 @@ title: OneColorGradient
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 40
+weight: 160
 url: /net/aspose.words.drawing/fill/onecolorgradient/
 ---
 ## Fill.OneColorGradient method (1 of 2)

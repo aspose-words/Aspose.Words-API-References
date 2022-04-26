@@ -3,7 +3,7 @@ title: FieldIndex
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 1860
+weight: 1840
 url: /net/aspose.words.fields/fieldindex/
 ---
 ## FieldIndex class
@@ -14,11 +14,16 @@ Implements the INDEX field.
 public class FieldIndex : Field
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [FieldIndex](fieldindex)() | The default constructor. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [BookmarkName](bookmarkname) { get; set; } | Gets or sets the name of the bookmark that marks the portion of the document used to build the index. |
 | [CrossReferenceSeparator](crossreferenceseparator) { get; set; } | Gets or sets the character sequence that is used to separate cross references and other entries. |
 | [EntryType](entrytype) { get; set; } | Gets or sets an index entry type used to build the index. |

@@ -3,7 +3,7 @@ title: VerticalPosition
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 80
+weight: 110
 url: /net/aspose.words/frameformat/verticalposition/
 ---
 ## FrameFormat.VerticalPosition property

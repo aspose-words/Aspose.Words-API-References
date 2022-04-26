@@ -3,24 +3,20 @@ title: Item
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 120
+weight: 20
 url: /net/aspose.words/tabstopcollection/item/
 ---
 ## TabStopCollection indexer (1 of 2)
 
-Gets a tab stop at the specified position.
+Gets a tab stop at the given index.
 
 ```csharp
-public TabStop this[double position] { get; }
+public TabStop this[int index] { get; }
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| position |  | The position (in points) of the tab stop. |
-
-### Remarks
-
-Returns null if no tab stop is found at the specified position.
+| index |  | An index into the collection of tab stops. |
 
 ### Examples
 
@@ -74,15 +70,19 @@ doc.Save(ArtifactsDir + "TabStopCollection.TabStopCollection.docx");
 
 ## TabStopCollection indexer (2 of 2)
 
-Gets a tab stop at the given index.
+Gets a tab stop at the specified position.
 
 ```csharp
-public TabStop this[int index] { get; }
+public TabStop this[double position] { get; }
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| index |  | An index into the collection of tab stops. |
+| position |  | The position (in points) of the tab stop. |
+
+### Remarks
+
+Returns null if no tab stop is found at the specified position.
 
 ### Examples
 

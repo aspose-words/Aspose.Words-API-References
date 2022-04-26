@@ -3,7 +3,7 @@ title: Chart
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 250
+weight: 20
 url: /net/aspose.words.drawing/shape/chart/
 ---
 ## Shape.Chart property

@@ -3,7 +3,7 @@ title: EnsureMinimum
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 80
+weight: 130
 url: /net/aspose.words/section/ensureminimum/
 ---
 ## Section.EnsureMinimum method

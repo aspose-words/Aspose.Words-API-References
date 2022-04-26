@@ -3,7 +3,7 @@ title: Company
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 80
+weight: 70
 url: /net/aspose.words.properties/builtindocumentproperties/company/
 ---
 ## BuiltInDocumentProperties.Company property

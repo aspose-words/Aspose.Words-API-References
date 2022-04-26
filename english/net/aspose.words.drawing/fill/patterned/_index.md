@@ -3,7 +3,7 @@ title: Patterned
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 30
+weight: 170
 url: /net/aspose.words.drawing/fill/patterned/
 ---
 ## Fill.Patterned method (1 of 2)

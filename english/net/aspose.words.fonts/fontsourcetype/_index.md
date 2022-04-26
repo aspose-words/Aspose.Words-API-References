@@ -3,7 +3,7 @@ title: FontSourceType
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 2750
+weight: 2730
 url: /net/aspose.words.fonts/fontsourcetype/
 ---
 ## FontSourceType enumeration

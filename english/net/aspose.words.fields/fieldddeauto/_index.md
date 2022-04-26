@@ -3,7 +3,7 @@ title: FieldDdeAuto
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 1590
+weight: 1570
 url: /net/aspose.words.fields/fieldddeauto/
 ---
 ## FieldDdeAuto class
@@ -14,11 +14,16 @@ Implements the DDEAUTO field.
 public class FieldDdeAuto : Field
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [FieldDdeAuto](fieldddeauto)() | The default constructor. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [InsertAsBitmap](insertasbitmap) { get; set; } | Gets or sets whether to insert the linked object as a bitmap. |
 | [InsertAsHtml](insertashtml) { get; set; } | Gets or sets whether to insert the linked object as HTML format text. |
 | [InsertAsPicture](insertaspicture) { get; set; } | Gets or sets whether to insert the linked object as a picture. |

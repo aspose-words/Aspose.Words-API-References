@@ -3,12 +3,12 @@ title: RestartPageNumbering
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 270
+weight: 330
 url: /net/aspose.words/pagesetup/restartpagenumbering/
 ---
 ## PageSetup.RestartPageNumbering property
 
-True if page numbering restarts at the beginning of the section.
+**True** if page numbering restarts at the beginning of the section.
 
 ```csharp
 public bool RestartPageNumbering { get; set; }
@@ -16,7 +16,7 @@ public bool RestartPageNumbering { get; set; }
 
 ### Remarks
 
-If set to false, the RestartPageNumbering property will override the [`PageStartingNumber`](../pagestartingnumber) property so that page numbering can continue from the previous section.
+If set to **false**, the **RestartPageNumbering** property will override the [`PageStartingNumber`](../pagestartingnumber) property so that page numbering can continue from the previous section.
 
 ### Examples
 

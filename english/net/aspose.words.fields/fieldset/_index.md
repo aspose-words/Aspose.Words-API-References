@@ -3,7 +3,7 @@ title: FieldSet
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 2200
+weight: 2180
 url: /net/aspose.words.fields/fieldset/
 ---
 ## FieldSet class
@@ -14,11 +14,16 @@ Implements the SET field.
 public class FieldSet : Field
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [FieldSet](fieldset)() | The default constructor. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [BookmarkName](bookmarkname) { get; set; } | Gets or sets the name of the bookmark. |
 | [BookmarkText](bookmarktext) { get; set; } | Gets or sets the new text of the bookmark. |
 

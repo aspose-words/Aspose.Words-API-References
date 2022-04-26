@@ -3,7 +3,7 @@ title: RightMargin
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 180
+weight: 340
 url: /net/aspose.words/pagesetup/rightmargin/
 ---
 ## PageSetup.RightMargin property

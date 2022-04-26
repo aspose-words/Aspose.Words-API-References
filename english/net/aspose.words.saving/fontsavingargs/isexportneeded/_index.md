@@ -3,7 +3,7 @@ title: IsExportNeeded
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 70
+weight: 60
 url: /net/aspose.words.saving/fontsavingargs/isexportneeded/
 ---
 ## FontSavingArgs.IsExportNeeded property

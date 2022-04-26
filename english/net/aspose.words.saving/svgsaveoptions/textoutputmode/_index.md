@@ -3,7 +3,7 @@ title: TextOutputMode
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 40
+weight: 90
 url: /net/aspose.words.saving/svgsaveoptions/textoutputmode/
 ---
 ## SvgSaveOptions.TextOutputMode property
@@ -16,7 +16,9 @@ public SvgTextOutputMode TextOutputMode { get; set; }
 
 ### Remarks
 
-Use this property to get or set the mode of how text inside a document should be rendered when saving in SVG format.The default value is UseTargetMachineFonts.
+Use this property to get or set the mode of how text inside a document should be rendered when saving in SVG format.
+
+The default value is UseTargetMachineFonts.
 
 ### Examples
 

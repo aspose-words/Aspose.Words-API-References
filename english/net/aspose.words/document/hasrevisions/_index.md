@@ -3,12 +3,12 @@ title: HasRevisions
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 520
+weight: 200
 url: /net/aspose.words/document/hasrevisions/
 ---
 ## Document.HasRevisions property
 
-Returns true if the document has any tracked changes.
+Returns **true** if the document has any tracked changes.
 
 ```csharp
 public bool HasRevisions { get; }

@@ -3,7 +3,7 @@ title: GetText
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 20
+weight: 30
 url: /net/aspose.words/specialchar/gettext/
 ---
 ## SpecialChar.GetText method

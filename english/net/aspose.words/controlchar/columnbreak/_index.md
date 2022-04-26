@@ -3,7 +3,7 @@ title: ColumnBreak
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 100
+weight: 30
 url: /net/aspose.words/controlchar/columnbreak/
 ---
 ## ControlChar.ColumnBreak field

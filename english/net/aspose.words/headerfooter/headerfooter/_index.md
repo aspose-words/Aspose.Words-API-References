@@ -3,7 +3,7 @@ title: HeaderFooter
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 20
+weight: 10
 url: /net/aspose.words/headerfooter/headerfooter/
 ---
 ## HeaderFooter constructor
@@ -21,7 +21,9 @@ public HeaderFooter(DocumentBase doc, HeaderFooterType headerFooterType)
 
 ### Remarks
 
-When HeaderFooter is created, it belongs to the specified document, but is not yet part of the document and ParentNode is null.To append HeaderFooter to a Section use Section.InsertAfter, Section.InsertBefore, HeadersFooters.Add or HeadersFooters.Insert.
+When **HeaderFooter** is created, it belongs to the specified document, but is not yet part of the document and **ParentNode** is null.
+
+To append **HeaderFooter** to a **Section** use Section.InsertAfter, Section.InsertBefore, HeadersFooters.Add or HeadersFooters.Insert.
 
 ### Examples
 

@@ -3,7 +3,7 @@ title: OdsoFieldMappingType
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 5530
+weight: 5480
 url: /net/aspose.words.settings/odsofieldmappingtype/
 ---
 ## OdsoFieldMappingType enumeration

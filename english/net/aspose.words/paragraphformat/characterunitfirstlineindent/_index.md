@@ -3,12 +3,14 @@ title: CharacterUnitFirstLineIndent
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 210
+weight: 60
 url: /net/aspose.words/paragraphformat/characterunitfirstlineindent/
 ---
 ## ParagraphFormat.CharacterUnitFirstLineIndent property
 
-Gets or sets the value (in characters) for the first-line or hanging indent. Use positive values to set the first-line indent, and negative values to set the hanging indent.
+Gets or sets the value (in characters) for the first-line or hanging indent.
+
+Use positive values to set the first-line indent, and negative values to set the hanging indent.
 
 ```csharp
 public double CharacterUnitFirstLineIndent { get; set; }

@@ -3,7 +3,7 @@ title: StartColumnBookmark
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 20
+weight: 590
 url: /net/aspose.words/documentbuilder/startcolumnbookmark/
 ---
 ## DocumentBuilder.StartColumnBookmark method
@@ -24,7 +24,11 @@ The bookmark start node that was just created.
 
 ### Remarks
 
-A column bookmark covers one or more columns in a range of rows. To create a valid bookmark you need to call both `StartColumnBookmark` and [`EndColumnBookmark`](../endcolumnbookmark) with the same bookmarkName parameter.Badly formed bookmarks or bookmarks with duplicate names will be ignored when the document is saved.The actual position of the inserted [`BookmarkStart`](../../bookmarkstart) node may differ from the current document builder position.
+A column bookmark covers one or more columns in a range of rows. To create a valid bookmark you need to call both `StartColumnBookmark` and [`EndColumnBookmark`](../endcolumnbookmark) with the same **bookmarkName** parameter.
+
+Badly formed bookmarks or bookmarks with duplicate names will be ignored when the document is saved.
+
+The actual position of the inserted [`BookmarkStart`](../../bookmarkstart) node may differ from the current document builder position.
 
 ### Examples
 

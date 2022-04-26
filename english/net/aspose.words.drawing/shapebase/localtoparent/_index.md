@@ -3,7 +3,7 @@ title: LocalToParent
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 80
+weight: 600
 url: /net/aspose.words.drawing/shapebase/localtoparent/
 ---
 ## ShapeBase.LocalToParent method

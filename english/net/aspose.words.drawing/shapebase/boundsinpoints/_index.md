@@ -3,7 +3,7 @@ title: BoundsInPoints
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 460
+weight: 80
 url: /net/aspose.words.drawing/shapebase/boundsinpoints/
 ---
 ## ShapeBase.BoundsInPoints property

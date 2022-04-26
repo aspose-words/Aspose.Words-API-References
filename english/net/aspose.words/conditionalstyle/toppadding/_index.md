@@ -3,7 +3,7 @@ title: TopPadding
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 100
+weight: 80
 url: /net/aspose.words/conditionalstyle/toppadding/
 ---
 ## ConditionalStyle.TopPadding property

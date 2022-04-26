@@ -3,7 +3,7 @@ title: SuppressSpBfAfterPgBrk
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 40
+weight: 500
 url: /net/aspose.words.settings/compatibilityoptions/suppressspbfafterpgbrk/
 ---
 ## CompatibilityOptions.SuppressSpBfAfterPgBrk property

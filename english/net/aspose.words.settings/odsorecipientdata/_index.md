@@ -3,7 +3,7 @@ title: OdsoRecipientData
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 5540
+weight: 5490
 url: /net/aspose.words.settings/odsorecipientdata/
 ---
 ## OdsoRecipientData class
@@ -14,15 +14,25 @@ Represents information about a single record within an external data source that
 public class OdsoRecipientData
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [OdsoRecipientData](odsorecipientdata)() | The default constructor. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [Active](active) { get; set; } | Specifies whether the record from the data source shall be imported into a document when the mail merge is performed. The default value is `true`. |
 | [Column](column) { get; set; } | Specifies the column within the data source that contains unique data for the current record. The default value is 0. |
 | [Hash](hash) { get; set; } | Represents the hash code for this record. Sometimes Microsoft Word uses [`Hash`](./hash) of a whole record instead of a [`UniqueTag`](./uniquetag) value. The default value is 0. |
 | [UniqueTag](uniquetag) { get; set; } | Specifies the contents of a given record in the column containing unique data. The default value is `null`. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
 | [Clone](clone)() | Returns a deep clone of this object. |
 
 ### Remarks

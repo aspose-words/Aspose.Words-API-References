@@ -3,12 +3,12 @@ title: DifferentFirstPageHeaderFooter
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 30
+weight: 100
 url: /net/aspose.words/pagesetup/differentfirstpageheaderfooter/
 ---
 ## PageSetup.DifferentFirstPageHeaderFooter property
 
-True if a different header or footer is used on the first page.
+**True** if a different header or footer is used on the first page.
 
 ```csharp
 public bool DifferentFirstPageHeaderFooter { get; set; }

@@ -3,7 +3,7 @@ title: IsUnicode
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 60
+weight: 80
 url: /net/aspose.words.fields/fieldsymbol/isunicode/
 ---
 ## FieldSymbol.IsUnicode property

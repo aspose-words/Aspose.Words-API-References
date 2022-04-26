@@ -3,7 +3,7 @@ title: PageRange
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 5000
+weight: 4950
 url: /net/aspose.words.saving/pagerange/
 ---
 ## PageRange class
@@ -14,11 +14,11 @@ Represents a continuous range of pages.
 public sealed class PageRange
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
-| [PageRange](pagerange)(…) | Creates a new page range object. |
+| [PageRange](pagerange)(int, int) | Creates a new page range object. |
 
 ### See Also
 

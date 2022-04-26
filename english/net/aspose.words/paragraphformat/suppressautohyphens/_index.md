@@ -3,7 +3,7 @@ title: SuppressAutoHyphens
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 80
+weight: 360
 url: /net/aspose.words/paragraphformat/suppressautohyphens/
 ---
 ## ParagraphFormat.SuppressAutoHyphens property

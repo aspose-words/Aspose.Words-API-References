@@ -3,28 +3,38 @@ title: HeaderFooterCollection
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 2870
+weight: 2850
 url: /net/aspose.words/headerfootercollection/
 ---
 ## HeaderFooterCollection class
 
-Provides typed access to [`HeaderFooter`](../headerfooter) nodes of a Section.
+Provides typed access to [`HeaderFooter`](../headerfooter) nodes of a **Section**.
 
 ```csharp
 public class HeaderFooterCollection : NodeCollection
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
-| [Item](item) { get; } | Retrieves a HeaderFooter at the given index. (2 indexers) |
-| [LinkToPrevious](linktoprevious)(…) | Links or unlinks all headers and footers to the corresponding headers and footers in the previous section. (2 methods) |
+| [Item](item) { get; } | Retrieves a **HeaderFooter** at the given index. (2 indexers) |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [LinkToPrevious](linktoprevious)(bool) | Links or unlinks all headers and footers to the corresponding headers and footers in the previous section. |
+| [LinkToPrevious](linktoprevious)(HeaderFooterType, bool) | Links or unlinks the specified header or footer to the corresponding header or footer in the previous section. |
 | [ToArray](toarray)() | Copies all `HeaderFoorter`s from the collection to a new array of `HeaderFoorter`s. |
 
 ### Remarks
 
-There can be maximum of one HeaderFooter of each [`HeaderFooterType`](../headerfootertype) per Section. HeaderFooter objects can occur in any order in the collection.
+There can be maximum of one **HeaderFooter**
+
+of each [`HeaderFooterType`](../headerfootertype) per **Section**.
+
+**HeaderFooter** objects can occur in any order in the collection.
 
 ### Examples
 

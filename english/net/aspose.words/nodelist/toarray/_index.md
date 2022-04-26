@@ -3,7 +3,7 @@ title: ToArray
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 10
+weight: 40
 url: /net/aspose.words/nodelist/toarray/
 ---
 ## NodeList.ToArray method
@@ -20,7 +20,9 @@ An array of nodes.
 
 ### Remarks
 
-You should not be adding/removing nodes while iterating over a collection of nodes because it invalidates the iterator and requires refreshes for live collections.To be able to add/remove nodes during iteration, use this method to copy nodes into a fixed-size array and then iterate over the array.
+You should not be adding/removing nodes while iterating over a collection of nodes because it invalidates the iterator and requires refreshes for live collections.
+
+To be able to add/remove nodes during iteration, use this method to copy nodes into a fixed-size array and then iterate over the array.
 
 ### Examples
 

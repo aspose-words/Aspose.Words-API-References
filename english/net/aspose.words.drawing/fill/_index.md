@@ -3,7 +3,7 @@ title: Fill
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 810
+weight: 790
 url: /net/aspose.words.drawing/fill/
 ---
 ## Fill class
@@ -14,7 +14,7 @@ Represents fill formatting for an object.
 public class Fill
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -33,13 +33,23 @@ public class Fill
 | [TextureAlignment](texturealignment) { get; set; } | Gets or sets the alignment for tile texture fill. |
 | [Transparency](transparency) { get; set; } | Gets or sets the degree of transparency of the specified fill as a value between 0.0 (opaque) and 1.0 (clear). |
 | [Visible](visible) { get; set; } | Gets or sets value that is `true` if the formatting applied to this instance, is visible. |
-| [OneColorGradient](onecolorgradient)(…) | Sets the specified fill to a one-color gradient. (2 methods) |
-| [Patterned](patterned)(…) | Sets the specified fill to a pattern. (2 methods) |
-| [PresetTextured](presettextured)(…) | Sets the fill to a preset texture. |
-| [SetImage](setimage)(…) | Changes the fill type to single image. (3 methods) |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [OneColorGradient](onecolorgradient)(GradientStyle, GradientVariant, double) | Sets the specified fill to a one-color gradient. |
+| [OneColorGradient](onecolorgradient)(Color, GradientStyle, GradientVariant, double) | Sets the specified fill to a one-color gradient and applies a specified color to the [`ForeColor`](./forecolor). |
+| [Patterned](patterned)(PatternType) | Sets the specified fill to a pattern. |
+| [Patterned](patterned)(PatternType, Color, Color) | Sets the specified fill to a pattern. |
+| [PresetTextured](presettextured)(PresetTexture) | Sets the fill to a preset texture. |
+| [SetImage](setimage)(byte[]) | Changes the fill type to single image. |
+| [SetImage](setimage)(Stream) | Changes the fill type to single image. |
+| [SetImage](setimage)(string) | Changes the fill type to single image. |
 | [Solid](solid)() | Sets the fill to a uniform color. |
-| [Solid](solid)(…) | Sets the fill to a specified uniform color. |
-| [TwoColorGradient](twocolorgradient)(…) | Sets the specified fill to a two-color gradient. (2 methods) |
+| [Solid](solid)(Color) | Sets the fill to a specified uniform color. |
+| [TwoColorGradient](twocolorgradient)(GradientStyle, GradientVariant) | Sets the specified fill to a two-color gradient. |
+| [TwoColorGradient](twocolorgradient)(Color, Color, GradientStyle, GradientVariant) | Sets the specified fill to a two-color gradient. |
 
 ### Remarks
 

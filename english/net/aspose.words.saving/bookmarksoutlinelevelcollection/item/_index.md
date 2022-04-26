@@ -3,20 +3,20 @@ title: Item
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 100
+weight: 30
 url: /net/aspose.words.saving/bookmarksoutlinelevelcollection/item/
 ---
 ## BookmarksOutlineLevelCollection indexer (1 of 2)
 
-Gets or sets a bookmark outline level at the specified index.
+Gets or a sets a bookmark outline level by the bookmark name.
 
 ```csharp
-public int this[int index] { get; set; }
+public int this[string name] { get; set; }
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| index |  | Zero-based index of the bookmark. |
+| name |  | Case-insensitive name of the bookmark. |
 
 ## Return Value
 
@@ -87,15 +87,15 @@ outlineLevels.Clear();
 
 ## BookmarksOutlineLevelCollection indexer (2 of 2)
 
-Gets or a sets a bookmark outline level by the bookmark name.
+Gets or sets a bookmark outline level at the specified index.
 
 ```csharp
-public int this[string name] { get; set; }
+public int this[int index] { get; set; }
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name |  | Case-insensitive name of the bookmark. |
+| index |  | Zero-based index of the bookmark. |
 
 ## Return Value
 

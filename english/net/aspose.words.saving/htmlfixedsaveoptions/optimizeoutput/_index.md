@@ -3,7 +3,7 @@ title: OptimizeOutput
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 170
+weight: 100
 url: /net/aspose.words.saving/htmlfixedsaveoptions/optimizeoutput/
 ---
 ## HtmlFixedSaveOptions.OptimizeOutput property
@@ -26,7 +26,7 @@ HtmlFixedSaveOptions saveOptions = new HtmlFixedSaveOptions { OptimizeOutput = o
 doc.Save(ArtifactsDir + "HtmlFixedSaveOptions.OptimizeGraphicsOutput.html", saveOptions);
 
 // The size of the optimized version of the document is almost a third of the size of the unoptimized document.
-Assert.AreEqual(optimizeOutput ? 57220 : 159000,
+Assert.AreEqual(optimizeOutput ? 62521 : 191770,
     new FileInfo(ArtifactsDir + "HtmlFixedSaveOptions.OptimizeGraphicsOutput.html").Length, 200);
 ```
 

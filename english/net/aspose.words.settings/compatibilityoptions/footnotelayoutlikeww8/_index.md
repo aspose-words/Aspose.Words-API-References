@@ -3,7 +3,7 @@ title: FootnoteLayoutLikeWW8
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 350
+weight: 260
 url: /net/aspose.words.settings/compatibilityoptions/footnotelayoutlikeww8/
 ---
 ## CompatibilityOptions.FootnoteLayoutLikeWW8 property

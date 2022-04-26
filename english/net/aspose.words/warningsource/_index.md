@@ -3,7 +3,7 @@ title: WarningSource
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 6250
+weight: 6200
 url: /net/aspose.words/warningsource/
 ---
 ## WarningSource enumeration

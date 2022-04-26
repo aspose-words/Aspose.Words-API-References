@@ -3,7 +3,7 @@ title: FieldNext
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 1980
+weight: 1960
 url: /net/aspose.words.fields/fieldnext/
 ---
 ## FieldNext class
@@ -14,7 +14,7 @@ Implements the NEXT field.
 public class FieldNext : Field
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |

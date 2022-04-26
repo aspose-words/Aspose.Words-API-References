@@ -3,7 +3,7 @@ title: SdtListItemCollection
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 3730
+weight: 3690
 url: /net/aspose.words.markup/sdtlistitemcollection/
 ---
 ## SdtListItemCollection class
@@ -14,17 +14,22 @@ Provides access to [`SdtListItem`](../sdtlistitem) elements of a structured docu
 public class SdtListItemCollection : IEnumerable<SdtListItem>
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
 | [Count](count) { get; } | Gets number of items in the collection. |
 | [Item](item) { get; } | Returns a [`SdtListItem`](../sdtlistitem) object given its zero-based index in the collection. |
 | [SelectedValue](selectedvalue) { get; set; } | Specifies currently selected value in this list. Null value allowed, meaning that no currently selected entry is associated with this list item collection. |
-| [Add](add)(…) | Adds an item to this collection. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [Add](add)(SdtListItem) | Adds an item to this collection. |
 | [Clear](clear)() | Clears all items from this collection. |
 | [GetEnumerator](getenumerator)() | Returns an enumerator object that can be used to iterate over all items in the collection. |
-| [RemoveAt](removeat)(…) | Removes a list item at the specified index. |
+| [RemoveAt](removeat)(int) | Removes a list item at the specified index. |
 
 ### Examples
 

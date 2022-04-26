@@ -3,7 +3,7 @@ title: Behavior
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 120
+weight: 20
 url: /net/aspose.words.buildingblocks/buildingblock/behavior/
 ---
 ## BuildingBlock.Behavior property

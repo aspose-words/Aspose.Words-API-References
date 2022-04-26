@@ -3,7 +3,7 @@ title: Fields
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 30
+weight: 20
 url: /net/aspose.words.mailmerging/mailmergeregioninfo/fields/
 ---
 ## MailMergeRegionInfo.Fields property

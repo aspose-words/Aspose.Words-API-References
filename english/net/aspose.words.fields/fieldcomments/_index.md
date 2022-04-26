@@ -3,7 +3,7 @@ title: FieldComments
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 1520
+weight: 1500
 url: /net/aspose.words.fields/fieldcomments/
 ---
 ## FieldComments class
@@ -14,16 +14,21 @@ Implements the COMMENTS field.
 public class FieldComments : Field
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [FieldComments](fieldcomments)() | The default constructor. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [Text](text) { get; set; } | Gets or sets the text of the comments. |
 
 ### Remarks
 
-Retrieves, and optionally sets, the comments relating to the current document, as recorded in the Comments property of the built-in document properties.
+Retrieves, and optionally sets, the comments relating to the current document, as recorded in the **Comments** property of the built-in document properties.
 
 ### Examples
 

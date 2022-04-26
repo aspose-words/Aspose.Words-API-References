@@ -3,7 +3,7 @@ title: DoNotSuppressParagraphBorders
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 280
+weight: 190
 url: /net/aspose.words.settings/compatibilityoptions/donotsuppressparagraphborders/
 ---
 ## CompatibilityOptions.DoNotSuppressParagraphBorders property

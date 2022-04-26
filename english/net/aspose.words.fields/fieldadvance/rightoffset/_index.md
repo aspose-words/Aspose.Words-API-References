@@ -3,7 +3,7 @@ title: RightOffset
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 40
+weight: 50
 url: /net/aspose.words.fields/fieldadvance/rightoffset/
 ---
 ## FieldAdvance.RightOffset property

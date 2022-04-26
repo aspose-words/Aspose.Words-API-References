@@ -14,11 +14,16 @@ Represents the scaling options of the axis.
 public class AxisScaling
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [AxisScaling](axisscaling)() | The default constructor. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [LogBase](logbase) { get; set; } | Gets or sets the logarithmic base for a logarithmic axis. |
 | [Maximum](maximum) { get; set; } | Gets or sets the maximum value of the axis. |
 | [Minimum](minimum) { get; set; } | Gets or sets minimum value of the axis. |

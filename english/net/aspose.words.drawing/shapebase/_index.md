@@ -3,7 +3,7 @@ title: ShapeBase
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 1080
+weight: 1060
 url: /net/aspose.words.drawing/shapebase/
 ---
 ## ShapeBase class
@@ -14,7 +14,7 @@ Base class for objects in the drawing layer, such as an AutoShape, freeform, OLE
 public abstract class ShapeBase : CompositeNode
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
@@ -48,8 +48,8 @@ public abstract class ShapeBase : CompositeNode
 | [IsInline](isinline) { get; } | A quick way to determine if this shape is positioned inline with text. |
 | [IsInsertRevision](isinsertrevision) { get; } | Returns true if this object was inserted in Microsoft Word while change tracking was enabled. |
 | [IsLayoutInCell](islayoutincell) { get; set; } | Gets or sets a flag indicating whether the shape is displayed inside a table or outside of it. |
-| [IsMoveFromRevision](ismovefromrevision) { get; } | Returns true if this object was moved (deleted) in Microsoft Word while change tracking was enabled. |
-| [IsMoveToRevision](ismovetorevision) { get; } | Returns true if this object was moved (inserted) in Microsoft Word while change tracking was enabled. |
+| [IsMoveFromRevision](ismovefromrevision) { get; } | Returns **true** if this object was moved (deleted) in Microsoft Word while change tracking was enabled. |
+| [IsMoveToRevision](ismovetorevision) { get; } | Returns **true** if this object was moved (inserted) in Microsoft Word while change tracking was enabled. |
 | [IsSignatureLine](issignatureline) { get; } | Indicates that shape is a SignatureLine. |
 | [IsTopLevel](istoplevel) { get; } | Returns true if this shape is not a child of a group shape. |
 | [IsWordArt](iswordart) { get; } | Returns true if this shape is a WordArt object. |
@@ -72,18 +72,35 @@ public abstract class ShapeBase : CompositeNode
 | [WrapSide](wrapside) { get; set; } | Specifies how the text is wrapped around the shape. |
 | [WrapType](wraptype) { get; set; } | Defines whether the shape is inline or floating. For floating shapes defines the wrapping mode for text around the shape. |
 | [ZOrder](zorder) { get; set; } | Determines the display order of overlapping shapes. |
-| [AdjustWithEffects](adjustwitheffects)(…) | Adds to the source rectangle values of the effect extent and returns the final rectangle. |
-| [FetchInheritedShapeAttr](fetchinheritedshapeattr)(…) | Reserved for system use. IShapeAttrSource. |
-| [FetchShapeAttr](fetchshapeattr)(…) | Reserved for system use. IShapeAttrSource. |
-| [GetDirectShapeAttr](getdirectshapeattr)(…) | Reserved for system use. IShapeAttrSource. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [AdjustWithEffects](adjustwitheffects)(RectangleF) | Adds to the source rectangle values of the effect extent and returns the final rectangle. |
+| [FetchInheritedShapeAttr](fetchinheritedshapeattr)(int) | Reserved for system use. IShapeAttrSource. |
+| [FetchShapeAttr](fetchshapeattr)(int) | Reserved for system use. IShapeAttrSource. |
+| [GetDirectShapeAttr](getdirectshapeattr)(int) | Reserved for system use. IShapeAttrSource. |
 | [GetShapeRenderer](getshaperenderer)() | Creates and returns an object that can be used to render this shape into an image. |
-| [LocalToParent](localtoparent)(…) | Converts a value from the local coordinate space into the coordinate space of the parent shape. |
-| [RemoveShapeAttr](removeshapeattr)(…) | Reserved for system use. IShapeAttrSource. |
-| [SetShapeAttr](setshapeattr)(…) | Reserved for system use. IShapeAttrSource. |
+| [LocalToParent](localtoparent)(PointF) | Converts a value from the local coordinate space into the coordinate space of the parent shape. |
+| [RemoveShapeAttr](removeshapeattr)(int) | Reserved for system use. IShapeAttrSource. |
+| [SetShapeAttr](setshapeattr)(int, object) | Reserved for system use. IShapeAttrSource. |
 
 ### Remarks
 
-This is an abstract class. The two derived classes that you can instantiate are [`Shape`](../shape) and [`GroupShape`](../groupshape).A shape is a node in the document tree.If the shape is a child of a [`Paragraph`](../../aspose.words/paragraph) object, then the shape is said to be "top-level". Top-level shapes are measured and positioned in points.A shape can also occur as a child of a [`GroupShape`](../groupshape) object when several shapes are grouped. Child shapes of a group shape are positioned in the coordinate space and units defined by the [`CoordSize`](./coordsize) and [`CoordOrigin`](./coordorigin) properties of the parent group shape.A shape can be positioned inline with text or floating. The positioning method is controlled using the [`WrapType`](./wraptype) property.When a shape is floating, it is positioned relative to something (e.g the current paragraph, the margin or the page). The relative positioning of the shape is specified using the [`RelativeHorizontalPosition`](./relativehorizontalposition) and [`RelativeVerticalPosition`](./relativeverticalposition) properties.A floating shape be positioned explicitly using the [`Left`](./left) and [`Top`](./top) properties or aligned relative to some other object using the [`HorizontalAlignment`](./horizontalalignment) and [`VerticalAlignment`](./verticalalignment) properties.
+This is an abstract class. The two derived classes that you can instantiate are [`Shape`](../shape) and [`GroupShape`](../groupshape).
+
+A shape is a node in the document tree.
+
+If the shape is a child of a [`Paragraph`](../../aspose.words/paragraph) object, then the shape is said to be "top-level". Top-level shapes are measured and positioned in points.
+
+A shape can also occur as a child of a [`GroupShape`](../groupshape) object when several shapes are grouped. Child shapes of a group shape are positioned in the coordinate space and units defined by the [`CoordSize`](./coordsize) and [`CoordOrigin`](./coordorigin) properties of the parent group shape.
+
+A shape can be positioned inline with text or floating. The positioning method is controlled using the [`WrapType`](./wraptype) property.
+
+When a shape is floating, it is positioned relative to something (e.g the current paragraph, the margin or the page). The relative positioning of the shape is specified using the [`RelativeHorizontalPosition`](./relativehorizontalposition) and [`RelativeVerticalPosition`](./relativeverticalposition) properties.
+
+A floating shape be positioned explicitly using the [`Left`](./left) and [`Top`](./top) properties or aligned relative to some other object using the [`HorizontalAlignment`](./horizontalalignment) and [`VerticalAlignment`](./verticalalignment) properties.
 
 ### Examples
 

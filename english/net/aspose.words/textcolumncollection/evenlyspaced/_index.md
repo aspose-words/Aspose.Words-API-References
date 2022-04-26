@@ -8,7 +8,7 @@ url: /net/aspose.words/textcolumncollection/evenlyspaced/
 ---
 ## TextColumnCollection.EvenlySpaced property
 
-True if text columns are of equal width and evenly spaced.
+**True** if text columns are of equal width and evenly spaced.
 
 ```csharp
 public bool EvenlySpaced { get; set; }

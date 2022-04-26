@@ -3,7 +3,7 @@ title: RecipientDatas
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 100
+weight: 70
 url: /net/aspose.words.settings/odso/recipientdatas/
 ---
 ## Odso.RecipientDatas property

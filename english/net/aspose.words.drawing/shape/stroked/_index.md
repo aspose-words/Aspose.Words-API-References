@@ -3,7 +3,7 @@ title: Stroked
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 90
+weight: 200
 url: /net/aspose.words.drawing/shape/stroked/
 ---
 ## Shape.Stroked property
@@ -16,7 +16,9 @@ public bool Stroked { get; set; }
 
 ### Remarks
 
-This is a shortcut to the [`On`](../../stroke/on) property.The default value is true.
+This is a shortcut to the [`On`](../../stroke/on) property.
+
+The default value is **true**.
 
 ### Examples
 

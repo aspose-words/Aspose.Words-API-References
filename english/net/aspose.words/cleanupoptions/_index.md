@@ -14,15 +14,20 @@ Allows to specify options for document cleaning.
 public class CleanupOptions
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [CleanupOptions](cleanupoptions)() | The default constructor. |
-| [DuplicateStyle](duplicatestyle) { get; set; } | Gets/sets a flag indicating whether duplicate styles should be removed from document. Default value is false. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
+| [DuplicateStyle](duplicatestyle) { get; set; } | Gets/sets a flag indicating whether duplicate styles should be removed from document. Default value is **false**. |
 | [UnusedBuiltinStyles](unusedbuiltinstyles) { get; set; } | Specifies that unused [`BuiltIn`](../style/builtin) styles should be removed from document. |
-| [UnusedLists](unusedlists) { get; set; } | Specifies whether unused list and list definitions should be removed from document. Default value is true. |
-| [UnusedStyles](unusedstyles) { get; set; } | Specifies whether unused styles should be removed from document. Default value is true. |
+| [UnusedLists](unusedlists) { get; set; } | Specifies whether unused list and list definitions should be removed from document. Default value is **true**. |
+| [UnusedStyles](unusedstyles) { get; set; } | Specifies whether unused styles should be removed from document. Default value is **true**. |
 
 ### Examples
 

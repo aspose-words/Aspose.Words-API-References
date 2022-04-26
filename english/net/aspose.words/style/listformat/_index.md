@@ -3,7 +3,7 @@ title: ListFormat
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 160
+weight: 100
 url: /net/aspose.words/style/listformat/
 ---
 ## Style.ListFormat property

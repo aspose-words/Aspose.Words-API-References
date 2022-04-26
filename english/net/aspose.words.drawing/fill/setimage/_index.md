@@ -3,7 +3,7 @@ title: SetImage
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 60
+weight: 190
 url: /net/aspose.words.drawing/fill/setimage/
 ---
 ## Fill.SetImage method (1 of 3)
@@ -11,12 +11,12 @@ url: /net/aspose.words.drawing/fill/setimage/
 Changes the fill type to single image.
 
 ```csharp
-public void SetImage(byte[] imageBytes)
+public void SetImage(string fileName)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| imageBytes | Byte[] | The image bytes array. |
+| fileName | String | The path to the image file. |
 
 ### See Also
 
@@ -51,12 +51,12 @@ public void SetImage(Stream stream)
 Changes the fill type to single image.
 
 ```csharp
-public void SetImage(string fileName)
+public void SetImage(byte[] imageBytes)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fileName | String | The path to the image file. |
+| imageBytes | Byte[] | The image bytes array. |
 
 ### See Also
 

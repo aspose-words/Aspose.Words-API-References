@@ -3,7 +3,7 @@ title: UpdateSdtContent
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 90
+weight: 200
 url: /net/aspose.words.saving/saveoptions/updatesdtcontent/
 ---
 ## SaveOptions.UpdateSdtContent property

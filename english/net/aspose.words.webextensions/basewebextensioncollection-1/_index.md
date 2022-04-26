@@ -3,7 +3,7 @@ title: BaseWebExtensionCollection<T>
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 6300
+weight: 6250
 url: /net/aspose.words.webextensions/basewebextensioncollection-1/
 ---
 ## BaseWebExtensionCollection&lt;T&gt; class
@@ -19,16 +19,21 @@ public abstract class BaseWebExtensionCollection<T> : IEnumerable<T>
 | --- | --- | --- |
 | T |  | Type of a collection item. |
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
 | [Count](count) { get; } | Gets the number of elements contained in the collection. |
 | [Item](item) { get; set; } | Gets or sets an item at the specified index. |
-| [Add](add)(…) | Adds specified item to the collection. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [Add](add)(T) | Adds specified item to the collection. |
 | [Clear](clear)() | Removes all elements from the collection. |
 | [GetEnumerator](getenumerator)() | Returns an enumerator that can iterate through a collection. |
-| [Remove](remove)(…) | Removes the item at the specified index from the collection. |
+| [Remove](remove)(int) | Removes the item at the specified index from the collection. |
 
 ### Examples
 

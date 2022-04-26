@@ -3,7 +3,7 @@ title: DashStyle
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 790
+weight: 770
 url: /net/aspose.words.drawing/dashstyle/
 ---
 ## DashStyle enumeration

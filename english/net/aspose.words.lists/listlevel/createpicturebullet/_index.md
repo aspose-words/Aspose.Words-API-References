@@ -3,7 +3,7 @@ title: CreatePictureBullet
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 10
+weight: 150
 url: /net/aspose.words.lists/listlevel/createpicturebullet/
 ---
 ## ListLevel.CreatePictureBullet method

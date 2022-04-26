@@ -3,7 +3,7 @@ title: FieldStart
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 2230
+weight: 2210
 url: /net/aspose.words.fields/fieldstart/
 ---
 ## FieldStart class
@@ -14,17 +14,28 @@ Represents a start of a Word field in a document.
 public class FieldStart : FieldChar
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
 | [FieldData](fielddata) { get; } | Gets custom field data which is associated with the field. |
 | override [NodeType](nodetype) { get; } | Returns FieldStart. |
-| override [Accept](accept)(…) | Accepts a visitor. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| override [Accept](accept)(DocumentVisitor) | Accepts a visitor. |
 
 ### Remarks
 
-[`FieldStart`](../fieldstart) is an inline-level node and represented by the [`FieldStartChar`](../../aspose.words/controlchar/fieldstartchar) control character in the document.[`FieldStart`](../fieldstart) can only be a child of [`Paragraph`](../../aspose.words/paragraph).A complete field in a Microsoft Word document is a complex structure consisting of a field start character, field code, field separator character, field result and field end character. Some fields only have field start, field code and field end.To easily insert a new field into a document, use the [`InsertField`](../../aspose.words/documentbuilder/insertfield) method.
+[`FieldStart`](../fieldstart) is an inline-level node and represented by the [`FieldStartChar`](../../aspose.words/controlchar/fieldstartchar) control character in the document.
+
+[`FieldStart`](../fieldstart) can only be a child of [`Paragraph`](../../aspose.words/paragraph).
+
+A complete field in a Microsoft Word document is a complex structure consisting of a field start character, field code, field separator character, field result and field end character. Some fields only have field start, field code and field end.
+
+To easily insert a new field into a document, use the [`InsertField`](../../aspose.words/documentbuilder/insertfield) method.
 
 ### Examples
 

@@ -3,7 +3,7 @@ title: LayoutRawTableWidth
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 410
+weight: 290
 url: /net/aspose.words.settings/compatibilityoptions/layoutrawtablewidth/
 ---
 ## CompatibilityOptions.LayoutRawTableWidth property

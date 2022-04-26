@@ -16,7 +16,7 @@ public bool FitShape { get; set; }
 
 ### Remarks
 
-The default value is false.
+The default value is **false**.
 
 ### Examples
 

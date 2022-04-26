@@ -3,7 +3,7 @@ title: CoordOrigin
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 580
+weight: 110
 url: /net/aspose.words.drawing/shapebase/coordorigin/
 ---
 ## ShapeBase.CoordOrigin property

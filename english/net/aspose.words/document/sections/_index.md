@@ -3,7 +3,7 @@ title: Sections
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 440
+weight: 350
 url: /net/aspose.words/document/sections/
 ---
 ## Document.Sections property

@@ -3,7 +3,7 @@ title: PageSavingArgs
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 5010
+weight: 4960
 url: /net/aspose.words.saving/pagesavingargs/
 ---
 ## PageSavingArgs class
@@ -14,11 +14,16 @@ Provides data for the [`PageSaving`](../ipagesavingcallback/pagesaving) event.
 public class PageSavingArgs
 ```
 
-## Public Members
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [PageSavingArgs](pagesavingargs)() | The default constructor. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
 | [KeepPageStreamOpen](keeppagestreamopen) { get; set; } | Specifies whether Aspose.Words should keep the stream open or close it after saving a document page. |
 | [PageFileName](pagefilename) { get; set; } | Gets or sets the file name where the document page will be saved to. |
 | [PageIndex](pageindex) { get; } | Current page index. |

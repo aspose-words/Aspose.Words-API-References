@@ -3,7 +3,7 @@ title: Accept
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 10
+weight: 50
 url: /net/aspose.words/bookmarkstart/accept/
 ---
 ## BookmarkStart.Accept method
@@ -24,7 +24,9 @@ False if the visitor requested the enumeration to stop.
 
 ### Remarks
 
-Calls [`VisitBookmarkStart`](../../documentvisitor/visitbookmarkstart).For more info see the Visitor design pattern.
+Calls [`VisitBookmarkStart`](../../documentvisitor/visitbookmarkstart).
+
+For more info see the Visitor design pattern.
 
 ### Examples
 

@@ -3,7 +3,7 @@ title: IsHeading
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 300
+weight: 130
 url: /net/aspose.words/paragraphformat/isheading/
 ---
 ## ParagraphFormat.IsHeading property
