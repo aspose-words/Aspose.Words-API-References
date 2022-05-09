@@ -28,7 +28,7 @@ jobs:
         personal_token: ${{ secrets.REPO_TOKEN }}
         src_path: /.
         dst_path: /content/sites/aspose/words/
-        dst_owner: Containerize-APIReferences
-        dst_repo_name: Containerize.API.Main
+        dst_owner: Aspose
+        dst_repo_name: apireference.aspose.com
         dst_branch: main
         src_branch: main

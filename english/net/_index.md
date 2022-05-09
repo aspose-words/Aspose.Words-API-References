@@ -8,7 +8,6 @@ description: "Aspose.Words is a class library that can be used by developers for
 is_root: true
 ---
 
-# Aspose.Words
 ## Namespaces
 
 | Namespace | Description |
