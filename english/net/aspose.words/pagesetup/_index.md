@@ -3,7 +3,7 @@ title: PageSetup
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 4010
+weight: 4070
 url: /net/aspose.words/pagesetup/
 ---
 ## PageSetup class
@@ -26,6 +26,7 @@ public class PageSetup
 | [BorderSurroundsFooter](bordersurroundsfooter) { get; set; } | Specifies whether the page border includes or excludes the footer. |
 | [BorderSurroundsHeader](bordersurroundsheader) { get; set; } | Specifies whether the page border includes or excludes the header. |
 | [BottomMargin](bottommargin) { get; set; } | Returns or sets the distance (in points) between the bottom edge of the page and the bottom boundary of the body text. |
+| [ChapterPageSeparator](chapterpageseparator) { get; set; } |  |
 | [CharactersPerLine](charactersperline) { get; set; } | Gets or sets the number of characters per line in the document grid. |
 | [DifferentFirstPageHeaderFooter](differentfirstpageheaderfooter) { get; set; } | **True** if a different header or footer is used on the first page. |
 | [EndnoteOptions](endnoteoptions) { get; } | Provides options that control numbering and positioning of endnotes in this section. |
@@ -34,6 +35,7 @@ public class PageSetup
 | [FootnoteOptions](footnoteoptions) { get; } | Provides options that control numbering and positioning of footnotes in this section. |
 | [Gutter](gutter) { get; set; } | Gets or sets the amount of extra space added to the margin for document binding. |
 | [HeaderDistance](headerdistance) { get; set; } | Returns or sets the distance (in points) between the header and the top of the page. |
+| [HeadingLevelForChapter](headinglevelforchapter) { get; set; } |  |
 | [LayoutMode](layoutmode) { get; set; } | Gets or sets the layout mode of this section. |
 | [LeftMargin](leftmargin) { get; set; } | Returns or sets the distance (in points) between the left edge of the page and the left boundary of the body text. |
 | [LineNumberCountBy](linenumbercountby) { get; set; } | Returns or sets the numeric increment for line numbers. |

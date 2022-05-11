@@ -3,7 +3,7 @@ title: HtmlControlType
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 3320
+weight: 3360
 url: /net/aspose.words.loading/htmlcontroltype/
 ---
 ## HtmlControlType enumeration

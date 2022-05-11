@@ -3,7 +3,7 @@ title: HtmlOfficeMathOutputMode
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 4700
+weight: 4760
 url: /net/aspose.words.saving/htmlofficemathoutputmode/
 ---
 ## HtmlOfficeMathOutputMode enumeration

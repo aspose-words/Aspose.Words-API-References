@@ -3,7 +3,7 @@ title: LoadFormat
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 3270
+weight: 3300
 url: /net/aspose.words/loadformat/
 ---
 ## LoadFormat enumeration
@@ -37,11 +37,13 @@ public enum LoadFormat
 | Mobi | `52` | MOBI format. Used by MobiPocket reader and Amazon Kindle readers. |
 | Chm | `53` | CHM (Compiled HTML Help) format. |
 | Azw3 | `54` | AZW3 format. Used by Amazon Kindle readers. |
+| Epub | `55` |  |
 | Odt | `60` | ODF Text Document. |
 | Ott | `61` | ODF Text Document Template. |
 | Text | `62` | Plain Text. |
 | Markdown | `63` | Markdown text document. |
 | Pdf | `64` | Pdf document. |
+| Xml | `65` |  |
 | Unknown | `255` | Unrecognized format, cannot be loaded by Aspose.Words. |
 
 ### Examples

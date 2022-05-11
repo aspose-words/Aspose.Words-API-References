@@ -3,7 +3,7 @@ title: HtmlElementSizeOutputMode
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 4660
+weight: 4720
 url: /net/aspose.words.saving/htmlelementsizeoutputmode/
 ---
 ## HtmlElementSizeOutputMode enumeration

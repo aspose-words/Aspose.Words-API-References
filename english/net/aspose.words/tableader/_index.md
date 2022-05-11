@@ -3,7 +3,7 @@ title: TabLeader
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 5750
+weight: 5790
 url: /net/aspose.words/tableader/
 ---
 ## TabLeader enumeration

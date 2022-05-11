@@ -3,10 +3,12 @@ title: Count
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 50
+weight: 10
 url: /net/aspose.words.markup/structureddocumenttagcollection/count/
 ---
 ## StructuredDocumentTagCollection.Count property
+
+Returns the number of structured document tags in the collection.
 
 ```csharp
 public int Count { get; }

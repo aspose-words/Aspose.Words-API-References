@@ -3,7 +3,7 @@ title: ViewType
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 5520
+weight: 5580
 url: /net/aspose.words.settings/viewtype/
 ---
 ## ViewType enumeration

@@ -3,7 +3,7 @@ title: FontFamily
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 2650
+weight: 2680
 url: /net/aspose.words.fonts/fontfamily/
 ---
 ## FontFamily enumeration

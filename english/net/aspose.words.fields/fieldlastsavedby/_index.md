@@ -3,7 +3,7 @@ title: FieldLastSavedBy
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 1880
+weight: 1910
 url: /net/aspose.words.fields/fieldlastsavedby/
 ---
 ## FieldLastSavedBy class

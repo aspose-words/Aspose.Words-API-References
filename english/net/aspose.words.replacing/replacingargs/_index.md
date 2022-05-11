@@ -3,7 +3,7 @@ title: ReplacingArgs
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 4260
+weight: 4320
 url: /net/aspose.words.replacing/replacingargs/
 ---
 ## ReplacingArgs class

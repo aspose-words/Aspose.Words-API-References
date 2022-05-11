@@ -3,7 +3,7 @@ title: StructuredDocumentTag
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 3720
+weight: 3770
 url: /net/aspose.words.markup/structureddocumenttag/
 ---
 ## StructuredDocumentTag class
@@ -11,7 +11,7 @@ url: /net/aspose.words.markup/structureddocumenttag/
 Represents a structured document tag (SDT or content control) in a document.
 
 ```csharp
-public class StructuredDocumentTag : CompositeNode
+public class StructuredDocumentTag : CompositeNode, IStructuredDocumentTag
 ```
 
 ## Constructors
@@ -116,6 +116,7 @@ foreach (Node node in tags)
 ### See Also
 
 * class [CompositeNode](../../aspose.words/compositenode)
+* interface [IStructuredDocumentTag](../istructureddocumenttag)
 * namespace [Aspose.Words.Markup](../../aspose.words.markup)
 * assembly [Aspose.Words](../../)
 

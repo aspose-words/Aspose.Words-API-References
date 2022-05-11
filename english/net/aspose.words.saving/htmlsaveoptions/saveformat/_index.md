@@ -3,7 +3,7 @@ title: SaveFormat
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 450
+weight: 440
 url: /net/aspose.words.saving/htmlsaveoptions/saveformat/
 ---
 ## HtmlSaveOptions.SaveFormat property

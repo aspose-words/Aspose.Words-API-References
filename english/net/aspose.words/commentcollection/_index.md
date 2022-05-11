@@ -3,7 +3,7 @@ title: CommentCollection
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 220
+weight: 230
 url: /net/aspose.words/commentcollection/
 ---
 ## CommentCollection class

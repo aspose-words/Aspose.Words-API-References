@@ -3,7 +3,7 @@ title: ArrowWidth
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 480
+weight: 490
 url: /net/aspose.words.drawing/arrowwidth/
 ---
 ## ArrowWidth enumeration

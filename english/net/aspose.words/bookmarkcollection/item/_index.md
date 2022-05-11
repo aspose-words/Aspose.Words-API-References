@@ -14,9 +14,9 @@ Returns a bookmark at the specified index.
 public Bookmark this[int index] { get; }
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index |  | An index into the collection. |
+| Parameter | Description |
+| --- | --- |
+| index | An index into the collection. |
 
 ### Remarks
 
@@ -132,9 +132,9 @@ Returns a bookmark by name.
 public Bookmark this[string bookmarkName] { get; }
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| bookmarkName |  | Case-insensitive name of the bookmark. |
+| Parameter | Description |
+| --- | --- |
+| bookmarkName | Case-insensitive name of the bookmark. |
 
 ### Remarks
 

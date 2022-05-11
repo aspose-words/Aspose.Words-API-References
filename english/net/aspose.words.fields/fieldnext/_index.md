@@ -3,7 +3,7 @@ title: FieldNext
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 1960
+weight: 1990
 url: /net/aspose.words.fields/fieldnext/
 ---
 ## FieldNext class

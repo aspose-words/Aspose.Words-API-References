@@ -99,9 +99,9 @@ Retrieves a [`ConditionalStyle`](../../conditionalstyle) object by index.
 public ConditionalStyle this[int index] { get; }
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index |  | Zero-based index of the conditional style to retrieve. |
+| Parameter | Description |
+| --- | --- |
+| index | Zero-based index of the conditional style to retrieve. |
 
 ### Examples
 

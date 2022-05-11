@@ -3,7 +3,7 @@ title: FieldType
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 2320
+weight: 2350
 url: /net/aspose.words.fields/fieldtype/
 ---
 ## FieldType enumeration

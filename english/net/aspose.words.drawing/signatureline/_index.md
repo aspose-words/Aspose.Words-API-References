@@ -3,7 +3,7 @@ title: SignatureLine
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 1100
+weight: 1130
 url: /net/aspose.words.drawing/signatureline/
 ---
 ## SignatureLine class

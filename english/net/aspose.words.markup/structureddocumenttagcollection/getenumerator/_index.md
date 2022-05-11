@@ -3,10 +3,12 @@ title: GetEnumerator
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 40
+weight: 60
 url: /net/aspose.words.markup/structureddocumenttagcollection/getenumerator/
 ---
 ## StructuredDocumentTagCollection.GetEnumerator method
+
+Returns an enumerator object.
 
 ```csharp
 public IEnumerator<IStructuredDocumentTag> GetEnumerator()

@@ -3,7 +3,7 @@ title: ThumbnailGeneratingOptions
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 4210
+weight: 4270
 url: /net/aspose.words.rendering/thumbnailgeneratingoptions/
 ---
 ## ThumbnailGeneratingOptions class

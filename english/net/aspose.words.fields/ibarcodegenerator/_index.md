@@ -3,7 +3,7 @@ title: IBarcodeGenerator
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 2430
+weight: 2460
 url: /net/aspose.words.fields/ibarcodegenerator/
 ---
 ## IBarcodeGenerator interface

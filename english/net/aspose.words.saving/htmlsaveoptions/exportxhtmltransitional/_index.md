@@ -3,7 +3,7 @@ title: ExportXhtmlTransitional
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 300
+weight: 290
 url: /net/aspose.words.saving/htmlsaveoptions/exportxhtmltransitional/
 ---
 ## HtmlSaveOptions.ExportXhtmlTransitional property

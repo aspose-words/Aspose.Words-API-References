@@ -14,9 +14,9 @@ Retrieves a building block at the given index.
 public BuildingBlock this[int index] { get; }
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index |  | An index into the list of building blocks. |
+| Parameter | Description |
+| --- | --- |
+| index | An index into the list of building blocks. |
 
 ### Remarks
 

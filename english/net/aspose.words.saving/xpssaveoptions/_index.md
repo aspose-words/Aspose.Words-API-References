@@ -3,7 +3,7 @@ title: XpsSaveOptions
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 5290
+weight: 5350
 url: /net/aspose.words.saving/xpssaveoptions/
 ---
 ## XpsSaveOptions class

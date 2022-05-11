@@ -3,7 +3,7 @@ title: HeaderFooterBookmarksExportMode
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 4650
+weight: 4710
 url: /net/aspose.words.saving/headerfooterbookmarksexportmode/
 ---
 ## HeaderFooterBookmarksExportMode enumeration

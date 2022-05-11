@@ -3,7 +3,7 @@ title: CommentRangeEnd
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 230
+weight: 240
 url: /net/aspose.words/commentrangeend/
 ---
 ## CommentRangeEnd class

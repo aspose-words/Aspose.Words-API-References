@@ -3,14 +3,20 @@ title: Item
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 60
+weight: 20
 url: /net/aspose.words.markup/structureddocumenttagcollection/item/
 ---
 ## StructuredDocumentTagCollection indexer
 
+Returns the structured document tag by Id.
+
 ```csharp
-public IStructuredDocumentTag this[int id] { get; }
+public IStructuredDocumentTag this[int index] { get; }
 ```
+
+| Parameter | Description |
+| --- | --- |
+| id | The structured document tag identifier. |
 
 ### See Also
 

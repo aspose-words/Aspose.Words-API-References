@@ -1,7 +1,7 @@
 ---
 title: Aspose.Words.Notes
 second_title: Aspose.Words for .NET API Reference
-description: The **Aspose.Words.Notes** namespace provides classes to work with Microsoft Word endnotes and footnotes.
+description: TheAspose.Words.NotesnamespaceprovidesclassestoworkwithMicrosoftWordendnotesandfootnotes.
 type: docs
 weight: 170
 url: /net/aspose.words.notes/

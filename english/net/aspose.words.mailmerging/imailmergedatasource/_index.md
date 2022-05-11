@@ -3,7 +3,7 @@ title: IMailMergeDataSource
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 3500
+weight: 3540
 url: /net/aspose.words.mailmerging/imailmergedatasource/
 ---
 ## IMailMergeDataSource interface

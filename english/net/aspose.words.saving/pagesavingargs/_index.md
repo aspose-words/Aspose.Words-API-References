@@ -3,7 +3,7 @@ title: PageSavingArgs
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 4960
+weight: 5020
 url: /net/aspose.words.saving/pagesavingargs/
 ---
 ## PageSavingArgs class

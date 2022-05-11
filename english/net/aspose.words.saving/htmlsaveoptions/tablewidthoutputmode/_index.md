@@ -3,7 +3,7 @@ title: TableWidthOutputMode
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 470
+weight: 460
 url: /net/aspose.words.saving/htmlsaveoptions/tablewidthoutputmode/
 ---
 ## HtmlSaveOptions.TableWidthOutputMode property

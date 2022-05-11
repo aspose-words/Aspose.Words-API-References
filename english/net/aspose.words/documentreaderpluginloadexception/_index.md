@@ -3,7 +3,7 @@ title: DocumentReaderPluginLoadException
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 440
+weight: 450
 url: /net/aspose.words/documentreaderpluginloadexception/
 ---
 ## DocumentReaderPluginLoadException class

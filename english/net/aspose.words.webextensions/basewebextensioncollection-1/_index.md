@@ -1,9 +1,9 @@
 ---
-title: BaseWebExtensionCollection<T>
+title: BaseWebExtensionCollectionT
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 6250
+weight: 6290
 url: /net/aspose.words.webextensions/basewebextensioncollection-1/
 ---
 ## BaseWebExtensionCollection&lt;T&gt; class
@@ -15,9 +15,9 @@ public abstract class BaseWebExtensionCollection<T> : IEnumerable<T>
     where T : class
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| T |  | Type of a collection item. |
+| Parameter | Description |
+| --- | --- |
+| T | Type of a collection item. |
 
 ## Properties
 

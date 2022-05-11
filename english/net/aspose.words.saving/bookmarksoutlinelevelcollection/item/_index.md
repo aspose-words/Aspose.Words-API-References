@@ -14,9 +14,9 @@ Gets or a sets a bookmark outline level by the bookmark name.
 public int this[string name] { get; set; }
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| name |  | Case-insensitive name of the bookmark. |
+| Parameter | Description |
+| --- | --- |
+| name | Case-insensitive name of the bookmark. |
 
 ## Return Value
 
@@ -93,9 +93,9 @@ Gets or sets a bookmark outline level at the specified index.
 public int this[int index] { get; set; }
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index |  | Zero-based index of the bookmark. |
+| Parameter | Description |
+| --- | --- |
+| index | Zero-based index of the bookmark. |
 
 ## Return Value
 

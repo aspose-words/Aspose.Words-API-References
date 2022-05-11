@@ -3,7 +3,7 @@ title: ImageSavingCallback
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 370
+weight: 360
 url: /net/aspose.words.saving/htmlsaveoptions/imagesavingcallback/
 ---
 ## HtmlSaveOptions.ImageSavingCallback property

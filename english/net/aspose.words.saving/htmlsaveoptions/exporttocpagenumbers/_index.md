@@ -3,7 +3,7 @@ title: ExportTocPageNumbers
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 290
+weight: 280
 url: /net/aspose.words.saving/htmlsaveoptions/exporttocpagenumbers/
 ---
 ## HtmlSaveOptions.ExportTocPageNumbers property

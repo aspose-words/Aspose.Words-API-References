@@ -3,7 +3,7 @@ title: ChartAxisType
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 610
+weight: 620
 url: /net/aspose.words.drawing.charts/chartaxistype/
 ---
 ## ChartAxisType enumeration

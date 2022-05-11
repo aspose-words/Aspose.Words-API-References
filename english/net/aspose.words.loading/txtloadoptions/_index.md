@@ -3,7 +3,7 @@ title: TxtLoadOptions
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 3440
+weight: 3480
 url: /net/aspose.words.loading/txtloadoptions/
 ---
 ## TxtLoadOptions class

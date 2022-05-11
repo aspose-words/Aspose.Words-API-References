@@ -3,7 +3,7 @@ title: DigitalSignature
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 360
+weight: 370
 url: /net/aspose.words.digitalsignatures/digitalsignature/
 ---
 ## DigitalSignature class

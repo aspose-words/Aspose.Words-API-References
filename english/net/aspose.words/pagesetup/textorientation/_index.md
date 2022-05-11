@@ -3,7 +3,7 @@ title: TextOrientation
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 400
+weight: 420
 url: /net/aspose.words/pagesetup/textorientation/
 ---
 ## PageSetup.TextOrientation property

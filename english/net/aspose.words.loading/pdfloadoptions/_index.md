@@ -3,7 +3,7 @@ title: PdfLoadOptions
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 3380
+weight: 3420
 url: /net/aspose.words.loading/pdfloadoptions/
 ---
 ## PdfLoadOptions class

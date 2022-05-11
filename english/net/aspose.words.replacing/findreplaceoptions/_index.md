@@ -3,7 +3,7 @@ title: FindReplaceOptions
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 4230
+weight: 4290
 url: /net/aspose.words.replacing/findreplaceoptions/
 ---
 ## FindReplaceOptions class

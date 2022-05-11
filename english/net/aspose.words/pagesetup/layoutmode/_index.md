@@ -3,7 +3,7 @@ title: LayoutMode
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 170
+weight: 190
 url: /net/aspose.words/pagesetup/layoutmode/
 ---
 ## PageSetup.LayoutMode property

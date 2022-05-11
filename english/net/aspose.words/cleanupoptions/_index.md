@@ -3,7 +3,7 @@ title: CleanupOptions
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 190
+weight: 200
 url: /net/aspose.words/cleanupoptions/
 ---
 ## CleanupOptions class

@@ -3,7 +3,7 @@ title: MailMergeCleanupOptions
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 3540
+weight: 3580
 url: /net/aspose.words.mailmerging/mailmergecleanupoptions/
 ---
 ## MailMergeCleanupOptions enumeration

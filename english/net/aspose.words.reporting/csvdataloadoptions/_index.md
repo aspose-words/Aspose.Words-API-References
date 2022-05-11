@@ -3,7 +3,7 @@ title: CsvDataLoadOptions
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 4270
+weight: 4330
 url: /net/aspose.words.reporting/csvdataloadoptions/
 ---
 ## CsvDataLoadOptions class

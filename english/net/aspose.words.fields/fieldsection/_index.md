@@ -3,7 +3,7 @@ title: FieldSection
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 2140
+weight: 2170
 url: /net/aspose.words.fields/fieldsection/
 ---
 ## FieldSection class

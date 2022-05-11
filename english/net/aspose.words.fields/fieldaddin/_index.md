@@ -3,7 +3,7 @@ title: FieldAddIn
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 1320
+weight: 1350
 url: /net/aspose.words.fields/fieldaddin/
 ---
 ## FieldAddIn class

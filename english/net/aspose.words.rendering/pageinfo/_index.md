@@ -3,7 +3,7 @@ title: PageInfo
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 4190
+weight: 4250
 url: /net/aspose.words.rendering/pageinfo/
 ---
 ## PageInfo class

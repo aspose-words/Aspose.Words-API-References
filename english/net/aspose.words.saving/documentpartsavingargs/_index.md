@@ -3,7 +3,7 @@ title: DocumentPartSavingArgs
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 4550
+weight: 4610
 url: /net/aspose.words.saving/documentpartsavingargs/
 ---
 ## DocumentPartSavingArgs class

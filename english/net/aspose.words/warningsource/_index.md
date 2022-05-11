@@ -3,7 +3,7 @@ title: WarningSource
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 6200
+weight: 6240
 url: /net/aspose.words/warningsource/
 ---
 ## WarningSource enumeration
@@ -43,6 +43,7 @@ public enum WarningSource
 | Svg | `22` | Module that reads SVG files. |
 | Markdown | `23` | Module that reads/writes Markdown files. |
 | Chm | `24` | Module that reads CHM files. |
+| Epub | `25` |  |
 
 ### See Also
 

@@ -3,7 +3,7 @@ title: ComparisonExpression
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 1290
+weight: 1320
 url: /net/aspose.words.fields/comparisonexpression/
 ---
 ## ComparisonExpression class

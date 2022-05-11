@@ -3,7 +3,7 @@ title: TopMargin
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 410
+weight: 430
 url: /net/aspose.words/pagesetup/topmargin/
 ---
 ## PageSetup.TopMargin property

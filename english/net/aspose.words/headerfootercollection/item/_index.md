@@ -14,9 +14,9 @@ Retrieves a **HeaderFooter** at the given index.
 public HeaderFooter this[int index] { get; }
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index |  | An index into the collection. |
+| Parameter | Description |
+| --- | --- |
+| index | An index into the collection. |
 
 ### Remarks
 
@@ -107,9 +107,9 @@ Retrieves a **HeaderFooter** of the specified type.
 public HeaderFooter this[HeaderFooterType headerFooterType] { get; }
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| headerFooterType |  | A [`HeaderFooterType`](../../headerfootertype) value that specifies the type of the header/footer to retrieve. |
+| Parameter | Description |
+| --- | --- |
+| headerFooterType | A [`HeaderFooterType`](../../headerfootertype) value that specifies the type of the header/footer to retrieve. |
 
 ### Remarks
 

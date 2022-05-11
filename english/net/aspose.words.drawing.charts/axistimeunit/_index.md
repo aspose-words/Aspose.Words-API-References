@@ -3,7 +3,7 @@ title: AxisTimeUnit
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 580
+weight: 590
 url: /net/aspose.words.drawing.charts/axistimeunit/
 ---
 ## AxisTimeUnit enumeration

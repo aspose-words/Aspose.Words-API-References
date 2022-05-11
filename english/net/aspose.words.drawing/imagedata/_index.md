@@ -3,7 +3,7 @@ title: ImageData
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 900
+weight: 930
 url: /net/aspose.words.drawing/imagedata/
 ---
 ## ImageData class

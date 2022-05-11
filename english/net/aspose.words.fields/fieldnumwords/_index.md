@@ -3,7 +3,7 @@ title: FieldNumWords
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 2010
+weight: 2040
 url: /net/aspose.words.fields/fieldnumwords/
 ---
 ## FieldNumWords class

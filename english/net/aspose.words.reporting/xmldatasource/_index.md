@@ -3,7 +3,7 @@ title: XmlDataSource
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 4360
+weight: 4420
 url: /net/aspose.words.reporting/xmldatasource/
 ---
 ## XmlDataSource class

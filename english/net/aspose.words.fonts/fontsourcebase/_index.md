@@ -3,7 +3,7 @@ title: FontSourceBase
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 2720
+weight: 2750
 url: /net/aspose.words.fonts/fontsourcebase/
 ---
 ## FontSourceBase class

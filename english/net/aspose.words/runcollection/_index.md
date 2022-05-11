@@ -3,7 +3,7 @@ title: RunCollection
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 4440
+weight: 4500
 url: /net/aspose.words/runcollection/
 ---
 ## RunCollection class

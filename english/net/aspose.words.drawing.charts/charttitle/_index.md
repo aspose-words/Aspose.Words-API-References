@@ -3,7 +3,7 @@ title: ChartTitle
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 720
+weight: 750
 url: /net/aspose.words.drawing.charts/charttitle/
 ---
 ## ChartTitle class

@@ -3,7 +3,7 @@ title: LayoutCollector
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 3040
+weight: 3070
 url: /net/aspose.words.layout/layoutcollector/
 ---
 ## LayoutCollector class

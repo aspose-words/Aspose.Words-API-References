@@ -3,7 +3,7 @@ title: FieldSymbol
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 2240
+weight: 2270
 url: /net/aspose.words.fields/fieldsymbol/
 ---
 ## FieldSymbol class

@@ -3,7 +3,7 @@ title: PageBorderDistanceFrom
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 4000
+weight: 4060
 url: /net/aspose.words/pageborderdistancefrom/
 ---
 ## PageBorderDistanceFrom enumeration

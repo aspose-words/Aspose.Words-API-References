@@ -3,7 +3,7 @@ title: ImagesFolder
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 380
+weight: 370
 url: /net/aspose.words.saving/htmlsaveoptions/imagesfolder/
 ---
 ## HtmlSaveOptions.ImagesFolder property

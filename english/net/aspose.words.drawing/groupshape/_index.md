@@ -3,7 +3,7 @@ title: GroupShape
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 860
+weight: 890
 url: /net/aspose.words.drawing/groupshape/
 ---
 ## GroupShape class

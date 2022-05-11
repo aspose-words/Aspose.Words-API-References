@@ -3,7 +3,7 @@ title: SubDocument
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 5730
+weight: 5770
 url: /net/aspose.words/subdocument/
 ---
 ## SubDocument class

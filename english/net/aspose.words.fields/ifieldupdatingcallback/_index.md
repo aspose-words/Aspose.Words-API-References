@@ -3,7 +3,7 @@ title: IFieldUpdatingCallback
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 2470
+weight: 2500
 url: /net/aspose.words.fields/ifieldupdatingcallback/
 ---
 ## IFieldUpdatingCallback interface

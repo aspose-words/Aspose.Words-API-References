@@ -3,7 +3,7 @@ title: ThemeColor
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 6030
+weight: 6070
 url: /net/aspose.words.themes/themecolor/
 ---
 ## ThemeColor enumeration

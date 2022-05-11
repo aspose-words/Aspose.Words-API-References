@@ -14,9 +14,9 @@ Gets an item at the specified index.
 public WarningInfo this[int index] { get; }
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index |  | Zero-based index of the item. |
+| Parameter | Description |
+| --- | --- |
+| index | Zero-based index of the item. |
 
 ### See Also
 

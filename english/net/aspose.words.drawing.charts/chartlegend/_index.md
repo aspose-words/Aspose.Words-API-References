@@ -3,7 +3,7 @@ title: ChartLegend
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 670
+weight: 680
 url: /net/aspose.words.drawing.charts/chartlegend/
 ---
 ## ChartLegend class
@@ -14,16 +14,11 @@ Represents chart legend properties.
 public class ChartLegend
 ```
 
-## Constructors
-
-| Name | Description |
-| --- | --- |
-| [ChartLegend](chartlegend)() | Initializes a new instance of the [`ChartLegend`](../chartlegend) class. |
-
 ## Properties
 
 | Name | Description |
 | --- | --- |
+| [LegendEntries](legendentries) { get; } | Returns a collection of legend entries for all series and trendlines of the parent chart. |
 | [Overlay](overlay) { get; set; } | Determines whether other chart elements shall be allowed to overlap legend. Default value is false. |
 | [Position](position) { get; set; } | Specifies the position of the legend on a chart. Default value is Right. |
 

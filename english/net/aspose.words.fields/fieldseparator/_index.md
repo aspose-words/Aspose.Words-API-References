@@ -3,7 +3,7 @@ title: FieldSeparator
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 2160
+weight: 2190
 url: /net/aspose.words.fields/fieldseparator/
 ---
 ## FieldSeparator class

@@ -3,7 +3,7 @@ title: CustomDocumentProperties
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 4100
+weight: 4160
 url: /net/aspose.words.properties/customdocumentproperties/
 ---
 ## CustomDocumentProperties class

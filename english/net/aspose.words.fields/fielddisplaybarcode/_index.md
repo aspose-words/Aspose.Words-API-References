@@ -3,7 +3,7 @@ title: FieldDisplayBarcode
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 1580
+weight: 1610
 url: /net/aspose.words.fields/fielddisplaybarcode/
 ---
 ## FieldDisplayBarcode class

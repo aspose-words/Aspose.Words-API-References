@@ -3,7 +3,7 @@ title: SdtCalendarType
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 3660
+weight: 3710
 url: /net/aspose.words.markup/sdtcalendartype/
 ---
 ## SdtCalendarType enumeration

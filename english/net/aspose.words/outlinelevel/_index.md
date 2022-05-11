@@ -3,7 +3,7 @@ title: OutlineLevel
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 3980
+weight: 4040
 url: /net/aspose.words/outlinelevel/
 ---
 ## OutlineLevel enumeration

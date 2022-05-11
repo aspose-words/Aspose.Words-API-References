@@ -3,7 +3,7 @@ title: IFieldMergingCallback
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 3480
+weight: 3520
 url: /net/aspose.words.mailmerging/ifieldmergingcallback/
 ---
 ## IFieldMergingCallback interface

@@ -3,7 +3,7 @@ title: License
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 3140
+weight: 3170
 url: /net/aspose.words/license/
 ---
 ## License class

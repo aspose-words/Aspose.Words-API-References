@@ -3,25 +3,34 @@ title: StructuredDocumentTagCollection
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 3770
+weight: 3780
 url: /net/aspose.words.markup/structureddocumenttagcollection/
 ---
 ## StructuredDocumentTagCollection class
+
+A collection of [`IStructuredDocumentTag`](../istructureddocumenttag) instances that represent the structured document tags in the specified range.
 
 ```csharp
 public class StructuredDocumentTagCollection : IEnumerable<IStructuredDocumentTag>
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
-| [Count](count) { get; } |  |
-| [Item](item) { get; } |  |
-| [GetByTag](getbytag)(…) |  |
-| [GetByTitle](getbytitle)(…) |  |
-| [GetEnumerator](getenumerator)() |  |
-| [Remove](remove)(…) |  |
+| [Count](count) { get; } | Returns the number of structured document tags in the collection. |
+| [Item](item) { get; } | Returns the structured document tag by Id. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [GetById](getbyid)(int) |  |
+| [GetByTag](getbytag)(string) | Returns the first structured document tag encountered in the collection with the specified tag. |
+| [GetByTitle](getbytitle)(string) | Returns the first structured document tag encountered in the collection with the specified title. |
+| [GetEnumerator](getenumerator)() | Returns an enumerator object. |
+| [Remove](remove)(int) | Removes the structured document tag with the specified identifier. |
+| [RemoveAt](removeat)(int) |  |
 
 ### See Also
 

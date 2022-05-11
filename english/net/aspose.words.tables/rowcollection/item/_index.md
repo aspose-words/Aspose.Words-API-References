@@ -14,9 +14,9 @@ Retrieves a **Row** at the given index.
 public Row this[int index] { get; }
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index |  | An index into the collection. |
+| Parameter | Description |
+| --- | --- |
+| index | An index into the collection. |
 
 ### Remarks
 

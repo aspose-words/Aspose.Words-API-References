@@ -3,7 +3,7 @@ title: FieldInfo
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 1860
+weight: 1890
 url: /net/aspose.words.fields/fieldinfo/
 ---
 ## FieldInfo class

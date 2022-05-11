@@ -3,7 +3,7 @@ title: CustomPart
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 3570
+weight: 3610
 url: /net/aspose.words.markup/custompart/
 ---
 ## CustomPart class

@@ -3,7 +3,7 @@ title: WriteProtection
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 5530
+weight: 5590
 url: /net/aspose.words.settings/writeprotection/
 ---
 ## WriteProtection class

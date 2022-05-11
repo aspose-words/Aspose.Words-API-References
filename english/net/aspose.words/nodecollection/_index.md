@@ -3,7 +3,7 @@ title: NodeCollection
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 3850
+weight: 3910
 url: /net/aspose.words/nodecollection/
 ---
 ## NodeCollection class

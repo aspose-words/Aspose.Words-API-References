@@ -3,7 +3,7 @@ title: IFieldUpdateCultureProvider
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 2460
+weight: 2490
 url: /net/aspose.words.fields/ifieldupdatecultureprovider/
 ---
 ## IFieldUpdateCultureProvider interface

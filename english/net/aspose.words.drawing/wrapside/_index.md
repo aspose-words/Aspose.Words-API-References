@@ -3,7 +3,7 @@ title: WrapSide
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 1190
+weight: 1220
 url: /net/aspose.words.drawing/wrapside/
 ---
 ## WrapSide enumeration

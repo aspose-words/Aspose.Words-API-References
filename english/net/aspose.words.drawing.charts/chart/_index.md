@@ -3,7 +3,7 @@ title: Chart
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 590
+weight: 600
 url: /net/aspose.words.drawing.charts/chart/
 ---
 ## Chart class
@@ -23,7 +23,7 @@ public class Chart
 | [AxisZ](axisz) { get; } | Provides access to properties of the Z axis of the chart. |
 | [Legend](legend) { get; } | Provides access to the chart legend properties. |
 | [Series](series) { get; } | Provides access to series collection. |
-| [SourceFullName](sourcefullname) { get; } | Gets the path and name of an xls/xlsx file this chart is linked to. |
+| [SourceFullName](sourcefullname) { get; set; } | Gets the path and name of an xls/xlsx file this chart is linked to. |
 | [Title](title) { get; } | Provides access to the chart title properties. |
 
 ### Examples

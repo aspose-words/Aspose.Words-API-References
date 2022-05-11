@@ -3,7 +3,7 @@ title: LinesPerPage
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 220
+weight: 240
 url: /net/aspose.words/pagesetup/linesperpage/
 ---
 ## PageSetup.LinesPerPage property

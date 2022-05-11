@@ -3,7 +3,7 @@ title: FieldDde
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 1560
+weight: 1590
 url: /net/aspose.words.fields/fielddde/
 ---
 ## FieldDde class

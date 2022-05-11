@@ -3,7 +3,7 @@ title: TxtLeadingSpacesOptions
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 3430
+weight: 3470
 url: /net/aspose.words.loading/txtleadingspacesoptions/
 ---
 ## TxtLeadingSpacesOptions enumeration

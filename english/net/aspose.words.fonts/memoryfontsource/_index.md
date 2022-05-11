@@ -3,7 +3,7 @@ title: MemoryFontSource
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 2760
+weight: 2790
 url: /net/aspose.words.fonts/memoryfontsource/
 ---
 ## MemoryFontSource class

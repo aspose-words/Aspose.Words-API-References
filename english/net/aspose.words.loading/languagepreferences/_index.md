@@ -3,7 +3,7 @@ title: LanguagePreferences
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 3360
+weight: 3400
 url: /net/aspose.words.loading/languagepreferences/
 ---
 ## LanguagePreferences class

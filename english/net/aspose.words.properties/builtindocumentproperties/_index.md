@@ -3,7 +3,7 @@ title: BuiltInDocumentProperties
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 4090
+weight: 4150
 url: /net/aspose.words.properties/builtindocumentproperties/
 ---
 ## BuiltInDocumentProperties class

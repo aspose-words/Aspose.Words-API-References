@@ -3,7 +3,7 @@ title: SmartTag
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 3710
+weight: 3760
 url: /net/aspose.words.markup/smarttag/
 ---
 ## SmartTag class

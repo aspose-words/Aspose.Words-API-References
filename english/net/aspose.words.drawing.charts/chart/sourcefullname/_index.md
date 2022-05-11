@@ -11,7 +11,7 @@ url: /net/aspose.words.drawing.charts/chart/sourcefullname/
 Gets the path and name of an xls/xlsx file this chart is linked to.
 
 ```csharp
-public string SourceFullName { get; }
+public string SourceFullName { get; set; }
 ```
 
 ### See Also

@@ -3,7 +3,7 @@ title: IDocumentReaderPlugin
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 2900
+weight: 2930
 url: /net/aspose.words/idocumentreaderplugin/
 ---
 ## IDocumentReaderPlugin interface

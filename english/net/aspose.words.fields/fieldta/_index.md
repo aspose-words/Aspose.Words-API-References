@@ -3,7 +3,7 @@ title: FieldTA
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 2250
+weight: 2280
 url: /net/aspose.words.fields/fieldta/
 ---
 ## FieldTA class

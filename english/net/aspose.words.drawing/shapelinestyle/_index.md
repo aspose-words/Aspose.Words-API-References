@@ -3,7 +3,7 @@ title: ShapeLineStyle
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 1070
+weight: 1100
 url: /net/aspose.words.drawing/shapelinestyle/
 ---
 ## ShapeLineStyle enumeration

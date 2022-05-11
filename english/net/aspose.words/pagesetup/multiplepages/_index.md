@@ -3,7 +3,7 @@ title: MultiplePages
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 240
+weight: 260
 url: /net/aspose.words/pagesetup/multiplepages/
 ---
 ## PageSetup.MultiplePages property

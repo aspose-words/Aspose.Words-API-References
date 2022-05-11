@@ -3,7 +3,7 @@ title: ExportTextInputFormFieldAsText
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 280
+weight: 270
 url: /net/aspose.words.saving/htmlsaveoptions/exporttextinputformfieldastext/
 ---
 ## HtmlSaveOptions.ExportTextInputFormFieldAsText property

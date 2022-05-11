@@ -3,7 +3,7 @@ title: UserInformation
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 2530
+weight: 2560
 url: /net/aspose.words.fields/userinformation/
 ---
 ## UserInformation class

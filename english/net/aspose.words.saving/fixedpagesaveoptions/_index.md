@@ -3,7 +3,7 @@ title: FixedPageSaveOptions
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 4630
+weight: 4690
 url: /net/aspose.words.saving/fixedpagesaveoptions/
 ---
 ## FixedPageSaveOptions class

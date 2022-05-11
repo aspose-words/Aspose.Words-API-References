@@ -1,7 +1,7 @@
 ---
 title: Aspose.Words
 second_title: Aspose.Words for .NET API Reference
-description: The **Aspose.Words** namespace provides classes for generating, converting, modifying, rendering and printing Microsoft Word documents without utilizing Microsoft Word.
+description: TheAspose.WordsnamespaceprovidesclassesforgeneratingconvertingmodifyingrenderingandprintingMicrosoftWorddocumentswithoututilizingMicrosoftWord.
 type: docs
 weight: 10
 url: /net/aspose.words/
@@ -108,6 +108,7 @@ The **Aspose.Words** namespace provides classes for generating, converting, modi
 | enum [BorderType](./bordertype) | Specifies sides of a border. |
 | enum [BreakType](./breaktype) | Specifies type of a break inside a document. |
 | enum [CalendarType](./calendartype) | Specifies the type of a calendar. |
+| enum [ChapterPageSeparator](./chapterpageseparator) |  |
 | enum [ConditionalStyleType](./conditionalstyletype) | Represents possible table areas to which conditional formatting may be defined in a table style. |
 | enum [ContentDisposition](./contentdisposition) | Enumerates different ways of presenting the document at the client browser. |
 | enum [DropCapPosition](./dropcapposition) | Specifies the position for a drop cap text. |

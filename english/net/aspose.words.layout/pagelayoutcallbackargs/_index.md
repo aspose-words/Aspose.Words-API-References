@@ -3,7 +3,7 @@ title: PageLayoutCallbackArgs
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 3080
+weight: 3110
 url: /net/aspose.words.layout/pagelayoutcallbackargs/
 ---
 ## PageLayoutCallbackArgs class

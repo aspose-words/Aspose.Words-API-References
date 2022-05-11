@@ -3,7 +3,7 @@ title: FieldListNum
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 1900
+weight: 1930
 url: /net/aspose.words.fields/fieldlistnum/
 ---
 ## FieldListNum class

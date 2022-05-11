@@ -14,9 +14,9 @@ Retrieves a Border object by border type.
 public Border this[BorderType borderType] { get; }
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| borderType |  | A [`BorderType`](../../bordertype) value that specifies the type of the border to retrieve. |
+| Parameter | Description |
+| --- | --- |
+| borderType | A [`BorderType`](../../bordertype) value that specifies the type of the border to retrieve. |
 
 ### Remarks
 
@@ -64,9 +64,9 @@ Retrieves a Border object by index.
 public Border this[int index] { get; }
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index |  | Zero-based index of the border to retrieve. |
+| Parameter | Description |
+| --- | --- |
+| index | Zero-based index of the border to retrieve. |
 
 ### Examples
 

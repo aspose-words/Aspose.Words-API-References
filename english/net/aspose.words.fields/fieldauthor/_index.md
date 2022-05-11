@@ -3,7 +3,7 @@ title: FieldAuthor
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 1370
+weight: 1400
 url: /net/aspose.words.fields/fieldauthor/
 ---
 ## FieldAuthor class

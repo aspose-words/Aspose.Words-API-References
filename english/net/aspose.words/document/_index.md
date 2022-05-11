@@ -3,7 +3,7 @@ title: Document
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 410
+weight: 420
 url: /net/aspose.words/document/
 ---
 ## Document class
@@ -117,7 +117,6 @@ public class Document : DocumentBase
 | [UpdateFields](updatefields)() | Updates the values of fields in the whole document. |
 | [UpdateListLabels](updatelistlabels)() | Updates list labels for all list items in the document. |
 | [UpdatePageLayout](updatepagelayout)() | Rebuilds the page layout of the document. |
-| [UpdateTableLayout](updatetablelayout)() | Implements an earlier approach to table column widths re-calculation that has known issues. |
 | [UpdateThumbnail](updatethumbnail)() | Updates [`Thumbnail`](../../aspose.words.properties/builtindocumentproperties/thumbnail) of the document using default options. |
 | [UpdateThumbnail](updatethumbnail)(ThumbnailGeneratingOptions) | Updates [`Thumbnail`](../../aspose.words.properties/builtindocumentproperties/thumbnail) of the document according to the specified options. |
 | [UpdateWordCount](updatewordcount)() | Updates word count properties of the document. |

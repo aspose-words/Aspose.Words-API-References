@@ -3,7 +3,7 @@ title: ImagesFolderAlias
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 390
+weight: 380
 url: /net/aspose.words.saving/htmlsaveoptions/imagesfolderalias/
 ---
 ## HtmlSaveOptions.ImagesFolderAlias property

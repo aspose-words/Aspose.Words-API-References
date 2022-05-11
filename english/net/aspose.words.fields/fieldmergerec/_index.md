@@ -3,7 +3,7 @@ title: FieldMergeRec
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 1940
+weight: 1970
 url: /net/aspose.words.fields/fieldmergerec/
 ---
 ## FieldMergeRec class

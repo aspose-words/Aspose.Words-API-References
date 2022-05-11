@@ -3,7 +3,7 @@ title: ICssSavingCallback
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 4730
+weight: 4790
 url: /net/aspose.words.saving/icsssavingcallback/
 ---
 ## ICssSavingCallback interface

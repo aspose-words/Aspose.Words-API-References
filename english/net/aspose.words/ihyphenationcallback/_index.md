@@ -3,7 +3,7 @@ title: IHyphenationCallback
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 2910
+weight: 2940
 url: /net/aspose.words/ihyphenationcallback/
 ---
 ## IHyphenationCallback interface

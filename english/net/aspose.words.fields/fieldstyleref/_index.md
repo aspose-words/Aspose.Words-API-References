@@ -3,7 +3,7 @@ title: FieldStyleRef
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 2220
+weight: 2250
 url: /net/aspose.words.fields/fieldstyleref/
 ---
 ## FieldStyleRef class

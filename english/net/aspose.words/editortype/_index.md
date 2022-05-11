@@ -3,7 +3,7 @@ title: EditorType
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 1250
+weight: 1280
 url: /net/aspose.words/editortype/
 ---
 ## EditorType enumeration

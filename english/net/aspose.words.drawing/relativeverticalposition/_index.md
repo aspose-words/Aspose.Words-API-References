@@ -3,7 +3,7 @@ title: RelativeVerticalPosition
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 1040
+weight: 1070
 url: /net/aspose.words.drawing/relativeverticalposition/
 ---
 ## RelativeVerticalPosition enumeration

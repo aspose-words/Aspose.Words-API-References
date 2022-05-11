@@ -3,7 +3,7 @@ title: RevisionOptions
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 3110
+weight: 3140
 url: /net/aspose.words.layout/revisionoptions/
 ---
 ## RevisionOptions class

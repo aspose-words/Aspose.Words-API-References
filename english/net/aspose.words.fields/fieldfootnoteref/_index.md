@@ -3,7 +3,7 @@ title: FieldFootnoteRef
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 1680
+weight: 1710
 url: /net/aspose.words.fields/fieldfootnoteref/
 ---
 ## FieldFootnoteRef class

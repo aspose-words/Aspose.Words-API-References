@@ -3,7 +3,7 @@ title: AxisTickMark
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 570
+weight: 580
 url: /net/aspose.words.drawing.charts/axistickmark/
 ---
 ## AxisTickMark enumeration

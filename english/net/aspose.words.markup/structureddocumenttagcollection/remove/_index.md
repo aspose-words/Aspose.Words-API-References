@@ -3,14 +3,20 @@ title: Remove
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 30
+weight: 70
 url: /net/aspose.words.markup/structureddocumenttagcollection/remove/
 ---
 ## StructuredDocumentTagCollection.Remove method
 
+Removes the structured document tag with the specified identifier.
+
 ```csharp
 public void Remove(int id)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| id | Int32 | The structured document tag identifier. |
 
 ### See Also
 

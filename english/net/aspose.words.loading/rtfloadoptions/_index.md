@@ -3,7 +3,7 @@ title: RtfLoadOptions
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 3420
+weight: 3460
 url: /net/aspose.words.loading/rtfloadoptions/
 ---
 ## RtfLoadOptions class

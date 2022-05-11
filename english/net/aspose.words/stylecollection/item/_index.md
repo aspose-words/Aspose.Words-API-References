@@ -60,9 +60,9 @@ Gets a built-in style by its locale independent identifier.
 public Style this[StyleIdentifier sti] { get; }
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| sti |  | A [`StyleIdentifier`](../../styleidentifier) value that specifies the built in style to retrieve. |
+| Parameter | Description |
+| --- | --- |
+| sti | A [`StyleIdentifier`](../../styleidentifier) value that specifies the built in style to retrieve. |
 
 ### Remarks
 

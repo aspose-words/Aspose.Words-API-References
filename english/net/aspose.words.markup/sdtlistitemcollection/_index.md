@@ -3,7 +3,7 @@ title: SdtListItemCollection
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 3690
+weight: 3740
 url: /net/aspose.words.markup/sdtlistitemcollection/
 ---
 ## SdtListItemCollection class

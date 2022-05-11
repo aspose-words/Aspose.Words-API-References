@@ -3,7 +3,7 @@ title: EndnotePosition
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 3900
+weight: 3960
 url: /net/aspose.words.notes/endnoteposition/
 ---
 ## EndnotePosition enumeration

@@ -3,7 +3,7 @@ title: DropDownItemCollection
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 1300
+weight: 1330
 url: /net/aspose.words.fields/dropdownitemcollection/
 ---
 ## DropDownItemCollection class

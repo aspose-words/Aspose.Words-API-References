@@ -3,10 +3,12 @@ title: WordOpenXML
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 150
+weight: 120
 url: /net/aspose.words.markup/istructureddocumenttag/wordopenxml/
 ---
 ## IStructuredDocumentTag.WordOpenXML property
+
+Gets a string that represents the XML contained within the node in the FlatOpc format.
 
 ```csharp
 public string WordOpenXML { get; }

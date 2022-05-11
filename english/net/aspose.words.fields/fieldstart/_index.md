@@ -3,7 +3,7 @@ title: FieldStart
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 2210
+weight: 2240
 url: /net/aspose.words.fields/fieldstart/
 ---
 ## FieldStart class

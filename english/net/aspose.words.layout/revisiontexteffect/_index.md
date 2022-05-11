@@ -3,7 +3,7 @@ title: RevisionTextEffect
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 3120
+weight: 3150
 url: /net/aspose.words.layout/revisiontexteffect/
 ---
 ## RevisionTextEffect enumeration

@@ -3,7 +3,7 @@ title: CompareOptions
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 250
+weight: 260
 url: /net/aspose.words.comparing/compareoptions/
 ---
 ## CompareOptions class

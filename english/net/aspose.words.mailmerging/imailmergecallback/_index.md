@@ -3,7 +3,7 @@ title: IMailMergeCallback
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 3490
+weight: 3530
 url: /net/aspose.words.mailmerging/imailmergecallback/
 ---
 ## IMailMergeCallback interface

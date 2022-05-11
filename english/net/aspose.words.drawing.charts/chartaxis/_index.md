@@ -3,7 +3,7 @@ title: ChartAxis
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 600
+weight: 610
 url: /net/aspose.words.drawing.charts/chartaxis/
 ---
 ## ChartAxis class

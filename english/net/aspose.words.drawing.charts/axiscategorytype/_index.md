@@ -3,7 +3,7 @@ title: AxisCategoryType
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 510
+weight: 520
 url: /net/aspose.words.drawing.charts/axiscategorytype/
 ---
 ## AxisCategoryType enumeration

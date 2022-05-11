@@ -3,7 +3,7 @@ title: Name
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 90
+weight: 100
 url: /net/aspose.words.drawing.charts/chartseries/name/
 ---
 ## ChartSeries.Name property

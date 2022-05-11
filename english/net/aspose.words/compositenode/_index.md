@@ -3,7 +3,7 @@ title: CompositeNode
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 280
+weight: 290
 url: /net/aspose.words/compositenode/
 ---
 ## CompositeNode class

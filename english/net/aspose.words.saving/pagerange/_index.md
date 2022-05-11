@@ -3,7 +3,7 @@ title: PageRange
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 4950
+weight: 5010
 url: /net/aspose.words.saving/pagerange/
 ---
 ## PageRange class

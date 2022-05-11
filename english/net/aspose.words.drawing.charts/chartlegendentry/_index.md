@@ -3,7 +3,7 @@ title: ChartLegendEntry
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 680
+weight: 690
 url: /net/aspose.words.drawing.charts/chartlegendentry/
 ---
 ## ChartLegendEntry class
@@ -14,16 +14,18 @@ Represents a chart legend entry.
 public class ChartLegendEntry
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
 | [Font](font) { get; } | Provides access to the font formatting of this legend entry. |
-| [IsHidden](ishidden) { get; set; } | Gets or sets a value indicating whether this entry is hidden in the chart legend. The default value is false. |
+| [IsHidden](ishidden) { get; set; } | Gets or sets a value indicating whether this entry is hidden in the chart legend. The default value is **false**. |
 
 ### Remarks
 
-A legend entry corresponds to a specific chart series or trendline.The text of the entry is the name of the series or trendline. The text cannot be changed.
+A legend entry corresponds to a specific chart series or trendline.
+
+The text of the entry is the name of the series or trendline. The text cannot be changed.
 
 ### See Also
 

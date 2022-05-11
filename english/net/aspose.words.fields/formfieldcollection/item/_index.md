@@ -14,9 +14,9 @@ Returns a form field at the specified index.
 public FormField this[int index] { get; }
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index |  | An index into the collection. |
+| Parameter | Description |
+| --- | --- |
+| index | An index into the collection. |
 
 ### Remarks
 
@@ -176,9 +176,9 @@ Returns a form field by bookmark name.
 public FormField this[string bookmarkName] { get; }
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| bookmarkName |  | Case-insensitive bookmark name. |
+| Parameter | Description |
+| --- | --- |
+| bookmarkName | Case-insensitive bookmark name. |
 
 ### Remarks
 

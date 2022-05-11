@@ -3,7 +3,7 @@ title: WarningInfo
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 6180
+weight: 6220
 url: /net/aspose.words/warninginfo/
 ---
 ## WarningInfo class

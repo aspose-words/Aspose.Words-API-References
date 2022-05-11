@@ -3,7 +3,7 @@ title: FieldFormCheckBox
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 1690
+weight: 1720
 url: /net/aspose.words.fields/fieldformcheckbox/
 ---
 ## FieldFormCheckBox class

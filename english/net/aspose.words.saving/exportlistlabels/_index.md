@@ -3,7 +3,7 @@ title: ExportListLabels
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 4620
+weight: 4680
 url: /net/aspose.words.saving/exportlistlabels/
 ---
 ## ExportListLabels enumeration

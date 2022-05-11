@@ -3,7 +3,7 @@ title: ResourceFolder
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 430
+weight: 420
 url: /net/aspose.words.saving/htmlsaveoptions/resourcefolder/
 ---
 ## HtmlSaveOptions.ResourceFolder property

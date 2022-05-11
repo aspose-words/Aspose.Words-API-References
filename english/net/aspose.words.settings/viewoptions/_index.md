@@ -3,7 +3,7 @@ title: ViewOptions
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 5510
+weight: 5570
 url: /net/aspose.words.settings/viewoptions/
 ---
 ## ViewOptions class

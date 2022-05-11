@@ -3,7 +3,7 @@ title: ComparisonTargetType
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 260
+weight: 270
 url: /net/aspose.words.comparing/comparisontargettype/
 ---
 ## ComparisonTargetType enumeration

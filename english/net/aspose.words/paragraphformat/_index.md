@@ -3,7 +3,7 @@ title: ParagraphFormat
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 4070
+weight: 4130
 url: /net/aspose.words/paragraphformat/
 ---
 ## ParagraphFormat class

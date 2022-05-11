@@ -3,7 +3,7 @@ title: OtherPagesTray
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 270
+weight: 290
 url: /net/aspose.words/pagesetup/otherpagestray/
 ---
 ## PageSetup.OtherPagesTray property

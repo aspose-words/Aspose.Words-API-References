@@ -3,7 +3,7 @@ title: TextWrapping
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 5940
+weight: 5980
 url: /net/aspose.words.tables/textwrapping/
 ---
 ## TextWrapping enumeration

@@ -3,7 +3,7 @@ title: NodeRendererBase
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 4170
+weight: 4230
 url: /net/aspose.words.rendering/noderendererbase/
 ---
 ## NodeRendererBase class

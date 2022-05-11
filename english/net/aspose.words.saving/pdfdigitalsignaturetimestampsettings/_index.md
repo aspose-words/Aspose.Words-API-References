@@ -3,7 +3,7 @@ title: PdfDigitalSignatureTimestampSettings
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 5030
+weight: 5090
 url: /net/aspose.words.saving/pdfdigitalsignaturetimestampsettings/
 ---
 ## PdfDigitalSignatureTimestampSettings class

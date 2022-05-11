@@ -3,7 +3,7 @@ title: PropertyType
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 4140
+weight: 4200
 url: /net/aspose.words.properties/propertytype/
 ---
 ## PropertyType enumeration

@@ -3,7 +3,7 @@ title: ReportBuildOptions
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 4330
+weight: 4390
 url: /net/aspose.words.reporting/reportbuildoptions/
 ---
 ## ReportBuildOptions enumeration

@@ -3,7 +3,7 @@ title: TextBox
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 1120
+weight: 1150
 url: /net/aspose.words.drawing/textbox/
 ---
 ## TextBox class

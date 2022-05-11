@@ -3,7 +3,7 @@ title: ClearFormatting
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 430
+weight: 450
 url: /net/aspose.words/pagesetup/clearformatting/
 ---
 ## PageSetup.ClearFormatting method

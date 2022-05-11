@@ -3,7 +3,7 @@ title: AxisDisplayUnit
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 530
+weight: 540
 url: /net/aspose.words.drawing.charts/axisdisplayunit/
 ---
 ## AxisDisplayUnit class

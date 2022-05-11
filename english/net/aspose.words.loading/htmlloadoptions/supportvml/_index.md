@@ -3,7 +3,7 @@ title: SupportVml
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 50
+weight: 60
 url: /net/aspose.words.loading/htmlloadoptions/supportvml/
 ---
 ## HtmlLoadOptions.SupportVml property

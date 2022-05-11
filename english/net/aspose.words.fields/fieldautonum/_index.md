@@ -3,7 +3,7 @@ title: FieldAutoNum
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 1380
+weight: 1410
 url: /net/aspose.words.fields/fieldautonum/
 ---
 ## FieldAutoNum class

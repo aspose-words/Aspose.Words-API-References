@@ -3,7 +3,7 @@ title: MeasurementUnits
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 3800
+weight: 3860
 url: /net/aspose.words/measurementunits/
 ---
 ## MeasurementUnits enumeration

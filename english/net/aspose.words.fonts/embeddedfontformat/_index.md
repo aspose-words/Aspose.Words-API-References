@@ -3,7 +3,7 @@ title: EmbeddedFontFormat
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 2590
+weight: 2620
 url: /net/aspose.words.fonts/embeddedfontformat/
 ---
 ## EmbeddedFontFormat enumeration

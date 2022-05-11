@@ -3,7 +3,7 @@ title: ListLevel
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 3220
+weight: 3250
 url: /net/aspose.words.lists/listlevel/
 ---
 ## ListLevel class

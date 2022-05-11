@@ -3,7 +3,7 @@ title: ShowInBalloons
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 3130
+weight: 3160
 url: /net/aspose.words.layout/showinballoons/
 ---
 ## ShowInBalloons enumeration

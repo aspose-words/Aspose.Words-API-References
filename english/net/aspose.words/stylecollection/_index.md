@@ -3,7 +3,7 @@ title: StyleCollection
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 5700
+weight: 5740
 url: /net/aspose.words/stylecollection/
 ---
 ## StyleCollection class

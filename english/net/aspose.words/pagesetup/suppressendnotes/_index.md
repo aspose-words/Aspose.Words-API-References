@@ -3,7 +3,7 @@ title: SuppressEndnotes
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 380
+weight: 400
 url: /net/aspose.words/pagesetup/suppressendnotes/
 ---
 ## PageSetup.SuppressEndnotes property

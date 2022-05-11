@@ -1,7 +1,7 @@
 ---
 title: Aspose.Words.Drawing
 second_title: Aspose.Words for .NET API Reference
-description: The **Aspose.Words.Drawing** namespace provides classes that allow to create and modify drawing objects.
+description: TheAspose.Words.Drawingnamespaceprovidesclassesthatallowtocreateandmodifydrawingobjects.
 type: docs
 weight: 50
 url: /net/aspose.words.drawing/

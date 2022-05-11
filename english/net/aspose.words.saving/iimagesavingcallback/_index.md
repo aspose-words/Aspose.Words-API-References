@@ -3,7 +3,7 @@ title: IImageSavingCallback
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 4770
+weight: 4830
 url: /net/aspose.words.saving/iimagesavingcallback/
 ---
 ## IImageSavingCallback interface

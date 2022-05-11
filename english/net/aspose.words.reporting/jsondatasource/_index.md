@@ -3,7 +3,7 @@ title: JsonDataSource
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 4300
+weight: 4360
 url: /net/aspose.words.reporting/jsondatasource/
 ---
 ## JsonDataSource class

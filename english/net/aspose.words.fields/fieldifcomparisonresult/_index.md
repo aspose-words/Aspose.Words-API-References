@@ -3,7 +3,7 @@ title: FieldIfComparisonResult
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 1790
+weight: 1820
 url: /net/aspose.words.fields/fieldifcomparisonresult/
 ---
 ## FieldIfComparisonResult enumeration

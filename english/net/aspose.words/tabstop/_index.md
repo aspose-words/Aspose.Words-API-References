@@ -3,7 +3,7 @@ title: TabStop
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 5760
+weight: 5800
 url: /net/aspose.words/tabstop/
 ---
 ## TabStop class

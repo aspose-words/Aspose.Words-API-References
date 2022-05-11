@@ -3,7 +3,7 @@ title: ImageWatermarkOptions
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 2940
+weight: 2970
 url: /net/aspose.words/imagewatermarkoptions/
 ---
 ## ImageWatermarkOptions class

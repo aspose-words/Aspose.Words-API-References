@@ -3,7 +3,7 @@ title: ChartDataLabel
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 620
+weight: 630
 url: /net/aspose.words.drawing.charts/chartdatalabel/
 ---
 ## ChartDataLabel class

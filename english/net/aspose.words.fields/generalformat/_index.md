@@ -3,7 +3,7 @@ title: GeneralFormat
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 2410
+weight: 2440
 url: /net/aspose.words.fields/generalformat/
 ---
 ## GeneralFormat enumeration

@@ -3,7 +3,7 @@ title: DocumentBuilder
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 430
+weight: 440
 url: /net/aspose.words/documentbuilder/
 ---
 ## DocumentBuilder class

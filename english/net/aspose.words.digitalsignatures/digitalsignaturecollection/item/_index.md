@@ -14,9 +14,9 @@ Gets a document signature at the specified index.
 public DigitalSignature this[int index] { get; }
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index |  | Zero-based index of the signature. |
+| Parameter | Description |
+| --- | --- |
+| index | Zero-based index of the signature. |
 
 ### Examples
 

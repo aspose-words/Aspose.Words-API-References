@@ -3,7 +3,7 @@ title: FieldSubject
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 2230
+weight: 2260
 url: /net/aspose.words.fields/fieldsubject/
 ---
 ## FieldSubject class

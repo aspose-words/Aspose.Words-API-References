@@ -3,7 +3,7 @@ title: FramesetCollection
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 2830
+weight: 2860
 url: /net/aspose.words.framesets/framesetcollection/
 ---
 ## FramesetCollection class

@@ -3,7 +3,7 @@ title: Watermark
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 6220
+weight: 6260
 url: /net/aspose.words/watermark/
 ---
 ## Watermark class

@@ -3,7 +3,7 @@ title: StructuredDocumentTagRangeStart
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 3740
+weight: 3800
 url: /net/aspose.words.markup/structureddocumenttagrangestart/
 ---
 ## StructuredDocumentTagRangeStart class
@@ -11,7 +11,7 @@ url: /net/aspose.words.markup/structureddocumenttagrangestart/
 Represents a start of **ranged** structured document tag which accepts multi-sections content. See also [`StructuredDocumentTagRangeEnd`](../structureddocumenttagrangeend).
 
 ```csharp
-public class StructuredDocumentTagRangeStart : Node, IEnumerable<Node>
+public class StructuredDocumentTagRangeStart : Node, IEnumerable<Node>, IStructuredDocumentTag
 ```
 
 ## Constructors
@@ -91,6 +91,7 @@ Console.WriteLine($"\t|NodeType: {rangeEndTag.NodeType}");
 ### See Also
 
 * class [Node](../../aspose.words/node)
+* interface [IStructuredDocumentTag](../istructureddocumenttag)
 * namespace [Aspose.Words.Markup](../../aspose.words.markup)
 * assembly [Aspose.Words](../../)
 

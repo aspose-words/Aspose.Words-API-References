@@ -3,7 +3,7 @@ title: Shading
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 5550
+weight: 5610
 url: /net/aspose.words/shading/
 ---
 ## Shading class

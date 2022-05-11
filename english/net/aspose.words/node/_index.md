@@ -3,7 +3,7 @@ title: Node
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 3820
+weight: 3880
 url: /net/aspose.words/node/
 ---
 ## Node class

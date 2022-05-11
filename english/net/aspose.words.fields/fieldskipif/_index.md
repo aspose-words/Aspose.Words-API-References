@@ -3,7 +3,7 @@ title: FieldSkipIf
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 2200
+weight: 2230
 url: /net/aspose.words.fields/fieldskipif/
 ---
 ## FieldSkipIf class

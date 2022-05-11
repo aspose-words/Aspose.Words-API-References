@@ -3,7 +3,7 @@ title: CertificateHolder
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 350
+weight: 360
 url: /net/aspose.words.digitalsignatures/certificateholder/
 ---
 ## CertificateHolder class

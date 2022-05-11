@@ -3,7 +3,7 @@ title: StreamFontSource
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 2780
+weight: 2810
 url: /net/aspose.words.fonts/streamfontsource/
 ---
 ## StreamFontSource class
@@ -11,7 +11,7 @@ url: /net/aspose.words.fonts/streamfontsource/
 Base class for user-defined stream font source.
 
 ```csharp
-public abstract class StreamFontSource : FontSourceBase
+public abstract class StreamFontSource : FontSourceBase, Dj
 ```
 
 ## Properties
@@ -68,6 +68,7 @@ private class StreamFontSourceFile : StreamFontSource
 ### See Also
 
 * class [FontSourceBase](../fontsourcebase)
+* interface [Dj](../../global/dj)
 * namespace [Aspose.Words.Fonts](../../aspose.words.fonts)
 * assembly [Aspose.Words](../../)
 

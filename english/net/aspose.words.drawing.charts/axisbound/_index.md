@@ -3,7 +3,7 @@ title: AxisBound
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 490
+weight: 500
 url: /net/aspose.words.drawing.charts/axisbound/
 ---
 ## AxisBound class

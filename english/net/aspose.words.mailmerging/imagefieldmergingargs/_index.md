@@ -3,7 +3,7 @@ title: ImageFieldMergingArgs
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 3520
+weight: 3560
 url: /net/aspose.words.mailmerging/imagefieldmergingargs/
 ---
 ## ImageFieldMergingArgs class

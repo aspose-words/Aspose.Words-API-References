@@ -3,7 +3,7 @@ title: Granularity
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 270
+weight: 280
 url: /net/aspose.words.comparing/granularity/
 ---
 ## Granularity enumeration

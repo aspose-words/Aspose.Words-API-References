@@ -3,7 +3,7 @@ title: FontResourcesSubsettingSizeThreshold
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 310
+weight: 300
 url: /net/aspose.words.saving/htmlsaveoptions/fontresourcessubsettingsizethreshold/
 ---
 ## HtmlSaveOptions.FontResourcesSubsettingSizeThreshold property

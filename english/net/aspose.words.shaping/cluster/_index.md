@@ -3,7 +3,7 @@ title: Cluster
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 5570
+weight: 5620
 url: /net/aspose.words.shaping/cluster/
 ---
 ## Cluster class

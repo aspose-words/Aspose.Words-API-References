@@ -3,7 +3,7 @@ title: FieldMergeSeq
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 1950
+weight: 1980
 url: /net/aspose.words.fields/fieldmergeseq/
 ---
 ## FieldMergeSeq class

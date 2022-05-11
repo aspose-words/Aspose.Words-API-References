@@ -14,9 +14,9 @@ Gets a font with the specified name.
 public FontInfo this[string name] { get; }
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| name |  | Case-insensitive name of the font to locate. |
+| Parameter | Description |
+| --- | --- |
+| name | Case-insensitive name of the font to locate. |
 
 ### Examples
 
@@ -60,9 +60,9 @@ Gets a font at the specified index.
 public FontInfo this[int index] { get; }
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index |  | Zero-based index of the font. |
+| Parameter | Description |
+| --- | --- |
+| index | Zero-based index of the font. |
 
 ### Examples
 

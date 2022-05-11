@@ -3,7 +3,7 @@ title: FileFontSource
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 2610
+weight: 2640
 url: /net/aspose.words.fonts/filefontsource/
 ---
 ## FileFontSource class

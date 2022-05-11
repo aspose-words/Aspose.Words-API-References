@@ -3,7 +3,7 @@ title: PageNumberStyle
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 290
+weight: 310
 url: /net/aspose.words/pagesetup/pagenumberstyle/
 ---
 ## PageSetup.PageNumberStyle property

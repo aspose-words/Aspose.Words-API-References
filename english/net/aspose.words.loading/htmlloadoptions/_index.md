@@ -3,7 +3,7 @@ title: HtmlLoadOptions
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 3330
+weight: 3370
 url: /net/aspose.words.loading/htmlloadoptions/
 ---
 ## HtmlLoadOptions class
@@ -26,6 +26,7 @@ public class HtmlLoadOptions : LoadOptions
 
 | Name | Description |
 | --- | --- |
+| [BlockImportMode](blockimportmode) { get; set; } | Gets or sets a value that specifies how properties of block-level elements are imported. Default value is Merge. |
 | [ConvertSvgToEmf](convertsvgtoemf) { get; set; } | Gets or sets a value indicating whether to convert loaded SVG images to the EMF format. Default value is `false` and, if possible, loaded SVG images are stored as is without conversion. |
 | [IgnoreNoscriptElements](ignorenoscriptelements) { get; set; } | Gets or sets a value indicating whether to ignore &lt;noscript&gt; HTML elements. Default value is `false`. |
 | [PreferredControlType](preferredcontroltype) { get; set; } | Gets or sets preferred type of document nodes that will represent imported &lt;input&gt; and &lt;select&gt; elements. Default value is FormField. |

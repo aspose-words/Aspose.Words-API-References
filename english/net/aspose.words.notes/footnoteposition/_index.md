@@ -3,7 +3,7 @@ title: FootnotePosition
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 3940
+weight: 4000
 url: /net/aspose.words.notes/footnoteposition/
 ---
 ## FootnotePosition enumeration

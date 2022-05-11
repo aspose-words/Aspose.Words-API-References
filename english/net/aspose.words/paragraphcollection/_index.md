@@ -3,7 +3,7 @@ title: ParagraphCollection
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 4060
+weight: 4120
 url: /net/aspose.words/paragraphcollection/
 ---
 ## ParagraphCollection class

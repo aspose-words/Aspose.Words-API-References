@@ -3,7 +3,7 @@ title: PageVerticalAlignment
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 4020
+weight: 4080
 url: /net/aspose.words/pageverticalalignment/
 ---
 ## PageVerticalAlignment enumeration

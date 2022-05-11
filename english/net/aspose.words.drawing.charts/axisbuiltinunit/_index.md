@@ -3,7 +3,7 @@ title: AxisBuiltInUnit
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 500
+weight: 510
 url: /net/aspose.words.drawing.charts/axisbuiltinunit/
 ---
 ## AxisBuiltInUnit enumeration

@@ -3,7 +3,7 @@ title: DocumentLoadingArgs
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 3300
+weight: 3340
 url: /net/aspose.words.loading/documentloadingargs/
 ---
 ## DocumentLoadingArgs class

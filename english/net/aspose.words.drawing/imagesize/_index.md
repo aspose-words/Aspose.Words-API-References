@@ -3,7 +3,7 @@ title: ImageSize
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 910
+weight: 940
 url: /net/aspose.words.drawing/imagesize/
 ---
 ## ImageSize class

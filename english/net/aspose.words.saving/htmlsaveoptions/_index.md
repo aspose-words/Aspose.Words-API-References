@@ -3,7 +3,7 @@ title: HtmlSaveOptions
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 4710
+weight: 4770
 url: /net/aspose.words.saving/htmlsaveoptions/
 ---
 ## HtmlSaveOptions class
@@ -50,7 +50,6 @@ public class HtmlSaveOptions : SaveOptions
 | [ExportRelativeFontSize](exportrelativefontsize) { get; set; } | Specifies whether font sizes should be output in relative units when saving to HTML, MHTML or EPUB. Default is `false`. |
 | [ExportRoundtripInformation](exportroundtripinformation) { get; set; } | Specifies whether to write the roundtrip information when saving to HTML, MHTML or EPUB. Default value is `true` for HTML and `false` for MHTML and EPUB. |
 | [ExportShapesAsSvg](exportshapesassvg) { get; set; } | Controls whether [`Shape`](../../aspose.words.drawing/shape) nodes are converted to SVG images when saving to HTML, MHTML or EPUB. Default value is `false`. |
-| [ExportTextBoxAsSvg](exporttextboxassvg) { get; set; } | Controls whether [`Shape`](../../aspose.words.drawing/shape) nodes that represent text boxes are converted to SVG images when saving to HTML, MHTML or EPUB. Default value is `false`. |
 | [ExportTextInputFormFieldAsText](exporttextinputformfieldastext) { get; set; } | Controls how text input form fields are saved to HTML or MHTML. Default value is `false`. |
 | [ExportTocPageNumbers](exporttocpagenumbers) { get; set; } | Specifies whether to write page numbers to table of contents when saving HTML, MHTML and EPUB. Default value is `false`. |
 | [ExportXhtmlTransitional](exportxhtmltransitional) { get; set; } | Specifies whether to write the DOCTYPE declaration when saving to HTML or MHTML. When `true`, writes a DOCTYPE declaration in the document prior to the root element. Default value is `false`. When saving to EPUB or HTML5 (Html5) the DOCTYPE declaration is always written. |

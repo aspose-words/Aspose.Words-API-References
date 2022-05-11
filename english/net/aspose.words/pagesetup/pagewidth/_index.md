@@ -3,7 +3,7 @@ title: PageWidth
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 310
+weight: 330
 url: /net/aspose.words/pagesetup/pagewidth/
 ---
 ## PageSetup.PageWidth property

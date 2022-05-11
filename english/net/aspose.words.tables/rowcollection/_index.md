@@ -3,7 +3,7 @@ title: RowCollection
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 5880
+weight: 5920
 url: /net/aspose.words.tables/rowcollection/
 ---
 ## RowCollection class

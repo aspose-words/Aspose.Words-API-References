@@ -3,7 +3,7 @@ title: HorizontalAlignment
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 870
+weight: 900
 url: /net/aspose.words.drawing/horizontalalignment/
 ---
 ## HorizontalAlignment enumeration

@@ -3,7 +3,7 @@ title: XmlMapping
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 3750
+weight: 3810
 url: /net/aspose.words.markup/xmlmapping/
 ---
 ## XmlMapping class

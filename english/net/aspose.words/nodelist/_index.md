@@ -3,7 +3,7 @@ title: NodeList
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 3870
+weight: 3930
 url: /net/aspose.words/nodelist/
 ---
 ## NodeList class

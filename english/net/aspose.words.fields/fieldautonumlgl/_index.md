@@ -3,7 +3,7 @@ title: FieldAutoNumLgl
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 1390
+weight: 1420
 url: /net/aspose.words.fields/fieldautonumlgl/
 ---
 ## FieldAutoNumLgl class

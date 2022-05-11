@@ -3,10 +3,12 @@ title: IsRanged
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 10
+weight: 140
 url: /net/aspose.words.markup/istructureddocumenttag/isranged/
 ---
 ## IStructuredDocumentTag.IsRanged method
+
+Returns true if this instance is a ranged structured document tag.
 
 ```csharp
 public bool IsRanged()

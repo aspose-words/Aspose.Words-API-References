@@ -3,7 +3,7 @@ title: OleFormat
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 990
+weight: 1020
 url: /net/aspose.words.drawing/oleformat/
 ---
 ## OleFormat class

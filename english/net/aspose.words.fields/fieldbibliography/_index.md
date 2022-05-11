@@ -3,7 +3,7 @@ title: FieldBibliography
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 1440
+weight: 1470
 url: /net/aspose.words.fields/fieldbibliography/
 ---
 ## FieldBibliography class

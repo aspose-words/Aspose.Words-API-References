@@ -3,7 +3,7 @@ title: Comment
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 210
+weight: 220
 url: /net/aspose.words/comment/
 ---
 ## Comment class

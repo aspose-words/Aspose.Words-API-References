@@ -3,7 +3,7 @@ title: Inline
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 2980
+weight: 3010
 url: /net/aspose.words/inline/
 ---
 ## Inline class

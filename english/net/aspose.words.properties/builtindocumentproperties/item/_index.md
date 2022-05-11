@@ -14,9 +14,9 @@ Returns a [`DocumentProperty`](../../documentproperty) object by the name of the
 public override DocumentProperty this[string name] { get; }
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| name |  | The case-insensitive name of the property to retrieve. |
+| Parameter | Description |
+| --- | --- |
+| name | The case-insensitive name of the property to retrieve. |
 
 ### Remarks
 

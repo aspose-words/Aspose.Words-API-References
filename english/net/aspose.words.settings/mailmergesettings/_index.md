@@ -3,7 +3,7 @@ title: MailMergeSettings
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 5410
+weight: 5470
 url: /net/aspose.words.settings/mailmergesettings/
 ---
 ## MailMergeSettings class

@@ -3,7 +3,7 @@ title: VerticalAlignment
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 420
+weight: 440
 url: /net/aspose.words/pagesetup/verticalalignment/
 ---
 ## PageSetup.VerticalAlignment property

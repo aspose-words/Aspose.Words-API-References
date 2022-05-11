@@ -3,7 +3,7 @@ title: ParagraphAlignment
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 4050
+weight: 4110
 url: /net/aspose.words/paragraphalignment/
 ---
 ## ParagraphAlignment enumeration
@@ -27,6 +27,7 @@ public enum ParagraphAlignment
 | ArabicHighKashida | `7` | Arabic only. Kashida length for text is extended to its widest possible length. |
 | ArabicLowKashida | `8` | Arabic only. Kashida length for text is extended to a slightly longer length. |
 | ThaiDistributed | `9` | Thai only. Text is justified with an optimization for Thai. |
+| MathElementCenterAsGroup | `10` |  |
 
 ### Examples
 

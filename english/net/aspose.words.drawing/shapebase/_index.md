@@ -3,7 +3,7 @@ title: ShapeBase
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 1060
+weight: 1090
 url: /net/aspose.words.drawing/shapebase/
 ---
 ## ShapeBase class

@@ -3,7 +3,7 @@ title: GradientVariant
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 850
+weight: 880
 url: /net/aspose.words.drawing/gradientvariant/
 ---
 ## GradientVariant enumeration

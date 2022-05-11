@@ -3,7 +3,7 @@ title: FillType
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 800
+weight: 830
 url: /net/aspose.words.drawing/filltype/
 ---
 ## FillType enumeration

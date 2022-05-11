@@ -14,9 +14,9 @@ Gets a tab stop at the given index.
 public TabStop this[int index] { get; }
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index |  | An index into the collection of tab stops. |
+| Parameter | Description |
+| --- | --- |
+| index | An index into the collection of tab stops. |
 
 ### Examples
 
@@ -76,9 +76,9 @@ Gets a tab stop at the specified position.
 public TabStop this[double position] { get; }
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| position |  | The position (in points) of the tab stop. |
+| Parameter | Description |
+| --- | --- |
+| position | The position (in points) of the tab stop. |
 
 ### Remarks
 

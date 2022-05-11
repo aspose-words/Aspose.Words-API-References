@@ -14,9 +14,9 @@ Retrieves a section at the given index.
 public Section this[int index] { get; }
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index |  | An index into the list of sections. |
+| Parameter | Description |
+| --- | --- |
+| index | An index into the list of sections. |
 
 ### Remarks
 

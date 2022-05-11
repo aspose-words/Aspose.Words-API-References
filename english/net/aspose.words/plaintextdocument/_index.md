@@ -3,7 +3,7 @@ title: PlainTextDocument
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 4080
+weight: 4140
 url: /net/aspose.words/plaintextdocument/
 ---
 ## PlainTextDocument class

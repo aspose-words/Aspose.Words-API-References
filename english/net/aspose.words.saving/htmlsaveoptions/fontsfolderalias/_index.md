@@ -3,7 +3,7 @@ title: FontsFolderAlias
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 340
+weight: 330
 url: /net/aspose.words.saving/htmlsaveoptions/fontsfolderalias/
 ---
 ## HtmlSaveOptions.FontsFolderAlias property

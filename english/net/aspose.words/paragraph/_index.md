@@ -3,7 +3,7 @@ title: Paragraph
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 4040
+weight: 4100
 url: /net/aspose.words/paragraph/
 ---
 ## Paragraph class

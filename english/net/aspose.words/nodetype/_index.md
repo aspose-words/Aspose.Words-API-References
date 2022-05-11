@@ -3,7 +3,7 @@ title: NodeType
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 3880
+weight: 3940
 url: /net/aspose.words/nodetype/
 ---
 ## NodeType enumeration

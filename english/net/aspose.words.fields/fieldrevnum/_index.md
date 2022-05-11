@@ -3,7 +3,7 @@ title: FieldRevNum
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 2120
+weight: 2150
 url: /net/aspose.words.fields/fieldrevnum/
 ---
 ## FieldRevNum class

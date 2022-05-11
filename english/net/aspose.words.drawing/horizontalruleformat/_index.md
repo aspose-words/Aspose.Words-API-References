@@ -3,7 +3,7 @@ title: HorizontalRuleFormat
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 890
+weight: 920
 url: /net/aspose.words.drawing/horizontalruleformat/
 ---
 ## HorizontalRuleFormat class

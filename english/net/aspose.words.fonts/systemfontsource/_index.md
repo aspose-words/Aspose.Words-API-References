@@ -3,7 +3,7 @@ title: SystemFontSource
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 2790
+weight: 2820
 url: /net/aspose.words.fonts/systemfontsource/
 ---
 ## SystemFontSource class

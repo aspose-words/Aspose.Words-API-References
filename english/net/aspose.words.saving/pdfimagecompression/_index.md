@@ -3,7 +3,7 @@ title: PdfImageCompression
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 5070
+weight: 5130
 url: /net/aspose.words.saving/pdfimagecompression/
 ---
 ## PdfImageCompression enumeration

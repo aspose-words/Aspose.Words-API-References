@@ -3,7 +3,7 @@ title: HeaderFooterType
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 2860
+weight: 2890
 url: /net/aspose.words/headerfootertype/
 ---
 ## HeaderFooterType enumeration

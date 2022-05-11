@@ -3,7 +3,7 @@ title: FolderFontSource
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 2620
+weight: 2650
 url: /net/aspose.words.fonts/folderfontsource/
 ---
 ## FolderFontSource class

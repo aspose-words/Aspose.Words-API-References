@@ -3,7 +3,7 @@ title: HeightRule
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 2870
+weight: 2900
 url: /net/aspose.words/heightrule/
 ---
 ## HeightRule enumeration

@@ -3,7 +3,7 @@ title: Run
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 4430
+weight: 4490
 url: /net/aspose.words/run/
 ---
 ## Run class

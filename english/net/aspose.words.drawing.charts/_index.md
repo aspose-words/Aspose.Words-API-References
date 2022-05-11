@@ -1,7 +1,7 @@
 ---
 title: Aspose.Words.Drawing.Charts
 second_title: Aspose.Words for .NET API Reference
-description: The **Aspose.Words.Drawing.Charts** namespace provides classes that allow to access charts in Microsoft Word documents.
+description: TheAspose.Words.Drawing.ChartsnamespaceprovidesclassesthatallowtoaccesschartsinMicrosoftWorddocuments.
 type: docs
 weight: 60
 url: /net/aspose.words.drawing.charts/
@@ -23,6 +23,8 @@ The **Aspose.Words.Drawing.Charts** namespace provides classes that allow to acc
 | class [ChartDataPointCollection](./chartdatapointcollection) | Represents collection of a [`ChartDataPoint`](aspose.words.drawing.charts/chartdatapoint). |
 | class [ChartFormat](./chartformat) | Represents the formatting of a chart element. |
 | class [ChartLegend](./chartlegend) | Represents chart legend properties. |
+| class [ChartLegendEntry](./chartlegendentry) | Represents a chart legend entry. |
+| class [ChartLegendEntryCollection](./chartlegendentrycollection) | Represents a collection of chart legend entries. |
 | class [ChartMarker](./chartmarker) | Represents a chart data marker. |
 | class [ChartNumberFormat](./chartnumberformat) | Represents number formatting of the parent element. |
 | class [ChartSeries](./chartseries) | Represents chart series properties. |

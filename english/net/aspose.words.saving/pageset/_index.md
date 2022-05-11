@@ -3,7 +3,7 @@ title: PageSet
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 4970
+weight: 5030
 url: /net/aspose.words.saving/pageset/
 ---
 ## PageSet class

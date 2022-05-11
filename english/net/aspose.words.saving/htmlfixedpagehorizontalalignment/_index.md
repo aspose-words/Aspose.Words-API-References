@@ -3,7 +3,7 @@ title: HtmlFixedPageHorizontalAlignment
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 4670
+weight: 4730
 url: /net/aspose.words.saving/htmlfixedpagehorizontalalignment/
 ---
 ## HtmlFixedPageHorizontalAlignment enumeration

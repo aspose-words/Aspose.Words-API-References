@@ -3,7 +3,7 @@ title: Stroke
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 1110
+weight: 1140
 url: /net/aspose.words.drawing/stroke/
 ---
 ## Stroke class

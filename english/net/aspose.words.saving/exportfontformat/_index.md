@@ -3,7 +3,7 @@ title: ExportFontFormat
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 4600
+weight: 4660
 url: /net/aspose.words.saving/exportfontformat/
 ---
 ## ExportFontFormat enumeration

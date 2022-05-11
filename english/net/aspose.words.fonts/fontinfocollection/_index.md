@@ -3,7 +3,7 @@ title: FontInfoCollection
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 2670
+weight: 2700
 url: /net/aspose.words.fonts/fontinfocollection/
 ---
 ## FontInfoCollection class

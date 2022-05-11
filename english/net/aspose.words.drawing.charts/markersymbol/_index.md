@@ -3,7 +3,7 @@ title: MarkerSymbol
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 760
+weight: 790
 url: /net/aspose.words.drawing.charts/markersymbol/
 ---
 ## MarkerSymbol enumeration

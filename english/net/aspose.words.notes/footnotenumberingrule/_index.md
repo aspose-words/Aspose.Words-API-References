@@ -3,7 +3,7 @@ title: FootnoteNumberingRule
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 3920
+weight: 3980
 url: /net/aspose.words.notes/footnotenumberingrule/
 ---
 ## FootnoteNumberingRule enumeration

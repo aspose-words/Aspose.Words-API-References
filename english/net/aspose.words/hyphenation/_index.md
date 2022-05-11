@@ -3,7 +3,7 @@ title: Hyphenation
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 2890
+weight: 2920
 url: /net/aspose.words/hyphenation/
 ---
 ## Hyphenation class

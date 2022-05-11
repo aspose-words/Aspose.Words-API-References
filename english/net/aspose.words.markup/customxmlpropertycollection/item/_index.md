@@ -14,9 +14,9 @@ Gets a property with the specified name.
 public CustomXmlProperty this[string name] { get; }
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| name |  | Case-sensitive name of the property to locate. |
+| Parameter | Description |
+| --- | --- |
+| name | Case-sensitive name of the property to locate. |
 
 ### Examples
 
@@ -89,9 +89,9 @@ Gets a property at the specified index.
 public CustomXmlProperty this[int index] { get; }
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index |  | Zero-based index of the property. |
+| Parameter | Description |
+| --- | --- |
+| index | Zero-based index of the property. |
 
 ### Examples
 

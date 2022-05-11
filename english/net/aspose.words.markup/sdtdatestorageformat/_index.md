@@ -3,7 +3,7 @@ title: SdtDateStorageFormat
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 3670
+weight: 3720
 url: /net/aspose.words.markup/sdtdatestorageformat/
 ---
 ## SdtDateStorageFormat enumeration

@@ -3,7 +3,7 @@ title: JoinStyle
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 930
+weight: 960
 url: /net/aspose.words.drawing/joinstyle/
 ---
 ## JoinStyle enumeration

@@ -3,7 +3,7 @@ title: StructuredDocumentTagRangeEnd
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 3730
+weight: 3790
 url: /net/aspose.words.markup/structureddocumenttagrangeend/
 ---
 ## StructuredDocumentTagRangeEnd class

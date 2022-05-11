@@ -3,7 +3,7 @@ title: IDocumentLoadingCallback
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 3340
+weight: 3380
 url: /net/aspose.words.loading/idocumentloadingcallback/
 ---
 ## IDocumentLoadingCallback interface

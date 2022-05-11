@@ -3,7 +3,7 @@ title: HtmlFixedSaveOptions
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 4680
+weight: 4740
 url: /net/aspose.words.saving/htmlfixedsaveoptions/
 ---
 ## HtmlFixedSaveOptions class

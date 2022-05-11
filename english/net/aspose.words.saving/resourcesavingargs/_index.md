@@ -3,7 +3,7 @@ title: ResourceSavingArgs
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 5140
+weight: 5200
 url: /net/aspose.words.saving/resourcesavingargs/
 ---
 ## ResourceSavingArgs class

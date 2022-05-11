@@ -3,7 +3,7 @@ title: DocumentSecurity
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 4130
+weight: 4190
 url: /net/aspose.words.properties/documentsecurity/
 ---
 ## DocumentSecurity enumeration

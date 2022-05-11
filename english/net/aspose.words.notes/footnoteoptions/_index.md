@@ -3,7 +3,7 @@ title: FootnoteOptions
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 3930
+weight: 3990
 url: /net/aspose.words.notes/footnoteoptions/
 ---
 ## FootnoteOptions class

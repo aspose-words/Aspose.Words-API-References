@@ -3,7 +3,7 @@ title: Table
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 5900
+weight: 5940
 url: /net/aspose.words.tables/table/
 ---
 ## Table class

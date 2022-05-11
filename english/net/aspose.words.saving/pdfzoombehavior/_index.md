@@ -3,7 +3,7 @@ title: PdfZoomBehavior
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 5120
+weight: 5180
 url: /net/aspose.words.saving/pdfzoombehavior/
 ---
 ## PdfZoomBehavior enumeration

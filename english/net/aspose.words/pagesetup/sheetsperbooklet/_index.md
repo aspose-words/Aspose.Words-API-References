@@ -3,7 +3,7 @@ title: SheetsPerBooklet
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 370
+weight: 390
 url: /net/aspose.words/pagesetup/sheetsperbooklet/
 ---
 ## PageSetup.SheetsPerBooklet property

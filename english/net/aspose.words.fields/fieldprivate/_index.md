@@ -3,7 +3,7 @@ title: FieldPrivate
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 2080
+weight: 2110
 url: /net/aspose.words.fields/fieldprivate/
 ---
 ## FieldPrivate class

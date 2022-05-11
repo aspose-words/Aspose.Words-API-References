@@ -3,7 +3,7 @@ title: Odso
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 5440
+weight: 5500
 url: /net/aspose.words.settings/odso/
 ---
 ## Odso class

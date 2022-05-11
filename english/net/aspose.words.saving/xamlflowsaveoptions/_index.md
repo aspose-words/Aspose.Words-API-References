@@ -3,7 +3,7 @@ title: XamlFlowSaveOptions
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 5280
+weight: 5340
 url: /net/aspose.words.saving/xamlflowsaveoptions/
 ---
 ## XamlFlowSaveOptions class

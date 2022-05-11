@@ -3,7 +3,7 @@ title: ImageResolution
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 360
+weight: 350
 url: /net/aspose.words.saving/htmlsaveoptions/imageresolution/
 ---
 ## HtmlSaveOptions.ImageResolution property

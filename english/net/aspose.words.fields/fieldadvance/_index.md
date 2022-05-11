@@ -3,7 +3,7 @@ title: FieldAdvance
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 1340
+weight: 1370
 url: /net/aspose.words.fields/fieldadvance/
 ---
 ## FieldAdvance class

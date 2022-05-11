@@ -3,7 +3,7 @@ title: IReplacingCallback
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 4240
+weight: 4300
 url: /net/aspose.words.replacing/ireplacingcallback/
 ---
 ## IReplacingCallback interface

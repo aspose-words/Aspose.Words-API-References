@@ -3,7 +3,7 @@ title: FileFormatInfo
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 2550
+weight: 2580
 url: /net/aspose.words/fileformatinfo/
 ---
 ## FileFormatInfo class

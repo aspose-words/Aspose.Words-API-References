@@ -3,7 +3,7 @@ title: OfficeMath
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 3770
+weight: 3830
 url: /net/aspose.words.math/officemath/
 ---
 ## OfficeMath class

@@ -3,7 +3,7 @@ title: IComparisonExpressionEvaluator
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 2440
+weight: 2470
 url: /net/aspose.words.fields/icomparisonexpressionevaluator/
 ---
 ## IComparisonExpressionEvaluator interface

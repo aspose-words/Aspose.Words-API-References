@@ -3,7 +3,7 @@ title: FieldAddressBlock
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 1330
+weight: 1360
 url: /net/aspose.words.fields/fieldaddressblock/
 ---
 ## FieldAddressBlock class

@@ -3,7 +3,7 @@ title: Metered
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 3810
+weight: 3870
 url: /net/aspose.words/metered/
 ---
 ## Metered class

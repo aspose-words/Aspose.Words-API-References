@@ -30,9 +30,9 @@ Gets or sets a document variable at the specified index. null values are not all
 public string this[int index] { get; set; }
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index |  | Zero-based index of the document variable. |
+| Parameter | Description |
+| --- | --- |
+| index | Zero-based index of the document variable. |
 
 ### See Also
 

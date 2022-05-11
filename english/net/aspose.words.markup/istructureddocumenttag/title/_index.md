@@ -3,10 +3,12 @@ title: Title
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 50
+weight: 110
 url: /net/aspose.words.markup/istructureddocumenttag/title/
 ---
 ## IStructuredDocumentTag.Title property
+
+Specifies the friendly name associated with this **SDT**. Can not be null.
 
 ```csharp
 public string Title { get; set; }

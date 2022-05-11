@@ -3,7 +3,7 @@ title: HtmlVersion
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 4720
+weight: 4780
 url: /net/aspose.words.saving/htmlversion/
 ---
 ## HtmlVersion enumeration

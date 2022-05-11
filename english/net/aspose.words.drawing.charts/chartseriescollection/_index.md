@@ -3,7 +3,7 @@ title: ChartSeriesCollection
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 710
+weight: 740
 url: /net/aspose.words.drawing.charts/chartseriescollection/
 ---
 ## ChartSeriesCollection class

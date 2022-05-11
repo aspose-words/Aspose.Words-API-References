@@ -3,7 +3,7 @@ title: ChartLegendEntryCollection
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 690
+weight: 700
 url: /net/aspose.words.drawing.charts/chartlegendentrycollection/
 ---
 ## ChartLegendEntryCollection class
@@ -14,12 +14,17 @@ Represents a collection of chart legend entries.
 public class ChartLegendEntryCollection : IEnumerable<ChartLegendEntry>
 ```
 
-## Public Members
+## Properties
 
 | Name | Description |
 | --- | --- |
 | [Count](count) { get; } | Returns the number of [`ChartLegendEntry`](../chartlegendentry) in this collection. |
 | [Item](item) { get; } | Returns [`ChartLegendEntry`](../chartlegendentry) for the specified index. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
 | [GetEnumerator](getenumerator)() | Returns an enumerator object. |
 
 ### See Also

@@ -3,7 +3,7 @@ title: IResourceSavingCallback
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 4790
+weight: 4850
 url: /net/aspose.words.saving/iresourcesavingcallback/
 ---
 ## IResourceSavingCallback interface

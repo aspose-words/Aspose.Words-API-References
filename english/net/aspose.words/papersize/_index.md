@@ -3,7 +3,7 @@ title: PaperSize
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 4030
+weight: 4090
 url: /net/aspose.words/papersize/
 ---
 ## PaperSize enumeration
@@ -34,7 +34,8 @@ public enum PaperSize
 | Tabloid | `13` | 11 x 17 inches. |
 | Paper10x14 | `14` | 10 x 14 inches. |
 | Paper11x17 | `15` | 11 x 17 inches. |
-| Custom | `16` | Custom paper size. |
+| Number10Envelope | `16` |  |
+| Custom | `17` | Custom paper size. |
 
 ### Examples
 

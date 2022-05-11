@@ -3,7 +3,7 @@ title: FieldSeq
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 2170
+weight: 2200
 url: /net/aspose.words.fields/fieldseq/
 ---
 ## FieldSeq class

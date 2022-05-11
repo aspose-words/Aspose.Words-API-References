@@ -3,7 +3,7 @@ title: PdfSaveOptions
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 5100
+weight: 5160
 url: /net/aspose.words.saving/pdfsaveoptions/
 ---
 ## PdfSaveOptions class

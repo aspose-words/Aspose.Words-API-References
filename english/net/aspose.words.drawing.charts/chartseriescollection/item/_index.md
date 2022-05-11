@@ -14,9 +14,9 @@ Returns a [`ChartSeries`](../../chartseries) at the specified index.
 public ChartSeries this[int index] { get; }
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index |  | An index into the collection. |
+| Parameter | Description |
+| --- | --- |
+| index | An index into the collection. |
 
 ### Remarks
 

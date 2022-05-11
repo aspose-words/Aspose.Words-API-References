@@ -3,7 +3,7 @@ title: EmphasisMark
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 1260
+weight: 1290
 url: /net/aspose.words/emphasismark/
 ---
 ## EmphasisMark enumeration

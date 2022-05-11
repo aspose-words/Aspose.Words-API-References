@@ -3,7 +3,7 @@ title: FieldSet
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 2180
+weight: 2210
 url: /net/aspose.words.fields/fieldset/
 ---
 ## FieldSet class

@@ -3,7 +3,7 @@ title: FieldFormat
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 1720
+weight: 1750
 url: /net/aspose.words.fields/fieldformat/
 ---
 ## FieldFormat class

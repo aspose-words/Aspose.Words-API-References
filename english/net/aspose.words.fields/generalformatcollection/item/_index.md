@@ -14,9 +14,9 @@ Gets a general format at the specified index.
 public GeneralFormat this[int index] { get; }
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index |  | The index of a general format. |
+| Parameter | Description |
+| --- | --- |
+| index | The index of a general format. |
 
 ## Return Value
 

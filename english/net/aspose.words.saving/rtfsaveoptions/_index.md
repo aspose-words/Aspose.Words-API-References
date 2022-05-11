@@ -3,7 +3,7 @@ title: RtfSaveOptions
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 5150
+weight: 5210
 url: /net/aspose.words.saving/rtfsaveoptions/
 ---
 ## RtfSaveOptions class

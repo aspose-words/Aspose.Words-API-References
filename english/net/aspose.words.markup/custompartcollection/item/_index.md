@@ -14,9 +14,9 @@ Gets or sets an item at the specified index.
 public CustomPart this[int index] { get; set; }
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index |  | Zero-based index of the item. |
+| Parameter | Description |
+| --- | --- |
+| index | Zero-based index of the item. |
 
 ### Examples
 

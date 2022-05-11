@@ -3,7 +3,7 @@ title: CustomXmlSchemaCollection
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 3630
+weight: 3670
 url: /net/aspose.words.markup/customxmlschemacollection/
 ---
 ## CustomXmlSchemaCollection class

@@ -3,10 +3,12 @@ title: StructuredDocumentTagNode
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 20
+weight: 150
 url: /net/aspose.words.markup/istructureddocumenttag/structureddocumenttagnode/
 ---
 ## IStructuredDocumentTag.StructuredDocumentTagNode method
+
+Returns Node object that implements this interface.
 
 ```csharp
 public Node StructuredDocumentTagNode()

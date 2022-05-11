@@ -3,7 +3,7 @@ title: FileFormatUtil
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 2560
+weight: 2590
 url: /net/aspose.words/fileformatutil/
 ---
 ## FileFormatUtil class

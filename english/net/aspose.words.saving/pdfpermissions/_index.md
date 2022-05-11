@@ -3,7 +3,7 @@ title: PdfPermissions
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 5090
+weight: 5150
 url: /net/aspose.words.saving/pdfpermissions/
 ---
 ## PdfPermissions enumeration

@@ -3,7 +3,7 @@ title: Range
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 4160
+weight: 4220
 url: /net/aspose.words/range/
 ---
 ## Range class
@@ -21,6 +21,7 @@ public class Range
 | [Bookmarks](bookmarks) { get; } | Returns a [`Bookmarks`](./bookmarks) collection that represents all bookmarks in the range. |
 | [Fields](fields) { get; } | Returns a [`Fields`](./fields) collection that represents all fields in the range. |
 | [FormFields](formfields) { get; } | Returns a [`FormFields`](./formfields) collection that represents all form fields in the range. |
+| [StructuredDocumentTags](structureddocumenttags) { get; } | Returns a [`StructuredDocumentTags`](./structureddocumenttags) collection that represents all structured document tags in the range. |
 | [Text](text) { get; } | Gets the text of the range. |
 
 ## Methods

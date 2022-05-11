@@ -3,7 +3,7 @@ title: WebExtensionReference
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 6350
+weight: 6390
 url: /net/aspose.words.webextensions/webextensionreference/
 ---
 ## WebExtensionReference class

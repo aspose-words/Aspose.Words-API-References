@@ -3,7 +3,7 @@ title: MappedDataFieldCollection
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 3560
+weight: 3600
 url: /net/aspose.words.mailmerging/mappeddatafieldcollection/
 ---
 ## MappedDataFieldCollection class

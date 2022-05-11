@@ -3,7 +3,7 @@ title: VerticalAlignment
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 1180
+weight: 1210
 url: /net/aspose.words.drawing/verticalalignment/
 ---
 ## VerticalAlignment enumeration

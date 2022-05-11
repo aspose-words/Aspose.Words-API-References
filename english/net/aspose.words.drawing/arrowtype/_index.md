@@ -3,7 +3,7 @@ title: ArrowType
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 470
+weight: 480
 url: /net/aspose.words.drawing/arrowtype/
 ---
 ## ArrowType enumeration

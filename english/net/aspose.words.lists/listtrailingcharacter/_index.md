@@ -3,7 +3,7 @@ title: ListTrailingCharacter
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 3260
+weight: 3290
 url: /net/aspose.words.lists/listtrailingcharacter/
 ---
 ## ListTrailingCharacter enumeration

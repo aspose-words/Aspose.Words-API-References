@@ -3,7 +3,7 @@ title: ProtectionType
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 4150
+weight: 4210
 url: /net/aspose.words/protectiontype/
 ---
 ## ProtectionType enumeration

@@ -3,7 +3,7 @@ title: FieldChar
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 1470
+weight: 1500
 url: /net/aspose.words.fields/fieldchar/
 ---
 ## FieldChar class

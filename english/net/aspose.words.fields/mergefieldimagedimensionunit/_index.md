@@ -3,7 +3,7 @@ title: MergeFieldImageDimensionUnit
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 2500
+weight: 2530
 url: /net/aspose.words.fields/mergefieldimagedimensionunit/
 ---
 ## MergeFieldImageDimensionUnit enumeration

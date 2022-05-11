@@ -14,9 +14,9 @@ Gets [`VbaReference`](../../vbareference) object at the specified index.
 public VbaReference this[int index] { get; }
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index |  | The zero-based index of the reference to get. |
+| Parameter | Description |
+| --- | --- |
+| index | The zero-based index of the reference to get. |
 
 ### See Also
 

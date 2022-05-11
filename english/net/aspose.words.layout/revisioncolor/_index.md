@@ -3,7 +3,7 @@ title: RevisionColor
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 3100
+weight: 3130
 url: /net/aspose.words.layout/revisioncolor/
 ---
 ## RevisionColor enumeration

@@ -3,7 +3,7 @@ title: ChartDataPointCollection
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 650
+weight: 660
 url: /net/aspose.words.drawing.charts/chartdatapointcollection/
 ---
 ## ChartDataPointCollection class

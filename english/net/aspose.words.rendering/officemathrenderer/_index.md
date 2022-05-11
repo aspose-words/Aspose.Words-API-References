@@ -3,7 +3,7 @@ title: OfficeMathRenderer
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 4180
+weight: 4240
 url: /net/aspose.words.rendering/officemathrenderer/
 ---
 ## OfficeMathRenderer class

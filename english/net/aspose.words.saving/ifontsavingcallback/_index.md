@@ -3,7 +3,7 @@ title: IFontSavingCallback
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 4760
+weight: 4820
 url: /net/aspose.words.saving/ifontsavingcallback/
 ---
 ## IFontSavingCallback interface

@@ -3,7 +3,7 @@ title: ImportFormatMode
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 2950
+weight: 2980
 url: /net/aspose.words/importformatmode/
 ---
 ## ImportFormatMode enumeration

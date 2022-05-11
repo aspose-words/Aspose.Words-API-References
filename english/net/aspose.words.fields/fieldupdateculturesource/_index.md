@@ -3,7 +3,7 @@ title: FieldUpdateCultureSource
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 2340
+weight: 2370
 url: /net/aspose.words.fields/fieldupdateculturesource/
 ---
 ## FieldUpdateCultureSource enumeration

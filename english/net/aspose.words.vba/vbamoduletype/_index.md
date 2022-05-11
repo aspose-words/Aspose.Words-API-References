@@ -3,7 +3,7 @@ title: VbaModuleType
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 6120
+weight: 6160
 url: /net/aspose.words.vba/vbamoduletype/
 ---
 ## VbaModuleType enumeration

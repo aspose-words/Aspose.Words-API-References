@@ -1,7 +1,7 @@
 ---
 title: Aspose.Words.Replacing
 second_title: Aspose.Words for .NET API Reference
-description: The **Aspose.Words.Replacing** namespace provides classes to manipulate with find/replace operations over the document tree.
+description: TheAspose.Words.Replacingnamespaceprovidesclassestomanipulatewithfindreplaceoperationsoverthedocumenttree.
 type: docs
 weight: 200
 url: /net/aspose.words.replacing/

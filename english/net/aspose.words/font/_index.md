@@ -3,7 +3,7 @@ title: Font
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 2570
+weight: 2600
 url: /net/aspose.words/font/
 ---
 ## Font class

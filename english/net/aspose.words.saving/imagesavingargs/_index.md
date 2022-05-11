@@ -3,7 +3,7 @@ title: ImageSavingArgs
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 4840
+weight: 4900
 url: /net/aspose.words.saving/imagesavingargs/
 ---
 ## ImageSavingArgs class

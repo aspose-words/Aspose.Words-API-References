@@ -3,7 +3,7 @@ title: VbaModuleCollection
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 6110
+weight: 6150
 url: /net/aspose.words.vba/vbamodulecollection/
 ---
 ## VbaModuleCollection class

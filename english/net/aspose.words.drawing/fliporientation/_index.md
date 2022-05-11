@@ -3,7 +3,7 @@ title: FlipOrientation
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 810
+weight: 840
 url: /net/aspose.words.drawing/fliporientation/
 ---
 ## FlipOrientation enumeration

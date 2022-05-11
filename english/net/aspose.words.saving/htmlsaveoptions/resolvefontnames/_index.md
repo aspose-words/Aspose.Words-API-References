@@ -3,7 +3,7 @@ title: ResolveFontNames
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 420
+weight: 410
 url: /net/aspose.words.saving/htmlsaveoptions/resolvefontnames/
 ---
 ## HtmlSaveOptions.ResolveFontNames property

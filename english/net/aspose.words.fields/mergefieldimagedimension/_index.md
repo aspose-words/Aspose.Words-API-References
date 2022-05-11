@@ -3,7 +3,7 @@ title: MergeFieldImageDimension
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 2490
+weight: 2520
 url: /net/aspose.words.fields/mergefieldimagedimension/
 ---
 ## MergeFieldImageDimension class

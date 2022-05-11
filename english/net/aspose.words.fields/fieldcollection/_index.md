@@ -3,7 +3,7 @@ title: FieldCollection
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 1490
+weight: 1520
 url: /net/aspose.words.fields/fieldcollection/
 ---
 ## FieldCollection class

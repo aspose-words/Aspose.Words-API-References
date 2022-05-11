@@ -3,7 +3,7 @@ title: Orientation
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 3970
+weight: 4030
 url: /net/aspose.words/orientation/
 ---
 ## Orientation enumeration

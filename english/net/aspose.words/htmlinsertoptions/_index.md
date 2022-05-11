@@ -3,7 +3,7 @@ title: HtmlInsertOptions
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 2880
+weight: 2910
 url: /net/aspose.words/htmlinsertoptions/
 ---
 ## HtmlInsertOptions enumeration

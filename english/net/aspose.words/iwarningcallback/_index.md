@@ -3,7 +3,7 @@ title: IWarningCallback
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 2930
+weight: 2960
 url: /net/aspose.words/iwarningcallback/
 ---
 ## IWarningCallback interface

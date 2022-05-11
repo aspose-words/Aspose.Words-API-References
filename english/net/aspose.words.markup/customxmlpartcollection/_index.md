@@ -3,7 +3,7 @@ title: CustomXmlPartCollection
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 3600
+weight: 3640
 url: /net/aspose.words.markup/customxmlpartcollection/
 ---
 ## CustomXmlPartCollection class

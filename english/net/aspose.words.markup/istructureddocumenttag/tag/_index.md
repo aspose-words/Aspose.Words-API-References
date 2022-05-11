@@ -3,10 +3,12 @@ title: Tag
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 40
+weight: 100
 url: /net/aspose.words.markup/istructureddocumenttag/tag/
 ---
 ## IStructuredDocumentTag.Tag property
+
+Specifies a tag associated with the current SDT node. Can not be null.
 
 ```csharp
 public string Tag { get; set; }

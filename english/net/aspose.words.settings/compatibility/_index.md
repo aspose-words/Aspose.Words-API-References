@@ -3,7 +3,7 @@ title: Compatibility
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 5340
+weight: 5400
 url: /net/aspose.words.settings/compatibility/
 ---
 ## Compatibility enumeration

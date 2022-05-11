@@ -3,7 +3,7 @@ title: DigitalSignatureCollection
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 370
+weight: 380
 url: /net/aspose.words.digitalsignatures/digitalsignaturecollection/
 ---
 ## DigitalSignatureCollection class

@@ -3,7 +3,7 @@ title: LineStyle
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 3170
+weight: 3200
 url: /net/aspose.words/linestyle/
 ---
 ## LineStyle enumeration

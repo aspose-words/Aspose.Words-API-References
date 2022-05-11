@@ -3,7 +3,7 @@ title: NodeChangingArgs
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 3840
+weight: 3900
 url: /net/aspose.words/nodechangingargs/
 ---
 ## NodeChangingArgs class

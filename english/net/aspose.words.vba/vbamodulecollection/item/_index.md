@@ -14,9 +14,9 @@ Retrieves a [`VbaModule`](../../vbamodule) object by index.
 public VbaModule this[int index] { get; }
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index |  | Zero-based index of the module to retrieve. |
+| Parameter | Description |
+| --- | --- |
+| index | Zero-based index of the module to retrieve. |
 
 ### Examples
 

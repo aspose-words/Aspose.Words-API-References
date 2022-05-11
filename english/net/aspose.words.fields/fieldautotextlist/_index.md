@@ -3,7 +3,7 @@ title: FieldAutoTextList
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 1420
+weight: 1450
 url: /net/aspose.words.fields/fieldautotextlist/
 ---
 ## FieldAutoTextList class

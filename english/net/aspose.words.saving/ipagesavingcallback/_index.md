@@ -3,7 +3,7 @@ title: IPageSavingCallback
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 4780
+weight: 4840
 url: /net/aspose.words.saving/ipagesavingcallback/
 ---
 ## IPageSavingCallback interface

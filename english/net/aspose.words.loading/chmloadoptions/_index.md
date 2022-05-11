@@ -3,7 +3,7 @@ title: ChmLoadOptions
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 3280
+weight: 3320
 url: /net/aspose.words.loading/chmloadoptions/
 ---
 ## ChmLoadOptions class

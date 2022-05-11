@@ -14,9 +14,9 @@ Retrieves a node at the given index.
 public Node this[int index] { get; }
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index |  | An index into the collection of nodes. |
+| Parameter | Description |
+| --- | --- |
+| index | An index into the collection of nodes. |
 
 ### Remarks
 

@@ -3,7 +3,7 @@ title: PageHeight
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 280
+weight: 300
 url: /net/aspose.words/pagesetup/pageheight/
 ---
 ## PageSetup.PageHeight property

@@ -3,7 +3,7 @@ title: IChartDataPoint
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 740
+weight: 770
 url: /net/aspose.words.drawing.charts/ichartdatapoint/
 ---
 ## IChartDataPoint interface
