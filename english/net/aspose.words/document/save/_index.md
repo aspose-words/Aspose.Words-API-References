@@ -3,10 +3,10 @@ title: Save
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 670
+weight: 680
 url: /net/aspose.words/document/save/
 ---
-## Document.Save method (1 of 5)
+## Document.Save method (1 of 6)
 
 Saves the document to a file. Automatically determines the save format from the extension.
 
@@ -57,7 +57,7 @@ pdfDoc.Save(ArtifactsDir + "PDF2Word.ConvertPdfToDocx.docx");
 
 ---
 
-## Document.Save method (2 of 5)
+## Document.Save method (2 of 6)
 
 Saves the document to a file in the specified format.
 
@@ -94,7 +94,7 @@ doc.Save(ArtifactsDir + "Document.ConvertToHtml.html", SaveFormat.Html);
 
 ---
 
-## Document.Save method (3 of 5)
+## Document.Save method (3 of 6)
 
 Saves the document to a file using the specified save options.
 
@@ -299,7 +299,7 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.ExpandedOutlineLevels.pdf", options);
 
 ---
 
-## Document.Save method (4 of 5)
+## Document.Save method (4 of 6)
 
 Saves the document to a stream using the specified format.
 
@@ -391,7 +391,7 @@ Document doc = new Document();
 
 ---
 
-## Document.Save method (5 of 5)
+## Document.Save method (5 of 6)
 
 Saves the document to a stream using the specified save options.
 
@@ -439,6 +439,68 @@ using (Stream stream = File.Create(ArtifactsDir + "PdfSaveOptions.OnePage.pdf"))
 ### See Also
 
 * class [SaveOutputParameters](../../../aspose.words.saving/saveoutputparameters)
+* class [SaveOptions](../../../aspose.words.saving/saveoptions)
+* class [Document](../../document)
+* namespace [Aspose.Words](../../document)
+* assembly [Aspose.Words](../../../)
+
+---
+
+## Document.Save method (6 of 6)
+
+Sends the document to the client browser.
+
+```csharp
+public SaveOutputParameters Save(HttpResponse response, string fileName, 
+    ContentDisposition contentDisposition, SaveOptions saveOptions)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| response | HttpResponse | Response object where to save the document. |
+| fileName | String | The name for the document that will appear at the client browser. The name should not contain path. |
+| contentDisposition | ContentDisposition | A [`ContentDisposition`](../../contentdisposition) value that specifies how the document is presented at the client browser. |
+| saveOptions | SaveOptions | Specifies the options that control how the document is saved. Can be null. |
+
+## Return Value
+
+Additional information that you can optionally use.
+
+### Remarks
+
+Internally, this method saves to a memory stream first and then copies to the response stream because the response stream does not support seek.
+
+### Examples
+
+Shows how to perform a mail merge, and then save the document to the client browser.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+builder.InsertField(" MERGEFIELD FullName ");
+builder.InsertParagraph();
+builder.InsertField(" MERGEFIELD Company ");
+builder.InsertParagraph();
+builder.InsertField(" MERGEFIELD Address ");
+builder.InsertParagraph();
+builder.InsertField(" MERGEFIELD City ");
+
+doc.MailMerge.Execute(new string[] { "FullName", "Company", "Address", "City" },
+    new object[] { "James Bond", "MI5 Headquarters", "Milbank", "London" });
+
+// Send the document to the client browser.
+Assert.That(() => doc.Save(response, "Artifacts/MailMerge.ExecuteArray.docx", ContentDisposition.Inline, null),
+    Throws.TypeOf<ArgumentNullException>()); //Thrown because HttpResponse is null in the test.
+
+// We will need to close this response manually to ensure that we do not add any superfluous content to the document after saving.
+Assert.That(() => response.End(), Throws.TypeOf<NullReferenceException>());
+```
+
+### See Also
+
+* class [SaveOutputParameters](../../../aspose.words.saving/saveoutputparameters)
+* enum [ContentDisposition](../../contentdisposition)
 * class [SaveOptions](../../../aspose.words.saving/saveoptions)
 * class [Document](../../document)
 * namespace [Aspose.Words](../../document)

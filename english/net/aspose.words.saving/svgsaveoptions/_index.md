@@ -3,7 +3,7 @@ title: SvgSaveOptions
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 5240
+weight: 5270
 url: /net/aspose.words.saving/svgsaveoptions/
 ---
 ## SvgSaveOptions class

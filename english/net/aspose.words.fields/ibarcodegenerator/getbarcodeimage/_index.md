@@ -11,7 +11,7 @@ url: /net/aspose.words.fields/ibarcodegenerator/getbarcodeimage/
 Generate barcode image using the set of parameters (for DisplayBarcode field).
 
 ```csharp
-public SKBitmap GetBarcodeImage(BarcodeParameters parameters)
+public Image GetBarcodeImage(BarcodeParameters parameters)
 ```
 
 | Parameter | Type | Description |

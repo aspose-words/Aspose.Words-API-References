@@ -3,7 +3,7 @@ title: WebExtensionBinding
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 6340
+weight: 6390
 url: /net/aspose.words.webextensions/webextensionbinding/
 ---
 ## WebExtensionBinding class

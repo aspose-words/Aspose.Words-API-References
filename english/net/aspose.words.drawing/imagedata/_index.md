@@ -43,7 +43,7 @@ public class ImageData
 | --- | --- |
 | [Save](save)(Stream) | Saves the image into the specified stream. |
 | [Save](save)(string) | Saves the image into a file. |
-| [SetImage](setimage)(SKBitmap) |  |
+| [SetImage](setimage)(Image) | Sets the image that the shape displays. |
 | [SetImage](setimage)(Stream) | Sets the image that the shape displays. |
 | [SetImage](setimage)(string) | Sets the image that the shape displays. |
 | [ToByteArray](tobytearray)() | Returns image bytes for any image regardless whether the image is stored or linked. |

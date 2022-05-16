@@ -3,7 +3,7 @@ title: SaveOptions
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 5220
+weight: 5250
 url: /net/aspose.words.saving/saveoptions/
 ---
 ## SaveOptions class

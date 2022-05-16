@@ -3,7 +3,7 @@ title: VbaProject
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 6170
+weight: 6220
 url: /net/aspose.words.vba/vbaproject/
 ---
 ## VbaProject class

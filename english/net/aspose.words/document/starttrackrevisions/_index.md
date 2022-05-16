@@ -3,7 +3,7 @@ title: StartTrackRevisions
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 680
+weight: 690
 url: /net/aspose.words/document/starttrackrevisions/
 ---
 ## Document.StartTrackRevisions method (1 of 2)

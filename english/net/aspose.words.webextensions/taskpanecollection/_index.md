@@ -3,7 +3,7 @@ title: TaskPaneCollection
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 6310
+weight: 6360
 url: /net/aspose.words.webextensions/taskpanecollection/
 ---
 ## TaskPaneCollection class

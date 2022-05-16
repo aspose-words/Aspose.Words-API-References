@@ -3,7 +3,7 @@ title: GetSizeInPixels
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 70
+weight: 80
 url: /net/aspose.words.rendering/pageinfo/getsizeinpixels/
 ---
 ## PageInfo.GetSizeInPixels method (1 of 2)

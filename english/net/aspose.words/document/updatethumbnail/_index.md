@@ -3,7 +3,7 @@ title: UpdateThumbnail
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 750
+weight: 760
 url: /net/aspose.words/document/updatethumbnail/
 ---
 ## Document.UpdateThumbnail method (1 of 2)

@@ -3,7 +3,7 @@ title: KnownTypeSet
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 4380
+weight: 4400
 url: /net/aspose.words.reporting/knowntypeset/
 ---
 ## KnownTypeSet class

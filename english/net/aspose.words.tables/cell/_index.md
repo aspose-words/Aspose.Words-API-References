@@ -3,7 +3,7 @@ title: Cell
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 5840
+weight: 5890
 url: /net/aspose.words.tables/cell/
 ---
 ## Cell class

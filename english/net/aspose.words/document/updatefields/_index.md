@@ -3,7 +3,7 @@ title: UpdateFields
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 720
+weight: 730
 url: /net/aspose.words/document/updatefields/
 ---
 ## Document.UpdateFields method

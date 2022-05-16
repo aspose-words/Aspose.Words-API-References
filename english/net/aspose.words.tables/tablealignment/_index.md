@@ -3,7 +3,7 @@ title: TableAlignment
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 5950
+weight: 6000
 url: /net/aspose.words.tables/tablealignment/
 ---
 ## TableAlignment enumeration

@@ -3,7 +3,7 @@ title: SectionCollection
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 5370
+weight: 5400
 url: /net/aspose.words/sectioncollection/
 ---
 ## SectionCollection class

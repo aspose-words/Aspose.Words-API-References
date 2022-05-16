@@ -3,7 +3,7 @@ title: TextDmlEffect
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 6010
+weight: 6060
 url: /net/aspose.words/textdmleffect/
 ---
 ## TextDmlEffect enumeration

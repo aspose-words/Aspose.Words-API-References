@@ -3,7 +3,7 @@ title: ImageSaveOptions
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 4890
+weight: 4920
 url: /net/aspose.words.saving/imagesaveoptions/
 ---
 ## ImageSaveOptions class
@@ -24,6 +24,7 @@ public class ImageSaveOptions : FixedPageSaveOptions
 
 | Name | Description |
 | --- | --- |
+| [GraphicsQualityOptions](graphicsqualityoptions) { get; set; } | Allows to specify rendering mode and quality for the Graphics object. |
 | [HorizontalResolution](horizontalresolution) { get; set; } | Gets or sets the horizontal resolution for the generated images, in dots per inch. |
 | [ImageBrightness](imagebrightness) { get; set; } | Gets or sets the brightness for the generated images. |
 | [ImageColorMode](imagecolormode) { get; set; } | Gets or sets the color mode for the generated images. |

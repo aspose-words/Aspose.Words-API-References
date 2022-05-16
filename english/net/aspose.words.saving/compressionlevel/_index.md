@@ -3,7 +3,7 @@ title: CompressionLevel
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 4540
+weight: 4560
 url: /net/aspose.words.saving/compressionlevel/
 ---
 ## CompressionLevel enumeration

@@ -3,7 +3,7 @@ title: Story
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 5710
+weight: 5760
 url: /net/aspose.words/story/
 ---
 ## Story class

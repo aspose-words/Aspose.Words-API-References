@@ -3,7 +3,7 @@ title: GetFieldNamesForRegion
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 210
+weight: 230
 url: /net/aspose.words.mailmerging/mailmerge/getfieldnamesforregion/
 ---
 ## MailMerge.GetFieldNamesForRegion method (1 of 2)

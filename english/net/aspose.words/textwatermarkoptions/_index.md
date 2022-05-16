@@ -3,7 +3,7 @@ title: TextWatermarkOptions
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 6040
+weight: 6090
 url: /net/aspose.words/textwatermarkoptions/
 ---
 ## TextWatermarkOptions class

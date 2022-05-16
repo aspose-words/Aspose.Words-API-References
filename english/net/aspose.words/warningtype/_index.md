@@ -3,7 +3,7 @@ title: WarningType
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 6250
+weight: 6300
 url: /net/aspose.words/warningtype/
 ---
 ## WarningType enumeration

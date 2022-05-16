@@ -3,7 +3,7 @@ title: TxtListIndentation
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 5290
+weight: 5320
 url: /net/aspose.words.saving/txtlistindentation/
 ---
 ## TxtListIndentation class

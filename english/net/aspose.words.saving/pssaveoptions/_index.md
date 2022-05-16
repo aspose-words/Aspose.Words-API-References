@@ -3,7 +3,7 @@ title: PsSaveOptions
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 5190
+weight: 5220
 url: /net/aspose.words.saving/pssaveoptions/
 ---
 ## PsSaveOptions class

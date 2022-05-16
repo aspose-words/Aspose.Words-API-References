@@ -3,7 +3,7 @@ title: NumeralFormat
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 4950
+weight: 4980
 url: /net/aspose.words.saving/numeralformat/
 ---
 ## NumeralFormat enumeration

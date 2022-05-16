@@ -97,17 +97,22 @@ public class Document : DocumentBase
 | [GetPageInfo](getpageinfo)(int) | Gets the page size, orientation and other information about a page that might be useful for printing or rendering. |
 | [JoinRunsWithSameFormatting](joinrunswithsameformatting)() | Joins runs with same formatting in all paragraphs of the document. |
 | [NormalizeFieldTypes](normalizefieldtypes)() | Changes field type values [`FieldType`](../../aspose.words.fields/fieldchar/fieldtype) of [`FieldStart`](../../aspose.words.fields/fieldstart), [`FieldSeparator`](../../aspose.words.fields/fieldseparator), [`FieldEnd`](../../aspose.words.fields/fieldend) in the whole document so that they correspond to the field types contained in the field codes. |
+| [Print](print)() | Prints the whole document to the default printer. |
+| [Print](print)(PrinterSettings) | Prints the document according to the specified printer settings, using the standard (no User Interface) print controller. |
+| [Print](print)(string) | Print the whole document to the specified printer, using the standard (no User Interface) print controller. |
+| [Print](print)(PrinterSettings, string) | Prints the document according to the specified printer settings, using the standard (no User Interface) print controller and a document name. |
 | [Protect](protect)(ProtectionType) | Protects the document from changes without changing the existing password or assigns a random password. |
 | [Protect](protect)(ProtectionType, string) | Protects the document from changes and optionally sets a protection password. |
 | [RemoveExternalSchemaReferences](removeexternalschemareferences)() | Removes external XML schema references from this document. |
 | [RemoveMacros](removemacros)() | Removes all macros (the VBA project) as well as toolbars and command customizations from the document. |
-| [RenderToScale](rendertoscale)(int, SKCanvas, float, float, float) |  |
-| [RenderToSize](rendertosize)(int, SKCanvas, float, float, float, float) |  |
+| [RenderToScale](rendertoscale)(int, Graphics, float, float, float) | Renders a document page into a Graphics object to a specified scale. |
+| [RenderToSize](rendertosize)(int, Graphics, float, float, float, float) | Renders a document page into a Graphics object to a specified size. |
 | [Save](save)(string) | Saves the document to a file. Automatically determines the save format from the extension. |
 | [Save](save)(Stream, SaveFormat) | Saves the document to a stream using the specified format. |
 | [Save](save)(Stream, SaveOptions) | Saves the document to a stream using the specified save options. |
 | [Save](save)(string, SaveFormat) | Saves the document to a file in the specified format. |
 | [Save](save)(string, SaveOptions) | Saves the document to a file using the specified save options. |
+| [Save](save)(HttpResponse, string, ContentDisposition, SaveOptions) | Sends the document to the client browser. |
 | [StartTrackRevisions](starttrackrevisions)(string) | Starts automatically marking all further changes you make to the document programmatically as revision changes. |
 | [StartTrackRevisions](starttrackrevisions)(string, DateTime) | Starts automatically marking all further changes you make to the document programmatically as revision changes. |
 | [StopTrackRevisions](stoptrackrevisions)() | Stops automatic marking of document changes as revisions. |
@@ -130,9 +135,9 @@ To load an existing document in any of the [`LoadFormat`](../loadformat) formats
 
 Use one of the Save method overloads to save the document in any of the [`SaveFormat`](../saveformat) formats.
 
-To draw document pages directly onto a **Graphics** object use Single) or Single) method.
+To draw document pages directly onto a **Graphics** object use [`RenderToScale`](./rendertoscale) or [`RenderToSize`](./rendertosize) method.
 
-To print the document, use one of the String) methods.
+To print the document, use one of the [`Print`](./print) methods.
 
 [`MailMerge`](./mailmerge) is the Aspose.Words's reporting engine that allows to populate reports designed in Microsoft Word with data from various data sources quickly and easily. The data can be from a DataSet, DataTable, DataView, IDataReader or an array of values. **MailMerge** will go through the records found in the data source and insert them into mail merge fields in the document growing it as necessary.
 

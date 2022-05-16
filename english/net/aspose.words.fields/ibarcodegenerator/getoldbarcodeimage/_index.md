@@ -11,7 +11,7 @@ url: /net/aspose.words.fields/ibarcodegenerator/getoldbarcodeimage/
 Generate barcode image using the set of parameters (for old-fashioned Barcode field).
 
 ```csharp
-public SKBitmap GetOldBarcodeImage(BarcodeParameters parameters)
+public Image GetOldBarcodeImage(BarcodeParameters parameters)
 ```
 
 | Parameter | Type | Description |

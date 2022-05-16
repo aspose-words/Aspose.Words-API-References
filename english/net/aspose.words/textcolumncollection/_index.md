@@ -3,7 +3,7 @@ title: TextColumnCollection
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 6000
+weight: 6050
 url: /net/aspose.words/textcolumncollection/
 ---
 ## TextColumnCollection class

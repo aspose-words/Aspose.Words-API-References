@@ -3,7 +3,7 @@ title: RevisionGroup
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 4450
+weight: 4470
 url: /net/aspose.words/revisiongroup/
 ---
 ## RevisionGroup class

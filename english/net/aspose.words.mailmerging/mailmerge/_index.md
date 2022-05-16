@@ -46,12 +46,14 @@ public class MailMerge
 | [Execute](execute)(IDataReader) | Performs mail merge from IDataReader into the document. |
 | [Execute](execute)(IMailMergeDataSource) | Performs a mail merge from a custom data source. |
 | [Execute](execute)(string[], object[]) | Performs a mail merge operation for a single record. |
+| [ExecuteADO](executeado)(object) | Performs mail merge from an ADO Recordset object into the document. |
 | [ExecuteWithRegions](executewithregions)(DataSet) | Performs mail merge from a DataSet into a document with mail merge regions. |
 | [ExecuteWithRegions](executewithregions)(DataTable) | Performs mail merge from a DataTable into the document with mail merge regions. |
 | [ExecuteWithRegions](executewithregions)(DataView) | Performs mail merge from a DataView into the document with mail merge regions. |
 | [ExecuteWithRegions](executewithregions)(IMailMergeDataSource) | Performs a mail merge from a custom data source with mail merge regions. |
 | [ExecuteWithRegions](executewithregions)(IMailMergeDataSourceRoot) | Performs a mail merge from a custom data source with mail merge regions. |
 | [ExecuteWithRegions](executewithregions)(IDataReader, string) | Performs mail merge from IDataReader into the document with mail merge regions. |
+| [ExecuteWithRegionsADO](executewithregionsado)(object, string) | Performs mail merge from an ADO Recordset object into the document with mail merge regions. |
 | [GetFieldNames](getfieldnames)() | Returns a collection of mail merge field names available in the document. |
 | [GetFieldNamesForRegion](getfieldnamesforregion)(string) | Returns a collection of mail merge field names available in the region. |
 | [GetFieldNamesForRegion](getfieldnamesforregion)(string, int) | Returns a collection of mail merge field names available in the region. |

@@ -3,7 +3,7 @@ title: UpdateWordCount
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 760
+weight: 770
 url: /net/aspose.words/document/updatewordcount/
 ---
 ## Document.UpdateWordCount method (1 of 2)

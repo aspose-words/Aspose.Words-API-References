@@ -3,7 +3,7 @@ title: DownsampleOptions
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 4640
+weight: 4660
 url: /net/aspose.words.saving/downsampleoptions/
 ---
 ## DownsampleOptions class

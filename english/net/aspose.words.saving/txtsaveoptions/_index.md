@@ -3,7 +3,7 @@ title: TxtSaveOptions
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 5300
+weight: 5330
 url: /net/aspose.words.saving/txtsaveoptions/
 ---
 ## TxtSaveOptions class

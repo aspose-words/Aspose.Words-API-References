@@ -3,7 +3,7 @@ title: ImagePixelFormat
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 4880
+weight: 4910
 url: /net/aspose.words.saving/imagepixelformat/
 ---
 ## ImagePixelFormat enumeration

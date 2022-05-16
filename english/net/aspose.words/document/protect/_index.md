@@ -3,7 +3,7 @@ title: Protect
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 620
+weight: 630
 url: /net/aspose.words/document/protect/
 ---
 ## Document.Protect method (1 of 2)

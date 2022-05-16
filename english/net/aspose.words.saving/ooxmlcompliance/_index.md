@@ -3,7 +3,7 @@ title: OoxmlCompliance
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 4980
+weight: 5010
 url: /net/aspose.words.saving/ooxmlcompliance/
 ---
 ## OoxmlCompliance enumeration

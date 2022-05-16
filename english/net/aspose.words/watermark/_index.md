@@ -3,7 +3,7 @@ title: Watermark
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 6260
+weight: 6310
 url: /net/aspose.words/watermark/
 ---
 ## Watermark class
@@ -25,8 +25,8 @@ public sealed class Watermark
 | Name | Description |
 | --- | --- |
 | [Remove](remove)() | Removes the watermark. |
-| [SetImage](setimage)(SKBitmap) |  |
-| [SetImage](setimage)(SKBitmap, ImageWatermarkOptions) |  |
+| [SetImage](setimage)(Image) | Adds Image watermark into the document. |
+| [SetImage](setimage)(Image, ImageWatermarkOptions) | Adds Image watermark into the document. |
 | [SetImage](setimage)(string, ImageWatermarkOptions) | Adds Image watermark into the document. |
 | [SetText](settext)(string) | Adds Text watermark into the document. |
 | [SetText](settext)(string, TextWatermarkOptions) | Adds Text watermark into the document. |

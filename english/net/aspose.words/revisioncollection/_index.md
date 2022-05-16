@@ -3,7 +3,7 @@ title: RevisionCollection
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 4440
+weight: 4460
 url: /net/aspose.words/revisioncollection/
 ---
 ## RevisionCollection class

@@ -3,7 +3,7 @@ title: StoryType
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 5720
+weight: 5770
 url: /net/aspose.words/storytype/
 ---
 ## StoryType enumeration

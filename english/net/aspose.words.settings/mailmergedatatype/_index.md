@@ -3,7 +3,7 @@ title: MailMergeDataType
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 5440
+weight: 5470
 url: /net/aspose.words.settings/mailmergedatatype/
 ---
 ## MailMergeDataType enumeration

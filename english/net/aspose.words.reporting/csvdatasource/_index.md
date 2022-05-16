@@ -3,7 +3,7 @@ title: CsvDataSource
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 4340
+weight: 4360
 url: /net/aspose.words.reporting/csvdatasource/
 ---
 ## CsvDataSource class

@@ -3,7 +3,7 @@ title: Section
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 5360
+weight: 5390
 url: /net/aspose.words/section/
 ---
 ## Section class

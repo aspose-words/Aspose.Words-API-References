@@ -3,7 +3,7 @@ title: MailMergeDestination
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 5450
+weight: 5480
 url: /net/aspose.words.settings/mailmergedestination/
 ---
 ## MailMergeDestination enumeration

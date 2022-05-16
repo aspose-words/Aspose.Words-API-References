@@ -3,7 +3,7 @@ title: VbaReference
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 6180
+weight: 6230
 url: /net/aspose.words.vba/vbareference/
 ---
 ## VbaReference class

@@ -3,7 +3,7 @@ title: Scale
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 130
+weight: 140
 url: /net/aspose.words.saving/imagesaveoptions/scale/
 ---
 ## ImageSaveOptions.Scale property

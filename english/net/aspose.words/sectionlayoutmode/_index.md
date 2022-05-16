@@ -3,7 +3,7 @@ title: SectionLayoutMode
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 5380
+weight: 5410
 url: /net/aspose.words/sectionlayoutmode/
 ---
 ## SectionLayoutMode enumeration

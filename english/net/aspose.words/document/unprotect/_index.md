@@ -3,7 +3,7 @@ title: Unprotect
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 710
+weight: 720
 url: /net/aspose.words/document/unprotect/
 ---
 ## Document.Unprotect method (1 of 2)

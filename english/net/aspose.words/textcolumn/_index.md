@@ -3,7 +3,7 @@ title: TextColumn
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 5990
+weight: 6040
 url: /net/aspose.words/textcolumn/
 ---
 ## TextColumn class

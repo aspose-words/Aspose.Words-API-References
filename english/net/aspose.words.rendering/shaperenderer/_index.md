@@ -3,7 +3,7 @@ title: ShapeRenderer
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 4260
+weight: 4280
 url: /net/aspose.words.rendering/shaperenderer/
 ---
 ## ShapeRenderer class

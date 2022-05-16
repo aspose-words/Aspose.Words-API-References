@@ -11,7 +11,7 @@ url: /net/aspose.words.mailmerging/imagefieldmergingargs/image/
 Specifies the image that the mail merge engine must insert into the document.
 
 ```csharp
-public SKBitmap Image { get; set; }
+public Image Image { get; set; }
 ```
 
 ### Examples

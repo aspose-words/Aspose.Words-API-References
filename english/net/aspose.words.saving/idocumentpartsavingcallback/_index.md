@@ -3,7 +3,7 @@ title: IDocumentPartSavingCallback
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 4800
+weight: 4830
 url: /net/aspose.words.saving/idocumentpartsavingcallback/
 ---
 ## IDocumentPartSavingCallback interface

@@ -8,8 +8,50 @@ url: /net/aspose.words/documentbuilder/insertimage/
 ---
 ## DocumentBuilder.InsertImage method (1 of 12)
 
+Inserts an image from a .NET Image object into the document. The image is inserted inline and at 100% scale.
+
 ```csharp
-public Shape InsertImage(SKBitmap image)
+public Shape InsertImage(Image image)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| image | Image | The image to insert into the document. |
+
+## Return Value
+
+The image node that was just inserted.
+
+### Remarks
+
+You can change the image size, location, positioning method and other settings using the [`Shape`](../../../aspose.words.drawing/shape) object returned by this method.
+
+### Examples
+
+Shows how to insert an image from an object into a document.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+Image image = Image.FromFile(ImageDir + "Logo.jpg");
+
+// Below are three ways of inserting an image from an Image object instance.
+// 1 -  Inline shape with a default size based on the image's original dimensions:
+builder.InsertImage(image);
+
+builder.InsertBreak(BreakType.PageBreak);
+
+// 2 -  Inline shape with custom dimensions:
+builder.InsertImage(image, ConvertUtil.PixelToPoint(250), ConvertUtil.PixelToPoint(144));
+
+builder.InsertBreak(BreakType.PageBreak);
+
+// 3 -  Floating shape with custom dimensions:
+builder.InsertImage(image, RelativeHorizontalPosition.Margin, 100, RelativeVerticalPosition.Margin,
+100, 200, 100, WrapType.Square);
+
+doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromImageObject.docx");
 ```
 
 ### See Also
@@ -328,8 +370,80 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromByteArrayNetStanda
 
 ## DocumentBuilder.InsertImage method (5 of 12)
 
+Inserts an inline image from a .NET Image object into the document and scales it to the specified size.
+
 ```csharp
-public Shape InsertImage(SKBitmap image, double width, double height)
+public Shape InsertImage(Image image, double width, double height)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| image | Image | The image to insert into the document. |
+| width | Double | The width of the image in points. Can be a negative or zero value to request 100% scale. |
+| height | Double | The height of the image in points. Can be a negative or zero value to request 100% scale. |
+
+## Return Value
+
+The image node that was just inserted.
+
+### Remarks
+
+You can change the image size, location, positioning method and other settings using the [`Shape`](../../../aspose.words.drawing/shape) object returned by this method.
+
+### Examples
+
+Shows how to insert an image from an object into a document.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+Image image = Image.FromFile(ImageDir + "Logo.jpg");
+
+// Below are three ways of inserting an image from an Image object instance.
+// 1 -  Inline shape with a default size based on the image's original dimensions:
+builder.InsertImage(image);
+
+builder.InsertBreak(BreakType.PageBreak);
+
+// 2 -  Inline shape with custom dimensions:
+builder.InsertImage(image, ConvertUtil.PixelToPoint(250), ConvertUtil.PixelToPoint(144));
+
+builder.InsertBreak(BreakType.PageBreak);
+
+// 3 -  Floating shape with custom dimensions:
+builder.InsertImage(image, RelativeHorizontalPosition.Margin, 100, RelativeVerticalPosition.Margin,
+100, 200, 100, WrapType.Square);
+
+doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromImageObject.docx");
+```
+
+Shows how to insert an image from an object into a document (.NetStandard 2.0).
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+// Decoding the image will convert it to the .png format.
+using (SKBitmap bitmap = SKBitmap.Decode(ImageDir + "Logo.jpg"))
+{
+    // Below are three ways of inserting an image from an Image object instance.
+    // 1 -  Inline shape with a default size based on the image's original dimensions:
+    builder.InsertImage(bitmap);
+
+    builder.InsertBreak(BreakType.PageBreak);
+
+    // 2 -  Inline shape with custom dimensions:
+    builder.InsertImage(bitmap, ConvertUtil.PixelToPoint(250), ConvertUtil.PixelToPoint(144));
+
+    builder.InsertBreak(BreakType.PageBreak);
+
+    // 3 -  Floating shape with custom dimensions:
+    builder.InsertImage(bitmap, RelativeHorizontalPosition.Margin, 100, RelativeVerticalPosition.Margin,
+        100, 200, 100, WrapType.Square);
+}
+
+doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromImageObjectNetStandard2.docx");
 ```
 
 ### See Also
@@ -562,9 +676,86 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromByteArrayNetStanda
 
 ## DocumentBuilder.InsertImage method (9 of 12)
 
+Inserts an image from a .NET Image object at the specified position and size.
+
 ```csharp
-public Shape InsertImage(SKBitmap image, RelativeHorizontalPosition horzPos, double left, 
+public Shape InsertImage(Image image, RelativeHorizontalPosition horzPos, double left, 
     RelativeVerticalPosition vertPos, double top, double width, double height, WrapType wrapType)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| image | Image | The image to insert into the document. |
+| horzPos | RelativeHorizontalPosition | Specifies where the distance to the image is measured from. |
+| left | Double | Distance in points from the origin to the left side of the image. |
+| vertPos | RelativeVerticalPosition | Specifies where the distance to the image measured from. |
+| top | Double | Distance in points from the origin to the top side of the image. |
+| width | Double | The width of the image in points. Can be a negative or zero value to request 100% scale. |
+| height | Double | The height of the image in points. Can be a negative or zero value to request 100% scale. |
+| wrapType | WrapType | Specifies how to wrap text around the image. |
+
+## Return Value
+
+The image node that was just inserted.
+
+### Remarks
+
+You can change the image size, location, positioning method and other settings using the [`Shape`](../../../aspose.words.drawing/shape) object returned by this method.
+
+### Examples
+
+Shows how to insert an image from an object into a document.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+Image image = Image.FromFile(ImageDir + "Logo.jpg");
+
+// Below are three ways of inserting an image from an Image object instance.
+// 1 -  Inline shape with a default size based on the image's original dimensions:
+builder.InsertImage(image);
+
+builder.InsertBreak(BreakType.PageBreak);
+
+// 2 -  Inline shape with custom dimensions:
+builder.InsertImage(image, ConvertUtil.PixelToPoint(250), ConvertUtil.PixelToPoint(144));
+
+builder.InsertBreak(BreakType.PageBreak);
+
+// 3 -  Floating shape with custom dimensions:
+builder.InsertImage(image, RelativeHorizontalPosition.Margin, 100, RelativeVerticalPosition.Margin,
+100, 200, 100, WrapType.Square);
+
+doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromImageObject.docx");
+```
+
+Shows how to insert an image from an object into a document (.NetStandard 2.0).
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+// Decoding the image will convert it to the .png format.
+using (SKBitmap bitmap = SKBitmap.Decode(ImageDir + "Logo.jpg"))
+{
+    // Below are three ways of inserting an image from an Image object instance.
+    // 1 -  Inline shape with a default size based on the image's original dimensions:
+    builder.InsertImage(bitmap);
+
+    builder.InsertBreak(BreakType.PageBreak);
+
+    // 2 -  Inline shape with custom dimensions:
+    builder.InsertImage(bitmap, ConvertUtil.PixelToPoint(250), ConvertUtil.PixelToPoint(144));
+
+    builder.InsertBreak(BreakType.PageBreak);
+
+    // 3 -  Floating shape with custom dimensions:
+    builder.InsertImage(bitmap, RelativeHorizontalPosition.Margin, 100, RelativeVerticalPosition.Margin,
+        100, 200, 100, WrapType.Square);
+}
+
+doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromImageObjectNetStandard2.docx");
 ```
 
 ### See Also

@@ -3,7 +3,7 @@ title: TableCollection
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 5960
+weight: 6010
 url: /net/aspose.words.tables/tablecollection/
 ---
 ## TableCollection class

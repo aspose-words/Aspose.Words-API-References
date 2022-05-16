@@ -73,15 +73,15 @@ public class DocumentBuilder
 | [InsertHtml](inserthtml)(string, HtmlInsertOptions) | Inserts an HTML string into the document. Allows to specify additional options. |
 | [InsertHyperlink](inserthyperlink)(string, string, bool) | Inserts a hyperlink into the document. |
 | [InsertImage](insertimage)(byte[]) | Inserts an image from a byte array into the document. The image is inserted inline and at 100% scale. |
-| [InsertImage](insertimage)(SKBitmap) |  |
+| [InsertImage](insertimage)(Image) | Inserts an image from a .NET Image object into the document. The image is inserted inline and at 100% scale. |
 | [InsertImage](insertimage)(Stream) | Inserts an image from a stream into the document. The image is inserted inline and at 100% scale. |
 | [InsertImage](insertimage)(string) | Inserts an image from a file or URL into the document. The image is inserted inline and at 100% scale. |
 | [InsertImage](insertimage)(byte[], double, double) | Inserts an inline image from a byte array into the document and scales it to the specified size. |
-| [InsertImage](insertimage)(SKBitmap, double, double) |  |
+| [InsertImage](insertimage)(Image, double, double) | Inserts an inline image from a .NET Image object into the document and scales it to the specified size. |
 | [InsertImage](insertimage)(Stream, double, double) | Inserts an inline image from a stream into the document and scales it to the specified size. |
 | [InsertImage](insertimage)(string, double, double) | Inserts an inline image from a file or URL into the document and scales it to the specified size. |
 | [InsertImage](insertimage)(byte[], RelativeHorizontalPosition, double, RelativeVerticalPosition, double, double, double, WrapType) | Inserts an image from a byte array at the specified position and size. |
-| [InsertImage](insertimage)(SKBitmap, RelativeHorizontalPosition, double, RelativeVerticalPosition, double, double, double, WrapType) |  |
+| [InsertImage](insertimage)(Image, RelativeHorizontalPosition, double, RelativeVerticalPosition, double, double, double, WrapType) | Inserts an image from a .NET Image object at the specified position and size. |
 | [InsertImage](insertimage)(Stream, RelativeHorizontalPosition, double, RelativeVerticalPosition, double, double, double, WrapType) | Inserts an image from a stream at the specified position and size. |
 | [InsertImage](insertimage)(string, RelativeHorizontalPosition, double, RelativeVerticalPosition, double, double, double, WrapType) | Inserts an image from a file or URL at the specified position and size. |
 | [InsertNode](insertnode)(Node) | Inserts a text level node inside the current paragraph before the cursor. |

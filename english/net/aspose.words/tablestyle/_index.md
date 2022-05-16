@@ -3,7 +3,7 @@ title: TableStyle
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 5820
+weight: 5870
 url: /net/aspose.words/tablestyle/
 ---
 ## TableStyle class

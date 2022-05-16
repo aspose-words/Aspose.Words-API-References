@@ -3,7 +3,7 @@ title: TextEffect
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 6020
+weight: 6070
 url: /net/aspose.words/texteffect/
 ---
 ## TextEffect enumeration

@@ -3,7 +3,7 @@ title: DocumentSplitCriteria
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 4630
+weight: 4650
 url: /net/aspose.words.saving/documentsplitcriteria/
 ---
 ## DocumentSplitCriteria enumeration

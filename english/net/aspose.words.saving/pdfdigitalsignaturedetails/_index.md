@@ -3,7 +3,7 @@ title: PdfDigitalSignatureDetails
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 5070
+weight: 5100
 url: /net/aspose.words.saving/pdfdigitalsignaturedetails/
 ---
 ## PdfDigitalSignatureDetails class

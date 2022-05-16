@@ -3,7 +3,7 @@ title: PdfPageMode
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 5140
+weight: 5170
 url: /net/aspose.words.saving/pdfpagemode/
 ---
 ## PdfPageMode enumeration

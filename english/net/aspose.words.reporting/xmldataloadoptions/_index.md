@@ -3,7 +3,7 @@ title: XmlDataLoadOptions
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 4410
+weight: 4430
 url: /net/aspose.words.reporting/xmldataloadoptions/
 ---
 ## XmlDataLoadOptions class

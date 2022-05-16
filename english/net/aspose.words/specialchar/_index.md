@@ -3,7 +3,7 @@ title: SpecialChar
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 5700
+weight: 5750
 url: /net/aspose.words/specialchar/
 ---
 ## SpecialChar class

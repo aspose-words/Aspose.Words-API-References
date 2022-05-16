@@ -3,7 +3,7 @@ title: NodeRendererBase
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 4230
+weight: 4240
 url: /net/aspose.words.rendering/noderendererbase/
 ---
 ## NodeRendererBase class
@@ -32,8 +32,8 @@ public abstract class NodeRendererBase
 | [GetOpaqueBoundsInPixels](getopaqueboundsinpixels)(float, float, float) | Calculates the opaque bounds of the shape in pixels for a specified zoom factor and resolution. |
 | [GetSizeInPixels](getsizeinpixels)(float, float) | Calculates the size of the shape in pixels for a specified zoom factor and resolution. |
 | [GetSizeInPixels](getsizeinpixels)(float, float, float) | Calculates the size of the shape in pixels for a specified zoom factor and resolution. |
-| [RenderToScale](rendertoscale)(SKCanvas, float, float, float) |  |
-| [RenderToSize](rendertosize)(SKCanvas, float, float, float, float) |  |
+| [RenderToScale](rendertoscale)(Graphics, float, float, float) | Renders the shape into a Graphics object to a specified scale. |
+| [RenderToSize](rendertosize)(Graphics, float, float, float, float) | Renders the shape into a Graphics object to a specified size. |
 | [Save](save)(Stream, ImageSaveOptions) | Renders the shape into an image and saves into a stream. |
 | [Save](save)(string, ImageSaveOptions) | Renders the shape into an image and saves into a file. |
 

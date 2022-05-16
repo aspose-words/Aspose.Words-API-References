@@ -3,7 +3,7 @@ title: PageInfo
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 4250
+weight: 4260
 url: /net/aspose.words.rendering/pageinfo/
 ---
 ## PageInfo class
@@ -29,8 +29,10 @@ public class PageInfo
 
 | Name | Description |
 | --- | --- |
+| [GetDotNetPaperSize](getdotnetpapersize)(PaperSizeCollection) | Gets the PaperSize object suitable for printing the page represented by this [`PageInfo`](../pageinfo). |
 | [GetSizeInPixels](getsizeinpixels)(float, float) | Calculates the page size in pixels for a specified zoom factor and resolution. |
 | [GetSizeInPixels](getsizeinpixels)(float, float, float) | Calculates the page size in pixels for a specified zoom factor and resolution. |
+| [GetSpecifiedPrinterPaperSource](getspecifiedprinterpapersource)(PaperSourceCollection, PaperSource) | Gets the PaperSource object suitable for printing the page represented by this [`PageInfo`](../pageinfo). |
 
 ### Remarks
 

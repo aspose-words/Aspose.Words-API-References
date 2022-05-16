@@ -11,7 +11,7 @@ url: /net/aspose.words.drawing/imagedata/toimage/
 Gets the image stored in the shape as a Image object.
 
 ```csharp
-public SKBitmap ToImage()
+public Image ToImage()
 ```
 
 ### Remarks

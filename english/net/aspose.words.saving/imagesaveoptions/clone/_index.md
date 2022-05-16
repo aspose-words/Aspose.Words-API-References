@@ -3,7 +3,7 @@ title: Clone
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 190
+weight: 200
 url: /net/aspose.words.saving/imagesaveoptions/clone/
 ---
 ## ImageSaveOptions.Clone method

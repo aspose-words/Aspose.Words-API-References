@@ -8,8 +8,46 @@ url: /net/aspose.words.drawing/imagedata/setimage/
 ---
 ## ImageData.SetImage method (1 of 3)
 
+Sets the image that the shape displays.
+
 ```csharp
-public void SetImage(SKBitmap image)
+public void SetImage(Image image)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| image | Image | The image object. |
+
+### Examples
+
+Shows how to display images from the local file system in a document.
+
+```csharp
+Document doc = new Document();
+
+// To display an image in a document, we will need to create a shape
+// which will contain an image, and then append it to the document's body.
+Shape imgShape;
+
+// Below are two ways of getting an image from a file in the local file system.
+// 1 -  Create an image object from an image file:
+using (Image srcImage = Image.FromFile(ImageDir + "Logo.jpg"))
+{
+    imgShape = new Shape(doc, ShapeType.Image);
+    doc.FirstSection.Body.FirstParagraph.AppendChild(imgShape);
+    imgShape.ImageData.SetImage(srcImage);
+}
+
+// 2 -  Open an image file from the local file system using a stream:
+using (Stream stream = new FileStream(ImageDir + "Logo.jpg", FileMode.Open, FileAccess.Read))
+{
+    imgShape = new Shape(doc, ShapeType.Image);
+    doc.FirstSection.Body.FirstParagraph.AppendChild(imgShape);
+    imgShape.ImageData.SetImage(stream);
+    imgShape.Left = 150.0f;
+}
+
+doc.Save(ArtifactsDir + "Drawing.ImportImage.docx");
 ```
 
 ### See Also

@@ -3,7 +3,7 @@ title: TaskPaneDockState
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 6320
+weight: 6370
 url: /net/aspose.words.webextensions/taskpanedockstate/
 ---
 ## TaskPaneDockState enumeration
