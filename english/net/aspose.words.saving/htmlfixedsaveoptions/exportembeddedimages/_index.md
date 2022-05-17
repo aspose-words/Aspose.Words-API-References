@@ -14,43 +14,6 @@ Specifies whether images should be embedded into Html document in Base64 format.
 public bool ExportEmbeddedImages { get; set; }
 ```
 
-### Examples
-
-Shows how to determine where to store images when exporting a document to Html.
-
-```csharp
-Document doc = new Document(MyDir + "Images.docx");
-
-// When we export a document with embedded images to .html,
-// Aspose.Words can place the images in two possible locations.
-// Setting the "ExportEmbeddedImages" flag to "true" will store the raw data
-// for all images within the output HTML document, in the "src" attribute of <image> tags.
-// Setting this flag to "false" will create an image file in the local file system for every image,
-// and store all these files in a separate folder.
-HtmlFixedSaveOptions htmlFixedSaveOptions = new HtmlFixedSaveOptions
-{
-    ExportEmbeddedImages = exportImages
-};
-
-doc.Save(ArtifactsDir + "HtmlFixedSaveOptions.ExportEmbeddedImages.html", htmlFixedSaveOptions);
-
-string outDocContents = File.ReadAllText(ArtifactsDir + "HtmlFixedSaveOptions.ExportEmbeddedImages.html");
-
-if (exportImages)
-{
-    Assert.False(File.Exists(ArtifactsDir + "HtmlFixedSaveOptions.ExportEmbeddedImages/image001.jpeg"));
-    Assert.True(Regex.Match(outDocContents,
-        "<img class=\"awimg\" style=\"left:0pt; top:0pt; width:493.1pt; height:300.55pt;\" src=\".+\" />").Success);
-}
-else
-{
-    Assert.True(File.Exists(ArtifactsDir + "HtmlFixedSaveOptions.ExportEmbeddedImages/image001.jpeg"));
-    Assert.True(Regex.Match(outDocContents,
-        "<img class=\"awimg\" style=\"left:0pt; top:0pt; width:493.1pt; height:300.55pt;\" " +
-        "src=\"HtmlFixedSaveOptions[.]ExportEmbeddedImages/image001[.]jpeg\" />").Success);
-}
-```
-
 ### See Also
 
 * class [HtmlFixedSaveOptions](../../htmlfixedsaveoptions)

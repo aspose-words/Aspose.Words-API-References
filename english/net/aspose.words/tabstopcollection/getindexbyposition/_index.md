@@ -14,26 +14,6 @@ Gets the index of a tab stop with the specified position in points.
 public int GetIndexByPosition(double position)
 ```
 
-### Examples
-
-Shows how to look up a position to see if a tab stop exists there and obtain its index.
-
-```csharp
-Document doc = new Document();
-TabStopCollection tabStops = doc.FirstSection.Body.Paragraphs[0].ParagraphFormat.TabStops;
-
-// Add a tab stop at a position of 30mm.
-tabStops.Add(ConvertUtil.MillimeterToPoint(30), TabAlignment.Left, TabLeader.Dashes);
-
-// A result of "0" returned by "GetIndexByPosition" confirms that a tab stop
-// at 30mm exists in this collection, and it is at index 0.
-Assert.AreEqual(0, tabStops.GetIndexByPosition(ConvertUtil.MillimeterToPoint(30)));
-
-// A "-1" returned by "GetIndexByPosition" confirms that
-// there is no tab stop in this collection with a position of 60mm.
-Assert.AreEqual(-1, tabStops.GetIndexByPosition(ConvertUtil.MillimeterToPoint(60)));
-```
-
 ### See Also
 
 * class [TabStopCollection](../../tabstopcollection)

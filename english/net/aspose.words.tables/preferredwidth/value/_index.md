@@ -14,20 +14,6 @@ Gets the preferred width value. The unit of measure is specified in the [`Type`]
 public double Value { get; }
 ```
 
-### Examples
-
-Shows how to verify the preferred width type and value of a table cell.
-
-```csharp
-Document doc = new Document(MyDir + "Tables.docx");
-
-Table table = doc.FirstSection.Body.Tables[0];
-Cell firstCell = table.FirstRow.FirstCell;
-
-Assert.AreEqual(PreferredWidthType.Percent, firstCell.CellFormat.PreferredWidth.Type);
-Assert.AreEqual(11.16d, firstCell.CellFormat.PreferredWidth.Value);
-```
-
 ### See Also
 
 * class [PreferredWidth](../../preferredwidth)

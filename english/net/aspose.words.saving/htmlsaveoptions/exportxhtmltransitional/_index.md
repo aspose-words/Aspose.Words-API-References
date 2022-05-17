@@ -30,37 +30,6 @@ When `true`, the beginning of the HTML output document will look like this:
 
 Aspose.Words aims to output XHTML according to the XHTML 1.0 Transitional specification, but the output will not always validate against the DTD. Some structures inside a Microsoft Word document are hard or impossible to map to a document that will validate against the XHTML schema. For example, XHTML does not allow nested lists (UL cannot be nested inside another UL element), but in Microsoft Word document multilevel lists occur quite often.
 
-### Examples
-
-Shows how to display a DOCTYPE heading when converting documents to the Xhtml 1.0 transitional standard.
-
-```csharp
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-
-builder.Writeln("Hello world!");
-
-HtmlSaveOptions options = new HtmlSaveOptions(SaveFormat.Html)
-{
-    HtmlVersion = HtmlVersion.Xhtml,
-    ExportXhtmlTransitional = showDoctypeDeclaration,
-    PrettyFormat = true
-};
-
-doc.Save(ArtifactsDir + "HtmlSaveOptions.ExportXhtmlTransitional.html", options);
-
-// Our document will only contain a DOCTYPE declaration heading if we have set the "ExportXhtmlTransitional" flag to "true".
-string outDocContents = File.ReadAllText(ArtifactsDir + "HtmlSaveOptions.ExportXhtmlTransitional.html");
-
-if (showDoctypeDeclaration)
-    Assert.True(outDocContents.Contains(
-        "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"no\"?>\r\n" +
-        "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\r\n" +
-        "<html xmlns=\"http://www.w3.org/1999/xhtml\">"));
-else
-    Assert.True(outDocContents.Contains("<html>"));
-```
-
 ### See Also
 
 * class [HtmlSaveOptions](../../htmlsaveoptions)

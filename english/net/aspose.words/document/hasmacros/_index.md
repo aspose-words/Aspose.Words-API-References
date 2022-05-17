@@ -14,39 +14,6 @@ Returns **true** if the document has a VBA project (macros).
 public bool HasMacros { get; }
 ```
 
-### Examples
-
-Shows how to use MACROBUTTON fields to allow us to run a document's macros by clicking.
-
-```csharp
-Document doc = new Document(MyDir + "Macro.docm");
-DocumentBuilder builder = new DocumentBuilder(doc);
-
-Assert.IsTrue(doc.HasMacros);
-
-// Insert a MACROBUTTON field, and reference one of the document's macros by name in the MacroName property.
-FieldMacroButton field = (FieldMacroButton)builder.InsertField(FieldType.FieldMacroButton, true);
-field.MacroName = "MyMacro";
-field.DisplayText = "Double click to run macro: " + field.MacroName;
-
-Assert.AreEqual(" MACROBUTTON  MyMacro Double click to run macro: MyMacro", field.GetFieldCode());
-
-// Use the property to reference "ViewZoom200", a macro that ships with Microsoft Word.
-// We can find all other macros via View -> Macros (dropdown) -> View Macros.
-// In that menu, select "Word Commands" from the "Macros in:" drop down.
-// If our document contains a custom macro with the same name as a stock macro,
-// our macro will be the one that the MACROBUTTON field runs.
-builder.InsertParagraph();
-field = (FieldMacroButton)builder.InsertField(FieldType.FieldMacroButton, true);
-field.MacroName = "ViewZoom200";
-field.DisplayText = "Run " + field.MacroName;
-
-Assert.AreEqual(" MACROBUTTON  ViewZoom200 Run ViewZoom200", field.GetFieldCode());
-
-// Save the document as a macro-enabled document type.
-doc.Save(ArtifactsDir + "Field.MACROBUTTON.docm");
-```
-
 ### See Also
 
 * method [RemoveMacros](../removemacros)

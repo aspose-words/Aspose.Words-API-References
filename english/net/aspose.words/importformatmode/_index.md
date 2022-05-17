@@ -42,23 +42,6 @@ The drawback of using **KeepSourceFormatting** is that if you perform several im
 
 Using **KeepDifferentStyles** option allows to reuse destination styles if the formatting they provide is identical to the styles in the source document. If the style in destination document is different from the source then it is imported.
 
-### Examples
-
-Shows how to insert a document into another document.
-
-```csharp
-Document doc = new Document(MyDir + "Document.docx");
-
-DocumentBuilder builder = new DocumentBuilder(doc);
-builder.MoveToDocumentEnd();
-builder.InsertBreak(BreakType.PageBreak);
-
-Document docToInsert = new Document(MyDir + "Formatted elements.docx");
-
-builder.InsertDocument(docToInsert, ImportFormatMode.KeepSourceFormatting);
-builder.Document.Save(ArtifactsDir + "DocumentBuilder.InsertDocument.docx");
-```
-
 ### See Also
 
 * namespace [Aspose.Words](../../aspose.words)

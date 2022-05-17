@@ -14,29 +14,6 @@ Gets or sets text layout information (such as alignment, orientation and tab sto
 public StringFormat StringFormat { get; set; }
 ```
 
-### Examples
-
-Shows how to set render quality options while converting documents to image formats.
-
-```csharp
-Document doc = new Document(MyDir + "Rendering.docx");
-
-GraphicsQualityOptions qualityOptions = new GraphicsQualityOptions
-{
-    SmoothingMode = SmoothingMode.AntiAlias,
-    TextRenderingHint = TextRenderingHint.ClearTypeGridFit,
-    CompositingMode = CompositingMode.SourceOver,
-    CompositingQuality = CompositingQuality.HighQuality,
-    InterpolationMode = InterpolationMode.High,
-    StringFormat = StringFormat.GenericTypographic
-};
-
-ImageSaveOptions saveOptions = new ImageSaveOptions(SaveFormat.Jpeg);
-saveOptions.GraphicsQualityOptions = qualityOptions;
-
-doc.Save(ArtifactsDir + "ImageSaveOptions.GraphicsQuality.jpg", saveOptions);
-```
-
 ### See Also
 
 * class [GraphicsQualityOptions](../../graphicsqualityoptions)

@@ -14,23 +14,6 @@ Returns a collection of mail merge field names used by the field.
 public string[] GetFieldNames()
 ```
 
-### Examples
-
-Shows how to get mail merge field names used by a field.
-
-```csharp
-Document doc = new Document(MyDir + "Field sample - ADDRESSBLOCK.docx");
-
-string[] addressFieldsExpect =
-{
-    "Company", "First Name", "Middle Name", "Last Name", "Suffix", "Address 1", "City", "State",
-    "Country or Region", "Postal Code"
-};
-
-FieldAddressBlock addressBlockField = (FieldAddressBlock) doc.Range.Fields[0];
-string[] addressBlockFieldNames = addressBlockField.GetFieldNames();
-```
-
 ### See Also
 
 * class [FieldAddressBlock](../../fieldaddressblock)

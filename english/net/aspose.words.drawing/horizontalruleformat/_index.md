@@ -24,26 +24,6 @@ public class HorizontalRuleFormat
 | [NoShade](noshade) { get; set; } | Indicates the presence of 3D shading for the horizontal rule. If true, then the horizontal rule is without 3D shading and solid color is used. |
 | [WidthPercent](widthpercent) { get; set; } | Gets or sets the length of the specified horizontal rule expressed as a percentage of the window width. |
 
-### Examples
-
-Shows how to insert a horizontal rule shape, and customize its formatting.
-
-```csharp
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-Shape shape = builder.InsertHorizontalRule();
-
-HorizontalRuleFormat horizontalRuleFormat = shape.HorizontalRuleFormat;
-horizontalRuleFormat.Alignment = HorizontalRuleAlignment.Center;
-horizontalRuleFormat.WidthPercent = 70;
-horizontalRuleFormat.Height = 3;
-horizontalRuleFormat.Color = Color.Blue;
-horizontalRuleFormat.NoShade = true;
-
-Assert.True(shape.IsHorizontalRule);
-Assert.True(shape.HorizontalRuleFormat.NoShade);
-```
-
 ### See Also
 
 * namespace [Aspose.Words.Drawing](../../aspose.words.drawing)

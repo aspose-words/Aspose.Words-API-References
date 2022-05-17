@@ -14,51 +14,6 @@ Initializes a new instance of this class that can be used to save a document in 
 public PdfSaveOptions()
 ```
 
-### Examples
-
-Shows how to enable or disable subsetting when embedding fonts while rendering a document to PDF.
-
-```csharp
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-
-builder.Font.Name = "Arial";
-builder.Writeln("Hello world!");
-builder.Font.Name = "Arvo";
-builder.Writeln("The quick brown fox jumps over the lazy dog.");
-
-// Configure our font sources to ensure that we have access to both the fonts in this document.
-FontSourceBase[] originalFontsSources = FontSettings.DefaultInstance.GetFontsSources();
-Aspose.Words.Fonts.FolderFontSource folderFontSource = new Aspose.Words.Fonts.FolderFontSource(FontsDir, true);
-FontSettings.DefaultInstance.SetFontsSources(new[] { originalFontsSources[0], folderFontSource });
-
-FontSourceBase[] fontSources = FontSettings.DefaultInstance.GetFontsSources();
-Assert.True(fontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Arial"));
-Assert.True(fontSources[1].GetAvailableFonts().Any(f => f.FullFontName == "Arvo"));
-
-// Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
-// to modify how that method converts the document to .PDF.
-PdfSaveOptions options = new PdfSaveOptions();
-
-// Since our document contains a custom font, embedding in the output document may be desirable.
-// Set the "EmbedFullFonts" property to "true" to embed every glyph of every embedded font in the output PDF.
-// The document's size may become very large, but we will have full use of all fonts if we edit the PDF.
-// Set the "EmbedFullFonts" property to "false" to apply subsetting to fonts, saving only the glyphs
-// that the document is using. The file will be considerably smaller,
-// but we may need access to any custom fonts if we edit the document.
-options.EmbedFullFonts = embedFullFonts;
-
-doc.Save(ArtifactsDir + "PdfSaveOptions.EmbedFullFonts.pdf", options);
-
-if (embedFullFonts)
-    Assert.That(500000, Is.LessThan(new FileInfo(ArtifactsDir + "PdfSaveOptions.EmbedFullFonts.pdf").Length));
-else
-    Assert.That(25000, Is.AtLeast(new FileInfo(ArtifactsDir + "PdfSaveOptions.EmbedFullFonts.pdf").Length));
-
-// Restore the original font sources.
-FontSettings.DefaultInstance.SetFontsSources(originalFontsSources);
-```
-
 ### See Also
 
 * class [PdfSaveOptions](../../pdfsaveoptions)

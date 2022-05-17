@@ -55,31 +55,6 @@ public void SetImage(Image image, ImageWatermarkOptions options)
 
 If [`ImageWatermarkOptions`](../../imagewatermarkoptions) is null, the watermark will be set with default options.
 
-### Examples
-
-Shows how to create a watermark from an image in the local file system.
-
-```csharp
-Document doc = new Document();
-
-            // Modify the image watermark's appearance with an ImageWatermarkOptions object,
-            // then pass it while creating a watermark from an image file.
-            ImageWatermarkOptions imageWatermarkOptions = new ImageWatermarkOptions();
-            imageWatermarkOptions.Scale = 5;
-            imageWatermarkOptions.IsWashout = false;
-
-#if NET48 || JAVA
-            doc.Watermark.SetImage(Image.FromFile(ImageDir + "Logo.jpg"), imageWatermarkOptions);
-#elif NET5_0 || __MOBILE__
-            using (SKBitmap image = SKBitmap.Decode(ImageDir + "Logo.jpg"))
-            {
-                doc.Watermark.SetImage(image, imageWatermarkOptions);
-            }
-#endif
-
-            doc.Save(ArtifactsDir + "Document.ImageWatermark.docx");
-```
-
 ### See Also
 
 * class [ImageWatermarkOptions](../../imagewatermarkoptions)

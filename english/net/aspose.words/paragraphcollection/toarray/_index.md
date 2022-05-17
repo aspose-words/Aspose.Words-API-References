@@ -18,37 +18,6 @@ public Paragraph[] ToArray()
 
 An array of paragraphs.
 
-### Examples
-
-Shows how to create an array from a NodeCollection.
-
-```csharp
-Document doc = new Document(MyDir + "Paragraphs.docx");
-
-Paragraph[] paras = doc.FirstSection.Body.Paragraphs.ToArray();
-
-Assert.AreEqual(22, paras.Length);
-```
-
-Shows how to use "hot remove" to remove a node during enumeration.
-
-```csharp
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-
-builder.Writeln("The first paragraph");
-builder.Writeln("The second paragraph");
-builder.Writeln("The third paragraph");
-builder.Writeln("The fourth paragraph");
-
-// Remove a node from the collection in the middle of an enumeration.
-foreach (Paragraph para in doc.FirstSection.Body.Paragraphs.ToArray())
-    if (para.Range.Text.Contains("third"))
-        para.Remove();
-
-Assert.False(doc.GetText().Contains("The third paragraph"));
-```
-
 ### See Also
 
 * class [Paragraph](../../paragraph)

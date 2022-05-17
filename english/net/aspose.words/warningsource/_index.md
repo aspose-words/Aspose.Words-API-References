@@ -43,7 +43,7 @@ public enum WarningSource
 | Svg | `22` | Module that reads SVG files. |
 | Markdown | `23` | Module that reads/writes Markdown files. |
 | Chm | `24` | Module that reads CHM files. |
-| Epub | `25` |  |
+| Epub | `25` | Module that reads/writes EPUB files. |
 
 ### See Also
 

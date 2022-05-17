@@ -23,25 +23,6 @@ public void AddPrinterFont(string fontFullName, string fontPclName)
 
 There are 52 fonts that are to be built in any printer according to Pcl specification. However manufactures can add some other fonts to their devices.
 
-### Examples
-
-Shows how to get a printer to substitute all instances of a specific font with a different font.
-
-```csharp
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-
-builder.Font.Name = "Courier";
-builder.Write("Hello world!");
-
-PclSaveOptions saveOptions = new PclSaveOptions();
-saveOptions.AddPrinterFont("Courier New", "Courier");
-
-// When printing this document, the printer will use the "Courier New" font
-// to access places where our document used the "Courier" font.
-doc.Save(ArtifactsDir + "PclSaveOptions.AddPrinterFont.pcl", saveOptions);
-```
-
 ### See Also
 
 * class [PclSaveOptions](../../pclsaveoptions)

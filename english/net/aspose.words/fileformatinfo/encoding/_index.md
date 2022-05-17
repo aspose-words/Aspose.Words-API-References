@@ -14,20 +14,6 @@ Gets the detected encoding if applicable to the current document format. At the 
 public Encoding Encoding { get; }
 ```
 
-### Examples
-
-Shows how to detect encoding in an html file.
-
-```csharp
-FileFormatInfo info = FileFormatUtil.DetectFileFormat(MyDir + "Document.html");
-
-Assert.AreEqual(LoadFormat.Html, info.LoadFormat);
-
-// The Encoding property is used only when we create a FileFormatInfo object for an html document.
-Assert.AreEqual("Western European (Windows)", info.Encoding.EncodingName);
-Assert.AreEqual(1252, info.Encoding.CodePage);
-```
-
 ### See Also
 
 * class [FileFormatInfo](../../fileformatinfo)

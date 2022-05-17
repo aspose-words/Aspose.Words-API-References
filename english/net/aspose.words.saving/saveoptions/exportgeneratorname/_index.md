@@ -14,19 +14,6 @@ When true, causes the name and version of Aspose.Words to be embedded into produ
 public bool ExportGeneratorName { get; set; }
 ```
 
-### Examples
-
-Shows how to disable adding name and version of Aspose.Words into produced files.
-
-```csharp
-Document doc = new Document();
-
-// Use https://docs.aspose.com/words/net/generator-or-producer-name-included-in-output-documents/ to know how to check the result.
-OoxmlSaveOptions saveOptions = new OoxmlSaveOptions { ExportGeneratorName = false };
-
-doc.Save(ArtifactsDir + "OoxmlSaveOptions.ExportGeneratorName.docx", saveOptions);
-```
-
 ### See Also
 
 * class [SaveOptions](../../saveoptions)

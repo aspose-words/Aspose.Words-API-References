@@ -18,27 +18,6 @@ public PreferredWidth PreferredWidth { get; set; }
 
 The default value is [`Auto`](../../preferredwidth/auto).
 
-### Examples
-
-Shows how to set a table to auto fit to 50% of the width of the page.
-
-```csharp
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-
-Table table = builder.StartTable();
-builder.InsertCell();
-builder.Write("Cell #1");
-builder.InsertCell();
-builder.Write("Cell #2");
-builder.InsertCell();
-builder.Write("Cell #3");
-
-table.PreferredWidth = PreferredWidth.FromPercent(50);
-
-doc.Save(ArtifactsDir + "DocumentBuilder.InsertTableWithPreferredWidth.docx");
-```
-
 ### See Also
 
 * class [PreferredWidth](../../preferredwidth)

@@ -14,21 +14,6 @@ Gets or sets a flag indicating whether East Asian line-breaking rules are applie
 public bool FarEastLineBreakControl { get; set; }
 ```
 
-### Examples
-
-Shows how to set special properties for Asian typography.
-
-```csharp
-Document doc = new Document(MyDir + "Document.docx");
-
-ParagraphFormat format = doc.FirstSection.Body.FirstParagraph.ParagraphFormat;
-format.FarEastLineBreakControl = true;
-format.WordWrap = false;
-format.HangingPunctuation = true;
-
-doc.Save(ArtifactsDir + "ParagraphFormat.AsianTypographyProperties.docx");
-```
-
 ### See Also
 
 * class [ParagraphFormat](../../paragraphformat)

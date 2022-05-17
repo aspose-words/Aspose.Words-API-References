@@ -20,30 +20,6 @@ Cannot be null.
 
 Default is empty string.
 
-### Examples
-
-Shows how to print all of a document's comments and their replies.
-
-```csharp
-Document doc = new Document(MyDir + "Comments.docx");
-
-NodeCollection comments = doc.GetChildNodes(NodeType.Comment, true);
-
-// If a comment has no ancestor, it is a "top-level" comment as opposed to a reply-type comment.
-// Print all top-level comments along with any replies they may have.
-foreach (Comment comment in comments.OfType<Comment>().Where(c => c.Ancestor == null))
-{
-    Console.WriteLine("Top-level comment:");
-    Console.WriteLine($"\t\"{comment.GetText().Trim()}\", by {comment.Author}");
-    Console.WriteLine($"Has {comment.Replies.Count} replies");
-    foreach (Comment commentReply in comment.Replies)
-    {
-        Console.WriteLine($"\t\"{commentReply.GetText().Trim()}\", by {commentReply.Author}");
-    }
-    Console.WriteLine();
-}
-```
-
 ### See Also
 
 * class [Comment](../../comment)

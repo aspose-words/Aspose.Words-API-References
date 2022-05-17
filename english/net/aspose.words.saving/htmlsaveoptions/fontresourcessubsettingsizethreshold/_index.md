@@ -26,60 +26,6 @@ Font subsetting works as follows:
 
 **Important!** When exporting font resources, font licensing issues should be considered. Authors who want to use specific fonts via a downloadable font mechanism must always carefully verify that their intended use is within the scope of the font license. Many commercial fonts presently do not allow web downloading of their fonts in any form. License agreements that cover some fonts specifically note that usage via **@font-face** rules in CSS style sheets is not allowed. Font subsetting can also violate license terms.
 
-### Examples
-
-Shows how to work with font subsetting.
-
-```csharp
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-
-builder.Font.Name = "Arial";
-builder.Writeln("Hello world!");
-builder.Font.Name = "Times New Roman";
-builder.Writeln("Hello world!");
-builder.Font.Name = "Courier New";
-builder.Writeln("Hello world!");
-
-// When we save the document to HTML, we can pass a SaveOptions object configure font subsetting.
-// Suppose we set the "ExportFontResources" flag to "true" and also name a folder in the "FontsFolder" property.
-// In that case, the saving operation will create that folder and place a .ttf file inside
-// that folder for each font that our document uses.
-// Each .ttf file will contain that font's entire glyph set,
-// which may potentially result in a very large file that accompanies the document.
-// When we apply subsetting to a font, its exported raw data will only contain the glyphs that the document is
-// using instead of the entire glyph set. If the text in our document only uses a small fraction of a font's
-// glyph set, then subsetting will significantly reduce our output documents' size.
-// We can use the "FontResourcesSubsettingSizeThreshold" property to define a .ttf file size, in bytes.
-// If an exported font creates a size bigger file than that, then the save operation will apply subsetting to that font. 
-// Setting a threshold of 0 applies subsetting to all fonts,
-// and setting it to "int.MaxValue" effectively disables subsetting.
-string fontsFolder = ArtifactsDir + "HtmlSaveOptions.FontSubsetting.Fonts";
-
-HtmlSaveOptions options = new HtmlSaveOptions
-{
-    ExportFontResources = true,
-    FontsFolder = fontsFolder,
-    FontResourcesSubsettingSizeThreshold = fontResourcesSubsettingSizeThreshold
-};
-
-doc.Save(ArtifactsDir + "HtmlSaveOptions.FontSubsetting.html", options);
-
-string[] fontFileNames = Directory.GetFiles(fontsFolder).Where(s => s.EndsWith(".ttf")).ToArray();
-
-Assert.AreEqual(3, fontFileNames.Length);
-
-foreach (string filename in fontFileNames)
-{
-    // By default, the .ttf files for each of our three fonts will be over 700MB.
-    // Subsetting will reduce them all to under 30MB.
-    FileInfo fontFileInfo = new FileInfo(filename);
-
-    Assert.True(fontFileInfo.Length > 700000 || fontFileInfo.Length < 30000);
-    Assert.True(Math.Max(fontResourcesSubsettingSizeThreshold, 30000) > new FileInfo(filename).Length);
-}
-```
-
 ### See Also
 
 * class [HtmlSaveOptions](../../htmlsaveoptions)

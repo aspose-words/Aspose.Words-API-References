@@ -21,14 +21,6 @@ public static class BuildVersionInfo
 | static [Product](product) { get; } | Gets the full name of the product. |
 | static [Version](version) { get; } | Gets the product version. |
 
-### Examples
-
-Shows how to display information about your installed version of Aspose.Words.
-
-```csharp
-Console.WriteLine($"I am currently using {BuildVersionInfo.Product}, version number {BuildVersionInfo.Version}!");
-```
-
 ### See Also
 
 * namespace [Aspose.Words](../../aspose.words)

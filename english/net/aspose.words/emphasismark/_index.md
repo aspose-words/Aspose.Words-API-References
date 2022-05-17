@@ -24,25 +24,6 @@ public enum EmphasisMark
 | OverWhiteCircle | `3` | Emphasis mark is an empty white circle displayed above text. |
 | UnderSolidCircle | `4` | Emphasis mark is a solid black circle displayed below text. |
 
-### Examples
-
-Shows how to add additional character rendered above/below the glyph-character.
-
-```csharp
-DocumentBuilder builder = new DocumentBuilder();
-
-// Possible types of emphasis mark:
-// https://apireference.aspose.com/words/net/aspose.words/emphasismark
-builder.Font.EmphasisMark = emphasisMark; 
-
-builder.Write("Emphasis text");
-builder.Writeln();
-builder.Font.ClearFormatting();
-builder.Write("Simple text");
-
-builder.Document.Save(ArtifactsDir + "Fonts.SetEmphasisMark.docx");
-```
-
 ### See Also
 
 * namespace [Aspose.Words](../../aspose.words)

@@ -24,48 +24,6 @@ public enum FlipOrientation
 | Vertical | `2` | Flip along the x-axis, reversing the y-coordinates. |
 | Both | `3` | Flip along both the y- and x-axis. |
 
-### Examples
-
-Shows how to flip a shape on an axis.
-
-```csharp
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-
-// Insert an image shape and leave its orientation in its default state.
-Shape shape = builder.InsertShape(ShapeType.Rectangle, RelativeHorizontalPosition.LeftMargin, 100,
-    RelativeVerticalPosition.TopMargin, 100, 100, 100, WrapType.None);
-shape.ImageData.SetImage(ImageDir + "Logo.jpg");
-
-Assert.AreEqual(FlipOrientation.None, shape.FlipOrientation);
-
-shape = builder.InsertShape(ShapeType.Rectangle, RelativeHorizontalPosition.LeftMargin, 250,
-    RelativeVerticalPosition.TopMargin, 100, 100, 100, WrapType.None);
-shape.ImageData.SetImage(ImageDir + "Logo.jpg");
-
-// Set the "FlipOrientation" property to "FlipOrientation.Horizontal" to flip the second shape on the y-axis,
-// making it into a horizontal mirror image of the first shape.
-shape.FlipOrientation = FlipOrientation.Horizontal;
-
-shape = builder.InsertShape(ShapeType.Rectangle, RelativeHorizontalPosition.LeftMargin, 100,
-    RelativeVerticalPosition.TopMargin, 250, 100, 100, WrapType.None);
-shape.ImageData.SetImage(ImageDir + "Logo.jpg");
-
-// Set the "FlipOrientation" property to "FlipOrientation.Horizontal" to flip the third shape on the x-axis,
-// making it into a vertical mirror image of the first shape.
-shape.FlipOrientation = FlipOrientation.Vertical;
-
-shape = builder.InsertShape(ShapeType.Rectangle, RelativeHorizontalPosition.LeftMargin, 250,
-    RelativeVerticalPosition.TopMargin, 250, 100, 100, WrapType.None);
-shape.ImageData.SetImage(ImageDir + "Logo.jpg");
-
-// Set the "FlipOrientation" property to "FlipOrientation.Horizontal" to flip the fourth shape on both the x and y axes,
-// making it into a horizontal and vertical mirror image of the first shape.
-shape.FlipOrientation = FlipOrientation.Both;
-
-doc.Save(ArtifactsDir + "Shape.FlipShapeOrientation.docx");
-```
-
 ### See Also
 
 * property [FlipOrientation](../shapebase/fliporientation)

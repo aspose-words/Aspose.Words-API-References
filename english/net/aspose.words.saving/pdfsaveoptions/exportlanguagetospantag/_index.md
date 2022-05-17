@@ -22,26 +22,6 @@ When the value is `true` "Span" tag is created for the text with non-default lan
 
 This value is ignored when [`ExportDocumentStructure`](../exportdocumentstructure) is `false`.
 
-### Examples
-
-Shows how to create a "Span" tag in the document structure to export the text language.
-
-```csharp
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-
-builder.Writeln("Hello world!");
-builder.Writeln("Hola mundo!");
-
-PdfSaveOptions saveOptions = new PdfSaveOptions
-{
-    // Note, when "ExportDocumentStructure" is false, "ExportLanguageToSpanTag" is ignored.
-    ExportDocumentStructure = true, ExportLanguageToSpanTag = true
-};
-
-doc.Save(ArtifactsDir + "PdfSaveOptions.ExportLanguageToSpanTag.pdf", saveOptions);
-```
-
 ### See Also
 
 * class [PdfSaveOptions](../../pdfsaveoptions)

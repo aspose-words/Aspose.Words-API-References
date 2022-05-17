@@ -14,34 +14,6 @@ Gets or sets the character style applied to this formatting.
 public Style Style { get; set; }
 ```
 
-### Examples
-
-Applies a double underline to all runs in a document that are formatted with custom character styles.
-
-```csharp
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-
-// Insert a custom style and apply it to text created using a document builder.
-Style style = doc.Styles.Add(StyleType.Character, "MyStyle");
-style.Font.Color = Color.Red;
-style.Font.Name = "Courier New";
-
-builder.Font.StyleName = "MyStyle";
-builder.Write("This text is in a custom style.");
-
-// Iterate over every run and add a double underline to every custom style.
-foreach (Run run in doc.GetChildNodes(NodeType.Run, true).OfType<Run>())
-{
-    Style charStyle = run.Font.Style;
-
-    if (!charStyle.BuiltIn)
-        run.Font.Underline = Underline.Double;
-}
-
-doc.Save(ArtifactsDir + "Font.Style.docx");
-```
-
 ### See Also
 
 * class [Style](../../style)

@@ -20,33 +20,6 @@ Default is empty string.
 
 Cannot be null, but can be an empty string.
 
-### Examples
-
-Shows how to set the title of a shape.
-
-```csharp
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-
-// Create a shape, give it a title, and then add it to the document.
-Shape shape = new Shape(doc, ShapeType.Cube);
-shape.Width = 200;
-shape.Height = 200;
-shape.Title = "My cube";
-
-builder.InsertNode(shape);
-
-// When we save a document with a shape that has a title,
-// Aspose.Words will store that title in the shape's Alt Text.
-doc.Save(ArtifactsDir + "Shape.Title.docx");
-
-doc = new Document(ArtifactsDir + "Shape.Title.docx");
-shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
-
-Assert.AreEqual(string.Empty, shape.Title);
-Assert.AreEqual("Title: My cube", shape.AlternativeText);
-```
-
 ### See Also
 
 * class [ShapeBase](../../shapebase)

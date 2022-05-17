@@ -43,30 +43,6 @@ public class LoadOptions
 | [UpdateDirtyFields](updatedirtyfields) { get; set; } | Specifies whether to update the fields with the `dirty` attribute. |
 | [WarningCallback](warningcallback) { get; set; } | Called during a load operation, when an issue is detected that might result in data or formatting fidelity loss. |
 
-### Examples
-
-Shows how to load an encrypted Microsoft Word document.
-
-```csharp
-Document doc;
-
-// Aspose.Words throw an exception if we try to open an encrypted document without its password.
-Assert.Throws<IncorrectPasswordException>(() => doc = new Document(MyDir + "Encrypted.docx"));
-
-// When loading such a document, the password is passed to the document's constructor using a LoadOptions object.
-LoadOptions options = new LoadOptions("docPassword");
-
-// There are two ways of loading an encrypted document with a LoadOptions object.
-// 1 -  Load the document from the local file system by filename:
-doc = new Document(MyDir + "Encrypted.docx", options);
-
-// 2 -  Load the document from a stream:
-using (Stream stream = File.OpenRead(MyDir + "Encrypted.docx"))
-{
-    doc = new Document(stream, options);
-}
-```
-
 ### See Also
 
 * namespace [Aspose.Words.Loading](../../aspose.words.loading)

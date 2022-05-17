@@ -8,7 +8,7 @@ url: /net/aspose.words.markup/structureddocumenttagcollection/item/
 ---
 ## StructuredDocumentTagCollection indexer
 
-Returns the structured document tag by Id.
+Returns the structured document tag at the specified index.
 
 ```csharp
 public IStructuredDocumentTag this[int index] { get; }
@@ -16,7 +16,7 @@ public IStructuredDocumentTag this[int index] { get; }
 
 | Parameter | Description |
 | --- | --- |
-| id | The structured document tag identifier. |
+| index | An index into the collection. |
 
 ### See Also
 

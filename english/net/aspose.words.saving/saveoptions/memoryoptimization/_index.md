@@ -18,25 +18,6 @@ public bool MemoryOptimization { get; set; }
 
 Setting this option to true can significantly decrease memory consumption while saving large documents at the cost of slower saving time.
 
-### Examples
-
-Shows an option to optimize memory consumption when rendering large documents to PDF.
-
-```csharp
-Document doc = new Document(MyDir + "Rendering.docx");
-
-// Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
-// to modify how that method converts the document to .PDF.
-SaveOptions saveOptions = SaveOptions.CreateSaveOptions(SaveFormat.Pdf);
-
-// Set the "MemoryOptimization" property to "true" to lower the memory footprint of large documents' saving operations
-// at the cost of increasing the duration of the operation.
-// Set the "MemoryOptimization" property to "false" to save the document as a PDF normally.
-saveOptions.MemoryOptimization = memoryOptimization;
-
-doc.Save(ArtifactsDir + "PdfSaveOptions.MemoryOptimization.pdf", saveOptions);
-```
-
 ### See Also
 
 * class [SaveOptions](../../saveoptions)

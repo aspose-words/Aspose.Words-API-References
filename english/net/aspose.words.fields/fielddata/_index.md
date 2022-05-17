@@ -20,18 +20,6 @@ public class FieldData : Field
 | --- | --- |
 | [FieldData](fielddata)() | The default constructor. |
 
-### Examples
-
-Shows how to insert a DATA field into a document.
-
-```csharp
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-
-FieldData field = (FieldData)builder.InsertField(FieldType.FieldData, true);
-Assert.AreEqual(" DATA ", field.GetFieldCode());
-```
-
 ### See Also
 
 * class [Field](../field)

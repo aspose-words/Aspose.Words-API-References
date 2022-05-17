@@ -14,18 +14,6 @@ Returns true if formatting of the object was changed in Microsoft Word while cha
 public bool IsFormatRevision { get; }
 ```
 
-### Examples
-
-Shows how to check whether a paragraph is a format revision.
-
-```csharp
-Document doc = new Document(MyDir + "Format revision.docx");
-
-// This paragraph is a "Format" revision, which occurs when we change the formatting of existing text
-// while tracking revisions in Microsoft Word via "Review" -> "Track changes".
-Assert.True(doc.FirstSection.Body.FirstParagraph.IsFormatRevision);
-```
-
 ### See Also
 
 * class [Paragraph](../../paragraph)

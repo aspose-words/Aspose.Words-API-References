@@ -14,39 +14,6 @@ Specifies the horizontal alignment of pages in an HTML document. Default value i
 public HtmlFixedPageHorizontalAlignment PageHorizontalAlignment { get; set; }
 ```
 
-### Examples
-
-Shows how to set the horizontal alignment of pages when saving a document to HTML.
-
-```csharp
-Document doc = new Document(MyDir + "Rendering.docx");
-
-HtmlFixedSaveOptions htmlFixedSaveOptions = new HtmlFixedSaveOptions
-{
-    PageHorizontalAlignment = pageHorizontalAlignment
-};
-
-doc.Save(ArtifactsDir + "HtmlFixedSaveOptions.HorizontalAlignment.html", htmlFixedSaveOptions);
-
-string outDocContents = File.ReadAllText(ArtifactsDir + "HtmlFixedSaveOptions.HorizontalAlignment/styles.css");
-
-switch (pageHorizontalAlignment)
-{
-    case HtmlFixedPageHorizontalAlignment.Center:
-        Assert.True(Regex.Match(outDocContents,
-            "[.]awpage { position:relative; border:solid 1pt black; margin:10pt auto 10pt auto; overflow:hidden; }").Success);
-        break;
-    case HtmlFixedPageHorizontalAlignment.Left:
-        Assert.True(Regex.Match(outDocContents, 
-            "[.]awpage { position:relative; border:solid 1pt black; margin:10pt auto 10pt 10pt; overflow:hidden; }").Success);
-        break;
-    case HtmlFixedPageHorizontalAlignment.Right:
-        Assert.True(Regex.Match(outDocContents, 
-            "[.]awpage { position:relative; border:solid 1pt black; margin:10pt 10pt 10pt auto; overflow:hidden; }").Success);
-        break;
-}
-```
-
 ### See Also
 
 * enum [HtmlFixedPageHorizontalAlignment](../../htmlfixedpagehorizontalalignment)

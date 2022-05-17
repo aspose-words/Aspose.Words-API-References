@@ -26,30 +26,6 @@ If the folder specified by `ImagesFolder` doesn't exist, it will be created auto
 
 [`ResourceFolder`](../resourcefolder) is another way to specify a folder where images should be saved.
 
-### Examples
-
-Shows how to specify the folder for storing linked images after saving to .html.
-
-```csharp
-Document doc = new Document(MyDir + "Rendering.docx");
-
-string imagesDir = Path.Combine(ArtifactsDir, "SaveHtmlWithOptions");
-
-if (Directory.Exists(imagesDir))
-    Directory.Delete(imagesDir, true);
-
-Directory.CreateDirectory(imagesDir);
-
-// Set an option to export form fields as plain text instead of HTML input elements.
-HtmlSaveOptions options = new HtmlSaveOptions(SaveFormat.Html)
-{
-    ExportTextInputFormFieldAsText = true, 
-    ImagesFolder = imagesDir
-};
-
-doc.Save(ArtifactsDir + "HtmlSaveOptions.SaveHtmlWithOptions.html", options);
-```
-
 ### See Also
 
 * class [HtmlSaveOptions](../../htmlsaveoptions)

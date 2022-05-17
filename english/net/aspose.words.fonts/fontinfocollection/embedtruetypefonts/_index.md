@@ -20,26 +20,6 @@ Embedding TrueType fonts allows others to view the document with the same fonts 
 
 This option works for DOC, DOCX and RTF formats only.
 
-### Examples
-
-Shows how to save a document with embedded TrueType fonts.
-
-```csharp
-Document doc = new Document(MyDir + "Document.docx");
-
-FontInfoCollection fontInfos = doc.FontInfos;
-fontInfos.EmbedTrueTypeFonts = embedAllFonts;
-fontInfos.EmbedSystemFonts = embedAllFonts;
-fontInfos.SaveSubsetFonts = embedAllFonts;
-
-doc.Save(ArtifactsDir + "Font.FontInfoCollection.docx");
-
-if (embedAllFonts)
-    Assert.That(25000, Is.LessThan(new FileInfo(ArtifactsDir + "Font.FontInfoCollection.docx").Length));
-else
-    Assert.That(15000, Is.AtLeast(new FileInfo(ArtifactsDir + "Font.FontInfoCollection.docx").Length));
-```
-
 ### See Also
 
 * class [FontInfoCollection](../../fontinfocollection)

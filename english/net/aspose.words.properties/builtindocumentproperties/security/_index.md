@@ -22,48 +22,6 @@ To protect or unprotect a document use the [`Protect`](../../../aspose.words/doc
 
 Aspose.Words updates this property to a correct value before saving a document.
 
-### Examples
-
-Shows how to use document properties to display the security level of a document.
-
-```csharp
-Document doc = new Document();
-
-Assert.AreEqual(DocumentSecurity.None, doc.BuiltInDocumentProperties.Security);
-
-// If we configure a document to be read-only, it will display this status using the "Security" built-in property.
-doc.WriteProtection.ReadOnlyRecommended = true;
-doc.Save(ArtifactsDir + "DocumentProperties.Security.ReadOnlyRecommended.docx");
-
-Assert.AreEqual(DocumentSecurity.ReadOnlyRecommended, 
-    new Document(ArtifactsDir + "DocumentProperties.Security.ReadOnlyRecommended.docx").BuiltInDocumentProperties.Security);
-
-// Write-protect a document, and then verify its security level.
-doc = new Document();
-
-Assert.False(doc.WriteProtection.IsWriteProtected);
-
-doc.WriteProtection.SetPassword("MyPassword");
-
-Assert.True(doc.WriteProtection.ValidatePassword("MyPassword"));
-Assert.True(doc.WriteProtection.IsWriteProtected);
-
-doc.Save(ArtifactsDir + "DocumentProperties.Security.ReadOnlyEnforced.docx");
-
-Assert.AreEqual(DocumentSecurity.ReadOnlyEnforced,
-    new Document(ArtifactsDir + "DocumentProperties.Security.ReadOnlyEnforced.docx").BuiltInDocumentProperties.Security);
-
-// "Security" is a descriptive property. We can edit its value manually.
-doc = new Document();
-
-doc.Protect(ProtectionType.AllowOnlyComments, "MyPassword");
-doc.BuiltInDocumentProperties.Security = DocumentSecurity.ReadOnlyExceptAnnotations;
-doc.Save(ArtifactsDir + "DocumentProperties.Security.ReadOnlyExceptAnnotations.docx");
-
-Assert.AreEqual(DocumentSecurity.ReadOnlyExceptAnnotations,
-    new Document(ArtifactsDir + "DocumentProperties.Security.ReadOnlyExceptAnnotations.docx").BuiltInDocumentProperties.Security);
-```
-
 ### See Also
 
 * enum [DocumentSecurity](../../documentsecurity)

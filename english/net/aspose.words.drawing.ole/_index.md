@@ -1,7 +1,7 @@
 ---
 title: Aspose.Words.Drawing.Ole
 second_title: Aspose.Words for .NET API Reference
-description: ContainsclassestoworkwithOLEActiveXcontrolsandformsinMicrosoftWorddocuments.
+description: Contains classes to work with OLE  ActiveX controls and forms in Microsoft Word documents.
 type: docs
 weight: 70
 url: /net/aspose.words.drawing.ole/

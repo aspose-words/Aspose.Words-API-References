@@ -18,36 +18,6 @@ public IEnumerator<Node> GetEnumerator()
 
 An IEnumerator.
 
-### Examples
-
-Shows how to select certain nodes by using an XPath expression.
-
-```csharp
-Document doc = new Document(MyDir + "Tables.docx");
-
-// This expression will extract all paragraph nodes,
-// which are descendants of any table node in the document.
-NodeList nodeList = doc.SelectNodes("//Table//Paragraph");
-
-// Iterate through the list with an enumerator and print the contents of every paragraph in each cell of the table.
-int index = 0;
-
-using (IEnumerator<Node> e = nodeList.GetEnumerator())
-    while (e.MoveNext())
-        Console.WriteLine($"Table paragraph index {index++}, contents: \"{e.Current.GetText().Trim()}\"");
-
-// This expression will select any paragraphs that are direct children of any Body node in the document.
-nodeList = doc.SelectNodes("//Body/Paragraph");
-
-// We can treat the list as an array.
-Assert.AreEqual(4, nodeList.ToArray().Length);
-
-// Use SelectSingleNode to select the first result of the same expression as above.
-Node node = doc.SelectSingleNode("//Body/Paragraph");
-
-Assert.AreEqual(typeof(Paragraph), node.GetType());
-```
-
 ### See Also
 
 * class [Node](../../node)

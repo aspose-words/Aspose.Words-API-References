@@ -102,26 +102,6 @@ When a shape is floating, it is positioned relative to something (e.g the curren
 
 A floating shape be positioned explicitly using the [`Left`](./left) and [`Top`](./top) properties or aligned relative to some other object using the [`HorizontalAlignment`](./horizontalalignment) and [`VerticalAlignment`](./verticalalignment) properties.
 
-### Examples
-
-Shows how to insert a floating image to the center of a page.
-
-```csharp
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-
-// Insert a floating image that will appear behind the overlapping text and align it to the page's center.
-Shape shape = builder.InsertImage(ImageDir + "Logo.jpg");
-shape.WrapType = WrapType.None;
-shape.BehindText = true;
-shape.RelativeHorizontalPosition = RelativeHorizontalPosition.Page;
-shape.RelativeVerticalPosition = RelativeVerticalPosition.Page;
-shape.HorizontalAlignment = HorizontalAlignment.Center;
-shape.VerticalAlignment = VerticalAlignment.Center;
-
-doc.Save(ArtifactsDir + "Image.CreateFloatingPageCenter.docx");
-```
-
 ### See Also
 
 * class [CompositeNode](../../aspose.words/compositenode)

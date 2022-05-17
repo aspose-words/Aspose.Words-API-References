@@ -1,7 +1,7 @@
 ---
 title: Aspose.Words.Fields
 second_title: Aspose.Words for .NET API Reference
-description: TheAspose.Words.FieldsnamespacecontainsclassesthatrepresentMicrosoftWordfieldsinadocument.
+description: The Aspose.Words.Fields namespace contains classes that represent Microsoft Word fields in a document.
 type: docs
 weight: 80
 url: /net/aspose.words.fields/

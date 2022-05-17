@@ -29,20 +29,6 @@ public static class FileFormatUtil
 | static [SaveFormatToExtension](saveformattoextension)(SaveFormat) | Converts a save format enumerated value into a file extension. The returned extension is a lower-case string with a leading dot. |
 | static [SaveFormatToLoadFormat](saveformattoloadformat)(SaveFormat) | Converts a [`SaveFormat`](../saveformat) value to a [`LoadFormat`](../loadformat) value if possible. |
 
-### Examples
-
-Shows how to detect encoding in an html file.
-
-```csharp
-FileFormatInfo info = FileFormatUtil.DetectFileFormat(MyDir + "Document.html");
-
-Assert.AreEqual(LoadFormat.Html, info.LoadFormat);
-
-// The Encoding property is used only when we create a FileFormatInfo object for an html document.
-Assert.AreEqual("Western European (Windows)", info.Encoding.EncodingName);
-Assert.AreEqual(1252, info.Encoding.CodePage);
-```
-
 ### See Also
 
 * namespace [Aspose.Words](../../aspose.words)

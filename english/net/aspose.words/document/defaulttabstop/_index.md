@@ -14,22 +14,6 @@ Gets or sets the interval (in points) between the default tab stops.
 public double DefaultTabStop { get; set; }
 ```
 
-### Examples
-
-Shows how to set a custom interval for tab stop positions.
-
-```csharp
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-
-// Set tab stops to appear every 72 points (1 inch).
-builder.Document.DefaultTabStop = 72;
-
-// Each tab character snaps the text after it to the next closest tab stop position.
-builder.Writeln("Hello" + ControlChar.Tab + "World!");
-builder.Writeln("Hello" + ControlChar.TabChar + "World!");
-```
-
 ### See Also
 
 * class [TabStopCollection](../../tabstopcollection)

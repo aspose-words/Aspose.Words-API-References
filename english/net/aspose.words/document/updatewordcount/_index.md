@@ -22,40 +22,6 @@ Note that **UpdateWordCount** does not update number of lines and pages properti
 
 When you use an evaluation version, the evaluation watermark will also be included in the word count.
 
-### Examples
-
-Shows how to update all list labels in a document.
-
-```csharp
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-
-builder.Writeln("Lorem ipsum dolor sit amet, consectetur adipiscing elit, " +
-                "sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.");
-builder.Write("Ut enim ad minim veniam, " +
-                "quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.");
-
-// Aspose.Words does not track document metrics like these in real time.
-Assert.AreEqual(0, doc.BuiltInDocumentProperties.Characters);
-Assert.AreEqual(0, doc.BuiltInDocumentProperties.Words);
-Assert.AreEqual(1, doc.BuiltInDocumentProperties.Paragraphs);
-Assert.AreEqual(1, doc.BuiltInDocumentProperties.Lines);
-
-// To get accurate values for three of these properties, we will need to update them manually.
-doc.UpdateWordCount();
-
-Assert.AreEqual(196, doc.BuiltInDocumentProperties.Characters);
-Assert.AreEqual(36, doc.BuiltInDocumentProperties.Words);
-Assert.AreEqual(2, doc.BuiltInDocumentProperties.Paragraphs);
-
-// For the line count, we will need to call a specific overload of the updating method.
-Assert.AreEqual(1, doc.BuiltInDocumentProperties.Lines);
-
-doc.UpdateWordCount(true);
-
-Assert.AreEqual(4, doc.BuiltInDocumentProperties.Lines);
-```
-
 ### See Also
 
 * class [Document](../../document)
@@ -79,40 +45,6 @@ public void UpdateWordCount(bool updateLinesCount)
 ### Remarks
 
 This method will rebuild page layout of the document.
-
-### Examples
-
-Shows how to update all list labels in a document.
-
-```csharp
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-
-builder.Writeln("Lorem ipsum dolor sit amet, consectetur adipiscing elit, " +
-                "sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.");
-builder.Write("Ut enim ad minim veniam, " +
-                "quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.");
-
-// Aspose.Words does not track document metrics like these in real time.
-Assert.AreEqual(0, doc.BuiltInDocumentProperties.Characters);
-Assert.AreEqual(0, doc.BuiltInDocumentProperties.Words);
-Assert.AreEqual(1, doc.BuiltInDocumentProperties.Paragraphs);
-Assert.AreEqual(1, doc.BuiltInDocumentProperties.Lines);
-
-// To get accurate values for three of these properties, we will need to update them manually.
-doc.UpdateWordCount();
-
-Assert.AreEqual(196, doc.BuiltInDocumentProperties.Characters);
-Assert.AreEqual(36, doc.BuiltInDocumentProperties.Words);
-Assert.AreEqual(2, doc.BuiltInDocumentProperties.Paragraphs);
-
-// For the line count, we will need to call a specific overload of the updating method.
-Assert.AreEqual(1, doc.BuiltInDocumentProperties.Lines);
-
-doc.UpdateWordCount(true);
-
-Assert.AreEqual(4, doc.BuiltInDocumentProperties.Lines);
-```
 
 ### See Also
 

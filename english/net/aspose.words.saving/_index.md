@@ -1,7 +1,7 @@
 ---
 title: Aspose.Words.Saving
 second_title: Aspose.Words for .NET API Reference
-description: TheAspose.Words.Savingnamespaceprovidesclassesandenumerationsthatallowtospecifyadditionaloptionsforsavingorconvertingdocuments.
+description: The Aspose.Words.Saving namespace provides classes and enumerations that allow to specify additional options for saving or converting documents.
 type: docs
 weight: 220
 url: /net/aspose.words.saving/

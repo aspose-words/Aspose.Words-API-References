@@ -1,7 +1,7 @@
 ---
 title: Aspose.Words
 second_title: Aspose.Words for .NET API Reference
-description: TheAspose.WordsnamespaceprovidesclassesforgeneratingconvertingmodifyingrenderingandprintingMicrosoftWorddocumentswithoututilizingMicrosoftWord.
+description: The Aspose.Words namespace provides classes for generating converting modifying rendering and printing Microsoft Word documents without utilizing Microsoft Word.
 type: docs
 weight: 10
 url: /net/aspose.words/
@@ -108,7 +108,7 @@ The **Aspose.Words** namespace provides classes for generating, converting, modi
 | [BorderType](./bordertype) | Specifies sides of a border. |
 | [BreakType](./breaktype) | Specifies type of a break inside a document. |
 | [CalendarType](./calendartype) | Specifies the type of a calendar. |
-| [ChapterPageSeparator](./chapterpageseparator) |  |
+| [ChapterPageSeparator](./chapterpageseparator) | Defines the separator character that appears between the chapter and page number. |
 | [ConditionalStyleType](./conditionalstyletype) | Represents possible table areas to which conditional formatting may be defined in a table style. |
 | [ContentDisposition](./contentdisposition) | Enumerates different ways of presenting the document at the client browser. |
 | [DropCapPosition](./dropcapposition) | Specifies the position for a drop cap text. |

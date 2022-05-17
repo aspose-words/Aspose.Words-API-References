@@ -34,22 +34,6 @@ public class PclSaveOptions : FixedPageSaveOptions
 | --- | --- |
 | [AddPrinterFont](addprinterfont)(string, string) | Adds information about font that is uploaded to the printer by manufacturer. |
 
-### Examples
-
-Shows how to rasterize complex elements while saving a document to PCL.
-
-```csharp
-Document doc = new Document(MyDir + "Rendering.docx");
-
-PclSaveOptions saveOptions = new PclSaveOptions
-{
-    SaveFormat = SaveFormat.Pcl,
-    RasterizeTransformedElements = true
-};
-
-doc.Save(ArtifactsDir + "PclSaveOptions.RasterizeElements.pcl", saveOptions);
-```
-
 ### See Also
 
 * class [FixedPageSaveOptions](../fixedpagesaveoptions)

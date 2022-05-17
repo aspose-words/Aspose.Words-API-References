@@ -8,9 +8,15 @@ url: /net/aspose.words.markup/structureddocumenttagcollection/removeat/
 ---
 ## StructuredDocumentTagCollection.RemoveAt method
 
+Removes a structured document tag at the specified index.
+
 ```csharp
 public void RemoveAt(int index)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | Int32 | An index into the collection. |
 
 ### See Also
 

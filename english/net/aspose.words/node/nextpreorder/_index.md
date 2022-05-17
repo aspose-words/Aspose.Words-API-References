@@ -22,34 +22,6 @@ public Node NextPreOrder(Node rootNode)
 
 Next node in pre-order order. Null if reached the rootNode.
 
-### Examples
-
-Shows how to traverse the document's node tree using the pre-order traversal algorithm, and delete any encountered shape with an image.
-
-```csharp
-Document doc = new Document(MyDir + "Images.docx");
-
-Assert.AreEqual(9, 
-    doc.GetChildNodes(NodeType.Shape, true).OfType<Shape>().Count(s => s.HasImage));
-
-Node curNode = doc;
-while (curNode != null)
-{
-    Node nextNode = curNode.NextPreOrder(doc);
-
-    if (curNode.PreviousPreOrder(doc) != null && nextNode != null)
-        Assert.AreEqual(curNode, nextNode.PreviousPreOrder(doc));
-
-    if (curNode.NodeType == NodeType.Shape && ((Shape)curNode).HasImage)
-        curNode.Remove();
-
-    curNode = nextNode;
-}
-
-Assert.AreEqual(0,
-    doc.GetChildNodes(NodeType.Shape, true).OfType<Shape>().Count(s => s.HasImage));
-```
-
 ### See Also
 
 * class [Node](../../node)

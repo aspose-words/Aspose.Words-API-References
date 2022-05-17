@@ -26,26 +26,6 @@ This option is used only when metafile is rendered as vector graphics.
 
 The default value is `true`.
 
-### Examples
-
-Shows how to WMF fonts scaling according to metafile size on the page.
-
-```csharp
-Document doc = new Document(MyDir + "WMF with text.docx");
-
-// Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
-// to modify how that method converts the document to .PDF.
-PdfSaveOptions saveOptions = new PdfSaveOptions();
-
-// Set the "ScaleWmfFontsToMetafileSize" property to "true" to scale fonts
-// that format text within WMF images according to the size of the metafile on the page.
-// Set the "ScaleWmfFontsToMetafileSize" property to "false" to
-// preserve the default scale of these fonts.
-saveOptions.MetafileRenderingOptions.ScaleWmfFontsToMetafileSize = scaleWmfFonts;
-
-doc.Save(ArtifactsDir + "PdfSaveOptions.FontsScaledToMetafileSize.pdf", saveOptions);
-```
-
 ### See Also
 
 * class [MetafileRenderingOptions](../../metafilerenderingoptions)

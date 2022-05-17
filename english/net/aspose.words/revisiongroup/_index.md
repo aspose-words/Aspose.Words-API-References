@@ -22,22 +22,6 @@ public class RevisionGroup
 | [RevisionType](revisiontype) { get; } | Gets the type of revisions included in this group. |
 | [Text](text) { get; } | Returns inserted/deleted/moved text or description of format change. |
 
-### Examples
-
-Shows how to print info about a group of revisions in a document.
-
-```csharp
-Document doc = new Document(MyDir + "Revisions.docx");
-
-Assert.AreEqual(7, doc.Revisions.Groups.Count);
-
-foreach (RevisionGroup group in doc.Revisions.Groups)
-{
-    Console.WriteLine(
-        $"Revision author: {group.Author}; Revision type: {group.RevisionType} \n\tRevision text: {group.Text}");
-}
-```
-
 ### See Also
 
 * namespace [Aspose.Words](../../aspose.words)

@@ -26,26 +26,6 @@ Valid values ​​range from 1 to 100 inclusive.
 
 The default value is 100.
 
-### Examples
-
-Shows how to insert a horizontal rule shape, and customize its formatting.
-
-```csharp
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-Shape shape = builder.InsertHorizontalRule();
-
-HorizontalRuleFormat horizontalRuleFormat = shape.HorizontalRuleFormat;
-horizontalRuleFormat.Alignment = HorizontalRuleAlignment.Center;
-horizontalRuleFormat.WidthPercent = 70;
-horizontalRuleFormat.Height = 3;
-horizontalRuleFormat.Color = Color.Blue;
-horizontalRuleFormat.NoShade = true;
-
-Assert.True(shape.IsHorizontalRule);
-Assert.True(shape.HorizontalRuleFormat.NoShade);
-```
-
 ### See Also
 
 * class [HorizontalRuleFormat](../../horizontalruleformat)

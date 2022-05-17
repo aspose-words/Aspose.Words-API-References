@@ -16,53 +16,6 @@ If set to **true**, numbered list labels are written in simple numeric format an
 public bool SimplifyListLabels { get; set; }
 ```
 
-### Examples
-
-Shows how to change the appearance of lists when saving a document to plaintext.
-
-```csharp
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-
-// Create a bulleted list with five levels of indentation.
-builder.ListFormat.ApplyBulletDefault();
-builder.Writeln("Item 1");
-builder.ListFormat.ListIndent();
-builder.Writeln("Item 2");
-builder.ListFormat.ListIndent();
-builder.Writeln("Item 3");
-builder.ListFormat.ListIndent();
-builder.Writeln("Item 4");
-builder.ListFormat.ListIndent();
-builder.Write("Item 5");
-
-// Create a "TxtSaveOptions" object, which we can pass to the document's "Save" method
-// to modify how we save the document to plaintext.
-TxtSaveOptions txtSaveOptions = new TxtSaveOptions();
-
-// Set the "SimplifyListLabels" property to "true" to convert some list
-// symbols into simpler ASCII characters, such as '*', 'o', '+', '>', etc.
-// Set the "SimplifyListLabels" property to "false" to preserve as many original list symbols as possible.
-txtSaveOptions.SimplifyListLabels = simplifyListLabels;
-
-doc.Save(ArtifactsDir + "TxtSaveOptions.SimplifyListLabels.txt", txtSaveOptions);
-
-string docText = File.ReadAllText(ArtifactsDir + "TxtSaveOptions.SimplifyListLabels.txt");
-
-if (simplifyListLabels)
-    Assert.AreEqual("* Item 1\r\n" +
-                    "  > Item 2\r\n" +
-                    "    + Item 3\r\n" +
-                    "      - Item 4\r\n" +
-                    "        o Item 5\r\n", docText);
-else
-    Assert.AreEqual("· Item 1\r\n" +
-                    "o Item 2\r\n" +
-                    "§ Item 3\r\n" +
-                    "· Item 4\r\n" +
-                    "o Item 5\r\n", docText);
-```
-
 ### See Also
 
 * class [TxtSaveOptions](../../txtsaveoptions)

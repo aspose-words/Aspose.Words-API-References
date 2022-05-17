@@ -18,19 +18,6 @@ public bool RestartListsAtEachSection { get; set; }
 
 The default value is **true**.
 
-### Examples
-
-Shows how to control whether or not list numbering is restarted at each section when mail merge is performed.
-
-```csharp
-Document doc = new Document(MyDir + "Section breaks with numbering.docx");
-
-doc.MailMerge.RestartListsAtEachSection = false;
-doc.MailMerge.Execute(new string[0], new object[0]);
-
-doc.Save(ArtifactsDir + "MailMerge.RestartListsAtEachSection.pdf");
-```
-
 ### See Also
 
 * class [MailMerge](../../mailmerge)

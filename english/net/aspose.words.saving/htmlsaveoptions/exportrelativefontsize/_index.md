@@ -22,68 +22,6 @@ Aspose Words document model contains and operates only with absolute font size u
 
 When this option is enabled, document elements other than text will still have absolute sizes. Also some text-related attributes might be expressed absolutely. In particular, line spacing specified with "exactly" rule might produce unwanted results when scaling text. So the source documents should be properly designed and tested when exporting with `ExportRelativeFontSize` set to `true`.
 
-### Examples
-
-Shows how to use relative font sizes when saving to .html.
-
-```csharp
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-
-builder.Writeln("Default font size, ");
-builder.Font.Size = 24;
-builder.Writeln("2x default font size,");
-builder.Font.Size = 96;
-builder.Write("8x default font size");
-
-// When we save the document to HTML, we can pass a SaveOptions object
-// to determine whether to use relative or absolute font sizes.
-// Set the "ExportRelativeFontSize" flag to "true" to declare font sizes
-// using the "em" measurement unit, which is a factor that multiplies the current font size. 
-// Set the "ExportRelativeFontSize" flag to "false" to declare font sizes
-// using the "pt" measurement unit, which is the font's absolute size in points.
-HtmlSaveOptions options = new HtmlSaveOptions { ExportRelativeFontSize = exportRelativeFontSize };
-
-doc.Save(ArtifactsDir + "HtmlSaveOptions.RelativeFontSize.html", options);
-
-string outDocContents = File.ReadAllText(ArtifactsDir + "HtmlSaveOptions.RelativeFontSize.html");
-
-if (exportRelativeFontSize)
-{
-    Assert.True(outDocContents.Contains(
-        "<body style=\"font-family:'Times New Roman'\">" +
-            "<div>" +
-                "<p style=\"margin-top:0pt; margin-bottom:0pt\">" +
-                    "<span>Default font size, </span>" +
-                "</p>" +
-                "<p style=\"margin-top:0pt; margin-bottom:0pt; font-size:2em\">" +
-                    "<span>2x default font size,</span>" +
-                "</p>" +
-                "<p style=\"margin-top:0pt; margin-bottom:0pt; font-size:8em\">" +
-                    "<span>8x default font size</span>" +
-                "</p>" +
-            "</div>" +
-        "</body>"));
-}
-else
-{
-    Assert.True(outDocContents.Contains(
-        "<body style=\"font-family:'Times New Roman'; font-size:12pt\">" +
-            "<div>" +
-                "<p style=\"margin-top:0pt; margin-bottom:0pt\">" +
-                    "<span>Default font size, </span>" +
-                "</p>" +
-                "<p style=\"margin-top:0pt; margin-bottom:0pt; font-size:24pt\">" +
-                    "<span>2x default font size,</span>" +
-                "</p>" +
-                "<p style=\"margin-top:0pt; margin-bottom:0pt; font-size:96pt\">" +
-                    "<span>8x default font size</span>" +
-                "</p>" +
-            "</div>" +
-        "</body>"));
-}
-```
-
 ### See Also
 
 * class [HtmlSaveOptions](../../htmlsaveoptions)

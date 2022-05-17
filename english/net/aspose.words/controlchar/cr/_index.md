@@ -14,30 +14,6 @@ Carriage return character: "\x000d" or "\r". Same as [`ParagraphBreak`](../parag
 public static readonly string Cr;
 ```
 
-### Examples
-
-Shows how to use control characters.
-
-```csharp
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-
-// Insert paragraphs with text with DocumentBuilder.
-builder.Writeln("Hello world!");
-builder.Writeln("Hello again!");
-
-// Converting the document to text form reveals that control characters
-// represent some of the document's structural elements, such as page breaks.
-Assert.AreEqual($"Hello world!{ControlChar.Cr}" +
-                $"Hello again!{ControlChar.Cr}" +
-                ControlChar.PageBreak, doc.GetText());
-
-// When converting a document to string form,
-// we can omit some of the control characters with the Trim method.
-Assert.AreEqual($"Hello world!{ControlChar.Cr}" +
-                "Hello again!", doc.GetText().Trim());
-```
-
 ### See Also
 
 * class [ControlChar](../../controlchar)

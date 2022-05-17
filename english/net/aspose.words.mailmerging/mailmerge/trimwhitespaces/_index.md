@@ -18,22 +18,6 @@ public bool TrimWhitespaces { get; set; }
 
 The default value is **true**.
 
-### Examples
-
-Shows how to trim whitespaces from values of a data source while executing a mail merge.
-
-```csharp
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-
-builder.InsertField("MERGEFIELD myMergeField", null);
-
-doc.MailMerge.TrimWhitespaces = trimWhitespaces;
-doc.MailMerge.Execute(new[] { "myMergeField" }, new object[] { "\t hello world! " });
-
-Assert.AreEqual(trimWhitespaces ? "hello world!\f" : "\t hello world! \f", doc.GetText());
-```
-
 ### See Also
 
 * class [MailMerge](../../mailmerge)

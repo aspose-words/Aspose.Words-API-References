@@ -26,7 +26,7 @@ public class PageSetup
 | [BorderSurroundsFooter](bordersurroundsfooter) { get; set; } | Specifies whether the page border includes or excludes the footer. |
 | [BorderSurroundsHeader](bordersurroundsheader) { get; set; } | Specifies whether the page border includes or excludes the header. |
 | [BottomMargin](bottommargin) { get; set; } | Returns or sets the distance (in points) between the bottom edge of the page and the bottom boundary of the body text. |
-| [ChapterPageSeparator](chapterpageseparator) { get; set; } |  |
+| [ChapterPageSeparator](chapterpageseparator) { get; set; } | Gets or sets the separator character that appears between the chapter number and the page number. |
 | [CharactersPerLine](charactersperline) { get; set; } | Gets or sets the number of characters per line in the document grid. |
 | [DifferentFirstPageHeaderFooter](differentfirstpageheaderfooter) { get; set; } | **True** if a different header or footer is used on the first page. |
 | [EndnoteOptions](endnoteoptions) { get; } | Provides options that control numbering and positioning of endnotes in this section. |
@@ -35,7 +35,7 @@ public class PageSetup
 | [FootnoteOptions](footnoteoptions) { get; } | Provides options that control numbering and positioning of footnotes in this section. |
 | [Gutter](gutter) { get; set; } | Gets or sets the amount of extra space added to the margin for document binding. |
 | [HeaderDistance](headerdistance) { get; set; } | Returns or sets the distance (in points) between the header and the top of the page. |
-| [HeadingLevelForChapter](headinglevelforchapter) { get; set; } |  |
+| [HeadingLevelForChapter](headinglevelforchapter) { get; set; } | Gets or sets the heading level style that is applied to the chapter titles in the document. |
 | [LayoutMode](layoutmode) { get; set; } | Gets or sets the layout mode of this section. |
 | [LeftMargin](leftmargin) { get; set; } | Returns or sets the distance (in points) between the left edge of the page and the left boundary of the body text. |
 | [LineNumberCountBy](linenumbercountby) { get; set; } | Returns or sets the numeric increment for line numbers. |
@@ -72,37 +72,6 @@ public class PageSetup
 ### Remarks
 
 **PageSetup** object contains all the page setup attributes of a section (left margin, bottom margin, paper size, and so on) as properties.
-
-### Examples
-
-Shows how to apply and revert page setup settings to sections in a document.
-
-```csharp
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-
-// Modify the page setup properties for the builder's current section and add text.
-builder.PageSetup.Orientation = Orientation.Landscape;
-builder.PageSetup.VerticalAlignment = PageVerticalAlignment.Center;
-builder.Writeln("This is the first section, which landscape oriented with vertically centered text.");
-
-// If we start a new section using a document builder,
-// it will inherit the builder's current page setup properties.
-builder.InsertBreak(BreakType.SectionBreakNewPage);
-
-Assert.AreEqual(Orientation.Landscape, doc.Sections[1].PageSetup.Orientation);
-Assert.AreEqual(PageVerticalAlignment.Center, doc.Sections[1].PageSetup.VerticalAlignment);
-
-// We can revert its page setup properties to their default values using the "ClearFormatting" method.
-builder.PageSetup.ClearFormatting();
-
-Assert.AreEqual(Orientation.Portrait, doc.Sections[1].PageSetup.Orientation);
-Assert.AreEqual(PageVerticalAlignment.Top, doc.Sections[1].PageSetup.VerticalAlignment);
-
-builder.Writeln("This is the second section, which is in default Letter paper size, portrait orientation and top alignment.");
-
-doc.Save(ArtifactsDir + "PageSetup.ClearFormatting.docx");
-```
 
 ### See Also
 

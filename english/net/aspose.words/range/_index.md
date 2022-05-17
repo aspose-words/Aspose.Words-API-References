@@ -46,19 +46,6 @@ The document is represented by a tree of nodes and the nodes provide operations 
 
 **Range** does not contain any text or nodes, it is merely a view or "window" over a fragment of a document.
 
-### Examples
-
-Shows how to get the text contents of all the nodes that a range covers.
-
-```csharp
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-
-builder.Write("Hello world!");
-
-Assert.AreEqual("Hello world!", doc.Range.Text.Trim());
-```
-
 ### See Also
 
 * namespace [Aspose.Words](../../aspose.words)

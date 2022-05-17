@@ -18,19 +18,6 @@ public int IndexOf(Node child)
 
 Returns -1 if the node is not found in the child nodes.
 
-### Examples
-
-Shows how to get the index of a given child node from its parent.
-
-```csharp
-Document doc = new Document(MyDir + "Rendering.docx");
-
-Body body = doc.FirstSection.Body;
-
-// Retrieve the index of the last paragraph in the body of the first section.
-Assert.AreEqual(24, body.ChildNodes.IndexOf(body.LastParagraph));
-```
-
 ### See Also
 
 * class [Node](../../node)

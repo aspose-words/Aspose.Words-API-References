@@ -22,18 +22,6 @@ public virtual DocumentProperty this[string name] { get; }
 
 Returns null if a property with the specified name is not found.
 
-### Examples
-
-Shows how to create a custom document property which contains a date and time.
-
-```csharp
-Document doc = new Document();
-
-doc.CustomDocumentProperties.Add("AuthorizationDate", DateTime.Now);
-
-Console.WriteLine($"Document authorized on {doc.CustomDocumentProperties["AuthorizationDate"].ToDateTime()}");
-```
-
 ### See Also
 
 * class [DocumentProperty](../../documentproperty)
@@ -54,28 +42,6 @@ public DocumentProperty this[int index] { get; }
 | Parameter | Description |
 | --- | --- |
 | index | Zero-based index of the [`DocumentProperty`](../../documentproperty) to retrieve. |
-
-### Examples
-
-Shows how to work with custom document properties.
-
-```csharp
-Document doc = new Document(MyDir + "Properties.docx");
-
-// Every document contains a collection of custom properties, which, like the built-in properties, are key-value pairs.
-// The document has a fixed list of built-in properties. The user creates all of the custom properties. 
-Assert.AreEqual("Value of custom document property", doc.CustomDocumentProperties["CustomProperty"].ToString());
-
-doc.CustomDocumentProperties.Add("CustomProperty2", "Value of custom document property #2");
-
-Console.WriteLine("Custom Properties:");
-foreach (var customDocumentProperty in doc.CustomDocumentProperties)
-{
-    Console.WriteLine(customDocumentProperty.Name);
-    Console.WriteLine($"\tType:\t{customDocumentProperty.Type}");
-    Console.WriteLine($"\tValue:\t\"{customDocumentProperty.Value}\"");
-}
-```
 
 ### See Also
 

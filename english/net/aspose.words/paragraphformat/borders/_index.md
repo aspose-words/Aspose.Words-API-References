@@ -14,24 +14,6 @@ Gets collection of borders of the paragraph.
 public BorderCollection Borders { get; }
 ```
 
-### Examples
-
-Shows how to insert a paragraph with a top border.
-
-```csharp
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-
-Border topBorder = builder.ParagraphFormat.Borders[BorderType.Top];
-topBorder.Color = Color.Red;
-topBorder.LineWidth = 4.0d;
-topBorder.LineStyle = LineStyle.DashSmallGap;
-
-builder.Writeln("Text with a red top border.");
-
-doc.Save(ArtifactsDir + "Border.ParagraphTopBorder.docx");
-```
-
 ### See Also
 
 * class [BorderCollection](../../bordercollection)

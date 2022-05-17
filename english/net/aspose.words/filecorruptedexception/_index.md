@@ -14,23 +14,6 @@ Thrown during document load, when the document appears to be corrupted and impos
 public class FileCorruptedException : Exception
 ```
 
-### Examples
-
-Shows how to catch a FileCorruptedException.
-
-```csharp
-try
-{
-    // If we get an "Unreadable content" error message when trying to open a document using Microsoft Word,
-    // chances are that we will get an exception thrown when trying to load that document using Aspose.Words.
-    Document doc = new Document(MyDir + "Corrupted document.docx");
-}
-catch (FileCorruptedException e)
-{
-    Console.WriteLine(e.Message);
-}
-```
-
 ### See Also
 
 * namespace [Aspose.Words](../../aspose.words)

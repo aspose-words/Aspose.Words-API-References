@@ -14,26 +14,6 @@ Gets OLE object raw data.
 public byte[] GetRawData()
 ```
 
-### Examples
-
-Shows how to access the raw data of an embedded OLE object.
-
-```csharp
-Document doc = new Document(MyDir + "OLE objects.docx");
-
-foreach (Node shape in doc.GetChildNodes(NodeType.Shape, true))
-{
-    OleFormat oleFormat = ((Shape)shape).OleFormat;
-    if (oleFormat != null)
-    {
-        Console.WriteLine($"This is {(oleFormat.IsLink ? "a linked" : "an embedded")} object");
-        byte[] oleRawData = oleFormat.GetRawData();
-
-        Assert.AreEqual(24576, oleRawData.Length);
-    }
-}
-```
-
 ### See Also
 
 * class [OleFormat](../../oleformat)

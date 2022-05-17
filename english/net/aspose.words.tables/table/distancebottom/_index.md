@@ -14,21 +14,6 @@ Gets distance between table bottom and the surrounding text, in points.
 public double DistanceBottom { get; }
 ```
 
-### Examples
-
-Shows the minimum distance operations between table boundaries and text.
-
-```csharp
-Document doc = new Document(MyDir + "Table wrapped by text.docx");
-
-Table table = doc.FirstSection.Body.Tables[0];
-
-Assert.AreEqual(25.9d, table.DistanceTop);
-Assert.AreEqual(25.9d, table.DistanceBottom);
-Assert.AreEqual(17.3d, table.DistanceLeft);
-Assert.AreEqual(17.3d, table.DistanceRight);
-```
-
 ### See Also
 
 * class [Table](../../table)

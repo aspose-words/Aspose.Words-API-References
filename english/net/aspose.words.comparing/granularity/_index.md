@@ -21,31 +21,6 @@ public enum Granularity
 | CharLevel | `0` |  |
 | WordLevel | `1` |  |
 
-### Examples
-
-Shows to specify a granularity while comparing documents.
-
-```csharp
-Document docA = new Document();
-DocumentBuilder builderA = new DocumentBuilder(docA);
-builderA.Writeln("Alpha Lorem ipsum dolor sit amet, consectetur adipiscing elit");
-
-Document docB = new Document();
-DocumentBuilder builderB = new DocumentBuilder(docB);
-builderB.Writeln("Lorems ipsum dolor sit amet consectetur - \"adipiscing\" elit");
-
-// Specify whether changes are tracking
-// by character ('Granularity.CharLevel'), or by word ('Granularity.WordLevel').
-Aspose.Words.Comparing.CompareOptions compareOptions = new Aspose.Words.Comparing.CompareOptions();
-compareOptions.Granularity = granularity;
-
-docA.Compare(docB, "author", DateTime.Now, compareOptions);
-
-// The first document's collection of revision groups contains all the differences between documents.
-RevisionGroupCollection groups = docA.Revisions.Groups;
-Assert.AreEqual(5, groups.Count);
-```
-
 ### See Also
 
 * namespace [Aspose.Words.Comparing](../../aspose.words.comparing)

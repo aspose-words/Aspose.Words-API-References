@@ -35,36 +35,6 @@ In order to use the stream font source you should create a derived class from th
 
 [`StreamFontSource`](../streamfontsource) may be useful because it allows to load the font data only when it is required and not to store it in the memory for the [`FontSettings`](../fontsettings) lifetime.
 
-### Examples
-
-Shows how to load fonts from stream.
-
-```csharp
-public void StreamFontSourceFileRendering()
-{
-    FontSettings fontSettings = new FontSettings();
-    fontSettings.SetFontsSources(new FontSourceBase[] { new StreamFontSourceFile() });
-
-    DocumentBuilder builder = new DocumentBuilder();
-    builder.Document.FontSettings = fontSettings;
-    builder.Font.Name = "Kreon-Regular";
-    builder.Writeln("Test aspose text when saving to PDF.");
-
-    builder.Document.Save(ArtifactsDir + "FontSettings.StreamFontSourceFileRendering.pdf");
-}
-
-/// <summary>
-/// Load the font data only when required instead of storing it in the memory for the entire lifetime of the "FontSettings" object.
-/// </summary>
-private class StreamFontSourceFile : StreamFontSource
-{
-    public override Stream OpenFontDataStream()
-    {
-        return File.OpenRead(FontsDir + "Kreon-Regular.ttf");
-    }
-}
-```
-
 ### See Also
 
 * class [FontSourceBase](../fontsourcebase)

@@ -14,43 +14,6 @@ Gets or sets whether to use the Um-al-Qura calendar.
 public bool UseUmAlQuraCalendar { get; set; }
 ```
 
-### Examples
-
-Shows how to use the CREATEDATE field to display the creation date/time of the document.
-
-```csharp
-Document doc = new Document(MyDir + "Document.docx");
-DocumentBuilder builder = new DocumentBuilder(doc);
-builder.MoveToDocumentEnd();
-builder.Writeln(" Date this document was created:");
-
-// We can use the CREATEDATE field to display the date and time of the creation of the document.
-// Below are three different calendar types according to which the CREATEDATE field can display the date/time.
-// 1 -  Islamic Lunar Calendar:
-builder.Write("According to the Lunar Calendar - ");
-FieldCreateDate field = (FieldCreateDate)builder.InsertField(FieldType.FieldCreateDate, true);
-field.UseLunarCalendar = true;
-
-Assert.AreEqual(" CREATEDATE  \\h", field.GetFieldCode());
-
-// 2 -  Umm al-Qura calendar:
-builder.Write("\nAccording to the Umm al-Qura Calendar - ");
-field = (FieldCreateDate)builder.InsertField(FieldType.FieldCreateDate, true);
-field.UseUmAlQuraCalendar = true;
-
-Assert.AreEqual(" CREATEDATE  \\u", field.GetFieldCode());
-
-// 3 -  Indian National Calendar:
-builder.Write("\nAccording to the Indian National Calendar - ");
-field = (FieldCreateDate)builder.InsertField(FieldType.FieldCreateDate, true);
-field.UseSakaEraCalendar = true;
-
-Assert.AreEqual(" CREATEDATE  \\s", field.GetFieldCode());
-
-doc.UpdateFields();
-doc.Save(ArtifactsDir + "Field.CREATEDATE.docx");
-```
-
 ### See Also
 
 * class [FieldCreateDate](../../fieldcreatedate)

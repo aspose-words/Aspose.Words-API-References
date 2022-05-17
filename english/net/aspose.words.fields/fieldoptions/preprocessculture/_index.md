@@ -20,30 +20,6 @@ Currently this property only affects value of the [`FieldDocProperty`](../../fie
 
 The default value is **null**. When this property is set to **null**, the [`FieldDocProperty`](../../fielddocproperty) field's value is preprocessed with the culture controlled by the [`FieldUpdateCultureSource`](../fieldupdateculturesource) property.
 
-### Examples
-
-Shows how to set the preprocess culture.
-
-```csharp
-Document doc = new Document(MyDir + "Document.docx");
-DocumentBuilder builder = new DocumentBuilder(doc);
-
-// Set the culture according to which some fields will format their displayed values.
-doc.FieldOptions.PreProcessCulture = new CultureInfo("de-DE");
-
-Field field = builder.InsertField(" DOCPROPERTY CreateTime");
-
-// The DOCPROPERTY field will display its result formatted according to the preprocess culture
-// we have set to German. The field will display the date/time using the "dd.mm.yyyy hh:mm" format.
-Assert.IsTrue(Regex.Match(field.Result, @"\d{2}[.]\d{2}[.]\d{4} \d{2}[:]\d{2}").Success);
-
-doc.FieldOptions.PreProcessCulture = CultureInfo.InvariantCulture;
-field.Update();
-
-// After switching to the invariant culture, the DOCPROPERTY field will use the "mm/dd/yyyy hh:mm" format.
-Assert.IsTrue(Regex.Match(field.Result, @"\d{2}[/]\d{2}[/]\d{4} \d{2}[:]\d{2}").Success);
-```
-
 ### See Also
 
 * class [FieldOptions](../../fieldoptions)

@@ -14,33 +14,6 @@ Gets or sets [`ExportFontFormat`](../../exportfontformat) used for font exportin
 public ExportFontFormat FontFormat { get; set; }
 ```
 
-### Examples
-
-Shows how use fonts only from the target machine when saving a document to HTML.
-
-```csharp
-Document doc = new Document(MyDir + "Bullet points with alternative font.docx");
-
-HtmlFixedSaveOptions saveOptions = new HtmlFixedSaveOptions
-{
-    ExportEmbeddedCss = true,
-    UseTargetMachineFonts = useTargetMachineFonts,
-    FontFormat = ExportFontFormat.Ttf,
-    ExportEmbeddedFonts = false,
-};
-
-doc.Save(ArtifactsDir + "HtmlFixedSaveOptions.UsingMachineFonts.html", saveOptions);
-
-string outDocContents = File.ReadAllText(ArtifactsDir + "HtmlFixedSaveOptions.UsingMachineFonts.html");
-
-if (useTargetMachineFonts)
-    Assert.False(Regex.Match(outDocContents, "@font-face").Success);
-else
-    Assert.True(Regex.Match(outDocContents,
-        "@font-face { font-family:'Arial'; font-style:normal; font-weight:normal; src:local[(]'☺'[)], " +
-        "url[(]'HtmlFixedSaveOptions.UsingMachineFonts/font001.ttf'[)] format[(]'truetype'[)]; }").Success);
-```
-
 ### See Also
 
 * enum [ExportFontFormat](../../exportfontformat)

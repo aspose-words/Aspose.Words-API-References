@@ -14,23 +14,6 @@ Gets or sets the font animation effect.
 public TextEffect TextEffect { get; set; }
 ```
 
-### Examples
-
-Shows how to apply a visual effect to a run.
-
-```csharp
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-
-builder.Font.Size = 36;
-builder.Font.TextEffect = TextEffect.SparkleText;
-
-builder.Writeln("Text with a sparkle effect.");
-
-// Older versions of Microsoft Word only support font animation effects.
-doc.Save(ArtifactsDir + "Font.SparklingText.doc");
-```
-
 ### See Also
 
 * enum [TextEffect](../../texteffect)

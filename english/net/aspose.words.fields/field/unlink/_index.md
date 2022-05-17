@@ -24,15 +24,6 @@ Replaces the field with its most recent result.
 
 Some fields, such as XE (Index Entry) fields and SEQ (Sequence) fields, cannot be unlinked.
 
-### Examples
-
-Shows how to unlink a field.
-
-```csharp
-Document doc = new Document(MyDir + "Linked fields.docx");
-doc.Range.Fields[1].Unlink();
-```
-
 ### See Also
 
 * class [Field](../../field)

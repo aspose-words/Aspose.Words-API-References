@@ -14,25 +14,6 @@ True if the font is formatted as bold.
 public bool Bold { get; set; }
 ```
 
-### Examples
-
-Shows how to insert formatted text using DocumentBuilder.
-
-```csharp
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-
-// Specify font formatting, then add text.
-Aspose.Words.Font font = builder.Font;
-font.Size = 16;
-font.Bold = true;
-font.Color = Color.Blue;
-font.Name = "Courier New";
-font.Underline = Underline.Dash;
-
-builder.Write("Hello world!");
-```
-
 ### See Also
 
 * class [Font](../../font)

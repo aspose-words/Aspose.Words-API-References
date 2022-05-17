@@ -51,30 +51,6 @@ public abstract class SaveOptions
 
 An instance of the SaveOptions class or any derived class is passed to the stream [`Save`](../../aspose.words/document/save) or string [`Save`](../../aspose.words/document/save) overloads for the user to define custom options when saving a document.
 
-### Examples
-
-Shows how to use a specific encoding when saving a document to .epub.
-
-```csharp
-Document doc = new Document(MyDir + "Rendering.docx");
-
-// Use a SaveOptions object to specify the encoding for a document that we will save.
-HtmlSaveOptions saveOptions = new HtmlSaveOptions();
-saveOptions.SaveFormat = SaveFormat.Epub;
-saveOptions.Encoding = Encoding.UTF8;
-
-// By default, an output .epub document will have all its contents in one HTML part.
-// A split criterion allows us to segment the document into several HTML parts.
-// We will set the criteria to split the document into heading paragraphs.
-// This is useful for readers who cannot read HTML files more significant than a specific size.
-saveOptions.DocumentSplitCriteria = DocumentSplitCriteria.HeadingParagraph;
-
-// Specify that we want to export document properties.
-saveOptions.ExportDocumentProperties = true;
-
-doc.Save(ArtifactsDir + "HtmlSaveOptions.Doc2EpubSaveOptions.epub", saveOptions);
-```
-
 ### See Also
 
 * namespace [Aspose.Words.Saving](../../aspose.words.saving)

@@ -14,22 +14,6 @@ Flag indicates whether it is required to optimize output. If this flag is set re
 public override bool OptimizeOutput { get; set; }
 ```
 
-### Examples
-
-Shows how to simplify a document when saving it to HTML by removing various redundant objects.
-
-```csharp
-Document doc = new Document(MyDir + "Rendering.docx");
-
-HtmlFixedSaveOptions saveOptions = new HtmlFixedSaveOptions { OptimizeOutput = optimizeOutput };
-
-doc.Save(ArtifactsDir + "HtmlFixedSaveOptions.OptimizeGraphicsOutput.html", saveOptions);
-
-// The size of the optimized version of the document is almost a third of the size of the unoptimized document.
-Assert.AreEqual(optimizeOutput ? 62521 : 191770,
-    new FileInfo(ArtifactsDir + "HtmlFixedSaveOptions.OptimizeGraphicsOutput.html").Length, 200);
-```
-
 ### See Also
 
 * class [HtmlFixedSaveOptions](../../htmlfixedsaveoptions)

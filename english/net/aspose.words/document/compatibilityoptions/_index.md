@@ -14,62 +14,6 @@ Provides access to document compatibility options (that is, the user preferences
 public CompatibilityOptions CompatibilityOptions { get; }
 ```
 
-### Examples
-
-Shows how to optimize the document for different versions of Microsoft Word.
-
-```csharp
-public void OptimizeFor()
-{
-    Document doc = new Document();
-
-    // This object contains an extensive list of flags unique to each document
-    // that allow us to facilitate backward compatibility with older versions of Microsoft Word.
-    CompatibilityOptions options = doc.CompatibilityOptions;
-
-    // Print the default settings for a blank document.
-    Console.WriteLine("\nDefault optimization settings:");
-    PrintCompatibilityOptions(options);
-
-    // We can access these settings in Microsoft Word via "File" -> "Options" -> "Advanced" -> "Compatibility options for...".
-    doc.Save(ArtifactsDir + "CompatibilityOptions.OptimizeFor.DefaultSettings.docx");
-
-    // We can use the OptimizeFor method to ensure optimal compatibility with a specific Microsoft Word version.
-    doc.CompatibilityOptions.OptimizeFor(MsWordVersion.Word2010);
-    Console.WriteLine("\nOptimized for Word 2010:");
-    PrintCompatibilityOptions(options);
-
-    doc.CompatibilityOptions.OptimizeFor(MsWordVersion.Word2000);
-    Console.WriteLine("\nOptimized for Word 2000:");
-    PrintCompatibilityOptions(options);
-}
-
-/// <summary>
-/// Groups all flags in a document's compatibility options object by state, then prints each group.
-/// </summary>
-private static void PrintCompatibilityOptions(CompatibilityOptions options)
-{
-    for (int i = 1; i >= 0; i--)
-    {
-        Console.WriteLine(Convert.ToBoolean(i) ? "\tEnabled options:" : "\tDisabled options:");
-        SortedSet<string> optionNames = new SortedSet<string>();
-
-        foreach (System.ComponentModel.PropertyDescriptor descriptor in System.ComponentModel.TypeDescriptor.GetProperties(options))
-        {
-            if (descriptor.PropertyType == Type.GetType("System.Boolean") && i == Convert.ToInt32(descriptor.GetValue(options)))
-            {
-                optionNames.Add(descriptor.Name);
-            }
-        }
-
-        foreach (string s in optionNames)
-        {
-            Console.WriteLine($"\t\t{s}");
-        }
-    }
-}
-```
-
 ### See Also
 
 * class [CompatibilityOptions](../../../aspose.words.settings/compatibilityoptions)

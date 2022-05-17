@@ -1,7 +1,7 @@
 ---
 title: Aspose.Words.Fonts
 second_title: Aspose.Words for .NET API Reference
-description: TheAspose.Words.Fontsnamespaceprovidesclassesandenumerationstoaccessinformationaboutfontsusedinadocument.
+description: The Aspose.Words.Fonts namespace provides classes and enumerations to access information about fonts used in a document.
 type: docs
 weight: 90
 url: /net/aspose.words.fonts/

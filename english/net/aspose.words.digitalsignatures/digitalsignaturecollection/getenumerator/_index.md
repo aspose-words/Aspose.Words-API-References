@@ -14,26 +14,6 @@ Returns a dictionary enumerator object that can be used to iterate over all item
 public IEnumerator<DigitalSignature> GetEnumerator()
 ```
 
-### Examples
-
-Shows how to print all the digital signatures of a signed document.
-
-```csharp
-DigitalSignatureCollection digitalSignatures =
-    DigitalSignatureUtil.LoadSignatures(MyDir + "Digitally signed.docx");
-
-using (IEnumerator<DigitalSignature> enumerator = digitalSignatures.GetEnumerator())
-{
-    while (enumerator.MoveNext())
-    {
-        DigitalSignature ds = enumerator.Current;
-
-        if (ds != null)
-            Console.WriteLine(ds.ToString());
-    }
-}
-```
-
 ### See Also
 
 * class [DigitalSignature](../../digitalsignature)

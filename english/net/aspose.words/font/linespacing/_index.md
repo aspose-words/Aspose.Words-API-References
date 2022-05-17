@@ -14,22 +14,6 @@ Returns line spacing of this font (in points).
 public double LineSpacing { get; }
 ```
 
-### Examples
-
-Shows how to get a font's line spacing, in points.
-
-```csharp
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-
-// Set different fonts for the DocumentBuilder and verify their line spacing.
-builder.Font.Name = "Calibri";
-Assert.AreEqual(14.6484375d, builder.Font.LineSpacing);
-
-builder.Font.Name = "Times New Roman";
-Assert.AreEqual(13.798828125d, builder.Font.LineSpacing);
-```
-
 ### See Also
 
 * class [Font](../../font)

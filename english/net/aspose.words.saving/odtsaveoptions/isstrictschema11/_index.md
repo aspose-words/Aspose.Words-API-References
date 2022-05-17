@@ -14,22 +14,6 @@ Specifies whether export should correspond to ODT specification 1.1 strictly. OO
 public bool IsStrictSchema11 { get; set; }
 ```
 
-### Examples
-
-Shows how to make a saved document conform to an older ODT schema.
-
-```csharp
-Document doc = new Document(MyDir + "Rendering.docx");
-
-OdtSaveOptions saveOptions = new OdtSaveOptions
-{
-    MeasureUnit = OdtSaveMeasureUnit.Centimeters,
-    IsStrictSchema11 = exportToOdt11Specs
-};
-
-doc.Save(ArtifactsDir + "OdtSaveOptions.Odt11Schema.odt", saveOptions);
-```
-
 ### See Also
 
 * class [OdtSaveOptions](../../odtsaveoptions)

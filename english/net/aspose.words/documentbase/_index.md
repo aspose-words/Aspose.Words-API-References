@@ -41,21 +41,6 @@ Aspose.Words represents a Word document as a tree of nodes. [`DocumentBase`](../
 
 [`DocumentBase`](../documentbase) also stores document-wide information such as [`Styles`](./styles) and [`Lists`](./lists) that the tree nodes might refer to.
 
-### Examples
-
-Shows how to initialize the subclasses of DocumentBase.
-
-```csharp
-Document doc = new Document();
-
-Assert.AreEqual(typeof(DocumentBase), doc.GetType().BaseType);
-
-GlossaryDocument glossaryDoc = new GlossaryDocument();
-doc.GlossaryDocument = glossaryDoc;
-
-Assert.AreEqual(typeof(DocumentBase), glossaryDoc.GetType().BaseType);
-```
-
 ### See Also
 
 * class [CompositeNode](../compositenode)

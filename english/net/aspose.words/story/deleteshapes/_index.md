@@ -14,27 +14,6 @@ Deletes all shapes from the text of this story.
 public void DeleteShapes()
 ```
 
-### Examples
-
-Shows how to remove all shapes from a node.
-
-```csharp
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-
-// Use a DocumentBuilder to insert a shape. This is an inline shape,
-// which has a parent Paragraph, which is a child node of the first section's Body.
-builder.InsertShape(ShapeType.Cube, 100.0, 100.0);
-
-Assert.AreEqual(1, doc.GetChildNodes(NodeType.Shape, true).Count);
-
-// We can delete all shapes from the child paragraphs of this Body.
-Assert.AreEqual(StoryType.MainText, doc.FirstSection.Body.StoryType);
-doc.FirstSection.Body.DeleteShapes();
-
-Assert.AreEqual(0, doc.GetChildNodes(NodeType.Shape, true).Count);
-```
-
 ### See Also
 
 * class [Story](../../story)

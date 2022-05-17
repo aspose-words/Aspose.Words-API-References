@@ -19,18 +19,18 @@ public class StructuredDocumentTagCollection : IEnumerable<IStructuredDocumentTa
 | Name | Description |
 | --- | --- |
 | [Count](count) { get; } | Returns the number of structured document tags in the collection. |
-| [Item](item) { get; } | Returns the structured document tag by Id. |
+| [Item](item) { get; } | Returns the structured document tag at the specified index. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [GetById](getbyid)(int) |  |
+| [GetById](getbyid)(int) | Returns the structured document tag by identifier. |
 | [GetByTag](getbytag)(string) | Returns the first structured document tag encountered in the collection with the specified tag. |
 | [GetByTitle](getbytitle)(string) | Returns the first structured document tag encountered in the collection with the specified title. |
 | [GetEnumerator](getenumerator)() | Returns an enumerator object. |
 | [Remove](remove)(int) | Removes the structured document tag with the specified identifier. |
-| [RemoveAt](removeat)(int) |  |
+| [RemoveAt](removeat)(int) | Removes a structured document tag at the specified index. |
 
 ### See Also
 

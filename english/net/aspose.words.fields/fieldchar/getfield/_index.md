@@ -22,34 +22,6 @@ A field for the field char.
 
 A new [`Field`](../../field) object is created each time the method is called.
 
-### Examples
-
-Shows how to work with a FieldStart node.
-
-```csharp
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-
-FieldDate field = (FieldDate)builder.InsertField(FieldType.FieldDate, true);
-field.Format.DateTimeFormat = "dddd, MMMM dd, yyyy";
-field.Update();
-
-FieldChar fieldStart = field.Start;
-
-Assert.AreEqual(FieldType.FieldDate, fieldStart.FieldType);
-Assert.AreEqual(false, fieldStart.IsDirty);
-Assert.AreEqual(false, fieldStart.IsLocked);
-
-// Retrieve the facade object which represents the field in the document.
-field = (FieldDate)fieldStart.GetField();
-
-Assert.AreEqual(false, field.IsLocked);
-Assert.AreEqual(" DATE  \\@ \"dddd, MMMM dd, yyyy\"", field.GetFieldCode());
-
-// Update the field to show the current date.
-field.Update();
-```
-
 ### See Also
 
 * class [Field](../../field)

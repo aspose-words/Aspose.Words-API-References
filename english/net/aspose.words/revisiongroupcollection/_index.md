@@ -31,30 +31,6 @@ public sealed class RevisionGroupCollection : IEnumerable<RevisionGroup>
 
 You do not create instances of this class directly. Use the [`Groups`](../revisioncollection/groups) property to get revision groups present in a document.
 
-### Examples
-
-Shows how to get a group of revisions in a document.
-
-```csharp
-Document doc = new Document(MyDir + "Revisions.docx");
-
-RevisionGroup revisionGroup = doc.Revisions.Groups[0];
-```
-
-Shows how to print info about a group of revisions in a document.
-
-```csharp
-Document doc = new Document(MyDir + "Revisions.docx");
-
-Assert.AreEqual(7, doc.Revisions.Groups.Count);
-
-foreach (RevisionGroup group in doc.Revisions.Groups)
-{
-    Console.WriteLine(
-        $"Revision author: {group.Author}; Revision type: {group.RevisionType} \n\tRevision text: {group.Text}");
-}
-```
-
 ### See Also
 
 * class [RevisionGroup](../revisiongroup)

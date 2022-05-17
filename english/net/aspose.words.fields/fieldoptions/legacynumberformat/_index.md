@@ -22,24 +22,6 @@ When this property is set to **false**, template symbol "#" works as MS Word: Th
 
 The default value is **false**.
 
-### Examples
-
-Shows how enable legacy number formatting for fields.
-
-```csharp
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-
-Field field = builder.InsertField("= 2 + 3 \\# $##");
-
-Assert.AreEqual("$ 5", field.Result);
-
-doc.FieldOptions.LegacyNumberFormat = true;
-field.Update();
-
-Assert.AreEqual("$5", field.Result);
-```
-
 ### See Also
 
 * class [FieldOptions](../../fieldoptions)

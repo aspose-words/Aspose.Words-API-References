@@ -20,27 +20,6 @@ The text of [`Body`](../body) is cleared, only one empty paragraph is left that 
 
 The text of all headers and footers is cleared, but [`HeaderFooter`](../../headerfooter) objects themselves are not removed.
 
-### Examples
-
-Shows how to clear the contents of a section.
-
-```csharp
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-
-builder.Write("Hello world!");
-
-Assert.AreEqual("Hello world!", doc.GetText().Trim());
-Assert.AreEqual(1, doc.FirstSection.Body.Paragraphs.Count);
-
-// Running the "ClearContent" method will remove all the section contents
-// but leave a blank paragraph to add content again.
-doc.FirstSection.ClearContent();
-
-Assert.AreEqual(string.Empty, doc.GetText().Trim());
-Assert.AreEqual(1, doc.FirstSection.Body.Paragraphs.Count);
-```
-
 ### See Also
 
 * class [Section](../../section)

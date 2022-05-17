@@ -35,48 +35,6 @@ public class FieldAdvance : Field
 
 Moves the starting point at which the text that lexically follows the field is displayed to the right or left, up or down, or to a specific horizontal or vertical position.
 
-### Examples
-
-Shows how to insert an ADVANCE field, and edit its properties.
-
-```csharp
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-
-builder.Write("This text is in its normal place.");
-
-// Below are two ways of using the ADVANCE field to adjust the position of text that follows it.
-// The effects of an ADVANCE field continue to be applied until the paragraph ends,
-// or another ADVANCE field updates the offset/coordinate values.
-// 1 -  Specify a directional offset:
-FieldAdvance field = (FieldAdvance)builder.InsertField(FieldType.FieldAdvance, true);
-field.RightOffset = "5";
-field.UpOffset = "5";
-
-Assert.AreEqual(" ADVANCE  \\r 5 \\u 5", field.GetFieldCode());
-
-builder.Write("This text will be moved up and to the right.");
-
-field = (FieldAdvance)builder.InsertField(FieldType.FieldAdvance, true);
-field.DownOffset = "5";
-field.LeftOffset = "100";
-
-Assert.AreEqual(" ADVANCE  \\d 5 \\l 100", field.GetFieldCode());
-
-builder.Writeln("This text is moved down and to the left, overlapping the previous text.");
-
-// 2 -  Move text to a position specified by coordinates:
-field = (FieldAdvance)builder.InsertField(FieldType.FieldAdvance, true);
-field.HorizontalPosition = "-100";
-field.VerticalPosition = "200";
-
-Assert.AreEqual(" ADVANCE  \\x -100 \\y 200", field.GetFieldCode());
-
-builder.Write("This text is in a custom position.");
-
-doc.Save(ArtifactsDir + "Field.ADVANCE.docx");
-```
-
 ### See Also
 
 * class [Field](../field)

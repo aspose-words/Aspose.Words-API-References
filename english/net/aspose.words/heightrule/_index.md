@@ -22,40 +22,6 @@ public enum HeightRule
 | Exactly | `1` | The height is specified exactly in points. Please note that if the text cannot fit inside the object of this height, it will appear truncated. |
 | Auto | `2` | The height will grow automatically to accommodate all text inside an object. |
 
-### Examples
-
-Shows how to format rows with a document builder.
-
-```csharp
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-
-Table table = builder.StartTable();
-builder.InsertCell();
-builder.Write("Row 1, cell 1.");
-
-// Start a second row, and then configure its height. The builder will apply these settings to
-// its current row, as well as any new rows it creates afterwards.
-builder.EndRow();
-
-RowFormat rowFormat = builder.RowFormat;
-rowFormat.Height = 100;
-rowFormat.HeightRule = HeightRule.Exactly;
-
-builder.InsertCell();
-builder.Write("Row 2, cell 1.");
-builder.EndTable();
-
-// The first row was unaffected by the padding reconfiguration and still holds the default values.
-Assert.AreEqual(0.0d, table.Rows[0].RowFormat.Height);
-Assert.AreEqual(HeightRule.Auto, table.Rows[0].RowFormat.HeightRule);
-
-Assert.AreEqual(100.0d, table.Rows[1].RowFormat.Height);
-Assert.AreEqual(HeightRule.Exactly, table.Rows[1].RowFormat.HeightRule);
-
-doc.Save(ArtifactsDir + "DocumentBuilder.SetRowFormatting.docx");
-```
-
 ### See Also
 
 * namespace [Aspose.Words](../../aspose.words)

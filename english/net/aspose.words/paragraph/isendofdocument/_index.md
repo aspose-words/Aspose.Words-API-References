@@ -14,35 +14,6 @@ True if this paragraph is the last paragraph in the last section of the document
 public bool IsEndOfDocument { get; }
 ```
 
-### Examples
-
-Shows how to insert a paragraph into the document.
-
-```csharp
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-
-Font font = builder.Font;
-font.Size = 16;
-font.Bold = true;
-font.Color = Color.Blue;
-font.Name = "Arial";
-font.Underline = Underline.Dash;
-
-ParagraphFormat paragraphFormat = builder.ParagraphFormat;
-paragraphFormat.FirstLineIndent = 8;
-paragraphFormat.Alignment = ParagraphAlignment.Justify;
-paragraphFormat.AddSpaceBetweenFarEastAndAlpha = true;
-paragraphFormat.AddSpaceBetweenFarEastAndDigit = true;
-paragraphFormat.KeepTogether = true;
-
-// The "Writeln" method ends the paragraph after appending text
-// and then starts a new line, adding a new paragraph.
-builder.Writeln("Hello world!");
-
-Assert.True(builder.CurrentParagraph.IsEndOfDocument);
-```
-
 ### See Also
 
 * class [Paragraph](../../paragraph)

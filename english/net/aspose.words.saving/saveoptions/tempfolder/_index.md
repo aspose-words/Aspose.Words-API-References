@@ -24,28 +24,6 @@ The folder must exist and be writable, otherwise an exception will be thrown.
 
 Aspose.Words automatically deletes all temporary files when saving is complete.
 
-### Examples
-
-Shows how to use the hard drive instead of memory when saving a document.
-
-```csharp
-Document doc = new Document(MyDir + "Rendering.docx");
-
-// When we save a document, various elements are temporarily stored in memory as the save operation is taking place.
-// We can use this option to use a temporary folder in the local file system instead,
-// which will reduce our application's memory overhead.
-DocSaveOptions options = new DocSaveOptions();
-options.TempFolder = ArtifactsDir + "TempFiles";
-
-// The specified temporary folder must exist in the local file system before the save operation.
-Directory.CreateDirectory(options.TempFolder);
-
-doc.Save(ArtifactsDir + "DocSaveOptions.TempFolder.doc", options);
-
-// The folder will persist with no residual contents from the load operation.
-Assert.That(Directory.GetFiles(options.TempFolder), Is.Empty);
-```
-
 ### See Also
 
 * class [SaveOptions](../../saveoptions)

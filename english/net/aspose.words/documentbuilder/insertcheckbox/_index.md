@@ -28,33 +28,6 @@ The form field node that was just inserted.
 
 If you specify a name for the form field, then a bookmark is automatically created with the same name.
 
-### Examples
-
-Shows how to insert checkboxes into the document.
-
-```csharp
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-
-// Insert checkboxes of varying sizes and default checked statuses.
-builder.Write("Unchecked check box of a default size: ");
-builder.InsertCheckBox(string.Empty, false, false, 0);
-builder.InsertParagraph();
-
-builder.Write("Large checked check box: ");
-builder.InsertCheckBox("CheckBox_Default", true, true, 50);
-builder.InsertParagraph();
-
-// Form fields have a name length limit of 20 characters.
-builder.Write("Very large checked check box: ");
-builder.InsertCheckBox("CheckBox_OnlyCheckedValue", true, 100);
-
-Assert.AreEqual("CheckBox_OnlyChecked", doc.Range.FormFields[2].Name);
-
-// We can interact with these check boxes in Microsoft Word by double clicking them.
-doc.Save(ArtifactsDir + "DocumentBuilder.InsertCheckBox.docx");
-```
-
 ### See Also
 
 * class [FormField](../../../aspose.words.fields/formfield)
@@ -86,33 +59,6 @@ The form field node that was just inserted.
 ### Remarks
 
 If you specify a name for the form field, then a bookmark is automatically created with the same name.
-
-### Examples
-
-Shows how to insert checkboxes into the document.
-
-```csharp
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-
-// Insert checkboxes of varying sizes and default checked statuses.
-builder.Write("Unchecked check box of a default size: ");
-builder.InsertCheckBox(string.Empty, false, false, 0);
-builder.InsertParagraph();
-
-builder.Write("Large checked check box: ");
-builder.InsertCheckBox("CheckBox_Default", true, true, 50);
-builder.InsertParagraph();
-
-// Form fields have a name length limit of 20 characters.
-builder.Write("Very large checked check box: ");
-builder.InsertCheckBox("CheckBox_OnlyCheckedValue", true, 100);
-
-Assert.AreEqual("CheckBox_OnlyChecked", doc.Range.FormFields[2].Name);
-
-// We can interact with these check boxes in Microsoft Word by double clicking them.
-doc.Save(ArtifactsDir + "DocumentBuilder.InsertCheckBox.docx");
-```
 
 ### See Also
 

@@ -8,9 +8,15 @@ url: /net/aspose.words/pagesetup/chapterpageseparator/
 ---
 ## PageSetup.ChapterPageSeparator property
 
+Gets or sets the separator character that appears between the chapter number and the page number.
+
 ```csharp
 public ChapterPageSeparator ChapterPageSeparator { get; set; }
 ```
+
+### Remarks
+
+Before you can create page numbers that include chapter numbers, the document headings must have a numbered outline format applied.
 
 ### See Also
 

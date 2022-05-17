@@ -20,20 +20,6 @@ This property provides a simple way to specify a solid page color for the docume
 
 If the page color is not set (e.g. there is no background shape in the document) returns Empty.
 
-### Examples
-
-Shows how to set the background color for all pages of a document.
-
-```csharp
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-builder.Writeln("Hello world!");
-
-doc.PageColor = System.Drawing.Color.LightGray;
-
-doc.Save(ArtifactsDir + "DocumentBase.SetPageColor.docx");
-```
-
 ### See Also
 
 * class [DocumentBase](../../documentbase)

@@ -38,39 +38,6 @@ public class Border : InternableComplexAttr
 
 Borders can be applied to various document elements including paragraph, run of text inside a paragraph or a table cell.
 
-### Examples
-
-Shows how to insert a string surrounded by a border into a document.
-
-```csharp
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-
-builder.Font.Border.Color = Color.Green;
-builder.Font.Border.LineWidth = 2.5d;
-builder.Font.Border.LineStyle = LineStyle.DashDotStroker;
-
-builder.Write("Text surrounded by green border.");
-
-doc.Save(ArtifactsDir + "Border.FontBorder.docx");
-```
-
-Shows how to insert a paragraph with a top border.
-
-```csharp
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-
-Border topBorder = builder.ParagraphFormat.Borders[BorderType.Top];
-topBorder.Color = Color.Red;
-topBorder.LineWidth = 4.0d;
-topBorder.LineStyle = LineStyle.DashSmallGap;
-
-builder.Writeln("Text with a red top border.");
-
-doc.Save(ArtifactsDir + "Border.ParagraphTopBorder.docx");
-```
-
 ### See Also
 
 * class [InternableComplexAttr](../internablecomplexattr)

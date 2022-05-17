@@ -37,22 +37,6 @@ public class LanguagePreferences
 
 Implements 'Set the Office Language Preferences' dialog in Word.
 
-### Examples
-
-Shows how to apply language preferences when loading a document.
-
-```csharp
-LoadOptions loadOptions = new LoadOptions();
-loadOptions.LanguagePreferences.AddEditingLanguage(EditingLanguage.Japanese);
-
-Document doc = new Document(MyDir + "No default editing language.docx", loadOptions);
-
-int localeIdFarEast = doc.Styles.DefaultFont.LocaleIdFarEast;
-Console.WriteLine(localeIdFarEast == (int)EditingLanguage.Japanese
-    ? "The document either has no any FarEast language set in defaults or it was set to Japanese originally."
-    : "The document default FarEast language was set to another than Japanese language originally, so it is not overridden.");
-```
-
 ### See Also
 
 * namespace [Aspose.Words.Loading](../../aspose.words.loading)

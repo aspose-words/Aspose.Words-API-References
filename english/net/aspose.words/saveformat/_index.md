@@ -41,7 +41,7 @@ public enum SaveFormat
 | Pcl | `48` | Saves the document in the PCL (Printer Control Language) format. |
 | Html | `50` | Saves the document in the HTML format. |
 | Mhtml | `51` | Saves the document in the MHTML (Web archive) format. |
-| Epub | `52` | Saves the document in the IDPF EPUB format. |
+| Epub | `52` | Saves the document in the EPUB format. |
 | Odt | `60` | Saves the document as an ODF Text Document. |
 | Ott | `61` | Saves the document as an ODF Text Document Template. |
 | Text | `70` | Saves the document in the plain text format. |
@@ -54,16 +54,6 @@ public enum SaveFormat
 | Emf | `103` | Renders a page of the document and saves it as a vector EMF (Enhanced Meta File) file. |
 | Jpeg | `104` | Renders a page of the document and saves it as a JPEG file. |
 | Gif | `105` | Renders a page of the document and saves it as a GIF file. |
-
-### Examples
-
-Shows how to convert from DOCX to HTML format.
-
-```csharp
-Document doc = new Document(MyDir + "Document.docx");
-
-doc.Save(ArtifactsDir + "Document.ConvertToHtml.html", SaveFormat.Html);
-```
 
 ### See Also
 

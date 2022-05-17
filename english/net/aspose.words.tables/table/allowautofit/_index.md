@@ -18,36 +18,6 @@ public bool AllowAutoFit { get; set; }
 
 The default value is `true`.
 
-### Examples
-
-Shows how to enable/disable automatic table cell resizing.
-
-```csharp
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-
-Table table = builder.StartTable();
-builder.InsertCell();
-builder.CellFormat.PreferredWidth = PreferredWidth.FromPoints(100);
-builder.Write("Lorem ipsum dolor sit amet, consectetur adipiscing elit, " +
-              "sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.");
-
-builder.InsertCell();
-builder.CellFormat.PreferredWidth = PreferredWidth.Auto;
-builder.Write("Lorem ipsum dolor sit amet, consectetur adipiscing elit, " +
-              "sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.");
-builder.EndRow();
-builder.EndTable();
-
-// Set the "AllowAutoFit" property to "false" to get the table to maintain the dimensions
-// of all its rows and cells, and truncate contents if they get too large to fit.
-// Set the "AllowAutoFit" property to "true" to allow the table to change its cells' width and height
-// to accommodate their contents.
-table.AllowAutoFit = allowAutoFit;
-
-doc.Save(ArtifactsDir + "Table.AllowAutoFitOnTable.html");
-```
-
 ### See Also
 
 * class [Table](../../table)
