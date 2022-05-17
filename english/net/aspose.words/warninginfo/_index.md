@@ -18,9 +18,9 @@ public class WarningInfo
 
 | Name | Description |
 | --- | --- |
-| [Description](description) { get; } | Returns the description of the warning. |
-| [Source](source) { get; } | Returns the source of the warning. |
-| [WarningType](warningtype) { get; } | Returns the type of the warning. |
+| [Description](../../aspose.words/warninginfo/description) { get; } | Returns the description of the warning. |
+| [Source](../../aspose.words/warninginfo/source) { get; } | Returns the source of the warning. |
+| [WarningType](../../aspose.words/warninginfo/warningtype) { get; } | Returns the type of the warning. |
 
 ### Remarks
 

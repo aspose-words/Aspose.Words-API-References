@@ -18,17 +18,17 @@ public class FieldCollection : IEnumerable<Field>
 
 | Name | Description |
 | --- | --- |
-| [Count](count) { get; } | Returns the number of the fields in the collection. |
-| [Item](item) { get; } | Returns a field at the specified index. |
+| [Count](../../aspose.words.fields/fieldcollection/count) { get; } | Returns the number of the fields in the collection. |
+| [Item](../../aspose.words.fields/fieldcollection/item) { get; } | Returns a field at the specified index. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Clear](clear)() | Removes all fields of this collection from the document and from this collection itself. |
-| [GetEnumerator](getenumerator)() | Returns an enumerator object. |
-| [Remove](remove)(Field) | Removes the specified field from this collection and from the document. |
-| [RemoveAt](removeat)(int) | Removes a field at the specified index from this collection and from the document. |
+| [Clear](../../aspose.words.fields/fieldcollection/clear)() | Removes all fields of this collection from the document and from this collection itself. |
+| [GetEnumerator](../../aspose.words.fields/fieldcollection/getenumerator)() | Returns an enumerator object. |
+| [Remove](../../aspose.words.fields/fieldcollection/remove)(Field) | Removes the specified field from this collection and from the document. |
+| [RemoveAt](../../aspose.words.fields/fieldcollection/removeat)(int) | Removes a field at the specified index from this collection and from the document. |
 
 ### Remarks
 

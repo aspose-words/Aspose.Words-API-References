@@ -18,15 +18,15 @@ public class WriteProtection
 
 | Name | Description |
 | --- | --- |
-| [IsWriteProtected](iswriteprotected) { get; } | Returns true when a write protection password is set. |
-| [ReadOnlyRecommended](readonlyrecommended) { get; set; } | Specifies whether the document author has recommended that the document be opened as read-only. |
+| [IsWriteProtected](../../aspose.words.settings/writeprotection/iswriteprotected) { get; } | Returns true when a write protection password is set. |
+| [ReadOnlyRecommended](../../aspose.words.settings/writeprotection/readonlyrecommended) { get; set; } | Specifies whether the document author has recommended that the document be opened as read-only. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [SetPassword](setpassword)(string) | Sets the write protection password for the document. |
-| [ValidatePassword](validatepassword)(string) | Returns true if the specified password is the same as the write-protection password the document was protected with. If document is not write-protected with password then returns false. |
+| [SetPassword](../../aspose.words.settings/writeprotection/setpassword)(string) | Sets the write protection password for the document. |
+| [ValidatePassword](../../aspose.words.settings/writeprotection/validatepassword)(string) | Returns true if the specified password is the same as the write-protection password the document was protected with. If document is not write-protected with password then returns false. |
 
 ### Remarks
 

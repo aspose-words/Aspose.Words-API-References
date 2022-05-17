@@ -14,6 +14,22 @@ Specifies a set of web extension custom properties.
 public class WebExtensionPropertyCollection : BaseWebExtensionCollection<WebExtensionProperty>
 ```
 
+## Properties
+
+| Name | Description |
+| --- | --- |
+| [Count](../../aspose.words.webextensions/basewebextensioncollection`1/count) { get; } |  |
+| [Item](../../aspose.words.webextensions/basewebextensioncollection`1/item) { get; set; } |  |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [Add](../../aspose.words.webextensions/basewebextensioncollection`1/add)(WebExtensionProperty) |  |
+| [Clear](../../aspose.words.webextensions/basewebextensioncollection`1/clear)() |  |
+| [GetEnumerator](../../aspose.words.webextensions/basewebextensioncollection`1/getenumerator)() |  |
+| [Remove](../../aspose.words.webextensions/basewebextensioncollection`1/remove)(int) |  |
+
 ### See Also
 
 * class [BaseWebExtensionCollection&lt;T&gt;](../basewebextensioncollection-1)

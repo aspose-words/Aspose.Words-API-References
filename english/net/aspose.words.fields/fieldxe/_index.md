@@ -24,13 +24,34 @@ public class FieldXE : Field
 
 | Name | Description |
 | --- | --- |
-| [EntryType](entrytype) { get; set; } | Gets or sets an index entry type. |
-| [IsBold](isbold) { get; set; } | Gets or sets whether to apply bold formatting to the entry's page number. |
-| [IsItalic](isitalic) { get; set; } | Gets or sets whether to apply italic formatting to the entry's page number. |
-| [PageNumberReplacement](pagenumberreplacement) { get; set; } | Gets or sets text used in place of a page number. |
-| [PageRangeBookmarkName](pagerangebookmarkname) { get; set; } | Gets or sets the name of the bookmark that marks a range of pages that is inserted as the entry's page number. |
-| [Text](text) { get; set; } | Gets or sets the text of the entry. |
-| [Yomi](yomi) { get; set; } | Gets or sets the yomi (first phonetic character for sorting indexes) for the index entry |
+| [DisplayResult](../../aspose.words.fields/field/displayresult) { get; } | Gets the text that represents the displayed field result. |
+| [End](../../aspose.words.fields/field/end) { get; } | Gets the node that represents the field end. |
+| [EntryType](../../aspose.words.fields/fieldxe/entrytype) { get; set; } | Gets or sets an index entry type. |
+| [Format](../../aspose.words.fields/field/format) { get; } | Gets a [`FieldFormat`](../fieldformat) object that provides typed access to field's formatting. |
+| [IsBold](../../aspose.words.fields/fieldxe/isbold) { get; set; } | Gets or sets whether to apply bold formatting to the entry's page number. |
+| [IsDirty](../../aspose.words.fields/field/isdirty) { get; set; } | Gets or sets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
+| [IsItalic](../../aspose.words.fields/fieldxe/isitalic) { get; set; } | Gets or sets whether to apply italic formatting to the entry's page number. |
+| [IsLocked](../../aspose.words.fields/field/islocked) { get; set; } | Gets or sets whether the field is locked (should not recalculate its result). |
+| [LocaleId](../../aspose.words.fields/field/localeid) { get; set; } | Gets or sets the LCID of the field. |
+| [PageNumberReplacement](../../aspose.words.fields/fieldxe/pagenumberreplacement) { get; set; } | Gets or sets text used in place of a page number. |
+| [PageRangeBookmarkName](../../aspose.words.fields/fieldxe/pagerangebookmarkname) { get; set; } | Gets or sets the name of the bookmark that marks a range of pages that is inserted as the entry's page number. |
+| [Result](../../aspose.words.fields/field/result) { get; set; } | Gets or sets text that is between the field separator and field end. |
+| [Separator](../../aspose.words.fields/field/separator) { get; } | Gets the node that represents the field separator. Can be null. |
+| [Start](../../aspose.words.fields/field/start) { get; } | Gets the node that represents the start of the field. |
+| [Text](../../aspose.words.fields/fieldxe/text) { get; set; } | Gets or sets the text of the entry. |
+| virtual [Type](../../aspose.words.fields/field/type) { get; } | Gets the Microsoft Word field type. |
+| [Yomi](../../aspose.words.fields/fieldxe/yomi) { get; set; } | Gets or sets the yomi (first phonetic character for sorting indexes) for the index entry |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode)() | Returns text between field start and field separator (or field end if there is no separator). Both field code and field result of child fields are included. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode)(bool) | Returns text between field start and field separator (or field end if there is no separator). |
+| [Remove](../../aspose.words.fields/field/remove)() | Removes the field from the document. Returns a node right after the field. If the field's end is the last child of its parent node, returns its parent paragraph. If the field is already removed, returns **null**. |
+| [Unlink](../../aspose.words.fields/field/unlink)() | Performs the field unlink. |
+| [Update](../../aspose.words.fields/field/update)() | Performs the field update. Throws if the field is being updated already. |
+| [Update](../../aspose.words.fields/field/update)(bool) | Performs a field update. Throws if the field is being updated already. |
 
 ### Remarks
 

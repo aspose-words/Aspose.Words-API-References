@@ -25,12 +25,12 @@ public class ImageSize
 
 | Name | Description |
 | --- | --- |
-| [HeightPixels](heightpixels) { get; } | Gets the height of the image in pixels. |
-| [HeightPoints](heightpoints) { get; } | Gets the height of the image in points. 1 point is 1/72 inch. |
-| [HorizontalResolution](horizontalresolution) { get; } | Gets the horizontal resolution in DPI. |
-| [VerticalResolution](verticalresolution) { get; } | Gets the vertical resolution in DPI. |
-| [WidthPixels](widthpixels) { get; } | Gets the width of the image in pixels. |
-| [WidthPoints](widthpoints) { get; } | Gets the width of the image in points. 1 point is 1/72 inch. |
+| [HeightPixels](../../aspose.words.drawing/imagesize/heightpixels) { get; } | Gets the height of the image in pixels. |
+| [HeightPoints](../../aspose.words.drawing/imagesize/heightpoints) { get; } | Gets the height of the image in points. 1 point is 1/72 inch. |
+| [HorizontalResolution](../../aspose.words.drawing/imagesize/horizontalresolution) { get; } | Gets the horizontal resolution in DPI. |
+| [VerticalResolution](../../aspose.words.drawing/imagesize/verticalresolution) { get; } | Gets the vertical resolution in DPI. |
+| [WidthPixels](../../aspose.words.drawing/imagesize/widthpixels) { get; } | Gets the width of the image in pixels. |
+| [WidthPoints](../../aspose.words.drawing/imagesize/widthpoints) { get; } | Gets the width of the image in points. 1 point is 1/72 inch. |
 
 ### See Also
 

@@ -24,17 +24,17 @@ public class OdsoRecipientDataCollection : IEnumerable<OdsoRecipientData>
 
 | Name | Description |
 | --- | --- |
-| [Count](count) { get; } | Gets the number of elements contained in the collection. |
-| [Item](item) { get; set; } | Gets or sets an item in this collection. |
+| [Count](../../aspose.words.settings/odsorecipientdatacollection/count) { get; } | Gets the number of elements contained in the collection. |
+| [Item](../../aspose.words.settings/odsorecipientdatacollection/item) { get; set; } | Gets or sets an item in this collection. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Add](add)(OdsoRecipientData) | Adds an object to the end of this collection. |
-| [Clear](clear)() | Removes all elements from this collection. |
-| [GetEnumerator](getenumerator)() | Returns an enumerator object that can be used to iterate over all items in the collection. |
-| [RemoveAt](removeat)(int) | Removes the element at the specified index. |
+| [Add](../../aspose.words.settings/odsorecipientdatacollection/add)(OdsoRecipientData) | Adds an object to the end of this collection. |
+| [Clear](../../aspose.words.settings/odsorecipientdatacollection/clear)() | Removes all elements from this collection. |
+| [GetEnumerator](../../aspose.words.settings/odsorecipientdatacollection/getenumerator)() | Returns an enumerator object that can be used to iterate over all items in the collection. |
+| [RemoveAt](../../aspose.words.settings/odsorecipientdatacollection/removeat)(int) | Removes the element at the specified index. |
 
 ### See Also
 

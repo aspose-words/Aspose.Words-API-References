@@ -18,17 +18,17 @@ public static class Hyphenation
 
 | Name | Description |
 | --- | --- |
-| static [Callback](callback) { get; set; } | Gets or sets callback interface used to request dictionaries when page layout of the document is built. This allows delay loading of dictionaries which may be useful when processing documents in many languages. |
-| static [WarningCallback](warningcallback) { get; set; } | Called during a load hyphenation patterns, when an issue is detected that might result in formatting fidelity loss. |
+| static [Callback](../../aspose.words/hyphenation/callback) { get; set; } | Gets or sets callback interface used to request dictionaries when page layout of the document is built. This allows delay loading of dictionaries which may be useful when processing documents in many languages. |
+| static [WarningCallback](../../aspose.words/hyphenation/warningcallback) { get; set; } | Called during a load hyphenation patterns, when an issue is detected that might result in formatting fidelity loss. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| static [IsDictionaryRegistered](isdictionaryregistered)(string) | Returns False if for the specified language there is no dictionary registered or if registered is Null dictionary, True otherwise. |
-| static [RegisterDictionary](registerdictionary)(string, Stream) | Registers and loads a hyphenation dictionary for the specified language from a stream. Throws if dictionary cannot be read or has invalid format. |
-| static [RegisterDictionary](registerdictionary)(string, string) | Registers and loads a hyphenation dictionary for the specified language from file. Throws if dictionary cannot be read or has invalid format. |
-| static [UnregisterDictionary](unregisterdictionary)(string) | Unregisters a hyphenation dictionary for the specified language. |
+| static [IsDictionaryRegistered](../../aspose.words/hyphenation/isdictionaryregistered)(string) | Returns False if for the specified language there is no dictionary registered or if registered is Null dictionary, True otherwise. |
+| static [RegisterDictionary](../../aspose.words/hyphenation/registerdictionary)(string, Stream) | Registers and loads a hyphenation dictionary for the specified language from a stream. Throws if dictionary cannot be read or has invalid format. |
+| static [RegisterDictionary](../../aspose.words/hyphenation/registerdictionary)(string, string) | Registers and loads a hyphenation dictionary for the specified language from file. Throws if dictionary cannot be read or has invalid format. |
+| static [UnregisterDictionary](../../aspose.words/hyphenation/unregisterdictionary)(string) | Unregisters a hyphenation dictionary for the specified language. |
 
 ### See Also
 

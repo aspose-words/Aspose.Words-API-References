@@ -25,12 +25,12 @@ public class PdfDigitalSignatureDetails
 
 | Name | Description |
 | --- | --- |
-| [CertificateHolder](certificateholder) { get; set; } | Returns the certificate holder object that contains the certificate was used to sign the document. |
-| [HashAlgorithm](hashalgorithm) { get; set; } | Gets or sets the hash algorithm. |
-| [Location](location) { get; set; } | Gets or sets the location of the signing. |
-| [Reason](reason) { get; set; } | Gets or sets the reason for the signing. |
-| [SignatureDate](signaturedate) { get; set; } | Gets or sets the date of the signing. |
-| [TimestampSettings](timestampsettings) { get; set; } | Gets or sets the digital signature timestamp settings. |
+| [CertificateHolder](../../aspose.words.saving/pdfdigitalsignaturedetails/certificateholder) { get; set; } | Returns the certificate holder object that contains the certificate was used to sign the document. |
+| [HashAlgorithm](../../aspose.words.saving/pdfdigitalsignaturedetails/hashalgorithm) { get; set; } | Gets or sets the hash algorithm. |
+| [Location](../../aspose.words.saving/pdfdigitalsignaturedetails/location) { get; set; } | Gets or sets the location of the signing. |
+| [Reason](../../aspose.words.saving/pdfdigitalsignaturedetails/reason) { get; set; } | Gets or sets the reason for the signing. |
+| [SignatureDate](../../aspose.words.saving/pdfdigitalsignaturedetails/signaturedate) { get; set; } | Gets or sets the date of the signing. |
+| [TimestampSettings](../../aspose.words.saving/pdfdigitalsignaturedetails/timestampsettings) { get; set; } | Gets or sets the digital signature timestamp settings. |
 
 ### Remarks
 

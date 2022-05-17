@@ -18,10 +18,10 @@ public interface IFieldResultFormatter
 
 | Name | Description |
 | --- | --- |
-| [Format](format)(double, GeneralFormat) | Called when Aspose.Words applies a number format switch, i.e. \* Ordinal. |
-| [Format](format)(string, GeneralFormat) | Called when Aspose.Words applies a capitalization format switch, i.e. \* Upper. |
-| [FormatDateTime](formatdatetime)(DateTime, string, CalendarType) | Called when Aspose.Words applies a date/time format switch, i.e. \@ "dd.MM.yyyy". |
-| [FormatNumeric](formatnumeric)(double, string) | Called when Aspose.Words applies a numeric format switch, i.e. \# "#.##". |
+| [Format](../../aspose.words.fields/ifieldresultformatter/format)(double, GeneralFormat) | Called when Aspose.Words applies a number format switch, i.e. \* Ordinal. |
+| [Format](../../aspose.words.fields/ifieldresultformatter/format)(string, GeneralFormat) | Called when Aspose.Words applies a capitalization format switch, i.e. \* Upper. |
+| [FormatDateTime](../../aspose.words.fields/ifieldresultformatter/formatdatetime)(DateTime, string, CalendarType) | Called when Aspose.Words applies a date/time format switch, i.e. \@ "dd.MM.yyyy". |
+| [FormatNumeric](../../aspose.words.fields/ifieldresultformatter/formatnumeric)(double, string) | Called when Aspose.Words applies a numeric format switch, i.e. \# "#.##". |
 
 ### See Also
 

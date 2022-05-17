@@ -18,30 +18,30 @@ public class ListLevel
 
 | Name | Description |
 | --- | --- |
-| [Alignment](alignment) { get; set; } | Gets or sets the justification of the actual number of the list item. |
-| [CustomNumberStyleFormat](customnumberstyleformat) { get; } | Gets the custom number style format for this list level. For example: "a, ç, ĝ, ...". |
-| [Font](font) { get; } | Specifies character formatting used for the list label. |
-| [ImageData](imagedata) { get; } | Returns image data of the picture bullet shape for the current list level. |
-| [IsLegal](islegal) { get; set; } | True if the level turns all inherited numbers to Arabic, false if it preserves their number style. |
-| [LinkedStyle](linkedstyle) { get; set; } | Gets or sets the paragraph style that is linked to this list level. |
-| [NumberFormat](numberformat) { get; set; } | Returns or sets the number format for the list level. |
-| [NumberPosition](numberposition) { get; set; } | Returns or sets the position (in points) of the number or bullet for the list level. |
-| [NumberStyle](numberstyle) { get; set; } | Returns or sets the number style for this list level. |
-| [RestartAfterLevel](restartafterlevel) { get; set; } | Sets or returns the list level that must appear before the specified list level restarts numbering. |
-| [StartAt](startat) { get; set; } | Returns or sets the starting number for this list level. |
-| [TabPosition](tabposition) { get; set; } | Returns or sets the tab position (in points) for the list level. |
-| [TextPosition](textposition) { get; set; } | Returns or sets the position (in points) for the second line of wrapping text for the list level. |
-| [TrailingCharacter](trailingcharacter) { get; set; } | Returns or sets the character inserted after the number for the list level. |
+| [Alignment](../../aspose.words.lists/listlevel/alignment) { get; set; } | Gets or sets the justification of the actual number of the list item. |
+| [CustomNumberStyleFormat](../../aspose.words.lists/listlevel/customnumberstyleformat) { get; } | Gets the custom number style format for this list level. For example: "a, ç, ĝ, ...". |
+| [Font](../../aspose.words.lists/listlevel/font) { get; } | Specifies character formatting used for the list label. |
+| [ImageData](../../aspose.words.lists/listlevel/imagedata) { get; } | Returns image data of the picture bullet shape for the current list level. |
+| [IsLegal](../../aspose.words.lists/listlevel/islegal) { get; set; } | True if the level turns all inherited numbers to Arabic, false if it preserves their number style. |
+| [LinkedStyle](../../aspose.words.lists/listlevel/linkedstyle) { get; set; } | Gets or sets the paragraph style that is linked to this list level. |
+| [NumberFormat](../../aspose.words.lists/listlevel/numberformat) { get; set; } | Returns or sets the number format for the list level. |
+| [NumberPosition](../../aspose.words.lists/listlevel/numberposition) { get; set; } | Returns or sets the position (in points) of the number or bullet for the list level. |
+| [NumberStyle](../../aspose.words.lists/listlevel/numberstyle) { get; set; } | Returns or sets the number style for this list level. |
+| [RestartAfterLevel](../../aspose.words.lists/listlevel/restartafterlevel) { get; set; } | Sets or returns the list level that must appear before the specified list level restarts numbering. |
+| [StartAt](../../aspose.words.lists/listlevel/startat) { get; set; } | Returns or sets the starting number for this list level. |
+| [TabPosition](../../aspose.words.lists/listlevel/tabposition) { get; set; } | Returns or sets the tab position (in points) for the list level. |
+| [TextPosition](../../aspose.words.lists/listlevel/textposition) { get; set; } | Returns or sets the position (in points) for the second line of wrapping text for the list level. |
+| [TrailingCharacter](../../aspose.words.lists/listlevel/trailingcharacter) { get; set; } | Returns or sets the character inserted after the number for the list level. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [CreatePictureBullet](createpicturebullet)() | Creates picture bullet shape for the current list level. |
-| [DeletePictureBullet](deletepicturebullet)() | Deletes picture bullet for the current list level. |
-| [Equals](equals)(ListLevel) | Compares with the specified ListLevel. |
-| override [GetHashCode](gethashcode)() | Calculates hash code for this object. |
-| static [GetEffectiveValue](geteffectivevalue)(int, NumberStyle, string) | Reports the string representation of the [`ListLevel`](../listlevel) object for the specified index of the list item. Parameters specify the [`NumberStyle`](../../aspose.words/numberstyle) and an optional format string used when Custom is specified. |
+| [CreatePictureBullet](../../aspose.words.lists/listlevel/createpicturebullet)() | Creates picture bullet shape for the current list level. |
+| [DeletePictureBullet](../../aspose.words.lists/listlevel/deletepicturebullet)() | Deletes picture bullet for the current list level. |
+| [Equals](../../aspose.words.lists/listlevel/equals)(ListLevel) | Compares with the specified ListLevel. |
+| override [GetHashCode](../../aspose.words.lists/listlevel/gethashcode)() | Calculates hash code for this object. |
+| static [GetEffectiveValue](../../aspose.words.lists/listlevel/geteffectivevalue)(int, NumberStyle, string) | Reports the string representation of the [`ListLevel`](../listlevel) object for the specified index of the list item. Parameters specify the [`NumberStyle`](../../aspose.words/numberstyle) and an optional format string used when Custom is specified. |
 
 ### Remarks
 

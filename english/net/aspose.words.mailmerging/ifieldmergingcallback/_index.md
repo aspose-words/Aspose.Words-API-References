@@ -18,8 +18,8 @@ public interface IFieldMergingCallback
 
 | Name | Description |
 | --- | --- |
-| [FieldMerging](fieldmerging)(FieldMergingArgs) | Called when the Aspose.Words mail merge engine is about to insert data into a merge field in the document. |
-| [ImageFieldMerging](imagefieldmerging)(ImageFieldMergingArgs) | Called when the Aspose.Words mail merge engine is about to insert an image into a merge field. |
+| [FieldMerging](../../aspose.words.mailmerging/ifieldmergingcallback/fieldmerging)(FieldMergingArgs) | Called when the Aspose.Words mail merge engine is about to insert data into a merge field in the document. |
+| [ImageFieldMerging](../../aspose.words.mailmerging/ifieldmergingcallback/imagefieldmerging)(ImageFieldMergingArgs) | Called when the Aspose.Words mail merge engine is about to insert an image into a merge field. |
 
 ### See Also
 

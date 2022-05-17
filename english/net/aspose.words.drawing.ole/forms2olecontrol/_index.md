@@ -18,12 +18,13 @@ public abstract class Forms2OleControl : OleControl
 
 | Name | Description |
 | --- | --- |
-| [Caption](caption) { get; } | Gets Caption property of control. Default value is an empty string. |
-| [ChildNodes](childnodes) { get; } | Gets collection of immediate child controls. |
-| [Enabled](enabled) { get; } | Returns true if control is in enabled state. |
-| override [IsForms2OleControl](isforms2olecontrol) { get; } |  |
-| [Type](type) { get; } | Gets type of Forms 2.0 control. |
-| [Value](value) { get; } | Gets underlying Value property which often represents control state. For example checked option button has '1' value while unchecked has '0'. Default value is an empty string. |
+| [Caption](../../aspose.words.drawing.ole/forms2olecontrol/caption) { get; } | Gets Caption property of control. Default value is an empty string. |
+| [ChildNodes](../../aspose.words.drawing.ole/forms2olecontrol/childnodes) { get; } | Gets collection of immediate child controls. |
+| [Enabled](../../aspose.words.drawing.ole/forms2olecontrol/enabled) { get; } | Returns true if control is in enabled state. |
+| override [IsForms2OleControl](../../aspose.words.drawing.ole/forms2olecontrol/isforms2olecontrol) { get; } |  |
+| [Name](../../aspose.words.drawing.ole/olecontrol/name) { get; } | Gets name of the ActiveX control. |
+| [Type](../../aspose.words.drawing.ole/forms2olecontrol/type) { get; } | Gets type of Forms 2.0 control. |
+| [Value](../../aspose.words.drawing.ole/forms2olecontrol/value) { get; } | Gets underlying Value property which often represents control state. For example checked option button has '1' value while unchecked has '0'. Default value is an empty string. |
 
 ### See Also
 

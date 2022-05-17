@@ -25,8 +25,8 @@ public class SdtListItem
 
 | Name | Description |
 | --- | --- |
-| [DisplayText](displaytext) { get; } | Gets the text to display in the run content in place of the [`Value`](./value) attribute contents for this list item. |
-| [Value](value) { get; } | Gets the value of this list item. |
+| [DisplayText](../../aspose.words.markup/sdtlistitem/displaytext) { get; } | Gets the text to display in the run content in place of the [`Value`](./value) attribute contents for this list item. |
+| [Value](../../aspose.words.markup/sdtlistitem/value) { get; } | Gets the value of this list item. |
 
 ### See Also
 

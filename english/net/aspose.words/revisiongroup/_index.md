@@ -18,9 +18,9 @@ public class RevisionGroup
 
 | Name | Description |
 | --- | --- |
-| [Author](author) { get; } | Gets the author of this revision group. |
-| [RevisionType](revisiontype) { get; } | Gets the type of revisions included in this group. |
-| [Text](text) { get; } | Returns inserted/deleted/moved text or description of format change. |
+| [Author](../../aspose.words/revisiongroup/author) { get; } | Gets the author of this revision group. |
+| [RevisionType](../../aspose.words/revisiongroup/revisiontype) { get; } | Gets the type of revisions included in this group. |
+| [Text](../../aspose.words/revisiongroup/text) { get; } | Returns inserted/deleted/moved text or description of format change. |
 
 ### See Also
 

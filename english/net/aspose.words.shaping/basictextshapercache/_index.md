@@ -22,7 +22,7 @@ public sealed class BasicTextShaperCache : IDisposable, ITextShaperFactory
 
 | Name | Description |
 | --- | --- |
-| [Dispose](dispose)() |  |
+| [Dispose](../../aspose.words.shaping/basictextshapercache/dispose)() |  |
 
 ### See Also
 

@@ -26,9 +26,17 @@ public class MemoryFontSource : FontSourceBase
 
 | Name | Description |
 | --- | --- |
-| [CacheKey](cachekey) { get; } | The key of this source in the cache. |
-| [FontData](fontdata) { get; } | Binary font data. |
-| override [Type](type) { get; } | Returns the type of the font source. |
+| [CacheKey](../../aspose.words.fonts/memoryfontsource/cachekey) { get; } | The key of this source in the cache. |
+| [FontData](../../aspose.words.fonts/memoryfontsource/fontdata) { get; } | Binary font data. |
+| [Priority](../../aspose.words.fonts/fontsourcebase/priority) { get; } | Returns the font source priority. |
+| override [Type](../../aspose.words.fonts/memoryfontsource/type) { get; } | Returns the type of the font source. |
+| [WarningCallback](../../aspose.words.fonts/fontsourcebase/warningcallback) { get; set; } | Called during processing of font source when an issue is detected that might result in formatting fidelity loss. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [GetAvailableFonts](../../aspose.words.fonts/fontsourcebase/getavailablefonts)() | Returns list of fonts available via this source. |
 
 ### See Also
 

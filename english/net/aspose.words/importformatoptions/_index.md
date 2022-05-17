@@ -24,12 +24,12 @@ public class ImportFormatOptions
 
 | Name | Description |
 | --- | --- |
-| [ForceCopyStyles](forcecopystyles) { get; set; } | Gets or sets a boolean value indicating either to copy conflicting styles in KeepSourceFormatting mode. The default value is `false`. |
-| [IgnoreHeaderFooter](ignoreheaderfooter) { get; set; } | Gets or sets a boolean value that specifies that source formatting of headers/footers content ignored if KeepSourceFormatting mode is used. The default value is `true`. |
-| [IgnoreTextBoxes](ignoretextboxes) { get; set; } | Gets or sets a boolean value that specifies that source formatting of textboxes content ignored if KeepSourceFormatting mode is used. The default value is `true`. |
-| [KeepSourceNumbering](keepsourcenumbering) { get; set; } | Gets or sets a boolean value that specifies how the numbering will be imported when it clashes in source and destination documents. The default value is `false`. |
-| [MergePastedLists](mergepastedlists) { get; set; } | Gets or sets a boolean value that specifies whether pasted lists will be merged with surrounding lists. The default value is `false`. |
-| [SmartStyleBehavior](smartstylebehavior) { get; set; } | Gets or sets a boolean value that specifies how styles will be imported when they have equal names in source and destination documents. The default value is `false`. |
+| [ForceCopyStyles](../../aspose.words/importformatoptions/forcecopystyles) { get; set; } | Gets or sets a boolean value indicating either to copy conflicting styles in KeepSourceFormatting mode. The default value is `false`. |
+| [IgnoreHeaderFooter](../../aspose.words/importformatoptions/ignoreheaderfooter) { get; set; } | Gets or sets a boolean value that specifies that source formatting of headers/footers content ignored if KeepSourceFormatting mode is used. The default value is `true`. |
+| [IgnoreTextBoxes](../../aspose.words/importformatoptions/ignoretextboxes) { get; set; } | Gets or sets a boolean value that specifies that source formatting of textboxes content ignored if KeepSourceFormatting mode is used. The default value is `true`. |
+| [KeepSourceNumbering](../../aspose.words/importformatoptions/keepsourcenumbering) { get; set; } | Gets or sets a boolean value that specifies how the numbering will be imported when it clashes in source and destination documents. The default value is `false`. |
+| [MergePastedLists](../../aspose.words/importformatoptions/mergepastedlists) { get; set; } | Gets or sets a boolean value that specifies whether pasted lists will be merged with surrounding lists. The default value is `false`. |
+| [SmartStyleBehavior](../../aspose.words/importformatoptions/smartstylebehavior) { get; set; } | Gets or sets a boolean value that specifies how styles will be imported when they have equal names in source and destination documents. The default value is `false`. |
 
 ### See Also
 

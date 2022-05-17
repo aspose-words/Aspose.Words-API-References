@@ -18,12 +18,12 @@ public class WebExtension
 
 | Name | Description |
 | --- | --- |
-| [AlternateReferences](alternatereferences) { get; } | Specifies alternate references to a web extension. |
-| [Bindings](bindings) { get; } | Specifies a list of web extension bindings. |
-| [Id](id) { get; set; } | Uniquely identifies the web extension instance in the current document. |
-| [IsFrozen](isfrozen) { get; set; } | Specifies whether the user can interact with the web extension or not. |
-| [Properties](properties) { get; } | Represents a set of web extension custom properties. |
-| [Reference](reference) { get; } | Specifies the primary reference to an web extension. |
+| [AlternateReferences](../../aspose.words.webextensions/webextension/alternatereferences) { get; } | Specifies alternate references to a web extension. |
+| [Bindings](../../aspose.words.webextensions/webextension/bindings) { get; } | Specifies a list of web extension bindings. |
+| [Id](../../aspose.words.webextensions/webextension/id) { get; set; } | Uniquely identifies the web extension instance in the current document. |
+| [IsFrozen](../../aspose.words.webextensions/webextension/isfrozen) { get; set; } | Specifies whether the user can interact with the web extension or not. |
+| [Properties](../../aspose.words.webextensions/webextension/properties) { get; } | Represents a set of web extension custom properties. |
+| [Reference](../../aspose.words.webextensions/webextension/reference) { get; } | Specifies the primary reference to an web extension. |
 
 ### See Also
 

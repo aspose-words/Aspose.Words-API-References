@@ -24,9 +24,9 @@ public class Theme
 
 | Name | Description |
 | --- | --- |
-| [Colors](colors) { get; } | Allows to specify the set of theme colors for the document. |
-| [MajorFonts](majorfonts) { get; } | Allows to specify the set of major fonts for different languages. |
-| [MinorFonts](minorfonts) { get; } | Allows to specify the set of minor fonts for different languages. |
+| [Colors](../../aspose.words.themes/theme/colors) { get; } | Allows to specify the set of theme colors for the document. |
+| [MajorFonts](../../aspose.words.themes/theme/majorfonts) { get; } | Allows to specify the set of major fonts for different languages. |
+| [MinorFonts](../../aspose.words.themes/theme/minorfonts) { get; } | Allows to specify the set of minor fonts for different languages. |
 
 ### See Also
 

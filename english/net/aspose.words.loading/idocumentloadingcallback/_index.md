@@ -18,7 +18,7 @@ public interface IDocumentLoadingCallback
 
 | Name | Description |
 | --- | --- |
-| [Notify](notify)(DocumentLoadingArgs) | This is called to notify of document loading progress. |
+| [Notify](../../aspose.words.loading/idocumentloadingcallback/notify)(DocumentLoadingArgs) | This is called to notify of document loading progress. |
 
 ### See Also
 

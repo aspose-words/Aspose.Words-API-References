@@ -18,8 +18,8 @@ public interface IBarcodeGenerator
 
 | Name | Description |
 | --- | --- |
-| [GetBarcodeImage](getbarcodeimage)(BarcodeParameters) | Generate barcode image using the set of parameters (for DisplayBarcode field). |
-| [GetOldBarcodeImage](getoldbarcodeimage)(BarcodeParameters) | Generate barcode image using the set of parameters (for old-fashioned Barcode field). |
+| [GetBarcodeImage](../../aspose.words.fields/ibarcodegenerator/getbarcodeimage)(BarcodeParameters) | Generate barcode image using the set of parameters (for DisplayBarcode field). |
+| [GetOldBarcodeImage](../../aspose.words.fields/ibarcodegenerator/getoldbarcodeimage)(BarcodeParameters) | Generate barcode image using the set of parameters (for old-fashioned Barcode field). |
 
 ### Remarks
 

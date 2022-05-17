@@ -24,16 +24,31 @@ public class BookmarkStart : Node
 
 | Name | Description |
 | --- | --- |
-| [Bookmark](bookmark) { get; } | Gets the facade object that encapsulates this bookmark start and end. |
-| [Name](name) { get; set; } | Gets or sets the bookmark name. |
-| override [NodeType](nodetype) { get; } | Returns BookmarkStart. |
+| [Bookmark](../../aspose.words/bookmarkstart/bookmark) { get; } | Gets the facade object that encapsulates this bookmark start and end. |
+| [CustomNodeId](../../aspose.words/node/customnodeid) { get; set; } | Specifies custom node identifier. |
+| virtual [Document](../../aspose.words/node/document) { get; } | Gets the document to which this node belongs. |
+| virtual [IsComposite](../../aspose.words/node/iscomposite) { get; } | Returns true if this node can contain other nodes. |
+| [Name](../../aspose.words/bookmarkstart/name) { get; set; } | Gets or sets the bookmark name. |
+| [NextSibling](../../aspose.words/node/nextsibling) { get; } | Gets the node immediately following this node. |
+| override [NodeType](../../aspose.words/bookmarkstart/nodetype) { get; } | Returns BookmarkStart. |
+| [ParentNode](../../aspose.words/node/parentnode) { get; } | Gets the immediate parent of this node. |
+| [PreviousSibling](../../aspose.words/node/previoussibling) { get; } | Gets the node immediately preceding this node. |
+| [Range](../../aspose.words/node/range) { get; } | Returns a **Range** object that represents the portion of a document that is contained in this node. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [Accept](accept)(DocumentVisitor) | Accepts a visitor. |
-| override [GetText](gettext)() | Returns an empty string. |
+| override [Accept](../../aspose.words/bookmarkstart/accept)(DocumentVisitor) | Accepts a visitor. |
+| [Clone](../../aspose.words/node/clone)(bool) | Creates a duplicate of the node. |
+| [GetAncestor](../../aspose.words/node/getancestor)(NodeType) | Gets the first ancestor of the specified [`NodeType`](../nodetype). |
+| [GetAncestor](../../aspose.words/node/getancestor)(Type) | Gets the first ancestor of the specified object type. |
+| override [GetText](../../aspose.words/bookmarkstart/gettext)() | Returns an empty string. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder)(Node) | Gets next node according to the pre-order tree traversal algorithm. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder)(Node) | Gets the previous node according to the pre-order tree traversal algorithm. |
+| [Remove](../../aspose.words/node/remove)() | Removes itself from the parent. |
+| [ToString](../../aspose.words/node/tostring)(SaveFormat) | Exports the content of the node into a string in the specified format. |
+| [ToString](../../aspose.words/node/tostring)(SaveOptions) | Exports the content of the node into a string using the specified save options. |
 
 ### Remarks
 

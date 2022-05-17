@@ -24,9 +24,9 @@ public class DownsampleOptions
 
 | Name | Description |
 | --- | --- |
-| [DownsampleImages](downsampleimages) { get; set; } | Specifies whether images should be downsampled. |
-| [Resolution](resolution) { get; set; } | Specifies the resolution in pixels per inch which the images should be downsampled to. |
-| [ResolutionThreshold](resolutionthreshold) { get; set; } | Specifies the threshold resolution in pixels per inch. If resolution of an image in the document is less than threshold value, the downsampling algorithm will not be applied. A value of 0 means the threshold check is not used and all images that can be reduced in size are downsampled. |
+| [DownsampleImages](../../aspose.words.saving/downsampleoptions/downsampleimages) { get; set; } | Specifies whether images should be downsampled. |
+| [Resolution](../../aspose.words.saving/downsampleoptions/resolution) { get; set; } | Specifies the resolution in pixels per inch which the images should be downsampled to. |
+| [ResolutionThreshold](../../aspose.words.saving/downsampleoptions/resolutionthreshold) { get; set; } | Specifies the threshold resolution in pixels per inch. If resolution of an image in the document is less than threshold value, the downsampling algorithm will not be applied. A value of 0 means the threshold check is not used and all images that can be reduced in size are downsampled. |
 
 ### See Also
 

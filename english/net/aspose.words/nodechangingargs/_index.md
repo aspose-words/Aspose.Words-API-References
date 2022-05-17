@@ -18,10 +18,10 @@ public class NodeChangingArgs
 
 | Name | Description |
 | --- | --- |
-| [Action](action) { get; } | Gets a value indicating what type of node change event is occurring. |
-| [NewParent](newparent) { get; } | Gets the node's parent that will be set after the operation completes. |
-| [Node](node) { get; } | Gets the [`Node`](./node) that is being added or removed. |
-| [OldParent](oldparent) { get; } | Gets the node's parent before the operation began. |
+| [Action](../../aspose.words/nodechangingargs/action) { get; } | Gets a value indicating what type of node change event is occurring. |
+| [NewParent](../../aspose.words/nodechangingargs/newparent) { get; } | Gets the node's parent that will be set after the operation completes. |
+| [Node](../../aspose.words/nodechangingargs/node) { get; } | Gets the [`Node`](./node) that is being added or removed. |
+| [OldParent](../../aspose.words/nodechangingargs/oldparent) { get; } | Gets the node's parent before the operation began. |
 
 ### See Also
 

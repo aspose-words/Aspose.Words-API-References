@@ -18,8 +18,8 @@ public class OlePackage
 
 | Name | Description |
 | --- | --- |
-| [DisplayName](displayname) { get; set; } | Gets or sets OLE Package display name. |
-| [FileName](filename) { get; set; } | Gets or sets OLE Package file name. |
+| [DisplayName](../../aspose.words.drawing/olepackage/displayname) { get; set; } | Gets or sets OLE Package display name. |
+| [FileName](../../aspose.words.drawing/olepackage/filename) { get; set; } | Gets or sets OLE Package file name. |
 
 ### Remarks
 

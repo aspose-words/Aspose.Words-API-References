@@ -18,29 +18,29 @@ public class Style
 
 | Name | Description |
 | --- | --- |
-| [Aliases](aliases) { get; } | Gets all aliases of this style. If style has no aliases then empty array of string is returned. |
-| [BaseStyleName](basestylename) { get; set; } | Gets/sets the name of the style this style is based on. |
-| [BuiltIn](builtin) { get; } | True if this style is one of the built-in styles in MS Word. |
-| [Document](document) { get; } | Gets the owner document. |
-| [Font](font) { get; } | Gets the character formatting of the style. |
-| [IsHeading](isheading) { get; } | True when the style is one of the built-in Heading styles. |
-| [IsQuickStyle](isquickstyle) { get; set; } | Specifies whether this style is shown in the Quick Style gallery inside MS Word UI. |
-| [LinkedStyleName](linkedstylename) { get; } | Gets the name of the Style linked to this one. Returns Empty string if no styles are linked. |
-| [List](list) { get; } | Gets the list that defines formatting of this list style. |
-| [ListFormat](listformat) { get; } | Provides access to the list formatting properties of a paragraph style. |
-| [Name](name) { get; set; } | Gets or sets the name of the style. |
-| [NextParagraphStyleName](nextparagraphstylename) { get; set; } | Gets/sets the name of the style to be applied automatically to a new paragraph inserted after a paragraph formatted with the specified style. |
-| [ParagraphFormat](paragraphformat) { get; } | Gets the paragraph formatting of the style. |
-| [StyleIdentifier](styleidentifier) { get; } | Gets the locale independent style identifier for a built-in style. |
-| [Styles](styles) { get; } | Gets the collection of styles this style belongs to. |
-| [Type](type) { get; } | Gets the style type (paragraph or character). |
+| [Aliases](../../aspose.words/style/aliases) { get; } | Gets all aliases of this style. If style has no aliases then empty array of string is returned. |
+| [BaseStyleName](../../aspose.words/style/basestylename) { get; set; } | Gets/sets the name of the style this style is based on. |
+| [BuiltIn](../../aspose.words/style/builtin) { get; } | True if this style is one of the built-in styles in MS Word. |
+| [Document](../../aspose.words/style/document) { get; } | Gets the owner document. |
+| [Font](../../aspose.words/style/font) { get; } | Gets the character formatting of the style. |
+| [IsHeading](../../aspose.words/style/isheading) { get; } | True when the style is one of the built-in Heading styles. |
+| [IsQuickStyle](../../aspose.words/style/isquickstyle) { get; set; } | Specifies whether this style is shown in the Quick Style gallery inside MS Word UI. |
+| [LinkedStyleName](../../aspose.words/style/linkedstylename) { get; } | Gets the name of the Style linked to this one. Returns Empty string if no styles are linked. |
+| [List](../../aspose.words/style/list) { get; } | Gets the list that defines formatting of this list style. |
+| [ListFormat](../../aspose.words/style/listformat) { get; } | Provides access to the list formatting properties of a paragraph style. |
+| [Name](../../aspose.words/style/name) { get; set; } | Gets or sets the name of the style. |
+| [NextParagraphStyleName](../../aspose.words/style/nextparagraphstylename) { get; set; } | Gets/sets the name of the style to be applied automatically to a new paragraph inserted after a paragraph formatted with the specified style. |
+| [ParagraphFormat](../../aspose.words/style/paragraphformat) { get; } | Gets the paragraph formatting of the style. |
+| [StyleIdentifier](../../aspose.words/style/styleidentifier) { get; } | Gets the locale independent style identifier for a built-in style. |
+| [Styles](../../aspose.words/style/styles) { get; } | Gets the collection of styles this style belongs to. |
+| [Type](../../aspose.words/style/type) { get; } | Gets the style type (paragraph or character). |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Equals](equals)(Style) | Compares with the specified style. Styles Istds are compared for built-in styles only. Styles defaults are not included in comparison. Base style, linked style and next paragraph style are recursively compared. |
-| [Remove](remove)() | Removes the specified style from the document. |
+| [Equals](../../aspose.words/style/equals)(Style) | Compares with the specified style. Styles Istds are compared for built-in styles only. Styles defaults are not included in comparison. Base style, linked style and next paragraph style are recursively compared. |
+| [Remove](../../aspose.words/style/remove)() | Removes the specified style from the document. |
 
 ### See Also
 

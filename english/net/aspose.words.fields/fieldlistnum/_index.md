@@ -24,10 +24,31 @@ public class FieldListNum : Field
 
 | Name | Description |
 | --- | --- |
-| [HasListName](haslistname) { get; } | Returns a value indicating whether the name of an abstract numbering definition is provided by the field's code. |
-| [ListLevel](listlevel) { get; set; } | Gets or sets the level in the list, overriding the default behavior of the field. |
-| [ListName](listname) { get; set; } | Gets or sets the name of the abstract numbering definition used for the numbering. |
-| [StartingNumber](startingnumber) { get; set; } | Gets or sets the starting value for this field. |
+| [DisplayResult](../../aspose.words.fields/field/displayresult) { get; } | Gets the text that represents the displayed field result. |
+| [End](../../aspose.words.fields/field/end) { get; } | Gets the node that represents the field end. |
+| [Format](../../aspose.words.fields/field/format) { get; } | Gets a [`FieldFormat`](../fieldformat) object that provides typed access to field's formatting. |
+| [HasListName](../../aspose.words.fields/fieldlistnum/haslistname) { get; } | Returns a value indicating whether the name of an abstract numbering definition is provided by the field's code. |
+| [IsDirty](../../aspose.words.fields/field/isdirty) { get; set; } | Gets or sets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
+| [IsLocked](../../aspose.words.fields/field/islocked) { get; set; } | Gets or sets whether the field is locked (should not recalculate its result). |
+| [ListLevel](../../aspose.words.fields/fieldlistnum/listlevel) { get; set; } | Gets or sets the level in the list, overriding the default behavior of the field. |
+| [ListName](../../aspose.words.fields/fieldlistnum/listname) { get; set; } | Gets or sets the name of the abstract numbering definition used for the numbering. |
+| [LocaleId](../../aspose.words.fields/field/localeid) { get; set; } | Gets or sets the LCID of the field. |
+| [Result](../../aspose.words.fields/field/result) { get; set; } | Gets or sets text that is between the field separator and field end. |
+| [Separator](../../aspose.words.fields/field/separator) { get; } | Gets the node that represents the field separator. Can be null. |
+| [Start](../../aspose.words.fields/field/start) { get; } | Gets the node that represents the start of the field. |
+| [StartingNumber](../../aspose.words.fields/fieldlistnum/startingnumber) { get; set; } | Gets or sets the starting value for this field. |
+| virtual [Type](../../aspose.words.fields/field/type) { get; } | Gets the Microsoft Word field type. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode)() | Returns text between field start and field separator (or field end if there is no separator). Both field code and field result of child fields are included. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode)(bool) | Returns text between field start and field separator (or field end if there is no separator). |
+| [Remove](../../aspose.words.fields/field/remove)() | Removes the field from the document. Returns a node right after the field. If the field's end is the last child of its parent node, returns its parent paragraph. If the field is already removed, returns **null**. |
+| [Unlink](../../aspose.words.fields/field/unlink)() | Performs the field unlink. |
+| [Update](../../aspose.words.fields/field/update)() | Performs the field update. Throws if the field is being updated already. |
+| [Update](../../aspose.words.fields/field/update)(bool) | Performs a field update. Throws if the field is being updated already. |
 
 ### See Also
 

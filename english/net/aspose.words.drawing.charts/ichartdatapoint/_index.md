@@ -18,10 +18,10 @@ public interface IChartDataPoint
 
 | Name | Description |
 | --- | --- |
-| [Bubble3D](bubble3d) { get; set; } | Specifies whether the bubbles in Bubble chart should have a 3-D effect applied to them. |
-| [Explosion](explosion) { get; set; } | Specifies the amount the data point shall be moved from the center of the pie. Can be negative, negative means that property is not set and no explosion should be applied. Applies only to Pie charts. |
-| [InvertIfNegative](invertifnegative) { get; set; } | Specifies whether the parent element shall inverts its colors if the value is negative. |
-| [Marker](marker) { get; } | Specifies a data marker. Marker is automatically created when requested. |
+| [Bubble3D](../../aspose.words.drawing.charts/ichartdatapoint/bubble3d) { get; set; } | Specifies whether the bubbles in Bubble chart should have a 3-D effect applied to them. |
+| [Explosion](../../aspose.words.drawing.charts/ichartdatapoint/explosion) { get; set; } | Specifies the amount the data point shall be moved from the center of the pie. Can be negative, negative means that property is not set and no explosion should be applied. Applies only to Pie charts. |
+| [InvertIfNegative](../../aspose.words.drawing.charts/ichartdatapoint/invertifnegative) { get; set; } | Specifies whether the parent element shall inverts its colors if the value is negative. |
+| [Marker](../../aspose.words.drawing.charts/ichartdatapoint/marker) { get; } | Specifies a data marker. Marker is automatically created when requested. |
 
 ### See Also
 

@@ -18,25 +18,25 @@ public class TabStopCollection : InternableComplexAttr
 
 | Name | Description |
 | --- | --- |
-| [Count](count) { get; } | Gets the number of tab stops in the collection. |
-| [Item](item) { get; } | Gets a tab stop at the given index. (2 indexers) |
+| [Count](../../aspose.words/tabstopcollection/count) { get; } | Gets the number of tab stops in the collection. |
+| [Item](../../aspose.words/tabstopcollection/item) { get; } | Gets a tab stop at the given index. (2 indexers) |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Add](add)(TabStop) | Adds or replaces a tab stop in the collection. |
-| [Add](add)(double, TabAlignment, TabLeader) | Adds or replaces a tab stop in the collection. |
-| [After](after)(double) | Gets a first tab stop to the right of the specified position. |
-| [Before](before)(double) | Gets a first tab stop to the left of the specified position. |
-| [Clear](clear)() | Deletes all tab stop positions. |
-| override [Equals](equals)(object) | Determines whether the specified object is equal in value to the current object. |
-| [Equals](equals)(TabStopCollection) | Determines whether the specified TabStopCollection is equal in value to the current TabStopCollection. |
-| override [GetHashCode](gethashcode)() | Serves as a hash function for this type. |
-| [GetIndexByPosition](getindexbyposition)(double) | Gets the index of a tab stop with the specified position in points. |
-| [GetPositionByIndex](getpositionbyindex)(int) | Gets the position (in points) of the tab stop at the specified index. |
-| [RemoveByIndex](removebyindex)(int) | Removes a tab stop at the specified index from the collection. |
-| [RemoveByPosition](removebyposition)(double) | Removes a tab stop at the specified position from the collection. |
+| [Add](../../aspose.words/tabstopcollection/add)(TabStop) | Adds or replaces a tab stop in the collection. |
+| [Add](../../aspose.words/tabstopcollection/add)(double, TabAlignment, TabLeader) | Adds or replaces a tab stop in the collection. |
+| [After](../../aspose.words/tabstopcollection/after)(double) | Gets a first tab stop to the right of the specified position. |
+| [Before](../../aspose.words/tabstopcollection/before)(double) | Gets a first tab stop to the left of the specified position. |
+| [Clear](../../aspose.words/tabstopcollection/clear)() | Deletes all tab stop positions. |
+| override [Equals](../../aspose.words/tabstopcollection/equals)(object) | Determines whether the specified object is equal in value to the current object. |
+| [Equals](../../aspose.words/tabstopcollection/equals)(TabStopCollection) | Determines whether the specified TabStopCollection is equal in value to the current TabStopCollection. |
+| override [GetHashCode](../../aspose.words/tabstopcollection/gethashcode)() | Serves as a hash function for this type. |
+| [GetIndexByPosition](../../aspose.words/tabstopcollection/getindexbyposition)(double) | Gets the index of a tab stop with the specified position in points. |
+| [GetPositionByIndex](../../aspose.words/tabstopcollection/getpositionbyindex)(int) | Gets the position (in points) of the tab stop at the specified index. |
+| [RemoveByIndex](../../aspose.words/tabstopcollection/removebyindex)(int) | Removes a tab stop at the specified index from the collection. |
+| [RemoveByPosition](../../aspose.words/tabstopcollection/removebyposition)(double) | Removes a tab stop at the specified position from the collection. |
 
 ### Remarks
 

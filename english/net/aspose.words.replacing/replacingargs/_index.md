@@ -18,12 +18,12 @@ public class ReplacingArgs
 
 | Name | Description |
 | --- | --- |
-| [GroupIndex](groupindex) { get; set; } | Identifies, by index, a captured group in the [`Match`](./match) that is to be replaced with the [`Replacement`](./replacement) string. |
-| [GroupName](groupname) { get; set; } | Identifies, by name, a captured group in the [`Match`](./match) that is to be replaced with the [`Replacement`](./replacement) string. |
-| [Match](match) { get; } | The Match resulting from a single regular expression match during a **Replace**. |
-| [MatchNode](matchnode) { get; } | Gets the node that contains the beginning of the match. |
-| [MatchOffset](matchoffset) { get; } | Gets the zero-based starting position of the match from the start of the node that contains the beginning of the match. |
-| [Replacement](replacement) { get; set; } | Gets or sets the replacement string. |
+| [GroupIndex](../../aspose.words.replacing/replacingargs/groupindex) { get; set; } | Identifies, by index, a captured group in the [`Match`](./match) that is to be replaced with the [`Replacement`](./replacement) string. |
+| [GroupName](../../aspose.words.replacing/replacingargs/groupname) { get; set; } | Identifies, by name, a captured group in the [`Match`](./match) that is to be replaced with the [`Replacement`](./replacement) string. |
+| [Match](../../aspose.words.replacing/replacingargs/match) { get; } | The Match resulting from a single regular expression match during a **Replace**. |
+| [MatchNode](../../aspose.words.replacing/replacingargs/matchnode) { get; } | Gets the node that contains the beginning of the match. |
+| [MatchOffset](../../aspose.words.replacing/replacingargs/matchoffset) { get; } | Gets the zero-based starting position of the match from the start of the node that contains the beginning of the match. |
+| [Replacement](../../aspose.words.replacing/replacingargs/replacement) { get; set; } | Gets or sets the replacement string. |
 
 ### See Also
 

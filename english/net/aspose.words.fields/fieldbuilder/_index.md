@@ -24,17 +24,17 @@ public class FieldBuilder
 
 | Name | Description |
 | --- | --- |
-| [AddArgument](addargument)(double) | Adds a field's argument. |
-| [AddArgument](addargument)(FieldArgumentBuilder) | Adds a field's argument represented by [`FieldArgumentBuilder`](../fieldargumentbuilder) to the field's code. |
-| [AddArgument](addargument)(FieldBuilder) | Adds a child field represented by another [`FieldBuilder`](../fieldbuilder) to the field's code. |
-| [AddArgument](addargument)(int) | Adds a field's argument. |
-| [AddArgument](addargument)(string) | Adds a field's argument. |
-| [AddSwitch](addswitch)(string) | Adds a field's switch. |
-| [AddSwitch](addswitch)(string, double) | Adds a field's switch. |
-| [AddSwitch](addswitch)(string, int) | Adds a field's switch. |
-| [AddSwitch](addswitch)(string, string) | Adds a field's switch. |
-| [BuildAndInsert](buildandinsert)(Inline) | Builds and inserts a field into the document before the specified inline node. |
-| [BuildAndInsert](buildandinsert)(Paragraph) | Builds and inserts a field into the document to the end of the specified paragraph. |
+| [AddArgument](../../aspose.words.fields/fieldbuilder/addargument)(double) | Adds a field's argument. |
+| [AddArgument](../../aspose.words.fields/fieldbuilder/addargument)(FieldArgumentBuilder) | Adds a field's argument represented by [`FieldArgumentBuilder`](../fieldargumentbuilder) to the field's code. |
+| [AddArgument](../../aspose.words.fields/fieldbuilder/addargument)(FieldBuilder) | Adds a child field represented by another [`FieldBuilder`](../fieldbuilder) to the field's code. |
+| [AddArgument](../../aspose.words.fields/fieldbuilder/addargument)(int) | Adds a field's argument. |
+| [AddArgument](../../aspose.words.fields/fieldbuilder/addargument)(string) | Adds a field's argument. |
+| [AddSwitch](../../aspose.words.fields/fieldbuilder/addswitch)(string) | Adds a field's switch. |
+| [AddSwitch](../../aspose.words.fields/fieldbuilder/addswitch)(string, double) | Adds a field's switch. |
+| [AddSwitch](../../aspose.words.fields/fieldbuilder/addswitch)(string, int) | Adds a field's switch. |
+| [AddSwitch](../../aspose.words.fields/fieldbuilder/addswitch)(string, string) | Adds a field's switch. |
+| [BuildAndInsert](../../aspose.words.fields/fieldbuilder/buildandinsert)(Inline) | Builds and inserts a field into the document before the specified inline node. |
+| [BuildAndInsert](../../aspose.words.fields/fieldbuilder/buildandinsert)(Paragraph) | Builds and inserts a field into the document to the end of the specified paragraph. |
 
 ### See Also
 

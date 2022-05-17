@@ -24,10 +24,10 @@ public class AxisScaling
 
 | Name | Description |
 | --- | --- |
-| [LogBase](logbase) { get; set; } | Gets or sets the logarithmic base for a logarithmic axis. |
-| [Maximum](maximum) { get; set; } | Gets or sets the maximum value of the axis. |
-| [Minimum](minimum) { get; set; } | Gets or sets minimum value of the axis. |
-| [Type](type) { get; set; } | Gets or sets scaling type of the axis. |
+| [LogBase](../../aspose.words.drawing.charts/axisscaling/logbase) { get; set; } | Gets or sets the logarithmic base for a logarithmic axis. |
+| [Maximum](../../aspose.words.drawing.charts/axisscaling/maximum) { get; set; } | Gets or sets the maximum value of the axis. |
+| [Minimum](../../aspose.words.drawing.charts/axisscaling/minimum) { get; set; } | Gets or sets minimum value of the axis. |
+| [Type](../../aspose.words.drawing.charts/axisscaling/type) { get; set; } | Gets or sets scaling type of the axis. |
 
 ### See Also
 

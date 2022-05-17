@@ -18,16 +18,16 @@ public class KnownTypeSet : IEnumerable<Type>
 
 | Name | Description |
 | --- | --- |
-| [Count](count) { get; } | Gets the count of items in the set. |
+| [Count](../../aspose.words.reporting/knowntypeset/count) { get; } | Gets the count of items in the set. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Add](add)(Type) | Adds the specified Type object to the set. Throws ArgumentException in the following cases: |
-| [Clear](clear)() | Removes all items from the set. |
-| [GetEnumerator](getenumerator)() | Returns An IEnumerator object to iterate over items of the set. |
-| [Remove](remove)(Type) | Removes the specified Type object from the set. Throws ArgumentException if *type* is null. |
+| [Add](../../aspose.words.reporting/knowntypeset/add)(Type) | Adds the specified Type object to the set. Throws ArgumentException in the following cases: |
+| [Clear](../../aspose.words.reporting/knowntypeset/clear)() | Removes all items from the set. |
+| [GetEnumerator](../../aspose.words.reporting/knowntypeset/getenumerator)() | Returns An IEnumerator object to iterate over items of the set. |
+| [Remove](../../aspose.words.reporting/knowntypeset/remove)(Type) | Removes the specified Type object from the set. Throws ArgumentException if *type* is null. |
 
 ### See Also
 

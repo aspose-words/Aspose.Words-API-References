@@ -14,6 +14,12 @@ Font substitution rule for processing font name.
 public class FontNameSubstitutionRule : FontSubstitutionRule
 ```
 
+## Properties
+
+| Name | Description |
+| --- | --- |
+| virtual [Enabled](../../aspose.words.fonts/fontsubstitutionrule/enabled) { get; set; } | Specifies whether the rule is enabled or not. |
+
 ### Remarks
 
 According to this rule Aspose.Words tries to process the font name to get the substitution. Particularly Aspose.Words tries to removes suffixes with '-' and ',' separators like it does the MS Word.

@@ -18,14 +18,14 @@ public sealed class RevisionGroupCollection : IEnumerable<RevisionGroup>
 
 | Name | Description |
 | --- | --- |
-| [Count](count) { get; } | Returns the number of revision groups in the collection. |
-| [Item](item) { get; } | Returns a revision group at the specified index. |
+| [Count](../../aspose.words/revisiongroupcollection/count) { get; } | Returns the number of revision groups in the collection. |
+| [Item](../../aspose.words/revisiongroupcollection/item) { get; } | Returns a revision group at the specified index. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [GetEnumerator](getenumerator)() | Returns an enumerator object. |
+| [GetEnumerator](../../aspose.words/revisiongroupcollection/getenumerator)() | Returns an enumerator object. |
 
 ### Remarks
 

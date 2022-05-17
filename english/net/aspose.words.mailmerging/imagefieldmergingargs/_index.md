@@ -18,12 +18,19 @@ public class ImageFieldMergingArgs : FieldMergingArgsBase
 
 | Name | Description |
 | --- | --- |
-| [Image](image) { get; set; } | Specifies the image that the mail merge engine must insert into the document. |
-| [ImageFileName](imagefilename) { get; set; } | Sets the file name of the image that the mail merge engine must insert into the document. |
-| [ImageHeight](imageheight) { get; set; } | Specifies the image height for the image to insert into the document. |
-| [ImageStream](imagestream) { get; set; } | Specifies the stream for the mail merge engine to read an image from. |
-| [ImageWidth](imagewidth) { get; set; } | Specifies the image width for the image to insert into the document. |
-| [Shape](shape) { get; set; } | Specifies the shape that the mail merge engine must insert into the document. |
+| [Document](../../aspose.words.mailmerging/fieldmergingargsbase/document) { get; } | Returns the [`Document`](../fieldmergingargsbase/document) object for which the mail merge is performed. |
+| [DocumentFieldName](../../aspose.words.mailmerging/fieldmergingargsbase/documentfieldname) { get; } | Gets the name of the merge field as specified in the document. |
+| [Field](../../aspose.words.mailmerging/fieldmergingargsbase/field) { get; } | Gets the object that represents the current merge field. |
+| [FieldName](../../aspose.words.mailmerging/fieldmergingargsbase/fieldname) { get; } | Gets the name of the merge field in the data source. |
+| [FieldValue](../../aspose.words.mailmerging/fieldmergingargsbase/fieldvalue) { get; set; } | Gets or sets the value of the field from the data source. |
+| [Image](../../aspose.words.mailmerging/imagefieldmergingargs/image) { get; set; } | Specifies the image that the mail merge engine must insert into the document. |
+| [ImageFileName](../../aspose.words.mailmerging/imagefieldmergingargs/imagefilename) { get; set; } | Sets the file name of the image that the mail merge engine must insert into the document. |
+| [ImageHeight](../../aspose.words.mailmerging/imagefieldmergingargs/imageheight) { get; set; } | Specifies the image height for the image to insert into the document. |
+| [ImageStream](../../aspose.words.mailmerging/imagefieldmergingargs/imagestream) { get; set; } | Specifies the stream for the mail merge engine to read an image from. |
+| [ImageWidth](../../aspose.words.mailmerging/imagefieldmergingargs/imagewidth) { get; set; } | Specifies the image width for the image to insert into the document. |
+| [RecordIndex](../../aspose.words.mailmerging/fieldmergingargsbase/recordindex) { get; } | Gets the zero based index of the record that is being merged. |
+| [Shape](../../aspose.words.mailmerging/imagefieldmergingargs/shape) { get; set; } | Specifies the shape that the mail merge engine must insert into the document. |
+| [TableName](../../aspose.words.mailmerging/fieldmergingargsbase/tablename) { get; } | Gets the name of the data table for the current merge operation or empty string if the name is not available. |
 
 ### Remarks
 

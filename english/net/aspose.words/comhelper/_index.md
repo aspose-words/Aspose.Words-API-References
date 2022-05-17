@@ -24,9 +24,9 @@ public class ComHelper
 
 | Name | Description |
 | --- | --- |
-| [Open](open)(Stream) | Allows a COM application to load [`Document`](../document) from a stream. |
-| [Open](open)(string) | Allows a COM application to load a [`Document`](../document) from a file. |
-| [OpenIStream](openistream)(IStream) | Allows a COM application to load a [`Document`](../document) from an IStream object. |
+| [Open](../../aspose.words/comhelper/open)(Stream) | Allows a COM application to load [`Document`](../document) from a stream. |
+| [Open](../../aspose.words/comhelper/open)(string) | Allows a COM application to load a [`Document`](../document) from a file. |
+| [OpenIStream](../../aspose.words/comhelper/openistream)(IStream) | Allows a COM application to load a [`Document`](../document) from an IStream object. |
 
 ### Remarks
 

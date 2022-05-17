@@ -18,24 +18,24 @@ public abstract class NodeRendererBase
 
 | Name | Description |
 | --- | --- |
-| [BoundsInPoints](boundsinpoints) { get; } | Gets the actual bounds of the shape in points. |
-| [OpaqueBoundsInPoints](opaqueboundsinpoints) { get; } | Gets the opaque bounds of the shape in points. |
-| [SizeInPoints](sizeinpoints) { get; } | Gets the actual size of the shape in points. |
+| [BoundsInPoints](../../aspose.words.rendering/noderendererbase/boundsinpoints) { get; } | Gets the actual bounds of the shape in points. |
+| [OpaqueBoundsInPoints](../../aspose.words.rendering/noderendererbase/opaqueboundsinpoints) { get; } | Gets the opaque bounds of the shape in points. |
+| [SizeInPoints](../../aspose.words.rendering/noderendererbase/sizeinpoints) { get; } | Gets the actual size of the shape in points. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [GetBoundsInPixels](getboundsinpixels)(float, float) | Calculates the bounds of the shape in pixels for a specified zoom factor and resolution. |
-| [GetBoundsInPixels](getboundsinpixels)(float, float, float) | Calculates the bounds of the shape in pixels for a specified zoom factor and resolution. |
-| [GetOpaqueBoundsInPixels](getopaqueboundsinpixels)(float, float) | Calculates the opaque bounds of the shape in pixels for a specified zoom factor and resolution. |
-| [GetOpaqueBoundsInPixels](getopaqueboundsinpixels)(float, float, float) | Calculates the opaque bounds of the shape in pixels for a specified zoom factor and resolution. |
-| [GetSizeInPixels](getsizeinpixels)(float, float) | Calculates the size of the shape in pixels for a specified zoom factor and resolution. |
-| [GetSizeInPixels](getsizeinpixels)(float, float, float) | Calculates the size of the shape in pixels for a specified zoom factor and resolution. |
-| [RenderToScale](rendertoscale)(Graphics, float, float, float) | Renders the shape into a Graphics object to a specified scale. |
-| [RenderToSize](rendertosize)(Graphics, float, float, float, float) | Renders the shape into a Graphics object to a specified size. |
-| [Save](save)(Stream, ImageSaveOptions) | Renders the shape into an image and saves into a stream. |
-| [Save](save)(string, ImageSaveOptions) | Renders the shape into an image and saves into a file. |
+| [GetBoundsInPixels](../../aspose.words.rendering/noderendererbase/getboundsinpixels)(float, float) | Calculates the bounds of the shape in pixels for a specified zoom factor and resolution. |
+| [GetBoundsInPixels](../../aspose.words.rendering/noderendererbase/getboundsinpixels)(float, float, float) | Calculates the bounds of the shape in pixels for a specified zoom factor and resolution. |
+| [GetOpaqueBoundsInPixels](../../aspose.words.rendering/noderendererbase/getopaqueboundsinpixels)(float, float) | Calculates the opaque bounds of the shape in pixels for a specified zoom factor and resolution. |
+| [GetOpaqueBoundsInPixels](../../aspose.words.rendering/noderendererbase/getopaqueboundsinpixels)(float, float, float) | Calculates the opaque bounds of the shape in pixels for a specified zoom factor and resolution. |
+| [GetSizeInPixels](../../aspose.words.rendering/noderendererbase/getsizeinpixels)(float, float) | Calculates the size of the shape in pixels for a specified zoom factor and resolution. |
+| [GetSizeInPixels](../../aspose.words.rendering/noderendererbase/getsizeinpixels)(float, float, float) | Calculates the size of the shape in pixels for a specified zoom factor and resolution. |
+| [RenderToScale](../../aspose.words.rendering/noderendererbase/rendertoscale)(Graphics, float, float, float) | Renders the shape into a Graphics object to a specified scale. |
+| [RenderToSize](../../aspose.words.rendering/noderendererbase/rendertosize)(Graphics, float, float, float, float) | Renders the shape into a Graphics object to a specified size. |
+| [Save](../../aspose.words.rendering/noderendererbase/save)(Stream, ImageSaveOptions) | Renders the shape into an image and saves into a stream. |
+| [Save](../../aspose.words.rendering/noderendererbase/save)(string, ImageSaveOptions) | Renders the shape into an image and saves into a file. |
 
 ### See Also
 

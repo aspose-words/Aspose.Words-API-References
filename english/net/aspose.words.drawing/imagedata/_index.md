@@ -18,37 +18,37 @@ public class ImageData
 
 | Name | Description |
 | --- | --- |
-| [BiLevel](bilevel) { get; set; } | Determines whether an image will be displayed in black and white. |
-| [Borders](borders) { get; } | Gets the collection of borders of the image. Borders only have effect for inline images. |
-| [Brightness](brightness) { get; set; } | Gets or sets the brightness of the picture. The value for this property must be a number from 0.0 (dimmest) to 1.0 (brightest). |
-| [ChromaKey](chromakey) { get; set; } | Defines the color value of the image that will be treated as transparent. |
-| [Contrast](contrast) { get; set; } | Gets or sets the contrast for the specified picture. The value for this property must be a number from 0.0 (the least contrast) to 1.0 (the greatest contrast). |
-| [CropBottom](cropbottom) { get; set; } | Defines the fraction of picture removal from the bottom side. |
-| [CropLeft](cropleft) { get; set; } | Defines the fraction of picture removal from the left side. |
-| [CropRight](cropright) { get; set; } | Defines the fraction of picture removal from the right side. |
-| [CropTop](croptop) { get; set; } | Defines the fraction of picture removal from the top side. |
-| [GrayScale](grayscale) { get; set; } | Determines whether a picture will display in grayscale mode. |
-| [HasImage](hasimage) { get; } | Returns true if the shape has image bytes or links an image. |
-| [ImageBytes](imagebytes) { get; set; } | Gets or sets the raw bytes of the image stored in the shape. |
-| [ImageSize](imagesize) { get; } | Gets the information about image size and resolution. |
-| [ImageType](imagetype) { get; } | Gets the type of the image. |
-| [IsLink](islink) { get; } | Returns true if the image is linked to the shape (when [`SourceFullName`](./sourcefullname) is specified). |
-| [IsLinkOnly](islinkonly) { get; } | Returns true if the image is linked and not stored in the document. |
-| [SourceFullName](sourcefullname) { get; set; } | Gets or sets the path and name of the source file for the linked image. |
-| [Title](title) { get; set; } | Defines the title of an image. |
+| [BiLevel](../../aspose.words.drawing/imagedata/bilevel) { get; set; } | Determines whether an image will be displayed in black and white. |
+| [Borders](../../aspose.words.drawing/imagedata/borders) { get; } | Gets the collection of borders of the image. Borders only have effect for inline images. |
+| [Brightness](../../aspose.words.drawing/imagedata/brightness) { get; set; } | Gets or sets the brightness of the picture. The value for this property must be a number from 0.0 (dimmest) to 1.0 (brightest). |
+| [ChromaKey](../../aspose.words.drawing/imagedata/chromakey) { get; set; } | Defines the color value of the image that will be treated as transparent. |
+| [Contrast](../../aspose.words.drawing/imagedata/contrast) { get; set; } | Gets or sets the contrast for the specified picture. The value for this property must be a number from 0.0 (the least contrast) to 1.0 (the greatest contrast). |
+| [CropBottom](../../aspose.words.drawing/imagedata/cropbottom) { get; set; } | Defines the fraction of picture removal from the bottom side. |
+| [CropLeft](../../aspose.words.drawing/imagedata/cropleft) { get; set; } | Defines the fraction of picture removal from the left side. |
+| [CropRight](../../aspose.words.drawing/imagedata/cropright) { get; set; } | Defines the fraction of picture removal from the right side. |
+| [CropTop](../../aspose.words.drawing/imagedata/croptop) { get; set; } | Defines the fraction of picture removal from the top side. |
+| [GrayScale](../../aspose.words.drawing/imagedata/grayscale) { get; set; } | Determines whether a picture will display in grayscale mode. |
+| [HasImage](../../aspose.words.drawing/imagedata/hasimage) { get; } | Returns true if the shape has image bytes or links an image. |
+| [ImageBytes](../../aspose.words.drawing/imagedata/imagebytes) { get; set; } | Gets or sets the raw bytes of the image stored in the shape. |
+| [ImageSize](../../aspose.words.drawing/imagedata/imagesize) { get; } | Gets the information about image size and resolution. |
+| [ImageType](../../aspose.words.drawing/imagedata/imagetype) { get; } | Gets the type of the image. |
+| [IsLink](../../aspose.words.drawing/imagedata/islink) { get; } | Returns true if the image is linked to the shape (when [`SourceFullName`](./sourcefullname) is specified). |
+| [IsLinkOnly](../../aspose.words.drawing/imagedata/islinkonly) { get; } | Returns true if the image is linked and not stored in the document. |
+| [SourceFullName](../../aspose.words.drawing/imagedata/sourcefullname) { get; set; } | Gets or sets the path and name of the source file for the linked image. |
+| [Title](../../aspose.words.drawing/imagedata/title) { get; set; } | Defines the title of an image. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Save](save)(Stream) | Saves the image into the specified stream. |
-| [Save](save)(string) | Saves the image into a file. |
-| [SetImage](setimage)(Image) | Sets the image that the shape displays. |
-| [SetImage](setimage)(Stream) | Sets the image that the shape displays. |
-| [SetImage](setimage)(string) | Sets the image that the shape displays. |
-| [ToByteArray](tobytearray)() | Returns image bytes for any image regardless whether the image is stored or linked. |
-| [ToImage](toimage)() | Gets the image stored in the shape as a Image object. |
-| [ToStream](tostream)() | Creates and returns a stream that contains the image bytes. |
+| [Save](../../aspose.words.drawing/imagedata/save)(Stream) | Saves the image into the specified stream. |
+| [Save](../../aspose.words.drawing/imagedata/save)(string) | Saves the image into a file. |
+| [SetImage](../../aspose.words.drawing/imagedata/setimage)(Image) | Sets the image that the shape displays. |
+| [SetImage](../../aspose.words.drawing/imagedata/setimage)(Stream) | Sets the image that the shape displays. |
+| [SetImage](../../aspose.words.drawing/imagedata/setimage)(string) | Sets the image that the shape displays. |
+| [ToByteArray](../../aspose.words.drawing/imagedata/tobytearray)() | Returns image bytes for any image regardless whether the image is stored or linked. |
+| [ToImage](../../aspose.words.drawing/imagedata/toimage)() | Gets the image stored in the shape as a Image object. |
+| [ToStream](../../aspose.words.drawing/imagedata/tostream)() | Creates and returns a stream that contains the image bytes. |
 
 ### Remarks
 

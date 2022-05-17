@@ -18,9 +18,9 @@ public class PageLayoutCallbackArgs
 
 | Name | Description |
 | --- | --- |
-| [Document](document) { get; } | Gets document. |
-| [Event](event) { get; } | Gets event. |
-| [PageIndex](pageindex) { get; } | Gets 0-based index of the page in the document this event relates to. Returns negative value if there is no associated page, or if page was removed during reflow. |
+| [Document](../../aspose.words.layout/pagelayoutcallbackargs/document) { get; } | Gets document. |
+| [Event](../../aspose.words.layout/pagelayoutcallbackargs/event) { get; } | Gets event. |
+| [PageIndex](../../aspose.words.layout/pagelayoutcallbackargs/pageindex) { get; } | Gets 0-based index of the page in the document this event relates to. Returns negative value if there is no associated page, or if page was removed during reflow. |
 
 ### See Also
 

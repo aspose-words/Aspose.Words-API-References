@@ -24,16 +24,16 @@ public class CustomXmlPart
 
 | Name | Description |
 | --- | --- |
-| [Data](data) { get; set; } | Gets or sets the XML content of this Custom XML Data Storage Part. |
-| [DataChecksum](datachecksum) { get; } | Specifies a cyclic redundancy check (CRC) checksum of the [`Data`](./data) content. |
-| [Id](id) { get; set; } | Gets or sets the string that identifies this custom XML part within an OOXML document. |
-| [Schemas](schemas) { get; } | Specifies the set of XML schemas that are associated with this custom XML part. |
+| [Data](../../aspose.words.markup/customxmlpart/data) { get; set; } | Gets or sets the XML content of this Custom XML Data Storage Part. |
+| [DataChecksum](../../aspose.words.markup/customxmlpart/datachecksum) { get; } | Specifies a cyclic redundancy check (CRC) checksum of the [`Data`](./data) content. |
+| [Id](../../aspose.words.markup/customxmlpart/id) { get; set; } | Gets or sets the string that identifies this custom XML part within an OOXML document. |
+| [Schemas](../../aspose.words.markup/customxmlpart/schemas) { get; } | Specifies the set of XML schemas that are associated with this custom XML part. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Clone](clone)() | Makes a "deep enough" copy of the object. Does not duplicate the bytes of the [`Data`](./data) value. |
+| [Clone](../../aspose.words.markup/customxmlpart/clone)() | Makes a "deep enough" copy of the object. Does not duplicate the bytes of the [`Data`](./data) value. |
 
 ### Remarks
 

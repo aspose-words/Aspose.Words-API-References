@@ -24,20 +24,20 @@ public class CustomXmlPartCollection : IEnumerable<CustomXmlPart>
 
 | Name | Description |
 | --- | --- |
-| [Count](count) { get; } | Gets the number of elements contained in the collection. |
-| [Item](item) { get; set; } | Gets or sets an item at the specified index. |
+| [Count](../../aspose.words.markup/customxmlpartcollection/count) { get; } | Gets the number of elements contained in the collection. |
+| [Item](../../aspose.words.markup/customxmlpartcollection/item) { get; set; } | Gets or sets an item at the specified index. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Add](add)(CustomXmlPart) | Adds an item to the collection. |
-| [Add](add)(string, string) | Creates a new XML part with the specified XML and adds it to the collection. |
-| [Clear](clear)() | Removes all elements from the collection. |
-| [Clone](clone)() | Makes a deep copy of this collection and its items. |
-| [GetById](getbyid)(string) | Finds and returns a custom XML part by its identifier. |
-| [GetEnumerator](getenumerator)() | Returns an enumerator object that can be used to iterate over all items in the collection. |
-| [RemoveAt](removeat)(int) | Removes an item at the specified index. |
+| [Add](../../aspose.words.markup/customxmlpartcollection/add)(CustomXmlPart) | Adds an item to the collection. |
+| [Add](../../aspose.words.markup/customxmlpartcollection/add)(string, string) | Creates a new XML part with the specified XML and adds it to the collection. |
+| [Clear](../../aspose.words.markup/customxmlpartcollection/clear)() | Removes all elements from the collection. |
+| [Clone](../../aspose.words.markup/customxmlpartcollection/clone)() | Makes a deep copy of this collection and its items. |
+| [GetById](../../aspose.words.markup/customxmlpartcollection/getbyid)(string) | Finds and returns a custom XML part by its identifier. |
+| [GetEnumerator](../../aspose.words.markup/customxmlpartcollection/getenumerator)() | Returns an enumerator object that can be used to iterate over all items in the collection. |
+| [RemoveAt](../../aspose.words.markup/customxmlpartcollection/removeat)(int) | Removes an item at the specified index. |
 
 ### Remarks
 

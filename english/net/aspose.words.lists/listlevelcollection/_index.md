@@ -18,14 +18,14 @@ public class ListLevelCollection : IEnumerable<ListLevel>
 
 | Name | Description |
 | --- | --- |
-| [Count](count) { get; } | Gets the number of levels in this list. |
-| [Item](item) { get; set; } | Gets a list level by index. |
+| [Count](../../aspose.words.lists/listlevelcollection/count) { get; } | Gets the number of levels in this list. |
+| [Item](../../aspose.words.lists/listlevelcollection/item) { get; set; } | Gets a list level by index. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [GetEnumerator](getenumerator)() | Gets the enumerator object that will enumerate levels in this list. |
+| [GetEnumerator](../../aspose.words.lists/listlevelcollection/getenumerator)() | Gets the enumerator object that will enumerate levels in this list. |
 
 ### See Also
 

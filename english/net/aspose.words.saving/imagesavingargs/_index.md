@@ -18,12 +18,12 @@ public class ImageSavingArgs
 
 | Name | Description |
 | --- | --- |
-| [CurrentShape](currentshape) { get; } | Gets the [`ShapeBase`](../../aspose.words.drawing/shapebase) object corresponding to the shape or group shape that is about to be saved. |
-| [Document](document) { get; } | Gets the document object that is currently being saved. |
-| [ImageFileName](imagefilename) { get; set; } | Gets or sets the file name (without path) where the image will be saved to. |
-| [ImageStream](imagestream) { get; set; } | Allows to specify the stream where the image will be saved to. |
-| [IsImageAvailable](isimageavailable) { get; } | Returns `true` if the current image is available for export. |
-| [KeepImageStreamOpen](keepimagestreamopen) { get; set; } | Specifies whether Aspose.Words should keep the stream open or close it after saving an image. |
+| [CurrentShape](../../aspose.words.saving/imagesavingargs/currentshape) { get; } | Gets the [`ShapeBase`](../../aspose.words.drawing/shapebase) object corresponding to the shape or group shape that is about to be saved. |
+| [Document](../../aspose.words.saving/imagesavingargs/document) { get; } | Gets the document object that is currently being saved. |
+| [ImageFileName](../../aspose.words.saving/imagesavingargs/imagefilename) { get; set; } | Gets or sets the file name (without path) where the image will be saved to. |
+| [ImageStream](../../aspose.words.saving/imagesavingargs/imagestream) { get; set; } | Allows to specify the stream where the image will be saved to. |
+| [IsImageAvailable](../../aspose.words.saving/imagesavingargs/isimageavailable) { get; } | Returns `true` if the current image is available for export. |
+| [KeepImageStreamOpen](../../aspose.words.saving/imagesavingargs/keepimagestreamopen) { get; set; } | Specifies whether Aspose.Words should keep the stream open or close it after saving an image. |
 
 ### Remarks
 

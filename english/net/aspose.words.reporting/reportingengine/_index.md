@@ -24,19 +24,19 @@ public class ReportingEngine
 
 | Name | Description |
 | --- | --- |
-| [KnownTypes](knowntypes) { get; } | Gets an unordered set (i.e. a collection of unique items) containing Type objects which fully or partially qualified names can be used within report templates processed by this engine instance to invoke the corresponding types' static members, perform type casts, etc. |
-| [Options](options) { get; set; } | Gets or sets a set of flags controlling behavior of this [`ReportingEngine`](../reportingengine) instance while building a report. |
-| static [UseReflectionOptimization](usereflectionoptimization) { get; set; } | Gets or sets a value indicating whether invocations of custom type members performed via reflection API are optimized using dynamic class generation or not. The default value is true. |
+| [KnownTypes](../../aspose.words.reporting/reportingengine/knowntypes) { get; } | Gets an unordered set (i.e. a collection of unique items) containing Type objects which fully or partially qualified names can be used within report templates processed by this engine instance to invoke the corresponding types' static members, perform type casts, etc. |
+| [Options](../../aspose.words.reporting/reportingengine/options) { get; set; } | Gets or sets a set of flags controlling behavior of this [`ReportingEngine`](../reportingengine) instance while building a report. |
+| static [UseReflectionOptimization](../../aspose.words.reporting/reportingengine/usereflectionoptimization) { get; set; } | Gets or sets a value indicating whether invocations of custom type members performed via reflection API are optimized using dynamic class generation or not. The default value is true. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [BuildReport](buildreport)(Document, object) | Populates the specified template document with data from the specified source making it a ready report. |
-| [BuildReport](buildreport)(Document, object, string) | Populates the specified template document with data from the specified source making it a ready report. |
-| [BuildReport](buildreport)(Document, object[], string[]) | Populates the specified template document with data from the specified sources making it a ready report. |
-| [Equals](equals)(object) |  |
-| [GetHashCode](gethashcode)() |  |
+| [BuildReport](../../aspose.words.reporting/reportingengine/buildreport)(Document, object) | Populates the specified template document with data from the specified source making it a ready report. |
+| [BuildReport](../../aspose.words.reporting/reportingengine/buildreport)(Document, object, string) | Populates the specified template document with data from the specified source making it a ready report. |
+| [BuildReport](../../aspose.words.reporting/reportingengine/buildreport)(Document, object[], string[]) | Populates the specified template document with data from the specified sources making it a ready report. |
+| [Equals](../../aspose.words.reporting/reportingengine/equals)(object) |  |
+| [GetHashCode](../../aspose.words.reporting/reportingengine/gethashcode)() |  |
 
 ### See Also
 

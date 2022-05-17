@@ -18,17 +18,17 @@ public class ChartSeries : IChartDataPoint
 
 | Name | Description |
 | --- | --- |
-| [Bubble3D](bubble3d) { get; set; } |  |
-| [DataLabels](datalabels) { get; } | Specifies the settings for the data labels for the entire series. |
-| [DataPoints](datapoints) { get; } | Returns a collection of formatting objects for all data points in this series. |
-| [Explosion](explosion) { get; set; } |  |
-| [Format](format) { get; } | Provides access to fill and line formatting of the series. |
-| [HasDataLabels](hasdatalabels) { get; set; } | Gets or sets a flag indicating whether data labels are displayed for the series. |
-| [InvertIfNegative](invertifnegative) { get; set; } |  |
-| [LegendEntry](legendentry) { get; } | Gets a legend entry for this chart series. |
-| [Marker](marker) { get; } |  |
-| [Name](name) { get; set; } | Gets or sets the name of the series, if name is not set explicitly it is generated using index. By default returns Series plus one based index. |
-| [Smooth](smooth) { get; set; } | Allows to specify whether the line connecting the points on the chart shall be smoothed using Catmull-Rom splines. |
+| [Bubble3D](../../aspose.words.drawing.charts/chartseries/bubble3d) { get; set; } |  |
+| [DataLabels](../../aspose.words.drawing.charts/chartseries/datalabels) { get; } | Specifies the settings for the data labels for the entire series. |
+| [DataPoints](../../aspose.words.drawing.charts/chartseries/datapoints) { get; } | Returns a collection of formatting objects for all data points in this series. |
+| [Explosion](../../aspose.words.drawing.charts/chartseries/explosion) { get; set; } |  |
+| [Format](../../aspose.words.drawing.charts/chartseries/format) { get; } | Provides access to fill and line formatting of the series. |
+| [HasDataLabels](../../aspose.words.drawing.charts/chartseries/hasdatalabels) { get; set; } | Gets or sets a flag indicating whether data labels are displayed for the series. |
+| [InvertIfNegative](../../aspose.words.drawing.charts/chartseries/invertifnegative) { get; set; } |  |
+| [LegendEntry](../../aspose.words.drawing.charts/chartseries/legendentry) { get; } | Gets a legend entry for this chart series. |
+| [Marker](../../aspose.words.drawing.charts/chartseries/marker) { get; } |  |
+| [Name](../../aspose.words.drawing.charts/chartseries/name) { get; set; } | Gets or sets the name of the series, if name is not set explicitly it is generated using index. By default returns Series plus one based index. |
+| [Smooth](../../aspose.words.drawing.charts/chartseries/smooth) { get; set; } | Allows to specify whether the line connecting the points on the chart shall be smoothed using Catmull-Rom splines. |
 
 ### See Also
 

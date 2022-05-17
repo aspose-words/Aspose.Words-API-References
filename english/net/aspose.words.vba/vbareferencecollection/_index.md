@@ -18,15 +18,15 @@ public sealed class VbaReferenceCollection : IEnumerable<VbaReference>
 
 | Name | Description |
 | --- | --- |
-| [Count](count) { get; } | Returns the number of VBA references in the collection. |
-| [Item](item) { get; } | Gets [`VbaReference`](../vbareference) object at the specified index. |
+| [Count](../../aspose.words.vba/vbareferencecollection/count) { get; } | Returns the number of VBA references in the collection. |
+| [Item](../../aspose.words.vba/vbareferencecollection/item) { get; } | Gets [`VbaReference`](../vbareference) object at the specified index. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Remove](remove)(VbaReference) | Removes the first occurrence of a specified VbaReference item from the collection. |
-| [RemoveAt](removeat)(int) | Removes the VbaReference element at the specified index of the the collection. |
+| [Remove](../../aspose.words.vba/vbareferencecollection/remove)(VbaReference) | Removes the first occurrence of a specified VbaReference item from the collection. |
+| [RemoveAt](../../aspose.words.vba/vbareferencecollection/removeat)(int) | Removes the VbaReference element at the specified index of the the collection. |
 
 ### See Also
 

@@ -18,8 +18,8 @@ public class ChartNumberFormat
 
 | Name | Description |
 | --- | --- |
-| [FormatCode](formatcode) { get; set; } | Gets or sets the format code applied to a data label. |
-| [IsLinkedToSource](islinkedtosource) { get; set; } | Specifies whether the format code is linked to a source cell. Default is true. |
+| [FormatCode](../../aspose.words.drawing.charts/chartnumberformat/formatcode) { get; set; } | Gets or sets the format code applied to a data label. |
+| [IsLinkedToSource](../../aspose.words.drawing.charts/chartnumberformat/islinkedtosource) { get; set; } | Specifies whether the format code is linked to a source cell. Default is true. |
 
 ### See Also
 

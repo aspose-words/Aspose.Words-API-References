@@ -14,6 +14,12 @@ Font info substitution rule.
 public class FontInfoSubstitutionRule : FontSubstitutionRule
 ```
 
+## Properties
+
+| Name | Description |
+| --- | --- |
+| virtual [Enabled](../../aspose.words.fonts/fontsubstitutionrule/enabled) { get; set; } | Specifies whether the rule is enabled or not. |
+
 ### Remarks
 
 According to this rule Aspose.Words evaluates all the related fields in [`FontInfo`](../fontinfo) (Panose, Sig etc) for the missing font and finds the closest match among the available font sources. If [`FontInfo`](../fontinfo) is not available for the missing font then nothing will be done.

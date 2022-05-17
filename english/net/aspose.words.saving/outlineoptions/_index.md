@@ -24,12 +24,12 @@ public class OutlineOptions
 
 | Name | Description |
 | --- | --- |
-| [BookmarksOutlineLevels](bookmarksoutlinelevels) { get; } | Allows to specify individual bookmarks outline level. |
-| [CreateMissingOutlineLevels](createmissingoutlinelevels) { get; set; } | Gets or sets a value determining whether or not to create missing outline levels when the document is exported. |
-| [CreateOutlinesForHeadingsInTables](createoutlinesforheadingsintables) { get; set; } | Specifies whether or not to create outlines for headings (paragraphs formatted with the Heading styles) inside tables. |
-| [DefaultBookmarksOutlineLevel](defaultbookmarksoutlinelevel) { get; set; } | Specifies the default level in the document outline at which to display Word bookmarks. |
-| [ExpandedOutlineLevels](expandedoutlinelevels) { get; set; } | Specifies how many levels in the document outline to show expanded when the file is viewed. |
-| [HeadingsOutlineLevels](headingsoutlinelevels) { get; set; } | Specifies how many levels of headings (paragraphs formatted with the Heading styles) to include in the document outline. |
+| [BookmarksOutlineLevels](../../aspose.words.saving/outlineoptions/bookmarksoutlinelevels) { get; } | Allows to specify individual bookmarks outline level. |
+| [CreateMissingOutlineLevels](../../aspose.words.saving/outlineoptions/createmissingoutlinelevels) { get; set; } | Gets or sets a value determining whether or not to create missing outline levels when the document is exported. |
+| [CreateOutlinesForHeadingsInTables](../../aspose.words.saving/outlineoptions/createoutlinesforheadingsintables) { get; set; } | Specifies whether or not to create outlines for headings (paragraphs formatted with the Heading styles) inside tables. |
+| [DefaultBookmarksOutlineLevel](../../aspose.words.saving/outlineoptions/defaultbookmarksoutlinelevel) { get; set; } | Specifies the default level in the document outline at which to display Word bookmarks. |
+| [ExpandedOutlineLevels](../../aspose.words.saving/outlineoptions/expandedoutlinelevels) { get; set; } | Specifies how many levels in the document outline to show expanded when the file is viewed. |
+| [HeadingsOutlineLevels](../../aspose.words.saving/outlineoptions/headingsoutlinelevels) { get; set; } | Specifies how many levels of headings (paragraphs formatted with the Heading styles) to include in the document outline. |
 
 ### See Also
 

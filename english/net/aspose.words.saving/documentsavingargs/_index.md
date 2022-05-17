@@ -18,7 +18,7 @@ public sealed class DocumentSavingArgs
 
 | Name | Description |
 | --- | --- |
-| [EstimatedProgress](estimatedprogress) { get; } | Overall estimated percentage progress. |
+| [EstimatedProgress](../../aspose.words.saving/documentsavingargs/estimatedprogress) { get; } | Overall estimated percentage progress. |
 
 ### See Also
 

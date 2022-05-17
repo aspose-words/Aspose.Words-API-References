@@ -18,7 +18,7 @@ public class SaveOutputParameters
 
 | Name | Description |
 | --- | --- |
-| [ContentType](contenttype) { get; } | Returns the Content-Type string (Internet Media Type) that identifies the type of the saved document. |
+| [ContentType](../../aspose.words.saving/saveoutputparameters/contenttype) { get; } | Returns the Content-Type string (Internet Media Type) that identifies the type of the saved document. |
 
 ### See Also
 

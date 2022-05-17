@@ -18,11 +18,11 @@ public sealed class FootnoteOptions
 
 | Name | Description |
 | --- | --- |
-| [Columns](columns) { get; set; } | Specifies the number of columns with which the footnotes area is formatted. |
-| [NumberStyle](numberstyle) { get; set; } | Specifies the number format for automatically numbered footnotes. |
-| [Position](position) { get; set; } | Specifies the footnotes position. |
-| [RestartRule](restartrule) { get; set; } | Determines when automatic numbering restarts. |
-| [StartNumber](startnumber) { get; set; } | Specifies the starting number or character for the first automatically numbered footnotes. |
+| [Columns](../../aspose.words.notes/footnoteoptions/columns) { get; set; } | Specifies the number of columns with which the footnotes area is formatted. |
+| [NumberStyle](../../aspose.words.notes/footnoteoptions/numberstyle) { get; set; } | Specifies the number format for automatically numbered footnotes. |
+| [Position](../../aspose.words.notes/footnoteoptions/position) { get; set; } | Specifies the footnotes position. |
+| [RestartRule](../../aspose.words.notes/footnoteoptions/restartrule) { get; set; } | Determines when automatic numbering restarts. |
+| [StartNumber](../../aspose.words.notes/footnoteoptions/startnumber) { get; set; } | Specifies the starting number or character for the first automatically numbered footnotes. |
 
 ### See Also
 

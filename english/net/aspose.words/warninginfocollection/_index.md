@@ -24,16 +24,16 @@ public class WarningInfoCollection : IEnumerable<WarningInfo>, IWarningCallback
 
 | Name | Description |
 | --- | --- |
-| [Count](count) { get; } | Gets the number of elements contained in the collection. |
-| [Item](item) { get; } | Gets an item at the specified index. |
+| [Count](../../aspose.words/warninginfocollection/count) { get; } | Gets the number of elements contained in the collection. |
+| [Item](../../aspose.words/warninginfocollection/item) { get; } | Gets an item at the specified index. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Clear](clear)() | Removes all elements from the collection. |
-| [GetEnumerator](getenumerator)() | Returns an enumerator object that can be used to iterate over all items in the collection. |
-| [Warning](warning)(WarningInfo) | Implements the [`IWarningCallback`](../iwarningcallback) interface. Adds a warning to this collection. |
+| [Clear](../../aspose.words/warninginfocollection/clear)() | Removes all elements from the collection. |
+| [GetEnumerator](../../aspose.words/warninginfocollection/getenumerator)() | Returns an enumerator object that can be used to iterate over all items in the collection. |
+| [Warning](../../aspose.words/warninginfocollection/warning)(WarningInfo) | Implements the [`IWarningCallback`](../iwarningcallback) interface. Adds a warning to this collection. |
 
 ### Remarks
 

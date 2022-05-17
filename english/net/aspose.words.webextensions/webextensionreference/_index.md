@@ -24,10 +24,10 @@ public class WebExtensionReference
 
 | Name | Description |
 | --- | --- |
-| [Id](id) { get; set; } | Identifier associated with the web extension within a catalog provider. |
-| [Store](store) { get; set; } | Specifies the instance of the marketplace where the web extension is stored. |
-| [StoreType](storetype) { get; set; } | Specifies the type of marketplace. |
-| [Version](version) { get; set; } | Specifies the version of the web extension. |
+| [Id](../../aspose.words.webextensions/webextensionreference/id) { get; set; } | Identifier associated with the web extension within a catalog provider. |
+| [Store](../../aspose.words.webextensions/webextensionreference/store) { get; set; } | Specifies the instance of the marketplace where the web extension is stored. |
+| [StoreType](../../aspose.words.webextensions/webextensionreference/storetype) { get; set; } | Specifies the type of marketplace. |
+| [Version](../../aspose.words.webextensions/webextensionreference/version) { get; set; } | Specifies the version of the web extension. |
 
 ### See Also
 

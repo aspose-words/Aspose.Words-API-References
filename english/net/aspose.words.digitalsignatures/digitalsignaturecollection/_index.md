@@ -24,15 +24,15 @@ public class DigitalSignatureCollection : IEnumerable<DigitalSignature>
 
 | Name | Description |
 | --- | --- |
-| [Count](count) { get; } | Gets the number of elements contained in the collection. |
-| [IsValid](isvalid) { get; } | Returns `true` if all digital signatures in this collection are valid and the document has not been tampered with Also returns `true` if there are no digital signatures. Returns `false` if at least one digital signature is invalid. |
-| [Item](item) { get; } | Gets a document signature at the specified index. |
+| [Count](../../aspose.words.digitalsignatures/digitalsignaturecollection/count) { get; } | Gets the number of elements contained in the collection. |
+| [IsValid](../../aspose.words.digitalsignatures/digitalsignaturecollection/isvalid) { get; } | Returns `true` if all digital signatures in this collection are valid and the document has not been tampered with Also returns `true` if there are no digital signatures. Returns `false` if at least one digital signature is invalid. |
+| [Item](../../aspose.words.digitalsignatures/digitalsignaturecollection/item) { get; } | Gets a document signature at the specified index. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [GetEnumerator](getenumerator)() | Returns a dictionary enumerator object that can be used to iterate over all items in the collection. |
+| [GetEnumerator](../../aspose.words.digitalsignatures/digitalsignaturecollection/getenumerator)() | Returns a dictionary enumerator object that can be used to iterate over all items in the collection. |
 
 ### Remarks
 

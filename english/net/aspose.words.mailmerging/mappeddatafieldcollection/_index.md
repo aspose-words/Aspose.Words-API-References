@@ -18,19 +18,19 @@ public class MappedDataFieldCollection : IEnumerable<KeyValuePair<string, string
 
 | Name | Description |
 | --- | --- |
-| [Count](count) { get; } | Gets the number of elements contained in the collection. |
-| [Item](item) { get; set; } | Gets or sets the name of the field in the data source associated with the specified mail merge field. |
+| [Count](../../aspose.words.mailmerging/mappeddatafieldcollection/count) { get; } | Gets the number of elements contained in the collection. |
+| [Item](../../aspose.words.mailmerging/mappeddatafieldcollection/item) { get; set; } | Gets or sets the name of the field in the data source associated with the specified mail merge field. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Add](add)(string, string) | Adds a new field mapping. |
-| [Clear](clear)() | Removes all elements from the collection. |
-| [ContainsKey](containskey)(string) | Determines whether a mapping from the specified field in the document exists in the collection. |
-| [ContainsValue](containsvalue)(string) | Determines whether a mapping from the specified field in the data source exists in the collection. |
-| [GetEnumerator](getenumerator)() | Returns a dictionary enumerator object that can be used to iterate over all items in the collection. |
-| [Remove](remove)(string) | Removes a field mapping. |
+| [Add](../../aspose.words.mailmerging/mappeddatafieldcollection/add)(string, string) | Adds a new field mapping. |
+| [Clear](../../aspose.words.mailmerging/mappeddatafieldcollection/clear)() | Removes all elements from the collection. |
+| [ContainsKey](../../aspose.words.mailmerging/mappeddatafieldcollection/containskey)(string) | Determines whether a mapping from the specified field in the document exists in the collection. |
+| [ContainsValue](../../aspose.words.mailmerging/mappeddatafieldcollection/containsvalue)(string) | Determines whether a mapping from the specified field in the data source exists in the collection. |
+| [GetEnumerator](../../aspose.words.mailmerging/mappeddatafieldcollection/getenumerator)() | Returns a dictionary enumerator object that can be used to iterate over all items in the collection. |
+| [Remove](../../aspose.words.mailmerging/mappeddatafieldcollection/remove)(string) | Removes a field mapping. |
 
 ### Remarks
 

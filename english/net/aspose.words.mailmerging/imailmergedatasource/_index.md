@@ -18,15 +18,15 @@ public interface IMailMergeDataSource
 
 | Name | Description |
 | --- | --- |
-| [TableName](tablename) { get; } | Returns the name of the data source. |
+| [TableName](../../aspose.words.mailmerging/imailmergedatasource/tablename) { get; } | Returns the name of the data source. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [GetChildDataSource](getchilddatasource)(string) | The Aspose.Words mail merge engine invokes this method when it encounters a beginning of a nested mail merge region. |
-| [GetValue](getvalue)(string, out object) | Returns a value for the specified field name or false if the field is not found. |
-| [MoveNext](movenext)() | Advances to the next record in the data source. |
+| [GetChildDataSource](../../aspose.words.mailmerging/imailmergedatasource/getchilddatasource)(string) | The Aspose.Words mail merge engine invokes this method when it encounters a beginning of a nested mail merge region. |
+| [GetValue](../../aspose.words.mailmerging/imailmergedatasource/getvalue)(string, out object) | Returns a value for the specified field name or false if the field is not found. |
+| [MoveNext](../../aspose.words.mailmerging/imailmergedatasource/movenext)() | Advances to the next record in the data source. |
 
 ### Remarks
 

@@ -18,17 +18,17 @@ public class FontSavingArgs
 
 | Name | Description |
 | --- | --- |
-| [Bold](bold) { get; } | Indicates whether the current font is bold. |
-| [Document](document) { get; } | Gets the document object that is being saved. |
-| [FontFamilyName](fontfamilyname) { get; } | Indicates the current font family name. |
-| [FontFileName](fontfilename) { get; set; } | Gets or sets the file name (without path) where the font will be saved to. |
-| [FontStream](fontstream) { get; set; } | Allows to specify the stream where the font will be saved to. |
-| [IsExportNeeded](isexportneeded) { get; set; } | Allows to specify whether the current font will be exported as a font resource. Default is `true`. |
-| [IsSubsettingNeeded](issubsettingneeded) { get; set; } | Allows to specify whether the current font will be subsetted before exporting as a font resource. |
-| [Italic](italic) { get; } | Indicates whether the current font is italic. |
-| [KeepFontStreamOpen](keepfontstreamopen) { get; set; } | Specifies whether Aspose.Words should keep the stream open or close it after saving a font. |
-| [OriginalFileName](originalfilename) { get; } | Gets the original font file name with an extension. |
-| [OriginalFileSize](originalfilesize) { get; } | Gets the original font file size. |
+| [Bold](../../aspose.words.saving/fontsavingargs/bold) { get; } | Indicates whether the current font is bold. |
+| [Document](../../aspose.words.saving/fontsavingargs/document) { get; } | Gets the document object that is being saved. |
+| [FontFamilyName](../../aspose.words.saving/fontsavingargs/fontfamilyname) { get; } | Indicates the current font family name. |
+| [FontFileName](../../aspose.words.saving/fontsavingargs/fontfilename) { get; set; } | Gets or sets the file name (without path) where the font will be saved to. |
+| [FontStream](../../aspose.words.saving/fontsavingargs/fontstream) { get; set; } | Allows to specify the stream where the font will be saved to. |
+| [IsExportNeeded](../../aspose.words.saving/fontsavingargs/isexportneeded) { get; set; } | Allows to specify whether the current font will be exported as a font resource. Default is `true`. |
+| [IsSubsettingNeeded](../../aspose.words.saving/fontsavingargs/issubsettingneeded) { get; set; } | Allows to specify whether the current font will be subsetted before exporting as a font resource. |
+| [Italic](../../aspose.words.saving/fontsavingargs/italic) { get; } | Indicates whether the current font is italic. |
+| [KeepFontStreamOpen](../../aspose.words.saving/fontsavingargs/keepfontstreamopen) { get; set; } | Specifies whether Aspose.Words should keep the stream open or close it after saving a font. |
+| [OriginalFileName](../../aspose.words.saving/fontsavingargs/originalfilename) { get; } | Gets the original font file name with an extension. |
+| [OriginalFileSize](../../aspose.words.saving/fontsavingargs/originalfilesize) { get; } | Gets the original font file size. |
 
 ### Remarks
 

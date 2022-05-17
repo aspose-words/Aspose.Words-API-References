@@ -27,9 +27,9 @@ public class PlainTextDocument
 
 | Name | Description |
 | --- | --- |
-| [BuiltInDocumentProperties](builtindocumentproperties) { get; } | Gets [`BuiltInDocumentProperties`](./builtindocumentproperties) of the document. |
-| [CustomDocumentProperties](customdocumentproperties) { get; } | Gets [`CustomDocumentProperties`](./customdocumentproperties) of the document. |
-| [Text](text) { get; } | Gets textual content of the document concatenated as a string. |
+| [BuiltInDocumentProperties](../../aspose.words/plaintextdocument/builtindocumentproperties) { get; } | Gets [`BuiltInDocumentProperties`](./builtindocumentproperties) of the document. |
+| [CustomDocumentProperties](../../aspose.words/plaintextdocument/customdocumentproperties) { get; } | Gets [`CustomDocumentProperties`](./customdocumentproperties) of the document. |
+| [Text](../../aspose.words/plaintextdocument/text) { get; } | Gets textual content of the document concatenated as a string. |
 
 ### See Also
 

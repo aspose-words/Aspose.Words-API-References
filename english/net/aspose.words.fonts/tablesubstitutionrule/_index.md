@@ -14,20 +14,26 @@ Table font substitution rule.
 public class TableSubstitutionRule : FontSubstitutionRule
 ```
 
+## Properties
+
+| Name | Description |
+| --- | --- |
+| virtual [Enabled](../../aspose.words.fonts/fontsubstitutionrule/enabled) { get; set; } | Specifies whether the rule is enabled or not. |
+
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [AddSubstitutes](addsubstitutes)(string, params string[]) | Adds substitute font names for given original font name. |
-| [GetSubstitutes](getsubstitutes)(string) | Returns array containing substitute font names for the specified original font name. |
-| [Load](load)(Stream) | Loads table substitution settings from XML stream. |
-| [Load](load)(string) | Loads table substitution settings from XML file. |
-| [LoadAndroidSettings](loadandroidsettings)() | Loads predefined table substitution settings for Linux platform. |
-| [LoadLinuxSettings](loadlinuxsettings)() | Loads predefined table substitution settings for Linux platform. |
-| [LoadWindowsSettings](loadwindowssettings)() | Loads predefined table substitution settings for Windows platform. |
-| [Save](save)(Stream) | Saves the current table substitution settings to stream. |
-| [Save](save)(string) | Saves the current table substitution settings to file. |
-| [SetSubstitutes](setsubstitutes)(string, params string[]) | Override substitute font names for given original font name. |
+| [AddSubstitutes](../../aspose.words.fonts/tablesubstitutionrule/addsubstitutes)(string, params string[]) | Adds substitute font names for given original font name. |
+| [GetSubstitutes](../../aspose.words.fonts/tablesubstitutionrule/getsubstitutes)(string) | Returns array containing substitute font names for the specified original font name. |
+| [Load](../../aspose.words.fonts/tablesubstitutionrule/load)(Stream) | Loads table substitution settings from XML stream. |
+| [Load](../../aspose.words.fonts/tablesubstitutionrule/load)(string) | Loads table substitution settings from XML file. |
+| [LoadAndroidSettings](../../aspose.words.fonts/tablesubstitutionrule/loadandroidsettings)() | Loads predefined table substitution settings for Linux platform. |
+| [LoadLinuxSettings](../../aspose.words.fonts/tablesubstitutionrule/loadlinuxsettings)() | Loads predefined table substitution settings for Linux platform. |
+| [LoadWindowsSettings](../../aspose.words.fonts/tablesubstitutionrule/loadwindowssettings)() | Loads predefined table substitution settings for Windows platform. |
+| [Save](../../aspose.words.fonts/tablesubstitutionrule/save)(Stream) | Saves the current table substitution settings to stream. |
+| [Save](../../aspose.words.fonts/tablesubstitutionrule/save)(string) | Saves the current table substitution settings to file. |
+| [SetSubstitutes](../../aspose.words.fonts/tablesubstitutionrule/setsubstitutes)(string, params string[]) | Override substitute font names for given original font name. |
 
 ### Remarks
 

@@ -25,15 +25,15 @@ public class GradientStop
 
 | Name | Description |
 | --- | --- |
-| [Color](color) { get; set; } | Gets or sets a value representing the color of the gradient stop. |
-| [Position](position) { get; set; } | Gets or sets a value representing the position of a stop within the gradient expressed as a percent in range 0.0 to 1.0. |
-| [Transparency](transparency) { get; set; } | Gets or sets a value representing the transparency of the gradient fill expressed as a percent in range 0.0 to 1.0. |
+| [Color](../../aspose.words.drawing/gradientstop/color) { get; set; } | Gets or sets a value representing the color of the gradient stop. |
+| [Position](../../aspose.words.drawing/gradientstop/position) { get; set; } | Gets or sets a value representing the position of a stop within the gradient expressed as a percent in range 0.0 to 1.0. |
+| [Transparency](../../aspose.words.drawing/gradientstop/transparency) { get; set; } | Gets or sets a value representing the transparency of the gradient fill expressed as a percent in range 0.0 to 1.0. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Remove](remove)() | Removes the gradient stop from the parent [`GradientStopCollection`](../gradientstopcollection). |
+| [Remove](../../aspose.words.drawing/gradientstop/remove)() | Removes the gradient stop from the parent [`GradientStopCollection`](../gradientstopcollection). |
 
 ### See Also
 

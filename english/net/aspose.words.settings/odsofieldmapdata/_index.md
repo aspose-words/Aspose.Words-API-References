@@ -24,16 +24,16 @@ public class OdsoFieldMapData
 
 | Name | Description |
 | --- | --- |
-| [Column](column) { get; set; } | Specifies the zero-based index of the column within an external data source which shall be mapped to the local name of a specific MERGEFIELD field. The default value is 0. |
-| [MappedName](mappedname) { get; set; } | Specifies the predefined merge field name which shall be mapped to the column number specified by the [`Column`](./column) property within this field mapping. The default value is an empty string. |
-| [Name](name) { get; set; } | Specifies the column name within an external data source for the column whose index is specified by the [`Column`](./column) property. The default value is an empty string. |
-| [Type](type) { get; set; } | Specifies if a given mail merge field has been mapped to a column in the given external data source or not. The default value is Default. |
+| [Column](../../aspose.words.settings/odsofieldmapdata/column) { get; set; } | Specifies the zero-based index of the column within an external data source which shall be mapped to the local name of a specific MERGEFIELD field. The default value is 0. |
+| [MappedName](../../aspose.words.settings/odsofieldmapdata/mappedname) { get; set; } | Specifies the predefined merge field name which shall be mapped to the column number specified by the [`Column`](./column) property within this field mapping. The default value is an empty string. |
+| [Name](../../aspose.words.settings/odsofieldmapdata/name) { get; set; } | Specifies the column name within an external data source for the column whose index is specified by the [`Column`](./column) property. The default value is an empty string. |
+| [Type](../../aspose.words.settings/odsofieldmapdata/type) { get; set; } | Specifies if a given mail merge field has been mapped to a column in the given external data source or not. The default value is Default. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Clone](clone)() | Returns a deep clone of this object. |
+| [Clone](../../aspose.words.settings/odsofieldmapdata/clone)() | Returns a deep clone of this object. |
 
 ### Remarks
 

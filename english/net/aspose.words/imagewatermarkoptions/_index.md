@@ -24,8 +24,8 @@ public class ImageWatermarkOptions
 
 | Name | Description |
 | --- | --- |
-| [IsWashout](iswashout) { get; set; } | Gets or sets a boolean value which is responsible for washout effect of the watermark. The default value is True. |
-| [Scale](scale) { get; set; } | Gets or sets the scale factor expressed as a fraction of the image. The default value is 0 - auto. |
+| [IsWashout](../../aspose.words/imagewatermarkoptions/iswashout) { get; set; } | Gets or sets a boolean value which is responsible for washout effect of the watermark. The default value is True. |
+| [Scale](../../aspose.words/imagewatermarkoptions/scale) { get; set; } | Gets or sets the scale factor expressed as a fraction of the image. The default value is 0 - auto. |
 
 ### See Also
 

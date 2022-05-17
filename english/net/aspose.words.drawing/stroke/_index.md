@@ -18,26 +18,26 @@ public class Stroke
 
 | Name | Description |
 | --- | --- |
-| [BackColor](backcolor) { get; set; } | Gets or sets the background color of the stroke. |
-| [Color](color) { get; set; } | Defines the color of a stroke. |
-| [Color2](color2) { get; set; } | Defines a second color for a stroke. |
-| [DashStyle](dashstyle) { get; set; } | Specifies the dot and dash pattern for a stroke. |
-| [EndArrowLength](endarrowlength) { get; set; } | Defines the arrowhead length for the end of a stroke. |
-| [EndArrowType](endarrowtype) { get; set; } | Defines the arrowhead for the end of a stroke. |
-| [EndArrowWidth](endarrowwidth) { get; set; } | Defines the arrowhead width for the end of a stroke. |
-| [EndCap](endcap) { get; set; } | Defines the cap style for the end of a stroke. |
-| [ForeColor](forecolor) { get; set; } | Gets or sets the foreground color of the stroke. |
-| [ImageBytes](imagebytes) { get; } | Defines the image for a stroke image or pattern fill. |
-| [JoinStyle](joinstyle) { get; set; } | Defines the join style of a polyline. |
-| [LineStyle](linestyle) { get; set; } | Defines the line style of the stroke. |
-| [On](on) { get; set; } | Defines whether the path will be stroked. |
-| [Opacity](opacity) { get; set; } | Defines the amount of transparency of a stroke. Valid range is from 0 to 1. |
-| [StartArrowLength](startarrowlength) { get; set; } | Defines the arrowhead length for the start of a stroke. |
-| [StartArrowType](startarrowtype) { get; set; } | Defines the arrowhead for the start of a stroke. |
-| [StartArrowWidth](startarrowwidth) { get; set; } | Defines the arrowhead width for the start of a stroke. |
-| [Transparency](transparency) { get; set; } | Gets or sets a value between 0.0 (opaque) and 1.0 (clear) representing the degree of transparency of the stroke. |
-| [Visible](visible) { get; set; } | Gets or sets a flag indicating whether the stroke is visible. |
-| [Weight](weight) { get; set; } | Defines the brush thickness that strokes the path of a shape in points. |
+| [BackColor](../../aspose.words.drawing/stroke/backcolor) { get; set; } | Gets or sets the background color of the stroke. |
+| [Color](../../aspose.words.drawing/stroke/color) { get; set; } | Defines the color of a stroke. |
+| [Color2](../../aspose.words.drawing/stroke/color2) { get; set; } | Defines a second color for a stroke. |
+| [DashStyle](../../aspose.words.drawing/stroke/dashstyle) { get; set; } | Specifies the dot and dash pattern for a stroke. |
+| [EndArrowLength](../../aspose.words.drawing/stroke/endarrowlength) { get; set; } | Defines the arrowhead length for the end of a stroke. |
+| [EndArrowType](../../aspose.words.drawing/stroke/endarrowtype) { get; set; } | Defines the arrowhead for the end of a stroke. |
+| [EndArrowWidth](../../aspose.words.drawing/stroke/endarrowwidth) { get; set; } | Defines the arrowhead width for the end of a stroke. |
+| [EndCap](../../aspose.words.drawing/stroke/endcap) { get; set; } | Defines the cap style for the end of a stroke. |
+| [ForeColor](../../aspose.words.drawing/stroke/forecolor) { get; set; } | Gets or sets the foreground color of the stroke. |
+| [ImageBytes](../../aspose.words.drawing/stroke/imagebytes) { get; } | Defines the image for a stroke image or pattern fill. |
+| [JoinStyle](../../aspose.words.drawing/stroke/joinstyle) { get; set; } | Defines the join style of a polyline. |
+| [LineStyle](../../aspose.words.drawing/stroke/linestyle) { get; set; } | Defines the line style of the stroke. |
+| [On](../../aspose.words.drawing/stroke/on) { get; set; } | Defines whether the path will be stroked. |
+| [Opacity](../../aspose.words.drawing/stroke/opacity) { get; set; } | Defines the amount of transparency of a stroke. Valid range is from 0 to 1. |
+| [StartArrowLength](../../aspose.words.drawing/stroke/startarrowlength) { get; set; } | Defines the arrowhead length for the start of a stroke. |
+| [StartArrowType](../../aspose.words.drawing/stroke/startarrowtype) { get; set; } | Defines the arrowhead for the start of a stroke. |
+| [StartArrowWidth](../../aspose.words.drawing/stroke/startarrowwidth) { get; set; } | Defines the arrowhead width for the start of a stroke. |
+| [Transparency](../../aspose.words.drawing/stroke/transparency) { get; set; } | Gets or sets a value between 0.0 (opaque) and 1.0 (clear) representing the degree of transparency of the stroke. |
+| [Visible](../../aspose.words.drawing/stroke/visible) { get; set; } | Gets or sets a flag indicating whether the stroke is visible. |
+| [Weight](../../aspose.words.drawing/stroke/weight) { get; set; } | Defines the brush thickness that strokes the path of a shape in points. |
 
 ### Remarks
 

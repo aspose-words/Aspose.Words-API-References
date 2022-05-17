@@ -18,17 +18,17 @@ public class EditableRange
 
 | Name | Description |
 | --- | --- |
-| [EditableRangeEnd](editablerangeend) { get; } | Gets the node that represents the end of the editable range. |
-| [EditableRangeStart](editablerangestart) { get; } | Gets the node that represents the start of the editable range. |
-| [EditorGroup](editorgroup) { get; set; } | Returns or sets an alias (or editing group) which shall be used to determine if the current user shall be allowed to edit this editable range. |
-| [Id](id) { get; } | Gets the editable range identifier. |
-| [SingleUser](singleuser) { get; set; } | Returns or sets the single user for editable range. |
+| [EditableRangeEnd](../../aspose.words/editablerange/editablerangeend) { get; } | Gets the node that represents the end of the editable range. |
+| [EditableRangeStart](../../aspose.words/editablerange/editablerangestart) { get; } | Gets the node that represents the start of the editable range. |
+| [EditorGroup](../../aspose.words/editablerange/editorgroup) { get; set; } | Returns or sets an alias (or editing group) which shall be used to determine if the current user shall be allowed to edit this editable range. |
+| [Id](../../aspose.words/editablerange/id) { get; } | Gets the editable range identifier. |
+| [SingleUser](../../aspose.words/editablerange/singleuser) { get; set; } | Returns or sets the single user for editable range. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Remove](remove)() | Removes the editable range from the document. Does not remove content inside the editable range. |
+| [Remove](../../aspose.words/editablerange/remove)() | Removes the editable range from the document. Does not remove content inside the editable range. |
 
 ### Remarks
 

@@ -26,10 +26,10 @@ public class PdfDigitalSignatureTimestampSettings
 
 | Name | Description |
 | --- | --- |
-| [Password](password) { get; set; } | Timestamp server password. |
-| [ServerUrl](serverurl) { get; set; } | Timestamp server URL. |
-| [Timeout](timeout) { get; set; } | Time-out value for accessing timestamp server. |
-| [UserName](username) { get; set; } | Timestamp server user name. |
+| [Password](../../aspose.words.saving/pdfdigitalsignaturetimestampsettings/password) { get; set; } | Timestamp server password. |
+| [ServerUrl](../../aspose.words.saving/pdfdigitalsignaturetimestampsettings/serverurl) { get; set; } | Timestamp server URL. |
+| [Timeout](../../aspose.words.saving/pdfdigitalsignaturetimestampsettings/timeout) { get; set; } | Time-out value for accessing timestamp server. |
+| [UserName](../../aspose.words.saving/pdfdigitalsignaturetimestampsettings/username) { get; set; } | Timestamp server user name. |
 
 ### See Also
 

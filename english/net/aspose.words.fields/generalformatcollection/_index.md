@@ -18,17 +18,17 @@ public class GeneralFormatCollection : IEnumerable<GeneralFormat>
 
 | Name | Description |
 | --- | --- |
-| [Count](count) { get; } | Gets the total number of the items in the collection. |
-| [Item](item) { get; } | Gets a general format at the specified index. |
+| [Count](../../aspose.words.fields/generalformatcollection/count) { get; } | Gets the total number of the items in the collection. |
+| [Item](../../aspose.words.fields/generalformatcollection/item) { get; } | Gets a general format at the specified index. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Add](add)(GeneralFormat) | Adds a general format to the collection. |
-| [GetEnumerator](getenumerator)() | Returns an enumerator object. |
-| [Remove](remove)(GeneralFormat) | Removes all occurrences of the specified general format from the collection. |
-| [RemoveAt](removeat)(int) | Removes a general format occurrence at the specified index. |
+| [Add](../../aspose.words.fields/generalformatcollection/add)(GeneralFormat) | Adds a general format to the collection. |
+| [GetEnumerator](../../aspose.words.fields/generalformatcollection/getenumerator)() | Returns an enumerator object. |
+| [Remove](../../aspose.words.fields/generalformatcollection/remove)(GeneralFormat) | Removes all occurrences of the specified general format from the collection. |
+| [RemoveAt](../../aspose.words.fields/generalformatcollection/removeat)(int) | Removes a general format occurrence at the specified index. |
 
 ### See Also
 

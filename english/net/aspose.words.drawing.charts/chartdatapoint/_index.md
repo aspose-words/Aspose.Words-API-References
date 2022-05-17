@@ -18,18 +18,18 @@ public class ChartDataPoint : IChartDataPoint
 
 | Name | Description |
 | --- | --- |
-| [Bubble3D](bubble3d) { get; set; } |  |
-| [Explosion](explosion) { get; set; } |  |
-| [Format](format) { get; } | Provides access to fill and line formatting of this data point. |
-| [Index](index) { get; } | Index of the data point this object applies formatting to. |
-| [InvertIfNegative](invertifnegative) { get; set; } |  |
-| [Marker](marker) { get; } |  |
+| [Bubble3D](../../aspose.words.drawing.charts/chartdatapoint/bubble3d) { get; set; } |  |
+| [Explosion](../../aspose.words.drawing.charts/chartdatapoint/explosion) { get; set; } |  |
+| [Format](../../aspose.words.drawing.charts/chartdatapoint/format) { get; } | Provides access to fill and line formatting of this data point. |
+| [Index](../../aspose.words.drawing.charts/chartdatapoint/index) { get; } | Index of the data point this object applies formatting to. |
+| [InvertIfNegative](../../aspose.words.drawing.charts/chartdatapoint/invertifnegative) { get; set; } |  |
+| [Marker](../../aspose.words.drawing.charts/chartdatapoint/marker) { get; } |  |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [ClearFormat](clearformat)() | Clears format of this data point. The properties are set to the default values defined in the parent series. |
+| [ClearFormat](../../aspose.words.drawing.charts/chartdatapoint/clearformat)() | Clears format of this data point. The properties are set to the default values defined in the parent series. |
 
 ### Remarks
 

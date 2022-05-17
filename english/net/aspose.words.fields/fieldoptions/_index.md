@@ -18,25 +18,25 @@ public sealed class FieldOptions
 
 | Name | Description |
 | --- | --- |
-| [BarcodeGenerator](barcodegenerator) { get; set; } | Gets or set custom barcode generator. |
-| [BuiltInTemplatesPaths](builtintemplatespaths) { get; set; } | Gets or sets paths of MS Word built-in templates. |
-| [ComparisonExpressionEvaluator](comparisonexpressionevaluator) { get; set; } | Gets or sets the field comparison expressions evaluator. |
-| [CurrentUser](currentuser) { get; set; } | Gets or sets the current user information. |
-| [CustomTocStyleSeparator](customtocstyleseparator) { get; set; } | Gets or sets custom style separator for the \t switch in [`FieldToc`](../fieldtoc) field. |
-| [DefaultDocumentAuthor](defaultdocumentauthor) { get; set; } | Gets or sets default document author's name. If author's name is already specified in built-in document properties, this option is not considered. |
-| [FieldIndexFormat](fieldindexformat) { get; set; } | Gets or sets a [`FieldIndexFormat`](./fieldindexformat) that represents the formatting for the [`FieldIndex`](../fieldindex) fields in the document. |
-| [FieldUpdateCultureProvider](fieldupdatecultureprovider) { get; set; } | Gets or sets a provider that returns a culture object specific for each particular field. |
-| [FieldUpdateCultureSource](fieldupdateculturesource) { get; set; } | Specifies what culture to use to format the field result. |
-| [FieldUpdatingCallback](fieldupdatingcallback) { get; set; } | Gets or sets [`IFieldUpdatingCallback`](../ifieldupdatingcallback) implementation |
-| [FileName](filename) { get; set; } | Gets or sets the file name of the document. |
-| [IsBidiTextSupportedOnUpdate](isbiditextsupportedonupdate) { get; set; } | Gets or sets the value indicating whether bidirectional text is fully supported during field update or not. |
-| [LegacyNumberFormat](legacynumberformat) { get; set; } | Gets or sets the value indicating whether legacy (early than AW 13.10) number format for fields is enabled or not. |
-| [PreProcessCulture](preprocessculture) { get; set; } | Gets or sets the culture to preprocess field values. |
-| [ResultFormatter](resultformatter) { get; set; } | Allows to control how the field result is formatted. |
-| [TemplateName](templatename) { get; set; } | Gets or sets the file name of the template used by the document. |
-| [ToaCategories](toacategories) { get; set; } | Gets or sets the table of authorities categories. |
-| [UseInvariantCultureNumberFormat](useinvariantculturenumberformat) { get; set; } | Gets or sets the value indicating that number format is parsed using invariant culture or not |
-| [UserPromptRespondent](userpromptrespondent) { get; set; } | Gets or sets the respondent to user prompts during field update. |
+| [BarcodeGenerator](../../aspose.words.fields/fieldoptions/barcodegenerator) { get; set; } | Gets or set custom barcode generator. |
+| [BuiltInTemplatesPaths](../../aspose.words.fields/fieldoptions/builtintemplatespaths) { get; set; } | Gets or sets paths of MS Word built-in templates. |
+| [ComparisonExpressionEvaluator](../../aspose.words.fields/fieldoptions/comparisonexpressionevaluator) { get; set; } | Gets or sets the field comparison expressions evaluator. |
+| [CurrentUser](../../aspose.words.fields/fieldoptions/currentuser) { get; set; } | Gets or sets the current user information. |
+| [CustomTocStyleSeparator](../../aspose.words.fields/fieldoptions/customtocstyleseparator) { get; set; } | Gets or sets custom style separator for the \t switch in [`FieldToc`](../fieldtoc) field. |
+| [DefaultDocumentAuthor](../../aspose.words.fields/fieldoptions/defaultdocumentauthor) { get; set; } | Gets or sets default document author's name. If author's name is already specified in built-in document properties, this option is not considered. |
+| [FieldIndexFormat](../../aspose.words.fields/fieldoptions/fieldindexformat) { get; set; } | Gets or sets a [`FieldIndexFormat`](./fieldindexformat) that represents the formatting for the [`FieldIndex`](../fieldindex) fields in the document. |
+| [FieldUpdateCultureProvider](../../aspose.words.fields/fieldoptions/fieldupdatecultureprovider) { get; set; } | Gets or sets a provider that returns a culture object specific for each particular field. |
+| [FieldUpdateCultureSource](../../aspose.words.fields/fieldoptions/fieldupdateculturesource) { get; set; } | Specifies what culture to use to format the field result. |
+| [FieldUpdatingCallback](../../aspose.words.fields/fieldoptions/fieldupdatingcallback) { get; set; } | Gets or sets [`IFieldUpdatingCallback`](../ifieldupdatingcallback) implementation |
+| [FileName](../../aspose.words.fields/fieldoptions/filename) { get; set; } | Gets or sets the file name of the document. |
+| [IsBidiTextSupportedOnUpdate](../../aspose.words.fields/fieldoptions/isbiditextsupportedonupdate) { get; set; } | Gets or sets the value indicating whether bidirectional text is fully supported during field update or not. |
+| [LegacyNumberFormat](../../aspose.words.fields/fieldoptions/legacynumberformat) { get; set; } | Gets or sets the value indicating whether legacy (early than AW 13.10) number format for fields is enabled or not. |
+| [PreProcessCulture](../../aspose.words.fields/fieldoptions/preprocessculture) { get; set; } | Gets or sets the culture to preprocess field values. |
+| [ResultFormatter](../../aspose.words.fields/fieldoptions/resultformatter) { get; set; } | Allows to control how the field result is formatted. |
+| [TemplateName](../../aspose.words.fields/fieldoptions/templatename) { get; set; } | Gets or sets the file name of the template used by the document. |
+| [ToaCategories](../../aspose.words.fields/fieldoptions/toacategories) { get; set; } | Gets or sets the table of authorities categories. |
+| [UseInvariantCultureNumberFormat](../../aspose.words.fields/fieldoptions/useinvariantculturenumberformat) { get; set; } | Gets or sets the value indicating that number format is parsed using invariant culture or not |
+| [UserPromptRespondent](../../aspose.words.fields/fieldoptions/userpromptrespondent) { get; set; } | Gets or sets the respondent to user prompts during field update. |
 
 ### See Also
 

@@ -24,14 +24,14 @@ public class FramesetCollection : IEnumerable<Frameset>
 
 | Name | Description |
 | --- | --- |
-| [Count](count) { get; } | Gets the number of frames or frames pages contained in the collection. |
-| [Item](item) { get; } | Gets a frame or frames page at the specified index. |
+| [Count](../../aspose.words.framesets/framesetcollection/count) { get; } | Gets the number of frames or frames pages contained in the collection. |
+| [Item](../../aspose.words.framesets/framesetcollection/item) { get; } | Gets a frame or frames page at the specified index. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [GetEnumerator](getenumerator)() |  |
+| [GetEnumerator](../../aspose.words.framesets/framesetcollection/getenumerator)() |  |
 
 ### See Also
 

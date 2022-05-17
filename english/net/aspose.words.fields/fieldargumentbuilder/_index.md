@@ -24,9 +24,9 @@ public class FieldArgumentBuilder
 
 | Name | Description |
 | --- | --- |
-| [AddField](addfield)(FieldBuilder) | Adds a field represented by a [`FieldBuilder`](../fieldbuilder) to the argument. |
-| [AddNode](addnode)(Inline) | Adds a node to the argument. |
-| [AddText](addtext)(string) | Adds a plain text to the argument. |
+| [AddField](../../aspose.words.fields/fieldargumentbuilder/addfield)(FieldBuilder) | Adds a field represented by a [`FieldBuilder`](../fieldbuilder) to the argument. |
+| [AddNode](../../aspose.words.fields/fieldargumentbuilder/addnode)(Inline) | Adds a node to the argument. |
+| [AddText](../../aspose.words.fields/fieldargumentbuilder/addtext)(string) | Adds a plain text to the argument. |
 
 ### See Also
 

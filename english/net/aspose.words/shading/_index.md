@@ -18,18 +18,18 @@ public class Shading : InternableComplexAttr
 
 | Name | Description |
 | --- | --- |
-| [BackgroundPatternColor](backgroundpatterncolor) { get; set; } | Gets or sets the color that's applied to the background of the Shading object. |
-| [ForegroundPatternColor](foregroundpatterncolor) { get; set; } | Gets or sets the color that's applied to the foreground of the Shading object. |
-| [Texture](texture) { get; set; } | Gets or sets the shading texture. |
+| [BackgroundPatternColor](../../aspose.words/shading/backgroundpatterncolor) { get; set; } | Gets or sets the color that's applied to the background of the Shading object. |
+| [ForegroundPatternColor](../../aspose.words/shading/foregroundpatterncolor) { get; set; } | Gets or sets the color that's applied to the foreground of the Shading object. |
+| [Texture](../../aspose.words/shading/texture) { get; set; } | Gets or sets the shading texture. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [ClearFormatting](clearformatting)() | Removes shading from the object. |
-| override [Equals](equals)(object) | Determines whether the specified object is equal in value to the current object. |
-| [Equals](equals)(Shading) | Determines whether the specified Shading is equal in value to the current Shading. |
-| override [GetHashCode](gethashcode)() | Serves as a hash function for this type. |
+| [ClearFormatting](../../aspose.words/shading/clearformatting)() | Removes shading from the object. |
+| override [Equals](../../aspose.words/shading/equals)(object) | Determines whether the specified object is equal in value to the current object. |
+| [Equals](../../aspose.words/shading/equals)(Shading) | Determines whether the specified Shading is equal in value to the current Shading. |
+| override [GetHashCode](../../aspose.words/shading/gethashcode)() | Serves as a hash function for this type. |
 
 ### See Also
 

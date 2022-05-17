@@ -18,10 +18,10 @@ public sealed class EndnoteOptions
 
 | Name | Description |
 | --- | --- |
-| [NumberStyle](numberstyle) { get; set; } | Specifies the number format for automatically numbered endnotes. |
-| [Position](position) { get; set; } | Specifies the endnotes position. |
-| [RestartRule](restartrule) { get; set; } | Determines when automatic numbering restarts. |
-| [StartNumber](startnumber) { get; set; } | Specifies the starting number or character for the first automatically numbered endnotes. |
+| [NumberStyle](../../aspose.words.notes/endnoteoptions/numberstyle) { get; set; } | Specifies the number format for automatically numbered endnotes. |
+| [Position](../../aspose.words.notes/endnoteoptions/position) { get; set; } | Specifies the endnotes position. |
+| [RestartRule](../../aspose.words.notes/endnoteoptions/restartrule) { get; set; } | Determines when automatic numbering restarts. |
+| [StartNumber](../../aspose.words.notes/endnoteoptions/startnumber) { get; set; } | Specifies the starting number or character for the first automatically numbered endnotes. |
 
 ### See Also
 

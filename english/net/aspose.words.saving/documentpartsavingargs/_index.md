@@ -18,10 +18,10 @@ public class DocumentPartSavingArgs
 
 | Name | Description |
 | --- | --- |
-| [Document](document) { get; } | Gets the document object that is being saved. |
-| [DocumentPartFileName](documentpartfilename) { get; set; } | Gets or sets the file name (without path) where the document part will be saved to. |
-| [DocumentPartStream](documentpartstream) { get; set; } | Allows to specify the stream where the document part will be saved to. |
-| [KeepDocumentPartStreamOpen](keepdocumentpartstreamopen) { get; set; } | Specifies whether Aspose.Words should keep the stream open or close it after saving a document part. |
+| [Document](../../aspose.words.saving/documentpartsavingargs/document) { get; } | Gets the document object that is being saved. |
+| [DocumentPartFileName](../../aspose.words.saving/documentpartsavingargs/documentpartfilename) { get; set; } | Gets or sets the file name (without path) where the document part will be saved to. |
+| [DocumentPartStream](../../aspose.words.saving/documentpartsavingargs/documentpartstream) { get; set; } | Allows to specify the stream where the document part will be saved to. |
+| [KeepDocumentPartStreamOpen](../../aspose.words.saving/documentpartsavingargs/keepdocumentpartstreamopen) { get; set; } | Specifies whether Aspose.Words should keep the stream open or close it after saving a document part. |
 
 ### Remarks
 

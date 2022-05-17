@@ -24,53 +24,88 @@ public class Table : CompositeNode
 
 | Name | Description |
 | --- | --- |
-| [AbsoluteHorizontalDistance](absolutehorizontaldistance) { get; set; } | Gets or sets absolute horizontal floating table position specified by the table properties, in points. Default value is 0. |
-| [AbsoluteVerticalDistance](absoluteverticaldistance) { get; set; } | Gets or sets absolute vertical floating table position specified by the table properties, in points. Default value is 0. |
-| [Alignment](alignment) { get; set; } | Specifies how an inline table is aligned in the document. |
-| [AllowAutoFit](allowautofit) { get; set; } | Allows Microsoft Word and Aspose.Words to automatically resize cells in a table to fit their contents. |
-| [AllowCellSpacing](allowcellspacing) { get; set; } | Gets or sets the "Allow spacing between cells" option. |
-| [AllowOverlap](allowoverlap) { get; } | Gets whether a floating table shall allow other floating objects in the document to overlap its extents when displayed. Default value is `true`. |
-| [Bidi](bidi) { get; set; } | Gets or sets whether this is a right-to-left table. |
-| [BottomPadding](bottompadding) { get; set; } | Gets or sets the amount of space (in points) to add below the contents of cells. |
-| [CellSpacing](cellspacing) { get; set; } | Gets or sets the amount of space (in points) between the cells. |
-| [Description](description) { get; set; } | Gets or sets description of this table. It provides an alternative text representation of the information contained in the table. |
-| [DistanceBottom](distancebottom) { get; } | Gets distance between table bottom and the surrounding text, in points. |
-| [DistanceLeft](distanceleft) { get; } | Gets distance between table left and the surrounding text, in points. |
-| [DistanceRight](distanceright) { get; } | Gets distance between table right and the surrounding text, in points. |
-| [DistanceTop](distancetop) { get; } | Gets distance between table top and the surrounding text, in points. |
-| [FirstRow](firstrow) { get; } | Returns the first **Row** node in the table. |
-| [HorizontalAnchor](horizontalanchor) { get; set; } | Gets the base object from which the horizontal positioning of floating table should be calculated. Default value is Column. |
-| [LastRow](lastrow) { get; } | Returns the last **Row** node in the table. |
-| [LeftIndent](leftindent) { get; set; } | Gets or sets the value that represents the left indent of the table. |
-| [LeftPadding](leftpadding) { get; set; } | Gets or sets the amount of space (in points) to add to the left of the contents of cells. |
-| override [NodeType](nodetype) { get; } | Returns **NodeType.Table**. |
-| [PreferredWidth](preferredwidth) { get; set; } | Gets or sets the table preferred width. |
-| [RelativeHorizontalAlignment](relativehorizontalalignment) { get; set; } | Gets or sets floating table relative horizontal alignment. |
-| [RelativeVerticalAlignment](relativeverticalalignment) { get; set; } | Gets or sets floating table relative vertical alignment. |
-| [RightPadding](rightpadding) { get; set; } | Gets or sets the amount of space (in points) to add to the right of the contents of cells. |
-| [Rows](rows) { get; } | Provides typed access to the rows of the table. |
-| [Style](style) { get; set; } | Gets or sets the table style applied to this table. |
-| [StyleIdentifier](styleidentifier) { get; set; } | Gets or sets the locale independent style identifier of the table style applied to this table. |
-| [StyleName](stylename) { get; set; } | Gets or sets the name of the table style applied to this table. |
-| [StyleOptions](styleoptions) { get; set; } | Gets or sets bit flags that specify how a table style is applied to this table. |
-| [TextWrapping](textwrapping) { get; set; } | Gets or sets [`TextWrapping`](./textwrapping) for table. |
-| [Title](title) { get; set; } | Gets or sets title of this table. It provides an alternative text representation of the information contained in the table. |
-| [TopPadding](toppadding) { get; set; } | Gets or sets the amount of space (in points) to add above the contents of cells. |
-| [VerticalAnchor](verticalanchor) { get; set; } | Gets the base object from which the vertical positioning of floating table should be calculated. Default value is Margin. |
+| [AbsoluteHorizontalDistance](../../aspose.words.tables/table/absolutehorizontaldistance) { get; set; } | Gets or sets absolute horizontal floating table position specified by the table properties, in points. Default value is 0. |
+| [AbsoluteVerticalDistance](../../aspose.words.tables/table/absoluteverticaldistance) { get; set; } | Gets or sets absolute vertical floating table position specified by the table properties, in points. Default value is 0. |
+| [Alignment](../../aspose.words.tables/table/alignment) { get; set; } | Specifies how an inline table is aligned in the document. |
+| [AllowAutoFit](../../aspose.words.tables/table/allowautofit) { get; set; } | Allows Microsoft Word and Aspose.Words to automatically resize cells in a table to fit their contents. |
+| [AllowCellSpacing](../../aspose.words.tables/table/allowcellspacing) { get; set; } | Gets or sets the "Allow spacing between cells" option. |
+| [AllowOverlap](../../aspose.words.tables/table/allowoverlap) { get; } | Gets whether a floating table shall allow other floating objects in the document to overlap its extents when displayed. Default value is `true`. |
+| [Bidi](../../aspose.words.tables/table/bidi) { get; set; } | Gets or sets whether this is a right-to-left table. |
+| [BottomPadding](../../aspose.words.tables/table/bottompadding) { get; set; } | Gets or sets the amount of space (in points) to add below the contents of cells. |
+| [CellSpacing](../../aspose.words.tables/table/cellspacing) { get; set; } | Gets or sets the amount of space (in points) between the cells. |
+| [ChildNodes](../../aspose.words/compositenode/childnodes) { get; } | Gets all immediate child nodes of this node. |
+| [Count](../../aspose.words/compositenode/count) { get; } | Gets the number of immediate children of this node. |
+| [CustomNodeId](../../aspose.words/node/customnodeid) { get; set; } | Specifies custom node identifier. |
+| [Description](../../aspose.words.tables/table/description) { get; set; } | Gets or sets description of this table. It provides an alternative text representation of the information contained in the table. |
+| [DistanceBottom](../../aspose.words.tables/table/distancebottom) { get; } | Gets distance between table bottom and the surrounding text, in points. |
+| [DistanceLeft](../../aspose.words.tables/table/distanceleft) { get; } | Gets distance between table left and the surrounding text, in points. |
+| [DistanceRight](../../aspose.words.tables/table/distanceright) { get; } | Gets distance between table right and the surrounding text, in points. |
+| [DistanceTop](../../aspose.words.tables/table/distancetop) { get; } | Gets distance between table top and the surrounding text, in points. |
+| virtual [Document](../../aspose.words/node/document) { get; } | Gets the document to which this node belongs. |
+| [FirstChild](../../aspose.words/compositenode/firstchild) { get; } | Gets the first child of the node. |
+| [FirstRow](../../aspose.words.tables/table/firstrow) { get; } | Returns the first **Row** node in the table. |
+| [HasChildNodes](../../aspose.words/compositenode/haschildnodes) { get; } | Returns true if this node has any child nodes. |
+| [HorizontalAnchor](../../aspose.words.tables/table/horizontalanchor) { get; set; } | Gets the base object from which the horizontal positioning of floating table should be calculated. Default value is Column. |
+| override [IsComposite](../../aspose.words/compositenode/iscomposite) { get; } | Returns true as this node can have child nodes. |
+| [LastChild](../../aspose.words/compositenode/lastchild) { get; } | Gets the last child of the node. |
+| [LastRow](../../aspose.words.tables/table/lastrow) { get; } | Returns the last **Row** node in the table. |
+| [LeftIndent](../../aspose.words.tables/table/leftindent) { get; set; } | Gets or sets the value that represents the left indent of the table. |
+| [LeftPadding](../../aspose.words.tables/table/leftpadding) { get; set; } | Gets or sets the amount of space (in points) to add to the left of the contents of cells. |
+| [NextSibling](../../aspose.words/node/nextsibling) { get; } | Gets the node immediately following this node. |
+| override [NodeType](../../aspose.words.tables/table/nodetype) { get; } | Returns **NodeType.Table**. |
+| [ParentNode](../../aspose.words/node/parentnode) { get; } | Gets the immediate parent of this node. |
+| [PreferredWidth](../../aspose.words.tables/table/preferredwidth) { get; set; } | Gets or sets the table preferred width. |
+| [PreviousSibling](../../aspose.words/node/previoussibling) { get; } | Gets the node immediately preceding this node. |
+| [Range](../../aspose.words/node/range) { get; } | Returns a **Range** object that represents the portion of a document that is contained in this node. |
+| [RelativeHorizontalAlignment](../../aspose.words.tables/table/relativehorizontalalignment) { get; set; } | Gets or sets floating table relative horizontal alignment. |
+| [RelativeVerticalAlignment](../../aspose.words.tables/table/relativeverticalalignment) { get; set; } | Gets or sets floating table relative vertical alignment. |
+| [RightPadding](../../aspose.words.tables/table/rightpadding) { get; set; } | Gets or sets the amount of space (in points) to add to the right of the contents of cells. |
+| [Rows](../../aspose.words.tables/table/rows) { get; } | Provides typed access to the rows of the table. |
+| [Style](../../aspose.words.tables/table/style) { get; set; } | Gets or sets the table style applied to this table. |
+| [StyleIdentifier](../../aspose.words.tables/table/styleidentifier) { get; set; } | Gets or sets the locale independent style identifier of the table style applied to this table. |
+| [StyleName](../../aspose.words.tables/table/stylename) { get; set; } | Gets or sets the name of the table style applied to this table. |
+| [StyleOptions](../../aspose.words.tables/table/styleoptions) { get; set; } | Gets or sets bit flags that specify how a table style is applied to this table. |
+| [TextWrapping](../../aspose.words.tables/table/textwrapping) { get; set; } | Gets or sets [`TextWrapping`](./textwrapping) for table. |
+| [Title](../../aspose.words.tables/table/title) { get; set; } | Gets or sets title of this table. It provides an alternative text representation of the information contained in the table. |
+| [TopPadding](../../aspose.words.tables/table/toppadding) { get; set; } | Gets or sets the amount of space (in points) to add above the contents of cells. |
+| [VerticalAnchor](../../aspose.words.tables/table/verticalanchor) { get; set; } | Gets the base object from which the vertical positioning of floating table should be calculated. Default value is Margin. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [Accept](accept)(DocumentVisitor) | Accepts a visitor. |
-| [AutoFit](autofit)(AutoFitBehavior) | Resizes the table and cells according to the specified auto fit behavior. |
-| [ClearBorders](clearborders)() | Removes all table and cell borders on this table. |
-| [ClearShading](clearshading)() | Removes all shading on the table. |
-| [ConvertToHorizontallyMergedCells](converttohorizontallymergedcells)() | Converts cells horizontally merged by width to cells merged by [`HorizontalMerge`](../cellformat/horizontalmerge). |
-| [EnsureMinimum](ensureminimum)() | If the table has no rows, creates and appends one **Row**. |
-| [SetBorder](setborder)(BorderType, LineStyle, double, Color, bool) | Sets the specified table border to the specified line style, width and color. |
-| [SetBorders](setborders)(LineStyle, double, Color) | Sets all table borders to the specified line style, width and color. |
-| [SetShading](setshading)(TextureIndex, Color, Color) | Sets shading to the specified values on whole table. |
+| override [Accept](../../aspose.words.tables/table/accept)(DocumentVisitor) | Accepts a visitor. |
+| [AppendChild](../../aspose.words/compositenode/appendchild)(Node) | Adds the specified node to the end of the list of child nodes for this node. |
+| [AutoFit](../../aspose.words.tables/table/autofit)(AutoFitBehavior) | Resizes the table and cells according to the specified auto fit behavior. |
+| [ClearBorders](../../aspose.words.tables/table/clearborders)() | Removes all table and cell borders on this table. |
+| [ClearShading](../../aspose.words.tables/table/clearshading)() | Removes all shading on the table. |
+| [Clone](../../aspose.words/node/clone)(bool) | Creates a duplicate of the node. |
+| [ConvertToHorizontallyMergedCells](../../aspose.words.tables/table/converttohorizontallymergedcells)() | Converts cells horizontally merged by width to cells merged by [`HorizontalMerge`](../cellformat/horizontalmerge). |
+| [CreateNavigator](../../aspose.words/compositenode/createnavigator)() | Reserved for system use. IXPathNavigable. |
+| [EnsureMinimum](../../aspose.words.tables/table/ensureminimum)() | If the table has no rows, creates and appends one **Row**. |
+| [GetAncestor](../../aspose.words/node/getancestor)(NodeType) | Gets the first ancestor of the specified [`NodeType`](../../aspose.words/nodetype). |
+| [GetAncestor](../../aspose.words/node/getancestor)(Type) | Gets the first ancestor of the specified object type. |
+| [GetChild](../../aspose.words/compositenode/getchild)(NodeType, int, bool) | Returns an Nth child node that matches the specified type. |
+| [GetChildNodes](../../aspose.words/compositenode/getchildnodes)(NodeType, bool) | Returns a live collection of child nodes that match the specified type. |
+| [GetEnumerator](../../aspose.words/compositenode/getenumerator)() | Provides support for the for each style iteration over the child nodes of this node. |
+| override [GetText](../../aspose.words/compositenode/gettext)() | Gets the text of this node and of all its children. |
+| [IndexOf](../../aspose.words/compositenode/indexof)(Node) | Returns the index of the specified child node in the child node array. |
+| [InsertAfter](../../aspose.words/compositenode/insertafter)(Node, Node) | Inserts the specified node immediately after the specified reference node. |
+| [InsertBefore](../../aspose.words/compositenode/insertbefore)(Node, Node) | Inserts the specified node immediately before the specified reference node. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder)(Node) | Gets next node according to the pre-order tree traversal algorithm. |
+| [PrependChild](../../aspose.words/compositenode/prependchild)(Node) | Adds the specified node to the beginning of the list of child nodes for this node. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder)(Node) | Gets the previous node according to the pre-order tree traversal algorithm. |
+| [Remove](../../aspose.words/node/remove)() | Removes itself from the parent. |
+| [RemoveAllChildren](../../aspose.words/compositenode/removeallchildren)() | Removes all the child nodes of the current node. |
+| [RemoveChild](../../aspose.words/compositenode/removechild)(Node) | Removes the specified child node. |
+| [RemoveSmartTags](../../aspose.words/compositenode/removesmarttags)() | Removes all [`SmartTag`](../../aspose.words.markup/smarttag) descendant nodes of the current node. |
+| [SelectNodes](../../aspose.words/compositenode/selectnodes)(string) | Selects a list of nodes matching the XPath expression. |
+| [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode)(string) | Selects the first Node that matches the XPath expression. |
+| [SetBorder](../../aspose.words.tables/table/setborder)(BorderType, LineStyle, double, Color, bool) | Sets the specified table border to the specified line style, width and color. |
+| [SetBorders](../../aspose.words.tables/table/setborders)(LineStyle, double, Color) | Sets all table borders to the specified line style, width and color. |
+| [SetShading](../../aspose.words.tables/table/setshading)(TextureIndex, Color, Color) | Sets shading to the specified values on whole table. |
+| [ToString](../../aspose.words/node/tostring)(SaveFormat) | Exports the content of the node into a string in the specified format. |
+| [ToString](../../aspose.words/node/tostring)(SaveOptions) | Exports the content of the node into a string using the specified save options. |
 
 ### Remarks
 

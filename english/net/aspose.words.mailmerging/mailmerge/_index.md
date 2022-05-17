@@ -18,47 +18,47 @@ public class MailMerge
 
 | Name | Description |
 | --- | --- |
-| [CleanupOptions](cleanupoptions) { get; set; } | Gets or sets a set of flags that specify what items should be removed during mail merge. |
-| [CleanupParagraphsWithPunctuationMarks](cleanupparagraphswithpunctuationmarks) { get; set; } | Gets or sets a value indicating whether paragraphs with punctuation marks are considered as empty and should be removed if the RemoveEmptyParagraphs option is specified. |
-| [FieldMergingCallback](fieldmergingcallback) { get; set; } | Occurs during mail merge when a mail merge field is encountered in the document. |
-| [MailMergeCallback](mailmergecallback) { get; set; } | Allows to handle particular events during mail merge. |
-| [MappedDataFields](mappeddatafields) { get; } | Returns a collection that represents mapped data fields for the mail merge operation. |
-| [MergeDuplicateRegions](mergeduplicateregions) { get; set; } | Gets or sets a value indicating whether all of the document mail merge regions with the name of a data source should be merged while executing of a mail merge with regions against the data source or just the first one. |
-| [MergeWholeDocument](mergewholedocument) { get; set; } | Gets or sets a value indicating whether fields in whole document are updated while executing of a mail merge with regions. |
-| [PreserveUnusedTags](preserveunusedtags) { get; set; } | Gets or sets a value indicating whether the unused "mustache" tags should be preserved. |
-| [RegionEndTag](regionendtag) { get; set; } | Gets or sets a mail merge region end tag. |
-| [RegionStartTag](regionstarttag) { get; set; } | Gets or sets a mail merge region start tag. |
-| [RestartListsAtEachSection](restartlistsateachsection) { get; set; } | Gets or sets a value indicating whether lists are restarted at each section after executing of a mail merge. |
-| [RetainFirstSectionStart](retainfirstsectionstart) { get; set; } | Gets or sets a value indicating whether the [`SectionStart`](../../aspose.words/pagesetup/sectionstart) of the first document section and its copies for subsequent data source rows are retained during mail merge or updated according to MS Word behaviour. |
-| [TrimWhitespaces](trimwhitespaces) { get; set; } | Gets or sets a value indicating whether trailing and leading whitespaces are trimmed from mail merge values. |
-| [UnconditionalMergeFieldsAndRegions](unconditionalmergefieldsandregions) { get; set; } | Gets or sets a value indicating whether merge fields and merge regions are merged regardless of the parent IF field's condition. |
-| [UseNonMergeFields](usenonmergefields) { get; set; } | When true, specifies that in addition to MERGEFIELD fields, mail merge is performed into some other types of fields and also into "{{fieldName}}" tags. |
-| [UseWholeParagraphAsRegion](usewholeparagraphasregion) { get; set; } | Gets or sets a value indicating whether whole paragraph with TableStart or TableEnd field or particular range between TableStart and TableEnd fields should be included into mail merge region. |
+| [CleanupOptions](../../aspose.words.mailmerging/mailmerge/cleanupoptions) { get; set; } | Gets or sets a set of flags that specify what items should be removed during mail merge. |
+| [CleanupParagraphsWithPunctuationMarks](../../aspose.words.mailmerging/mailmerge/cleanupparagraphswithpunctuationmarks) { get; set; } | Gets or sets a value indicating whether paragraphs with punctuation marks are considered as empty and should be removed if the RemoveEmptyParagraphs option is specified. |
+| [FieldMergingCallback](../../aspose.words.mailmerging/mailmerge/fieldmergingcallback) { get; set; } | Occurs during mail merge when a mail merge field is encountered in the document. |
+| [MailMergeCallback](../../aspose.words.mailmerging/mailmerge/mailmergecallback) { get; set; } | Allows to handle particular events during mail merge. |
+| [MappedDataFields](../../aspose.words.mailmerging/mailmerge/mappeddatafields) { get; } | Returns a collection that represents mapped data fields for the mail merge operation. |
+| [MergeDuplicateRegions](../../aspose.words.mailmerging/mailmerge/mergeduplicateregions) { get; set; } | Gets or sets a value indicating whether all of the document mail merge regions with the name of a data source should be merged while executing of a mail merge with regions against the data source or just the first one. |
+| [MergeWholeDocument](../../aspose.words.mailmerging/mailmerge/mergewholedocument) { get; set; } | Gets or sets a value indicating whether fields in whole document are updated while executing of a mail merge with regions. |
+| [PreserveUnusedTags](../../aspose.words.mailmerging/mailmerge/preserveunusedtags) { get; set; } | Gets or sets a value indicating whether the unused "mustache" tags should be preserved. |
+| [RegionEndTag](../../aspose.words.mailmerging/mailmerge/regionendtag) { get; set; } | Gets or sets a mail merge region end tag. |
+| [RegionStartTag](../../aspose.words.mailmerging/mailmerge/regionstarttag) { get; set; } | Gets or sets a mail merge region start tag. |
+| [RestartListsAtEachSection](../../aspose.words.mailmerging/mailmerge/restartlistsateachsection) { get; set; } | Gets or sets a value indicating whether lists are restarted at each section after executing of a mail merge. |
+| [RetainFirstSectionStart](../../aspose.words.mailmerging/mailmerge/retainfirstsectionstart) { get; set; } | Gets or sets a value indicating whether the [`SectionStart`](../../aspose.words/pagesetup/sectionstart) of the first document section and its copies for subsequent data source rows are retained during mail merge or updated according to MS Word behaviour. |
+| [TrimWhitespaces](../../aspose.words.mailmerging/mailmerge/trimwhitespaces) { get; set; } | Gets or sets a value indicating whether trailing and leading whitespaces are trimmed from mail merge values. |
+| [UnconditionalMergeFieldsAndRegions](../../aspose.words.mailmerging/mailmerge/unconditionalmergefieldsandregions) { get; set; } | Gets or sets a value indicating whether merge fields and merge regions are merged regardless of the parent IF field's condition. |
+| [UseNonMergeFields](../../aspose.words.mailmerging/mailmerge/usenonmergefields) { get; set; } | When true, specifies that in addition to MERGEFIELD fields, mail merge is performed into some other types of fields and also into "{{fieldName}}" tags. |
+| [UseWholeParagraphAsRegion](../../aspose.words.mailmerging/mailmerge/usewholeparagraphasregion) { get; set; } | Gets or sets a value indicating whether whole paragraph with TableStart or TableEnd field or particular range between TableStart and TableEnd fields should be included into mail merge region. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [DeleteFields](deletefields)() | Removes mail merge related fields from the document. |
-| [Execute](execute)(DataRow) | Performs mail merge from a DataRow into the document. |
-| [Execute](execute)(DataTable) | Performs mail merge from a DataTable into the document. |
-| [Execute](execute)(DataView) | Performs mail merge from a DataView into the document. |
-| [Execute](execute)(IDataReader) | Performs mail merge from IDataReader into the document. |
-| [Execute](execute)(IMailMergeDataSource) | Performs a mail merge from a custom data source. |
-| [Execute](execute)(string[], object[]) | Performs a mail merge operation for a single record. |
-| [ExecuteADO](executeado)(object) | Performs mail merge from an ADO Recordset object into the document. |
-| [ExecuteWithRegions](executewithregions)(DataSet) | Performs mail merge from a DataSet into a document with mail merge regions. |
-| [ExecuteWithRegions](executewithregions)(DataTable) | Performs mail merge from a DataTable into the document with mail merge regions. |
-| [ExecuteWithRegions](executewithregions)(DataView) | Performs mail merge from a DataView into the document with mail merge regions. |
-| [ExecuteWithRegions](executewithregions)(IMailMergeDataSource) | Performs a mail merge from a custom data source with mail merge regions. |
-| [ExecuteWithRegions](executewithregions)(IMailMergeDataSourceRoot) | Performs a mail merge from a custom data source with mail merge regions. |
-| [ExecuteWithRegions](executewithregions)(IDataReader, string) | Performs mail merge from IDataReader into the document with mail merge regions. |
-| [ExecuteWithRegionsADO](executewithregionsado)(object, string) | Performs mail merge from an ADO Recordset object into the document with mail merge regions. |
-| [GetFieldNames](getfieldnames)() | Returns a collection of mail merge field names available in the document. |
-| [GetFieldNamesForRegion](getfieldnamesforregion)(string) | Returns a collection of mail merge field names available in the region. |
-| [GetFieldNamesForRegion](getfieldnamesforregion)(string, int) | Returns a collection of mail merge field names available in the region. |
-| [GetRegionsByName](getregionsbyname)(string) | Returns a collection of mail merge regions with the specified name. |
-| [GetRegionsHierarchy](getregionshierarchy)() | Returns a full hierarchy of regions (with fields) available in the document. |
+| [DeleteFields](../../aspose.words.mailmerging/mailmerge/deletefields)() | Removes mail merge related fields from the document. |
+| [Execute](../../aspose.words.mailmerging/mailmerge/execute)(DataRow) | Performs mail merge from a DataRow into the document. |
+| [Execute](../../aspose.words.mailmerging/mailmerge/execute)(DataTable) | Performs mail merge from a DataTable into the document. |
+| [Execute](../../aspose.words.mailmerging/mailmerge/execute)(DataView) | Performs mail merge from a DataView into the document. |
+| [Execute](../../aspose.words.mailmerging/mailmerge/execute)(IDataReader) | Performs mail merge from IDataReader into the document. |
+| [Execute](../../aspose.words.mailmerging/mailmerge/execute)(IMailMergeDataSource) | Performs a mail merge from a custom data source. |
+| [Execute](../../aspose.words.mailmerging/mailmerge/execute)(string[], object[]) | Performs a mail merge operation for a single record. |
+| [ExecuteADO](../../aspose.words.mailmerging/mailmerge/executeado)(object) | Performs mail merge from an ADO Recordset object into the document. |
+| [ExecuteWithRegions](../../aspose.words.mailmerging/mailmerge/executewithregions)(DataSet) | Performs mail merge from a DataSet into a document with mail merge regions. |
+| [ExecuteWithRegions](../../aspose.words.mailmerging/mailmerge/executewithregions)(DataTable) | Performs mail merge from a DataTable into the document with mail merge regions. |
+| [ExecuteWithRegions](../../aspose.words.mailmerging/mailmerge/executewithregions)(DataView) | Performs mail merge from a DataView into the document with mail merge regions. |
+| [ExecuteWithRegions](../../aspose.words.mailmerging/mailmerge/executewithregions)(IMailMergeDataSource) | Performs a mail merge from a custom data source with mail merge regions. |
+| [ExecuteWithRegions](../../aspose.words.mailmerging/mailmerge/executewithregions)(IMailMergeDataSourceRoot) | Performs a mail merge from a custom data source with mail merge regions. |
+| [ExecuteWithRegions](../../aspose.words.mailmerging/mailmerge/executewithregions)(IDataReader, string) | Performs mail merge from IDataReader into the document with mail merge regions. |
+| [ExecuteWithRegionsADO](../../aspose.words.mailmerging/mailmerge/executewithregionsado)(object, string) | Performs mail merge from an ADO Recordset object into the document with mail merge regions. |
+| [GetFieldNames](../../aspose.words.mailmerging/mailmerge/getfieldnames)() | Returns a collection of mail merge field names available in the document. |
+| [GetFieldNamesForRegion](../../aspose.words.mailmerging/mailmerge/getfieldnamesforregion)(string) | Returns a collection of mail merge field names available in the region. |
+| [GetFieldNamesForRegion](../../aspose.words.mailmerging/mailmerge/getfieldnamesforregion)(string, int) | Returns a collection of mail merge field names available in the region. |
+| [GetRegionsByName](../../aspose.words.mailmerging/mailmerge/getregionsbyname)(string) | Returns a collection of mail merge regions with the specified name. |
+| [GetRegionsHierarchy](../../aspose.words.mailmerging/mailmerge/getregionshierarchy)() | Returns a full hierarchy of regions (with fields) available in the document. |
 
 ### Remarks
 

@@ -18,15 +18,15 @@ public class ResourceLoadingArgs
 
 | Name | Description |
 | --- | --- |
-| [OriginalUri](originaluri) { get; } | Original URI of the resource as specified in imported document. |
-| [ResourceType](resourcetype) { get; } | Type of resource. |
-| [Uri](uri) { get; set; } | URI of the resource which is used for downloading if [`ResourceLoading`](../iresourceloadingcallback/resourceloading) returns Default. |
+| [OriginalUri](../../aspose.words.loading/resourceloadingargs/originaluri) { get; } | Original URI of the resource as specified in imported document. |
+| [ResourceType](../../aspose.words.loading/resourceloadingargs/resourcetype) { get; } | Type of resource. |
+| [Uri](../../aspose.words.loading/resourceloadingargs/uri) { get; set; } | URI of the resource which is used for downloading if [`ResourceLoading`](../iresourceloadingcallback/resourceloading) returns Default. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [SetData](setdata)(byte[]) | Sets user provided data of the resource which is used if [`ResourceLoading`](../iresourceloadingcallback/resourceloading) returns UserProvided. |
+| [SetData](../../aspose.words.loading/resourceloadingargs/setdata)(byte[]) | Sets user provided data of the resource which is used if [`ResourceLoading`](../iresourceloadingcallback/resourceloading) returns UserProvided. |
 
 ### See Also
 

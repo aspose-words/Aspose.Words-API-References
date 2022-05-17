@@ -18,15 +18,15 @@ public class NodeList : IEnumerable<Node>
 
 | Name | Description |
 | --- | --- |
-| [Count](count) { get; } | Gets the number of nodes in the list. |
-| [Item](item) { get; } | Retrieves a node at the given index. |
+| [Count](../../aspose.words/nodelist/count) { get; } | Gets the number of nodes in the list. |
+| [Item](../../aspose.words/nodelist/item) { get; } | Retrieves a node at the given index. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [GetEnumerator](getenumerator)() | Provides a simple "foreach" style iteration over the collection of nodes. |
-| [ToArray](toarray)() | Copies all nodes from the collection to a new array of nodes. |
+| [GetEnumerator](../../aspose.words/nodelist/getenumerator)() | Provides a simple "foreach" style iteration over the collection of nodes. |
+| [ToArray](../../aspose.words/nodelist/toarray)() | Copies all nodes from the collection to a new array of nodes. |
 
 ### Remarks
 

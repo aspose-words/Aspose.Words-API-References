@@ -14,16 +14,30 @@ A collection of custom document properties.
 public class CustomDocumentProperties : DocumentPropertyCollection
 ```
 
+## Properties
+
+| Name | Description |
+| --- | --- |
+| [Count](../../aspose.words.properties/documentpropertycollection/count) { get; } | Gets number of items in the collection. |
+| [Item](../../aspose.words.properties/documentpropertycollection/item) { get; } | Returns a [`DocumentProperty`](../documentproperty) object by index. |
+| virtual [Item](../../aspose.words.properties/documentpropertycollection/item) { get; } | Returns a [`DocumentProperty`](../documentproperty) object by the name of the property. |
+
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Add](add)(string, bool) | Creates a new custom document property of the **PropertyType.Boolean** data type. |
-| [Add](add)(string, DateTime) | Creates a new custom document property of the **PropertyType.DateTime** data type. |
-| [Add](add)(string, double) | Creates a new custom document property of the **PropertyType.Float** data type. |
-| [Add](add)(string, int) | Creates a new custom document property of the **PropertyType.Number** data type. |
-| [Add](add)(string, string) | Creates a new custom document property of the **PropertyType.String** data type. |
-| [AddLinkToContent](addlinktocontent)(string, string) | Creates a new linked to content custom document property. |
+| [Add](../../aspose.words.properties/customdocumentproperties/add)(string, bool) | Creates a new custom document property of the **PropertyType.Boolean** data type. |
+| [Add](../../aspose.words.properties/customdocumentproperties/add)(string, DateTime) | Creates a new custom document property of the **PropertyType.DateTime** data type. |
+| [Add](../../aspose.words.properties/customdocumentproperties/add)(string, double) | Creates a new custom document property of the **PropertyType.Float** data type. |
+| [Add](../../aspose.words.properties/customdocumentproperties/add)(string, int) | Creates a new custom document property of the **PropertyType.Number** data type. |
+| [Add](../../aspose.words.properties/customdocumentproperties/add)(string, string) | Creates a new custom document property of the **PropertyType.String** data type. |
+| [AddLinkToContent](../../aspose.words.properties/customdocumentproperties/addlinktocontent)(string, string) | Creates a new linked to content custom document property. |
+| [Clear](../../aspose.words.properties/documentpropertycollection/clear)() | Removes all properties from the collection. |
+| [Contains](../../aspose.words.properties/documentpropertycollection/contains)(string) | Returns true if a property with the specified name exists in the collection. |
+| [GetEnumerator](../../aspose.words.properties/documentpropertycollection/getenumerator)() | Returns an enumerator object that can be used to iterate over all items in the collection. |
+| [IndexOf](../../aspose.words.properties/documentpropertycollection/indexof)(string) | Gets the index of a property by name. |
+| [Remove](../../aspose.words.properties/documentpropertycollection/remove)(string) | Removes a property with the specified name from the collection. |
+| [RemoveAt](../../aspose.words.properties/documentpropertycollection/removeat)(int) | Removes a property at the specified index. |
 
 ### Remarks
 

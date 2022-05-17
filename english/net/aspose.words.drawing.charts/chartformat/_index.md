@@ -18,8 +18,8 @@ public class ChartFormat
 
 | Name | Description |
 | --- | --- |
-| [Fill](fill) { get; } | Gets fill formatting for the parent chart element. |
-| [Stroke](stroke) { get; } | Gets line formatting for the parent chart element. |
+| [Fill](../../aspose.words.drawing.charts/chartformat/fill) { get; } | Gets fill formatting for the parent chart element. |
+| [Stroke](../../aspose.words.drawing.charts/chartformat/stroke) { get; } | Gets line formatting for the parent chart element. |
 
 ### See Also
 

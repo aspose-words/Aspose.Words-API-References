@@ -18,14 +18,14 @@ public class FontConfigSubstitutionRule : FontSubstitutionRule
 
 | Name | Description |
 | --- | --- |
-| override [Enabled](enabled) { set; } | Specifies whether the rule is enabled or not. |
+| override [Enabled](../../aspose.words.fonts/fontconfigsubstitutionrule/enabled) { set; } | Specifies whether the rule is enabled or not. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [IsFontConfigAvailable](isfontconfigavailable)() | Check if fontconfig utility is available or not. |
-| [ResetCache](resetcache)() | Resets the cache of fontconfig calling results. |
+| [IsFontConfigAvailable](../../aspose.words.fonts/fontconfigsubstitutionrule/isfontconfigavailable)() | Check if fontconfig utility is available or not. |
+| [ResetCache](../../aspose.words.fonts/fontconfigsubstitutionrule/resetcache)() | Resets the cache of fontconfig calling results. |
 
 ### Remarks
 

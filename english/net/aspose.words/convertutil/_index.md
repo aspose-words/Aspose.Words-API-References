@@ -18,14 +18,14 @@ public static class ConvertUtil
 
 | Name | Description |
 | --- | --- |
-| static [InchToPoint](inchtopoint)(double) | Converts inches to points. |
-| static [MillimeterToPoint](millimetertopoint)(double) | Converts millimeters to points. |
-| static [PixelToNewDpi](pixeltonewdpi)(double, double, double) | Converts pixels from one resolution to another. |
-| static [PixelToPoint](pixeltopoint)(double) | Converts pixels to points at 96 dpi. |
-| static [PixelToPoint](pixeltopoint)(double, double) | Converts pixels to points at the specified pixel resolution. |
-| static [PointToInch](pointtoinch)(double) | Converts points to inches. |
-| static [PointToPixel](pointtopixel)(double) | Converts points to pixels at 96 dpi. |
-| static [PointToPixel](pointtopixel)(double, double) | Converts points to pixels at the specified pixel resolution. |
+| static [InchToPoint](../../aspose.words/convertutil/inchtopoint)(double) | Converts inches to points. |
+| static [MillimeterToPoint](../../aspose.words/convertutil/millimetertopoint)(double) | Converts millimeters to points. |
+| static [PixelToNewDpi](../../aspose.words/convertutil/pixeltonewdpi)(double, double, double) | Converts pixels from one resolution to another. |
+| static [PixelToPoint](../../aspose.words/convertutil/pixeltopoint)(double) | Converts pixels to points at 96 dpi. |
+| static [PixelToPoint](../../aspose.words/convertutil/pixeltopoint)(double, double) | Converts pixels to points at the specified pixel resolution. |
+| static [PointToInch](../../aspose.words/convertutil/pointtoinch)(double) | Converts points to inches. |
+| static [PointToPixel](../../aspose.words/convertutil/pointtopixel)(double) | Converts points to pixels at 96 dpi. |
+| static [PointToPixel](../../aspose.words/convertutil/pointtopixel)(double, double) | Converts points to pixels at the specified pixel resolution. |
 
 ### See Also
 

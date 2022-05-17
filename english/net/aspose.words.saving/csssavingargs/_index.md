@@ -18,10 +18,10 @@ public class CssSavingArgs
 
 | Name | Description |
 | --- | --- |
-| [CssStream](cssstream) { get; set; } | Allows to specify the stream where the CSS information will be saved to. |
-| [Document](document) { get; } | Gets the document object that is currently being saved. |
-| [IsExportNeeded](isexportneeded) { get; set; } | Allows to specify whether the CSS will be exported to file and embedded to HTML document. Default is `true`. When this property is `false`, the CSS information will not be saved to a CSS file and will not be embedded to HTML document. |
-| [KeepCssStreamOpen](keepcssstreamopen) { get; set; } | Specifies whether Aspose.Words should keep the stream open or close it after saving an CSS information. |
+| [CssStream](../../aspose.words.saving/csssavingargs/cssstream) { get; set; } | Allows to specify the stream where the CSS information will be saved to. |
+| [Document](../../aspose.words.saving/csssavingargs/document) { get; } | Gets the document object that is currently being saved. |
+| [IsExportNeeded](../../aspose.words.saving/csssavingargs/isexportneeded) { get; set; } | Allows to specify whether the CSS will be exported to file and embedded to HTML document. Default is `true`. When this property is `false`, the CSS information will not be saved to a CSS file and will not be embedded to HTML document. |
+| [KeepCssStreamOpen](../../aspose.words.saving/csssavingargs/keepcssstreamopen) { get; set; } | Specifies whether Aspose.Words should keep the stream open or close it after saving an CSS information. |
 
 ### Remarks
 

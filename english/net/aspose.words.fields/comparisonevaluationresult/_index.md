@@ -25,8 +25,8 @@ public sealed class ComparisonEvaluationResult
 
 | Name | Description |
 | --- | --- |
-| [ErrorMessage](errormessage) { get; } | Gets the failed comparison evaluation result's error message. |
-| [Result](result) { get; } | Gets the comparison evaluation result. |
+| [ErrorMessage](../../aspose.words.fields/comparisonevaluationresult/errormessage) { get; } | Gets the failed comparison evaluation result's error message. |
+| [Result](../../aspose.words.fields/comparisonevaluationresult/result) { get; } | Gets the comparison evaluation result. |
 
 ### See Also
 

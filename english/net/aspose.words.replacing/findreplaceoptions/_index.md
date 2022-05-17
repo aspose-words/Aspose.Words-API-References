@@ -27,21 +27,21 @@ public class FindReplaceOptions
 
 | Name | Description |
 | --- | --- |
-| [ApplyFont](applyfont) { get; } | Text formatting applied to new content. |
-| [ApplyParagraphFormat](applyparagraphformat) { get; } | Paragraph formatting applied to new content. |
-| [Direction](direction) { get; set; } | Selects direction for replace. Default value is Forward. |
-| [FindWholeWordsOnly](findwholewordsonly) { get; set; } | True indicates the oldValue must be a standalone word. |
-| [IgnoreDeleted](ignoredeleted) { get; set; } | Gets or sets a boolean value indicating either to ignore text inside delete revisions. The default value is `false`. |
-| [IgnoreFieldCodes](ignorefieldcodes) { get; set; } | Gets or sets a boolean value indicating either to ignore text inside field codes. The default value is `false`. |
-| [IgnoreFields](ignorefields) { get; set; } | Gets or sets a boolean value indicating either to ignore text inside fields. The default value is `false`. |
-| [IgnoreFootnotes](ignorefootnotes) { get; set; } | Gets or sets a boolean value indicating either to ignore footnotes. The default value is `false`. |
-| [IgnoreInserted](ignoreinserted) { get; set; } | Gets or sets a boolean value indicating either to ignore text inside insert revisions. The default value is `false`. |
-| [LegacyMode](legacymode) { get; set; } | Gets or sets a boolean value indicating that old find/replace algorithm is used. |
-| [MatchCase](matchcase) { get; set; } | True indicates case-sensitive comparison, false indicates case-insensitive comparison. |
-| [ReplacingCallback](replacingcallback) { get; set; } | The user-defined method which is called before every replace occurrence. |
-| [SmartParagraphBreakReplacement](smartparagraphbreakreplacement) { get; set; } | Gets or sets a boolean value indicating either it is allowed to replace paragraph break when there is no next sibling paragraph. |
-| [UseLegacyOrder](uselegacyorder) { get; set; } | True indicates that a text search is performed sequentially from top to bottom considering the text boxes. Default value is false. |
-| [UseSubstitutions](usesubstitutions) { get; set; } | Gets or sets a boolean value indicating whether to recognize and use substitutions within replacement patterns. The default value is `false`. |
+| [ApplyFont](../../aspose.words.replacing/findreplaceoptions/applyfont) { get; } | Text formatting applied to new content. |
+| [ApplyParagraphFormat](../../aspose.words.replacing/findreplaceoptions/applyparagraphformat) { get; } | Paragraph formatting applied to new content. |
+| [Direction](../../aspose.words.replacing/findreplaceoptions/direction) { get; set; } | Selects direction for replace. Default value is Forward. |
+| [FindWholeWordsOnly](../../aspose.words.replacing/findreplaceoptions/findwholewordsonly) { get; set; } | True indicates the oldValue must be a standalone word. |
+| [IgnoreDeleted](../../aspose.words.replacing/findreplaceoptions/ignoredeleted) { get; set; } | Gets or sets a boolean value indicating either to ignore text inside delete revisions. The default value is `false`. |
+| [IgnoreFieldCodes](../../aspose.words.replacing/findreplaceoptions/ignorefieldcodes) { get; set; } | Gets or sets a boolean value indicating either to ignore text inside field codes. The default value is `false`. |
+| [IgnoreFields](../../aspose.words.replacing/findreplaceoptions/ignorefields) { get; set; } | Gets or sets a boolean value indicating either to ignore text inside fields. The default value is `false`. |
+| [IgnoreFootnotes](../../aspose.words.replacing/findreplaceoptions/ignorefootnotes) { get; set; } | Gets or sets a boolean value indicating either to ignore footnotes. The default value is `false`. |
+| [IgnoreInserted](../../aspose.words.replacing/findreplaceoptions/ignoreinserted) { get; set; } | Gets or sets a boolean value indicating either to ignore text inside insert revisions. The default value is `false`. |
+| [LegacyMode](../../aspose.words.replacing/findreplaceoptions/legacymode) { get; set; } | Gets or sets a boolean value indicating that old find/replace algorithm is used. |
+| [MatchCase](../../aspose.words.replacing/findreplaceoptions/matchcase) { get; set; } | True indicates case-sensitive comparison, false indicates case-insensitive comparison. |
+| [ReplacingCallback](../../aspose.words.replacing/findreplaceoptions/replacingcallback) { get; set; } | The user-defined method which is called before every replace occurrence. |
+| [SmartParagraphBreakReplacement](../../aspose.words.replacing/findreplaceoptions/smartparagraphbreakreplacement) { get; set; } | Gets or sets a boolean value indicating either it is allowed to replace paragraph break when there is no next sibling paragraph. |
+| [UseLegacyOrder](../../aspose.words.replacing/findreplaceoptions/uselegacyorder) { get; set; } | True indicates that a text search is performed sequentially from top to bottom considering the text boxes. Default value is false. |
+| [UseSubstitutions](../../aspose.words.replacing/findreplaceoptions/usesubstitutions) { get; set; } | Gets or sets a boolean value indicating whether to recognize and use substitutions within replacement patterns. The default value is `false`. |
 
 ### See Also
 

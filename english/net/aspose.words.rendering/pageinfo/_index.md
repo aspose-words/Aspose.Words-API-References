@@ -18,21 +18,21 @@ public class PageInfo
 
 | Name | Description |
 | --- | --- |
-| [HeightInPoints](heightinpoints) { get; } | Gets the height of the page in points. |
-| [Landscape](landscape) { get; } | Returns true if the page orientation specified in the document for this page is landscape. |
-| [PaperSize](papersize) { get; } | Gets the paper size as enumeration. |
-| [PaperTray](papertray) { get; } | Gets the paper tray (bin) for this page as specified in the document. The value is implementation (printer) specific. |
-| [SizeInPoints](sizeinpoints) { get; } | Gets the page size in points. |
-| [WidthInPoints](widthinpoints) { get; } | Gets the width of the page in points. |
+| [HeightInPoints](../../aspose.words.rendering/pageinfo/heightinpoints) { get; } | Gets the height of the page in points. |
+| [Landscape](../../aspose.words.rendering/pageinfo/landscape) { get; } | Returns true if the page orientation specified in the document for this page is landscape. |
+| [PaperSize](../../aspose.words.rendering/pageinfo/papersize) { get; } | Gets the paper size as enumeration. |
+| [PaperTray](../../aspose.words.rendering/pageinfo/papertray) { get; } | Gets the paper tray (bin) for this page as specified in the document. The value is implementation (printer) specific. |
+| [SizeInPoints](../../aspose.words.rendering/pageinfo/sizeinpoints) { get; } | Gets the page size in points. |
+| [WidthInPoints](../../aspose.words.rendering/pageinfo/widthinpoints) { get; } | Gets the width of the page in points. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [GetDotNetPaperSize](getdotnetpapersize)(PaperSizeCollection) | Gets the PaperSize object suitable for printing the page represented by this [`PageInfo`](../pageinfo). |
-| [GetSizeInPixels](getsizeinpixels)(float, float) | Calculates the page size in pixels for a specified zoom factor and resolution. |
-| [GetSizeInPixels](getsizeinpixels)(float, float, float) | Calculates the page size in pixels for a specified zoom factor and resolution. |
-| [GetSpecifiedPrinterPaperSource](getspecifiedprinterpapersource)(PaperSourceCollection, PaperSource) | Gets the PaperSource object suitable for printing the page represented by this [`PageInfo`](../pageinfo). |
+| [GetDotNetPaperSize](../../aspose.words.rendering/pageinfo/getdotnetpapersize)(PaperSizeCollection) | Gets the PaperSize object suitable for printing the page represented by this [`PageInfo`](../pageinfo). |
+| [GetSizeInPixels](../../aspose.words.rendering/pageinfo/getsizeinpixels)(float, float) | Calculates the page size in pixels for a specified zoom factor and resolution. |
+| [GetSizeInPixels](../../aspose.words.rendering/pageinfo/getsizeinpixels)(float, float, float) | Calculates the page size in pixels for a specified zoom factor and resolution. |
+| [GetSpecifiedPrinterPaperSource](../../aspose.words.rendering/pageinfo/getspecifiedprinterpapersource)(PaperSourceCollection, PaperSource) | Gets the PaperSource object suitable for printing the page represented by this [`PageInfo`](../pageinfo). |
 
 ### Remarks
 

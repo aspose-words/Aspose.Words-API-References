@@ -18,25 +18,25 @@ public class Range
 
 | Name | Description |
 | --- | --- |
-| [Bookmarks](bookmarks) { get; } | Returns a [`Bookmarks`](./bookmarks) collection that represents all bookmarks in the range. |
-| [Fields](fields) { get; } | Returns a [`Fields`](./fields) collection that represents all fields in the range. |
-| [FormFields](formfields) { get; } | Returns a [`FormFields`](./formfields) collection that represents all form fields in the range. |
-| [StructuredDocumentTags](structureddocumenttags) { get; } | Returns a [`StructuredDocumentTags`](./structureddocumenttags) collection that represents all structured document tags in the range. |
-| [Text](text) { get; } | Gets the text of the range. |
+| [Bookmarks](../../aspose.words/range/bookmarks) { get; } | Returns a [`Bookmarks`](./bookmarks) collection that represents all bookmarks in the range. |
+| [Fields](../../aspose.words/range/fields) { get; } | Returns a [`Fields`](./fields) collection that represents all fields in the range. |
+| [FormFields](../../aspose.words/range/formfields) { get; } | Returns a [`FormFields`](./formfields) collection that represents all form fields in the range. |
+| [StructuredDocumentTags](../../aspose.words/range/structureddocumenttags) { get; } | Returns a [`StructuredDocumentTags`](./structureddocumenttags) collection that represents all structured document tags in the range. |
+| [Text](../../aspose.words/range/text) { get; } | Gets the text of the range. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Delete](delete)() | Deletes all characters of the range. |
-| [NormalizeFieldTypes](normalizefieldtypes)() | Changes field type values [`FieldType`](../../aspose.words.fields/fieldchar/fieldtype) of [`FieldStart`](../../aspose.words.fields/fieldstart), [`FieldSeparator`](../../aspose.words.fields/fieldseparator), [`FieldEnd`](../../aspose.words.fields/fieldend) in this range so that they correspond to the field types contained in the field codes. |
-| [Replace](replace)(Regex, string) | Replaces all occurrences of a character pattern specified by a regular expression with another string. |
-| [Replace](replace)(string, string) | Replaces all occurrences of a specified character string pattern with a replacement string. |
-| [Replace](replace)(Regex, string, FindReplaceOptions) | Replaces all occurrences of a character pattern specified by a regular expression with another string. |
-| [Replace](replace)(string, string, FindReplaceOptions) | Replaces all occurrences of a specified character string pattern with a replacement string. |
-| [ToDocument](todocument)() | Constructs a new fully formed document that contains the range. |
-| [UnlinkFields](unlinkfields)() | Unlinks fields in this range. |
-| [UpdateFields](updatefields)() | Updates the values of document fields in this range. |
+| [Delete](../../aspose.words/range/delete)() | Deletes all characters of the range. |
+| [NormalizeFieldTypes](../../aspose.words/range/normalizefieldtypes)() | Changes field type values [`FieldType`](../../aspose.words.fields/fieldchar/fieldtype) of [`FieldStart`](../../aspose.words.fields/fieldstart), [`FieldSeparator`](../../aspose.words.fields/fieldseparator), [`FieldEnd`](../../aspose.words.fields/fieldend) in this range so that they correspond to the field types contained in the field codes. |
+| [Replace](../../aspose.words/range/replace)(Regex, string) | Replaces all occurrences of a character pattern specified by a regular expression with another string. |
+| [Replace](../../aspose.words/range/replace)(string, string) | Replaces all occurrences of a specified character string pattern with a replacement string. |
+| [Replace](../../aspose.words/range/replace)(Regex, string, FindReplaceOptions) | Replaces all occurrences of a character pattern specified by a regular expression with another string. |
+| [Replace](../../aspose.words/range/replace)(string, string, FindReplaceOptions) | Replaces all occurrences of a specified character string pattern with a replacement string. |
+| [ToDocument](../../aspose.words/range/todocument)() | Constructs a new fully formed document that contains the range. |
+| [UnlinkFields](../../aspose.words/range/unlinkfields)() | Unlinks fields in this range. |
+| [UpdateFields](../../aspose.words/range/updatefields)() | Updates the values of document fields in this range. |
 
 ### Remarks
 

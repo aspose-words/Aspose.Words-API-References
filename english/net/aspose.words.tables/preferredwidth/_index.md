@@ -18,19 +18,19 @@ public sealed class PreferredWidth
 
 | Name | Description |
 | --- | --- |
-| [Type](type) { get; } | Gets the unit of measure used for this preferred width value. |
-| [Value](value) { get; } | Gets the preferred width value. The unit of measure is specified in the [`Type`](./type) property. |
+| [Type](../../aspose.words.tables/preferredwidth/type) { get; } | Gets the unit of measure used for this preferred width value. |
+| [Value](../../aspose.words.tables/preferredwidth/value) { get; } | Gets the preferred width value. The unit of measure is specified in the [`Type`](./type) property. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| static [FromPercent](frompercent)(double) | A creation method that returns a new instance that represents a preferred width specified as a percentage. |
-| static [FromPoints](frompoints)(double) | A creation method that returns a new instance that represents a preferred width specified using a number of points. |
-| override [Equals](equals)(object) | Determines whether the specified object is equal in value to the current object. |
-| [Equals](equals)(PreferredWidth) | Determines whether the specified PreferredWidth is equal in value to the current PreferredWidth. |
-| override [GetHashCode](gethashcode)() | Serves as a hash function for this type. |
-| override [ToString](tostring)() | Returns a user-friendly string that displays the value of this object. |
+| static [FromPercent](../../aspose.words.tables/preferredwidth/frompercent)(double) | A creation method that returns a new instance that represents a preferred width specified as a percentage. |
+| static [FromPoints](../../aspose.words.tables/preferredwidth/frompoints)(double) | A creation method that returns a new instance that represents a preferred width specified using a number of points. |
+| override [Equals](../../aspose.words.tables/preferredwidth/equals)(object) | Determines whether the specified object is equal in value to the current object. |
+| [Equals](../../aspose.words.tables/preferredwidth/equals)(PreferredWidth) | Determines whether the specified PreferredWidth is equal in value to the current PreferredWidth. |
+| override [GetHashCode](../../aspose.words.tables/preferredwidth/gethashcode)() | Serves as a hash function for this type. |
+| override [ToString](../../aspose.words.tables/preferredwidth/tostring)() | Returns a user-friendly string that displays the value of this object. |
 
 ## Other Members
 

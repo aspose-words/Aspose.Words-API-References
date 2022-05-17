@@ -24,15 +24,15 @@ public class VbaModule
 
 | Name | Description |
 | --- | --- |
-| [Name](name) { get; set; } | Gets or sets VBA project module name. |
-| [SourceCode](sourcecode) { get; set; } | Gets or sets VBA project module source code. |
-| [Type](type) { get; set; } | Specifies whether the module is a procedural module, document module, class module, or designer module. |
+| [Name](../../aspose.words.vba/vbamodule/name) { get; set; } | Gets or sets VBA project module name. |
+| [SourceCode](../../aspose.words.vba/vbamodule/sourcecode) { get; set; } | Gets or sets VBA project module source code. |
+| [Type](../../aspose.words.vba/vbamodule/type) { get; set; } | Specifies whether the module is a procedural module, document module, class module, or designer module. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Clone](clone)() | Performs a copy of the [`VbaModule`](../vbamodule). |
+| [Clone](../../aspose.words.vba/vbamodule/clone)() | Performs a copy of the [`VbaModule`](../vbamodule). |
 
 ### See Also
 

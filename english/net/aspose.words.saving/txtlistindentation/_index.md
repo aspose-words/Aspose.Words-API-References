@@ -24,8 +24,8 @@ public class TxtListIndentation
 
 | Name | Description |
 | --- | --- |
-| [Character](character) { get; set; } | Gets or sets which character to use for indenting list levels. The default value is '\0', that means there is no indentation. |
-| [Count](count) { get; set; } | Gets or sets how many [`Character`](./character) to use as indentation per one list level. The default value is 0, that means no indentation. |
+| [Character](../../aspose.words.saving/txtlistindentation/character) { get; set; } | Gets or sets which character to use for indenting list levels. The default value is '\0', that means there is no indentation. |
+| [Count](../../aspose.words.saving/txtlistindentation/count) { get; set; } | Gets or sets how many [`Character`](./character) to use as indentation per one list level. The default value is 0, that means no indentation. |
 
 ### See Also
 

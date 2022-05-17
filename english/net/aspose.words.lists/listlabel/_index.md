@@ -18,9 +18,9 @@ public class ListLabel
 
 | Name | Description |
 | --- | --- |
-| [Font](font) { get; } | Gets the list label font. |
-| [LabelString](labelstring) { get; } | Gets a string representation of list label. |
-| [LabelValue](labelvalue) { get; } | Gets a numeric value for this label. |
+| [Font](../../aspose.words.lists/listlabel/font) { get; } | Gets the list label font. |
+| [LabelString](../../aspose.words.lists/listlabel/labelstring) { get; } | Gets a string representation of list label. |
+| [LabelValue](../../aspose.words.lists/listlabel/labelvalue) { get; } | Gets a numeric value for this label. |
 
 ### See Also
 
