@@ -13,8 +13,8 @@ The **Aspose.Words.MailMerging** namespace contains classes of the "original" ma
 | Class | Description |
 | --- | --- |
 | [FieldMergingArgs](./fieldmergingargs) | Provides data for the **MergeField** event. |
-| [FieldMergingArgsBase](./fieldmergingargsbase) | Base class for [`FieldMergingArgs`](aspose.words.mailmerging/fieldmergingargs) and [`ImageFieldMergingArgs`](aspose.words.mailmerging/imagefieldmergingargs). |
-| [ImageFieldMergingArgs](./imagefieldmergingargs) | Provides data for the [`ImageFieldMerging`](aspose.words.mailmerging/ifieldmergingcallback/imagefieldmerging) event. |
+| [FieldMergingArgsBase](./fieldmergingargsbase) | Base class for [`FieldMergingArgs`](../aspose.words.mailmerging/fieldmergingargs) and [`ImageFieldMergingArgs`](../aspose.words.mailmerging/imagefieldmergingargs). |
+| [ImageFieldMergingArgs](./imagefieldmergingargs) | Provides data for the [`ImageFieldMerging`](../aspose.words.mailmerging/ifieldmergingcallback/imagefieldmerging) event. |
 | [MailMerge](./mailmerge) | Represents the mail merge functionality. |
 | [MailMergeRegionInfo](./mailmergeregioninfo) | Contains information about a mail merge region. |
 | [MappedDataFieldCollection](./mappeddatafieldcollection) | Allows to automatically map between names of fields in your data source and names of mail merge fields in the document. |

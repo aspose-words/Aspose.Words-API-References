@@ -13,7 +13,7 @@ The **Aspose.Words.BuildingBlocks** namespace provides classes that allow to acc
 | Class | Description |
 | --- | --- |
 | [BuildingBlock](./buildingblock) | Represents a glossary document entry such as a Building Block, AutoText or an AutoCorrect entry. |
-| [BuildingBlockCollection](./buildingblockcollection) | A collection of [`BuildingBlock`](aspose.words.buildingblocks/buildingblock) objects in the document. |
+| [BuildingBlockCollection](./buildingblockcollection) | A collection of [`BuildingBlock`](../aspose.words.buildingblocks/buildingblock) objects in the document. |
 | [GlossaryDocument](./glossarydocument) | Represents the root element for a glossary document within a Word document. A glossary document is a storage for AutoText, AutoCorrect entries and Building Blocks. |
 ## Enumeration
 

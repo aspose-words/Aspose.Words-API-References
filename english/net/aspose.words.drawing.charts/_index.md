@@ -18,9 +18,9 @@ The **Aspose.Words.Drawing.Charts** namespace provides classes that allow to acc
 | [Chart](./chart) | Provides access to the chart shape properties. |
 | [ChartAxis](./chartaxis) | Represents the axis options of the chart. |
 | [ChartDataLabel](./chartdatalabel) | Represents data label on a chart point or trendline. |
-| [ChartDataLabelCollection](./chartdatalabelcollection) | Represents a collection of [`ChartDataLabel`](aspose.words.drawing.charts/chartdatalabel). |
+| [ChartDataLabelCollection](./chartdatalabelcollection) | Represents a collection of [`ChartDataLabel`](../aspose.words.drawing.charts/chartdatalabel). |
 | [ChartDataPoint](./chartdatapoint) | Allows to specify formatting of a single data point on the chart. |
-| [ChartDataPointCollection](./chartdatapointcollection) | Represents collection of a [`ChartDataPoint`](aspose.words.drawing.charts/chartdatapoint). |
+| [ChartDataPointCollection](./chartdatapointcollection) | Represents collection of a [`ChartDataPoint`](../aspose.words.drawing.charts/chartdatapoint). |
 | [ChartFormat](./chartformat) | Represents the formatting of a chart element. |
 | [ChartLegend](./chartlegend) | Represents chart legend properties. |
 | [ChartLegendEntry](./chartlegendentry) | Represents a chart legend entry. |
@@ -28,7 +28,7 @@ The **Aspose.Words.Drawing.Charts** namespace provides classes that allow to acc
 | [ChartMarker](./chartmarker) | Represents a chart data marker. |
 | [ChartNumberFormat](./chartnumberformat) | Represents number formatting of the parent element. |
 | [ChartSeries](./chartseries) | Represents chart series properties. |
-| [ChartSeriesCollection](./chartseriescollection) | Represents collection of a [`ChartSeries`](aspose.words.drawing.charts/chartseries). |
+| [ChartSeriesCollection](./chartseriescollection) | Represents collection of a [`ChartSeries`](../aspose.words.drawing.charts/chartseries). |
 | [ChartTitle](./charttitle) | Provides access to the chart title properties. |
 ## Interfaces
 

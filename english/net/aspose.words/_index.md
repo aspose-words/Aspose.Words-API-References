@@ -15,7 +15,7 @@ The **Aspose.Words** namespace provides classes for generating, converting, modi
 | [AbsolutePositionTab](./absolutepositiontab) | An absolute position tab is a character which is used to advance the position on the current line of text when displaying this WordprocessingML content. |
 | [Body](./body) | Represents a container for the main text of a section. |
 | [Bookmark](./bookmark) | Represents a single bookmark. |
-| [BookmarkCollection](./bookmarkcollection) | A collection of [`Bookmark`](aspose.words/bookmark) objects that represent the bookmarks in the specified range. |
+| [BookmarkCollection](./bookmarkcollection) | A collection of [`Bookmark`](../aspose.words/bookmark) objects that represent the bookmarks in the specified range. |
 | [BookmarkEnd](./bookmarkend) | Represents an end of a bookmark in a Word document. |
 | [BookmarkStart](./bookmarkstart) | Represents a start of a bookmark in a Word document. |
 | [Border](./border) | Represents a border of an object. |
@@ -24,12 +24,12 @@ The **Aspose.Words** namespace provides classes for generating, converting, modi
 | [CleanupOptions](./cleanupoptions) | Allows to specify options for document cleaning. |
 | [ComHelper](./comhelper) | Provides methods for COM clients to load a document into Aspose.Words. |
 | [Comment](./comment) | Represents a container for text of a comment. |
-| [CommentCollection](./commentcollection) | Provides typed access to a collection of [`Comment`](aspose.words/comment) nodes. |
+| [CommentCollection](./commentcollection) | Provides typed access to a collection of [`Comment`](../aspose.words/comment) nodes. |
 | [CommentRangeEnd](./commentrangeend) | Denotes the end of a region of text that has a comment associated with it. |
 | [CommentRangeStart](./commentrangestart) | Denotes the start of a region of text that has a comment associated with it. |
 | [CompositeNode](./compositenode) | Base class for nodes that can contain other nodes. |
 | [ConditionalStyle](./conditionalstyle) | Represents special formatting applied to some area of a table with assigned table style. |
-| [ConditionalStyleCollection](./conditionalstylecollection) | Represents a collection of [`ConditionalStyle`](aspose.words/conditionalstyle) objects. |
+| [ConditionalStyleCollection](./conditionalstylecollection) | Represents a collection of [`ConditionalStyle`](../aspose.words/conditionalstyle) objects. |
 | [ControlChar](./controlchar) | Control characters often encountered in documents. |
 | [ConvertUtil](./convertutil) | Provides helper functions to convert between various measurement units. |
 | [Document](./document) | Represents a Word document. |
@@ -41,12 +41,12 @@ The **Aspose.Words** namespace provides classes for generating, converting, modi
 | [EditableRangeEnd](./editablerangeend) | Represents an end of an editable range in a Word document. |
 | [EditableRangeStart](./editablerangestart) | Represents a start of an editable range in a Word document. |
 | [FileCorruptedException](./filecorruptedexception) | Thrown during document load, when the document appears to be corrupted and impossible to load. |
-| [FileFormatInfo](./fileformatinfo) | Contains data returned by [`FileFormatUtil`](aspose.words/fileformatutil) document format detection methods. |
+| [FileFormatInfo](./fileformatinfo) | Contains data returned by [`FileFormatUtil`](../aspose.words/fileformatutil) document format detection methods. |
 | [FileFormatUtil](./fileformatutil) | Provides utility methods for working with file formats, such as detecting file format or converting file extensions to/from file format enums. |
-| [Font](./font) | Contains font attributes (font name, font size, color, and so on) for an object. |
+| [Font](./font) | Contains font attributes (../font name, font size, color, and so on) for an object. |
 | [FrameFormat](./frameformat) | Represents frame related formatting for a paragraph. |
 | [HeaderFooter](./headerfooter) | Represents a container for the header or footer text of a section. |
-| [HeaderFooterCollection](./headerfootercollection) | Provides typed access to [`HeaderFooter`](aspose.words/headerfooter) nodes of a **Section**. |
+| [HeaderFooterCollection](./headerfootercollection) | Provides typed access to [`HeaderFooter`](../aspose.words/headerfooter) nodes of a **Section**. |
 | [Hyphenation](./hyphenation) | Provides methods for working with hyphenation dictionaries. These dictionaries prescribe where words of a specific language can be hyphenated. |
 | [ImageWatermarkOptions](./imagewatermarkoptions) | Contains options that can be specified when adding a watermark with image. |
 | [ImportFormatOptions](./importformatoptions) | Allows to specify various import options to format output. |
@@ -57,41 +57,41 @@ The **Aspose.Words** namespace provides classes for generating, converting, modi
 | [License](./license) | Provides methods to license the component. |
 | [Metered](./metered) | Provides methods to set metered key. |
 | [Node](./node) | Base class for all nodes of a Word document. |
-| [NodeChangingArgs](./nodechangingargs) | Provides data for methods of the [`INodeChangingCallback`](aspose.words/inodechangingcallback) interface. |
+| [NodeChangingArgs](./nodechangingargs) | Provides data for methods of the [`INodeChangingCallback`](../aspose.words/inodechangingcallback) interface. |
 | [NodeCollection](./nodecollection) | Represents a collection of nodes of a specific type. |
 | [NodeImporter](./nodeimporter) | Allows to efficiently perform repeated import of nodes from one document to another. |
-| [NodeList](./nodelist) | Represents a collection of nodes matching an XPath query executed using the [`SelectNodes`](aspose.words/compositenode/selectnodes) method. |
+| [NodeList](./nodelist) | Represents a collection of nodes matching an XPath query executed using the [`SelectNodes`](../aspose.words/compositenode/selectnodes) method. |
 | [PageSetup](./pagesetup) | Represents the page setup properties of a section. |
 | [Paragraph](./paragraph) | Represents a paragraph of text. |
-| [ParagraphCollection](./paragraphcollection) | Provides typed access to a collection of [`Paragraph`](aspose.words/paragraph) nodes. |
+| [ParagraphCollection](./paragraphcollection) | Provides typed access to a collection of [`Paragraph`](../aspose.words/paragraph) nodes. |
 | [ParagraphFormat](./paragraphformat) | Represents all the formatting for a paragraph. |
 | [PlainTextDocument](./plaintextdocument) | Allows to extract plain-text representation of the document's content. |
 | [Range](./range) | Represents a contiguous area in a document. |
-| [Revision](./revision) | Represents a revision (tracked change) in a document node or style. Use [`RevisionType`](aspose.words/revision/revisiontype) to check the type of this revision. |
-| [RevisionCollection](./revisioncollection) | A collection of [`Revision`](aspose.words/revision) objects that represent revisions in the document. |
-| [RevisionGroup](./revisiongroup) | Represents a group of sequential [`Revision`](aspose.words/revision) objects. |
-| [RevisionGroupCollection](./revisiongroupcollection) | A collection of [`RevisionGroup`](aspose.words/revisiongroup) objects that represent revision groups in the document. |
+| [Revision](./revision) | Represents a revision (../tracked change) in a document node or style. Use [`RevisionType`](../aspose.words/revision/revisiontype) to check the type of this revision. |
+| [RevisionCollection](./revisioncollection) | A collection of [`Revision`](../aspose.words/revision) objects that represent revisions in the document. |
+| [RevisionGroup](./revisiongroup) | Represents a group of sequential [`Revision`](../aspose.words/revision) objects. |
+| [RevisionGroupCollection](./revisiongroupcollection) | A collection of [`RevisionGroup`](../aspose.words/revisiongroup) objects that represent revision groups in the document. |
 | [Run](./run) | Represents a run of characters with the same font formatting. |
-| [RunCollection](./runcollection) | Provides typed access to a collection of [`Run`](aspose.words/run) nodes. |
+| [RunCollection](./runcollection) | Provides typed access to a collection of [`Run`](../aspose.words/run) nodes. |
 | [Section](./section) | Represents a single section in a document. |
 | [SectionCollection](./sectioncollection) | A collection of **Section** objects in the document. |
 | [Shading](./shading) | Contains shading attributes for an object. |
-| [SignatureLineOptions](./signaturelineoptions) | Allows to specify options for signature line being inserted. Used in [`DocumentBuilder`](aspose.words/documentbuilder). |
+| [SignatureLineOptions](./signaturelineoptions) | Allows to specify options for signature line being inserted. Used in [`DocumentBuilder`](../aspose.words/documentbuilder). |
 | [SpecialChar](./specialchar) | Base class for special characters in the document. |
-| [Story](./story) | Base class for elements that contain block-level nodes [`Paragraph`](aspose.words/paragraph) and [`Table`](aspose.words.tables/table). |
+| [Story](./story) | Base class for elements that contain block-level nodes [`Paragraph`](../aspose.words/paragraph) and [`Table`](../aspose.words.tables/table). |
 | [Style](./style) | Represents a single built-in or user-defined style. |
 | [StyleCollection](./stylecollection) | A collection of Style objects that represent both the built-in and user-defined styles in a document. |
 | [SubDocument](./subdocument) | Represents a **SubDocument** - which is a reference to an externally stored document. |
 | [TableStyle](./tablestyle) | Represents a table style. |
-| [TabStop](./tabstop) | Represents a single custom tab stop. The **TabStop** object is a member of the [`TabStopCollection`](aspose.words/tabstopcollection) collection. |
-| [TabStopCollection](./tabstopcollection) | A collection of [`TabStop`](aspose.words/tabstop) objects that represent custom tabs for a paragraph or a style. |
-| [TextColumn](./textcolumn) | Represents a single text column. **TextColumn** is a member of the [`TextColumnCollection`](aspose.words/textcolumncollection) collection. The **TextColumns** collection includes all the columns in a section of a document. |
-| [TextColumnCollection](./textcolumncollection) | A collection of [`TextColumn`](aspose.words/textcolumn) objects that represent all the columns of text in a section of a document. |
+| [TabStop](./tabstop) | Represents a single custom tab stop. The **TabStop** object is a member of the [`TabStopCollection`](../aspose.words/tabstopcollection) collection. |
+| [TabStopCollection](./tabstopcollection) | A collection of [`TabStop`](../aspose.words/tabstop) objects that represent custom tabs for a paragraph or a style. |
+| [TextColumn](./textcolumn) | Represents a single text column. **TextColumn** is a member of the [`TextColumnCollection`](../aspose.words/textcolumncollection) collection. The **TextColumns** collection includes all the columns in a section of a document. |
+| [TextColumnCollection](./textcolumncollection) | A collection of [`TextColumn`](../aspose.words/textcolumn) objects that represent all the columns of text in a section of a document. |
 | [TextWatermarkOptions](./textwatermarkoptions) | Contains options that can be specified when adding a watermark with text. |
 | [UnsupportedFileFormatException](./unsupportedfileformatexception) | Thrown during document load, when the document format is not recognized or not supported by Aspose.Words. |
 | [VariableCollection](./variablecollection) | A collection of document variables. |
 | [WarningInfo](./warninginfo) | Contains information about a warning that Aspose.Words issued during document loading or saving. |
-| [WarningInfoCollection](./warninginfocollection) | Represents a typed collection of [`WarningInfo`](aspose.words/warninginfo) objects. |
+| [WarningInfoCollection](./warninginfocollection) | Represents a typed collection of [`WarningInfo`](../aspose.words/warninginfo) objects. |
 | [Watermark](./watermark) | Represents class to work with document watermark. |
 ## Interfaces
 
@@ -112,15 +112,15 @@ The **Aspose.Words** namespace provides classes for generating, converting, modi
 | [ConditionalStyleType](./conditionalstyletype) | Represents possible table areas to which conditional formatting may be defined in a table style. |
 | [ContentDisposition](./contentdisposition) | Enumerates different ways of presenting the document at the client browser. |
 | [DropCapPosition](./dropcapposition) | Specifies the position for a drop cap text. |
-| [EditorType](./editortype) | Specifies the set of possible aliases (or editing groups) which can be used as aliases to determine if the current user shall be allowed to edit a single range defined by an editable range within a document. |
+| [EditorType](./editortype) | Specifies the set of possible aliases (../or editing groups) which can be used as aliases to determine if the current user shall be allowed to edit a single range defined by an editable range within a document. |
 | [EmphasisMark](./emphasismark) | Specifies possible types of emphasis mark. |
 | [HeaderFooterType](./headerfootertype) | Identifies the type of header or footer found in a Word file. |
 | [HeightRule](./heightrule) | Specifies the rule for determining the height of an object. |
-| [HtmlInsertOptions](./htmlinsertoptions) | Specifies options for the [`InsertHtml`](aspose.words/documentbuilder/inserthtml) method. |
+| [HtmlInsertOptions](./htmlinsertoptions) | Specifies options for the [`InsertHtml`](../aspose.words/documentbuilder/inserthtml) method. |
 | [ImportFormatMode](./importformatmode) | Specifies how formatting is merged when importing content from another document. |
 | [LineNumberRestartMode](./linenumberrestartmode) | Determines when automatic line numbering restarts. |
 | [LineSpacingRule](./linespacingrule) | Specifies line spacing values for a paragraph. |
-| [LineStyle](./linestyle) | Specifies line style of a [`Border`](aspose.words/border). |
+| [LineStyle](./linestyle) | Specifies line style of a [`Border`](../aspose.words/border). |
 | [LoadFormat](./loadformat) | Indicates the format of the document that is to be loaded. |
 | [MeasurementUnits](./measurementunits) | Specifies the unit of measurement. |
 | [NodeChangingAction](./nodechangingaction) | Specifies the type of node change. |
@@ -135,7 +135,7 @@ The **Aspose.Words** namespace provides classes for generating, converting, modi
 | [ParagraphAlignment](./paragraphalignment) | Specifies text alignment in a paragraph. |
 | [ProtectionType](./protectiontype) | Protection type for a document. |
 | [RevisionsView](./revisionsview) | Allows to specify whether to work with the original or revised version of a document. |
-| [RevisionType](./revisiontype) | Specifies the type of change being tracked in [`Revision`](aspose.words/revision). |
+| [RevisionType](./revisiontype) | Specifies the type of change being tracked in [`Revision`](../aspose.words/revision). |
 | [SaveFormat](./saveformat) | Indicates the format in which the document is saved. |
 | [SectionLayoutMode](./sectionlayoutmode) | Specifies the layout mode for a section allowing to define the document grid behavior. |
 | [SectionStart](./sectionstart) | The type of break at the beginning of the section. |

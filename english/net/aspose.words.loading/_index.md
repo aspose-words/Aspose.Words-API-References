@@ -12,21 +12,21 @@ The **Aspose.Words.Loading** namespace provides classes and enumerations that al
 
 | Class | Description |
 | --- | --- |
-| [ChmLoadOptions](./chmloadoptions) | Allows to specify additional options when loading CHM document into a [`Document`](aspose.words/document) object. |
-| [DocumentLoadingArgs](./documentloadingargs) | An argument passed into [`Notify`](aspose.words.loading/idocumentloadingcallback/notify). |
-| [HtmlLoadOptions](./htmlloadoptions) | Allows to specify additional options when loading HTML document into a [`Document`](aspose.words/document) object. |
+| [ChmLoadOptions](./chmloadoptions) | Allows to specify additional options when loading CHM document into a [`Document`](../aspose.words/document) object. |
+| [DocumentLoadingArgs](./documentloadingargs) | An argument passed into [`Notify`](../aspose.words.loading/idocumentloadingcallback/notify). |
+| [HtmlLoadOptions](./htmlloadoptions) | Allows to specify additional options when loading HTML document into a [`Document`](../aspose.words/document) object. |
 | [LanguagePreferences](./languagepreferences) | Allows to set up language preferences. |
-| [LoadOptions](./loadoptions) | Allows to specify additional options (such as password or base URI) when loading a document into a [`Document`](aspose.words/document) object. |
-| [PdfLoadOptions](./pdfloadoptions) | Allows to specify additional options when loading Pdf document into a [`Document`](aspose.words/document) object. |
-| [ResourceLoadingArgs](./resourceloadingargs) | Provides data for the [`ResourceLoading`](aspose.words.loading/iresourceloadingcallback/resourceloading) method. |
-| [RtfLoadOptions](./rtfloadoptions) | Allows to specify additional options when loading Rtf document into a [`Document`](aspose.words/document) object. |
-| [TxtLoadOptions](./txtloadoptions) | Allows to specify additional options when loading Text document into a [`Document`](aspose.words/document) object. |
+| [LoadOptions](./loadoptions) | Allows to specify additional options (../such as password or base URI) when loading a document into a [`Document`](../aspose.words/document) object. |
+| [PdfLoadOptions](./pdfloadoptions) | Allows to specify additional options when loading Pdf document into a [`Document`](../aspose.words/document) object. |
+| [ResourceLoadingArgs](./resourceloadingargs) | Provides data for the [`ResourceLoading`](../aspose.words.loading/iresourceloadingcallback/resourceloading) method. |
+| [RtfLoadOptions](./rtfloadoptions) | Allows to specify additional options when loading Rtf document into a [`Document`](../aspose.words/document) object. |
+| [TxtLoadOptions](./txtloadoptions) | Allows to specify additional options when loading Text document into a [`Document`](../aspose.words/document) object. |
 ## Interfaces
 
 | Interface | Description |
 | --- | --- |
 | [IDocumentLoadingCallback](./idocumentloadingcallback) | Implement this interface if you want to have your own custom method called during loading a document. |
-| [IResourceLoadingCallback](./iresourceloadingcallback) | Implement this interface if you want to control how Aspose.Words loads external resource when importing a document and inserting images using [`DocumentBuilder`](aspose.words/documentbuilder). |
+| [IResourceLoadingCallback](./iresourceloadingcallback) | Implement this interface if you want to control how Aspose.Words loads external resource when importing a document and inserting images using [`DocumentBuilder`](../aspose.words/documentbuilder). |
 ## Enumeration
 
 | Enumeration | Description |

@@ -31,10 +31,10 @@ The **Aspose.Words.Fields** namespace contains classes that represent Microsoft 
 | [FieldBarcode](./fieldbarcode) | Implements the BARCODE field. |
 | [FieldBibliography](./fieldbibliography) | Implements the BIBLIOGRAPHY field. |
 | [FieldBidiOutline](./fieldbidioutline) | Implements the BIDIOUTLINE field. |
-| [FieldBuilder](./fieldbuilder) | Builds a field from field code tokens (arguments and switches). |
+| [FieldBuilder](./fieldbuilder) | Builds a field from field code tokens (../arguments and switches). |
 | [FieldChar](./fieldchar) | Base class for nodes that represent field characters in a document. |
 | [FieldCitation](./fieldcitation) | Implements the CITATION field. |
-| [FieldCollection](./fieldcollection) | A collection of [`Field`](aspose.words.fields/field) objects that represents the fields in the specified range. |
+| [FieldCollection](./fieldcollection) | A collection of [`Field`](../aspose.words.fields/field) objects that represents the fields in the specified range. |
 | [FieldComments](./fieldcomments) | Implements the COMMENTS field. |
 | [FieldCompare](./fieldcompare) | Implements the COMPARE field. |
 | [FieldCreateDate](./fieldcreatedate) | Implements the CREATEDATE field. |
@@ -58,7 +58,7 @@ The **Aspose.Words.Fields** namespace contains classes that represent Microsoft 
 | [FieldFormCheckBox](./fieldformcheckbox) | Implements the FORMCHECKBOX field. |
 | [FieldFormDropDown](./fieldformdropdown) | Implements the FORMDROPDOWN field. |
 | [FieldFormText](./fieldformtext) | Implements the FORMTEXT field. |
-| [FieldFormula](./fieldformula) | Implements the = (formula) field. |
+| [FieldFormula](./fieldformula) | Implements the = (../formula) field. |
 | [FieldGlossary](./fieldglossary) | Implements the GLOSSARY field. |
 | [FieldGoToButton](./fieldgotobutton) | Implements the GOTOBUTTON field. |
 | [FieldGreetingLine](./fieldgreetingline) | Implements the GREETINGLINE field. |
@@ -123,7 +123,7 @@ The **Aspose.Words.Fields** namespace contains classes that represent Microsoft 
 | [FormField](./formfield) | Represents a single form field. |
 | [FormFieldCollection](./formfieldcollection) | A collection of **FormField** objects that represent all the form fields in a range. |
 | [GeneralFormatCollection](./generalformatcollection) | Represents a typed collection of general formats. |
-| [MergeFieldImageDimension](./mergefieldimagedimension) | Represents an image dimension (i.e. the width or the height) used across a mail merge process. |
+| [MergeFieldImageDimension](./mergefieldimagedimension) | Represents an image dimension (../i.e. the width or the height) used across a mail merge process. |
 | [ToaCategories](./toacategories) | Represents a table of authorities categories. |
 | [UserInformation](./userinformation) | Specifies information about the user. |
 ## Interfaces
@@ -131,7 +131,7 @@ The **Aspose.Words.Fields** namespace contains classes that represent Microsoft 
 | Interface | Description |
 | --- | --- |
 | [IBarcodeGenerator](./ibarcodegenerator) | Public interface for barcode custom generator. Implementation should be provided by user. |
-| [IComparisonExpressionEvaluator](./icomparisonexpressionevaluator) | When implemented, allows to override default comparison expressions evaluation for the [`FieldIf`](aspose.words.fields/fieldif) and [`FieldCompare`](aspose.words.fields/fieldcompare) fields. |
+| [IComparisonExpressionEvaluator](./icomparisonexpressionevaluator) | When implemented, allows to override default comparison expressions evaluation for the [`FieldIf`](../aspose.words.fields/fieldif) and [`FieldCompare`](../aspose.words.fields/fieldcompare) fields. |
 | [IFieldResultFormatter](./ifieldresultformatter) | Implement this interface if you want to control how the field result is formatted. |
 | [IFieldUpdateCultureProvider](./ifieldupdatecultureprovider) | When implemented, provides a CultureInfo object that should be used during the update of a particular field. |
 | [IFieldUpdatingCallback](./ifieldupdatingcallback) | Implement this interface if you want to have your own custom methods called during a field update. |
@@ -141,11 +141,11 @@ The **Aspose.Words.Fields** namespace contains classes that represent Microsoft 
 | Enumeration | Description |
 | --- | --- |
 | [FieldIfComparisonResult](./fieldifcomparisonresult) | Specifies the result of the IF field condition evaluation. |
-| [FieldIndexFormat](./fieldindexformat) | Specifies the formatting for the [`FieldIndex`](aspose.words.fields/fieldindex) fields in a document. |
+| [FieldIndexFormat](./fieldindexformat) | Specifies the formatting for the [`FieldIndex`](../aspose.words.fields/fieldindex) fields in a document. |
 | [FieldType](./fieldtype) | Specifies Microsoft Word field types. |
 | [FieldUpdateCultureSource](./fieldupdateculturesource) | Indicates what culture to use during field update. |
 | [GeneralFormat](./generalformat) | Specifies a general format that is applied to a numeric, text, or any field result. A field may have a combination of general formats. |
-| [MergeFieldImageDimensionUnit](./mergefieldimagedimensionunit) | Specifies an unit of an image dimension (i.e. the width or the height) used across a mail merge process. |
+| [MergeFieldImageDimensionUnit](./mergefieldimagedimensionunit) | Specifies an unit of an image dimension (../i.e. the width or the height) used across a mail merge process. |
 | [TextFormFieldType](./textformfieldtype) | Specifies the type of a text form field. |
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

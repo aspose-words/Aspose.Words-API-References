@@ -13,25 +13,25 @@ The **Aspose.Words.Saving** namespace provides classes and enumerations that all
 | Class | Description |
 | --- | --- |
 | [BookmarksOutlineLevelCollection](./bookmarksoutlinelevelcollection) | A collection of individual bookmarks outline level. |
-| [CssSavingArgs](./csssavingargs) | Provides data for the [`CssSaving`](aspose.words.saving/icsssavingcallback/csssaving) event. |
+| [CssSavingArgs](./csssavingargs) | Provides data for the [`CssSaving`](../aspose.words.saving/icsssavingcallback/csssaving) event. |
 | [DocSaveOptions](./docsaveoptions) | Can be used to specify additional options when saving a document into the Doc or Dot format. |
-| [DocumentPartSavingArgs](./documentpartsavingargs) | Provides data for the [`DocumentPartSaving`](aspose.words.saving/idocumentpartsavingcallback/documentpartsaving) callback. |
-| [DocumentSavingArgs](./documentsavingargs) | An argument passed into [`Notify`](aspose.words.saving/idocumentsavingcallback/notify). |
+| [DocumentPartSavingArgs](./documentpartsavingargs) | Provides data for the [`DocumentPartSaving`](../aspose.words.saving/idocumentpartsavingcallback/documentpartsaving) callback. |
+| [DocumentSavingArgs](./documentsavingargs) | An argument passed into [`Notify`](../aspose.words.saving/idocumentsavingcallback/notify). |
 | [DownsampleOptions](./downsampleoptions) | Allows to specify downsample options. |
-| [FixedPageSaveOptions](./fixedpagesaveoptions) | Contains common options that can be specified when saving a document into fixed page formats (PDF, XPS, images etc). |
-| [FontSavingArgs](./fontsavingargs) | Provides data for the [`FontSaving`](aspose.words.saving/ifontsavingcallback/fontsaving) event. |
+| [FixedPageSaveOptions](./fixedpagesaveoptions) | Contains common options that can be specified when saving a document into fixed page formats (../PDF, XPS, images etc). |
+| [FontSavingArgs](./fontsavingargs) | Provides data for the [`FontSaving`](../aspose.words.saving/ifontsavingcallback/fontsaving) event. |
 | [GraphicsQualityOptions](./graphicsqualityoptions) | Allows to specify additional Graphics quality options. |
 | [HtmlFixedSaveOptions](./htmlfixedsaveoptions) | Can be used to specify additional options when saving a document into the HtmlFixed format. |
 | [HtmlSaveOptions](./htmlsaveoptions) | Can be used to specify additional options when saving a document into the Html, Mhtml or Epub format. |
 | [ImageSaveOptions](./imagesaveoptions) | Allows to specify additional options when rendering document pages or shapes to images. |
-| [ImageSavingArgs](./imagesavingargs) | Provides data for the [`ImageSaving`](aspose.words.saving/iimagesavingcallback/imagesaving) event. |
+| [ImageSavingArgs](./imagesavingargs) | Provides data for the [`ImageSaving`](../aspose.words.saving/iimagesavingcallback/imagesaving) event. |
 | [MarkdownSaveOptions](./markdownsaveoptions) | Class to specify additional options when saving a document into the Markdown format. |
 | [MetafileRenderingOptions](./metafilerenderingoptions) | Allows to specify additional metafile rendering options. |
 | [OdtSaveOptions](./odtsaveoptions) | Can be used to specify additional options when saving a document into the Odt or Ott format. |
 | [OoxmlSaveOptions](./ooxmlsaveoptions) | Can be used to specify additional options when saving a document into the Docx, Docm, Dotx, Dotm or FlatOpc format. |
 | [OutlineOptions](./outlineoptions) | Allows to specify outline options. |
 | [PageRange](./pagerange) | Represents a continuous range of pages. |
-| [PageSavingArgs](./pagesavingargs) | Provides data for the [`PageSaving`](aspose.words.saving/ipagesavingcallback/pagesaving) event. |
+| [PageSavingArgs](./pagesavingargs) | Provides data for the [`PageSaving`](../aspose.words.saving/ipagesavingcallback/pagesaving) event. |
 | [PageSet](./pageset) | Describes a random set of pages. |
 | [PclSaveOptions](./pclsaveoptions) | Can be used to specify additional options when saving a document into the Pcl format. |
 | [PdfDigitalSignatureDetails](./pdfdigitalsignaturedetails) | Contains details for signing a PDF document with a digital signature. |
@@ -39,7 +39,7 @@ The **Aspose.Words.Saving** namespace provides classes and enumerations that all
 | [PdfEncryptionDetails](./pdfencryptiondetails) | Contains details for encrypting and access permissions for a PDF document. |
 | [PdfSaveOptions](./pdfsaveoptions) | Can be used to specify additional options when saving a document into the Pdf format. |
 | [PsSaveOptions](./pssaveoptions) | Can be used to specify additional options when saving a document into the Ps format. |
-| [ResourceSavingArgs](./resourcesavingargs) | Provides data for the [`ResourceSaving`](aspose.words.saving/iresourcesavingcallback/resourcesaving) event. |
+| [ResourceSavingArgs](./resourcesavingargs) | Provides data for the [`ResourceSaving`](../aspose.words.saving/iresourcesavingcallback/resourcesaving) event. |
 | [RtfSaveOptions](./rtfsaveoptions) | Can be used to specify additional options when saving a document into the Rtf format. |
 | [SaveOptions](./saveoptions) | This is an abstract base class for classes that allow the user to specify additional options when saving a document into a particular format. |
 | [SaveOutputParameters](./saveoutputparameters) | This object is returned to the caller after a document is saved and contains additional information that has been generated or calculated during the save operation. The caller can use or ignore this object. |
@@ -55,20 +55,20 @@ The **Aspose.Words.Saving** namespace provides classes and enumerations that all
 
 | Interface | Description |
 | --- | --- |
-| [ICssSavingCallback](./icsssavingcallback) | Implement this interface if you want to control how Aspose.Words saves CSS (Cascading Style Sheet) when saving a document to HTML. |
+| [ICssSavingCallback](./icsssavingcallback) | Implement this interface if you want to control how Aspose.Words saves CSS (../Cascading Style Sheet) when saving a document to HTML. |
 | [IDocumentPartSavingCallback](./idocumentpartsavingcallback) | Implement this interface if you want to receive notifications and control how Aspose.Words saves document parts when exporting a document to Html or Epub format. |
 | [IDocumentSavingCallback](./idocumentsavingcallback) | Implement this interface if you want to have your own custom method called during saving a document. |
 | [IFontSavingCallback](./ifontsavingcallback) | Implement this interface if you want to receive notifications and control how Aspose.Words saves fonts when exporting a document to HTML format. |
 | [IImageSavingCallback](./iimagesavingcallback) | Implement this interface if you want to control how Aspose.Words saves images when saving a document to HTML. May be used by other formats. |
 | [IPageSavingCallback](./ipagesavingcallback) | Implement this interface if you want to control how Aspose.Words saves separate pages when saving a document to fixed page formats. |
-| [IResourceSavingCallback](./iresourcesavingcallback) | Implement this interface if you want to control how Aspose.Words saves external resources (images, fonts and css) when saving a document to fixed page HTML or SVG. |
+| [IResourceSavingCallback](./iresourcesavingcallback) | Implement this interface if you want to control how Aspose.Words saves external resources (../images, fonts and css) when saving a document to fixed page HTML or SVG. |
 ## Enumeration
 
 | Enumeration | Description |
 | --- | --- |
 | [ColorMode](./colormode) | Specifies how colors are rendered. |
 | [CompressionLevel](./compressionlevel) | Compression level for OOXML files. |
-| [CssStyleSheetType](./cssstylesheettype) | Specifies how CSS (Cascading Style Sheet) styles are exported to HTML. |
+| [CssStyleSheetType](./cssstylesheettype) | Specifies how CSS (../Cascading Style Sheet) styles are exported to HTML. |
 | [Dml3DEffectsRenderingMode](./dml3deffectsrenderingmode) | Specifies how 3D shape effects are rendered. |
 | [DmlEffectsRenderingMode](./dmleffectsrenderingmode) | Specifies how DrawingML effects are rendered to fixed page formats. |
 | [DmlRenderingMode](./dmlrenderingmode) | Specifies how DrawingML shapes are rendered to fixed page formats. |
@@ -86,13 +86,13 @@ The **Aspose.Words.Saving** namespace provides classes and enumerations that all
 | [ImageBinarizationMethod](./imagebinarizationmethod) | Specifies the method used to binarize image. |
 | [ImageColorMode](./imagecolormode) | Specifies the color mode for the generated images of document pages. |
 | [ImagePixelFormat](./imagepixelformat) | Specifies the pixel format for the generated images of document pages. |
-| [ImlRenderingMode](./imlrenderingmode) | Specifies how ink (InkML) objects are rendered to fixed page formats. |
+| [ImlRenderingMode](./imlrenderingmode) | Specifies how ink (../InkML) objects are rendered to fixed page formats. |
 | [MetafileRenderingMode](./metafilerenderingmode) | Specifies how Aspose.Words should render WMF and EMF metafiles. |
 | [NumeralFormat](./numeralformat) | Indicates the symbol set that is used to represent numbers while rendering to fixed page formats. |
 | [OdtSaveMeasureUnit](./odtsavemeasureunit) | Specified units of measure to apply to measurable document content such as shape, widths and other during saving. |
 | [OoxmlCompliance](./ooxmlcompliance) | Allows to specify which OOXML specification will be used when saving in the DOCX format. |
 | [PdfCompliance](./pdfcompliance) | Specifies the PDF standards compliance level. |
-| [PdfCustomPropertiesExport](./pdfcustompropertiesexport) | Specifies the way [`CustomDocumentProperties`](aspose.words/document/customdocumentproperties) are exported to PDF file. |
+| [PdfCustomPropertiesExport](./pdfcustompropertiesexport) | Specifies the way [`CustomDocumentProperties`](../aspose.words/document/customdocumentproperties) are exported to PDF file. |
 | [PdfDigitalSignatureHashAlgorithm](./pdfdigitalsignaturehashalgorithm) | Specifies a digital hash algorithm used by a digital signature. |
 | [PdfFontEmbeddingMode](./pdffontembeddingmode) | Specifies how Aspose.Words should embed fonts. |
 | [PdfImageColorSpaceExportMode](./pdfimagecolorspaceexportmode) | Specifies how the color space will be selected for the images in PDF document. |
