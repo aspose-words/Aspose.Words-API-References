@@ -54,6 +54,28 @@ public class FieldInclude : Field
 
 Inserts all or part of the text and graphics contained in another document.
 
+### Examples
+
+Shows how to create an INCLUDE field, and set its properties.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+// We can use an INCLUDE field to import a portion of another document in the local file system.
+// The bookmark from the other document that we reference with this field contains this imported portion.
+FieldInclude field = (FieldInclude)builder.InsertField(FieldType.FieldInclude, true);
+field.SourceFullName = MyDir + "Bookmarks.docx";
+field.BookmarkName = "MyBookmark1";
+field.LockFields = false;
+field.TextConverter = "Microsoft Word";
+
+Assert.True(Regex.Match(field.GetFieldCode(), " INCLUDE .* MyBookmark1 \\\\c \"Microsoft Word\"").Success);
+
+doc.UpdateFields();
+doc.Save(ArtifactsDir + "Field.INCLUDE.docx");
+```
+
 ### See Also
 
 * class [Field](../field)

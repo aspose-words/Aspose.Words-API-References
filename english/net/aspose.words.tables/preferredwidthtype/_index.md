@@ -22,6 +22,20 @@ public enum PreferredWidthType
 | Percent | `2` | Measure the current item width using a specified percentage. |
 | Points | `3` | Measure the current item width using a specified number of points (1/72 inch). |
 
+### Examples
+
+Shows how to verify the preferred width type and value of a table cell.
+
+```csharp
+Document doc = new Document(MyDir + "Tables.docx");
+
+Table table = doc.FirstSection.Body.Tables[0];
+Cell firstCell = table.FirstRow.FirstCell;
+
+Assert.AreEqual(PreferredWidthType.Percent, firstCell.CellFormat.PreferredWidth.Type);
+Assert.AreEqual(11.16d, firstCell.CellFormat.PreferredWidth.Value);
+```
+
 ### See Also
 
 * class [PreferredWidth](../preferredwidth)

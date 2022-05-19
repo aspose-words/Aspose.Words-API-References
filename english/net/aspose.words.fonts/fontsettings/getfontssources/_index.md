@@ -22,6 +22,52 @@ A copy of the current font sources.
 
 The returned value is a copy of the data that Aspose.Words uses. If you change the entries in the returned array, it will have no effect on document rendering. To specify new font sources use the [`SetFontsSources`](../setfontssources) method.
 
+### Examples
+
+Shows how to add a font source to our existing font sources.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+builder.Font.Name = "Arial";
+builder.Writeln("Hello world!");
+builder.Font.Name = "Amethysta";
+builder.Writeln("The quick brown fox jumps over the lazy dog.");
+builder.Font.Name = "Junction Light";
+builder.Writeln("The quick brown fox jumps over the lazy dog.");
+
+FontSourceBase[] originalFontSources = FontSettings.DefaultInstance.GetFontsSources();
+
+Assert.AreEqual(1, originalFontSources.Length);
+
+Assert.True(originalFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Arial"));
+
+// The default font source is missing two of the fonts that we are using in our document.
+// When we save this document, Aspose.Words will apply fallback fonts to all text formatted with inaccessible fonts.
+Assert.False(originalFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Amethysta"));
+Assert.False(originalFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Junction Light"));
+
+// Create a font source from a folder that contains fonts.
+FolderFontSource folderFontSource = new FolderFontSource(FontsDir, true);
+
+// Apply a new array of font sources that contains the original font sources, as well as our custom fonts.
+FontSourceBase[] updatedFontSources = { originalFontSources[0], folderFontSource };
+FontSettings.DefaultInstance.SetFontsSources(updatedFontSources);
+
+// Verify that Aspose.Words has access to all required fonts before we render the document to PDF.
+updatedFontSources = FontSettings.DefaultInstance.GetFontsSources();
+
+Assert.True(updatedFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Arial"));
+Assert.True(updatedFontSources[1].GetAvailableFonts().Any(f => f.FullFontName == "Amethysta"));
+Assert.True(updatedFontSources[1].GetAvailableFonts().Any(f => f.FullFontName == "Junction Light"));
+
+doc.Save(ArtifactsDir + "FontSettings.AddFontSource.pdf");
+
+// Restore the original font sources.
+FontSettings.DefaultInstance.SetFontsSources(originalFontSources);
+```
+
 ### See Also
 
 * class [FontSourceBase](../../fontsourcebase)

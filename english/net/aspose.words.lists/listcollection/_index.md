@@ -52,6 +52,129 @@ To simplify programming model, Aspose.Words hides the distinction between list a
 
 It is not possible to delete lists once they are created in the current version of Aspose.Words. This is similar to Microsoft Word where user does not have explicit control over list definitions.
 
+### Examples
+
+Shows how to create a document with a sample of all the lists from another document.
+
+```csharp
+public void PrintOutAllLists()
+{
+    Document srcDoc = new Document(MyDir + "Rendering.docx");
+
+    Document dstDoc = new Document();
+    DocumentBuilder builder = new DocumentBuilder(dstDoc);
+
+    foreach (List srcList in srcDoc.Lists)
+    {
+        List dstList = dstDoc.Lists.AddCopy(srcList);
+        AddListSample(builder, dstList);
+    }
+
+    dstDoc.Save(ArtifactsDir + "Lists.PrintOutAllLists.docx");
+}
+
+private static void AddListSample(DocumentBuilder builder, List list)
+{
+    builder.Writeln("Sample formatting of list with ListId:" + list.ListId);
+    builder.ListFormat.List = list;
+    for (int i = 0; i < list.ListLevels.Count; i++)
+    {
+        builder.ListFormat.ListLevelNumber = i;
+        builder.Writeln("Level " + i);
+    }
+
+    builder.ListFormat.RemoveNumbers();
+    builder.Writeln();
+}
+```
+
+Shows how to restart numbering in a list by copying a list.
+
+```csharp
+Document doc = new Document();
+
+// A list allows us to organize and decorate sets of paragraphs with prefix symbols and indents.
+// We can create nested lists by increasing the indent level. 
+// We can begin and end a list by using a document builder's "ListFormat" property. 
+// Each paragraph that we add between a list's start and the end will become an item in the list.
+// Create a list from a Microsoft Word template, and customize its first list level.
+List list1 = doc.Lists.Add(ListTemplate.NumberArabicParenthesis);
+list1.ListLevels[0].Font.Color = Color.Red;
+list1.ListLevels[0].Alignment = ListLevelAlignment.Right;
+
+// Apply our list to some paragraphs.
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+builder.Writeln("List 1 starts below:");
+builder.ListFormat.List = list1;
+builder.Writeln("Item 1");
+builder.Writeln("Item 2");
+builder.ListFormat.RemoveNumbers();
+
+// We can add a copy of an existing list to the document's list collection
+// to create a similar list without making changes to the original.
+List list2 = doc.Lists.AddCopy(list1);
+list2.ListLevels[0].Font.Color = Color.Blue;
+list2.ListLevels[0].StartAt = 10;
+
+// Apply the second list to new paragraphs.
+builder.Writeln("List 2 starts below:");
+builder.ListFormat.List = list2;
+builder.Writeln("Item 1");
+builder.Writeln("Item 2");
+builder.ListFormat.RemoveNumbers();
+
+doc.Save(ArtifactsDir + "Lists.RestartNumberingUsingListCopy.docx");
+```
+
+Shows how to work with list levels.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+Assert.False(builder.ListFormat.IsListItem);
+
+// A list allows us to organize and decorate sets of paragraphs with prefix symbols and indents.
+// We can create nested lists by increasing the indent level. 
+// We can begin and end a list by using a document builder's "ListFormat" property. 
+// Each paragraph that we add between a list's start and the end will become an item in the list.
+// Below are two types of lists that we can create using a document builder.
+// 1 -  A numbered list:
+// Numbered lists create a logical order for their paragraphs by numbering each item.
+builder.ListFormat.List = doc.Lists.Add(ListTemplate.NumberDefault);
+
+Assert.True(builder.ListFormat.IsListItem);
+
+// By setting the "ListLevelNumber" property, we can increase the list level
+// to begin a self-contained sub-list at the current list item.
+// The Microsoft Word list template called "NumberDefault" uses numbers to create list levels for the first list level.
+// Deeper list levels use letters and lowercase Roman numerals. 
+for (int i = 0; i < 9; i++)
+{
+    builder.ListFormat.ListLevelNumber = i;
+    builder.Writeln("Level " + i);
+}
+
+// 2 -  A bulleted list:
+// This list will apply an indent and a bullet symbol ("•") before each paragraph.
+// Deeper levels of this list will use different symbols, such as "■" and "○".
+builder.ListFormat.List = doc.Lists.Add(ListTemplate.BulletDefault);
+
+for (int i = 0; i < 9; i++)
+{
+    builder.ListFormat.ListLevelNumber = i;
+    builder.Writeln("Level " + i);
+}
+
+// We can disable list formatting to not format any subsequent paragraphs as lists by un-setting the "List" flag.
+builder.ListFormat.List = null;
+
+Assert.False(builder.ListFormat.IsListItem);
+
+doc.Save(ArtifactsDir + "Lists.SpecifyListLevel.docx");
+```
+
 ### See Also
 
 * class [List](../list)

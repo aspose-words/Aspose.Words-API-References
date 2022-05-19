@@ -43,7 +43,7 @@ The **Aspose.Words** namespace provides classes for generating, converting, modi
 | [FileCorruptedException](./filecorruptedexception) | Thrown during document load, when the document appears to be corrupted and impossible to load. |
 | [FileFormatInfo](./fileformatinfo) | Contains data returned by [`FileFormatUtil`](../aspose.words/fileformatutil) document format detection methods. |
 | [FileFormatUtil](./fileformatutil) | Provides utility methods for working with file formats, such as detecting file format or converting file extensions to/from file format enums. |
-| [Font](./font) | Contains font attributes (../font name, font size, color, and so on) for an object. |
+| [Font](./font) | Contains font attributes (font name, font size, color, and so on) for an object. |
 | [FrameFormat](./frameformat) | Represents frame related formatting for a paragraph. |
 | [HeaderFooter](./headerfooter) | Represents a container for the header or footer text of a section. |
 | [HeaderFooterCollection](./headerfootercollection) | Provides typed access to [`HeaderFooter`](../aspose.words/headerfooter) nodes of a **Section**. |
@@ -67,7 +67,7 @@ The **Aspose.Words** namespace provides classes for generating, converting, modi
 | [ParagraphFormat](./paragraphformat) | Represents all the formatting for a paragraph. |
 | [PlainTextDocument](./plaintextdocument) | Allows to extract plain-text representation of the document's content. |
 | [Range](./range) | Represents a contiguous area in a document. |
-| [Revision](./revision) | Represents a revision (../tracked change) in a document node or style. Use [`RevisionType`](../aspose.words/revision/revisiontype) to check the type of this revision. |
+| [Revision](./revision) | Represents a revision (tracked change) in a document node or style. Use [`RevisionType`](../aspose.words/revision/revisiontype) to check the type of this revision. |
 | [RevisionCollection](./revisioncollection) | A collection of [`Revision`](../aspose.words/revision) objects that represent revisions in the document. |
 | [RevisionGroup](./revisiongroup) | Represents a group of sequential [`Revision`](../aspose.words/revision) objects. |
 | [RevisionGroupCollection](./revisiongroupcollection) | A collection of [`RevisionGroup`](../aspose.words/revisiongroup) objects that represent revision groups in the document. |
@@ -112,7 +112,7 @@ The **Aspose.Words** namespace provides classes for generating, converting, modi
 | [ConditionalStyleType](./conditionalstyletype) | Represents possible table areas to which conditional formatting may be defined in a table style. |
 | [ContentDisposition](./contentdisposition) | Enumerates different ways of presenting the document at the client browser. |
 | [DropCapPosition](./dropcapposition) | Specifies the position for a drop cap text. |
-| [EditorType](./editortype) | Specifies the set of possible aliases (../or editing groups) which can be used as aliases to determine if the current user shall be allowed to edit a single range defined by an editable range within a document. |
+| [EditorType](./editortype) | Specifies the set of possible aliases (or editing groups) which can be used as aliases to determine if the current user shall be allowed to edit a single range defined by an editable range within a document. |
 | [EmphasisMark](./emphasismark) | Specifies possible types of emphasis mark. |
 | [HeaderFooterType](./headerfootertype) | Identifies the type of header or footer found in a Word file. |
 | [HeightRule](./heightrule) | Specifies the rule for determining the height of an object. |

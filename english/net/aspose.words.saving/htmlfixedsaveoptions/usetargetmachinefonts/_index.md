@@ -14,6 +14,33 @@ Flag indicates whether fonts from target machine must be used to display the doc
 public bool UseTargetMachineFonts { get; set; }
 ```
 
+### Examples
+
+Shows how use fonts only from the target machine when saving a document to HTML.
+
+```csharp
+Document doc = new Document(MyDir + "Bullet points with alternative font.docx");
+
+HtmlFixedSaveOptions saveOptions = new HtmlFixedSaveOptions
+{
+    ExportEmbeddedCss = true,
+    UseTargetMachineFonts = useTargetMachineFonts,
+    FontFormat = ExportFontFormat.Ttf,
+    ExportEmbeddedFonts = false,
+};
+
+doc.Save(ArtifactsDir + "HtmlFixedSaveOptions.UsingMachineFonts.html", saveOptions);
+
+string outDocContents = File.ReadAllText(ArtifactsDir + "HtmlFixedSaveOptions.UsingMachineFonts.html");
+
+if (useTargetMachineFonts)
+    Assert.False(Regex.Match(outDocContents, "@font-face").Success);
+else
+    Assert.True(Regex.Match(outDocContents,
+        "@font-face { font-family:'Arial'; font-style:normal; font-weight:normal; src:local[(]'☺'[)], " +
+        "url[(]'HtmlFixedSaveOptions.UsingMachineFonts/font001.ttf'[)] format[(]'truetype'[)]; }").Success);
+```
+
 ### See Also
 
 * class [HtmlFixedSaveOptions](../../htmlfixedsaveoptions)

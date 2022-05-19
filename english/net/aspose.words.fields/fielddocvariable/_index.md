@@ -47,6 +47,42 @@ public class FieldDocVariable : Field
 | [Update](../../aspose.words.fields/field/update)() | Performs the field update. Throws if the field is being updated already. |
 | [Update](../../aspose.words.fields/field/update)(bool) | Performs a field update. Throws if the field is being updated already. |
 
+### Examples
+
+Shows how to use DOCPROPERTY fields to display document properties and variables.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+// Below are two ways of using DOCPROPERTY fields.
+// 1 -  Display a built-in property:
+// Set a custom value for the "Category" built-in property, then insert a DOCPROPERTY field that references it.
+doc.BuiltInDocumentProperties.Category = "My category";
+
+FieldDocProperty fieldDocProperty = (FieldDocProperty)builder.InsertField(" DOCPROPERTY Category ");
+fieldDocProperty.Update();
+
+Assert.AreEqual(" DOCPROPERTY Category ", fieldDocProperty.GetFieldCode());
+Assert.AreEqual("My category", fieldDocProperty.Result);
+
+builder.InsertParagraph();
+
+// 2 -  Display a custom document variable:
+// Define a custom variable, then reference that variable with a DOCPROPERTY field.
+Assert.That(doc.Variables, Is.Empty);
+doc.Variables.Add("My variable", "My variable's value");
+
+FieldDocVariable fieldDocVariable = (FieldDocVariable)builder.InsertField(FieldType.FieldDocVariable, true);
+fieldDocVariable.VariableName = "My Variable";
+fieldDocVariable.Update();
+
+Assert.AreEqual(" DOCVARIABLE  \"My Variable\"", fieldDocVariable.GetFieldCode());
+Assert.AreEqual("My variable's value", fieldDocVariable.Result);
+
+doc.Save(ArtifactsDir + "Field.DOCPROPERTY.DOCVARIABLE.docx");
+```
+
 ### See Also
 
 * class [Field](../field)

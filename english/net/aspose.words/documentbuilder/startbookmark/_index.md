@@ -28,6 +28,45 @@ Bookmarks in a document can overlap and span any range. To create a valid bookma
 
 Badly formed bookmarks or bookmarks with duplicate names will be ignored when the document is saved.
 
+### Examples
+
+Shows how create a bookmark.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+// A valid bookmark needs to have document body text enclosed by
+// BookmarkStart and BookmarkEnd nodes created with a matching bookmark name.
+builder.StartBookmark("MyBookmark");
+builder.Writeln("Hello world!");
+builder.EndBookmark("MyBookmark");
+
+Assert.AreEqual(1, doc.Range.Bookmarks.Count);
+Assert.AreEqual("MyBookmark", doc.Range.Bookmarks[0].Name);
+Assert.AreEqual("Hello world!", doc.Range.Bookmarks[0].Text.Trim());
+```
+
+Shows how to insert a hyperlink which references a local bookmark.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+builder.StartBookmark("Bookmark1");
+builder.Write("Bookmarked text. ");
+builder.EndBookmark("Bookmark1");
+builder.Writeln("Text outside of the bookmark.");
+
+// Insert a HYPERLINK field that links to the bookmark. We can pass field switches
+// to the "InsertHyperlink" method as part of the argument containing the referenced bookmark's name.
+builder.Font.Color = Color.Blue;
+builder.Font.Underline = Underline.Single;
+builder.InsertHyperlink("Link to Bookmark1", @"Bookmark1"" \o ""Hyperlink Tip", true);
+
+doc.Save(ArtifactsDir + "DocumentBuilder.InsertHyperlinkToLocalBookmark.docx");
+```
+
 ### See Also
 
 * class [BookmarkStart](../../bookmarkstart)

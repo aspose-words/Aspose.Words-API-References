@@ -18,6 +18,24 @@ public string ScreenTip { get; set; }
 
 The default value is an empty string.
 
+### Examples
+
+Shows how to insert a shape which contains an image, and is also a hyperlink.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+Shape shape = builder.InsertImage(ImageDir + "Logo.jpg");
+shape.HRef = "https://forum.aspose.com/";
+shape.Target = "New Window";
+shape.ScreenTip = "Aspose.Words Support Forums";
+
+// Ctrl + left-clicking the shape in Microsoft Word will open a new web browser window
+// and take us to the hyperlink in the "HRef" property.
+doc.Save(ArtifactsDir + "Image.InsertImageWithHyperlink.docx");
+```
+
 ### See Also
 
 * class [ShapeBase](../../shapebase)

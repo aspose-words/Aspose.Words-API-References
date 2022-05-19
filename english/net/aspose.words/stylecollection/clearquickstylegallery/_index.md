@@ -14,6 +14,19 @@ Removes all styles from the Quick Style Gallery panel.
 public void ClearQuickStyleGallery()
 ```
 
+### Examples
+
+Shows how to remove styles from Style Gallery panel.
+
+```csharp
+Document doc = new Document();
+
+// Note that remove styles work only with DOCX format for now.
+doc.Styles.ClearQuickStyleGallery();
+
+doc.Save(ArtifactsDir + "Styles.RemoveStylesFromStyleGallery.docx");
+```
+
 ### See Also
 
 * class [StyleCollection](../../stylecollection)

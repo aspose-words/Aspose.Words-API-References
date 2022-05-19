@@ -23,6 +23,34 @@ public Field AppendField(FieldType fieldType, bool updateField)
 
 A [`Field`](../../../aspose.words.fields/field) object that represents the appended field.
 
+### Examples
+
+Shows various ways of appending fields to a paragraph.
+
+```csharp
+Document doc = new Document();
+Paragraph paragraph = doc.FirstSection.Body.FirstParagraph;
+
+// Below are three ways of appending a field to the end of a paragraph.
+// 1 -  Append a DATE field using a field type, and then update it:
+paragraph.AppendField(FieldType.FieldDate, true);
+
+// 2 -  Append a TIME field using a field code: 
+paragraph.AppendField(" TIME  \\@ \"HH:mm:ss\" ");
+
+// 3 -  Append a QUOTE field using a field code, and get it to display a placeholder value:
+paragraph.AppendField(" QUOTE \"Real value\"", "Placeholder value");
+
+Assert.AreEqual("Placeholder value", doc.Range.Fields[2].Result);
+
+// This field will display its placeholder value until we update it.
+doc.UpdateFields();
+
+Assert.AreEqual("Real value", doc.Range.Fields[2].Result);
+
+doc.Save(ArtifactsDir + "Paragraph.AppendField.docx");
+```
+
 ### See Also
 
 * class [Field](../../../aspose.words.fields/field)
@@ -49,6 +77,34 @@ public Field AppendField(string fieldCode)
 
 A [`Field`](../../../aspose.words.fields/field) object that represents the appended field.
 
+### Examples
+
+Shows various ways of appending fields to a paragraph.
+
+```csharp
+Document doc = new Document();
+Paragraph paragraph = doc.FirstSection.Body.FirstParagraph;
+
+// Below are three ways of appending a field to the end of a paragraph.
+// 1 -  Append a DATE field using a field type, and then update it:
+paragraph.AppendField(FieldType.FieldDate, true);
+
+// 2 -  Append a TIME field using a field code: 
+paragraph.AppendField(" TIME  \\@ \"HH:mm:ss\" ");
+
+// 3 -  Append a QUOTE field using a field code, and get it to display a placeholder value:
+paragraph.AppendField(" QUOTE \"Real value\"", "Placeholder value");
+
+Assert.AreEqual("Placeholder value", doc.Range.Fields[2].Result);
+
+// This field will display its placeholder value until we update it.
+doc.UpdateFields();
+
+Assert.AreEqual("Real value", doc.Range.Fields[2].Result);
+
+doc.Save(ArtifactsDir + "Paragraph.AppendField.docx");
+```
+
 ### See Also
 
 * class [Field](../../../aspose.words.fields/field)
@@ -74,6 +130,34 @@ public Field AppendField(string fieldCode, string fieldValue)
 ## Return Value
 
 A [`Field`](../../../aspose.words.fields/field) object that represents the appended field.
+
+### Examples
+
+Shows various ways of appending fields to a paragraph.
+
+```csharp
+Document doc = new Document();
+Paragraph paragraph = doc.FirstSection.Body.FirstParagraph;
+
+// Below are three ways of appending a field to the end of a paragraph.
+// 1 -  Append a DATE field using a field type, and then update it:
+paragraph.AppendField(FieldType.FieldDate, true);
+
+// 2 -  Append a TIME field using a field code: 
+paragraph.AppendField(" TIME  \\@ \"HH:mm:ss\" ");
+
+// 3 -  Append a QUOTE field using a field code, and get it to display a placeholder value:
+paragraph.AppendField(" QUOTE \"Real value\"", "Placeholder value");
+
+Assert.AreEqual("Placeholder value", doc.Range.Fields[2].Result);
+
+// This field will display its placeholder value until we update it.
+doc.UpdateFields();
+
+Assert.AreEqual("Real value", doc.Range.Fields[2].Result);
+
+doc.Save(ArtifactsDir + "Paragraph.AppendField.docx");
+```
 
 ### See Also
 

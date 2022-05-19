@@ -67,6 +67,159 @@ public class FieldToc : Field
 
 Builds a table of contents (which can also be a table of figures) using the entries specified by TC fields, their heading levels, and specified styles, and inserts that table at this place in the document.
 
+### Examples
+
+Shows how to insert a TOC, and populate it with entries based on heading styles.
+
+```csharp
+public void FieldToc()
+{
+    Document doc = new Document();
+    DocumentBuilder builder = new DocumentBuilder(doc);
+
+    builder.StartBookmark("MyBookmark");
+
+    // Insert a TOC field, which will compile all headings into a table of contents.
+    // For each heading, this field will create a line with the text in that heading style to the left,
+    // and the page the heading appears on to the right.
+    FieldToc field = (FieldToc)builder.InsertField(FieldType.FieldTOC, true);
+
+    // Use the BookmarkName property to only list headings
+    // that appear within the bounds of a bookmark with the "MyBookmark" name.
+    field.BookmarkName = "MyBookmark";
+
+    // Text with a built-in heading style, such as "Heading 1", applied to it will count as a heading.
+    // We can name additional styles to be picked up as headings by the TOC in this property and their TOC levels.
+    field.CustomStyles = "Quote; 6; Intense Quote; 7";
+
+    // By default, Styles/TOC levels are separated in the CustomStyles property by a comma,
+    // but we can set a custom delimiter in this property.
+    doc.FieldOptions.CustomTocStyleSeparator = ";";
+
+    // Configure the field to exclude any headings that have TOC levels outside of this range.
+    field.HeadingLevelRange = "1-3";
+
+    // The TOC will not display the page numbers of headings whose TOC levels are within this range.
+    field.PageNumberOmittingLevelRange = "2-5";
+
+    // Set a custom string that will separate every heading from its page number. 
+    field.EntrySeparator = "-";
+    field.InsertHyperlinks = true;
+    field.HideInWebLayout = false;
+    field.PreserveLineBreaks = true;
+    field.PreserveTabs = true;
+    field.UseParagraphOutlineLevel = false;
+
+    InsertNewPageWithHeading(builder, "First entry", "Heading 1");
+    builder.Writeln("Paragraph text.");
+    InsertNewPageWithHeading(builder, "Second entry", "Heading 1");
+    InsertNewPageWithHeading(builder, "Third entry", "Quote");
+    InsertNewPageWithHeading(builder, "Fourth entry", "Intense Quote");
+
+    // These two headings will have the page numbers omitted because they are within the "2-5" range.
+    InsertNewPageWithHeading(builder, "Fifth entry", "Heading 2");
+    InsertNewPageWithHeading(builder, "Sixth entry", "Heading 3");
+
+    // This entry does not appear because "Heading 4" is outside of the "1-3" range that we have set earlier.
+    InsertNewPageWithHeading(builder, "Seventh entry", "Heading 4");
+
+    builder.EndBookmark("MyBookmark");
+    builder.Writeln("Paragraph text.");
+
+    // This entry does not appear because it is outside the bookmark specified by the TOC.
+    InsertNewPageWithHeading(builder, "Eighth entry", "Heading 1");
+
+    Assert.AreEqual(" TOC  \\b MyBookmark \\t \"Quote; 6; Intense Quote; 7\" \\o 1-3 \\n 2-5 \\p - \\h \\x \\w", field.GetFieldCode());
+
+    field.UpdatePageNumbers();
+    doc.UpdateFields();
+    doc.Save(ArtifactsDir + "Field.TOC.docx");
+}
+
+/// <summary>
+/// Start a new page and insert a paragraph of a specified style.
+/// </summary>
+public void InsertNewPageWithHeading(DocumentBuilder builder, string captionText, string styleName)
+{
+    builder.InsertBreak(BreakType.PageBreak);
+    string originalStyle = builder.ParagraphFormat.StyleName;
+    builder.ParagraphFormat.Style = builder.Document.Styles[styleName];
+    builder.Writeln(captionText);
+    builder.ParagraphFormat.Style = builder.Document.Styles[originalStyle];
+}
+```
+
+Shows how to populate a TOC field with entries using SEQ fields.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+// A TOC field can create an entry in its table of contents for each SEQ field found in the document.
+// Each entry contains the paragraph that includes the SEQ field and the page's number that the field appears on.
+FieldToc fieldToc = (FieldToc)builder.InsertField(FieldType.FieldTOC, true);
+
+// SEQ fields display a count that increments at each SEQ field.
+// These fields also maintain separate counts for each unique named sequence
+// identified by the SEQ field's "SequenceIdentifier" property.
+// Use the "TableOfFiguresLabel" property to name a main sequence for the TOC.
+// Now, this TOC will only create entries out of SEQ fields with their "SequenceIdentifier" set to "MySequence".
+fieldToc.TableOfFiguresLabel = "MySequence";
+
+// We can name another SEQ field sequence in the "PrefixedSequenceIdentifier" property.
+// SEQ fields from this prefix sequence will not create TOC entries. 
+// Every TOC entry created from a main sequence SEQ field will now also display the count that
+// the prefix sequence is currently on at the primary sequence SEQ field that made the entry.
+fieldToc.PrefixedSequenceIdentifier = "PrefixSequence";
+
+// Each TOC entry will display the prefix sequence count immediately to the left
+// of the page number that the main sequence SEQ field appears on.
+// We can specify a custom separator that will appear between these two numbers.
+fieldToc.SequenceSeparator = ">";
+
+Assert.AreEqual(" TOC  \\c MySequence \\s PrefixSequence \\d >", fieldToc.GetFieldCode());
+
+builder.InsertBreak(BreakType.PageBreak);
+
+// There are two ways of using SEQ fields to populate this TOC.
+// 1 -  Inserting a SEQ field that belongs to the TOC's prefix sequence:
+// This field will increment the SEQ sequence count for the "PrefixSequence" by 1.
+// Since this field does not belong to the main sequence identified
+// by the "TableOfFiguresLabel" property of the TOC, it will not appear as an entry.
+FieldSeq fieldSeq = (FieldSeq)builder.InsertField(FieldType.FieldSequence, true);
+fieldSeq.SequenceIdentifier = "PrefixSequence";
+builder.InsertParagraph();
+
+Assert.AreEqual(" SEQ  PrefixSequence", fieldSeq.GetFieldCode());
+
+// 2 -  Inserting a SEQ field that belongs to the TOC's main sequence:
+// This SEQ field will create an entry in the TOC.
+// The TOC entry will contain the paragraph that the SEQ field is in and the number of the page that it appears on.
+// This entry will also display the count that the prefix sequence is currently at,
+// separated from the page number by the value in the TOC's SeqenceSeparator property.
+// The "PrefixSequence" count is at 1, this main sequence SEQ field is on page 2,
+// and the separator is ">", so entry will display "1>2".
+builder.Write("First TOC entry, MySequence #");
+fieldSeq = (FieldSeq)builder.InsertField(FieldType.FieldSequence, true);
+fieldSeq.SequenceIdentifier = "MySequence";
+
+Assert.AreEqual(" SEQ  MySequence", fieldSeq.GetFieldCode());
+
+// Insert a page, advance the prefix sequence by 2, and insert a SEQ field to create a TOC entry afterwards.
+// The prefix sequence is now at 2, and the main sequence SEQ field is on page 3,
+// so the TOC entry will display "2>3" at its page count.
+builder.InsertBreak(BreakType.PageBreak);
+fieldSeq = (FieldSeq)builder.InsertField(FieldType.FieldSequence, true);
+fieldSeq.SequenceIdentifier = "PrefixSequence";
+builder.InsertParagraph();
+fieldSeq = (FieldSeq)builder.InsertField(FieldType.FieldSequence, true);
+builder.Write("Second TOC entry, MySequence #");
+fieldSeq.SequenceIdentifier = "MySequence";
+
+doc.UpdateFields();
+doc.Save(ArtifactsDir + "Field.TOC.SEQ.docx");
+```
+
 ### See Also
 
 * class [Field](../field)

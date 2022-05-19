@@ -35,6 +35,32 @@ public abstract class BaseWebExtensionCollection<T> : IEnumerable<T>
 | [GetEnumerator](../../aspose.words.webextensions/basewebextensioncollection`1/getenumerator)() | Returns an enumerator that can iterate through a collection. |
 | [Remove](../../aspose.words.webextensions/basewebextensioncollection`1/remove)(int) | Removes the item at the specified index from the collection. |
 
+### Examples
+
+Shows how to work with a document's collection of web extensions.
+
+```csharp
+Document doc = new Document(MyDir + "Web extension.docx");
+
+Assert.AreEqual(1, doc.WebExtensionTaskPanes.Count);
+
+// Print all properties of the document's web extension.
+WebExtensionPropertyCollection webExtensionPropertyCollection = doc.WebExtensionTaskPanes[0].WebExtension.Properties;
+using (IEnumerator<WebExtensionProperty> enumerator = webExtensionPropertyCollection.GetEnumerator())
+{
+    while (enumerator.MoveNext())
+    {
+        WebExtensionProperty webExtensionProperty = enumerator.Current;
+        Console.WriteLine($"Binding name: {webExtensionProperty.Name}; Binding value: {webExtensionProperty.Value}");
+    }
+}
+
+// Remove the web extension.
+doc.WebExtensionTaskPanes.Remove(0);
+
+Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
+```
+
 ### See Also
 
 * namespace [Aspose.Words.WebExtensions](../../aspose.words.webextensions)

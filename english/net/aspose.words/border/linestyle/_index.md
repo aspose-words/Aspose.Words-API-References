@@ -18,6 +18,23 @@ public LineStyle LineStyle { get; set; }
 
 If you set line style to none, then line width is automatically changed to zero.
 
+### Examples
+
+Shows how to insert a string surrounded by a border into a document.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+builder.Font.Border.Color = Color.Green;
+builder.Font.Border.LineWidth = 2.5d;
+builder.Font.Border.LineStyle = LineStyle.DashDotStroker;
+
+builder.Write("Text surrounded by green border.");
+
+doc.Save(ArtifactsDir + "Border.FontBorder.docx");
+```
+
 ### See Also
 
 * enum [LineStyle](../../linestyle)

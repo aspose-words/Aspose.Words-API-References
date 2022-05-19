@@ -22,6 +22,25 @@ When this property is set to **false** and Right-To-Left language is used, corre
 
 The default value is **false**.
 
+### Examples
+
+Shows how to use FieldOptions to ensure that field updating fully supports bi-directional text.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+// Ensure that any field operation involving right-to-left text is performs as expected. 
+doc.FieldOptions.IsBidiTextSupportedOnUpdate = true;
+
+// Use a document builder to insert a field that contains the right-to-left text.
+FormField comboBox = builder.InsertComboBox("MyComboBox", new[] { "עֶשְׂרִים", "שְׁלוֹשִׁים", "אַרְבָּעִים", "חֲמִשִּׁים", "שִׁשִּׁים" }, 0);
+comboBox.CalculateOnExit = true;
+
+doc.UpdateFields();
+doc.Save(ArtifactsDir + "FieldOptions.Bidi.docx");
+```
+
 ### See Also
 
 * class [FieldOptions](../../fieldoptions)

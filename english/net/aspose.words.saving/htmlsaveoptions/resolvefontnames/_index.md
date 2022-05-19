@@ -20,6 +20,47 @@ By default, this option is set to `false` and font family names are written to H
 
 If this option is set to `true`, Aspose.Words uses [`FontSettings`](../../../aspose.words/document/fontsettings) to resolve each font family name specified in a source document into the name of an available font family, performing font substitution as required.
 
+### Examples
+
+Shows how to resolve all font names before writing them to HTML.
+
+```csharp
+Document doc = new Document(MyDir + "Missing font.docx");
+
+// This document contains text that names a font that we do not have.
+Assert.NotNull(doc.FontInfos["28 Days Later"]);
+
+// If we have no way of getting this font, and we want to be able to display all the text
+// in this document in an output HTML, we can substitute it with another font.
+FontSettings fontSettings = new FontSettings
+{
+    SubstitutionSettings =
+    {
+        DefaultFontSubstitution =
+        {
+            DefaultFontName = "Arial",
+            Enabled = true
+        }
+    }
+};
+
+doc.FontSettings = fontSettings;
+
+HtmlSaveOptions saveOptions = new HtmlSaveOptions(SaveFormat.Html)
+{
+    // By default, this option is set to 'False' and Aspose.Words writes font names as specified in the source document
+    ResolveFontNames = resolveFontNames
+};
+
+doc.Save(ArtifactsDir + "HtmlSaveOptions.ResolveFontNames.html", saveOptions);
+
+string outDocContents = File.ReadAllText(ArtifactsDir + "HtmlSaveOptions.ResolveFontNames.html");
+
+Assert.True(resolveFontNames
+    ? Regex.Match(outDocContents, "<span style=\"font-family:Arial\">").Success
+    : Regex.Match(outDocContents, "<span style=\"font-family:\'28 Days Later\'\">").Success);
+```
+
 ### See Also
 
 * class [HtmlSaveOptions](../../htmlsaveoptions)

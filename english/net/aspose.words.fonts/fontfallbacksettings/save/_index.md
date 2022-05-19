@@ -18,6 +18,32 @@ public void Save(Stream outputStream)
 | --- | --- | --- |
 | outputStream | Stream | Output stream. |
 
+### Examples
+
+Shows how to load and save font fallback settings to/from a stream.
+
+```csharp
+Document doc = new Document(MyDir + "Rendering.docx");
+
+// Load an XML document that defines a set of font fallback settings.
+using (FileStream fontFallbackStream = new FileStream(MyDir + "Font fallback rules.xml", FileMode.Open))
+{
+    FontSettings fontSettings = new FontSettings();
+    fontSettings.FallbackSettings.Load(fontFallbackStream);
+
+    doc.FontSettings = fontSettings;
+}
+
+doc.Save(ArtifactsDir + "FontSettings.LoadFontFallbackSettingsFromStream.pdf");
+
+// Use a stream to save our document's current font fallback settings as an XML document.
+using (FileStream fontFallbackStream =
+    new FileStream(ArtifactsDir + "FallbackSettings.xml", FileMode.Create))
+{
+    doc.FontSettings.FallbackSettings.Save(fontFallbackStream);
+}
+```
+
 ### See Also
 
 * class [FontFallbackSettings](../../fontfallbacksettings)
@@ -37,6 +63,24 @@ public void Save(string fileName)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | fileName | String | Output file name. |
+
+### Examples
+
+Shows how to load and save font fallback settings to/from an XML document in the local file system.
+
+```csharp
+Document doc = new Document(MyDir + "Rendering.docx");
+
+// Load an XML document that defines a set of font fallback settings.
+FontSettings fontSettings = new FontSettings();
+fontSettings.FallbackSettings.Load(MyDir + "Font fallback rules.xml");
+
+doc.FontSettings = fontSettings;
+doc.Save(ArtifactsDir + "FontSettings.LoadFontFallbackSettingsFromFile.pdf");
+
+// Save our document's current font fallback settings as an XML document.
+doc.FontSettings.FallbackSettings.Save(ArtifactsDir + "FallbackSettings.xml");
+```
 
 ### See Also
 

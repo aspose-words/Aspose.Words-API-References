@@ -28,6 +28,22 @@ public abstract class FontSourceBase
 | --- | --- |
 | [GetAvailableFonts](../../aspose.words.fonts/fontsourcebase/getavailablefonts)() | Returns list of fonts available via this source. |
 
+### Examples
+
+Shows how to use a font file in the local file system as a font source.
+
+```csharp
+FileFontSource fileFontSource = new FileFontSource(MyDir + "Alte DIN 1451 Mittelschrift.ttf", 0);
+
+Document doc = new Document();
+doc.FontSettings = new FontSettings();
+doc.FontSettings.SetFontsSources(new FontSourceBase[] { fileFontSource });
+
+Assert.AreEqual(MyDir + "Alte DIN 1451 Mittelschrift.ttf", fileFontSource.FilePath);
+Assert.AreEqual(FontSourceType.FontFile, fileFontSource.Type);
+Assert.AreEqual(0, fileFontSource.Priority);
+```
+
 ### See Also
 
 * namespace [Aspose.Words.Fonts](../../aspose.words.fonts)

@@ -26,6 +26,36 @@ ContentCopyForAccessibility permission is required by PDF/UA compliance if the o
 
 ContentCopyForAccessibility permission is deprecated in PDF 2.0 format. This permission will be ignored when saving to PDF 2.0.
 
+### Examples
+
+Shows how to set permissions on a saved PDF document.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+builder.Writeln("Hello world!");
+
+PdfEncryptionDetails encryptionDetails =
+    new PdfEncryptionDetails("password", string.Empty);
+
+// Start by disallowing all permissions.
+encryptionDetails.Permissions = PdfPermissions.DisallowAll;
+
+// Extend permissions to allow the editing of annotations.
+encryptionDetails.Permissions = PdfPermissions.ModifyAnnotations | PdfPermissions.DocumentAssembly;
+
+// Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+// to modify how that method converts the document to .PDF.
+PdfSaveOptions saveOptions = new PdfSaveOptions();
+
+// Enable encryption via the "EncryptionDetails" property.
+saveOptions.EncryptionDetails = encryptionDetails;
+
+// When we open this document, we will need to provide the password before accessing its contents.
+doc.Save(ArtifactsDir + "PdfSaveOptions.EncryptionPermissions.pdf", saveOptions);
+```
+
 ### See Also
 
 * class [PdfEncryptionDetails](../../pdfencryptiondetails)

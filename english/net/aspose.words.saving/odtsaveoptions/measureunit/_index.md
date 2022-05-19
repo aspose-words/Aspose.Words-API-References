@@ -18,6 +18,26 @@ public OdtSaveMeasureUnit MeasureUnit { get; set; }
 
 Open Office uses centimeters when specifying lengths, widths and other measurable formatting and content properties in documents whereas MS Office uses inches.
 
+### Examples
+
+Shows how to use different measurement units to define style parameters of a saved ODT document.
+
+```csharp
+Document doc = new Document(MyDir + "Rendering.docx");
+
+// When we export the document to .odt, we can use an OdtSaveOptions object to modify how we save the document.
+// We can set the "MeasureUnit" property to "OdtSaveMeasureUnit.Centimeters"
+// to define content such as style parameters using the metric system, which Open Office uses. 
+// We can set the "MeasureUnit" property to "OdtSaveMeasureUnit.Inches"
+// to define content such as style parameters using the imperial system, which Microsoft Word uses.
+OdtSaveOptions saveOptions = new OdtSaveOptions
+{
+    MeasureUnit = odtSaveMeasureUnit
+};
+
+doc.Save(ArtifactsDir + "OdtSaveOptions.Odt11Schema.odt", saveOptions);
+```
+
 ### See Also
 
 * enum [OdtSaveMeasureUnit](../../odtsavemeasureunit)

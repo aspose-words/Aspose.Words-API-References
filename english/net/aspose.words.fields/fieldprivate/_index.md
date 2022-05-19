@@ -50,6 +50,74 @@ public class FieldPrivate : Field
 
 Provides a private storage area. This field is used to store data for documents converted from other file formats.
 
+### Examples
+
+Shows how to process PRIVATE fields.
+
+```csharp
+public void FieldPrivate()
+{
+    // Open a Corel WordPerfect document which we have converted to .docx format.
+    Document doc = new Document(MyDir + "Field sample - PRIVATE.docx");
+
+    // WordPerfect 5.x/6.x documents like the one we have loaded may contain PRIVATE fields.
+    // Microsoft Word preserves PRIVATE fields during load/save operations,
+    // but provides no functionality for them.
+    FieldPrivate field = (FieldPrivate)doc.Range.Fields[0];
+
+    Assert.AreEqual(" PRIVATE \"My value\" ", field.GetFieldCode());
+    Assert.AreEqual(FieldType.FieldPrivate, field.Type);
+
+    // We can also insert PRIVATE fields using a document builder.
+    DocumentBuilder builder = new DocumentBuilder(doc);
+    builder.InsertField(FieldType.FieldPrivate, true);
+
+    // These fields are not a viable way of protecting sensitive information.
+    // Unless backward compatibility with older versions of WordPerfect is essential,
+    // we can safely remove these fields. We can do this using a DocumentVisiitor implementation.
+    Assert.AreEqual(2, doc.Range.Fields.Count);
+
+    FieldPrivateRemover remover = new FieldPrivateRemover();
+    doc.Accept(remover);
+
+    Assert.AreEqual(2, remover.GetFieldsRemovedCount());
+    Assert.AreEqual(0, doc.Range.Fields.Count);
+}
+
+/// <summary>
+/// Removes all encountered PRIVATE fields.
+/// </summary>
+public class FieldPrivateRemover : DocumentVisitor
+{
+    public FieldPrivateRemover()
+    {
+        mFieldsRemovedCount = 0;
+    }
+
+    public int GetFieldsRemovedCount()
+    {
+        return mFieldsRemovedCount;
+    }
+
+    /// <summary>
+    /// Called when a FieldEnd node is encountered in the document.
+    /// If the node belongs to a PRIVATE field, the entire field is removed.
+    /// </summary>
+    public override VisitorAction VisitFieldEnd(FieldEnd fieldEnd)
+    {
+        if (fieldEnd.FieldType == FieldType.FieldPrivate)
+        {
+            fieldEnd.GetField().Remove();
+            mFieldsRemovedCount++;
+        }
+
+        return VisitorAction.Continue;
+    }
+
+    private int mFieldsRemovedCount;
+}
+```
+
 ### See Also
 
 * class [Field](../field)

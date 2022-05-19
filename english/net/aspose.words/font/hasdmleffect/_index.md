@@ -22,6 +22,22 @@ public bool HasDmlEffect(TextDmlEffect dmlEffectType)
 
 True if particular DrawingML text effect is applied.
 
+### Examples
+
+Shows how to check if a run displays a DrawingML text effect.
+
+```csharp
+Document doc = new Document(MyDir + "DrawingML text effects.docx");
+
+RunCollection runs = doc.FirstSection.Body.FirstParagraph.Runs;
+
+Assert.True(runs[0].Font.HasDmlEffect(TextDmlEffect.Shadow));
+Assert.True(runs[1].Font.HasDmlEffect(TextDmlEffect.Shadow));
+Assert.True(runs[2].Font.HasDmlEffect(TextDmlEffect.Reflection));
+Assert.True(runs[3].Font.HasDmlEffect(TextDmlEffect.Effect3D));
+Assert.True(runs[4].Font.HasDmlEffect(TextDmlEffect.Fill));
+```
+
 ### See Also
 
 * enum [TextDmlEffect](../../textdmleffect)

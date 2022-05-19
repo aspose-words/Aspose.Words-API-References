@@ -20,6 +20,33 @@ Note, Word does not embed PostScript fonts, but can open documents with embedded
 
 This option only works when [`EmbedTrueTypeFonts`](../../../aspose.words.fonts/fontinfocollection/embedtruetypefonts) of the [`FontInfos`](../../../aspose.words/documentbase/fontinfos) property is set to `true`.
 
+### Examples
+
+Shows how to save the document with PostScript font.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+builder.Font.Name = "PostScriptFont";
+builder.Writeln("Some text with PostScript font.");
+
+// Load the font with PostScript to use in the document.
+MemoryFontSource otf = new MemoryFontSource(File.ReadAllBytes(FontsDir + "AllegroOpen.otf"));
+doc.FontSettings = new FontSettings();
+doc.FontSettings.SetFontsSources(new FontSourceBase[] { otf });
+
+// Embed TrueType fonts.
+doc.FontInfos.EmbedTrueTypeFonts = true;
+
+// Allow embedding PostScript fonts while embedding TrueType fonts.
+// Microsoft Word does not embed PostScript fonts, but can open documents with embedded fonts of this type.
+SaveOptions saveOptions = SaveOptions.CreateSaveOptions(SaveFormat.Docx);
+saveOptions.AllowEmbeddingPostScriptFonts = true;
+
+doc.Save(ArtifactsDir + "Document.AllowEmbeddingPostScriptFonts.docx", saveOptions);
+```
+
 ### See Also
 
 * class [SaveOptions](../../saveoptions)

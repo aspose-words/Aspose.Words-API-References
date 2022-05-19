@@ -46,6 +46,19 @@ public class FieldOcx : Field
 | [Update](../../aspose.words.fields/field/update)() | Performs the field update. Throws if the field is being updated already. |
 | [Update](../../aspose.words.fields/field/update)(bool) | Performs a field update. Throws if the field is being updated already. |
 
+### Examples
+
+Shows how to insert an OCX field.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+FieldOcx field = (FieldOcx)builder.InsertField(FieldType.FieldOcx, true);
+
+Assert.AreEqual(" OCX ", field.GetFieldCode());
+```
+
 ### See Also
 
 * class [Field](../field)

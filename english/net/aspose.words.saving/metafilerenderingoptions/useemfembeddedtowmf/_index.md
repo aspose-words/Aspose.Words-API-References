@@ -26,6 +26,33 @@ This option is used only when metafile is rendered as vector graphics. When meta
 
 The default value is `true`.
 
+### Examples
+
+Shows how to configure Enhanced Windows Metafile-related rendering options when saving to PDF.
+
+```csharp
+Document doc = new Document(MyDir + "EMF.docx");
+
+// Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+// to modify how that method converts the document to .PDF.
+PdfSaveOptions saveOptions = new PdfSaveOptions();
+
+// Set the "EmfPlusDualRenderingMode" property to "EmfPlusDualRenderingMode.Emf"
+// to only render the EMF part of an EMF+ dual metafile.
+// Set the "EmfPlusDualRenderingMode" property to "EmfPlusDualRenderingMode.EmfPlus" to
+// to render the EMF+ part of an EMF+ dual metafile.
+// Set the "EmfPlusDualRenderingMode" property to "EmfPlusDualRenderingMode.EmfPlusWithFallback"
+// to render the EMF+ part of an EMF+ dual metafile if all of the EMF+ records are supported.
+// Otherwise, Aspose.Words will render the EMF part.
+saveOptions.MetafileRenderingOptions.EmfPlusDualRenderingMode = renderingMode;
+
+// Set the "UseEmfEmbeddedToWmf" property to "true" to render embedded EMF data
+// for metafiles that we can render as vector graphics.
+saveOptions.MetafileRenderingOptions.UseEmfEmbeddedToWmf = true;
+
+doc.Save(ArtifactsDir + "PdfSaveOptions.RenderMetafile.pdf", saveOptions);
+```
+
 ### See Also
 
 * class [MetafileRenderingOptions](../../metafilerenderingoptions)

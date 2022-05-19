@@ -14,6 +14,32 @@ Gets the story that is currently selected in this DocumentBuilder.
 public Story CurrentStory { get; }
 ```
 
+### Examples
+
+Shows how to work with a document builder's current story.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+// A Story is a type of node that has child Paragraph nodes, such as a Body.
+Assert.AreEqual(builder.CurrentStory, doc.FirstSection.Body);
+Assert.AreEqual(builder.CurrentStory, builder.CurrentParagraph.ParentNode);
+Assert.AreEqual(StoryType.MainText, builder.CurrentStory.StoryType);
+
+builder.CurrentStory.AppendParagraph("Text added to current Story.");
+
+// A Story can also contain tables.
+Table table = builder.StartTable();
+builder.InsertCell();
+builder.Write("Row 1, cell 1");
+builder.InsertCell();
+builder.Write("Row 1, cell 2");
+builder.EndTable();
+
+Assert.IsTrue(builder.CurrentStory.Tables.Contains(table));
+```
+
 ### See Also
 
 * class [Story](../../story)

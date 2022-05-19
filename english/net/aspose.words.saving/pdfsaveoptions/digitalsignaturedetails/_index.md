@@ -18,6 +18,35 @@ public PdfDigitalSignatureDetails DigitalSignatureDetails { get; set; }
 
 The default value is null and the output document will not be signed. When this property is set to a valid [`PdfDigitalSignatureDetails`](../../pdfdigitalsignaturedetails) object, then the output PDF document will be digitally signed.
 
+### Examples
+
+Shows how to sign a generated PDF document.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+builder.Writeln("Contents of signed PDF.");
+
+CertificateHolder certificateHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "aw");
+
+// Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+// to modify how that method converts the document to .PDF.
+PdfSaveOptions options = new PdfSaveOptions();
+
+// Configure the "DigitalSignatureDetails" object of the "SaveOptions" object to
+// digitally sign the document as we render it with the "Save" method.
+DateTime signingTime = DateTime.Now;
+options.DigitalSignatureDetails =
+    new PdfDigitalSignatureDetails(certificateHolder, "Test Signing", "My Office", signingTime);
+options.DigitalSignatureDetails.HashAlgorithm = PdfDigitalSignatureHashAlgorithm.Sha256;
+
+Assert.AreEqual("Test Signing", options.DigitalSignatureDetails.Reason);
+Assert.AreEqual("My Office", options.DigitalSignatureDetails.Location);
+Assert.AreEqual(signingTime.ToUniversalTime(), options.DigitalSignatureDetails.SignatureDate.ToUniversalTime());
+
+doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignature.pdf", options);
+```
+
 ### See Also
 
 * class [PdfDigitalSignatureDetails](../../pdfdigitalsignaturedetails)

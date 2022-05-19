@@ -91,6 +91,164 @@ public class HtmlSaveOptions : SaveOptions
 | [UseAntiAliasing](../../aspose.words.saving/saveoptions/useantialiasing) { get; set; } | Gets or sets a value determining whether or not to use anti-aliasing for rendering. |
 | [UseHighQualityRendering](../../aspose.words.saving/saveoptions/usehighqualityrendering) { get; set; } | Gets or sets a value determining whether or not to use high quality (i.e. slow) rendering algorithms. |
 
+### Examples
+
+Shows how to specify the folder for storing linked images after saving to .html.
+
+```csharp
+Document doc = new Document(MyDir + "Rendering.docx");
+
+string imagesDir = Path.Combine(ArtifactsDir, "SaveHtmlWithOptions");
+
+if (Directory.Exists(imagesDir))
+    Directory.Delete(imagesDir, true);
+
+Directory.CreateDirectory(imagesDir);
+
+// Set an option to export form fields as plain text instead of HTML input elements.
+HtmlSaveOptions options = new HtmlSaveOptions(SaveFormat.Html)
+{
+    ExportTextInputFormFieldAsText = true, 
+    ImagesFolder = imagesDir
+};
+
+doc.Save(ArtifactsDir + "HtmlSaveOptions.SaveHtmlWithOptions.html", options);
+```
+
+Shows how to use a specific encoding when saving a document to .epub.
+
+```csharp
+Document doc = new Document(MyDir + "Rendering.docx");
+
+// Use a SaveOptions object to specify the encoding for a document that we will save.
+HtmlSaveOptions saveOptions = new HtmlSaveOptions();
+saveOptions.SaveFormat = SaveFormat.Epub;
+saveOptions.Encoding = Encoding.UTF8;
+
+// By default, an output .epub document will have all its contents in one HTML part.
+// A split criterion allows us to segment the document into several HTML parts.
+// We will set the criteria to split the document into heading paragraphs.
+// This is useful for readers who cannot read HTML files more significant than a specific size.
+saveOptions.DocumentSplitCriteria = DocumentSplitCriteria.HeadingParagraph;
+
+// Specify that we want to export document properties.
+saveOptions.ExportDocumentProperties = true;
+
+doc.Save(ArtifactsDir + "HtmlSaveOptions.Doc2EpubSaveOptions.epub", saveOptions);
+```
+
+Shows how to split a document into parts and save them.
+
+```csharp
+public void DocumentPartsFileNames()
+{
+    Document doc = new Document(MyDir + "Rendering.docx");
+    string outFileName = "SavingCallback.DocumentPartsFileNames.html";
+
+    // Create an "HtmlFixedSaveOptions" object, which we can pass to the document's "Save" method
+    // to modify how we convert the document to HTML.
+    HtmlSaveOptions options = new HtmlSaveOptions();
+
+    // If we save the document normally, there will be one output HTML
+    // document with all the source document's contents.
+    // Set the "DocumentSplitCriteria" property to "DocumentSplitCriteria.SectionBreak" to
+    // save our document to multiple HTML files: one for each section.
+    options.DocumentSplitCriteria = DocumentSplitCriteria.SectionBreak;
+
+    // Assign a custom callback to the "DocumentPartSavingCallback" property to alter the document part saving logic.
+    options.DocumentPartSavingCallback = new SavedDocumentPartRename(outFileName, options.DocumentSplitCriteria);
+
+    // If we convert a document that contains images into html, we will end up with one html file which links to several images.
+    // Each image will be in the form of a file in the local file system.
+    // There is also a callback that can customize the name and file system location of each image.
+    options.ImageSavingCallback = new SavedImageRename(outFileName);
+
+    doc.Save(ArtifactsDir + outFileName, options);
+}
+
+/// <summary>
+/// Sets custom filenames for output documents that the saving operation splits a document into.
+/// </summary>
+private class SavedDocumentPartRename : IDocumentPartSavingCallback
+{
+    public SavedDocumentPartRename(string outFileName, DocumentSplitCriteria documentSplitCriteria)
+    {
+        mOutFileName = outFileName;
+        mDocumentSplitCriteria = documentSplitCriteria;
+    }
+
+    void IDocumentPartSavingCallback.DocumentPartSaving(DocumentPartSavingArgs args)
+    {
+        // We can access the entire source document via the "Document" property.
+        Assert.True(args.Document.OriginalFileName.EndsWith("Rendering.docx"));
+
+        string partType = string.Empty;
+
+        switch (mDocumentSplitCriteria)
+        {
+            case DocumentSplitCriteria.PageBreak:
+                partType = "Page";
+                break;
+            case DocumentSplitCriteria.ColumnBreak:
+                partType = "Column";
+                break;
+            case DocumentSplitCriteria.SectionBreak:
+                partType = "Section";
+                break;
+            case DocumentSplitCriteria.HeadingParagraph:
+                partType = "Paragraph from heading";
+                break;
+        }
+
+        string partFileName = $"{mOutFileName} part {++mCount}, of type {partType}{Path.GetExtension(args.DocumentPartFileName)}";
+
+        // Below are two ways of specifying where Aspose.Words will save each part of the document.
+        // 1 -  Set a filename for the output part file:
+        args.DocumentPartFileName = partFileName;
+
+        // 2 -  Create a custom stream for the output part file:
+        args.DocumentPartStream = new FileStream(ArtifactsDir + partFileName, FileMode.Create);
+
+        Assert.True(args.DocumentPartStream.CanWrite);
+        Assert.False(args.KeepDocumentPartStreamOpen);
+    }
+
+    private int mCount;
+    private readonly string mOutFileName;
+    private readonly DocumentSplitCriteria mDocumentSplitCriteria;
+}
+
+/// <summary>
+/// Sets custom filenames for image files that an HTML conversion creates.
+/// </summary>
+public class SavedImageRename : IImageSavingCallback
+{
+    public SavedImageRename(string outFileName)
+    {
+        mOutFileName = outFileName;
+    }
+
+    void IImageSavingCallback.ImageSaving(ImageSavingArgs args)
+    {
+        string imageFileName = $"{mOutFileName} shape {++mCount}, of type {args.CurrentShape.ShapeType}{Path.GetExtension(args.ImageFileName)}";
+
+        // Below are two ways of specifying where Aspose.Words will save each part of the document.
+        // 1 -  Set a filename for the output image file:
+        args.ImageFileName = imageFileName;
+
+        // 2 -  Create a custom stream for the output image file:
+        args.ImageStream = new FileStream(ArtifactsDir + imageFileName, FileMode.Create);
+
+        Assert.True(args.ImageStream.CanWrite);
+        Assert.True(args.IsImageAvailable);
+        Assert.False(args.KeepImageStreamOpen);
+    }
+
+    private int mCount;
+    private readonly string mOutFileName;
+}
+```
+
 ### See Also
 
 * class [SaveOptions](../saveoptions)

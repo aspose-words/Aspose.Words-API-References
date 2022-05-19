@@ -14,6 +14,19 @@ Specifies the custom XML data identifier for the custom XML data part which shal
 public string StoreItemId { get; }
 ```
 
+### Examples
+
+Shows how to get the custom XML data identifier of an XML part.
+
+```csharp
+Document doc = new Document(MyDir + "Custom XML part in structured document tag.docx");
+
+// Structured document tags have IDs in the form of GUIDs.
+StructuredDocumentTag tag = (StructuredDocumentTag) doc.GetChild(NodeType.StructuredDocumentTag, 0, true);
+
+Assert.AreEqual("{F3029283-4FF8-4DD2-9F31-395F19ACEE85}", tag.XmlMapping.StoreItemId);
+```
+
 ### See Also
 
 * class [XmlMapping](../../xmlmapping)

@@ -35,6 +35,37 @@ public class CommentCollection : NodeCollection
 | [RemoveAt](../../aspose.words/nodecollection/removeat)(int) | Removes the node at the specified index from the collection and from the document. |
 | [ToArray](../../aspose.words/nodecollection/toarray)() | Copies all nodes from the collection to a new array of nodes. |
 
+### Examples
+
+Shows how to mark a comment as "done".
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+builder.Writeln("Helo world!");
+
+// Insert a comment to point out an error. 
+Comment comment = new Comment(doc, "John Doe", "J.D.", DateTime.Now);
+comment.SetText("Fix the spelling error!");
+doc.FirstSection.Body.FirstParagraph.AppendChild(comment);
+
+// Comments have a "Done" flag, which is set to "false" by default. 
+// If a comment suggests that we make a change within the document,
+// we can apply the change, and then also set the "Done" flag afterwards to indicate the correction.
+Assert.False(comment.Done);
+
+doc.FirstSection.Body.FirstParagraph.Runs[0].Text = "Hello world!";
+comment.Done = true;
+
+// Comments that are "done" will differentiate themselves
+// from ones that are not "done" with a faded text color.
+comment = new Comment(doc, "John Doe", "J.D.", DateTime.Now);
+comment.SetText("Add text to this paragraph.");
+builder.CurrentParagraph.AppendChild(comment);
+
+doc.Save(ArtifactsDir + "Comment.Done.docx");
+```
+
 ### See Also
 
 * class [NodeCollection](../nodecollection)

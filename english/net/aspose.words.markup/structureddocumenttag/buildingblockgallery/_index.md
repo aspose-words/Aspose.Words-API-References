@@ -20,6 +20,25 @@ Accessing this property will only work for BuildingBlockGallery and DocPartObj S
 
 For all other SDT types exception will occur.
 
+### Examples
+
+Shows how to insert a structured document tag as a building block, and set its category and gallery.
+
+```csharp
+Document doc = new Document();
+
+StructuredDocumentTag buildingBlockSdt =
+    new StructuredDocumentTag(doc, SdtType.BuildingBlockGallery, MarkupLevel.Block)
+    {
+        BuildingBlockCategory = "Built-in",
+        BuildingBlockGallery = "Table of Contents"
+    };
+
+doc.FirstSection.Body.AppendChild(buildingBlockSdt);
+
+doc.Save(ArtifactsDir + "StructuredDocumentTag.BuildingBlockCategories.docx");
+```
+
 ### See Also
 
 * class [StructuredDocumentTag](../../structureddocumenttag)

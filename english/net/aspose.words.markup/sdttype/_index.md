@@ -36,6 +36,101 @@ public enum SdtType
 | RepeatingSectionItem | `15` | The SDT represents repeating section item. |
 | EntityPicker | `16` | The SDT represents an entity picker that allows the user to select an instance of an external content type. |
 
+### Examples
+
+Shows how to work with styles for content control elements.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+// Below are two ways to apply a style from the document to a structured document tag.
+// 1 -  Apply a style object from the document's style collection:
+Style quoteStyle = doc.Styles[StyleIdentifier.Quote];
+StructuredDocumentTag sdtPlainText =
+    new StructuredDocumentTag(doc, SdtType.PlainText, MarkupLevel.Inline) { Style = quoteStyle };
+
+// 2 -  Reference a style in the document by name:
+StructuredDocumentTag sdtRichText =
+    new StructuredDocumentTag(doc, SdtType.RichText, MarkupLevel.Inline) { StyleName = "Quote" };
+
+builder.InsertNode(sdtPlainText);
+builder.InsertNode(sdtRichText);
+
+Assert.AreEqual(NodeType.StructuredDocumentTag, sdtPlainText.NodeType);
+
+NodeCollection tags = doc.GetChildNodes(NodeType.StructuredDocumentTag, true);
+
+foreach (Node node in tags)
+{
+    StructuredDocumentTag sdt = (StructuredDocumentTag)node;
+
+    Assert.AreEqual(StyleIdentifier.Quote, sdt.Style.StyleIdentifier);
+    Assert.AreEqual("Quote", sdt.StyleName);
+}
+```
+
+Shows how to fill a table with data from in an XML part.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+CustomXmlPart xmlPart = doc.CustomXmlParts.Add("Books",
+    "<books>" +
+        "<book>" +
+            "<title>Everyday Italian</title>" +
+            "<author>Giada De Laurentiis</author>" +
+        "</book>" +
+        "<book>" +
+            "<title>The C Programming Language</title>" +
+            "<author>Brian W. Kernighan, Dennis M. Ritchie</author>" +
+        "</book>" +
+        "<book>" +
+            "<title>Learning XML</title>" +
+            "<author>Erik T. Ray</author>" +
+        "</book>" +
+    "</books>");
+
+// Create headers for data from the XML content.
+Table table = builder.StartTable();
+builder.InsertCell();
+builder.Write("Title");
+builder.InsertCell();
+builder.Write("Author");
+builder.EndRow();
+builder.EndTable();
+
+// Create a table with a repeating section inside.
+StructuredDocumentTag repeatingSectionSdt =
+    new StructuredDocumentTag(doc, SdtType.RepeatingSection, MarkupLevel.Row);
+repeatingSectionSdt.XmlMapping.SetMapping(xmlPart, "/books[1]/book", string.Empty);
+table.AppendChild(repeatingSectionSdt);
+
+// Add repeating section item inside the repeating section and mark it as a row.
+// This table will have a row for each element that we can find in the XML document
+// using the "/books[1]/book" XPath, of which there are three.
+StructuredDocumentTag repeatingSectionItemSdt =
+    new StructuredDocumentTag(doc, SdtType.RepeatingSectionItem, MarkupLevel.Row);
+repeatingSectionSdt.AppendChild(repeatingSectionItemSdt);
+
+Row row = new Row(doc);
+repeatingSectionItemSdt.AppendChild(row);
+
+// Map XML data with created table cells for the title and author of each book.
+StructuredDocumentTag titleSdt =
+    new StructuredDocumentTag(doc, SdtType.PlainText, MarkupLevel.Cell);
+titleSdt.XmlMapping.SetMapping(xmlPart, "/books[1]/book[1]/title[1]", string.Empty);
+row.AppendChild(titleSdt);
+
+StructuredDocumentTag authorSdt =
+    new StructuredDocumentTag(doc, SdtType.PlainText, MarkupLevel.Cell);
+authorSdt.XmlMapping.SetMapping(xmlPart, "/books[1]/book[1]/author[1]", string.Empty);
+row.AppendChild(authorSdt);
+
+doc.Save(ArtifactsDir + "StructuredDocumentTag.RepeatingSectionItem.docx");
+```
+
 ### See Also
 
 * namespace [Aspose.Words.Markup](../../aspose.words.markup)

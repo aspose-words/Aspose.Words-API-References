@@ -54,6 +54,23 @@ You can get the plain text version of the field code using the [`GetFieldCode`](
 
 You do not create instances of the [`Field`](../field) class directly. To create a new field use the [`InsertField`](../../aspose.words/documentbuilder/insertfield) method.
 
+### Examples
+
+Shows how to insert a field into a document using a field code.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+Field field = builder.InsertField("DATE \\@ \"dddd, MMMM dd, yyyy\"");
+
+Assert.AreEqual(FieldType.FieldDate, field.Type);
+Assert.AreEqual("DATE \\@ \"dddd, MMMM dd, yyyy\"", field.GetFieldCode());
+
+// This overload of the InsertField method automatically updates inserted fields.
+Assert.That(DateTime.Parse(field.Result), Is.EqualTo(DateTime.Today).Within(1).Days);
+```
+
 ### See Also
 
 * namespace [Aspose.Words.Fields](../../aspose.words.fields)

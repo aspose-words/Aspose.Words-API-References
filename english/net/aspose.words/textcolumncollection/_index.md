@@ -41,6 +41,25 @@ If you have **EvenlySpaced** set to **false**, you need to specify width and spa
 
 When using custom column widths, make sure the sum of all column widths and spacings between them equals page width minus left and right page margins.
 
+### Examples
+
+Shows how to create multiple evenly spaced columns in a section.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+TextColumnCollection columns = builder.PageSetup.TextColumns;
+columns.Spacing = 100;
+columns.SetCount(2);
+
+builder.Writeln("Column 1.");
+builder.InsertBreak(BreakType.ColumnBreak);
+builder.Writeln("Column 2.");
+
+doc.Save(ArtifactsDir + "PageSetup.ColumnsSameWidth.docx");
+```
+
 ### See Also
 
 * namespace [Aspose.Words](../../aspose.words)

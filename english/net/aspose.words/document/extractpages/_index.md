@@ -23,6 +23,18 @@ public Document ExtractPages(int index, int count)
 
 The resulting document should look like the one in MS Word, as if we had performed 'Print specific pages' – the numbering, headers/footers and cross tables layout will be preserved. But due to a large number of nuances, appearing while reducing the number of pages, full match of the layout is a quiet complicated task requiring a lot of effort. Depending on the document complexity there might be slight differences in the resulting document contents layout comparing to the source document. Any feedback would be greatly appreciated.
 
+### Examples
+
+Shows how to get specified range of pages from the document.
+
+```csharp
+Document doc = new Document(MyDir + "Layout entities.docx");
+
+doc = doc.ExtractPages(0, 2);
+
+doc.Save(ArtifactsDir + "Document.ExtractPages.docx");
+```
+
 ### See Also
 
 * class [Document](../../document)

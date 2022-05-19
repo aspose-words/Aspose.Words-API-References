@@ -14,6 +14,44 @@ Gets or sets a flag indicating whether the styles in the document are updated to
 public bool AutomaticallyUpdateStyles { get; set; }
 ```
 
+### Examples
+
+Shows how to attach a template to a document.
+
+```csharp
+Document doc = new Document();
+
+// Microsoft Word documents by default come with an attached template called "Normal.dotm".
+// There is no default template for blank Aspose.Words documents.
+Assert.AreEqual(string.Empty, doc.AttachedTemplate);
+
+// Attach a template, then set the flag to apply style changes
+// within the template to styles in our document.
+doc.AttachedTemplate = MyDir + "Business brochure.dotx";
+doc.AutomaticallyUpdateStyles = true;
+
+doc.Save(ArtifactsDir + "Document.AutomaticallyUpdateStyles.docx");
+```
+
+Shows how to set a default template for documents that do not have attached templates.
+
+```csharp
+Document doc = new Document();
+
+// Enable automatic style updating, but do not attach a template document.
+doc.AutomaticallyUpdateStyles = true;
+
+Assert.AreEqual(string.Empty, doc.AttachedTemplate);
+
+// Since there is no template document, the document had nowhere to track style changes.
+// Use a SaveOptions object to automatically set a template
+// if a document that we are saving does not have one.
+SaveOptions options = SaveOptions.CreateSaveOptions("Document.DefaultTemplate.docx");
+options.DefaultTemplate = MyDir + "Business brochure.dotx";
+
+doc.Save(ArtifactsDir + "Document.DefaultTemplate.docx", options);
+```
+
 ### See Also
 
 * class [Document](../../document)

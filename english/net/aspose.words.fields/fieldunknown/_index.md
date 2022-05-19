@@ -46,6 +46,25 @@ public class FieldUnknown : Field
 | [Update](../../aspose.words.fields/field/update)() | Performs the field update. Throws if the field is being updated already. |
 | [Update](../../aspose.words.fields/field/update)(bool) | Performs a field update. Throws if the field is being updated already. |
 
+### Examples
+
+Shows how to work with 'FieldNone' field in a document.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+// Insert a field that does not denote an objective field type in its field code.
+Field field = builder.InsertField(" NOTAREALFIELD //a");
+
+// The "FieldNone" field type is reserved for fields such as these.
+Assert.AreEqual(FieldType.FieldNone, field.Type);
+
+// We can also still work with these fields and assign them as instances of the FieldUnknown class.
+FieldUnknown fieldUnknown = (FieldUnknown)field;
+Assert.AreEqual(" NOTAREALFIELD //a", fieldUnknown.GetFieldCode());
+```
+
 ### See Also
 
 * class [Field](../field)

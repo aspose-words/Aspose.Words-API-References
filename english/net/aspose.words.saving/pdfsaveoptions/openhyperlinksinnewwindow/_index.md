@@ -22,6 +22,27 @@ Note that if this option is set to `true` hyperlinks can't work in some PDF read
 
 JavaScript actions are prohibited by PDF/A-1 and PDF/A-2 compliance. `false` will be used automatically when saving to PDF/A-1 and PDF/A-2.
 
+### Examples
+
+Shows how to save hyperlinks in a document we convert to PDF so that they open new pages when we click on them.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+builder.InsertHyperlink("Testlink", @"https://www.google.com/search?q=%20aspose", false);
+
+// Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+// to modify how that method converts the document to .PDF.
+PdfSaveOptions options = new PdfSaveOptions();
+
+// Set the "OpenHyperlinksInNewWindow" property to "true" to save all hyperlinks using Javascript code
+// that forces readers to open these links in new windows/browser tabs.
+// Set the "OpenHyperlinksInNewWindow" property to "false" to save all hyperlinks normally.
+options.OpenHyperlinksInNewWindow = openHyperlinksInNewWindow;
+
+doc.Save(ArtifactsDir + "PdfSaveOptions.OpenHyperlinksInNewWindow.pdf", options);
+```
+
 ### See Also
 
 * class [PdfSaveOptions](../../pdfsaveoptions)

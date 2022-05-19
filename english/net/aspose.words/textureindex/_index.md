@@ -73,6 +73,55 @@ public enum TextureIndex
 | TextureVertical | `21` |  |
 | TextureNil | `65535` | Specifies that there shall be no pattern used on the current shaded region (i.e. the pattern shall be a complete fill with the background color). |
 
+### Examples
+
+Shows how to decorate text with borders and shading.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+BorderCollection borders = builder.ParagraphFormat.Borders;
+borders.DistanceFromText = 20;
+borders[BorderType.Left].LineStyle = LineStyle.Double;
+borders[BorderType.Right].LineStyle = LineStyle.Double;
+borders[BorderType.Top].LineStyle = LineStyle.Double;
+borders[BorderType.Bottom].LineStyle = LineStyle.Double;
+
+Shading shading = builder.ParagraphFormat.Shading;
+shading.Texture = TextureIndex.TextureDiagonalCross;
+shading.BackgroundPatternColor = Color.LightCoral;
+shading.ForegroundPatternColor = Color.LightSalmon;
+
+builder.Write("This paragraph is formatted with a double border and shading.");
+doc.Save(ArtifactsDir + "DocumentBuilder.ApplyBordersAndShading.docx");
+```
+
+Shows how to apply an outline border to a table.
+
+```csharp
+Document doc = new Document(MyDir + "Tables.docx");
+Table table = doc.FirstSection.Body.Tables[0];
+
+// Align the table to the center of the page.
+table.Alignment = TableAlignment.Center;
+
+// Clear any existing borders and shading from the table.
+table.ClearBorders();
+table.ClearShading();
+
+// Add green borders to the outline of the table.
+table.SetBorder(BorderType.Left, LineStyle.Single, 1.5, Color.Green, true);
+table.SetBorder(BorderType.Right, LineStyle.Single, 1.5, Color.Green, true);
+table.SetBorder(BorderType.Top, LineStyle.Single, 1.5, Color.Green, true);
+table.SetBorder(BorderType.Bottom, LineStyle.Single, 1.5, Color.Green, true);
+
+// Fill the cells with a light green solid color.
+table.SetShading(TextureIndex.TextureSolid, Color.LightGreen, Color.Empty);
+
+doc.Save(ArtifactsDir + "Table.SetOutlineBorders.docx");
+```
+
 ### See Also
 
 * namespace [Aspose.Words](../../aspose.words)

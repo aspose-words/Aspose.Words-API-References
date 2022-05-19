@@ -27,6 +27,28 @@ public enum PdfCompliance
 | PdfA4 | `6` | The output file will comply with the PDF/A-4 (ISO 19005-4:2020) standard. PDF/A-4 has the objective of preserving document static visual appearance over time, independent of the tools and systems used for creating, storing or rendering the files. Additionally any text contained in the document can be reliably extracted as a series of Unicode codepoints. |
 | PdfUa1 | `7` | The output file will comply with the PDF/UA-1 (ISO 14289-1) standard. The primary purpose of PDF/UA is to define how to represent electronic documents in the PDF format in a manner that allows the file to be accessible. |
 
+### Examples
+
+Shows how to set the PDF standards compliance level of saved PDF documents.
+
+```csharp
+Document doc = new Document(MyDir + "Images.docx");
+
+// Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+// to modify how that method converts the document to .PDF.
+PdfSaveOptions saveOptions = new PdfSaveOptions();
+
+// Set the "Compliance" property to "PdfCompliance.PdfA1b" to comply with the "PDF/A-1b" standard,
+// which aims to preserve the visual appearance of the document as Aspose.Words convert it to PDF.
+// Set the "Compliance" property to "PdfCompliance.Pdf17" to comply with the "1.7" standard.
+// Set the "Compliance" property to "PdfCompliance.PdfA1a" to comply with the "PDF/A-1a" standard,
+// which complies with "PDF/A-1b" as well as preserving the document structure of the original document.
+// This helps with making documents searchable but may significantly increase the size of already large documents.
+saveOptions.Compliance = pdfCompliance;
+
+doc.Save(ArtifactsDir + "PdfSaveOptions.Compliance.pdf", saveOptions);
+```
+
 ### See Also
 
 * namespace [Aspose.Words.Saving](../../aspose.words.saving)

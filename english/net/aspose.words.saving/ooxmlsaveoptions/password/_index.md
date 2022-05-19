@@ -18,6 +18,31 @@ public string Password { get; set; }
 
 In order to save document without encryption this property should be null or empty string.
 
+### Examples
+
+Shows how to create a password encrypted Office Open XML document.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+builder.Writeln("Hello world!");
+
+OoxmlSaveOptions saveOptions = new OoxmlSaveOptions();
+saveOptions.Password = "MyPassword";
+
+doc.Save(ArtifactsDir + "OoxmlSaveOptions.Password.docx", saveOptions);
+
+// We will not be able to open this document with Microsoft Word or
+// Aspose.Words without providing the correct password.
+Assert.Throws<IncorrectPasswordException>(() =>
+    doc = new Document(ArtifactsDir + "OoxmlSaveOptions.Password.docx"));
+
+// Open the encrypted document by passing the correct password in a LoadOptions object.
+doc = new Document(ArtifactsDir + "OoxmlSaveOptions.Password.docx", new LoadOptions("MyPassword"));
+
+Assert.AreEqual("Hello world!", doc.GetText().Trim());
+```
+
 ### See Also
 
 * class [OoxmlSaveOptions](../../ooxmlsaveoptions)

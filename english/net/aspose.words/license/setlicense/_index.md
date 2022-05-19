@@ -38,6 +38,27 @@ Tries to find the license in the following locations:
 
 2. An embedded resource in the client's calling assembly.
 
+### Examples
+
+Shows how initialize a license for Aspose.Words using a license file in the local file system.
+
+```csharp
+// Set the license for our Aspose.Words product by passing the local file system filename of a valid license file.
+string licenseFileName = Path.Combine(LicenseDir, "Aspose.Words.NET.lic");
+
+License license = new License();
+license.SetLicense(licenseFileName);
+
+// Create a copy of our license file in the binaries folder of our application.
+string licenseCopyFileName = Path.Combine(AssemblyDir, "Aspose.Words.NET.lic");
+File.Copy(licenseFileName, licenseCopyFileName);
+
+// If we pass a file's name without a path,
+// the SetLicense will search several local file system locations for this file.
+// One of those locations will be the "bin" folder, which contains a copy of our license file.
+license.SetLicense("Aspose.Words.NET.lic");
+```
+
 ### See Also
 
 * class [License](../../license)
@@ -61,6 +82,19 @@ public void SetLicense(Stream stream)
 ### Remarks
 
 Use this method to load a license from a stream.
+
+### Examples
+
+Shows how to initialize a license for Aspose.Words from a stream.
+
+```csharp
+// Set the license for our Aspose.Words product by passing a stream for a valid license file in our local file system.
+using (Stream myStream = File.OpenRead(Path.Combine(LicenseDir, "Aspose.Words.NET.lic")))
+{
+    License license = new License();
+    license.SetLicense(myStream);
+}
+```
 
 ### See Also
 

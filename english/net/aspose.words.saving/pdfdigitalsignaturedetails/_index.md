@@ -40,6 +40,35 @@ To digitally sign a PDF document when it is created by Aspose.Words, set the [`D
 
 Aspose.Words creates a PKCS#7 signature over the whole PDF document and uses the "Adobe.PPKMS" filter and "adbe.pkcs7.sha1" subfilter when creating a digital signature.
 
+### Examples
+
+Shows how to sign a generated PDF document.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+builder.Writeln("Contents of signed PDF.");
+
+CertificateHolder certificateHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "aw");
+
+// Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+// to modify how that method converts the document to .PDF.
+PdfSaveOptions options = new PdfSaveOptions();
+
+// Configure the "DigitalSignatureDetails" object of the "SaveOptions" object to
+// digitally sign the document as we render it with the "Save" method.
+DateTime signingTime = DateTime.Now;
+options.DigitalSignatureDetails =
+    new PdfDigitalSignatureDetails(certificateHolder, "Test Signing", "My Office", signingTime);
+options.DigitalSignatureDetails.HashAlgorithm = PdfDigitalSignatureHashAlgorithm.Sha256;
+
+Assert.AreEqual("Test Signing", options.DigitalSignatureDetails.Reason);
+Assert.AreEqual("My Office", options.DigitalSignatureDetails.Location);
+Assert.AreEqual(signingTime.ToUniversalTime(), options.DigitalSignatureDetails.SignatureDate.ToUniversalTime());
+
+doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignature.pdf", options);
+```
+
 ### See Also
 
 * namespace [Aspose.Words.Saving](../../aspose.words.saving)

@@ -14,6 +14,21 @@ Returns **NodeType.SubDocument**
 public override NodeType NodeType { get; }
 ```
 
+### Examples
+
+Shows how to access a master document's subdocument.
+
+```csharp
+Document doc = new Document(MyDir + "Master document.docx");
+
+NodeCollection subDocuments = doc.GetChildNodes(NodeType.SubDocument, true);
+
+// This node serves as a reference to an external document, and its contents cannot be accessed.
+SubDocument subDocument = (SubDocument)subDocuments[0];
+
+Assert.False(subDocument.IsComposite);
+```
+
 ### See Also
 
 * enum [NodeType](../../nodetype)

@@ -16,7 +16,7 @@ public IDocumentLoadingCallback ProgressCallback { get; set; }
 
 ### Remarks
 
-Docx, FlatOpc, Docm, Dotm, Dotx, Markdown, Rtf, WordML, Doc, Dot formats supported.
+Docx, FlatOpc, Docm, Dotm, Dotx, Markdown, Rtf, WordML, Doc, Dot, Odt, Ott formats supported.
 
 ### See Also
 

@@ -14,6 +14,28 @@ Returns a Shading object that refers to the shading formatting for the font.
 public Shading Shading { get; }
 ```
 
+### Examples
+
+Shows how to apply shading to text created by a document builder.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+builder.Font.Color = Color.White;
+
+// One way to make the text created using our white font color visible
+// is to apply a background shading effect.
+Shading shading = builder.Font.Shading;
+shading.Texture = TextureIndex.TextureDiagonalUp;
+shading.BackgroundPatternColor = Color.OrangeRed;
+shading.ForegroundPatternColor = Color.DarkBlue;
+
+builder.Writeln("White text on an orange background with a two-tone texture.");
+
+doc.Save(ArtifactsDir + "Font.Shading.docx");
+```
+
 ### See Also
 
 * class [Shading](../../shading)

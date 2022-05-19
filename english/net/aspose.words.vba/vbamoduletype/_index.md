@@ -23,6 +23,30 @@ public enum VbaModuleType
 | ClassModule | `2` | A module that contains the definition for a new object. Each instance of a class creates a new object, and procedures that are defined in the module become properties and methods of the object. |
 | DesignerModule | `3` | A VBA module that extends the methods and properties of an ActiveX control that has been registered with the project. |
 
+### Examples
+
+Shows how to create a VBA project using macros.
+
+```csharp
+Document doc = new Document();
+
+// Create a new VBA project.
+VbaProject project = new VbaProject();
+project.Name = "Aspose.Project";
+doc.VbaProject = project;
+
+// Create a new module and specify a macro source code.
+VbaModule module = new VbaModule();
+module.Name = "Aspose.Module";
+module.Type = VbaModuleType.ProceduralModule;
+module.SourceCode = "New source code";
+
+// Add the module to the VBA project.
+doc.VbaProject.Modules.Add(module);
+
+doc.Save(ArtifactsDir + "VbaProject.CreateVBAMacros.docm");
+```
+
 ### See Also
 
 * namespace [Aspose.Words.Vba](../../aspose.words.vba)

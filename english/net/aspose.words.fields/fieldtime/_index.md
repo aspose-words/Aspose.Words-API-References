@@ -50,6 +50,49 @@ public class FieldTime : Field
 
 Inserts the current date and time.
 
+### Examples
+
+Shows how to display the current time using the TIME field.
+
+```csharp
+public void FieldTime()
+{
+    Document doc = new Document();
+    DocumentBuilder builder = new DocumentBuilder(doc);
+
+    // By default, time is displayed in the "h:mm am/pm" format.
+    FieldTime field = InsertFieldTime(builder, "");
+
+    Assert.AreEqual(" TIME ", field.GetFieldCode());
+
+    // We can use the \@ flag to change the format of our displayed time.
+    field = InsertFieldTime(builder, "\\@ HHmm");
+
+    Assert.AreEqual(" TIME \\@ HHmm", field.GetFieldCode());
+
+    // We can adjust the format to get TIME field to also display the date, according to the Gregorian calendar.
+    field = InsertFieldTime(builder, "\\@ \"M/d/yyyy h mm:ss am/pm\"");
+
+    Assert.AreEqual(" TIME \\@ \"M/d/yyyy h mm:ss am/pm\"", field.GetFieldCode());
+
+    doc.Save(ArtifactsDir + "Field.TIME.docx");
+}
+
+/// <summary>
+/// Use a document builder to insert a TIME field, insert a new paragraph and return the field.
+/// </summary>
+private static FieldTime InsertFieldTime(DocumentBuilder builder, string format)
+{
+    FieldTime field = (FieldTime)builder.InsertField(FieldType.FieldTime, true);
+    builder.MoveTo(field.Separator);
+    builder.Write(format);
+    builder.MoveTo(field.Start.ParentNode);
+
+    builder.InsertParagraph();
+    return field;
+}
+```
+
 ### See Also
 
 * class [Field](../field)

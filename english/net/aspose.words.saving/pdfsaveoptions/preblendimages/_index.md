@@ -22,6 +22,50 @@ In order to properly display preblended images, PDF viewer application must supp
 
 The default value is `false`.
 
+### Examples
+
+Shows how to preblend images with transparent backgrounds while saving a document to PDF.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+Image img = Image.FromFile(ImageDir + "Transparent background logo.png");
+builder.InsertImage(img);
+
+// Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+// to modify how that method converts the document to .PDF.
+PdfSaveOptions options = new PdfSaveOptions();
+
+// Set the "PreblendImages" property to "true" to preblend transparent images
+// with a background, which may reduce artifacts.
+// Set the "PreblendImages" property to "false" to render transparent images normally.
+options.PreblendImages = preblendImages;
+
+doc.Save(ArtifactsDir + "PdfSaveOptions.PreblendImages.pdf", options);
+```
+
+Shows how to preblend images with transparent backgrounds (.NetStandard 2.0).
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+using (Image image = Image.Decode(ImageDir + "Transparent background logo.png"))
+    builder.InsertImage(image);
+
+// Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+// to modify how that method converts the document to .PDF.
+PdfSaveOptions options = new PdfSaveOptions();
+
+// Set the "PreblendImages" property to "true" to preblend transparent images
+// with a background, which may reduce artifacts.
+// Set the "PreblendImages" property to "false" to render transparent images normally.
+options.PreblendImages = preblendImages;
+
+doc.Save(ArtifactsDir + "PdfSaveOptions.PreblendImagesNetStandard2.pdf", options);
+```
+
 ### See Also
 
 * class [PdfSaveOptions](../../pdfsaveoptions)

@@ -14,6 +14,45 @@ Removes all fields of this collection from the document and from this collection
 public void Clear()
 ```
 
+### Examples
+
+Shows how to remove fields from a field collection.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+builder.InsertField(" DATE \\@ \"dddd, d MMMM yyyy\" ");
+builder.InsertField(" TIME ");
+builder.InsertField(" REVNUM ");
+builder.InsertField(" AUTHOR  \"John Doe\" ");
+builder.InsertField(" SUBJECT \"My Subject\" ");
+builder.InsertField(" QUOTE \"Hello world!\" ");
+doc.UpdateFields();
+
+FieldCollection fields = doc.Range.Fields;
+
+Assert.AreEqual(6, fields.Count);
+
+// Below are four ways of removing fields from a field collection.
+// 1 -  Get a field to remove itself:
+fields[0].Remove();
+Assert.AreEqual(5, fields.Count);
+
+// 2 -  Get the collection to remove a field that we pass to its removal method:
+Field lastField = fields[3];
+fields.Remove(lastField);
+Assert.AreEqual(4, fields.Count);
+
+// 3 -  Remove a field from a collection at an index:
+fields.RemoveAt(2);
+Assert.AreEqual(3, fields.Count);
+
+// 4 -  Remove all the fields from the collection at once:
+fields.Clear();
+Assert.AreEqual(0, fields.Count);
+```
+
 ### See Also
 
 * class [FieldCollection](../../fieldcollection)

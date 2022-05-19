@@ -25,6 +25,46 @@ public Shape InsertOleObject(Stream stream, string progId, bool asIcon, Stream p
 
 Shape node containing Ole object and inserted at the current Builder position.
 
+### Examples
+
+Shows how to use document builder to embed OLE objects in a document.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+// Insert a Microsoft Excel spreadsheet from the local file system
+// into the document while keeping its default appearance.
+using (Stream spreadsheetStream = File.Open(MyDir + "Spreadsheet.xlsx", FileMode.Open))
+{
+    builder.Writeln("Spreadsheet Ole object:");
+    // If 'presentation' is omitted and 'asIcon' is set, this overloaded method selects
+    // the icon according to 'progId' and uses the predefined icon caption.
+    builder.InsertOleObject(spreadsheetStream, "OleObject.xlsx", false, null);
+}
+
+// Insert a Microsoft Powerpoint presentation as an OLE object.
+// This time, it will have an image downloaded from the web for an icon.
+using (Stream powerpointStream = File.Open(MyDir + "Presentation.pptx", FileMode.Open))
+{
+    using (WebClient webClient = new WebClient())
+    {
+        byte[] imgBytes = File.ReadAllBytes(ImageDir + "Logo.jpg");
+
+        using (MemoryStream imageStream = new MemoryStream(imgBytes))
+        {
+            builder.InsertParagraph();
+            builder.Writeln("Powerpoint Ole object:");
+            builder.InsertOleObject(powerpointStream, "OleObject.pptx", true, imageStream);
+        }
+    }
+}
+
+// Double-click these objects in Microsoft Word to open
+// the linked files using their respective applications.
+doc.Save(ArtifactsDir + "DocumentBuilder.InsertOleObjects.docx");
+```
+
 ### See Also
 
 * class [Shape](../../../aspose.words.drawing/shape)
@@ -52,6 +92,39 @@ public Shape InsertOleObject(string fileName, bool isLinked, bool asIcon, Stream
 ## Return Value
 
 Shape node containing Ole object and inserted at the current Builder position.
+
+### Examples
+
+Shows how to insert an OLE object into a document.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+// OLE objects are links to files in our local file system that can be opened by other installed applications.
+// Double clicking these shapes will launch the application, and then use it to open the linked object.
+// There are three ways of using the InsertOleObject method to insert these shapes and configure their appearance.
+// 1 -  Image taken from the local file system:
+using (FileStream imageStream = new FileStream(ImageDir + "Logo.jpg", FileMode.Open))
+{
+    // If 'presentation' is omitted and 'asIcon' is set, this overloaded method selects
+    // the icon according to the file extension and uses the filename for the icon caption.
+    builder.InsertOleObject(MyDir + "Spreadsheet.xlsx", false, false, imageStream); 
+}
+
+// If 'presentation' is omitted and 'asIcon' is set, this overloaded method selects
+// the icon according to 'progId' and uses the filename for the icon caption.
+// 2 -  Icon based on the application that will open the object:
+builder.InsertOleObject(MyDir + "Spreadsheet.xlsx", "Excel.Sheet", false, true, null);
+
+// If 'iconFile' and 'iconCaption' are omitted, this overloaded method selects
+// the icon according to 'progId' and uses the predefined icon caption.
+// 3 -  Image icon that's 32 x 32 pixels or smaller from the local file system, with a custom caption:
+builder.InsertOleObjectAsIcon(MyDir + "Presentation.pptx", false, ImageDir + "Logo icon.ico",
+    "Double click to view presentation!");
+
+doc.Save(ArtifactsDir + "DocumentBuilder.InsertOleObject.docx");
+```
 
 ### See Also
 
@@ -82,6 +155,39 @@ public Shape InsertOleObject(string fileName, string progId, bool isLinked, bool
 ## Return Value
 
 Shape node containing Ole object and inserted at the current Builder position.
+
+### Examples
+
+Shows how to insert an OLE object into a document.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+// OLE objects are links to files in our local file system that can be opened by other installed applications.
+// Double clicking these shapes will launch the application, and then use it to open the linked object.
+// There are three ways of using the InsertOleObject method to insert these shapes and configure their appearance.
+// 1 -  Image taken from the local file system:
+using (FileStream imageStream = new FileStream(ImageDir + "Logo.jpg", FileMode.Open))
+{
+    // If 'presentation' is omitted and 'asIcon' is set, this overloaded method selects
+    // the icon according to the file extension and uses the filename for the icon caption.
+    builder.InsertOleObject(MyDir + "Spreadsheet.xlsx", false, false, imageStream); 
+}
+
+// If 'presentation' is omitted and 'asIcon' is set, this overloaded method selects
+// the icon according to 'progId' and uses the filename for the icon caption.
+// 2 -  Icon based on the application that will open the object:
+builder.InsertOleObject(MyDir + "Spreadsheet.xlsx", "Excel.Sheet", false, true, null);
+
+// If 'iconFile' and 'iconCaption' are omitted, this overloaded method selects
+// the icon according to 'progId' and uses the predefined icon caption.
+// 3 -  Image icon that's 32 x 32 pixels or smaller from the local file system, with a custom caption:
+builder.InsertOleObjectAsIcon(MyDir + "Presentation.pptx", false, ImageDir + "Logo icon.ico",
+    "Double click to view presentation!");
+
+doc.Save(ArtifactsDir + "DocumentBuilder.InsertOleObject.docx");
+```
 
 ### See Also
 

@@ -19,6 +19,24 @@ public FolderFontSource(string folderPath, bool scanSubfolders)
 | folderPath | String | Path to folder. |
 | scanSubfolders | Boolean | Determines whether or not to scan subfolders. |
 
+### Examples
+
+Shows how to use a local system folder which contains fonts as a font source.
+
+```csharp
+// Create a font source from a folder that contains font files.
+FolderFontSource folderFontSource = new FolderFontSource(FontsDir, false, 1);
+
+Document doc = new Document();
+doc.FontSettings = new FontSettings();
+doc.FontSettings.SetFontsSources(new FontSourceBase[] { folderFontSource });
+
+Assert.AreEqual(FontsDir, folderFontSource.FolderPath);
+Assert.AreEqual(false, folderFontSource.ScanSubfolders);
+Assert.AreEqual(FontSourceType.FontsFolder, folderFontSource.Type);
+Assert.AreEqual(1, folderFontSource.Priority);
+```
+
 ### See Also
 
 * class [FolderFontSource](../../folderfontsource)
@@ -40,6 +58,24 @@ public FolderFontSource(string folderPath, bool scanSubfolders, int priority)
 | folderPath | String | Path to folder. |
 | scanSubfolders | Boolean | Determines whether or not to scan subfolders. |
 | priority | Int32 | Font source priority. See the [`Priority`](../../fontsourcebase/priority) property description for more information. |
+
+### Examples
+
+Shows how to use a local system folder which contains fonts as a font source.
+
+```csharp
+// Create a font source from a folder that contains font files.
+FolderFontSource folderFontSource = new FolderFontSource(FontsDir, false, 1);
+
+Document doc = new Document();
+doc.FontSettings = new FontSettings();
+doc.FontSettings.SetFontsSources(new FontSourceBase[] { folderFontSource });
+
+Assert.AreEqual(FontsDir, folderFontSource.FolderPath);
+Assert.AreEqual(false, folderFontSource.ScanSubfolders);
+Assert.AreEqual(FontSourceType.FontsFolder, folderFontSource.Type);
+Assert.AreEqual(1, folderFontSource.Priority);
+```
 
 ### See Also
 

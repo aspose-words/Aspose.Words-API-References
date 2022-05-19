@@ -55,6 +55,16 @@ public enum SaveFormat
 | Jpeg | `104` | Renders a page of the document and saves it as a JPEG file. |
 | Gif | `105` | Renders a page of the document and saves it as a GIF file. |
 
+### Examples
+
+Shows how to convert from DOCX to HTML format.
+
+```csharp
+Document doc = new Document(MyDir + "Document.docx");
+
+doc.Save(ArtifactsDir + "Document.ConvertToHtml.html", SaveFormat.Html);
+```
+
 ### See Also
 
 * method [Save](../document/save)

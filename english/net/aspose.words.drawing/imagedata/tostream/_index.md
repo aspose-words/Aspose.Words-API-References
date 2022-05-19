@@ -24,6 +24,31 @@ If the image is linked and stored in an external URL, downloads the file and ret
 
 Is it the responsibility of the caller to dispose the stream object.
 
+### Examples
+
+Shows how to create an image file from a shape's raw image data.
+
+```csharp
+Document imgSourceDoc = new Document(MyDir + "Images.docx");
+
+Shape imgShape = (Shape) imgSourceDoc.GetChild(NodeType.Shape, 0, true);
+
+Assert.True(imgShape.HasImage);
+
+// ToByteArray() returns the array stored in the ImageBytes property.
+Assert.AreEqual(imgShape.ImageData.ImageBytes, imgShape.ImageData.ToByteArray());
+
+// Save the shape's image data to an image file in the local file system.
+using (Stream imgStream = imgShape.ImageData.ToStream())
+{
+    using (FileStream outStream = new FileStream(ArtifactsDir + "Drawing.GetDataFromImage.png",
+        FileMode.Create, FileAccess.ReadWrite))
+    {
+        imgStream.CopyTo(outStream);
+    }
+}
+```
+
 ### See Also
 
 * class [ImageData](../../imagedata)

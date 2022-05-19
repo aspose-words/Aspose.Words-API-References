@@ -18,12 +18,41 @@ public enum PdfDigitalSignatureHashAlgorithm
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Sha1 | `0` | SHA-1 hash algorithm. |
+| Sha1 | `0` |  |
 | Sha256 | `1` | SHA-256 hash algorithm. |
 | Sha384 | `2` | SHA-384 hash algorithm. |
 | Sha512 | `3` | SHA-512 hash algorithm. |
-| Md5 | `4` | MD5 hash algorithm. |
+| Md5 | `4` |  |
 | RipeMD160 | `5` | RIPEMD-160 hash algorithm. |
+
+### Examples
+
+Shows how to sign a generated PDF document.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+builder.Writeln("Contents of signed PDF.");
+
+CertificateHolder certificateHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "aw");
+
+// Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
+// to modify how that method converts the document to .PDF.
+PdfSaveOptions options = new PdfSaveOptions();
+
+// Configure the "DigitalSignatureDetails" object of the "SaveOptions" object to
+// digitally sign the document as we render it with the "Save" method.
+DateTime signingTime = DateTime.Now;
+options.DigitalSignatureDetails =
+    new PdfDigitalSignatureDetails(certificateHolder, "Test Signing", "My Office", signingTime);
+options.DigitalSignatureDetails.HashAlgorithm = PdfDigitalSignatureHashAlgorithm.Sha256;
+
+Assert.AreEqual("Test Signing", options.DigitalSignatureDetails.Reason);
+Assert.AreEqual("My Office", options.DigitalSignatureDetails.Location);
+Assert.AreEqual(signingTime.ToUniversalTime(), options.DigitalSignatureDetails.SignatureDate.ToUniversalTime());
+
+doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignature.pdf", options);
+```
 
 ### See Also
 

@@ -57,6 +57,94 @@ The [`Node`](../node) class:
 * Implements parent node and owner document mechanisms.
 * Implements access to sibling nodes.
 
+### Examples
+
+Shows how to remove all child nodes of a specific type from a composite node.
+
+```csharp
+Document doc = new Document(MyDir + "Tables.docx");
+
+Assert.AreEqual(2, doc.GetChildNodes(NodeType.Table, true).Count);
+
+Node curNode = doc.FirstSection.Body.FirstChild;
+
+while (curNode != null)
+{
+    // Save the next sibling node as a variable in case we want to move to it after deleting this node.
+    Node nextNode = curNode.NextSibling;
+
+    // A section body can contain Paragraph and Table nodes.
+    // If the node is a Table, remove it from the parent.
+    if (curNode.NodeType == NodeType.Table)
+        curNode.Remove();
+
+    curNode = nextNode;
+}
+
+Assert.AreEqual(0, doc.GetChildNodes(NodeType.Table, true).Count);
+```
+
+Shows how to clone a composite node.
+
+```csharp
+Document doc = new Document();
+Paragraph para = doc.FirstSection.Body.FirstParagraph;
+para.AppendChild(new Run(doc, "Hello world!"));
+
+// Below are two ways of cloning a composite node.
+// 1 -  Create a clone of a node, and create a clone of each of its child nodes as well.
+Node cloneWithChildren = para.Clone(true);
+
+Assert.IsTrue(((CompositeNode)cloneWithChildren).HasChildNodes);
+Assert.AreEqual("Hello world!", cloneWithChildren.GetText().Trim());
+
+// 2 -  Create a clone of a node just by itself without any children.
+Node cloneWithoutChildren = para.Clone(false);
+
+Assert.IsFalse(((CompositeNode)cloneWithoutChildren).HasChildNodes);
+Assert.AreEqual(string.Empty, cloneWithoutChildren.GetText().Trim());
+```
+
+Shows how to traverse through a composite node's collection of child nodes.
+
+```csharp
+Document doc = new Document();
+
+// Add two runs and one shape as child nodes to the first paragraph of this document.
+Paragraph paragraph = (Paragraph)doc.GetChild(NodeType.Paragraph, 0, true);
+paragraph.AppendChild(new Run(doc, "Hello world! "));
+
+Shape shape = new Shape(doc, ShapeType.Rectangle);
+shape.Width = 200;
+shape.Height = 200;
+// Note that the 'CustomNodeId' is not saved to an output file and exists only during the node lifetime.
+shape.CustomNodeId = 100;
+shape.WrapType = WrapType.Inline;
+paragraph.AppendChild(shape);
+
+paragraph.AppendChild(new Run(doc, "Hello again!"));
+
+// Iterate through the paragraph's collection of immediate children,
+// and print any runs or shapes that we find within.
+NodeCollection children = paragraph.ChildNodes;
+
+Assert.AreEqual(3, paragraph.ChildNodes.Count);
+
+foreach (Node child in children)
+    switch (child.NodeType)
+    {
+        case NodeType.Run:
+            Console.WriteLine("Run contents:");
+            Console.WriteLine($"\t\"{child.GetText().Trim()}\"");
+            break;
+        case NodeType.Shape:
+            Shape childShape = (Shape)child;
+            Console.WriteLine("Shape:");
+            Console.WriteLine($"\t{childShape.ShapeType}, {childShape.Width}x{childShape.Height}");
+            break;
+    }
+```
+
 ### See Also
 
 * namespace [Aspose.Words](../../aspose.words)

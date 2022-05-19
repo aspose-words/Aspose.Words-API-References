@@ -20,6 +20,31 @@ This property is used by the [`FieldTemplate`](../../fieldtemplate) field if the
 
 If this property is empty, the default template file name `Normal.dotm` is used.
 
+### Examples
+
+Shows how to use a TEMPLATE field to display the local file system location of a document's template.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+// We can set a template name using by the fields. This property is used when the "doc.AttachedTemplate" is empty.
+// If this property is empty the default template file name "Normal.dotm" is used.
+doc.FieldOptions.TemplateName = string.Empty;
+
+FieldTemplate field = (FieldTemplate)builder.InsertField(FieldType.FieldTemplate, false);
+Assert.AreEqual(" TEMPLATE ", field.GetFieldCode());
+
+builder.Writeln();
+field = (FieldTemplate)builder.InsertField(FieldType.FieldTemplate, false);
+field.IncludeFullPath = true;
+
+Assert.AreEqual(" TEMPLATE  \\p", field.GetFieldCode());
+
+doc.UpdateFields();
+doc.Save(ArtifactsDir + "Field.TEMPLATE.docx");
+```
+
 ### See Also
 
 * class [FieldOptions](../../fieldoptions)

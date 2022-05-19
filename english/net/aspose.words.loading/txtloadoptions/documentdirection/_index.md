@@ -14,6 +14,31 @@ Gets or sets a document direction. The default value is LeftToRight.
 public DocumentDirection DocumentDirection { get; set; }
 ```
 
+### Examples
+
+Shows how to detect plaintext document text direction.
+
+```csharp
+// Create a "TxtLoadOptions" object, which we can pass to a document's constructor
+// to modify how we load a plaintext document.
+TxtLoadOptions loadOptions = new TxtLoadOptions();
+
+// Set the "DocumentDirection" property to "DocumentDirection.Auto" automatically detects
+// the direction of every paragraph of text that Aspose.Words loads from plaintext.
+// Each paragraph's "Bidi" property will store its direction.
+loadOptions.DocumentDirection = DocumentDirection.Auto;
+
+// Detect Hebrew text as right-to-left.
+Document doc = new Document(MyDir + "Hebrew text.txt", loadOptions);
+
+Assert.True(doc.FirstSection.Body.FirstParagraph.ParagraphFormat.Bidi);
+
+// Detect English text as right-to-left.
+doc = new Document(MyDir + "English text.txt", loadOptions);
+
+Assert.False(doc.FirstSection.Body.FirstParagraph.ParagraphFormat.Bidi);
+```
+
 ### See Also
 
 * enum [DocumentDirection](../../documentdirection)

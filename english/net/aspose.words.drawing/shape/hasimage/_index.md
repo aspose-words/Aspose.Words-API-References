@@ -14,6 +14,49 @@ Returns true if the shape has image bytes or links an image.
 public bool HasImage { get; }
 ```
 
+### Examples
+
+Shows how to delete all shapes with images from a document.
+
+```csharp
+Document doc = new Document(MyDir + "Images.docx");
+NodeCollection shapes = doc.GetChildNodes(NodeType.Shape, true);
+
+Assert.AreEqual(9, shapes.OfType<Shape>().Count(s => s.HasImage));
+
+foreach (Shape shape in shapes.OfType<Shape>())
+    if (shape.HasImage) 
+        shape.Remove();
+
+Assert.AreEqual(0, shapes.OfType<Shape>().Count(s => s.HasImage));
+```
+
+Shows how to extract images from a document, and save them to the local file system as individual files.
+
+```csharp
+Document doc = new Document(MyDir + "Images.docx");
+
+// Get the collection of shapes from the document,
+// and save the image data of every shape with an image as a file to the local file system.
+NodeCollection shapes = doc.GetChildNodes(NodeType.Shape, true);
+
+Assert.AreEqual(9, shapes.Count(s => ((Shape)s).HasImage));
+
+int imageIndex = 0;
+foreach (Shape shape in shapes.OfType<Shape>())
+{
+    if (shape.HasImage)
+    {
+        // The image data of shapes may contain images of many possible image formats. 
+        // We can determine a file extension for each image automatically, based on its format.
+        string imageFileName =
+            $"File.ExtractImages.{imageIndex}{FileFormatUtil.ImageTypeToExtension(shape.ImageData.ImageType)}";
+        shape.ImageData.Save(ArtifactsDir + imageFileName);
+        imageIndex++;
+    }
+}
+```
+
 ### See Also
 
 * class [Shape](../../shape)

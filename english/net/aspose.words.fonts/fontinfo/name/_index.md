@@ -18,6 +18,24 @@ public string Name { get; }
 
 Cannot be `null`. Can be an empty string.
 
+### Examples
+
+Shows how to print the details of what fonts are present in a document.
+
+```csharp
+Document doc = new Document(MyDir + "Embedded font.docx");
+
+FontInfoCollection allFonts = doc.FontInfos;
+
+// Print all the used and unused fonts in the document.
+for (int i = 0; i < allFonts.Count; i++)
+{
+    Console.WriteLine($"Font index #{i}");
+    Console.WriteLine($"\tName: {allFonts[i].Name}");
+    Console.WriteLine($"\tIs {(allFonts[i].IsTrueType ? "" : "not ")}a trueType font");
+}
+```
+
 ### See Also
 
 * class [FontInfo](../../fontinfo)

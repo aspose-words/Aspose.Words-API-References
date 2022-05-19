@@ -24,6 +24,31 @@ public Shape InsertShape(ShapeType shapeType, double width, double height)
 
 The shape node that was inserted.
 
+### Examples
+
+Shows how to insert DML shapes into a document.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+// Below are two wrapping types that shapes may have.
+// 1 -  Floating:
+builder.InsertShape(ShapeType.TopCornersRounded, RelativeHorizontalPosition.Page, 100, 
+        RelativeVerticalPosition.Page, 100, 50, 50, WrapType.None);
+
+// 2 -  Inline:
+builder.InsertShape(ShapeType.DiagonalCornersRounded, 50, 50);
+
+// If you need to create "non-primitive" shapes, such as SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,
+// TopCornersOneRoundedOneSnipped, SingleCornerRounded, TopCornersRounded, or DiagonalCornersRounded,
+// then save the document with "Strict" or "Transitional" compliance, which allows saving shape as DML.
+OoxmlSaveOptions saveOptions = new OoxmlSaveOptions(SaveFormat.Docx);
+saveOptions.Compliance = OoxmlCompliance.Iso29500_2008_Transitional;
+
+doc.Save(ArtifactsDir + "Shape.ShapeInsertion.docx", saveOptions);
+```
+
 ### See Also
 
 * class [Shape](../../../aspose.words.drawing/shape)
@@ -57,6 +82,31 @@ public Shape InsertShape(ShapeType shapeType, RelativeHorizontalPosition horzPos
 ## Return Value
 
 The shape node that was inserted.
+
+### Examples
+
+Shows how to insert DML shapes into a document.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+// Below are two wrapping types that shapes may have.
+// 1 -  Floating:
+builder.InsertShape(ShapeType.TopCornersRounded, RelativeHorizontalPosition.Page, 100, 
+        RelativeVerticalPosition.Page, 100, 50, 50, WrapType.None);
+
+// 2 -  Inline:
+builder.InsertShape(ShapeType.DiagonalCornersRounded, 50, 50);
+
+// If you need to create "non-primitive" shapes, such as SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,
+// TopCornersOneRoundedOneSnipped, SingleCornerRounded, TopCornersRounded, or DiagonalCornersRounded,
+// then save the document with "Strict" or "Transitional" compliance, which allows saving shape as DML.
+OoxmlSaveOptions saveOptions = new OoxmlSaveOptions(SaveFormat.Docx);
+saveOptions.Compliance = OoxmlCompliance.Iso29500_2008_Transitional;
+
+doc.Save(ArtifactsDir + "Shape.ShapeInsertion.docx", saveOptions);
+```
 
 ### See Also
 

@@ -18,6 +18,28 @@ public bool FitShapeToText { get; set; }
 
 The default value is **false**.
 
+### Examples
+
+Shows how to get a text box to resize itself to fit its contents tightly.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+Shape textBoxShape = builder.InsertShape(ShapeType.TextBox, 150, 100);
+TextBox textBox = textBoxShape.TextBox;
+
+// Apply these values to both these members to get the parent shape to fit
+// tightly around the text contents, ignoring the dimensions we have set.
+textBox.FitShapeToText = true;
+textBox.TextBoxWrapMode = TextBoxWrapMode.None;
+
+builder.MoveTo(textBoxShape.LastParagraph);
+builder.Write("Text fit tightly inside textbox.");
+
+doc.Save(ArtifactsDir + "Shape.TextBoxFitShapeToText.docx");
+```
+
 ### See Also
 
 * class [TextBox](../../textbox)

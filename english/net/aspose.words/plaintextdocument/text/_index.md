@@ -14,6 +14,22 @@ Gets textual content of the document concatenated as a string.
 public string Text { get; }
 ```
 
+### Examples
+
+Shows how to load the contents of a Microsoft Word document in plaintext.
+
+```csharp
+Document doc = new Document(); 
+DocumentBuilder builder = new DocumentBuilder(doc);
+builder.Writeln("Hello world!");
+
+doc.Save(ArtifactsDir + "PlainTextDocument.Load.docx");
+
+PlainTextDocument plaintext = new PlainTextDocument(ArtifactsDir + "PlainTextDocument.Load.docx");
+
+Assert.AreEqual("Hello world!", plaintext.Text.Trim());
+```
+
 ### See Also
 
 * class [PlainTextDocument](../../plaintextdocument)

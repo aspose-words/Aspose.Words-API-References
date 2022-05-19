@@ -12,10 +12,10 @@ The **Aspose.Words.Settings** namespace contains classes and enums that are used
 
 | Class | Description |
 | --- | --- |
-| [CompatibilityOptions](./compatibilityoptions) | Contains compatibility options (../that is, the user preferences entered on the **Compatibility** tab of the **Options** dialog in Microsoft Word). |
+| [CompatibilityOptions](./compatibilityoptions) | Contains compatibility options (that is, the user preferences entered on the **Compatibility** tab of the **Options** dialog in Microsoft Word). |
 | [HyphenationOptions](./hyphenationoptions) | Allows to configure document hyphenation options. |
 | [MailMergeSettings](./mailmergesettings) | Specifies all of the mail merge information for a document. |
-| [Odso](./odso) | Specifies the Office Data Source Object (../ODSO) settings for a mail merge data source. |
+| [Odso](./odso) | Specifies the Office Data Source Object (ODSO) settings for a mail merge data source. |
 | [OdsoFieldMapData](./odsofieldmapdata) | Specifies how a column in the external data source shall be mapped to the predefined merge fields within the document. |
 | [OdsoFieldMapDataCollection](./odsofieldmapdatacollection) | A typed collection of the [`OdsoFieldMapData`](../aspose.words.settings/odsofieldmapdata) objects. |
 | [OdsoRecipientData](./odsorecipientdata) | Represents information about a single record within an external data source that is to be excluded from the mail merge. |

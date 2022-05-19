@@ -26,6 +26,29 @@ public abstract class Forms2OleControl : OleControl
 | [Type](../../aspose.words.drawing.ole/forms2olecontrol/type) { get; } | Gets type of Forms 2.0 control. |
 | [Value](../../aspose.words.drawing.ole/forms2olecontrol/value) { get; } | Gets underlying Value property which often represents control state. For example checked option button has '1' value while unchecked has '0'. Default value is an empty string. |
 
+### Examples
+
+Shows how to verify the properties of an ActiveX control.
+
+```csharp
+Document doc = new Document(MyDir + "ActiveX controls.docx");
+
+Shape shape = (Shape) doc.GetChild(NodeType.Shape, 0, true);
+OleControl oleControl = shape.OleFormat.OleControl;
+
+Assert.AreEqual(null, oleControl.Name);
+
+if (oleControl.IsForms2OleControl)
+{
+    Forms2OleControl checkBox = (Forms2OleControl) oleControl;
+    Assert.AreEqual("Первый", checkBox.Caption);
+    Assert.AreEqual("0", checkBox.Value);
+    Assert.AreEqual(true, checkBox.Enabled);
+    Assert.AreEqual(Forms2OleControlType.CheckBox, checkBox.Type);
+    Assert.AreEqual(null, checkBox.ChildNodes);
+}
+```
+
 ### See Also
 
 * class [OleControl](../olecontrol)

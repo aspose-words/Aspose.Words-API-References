@@ -51,6 +51,39 @@ public class FieldTitle : Field
 
 Retrieves, and optionally sets, the document's title, as recorded in the **Title** property of the built-in document properties.
 
+### Examples
+
+Shows how to use the TITLE field.
+
+```csharp
+Document doc = new Document();
+
+// Set a value for the "Title" built-in document property. 
+doc.BuiltInDocumentProperties.Title = "My Title";
+
+// We can use the TITLE field to display the value of this property in the document.
+DocumentBuilder builder = new DocumentBuilder(doc);
+FieldTitle field = (FieldTitle)builder.InsertField(FieldType.FieldTitle, false);
+field.Update();
+
+Assert.AreEqual(" TITLE ", field.GetFieldCode());
+Assert.AreEqual("My Title", field.Result);
+
+// Setting a value for the field's Text property,
+// and then updating the field will also overwrite the corresponding built-in property with the new value.
+builder.Writeln();
+field = (FieldTitle)builder.InsertField(FieldType.FieldTitle, false);
+field.Text = "My New Title";
+field.Update();
+
+Assert.AreEqual(" TITLE  \"My New Title\"", field.GetFieldCode());
+Assert.AreEqual("My New Title", field.Result);
+Assert.AreEqual("My New Title", doc.BuiltInDocumentProperties.Title);
+
+doc.UpdateFields();
+doc.Save(ArtifactsDir + "Field.TITLE.docx");
+```
+
 ### See Also
 
 * class [Field](../field)

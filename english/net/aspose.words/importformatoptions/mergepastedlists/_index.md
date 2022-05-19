@@ -14,6 +14,22 @@ Gets or sets a boolean value that specifies whether pasted lists will be merged 
 public bool MergePastedLists { get; set; }
 ```
 
+### Examples
+
+Shows how to merge lists from a documents.
+
+```csharp
+Document srcDoc = new Document(MyDir + "List item.docx");
+Document dstDoc = new Document(MyDir + "List destination.docx");
+
+ImportFormatOptions options = new ImportFormatOptions { MergePastedLists = true };
+
+// Set the "MergePastedLists" property to "true" pasted lists will be merged with surrounding lists.
+dstDoc.AppendDocument(srcDoc, ImportFormatMode.UseDestinationStyles, options);
+
+dstDoc.Save(ArtifactsDir + "Document.MergePastedLists.docx");
+```
+
 ### See Also
 
 * class [ImportFormatOptions](../../importformatoptions)

@@ -39,6 +39,60 @@ You do not create instances of this class directly. Use the [`LayoutOptions`](..
 
 Note that after changing any of the options present in this class, [`UpdatePageLayout`](../../aspose.words/document/updatepagelayout) method should be called in order for the changed options to be applied to the layout.
 
+### Examples
+
+Shows how to hide text in a rendered output document.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+// Insert hidden text, then specify whether we wish to omit it from a rendered document.
+builder.Writeln("This text is not hidden.");
+builder.Font.Hidden = true;
+builder.Writeln("This text is hidden.");
+
+doc.LayoutOptions.ShowHiddenText = showHiddenText;
+
+doc.Save(ArtifactsDir + "Document.LayoutOptionsHiddenText.pdf");
+```
+
+Shows how to show paragraph marks in a rendered output document.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+// Add some paragraphs, then enable paragraph marks to show the ends of paragraphs
+// with a pilcrow (¶) symbol when we render the document.
+builder.Writeln("Hello world!");
+builder.Writeln("Hello again!");
+
+doc.LayoutOptions.ShowParagraphMarks = showParagraphMarks;
+
+doc.Save(ArtifactsDir + "Document.LayoutOptionsParagraphMarks.pdf");
+```
+
+Shows how to alter the appearance of revisions in a rendered output document.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+// Insert a revision, then change the color of all revisions to green.
+builder.Writeln("This is not a revision.");
+doc.StartTrackRevisions("John Doe", DateTime.Now);
+builder.Writeln("This is a revision.");
+doc.StopTrackRevisions();
+builder.Writeln("This is not a revision.");
+
+// Remove the bar that appears to the left of every revised line.
+doc.LayoutOptions.RevisionOptions.InsertedTextColor = RevisionColor.BrightGreen;
+doc.LayoutOptions.RevisionOptions.ShowRevisionBars = false;
+
+doc.Save(ArtifactsDir + "Document.LayoutOptionsRevisions.pdf");
+```
+
 ### See Also
 
 * namespace [Aspose.Words.Layout](../../aspose.words.layout)

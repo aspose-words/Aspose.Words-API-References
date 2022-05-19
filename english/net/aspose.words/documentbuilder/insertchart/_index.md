@@ -28,6 +28,24 @@ The image node that was just inserted.
 
 You can change the image size, location, positioning method and other settings using the [`Shape`](../../../aspose.words.drawing/shape) object returned by this method.
 
+### Examples
+
+Shows how to insert a pie chart into a document.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+Chart chart = builder.InsertChart(ChartType.Pie, ConvertUtil.PixelToPoint(300), 
+    ConvertUtil.PixelToPoint(300)).Chart;
+chart.Series.Clear();
+chart.Series.Add("My fruit",
+    new[] { "Apples", "Bananas", "Cherries" },
+    new[] { 1.3, 2.2, 1.5 });
+
+doc.Save(ArtifactsDir + "DocumentBuilder.InsertPieChart.docx");
+```
+
 ### See Also
 
 * class [Shape](../../../aspose.words.drawing/shape)
@@ -65,6 +83,20 @@ The image node that was just inserted.
 ### Remarks
 
 You can change the image size, location, positioning method and other settings using the [`Shape`](../../../aspose.words.drawing/shape) object returned by this method.
+
+### Examples
+
+Shows how to specify position and wrapping while inserting a chart.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+builder.InsertChart(ChartType.Pie, RelativeHorizontalPosition.Margin, 100, RelativeVerticalPosition.Margin,
+    100, 200, 100, WrapType.Square);
+
+doc.Save(ArtifactsDir + "DocumentBuilder.InsertedChartRelativePosition.docx");
+```
 
 ### See Also
 

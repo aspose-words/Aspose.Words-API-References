@@ -18,6 +18,38 @@ public bool UpdateSdtContent { get; set; }
 
 The default value is `true`.
 
+### Examples
+
+Shows how to update structured document tags while saving a document to PDF.
+
+```csharp
+Document doc = new Document();
+
+// Insert a drop-down list structured document tag.
+StructuredDocumentTag tag = new StructuredDocumentTag(doc, SdtType.DropDownList, MarkupLevel.Block);
+tag.ListItems.Add(new SdtListItem("Value 1"));
+tag.ListItems.Add(new SdtListItem("Value 2"));
+tag.ListItems.Add(new SdtListItem("Value 3"));
+
+// The drop-down list currently displays "Choose an item" as the default text.
+// Set the "SelectedValue" property to one of the list items to get the tag to
+// display that list item's value instead of the default text.
+tag.ListItems.SelectedValue = tag.ListItems[1];
+
+doc.FirstSection.Body.AppendChild(tag);
+
+// Create a "PdfSaveOptions" object to pass to the document's "Save" method
+// to modify how that method saves the document to .PDF.
+PdfSaveOptions options = new PdfSaveOptions();
+
+// Set the "UpdateSdtContent" property to "false" not to update the structured document tags
+// while saving the document to PDF. They will display their default values as they were at the time of construction.
+// Set the "UpdateSdtContent" property to "true" to make sure the tags display updated values in the PDF.
+options.UpdateSdtContent = updateSdtContent;
+
+doc.Save(ArtifactsDir + "StructuredDocumentTag.UpdateSdtContent.pdf", options);
+```
+
 ### See Also
 
 * class [SaveOptions](../../saveoptions)

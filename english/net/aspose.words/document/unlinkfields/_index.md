@@ -20,6 +20,16 @@ Replaces all the fields in the whole document with their most recent results.
 
 To unlink fields in a specific part of the document use [`UnlinkFields`](../../range/unlinkfields).
 
+### Examples
+
+Shows how to unlink all fields in the document.
+
+```csharp
+Document doc = new Document(MyDir + "Linked fields.docx");
+
+doc.UnlinkFields();
+```
+
 ### See Also
 
 * class [Document](../../document)

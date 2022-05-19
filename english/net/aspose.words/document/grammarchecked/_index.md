@@ -18,6 +18,25 @@ public bool GrammarChecked { get; set; }
 
 To recheck the grammar in the document, set this property to **false**.
 
+### Examples
+
+Shows how to set spelling or grammar verifying.
+
+```csharp
+Document doc = new Document();
+
+// The string with spelling errors.
+doc.FirstSection.Body.FirstParagraph.Runs.Add(new Run(doc, "The speeling in this documentz is all broked."));
+
+// Spelling/Grammar check start if we set properties to false. 
+// We can see all errors in Microsoft Word via Review -> Spelling & Grammar.
+// Note that Microsoft Word does not start grammar/spell check automatically for DOC and RTF document format.
+doc.SpellingChecked = checkSpellingGrammar;
+doc.GrammarChecked = checkSpellingGrammar;
+
+doc.Save(ArtifactsDir + "Document.SpellingOrGrammar.docx");
+```
+
 ### See Also
 
 * class [Document](../../document)

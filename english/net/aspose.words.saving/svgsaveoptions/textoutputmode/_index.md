@@ -20,6 +20,24 @@ Use this property to get or set the mode of how text inside a document should be
 
 The default value is UseTargetMachineFonts.
 
+### Examples
+
+Shows how to mimic the properties of images when converting a .docx document to .svg.
+
+```csharp
+Document doc = new Document(MyDir + "Document.docx");
+
+// Configure the SvgSaveOptions object to save with no page borders or selectable text.
+SvgSaveOptions options = new SvgSaveOptions
+{
+    FitToViewPort = true,
+    ShowPageBorder = false,
+    TextOutputMode = SvgTextOutputMode.UsePlacedGlyphs
+};
+
+doc.Save(ArtifactsDir + "SvgSaveOptions.SaveLikeImage.svg", options);
+```
+
 ### See Also
 
 * enum [SvgTextOutputMode](../../svgtextoutputmode)

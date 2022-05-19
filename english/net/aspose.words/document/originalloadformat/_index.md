@@ -18,6 +18,17 @@ public LoadFormat OriginalLoadFormat { get; }
 
 If you created a new blank document, returns the Doc value.
 
+### Examples
+
+Shows how to retrieve details of a document's load operation.
+
+```csharp
+Document doc = new Document(MyDir + "Document.docx");
+
+Assert.AreEqual(MyDir + "Document.docx", doc.OriginalFileName);
+Assert.AreEqual(LoadFormat.Docx, doc.OriginalLoadFormat);
+```
+
 ### See Also
 
 * enum [LoadFormat](../../loadformat)

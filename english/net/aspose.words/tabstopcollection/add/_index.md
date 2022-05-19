@@ -22,6 +22,37 @@ public void Add(TabStop tabStop)
 
 If a tab stop already exists at the specified position, it is replaced.
 
+### Examples
+
+Shows how to add custom tab stops to a document.
+
+```csharp
+Document doc = new Document();
+Paragraph paragraph = (Paragraph)doc.GetChild(NodeType.Paragraph, 0, true);
+
+// Below are two ways of adding tab stops to a paragraph's collection of tab stops via the "ParagraphFormat" property.
+// 1 -  Create a "TabStop" object, and then add it to the collection:
+TabStop tabStop = new TabStop(ConvertUtil.InchToPoint(3), TabAlignment.Left, TabLeader.Dashes);
+paragraph.ParagraphFormat.TabStops.Add(tabStop);
+
+// 2 -  Pass the values for properties of a new tab stop to the "Add" method:
+paragraph.ParagraphFormat.TabStops.Add(ConvertUtil.MillimeterToPoint(100), TabAlignment.Left,
+    TabLeader.Dashes);
+
+// Add tab stops at 5 cm to all paragraphs.
+foreach (Paragraph para in doc.GetChildNodes(NodeType.Paragraph, true).OfType<Paragraph>())
+{
+    para.ParagraphFormat.TabStops.Add(ConvertUtil.MillimeterToPoint(50), TabAlignment.Left,
+        TabLeader.Dashes);
+}
+
+// Every "tab" character takes the builder's cursor to the location of the next tab stop.
+DocumentBuilder builder = new DocumentBuilder(doc);
+builder.Writeln("Start\tTab 1\tTab 2\tTab 3\tTab 4");
+
+doc.Save(ArtifactsDir + "TabStopCollection.AddTabStops.docx");
+```
+
 ### See Also
 
 * class [TabStop](../../tabstop)
@@ -48,6 +79,37 @@ public void Add(double position, TabAlignment alignment, TabLeader leader)
 ### Remarks
 
 If a tab stop already exists at the specified position, it is replaced.
+
+### Examples
+
+Shows how to add custom tab stops to a document.
+
+```csharp
+Document doc = new Document();
+Paragraph paragraph = (Paragraph)doc.GetChild(NodeType.Paragraph, 0, true);
+
+// Below are two ways of adding tab stops to a paragraph's collection of tab stops via the "ParagraphFormat" property.
+// 1 -  Create a "TabStop" object, and then add it to the collection:
+TabStop tabStop = new TabStop(ConvertUtil.InchToPoint(3), TabAlignment.Left, TabLeader.Dashes);
+paragraph.ParagraphFormat.TabStops.Add(tabStop);
+
+// 2 -  Pass the values for properties of a new tab stop to the "Add" method:
+paragraph.ParagraphFormat.TabStops.Add(ConvertUtil.MillimeterToPoint(100), TabAlignment.Left,
+    TabLeader.Dashes);
+
+// Add tab stops at 5 cm to all paragraphs.
+foreach (Paragraph para in doc.GetChildNodes(NodeType.Paragraph, true).OfType<Paragraph>())
+{
+    para.ParagraphFormat.TabStops.Add(ConvertUtil.MillimeterToPoint(50), TabAlignment.Left,
+        TabLeader.Dashes);
+}
+
+// Every "tab" character takes the builder's cursor to the location of the next tab stop.
+DocumentBuilder builder = new DocumentBuilder(doc);
+builder.Writeln("Start\tTab 1\tTab 2\tTab 3\tTab 4");
+
+doc.Save(ArtifactsDir + "TabStopCollection.AddTabStops.docx");
+```
 
 ### See Also
 

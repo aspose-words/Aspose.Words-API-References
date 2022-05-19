@@ -20,6 +20,41 @@ When set to `true`, exports drop-down form fields as normal text. When `false`, 
 
 When exporting to EPUB, text drop-down form fields are always saved as text due to requirements of this format.
 
+### Examples
+
+Shows how to get drop-down combo box form fields to blend in with paragraph text when saving to html.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+// Use a document builder to insert a combo box with the value "Two" selected.
+builder.InsertComboBox("MyComboBox", new[] { "One", "Two", "Three" }, 1);
+
+// The "ExportDropDownFormFieldAsText" flag of this SaveOptions object allows us to
+// control how saving the document to HTML treats drop-down combo boxes.
+// Setting it to "true" will convert each combo box into simple text
+// that displays the combo box's currently selected value, effectively freezing it.
+// Setting it to "false" will preserve the functionality of the combo box using <select> and <option> tags.
+HtmlSaveOptions options = new HtmlSaveOptions();
+options.ExportDropDownFormFieldAsText = exportDropDownFormFieldAsText;    
+
+doc.Save(ArtifactsDir + "HtmlSaveOptions.DropDownFormField.html", options);
+
+string outDocContents = File.ReadAllText(ArtifactsDir + "HtmlSaveOptions.DropDownFormField.html");
+
+if (exportDropDownFormFieldAsText)
+    Assert.True(outDocContents.Contains(
+        "<span>Two</span>"));
+else
+    Assert.True(outDocContents.Contains(
+        "<select name=\"MyComboBox\">" +
+            "<option>One</option>" +
+            "<option selected=\"selected\">Two</option>" +
+            "<option>Three</option>" +
+        "</select>"));
+```
+
 ### See Also
 
 * class [HtmlSaveOptions](../../htmlsaveoptions)

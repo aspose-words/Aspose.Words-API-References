@@ -18,6 +18,26 @@ public int LocaleId { get; set; }
 
 For the list of locale identifiers see https://msdn.microsoft.com/en-us/library/cc233965.aspx
 
+### Examples
+
+Shows how to set the locale of the text that we are adding with a document builder.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+// If we set the font's locale to English and insert some Russian text,
+// the English locale spell checker will not recognize the text and detect it as a spelling error.
+builder.Font.LocaleId = new CultureInfo("en-US", false).LCID;
+builder.Writeln("Привет!");
+
+// Set a matching locale for the text that we are about to add to apply the appropriate spell checker.
+builder.Font.LocaleId = new CultureInfo("ru-RU", false).LCID;
+builder.Writeln("Привет!");
+
+doc.Save(ArtifactsDir + "Font.LocaleId.docx");
+```
+
 ### See Also
 
 * class [Font](../../font)

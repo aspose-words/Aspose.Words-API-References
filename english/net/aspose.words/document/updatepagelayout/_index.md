@@ -20,6 +20,29 @@ This method formats a document into pages and updates the page number related fi
 
 This method is automatically invoked when you first convert a document to PDF, XPS, image or print it. However, if you modify the document after rendering and then attempt to render it again - Aspose.Words will not update the page layout automatically. In this case you should call `UpdatePageLayout` before rendering again.
 
+### Examples
+
+Shows when to recalculate the page layout of the document.
+
+```csharp
+Document doc = new Document(MyDir + "Rendering.docx");
+
+// Saving a document to PDF, to an image, or printing for the first time will automatically
+// cache the layout of the document within its pages.
+doc.Save(ArtifactsDir + "Document.UpdatePageLayout.1.pdf");
+
+// Modify the document in some way.
+doc.Styles["Normal"].Font.Size = 6;
+doc.Sections[0].PageSetup.Orientation = Aspose.Words.Orientation.Landscape;
+
+// In the current version of Aspose.Words, modifying the document does not automatically rebuild 
+// the cached page layout. If we wish for the cached layout
+// to stay up to date, we will need to update it manually.
+doc.UpdatePageLayout();
+
+doc.Save(ArtifactsDir + "Document.UpdatePageLayout.2.pdf");
+```
+
 ### See Also
 
 * class [Document](../../document)

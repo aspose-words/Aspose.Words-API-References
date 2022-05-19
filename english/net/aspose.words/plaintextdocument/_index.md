@@ -31,6 +31,22 @@ public class PlainTextDocument
 | [CustomDocumentProperties](../../aspose.words/plaintextdocument/customdocumentproperties) { get; } | Gets [`CustomDocumentProperties`](./customdocumentproperties) of the document. |
 | [Text](../../aspose.words/plaintextdocument/text) { get; } | Gets textual content of the document concatenated as a string. |
 
+### Examples
+
+Shows how to load the contents of a Microsoft Word document in plaintext.
+
+```csharp
+Document doc = new Document(); 
+DocumentBuilder builder = new DocumentBuilder(doc);
+builder.Writeln("Hello world!");
+
+doc.Save(ArtifactsDir + "PlainTextDocument.Load.docx");
+
+PlainTextDocument plaintext = new PlainTextDocument(ArtifactsDir + "PlainTextDocument.Load.docx");
+
+Assert.AreEqual("Hello world!", plaintext.Text.Trim());
+```
+
 ### See Also
 
 * namespace [Aspose.Words](../../aspose.words)

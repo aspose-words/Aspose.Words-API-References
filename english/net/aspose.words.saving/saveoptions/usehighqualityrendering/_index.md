@@ -20,6 +20,27 @@ The default value is `false`.
 
 This property is used when the document is exported to image formats: Tiff, Png, Bmp, Jpeg, Emf.
 
+### Examples
+
+Shows how to improve the quality of a rendered document with SaveOptions.
+
+```csharp
+Document doc = new Document(MyDir + "Rendering.docx");
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+builder.Font.Size = 60;
+builder.Writeln("Some text.");
+
+SaveOptions options = new ImageSaveOptions(SaveFormat.Jpeg);
+
+doc.Save(ArtifactsDir + "Document.ImageSaveOptions.Default.jpg", options);
+
+options.UseAntiAliasing = true;
+options.UseHighQualityRendering = true;
+
+doc.Save(ArtifactsDir + "Document.ImageSaveOptions.HighQuality.jpg", options);
+```
+
 ### See Also
 
 * class [SaveOptions](../../saveoptions)

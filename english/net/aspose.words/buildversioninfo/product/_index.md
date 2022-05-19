@@ -14,6 +14,14 @@ Gets the full name of the product.
 public static string Product { get; }
 ```
 
+### Examples
+
+Shows how to display information about your installed version of Aspose.Words.
+
+```csharp
+Console.WriteLine($"I am currently using {BuildVersionInfo.Product}, version number {BuildVersionInfo.Version}!");
+```
+
 ### See Also
 
 * class [BuildVersionInfo](../../buildversioninfo)

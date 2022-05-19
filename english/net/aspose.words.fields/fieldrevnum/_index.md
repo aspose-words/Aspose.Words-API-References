@@ -50,6 +50,32 @@ public class FieldRevNum : Field
 
 Retrieves the document's revision number, as recorded in the **Revision** property of the built-in document properties.
 
+### Examples
+
+Shows how to work with REVNUM fields.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+builder.Write("Current revision #");
+
+// Insert a REVNUM field, which displays the document's current revision number property.
+FieldRevNum field = (FieldRevNum)builder.InsertField(FieldType.FieldRevisionNum, true);
+
+Assert.AreEqual(" REVNUM ", field.GetFieldCode());
+Assert.AreEqual("1", field.Result);
+Assert.AreEqual(1, doc.BuiltInDocumentProperties.RevisionNumber);
+
+// This property counts how many times a document has been saved in Microsoft Word,
+// and is unrelated to tracked revisions. We can find it by right clicking the document in Windows Explorer
+// via Properties -> Details. We can update this property manually.
+doc.BuiltInDocumentProperties.RevisionNumber++;
+field.Update();
+
+Assert.AreEqual("2", field.Result);
+```
+
 ### See Also
 
 * class [Field](../field)

@@ -32,6 +32,29 @@ public class GraphicsQualityOptions
 | [TextRenderingHint](../../aspose.words.saving/graphicsqualityoptions/textrenderinghint) { get; set; } | Gets or sets the rendering mode for text associated with this Graphics. |
 | [UseTileFlipMode](../../aspose.words.saving/graphicsqualityoptions/usetileflipmode) { get; set; } | Gets or sets a flag indicating whether WrapMode is TileFlipXY. |
 
+### Examples
+
+Shows how to set render quality options while converting documents to image formats.
+
+```csharp
+Document doc = new Document(MyDir + "Rendering.docx");
+
+GraphicsQualityOptions qualityOptions = new GraphicsQualityOptions
+{
+    SmoothingMode = SmoothingMode.AntiAlias,
+    TextRenderingHint = TextRenderingHint.ClearTypeGridFit,
+    CompositingMode = CompositingMode.SourceOver,
+    CompositingQuality = CompositingQuality.HighQuality,
+    InterpolationMode = InterpolationMode.High,
+    StringFormat = StringFormat.GenericTypographic
+};
+
+ImageSaveOptions saveOptions = new ImageSaveOptions(SaveFormat.Jpeg);
+saveOptions.GraphicsQualityOptions = qualityOptions;
+
+doc.Save(ArtifactsDir + "ImageSaveOptions.GraphicsQuality.jpg", saveOptions);
+```
+
 ### See Also
 
 * namespace [Aspose.Words.Saving](../../aspose.words.saving)

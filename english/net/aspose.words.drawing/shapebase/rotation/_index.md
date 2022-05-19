@@ -18,6 +18,25 @@ public double Rotation { get; set; }
 
 The default value is 0.
 
+### Examples
+
+Shows how to insert and rotate an image.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+// Insert a shape with an image.
+Shape shape = builder.InsertImage(Image.FromFile(ImageDir + "Logo.jpg"));
+Assert.True(shape.CanHaveImage);
+Assert.True(shape.HasImage);
+
+// Rotate the image 45 degrees clockwise.
+shape.Rotation = 45;
+
+doc.Save(ArtifactsDir + "Shape.Rotate.docx");
+```
+
 ### See Also
 
 * class [ShapeBase](../../shapebase)

@@ -50,6 +50,33 @@ public class FieldAutoNumOut : Field
 
 Inserts an automatic number in outline format.
 
+### Examples
+
+Shows how to number paragraphs using AUTONUMOUT fields.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+// AUTONUMOUT fields display a number that increments at each AUTONUMOUT field.
+// Unlike AUTONUM fields, AUTONUMOUT fields use the outline numbering scheme,
+// which we can define in Microsoft Word via Format -> Bullets & Numbering -> "Outline Numbered".
+// This allows us to automatically number items like a numbered list.
+// LISTNUM fields are a newer alternative to AUTONUMOUT fields.
+// This field will display "1.".
+builder.InsertField(FieldType.FieldAutoNumOutline, true);
+builder.Writeln("\tParagraph 1.");
+
+// This field will display "2.".
+builder.InsertField(FieldType.FieldAutoNumOutline, true);
+builder.Writeln("\tParagraph 2.");
+
+foreach (FieldAutoNumOut field in doc.Range.Fields.Where(f => f.Type == FieldType.FieldAutoNumOutline))
+    Assert.AreEqual(" AUTONUMOUT ", field.GetFieldCode());
+
+doc.Save(ArtifactsDir + "Field.AUTONUMOUT.docx");
+```
+
 ### See Also
 
 * class [Field](../field)

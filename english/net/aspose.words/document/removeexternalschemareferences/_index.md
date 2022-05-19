@@ -14,6 +14,16 @@ Removes external XML schema references from this document.
 public void RemoveExternalSchemaReferences()
 ```
 
+### Examples
+
+Shows how to remove all external XML schema references from a document.
+
+```csharp
+Document doc = new Document(MyDir + "External XML schema.docx");
+
+doc.RemoveExternalSchemaReferences();
+```
+
 ### See Also
 
 * class [Document](../../document)

@@ -14,6 +14,25 @@ True if the font is formatted as outline.
 public bool Outline { get; set; }
 ```
 
+### Examples
+
+Shows how to create a run of text formatted as outline.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+// Set the Outline flag to change the text's fill color to white and
+// leave a thin outline around each character in the original color of the text. 
+builder.Font.Outline = true;
+builder.Font.Color = Color.Blue;
+builder.Font.Size = 36;
+
+builder.Writeln("This text has an outline.");
+
+doc.Save(ArtifactsDir + "Font.Outline.docx");
+```
+
 ### See Also
 
 * class [Font](../../font)

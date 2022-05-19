@@ -32,6 +32,27 @@ The string representation of the [`ListLevel`](../../listlevel) object, describe
 | ArgumentException | customNumberStyleFormat is null or empty when the numberStyle is custom.-or- customNumberStyleFormat is not null or empty when the numberStyle is non-custom.-or- customNumberStyleFormat is invalid. |
 | ArgumentOutOfRangeException | index is out of range. |
 
+### Examples
+
+Shows how to get the format for a list with the custom number style.
+
+```csharp
+Document doc = new Document(MyDir + "List with leading zero.docx");
+
+ListLevel listLevel = doc.FirstSection.Body.Paragraphs[0].ListFormat.ListLevel;
+
+string customNumberStyleFormat = string.Empty;
+
+if (listLevel.NumberStyle == NumberStyle.Custom)
+    customNumberStyleFormat = listLevel.CustomNumberStyleFormat;
+
+Assert.AreEqual("001, 002, 003, ...", customNumberStyleFormat);
+
+// We can get value for the specified index of the list item.
+Assert.AreEqual("iv", ListLevel.GetEffectiveValue(4, NumberStyle.LowercaseRoman, null));
+Assert.AreEqual("005", ListLevel.GetEffectiveValue(5, NumberStyle.Custom, customNumberStyleFormat));
+```
+
 ### See Also
 
 * enum [NumberStyle](../../../aspose.words/numberstyle)

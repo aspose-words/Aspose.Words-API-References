@@ -14,6 +14,23 @@ Gets or sets text that is between the field separator and field end.
 public string Result { get; set; }
 ```
 
+### Examples
+
+Shows how to insert a field into a document using a field code.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+Field field = builder.InsertField("DATE \\@ \"dddd, MMMM dd, yyyy\"");
+
+Assert.AreEqual(FieldType.FieldDate, field.Type);
+Assert.AreEqual("DATE \\@ \"dddd, MMMM dd, yyyy\"", field.GetFieldCode());
+
+// This overload of the InsertField method automatically updates inserted fields.
+Assert.That(DateTime.Parse(field.Result), Is.EqualTo(DateTime.Today).Within(1).Days);
+```
+
 ### See Also
 
 * class [Field](../../field)

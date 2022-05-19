@@ -14,6 +14,31 @@ Retrieves the parent [`Paragraph`](../../../aspose.words/paragraph) of this node
 public Paragraph ParentParagraph { get; }
 ```
 
+### Examples
+
+Shows how to set office math display formatting.
+
+```csharp
+Document doc = new Document(MyDir + "Office math.docx");
+
+OfficeMath officeMath = (OfficeMath) doc.GetChild(NodeType.OfficeMath, 0, true);
+
+// OfficeMath nodes that are children of other OfficeMath nodes are always inline.
+// The node we are working with is the base node to change its location and display type.
+Assert.AreEqual(MathObjectType.OMathPara, officeMath.MathObjectType);
+Assert.AreEqual(NodeType.OfficeMath, officeMath.NodeType);
+Assert.AreEqual(officeMath.ParentNode, officeMath.ParentParagraph);
+
+// OOXML and WML formats use the "EquationXmlEncoding" property.
+Assert.IsNull(officeMath.EquationXmlEncoding);
+
+// Change the location and display type of the OfficeMath node.
+officeMath.DisplayType = OfficeMathDisplayType.Display;
+officeMath.Justification = OfficeMathJustification.Left;
+
+doc.Save(ArtifactsDir + "Shape.OfficeMath.docx");
+```
+
 ### See Also
 
 * class [Paragraph](../../../aspose.words/paragraph)

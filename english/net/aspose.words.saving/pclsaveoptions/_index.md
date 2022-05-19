@@ -62,6 +62,22 @@ public class PclSaveOptions : FixedPageSaveOptions
 | [AddPrinterFont](../../aspose.words.saving/pclsaveoptions/addprinterfont)(string, string) | Adds information about font that is uploaded to the printer by manufacturer. |
 | override [Equals](../../aspose.words.saving/fixedpagesaveoptions/equals)(object) | Determines whether the specified object is equal in value to the current object. |
 
+### Examples
+
+Shows how to rasterize complex elements while saving a document to PCL.
+
+```csharp
+Document doc = new Document(MyDir + "Rendering.docx");
+
+PclSaveOptions saveOptions = new PclSaveOptions
+{
+    SaveFormat = SaveFormat.Pcl,
+    RasterizeTransformedElements = true
+};
+
+doc.Save(ArtifactsDir + "PclSaveOptions.RasterizeElements.pcl", saveOptions);
+```
+
 ### See Also
 
 * class [FixedPageSaveOptions](../fixedpagesaveoptions)

@@ -18,7 +18,7 @@ The **Aspose.Words.Saving** namespace provides classes and enumerations that all
 | [DocumentPartSavingArgs](./documentpartsavingargs) | Provides data for the [`DocumentPartSaving`](../aspose.words.saving/idocumentpartsavingcallback/documentpartsaving) callback. |
 | [DocumentSavingArgs](./documentsavingargs) | An argument passed into [`Notify`](../aspose.words.saving/idocumentsavingcallback/notify). |
 | [DownsampleOptions](./downsampleoptions) | Allows to specify downsample options. |
-| [FixedPageSaveOptions](./fixedpagesaveoptions) | Contains common options that can be specified when saving a document into fixed page formats (../PDF, XPS, images etc). |
+| [FixedPageSaveOptions](./fixedpagesaveoptions) | Contains common options that can be specified when saving a document into fixed page formats (PDF, XPS, images etc). |
 | [FontSavingArgs](./fontsavingargs) | Provides data for the [`FontSaving`](../aspose.words.saving/ifontsavingcallback/fontsaving) event. |
 | [GraphicsQualityOptions](./graphicsqualityoptions) | Allows to specify additional Graphics quality options. |
 | [HtmlFixedSaveOptions](./htmlfixedsaveoptions) | Can be used to specify additional options when saving a document into the HtmlFixed format. |
@@ -55,20 +55,20 @@ The **Aspose.Words.Saving** namespace provides classes and enumerations that all
 
 | Interface | Description |
 | --- | --- |
-| [ICssSavingCallback](./icsssavingcallback) | Implement this interface if you want to control how Aspose.Words saves CSS (../Cascading Style Sheet) when saving a document to HTML. |
+| [ICssSavingCallback](./icsssavingcallback) | Implement this interface if you want to control how Aspose.Words saves CSS (Cascading Style Sheet) when saving a document to HTML. |
 | [IDocumentPartSavingCallback](./idocumentpartsavingcallback) | Implement this interface if you want to receive notifications and control how Aspose.Words saves document parts when exporting a document to Html or Epub format. |
 | [IDocumentSavingCallback](./idocumentsavingcallback) | Implement this interface if you want to have your own custom method called during saving a document. |
 | [IFontSavingCallback](./ifontsavingcallback) | Implement this interface if you want to receive notifications and control how Aspose.Words saves fonts when exporting a document to HTML format. |
 | [IImageSavingCallback](./iimagesavingcallback) | Implement this interface if you want to control how Aspose.Words saves images when saving a document to HTML. May be used by other formats. |
 | [IPageSavingCallback](./ipagesavingcallback) | Implement this interface if you want to control how Aspose.Words saves separate pages when saving a document to fixed page formats. |
-| [IResourceSavingCallback](./iresourcesavingcallback) | Implement this interface if you want to control how Aspose.Words saves external resources (../images, fonts and css) when saving a document to fixed page HTML or SVG. |
+| [IResourceSavingCallback](./iresourcesavingcallback) | Implement this interface if you want to control how Aspose.Words saves external resources (images, fonts and css) when saving a document to fixed page HTML or SVG. |
 ## Enumeration
 
 | Enumeration | Description |
 | --- | --- |
 | [ColorMode](./colormode) | Specifies how colors are rendered. |
 | [CompressionLevel](./compressionlevel) | Compression level for OOXML files. |
-| [CssStyleSheetType](./cssstylesheettype) | Specifies how CSS (../Cascading Style Sheet) styles are exported to HTML. |
+| [CssStyleSheetType](./cssstylesheettype) | Specifies how CSS (Cascading Style Sheet) styles are exported to HTML. |
 | [Dml3DEffectsRenderingMode](./dml3deffectsrenderingmode) | Specifies how 3D shape effects are rendered. |
 | [DmlEffectsRenderingMode](./dmleffectsrenderingmode) | Specifies how DrawingML effects are rendered to fixed page formats. |
 | [DmlRenderingMode](./dmlrenderingmode) | Specifies how DrawingML shapes are rendered to fixed page formats. |
@@ -86,7 +86,7 @@ The **Aspose.Words.Saving** namespace provides classes and enumerations that all
 | [ImageBinarizationMethod](./imagebinarizationmethod) | Specifies the method used to binarize image. |
 | [ImageColorMode](./imagecolormode) | Specifies the color mode for the generated images of document pages. |
 | [ImagePixelFormat](./imagepixelformat) | Specifies the pixel format for the generated images of document pages. |
-| [ImlRenderingMode](./imlrenderingmode) | Specifies how ink (../InkML) objects are rendered to fixed page formats. |
+| [ImlRenderingMode](./imlrenderingmode) | Specifies how ink (InkML) objects are rendered to fixed page formats. |
 | [MetafileRenderingMode](./metafilerenderingmode) | Specifies how Aspose.Words should render WMF and EMF metafiles. |
 | [NumeralFormat](./numeralformat) | Indicates the symbol set that is used to represent numbers while rendering to fixed page formats. |
 | [OdtSaveMeasureUnit](./odtsavemeasureunit) | Specified units of measure to apply to measurable document content such as shape, widths and other during saving. |

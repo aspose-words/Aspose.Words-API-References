@@ -82,6 +82,49 @@ Microsoft Word provides the following form fields: checkbox, text input and drop
 
 A complete form field in a Word document is a complex structure represented by several nodes: field start, field code such as FORMTEXT, form field data, field separator, field result, field end and a bookmark. To programmatically create form fields in a Word document use [`DocumentBuilder.InsertCheckBox`](../../aspose.words/documentbuilder/insertcheckbox), [`DocumentBuilder.InsertTextInput`](../../aspose.words/documentbuilder/inserttextinput) and [`DocumentBuilder.InsertComboBox`](../../aspose.words/documentbuilder/insertcombobox) which make sure all of the form field nodes are created in a correct order and in a suitable state.
 
+### Examples
+
+Shows how to formatting the entire FormField, including the field value.
+
+```csharp
+Document doc = new Document(MyDir + "Form fields.docx");
+
+FormField formField = doc.Range.FormFields[0];
+formField.Font.Bold = true;
+formField.Font.Size = 24;
+formField.Font.Color = Color.Red;
+
+formField.Result = "Aspose.FormField";
+
+doc = DocumentHelper.SaveOpen(doc);
+
+Run formFieldRun = doc.FirstSection.Body.FirstParagraph.Runs[1];
+
+Assert.AreEqual("Aspose.FormField", formFieldRun.Text);
+Assert.AreEqual(true, formFieldRun.Font.Bold);
+Assert.AreEqual(24, formFieldRun.Font.Size);
+Assert.AreEqual(Color.Red.ToArgb(), formFieldRun.Font.Color.ToArgb());
+```
+
+Shows how to insert a combo box.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+builder.Write("Please select a fruit: ");
+
+// Insert a combo box which will allow a user to choose an option from a collection of strings.
+FormField comboBox = builder.InsertComboBox("MyComboBox", new[] { "Apple", "Banana", "Cherry" }, 0);
+
+Assert.AreEqual("MyComboBox", comboBox.Name);
+Assert.AreEqual(FieldType.FieldFormDropDown, comboBox.Type);
+Assert.AreEqual("Apple", comboBox.Result);
+
+// The form field will appear in the form of a "select" html tag.
+doc.Save(ArtifactsDir + "FormFields.Create.html");
+```
+
 ### See Also
 
 * class [SpecialChar](../../aspose.words/specialchar)

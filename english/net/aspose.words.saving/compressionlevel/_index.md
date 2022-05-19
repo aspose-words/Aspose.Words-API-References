@@ -27,6 +27,35 @@ public enum CompressionLevel
 | Fast | `2` | Fast compression level. |
 | SuperFast | `3` | Super Fast compression level. Microsoft Word uses this compression level. |
 
+### Examples
+
+Shows how to specify the compression level to use while saving an OOXML document.
+
+```csharp
+Document doc = new Document(MyDir + "Big document.docx");
+
+// When we save the document to an OOXML format, we can create an OoxmlSaveOptions object
+// and then pass it to the document's saving method to modify how we save the document.
+// Set the "CompressionLevel" property to "CompressionLevel.Maximum" to apply the strongest and slowest compression.
+// Set the "CompressionLevel" property to "CompressionLevel.Normal" to apply
+// the default compression that Aspose.Words uses while saving OOXML documents.
+// Set the "CompressionLevel" property to "CompressionLevel.Fast" to apply a faster and weaker compression.
+// Set the "CompressionLevel" property to "CompressionLevel.SuperFast" to apply
+// the default compression that Microsoft Word uses.
+OoxmlSaveOptions saveOptions = new OoxmlSaveOptions(SaveFormat.Docx);
+saveOptions.CompressionLevel = compressionLevel;
+
+Stopwatch st = Stopwatch.StartNew();
+doc.Save(ArtifactsDir + "OoxmlSaveOptions.DocumentCompression.docx", saveOptions);
+st.Stop();
+
+FileInfo fileInfo = new FileInfo(ArtifactsDir + "OoxmlSaveOptions.DocumentCompression.docx");
+
+Console.WriteLine($"Saving operation done using the \"{compressionLevel}\" compression level:");
+Console.WriteLine($"\tDuration:\t{st.ElapsedMilliseconds} ms");
+Console.WriteLine($"\tFile Size:\t{fileInfo.Length} bytes");
+```
+
 ### See Also
 
 * namespace [Aspose.Words.Saving](../../aspose.words.saving)

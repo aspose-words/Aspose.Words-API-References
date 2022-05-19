@@ -18,6 +18,22 @@ public MemoryFontSource(byte[] fontData)
 | --- | --- | --- |
 | fontData | Byte[] | Binary font data. |
 
+### Examples
+
+Shows how to use a byte array with data from a font file as a font source.
+
+```csharp
+byte[] fontBytes = File.ReadAllBytes(MyDir + "Alte DIN 1451 Mittelschrift.ttf");
+MemoryFontSource memoryFontSource = new MemoryFontSource(fontBytes, 0);
+
+Document doc = new Document();
+doc.FontSettings = new FontSettings();
+doc.FontSettings.SetFontsSources(new FontSourceBase[] { memoryFontSource });
+
+Assert.AreEqual(FontSourceType.MemoryFont, memoryFontSource.Type);
+Assert.AreEqual(0, memoryFontSource.Priority);
+```
+
 ### See Also
 
 * class [MemoryFontSource](../../memoryfontsource)
@@ -38,6 +54,22 @@ public MemoryFontSource(byte[] fontData, int priority)
 | --- | --- | --- |
 | fontData | Byte[] | Binary font data. |
 | priority | Int32 | Font source priority. See the [`Priority`](../../fontsourcebase/priority) property description for more information. |
+
+### Examples
+
+Shows how to use a byte array with data from a font file as a font source.
+
+```csharp
+byte[] fontBytes = File.ReadAllBytes(MyDir + "Alte DIN 1451 Mittelschrift.ttf");
+MemoryFontSource memoryFontSource = new MemoryFontSource(fontBytes, 0);
+
+Document doc = new Document();
+doc.FontSettings = new FontSettings();
+doc.FontSettings.SetFontsSources(new FontSourceBase[] { memoryFontSource });
+
+Assert.AreEqual(FontSourceType.MemoryFont, memoryFontSource.Type);
+Assert.AreEqual(0, memoryFontSource.Priority);
+```
 
 ### See Also
 

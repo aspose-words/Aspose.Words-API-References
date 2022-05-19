@@ -18,6 +18,28 @@ public void Patterned(PatternType patternType)
 | --- | --- | --- |
 | patternType | PatternType | [`PatternType`](../../patterntype) |
 
+### Examples
+
+Shows how to set pattern for a shape.
+
+```csharp
+Document doc = new Document(MyDir + "Shape stroke pattern border.docx");
+
+Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
+Fill fill = shape.Fill;
+
+Console.WriteLine("Pattern value is: {0}", fill.Pattern);
+
+// There are several ways specified fill to a pattern.
+// 1 -  Apply pattern to the shape fill:
+fill.Patterned(PatternType.DiagonalBrick);
+
+// 2 -  Apply pattern with foreground and background colors to the shape fill:
+fill.Patterned(PatternType.DiagonalBrick, Color.Aqua, Color.Bisque);
+
+doc.Save(ArtifactsDir + "Shape.FillPattern.docx");
+```
+
 ### See Also
 
 * enum [PatternType](../../patterntype)
@@ -40,6 +62,28 @@ public void Patterned(PatternType patternType, Color foreColor, Color backColor)
 | patternType | PatternType | [`PatternType`](../../patterntype) |
 | foreColor | Color | The color of the foreground fill. |
 | backColor | Color | The color of the background fill. |
+
+### Examples
+
+Shows how to set pattern for a shape.
+
+```csharp
+Document doc = new Document(MyDir + "Shape stroke pattern border.docx");
+
+Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
+Fill fill = shape.Fill;
+
+Console.WriteLine("Pattern value is: {0}", fill.Pattern);
+
+// There are several ways specified fill to a pattern.
+// 1 -  Apply pattern to the shape fill:
+fill.Patterned(PatternType.DiagonalBrick);
+
+// 2 -  Apply pattern with foreground and background colors to the shape fill:
+fill.Patterned(PatternType.DiagonalBrick, Color.Aqua, Color.Bisque);
+
+doc.Save(ArtifactsDir + "Shape.FillPattern.docx");
+```
 
 ### See Also
 

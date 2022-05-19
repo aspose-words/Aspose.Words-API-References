@@ -14,6 +14,31 @@ Gets the base object from which the vertical positioning of floating table shoul
 public RelativeVerticalPosition VerticalAnchor { get; set; }
 ```
 
+### Examples
+
+Shows how to work with floating tables properties.
+
+```csharp
+Document doc = new Document(MyDir + "Table wrapped by text.docx");
+
+Table table = doc.FirstSection.Body.Tables[0];
+
+if (table.TextWrapping == TextWrapping.Around)
+{
+    Assert.AreEqual(RelativeHorizontalPosition.Margin, table.HorizontalAnchor);
+    Assert.AreEqual(RelativeVerticalPosition.Paragraph, table.VerticalAnchor);
+    Assert.AreEqual(false, table.AllowOverlap);
+
+    // Only Margin, Page, Column available in RelativeHorizontalPosition for HorizontalAnchor setter.
+    // The ArgumentException will be thrown for any other values.
+    table.HorizontalAnchor = RelativeHorizontalPosition.Column;
+
+    // Only Margin, Page, Paragraph available in RelativeVerticalPosition for VerticalAnchor setter.
+    // The ArgumentException will be thrown for any other values.
+    table.VerticalAnchor = RelativeVerticalPosition.Page;
+}
+```
+
 ### See Also
 
 * enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition)

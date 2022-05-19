@@ -18,6 +18,21 @@ public OoxmlCompliance Compliance { get; }
 
 If you created a new blank document or load non OOXML document returns the Ecma376_2006 value.
 
+### Examples
+
+Shows how to read a loaded document's Open Office XML compliance version.
+
+```csharp
+// The compliance version varies between documents created by different versions of Microsoft Word.
+Document doc = new Document(MyDir + "Document.doc");
+
+Assert.AreEqual(doc.Compliance, OoxmlCompliance.Ecma376_2006);
+
+doc = new Document(MyDir + "Document.docx");
+
+Assert.AreEqual(doc.Compliance, OoxmlCompliance.Iso29500_2008_Transitional);
+```
+
 ### See Also
 
 * enum [OoxmlCompliance](../../../aspose.words.saving/ooxmlcompliance)

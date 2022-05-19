@@ -14,6 +14,24 @@ Gets/sets underline type for the current font.
 public Underline Underline { get; set; }
 ```
 
+### Examples
+
+Shows how to format text inserted by a document builder.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+builder.Underline = Underline.Dash;
+builder.Font.Color = Color.Blue;
+builder.Font.Size = 32;
+
+// The builder applies formatting to its current paragraph and any new text added by it afterward.
+builder.Writeln("Large, blue, and underlined text.");
+
+doc.Save(ArtifactsDir + "DocumentBuilder.InsertUnderline.docx");
+```
+
 ### See Also
 
 * enum [Underline](../../underline)

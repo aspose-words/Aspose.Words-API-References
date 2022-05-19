@@ -18,6 +18,26 @@ public Document Clone()
 
 The cloned document.
 
+### Examples
+
+Shows how to deep clone a document.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+builder.Write("Hello world!");
+
+// Cloning will produce a new document with the same contents as the original,
+// but with a unique copy of each of the original document's nodes.
+Document clone = doc.Clone();
+
+Assert.AreEqual(doc.FirstSection.Body.FirstParagraph.Runs[0].GetText(), 
+    clone.FirstSection.Body.FirstParagraph.Runs[0].Text);
+Assert.AreNotEqual(doc.FirstSection.Body.FirstParagraph.Runs[0].GetHashCode(),
+    clone.FirstSection.Body.FirstParagraph.Runs[0].GetHashCode());
+```
+
 ### See Also
 
 * class [Document](../../document)

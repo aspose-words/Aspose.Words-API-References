@@ -20,6 +20,26 @@ If value of this property is set to 0, any number of consecutive lines can end w
 
 The property does not have effect when saving to fixed page formats e.g. PDF.
 
+### Examples
+
+Shows how to configure automatic hyphenation.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+builder.Font.Size = 24;
+builder.Writeln("Lorem ipsum dolor sit amet, consectetur adipiscing elit, " +
+                "sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.");
+
+doc.HyphenationOptions.AutoHyphenation = true;
+doc.HyphenationOptions.ConsecutiveHyphenLimit = 2;
+doc.HyphenationOptions.HyphenationZone = 720;
+doc.HyphenationOptions.HyphenateCaps = true;
+
+doc.Save(ArtifactsDir + "Document.HyphenationOptions.docx");
+```
+
 ### See Also
 
 * class [HyphenationOptions](../../hyphenationoptions)

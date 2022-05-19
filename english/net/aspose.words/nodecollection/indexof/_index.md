@@ -26,6 +26,27 @@ The zero-based index of the node within the collection, if found; otherwise, -1.
 
 This method performs a linear search; therefore, the average execution time is proportional to Count.
 
+### Examples
+
+Shows how to get the index of a node in a collection.
+
+```csharp
+Document doc = new Document(MyDir + "Tables.docx");
+
+Table table = doc.FirstSection.Body.Tables[0];
+NodeCollection allTables = doc.GetChildNodes(NodeType.Table, true);
+
+Assert.AreEqual(0, allTables.IndexOf(table));
+
+Row row = table.Rows[2];
+
+Assert.AreEqual(2, table.IndexOf(row));
+
+Cell cell = row.LastCell;
+
+Assert.AreEqual(4, row.IndexOf(cell));
+```
+
 ### See Also
 
 * class [Node](../../node)

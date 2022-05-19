@@ -14,6 +14,40 @@ Gets or sets a boolean value indicating either to ignore text inside insert revi
 public bool IgnoreInserted { get; set; }
 ```
 
+### Examples
+
+Shows how to include or ignore text inside insert revisions during a find-and-replace operation.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+builder.Writeln("Hello world!");
+
+// Start tracking revisions and insert a paragraph. That paragraph will be an insert revision.
+doc.StartTrackRevisions("John Doe", DateTime.Now);
+builder.Writeln("Hello again!");
+doc.StopTrackRevisions();
+
+Assert.True(doc.FirstSection.Body.Paragraphs[1].IsInsertRevision);
+
+// We can use a "FindReplaceOptions" object to modify the find-and-replace process.
+FindReplaceOptions options = new FindReplaceOptions();
+
+// Set the "IgnoreInserted" flag to "true" to get the find-and-replace
+// operation to ignore paragraphs that are insert revisions.
+// Set the "IgnoreInserted" flag to "false" to get the find-and-replace
+// operation to also search for text inside insert revisions.
+options.IgnoreInserted = ignoreTextInsideInsertRevisions;
+
+doc.Range.Replace("Hello", "Greetings", options);
+
+Assert.AreEqual(
+    ignoreTextInsideInsertRevisions
+        ? "Greetings world!\rHello again!"
+        : "Greetings world!\rGreetings again!", doc.GetText().Trim());
+```
+
 ### See Also
 
 * class [FindReplaceOptions](../../findreplaceoptions)
