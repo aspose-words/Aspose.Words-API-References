@@ -14,7 +14,7 @@ Copies all rows from the collection to a new array of rows.
 public Row[] ToArray()
 ```
 
-## Return Value
+### Return Value
 
 An array of rows.
 

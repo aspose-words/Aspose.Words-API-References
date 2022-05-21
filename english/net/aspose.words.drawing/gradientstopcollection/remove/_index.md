@@ -14,7 +14,7 @@ Removes a specified [`GradientStop`](../../gradientstop) from the collection.
 public bool Remove(GradientStop gradientStop)
 ```
 
-## Return Value
+### Return Value
 
 True if gradient stop was successfully removed, otherwise false.
 

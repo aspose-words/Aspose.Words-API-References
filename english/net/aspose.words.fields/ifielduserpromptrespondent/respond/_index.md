@@ -19,7 +19,7 @@ public string Respond(string promptText, string defaultResponse)
 | promptText | String | Prompt text (i.e. title of the prompt window). |
 | defaultResponse | String | Default user response (i.e. initial value contained in the prompt window). |
 
-## Return Value
+### Return Value
 
 User response (i.e. confirmed value contained in the prompt window).
 

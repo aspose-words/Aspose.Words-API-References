@@ -22,7 +22,7 @@ public SizeF RenderToScale(int pageIndex, Graphics graphics, float x, float y, f
 | y | Single | The Y coordinate (in world units) of the top left corner of the rendered page. |
 | scale | Single | The scale for rendering the page (1.0 is 100%). |
 
-## Return Value
+### Return Value
 
 The width and height (in world units) of the rendered page.
 

@@ -18,7 +18,7 @@ public Shape InsertImage(Image image)
 | --- | --- | --- |
 | image | Image | The image to insert into the document. |
 
-## Return Value
+### Return Value
 
 The image node that was just inserted.
 
@@ -75,7 +75,7 @@ public Shape InsertImage(string fileName)
 | --- | --- | --- |
 | fileName | String | The file with the image. Can be any valid local or remote URI. |
 
-## Return Value
+### Return Value
 
 The image node that was just inserted.
 
@@ -208,7 +208,7 @@ public Shape InsertImage(Stream stream)
 | --- | --- | --- |
 | stream | Stream | The stream that contains the image. |
 
-## Return Value
+### Return Value
 
 The image node that was just inserted.
 
@@ -281,7 +281,7 @@ public Shape InsertImage(byte[] imageBytes)
 | --- | --- | --- |
 | imageBytes | Byte[] | The byte array that contains the image. |
 
-## Return Value
+### Return Value
 
 The image node that was just inserted.
 
@@ -382,7 +382,7 @@ public Shape InsertImage(Image image, double width, double height)
 | width | Double | The width of the image in points. Can be a negative or zero value to request 100% scale. |
 | height | Double | The height of the image in points. Can be a negative or zero value to request 100% scale. |
 
-## Return Value
+### Return Value
 
 The image node that was just inserted.
 
@@ -469,7 +469,7 @@ public Shape InsertImage(string fileName, double width, double height)
 | width | Double | The width of the image in points. Can be a negative or zero value to request 100% scale. |
 | height | Double | The height of the image in points. Can be a negative or zero value to request 100% scale. |
 
-## Return Value
+### Return Value
 
 The image node that was just inserted.
 
@@ -527,7 +527,7 @@ public Shape InsertImage(Stream stream, double width, double height)
 | width | Double | The width of the image in points. Can be a negative or zero value to request 100% scale. |
 | height | Double | The height of the image in points. Can be a negative or zero value to request 100% scale. |
 
-## Return Value
+### Return Value
 
 The image node that was just inserted.
 
@@ -587,7 +587,7 @@ public Shape InsertImage(byte[] imageBytes, double width, double height)
 | width | Double | The width of the image in points. Can be a negative or zero value to request 100% scale. |
 | height | Double | The height of the image in points. Can be a negative or zero value to request 100% scale. |
 
-## Return Value
+### Return Value
 
 The image node that was just inserted.
 
@@ -694,7 +694,7 @@ public Shape InsertImage(Image image, RelativeHorizontalPosition horzPos, double
 | height | Double | The height of the image in points. Can be a negative or zero value to request 100% scale. |
 | wrapType | WrapType | Specifies how to wrap text around the image. |
 
-## Return Value
+### Return Value
 
 The image node that was just inserted.
 
@@ -790,7 +790,7 @@ public Shape InsertImage(string fileName, RelativeHorizontalPosition horzPos, do
 | height | Double | The height of the image in points. Can be a negative or zero value to request 100% scale. |
 | wrapType | WrapType | Specifies how to wrap text around the image. |
 
-## Return Value
+### Return Value
 
 The image node that was just inserted.
 
@@ -894,7 +894,7 @@ public Shape InsertImage(Stream stream, RelativeHorizontalPosition horzPos, doub
 | height | Double | The height of the image in points. Can be a negative or zero value to request 100% scale. |
 | wrapType | WrapType | Specifies how to wrap text around the image. |
 
-## Return Value
+### Return Value
 
 The image node that was just inserted.
 
@@ -963,7 +963,7 @@ public Shape InsertImage(byte[] imageBytes, RelativeHorizontalPosition horzPos, 
 | height | Double | The height of the image in points. Can be a negative or zero value to request 100% scale. |
 | wrapType | WrapType | Specifies how to wrap text around the image. |
 
-## Return Value
+### Return Value
 
 The image node that was just inserted.
 

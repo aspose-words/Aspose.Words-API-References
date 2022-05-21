@@ -18,7 +18,7 @@ public List Add(ListTemplate listTemplate)
 | --- | --- | --- |
 | listTemplate | ListTemplate | The template of the list. |
 
-## Return Value
+### Return Value
 
 The newly created list.
 
@@ -164,7 +164,7 @@ public List Add(Style listStyle)
 | --- | --- | --- |
 | listStyle | Style | The list style. |
 
-## Return Value
+### Return Value
 
 The newly created list.
 

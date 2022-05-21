@@ -19,7 +19,7 @@ public Footnote InsertFootnote(FootnoteType footnoteType, string footnoteText)
 | footnoteType | FootnoteType | Specifies whether to insert a footnote or an endnote. |
 | footnoteText | String | Specifies the text of the footnote. |
 
-## Return Value
+### Return Value
 
 Returns a footnote object that was just created.
 
@@ -75,7 +75,7 @@ public Footnote InsertFootnote(FootnoteType footnoteType, string footnoteText, s
 | footnoteText | String | Specifies the text of the footnote. |
 | referenceMark | String | Specifies the custom reference mark of the footnote. |
 
-## Return Value
+### Return Value
 
 Returns a footnote object that was just created.
 

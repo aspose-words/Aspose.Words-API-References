@@ -18,7 +18,7 @@ public bool Contains(string name)
 | --- | --- | --- |
 | name | String | Case-insensitive name of the font to locate. |
 
-## Return Value
+### Return Value
 
 True if the item is found in the collection; otherwise, false.
 

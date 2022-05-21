@@ -18,7 +18,7 @@ public override bool Accept(DocumentVisitor visitor)
 | --- | --- | --- |
 | visitor | DocumentVisitor | The visitor that will visit the node. |
 
-## Return Value
+### Return Value
 
 False if the visitor requested the enumeration to stop.
 

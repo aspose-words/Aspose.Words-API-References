@@ -20,7 +20,7 @@ public PaperSource GetSpecifiedPrinterPaperSource(PaperSourceCollection paperSou
 | paperSources | PaperSourceCollection | Available paper sources. |
 | defaultPageSettingsPaperSource | PaperSource | Paper source defined in default printer settings. |
 
-## Return Value
+### Return Value
 
 An object that you can use in the .NET printing framework to specify the paper source.
 

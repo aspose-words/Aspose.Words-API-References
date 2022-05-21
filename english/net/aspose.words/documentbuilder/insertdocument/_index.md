@@ -19,7 +19,7 @@ public Node InsertDocument(Document srcDoc, ImportFormatMode importFormatMode)
 | srcDoc | Document | Source document for inserting. |
 | importFormatMode | ImportFormatMode | Specifies how to merge style formatting that clashes. |
 
-## Return Value
+### Return Value
 
 First node of the inserted content.
 
@@ -70,7 +70,7 @@ public Node InsertDocument(Document srcDoc, ImportFormatMode importFormatMode,
 | importFormatMode | ImportFormatMode | Specifies how to merge style formatting that clashes. |
 | importFormatOptions | ImportFormatOptions | Allows to specify options that affect formatting of a result document. |
 
-## Return Value
+### Return Value
 
 First node of the inserted content.
 

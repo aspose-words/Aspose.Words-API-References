@@ -18,7 +18,7 @@ public bool MoveToBookmark(string bookmarkName)
 | --- | --- | --- |
 | bookmarkName | String | The name of the bookmark to move the cursor to. |
 
-## Return Value
+### Return Value
 
 True if the bookmark was found; false otherwise.
 
@@ -105,7 +105,7 @@ public bool MoveToBookmark(string bookmarkName, bool isStart, bool isAfter)
 | isStart | Boolean | When true, moves the cursor to the beginning of the bookmark. When false, moves the cursor to the end of the bookmark. |
 | isAfter | Boolean | When true, moves the cursor to be after the bookmark start or end position. When false, moves the cursor to be before the bookmark start or end position. |
 
-## Return Value
+### Return Value
 
 True if the bookmark was found; false otherwise.
 

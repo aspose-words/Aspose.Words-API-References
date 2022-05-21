@@ -18,7 +18,7 @@ public static SaveOptions CreateSaveOptions(SaveFormat saveFormat)
 | --- | --- | --- |
 | saveFormat | SaveFormat | The save format for which to create a save options object. |
 
-## Return Value
+### Return Value
 
 An object of a class that derives from [`SaveOptions`](../../saveoptions).
 
@@ -62,7 +62,7 @@ public static SaveOptions CreateSaveOptions(string fileName)
 | --- | --- | --- |
 | fileName | String | The extension of this file name determines the class of the save options object to create. |
 
-## Return Value
+### Return Value
 
 An object of a class that derives from [`SaveOptions`](../../saveoptions).
 

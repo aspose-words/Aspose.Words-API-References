@@ -14,7 +14,7 @@ Starts a table in the document.
 public Table StartTable()
 ```
 
-## Return Value
+### Return Value
 
 The table node that was just created.
 

@@ -18,7 +18,7 @@ public Document OpenIStream(IStream stream)
 | --- | --- | --- |
 | stream | IStream | A .NET IStream object that contains the document to load. |
 
-## Return Value
+### Return Value
 
 A [`Document`](../../document) object that represents a Word document.
 

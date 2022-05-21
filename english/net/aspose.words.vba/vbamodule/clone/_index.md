@@ -14,7 +14,7 @@ Performs a copy of the [`VbaModule`](../../vbamodule).
 public VbaModule Clone()
 ```
 
-## Return Value
+### Return Value
 
 The cloned VbaModule.
 

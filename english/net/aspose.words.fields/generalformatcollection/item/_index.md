@@ -18,7 +18,7 @@ public GeneralFormat this[int index] { get; }
 | --- | --- |
 | index | The index of a general format. |
 
-## Return Value
+### Return Value
 
 A general format.
 

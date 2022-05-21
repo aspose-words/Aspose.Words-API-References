@@ -14,7 +14,7 @@ Marks the current position in the document as an editable range end.
 public EditableRangeEnd EndEditableRange()
 ```
 
-## Return Value
+### Return Value
 
 The editable range end node that was just created.
 
@@ -88,7 +88,7 @@ public EditableRangeEnd EndEditableRange(EditableRangeStart start)
 | --- | --- | --- |
 | start | EditableRangeStart | This editable range start. |
 
-## Return Value
+### Return Value
 
 The editable range end node that was just created.
 

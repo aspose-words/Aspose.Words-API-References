@@ -19,7 +19,7 @@ public Node ImportNode(Node srcNode, bool isImportChildren)
 | srcNode | Node | The node being imported. |
 | isImportChildren | Boolean | True to import all child nodes recursively; otherwise, false. |
 
-## Return Value
+### Return Value
 
 The cloned node that belongs to the current document.
 
@@ -87,7 +87,7 @@ public Node ImportNode(Node srcNode, bool isImportChildren, ImportFormatMode imp
 | isImportChildren | Boolean | True to import all child nodes recursively; otherwise, false. |
 | importFormatMode | ImportFormatMode | Specifies how to merge style formatting that clashes. |
 
-## Return Value
+### Return Value
 
 The cloned, imported node. The node belongs to the destination document, but has no parent.
 

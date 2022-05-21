@@ -83,7 +83,7 @@ public bool Unprotect(string password)
 | --- | --- | --- |
 | password | String | The password to unprotect the document with. |
 
-## Return Value
+### Return Value
 
 True if a correct password was specified and the document was unprotected.
 

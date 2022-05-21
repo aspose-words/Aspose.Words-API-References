@@ -14,7 +14,7 @@ Copies all sections from the collection to a new array of sections.
 public Section[] ToArray()
 ```
 
-## Return Value
+### Return Value
 
 An array of sections.
 

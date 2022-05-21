@@ -18,7 +18,7 @@ public int IndexOf(string value)
 | --- | --- | --- |
 | value | String | The case-sensitive value to locate. |
 
-## Return Value
+### Return Value
 
 The zero based index. Negative value if not found.
 

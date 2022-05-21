@@ -18,7 +18,7 @@ public int Add(string value)
 | --- | --- | --- |
 | value | String | The string to add to the end of the collection. |
 
-## Return Value
+### Return Value
 
 The zero-based index at which the new element is inserted.
 

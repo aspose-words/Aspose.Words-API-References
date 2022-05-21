@@ -14,7 +14,7 @@ Provides a simple "foreach" style iteration over the collection of nodes.
 public IEnumerator<Node> GetEnumerator()
 ```
 
-## Return Value
+### Return Value
 
 An IEnumerator.
 

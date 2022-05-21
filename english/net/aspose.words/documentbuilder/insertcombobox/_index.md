@@ -20,7 +20,7 @@ public FormField InsertComboBox(string name, string[] items, int selectedIndex)
 | items | String[] | The items of the ComboBox. Maximum is 25 items. |
 | selectedIndex | Int32 | The index of the selected item in the ComboBox. |
 
-## Return Value
+### Return Value
 
 The form field node that was just inserted.
 

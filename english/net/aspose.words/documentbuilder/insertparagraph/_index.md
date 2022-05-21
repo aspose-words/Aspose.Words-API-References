@@ -14,7 +14,7 @@ Inserts a paragraph break into the document.
 public Paragraph InsertParagraph()
 ```
 
-## Return Value
+### Return Value
 
 The paragraph node that was just inserted. It is the same node as [`CurrentParagraph`](../currentparagraph).
 

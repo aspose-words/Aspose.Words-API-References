@@ -14,7 +14,7 @@ Adds new [`ChartSeries`](../../chartseries) to this collection. Use this method 
 public ChartSeries Add(string seriesName, string[] categories, double[] values)
 ```
 
-## Return Value
+### Return Value
 
 Recently added [`ChartSeries`](../../chartseries) object.
 
@@ -122,7 +122,7 @@ Adds new [`ChartSeries`](../../chartseries) to this collection. Use this method 
 public ChartSeries Add(string seriesName, double[] xValues, double[] yValues)
 ```
 
-## Return Value
+### Return Value
 
 Recently added [`ChartSeries`](../../chartseries) object.
 
@@ -334,7 +334,7 @@ Adds new [`ChartSeries`](../../chartseries) to this collection. Use this method 
 public ChartSeries Add(string seriesName, double[] xValues, double[] yValues, double[] bubbleSizes)
 ```
 
-## Return Value
+### Return Value
 
 Recently added [`ChartSeries`](../../chartseries) object.
 

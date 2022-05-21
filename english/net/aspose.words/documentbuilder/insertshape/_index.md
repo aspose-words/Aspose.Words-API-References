@@ -20,7 +20,7 @@ public Shape InsertShape(ShapeType shapeType, double width, double height)
 | width | Double | The width of the shape in points. |
 | height | Double | The height of the shape in points. |
 
-## Return Value
+### Return Value
 
 The shape node that was inserted.
 
@@ -79,7 +79,7 @@ public Shape InsertShape(ShapeType shapeType, RelativeHorizontalPosition horzPos
 | height | Double | The width of the shape in points. |
 | wrapType | WrapType | Specifies how to wrap text around the shape. |
 
-## Return Value
+### Return Value
 
 The shape node that was inserted.
 

@@ -14,7 +14,7 @@ Inserts a table cell into the document.
 public Cell InsertCell()
 ```
 
-## Return Value
+### Return Value
 
 The cell node that was just inserted.
 

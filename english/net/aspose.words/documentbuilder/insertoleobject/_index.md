@@ -21,7 +21,7 @@ public Shape InsertOleObject(Stream stream, string progId, bool asIcon, Stream p
 | asIcon | Boolean | Specifies either Iconic or Normal mode of OLE object being inserted. |
 | presentation | Stream | Image presentation of OLE object. If value is null Aspose.Words will use one of the predefined images. |
 
-## Return Value
+### Return Value
 
 Shape node containing Ole object and inserted at the current Builder position.
 
@@ -89,7 +89,7 @@ public Shape InsertOleObject(string fileName, bool isLinked, bool asIcon, Stream
 | asIcon | Boolean | Specifies either Iconic or Normal mode of OLE object being inserted. |
 | presentation | Stream | Image presentation of OLE object. If value is null Aspose.Words will use one of the predefined images. |
 
-## Return Value
+### Return Value
 
 Shape node containing Ole object and inserted at the current Builder position.
 
@@ -152,7 +152,7 @@ public Shape InsertOleObject(string fileName, string progId, bool isLinked, bool
 | asIcon | Boolean | Specifies either Iconic or Normal mode of OLE object being inserted. |
 | presentation | Stream | Image presentation of OLE object. If value is null Aspose.Words will use one of the predefined images. |
 
-## Return Value
+### Return Value
 
 Shape node containing Ole object and inserted at the current Builder position.
 

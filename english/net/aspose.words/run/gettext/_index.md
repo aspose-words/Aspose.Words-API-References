@@ -14,7 +14,7 @@ Gets the text of the run.
 public override string GetText()
 ```
 
-## Return Value
+### Return Value
 
 The text of the run.
 

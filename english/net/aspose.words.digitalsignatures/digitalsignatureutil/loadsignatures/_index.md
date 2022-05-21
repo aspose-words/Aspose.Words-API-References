@@ -18,7 +18,7 @@ public static DigitalSignatureCollection LoadSignatures(string fileName)
 | --- | --- | --- |
 | fileName | String | Path to the document. |
 
-## Return Value
+### Return Value
 
 Collection of digital signatures. Returns empty collection if file is not signed.
 
@@ -87,7 +87,7 @@ public static DigitalSignatureCollection LoadSignatures(Stream stream)
 | --- | --- | --- |
 | stream | Stream | Stream with the document. |
 
-## Return Value
+### Return Value
 
 Collection of digital signatures. Returns empty collection if file is not signed.
 

@@ -19,7 +19,7 @@ public static CertificateHolder Create(byte[] certBytes, SecureString password)
 | certBytes | Byte[] | A byte array that contains data from an X.509 certificate. |
 | password | SecureString | The password required to access the X.509 certificate data. |
 
-## Return Value
+### Return Value
 
 An instance of CertificateHolder
 
@@ -94,7 +94,7 @@ public static CertificateHolder Create(byte[] certBytes, string password)
 | certBytes | Byte[] | A byte array that contains data from an X.509 certificate. |
 | password | String | The password required to access the X.509 certificate data. |
 
-## Return Value
+### Return Value
 
 An instance of CertificateHolder
 
@@ -169,7 +169,7 @@ public static CertificateHolder Create(string fileName, string password)
 | fileName | String | The name of a certificate file. |
 | password | String | The password required to access the X.509 certificate data. |
 
-## Return Value
+### Return Value
 
 An instance of CertificateHolder
 
@@ -230,7 +230,7 @@ public static CertificateHolder Create(string fileName, string password, string 
 | password | String | The password required to access the X.509 certificate data. |
 | alias | String | The associated alias for a certificate and its private key |
 
-## Return Value
+### Return Value
 
 An instance of CertificateHolder
 

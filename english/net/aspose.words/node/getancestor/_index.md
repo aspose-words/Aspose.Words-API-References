@@ -18,7 +18,7 @@ public CompositeNode GetAncestor(Type ancestorType)
 | --- | --- | --- |
 | ancestorType | Type | The object type of the ancestor to retrieve. |
 
-## Return Value
+### Return Value
 
 The ancestor of the specified type or null if no ancestor of this type was found.
 
@@ -123,7 +123,7 @@ public CompositeNode GetAncestor(NodeType ancestorType)
 | --- | --- | --- |
 | ancestorType | NodeType | The node type of the ancestor to retrieve. |
 
-## Return Value
+### Return Value
 
 The ancestor of the specified type or null if no ancestor of this type was found.
 

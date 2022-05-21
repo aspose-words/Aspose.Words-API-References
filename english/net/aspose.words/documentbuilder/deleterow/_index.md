@@ -19,7 +19,7 @@ public Row DeleteRow(int tableIndex, int rowIndex)
 | tableIndex | Int32 | The index of the table. |
 | rowIndex | Int32 | The index of the row in the table. |
 
-## Return Value
+### Return Value
 
 The row node that was just removed.
 

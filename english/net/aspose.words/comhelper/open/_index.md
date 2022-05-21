@@ -18,7 +18,7 @@ public Document Open(string fileName)
 | --- | --- | --- |
 | fileName | String | Filename of the document to load. |
 
-## Return Value
+### Return Value
 
 A [`Document`](../../document) object that represents a Word document.
 
@@ -79,7 +79,7 @@ public Document Open(Stream stream)
 | --- | --- | --- |
 | stream | Stream | A .NET stream object that contains the document to load. |
 
-## Return Value
+### Return Value
 
 A [`Document`](../../document) object that represents a Word document.
 

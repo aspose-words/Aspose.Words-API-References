@@ -18,7 +18,7 @@ public byte[] GetEmbeddedFontAsOpenType(EmbeddedFontStyle style)
 | --- | --- | --- |
 | style | EmbeddedFontStyle | Specifies the font style to retrieve. |
 
-## Return Value
+### Return Value
 
 Returns `null` if the specified font is not embedded.
 

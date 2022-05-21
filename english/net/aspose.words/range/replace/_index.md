@@ -19,7 +19,7 @@ public int Replace(string pattern, string replacement)
 | pattern | String | A string to be replaced. |
 | replacement | String | A string to replace all occurrences of pattern. |
 
-## Return Value
+### Return Value
 
 The number of replacements made.
 
@@ -122,7 +122,7 @@ public int Replace(Regex pattern, string replacement)
 | pattern | Regex | A regular expression pattern used to find matches. |
 | replacement | String | A string to replace all occurrences of pattern. |
 
-## Return Value
+### Return Value
 
 The number of replacements made.
 
@@ -187,7 +187,7 @@ public int Replace(string pattern, string replacement, FindReplaceOptions option
 | replacement | String | A string to replace all occurrences of pattern. |
 | options | FindReplaceOptions | [`FindReplaceOptions`](../../../aspose.words.replacing/findreplaceoptions) object to specify additional options. |
 
-## Return Value
+### Return Value
 
 The number of replacements made.
 
@@ -334,7 +334,7 @@ public int Replace(Regex pattern, string replacement, FindReplaceOptions options
 | replacement | String | A string to replace all occurrences of pattern. |
 | options | FindReplaceOptions | [`FindReplaceOptions`](../../../aspose.words.replacing/findreplaceoptions) object to specify additional options. |
 
-## Return Value
+### Return Value
 
 The number of replacements made.
 

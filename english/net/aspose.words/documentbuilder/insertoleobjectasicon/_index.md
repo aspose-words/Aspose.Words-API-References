@@ -22,7 +22,7 @@ public Shape InsertOleObjectAsIcon(string fileName, bool isLinked, string iconFi
 | iconFile | String | Full path to the ICO file. If the value is null, Aspose.Words will use a predefined image. |
 | iconCaption | String | Icon caption. If the value is null, Aspose.Words will use the file name. |
 
-## Return Value
+### Return Value
 
 Shape node containing Ole object and inserted at the current Builder position.
 
@@ -85,7 +85,7 @@ public Shape InsertOleObjectAsIcon(string fileName, string progId, bool isLinked
 | iconFile | String | Full path to the ICO file. If the value is null, Aspose.Words will use a predefined image. |
 | iconCaption | String | Icon caption. If the value is null, Aspose.Words will use the file name. |
 
-## Return Value
+### Return Value
 
 Shape node containing Ole object and inserted at the current Builder position.
 
@@ -143,7 +143,7 @@ public Shape InsertOleObjectAsIcon(Stream stream, string progId, string iconFile
 | iconFile | String | Full path to the ICO file. If the value is null, Aspose.Words will use a predefined image. |
 | iconCaption | String | Icon caption. If the value is null, Aspose.Words will use the a predefined icon caption. |
 
-## Return Value
+### Return Value
 
 Shape node containing Ole object and inserted at the current Builder position.
 

@@ -18,7 +18,7 @@ public Paragraph AppendParagraph(string text)
 | --- | --- | --- |
 | text | String | The text for the paragraph. Can be null or empty string. |
 
-## Return Value
+### Return Value
 
 The newly created and appended paragraph.
 

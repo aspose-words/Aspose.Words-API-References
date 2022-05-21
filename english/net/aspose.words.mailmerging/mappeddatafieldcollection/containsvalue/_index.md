@@ -18,7 +18,7 @@ public bool ContainsValue(string dataSourceFieldName)
 | --- | --- | --- |
 | dataSourceFieldName | String | Case-sensitive name of the field in the data source. |
 
-## Return Value
+### Return Value
 
 True if item is found in the collection; otherwise, false.
 

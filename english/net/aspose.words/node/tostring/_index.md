@@ -14,7 +14,7 @@ Exports the content of the node into a string in the specified format.
 public string ToString(SaveFormat saveFormat)
 ```
 
-## Return Value
+### Return Value
 
 The content of the node in the specified format.
 
@@ -108,7 +108,7 @@ public string ToString(SaveOptions saveOptions)
 | --- | --- | --- |
 | saveOptions | SaveOptions | Specifies the options that control how the node is saved. |
 
-## Return Value
+### Return Value
 
 The content of the node in the specified format.
 

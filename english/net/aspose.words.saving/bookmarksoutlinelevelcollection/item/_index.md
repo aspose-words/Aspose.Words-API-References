@@ -18,7 +18,7 @@ public int this[string name] { get; set; }
 | --- | --- |
 | name | Case-insensitive name of the bookmark. |
 
-## Return Value
+### Return Value
 
 The outline level of the bookmark. Valid range is 0 to 9.
 
@@ -97,7 +97,7 @@ public int this[int index] { get; set; }
 | --- | --- |
 | index | Zero-based index of the bookmark. |
 
-## Return Value
+### Return Value
 
 The outline level of the bookmark. Valid range is 0 to 9.
 

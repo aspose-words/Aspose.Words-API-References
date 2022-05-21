@@ -20,7 +20,7 @@ public BuildingBlock GetBuildingBlock(BuildingBlockGallery gallery, string categ
 | category | String | The category criteria. Can be null, in which case it will not be used for comparison. |
 | name | String | The building block name criteria. |
 
-## Return Value
+### Return Value
 
 The matching building block or null if a match was not found.
 

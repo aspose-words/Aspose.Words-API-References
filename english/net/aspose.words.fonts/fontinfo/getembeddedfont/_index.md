@@ -19,7 +19,7 @@ public byte[] GetEmbeddedFont(EmbeddedFontFormat format, EmbeddedFontStyle style
 | format | EmbeddedFontFormat | Specifies the font format to retrieve. |
 | style | EmbeddedFontStyle | Specifies the font style to retrieve. |
 
-## Return Value
+### Return Value
 
 Returns `null` if the specified font is not embedded.
 

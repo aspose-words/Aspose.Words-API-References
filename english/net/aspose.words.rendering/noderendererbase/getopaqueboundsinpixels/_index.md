@@ -19,7 +19,7 @@ public Rectangle GetOpaqueBoundsInPixels(float scale, float dpi)
 | scale | Single | The zoom factor (1.0 is 100%). |
 | dpi | Single | The resolution to convert from points to pixels (dots per inch). |
 
-## Return Value
+### Return Value
 
 The opaque rectangle of the shape in pixels.
 
@@ -93,7 +93,7 @@ public Rectangle GetOpaqueBoundsInPixels(float scale, float horizontalDpi, float
 | horizontalDpi | Single | The horizontal resolution to convert from points to pixels (dots per inch). |
 | verticalDpi | Single | The vertical resolution to convert from points to pixels (dots per inch). |
 
-## Return Value
+### Return Value
 
 The opaque rectangle of the shape in pixels.
 

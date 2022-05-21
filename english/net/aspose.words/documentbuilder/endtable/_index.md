@@ -14,7 +14,7 @@ Ends a table in the document.
 public Table EndTable()
 ```
 
-## Return Value
+### Return Value
 
 The table node that was just finished.
 

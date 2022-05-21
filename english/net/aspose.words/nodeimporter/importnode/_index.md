@@ -19,7 +19,7 @@ public Node ImportNode(Node srcNode, bool isImportChildren)
 | srcNode | Node | The node to import. |
 | isImportChildren | Boolean | True to import all child nodes recursively; otherwise, false. |
 
-## Return Value
+### Return Value
 
 The cloned, imported node. The node belongs to the destination document, but has no parent.
 

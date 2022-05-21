@@ -14,7 +14,7 @@ Builds and inserts a field into the document before the specified inline node.
 public Field BuildAndInsert(Inline refNode)
 ```
 
-## Return Value
+### Return Value
 
 A [`Field`](../../field) object that represents the inserted field.
 
@@ -61,7 +61,7 @@ Builds and inserts a field into the document to the end of the specified paragra
 public Field BuildAndInsert(Paragraph refNode)
 ```
 
-## Return Value
+### Return Value
 
 A [`Field`](../../field) object that represents the inserted field.
 

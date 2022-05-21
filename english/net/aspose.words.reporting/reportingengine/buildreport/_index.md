@@ -19,7 +19,7 @@ public bool BuildReport(Document document, object dataSource)
 | document | Document | A template document to be populated with data. |
 | dataSource | Object | A data source object. |
 
-## Return Value
+### Return Value
 
 A flag indicating whether parsing of the template document was successful. The returned flag makes sense only if a value of the [`Options`](../options) property includes the InlineErrorMessages option.
 
@@ -66,7 +66,7 @@ public bool BuildReport(Document document, object dataSource, string dataSourceN
 | dataSource | Object | A data source object. |
 | dataSourceName | String | A name to reference the data source object in the template. |
 
-## Return Value
+### Return Value
 
 A flag indicating whether parsing of the template document was successful. The returned flag makes sense only if a value of the [`Options`](../options) property includes the InlineErrorMessages option.
 
@@ -113,7 +113,7 @@ public bool BuildReport(Document document, object[] dataSources, string[] dataSo
 | dataSources | Object[] | An array of data source objects. |
 | dataSourceNames | String[] | An array of names to reference the data source objects within the template. |
 
-## Return Value
+### Return Value
 
 A flag indicating whether parsing of the template document was successful. The returned flag makes sense only if a value of the [`Options`](../options) property includes the InlineErrorMessages option.
 

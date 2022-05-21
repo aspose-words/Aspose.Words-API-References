@@ -14,7 +14,7 @@ Joins runs with the same formatting in the paragraph.
 public int JoinRunsWithSameFormatting()
 ```
 
-## Return Value
+### Return Value
 
 Number of joins performed. When **N** adjacent runs are being joined they count as **N - 1** joins.
 

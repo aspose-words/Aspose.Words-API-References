@@ -18,7 +18,7 @@ public Shape InsertSignatureLine(SignatureLineOptions signatureLineOptions)
 | --- | --- | --- |
 | signatureLineOptions | SignatureLineOptions | The object that stores parameters of creating signature line. |
 
-## Return Value
+### Return Value
 
 The signature line node that was just inserted.
 
@@ -101,7 +101,7 @@ public Shape InsertSignatureLine(SignatureLineOptions signatureLineOptions,
 | top | Double | Distance in points from the origin to the top side of the signature line. |
 | wrapType | WrapType | Specifies how to wrap text around the signature line. |
 
-## Return Value
+### Return Value
 
 The signature line node that was just inserted.
 

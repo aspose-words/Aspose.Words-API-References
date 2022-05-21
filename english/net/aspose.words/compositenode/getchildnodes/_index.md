@@ -19,7 +19,7 @@ public NodeCollection GetChildNodes(NodeType nodeType, bool isDeep)
 | nodeType | NodeType | Specifies the type of nodes to select. |
 | isDeep | Boolean | True to select from all child nodes recursively. False to select only among immediate children. |
 
-## Return Value
+### Return Value
 
 A live collection of child nodes of the specified type.
 
