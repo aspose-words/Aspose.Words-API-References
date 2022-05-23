@@ -14,7 +14,7 @@ Returns true if this node can contain other nodes.
 public virtual bool IsComposite { get; }
 ```
 
-## Property Value
+### Property Value
 
 This method returns false as Node cannot have child nodes.
 
