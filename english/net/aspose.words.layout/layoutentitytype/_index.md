@@ -15,7 +15,7 @@ Types of the layout entities.
 public enum LayoutEntityType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

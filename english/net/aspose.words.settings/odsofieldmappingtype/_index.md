@@ -14,7 +14,7 @@ Specifies the possible types used to indicate if a given mail merge field has be
 public enum OdsoFieldMappingType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -14,7 +14,7 @@ Represents type of the style.
 public enum StyleType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

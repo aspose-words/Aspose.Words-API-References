@@ -14,7 +14,7 @@ Specifies how Microsoft Word will report errors detected during mail merge.
 public enum MailMergeCheckErrors
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

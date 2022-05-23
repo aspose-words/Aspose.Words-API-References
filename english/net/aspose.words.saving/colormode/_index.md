@@ -14,7 +14,7 @@ Specifies how colors are rendered.
 public enum ColorMode
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

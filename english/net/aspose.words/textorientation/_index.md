@@ -14,7 +14,7 @@ Specifies orientation of text on a page, in a table cell or a text frame.
 public enum TextOrientation
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

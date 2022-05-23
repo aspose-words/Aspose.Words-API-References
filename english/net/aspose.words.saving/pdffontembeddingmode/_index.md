@@ -14,7 +14,7 @@ Specifies how Aspose.Words should embed fonts.
 public enum PdfFontEmbeddingMode
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

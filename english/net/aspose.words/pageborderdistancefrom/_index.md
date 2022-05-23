@@ -14,7 +14,7 @@ Specifies the positioning of the page border relative to the page margin.
 public enum PageBorderDistanceFrom
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

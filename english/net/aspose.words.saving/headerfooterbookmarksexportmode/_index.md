@@ -14,7 +14,7 @@ Specifies how bookmarks in headers/footers are exported.
 public enum HeaderFooterBookmarksExportMode
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

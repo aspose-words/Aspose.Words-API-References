@@ -14,7 +14,7 @@ Allows to specify the alignment of the content of the table to be used when expo
 public enum TableContentAlignment
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

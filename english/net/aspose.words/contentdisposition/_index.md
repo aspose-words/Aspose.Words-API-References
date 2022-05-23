@@ -14,7 +14,7 @@ Enumerates different ways of presenting the document at the client browser.
 public enum ContentDisposition
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

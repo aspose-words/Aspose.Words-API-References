@@ -14,7 +14,7 @@ Specifies a mode for parsing JSON simple values (null, boolean, number, integer,
 public enum JsonSimpleValueParseMode
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

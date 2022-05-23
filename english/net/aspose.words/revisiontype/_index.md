@@ -14,7 +14,7 @@ Specifies the type of change being tracked in [`Revision`](../revision).
 public enum RevisionType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

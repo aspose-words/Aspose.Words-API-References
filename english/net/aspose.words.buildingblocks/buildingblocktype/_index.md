@@ -14,7 +14,7 @@ Specifies a building block type. The type might affect the visibility and behavi
 public enum BuildingBlockType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

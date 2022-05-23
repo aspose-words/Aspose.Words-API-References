@@ -14,7 +14,7 @@ Defines the endnote position.
 public enum EndnotePosition
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -14,7 +14,7 @@ Specifies the type of an arrow at a line end.
 public enum ArrowType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

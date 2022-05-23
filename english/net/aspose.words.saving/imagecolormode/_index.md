@@ -14,7 +14,7 @@ Specifies the color mode for the generated images of document pages.
 public enum ImageColorMode
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

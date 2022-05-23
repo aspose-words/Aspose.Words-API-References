@@ -14,7 +14,7 @@ Type of loaded resource.
 public enum ResourceType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

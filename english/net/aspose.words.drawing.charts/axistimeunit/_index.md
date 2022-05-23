@@ -14,7 +14,7 @@ Specifies the unit of time for axes.
 public enum AxisTimeUnit
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

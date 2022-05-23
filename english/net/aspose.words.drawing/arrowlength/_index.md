@@ -14,7 +14,7 @@ Length of the arrow at the end of a line.
 public enum ArrowLength
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -14,7 +14,7 @@ Specifies how document is printed out.
 public enum MultiplePagesType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

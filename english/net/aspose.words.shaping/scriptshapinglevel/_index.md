@@ -12,7 +12,7 @@ url: /net/aspose.words.shaping/scriptshapinglevel/
 public enum ScriptShapingLevel
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -14,7 +14,7 @@ Specifies the type of a structured document tag (SDT) node.
 public enum SdtType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -14,7 +14,7 @@ Allows to specify decoration effect for revisions of document text.
 public enum RevisionTextEffect
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -14,7 +14,7 @@ Specifies the possible results which may be generated when a mail merge is carri
 public enum MailMergeDestination
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

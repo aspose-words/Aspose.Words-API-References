@@ -14,7 +14,7 @@ Specifies the predefined gallery into which a building block is classified.
 public enum BuildingBlockGallery
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

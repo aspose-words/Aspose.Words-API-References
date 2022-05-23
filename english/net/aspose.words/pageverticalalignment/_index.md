@@ -14,7 +14,7 @@ Specifies vertical justification of text on each page.
 public enum PageVerticalAlignment
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

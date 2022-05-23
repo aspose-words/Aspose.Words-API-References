@@ -14,7 +14,7 @@ Specifies Microsoft Word field types.
 public enum FieldType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

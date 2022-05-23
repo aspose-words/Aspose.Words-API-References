@@ -14,7 +14,7 @@ Specifies how list labels are exported to HTML, MHTML and EPUB.
 public enum ExportListLabels
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

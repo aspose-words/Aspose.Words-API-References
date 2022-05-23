@@ -14,7 +14,7 @@ Specifies possible types of emphasis mark.
 public enum EmphasisMark
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

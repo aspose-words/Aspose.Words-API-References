@@ -14,7 +14,7 @@ Specifies the possible types of calendars which can be used to specify [`Calenda
 public enum SdtCalendarType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

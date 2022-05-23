@@ -14,7 +14,7 @@ Indicates the format that is used to export fonts while rendering to HTML fixed 
 public enum ExportFontFormat
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

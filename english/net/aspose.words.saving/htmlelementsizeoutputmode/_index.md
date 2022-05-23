@@ -14,7 +14,7 @@ Specifies how Aspose.Words exports element widths and heights to HTML, MHTML and
 public enum HtmlElementSizeOutputMode
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

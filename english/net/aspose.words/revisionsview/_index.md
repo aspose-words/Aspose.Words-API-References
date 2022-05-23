@@ -14,7 +14,7 @@ Allows to specify whether to work with the original or revised version of a docu
 public enum RevisionsView
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

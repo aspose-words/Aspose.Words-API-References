@@ -14,7 +14,7 @@ WordArt alignment.
 public enum TextPathAlignment
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -14,7 +14,7 @@ Specifies the editing language.
 public enum EditingLanguage
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

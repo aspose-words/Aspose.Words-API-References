@@ -14,7 +14,7 @@ Specifies marker symbol style.
 public enum MarkerSymbol
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -14,7 +14,7 @@ Specifies how Aspose.Words should render WMF and EMF metafiles.
 public enum MetafileRenderingMode
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

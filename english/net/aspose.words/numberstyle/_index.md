@@ -14,7 +14,7 @@ Specifies the number style for a list, footnotes and endnotes, page numbers.
 public enum NumberStyle
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -14,7 +14,7 @@ Specifies the formatting for the [`FieldIndex`](../fieldindex) fields in a docum
 public enum FieldIndexFormat
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

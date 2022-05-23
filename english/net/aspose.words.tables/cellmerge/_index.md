@@ -14,7 +14,7 @@ Specifies how a cell in a table is merged with other cells.
 public enum CellMerge
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

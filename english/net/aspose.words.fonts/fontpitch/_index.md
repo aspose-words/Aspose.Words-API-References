@@ -14,7 +14,7 @@ Represents the font pitch.
 public enum FontPitch
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -14,7 +14,7 @@ Allows to specify which OOXML specification will be used when saving in the DOCX
 public enum OoxmlCompliance
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

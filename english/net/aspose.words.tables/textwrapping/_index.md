@@ -14,7 +14,7 @@ Specifies how text is wrapped around the table.
 public enum TextWrapping
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

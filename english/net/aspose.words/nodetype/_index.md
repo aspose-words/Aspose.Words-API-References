@@ -14,7 +14,7 @@ Specifies the type of a Word document node.
 public enum NodeType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -14,7 +14,7 @@ Specifies line cap style.
 public enum EndCap
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -14,7 +14,7 @@ Specifies how the color space will be selected for the images in PDF document.
 public enum PdfImageColorSpaceExportMode
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

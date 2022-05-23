@@ -14,7 +14,7 @@ Locale independent style identifier.
 public enum StyleIdentifier
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -14,7 +14,7 @@ Specifies the type of a calendar.
 public enum CalendarType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

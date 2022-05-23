@@ -14,7 +14,7 @@ Specifies alignment for the list number or bullet.
 public enum ListLevelAlignment
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -12,7 +12,7 @@ url: /net/aspose.words.saving/svgtextoutputmode/
 public enum SvgTextOutputMode
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

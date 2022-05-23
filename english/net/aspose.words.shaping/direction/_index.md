@@ -12,7 +12,7 @@ url: /net/aspose.words.shaping/direction/
 public enum Direction
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

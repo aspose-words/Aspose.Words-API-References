@@ -14,7 +14,7 @@ Indicates the version of HTML is used when saving the document to Html and Mhtml
 public enum HtmlVersion
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

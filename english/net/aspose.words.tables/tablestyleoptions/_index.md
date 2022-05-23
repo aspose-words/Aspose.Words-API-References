@@ -15,7 +15,7 @@ Specifies how table style is applied to a table.
 public enum TableStyleOptions
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

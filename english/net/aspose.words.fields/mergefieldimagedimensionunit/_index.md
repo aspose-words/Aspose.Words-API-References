@@ -14,7 +14,7 @@ Specifies an unit of an image dimension (i.e. the width or the height) used acro
 public enum MergeFieldImageDimensionUnit
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

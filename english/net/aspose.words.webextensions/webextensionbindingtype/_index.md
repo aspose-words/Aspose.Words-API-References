@@ -14,7 +14,7 @@ Enumerates available types of binding between a web extension and the data in th
 public enum WebExtensionBindingType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

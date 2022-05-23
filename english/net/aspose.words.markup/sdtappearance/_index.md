@@ -14,7 +14,7 @@ Specifies the appearance of a structured document tag.
 public enum SdtAppearance
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

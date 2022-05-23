@@ -14,7 +14,7 @@ Specifies the possible scale types for an axis.
 public enum AxisScaleType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

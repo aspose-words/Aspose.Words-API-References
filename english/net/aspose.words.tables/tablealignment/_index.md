@@ -14,7 +14,7 @@ Specifies alignment for an inline table.
 public enum TableAlignment
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

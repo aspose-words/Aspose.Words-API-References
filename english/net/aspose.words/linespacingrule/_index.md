@@ -14,7 +14,7 @@ Specifies line spacing values for a paragraph.
 public enum LineSpacingRule
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

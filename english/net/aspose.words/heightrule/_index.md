@@ -14,7 +14,7 @@ Specifies the rule for determining the height of an object.
 public enum HeightRule
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

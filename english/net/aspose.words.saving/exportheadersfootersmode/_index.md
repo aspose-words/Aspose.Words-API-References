@@ -14,7 +14,7 @@ Specifies how headers and footers are exported to HTML, MHTML or EPUB.
 public enum ExportHeadersFootersMode
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

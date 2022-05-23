@@ -14,7 +14,7 @@ Specifies direction for replace operations.
 public enum FindReplaceDirection
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

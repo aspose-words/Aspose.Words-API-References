@@ -14,7 +14,7 @@ Allows Aspose.Wods to mimic MS Word version-specific application behavior.
 public enum MsWordVersion
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

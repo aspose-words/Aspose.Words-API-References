@@ -14,7 +14,7 @@ Specifies the PDF standards compliance level.
 public enum PdfCompliance
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

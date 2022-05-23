@@ -14,7 +14,7 @@ Specifies to what the horizontal position of a shape or text frame is relative.
 public enum RelativeHorizontalPosition
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

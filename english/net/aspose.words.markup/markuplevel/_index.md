@@ -14,7 +14,7 @@ Specifies the level in the document tree where a particular [`StructuredDocument
 public enum MarkupLevel
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

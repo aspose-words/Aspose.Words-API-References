@@ -14,7 +14,7 @@ Specifies type of a chart.
 public enum ChartType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

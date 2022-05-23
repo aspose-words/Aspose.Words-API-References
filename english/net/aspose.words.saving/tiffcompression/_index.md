@@ -14,7 +14,7 @@ Specifies what type of compression to apply when saving page images into a TIFF 
 public enum TiffCompression
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -14,7 +14,7 @@ Specifies the fill pattern to be used to fill a shape.
 public enum PatternType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

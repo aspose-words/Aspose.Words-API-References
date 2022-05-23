@@ -14,7 +14,7 @@ Specifies the types of theme font names for document themes.
 public enum ThemeFont
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

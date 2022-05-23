@@ -12,7 +12,7 @@ url: /net/aspose.words.drawing.ole/forms2olecontroltype/
 public enum Forms2OleControlType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

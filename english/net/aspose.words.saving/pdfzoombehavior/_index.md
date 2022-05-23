@@ -14,7 +14,7 @@ Specifies the type of zoom applied to a PDF document when it is opened in a PDF 
 public enum PdfZoomBehavior
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

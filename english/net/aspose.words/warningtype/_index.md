@@ -15,7 +15,7 @@ Specifies the type of a warning that is issued by Aspose.Words during document l
 public enum WarningType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

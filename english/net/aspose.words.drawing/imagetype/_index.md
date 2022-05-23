@@ -14,7 +14,7 @@ Specifies the type (format) of an image in a Microsoft Word document.
 public enum ImageType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

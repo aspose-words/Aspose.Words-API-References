@@ -14,7 +14,7 @@ Specifies horizontal alignment of a floating shape, text frame or floating table
 public enum HorizontalAlignment
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

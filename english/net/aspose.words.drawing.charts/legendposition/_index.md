@@ -14,7 +14,7 @@ Specifies the possible positions for a chart legend.
 public enum LegendPosition
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

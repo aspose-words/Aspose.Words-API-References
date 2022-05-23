@@ -14,7 +14,7 @@ Indicates the format in which metafiles are saved to HTML documents.
 public enum HtmlMetafileFormat
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

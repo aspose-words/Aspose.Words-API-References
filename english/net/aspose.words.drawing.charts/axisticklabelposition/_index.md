@@ -14,7 +14,7 @@ Specifies the possible positions for tick labels.
 public enum AxisTickLabelPosition
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

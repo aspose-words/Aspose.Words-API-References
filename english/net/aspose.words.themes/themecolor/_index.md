@@ -14,7 +14,7 @@ Specifies the theme colors for document themes.
 public enum ThemeColor
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

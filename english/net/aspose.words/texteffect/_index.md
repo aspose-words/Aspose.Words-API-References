@@ -14,7 +14,7 @@ Animation effect for text runs.
 public enum TextEffect
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -14,7 +14,7 @@ Represents the alignment for the specified horizontal rule.
 public enum HorizontalRuleAlignment
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

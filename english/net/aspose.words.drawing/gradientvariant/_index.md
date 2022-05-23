@@ -14,7 +14,7 @@ Specifies the variant for a gradient fill.
 public enum GradientVariant
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

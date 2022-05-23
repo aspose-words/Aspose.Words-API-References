@@ -14,7 +14,7 @@ Protection type for a document.
 public enum ProtectionType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

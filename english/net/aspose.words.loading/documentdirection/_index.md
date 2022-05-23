@@ -14,7 +14,7 @@ Allows to specify the direction to flow the text in a document.
 public enum DocumentDirection
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

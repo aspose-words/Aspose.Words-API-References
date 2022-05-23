@@ -14,7 +14,7 @@ Specifies the type of compression applied to images in the PDF file.
 public enum PdfImageCompression
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

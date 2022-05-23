@@ -14,7 +14,7 @@ Specifies fill type for a fillable object.
 public enum FillType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

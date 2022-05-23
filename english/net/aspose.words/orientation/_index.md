@@ -14,7 +14,7 @@ Specifies page orientation.
 public enum Orientation
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

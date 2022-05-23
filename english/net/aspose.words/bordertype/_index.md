@@ -14,7 +14,7 @@ Specifies sides of a border.
 public enum BorderType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

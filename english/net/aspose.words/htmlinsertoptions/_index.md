@@ -15,7 +15,7 @@ Specifies options for the [`InsertHtml`](../documentbuilder/inserthtml) method.
 public enum HtmlInsertOptions
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

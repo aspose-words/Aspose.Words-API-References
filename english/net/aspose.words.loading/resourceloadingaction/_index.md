@@ -14,7 +14,7 @@ Specifies the mode of resource loading.
 public enum ResourceLoadingAction
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

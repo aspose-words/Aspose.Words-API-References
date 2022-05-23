@@ -14,7 +14,7 @@ Specifies the type of a digital signature.
 public enum DigitalSignatureType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -14,7 +14,7 @@ Indicates type of the underline applied to a font.
 public enum Underline
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

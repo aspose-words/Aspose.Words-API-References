@@ -14,7 +14,7 @@ Allows the user to specify what happens to the current match during a replace op
 public enum ReplaceAction
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

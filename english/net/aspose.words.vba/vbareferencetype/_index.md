@@ -14,7 +14,7 @@ Allows to specify the type of a [`VbaReference`](../vbareference) object.
 public enum VbaReferenceType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

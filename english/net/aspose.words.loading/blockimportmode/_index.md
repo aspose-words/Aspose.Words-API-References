@@ -14,7 +14,7 @@ Specifies how properties of block-level elements are imported from HTML-based do
 public enum BlockImportMode
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

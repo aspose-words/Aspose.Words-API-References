@@ -14,7 +14,7 @@ Specifies the type of a font source.
 public enum FontSourceType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

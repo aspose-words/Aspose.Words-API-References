@@ -14,7 +14,7 @@ The type of break at the beginning of the section.
 public enum SectionStart
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

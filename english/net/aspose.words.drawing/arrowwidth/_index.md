@@ -14,7 +14,7 @@ Width of the arrow at the end of a line.
 public enum ArrowWidth
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |
