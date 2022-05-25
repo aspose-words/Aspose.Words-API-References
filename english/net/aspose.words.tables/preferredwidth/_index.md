@@ -32,11 +32,11 @@ public sealed class PreferredWidth
 | override [GetHashCode](../../aspose.words.tables/preferredwidth/gethashcode)() | Serves as a hash function for this type. |
 | override [ToString](../../aspose.words.tables/preferredwidth/tostring)() | Returns a user-friendly string that displays the value of this object. |
 
-## Other Members
+## Fields
 
 | Name | Description |
 | --- | --- |
-| static readonly [Auto](auto) | Returns an instance that represents the "preferred width is not specified" value. |
+| static readonly [Auto](../../aspose.words.tables/preferredwidth/auto) | Returns an instance that represents the "preferred width is not specified" value. |
 
 ### Remarks
 
