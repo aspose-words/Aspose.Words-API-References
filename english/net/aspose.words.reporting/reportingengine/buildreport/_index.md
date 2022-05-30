@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.reporting/reportingengine/buildreport/
 ---
-## BuildReport(Document, object) {1}
+## BuildReport(Document, object) {#1}
 
 Populates the specified template document with data from the specified source making it a ready report.
 
@@ -52,7 +52,7 @@ For information on how to work with data sources of different types in template 
 
 ---
 
-## BuildReport(Document, object, string) {2}
+## BuildReport(Document, object, string) {#2}
 
 Populates the specified template document with data from the specified source making it a ready report.
 
@@ -99,7 +99,7 @@ For information on how to work with data sources of different types in template 
 
 ---
 
-## BuildReport(Document, object[], string[]) {3}
+## BuildReport(Document, object[], string[]) {#3}
 
 Populates the specified template document with data from the specified sources making it a ready report.
 

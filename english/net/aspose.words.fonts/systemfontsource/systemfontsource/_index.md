@@ -6,7 +6,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.fonts/systemfontsource/systemfontsource/
 ---
-## SystemFontSource() {1}
+## SystemFontSource() {#1}
 
 Ctor.
 
@@ -70,7 +70,7 @@ Assert.AreEqual(1, doc.FontSettings.SubstitutionSettings.TableSubstitution.GetSu
 
 ---
 
-## SystemFontSource(int) {2}
+## SystemFontSource(int) {#2}
 
 Ctor.
 

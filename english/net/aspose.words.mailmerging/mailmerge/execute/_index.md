@@ -6,7 +6,7 @@ type: docs
 weight: 180
 url: /net/aspose.words.mailmerging/mailmerge/execute/
 ---
-## Execute(IMailMergeDataSource) {1}
+## Execute(IMailMergeDataSource) {#1}
 
 Performs a mail merge from a custom data source.
 
@@ -35,7 +35,7 @@ This method ignores the RemoveUnusedRegions option.
 
 ---
 
-## Execute(string[], object[]) {2}
+## Execute(string[], object[]) {#2}
 
 Performs a mail merge operation for a single record.
 
@@ -116,7 +116,7 @@ Assert.That(() => response.End(), Throws.TypeOf<NullReferenceException>());
 
 ---
 
-## Execute(DataTable) {3}
+## Execute(DataTable) {#3}
 
 Performs mail merge from a DataTable into the document.
 
@@ -193,7 +193,7 @@ private static Document CreateSourceDocExecuteDataTable()
 
 ---
 
-## Execute(IDataReader) {4}
+## Execute(IDataReader) {#4}
 
 Performs mail merge from IDataReader into the document.
 
@@ -268,7 +268,7 @@ doc.Save(ArtifactsDir + "MailMerge.ExecuteDataReader.docx");
 
 ---
 
-## Execute(DataView) {5}
+## Execute(DataView) {#5}
 
 Performs mail merge from a DataView into the document.
 
@@ -330,7 +330,7 @@ doc.Save(ArtifactsDir + "MailMerge.ExecuteDataView.docx");
 
 ---
 
-## Execute(DataRow) {6}
+## Execute(DataRow) {#6}
 
 Performs mail merge from a DataRow into the document.
 

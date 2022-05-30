@@ -6,7 +6,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.saving/htmlsaveoptions/htmlsaveoptions/
 ---
-## HtmlSaveOptions() {1}
+## HtmlSaveOptions() {#1}
 
 Initializes a new instance of this class that can be used to save a document in the Html format.
 
@@ -46,7 +46,7 @@ doc.Save(ArtifactsDir + "HtmlSaveOptions.Doc2EpubSaveOptions.epub", saveOptions)
 
 ---
 
-## HtmlSaveOptions(SaveFormat) {2}
+## HtmlSaveOptions(SaveFormat) {#2}
 
 Initializes a new instance of this class that can be used to save a document in the Html, Mhtml or Epub format.
 

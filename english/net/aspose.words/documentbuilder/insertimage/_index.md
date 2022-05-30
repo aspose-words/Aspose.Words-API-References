@@ -6,7 +6,7 @@ type: docs
 weight: 350
 url: /net/aspose.words/documentbuilder/insertimage/
 ---
-## InsertImage(Image) {1}
+## InsertImage(Image) {#1}
 
 Inserts an image from a .NET Image object into the document. The image is inserted inline and at 100% scale.
 
@@ -63,7 +63,7 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromImageObject.docx")
 
 ---
 
-## InsertImage(string) {2}
+## InsertImage(string) {#2}
 
 Inserts an image from a file or URL into the document. The image is inserted inline and at 100% scale.
 
@@ -196,7 +196,7 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromFilename.docx");
 
 ---
 
-## InsertImage(Stream) {3}
+## InsertImage(Stream) {#3}
 
 Inserts an image from a stream into the document. The image is inserted inline and at 100% scale.
 
@@ -269,7 +269,7 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromStream.docx");
 
 ---
 
-## InsertImage(byte[]) {4}
+## InsertImage(byte[]) {#4}
 
 Inserts an image from a byte array into the document. The image is inserted inline and at 100% scale.
 
@@ -368,7 +368,7 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromByteArrayNetStanda
 
 ---
 
-## InsertImage(Image, double, double) {5}
+## InsertImage(Image, double, double) {#5}
 
 Inserts an inline image from a .NET Image object into the document and scales it to the specified size.
 
@@ -455,7 +455,7 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromImageObjectNetStan
 
 ---
 
-## InsertImage(string, double, double) {6}
+## InsertImage(string, double, double) {#6}
 
 Inserts an inline image from a file or URL into the document and scales it to the specified size.
 
@@ -513,7 +513,7 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromFilename.docx");
 
 ---
 
-## InsertImage(Stream, double, double) {7}
+## InsertImage(Stream, double, double) {#7}
 
 Inserts an inline image from a stream into the document and scales it to the specified size.
 
@@ -573,7 +573,7 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromStream.docx");
 
 ---
 
-## InsertImage(byte[], double, double) {8}
+## InsertImage(byte[], double, double) {#8}
 
 Inserts an inline image from a byte array into the document and scales it to the specified size.
 
@@ -674,7 +674,7 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromByteArrayNetStanda
 
 ---
 
-## InsertImage(Image, RelativeHorizontalPosition, double, RelativeVerticalPosition, double, double, double, WrapType) {9}
+## InsertImage(Image, RelativeHorizontalPosition, double, RelativeVerticalPosition, double, double, double, WrapType) {#9}
 
 Inserts an image from a .NET Image object at the specified position and size.
 
@@ -770,7 +770,7 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromImageObjectNetStan
 
 ---
 
-## InsertImage(string, RelativeHorizontalPosition, double, RelativeVerticalPosition, double, double, double, WrapType) {10}
+## InsertImage(string, RelativeHorizontalPosition, double, RelativeVerticalPosition, double, double, double, WrapType) {#10}
 
 Inserts an image from a file or URL at the specified position and size.
 
@@ -874,7 +874,7 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromFilename.docx");
 
 ---
 
-## InsertImage(Stream, RelativeHorizontalPosition, double, RelativeVerticalPosition, double, double, double, WrapType) {11}
+## InsertImage(Stream, RelativeHorizontalPosition, double, RelativeVerticalPosition, double, double, double, WrapType) {#11}
 
 Inserts an image from a stream at the specified position and size.
 
@@ -943,7 +943,7 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromStream.docx");
 
 ---
 
-## InsertImage(byte[], RelativeHorizontalPosition, double, RelativeVerticalPosition, double, double, double, WrapType) {12}
+## InsertImage(byte[], RelativeHorizontalPosition, double, RelativeVerticalPosition, double, double, double, WrapType) {#12}
 
 Inserts an image from a byte array at the specified position and size.
 

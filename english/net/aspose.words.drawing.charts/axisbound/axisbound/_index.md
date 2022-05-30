@@ -6,7 +6,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.drawing.charts/axisbound/axisbound/
 ---
-## AxisBound() {1}
+## AxisBound() {#1}
 
 Creates a new instance indicating that axis bound should be determined automatically by a word-processing application.
 
@@ -79,7 +79,7 @@ doc.Save(ArtifactsDir + "Charts.AxisBound.docx");
 
 ---
 
-## AxisBound(double) {2}
+## AxisBound(double) {#2}
 
 Creates an axis bound represented as a number.
 
@@ -142,7 +142,7 @@ doc.Save(ArtifactsDir + "Charts.DateTimeValues.docx");
 
 ---
 
-## AxisBound(DateTime) {3}
+## AxisBound(DateTime) {#3}
 
 Creates an axis bound represented as datetime value.
 

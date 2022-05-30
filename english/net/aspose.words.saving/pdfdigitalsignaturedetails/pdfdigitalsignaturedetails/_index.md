@@ -6,7 +6,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.saving/pdfdigitalsignaturedetails/pdfdigitalsignaturedetails/
 ---
-## PdfDigitalSignatureDetails() {1}
+## PdfDigitalSignatureDetails() {#1}
 
 Initializes an instance of this class.
 
@@ -51,7 +51,7 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignature.pdf", options);
 
 ---
 
-## PdfDigitalSignatureDetails(CertificateHolder, string, string, DateTime) {2}
+## PdfDigitalSignatureDetails(CertificateHolder, string, string, DateTime) {#2}
 
 Initializes an instance of this class.
 

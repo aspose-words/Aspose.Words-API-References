@@ -6,7 +6,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.fields/fieldbuilder/addargument/
 ---
-## AddArgument(string) {1}
+## AddArgument(string) {#1}
 
 Adds a field's argument.
 
@@ -106,7 +106,7 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 
 ---
 
-## AddArgument(int) {2}
+## AddArgument(int) {#2}
 
 Adds a field's argument.
 
@@ -206,7 +206,7 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 
 ---
 
-## AddArgument(double) {3}
+## AddArgument(double) {#3}
 
 Adds a field's argument.
 
@@ -306,7 +306,7 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 
 ---
 
-## AddArgument(FieldBuilder) {4}
+## AddArgument(FieldBuilder) {#4}
 
 Adds a child field represented by another [`FieldBuilder`](../../fieldbuilder) to the field's code.
 
@@ -406,7 +406,7 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 
 ---
 
-## AddArgument(FieldArgumentBuilder) {5}
+## AddArgument(FieldArgumentBuilder) {#5}
 
 Adds a field's argument represented by [`FieldArgumentBuilder`](../../fieldargumentbuilder) to the field's code.
 

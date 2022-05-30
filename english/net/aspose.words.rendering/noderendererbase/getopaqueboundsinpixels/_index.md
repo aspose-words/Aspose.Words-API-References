@@ -6,7 +6,7 @@ type: docs
 weight: 50
 url: /net/aspose.words.rendering/noderendererbase/getopaqueboundsinpixels/
 ---
-## GetOpaqueBoundsInPixels(float, float) {1}
+## GetOpaqueBoundsInPixels(float, float) {#1}
 
 Calculates the opaque bounds of the shape in pixels for a specified zoom factor and resolution.
 
@@ -79,7 +79,7 @@ Assert.AreEqual(30, bounds.Height);
 
 ---
 
-## GetOpaqueBoundsInPixels(float, float, float) {2}
+## GetOpaqueBoundsInPixels(float, float, float) {#2}
 
 Calculates the opaque bounds of the shape in pixels for a specified zoom factor and resolution.
 

@@ -6,7 +6,7 @@ type: docs
 weight: 330
 url: /net/aspose.words/documentbuilder/inserthtml/
 ---
-## InsertHtml(string) {1}
+## InsertHtml(string) {#1}
 
 Inserts an HTML string into the document.
 
@@ -127,7 +127,7 @@ private class HandleMergeFieldInsertHtml : IFieldMergingCallback
 
 ---
 
-## InsertHtml(string, bool) {2}
+## InsertHtml(string, bool) {#2}
 
 Inserts an HTML string into the document.
 
@@ -186,7 +186,7 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertHtmlWithFormatting.docx");
 
 ---
 
-## InsertHtml(string, HtmlInsertOptions) {3}
+## InsertHtml(string, HtmlInsertOptions) {#3}
 
 Inserts an HTML string into the document. Allows to specify additional options.
 

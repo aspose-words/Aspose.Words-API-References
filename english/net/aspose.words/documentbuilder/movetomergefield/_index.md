@@ -6,7 +6,7 @@ type: docs
 weight: 530
 url: /net/aspose.words/documentbuilder/movetomergefield/
 ---
-## MoveToMergeField(string) {1}
+## MoveToMergeField(string) {#1}
 
 Moves the cursor to a position just beyond the specified merge field and removes the merge field.
 
@@ -144,7 +144,7 @@ private static DataTable GetStudentCourseDataTable()
 
 ---
 
-## MoveToMergeField(string, bool, bool) {2}
+## MoveToMergeField(string, bool, bool) {#2}
 
 Moves the merge field to the specified merge field.
 

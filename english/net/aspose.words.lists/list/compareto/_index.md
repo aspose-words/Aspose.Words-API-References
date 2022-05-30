@@ -6,7 +6,7 @@ type: docs
 weight: 90
 url: /net/aspose.words.lists/list/compareto/
 ---
-## CompareTo(object) {1}
+## CompareTo(object) {#1}
 
 Compares the specified object to the current object.
 
@@ -22,7 +22,7 @@ public int CompareTo(object obj)
 
 ---
 
-## CompareTo(List) {2}
+## CompareTo(List) {#2}
 
 Compares the specified list to the current list.
 

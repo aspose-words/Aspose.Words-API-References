@@ -6,7 +6,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.saving/saveoptions/createsaveoptions/
 ---
-## CreateSaveOptions(SaveFormat) {1}
+## CreateSaveOptions(SaveFormat) {#1}
 
 Creates a save options object of a class suitable for the specified save format.
 
@@ -50,7 +50,7 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.MemoryOptimization.pdf", saveOptions);
 
 ---
 
-## CreateSaveOptions(string) {2}
+## CreateSaveOptions(string) {#2}
 
 Creates a save options object of a class suitable for the file extension specified in the given file name.
 

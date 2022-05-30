@@ -6,7 +6,7 @@ type: docs
 weight: 20
 url: /net/aspose.words/headerfootercollection/linktoprevious/
 ---
-## LinkToPrevious(bool) {1}
+## LinkToPrevious(bool) {#1}
 
 Links or unlinks all headers and footers to the corresponding headers and footers in the previous section.
 
@@ -92,7 +92,7 @@ doc.Save(ArtifactsDir + "HeaderFooter.Link.docx");
 
 ---
 
-## LinkToPrevious(HeaderFooterType, bool) {2}
+## LinkToPrevious(HeaderFooterType, bool) {#2}
 
 Links or unlinks the specified header or footer to the corresponding header or footer in the previous section.
 

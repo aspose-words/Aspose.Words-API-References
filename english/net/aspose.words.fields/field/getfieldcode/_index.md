@@ -6,7 +6,7 @@ type: docs
 weight: 110
 url: /net/aspose.words.fields/field/getfieldcode/
 ---
-## GetFieldCode() {1}
+## GetFieldCode() {#1}
 
 Returns text between field start and field separator (or field end if there is no separator). Both field code and field result of child fields are included.
 
@@ -58,7 +58,7 @@ Assert.AreEqual(fieldIf.GetFieldCode(), fieldIf.GetFieldCode(true));
 
 ---
 
-## GetFieldCode(bool) {2}
+## GetFieldCode(bool) {#2}
 
 Returns text between field start and field separator (or field end if there is no separator).
 

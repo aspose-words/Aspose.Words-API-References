@@ -6,7 +6,7 @@ type: docs
 weight: 510
 url: /net/aspose.words/document/appenddocument/
 ---
-## AppendDocument(Document, ImportFormatMode) {1}
+## AppendDocument(Document, ImportFormatMode) {#1}
 
 Appends the specified document to the end of this document.
 
@@ -73,7 +73,7 @@ dstDoc.Save(ArtifactsDir + "Document.AppendAllDocumentsInFolder.doc");
 
 ---
 
-## AppendDocument(Document, ImportFormatMode, ImportFormatOptions) {2}
+## AppendDocument(Document, ImportFormatMode, ImportFormatOptions) {#2}
 
 Appends the specified document to the end of this document.
 

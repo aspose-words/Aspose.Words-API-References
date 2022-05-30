@@ -6,7 +6,7 @@ type: docs
 weight: 10
 url: /net/aspose.words/document/document/
 ---
-## Document() {1}
+## Document() {#1}
 
 Creates a blank Word document.
 
@@ -69,7 +69,7 @@ Assert.AreEqual("Test encrypted document.", doc.FirstSection.Body.FirstParagraph
 
 ---
 
-## Document(string) {2}
+## Document(string) {#2}
 
 Opens an existing document from a file. Automatically detects the file format.
 
@@ -151,7 +151,7 @@ Assert.AreEqual("Hello world!", textFragmentAbsorber.Text.Trim());
 
 ---
 
-## Document(string, LoadOptions) {3}
+## Document(string, LoadOptions) {#3}
 
 Opens an existing document from a file. Allows to specify additional options such as an encryption password.
 
@@ -232,7 +232,7 @@ Assert.AreEqual("Test encrypted document.", doc.FirstSection.Body.FirstParagraph
 
 ---
 
-## Document(Stream) {4}
+## Document(Stream) {#4}
 
 Opens an existing document from a stream. Automatically detects the file format.
 
@@ -308,7 +308,7 @@ using (WebClient webClient = new WebClient())
 
 ---
 
-## Document(Stream, LoadOptions) {5}
+## Document(Stream, LoadOptions) {#5}
 
 Opens an existing document from a stream. Allows to specify additional options such as an encryption password.
 

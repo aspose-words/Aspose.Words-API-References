@@ -6,7 +6,7 @@ type: docs
 weight: 10
 url: /net/aspose.words/comment/comment/
 ---
-## Comment(DocumentBase) {1}
+## Comment(DocumentBase) {#1}
 
 Initializes a new instance of the **Comment** class.
 
@@ -193,7 +193,7 @@ public class CommentInfoPrinter : DocumentVisitor
 
 ---
 
-## Comment(DocumentBase, string, string, DateTime) {2}
+## Comment(DocumentBase, string, string, DateTime) {#2}
 
 Initializes a new instance of the **Comment** class.
 

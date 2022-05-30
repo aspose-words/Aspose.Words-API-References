@@ -6,7 +6,7 @@ type: docs
 weight: 60
 url: /net/aspose.words.tables/preferredwidth/equals/
 ---
-## Equals(PreferredWidth) {1}
+## Equals(PreferredWidth) {#1}
 
 Determines whether the specified PreferredWidth is equal in value to the current PreferredWidth.
 
@@ -59,7 +59,7 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertCellsWithPreferredWidths.docx");
 
 ---
 
-## Equals(object) {2}
+## Equals(object) {#2}
 
 Determines whether the specified object is equal in value to the current object.
 

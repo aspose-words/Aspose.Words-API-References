@@ -6,7 +6,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.saving/pdfdigitalsignaturetimestampsettings/pdfdigitalsignaturetimestampsettings/
 ---
-## PdfDigitalSignatureTimestampSettings() {1}
+## PdfDigitalSignatureTimestampSettings() {#1}
 
 Initializes an instance of this class.
 
@@ -59,7 +59,7 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignatureTimestamp.pdf", optio
 
 ---
 
-## PdfDigitalSignatureTimestampSettings(string, string, string) {2}
+## PdfDigitalSignatureTimestampSettings(string, string, string) {#2}
 
 Initializes an instance of this class.
 
@@ -118,7 +118,7 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignatureTimestamp.pdf", optio
 
 ---
 
-## PdfDigitalSignatureTimestampSettings(string, string, string, TimeSpan) {3}
+## PdfDigitalSignatureTimestampSettings(string, string, string, TimeSpan) {#3}
 
 Initializes an instance of this class.
 

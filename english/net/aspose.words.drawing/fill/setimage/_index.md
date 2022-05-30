@@ -6,7 +6,7 @@ type: docs
 weight: 190
 url: /net/aspose.words.drawing/fill/setimage/
 ---
-## SetImage(string) {1}
+## SetImage(string) {#1}
 
 Changes the fill type to single image.
 
@@ -26,7 +26,7 @@ public void SetImage(string fileName)
 
 ---
 
-## SetImage(Stream) {2}
+## SetImage(Stream) {#2}
 
 Changes the fill type to single image.
 
@@ -46,7 +46,7 @@ public void SetImage(Stream stream)
 
 ---
 
-## SetImage(byte[]) {3}
+## SetImage(byte[]) {#3}
 
 Changes the fill type to single image.
 

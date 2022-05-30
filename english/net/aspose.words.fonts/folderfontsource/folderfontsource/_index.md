@@ -6,7 +6,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.fonts/folderfontsource/folderfontsource/
 ---
-## FolderFontSource(string, bool) {1}
+## FolderFontSource(string, bool) {#1}
 
 Ctor.
 
@@ -45,7 +45,7 @@ Assert.AreEqual(1, folderFontSource.Priority);
 
 ---
 
-## FolderFontSource(string, bool, int) {2}
+## FolderFontSource(string, bool, int) {#2}
 
 Ctor.
 

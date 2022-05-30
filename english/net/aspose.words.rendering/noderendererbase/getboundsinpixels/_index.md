@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.rendering/noderendererbase/getboundsinpixels/
 ---
-## GetBoundsInPixels(float, float) {1}
+## GetBoundsInPixels(float, float) {#1}
 
 Calculates the bounds of the shape in pixels for a specified zoom factor and resolution.
 
@@ -79,7 +79,7 @@ Assert.AreEqual(30, bounds.Height);
 
 ---
 
-## GetBoundsInPixels(float, float, float) {2}
+## GetBoundsInPixels(float, float, float) {#2}
 
 Calculates the bounds of the shape in pixels for a specified zoom factor and resolution.
 

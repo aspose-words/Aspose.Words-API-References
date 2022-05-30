@@ -6,7 +6,7 @@ type: docs
 weight: 200
 url: /net/aspose.words.drawing/imagedata/setimage/
 ---
-## SetImage(Image) {1}
+## SetImage(Image) {#1}
 
 Sets the image that the shape displays.
 
@@ -58,7 +58,7 @@ doc.Save(ArtifactsDir + "Drawing.ImportImage.docx");
 
 ---
 
-## SetImage(Stream) {2}
+## SetImage(Stream) {#2}
 
 Sets the image that the shape displays.
 
@@ -110,7 +110,7 @@ doc.Save(ArtifactsDir + "Drawing.ImportImage.docx");
 
 ---
 
-## SetImage(string) {3}
+## SetImage(string) {#3}
 
 Sets the image that the shape displays.
 

@@ -6,7 +6,7 @@ type: docs
 weight: 410
 url: /net/aspose.words/documentbuilder/insertshape/
 ---
-## InsertShape(ShapeType, double, double) {1}
+## InsertShape(ShapeType, double, double) {#1}
 
 Inserts inline shape with specified type and size.
 
@@ -59,7 +59,7 @@ doc.Save(ArtifactsDir + "Shape.ShapeInsertion.docx", saveOptions);
 
 ---
 
-## InsertShape(ShapeType, RelativeHorizontalPosition, double, RelativeVerticalPosition, double, double, double, WrapType) {2}
+## InsertShape(ShapeType, RelativeHorizontalPosition, double, RelativeVerticalPosition, double, double, double, WrapType) {#2}
 
 Inserts free-floating shape with specified position, size and text wrap type.
 
