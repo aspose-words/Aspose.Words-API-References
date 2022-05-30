@@ -14,7 +14,7 @@ Specifies the alignment/type of a tab stop.
 public enum TabAlignment
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

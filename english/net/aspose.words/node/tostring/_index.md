@@ -6,7 +6,7 @@ type: docs
 weight: 160
 url: /net/aspose.words/node/tostring/
 ---
-## Node.ToString method (1 of 2)
+## ToString(SaveFormat) {1}
 
 Exports the content of the node into a string in the specified format.
 
@@ -14,7 +14,7 @@ Exports the content of the node into a string in the specified format.
 public string ToString(SaveFormat saveFormat)
 ```
 
-## Return Value
+### Return Value
 
 The content of the node in the specified format.
 
@@ -96,7 +96,7 @@ foreach (Paragraph paragraph in paras.OfType<Paragraph>().Where(p => p.ListForma
 
 ---
 
-## Node.ToString method (2 of 2)
+## ToString(SaveOptions) {2}
 
 Exports the content of the node into a string using the specified save options.
 
@@ -108,7 +108,7 @@ public string ToString(SaveOptions saveOptions)
 | --- | --- | --- |
 | saveOptions | SaveOptions | Specifies the options that control how the node is saved. |
 
-## Return Value
+### Return Value
 
 The content of the node in the specified format.
 

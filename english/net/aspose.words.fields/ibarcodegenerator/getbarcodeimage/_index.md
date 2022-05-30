@@ -18,7 +18,7 @@ public Image GetBarcodeImage(BarcodeParameters parameters)
 | --- | --- | --- |
 | parameters | BarcodeParameters | The set of parameters |
 
-## Return Value
+### Return Value
 
 Image representing generated barcode.
 

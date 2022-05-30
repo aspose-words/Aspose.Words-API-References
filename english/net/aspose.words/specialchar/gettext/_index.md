@@ -14,7 +14,7 @@ Gets the special character that this node represents.
 public override string GetText()
 ```
 
-## Return Value
+### Return Value
 
 The string that contains the character that this node represents.
 

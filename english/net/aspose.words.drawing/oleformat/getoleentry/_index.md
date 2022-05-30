@@ -18,7 +18,7 @@ public MemoryStream GetOleEntry(string oleEntryName)
 | --- | --- | --- |
 | oleEntryName | String | Case-sensitive name of the OLE data stream. |
 
-## Return Value
+### Return Value
 
 An OLE data stream or null.
 

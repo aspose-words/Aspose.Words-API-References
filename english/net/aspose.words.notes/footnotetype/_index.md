@@ -14,7 +14,7 @@ Specifies whether this is a footnote or an endnote.
 public enum FootnoteType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

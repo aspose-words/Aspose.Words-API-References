@@ -15,7 +15,7 @@ Specifies the style of an embedded font inside a [`FontInfo`](../fontinfo) objec
 public enum EmbeddedFontStyle
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

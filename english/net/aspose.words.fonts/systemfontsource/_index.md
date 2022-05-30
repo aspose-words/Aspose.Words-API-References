@@ -18,8 +18,8 @@ public class SystemFontSource : FontSourceBase
 
 | Name | Description |
 | --- | --- |
-| [SystemFontSource](systemfontsource)() | Ctor. |
-| [SystemFontSource](systemfontsource)(int) | Ctor. |
+| [SystemFontSource](systemfontsource#1)() | Ctor. |
+| [SystemFontSource](systemfontsource#2)(int) | Ctor. |
 
 ## Properties
 

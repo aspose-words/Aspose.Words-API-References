@@ -18,8 +18,8 @@ public sealed class ComparisonEvaluationResult
 
 | Name | Description |
 | --- | --- |
-| [ComparisonEvaluationResult](comparisonevaluationresult)(bool) | Creates a comparison evaluation result. |
-| [ComparisonEvaluationResult](comparisonevaluationresult)(string) | Creates a failed comparison evaluation result with the corresponding error message. |
+| [ComparisonEvaluationResult](comparisonevaluationresult#1)(bool) | Creates a comparison evaluation result. |
+| [ComparisonEvaluationResult](comparisonevaluationresult#2)(string) | Creates a failed comparison evaluation result with the corresponding error message. |
 
 ## Properties
 

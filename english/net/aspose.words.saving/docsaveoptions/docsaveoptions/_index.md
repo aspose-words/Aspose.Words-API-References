@@ -6,7 +6,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.saving/docsaveoptions/docsaveoptions/
 ---
-## DocSaveOptions constructor (1 of 2)
+## DocSaveOptions() {1}
 
 Initializes a new instance of this class that can be used to save a document in the Doc format.
 
@@ -52,7 +52,7 @@ Assert.AreEqual("Hello world!", doc.GetText().Trim());
 
 ---
 
-## DocSaveOptions constructor (2 of 2)
+## DocSaveOptions(SaveFormat) {2}
 
 Initializes a new instance of this class that can be used to save a document in the Doc or Dot format.
 

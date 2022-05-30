@@ -6,7 +6,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.drawing/gradientstop/gradientstop/
 ---
-## GradientStop constructor (1 of 2)
+## GradientStop(Color, double) {1}
 
 Initializes a new instance of the [`GradientStop`](../../gradientstop) class.
 
@@ -76,7 +76,7 @@ doc.Save(ArtifactsDir + "Shape.GradientStops.docx", saveOptions);
 
 ---
 
-## GradientStop constructor (2 of 2)
+## GradientStop(Color, double, double) {2}
 
 Initializes a new instance of the [`GradientStop`](../../gradientstop) class.
 

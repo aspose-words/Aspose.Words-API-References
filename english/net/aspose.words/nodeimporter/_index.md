@@ -18,8 +18,8 @@ public class NodeImporter
 
 | Name | Description |
 | --- | --- |
-| [NodeImporter](nodeimporter)(DocumentBase, DocumentBase, ImportFormatMode) | Initializes a new instance of the [`NodeImporter`](../nodeimporter) class. |
-| [NodeImporter](nodeimporter)(DocumentBase, DocumentBase, ImportFormatMode, ImportFormatOptions) | Initializes a new instance of the [`NodeImporter`](../nodeimporter) class. |
+| [NodeImporter](nodeimporter#1)(DocumentBase, DocumentBase, ImportFormatMode) | Initializes a new instance of the [`NodeImporter`](../nodeimporter) class. |
+| [NodeImporter](nodeimporter#2)(DocumentBase, DocumentBase, ImportFormatMode, ImportFormatOptions) | Initializes a new instance of the [`NodeImporter`](../nodeimporter) class. |
 
 ## Methods
 

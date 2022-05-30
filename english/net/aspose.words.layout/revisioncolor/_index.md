@@ -14,7 +14,7 @@ Allows to specify color of document revisions.
 public enum RevisionColor
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

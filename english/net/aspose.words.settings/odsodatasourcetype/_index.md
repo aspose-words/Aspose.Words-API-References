@@ -14,7 +14,7 @@ Specifies the type of the external data source to be connected to as part of the
 public enum OdsoDataSourceType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

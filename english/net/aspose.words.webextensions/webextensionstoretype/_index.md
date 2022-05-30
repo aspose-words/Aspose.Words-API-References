@@ -14,7 +14,7 @@ Enumerates available types of a web extension store.
 public enum WebExtensionStoreType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

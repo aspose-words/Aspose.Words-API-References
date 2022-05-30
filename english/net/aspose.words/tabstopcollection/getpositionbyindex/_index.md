@@ -18,7 +18,7 @@ public double GetPositionByIndex(int index)
 | --- | --- | --- |
 | index | Int32 | An index into the collection of tab stops. |
 
-## Return Value
+### Return Value
 
 The position of the tab stop.
 

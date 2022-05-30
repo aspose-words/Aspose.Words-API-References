@@ -14,7 +14,7 @@ Performs a copy of the [`VbaProject`](../../vbaproject).
 public VbaProject Clone()
 ```
 
-## Return Value
+### Return Value
 
 The cloned VbaProject.
 

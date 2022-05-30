@@ -14,7 +14,7 @@ Specifies how the date for a date SDT is stored/retrieved when the SDT is bound 
 public enum SdtDateStorageFormat
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

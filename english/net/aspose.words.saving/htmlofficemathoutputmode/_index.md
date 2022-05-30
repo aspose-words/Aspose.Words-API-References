@@ -14,7 +14,7 @@ Specifies how Aspose.Words exports OfficeMath to HTML, MHTML and EPUB.
 public enum HtmlOfficeMathOutputMode
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

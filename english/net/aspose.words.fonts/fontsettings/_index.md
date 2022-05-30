@@ -37,8 +37,8 @@ public class FontSettings
 | [SaveSearchCache](../../aspose.words.fonts/fontsettings/savesearchcache)(Stream) | Saves the font search cache to the stream. |
 | [SetFontsFolder](../../aspose.words.fonts/fontsettings/setfontsfolder)(string, bool) | Sets the folder where Aspose.Words looks for TrueType fonts when rendering documents or embedding fonts. This is a shortcut to [`SetFontsFolders`](./setfontsfolders) for setting only one font directory. |
 | [SetFontsFolders](../../aspose.words.fonts/fontsettings/setfontsfolders)(string[], bool) | Sets the folders where Aspose.Words looks for TrueType fonts when rendering documents or embedding fonts. |
-| [SetFontsSources](../../aspose.words.fonts/fontsettings/setfontssources)(FontSourceBase[]) | Sets the sources where Aspose.Words looks for TrueType fonts when rendering documents or embedding fonts. |
-| [SetFontsSources](../../aspose.words.fonts/fontsettings/setfontssources)(FontSourceBase[], Stream) | Sets the sources where Aspose.Words looks for TrueType fonts and additionally loads previously saved font search cache. |
+| [SetFontsSources](../../aspose.words.fonts/fontsettings/setfontssources#1)(FontSourceBase[]) | Sets the sources where Aspose.Words looks for TrueType fonts when rendering documents or embedding fonts. |
+| [SetFontsSources](../../aspose.words.fonts/fontsettings/setfontssources#2)(FontSourceBase[], Stream) | Sets the sources where Aspose.Words looks for TrueType fonts and additionally loads previously saved font search cache. |
 
 ### Remarks
 

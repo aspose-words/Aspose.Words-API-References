@@ -19,7 +19,7 @@ public Node InsertAfter(Node newChild, Node refChild)
 | newChild | Node | The Node to insert. |
 | refChild | Node | The Node that is the reference node. The newNode is placed after the refNode. |
 
-## Return Value
+### Return Value
 
 The inserted node.
 

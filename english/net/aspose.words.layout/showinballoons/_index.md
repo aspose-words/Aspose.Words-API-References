@@ -14,7 +14,7 @@ Specifies which revisions are rendered in balloons.
 public enum ShowInBalloons
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

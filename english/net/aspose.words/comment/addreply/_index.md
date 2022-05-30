@@ -21,7 +21,7 @@ public Comment AddReply(string author, string initial, DateTime dateTime, string
 | dateTime | DateTime | The date and time for the reply. |
 | text | String | The reply text. |
 
-## Return Value
+### Return Value
 
 The created [`Comment`](../../comment) node for the reply.
 

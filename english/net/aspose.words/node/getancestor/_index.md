@@ -6,7 +6,7 @@ type: docs
 weight: 110
 url: /net/aspose.words/node/getancestor/
 ---
-## Node.GetAncestor method (1 of 2)
+## GetAncestor(Type) {1}
 
 Gets the first ancestor of the specified object type.
 
@@ -18,7 +18,7 @@ public CompositeNode GetAncestor(Type ancestorType)
 | --- | --- | --- |
 | ancestorType | Type | The object type of the ancestor to retrieve. |
 
-## Return Value
+### Return Value
 
 The ancestor of the specified type or null if no ancestor of this type was found.
 
@@ -111,7 +111,7 @@ private static int GetChildTableCount(Table table)
 
 ---
 
-## Node.GetAncestor method (2 of 2)
+## GetAncestor(NodeType) {2}
 
 Gets the first ancestor of the specified [`NodeType`](../../nodetype).
 
@@ -123,7 +123,7 @@ public CompositeNode GetAncestor(NodeType ancestorType)
 | --- | --- | --- |
 | ancestorType | NodeType | The node type of the ancestor to retrieve. |
 
-## Return Value
+### Return Value
 
 The ancestor of the specified type or null if no ancestor of this type was found.
 

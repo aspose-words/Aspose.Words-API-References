@@ -21,7 +21,7 @@ public SizeF RenderToScale(Graphics graphics, float x, float y, float scale)
 | y | Single | The Y coordinate (in world units) of the top left corner of the rendered shape. |
 | scale | Single | The scale for rendering the shape (1.0 is 100%). |
 
-## Return Value
+### Return Value
 
 The width and height (in world units) of the rendered shape.
 

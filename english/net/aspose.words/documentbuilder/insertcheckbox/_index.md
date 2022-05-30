@@ -6,7 +6,7 @@ type: docs
 weight: 270
 url: /net/aspose.words/documentbuilder/insertcheckbox/
 ---
-## DocumentBuilder.InsertCheckBox method (1 of 2)
+## InsertCheckBox(string, bool, int) {1}
 
 Inserts a checkbox form field at the current position.
 
@@ -20,7 +20,7 @@ public FormField InsertCheckBox(string name, bool checkedValue, int size)
 | checkedValue | Boolean | Checked status of the checkbox form field. |
 | size | Int32 | Specifies the size of the checkbox in points. Specify 0 for MS Word to calculate the size of the checkbox automatically. |
 
-## Return Value
+### Return Value
 
 The form field node that was just inserted.
 
@@ -64,7 +64,7 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertCheckBox.docx");
 
 ---
 
-## DocumentBuilder.InsertCheckBox method (2 of 2)
+## InsertCheckBox(string, bool, bool, int) {2}
 
 Inserts a checkbox form field at the current position.
 
@@ -79,7 +79,7 @@ public FormField InsertCheckBox(string name, bool defaultValue, bool checkedValu
 | checkedValue | Boolean | Current checked status of the checkbox form field. |
 | size | Int32 | Specifies the size of the checkbox in points. Specify 0 for MS Word to calculate the size of the checkbox automatically. |
 
-## Return Value
+### Return Value
 
 The form field node that was just inserted.
 

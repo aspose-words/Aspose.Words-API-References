@@ -14,7 +14,7 @@ Specifies type of an Office Math object.
 public enum MathObjectType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

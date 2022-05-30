@@ -14,7 +14,7 @@ Creates and returns an object that can be used to render this equation into an i
 public OfficeMathRenderer GetMathRenderer()
 ```
 
-## Return Value
+### Return Value
 
 The renderer object for this equation.
 

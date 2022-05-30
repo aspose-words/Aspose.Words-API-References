@@ -6,7 +6,7 @@ type: docs
 weight: 300
 url: /net/aspose.words/documentbuilder/insertfield/
 ---
-## DocumentBuilder.InsertField method (1 of 3)
+## InsertField(FieldType, bool) {1}
 
 Inserts a Word field into a document and optionally updates the field result.
 
@@ -19,7 +19,7 @@ public Field InsertField(FieldType fieldType, bool updateField)
 | fieldType | FieldType | The type of the field to append. |
 | updateField | Boolean | Specifies whether to update the field immediately. |
 
-## Return Value
+### Return Value
 
 A [`Field`](../../../aspose.words.fields/field) object that represents the inserted field.
 
@@ -79,7 +79,7 @@ else
 
 ---
 
-## DocumentBuilder.InsertField method (2 of 3)
+## InsertField(string) {2}
 
 Inserts a Word field into a document and updates the field result.
 
@@ -91,7 +91,7 @@ public Field InsertField(string fieldCode)
 | --- | --- | --- |
 | fieldCode | String | The field code to insert (without curly braces). |
 
-## Return Value
+### Return Value
 
 A [`Field`](../../../aspose.words.fields/field) object that represents the inserted field.
 
@@ -149,7 +149,7 @@ doc.Save(ArtifactsDir + "DocumentBuilder.MergeFields.docx");
 
 ---
 
-## DocumentBuilder.InsertField method (3 of 3)
+## InsertField(string, string) {3}
 
 Inserts a Word field into a document without updating the field result.
 
@@ -162,7 +162,7 @@ public Field InsertField(string fieldCode, string fieldValue)
 | fieldCode | String | The field code to insert (without curly braces). |
 | fieldValue | String | The field value to insert. Pass null for fields that do not have a value. |
 
-## Return Value
+### Return Value
 
 A [`Field`](../../../aspose.words.fields/field) object that represents the inserted field.
 

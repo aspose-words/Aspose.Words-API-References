@@ -6,7 +6,7 @@ type: docs
 weight: 370
 url: /net/aspose.words/documentbuilder/insertoleobject/
 ---
-## DocumentBuilder.InsertOleObject method (1 of 3)
+## InsertOleObject(Stream, string, bool, Stream) {1}
 
 Inserts an embedded OLE object from a stream into the document.
 
@@ -21,7 +21,7 @@ public Shape InsertOleObject(Stream stream, string progId, bool asIcon, Stream p
 | asIcon | Boolean | Specifies either Iconic or Normal mode of OLE object being inserted. |
 | presentation | Stream | Image presentation of OLE object. If value is null Aspose.Words will use one of the predefined images. |
 
-## Return Value
+### Return Value
 
 Shape node containing Ole object and inserted at the current Builder position.
 
@@ -74,7 +74,7 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertOleObjects.docx");
 
 ---
 
-## DocumentBuilder.InsertOleObject method (2 of 3)
+## InsertOleObject(string, bool, bool, Stream) {2}
 
 Inserts an embedded or linked OLE object from a file into the document. Detects OLE object type using file extension.
 
@@ -89,7 +89,7 @@ public Shape InsertOleObject(string fileName, bool isLinked, bool asIcon, Stream
 | asIcon | Boolean | Specifies either Iconic or Normal mode of OLE object being inserted. |
 | presentation | Stream | Image presentation of OLE object. If value is null Aspose.Words will use one of the predefined images. |
 
-## Return Value
+### Return Value
 
 Shape node containing Ole object and inserted at the current Builder position.
 
@@ -135,7 +135,7 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertOleObject.docx");
 
 ---
 
-## DocumentBuilder.InsertOleObject method (3 of 3)
+## InsertOleObject(string, string, bool, bool, Stream) {3}
 
 Inserts an embedded or linked OLE object from a file into the document. Detects OLE object type using given progID parameter.
 
@@ -152,7 +152,7 @@ public Shape InsertOleObject(string fileName, string progId, bool isLinked, bool
 | asIcon | Boolean | Specifies either Iconic or Normal mode of OLE object being inserted. |
 | presentation | Stream | Image presentation of OLE object. If value is null Aspose.Words will use one of the predefined images. |
 
-## Return Value
+### Return Value
 
 Shape node containing Ole object and inserted at the current Builder position.
 

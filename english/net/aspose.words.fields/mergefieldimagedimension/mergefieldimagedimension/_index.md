@@ -6,7 +6,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.fields/mergefieldimagedimension/mergefieldimagedimension/
 ---
-## MergeFieldImageDimension constructor (1 of 2)
+## MergeFieldImageDimension(double) {1}
 
 Creates an image dimension instance with the given value in points.
 
@@ -97,7 +97,7 @@ private class MergedImageResizer : IFieldMergingCallback
 
 ---
 
-## MergeFieldImageDimension constructor (2 of 2)
+## MergeFieldImageDimension(double, MergeFieldImageDimensionUnit) {2}
 
 Creates an image dimension instance with the given value and the given unit.
 

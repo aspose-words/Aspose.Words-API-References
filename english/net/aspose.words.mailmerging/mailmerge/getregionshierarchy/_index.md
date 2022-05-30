@@ -14,7 +14,7 @@ Returns a full hierarchy of regions (with fields) available in the document.
 public MailMergeRegionInfo GetRegionsHierarchy()
 ```
 
-## Return Value
+### Return Value
 
 Regions' hierarchy.
 

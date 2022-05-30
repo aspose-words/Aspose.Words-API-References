@@ -14,7 +14,7 @@ Specifies how formatting is merged when importing content from another document.
 public enum ImportFormatMode
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

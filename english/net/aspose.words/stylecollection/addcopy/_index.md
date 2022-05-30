@@ -18,7 +18,7 @@ public Style AddCopy(Style style)
 | --- | --- | --- |
 | style | Style | Style to be copied. |
 
-## Return Value
+### Return Value
 
 Copied style ready for usage.
 

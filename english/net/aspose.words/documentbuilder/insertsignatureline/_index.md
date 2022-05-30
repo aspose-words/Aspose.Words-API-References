@@ -6,7 +6,7 @@ type: docs
 weight: 420
 url: /net/aspose.words/documentbuilder/insertsignatureline/
 ---
-## DocumentBuilder.InsertSignatureLine method (1 of 2)
+## InsertSignatureLine(SignatureLineOptions) {1}
 
 Inserts a signature line at the current position.
 
@@ -18,7 +18,7 @@ public Shape InsertSignatureLine(SignatureLineOptions signatureLineOptions)
 | --- | --- | --- |
 | signatureLineOptions | SignatureLineOptions | The object that stores parameters of creating signature line. |
 
-## Return Value
+### Return Value
 
 The signature line node that was just inserted.
 
@@ -82,7 +82,7 @@ Assert.True(signatureLine.IsValid);
 
 ---
 
-## DocumentBuilder.InsertSignatureLine method (2 of 2)
+## InsertSignatureLine(SignatureLineOptions, RelativeHorizontalPosition, double, RelativeVerticalPosition, double, WrapType) {2}
 
 Inserts a signature line at the specified position.
 
@@ -101,7 +101,7 @@ public Shape InsertSignatureLine(SignatureLineOptions signatureLineOptions,
 | top | Double | Distance in points from the origin to the top side of the signature line. |
 | wrapType | WrapType | Specifies how to wrap text around the signature line. |
 
-## Return Value
+### Return Value
 
 The signature line node that was just inserted.
 

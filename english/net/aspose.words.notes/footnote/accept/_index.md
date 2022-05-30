@@ -18,7 +18,7 @@ public override bool Accept(DocumentVisitor visitor)
 | --- | --- | --- |
 | visitor | DocumentVisitor | The visitor that will visit the nodes. |
 
-## Return Value
+### Return Value
 
 True if all nodes were visited; false if DocumentVisitor stopped the operation before visiting all nodes.
 

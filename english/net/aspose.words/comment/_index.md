@@ -18,8 +18,8 @@ public sealed class Comment : InlineStory
 
 | Name | Description |
 | --- | --- |
-| [Comment](comment)(DocumentBase) | Initializes a new instance of the **Comment** class. |
-| [Comment](comment)(DocumentBase, string, string, DateTime) | Initializes a new instance of the **Comment** class. |
+| [Comment](comment#1)(DocumentBase) | Initializes a new instance of the **Comment** class. |
+| [Comment](comment#2)(DocumentBase, string, string, DateTime) | Initializes a new instance of the **Comment** class. |
 
 ## Properties
 

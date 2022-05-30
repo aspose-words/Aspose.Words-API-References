@@ -14,7 +14,7 @@ Specifies the compound line style of a [`Shape`](../shape).
 public enum ShapeLineStyle
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

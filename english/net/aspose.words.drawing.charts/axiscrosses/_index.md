@@ -14,7 +14,7 @@ Specifies the possible crossing points for an axis.
 public enum AxisCrosses
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

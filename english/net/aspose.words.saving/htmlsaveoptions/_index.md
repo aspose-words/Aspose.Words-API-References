@@ -18,8 +18,8 @@ public class HtmlSaveOptions : SaveOptions
 
 | Name | Description |
 | --- | --- |
-| [HtmlSaveOptions](htmlsaveoptions)() | Initializes a new instance of this class that can be used to save a document in the Html format. |
-| [HtmlSaveOptions](htmlsaveoptions)(SaveFormat) | Initializes a new instance of this class that can be used to save a document in the Html, Mhtml or Epub format. |
+| [HtmlSaveOptions](htmlsaveoptions#1)() | Initializes a new instance of this class that can be used to save a document in the Html format. |
+| [HtmlSaveOptions](htmlsaveoptions#2)(SaveFormat) | Initializes a new instance of this class that can be used to save a document in the Html, Mhtml or Epub format. |
 
 ## Properties
 

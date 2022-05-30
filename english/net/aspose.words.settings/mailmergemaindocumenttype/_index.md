@@ -14,7 +14,7 @@ Specifies the possible types for a mail merge source document.
 public enum MailMergeMainDocumentType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

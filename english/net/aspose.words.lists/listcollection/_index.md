@@ -26,8 +26,8 @@ public class ListCollection : IEnumerable<List>
 
 | Name | Description |
 | --- | --- |
-| [Add](../../aspose.words.lists/listcollection/add)(ListTemplate) | Creates a new list based on a predefined template and adds it to the collection of lists in the document. |
-| [Add](../../aspose.words.lists/listcollection/add)(Style) | Creates a new list that references a list style and adds it to the collection of lists in the document. |
+| [Add](../../aspose.words.lists/listcollection/add#1)(ListTemplate) | Creates a new list based on a predefined template and adds it to the collection of lists in the document. |
+| [Add](../../aspose.words.lists/listcollection/add#2)(Style) | Creates a new list that references a list style and adds it to the collection of lists in the document. |
 | [AddCopy](../../aspose.words.lists/listcollection/addcopy)(List) | Creates a new list by copying the specified list and adding it to the collection of lists in the document. |
 | [GetEnumerator](../../aspose.words.lists/listcollection/getenumerator)() | Gets the enumerator object that will enumerate lists in the document. |
 | [GetListByListId](../../aspose.words.lists/listcollection/getlistbylistid)(int) | Gets a list by a list identifier. |

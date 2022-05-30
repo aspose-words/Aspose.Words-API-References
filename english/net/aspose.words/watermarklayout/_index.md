@@ -14,7 +14,7 @@ Defines layout of the watermark relative to the watermark center.
 public enum WatermarkLayout
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

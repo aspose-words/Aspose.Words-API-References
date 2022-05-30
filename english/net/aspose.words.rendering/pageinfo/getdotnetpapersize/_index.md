@@ -18,7 +18,7 @@ public PaperSize GetDotNetPaperSize(PaperSizeCollection paperSizes)
 | --- | --- | --- |
 | paperSizes | PaperSizeCollection | Available paper sizes. |
 
-## Return Value
+### Return Value
 
 An object that you can use in the .NET printing framework to specify the paper size.
 

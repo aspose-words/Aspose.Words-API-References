@@ -18,8 +18,8 @@ public class SdtListItem
 
 | Name | Description |
 | --- | --- |
-| [SdtListItem](sdtlistitem)(string) | Initializes a new instance of this class. |
-| [SdtListItem](sdtlistitem)(string, string) | Initializes a new instance of this class. |
+| [SdtListItem](sdtlistitem#2)(string) | Initializes a new instance of this class. |
+| [SdtListItem](sdtlistitem#1)(string, string) | Initializes a new instance of this class. |
 
 ## Properties
 

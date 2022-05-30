@@ -14,7 +14,7 @@ Specifies the type of an external mail merge data source.
 public enum MailMergeDataType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

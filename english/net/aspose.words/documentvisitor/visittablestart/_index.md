@@ -18,7 +18,7 @@ public virtual VisitorAction VisitTableStart(Table table)
 | --- | --- | --- |
 | table | Table | The object that is being visited. |
 
-## Return Value
+### Return Value
 
 A [`VisitorAction`](../../visitoraction) value that specifies how to continue the enumeration.
 

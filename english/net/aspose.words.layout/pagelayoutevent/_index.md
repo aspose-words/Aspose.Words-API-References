@@ -18,7 +18,7 @@ Depending of the operation which triggered build, page layout model may or may n
 public enum PageLayoutEvent
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

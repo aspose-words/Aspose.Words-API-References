@@ -6,7 +6,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.fonts/filefontsource/filefontsource/
 ---
-## FileFontSource constructor (1 of 3)
+## FileFontSource(string) {1}
 
 Ctor.
 
@@ -42,7 +42,7 @@ Assert.AreEqual(0, fileFontSource.Priority);
 
 ---
 
-## FileFontSource constructor (2 of 3)
+## FileFontSource(string, int) {2}
 
 Ctor.
 
@@ -79,7 +79,7 @@ Assert.AreEqual(0, fileFontSource.Priority);
 
 ---
 
-## FileFontSource constructor (3 of 3)
+## FileFontSource(string, int, string) {3}
 
 Ctor.
 

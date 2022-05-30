@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.lists/listcollection/add/
 ---
-## ListCollection.Add method (1 of 2)
+## Add(ListTemplate) {1}
 
 Creates a new list based on a predefined template and adds it to the collection of lists in the document.
 
@@ -18,7 +18,7 @@ public List Add(ListTemplate listTemplate)
 | --- | --- | --- |
 | listTemplate | ListTemplate | The template of the list. |
 
-## Return Value
+### Return Value
 
 The newly created list.
 
@@ -152,7 +152,7 @@ doc.Save(ArtifactsDir + "Lists.SpecifyListLevel.docx");
 
 ---
 
-## ListCollection.Add method (2 of 2)
+## Add(Style) {2}
 
 Creates a new list that references a list style and adds it to the collection of lists in the document.
 
@@ -164,7 +164,7 @@ public List Add(Style listStyle)
 | --- | --- | --- |
 | listStyle | Style | The list style. |
 
-## Return Value
+### Return Value
 
 The newly created list.
 

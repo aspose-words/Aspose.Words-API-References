@@ -14,7 +14,7 @@ Defines the separator character that appears between the chapter and page number
 public enum ChapterPageSeparator
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

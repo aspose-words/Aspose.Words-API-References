@@ -14,7 +14,7 @@ Specifies the justification of the equation.
 public enum OfficeMathJustification
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

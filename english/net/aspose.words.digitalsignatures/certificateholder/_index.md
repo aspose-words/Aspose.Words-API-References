@@ -24,10 +24,10 @@ public class CertificateHolder
 
 | Name | Description |
 | --- | --- |
-| static [Create](../../aspose.words.digitalsignatures/certificateholder/create)(byte[], SecureString) | Creates CertificateHolder object using byte array of PKCS12 store and its password. |
-| static [Create](../../aspose.words.digitalsignatures/certificateholder/create)(byte[], string) | Creates CertificateHolder object using byte array of PKCS12 store and its password. |
-| static [Create](../../aspose.words.digitalsignatures/certificateholder/create)(string, string) | Creates CertificateHolder object using path to PKCS12 store and its password. |
-| static [Create](../../aspose.words.digitalsignatures/certificateholder/create)(string, string, string) | Creates CertificateHolder object using path to PKCS12 store, its password and the alias by using which private key and certificate will be found. |
+| static [Create](../../aspose.words.digitalsignatures/certificateholder/create#1)(byte[], SecureString) | Creates CertificateHolder object using byte array of PKCS12 store and its password. |
+| static [Create](../../aspose.words.digitalsignatures/certificateholder/create#2)(byte[], string) | Creates CertificateHolder object using byte array of PKCS12 store and its password. |
+| static [Create](../../aspose.words.digitalsignatures/certificateholder/create#3)(string, string) | Creates CertificateHolder object using path to PKCS12 store and its password. |
+| static [Create](../../aspose.words.digitalsignatures/certificateholder/create#4)(string, string, string) | Creates CertificateHolder object using path to PKCS12 store, its password and the alias by using which private key and certificate will be found. |
 
 ### Remarks
 

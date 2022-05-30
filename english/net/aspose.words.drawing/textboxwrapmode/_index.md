@@ -14,7 +14,7 @@ Specifies how text wraps inside a shape.
 public enum TextBoxWrapMode
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

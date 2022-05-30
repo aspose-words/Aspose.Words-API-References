@@ -14,7 +14,7 @@ Copies all runs from the collection to a new array of runs.
 public Run[] ToArray()
 ```
 
-## Return Value
+### Return Value
 
 An array of runs.
 

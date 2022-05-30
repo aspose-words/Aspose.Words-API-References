@@ -18,7 +18,7 @@ public IMailMergeDataSource GetChildDataSource(string tableName)
 | --- | --- | --- |
 | tableName | String | The name of the mail merge region as specified in the template document. Case-insensitive. |
 
-## Return Value
+### Return Value
 
 A data source object that will provide access to the data records of the specified table.
 

@@ -6,7 +6,7 @@ type: docs
 weight: 690
 url: /net/aspose.words/document/starttrackrevisions/
 ---
-## Document.StartTrackRevisions method (1 of 2)
+## StartTrackRevisions(string, DateTime) {1}
 
 Starts automatically marking all further changes you make to the document programmatically as revision changes.
 
@@ -83,7 +83,7 @@ doc.Save(ArtifactsDir + "Document.StartTrackRevisions.docx");
 
 ---
 
-## Document.StartTrackRevisions method (2 of 2)
+## StartTrackRevisions(string) {2}
 
 Starts automatically marking all further changes you make to the document programmatically as revision changes.
 

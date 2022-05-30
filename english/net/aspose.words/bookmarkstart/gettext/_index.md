@@ -14,7 +14,7 @@ Returns an empty string.
 public override string GetText()
 ```
 
-## Return Value
+### Return Value
 
 An empty string.
 

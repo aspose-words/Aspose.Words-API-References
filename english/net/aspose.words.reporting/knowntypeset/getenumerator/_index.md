@@ -14,7 +14,7 @@ Returns An IEnumerator object to iterate over items of the set.
 public IEnumerator<Type> GetEnumerator()
 ```
 
-## Return Value
+### Return Value
 
 An IEnumerator object to iterate over items of the set.
 

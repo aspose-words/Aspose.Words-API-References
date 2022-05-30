@@ -14,7 +14,7 @@ Specifies the set of possible aliases (or editing groups) which can be used as a
 public enum EditorType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

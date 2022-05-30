@@ -14,7 +14,7 @@ Enumerates available locations of task pane object.
 public enum TaskPaneDockState
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

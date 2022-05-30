@@ -6,7 +6,7 @@ type: docs
 weight: 30
 url: /net/aspose.words/tabstopcollection/add/
 ---
-## TabStopCollection.Add method (1 of 2)
+## Add(TabStop) {1}
 
 Adds or replaces a tab stop in the collection.
 
@@ -62,7 +62,7 @@ doc.Save(ArtifactsDir + "TabStopCollection.AddTabStops.docx");
 
 ---
 
-## TabStopCollection.Add method (2 of 2)
+## Add(double, TabAlignment, TabLeader) {2}
 
 Adds or replaces a tab stop in the collection.
 

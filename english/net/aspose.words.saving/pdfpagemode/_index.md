@@ -14,7 +14,7 @@ Specifies how the PDF document should be displayed when opened in the PDF reader
 public enum PdfPageMode
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

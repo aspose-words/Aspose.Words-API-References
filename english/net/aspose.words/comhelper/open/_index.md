@@ -6,7 +6,7 @@ type: docs
 weight: 20
 url: /net/aspose.words/comhelper/open/
 ---
-## ComHelper.Open method (1 of 2)
+## Open(string) {1}
 
 Allows a COM application to load a [`Document`](../../document) from a file.
 
@@ -18,7 +18,7 @@ public Document Open(string fileName)
 | --- | --- | --- |
 | fileName | String | Filename of the document to load. |
 
-## Return Value
+### Return Value
 
 A [`Document`](../../document) object that represents a Word document.
 
@@ -67,7 +67,7 @@ using (FileStream stream = new FileStream(MyDir + "Document.docx", FileMode.Open
 
 ---
 
-## ComHelper.Open method (2 of 2)
+## Open(Stream) {2}
 
 Allows a COM application to load [`Document`](../../document) from a stream.
 
@@ -79,7 +79,7 @@ public Document Open(Stream stream)
 | --- | --- | --- |
 | stream | Stream | A .NET stream object that contains the document to load. |
 
-## Return Value
+### Return Value
 
 A [`Document`](../../document) object that represents a Word document.
 

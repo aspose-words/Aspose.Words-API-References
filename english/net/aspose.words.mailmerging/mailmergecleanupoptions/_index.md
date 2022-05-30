@@ -15,7 +15,7 @@ Specifies options that determine what items are removed during mail merge.
 public enum MailMergeCleanupOptions
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

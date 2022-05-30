@@ -14,7 +14,7 @@ Possible values for the view mode in Microsoft Word.
 public enum ViewType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

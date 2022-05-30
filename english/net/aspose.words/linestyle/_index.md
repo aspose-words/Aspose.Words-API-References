@@ -14,7 +14,7 @@ Specifies line style of a [`Border`](../border).
 public enum LineStyle
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

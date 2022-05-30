@@ -14,7 +14,7 @@ Represents possible table areas to which conditional formatting may be defined i
 public enum ConditionalStyleType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

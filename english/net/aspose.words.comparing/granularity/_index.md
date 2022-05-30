@@ -14,7 +14,7 @@ Specifies the granularity of changes to track when comparing two documents.
 public enum Granularity
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

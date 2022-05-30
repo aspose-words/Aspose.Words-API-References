@@ -14,7 +14,7 @@ Specifies the rendering mode for document comments.
 public enum CommentDisplayMode
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

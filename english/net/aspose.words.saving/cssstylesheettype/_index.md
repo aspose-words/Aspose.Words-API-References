@@ -14,7 +14,7 @@ Specifies how CSS (Cascading Style Sheet) styles are exported to HTML.
 public enum CssStyleSheetType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

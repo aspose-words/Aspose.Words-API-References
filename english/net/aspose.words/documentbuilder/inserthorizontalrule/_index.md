@@ -14,7 +14,7 @@ Inserts a horizontal rule shape into the document.
 public Shape InsertHorizontalRule()
 ```
 
-## Return Value
+### Return Value
 
 The shape that is a horizontal rule.
 

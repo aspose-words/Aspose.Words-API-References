@@ -6,7 +6,7 @@ type: docs
 weight: 270
 url: /net/aspose.words/paragraph/insertfield/
 ---
-## Paragraph.InsertField method (1 of 3)
+## InsertField(FieldType, bool, Node, bool) {1}
 
 Inserts a field into this paragraph.
 
@@ -21,7 +21,7 @@ public Field InsertField(FieldType fieldType, bool updateField, Node refNode, bo
 | refNode | Node | Reference node inside this paragraph (if refNode is null, then appends to the end of the paragraph). |
 | isAfter | Boolean | Whether to insert the field after or before reference node. |
 
-## Return Value
+### Return Value
 
 A [`Field`](../../../aspose.words.fields/field) object that represents the inserted field.
 
@@ -72,7 +72,7 @@ doc.Save(ArtifactsDir + "Paragraph.InsertField.docx");
 
 ---
 
-## Paragraph.InsertField method (2 of 3)
+## InsertField(string, Node, bool) {2}
 
 Inserts a field into this paragraph.
 
@@ -86,7 +86,7 @@ public Field InsertField(string fieldCode, Node refNode, bool isAfter)
 | refNode | Node | Reference node inside this paragraph (if refNode is null, then appends to the end of the paragraph). |
 | isAfter | Boolean | Whether to insert the field after or before reference node. |
 
-## Return Value
+### Return Value
 
 A [`Field`](../../../aspose.words.fields/field) object that represents the inserted field.
 
@@ -136,7 +136,7 @@ doc.Save(ArtifactsDir + "Paragraph.InsertField.docx");
 
 ---
 
-## Paragraph.InsertField method (3 of 3)
+## InsertField(string, string, Node, bool) {3}
 
 Inserts a field into this paragraph.
 
@@ -151,7 +151,7 @@ public Field InsertField(string fieldCode, string fieldValue, Node refNode, bool
 | refNode | Node | Reference node inside this paragraph (if refNode is null, then appends to the end of the paragraph). |
 | isAfter | Boolean | Whether to insert the field after or before reference node. |
 
-## Return Value
+### Return Value
 
 A [`Field`](../../../aspose.words.fields/field) object that represents the inserted field.
 

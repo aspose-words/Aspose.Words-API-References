@@ -14,7 +14,7 @@ Specifies the type of shape in a Microsoft Word document.
 public enum ShapeType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

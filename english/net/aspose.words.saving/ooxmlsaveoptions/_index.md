@@ -18,8 +18,8 @@ public class OoxmlSaveOptions : SaveOptions
 
 | Name | Description |
 | --- | --- |
-| [OoxmlSaveOptions](ooxmlsaveoptions)() | Initializes a new instance of this class that can be used to save a document in the Docx format. |
-| [OoxmlSaveOptions](ooxmlsaveoptions)(SaveFormat) | Initializes a new instance of this class that can be used to save a document in the Docx, Docm, Dotx, Dotm or FlatOpc format. |
+| [OoxmlSaveOptions](ooxmlsaveoptions#1)() | Initializes a new instance of this class that can be used to save a document in the Docx format. |
+| [OoxmlSaveOptions](ooxmlsaveoptions#2)(SaveFormat) | Initializes a new instance of this class that can be used to save a document in the Docx, Docm, Dotx, Dotm or FlatOpc format. |
 
 ## Properties
 

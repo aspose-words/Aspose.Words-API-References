@@ -14,7 +14,7 @@ Updates the page numbers for items in this table of contents.
 public bool UpdatePageNumbers()
 ```
 
-## Return Value
+### Return Value
 
 True if the operation is successful. If any of the related TOC bookmarks was removed, false will be returned.
 

@@ -18,7 +18,7 @@ public Node RemoveChild(Node oldChild)
 | --- | --- | --- |
 | oldChild | Node | The node to remove. |
 
-## Return Value
+### Return Value
 
 The removed node.
 

@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.rendering/noderendererbase/getboundsinpixels/
 ---
-## NodeRendererBase.GetBoundsInPixels method (1 of 2)
+## GetBoundsInPixels(float, float) {1}
 
 Calculates the bounds of the shape in pixels for a specified zoom factor and resolution.
 
@@ -19,7 +19,7 @@ public Rectangle GetBoundsInPixels(float scale, float dpi)
 | scale | Single | The zoom factor (1.0 is 100%). |
 | dpi | Single | The resolution (horizontal and vertical) to convert from points to pixels (dots per inch). |
 
-## Return Value
+### Return Value
 
 The actual (as rendered on the page) bounding box of the shape in pixels.
 
@@ -79,7 +79,7 @@ Assert.AreEqual(30, bounds.Height);
 
 ---
 
-## NodeRendererBase.GetBoundsInPixels method (2 of 2)
+## GetBoundsInPixels(float, float, float) {2}
 
 Calculates the bounds of the shape in pixels for a specified zoom factor and resolution.
 
@@ -93,7 +93,7 @@ public Rectangle GetBoundsInPixels(float scale, float horizontalDpi, float verti
 | horizontalDpi | Single | The horizontal resolution to convert from points to pixels (dots per inch). |
 | verticalDpi | Single | The vertical resolution to convert from points to pixels (dots per inch). |
 
-## Return Value
+### Return Value
 
 The actual (as rendered on the page) bounding box of the shape in pixels.
 

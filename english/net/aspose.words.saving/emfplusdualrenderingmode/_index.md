@@ -14,7 +14,7 @@ Specifies how Aspose.Words should render EMF+ Dual metafiles.
 public enum EmfPlusDualRenderingMode
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

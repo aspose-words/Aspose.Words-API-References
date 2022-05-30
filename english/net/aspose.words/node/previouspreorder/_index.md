@@ -18,7 +18,7 @@ public Node PreviousPreOrder(Node rootNode)
 | --- | --- | --- |
 | rootNode | Node | The top node (limit) of traversal. |
 
-## Return Value
+### Return Value
 
 Previous node in pre-order order. Null if reached the rootNode.
 

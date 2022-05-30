@@ -18,9 +18,9 @@ public class LoadOptions
 
 | Name | Description |
 | --- | --- |
-| [LoadOptions](loadoptions)() | Initializes a new instance of this class with default values. |
-| [LoadOptions](loadoptions)(string) | A shortcut to initialize a new instance of this class with the specified password to load an encrypted document. |
-| [LoadOptions](loadoptions)(LoadFormat, string, string) | A shortcut to initialize a new instance of this class with properties set to the specified values. |
+| [LoadOptions](loadoptions#1)() | Initializes a new instance of this class with default values. |
+| [LoadOptions](loadoptions#2)(string) | A shortcut to initialize a new instance of this class with the specified password to load an encrypted document. |
+| [LoadOptions](loadoptions#3)(LoadFormat, string, string) | A shortcut to initialize a new instance of this class with properties set to the specified values. |
 
 ## Properties
 

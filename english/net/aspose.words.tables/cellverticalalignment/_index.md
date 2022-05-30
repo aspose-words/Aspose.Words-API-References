@@ -14,7 +14,7 @@ Specifies vertical justification of text inside a table cell.
 public enum CellVerticalAlignment
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

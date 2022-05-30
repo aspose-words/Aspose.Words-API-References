@@ -14,7 +14,7 @@ Specifies text alignment in a paragraph.
 public enum ParagraphAlignment
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

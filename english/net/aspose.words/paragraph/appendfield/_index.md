@@ -6,7 +6,7 @@ type: docs
 weight: 240
 url: /net/aspose.words/paragraph/appendfield/
 ---
-## Paragraph.AppendField method (1 of 3)
+## AppendField(FieldType, bool) {1}
 
 Appends a field to this paragraph.
 
@@ -19,7 +19,7 @@ public Field AppendField(FieldType fieldType, bool updateField)
 | fieldType | FieldType | The type of the field to append. |
 | updateField | Boolean | Specifies whether to update the field immediately. |
 
-## Return Value
+### Return Value
 
 A [`Field`](../../../aspose.words.fields/field) object that represents the appended field.
 
@@ -61,7 +61,7 @@ doc.Save(ArtifactsDir + "Paragraph.AppendField.docx");
 
 ---
 
-## Paragraph.AppendField method (2 of 3)
+## AppendField(string) {2}
 
 Appends a field to this paragraph.
 
@@ -73,7 +73,7 @@ public Field AppendField(string fieldCode)
 | --- | --- | --- |
 | fieldCode | String | The field code to append (without curly braces). |
 
-## Return Value
+### Return Value
 
 A [`Field`](../../../aspose.words.fields/field) object that represents the appended field.
 
@@ -114,7 +114,7 @@ doc.Save(ArtifactsDir + "Paragraph.AppendField.docx");
 
 ---
 
-## Paragraph.AppendField method (3 of 3)
+## AppendField(string, string) {3}
 
 Appends a field to this paragraph.
 
@@ -127,7 +127,7 @@ public Field AppendField(string fieldCode, string fieldValue)
 | fieldCode | String | The field code to append (without curly braces). |
 | fieldValue | String | The field value to append. Pass null for fields that do not have a value. |
 
-## Return Value
+### Return Value
 
 A [`Field`](../../../aspose.words.fields/field) object that represents the appended field.
 

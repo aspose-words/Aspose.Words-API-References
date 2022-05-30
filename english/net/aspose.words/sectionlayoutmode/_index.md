@@ -14,7 +14,7 @@ Specifies the layout mode for a section allowing to define the document grid beh
 public enum SectionLayoutMode
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

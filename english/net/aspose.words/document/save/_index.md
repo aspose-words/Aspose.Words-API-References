@@ -6,7 +6,7 @@ type: docs
 weight: 680
 url: /net/aspose.words/document/save/
 ---
-## Document.Save method (1 of 6)
+## Save(string) {1}
 
 Saves the document to a file. Automatically determines the save format from the extension.
 
@@ -18,7 +18,7 @@ public SaveOutputParameters Save(string fileName)
 | --- | --- | --- |
 | fileName | String | The name for the document. If a document with the specified file name already exists, the existing document is overwritten. |
 
-## Return Value
+### Return Value
 
 Additional information that you can optionally use.
 
@@ -57,7 +57,7 @@ pdfDoc.Save(ArtifactsDir + "PDF2Word.ConvertPdfToDocx.docx");
 
 ---
 
-## Document.Save method (2 of 6)
+## Save(string, SaveFormat) {2}
 
 Saves the document to a file in the specified format.
 
@@ -70,7 +70,7 @@ public SaveOutputParameters Save(string fileName, SaveFormat saveFormat)
 | fileName | String | The name for the document. If a document with the specified file name already exists, the existing document is overwritten. |
 | saveFormat | SaveFormat | The format in which to save the document. |
 
-## Return Value
+### Return Value
 
 Additional information that you can optionally use.
 
@@ -94,7 +94,7 @@ doc.Save(ArtifactsDir + "Document.ConvertToHtml.html", SaveFormat.Html);
 
 ---
 
-## Document.Save method (3 of 6)
+## Save(string, SaveOptions) {3}
 
 Saves the document to a file using the specified save options.
 
@@ -107,7 +107,7 @@ public SaveOutputParameters Save(string fileName, SaveOptions saveOptions)
 | fileName | String | The name for the document. If a document with the specified file name already exists, the existing document is overwritten. |
 | saveOptions | SaveOptions | Specifies the options that control how the document is saved. Can be null. |
 
-## Return Value
+### Return Value
 
 Additional information that you can optionally use.
 
@@ -299,7 +299,7 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.ExpandedOutlineLevels.pdf", options);
 
 ---
 
-## Document.Save method (4 of 6)
+## Save(Stream, SaveFormat) {4}
 
 Saves the document to a stream using the specified format.
 
@@ -312,7 +312,7 @@ public SaveOutputParameters Save(Stream stream, SaveFormat saveFormat)
 | stream | Stream | Stream where to save the document. |
 | saveFormat | SaveFormat | The format in which to save the document. |
 
-## Return Value
+### Return Value
 
 Additional information that you can optionally use.
 
@@ -391,7 +391,7 @@ Document doc = new Document();
 
 ---
 
-## Document.Save method (5 of 6)
+## Save(Stream, SaveOptions) {5}
 
 Saves the document to a stream using the specified save options.
 
@@ -404,7 +404,7 @@ public SaveOutputParameters Save(Stream stream, SaveOptions saveOptions)
 | stream | Stream | Stream where to save the document. |
 | saveOptions | SaveOptions | Specifies the options that control how the document is saved. Can be null. If this is null, the document will be saved in the binary DOC format. |
 
-## Return Value
+### Return Value
 
 Additional information that you can optionally use.
 
@@ -446,7 +446,7 @@ using (Stream stream = File.Create(ArtifactsDir + "PdfSaveOptions.OnePage.pdf"))
 
 ---
 
-## Document.Save method (6 of 6)
+## Save(HttpResponse, string, ContentDisposition, SaveOptions) {6}
 
 Sends the document to the client browser.
 
@@ -462,7 +462,7 @@ public SaveOutputParameters Save(HttpResponse response, string fileName,
 | contentDisposition | ContentDisposition | A [`ContentDisposition`](../../contentdisposition) value that specifies how the document is presented at the client browser. |
 | saveOptions | SaveOptions | Specifies the options that control how the document is saved. Can be null. |
 
-## Return Value
+### Return Value
 
 Additional information that you can optionally use.
 

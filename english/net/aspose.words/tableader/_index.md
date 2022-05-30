@@ -14,7 +14,7 @@ Specifies the type of the leader line displayed under the tab character.
 public enum TabLeader
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

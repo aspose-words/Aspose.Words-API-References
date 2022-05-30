@@ -14,7 +14,7 @@ A user defined method that is called during a replace operation for each match f
 public ReplaceAction Replacing(ReplacingArgs args)
 ```
 
-## Return Value
+### Return Value
 
 A [`ReplaceAction`](../../replaceaction) value that specifies the action to be taken for the current match.
 

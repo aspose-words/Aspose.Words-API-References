@@ -18,7 +18,7 @@ public bool Contains(string value)
 | --- | --- | --- |
 | value | String | Case-sensitive value to locate. |
 
-## Return Value
+### Return Value
 
 True if the item is found in the collection; otherwise, false.
 

@@ -24,7 +24,7 @@ public float RenderToSize(int pageIndex, Graphics graphics, float x, float y, fl
 | width | Single | The maximum width (in world units) that can be occupied by the rendered page. |
 | height | Single | The maximum height (in world units) that can be occupied by the rendered page. |
 
-## Return Value
+### Return Value
 
 The scale that was automatically calculated for the rendered page to fit the specified size.
 

@@ -14,7 +14,7 @@ Specifies type of chart axis.
 public enum ChartAxisType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

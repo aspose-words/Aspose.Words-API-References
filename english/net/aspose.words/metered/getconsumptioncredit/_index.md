@@ -14,7 +14,7 @@ Gets consumption credit
 public static decimal GetConsumptionCredit()
 ```
 
-## Return Value
+### Return Value
 
 consumption quantity
 

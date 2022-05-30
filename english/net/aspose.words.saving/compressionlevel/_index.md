@@ -18,7 +18,7 @@ Note, that FlatOpc file is not a ZIP-archive, therefore, this property does not 
 public enum CompressionLevel
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -14,7 +14,7 @@ Specifies a general format that is applied to a numeric, text, or any field resu
 public enum GeneralFormat
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

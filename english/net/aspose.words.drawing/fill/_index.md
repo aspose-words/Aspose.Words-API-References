@@ -38,18 +38,18 @@ public class Fill
 
 | Name | Description |
 | --- | --- |
-| [OneColorGradient](../../aspose.words.drawing/fill/onecolorgradient)(GradientStyle, GradientVariant, double) | Sets the specified fill to a one-color gradient. |
-| [OneColorGradient](../../aspose.words.drawing/fill/onecolorgradient)(Color, GradientStyle, GradientVariant, double) | Sets the specified fill to a one-color gradient and applies a specified color to the [`ForeColor`](./forecolor). |
-| [Patterned](../../aspose.words.drawing/fill/patterned)(PatternType) | Sets the specified fill to a pattern. |
-| [Patterned](../../aspose.words.drawing/fill/patterned)(PatternType, Color, Color) | Sets the specified fill to a pattern. |
+| [OneColorGradient](../../aspose.words.drawing/fill/onecolorgradient#1)(GradientStyle, GradientVariant, double) | Sets the specified fill to a one-color gradient. |
+| [OneColorGradient](../../aspose.words.drawing/fill/onecolorgradient#2)(Color, GradientStyle, GradientVariant, double) | Sets the specified fill to a one-color gradient and applies a specified color to the [`ForeColor`](./forecolor). |
+| [Patterned](../../aspose.words.drawing/fill/patterned#1)(PatternType) | Sets the specified fill to a pattern. |
+| [Patterned](../../aspose.words.drawing/fill/patterned#2)(PatternType, Color, Color) | Sets the specified fill to a pattern. |
 | [PresetTextured](../../aspose.words.drawing/fill/presettextured)(PresetTexture) | Sets the fill to a preset texture. |
-| [SetImage](../../aspose.words.drawing/fill/setimage)(byte[]) | Changes the fill type to single image. |
-| [SetImage](../../aspose.words.drawing/fill/setimage)(Stream) | Changes the fill type to single image. |
-| [SetImage](../../aspose.words.drawing/fill/setimage)(string) | Changes the fill type to single image. |
-| [Solid](../../aspose.words.drawing/fill/solid)() | Sets the fill to a uniform color. |
-| [Solid](../../aspose.words.drawing/fill/solid)(Color) | Sets the fill to a specified uniform color. |
-| [TwoColorGradient](../../aspose.words.drawing/fill/twocolorgradient)(GradientStyle, GradientVariant) | Sets the specified fill to a two-color gradient. |
-| [TwoColorGradient](../../aspose.words.drawing/fill/twocolorgradient)(Color, Color, GradientStyle, GradientVariant) | Sets the specified fill to a two-color gradient. |
+| [SetImage](../../aspose.words.drawing/fill/setimage#3)(byte[]) | Changes the fill type to single image. |
+| [SetImage](../../aspose.words.drawing/fill/setimage#2)(Stream) | Changes the fill type to single image. |
+| [SetImage](../../aspose.words.drawing/fill/setimage#1)(string) | Changes the fill type to single image. |
+| [Solid](../../aspose.words.drawing/fill/solid#1)() | Sets the fill to a uniform color. |
+| [Solid](../../aspose.words.drawing/fill/solid#2)(Color) | Sets the fill to a specified uniform color. |
+| [TwoColorGradient](../../aspose.words.drawing/fill/twocolorgradient#1)(GradientStyle, GradientVariant) | Sets the specified fill to a two-color gradient. |
+| [TwoColorGradient](../../aspose.words.drawing/fill/twocolorgradient#2)(Color, Color, GradientStyle, GradientVariant) | Sets the specified fill to a two-color gradient. |
 
 ### Remarks
 

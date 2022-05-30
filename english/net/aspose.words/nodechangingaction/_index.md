@@ -14,7 +14,7 @@ Specifies the type of node change.
 public enum NodeChangingAction
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

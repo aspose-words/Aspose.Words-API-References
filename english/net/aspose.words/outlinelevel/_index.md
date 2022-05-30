@@ -14,7 +14,7 @@ Specifies the outline level of a paragraph in the document.
 public enum OutlineLevel
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

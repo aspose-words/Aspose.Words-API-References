@@ -21,7 +21,7 @@ public static string GetEffectiveValue(int index, NumberStyle numberStyle,
 | numberStyle | NumberStyle | The [`NumberStyle`](../../../aspose.words/numberstyle) of the [`ListLevel`](../../listlevel) object. |
 | customNumberStyleFormat | String | The optional format string used when Custom is specified (e.g. "a, ç, ĝ, ..."). In other cases, this parameter must be null or empty. |
 
-## Return Value
+### Return Value
 
 The string representation of the [`ListLevel`](../../listlevel) object, described by the numberStyle parameter and the customNumberStyleFormat parameter, in the list item at the position determined by the index parameter.
 

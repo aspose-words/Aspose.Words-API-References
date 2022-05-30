@@ -14,7 +14,7 @@ Specifies names of compatibility options.
 public enum Compatibility
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

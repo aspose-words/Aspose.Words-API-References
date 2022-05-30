@@ -14,7 +14,7 @@ Line join style.
 public enum JoinStyle
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -6,7 +6,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.saving/odtsaveoptions/odtsaveoptions/
 ---
-## OdtSaveOptions constructor (1 of 3)
+## OdtSaveOptions() {1}
 
 Initializes a new instance of this class that can be used to save a document in the Odt format.
 
@@ -38,7 +38,7 @@ doc.Save(ArtifactsDir + "OdtSaveOptions.Odt11Schema.odt", saveOptions);
 
 ---
 
-## OdtSaveOptions constructor (2 of 3)
+## OdtSaveOptions(string) {2}
 
 Initializes a new instance of this class that can be used to save a document in the Odt format encrypted with a password.
 
@@ -54,7 +54,7 @@ public OdtSaveOptions(string password)
 
 ---
 
-## OdtSaveOptions constructor (3 of 3)
+## OdtSaveOptions(SaveFormat) {3}
 
 Initializes a new instance of this class that can be used to save a document in the Odt or Ott format.
 

@@ -6,7 +6,7 @@ type: docs
 weight: 390
 url: /net/aspose.words/documentbuilder/insertonlinevideo/
 ---
-## DocumentBuilder.InsertOnlineVideo method (1 of 4)
+## InsertOnlineVideo(string, double, double) {1}
 
 Inserts an online video object into the document and scales it to the specified size.
 
@@ -20,7 +20,7 @@ public Shape InsertOnlineVideo(string videoUrl, double width, double height)
 | width | Double | The width of the image in points. Can be a negative or zero value to request 100% scale. |
 | height | Double | The height of the image in points. Can be a negative or zero value to request 100% scale. |
 
-## Return Value
+### Return Value
 
 The image node that was just inserted.
 
@@ -60,7 +60,7 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertVideoWithUrl.docx");
 
 ---
 
-## DocumentBuilder.InsertOnlineVideo method (2 of 4)
+## InsertOnlineVideo(string, RelativeHorizontalPosition, double, RelativeVerticalPosition, double, double, double, WrapType) {2}
 
 Inserts an online video object into the document and scales it to the specified size.
 
@@ -80,7 +80,7 @@ public Shape InsertOnlineVideo(string videoUrl, RelativeHorizontalPosition horzP
 | height | Double | The height of the image in points. Can be a negative or zero value to request 100% scale. |
 | wrapType | WrapType | Specifies how to wrap text around the image. |
 
-## Return Value
+### Return Value
 
 The image node that was just inserted.
 
@@ -129,7 +129,7 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertOnlineVideo.docx");
 
 ---
 
-## DocumentBuilder.InsertOnlineVideo method (3 of 4)
+## InsertOnlineVideo(string, string, byte[], double, double) {3}
 
 Inserts an online video object into the document and scales it to the specified size.
 
@@ -146,7 +146,7 @@ public Shape InsertOnlineVideo(string videoUrl, string videoEmbedCode, byte[] th
 | width | Double | The width of the image in points. Can be a negative or zero value to request 100% scale. |
 | height | Double | The height of the image in points. Can be a negative or zero value to request 100% scale. |
 
-## Return Value
+### Return Value
 
 The image node that was just inserted.
 
@@ -202,7 +202,7 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertOnlineVideoCustomThumbnail.docx")
 
 ---
 
-## DocumentBuilder.InsertOnlineVideo method (4 of 4)
+## InsertOnlineVideo(string, string, byte[], RelativeHorizontalPosition, double, RelativeVerticalPosition, double, double, double, WrapType) {4}
 
 Inserts an online video object into the document and scales it to the specified size.
 
@@ -225,7 +225,7 @@ public Shape InsertOnlineVideo(string videoUrl, string videoEmbedCode, byte[] th
 | height | Double | The height of the image in points. Can be a negative or zero value to request 100% scale. |
 | wrapType | WrapType | Specifies how to wrap text around the image. |
 
-## Return Value
+### Return Value
 
 The image node that was just inserted.
 

@@ -14,7 +14,7 @@ Specifies how text is wrapped around a shape or picture.
 public enum WrapType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

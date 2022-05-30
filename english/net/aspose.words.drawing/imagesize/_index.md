@@ -18,8 +18,8 @@ public class ImageSize
 
 | Name | Description |
 | --- | --- |
-| [ImageSize](imagesize)(int, int) | Initializes width and height to the given values in pixels. Initializes resolution to 96 dpi. |
-| [ImageSize](imagesize)(int, int, double, double) | Initializes width, height and resolution to the given values. |
+| [ImageSize](imagesize#1)(int, int) | Initializes width and height to the given values in pixels. Initializes resolution to 96 dpi. |
+| [ImageSize](imagesize#2)(int, int, double, double) | Initializes width, height and resolution to the given values. |
 
 ## Properties
 

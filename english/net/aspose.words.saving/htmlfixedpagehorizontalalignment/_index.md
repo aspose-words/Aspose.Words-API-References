@@ -14,7 +14,7 @@ Specifies the horizontal alignment for pages in output HTML document.
 public enum HtmlFixedPageHorizontalAlignment
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

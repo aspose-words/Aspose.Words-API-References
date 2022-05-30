@@ -15,7 +15,7 @@ Possible values for the orientation of a shape.
 public enum FlipOrientation
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -18,7 +18,7 @@ public int IndexOf(Node node)
 | --- | --- | --- |
 | node | Node | The node to locate. |
 
-## Return Value
+### Return Value
 
 The zero-based index of the node within the collection, if found; otherwise, -1.
 

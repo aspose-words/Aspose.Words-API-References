@@ -18,10 +18,10 @@ public class JsonDataSource
 
 | Name | Description |
 | --- | --- |
-| [JsonDataSource](jsondatasource)(Stream) | Creates a new data source with data from a JSON stream using default options for parsing JSON data. |
-| [JsonDataSource](jsondatasource)(string) | Creates a new data source with data from a JSON file using default options for parsing JSON data. |
-| [JsonDataSource](jsondatasource)(Stream, JsonDataLoadOptions) | Creates a new data source with data from a JSON stream using the specified options for parsing JSON data. |
-| [JsonDataSource](jsondatasource)(string, JsonDataLoadOptions) | Creates a new data source with data from a JSON file using the specified options for parsing JSON data. |
+| [JsonDataSource](jsondatasource#2)(Stream) | Creates a new data source with data from a JSON stream using default options for parsing JSON data. |
+| [JsonDataSource](jsondatasource#1)(string) | Creates a new data source with data from a JSON file using default options for parsing JSON data. |
+| [JsonDataSource](jsondatasource#4)(Stream, JsonDataLoadOptions) | Creates a new data source with data from a JSON stream using the specified options for parsing JSON data. |
+| [JsonDataSource](jsondatasource#3)(string, JsonDataLoadOptions) | Creates a new data source with data from a JSON file using the specified options for parsing JSON data. |
 
 ### Remarks
 

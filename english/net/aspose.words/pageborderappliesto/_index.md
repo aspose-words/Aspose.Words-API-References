@@ -14,7 +14,7 @@ Specifies which pages the page border is printed on.
 public enum PageBorderAppliesTo
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

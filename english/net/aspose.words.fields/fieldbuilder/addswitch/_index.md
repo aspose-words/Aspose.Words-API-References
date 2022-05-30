@@ -6,7 +6,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.fields/fieldbuilder/addswitch/
 ---
-## FieldBuilder.AddSwitch method (1 of 4)
+## AddSwitch(string) {1}
 
 Adds a field's switch.
 
@@ -110,7 +110,7 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 
 ---
 
-## FieldBuilder.AddSwitch method (2 of 4)
+## AddSwitch(string, string) {2}
 
 Adds a field's switch.
 
@@ -211,7 +211,7 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 
 ---
 
-## FieldBuilder.AddSwitch method (3 of 4)
+## AddSwitch(string, int) {3}
 
 Adds a field's switch.
 
@@ -312,7 +312,7 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 
 ---
 
-## FieldBuilder.AddSwitch method (4 of 4)
+## AddSwitch(string, double) {4}
 
 Adds a field's switch.
 

@@ -14,7 +14,7 @@ Specifies the position for a drop cap text.
 public enum DropCapPosition
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

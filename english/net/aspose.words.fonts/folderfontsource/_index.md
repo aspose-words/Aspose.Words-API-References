@@ -18,8 +18,8 @@ public class FolderFontSource : FontSourceBase
 
 | Name | Description |
 | --- | --- |
-| [FolderFontSource](folderfontsource)(string, bool) | Ctor. |
-| [FolderFontSource](folderfontsource)(string, bool, int) | Ctor. |
+| [FolderFontSource](folderfontsource#1)(string, bool) | Ctor. |
+| [FolderFontSource](folderfontsource#2)(string, bool, int) | Ctor. |
 
 ## Properties
 

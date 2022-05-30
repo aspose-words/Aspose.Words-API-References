@@ -6,7 +6,7 @@ type: docs
 weight: 210
 url: /net/aspose.words/documentbuilder/endeditablerange/
 ---
-## DocumentBuilder.EndEditableRange method (1 of 2)
+## EndEditableRange() {1}
 
 Marks the current position in the document as an editable range end.
 
@@ -14,7 +14,7 @@ Marks the current position in the document as an editable range end.
 public EditableRangeEnd EndEditableRange()
 ```
 
-## Return Value
+### Return Value
 
 The editable range end node that was just created.
 
@@ -76,7 +76,7 @@ editableRange.Remove();
 
 ---
 
-## DocumentBuilder.EndEditableRange method (2 of 2)
+## EndEditableRange(EditableRangeStart) {2}
 
 Marks the current position in the document as an editable range end.
 
@@ -88,7 +88,7 @@ public EditableRangeEnd EndEditableRange(EditableRangeStart start)
 | --- | --- | --- |
 | start | EditableRangeStart | This editable range start. |
 
-## Return Value
+### Return Value
 
 The editable range end node that was just created.
 

@@ -14,7 +14,7 @@ Specifies what side(s) of the shape or picture the text wraps around.
 public enum WrapSide
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

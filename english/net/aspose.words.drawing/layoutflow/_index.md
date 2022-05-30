@@ -14,7 +14,7 @@ Determines the flow of the text layout in a textbox.
 public enum LayoutFlow
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -6,7 +6,7 @@ type: docs
 weight: 90
 url: /net/aspose.words.rendering/noderendererbase/save/
 ---
-## NodeRendererBase.Save method (1 of 2)
+## Save(string, ImageSaveOptions) {1}
 
 Renders the shape into an image and saves into a file.
 
@@ -47,7 +47,7 @@ math.GetMathRenderer().Save(ArtifactsDir + "Shape.RenderOfficeMath.png", saveOpt
 
 ---
 
-## NodeRendererBase.Save method (2 of 2)
+## Save(Stream, ImageSaveOptions) {2}
 
 Renders the shape into an image and saves into a stream.
 

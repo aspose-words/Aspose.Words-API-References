@@ -15,7 +15,7 @@ Specifies the operations that are allowed to a user on an encrypted PDF document
 public enum PdfPermissions
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

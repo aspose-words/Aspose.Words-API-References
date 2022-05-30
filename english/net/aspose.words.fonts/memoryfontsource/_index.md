@@ -18,9 +18,9 @@ public class MemoryFontSource : FontSourceBase
 
 | Name | Description |
 | --- | --- |
-| [MemoryFontSource](memoryfontsource)(byte[]) | Ctor. |
-| [MemoryFontSource](memoryfontsource)(byte[], int) | Ctor. |
-| [MemoryFontSource](memoryfontsource)(byte[], int, string) | Ctor. |
+| [MemoryFontSource](memoryfontsource#1)(byte[]) | Ctor. |
+| [MemoryFontSource](memoryfontsource#2)(byte[], int) | Ctor. |
+| [MemoryFontSource](memoryfontsource#3)(byte[], int, string) | Ctor. |
 
 ## Properties
 

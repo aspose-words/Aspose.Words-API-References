@@ -14,7 +14,7 @@ Specifies the character that separates the list label from the text of the parag
 public enum ListTrailingCharacter
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

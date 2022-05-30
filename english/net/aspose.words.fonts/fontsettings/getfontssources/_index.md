@@ -14,7 +14,7 @@ Gets a copy of the array that contains the list of sources where Aspose.Words lo
 public FontSourceBase[] GetFontsSources()
 ```
 
-## Return Value
+### Return Value
 
 A copy of the current font sources.
 

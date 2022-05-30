@@ -14,7 +14,7 @@ Specifies the unit of measurement for the preferred width of a table or cell.
 public enum PreferredWidthType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

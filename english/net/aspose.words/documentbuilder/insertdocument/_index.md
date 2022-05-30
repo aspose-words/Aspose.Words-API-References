@@ -6,7 +6,7 @@ type: docs
 weight: 290
 url: /net/aspose.words/documentbuilder/insertdocument/
 ---
-## DocumentBuilder.InsertDocument method (1 of 2)
+## InsertDocument(Document, ImportFormatMode) {1}
 
 Inserts a document at the cursor position.
 
@@ -19,7 +19,7 @@ public Node InsertDocument(Document srcDoc, ImportFormatMode importFormatMode)
 | srcDoc | Document | Source document for inserting. |
 | importFormatMode | ImportFormatMode | Specifies how to merge style formatting that clashes. |
 
-## Return Value
+### Return Value
 
 First node of the inserted content.
 
@@ -55,7 +55,7 @@ builder.Document.Save(ArtifactsDir + "DocumentBuilder.InsertDocument.docx");
 
 ---
 
-## DocumentBuilder.InsertDocument method (2 of 2)
+## InsertDocument(Document, ImportFormatMode, ImportFormatOptions) {2}
 
 Inserts a document at the cursor position.
 
@@ -70,7 +70,7 @@ public Node InsertDocument(Document srcDoc, ImportFormatMode importFormatMode,
 | importFormatMode | ImportFormatMode | Specifies how to merge style formatting that clashes. |
 | importFormatOptions | ImportFormatOptions | Allows to specify options that affect formatting of a result document. |
 
-## Return Value
+### Return Value
 
 First node of the inserted content.
 

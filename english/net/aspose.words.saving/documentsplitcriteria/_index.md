@@ -15,7 +15,7 @@ Specifies how the document is split into parts when saving to Html or Epub forma
 public enum DocumentSplitCriteria
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -14,7 +14,7 @@ Specifies data type of a document property.
 public enum PropertyType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

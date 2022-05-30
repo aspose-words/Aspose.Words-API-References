@@ -14,7 +14,7 @@ Specifies how DrawingML effects are rendered to fixed page formats.
 public enum DmlEffectsRenderingMode
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

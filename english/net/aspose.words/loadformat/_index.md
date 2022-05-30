@@ -14,7 +14,7 @@ Indicates the format of the document that is to be loaded.
 public enum LoadFormat
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

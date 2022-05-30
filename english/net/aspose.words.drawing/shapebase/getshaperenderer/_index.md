@@ -14,7 +14,7 @@ Creates and returns an object that can be used to render this shape into an imag
 public ShapeRenderer GetShapeRenderer()
 ```
 
-## Return Value
+### Return Value
 
 The renderer object for this shape.
 

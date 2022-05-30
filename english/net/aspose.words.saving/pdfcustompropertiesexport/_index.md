@@ -14,7 +14,7 @@ Specifies the way [`CustomDocumentProperties`](../../aspose.words/document/custo
 public enum PdfCustomPropertiesExport
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

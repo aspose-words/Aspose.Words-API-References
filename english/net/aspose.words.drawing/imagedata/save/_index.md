@@ -6,7 +6,7 @@ type: docs
 weight: 190
 url: /net/aspose.words.drawing/imagedata/save/
 ---
-## ImageData.Save method (1 of 2)
+## Save(Stream) {1}
 
 Saves the image into the specified stream.
 
@@ -60,7 +60,7 @@ using (IEnumerator<Shape> enumerator = shapesWithImages.GetEnumerator())
 
 ---
 
-## ImageData.Save method (2 of 2)
+## Save(string) {2}
 
 Saves the image into a file.
 

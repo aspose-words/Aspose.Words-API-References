@@ -6,7 +6,7 @@ type: docs
 weight: 100
 url: /net/aspose.words/documentbase/importnode/
 ---
-## DocumentBase.ImportNode method (1 of 2)
+## ImportNode(Node, bool) {1}
 
 Imports a node from another document to the current document.
 
@@ -19,7 +19,7 @@ public Node ImportNode(Node srcNode, bool isImportChildren)
 | srcNode | Node | The node being imported. |
 | isImportChildren | Boolean | True to import all child nodes recursively; otherwise, false. |
 
-## Return Value
+### Return Value
 
 The cloned node that belongs to the current document.
 
@@ -73,7 +73,7 @@ Assert.AreEqual("Destination document first paragraph text.\r\nSource document f
 
 ---
 
-## DocumentBase.ImportNode method (2 of 2)
+## ImportNode(Node, bool, ImportFormatMode) {2}
 
 Imports a node from another document to the current document with an option to control formatting.
 
@@ -87,7 +87,7 @@ public Node ImportNode(Node srcNode, bool isImportChildren, ImportFormatMode imp
 | isImportChildren | Boolean | True to import all child nodes recursively; otherwise, false. |
 | importFormatMode | ImportFormatMode | Specifies how to merge style formatting that clashes. |
 
-## Return Value
+### Return Value
 
 The cloned, imported node. The node belongs to the destination document, but has no parent.
 

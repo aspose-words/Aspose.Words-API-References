@@ -6,7 +6,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.saving/xamlflowsaveoptions/xamlflowsaveoptions/
 ---
-## XamlFlowSaveOptions constructor (1 of 2)
+## XamlFlowSaveOptions() {1}
 
 Initializes a new instance of this class that can be used to save a document in the XamlFlow format.
 
@@ -85,7 +85,7 @@ private class ImageUriPrinter : IImageSavingCallback
 
 ---
 
-## XamlFlowSaveOptions constructor (2 of 2)
+## XamlFlowSaveOptions(SaveFormat) {2}
 
 Initializes a new instance of this class that can be used to save a document in the XamlFlow or XamlFlowPack format.
 

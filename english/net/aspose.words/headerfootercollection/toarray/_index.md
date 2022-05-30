@@ -14,7 +14,7 @@ Copies all `HeaderFoorter`s from the collection to a new array of `HeaderFoorter
 public HeaderFooter[] ToArray()
 ```
 
-## Return Value
+### Return Value
 
 An array of `HeaderFoorter`s.
 

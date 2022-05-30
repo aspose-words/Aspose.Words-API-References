@@ -14,7 +14,7 @@ Specifies type of a break inside a document.
 public enum BreakType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

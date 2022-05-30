@@ -14,7 +14,7 @@ Specifies the alignment for the tiling of the texture fill.
 public enum TextureAlignment
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

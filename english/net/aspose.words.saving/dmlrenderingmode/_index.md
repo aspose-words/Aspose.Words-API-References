@@ -14,7 +14,7 @@ Specifies how DrawingML shapes are rendered to fixed page formats.
 public enum DmlRenderingMode
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

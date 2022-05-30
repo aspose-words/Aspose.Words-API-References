@@ -14,7 +14,7 @@ Specifies how ink (InkML) objects are rendered to fixed page formats.
 public enum ImlRenderingMode
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

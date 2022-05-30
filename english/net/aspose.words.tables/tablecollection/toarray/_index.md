@@ -14,7 +14,7 @@ Copies all tables from the collection to a new array of tables.
 public Table[] ToArray()
 ```
 
-## Return Value
+### Return Value
 
 An array of tables.
 

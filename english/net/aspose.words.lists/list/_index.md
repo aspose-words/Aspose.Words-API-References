@@ -31,10 +31,10 @@ public class List : IComparable<List>
 
 | Name | Description |
 | --- | --- |
-| [CompareTo](../../aspose.words.lists/list/compareto)(List) | Compares the specified list to the current list. |
-| [CompareTo](../../aspose.words.lists/list/compareto)(object) | Compares the specified object to the current object. |
-| [Equals](../../aspose.words.lists/list/equals)(List) | Compares with the specified list. |
-| override [Equals](../../aspose.words.lists/list/equals)(object) |  |
+| [CompareTo](../../aspose.words.lists/list/compareto#2)(List) | Compares the specified list to the current list. |
+| [CompareTo](../../aspose.words.lists/list/compareto#1)(object) | Compares the specified object to the current object. |
+| [Equals](../../aspose.words.lists/list/equals#1)(List) | Compares with the specified list. |
+| override [Equals](../../aspose.words.lists/list/equals#2)(object) |  |
 | override [GetHashCode](../../aspose.words.lists/list/gethashcode)() | Calculates hash code for this list object. |
 
 ### Remarks

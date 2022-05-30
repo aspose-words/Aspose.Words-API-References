@@ -14,7 +14,7 @@ Copies all paragraphs from the collection to a new array of paragraphs.
 public Paragraph[] ToArray()
 ```
 
-## Return Value
+### Return Value
 
 An array of paragraphs.
 

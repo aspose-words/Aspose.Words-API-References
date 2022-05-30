@@ -14,7 +14,7 @@ Specifies the way headers and footers are exported to plain text format.
 public enum TxtExportHeadersFootersMode
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

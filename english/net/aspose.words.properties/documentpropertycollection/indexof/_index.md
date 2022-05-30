@@ -18,7 +18,7 @@ public int IndexOf(string name)
 | --- | --- | --- |
 | name | String | The case-insensitive name of the property. |
 
-## Return Value
+### Return Value
 
 The zero based index. Negative value if not found.
 

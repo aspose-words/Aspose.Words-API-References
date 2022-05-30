@@ -6,7 +6,7 @@ type: docs
 weight: 350
 url: /net/aspose.words/documentbuilder/insertimage/
 ---
-## DocumentBuilder.InsertImage method (1 of 12)
+## InsertImage(Image) {1}
 
 Inserts an image from a .NET Image object into the document. The image is inserted inline and at 100% scale.
 
@@ -18,7 +18,7 @@ public Shape InsertImage(Image image)
 | --- | --- | --- |
 | image | Image | The image to insert into the document. |
 
-## Return Value
+### Return Value
 
 The image node that was just inserted.
 
@@ -63,7 +63,7 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromImageObject.docx")
 
 ---
 
-## DocumentBuilder.InsertImage method (2 of 12)
+## InsertImage(string) {2}
 
 Inserts an image from a file or URL into the document. The image is inserted inline and at 100% scale.
 
@@ -75,7 +75,7 @@ public Shape InsertImage(string fileName)
 | --- | --- | --- |
 | fileName | String | The file with the image. Can be any valid local or remote URI. |
 
-## Return Value
+### Return Value
 
 The image node that was just inserted.
 
@@ -196,7 +196,7 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromFilename.docx");
 
 ---
 
-## DocumentBuilder.InsertImage method (3 of 12)
+## InsertImage(Stream) {3}
 
 Inserts an image from a stream into the document. The image is inserted inline and at 100% scale.
 
@@ -208,7 +208,7 @@ public Shape InsertImage(Stream stream)
 | --- | --- | --- |
 | stream | Stream | The stream that contains the image. |
 
-## Return Value
+### Return Value
 
 The image node that was just inserted.
 
@@ -269,7 +269,7 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromStream.docx");
 
 ---
 
-## DocumentBuilder.InsertImage method (4 of 12)
+## InsertImage(byte[]) {4}
 
 Inserts an image from a byte array into the document. The image is inserted inline and at 100% scale.
 
@@ -281,7 +281,7 @@ public Shape InsertImage(byte[] imageBytes)
 | --- | --- | --- |
 | imageBytes | Byte[] | The byte array that contains the image. |
 
-## Return Value
+### Return Value
 
 The image node that was just inserted.
 
@@ -368,7 +368,7 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromByteArrayNetStanda
 
 ---
 
-## DocumentBuilder.InsertImage method (5 of 12)
+## InsertImage(Image, double, double) {5}
 
 Inserts an inline image from a .NET Image object into the document and scales it to the specified size.
 
@@ -382,7 +382,7 @@ public Shape InsertImage(Image image, double width, double height)
 | width | Double | The width of the image in points. Can be a negative or zero value to request 100% scale. |
 | height | Double | The height of the image in points. Can be a negative or zero value to request 100% scale. |
 
-## Return Value
+### Return Value
 
 The image node that was just inserted.
 
@@ -455,7 +455,7 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromImageObjectNetStan
 
 ---
 
-## DocumentBuilder.InsertImage method (6 of 12)
+## InsertImage(string, double, double) {6}
 
 Inserts an inline image from a file or URL into the document and scales it to the specified size.
 
@@ -469,7 +469,7 @@ public Shape InsertImage(string fileName, double width, double height)
 | width | Double | The width of the image in points. Can be a negative or zero value to request 100% scale. |
 | height | Double | The height of the image in points. Can be a negative or zero value to request 100% scale. |
 
-## Return Value
+### Return Value
 
 The image node that was just inserted.
 
@@ -513,7 +513,7 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromFilename.docx");
 
 ---
 
-## DocumentBuilder.InsertImage method (7 of 12)
+## InsertImage(Stream, double, double) {7}
 
 Inserts an inline image from a stream into the document and scales it to the specified size.
 
@@ -527,7 +527,7 @@ public Shape InsertImage(Stream stream, double width, double height)
 | width | Double | The width of the image in points. Can be a negative or zero value to request 100% scale. |
 | height | Double | The height of the image in points. Can be a negative or zero value to request 100% scale. |
 
-## Return Value
+### Return Value
 
 The image node that was just inserted.
 
@@ -573,7 +573,7 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromStream.docx");
 
 ---
 
-## DocumentBuilder.InsertImage method (8 of 12)
+## InsertImage(byte[], double, double) {8}
 
 Inserts an inline image from a byte array into the document and scales it to the specified size.
 
@@ -587,7 +587,7 @@ public Shape InsertImage(byte[] imageBytes, double width, double height)
 | width | Double | The width of the image in points. Can be a negative or zero value to request 100% scale. |
 | height | Double | The height of the image in points. Can be a negative or zero value to request 100% scale. |
 
-## Return Value
+### Return Value
 
 The image node that was just inserted.
 
@@ -674,7 +674,7 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromByteArrayNetStanda
 
 ---
 
-## DocumentBuilder.InsertImage method (9 of 12)
+## InsertImage(Image, RelativeHorizontalPosition, double, RelativeVerticalPosition, double, double, double, WrapType) {9}
 
 Inserts an image from a .NET Image object at the specified position and size.
 
@@ -694,7 +694,7 @@ public Shape InsertImage(Image image, RelativeHorizontalPosition horzPos, double
 | height | Double | The height of the image in points. Can be a negative or zero value to request 100% scale. |
 | wrapType | WrapType | Specifies how to wrap text around the image. |
 
-## Return Value
+### Return Value
 
 The image node that was just inserted.
 
@@ -770,7 +770,7 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromImageObjectNetStan
 
 ---
 
-## DocumentBuilder.InsertImage method (10 of 12)
+## InsertImage(string, RelativeHorizontalPosition, double, RelativeVerticalPosition, double, double, double, WrapType) {10}
 
 Inserts an image from a file or URL at the specified position and size.
 
@@ -790,7 +790,7 @@ public Shape InsertImage(string fileName, RelativeHorizontalPosition horzPos, do
 | height | Double | The height of the image in points. Can be a negative or zero value to request 100% scale. |
 | wrapType | WrapType | Specifies how to wrap text around the image. |
 
-## Return Value
+### Return Value
 
 The image node that was just inserted.
 
@@ -874,7 +874,7 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromFilename.docx");
 
 ---
 
-## DocumentBuilder.InsertImage method (11 of 12)
+## InsertImage(Stream, RelativeHorizontalPosition, double, RelativeVerticalPosition, double, double, double, WrapType) {11}
 
 Inserts an image from a stream at the specified position and size.
 
@@ -894,7 +894,7 @@ public Shape InsertImage(Stream stream, RelativeHorizontalPosition horzPos, doub
 | height | Double | The height of the image in points. Can be a negative or zero value to request 100% scale. |
 | wrapType | WrapType | Specifies how to wrap text around the image. |
 
-## Return Value
+### Return Value
 
 The image node that was just inserted.
 
@@ -943,7 +943,7 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromStream.docx");
 
 ---
 
-## DocumentBuilder.InsertImage method (12 of 12)
+## InsertImage(byte[], RelativeHorizontalPosition, double, RelativeVerticalPosition, double, double, double, WrapType) {12}
 
 Inserts an image from a byte array at the specified position and size.
 
@@ -963,7 +963,7 @@ public Shape InsertImage(byte[] imageBytes, RelativeHorizontalPosition horzPos, 
 | height | Double | The height of the image in points. Can be a negative or zero value to request 100% scale. |
 | wrapType | WrapType | Specifies how to wrap text around the image. |
 
-## Return Value
+### Return Value
 
 The image node that was just inserted.
 

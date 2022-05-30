@@ -14,7 +14,7 @@ Allows to specify base document which will be used during comparison. Default va
 public enum ComparisonTargetType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

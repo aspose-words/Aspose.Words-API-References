@@ -14,7 +14,7 @@ Specifies vertical alignment of a floating shape, text frame or a floating table
 public enum VerticalAlignment
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -14,7 +14,7 @@ Ends a table row in the document.
 public Row EndRow()
 ```
 
-## Return Value
+### Return Value
 
 The row node that was just finished.
 

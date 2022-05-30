@@ -14,7 +14,7 @@ Dml text effect for text runs.
 public enum TextDmlEffect
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

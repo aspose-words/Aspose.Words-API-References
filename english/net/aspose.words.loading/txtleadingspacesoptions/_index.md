@@ -14,7 +14,7 @@ Specifies available options for leading space handling during import from Text f
 public enum TxtLeadingSpacesOptions
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

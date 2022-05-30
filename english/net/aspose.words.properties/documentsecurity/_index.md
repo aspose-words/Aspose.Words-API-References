@@ -15,7 +15,7 @@ Used as a value for the [`Security`](../builtindocumentproperties/security) prop
 public enum DocumentSecurity
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

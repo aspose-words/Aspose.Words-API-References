@@ -14,7 +14,7 @@ Specifies values used for shape text vertical alignment.
 public enum TextBoxAnchor
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

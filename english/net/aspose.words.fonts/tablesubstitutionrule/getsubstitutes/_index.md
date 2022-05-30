@@ -18,7 +18,7 @@ public IEnumerable<string> GetSubstitutes(string originalFontName)
 | --- | --- | --- |
 | originalFontName | String | Original font name. |
 
-## Return Value
+### Return Value
 
 List of alternative font names.
 

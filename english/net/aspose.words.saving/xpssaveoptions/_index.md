@@ -18,8 +18,8 @@ public class XpsSaveOptions : FixedPageSaveOptions
 
 | Name | Description |
 | --- | --- |
-| [XpsSaveOptions](xpssaveoptions)() | Initializes a new instance of this class that can be used to save a document in the Xps format. |
-| [XpsSaveOptions](xpssaveoptions)(SaveFormat) | Initializes a new instance of this class that can be used to save a document in the Xps or OpenXps format. |
+| [XpsSaveOptions](xpssaveoptions#1)() | Initializes a new instance of this class that can be used to save a document in the Xps format. |
+| [XpsSaveOptions](xpssaveoptions#2)(SaveFormat) | Initializes a new instance of this class that can be used to save a document in the Xps or OpenXps format. |
 
 ## Properties
 

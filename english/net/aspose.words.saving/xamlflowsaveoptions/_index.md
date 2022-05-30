@@ -18,8 +18,8 @@ public class XamlFlowSaveOptions : SaveOptions
 
 | Name | Description |
 | --- | --- |
-| [XamlFlowSaveOptions](xamlflowsaveoptions)() | Initializes a new instance of this class that can be used to save a document in the XamlFlow format. |
-| [XamlFlowSaveOptions](xamlflowsaveoptions)(SaveFormat) | Initializes a new instance of this class that can be used to save a document in the XamlFlow or XamlFlowPack format. |
+| [XamlFlowSaveOptions](xamlflowsaveoptions#1)() | Initializes a new instance of this class that can be used to save a document in the XamlFlow format. |
+| [XamlFlowSaveOptions](xamlflowsaveoptions#2)(SaveFormat) | Initializes a new instance of this class that can be used to save a document in the XamlFlow or XamlFlowPack format. |
 
 ## Properties
 

@@ -18,14 +18,14 @@ public class XmlDataSource
 
 | Name | Description |
 | --- | --- |
-| [XmlDataSource](xmldatasource)(Stream) | Creates a new data source with data from an XML stream using default options for XML data loading. |
-| [XmlDataSource](xmldatasource)(string) | Creates a new data source with data from an XML file using default options for XML data loading. |
-| [XmlDataSource](xmldatasource)(Stream, Stream) | Creates a new data source with data from an XML stream using an XML Schema Definition stream. Default options are used for XML data loading. |
-| [XmlDataSource](xmldatasource)(Stream, XmlDataLoadOptions) | Creates a new data source with data from an XML stream using the specified options for XML data loading. |
-| [XmlDataSource](xmldatasource)(string, string) | Creates a new data source with data from an XML file using an XML Schema Definition file. Default options are used for XML data loading. |
-| [XmlDataSource](xmldatasource)(string, XmlDataLoadOptions) | Creates a new data source with data from an XML file using the specified options for XML data loading. |
-| [XmlDataSource](xmldatasource)(Stream, Stream, XmlDataLoadOptions) | Creates a new data source with data from an XML stream using an XML Schema Definition stream. The specified options are used for XML data loading. |
-| [XmlDataSource](xmldatasource)(string, string, XmlDataLoadOptions) | Creates a new data source with data from an XML file using an XML Schema Definition file. The specified options are used for XML data loading. |
+| [XmlDataSource](xmldatasource#2)(Stream) | Creates a new data source with data from an XML stream using default options for XML data loading. |
+| [XmlDataSource](xmldatasource#1)(string) | Creates a new data source with data from an XML file using default options for XML data loading. |
+| [XmlDataSource](xmldatasource#4)(Stream, Stream) | Creates a new data source with data from an XML stream using an XML Schema Definition stream. Default options are used for XML data loading. |
+| [XmlDataSource](xmldatasource#6)(Stream, XmlDataLoadOptions) | Creates a new data source with data from an XML stream using the specified options for XML data loading. |
+| [XmlDataSource](xmldatasource#3)(string, string) | Creates a new data source with data from an XML file using an XML Schema Definition file. Default options are used for XML data loading. |
+| [XmlDataSource](xmldatasource#5)(string, XmlDataLoadOptions) | Creates a new data source with data from an XML file using the specified options for XML data loading. |
+| [XmlDataSource](xmldatasource#8)(Stream, Stream, XmlDataLoadOptions) | Creates a new data source with data from an XML stream using an XML Schema Definition stream. The specified options are used for XML data loading. |
+| [XmlDataSource](xmldatasource#7)(string, string, XmlDataLoadOptions) | Creates a new data source with data from an XML file using an XML Schema Definition file. The specified options are used for XML data loading. |
 
 ### Remarks
 

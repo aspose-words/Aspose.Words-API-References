@@ -15,7 +15,7 @@ Specifies options controlling behavior of [`ReportingEngine`](../reportingengine
 public enum ReportBuildOptions
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

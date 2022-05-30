@@ -44,8 +44,8 @@ public abstract class SaveOptions
 
 | Name | Description |
 | --- | --- |
-| static [CreateSaveOptions](../../aspose.words.saving/saveoptions/createsaveoptions)(SaveFormat) | Creates a save options object of a class suitable for the specified save format. |
-| static [CreateSaveOptions](../../aspose.words.saving/saveoptions/createsaveoptions)(string) | Creates a save options object of a class suitable for the file extension specified in the given file name. |
+| static [CreateSaveOptions](../../aspose.words.saving/saveoptions/createsaveoptions#1)(SaveFormat) | Creates a save options object of a class suitable for the specified save format. |
+| static [CreateSaveOptions](../../aspose.words.saving/saveoptions/createsaveoptions#2)(string) | Creates a save options object of a class suitable for the file extension specified in the given file name. |
 
 ### Remarks
 

@@ -14,7 +14,7 @@ Determines how Aspose.Words resizes the table when you invoke the [`AutoFit`](..
 public enum AutoFitBehavior
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

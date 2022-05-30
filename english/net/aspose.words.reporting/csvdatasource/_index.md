@@ -18,10 +18,10 @@ public class CsvDataSource
 
 | Name | Description |
 | --- | --- |
-| [CsvDataSource](csvdatasource)(Stream) | Creates a new data source with data from a CSV stream using default options for parsing CSV data. |
-| [CsvDataSource](csvdatasource)(string) | Creates a new data source with data from a CSV file using default options for parsing CSV data. |
-| [CsvDataSource](csvdatasource)(Stream, CsvDataLoadOptions) | Creates a new data source with data from a CSV stream using the specified options for parsing CSV data. |
-| [CsvDataSource](csvdatasource)(string, CsvDataLoadOptions) | Creates a new data source with data from a CSV file using the specified options for parsing CSV data. |
+| [CsvDataSource](csvdatasource#3)(Stream) | Creates a new data source with data from a CSV stream using default options for parsing CSV data. |
+| [CsvDataSource](csvdatasource#1)(string) | Creates a new data source with data from a CSV file using default options for parsing CSV data. |
+| [CsvDataSource](csvdatasource#4)(Stream, CsvDataLoadOptions) | Creates a new data source with data from a CSV stream using the specified options for parsing CSV data. |
+| [CsvDataSource](csvdatasource#2)(string, CsvDataLoadOptions) | Creates a new data source with data from a CSV file using the specified options for parsing CSV data. |
 
 ### Remarks
 

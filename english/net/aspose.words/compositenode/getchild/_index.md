@@ -20,7 +20,7 @@ public Node GetChild(NodeType nodeType, int index, bool isDeep)
 | index | Int32 | Zero based index of the child node to select. Negative indexes are also allowed and indicate access from the end, that is -1 means the last node. |
 | isDeep | Boolean | True to select from all child nodes recursively. False to select only among immediate children. See remarks for more info. |
 
-## Return Value
+### Return Value
 
 The child node that matches the criteria or null if no matching node is found.
 

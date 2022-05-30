@@ -14,7 +14,7 @@ Identifies the type of header or footer found in a Word file.
 public enum HeaderFooterType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

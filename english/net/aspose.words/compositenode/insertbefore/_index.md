@@ -19,7 +19,7 @@ public Node InsertBefore(Node newChild, Node refChild)
 | newChild | Node | The Node to insert. |
 | refChild | Node | The Node that is the reference node. The newChild is placed before this node. |
 
-## Return Value
+### Return Value
 
 The inserted node.
 

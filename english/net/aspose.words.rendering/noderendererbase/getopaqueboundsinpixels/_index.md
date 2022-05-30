@@ -6,7 +6,7 @@ type: docs
 weight: 50
 url: /net/aspose.words.rendering/noderendererbase/getopaqueboundsinpixels/
 ---
-## NodeRendererBase.GetOpaqueBoundsInPixels method (1 of 2)
+## GetOpaqueBoundsInPixels(float, float) {1}
 
 Calculates the opaque bounds of the shape in pixels for a specified zoom factor and resolution.
 
@@ -19,7 +19,7 @@ public Rectangle GetOpaqueBoundsInPixels(float scale, float dpi)
 | scale | Single | The zoom factor (1.0 is 100%). |
 | dpi | Single | The resolution to convert from points to pixels (dots per inch). |
 
-## Return Value
+### Return Value
 
 The opaque rectangle of the shape in pixels.
 
@@ -79,7 +79,7 @@ Assert.AreEqual(30, bounds.Height);
 
 ---
 
-## NodeRendererBase.GetOpaqueBoundsInPixels method (2 of 2)
+## GetOpaqueBoundsInPixels(float, float, float) {2}
 
 Calculates the opaque bounds of the shape in pixels for a specified zoom factor and resolution.
 
@@ -93,7 +93,7 @@ public Rectangle GetOpaqueBoundsInPixels(float scale, float horizontalDpi, float
 | horizontalDpi | Single | The horizontal resolution to convert from points to pixels (dots per inch). |
 | verticalDpi | Single | The vertical resolution to convert from points to pixels (dots per inch). |
 
-## Return Value
+### Return Value
 
 The opaque rectangle of the shape in pixels.
 

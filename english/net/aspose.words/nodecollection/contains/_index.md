@@ -18,7 +18,7 @@ public bool Contains(Node node)
 | --- | --- | --- |
 | node | Node | The node to locate. |
 
-## Return Value
+### Return Value
 
 True if item is found in the collection; otherwise, false.
 

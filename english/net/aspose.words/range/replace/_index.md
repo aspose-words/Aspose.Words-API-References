@@ -6,7 +6,7 @@ type: docs
 weight: 80
 url: /net/aspose.words/range/replace/
 ---
-## Range.Replace method (1 of 4)
+## Replace(string, string) {1}
 
 Replaces all occurrences of a specified character string pattern with a replacement string.
 
@@ -19,7 +19,7 @@ public int Replace(string pattern, string replacement)
 | pattern | String | A string to be replaced. |
 | replacement | String | A string to replace all occurrences of pattern. |
 
-## Return Value
+### Return Value
 
 The number of replacements made.
 
@@ -109,7 +109,7 @@ Assert.AreEqual("Every paragraph that ends with a full stop like this one will b
 
 ---
 
-## Range.Replace method (2 of 4)
+## Replace(Regex, string) {2}
 
 Replaces all occurrences of a character pattern specified by a regular expression with another string.
 
@@ -122,7 +122,7 @@ public int Replace(Regex pattern, string replacement)
 | pattern | Regex | A regular expression pattern used to find matches. |
 | replacement | String | A string to replace all occurrences of pattern. |
 
-## Return Value
+### Return Value
 
 The number of replacements made.
 
@@ -173,7 +173,7 @@ Assert.AreEqual("I decided to get the curtains in lavender, ideal for the lavend
 
 ---
 
-## Range.Replace method (3 of 4)
+## Replace(string, string, FindReplaceOptions) {3}
 
 Replaces all occurrences of a specified character string pattern with a replacement string.
 
@@ -187,7 +187,7 @@ public int Replace(string pattern, string replacement, FindReplaceOptions option
 | replacement | String | A string to replace all occurrences of pattern. |
 | options | FindReplaceOptions | [`FindReplaceOptions`](../../../aspose.words.replacing/findreplaceoptions) object to specify additional options. |
 
-## Return Value
+### Return Value
 
 The number of replacements made.
 
@@ -320,7 +320,7 @@ Assert.AreEqual("Eggs\a50\a\a" +
 
 ---
 
-## Range.Replace method (4 of 4)
+## Replace(Regex, string, FindReplaceOptions) {4}
 
 Replaces all occurrences of a character pattern specified by a regular expression with another string.
 
@@ -334,7 +334,7 @@ public int Replace(Regex pattern, string replacement, FindReplaceOptions options
 | replacement | String | A string to replace all occurrences of pattern. |
 | options | FindReplaceOptions | [`FindReplaceOptions`](../../../aspose.words.replacing/findreplaceoptions) object to specify additional options. |
 
-## Return Value
+### Return Value
 
 The number of replacements made.
 

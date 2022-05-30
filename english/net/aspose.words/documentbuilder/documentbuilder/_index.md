@@ -6,7 +6,7 @@ type: docs
 weight: 10
 url: /net/aspose.words/documentbuilder/documentbuilder/
 ---
-## DocumentBuilder constructor (1 of 2)
+## DocumentBuilder() {1}
 
 Initializes a new instance of this class.
 
@@ -45,7 +45,7 @@ builder.Write("Hello world!");
 
 ---
 
-## DocumentBuilder constructor (2 of 2)
+## DocumentBuilder(Document) {2}
 
 Initializes a new instance of this class.
 

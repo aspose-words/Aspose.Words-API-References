@@ -16,7 +16,7 @@ When saving a document to a file, only embedded fonts of corresponding format ar
 public enum EmbeddedFontFormat
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

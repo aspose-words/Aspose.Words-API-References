@@ -6,7 +6,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.saving/pageset/pageset/
 ---
-## PageSet constructor (1 of 3)
+## PageSet(int) {1}
 
 Creates an one-page set based on exact page index.
 
@@ -30,7 +30,7 @@ If a page is encountered that is not in the document, an exception will be throw
 
 ---
 
-## PageSet constructor (2 of 3)
+## PageSet(params int[]) {2}
 
 Creates a page set based on exact page indices.
 
@@ -80,7 +80,7 @@ doc.Save(ArtifactsDir + "XpsSaveOptions.ExportExactPages.xps", xpsOptions);
 
 ---
 
-## PageSet constructor (3 of 3)
+## PageSet(params PageRange[]) {3}
 
 Creates a page set based on ranges.
 

@@ -6,7 +6,7 @@ type: docs
 weight: 230
 url: /net/aspose.words.mailmerging/mailmerge/getfieldnamesforregion/
 ---
-## MailMerge.GetFieldNamesForRegion method (1 of 2)
+## GetFieldNamesForRegion(string) {1}
 
 Returns a collection of mail merge field names available in the region.
 
@@ -86,7 +86,7 @@ Assert.AreEqual("Column2", mergeFieldNames[0]);
 
 ---
 
-## MailMerge.GetFieldNamesForRegion method (2 of 2)
+## GetFieldNamesForRegion(string, int) {2}
 
 Returns a collection of mail merge field names available in the region.
 

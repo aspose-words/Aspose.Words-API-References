@@ -18,7 +18,7 @@ public virtual VisitorAction VisitStructuredDocumentTagStart(StructuredDocumentT
 | --- | --- | --- |
 | sdt | StructuredDocumentTag | The object that is being visited. |
 
-## Return Value
+### Return Value
 
 A [`VisitorAction`](../../visitoraction) value that specifies how to continue the enumeration.
 

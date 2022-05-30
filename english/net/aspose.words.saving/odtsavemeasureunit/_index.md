@@ -14,7 +14,7 @@ Specified units of measure to apply to measurable document content such as shape
 public enum OdtSaveMeasureUnit
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

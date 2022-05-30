@@ -14,7 +14,7 @@ Specifies a type of compression applied to all content in the PDF file except im
 public enum PdfTextCompression
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

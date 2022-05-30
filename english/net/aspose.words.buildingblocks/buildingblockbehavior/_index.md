@@ -14,7 +14,7 @@ Specifies the behavior that shall be applied to the contents of the building blo
 public enum BuildingBlockBehavior
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

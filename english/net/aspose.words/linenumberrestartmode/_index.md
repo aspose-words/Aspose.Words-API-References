@@ -14,7 +14,7 @@ Determines when automatic line numbering restarts.
 public enum LineNumberRestartMode
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

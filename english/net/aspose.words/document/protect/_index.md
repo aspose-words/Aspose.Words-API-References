@@ -6,7 +6,7 @@ type: docs
 weight: 630
 url: /net/aspose.words/document/protect/
 ---
-## Document.Protect method (1 of 2)
+## Protect(ProtectionType) {1}
 
 Protects the document from changes without changing the existing password or assigns a random password.
 
@@ -61,7 +61,7 @@ doc.Save(ArtifactsDir + "Section.Protect.docx");
 
 ---
 
-## Document.Protect method (2 of 2)
+## Protect(ProtectionType, string) {2}
 
 Protects the document from changes and optionally sets a protection password.
 

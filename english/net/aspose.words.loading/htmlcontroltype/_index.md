@@ -14,7 +14,7 @@ Type of document nodes that represent &lt;input&gt; and &lt;select&gt; elements 
 public enum HtmlControlType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

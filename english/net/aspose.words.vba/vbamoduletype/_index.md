@@ -14,7 +14,7 @@ Specifies the type of a model in a VBA project.
 public enum VbaModuleType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

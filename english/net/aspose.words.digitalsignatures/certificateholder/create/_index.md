@@ -6,7 +6,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.digitalsignatures/certificateholder/create/
 ---
-## CertificateHolder.Create method (1 of 4)
+## Create(byte[], SecureString) {1}
 
 Creates CertificateHolder object using byte array of PKCS12 store and its password.
 
@@ -19,7 +19,7 @@ public static CertificateHolder Create(byte[] certBytes, SecureString password)
 | certBytes | Byte[] | A byte array that contains data from an X.509 certificate. |
 | password | SecureString | The password required to access the X.509 certificate data. |
 
-## Return Value
+### Return Value
 
 An instance of CertificateHolder
 
@@ -81,7 +81,7 @@ CertificateHolder.Create(MyDir + "morzal.pfx", "aw", null);
 
 ---
 
-## CertificateHolder.Create method (2 of 4)
+## Create(byte[], string) {2}
 
 Creates CertificateHolder object using byte array of PKCS12 store and its password.
 
@@ -94,7 +94,7 @@ public static CertificateHolder Create(byte[] certBytes, string password)
 | certBytes | Byte[] | A byte array that contains data from an X.509 certificate. |
 | password | String | The password required to access the X.509 certificate data. |
 
-## Return Value
+### Return Value
 
 An instance of CertificateHolder
 
@@ -156,7 +156,7 @@ CertificateHolder.Create(MyDir + "morzal.pfx", "aw", null);
 
 ---
 
-## CertificateHolder.Create method (3 of 4)
+## Create(string, string) {3}
 
 Creates CertificateHolder object using path to PKCS12 store and its password.
 
@@ -169,7 +169,7 @@ public static CertificateHolder Create(string fileName, string password)
 | fileName | String | The name of a certificate file. |
 | password | String | The password required to access the X.509 certificate data. |
 
-## Return Value
+### Return Value
 
 An instance of CertificateHolder
 
@@ -216,7 +216,7 @@ using (Stream streamIn = new FileStream(MyDir + "Document.docx", FileMode.Open))
 
 ---
 
-## CertificateHolder.Create method (4 of 4)
+## Create(string, string, string) {4}
 
 Creates CertificateHolder object using path to PKCS12 store, its password and the alias by using which private key and certificate will be found.
 
@@ -230,7 +230,7 @@ public static CertificateHolder Create(string fileName, string password, string 
 | password | String | The password required to access the X.509 certificate data. |
 | alias | String | The associated alias for a certificate and its private key |
 
-## Return Value
+### Return Value
 
 An instance of CertificateHolder
 

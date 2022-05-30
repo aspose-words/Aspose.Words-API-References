@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /net/aspose.words/watermark/settext/
 ---
-## Watermark.SetText method (1 of 2)
+## SetText(string) {1}
 
 Adds Text watermark into the document.
 
@@ -65,7 +65,7 @@ if (doc.Watermark.Type == WatermarkType.Text)
 
 ---
 
-## Watermark.SetText method (2 of 2)
+## SetText(string, TextWatermarkOptions) {2}
 
 Adds Text watermark into the document.
 

@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.reporting/reportingengine/buildreport/
 ---
-## ReportingEngine.BuildReport method (1 of 3)
+## BuildReport(Document, object) {1}
 
 Populates the specified template document with data from the specified source making it a ready report.
 
@@ -19,7 +19,7 @@ public bool BuildReport(Document document, object dataSource)
 | document | Document | A template document to be populated with data. |
 | dataSource | Object | A data source object. |
 
-## Return Value
+### Return Value
 
 A flag indicating whether parsing of the template document was successful. The returned flag makes sense only if a value of the [`Options`](../options) property includes the InlineErrorMessages option.
 
@@ -52,7 +52,7 @@ For information on how to work with data sources of different types in template 
 
 ---
 
-## ReportingEngine.BuildReport method (2 of 3)
+## BuildReport(Document, object, string) {2}
 
 Populates the specified template document with data from the specified source making it a ready report.
 
@@ -66,7 +66,7 @@ public bool BuildReport(Document document, object dataSource, string dataSourceN
 | dataSource | Object | A data source object. |
 | dataSourceName | String | A name to reference the data source object in the template. |
 
-## Return Value
+### Return Value
 
 A flag indicating whether parsing of the template document was successful. The returned flag makes sense only if a value of the [`Options`](../options) property includes the InlineErrorMessages option.
 
@@ -99,7 +99,7 @@ For information on how to work with data sources of different types in template 
 
 ---
 
-## ReportingEngine.BuildReport method (3 of 3)
+## BuildReport(Document, object[], string[]) {3}
 
 Populates the specified template document with data from the specified sources making it a ready report.
 
@@ -113,7 +113,7 @@ public bool BuildReport(Document document, object[] dataSources, string[] dataSo
 | dataSources | Object[] | An array of data source objects. |
 | dataSourceNames | String[] | An array of names to reference the data source objects within the template. |
 
-## Return Value
+### Return Value
 
 A flag indicating whether parsing of the template document was successful. The returned flag makes sense only if a value of the [`Options`](../options) property includes the InlineErrorMessages option.
 

@@ -18,7 +18,7 @@ public IList<MailMergeRegionInfo> GetRegionsByName(string regionName)
 | --- | --- | --- |
 | regionName | String | Region name (case-insensitive). |
 
-## Return Value
+### Return Value
 
 The list of regions.
 

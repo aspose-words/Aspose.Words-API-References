@@ -14,7 +14,7 @@ Specifies the possible positions for tick marks.
 public enum AxisTickMark
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

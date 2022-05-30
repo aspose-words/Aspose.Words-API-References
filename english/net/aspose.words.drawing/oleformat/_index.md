@@ -38,8 +38,8 @@ public class OleFormat
 | --- | --- |
 | [GetOleEntry](../../aspose.words.drawing/oleformat/getoleentry)(string) | Gets OLE object data entry. |
 | [GetRawData](../../aspose.words.drawing/oleformat/getrawdata)() | Gets OLE object raw data. |
-| [Save](../../aspose.words.drawing/oleformat/save)(Stream) | Saves the data of the embedded object into the specified stream. |
-| [Save](../../aspose.words.drawing/oleformat/save)(string) | Saves the data of the embedded object into a file with the specified name. |
+| [Save](../../aspose.words.drawing/oleformat/save#1)(Stream) | Saves the data of the embedded object into the specified stream. |
+| [Save](../../aspose.words.drawing/oleformat/save#2)(string) | Saves the data of the embedded object into a file with the specified name. |
 
 ### Remarks
 

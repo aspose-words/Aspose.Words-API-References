@@ -22,7 +22,7 @@ public float RenderToSize(Graphics graphics, float x, float y, float width, floa
 | width | Single | The maximum width (in world units) that can be occupied by the rendered shape. |
 | height | Single | The maximum height (in world units) that can be occupied by the rendered shape. |
 
-## Return Value
+### Return Value
 
 The scale that was automatically calculated for the rendered shape to fit the specified size.
 

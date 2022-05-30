@@ -6,7 +6,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.drawing.charts/chartseriescollection/add/
 ---
-## ChartSeriesCollection.Add method (1 of 4)
+## Add(string, string[], double[]) {1}
 
 Adds new [`ChartSeries`](../../chartseries) to this collection. Use this method to add series to any type of Bar, Column, Line and Surface charts.
 
@@ -14,7 +14,7 @@ Adds new [`ChartSeries`](../../chartseries) to this collection. Use this method 
 public ChartSeries Add(string seriesName, string[] categories, double[] values)
 ```
 
-## Return Value
+### Return Value
 
 Recently added [`ChartSeries`](../../chartseries) object.
 
@@ -114,7 +114,7 @@ private static Chart AppendChart(DocumentBuilder builder, ChartType chartType, d
 
 ---
 
-## ChartSeriesCollection.Add method (2 of 4)
+## Add(string, double[], double[]) {2}
 
 Adds new [`ChartSeries`](../../chartseries) to this collection. Use this method to add series to any type of Scatter charts.
 
@@ -122,7 +122,7 @@ Adds new [`ChartSeries`](../../chartseries) to this collection. Use this method 
 public ChartSeries Add(string seriesName, double[] xValues, double[] yValues)
 ```
 
-## Return Value
+### Return Value
 
 Recently added [`ChartSeries`](../../chartseries) object.
 
@@ -222,7 +222,7 @@ private static Chart AppendChart(DocumentBuilder builder, ChartType chartType, d
 
 ---
 
-## ChartSeriesCollection.Add method (3 of 4)
+## Add(string, DateTime[], double[]) {3}
 
 Adds new [`ChartSeries`](../../chartseries) to this collection. Use this method to add series to any type of Area, Radar and Stock charts.
 
@@ -326,7 +326,7 @@ private static Chart AppendChart(DocumentBuilder builder, ChartType chartType, d
 
 ---
 
-## ChartSeriesCollection.Add method (4 of 4)
+## Add(string, double[], double[], double[]) {4}
 
 Adds new [`ChartSeries`](../../chartseries) to this collection. Use this method to add series to any type of Bubble charts.
 
@@ -334,7 +334,7 @@ Adds new [`ChartSeries`](../../chartseries) to this collection. Use this method 
 public ChartSeries Add(string seriesName, double[] xValues, double[] yValues, double[] bubbleSizes)
 ```
 
-## Return Value
+### Return Value
 
 Recently added [`ChartSeries`](../../chartseries) object.
 

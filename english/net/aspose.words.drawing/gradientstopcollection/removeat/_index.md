@@ -14,7 +14,7 @@ Removes a [`GradientStop`](../../gradientstop) from the collection at a specifie
 public GradientStop RemoveAt(int index)
 ```
 
-## Return Value
+### Return Value
 
 Removed [`GradientStop`](../../gradientstop).
 

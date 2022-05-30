@@ -14,7 +14,7 @@ Specifies how 3D shape effects are rendered.
 public enum Dml3DEffectsRenderingMode
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

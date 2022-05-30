@@ -14,7 +14,7 @@ Defines the footnote position.
 public enum FootnotePosition
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

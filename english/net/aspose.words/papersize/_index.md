@@ -14,7 +14,7 @@ Specifies paper size.
 public enum PaperSize
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

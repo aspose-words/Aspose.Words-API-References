@@ -14,7 +14,7 @@ Represents different behaviors when computing page numbers in a continuous secti
 public enum ContinuousSectionRestart
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

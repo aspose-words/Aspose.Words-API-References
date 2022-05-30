@@ -18,8 +18,8 @@ public class DocSaveOptions : SaveOptions
 
 | Name | Description |
 | --- | --- |
-| [DocSaveOptions](docsaveoptions)() | Initializes a new instance of this class that can be used to save a document in the Doc format. |
-| [DocSaveOptions](docsaveoptions)(SaveFormat) | Initializes a new instance of this class that can be used to save a document in the Doc or Dot format. |
+| [DocSaveOptions](docsaveoptions#1)() | Initializes a new instance of this class that can be used to save a document in the Doc format. |
+| [DocSaveOptions](docsaveoptions#2)(SaveFormat) | Initializes a new instance of this class that can be used to save a document in the Doc or Dot format. |
 
 ## Properties
 

@@ -14,7 +14,7 @@ Indicates the symbol set that is used to represent numbers while rendering to fi
 public enum NumeralFormat
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

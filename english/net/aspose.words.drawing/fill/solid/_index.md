@@ -6,7 +6,7 @@ type: docs
 weight: 200
 url: /net/aspose.words.drawing/fill/solid/
 ---
-## Fill.Solid method (1 of 2)
+## Solid() {1}
 
 Sets the fill to a uniform color.
 
@@ -26,7 +26,7 @@ Use this method to convert any of the fills back to solid fill.
 
 ---
 
-## Fill.Solid method (2 of 2)
+## Solid(Color) {2}
 
 Sets the fill to a specified uniform color.
 

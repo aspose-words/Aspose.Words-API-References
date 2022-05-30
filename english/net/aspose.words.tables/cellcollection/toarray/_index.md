@@ -14,7 +14,7 @@ Copies all cells from the collection to a new array of cells.
 public Cell[] ToArray()
 ```
 
-## Return Value
+### Return Value
 
 An array of cells.
 

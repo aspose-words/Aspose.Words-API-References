@@ -14,7 +14,7 @@ Specifies one of the predefined list formats available in Microsoft Word.
 public enum ListTemplate
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -14,7 +14,7 @@ Determines when automatic footnote or endnote numbering restarts.
 public enum FootnoteNumberingRule
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -6,7 +6,7 @@ type: docs
 weight: 380
 url: /net/aspose.words/documentbuilder/insertoleobjectasicon/
 ---
-## DocumentBuilder.InsertOleObjectAsIcon method (1 of 3)
+## InsertOleObjectAsIcon(string, bool, string, string) {1}
 
 Inserts an embedded or linked OLE object as icon into the document. Allows to specify icon file and caption. Detects OLE object type using file extension.
 
@@ -22,7 +22,7 @@ public Shape InsertOleObjectAsIcon(string fileName, bool isLinked, string iconFi
 | iconFile | String | Full path to the ICO file. If the value is null, Aspose.Words will use a predefined image. |
 | iconCaption | String | Icon caption. If the value is null, Aspose.Words will use the file name. |
 
-## Return Value
+### Return Value
 
 Shape node containing Ole object and inserted at the current Builder position.
 
@@ -68,7 +68,7 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertOleObject.docx");
 
 ---
 
-## DocumentBuilder.InsertOleObjectAsIcon method (2 of 3)
+## InsertOleObjectAsIcon(string, string, bool, string, string) {2}
 
 Inserts an embedded or linked OLE object as icon into the document. Allows to specify icon file and caption. Detects OLE object type using given progID parameter.
 
@@ -85,7 +85,7 @@ public Shape InsertOleObjectAsIcon(string fileName, string progId, bool isLinked
 | iconFile | String | Full path to the ICO file. If the value is null, Aspose.Words will use a predefined image. |
 | iconCaption | String | Icon caption. If the value is null, Aspose.Words will use the file name. |
 
-## Return Value
+### Return Value
 
 Shape node containing Ole object and inserted at the current Builder position.
 
@@ -127,7 +127,7 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertOleObjectAsIcon.docx");
 
 ---
 
-## DocumentBuilder.InsertOleObjectAsIcon method (3 of 3)
+## InsertOleObjectAsIcon(Stream, string, string, string) {3}
 
 Inserts an embedded OLE object as icon from a stream into the document. Allows to specify icon file and caption. Detects OLE object type using given progID parameter.
 
@@ -143,7 +143,7 @@ public Shape InsertOleObjectAsIcon(Stream stream, string progId, string iconFile
 | iconFile | String | Full path to the ICO file. If the value is null, Aspose.Words will use a predefined image. |
 | iconCaption | String | Icon caption. If the value is null, Aspose.Words will use the a predefined icon caption. |
 
-## Return Value
+### Return Value
 
 Shape node containing Ole object and inserted at the current Builder position.
 

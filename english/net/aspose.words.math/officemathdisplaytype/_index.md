@@ -14,7 +14,7 @@ Specifies the display format type of the equation.
 public enum OfficeMathDisplayType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

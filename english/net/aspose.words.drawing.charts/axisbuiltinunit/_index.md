@@ -14,7 +14,7 @@ Specifies the display units for an axis.
 public enum AxisBuiltInUnit
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

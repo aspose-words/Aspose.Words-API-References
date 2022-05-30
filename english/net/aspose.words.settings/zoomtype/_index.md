@@ -14,7 +14,7 @@ Possible values for how large or small the document appears on the screen in Mic
 public enum ZoomType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

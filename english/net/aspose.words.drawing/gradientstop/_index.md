@@ -18,8 +18,8 @@ public class GradientStop
 
 | Name | Description |
 | --- | --- |
-| [GradientStop](gradientstop)(Color, double) | Initializes a new instance of the [`GradientStop`](../gradientstop) class. |
-| [GradientStop](gradientstop)(Color, double, double) | Initializes a new instance of the [`GradientStop`](../gradientstop) class. |
+| [GradientStop](gradientstop#1)(Color, double) | Initializes a new instance of the [`GradientStop`](../gradientstop) class. |
+| [GradientStop](gradientstop#2)(Color, double, double) | Initializes a new instance of the [`GradientStop`](../gradientstop) class. |
 
 ## Properties
 

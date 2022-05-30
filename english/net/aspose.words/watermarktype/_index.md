@@ -14,7 +14,7 @@ Specifies the watermark type.
 public enum WatermarkType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

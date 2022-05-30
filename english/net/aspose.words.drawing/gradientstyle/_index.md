@@ -14,7 +14,7 @@ Specifies the style for a gradient fill.
 public enum GradientStyle
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |
