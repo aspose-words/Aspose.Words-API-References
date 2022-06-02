@@ -19,8 +19,8 @@ public class OdtSaveOptions : SaveOptions
 | Name | Description |
 | --- | --- |
 | [OdtSaveOptions](odtsaveoptions#1)() | Initializes a new instance of this class that can be used to save a document in the Odt format. |
-| [OdtSaveOptions](odtsaveoptions#3)(SaveFormat) | Initializes a new instance of this class that can be used to save a document in the Odt or Ott format. |
-| [OdtSaveOptions](odtsaveoptions#2)(string) | Initializes a new instance of this class that can be used to save a document in the Odt format encrypted with a password. |
+| [OdtSaveOptions](odtsaveoptions#2)(SaveFormat) | Initializes a new instance of this class that can be used to save a document in the Odt or Ott format. |
+| [OdtSaveOptions](odtsaveoptions#3)(string) | Initializes a new instance of this class that can be used to save a document in the Odt format encrypted with a password. |
 
 ## Properties
 

@@ -20,8 +20,8 @@ public class FindReplaceOptions
 | --- | --- |
 | [FindReplaceOptions](findreplaceoptions#1)() | The default constructor. |
 | [FindReplaceOptions](findreplaceoptions#2)(FindReplaceDirection) |  |
-| [FindReplaceOptions](findreplaceoptions#3)(IReplacingCallback) |  |
-| [FindReplaceOptions](findreplaceoptions#4)(FindReplaceDirection, IReplacingCallback) |  |
+| [FindReplaceOptions](findreplaceoptions#4)(IReplacingCallback) |  |
+| [FindReplaceOptions](findreplaceoptions#3)(FindReplaceDirection, IReplacingCallback) |  |
 
 ## Properties
 

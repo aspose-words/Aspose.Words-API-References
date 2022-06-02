@@ -110,7 +110,7 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 
 ---
 
-## AddSwitch(string, string) {#2}
+## AddSwitch(string, string) {#4}
 
 Adds a field's switch.
 
@@ -312,7 +312,7 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 
 ---
 
-## AddSwitch(string, double) {#4}
+## AddSwitch(string, double) {#2}
 
 Adds a field's switch.
 

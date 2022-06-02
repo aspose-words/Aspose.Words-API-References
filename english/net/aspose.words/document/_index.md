@@ -19,10 +19,10 @@ public class Document : DocumentBase
 | Name | Description |
 | --- | --- |
 | [Document](document#1)() | Creates a blank Word document. |
-| [Document](document#4)(Stream) | Opens an existing document from a stream. Automatically detects the file format. |
-| [Document](document#2)(string) | Opens an existing document from a file. Automatically detects the file format. |
-| [Document](document#5)(Stream, LoadOptions) | Opens an existing document from a stream. Allows to specify additional options such as an encryption password. |
-| [Document](document#3)(string, LoadOptions) | Opens an existing document from a file. Allows to specify additional options such as an encryption password. |
+| [Document](document#2)(Stream) | Opens an existing document from a stream. Automatically detects the file format. |
+| [Document](document#4)(string) | Opens an existing document from a file. Automatically detects the file format. |
+| [Document](document#3)(Stream, LoadOptions) | Opens an existing document from a stream. Allows to specify additional options such as an encryption password. |
+| [Document](document#5)(string, LoadOptions) | Opens an existing document from a file. Allows to specify additional options such as an encryption password. |
 
 ## Properties
 
@@ -111,8 +111,8 @@ public class Document : DocumentBase
 | [Clone](../../aspose.words/node/clone)(bool) | Creates a duplicate of the node. |
 | [Compare](../../aspose.words/document/compare#1)(Document, string, DateTime) | Compares this document with another document producing changes as number of edit and format revisions [`Revision`](../revision). |
 | [Compare](../../aspose.words/document/compare#2)(Document, string, DateTime, CompareOptions) | Compares this document with another document producing changes as a number of edit and format revisions [`Revision`](../revision). Allows to specify comparison options using [`CompareOptions`](../../aspose.words.comparing/compareoptions). |
-| [CopyStylesFromTemplate](../../aspose.words/document/copystylesfromtemplate#2)(Document) | Copies styles from the specified template to a document. |
-| [CopyStylesFromTemplate](../../aspose.words/document/copystylesfromtemplate#1)(string) | Copies styles from the specified template to a document. |
+| [CopyStylesFromTemplate](../../aspose.words/document/copystylesfromtemplate#1)(Document) | Copies styles from the specified template to a document. |
+| [CopyStylesFromTemplate](../../aspose.words/document/copystylesfromtemplate#2)(string) | Copies styles from the specified template to a document. |
 | [CreateNavigator](../../aspose.words/compositenode/createnavigator)() | Reserved for system use. IXPathNavigable. |
 | [EnsureMinimum](../../aspose.words/document/ensureminimum)() | If the document contains no sections, creates one section with one paragraph. |
 | [ExpandTableStylesToDirectFormatting](../../aspose.words/document/expandtablestylestodirectformatting)() | Converts formatting specified in table styles into direct formatting on tables in the document. |
@@ -135,9 +135,9 @@ public class Document : DocumentBase
 | [PrependChild](../../aspose.words/compositenode/prependchild)(Node) | Adds the specified node to the beginning of the list of child nodes for this node. |
 | [PreviousPreOrder](../../aspose.words/node/previouspreorder)(Node) | Gets the previous node according to the pre-order tree traversal algorithm. |
 | [Print](../../aspose.words/document/print#1)() | Prints the whole document to the default printer. |
-| [Print](../../aspose.words/document/print#3)(PrinterSettings) | Prints the document according to the specified printer settings, using the standard (no User Interface) print controller. |
-| [Print](../../aspose.words/document/print#2)(string) | Print the whole document to the specified printer, using the standard (no User Interface) print controller. |
-| [Print](../../aspose.words/document/print#4)(PrinterSettings, string) | Prints the document according to the specified printer settings, using the standard (no User Interface) print controller and a document name. |
+| [Print](../../aspose.words/document/print#2)(PrinterSettings) | Prints the document according to the specified printer settings, using the standard (no User Interface) print controller. |
+| [Print](../../aspose.words/document/print#4)(string) | Print the whole document to the specified printer, using the standard (no User Interface) print controller. |
+| [Print](../../aspose.words/document/print#3)(PrinterSettings, string) | Prints the document according to the specified printer settings, using the standard (no User Interface) print controller and a document name. |
 | [Protect](../../aspose.words/document/protect#1)(ProtectionType) | Protects the document from changes without changing the existing password or assigns a random password. |
 | [Protect](../../aspose.words/document/protect#2)(ProtectionType, string) | Protects the document from changes and optionally sets a protection password. |
 | [Remove](../../aspose.words/node/remove)() | Removes itself from the parent. |
@@ -148,27 +148,27 @@ public class Document : DocumentBase
 | [RemoveSmartTags](../../aspose.words/compositenode/removesmarttags)() | Removes all [`SmartTag`](../../aspose.words.markup/smarttag) descendant nodes of the current node. |
 | [RenderToScale](../../aspose.words/document/rendertoscale)(int, Graphics, float, float, float) | Renders a document page into a Graphics object to a specified scale. |
 | [RenderToSize](../../aspose.words/document/rendertosize)(int, Graphics, float, float, float, float) | Renders a document page into a Graphics object to a specified size. |
-| [Save](../../aspose.words/document/save#1)(string) | Saves the document to a file. Automatically determines the save format from the extension. |
-| [Save](../../aspose.words/document/save#4)(Stream, SaveFormat) | Saves the document to a stream using the specified format. |
-| [Save](../../aspose.words/document/save#5)(Stream, SaveOptions) | Saves the document to a stream using the specified save options. |
-| [Save](../../aspose.words/document/save#2)(string, SaveFormat) | Saves the document to a file in the specified format. |
-| [Save](../../aspose.words/document/save#3)(string, SaveOptions) | Saves the document to a file using the specified save options. |
+| [Save](../../aspose.words/document/save#3)(string) | Saves the document to a file. Automatically determines the save format from the extension. |
+| [Save](../../aspose.words/document/save#1)(Stream, SaveFormat) | Saves the document to a stream using the specified format. |
+| [Save](../../aspose.words/document/save#2)(Stream, SaveOptions) | Saves the document to a stream using the specified save options. |
+| [Save](../../aspose.words/document/save#4)(string, SaveFormat) | Saves the document to a file in the specified format. |
+| [Save](../../aspose.words/document/save#5)(string, SaveOptions) | Saves the document to a file using the specified save options. |
 | [Save](../../aspose.words/document/save#6)(HttpResponse, string, ContentDisposition, SaveOptions) | Sends the document to the client browser. |
 | [SelectNodes](../../aspose.words/compositenode/selectnodes)(string) | Selects a list of nodes matching the XPath expression. |
 | [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode)(string) | Selects the first Node that matches the XPath expression. |
-| [StartTrackRevisions](../../aspose.words/document/starttrackrevisions#2)(string) | Starts automatically marking all further changes you make to the document programmatically as revision changes. |
-| [StartTrackRevisions](../../aspose.words/document/starttrackrevisions#1)(string, DateTime) | Starts automatically marking all further changes you make to the document programmatically as revision changes. |
+| [StartTrackRevisions](../../aspose.words/document/starttrackrevisions#1)(string) | Starts automatically marking all further changes you make to the document programmatically as revision changes. |
+| [StartTrackRevisions](../../aspose.words/document/starttrackrevisions#2)(string, DateTime) | Starts automatically marking all further changes you make to the document programmatically as revision changes. |
 | [StopTrackRevisions](../../aspose.words/document/stoptrackrevisions)() | Stops automatic marking of document changes as revisions. |
 | [ToString](../../aspose.words/node/tostring)(SaveFormat) | Exports the content of the node into a string in the specified format. |
 | [ToString](../../aspose.words/node/tostring)(SaveOptions) | Exports the content of the node into a string using the specified save options. |
 | [UnlinkFields](../../aspose.words/document/unlinkfields)() | Unlinks fields in the whole document. |
-| [Unprotect](../../aspose.words/document/unprotect#1)() | Removes protection from the document regardless of the password. |
-| [Unprotect](../../aspose.words/document/unprotect#2)(string) | Removes protection from the document if a correct password is specified. |
+| [Unprotect](../../aspose.words/document/unprotect#2)() | Removes protection from the document regardless of the password. |
+| [Unprotect](../../aspose.words/document/unprotect#1)(string) | Removes protection from the document if a correct password is specified. |
 | [UpdateFields](../../aspose.words/document/updatefields)() | Updates the values of fields in the whole document. |
 | [UpdateListLabels](../../aspose.words/document/updatelistlabels)() | Updates list labels for all list items in the document. |
 | [UpdatePageLayout](../../aspose.words/document/updatepagelayout)() | Rebuilds the page layout of the document. |
-| [UpdateThumbnail](../../aspose.words/document/updatethumbnail#2)() | Updates [`Thumbnail`](../../aspose.words.properties/builtindocumentproperties/thumbnail) of the document using default options. |
-| [UpdateThumbnail](../../aspose.words/document/updatethumbnail#1)(ThumbnailGeneratingOptions) | Updates [`Thumbnail`](../../aspose.words.properties/builtindocumentproperties/thumbnail) of the document according to the specified options. |
+| [UpdateThumbnail](../../aspose.words/document/updatethumbnail#1)() | Updates [`Thumbnail`](../../aspose.words.properties/builtindocumentproperties/thumbnail) of the document using default options. |
+| [UpdateThumbnail](../../aspose.words/document/updatethumbnail#2)(ThumbnailGeneratingOptions) | Updates [`Thumbnail`](../../aspose.words.properties/builtindocumentproperties/thumbnail) of the document according to the specified options. |
 | [UpdateWordCount](../../aspose.words/document/updatewordcount#1)() | Updates word count properties of the document. |
 | [UpdateWordCount](../../aspose.words/document/updatewordcount#2)(bool) | Updates word count properties of the document, optionally updates [`Lines`](../../aspose.words.properties/builtindocumentproperties/lines) property. |
 

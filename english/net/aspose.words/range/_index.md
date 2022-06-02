@@ -30,10 +30,10 @@ public class Range
 | --- | --- |
 | [Delete](../../aspose.words/range/delete)() | Deletes all characters of the range. |
 | [NormalizeFieldTypes](../../aspose.words/range/normalizefieldtypes)() | Changes field type values [`FieldType`](../../aspose.words.fields/fieldchar/fieldtype) of [`FieldStart`](../../aspose.words.fields/fieldstart), [`FieldSeparator`](../../aspose.words.fields/fieldseparator), [`FieldEnd`](../../aspose.words.fields/fieldend) in this range so that they correspond to the field types contained in the field codes. |
-| [Replace](../../aspose.words/range/replace#2)(Regex, string) | Replaces all occurrences of a character pattern specified by a regular expression with another string. |
+| [Replace](../../aspose.words/range/replace#3)(Regex, string) | Replaces all occurrences of a character pattern specified by a regular expression with another string. |
 | [Replace](../../aspose.words/range/replace#1)(string, string) | Replaces all occurrences of a specified character string pattern with a replacement string. |
 | [Replace](../../aspose.words/range/replace#4)(Regex, string, FindReplaceOptions) | Replaces all occurrences of a character pattern specified by a regular expression with another string. |
-| [Replace](../../aspose.words/range/replace#3)(string, string, FindReplaceOptions) | Replaces all occurrences of a specified character string pattern with a replacement string. |
+| [Replace](../../aspose.words/range/replace#2)(string, string, FindReplaceOptions) | Replaces all occurrences of a specified character string pattern with a replacement string. |
 | [ToDocument](../../aspose.words/range/todocument)() | Constructs a new fully formed document that contains the range. |
 | [UnlinkFields](../../aspose.words/range/unlinkfields)() | Unlinks fields in this range. |
 | [UpdateFields](../../aspose.words/range/updatefields)() | Updates the values of document fields in this range. |

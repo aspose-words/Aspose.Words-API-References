@@ -19,8 +19,8 @@ public class FontFallbackSettings
 | Name | Description |
 | --- | --- |
 | [BuildAutomatic](../../aspose.words.fonts/fontfallbacksettings/buildautomatic)() | Automatically builds the fallback settings by scanning available fonts. |
-| [Load](../../aspose.words.fonts/fontfallbacksettings/load#2)(Stream) | Loads fallback settings from XML stream. |
-| [Load](../../aspose.words.fonts/fontfallbacksettings/load#1)(string) | Loads font fallback settings from XML file. |
+| [Load](../../aspose.words.fonts/fontfallbacksettings/load#1)(Stream) | Loads fallback settings from XML stream. |
+| [Load](../../aspose.words.fonts/fontfallbacksettings/load#2)(string) | Loads font fallback settings from XML file. |
 | [LoadMsOfficeFallbackSettings](../../aspose.words.fonts/fontfallbacksettings/loadmsofficefallbacksettings)() | Loads predefined fallback settings which mimics the Microsoft Word fallback and uses Microsoft office fonts. |
 | [LoadNotoFallbackSettings](../../aspose.words.fonts/fontfallbacksettings/loadnotofallbacksettings)() | Loads predefined fallback settings which uses Google Noto fonts. |
 | [Save](../../aspose.words.fonts/fontfallbacksettings/save#1)(Stream) | Saves the current fallback settings to stream. |

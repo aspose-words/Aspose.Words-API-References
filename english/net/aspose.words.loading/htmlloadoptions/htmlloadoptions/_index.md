@@ -44,7 +44,7 @@ else
 
 ---
 
-## HtmlLoadOptions(string) {#2}
+## HtmlLoadOptions(string) {#3}
 
 A shortcut to initialize a new instance of this class with the specified password to load an encrypted document.
 
@@ -94,7 +94,7 @@ Assert.AreEqual("Test encrypted document.", doc.GetText().Trim());
 
 ---
 
-## HtmlLoadOptions(LoadFormat, string, string) {#3}
+## HtmlLoadOptions(LoadFormat, string, string) {#2}
 
 A shortcut to initialize a new instance of this class with properties set to the specified values.
 

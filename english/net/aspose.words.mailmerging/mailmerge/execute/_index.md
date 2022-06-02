@@ -35,7 +35,7 @@ This method ignores the RemoveUnusedRegions option.
 
 ---
 
-## Execute(string[], object[]) {#2}
+## Execute(string[], object[]) {#6}
 
 Performs a mail merge operation for a single record.
 
@@ -193,7 +193,7 @@ private static Document CreateSourceDocExecuteDataTable()
 
 ---
 
-## Execute(IDataReader) {#4}
+## Execute(IDataReader) {#5}
 
 Performs mail merge from IDataReader into the document.
 
@@ -268,7 +268,7 @@ doc.Save(ArtifactsDir + "MailMerge.ExecuteDataReader.docx");
 
 ---
 
-## Execute(DataView) {#5}
+## Execute(DataView) {#4}
 
 Performs mail merge from a DataView into the document.
 
@@ -330,7 +330,7 @@ doc.Save(ArtifactsDir + "MailMerge.ExecuteDataView.docx");
 
 ---
 
-## Execute(DataRow) {#6}
+## Execute(DataRow) {#2}
 
 Performs mail merge from a DataRow into the document.
 

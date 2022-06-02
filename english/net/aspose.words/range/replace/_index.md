@@ -109,7 +109,7 @@ Assert.AreEqual("Every paragraph that ends with a full stop like this one will b
 
 ---
 
-## Replace(Regex, string) {#2}
+## Replace(Regex, string) {#3}
 
 Replaces all occurrences of a character pattern specified by a regular expression with another string.
 
@@ -173,7 +173,7 @@ Assert.AreEqual("I decided to get the curtains in lavender, ideal for the lavend
 
 ---
 
-## Replace(string, string, FindReplaceOptions) {#3}
+## Replace(string, string, FindReplaceOptions) {#2}
 
 Replaces all occurrences of a specified character string pattern with a replacement string.
 

@@ -6,7 +6,7 @@ type: docs
 weight: 10
 url: /net/aspose.words/plaintextdocument/plaintextdocument/
 ---
-## PlainTextDocument(string) {#1}
+## PlainTextDocument(string) {#3}
 
 Creates a plain text document from a file. Automatically detects the file format.
 
@@ -53,7 +53,7 @@ Assert.AreEqual("Hello world!", plaintext.Text.Trim());
 
 ---
 
-## PlainTextDocument(string, LoadOptions) {#2}
+## PlainTextDocument(string, LoadOptions) {#4}
 
 Creates a plain text document from a file. Allows to specify additional options such as an encryption password.
 
@@ -108,7 +108,7 @@ Assert.AreEqual("Hello world!", plaintext.Text.Trim());
 
 ---
 
-## PlainTextDocument(Stream) {#3}
+## PlainTextDocument(Stream) {#1}
 
 Creates a plain text document from a stream. Automatically detects the file format.
 
@@ -164,7 +164,7 @@ using (FileStream stream = new FileStream(ArtifactsDir + "PlainTextDocument.Load
 
 ---
 
-## PlainTextDocument(Stream, LoadOptions) {#4}
+## PlainTextDocument(Stream, LoadOptions) {#2}
 
 Creates a plain text document from a stream. Allows to specify additional options such as an encryption password.
 

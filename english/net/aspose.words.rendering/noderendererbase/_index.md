@@ -34,8 +34,8 @@ public abstract class NodeRendererBase
 | [GetSizeInPixels](../../aspose.words.rendering/noderendererbase/getsizeinpixels#2)(float, float, float) | Calculates the size of the shape in pixels for a specified zoom factor and resolution. |
 | [RenderToScale](../../aspose.words.rendering/noderendererbase/rendertoscale)(Graphics, float, float, float) | Renders the shape into a Graphics object to a specified scale. |
 | [RenderToSize](../../aspose.words.rendering/noderendererbase/rendertosize)(Graphics, float, float, float, float) | Renders the shape into a Graphics object to a specified size. |
-| [Save](../../aspose.words.rendering/noderendererbase/save#2)(Stream, ImageSaveOptions) | Renders the shape into an image and saves into a stream. |
-| [Save](../../aspose.words.rendering/noderendererbase/save#1)(string, ImageSaveOptions) | Renders the shape into an image and saves into a file. |
+| [Save](../../aspose.words.rendering/noderendererbase/save#1)(Stream, ImageSaveOptions) | Renders the shape into an image and saves into a stream. |
+| [Save](../../aspose.words.rendering/noderendererbase/save#2)(string, ImageSaveOptions) | Renders the shape into an image and saves into a file. |
 
 ### Examples
 

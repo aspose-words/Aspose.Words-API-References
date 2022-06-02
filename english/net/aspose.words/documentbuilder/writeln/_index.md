@@ -6,7 +6,7 @@ type: docs
 weight: 630
 url: /net/aspose.words/documentbuilder/writeln/
 ---
-## Writeln(string) {#1}
+## Writeln(string) {#2}
 
 Inserts a string and a paragraph break into the document.
 
@@ -73,7 +73,7 @@ doc.Save(ArtifactsDir + "DocumentBuilder.BuildTable.docx");
 
 ---
 
-## Writeln() {#2}
+## Writeln() {#1}
 
 Inserts a paragraph break into the document.
 

@@ -6,7 +6,7 @@ type: docs
 weight: 680
 url: /net/aspose.words/document/save/
 ---
-## Save(string) {#1}
+## Save(string) {#3}
 
 Saves the document to a file. Automatically determines the save format from the extension.
 
@@ -57,7 +57,7 @@ pdfDoc.Save(ArtifactsDir + "PDF2Word.ConvertPdfToDocx.docx");
 
 ---
 
-## Save(string, SaveFormat) {#2}
+## Save(string, SaveFormat) {#4}
 
 Saves the document to a file in the specified format.
 
@@ -94,7 +94,7 @@ doc.Save(ArtifactsDir + "Document.ConvertToHtml.html", SaveFormat.Html);
 
 ---
 
-## Save(string, SaveOptions) {#3}
+## Save(string, SaveOptions) {#5}
 
 Saves the document to a file using the specified save options.
 
@@ -299,7 +299,7 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.ExpandedOutlineLevels.pdf", options);
 
 ---
 
-## Save(Stream, SaveFormat) {#4}
+## Save(Stream, SaveFormat) {#1}
 
 Saves the document to a stream using the specified format.
 
@@ -391,7 +391,7 @@ Document doc = new Document();
 
 ---
 
-## Save(Stream, SaveOptions) {#5}
+## Save(Stream, SaveOptions) {#2}
 
 Saves the document to a stream using the specified save options.
 

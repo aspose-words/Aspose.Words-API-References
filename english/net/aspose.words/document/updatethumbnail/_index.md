@@ -6,7 +6,7 @@ type: docs
 weight: 760
 url: /net/aspose.words/document/updatethumbnail/
 ---
-## UpdateThumbnail(ThumbnailGeneratingOptions) {#1}
+## UpdateThumbnail(ThumbnailGeneratingOptions) {#2}
 
 Updates [`Thumbnail`](../../../aspose.words.properties/builtindocumentproperties/thumbnail) of the document according to the specified options.
 
@@ -56,7 +56,7 @@ doc.Save(ArtifactsDir + "Document.UpdateThumbnail.FirstImage.epub");
 
 ---
 
-## UpdateThumbnail() {#2}
+## UpdateThumbnail() {#1}
 
 Updates [`Thumbnail`](../../../aspose.words.properties/builtindocumentproperties/thumbnail) of the document using default options.
 

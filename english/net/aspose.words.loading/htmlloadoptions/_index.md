@@ -19,8 +19,8 @@ public class HtmlLoadOptions : LoadOptions
 | Name | Description |
 | --- | --- |
 | [HtmlLoadOptions](htmlloadoptions#1)() | Initializes a new instance of this class with default values. |
-| [HtmlLoadOptions](htmlloadoptions#2)(string) | A shortcut to initialize a new instance of this class with the specified password to load an encrypted document. |
-| [HtmlLoadOptions](htmlloadoptions#3)(LoadFormat, string, string) | A shortcut to initialize a new instance of this class with properties set to the specified values. |
+| [HtmlLoadOptions](htmlloadoptions#3)(string) | A shortcut to initialize a new instance of this class with the specified password to load an encrypted document. |
+| [HtmlLoadOptions](htmlloadoptions#2)(LoadFormat, string, string) | A shortcut to initialize a new instance of this class with properties set to the specified values. |
 
 ## Properties
 

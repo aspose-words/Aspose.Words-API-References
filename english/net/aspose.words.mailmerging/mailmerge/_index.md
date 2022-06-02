@@ -40,12 +40,12 @@ public class MailMerge
 | Name | Description |
 | --- | --- |
 | [DeleteFields](../../aspose.words.mailmerging/mailmerge/deletefields)() | Removes mail merge related fields from the document. |
-| [Execute](../../aspose.words.mailmerging/mailmerge/execute#6)(DataRow) | Performs mail merge from a DataRow into the document. |
+| [Execute](../../aspose.words.mailmerging/mailmerge/execute#2)(DataRow) | Performs mail merge from a DataRow into the document. |
 | [Execute](../../aspose.words.mailmerging/mailmerge/execute#3)(DataTable) | Performs mail merge from a DataTable into the document. |
-| [Execute](../../aspose.words.mailmerging/mailmerge/execute#5)(DataView) | Performs mail merge from a DataView into the document. |
-| [Execute](../../aspose.words.mailmerging/mailmerge/execute#4)(IDataReader) | Performs mail merge from IDataReader into the document. |
+| [Execute](../../aspose.words.mailmerging/mailmerge/execute#4)(DataView) | Performs mail merge from a DataView into the document. |
+| [Execute](../../aspose.words.mailmerging/mailmerge/execute#5)(IDataReader) | Performs mail merge from IDataReader into the document. |
 | [Execute](../../aspose.words.mailmerging/mailmerge/execute#1)(IMailMergeDataSource) | Performs a mail merge from a custom data source. |
-| [Execute](../../aspose.words.mailmerging/mailmerge/execute#2)(string[], object[]) | Performs a mail merge operation for a single record. |
+| [Execute](../../aspose.words.mailmerging/mailmerge/execute#6)(string[], object[]) | Performs a mail merge operation for a single record. |
 | [ExecuteADO](../../aspose.words.mailmerging/mailmerge/executeado)(object) | Performs mail merge from an ADO Recordset object into the document. |
 | [ExecuteWithRegions](../../aspose.words.mailmerging/mailmerge/executewithregions#3)(DataSet) | Performs mail merge from a DataSet into a document with mail merge regions. |
 | [ExecuteWithRegions](../../aspose.words.mailmerging/mailmerge/executewithregions#4)(DataTable) | Performs mail merge from a DataTable into the document with mail merge regions. |

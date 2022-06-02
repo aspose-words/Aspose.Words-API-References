@@ -18,9 +18,9 @@ public sealed class PageSet
 
 | Name | Description |
 | --- | --- |
-| [PageSet](pageset#1)(int) | Creates an one-page set based on exact page index. |
-| [PageSet](pageset#2)(params int[]) | Creates a page set based on exact page indices. |
-| [PageSet](pageset#3)(params PageRange[]) | Creates a page set based on ranges. |
+| [PageSet](pageset#2)(int) | Creates an one-page set based on exact page index. |
+| [PageSet](pageset#3)(params int[]) | Creates a page set based on exact page indices. |
+| [PageSet](pageset#1)(params PageRange[]) | Creates a page set based on ranges. |
 
 ## Properties
 

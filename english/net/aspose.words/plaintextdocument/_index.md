@@ -18,10 +18,10 @@ public class PlainTextDocument
 
 | Name | Description |
 | --- | --- |
-| [PlainTextDocument](plaintextdocument#3)(Stream) | Creates a plain text document from a stream. Automatically detects the file format. |
-| [PlainTextDocument](plaintextdocument#1)(string) | Creates a plain text document from a file. Automatically detects the file format. |
-| [PlainTextDocument](plaintextdocument#4)(Stream, LoadOptions) | Creates a plain text document from a stream. Allows to specify additional options such as an encryption password. |
-| [PlainTextDocument](plaintextdocument#2)(string, LoadOptions) | Creates a plain text document from a file. Allows to specify additional options such as an encryption password. |
+| [PlainTextDocument](plaintextdocument#1)(Stream) | Creates a plain text document from a stream. Automatically detects the file format. |
+| [PlainTextDocument](plaintextdocument#3)(string) | Creates a plain text document from a file. Automatically detects the file format. |
+| [PlainTextDocument](plaintextdocument#2)(Stream, LoadOptions) | Creates a plain text document from a stream. Allows to specify additional options such as an encryption password. |
+| [PlainTextDocument](plaintextdocument#4)(string, LoadOptions) | Creates a plain text document from a file. Allows to specify additional options such as an encryption password. |
 
 ## Properties
 

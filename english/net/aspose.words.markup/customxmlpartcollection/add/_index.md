@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.markup/customxmlpartcollection/add/
 ---
-## Add(CustomXmlPart) {#1}
+## Add(CustomXmlPart) {#2}
 
 Adds an item to the collection.
 
@@ -91,7 +91,7 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.CustomXml.docx");
 
 ---
 
-## Add(string, string) {#2}
+## Add(string, string) {#1}
 
 Creates a new XML part with the specified XML and adds it to the collection.
 
