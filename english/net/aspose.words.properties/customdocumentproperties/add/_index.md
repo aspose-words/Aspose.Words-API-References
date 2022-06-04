@@ -6,7 +6,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.properties/customdocumentproperties/add/
 ---
-## Add(string, string) {#5}
+## Add(string, string) {#add_4}
 
 Creates a new custom document property of the **PropertyType.String** data type.
 
@@ -89,7 +89,7 @@ Assert.AreEqual(0, properties.Count);
 
 ---
 
-## Add(string, int) {#3}
+## Add(string, int) {#add_2}
 
 Creates a new custom document property of the **PropertyType.Number** data type.
 
@@ -172,7 +172,7 @@ Assert.AreEqual(0, properties.Count);
 
 ---
 
-## Add(string, DateTime) {#4}
+## Add(string, DateTime) {#add_3}
 
 Creates a new custom document property of the **PropertyType.DateTime** data type.
 
@@ -265,7 +265,7 @@ Assert.AreEqual(0, properties.Count);
 
 ---
 
-## Add(string, bool) {#1}
+## Add(string, bool) {#add}
 
 Creates a new custom document property of the **PropertyType.Boolean** data type.
 
@@ -348,7 +348,7 @@ Assert.AreEqual(0, properties.Count);
 
 ---
 
-## Add(string, double) {#2}
+## Add(string, double) {#add_1}
 
 Creates a new custom document property of the **PropertyType.Float** data type.
 

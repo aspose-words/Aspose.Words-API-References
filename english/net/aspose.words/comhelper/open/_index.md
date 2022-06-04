@@ -6,7 +6,7 @@ type: docs
 weight: 20
 url: /net/aspose.words/comhelper/open/
 ---
-## Open(string) {#2}
+## Open(string) {#open_1}
 
 Allows a COM application to load a [`Document`](../../document) from a file.
 
@@ -67,7 +67,7 @@ using (FileStream stream = new FileStream(MyDir + "Document.docx", FileMode.Open
 
 ---
 
-## Open(Stream) {#1}
+## Open(Stream) {#open}
 
 Allows a COM application to load [`Document`](../../document) from a stream.
 

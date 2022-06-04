@@ -18,8 +18,8 @@ public class Run : Inline
 
 | Name | Description |
 | --- | --- |
-| [Run](run#1)(DocumentBase) | Initializes a new instance of the **Run** class. |
-| [Run](run#2)(DocumentBase, string) | Initializes a new instance of the **Run** class. |
+| [Run](run#constructor)(DocumentBase) | Initializes a new instance of the **Run** class. |
+| [Run](run#constructor_1)(DocumentBase, string) | Initializes a new instance of the **Run** class. |
 
 ## Properties
 

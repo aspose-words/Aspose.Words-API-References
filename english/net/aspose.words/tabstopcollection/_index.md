@@ -25,13 +25,13 @@ public class TabStopCollection : InternableComplexAttr
 
 | Name | Description |
 | --- | --- |
-| [Add](../../aspose.words/tabstopcollection/add#1)(TabStop) | Adds or replaces a tab stop in the collection. |
-| [Add](../../aspose.words/tabstopcollection/add#2)(double, TabAlignment, TabLeader) | Adds or replaces a tab stop in the collection. |
+| [Add](../../aspose.words/tabstopcollection/add#add)(TabStop) | Adds or replaces a tab stop in the collection. |
+| [Add](../../aspose.words/tabstopcollection/add#add_1)(double, TabAlignment, TabLeader) | Adds or replaces a tab stop in the collection. |
 | [After](../../aspose.words/tabstopcollection/after)(double) | Gets a first tab stop to the right of the specified position. |
 | [Before](../../aspose.words/tabstopcollection/before)(double) | Gets a first tab stop to the left of the specified position. |
 | [Clear](../../aspose.words/tabstopcollection/clear)() | Deletes all tab stop positions. |
-| override [Equals](../../aspose.words/tabstopcollection/equals#2)(object) | Determines whether the specified object is equal in value to the current object. |
-| [Equals](../../aspose.words/tabstopcollection/equals#1)(TabStopCollection) | Determines whether the specified TabStopCollection is equal in value to the current TabStopCollection. |
+| override [Equals](../../aspose.words/tabstopcollection/equals#equals_1)(object) | Determines whether the specified object is equal in value to the current object. |
+| [Equals](../../aspose.words/tabstopcollection/equals#equals)(TabStopCollection) | Determines whether the specified TabStopCollection is equal in value to the current TabStopCollection. |
 | override [GetHashCode](../../aspose.words/tabstopcollection/gethashcode)() | Serves as a hash function for this type. |
 | [GetIndexByPosition](../../aspose.words/tabstopcollection/getindexbyposition)(double) | Gets the index of a tab stop with the specified position in points. |
 | [GetPositionByIndex](../../aspose.words/tabstopcollection/getpositionbyindex)(int) | Gets the position (in points) of the tab stop at the specified index. |

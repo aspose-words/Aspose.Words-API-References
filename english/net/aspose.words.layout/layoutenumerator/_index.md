@@ -40,8 +40,8 @@ public class LayoutEnumerator
 | [MoveLastChild](../../aspose.words.layout/layoutenumerator/movelastchild)() | Moves to the last child entity. |
 | [MoveNext](../../aspose.words.layout/layoutenumerator/movenext)() | Moves to the next sibling entity in visual order. When iterating lines of a paragraph broken across pages this method will not move to the next page but rather move to the next entity on the same page. |
 | [MoveNextLogical](../../aspose.words.layout/layoutenumerator/movenextlogical)() | Moves to the next sibling entity in a logical order. When iterating lines of a paragraph broken across pages this method will move to the next line even if it resides on another page. |
-| [MoveParent](../../aspose.words.layout/layoutenumerator/moveparent#1)() | Moves to the parent entity. |
-| [MoveParent](../../aspose.words.layout/layoutenumerator/moveparent#2)(LayoutEntityType) | Moves to the parent entity of the specified type. |
+| [MoveParent](../../aspose.words.layout/layoutenumerator/moveparent#moveparent)() | Moves to the parent entity. |
+| [MoveParent](../../aspose.words.layout/layoutenumerator/moveparent#moveparent_1)(LayoutEntityType) | Moves to the parent entity of the specified type. |
 | [MovePrevious](../../aspose.words.layout/layoutenumerator/moveprevious)() | Moves to the previous sibling entity. |
 | [MovePreviousLogical](../../aspose.words.layout/layoutenumerator/movepreviouslogical)() | Moves to the previous sibling entity in a logical order. When iterating lines of a paragraph broken across pages this method will move to the previous line even if it resides on another page. |
 | [Reset](../../aspose.words.layout/layoutenumerator/reset)() | Moves the enumerator to the first page of the document. |

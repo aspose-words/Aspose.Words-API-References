@@ -6,7 +6,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.digitalsignatures/digitalsignatureutil/loadsignatures/
 ---
-## LoadSignatures(string) {#2}
+## LoadSignatures(string) {#loadsignatures_1}
 
 Loads digital signatures from document.
 
@@ -75,7 +75,7 @@ Assert.That(DigitalSignatureUtil.LoadSignatures(ArtifactsDir + "DigitalSignature
 
 ---
 
-## LoadSignatures(Stream) {#1}
+## LoadSignatures(Stream) {#loadsignatures}
 
 Loads digital signatures from document using stream.
 

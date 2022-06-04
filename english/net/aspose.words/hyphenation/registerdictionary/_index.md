@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /net/aspose.words/hyphenation/registerdictionary/
 ---
-## RegisterDictionary(string, Stream) {#1}
+## RegisterDictionary(string, Stream) {#registerdictionary}
 
 Registers and loads a hyphenation dictionary for the specified language from a stream. Throws if dictionary cannot be read or has invalid format.
 
@@ -100,7 +100,7 @@ private class CustomHyphenationDictionaryRegister : IHyphenationCallback
 
 ---
 
-## RegisterDictionary(string, string) {#2}
+## RegisterDictionary(string, string) {#registerdictionary_1}
 
 Registers and loads a hyphenation dictionary for the specified language from file. Throws if dictionary cannot be read or has invalid format.
 

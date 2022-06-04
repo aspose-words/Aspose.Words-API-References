@@ -26,8 +26,8 @@ public static class Hyphenation
 | Name | Description |
 | --- | --- |
 | static [IsDictionaryRegistered](../../aspose.words/hyphenation/isdictionaryregistered)(string) | Returns False if for the specified language there is no dictionary registered or if registered is Null dictionary, True otherwise. |
-| static [RegisterDictionary](../../aspose.words/hyphenation/registerdictionary#1)(string, Stream) | Registers and loads a hyphenation dictionary for the specified language from a stream. Throws if dictionary cannot be read or has invalid format. |
-| static [RegisterDictionary](../../aspose.words/hyphenation/registerdictionary#2)(string, string) | Registers and loads a hyphenation dictionary for the specified language from file. Throws if dictionary cannot be read or has invalid format. |
+| static [RegisterDictionary](../../aspose.words/hyphenation/registerdictionary#registerdictionary)(string, Stream) | Registers and loads a hyphenation dictionary for the specified language from a stream. Throws if dictionary cannot be read or has invalid format. |
+| static [RegisterDictionary](../../aspose.words/hyphenation/registerdictionary#registerdictionary_1)(string, string) | Registers and loads a hyphenation dictionary for the specified language from file. Throws if dictionary cannot be read or has invalid format. |
 | static [UnregisterDictionary](../../aspose.words/hyphenation/unregisterdictionary)(string) | Unregisters a hyphenation dictionary for the specified language. |
 
 ### Examples

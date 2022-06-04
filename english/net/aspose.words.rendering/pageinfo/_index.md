@@ -30,8 +30,8 @@ public class PageInfo
 | Name | Description |
 | --- | --- |
 | [GetDotNetPaperSize](../../aspose.words.rendering/pageinfo/getdotnetpapersize)(PaperSizeCollection) | Gets the PaperSize object suitable for printing the page represented by this [`PageInfo`](../pageinfo). |
-| [GetSizeInPixels](../../aspose.words.rendering/pageinfo/getsizeinpixels#1)(float, float) | Calculates the page size in pixels for a specified zoom factor and resolution. |
-| [GetSizeInPixels](../../aspose.words.rendering/pageinfo/getsizeinpixels#2)(float, float, float) | Calculates the page size in pixels for a specified zoom factor and resolution. |
+| [GetSizeInPixels](../../aspose.words.rendering/pageinfo/getsizeinpixels#getsizeinpixels)(float, float) | Calculates the page size in pixels for a specified zoom factor and resolution. |
+| [GetSizeInPixels](../../aspose.words.rendering/pageinfo/getsizeinpixels#getsizeinpixels_1)(float, float, float) | Calculates the page size in pixels for a specified zoom factor and resolution. |
 | [GetSpecifiedPrinterPaperSource](../../aspose.words.rendering/pageinfo/getspecifiedprinterpapersource)(PaperSourceCollection, PaperSource) | Gets the PaperSource object suitable for printing the page represented by this [`PageInfo`](../pageinfo). |
 
 ### Remarks

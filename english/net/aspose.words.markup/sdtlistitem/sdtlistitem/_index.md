@@ -6,7 +6,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.markup/sdtlistitem/sdtlistitem/
 ---
-## SdtListItem(string, string) {#2}
+## SdtListItem(string, string) {#constructor_1}
 
 Initializes a new instance of this class.
 
@@ -76,7 +76,7 @@ Assert.AreEqual(0, listItems.Count);
 
 ---
 
-## SdtListItem(string) {#1}
+## SdtListItem(string) {#constructor}
 
 Initializes a new instance of this class.
 

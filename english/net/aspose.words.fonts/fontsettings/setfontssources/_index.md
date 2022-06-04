@@ -6,7 +6,7 @@ type: docs
 weight: 100
 url: /net/aspose.words.fonts/fontsettings/setfontssources/
 ---
-## SetFontsSources(FontSourceBase[]) {#1}
+## SetFontsSources(FontSourceBase[]) {#setfontssources}
 
 Sets the sources where Aspose.Words looks for TrueType fonts when rendering documents or embedding fonts.
 
@@ -79,7 +79,7 @@ FontSettings.DefaultInstance.SetFontsSources(originalFontSources);
 
 ---
 
-## SetFontsSources(FontSourceBase[], Stream) {#2}
+## SetFontsSources(FontSourceBase[], Stream) {#setfontssources_1}
 
 Sets the sources where Aspose.Words looks for TrueType fonts and additionally loads previously saved font search cache.
 

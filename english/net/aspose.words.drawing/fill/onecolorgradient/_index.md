@@ -6,7 +6,7 @@ type: docs
 weight: 160
 url: /net/aspose.words.drawing/fill/onecolorgradient/
 ---
-## OneColorGradient(GradientStyle, GradientVariant, double) {#1}
+## OneColorGradient(GradientStyle, GradientVariant, double) {#onecolorgradient}
 
 Sets the specified fill to a one-color gradient.
 
@@ -68,7 +68,7 @@ doc.Save(ArtifactsDir + "Shape.GradientFill.docx", saveOptions);
 
 ---
 
-## OneColorGradient(Color, GradientStyle, GradientVariant, double) {#2}
+## OneColorGradient(Color, GradientStyle, GradientVariant, double) {#onecolorgradient_1}
 
 Sets the specified fill to a one-color gradient and applies a specified color to the [`ForeColor`](../forecolor).
 

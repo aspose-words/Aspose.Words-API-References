@@ -6,7 +6,7 @@ type: docs
 weight: 140
 url: /net/aspose.words.fields/field/update/
 ---
-## Update() {#1}
+## Update() {#update}
 
 Performs the field update. Throws if the field is being updated already.
 
@@ -123,7 +123,7 @@ Assert.AreEqual(0, format.GeneralFormats.Count);
 
 ---
 
-## Update(bool) {#2}
+## Update(bool) {#update_1}
 
 Performs a field update. Throws if the field is being updated already.
 

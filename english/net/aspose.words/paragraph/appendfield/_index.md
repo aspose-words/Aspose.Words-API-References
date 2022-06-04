@@ -6,7 +6,7 @@ type: docs
 weight: 240
 url: /net/aspose.words/paragraph/appendfield/
 ---
-## AppendField(FieldType, bool) {#1}
+## AppendField(FieldType, bool) {#appendfield}
 
 Appends a field to this paragraph.
 
@@ -61,7 +61,7 @@ doc.Save(ArtifactsDir + "Paragraph.AppendField.docx");
 
 ---
 
-## AppendField(string) {#2}
+## AppendField(string) {#appendfield_1}
 
 Appends a field to this paragraph.
 
@@ -114,7 +114,7 @@ doc.Save(ArtifactsDir + "Paragraph.AppendField.docx");
 
 ---
 
-## AppendField(string, string) {#3}
+## AppendField(string, string) {#appendfield_2}
 
 Appends a field to this paragraph.
 

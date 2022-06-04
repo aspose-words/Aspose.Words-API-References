@@ -6,7 +6,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.fields/comparisonevaluationresult/comparisonevaluationresult/
 ---
-## ComparisonEvaluationResult(bool) {#1}
+## ComparisonEvaluationResult(bool) {#constructor}
 
 Creates a comparison evaluation result.
 
@@ -103,7 +103,7 @@ private class ComparisonExpressionEvaluator : IComparisonExpressionEvaluator
 
 ---
 
-## ComparisonEvaluationResult(string) {#2}
+## ComparisonEvaluationResult(string) {#constructor_1}
 
 Creates a failed comparison evaluation result with the corresponding error message.
 

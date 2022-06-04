@@ -6,7 +6,7 @@ type: docs
 weight: 130
 url: /net/aspose.words.layout/layoutenumerator/moveparent/
 ---
-## MoveParent() {#1}
+## MoveParent() {#moveparent}
 
 Moves to the parent entity.
 
@@ -164,7 +164,7 @@ private static void PrintCurrentEntity(LayoutEnumerator layoutEnumerator, int in
 
 ---
 
-## MoveParent(LayoutEntityType) {#2}
+## MoveParent(LayoutEntityType) {#moveparent_1}
 
 Moves to the parent entity of the specified type.
 

@@ -6,7 +6,7 @@ type: docs
 weight: 60
 url: /net/aspose.words.rendering/noderendererbase/getsizeinpixels/
 ---
-## GetSizeInPixels(float, float) {#1}
+## GetSizeInPixels(float, float) {#getsizeinpixels}
 
 Calculates the size of the shape in pixels for a specified zoom factor and resolution.
 
@@ -79,7 +79,7 @@ Assert.AreEqual(30, bounds.Height);
 
 ---
 
-## GetSizeInPixels(float, float, float) {#2}
+## GetSizeInPixels(float, float, float) {#getsizeinpixels_1}
 
 Calculates the size of the shape in pixels for a specified zoom factor and resolution.
 

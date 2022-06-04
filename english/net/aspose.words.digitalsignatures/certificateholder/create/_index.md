@@ -6,7 +6,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.digitalsignatures/certificateholder/create/
 ---
-## Create(byte[], SecureString) {#1}
+## Create(byte[], SecureString) {#create}
 
 Creates CertificateHolder object using byte array of PKCS12 store and its password.
 
@@ -81,7 +81,7 @@ CertificateHolder.Create(MyDir + "morzal.pfx", "aw", null);
 
 ---
 
-## Create(byte[], string) {#2}
+## Create(byte[], string) {#create_1}
 
 Creates CertificateHolder object using byte array of PKCS12 store and its password.
 
@@ -156,7 +156,7 @@ CertificateHolder.Create(MyDir + "morzal.pfx", "aw", null);
 
 ---
 
-## Create(string, string) {#3}
+## Create(string, string) {#create_2}
 
 Creates CertificateHolder object using path to PKCS12 store and its password.
 
@@ -216,7 +216,7 @@ using (Stream streamIn = new FileStream(MyDir + "Document.docx", FileMode.Open))
 
 ---
 
-## Create(string, string, string) {#4}
+## Create(string, string, string) {#create_3}
 
 Creates CertificateHolder object using path to PKCS12 store, its password and the alias by using which private key and certificate will be found.
 

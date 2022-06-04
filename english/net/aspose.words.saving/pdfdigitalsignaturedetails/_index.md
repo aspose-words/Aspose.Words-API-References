@@ -18,8 +18,8 @@ public class PdfDigitalSignatureDetails
 
 | Name | Description |
 | --- | --- |
-| [PdfDigitalSignatureDetails](pdfdigitalsignaturedetails#1)() | Initializes an instance of this class. |
-| [PdfDigitalSignatureDetails](pdfdigitalsignaturedetails#2)(CertificateHolder, string, string, DateTime) | Initializes an instance of this class. |
+| [PdfDigitalSignatureDetails](pdfdigitalsignaturedetails#constructor)() | Initializes an instance of this class. |
+| [PdfDigitalSignatureDetails](pdfdigitalsignaturedetails#constructor_1)(CertificateHolder, string, string, DateTime) | Initializes an instance of this class. |
 
 ## Properties
 

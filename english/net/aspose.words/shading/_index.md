@@ -27,8 +27,8 @@ public class Shading : InternableComplexAttr
 | Name | Description |
 | --- | --- |
 | [ClearFormatting](../../aspose.words/shading/clearformatting)() | Removes shading from the object. |
-| override [Equals](../../aspose.words/shading/equals#2)(object) | Determines whether the specified object is equal in value to the current object. |
-| [Equals](../../aspose.words/shading/equals#1)(Shading) | Determines whether the specified Shading is equal in value to the current Shading. |
+| override [Equals](../../aspose.words/shading/equals#equals_1)(object) | Determines whether the specified object is equal in value to the current object. |
+| [Equals](../../aspose.words/shading/equals#equals)(Shading) | Determines whether the specified Shading is equal in value to the current Shading. |
 | override [GetHashCode](../../aspose.words/shading/gethashcode)() | Serves as a hash function for this type. |
 
 ### Examples

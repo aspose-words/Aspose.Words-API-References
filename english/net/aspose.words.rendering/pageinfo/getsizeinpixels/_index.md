@@ -6,7 +6,7 @@ type: docs
 weight: 80
 url: /net/aspose.words.rendering/pageinfo/getsizeinpixels/
 ---
-## GetSizeInPixels(float, float) {#1}
+## GetSizeInPixels(float, float) {#getsizeinpixels}
 
 Calculates the page size in pixels for a specified zoom factor and resolution.
 
@@ -31,7 +31,7 @@ The size of the page in pixels.
 
 ---
 
-## GetSizeInPixels(float, float, float) {#2}
+## GetSizeInPixels(float, float, float) {#getsizeinpixels_1}
 
 Calculates the page size in pixels for a specified zoom factor and resolution.
 

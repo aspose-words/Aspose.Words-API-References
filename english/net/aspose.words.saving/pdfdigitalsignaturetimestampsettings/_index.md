@@ -18,9 +18,9 @@ public class PdfDigitalSignatureTimestampSettings
 
 | Name | Description |
 | --- | --- |
-| [PdfDigitalSignatureTimestampSettings](pdfdigitalsignaturetimestampsettings#1)() | Initializes an instance of this class. |
-| [PdfDigitalSignatureTimestampSettings](pdfdigitalsignaturetimestampsettings#2)(string, string, string) | Initializes an instance of this class. |
-| [PdfDigitalSignatureTimestampSettings](pdfdigitalsignaturetimestampsettings#3)(string, string, string, TimeSpan) | Initializes an instance of this class. |
+| [PdfDigitalSignatureTimestampSettings](pdfdigitalsignaturetimestampsettings#constructor)() | Initializes an instance of this class. |
+| [PdfDigitalSignatureTimestampSettings](pdfdigitalsignaturetimestampsettings#constructor_1)(string, string, string) | Initializes an instance of this class. |
+| [PdfDigitalSignatureTimestampSettings](pdfdigitalsignaturetimestampsettings#constructor_2)(string, string, string, TimeSpan) | Initializes an instance of this class. |
 
 ## Properties
 

@@ -6,7 +6,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.saving/xpssaveoptions/xpssaveoptions/
 ---
-## XpsSaveOptions() {#1}
+## XpsSaveOptions() {#constructor}
 
 Initializes a new instance of this class that can be used to save a document in the Xps format.
 
@@ -62,7 +62,7 @@ doc.Save(ArtifactsDir + "XpsSaveOptions.OutlineLevels.xps", saveOptions);
 
 ---
 
-## XpsSaveOptions(SaveFormat) {#2}
+## XpsSaveOptions(SaveFormat) {#constructor_1}
 
 Initializes a new instance of this class that can be used to save a document in the Xps or OpenXps format.
 

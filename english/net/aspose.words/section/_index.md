@@ -51,7 +51,7 @@ public sealed class Section : CompositeNode
 | [AppendContent](../../aspose.words/section/appendcontent)(Section) | Inserts a copy of content of the source section at the end of this section. |
 | [ClearContent](../../aspose.words/section/clearcontent)() | Clears the section. |
 | [ClearHeadersFooters](../../aspose.words/section/clearheadersfooters)() | Clears the headers and footers of this section. |
-| [Clone](../../aspose.words/section/clone#2)() | Creates a duplicate of this section. |
+| [Clone](../../aspose.words/section/clone#clone_1)() | Creates a duplicate of this section. |
 | [Clone](../../aspose.words/node/clone)(bool) | Creates a duplicate of the node. |
 | [CreateNavigator](../../aspose.words/compositenode/createnavigator)() | Reserved for system use. IXPathNavigable. |
 | [DeleteHeaderFooterShapes](../../aspose.words/section/deleteheaderfootershapes)() | Deletes all shapes (drawing objects) from the headers and footers of this section. |

@@ -6,7 +6,7 @@ type: docs
 weight: 720
 url: /net/aspose.words/document/unprotect/
 ---
-## Unprotect() {#2}
+## Unprotect() {#unprotect_1}
 
 Removes protection from the document regardless of the password.
 
@@ -71,7 +71,7 @@ Assert.AreEqual(ProtectionType.NoProtection, doc.ProtectionType);
 
 ---
 
-## Unprotect(string) {#1}
+## Unprotect(string) {#unprotect}
 
 Removes protection from the document if a correct password is specified.
 

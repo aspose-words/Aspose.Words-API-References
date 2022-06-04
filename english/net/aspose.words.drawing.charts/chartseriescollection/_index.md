@@ -25,10 +25,10 @@ public class ChartSeriesCollection : IEnumerable<ChartSeries>
 
 | Name | Description |
 | --- | --- |
-| [Add](../../aspose.words.drawing.charts/chartseriescollection/add#3)(string, DateTime[], double[]) | Adds new [`ChartSeries`](../chartseries) to this collection. Use this method to add series to any type of Area, Radar and Stock charts. |
-| [Add](../../aspose.words.drawing.charts/chartseriescollection/add#1)(string, double[], double[]) | Adds new [`ChartSeries`](../chartseries) to this collection. Use this method to add series to any type of Scatter charts. |
-| [Add](../../aspose.words.drawing.charts/chartseriescollection/add#4)(string, string[], double[]) | Adds new [`ChartSeries`](../chartseries) to this collection. Use this method to add series to any type of Bar, Column, Line and Surface charts. |
-| [Add](../../aspose.words.drawing.charts/chartseriescollection/add#2)(string, double[], double[], double[]) | Adds new [`ChartSeries`](../chartseries) to this collection. Use this method to add series to any type of Bubble charts. |
+| [Add](../../aspose.words.drawing.charts/chartseriescollection/add#add_2)(string, DateTime[], double[]) | Adds new [`ChartSeries`](../chartseries) to this collection. Use this method to add series to any type of Area, Radar and Stock charts. |
+| [Add](../../aspose.words.drawing.charts/chartseriescollection/add#add)(string, double[], double[]) | Adds new [`ChartSeries`](../chartseries) to this collection. Use this method to add series to any type of Scatter charts. |
+| [Add](../../aspose.words.drawing.charts/chartseriescollection/add#add_3)(string, string[], double[]) | Adds new [`ChartSeries`](../chartseries) to this collection. Use this method to add series to any type of Bar, Column, Line and Surface charts. |
+| [Add](../../aspose.words.drawing.charts/chartseriescollection/add#add_1)(string, double[], double[], double[]) | Adds new [`ChartSeries`](../chartseries) to this collection. Use this method to add series to any type of Bubble charts. |
 | [Clear](../../aspose.words.drawing.charts/chartseriescollection/clear)() | Removes all [`ChartSeries`](../chartseries) from this collection. |
 | [GetEnumerator](../../aspose.words.drawing.charts/chartseriescollection/getenumerator)() | Returns an enumerator object. |
 | [RemoveAt](../../aspose.words.drawing.charts/chartseriescollection/removeat)(int) | Removes a [`ChartSeries`](../chartseries) at the specified index. |

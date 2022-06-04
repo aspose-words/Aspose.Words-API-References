@@ -6,7 +6,7 @@ type: docs
 weight: 620
 url: /net/aspose.words/document/print/
 ---
-## Print() {#1}
+## Print() {#print}
 
 Prints the whole document to the default printer.
 
@@ -43,7 +43,7 @@ doc.Print(myPrinter);
 
 ---
 
-## Print(string) {#4}
+## Print(string) {#print_3}
 
 Print the whole document to the specified printer, using the standard (no User Interface) print controller.
 
@@ -84,7 +84,7 @@ doc.Print(myPrinter);
 
 ---
 
-## Print(PrinterSettings) {#2}
+## Print(PrinterSettings) {#print_1}
 
 Prints the document according to the specified printer settings, using the standard (no User Interface) print controller.
 
@@ -136,7 +136,7 @@ doc.Print(printerSettings, "My rendered document");
 
 ---
 
-## Print(PrinterSettings, string) {#3}
+## Print(PrinterSettings, string) {#print_2}
 
 Prints the document according to the specified printer settings, using the standard (no User Interface) print controller and a document name.
 

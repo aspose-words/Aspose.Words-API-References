@@ -6,7 +6,7 @@ type: docs
 weight: 200
 url: /net/aspose.words.mailmerging/mailmerge/executewithregions/
 ---
-## ExecuteWithRegions(IMailMergeDataSource) {#1}
+## ExecuteWithRegions(IMailMergeDataSource) {#executewithregions}
 
 Performs a mail merge from a custom data source with mail merge regions.
 
@@ -276,7 +276,7 @@ public class OrderMailMergeDataSource : IMailMergeDataSource
 
 ---
 
-## ExecuteWithRegions(IMailMergeDataSourceRoot) {#2}
+## ExecuteWithRegions(IMailMergeDataSourceRoot) {#executewithregions_1}
 
 Performs a mail merge from a custom data source with mail merge regions.
 
@@ -483,7 +483,7 @@ private class EmployeeListMailMergeSource : IMailMergeDataSource
 
 ---
 
-## ExecuteWithRegions(DataSet) {#3}
+## ExecuteWithRegions(DataSet) {#executewithregions_2}
 
 Performs mail merge from a DataSet into a document with mail merge regions.
 
@@ -609,7 +609,7 @@ private static DataSet CreateDataSet()
 
 ---
 
-## ExecuteWithRegions(DataTable) {#4}
+## ExecuteWithRegions(DataTable) {#executewithregions_3}
 
 Performs mail merge from a DataTable into the document with mail merge regions.
 
@@ -768,7 +768,7 @@ private static DataTable GetSuppliersDataTable()
 
 ---
 
-## ExecuteWithRegions(DataView) {#5}
+## ExecuteWithRegions(DataView) {#executewithregions_4}
 
 Performs mail merge from a DataView into the document with mail merge regions.
 
@@ -849,7 +849,7 @@ doc.Save(ArtifactsDir + "MailMerge.ExecuteWithRegionsConcurrent.docx");
 
 ---
 
-## ExecuteWithRegions(IDataReader, string) {#6}
+## ExecuteWithRegions(IDataReader, string) {#executewithregions_5}
 
 Performs mail merge from IDataReader into the document with mail merge regions.
 

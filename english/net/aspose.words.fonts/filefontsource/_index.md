@@ -18,9 +18,9 @@ public class FileFontSource : FontSourceBase
 
 | Name | Description |
 | --- | --- |
-| [FileFontSource](filefontsource#1)(string) | Ctor. |
-| [FileFontSource](filefontsource#2)(string, int) | Ctor. |
-| [FileFontSource](filefontsource#3)(string, int, string) | Ctor. |
+| [FileFontSource](filefontsource#constructor)(string) | Ctor. |
+| [FileFontSource](filefontsource#constructor_1)(string, int) | Ctor. |
+| [FileFontSource](filefontsource#constructor_2)(string, int, string) | Ctor. |
 
 ## Properties
 

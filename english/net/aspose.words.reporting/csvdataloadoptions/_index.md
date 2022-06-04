@@ -18,8 +18,8 @@ public class CsvDataLoadOptions
 
 | Name | Description |
 | --- | --- |
-| [CsvDataLoadOptions](csvdataloadoptions#1)() | Initializes a new instance of this class with default options. |
-| [CsvDataLoadOptions](csvdataloadoptions#2)(bool) | Initializes a new instance of this class with specifying whether CSV data contains column names at the first line. |
+| [CsvDataLoadOptions](csvdataloadoptions#constructor)() | Initializes a new instance of this class with default options. |
+| [CsvDataLoadOptions](csvdataloadoptions#constructor_1)(bool) | Initializes a new instance of this class with specifying whether CSV data contains column names at the first line. |
 
 ## Properties
 

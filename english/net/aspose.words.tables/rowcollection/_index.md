@@ -33,7 +33,7 @@ public class RowCollection : NodeCollection
 | [Insert](../../aspose.words/nodecollection/insert)(int, Node) | Inserts a node into the collection at the specified index. |
 | [Remove](../../aspose.words/nodecollection/remove)(Node) | Removes the node from the collection and from the document. |
 | [RemoveAt](../../aspose.words/nodecollection/removeat)(int) | Removes the node at the specified index from the collection and from the document. |
-| [ToArray](../../aspose.words.tables/rowcollection/toarray#2)() | Copies all rows from the collection to a new array of rows. (2 methods) |
+| [ToArray](../../aspose.words.tables/rowcollection/toarray#toarray_1)() | Copies all rows from the collection to a new array of rows. (2 methods) |
 
 ### Examples
 

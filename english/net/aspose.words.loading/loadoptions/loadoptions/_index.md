@@ -6,7 +6,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.loading/loadoptions/loadoptions/
 ---
-## LoadOptions() {#1}
+## LoadOptions() {#constructor}
 
 Initializes a new instance of this class with default values.
 
@@ -46,7 +46,7 @@ using (Stream stream = File.OpenRead(MyDir + "Document.html"))
 
 ---
 
-## LoadOptions(string) {#3}
+## LoadOptions(string) {#constructor_2}
 
 A shortcut to initialize a new instance of this class with the specified password to load an encrypted document.
 
@@ -90,7 +90,7 @@ using (Stream stream = File.OpenRead(MyDir + "Encrypted.docx"))
 
 ---
 
-## LoadOptions(LoadFormat, string, string) {#2}
+## LoadOptions(LoadFormat, string, string) {#constructor_1}
 
 A shortcut to initialize a new instance of this class with properties set to the specified values.
 

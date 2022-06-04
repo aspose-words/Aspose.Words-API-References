@@ -6,7 +6,7 @@ type: docs
 weight: 380
 url: /net/aspose.words/documentbuilder/insertoleobjectasicon/
 ---
-## InsertOleObjectAsIcon(string, bool, string, string) {#2}
+## InsertOleObjectAsIcon(string, bool, string, string) {#insertoleobjectasicon_1}
 
 Inserts an embedded or linked OLE object as icon into the document. Allows to specify icon file and caption. Detects OLE object type using file extension.
 
@@ -68,7 +68,7 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertOleObject.docx");
 
 ---
 
-## InsertOleObjectAsIcon(string, string, bool, string, string) {#3}
+## InsertOleObjectAsIcon(string, string, bool, string, string) {#insertoleobjectasicon_2}
 
 Inserts an embedded or linked OLE object as icon into the document. Allows to specify icon file and caption. Detects OLE object type using given progID parameter.
 
@@ -127,7 +127,7 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertOleObjectAsIcon.docx");
 
 ---
 
-## InsertOleObjectAsIcon(Stream, string, string, string) {#1}
+## InsertOleObjectAsIcon(Stream, string, string, string) {#insertoleobjectasicon}
 
 Inserts an embedded OLE object as icon from a stream into the document. Allows to specify icon file and caption. Detects OLE object type using given progID parameter.
 

@@ -6,7 +6,7 @@ type: docs
 weight: 350
 url: /net/aspose.words/documentbuilder/insertimage/
 ---
-## InsertImage(Image) {#4}
+## InsertImage(Image) {#insertimage_3}
 
 Inserts an image from a .NET Image object into the document. The image is inserted inline and at 100% scale.
 
@@ -63,7 +63,7 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromImageObject.docx")
 
 ---
 
-## InsertImage(string) {#10}
+## InsertImage(string) {#insertimage_9}
 
 Inserts an image from a file or URL into the document. The image is inserted inline and at 100% scale.
 
@@ -196,7 +196,7 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromFilename.docx");
 
 ---
 
-## InsertImage(Stream) {#7}
+## InsertImage(Stream) {#insertimage_6}
 
 Inserts an image from a stream into the document. The image is inserted inline and at 100% scale.
 
@@ -269,7 +269,7 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromStream.docx");
 
 ---
 
-## InsertImage(byte[]) {#1}
+## InsertImage(byte[]) {#insertimage}
 
 Inserts an image from a byte array into the document. The image is inserted inline and at 100% scale.
 
@@ -368,7 +368,7 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromByteArrayNetStanda
 
 ---
 
-## InsertImage(Image, double, double) {#6}
+## InsertImage(Image, double, double) {#insertimage_5}
 
 Inserts an inline image from a .NET Image object into the document and scales it to the specified size.
 
@@ -455,7 +455,7 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromImageObjectNetStan
 
 ---
 
-## InsertImage(string, double, double) {#12}
+## InsertImage(string, double, double) {#insertimage_11}
 
 Inserts an inline image from a file or URL into the document and scales it to the specified size.
 
@@ -513,7 +513,7 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromFilename.docx");
 
 ---
 
-## InsertImage(Stream, double, double) {#9}
+## InsertImage(Stream, double, double) {#insertimage_8}
 
 Inserts an inline image from a stream into the document and scales it to the specified size.
 
@@ -573,7 +573,7 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromStream.docx");
 
 ---
 
-## InsertImage(byte[], double, double) {#3}
+## InsertImage(byte[], double, double) {#insertimage_2}
 
 Inserts an inline image from a byte array into the document and scales it to the specified size.
 
@@ -674,7 +674,7 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromByteArrayNetStanda
 
 ---
 
-## InsertImage(Image, RelativeHorizontalPosition, double, RelativeVerticalPosition, double, double, double, WrapType) {#5}
+## InsertImage(Image, RelativeHorizontalPosition, double, RelativeVerticalPosition, double, double, double, WrapType) {#insertimage_4}
 
 Inserts an image from a .NET Image object at the specified position and size.
 
@@ -770,7 +770,7 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromImageObjectNetStan
 
 ---
 
-## InsertImage(string, RelativeHorizontalPosition, double, RelativeVerticalPosition, double, double, double, WrapType) {#11}
+## InsertImage(string, RelativeHorizontalPosition, double, RelativeVerticalPosition, double, double, double, WrapType) {#insertimage_10}
 
 Inserts an image from a file or URL at the specified position and size.
 
@@ -874,7 +874,7 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromFilename.docx");
 
 ---
 
-## InsertImage(Stream, RelativeHorizontalPosition, double, RelativeVerticalPosition, double, double, double, WrapType) {#8}
+## InsertImage(Stream, RelativeHorizontalPosition, double, RelativeVerticalPosition, double, double, double, WrapType) {#insertimage_7}
 
 Inserts an image from a stream at the specified position and size.
 
@@ -943,7 +943,7 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromStream.docx");
 
 ---
 
-## InsertImage(byte[], RelativeHorizontalPosition, double, RelativeVerticalPosition, double, double, double, WrapType) {#2}
+## InsertImage(byte[], RelativeHorizontalPosition, double, RelativeVerticalPosition, double, double, double, WrapType) {#insertimage_1}
 
 Inserts an image from a byte array at the specified position and size.
 

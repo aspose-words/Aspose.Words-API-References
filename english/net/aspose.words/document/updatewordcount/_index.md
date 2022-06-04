@@ -6,7 +6,7 @@ type: docs
 weight: 770
 url: /net/aspose.words/document/updatewordcount/
 ---
-## UpdateWordCount() {#1}
+## UpdateWordCount() {#updatewordcount}
 
 Updates word count properties of the document.
 
@@ -64,7 +64,7 @@ Assert.AreEqual(4, doc.BuiltInDocumentProperties.Lines);
 
 ---
 
-## UpdateWordCount(bool) {#2}
+## UpdateWordCount(bool) {#updatewordcount_1}
 
 Updates word count properties of the document, optionally updates [`Lines`](../../../aspose.words.properties/builtindocumentproperties/lines) property.
 
