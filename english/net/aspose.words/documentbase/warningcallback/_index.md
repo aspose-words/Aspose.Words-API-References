@@ -14,16 +14,15 @@ Called during various document processing procedures when an issue is detected t
 public IWarningCallback WarningCallback { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 Document may generate warnings at any stage of its existence, so it's important to setup warning callback as early as possible to avoid the warnings loss. E.g. such properties as [`PageCount`](../../document/pagecount) actually build the document layout which is used later for rendering, and the layout warnings may be lost if warning callback is specified just for the rendering calls later.
 
-### Examples
+## Examples
 
 Shows how to use the IWarningCallback interface to monitor font substitution warnings.
 
 ```csharp
-public void SubstitutionWarning()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -47,9 +46,9 @@ public void SubstitutionWarning()
 
     FontSettings.DefaultInstance.SetFontsSources(originalFontSources);
 
-    Assert.True(callback.FontSubstitutionWarnings[0].WarningType == WarningType.FontSubstitution);
     Assert.True(callback.FontSubstitutionWarnings[0].Description
-        .Equals("Font 'Times New Roman' has not been found. Using 'Fanwood' font instead. Reason: first available font."));
+        .Equals(
+            "Font 'Times New Roman' has not been found. Using 'Fanwood' font instead. Reason: first available font."));
 }
 
 private class FontSubstitutionWarningCollector : IWarningCallback
@@ -82,7 +81,8 @@ public void EnableFontSubstitution()
 
     // Set a default font name and enable font substitution.
     FontSettings fontSettings = new FontSettings();
-    fontSettings.SubstitutionSettings.DefaultFontSubstitution.DefaultFontName = "Arial"; ;
+    fontSettings.SubstitutionSettings.DefaultFontSubstitution.DefaultFontName = "Arial";
+    ;
     fontSettings.SubstitutionSettings.FontInfoSubstitution.Enabled = true;
 
     // We will get a font substitution warning if we save a document with a missing font.
@@ -95,7 +95,8 @@ public void EnableFontSubstitution()
 
     // We can also verify warnings in the collection and clear them.
     Assert.AreEqual(WarningSource.Layout, substitutionWarningHandler.FontWarnings[0].Source);
-    Assert.AreEqual("Font '28 Days Later' has not been found. Using 'Calibri' font instead. Reason: alternative name from document.",
+    Assert.AreEqual(
+        "Font '28 Days Later' has not been found. Using 'Calibri' font instead. Reason: alternative name from document.",
         substitutionWarningHandler.FontWarnings[0].Description);
 
     substitutionWarningHandler.FontWarnings.Clear();

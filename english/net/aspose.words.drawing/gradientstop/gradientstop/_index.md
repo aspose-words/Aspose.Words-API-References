@@ -6,7 +6,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.drawing/gradientstop/gradientstop/
 ---
-## GradientStop(Color, double) {#constructor}
+## GradientStop constructor (1 of 2)
 
 Initializes a new instance of the [`GradientStop`](../../gradientstop) class.
 
@@ -19,7 +19,7 @@ public GradientStop(Color color, double position)
 | color | Color | Represents the color of the gradient stop. |
 | position | Double | Represents the position of a stop within the gradient expressed as a percent in range 0.0 to 1.0. |
 
-### Examples
+## Examples
 
 Shows how to add gradient stops to the gradient fill.
 
@@ -76,7 +76,7 @@ doc.Save(ArtifactsDir + "Shape.GradientStops.docx", saveOptions);
 
 ---
 
-## GradientStop(Color, double, double) {#constructor_1}
+## GradientStop constructor (2 of 2)
 
 Initializes a new instance of the [`GradientStop`](../../gradientstop) class.
 
@@ -90,7 +90,7 @@ public GradientStop(Color color, double position, double transparency)
 | position | Double | Represents the position of a stop within the gradient expressed as a percent in range 0.0 to 1.0. |
 | transparency | Double | Represents the transparency of a stop within the gradient expressed as a percent in range 0.0 to 1.0. |
 
-### Examples
+## Examples
 
 Shows how to add gradient stops to the gradient fill.
 

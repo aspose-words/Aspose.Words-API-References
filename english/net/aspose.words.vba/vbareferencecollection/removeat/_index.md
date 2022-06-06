@@ -8,13 +8,13 @@ url: /net/aspose.words.vba/vbareferencecollection/removeat/
 ---
 ## VbaReferenceCollection.RemoveAt method
 
-Removes the VbaReference element at the specified index of the the collection.
+Removes the VbaReference element at the specified index of the collection.
 
 ```csharp
 public void RemoveAt(int index)
 ```
 
-### Examples
+## Examples
 
 Shows how to get/remove an element from the VBA reference collection.
 

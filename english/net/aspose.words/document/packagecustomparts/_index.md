@@ -14,7 +14,7 @@ Gets or sets the collection of custom parts (arbitrary content) that are linked 
 public CustomPartCollection PackageCustomParts { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 Do not confuse these custom parts with Custom XML Data. If you need to access Custom XML parts, use the [`CustomXmlParts`](../customxmlparts) property.
 
@@ -24,7 +24,7 @@ Aspose.Words loads and saves custom parts into OOXML documents only.
 
 This property cannot be `null`.
 
-### Examples
+## Examples
 
 Shows how to access a document's arbitrary custom parts collection.
 
@@ -36,7 +36,6 @@ Assert.AreEqual(2, doc.PackageCustomParts.Count);
 // Clone the second part, then add the clone to the collection.
 CustomPart clonedPart = doc.PackageCustomParts[1].Clone();
 doc.PackageCustomParts.Add(clonedPart);
-
 Assert.AreEqual(3, doc.PackageCustomParts.Count);
 
 // Enumerate over the collection and print every part.

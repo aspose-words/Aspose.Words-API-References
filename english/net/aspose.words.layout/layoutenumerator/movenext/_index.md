@@ -14,7 +14,7 @@ Moves to the next sibling entity in visual order. When iterating lines of a para
 public bool MoveNext()
 ```
 
-### Examples
+## Examples
 
 Shows ways of traversing a document's layout entities.
 

@@ -14,12 +14,11 @@ Gets or sets the name of the style on which the list to contain entries is based
 public string ListStyle { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to use an AUTOTEXTLIST field to select from a list of AutoText entries.
 
 ```csharp
-public void FieldAutoTextList()
 {
     Document doc = new Document();
 
@@ -44,7 +43,6 @@ public void FieldAutoTextList()
                     "\\t \"Hover tip text for AutoTextList goes here\"", field.GetFieldCode());
 
     doc.Save(ArtifactsDir + "Field.AUTOTEXTLIST.dotx");
-}
 
 /// <summary>
 /// Create an AutoText-type building block and add it to a glossary document.

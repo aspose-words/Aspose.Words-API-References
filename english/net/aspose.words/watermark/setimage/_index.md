@@ -6,7 +6,7 @@ type: docs
 weight: 30
 url: /net/aspose.words/watermark/setimage/
 ---
-## SetImage(Image) {#setimage}
+## Watermark.SetImage method (1 of 3)
 
 Adds Image watermark into the document.
 
@@ -32,7 +32,7 @@ public void SetImage(Image image)
 
 ---
 
-## SetImage(Image, ImageWatermarkOptions) {#setimage_1}
+## Watermark.SetImage method (2 of 3)
 
 Adds Image watermark into the document.
 
@@ -51,11 +51,11 @@ public void SetImage(Image image, ImageWatermarkOptions options)
 | --- | --- |
 | ArgumentNullException | Throws when the image is null. |
 
-### Remarks
+## Remarks
 
 If [`ImageWatermarkOptions`](../../imagewatermarkoptions) is null, the watermark will be set with default options.
 
-### Examples
+## Examples
 
 Shows how to create a watermark from an image in the local file system.
 
@@ -70,7 +70,7 @@ Document doc = new Document();
 
 #if NET48 || JAVA
             doc.Watermark.SetImage(Image.FromFile(ImageDir + "Logo.jpg"), imageWatermarkOptions);
-#elif NET5_0 || __MOBILE__
+#elif NET5_0_OR_GREATER || __MOBILE__
             using (SKBitmap image = SKBitmap.Decode(ImageDir + "Logo.jpg"))
             {
                 doc.Watermark.SetImage(image, imageWatermarkOptions);
@@ -89,7 +89,7 @@ Document doc = new Document();
 
 ---
 
-## SetImage(string, ImageWatermarkOptions) {#setimage_2}
+## Watermark.SetImage method (3 of 3)
 
 Adds Image watermark into the document.
 
@@ -108,7 +108,7 @@ public void SetImage(string imagePath, ImageWatermarkOptions options)
 | --- | --- |
 | ArgumentNullException | Throws when the path is null. |
 
-### Remarks
+## Remarks
 
 If [`ImageWatermarkOptions`](../../imagewatermarkoptions) is null, the watermark will be set with default options.
 

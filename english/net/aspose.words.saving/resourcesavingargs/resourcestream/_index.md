@@ -14,7 +14,7 @@ Allows to specify the stream where the resource will be saved to.
 public Stream ResourceStream { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 This property allows you to save resources to streams instead of files.
 
@@ -22,7 +22,7 @@ The default value is `null`. When this property is `null`, the resource will be 
 
 Using [`IResourceSavingCallback`](../../iresourcesavingcallback) you cannot substitute one resource with another. It is intended only for control over location where to save resources.
 
-### Examples
+## Examples
 
 Shows how to use a callback to print the URIs of external resources created while converting a document to HTML.
 

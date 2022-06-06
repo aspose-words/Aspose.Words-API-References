@@ -22,9 +22,9 @@ public virtual VisitorAction VisitFieldStart(FieldStart fieldStart)
 
 A [`VisitorAction`](../../visitoraction) value that specifies how to continue the enumeration.
 
-### Remarks
+## Remarks
 
-A field in a Word Word document consists of a field code and field value.
+A field in a Word document consists of a field code and field value.
 
 For example, a field that displays a page number can be represented as follows:
 
@@ -34,7 +34,7 @@ The field separator separates field code from field value in the document. Note 
 
 Fields can be nested.
 
-### Examples
+## Examples
 
 Shows how to print the node structure of every field in a document.
 

@@ -53,11 +53,11 @@ public class FieldXE : Field
 | [Update](../../aspose.words.fields/field/update)() | Performs the field update. Throws if the field is being updated already. |
 | [Update](../../aspose.words.fields/field/update)(bool) | Performs a field update. Throws if the field is being updated already. |
 
-### Remarks
+## Remarks
 
 Defines the text and page number for an index entry, which is used by an INDEX field.
 
-### Examples
+## Examples
 
 Shows how to create an INDEX field, and then use XE fields to populate it with entries.
 

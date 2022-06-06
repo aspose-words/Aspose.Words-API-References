@@ -14,7 +14,7 @@ Gets or sets the total editing time in minutes.
 public int TotalEditingTime { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to work with document properties in the "Origin" category.
 

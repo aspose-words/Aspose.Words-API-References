@@ -14,7 +14,7 @@ Clears the mail merge settings in such a way that when the document is saved, no
 public void Clear()
 ```
 
-### Examples
+## Examples
 
 Shows how to execute a mail merge while connecting to an external data source.
 

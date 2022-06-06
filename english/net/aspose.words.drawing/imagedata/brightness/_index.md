@@ -14,11 +14,11 @@ Gets or sets the brightness of the picture. The value for this property must be 
 public double Brightness { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 The default value is 0.5.
 
-### Examples
+## Examples
 
 Shows how to edit a shape's image data.
 

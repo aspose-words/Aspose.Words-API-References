@@ -14,7 +14,7 @@ Gets or sets whether to insert the paragraph number of the referenced paragraph 
 public bool InsertParagraphNumber { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to use STYLEREF fields.
 

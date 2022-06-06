@@ -14,13 +14,13 @@ Gets or sets a value indicating whether the border has a shadow.
 public bool Shadow { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 Gets the value from the first border in the collection.
 
 Sets the value for all borders in the collection excluding diagonal borders.
 
-### Examples
+## Examples
 
 Shows how to create green wavy page border with a shadow.
 

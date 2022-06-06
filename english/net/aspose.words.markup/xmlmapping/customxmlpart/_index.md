@@ -14,7 +14,7 @@ Returns the custom XML data part to which the parent structured document tag is 
 public CustomXmlPart CustomXmlPart { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to set XML mappings for custom XML parts.
 

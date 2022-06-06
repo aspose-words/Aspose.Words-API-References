@@ -14,7 +14,7 @@ Called when the Aspose.Words mail merge engine is about to insert an image into 
 public void ImageFieldMerging(ImageFieldMergingArgs args)
 ```
 
-### Examples
+## Examples
 
 Shows how to insert images stored in a database BLOB field into a report.
 

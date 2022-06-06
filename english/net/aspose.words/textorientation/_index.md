@@ -25,7 +25,7 @@ public enum TextOrientation
 | VerticalFarEast | `5` | Far East characters appear vertical, other text is rotated 90 degrees to the right to appear from top to bottom (tb-rl-v). |
 | VerticalRotatedFarEast | `7` | Far East characters appear vertical, other text is rotated 90 degrees to the right to appear from top to bottom vertically, then left to right horizontally (tb-lr-v). |
 
-### Examples
+## Examples
 
 Shows how to build a formatted 2x2 table.
 

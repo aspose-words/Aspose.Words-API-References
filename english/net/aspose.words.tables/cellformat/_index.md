@@ -40,7 +40,7 @@ public class CellFormat
 | [ClearFormatting](../../aspose.words.tables/cellformat/clearformatting)() | Resets to default cell formatting. Does not change the width of the cell. |
 | [SetPaddings](../../aspose.words.tables/cellformat/setpaddings)(double, double, double, double) | Sets the amount of space (in points) to add to the left/top/right/bottom of the contents of cell. |
 
-### Examples
+## Examples
 
 Shows how to modify formatting of a table cell.
 

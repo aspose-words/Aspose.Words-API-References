@@ -14,7 +14,7 @@ Gets or sets the category heading by category number.
 public string this[int number] { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to specify a set of categories for TOA fields.
 

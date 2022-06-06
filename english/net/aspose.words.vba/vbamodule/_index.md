@@ -34,7 +34,7 @@ public class VbaModule
 | --- | --- |
 | [Clone](../../aspose.words.vba/vbamodule/clone)() | Performs a copy of the [`VbaModule`](../vbamodule). |
 
-### Examples
+## Examples
 
 Shows how to access a document's VBA project information.
 
@@ -43,7 +43,6 @@ Document doc = new Document(MyDir + "VBA project.docm");
 
 // A VBA project contains a collection of VBA modules.
 VbaProject vbaProject = doc.VbaProject;
-Console.WriteLine(vbaProject.IsSigned
     ? $"Project name: {vbaProject.Name} signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n"
     : $"Project name: {vbaProject.Name} not signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n");
 

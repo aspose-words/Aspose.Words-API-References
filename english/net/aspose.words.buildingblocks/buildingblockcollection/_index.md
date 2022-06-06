@@ -33,13 +33,13 @@ public class BuildingBlockCollection : NodeCollection
 | [Insert](../../aspose.words/nodecollection/insert)(int, Node) | Inserts a node into the collection at the specified index. |
 | [Remove](../../aspose.words/nodecollection/remove)(Node) | Removes the node from the collection and from the document. |
 | [RemoveAt](../../aspose.words/nodecollection/removeat)(int) | Removes the node at the specified index from the collection and from the document. |
-| [ToArray](../../aspose.words.buildingblocks/buildingblockcollection/toarray#toarray)() | Copies all building blocks from the collection to a new array of building blocks. (2 methods) |
+| [ToArray](../../aspose.words.buildingblocks/buildingblockcollection/toarray)() | Copies all building blocks from the collection to a new array of building blocks. (2 methods) |
 
-### Remarks
+## Remarks
 
 You do not create instances of this class directly. To access a collection of building blocks use the [`BuildingBlocks`](../glossarydocument/buildingblocks) property.
 
-### Examples
+## Examples
 
 Shows ways of accessing building blocks in a glossary document.
 

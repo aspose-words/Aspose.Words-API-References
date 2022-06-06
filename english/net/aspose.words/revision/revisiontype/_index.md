@@ -14,7 +14,7 @@ Gets the type of this revision.
 public RevisionType RevisionType { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to work with revisions in a document.
 

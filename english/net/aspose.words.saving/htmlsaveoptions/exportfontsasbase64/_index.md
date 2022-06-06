@@ -14,11 +14,11 @@ Specifies whether fonts resources should be embedded to HTML in Base64 encoding.
 public bool ExportFontsAsBase64 { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 By default, fonts are written to separate files. If this option is set to `true`, fonts will be embedded into the document's CSS in Base64 encoding.
 
-### Examples
+## Examples
 
 Shows how to embed fonts inside a saved HTML document.
 
@@ -42,7 +42,7 @@ Document doc = new Document(MyDir + "Rendering.docx");
 
 HtmlSaveOptions options = new HtmlSaveOptions
 {
-    ExportImagesAsBase64 = exportItemsAsBase64,
+    ExportImagesAsBase64 = exportImagesAsBase64,
     PrettyFormat = true
 };
 
@@ -50,7 +50,7 @@ doc.Save(ArtifactsDir + "HtmlSaveOptions.ExportImagesAsBase64.html", options);
 
 string outDocContents = File.ReadAllText(ArtifactsDir + "HtmlSaveOptions.ExportImagesAsBase64.html");
 
-Assert.True(exportItemsAsBase64
+Assert.True(exportImagesAsBase64
     ? outDocContents.Contains("<img src=\"data:image/png;base64")
     : outDocContents.Contains("<img src=\"HtmlSaveOptions.ExportImagesAsBase64.001.png\""));
 ```

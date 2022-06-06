@@ -18,7 +18,7 @@ public void Add(GeneralFormat item)
 | --- | --- | --- |
 | item | GeneralFormat | A general format. |
 
-### Examples
+## Examples
 
 Shows how to format field results.
 

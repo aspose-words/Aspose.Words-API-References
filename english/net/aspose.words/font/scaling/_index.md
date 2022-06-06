@@ -14,7 +14,7 @@ Gets or sets character width scaling in percent.
 public int Scaling { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to set horizontal scaling and spacing for characters.
 

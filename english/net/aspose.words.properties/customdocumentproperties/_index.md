@@ -26,11 +26,11 @@ public class CustomDocumentProperties : DocumentPropertyCollection
 
 | Name | Description |
 | --- | --- |
-| [Add](../../aspose.words.properties/customdocumentproperties/add#add)(string, bool) | Creates a new custom document property of the **PropertyType.Boolean** data type. |
-| [Add](../../aspose.words.properties/customdocumentproperties/add#add_3)(string, DateTime) | Creates a new custom document property of the **PropertyType.DateTime** data type. |
-| [Add](../../aspose.words.properties/customdocumentproperties/add#add_1)(string, double) | Creates a new custom document property of the **PropertyType.Float** data type. |
-| [Add](../../aspose.words.properties/customdocumentproperties/add#add_2)(string, int) | Creates a new custom document property of the **PropertyType.Number** data type. |
-| [Add](../../aspose.words.properties/customdocumentproperties/add#add_4)(string, string) | Creates a new custom document property of the **PropertyType.String** data type. |
+| [Add](../../aspose.words.properties/customdocumentproperties/add)(string, bool) | Creates a new custom document property of the **PropertyType.Boolean** data type. |
+| [Add](../../aspose.words.properties/customdocumentproperties/add)(string, DateTime) | Creates a new custom document property of the **PropertyType.DateTime** data type. |
+| [Add](../../aspose.words.properties/customdocumentproperties/add)(string, double) | Creates a new custom document property of the **PropertyType.Float** data type. |
+| [Add](../../aspose.words.properties/customdocumentproperties/add)(string, int) | Creates a new custom document property of the **PropertyType.Number** data type. |
+| [Add](../../aspose.words.properties/customdocumentproperties/add)(string, string) | Creates a new custom document property of the **PropertyType.String** data type. |
 | [AddLinkToContent](../../aspose.words.properties/customdocumentproperties/addlinktocontent)(string, string) | Creates a new linked to content custom document property. |
 | [Clear](../../aspose.words.properties/documentpropertycollection/clear)() | Removes all properties from the collection. |
 | [Contains](../../aspose.words.properties/documentpropertycollection/contains)(string) | Returns true if a property with the specified name exists in the collection. |
@@ -39,7 +39,7 @@ public class CustomDocumentProperties : DocumentPropertyCollection
 | [Remove](../../aspose.words.properties/documentpropertycollection/remove)(string) | Removes a property with the specified name from the collection. |
 | [RemoveAt](../../aspose.words.properties/documentpropertycollection/removeat)(int) | Removes a property at the specified index. |
 
-### Remarks
+## Remarks
 
 Each [`DocumentProperty`](../documentproperty) object represents a custom property of a container document.
 
@@ -47,7 +47,7 @@ The names of the properties are case-insensitive.
 
 The properties in the collection are sorted alphabetically by name.
 
-### Examples
+## Examples
 
 Shows how to work with custom document properties.
 

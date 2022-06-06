@@ -49,11 +49,11 @@ public abstract class Inline : Node
 | [ToString](../../aspose.words/node/tostring)(SaveFormat) | Exports the content of the node into a string in the specified format. |
 | [ToString](../../aspose.words/node/tostring)(SaveOptions) | Exports the content of the node into a string using the specified save options. |
 
-### Remarks
+## Remarks
 
 A class derived from **Inline** can be a child of **Paragraph**.
 
-### Examples
+## Examples
 
 Shows how to determine the revision type of an inline node.
 

@@ -23,7 +23,7 @@ public enum AxisCrosses
 | Minimum | `2` | A perpendicular axis crosses at the minimum value of the axis. |
 | Custom | `3` | A perpendicular axis crosses at the specified value of the axis. |
 
-### Examples
+## Examples
 
 Shows how to insert a chart and modify the appearance of its axes.
 

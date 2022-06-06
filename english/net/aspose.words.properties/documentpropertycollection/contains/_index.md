@@ -22,7 +22,7 @@ public bool Contains(string name)
 
 True if the property exists in the collection; false otherwise.
 
-### Examples
+## Examples
 
 Shows how to work with a document's custom properties.
 

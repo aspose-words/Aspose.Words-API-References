@@ -6,7 +6,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.saving/pdfdigitalsignaturedetails/pdfdigitalsignaturedetails/
 ---
-## PdfDigitalSignatureDetails() {#constructor}
+## PdfDigitalSignatureDetails constructor (1 of 2)
 
 Initializes an instance of this class.
 
@@ -14,7 +14,7 @@ Initializes an instance of this class.
 public PdfDigitalSignatureDetails()
 ```
 
-### Examples
+## Examples
 
 Shows how to sign a generated PDF document.
 
@@ -51,7 +51,7 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignature.pdf", options);
 
 ---
 
-## PdfDigitalSignatureDetails(CertificateHolder, string, string, DateTime) {#constructor_1}
+## PdfDigitalSignatureDetails constructor (2 of 2)
 
 Initializes an instance of this class.
 
@@ -67,7 +67,7 @@ public PdfDigitalSignatureDetails(CertificateHolder certificateHolder, string re
 | location | String | The location of signing. |
 | signatureDate | DateTime | The date and time of signing. |
 
-### Examples
+## Examples
 
 Shows how to sign a generated PDF document.
 

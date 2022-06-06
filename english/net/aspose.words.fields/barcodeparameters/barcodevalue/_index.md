@@ -14,7 +14,7 @@ Data to be encoded.
 public string BarcodeValue { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to use a barcode generator.
 

@@ -14,7 +14,7 @@ Returns the number of the fields in the collection.
 public int Count { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to remove fields from a field collection.
 
@@ -56,7 +56,6 @@ Assert.AreEqual(0, fields.Count);
 Shows how to work with a collection of fields.
 
 ```csharp
-public void FieldCollection()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -95,7 +94,6 @@ public void FieldCollection()
     }
 
     Console.WriteLine(fieldVisitor.GetText());
-}
 
 /// <summary>
 /// Document visitor implementation that prints field info.

@@ -18,7 +18,7 @@ public void Remove(Node node)
 | --- | --- | --- |
 | node | Node | The node to remove. |
 
-### Examples
+## Examples
 
 Shows how to work with a NodeCollection.
 

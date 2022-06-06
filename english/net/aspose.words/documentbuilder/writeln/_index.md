@@ -6,7 +6,7 @@ type: docs
 weight: 630
 url: /net/aspose.words/documentbuilder/writeln/
 ---
-## Writeln(string) {#writeln_1}
+## DocumentBuilder.Writeln method (1 of 2)
 
 Inserts a string and a paragraph break into the document.
 
@@ -18,11 +18,11 @@ public void Writeln(string text)
 | --- | --- | --- |
 | text | String | The string to insert into the document. |
 
-### Remarks
+## Remarks
 
 Current font and paragraph formatting specified by the [`Font`](../font) and [`ParagraphFormat`](../paragraphformat) properties are used.
 
-### Examples
+## Examples
 
 Shows how to build a formatted 2x2 table.
 
@@ -73,7 +73,7 @@ doc.Save(ArtifactsDir + "DocumentBuilder.BuildTable.docx");
 
 ---
 
-## Writeln() {#writeln}
+## DocumentBuilder.Writeln method (2 of 2)
 
 Inserts a paragraph break into the document.
 
@@ -81,11 +81,11 @@ Inserts a paragraph break into the document.
 public void Writeln()
 ```
 
-### Remarks
+## Remarks
 
 Calls [`InsertParagraph`](../insertparagraph).
 
-### Examples
+## Examples
 
 Shows how to create headers and footers in a document using DocumentBuilder.
 

@@ -14,7 +14,7 @@ Gets the zero based index of the record that is being merged.
 public int RecordIndex { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to insert checkbox form fields into MERGEFIELDs as merge data during mail merge.
 

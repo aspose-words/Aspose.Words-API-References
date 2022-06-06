@@ -30,7 +30,7 @@ public enum PdfPermissions
 | Printing | `4` | Print the document (possibly not at the highest quality level, depending on whether HighResolutionPrinting is also set). |
 | HighResolutionPrinting | `804` | Print the document to a representation from which a faithful digital copy of the PDF content could be generated, based on an implementation-dependent algorithm. When this flag is clear (and Printing is set), printing shall be limited to a low-level representation of the appearance, possibly of degraded quality. |
 
-### Examples
+## Examples
 
 Shows how to set permissions on a saved PDF document.
 

@@ -14,7 +14,7 @@ Loads predefined fallback settings which uses Google Noto fonts.
 public void LoadNotoFallbackSettings()
 ```
 
-### Examples
+## Examples
 
 Shows how to add predefined font fallback settings for Google Noto fonts.
 

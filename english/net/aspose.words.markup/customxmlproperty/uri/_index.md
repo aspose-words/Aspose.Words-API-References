@@ -14,13 +14,13 @@ Gets or sets the namespace URI of the custom XML attribute or smart tag property
 public string Uri { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 Cannot be null.
 
 Default is empty string.
 
-### Examples
+## Examples
 
 Shows how to work with smart tag properties to get in depth information about smart tags.
 

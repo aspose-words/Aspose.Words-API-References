@@ -19,18 +19,18 @@ public class FontFallbackSettings
 | Name | Description |
 | --- | --- |
 | [BuildAutomatic](../../aspose.words.fonts/fontfallbacksettings/buildautomatic)() | Automatically builds the fallback settings by scanning available fonts. |
-| [Load](../../aspose.words.fonts/fontfallbacksettings/load#load)(Stream) | Loads fallback settings from XML stream. |
-| [Load](../../aspose.words.fonts/fontfallbacksettings/load#load_1)(string) | Loads font fallback settings from XML file. |
+| [Load](../../aspose.words.fonts/fontfallbacksettings/load)(Stream) | Loads fallback settings from XML stream. |
+| [Load](../../aspose.words.fonts/fontfallbacksettings/load)(string) | Loads font fallback settings from XML file. |
 | [LoadMsOfficeFallbackSettings](../../aspose.words.fonts/fontfallbacksettings/loadmsofficefallbacksettings)() | Loads predefined fallback settings which mimics the Microsoft Word fallback and uses Microsoft office fonts. |
 | [LoadNotoFallbackSettings](../../aspose.words.fonts/fontfallbacksettings/loadnotofallbacksettings)() | Loads predefined fallback settings which uses Google Noto fonts. |
-| [Save](../../aspose.words.fonts/fontfallbacksettings/save#save)(Stream) | Saves the current fallback settings to stream. |
-| [Save](../../aspose.words.fonts/fontfallbacksettings/save#save_1)(string) | Saves the current fallback settings to file. |
+| [Save](../../aspose.words.fonts/fontfallbacksettings/save)(Stream) | Saves the current fallback settings to stream. |
+| [Save](../../aspose.words.fonts/fontfallbacksettings/save)(string) | Saves the current fallback settings to file. |
 
-### Remarks
+## Remarks
 
 By default fallback settings are initialized with predefined settings which mimics the Microsoft Word fallback.
 
-### Examples
+## Examples
 
 Shows how to distribute fallback fonts across Unicode character code ranges.
 
@@ -43,7 +43,7 @@ FontFallbackSettings fontFallbackSettings = fontSettings.FallbackSettings;
 
 // Configure our font settings to source fonts only from the "MyFonts" folder.
 FolderFontSource folderFontSource = new FolderFontSource(FontsDir, false);
-fontSettings.SetFontsSources(new FontSourceBase[] { folderFontSource });
+fontSettings.SetFontsSources(new FontSourceBase[] {folderFontSource});
 
 // Calling the "BuildAutomatic" method will generate a fallback scheme that
 // distributes accessible fonts across as many Unicode character codes as possible.
@@ -68,10 +68,12 @@ for (int i = 0x0021; i < 0x0530; i++)
     switch (i)
     {
         case 0x0021:
-            builder.Writeln("\n\n0x0021 - 0x00FF: \nBasic Latin/Latin-1 Supplement Unicode blocks in \"AllegroOpen\" font:");
+            builder.Writeln(
+                "\n\n0x0021 - 0x00FF: \nBasic Latin/Latin-1 Supplement Unicode blocks in \"AllegroOpen\" font:");
             break;
         case 0x0100:
-            builder.Writeln("\n\n0x0100 - 0x024F: \nLatin Extended A/B blocks, mostly in \"AllegroOpen\" font:");
+            builder.Writeln(
+                "\n\n0x0100 - 0x024F: \nLatin Extended A/B blocks, mostly in \"AllegroOpen\" font:");
             break;
         case 0x0250:
             builder.Writeln("\n\n0x0250 - 0x052F: \nIPA/Greek/Cyrillic blocks in \"M+ 2m\" font:");

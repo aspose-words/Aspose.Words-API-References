@@ -14,7 +14,7 @@ Specifies compression type to be used for all images in the document.
 public PdfImageCompression ImageCompression { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 Default is Auto.
 
@@ -24,7 +24,7 @@ Using Jpeg provides the fastest conversion speed when compared to the performanc
 
 Using Auto lets to control the quality of Jpeg in the output document through the [`JpegQuality`](../jpegquality) property, but for other formats, raw pixel data is extracted and saved with Flate compression. This case is slower than Jpeg conversion but lossless.
 
-### Examples
+## Examples
 
 Shows how to specify a compression type for all images in a document that we are converting to PDF.
 

@@ -14,7 +14,7 @@ Gets or sets whether to convert shapes with EquationXML to Office Math objects.
 public bool ConvertShapeToOfficeMath { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to convert EquationXML shapes to Office Math objects.
 

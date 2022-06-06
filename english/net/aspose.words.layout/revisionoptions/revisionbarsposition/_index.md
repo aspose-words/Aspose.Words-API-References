@@ -14,7 +14,7 @@ Gets or sets rendering position of revision bars. Default value is Outside.
 public HorizontalAlignment RevisionBarsPosition { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 Values of Center and Inside are not allowed and will cause ArgumentOutOfRangeException.
 

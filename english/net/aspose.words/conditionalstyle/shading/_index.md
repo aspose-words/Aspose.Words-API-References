@@ -14,7 +14,7 @@ Gets a [`Shading`](../../shading) object that refers to the shading formatting f
 public Shading Shading { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to work with certain area styles of a table.
 

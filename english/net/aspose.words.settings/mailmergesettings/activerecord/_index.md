@@ -14,7 +14,7 @@ Specifies the one-based index of the record from the data source which shall be 
 public int ActiveRecord { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to execute a mail merge while connecting to an external data source.
 

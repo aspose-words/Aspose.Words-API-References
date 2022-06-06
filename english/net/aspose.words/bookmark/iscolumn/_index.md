@@ -14,7 +14,7 @@ Returns **true** if this bookmark is a table column bookmark.
 public bool IsColumn { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to get information about table column bookmarks.
 

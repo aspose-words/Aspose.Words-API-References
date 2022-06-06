@@ -75,7 +75,7 @@ public enum GeneralFormat
 | MergeFormat | `54` | Field result formatting. The MERGEFORMAT instruction. |
 | MergeFormatInet | `55` | Field result formatting. The MERGEFORMATINET instruction. |
 
-### Examples
+## Examples
 
 Shows how to format field results.
 

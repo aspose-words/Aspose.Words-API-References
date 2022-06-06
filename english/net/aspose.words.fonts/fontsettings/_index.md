@@ -37,10 +37,10 @@ public class FontSettings
 | [SaveSearchCache](../../aspose.words.fonts/fontsettings/savesearchcache)(Stream) | Saves the font search cache to the stream. |
 | [SetFontsFolder](../../aspose.words.fonts/fontsettings/setfontsfolder)(string, bool) | Sets the folder where Aspose.Words looks for TrueType fonts when rendering documents or embedding fonts. This is a shortcut to [`SetFontsFolders`](./setfontsfolders) for setting only one font directory. |
 | [SetFontsFolders](../../aspose.words.fonts/fontsettings/setfontsfolders)(string[], bool) | Sets the folders where Aspose.Words looks for TrueType fonts when rendering documents or embedding fonts. |
-| [SetFontsSources](../../aspose.words.fonts/fontsettings/setfontssources#setfontssources)(FontSourceBase[]) | Sets the sources where Aspose.Words looks for TrueType fonts when rendering documents or embedding fonts. |
-| [SetFontsSources](../../aspose.words.fonts/fontsettings/setfontssources#setfontssources_1)(FontSourceBase[], Stream) | Sets the sources where Aspose.Words looks for TrueType fonts and additionally loads previously saved font search cache. |
+| [SetFontsSources](../../aspose.words.fonts/fontsettings/setfontssources)(FontSourceBase[]) | Sets the sources where Aspose.Words looks for TrueType fonts when rendering documents or embedding fonts. |
+| [SetFontsSources](../../aspose.words.fonts/fontsettings/setfontssources)(FontSourceBase[], Stream) | Sets the sources where Aspose.Words looks for TrueType fonts and additionally loads previously saved font search cache. |
 
-### Remarks
+## Remarks
 
 Aspose.Words uses font settings to resolve the fonts in the document. Fonts are resolved mostly when building document layout or rendering to fixed page formats. But when loading some formats, Aspose.Words also may require to resolve the fonts. For example, when loading HTML documents Aspose.Words may resolve the fonts to perform font fallback. So it is recommended that you set the font settings in [`LoadOptions`](../../aspose.words.loading/loadoptions) when loading the document. Or at least before building the layout or rendering the document to the fixed-page format.
 
@@ -48,7 +48,7 @@ By default all documents uses single static font settings instance. It could be 
 
 Changing font settings is safe at any time from any thread. But it is recommended that you do not change the font settings while processing some documents which uses this settings. This can lead to the fact that the same font will be resolved differently in different parts of the document.
 
-### Examples
+## Examples
 
 Shows how to add a font source to our existing font sources.
 
@@ -78,7 +78,7 @@ Assert.False(originalFontSources[0].GetAvailableFonts().Any(f => f.FullFontName 
 FolderFontSource folderFontSource = new FolderFontSource(FontsDir, true);
 
 // Apply a new array of font sources that contains the original font sources, as well as our custom fonts.
-FontSourceBase[] updatedFontSources = { originalFontSources[0], folderFontSource };
+FontSourceBase[] updatedFontSources = {originalFontSources[0], folderFontSource};
 FontSettings.DefaultInstance.SetFontsSources(updatedFontSources);
 
 // Verify that Aspose.Words has access to all required fonts before we render the document to PDF.
@@ -176,7 +176,8 @@ Assert.False(originalFontSources[0].GetAvailableFonts().Any(f => f.FullFontName 
 // that we are passing in the first argument, but not include any fonts from any of the directories' subfolders.
 // Pass "true" as the "recursive" argument to include all font files in the directories that we are passing
 // in the first argument, as well as all the fonts in their subdirectories.
-FontSettings.DefaultInstance.SetFontsFolders(new[] { FontsDir + "/Amethysta", FontsDir + "/Junction" }, recursive);
+FontSettings.DefaultInstance.SetFontsFolders(new[] {FontsDir + "/Amethysta", FontsDir + "/Junction"},
+    recursive);
 
 FontSourceBase[] newFontSources = FontSettings.DefaultInstance.GetFontsSources();
 

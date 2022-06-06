@@ -24,7 +24,7 @@ public enum EmbeddedFontStyle
 | Italic | `2` | Specifies the Italic embedded font. |
 | BoldItalic | `3` | Specifies the Bold-Italic embedded font. |
 
-### Examples
+## Examples
 
 Shows how to extract an embedded font from a document, and save it to the local file system.
 
@@ -33,7 +33,6 @@ Document doc = new Document(MyDir + "Embedded font.docx");
 
 FontInfo embeddedFont = doc.FontInfos["Alte DIN 1451 Mittelschrift"];
 byte[] embeddedFontBytes = embeddedFont.GetEmbeddedFont(EmbeddedFontFormat.OpenType, EmbeddedFontStyle.Regular);
-
 File.WriteAllBytes(ArtifactsDir + "Alte DIN 1451 Mittelschrift.ttf", embeddedFontBytes);
 
 // Embedded font formats may be different in other formats such as .doc.

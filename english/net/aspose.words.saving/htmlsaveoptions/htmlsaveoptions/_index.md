@@ -6,7 +6,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.saving/htmlsaveoptions/htmlsaveoptions/
 ---
-## HtmlSaveOptions() {#constructor}
+## HtmlSaveOptions constructor (1 of 2)
 
 Initializes a new instance of this class that can be used to save a document in the Html format.
 
@@ -14,7 +14,7 @@ Initializes a new instance of this class that can be used to save a document in 
 public HtmlSaveOptions()
 ```
 
-### Examples
+## Examples
 
 Shows how to use a specific encoding when saving a document to .epub.
 
@@ -46,7 +46,7 @@ doc.Save(ArtifactsDir + "HtmlSaveOptions.Doc2EpubSaveOptions.epub", saveOptions)
 
 ---
 
-## HtmlSaveOptions(SaveFormat) {#constructor_1}
+## HtmlSaveOptions constructor (2 of 2)
 
 Initializes a new instance of this class that can be used to save a document in the Html, Mhtml or Epub format.
 
@@ -58,7 +58,7 @@ public HtmlSaveOptions(SaveFormat saveFormat)
 | --- | --- | --- |
 | saveFormat | SaveFormat | Can be Html, Mhtml or Epub. |
 
-### Examples
+## Examples
 
 Shows how to save a document to a specific version of HTML.
 

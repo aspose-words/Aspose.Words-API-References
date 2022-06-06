@@ -14,13 +14,13 @@ Specifies compression type to be used for all textual content in the document.
 public PdfTextCompression TextCompression { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 Default is Flate.
 
 Significantly increases output size when saving a document without compression.
 
-### Examples
+## Examples
 
 Shows how to apply text compression when saving a document to PDF.
 

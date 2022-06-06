@@ -14,13 +14,13 @@ Gets or sets the number of lines per page in the document grid.
 public int LinesPerPage { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 Minimum value of the property is 1. Maximum value depends on page height and font size of the Normal style. Minimum line pitch is 136 percent of the font size. For example, maximum number of lines per page of a Letter page with one-inch margins is 39.
 
 By default, the property has a value, on which line pitch is in 1.5 times greater than font size of the Normal style.
 
-### Examples
+## Examples
 
 Shows how to specify a limit for the number of lines that each page may have.
 

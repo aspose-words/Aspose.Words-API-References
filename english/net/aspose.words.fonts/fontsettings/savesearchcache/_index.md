@@ -18,9 +18,58 @@ public void SaveSearchCache(Stream outputStream)
 | --- | --- | --- |
 | outputStream | Stream | Output stream. |
 
-### Remarks
+## Remarks
 
 See [`SetFontsSources`](../setfontssources) method description for more info.
+
+## Examples
+
+Shows how to speed up the font cache initialization process.
+
+```csharp
+[Test]
+public void LoadFontSearchCache()
+{
+    const string cacheKey1 = "Arvo";
+    const string cacheKey2 = "Arvo-Bold";
+    FontSettings parsedFonts = new FontSettings();
+    FontSettings loadedCache = new FontSettings();
+
+    parsedFonts.SetFontsSources(new FontSourceBase[]
+    {
+        new FileFontSource(FontsDir + "Arvo-Regular.ttf", 0, cacheKey1),
+        new FileFontSource(FontsDir + "Arvo-Bold.ttf", 0, cacheKey2)
+    });
+
+    using (MemoryStream cacheStream = new MemoryStream())
+    {
+        parsedFonts.SaveSearchCache(cacheStream);
+        loadedCache.SetFontsSources(new FontSourceBase[]
+        {
+            new SearchCacheStream(cacheKey1),                    
+            new MemoryFontSource(File.ReadAllBytes(FontsDir + "Arvo-Bold.ttf"), 0, cacheKey2)
+        }, cacheStream);
+    }
+
+    Assert.AreEqual(parsedFonts.GetFontsSources().Length, loadedCache.GetFontsSources().Length);
+}
+
+/// <summary>
+/// Load the font data only when required instead of storing it in the memory
+/// for the entire lifetime of the "FontSettings" object.
+/// </summary>
+private class SearchCacheStream : StreamFontSource
+{
+    public SearchCacheStream(string cacheKey):base(0, cacheKey)
+    {
+    }
+
+    public override Stream OpenFontDataStream()
+    {
+        return File.OpenRead(FontsDir + "Arvo-Regular.ttf");
+    }
+}
+```
 
 ### See Also
 

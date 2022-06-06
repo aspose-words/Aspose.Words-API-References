@@ -6,7 +6,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.digitalsignatures/digitalsignatureutil/removeallsignatures/
 ---
-## RemoveAllSignatures(string, string) {#removeallsignatures_1}
+## DigitalSignatureUtil.RemoveAllSignatures method (1 of 2)
 
 Removes all digital signatures from source file and writes unsigned file to destination file.
 
@@ -14,7 +14,7 @@ Removes all digital signatures from source file and writes unsigned file to dest
 public static void RemoveAllSignatures(string srcFileName, string dstFileName)
 ```
 
-### Examples
+## Examples
 
 Shows how to remove digital signatures from a digitally signed document.
 
@@ -47,7 +47,7 @@ Assert.That(DigitalSignatureUtil.LoadSignatures(ArtifactsDir + "DigitalSignature
 
 ---
 
-## RemoveAllSignatures(Stream, Stream) {#removeallsignatures}
+## DigitalSignatureUtil.RemoveAllSignatures method (2 of 2)
 
 Removes all digital signatures from document in source stream and writes unsigned document to destination stream.
 
@@ -57,7 +57,7 @@ Removes all digital signatures from document in source stream and writes unsigne
 public static void RemoveAllSignatures(Stream srcStream, Stream dstStream)
 ```
 
-### Examples
+## Examples
 
 Shows how to remove digital signatures from a digitally signed document.
 

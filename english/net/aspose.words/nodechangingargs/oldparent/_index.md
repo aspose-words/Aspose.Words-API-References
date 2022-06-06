@@ -14,12 +14,11 @@ Gets the node's parent before the operation began.
 public Node OldParent { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to use a NodeChangingCallback to monitor changes to the document tree in real-time as we edit it.
 
 ```csharp
-public void NodeChangingCallback()
 {
     Document doc = new Document();
     doc.NodeChangingCallback = new NodeChangingPrinter();
@@ -35,7 +34,7 @@ public void NodeChangingCallback()
 
     #if NET48 || JAVA
     builder.InsertImage(Image.FromFile(ImageDir + "Logo.jpg"));
-    #elif NET5_0 || __MOBILE__
+    #elif NET5_0_OR_GREATER || __MOBILE__
     using (SKBitmap image = SKBitmap.Decode(ImageDir + "Logo.jpg"))
         builder.InsertImage(image);
     #endif

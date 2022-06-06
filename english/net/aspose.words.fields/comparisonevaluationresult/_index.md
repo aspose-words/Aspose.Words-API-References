@@ -18,8 +18,8 @@ public sealed class ComparisonEvaluationResult
 
 | Name | Description |
 | --- | --- |
-| [ComparisonEvaluationResult](comparisonevaluationresult#constructor)(bool) | Creates a comparison evaluation result. |
-| [ComparisonEvaluationResult](comparisonevaluationresult#constructor_1)(string) | Creates a failed comparison evaluation result with the corresponding error message. |
+| [ComparisonEvaluationResult](comparisonevaluationresult)(bool) | Creates a comparison evaluation result. |
+| [ComparisonEvaluationResult](comparisonevaluationresult)(string) | Creates a failed comparison evaluation result with the corresponding error message. |
 
 ## Properties
 
@@ -28,7 +28,7 @@ public sealed class ComparisonEvaluationResult
 | [ErrorMessage](../../aspose.words.fields/comparisonevaluationresult/errormessage) { get; } | Gets the failed comparison evaluation result's error message. |
 | [Result](../../aspose.words.fields/comparisonevaluationresult/result) { get; } | Gets the comparison evaluation result. |
 
-### Examples
+## Examples
 
 Shows how to implement custom evaluation for the IF and COMPARE fields.
 

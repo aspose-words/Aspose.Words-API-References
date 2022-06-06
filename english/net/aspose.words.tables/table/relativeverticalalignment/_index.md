@@ -14,7 +14,7 @@ Gets or sets floating table relative vertical alignment.
 public VerticalAlignment RelativeVerticalAlignment { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how set the location of floating tables.
 

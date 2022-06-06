@@ -22,7 +22,7 @@ public sealed class ComparisonExpression
 | [LeftExpression](../../aspose.words.fields/comparisonexpression/leftexpression) { get; } | Gets the left expression. |
 | [RightExpression](../../aspose.words.fields/comparisonexpression/rightexpression) { get; } | Gets the right expression. |
 
-### Examples
+## Examples
 
 Shows how to implement custom evaluation for the IF and COMPARE fields.
 

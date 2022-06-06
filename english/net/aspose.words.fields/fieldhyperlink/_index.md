@@ -52,11 +52,11 @@ public class FieldHyperlink : Field
 | [Update](../../aspose.words.fields/field/update)() | Performs the field update. Throws if the field is being updated already. |
 | [Update](../../aspose.words.fields/field/update)(bool) | Performs a field update. Throws if the field is being updated already. |
 
-### Remarks
+## Remarks
 
 When selected, causes control to jump to the location such as a bookmark or a URL.
 
-### Examples
+## Examples
 
 Shows how to use HYPERLINK fields to link to documents in the local file system.
 

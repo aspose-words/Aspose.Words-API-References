@@ -14,7 +14,7 @@ Removes all properties from the collection.
 public void Clear()
 ```
 
-### Examples
+## Examples
 
 Shows how to work with a document's custom properties.
 

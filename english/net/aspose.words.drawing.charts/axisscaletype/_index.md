@@ -21,7 +21,7 @@ public enum AxisScaleType
 | Linear | `0` | Linear scaling. |
 | Logarithmic | `1` | Logarithmic scaling. |
 
-### Examples
+## Examples
 
 Shows how to apply logarithmic scaling to a chart axis.
 

@@ -14,14 +14,13 @@ Specifies whether to turn on the gray shading on form fields.
 public bool ShadeFormData { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to apply gray shading to form fields.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
-
 builder.Write("Hello world! ");
 builder.InsertTextInput("My form field", TextFormFieldType.Regular, "",
     "Text contents of form field, which are shaded in grey by default.", 0);

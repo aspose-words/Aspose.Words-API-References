@@ -14,7 +14,7 @@ Specifies whether the program should attempt to preserve layout of tables when s
 public bool PreserveTableLayout { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to preserve the layout of tables when converting to plaintext.
 

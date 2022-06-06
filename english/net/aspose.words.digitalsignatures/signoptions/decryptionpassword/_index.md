@@ -14,11 +14,11 @@ The password to decrypt source document. Default value is **empty string** (Empt
 public string DecryptionPassword { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 If OOXML document is encrypted, you should provide decryption password to decrypt source document before it will be signed. This is not required for documents in binary DOC format.
 
-### Examples
+## Examples
 
 Shows how to sign encrypted document file.
 

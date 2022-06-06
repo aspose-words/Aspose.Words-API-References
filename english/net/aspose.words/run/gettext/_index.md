@@ -18,7 +18,7 @@ public override string GetText()
 
 The text of the run.
 
-### Examples
+## Examples
 
 Shows how to print the node structure of every header and footer in a document.
 

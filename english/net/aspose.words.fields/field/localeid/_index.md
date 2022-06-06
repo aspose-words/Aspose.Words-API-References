@@ -14,7 +14,7 @@ Gets or sets the LCID of the field.
 public int LocaleId { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to insert a field and work with its locale.
 
@@ -28,7 +28,6 @@ Field field = builder.InsertField(@"DATE");
 Console.WriteLine($"Today's date, as displayed in the \"{CultureInfo.CurrentCulture.EnglishName}\" culture: {field.Result}");
 
 Assert.AreEqual(1033, field.LocaleId);
-
 // Changing the culture of our thread will impact the result of the DATE field.
 // Another way to get the DATE field to display a date in a different culture is to use its LocaleId property.
 // This way allows us to avoid changing the thread's culture to get this effect.

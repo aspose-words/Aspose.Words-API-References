@@ -19,13 +19,13 @@ public Footnote(DocumentBase doc, FootnoteType footnoteType)
 | doc | DocumentBase | The owner document. |
 | footnoteType | FootnoteType | A [`FootnoteType`](../footnotetype) value that specifies whether this is a footnote or endnote. |
 
-### Remarks
+## Remarks
 
 When **Footnote** is created, it belongs to the specified document, but is not yet part of the document and **ParentNode** is null.
 
 To append **Footnote** to the document use InsertAfter or InsertBefore on the paragraph where you want the footnote inserted.
 
-### Examples
+## Examples
 
 Shows how to insert and customize footnotes.
 

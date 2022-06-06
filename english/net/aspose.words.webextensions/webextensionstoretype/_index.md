@@ -27,7 +27,7 @@ public enum WebExtensionStoreType
 | ExCatalog | `6` | Specifies that the store type is Centralized Deployment via Exchange. |
 | Default | `0` | Default value. |
 
-### Examples
+## Examples
 
 Shows how to add a web extension to a document.
 

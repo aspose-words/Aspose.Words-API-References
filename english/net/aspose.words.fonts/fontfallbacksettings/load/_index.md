@@ -6,7 +6,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.fonts/fontfallbacksettings/load/
 ---
-## Load(string) {#load_1}
+## FontFallbackSettings.Load method (1 of 2)
 
 Loads font fallback settings from XML file.
 
@@ -18,7 +18,7 @@ public void Load(string fileName)
 | --- | --- | --- |
 | fileName | String | Input file name. |
 
-### Examples
+## Examples
 
 Shows how to load and save font fallback settings to/from an XML document in the local file system.
 
@@ -44,7 +44,7 @@ doc.FontSettings.FallbackSettings.Save(ArtifactsDir + "FallbackSettings.xml");
 
 ---
 
-## Load(Stream) {#load}
+## FontFallbackSettings.Load method (2 of 2)
 
 Loads fallback settings from XML stream.
 
@@ -56,7 +56,7 @@ public void Load(Stream stream)
 | --- | --- | --- |
 | stream | Stream | Input stream. |
 
-### Examples
+## Examples
 
 Shows how to load and save font fallback settings to/from a stream.
 

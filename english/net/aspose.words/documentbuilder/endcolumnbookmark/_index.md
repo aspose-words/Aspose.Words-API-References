@@ -22,7 +22,7 @@ public BookmarkEnd EndColumnBookmark(string bookmarkName)
 
 The bookmark end node that was just created.
 
-### Remarks
+## Remarks
 
 A column bookmark covers one or more columns in a range of rows. To create a valid bookmark you need to call both [`StartColumnBookmark`](../startcolumnbookmark) and `EndColumnBookmark` with the same **bookmarkName** parameter.
 
@@ -30,7 +30,7 @@ Badly formed bookmarks or bookmarks with duplicate names will be ignored when th
 
 The actual position of the inserted [`BookmarkEnd`](../../bookmarkend) node may differ from the current document builder position.
 
-### Examples
+## Examples
 
 Shows how to create a column bookmark.
 

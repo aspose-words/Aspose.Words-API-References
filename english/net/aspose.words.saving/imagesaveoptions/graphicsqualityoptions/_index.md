@@ -14,13 +14,13 @@ Allows to specify rendering mode and quality for the Graphics object.
 public GraphicsQualityOptions GraphicsQualityOptions { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 Use this property to override the Graphics settings provided by Aspose.Words engine by default.
 
 It will take effect only when a document is being saved to an image-like format.
 
-### Examples
+## Examples
 
 Shows how to set render quality options while converting documents to image formats.
 

@@ -14,7 +14,7 @@ Gets or sets the encoding applied to the data within the referenced file.
 public string Encoding { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to create an INCLUDETEXT field, and set its properties.
 
@@ -37,7 +37,6 @@ public void FieldIncludeText()
     fieldIncludeText.XPath = "/catalog/cd/title";
 
     doc.Save(ArtifactsDir + "Field.INCLUDETEXT.docx");
-}
 
 /// <summary>
 /// Use a document builder to insert an INCLUDETEXT field with custom properties.

@@ -67,13 +67,13 @@ public class OfficeMath : CompositeNode
 | [ToString](../../aspose.words/node/tostring)(SaveFormat) | Exports the content of the node into a string in the specified format. |
 | [ToString](../../aspose.words/node/tostring)(SaveOptions) | Exports the content of the node into a string using the specified save options. |
 
-### Remarks
+## Remarks
 
 In this version of Aspose.Words, [`OfficeMath`](../officemath) nodes do not provide public methods and properties to create or modify a OfficeMath object. In this version you are not able to instantiate Math nodes or modify existing except deleting them.
 
 [`OfficeMath`](../officemath) can only be a child of [`Paragraph`](../../aspose.words/paragraph).
 
-### Examples
+## Examples
 
 Shows how to set office math display formatting.
 

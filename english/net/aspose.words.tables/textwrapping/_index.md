@@ -22,7 +22,7 @@ public enum TextWrapping
 | Around | `1` | Text is wrapped around the table occupying available side space. |
 | Default | `0` | Default value. |
 
-### Examples
+## Examples
 
 Shows how to work with table text wrapping.
 

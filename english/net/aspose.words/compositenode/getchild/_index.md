@@ -24,13 +24,13 @@ public Node GetChild(NodeType nodeType, int index, bool isDeep)
 
 The child node that matches the criteria or null if no matching node is found.
 
-### Remarks
+## Remarks
 
 If index is out of range, a null is returned.
 
 Note that markup nodes (StructuredDocumentTag and SmartTag) are traversed even when isDeep = false and GetChild is invoked for non-markup node type. For example if the first run in a para is wrapped in a StructuredDocumentTag, it will still be returned by GetChild(NodeType.Run, 0, false).
 
-### Examples
+## Examples
 
 Shows how to apply the properties of a table's style directly to the table's elements.
 
@@ -94,7 +94,6 @@ foreach (Node child in children)
             Shape childShape = (Shape)child;
             Console.WriteLine("Shape:");
             Console.WriteLine($"\t{childShape.ShapeType}, {childShape.Width}x{childShape.Height}");
-            break;
     }
 ```
 

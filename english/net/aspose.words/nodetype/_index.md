@@ -58,7 +58,7 @@ public enum NodeType
 | System | `37` | Reserved for internal use by Aspose.Words. |
 | Null | `38` | Reserved for internal use by Aspose.Words. |
 
-### Examples
+## Examples
 
 Shows how to traverse through a composite node's collection of child nodes.
 
@@ -96,7 +96,6 @@ foreach (Node child in children)
             Shape childShape = (Shape)child;
             Console.WriteLine("Shape:");
             Console.WriteLine($"\t{childShape.ShapeType}, {childShape.Width}x{childShape.Height}");
-            break;
     }
 ```
 

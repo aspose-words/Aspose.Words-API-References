@@ -14,7 +14,7 @@ If true, fits text in the cell, compressing each paragraph to the width of the c
 public bool FitText { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to build a table with custom borders.
 

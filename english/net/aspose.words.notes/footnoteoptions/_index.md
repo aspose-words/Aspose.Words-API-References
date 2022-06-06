@@ -24,13 +24,12 @@ public sealed class FootnoteOptions
 | [RestartRule](../../aspose.words.notes/footnoteoptions/restartrule) { get; set; } | Determines when automatic numbering restarts. |
 | [StartNumber](../../aspose.words.notes/footnoteoptions/startnumber) { get; set; } | Specifies the starting number or character for the first automatically numbered footnotes. |
 
-### Examples
+## Examples
 
 Shows how to split the footnote section into a given number of columns.
 
 ```csharp
 Document doc = new Document(MyDir + "Footnotes and endnotes.docx");
-
 doc.FootnoteOptions.Columns = 2;
 doc.Save(ArtifactsDir + "Document.FootnoteColumns.docx");
 ```

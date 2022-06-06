@@ -6,7 +6,7 @@ type: docs
 weight: 10
 url: /net/aspose.words/documentbuilder/documentbuilder/
 ---
-## DocumentBuilder() {#constructor}
+## DocumentBuilder constructor (1 of 2)
 
 Initializes a new instance of this class.
 
@@ -14,11 +14,11 @@ Initializes a new instance of this class.
 public DocumentBuilder()
 ```
 
-### Remarks
+## Remarks
 
 Creates a new **DocumentBuilder** object and attaches it to a new [`Document`](../document) object.
 
-### Examples
+## Examples
 
 Shows how to insert formatted text using DocumentBuilder.
 
@@ -45,7 +45,7 @@ builder.Write("Hello world!");
 
 ---
 
-## DocumentBuilder(Document) {#constructor_1}
+## DocumentBuilder constructor (2 of 2)
 
 Initializes a new instance of this class.
 
@@ -57,11 +57,11 @@ public DocumentBuilder(Document doc)
 | --- | --- | --- |
 | doc | Document | The Document object to attach to. |
 
-### Remarks
+## Remarks
 
 Creates a new **DocumentBuilder** object, attaches to the specified [`Document`](../document) object. The cursor is positioned at the beginning of the document.
 
-### Examples
+## Examples
 
 Shows how to create headers and footers in a document using DocumentBuilder.
 

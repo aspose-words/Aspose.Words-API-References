@@ -14,11 +14,11 @@ Gets or sets the way comments are rendered. Default value is ShowInBalloons.
 public CommentDisplayMode CommentDisplayMode { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 Note that revisions are not rendered in balloons for ShowInAnnotations.
 
-### Examples
+## Examples
 
 Shows how to show comments when saving a document to a rendered format.
 

@@ -22,7 +22,7 @@ public int IndexOf(string name)
 
 The zero based index. Negative value if not found.
 
-### Examples
+## Examples
 
 Shows how to work with a document's custom properties.
 

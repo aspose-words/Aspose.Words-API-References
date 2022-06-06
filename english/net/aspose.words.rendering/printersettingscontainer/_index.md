@@ -28,11 +28,11 @@ public class PrinterSettingsContainer
 | [PaperSizes](../../aspose.words.rendering/printersettingscontainer/papersizes) { get; } | See PaperSizes. |
 | [PaperSources](../../aspose.words.rendering/printersettingscontainer/papersources) { get; } | See PaperSources. |
 
-### Remarks
+## Remarks
 
 Access to data of PrinterSettings takes long time. [`PrinterSettingsContainer`](../printersettingscontainer) caches parameters from PrinterSettings, so printing works faster.
 
-### Examples
+## Examples
 
 Shows how to access and list your printer's paper sources and sizes.
 

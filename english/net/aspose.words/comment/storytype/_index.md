@@ -14,7 +14,7 @@ Returns **StoryType.Comments**.
 public override StoryType StoryType { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to insert InlineStory nodes.
 

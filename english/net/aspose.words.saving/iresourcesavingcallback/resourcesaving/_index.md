@@ -14,7 +14,7 @@ Called when Aspose.Words saves an external resource to fixed page HTML or SVG fo
 public void ResourceSaving(ResourceSavingArgs args)
 ```
 
-### Examples
+## Examples
 
 Shows how to use a callback to track external resources created while converting a document to HTML.
 

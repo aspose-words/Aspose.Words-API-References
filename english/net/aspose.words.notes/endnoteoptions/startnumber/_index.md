@@ -14,11 +14,11 @@ Specifies the starting number or character for the first automatically numbered 
 public int StartNumber { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 This property has effect only when [`RestartRule`](../restartrule) is set to Continuous.
 
-### Examples
+## Examples
 
 Shows how to set a number at which the document begins the footnote/endnote count.
 

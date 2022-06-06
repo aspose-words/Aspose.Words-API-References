@@ -23,7 +23,7 @@ public enum FootnoteNumberingRule
 | RestartPage | `2` | Numbering restarts at each page. Valid for footnotes only. |
 | Default | `0` | Equals Continuous. |
 
-### Examples
+## Examples
 
 Shows how to restart footnote/endnote numbering at certain places in the document.
 

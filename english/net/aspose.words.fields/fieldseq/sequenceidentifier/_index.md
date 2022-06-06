@@ -14,7 +14,7 @@ Gets or sets the name assigned to the series of items that are to be numbered.
 public string SequenceIdentifier { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows create numbering using SEQ fields.
 

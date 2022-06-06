@@ -14,7 +14,7 @@ Resets to default cell formatting. Does not change the width of the cell.
 public void ClearFormatting()
 ```
 
-### Examples
+## Examples
 
 Shows how to combine the rows from two tables into one.
 

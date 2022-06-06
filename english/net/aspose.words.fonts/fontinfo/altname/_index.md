@@ -14,11 +14,11 @@ Gets or sets the alternate name for the font.
 public string AltName { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 Cannot be `null`. Can be an empty string.
 
-### Examples
+## Examples
 
 Shows how to access and print details of each font in a document.
 

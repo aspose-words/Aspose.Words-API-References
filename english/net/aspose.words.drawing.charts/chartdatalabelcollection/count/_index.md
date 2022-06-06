@@ -14,12 +14,11 @@ Returns the number of [`ChartDataLabel`](../../chartdatalabel) in this collectio
 public int Count { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to apply labels to data points in a line chart.
 
 ```csharp
-public void DataLabels()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);

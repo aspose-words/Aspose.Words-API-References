@@ -20,7 +20,7 @@ public interface IPageSavingCallback
 | --- | --- |
 | [PageSaving](../../aspose.words.saving/ipagesavingcallback/pagesaving)(PageSavingArgs) | Called when Aspose.Words saves a separate page to fixed page formats. |
 
-### Examples
+## Examples
 
 Shows how to use a callback to save a document to HTML page by page.
 

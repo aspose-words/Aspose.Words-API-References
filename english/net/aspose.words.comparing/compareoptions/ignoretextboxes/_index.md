@@ -14,7 +14,7 @@ Specifies whether to compare differences in the data contained within text boxes
 public bool IgnoreTextboxes { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to filter specific types of document elements when making a comparison.
 

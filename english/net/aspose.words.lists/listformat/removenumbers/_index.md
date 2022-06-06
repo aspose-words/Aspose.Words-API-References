@@ -14,11 +14,11 @@ Removes numbers or bullets from the current paragraph and sets list level to zer
 public void RemoveNumbers()
 ```
 
-### Remarks
+## Remarks
 
 Calling this method is equivalent to setting the [`List`](../list) property to null.
 
-### Examples
+## Examples
 
 Shows how to remove list formatting from all paragraphs in the main text of a section.
 

@@ -14,7 +14,7 @@ Rotation of the barcode symbol. Valid values are [0, 3].
 public string SymbolRotation { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to use a barcode generator.
 

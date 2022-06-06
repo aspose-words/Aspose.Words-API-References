@@ -14,13 +14,13 @@ Specifies whether original URL should be used as the URL of the linked images. D
 public bool ExportOriginalUrlForLinkedImages { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 If value is set to `true`[`SourceFullName`](../../../aspose.words.drawing/imagedata/sourcefullname) value is used as the URL of linked images and linked images are not loaded into document's folder or [`ImagesFolder`](../imagesfolder).
 
 If value is set to `false` linked images are loaded into document's folder or [`ImagesFolder`](../imagesfolder) and URL of each linked image is constructed depending on document's folder, [`ImagesFolder`](../imagesfolder) and [`ImagesFolderAlias`](../imagesfolderalias) properties.
 
-### Examples
+## Examples
 
 Shows how to set folders and folder aliases for externally saved resources that Aspose.Words will create when saving a document to HTML.
 

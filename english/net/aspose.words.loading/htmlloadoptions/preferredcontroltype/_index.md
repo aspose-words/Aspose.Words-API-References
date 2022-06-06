@@ -14,11 +14,11 @@ Gets or sets preferred type of document nodes that will represent imported &lt;i
 public HtmlControlType PreferredControlType { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 Please note that setting this property does not guarantee that all imported controls will be of the specified type. If an HTML control is not representable with document nodes of the preferred type, Aspose.Words will use a compatible [`HtmlControlType`](../../htmlcontroltype) for that control.
 
-### Examples
+## Examples
 
 Shows how to set preferred type of document nodes that will represent imported &lt;input&gt; and &lt;select&gt; elements.
 

@@ -14,11 +14,11 @@ Each string in the array specifies the name of a part in the document.
 public string[] TitlesOfParts { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 Aspose.Words does not update this property.
 
-### Examples
+## Examples
 
 Shows the relationship between "HeadingPairs" and "TitlesOfParts" properties.
 

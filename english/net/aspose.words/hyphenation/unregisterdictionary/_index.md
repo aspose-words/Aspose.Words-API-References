@@ -20,7 +20,7 @@ public static void UnregisterDictionary(string language)
 | --- | --- | --- |
 | language | String | A language name, e.g. "en-US". See .NET documentation for "culture name" and RFC 4646 for details. |
 
-### Examples
+## Examples
 
 Shows how to register a hyphenation dictionary.
 

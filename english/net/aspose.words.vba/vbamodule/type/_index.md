@@ -14,7 +14,7 @@ Specifies whether the module is a procedural module, document module, class modu
 public VbaModuleType Type { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to create a VBA project using macros.
 

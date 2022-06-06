@@ -14,7 +14,7 @@ Gets the type of the digital signature.
 public DigitalSignatureType SignatureType { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to validate and display information about each signature in a document.
 

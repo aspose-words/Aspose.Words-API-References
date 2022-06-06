@@ -14,11 +14,11 @@ Gets or sets the default font name.
 public string DefaultFontName { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 The default value is 'Times New Roman'.
 
-### Examples
+## Examples
 
 Shows how to set the default font substitution rule.
 
@@ -29,7 +29,8 @@ doc.FontSettings = fontSettings;
 
 // Get the default substitution rule within FontSettings.
 // This rule will substitute all missing fonts with "Times New Roman".
-DefaultFontSubstitutionRule defaultFontSubstitutionRule = fontSettings.SubstitutionSettings.DefaultFontSubstitution;
+DefaultFontSubstitutionRule defaultFontSubstitutionRule =
+    fontSettings.SubstitutionSettings.DefaultFontSubstitution;
 Assert.True(defaultFontSubstitutionRule.Enabled);
 Assert.AreEqual("Times New Roman", defaultFontSubstitutionRule.DefaultFontName);
 

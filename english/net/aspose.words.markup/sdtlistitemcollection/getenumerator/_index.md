@@ -14,7 +14,7 @@ Returns an enumerator object that can be used to iterate over all items in the c
 public IEnumerator<SdtListItem> GetEnumerator()
 ```
 
-### Examples
+## Examples
 
 Shows how to work with drop down-list structured document tags.
 

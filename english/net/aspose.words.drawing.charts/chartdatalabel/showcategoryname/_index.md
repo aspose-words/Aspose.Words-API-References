@@ -14,12 +14,11 @@ Allows to specify if category name is to be displayed for the data labels on a c
 public bool ShowCategoryName { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to apply labels to data points in a line chart.
 
 ```csharp
-public void DataLabels()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);

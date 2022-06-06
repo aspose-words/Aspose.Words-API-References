@@ -14,13 +14,13 @@ Gets or sets the color mode for the generated images.
 public ImageColorMode ImageColorMode { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 This property has effect only when saving to raster image formats.
 
 The default value is None.
 
-### Examples
+## Examples
 
 Shows how to set a color mode when rendering documents.
 
@@ -60,7 +60,7 @@ Document doc = new Document();
                     Assert.That(20000, Is.AtLeast(new FileInfo(ArtifactsDir + "ImageSaveOptions.ColorMode.png").Length));
                     break;
             }
-#elif NET5_0
+#elif NET5_0_OR_GREATER
             switch (imageColorMode)
             {
                 case ImageColorMode.None:

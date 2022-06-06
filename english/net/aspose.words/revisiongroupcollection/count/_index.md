@@ -14,7 +14,7 @@ Returns the number of revision groups in the collection.
 public int Count { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to print info about a group of revisions in a document.
 

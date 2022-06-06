@@ -39,16 +39,15 @@ public class TextPath
 | [Underline](../../aspose.words.drawing/textpath/underline) { get; set; } | True if the font is underlined. |
 | [XScale](../../aspose.words.drawing/textpath/xscale) { get; set; } | Determines whether a straight textpath will be used instead of the shape path. |
 
-### Remarks
+## Remarks
 
 Use the [`TextPath`](../shape/textpath) property to access WordArt properties of a shape. You do not create instances of the [`TextPath`](../textpath) class directly.
 
-### Examples
+## Examples
 
 Shows how to work with WordArt.
 
 ```csharp
-public void InsertTextPaths()
 {
     Document doc = new Document();
 
@@ -114,7 +113,6 @@ public void InsertTextPaths()
     shape.TextPath.TextPathAlignment = TextPathAlignment.Right;
 
     doc.Save(ArtifactsDir + "Shape.InsertTextPaths.docx");
-}
 
 /// <summary>
 /// Insert a new paragraph with a WordArt shape inside it.

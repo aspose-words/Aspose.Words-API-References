@@ -14,7 +14,7 @@ Specifies the format in which the document will be saved if this save options ob
 public override SaveFormat SaveFormat { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to encrypt a saved ODT/OTT document with a password, and then load it using Aspose.Words.
 

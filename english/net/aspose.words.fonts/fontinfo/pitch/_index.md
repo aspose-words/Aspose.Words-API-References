@@ -14,7 +14,7 @@ The pitch indicates if the font is fixed pitch, proportionally spaced, or relies
 public FontPitch Pitch { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to access and print details of each font in a document.
 

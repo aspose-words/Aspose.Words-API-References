@@ -33,14 +33,14 @@ public class Field
 
 | Name | Description |
 | --- | --- |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode#getfieldcode)() | Returns text between field start and field separator (or field end if there is no separator). Both field code and field result of child fields are included. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode#getfieldcode_1)(bool) | Returns text between field start and field separator (or field end if there is no separator). |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode)() | Returns text between field start and field separator (or field end if there is no separator). Both field code and field result of child fields are included. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode)(bool) | Returns text between field start and field separator (or field end if there is no separator). |
 | [Remove](../../aspose.words.fields/field/remove)() | Removes the field from the document. Returns a node right after the field. If the field's end is the last child of its parent node, returns its parent paragraph. If the field is already removed, returns **null**. |
 | [Unlink](../../aspose.words.fields/field/unlink)() | Performs the field unlink. |
-| [Update](../../aspose.words.fields/field/update#update)() | Performs the field update. Throws if the field is being updated already. |
-| [Update](../../aspose.words.fields/field/update#update_1)(bool) | Performs a field update. Throws if the field is being updated already. |
+| [Update](../../aspose.words.fields/field/update)() | Performs the field update. Throws if the field is being updated already. |
+| [Update](../../aspose.words.fields/field/update)(bool) | Performs a field update. Throws if the field is being updated already. |
 
-### Remarks
+## Remarks
 
 A field in a Word document is a complex structure consisting of multiple nodes that include field start, field code, field separator, field result and field end. Fields can be nested, contain rich content and span multiple paragraphs or sections in a document. The [`Field`](../field) class is a "facade" object that provides properties and methods that allow to work with a field as a single object.
 
@@ -54,7 +54,7 @@ You can get the plain text version of the field code using the [`GetFieldCode`](
 
 You do not create instances of the [`Field`](../field) class directly. To create a new field use the [`InsertField`](../../aspose.words/documentbuilder/insertfield) method.
 
-### Examples
+## Examples
 
 Shows how to insert a field into a document using a field code.
 

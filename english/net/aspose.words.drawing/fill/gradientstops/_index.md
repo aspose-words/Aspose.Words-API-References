@@ -14,7 +14,7 @@ Gets a collection of [`GradientStop`](../../gradientstop) objects for the fill.
 public GradientStopCollection GradientStops { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to add gradient stops to the gradient fill.
 

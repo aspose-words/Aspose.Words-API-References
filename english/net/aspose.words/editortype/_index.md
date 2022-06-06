@@ -28,7 +28,7 @@ public enum EditorType
 | Owners | `7` | Specifies that users associated with the Owners group shall be allowed to edit editable ranges using this editing type when document protection is enabled. |
 | Default | `0` | Same as Unspecified. |
 
-### Examples
+## Examples
 
 Shows how to limit the editing rights of editable ranges to a specific group/user.
 

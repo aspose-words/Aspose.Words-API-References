@@ -46,12 +46,11 @@ public class FieldEQ : Field
 | [Update](../../aspose.words.fields/field/update)() | Performs the field update. Throws if the field is being updated already. |
 | [Update](../../aspose.words.fields/field/update)(bool) | Performs a field update. Throws if the field is being updated already. |
 
-### Examples
+## Examples
 
 Shows how to use the EQ field to display a variety of mathematical equations.
 
 ```csharp
-public void FieldEQ()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -109,7 +108,6 @@ public void FieldEQ()
     InsertFieldEQ(builder, @"\i \in( tan x, \s \up2(sec x), \b(\r(3) )\s \up4(t) \s \up7(2)  dt)");
 
     doc.Save(ArtifactsDir + "Field.EQ.docx");
-}
 
 /// <summary>
 /// Use a document builder to insert an EQ field, set its arguments and start a new paragraph.

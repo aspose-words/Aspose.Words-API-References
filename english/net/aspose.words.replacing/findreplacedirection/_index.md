@@ -21,7 +21,7 @@ public enum FindReplaceDirection
 | Forward | `0` | Matched items are replaced from first to last. |
 | Backward | `1` | Matched items are replaced from last back to first. |
 
-### Examples
+## Examples
 
 Shows how to determine which direction a find-and-replace operation traverses the document in.
 

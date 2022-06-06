@@ -6,7 +6,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.replacing/findreplaceoptions/findreplaceoptions/
 ---
-## FindReplaceOptions() {#constructor}
+## FindReplaceOptions constructor (1 of 4)
 
 The default constructor.
 
@@ -22,7 +22,7 @@ public FindReplaceOptions()
 
 ---
 
-## FindReplaceOptions(FindReplaceDirection) {#constructor_1}
+## FindReplaceOptions constructor (2 of 4)
 
 ```csharp
 public FindReplaceOptions(FindReplaceDirection direction)
@@ -37,7 +37,7 @@ public FindReplaceOptions(FindReplaceDirection direction)
 
 ---
 
-## FindReplaceOptions(IReplacingCallback) {#constructor_3}
+## FindReplaceOptions constructor (3 of 4)
 
 ```csharp
 public FindReplaceOptions(IReplacingCallback replacingCallback)
@@ -52,7 +52,7 @@ public FindReplaceOptions(IReplacingCallback replacingCallback)
 
 ---
 
-## FindReplaceOptions(FindReplaceDirection, IReplacingCallback) {#constructor_2}
+## FindReplaceOptions constructor (4 of 4)
 
 ```csharp
 public FindReplaceOptions(FindReplaceDirection direction, IReplacingCallback replacingCallback)

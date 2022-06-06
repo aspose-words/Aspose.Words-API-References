@@ -14,11 +14,11 @@ Gets a numeric value for this label.
 public int LabelValue { get; }
 ```
 
-### Remarks
+## Remarks
 
 Use the [`UpdateListLabels`](../../../aspose.words/document/updatelistlabels) method to update the value of this property.
 
-### Examples
+## Examples
 
 Shows how to extract the list labels of all paragraphs that are list items.
 

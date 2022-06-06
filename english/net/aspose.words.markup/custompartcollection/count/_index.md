@@ -14,7 +14,7 @@ Gets the number of elements contained in the collection.
 public int Count { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to access a document's arbitrary custom parts collection.
 
@@ -26,7 +26,6 @@ Assert.AreEqual(2, doc.PackageCustomParts.Count);
 // Clone the second part, then add the clone to the collection.
 CustomPart clonedPart = doc.PackageCustomParts[1].Clone();
 doc.PackageCustomParts.Add(clonedPart);
-
 Assert.AreEqual(3, doc.PackageCustomParts.Count);
 
 // Enumerate over the collection and print every part.

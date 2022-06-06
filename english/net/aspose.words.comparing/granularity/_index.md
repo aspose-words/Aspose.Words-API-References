@@ -21,7 +21,7 @@ public enum Granularity
 | CharLevel | `0` |  |
 | WordLevel | `1` |  |
 
-### Examples
+## Examples
 
 Shows to specify a granularity while comparing documents.
 

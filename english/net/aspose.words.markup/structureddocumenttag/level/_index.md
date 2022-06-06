@@ -14,7 +14,7 @@ Gets the level at which this **SDT** occurs in the document tree.
 public MarkupLevel Level { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to create a structured document tag in a plain text box and modify its appearance.
 

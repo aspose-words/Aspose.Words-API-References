@@ -14,7 +14,7 @@ True if the level turns all inherited numbers to Arabic, false if it preserves t
 public bool IsLegal { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows advances ways of customizing list labels.
 

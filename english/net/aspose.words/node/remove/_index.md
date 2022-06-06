@@ -14,7 +14,7 @@ Removes itself from the parent.
 public void Remove()
 ```
 
-### Examples
+## Examples
 
 Shows how to delete all shapes with images from a document.
 

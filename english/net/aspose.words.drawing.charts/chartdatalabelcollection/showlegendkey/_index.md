@@ -14,11 +14,11 @@ Allows to specify whether legend key is to be displayed for the data labels of t
 public bool ShowLegendKey { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 Value defined for this property can be overridden for an individual data label with using the [`ShowLegendKey`](../../chartdatalabel/showlegendkey) property.
 
-### Examples
+## Examples
 
 Shows how to work with data labels of a pie chart.
 

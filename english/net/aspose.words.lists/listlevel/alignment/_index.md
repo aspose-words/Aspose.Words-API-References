@@ -14,11 +14,11 @@ Gets or sets the justification of the actual number of the list item.
 public ListLevelAlignment Alignment { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 The list label is justified relative to the [`NumberPosition`](../numberposition) property.
 
-### Examples
+## Examples
 
 Shows how to apply custom list formatting to paragraphs when using DocumentBuilder.
 

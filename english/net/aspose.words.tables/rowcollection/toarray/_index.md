@@ -18,7 +18,7 @@ public Row[] ToArray()
 
 An array of rows.
 
-### Examples
+## Examples
 
 Shows how to iterate through all tables in the document and print the contents of each cell.
 

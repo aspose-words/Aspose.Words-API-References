@@ -14,7 +14,7 @@ Gets the position of the tab stop in points.
 public double Position { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to modify the position of the right tab stop in TOC related paragraphs.
 

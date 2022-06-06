@@ -6,7 +6,7 @@ type: docs
 weight: 10
 url: /net/aspose.words/comment/comment/
 ---
-## Comment(DocumentBase) {#constructor}
+## Comment constructor (1 of 2)
 
 Initializes a new instance of the **Comment** class.
 
@@ -18,7 +18,7 @@ public Comment(DocumentBase doc)
 | --- | --- | --- |
 | doc | DocumentBase | The owner document. |
 
-### Remarks
+## Remarks
 
 When **Comment** is created, it belongs to the specified document, but is not yet part of the document and **ParentNode** is null.
 
@@ -26,7 +26,7 @@ To append **Comment** to the document use InsertAfter or InsertBefore on the par
 
 After creating a comment, don't forget to set its [`Author`](../author), [`Initial`](../initial) and [`DateTime`](../datetime) properties.
 
-### Examples
+## Examples
 
 Shows how print the contents of all comments and their comment ranges using a document visitor.
 
@@ -193,7 +193,7 @@ public class CommentInfoPrinter : DocumentVisitor
 
 ---
 
-## Comment(DocumentBase, string, string, DateTime) {#constructor_1}
+## Comment constructor (2 of 2)
 
 Initializes a new instance of the **Comment** class.
 
@@ -208,7 +208,7 @@ public Comment(DocumentBase doc, string author, string initial, DateTime dateTim
 | initial | String | The author initials for the comment. Cannot be null. |
 | dateTime | DateTime | The date and time for the comment. |
 
-### Examples
+## Examples
 
 Shows how to add a comment to a paragraph.
 

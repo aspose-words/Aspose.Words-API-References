@@ -14,7 +14,7 @@ Gets or sets the color of the structured document tag.
 public Color Color { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to create a structured document tag in a plain text box and modify its appearance.
 

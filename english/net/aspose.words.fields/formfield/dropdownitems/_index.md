@@ -14,11 +14,11 @@ Provides access to the items of a dropdown form field.
 public DropDownItemCollection DropDownItems { get; }
 ```
 
-### Remarks
+## Remarks
 
 Microsoft Word allows maximum 25 items in a dropdown form field.
 
-### Examples
+## Examples
 
 Shows how insert different kinds of form fields into a document, and process them with using a document visitor implementation.
 

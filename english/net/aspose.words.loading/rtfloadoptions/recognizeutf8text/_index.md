@@ -16,7 +16,7 @@ Default value is false.
 public bool RecognizeUtf8Text { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to detect UTF-8 characters while loading an RTF document.
 

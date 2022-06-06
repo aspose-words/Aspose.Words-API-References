@@ -14,13 +14,13 @@ Gets or sets a value determining how text should be rendered in SVG.
 public SvgTextOutputMode TextOutputMode { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 Use this property to get or set the mode of how text inside a document should be rendered when saving in SVG format.
 
 The default value is UseTargetMachineFonts.
 
-### Examples
+## Examples
 
 Shows how to mimic the properties of images when converting a .docx document to .svg.
 

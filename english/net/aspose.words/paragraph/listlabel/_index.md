@@ -14,7 +14,7 @@ Gets a `ListLabel` object that provides access to list numbering value and forma
 public ListLabel ListLabel { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to extract the list labels of all paragraphs that are list items.
 

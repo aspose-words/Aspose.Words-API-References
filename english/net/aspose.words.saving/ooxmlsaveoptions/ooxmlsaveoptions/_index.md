@@ -6,7 +6,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.saving/ooxmlsaveoptions/ooxmlsaveoptions/
 ---
-## OoxmlSaveOptions() {#constructor}
+## OoxmlSaveOptions constructor (1 of 2)
 
 Initializes a new instance of this class that can be used to save a document in the Docx format.
 
@@ -14,7 +14,7 @@ Initializes a new instance of this class that can be used to save a document in 
 public OoxmlSaveOptions()
 ```
 
-### Examples
+## Examples
 
 Shows how to set an OOXML compliance specification for a saved document to adhere to.
 
@@ -54,7 +54,7 @@ Assert.AreEqual(ShapeMarkupLanguage.Dml, ((Shape)doc.GetChild(NodeType.Shape, 0,
 
 ---
 
-## OoxmlSaveOptions(SaveFormat) {#constructor_1}
+## OoxmlSaveOptions constructor (2 of 2)
 
 Initializes a new instance of this class that can be used to save a document in the Docx, Docm, Dotx, Dotm or FlatOpc format.
 
@@ -66,7 +66,7 @@ public OoxmlSaveOptions(SaveFormat saveFormat)
 | --- | --- | --- |
 | saveFormat | SaveFormat | Can be Docx, Docm, Dotx, Dotm or FlatOpc. |
 
-### Examples
+## Examples
 
 Shows how to support legacy control characters when converting to .docx.
 

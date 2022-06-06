@@ -14,7 +14,7 @@ Gets the number of nodes in the list.
 public int Count { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to use XPaths to navigate a NodeList.
 
@@ -34,7 +34,7 @@ builder.EndTable();
 
 #if NET48 || JAVA
 builder.InsertImage(Image.FromFile(ImageDir + "Logo.jpg"));
-#elif NET5_0 || __MOBILE__
+#elif NET5_0_OR_GREATER || __MOBILE__
 using (SKBitmap image = SKBitmap.Decode(ImageDir + "Logo.jpg"))
     builder.InsertImage(image);
 #endif

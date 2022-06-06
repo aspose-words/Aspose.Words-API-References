@@ -14,7 +14,7 @@ Called when Aspose.Words saves an image to HTML.
 public void ImageSaving(ImageSavingArgs args)
 ```
 
-### Examples
+## Examples
 
 Shows how to split a document into parts and save them.
 

@@ -14,7 +14,7 @@ Gets or sets a value representing the transparency of the gradient fill expresse
 public double Transparency { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to add gradient stops to the gradient fill.
 

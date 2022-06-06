@@ -14,7 +14,7 @@ Paragraph formatting applied to new content.
 public ParagraphFormat ApplyParagraphFormat { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to add formatting to paragraphs in which a find-and-replace operation has found matches.
 

@@ -14,13 +14,13 @@ Gets or sets document font settings.
 public FontSettings FontSettings { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 This property allows to specify font settings per document. If set to null, default static font settings [`DefaultInstance`](../../../aspose.words.fonts/fontsettings/defaultinstance) will be used.
 
 The default value is null.
 
-### Examples
+## Examples
 
 Shows how set font substitution rules.
 
@@ -48,7 +48,7 @@ Assert.False(fontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Amet
 // If the first substitute is unavailable, Aspose.Words attempts to use the second substitute, and so on.
 doc.FontSettings = new FontSettings();
 doc.FontSettings.SubstitutionSettings.TableSubstitution.SetSubstitutes(
-    "Amethysta", new[] { "Arvo", "Courier New" });
+    "Amethysta", new[] {"Arvo", "Courier New"});
 
 // "Amethysta" is unavailable, and the substitution rule states that the first font to use as a substitute is "Arvo". 
 Assert.False(fontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Arvo"));

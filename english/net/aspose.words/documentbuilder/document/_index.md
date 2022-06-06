@@ -14,7 +14,7 @@ Gets or sets the `Document` object that this object is attached to.
 public Document Document { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to apply and revert page setup settings to sections in a document.
 

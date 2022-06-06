@@ -14,7 +14,7 @@ Gets or sets a boolean value that specifies that source formatting of textboxes 
 public bool IgnoreTextBoxes { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to manage text box formatting while appending a document.
 

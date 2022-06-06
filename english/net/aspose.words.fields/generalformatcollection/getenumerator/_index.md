@@ -14,7 +14,7 @@ Returns an enumerator object.
 public IEnumerator<GeneralFormat> GetEnumerator()
 ```
 
-### Examples
+## Examples
 
 Shows how to format field results.
 

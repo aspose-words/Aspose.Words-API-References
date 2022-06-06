@@ -14,18 +14,17 @@ Determines whether a straight textpath will be used instead of the shape path.
 public bool XScale { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 The default value is **false**.
 
 If **true**, the text runs along a path from left to right along the x value of the lower boundary of the shape.
 
-### Examples
+## Examples
 
 Shows how to work with WordArt.
 
 ```csharp
-public void InsertTextPaths()
 {
     Document doc = new Document();
 
@@ -91,7 +90,6 @@ public void InsertTextPaths()
     shape.TextPath.TextPathAlignment = TextPathAlignment.Right;
 
     doc.Save(ArtifactsDir + "Shape.InsertTextPaths.docx");
-}
 
 /// <summary>
 /// Insert a new paragraph with a WordArt shape inside it.

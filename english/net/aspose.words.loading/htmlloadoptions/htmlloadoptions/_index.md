@@ -6,7 +6,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.loading/htmlloadoptions/htmlloadoptions/
 ---
-## HtmlLoadOptions() {#constructor}
+## HtmlLoadOptions constructor (1 of 3)
 
 Initializes a new instance of this class with default values.
 
@@ -14,7 +14,7 @@ Initializes a new instance of this class with default values.
 public HtmlLoadOptions()
 ```
 
-### Examples
+## Examples
 
 Shows how to support conditional comments while loading an HTML document.
 
@@ -44,7 +44,7 @@ else
 
 ---
 
-## HtmlLoadOptions(string) {#constructor_2}
+## HtmlLoadOptions constructor (2 of 3)
 
 A shortcut to initialize a new instance of this class with the specified password to load an encrypted document.
 
@@ -56,7 +56,7 @@ public HtmlLoadOptions(string password)
 | --- | --- | --- |
 | password | String | The password to open an encrypted document. Can be null or empty string. |
 
-### Examples
+## Examples
 
 Shows how to encrypt an Html document, and then open it using a password.
 
@@ -94,7 +94,7 @@ Assert.AreEqual("Test encrypted document.", doc.GetText().Trim());
 
 ---
 
-## HtmlLoadOptions(LoadFormat, string, string) {#constructor_1}
+## HtmlLoadOptions constructor (3 of 3)
 
 A shortcut to initialize a new instance of this class with properties set to the specified values.
 
@@ -108,7 +108,7 @@ public HtmlLoadOptions(LoadFormat loadFormat, string password, string baseUri)
 | password | String | The password to open an encrypted document. Can be null or empty string. |
 | baseUri | String | The string that will be used to resolve relative URIs to absolute. Can be null or empty string. |
 
-### Examples
+## Examples
 
 Shows how to specify a base URI when opening an html document.
 

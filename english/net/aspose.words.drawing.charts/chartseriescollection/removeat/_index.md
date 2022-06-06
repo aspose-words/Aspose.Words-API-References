@@ -18,7 +18,7 @@ public void RemoveAt(int index)
 | --- | --- | --- |
 | index | Int32 | The zero-based index of the ChartSeries to remove. |
 
-### Examples
+## Examples
 
 Shows how to add and remove series data in a chart.
 

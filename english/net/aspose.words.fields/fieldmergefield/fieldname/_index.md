@@ -14,7 +14,7 @@ Gets or sets the name of a data field.
 public string FieldName { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to use MERGEFIELD fields to perform a mail merge.
 

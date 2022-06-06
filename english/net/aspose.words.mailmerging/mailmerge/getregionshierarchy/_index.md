@@ -18,11 +18,11 @@ public MailMergeRegionInfo GetRegionsHierarchy()
 
 Regions' hierarchy.
 
-### Remarks
+## Remarks
 
 Hierarchy is returned in the form of the [`MailMergeRegionInfo`](../../mailmergeregioninfo) class.
 
-### Examples
+## Examples
 
 Shows how to verify mail merge regions.
 

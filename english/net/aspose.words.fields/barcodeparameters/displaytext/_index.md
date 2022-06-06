@@ -14,7 +14,7 @@ Whether to display barcode data (text) along with image.
 public bool DisplayText { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to use a barcode generator.
 

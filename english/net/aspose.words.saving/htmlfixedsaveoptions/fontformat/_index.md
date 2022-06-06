@@ -14,7 +14,7 @@ Gets or sets [`ExportFontFormat`](../../exportfontformat) used for font exportin
 public ExportFontFormat FontFormat { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how use fonts only from the target machine when saving a document to HTML.
 

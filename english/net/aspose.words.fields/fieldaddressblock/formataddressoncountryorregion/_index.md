@@ -14,7 +14,7 @@ Gets or sets whether to format the address according to the country/region of th
 public bool FormatAddressOnCountryOrRegion { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to insert an ADDRESSBLOCK field.
 

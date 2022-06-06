@@ -22,7 +22,7 @@ public enum HeaderFooterBookmarksExportMode
 | First | `1` | Only bookmark in first header/footer of the section is exported. |
 | All | `2` | Bookmarks in all headers/footers are exported. |
 
-### Examples
+## Examples
 
 Shows to process bookmarks in headers/footers in a document that we are rendering to PDF.
 

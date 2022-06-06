@@ -18,11 +18,11 @@ public FontSourceBase[] GetFontsSources()
 
 A copy of the current font sources.
 
-### Remarks
+## Remarks
 
 The returned value is a copy of the data that Aspose.Words uses. If you change the entries in the returned array, it will have no effect on document rendering. To specify new font sources use the [`SetFontsSources`](../setfontssources) method.
 
-### Examples
+## Examples
 
 Shows how to add a font source to our existing font sources.
 
@@ -52,7 +52,7 @@ Assert.False(originalFontSources[0].GetAvailableFonts().Any(f => f.FullFontName 
 FolderFontSource folderFontSource = new FolderFontSource(FontsDir, true);
 
 // Apply a new array of font sources that contains the original font sources, as well as our custom fonts.
-FontSourceBase[] updatedFontSources = { originalFontSources[0], folderFontSource };
+FontSourceBase[] updatedFontSources = {originalFontSources[0], folderFontSource};
 FontSettings.DefaultInstance.SetFontsSources(updatedFontSources);
 
 // Verify that Aspose.Words has access to all required fonts before we render the document to PDF.

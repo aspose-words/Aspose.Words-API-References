@@ -14,7 +14,7 @@ Specifies whether export should correspond to ODT specification 1.1 strictly. OO
 public bool IsStrictSchema11 { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to make a saved document conform to an older ODT schema.
 

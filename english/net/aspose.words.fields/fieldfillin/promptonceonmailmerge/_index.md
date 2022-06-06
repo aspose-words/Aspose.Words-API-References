@@ -14,7 +14,7 @@ Gets or sets whether the user response should be recieved once per a mail merge 
 public bool PromptOnceOnMailMerge { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to use the FILLIN field to prompt the user for a response.
 
@@ -46,7 +46,6 @@ public void FieldFillIn()
 
     doc.UpdateFields();
     doc.Save(ArtifactsDir + "Field.FILLIN.docx");
-}
 
 /// <summary>
 /// Prepends a line to the default response of every FILLIN field during a mail merge.

@@ -26,7 +26,7 @@ public enum GradientStyle
 | FromCorner | `5` | Gradient running from a corner to the other three corners. |
 | FromCenter | `6` | Gradient running from the center out to the corners. |
 
-### Examples
+## Examples
 
 Shows how to fill a shape with a gradients.
 

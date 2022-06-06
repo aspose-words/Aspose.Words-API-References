@@ -14,7 +14,7 @@ Gets the odd row banding style.
 public ConditionalStyle OddRowBanding { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to work with certain area styles of a table.
 

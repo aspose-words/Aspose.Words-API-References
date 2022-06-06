@@ -6,7 +6,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.fields/fieldbuilder/addargument/
 ---
-## AddArgument(string) {#addargument_4}
+## FieldBuilder.AddArgument method (1 of 5)
 
 Adds a field's argument.
 
@@ -18,7 +18,7 @@ public FieldBuilder AddArgument(string argument)
 | --- | --- | --- |
 | argument | String | The argument value. |
 
-### Examples
+## Examples
 
 Shows how to construct fields using a field builder, and then insert them into the document.
 
@@ -106,7 +106,7 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 
 ---
 
-## AddArgument(int) {#addargument_3}
+## FieldBuilder.AddArgument method (2 of 5)
 
 Adds a field's argument.
 
@@ -118,7 +118,7 @@ public FieldBuilder AddArgument(int argument)
 | --- | --- | --- |
 | argument | Int32 | The argument value. |
 
-### Examples
+## Examples
 
 Shows how to construct fields using a field builder, and then insert them into the document.
 
@@ -206,7 +206,7 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 
 ---
 
-## AddArgument(double) {#addargument_2}
+## FieldBuilder.AddArgument method (3 of 5)
 
 Adds a field's argument.
 
@@ -218,7 +218,7 @@ public FieldBuilder AddArgument(double argument)
 | --- | --- | --- |
 | argument | Double | The argument value. |
 
-### Examples
+## Examples
 
 Shows how to construct fields using a field builder, and then insert them into the document.
 
@@ -306,7 +306,7 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 
 ---
 
-## AddArgument(FieldBuilder) {#addargument_1}
+## FieldBuilder.AddArgument method (4 of 5)
 
 Adds a child field represented by another [`FieldBuilder`](../../fieldbuilder) to the field's code.
 
@@ -314,11 +314,11 @@ Adds a child field represented by another [`FieldBuilder`](../../fieldbuilder) t
 public FieldBuilder AddArgument(FieldBuilder argument)
 ```
 
-### Remarks
+## Remarks
 
 This overload is used when the argument consists of a single child field.
 
-### Examples
+## Examples
 
 Shows how to construct fields using a field builder, and then insert them into the document.
 
@@ -406,7 +406,7 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 
 ---
 
-## AddArgument(FieldArgumentBuilder) {#addargument}
+## FieldBuilder.AddArgument method (5 of 5)
 
 Adds a field's argument represented by [`FieldArgumentBuilder`](../../fieldargumentbuilder) to the field's code.
 
@@ -414,11 +414,11 @@ Adds a field's argument represented by [`FieldArgumentBuilder`](../../fieldargum
 public FieldBuilder AddArgument(FieldArgumentBuilder argument)
 ```
 
-### Remarks
+## Remarks
 
 This overload is used when the argument consists of a mixture of different parts such as child fields, nodes, and plain text.
 
-### Examples
+## Examples
 
 Shows how to construct fields using a field builder, and then insert them into the document.
 

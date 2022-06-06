@@ -6,7 +6,7 @@ type: docs
 weight: 100
 url: /net/aspose.words.lists/list/equals/
 ---
-## Equals(List) {#equals}
+## List.Equals method (1 of 2)
 
 Compares with the specified list.
 
@@ -22,7 +22,7 @@ public bool Equals(List list)
 
 ---
 
-## Equals(object) {#equals_1}
+## List.Equals method (2 of 2)
 
 ```csharp
 public override bool Equals(object obj)

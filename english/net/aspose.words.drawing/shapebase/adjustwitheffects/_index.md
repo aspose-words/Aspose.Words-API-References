@@ -14,7 +14,7 @@ Adds to the source rectangle values of the effect extent and returns the final r
 public RectangleF AdjustWithEffects(RectangleF source)
 ```
 
-### Examples
+## Examples
 
 Shows how to check how a shape's bounds are affected by shape effects.
 

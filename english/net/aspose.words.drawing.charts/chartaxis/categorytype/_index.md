@@ -14,11 +14,11 @@ Gets or sets type of the category axis.
 public AxisCategoryType CategoryType { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 Only text categories (Category) are allowed in MS Office 2016 new charts.
 
-### Examples
+## Examples
 
 Shows how to insert a chart and modify the appearance of its axes.
 

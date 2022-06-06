@@ -14,7 +14,7 @@ Gets the vertical border that is used between cells.
 public Border Vertical { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to apply settings to vertical borders to a table row's format.
 

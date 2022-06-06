@@ -6,7 +6,7 @@ type: docs
 weight: 70
 url: /net/aspose.words.shaping/cluster/getstring/
 ---
-## GetString(Cluster[])
+## Cluster.GetString method (1 of 2)
 
 ```csharp
 public static string GetString(Cluster[] clusters)
@@ -20,7 +20,7 @@ public static string GetString(Cluster[] clusters)
 
 ---
 
-## GetString()
+## Cluster.GetString method (2 of 2)
 
 ```csharp
 public string GetString()

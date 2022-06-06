@@ -14,16 +14,15 @@ Defines whether a shadow is applied to the text on a text path.
 public bool Shadow { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 The default value is **false**.
 
-### Examples
+## Examples
 
 Shows how to work with WordArt.
 
 ```csharp
-public void InsertTextPaths()
 {
     Document doc = new Document();
 
@@ -89,7 +88,6 @@ public void InsertTextPaths()
     shape.TextPath.TextPathAlignment = TextPathAlignment.Right;
 
     doc.Save(ArtifactsDir + "Shape.InsertTextPaths.docx");
-}
 
 /// <summary>
 /// Insert a new paragraph with a WordArt shape inside it.

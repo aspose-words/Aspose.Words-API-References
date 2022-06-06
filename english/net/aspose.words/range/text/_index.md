@@ -14,11 +14,11 @@ Gets the text of the range.
 public string Text { get; }
 ```
 
-### Remarks
+## Remarks
 
 The returned string includes all control and special characters as described in [`ControlChar`](../../controlchar).
 
-### Examples
+## Examples
 
 Shows how to get the text contents of all the nodes that a range covers.
 

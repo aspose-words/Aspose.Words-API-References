@@ -14,7 +14,7 @@ Indicates that shape is a SignatureLine.
 public bool IsSignatureLine { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to create a line for a signature and insert it into a document.
 

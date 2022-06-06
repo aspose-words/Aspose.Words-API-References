@@ -18,11 +18,11 @@ public OfficeMathRenderer GetMathRenderer()
 
 The renderer object for this equation.
 
-### Remarks
+## Remarks
 
 This method just invokes the [`OfficeMathRenderer`](../../../aspose.words.rendering/officemathrenderer) constructor and passes this object as a parameter.
 
-### Examples
+## Examples
 
 Shows how to render an Office Math object into an image file in the local file system.
 

@@ -14,11 +14,11 @@ Specifies whether language information is exported to HTML, MHTML or EPUB. Defau
 public bool ExportLanguageInformation { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 When this property is set to `true` Aspose.Words outputs **lang** HTML attribute on the document elements that specify language. This can be needed to preserve language related semantics.
 
-### Examples
+## Examples
 
 Shows how to preserve language information when saving to .html.
 

@@ -14,7 +14,7 @@ Rejects all revisions in this collection.
 public void RejectAll()
 ```
 
-### Examples
+## Examples
 
 Shows how to work with a document's collection of revisions.
 

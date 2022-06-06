@@ -22,7 +22,7 @@ public enum CellVerticalAlignment
 | Center | `1` | Text is aligned in the middle of a cell. |
 | Bottom | `2` | Text is aligned at the bottom of the cell. |
 
-### Examples
+## Examples
 
 Shows how to build a formatted 2x2 table.
 

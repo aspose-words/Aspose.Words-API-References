@@ -30,7 +30,7 @@ public enum ImagePixelFormat
 | Format64BppPArgb | `9` | 64 bits per pixel, ARGB, premultiplied alpha. |
 | Format1bppIndexed | `10` | 1 bit per pixel, Indexed. |
 
-### Examples
+## Examples
 
 Shows how to select a bit-per-pixel rate with which to render a document to an image.
 
@@ -74,7 +74,7 @@ Document doc = new Document();
                     Assert.That(200000, Is.LessThan(new FileInfo(ArtifactsDir + "ImageSaveOptions.PixelFormat.png").Length));
                     break;
             }
-#elif NET5_0
+#elif NET5_0_OR_GREATER
             switch (imagePixelFormat)
             {
                 case ImagePixelFormat.Format1bppIndexed:

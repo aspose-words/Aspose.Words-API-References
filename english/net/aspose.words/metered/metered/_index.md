@@ -14,7 +14,7 @@ Initializes a new instance of this class.
 public Metered()
 ```
 
-### Examples
+## Examples
 
 Shows how to activate a Metered license and track credit/consumption.
 

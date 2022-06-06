@@ -14,7 +14,7 @@ If the last child is not a paragraph, creates and appends one empty paragraph.
 public void EnsureMinimum()
 ```
 
-### Examples
+## Examples
 
 Clears main text from all sections from the document leaving the sections themselves.
 

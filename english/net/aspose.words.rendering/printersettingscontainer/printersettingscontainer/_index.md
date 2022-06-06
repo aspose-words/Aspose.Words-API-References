@@ -14,7 +14,7 @@ Creates a container for PrinterSettings.
 public PrinterSettingsContainer(PrinterSettings settings)
 ```
 
-### Examples
+## Examples
 
 Shows how to access and list your printer's paper sources and sizes.
 

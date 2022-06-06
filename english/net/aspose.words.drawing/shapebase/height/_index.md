@@ -14,7 +14,7 @@ Gets or sets the height of the containing block of the shape.
 public double Height { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 For a top-level shape, the value is in points.
 
@@ -22,7 +22,7 @@ For shapes in a group, the value is in the coordinate space and units of the par
 
 The default value is 0.
 
-### Examples
+## Examples
 
 Shows how to insert a floating image, and specify its position and size.
 
@@ -64,7 +64,7 @@ Shows how to resize a shape with an image.
 
             Assert.AreEqual(400, image.Size.Width);
             Assert.AreEqual(400, image.Size.Height);
-#elif NET5_0
+#elif NET5_0_OR_GREATER
             SKBitmap image = SKBitmap.Decode(ImageDir + "Logo.jpg");
 
             Assert.AreEqual(400, image.Width);

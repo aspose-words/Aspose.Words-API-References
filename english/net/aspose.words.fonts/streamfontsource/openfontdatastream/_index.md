@@ -18,19 +18,18 @@ public abstract Stream OpenFontDataStream()
 
 Font data stream.
 
-### Remarks
+## Remarks
 
 The stream will be closed after reading. There is no need to close it explicitly.
 
-### Examples
+## Examples
 
 Shows how to load fonts from stream.
 
 ```csharp
-public void StreamFontSourceFileRendering()
 {
     FontSettings fontSettings = new FontSettings();
-    fontSettings.SetFontsSources(new FontSourceBase[] { new StreamFontSourceFile() });
+    fontSettings.SetFontsSources(new FontSourceBase[] {new StreamFontSourceFile()});
 
     DocumentBuilder builder = new DocumentBuilder();
     builder.Document.FontSettings = fontSettings;
@@ -41,7 +40,8 @@ public void StreamFontSourceFileRendering()
 }
 
 /// <summary>
-/// Load the font data only when required instead of storing it in the memory for the entire lifetime of the "FontSettings" object.
+/// Load the font data only when required instead of storing it in the memory
+/// for the entire lifetime of the "FontSettings" object.
 /// </summary>
 private class StreamFontSourceFile : StreamFontSource
 {

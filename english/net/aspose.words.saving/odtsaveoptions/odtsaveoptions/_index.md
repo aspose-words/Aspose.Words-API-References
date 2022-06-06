@@ -6,7 +6,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.saving/odtsaveoptions/odtsaveoptions/
 ---
-## OdtSaveOptions() {#constructor}
+## OdtSaveOptions constructor (1 of 3)
 
 Initializes a new instance of this class that can be used to save a document in the Odt format.
 
@@ -14,7 +14,7 @@ Initializes a new instance of this class that can be used to save a document in 
 public OdtSaveOptions()
 ```
 
-### Examples
+## Examples
 
 Shows how to make a saved document conform to an older ODT schema.
 
@@ -38,7 +38,7 @@ doc.Save(ArtifactsDir + "OdtSaveOptions.Odt11Schema.odt", saveOptions);
 
 ---
 
-## OdtSaveOptions(string) {#constructor_2}
+## OdtSaveOptions constructor (2 of 3)
 
 Initializes a new instance of this class that can be used to save a document in the Odt format encrypted with a password.
 
@@ -54,7 +54,7 @@ public OdtSaveOptions(string password)
 
 ---
 
-## OdtSaveOptions(SaveFormat) {#constructor_1}
+## OdtSaveOptions constructor (3 of 3)
 
 Initializes a new instance of this class that can be used to save a document in the Odt or Ott format.
 
@@ -66,7 +66,7 @@ public OdtSaveOptions(SaveFormat saveFormat)
 | --- | --- | --- |
 | saveFormat | SaveFormat | Can be Odt or Ott. |
 
-### Examples
+## Examples
 
 Shows how to encrypt a saved ODT/OTT document with a password, and then load it using Aspose.Words.
 

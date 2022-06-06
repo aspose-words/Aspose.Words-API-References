@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.reporting/reportingengine/buildreport/
 ---
-## BuildReport(Document, object) {#buildreport}
+## ReportingEngine.BuildReport method (1 of 3)
 
 Populates the specified template document with data from the specified source making it a ready report.
 
@@ -23,7 +23,7 @@ public bool BuildReport(Document document, object dataSource)
 
 A flag indicating whether parsing of the template document was successful. The returned flag makes sense only if a value of the [`Options`](../options) property includes the InlineErrorMessages option.
 
-### Remarks
+## Remarks
 
 Using this overload you can reference the data source's members in the template document, but you cannot reference the data source object itself. You should use the [`BuildReport`](../buildreport) overload to achieve this.
 
@@ -52,7 +52,7 @@ For information on how to work with data sources of different types in template 
 
 ---
 
-## BuildReport(Document, object, string) {#buildreport_1}
+## ReportingEngine.BuildReport method (2 of 3)
 
 Populates the specified template document with data from the specified source making it a ready report.
 
@@ -70,7 +70,7 @@ public bool BuildReport(Document document, object dataSource, string dataSourceN
 
 A flag indicating whether parsing of the template document was successful. The returned flag makes sense only if a value of the [`Options`](../options) property includes the InlineErrorMessages option.
 
-### Remarks
+## Remarks
 
 Using this overload you can reference the data source's members and the data source object itself in the template. If you are not going to reference the data source object itself, you can omit *dataSourceName* passing null or use the [`BuildReport`](../buildreport) overload.
 
@@ -99,7 +99,7 @@ For information on how to work with data sources of different types in template 
 
 ---
 
-## BuildReport(Document, object[], string[]) {#buildreport_2}
+## ReportingEngine.BuildReport method (3 of 3)
 
 Populates the specified template document with data from the specified sources making it a ready report.
 
@@ -117,7 +117,7 @@ public bool BuildReport(Document document, object[] dataSources, string[] dataSo
 
 A flag indicating whether parsing of the template document was successful. The returned flag makes sense only if a value of the [`Options`](../options) property includes the InlineErrorMessages option.
 
-### Remarks
+## Remarks
 
 Using this overload you can reference multiple data source objects and their members in the template. The name of the first data source can be omitted (i.e. be an empty string or null) if you are going to reference the data source's members but not the data source object itself. Names of the other data sources must be specified and unique.
 

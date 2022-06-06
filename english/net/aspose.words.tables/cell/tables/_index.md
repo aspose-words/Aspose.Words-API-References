@@ -14,7 +14,7 @@ Gets a collection of tables that are immediate children of the cell.
 public TableCollection Tables { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to find out if a tables are nested.
 

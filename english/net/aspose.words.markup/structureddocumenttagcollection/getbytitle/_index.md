@@ -18,7 +18,7 @@ public IStructuredDocumentTag GetByTitle(string title)
 | --- | --- | --- |
 | title | String | The title of structured document tag. |
 
-### Remarks
+## Remarks
 
 Returns null if the structured document tag with the specified title cannot be found.
 

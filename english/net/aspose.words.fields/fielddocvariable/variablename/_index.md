@@ -14,7 +14,7 @@ Gets or sets the name of the document variable to retrieve.
 public string VariableName { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to use DOCPROPERTY fields to display document properties and variables.
 

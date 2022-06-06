@@ -14,11 +14,11 @@ Specifies whether the document is in forms design mode.
 public bool FormsDesign { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 Currently works only for documents in WordML format.
 
-### Examples
+## Examples
 
 Shows how to enable/disable forms design mode.
 

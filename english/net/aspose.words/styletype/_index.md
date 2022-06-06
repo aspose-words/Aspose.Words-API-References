@@ -23,7 +23,7 @@ public enum StyleType
 | Table | `3` | The style is a table style. |
 | List | `4` | The style is a list style. |
 
-### Examples
+## Examples
 
 Shows how to create a list style and use it in a document.
 

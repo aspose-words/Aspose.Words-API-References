@@ -26,12 +26,11 @@ public float RenderToSize(Graphics graphics, float x, float y, float width, floa
 
 The scale that was automatically calculated for the rendered shape to fit the specified size.
 
-### Examples
+## Examples
 
 Shows how to render a shape with a Graphics object and display it using a Windows Form.
 
 ```csharp
-public void RenderShapesOnForm()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -129,7 +128,6 @@ private class ShapeForm : Form
         }
     }
 
-    private readonly List<KeyValuePair<ShapeBase, float[]>> mShapesToRender;
 }
 ```
 

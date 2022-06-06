@@ -30,7 +30,7 @@ public class GeneralFormatCollection : IEnumerable<GeneralFormat>
 | [Remove](../../aspose.words.fields/generalformatcollection/remove)(GeneralFormat) | Removes all occurrences of the specified general format from the collection. |
 | [RemoveAt](../../aspose.words.fields/generalformatcollection/removeat)(int) | Removes a general format occurrence at the specified index. |
 
-### Examples
+## Examples
 
 Shows how to format field results.
 

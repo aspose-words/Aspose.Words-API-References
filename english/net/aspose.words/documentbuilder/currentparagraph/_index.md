@@ -14,11 +14,11 @@ Gets the paragraph that is currently selected in this DocumentBuilder.
 public Paragraph CurrentParagraph { get; }
 ```
 
-### Remarks
+## Remarks
 
 [`CurrentNode`](../currentnode)
 
-### Examples
+## Examples
 
 Shows how to move a document builder's cursor to different nodes in a document.
 

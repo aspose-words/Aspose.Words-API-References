@@ -14,7 +14,7 @@ Specifies the predefined merge field name which shall be mapped to the column nu
 public string MappedName { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to access the collection of data that maps data source columns to merge fields.
 

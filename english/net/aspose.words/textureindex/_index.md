@@ -73,7 +73,7 @@ public enum TextureIndex
 | TextureVertical | `21` |  |
 | TextureNil | `65535` | Specifies that there shall be no pattern used on the current shaded region (i.e. the pattern shall be a complete fill with the background color). |
 
-### Examples
+## Examples
 
 Shows how to decorate text with borders and shading.
 

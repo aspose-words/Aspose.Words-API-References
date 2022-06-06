@@ -14,7 +14,7 @@ Defines a stroke for a shape.
 public Stroke Stroke { get; }
 ```
 
-### Examples
+## Examples
 
 Shows to create a variety of shapes.
 

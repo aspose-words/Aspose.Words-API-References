@@ -46,11 +46,11 @@ public class FieldRevNum : Field
 | [Update](../../aspose.words.fields/field/update)() | Performs the field update. Throws if the field is being updated already. |
 | [Update](../../aspose.words.fields/field/update)(bool) | Performs a field update. Throws if the field is being updated already. |
 
-### Remarks
+## Remarks
 
 Retrieves the document's revision number, as recorded in the **Revision** property of the built-in document properties.
 
-### Examples
+## Examples
 
 Shows how to work with REVNUM fields.
 
@@ -71,7 +71,6 @@ Assert.AreEqual(1, doc.BuiltInDocumentProperties.RevisionNumber);
 // and is unrelated to tracked revisions. We can find it by right clicking the document in Windows Explorer
 // via Properties -> Details. We can update this property manually.
 doc.BuiltInDocumentProperties.RevisionNumber++;
-field.Update();
 
 Assert.AreEqual("2", field.Result);
 ```

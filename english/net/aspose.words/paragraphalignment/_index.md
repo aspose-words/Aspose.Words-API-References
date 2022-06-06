@@ -29,7 +29,7 @@ public enum ParagraphAlignment
 | ThaiDistributed | `9` | Thai only. Text is justified with an optimization for Thai. |
 | MathElementCenterAsGroup | `10` | The only Math element in a line, aligned as 'Centered As Group'. |
 
-### Examples
+## Examples
 
 Shows how to construct an Aspose.Words document by hand.
 

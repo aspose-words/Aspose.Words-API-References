@@ -59,11 +59,11 @@ public class FieldDisplayBarcode : Field
 | [Update](../../aspose.words.fields/field/update)() | Performs the field update. Throws if the field is being updated already. |
 | [Update](../../aspose.words.fields/field/update)(bool) | Performs a field update. Throws if the field is being updated already. |
 
-### Remarks
+## Remarks
 
 Inserts a barcode.
 
-### Examples
+## Examples
 
 Shows how to perform a mail merge on QR barcodes.
 

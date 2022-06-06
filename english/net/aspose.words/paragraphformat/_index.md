@@ -65,7 +65,7 @@ public class ParagraphFormat
 | --- | --- |
 | [ClearFormatting](../../aspose.words/paragraphformat/clearformatting)() | Resets to default paragraph formatting. |
 
-### Examples
+## Examples
 
 Shows how to construct an Aspose.Words document by hand.
 

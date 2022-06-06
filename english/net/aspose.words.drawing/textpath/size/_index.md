@@ -14,7 +14,7 @@ Defines the size of the font in points.
 public double Size { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 The default value is 36.
 

@@ -14,7 +14,7 @@ Gets/sets Office Math justification.
 public OfficeMathJustification Justification { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 Justification cannot be set to the Office Math with display format type Inline.
 
@@ -22,7 +22,7 @@ Inline justification cannot be set to the Office Math with display format type D
 
 Corresponding [`DisplayType`](../displaytype) has to be set before setting Office Math justification.
 
-### Examples
+## Examples
 
 Shows how to set office math display formatting.
 

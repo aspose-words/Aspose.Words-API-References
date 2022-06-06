@@ -14,13 +14,13 @@ Specifies in what format metafiles are saved when exporting to HTML, MHTML, or E
 public HtmlMetafileFormat MetafileFormat { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 Metafiles are not natively displayed by HTML browsers. By default, Aspose.Words converts WMF and EMF images into PNG files when exporting to HTML. Other options are to convert metafiles to SVG images or to export them as is without conversion.
 
 Some image transforms, in particular image cropping, will not be applied to metafile images if they are exported to HTML without conversion.
 
-### Examples
+## Examples
 
 Shows how to convert SVG objects to a different format when saving HTML documents.
 

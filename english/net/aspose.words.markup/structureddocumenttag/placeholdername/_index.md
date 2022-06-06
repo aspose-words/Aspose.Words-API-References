@@ -16,7 +16,7 @@ BuildingBlock with this name [`Name`](../../../aspose.words.buildingblocks/build
 public string PlaceholderName { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to use a building block's contents as a custom placeholder text for a structured document tag.
 

@@ -14,11 +14,11 @@ Returns or sets a Boolean to indicate the series name display behavior for the d
 public bool ShowSeriesName { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 Value defined for this property can be overridden for an individual data label with using the [`ShowSeriesName`](../../chartdatalabel/showseriesname) property.
 
-### Examples
+## Examples
 
 Shows how to work with data labels of a bubble chart.
 

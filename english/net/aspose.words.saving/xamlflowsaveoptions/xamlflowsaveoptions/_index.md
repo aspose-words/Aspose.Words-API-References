@@ -6,7 +6,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.saving/xamlflowsaveoptions/xamlflowsaveoptions/
 ---
-## XamlFlowSaveOptions() {#constructor}
+## XamlFlowSaveOptions constructor (1 of 2)
 
 Initializes a new instance of this class that can be used to save a document in the XamlFlow format.
 
@@ -14,12 +14,11 @@ Initializes a new instance of this class that can be used to save a document in 
 public XamlFlowSaveOptions()
 ```
 
-### Examples
+## Examples
 
 Shows how to print the filenames of linked images created while converting a document to flow-form .xaml.
 
 ```csharp
-public void ImageFolder()
 {
     Document doc = new Document(MyDir + "Rendering.docx");
 
@@ -49,7 +48,6 @@ public void ImageFolder()
 
     foreach (string resource in callback.Resources)
         Console.WriteLine($"{callback.ImagesFolderAlias}/{resource}");
-}
 
 /// <summary>
 /// Counts and prints filenames of images while their parent document is converted to flow-form .xaml.
@@ -85,7 +83,7 @@ private class ImageUriPrinter : IImageSavingCallback
 
 ---
 
-## XamlFlowSaveOptions(SaveFormat) {#constructor_1}
+## XamlFlowSaveOptions constructor (2 of 2)
 
 Initializes a new instance of this class that can be used to save a document in the XamlFlow or XamlFlowPack format.
 
@@ -97,12 +95,11 @@ public XamlFlowSaveOptions(SaveFormat saveFormat)
 | --- | --- | --- |
 | saveFormat | SaveFormat | Can be XamlFlow or XamlFlowPack. |
 
-### Examples
+## Examples
 
 Shows how to print the filenames of linked images created while converting a document to flow-form .xaml.
 
 ```csharp
-public void ImageFolder()
 {
     Document doc = new Document(MyDir + "Rendering.docx");
 
@@ -132,7 +129,6 @@ public void ImageFolder()
 
     foreach (string resource in callback.Resources)
         Console.WriteLine($"{callback.ImagesFolderAlias}/{resource}");
-}
 
 /// <summary>
 /// Counts and prints filenames of images while their parent document is converted to flow-form .xaml.

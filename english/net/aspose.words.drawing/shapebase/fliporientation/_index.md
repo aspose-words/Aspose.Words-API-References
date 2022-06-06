@@ -14,11 +14,11 @@ Switches the orientation of a shape.
 public FlipOrientation FlipOrientation { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 The default value is None.
 
-### Examples
+## Examples
 
 Shows how to flip a shape on an axis.
 

@@ -22,7 +22,7 @@ public class ThemeFonts
 | [EastAsian](../../aspose.words.themes/themefonts/eastasian) { get; set; } | Specifies font name for EastAsian characters. |
 | [Latin](../../aspose.words.themes/themefonts/latin) { get; set; } | Specifies font name for Latin characters. |
 
-### Examples
+## Examples
 
 Shows how to set custom colors and fonts for themes.
 

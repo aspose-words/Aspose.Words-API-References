@@ -14,12 +14,11 @@ Called during a load operation, when an issue is detected that might result in d
 public IWarningCallback WarningCallback { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to print and store warnings that occur during document loading.
 
 ```csharp
-public void LoadOptionsWarningCallback()
 {
     // Create a new LoadOptions object and set its WarningCallback attribute
     // as an instance of our IWarningCallback implementation.
@@ -31,7 +30,6 @@ public void LoadOptionsWarningCallback()
 
     List<WarningInfo> warnings = ((DocumentLoadingWarningCallback)loadOptions.WarningCallback).GetWarnings();
     Assert.AreEqual(3, warnings.Count);
-}
 
 /// <summary>
 /// IWarningCallback that prints warnings and their details as they arise during document loading.

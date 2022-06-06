@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.fields/fieldbuilder/buildandinsert/
 ---
-## BuildAndInsert(Inline) {#buildandinsert}
+## FieldBuilder.BuildAndInsert method (1 of 2)
 
 Builds and inserts a field into the document before the specified inline node.
 
@@ -18,7 +18,7 @@ public Field BuildAndInsert(Inline refNode)
 
 A [`Field`](../../field) object that represents the inserted field.
 
-### Examples
+## Examples
 
 Shows how to create and insert a field using a field builder.
 
@@ -53,7 +53,7 @@ doc.Save(ArtifactsDir + "Field.CreateWithFieldBuilder.docx");
 
 ---
 
-## BuildAndInsert(Paragraph) {#buildandinsert_1}
+## FieldBuilder.BuildAndInsert method (2 of 2)
 
 Builds and inserts a field into the document to the end of the specified paragraph.
 
@@ -65,7 +65,7 @@ public Field BuildAndInsert(Paragraph refNode)
 
 A [`Field`](../../field) object that represents the inserted field.
 
-### Examples
+## Examples
 
 Shows how to construct fields using a field builder, and then insert them into the document.
 

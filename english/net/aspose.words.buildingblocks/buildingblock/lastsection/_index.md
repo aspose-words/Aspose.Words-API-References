@@ -14,11 +14,11 @@ Gets the last section in the building block.
 public Section LastSection { get; }
 ```
 
-### Remarks
+## Remarks
 
 Returns `null` if there are no sections.
 
-### Examples
+## Examples
 
 Shows how to add a custom building block to a document.
 

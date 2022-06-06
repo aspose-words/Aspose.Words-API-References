@@ -14,11 +14,11 @@ Returns a collection of styles defined in the document.
 public StyleCollection Styles { get; }
 ```
 
-### Remarks
+## Remarks
 
 For more information see the description of the [`StyleCollection`](../../stylecollection) class.
 
-### Examples
+## Examples
 
 Shows how to access a document's style collection.
 

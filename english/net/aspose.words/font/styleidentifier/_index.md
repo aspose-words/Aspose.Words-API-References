@@ -14,7 +14,7 @@ Gets or sets the locale independent style identifier of the character style appl
 public StyleIdentifier StyleIdentifier { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to change the style of existing text.
 

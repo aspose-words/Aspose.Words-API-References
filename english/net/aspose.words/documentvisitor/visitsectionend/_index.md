@@ -22,7 +22,7 @@ public virtual VisitorAction VisitSectionEnd(Section section)
 
 A [`VisitorAction`](../../visitoraction) value that specifies how to continue the enumeration.
 
-### Examples
+## Examples
 
 Shows how to use a document visitor to print a document's node structure.
 

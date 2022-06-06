@@ -14,7 +14,7 @@ Represents the hash code for this record. Sometimes Microsoft Word uses `Hash` o
 public int Hash { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to access the collection of data that designates which merge data source records a mail merge will exclude.
 

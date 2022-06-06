@@ -18,14 +18,12 @@ public enum PdfDigitalSignatureHashAlgorithm
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Sha1 | `0` |  |
-| Sha256 | `1` | SHA-256 hash algorithm. |
-| Sha384 | `2` | SHA-384 hash algorithm. |
-| Sha512 | `3` | SHA-512 hash algorithm. |
-| Md5 | `4` |  |
-| RipeMD160 | `5` | RIPEMD-160 hash algorithm. |
+| Sha256 | `0` | SHA-256 hash algorithm. |
+| Sha384 | `1` | SHA-384 hash algorithm. |
+| Sha512 | `2` | SHA-512 hash algorithm. |
+| RipeMD160 | `3` | RIPEMD-160 hash algorithm. |
 
-### Examples
+## Examples
 
 Shows how to sign a generated PDF document.
 

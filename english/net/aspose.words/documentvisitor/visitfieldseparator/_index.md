@@ -22,13 +22,13 @@ public virtual VisitorAction VisitFieldSeparator(FieldSeparator fieldSeparator)
 
 A [`VisitorAction`](../../visitoraction) value that specifies how to continue the enumeration.
 
-### Remarks
+## Remarks
 
 The field separator separates field code from field value in the document. Note that some fields have only field code and do not have field separator and field value.
 
 For more info see [`VisitFieldStart`](../visitfieldstart)
 
-### Examples
+## Examples
 
 Shows how to print the node structure of every field in a document.
 

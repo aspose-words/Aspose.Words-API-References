@@ -21,11 +21,11 @@ public enum ComparisonTargetType
 | Current | `0` | This document is used as a base during comparison. |
 | New | `1` | Other document is used as a base during comparison. |
 
-### Remarks
+## Remarks
 
 Relates to Microsoft Word "Show changes in" option in "Compare Documents" dialog box.
 
-### Examples
+## Examples
 
 Shows how to filter specific types of document elements when making a comparison.
 

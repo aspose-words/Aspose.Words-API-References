@@ -22,12 +22,11 @@ public enum MetafileRenderingMode
 | Vector | `1` | Aspose.Words renders a metafile as vector graphics. |
 | Bitmap | `2` | Aspose.Words invokes GDI+ to render a metafile to a bitmap and then saves the bitmap to the output document. |
 
-### Examples
+## Examples
 
 Shows added a fallback to bitmap rendering and changing type of warnings about unsupported metafile records.
 
 ```csharp
-public void HandleBinaryRasterWarnings()
 {
     Document doc = new Document(MyDir + "WMF with image.docx");
 

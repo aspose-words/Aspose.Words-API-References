@@ -21,7 +21,7 @@ public enum ShapeMarkupLanguage : byte
 | Dml | `0` | Drawing Markup Language is used to define the shape. |
 | Vml | `1` | Vector Markup Language is used to define the shape. |
 
-### Examples
+## Examples
 
 Shows how to set an OOXML compliance specification for a saved document to adhere to.
 

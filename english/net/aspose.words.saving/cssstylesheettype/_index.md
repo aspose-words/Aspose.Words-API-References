@@ -22,7 +22,7 @@ public enum CssStyleSheetType
 | Embedded | `1` | CSS styles are written separately from the content in a style sheet embedded in the HTML file. |
 | External | `2` | CSS styles are written separately from the content in a style sheet in an external file. The HTML file links the style sheet. |
 
-### Examples
+## Examples
 
 Shows how to work with CSS stylesheets that an HTML conversion creates.
 

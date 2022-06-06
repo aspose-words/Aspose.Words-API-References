@@ -14,7 +14,7 @@ Aspose.Words invokes this method when it encounters some issue during document l
 public void Warning(WarningInfo info)
 ```
 
-### Examples
+## Examples
 
 Shows how to set the property for finding the closest match for a missing font from the available font sources.
 
@@ -31,7 +31,8 @@ public void EnableFontSubstitution()
 
     // Set a default font name and enable font substitution.
     FontSettings fontSettings = new FontSettings();
-    fontSettings.SubstitutionSettings.DefaultFontSubstitution.DefaultFontName = "Arial"; ;
+    fontSettings.SubstitutionSettings.DefaultFontSubstitution.DefaultFontName = "Arial";
+    ;
     fontSettings.SubstitutionSettings.FontInfoSubstitution.Enabled = true;
 
     // We will get a font substitution warning if we save a document with a missing font.
@@ -44,7 +45,8 @@ public void EnableFontSubstitution()
 
     // We can also verify warnings in the collection and clear them.
     Assert.AreEqual(WarningSource.Layout, substitutionWarningHandler.FontWarnings[0].Source);
-    Assert.AreEqual("Font '28 Days Later' has not been found. Using 'Calibri' font instead. Reason: alternative name from document.",
+    Assert.AreEqual(
+        "Font '28 Days Later' has not been found. Using 'Calibri' font instead. Reason: alternative name from document.",
         substitutionWarningHandler.FontWarnings[0].Description);
 
     substitutionWarningHandler.FontWarnings.Clear();

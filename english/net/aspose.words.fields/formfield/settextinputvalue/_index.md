@@ -18,11 +18,11 @@ public void SetTextInputValue(object newValue)
 | --- | --- | --- |
 | newValue | Object | Can be a string, number or a DateTime object. |
 
-### Remarks
+## Remarks
 
 The [`TextInputDefault`](../textinputdefault) value is applied if *newValue* is `null`.
 
-### Examples
+## Examples
 
 Shows how insert different kinds of form fields into a document, and process them with using a document visitor implementation.
 

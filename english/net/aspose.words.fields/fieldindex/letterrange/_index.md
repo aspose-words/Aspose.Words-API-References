@@ -14,7 +14,7 @@ Gets or sets a range of letters to which limit the index.
 public string LetterRange { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to populate an INDEX field with entries using XE fields, and also modify its appearance.
 

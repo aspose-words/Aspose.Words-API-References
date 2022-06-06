@@ -14,7 +14,7 @@ Allows to specify document font settings.
 public FontSettings FontSettings { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 When loading some formats, Aspose.Words may require to resolve the fonts. For example, when loading HTML documents Aspose.Words may resolve the fonts to perform font fallback.
 
@@ -22,7 +22,7 @@ If set to null, default static font settings [`DefaultInstance`](../../../aspose
 
 The default value is null.
 
-### Examples
+## Examples
 
 Shows how to apply font substitution settings while loading a document.
 
@@ -54,7 +54,7 @@ loadOptions.FontSettings = new FontSettings();
 // this rule will substitute the unavailable font with one that does exist.
 // In this case, all uses of the "MissingFont" will convert to "Comic Sans MS".
 TableSubstitutionRule substitutionRule = loadOptions.FontSettings.SubstitutionSettings.TableSubstitution;
-substitutionRule.AddSubstitutes("MissingFont", new[] { "Comic Sans MS" });
+substitutionRule.AddSubstitutes("MissingFont", new[] {"Comic Sans MS"});
 
 Document doc = new Document(MyDir + "Missing font.html", loadOptions);
 

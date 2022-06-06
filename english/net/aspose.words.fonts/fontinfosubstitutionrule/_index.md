@@ -20,11 +20,11 @@ public class FontInfoSubstitutionRule : FontSubstitutionRule
 | --- | --- |
 | virtual [Enabled](../../aspose.words.fonts/fontsubstitutionrule/enabled) { get; set; } | Specifies whether the rule is enabled or not. |
 
-### Remarks
+## Remarks
 
 According to this rule Aspose.Words evaluates all the related fields in [`FontInfo`](../fontinfo) (Panose, Sig etc) for the missing font and finds the closest match among the available font sources. If [`FontInfo`](../fontinfo) is not available for the missing font then nothing will be done.
 
-### Examples
+## Examples
 
 Shows how to set the property for finding the closest match for a missing font from the available font sources.
 
@@ -41,7 +41,8 @@ public void EnableFontSubstitution()
 
     // Set a default font name and enable font substitution.
     FontSettings fontSettings = new FontSettings();
-    fontSettings.SubstitutionSettings.DefaultFontSubstitution.DefaultFontName = "Arial"; ;
+    fontSettings.SubstitutionSettings.DefaultFontSubstitution.DefaultFontName = "Arial";
+    ;
     fontSettings.SubstitutionSettings.FontInfoSubstitution.Enabled = true;
 
     // We will get a font substitution warning if we save a document with a missing font.
@@ -54,7 +55,8 @@ public void EnableFontSubstitution()
 
     // We can also verify warnings in the collection and clear them.
     Assert.AreEqual(WarningSource.Layout, substitutionWarningHandler.FontWarnings[0].Source);
-    Assert.AreEqual("Font '28 Days Later' has not been found. Using 'Calibri' font instead. Reason: alternative name from document.",
+    Assert.AreEqual(
+        "Font '28 Days Later' has not been found. Using 'Calibri' font instead. Reason: alternative name from document.",
         substitutionWarningHandler.FontWarnings[0].Description);
 
     substitutionWarningHandler.FontWarnings.Clear();

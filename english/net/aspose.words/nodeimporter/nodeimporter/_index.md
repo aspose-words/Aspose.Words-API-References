@@ -6,7 +6,7 @@ type: docs
 weight: 10
 url: /net/aspose.words/nodeimporter/nodeimporter/
 ---
-## NodeImporter(DocumentBase, DocumentBase, ImportFormatMode) {#constructor}
+## NodeImporter constructor (1 of 2)
 
 Initializes a new instance of the [`NodeImporter`](../../nodeimporter) class.
 
@@ -20,7 +20,7 @@ public NodeImporter(DocumentBase srcDoc, DocumentBase dstDoc, ImportFormatMode i
 | dstDoc | DocumentBase | The destination document that will be the owner of imported nodes. |
 | importFormatMode | ImportFormatMode | Specifies how to merge style formatting that clashes. |
 
-### Examples
+## Examples
 
 Shows how to insert the contents of one document to a bookmark in another document.
 
@@ -96,7 +96,7 @@ static void InsertDocument(Node insertionDestination, Document docToInsert)
 
 ---
 
-## NodeImporter(DocumentBase, DocumentBase, ImportFormatMode, ImportFormatOptions) {#constructor_1}
+## NodeImporter constructor (2 of 2)
 
 Initializes a new instance of the [`NodeImporter`](../../nodeimporter) class.
 
@@ -112,7 +112,7 @@ public NodeImporter(DocumentBase srcDoc, DocumentBase dstDoc, ImportFormatMode i
 | importFormatMode | ImportFormatMode | Specifies how to merge style formatting that clashes. |
 | importFormatOptions | ImportFormatOptions | Specifies various options to format imported node. |
 
-### Examples
+## Examples
 
 Shows how resolve a clash when importing documents that have lists with the same list definition identifier.
 

@@ -14,11 +14,11 @@ Gets or sets distance between the right edge of line numbers and the left edge o
 public double LineNumberDistanceFromText { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 Set this property to zero for automatic distance between the line numbers and text of the document.
 
-### Examples
+## Examples
 
 Shows how to enable line numbering for a section.
 

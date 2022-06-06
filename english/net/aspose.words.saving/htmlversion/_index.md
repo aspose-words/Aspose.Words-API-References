@@ -21,7 +21,7 @@ public enum HtmlVersion
 | Xhtml | `0` | Saves the document in compliance with the XHTML 1.0 Transitional standard. |
 | Html5 | `1` | Saves the document in compliance with the HTML 5 standard. |
 
-### Examples
+## Examples
 
 Shows how to display a DOCTYPE heading when converting documents to the Xhtml 1.0 transitional standard.
 

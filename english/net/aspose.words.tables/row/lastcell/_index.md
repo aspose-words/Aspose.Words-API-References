@@ -14,7 +14,7 @@ Returns the last **Cell** in the row.
 public Cell LastCell { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to print the node structure of every table in a document.
 

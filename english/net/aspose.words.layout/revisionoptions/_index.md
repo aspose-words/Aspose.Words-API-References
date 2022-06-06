@@ -38,7 +38,7 @@ public class RevisionOptions
 | [ShowRevisionBars](../../aspose.words.layout/revisionoptions/showrevisionbars) { get; set; } | Allows to specify whether revision bars should be rendered near lines containing revised content. Default value is True. |
 | [ShowRevisionMarks](../../aspose.words.layout/revisionoptions/showrevisionmarks) { get; set; } | Allow to specify whether revision text should be marked with special formatting markup. Default value is True. |
 
-### Examples
+## Examples
 
 Shows how to alter the appearance of revisions in a rendered output document.
 

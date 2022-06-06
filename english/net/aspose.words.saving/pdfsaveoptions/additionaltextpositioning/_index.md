@@ -14,13 +14,13 @@ A flag specifying whether to write additional text positioning operators or not.
 public bool AdditionalTextPositioning { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 If `true`, additional text positioning operators are written to the output PDF. This may help to overcome issues with inaccurate text positioning with some printers. The downside is the increased PDF document size.
 
 The default value is `false`.
 
-### Examples
+## Examples
 
 Show how to write additional text positioning operators.
 

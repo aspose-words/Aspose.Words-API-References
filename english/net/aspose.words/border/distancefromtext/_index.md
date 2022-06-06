@@ -14,11 +14,11 @@ Gets or sets distance of the border from text or from the page edge in points.
 public double DistanceFromText { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 Has no effect and will be automatically reset to zero for borders of table cells.
 
-### Examples
+## Examples
 
 Shows how to create a wide blue band border at the top of the first page.
 

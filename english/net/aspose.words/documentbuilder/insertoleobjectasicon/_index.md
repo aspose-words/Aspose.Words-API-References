@@ -6,7 +6,7 @@ type: docs
 weight: 380
 url: /net/aspose.words/documentbuilder/insertoleobjectasicon/
 ---
-## InsertOleObjectAsIcon(string, bool, string, string) {#insertoleobjectasicon_1}
+## DocumentBuilder.InsertOleObjectAsIcon method (1 of 3)
 
 Inserts an embedded or linked OLE object as icon into the document. Allows to specify icon file and caption. Detects OLE object type using file extension.
 
@@ -26,7 +26,7 @@ public Shape InsertOleObjectAsIcon(string fileName, bool isLinked, string iconFi
 
 Shape node containing Ole object and inserted at the current Builder position.
 
-### Examples
+## Examples
 
 Shows how to insert an OLE object into a document.
 
@@ -68,7 +68,7 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertOleObject.docx");
 
 ---
 
-## InsertOleObjectAsIcon(string, string, bool, string, string) {#insertoleobjectasicon_2}
+## DocumentBuilder.InsertOleObjectAsIcon method (2 of 3)
 
 Inserts an embedded or linked OLE object as icon into the document. Allows to specify icon file and caption. Detects OLE object type using given progID parameter.
 
@@ -89,7 +89,7 @@ public Shape InsertOleObjectAsIcon(string fileName, string progId, bool isLinked
 
 Shape node containing Ole object and inserted at the current Builder position.
 
-### Examples
+## Examples
 
 Shows how to insert an embedded or linked OLE object as icon into the document.
 
@@ -127,7 +127,7 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertOleObjectAsIcon.docx");
 
 ---
 
-## InsertOleObjectAsIcon(Stream, string, string, string) {#insertoleobjectasicon}
+## DocumentBuilder.InsertOleObjectAsIcon method (3 of 3)
 
 Inserts an embedded OLE object as icon from a stream into the document. Allows to specify icon file and caption. Detects OLE object type using given progID parameter.
 
@@ -147,7 +147,7 @@ public Shape InsertOleObjectAsIcon(Stream stream, string progId, string iconFile
 
 Shape node containing Ole object and inserted at the current Builder position.
 
-### Examples
+## Examples
 
 Shows how to insert an embedded or linked OLE object as icon into the document.
 

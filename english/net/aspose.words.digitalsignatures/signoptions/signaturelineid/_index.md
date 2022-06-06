@@ -14,17 +14,16 @@ Signature line identifier. Default value is **Empty (all zeroes) Guid**.
 public Guid SignatureLineId { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 When set, it associates [`SignatureLine`](../../../aspose.words.drawing/signatureline) with corresponding [`DigitalSignature`](../../digitalsignature).
 
-### Examples
+## Examples
 
 Shows how to add a signature line to a document, and then sign it using a digital certificate.
 
 ```csharp
-[Description("WORDSNET-16868")]
-        public static void Sign()
+public static void Sign()
         {
             string signeeName = "Ron Williams";
             string srcDocumentPath = MyDir + "Document.docx";
@@ -113,7 +112,7 @@ Shows how to add a signature line to a document, and then sign it using a digita
                 #if NET48 || JAVA
                 new Signee(Guid.NewGuid(), "Ron Williams", "Chief Executive Officer",
                     ImageToByteArray(Image.FromFile(ImageDir + "Logo.jpg"))),
-                #elif NET5_0 || __MOBILE__
+                #elif NET5_0_OR_GREATER || __MOBILE__
                 new Signee(Guid.NewGuid(), "Ron Williams", "Chief Executive Officer", 
                     SkiaSharp.SKBitmap.Decode(ImageDir + "Logo.jpg").Bytes),
                 #endif
@@ -121,7 +120,7 @@ Shows how to add a signature line to a document, and then sign it using a digita
                 #if NET48 || JAVA
                 new Signee(Guid.NewGuid(), "Stephen Morse", "Head of Compliance",
                     ImageToByteArray(Image.FromFile(ImageDir + "Logo.jpg")))
-                #elif NET5_0 || __MOBILE__
+                #elif NET5_0_OR_GREATER || __MOBILE__
                 new Signee(Guid.NewGuid(), "Stephen Morse", "Head of Compliance", 
                     SkiaSharp.SKBitmap.Decode(ImageDir + "Logo.jpg").Bytes)
                 #endif

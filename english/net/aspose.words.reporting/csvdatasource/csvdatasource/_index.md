@@ -6,7 +6,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.reporting/csvdatasource/csvdatasource/
 ---
-## CsvDataSource(string) {#constructor_2}
+## CsvDataSource constructor (1 of 4)
 
 Creates a new data source with data from a CSV file using default options for parsing CSV data.
 
@@ -26,7 +26,7 @@ public CsvDataSource(string csvPath)
 
 ---
 
-## CsvDataSource(string, CsvDataLoadOptions) {#constructor_3}
+## CsvDataSource constructor (2 of 4)
 
 Creates a new data source with data from a CSV file using the specified options for parsing CSV data.
 
@@ -48,7 +48,7 @@ public CsvDataSource(string csvPath, CsvDataLoadOptions options)
 
 ---
 
-## CsvDataSource(Stream) {#constructor}
+## CsvDataSource constructor (3 of 4)
 
 Creates a new data source with data from a CSV stream using default options for parsing CSV data.
 
@@ -68,7 +68,7 @@ public CsvDataSource(Stream csvStream)
 
 ---
 
-## CsvDataSource(Stream, CsvDataLoadOptions) {#constructor_1}
+## CsvDataSource constructor (4 of 4)
 
 Creates a new data source with data from a CSV stream using the specified options for parsing CSV data.
 

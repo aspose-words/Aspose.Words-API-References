@@ -14,7 +14,7 @@ Specifies document headings and their names.
 public object[] HeadingPairs { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 Every heading pair occupies two elements in this array.
 
@@ -24,7 +24,7 @@ The total sum of counts for all heading pairs in this property must be equal to 
 
 Aspose.Words does not update this property.
 
-### Examples
+## Examples
 
 Shows the relationship between "HeadingPairs" and "TitlesOfParts" properties.
 

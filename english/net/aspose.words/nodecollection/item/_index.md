@@ -18,7 +18,7 @@ public Node this[int index] { get; }
 | --- | --- |
 | index | An index into the collection of nodes. |
 
-### Remarks
+## Remarks
 
 The index is zero-based.
 
@@ -28,7 +28,7 @@ If index is greater than or equal to the number of items in the list, this retur
 
 If index is negative and its absolute value is greater than the number of items in the list, this returns a null reference.
 
-### Examples
+## Examples
 
 Shows how to traverse through a composite node's collection of child nodes.
 
@@ -66,7 +66,6 @@ foreach (Node child in children)
             Shape childShape = (Shape)child;
             Console.WriteLine("Shape:");
             Console.WriteLine($"\t{childShape.ShapeType}, {childShape.Width}x{childShape.Height}");
-            break;
     }
 ```
 

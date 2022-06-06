@@ -6,7 +6,7 @@ type: docs
 weight: 690
 url: /net/aspose.words/document/starttrackrevisions/
 ---
-## StartTrackRevisions(string, DateTime) {#starttrackrevisions_1}
+## Document.StartTrackRevisions method (1 of 2)
 
 Starts automatically marking all further changes you make to the document programmatically as revision changes.
 
@@ -19,7 +19,7 @@ public void StartTrackRevisions(string author, DateTime dateTime)
 | author | String | Initials of the author to use for revisions. |
 | dateTime | DateTime | The date and time to use for revisions. |
 
-### Remarks
+## Remarks
 
 If you call this method and then make some changes to the document programmatically, save the document and later open the document in MS Word you will see these changes as revisions.
 
@@ -29,7 +29,7 @@ Automatic tracking of changes is supported both when modifying this document thr
 
 This method does not change the [`TrackRevisions`](../trackrevisions) option and does not use its value for the purposes of revision tracking.
 
-### Examples
+## Examples
 
 Shows how to track revisions while editing a document.
 
@@ -83,7 +83,7 @@ doc.Save(ArtifactsDir + "Document.StartTrackRevisions.docx");
 
 ---
 
-## StartTrackRevisions(string) {#starttrackrevisions}
+## Document.StartTrackRevisions method (2 of 2)
 
 Starts automatically marking all further changes you make to the document programmatically as revision changes.
 
@@ -95,7 +95,7 @@ public void StartTrackRevisions(string author)
 | --- | --- | --- |
 | author | String | Initials of the author to use for revisions. |
 
-### Remarks
+## Remarks
 
 If you call this method and then make some changes to the document programmatically, save the document and later open the document in MS Word you will see these changes as revisions.
 
@@ -105,7 +105,7 @@ Automatic tracking of changes is supported both when modifying this document thr
 
 This method does not change the [`TrackRevisions`](../trackrevisions) option and does not use its value for the purposes of revision tracking.
 
-### Examples
+## Examples
 
 Shows how to track revisions while editing a document.
 

@@ -49,11 +49,11 @@ public class FieldPageRef : Field
 | [Update](../../aspose.words.fields/field/update)() | Performs the field update. Throws if the field is being updated already. |
 | [Update](../../aspose.words.fields/field/update)(bool) | Performs a field update. Throws if the field is being updated already. |
 
-### Remarks
+## Remarks
 
 Inserts the number of the page containing the specified bookmark for a cross-reference.
 
-### Examples
+## Examples
 
 Shows to insert PAGEREF fields to display the relative location of bookmarks.
 
@@ -90,7 +90,6 @@ public void FieldPageRef()
 
     doc.UpdateFields();
     doc.Save(ArtifactsDir + "Field.PAGEREF.docx");
-}
 
 /// <summary>
 /// Uses a document builder to insert a PAGEREF field and sets its properties.

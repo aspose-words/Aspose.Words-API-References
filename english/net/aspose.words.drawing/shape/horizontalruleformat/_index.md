@@ -14,7 +14,7 @@ Provides access to the properties of the horizontal rule shape. For a shape that
 public HorizontalRuleFormat HorizontalRuleFormat { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to insert a horizontal rule shape, and customize its formatting.
 

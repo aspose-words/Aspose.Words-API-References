@@ -14,11 +14,11 @@ Returns a collection that represents mapped data fields for the mail merge opera
 public MappedDataFieldCollection MappedDataFields { get; }
 ```
 
-### Remarks
+## Remarks
 
 Mapped data fields allow to automatically map between names of fields in your data source and names of mail merge fields in the document.
 
-### Examples
+## Examples
 
 Shows how to map data columns and MERGEFIELDs with different names so the data is transferred between them during a mail merge.
 

@@ -18,12 +18,11 @@ public virtual bool IsComposite { get; }
 
 This method returns false as Node cannot have child nodes.
 
-### Examples
+## Examples
 
 Shows how to traverse a composite node's tree of child nodes.
 
 ```csharp
-public void RecurseChildren()
 {
     Document doc = new Document(MyDir + "Paragraphs.docx");
 

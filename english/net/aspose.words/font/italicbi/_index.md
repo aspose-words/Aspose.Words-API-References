@@ -14,7 +14,7 @@ True if the right-to-left text is formatted as italic.
 public bool ItalicBi { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to define separate sets of font settings for right-to-left, and right-to-left text.
 

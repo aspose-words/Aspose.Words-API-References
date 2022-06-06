@@ -21,7 +21,7 @@ public class OleControl
 | virtual [IsForms2OleControl](../../aspose.words.drawing.ole/olecontrol/isforms2olecontrol) { get; } | Returns true if the control is a [`Forms2OleControl`](../forms2olecontrol). |
 | [Name](../../aspose.words.drawing.ole/olecontrol/name) { get; } | Gets name of the ActiveX control. |
 
-### Examples
+## Examples
 
 Shows how to verify the properties of an ActiveX control.
 

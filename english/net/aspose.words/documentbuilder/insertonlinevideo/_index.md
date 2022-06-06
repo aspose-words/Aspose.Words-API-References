@@ -6,7 +6,7 @@ type: docs
 weight: 390
 url: /net/aspose.words/documentbuilder/insertonlinevideo/
 ---
-## InsertOnlineVideo(string, double, double) {#insertonlinevideo_1}
+## DocumentBuilder.InsertOnlineVideo method (1 of 4)
 
 Inserts an online video object into the document and scales it to the specified size.
 
@@ -24,7 +24,7 @@ public Shape InsertOnlineVideo(string videoUrl, double width, double height)
 
 The image node that was just inserted.
 
-### Remarks
+## Remarks
 
 You can change the image size, location, positioning method and other settings using the [`Shape`](../../../aspose.words.drawing/shape) object returned by this method.
 
@@ -37,7 +37,7 @@ If your online video is not displaying correctly, use [`InsertOnlineVideo`](../i
 
 The code for embedding video can vary between providers, consult your corresponding provider of choice for details.
 
-### Examples
+## Examples
 
 Shows how to insert an online video into a document using a URL.
 
@@ -60,7 +60,7 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertVideoWithUrl.docx");
 
 ---
 
-## InsertOnlineVideo(string, RelativeHorizontalPosition, double, RelativeVerticalPosition, double, double, double, WrapType) {#insertonlinevideo}
+## DocumentBuilder.InsertOnlineVideo method (2 of 4)
 
 Inserts an online video object into the document and scales it to the specified size.
 
@@ -84,7 +84,7 @@ public Shape InsertOnlineVideo(string videoUrl, RelativeHorizontalPosition horzP
 
 The image node that was just inserted.
 
-### Remarks
+## Remarks
 
 You can change the image size, location, positioning method and other settings using the [`Shape`](../../../aspose.words.drawing/shape) object returned by this method.
 
@@ -97,7 +97,7 @@ If your online video is not displaying correctly, use [`InsertOnlineVideo`](../i
 
 The code for embedding video can vary between providers, consult your corresponding provider of choice for details.
 
-### Examples
+## Examples
 
 Shows how to insert an online video into a document.
 
@@ -129,7 +129,7 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertOnlineVideo.docx");
 
 ---
 
-## InsertOnlineVideo(string, string, byte[], double, double) {#insertonlinevideo_3}
+## DocumentBuilder.InsertOnlineVideo method (3 of 4)
 
 Inserts an online video object into the document and scales it to the specified size.
 
@@ -150,11 +150,11 @@ public Shape InsertOnlineVideo(string videoUrl, string videoEmbedCode, byte[] th
 
 The image node that was just inserted.
 
-### Remarks
+## Remarks
 
 You can change the image size, location, positioning method and other settings using the [`Shape`](../../../aspose.words.drawing/shape) object returned by this method.
 
-### Examples
+## Examples
 
 Shows how to insert an online video into a document with a custom thumbnail.
 
@@ -202,7 +202,7 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertOnlineVideoCustomThumbnail.docx")
 
 ---
 
-## InsertOnlineVideo(string, string, byte[], RelativeHorizontalPosition, double, RelativeVerticalPosition, double, double, double, WrapType) {#insertonlinevideo_2}
+## DocumentBuilder.InsertOnlineVideo method (4 of 4)
 
 Inserts an online video object into the document and scales it to the specified size.
 
@@ -229,11 +229,11 @@ public Shape InsertOnlineVideo(string videoUrl, string videoEmbedCode, byte[] th
 
 The image node that was just inserted.
 
-### Remarks
+## Remarks
 
 You can change the image size, location, positioning method and other settings using the [`Shape`](../../../aspose.words.drawing/shape) object returned by this method.
 
-### Examples
+## Examples
 
 Shows how to insert an online video into a document with a custom thumbnail.
 

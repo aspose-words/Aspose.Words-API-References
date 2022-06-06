@@ -6,7 +6,7 @@ type: docs
 weight: 330
 url: /net/aspose.words/documentbuilder/inserthtml/
 ---
-## InsertHtml(string) {#inserthtml}
+## DocumentBuilder.InsertHtml method (1 of 3)
 
 Inserts an HTML string into the document.
 
@@ -18,11 +18,11 @@ public void InsertHtml(string html)
 | --- | --- | --- |
 | html | String | An HTML string to insert into the document. |
 
-### Remarks
+## Remarks
 
 You can use this method to insert an HTML fragment or whole HTML document.
 
-### Examples
+## Examples
 
 Shows how to use a document builder to insert html content into a document.
 
@@ -127,7 +127,7 @@ private class HandleMergeFieldInsertHtml : IFieldMergingCallback
 
 ---
 
-## InsertHtml(string, bool) {#inserthtml_2}
+## DocumentBuilder.InsertHtml method (2 of 3)
 
 Inserts an HTML string into the document.
 
@@ -140,7 +140,7 @@ public void InsertHtml(string html, bool useBuilderFormatting)
 | html | String | An HTML string to insert into the document. |
 | useBuilderFormatting | Boolean | A value indicating whether formatting specified in [`DocumentBuilder`](../../documentbuilder) is used as base formatting for text imported from HTML. |
 
-### Remarks
+## Remarks
 
 You can use this method to insert an HTML fragment or whole HTML document.
 
@@ -148,7 +148,7 @@ When *useBuilderFormatting* is `false`, [`DocumentBuilder`](../../documentbuilde
 
 When *useBuilderFormatting* is `true`, formatting of inserted text is based on [`DocumentBuilder`](../../documentbuilder) formatting, and the text looks as if it were inserted with [`Write`](../write).
 
-### Examples
+## Examples
 
 Shows how to apply a document builder's formatting while inserting HTML content.
 
@@ -186,7 +186,7 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertHtmlWithFormatting.docx");
 
 ---
 
-## InsertHtml(string, HtmlInsertOptions) {#inserthtml_1}
+## DocumentBuilder.InsertHtml method (3 of 3)
 
 Inserts an HTML string into the document. Allows to specify additional options.
 
@@ -199,11 +199,11 @@ public void InsertHtml(string html, HtmlInsertOptions options)
 | html | String | An HTML string to insert into the document. |
 | options | HtmlInsertOptions | Options that are used when HTML string is inserted. |
 
-### Remarks
+## Remarks
 
 You can use this method to insert an HTML fragment or whole HTML document.
 
-### Examples
+## Examples
 
 Shows how to use options while inserting html.
 

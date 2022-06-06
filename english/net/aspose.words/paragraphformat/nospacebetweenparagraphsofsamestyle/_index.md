@@ -14,11 +14,11 @@ When true, [`SpaceBefore`](../spacebefore) and [`SpaceAfter`](../spaceafter) wil
 public bool NoSpaceBetweenParagraphsOfSameStyle { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 This setting only takes affect when applied to a paragraph style. If applied to a paragraph directly, it has no effect.
 
-### Examples
+## Examples
 
 Shows how to apply no spacing between paragraphs with the same style.
 

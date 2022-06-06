@@ -14,7 +14,7 @@ Gets or sets the height of the symbol. The units are in TWIPS (1/1440 inch).
 public string SymbolHeight { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to insert a DISPLAYBARCODE field, and set its properties.
 

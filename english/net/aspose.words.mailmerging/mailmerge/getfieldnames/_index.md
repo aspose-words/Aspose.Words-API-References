@@ -14,7 +14,7 @@ Returns a collection of mail merge field names available in the document.
 public string[] GetFieldNames()
 ```
 
-### Remarks
+## Remarks
 
 Returns full merge field names including optional prefix. Does not eliminate duplicate field names.
 
@@ -22,7 +22,7 @@ A new string[] array is created on every call.
 
 Includes "mustache" field names if [`UseNonMergeFields`](../usenonmergefields) is **true**.
 
-### Examples
+## Examples
 
 Shows how to get names of all merge fields in a document.
 

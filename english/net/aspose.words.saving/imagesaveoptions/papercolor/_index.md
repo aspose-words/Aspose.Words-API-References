@@ -16,11 +16,11 @@ The default value is White.
 public Color PaperColor { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 When rendering pages of a document that specifies its own background color, then the document background color will override the color specified by this property.
 
-### Examples
+## Examples
 
 Renders a page of a Word document into an image with transparent or colored background.
 

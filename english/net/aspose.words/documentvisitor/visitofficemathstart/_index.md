@@ -22,7 +22,7 @@ public virtual VisitorAction VisitOfficeMathStart(OfficeMath officeMath)
 
 A [`VisitorAction`](../../visitoraction) value that specifies how to continue the enumeration.
 
-### Examples
+## Examples
 
 Shows how to print the node structure of every office math node in a document.
 

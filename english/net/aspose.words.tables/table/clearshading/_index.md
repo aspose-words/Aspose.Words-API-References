@@ -14,7 +14,7 @@ Removes all shading on the table.
 public void ClearShading()
 ```
 
-### Examples
+## Examples
 
 Shows how to apply an outline border to a table.
 

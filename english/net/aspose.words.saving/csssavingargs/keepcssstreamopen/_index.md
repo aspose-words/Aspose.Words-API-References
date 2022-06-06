@@ -14,11 +14,11 @@ Specifies whether Aspose.Words should keep the stream open or close it after sav
 public bool KeepCssStreamOpen { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 Default is `false` and Aspose.Words will close the stream you provided in the [`CssStream`](../cssstream) property after writing an CSS information into it. Specify `true` to keep the stream open.
 
-### Examples
+## Examples
 
 Shows how to work with CSS stylesheets that an HTML conversion creates.
 

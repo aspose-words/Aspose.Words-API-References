@@ -14,7 +14,7 @@ Gets or sets a mail merge region start tag.
 public string RegionStartTag { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to create, list, and read mail merge regions.
 

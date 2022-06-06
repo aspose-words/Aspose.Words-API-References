@@ -49,11 +49,11 @@ public class FieldFillIn : Field
 | [Update](../../aspose.words.fields/field/update)() | Performs the field update. Throws if the field is being updated already. |
 | [Update](../../aspose.words.fields/field/update)(bool) | Performs a field update. Throws if the field is being updated already. |
 
-### Remarks
+## Remarks
 
 Prompts the user to enter text.
 
-### Examples
+## Examples
 
 Shows how to use the FILLIN field to prompt the user for a response.
 
@@ -85,7 +85,6 @@ public void FieldFillIn()
 
     doc.UpdateFields();
     doc.Save(ArtifactsDir + "Field.FILLIN.docx");
-}
 
 /// <summary>
 /// Prepends a line to the default response of every FILLIN field during a mail merge.

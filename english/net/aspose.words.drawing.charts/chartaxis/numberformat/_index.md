@@ -14,7 +14,7 @@ Returns a [`ChartNumberFormat`](../../chartnumberformat) object that allows defi
 public ChartNumberFormat NumberFormat { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to set formatting for chart values.
 

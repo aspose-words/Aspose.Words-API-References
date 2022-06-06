@@ -31,7 +31,7 @@ public enum MarkerSymbol
 | Triangle | `10` | Specifies a triangle shall be drawn at each data point. |
 | X | `11` | Specifies an X shall be drawn at each data point. |
 
-### Examples
+## Examples
 
 Shows how to work with data points on a line chart.
 

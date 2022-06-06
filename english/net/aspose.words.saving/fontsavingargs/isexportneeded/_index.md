@@ -14,12 +14,11 @@ Allows to specify whether the current font will be exported as a font resource. 
 public bool IsExportNeeded { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to define custom logic for exporting fonts when saving to HTML.
 
 ```csharp
-public void SaveExportedFonts()
 {
     Document doc = new Document(MyDir + "Rendering.docx");
 
@@ -38,8 +37,6 @@ public void SaveExportedFonts()
     {
         Console.WriteLine(fontFilename);
     }
-
-}
 
 /// <summary>
 /// Prints information about exported fonts and saves them in the same local system folder as their output .html.

@@ -42,13 +42,13 @@ public class SubDocument : Node
 | [ToString](../../aspose.words/node/tostring)(SaveFormat) | Exports the content of the node into a string in the specified format. |
 | [ToString](../../aspose.words/node/tostring)(SaveOptions) | Exports the content of the node into a string using the specified save options. |
 
-### Remarks
+## Remarks
 
 In this version of Aspose.Words, [`SubDocument`](../subdocument) nodes do not provide public methods and properties to create or modify a subdocument. In this version you are not able to instantiate SubDocument nodes or modify existing except deleting them.
 
 [`SubDocument`](../subdocument) can only be a child of [`Paragraph`](../paragraph).
 
-### Examples
+## Examples
 
 Shows how to access a master document's subdocument.
 
@@ -56,7 +56,6 @@ Shows how to access a master document's subdocument.
 Document doc = new Document(MyDir + "Master document.docx");
 
 NodeCollection subDocuments = doc.GetChildNodes(NodeType.SubDocument, true);
-
 // This node serves as a reference to an external document, and its contents cannot be accessed.
 SubDocument subDocument = (SubDocument)subDocuments[0];
 

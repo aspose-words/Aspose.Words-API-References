@@ -14,7 +14,7 @@ Gets or sets the file name (without path) where the resource will be saved to.
 public string ResourceFileName { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 This property allows you to redefine how the resource file names are generated during export to fixed page HTML or SVG.
 
@@ -30,7 +30,7 @@ When saving a document to a stream, the generated resource file name looks like 
 
 [`ResourcesFolder`](../../htmlfixedsaveoptions/resourcesfolder)[`ResourcesFolder`](../../svgsaveoptions/resourcesfolder)[`ResourcesFolderAlias`](../../htmlfixedsaveoptions/resourcesfolderalias)[`ResourcesFolderAlias`](../../svgsaveoptions/resourcesfolderalias)
 
-### Examples
+## Examples
 
 Shows how to use a callback to track external resources created while converting a document to HTML.
 

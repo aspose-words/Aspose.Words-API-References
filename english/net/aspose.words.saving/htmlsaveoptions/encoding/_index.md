@@ -14,7 +14,7 @@ Specifies the encoding to use when exporting to HTML, MHTML or EPUB. Default val
 public Encoding Encoding { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to use a specific encoding when saving a document to .epub.
 

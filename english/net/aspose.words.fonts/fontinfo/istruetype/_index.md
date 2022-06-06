@@ -14,7 +14,7 @@ Indicates that this font is a TrueType or OpenType font as opposed to a raster o
 public bool IsTrueType { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to print the details of what fonts are present in a document.
 
@@ -22,7 +22,6 @@ Shows how to print the details of what fonts are present in a document.
 Document doc = new Document(MyDir + "Embedded font.docx");
 
 FontInfoCollection allFonts = doc.FontInfos;
-
 // Print all the used and unused fonts in the document.
 for (int i = 0; i < allFonts.Count; i++)
 {

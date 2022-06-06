@@ -14,13 +14,13 @@ Gets or sets the vertical resolution for the generated images, in dots per inch.
 public float VerticalResolution { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 This property has effect only when saving to raster image formats and affects the output size in pixels.
 
 The default value is 96.
 
-### Examples
+## Examples
 
 Shows how to edit the image while Aspose.Words converts a document to one.
 

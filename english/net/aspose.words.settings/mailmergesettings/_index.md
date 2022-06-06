@@ -48,7 +48,7 @@ public class MailMergeSettings
 | [Clear](../../aspose.words.settings/mailmergesettings/clear)() | Clears the mail merge settings in such a way that when the document is saved, no mail merge settings will be saved and it will become a normal document. |
 | [Clone](../../aspose.words.settings/mailmergesettings/clone)() | Returns a deep clone of this object. |
 
-### Remarks
+## Remarks
 
 You can use this object to specify a mail merge data source for a document and this information (along with the available data fields) will appear in Microsoft Word when the user opens this document. Or you can use this object to query mail merge settings that the user has specified in Microsoft Word for this document.
 
@@ -62,7 +62,7 @@ The best way to learn how to use the properties of this object is to create a do
 
 Aspose.Words preserves mail merge information when loading, saving and converting documents between different formats, but does not use this information when performing its own mail merge using the [`MailMerge`](../../aspose.words.mailmerging/mailmerge) object.
 
-### Examples
+## Examples
 
 Shows how to execute a mail merge with data from an Office Data Source Object.
 

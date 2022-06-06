@@ -14,7 +14,7 @@ Font formatting that will be applied to the last character of text entered into 
 public Font EndCharacterFont { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to create a structured document tag in a plain text box and modify its appearance.
 

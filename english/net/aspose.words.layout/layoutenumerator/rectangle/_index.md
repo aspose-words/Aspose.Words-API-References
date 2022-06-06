@@ -14,7 +14,7 @@ Returns the bounding rectangle of the current entity relative to the page top le
 public RectangleF Rectangle { get; }
 ```
 
-### Examples
+## Examples
 
 Shows ways of traversing a document's layout entities.
 

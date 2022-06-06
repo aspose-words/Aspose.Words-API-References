@@ -90,7 +90,7 @@ public enum Compatibility
 | SwapInsideAndOutsideForMirrorIndentsAndRelativePositioning | `69` |  |
 | UseWord2010TableStyleRules | `70` |  |
 
-### Examples
+## Examples
 
 Shows how to optimize the document for different versions of Microsoft Word.
 

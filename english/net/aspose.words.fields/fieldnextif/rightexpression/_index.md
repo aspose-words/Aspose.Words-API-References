@@ -14,12 +14,11 @@ Gets or sets the right part of the comparison expression.
 public string RightExpression { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to use NEXT/NEXTIF fields to merge multiple rows into one page during a mail merge.
 
 ```csharp
-public void FieldNext()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -68,7 +67,6 @@ public void FieldNext()
     // Our data source has 3 rows, and we skipped rows twice. 
     // Our output document will have 1 page with data from all 3 rows.
     doc.Save(ArtifactsDir + "Field.NEXT.NEXTIF.docx");
-}
 
 /// <summary>
 /// Uses a document builder to insert MERGEFIELDs for a data source that contains columns named "Courtesy Title", "First Name" and "Last Name".

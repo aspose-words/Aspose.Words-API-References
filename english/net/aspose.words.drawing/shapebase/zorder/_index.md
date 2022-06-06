@@ -14,7 +14,7 @@ Determines the display order of overlapping shapes.
 public int ZOrder { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 Has effect only for top level shapes.
 
@@ -26,7 +26,7 @@ The order of overlapping shapes is independent for shapes in the header and in t
 
 The display order of child shapes in a group shape is determined by their order inside the group shape.
 
-### Examples
+## Examples
 
 Shows how to manipulate the order of shapes.
 

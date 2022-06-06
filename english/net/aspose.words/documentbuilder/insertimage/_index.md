@@ -6,7 +6,7 @@ type: docs
 weight: 350
 url: /net/aspose.words/documentbuilder/insertimage/
 ---
-## InsertImage(Image) {#insertimage_3}
+## DocumentBuilder.InsertImage method (1 of 12)
 
 Inserts an image from a .NET Image object into the document. The image is inserted inline and at 100% scale.
 
@@ -22,11 +22,11 @@ public Shape InsertImage(Image image)
 
 The image node that was just inserted.
 
-### Remarks
+## Remarks
 
 You can change the image size, location, positioning method and other settings using the [`Shape`](../../../aspose.words.drawing/shape) object returned by this method.
 
-### Examples
+## Examples
 
 Shows how to insert an image from an object into a document.
 
@@ -63,7 +63,7 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromImageObject.docx")
 
 ---
 
-## InsertImage(string) {#insertimage_9}
+## DocumentBuilder.InsertImage method (2 of 12)
 
 Inserts an image from a file or URL into the document. The image is inserted inline and at 100% scale.
 
@@ -79,13 +79,13 @@ public Shape InsertImage(string fileName)
 
 The image node that was just inserted.
 
-### Remarks
+## Remarks
 
 This overload will automatically download the image before inserting into the document if you specify a remote URI.
 
 You can change the image size, location, positioning method and other settings using the [`Shape`](../../../aspose.words.drawing/shape) object returned by this method.
 
-### Examples
+## Examples
 
 Shows how to insert gif image to the document.
 
@@ -196,7 +196,7 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromFilename.docx");
 
 ---
 
-## InsertImage(Stream) {#insertimage_6}
+## DocumentBuilder.InsertImage method (3 of 12)
 
 Inserts an image from a stream into the document. The image is inserted inline and at 100% scale.
 
@@ -212,11 +212,11 @@ public Shape InsertImage(Stream stream)
 
 The image node that was just inserted.
 
-### Remarks
+## Remarks
 
 You can change the image size, location, positioning method and other settings using the [`Shape`](../../../aspose.words.drawing/shape) object returned by this method.
 
-### Examples
+## Examples
 
 Shows how to insert a shape with an image from a stream into a document.
 
@@ -269,7 +269,7 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromStream.docx");
 
 ---
 
-## InsertImage(byte[]) {#insertimage}
+## DocumentBuilder.InsertImage method (4 of 12)
 
 Inserts an image from a byte array into the document. The image is inserted inline and at 100% scale.
 
@@ -285,11 +285,11 @@ public Shape InsertImage(byte[] imageBytes)
 
 The image node that was just inserted.
 
-### Remarks
+## Remarks
 
 You can change the image size, location, positioning method and other settings using the [`Shape`](../../../aspose.words.drawing/shape) object returned by this method.
 
-### Examples
+## Examples
 
 Shows how to insert an image from a byte array into a document.
 
@@ -368,7 +368,7 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromByteArrayNetStanda
 
 ---
 
-## InsertImage(Image, double, double) {#insertimage_5}
+## DocumentBuilder.InsertImage method (5 of 12)
 
 Inserts an inline image from a .NET Image object into the document and scales it to the specified size.
 
@@ -386,11 +386,11 @@ public Shape InsertImage(Image image, double width, double height)
 
 The image node that was just inserted.
 
-### Remarks
+## Remarks
 
 You can change the image size, location, positioning method and other settings using the [`Shape`](../../../aspose.words.drawing/shape) object returned by this method.
 
-### Examples
+## Examples
 
 Shows how to insert an image from an object into a document.
 
@@ -455,7 +455,7 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromImageObjectNetStan
 
 ---
 
-## InsertImage(string, double, double) {#insertimage_11}
+## DocumentBuilder.InsertImage method (6 of 12)
 
 Inserts an inline image from a file or URL into the document and scales it to the specified size.
 
@@ -473,11 +473,11 @@ public Shape InsertImage(string fileName, double width, double height)
 
 The image node that was just inserted.
 
-### Remarks
+## Remarks
 
 You can change the image size, location, positioning method and other settings using the [`Shape`](../../../aspose.words.drawing/shape) object returned by this method.
 
-### Examples
+## Examples
 
 Shows how to insert an image from the local file system into a document.
 
@@ -513,7 +513,7 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromFilename.docx");
 
 ---
 
-## InsertImage(Stream, double, double) {#insertimage_8}
+## DocumentBuilder.InsertImage method (7 of 12)
 
 Inserts an inline image from a stream into the document and scales it to the specified size.
 
@@ -531,11 +531,11 @@ public Shape InsertImage(Stream stream, double width, double height)
 
 The image node that was just inserted.
 
-### Remarks
+## Remarks
 
 You can change the image size, location, positioning method and other settings using the [`Shape`](../../../aspose.words.drawing/shape) object returned by this method.
 
-### Examples
+## Examples
 
 Shows how to insert an image from a stream into a document.
 
@@ -573,7 +573,7 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromStream.docx");
 
 ---
 
-## InsertImage(byte[], double, double) {#insertimage_2}
+## DocumentBuilder.InsertImage method (8 of 12)
 
 Inserts an inline image from a byte array into the document and scales it to the specified size.
 
@@ -591,11 +591,11 @@ public Shape InsertImage(byte[] imageBytes, double width, double height)
 
 The image node that was just inserted.
 
-### Remarks
+## Remarks
 
 You can change the image size, location, positioning method and other settings using the [`Shape`](../../../aspose.words.drawing/shape) object returned by this method.
 
-### Examples
+## Examples
 
 Shows how to insert an image from a byte array into a document.
 
@@ -674,7 +674,7 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromByteArrayNetStanda
 
 ---
 
-## InsertImage(Image, RelativeHorizontalPosition, double, RelativeVerticalPosition, double, double, double, WrapType) {#insertimage_4}
+## DocumentBuilder.InsertImage method (9 of 12)
 
 Inserts an image from a .NET Image object at the specified position and size.
 
@@ -698,11 +698,11 @@ public Shape InsertImage(Image image, RelativeHorizontalPosition horzPos, double
 
 The image node that was just inserted.
 
-### Remarks
+## Remarks
 
 You can change the image size, location, positioning method and other settings using the [`Shape`](../../../aspose.words.drawing/shape) object returned by this method.
 
-### Examples
+## Examples
 
 Shows how to insert an image from an object into a document.
 
@@ -770,7 +770,7 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromImageObjectNetStan
 
 ---
 
-## InsertImage(string, RelativeHorizontalPosition, double, RelativeVerticalPosition, double, double, double, WrapType) {#insertimage_10}
+## DocumentBuilder.InsertImage method (10 of 12)
 
 Inserts an image from a file or URL at the specified position and size.
 
@@ -794,11 +794,11 @@ public Shape InsertImage(string fileName, RelativeHorizontalPosition horzPos, do
 
 The image node that was just inserted.
 
-### Remarks
+## Remarks
 
 You can change the image size, location, positioning method and other settings using the [`Shape`](../../../aspose.words.drawing/shape) object returned by this method.
 
-### Examples
+## Examples
 
 Shows how to insert an image.
 
@@ -874,7 +874,7 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromFilename.docx");
 
 ---
 
-## InsertImage(Stream, RelativeHorizontalPosition, double, RelativeVerticalPosition, double, double, double, WrapType) {#insertimage_7}
+## DocumentBuilder.InsertImage method (11 of 12)
 
 Inserts an image from a stream at the specified position and size.
 
@@ -898,11 +898,11 @@ public Shape InsertImage(Stream stream, RelativeHorizontalPosition horzPos, doub
 
 The image node that was just inserted.
 
-### Remarks
+## Remarks
 
 You can change the image size, location, positioning method and other settings using the [`Shape`](../../../aspose.words.drawing/shape) object returned by this method.
 
-### Examples
+## Examples
 
 Shows how to insert an image from a stream into a document.
 
@@ -943,7 +943,7 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromStream.docx");
 
 ---
 
-## InsertImage(byte[], RelativeHorizontalPosition, double, RelativeVerticalPosition, double, double, double, WrapType) {#insertimage_1}
+## DocumentBuilder.InsertImage method (12 of 12)
 
 Inserts an image from a byte array at the specified position and size.
 
@@ -967,11 +967,11 @@ public Shape InsertImage(byte[] imageBytes, RelativeHorizontalPosition horzPos, 
 
 The image node that was just inserted.
 
-### Remarks
+## Remarks
 
 You can change the image size, location, positioning method and other settings using the [`Shape`](../../../aspose.words.drawing/shape) object returned by this method.
 
-### Examples
+## Examples
 
 Shows how to insert an image from a byte array into a document.
 

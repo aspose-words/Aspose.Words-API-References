@@ -22,7 +22,7 @@ public CustomXmlPart GetById(string id)
 
 Returns `null` if a custom XML part with the specified identifier is not found.
 
-### Examples
+## Examples
 
 Shows how to create a structured document tag with custom XML data.
 
