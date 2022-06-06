@@ -14,7 +14,7 @@ Gets or sets whether the character retrieved by the field affects the line spaci
 public bool DontAffectsLineSpacing { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to use the SYMBOL field.
 

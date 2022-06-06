@@ -14,7 +14,7 @@ Gets or sets the pixel format for the generated images.
 public ImagePixelFormat PixelFormat { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 This property has effect only when saving to raster image formats.
 
@@ -22,7 +22,7 @@ The default value is Format32BppArgb.
 
 Pixel format of the output image may differ from the set value because of work of GDI+.
 
-### Examples
+## Examples
 
 Shows how to select a bit-per-pixel rate with which to render a document to an image.
 
@@ -66,7 +66,7 @@ Document doc = new Document();
                     Assert.That(200000, Is.LessThan(new FileInfo(ArtifactsDir + "ImageSaveOptions.PixelFormat.png").Length));
                     break;
             }
-#elif NET5_0
+#elif NET5_0_OR_GREATER
             switch (imagePixelFormat)
             {
                 case ImagePixelFormat.Format1bppIndexed:

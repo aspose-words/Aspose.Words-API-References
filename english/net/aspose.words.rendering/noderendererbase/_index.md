@@ -37,7 +37,7 @@ public abstract class NodeRendererBase
 | [Save](../../aspose.words.rendering/noderendererbase/save)(Stream, ImageSaveOptions) | Renders the shape into an image and saves into a stream. |
 | [Save](../../aspose.words.rendering/noderendererbase/save)(string, ImageSaveOptions) | Renders the shape into an image and saves into a file. |
 
-### Examples
+## Examples
 
 Shows how to measure and scale shapes.
 

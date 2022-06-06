@@ -18,7 +18,7 @@ public void MoveToHeaderFooter(HeaderFooterType headerFooterType)
 | --- | --- | --- |
 | headerFooterType | HeaderFooterType | Specifies the header or footer to move to. |
 
-### Remarks
+## Remarks
 
 After you moved the cursor into a header or footer, you can use the rest of DocumentBuilder methods to modify the contents of the header or footer.
 
@@ -28,7 +28,7 @@ If you want to create headers and footers different for even and odd pages, you 
 
 Use [`MoveToSection`](../movetosection) to move out of the header into the main text.
 
-### Examples
+## Examples
 
 Shows how to insert an image, and use it as a watermark.
 

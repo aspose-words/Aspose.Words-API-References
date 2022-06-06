@@ -14,11 +14,11 @@ Specifies whether Aspose.Words should keep the stream open or close it after sav
 public bool KeepDocumentPartStreamOpen { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 Default is `false` and Aspose.Words will close the stream you provided in the [`DocumentPartStream`](../documentpartstream) property after writing a document part into it. Specify `true` to keep the stream open. Please note that the main output stream provided in the call to [`Save`](../../../aspose.words/document/save) or [`Save`](../../../aspose.words/document/save) will never be closed by Aspose.Words even if `KeepDocumentPartStreamOpen` is set to `false`.
 
-### Examples
+## Examples
 
 Shows how to split a document into parts and save them.
 

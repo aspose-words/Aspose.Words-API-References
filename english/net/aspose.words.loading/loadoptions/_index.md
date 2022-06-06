@@ -43,7 +43,7 @@ public class LoadOptions
 | [UpdateDirtyFields](../../aspose.words.loading/loadoptions/updatedirtyfields) { get; set; } | Specifies whether to update the fields with the `dirty` attribute. |
 | [WarningCallback](../../aspose.words.loading/loadoptions/warningcallback) { get; set; } | Called during a load operation, when an issue is detected that might result in data or formatting fidelity loss. |
 
-### Examples
+## Examples
 
 Shows how to load an encrypted Microsoft Word document.
 
@@ -59,12 +59,10 @@ LoadOptions options = new LoadOptions("docPassword");
 // There are two ways of loading an encrypted document with a LoadOptions object.
 // 1 -  Load the document from the local file system by filename:
 doc = new Document(MyDir + "Encrypted.docx", options);
-
 // 2 -  Load the document from a stream:
 using (Stream stream = File.OpenRead(MyDir + "Encrypted.docx"))
 {
     doc = new Document(stream, options);
-}
 ```
 
 ### See Also

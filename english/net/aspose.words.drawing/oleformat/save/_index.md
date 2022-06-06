@@ -24,11 +24,11 @@ public void Save(Stream stream)
 | --- | --- |
 | InvalidOperationException | Throws if you attempt to save a linked object. |
 
-### Remarks
+## Remarks
 
 It is the responsibility of the caller to dispose the stream.
 
-### Examples
+## Examples
 
 Shows how to extract embedded OLE objects into files.
 
@@ -86,7 +86,7 @@ public void Save(string fileName)
 | --- | --- |
 | InvalidOperationException | Throws if you attempt to save a linked object. |
 
-### Examples
+## Examples
 
 Shows how to extract embedded OLE objects into files.
 

@@ -14,7 +14,7 @@ Initializes a new instance of this class that can be used to save a document in 
 public OdtSaveOptions()
 ```
 
-### Examples
+## Examples
 
 Shows how to make a saved document conform to an older ODT schema.
 
@@ -66,7 +66,7 @@ public OdtSaveOptions(SaveFormat saveFormat)
 | --- | --- | --- |
 | saveFormat | SaveFormat | Can be Odt or Ott. |
 
-### Examples
+## Examples
 
 Shows how to encrypt a saved ODT/OTT document with a password, and then load it using Aspose.Words.
 

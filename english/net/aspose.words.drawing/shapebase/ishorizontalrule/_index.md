@@ -14,7 +14,7 @@ Returns true if this shape is a horizontal rule.
 public bool IsHorizontalRule { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to insert a horizontal rule shape, and customize its formatting.
 

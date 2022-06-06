@@ -31,7 +31,7 @@ public class XmlMapping
 | [Delete](../../aspose.words.markup/xmlmapping/delete)() | Deletes mapping of the parent structured document to XML data. |
 | [SetMapping](../../aspose.words.markup/xmlmapping/setmapping)(CustomXmlPart, string, string) | Sets a mapping between the parent structured document tag and an XML node of a custom XML data part. |
 
-### Examples
+## Examples
 
 Shows how to set XML mappings for custom XML parts.
 

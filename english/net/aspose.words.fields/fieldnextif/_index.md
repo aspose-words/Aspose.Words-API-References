@@ -49,16 +49,15 @@ public class FieldNextIf : Field
 | [Update](../../aspose.words.fields/field/update)() | Performs the field update. Throws if the field is being updated already. |
 | [Update](../../aspose.words.fields/field/update)(bool) | Performs a field update. Throws if the field is being updated already. |
 
-### Remarks
+## Remarks
 
 Compares the values designated by the expressions [`LeftExpression`](./leftexpression) and [`RightExpression`](./rightexpression) in comparison using the operator designated by [`ComparisonOperator`](./comparisonoperator). If the comparison is true, the next data record is merged into the current merge document. (Merge fields that follow the NEXTIF in the main document are replaced by values from the next data record rather than the current data record.) If the comparison is false, the next data record is merged into a new merge document.
 
-### Examples
+## Examples
 
 Shows how to use NEXT/NEXTIF fields to merge multiple rows into one page during a mail merge.
 
 ```csharp
-public void FieldNext()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -107,7 +106,6 @@ public void FieldNext()
     // Our data source has 3 rows, and we skipped rows twice. 
     // Our output document will have 1 page with data from all 3 rows.
     doc.Save(ArtifactsDir + "Field.NEXT.NEXTIF.docx");
-}
 
 /// <summary>
 /// Uses a document builder to insert MERGEFIELDs for a data source that contains columns named "Courtesy Title", "First Name" and "Last Name".

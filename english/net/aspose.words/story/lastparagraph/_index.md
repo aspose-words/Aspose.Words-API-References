@@ -14,7 +14,7 @@ Gets the last paragraph in the story.
 public Paragraph LastParagraph { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to move a DocumentBuilder's cursor position to a specified node.
 
@@ -29,8 +29,6 @@ builder.Writeln("Run 1. ");
 // and it also always ends up immediately after any node that the builder just inserted.
 // To append content to a different part of the document,
 // we can move the cursor to a different node with the "MoveTo" method.
-builder.MoveTo(doc.FirstSection.Body.FirstParagraph.Runs[0]);
-
 // The cursor is now in front of the node that we moved it to.
 // Adding a second run will insert it in front of the first run.
 builder.Writeln("Run 2. ");

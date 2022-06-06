@@ -18,11 +18,11 @@ public static double PixelToPoint(double pixels)
 | --- | --- | --- |
 | pixels | Double | The value to convert. |
 
-### Remarks
+## Remarks
 
 1 inch equals 72 points.
 
-### Examples
+## Examples
 
 Shows how to specify page properties in pixels.
 
@@ -76,11 +76,11 @@ public static double PixelToPoint(double pixels, double resolution)
 | pixels | Double | The value to convert. |
 | resolution | Double | The dpi (dots per inch) resolution. |
 
-### Remarks
+## Remarks
 
 1 inch equals 72 points.
 
-### Examples
+## Examples
 
 Shows how to use convert points to pixels with default and custom resolution.
 

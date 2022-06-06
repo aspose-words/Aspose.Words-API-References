@@ -14,16 +14,15 @@ Gets or sets a value determining how metafile images should be rendered.
 public MetafileRenderingMode RenderingMode { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 The default value depends on the save format. For images it is Bitmap. For other formats it is VectorWithFallback.
 
-### Examples
+## Examples
 
 Shows added a fallback to bitmap rendering and changing type of warnings about unsupported metafile records.
 
 ```csharp
-public void HandleBinaryRasterWarnings()
 {
     Document doc = new Document(MyDir + "WMF with image.docx");
 

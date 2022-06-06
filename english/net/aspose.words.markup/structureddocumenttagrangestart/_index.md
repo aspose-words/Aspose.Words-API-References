@@ -69,11 +69,11 @@ public class StructuredDocumentTagRangeStart : Node, IEnumerable<Node>, IStructu
 | [ToString](../../aspose.words/node/tostring)(SaveFormat) | Exports the content of the node into a string in the specified format. |
 | [ToString](../../aspose.words/node/tostring)(SaveOptions) | Exports the content of the node into a string using the specified save options. |
 
-### Remarks
+## Remarks
 
 Can be immediate child of [`Body`](../../aspose.words/body) node **only**.
 
-### Examples
+## Examples
 
 Shows how to get the properties of multi-section structured document tags.
 
@@ -97,6 +97,7 @@ Console.WriteLine($"\t|NodeType: {rangeStartTag.NodeType}");
 Console.WriteLine($"\t|RangeEnd: {rangeStartTag.RangeEnd}");
 Console.WriteLine($"\t|Color: {rangeStartTag.Color.ToArgb()}");
 Console.WriteLine($"\t|SdtType: {rangeStartTag.SdtType}");
+Console.WriteLine($"\t|FlatOpcContent: {rangeStartTag.WordOpenXML}");
 Console.WriteLine($"\t|Tag: {rangeStartTag.Tag}\n");
 
 Console.WriteLine("StructuredDocumentTagRangeEnd values:");

@@ -20,7 +20,7 @@ public void SetBorders(LineStyle lineStyle, double lineWidth, Color color)
 | lineWidth | Double | The line width to set (in points). |
 | color | Color | The color to use for the border. |
 
-### Examples
+## Examples
 
 Shows how to format of all of a table's borders at once.
 

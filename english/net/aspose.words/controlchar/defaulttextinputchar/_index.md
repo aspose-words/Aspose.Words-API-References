@@ -14,7 +14,7 @@ This is the "o" character used as a default value in text input form fields.
 public const char DefaultTextInputChar;
 ```
 
-### Examples
+## Examples
 
 Shows how to add various control characters to a document.
 

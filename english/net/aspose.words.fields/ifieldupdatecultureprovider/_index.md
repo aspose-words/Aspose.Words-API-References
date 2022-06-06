@@ -20,7 +20,7 @@ public interface IFieldUpdateCultureProvider
 | --- | --- |
 | [GetCulture](../../aspose.words.fields/ifieldupdatecultureprovider/getculture)(string, Field) | Returns a CultureInfo object to be used during the field's update. |
 
-### Examples
+## Examples
 
 Shows how to specify a culture which parses date/time formatting for each field.
 

@@ -14,7 +14,7 @@ Gets or sets value that is `true` if the formatting applied to this instance, is
 public bool Visible { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows to create a variety of shapes.
 

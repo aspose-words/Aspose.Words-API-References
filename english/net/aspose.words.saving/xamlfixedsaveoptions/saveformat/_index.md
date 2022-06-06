@@ -14,7 +14,7 @@ Specifies the format in which the document will be saved if this save options ob
 public override SaveFormat SaveFormat { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to print the URIs of linked resources created while converting a document to fixed-form .xaml.
 

@@ -20,7 +20,7 @@ public void Compare(Document document, string author, DateTime dateTime)
 | author | String | Initials of the author to use for revisions. |
 | dateTime | DateTime | The date and time to use for revisions. |
 
-### Remarks
+## Remarks
 
 The following document nodes are not compared at the moment:
 
@@ -29,7 +29,7 @@ The following document nodes are not compared at the moment:
 
 Documents must not have revisions before comparison.
 
-### Examples
+## Examples
 
 Shows how to compare documents.
 
@@ -48,7 +48,6 @@ if (docOriginal.Revisions.Count == 0 && docEdited.Revisions.Count == 0)
 
 // After the comparison, the original document will gain a new revision
 // for every element that is different in the edited document.
-foreach (Revision r in docOriginal.Revisions)
 {
     Console.WriteLine($"Revision type: {r.RevisionType}, on a node of type \"{r.ParentNode.NodeType}\"");
     Console.WriteLine($"\tChanged text: \"{r.ParentNode.GetText()}\"");
@@ -76,7 +75,7 @@ Compares this document with another document producing changes as a number of ed
 public void Compare(Document document, string author, DateTime dateTime, CompareOptions options)
 ```
 
-### Examples
+## Examples
 
 Shows how to filter specific types of document elements when making a comparison.
 

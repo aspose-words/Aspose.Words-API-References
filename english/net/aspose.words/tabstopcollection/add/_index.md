@@ -18,11 +18,11 @@ public void Add(TabStop tabStop)
 | --- | --- | --- |
 | tabStop | TabStop | A tab stop object to add. |
 
-### Remarks
+## Remarks
 
 If a tab stop already exists at the specified position, it is replaced.
 
-### Examples
+## Examples
 
 Shows how to add custom tab stops to a document.
 
@@ -76,11 +76,11 @@ public void Add(double position, TabAlignment alignment, TabLeader leader)
 | alignment | TabAlignment | A [`TabAlignment`](../../tabalignment) value that specifies the alignment of text at the tab stop. |
 | leader | TabLeader | A [`TabLeader`](../../tableader) value that specifies the type of the leader line displayed under the tab character. |
 
-### Remarks
+## Remarks
 
 If a tab stop already exists at the specified position, it is replaced.
 
-### Examples
+## Examples
 
 Shows how to add custom tab stops to a document.
 

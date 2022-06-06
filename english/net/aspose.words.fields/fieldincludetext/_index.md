@@ -55,11 +55,11 @@ public class FieldIncludeText : Field
 | [Update](../../aspose.words.fields/field/update)() | Performs the field update. Throws if the field is being updated already. |
 | [Update](../../aspose.words.fields/field/update)(bool) | Performs a field update. Throws if the field is being updated already. |
 
-### Remarks
+## Remarks
 
 Inserts all or part of the text and graphics contained in another document.
 
-### Examples
+## Examples
 
 Shows how to create an INCLUDETEXT field, and set its properties.
 
@@ -82,7 +82,6 @@ public void FieldIncludeText()
     fieldIncludeText.XPath = "/catalog/cd/title";
 
     doc.Save(ArtifactsDir + "Field.INCLUDETEXT.docx");
-}
 
 /// <summary>
 /// Use a document builder to insert an INCLUDETEXT field with custom properties.

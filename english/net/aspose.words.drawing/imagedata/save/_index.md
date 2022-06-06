@@ -18,11 +18,11 @@ public void Save(Stream stream)
 | --- | --- | --- |
 | stream | Stream | The stream where to save the image to. |
 
-### Remarks
+## Remarks
 
 Is it the responsibility of the caller to dispose the stream object.
 
-### Examples
+## Examples
 
 Shows how to save all images from a document to the file system.
 
@@ -72,7 +72,7 @@ public void Save(string fileName)
 | --- | --- | --- |
 | fileName | String | The file name where to save the image. |
 
-### Examples
+## Examples
 
 Shows how to extract images from a document, and save them to the local file system as individual files.
 

@@ -20,13 +20,13 @@ public double Scale { get; set; }
 | --- | --- |
 | ArgumentOutOfRangeException | Throws when argument was out of the range of valid values. |
 
-### Remarks
+## Remarks
 
 Valid values range from 0 to 65.5 inclusive.
 
 Auto scale means that the watermark will be scaled to its max width and max height relative to the page margins.
 
-### Examples
+## Examples
 
 Shows how to create a watermark from an image in the local file system.
 
@@ -41,7 +41,7 @@ Document doc = new Document();
 
 #if NET48 || JAVA
             doc.Watermark.SetImage(Image.FromFile(ImageDir + "Logo.jpg"), imageWatermarkOptions);
-#elif NET5_0 || __MOBILE__
+#elif NET5_0_OR_GREATER || __MOBILE__
             using (SKBitmap image = SKBitmap.Decode(ImageDir + "Logo.jpg"))
             {
                 doc.Watermark.SetImage(image, imageWatermarkOptions);

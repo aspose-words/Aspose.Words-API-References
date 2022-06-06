@@ -14,15 +14,16 @@ Settings related to font config substitution rule.
 public FontConfigSubstitutionRule FontConfigSubstitution { get; }
 ```
 
-### Examples
+## Examples
 
 Shows operating system-dependent font config substitution.
 
 ```csharp
 FontSettings fontSettings = new FontSettings();
-FontConfigSubstitutionRule fontConfigSubstitution = fontSettings.SubstitutionSettings.FontConfigSubstitution;
+FontConfigSubstitutionRule fontConfigSubstitution =
+    fontSettings.SubstitutionSettings.FontConfigSubstitution;
 
-bool isWindows = new[] { PlatformID.Win32NT, PlatformID.Win32S, PlatformID.Win32Windows, PlatformID.WinCE }
+bool isWindows = new[] {PlatformID.Win32NT, PlatformID.Win32S, PlatformID.Win32Windows, PlatformID.WinCE}
     .Any(p => Environment.OSVersion.Platform == p);
 
 // The FontConfigSubstitutionRule object works differently on Windows/non-Windows platforms.
@@ -33,7 +34,8 @@ if (isWindows)
     Assert.False(fontConfigSubstitution.IsFontConfigAvailable());
 }
 
-bool isLinuxOrMac = new[] { PlatformID.Unix, PlatformID.MacOSX }.Any(p => Environment.OSVersion.Platform == p);
+bool isLinuxOrMac =
+    new[] {PlatformID.Unix, PlatformID.MacOSX}.Any(p => Environment.OSVersion.Platform == p);
 
 // On Linux/Mac, we will have access to it, and will be able to perform operations.
 if (isLinuxOrMac)

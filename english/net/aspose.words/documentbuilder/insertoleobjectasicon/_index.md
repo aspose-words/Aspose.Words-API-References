@@ -26,7 +26,7 @@ public Shape InsertOleObjectAsIcon(string fileName, bool isLinked, string iconFi
 
 Shape node containing Ole object and inserted at the current Builder position.
 
-### Examples
+## Examples
 
 Shows how to insert an OLE object into a document.
 
@@ -89,7 +89,7 @@ public Shape InsertOleObjectAsIcon(string fileName, string progId, bool isLinked
 
 Shape node containing Ole object and inserted at the current Builder position.
 
-### Examples
+## Examples
 
 Shows how to insert an embedded or linked OLE object as icon into the document.
 
@@ -147,7 +147,7 @@ public Shape InsertOleObjectAsIcon(Stream stream, string progId, string iconFile
 
 Shape node containing Ole object and inserted at the current Builder position.
 
-### Examples
+## Examples
 
 Shows how to insert an embedded or linked OLE object as icon into the document.
 

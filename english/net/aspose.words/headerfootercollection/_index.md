@@ -37,7 +37,7 @@ public class HeaderFooterCollection : NodeCollection
 | [RemoveAt](../../aspose.words/nodecollection/removeat)(int) | Removes the node at the specified index from the collection and from the document. |
 | [ToArray](../../aspose.words/headerfootercollection/toarray)() | Copies all `HeaderFoorter`s from the collection to a new array of `HeaderFoorter`s. (2 methods) |
 
-### Remarks
+## Remarks
 
 There can be maximum of one **HeaderFooter**
 
@@ -45,7 +45,7 @@ of each [`HeaderFooterType`](../headerfootertype) per **Section**.
 
 **HeaderFooter** objects can occur in any order in the collection.
 
-### Examples
+## Examples
 
 Shows how to delete all footers from a document.
 

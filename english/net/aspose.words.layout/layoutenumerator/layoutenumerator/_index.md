@@ -18,13 +18,13 @@ public LayoutEnumerator(Document document)
 | --- | --- | --- |
 | document | Document | A document whose page layout model to enumerate. |
 
-### Remarks
+## Remarks
 
 If page layout model of the document hasn't been built the enumerator calls [`UpdatePageLayout`](../../../aspose.words/document/updatepagelayout) to build it.
 
 Whenever document is updated and new page layout model is created, a new enumerator must be used to access it.
 
-### Examples
+## Examples
 
 Shows ways of traversing a document's layout entities.
 

@@ -14,7 +14,7 @@ Gets or sets the character to be used as a column delimiter.
 public char Delimiter { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 The default value is ',' (comma).
 

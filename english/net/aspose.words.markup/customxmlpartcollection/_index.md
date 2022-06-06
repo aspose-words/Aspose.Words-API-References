@@ -39,11 +39,11 @@ public class CustomXmlPartCollection : IEnumerable<CustomXmlPart>
 | [GetEnumerator](../../aspose.words.markup/customxmlpartcollection/getenumerator)() | Returns an enumerator object that can be used to iterate over all items in the collection. |
 | [RemoveAt](../../aspose.words.markup/customxmlpartcollection/removeat)(int) | Removes an item at the specified index. |
 
-### Remarks
+## Remarks
 
 You do not normally need to create instances of this class. You can access custom XML data stored in a document via the [`CustomXmlParts`](../../aspose.words/document/customxmlparts) property.
 
-### Examples
+## Examples
 
 Shows how to create a structured document tag with custom XML data.
 

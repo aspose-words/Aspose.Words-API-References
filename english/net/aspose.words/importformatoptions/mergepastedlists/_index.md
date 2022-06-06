@@ -14,7 +14,7 @@ Gets or sets a boolean value that specifies whether pasted lists will be merged 
 public bool MergePastedLists { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to merge lists from a documents.
 

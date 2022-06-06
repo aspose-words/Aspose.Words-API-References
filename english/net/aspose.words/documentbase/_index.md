@@ -71,13 +71,13 @@ public abstract class DocumentBase : CompositeNode
 | [ToString](../../aspose.words/node/tostring)(SaveFormat) | Exports the content of the node into a string in the specified format. |
 | [ToString](../../aspose.words/node/tostring)(SaveOptions) | Exports the content of the node into a string using the specified save options. |
 
-### Remarks
+## Remarks
 
 Aspose.Words represents a Word document as a tree of nodes. [`DocumentBase`](../documentbase) is a root node of the tree that contains all other nodes of the document.
 
 [`DocumentBase`](../documentbase) also stores document-wide information such as [`Styles`](./styles) and [`Lists`](./lists) that the tree nodes might refer to.
 
-### Examples
+## Examples
 
 Shows how to initialize the subclasses of DocumentBase.
 

@@ -14,12 +14,11 @@ Gets or sets whether to display the number without a trailing period.
 public bool RemoveTrailingPeriod { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to organize a document using AUTONUMLGL fields.
 
 ```csharp
-public void FieldAutoNumLgl()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -69,7 +68,6 @@ public void FieldAutoNumLgl()
     }
 
     doc.Save(ArtifactsDir + "Field.AUTONUMLGL.docx");
-}
 
 /// <summary>
 /// Uses a document builder to insert a clause numbered by an AUTONUMLGL field.

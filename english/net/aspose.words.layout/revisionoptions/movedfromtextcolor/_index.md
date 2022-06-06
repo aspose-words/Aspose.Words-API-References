@@ -14,7 +14,7 @@ Allows to specify the color to be used for areas where content was moved from Mo
 public RevisionColor MovedFromTextColor { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to modify the appearance of revisions.
 

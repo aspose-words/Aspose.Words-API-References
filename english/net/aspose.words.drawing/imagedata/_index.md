@@ -50,7 +50,7 @@ public class ImageData
 | [ToImage](../../aspose.words.drawing/imagedata/toimage)() | Gets the image stored in the shape as a Image object. |
 | [ToStream](../../aspose.words.drawing/imagedata/tostream)() | Creates and returns a stream that contains the image bytes. |
 
-### Remarks
+## Remarks
 
 Use the [`ImageData`](../shape/imagedata) property to access and modify the image inside a shape. You do not create instances of the [`ImageData`](../imagedata) class directly.
 
@@ -60,7 +60,7 @@ Regardless of whether the image is stored inside the shape or linked, you can al
 
 To store an image inside a shape use the [`SetImage`](./setimage) method. To link an image to a shape, set the [`SourceFullName`](./sourcefullname) property.
 
-### Examples
+## Examples
 
 Shows how to extract images from a document, and save them to the local file system as individual files.
 

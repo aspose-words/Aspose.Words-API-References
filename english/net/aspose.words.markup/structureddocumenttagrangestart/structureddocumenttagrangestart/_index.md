@@ -19,7 +19,7 @@ public StructuredDocumentTagRangeStart(DocumentBase doc, SdtType type)
 | doc | DocumentBase | The owner document. |
 | type | SdtType | Type of SDT node. |
 
-### Remarks
+## Remarks
 
 The following types of SDT can be created:
 
@@ -33,12 +33,11 @@ The following types of SDT can be created:
 * RichText
 * PlainText
 
-### Examples
+## Examples
 
 Shows how to create/remove structured document tag and its content.
 
 ```csharp
-public void SdtRangeExtendedMethods()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);

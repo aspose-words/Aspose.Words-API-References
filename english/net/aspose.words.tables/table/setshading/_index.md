@@ -20,7 +20,7 @@ public void SetShading(TextureIndex texture, Color foregroundColor, Color backgr
 | foregroundColor | Color | The color of the texture. |
 | backgroundColor | Color | The color of the background fill. |
 
-### Examples
+## Examples
 
 Shows how to apply an outline border to a table.
 

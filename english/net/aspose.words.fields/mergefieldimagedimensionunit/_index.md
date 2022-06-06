@@ -21,12 +21,11 @@ public enum MergeFieldImageDimensionUnit
 | Point | `0` | The point (i.e. 1/72 inch). |
 | Percent | `1` | The percent of the original image dimension value. |
 
-### Examples
+## Examples
 
 Shows how to set the dimensions of images as MERGEFIELDS accepts them during a mail merge.
 
 ```csharp
-public void MergeFieldImageDimension()
 {
     Document doc = new Document();
 
@@ -51,7 +50,6 @@ public void MergeFieldImageDimension()
 
     doc.UpdateFields();
     doc.Save(ArtifactsDir + "Field.MERGEFIELD.ImageDimension.docx");
-}
 
 /// <summary>
 /// Sets the size of all mail merged images to one defined width and height.

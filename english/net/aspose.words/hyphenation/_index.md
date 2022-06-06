@@ -30,12 +30,11 @@ public static class Hyphenation
 | static [RegisterDictionary](../../aspose.words/hyphenation/registerdictionary)(string, string) | Registers and loads a hyphenation dictionary for the specified language from file. Throws if dictionary cannot be read or has invalid format. |
 | static [UnregisterDictionary](../../aspose.words/hyphenation/unregisterdictionary)(string) | Unregisters a hyphenation dictionary for the specified language. |
 
-### Examples
+## Examples
 
 Shows how to open and register a dictionary from a file.
 
 ```csharp
-public void RegisterDictionary()
 {
     // Set up a callback that tracks warnings that occur during hyphenation dictionary registration.
     WarningInfoCollection warningInfoCollection = new WarningInfoCollection();

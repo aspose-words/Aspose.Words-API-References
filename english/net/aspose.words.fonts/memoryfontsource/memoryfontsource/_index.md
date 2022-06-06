@@ -18,7 +18,7 @@ public MemoryFontSource(byte[] fontData)
 | --- | --- | --- |
 | fontData | Byte[] | Binary font data. |
 
-### Examples
+## Examples
 
 Shows how to use a byte array with data from a font file as a font source.
 
@@ -28,7 +28,7 @@ MemoryFontSource memoryFontSource = new MemoryFontSource(fontBytes, 0);
 
 Document doc = new Document();
 doc.FontSettings = new FontSettings();
-doc.FontSettings.SetFontsSources(new FontSourceBase[] { memoryFontSource });
+doc.FontSettings.SetFontsSources(new FontSourceBase[] {memoryFontSource});
 
 Assert.AreEqual(FontSourceType.MemoryFont, memoryFontSource.Type);
 Assert.AreEqual(0, memoryFontSource.Priority);
@@ -55,7 +55,7 @@ public MemoryFontSource(byte[] fontData, int priority)
 | fontData | Byte[] | Binary font data. |
 | priority | Int32 | Font source priority. See the [`Priority`](../../fontsourcebase/priority) property description for more information. |
 
-### Examples
+## Examples
 
 Shows how to use a byte array with data from a font file as a font source.
 
@@ -65,7 +65,7 @@ MemoryFontSource memoryFontSource = new MemoryFontSource(fontBytes, 0);
 
 Document doc = new Document();
 doc.FontSettings = new FontSettings();
-doc.FontSettings.SetFontsSources(new FontSourceBase[] { memoryFontSource });
+doc.FontSettings.SetFontsSources(new FontSourceBase[] {memoryFontSource});
 
 Assert.AreEqual(FontSourceType.MemoryFont, memoryFontSource.Type);
 Assert.AreEqual(0, memoryFontSource.Priority);
@@ -92,6 +92,55 @@ public MemoryFontSource(byte[] fontData, int priority, string cacheKey)
 | fontData | Byte[] | Binary font data. |
 | priority | Int32 | Font source priority. See the [`Priority`](../../fontsourcebase/priority) property description for more information. |
 | cacheKey | String | The key of this source in the cache. See [`CacheKey`](../cachekey) property description for more information. |
+
+## Examples
+
+Shows how to speed up the font cache initialization process.
+
+```csharp
+[Test]
+public void LoadFontSearchCache()
+{
+    const string cacheKey1 = "Arvo";
+    const string cacheKey2 = "Arvo-Bold";
+    FontSettings parsedFonts = new FontSettings();
+    FontSettings loadedCache = new FontSettings();
+
+    parsedFonts.SetFontsSources(new FontSourceBase[]
+    {
+        new FileFontSource(FontsDir + "Arvo-Regular.ttf", 0, cacheKey1),
+        new FileFontSource(FontsDir + "Arvo-Bold.ttf", 0, cacheKey2)
+    });
+
+    using (MemoryStream cacheStream = new MemoryStream())
+    {
+        parsedFonts.SaveSearchCache(cacheStream);
+        loadedCache.SetFontsSources(new FontSourceBase[]
+        {
+            new SearchCacheStream(cacheKey1),                    
+            new MemoryFontSource(File.ReadAllBytes(FontsDir + "Arvo-Bold.ttf"), 0, cacheKey2)
+        }, cacheStream);
+    }
+
+    Assert.AreEqual(parsedFonts.GetFontsSources().Length, loadedCache.GetFontsSources().Length);
+}
+
+/// <summary>
+/// Load the font data only when required instead of storing it in the memory
+/// for the entire lifetime of the "FontSettings" object.
+/// </summary>
+private class SearchCacheStream : StreamFontSource
+{
+    public SearchCacheStream(string cacheKey):base(0, cacheKey)
+    {
+    }
+
+    public override Stream OpenFontDataStream()
+    {
+        return File.OpenRead(FontsDir + "Arvo-Regular.ttf");
+    }
+}
+```
 
 ### See Also
 

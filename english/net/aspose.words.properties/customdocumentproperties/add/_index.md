@@ -23,7 +23,7 @@ public DocumentProperty Add(string name, string value)
 
 The newly created property object.
 
-### Examples
+## Examples
 
 Shows how to work with a document's custom properties.
 
@@ -106,7 +106,7 @@ public DocumentProperty Add(string name, int value)
 
 The newly created property object.
 
-### Examples
+## Examples
 
 Shows how to work with a document's custom properties.
 
@@ -189,7 +189,7 @@ public DocumentProperty Add(string name, DateTime value)
 
 The newly created property object.
 
-### Examples
+## Examples
 
 Shows how to create a custom document property which contains a date and time.
 
@@ -282,7 +282,7 @@ public DocumentProperty Add(string name, bool value)
 
 The newly created property object.
 
-### Examples
+## Examples
 
 Shows how to work with a document's custom properties.
 
@@ -365,7 +365,7 @@ public DocumentProperty Add(string name, double value)
 
 The newly created property object.
 
-### Examples
+## Examples
 
 Shows how to work with a document's custom properties.
 

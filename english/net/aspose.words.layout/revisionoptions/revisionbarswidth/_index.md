@@ -14,7 +14,7 @@ Gets or sets width of revision bars, points.
 public float RevisionBarsWidth { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to modify the appearance of revisions.
 

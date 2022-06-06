@@ -14,7 +14,7 @@ Gets the relative horizontal position of a frame.
 public RelativeHorizontalPosition RelativeHorizontalPosition { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to get information about formatting properties of paragraphs that are frames.
 

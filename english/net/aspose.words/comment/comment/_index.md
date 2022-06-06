@@ -18,7 +18,7 @@ public Comment(DocumentBase doc)
 | --- | --- | --- |
 | doc | DocumentBase | The owner document. |
 
-### Remarks
+## Remarks
 
 When **Comment** is created, it belongs to the specified document, but is not yet part of the document and **ParentNode** is null.
 
@@ -26,7 +26,7 @@ To append **Comment** to the document use InsertAfter or InsertBefore on the par
 
 After creating a comment, don't forget to set its [`Author`](../author), [`Initial`](../initial) and [`DateTime`](../datetime) properties.
 
-### Examples
+## Examples
 
 Shows how print the contents of all comments and their comment ranges using a document visitor.
 
@@ -208,7 +208,7 @@ public Comment(DocumentBase doc, string author, string initial, DateTime dateTim
 | initial | String | The author initials for the comment. Cannot be null. |
 | dateTime | DateTime | The date and time for the comment. |
 
-### Examples
+## Examples
 
 Shows how to add a comment to a paragraph.
 

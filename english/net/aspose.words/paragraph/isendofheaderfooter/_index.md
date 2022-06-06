@@ -14,7 +14,7 @@ True if this paragraph is the last paragraph in the **HeaderFooter** (main text 
 public bool IsEndOfHeaderFooter { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to create a header and a footer.
 

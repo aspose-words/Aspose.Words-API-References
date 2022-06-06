@@ -23,7 +23,7 @@ public string Respond(string promptText, string defaultResponse)
 
 User response (i.e. confirmed value contained in the prompt window).
 
-### Examples
+## Examples
 
 Shows how to create an ASK field, and set its properties.
 
@@ -69,7 +69,6 @@ public void FieldAsk()
 
     doc.UpdateFields();
     doc.Save(ArtifactsDir + "Field.ASK.docx");
-}
 
 /// <summary>
 /// Prepends text to the default response of an ASK field during a mail merge.

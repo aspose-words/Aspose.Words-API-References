@@ -43,13 +43,13 @@ public class ListLevel
 | override [GetHashCode](../../aspose.words.lists/listlevel/gethashcode)() | Calculates hash code for this object. |
 | static [GetEffectiveValue](../../aspose.words.lists/listlevel/geteffectivevalue)(int, NumberStyle, string) | Reports the string representation of the [`ListLevel`](../listlevel) object for the specified index of the list item. Parameters specify the [`NumberStyle`](../../aspose.words/numberstyle) and an optional format string used when Custom is specified. |
 
-### Remarks
+## Remarks
 
 You do not create objects of this class. List level objects are created automatically when a list is created. You access [`ListLevel`](../listlevel) objects via the [`ListLevelCollection`](../listlevelcollection) collection.
 
 Use the properties of [`ListLevel`](../listlevel) to specify list formatting for individual list levels.
 
-### Examples
+## Examples
 
 Shows how to apply custom list formatting to paragraphs when using DocumentBuilder.
 

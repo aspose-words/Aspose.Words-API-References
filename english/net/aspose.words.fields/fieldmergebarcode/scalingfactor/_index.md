@@ -14,7 +14,7 @@ Gets or sets a scaling factor for the symbol. The value is in whole percentage p
 public string ScalingFactor { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to perform a mail merge on QR barcodes.
 

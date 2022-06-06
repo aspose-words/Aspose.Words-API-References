@@ -14,11 +14,11 @@ Gets or sets string separator used for the data labels of the entire series. The
 public string Separator { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 Value defined for this property can be overridden for an individual data label with using the [`Separator`](../../chartdatalabel/separator) property.
 
-### Examples
+## Examples
 
 Shows how to work with data labels of a bubble chart.
 

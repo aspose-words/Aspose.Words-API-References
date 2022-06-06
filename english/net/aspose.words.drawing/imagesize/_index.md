@@ -32,7 +32,7 @@ public class ImageSize
 | [WidthPixels](../../aspose.words.drawing/imagesize/widthpixels) { get; } | Gets the width of the image in pixels. |
 | [WidthPoints](../../aspose.words.drawing/imagesize/widthpoints) { get; } | Gets the width of the image in points. 1 point is 1/72 inch. |
 
-### Examples
+## Examples
 
 Shows how to resize a shape with an image.
 
@@ -42,7 +42,7 @@ Shows how to resize a shape with an image.
 
             Assert.AreEqual(400, image.Size.Width);
             Assert.AreEqual(400, image.Size.Height);
-#elif NET5_0
+#elif NET5_0_OR_GREATER
             SKBitmap image = SKBitmap.Decode(ImageDir + "Logo.jpg");
 
             Assert.AreEqual(400, image.Width);

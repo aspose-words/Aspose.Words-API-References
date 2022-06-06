@@ -46,11 +46,11 @@ public class WordML2003SaveOptions : SaveOptions
 | [UseAntiAliasing](../../aspose.words.saving/saveoptions/useantialiasing) { get; set; } | Gets or sets a value determining whether or not to use anti-aliasing for rendering. |
 | [UseHighQualityRendering](../../aspose.words.saving/saveoptions/usehighqualityrendering) { get; set; } | Gets or sets a value determining whether or not to use high quality (i.e. slow) rendering algorithms. |
 
-### Remarks
+## Remarks
 
 At the moment provides only the [`SaveFormat`](./saveformat) property, but in the future may have other options added.
 
-### Examples
+## Examples
 
 Shows how to manage memory optimization.
 

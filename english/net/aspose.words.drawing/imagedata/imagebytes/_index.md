@@ -14,13 +14,13 @@ Gets or sets the raw bytes of the image stored in the shape.
 public byte[] ImageBytes { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 Setting the value to `null` or an empty array will remove the image from the shape.
 
 Returns `null` if the image is not stored in the document (e.g the image is probably linked in this case).
 
-### Examples
+## Examples
 
 Shows how to create an image file from a shape's raw image data.
 

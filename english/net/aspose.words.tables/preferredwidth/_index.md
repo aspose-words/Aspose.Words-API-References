@@ -38,13 +38,13 @@ public sealed class PreferredWidth
 | --- | --- |
 | static readonly [Auto](../../aspose.words.tables/preferredwidth/auto) | Returns an instance that represents the "preferred width is not specified" value. |
 
-### Remarks
+## Remarks
 
 Preferred width can be specified as a percentage, number of points or a special "none/auto" value.
 
 The instances of this class are immutable.
 
-### Examples
+## Examples
 
 Shows how to set a table to auto fit to 50% of the width of the page.
 

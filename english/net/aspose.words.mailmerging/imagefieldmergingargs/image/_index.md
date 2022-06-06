@@ -14,12 +14,11 @@ Specifies the image that the mail merge engine must insert into the document.
 public Image Image { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to use a callback to customize image merging logic.
 
 ```csharp
-public void MergeFieldImages()
 {
     Document doc = new Document();
 
@@ -45,7 +44,6 @@ public void MergeFieldImages()
     doc.MailMerge.Execute(dataTable);
 
     doc.Save(ArtifactsDir + "Field.MERGEFIELD.Images.docx");
-}
 
 /// <summary>
 /// Contains a dictionary that maps names of images to local system filenames that contain these images.
@@ -72,7 +70,7 @@ private class ImageFilenameCallback : IFieldMergingCallback
         {
             #if NET48 || JAVA
             args.Image = Image.FromFile(mImageFilenames[args.FieldValue.ToString()]);
-            #elif NET5_0
+            #elif NET5_0_OR_GREATER
             args.Image = SKBitmap.Decode(mImageFilenames[args.FieldValue.ToString()]);
             args.ImageFileName = mImageFilenames[args.FieldValue.ToString()];
             #endif

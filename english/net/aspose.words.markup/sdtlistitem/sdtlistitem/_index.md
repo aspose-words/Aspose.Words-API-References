@@ -14,7 +14,7 @@ Initializes a new instance of this class.
 public SdtListItem(string displayText, string value)
 ```
 
-### Examples
+## Examples
 
 Shows how to work with drop down-list structured document tags.
 
@@ -84,7 +84,7 @@ Initializes a new instance of this class.
 public SdtListItem(string value)
 ```
 
-### Examples
+## Examples
 
 Shows how to work with drop down-list structured document tags.
 

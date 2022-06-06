@@ -18,7 +18,7 @@ public void Remove(int index)
 | --- | --- | --- |
 | index | Int32 | The zero-based index of the collection item. |
 
-### Examples
+## Examples
 
 Shows how to work with a document's collection of web extensions.
 

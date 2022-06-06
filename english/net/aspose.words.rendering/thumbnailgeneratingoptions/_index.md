@@ -27,11 +27,11 @@ public class ThumbnailGeneratingOptions
 | [GenerateFromFirstPage](../../aspose.words.rendering/thumbnailgeneratingoptions/generatefromfirstpage) { get; set; } | Specifies whether to generate thumbnail from first page of the document or first image. |
 | [ThumbnailSize](../../aspose.words.rendering/thumbnailgeneratingoptions/thumbnailsize) { get; set; } | Size of generated thumbnail in pixels. Default is 600x900. |
 
-### Remarks
+## Remarks
 
 User can call method [`UpdateThumbnail`](../../aspose.words/document/updatethumbnail) to generate [`Thumbnail`](../../aspose.words.properties/builtindocumentproperties/thumbnail) for a document.
 
-### Examples
+## Examples
 
 Shows how to update a document's thumbnail.
 

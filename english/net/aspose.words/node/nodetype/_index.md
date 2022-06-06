@@ -14,7 +14,7 @@ Gets the type of this node.
 public abstract NodeType NodeType { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to use a node's NextSibling property to enumerate through its immediate children.
 
@@ -59,7 +59,6 @@ Assert.AreEqual(0, doc.GetChildNodes(NodeType.Table, true).Count);
 Shows how to traverse a composite node's tree of child nodes.
 
 ```csharp
-public void RecurseChildren()
 {
     Document doc = new Document(MyDir + "Paragraphs.docx");
 

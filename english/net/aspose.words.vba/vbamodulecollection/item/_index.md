@@ -18,7 +18,7 @@ public VbaModule this[int index] { get; }
 | --- | --- |
 | index | Zero-based index of the module to retrieve. |
 
-### Examples
+## Examples
 
 Shows how to access a document's VBA project information.
 
@@ -27,7 +27,6 @@ Document doc = new Document(MyDir + "VBA project.docm");
 
 // A VBA project contains a collection of VBA modules.
 VbaProject vbaProject = doc.VbaProject;
-Console.WriteLine(vbaProject.IsSigned
     ? $"Project name: {vbaProject.Name} signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n"
     : $"Project name: {vbaProject.Name} not signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n");
 
@@ -63,7 +62,7 @@ Retrieves a [`VbaModule`](../../vbamodule) object by name, or Null if not found.
 public VbaModule this[string name] { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to access a document's VBA project information.
 
@@ -72,7 +71,6 @@ Document doc = new Document(MyDir + "VBA project.docm");
 
 // A VBA project contains a collection of VBA modules.
 VbaProject vbaProject = doc.VbaProject;
-Console.WriteLine(vbaProject.IsSigned
     ? $"Project name: {vbaProject.Name} signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n"
     : $"Project name: {vbaProject.Name} not signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n");
 

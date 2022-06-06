@@ -14,7 +14,7 @@ Specifies whether font resources should be exported to HTML, MHTML or EPUB. Defa
 public bool ExportFontResources { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 Exporting font resources allows for consistent document rendering independent of the fonts available in a given user's environment.
 
@@ -24,12 +24,11 @@ If [`ExportFontsAsBase64`](../exportfontsasbase64) is set to `true`, fonts will 
 
 **Important!** When exporting font resources, font licensing issues should be considered. Authors who want to use specific fonts via a downloadable font mechanism must always carefully verify that their intended use is within the scope of the font license. Many commercial fonts presently do not allow web downloading of their fonts in any form. License agreements that cover some fonts specifically note that usage via **@font-face** rules in CSS style sheets is not allowed. Font subsetting can also violate license terms.
 
-### Examples
+## Examples
 
 Shows how to define custom logic for exporting fonts when saving to HTML.
 
 ```csharp
-public void SaveExportedFonts()
 {
     Document doc = new Document(MyDir + "Rendering.docx");
 
@@ -48,8 +47,6 @@ public void SaveExportedFonts()
     {
         Console.WriteLine(fontFilename);
     }
-
-}
 
 /// <summary>
 /// Prints information about exported fonts and saves them in the same local system folder as their output .html.

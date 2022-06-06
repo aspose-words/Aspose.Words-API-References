@@ -14,7 +14,7 @@ Provides access to fill and line formatting of this marker.
 public ChartFormat Format { get; }
 ```
 
-### Examples
+## Examples
 
 Show how to set marker formatting.
 

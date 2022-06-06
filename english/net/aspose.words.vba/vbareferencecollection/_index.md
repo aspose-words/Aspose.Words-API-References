@@ -26,9 +26,9 @@ public sealed class VbaReferenceCollection : IEnumerable<VbaReference>
 | Name | Description |
 | --- | --- |
 | [Remove](../../aspose.words.vba/vbareferencecollection/remove)(VbaReference) | Removes the first occurrence of a specified VbaReference item from the collection. |
-| [RemoveAt](../../aspose.words.vba/vbareferencecollection/removeat)(int) | Removes the VbaReference element at the specified index of the the collection. |
+| [RemoveAt](../../aspose.words.vba/vbareferencecollection/removeat)(int) | Removes the VbaReference element at the specified index of the collection. |
 
-### Examples
+## Examples
 
 Shows how to get/remove an element from the VBA reference collection.
 

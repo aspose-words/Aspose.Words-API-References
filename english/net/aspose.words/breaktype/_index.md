@@ -28,7 +28,7 @@ public enum BreakType
 | SectionBreakOddPage | `7` | Specifies start of new section on a odd page. |
 | LineBreak | `8` | Explicit line break. |
 
-### Examples
+## Examples
 
 Shows how to create headers and footers in a document using DocumentBuilder.
 

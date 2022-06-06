@@ -27,7 +27,7 @@ public static class ConvertUtil
 | static [PointToPixel](../../aspose.words/convertutil/pointtopixel)(double) | Converts points to pixels at 96 dpi. |
 | static [PointToPixel](../../aspose.words/convertutil/pointtopixel)(double, double) | Converts points to pixels at the specified pixel resolution. |
 
-### Examples
+## Examples
 
 Shows how to adjust paper size, orientation, margins, along with other settings for a section.
 

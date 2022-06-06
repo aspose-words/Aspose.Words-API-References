@@ -23,12 +23,11 @@ public interface INodeChangingCallback
 | [NodeRemoved](../../aspose.words/inodechangingcallback/noderemoved)(NodeChangingArgs) | Called when a node belonging to this document has been removed from its parent. |
 | [NodeRemoving](../../aspose.words/inodechangingcallback/noderemoving)(NodeChangingArgs) | Called just before a node belonging to this document is about to be removed from the document. |
 
-### Examples
+## Examples
 
 Shows how customize node changing with a callback.
 
 ```csharp
-public void FontChangeViaCallback()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -46,7 +45,6 @@ public void FontChangeViaCallback()
     doc.Range.Fields[0].Remove();
 
     Console.WriteLine(callback.GetLog());
-}
 
 /// <summary>
 /// Logs the date and time of each node insertion and removal.

@@ -14,7 +14,7 @@ True if this is the last row in a table; false otherwise.
 public bool IsLastRow { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to set a table to stay together on the same page.
 

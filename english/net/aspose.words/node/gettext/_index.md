@@ -14,11 +14,11 @@ Gets the text of this node and of all its children.
 public virtual string GetText()
 ```
 
-### Remarks
+## Remarks
 
 The returned string includes all control and special characters as described in [`ControlChar`](../../controlchar).
 
-### Examples
+## Examples
 
 Shows how to use control characters.
 

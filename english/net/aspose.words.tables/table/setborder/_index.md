@@ -23,7 +23,7 @@ public void SetBorder(BorderType borderType, LineStyle lineStyle, double lineWid
 | color | Color | The color to use for the border. |
 | isOverrideCellBorders | Boolean | When `true`, causes all existing explicit cell borders to be removed. |
 
-### Examples
+## Examples
 
 Shows how to apply an outline border to a table.
 

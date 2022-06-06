@@ -14,11 +14,11 @@ Specifies the source of the text that's displayed in a message box when a form f
 public bool OwnHelp { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 If True, the text specified by the HelpText property is displayed. If False, the text in the AutoText entry specified by the HelpText property is displayed.
 
-### Examples
+## Examples
 
 Shows how insert different kinds of form fields into a document, and process them with using a document visitor implementation.
 

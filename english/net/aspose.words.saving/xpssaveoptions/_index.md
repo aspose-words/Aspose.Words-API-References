@@ -62,7 +62,7 @@ public class XpsSaveOptions : FixedPageSaveOptions
 | --- | --- |
 | override [Equals](../../aspose.words.saving/fixedpagesaveoptions/equals)(object) | Determines whether the specified object is equal in value to the current object. |
 
-### Examples
+## Examples
 
 Shows how to limit the headings' level that will appear in the outline of a saved XPS document.
 

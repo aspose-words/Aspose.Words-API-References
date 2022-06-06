@@ -22,11 +22,11 @@ public Document Open(string fileName)
 
 A [`Document`](../../document) object that represents a Word document.
 
-### Remarks
+## Remarks
 
 This method is same as calling the [`Document`](../../document) constructor with a file name parameter.
 
-### Examples
+## Examples
 
 ```csharp
 [VBScript]
@@ -83,11 +83,11 @@ public Document Open(Stream stream)
 
 A [`Document`](../../document) object that represents a Word document.
 
-### Remarks
+## Remarks
 
 This method is same as calling the [`Document`](../../document) constructor with a stream parameter.
 
-### Examples
+## Examples
 
 Shows how to open documents using the ComHelper class.
 

@@ -31,7 +31,7 @@ public class PlainTextDocument
 | [CustomDocumentProperties](../../aspose.words/plaintextdocument/customdocumentproperties) { get; } | Gets [`CustomDocumentProperties`](./customdocumentproperties) of the document. |
 | [Text](../../aspose.words/plaintextdocument/text) { get; } | Gets textual content of the document concatenated as a string. |
 
-### Examples
+## Examples
 
 Shows how to load the contents of a Microsoft Word document in plaintext.
 

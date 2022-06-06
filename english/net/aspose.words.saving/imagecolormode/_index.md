@@ -22,7 +22,7 @@ public enum ImageColorMode
 | Grayscale | `1` | The pages of the document will be rendered as grayscale images. |
 | BlackAndWhite | `2` | The pages of the document will be rendered as black and white images. |
 
-### Examples
+## Examples
 
 Shows how to set a color mode when rendering documents.
 
@@ -62,7 +62,7 @@ Document doc = new Document();
                     Assert.That(20000, Is.AtLeast(new FileInfo(ArtifactsDir + "ImageSaveOptions.ColorMode.png").Length));
                     break;
             }
-#elif NET5_0
+#elif NET5_0_OR_GREATER
             switch (imageColorMode)
             {
                 case ImageColorMode.None:

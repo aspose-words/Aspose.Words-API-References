@@ -14,7 +14,7 @@ Returns an instance that represents the "preferred width is not specified" value
 public static readonly PreferredWidth Auto;
 ```
 
-### Examples
+## Examples
 
 Shows how to set a preferred width for table cells.
 

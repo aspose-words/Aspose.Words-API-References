@@ -14,11 +14,11 @@ Returns or sets the scale value for minor tick marks on the time category axis.
 public AxisTimeUnit MinorUnitScale { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 The property has effect only for time category axes.
 
-### Examples
+## Examples
 
 Shows how to manipulate the tick marks and displayed values of a chart axis.
 
@@ -70,7 +70,6 @@ axis.DisplayUnit.Unit = AxisBuiltInUnit.Millions;
 // We can set a more specific value by which tick labels will display their values.
 // This statement is equivalent to the one above.
 axis.DisplayUnit.CustomUnit = 1000000;
-
 doc.Save(ArtifactsDir + "Charts.AxisDisplayUnit.docx");
 ```
 

@@ -57,13 +57,13 @@ public class Run : Inline
 | [ToString](../../aspose.words/node/tostring)(SaveFormat) | Exports the content of the node into a string in the specified format. |
 | [ToString](../../aspose.words/node/tostring)(SaveOptions) | Exports the content of the node into a string using the specified save options. |
 
-### Remarks
+## Remarks
 
 All text of the document is stored in runs of text.
 
 **Run** can only be a child of **Paragraph** or inline **StructuredDocumentTag**.
 
-### Examples
+## Examples
 
 Shows how to format a run of text using its font property.
 

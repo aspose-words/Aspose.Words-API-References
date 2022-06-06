@@ -22,7 +22,7 @@ public override bool Accept(DocumentVisitor visitor)
 
 False if the visitor requested the enumeration to stop.
 
-### Remarks
+## Remarks
 
 Calls DocumentVisitor.VisitSpecialChar.
 

@@ -14,7 +14,7 @@ Gets table area to which this conditional style relates.
 public ConditionalStyleType Type { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to work with certain area styles of a table.
 

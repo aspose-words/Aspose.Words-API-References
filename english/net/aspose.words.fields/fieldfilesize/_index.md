@@ -48,13 +48,13 @@ public class FieldFileSize : Field
 | [Update](../../aspose.words.fields/field/update)() | Performs the field update. Throws if the field is being updated already. |
 | [Update](../../aspose.words.fields/field/update)(bool) | Performs a field update. Throws if the field is being updated already. |
 
-### Remarks
+## Remarks
 
 Retrieves the size of the current document's file or 0 if the size cannot be determined.
 
 In the current implementation, uses the [`OriginalFileName`](../../aspose.words/document/originalfilename) property to retrieve the file name used to determine the file size.
 
-### Examples
+## Examples
 
 Shows how to display the file size of a document with a FILESIZE field.
 

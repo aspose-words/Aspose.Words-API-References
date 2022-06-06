@@ -14,13 +14,13 @@ Removes protection from the document regardless of the password.
 public void Unprotect()
 ```
 
-### Remarks
+## Remarks
 
 This method unprotects the document even if it has a protection password.
 
 Note that document protection is different from write protection. Write protection is specified using the [`WriteProtection`](../writeprotection).
 
-### Examples
+## Examples
 
 Shows how to protect and unprotect a document.
 
@@ -42,7 +42,6 @@ Assert.AreEqual(ProtectionType.ReadOnly, protectedDoc.ProtectionType);
 
 DocumentBuilder builder = new DocumentBuilder(protectedDoc);
 builder.Writeln("Text added to a protected document.");
-
 // There are two ways of removing protection from a document.
 // 1 - With no password:
 doc.Unprotect();
@@ -87,13 +86,13 @@ public bool Unprotect(string password)
 
 True if a correct password was specified and the document was unprotected.
 
-### Remarks
+## Remarks
 
 This method unprotects the document only if a correct password is specified.
 
 Note that document protection is different from write protection. Write protection is specified using the [`WriteProtection`](../writeprotection).
 
-### Examples
+## Examples
 
 Shows how to protect and unprotect a document.
 
@@ -115,7 +114,6 @@ Assert.AreEqual(ProtectionType.ReadOnly, protectedDoc.ProtectionType);
 
 DocumentBuilder builder = new DocumentBuilder(protectedDoc);
 builder.Writeln("Text added to a protected document.");
-
 // There are two ways of removing protection from a document.
 // 1 - With no password:
 doc.Unprotect();

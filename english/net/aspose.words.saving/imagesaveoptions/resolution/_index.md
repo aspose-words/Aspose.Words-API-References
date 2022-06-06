@@ -14,11 +14,11 @@ Sets both horizontal and vertical resolution for the generated images, in dots p
 public float Resolution { set; }
 ```
 
-### Remarks
+## Remarks
 
 This property has effect only when saving to raster image formats.
 
-### Examples
+## Examples
 
 Shows how to specify a resolution while rendering a document to PNG.
 
@@ -48,7 +48,7 @@ Document doc = new Document();
 
             Assert.AreEqual(612, image.Width);
             Assert.AreEqual(792, image.Height);
-#elif NET5_0 || __MOBILE__
+#elif NET5_0_OR_GREATER || __MOBILE__
             using (SKBitmap image = SKBitmap.Decode(ArtifactsDir + "ImageSaveOptions.Resolution.72dpi.png")) 
             {
                 Assert.AreEqual(612, image.Width);
@@ -67,7 +67,7 @@ Document doc = new Document();
 
             Assert.AreEqual(2550, image.Width);
             Assert.AreEqual(3300, image.Height);
-#elif NET5_0 || __MOBILE__
+#elif NET5_0_OR_GREATER || __MOBILE__
             using (SKBitmap image = SKBitmap.Decode(ArtifactsDir + "ImageSaveOptions.Resolution.300dpi.png")) 
             {
                 Assert.AreEqual(2550, image.Width);

@@ -75,7 +75,7 @@ public class HtmlFixedSaveOptions : FixedPageSaveOptions
 | --- | --- |
 | override [Equals](../../aspose.words.saving/fixedpagesaveoptions/equals)(object) | Determines whether the specified object is equal in value to the current object. |
 
-### Examples
+## Examples
 
 Shows how to use a callback to print the URIs of external resources created while converting a document to HTML.
 

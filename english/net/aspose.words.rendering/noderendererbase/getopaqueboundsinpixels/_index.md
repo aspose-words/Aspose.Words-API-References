@@ -23,11 +23,11 @@ public Rectangle GetOpaqueBoundsInPixels(float scale, float dpi)
 
 The opaque rectangle of the shape in pixels.
 
-### Remarks
+## Remarks
 
 This method converts [`OpaqueBoundsInPoints`](../opaqueboundsinpoints) into rectangle in pixels and it is useful when you want to create a bitmap for rendering the shape with only opaque part of the shape.
 
-### Examples
+## Examples
 
 Shows how to measure and scale shapes.
 
@@ -97,11 +97,11 @@ public Rectangle GetOpaqueBoundsInPixels(float scale, float horizontalDpi, float
 
 The opaque rectangle of the shape in pixels.
 
-### Remarks
+## Remarks
 
 This method converts [`OpaqueBoundsInPoints`](../opaqueboundsinpoints) into rectangle in pixels and it is useful when you want to create a bitmap for rendering the shape with only opaque part of the shape.
 
-### Examples
+## Examples
 
 Shows how to measure and scale shapes.
 

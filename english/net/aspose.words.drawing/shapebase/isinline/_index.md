@@ -14,11 +14,11 @@ A quick way to determine if this shape is positioned inline with text.
 public bool IsInline { get; }
 ```
 
-### Remarks
+## Remarks
 
 Has effect only for top level shapes.
 
-### Examples
+## Examples
 
 Shows how to determine whether a shape is inline or floating.
 

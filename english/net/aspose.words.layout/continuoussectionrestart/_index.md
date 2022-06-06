@@ -21,7 +21,7 @@ public enum ContinuousSectionRestart
 | Always | `0` | Page numbering always restarts regardless of content flow. |
 | FromNewPageOnly | `1` | Page numbering restarts only if there is no other content before the section on the page where the section starts. |
 
-### Examples
+## Examples
 
 Shows how to control page numbering in a continuous section.
 

@@ -18,7 +18,7 @@ public void RemoveAt(int index)
 | --- | --- | --- |
 | index | Int32 | The zero based index. |
 
-### Examples
+## Examples
 
 Shows how to work with an XML schema collection.
 

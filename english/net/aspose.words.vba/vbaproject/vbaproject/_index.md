@@ -14,7 +14,7 @@ Creates a blank VbaProject.
 public VbaProject()
 ```
 
-### Examples
+## Examples
 
 Shows how to create a VBA project using macros.
 

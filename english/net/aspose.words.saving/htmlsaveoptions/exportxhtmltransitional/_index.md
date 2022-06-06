@@ -14,7 +14,7 @@ Specifies whether to write the DOCTYPE declaration when saving to HTML or MHTML.
 public bool ExportXhtmlTransitional { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 Aspose.Words always writes well formed HTML regardless of this setting.
 
@@ -30,7 +30,7 @@ When `true`, the beginning of the HTML output document will look like this:
 
 Aspose.Words aims to output XHTML according to the XHTML 1.0 Transitional specification, but the output will not always validate against the DTD. Some structures inside a Microsoft Word document are hard or impossible to map to a document that will validate against the XHTML schema. For example, XHTML does not allow nested lists (UL cannot be nested inside another UL element), but in Microsoft Word document multilevel lists occur quite often.
 
-### Examples
+## Examples
 
 Shows how to display a DOCTYPE heading when converting documents to the Xhtml 1.0 transitional standard.
 

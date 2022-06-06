@@ -14,7 +14,7 @@ Determines whether the specified PreferredWidth is equal in value to the current
 public bool Equals(PreferredWidth other)
 ```
 
-### Examples
+## Examples
 
 Shows how to set a preferred width for table cells.
 
@@ -67,7 +67,7 @@ Determines whether the specified object is equal in value to the current object.
 public override bool Equals(object obj)
 ```
 
-### Examples
+## Examples
 
 Shows how to set a preferred width for table cells.
 

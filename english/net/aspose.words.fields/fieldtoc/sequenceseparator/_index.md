@@ -14,7 +14,7 @@ Gets or sets the character sequence that is used to separate sequence numbers an
 public string SequenceSeparator { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to populate a TOC field with entries using SEQ fields.
 

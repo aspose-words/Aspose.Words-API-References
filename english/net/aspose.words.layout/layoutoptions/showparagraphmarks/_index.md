@@ -14,14 +14,13 @@ Gets or sets indication of whether paragraph marks are rendered. Default is Fals
 public bool ShowParagraphMarks { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to show paragraph marks in a rendered output document.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
-
 // Add some paragraphs, then enable paragraph marks to show the ends of paragraphs
 // with a pilcrow (¶) symbol when we render the document.
 builder.Writeln("Hello world!");

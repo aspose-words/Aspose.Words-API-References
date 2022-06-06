@@ -29,11 +29,11 @@ public class CertificateHolder
 | static [Create](../../aspose.words.digitalsignatures/certificateholder/create)(string, string) | Creates CertificateHolder object using path to PKCS12 store and its password. |
 | static [Create](../../aspose.words.digitalsignatures/certificateholder/create)(string, string, string) | Creates CertificateHolder object using path to PKCS12 store, its password and the alias by using which private key and certificate will be found. |
 
-### Remarks
+## Remarks
 
 **CertificateHolder** can be created by static factory methods only. It contains an instance of **X509Certificate2** which is used to introduce private, public keys and certificate chains into the system. This class is applied in [`DigitalSignatureUtil`](../digitalsignatureutil) and [`PdfDigitalSignatureDetails`](../../aspose.words.saving/pdfdigitalsignaturedetails) instead of obsolete methods with X509Certificate2 as parameters.
 
-### Examples
+## Examples
 
 Shows how to sign encrypted document file.
 
@@ -83,8 +83,7 @@ using (Stream streamIn = new FileStream(MyDir + "Document.docx", FileMode.Open))
 Shows how to add a signature line to a document, and then sign it using a digital certificate.
 
 ```csharp
-[Description("WORDSNET-16868")]
-        public static void Sign()
+public static void Sign()
         {
             string signeeName = "Ron Williams";
             string srcDocumentPath = MyDir + "Document.docx";
@@ -173,7 +172,7 @@ Shows how to add a signature line to a document, and then sign it using a digita
                 #if NET48 || JAVA
                 new Signee(Guid.NewGuid(), "Ron Williams", "Chief Executive Officer",
                     ImageToByteArray(Image.FromFile(ImageDir + "Logo.jpg"))),
-                #elif NET5_0 || __MOBILE__
+                #elif NET5_0_OR_GREATER || __MOBILE__
                 new Signee(Guid.NewGuid(), "Ron Williams", "Chief Executive Officer", 
                     SkiaSharp.SKBitmap.Decode(ImageDir + "Logo.jpg").Bytes),
                 #endif
@@ -181,7 +180,7 @@ Shows how to add a signature line to a document, and then sign it using a digita
                 #if NET48 || JAVA
                 new Signee(Guid.NewGuid(), "Stephen Morse", "Head of Compliance",
                     ImageToByteArray(Image.FromFile(ImageDir + "Logo.jpg")))
-                #elif NET5_0 || __MOBILE__
+                #elif NET5_0_OR_GREATER || __MOBILE__
                 new Signee(Guid.NewGuid(), "Stephen Morse", "Head of Compliance", 
                     SkiaSharp.SKBitmap.Decode(ImageDir + "Logo.jpg").Bytes)
                 #endif

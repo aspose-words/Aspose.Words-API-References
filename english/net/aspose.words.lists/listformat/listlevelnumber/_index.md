@@ -14,13 +14,13 @@ Gets or sets the list level number (0 to 8) for the paragraph.
 public int ListLevelNumber { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 In Word documents, lists may consist of 1 or 9 levels, numbered 0 to 8.
 
 Has effect only when the [`List`](../list) property is set to reference a valid list.
 
-### Examples
+## Examples
 
 Shows how to work with list levels.
 

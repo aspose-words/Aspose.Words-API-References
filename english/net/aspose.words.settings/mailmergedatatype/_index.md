@@ -27,7 +27,7 @@ public enum MailMergeDataType
 | Native | `5` | Specifies that a given document has been connected to an external data source via the Office Data Source Object (ODSO) interface. |
 | Default | `-1` | Equals to None. |
 
-### Examples
+## Examples
 
 Shows how to execute a mail merge with data from an Office Data Source Object.
 

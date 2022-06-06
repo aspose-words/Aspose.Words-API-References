@@ -30,7 +30,7 @@ public class WebExtensionBindingCollection : BaseWebExtensionCollection<WebExten
 | [GetEnumerator](../../aspose.words.webextensions/basewebextensioncollection`1/getenumerator)() |  |
 | [Remove](../../aspose.words.webextensions/basewebextensioncollection`1/remove)(int) |  |
 
-### Examples
+## Examples
 
 Shows how to add a web extension to a document.
 

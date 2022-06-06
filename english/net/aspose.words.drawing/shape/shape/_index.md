@@ -19,11 +19,11 @@ public Shape(DocumentBase doc, ShapeType shapeType)
 | doc | DocumentBase | The owner document. |
 | shapeType | ShapeType | The type of the shape to create. |
 
-### Remarks
+## Remarks
 
 You should specify desired shape properties after you created a shape.
 
-### Examples
+## Examples
 
 Shows how to insert a shape with an image from the local file system into a document.
 

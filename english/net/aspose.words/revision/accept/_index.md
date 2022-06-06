@@ -14,7 +14,7 @@ Accepts this revision.
 public void Accept()
 ```
 
-### Examples
+## Examples
 
 Shows how to work with revisions in a document.
 

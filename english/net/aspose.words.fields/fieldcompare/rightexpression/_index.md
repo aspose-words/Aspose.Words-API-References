@@ -14,7 +14,7 @@ Gets or sets the right part of the comparison expression.
 public string RightExpression { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to compare expressions using a COMPARE field.
 

@@ -14,7 +14,7 @@ Returns a value that specifies whether this is a footnote or endnote.
 public FootnoteType FootnoteType { get; }
 ```
 
-### Examples
+## Examples
 
 Shows the difference between footnotes and endnotes.
 

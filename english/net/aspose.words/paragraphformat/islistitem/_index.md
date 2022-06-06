@@ -14,7 +14,7 @@ True when the paragraph is an item in a bulleted or numbered list.
 public bool IsListItem { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to nest a list inside another list.
 

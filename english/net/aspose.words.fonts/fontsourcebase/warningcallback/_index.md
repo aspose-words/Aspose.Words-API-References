@@ -14,7 +14,7 @@ Called during processing of font source when an issue is detected that might res
 public IWarningCallback WarningCallback { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to call warning callback when the font sources working with.
 
@@ -32,7 +32,8 @@ public void FontSourceWarning()
     // Get the list of fonts to call warning callback.
     IList<PhysicalFontInfo> fontInfos = source.GetAvailableFonts();
 
-    Assert.True(callback.FontSubstitutionWarnings[0].Description.Contains("Error loading font from the folder \"bad folder?\""));
+    Assert.True(callback.FontSubstitutionWarnings[0].Description
+        .Contains("Error loading font from the folder \"bad folder?\""));
 }
 
 private class FontSourceWarningCollector : IWarningCallback

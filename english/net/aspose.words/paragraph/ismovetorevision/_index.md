@@ -14,7 +14,7 @@ Returns **true** if this object was moved (inserted) in Microsoft Word while cha
 public bool IsMoveToRevision { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to check whether a paragraph is a move revision.
 

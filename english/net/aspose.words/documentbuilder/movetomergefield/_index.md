@@ -22,11 +22,11 @@ public bool MoveToMergeField(string fieldName)
 
 True if the merge field was found and the cursor was moved; false otherwise.
 
-### Remarks
+## Remarks
 
 Note that this method deletes the merge field from the document after moving the cursor.
 
-### Examples
+## Examples
 
 Shows how to fill MERGEFIELDs with data with a document builder instead of a mail merge.
 
@@ -162,7 +162,7 @@ public bool MoveToMergeField(string fieldName, bool isAfter, bool isDeleteField)
 
 True if the merge field was found and the cursor was moved; false otherwise.
 
-### Examples
+## Examples
 
 Shows how to insert fields, and move the document builder's cursor to them.
 

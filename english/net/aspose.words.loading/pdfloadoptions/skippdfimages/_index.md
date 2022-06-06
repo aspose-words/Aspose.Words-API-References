@@ -14,7 +14,7 @@ Gets or sets the flag indicating whether images must be skipped while loading PD
 public bool SkipPdfImages { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to skip images during loading PDF files.
 

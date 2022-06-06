@@ -14,7 +14,7 @@ Specifies whether to use CID (Content-ID) URLs to reference resources (images, f
 public bool ExportCidUrlsForMhtmlResources { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 This option affects only documents being saved to MHTML.
 
@@ -24,7 +24,7 @@ This option enables an alternative method, where references to resource files ar
 
 In theory, there should be no difference between the two referencing methods and either of them should work fine in any browser or mail agent. In practice, however, some agents fail to fetch resources by file name. If your browser or mail agent refuses to load resources included in an MTHML document (doesn't show images or doesn't load CSS styles), try exporting the document with CID URLs.
 
-### Examples
+## Examples
 
 Shows how to enable content IDs for output MHTML documents.
 
@@ -49,14 +49,14 @@ if (exportCidUrlsForMhtmlResources)
 {
     Assert.True(outDocContents.Contains("Content-ID: <document.html>"));
     Assert.True(outDocContents.Contains("<link href=3D\"cid:styles.css\" type=3D\"text/css\" rel=3D\"stylesheet\" />"));
-    Assert.True(outDocContents.Contains("@font-face { font-family:'Arial Black'; src:url('cid:ariblk.ttf') }"));
+    Assert.True(outDocContents.Contains("@font-face { font-family:'Arial Black'; font-weight:bold; src:url('cid:arib=\r\nlk.ttf') }"));
     Assert.True(outDocContents.Contains("<img src=3D\"cid:image.003.jpeg\" width=3D\"350\" height=3D\"180\" alt=3D\"\" />"));
 }
 else
 {
     Assert.True(outDocContents.Contains("Content-Location: document.html"));
     Assert.True(outDocContents.Contains("<link href=3D\"styles.css\" type=3D\"text/css\" rel=3D\"stylesheet\" />"));
-    Assert.True(outDocContents.Contains("@font-face { font-family:'Arial Black'; src:url('ariblk.ttf') }"));
+    Assert.True(outDocContents.Contains("@font-face { font-family:'Arial Black'; font-weight:bold; src:url('ariblk.t=\r\ntf') }"));
     Assert.True(outDocContents.Contains("<img src=3D\"image.003.jpeg\" width=3D\"350\" height=3D\"180\" alt=3D\"\" />"));
 }
 ```

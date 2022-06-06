@@ -14,7 +14,7 @@ Gets or sets the interpolation mode associated with this Graphics.
 public InterpolationMode? InterpolationMode { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to set render quality options while converting documents to image formats.
 

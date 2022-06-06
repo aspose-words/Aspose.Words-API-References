@@ -30,7 +30,7 @@ public class SignatureLine
 | [Signer](../../aspose.words.drawing/signatureline/signer) { get; set; } | Gets or sets suggested signer of the signature line. Default value for this property is **empty string** (Empty). |
 | [SignerTitle](../../aspose.words.drawing/signatureline/signertitle) { get; set; } | Gets or sets suggested signer's title (for example, Manager). Default value for this property is **empty string** (Empty). |
 
-### Examples
+## Examples
 
 Shows how to create a line for a signature and insert it into a document.
 

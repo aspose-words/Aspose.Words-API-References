@@ -14,7 +14,7 @@ Specifies which document shall be used as a target during comparison.
 public ComparisonTargetType Target { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to filter specific types of document elements when making a comparison.
 

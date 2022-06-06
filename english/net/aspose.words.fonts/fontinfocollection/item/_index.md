@@ -18,7 +18,7 @@ public FontInfo this[string name] { get; }
 | --- | --- |
 | name | Case-insensitive name of the font to locate. |
 
-### Examples
+## Examples
 
 Shows how to extract an embedded font from a document, and save it to the local file system.
 
@@ -27,7 +27,6 @@ Document doc = new Document(MyDir + "Embedded font.docx");
 
 FontInfo embeddedFont = doc.FontInfos["Alte DIN 1451 Mittelschrift"];
 byte[] embeddedFontBytes = embeddedFont.GetEmbeddedFont(EmbeddedFontFormat.OpenType, EmbeddedFontStyle.Regular);
-
 File.WriteAllBytes(ArtifactsDir + "Alte DIN 1451 Mittelschrift.ttf", embeddedFontBytes);
 
 // Embedded font formats may be different in other formats such as .doc.
@@ -64,7 +63,7 @@ public FontInfo this[int index] { get; }
 | --- | --- |
 | index | Zero-based index of the font. |
 
-### Examples
+## Examples
 
 Shows how to extract an embedded font from a document, and save it to the local file system.
 
@@ -73,7 +72,6 @@ Document doc = new Document(MyDir + "Embedded font.docx");
 
 FontInfo embeddedFont = doc.FontInfos["Alte DIN 1451 Mittelschrift"];
 byte[] embeddedFontBytes = embeddedFont.GetEmbeddedFont(EmbeddedFontFormat.OpenType, EmbeddedFontStyle.Regular);
-
 File.WriteAllBytes(ArtifactsDir + "Alte DIN 1451 Mittelschrift.ttf", embeddedFontBytes);
 
 // Embedded font formats may be different in other formats such as .doc.

@@ -14,7 +14,7 @@ Loads predefined table substitution settings for Linux platform.
 public void LoadLinuxSettings()
 ```
 
-### Examples
+## Examples
 
 Shows how to access font substitution tables for Windows and Linux.
 
@@ -28,7 +28,7 @@ TableSubstitutionRule tableSubstitutionRule = fontSettings.SubstitutionSettings.
 tableSubstitutionRule.LoadWindowsSettings();
 
 // In Windows, the default substitute for the "Times New Roman CE" font is "Times New Roman".
-Assert.AreEqual(new[] { "Times New Roman" },
+Assert.AreEqual(new[] {"Times New Roman"},
     tableSubstitutionRule.GetSubstitutes("Times New Roman CE").ToArray());
 
 // We can save the table in the form of an XML document.
@@ -39,11 +39,12 @@ tableSubstitutionRule.Save(ArtifactsDir + "FontSettings.TableSubstitutionRule.Wi
 // If the first substitute, "FreeSerif" is also unavailable,
 // this rule will cycle through the others in the array until it finds an available one.
 tableSubstitutionRule.LoadLinuxSettings();
-Assert.AreEqual(new[] { "FreeSerif", "Liberation Serif", "DejaVu Serif" },
+Assert.AreEqual(new[] {"FreeSerif", "Liberation Serif", "DejaVu Serif"},
     tableSubstitutionRule.GetSubstitutes("Times New Roman CE").ToArray());
 
 // Save the Linux substitution table in the form of an XML document using a stream.
-using (FileStream fileStream = new FileStream(ArtifactsDir + "FontSettings.TableSubstitutionRule.Linux.xml", FileMode.Create))
+using (FileStream fileStream = new FileStream(ArtifactsDir + "FontSettings.TableSubstitutionRule.Linux.xml",
+    FileMode.Create))
 {
     tableSubstitutionRule.Save(fileStream);
 }

@@ -14,7 +14,7 @@ Initializes a new instance of this class that can be used to save a document in 
 public DocSaveOptions()
 ```
 
-### Examples
+## Examples
 
 Shows how to set save options for older Microsoft Word formats.
 
@@ -64,7 +64,7 @@ public DocSaveOptions(SaveFormat saveFormat)
 | --- | --- | --- |
 | saveFormat | SaveFormat | Can be Doc or Dot. |
 
-### Examples
+## Examples
 
 Shows how to set save options for older Microsoft Word formats.
 

@@ -22,7 +22,7 @@ public class ListLabel
 | [LabelString](../../aspose.words.lists/listlabel/labelstring) { get; } | Gets a string representation of list label. |
 | [LabelValue](../../aspose.words.lists/listlabel/labelvalue) { get; } | Gets a numeric value for this label. |
 
-### Examples
+## Examples
 
 Shows how to extract the list labels of all paragraphs that are list items.
 

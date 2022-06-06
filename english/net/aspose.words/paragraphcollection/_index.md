@@ -35,7 +35,7 @@ public class ParagraphCollection : NodeCollection
 | [RemoveAt](../../aspose.words/nodecollection/removeat)(int) | Removes the node at the specified index from the collection and from the document. |
 | [ToArray](../../aspose.words/paragraphcollection/toarray)() | Copies all paragraphs from the collection to a new array of paragraphs. (2 methods) |
 
-### Examples
+## Examples
 
 Shows how to check whether a paragraph is a move revision.
 

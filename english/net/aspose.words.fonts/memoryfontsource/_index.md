@@ -38,7 +38,7 @@ public class MemoryFontSource : FontSourceBase
 | --- | --- |
 | [GetAvailableFonts](../../aspose.words.fonts/fontsourcebase/getavailablefonts)() | Returns list of fonts available via this source. |
 
-### Examples
+## Examples
 
 Shows how to use a byte array with data from a font file as a font source.
 
@@ -48,7 +48,7 @@ MemoryFontSource memoryFontSource = new MemoryFontSource(fontBytes, 0);
 
 Document doc = new Document();
 doc.FontSettings = new FontSettings();
-doc.FontSettings.SetFontsSources(new FontSourceBase[] { memoryFontSource });
+doc.FontSettings.SetFontsSources(new FontSourceBase[] {memoryFontSource});
 
 Assert.AreEqual(FontSourceType.MemoryFont, memoryFontSource.Type);
 Assert.AreEqual(0, memoryFontSource.Priority);

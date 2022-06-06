@@ -14,19 +14,19 @@ Gets type of this **Structured document tag**.
 public SdtType SdtType { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to get the type of a structured document tag.
 
 ```csharp
 Document doc = new Document(MyDir + "Structured document tags.docx");
 
-List<StructuredDocumentTag> sdTags = doc.GetChildNodes(NodeType.StructuredDocumentTag, true)
+List<StructuredDocumentTag> tags = doc.GetChildNodes(NodeType.StructuredDocumentTag, true)
     .OfType<StructuredDocumentTag>().ToList();
 
-Assert.AreEqual(SdtType.RepeatingSection, sdTags[0].SdtType);
-Assert.AreEqual(SdtType.RepeatingSectionItem, sdTags[1].SdtType);
-Assert.AreEqual(SdtType.RichText, sdTags[2].SdtType);
+Assert.AreEqual(SdtType.RepeatingSection, tags[0].SdtType);
+Assert.AreEqual(SdtType.RepeatingSectionItem, tags[1].SdtType);
+Assert.AreEqual(SdtType.RichText, tags[2].SdtType);
 ```
 
 ### See Also

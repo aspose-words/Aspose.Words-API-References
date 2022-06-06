@@ -14,7 +14,7 @@ Specifies whether to convert footnote/endnote references in main text story into
 public bool CreateNoteHyperlinks { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to make footnotes and endnotes function as hyperlinks.
 

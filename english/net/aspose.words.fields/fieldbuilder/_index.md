@@ -36,7 +36,7 @@ public class FieldBuilder
 | [BuildAndInsert](../../aspose.words.fields/fieldbuilder/buildandinsert)(Inline) | Builds and inserts a field into the document before the specified inline node. |
 | [BuildAndInsert](../../aspose.words.fields/fieldbuilder/buildandinsert)(Paragraph) | Builds and inserts a field into the document to the end of the specified paragraph. |
 
-### Examples
+## Examples
 
 Shows how to construct fields using a field builder, and then insert them into the document.
 

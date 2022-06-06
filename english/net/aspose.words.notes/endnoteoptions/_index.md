@@ -23,7 +23,7 @@ public sealed class EndnoteOptions
 | [RestartRule](../../aspose.words.notes/endnoteoptions/restartrule) { get; set; } | Determines when automatic numbering restarts. |
 | [StartNumber](../../aspose.words.notes/endnoteoptions/startnumber) { get; set; } | Specifies the starting number or character for the first automatically numbered endnotes. |
 
-### Examples
+## Examples
 
 Shows how to select a different place where the document collects and displays its endnotes.
 

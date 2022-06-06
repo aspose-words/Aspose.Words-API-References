@@ -50,11 +50,11 @@ public class FieldAsk : Field
 | [Update](../../aspose.words.fields/field/update)() | Performs the field update. Throws if the field is being updated already. |
 | [Update](../../aspose.words.fields/field/update)(bool) | Performs a field update. Throws if the field is being updated already. |
 
-### Remarks
+## Remarks
 
 Prompts the user to enter information and assigns a bookmark to represent the user's response.
 
-### Examples
+## Examples
 
 Shows how to create an ASK field, and set its properties.
 
@@ -100,7 +100,6 @@ public void FieldAsk()
 
     doc.UpdateFields();
     doc.Save(ArtifactsDir + "Field.ASK.docx");
-}
 
 /// <summary>
 /// Prepends text to the default response of an ASK field during a mail merge.

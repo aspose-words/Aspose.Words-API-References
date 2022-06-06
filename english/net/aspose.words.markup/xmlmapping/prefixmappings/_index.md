@@ -14,11 +14,11 @@ Returns XML namespace prefix mappings to evaluate the [`XPath`](../xpath).
 public string PrefixMappings { get; }
 ```
 
-### Remarks
+## Remarks
 
 Specifies the set of prefix mappings, which shall be used to interpret the XPath expression when the XPath expression is evaluated against the custom XML data parts in the document.
 
-### Examples
+## Examples
 
 Shows how to set XML mappings for custom XML parts.
 

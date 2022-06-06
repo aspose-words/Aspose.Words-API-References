@@ -18,7 +18,7 @@ public void Remove(string name)
 | --- | --- | --- |
 | name | String | The case-insensitive name of the bookmark. |
 
-### Examples
+## Examples
 
 Shows how to set outline levels for bookmarks.
 

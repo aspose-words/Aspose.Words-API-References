@@ -18,7 +18,7 @@ public Field BuildAndInsert(Inline refNode)
 
 A [`Field`](../../field) object that represents the inserted field.
 
-### Examples
+## Examples
 
 Shows how to create and insert a field using a field builder.
 
@@ -65,7 +65,7 @@ public Field BuildAndInsert(Paragraph refNode)
 
 A [`Field`](../../field) object that represents the inserted field.
 
-### Examples
+## Examples
 
 Shows how to construct fields using a field builder, and then insert them into the document.
 

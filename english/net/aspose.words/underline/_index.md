@@ -37,7 +37,7 @@ public enum Underline
 | WavyHeavy | `27` |  |
 | WavyDouble | `43` |  |
 
-### Examples
+## Examples
 
 Shows how to insert a hyperlink field.
 

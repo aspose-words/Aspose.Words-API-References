@@ -14,7 +14,7 @@ Gets or sets an integer number to reset the sequence number to. Returns -1 if th
 public string ResetNumber { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows create numbering using SEQ fields.
 

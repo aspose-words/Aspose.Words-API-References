@@ -28,13 +28,13 @@ public class ComHelper
 | [Open](../../aspose.words/comhelper/open)(string) | Allows a COM application to load a [`Document`](../document) from a file. |
 | [OpenIStream](../../aspose.words/comhelper/openistream)(IStream) | Allows a COM application to load a [`Document`](../document) from an IStream object. |
 
-### Remarks
+## Remarks
 
 Use the [`ComHelper`](../comhelper) class to load a document from a file or stream into a [`Document`](../document) object in a COM application.
 
 The [`Document`](../document) class provides a default constructor to create a new document and also provides overloaded constructors to load a document from a file or stream. If you are using Aspose.Words from a .NET application, you can use all of the [`Document`](../document) constructors directly, but if you are using Aspose.Words from a COM application, only the default [`Document`](../document) constructor is available.
 
-### Examples
+## Examples
 
 ```csharp
 [VBScript]

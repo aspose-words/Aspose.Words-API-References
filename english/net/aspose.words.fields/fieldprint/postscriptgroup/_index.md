@@ -14,7 +14,7 @@ Gets or sets the drawing rectangle that the PostScript instructions operate on.
 public string PostScriptGroup { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows to insert a PRINT field.
 

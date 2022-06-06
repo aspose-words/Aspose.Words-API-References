@@ -38,13 +38,13 @@ public sealed class AxisBound
 | override [GetHashCode](../../aspose.words.drawing.charts/axisbound/gethashcode)() | Serves as a hash function for this type. |
 | override [ToString](../../aspose.words.drawing.charts/axisbound/tostring)() | Returns a user-friendly string that displays the value of this object. |
 
-### Remarks
+## Remarks
 
 Bound can be specified as a numeric, datetime or a special "auto" value.
 
 The instances of this class are immutable.
 
-### Examples
+## Examples
 
 Shows how to insert chart with date/time values.
 

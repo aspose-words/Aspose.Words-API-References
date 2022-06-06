@@ -14,11 +14,11 @@ Specifies the output resolution for images when exporting to HTML, MHTML or EPUB
 public int ImageResolution { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 This property effects raster images when [`ScaleImageToShapeSize`](../scaleimagetoshapesize) is `true` and effects metafiles exported as raster images. Some image properties such as cropping or rotation require saving transformed images and in this case transformed images are created in the given resolution.
 
-### Examples
+## Examples
 
 Shows how to set folders and folder aliases for externally saved resources that Aspose.Words will create when saving a document to HTML.
 

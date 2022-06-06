@@ -23,12 +23,11 @@ public interface IFieldResultFormatter
 | [FormatDateTime](../../aspose.words.fields/ifieldresultformatter/formatdatetime)(DateTime, string, CalendarType) | Called when Aspose.Words applies a date/time format switch, i.e. \@ "dd.MM.yyyy". |
 | [FormatNumeric](../../aspose.words.fields/ifieldresultformatter/formatnumeric)(double, string) | Called when Aspose.Words applies a numeric format switch, i.e. \# "#.##". |
 
-### Examples
+## Examples
 
 Shows how to automatically apply a custom format to field results as the fields are updated.
 
 ```csharp
-public void FieldResultFormatting()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);

@@ -35,11 +35,11 @@ public class OdsoFieldMapData
 | --- | --- |
 | [Clone](../../aspose.words.settings/odsofieldmapdata/clone)() | Returns a deep clone of this object. |
 
-### Remarks
+## Remarks
 
 Microsoft Word provides some predefined merge field names that it allows to insert into a document as MERGEFIELD or use in the ADDRESSBLOCK or GREETINGLINE fields. The information specified in [`OdsoFieldMapData`](../odsofieldmapdata) allows to map one column in the external data source to a single predefined merge field.
 
-### Examples
+## Examples
 
 Shows how to access the collection of data that maps data source columns to merge fields.
 

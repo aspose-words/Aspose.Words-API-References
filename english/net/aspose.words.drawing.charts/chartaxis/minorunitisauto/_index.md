@@ -14,11 +14,11 @@ Gets or sets a flag indicating whether default distance between minor tick marks
 public bool MinorUnitIsAuto { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 The property has effect for time category and value axes.
 
-### Examples
+## Examples
 
 Shows how to manipulate the tick marks and displayed values of a chart axis.
 
@@ -70,7 +70,6 @@ axis.DisplayUnit.Unit = AxisBuiltInUnit.Millions;
 // We can set a more specific value by which tick labels will display their values.
 // This statement is equivalent to the one above.
 axis.DisplayUnit.CustomUnit = 1000000;
-
 doc.Save(ArtifactsDir + "Charts.AxisDisplayUnit.docx");
 ```
 

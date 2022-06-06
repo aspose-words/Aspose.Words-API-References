@@ -27,13 +27,13 @@ public static class DigitalSignatureUtil
 | static [Sign](../../aspose.words.digitalsignatures/digitalsignatureutil/sign)(Stream, Stream, CertificateHolder, SignOptions) | Signs source document using given [`CertificateHolder`](../certificateholder) and [`SignOptions`](../signoptions) with digital signature and writes signed document to destination stream. |
 | static [Sign](../../aspose.words.digitalsignatures/digitalsignatureutil/sign)(string, string, CertificateHolder, SignOptions) | Signs source document using given [`CertificateHolder`](../certificateholder) and [`SignOptions`](../signoptions) with digital signature and writes signed document to destination file. |
 
-### Remarks
+## Remarks
 
 Since digital signature works with file content rather than Document Object Model these methods are put into a separate class.
 
 Supported formats are Doc and Docx.
 
-### Examples
+## Examples
 
 Shows how to load signatures from a digitally signed document.
 

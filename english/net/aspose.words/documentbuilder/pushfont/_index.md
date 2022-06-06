@@ -14,7 +14,7 @@ Saves current character formatting onto the stack.
 public void PushFont()
 ```
 
-### Examples
+## Examples
 
 Shows how to use a document builder's formatting stack.
 

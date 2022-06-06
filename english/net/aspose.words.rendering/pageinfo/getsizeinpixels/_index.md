@@ -49,7 +49,7 @@ public Size GetSizeInPixels(float scale, float horizontalDpi, float verticalDpi)
 
 The size of the page in pixels.
 
-### Examples
+## Examples
 
 Shows how to print page size and orientation information for every page in a Word document.
 

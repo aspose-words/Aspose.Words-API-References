@@ -18,16 +18,15 @@ public MergeFieldImageDimension(double value)
 | --- | --- | --- |
 | value | Double | The value. |
 
-### Remarks
+## Remarks
 
 You should use a negative value to indicate that the original value of the corresponding image dimension should be applied.
 
-### Examples
+## Examples
 
 Shows how to set the dimensions of images as MERGEFIELDS accepts them during a mail merge.
 
 ```csharp
-public void MergeFieldImageDimension()
 {
     Document doc = new Document();
 
@@ -52,7 +51,6 @@ public void MergeFieldImageDimension()
 
     doc.UpdateFields();
     doc.Save(ArtifactsDir + "Field.MERGEFIELD.ImageDimension.docx");
-}
 
 /// <summary>
 /// Sets the size of all mail merged images to one defined width and height.
@@ -110,16 +108,15 @@ public MergeFieldImageDimension(double value, MergeFieldImageDimensionUnit unit)
 | value | Double | The value. |
 | unit | MergeFieldImageDimensionUnit | The unit. |
 
-### Remarks
+## Remarks
 
 You should use a negative value to indicate that the original value of the corresponding image dimension should be applied.
 
-### Examples
+## Examples
 
 Shows how to set the dimensions of images as MERGEFIELDS accepts them during a mail merge.
 
 ```csharp
-public void MergeFieldImageDimension()
 {
     Document doc = new Document();
 
@@ -144,7 +141,6 @@ public void MergeFieldImageDimension()
 
     doc.UpdateFields();
     doc.Save(ArtifactsDir + "Field.MERGEFIELD.ImageDimension.docx");
-}
 
 /// <summary>
 /// Sets the size of all mail merged images to one defined width and height.

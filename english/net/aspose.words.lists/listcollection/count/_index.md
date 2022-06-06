@@ -14,7 +14,7 @@ Gets the count of numbered and bulleted lists in the document.
 public int Count { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to verify owner document properties of lists.
 

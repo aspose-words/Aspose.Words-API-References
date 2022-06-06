@@ -14,7 +14,7 @@ Gets the author of this revision group.
 public string Author { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to print info about a group of revisions in a document.
 

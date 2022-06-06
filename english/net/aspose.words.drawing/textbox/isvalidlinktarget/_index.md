@@ -14,7 +14,7 @@ Determines whether this TextBox can be linked to the target Textbox.
 public bool IsValidLinkTarget(TextBox target)
 ```
 
-### Examples
+## Examples
 
 Shows how to link text boxes.
 

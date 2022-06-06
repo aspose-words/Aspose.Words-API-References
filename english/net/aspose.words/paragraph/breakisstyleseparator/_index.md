@@ -14,7 +14,7 @@ True if this paragraph break is a Style Separator. A style separator allows one 
 public bool BreakIsStyleSeparator { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to write text to the same line as a TOC heading and have it not show up in the TOC.
 

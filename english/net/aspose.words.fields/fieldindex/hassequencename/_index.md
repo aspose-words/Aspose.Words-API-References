@@ -14,7 +14,7 @@ Gets a value indicating whether a sequence should be used while the field's resu
 public bool HasSequenceName { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to split a document into portions by combining INDEX and SEQ fields.
 

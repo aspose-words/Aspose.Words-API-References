@@ -14,12 +14,11 @@ A user defined method that is called just after a field is updated.
 public void FieldUpdated(Field field)
 ```
 
-### Examples
+## Examples
 
 Shows how to use callback methods during a field update.
 
 ```csharp
-public void FieldUpdatingCallbackTest()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);

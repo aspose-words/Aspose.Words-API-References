@@ -14,7 +14,7 @@ Gets or sets whether to insert a relative position of the bookmarked paragraph.
 public bool InsertRelativePosition { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows to insert NOTEREF fields, and modify their appearance.
 
@@ -47,7 +47,6 @@ public void FieldNoteRef()
 
     doc.UpdateFields();
     doc.Save(ArtifactsDir + "Field.NOTEREF.docx");
-}
 
 /// <summary>
 /// Uses a document builder to insert a NOTEREF field with specified properties.

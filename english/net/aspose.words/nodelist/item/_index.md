@@ -18,7 +18,7 @@ public Node this[int index] { get; }
 | --- | --- |
 | index | An index into the list of nodes. |
 
-### Remarks
+## Remarks
 
 The index is zero-based.
 
@@ -28,7 +28,7 @@ If index is greater than or equal to the number of items in the list, this retur
 
 If index is negative and its absolute value is greater than the number of items in the list, this returns a null reference.
 
-### Examples
+## Examples
 
 Shows how to use XPaths to navigate a NodeList.
 
@@ -48,7 +48,7 @@ builder.EndTable();
 
 #if NET48 || JAVA
 builder.InsertImage(Image.FromFile(ImageDir + "Logo.jpg"));
-#elif NET5_0 || __MOBILE__
+#elif NET5_0_OR_GREATER || __MOBILE__
 using (SKBitmap image = SKBitmap.Decode(ImageDir + "Logo.jpg"))
     builder.InsertImage(image);
 #endif

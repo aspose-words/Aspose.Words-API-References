@@ -14,13 +14,13 @@ Returns or sets an exit macro name for the form field.
 public string ExitMacro { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 The exit macro runs when the form field loses the focus in Microsoft Word.
 
 Microsoft Word allows strings with at most 32 characters.
 
-### Examples
+## Examples
 
 Shows how insert different kinds of form fields into a document, and process them with using a document visitor implementation.
 

@@ -37,7 +37,7 @@ public enum StoryType
 | EndnoteContinuationSeparator | `16` | Contains the text of the endnote continuation separator, represented by FootnoteSeparator. |
 | EndnoteContinuationNotice | `17` | Contains the text of the endnote continuation notice separator, represented by FootnoteSeparator. |
 
-### Examples
+## Examples
 
 Shows how to remove all shapes from a node.
 

@@ -18,7 +18,7 @@ public PageSet(int page)
 | --- | --- | --- |
 | page | Int32 | Zero-based index of the page. |
 
-### Remarks
+## Remarks
 
 If a page is encountered that is not in the document, an exception will be thrown during rendering. MaxValue means the last page in the document.
 
@@ -42,11 +42,11 @@ public PageSet(params int[] pages)
 | --- | --- | --- |
 | pages | Int32[] | Zero-based indices of pages. |
 
-### Remarks
+## Remarks
 
 If a page is encountered that is not in the document, an exception will be thrown during rendering. MaxValue means the last page in the document.
 
-### Examples
+## Examples
 
 Shows how to extract pages based on exact page indices.
 
@@ -92,11 +92,11 @@ public PageSet(params PageRange[] ranges)
 | --- | --- | --- |
 | ranges | PageRange[] | Array of page ranges. |
 
-### Remarks
+## Remarks
 
 If a range is encountered that starts after the last page in the document, an exception will be thrown during rendering. All ranges that end after the last page are truncated to fit in the document.
 
-### Examples
+## Examples
 
 Shows how to extract pages based on exact page ranges.
 

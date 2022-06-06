@@ -14,7 +14,7 @@ Returns or sets the spacing (in points) between characters .
 public double Spacing { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to set horizontal scaling and spacing for characters.
 

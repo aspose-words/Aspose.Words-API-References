@@ -14,7 +14,7 @@ Gets the number of nodes in the collection.
 public int Count { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to traverse through a composite node's collection of child nodes.
 
@@ -52,7 +52,6 @@ foreach (Node child in children)
             Shape childShape = (Shape)child;
             Console.WriteLine("Shape:");
             Console.WriteLine($"\t{childShape.ShapeType}, {childShape.Width}x{childShape.Height}");
-            break;
     }
 ```
 

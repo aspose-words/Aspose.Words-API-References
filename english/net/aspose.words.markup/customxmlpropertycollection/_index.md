@@ -33,11 +33,11 @@ public class CustomXmlPropertyCollection : IEnumerable<CustomXmlProperty>
 | [Remove](../../aspose.words.markup/customxmlpropertycollection/remove)(string) | Removes a property with the specified name from the collection. |
 | [RemoveAt](../../aspose.words.markup/customxmlpropertycollection/removeat)(int) | Removes a property at the specified index. |
 
-### Remarks
+## Remarks
 
 Items are [`CustomXmlProperty`](../customxmlproperty) objects.
 
-### Examples
+## Examples
 
 Shows how to work with smart tag properties to get in depth information about smart tags.
 

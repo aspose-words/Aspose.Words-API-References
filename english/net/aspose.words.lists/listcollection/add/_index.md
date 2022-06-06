@@ -22,13 +22,13 @@ public List Add(ListTemplate listTemplate)
 
 The newly created list.
 
-### Remarks
+## Remarks
 
 Aspose.Words list templates correspond to the 21 list templates available in the Bullets and Numbering dialog box in Microsoft Word 2003.
 
 All lists created using this method have 9 list levels.
 
-### Examples
+## Examples
 
 Shows how to create a list by applying a new list format to a collection of paragraphs.
 
@@ -168,11 +168,11 @@ public List Add(Style listStyle)
 
 The newly created list.
 
-### Remarks
+## Remarks
 
 The newly created list references the list style. If you change the properties of the list style, it is reflected in the properties of the list. Vice versa, if you change the properties of the list, it is reflected in the properties of the list style.
 
-### Examples
+## Examples
 
 Shows how to create a list style and use it in a document.
 

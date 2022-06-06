@@ -14,11 +14,11 @@ Gets or sets the scaling value of the display units as one of the predefined val
 public AxisBuiltInUnit Unit { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 Default value is None. The Custom and Percentage values are not available in some chart types; see [`AxisBuiltInUnit`](../../axisbuiltinunit) for more information.
 
-### Examples
+## Examples
 
 Shows how to manipulate the tick marks and displayed values of a chart axis.
 
@@ -70,7 +70,6 @@ axis.DisplayUnit.Unit = AxisBuiltInUnit.Millions;
 // We can set a more specific value by which tick labels will display their values.
 // This statement is equivalent to the one above.
 axis.DisplayUnit.CustomUnit = 1000000;
-
 doc.Save(ArtifactsDir + "Charts.AxisDisplayUnit.docx");
 ```
 

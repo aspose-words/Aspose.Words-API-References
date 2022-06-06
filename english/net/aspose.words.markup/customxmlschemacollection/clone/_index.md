@@ -14,7 +14,7 @@ Makes a deep clone of this object.
 public CustomXmlSchemaCollection Clone()
 ```
 
-### Examples
+## Examples
 
 Shows how to work with an XML schema collection.
 

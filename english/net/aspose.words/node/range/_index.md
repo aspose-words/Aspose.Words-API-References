@@ -14,7 +14,7 @@ Returns a **Range** object that represents the portion of a document that is con
 public Range Range { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to delete all the nodes from a range.
 

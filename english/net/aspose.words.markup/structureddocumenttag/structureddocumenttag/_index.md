@@ -20,7 +20,7 @@ public StructuredDocumentTag(DocumentBase doc, SdtType type, MarkupLevel level)
 | type | SdtType | Type of SDT node. |
 | level | MarkupLevel | Level of SDT node within the document. |
 
-### Remarks
+## Remarks
 
 The following types of SDT can be created:
 
@@ -34,7 +34,7 @@ The following types of SDT can be created:
 * RichText
 * PlainText
 
-### Examples
+## Examples
 
 Show how to create a structured document tag in the form of a check box.
 

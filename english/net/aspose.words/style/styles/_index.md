@@ -14,7 +14,7 @@ Gets the collection of styles this style belongs to.
 public StyleCollection Styles { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to access a document's style collection.
 

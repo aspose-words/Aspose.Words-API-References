@@ -23,11 +23,11 @@ public Field InsertField(FieldType fieldType, bool updateField)
 
 A [`Field`](../../../aspose.words.fields/field) object that represents the inserted field.
 
-### Remarks
+## Remarks
 
 This method inserts a field into a document. Aspose.Words can update fields of most types, but not all. For more details see the [`InsertField`](../insertfield) overload.
 
-### Examples
+## Examples
 
 Shows how to insert a field into a document using FieldType.
 
@@ -95,11 +95,11 @@ public Field InsertField(string fieldCode)
 
 A [`Field`](../../../aspose.words.fields/field) object that represents the inserted field.
 
-### Remarks
+## Remarks
 
 This method inserts a field into a document and updates the field result immediately. Aspose.Words can update fields of most types, but not all. For more details see the [`InsertField`](../insertfield) overload.
 
-### Examples
+## Examples
 
 Shows how to insert a field into a document using a field code.
 
@@ -166,7 +166,7 @@ public Field InsertField(string fieldCode, string fieldValue)
 
 A [`Field`](../../../aspose.words.fields/field) object that represents the inserted field.
 
-### Remarks
+## Remarks
 
 Fields in Microsoft Word documents consist of a field code and a field result. The field code is like a formula and the field result is like the value that the formula produces. The field code may also contain field switches that are like additional instructions to perform a specific action.
 
@@ -176,7 +176,7 @@ To create a field, you need to specify a field type, field code and a "placehold
 
 Aspose.Words can calculate field results for most of the field types, but this method does not update the field result automatically. Because the field result is not calculated automatically, you are expected to pass some string value (or even an empty string) that will be inserted into the field result. This value will remain in the field result as a placeholder until the field is updated. To update the field result you can call [`Update`](../../../aspose.words.fields/field/update) on the field object returned to you or [`UpdateFields`](../../document/updatefields) to update fields in the whole document.
 
-### Examples
+## Examples
 
 Shows how to set up page numbering in a section.
 

@@ -14,13 +14,13 @@ Gets or sets the name of the font.
 public string Name { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 When getting, returns [`NameAscii`](../nameascii).
 
 When setting, sets [`NameAscii`](../nameascii), [`NameBi`](../namebi), [`NameFarEast`](../namefareast) and [`NameOther`](../nameother) to the specified value.
 
-### Examples
+## Examples
 
 Shows how to format a run of text using its font property.
 

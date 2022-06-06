@@ -14,7 +14,7 @@ Returns or sets the width of the page in points.
 public double PageWidth { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to insert an image, and use it as a watermark.
 

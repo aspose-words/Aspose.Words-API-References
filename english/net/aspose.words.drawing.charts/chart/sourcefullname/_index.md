@@ -14,6 +14,18 @@ Gets the path and name of an xls/xlsx file this chart is linked to.
 public string SourceFullName { get; set; }
 ```
 
+## Examples
+
+Shows how to get the full name of the external xls/xlsx document if the chart is linked.
+
+```csharp
+Document doc = new Document(MyDir + "Shape with linked chart.docx");
+
+Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
+
+Assert.True(shape.Chart.SourceFullName.Contains("Examples\\Data\\Spreadsheet.xlsx"));
+```
+
 ### See Also
 
 * class [Chart](../../chart)

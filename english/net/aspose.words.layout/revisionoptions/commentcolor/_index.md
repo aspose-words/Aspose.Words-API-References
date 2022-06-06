@@ -14,11 +14,11 @@ Allows to specify the color to be used for comments. Default value is Red.
 public RevisionColor CommentColor { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 If set this property to ByAuthor or NoHighlight values, as the result this property will be set to default color.
 
-### Examples
+## Examples
 
 Shows how to modify the appearance of revisions.
 

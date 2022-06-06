@@ -14,7 +14,7 @@ Provides access to fill and line formatting of this data point.
 public ChartFormat Format { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to set individual formatting for categories of a column chart.
 

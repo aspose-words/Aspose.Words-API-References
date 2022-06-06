@@ -37,13 +37,13 @@ public sealed class TabStop
 | [Equals](../../aspose.words/tabstop/equals)(TabStop) | Compares with the specified TabStop. |
 | override [GetHashCode](../../aspose.words/tabstop/gethashcode)() | Calculates hash code for this object. |
 
-### Remarks
+## Remarks
 
 Normally, a tab stop specifies a position where a tab stop exists. But because tab stops can be inherited from parent styles, it might be needed for the child object to define explicitly that there is no tab stop at a given position. To clear an inherited tab stop at a given position, create a **TabStop** object and set [`Alignment`](./alignment) to `TabAlignment.Clear`.
 
 For more information see [`TabStopCollection`](../tabstopcollection).
 
-### Examples
+## Examples
 
 Shows how to modify the position of the right tab stop in TOC related paragraphs.
 

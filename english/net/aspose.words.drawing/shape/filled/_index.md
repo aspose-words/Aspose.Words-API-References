@@ -14,21 +14,19 @@ Determines whether the closed path of the shape will be filled.
 public bool Filled { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 This is a shortcut to the On property.
 
 The default value is **true**.
 
-### Examples
+## Examples
 
 Shows how to iterate over all the shapes in a document.
 
 ```csharp
-public void VisitShapes()
 {
     Document doc = new Document(MyDir + "Revision shape.docx");
-
     ShapeAppearancePrinter visitor = new ShapeAppearancePrinter();
     doc.Accept(visitor);
 

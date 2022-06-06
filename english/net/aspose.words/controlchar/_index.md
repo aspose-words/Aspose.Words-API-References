@@ -47,11 +47,11 @@ public static class ControlChar
 | static readonly [Tab](../../aspose.words/controlchar/tab) | Tab character: "\x0009" or "\t". |
 | const [TabChar](../../aspose.words/controlchar/tabchar) | Tab character: (char)9 or "\t". |
 
-### Remarks
+## Remarks
 
 Provides both char and string versions of the same constants. For example: string ControlChar.LineBreak and char ControlChar.LineBreakChar have the same value.
 
-### Examples
+## Examples
 
 Shows how to use control characters.
 

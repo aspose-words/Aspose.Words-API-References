@@ -22,23 +22,25 @@ public enum RevisionColor
 | Black | `1` | Represents 000000 color. |
 | Blue | `2` | Represents 2e97d3 color. |
 | BrightGreen | `3` | Represents 84a35b color. |
-| DarkBlue | `4` | Represents 376e96 color. |
-| DarkRed | `5` | Represents 881824 color. |
-| DarkYellow | `6` | Represents e09a2b color. |
-| Gray25 | `7` | Represents a0a3a9 color. |
-| Gray50 | `8` | Represents 50565e color. |
-| Green | `9` | Represents 2c6234 color. |
-| Pink | `10` | Represents ce338f color. |
-| Red | `11` | Represents b5082e color. |
-| Teal | `12` | Represents 1b9cab color. |
-| Turquoise | `13` | Represents 3eafc2 color. |
-| Violet | `14` | Represents 633277 color. |
-| White | `15` | Represents ffffff color. |
-| Yellow | `16` | Represents fad272 color. |
-| NoHighlight | `17` | No color is used to highlight revision changes. |
-| ByAuthor | `18` | Revisions of each author receive their own color for highlighting from a predfined set of hi-contrast colors. |
+| ClassicBlue | `4` | Represents 0000ff color. |
+| ClassicRed | `5` | Represents ff0000 color. |
+| DarkBlue | `6` | Represents 376e96 color. |
+| DarkRed | `7` | Represents 881824 color. |
+| DarkYellow | `8` | Represents e09a2b color. |
+| Gray25 | `9` | Represents a0a3a9 color. |
+| Gray50 | `10` | Represents 50565e color. |
+| Green | `11` | Represents 2c6234 color. |
+| Pink | `12` | Represents ce338f color. |
+| Red | `13` | Represents b5082e color. |
+| Teal | `14` | Represents 1b9cab color. |
+| Turquoise | `15` | Represents 3eafc2 color. |
+| Violet | `16` | Represents 633277 color. |
+| White | `17` | Represents ffffff color. |
+| Yellow | `18` | Represents fad272 color. |
+| NoHighlight | `19` | No color is used to highlight revision changes. |
+| ByAuthor | `20` | Revisions of each author receive their own color for highlighting from a predfined set of hi-contrast colors. |
 
-### Examples
+## Examples
 
 Shows how to alter the appearance of revisions in a rendered output document.
 

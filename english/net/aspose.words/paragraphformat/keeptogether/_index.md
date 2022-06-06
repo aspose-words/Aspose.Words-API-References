@@ -14,7 +14,7 @@ True if all lines in the paragraph are to remain on the same page.
 public bool KeepTogether { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to insert a paragraph into the document.
 

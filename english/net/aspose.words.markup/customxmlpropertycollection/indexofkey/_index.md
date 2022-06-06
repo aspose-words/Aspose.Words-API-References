@@ -22,7 +22,7 @@ public int IndexOfKey(string name)
 
 The zero based index. Negative value if not found.
 
-### Examples
+## Examples
 
 Shows how to work with smart tag properties to get in depth information about smart tags.
 

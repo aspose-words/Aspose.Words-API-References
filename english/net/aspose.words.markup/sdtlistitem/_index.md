@@ -28,7 +28,7 @@ public class SdtListItem
 | [DisplayText](../../aspose.words.markup/sdtlistitem/displaytext) { get; } | Gets the text to display in the run content in place of the [`Value`](./value) attribute contents for this list item. |
 | [Value](../../aspose.words.markup/sdtlistitem/value) { get; } | Gets the value of this list item. |
 
-### Examples
+## Examples
 
 Shows how to work with drop down-list structured document tags.
 

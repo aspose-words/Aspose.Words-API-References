@@ -14,11 +14,11 @@ Returns the index of the specified child node in the child node array.
 public int IndexOf(Node child)
 ```
 
-### Remarks
+## Remarks
 
 Returns -1 if the node is not found in the child nodes.
 
-### Examples
+## Examples
 
 Shows how to get the index of a given child node from its parent.
 

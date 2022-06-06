@@ -14,11 +14,11 @@ Gets the product version.
 public static string Version { get; }
 ```
 
-### Remarks
+## Remarks
 
 The product version is in the "Major.Minor.Hotfix.0" format.
 
-### Examples
+## Examples
 
 Shows how to display information about your installed version of Aspose.Words.
 

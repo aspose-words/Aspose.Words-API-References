@@ -19,7 +19,7 @@ public void TwoColorGradient(GradientStyle style, GradientVariant variant)
 | style | GradientStyle | The gradient style [`GradientStyle`](../../gradientstyle). |
 | variant | GradientVariant | The gradient variant [`GradientVariant`](../../gradientvariant) |
 
-### Examples
+## Examples
 
 Shows how to fill a shape with a gradients.
 
@@ -78,12 +78,12 @@ public void TwoColorGradient(Color color1, Color color2, GradientStyle style,
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| color1 | Color | The first gradient color, which will be set to [`ForeColor`](../forecolor) after the fill is applied. |
-| color2 | Color | The second gradient color, which will be set to [`BackColor`](../backcolor) after the fill is applied. |
+| color1 | Color | The first color to build the gradient. |
+| color2 | Color | The second color to build the gradient. |
 | style | GradientStyle | The gradient style [`GradientStyle`](../../gradientstyle). |
 | variant | GradientVariant | The gradient variant [`GradientVariant`](../../gradientvariant) |
 
-### Examples
+## Examples
 
 Shows how to fill a shape with a gradients.
 

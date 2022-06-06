@@ -21,11 +21,11 @@ public interface IBarcodeGenerator
 | [GetBarcodeImage](../../aspose.words.fields/ibarcodegenerator/getbarcodeimage)(BarcodeParameters) | Generate barcode image using the set of parameters (for DisplayBarcode field). |
 | [GetOldBarcodeImage](../../aspose.words.fields/ibarcodegenerator/getoldbarcodeimage)(BarcodeParameters) | Generate barcode image using the set of parameters (for old-fashioned Barcode field). |
 
-### Remarks
+## Remarks
 
 Generator instance should be passed through the [`BarcodeGenerator`](../fieldoptions/barcodegenerator) property.
 
-### Examples
+## Examples
 
 Shows how to use a barcode generator.
 

@@ -14,7 +14,7 @@ Initializes a new instance of this class that can be used to save a document in 
 public HtmlSaveOptions()
 ```
 
-### Examples
+## Examples
 
 Shows how to use a specific encoding when saving a document to .epub.
 
@@ -58,7 +58,7 @@ public HtmlSaveOptions(SaveFormat saveFormat)
 | --- | --- | --- |
 | saveFormat | SaveFormat | Can be Html, Mhtml or Epub. |
 
-### Examples
+## Examples
 
 Shows how to save a document to a specific version of HTML.
 

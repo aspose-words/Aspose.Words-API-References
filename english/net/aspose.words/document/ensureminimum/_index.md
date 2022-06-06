@@ -14,7 +14,7 @@ If the document contains no sections, creates one section with one paragraph.
 public void EnsureMinimum()
 ```
 
-### Examples
+## Examples
 
 Shows how to ensure that a document contains the minimal set of nodes required for editing its contents.
 

@@ -14,11 +14,11 @@ Specifies the inner left margin in points for a shape.
 public double InternalMarginLeft { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 The default value is 1/10 inch.
 
-### Examples
+## Examples
 
 Shows how to set internal margins for a text box.
 

@@ -35,7 +35,7 @@ public class CellCollection : NodeCollection
 | [RemoveAt](../../aspose.words/nodecollection/removeat)(int) | Removes the node at the specified index from the collection and from the document. |
 | [ToArray](../../aspose.words.tables/cellcollection/toarray)() | Copies all cells from the collection to a new array of cells. (2 methods) |
 
-### Examples
+## Examples
 
 Shows how to iterate through all tables in the document and print the contents of each cell.
 

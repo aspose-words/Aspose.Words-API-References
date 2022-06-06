@@ -29,7 +29,7 @@ public PlainTextDocument(string fileName)
 | [IncorrectPasswordException](../../incorrectpasswordexception) | The document is encrypted and requires a password to open, but you supplied an incorrect password. |
 | ArgumentException | The name of the file cannot be null or empty string. |
 
-### Examples
+## Examples
 
 Shows how to load the contents of a Microsoft Word document in plaintext.
 
@@ -77,7 +77,7 @@ public PlainTextDocument(string fileName, LoadOptions loadOptions)
 | [IncorrectPasswordException](../../incorrectpasswordexception) | The document is encrypted and requires a password to open, but you supplied an incorrect password. |
 | ArgumentException | The name of the file cannot be null or empty string. |
 
-### Examples
+## Examples
 
 Shows how to load the contents of an encrypted Microsoft Word document in plaintext.
 
@@ -133,11 +133,11 @@ public PlainTextDocument(Stream stream)
 | NotSupportedException | The stream does not support reading or seeking. |
 | ObjectDisposedException | The stream is a disposed object. |
 
-### Remarks
+## Remarks
 
 The document must be stored at the beginning of the stream. The stream must support random positioning.
 
-### Examples
+## Examples
 
 Shows how to load the contents of a Microsoft Word document in plaintext using stream.
 
@@ -190,11 +190,11 @@ public PlainTextDocument(Stream stream, LoadOptions loadOptions)
 | NotSupportedException | The stream does not support reading or seeking. |
 | ObjectDisposedException | The stream is a disposed object. |
 
-### Remarks
+## Remarks
 
 The document must be stored at the beginning of the stream. The stream must support random positioning.
 
-### Examples
+## Examples
 
 Shows how to load the contents of an encrypted Microsoft Word document in plaintext using stream.
 

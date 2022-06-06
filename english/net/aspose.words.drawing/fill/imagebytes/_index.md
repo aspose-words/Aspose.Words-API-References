@@ -14,11 +14,11 @@ Gets the raw bytes of the fill texture or pattern.
 public byte[] ImageBytes { get; }
 ```
 
-### Remarks
+## Remarks
 
 The default value is null.
 
-### Examples
+## Examples
 
 Shows to create a variety of shapes.
 

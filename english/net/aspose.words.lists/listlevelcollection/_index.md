@@ -27,7 +27,7 @@ public class ListLevelCollection : IEnumerable<ListLevel>
 | --- | --- |
 | [GetEnumerator](../../aspose.words.lists/listlevelcollection/getenumerator)() | Gets the enumerator object that will enumerate levels in this list. |
 
-### Examples
+## Examples
 
 Shows how to create a list style and use it in a document.
 

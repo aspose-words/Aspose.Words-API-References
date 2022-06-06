@@ -14,16 +14,15 @@ Gets the parent section of this story.
 public Section ParentSection { get; }
 ```
 
-### Remarks
+## Remarks
 
 **ParentSection** is equivalent to `(Section)ParentNode`.
 
-### Examples
+## Examples
 
 Shows how to store endnotes at the end of each section, and modify their positions.
 
 ```csharp
-public void SuppressEndnotes()
 {
     Document doc = new Document();
     doc.RemoveAllChildren();
@@ -46,7 +45,6 @@ public void SuppressEndnotes()
     pageSetup.SuppressEndnotes = true;
 
     doc.Save(ArtifactsDir + "PageSetup.SuppressEndnotes.docx");
-}
 
 /// <summary>
 /// Append a section with text and an endnote to a document.

@@ -43,7 +43,7 @@ public abstract class Node
 | [ToString](../../aspose.words/node/tostring)(SaveOptions) | Exports the content of the node into a string using the specified save options. |
 | static [NodeTypeToString](../../aspose.words/node/nodetypetostring)(NodeType) | A utility method that converts a node type enum value into a user friendly string. |
 
-### Remarks
+## Remarks
 
 A document is represented as a tree of nodes, similar to DOM or XmlDocument.
 
@@ -57,7 +57,7 @@ The [`Node`](../node) class:
 * Implements parent node and owner document mechanisms.
 * Implements access to sibling nodes.
 
-### Examples
+## Examples
 
 Shows how to remove all child nodes of a specific type from a composite node.
 
@@ -141,7 +141,6 @@ foreach (Node child in children)
             Shape childShape = (Shape)child;
             Console.WriteLine("Shape:");
             Console.WriteLine($"\t{childShape.ShapeType}, {childShape.Width}x{childShape.Height}");
-            break;
     }
 ```
 

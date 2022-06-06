@@ -14,7 +14,7 @@ Gets or sets the style of a Point of Sale barcode (barcode types UPCA&#x7C;UPCE&
 public string PosCodeStyle { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to insert a DISPLAYBARCODE field, and set its properties.
 

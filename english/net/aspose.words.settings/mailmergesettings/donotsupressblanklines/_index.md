@@ -14,7 +14,7 @@ Specifies how an application performing the mail merge shall handle blank lines 
 public bool DoNotSupressBlankLines { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to execute a mail merge with data from an Office Data Source Object.
 

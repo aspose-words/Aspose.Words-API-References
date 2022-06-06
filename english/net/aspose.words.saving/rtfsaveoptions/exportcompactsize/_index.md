@@ -14,11 +14,11 @@ Allows to make output RTF documents smaller in size, but if they contain RTL (ri
 public bool ExportCompactSize { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 If the document that you want to convert to RTF using Aspose.Words does not contain right-to-left text in languages like Arabic, then you can set this option to `true` to reduce the size of the resulting RTF.
 
-### Examples
+## Examples
 
 Shows how to save a document to .rtf with custom options.
 

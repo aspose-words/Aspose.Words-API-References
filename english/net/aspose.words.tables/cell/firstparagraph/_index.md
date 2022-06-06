@@ -14,7 +14,7 @@ Gets the first paragraph among the immediate children.
 public Paragraph FirstParagraph { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to create a nested table using a document builder.
 

@@ -14,11 +14,11 @@ Represents an estimate of the number of characters (including spaces) in the doc
 public int CharactersWithSpaces { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 Aspose.Words updates this property when you call [`UpdateWordCount`](../../../aspose.words/document/updatewordcount).
 
-### Examples
+## Examples
 
 Shows how to work with document properties in the "Content" category.
 

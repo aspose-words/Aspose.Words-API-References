@@ -22,12 +22,11 @@ public enum ResourceLoadingAction
 | Skip | `1` | Aspose.Words will skip loading of this resource. Only link without data will be stored for an image, CSS style sheet will be ignored for HTML format. |
 | UserProvided | `2` | Aspose.Words will use byte array provided by user in [`SetData`](../resourceloadingargs/setdata) as resource data. |
 
-### Examples
+## Examples
 
 Shows how to customize the process of loading external resources into a document.
 
 ```csharp
-public void ResourceLoadingCallback()
 {
     Document doc = new Document();
     doc.ResourceLoadingCallback = new ImageNameHandler();
@@ -43,7 +42,6 @@ public void ResourceLoadingCallback()
     Assert.AreEqual(3, doc.GetChildNodes(NodeType.Shape, true).Count);
 
     doc.Save(ArtifactsDir + "DocumentBase.ResourceLoadingCallback.docx");
-}
 
 /// <summary>
 /// Allows us to load images into a document using predefined shorthands, as opposed to URIs.

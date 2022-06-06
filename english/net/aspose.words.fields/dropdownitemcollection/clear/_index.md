@@ -14,7 +14,7 @@ Removes all elements from the collection.
 public void Clear()
 ```
 
-### Examples
+## Examples
 
 Shows how to insert a combo box field, and edit the elements in its item collection.
 

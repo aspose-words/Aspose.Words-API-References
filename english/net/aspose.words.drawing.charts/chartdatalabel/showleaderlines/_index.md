@@ -14,16 +14,15 @@ Allows to specify if data label leader lines need be shown. Default value is fal
 public bool ShowLeaderLines { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 Applies to Pie charts only. Leader lines create a visual connection between a data label and its corresponding data point.
 
-### Examples
+## Examples
 
 Shows how to apply labels to data points in a line chart.
 
 ```csharp
-public void DataLabels()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);

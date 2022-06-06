@@ -14,11 +14,11 @@ Gets or sets the threshold that determines the value of the binarization error i
 public byte ThresholdForFloydSteinbergDithering { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 The default value is 128.
 
-### Examples
+## Examples
 
 Shows how to set the TIFF binarization error threshold when using the Floyd-Steinberg method to render a TIFF image.
 

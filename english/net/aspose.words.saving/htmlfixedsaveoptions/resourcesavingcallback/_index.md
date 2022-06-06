@@ -14,7 +14,7 @@ Allows to control how resources (images, fonts and css) are saved when a documen
 public IResourceSavingCallback ResourceSavingCallback { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to use a callback to print the URIs of external resources created while converting a document to HTML.
 

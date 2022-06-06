@@ -95,7 +95,7 @@ public class Paragraph : CompositeNode
 | [ToString](../../aspose.words/node/tostring)(SaveFormat) | Exports the content of the node into a string in the specified format. |
 | [ToString](../../aspose.words/node/tostring)(SaveOptions) | Exports the content of the node into a string using the specified save options. |
 
-### Remarks
+## Remarks
 
 [`Paragraph`](../paragraph) is a block-level node and can be a child of classes derived from [`Story`](../story) or [`InlineStory`](../inlinestory).
 
@@ -107,7 +107,7 @@ A valid paragraph in Microsoft Word always ends with a paragraph break character
 
 Do not include the end of paragraph [`ControlChar.ParagraphBreak`](../controlchar/paragraphbreak) or end of cell [`ControlChar.Cell`](../controlchar/cell) characters inside the text of the paragraph as it might make the paragraph invalid when the document is opened in Microsoft Word.
 
-### Examples
+## Examples
 
 Shows how to construct an Aspose.Words document by hand.
 

@@ -19,7 +19,7 @@ public void Save(string fileName, ImageSaveOptions saveOptions)
 | fileName | String | The name for the image file. If a file with the specified name already exists, the existing file is overwritten. |
 | saveOptions | ImageSaveOptions | Specifies the options that control how the shape is rendered and saved. Can be null. |
 
-### Examples
+## Examples
 
 Shows how to render an Office Math object into an image file in the local file system.
 
@@ -60,7 +60,7 @@ public void Save(Stream stream, ImageSaveOptions saveOptions)
 | stream | Stream | The stream where to save the image of the shape. |
 | saveOptions | ImageSaveOptions | Specifies the options that control how the shape is rendered and saved. Can be null. If this is null, the image will be saved in the PNG format. |
 
-### Examples
+## Examples
 
 Shows how to use a shape renderer to export shapes to files in the local file system.
 

@@ -14,7 +14,7 @@ Gets or sets the name of a sequence whose number is included with the page numbe
 public string SequenceName { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to split a document into portions by combining INDEX and SEQ fields.
 

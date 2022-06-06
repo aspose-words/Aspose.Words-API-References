@@ -22,13 +22,13 @@ public List AddCopy(List srcList)
 
 The newly created list.
 
-### Remarks
+## Remarks
 
 The source list can be from any document. If the source list belongs to a different document, a copy of the list is created and added to the current document.
 
 If the source list is a reference to or a definition of a list style, the newly created list is not related to the original list style.
 
-### Examples
+## Examples
 
 Shows how to create a document with a sample of all the lists from another document.
 

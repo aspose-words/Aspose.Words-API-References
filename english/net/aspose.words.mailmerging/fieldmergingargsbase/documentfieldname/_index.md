@@ -14,13 +14,13 @@ Gets the name of the merge field as specified in the document.
 public string DocumentFieldName { get; }
 ```
 
-### Remarks
+## Remarks
 
 If you have a mapping from a document field name to a different data source field name, then this is the original field name as specified in the document.
 
 If you specified a field name prefix, for example "Image:MyFieldName" in the document, then **DocumentFieldName** returns field name without the prefix, that is "MyFieldName".
 
-### Examples
+## Examples
 
 Shows how to execute a mail merge with a custom callback that handles merge data in the form of HTML documents.
 

@@ -39,7 +39,7 @@ public class Fill
 | Name | Description |
 | --- | --- |
 | [OneColorGradient](../../aspose.words.drawing/fill/onecolorgradient)(GradientStyle, GradientVariant, double) | Sets the specified fill to a one-color gradient. |
-| [OneColorGradient](../../aspose.words.drawing/fill/onecolorgradient)(Color, GradientStyle, GradientVariant, double) | Sets the specified fill to a one-color gradient and applies a specified color to the [`ForeColor`](./forecolor). |
+| [OneColorGradient](../../aspose.words.drawing/fill/onecolorgradient)(Color, GradientStyle, GradientVariant, double) | Sets the specified fill to a one-color gradient using the specified color. |
 | [Patterned](../../aspose.words.drawing/fill/patterned)(PatternType) | Sets the specified fill to a pattern. |
 | [Patterned](../../aspose.words.drawing/fill/patterned)(PatternType, Color, Color) | Sets the specified fill to a pattern. |
 | [PresetTextured](../../aspose.words.drawing/fill/presettextured)(PresetTexture) | Sets the fill to a preset texture. |
@@ -51,11 +51,11 @@ public class Fill
 | [TwoColorGradient](../../aspose.words.drawing/fill/twocolorgradient)(GradientStyle, GradientVariant) | Sets the specified fill to a two-color gradient. |
 | [TwoColorGradient](../../aspose.words.drawing/fill/twocolorgradient)(Color, Color, GradientStyle, GradientVariant) | Sets the specified fill to a two-color gradient. |
 
-### Remarks
+## Remarks
 
 Use the [`Fill`](../shapebase/fill) or [`Fill`](../../aspose.words/font/fill) property to access fill properties of an object. You do not create instances of the [`Fill`](../fill) class directly.
 
-### Examples
+## Examples
 
 Shows how to fill a shape with a solid color.
 

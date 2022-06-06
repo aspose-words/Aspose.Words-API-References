@@ -14,11 +14,11 @@ Defines the color value of the image that will be treated as transparent.
 public Color ChromaKey { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 The default value is 0.
 
-### Examples
+## Examples
 
 Shows how to edit a shape's image data.
 

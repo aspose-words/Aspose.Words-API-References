@@ -14,7 +14,7 @@ Initializes an instance of this class.
 public PdfDigitalSignatureDetails()
 ```
 
-### Examples
+## Examples
 
 Shows how to sign a generated PDF document.
 
@@ -67,7 +67,7 @@ public PdfDigitalSignatureDetails(CertificateHolder certificateHolder, string re
 | location | String | The location of signing. |
 | signatureDate | DateTime | The date and time of signing. |
 
-### Examples
+## Examples
 
 Shows how to sign a generated PDF document.
 

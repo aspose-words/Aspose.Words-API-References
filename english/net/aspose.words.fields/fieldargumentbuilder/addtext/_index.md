@@ -14,7 +14,7 @@ Adds a plain text to the argument.
 public FieldArgumentBuilder AddText(string text)
 ```
 
-### Examples
+## Examples
 
 Shows how to construct fields using a field builder, and then insert them into the document.
 

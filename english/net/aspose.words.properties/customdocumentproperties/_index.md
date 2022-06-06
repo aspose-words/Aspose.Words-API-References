@@ -39,7 +39,7 @@ public class CustomDocumentProperties : DocumentPropertyCollection
 | [Remove](../../aspose.words.properties/documentpropertycollection/remove)(string) | Removes a property with the specified name from the collection. |
 | [RemoveAt](../../aspose.words.properties/documentpropertycollection/removeat)(int) | Removes a property at the specified index. |
 
-### Remarks
+## Remarks
 
 Each [`DocumentProperty`](../documentproperty) object represents a custom property of a container document.
 
@@ -47,7 +47,7 @@ The names of the properties are case-insensitive.
 
 The properties in the collection are sorted alphabetically by name.
 
-### Examples
+## Examples
 
 Shows how to work with custom document properties.
 

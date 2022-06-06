@@ -22,7 +22,7 @@ public enum OoxmlCompliance
 | Iso29500_2008_Transitional | `1` | ISO/IEC 29500:2008 Transitional compliance level. |
 | Iso29500_2008_Strict | `2` | ISO/IEC 29500:2008 Strict compliance level. |
 
-### Examples
+## Examples
 
 Shows how to insert DML shapes into a document.
 

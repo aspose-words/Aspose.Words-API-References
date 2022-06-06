@@ -14,7 +14,7 @@ Gets or sets a flag indicating whether the styles in the document are updated to
 public bool AutomaticallyUpdateStyles { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to attach a template to a document.
 

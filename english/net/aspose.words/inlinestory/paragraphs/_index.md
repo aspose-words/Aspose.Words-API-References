@@ -14,7 +14,7 @@ Gets a collection of paragraphs that are immediate children of the story.
 public ParagraphCollection Paragraphs { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to add a comment to a paragraph.
 

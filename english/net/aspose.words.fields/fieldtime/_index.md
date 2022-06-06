@@ -46,16 +46,15 @@ public class FieldTime : Field
 | [Update](../../aspose.words.fields/field/update)() | Performs the field update. Throws if the field is being updated already. |
 | [Update](../../aspose.words.fields/field/update)(bool) | Performs a field update. Throws if the field is being updated already. |
 
-### Remarks
+## Remarks
 
 Inserts the current date and time.
 
-### Examples
+## Examples
 
 Shows how to display the current time using the TIME field.
 
 ```csharp
-public void FieldTime()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -76,7 +75,6 @@ public void FieldTime()
     Assert.AreEqual(" TIME \\@ \"M/d/yyyy h mm:ss am/pm\"", field.GetFieldCode());
 
     doc.Save(ArtifactsDir + "Field.TIME.docx");
-}
 
 /// <summary>
 /// Use a document builder to insert a TIME field, insert a new paragraph and return the field.

@@ -40,11 +40,11 @@ public sealed class BorderCollection : IEnumerable<Border>
 | [Equals](../../aspose.words/bordercollection/equals)(BorderCollection) | Compares collections of borders. |
 | [GetEnumerator](../../aspose.words/bordercollection/getenumerator)() | Returns an enumerator object that can be used to iterate over all borders in the collection. |
 
-### Remarks
+## Remarks
 
 Different document elements have different borders. For example, ParagraphFormat has Bottom, Left, Right and Top borders. You can specify different formatting for each border independently or enumerate through all borders and apply same formatting.
 
-### Examples
+## Examples
 
 Shows how to insert a paragraph with a top border.
 

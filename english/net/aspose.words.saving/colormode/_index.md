@@ -21,7 +21,7 @@ public enum ColorMode
 | Normal | `0` | Rendering with unmodified colors. |
 | Grayscale | `1` | Rendering with colors in a range of gray shades from white to black. |
 
-### Examples
+## Examples
 
 Shows how to change image color with saving options property.
 

@@ -22,7 +22,7 @@ public override bool Accept(DocumentVisitor visitor)
 
 True if all nodes were visited; false if DocumentVisitor stopped the operation before visiting all nodes.
 
-### Remarks
+## Remarks
 
 Enumerates over this node and all of its children. Each node calls a corresponding method on DocumentVisitor.
 
@@ -30,12 +30,11 @@ For more info see the Visitor design pattern.
 
 Calls DocumentVisitor.VisitTableStart, then calls Accept for all child nodes of the section and calls DocumentVisitor.VisitTableEnd at the end.
 
-### Examples
+## Examples
 
 Shows how to use a DocumentVisitor implementation to remove all hidden content from a document.
 
 ```csharp
-public void RemoveHiddenContentFromDocument()
 {
     Document doc = new Document(MyDir + "Hidden content.docx");
 
@@ -55,7 +54,6 @@ public void RemoveHiddenContentFromDocument()
     doc.Accept(hiddenContentRemover);
 
     doc.Save(ArtifactsDir + "Font.RemoveHiddenContentFromDocument.docx");
-}
 
 /// <summary>
 /// Removes all visited nodes marked as "hidden content".

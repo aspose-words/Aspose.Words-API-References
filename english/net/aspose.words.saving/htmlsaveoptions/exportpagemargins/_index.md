@@ -14,11 +14,11 @@ Specifies whether page margins is exported to HTML, MHTML or EPUB. Default is `f
 public bool ExportPageMargins { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 Aspose.Words does not show area of page margins by default. If any elements are completely or partially clipped by the document edge the displayed area can be extended with this option.
 
-### Examples
+## Examples
 
 Shows how to show out-of-bounds objects in output HTML documents.
 

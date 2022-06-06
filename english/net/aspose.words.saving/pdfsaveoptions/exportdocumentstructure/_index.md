@@ -14,13 +14,13 @@ Gets or sets a value determining whether or not to export document structure.
 public bool ExportDocumentStructure { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 This value is ignored when saving to PDF/A-1a, PDF/A-2a and PDF/UA-1 because document structure is required for this compliance.
 
 Note that exporting the document structure significantly increases the memory consumption, especially for the large documents.
 
-### Examples
+## Examples
 
 Shows how to preserve document structure elements, which can assist in programmatically interpreting our document.
 

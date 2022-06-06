@@ -22,7 +22,7 @@ public enum PageBorderAppliesTo
 | FirstPage | `1` | Page border is shown on the first page of the section only. |
 | OtherPages | `2` | Page border is shown on all pages except the first page of the section. |
 
-### Examples
+## Examples
 
 Shows how to create a wide blue band border at the top of the first page.
 

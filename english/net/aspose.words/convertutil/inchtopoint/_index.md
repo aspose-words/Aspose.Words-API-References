@@ -18,11 +18,11 @@ public static double InchToPoint(double inches)
 | --- | --- | --- |
 | inches | Double | The value to convert. |
 
-### Remarks
+## Remarks
 
 1 inch equals 72 points.
 
-### Examples
+## Examples
 
 Shows how to adjust paper size, orientation, margins, along with other settings for a section.
 

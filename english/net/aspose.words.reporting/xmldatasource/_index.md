@@ -27,7 +27,7 @@ public class XmlDataSource
 | [XmlDataSource](xmldatasource)(Stream, Stream, XmlDataLoadOptions) | Creates a new data source with data from an XML stream using an XML Schema Definition stream. The specified options are used for XML data loading. |
 | [XmlDataSource](xmldatasource)(string, string, XmlDataLoadOptions) | Creates a new data source with data from an XML file using an XML Schema Definition file. The specified options are used for XML data loading. |
 
-### Remarks
+## Remarks
 
 To access data of the corresponding file or stream while generating a report, pass an instance of this class as a data source to one of [`ReportingEngine`](../reportingengine).BuildReport overloads.
 

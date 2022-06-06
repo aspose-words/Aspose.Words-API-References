@@ -22,7 +22,7 @@ public Shape InsertSignatureLine(SignatureLineOptions signatureLineOptions)
 
 The signature line node that was just inserted.
 
-### Examples
+## Examples
 
 Shows how to sign a document with a personal certificate and a signature line.
 
@@ -105,11 +105,11 @@ public Shape InsertSignatureLine(SignatureLineOptions signatureLineOptions,
 
 The signature line node that was just inserted.
 
-### Remarks
+## Remarks
 
 You can change the image size, location, positioning method and other settings using the [`Shape`](../../../aspose.words.drawing/shape) object returned by this method.
 
-### Examples
+## Examples
 
 Shows how to insert an inline signature line into a document.
 

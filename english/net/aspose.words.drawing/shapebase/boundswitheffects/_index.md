@@ -14,7 +14,7 @@ Gets final extent that this shape object has after applying drawing effects. Val
 public RectangleF BoundsWithEffects { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to check how a shape's bounds are affected by shape effects.
 

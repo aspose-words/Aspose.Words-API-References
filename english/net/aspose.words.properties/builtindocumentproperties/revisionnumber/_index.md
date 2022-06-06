@@ -14,11 +14,11 @@ Gets or sets the document revision number.
 public int RevisionNumber { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 Aspose.Words does not update this property.
 
-### Examples
+## Examples
 
 Shows how to work with REVNUM fields.
 
@@ -39,7 +39,6 @@ Assert.AreEqual(1, doc.BuiltInDocumentProperties.RevisionNumber);
 // and is unrelated to tracked revisions. We can find it by right clicking the document in Windows Explorer
 // via Properties -> Details. We can update this property manually.
 doc.BuiltInDocumentProperties.RevisionNumber++;
-field.Update();
 
 Assert.AreEqual("2", field.Result);
 ```

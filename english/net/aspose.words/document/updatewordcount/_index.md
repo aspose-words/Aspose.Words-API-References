@@ -14,7 +14,7 @@ Updates word count properties of the document.
 public void UpdateWordCount()
 ```
 
-### Remarks
+## Remarks
 
 **UpdateWordCount** recalculates and updates Characters, Words and Paragraphs properties in the [`BuiltInDocumentProperties`](../builtindocumentproperties) collection of the **Document**.
 
@@ -22,7 +22,7 @@ Note that **UpdateWordCount** does not update number of lines and pages properti
 
 When you use an evaluation version, the evaluation watermark will also be included in the word count.
 
-### Examples
+## Examples
 
 Shows how to update all list labels in a document.
 
@@ -76,11 +76,11 @@ public void UpdateWordCount(bool updateLinesCount)
 | --- | --- | --- |
 | updateLinesCount | Boolean | True if number of lines in the document shall be calculated. |
 
-### Remarks
+## Remarks
 
 This method will rebuild page layout of the document.
 
-### Examples
+## Examples
 
 Shows how to update all list labels in a document.
 

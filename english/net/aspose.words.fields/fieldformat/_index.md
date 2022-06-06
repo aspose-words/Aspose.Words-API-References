@@ -22,7 +22,7 @@ public class FieldFormat
 | [GeneralFormats](../../aspose.words.fields/fieldformat/generalformats) { get; } | Gets a collection of general formats that are applied to a numeric, text or any field result. Corresponds to the \* switches. |
 | [NumericFormat](../../aspose.words.fields/fieldformat/numericformat) { get; set; } | Gets or sets a formatting that is applied to a numeric field result. Corresponds to the \# switch. |
 
-### Examples
+## Examples
 
 Shows how to format field results.
 

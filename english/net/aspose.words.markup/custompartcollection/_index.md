@@ -37,11 +37,11 @@ public class CustomPartCollection : IEnumerable<CustomPart>
 | [GetEnumerator](../../aspose.words.markup/custompartcollection/getenumerator)() | Returns an enumerator object that can be used to iterate over all items in the collection. |
 | [RemoveAt](../../aspose.words.markup/custompartcollection/removeat)(int) | Removes an item at the specified index. |
 
-### Remarks
+## Remarks
 
 You do not normally need to create instances of this class. You access custom parts related to the OOXML package via the [`PackageCustomParts`](../../aspose.words/document/packagecustomparts) property.
 
-### Examples
+## Examples
 
 Shows how to access a document's arbitrary custom parts collection.
 
@@ -53,7 +53,6 @@ Assert.AreEqual(2, doc.PackageCustomParts.Count);
 // Clone the second part, then add the clone to the collection.
 CustomPart clonedPart = doc.PackageCustomParts[1].Clone();
 doc.PackageCustomParts.Add(clonedPart);
-
 Assert.AreEqual(3, doc.PackageCustomParts.Count);
 
 // Enumerate over the collection and print every part.

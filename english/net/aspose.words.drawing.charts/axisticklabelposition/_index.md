@@ -24,7 +24,7 @@ public enum AxisTickLabelPosition
 | None | `3` | Specifies the axis labels are not drawn. |
 | Default | `2` | Specifies default value of tick labels position. |
 
-### Examples
+## Examples
 
 Shows how to insert chart with date/time values.
 

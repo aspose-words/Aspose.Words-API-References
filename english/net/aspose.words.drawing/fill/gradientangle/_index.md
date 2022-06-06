@@ -14,7 +14,7 @@ Gets or sets the angle of the gradient fill.
 public double GradientAngle { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to fill a shape with a gradients.
 

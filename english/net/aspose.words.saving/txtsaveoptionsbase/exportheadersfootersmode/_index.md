@@ -14,7 +14,7 @@ Specifies the way headers and footers are exported to the text formats. Default 
 public TxtExportHeadersFootersMode ExportHeadersFootersMode { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to specify how to export headers and footers to plain text format.
 

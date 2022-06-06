@@ -19,7 +19,7 @@ public void SetFontsFolder(string fontFolder, bool recursive)
 | fontFolder | String | The folder that contains TrueType fonts. |
 | recursive | Boolean | True to scan the specified folders for fonts recursively. |
 
-### Examples
+## Examples
 
 Shows how to set a font source directory.
 

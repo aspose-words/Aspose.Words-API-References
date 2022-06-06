@@ -14,18 +14,18 @@ Gets or sets value determining which document formats are allowed to be mapped b
 public bool FlatOpcXmlMappingOnly { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 This option is paired with [`FlatOpcXmlMappingOnly`](../../../aspose.words.loading/loadoptions/flatopcxmlmappingonly). Typically you need set both of them to false to allow arbitrary document format mapped.
 
-### Examples
+## Examples
 
 Shows how to binding structured document tags to any format.
 
 ```csharp
 // If true - SDT will contain raw HTML text.
 // If false - mapped HTML will parsed and resulting document will be inserted into SDT content.
-LoadOptions loadOptions = new LoadOptions {FlatOpcXmlMappingOnly = isFlatOpcXmlMappingOnly};
+LoadOptions loadOptions = new LoadOptions { FlatOpcXmlMappingOnly = isFlatOpcXmlMappingOnly };
 Document doc = new Document(MyDir + "Structured document tag with HTML content.docx", loadOptions);
 
 SaveOptions saveOptions = SaveOptions.CreateSaveOptions(SaveFormat.Pdf);

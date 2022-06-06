@@ -25,12 +25,11 @@ public enum TextPathAlignment
 | LetterJustify | `4` | Spread letters out to fit width. |
 | WordJustify | `5` | Spread words out to fit width. |
 
-### Examples
+## Examples
 
 Shows how to work with WordArt.
 
 ```csharp
-public void InsertTextPaths()
 {
     Document doc = new Document();
 
@@ -96,7 +95,6 @@ public void InsertTextPaths()
     shape.TextPath.TextPathAlignment = TextPathAlignment.Right;
 
     doc.Save(ArtifactsDir + "Shape.InsertTextPaths.docx");
-}
 
 /// <summary>
 /// Insert a new paragraph with a WordArt shape inside it.

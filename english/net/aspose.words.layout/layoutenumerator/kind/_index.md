@@ -14,11 +14,11 @@ Gets the kind of the current entity. This can be an empty string but never null.
 public string Kind { get; }
 ```
 
-### Remarks
+## Remarks
 
 This is a more specific type of the current entity, e.g. bookmark span has Span type and may have either a BOOKMARKSTART or BOOKMARKEND kind.
 
-### Examples
+## Examples
 
 Shows ways of traversing a document's layout entities.
 

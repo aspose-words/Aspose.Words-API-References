@@ -15,7 +15,7 @@ public void SetPaddings(double leftPadding, double topPadding, double rightPaddi
     double bottomPadding)
 ```
 
-### Examples
+## Examples
 
 Shows how to pad the contents of a cell with whitespace.
 

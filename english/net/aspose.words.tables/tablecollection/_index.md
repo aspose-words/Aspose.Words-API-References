@@ -35,7 +35,7 @@ public class TableCollection : NodeCollection
 | [RemoveAt](../../aspose.words/nodecollection/removeat)(int) | Removes the node at the specified index from the collection and from the document. |
 | [ToArray](../../aspose.words.tables/tablecollection/toarray)() | Copies all tables from the collection to a new array of tables. (2 methods) |
 
-### Examples
+## Examples
 
 Shows how to remove the first and last rows of all tables in a document.
 

@@ -172,7 +172,7 @@ public class Document : DocumentBase
 | [UpdateWordCount](../../aspose.words/document/updatewordcount)() | Updates word count properties of the document. |
 | [UpdateWordCount](../../aspose.words/document/updatewordcount)(bool) | Updates word count properties of the document, optionally updates [`Lines`](../../aspose.words.properties/builtindocumentproperties/lines) property. |
 
-### Remarks
+## Remarks
 
 The **Document** is a central object in the Aspose.Words library.
 
@@ -201,7 +201,7 @@ The **Document** can contain only [`Section`](../section) objects.
 
 In Microsoft Word, a valid document needs to have at least one section.
 
-### Examples
+## Examples
 
 Shows how to execute a mail merge with data from a DataTable.
 

@@ -14,7 +14,7 @@ Gets the paragraph formatting of the conditional style.
 public ParagraphFormat ParagraphFormat { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to work with certain area styles of a table.
 

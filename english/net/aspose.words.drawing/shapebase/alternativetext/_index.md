@@ -14,11 +14,11 @@ Defines alternative text to be displayed instead of a graphic.
 public string AlternativeText { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 The default value is an empty string.
 
-### Examples
+## Examples
 
 Shows how to use a shape's alternative text.
 
@@ -36,7 +36,6 @@ doc.Save(ArtifactsDir + "Shape.AltText.docx");
 // Save the document to HTML, and then delete the linked image that belongs to our shape.
 // The browser that is reading our HTML will display the alt text in place of the missing image.
 doc.Save(ArtifactsDir + "Shape.AltText.html");
-File.Delete(ArtifactsDir + "Shape.AltText.001.png");
 ```
 
 ### See Also

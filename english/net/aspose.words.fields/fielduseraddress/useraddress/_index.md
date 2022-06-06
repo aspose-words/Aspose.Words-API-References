@@ -14,7 +14,7 @@ Gets or sets the current user's postal address.
 public string UserAddress { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to use the USERADDRESS field.
 
@@ -30,7 +30,6 @@ doc.FieldOptions.CurrentUser = userInformation;
 // taken from the UserInformation object we created above.
 DocumentBuilder builder = new DocumentBuilder(doc);
 FieldUserAddress fieldUserAddress = (FieldUserAddress)builder.InsertField(FieldType.FieldUserAddress, true);
-
 Assert.AreEqual(" USERADDRESS ", fieldUserAddress.GetFieldCode());
 Assert.AreEqual("123 Main Street", fieldUserAddress.Result);
 

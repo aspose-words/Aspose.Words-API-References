@@ -14,7 +14,7 @@ Returns a collection that represents the set of text columns.
 public TextColumnCollection TextColumns { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to create multiple evenly spaced columns in a section.
 

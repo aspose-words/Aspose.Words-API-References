@@ -14,7 +14,7 @@ Returns an enumerator object that can be used to iterate over all conditional st
 public IEnumerator<ConditionalStyle> GetEnumerator()
 ```
 
-### Examples
+## Examples
 
 Shows how to work with certain area styles of a table.
 

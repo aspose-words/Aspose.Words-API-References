@@ -33,11 +33,11 @@ public class FontInfo
 | [GetEmbeddedFont](../../aspose.words.fonts/fontinfo/getembeddedfont)(EmbeddedFontFormat, EmbeddedFontStyle) | Gets a specific embedded font file. |
 | [GetEmbeddedFontAsOpenType](../../aspose.words.fonts/fontinfo/getembeddedfontasopentype)(EmbeddedFontStyle) | Gets an embedded font file in OpenType format. Fonts in Embedded OpenType format are converted to OpenType. |
 
-### Remarks
+## Remarks
 
 You do not create instances of this class directly. Use the [`FontInfos`](../../aspose.words/documentbase/fontinfos) property to access the collection of fonts defined in a document.
 
-### Examples
+## Examples
 
 Shows how to print the details of what fonts are present in a document.
 
@@ -45,7 +45,6 @@ Shows how to print the details of what fonts are present in a document.
 Document doc = new Document(MyDir + "Embedded font.docx");
 
 FontInfoCollection allFonts = doc.FontInfos;
-
 // Print all the used and unused fonts in the document.
 for (int i = 0; i < allFonts.Count; i++)
 {

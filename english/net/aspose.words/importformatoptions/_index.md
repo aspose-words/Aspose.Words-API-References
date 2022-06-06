@@ -31,7 +31,7 @@ public class ImportFormatOptions
 | [MergePastedLists](../../aspose.words/importformatoptions/mergepastedlists) { get; set; } | Gets or sets a boolean value that specifies whether pasted lists will be merged with surrounding lists. The default value is `false`. |
 | [SmartStyleBehavior](../../aspose.words/importformatoptions/smartstylebehavior) { get; set; } | Gets or sets a boolean value that specifies how styles will be imported when they have equal names in source and destination documents. The default value is `false`. |
 
-### Examples
+## Examples
 
 Shows how to resolve duplicate styles while inserting documents.
 

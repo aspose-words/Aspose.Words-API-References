@@ -14,11 +14,11 @@ Gets or sets a value indicating whether trailing and leading whitespaces are tri
 public bool TrimWhitespaces { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 The default value is **true**.
 
-### Examples
+## Examples
 
 Shows how to trim whitespaces from values of a data source while executing a mail merge.
 

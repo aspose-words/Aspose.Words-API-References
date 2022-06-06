@@ -14,32 +14,31 @@ Allows to control how images are saved when a document is saved to Markdown form
 public IImageSavingCallback ImageSavingCallback { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to rename the image name during saving into Markdown document.
 
 ```csharp
-public void RenameImages()
 {
     Document doc = new Document(MyDir + "Rendering.docx");
 
-    MarkdownSaveOptions options = new MarkdownSaveOptions();
+    MarkdownSaveOptions saveOptions = new MarkdownSaveOptions();
 
     // If we convert a document that contains images into Markdown, we will end up with one Markdown file which links to several images.
     // Each image will be in the form of a file in the local file system.
     // There is also a callback that can customize the name and file system location of each image.
-    options.ImageSavingCallback = new SavedImageRename("DocumentBuilder.HandleDocument.md");
+    saveOptions.ImageSavingCallback = new SavedImageRename("MarkdownSaveOptions.HandleDocument.md");
 
     // The ImageSaving() method of our callback will be run at this time.
-    doc.Save(ArtifactsDir + "DocumentBuilder.HandleDocument.md", options);
+    doc.Save(ArtifactsDir + "MarkdownSaveOptions.HandleDocument.md", saveOptions);
 
     Assert.AreEqual(1,
         Directory.GetFiles(ArtifactsDir)
-            .Where(s => s.StartsWith(ArtifactsDir + "DocumentBuilder.HandleDocument.md shape"))
+            .Where(s => s.StartsWith(ArtifactsDir + "MarkdownSaveOptions.HandleDocument.md shape"))
             .Count(f => f.EndsWith(".jpeg")));
     Assert.AreEqual(8,
         Directory.GetFiles(ArtifactsDir)
-            .Where(s => s.StartsWith(ArtifactsDir + "DocumentBuilder.HandleDocument.md shape"))
+            .Where(s => s.StartsWith(ArtifactsDir + "MarkdownSaveOptions.HandleDocument.md shape"))
             .Count(f => f.EndsWith(".png")));
 }
 

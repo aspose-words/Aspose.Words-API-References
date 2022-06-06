@@ -14,11 +14,11 @@ Returns the immediate parent table of the row.
 public Table ParentTable { get; }
 ```
 
-### Remarks
+## Remarks
 
 Equivalent to `(Table)FirstNonMarkupParentNode`.
 
-### Examples
+## Examples
 
 Shows how to print the node structure of every table in a document.
 

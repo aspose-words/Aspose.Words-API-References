@@ -14,11 +14,11 @@ Accepts all tracked changes in the document.
 public void AcceptAllRevisions()
 ```
 
-### Remarks
+## Remarks
 
 This method is a shortcut for [`AcceptAll`](../../revisioncollection/acceptall).
 
-### Examples
+## Examples
 
 Shows how to accept all tracking changes in the document.
 

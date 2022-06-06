@@ -14,14 +14,13 @@ Gets a **LayoutOptions** object that represents options to control the layout pr
 public LayoutOptions LayoutOptions { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to hide text in a rendered output document.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
-
 // Insert hidden text, then specify whether we wish to omit it from a rendered document.
 builder.Writeln("This text is not hidden.");
 builder.Font.Hidden = true;
@@ -37,7 +36,6 @@ Shows how to show paragraph marks in a rendered output document.
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
-
 // Add some paragraphs, then enable paragraph marks to show the ends of paragraphs
 // with a pilcrow (¶) symbol when we render the document.
 builder.Writeln("Hello world!");

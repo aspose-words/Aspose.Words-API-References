@@ -14,12 +14,11 @@ Gets or sets whether to insert the linked object as a picture.
 public bool InsertAsPicture { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to use various field types to link to other documents in the local file system, and display their contents.
 
 ```csharp
-public void FieldLinkedObjectsAsText(InsertLinkedObjectAs insertLinkedObjectAs)
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -43,7 +42,6 @@ public void FieldLinkedObjectsAsText(InsertLinkedObjectAs insertLinkedObjectAs)
     doc.Save(ArtifactsDir + "Field.LINK.DDE.DDEAUTO.docx");
 }
 
-public void FieldLinkedObjectsAsImage(InsertLinkedObjectAs insertLinkedObjectAs)
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);

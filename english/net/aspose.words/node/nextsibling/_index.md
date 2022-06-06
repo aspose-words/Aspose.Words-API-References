@@ -14,11 +14,11 @@ Gets the node immediately following this node.
 public Node NextSibling { get; }
 ```
 
-### Remarks
+## Remarks
 
 If there is no next node, a null is returned.
 
-### Examples
+## Examples
 
 Shows how to use a node's NextSibling property to enumerate through its immediate children.
 
@@ -38,7 +38,6 @@ for (Node node = doc.FirstSection.Body.FirstChild; node != null; node = node.Nex
 Shows how to traverse a composite node's tree of child nodes.
 
 ```csharp
-public void RecurseChildren()
 {
     Document doc = new Document(MyDir + "Paragraphs.docx");
 

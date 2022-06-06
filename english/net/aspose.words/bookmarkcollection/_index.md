@@ -31,7 +31,7 @@ public class BookmarkCollection : IEnumerable<Bookmark>
 | [Remove](../../aspose.words/bookmarkcollection/remove)(string) | Removes a bookmark with the specified name. |
 | [RemoveAt](../../aspose.words/bookmarkcollection/removeat)(int) | Removes a bookmark at the specified index. |
 
-### Examples
+## Examples
 
 Shows how to add bookmarks and update their contents.
 

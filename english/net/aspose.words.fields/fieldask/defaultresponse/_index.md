@@ -14,7 +14,7 @@ Gets or sets default user response (initial value contained in the prompt window
 public string DefaultResponse { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to create an ASK field, and set its properties.
 
@@ -60,7 +60,6 @@ public void FieldAsk()
 
     doc.UpdateFields();
     doc.Save(ArtifactsDir + "Field.ASK.docx");
-}
 
 /// <summary>
 /// Prepends text to the default response of an ASK field during a mail merge.

@@ -21,7 +21,7 @@ public enum ExportFontFormat
 | Woff | `0` | WOFF (Web Open Font Format). |
 | Ttf | `1` | TTF (TrueType Font format). |
 
-### Examples
+## Examples
 
 Shows how use fonts only from the target machine when saving a document to HTML.
 

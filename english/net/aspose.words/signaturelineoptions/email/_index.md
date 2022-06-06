@@ -14,7 +14,7 @@ Gets or sets suggested signer's e-mail address. Default value for this property 
 public string Email { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to sign a document with a personal certificate and a signature line.
 

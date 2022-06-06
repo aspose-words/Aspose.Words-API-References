@@ -22,7 +22,7 @@ public SaveOutputParameters Save(string fileName)
 
 Additional information that you can optionally use.
 
-### Examples
+## Examples
 
 Shows how to open a document and convert it to .PDF.
 
@@ -74,7 +74,7 @@ public SaveOutputParameters Save(string fileName, SaveFormat saveFormat)
 
 Additional information that you can optionally use.
 
-### Examples
+## Examples
 
 Shows how to convert from DOCX to HTML format.
 
@@ -111,7 +111,7 @@ public SaveOutputParameters Save(string fileName, SaveOptions saveOptions)
 
 Additional information that you can optionally use.
 
-### Examples
+## Examples
 
 Shows how to improve the quality of a rendered document with SaveOptions.
 
@@ -316,7 +316,7 @@ public SaveOutputParameters Save(Stream stream, SaveFormat saveFormat)
 
 Additional information that you can optionally use.
 
-### Examples
+## Examples
 
 Shows how to save a document to a stream.
 
@@ -359,7 +359,7 @@ Document doc = new Document();
                     Assert.AreEqual(1056, image.Height);
                 }
             }
-#elif NET5_0 || __MOBILE__
+#elif NET5_0_OR_GREATER || __MOBILE__
             using (MemoryStream stream = new MemoryStream())
             {
                 doc.Save(stream, SaveFormat.Bmp);
@@ -408,7 +408,7 @@ public SaveOutputParameters Save(Stream stream, SaveOptions saveOptions)
 
 Additional information that you can optionally use.
 
-### Examples
+## Examples
 
 Shows how to convert only some of the pages in a document to PDF.
 
@@ -466,11 +466,11 @@ public SaveOutputParameters Save(HttpResponse response, string fileName,
 
 Additional information that you can optionally use.
 
-### Remarks
+## Remarks
 
 Internally, this method saves to a memory stream first and then copies to the response stream because the response stream does not support seek.
 
-### Examples
+## Examples
 
 Shows how to perform a mail merge, and then save the document to the client browser.
 

@@ -14,7 +14,7 @@ Gets or sets a boolean value which is responsible for washout effect of the wate
 public bool IsWashout { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to create a watermark from an image in the local file system.
 
@@ -29,7 +29,7 @@ Document doc = new Document();
 
 #if NET48 || JAVA
             doc.Watermark.SetImage(Image.FromFile(ImageDir + "Logo.jpg"), imageWatermarkOptions);
-#elif NET5_0 || __MOBILE__
+#elif NET5_0_OR_GREATER || __MOBILE__
             using (SKBitmap image = SKBitmap.Decode(ImageDir + "Logo.jpg"))
             {
                 doc.Watermark.SetImage(image, imageWatermarkOptions);

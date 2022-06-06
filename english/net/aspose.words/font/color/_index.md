@@ -14,7 +14,7 @@ Gets or sets the color of the font.
 public Color Color { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to insert formatted text using DocumentBuilder.
 

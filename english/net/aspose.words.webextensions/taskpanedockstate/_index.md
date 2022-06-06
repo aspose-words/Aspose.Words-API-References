@@ -21,7 +21,7 @@ public enum TaskPaneDockState
 | Right | `0` | Dock the task pane on the right side of the document window. |
 | Left | `1` | Dock the task pane on the left side of the document window. |
 
-### Examples
+## Examples
 
 Shows how to add a web extension to a document.
 

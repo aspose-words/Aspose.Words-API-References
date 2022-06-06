@@ -14,7 +14,7 @@ True if the section is protected for forms. When a section is protected for form
 public bool ProtectedForForms { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to turn off protection for a section.
 

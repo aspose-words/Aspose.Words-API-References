@@ -30,7 +30,7 @@ public class FormFieldCollection : IEnumerable<FormField>
 | [Remove](../../aspose.words.fields/formfieldcollection/remove)(string) | Removes a form field with the specified name. |
 | [RemoveAt](../../aspose.words.fields/formfieldcollection/removeat)(int) | Removes a form field at the specified index. |
 
-### Examples
+## Examples
 
 Shows how insert different kinds of form fields into a document, and process them with using a document visitor implementation.
 

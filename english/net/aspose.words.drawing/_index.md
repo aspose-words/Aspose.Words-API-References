@@ -12,52 +12,52 @@ The **Aspose.Words.Drawing** namespace provides classes that allow to create and
 
 | Class | Description |
 | --- | --- |
-| [Fill](./fill) | Represents fill formatting for an object. |
-| [GradientStop](./gradientstop) | Represents one gradient stop. |
-| [GradientStopCollection](./gradientstopcollection) | Contains a collection of [`GradientStop`](../aspose.words.drawing/gradientstop) objects. |
-| [GroupShape](./groupshape) | Represents a group of shapes in a document. |
-| [HorizontalRuleFormat](./horizontalruleformat) | Represents horizontal rule formatting. |
-| [ImageData](./imagedata) | Defines an image for a shape. |
-| [ImageSize](./imagesize) | Contains information about image size and resolution. |
-| [OleFormat](./oleformat) | Provides access to the data of an OLE object or ActiveX control. |
-| [OlePackage](./olepackage) | Allows to access OLE Package properties. |
-| [Shape](./shape) | Represents an object in the drawing layer, such as an AutoShape, textbox, freeform, OLE object, ActiveX control, or picture. |
-| [ShapeBase](./shapebase) | Base class for objects in the drawing layer, such as an AutoShape, freeform, OLE object, ActiveX control, or picture. |
-| [SignatureLine](./signatureline) | Provides access to signature line properties. |
-| [Stroke](./stroke) | Defines a stroke for a shape. |
-| [TextBox](./textbox) | Defines attributes that specify how a text is displayed inside a shape. |
-| [TextPath](./textpath) | Defines the text and formatting of the text path (of a WordArt object). |
+| class [Fill](./fill) | Represents fill formatting for an object. |
+| class [GradientStop](./gradientstop) | Represents one gradient stop. |
+| class [GradientStopCollection](./gradientstopcollection) | Contains a collection of [`GradientStop`](../aspose.words.drawing/gradientstop) objects. |
+| class [GroupShape](./groupshape) | Represents a group of shapes in a document. |
+| class [HorizontalRuleFormat](./horizontalruleformat) | Represents horizontal rule formatting. |
+| class [ImageData](./imagedata) | Defines an image for a shape. |
+| class [ImageSize](./imagesize) | Contains information about image size and resolution. |
+| class [OleFormat](./oleformat) | Provides access to the data of an OLE object or ActiveX control. |
+| class [OlePackage](./olepackage) | Allows to access OLE Package properties. |
+| class [Shape](./shape) | Represents an object in the drawing layer, such as an AutoShape, textbox, freeform, OLE object, ActiveX control, or picture. |
+| abstract class [ShapeBase](./shapebase) | Base class for objects in the drawing layer, such as an AutoShape, freeform, OLE object, ActiveX control, or picture. |
+| class [SignatureLine](./signatureline) | Provides access to signature line properties. |
+| class [Stroke](./stroke) | Defines a stroke for a shape. |
+| class [TextBox](./textbox) | Defines attributes that specify how a text is displayed inside a shape. |
+| class [TextPath](./textpath) | Defines the text and formatting of the text path (of a WordArt object). |
 ## Enumeration
 
 | Enumeration | Description |
 | --- | --- |
-| [ArrowLength](./arrowlength) | Length of the arrow at the end of a line. |
-| [ArrowType](./arrowtype) | Specifies the type of an arrow at a line end. |
-| [ArrowWidth](./arrowwidth) | Width of the arrow at the end of a line. |
-| [DashStyle](./dashstyle) | Dashed line style. |
-| [EndCap](./endcap) | Specifies line cap style. |
-| [FillType](./filltype) | Specifies fill type for a fillable object. |
-| [FlipOrientation](./fliporientation) | Possible values for the orientation of a shape. |
-| [GradientStyle](./gradientstyle) | Specifies the style for a gradient fill. |
-| [GradientVariant](./gradientvariant) | Specifies the variant for a gradient fill. |
-| [HorizontalAlignment](./horizontalalignment) | Specifies horizontal alignment of a floating shape, text frame or floating table. |
-| [HorizontalRuleAlignment](./horizontalrulealignment) | Represents the alignment for the specified horizontal rule. |
-| [ImageType](./imagetype) | Specifies the type (format) of an image in a Microsoft Word document. |
-| [JoinStyle](./joinstyle) | Line join style. |
-| [LayoutFlow](./layoutflow) | Determines the flow of the text layout in a textbox. |
-| [PatternType](./patterntype) | Specifies the fill pattern to be used to fill a shape. |
-| [PresetTexture](./presettexture) | Specifies texture to be used to fill a shape. |
-| [RelativeHorizontalPosition](./relativehorizontalposition) | Specifies to what the horizontal position of a shape or text frame is relative. |
-| [RelativeVerticalPosition](./relativeverticalposition) | Specifies to what the vertical position of a shape or text frame is relative. |
-| [ShapeLineStyle](./shapelinestyle) | Specifies the compound line style of a [`Shape`](../aspose.words.drawing/shape). |
-| [ShapeMarkupLanguage](./shapemarkuplanguage) | Specifies Markup language used for the shape. |
-| [ShapeType](./shapetype) | Specifies the type of shape in a Microsoft Word document. |
-| [TextBoxAnchor](./textboxanchor) | Specifies values used for shape text vertical alignment. |
-| [TextBoxWrapMode](./textboxwrapmode) | Specifies how text wraps inside a shape. |
-| [TextPathAlignment](./textpathalignment) | WordArt alignment. |
-| [TextureAlignment](./texturealignment) | Specifies the alignment for the tiling of the texture fill. |
-| [VerticalAlignment](./verticalalignment) | Specifies vertical alignment of a floating shape, text frame or a floating table. |
-| [WrapSide](./wrapside) | Specifies what side(s) of the shape or picture the text wraps around. |
-| [WrapType](./wraptype) | Specifies how text is wrapped around a shape or picture. |
+| enum [ArrowLength](./arrowlength) | Length of the arrow at the end of a line. |
+| enum [ArrowType](./arrowtype) | Specifies the type of an arrow at a line end. |
+| enum [ArrowWidth](./arrowwidth) | Width of the arrow at the end of a line. |
+| enum [DashStyle](./dashstyle) | Dashed line style. |
+| enum [EndCap](./endcap) | Specifies line cap style. |
+| enum [FillType](./filltype) | Specifies fill type for a fillable object. |
+| enum [FlipOrientation](./fliporientation) | Possible values for the orientation of a shape. |
+| enum [GradientStyle](./gradientstyle) | Specifies the style for a gradient fill. |
+| enum [GradientVariant](./gradientvariant) | Specifies the variant for a gradient fill. |
+| enum [HorizontalAlignment](./horizontalalignment) | Specifies horizontal alignment of a floating shape, text frame or floating table. |
+| enum [HorizontalRuleAlignment](./horizontalrulealignment) | Represents the alignment for the specified horizontal rule. |
+| enum [ImageType](./imagetype) | Specifies the type (format) of an image in a Microsoft Word document. |
+| enum [JoinStyle](./joinstyle) | Line join style. |
+| enum [LayoutFlow](./layoutflow) | Determines the flow of the text layout in a textbox. |
+| enum [PatternType](./patterntype) | Specifies the fill pattern to be used to fill a shape. |
+| enum [PresetTexture](./presettexture) | Specifies texture to be used to fill a shape. |
+| enum [RelativeHorizontalPosition](./relativehorizontalposition) | Specifies to what the horizontal position of a shape or text frame is relative. |
+| enum [RelativeVerticalPosition](./relativeverticalposition) | Specifies to what the vertical position of a shape or text frame is relative. |
+| enum [ShapeLineStyle](./shapelinestyle) | Specifies the compound line style of a [`Shape`](../aspose.words.drawing/shape). |
+| enum [ShapeMarkupLanguage](./shapemarkuplanguage) | Specifies Markup language used for the shape. |
+| enum [ShapeType](./shapetype) | Specifies the type of shape in a Microsoft Word document. |
+| enum [TextBoxAnchor](./textboxanchor) | Specifies values used for shape text vertical alignment. |
+| enum [TextBoxWrapMode](./textboxwrapmode) | Specifies how text wraps inside a shape. |
+| enum [TextPathAlignment](./textpathalignment) | WordArt alignment. |
+| enum [TextureAlignment](./texturealignment) | Specifies the alignment for the tiling of the texture fill. |
+| enum [VerticalAlignment](./verticalalignment) | Specifies vertical alignment of a floating shape, text frame or a floating table. |
+| enum [WrapSide](./wrapside) | Specifies what side(s) of the shape or picture the text wraps around. |
+| enum [WrapType](./wraptype) | Specifies how text is wrapped around a shape or picture. |
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

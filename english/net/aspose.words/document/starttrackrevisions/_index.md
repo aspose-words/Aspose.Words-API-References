@@ -19,7 +19,7 @@ public void StartTrackRevisions(string author, DateTime dateTime)
 | author | String | Initials of the author to use for revisions. |
 | dateTime | DateTime | The date and time to use for revisions. |
 
-### Remarks
+## Remarks
 
 If you call this method and then make some changes to the document programmatically, save the document and later open the document in MS Word you will see these changes as revisions.
 
@@ -29,7 +29,7 @@ Automatic tracking of changes is supported both when modifying this document thr
 
 This method does not change the [`TrackRevisions`](../trackrevisions) option and does not use its value for the purposes of revision tracking.
 
-### Examples
+## Examples
 
 Shows how to track revisions while editing a document.
 
@@ -95,7 +95,7 @@ public void StartTrackRevisions(string author)
 | --- | --- | --- |
 | author | String | Initials of the author to use for revisions. |
 
-### Remarks
+## Remarks
 
 If you call this method and then make some changes to the document programmatically, save the document and later open the document in MS Word you will see these changes as revisions.
 
@@ -105,7 +105,7 @@ Automatic tracking of changes is supported both when modifying this document thr
 
 This method does not change the [`TrackRevisions`](../trackrevisions) option and does not use its value for the purposes of revision tracking.
 
-### Examples
+## Examples
 
 Shows how to track revisions while editing a document.
 

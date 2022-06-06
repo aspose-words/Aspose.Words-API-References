@@ -14,11 +14,11 @@ url: /net/aspose.words/pagesetup/restartpagenumbering/
 public bool RestartPageNumbering { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 If set to **false**, the **RestartPageNumbering** property will override the [`PageStartingNumber`](../pagestartingnumber) property so that page numbering can continue from the previous section.
 
-### Examples
+## Examples
 
 Shows how to set up page numbering in a section.
 

@@ -36,11 +36,11 @@ public enum ThemeColor
 | Background1 | `14` | Background color 1. |
 | Background2 | `15` | Background color 2. |
 
-### Remarks
+## Remarks
 
 The specified theme color is a reference to one of the predefined theme colors, located in the document's Theme part, which allows color information to be set centrally in the document.
 
-### Examples
+## Examples
 
 Shows how to create and use themed style.
 

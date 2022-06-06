@@ -22,12 +22,11 @@ public enum ReplaceAction
 | Skip | `1` | Skip the current match. |
 | Stop | `2` | Terminate the replace operation. |
 
-### Examples
+## Examples
 
 Shows how to insert an entire document's contents as a replacement of a match in a find-and-replace operation.
 
 ```csharp
-public void InsertDocumentAtReplace()
 {
     Document mainDoc = new Document(MyDir + "Document insertion destination.docx");
 
@@ -37,8 +36,6 @@ public void InsertDocumentAtReplace()
 
     mainDoc.Range.Replace(new Regex("\\[MY_DOCUMENT\\]"), "", options);
     mainDoc.Save(ArtifactsDir + "InsertDocument.InsertDocumentAtReplace.docx");
-
-}
 
 private class InsertDocumentAtReplaceHandler : IReplacingCallback
 {

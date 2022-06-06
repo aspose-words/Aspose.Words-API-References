@@ -14,7 +14,7 @@ Returns a Shading object that refers to the shading formatting for the cell.
 public Shading Shading { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to modify the format of rows and cells in a table.
 

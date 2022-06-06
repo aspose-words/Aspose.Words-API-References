@@ -31,13 +31,13 @@ public class FrameFormat
 | [VerticalPosition](../../aspose.words/frameformat/verticalposition) { get; } | Gets vertical distance between the edge of the frame and the item specified by the [`RelativeVerticalPosition`](./relativeverticalposition) property. |
 | [Width](../../aspose.words/frameformat/width) { get; } | Gets the width of the specified frame, in points. |
 
-### Remarks
+## Remarks
 
 This object is always created. If a paragraph is a frame, then all properties will contain respective values, otherwise all properties are set to their defaults.
 
 Use [`IsFrame`](./isframe) to check whether paragraph is a frame.
 
-### Examples
+## Examples
 
 Shows how to get information about formatting properties of paragraphs that are frames.
 

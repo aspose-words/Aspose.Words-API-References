@@ -14,7 +14,7 @@ Creates an empty module.
 public VbaModule()
 ```
 
-### Examples
+## Examples
 
 Shows how to create a VBA project using macros.
 

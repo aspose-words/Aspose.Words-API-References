@@ -14,7 +14,7 @@ Gets or sets a bookmark name that refers to an item elsewhere in the document ra
 public string BookmarkName { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to combine table of contents and sequence fields.
 

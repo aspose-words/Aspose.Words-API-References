@@ -29,7 +29,7 @@ public static class FileFormatUtil
 | static [SaveFormatToExtension](../../aspose.words/fileformatutil/saveformattoextension)(SaveFormat) | Converts a save format enumerated value into a file extension. The returned extension is a lower-case string with a leading dot. |
 | static [SaveFormatToLoadFormat](../../aspose.words/fileformatutil/saveformattoloadformat)(SaveFormat) | Converts a [`SaveFormat`](../saveformat) value to a [`LoadFormat`](../loadformat) value if possible. |
 
-### Examples
+## Examples
 
 Shows how to detect encoding in an html file.
 

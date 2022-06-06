@@ -14,7 +14,7 @@ Retrieves character formatting previously saved on the stack.
 public void PopFont()
 ```
 
-### Examples
+## Examples
 
 Shows how to use a document builder's formatting stack.
 

@@ -22,7 +22,7 @@ public enum LineNumberRestartMode
 | RestartSection | `1` | Line numbering restarts at the section start. |
 | Continuous | `2` | Line numbering continuous from the previous section. |
 
-### Examples
+## Examples
 
 Shows how to enable line numbering for a section.
 

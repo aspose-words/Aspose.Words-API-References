@@ -21,7 +21,7 @@ public enum TextBoxWrapMode
 | Square | `0` | Text wraps inside a shape. |
 | None | `2` | Text does not wrap inside a shape. |
 
-### Examples
+## Examples
 
 Shows how to set a wrapping mode for the contents of a text box.
 

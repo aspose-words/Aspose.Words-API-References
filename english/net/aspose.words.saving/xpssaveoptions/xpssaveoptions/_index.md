@@ -14,7 +14,7 @@ Initializes a new instance of this class that can be used to save a document in 
 public XpsSaveOptions()
 ```
 
-### Examples
+## Examples
 
 Shows how to limit the headings' level that will appear in the outline of a saved XPS document.
 
@@ -70,7 +70,7 @@ Initializes a new instance of this class that can be used to save a document in 
 public XpsSaveOptions(SaveFormat saveFormat)
 ```
 
-### Examples
+## Examples
 
 Shows how to save a document to the XPS format in the form of a book fold.
 

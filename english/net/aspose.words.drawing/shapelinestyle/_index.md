@@ -25,7 +25,7 @@ public enum ShapeLineStyle
 | Triple | `4` | Three lines, thin, thick, thin. |
 | Default | `0` | Default value is Single. |
 
-### Examples
+## Examples
 
 Shows how change stroke properties.
 

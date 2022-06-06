@@ -14,12 +14,11 @@ Gets or sets string separator used for the data labels on a chart. The default i
 public string Separator { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to apply labels to data points in a line chart.
 
 ```csharp
-public void DataLabels()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);

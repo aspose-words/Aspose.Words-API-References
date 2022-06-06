@@ -14,7 +14,7 @@ Gets or sets current position in the page layout model. This property returns an
 public object Current { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to see the the ranges of pages that a node spans.
 

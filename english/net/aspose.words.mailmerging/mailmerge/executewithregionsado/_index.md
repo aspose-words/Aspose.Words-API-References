@@ -19,13 +19,13 @@ public void ExecuteWithRegionsADO(object recordset, string tableName)
 | recordset | Object | ADO Recordset or Record object. |
 | tableName | String | Name of the mail merge region in the document to populate. |
 
-### Remarks
+## Remarks
 
 This method is useful when you intend to use Aspose.Words classes as COM objects from unmanaged code such as an application built using ASP or Visual Basic 6.0.
 
 For more information see description of MailMerge.ExecuteWithRegions(DataTable).
 
-### Examples
+## Examples
 
 ```csharp
 [VBScript]

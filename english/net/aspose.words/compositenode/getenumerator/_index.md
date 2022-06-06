@@ -14,7 +14,7 @@ Provides support for the for each style iteration over the child nodes of this n
 public IEnumerator<Node> GetEnumerator()
 ```
 
-### Examples
+## Examples
 
 Shows how to traverse through a composite node's collection of child nodes.
 
@@ -52,7 +52,6 @@ foreach (Node child in children)
             Shape childShape = (Shape)child;
             Console.WriteLine("Shape:");
             Console.WriteLine($"\t{childShape.ShapeType}, {childShape.Width}x{childShape.Height}");
-            break;
     }
 ```
 

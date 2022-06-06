@@ -18,13 +18,13 @@ public Paragraph(DocumentBase doc)
 | --- | --- | --- |
 | doc | DocumentBase | The owner document. |
 
-### Remarks
+## Remarks
 
 When **Paragraph** is created, it belongs to the specified document, but is not yet part of the document and **ParentNode** is null.
 
 To append **Paragraph** to the document use InsertAfter or InsertBefore on the story where you want the paragraph inserted.
 
-### Examples
+## Examples
 
 Shows how to construct an Aspose.Words document by hand.
 

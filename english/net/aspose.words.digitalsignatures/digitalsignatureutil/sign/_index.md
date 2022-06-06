@@ -26,7 +26,7 @@ public static void Sign(Stream srcStream, Stream dstStream, CertificateHolder ce
 | certHolder | CertificateHolder | [`CertificateHolder`](../../certificateholder) object with certificate that used to sign file. The certificate in holder MUST contain private keys and have the X509KeyStorageFlags.Exportable flag set. |
 | signOptions | SignOptions | [`SignOptions`](../../signoptions) object with various signing options. |
 
-### Examples
+## Examples
 
 Shows how to digitally sign documents.
 
@@ -80,13 +80,12 @@ public static void Sign(string srcFileName, string dstFileName, CertificateHolde
 | certHolder | CertificateHolder | [`CertificateHolder`](../../certificateholder) object with certificate that used to sign file. The certificate in holder MUST contain private keys and have the X509KeyStorageFlags.Exportable flag set. |
 | signOptions | SignOptions | [`SignOptions`](../../signoptions) object with various signing options. |
 
-### Examples
+## Examples
 
 Shows how to add a signature line to a document, and then sign it using a digital certificate.
 
 ```csharp
-[Description("WORDSNET-16868")]
-        public static void Sign()
+public static void Sign()
         {
             string signeeName = "Ron Williams";
             string srcDocumentPath = MyDir + "Document.docx";
@@ -175,7 +174,7 @@ Shows how to add a signature line to a document, and then sign it using a digita
                 #if NET48 || JAVA
                 new Signee(Guid.NewGuid(), "Ron Williams", "Chief Executive Officer",
                     ImageToByteArray(Image.FromFile(ImageDir + "Logo.jpg"))),
-                #elif NET5_0 || __MOBILE__
+                #elif NET5_0_OR_GREATER || __MOBILE__
                 new Signee(Guid.NewGuid(), "Ron Williams", "Chief Executive Officer", 
                     SkiaSharp.SKBitmap.Decode(ImageDir + "Logo.jpg").Bytes),
                 #endif
@@ -183,7 +182,7 @@ Shows how to add a signature line to a document, and then sign it using a digita
                 #if NET48 || JAVA
                 new Signee(Guid.NewGuid(), "Stephen Morse", "Head of Compliance",
                     ImageToByteArray(Image.FromFile(ImageDir + "Logo.jpg")))
-                #elif NET5_0 || __MOBILE__
+                #elif NET5_0_OR_GREATER || __MOBILE__
                 new Signee(Guid.NewGuid(), "Stephen Morse", "Head of Compliance", 
                     SkiaSharp.SKBitmap.Decode(ImageDir + "Logo.jpg").Bytes)
                 #endif
@@ -221,7 +220,7 @@ public static void Sign(Stream srcStream, Stream dstStream, CertificateHolder ce
 | dstStream | Stream | The stream that signed document will be written to. |
 | certHolder | CertificateHolder | [`CertificateHolder`](../../certificateholder) object with certificate that used to sign file. The certificate in holder MUST contain private keys and have the X509KeyStorageFlags.Exportable flag set. |
 
-### Examples
+## Examples
 
 Shows how to sign documents with X.509 certificates.
 
@@ -286,7 +285,7 @@ public static void Sign(string srcFileName, string dstFileName, CertificateHolde
 | dstFileName | String | The file name of the signed document output. |
 | certHolder | CertificateHolder | [`CertificateHolder`](../../certificateholder) object with certificate that used to sign file. The certificate in holder MUST contain private keys and have the X509KeyStorageFlags.Exportable flag set. |
 
-### Examples
+## Examples
 
 Shows how to sign documents with X.509 certificates.
 

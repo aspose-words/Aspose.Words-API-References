@@ -37,7 +37,7 @@ public class FolderFontSource : FontSourceBase
 | --- | --- |
 | [GetAvailableFonts](../../aspose.words.fonts/fontsourcebase/getavailablefonts)() | Returns list of fonts available via this source. |
 
-### Examples
+## Examples
 
 Shows how to use a local system folder which contains fonts as a font source.
 
@@ -47,7 +47,7 @@ FolderFontSource folderFontSource = new FolderFontSource(FontsDir, false, 1);
 
 Document doc = new Document();
 doc.FontSettings = new FontSettings();
-doc.FontSettings.SetFontsSources(new FontSourceBase[] { folderFontSource });
+doc.FontSettings.SetFontsSources(new FontSourceBase[] {folderFontSource});
 
 Assert.AreEqual(FontsDir, folderFontSource.FolderPath);
 Assert.AreEqual(false, folderFontSource.ScanSubfolders);

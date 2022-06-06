@@ -18,11 +18,11 @@ public void Remove(string formField)
 | --- | --- | --- |
 | formField | String | The case-insensitive name of the form field to remove. |
 
-### Remarks
+## Remarks
 
 If there is a bookmark associated with the form field, the bookmark is not removed.
 
-### Examples
+## Examples
 
 Shows how insert different kinds of form fields into a document, and process them with using a document visitor implementation.
 

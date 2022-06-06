@@ -14,11 +14,11 @@ Specifies whether images should be downsampled.
 public bool DownsampleImages { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 The default value is `true`.
 
-### Examples
+## Examples
 
 Shows how to change the resolution of images in the PDF document.
 

@@ -14,11 +14,11 @@ Specifies the threshold resolution in pixels per inch. If resolution of an image
 public int ResolutionThreshold { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 The default value is 0.
 
-### Examples
+## Examples
 
 Shows how to change the resolution of images in the PDF document.
 

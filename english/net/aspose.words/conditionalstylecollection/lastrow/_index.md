@@ -14,7 +14,7 @@ Gets the last row style.
 public ConditionalStyle LastRow { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to work with certain area styles of a table.
 

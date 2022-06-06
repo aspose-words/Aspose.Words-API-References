@@ -14,11 +14,11 @@ Static default font settings.
 public static FontSettings DefaultInstance { get; }
 ```
 
-### Remarks
+## Remarks
 
 This instance is used by default in a document unless [`FontSettings`](../../../aspose.words/document/fontsettings) is specified.
 
-### Examples
+## Examples
 
 Shows how to configure the default font settings instance.
 
@@ -46,7 +46,6 @@ doc.Save(ArtifactsDir + "FontSettings.DefaultFontInstance.pdf");
 Shows how to use the IWarningCallback interface to monitor font substitution warnings.
 
 ```csharp
-public void SubstitutionWarning()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -70,9 +69,9 @@ public void SubstitutionWarning()
 
     FontSettings.DefaultInstance.SetFontsSources(originalFontSources);
 
-    Assert.True(callback.FontSubstitutionWarnings[0].WarningType == WarningType.FontSubstitution);
     Assert.True(callback.FontSubstitutionWarnings[0].Description
-        .Equals("Font 'Times New Roman' has not been found. Using 'Fanwood' font instead. Reason: first available font."));
+        .Equals(
+            "Font 'Times New Roman' has not been found. Using 'Fanwood' font instead. Reason: first available font."));
 }
 
 private class FontSubstitutionWarningCollector : IWarningCallback

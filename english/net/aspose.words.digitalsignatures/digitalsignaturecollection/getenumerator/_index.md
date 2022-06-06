@@ -14,7 +14,7 @@ Returns a dictionary enumerator object that can be used to iterate over all item
 public IEnumerator<DigitalSignature> GetEnumerator()
 ```
 
-### Examples
+## Examples
 
 Shows how to print all the digital signatures of a signed document.
 

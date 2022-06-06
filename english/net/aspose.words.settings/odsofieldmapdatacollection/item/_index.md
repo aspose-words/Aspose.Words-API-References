@@ -14,7 +14,7 @@ Gets or sets an item in this collection.
 public OdsoFieldMapData this[int index] { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to access the collection of data that maps data source columns to merge fields.
 

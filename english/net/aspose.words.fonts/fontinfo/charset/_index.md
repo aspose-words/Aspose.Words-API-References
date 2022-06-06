@@ -14,7 +14,7 @@ Gets or sets the character set for the font.
 public int Charset { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to access and print details of each font in a document.
 

@@ -35,7 +35,7 @@ public class RunCollection : NodeCollection
 | [RemoveAt](../../aspose.words/nodecollection/removeat)(int) | Removes the node at the specified index from the collection and from the document. |
 | [ToArray](../../aspose.words/runcollection/toarray)() | Copies all runs from the collection to a new array of runs. (2 methods) |
 
-### Examples
+## Examples
 
 Shows how to determine the revision type of an inline node.
 

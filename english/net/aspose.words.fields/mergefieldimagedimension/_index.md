@@ -28,16 +28,15 @@ public class MergeFieldImageDimension
 | [Unit](../../aspose.words.fields/mergefieldimagedimension/unit) { get; set; } | The unit. |
 | [Value](../../aspose.words.fields/mergefieldimagedimension/value) { get; set; } | The value. |
 
-### Remarks
+## Remarks
 
 To indicate that the image should be inserted with its original dimension during a mail merge, you should assign a negative value to the [`Value`](./value) property.
 
-### Examples
+## Examples
 
 Shows how to set the dimensions of images as MERGEFIELDS accepts them during a mail merge.
 
 ```csharp
-public void MergeFieldImageDimension()
 {
     Document doc = new Document();
 
@@ -62,7 +61,6 @@ public void MergeFieldImageDimension()
 
     doc.UpdateFields();
     doc.Save(ArtifactsDir + "Field.MERGEFIELD.ImageDimension.docx");
-}
 
 /// <summary>
 /// Sets the size of all mail merged images to one defined width and height.

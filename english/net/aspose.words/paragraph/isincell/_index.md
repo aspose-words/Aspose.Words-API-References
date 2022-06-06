@@ -14,7 +14,7 @@ True if this paragraph is an immediate child of [`Cell`](../../../aspose.words.t
 public bool IsInCell { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to set a table to stay together on the same page.
 

@@ -14,11 +14,11 @@ A collection of the smart tag properties.
 public CustomXmlPropertyCollection Properties { get; }
 ```
 
-### Remarks
+## Remarks
 
 Cannot be null.
 
-### Examples
+## Examples
 
 Shows how to create smart tags.
 

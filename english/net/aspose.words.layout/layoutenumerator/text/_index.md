@@ -14,7 +14,7 @@ Gets text of the current span entity. Throws for other entity types.
 public string Text { get; }
 ```
 
-### Examples
+## Examples
 
 Shows ways of traversing a document's layout entities.
 

@@ -14,12 +14,11 @@ Gets or sets the text of the entry.
 public string Text { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to insert a TOC field, and filter which TC fields end up as entries.
 
 ```csharp
-public void FieldTocEntryIdentifier()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -48,7 +47,6 @@ public void FieldTocEntryIdentifier()
 
     doc.UpdateFields();
     doc.Save(ArtifactsDir + "Field.TC.docx");
-}
 
 /// <summary>
 /// Use a document builder to insert a TC field.

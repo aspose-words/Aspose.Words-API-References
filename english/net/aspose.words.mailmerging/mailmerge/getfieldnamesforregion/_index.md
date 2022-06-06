@@ -18,7 +18,7 @@ public string[] GetFieldNamesForRegion(string regionName)
 | --- | --- | --- |
 | regionName | String | Region name (case-insensitive). |
 
-### Remarks
+## Remarks
 
 Returns full merge field names including optional prefix. Does not eliminate duplicate field names.
 
@@ -26,7 +26,7 @@ If document contains multiple regions with the same name the very first region i
 
 A new string array is created on every call.
 
-### Examples
+## Examples
 
 Shows how to create, list, and read mail merge regions.
 
@@ -99,7 +99,7 @@ public string[] GetFieldNamesForRegion(string regionName, int regionIndex)
 | regionName | String | Region name (case-insensitive). |
 | regionIndex | Int32 | Region index (zero-based). |
 
-### Remarks
+## Remarks
 
 Returns full merge field names including optional prefix. Does not eliminate duplicate field names.
 
@@ -107,7 +107,7 @@ If document contains multiple regions with the same name the Nth region (zero-ba
 
 A new string array is created on every call.
 
-### Examples
+## Examples
 
 Shows how to create, list, and read mail merge regions.
 

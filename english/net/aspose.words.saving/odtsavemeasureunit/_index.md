@@ -21,7 +21,7 @@ public enum OdtSaveMeasureUnit
 | Centimeters | `0` | Specifies that the document content is saved using centimeters. |
 | Inches | `1` | Specifies that the document content is saved using inches. |
 
-### Examples
+## Examples
 
 Shows how to use different measurement units to define style parameters of a saved ODT document.
 

@@ -16,11 +16,11 @@ This option works only when [`EmbedTrueTypeFonts`](../embedtruetypefonts) proper
 public bool SaveSubsetFonts { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 This option works for DOC, DOCX and RTF formats only.
 
-### Examples
+## Examples
 
 Shows how to save a document with embedded TrueType fonts.
 

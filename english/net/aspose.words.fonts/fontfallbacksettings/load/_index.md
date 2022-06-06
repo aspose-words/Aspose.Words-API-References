@@ -18,7 +18,7 @@ public void Load(string fileName)
 | --- | --- | --- |
 | fileName | String | Input file name. |
 
-### Examples
+## Examples
 
 Shows how to load and save font fallback settings to/from an XML document in the local file system.
 
@@ -56,7 +56,7 @@ public void Load(Stream stream)
 | --- | --- | --- |
 | stream | Stream | Input stream. |
 
-### Examples
+## Examples
 
 Shows how to load and save font fallback settings to/from a stream.
 

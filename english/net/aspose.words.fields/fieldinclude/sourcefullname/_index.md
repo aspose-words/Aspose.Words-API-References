@@ -14,7 +14,7 @@ Gets or sets the location of the document.
 public string SourceFullName { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to create an INCLUDE field, and set its properties.
 

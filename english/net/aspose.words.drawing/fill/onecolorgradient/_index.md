@@ -20,7 +20,7 @@ public void OneColorGradient(GradientStyle style, GradientVariant variant, doubl
 | variant | GradientVariant | The gradient variant [`GradientVariant`](../../gradientvariant) |
 | degree | Double | The gradient degree. Can be a value from 0.0 (dark) to 1.0 (light). |
 
-### Examples
+## Examples
 
 Shows how to fill a shape with a gradients.
 
@@ -70,7 +70,7 @@ doc.Save(ArtifactsDir + "Shape.GradientFill.docx", saveOptions);
 
 ## Fill.OneColorGradient method (2 of 2)
 
-Sets the specified fill to a one-color gradient and applies a specified color to the [`ForeColor`](../forecolor).
+Sets the specified fill to a one-color gradient using the specified color.
 
 ```csharp
 public void OneColorGradient(Color color, GradientStyle style, GradientVariant variant, 
@@ -79,12 +79,12 @@ public void OneColorGradient(Color color, GradientStyle style, GradientVariant v
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| color | Color | The color to apply to [`ForeColor`](../forecolor) after the fill is set. |
+| color | Color | The color to build the gradient. |
 | style | GradientStyle | The gradient style [`GradientStyle`](../../gradientstyle) |
 | variant | GradientVariant | The gradient variant [`GradientVariant`](../../gradientvariant) |
 | degree | Double | The gradient degree. Can be a value from 0.0 (dark) to 1.0 (light). |
 
-### Examples
+## Examples
 
 Shows how to fill a shape with a gradients.
 

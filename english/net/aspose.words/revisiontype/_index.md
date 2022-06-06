@@ -24,7 +24,7 @@ public enum RevisionType
 | StyleDefinitionChange | `3` | Change of formatting was applied to the parent style. |
 | Moving | `4` | Content was moved in the document. |
 
-### Examples
+## Examples
 
 Shows how to work with revisions in a document.
 
