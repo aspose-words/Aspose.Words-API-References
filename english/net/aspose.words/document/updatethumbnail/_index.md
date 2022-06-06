@@ -6,7 +6,7 @@ type: docs
 weight: 760
 url: /net/aspose.words/document/updatethumbnail/
 ---
-## UpdateThumbnail(ThumbnailGeneratingOptions) {#updatethumbnail_1}
+## Document.UpdateThumbnail method (1 of 2)
 
 Updates [`Thumbnail`](../../../aspose.words.properties/builtindocumentproperties/thumbnail) of the document according to the specified options.
 
@@ -18,11 +18,11 @@ public void UpdateThumbnail(ThumbnailGeneratingOptions options)
 | --- | --- | --- |
 | options | ThumbnailGeneratingOptions | The generating options to use. |
 
-### Remarks
+## Remarks
 
 The [`ThumbnailGeneratingOptions`](../../../aspose.words.rendering/thumbnailgeneratingoptions) allows you to specify the source of thumbnail, size and other options. If attempt to generate thumbnail fails, doesn't change one.
 
-### Examples
+## Examples
 
 Shows how to update a document's thumbnail.
 
@@ -56,7 +56,7 @@ doc.Save(ArtifactsDir + "Document.UpdateThumbnail.FirstImage.epub");
 
 ---
 
-## UpdateThumbnail() {#updatethumbnail}
+## Document.UpdateThumbnail method (2 of 2)
 
 Updates [`Thumbnail`](../../../aspose.words.properties/builtindocumentproperties/thumbnail) of the document using default options.
 
@@ -64,7 +64,7 @@ Updates [`Thumbnail`](../../../aspose.words.properties/builtindocumentproperties
 public void UpdateThumbnail()
 ```
 
-### Examples
+## Examples
 
 Shows how to update a document's thumbnail.
 

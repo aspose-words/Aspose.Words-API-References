@@ -14,7 +14,7 @@ Keeps original representation of legacy control characters.
 public bool KeepLegacyControlChars { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to support legacy control characters when converting to .docx.
 

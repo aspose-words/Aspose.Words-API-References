@@ -14,11 +14,11 @@ Gets the name of the font.
 public string Name { get; }
 ```
 
-### Remarks
+## Remarks
 
 Cannot be `null`. Can be an empty string.
 
-### Examples
+## Examples
 
 Shows how to print the details of what fonts are present in a document.
 
@@ -26,7 +26,6 @@ Shows how to print the details of what fonts are present in a document.
 Document doc = new Document(MyDir + "Embedded font.docx");
 
 FontInfoCollection allFonts = doc.FontInfos;
-
 // Print all the used and unused fonts in the document.
 for (int i = 0; i < allFonts.Count; i++)
 {

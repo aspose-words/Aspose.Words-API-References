@@ -14,7 +14,7 @@ Gets or sets the value indicating whether legacy (early than AW 13.10) number fo
 public bool LegacyNumberFormat { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 When this property is set to **true**, template symbol "#" worked as in .net: Replaces the pound sign with the corresponding digit if one is present; otherwise, no symbols appears in the result string.
 
@@ -22,7 +22,7 @@ When this property is set to **false**, template symbol "#" works as MS Word: Th
 
 The default value is **false**.
 
-### Examples
+## Examples
 
 Shows how enable legacy number formatting for fields.
 

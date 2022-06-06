@@ -14,7 +14,7 @@ Returns value of axis bound represented as datetime.
 public DateTime ValueAsDate { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to set custom axis bounds.
 

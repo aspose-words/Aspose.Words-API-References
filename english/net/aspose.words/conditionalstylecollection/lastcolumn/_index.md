@@ -14,7 +14,7 @@ Gets the last column style.
 public ConditionalStyle LastColumn { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to work with certain area styles of a table.
 

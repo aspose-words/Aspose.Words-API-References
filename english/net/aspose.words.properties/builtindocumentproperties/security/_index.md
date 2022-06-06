@@ -14,7 +14,7 @@ Specifies the security level of a document as a numeric value.
 public DocumentSecurity Security { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 Use this property for informational purposes only because Microsoft Word does not always set this property. This property is available in DOC and OOXML documents only.
 
@@ -22,7 +22,7 @@ To protect or unprotect a document use the [`Protect`](../../../aspose.words/doc
 
 Aspose.Words updates this property to a correct value before saving a document.
 
-### Examples
+## Examples
 
 Shows how to use document properties to display the security level of a document.
 

@@ -14,12 +14,11 @@ Allows to control how images are saved when a document is saved to XAML.
 public IImageSavingCallback ImageSavingCallback { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to print the filenames of linked images created while converting a document to flow-form .xaml.
 
 ```csharp
-public void ImageFolder()
 {
     Document doc = new Document(MyDir + "Rendering.docx");
 
@@ -49,7 +48,6 @@ public void ImageFolder()
 
     foreach (string resource in callback.Resources)
         Console.WriteLine($"{callback.ImagesFolderAlias}/{resource}");
-}
 
 /// <summary>
 /// Counts and prints filenames of images while their parent document is converted to flow-form .xaml.

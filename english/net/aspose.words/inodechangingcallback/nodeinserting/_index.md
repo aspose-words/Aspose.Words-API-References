@@ -14,12 +14,11 @@ Called just before a node belonging to this document is about to be inserted int
 public void NodeInserting(NodeChangingArgs args)
 ```
 
-### Examples
+## Examples
 
 Shows how customize node changing with a callback.
 
 ```csharp
-public void FontChangeViaCallback()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -37,7 +36,6 @@ public void FontChangeViaCallback()
     doc.Range.Fields[0].Remove();
 
     Console.WriteLine(callback.GetLog());
-}
 
 /// <summary>
 /// Logs the date and time of each node insertion and removal.

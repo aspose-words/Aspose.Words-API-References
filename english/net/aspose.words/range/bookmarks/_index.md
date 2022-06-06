@@ -14,7 +14,7 @@ Returns a `Bookmarks` collection that represents all bookmarks in the range.
 public BookmarkCollection Bookmarks { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to add bookmarks and update their contents.
 

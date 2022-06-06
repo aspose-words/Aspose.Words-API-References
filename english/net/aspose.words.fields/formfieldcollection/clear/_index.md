@@ -14,7 +14,7 @@ Removes all form fields from this collection and from the document.
 public void Clear()
 ```
 
-### Examples
+## Examples
 
 Shows how insert different kinds of form fields into a document, and process them with using a document visitor implementation.
 

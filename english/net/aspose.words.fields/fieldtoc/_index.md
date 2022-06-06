@@ -63,16 +63,15 @@ public class FieldToc : Field
 | [Update](../../aspose.words.fields/field/update)(bool) | Performs a field update. Throws if the field is being updated already. |
 | [UpdatePageNumbers](../../aspose.words.fields/fieldtoc/updatepagenumbers)() | Updates the page numbers for items in this table of contents. |
 
-### Remarks
+## Remarks
 
 Builds a table of contents (which can also be a table of figures) using the entries specified by TC fields, their heading levels, and specified styles, and inserts that table at this place in the document.
 
-### Examples
+## Examples
 
 Shows how to insert a TOC, and populate it with entries based on heading styles.
 
 ```csharp
-public void FieldToc()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -134,7 +133,6 @@ public void FieldToc()
     field.UpdatePageNumbers();
     doc.UpdateFields();
     doc.Save(ArtifactsDir + "Field.TOC.docx");
-}
 
 /// <summary>
 /// Start a new page and insert a paragraph of a specified style.

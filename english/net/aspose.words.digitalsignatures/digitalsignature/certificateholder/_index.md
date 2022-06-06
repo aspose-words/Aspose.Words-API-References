@@ -14,7 +14,7 @@ Returns the certificate holder object that contains the certificate was used to 
 public CertificateHolder CertificateHolder { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to sign documents with X.509 certificates.
 

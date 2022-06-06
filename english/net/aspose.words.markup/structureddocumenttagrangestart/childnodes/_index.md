@@ -14,7 +14,7 @@ Gets all nodes between this range start node and the range end node.
 public NodeCollection ChildNodes { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to get child nodes of StructuredDocumentTagRangeStart.
 

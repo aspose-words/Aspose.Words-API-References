@@ -18,7 +18,7 @@ public GradientStop RemoveAt(int index)
 
 Removed [`GradientStop`](../../gradientstop).
 
-### Examples
+## Examples
 
 Shows how to add gradient stops to the gradient fill.
 

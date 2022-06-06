@@ -14,7 +14,7 @@ Gets a ListIndentation object that specifies how many and which character to use
 public TxtListIndentation ListIndentation { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to configure list indenting when saving a document to plaintext.
 

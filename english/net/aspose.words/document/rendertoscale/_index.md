@@ -26,7 +26,7 @@ public SizeF RenderToScale(int pageIndex, Graphics graphics, float x, float y, f
 
 The width and height (in world units) of the rendered page.
 
-### Examples
+## Examples
 
 Shows how to the individual pages of a document to graphics to create one image with thumbnails of all pages.
 

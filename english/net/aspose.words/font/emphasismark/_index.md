@@ -14,7 +14,7 @@ Gets or sets the emphasis mark applied to this formatting.
 public EmphasisMark EmphasisMark { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to add additional character rendered above/below the glyph-character.
 

@@ -14,7 +14,7 @@ Returns true if the paragraph is a frame.
 public bool IsFrame { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to get information about formatting properties of paragraphs that are frames.
 

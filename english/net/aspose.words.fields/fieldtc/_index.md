@@ -50,16 +50,15 @@ public sealed class FieldTC : Field
 | [Update](../../aspose.words.fields/field/update)() | Performs the field update. Throws if the field is being updated already. |
 | [Update](../../aspose.words.fields/field/update)(bool) | Performs a field update. Throws if the field is being updated already. |
 
-### Remarks
+## Remarks
 
 Defines the text and page number for a table of contents (including a table of figures) entry, which is used by a TOC field.
 
-### Examples
+## Examples
 
 Shows how to insert a TOC field, and filter which TC fields end up as entries.
 
 ```csharp
-public void FieldTocEntryIdentifier()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -88,7 +87,6 @@ public void FieldTocEntryIdentifier()
 
     doc.UpdateFields();
     doc.Save(ArtifactsDir + "Field.TC.docx");
-}
 
 /// <summary>
 /// Use a document builder to insert a TC field.

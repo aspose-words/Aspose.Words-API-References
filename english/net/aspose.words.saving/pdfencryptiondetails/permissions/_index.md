@@ -14,7 +14,7 @@ Specifies the operations that are allowed to a user on an encrypted PDF document
 public PdfPermissions Permissions { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to set permissions on a saved PDF document.
 

@@ -14,7 +14,7 @@ Returns an enumerator object that can be used to iterate over all items in the c
 public IEnumerator<CustomXmlProperty> GetEnumerator()
 ```
 
-### Examples
+## Examples
 
 Shows how to work with smart tag properties to get in depth information about smart tags.
 

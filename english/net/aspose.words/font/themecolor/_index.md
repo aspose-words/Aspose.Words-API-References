@@ -14,7 +14,7 @@ Gets or sets the theme color in the applied color scheme that is associated with
 public ThemeColor ThemeColor { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to create and use themed style.
 

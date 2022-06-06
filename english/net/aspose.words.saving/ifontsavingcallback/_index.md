@@ -20,12 +20,11 @@ public interface IFontSavingCallback
 | --- | --- |
 | [FontSaving](../../aspose.words.saving/ifontsavingcallback/fontsaving)(FontSavingArgs) | Called when Aspose.Words is about to save a font resource. |
 
-### Examples
+## Examples
 
 Shows how to define custom logic for exporting fonts when saving to HTML.
 
 ```csharp
-public void SaveExportedFonts()
 {
     Document doc = new Document(MyDir + "Rendering.docx");
 
@@ -44,8 +43,6 @@ public void SaveExportedFonts()
     {
         Console.WriteLine(fontFilename);
     }
-
-}
 
 /// <summary>
 /// Prints information about exported fonts and saves them in the same local system folder as their output .html.

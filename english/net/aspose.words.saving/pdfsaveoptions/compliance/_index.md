@@ -14,11 +14,11 @@ Specifies the PDF standards compliance level for output documents.
 public PdfCompliance Compliance { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 Default is Pdf17.
 
-### Examples
+## Examples
 
 Shows how to set the PDF standards compliance level of saved PDF documents.
 
@@ -27,6 +27,8 @@ Document doc = new Document(MyDir + "Images.docx");
 
 // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
 // to modify how that method converts the document to .PDF.
+// Note that some PdfSaveOptions are prohibited when saving to one of the standards and automatically fixed.
+// Use IWarningCallback to know which options are automatically fixed.
 PdfSaveOptions saveOptions = new PdfSaveOptions();
 
 // Set the "Compliance" property to "PdfCompliance.PdfA1b" to comply with the "PDF/A-1b" standard,
@@ -34,6 +36,8 @@ PdfSaveOptions saveOptions = new PdfSaveOptions();
 // Set the "Compliance" property to "PdfCompliance.Pdf17" to comply with the "1.7" standard.
 // Set the "Compliance" property to "PdfCompliance.PdfA1a" to comply with the "PDF/A-1a" standard,
 // which complies with "PDF/A-1b" as well as preserving the document structure of the original document.
+// Set the "Compliance" property to "PdfCompliance.PdfUa1" to comply with the "PDF/UA-1" (ISO 14289-1) standard,
+// which aims to define represent electronic documents in PDF that allow the file to be accessible.
 // This helps with making documents searchable but may significantly increase the size of already large documents.
 saveOptions.Compliance = pdfCompliance;
 

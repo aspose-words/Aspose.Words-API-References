@@ -6,7 +6,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.drawing.charts/chartseriescollection/add/
 ---
-## Add(string, string[], double[]) {#add_3}
+## ChartSeriesCollection.Add method (1 of 4)
 
 Adds new [`ChartSeries`](../../chartseries) to this collection. Use this method to add series to any type of Bar, Column, Line and Surface charts.
 
@@ -18,12 +18,11 @@ public ChartSeries Add(string seriesName, string[] categories, double[] values)
 
 Recently added [`ChartSeries`](../../chartseries) object.
 
-### Examples
+## Examples
 
 Shows how to create an appropriate type of chart series for a graph type.
 
 ```csharp
-public void ChartSeriesCollection()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -100,7 +99,6 @@ private static Chart AppendChart(DocumentBuilder builder, ChartType chartType, d
     Shape chartShape = builder.InsertChart(chartType, width, height);
     Chart chart = chartShape.Chart;
     chart.Series.Clear();
-
     return chart;
 }
 ```
@@ -114,7 +112,7 @@ private static Chart AppendChart(DocumentBuilder builder, ChartType chartType, d
 
 ---
 
-## Add(string, double[], double[]) {#add}
+## ChartSeriesCollection.Add method (2 of 4)
 
 Adds new [`ChartSeries`](../../chartseries) to this collection. Use this method to add series to any type of Scatter charts.
 
@@ -126,12 +124,11 @@ public ChartSeries Add(string seriesName, double[] xValues, double[] yValues)
 
 Recently added [`ChartSeries`](../../chartseries) object.
 
-### Examples
+## Examples
 
 Shows how to create an appropriate type of chart series for a graph type.
 
 ```csharp
-public void ChartSeriesCollection()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -208,7 +205,6 @@ private static Chart AppendChart(DocumentBuilder builder, ChartType chartType, d
     Shape chartShape = builder.InsertChart(chartType, width, height);
     Chart chart = chartShape.Chart;
     chart.Series.Clear();
-
     return chart;
 }
 ```
@@ -222,7 +218,7 @@ private static Chart AppendChart(DocumentBuilder builder, ChartType chartType, d
 
 ---
 
-## Add(string, DateTime[], double[]) {#add_2}
+## ChartSeriesCollection.Add method (3 of 4)
 
 Adds new [`ChartSeries`](../../chartseries) to this collection. Use this method to add series to any type of Area, Radar and Stock charts.
 
@@ -230,12 +226,11 @@ Adds new [`ChartSeries`](../../chartseries) to this collection. Use this method 
 public ChartSeries Add(string seriesName, DateTime[] dates, double[] values)
 ```
 
-### Examples
+## Examples
 
 Shows how to create an appropriate type of chart series for a graph type.
 
 ```csharp
-public void ChartSeriesCollection()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -312,7 +307,6 @@ private static Chart AppendChart(DocumentBuilder builder, ChartType chartType, d
     Shape chartShape = builder.InsertChart(chartType, width, height);
     Chart chart = chartShape.Chart;
     chart.Series.Clear();
-
     return chart;
 }
 ```
@@ -326,7 +320,7 @@ private static Chart AppendChart(DocumentBuilder builder, ChartType chartType, d
 
 ---
 
-## Add(string, double[], double[], double[]) {#add_1}
+## ChartSeriesCollection.Add method (4 of 4)
 
 Adds new [`ChartSeries`](../../chartseries) to this collection. Use this method to add series to any type of Bubble charts.
 
@@ -338,12 +332,11 @@ public ChartSeries Add(string seriesName, double[] xValues, double[] yValues, do
 
 Recently added [`ChartSeries`](../../chartseries) object.
 
-### Examples
+## Examples
 
 Shows how to create an appropriate type of chart series for a graph type.
 
 ```csharp
-public void ChartSeriesCollection()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -420,7 +413,6 @@ private static Chart AppendChart(DocumentBuilder builder, ChartType chartType, d
     Shape chartShape = builder.InsertChart(chartType, width, height);
     Chart chart = chartShape.Chart;
     chart.Series.Clear();
-
     return chart;
 }
 ```

@@ -14,11 +14,11 @@ Gets or sets a value determining if fields of certain types should be updated be
 public bool UpdateFields { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 Allows to specify whether to mimic or not MS Word behavior.
 
-### Examples
+## Examples
 
 Shows how to update all the fields in a document immediately before saving it to PDF.
 

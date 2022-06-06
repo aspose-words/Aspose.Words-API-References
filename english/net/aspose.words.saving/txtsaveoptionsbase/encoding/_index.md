@@ -14,7 +14,7 @@ Specifies the encoding to use when exporting in text formats. Default value is *
 public Encoding Encoding { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to set encoding for a .txt output document.
 

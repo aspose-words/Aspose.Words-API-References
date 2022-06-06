@@ -14,12 +14,11 @@ Returns true if this data label has something to display.
 public bool IsVisible { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to apply labels to data points in a line chart.
 
 ```csharp
-public void DataLabels()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);

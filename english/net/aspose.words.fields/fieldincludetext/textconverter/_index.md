@@ -14,7 +14,7 @@ Gets or sets the name of the text converter for the format of the included file.
 public string TextConverter { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to create an INCLUDETEXT field, and set its properties.
 
@@ -37,7 +37,6 @@ public void FieldIncludeText()
     fieldIncludeText.XPath = "/catalog/cd/title";
 
     doc.Save(ArtifactsDir + "Field.INCLUDETEXT.docx");
-}
 
 /// <summary>
 /// Use a document builder to insert an INCLUDETEXT field with custom properties.

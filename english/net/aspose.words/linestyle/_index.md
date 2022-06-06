@@ -46,7 +46,7 @@ public enum LineStyle
 | Outset | `26` |  |
 | Inset | `27` |  |
 
-### Examples
+## Examples
 
 Shows how to insert a string surrounded by a border into a document.
 

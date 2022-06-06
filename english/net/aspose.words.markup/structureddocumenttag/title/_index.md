@@ -14,7 +14,7 @@ Specifies the friendly name associated with this **SDT**. Can not be null.
 public string Title { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to create a structured document tag in a plain text box and modify its appearance.
 

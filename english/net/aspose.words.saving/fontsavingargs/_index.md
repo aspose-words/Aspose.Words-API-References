@@ -30,7 +30,7 @@ public class FontSavingArgs
 | [OriginalFileName](../../aspose.words.saving/fontsavingargs/originalfilename) { get; } | Gets the original font file name with an extension. |
 | [OriginalFileSize](../../aspose.words.saving/fontsavingargs/originalfilesize) { get; } | Gets the original font file size. |
 
-### Remarks
+## Remarks
 
 When Aspose.Words saves a document to HTML or related formats and [`ExportFontResources`](../htmlsaveoptions/exportfontresources) is set to **true**, it saves each font subject for export into a separate file.
 
@@ -42,12 +42,11 @@ To decide whether to save a particular font resource, use the [`IsExportNeeded`]
 
 To save fonts into streams instead of files, use the [`FontStream`](./fontstream) property.
 
-### Examples
+## Examples
 
 Shows how to define custom logic for exporting fonts when saving to HTML.
 
 ```csharp
-public void SaveExportedFonts()
 {
     Document doc = new Document(MyDir + "Rendering.docx");
 
@@ -66,8 +65,6 @@ public void SaveExportedFonts()
     {
         Console.WriteLine(fontFilename);
     }
-
-}
 
 /// <summary>
 /// Prints information about exported fonts and saves them in the same local system folder as their output .html.

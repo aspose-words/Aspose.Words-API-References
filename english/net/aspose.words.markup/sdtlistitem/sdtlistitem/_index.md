@@ -6,7 +6,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.markup/sdtlistitem/sdtlistitem/
 ---
-## SdtListItem(string, string) {#constructor_1}
+## SdtListItem constructor (1 of 2)
 
 Initializes a new instance of this class.
 
@@ -14,7 +14,7 @@ Initializes a new instance of this class.
 public SdtListItem(string displayText, string value)
 ```
 
-### Examples
+## Examples
 
 Shows how to work with drop down-list structured document tags.
 
@@ -76,7 +76,7 @@ Assert.AreEqual(0, listItems.Count);
 
 ---
 
-## SdtListItem(string) {#constructor}
+## SdtListItem constructor (2 of 2)
 
 Initializes a new instance of this class.
 
@@ -84,7 +84,7 @@ Initializes a new instance of this class.
 public SdtListItem(string value)
 ```
 
-### Examples
+## Examples
 
 Shows how to work with drop down-list structured document tags.
 

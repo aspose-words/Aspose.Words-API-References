@@ -6,7 +6,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.properties/customdocumentproperties/add/
 ---
-## Add(string, string) {#add_4}
+## CustomDocumentProperties.Add method (1 of 5)
 
 Creates a new custom document property of the **PropertyType.String** data type.
 
@@ -23,7 +23,7 @@ public DocumentProperty Add(string name, string value)
 
 The newly created property object.
 
-### Examples
+## Examples
 
 Shows how to work with a document's custom properties.
 
@@ -89,7 +89,7 @@ Assert.AreEqual(0, properties.Count);
 
 ---
 
-## Add(string, int) {#add_2}
+## CustomDocumentProperties.Add method (2 of 5)
 
 Creates a new custom document property of the **PropertyType.Number** data type.
 
@@ -106,7 +106,7 @@ public DocumentProperty Add(string name, int value)
 
 The newly created property object.
 
-### Examples
+## Examples
 
 Shows how to work with a document's custom properties.
 
@@ -172,7 +172,7 @@ Assert.AreEqual(0, properties.Count);
 
 ---
 
-## Add(string, DateTime) {#add_3}
+## CustomDocumentProperties.Add method (3 of 5)
 
 Creates a new custom document property of the **PropertyType.DateTime** data type.
 
@@ -189,7 +189,7 @@ public DocumentProperty Add(string name, DateTime value)
 
 The newly created property object.
 
-### Examples
+## Examples
 
 Shows how to create a custom document property which contains a date and time.
 
@@ -265,7 +265,7 @@ Assert.AreEqual(0, properties.Count);
 
 ---
 
-## Add(string, bool) {#add}
+## CustomDocumentProperties.Add method (4 of 5)
 
 Creates a new custom document property of the **PropertyType.Boolean** data type.
 
@@ -282,7 +282,7 @@ public DocumentProperty Add(string name, bool value)
 
 The newly created property object.
 
-### Examples
+## Examples
 
 Shows how to work with a document's custom properties.
 
@@ -348,7 +348,7 @@ Assert.AreEqual(0, properties.Count);
 
 ---
 
-## Add(string, double) {#add_1}
+## CustomDocumentProperties.Add method (5 of 5)
 
 Creates a new custom document property of the **PropertyType.Float** data type.
 
@@ -365,7 +365,7 @@ public DocumentProperty Add(string name, double value)
 
 The newly created property object.
 
-### Examples
+## Examples
 
 Shows how to work with a document's custom properties.
 

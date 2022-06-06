@@ -14,7 +14,7 @@ Specifies the outline level of the paragraph in the document.
 public OutlineLevel OutlineLevel { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to configure paragraph outline levels to create collapsible text.
 

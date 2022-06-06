@@ -14,7 +14,7 @@ Specifies the compression level used to save document. The default value is Norm
 public CompressionLevel CompressionLevel { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to specify the compression level to use while saving an OOXML document.
 

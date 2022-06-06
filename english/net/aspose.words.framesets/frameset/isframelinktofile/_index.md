@@ -14,7 +14,7 @@ Gets or sets a value indicating whether the web page or document file name speci
 public bool IsFrameLinkToFile { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to access frames on-page.
 

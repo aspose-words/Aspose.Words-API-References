@@ -14,7 +14,7 @@ Returns the last **Row** node in the table.
 public Row LastRow { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to remove the first and last rows of all tables in a document.
 

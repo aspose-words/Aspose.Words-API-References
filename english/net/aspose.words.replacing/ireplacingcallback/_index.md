@@ -20,12 +20,11 @@ public interface IReplacingCallback
 | --- | --- |
 | [Replacing](../../aspose.words.replacing/ireplacingcallback/replacing)(ReplacingArgs) | A user defined method that is called during a replace operation for each match found just before a replace is made. |
 
-### Examples
+## Examples
 
 Shows how to replace all occurrences of a regular expression pattern with another string, while tracking all such replacements.
 
 ```csharp
-public void ReplaceWithCallback()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -89,7 +88,7 @@ public void Order(bool differentFirstPageHeaderFooter)
             firstPageSection.PageSetup.DifferentFirstPageHeaderFooter = differentFirstPageHeaderFooter;
             doc.Range.Replace(new Regex("(header|footer)"), "", options);
 
-#if NET48 || NET5_0 || JAVA
+#if NET48 || NET5_0_OR_GREATER || JAVA
             if (differentFirstPageHeaderFooter)
                 Assert.AreEqual("First header\nFirst footer\nSecond header\nSecond footer\nThird header\nThird footer\n", 
                     logger.Text.Replace("\r", ""));
@@ -126,7 +125,6 @@ public void Order(bool differentFirstPageHeaderFooter)
 Shows how to insert an entire document's contents as a replacement of a match in a find-and-replace operation.
 
 ```csharp
-public void InsertDocumentAtReplace()
 {
     Document mainDoc = new Document(MyDir + "Document insertion destination.docx");
 
@@ -136,8 +134,6 @@ public void InsertDocumentAtReplace()
 
     mainDoc.Range.Replace(new Regex("\\[MY_DOCUMENT\\]"), "", options);
     mainDoc.Save(ArtifactsDir + "InsertDocument.InsertDocumentAtReplace.docx");
-
-}
 
 private class InsertDocumentAtReplaceHandler : IReplacingCallback
 {

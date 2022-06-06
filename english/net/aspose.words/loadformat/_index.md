@@ -46,7 +46,7 @@ public enum LoadFormat
 | Xml | `65` | XML document. |
 | Unknown | `255` | Unrecognized format, cannot be loaded by Aspose.Words. |
 
-### Examples
+## Examples
 
 Shows how save a web page as a .docx file.
 
@@ -64,7 +64,6 @@ using (WebClient client = new WebClient())
         Document doc = new Document(stream, options);
 
         // At this stage, we can read and edit the document's contents and then save it to the local file system.
-
         doc.Save(ArtifactsDir + "Document.InsertHtmlFromWebPage.docx");
     }
 }

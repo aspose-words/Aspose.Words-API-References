@@ -6,7 +6,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.shaping/itextshaperfactory/gettextshaper/
 ---
-## GetTextShaper(string, int) {#gettextshaper_1}
+## ITextShaperFactory.GetTextShaper method (1 of 2)
 
 ```csharp
 public ITextShaper GetTextShaper(string fontPath, int faceIndex)
@@ -21,7 +21,7 @@ public ITextShaper GetTextShaper(string fontPath, int faceIndex)
 
 ---
 
-## GetTextShaper(string, byte[], int) {#gettextshaper}
+## ITextShaperFactory.GetTextShaper method (2 of 2)
 
 ```csharp
 public ITextShaper GetTextShaper(string fontId, byte[] fontBlob, int faceIndex)

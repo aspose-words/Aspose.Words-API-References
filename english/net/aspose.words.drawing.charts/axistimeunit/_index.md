@@ -23,7 +23,7 @@ public enum AxisTimeUnit
 | Months | `2` | Specifies that the chart data shall be shown in months. |
 | Years | `3` | Specifies that the chart data shall be shown in years. |
 
-### Examples
+## Examples
 
 Shows how to insert chart with date/time values.
 

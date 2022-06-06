@@ -24,7 +24,7 @@ public class HorizontalRuleFormat
 | [NoShade](../../aspose.words.drawing/horizontalruleformat/noshade) { get; set; } | Indicates the presence of 3D shading for the horizontal rule. If true, then the horizontal rule is without 3D shading and solid color is used. |
 | [WidthPercent](../../aspose.words.drawing/horizontalruleformat/widthpercent) { get; set; } | Gets or sets the length of the specified horizontal rule expressed as a percentage of the window width. |
 
-### Examples
+## Examples
 
 Shows how to insert a horizontal rule shape, and customize its formatting.
 

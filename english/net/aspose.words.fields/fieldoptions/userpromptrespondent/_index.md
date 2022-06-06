@@ -14,13 +14,13 @@ Gets or sets the respondent to user prompts during field update.
 public IFieldUserPromptRespondent UserPromptRespondent { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 If the value of this property is set to **null**, the fields that require user response on prompting (such as [`FieldAsk`](../../fieldask) or [`FieldFillIn`](../../fieldfillin)) are not updated.
 
 The default value is **null**.
 
-### Examples
+## Examples
 
 Shows how to create an ASK field, and set its properties.
 
@@ -66,7 +66,6 @@ public void FieldAsk()
 
     doc.UpdateFields();
     doc.Save(ArtifactsDir + "Field.ASK.docx");
-}
 
 /// <summary>
 /// Prepends text to the default response of an ASK field during a mail merge.

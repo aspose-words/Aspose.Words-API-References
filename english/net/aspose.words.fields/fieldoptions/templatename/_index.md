@@ -14,13 +14,13 @@ Gets or sets the file name of the template used by the document.
 public string TemplateName { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 This property is used by the [`FieldTemplate`](../../fieldtemplate) field if the [`AttachedTemplate`](../../../aspose.words/document/attachedtemplate) property is empty.
 
 If this property is empty, the default template file name `Normal.dotm` is used.
 
-### Examples
+## Examples
 
 Shows how to use a TEMPLATE field to display the local file system location of a document's template.
 

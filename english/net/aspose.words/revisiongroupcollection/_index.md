@@ -27,11 +27,11 @@ public sealed class RevisionGroupCollection : IEnumerable<RevisionGroup>
 | --- | --- |
 | [GetEnumerator](../../aspose.words/revisiongroupcollection/getenumerator)() | Returns an enumerator object. |
 
-### Remarks
+## Remarks
 
 You do not create instances of this class directly. Use the [`Groups`](../revisioncollection/groups) property to get revision groups present in a document.
 
-### Examples
+## Examples
 
 Shows how to get a group of revisions in a document.
 

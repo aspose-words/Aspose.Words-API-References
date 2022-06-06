@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /net/aspose.words/watermark/settext/
 ---
-## SetText(string) {#settext}
+## Watermark.SetText method (1 of 2)
 
 Adds Text watermark into the document.
 
@@ -25,11 +25,11 @@ public void SetText(string text)
 | ArgumentOutOfRangeException | Throws when the text length is out of range or the text contains only whitespaces. |
 | ArgumentNullException | Throws when the text is null. |
 
-### Remarks
+## Remarks
 
 The text length must be in the range from 1 to 200 inclusive. The text cannot be null or contain only whitespaces.
 
-### Examples
+## Examples
 
 Shows how to create a text watermark.
 
@@ -65,7 +65,7 @@ if (doc.Watermark.Type == WatermarkType.Text)
 
 ---
 
-## SetText(string, TextWatermarkOptions) {#settext_1}
+## Watermark.SetText method (2 of 2)
 
 Adds Text watermark into the document.
 
@@ -85,13 +85,13 @@ public void SetText(string text, TextWatermarkOptions options)
 | ArgumentOutOfRangeException | Throws when the text length is out of range or the text contain only whitespaces. |
 | ArgumentNullException | Throws when the text is null. |
 
-### Remarks
+## Remarks
 
 The text length must be in the range from 1 to 200 inclusive. The text cannot be null or contain only whitespaces.
 
 If [`TextWatermarkOptions`](../../textwatermarkoptions) is null, the watermark will be set with default options.
 
-### Examples
+## Examples
 
 Shows how to create a text watermark.
 

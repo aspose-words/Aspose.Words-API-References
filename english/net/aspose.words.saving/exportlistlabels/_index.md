@@ -22,7 +22,7 @@ public enum ExportListLabels
 | AsInlineText | `1` | Outputs all list labels as inline text. |
 | ByHtmlTags | `2` | Outputs all list labels as HTML native elements. |
 
-### Examples
+## Examples
 
 Shows how to configure list exporting to HTML.
 

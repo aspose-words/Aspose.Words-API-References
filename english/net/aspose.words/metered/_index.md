@@ -28,7 +28,7 @@ public class Metered
 | static [GetConsumptionCredit](../../aspose.words/metered/getconsumptioncredit)() | Gets consumption credit |
 | static [GetConsumptionQuantity](../../aspose.words/metered/getconsumptionquantity)() | Gets consumption file size |
 
-### Examples
+## Examples
 
 In this example, an attempt will be made to set metered public and private key
 

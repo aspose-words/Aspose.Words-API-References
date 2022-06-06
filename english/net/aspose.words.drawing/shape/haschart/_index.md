@@ -14,15 +14,13 @@ Returns true if this Shape has a [`Chart`](../chart).
 public bool HasChart { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to iterate over all the shapes in a document.
 
 ```csharp
-public void VisitShapes()
 {
     Document doc = new Document(MyDir + "Revision shape.docx");
-
     ShapeAppearancePrinter visitor = new ShapeAppearancePrinter();
     doc.Accept(visitor);
 

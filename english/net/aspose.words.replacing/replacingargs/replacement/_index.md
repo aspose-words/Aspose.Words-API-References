@@ -14,12 +14,11 @@ Gets or sets the replacement string.
 public string Replacement { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to replace all occurrences of a regular expression pattern with another string, while tracking all such replacements.
 
 ```csharp
-public void ReplaceWithCallback()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);

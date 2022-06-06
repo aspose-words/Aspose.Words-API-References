@@ -14,7 +14,7 @@ Gets or sets the distance in 1/20 of a point from the right margin within which 
 public int HyphenationZone { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to configure automatic hyphenation.
 

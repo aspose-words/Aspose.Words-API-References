@@ -14,7 +14,7 @@ Removes all elements from the collection.
 public void Clear()
 ```
 
-### Examples
+## Examples
 
 Shows how to set outline levels for bookmarks.
 

@@ -6,7 +6,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.saving/xpssaveoptions/xpssaveoptions/
 ---
-## XpsSaveOptions() {#constructor}
+## XpsSaveOptions constructor (1 of 2)
 
 Initializes a new instance of this class that can be used to save a document in the Xps format.
 
@@ -14,7 +14,7 @@ Initializes a new instance of this class that can be used to save a document in 
 public XpsSaveOptions()
 ```
 
-### Examples
+## Examples
 
 Shows how to limit the headings' level that will appear in the outline of a saved XPS document.
 
@@ -62,7 +62,7 @@ doc.Save(ArtifactsDir + "XpsSaveOptions.OutlineLevels.xps", saveOptions);
 
 ---
 
-## XpsSaveOptions(SaveFormat) {#constructor_1}
+## XpsSaveOptions constructor (2 of 2)
 
 Initializes a new instance of this class that can be used to save a document in the Xps or OpenXps format.
 
@@ -70,7 +70,7 @@ Initializes a new instance of this class that can be used to save a document in 
 public XpsSaveOptions(SaveFormat saveFormat)
 ```
 
-### Examples
+## Examples
 
 Shows how to save a document to the XPS format in the form of a book fold.
 

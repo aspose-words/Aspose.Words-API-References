@@ -14,7 +14,7 @@ Gets or sets the amount of space (in points) to add below the contents of cells.
 public double BottomPadding { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to configure content padding in a table.
 

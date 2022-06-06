@@ -14,7 +14,7 @@ Specifies prefix which is added to all class names in style.css file. Default va
 public string CssClassNamesPrefix { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to place CSS into a separate file and add a prefix to all of its CSS class names.
 

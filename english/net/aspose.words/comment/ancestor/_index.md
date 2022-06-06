@@ -14,7 +14,7 @@ Returns the parent Comment object. Returns null for top-level comments.
 public Comment Ancestor { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to print all of a document's comments and their replies.
 

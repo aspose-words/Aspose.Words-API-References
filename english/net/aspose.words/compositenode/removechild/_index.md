@@ -22,11 +22,11 @@ public Node RemoveChild(Node oldChild)
 
 The removed node.
 
-### Remarks
+## Remarks
 
 The parent of oldChild is set to null after the node is removed.
 
-### Examples
+## Examples
 
 Shows how to use of methods of Node and CompositeNode to remove a section before the last section in the document.
 

@@ -14,7 +14,7 @@ Allows to specify the set of minor fonts for different languages.
 public ThemeFonts MinorFonts { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to set custom colors and fonts for themes.
 

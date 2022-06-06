@@ -14,7 +14,7 @@ Specifies the primary reference to an web extension.
 public WebExtensionReference Reference { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to add a web extension to a document.
 

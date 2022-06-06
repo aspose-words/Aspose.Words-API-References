@@ -14,7 +14,7 @@ Gets or sets a value determining how WMF metafiles with embedded EMF metafiles s
 public bool UseEmfEmbeddedToWmf { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 WMF metafiles could contain embedded EMF data. MS Word in most cases uses embedded EMF data. GDI+ always uses WMF data.
 
@@ -26,7 +26,7 @@ This option is used only when metafile is rendered as vector graphics. When meta
 
 The default value is `true`.
 
-### Examples
+## Examples
 
 Shows how to configure Enhanced Windows Metafile-related rendering options when saving to PDF.
 

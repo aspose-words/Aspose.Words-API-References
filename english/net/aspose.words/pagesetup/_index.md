@@ -69,11 +69,11 @@ public class PageSetup
 | --- | --- |
 | [ClearFormatting](../../aspose.words/pagesetup/clearformatting)() | Resets page setup to default paper size, margins and orientation. |
 
-### Remarks
+## Remarks
 
 **PageSetup** object contains all the page setup attributes of a section (left margin, bottom margin, paper size, and so on) as properties.
 
-### Examples
+## Examples
 
 Shows how to apply and revert page setup settings to sections in a document.
 

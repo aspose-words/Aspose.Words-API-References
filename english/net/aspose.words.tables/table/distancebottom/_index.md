@@ -14,7 +14,7 @@ Gets distance between table bottom and the surrounding text, in points.
 public double DistanceBottom { get; }
 ```
 
-### Examples
+## Examples
 
 Shows the minimum distance operations between table boundaries and text.
 

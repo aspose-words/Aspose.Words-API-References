@@ -74,7 +74,7 @@ public class ImageSaveOptions : FixedPageSaveOptions
 | [Clone](../../aspose.words.saving/imagesaveoptions/clone)() | Creates a deep clone of this object. |
 | override [Equals](../../aspose.words.saving/fixedpagesaveoptions/equals)(object) | Determines whether the specified object is equal in value to the current object. |
 
-### Examples
+## Examples
 
 Renders a page of a Word document into an image with transparent or colored background.
 
@@ -161,7 +161,7 @@ Document doc = new Document();
 
             Assert.AreEqual(612, image.Width);
             Assert.AreEqual(792, image.Height);
-#elif NET5_0 || __MOBILE__
+#elif NET5_0_OR_GREATER || __MOBILE__
             using (SKBitmap image = SKBitmap.Decode(ArtifactsDir + "ImageSaveOptions.Resolution.72dpi.png")) 
             {
                 Assert.AreEqual(612, image.Width);
@@ -180,7 +180,7 @@ Document doc = new Document();
 
             Assert.AreEqual(2550, image.Width);
             Assert.AreEqual(3300, image.Height);
-#elif NET5_0 || __MOBILE__
+#elif NET5_0_OR_GREATER || __MOBILE__
             using (SKBitmap image = SKBitmap.Decode(ArtifactsDir + "ImageSaveOptions.Resolution.300dpi.png")) 
             {
                 Assert.AreEqual(2550, image.Width);

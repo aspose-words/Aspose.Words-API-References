@@ -14,12 +14,11 @@ Gets or sets whether to make the table of contents entries hyperlinks.
 public bool InsertHyperlinks { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to insert a TOC, and populate it with entries based on heading styles.
 
 ```csharp
-public void FieldToc()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -81,7 +80,6 @@ public void FieldToc()
     field.UpdatePageNumbers();
     doc.UpdateFields();
     doc.Save(ArtifactsDir + "Field.TOC.docx");
-}
 
 /// <summary>
 /// Start a new page and insert a paragraph of a specified style.

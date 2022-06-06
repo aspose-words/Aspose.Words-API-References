@@ -14,7 +14,7 @@ Gets or sets a collection of objects that specify inclusion/exclusion of individ
 public OdsoRecipientDataCollection RecipientDatas { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to access the collection of data that designates which merge data source records a mail merge will exclude.
 

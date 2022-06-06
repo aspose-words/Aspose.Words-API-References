@@ -6,7 +6,7 @@ type: docs
 weight: 130
 url: /net/aspose.words.layout/layoutenumerator/moveparent/
 ---
-## MoveParent() {#moveparent}
+## LayoutEnumerator.MoveParent method (1 of 2)
 
 Moves to the parent entity.
 
@@ -14,7 +14,7 @@ Moves to the parent entity.
 public bool MoveParent()
 ```
 
-### Examples
+## Examples
 
 Shows ways of traversing a document's layout entities.
 
@@ -164,7 +164,7 @@ private static void PrintCurrentEntity(LayoutEnumerator layoutEnumerator, int in
 
 ---
 
-## MoveParent(LayoutEntityType) {#moveparent_1}
+## LayoutEnumerator.MoveParent method (2 of 2)
 
 Moves to the parent entity of the specified type.
 
@@ -176,11 +176,11 @@ public bool MoveParent(LayoutEntityType types)
 | --- | --- | --- |
 | types | LayoutEntityType | The parent entity type to move to. Use bitwise-OR to specify multiple parent types. |
 
-### Remarks
+## Remarks
 
 This method is useful if you need to find the cell, column or header/footer parent of the entity.
 
-### Examples
+## Examples
 
 Shows ways of traversing a document's layout entities.
 

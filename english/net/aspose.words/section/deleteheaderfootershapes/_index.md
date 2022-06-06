@@ -14,7 +14,7 @@ Deletes all shapes (drawing objects) from the headers and footers of this sectio
 public void DeleteHeaderFooterShapes()
 ```
 
-### Examples
+## Examples
 
 Shows how to remove all shapes from all headers footers in a section.
 

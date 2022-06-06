@@ -14,7 +14,7 @@ Gets or sets VBA project module name.
 public string Name { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to create a VBA project using macros.
 
@@ -45,7 +45,6 @@ Document doc = new Document(MyDir + "VBA project.docm");
 
 // A VBA project contains a collection of VBA modules.
 VbaProject vbaProject = doc.VbaProject;
-Console.WriteLine(vbaProject.IsSigned
     ? $"Project name: {vbaProject.Name} signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n"
     : $"Project name: {vbaProject.Name} not signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n");
 

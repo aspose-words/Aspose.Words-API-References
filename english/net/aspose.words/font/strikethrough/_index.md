@@ -14,7 +14,7 @@ True if the font is formatted as strikethrough text.
 public bool StrikeThrough { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to add a line strikethrough to text.
 

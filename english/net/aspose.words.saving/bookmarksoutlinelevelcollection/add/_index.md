@@ -19,7 +19,7 @@ public void Add(string name, int outlineLevel)
 | name | String | The case-insensitive name of the bookmark to add. |
 | outlineLevel | Int32 | The outline level of the bookmark. Valid range is 0 to 9. |
 
-### Examples
+## Examples
 
 Shows how to set outline levels for bookmarks.
 

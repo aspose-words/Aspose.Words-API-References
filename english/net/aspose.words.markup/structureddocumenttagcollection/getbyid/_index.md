@@ -18,7 +18,7 @@ public IStructuredDocumentTag GetById(int id)
 | --- | --- | --- |
 | id | Int32 | The structured document tag identifier. |
 
-### Remarks
+## Remarks
 
 Returns null if the structured document tag with the specified identifier cannot be found.
 

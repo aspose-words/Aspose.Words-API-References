@@ -14,12 +14,11 @@ Gets or sets whether to include the category heading for the entries in a table 
 public bool UseHeading { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to build and customize a table of authorities using TOA and TA fields.
 
 ```csharp
-public void FieldTOA()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -120,7 +119,6 @@ public void FieldTOA()
 
     doc.UpdateFields();
     doc.Save(ArtifactsDir + "Field.TOA.TA.docx");
-}
 
 private static FieldTA InsertToaEntry(DocumentBuilder builder, string entryCategory, string longCitation)
 {

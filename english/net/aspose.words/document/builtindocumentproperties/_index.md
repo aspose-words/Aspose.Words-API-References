@@ -14,7 +14,7 @@ Returns a collection that represents all the built-in document properties of the
 public BuiltInDocumentProperties BuiltInDocumentProperties { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to work with built-in document properties.
 

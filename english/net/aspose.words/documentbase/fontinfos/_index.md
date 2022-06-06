@@ -14,13 +14,13 @@ Provides access to properties of fonts used in this document.
 public FontInfoCollection FontInfos { get; }
 ```
 
-### Remarks
+## Remarks
 
 This collection of font definitions is loaded as is from the document. Font definitions might be optional, missing or incomplete in some documents.
 
 Do not rely on this collection to ascertain that a particular font is used in the document. You should only use this collection to get information about fonts that might be used in the document.
 
-### Examples
+## Examples
 
 Shows how to print the details of what fonts are present in a document.
 
@@ -28,7 +28,6 @@ Shows how to print the details of what fonts are present in a document.
 Document doc = new Document(MyDir + "Embedded font.docx");
 
 FontInfoCollection allFonts = doc.FontInfos;
-
 // Print all the used and unused fonts in the document.
 for (int i = 0; i < allFonts.Count; i++)
 {

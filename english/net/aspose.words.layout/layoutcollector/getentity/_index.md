@@ -14,7 +14,7 @@ Returns an opaque position of the [`LayoutEnumerator`](../../layoutenumerator) w
 public object GetEntity(Node node)
 ```
 
-### Remarks
+## Remarks
 
 This method works for only [`Paragraph`](../../../aspose.words/paragraph) nodes, as well as indivisible inline nodes, e.g. [`BookmarkStart`](../../../aspose.words/bookmarkstart) or [`Shape`](../../../aspose.words.drawing/shape). It doesn't work for [`Run`](../../../aspose.words/run), [`Cell`](../../../aspose.words.tables/cell)[`Row`](../../../aspose.words.tables/row) or [`Table`](../../../aspose.words.tables/table) nodes, and nodes within header/footer.
 
@@ -24,7 +24,7 @@ If you need to navigate to a [`Run`](../../../aspose.words/run) of text then you
 
 If you need to navigate to a [`Cell`](../../../aspose.words.tables/cell) node then you can move to a [`Paragraph`](../../../aspose.words/paragraph) node in this cell and then ascend to a parent entity. The same approach can be used for [`Row`](../../../aspose.words.tables/row) and [`Table`](../../../aspose.words.tables/table) nodes.
 
-### Examples
+## Examples
 
 Shows how to see the the ranges of pages that a node spans.
 

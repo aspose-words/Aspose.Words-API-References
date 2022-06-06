@@ -23,7 +23,7 @@ public enum MailMergeCheckErrors
 | CollectErrors | `3` | Complete the merge and report errors in a new document. |
 | Default | `2` | Equals to the PauseOnError value. |
 
-### Examples
+## Examples
 
 Shows how to execute a mail merge with data from an Office Data Source Object.
 

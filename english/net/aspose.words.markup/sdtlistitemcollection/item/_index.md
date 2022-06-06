@@ -14,7 +14,7 @@ Returns a [`SdtListItem`](../../sdtlistitem) object given its zero-based index i
 public SdtListItem this[int index] { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to work with drop down-list structured document tags.
 

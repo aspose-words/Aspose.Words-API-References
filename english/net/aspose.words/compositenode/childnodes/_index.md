@@ -14,13 +14,13 @@ Gets all immediate child nodes of this node.
 public NodeCollection ChildNodes { get; }
 ```
 
-### Remarks
+## Remarks
 
 Note, `ChildNodes` is equivalent to calling `GetChildNodes(NodeType.Any, false)` and creates and returns a new collection every time it is accessed.
 
 If there are no child nodes, this property returns an empty collection.
 
-### Examples
+## Examples
 
 Shows how to traverse through a composite node's collection of child nodes.
 
@@ -58,7 +58,6 @@ foreach (Node child in children)
             Shape childShape = (Shape)child;
             Console.WriteLine("Shape:");
             Console.WriteLine($"\t{childShape.ShapeType}, {childShape.Width}x{childShape.Height}");
-            break;
     }
 ```
 

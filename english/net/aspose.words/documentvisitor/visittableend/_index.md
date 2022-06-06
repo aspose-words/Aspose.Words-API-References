@@ -22,7 +22,7 @@ public virtual VisitorAction VisitTableEnd(Table table)
 
 A [`VisitorAction`](../../visitoraction) value that specifies how to continue the enumeration.
 
-### Examples
+## Examples
 
 Shows how to print the node structure of every table in a document.
 
@@ -185,7 +185,6 @@ public class TableStructurePrinter : DocumentVisitor
 Shows how to use a DocumentVisitor implementation to remove all hidden content from a document.
 
 ```csharp
-public void RemoveHiddenContentFromDocument()
 {
     Document doc = new Document(MyDir + "Hidden content.docx");
 
@@ -205,7 +204,6 @@ public void RemoveHiddenContentFromDocument()
     doc.Accept(hiddenContentRemover);
 
     doc.Save(ArtifactsDir + "Font.RemoveHiddenContentFromDocument.docx");
-}
 
 /// <summary>
 /// Removes all visited nodes marked as "hidden content".

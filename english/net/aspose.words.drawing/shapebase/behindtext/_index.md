@@ -14,13 +14,13 @@ Specifies whether the shape is below or above text.
 public bool BehindText { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 Has effect only for top level shapes.
 
 The default value is **false**.
 
-### Examples
+## Examples
 
 Shows how to insert a floating image to the center of a page.
 

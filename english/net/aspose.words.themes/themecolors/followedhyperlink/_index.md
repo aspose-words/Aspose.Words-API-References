@@ -14,7 +14,7 @@ Specifies color for a clicked hyperlink.
 public Color FollowedHyperlink { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to set custom colors and fonts for themes.
 

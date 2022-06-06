@@ -14,7 +14,7 @@ Specifies a unique read-only persistent numerical Id for this structured documen
 public int Id { get; }
 ```
 
-### Remarks
+## Remarks
 
 Id attribute shall follow these rules:
 
@@ -24,7 +24,7 @@ Id attribute shall follow these rules:
 * During standalone structured document tag INodeCloningListener) operation new unique ID will be generated for the cloned structured document tag node.
 * If Id is not specified in the source document, then the structured document tag node shall have a new unique identifier assigned to it when the document is loaded.
 
-### Examples
+## Examples
 
 Shows how to get the properties of multi-section structured document tags.
 
@@ -48,6 +48,7 @@ Console.WriteLine($"\t|NodeType: {rangeStartTag.NodeType}");
 Console.WriteLine($"\t|RangeEnd: {rangeStartTag.RangeEnd}");
 Console.WriteLine($"\t|Color: {rangeStartTag.Color.ToArgb()}");
 Console.WriteLine($"\t|SdtType: {rangeStartTag.SdtType}");
+Console.WriteLine($"\t|FlatOpcContent: {rangeStartTag.WordOpenXML}");
 Console.WriteLine($"\t|Tag: {rangeStartTag.Tag}\n");
 
 Console.WriteLine("StructuredDocumentTagRangeEnd values:");

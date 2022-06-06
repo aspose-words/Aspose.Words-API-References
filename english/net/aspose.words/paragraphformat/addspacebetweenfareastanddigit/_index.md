@@ -14,7 +14,7 @@ Gets or sets a flag indicating whether inter-character spacing is automatically 
 public bool AddSpaceBetweenFarEastAndDigit { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to insert a paragraph into the document.
 

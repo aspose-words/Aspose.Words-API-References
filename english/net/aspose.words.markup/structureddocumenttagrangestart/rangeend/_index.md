@@ -14,7 +14,7 @@ Specifies end of range if the StructuredDocumentTag is a ranged structured docum
 public StructuredDocumentTagRangeEnd RangeEnd { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to get the properties of multi-section structured document tags.
 
@@ -38,6 +38,7 @@ Console.WriteLine($"\t|NodeType: {rangeStartTag.NodeType}");
 Console.WriteLine($"\t|RangeEnd: {rangeStartTag.RangeEnd}");
 Console.WriteLine($"\t|Color: {rangeStartTag.Color.ToArgb()}");
 Console.WriteLine($"\t|SdtType: {rangeStartTag.SdtType}");
+Console.WriteLine($"\t|FlatOpcContent: {rangeStartTag.WordOpenXML}");
 Console.WriteLine($"\t|Tag: {rangeStartTag.Tag}\n");
 
 Console.WriteLine("StructuredDocumentTagRangeEnd values:");

@@ -25,7 +25,7 @@ public enum PdfPageMode
 | UseOC | `4` | Optional content group panel is visible. |
 | UseAttachments | `5` | Attachments panel is visible. |
 
-### Examples
+## Examples
 
 Shows how to set instructions for some PDF readers to follow when opening an output document.
 
@@ -47,6 +47,7 @@ PdfSaveOptions options = new PdfSaveOptions();
 // Set the "PageMode" property to "PdfPageMode.UseOutlines" to get the PDF reader
 // also to display the outline, if possible.
 // Set the "PageMode" property to "PdfPageMode.UseNone" to get the PDF reader to display just the document itself.
+// Set the "PageMode" property to "PdfPageMode.UseAttachments" to make visible attachments panel.
 options.PageMode = pageMode;
 
 doc.Save(ArtifactsDir + "PdfSaveOptions.PageMode.pdf", options);

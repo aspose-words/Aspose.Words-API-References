@@ -22,7 +22,7 @@ public enum PdfCustomPropertiesExport
 | Standard | `1` | Custom properties are exported as entries in /Info dictionary. |
 | Metadata | `2` | Custom properties are Metadata. |
 
-### Examples
+## Examples
 
 Shows how to export custom properties while converting a document to PDF.
 

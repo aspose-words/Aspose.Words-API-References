@@ -6,7 +6,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.saving/pageset/pageset/
 ---
-## PageSet(int) {#constructor_1}
+## PageSet constructor (1 of 3)
 
 Creates an one-page set based on exact page index.
 
@@ -18,7 +18,7 @@ public PageSet(int page)
 | --- | --- | --- |
 | page | Int32 | Zero-based index of the page. |
 
-### Remarks
+## Remarks
 
 If a page is encountered that is not in the document, an exception will be thrown during rendering. MaxValue means the last page in the document.
 
@@ -30,7 +30,7 @@ If a page is encountered that is not in the document, an exception will be throw
 
 ---
 
-## PageSet(params int[]) {#constructor_2}
+## PageSet constructor (2 of 3)
 
 Creates a page set based on exact page indices.
 
@@ -42,11 +42,11 @@ public PageSet(params int[] pages)
 | --- | --- | --- |
 | pages | Int32[] | Zero-based indices of pages. |
 
-### Remarks
+## Remarks
 
 If a page is encountered that is not in the document, an exception will be thrown during rendering. MaxValue means the last page in the document.
 
-### Examples
+## Examples
 
 Shows how to extract pages based on exact page indices.
 
@@ -80,7 +80,7 @@ doc.Save(ArtifactsDir + "XpsSaveOptions.ExportExactPages.xps", xpsOptions);
 
 ---
 
-## PageSet(params PageRange[]) {#constructor}
+## PageSet constructor (3 of 3)
 
 Creates a page set based on ranges.
 
@@ -92,11 +92,11 @@ public PageSet(params PageRange[] ranges)
 | --- | --- | --- |
 | ranges | PageRange[] | Array of page ranges. |
 
-### Remarks
+## Remarks
 
 If a range is encountered that starts after the last page in the document, an exception will be thrown during rendering. All ranges that end after the last page are truncated to fit in the document.
 
-### Examples
+## Examples
 
 Shows how to extract pages based on exact page ranges.
 

@@ -14,13 +14,13 @@ Gets or sets the brush color that fills the horizontal rule.
 public Color Color { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 This is a shortcut to the Color property.
 
 The default value is Gray.
 
-### Examples
+## Examples
 
 Shows how to insert a horizontal rule shape, and customize its formatting.
 

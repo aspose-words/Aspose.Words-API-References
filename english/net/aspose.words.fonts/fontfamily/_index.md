@@ -25,11 +25,11 @@ public enum FontFamily
 | Script | `4` | Specifies a font that is designed to look like handwriting; examples include Script and Cursive. |
 | Decorative | `5` | Specifies a novelty font. An example is Old English. |
 
-### Remarks
+## Remarks
 
 A font family is a set of fonts having common stroke width and serif characteristics.
 
-### Examples
+## Examples
 
 Shows how to access and print details of each font in a document.
 

@@ -25,26 +25,26 @@ public class TabStopCollection : InternableComplexAttr
 
 | Name | Description |
 | --- | --- |
-| [Add](../../aspose.words/tabstopcollection/add#add)(TabStop) | Adds or replaces a tab stop in the collection. |
-| [Add](../../aspose.words/tabstopcollection/add#add_1)(double, TabAlignment, TabLeader) | Adds or replaces a tab stop in the collection. |
+| [Add](../../aspose.words/tabstopcollection/add)(TabStop) | Adds or replaces a tab stop in the collection. |
+| [Add](../../aspose.words/tabstopcollection/add)(double, TabAlignment, TabLeader) | Adds or replaces a tab stop in the collection. |
 | [After](../../aspose.words/tabstopcollection/after)(double) | Gets a first tab stop to the right of the specified position. |
 | [Before](../../aspose.words/tabstopcollection/before)(double) | Gets a first tab stop to the left of the specified position. |
 | [Clear](../../aspose.words/tabstopcollection/clear)() | Deletes all tab stop positions. |
-| override [Equals](../../aspose.words/tabstopcollection/equals#equals_1)(object) | Determines whether the specified object is equal in value to the current object. |
-| [Equals](../../aspose.words/tabstopcollection/equals#equals)(TabStopCollection) | Determines whether the specified TabStopCollection is equal in value to the current TabStopCollection. |
+| override [Equals](../../aspose.words/tabstopcollection/equals)(object) | Determines whether the specified object is equal in value to the current object. |
+| [Equals](../../aspose.words/tabstopcollection/equals)(TabStopCollection) | Determines whether the specified TabStopCollection is equal in value to the current TabStopCollection. |
 | override [GetHashCode](../../aspose.words/tabstopcollection/gethashcode)() | Serves as a hash function for this type. |
 | [GetIndexByPosition](../../aspose.words/tabstopcollection/getindexbyposition)(double) | Gets the index of a tab stop with the specified position in points. |
 | [GetPositionByIndex](../../aspose.words/tabstopcollection/getpositionbyindex)(int) | Gets the position (in points) of the tab stop at the specified index. |
 | [RemoveByIndex](../../aspose.words/tabstopcollection/removebyindex)(int) | Removes a tab stop at the specified index from the collection. |
 | [RemoveByPosition](../../aspose.words/tabstopcollection/removebyposition)(double) | Removes a tab stop at the specified position from the collection. |
 
-### Remarks
+## Remarks
 
 In Microsoft Word documents, a tab stop can be defined in the properties of a paragraph style or directly in the properties of a paragraph. A style can be based on another style. Therefore, the complete set of tab stops for a given object is a combination of tab stops defined directly on this object and tab stops inherited from the parent styles.
 
 In Aspose.Words, when you obtain a **TabStops** collection for a paragraph or a style, it contains only the custom tab stops defined directly for this paragraph or style. The collection does not include tab stops defined in the parent styles or default tab stops.
 
-### Examples
+## Examples
 
 Shows how to work with a document's collection of tab stops.
 

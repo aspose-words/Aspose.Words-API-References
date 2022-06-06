@@ -6,7 +6,7 @@ type: docs
 weight: 10
 url: /net/aspose.words/document/document/
 ---
-## Document() {#constructor}
+## Document constructor (1 of 5)
 
 Creates a blank Word document.
 
@@ -14,13 +14,13 @@ Creates a blank Word document.
 public Document()
 ```
 
-### Remarks
+## Remarks
 
 The document paper size is Letter by default. If you want to change page setup, use [`Section.PageSetup`](../../section/pagesetup).
 
 After creation, you can use [`DocumentBuilder`](../../documentbuilder) to add document content easily.
 
-### Examples
+## Examples
 
 Shows how to format a run of text using its font property.
 
@@ -69,7 +69,7 @@ Assert.AreEqual("Test encrypted document.", doc.FirstSection.Body.FirstParagraph
 
 ---
 
-## Document(string) {#constructor_3}
+## Document constructor (2 of 5)
 
 Opens an existing document from a file. Automatically detects the file format.
 
@@ -92,7 +92,7 @@ public Document(string fileName)
 | [IncorrectPasswordException](../../incorrectpasswordexception) | The document is encrypted and requires a password to open, but you supplied an incorrect password. |
 | ArgumentException | The name of the file cannot be null or empty string. |
 
-### Examples
+## Examples
 
 Shows how to open a document and convert it to .PDF.
 
@@ -151,7 +151,7 @@ Assert.AreEqual("Hello world!", textFragmentAbsorber.Text.Trim());
 
 ---
 
-## Document(string, LoadOptions) {#constructor_4}
+## Document constructor (3 of 5)
 
 Opens an existing document from a file. Allows to specify additional options such as an encryption password.
 
@@ -175,7 +175,7 @@ public Document(string fileName, LoadOptions loadOptions)
 | [IncorrectPasswordException](../../incorrectpasswordexception) | The document is encrypted and requires a password to open, but you supplied an incorrect password. |
 | ArgumentException | The name of the file cannot be null or empty string. |
 
-### Examples
+## Examples
 
 Shows how to load an encrypted Microsoft Word document.
 
@@ -191,12 +191,10 @@ LoadOptions options = new LoadOptions("docPassword");
 // There are two ways of loading an encrypted document with a LoadOptions object.
 // 1 -  Load the document from the local file system by filename:
 doc = new Document(MyDir + "Encrypted.docx", options);
-
 // 2 -  Load the document from a stream:
 using (Stream stream = File.OpenRead(MyDir + "Encrypted.docx"))
 {
     doc = new Document(stream, options);
-}
 ```
 
 Shows how to create and load documents.
@@ -232,7 +230,7 @@ Assert.AreEqual("Test encrypted document.", doc.FirstSection.Body.FirstParagraph
 
 ---
 
-## Document(Stream) {#constructor_1}
+## Document constructor (4 of 5)
 
 Opens an existing document from a stream. Automatically detects the file format.
 
@@ -257,11 +255,11 @@ public Document(Stream stream)
 | NotSupportedException | The stream does not support reading or seeking. |
 | ObjectDisposedException | The stream is a disposed object. |
 
-### Remarks
+## Remarks
 
 The document must be stored at the beginning of the stream. The stream must support random positioning.
 
-### Examples
+## Examples
 
 Shows how to load a document using a stream.
 
@@ -308,7 +306,7 @@ using (WebClient webClient = new WebClient())
 
 ---
 
-## Document(Stream, LoadOptions) {#constructor_2}
+## Document constructor (5 of 5)
 
 Opens an existing document from a stream. Allows to specify additional options such as an encryption password.
 
@@ -334,11 +332,11 @@ public Document(Stream stream, LoadOptions loadOptions)
 | NotSupportedException | The stream does not support reading or seeking. |
 | ObjectDisposedException | The stream is a disposed object. |
 
-### Remarks
+## Remarks
 
 The document must be stored at the beginning of the stream. The stream must support random positioning.
 
-### Examples
+## Examples
 
 Shows how save a web page as a .docx file.
 
@@ -356,7 +354,6 @@ using (WebClient client = new WebClient())
         Document doc = new Document(stream, options);
 
         // At this stage, we can read and edit the document's contents and then save it to the local file system.
-
         doc.Save(ArtifactsDir + "Document.InsertHtmlFromWebPage.docx");
     }
 }
@@ -398,12 +395,10 @@ LoadOptions options = new LoadOptions("docPassword");
 // There are two ways of loading an encrypted document with a LoadOptions object.
 // 1 -  Load the document from the local file system by filename:
 doc = new Document(MyDir + "Encrypted.docx", options);
-
 // 2 -  Load the document from a stream:
 using (Stream stream = File.OpenRead(MyDir + "Encrypted.docx"))
 {
     doc = new Document(stream, options);
-}
 ```
 
 ### See Also

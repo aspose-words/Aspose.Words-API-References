@@ -18,7 +18,7 @@ public void RemoveAt(int index)
 | --- | --- | --- |
 | index | Int32 |  |
 
-### Examples
+## Examples
 
 Shows how to format field results.
 

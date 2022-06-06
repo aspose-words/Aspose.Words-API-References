@@ -14,11 +14,11 @@ Gets or sets a value determining zoom factor (in percentages) for a document.
 public int ZoomFactor { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 This value is used only if [`ZoomBehavior`](../zoombehavior) is set to ZoomFactor.
 
-### Examples
+## Examples
 
 Shows how to set the default zooming that a reader applies when opening a rendered PDF document.
 

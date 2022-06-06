@@ -18,8 +18,8 @@ public class CsvDataLoadOptions
 
 | Name | Description |
 | --- | --- |
-| [CsvDataLoadOptions](csvdataloadoptions#constructor)() | Initializes a new instance of this class with default options. |
-| [CsvDataLoadOptions](csvdataloadoptions#constructor_1)(bool) | Initializes a new instance of this class with specifying whether CSV data contains column names at the first line. |
+| [CsvDataLoadOptions](csvdataloadoptions)() | Initializes a new instance of this class with default options. |
+| [CsvDataLoadOptions](csvdataloadoptions)(bool) | Initializes a new instance of this class with specifying whether CSV data contains column names at the first line. |
 
 ## Properties
 
@@ -30,7 +30,7 @@ public class CsvDataLoadOptions
 | [HasHeaders](../../aspose.words.reporting/csvdataloadoptions/hasheaders) { get; set; } | Gets or sets a value indicating whether the first record of CSV data contains column names. |
 | [QuoteChar](../../aspose.words.reporting/csvdataloadoptions/quotechar) { get; set; } | Gets or sets the character that is used to quote field values. |
 
-### Remarks
+## Remarks
 
 An instance of this class can be passed into constructors of [`CsvDataSource`](../csvdatasource).
 

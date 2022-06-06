@@ -14,16 +14,15 @@ Gets the original font file size.
 public int OriginalFileSize { get; }
 ```
 
-### Remarks
+## Remarks
 
 This property contains the original file size of the current font if it is known. Otherwise it can be zero.
 
-### Examples
+## Examples
 
 Shows how to define custom logic for exporting fonts when saving to HTML.
 
 ```csharp
-public void SaveExportedFonts()
 {
     Document doc = new Document(MyDir + "Rendering.docx");
 
@@ -42,8 +41,6 @@ public void SaveExportedFonts()
     {
         Console.WriteLine(fontFilename);
     }
-
-}
 
 /// <summary>
 /// Prints information about exported fonts and saves them in the same local system folder as their output .html.

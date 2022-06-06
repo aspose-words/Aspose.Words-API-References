@@ -6,7 +6,7 @@ type: docs
 weight: 210
 url: /net/aspose.words/documentbuilder/endeditablerange/
 ---
-## EndEditableRange() {#endeditablerange}
+## DocumentBuilder.EndEditableRange method (1 of 2)
 
 Marks the current position in the document as an editable range end.
 
@@ -18,13 +18,13 @@ public EditableRangeEnd EndEditableRange()
 
 The editable range end node that was just created.
 
-### Remarks
+## Remarks
 
 Editable range in a document can overlap and span any range. To create a valid editable range you need to call both [`StartEditableRange`](../starteditablerange) and `EndEditableRange` or [`EndEditableRange`](../endeditablerange) methods.
 
 Badly formed editable range will be ignored when the document is saved.
 
-### Examples
+## Examples
 
 Shows how to work with an editable range.
 
@@ -76,7 +76,7 @@ editableRange.Remove();
 
 ---
 
-## EndEditableRange(EditableRangeStart) {#endeditablerange_1}
+## DocumentBuilder.EndEditableRange method (2 of 2)
 
 Marks the current position in the document as an editable range end.
 
@@ -92,7 +92,7 @@ public EditableRangeEnd EndEditableRange(EditableRangeStart start)
 
 The editable range end node that was just created.
 
-### Remarks
+## Remarks
 
 Use this overload during creating nested editable ranges.
 
@@ -100,7 +100,7 @@ Editable range in a document can overlap and span any range. To create a valid e
 
 Badly formed editable range will be ignored when the document is saved.
 
-### Examples
+## Examples
 
 Shows how to create nested editable ranges.
 

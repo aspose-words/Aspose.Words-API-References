@@ -14,11 +14,11 @@ Gets the character formatting of the style.
 public Font Font { get; }
 ```
 
-### Remarks
+## Remarks
 
 For list styles this property returns null.
 
-### Examples
+## Examples
 
 Shows how to create and use a paragraph style with list formatting.
 

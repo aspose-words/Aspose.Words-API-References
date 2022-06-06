@@ -14,7 +14,7 @@ Returns parent region info (null for top-level region).
 public MailMergeRegionInfo ParentRegion { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to create, list, and read mail merge regions.
 

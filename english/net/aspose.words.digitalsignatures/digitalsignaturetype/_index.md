@@ -22,7 +22,7 @@ public enum DigitalSignatureType
 | CryptoApi | `1` | The Crypto API signature method used in Microsoft Word 97-2003 .DOC binary documents. |
 | XmlDsig | `2` | The XmlDsig signature method used in OOXML and OpenDocument documents. |
 
-### Examples
+## Examples
 
 Shows how to sign documents with X.509 certificates.
 

@@ -6,7 +6,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.loading/loadoptions/loadoptions/
 ---
-## LoadOptions() {#constructor}
+## LoadOptions constructor (1 of 3)
 
 Initializes a new instance of this class with default values.
 
@@ -14,7 +14,7 @@ Initializes a new instance of this class with default values.
 public LoadOptions()
 ```
 
-### Examples
+## Examples
 
 Shows how to open an HTML document with images from a stream using a base URI.
 
@@ -46,7 +46,7 @@ using (Stream stream = File.OpenRead(MyDir + "Document.html"))
 
 ---
 
-## LoadOptions(string) {#constructor_2}
+## LoadOptions constructor (2 of 3)
 
 A shortcut to initialize a new instance of this class with the specified password to load an encrypted document.
 
@@ -58,7 +58,7 @@ public LoadOptions(string password)
 | --- | --- | --- |
 | password | String | The password to open an encrypted document. Can be null or empty string. |
 
-### Examples
+## Examples
 
 Shows how to load an encrypted Microsoft Word document.
 
@@ -74,12 +74,10 @@ LoadOptions options = new LoadOptions("docPassword");
 // There are two ways of loading an encrypted document with a LoadOptions object.
 // 1 -  Load the document from the local file system by filename:
 doc = new Document(MyDir + "Encrypted.docx", options);
-
 // 2 -  Load the document from a stream:
 using (Stream stream = File.OpenRead(MyDir + "Encrypted.docx"))
 {
     doc = new Document(stream, options);
-}
 ```
 
 ### See Also
@@ -90,7 +88,7 @@ using (Stream stream = File.OpenRead(MyDir + "Encrypted.docx"))
 
 ---
 
-## LoadOptions(LoadFormat, string, string) {#constructor_1}
+## LoadOptions constructor (3 of 3)
 
 A shortcut to initialize a new instance of this class with properties set to the specified values.
 
@@ -104,7 +102,7 @@ public LoadOptions(LoadFormat loadFormat, string password, string baseUri)
 | password | String | The password to open an encrypted document. Can be null or empty string. |
 | baseUri | String | The string that will be used to resolve relative URIs to absolute. Can be null or empty string. |
 
-### Examples
+## Examples
 
 Shows how save a web page as a .docx file.
 
@@ -122,7 +120,6 @@ using (WebClient client = new WebClient())
         Document doc = new Document(stream, options);
 
         // At this stage, we can read and edit the document's contents and then save it to the local file system.
-
         doc.Save(ArtifactsDir + "Document.InsertHtmlFromWebPage.docx");
     }
 }

@@ -46,11 +46,11 @@ public class FieldBidiOutline : Field
 | [Update](../../aspose.words.fields/field/update)() | Performs the field update. Throws if the field is being updated already. |
 | [Update](../../aspose.words.fields/field/update)(bool) | Performs a field update. Throws if the field is being updated already. |
 
-### Remarks
+## Remarks
 
 This field is identical to the AUTONUMLGL field, except for the separator that delimits each level of the paragraph numbering.
 
-### Examples
+## Examples
 
 Shows how to create right-to-left language-compatible lists with BIDIOUTLINE fields.
 

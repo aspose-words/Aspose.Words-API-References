@@ -14,11 +14,11 @@ Specifies whether or not to create outlines for headings (paragraphs formatted w
 public bool CreateOutlinesForHeadingsInTables { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 Default value is **false**.
 
-### Examples
+## Examples
 
 Shows how to create PDF document outline entries for headings inside tables.
 

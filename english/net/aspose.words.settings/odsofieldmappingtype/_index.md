@@ -22,7 +22,7 @@ public enum OdsoFieldMappingType
 | Null | `1` | Specifies that the mail merge field has not been mapped to a column in the given external data source. |
 | Default | `1` | Equals to Null. |
 
-### Examples
+## Examples
 
 Shows how to access the collection of data that maps data source columns to merge fields.
 

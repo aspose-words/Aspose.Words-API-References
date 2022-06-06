@@ -14,7 +14,7 @@ Gets or sets the separator character to be used.
 public string SeparatorCharacter { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to number paragraphs using autonum fields.
 

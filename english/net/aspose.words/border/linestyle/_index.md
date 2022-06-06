@@ -14,11 +14,11 @@ Gets or sets the border style.
 public LineStyle LineStyle { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 If you set line style to none, then line width is automatically changed to zero.
 
-### Examples
+## Examples
 
 Shows how to insert a string surrounded by a border into a document.
 

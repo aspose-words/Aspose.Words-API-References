@@ -14,11 +14,11 @@ Resets to default font formatting.
 public void ClearFormatting()
 ```
 
-### Remarks
+## Remarks
 
 Removes all font formatting specified explicitly on the object from which **Font** was obtained so the font formatting will be inherited from the appropriate parent.
 
-### Examples
+## Examples
 
 Shows how to insert a hyperlink field.
 

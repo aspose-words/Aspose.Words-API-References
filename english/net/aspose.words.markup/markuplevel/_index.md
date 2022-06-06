@@ -24,7 +24,7 @@ public enum MarkupLevel
 | Row | `3` | The element occurs among rows in a table. |
 | Cell | `4` | The element occurs among cells in a row. |
 
-### Examples
+## Examples
 
 Shows how to work with styles for content control elements.
 

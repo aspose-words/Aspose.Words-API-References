@@ -14,7 +14,7 @@ Gets `OleControl` objects if this OLE object is an ActiveX control. Otherwise th
 public OleControl OleControl { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to verify the properties of an ActiveX control.
 

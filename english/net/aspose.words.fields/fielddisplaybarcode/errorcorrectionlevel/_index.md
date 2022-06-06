@@ -14,7 +14,7 @@ Gets or sets an error correction level of QR Code. Valid values are [0, 3].
 public string ErrorCorrectionLevel { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to insert a DISPLAYBARCODE field, and set its properties.
 

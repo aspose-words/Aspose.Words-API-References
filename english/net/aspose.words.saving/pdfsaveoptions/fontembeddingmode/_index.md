@@ -14,7 +14,7 @@ Specifies the font embedding mode.
 public PdfFontEmbeddingMode FontEmbeddingMode { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 The default value is EmbedAll.
 
@@ -22,7 +22,7 @@ This setting works only for the text in ANSI (Windows-1252) encoding. If the doc
 
 PDF/A and PDF/UA compliance requires all fonts to be embedded. EmbedAll value will be used automatically when saving to PDF/A and PDF/UA.
 
-### Examples
+## Examples
 
 Shows how to set Aspose.Words to skip embedding Arial and Times New Roman fonts into a PDF document.
 

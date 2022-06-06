@@ -14,11 +14,11 @@ Gets or sets the file name where the document page will be saved to.
 public string PageFileName { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 If not specified then page file name and path will be generated automatically using original file name.
 
-### Examples
+## Examples
 
 Shows how to use a callback to save a document to HTML page by page.
 

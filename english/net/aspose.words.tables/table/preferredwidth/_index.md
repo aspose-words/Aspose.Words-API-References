@@ -14,11 +14,11 @@ Gets or sets the table preferred width.
 public PreferredWidth PreferredWidth { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 The default value is [`Auto`](../../preferredwidth/auto).
 
-### Examples
+## Examples
 
 Shows how to set a table to auto fit to 50% of the width of the page.
 

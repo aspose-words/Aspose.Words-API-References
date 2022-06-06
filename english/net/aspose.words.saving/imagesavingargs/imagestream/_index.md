@@ -14,7 +14,7 @@ Allows to specify the stream where the image will be saved to.
 public Stream ImageStream { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 This property allows you to save images to streams instead of files during HTML.
 
@@ -22,12 +22,11 @@ The default value is `null`. When this property is `null`, the image will be sav
 
 Using [`IImageSavingCallback`](../../iimagesavingcallback) you cannot substitute one image with another. It is intended only for control over location where to save images.
 
-### Examples
+## Examples
 
 Shows how to involve an image saving callback in an HTML conversion process.
 
 ```csharp
-public void ImageSavingCallback()
 {
     Document doc = new Document(MyDir + "Rendering.docx");
 

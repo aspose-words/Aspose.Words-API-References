@@ -14,7 +14,7 @@ Gets the first row style.
 public ConditionalStyle FirstRow { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to work with certain area styles of a table.
 

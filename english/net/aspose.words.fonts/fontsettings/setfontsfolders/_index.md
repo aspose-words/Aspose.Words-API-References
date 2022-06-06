@@ -19,13 +19,13 @@ public void SetFontsFolders(string[] fontsFolders, bool recursive)
 | fontsFolders | String[] | An array of folders that contain TrueType fonts. |
 | recursive | Boolean | True to scan the specified folders for fonts recursively. |
 
-### Remarks
+## Remarks
 
 By default, Aspose.Words looks for fonts installed to the system.
 
 Setting this property resets the cache of all previously loaded fonts.
 
-### Examples
+## Examples
 
 Shows how to set multiple font source directories.
 
@@ -55,7 +55,8 @@ Assert.False(originalFontSources[0].GetAvailableFonts().Any(f => f.FullFontName 
 // that we are passing in the first argument, but not include any fonts from any of the directories' subfolders.
 // Pass "true" as the "recursive" argument to include all font files in the directories that we are passing
 // in the first argument, as well as all the fonts in their subdirectories.
-FontSettings.DefaultInstance.SetFontsFolders(new[] { FontsDir + "/Amethysta", FontsDir + "/Junction" }, recursive);
+FontSettings.DefaultInstance.SetFontsFolders(new[] {FontsDir + "/Amethysta", FontsDir + "/Junction"},
+    recursive);
 
 FontSourceBase[] newFontSources = FontSettings.DefaultInstance.GetFontsSources();
 

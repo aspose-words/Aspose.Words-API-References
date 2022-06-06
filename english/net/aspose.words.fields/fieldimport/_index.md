@@ -49,11 +49,11 @@ public class FieldImport : Field
 | [Update](../../aspose.words.fields/field/update)() | Performs the field update. Throws if the field is being updated already. |
 | [Update](../../aspose.words.fields/field/update)(bool) | Performs a field update. Throws if the field is being updated already. |
 
-### Remarks
+## Remarks
 
 Retrieves the picture contained in the document.
 
-### Examples
+## Examples
 
 Shows how to insert images using IMPORT and INCLUDEPICTURE fields.
 

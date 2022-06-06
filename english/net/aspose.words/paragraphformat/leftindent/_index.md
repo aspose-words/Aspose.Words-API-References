@@ -14,7 +14,7 @@ Gets or sets the value (in points) that represents the left indent for paragraph
 public double LeftIndent { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to configure paragraph formatting to create off-center text.
 

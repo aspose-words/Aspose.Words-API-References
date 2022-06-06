@@ -14,12 +14,11 @@ Returns GroupShape.
 public override NodeType NodeType { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to traverse a composite node's tree of child nodes.
 
 ```csharp
-public void RecurseChildren()
 {
     Document doc = new Document(MyDir + "Paragraphs.docx");
 

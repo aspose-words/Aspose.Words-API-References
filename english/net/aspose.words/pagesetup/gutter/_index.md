@@ -14,7 +14,7 @@ Gets or sets the amount of extra space added to the margin for document binding.
 public double Gutter { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to configure a document that can be printed as a book fold.
 

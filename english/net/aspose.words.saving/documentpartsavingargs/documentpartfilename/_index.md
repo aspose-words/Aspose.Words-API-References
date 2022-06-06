@@ -14,7 +14,7 @@ Gets or sets the file name (without path) where the document part will be saved 
 public string DocumentPartFileName { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 This property allows you to redefine how the document part file names are generated during export to HTML or EPUB.
 
@@ -22,7 +22,7 @@ When the callback is invoked, this property contains the file name that was gene
 
 `DocumentPartFileName` must contain only the file name without the path. Aspose.Words determines the path for saving using the document file name. If output document file name was not specified, for instance when saving to a stream, this file name is used only for referencing document parts. The same is true when saving to EPUB format.
 
-### Examples
+## Examples
 
 Shows how to split a document into parts and save them.
 

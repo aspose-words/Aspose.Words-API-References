@@ -18,10 +18,10 @@ public class PlainTextDocument
 
 | Name | Description |
 | --- | --- |
-| [PlainTextDocument](plaintextdocument#constructor)(Stream) | Creates a plain text document from a stream. Automatically detects the file format. |
-| [PlainTextDocument](plaintextdocument#constructor_2)(string) | Creates a plain text document from a file. Automatically detects the file format. |
-| [PlainTextDocument](plaintextdocument#constructor_1)(Stream, LoadOptions) | Creates a plain text document from a stream. Allows to specify additional options such as an encryption password. |
-| [PlainTextDocument](plaintextdocument#constructor_3)(string, LoadOptions) | Creates a plain text document from a file. Allows to specify additional options such as an encryption password. |
+| [PlainTextDocument](plaintextdocument)(Stream) | Creates a plain text document from a stream. Automatically detects the file format. |
+| [PlainTextDocument](plaintextdocument)(string) | Creates a plain text document from a file. Automatically detects the file format. |
+| [PlainTextDocument](plaintextdocument)(Stream, LoadOptions) | Creates a plain text document from a stream. Allows to specify additional options such as an encryption password. |
+| [PlainTextDocument](plaintextdocument)(string, LoadOptions) | Creates a plain text document from a file. Allows to specify additional options such as an encryption password. |
 
 ## Properties
 
@@ -31,7 +31,7 @@ public class PlainTextDocument
 | [CustomDocumentProperties](../../aspose.words/plaintextdocument/customdocumentproperties) { get; } | Gets [`CustomDocumentProperties`](./customdocumentproperties) of the document. |
 | [Text](../../aspose.words/plaintextdocument/text) { get; } | Gets textual content of the document concatenated as a string. |
 
-### Examples
+## Examples
 
 Shows how to load the contents of a Microsoft Word document in plaintext.
 

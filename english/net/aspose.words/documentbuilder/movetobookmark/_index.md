@@ -6,7 +6,7 @@ type: docs
 weight: 470
 url: /net/aspose.words/documentbuilder/movetobookmark/
 ---
-## MoveToBookmark(string) {#movetobookmark}
+## DocumentBuilder.MoveToBookmark method (1 of 2)
 
 Moves the cursor to a bookmark.
 
@@ -22,7 +22,7 @@ public bool MoveToBookmark(string bookmarkName)
 
 True if the bookmark was found; false otherwise.
 
-### Remarks
+## Remarks
 
 Moves the cursor to a position just after the start of the bookmark with the specified name.
 
@@ -32,7 +32,7 @@ Inserting new text does not replace existing text of the bookmark.
 
 Note that some bookmarks in the document are assigned to form fields. Moving to such a bookmark and inserting text there inserts the text into the form field code. Although this will not invalidate the form field, the inserted text will not be visible because it becomes part of the field code.
 
-### Examples
+## Examples
 
 Shows how to move a document builder's cursor to different nodes in a document.
 
@@ -91,7 +91,7 @@ Assert.IsTrue(builder.IsAtStartOfParagraph);
 
 ---
 
-## MoveToBookmark(string, bool, bool) {#movetobookmark_1}
+## DocumentBuilder.MoveToBookmark method (2 of 2)
 
 Moves the cursor to a bookmark with greater precision.
 
@@ -109,7 +109,7 @@ public bool MoveToBookmark(string bookmarkName, bool isStart, bool isAfter)
 
 True if the bookmark was found; false otherwise.
 
-### Remarks
+## Remarks
 
 Moves the cursor to a position before or after the bookmark start or end.
 
@@ -117,7 +117,7 @@ If desired position is not at inline level, moves to the next paragraph.
 
 The comparison is not case-sensitive. If the bookmark was not found, false is returned and the cursor is not moved.
 
-### Examples
+## Examples
 
 Shows how to move a document builder's node insertion point cursor to a bookmark.
 

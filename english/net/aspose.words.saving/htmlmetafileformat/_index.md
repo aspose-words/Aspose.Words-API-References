@@ -22,7 +22,7 @@ public enum HtmlMetafileFormat
 | Svg | `1` | Metafiles are converted to vector SVG images. |
 | EmfOrWmf | `2` | Metafiles are saved as is, without conversion. |
 
-### Examples
+## Examples
 
 Shows how to convert SVG objects to a different format when saving HTML documents.
 

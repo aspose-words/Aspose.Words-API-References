@@ -14,7 +14,7 @@ Returns or sets the distance (in points) between the bottom edge of the page and
 public double BottomMargin { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to adjust paper size, orientation, margins, along with other settings for a section.
 

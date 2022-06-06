@@ -6,7 +6,7 @@ type: docs
 weight: 20
 url: /net/aspose.words/comhelper/open/
 ---
-## Open(string) {#open_1}
+## ComHelper.Open method (1 of 2)
 
 Allows a COM application to load a [`Document`](../../document) from a file.
 
@@ -22,11 +22,11 @@ public Document Open(string fileName)
 
 A [`Document`](../../document) object that represents a Word document.
 
-### Remarks
+## Remarks
 
 This method is same as calling the [`Document`](../../document) constructor with a file name parameter.
 
-### Examples
+## Examples
 
 ```csharp
 [VBScript]
@@ -67,7 +67,7 @@ using (FileStream stream = new FileStream(MyDir + "Document.docx", FileMode.Open
 
 ---
 
-## Open(Stream) {#open}
+## ComHelper.Open method (2 of 2)
 
 Allows a COM application to load [`Document`](../../document) from a stream.
 
@@ -83,11 +83,11 @@ public Document Open(Stream stream)
 
 A [`Document`](../../document) object that represents a Word document.
 
-### Remarks
+## Remarks
 
 This method is same as calling the [`Document`](../../document) constructor with a stream parameter.
 
-### Examples
+## Examples
 
 Shows how to open documents using the ComHelper class.
 

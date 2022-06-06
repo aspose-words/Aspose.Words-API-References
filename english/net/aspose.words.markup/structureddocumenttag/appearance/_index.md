@@ -14,7 +14,7 @@ Gets/sets the appearance of a structured document tag.
 public SdtAppearance Appearance { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to create a structured document tag in a plain text box and modify its appearance.
 

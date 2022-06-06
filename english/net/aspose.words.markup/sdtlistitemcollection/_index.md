@@ -31,7 +31,7 @@ public class SdtListItemCollection : IEnumerable<SdtListItem>
 | [GetEnumerator](../../aspose.words.markup/sdtlistitemcollection/getenumerator)() | Returns an enumerator object that can be used to iterate over all items in the collection. |
 | [RemoveAt](../../aspose.words.markup/sdtlistitemcollection/removeat)(int) | Removes a list item at the specified index. |
 
-### Examples
+## Examples
 
 Shows how to work with drop down-list structured document tags.
 

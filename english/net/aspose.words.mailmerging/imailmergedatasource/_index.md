@@ -28,11 +28,11 @@ public interface IMailMergeDataSource
 | [GetValue](../../aspose.words.mailmerging/imailmergedatasource/getvalue)(string, out object) | Returns a value for the specified field name or false if the field is not found. |
 | [MoveNext](../../aspose.words.mailmerging/imailmergedatasource/movenext)() | Advances to the next record in the data source. |
 
-### Remarks
+## Remarks
 
 When a data source is created, it should be initialized to point to BOF (before the first record). The Aspose.Words mail merge engine will invoke [`MoveNext`](./movenext) to advance to next record and then invoke [`GetValue`](./getvalue) for every merge field it encounters in the document or the current mail merge region.
 
-### Examples
+## Examples
 
 Shows how to execute a mail merge with a data source in the form of a custom object.
 

@@ -14,11 +14,11 @@ Timestamp server URL.
 public string ServerUrl { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 The default value is null. If null, then the digital signature will not be time-stamped.
 
-### Examples
+## Examples
 
 Shows how to sign a saved PDF document digitally and timestamp it.
 

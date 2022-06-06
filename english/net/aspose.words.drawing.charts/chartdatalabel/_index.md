@@ -38,16 +38,15 @@ public class ChartDataLabel
 | --- | --- |
 | [ClearFormat](../../aspose.words.drawing.charts/chartdatalabel/clearformat)() | Clears format of this data label. The properties are set to the default values defined in the parent data label collection. |
 
-### Remarks
+## Remarks
 
 On a series, the [`ChartDataLabel`](../chartdatalabel) object is a member of the [`ChartDataLabelCollection`](../chartdatalabelcollection). The [`ChartDataLabelCollection`](../chartdatalabelcollection) contains a [`ChartDataLabel`](../chartdatalabel) object for each point.
 
-### Examples
+## Examples
 
 Shows how to apply labels to data points in a line chart.
 
 ```csharp
-public void DataLabels()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);

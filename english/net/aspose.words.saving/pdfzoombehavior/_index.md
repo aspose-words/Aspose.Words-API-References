@@ -25,7 +25,7 @@ public enum PdfZoomBehavior
 | FitHeight | `4` | Fits the height of the page. |
 | FitBox | `5` | Fits the bounding box (rectangle containing all visible elements on the page). |
 
-### Examples
+## Examples
 
 Shows how to set the default zooming that a reader applies when opening a rendered PDF document.
 

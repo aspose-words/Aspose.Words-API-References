@@ -6,7 +6,7 @@ type: docs
 weight: 80
 url: /net/aspose.words.rendering/pageinfo/getsizeinpixels/
 ---
-## GetSizeInPixels(float, float) {#getsizeinpixels}
+## PageInfo.GetSizeInPixels method (1 of 2)
 
 Calculates the page size in pixels for a specified zoom factor and resolution.
 
@@ -31,7 +31,7 @@ The size of the page in pixels.
 
 ---
 
-## GetSizeInPixels(float, float, float) {#getsizeinpixels_1}
+## PageInfo.GetSizeInPixels method (2 of 2)
 
 Calculates the page size in pixels for a specified zoom factor and resolution.
 
@@ -49,7 +49,7 @@ public Size GetSizeInPixels(float scale, float horizontalDpi, float verticalDpi)
 
 The size of the page in pixels.
 
-### Examples
+## Examples
 
 Shows how to print page size and orientation information for every page in a Word document.
 

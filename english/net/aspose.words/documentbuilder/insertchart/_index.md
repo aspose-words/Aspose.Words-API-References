@@ -6,7 +6,7 @@ type: docs
 weight: 260
 url: /net/aspose.words/documentbuilder/insertchart/
 ---
-## InsertChart(ChartType, double, double) {#insertchart_1}
+## DocumentBuilder.InsertChart method (1 of 2)
 
 Inserts an chart object into the document and scales it to the specified size.
 
@@ -24,11 +24,11 @@ public Shape InsertChart(ChartType chartType, double width, double height)
 
 The image node that was just inserted.
 
-### Remarks
+## Remarks
 
 You can change the image size, location, positioning method and other settings using the [`Shape`](../../../aspose.words.drawing/shape) object returned by this method.
 
-### Examples
+## Examples
 
 Shows how to insert a pie chart into a document.
 
@@ -38,7 +38,6 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 Chart chart = builder.InsertChart(ChartType.Pie, ConvertUtil.PixelToPoint(300), 
     ConvertUtil.PixelToPoint(300)).Chart;
-chart.Series.Clear();
 chart.Series.Add("My fruit",
     new[] { "Apples", "Bananas", "Cherries" },
     new[] { 1.3, 2.2, 1.5 });
@@ -56,7 +55,7 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertPieChart.docx");
 
 ---
 
-## InsertChart(ChartType, RelativeHorizontalPosition, double, RelativeVerticalPosition, double, double, double, WrapType) {#insertchart}
+## DocumentBuilder.InsertChart method (2 of 2)
 
 Inserts an chart object into the document and scales it to the specified size.
 
@@ -80,11 +79,11 @@ public Shape InsertChart(ChartType chartType, RelativeHorizontalPosition horzPos
 
 The image node that was just inserted.
 
-### Remarks
+## Remarks
 
 You can change the image size, location, positioning method and other settings using the [`Shape`](../../../aspose.words.drawing/shape) object returned by this method.
 
-### Examples
+## Examples
 
 Shows how to specify position and wrapping while inserting a chart.
 

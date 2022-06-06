@@ -14,7 +14,7 @@ Returns an object that represents current paragraph formatting properties.
 public ParagraphFormat ParagraphFormat { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to create a formatted table using DocumentBuilder.
 

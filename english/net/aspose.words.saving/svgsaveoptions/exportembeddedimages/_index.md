@@ -14,7 +14,7 @@ Specified whether images should be embedded into SVG document as base64. Note se
 public bool ExportEmbeddedImages { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to manipulate and print the URIs of linked resources created while converting a document to .svg.
 

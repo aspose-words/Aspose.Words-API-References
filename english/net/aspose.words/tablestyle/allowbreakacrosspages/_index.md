@@ -14,11 +14,11 @@ Gets or sets a flag indicating whether text in a table row is allowed to split a
 public bool AllowBreakAcrossPages { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 The default value is **true**.
 
-### Examples
+## Examples
 
 Shows how to create custom style settings for the table.
 

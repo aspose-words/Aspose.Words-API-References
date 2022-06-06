@@ -14,7 +14,7 @@ Gets or sets the type of a Facing Identification Mark (FIM) to insert.
 public string FacingIdentificationMark { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to use the BARCODE field to display U.S. ZIP codes in the form of a barcode.
 

@@ -22,7 +22,7 @@ public class ChartMarker
 | [Size](../../aspose.words.drawing.charts/chartmarker/size) { get; set; } | Gets or sets chart marker size. Default value is 7. |
 | [Symbol](../../aspose.words.drawing.charts/chartmarker/symbol) { get; set; } | Gets or sets chart marker symbol. |
 
-### Examples
+## Examples
 
 Shows how to work with data points on a line chart.
 

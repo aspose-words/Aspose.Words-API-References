@@ -18,7 +18,7 @@ public void RemoveAt(int index)
 | --- | --- | --- |
 | index | Int32 | The zero-based index of the item to remove. |
 
-### Examples
+## Examples
 
 Shows how to work with drop down-list structured document tags.
 

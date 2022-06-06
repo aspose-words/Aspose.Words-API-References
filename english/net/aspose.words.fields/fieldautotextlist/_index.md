@@ -49,16 +49,15 @@ public class FieldAutoTextList : Field
 | [Update](../../aspose.words.fields/field/update)() | Performs the field update. Throws if the field is being updated already. |
 | [Update](../../aspose.words.fields/field/update)(bool) | Performs a field update. Throws if the field is being updated already. |
 
-### Remarks
+## Remarks
 
 Creates a shortcut menu based on AutoText entries in the active template.
 
-### Examples
+## Examples
 
 Shows how to use an AUTOTEXTLIST field to select from a list of AutoText entries.
 
 ```csharp
-public void FieldAutoTextList()
 {
     Document doc = new Document();
 
@@ -83,7 +82,6 @@ public void FieldAutoTextList()
                     "\\t \"Hover tip text for AutoTextList goes here\"", field.GetFieldCode());
 
     doc.Save(ArtifactsDir + "Field.AUTOTEXTLIST.dotx");
-}
 
 /// <summary>
 /// Create an AutoText-type building block and add it to a glossary document.

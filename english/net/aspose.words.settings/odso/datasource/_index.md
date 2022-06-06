@@ -14,7 +14,7 @@ Specifies the location of the external data source to be connected to a document
 public string DataSource { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to execute a mail merge with data from an Office Data Source Object.
 

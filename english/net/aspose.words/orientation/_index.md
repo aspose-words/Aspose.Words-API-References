@@ -21,7 +21,7 @@ public enum Orientation
 | Portrait | `1` | Portrait page orientation (narrow and tall). |
 | Landscape | `2` | Landscape page orientation (wide and short). |
 
-### Examples
+## Examples
 
 Shows how to apply and revert page setup settings to sections in a document.
 

@@ -14,7 +14,7 @@ url: /net/aspose.words/pagesetup/differentfirstpageheaderfooter/
 public bool DifferentFirstPageHeaderFooter { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to create headers and footers in a document using DocumentBuilder.
 
@@ -99,7 +99,7 @@ public void Order(bool differentFirstPageHeaderFooter)
             firstPageSection.PageSetup.DifferentFirstPageHeaderFooter = differentFirstPageHeaderFooter;
             doc.Range.Replace(new Regex("(header|footer)"), "", options);
 
-#if NET48 || NET5_0 || JAVA
+#if NET48 || NET5_0_OR_GREATER || JAVA
             if (differentFirstPageHeaderFooter)
                 Assert.AreEqual("First header\nFirst footer\nSecond header\nSecond footer\nThird header\nThird footer\n", 
                     logger.Text.Replace("\r", ""));

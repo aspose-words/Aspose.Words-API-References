@@ -14,7 +14,7 @@ Thrown during document load, when the document appears to be corrupted and impos
 public class FileCorruptedException : Exception
 ```
 
-### Examples
+## Examples
 
 Shows how to catch a FileCorruptedException.
 

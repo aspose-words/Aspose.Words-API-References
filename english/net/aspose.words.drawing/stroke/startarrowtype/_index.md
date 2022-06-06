@@ -14,11 +14,11 @@ Defines the arrowhead for the start of a stroke.
 public ArrowType StartArrowType { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 The default value is None.
 
-### Examples
+## Examples
 
 Shows to create a variety of shapes.
 

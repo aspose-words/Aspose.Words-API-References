@@ -116,7 +116,7 @@ public enum FieldType
 | FieldUserInitials | `61` | Specifies the USERINITIALS field. |
 | FieldUserName | `60` | Specifies the USERNAME field. |
 
-### Examples
+## Examples
 
 Shows how to insert a field into a document using a field code.
 

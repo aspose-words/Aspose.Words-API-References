@@ -30,15 +30,15 @@ public class Range
 | --- | --- |
 | [Delete](../../aspose.words/range/delete)() | Deletes all characters of the range. |
 | [NormalizeFieldTypes](../../aspose.words/range/normalizefieldtypes)() | Changes field type values [`FieldType`](../../aspose.words.fields/fieldchar/fieldtype) of [`FieldStart`](../../aspose.words.fields/fieldstart), [`FieldSeparator`](../../aspose.words.fields/fieldseparator), [`FieldEnd`](../../aspose.words.fields/fieldend) in this range so that they correspond to the field types contained in the field codes. |
-| [Replace](../../aspose.words/range/replace#replace_2)(Regex, string) | Replaces all occurrences of a character pattern specified by a regular expression with another string. |
-| [Replace](../../aspose.words/range/replace#replace)(string, string) | Replaces all occurrences of a specified character string pattern with a replacement string. |
-| [Replace](../../aspose.words/range/replace#replace_3)(Regex, string, FindReplaceOptions) | Replaces all occurrences of a character pattern specified by a regular expression with another string. |
-| [Replace](../../aspose.words/range/replace#replace_1)(string, string, FindReplaceOptions) | Replaces all occurrences of a specified character string pattern with a replacement string. |
+| [Replace](../../aspose.words/range/replace)(Regex, string) | Replaces all occurrences of a character pattern specified by a regular expression with another string. |
+| [Replace](../../aspose.words/range/replace)(string, string) | Replaces all occurrences of a specified character string pattern with a replacement string. |
+| [Replace](../../aspose.words/range/replace)(Regex, string, FindReplaceOptions) | Replaces all occurrences of a character pattern specified by a regular expression with another string. |
+| [Replace](../../aspose.words/range/replace)(string, string, FindReplaceOptions) | Replaces all occurrences of a specified character string pattern with a replacement string. |
 | [ToDocument](../../aspose.words/range/todocument)() | Constructs a new fully formed document that contains the range. |
 | [UnlinkFields](../../aspose.words/range/unlinkfields)() | Unlinks fields in this range. |
 | [UpdateFields](../../aspose.words/range/updatefields)() | Updates the values of document fields in this range. |
 
-### Remarks
+## Remarks
 
 The document is represented by a tree of nodes and the nodes provide operations to work with the tree, but some operations are easier to perform if the document is treated as a contiguous sequence of text.
 
@@ -46,7 +46,7 @@ The document is represented by a tree of nodes and the nodes provide operations 
 
 **Range** does not contain any text or nodes, it is merely a view or "window" over a fragment of a document.
 
-### Examples
+## Examples
 
 Shows how to get the text contents of all the nodes that a range covers.
 

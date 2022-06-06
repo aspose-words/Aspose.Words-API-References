@@ -6,7 +6,7 @@ type: docs
 weight: 370
 url: /net/aspose.words/documentbuilder/insertoleobject/
 ---
-## InsertOleObject(Stream, string, bool, Stream) {#insertoleobject}
+## DocumentBuilder.InsertOleObject method (1 of 3)
 
 Inserts an embedded OLE object from a stream into the document.
 
@@ -25,7 +25,7 @@ public Shape InsertOleObject(Stream stream, string progId, bool asIcon, Stream p
 
 Shape node containing Ole object and inserted at the current Builder position.
 
-### Examples
+## Examples
 
 Shows how to use document builder to embed OLE objects in a document.
 
@@ -74,7 +74,7 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertOleObjects.docx");
 
 ---
 
-## InsertOleObject(string, bool, bool, Stream) {#insertoleobject_1}
+## DocumentBuilder.InsertOleObject method (2 of 3)
 
 Inserts an embedded or linked OLE object from a file into the document. Detects OLE object type using file extension.
 
@@ -93,7 +93,7 @@ public Shape InsertOleObject(string fileName, bool isLinked, bool asIcon, Stream
 
 Shape node containing Ole object and inserted at the current Builder position.
 
-### Examples
+## Examples
 
 Shows how to insert an OLE object into a document.
 
@@ -135,7 +135,7 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertOleObject.docx");
 
 ---
 
-## InsertOleObject(string, string, bool, bool, Stream) {#insertoleobject_2}
+## DocumentBuilder.InsertOleObject method (3 of 3)
 
 Inserts an embedded or linked OLE object from a file into the document. Detects OLE object type using given progID parameter.
 
@@ -156,7 +156,7 @@ public Shape InsertOleObject(string fileName, string progId, bool isLinked, bool
 
 Shape node containing Ole object and inserted at the current Builder position.
 
-### Examples
+## Examples
 
 Shows how to insert an OLE object into a document.
 

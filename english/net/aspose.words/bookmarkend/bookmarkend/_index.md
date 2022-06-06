@@ -19,7 +19,7 @@ public BookmarkEnd(DocumentBase doc, string name)
 | doc | DocumentBase | The owner document. |
 | name | String | The name of the bookmark. Cannot be null. |
 
-### Examples
+## Examples
 
 Shows how to add bookmarks and update their contents.
 

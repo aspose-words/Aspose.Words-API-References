@@ -18,11 +18,11 @@ public Border this[BorderType borderType] { get; }
 | --- | --- |
 | borderType | A [`BorderType`](../../bordertype) value that specifies the type of the border to retrieve. |
 
-### Remarks
+## Remarks
 
 Note that not all borders are present for different document elements. This method throws an exception if you request a border not applicable to the current object.
 
-### Examples
+## Examples
 
 Shows how to decorate text with borders and shading.
 
@@ -68,7 +68,7 @@ public Border this[int index] { get; }
 | --- | --- |
 | index | Zero-based index of the border to retrieve. |
 
-### Examples
+## Examples
 
 Shows how border collections can share elements.
 

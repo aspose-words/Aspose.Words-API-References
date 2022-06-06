@@ -14,7 +14,7 @@ Creates a deep clone of this object.
 public ImageSaveOptions Clone()
 ```
 
-### Examples
+## Examples
 
 Shows how to select a bit-per-pixel rate with which to render a document to an image.
 
@@ -58,7 +58,7 @@ Document doc = new Document();
                     Assert.That(200000, Is.LessThan(new FileInfo(ArtifactsDir + "ImageSaveOptions.PixelFormat.png").Length));
                     break;
             }
-#elif NET5_0
+#elif NET5_0_OR_GREATER
             switch (imagePixelFormat)
             {
                 case ImagePixelFormat.Format1bppIndexed:

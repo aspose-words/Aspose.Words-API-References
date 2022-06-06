@@ -14,7 +14,7 @@ True if the font is formatted as italic.
 public bool Italic { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to write italicized text using a document builder.
 

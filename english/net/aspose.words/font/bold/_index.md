@@ -14,7 +14,7 @@ True if the font is formatted as bold.
 public bool Bold { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to insert formatted text using DocumentBuilder.
 

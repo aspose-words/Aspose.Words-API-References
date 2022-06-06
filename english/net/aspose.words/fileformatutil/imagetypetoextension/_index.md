@@ -20,7 +20,7 @@ public static string ImageTypeToExtension(ImageType imageType)
 | --- | --- |
 | ArgumentException | Throws when cannot convert. |
 
-### Examples
+## Examples
 
 Shows how to extract images from a document, and save them to the local file system as individual files.
 

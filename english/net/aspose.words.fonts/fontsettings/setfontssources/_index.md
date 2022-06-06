@@ -6,7 +6,7 @@ type: docs
 weight: 100
 url: /net/aspose.words.fonts/fontsettings/setfontssources/
 ---
-## SetFontsSources(FontSourceBase[]) {#setfontssources}
+## FontSettings.SetFontsSources method (1 of 2)
 
 Sets the sources where Aspose.Words looks for TrueType fonts when rendering documents or embedding fonts.
 
@@ -18,13 +18,13 @@ public void SetFontsSources(FontSourceBase[] sources)
 | --- | --- | --- |
 | sources | FontSourceBase[] | An array of sources that contain TrueType fonts. |
 
-### Remarks
+## Remarks
 
 By default, Aspose.Words looks for fonts installed to the system.
 
 Setting this property resets the cache of all previously loaded fonts.
 
-### Examples
+## Examples
 
 Shows how to add a font source to our existing font sources.
 
@@ -54,7 +54,7 @@ Assert.False(originalFontSources[0].GetAvailableFonts().Any(f => f.FullFontName 
 FolderFontSource folderFontSource = new FolderFontSource(FontsDir, true);
 
 // Apply a new array of font sources that contains the original font sources, as well as our custom fonts.
-FontSourceBase[] updatedFontSources = { originalFontSources[0], folderFontSource };
+FontSourceBase[] updatedFontSources = {originalFontSources[0], folderFontSource};
 FontSettings.DefaultInstance.SetFontsSources(updatedFontSources);
 
 // Verify that Aspose.Words has access to all required fonts before we render the document to PDF.
@@ -79,7 +79,7 @@ FontSettings.DefaultInstance.SetFontsSources(originalFontSources);
 
 ---
 
-## SetFontsSources(FontSourceBase[], Stream) {#setfontssources_1}
+## FontSettings.SetFontsSources method (2 of 2)
 
 Sets the sources where Aspose.Words looks for TrueType fonts and additionally loads previously saved font search cache.
 
@@ -92,13 +92,62 @@ public void SetFontsSources(FontSourceBase[] sources, Stream cacheInputStream)
 | sources | FontSourceBase[] | An array of sources that contain TrueType fonts. |
 | cacheInputStream | Stream | Input stream with saved font search cache. |
 
-### Remarks
+## Remarks
 
 Loading previously saved font search cache will speed up the font cache initialization process. It is especially useful when access to font sources is complicated (e.g. when fonts are loaded via network).
 
 When saving and loading font search cache, fonts in the provided sources are identified via cache key. For the fonts in the [`SystemFontSource`](../../systemfontsource) and [`FolderFontSource`](../../folderfontsource) cache key is the path to the font file. For [`MemoryFontSource`](../../memoryfontsource) and [`StreamFontSource`](../../streamfontsource) cache key is defined in the [`CacheKey`](../../memoryfontsource/cachekey) and [`CacheKey`](../../streamfontsource/cachekey) properties respectively. For the [`FileFontSource`](../../filefontsource) cache key is either [`CacheKey`](../../filefontsource/cachekey) property or a file path if the [`CacheKey`](../../filefontsource/cachekey) is **null**.
 
 It is highly recommended to provide the same font sources when loading cache as at the time the cache was saved. Any changes in the font sources (e.g. adding new fonts, moving font files or changing the cache key) may lead to the inaccurate font resolving by Aspose.Words.
+
+## Examples
+
+Shows how to speed up the font cache initialization process.
+
+```csharp
+[Test]
+public void LoadFontSearchCache()
+{
+    const string cacheKey1 = "Arvo";
+    const string cacheKey2 = "Arvo-Bold";
+    FontSettings parsedFonts = new FontSettings();
+    FontSettings loadedCache = new FontSettings();
+
+    parsedFonts.SetFontsSources(new FontSourceBase[]
+    {
+        new FileFontSource(FontsDir + "Arvo-Regular.ttf", 0, cacheKey1),
+        new FileFontSource(FontsDir + "Arvo-Bold.ttf", 0, cacheKey2)
+    });
+
+    using (MemoryStream cacheStream = new MemoryStream())
+    {
+        parsedFonts.SaveSearchCache(cacheStream);
+        loadedCache.SetFontsSources(new FontSourceBase[]
+        {
+            new SearchCacheStream(cacheKey1),                    
+            new MemoryFontSource(File.ReadAllBytes(FontsDir + "Arvo-Bold.ttf"), 0, cacheKey2)
+        }, cacheStream);
+    }
+
+    Assert.AreEqual(parsedFonts.GetFontsSources().Length, loadedCache.GetFontsSources().Length);
+}
+
+/// <summary>
+/// Load the font data only when required instead of storing it in the memory
+/// for the entire lifetime of the "FontSettings" object.
+/// </summary>
+private class SearchCacheStream : StreamFontSource
+{
+    public SearchCacheStream(string cacheKey):base(0, cacheKey)
+    {
+    }
+
+    public override Stream OpenFontDataStream()
+    {
+        return File.OpenRead(FontsDir + "Arvo-Regular.ttf");
+    }
+}
+```
 
 ### See Also
 

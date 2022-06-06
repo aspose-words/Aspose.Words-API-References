@@ -36,7 +36,7 @@ public class CustomPart
 | --- | --- |
 | [Clone](../../aspose.words.markup/custompart/clone)() | Makes a "deep enough" copy of the object. Does not duplicate the bytes of the [`Data`](./data) value. |
 
-### Remarks
+## Remarks
 
 This class represents an OOXML part that is a target of an "unknown relationship". All relationships not defined within ISO/IEC 29500 are considered "unknown relationships". Unknown relationships are permitted within an Office Open XML document provided that they conform to relationship markup guidelines.
 
@@ -46,7 +46,7 @@ Aspose.Words also roundtrips custom parts and in addition, allows to programmati
 
 Do not confuse custom parts with Custom XML Data. Use [`CustomXmlPart`](../customxmlpart) if you need to access Custom XML Data.
 
-### Examples
+## Examples
 
 Shows how to access a document's arbitrary custom parts collection.
 
@@ -58,7 +58,6 @@ Assert.AreEqual(2, doc.PackageCustomParts.Count);
 // Clone the second part, then add the clone to the collection.
 CustomPart clonedPart = doc.PackageCustomParts[1].Clone();
 doc.PackageCustomParts.Add(clonedPart);
-
 Assert.AreEqual(3, doc.PackageCustomParts.Count);
 
 // Enumerate over the collection and print every part.

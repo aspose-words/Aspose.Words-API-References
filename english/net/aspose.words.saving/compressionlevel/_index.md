@@ -27,7 +27,7 @@ public enum CompressionLevel
 | Fast | `2` | Fast compression level. |
 | SuperFast | `3` | Super Fast compression level. Microsoft Word uses this compression level. |
 
-### Examples
+## Examples
 
 Shows how to specify the compression level to use while saving an OOXML document.
 

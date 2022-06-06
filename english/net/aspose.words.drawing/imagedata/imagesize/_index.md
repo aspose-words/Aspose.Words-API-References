@@ -14,11 +14,11 @@ Gets the information about image size and resolution.
 public ImageSize ImageSize { get; }
 ```
 
-### Remarks
+## Remarks
 
 If the image is linked only and not stored in the document, returns zero size.
 
-### Examples
+## Examples
 
 Shows how to resize a shape with an image.
 
@@ -28,7 +28,7 @@ Shows how to resize a shape with an image.
 
             Assert.AreEqual(400, image.Size.Width);
             Assert.AreEqual(400, image.Size.Height);
-#elif NET5_0
+#elif NET5_0_OR_GREATER
             SKBitmap image = SKBitmap.Decode(ImageDir + "Logo.jpg");
 
             Assert.AreEqual(400, image.Width);

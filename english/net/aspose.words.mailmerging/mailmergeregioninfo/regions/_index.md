@@ -14,7 +14,7 @@ Returns a list of child regions.
 public IList<MailMergeRegionInfo> Regions { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to verify mail merge regions.
 

@@ -28,7 +28,7 @@ public class AxisDisplayUnit
 | [Document](../../aspose.words.drawing.charts/axisdisplayunit/document) { get; } | Returns the Document the title holder belongs. |
 | [Unit](../../aspose.words.drawing.charts/axisdisplayunit/unit) { get; set; } | Gets or sets the scaling value of the display units as one of the predefined values. |
 
-### Examples
+## Examples
 
 Shows how to manipulate the tick marks and displayed values of a chart axis.
 
@@ -80,7 +80,6 @@ axis.DisplayUnit.Unit = AxisBuiltInUnit.Millions;
 // We can set a more specific value by which tick labels will display their values.
 // This statement is equivalent to the one above.
 axis.DisplayUnit.CustomUnit = 1000000;
-
 doc.Save(ArtifactsDir + "Charts.AxisDisplayUnit.docx");
 ```
 

@@ -65,7 +65,7 @@ public class BuiltInDocumentProperties : DocumentPropertyCollection
 | [Remove](../../aspose.words.properties/documentpropertycollection/remove)(string) | Removes a property with the specified name from the collection. |
 | [RemoveAt](../../aspose.words.properties/documentpropertycollection/removeat)(int) | Removes a property at the specified index. |
 
-### Remarks
+## Remarks
 
 Provides access to [`DocumentProperty`](../documentproperty) objects by their names (using an indexer) and via a set of typed properties that return values of appropriate types.
 
@@ -73,7 +73,7 @@ The names of the properties are case-insensitive.
 
 The properties in the collection are sorted alphabetically by name.
 
-### Examples
+## Examples
 
 Shows how to work with built-in document properties.
 

@@ -14,11 +14,11 @@ Gets or sets the flag that specifies whether the shape is decorative in the docu
 public bool IsDecorative { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 Note that shape having not empty [`AlternativeText`](../alternativetext) cannot be decorative.
 
-### Examples
+## Examples
 
 Shows how to set that the shape is decorative.
 

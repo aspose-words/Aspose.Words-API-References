@@ -18,13 +18,13 @@ public Table(DocumentBase doc)
 | --- | --- | --- |
 | doc | DocumentBase | The owner document. |
 
-### Remarks
+## Remarks
 
 When **Table** is created, it belongs to the specified document, but is not yet part of the document and **ParentNode** is null.
 
 To append **Table** to the document use InsertAfter or InsertBefore on the story where you want the table inserted.
 
-### Examples
+## Examples
 
 Shows how to create a table.
 

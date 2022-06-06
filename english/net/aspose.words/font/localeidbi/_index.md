@@ -14,11 +14,11 @@ Gets or sets the locale identifier (language) of the formatted right-to-left cha
 public int LocaleIdBi { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 For the list of locale identifiers see https://msdn.microsoft.com/en-us/library/cc233965.aspx
 
-### Examples
+## Examples
 
 Shows how to define separate sets of font settings for right-to-left, and right-to-left text.
 

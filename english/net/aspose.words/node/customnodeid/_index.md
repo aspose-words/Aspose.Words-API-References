@@ -14,7 +14,7 @@ Specifies custom node identifier.
 public int CustomNodeId { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 Default is zero.
 
@@ -22,7 +22,7 @@ This identifier can be set and used arbitrarily. For example, as a key to get ex
 
 Important note, specified value is not saved to an output file and exists only during the node lifetime.
 
-### Examples
+## Examples
 
 Shows how to traverse through a composite node's collection of child nodes.
 
@@ -60,7 +60,6 @@ foreach (Node child in children)
             Shape childShape = (Shape)child;
             Console.WriteLine("Shape:");
             Console.WriteLine($"\t{childShape.ShapeType}, {childShape.Width}x{childShape.Height}");
-            break;
     }
 ```
 

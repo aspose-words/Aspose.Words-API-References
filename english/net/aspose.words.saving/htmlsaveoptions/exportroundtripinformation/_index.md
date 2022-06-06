@@ -14,7 +14,7 @@ Specifies whether to write the roundtrip information when saving to HTML, MHTML 
 public bool ExportRoundtripInformation { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 Saving of the roundtrip information allows to restore document properties such as tab stops, comments, headers and footers during the HTML documents loading back into a [`Document`](../../../aspose.words/document) object.
 
@@ -22,7 +22,7 @@ When `true`, the roundtrip information is exported as -aw-* CSS properties of th
 
 When `false`, causes no roundtrip information to be output into produced files.
 
-### Examples
+## Examples
 
 Shows how to preserve hidden elements when converting to .html.
 

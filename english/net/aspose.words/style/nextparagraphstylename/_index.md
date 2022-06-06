@@ -14,11 +14,11 @@ Gets/sets the name of the style to be applied automatically to a new paragraph i
 public string NextParagraphStyleName { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 This property is not used by Aspose.Words. The next paragraph style will only be applied automatically when you edit the document in MS Word.
 
-### Examples
+## Examples
 
 Shows how to access a document's style collection.
 

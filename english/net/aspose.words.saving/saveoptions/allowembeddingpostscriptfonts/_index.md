@@ -14,13 +14,13 @@ Gets or sets a boolean value indicating whether to allow embedding fonts with Po
 public bool AllowEmbeddingPostScriptFonts { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 Note, Word does not embed PostScript fonts, but can open documents with embedded fonts of this type.
 
 This option only works when [`EmbedTrueTypeFonts`](../../../aspose.words.fonts/fontinfocollection/embedtruetypefonts) of the [`FontInfos`](../../../aspose.words/documentbase/fontinfos) property is set to `true`.
 
-### Examples
+## Examples
 
 Shows how to save the document with PostScript font.
 

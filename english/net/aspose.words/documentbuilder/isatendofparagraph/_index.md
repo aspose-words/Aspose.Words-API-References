@@ -14,7 +14,7 @@ Returns true if the cursor is at the end of the current paragraph.
 public bool IsAtEndOfParagraph { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to move a document builder's cursor to different nodes in a document.
 

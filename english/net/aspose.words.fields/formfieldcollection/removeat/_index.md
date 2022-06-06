@@ -18,11 +18,11 @@ public void RemoveAt(int index)
 | --- | --- | --- |
 | index | Int32 | The zero-based index of the form field to remove. |
 
-### Remarks
+## Remarks
 
 If there is a bookmark associated with the form field, the bookmark is not removed.
 
-### Examples
+## Examples
 
 Shows how insert different kinds of form fields into a document, and process them with using a document visitor implementation.
 

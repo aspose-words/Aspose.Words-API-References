@@ -14,12 +14,11 @@ Gets the node that represents the start of the field.
 public FieldStart Start { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to work with a collection of fields.
 
 ```csharp
-public void FieldCollection()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -58,7 +57,6 @@ public void FieldCollection()
     }
 
     Console.WriteLine(fieldVisitor.GetText());
-}
 
 /// <summary>
 /// Document visitor implementation that prints field info.

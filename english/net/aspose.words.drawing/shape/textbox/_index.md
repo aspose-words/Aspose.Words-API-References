@@ -14,7 +14,7 @@ Defines attributes that specify how text is displayed in a shape.
 public TextBox TextBox { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to set the orientation of text inside a text box.
 

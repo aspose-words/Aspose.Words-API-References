@@ -18,9 +18,9 @@ public class PdfDigitalSignatureTimestampSettings
 
 | Name | Description |
 | --- | --- |
-| [PdfDigitalSignatureTimestampSettings](pdfdigitalsignaturetimestampsettings#constructor)() | Initializes an instance of this class. |
-| [PdfDigitalSignatureTimestampSettings](pdfdigitalsignaturetimestampsettings#constructor_1)(string, string, string) | Initializes an instance of this class. |
-| [PdfDigitalSignatureTimestampSettings](pdfdigitalsignaturetimestampsettings#constructor_2)(string, string, string, TimeSpan) | Initializes an instance of this class. |
+| [PdfDigitalSignatureTimestampSettings](pdfdigitalsignaturetimestampsettings)() | Initializes an instance of this class. |
+| [PdfDigitalSignatureTimestampSettings](pdfdigitalsignaturetimestampsettings)(string, string, string) | Initializes an instance of this class. |
+| [PdfDigitalSignatureTimestampSettings](pdfdigitalsignaturetimestampsettings)(string, string, string, TimeSpan) | Initializes an instance of this class. |
 
 ## Properties
 
@@ -31,7 +31,7 @@ public class PdfDigitalSignatureTimestampSettings
 | [Timeout](../../aspose.words.saving/pdfdigitalsignaturetimestampsettings/timeout) { get; set; } | Time-out value for accessing timestamp server. |
 | [UserName](../../aspose.words.saving/pdfdigitalsignaturetimestampsettings/username) { get; set; } | Timestamp server user name. |
 
-### Examples
+## Examples
 
 Shows how to sign a saved PDF document digitally and timestamp it.
 

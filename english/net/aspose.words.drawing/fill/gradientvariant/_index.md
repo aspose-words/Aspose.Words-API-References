@@ -14,7 +14,7 @@ Gets the gradient variant [`GradientVariant`](../../gradientvariant) for the fil
 public GradientVariant GradientVariant { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to fill a shape with a gradients.
 

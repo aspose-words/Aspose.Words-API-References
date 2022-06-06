@@ -14,7 +14,7 @@ Returns a list of child fields.
 public IList<Field> Fields { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to verify mail merge regions.
 

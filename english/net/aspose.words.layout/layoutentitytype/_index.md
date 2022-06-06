@@ -34,7 +34,7 @@ public enum LayoutEntityType
 | Comment | `1000` | Represents placeholder for comment content. Comment may have Line and Row child entities. |
 | NoteSeparator | `2000` | Represents footnote/endnote separator. NoteSeparator may have Line and Row child entities. |
 
-### Examples
+## Examples
 
 Shows ways of traversing a document's layout entities.
 

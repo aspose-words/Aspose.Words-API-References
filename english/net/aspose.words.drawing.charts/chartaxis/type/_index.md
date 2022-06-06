@@ -14,12 +14,11 @@ Returns type of the axis.
 public ChartAxisType Type { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to create an appropriate type of chart series for a graph type.
 
 ```csharp
-public void ChartSeriesCollection()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -96,7 +95,6 @@ private static Chart AppendChart(DocumentBuilder builder, ChartType chartType, d
     Shape chartShape = builder.InsertChart(chartType, width, height);
     Chart chart = chartShape.Chart;
     chart.Series.Clear();
-
     return chart;
 }
 ```

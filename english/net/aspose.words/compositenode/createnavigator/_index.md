@@ -15,12 +15,11 @@ Reserved for system use. IXPathNavigable.
 public XPathNavigator CreateNavigator()
 ```
 
-### Examples
+## Examples
 
 Shows how to create an XPathNavigator, and then use it to traverse and read nodes.
 
 ```csharp
-public void NodeXPathNavigator()
 {
     Document doc = new Document();
     XPathNavigator navigator = doc.CreateNavigator();
@@ -46,7 +45,6 @@ public void NodeXPathNavigator()
         StringBuilder stringBuilder = new StringBuilder();
         MapDocument(navigator, stringBuilder, 0);
         Console.Write(stringBuilder.ToString());
-    }
 }
 
 /// <summary>

@@ -14,7 +14,7 @@ Collection of revision groups.
 public RevisionGroupCollection Groups { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to work with a document's collection of revisions.
 

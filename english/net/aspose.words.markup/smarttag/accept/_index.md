@@ -22,7 +22,7 @@ public override bool Accept(DocumentVisitor visitor)
 
 True if all nodes were visited; false if DocumentVisitor stopped the operation before visiting all nodes.
 
-### Remarks
+## Remarks
 
 Enumerates over this node and all of its children. Each node calls a corresponding method on DocumentVisitor.
 
@@ -30,7 +30,7 @@ For more info see the Visitor design pattern.
 
 Calls [`VisitSmartTagStart`](../../../aspose.words/documentvisitor/visitsmarttagstart), then calls [`Accept`](../../../aspose.words/node/accept) for all child nodes of the smart tag and calls [`VisitSmartTagEnd`](../../../aspose.words/documentvisitor/visitsmarttagend) at the end.
 
-### Examples
+## Examples
 
 Shows how to create smart tags.
 

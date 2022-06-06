@@ -14,7 +14,7 @@ Removes all [`ChartSeries`](../../chartseries) from this collection.
 public void Clear()
 ```
 
-### Examples
+## Examples
 
 Shows how to add and remove series data in a chart.
 

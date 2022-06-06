@@ -14,13 +14,13 @@ Determines how bookmarks in headers/footers are exported.
 public HeaderFooterBookmarksExportMode HeaderFooterBookmarksExportMode { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 The default value is All.
 
 This property is used in conjunction with the [`OutlineOptions`](../outlineoptions) option.
 
-### Examples
+## Examples
 
 Shows to process bookmarks in headers/footers in a document that we are rendering to PDF.
 

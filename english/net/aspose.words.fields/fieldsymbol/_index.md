@@ -53,11 +53,11 @@ public class FieldSymbol : Field
 | [Update](../../aspose.words.fields/field/update)() | Performs the field update. Throws if the field is being updated already. |
 | [Update](../../aspose.words.fields/field/update)(bool) | Performs a field update. Throws if the field is being updated already. |
 
-### Remarks
+## Remarks
 
 Retrieves the character whose code point value is specified in decimal or hexadecimal.
 
-### Examples
+## Examples
 
 Shows how to use the SYMBOL field.
 

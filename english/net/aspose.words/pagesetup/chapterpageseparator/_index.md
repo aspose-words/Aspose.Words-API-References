@@ -14,7 +14,7 @@ Gets or sets the separator character that appears between the chapter number and
 public ChapterPageSeparator ChapterPageSeparator { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 Before you can create page numbers that include chapter numbers, the document headings must have a numbered outline format applied.
 

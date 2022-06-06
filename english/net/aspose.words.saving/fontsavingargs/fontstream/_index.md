@@ -14,18 +14,17 @@ Allows to specify the stream where the font will be saved to.
 public Stream FontStream { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 This property allows you to save fonts to streams instead of files during HTML export.
 
 The default value is `null`. When this property is `null`, the font will be saved to a file specified in the [`FontFileName`](../fontfilename) property.
 
-### Examples
+## Examples
 
 Shows how to define custom logic for exporting fonts when saving to HTML.
 
 ```csharp
-public void SaveExportedFonts()
 {
     Document doc = new Document(MyDir + "Rendering.docx");
 
@@ -44,8 +43,6 @@ public void SaveExportedFonts()
     {
         Console.WriteLine(fontFilename);
     }
-
-}
 
 /// <summary>
 /// Prints information about exported fonts and saves them in the same local system folder as their output .html.

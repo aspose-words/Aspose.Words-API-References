@@ -14,7 +14,7 @@ Gets or sets a value indicating that the signer can add comments in the Sign dia
 public bool AllowComments { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to sign a document with a personal certificate and a signature line.
 

@@ -6,7 +6,7 @@ type: docs
 weight: 60
 url: /net/aspose.words.rendering/noderendererbase/getsizeinpixels/
 ---
-## GetSizeInPixels(float, float) {#getsizeinpixels}
+## NodeRendererBase.GetSizeInPixels method (1 of 2)
 
 Calculates the size of the shape in pixels for a specified zoom factor and resolution.
 
@@ -23,11 +23,11 @@ public Size GetSizeInPixels(float scale, float dpi)
 
 The size of the shape in pixels.
 
-### Remarks
+## Remarks
 
 This method converts [`SizeInPoints`](../sizeinpoints) into size in pixels and it is useful when you want to create a bitmap for rendering the shape neatly onto the bitmap.
 
-### Examples
+## Examples
 
 Shows how to measure and scale shapes.
 
@@ -79,7 +79,7 @@ Assert.AreEqual(30, bounds.Height);
 
 ---
 
-## GetSizeInPixels(float, float, float) {#getsizeinpixels_1}
+## NodeRendererBase.GetSizeInPixels method (2 of 2)
 
 Calculates the size of the shape in pixels for a specified zoom factor and resolution.
 
@@ -97,11 +97,11 @@ public Size GetSizeInPixels(float scale, float horizontalDpi, float verticalDpi)
 
 The size of the shape in pixels.
 
-### Remarks
+## Remarks
 
 This method converts [`SizeInPoints`](../sizeinpoints) into size in pixels and it is useful when you want to create a bitmap for rendering the shape neatly onto the bitmap.
 
-### Examples
+## Examples
 
 Shows how to measure and scale shapes.
 

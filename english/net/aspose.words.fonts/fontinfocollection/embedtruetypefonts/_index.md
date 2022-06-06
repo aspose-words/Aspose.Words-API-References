@@ -14,13 +14,13 @@ Specifies whether or not to embed TrueType fonts in a document when it is saved.
 public bool EmbedTrueTypeFonts { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 Embedding TrueType fonts allows others to view the document with the same fonts that were used to create it, but may substantially increase the document size.
 
 This option works for DOC, DOCX and RTF formats only.
 
-### Examples
+## Examples
 
 Shows how to save a document with embedded TrueType fonts.
 

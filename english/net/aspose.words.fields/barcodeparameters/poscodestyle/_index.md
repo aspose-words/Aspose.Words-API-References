@@ -14,7 +14,7 @@ Style of a Point of Sale barcode (barcode types UPCA&#x7C;UPCE&#x7C;EAN13&#x7C;E
 public string PosCodeStyle { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to use a barcode generator.
 

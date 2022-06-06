@@ -18,8 +18,8 @@ public class XamlFlowSaveOptions : SaveOptions
 
 | Name | Description |
 | --- | --- |
-| [XamlFlowSaveOptions](xamlflowsaveoptions#constructor)() | Initializes a new instance of this class that can be used to save a document in the XamlFlow format. |
-| [XamlFlowSaveOptions](xamlflowsaveoptions#constructor_1)(SaveFormat) | Initializes a new instance of this class that can be used to save a document in the XamlFlow or XamlFlowPack format. |
+| [XamlFlowSaveOptions](xamlflowsaveoptions)() | Initializes a new instance of this class that can be used to save a document in the XamlFlow format. |
+| [XamlFlowSaveOptions](xamlflowsaveoptions)(SaveFormat) | Initializes a new instance of this class that can be used to save a document in the XamlFlow or XamlFlowPack format. |
 
 ## Properties
 
@@ -50,12 +50,11 @@ public class XamlFlowSaveOptions : SaveOptions
 | [UseAntiAliasing](../../aspose.words.saving/saveoptions/useantialiasing) { get; set; } | Gets or sets a value determining whether or not to use anti-aliasing for rendering. |
 | [UseHighQualityRendering](../../aspose.words.saving/saveoptions/usehighqualityrendering) { get; set; } | Gets or sets a value determining whether or not to use high quality (i.e. slow) rendering algorithms. |
 
-### Examples
+## Examples
 
 Shows how to print the filenames of linked images created while converting a document to flow-form .xaml.
 
 ```csharp
-public void ImageFolder()
 {
     Document doc = new Document(MyDir + "Rendering.docx");
 
@@ -85,7 +84,6 @@ public void ImageFolder()
 
     foreach (string resource in callback.Resources)
         Console.WriteLine($"{callback.ImagesFolderAlias}/{resource}");
-}
 
 /// <summary>
 /// Counts and prints filenames of images while their parent document is converted to flow-form .xaml.

@@ -14,11 +14,11 @@ Specifies the scaling value of the display units for the value axis.
 public AxisDisplayUnit DisplayUnit { get; }
 ```
 
-### Remarks
+## Remarks
 
 The property has effect only for value axes.
 
-### Examples
+## Examples
 
 Shows how to manipulate the tick marks and displayed values of a chart axis.
 
@@ -70,7 +70,6 @@ axis.DisplayUnit.Unit = AxisBuiltInUnit.Millions;
 // We can set a more specific value by which tick labels will display their values.
 // This statement is equivalent to the one above.
 axis.DisplayUnit.CustomUnit = 1000000;
-
 doc.Save(ArtifactsDir + "Charts.AxisDisplayUnit.docx");
 ```
 

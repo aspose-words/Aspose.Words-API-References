@@ -12,32 +12,32 @@ The **Aspose.Words.Fonts** namespace provides classes and enumerations to access
 
 | Class | Description |
 | --- | --- |
-| [DefaultFontSubstitutionRule](./defaultfontsubstitutionrule) | Default font substitution rule. |
-| [FileFontSource](./filefontsource) | Represents the single TrueType font file stored in the file system. |
-| [FolderFontSource](./folderfontsource) | Represents the folder that contains TrueType font files. |
-| [FontConfigSubstitutionRule](./fontconfigsubstitutionrule) | Font config substitution rule. |
-| [FontFallbackSettings](./fontfallbacksettings) | Specifies font fallback mechanism settings. |
-| [FontInfo](./fontinfo) | Specifies information about a font used in the document. |
-| [FontInfoCollection](./fontinfocollection) | Represents a collection of fonts used in a document. |
-| [FontInfoSubstitutionRule](./fontinfosubstitutionrule) | Font info substitution rule. |
-| [FontNameSubstitutionRule](./fontnamesubstitutionrule) | Font substitution rule for processing font name. |
-| [FontSettings](./fontsettings) | Specifies font settings for a document. |
-| [FontSourceBase](./fontsourcebase) | This is an abstract base class for the classes that allow the user to specify various font sources. |
-| [FontSubstitutionRule](./fontsubstitutionrule) | This is an abstract base class for the font substitution rule. |
-| [FontSubstitutionSettings](./fontsubstitutionsettings) | Specifies font substitution mechanism settings. |
-| [MemoryFontSource](./memoryfontsource) | Represents the single TrueType font file stored in memory. |
-| [PhysicalFontInfo](./physicalfontinfo) | Specifies information about physical font available to Aspose.Words font engine. |
-| [StreamFontSource](./streamfontsource) | Base class for user-defined stream font source. |
-| [SystemFontSource](./systemfontsource) | Represents all TrueType fonts installed to the system. |
-| [TableSubstitutionRule](./tablesubstitutionrule) | Table font substitution rule. |
+| class [DefaultFontSubstitutionRule](./defaultfontsubstitutionrule) | Default font substitution rule. |
+| class [FileFontSource](./filefontsource) | Represents the single TrueType font file stored in the file system. |
+| class [FolderFontSource](./folderfontsource) | Represents the folder that contains TrueType font files. |
+| class [FontConfigSubstitutionRule](./fontconfigsubstitutionrule) | Font config substitution rule. |
+| class [FontFallbackSettings](./fontfallbacksettings) | Specifies font fallback mechanism settings. |
+| class [FontInfo](./fontinfo) | Specifies information about a font used in the document. |
+| class [FontInfoCollection](./fontinfocollection) | Represents a collection of fonts used in a document. |
+| class [FontInfoSubstitutionRule](./fontinfosubstitutionrule) | Font info substitution rule. |
+| class [FontNameSubstitutionRule](./fontnamesubstitutionrule) | Font substitution rule for processing font name. |
+| class [FontSettings](./fontsettings) | Specifies font settings for a document. |
+| abstract class [FontSourceBase](./fontsourcebase) | This is an abstract base class for the classes that allow the user to specify various font sources. |
+| abstract class [FontSubstitutionRule](./fontsubstitutionrule) | This is an abstract base class for the font substitution rule. |
+| class [FontSubstitutionSettings](./fontsubstitutionsettings) | Specifies font substitution mechanism settings. |
+| class [MemoryFontSource](./memoryfontsource) | Represents the single TrueType font file stored in memory. |
+| class [PhysicalFontInfo](./physicalfontinfo) | Specifies information about physical font available to Aspose.Words font engine. |
+| abstract class [StreamFontSource](./streamfontsource) | Base class for user-defined stream font source. |
+| class [SystemFontSource](./systemfontsource) | Represents all TrueType fonts installed to the system. |
+| class [TableSubstitutionRule](./tablesubstitutionrule) | Table font substitution rule. |
 ## Enumeration
 
 | Enumeration | Description |
 | --- | --- |
-| [EmbeddedFontFormat](./embeddedfontformat) | Specifies format of particular embedded font inside [`FontInfo`](../aspose.words.fonts/fontinfo) object. |
-| [EmbeddedFontStyle](./embeddedfontstyle) | Specifies the style of an embedded font inside a [`FontInfo`](../aspose.words.fonts/fontinfo) object. |
-| [FontFamily](./fontfamily) | Represents the font family. |
-| [FontPitch](./fontpitch) | Represents the font pitch. |
-| [FontSourceType](./fontsourcetype) | Specifies the type of a font source. |
+| enum [EmbeddedFontFormat](./embeddedfontformat) | Specifies format of particular embedded font inside [`FontInfo`](../aspose.words.fonts/fontinfo) object. |
+| enum [EmbeddedFontStyle](./embeddedfontstyle) | Specifies the style of an embedded font inside a [`FontInfo`](../aspose.words.fonts/fontinfo) object. |
+| enum [FontFamily](./fontfamily) | Represents the font family. |
+| enum [FontPitch](./fontpitch) | Represents the font pitch. |
+| enum [FontSourceType](./fontsourcetype) | Specifies the type of a font source. |
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

@@ -24,10 +24,10 @@ public class License
 
 | Name | Description |
 | --- | --- |
-| [SetLicense](../../aspose.words/license/setlicense#setlicense)(Stream) | Licenses the component. |
-| [SetLicense](../../aspose.words/license/setlicense#setlicense_1)(string) | Licenses the component. |
+| [SetLicense](../../aspose.words/license/setlicense)(Stream) | Licenses the component. |
+| [SetLicense](../../aspose.words/license/setlicense)(string) | Licenses the component. |
 
-### Examples
+## Examples
 
 Shows how initialize a license for Aspose.Words using a license file in the local file system.
 

@@ -18,7 +18,7 @@ public void Remove(Field field)
 | --- | --- | --- |
 | field | Field | A field to remove. |
 
-### Examples
+## Examples
 
 Shows how to remove fields from a field collection.
 

@@ -18,7 +18,7 @@ public void MoveTo(Node node)
 | --- | --- | --- |
 | node | Node | The node must be a paragraph or a direct child of a paragraph. |
 
-### Remarks
+## Remarks
 
 When node is an inline-level node, the cursor is moved to this node and further content will be inserted before that node.
 
@@ -26,7 +26,7 @@ When node is a **Paragraph**, the cursor is moved to the end of the paragraph an
 
 When node is a block-level node but not a Paragraph, the cursor is moved to the end of the first paragraph into block-level node and further content will be inserted just before the paragraph break.
 
-### Examples
+## Examples
 
 Shows how to move a DocumentBuilder's cursor position to a specified node.
 
@@ -41,8 +41,6 @@ builder.Writeln("Run 1. ");
 // and it also always ends up immediately after any node that the builder just inserted.
 // To append content to a different part of the document,
 // we can move the cursor to a different node with the "MoveTo" method.
-builder.MoveTo(doc.FirstSection.Body.FirstParagraph.Runs[0]);
-
 // The cursor is now in front of the node that we moved it to.
 // Adding a second run will insert it in front of the first run.
 builder.Writeln("Run 2. ");

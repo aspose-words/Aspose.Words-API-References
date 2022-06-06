@@ -14,7 +14,7 @@ Gets the text of this paragraph including the end of paragraph character.
 public override string GetText()
 ```
 
-### Remarks
+## Remarks
 
 The text of all child nodes is concatenated and the end of paragraph character is appended as follows:
 
@@ -24,7 +24,7 @@ The text of all child nodes is concatenated and the end of paragraph character i
 
 The returned string includes all control and special characters as described in [`ControlChar`](../../controlchar).
 
-### Examples
+## Examples
 
 Shows how to add, update and delete child nodes in a CompositeNode's collection of children.
 

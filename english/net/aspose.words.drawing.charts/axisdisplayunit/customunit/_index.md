@@ -14,13 +14,13 @@ Gets or sets a user-defined divisor to scale display units on the value axis.
 public double CustomUnit { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 The property is not supported by MS Office 2016 new charts. Default value is 1.
 
 Setting this property sets the [`Unit`](../unit) property to Custom.
 
-### Examples
+## Examples
 
 Shows how to manipulate the tick marks and displayed values of a chart axis.
 
@@ -72,7 +72,6 @@ axis.DisplayUnit.Unit = AxisBuiltInUnit.Millions;
 // We can set a more specific value by which tick labels will display their values.
 // This statement is equivalent to the one above.
 axis.DisplayUnit.CustomUnit = 1000000;
-
 doc.Save(ArtifactsDir + "Charts.AxisDisplayUnit.docx");
 ```
 

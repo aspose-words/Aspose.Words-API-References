@@ -14,7 +14,7 @@ Gets or sets the number of points by which the text that follows the field shoul
 public string VerticalPosition { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to insert an ADVANCE field, and edit its properties.
 

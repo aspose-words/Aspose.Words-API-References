@@ -14,12 +14,11 @@ Specifies the settings for the data labels for the entire series.
 public ChartDataLabelCollection DataLabels { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to apply labels to data points in a line chart.
 
 ```csharp
-public void DataLabels()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);

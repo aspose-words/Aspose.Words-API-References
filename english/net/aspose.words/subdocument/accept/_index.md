@@ -22,13 +22,13 @@ public override bool Accept(DocumentVisitor visitor)
 
 True if all nodes were visited; false if DocumentVisitor stopped the operation before visiting all nodes.
 
-### Remarks
+## Remarks
 
 Enumerates over this node and all of its children. Each node calls a corresponding method on DocumentVisitor.
 
 For more info see the Visitor design pattern.
 
-### Examples
+## Examples
 
 Shows how to use a document visitor to print a document's node structure.
 

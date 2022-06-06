@@ -14,7 +14,7 @@ Gets or sets the color that's applied to the foreground of the Shading object.
 public Color ForegroundPatternColor { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to decorate text with borders and shading.
 

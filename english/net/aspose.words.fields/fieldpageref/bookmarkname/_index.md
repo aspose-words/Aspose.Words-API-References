@@ -14,7 +14,7 @@ Gets or sets the name of the bookmark.
 public string BookmarkName { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows to insert PAGEREF fields to display the relative location of bookmarks.
 
@@ -51,7 +51,6 @@ public void FieldPageRef()
 
     doc.UpdateFields();
     doc.Save(ArtifactsDir + "Field.PAGEREF.docx");
-}
 
 /// <summary>
 /// Uses a document builder to insert a PAGEREF field and sets its properties.

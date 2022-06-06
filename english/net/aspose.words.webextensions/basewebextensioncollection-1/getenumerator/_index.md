@@ -14,7 +14,7 @@ Returns an enumerator that can iterate through a collection.
 public IEnumerator<T> GetEnumerator()
 ```
 
-### Examples
+## Examples
 
 Shows how to work with a document's collection of web extensions.
 

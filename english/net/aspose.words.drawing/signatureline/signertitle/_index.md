@@ -14,7 +14,7 @@ Gets or sets suggested signer's title (for example, Manager). Default value for 
 public string SignerTitle { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to create a line for a signature and insert it into a document.
 

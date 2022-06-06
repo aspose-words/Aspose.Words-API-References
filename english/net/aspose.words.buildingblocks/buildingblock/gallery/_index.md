@@ -14,13 +14,13 @@ Specifies the first-level categorization for the building block for the purposes
 public BuildingBlockGallery Gallery { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 Building blocks in Microsoft Word user interface are arranged into Galleries. Each `Gallery` can have multiple Categories. Each block within a [`Category`](../category) has a [`Name`](../name).
 
 Corresponds to the **docPartPr.category.gallery** element in OOXML.
 
-### Examples
+## Examples
 
 Shows how to add a custom building block to a document.
 

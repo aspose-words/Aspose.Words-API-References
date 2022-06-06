@@ -14,7 +14,7 @@ Resets page setup to default paper size, margins and orientation.
 public void ClearFormatting()
 ```
 
-### Examples
+## Examples
 
 Shows how to apply and revert page setup settings to sections in a document.
 

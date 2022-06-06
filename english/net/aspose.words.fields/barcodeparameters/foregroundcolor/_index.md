@@ -14,7 +14,7 @@ Bar code foreground color (0x000000 - 0xFFFFFF)
 public string ForegroundColor { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to use a barcode generator.
 

@@ -6,7 +6,7 @@ type: docs
 weight: 540
 url: /net/aspose.words/document/compare/
 ---
-## Compare(Document, string, DateTime) {#compare}
+## Document.Compare method (1 of 2)
 
 Compares this document with another document producing changes as number of edit and format revisions [`Revision`](../../revision).
 
@@ -20,7 +20,7 @@ public void Compare(Document document, string author, DateTime dateTime)
 | author | String | Initials of the author to use for revisions. |
 | dateTime | DateTime | The date and time to use for revisions. |
 
-### Remarks
+## Remarks
 
 The following document nodes are not compared at the moment:
 
@@ -29,7 +29,7 @@ The following document nodes are not compared at the moment:
 
 Documents must not have revisions before comparison.
 
-### Examples
+## Examples
 
 Shows how to compare documents.
 
@@ -48,7 +48,6 @@ if (docOriginal.Revisions.Count == 0 && docEdited.Revisions.Count == 0)
 
 // After the comparison, the original document will gain a new revision
 // for every element that is different in the edited document.
-foreach (Revision r in docOriginal.Revisions)
 {
     Console.WriteLine($"Revision type: {r.RevisionType}, on a node of type \"{r.ParentNode.NodeType}\"");
     Console.WriteLine($"\tChanged text: \"{r.ParentNode.GetText()}\"");
@@ -68,7 +67,7 @@ Assert.AreEqual(docOriginal.GetText(), docEdited.GetText());
 
 ---
 
-## Compare(Document, string, DateTime, CompareOptions) {#compare_1}
+## Document.Compare method (2 of 2)
 
 Compares this document with another document producing changes as a number of edit and format revisions [`Revision`](../../revision). Allows to specify comparison options using [`CompareOptions`](../../../aspose.words.comparing/compareoptions).
 
@@ -76,7 +75,7 @@ Compares this document with another document producing changes as a number of ed
 public void Compare(Document document, string author, DateTime dateTime, CompareOptions options)
 ```
 
-### Examples
+## Examples
 
 Shows how to filter specific types of document elements when making a comparison.
 

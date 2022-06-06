@@ -46,16 +46,15 @@ public class FieldNext : Field
 | [Update](../../aspose.words.fields/field/update)() | Performs the field update. Throws if the field is being updated already. |
 | [Update](../../aspose.words.fields/field/update)(bool) | Performs a field update. Throws if the field is being updated already. |
 
-### Remarks
+## Remarks
 
 Merges the next data record into the current resulting merged document, rather than starting a new merged document.
 
-### Examples
+## Examples
 
 Shows how to use NEXT/NEXTIF fields to merge multiple rows into one page during a mail merge.
 
 ```csharp
-public void FieldNext()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -104,7 +103,6 @@ public void FieldNext()
     // Our data source has 3 rows, and we skipped rows twice. 
     // Our output document will have 1 page with data from all 3 rows.
     doc.Save(ArtifactsDir + "Field.NEXT.NEXTIF.docx");
-}
 
 /// <summary>
 /// Uses a document builder to insert MERGEFIELDs for a data source that contains columns named "Courtesy Title", "First Name" and "Last Name".

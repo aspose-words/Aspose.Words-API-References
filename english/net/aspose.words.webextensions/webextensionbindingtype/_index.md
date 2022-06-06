@@ -23,7 +23,7 @@ public enum WebExtensionBindingType
 | Text | `2` | Plain text. |
 | Default | `0` |  |
 
-### Examples
+## Examples
 
 Shows how to add a web extension to a document.
 

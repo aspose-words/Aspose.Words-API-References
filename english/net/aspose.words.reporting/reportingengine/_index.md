@@ -32,9 +32,9 @@ public class ReportingEngine
 
 | Name | Description |
 | --- | --- |
-| [BuildReport](../../aspose.words.reporting/reportingengine/buildreport#buildreport)(Document, object) | Populates the specified template document with data from the specified source making it a ready report. |
-| [BuildReport](../../aspose.words.reporting/reportingengine/buildreport#buildreport_1)(Document, object, string) | Populates the specified template document with data from the specified source making it a ready report. |
-| [BuildReport](../../aspose.words.reporting/reportingengine/buildreport#buildreport_2)(Document, object[], string[]) | Populates the specified template document with data from the specified sources making it a ready report. |
+| [BuildReport](../../aspose.words.reporting/reportingengine/buildreport)(Document, object) | Populates the specified template document with data from the specified source making it a ready report. |
+| [BuildReport](../../aspose.words.reporting/reportingengine/buildreport)(Document, object, string) | Populates the specified template document with data from the specified source making it a ready report. |
+| [BuildReport](../../aspose.words.reporting/reportingengine/buildreport)(Document, object[], string[]) | Populates the specified template document with data from the specified sources making it a ready report. |
 | [Equals](../../aspose.words.reporting/reportingengine/equals)(object) |  |
 | [GetHashCode](../../aspose.words.reporting/reportingengine/gethashcode)() |  |
 

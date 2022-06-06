@@ -14,11 +14,11 @@ Allows to specify whether bubble size is to be displayed for the data labels of 
 public bool ShowBubbleSize { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 Value defined for this property can be overridden for an individual data label with using the [`ShowBubbleSize`](../../chartdatalabel/showbubblesize) property.
 
-### Examples
+## Examples
 
 Shows how to work with data labels of a bubble chart.
 

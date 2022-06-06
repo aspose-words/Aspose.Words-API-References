@@ -14,11 +14,11 @@ Gets the text to display in the run content in place of the [`Value`](../value) 
 public string DisplayText { get; }
 ```
 
-### Remarks
+## Remarks
 
 Cannot be null and cannot be an empty string.
 
-### Examples
+## Examples
 
 Shows how to work with drop down-list structured document tags.
 

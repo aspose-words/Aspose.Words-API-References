@@ -22,18 +22,17 @@ public override bool Accept(DocumentVisitor visitor)
 
 **False** if the visitor requested the enumeration to stop.
 
-### Remarks
+## Remarks
 
 Calls [`VisitFieldStart`](../../../aspose.words/documentvisitor/visitfieldstart).
 
 For more info see the Visitor design pattern.
 
-### Examples
+## Examples
 
 Shows how to work with a collection of fields.
 
 ```csharp
-public void FieldCollection()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -72,7 +71,6 @@ public void FieldCollection()
     }
 
     Console.WriteLine(fieldVisitor.GetText());
-}
 
 /// <summary>
 /// Document visitor implementation that prints field info.

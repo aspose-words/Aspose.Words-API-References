@@ -23,7 +23,7 @@ public DocumentProperty AddLinkToContent(string name, string linkSource)
 
 The newly created property object or null when the linkSource is invalid.
 
-### Examples
+## Examples
 
 Shows how to link a custom document property to a bookmark.
 

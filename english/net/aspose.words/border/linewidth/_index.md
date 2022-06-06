@@ -14,11 +14,11 @@ Gets or sets the border width in points.
 public double LineWidth { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 If you set line width greater than zero when line style is none, the line style is automatically changed to single line.
 
-### Examples
+## Examples
 
 Shows how to insert a string surrounded by a border into a document.
 

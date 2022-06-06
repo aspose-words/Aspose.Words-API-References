@@ -14,7 +14,7 @@ Provides access to the paragraph formatting properties.
 public ParagraphFormat ParagraphFormat { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to construct an Aspose.Words document by hand.
 

@@ -18,12 +18,12 @@ public class CsvDataSource
 
 | Name | Description |
 | --- | --- |
-| [CsvDataSource](csvdatasource#constructor)(Stream) | Creates a new data source with data from a CSV stream using default options for parsing CSV data. |
-| [CsvDataSource](csvdatasource#constructor_2)(string) | Creates a new data source with data from a CSV file using default options for parsing CSV data. |
-| [CsvDataSource](csvdatasource#constructor_1)(Stream, CsvDataLoadOptions) | Creates a new data source with data from a CSV stream using the specified options for parsing CSV data. |
-| [CsvDataSource](csvdatasource#constructor_3)(string, CsvDataLoadOptions) | Creates a new data source with data from a CSV file using the specified options for parsing CSV data. |
+| [CsvDataSource](csvdatasource)(Stream) | Creates a new data source with data from a CSV stream using default options for parsing CSV data. |
+| [CsvDataSource](csvdatasource)(string) | Creates a new data source with data from a CSV file using default options for parsing CSV data. |
+| [CsvDataSource](csvdatasource)(Stream, CsvDataLoadOptions) | Creates a new data source with data from a CSV stream using the specified options for parsing CSV data. |
+| [CsvDataSource](csvdatasource)(string, CsvDataLoadOptions) | Creates a new data source with data from a CSV file using the specified options for parsing CSV data. |
 
-### Remarks
+## Remarks
 
 To access data of the corresponding file or stream while generating a report, pass an instance of this class as a data source to one of [`ReportingEngine`](../reportingengine).BuildReport overloads.
 

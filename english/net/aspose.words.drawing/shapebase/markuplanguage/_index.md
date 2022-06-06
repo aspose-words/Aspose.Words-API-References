@@ -14,7 +14,7 @@ Gets MarkupLanguage used for this graphic object.
 public ShapeMarkupLanguage MarkupLanguage { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to verify a shape's size and markup language.
 

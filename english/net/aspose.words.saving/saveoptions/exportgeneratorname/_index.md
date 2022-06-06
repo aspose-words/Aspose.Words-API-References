@@ -14,7 +14,7 @@ When true, causes the name and version of Aspose.Words to be embedded into produ
 public bool ExportGeneratorName { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to disable adding name and version of Aspose.Words into produced files.
 

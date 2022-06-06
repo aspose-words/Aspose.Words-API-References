@@ -14,7 +14,7 @@ Moves to the first child entity.
 public bool MoveFirstChild()
 ```
 
-### Examples
+## Examples
 
 Shows ways of traversing a document's layout entities.
 

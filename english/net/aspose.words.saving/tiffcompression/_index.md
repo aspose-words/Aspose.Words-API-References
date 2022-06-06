@@ -24,7 +24,7 @@ public enum TiffCompression
 | Ccitt3 | `3` | Specifies the CCITT3 compression scheme. |
 | Ccitt4 | `4` | Specifies the CCITT4 compression scheme. |
 
-### Examples
+## Examples
 
 Shows how to select the compression scheme to apply to a document that we convert into a TIFF image.
 
@@ -54,7 +54,7 @@ Document doc = new Document();
                     Assert.That(3000000, Is.LessThan(new FileInfo(ArtifactsDir + "ImageSaveOptions.TiffImageCompression.tiff").Length));
                     break;
                 case TiffCompression.Rle:
-#if NET5_0
+#if NET5_0_OR_GREATER
                     Assert.That(6000, Is.LessThan(new FileInfo(ArtifactsDir + "ImageSaveOptions.TiffImageCompression.tiff").Length));
 #else
                     Assert.That(600000, Is.LessThan(new FileInfo(ArtifactsDir + "ImageSaveOptions.TiffImageCompression.tiff").Length));

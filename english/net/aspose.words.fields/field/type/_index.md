@@ -14,7 +14,7 @@ Gets the Microsoft Word field type.
 public virtual FieldType Type { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to insert a field into a document using a field code.
 

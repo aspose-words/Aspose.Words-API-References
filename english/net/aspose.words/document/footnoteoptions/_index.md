@@ -14,7 +14,7 @@ Provides options that control numbering and positioning of footnotes in this doc
 public FootnoteOptions FootnoteOptions { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to select a different place where the document collects and displays its footnotes.
 

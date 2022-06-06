@@ -14,7 +14,7 @@ Gets or sets a [`GradientStop`](../../gradientstop) object in the collection.
 public GradientStop this[int index] { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to add gradient stops to the gradient fill.
 

@@ -14,7 +14,7 @@ Specifies font name for ComplexScript characters.
 public string ComplexScript { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to set custom colors and fonts for themes.
 

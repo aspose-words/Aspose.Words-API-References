@@ -14,7 +14,7 @@ Gets or sets a location in the file, such as a bookmark, where this hyperlink ju
 public string SubAddress { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to use HYPERLINK fields to link to documents in the local file system.
 

@@ -14,11 +14,11 @@ Adds a node to the argument.
 public FieldArgumentBuilder AddNode(Inline node)
 ```
 
-### Remarks
+## Remarks
 
 Only text level nodes are supported at the moment.
 
-### Examples
+## Examples
 
 Shows how to construct fields using a field builder, and then insert them into the document.
 

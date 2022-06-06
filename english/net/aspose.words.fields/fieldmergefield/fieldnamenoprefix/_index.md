@@ -14,7 +14,7 @@ Returns just the name of the data field. Any prefix is stripped to the prefix pr
 public string FieldNameNoPrefix { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to use MERGEFIELD fields to perform a mail merge.
 

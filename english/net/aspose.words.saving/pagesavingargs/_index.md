@@ -29,7 +29,7 @@ public class PageSavingArgs
 | [PageIndex](../../aspose.words.saving/pagesavingargs/pageindex) { get; } | Current page index. |
 | [PageStream](../../aspose.words.saving/pagesavingargs/pagestream) { get; set; } | Allows to specify the stream where the document page will be saved to. |
 
-### Examples
+## Examples
 
 Shows how to use a callback to save a document to HTML page by page.
 

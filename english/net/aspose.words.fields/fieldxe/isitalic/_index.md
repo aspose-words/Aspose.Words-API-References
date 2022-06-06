@@ -14,7 +14,7 @@ Gets or sets whether to apply italic formatting to the entry's page number.
 public bool IsItalic { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to populate an INDEX field with entries using XE fields, and also modify its appearance.
 

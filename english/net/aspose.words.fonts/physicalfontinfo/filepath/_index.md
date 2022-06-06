@@ -14,7 +14,7 @@ Path to the font file if any.
 public string FilePath { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to list available fonts.
 

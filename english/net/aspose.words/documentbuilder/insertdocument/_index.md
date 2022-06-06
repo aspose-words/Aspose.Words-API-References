@@ -6,7 +6,7 @@ type: docs
 weight: 290
 url: /net/aspose.words/documentbuilder/insertdocument/
 ---
-## InsertDocument(Document, ImportFormatMode) {#insertdocument}
+## DocumentBuilder.InsertDocument method (1 of 2)
 
 Inserts a document at the cursor position.
 
@@ -23,11 +23,11 @@ public Node InsertDocument(Document srcDoc, ImportFormatMode importFormatMode)
 
 First node of the inserted content.
 
-### Remarks
+## Remarks
 
 This method mimics the MS Word behavior, as if CTRL+'A' (select all content) was pressed, then CTRL+'C' (copy selected into the buffer) inside one document and then CTRL+'V' (insert content from the buffer) inside another document.
 
-### Examples
+## Examples
 
 Shows how to insert a document into another document.
 
@@ -55,7 +55,7 @@ builder.Document.Save(ArtifactsDir + "DocumentBuilder.InsertDocument.docx");
 
 ---
 
-## InsertDocument(Document, ImportFormatMode, ImportFormatOptions) {#insertdocument_1}
+## DocumentBuilder.InsertDocument method (2 of 2)
 
 Inserts a document at the cursor position.
 
@@ -74,11 +74,11 @@ public Node InsertDocument(Document srcDoc, ImportFormatMode importFormatMode,
 
 First node of the inserted content.
 
-### Remarks
+## Remarks
 
 This method mimics the MS Word behavior, as if CTRL+'A' (select all content) was pressed, then CTRL+'C' (copy selected into the buffer) inside one document and then CTRL+'V' (insert content from the buffer) inside another document.
 
-### Examples
+## Examples
 
 Shows how to resolve duplicate styles while inserting documents.
 

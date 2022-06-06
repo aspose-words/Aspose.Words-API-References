@@ -14,7 +14,7 @@ Allows to specify whether the CSS will be exported to file and embedded to HTML 
 public bool IsExportNeeded { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to work with CSS stylesheets that an HTML conversion creates.
 

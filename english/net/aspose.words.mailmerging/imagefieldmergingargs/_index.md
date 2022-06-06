@@ -32,7 +32,7 @@ public class ImageFieldMergingArgs : FieldMergingArgsBase
 | [Shape](../../aspose.words.mailmerging/imagefieldmergingargs/shape) { get; set; } | Specifies the shape that the mail merge engine must insert into the document. |
 | [TableName](../../aspose.words.mailmerging/fieldmergingargsbase/tablename) { get; } | Gets the name of the data table for the current merge operation or empty string if the name is not available. |
 
-### Remarks
+## Remarks
 
 This event occurs during mail merge when an image mail merge field is encountered in the document. You can respond to this event to return a file name, stream, or an Image object to the mail merge engine so it is inserted into the document.
 
@@ -40,7 +40,7 @@ There are three properties available [`ImageFileName`](./imagefilename), [`Image
 
 To insert an image mail merge field into a document in Word, select Insert/Field command, then select MergeField and type Image:MyFieldName.
 
-### Examples
+## Examples
 
 Shows how to insert images stored in a database BLOB field into a report.
 
@@ -89,7 +89,6 @@ private class HandleMergeImageFieldFromBlob : IFieldMergingCallback
 Shows how to set the dimensions of images as MERGEFIELDS accepts them during a mail merge.
 
 ```csharp
-public void MergeFieldImageDimension()
 {
     Document doc = new Document();
 
@@ -114,7 +113,6 @@ public void MergeFieldImageDimension()
 
     doc.UpdateFields();
     doc.Save(ArtifactsDir + "Field.MERGEFIELD.ImageDimension.docx");
-}
 
 /// <summary>
 /// Sets the size of all mail merged images to one defined width and height.

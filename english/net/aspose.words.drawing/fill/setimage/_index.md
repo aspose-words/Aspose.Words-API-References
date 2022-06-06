@@ -6,7 +6,7 @@ type: docs
 weight: 190
 url: /net/aspose.words.drawing/fill/setimage/
 ---
-## SetImage(string) {#setimage_2}
+## Fill.SetImage method (1 of 3)
 
 Changes the fill type to single image.
 
@@ -18,6 +18,30 @@ public void SetImage(string fileName)
 | --- | --- | --- |
 | fileName | String | The path to the image file. |
 
+## Examples
+
+Shows how to set shape fill type as image.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+// There are several ways of setting image.
+Shape shape = builder.InsertShape(ShapeType.Rectangle, 80, 80);
+// 1 -  Using a local system filename:
+shape.Fill.SetImage(ImageDir + "Logo.jpg");
+doc.Save(ArtifactsDir + "Shape.FillImage.FileName.docx");
+
+// 2 -  Load a file into a byte array:
+shape.Fill.SetImage(File.ReadAllBytes(ImageDir + "Logo.jpg"));
+doc.Save(ArtifactsDir + "Shape.FillImage.ByteArray.docx");
+
+// 3 -  From a stream:
+using (FileStream stream = new FileStream(ImageDir + "Logo.jpg", FileMode.Open))
+    shape.Fill.SetImage(stream);
+doc.Save(ArtifactsDir + "Shape.FillImage.Stream.docx");
+```
+
 ### See Also
 
 * class [Fill](../../fill)
@@ -26,7 +50,7 @@ public void SetImage(string fileName)
 
 ---
 
-## SetImage(Stream) {#setimage_1}
+## Fill.SetImage method (2 of 3)
 
 Changes the fill type to single image.
 
@@ -46,7 +70,7 @@ public void SetImage(Stream stream)
 
 ---
 
-## SetImage(byte[]) {#setimage}
+## Fill.SetImage method (3 of 3)
 
 Changes the fill type to single image.
 

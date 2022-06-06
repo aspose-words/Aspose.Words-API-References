@@ -14,11 +14,11 @@ The number of milliseconds to wait before the web request times out. The default
 public int WebRequestTimeout { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 The number of milliseconds that Aspose.Words waits for a response, when loading external resources (images, style sheets) linked in HTML and MHTML documents.
 
-### Examples
+## Examples
 
 Shows how to set a time limit for web requests when loading a document with external resources linked by URLs.
 

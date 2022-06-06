@@ -14,7 +14,7 @@ Adds a module to the collection.
 public void Add(VbaModule vbaModule)
 ```
 
-### Examples
+## Examples
 
 Shows how to create a VBA project using macros.
 

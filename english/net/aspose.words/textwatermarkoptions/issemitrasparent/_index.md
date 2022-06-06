@@ -14,7 +14,7 @@ Gets or sets a boolean value which is responsible for opacity of the watermark. 
 public bool IsSemitrasparent { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to create a text watermark.
 

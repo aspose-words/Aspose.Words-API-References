@@ -14,11 +14,11 @@ Specifies how the PDF document should be displayed when opened in the PDF reader
 public PdfPageMode PageMode { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 The default value is UseOutlines.
 
-### Examples
+## Examples
 
 Shows how to set instructions for some PDF readers to follow when opening an output document.
 
@@ -40,6 +40,7 @@ PdfSaveOptions options = new PdfSaveOptions();
 // Set the "PageMode" property to "PdfPageMode.UseOutlines" to get the PDF reader
 // also to display the outline, if possible.
 // Set the "PageMode" property to "PdfPageMode.UseNone" to get the PDF reader to display just the document itself.
+// Set the "PageMode" property to "PdfPageMode.UseAttachments" to make visible attachments panel.
 options.PageMode = pageMode;
 
 doc.Save(ArtifactsDir + "PdfSaveOptions.PageMode.pdf", options);

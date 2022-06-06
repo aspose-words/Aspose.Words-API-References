@@ -18,12 +18,12 @@ public class JsonDataSource
 
 | Name | Description |
 | --- | --- |
-| [JsonDataSource](jsondatasource#constructor)(Stream) | Creates a new data source with data from a JSON stream using default options for parsing JSON data. |
-| [JsonDataSource](jsondatasource#constructor_2)(string) | Creates a new data source with data from a JSON file using default options for parsing JSON data. |
-| [JsonDataSource](jsondatasource#constructor_1)(Stream, JsonDataLoadOptions) | Creates a new data source with data from a JSON stream using the specified options for parsing JSON data. |
-| [JsonDataSource](jsondatasource#constructor_3)(string, JsonDataLoadOptions) | Creates a new data source with data from a JSON file using the specified options for parsing JSON data. |
+| [JsonDataSource](jsondatasource)(Stream) | Creates a new data source with data from a JSON stream using default options for parsing JSON data. |
+| [JsonDataSource](jsondatasource)(string) | Creates a new data source with data from a JSON file using default options for parsing JSON data. |
+| [JsonDataSource](jsondatasource)(Stream, JsonDataLoadOptions) | Creates a new data source with data from a JSON stream using the specified options for parsing JSON data. |
+| [JsonDataSource](jsondatasource)(string, JsonDataLoadOptions) | Creates a new data source with data from a JSON file using the specified options for parsing JSON data. |
 
-### Remarks
+## Remarks
 
 To access data of the corresponding file or stream while generating a report, pass an instance of this class as a data source to one of [`ReportingEngine`](../reportingengine).BuildReport overloads.
 

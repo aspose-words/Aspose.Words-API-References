@@ -22,7 +22,7 @@ public override bool Accept(DocumentVisitor visitor)
 
 True if all nodes were visited; false if DocumentVisitor stopped the operation before visiting all nodes.
 
-### Remarks
+## Remarks
 
 Enumerates over this node and all of its children. Each node calls a corresponding method on DocumentVisitor.
 
@@ -32,7 +32,7 @@ Calls [`VisitBuildingBlockStart`](../../../aspose.words/documentvisitor/visitbui
 
 Note: A building block node and its children are not visited when you execute a Visitor over a [`Document`](../../../aspose.words/document). If you want to execute a Visitor over a building block, you need to execute the visitor over [`GlossaryDocument`](../../glossarydocument) or call `Accept`.
 
-### Examples
+## Examples
 
 Shows how to add a custom building block to a document.
 

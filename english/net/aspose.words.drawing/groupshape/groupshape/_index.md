@@ -18,13 +18,13 @@ public GroupShape(DocumentBase doc)
 | --- | --- | --- |
 | doc | DocumentBase | The owner document. |
 
-### Remarks
+## Remarks
 
 By default, the shape is floating and has default location and size.
 
 You should specify desired shape properties after you created a shape.
 
-### Examples
+## Examples
 
 Shows how to create a group of shapes, and print its contents using a document visitor.
 

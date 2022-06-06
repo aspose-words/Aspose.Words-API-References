@@ -14,11 +14,11 @@ Gets or sets the form field name.
 public string Name { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 Microsoft Word allows strings with at most 20 characters.
 
-### Examples
+## Examples
 
 Shows how to insert a combo box.
 

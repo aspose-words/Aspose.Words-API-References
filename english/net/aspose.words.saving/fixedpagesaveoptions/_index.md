@@ -53,7 +53,7 @@ public abstract class FixedPageSaveOptions : SaveOptions
 | --- | --- |
 | override [Equals](../../aspose.words.saving/fixedpagesaveoptions/equals)(object) | Determines whether the specified object is equal in value to the current object. |
 
-### Examples
+## Examples
 
 Shows how to render every page of a document to a separate TIFF image.
 

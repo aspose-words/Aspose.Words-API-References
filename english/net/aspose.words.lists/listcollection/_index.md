@@ -26,13 +26,13 @@ public class ListCollection : IEnumerable<List>
 
 | Name | Description |
 | --- | --- |
-| [Add](../../aspose.words.lists/listcollection/add#add)(ListTemplate) | Creates a new list based on a predefined template and adds it to the collection of lists in the document. |
-| [Add](../../aspose.words.lists/listcollection/add#add_1)(Style) | Creates a new list that references a list style and adds it to the collection of lists in the document. |
+| [Add](../../aspose.words.lists/listcollection/add)(ListTemplate) | Creates a new list based on a predefined template and adds it to the collection of lists in the document. |
+| [Add](../../aspose.words.lists/listcollection/add)(Style) | Creates a new list that references a list style and adds it to the collection of lists in the document. |
 | [AddCopy](../../aspose.words.lists/listcollection/addcopy)(List) | Creates a new list by copying the specified list and adding it to the collection of lists in the document. |
 | [GetEnumerator](../../aspose.words.lists/listcollection/getenumerator)() | Gets the enumerator object that will enumerate lists in the document. |
 | [GetListByListId](../../aspose.words.lists/listcollection/getlistbylistid)(int) | Gets a list by a list identifier. |
 
-### Remarks
+## Remarks
 
 A list in a Microsoft Word document is a set of list formatting properties. The formatting of the lists is stored in the [`ListCollection`](../listcollection) collection separately from the paragraphs of text.
 
@@ -52,7 +52,7 @@ To simplify programming model, Aspose.Words hides the distinction between list a
 
 It is not possible to delete lists once they are created in the current version of Aspose.Words. This is similar to Microsoft Word where user does not have explicit control over list definitions.
 
-### Examples
+## Examples
 
 Shows how to create a document with a sample of all the lists from another document.
 

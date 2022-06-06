@@ -14,12 +14,11 @@ Gets or sets the name of the series, if name is not set explicitly it is generat
 public string Name { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to apply labels to data points in a line chart.
 
 ```csharp
-public void DataLabels()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);

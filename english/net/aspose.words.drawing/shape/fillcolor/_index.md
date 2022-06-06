@@ -14,13 +14,13 @@ Defines the brush color that fills the closed path of the shape.
 public Color FillColor { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 This is a shortcut to the Color property.
 
 The default value is White.
 
-### Examples
+## Examples
 
 Shows how to fill a shape with a solid color.
 

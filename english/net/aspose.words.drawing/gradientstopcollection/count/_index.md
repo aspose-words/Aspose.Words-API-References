@@ -14,7 +14,7 @@ Gets an integer value indicating the number of items in the collection.
 public int Count { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to add gradient stops to the gradient fill.
 

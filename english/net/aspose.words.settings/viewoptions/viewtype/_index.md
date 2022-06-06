@@ -14,11 +14,11 @@ Controls the view mode in Microsoft Word.
 public ViewType ViewType { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 Although Aspose.Words is able to read and write this option, its usage is application-specific. For example MS Word 2013 does not respect the value of this option.
 
-### Examples
+## Examples
 
 Shows how to set a custom zoom factor, which older versions of Microsoft Word will apply to a document upon loading.
 

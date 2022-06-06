@@ -14,13 +14,13 @@ Specifies how the text is wrapped around the shape.
 public WrapSide WrapSide { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 The default value is Both.
 
 Has effect only for top level shapes.
 
-### Examples
+## Examples
 
 Shows how to replace all textbox shapes with image shapes.
 

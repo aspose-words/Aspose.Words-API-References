@@ -14,11 +14,11 @@ Provides access to the list formatting properties of a paragraph style.
 public ListFormat ListFormat { get; }
 ```
 
-### Remarks
+## Remarks
 
 This property is only valid for paragraph styles. For other style types this property returns null.
 
-### Examples
+## Examples
 
 Shows how to create and use a paragraph style with list formatting.
 

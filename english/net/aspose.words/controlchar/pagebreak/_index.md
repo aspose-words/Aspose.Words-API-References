@@ -14,7 +14,7 @@ Page break character: "\x000c" or "\f". Note it has the same value as [`SectionB
 public static readonly string PageBreak;
 ```
 
-### Examples
+## Examples
 
 Shows how to add various control characters to a document.
 

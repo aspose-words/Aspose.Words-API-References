@@ -14,18 +14,17 @@ Identifies, by name, a captured group in the [`Match`](../match) that is to be r
 public string GroupName { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 When group name is null, [`GroupIndex`](../groupindex) is used to identify the group.
 
 Default is null.
 
-### Examples
+## Examples
 
 Shows how to apply a different font to new content via FindReplaceOptions.
 
 ```csharp
-public void ConvertNumbersToHexadecimal()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);

@@ -52,16 +52,15 @@ public class FieldTA : Field
 | [Update](../../aspose.words.fields/field/update)() | Performs the field update. Throws if the field is being updated already. |
 | [Update](../../aspose.words.fields/field/update)(bool) | Performs a field update. Throws if the field is being updated already. |
 
-### Remarks
+## Remarks
 
 Defines the text and page number for a table of authorities entry, which is used by a TOA field.
 
-### Examples
+## Examples
 
 Shows how to build and customize a table of authorities using TOA and TA fields.
 
 ```csharp
-public void FieldTOA()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -162,7 +161,6 @@ public void FieldTOA()
 
     doc.UpdateFields();
     doc.Save(ArtifactsDir + "Field.TOA.TA.docx");
-}
 
 private static FieldTA InsertToaEntry(DocumentBuilder builder, string entryCategory, string longCitation)
 {

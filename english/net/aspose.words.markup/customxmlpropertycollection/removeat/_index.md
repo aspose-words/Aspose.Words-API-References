@@ -18,7 +18,7 @@ public void RemoveAt(int index)
 | --- | --- | --- |
 | index | Int32 | The zero based index. |
 
-### Examples
+## Examples
 
 Shows how to work with smart tag properties to get in depth information about smart tags.
 

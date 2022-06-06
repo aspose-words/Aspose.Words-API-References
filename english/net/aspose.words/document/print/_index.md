@@ -6,7 +6,7 @@ type: docs
 weight: 620
 url: /net/aspose.words/document/print/
 ---
-## Print() {#print}
+## Document.Print method (1 of 4)
 
 Prints the whole document to the default printer.
 
@@ -14,7 +14,7 @@ Prints the whole document to the default printer.
 public void Print()
 ```
 
-### Examples
+## Examples
 
 Shows how to print a document using the default printer.
 
@@ -43,7 +43,7 @@ doc.Print(myPrinter);
 
 ---
 
-## Print(string) {#print_3}
+## Document.Print method (2 of 4)
 
 Print the whole document to the specified printer, using the standard (no User Interface) print controller.
 
@@ -55,7 +55,7 @@ public void Print(string printerName)
 | --- | --- | --- |
 | printerName | String | The name of the printer. |
 
-### Examples
+## Examples
 
 Shows how to print a document using the default printer.
 
@@ -84,7 +84,7 @@ doc.Print(myPrinter);
 
 ---
 
-## Print(PrinterSettings) {#print_1}
+## Document.Print method (3 of 4)
 
 Prints the document according to the specified printer settings, using the standard (no User Interface) print controller.
 
@@ -96,11 +96,11 @@ public void Print(PrinterSettings printerSettings)
 | --- | --- | --- |
 | printerSettings | PrinterSettings | The printer settings to use. |
 
-### Remarks
+## Remarks
 
 The PrinterSettings object allows you to specify the printer to print on, the range of pages of to print and other options.
 
-### Examples
+## Examples
 
 Shows how to print a range of pages.
 
@@ -136,7 +136,7 @@ doc.Print(printerSettings, "My rendered document");
 
 ---
 
-## Print(PrinterSettings, string) {#print_2}
+## Document.Print method (4 of 4)
 
 Prints the document according to the specified printer settings, using the standard (no User Interface) print controller and a document name.
 
@@ -149,11 +149,11 @@ public void Print(PrinterSettings printerSettings, string documentName)
 | printerSettings | PrinterSettings | The printer settings to use. |
 | documentName | String | The document name to display (for example, in a print status dialog box or printer queue) while printing the document. |
 
-### Remarks
+## Remarks
 
 The PrinterSettings object allows you to specify the printer to print on, the range of pages of to print and other options.
 
-### Examples
+## Examples
 
 Shows how to print a range of pages.
 

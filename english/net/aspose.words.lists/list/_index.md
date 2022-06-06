@@ -31,13 +31,13 @@ public class List : IComparable<List>
 
 | Name | Description |
 | --- | --- |
-| [CompareTo](../../aspose.words.lists/list/compareto#compareto)(List) | Compares the specified list to the current list. |
-| [CompareTo](../../aspose.words.lists/list/compareto#compareto_1)(object) | Compares the specified object to the current object. |
-| [Equals](../../aspose.words.lists/list/equals#equals)(List) | Compares with the specified list. |
-| override [Equals](../../aspose.words.lists/list/equals#equals_1)(object) |  |
+| [CompareTo](../../aspose.words.lists/list/compareto)(List) | Compares the specified list to the current list. |
+| [CompareTo](../../aspose.words.lists/list/compareto)(object) | Compares the specified object to the current object. |
+| [Equals](../../aspose.words.lists/list/equals)(List) | Compares with the specified list. |
+| override [Equals](../../aspose.words.lists/list/equals)(object) |  |
 | override [GetHashCode](../../aspose.words.lists/list/gethashcode)() | Calculates hash code for this list object. |
 
-### Remarks
+## Remarks
 
 A list in a Microsoft Word document is a set of list formatting properties. Each list can have up to 9 levels and formatting properties, such as number style, start value, indent, tab position etc are defined separately for each level.
 
@@ -49,7 +49,7 @@ To modify formatting of a list, use [`ListLevel`](../listlevel) objects found in
 
 To apply or remove list formatting from a paragraph, use [`ListFormat`](../listformat).
 
-### Examples
+## Examples
 
 Shows how to restart numbering in a list by copying a list.
 

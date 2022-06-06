@@ -14,7 +14,7 @@ Gets an [`ChartNumberFormat`](../../chartnumberformat) instance allowing to set 
 public ChartNumberFormat NumberFormat { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to enable and configure data labels for a chart series.
 

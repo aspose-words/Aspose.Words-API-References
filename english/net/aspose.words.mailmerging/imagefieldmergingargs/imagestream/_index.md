@@ -14,11 +14,11 @@ Specifies the stream for the mail merge engine to read an image from.
 public Stream ImageStream { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 Aspose.Words closes this stream after it merges the image into the document.
 
-### Examples
+## Examples
 
 Shows how to insert images stored in a database BLOB field into a report.
 

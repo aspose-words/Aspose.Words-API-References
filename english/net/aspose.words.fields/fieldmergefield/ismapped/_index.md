@@ -14,7 +14,7 @@ Gets or sets whether this field is a mapped field.
 public bool IsMapped { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to use MERGEFIELD fields to perform a mail merge.
 

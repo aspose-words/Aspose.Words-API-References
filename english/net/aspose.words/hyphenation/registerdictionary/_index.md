@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /net/aspose.words/hyphenation/registerdictionary/
 ---
-## RegisterDictionary(string, Stream) {#registerdictionary}
+## Hyphenation.RegisterDictionary method (1 of 2)
 
 Registers and loads a hyphenation dictionary for the specified language from a stream. Throws if dictionary cannot be read or has invalid format.
 
@@ -19,12 +19,11 @@ public static void RegisterDictionary(string language, Stream stream)
 | language | String | A language name, e.g. "en-US". See .NET documentation for "culture name" and RFC 4646 for details. |
 | stream | Stream | A stream for the dictionary file in OpenOffice format. |
 
-### Examples
+## Examples
 
 Shows how to open and register a dictionary from a file.
 
 ```csharp
-public void RegisterDictionary()
 {
     // Set up a callback that tracks warnings that occur during hyphenation dictionary registration.
     WarningInfoCollection warningInfoCollection = new WarningInfoCollection();
@@ -100,7 +99,7 @@ private class CustomHyphenationDictionaryRegister : IHyphenationCallback
 
 ---
 
-## RegisterDictionary(string, string) {#registerdictionary_1}
+## Hyphenation.RegisterDictionary method (2 of 2)
 
 Registers and loads a hyphenation dictionary for the specified language from file. Throws if dictionary cannot be read or has invalid format.
 
@@ -115,7 +114,7 @@ public static void RegisterDictionary(string language, string fileName)
 | language | String | A language name, e.g. "en-US". See .NET documentation for "culture name" and RFC 4646 for details. |
 | fileName | String | A path to the dictionary file in Open Office format. |
 
-### Examples
+## Examples
 
 Shows how to register a hyphenation dictionary.
 
@@ -152,7 +151,6 @@ doc.Save(ArtifactsDir + "Hyphenation.Dictionary.Unregistered.pdf");
 Shows how to open and register a dictionary from a file.
 
 ```csharp
-public void RegisterDictionary()
 {
     // Set up a callback that tracks warnings that occur during hyphenation dictionary registration.
     WarningInfoCollection warningInfoCollection = new WarningInfoCollection();

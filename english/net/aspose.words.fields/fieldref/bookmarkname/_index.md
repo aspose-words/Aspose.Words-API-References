@@ -14,7 +14,7 @@ Gets or sets the referenced bookmark's name.
 public string BookmarkName { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to create bookmarked text with a SET field, and then display it in the document using a REF field.
 
@@ -112,7 +112,6 @@ public void FieldRef()
 
     doc.UpdateFields();
     doc.Save(ArtifactsDir + "Field.REF.docx");
-}
 
 /// <summary>
 /// Get the document builder to insert a REF field, reference a bookmark with it, and add text before and after it.

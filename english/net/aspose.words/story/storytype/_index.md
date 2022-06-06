@@ -14,7 +14,7 @@ Gets the type of this story.
 public StoryType StoryType { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to remove all shapes from a node.
 

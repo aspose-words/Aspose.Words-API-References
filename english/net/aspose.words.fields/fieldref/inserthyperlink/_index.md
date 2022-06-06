@@ -14,7 +14,7 @@ Gets or sets whether to create a hyperlink to the bookmarked paragraph.
 public bool InsertHyperlink { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to insert REF fields to reference bookmarks.
 
@@ -86,7 +86,6 @@ public void FieldRef()
 
     doc.UpdateFields();
     doc.Save(ArtifactsDir + "Field.REF.docx");
-}
 
 /// <summary>
 /// Get the document builder to insert a REF field, reference a bookmark with it, and add text before and after it.

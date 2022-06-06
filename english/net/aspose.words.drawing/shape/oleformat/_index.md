@@ -14,15 +14,13 @@ Provides access to the OLE data of a shape. For a shape that is not an OLE objec
 public OleFormat OleFormat { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to iterate over all the shapes in a document.
 
 ```csharp
-public void VisitShapes()
 {
     Document doc = new Document(MyDir + "Revision shape.docx");
-
     ShapeAppearancePrinter visitor = new ShapeAppearancePrinter();
     doc.Accept(visitor);
 

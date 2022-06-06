@@ -14,7 +14,7 @@ Scaling factor for the symbol. The value is in whole percentage points and the v
 public string ScalingFactor { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to use a barcode generator.
 

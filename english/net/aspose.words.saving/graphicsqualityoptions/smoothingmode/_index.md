@@ -14,7 +14,7 @@ Gets or sets the rendering quality for this Graphics.
 public SmoothingMode? SmoothingMode { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to set render quality options while converting documents to image formats.
 

@@ -24,7 +24,7 @@ public enum FlipOrientation
 | Vertical | `2` | Flip along the x-axis, reversing the y-coordinates. |
 | Both | `3` | Flip along both the y- and x-axis. |
 
-### Examples
+## Examples
 
 Shows how to flip a shape on an axis.
 
