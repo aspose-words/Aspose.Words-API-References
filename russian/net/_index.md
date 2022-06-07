@@ -1,0 +1,44 @@
+---
+title: Aspose.Words для .NET
+type: docs
+weight: 10
+url: /net/
+keywords: "Aspose.Words for .NET, Aspose Words, Aspose API Reference."
+description: "Aspose.Words — это библиотека классов, которую разработчики могут использовать на различных платформах для решения различных задач обработки документов."
+is_root: true
+---
+
+## Пространства имен
+
+| Пространство имен | Описание |
+| --- | --- |
+| [Aspose.Words](./aspose.words) | Пространство имен **Aspose.Words** предоставляет классы для создания, преобразования, изменения, рендеринга и печати документов Microsoft Word без использования Microsoft Word. |
+| [Aspose.Words.BuildingBlocks](./aspose.words.buildingblocks) | Пространство имен **Aspose.Words.BuildingBlocks** предоставляет классы, позволяющие получать доступ и использовать автотекст, записи автозамены и стандартные блоки в документе. |
+| [Aspose.Words.Comparing](./aspose.words.comparing) | Пространство имен **Aspose.Words.Comparing** предоставляет классы и перечисления, которые позволяют указывать дополнительные параметры при сравнении документов. |
+| [Aspose.Words.DigitalSignatures](./aspose.words.digitalsignatures) | Пространство имен **Aspose.Words.DigitalSignatures** предоставляет классы для подписания документов и проверки подписей. |
+| [Aspose.Words.Drawing](./aspose.words.drawing) | Пространство имен **Aspose.Words.Drawing** предоставляет классы, позволяющие создавать и изменять объекты рисования. |
+| [Aspose.Words.Drawing.Charts](./aspose.words.drawing.charts) | Пространство имен **Aspose.Words.Drawing.Charts** предоставляет классы, позволяющие получать доступ к диаграммам в документах Microsoft Word. |
+| [Aspose.Words.Drawing.Ole](./aspose.words.drawing.ole) | Содержит классы для работы с элементами OLE/ActiveX и формами в документах Microsoft Word. |
+| [Aspose.Words.Fields](./aspose.words.fields) | Пространство имен **Aspose.Words.Fields** содержит классы, представляющие поля Microsoft Word в документе. |
+| [Aspose.Words.Fonts](./aspose.words.fonts) | Пространство имен **Aspose.Words.Fonts** предоставляет классы и перечисления для доступа к информации о шрифтах, используемых в документе. |
+| [Aspose.Words.Framesets](./aspose.words.framesets) | Пространство имен **Aspose.Words.Framesets** предоставляет классы и перечисления, представляющие страницу фреймов или один фрейм на странице фреймов. |
+| [Aspose.Words.Layout](./aspose.words.layout) | Пространство имен **Aspose.Words.Layout** предоставляет классы, которые позволяют получить доступ к информации, например о том, на какой странице и где на странице расположены определенные элементы документа, когда документ отформатирован в виде страниц. |
+| [Aspose.Words.Lists](./aspose.words.lists) | Пространство имен **Aspose.Words.Lists** содержит классы для работы с маркированными и нумерованными списками, определенными в документе. |
+| [Aspose.Words.Loading](./aspose.words.loading) | Пространство имен **Aspose.Words.Loading** предоставляет классы и перечисления, которые позволяют указывать дополнительные параметры при загрузке документов. |
+| [Aspose.Words.MailMerging](./aspose.words.mailmerging) | ространство имен **Aspose.Words.MailMerging** содержит классы «исходного» механизма отчетов по слиянию. |
+| [Aspose.Words.Markup](./aspose.words.markup) | Пространство имен **Aspose.Words.Markup** содержит классы, которые представляют определяемую пользователем семантику в документе: смарт-теги, пользовательский XML и теги структурированного документа (элементы управления содержимым). |
+| [Aspose.Words.Math](./aspose.words.math) | Пространство имен **Aspose.Words.Math** содержит классы, представляющие элементы Office Math. |
+| [Aspose.Words.Notes](./aspose.words.notes) | Пространство имен **Aspose.Words.Notes** предоставляет классы для работы с концевыми и сносками Microsoft Word. |
+| [Aspose.Words.Properties](./aspose.words.properties) | Пространство имен **Aspose.Words.Properties** предоставляет классы для работы с пользовательскими и встроенными свойствами документа, такими как заголовок, ключевые слова, компания и т. д. |
+| [Aspose.Words.Rendering](./aspose.words.rendering) | Пространство имен **Aspose.Words.Rendering** предоставляет классы, которые позволяют настраивать печать или визуализацию документов. |
+| [Aspose.Words.Replacing](./aspose.words.replacing) | Пространство имен **Aspose.Words.Replacing** предоставляет классы для управления операциями поиска/замены в дереве документа. |
+| [Aspose.Words.Reporting](./aspose.words.reporting) | Это пространство имен содержит классы нового механизма отчетов Aspose.Words, который поддерживает шаблоны отчетов, размеченные с помощью языка, основанного на синтаксисе метода LINQ. |
+| [Aspose.Words.Saving](./aspose.words.saving) | Пространство имен **Aspose.Words.Saving** предоставляет классы и перечисления, которые позволяют указать дополнительные параметры для сохранения или преобразования документов. |
+| [Aspose.Words.Settings](./aspose.words.settings) | Пространство имен **Aspose.Words.Settings** содержит классы и перечисления, которые используются при указании различных настроек и параметров, хранящихся в документе. Это слияние почты, защита от записи, совместимость и другие настройки. |
+| [Aspose.Words.Shaping](./aspose.words.shaping) | Пространство имен **Aspose.Words.Shaping** содержит классы для обеспечения поддержки функций OpenType с использованием внешних механизмов формирования текста. |
+| [Aspose.Words.Tables](./aspose.words.tables) | Пространство имен **Aspose.Words.Tables** содержит классы, представляющие таблицы, строки, ячейки и их форматирование. |
+| [Aspose.Words.Themes](./aspose.words.themes) | Пространство имен **Aspose.Words.Themes** предоставляет классы, позволяющие получать доступ к информации о теме в документах Microsoft Word. |
+| [Aspose.Words.Vba](./aspose.words.vba) | Пространство имен **Aspose.Words.Vba** предоставляет классы для работы с проектами VBA. |
+| [Aspose.Words.WebExtensions](./aspose.words.webextensions) | Пространство имен **Aspose.Words.WebExtensions** предоставляет классы, позволяющие настраивать элементы и атрибуты, расширяющие словарь XML для представления надстроек Office. |
+
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->
