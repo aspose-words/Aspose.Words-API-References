@@ -1,7 +1,7 @@
 ---
 title: BookmarkCollection
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: A collection of Bookmark./bookmark objects that represent the bookmarks in the specified range.
 type: docs
 weight: 40
 url: /net/aspose.words/bookmarkcollection/

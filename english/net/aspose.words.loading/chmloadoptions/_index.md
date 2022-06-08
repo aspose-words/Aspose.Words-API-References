@@ -1,7 +1,7 @@
 ---
 title: ChmLoadOptions
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Allows to specify additional options when loading CHM document into a Document../aspose.words/document object.
 type: docs
 weight: 3320
 url: /net/aspose.words.loading/chmloadoptions/

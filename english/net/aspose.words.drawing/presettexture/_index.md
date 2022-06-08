@@ -1,7 +1,7 @@
 ---
 title: PresetTexture
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies texture to be used to fill a shape.
 type: docs
 weight: 1050
 url: /net/aspose.words.drawing/presettexture/

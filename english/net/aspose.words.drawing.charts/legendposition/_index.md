@@ -1,7 +1,7 @@
 ---
 title: LegendPosition
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies the possible positions for a chart legend.
 type: docs
 weight: 780
 url: /net/aspose.words.drawing.charts/legendposition/

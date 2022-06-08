@@ -1,7 +1,7 @@
 ---
 title: Groups
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Collection of revision groups.
 type: docs
 weight: 20
 url: /net/aspose.words/revisioncollection/groups/

@@ -1,7 +1,7 @@
 ---
 title: Update
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Performs the field update. Throws if the field is being updated already.
 type: docs
 weight: 140
 url: /net/aspose.words.fields/field/update/

@@ -1,7 +1,7 @@
 ---
 title: TextFormFieldType
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies the type of a text form field.
 type: docs
 weight: 2540
 url: /net/aspose.words.fields/textformfieldtype/

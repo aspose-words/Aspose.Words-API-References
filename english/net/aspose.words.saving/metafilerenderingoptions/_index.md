@@ -1,7 +1,7 @@
 ---
 title: MetafileRenderingOptions
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Allows to specify additional metafile rendering options.
 type: docs
 weight: 4970
 url: /net/aspose.words.saving/metafilerenderingoptions/

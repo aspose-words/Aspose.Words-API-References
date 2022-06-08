@@ -1,7 +1,7 @@
 ---
 title: Reason
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets the reason for the signing.
 type: docs
 weight: 50
 url: /net/aspose.words.saving/pdfdigitalsignaturedetails/reason/

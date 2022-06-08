@@ -1,7 +1,7 @@
 ---
 title: Open
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Allows a COM application to load a Documentaspose.words/document from a file.
 type: docs
 weight: 20
 url: /net/aspose.words/comhelper/open/

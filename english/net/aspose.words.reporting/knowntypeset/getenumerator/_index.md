@@ -1,7 +1,7 @@
 ---
 title: GetEnumerator
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Returns An IEnumerator object to iterate over items of the set.
 type: docs
 weight: 40
 url: /net/aspose.words.reporting/knowntypeset/getenumerator/

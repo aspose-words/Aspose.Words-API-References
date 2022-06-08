@@ -1,7 +1,7 @@
 ---
 title: GetOldBarcodeImage
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Generate barcode image using the set of parameters for old-fashioned Barcode field.
 type: docs
 weight: 20
 url: /net/aspose.words.fields/ibarcodegenerator/getoldbarcodeimage/

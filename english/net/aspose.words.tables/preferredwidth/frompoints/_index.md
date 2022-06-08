@@ -1,7 +1,7 @@
 ---
 title: FromPoints
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: A creation method that returns a new instance that represents a preferred width specified using a number of points.
 type: docs
 weight: 30
 url: /net/aspose.words.tables/preferredwidth/frompoints/

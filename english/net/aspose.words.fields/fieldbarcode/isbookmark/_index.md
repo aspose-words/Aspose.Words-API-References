@@ -1,7 +1,7 @@
 ---
 title: IsBookmark
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets whether PostalAddressaspose.words.fields/fieldbarcode/postaladdress is the name of a bookmark.
 type: docs
 weight: 30
 url: /net/aspose.words.fields/fieldbarcode/isbookmark/

@@ -1,7 +1,7 @@
 ---
 title: Marker
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies a data marker. Marker is automatically created when requested.
 type: docs
 weight: 40
 url: /net/aspose.words.drawing.charts/ichartdatapoint/marker/

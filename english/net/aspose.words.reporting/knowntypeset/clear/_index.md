@@ -1,7 +1,7 @@
 ---
 title: Clear
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Removes all items from the set.
 type: docs
 weight: 30
 url: /net/aspose.words.reporting/knowntypeset/clear/

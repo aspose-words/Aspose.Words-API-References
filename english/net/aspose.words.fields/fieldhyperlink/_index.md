@@ -1,7 +1,7 @@
 ---
 title: FieldHyperlink
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Implements the HYPERLINK field
 type: docs
 weight: 1800
 url: /net/aspose.words.fields/fieldhyperlink/

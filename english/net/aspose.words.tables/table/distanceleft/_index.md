@@ -1,7 +1,7 @@
 ---
 title: DistanceLeft
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets distance between table left and the surrounding text in points.
 type: docs
 weight: 130
 url: /net/aspose.words.tables/table/distanceleft/

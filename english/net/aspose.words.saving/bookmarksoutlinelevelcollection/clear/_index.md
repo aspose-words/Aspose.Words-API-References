@@ -1,7 +1,7 @@
 ---
 title: Clear
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Removes all elements from the collection.
 type: docs
 weight: 50
 url: /net/aspose.words.saving/bookmarksoutlinelevelcollection/clear/

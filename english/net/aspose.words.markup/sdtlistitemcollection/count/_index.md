@@ -1,7 +1,7 @@
 ---
 title: Count
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets number of items in the collection.
 type: docs
 weight: 10
 url: /net/aspose.words.markup/sdtlistitemcollection/count/

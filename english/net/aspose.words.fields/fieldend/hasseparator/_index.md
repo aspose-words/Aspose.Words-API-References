@@ -1,7 +1,7 @@
 ---
 title: HasSeparator
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Returns true if this field has a separator.
 type: docs
 weight: 10
 url: /net/aspose.words.fields/fieldend/hasseparator/

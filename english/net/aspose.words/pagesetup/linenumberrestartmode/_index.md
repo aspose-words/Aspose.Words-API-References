@@ -1,7 +1,7 @@
 ---
 title: LineNumberRestartMode
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets the way line numbering runs that is whether it starts over at the beginning of a new page or section or runs continuously.
 type: docs
 weight: 230
 url: /net/aspose.words/pagesetup/linenumberrestartmode/

@@ -1,7 +1,7 @@
 ---
 title: BreakIsStyleSeparator
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: True if this paragraph break is a Style Separator. A style separator allows one paragraph to consist of parts that have different paragraph styles.
 type: docs
 weight: 20
 url: /net/aspose.words/paragraph/breakisstyleseparator/

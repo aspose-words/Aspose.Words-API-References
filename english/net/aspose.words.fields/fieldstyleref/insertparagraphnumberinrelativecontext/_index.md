@@ -1,7 +1,7 @@
 ---
 title: InsertParagraphNumberInRelativeContext
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets whether to insert the paragraph number of the referenced paragraph in relative context.
 type: docs
 weight: 40
 url: /net/aspose.words.fields/fieldstyleref/insertparagraphnumberinrelativecontext/

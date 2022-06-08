@@ -1,7 +1,7 @@
 ---
 title: GraphicsQualityOptions
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Allows to specify rendering mode and quality for the Graphics object.
 type: docs
 weight: 20
 url: /net/aspose.words.saving/imagesaveoptions/graphicsqualityoptions/

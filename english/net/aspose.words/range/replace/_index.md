@@ -1,7 +1,7 @@
 ---
 title: Replace
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Replaces all occurrences of a specified character string pattern with a replacement string.
 type: docs
 weight: 80
 url: /net/aspose.words/range/replace/

@@ -1,7 +1,7 @@
 ---
 title: ExportTextInputFormFieldAsText
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Controls how text input form fields are saved to HTML or MHTML. Default value is false.
 type: docs
 weight: 270
 url: /net/aspose.words.saving/htmlsaveoptions/exporttextinputformfieldastext/

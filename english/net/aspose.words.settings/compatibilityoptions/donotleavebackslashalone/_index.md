@@ -1,7 +1,7 @@
 ---
 title: DoNotLeaveBackslashAlone
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Convert Backslash To Yen Sign When Entered.
 type: docs
 weight: 160
 url: /net/aspose.words.settings/compatibilityoptions/donotleavebackslashalone/

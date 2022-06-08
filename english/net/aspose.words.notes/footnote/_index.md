@@ -1,7 +1,7 @@
 ---
 title: Footnote
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Represents a container for text of a footnote or endnote.
 type: docs
 weight: 3970
 url: /net/aspose.words.notes/footnote/

@@ -1,7 +1,7 @@
 ---
 title: FilePath
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Path to the font file if any.
 type: docs
 weight: 10
 url: /net/aspose.words.fonts/physicalfontinfo/filepath/

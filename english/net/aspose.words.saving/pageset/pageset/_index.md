@@ -1,7 +1,7 @@
 ---
 title: PageSet
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Creates an one-page set based on exact page index.
 type: docs
 weight: 10
 url: /net/aspose.words.saving/pageset/pageset/

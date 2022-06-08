@@ -1,7 +1,7 @@
 ---
 title: UpdateDirtyFields
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies whether to update the fields with the dirty attribute.
 type: docs
 weight: 160
 url: /net/aspose.words.loading/loadoptions/updatedirtyfields/

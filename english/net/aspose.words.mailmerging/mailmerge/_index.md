@@ -1,7 +1,7 @@
 ---
 title: MailMerge
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Represents the mail merge functionality.
 type: docs
 weight: 3570
 url: /net/aspose.words.mailmerging/mailmerge/

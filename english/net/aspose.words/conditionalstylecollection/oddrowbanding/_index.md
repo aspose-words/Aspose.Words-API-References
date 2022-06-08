@@ -1,7 +1,7 @@
 ---
 title: OddRowBanding
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets the odd row banding style.
 type: docs
 weight: 120
 url: /net/aspose.words/conditionalstylecollection/oddrowbanding/

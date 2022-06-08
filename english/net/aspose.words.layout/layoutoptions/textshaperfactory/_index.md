@@ -1,7 +1,7 @@
 ---
 title: TextShaperFactory
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets ITextShaperFactoryaspose.words.shaping/itextshaperfactory implementation used for Advanced Typography rendering features.
 type: docs
 weight: 90
 url: /net/aspose.words.layout/layoutoptions/textshaperfactory/

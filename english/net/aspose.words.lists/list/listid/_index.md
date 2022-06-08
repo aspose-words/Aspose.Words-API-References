@@ -1,7 +1,7 @@
 ---
 title: ListId
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets the unique identifier of the list.
 type: docs
 weight: 60
 url: /net/aspose.words.lists/list/listid/

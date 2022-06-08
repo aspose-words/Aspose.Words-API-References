@@ -1,7 +1,7 @@
 ---
 title: OneColorGradient
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Sets the specified fill to a one-color gradient.
 type: docs
 weight: 160
 url: /net/aspose.words.drawing/fill/onecolorgradient/

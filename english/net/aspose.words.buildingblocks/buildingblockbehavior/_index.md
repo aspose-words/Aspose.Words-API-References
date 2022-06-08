@@ -1,7 +1,7 @@
 ---
 title: BuildingBlockBehavior
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies the behavior that shall be applied to the contents of the building block when it is inserted into the main document.
 type: docs
 weight: 130
 url: /net/aspose.words.buildingblocks/buildingblockbehavior/

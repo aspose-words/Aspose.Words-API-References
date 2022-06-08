@@ -1,7 +1,7 @@
 ---
 title: Clear
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Removes all properties from the collection.
 type: docs
 weight: 30
 url: /net/aspose.words.properties/documentpropertycollection/clear/

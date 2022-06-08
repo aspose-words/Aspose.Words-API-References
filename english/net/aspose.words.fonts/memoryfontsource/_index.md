@@ -1,7 +1,7 @@
 ---
 title: MemoryFontSource
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Represents the single TrueType font file stored in memory.
 type: docs
 weight: 2790
 url: /net/aspose.words.fonts/memoryfontsource/

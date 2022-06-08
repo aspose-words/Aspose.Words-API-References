@@ -1,7 +1,7 @@
 ---
 title: MinorTickMark
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Returns or sets the minor tick marks for the axis.
 type: docs
 weight: 130
 url: /net/aspose.words.drawing.charts/chartaxis/minortickmark/

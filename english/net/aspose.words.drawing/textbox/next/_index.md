@@ -1,7 +1,7 @@
 ---
 title: Next
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Returns or sets a TextBox that represents the next TextBox in a sequence of shapes.
 type: docs
 weight: 70
 url: /net/aspose.words.drawing/textbox/next/

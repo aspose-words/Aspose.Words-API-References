@@ -1,7 +1,7 @@
 ---
 title: VerticalAlignment
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies the vertical alignment for the cells.
 type: docs
 weight: 150
 url: /net/aspose.words/tablestyle/verticalalignment/

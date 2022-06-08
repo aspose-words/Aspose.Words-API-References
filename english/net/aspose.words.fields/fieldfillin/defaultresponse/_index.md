@@ -1,7 +1,7 @@
 ---
 title: DefaultResponse
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets default user response initial value contained in the prompt window.
 type: docs
 weight: 20
 url: /net/aspose.words.fields/fieldfillin/defaultresponse/

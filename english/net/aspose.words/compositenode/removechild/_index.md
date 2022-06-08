@@ -1,7 +1,7 @@
 ---
 title: RemoveChild
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Removes the specified child node.
 type: docs
 weight: 180
 url: /net/aspose.words/compositenode/removechild/

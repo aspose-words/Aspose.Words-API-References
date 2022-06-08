@@ -1,7 +1,7 @@
 ---
 title: InsertOleObject
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Inserts an embedded OLE object from a stream into the document.
 type: docs
 weight: 370
 url: /net/aspose.words/documentbuilder/insertoleobject/

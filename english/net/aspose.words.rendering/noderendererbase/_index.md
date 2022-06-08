@@ -1,7 +1,7 @@
 ---
 title: NodeRendererBase
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Base class for ShapeRenderer./shaperenderer and OfficeMathRenderer./officemathrenderer.
 type: docs
 weight: 4240
 url: /net/aspose.words.rendering/noderendererbase/

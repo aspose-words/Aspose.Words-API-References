@@ -1,7 +1,7 @@
 ---
 title: AnotherSourceTag
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets a value that mathes the Tag elements value of another source to be included in the citation.
 type: docs
 weight: 20
 url: /net/aspose.words.fields/fieldcitation/anothersourcetag/

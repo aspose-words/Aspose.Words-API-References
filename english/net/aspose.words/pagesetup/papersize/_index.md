@@ -1,7 +1,7 @@
 ---
 title: PaperSize
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Returns or sets the paper size.
 type: docs
 weight: 340
 url: /net/aspose.words/pagesetup/papersize/

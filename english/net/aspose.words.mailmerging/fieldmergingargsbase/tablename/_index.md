@@ -1,7 +1,7 @@
 ---
 title: TableName
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets the name of the data table for the current merge operation or empty string if the name is not available.
 type: docs
 weight: 70
 url: /net/aspose.words.mailmerging/fieldmergingargsbase/tablename/

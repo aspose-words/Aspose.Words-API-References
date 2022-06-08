@@ -1,7 +1,7 @@
 ---
 title: CropBottom
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Defines the fraction of picture removal from the bottom side.
 type: docs
 weight: 60
 url: /net/aspose.words.drawing/imagedata/cropbottom/

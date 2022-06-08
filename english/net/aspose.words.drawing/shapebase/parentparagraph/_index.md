@@ -1,7 +1,7 @@
 ---
 title: ParentParagraph
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Returns the immediate parent paragraph.
 type: docs
 weight: 390
 url: /net/aspose.words.drawing/shapebase/parentparagraph/

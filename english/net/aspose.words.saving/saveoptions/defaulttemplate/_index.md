@@ -1,7 +1,7 @@
 ---
 title: DefaultTemplate
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets path to default template including filename. Default value for this property is empty string Empty.
 type: docs
 weight: 40
 url: /net/aspose.words.saving/saveoptions/defaulttemplate/

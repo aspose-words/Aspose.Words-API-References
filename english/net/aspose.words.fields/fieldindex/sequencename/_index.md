@@ -1,7 +1,7 @@
 ---
 title: SequenceName
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets the name of a sequence whose number is included with the page number.
 type: docs
 weight: 150
 url: /net/aspose.words.fields/fieldindex/sequencename/

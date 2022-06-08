@@ -1,7 +1,7 @@
 ---
 title: RemoveShapeAttr
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Reserved for system use. IShapeAttrSource.
 type: docs
 weight: 610
 url: /net/aspose.words.drawing/shapebase/removeshapeattr/

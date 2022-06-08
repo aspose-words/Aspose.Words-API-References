@@ -1,7 +1,7 @@
 ---
 title: List
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets the list this paragraph is a member of.
 type: docs
 weight: 20
 url: /net/aspose.words.lists/listformat/list/

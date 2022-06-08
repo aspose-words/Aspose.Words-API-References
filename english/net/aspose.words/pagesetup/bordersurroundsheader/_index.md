@@ -1,7 +1,7 @@
 ---
 title: BorderSurroundsHeader
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies whether the page border includes or excludes the header.
 type: docs
 weight: 70
 url: /net/aspose.words/pagesetup/bordersurroundsheader/

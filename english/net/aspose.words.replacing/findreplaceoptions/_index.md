@@ -1,7 +1,7 @@
 ---
 title: FindReplaceOptions
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies options for find/replace operations.
 type: docs
 weight: 4310
 url: /net/aspose.words.replacing/findreplaceoptions/

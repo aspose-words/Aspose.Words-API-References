@@ -1,7 +1,7 @@
 ---
 title: Insert
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Inserts a GradientStopaspose.words.drawing/gradientstop to the collection at a specified index.
 type: docs
 weight: 50
 url: /net/aspose.words.drawing/gradientstopcollection/insert/

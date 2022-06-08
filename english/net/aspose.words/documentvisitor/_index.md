@@ -1,7 +1,7 @@
 ---
 title: DocumentVisitor
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Base class for custom document visitors.
 type: docs
 weight: 460
 url: /net/aspose.words/documentvisitor/

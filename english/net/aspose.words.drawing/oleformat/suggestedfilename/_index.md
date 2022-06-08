@@ -1,7 +1,7 @@
 ---
 title: SuggestedFileName
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets the file name suggested for the current embedded object if you want to save it into a file.
 type: docs
 weight: 130
 url: /net/aspose.words.drawing/oleformat/suggestedfilename/

@@ -1,7 +1,7 @@
 ---
 title: DefaultParagraphFormat
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets document default paragraph formatting.
 type: docs
 weight: 30
 url: /net/aspose.words/stylecollection/defaultparagraphformat/

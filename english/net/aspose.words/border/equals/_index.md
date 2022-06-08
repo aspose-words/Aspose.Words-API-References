@@ -1,7 +1,7 @@
 ---
 title: Equals
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Determines whether the specified border is equal in value to the current border.
 type: docs
 weight: 80
 url: /net/aspose.words/border/equals/

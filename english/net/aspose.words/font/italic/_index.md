@@ -1,7 +1,7 @@
 ---
 title: Italic
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: True if the font is formatted as italic.
 type: docs
 weight: 160
 url: /net/aspose.words/font/italic/

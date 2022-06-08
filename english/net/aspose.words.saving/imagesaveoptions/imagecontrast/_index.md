@@ -1,7 +1,7 @@
 ---
 title: ImageContrast
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets the contrast for the generated images.
 type: docs
 weight: 60
 url: /net/aspose.words.saving/imagesaveoptions/imagecontrast/

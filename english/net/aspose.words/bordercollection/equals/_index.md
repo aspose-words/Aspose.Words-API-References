@@ -1,7 +1,7 @@
 ---
 title: Equals
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Compares collections of borders.
 type: docs
 weight: 150
 url: /net/aspose.words/bordercollection/equals/

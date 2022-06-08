@@ -1,7 +1,7 @@
 ---
 title: BookmarkName
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets the name of the bookmark that marks the portion of the document used to build the table.
 type: docs
 weight: 20
 url: /net/aspose.words.fields/fieldtoa/bookmarkname/

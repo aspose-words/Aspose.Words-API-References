@@ -1,7 +1,7 @@
 ---
 title: Charset
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets the character set for the font.
 type: docs
 weight: 20
 url: /net/aspose.words.fonts/fontinfo/charset/

@@ -1,7 +1,7 @@
 ---
 title: Pages
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Represents an estimate of the number of pages in the document.
 type: docs
 weight: 220
 url: /net/aspose.words.properties/builtindocumentproperties/pages/

@@ -1,7 +1,7 @@
 ---
 title: TextWrapping
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets TextWrappingaspose.words.tables/table/textwrapping for table.
 type: docs
 weight: 310
 url: /net/aspose.words.tables/table/textwrapping/

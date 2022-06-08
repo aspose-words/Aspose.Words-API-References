@@ -1,7 +1,7 @@
 ---
 title: UseSubstitutions
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets a boolean value indicating whether to recognize and use substitutions within replacement patterns. The default value is false.
 type: docs
 weight: 160
 url: /net/aspose.words.replacing/findreplaceoptions/usesubstitutions/

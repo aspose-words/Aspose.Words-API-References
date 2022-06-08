@@ -1,7 +1,7 @@
 ---
 title: Text
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets the text that will be inserted into the document for the current merge field.
 type: docs
 weight: 10
 url: /net/aspose.words.mailmerging/fieldmergingargs/text/

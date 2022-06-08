@@ -1,7 +1,7 @@
 ---
 title: CurrentStory
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets the story that is currently selected in this DocumentBuilder.
 type: docs
 weight: 70
 url: /net/aspose.words/documentbuilder/currentstory/

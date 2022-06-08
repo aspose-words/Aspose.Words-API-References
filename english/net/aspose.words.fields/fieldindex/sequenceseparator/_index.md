@@ -1,7 +1,7 @@
 ---
 title: SequenceSeparator
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets the character sequence that is used to separate sequence numbers and page numbers.
 type: docs
 weight: 160
 url: /net/aspose.words.fields/fieldindex/sequenceseparator/

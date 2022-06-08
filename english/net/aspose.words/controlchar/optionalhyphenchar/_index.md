@@ -1,7 +1,7 @@
 ---
 title: OptionalHyphenChar
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Optional Hyphen in Microsoft Word is char31.
 type: docs
 weight: 190
 url: /net/aspose.words/controlchar/optionalhyphenchar/

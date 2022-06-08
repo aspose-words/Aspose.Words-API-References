@@ -1,7 +1,7 @@
 ---
 title: GetBoundsInPixels
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Calculates the bounds of the shape in pixels for a specified zoom factor and resolution.
 type: docs
 weight: 40
 url: /net/aspose.words.rendering/noderendererbase/getboundsinpixels/

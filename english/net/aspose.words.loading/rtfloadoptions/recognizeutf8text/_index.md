@@ -1,7 +1,7 @@
 ---
 title: RecognizeUtf8Text
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: When set to true CharsetDetector will try to detect UTF8 characters they will be preserved during import.
 type: docs
 weight: 20
 url: /net/aspose.words.loading/rtfloadoptions/recognizeutf8text/

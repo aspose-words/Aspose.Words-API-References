@@ -1,7 +1,7 @@
 ---
 title: IsLinked
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets whether to reduce the file size by not storing graphics data with the document.
 type: docs
 weight: 100
 url: /net/aspose.words.fields/fieldlink/islinked/

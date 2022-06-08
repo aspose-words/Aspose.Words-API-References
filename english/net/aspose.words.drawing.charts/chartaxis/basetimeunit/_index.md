@@ -1,7 +1,7 @@
 ---
 title: BaseTimeUnit
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Returns or sets the smallest time unit that is represented on the time category axis.
 type: docs
 weight: 20
 url: /net/aspose.words.drawing.charts/chartaxis/basetimeunit/

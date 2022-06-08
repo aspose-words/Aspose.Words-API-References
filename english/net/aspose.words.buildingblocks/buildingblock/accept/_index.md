@@ -1,7 +1,7 @@
 ---
 title: Accept
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Accepts a visitor.
 type: docs
 weight: 130
 url: /net/aspose.words.buildingblocks/buildingblock/accept/

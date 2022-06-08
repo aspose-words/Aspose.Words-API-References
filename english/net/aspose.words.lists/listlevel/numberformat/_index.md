@@ -1,7 +1,7 @@
 ---
 title: NumberFormat
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Returns or sets the number format for the list level.
 type: docs
 weight: 70
 url: /net/aspose.words.lists/listlevel/numberformat/

@@ -1,7 +1,7 @@
 ---
 title: AddArgument
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Adds a fields argument.
 type: docs
 weight: 20
 url: /net/aspose.words.fields/fieldbuilder/addargument/

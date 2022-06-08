@@ -1,7 +1,7 @@
 ---
 title: ExportEmbeddedImages
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specified whether images should be embedded into SVG document as base64. Note setting this flag can significantly increase size of output SVG file.
 type: docs
 weight: 20
 url: /net/aspose.words.saving/svgsaveoptions/exportembeddedimages/

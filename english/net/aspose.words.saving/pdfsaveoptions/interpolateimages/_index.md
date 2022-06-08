@@ -1,7 +1,7 @@
 ---
 title: InterpolateImages
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: A flag indicating whether image interpolation shall be performed by a conforming reader. When false is specified the flag is not written to the output document and the default behaviour of reader is used instead.
 type: docs
 weight: 180
 url: /net/aspose.words.saving/pdfsaveoptions/interpolateimages/

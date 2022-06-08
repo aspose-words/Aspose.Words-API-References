@@ -1,7 +1,7 @@
 ---
 title: MergeFieldImageDimension
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Represents an image dimension i.e. the width or the height used across a mail merge process.
 type: docs
 weight: 2520
 url: /net/aspose.words.fields/mergefieldimagedimension/

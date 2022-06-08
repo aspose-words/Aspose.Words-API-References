@@ -1,7 +1,7 @@
 ---
 title: LineSpacing
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Returns line spacing of this font in points.
 type: docs
 weight: 190
 url: /net/aspose.words/font/linespacing/

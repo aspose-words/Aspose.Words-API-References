@@ -1,7 +1,7 @@
 ---
 title: Count
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets the number of borders in the collection.
 type: docs
 weight: 30
 url: /net/aspose.words/bordercollection/count/

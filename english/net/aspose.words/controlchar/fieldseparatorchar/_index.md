@@ -1,7 +1,7 @@
 ---
 title: FieldSeparatorChar
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Field separator character separates field code from field value. Optional in some fields. Value char20.
 type: docs
 weight: 90
 url: /net/aspose.words/controlchar/fieldseparatorchar/

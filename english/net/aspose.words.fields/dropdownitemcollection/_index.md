@@ -1,7 +1,7 @@
 ---
 title: DropDownItemCollection
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: A collection of strings that represent all the items in a drop-down form field.
 type: docs
 weight: 1330
 url: /net/aspose.words.fields/dropdownitemcollection/

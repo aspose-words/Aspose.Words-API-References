@@ -1,7 +1,7 @@
 ---
 title: Borders
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets the collection of default cell borders for the conditional style.
 type: docs
 weight: 10
 url: /net/aspose.words/conditionalstyle/borders/

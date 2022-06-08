@@ -1,7 +1,7 @@
 ---
 title: IsMoveFromRevision
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Returns true if this object was moved deleted in Microsoft Word while change tracking was enabled.
 type: docs
 weight: 50
 url: /net/aspose.words/inline/ismovefromrevision/

@@ -1,7 +1,7 @@
 ---
 title: UseAnsiKerningPairs
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Use ANSI Kerning Pairs from Fonts.
 type: docs
 weight: 610
 url: /net/aspose.words.settings/compatibilityoptions/useansikerningpairs/

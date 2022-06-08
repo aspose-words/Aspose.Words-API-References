@@ -1,7 +1,7 @@
 ---
 title: IncludeFullPath
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets whether to include the full file path name.
 type: docs
 weight: 20
 url: /net/aspose.words.fields/fieldtemplate/includefullpath/

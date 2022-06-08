@@ -1,7 +1,7 @@
 ---
 title: GetText
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets the text of this paragraph including the end of paragraph character.
 type: docs
 weight: 260
 url: /net/aspose.words/paragraph/gettext/

@@ -1,7 +1,7 @@
 ---
 title: HeaderFooterBookmarksExportMode
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies how bookmarks in headers/footers are exported.
 type: docs
 weight: 4740
 url: /net/aspose.words.saving/headerfooterbookmarksexportmode/

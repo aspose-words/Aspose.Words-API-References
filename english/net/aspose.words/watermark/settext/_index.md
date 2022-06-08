@@ -1,7 +1,7 @@
 ---
 title: SetText
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Adds Text watermark into the document.
 type: docs
 weight: 40
 url: /net/aspose.words/watermark/settext/

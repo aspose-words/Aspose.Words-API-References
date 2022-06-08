@@ -1,7 +1,7 @@
 ---
 title: StopTrackRevisions
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Stops automatic marking of document changes as revisions.
 type: docs
 weight: 700
 url: /net/aspose.words/document/stoptrackrevisions/

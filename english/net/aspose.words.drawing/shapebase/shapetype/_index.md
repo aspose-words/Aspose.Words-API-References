@@ -1,7 +1,7 @@
 ---
 title: ShapeType
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets the shape type.
 type: docs
 weight: 450
 url: /net/aspose.words.drawing/shapebase/shapetype/

@@ -1,7 +1,7 @@
 ---
 title: ResourceFileUri
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets the uniform resource identifier URI used to reference the resource file from the document.
 type: docs
 weight: 40
 url: /net/aspose.words.saving/resourcesavingargs/resourcefileuri/

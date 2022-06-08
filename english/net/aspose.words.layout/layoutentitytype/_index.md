@@ -1,7 +1,7 @@
 ---
 title: LayoutEntityType
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Types of the layout entities.
 type: docs
 weight: 3080
 url: /net/aspose.words.layout/layoutentitytype/

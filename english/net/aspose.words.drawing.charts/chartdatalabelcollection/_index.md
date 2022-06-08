@@ -1,7 +1,7 @@
 ---
 title: ChartDataLabelCollection
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Represents a collection of ChartDataLabel./chartdatalabel.
 type: docs
 weight: 640
 url: /net/aspose.words.drawing.charts/chartdatalabelcollection/

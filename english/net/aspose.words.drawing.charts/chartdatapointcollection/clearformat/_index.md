@@ -1,7 +1,7 @@
 ---
 title: ClearFormat
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Clears format of all ChartDataPointaspose.words.drawing.charts/chartdatapoint in this collection.
 type: docs
 weight: 30
 url: /net/aspose.words.drawing.charts/chartdatapointcollection/clearformat/

@@ -1,7 +1,7 @@
 ---
 title: StructuredDocumentTag
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Represents a structured document tag SDT or content control in a document.
 type: docs
 weight: 3770
 url: /net/aspose.words.markup/structureddocumenttag/

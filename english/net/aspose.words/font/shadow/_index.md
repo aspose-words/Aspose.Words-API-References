@@ -1,7 +1,7 @@
 ---
 title: Shadow
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: True if the font is formatted as shadowed.
 type: docs
 weight: 330
 url: /net/aspose.words/font/shadow/

@@ -1,7 +1,7 @@
 ---
 title: Bidi
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies whether the contents of this run shall have right-to-left characteristics.
 type: docs
 weight: 30
 url: /net/aspose.words/font/bidi/

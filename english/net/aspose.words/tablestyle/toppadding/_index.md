@@ -1,7 +1,7 @@
 ---
 title: TopPadding
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets the amount of space in points to add above the contents of table cells.
 type: docs
 weight: 140
 url: /net/aspose.words/tablestyle/toppadding/

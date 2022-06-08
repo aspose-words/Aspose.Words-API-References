@@ -1,7 +1,7 @@
 ---
 title: DocumentPartStream
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Allows to specify the stream where the document part will be saved to.
 type: docs
 weight: 30
 url: /net/aspose.words.saving/documentpartsavingargs/documentpartstream/

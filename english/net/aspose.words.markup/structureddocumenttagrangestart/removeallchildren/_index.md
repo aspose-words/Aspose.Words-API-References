@@ -1,7 +1,7 @@
 ---
 title: RemoveAllChildren
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Removes all the nodes between this range start node and the range end node.
 type: docs
 weight: 230
 url: /net/aspose.words.markup/structureddocumenttagrangestart/removeallchildren/

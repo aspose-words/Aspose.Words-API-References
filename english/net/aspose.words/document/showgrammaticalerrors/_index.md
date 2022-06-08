@@ -1,7 +1,7 @@
 ---
 title: ShowGrammaticalErrors
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies whether to display grammar errors in this document.
 type: docs
 weight: 370
 url: /net/aspose.words/document/showgrammaticalerrors/

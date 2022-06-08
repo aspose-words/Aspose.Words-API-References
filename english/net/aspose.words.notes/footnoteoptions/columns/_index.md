@@ -1,7 +1,7 @@
 ---
 title: Columns
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies the number of columns with which the footnotes area is formatted.
 type: docs
 weight: 10
 url: /net/aspose.words.notes/footnoteoptions/columns/

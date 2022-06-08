@@ -1,7 +1,7 @@
 ---
 title: IsAuto
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Returns a flag indicating that axis bound should be determined automatically.
 type: docs
 weight: 20
 url: /net/aspose.words.drawing.charts/axisbound/isauto/

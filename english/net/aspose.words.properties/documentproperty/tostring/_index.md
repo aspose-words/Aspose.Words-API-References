@@ -1,7 +1,7 @@
 ---
 title: ToString
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Returns the property value as a string formatted according to the current locale.
 type: docs
 weight: 110
 url: /net/aspose.words.properties/documentproperty/tostring/

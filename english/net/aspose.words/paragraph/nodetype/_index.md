@@ -1,7 +1,7 @@
 ---
 title: NodeType
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Returns NodeType.Paragraph.
 type: docs
 weight: 170
 url: /net/aspose.words/paragraph/nodetype/

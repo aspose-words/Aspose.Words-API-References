@@ -1,7 +1,7 @@
 ---
 title: ParentRow
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Returns the parent row of the cell.
 type: docs
 weight: 90
 url: /net/aspose.words.tables/cell/parentrow/

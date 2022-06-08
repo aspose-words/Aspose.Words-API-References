@@ -1,7 +1,7 @@
 ---
 title: FirstSection
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets the first section in the building block.
 type: docs
 weight: 50
 url: /net/aspose.words.buildingblocks/buildingblock/firstsection/

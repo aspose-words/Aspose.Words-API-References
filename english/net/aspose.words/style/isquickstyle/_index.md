@@ -1,7 +1,7 @@
 ---
 title: IsQuickStyle
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies whether this style is shown in the Quick Style gallery inside MS Word UI.
 type: docs
 weight: 70
 url: /net/aspose.words/style/isquickstyle/

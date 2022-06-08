@@ -1,7 +1,7 @@
 ---
 title: BookmarkEnd
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets the node that represents the end of the bookmark.
 type: docs
 weight: 10
 url: /net/aspose.words/bookmark/bookmarkend/

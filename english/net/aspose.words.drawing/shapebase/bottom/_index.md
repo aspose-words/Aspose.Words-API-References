@@ -1,7 +1,7 @@
 ---
 title: Bottom
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets the position of the bottom edge of the containing block of the shape.
 type: docs
 weight: 60
 url: /net/aspose.words.drawing/shapebase/bottom/

@@ -1,7 +1,7 @@
 ---
 title: FontInfoCollection
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Represents a collection of fonts used in a document.
 type: docs
 weight: 2700
 url: /net/aspose.words.fonts/fontinfocollection/

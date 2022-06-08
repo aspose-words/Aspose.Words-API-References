@@ -1,7 +1,7 @@
 ---
 title: Comment
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Represents a container for text of a comment.
 type: docs
 weight: 220
 url: /net/aspose.words/comment/

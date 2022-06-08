@@ -1,7 +1,7 @@
 ---
 title: Item
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Returns a DocumentPropertyaspose.words.properties/documentproperty object by the name of the property.
 type: docs
 weight: 20
 url: /net/aspose.words.properties/documentpropertycollection/item/

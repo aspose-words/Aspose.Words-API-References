@@ -1,7 +1,7 @@
 ---
 title: DoNotSnapToGridInCell
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Do Not Snap to Document Grid in Table Cells with Objects.
 type: docs
 weight: 170
 url: /net/aspose.words.settings/compatibilityoptions/donotsnaptogridincell/

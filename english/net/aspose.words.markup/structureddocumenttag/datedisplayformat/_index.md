@@ -1,7 +1,7 @@
 ---
 title: DateDisplayFormat
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: String that represents the format in which dates are displayed. Can not be null. The dates for English U.S. is mm/dd/yyyy
 type: docs
 weight: 90
 url: /net/aspose.words.markup/structureddocumenttag/datedisplayformat/

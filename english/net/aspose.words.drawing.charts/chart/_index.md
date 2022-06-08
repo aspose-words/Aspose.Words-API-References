@@ -1,7 +1,7 @@
 ---
 title: Chart
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Provides access to the chart shape properties.
 type: docs
 weight: 600
 url: /net/aspose.words.drawing.charts/chart/

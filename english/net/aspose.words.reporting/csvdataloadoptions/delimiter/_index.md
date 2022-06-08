@@ -1,7 +1,7 @@
 ---
 title: Delimiter
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets the character to be used as a column delimiter.
 type: docs
 weight: 30
 url: /net/aspose.words.reporting/csvdataloadoptions/delimiter/

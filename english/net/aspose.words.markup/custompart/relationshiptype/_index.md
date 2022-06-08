@@ -1,7 +1,7 @@
 ---
 title: RelationshipType
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets the relationship type from the parent part to this custom part.
 type: docs
 weight: 60
 url: /net/aspose.words.markup/custompart/relationshiptype/

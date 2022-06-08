@@ -1,7 +1,7 @@
 ---
 title: LegacyNumberFormat
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets the value indicating whether legacy early than AW 13.10 number format for fields is enabled or not.
 type: docs
 weight: 130
 url: /net/aspose.words.fields/fieldoptions/legacynumberformat/

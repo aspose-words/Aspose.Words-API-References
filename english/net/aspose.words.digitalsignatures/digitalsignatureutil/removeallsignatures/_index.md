@@ -1,7 +1,7 @@
 ---
 title: RemoveAllSignatures
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Removes all digital signatures from source file and writes unsigned file to destination file.
 type: docs
 weight: 20
 url: /net/aspose.words.digitalsignatures/digitalsignatureutil/removeallsignatures/

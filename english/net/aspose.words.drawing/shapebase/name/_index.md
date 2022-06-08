@@ -1,7 +1,7 @@
 ---
 title: Name
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets the optional shape name.
 type: docs
 weight: 380
 url: /net/aspose.words.drawing/shapebase/name/

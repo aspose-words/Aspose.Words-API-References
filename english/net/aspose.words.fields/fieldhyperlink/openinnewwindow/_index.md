@@ -1,7 +1,7 @@
 ---
 title: OpenInNewWindow
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets whether to open the destination site in a new web browser window.
 type: docs
 weight: 40
 url: /net/aspose.words.fields/fieldhyperlink/openinnewwindow/

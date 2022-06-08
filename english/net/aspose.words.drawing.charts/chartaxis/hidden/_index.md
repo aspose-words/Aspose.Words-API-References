@@ -1,7 +1,7 @@
 ---
 title: Hidden
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets a flag indicating whether this axis is hidden or not.
 type: docs
 weight: 80
 url: /net/aspose.words.drawing.charts/chartaxis/hidden/

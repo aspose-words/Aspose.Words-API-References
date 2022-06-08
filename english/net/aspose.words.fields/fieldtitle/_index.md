@@ -1,7 +1,7 @@
 ---
 title: FieldTitle
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Implements the TITLE field.
 type: docs
 weight: 2320
 url: /net/aspose.words.fields/fieldtitle/

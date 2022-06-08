@@ -1,7 +1,7 @@
 ---
 title: WarningType
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Returns the type of the warning.
 type: docs
 weight: 30
 url: /net/aspose.words/warninginfo/warningtype/

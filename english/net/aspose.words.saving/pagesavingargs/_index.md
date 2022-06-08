@@ -1,7 +1,7 @@
 ---
 title: PageSavingArgs
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Provides data for the PageSaving./ipagesavingcallback/pagesaving event.
 type: docs
 weight: 5050
 url: /net/aspose.words.saving/pagesavingargs/

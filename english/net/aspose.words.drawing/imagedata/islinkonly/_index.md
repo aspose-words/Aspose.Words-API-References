@@ -1,7 +1,7 @@
 ---
 title: IsLinkOnly
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Returns true if the image is linked and not stored in the document.
 type: docs
 weight: 160
 url: /net/aspose.words.drawing/imagedata/islinkonly/

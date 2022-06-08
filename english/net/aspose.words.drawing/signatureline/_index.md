@@ -1,7 +1,7 @@
 ---
 title: SignatureLine
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Provides access to signature line properties.
 type: docs
 weight: 1130
 url: /net/aspose.words.drawing/signatureline/

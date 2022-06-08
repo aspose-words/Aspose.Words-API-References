@@ -1,7 +1,7 @@
 ---
 title: IsFrozen
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies whether the user can interact with the web extension or not.
 type: docs
 weight: 40
 url: /net/aspose.words.webextensions/webextension/isfrozen/

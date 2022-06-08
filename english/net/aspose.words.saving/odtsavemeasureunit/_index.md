@@ -1,7 +1,7 @@
 ---
 title: OdtSaveMeasureUnit
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specified units of measure to apply to measurable document content such as shape widths and other during saving.
 type: docs
 weight: 4990
 url: /net/aspose.words.saving/odtsavemeasureunit/

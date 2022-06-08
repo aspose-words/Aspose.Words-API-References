@@ -1,7 +1,7 @@
 ---
 title: NumeralFormat
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets NumeralFormataspose.words.saving/numeralformat used for rendering of numerals. European numerals are used by default.
 type: docs
 weight: 40
 url: /net/aspose.words.saving/fixedpagesaveoptions/numeralformat/

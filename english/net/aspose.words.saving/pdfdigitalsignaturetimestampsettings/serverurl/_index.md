@@ -1,7 +1,7 @@
 ---
 title: ServerUrl
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Timestamp server URL.
 type: docs
 weight: 30
 url: /net/aspose.words.saving/pdfdigitalsignaturetimestampsettings/serverurl/

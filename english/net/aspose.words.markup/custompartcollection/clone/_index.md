@@ -1,7 +1,7 @@
 ---
 title: Clone
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Makes a deep copy of this collection and its items.
 type: docs
 weight: 60
 url: /net/aspose.words.markup/custompartcollection/clone/

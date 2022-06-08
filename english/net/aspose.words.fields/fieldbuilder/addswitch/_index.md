@@ -1,7 +1,7 @@
 ---
 title: AddSwitch
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Adds a fields switch.
 type: docs
 weight: 30
 url: /net/aspose.words.fields/fieldbuilder/addswitch/

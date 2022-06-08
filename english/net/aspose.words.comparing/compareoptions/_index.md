@@ -1,7 +1,7 @@
 ---
 title: CompareOptions
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Allows to choose advanced options for document comparison operation.
 type: docs
 weight: 260
 url: /net/aspose.words.comparing/compareoptions/

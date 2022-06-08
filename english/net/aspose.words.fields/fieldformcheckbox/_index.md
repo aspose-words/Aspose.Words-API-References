@@ -1,7 +1,7 @@
 ---
 title: FieldFormCheckBox
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Implements the FORMCHECKBOX field.
 type: docs
 weight: 1720
 url: /net/aspose.words.fields/fieldformcheckbox/

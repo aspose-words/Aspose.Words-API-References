@@ -1,7 +1,7 @@
 ---
 title: Color
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets the border color.
 type: docs
 weight: 10
 url: /net/aspose.words/border/color/

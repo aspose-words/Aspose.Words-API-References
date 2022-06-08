@@ -1,7 +1,7 @@
 ---
 title: HorizontalMerge
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies how the cell is merged horizontally with other cells in the row.
 type: docs
 weight: 40
 url: /net/aspose.words.tables/cellformat/horizontalmerge/

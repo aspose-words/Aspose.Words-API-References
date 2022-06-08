@@ -1,7 +1,7 @@
 ---
 title: HeightRule
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets the rule for determining the height of the specified frame.
 type: docs
 weight: 20
 url: /net/aspose.words/frameformat/heightrule/

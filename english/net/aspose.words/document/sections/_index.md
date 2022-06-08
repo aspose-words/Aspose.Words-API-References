@@ -1,7 +1,7 @@
 ---
 title: Sections
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Returns a collection that represents all sections in the document.
 type: docs
 weight: 350
 url: /net/aspose.words/document/sections/

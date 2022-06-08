@@ -1,7 +1,7 @@
 ---
 title: Patterned
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Sets the specified fill to a pattern.
 type: docs
 weight: 170
 url: /net/aspose.words.drawing/fill/patterned/

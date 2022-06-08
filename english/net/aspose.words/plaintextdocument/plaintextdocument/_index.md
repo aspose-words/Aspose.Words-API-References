@@ -1,7 +1,7 @@
 ---
 title: PlainTextDocument
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Creates a plain text document from a file. Automatically detects the file format.
 type: docs
 weight: 10
 url: /net/aspose.words/plaintextdocument/plaintextdocument/

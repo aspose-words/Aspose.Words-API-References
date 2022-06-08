@@ -1,7 +1,7 @@
 ---
 title: VisitShapeStart
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Called when enumeration of a shape has started.
 type: docs
 weight: 400
 url: /net/aspose.words/documentvisitor/visitshapestart/

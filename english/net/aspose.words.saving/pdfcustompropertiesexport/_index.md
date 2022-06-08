@@ -1,7 +1,7 @@
 ---
 title: PdfCustomPropertiesExport
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies the way CustomDocumentProperties../aspose.words/document/customdocumentproperties are exported to PDF file.
 type: docs
 weight: 5090
 url: /net/aspose.words.saving/pdfcustompropertiesexport/

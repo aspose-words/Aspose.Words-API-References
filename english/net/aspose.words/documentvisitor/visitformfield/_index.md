@@ -1,7 +1,7 @@
 ---
 title: VisitFormField
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Called when a form field is encountered in the document.
 type: docs
 weight: 230
 url: /net/aspose.words/documentvisitor/visitformfield/

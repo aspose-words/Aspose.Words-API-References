@@ -1,7 +1,7 @@
 ---
 title: ItalicBi
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: True if the right-to-left text is formatted as italic.
 type: docs
 weight: 170
 url: /net/aspose.words/font/italicbi/

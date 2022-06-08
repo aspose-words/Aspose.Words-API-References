@@ -1,7 +1,7 @@
 ---
 title: DocumentSplitHeadingLevel
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies the maximum level of headings at which to split the document. Default value is 2.
 type: docs
 weight: 90
 url: /net/aspose.words.saving/htmlsaveoptions/documentsplitheadinglevel/

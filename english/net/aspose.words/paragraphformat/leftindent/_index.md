@@ -1,7 +1,7 @@
 ---
 title: LeftIndent
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets the value in points that represents the left indent for paragraph.
 type: docs
 weight: 170
 url: /net/aspose.words/paragraphformat/leftindent/

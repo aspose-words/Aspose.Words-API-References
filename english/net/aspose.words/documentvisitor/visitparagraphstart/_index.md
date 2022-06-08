@@ -1,7 +1,7 @@
 ---
 title: VisitParagraphStart
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Called when enumeration of a paragraph has started.
 type: docs
 weight: 330
 url: /net/aspose.words/documentvisitor/visitparagraphstart/

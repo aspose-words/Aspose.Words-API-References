@@ -1,7 +1,7 @@
 ---
 title: PageWidth
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Returns or sets the width of the page in points.
 type: docs
 weight: 330
 url: /net/aspose.words/pagesetup/pagewidth/

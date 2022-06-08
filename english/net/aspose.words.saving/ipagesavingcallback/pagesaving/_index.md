@@ -1,7 +1,7 @@
 ---
 title: PageSaving
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Called when Aspose.Words saves a separate page to fixed page formats.
 type: docs
 weight: 10
 url: /net/aspose.words.saving/ipagesavingcallback/pagesaving/

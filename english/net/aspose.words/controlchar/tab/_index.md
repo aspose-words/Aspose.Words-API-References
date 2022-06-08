@@ -1,7 +1,7 @@
 ---
 title: Tab
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Tab character x0009 or t.
 type: docs
 weight: 270
 url: /net/aspose.words/controlchar/tab/

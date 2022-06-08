@@ -1,7 +1,7 @@
 ---
 title: InsertBreak
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Inserts a break of the specified type into the document.
 type: docs
 weight: 240
 url: /net/aspose.words/documentbuilder/insertbreak/

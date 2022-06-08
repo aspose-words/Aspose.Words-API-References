@@ -1,7 +1,7 @@
 ---
 title: UseReflectionOptimization
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets a value indicating whether invocations of custom type members performed via reflection API are optimized using dynamic class generation or not. The default value is true.
 type: docs
 weight: 70
 url: /net/aspose.words.reporting/reportingengine/usereflectionoptimization/

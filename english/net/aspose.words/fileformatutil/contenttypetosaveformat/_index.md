@@ -1,7 +1,7 @@
 ---
 title: ContentTypeToSaveFormat
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Converts IANA content type into a save format enumerated value.
 type: docs
 weight: 20
 url: /net/aspose.words/fileformatutil/contenttypetosaveformat/

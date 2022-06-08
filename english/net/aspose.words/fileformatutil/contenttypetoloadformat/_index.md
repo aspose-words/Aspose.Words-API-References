@@ -1,7 +1,7 @@
 ---
 title: ContentTypeToLoadFormat
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Converts IANA content type into a load format enumerated value.
 type: docs
 weight: 10
 url: /net/aspose.words/fileformatutil/contenttypetoloadformat/

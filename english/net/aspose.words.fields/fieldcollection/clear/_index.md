@@ -1,7 +1,7 @@
 ---
 title: Clear
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Removes all fields of this collection from the document and from this collection itself.
 type: docs
 weight: 30
 url: /net/aspose.words.fields/fieldcollection/clear/

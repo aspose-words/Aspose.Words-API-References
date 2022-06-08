@@ -1,7 +1,7 @@
 ---
 title: LocalToParent
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Converts a value from the local coordinate space into the coordinate space of the parent shape.
 type: docs
 weight: 600
 url: /net/aspose.words.drawing/shapebase/localtoparent/

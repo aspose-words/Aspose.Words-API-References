@@ -1,7 +1,7 @@
 ---
 title: UpOffset
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets the number of points by which the text that follows the field should be moved up.
 type: docs
 weight: 60
 url: /net/aspose.words.fields/fieldadvance/upoffset/

@@ -1,7 +1,7 @@
 ---
 title: Uri
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies the namespace URI of the smart tag.
 type: docs
 weight: 50
 url: /net/aspose.words.markup/smarttag/uri/

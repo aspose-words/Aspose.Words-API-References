@@ -1,7 +1,7 @@
 ---
 title: TableContentAlignment
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Allows to specify the alignment of the content of the table to be used when exporting into Markdown format.
 type: docs
 weight: 5290
 url: /net/aspose.words.saving/tablecontentalignment/

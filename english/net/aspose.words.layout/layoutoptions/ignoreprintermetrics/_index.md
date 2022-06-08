@@ -1,7 +1,7 @@
 ---
 title: IgnorePrinterMetrics
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets indication of whether the Use printer metrics to lay out document compatibility option is ignored. Default is True.
 type: docs
 weight: 50
 url: /net/aspose.words.layout/layoutoptions/ignoreprintermetrics/

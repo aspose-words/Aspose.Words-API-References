@@ -1,7 +1,7 @@
 ---
 title: ErrorMessage
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets the failed comparison evaluation results error message.
 type: docs
 weight: 20
 url: /net/aspose.words.fields/comparisonevaluationresult/errormessage/

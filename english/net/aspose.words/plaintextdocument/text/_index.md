@@ -1,7 +1,7 @@
 ---
 title: Text
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets textual content of the document concatenated as a string.
 type: docs
 weight: 40
 url: /net/aspose.words/plaintextdocument/text/

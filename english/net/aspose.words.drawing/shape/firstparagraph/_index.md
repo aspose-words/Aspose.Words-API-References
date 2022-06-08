@@ -1,7 +1,7 @@
 ---
 title: FirstParagraph
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets the first paragraph in the shape.
 type: docs
 weight: 60
 url: /net/aspose.words.drawing/shape/firstparagraph/

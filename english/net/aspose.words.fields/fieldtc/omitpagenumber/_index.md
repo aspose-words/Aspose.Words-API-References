@@ -1,7 +1,7 @@
 ---
 title: OmitPageNumber
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets whether page number in TOC should be omitted for this field.
 type: docs
 weight: 30
 url: /net/aspose.words.fields/fieldtc/omitpagenumber/

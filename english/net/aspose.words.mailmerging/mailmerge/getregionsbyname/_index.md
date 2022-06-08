@@ -1,7 +1,7 @@
 ---
 title: GetRegionsByName
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Returns a collection of mail merge regions with the specified name.
 type: docs
 weight: 240
 url: /net/aspose.words.mailmerging/mailmerge/getregionsbyname/

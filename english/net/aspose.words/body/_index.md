@@ -1,7 +1,7 @@
 ---
 title: Body
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Represents a container for the main text of a section.
 type: docs
 weight: 20
 url: /net/aspose.words/body/

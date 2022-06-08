@@ -1,7 +1,7 @@
 ---
 title: ShowBubbleSize
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Allows to specify whether bubble size is to be displayed for the data labels of the entire series. Applies only to Bubble charts. Default value is false.
 type: docs
 weight: 50
 url: /net/aspose.words.drawing.charts/chartdatalabelcollection/showbubblesize/

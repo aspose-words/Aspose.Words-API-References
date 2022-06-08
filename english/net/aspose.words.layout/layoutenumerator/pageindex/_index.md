@@ -1,7 +1,7 @@
 ---
 title: PageIndex
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets the 1-based index of a page which contains the current entity.
 type: docs
 weight: 50
 url: /net/aspose.words.layout/layoutenumerator/pageindex/

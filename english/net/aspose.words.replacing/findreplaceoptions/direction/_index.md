@@ -1,7 +1,7 @@
 ---
 title: Direction
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Selects direction for replace. Default value is Forward.
 type: docs
 weight: 40
 url: /net/aspose.words.replacing/findreplaceoptions/direction/

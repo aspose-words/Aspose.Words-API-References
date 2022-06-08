@@ -1,7 +1,7 @@
 ---
 title: StreamFontSource
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Base class for user-defined stream font source.
 type: docs
 weight: 2810
 url: /net/aspose.words.fonts/streamfontsource/

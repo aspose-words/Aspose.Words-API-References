@@ -1,7 +1,7 @@
 ---
 title: Title
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies the friendly name associated with this structured document tag. Can not be null.
 type: docs
 weight: 160
 url: /net/aspose.words.markup/structureddocumenttagrangestart/title/

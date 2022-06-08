@@ -1,7 +1,7 @@
 ---
 title: FieldPage
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Implements the PAGE field.
 type: docs
 weight: 2070
 url: /net/aspose.words.fields/fieldpage/

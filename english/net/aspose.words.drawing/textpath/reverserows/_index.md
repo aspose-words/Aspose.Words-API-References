@@ -1,7 +1,7 @@
 ---
 title: ReverseRows
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Determines whether the layout order of rows is reversed.
 type: docs
 weight: 80
 url: /net/aspose.words.drawing/textpath/reverserows/

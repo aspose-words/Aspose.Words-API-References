@@ -1,7 +1,7 @@
 ---
 title: ClearShading
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Removes all shading on the table.
 type: docs
 weight: 380
 url: /net/aspose.words.tables/table/clearshading/

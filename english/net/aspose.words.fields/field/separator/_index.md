@@ -1,7 +1,7 @@
 ---
 title: Separator
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets the node that represents the field separator. Can be null.
 type: docs
 weight: 80
 url: /net/aspose.words.fields/field/separator/

@@ -1,7 +1,7 @@
 ---
 title: FieldKeywords
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Implements the KEYWORDS field.
 type: docs
 weight: 1900
 url: /net/aspose.words.fields/fieldkeywords/

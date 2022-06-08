@@ -1,7 +1,7 @@
 ---
 title: AxisScaling
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Represents the scaling options of the axis.
 type: docs
 weight: 560
 url: /net/aspose.words.drawing.charts/axisscaling/

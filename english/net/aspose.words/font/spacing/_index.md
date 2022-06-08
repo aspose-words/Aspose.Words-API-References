@@ -1,7 +1,7 @@
 ---
 title: Spacing
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Returns or sets the spacing in points between characters .
 type: docs
 weight: 380
 url: /net/aspose.words/font/spacing/

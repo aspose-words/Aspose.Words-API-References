@@ -1,7 +1,7 @@
 ---
 title: PageBreakBefore
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: True if a page break is forced before the paragraph.
 type: docs
 weight: 250
 url: /net/aspose.words/paragraphformat/pagebreakbefore/

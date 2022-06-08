@@ -1,7 +1,7 @@
 ---
 title: Resolution
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Sets both horizontal and vertical resolution for the generated images in dots per inch.
 type: docs
 weight: 120
 url: /net/aspose.words.saving/imagesaveoptions/resolution/

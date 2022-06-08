@@ -1,7 +1,7 @@
 ---
 title: FontsFolder
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies the physical folder where fonts are saved when exporting a document to HTML. Default is an empty string.
 type: docs
 weight: 320
 url: /net/aspose.words.saving/htmlsaveoptions/fontsfolder/

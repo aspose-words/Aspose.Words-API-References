@@ -1,7 +1,7 @@
 ---
 title: FieldName
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets the name of a data field.
 type: docs
 weight: 10
 url: /net/aspose.words.fields/fieldmergefield/fieldname/

@@ -1,7 +1,7 @@
 ---
 title: CommentColor
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Allows to specify the color to be used for comments. Default value is Red.
 type: docs
 weight: 10
 url: /net/aspose.words.layout/revisionoptions/commentcolor/

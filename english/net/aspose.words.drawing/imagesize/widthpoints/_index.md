@@ -1,7 +1,7 @@
 ---
 title: WidthPoints
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets the width of the image in points. 1 point is 1/72 inch.
 type: docs
 weight: 70
 url: /net/aspose.words.drawing/imagesize/widthpoints/

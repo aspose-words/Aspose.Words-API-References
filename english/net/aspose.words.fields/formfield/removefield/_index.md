@@ -1,7 +1,7 @@
 ---
 title: RemoveField
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Removes the complete form field not just the form field special character.
 type: docs
 weight: 240
 url: /net/aspose.words.fields/formfield/removefield/

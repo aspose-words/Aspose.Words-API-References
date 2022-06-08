@@ -1,7 +1,7 @@
 ---
 title: NumberFormat
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Returns a ChartNumberFormataspose.words.drawing.charts/chartnumberformat object that allows defining number formats for the axis.
 type: docs
 weight: 170
 url: /net/aspose.words.drawing.charts/chartaxis/numberformat/

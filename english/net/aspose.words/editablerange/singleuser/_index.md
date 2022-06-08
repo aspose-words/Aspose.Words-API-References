@@ -1,7 +1,7 @@
 ---
 title: SingleUser
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Returns or sets the single user for editable range.
 type: docs
 weight: 50
 url: /net/aspose.words/editablerange/singleuser/

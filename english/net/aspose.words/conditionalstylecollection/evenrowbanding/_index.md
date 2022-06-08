@@ -1,7 +1,7 @@
 ---
 title: EvenRowBanding
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets the even row banding style.
 type: docs
 weight: 50
 url: /net/aspose.words/conditionalstylecollection/evenrowbanding/

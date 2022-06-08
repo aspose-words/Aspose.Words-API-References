@@ -1,7 +1,7 @@
 ---
 title: RunCollection
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Provides typed access to a collection of Run./run nodes.
 type: docs
 weight: 4520
 url: /net/aspose.words/runcollection/

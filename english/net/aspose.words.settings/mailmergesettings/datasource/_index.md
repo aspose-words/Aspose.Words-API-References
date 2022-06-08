@@ -1,7 +1,7 @@
 ---
 title: DataSource
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies the path to the mail-merge data source. The default value is an empty string.
 type: docs
 weight: 60
 url: /net/aspose.words.settings/mailmergesettings/datasource/

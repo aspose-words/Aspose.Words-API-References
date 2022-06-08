@@ -1,7 +1,7 @@
 ---
 title: Weight
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Defines the brush thickness that strokes the path of a shape in points.
 type: docs
 weight: 200
 url: /net/aspose.words.drawing/stroke/weight/

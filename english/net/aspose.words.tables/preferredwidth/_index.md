@@ -1,7 +1,7 @@
 ---
 title: PreferredWidth
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Represents a value and its unit of measure that is used to specify the preferred width of a table or a cell.
 type: docs
 weight: 5940
 url: /net/aspose.words.tables/preferredwidth/

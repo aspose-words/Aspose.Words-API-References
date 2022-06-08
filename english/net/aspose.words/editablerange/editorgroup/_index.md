@@ -1,7 +1,7 @@
 ---
 title: EditorGroup
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Returns or sets an alias or editing group which shall be used to determine if the current user shall be allowed to edit this editable range.
 type: docs
 weight: 30
 url: /net/aspose.words/editablerange/editorgroup/

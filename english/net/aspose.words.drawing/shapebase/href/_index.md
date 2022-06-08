@@ -1,7 +1,7 @@
 ---
 title: HRef
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets the full hyperlink address for a shape.
 type: docs
 weight: 220
 url: /net/aspose.words.drawing/shapebase/href/

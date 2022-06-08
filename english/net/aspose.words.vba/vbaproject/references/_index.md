@@ -1,7 +1,7 @@
 ---
 title: References
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets a collection of VBA project references.
 type: docs
 weight: 60
 url: /net/aspose.words.vba/vbaproject/references/

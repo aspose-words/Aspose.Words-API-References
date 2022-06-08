@@ -1,7 +1,7 @@
 ---
 title: CoordOrigin
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: The coordinates at the top-left corner of the containing block of this shape.
 type: docs
 weight: 110
 url: /net/aspose.words.drawing/shapebase/coordorigin/

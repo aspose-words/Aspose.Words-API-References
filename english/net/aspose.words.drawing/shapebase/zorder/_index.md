@@ -1,7 +1,7 @@
 ---
 title: ZOrder
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Determines the display order of overlapping shapes.
 type: docs
 weight: 540
 url: /net/aspose.words.drawing/shapebase/zorder/

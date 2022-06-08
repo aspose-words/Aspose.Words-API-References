@@ -1,7 +1,7 @@
 ---
 title: UlTrailSpace
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Underline All Trailing Spaces.
 type: docs
 weight: 580
 url: /net/aspose.words.settings/compatibilityoptions/ultrailspace/

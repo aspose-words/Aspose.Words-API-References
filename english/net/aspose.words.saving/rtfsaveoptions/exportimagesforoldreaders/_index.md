@@ -1,7 +1,7 @@
 ---
 title: ExportImagesForOldReaders
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies whether the keywords for old readers are written to RTF or not. This can significantly affect the size of the RTF document. Default value is true.
 type: docs
 weight: 30
 url: /net/aspose.words.saving/rtfsaveoptions/exportimagesforoldreaders/

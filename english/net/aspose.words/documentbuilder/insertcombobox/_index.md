@@ -1,7 +1,7 @@
 ---
 title: InsertComboBox
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Inserts a combobox form field at the current position.
 type: docs
 weight: 280
 url: /net/aspose.words/documentbuilder/insertcombobox/

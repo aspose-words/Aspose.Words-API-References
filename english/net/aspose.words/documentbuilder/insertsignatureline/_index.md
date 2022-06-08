@@ -1,7 +1,7 @@
 ---
 title: InsertSignatureLine
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Inserts a signature line at the current position.
 type: docs
 weight: 420
 url: /net/aspose.words/documentbuilder/insertsignatureline/

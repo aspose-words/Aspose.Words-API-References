@@ -1,7 +1,7 @@
 ---
 title: LastColumn
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets the zero-based index of the last column of the table column range associated with the bookmark.
 type: docs
 weight: 50
 url: /net/aspose.words/bookmark/lastcolumn/

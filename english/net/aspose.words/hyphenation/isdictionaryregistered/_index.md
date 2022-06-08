@@ -1,7 +1,7 @@
 ---
 title: IsDictionaryRegistered
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Returns False if for the specified language there is no dictionary registered or if registered is Null dictionary True otherwise.
 type: docs
 weight: 30
 url: /net/aspose.words/hyphenation/isdictionaryregistered/

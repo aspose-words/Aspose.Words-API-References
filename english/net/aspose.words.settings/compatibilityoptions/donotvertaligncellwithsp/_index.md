@@ -1,7 +1,7 @@
 ---
 title: DoNotVertAlignCellWithSp
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Dont Vertically Align Cells Containing Floating Objects.
 type: docs
 weight: 230
 url: /net/aspose.words.settings/compatibilityoptions/donotvertaligncellwithsp/

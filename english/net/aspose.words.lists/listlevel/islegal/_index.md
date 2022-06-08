@@ -1,7 +1,7 @@
 ---
 title: IsLegal
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: True if the level turns all inherited numbers to Arabic false if it preserves their number style.
 type: docs
 weight: 50
 url: /net/aspose.words.lists/listlevel/islegal/

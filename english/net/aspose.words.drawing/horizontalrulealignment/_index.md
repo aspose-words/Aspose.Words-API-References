@@ -1,7 +1,7 @@
 ---
 title: HorizontalRuleAlignment
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Represents the alignment for the specified horizontal rule.
 type: docs
 weight: 910
 url: /net/aspose.words.drawing/horizontalrulealignment/

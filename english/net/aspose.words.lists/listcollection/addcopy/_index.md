@@ -1,7 +1,7 @@
 ---
 title: AddCopy
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Creates a new list by copying the specified list and adding it to the collection of lists in the document.
 type: docs
 weight: 50
 url: /net/aspose.words.lists/listcollection/addcopy/

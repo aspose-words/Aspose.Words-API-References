@@ -1,7 +1,7 @@
 ---
 title: Author
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets the author of this revision. Can not be empty string or null.
 type: docs
 weight: 10
 url: /net/aspose.words/revision/author/

@@ -1,7 +1,7 @@
 ---
 title: CustomNumberStyleFormat
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets the custom number style format for this list level. For example a ç ĝ ....
 type: docs
 weight: 20
 url: /net/aspose.words.lists/listlevel/customnumberstyleformat/

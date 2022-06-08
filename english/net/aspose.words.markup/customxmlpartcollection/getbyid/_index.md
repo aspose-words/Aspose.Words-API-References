@@ -1,7 +1,7 @@
 ---
 title: GetById
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Finds and returns a custom XML part by its identifier.
 type: docs
 weight: 70
 url: /net/aspose.words.markup/customxmlpartcollection/getbyid/

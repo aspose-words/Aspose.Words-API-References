@@ -1,7 +1,7 @@
 ---
 title: SourceFullName
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets the location of the picture.
 type: docs
 weight: 40
 url: /net/aspose.words.fields/fieldimport/sourcefullname/

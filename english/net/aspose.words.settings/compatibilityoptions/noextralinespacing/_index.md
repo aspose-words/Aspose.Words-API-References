@@ -1,7 +1,7 @@
 ---
 title: NoExtraLineSpacing
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Do Not Center Content on Lines With Exact Line Height.
 type: docs
 weight: 340
 url: /net/aspose.words.settings/compatibilityoptions/noextralinespacing/

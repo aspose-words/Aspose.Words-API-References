@@ -1,7 +1,7 @@
 ---
 title: FontSavingArgs
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Provides data for the FontSaving./ifontsavingcallback/fontsaving event.
 type: docs
 weight: 4720
 url: /net/aspose.words.saving/fontsavingargs/

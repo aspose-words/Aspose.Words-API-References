@@ -1,7 +1,7 @@
 ---
 title: NumberStyle
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies the number format for automatically numbered footnotes.
 type: docs
 weight: 20
 url: /net/aspose.words.notes/footnoteoptions/numberstyle/

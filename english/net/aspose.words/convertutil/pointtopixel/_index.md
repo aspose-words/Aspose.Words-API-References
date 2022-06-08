@@ -1,7 +1,7 @@
 ---
 title: PointToPixel
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Converts points to pixels at 96 dpi.
 type: docs
 weight: 60
 url: /net/aspose.words/convertutil/pointtopixel/

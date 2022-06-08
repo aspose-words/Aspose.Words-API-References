@@ -1,7 +1,7 @@
 ---
 title: IncludeCountryOrRegionName
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets whether to include the name of the country/region.
 type: docs
 weight: 40
 url: /net/aspose.words.fields/fieldaddressblock/includecountryorregionname/

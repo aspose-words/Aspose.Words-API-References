@@ -1,7 +1,7 @@
 ---
 title: DigitalSignatureType
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies the type of a digital signature.
 type: docs
 weight: 390
 url: /net/aspose.words.digitalsignatures/digitalsignaturetype/

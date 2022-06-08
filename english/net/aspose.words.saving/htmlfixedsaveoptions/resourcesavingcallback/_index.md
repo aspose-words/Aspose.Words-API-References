@@ -1,7 +1,7 @@
 ---
 title: ResourceSavingCallback
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Allows to control how resources images fonts and css are saved when a document is exported to fixed page Html format.
 type: docs
 weight: 130
 url: /net/aspose.words.saving/htmlfixedsaveoptions/resourcesavingcallback/

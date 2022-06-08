@@ -1,7 +1,7 @@
 ---
 title: FieldNumChars
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Implements the NUMCHARS field.
 type: docs
 weight: 2020
 url: /net/aspose.words.fields/fieldnumchars/

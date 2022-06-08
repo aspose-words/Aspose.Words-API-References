@@ -1,7 +1,7 @@
 ---
 title: VerticalAnchor
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies the vertical alignment of the text within a shape.
 type: docs
 weight: 110
 url: /net/aspose.words.drawing/textbox/verticalanchor/

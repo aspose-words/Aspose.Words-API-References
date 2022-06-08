@@ -1,7 +1,7 @@
 ---
 title: SizeInPoints
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets the size of the shape in points.
 type: docs
 weight: 460
 url: /net/aspose.words.drawing/shapebase/sizeinpoints/

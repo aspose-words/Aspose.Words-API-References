@@ -1,7 +1,7 @@
 ---
 title: CompareTo
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Compares the specified object to the current object.
 type: docs
 weight: 90
 url: /net/aspose.words.lists/list/compareto/

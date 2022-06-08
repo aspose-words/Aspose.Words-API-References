@@ -1,7 +1,7 @@
 ---
 title: PageSet
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets the pages to render. Default is all the pages in the document.
 type: docs
 weight: 90
 url: /net/aspose.words.saving/imagesaveoptions/pageset/

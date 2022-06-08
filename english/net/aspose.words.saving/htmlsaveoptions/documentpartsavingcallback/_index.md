@@ -1,7 +1,7 @@
 ---
 title: DocumentPartSavingCallback
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Allows to control how document parts are saved when a document is saved to HTML or EPUB.
 type: docs
 weight: 70
 url: /net/aspose.words.saving/htmlsaveoptions/documentpartsavingcallback/

@@ -1,7 +1,7 @@
 ---
 title: OoxmlSaveOptions
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Can be used to specify additional options when saving a document into the Docx Docm Dotx Dotm or FlatOpc format.
 type: docs
 weight: 5020
 url: /net/aspose.words.saving/ooxmlsaveoptions/

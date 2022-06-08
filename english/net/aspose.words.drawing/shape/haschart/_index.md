@@ -1,7 +1,7 @@
 ---
 title: HasChart
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Returns true if this Shape has a Chartaspose.words.drawing/shape/chart.
 type: docs
 weight: 70
 url: /net/aspose.words.drawing/shape/haschart/

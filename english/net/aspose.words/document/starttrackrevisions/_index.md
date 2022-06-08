@@ -1,7 +1,7 @@
 ---
 title: StartTrackRevisions
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Starts automatically marking all further changes you make to the document programmatically as revision changes.
 type: docs
 weight: 690
 url: /net/aspose.words/document/starttrackrevisions/

@@ -1,7 +1,7 @@
 ---
 title: PdfLoadOptions
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Allows to specify additional options when loading Pdf document into a Document../aspose.words/document object.
 type: docs
 weight: 3420
 url: /net/aspose.words.loading/pdfloadoptions/

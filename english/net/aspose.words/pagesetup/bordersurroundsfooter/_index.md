@@ -1,7 +1,7 @@
 ---
 title: BorderSurroundsFooter
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies whether the page border includes or excludes the footer.
 type: docs
 weight: 60
 url: /net/aspose.words/pagesetup/bordersurroundsfooter/

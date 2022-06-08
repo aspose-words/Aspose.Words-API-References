@@ -1,7 +1,7 @@
 ---
 title: Index
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies the index of the containing element. This index shall determine which of the parents children collection this element applies to. Default value is 0.
 type: docs
 weight: 10
 url: /net/aspose.words.drawing.charts/chartdatalabel/index/

@@ -1,7 +1,7 @@
 ---
 title: PageStartingNumber
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets the starting page number of the section.
 type: docs
 weight: 320
 url: /net/aspose.words/pagesetup/pagestartingnumber/

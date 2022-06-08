@@ -1,7 +1,7 @@
 ---
 title: LogBase
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets the logarithmic base for a logarithmic axis.
 type: docs
 weight: 20
 url: /net/aspose.words.drawing.charts/axisscaling/logbase/

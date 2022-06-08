@@ -1,7 +1,7 @@
 ---
 title: LayoutFlow
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Determines the flow of the text layout in a shape.
 type: docs
 weight: 60
 url: /net/aspose.words.drawing/textbox/layoutflow/

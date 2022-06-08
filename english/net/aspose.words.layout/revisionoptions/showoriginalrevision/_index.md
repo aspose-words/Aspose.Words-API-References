@@ -1,7 +1,7 @@
 ---
 title: ShowOriginalRevision
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Allows to specify whether the original text should be shown instead of revised one. Default value is False.
 type: docs
 weight: 170
 url: /net/aspose.words.layout/revisionoptions/showoriginalrevision/

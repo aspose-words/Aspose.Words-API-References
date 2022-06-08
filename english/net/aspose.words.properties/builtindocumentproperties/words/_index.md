@@ -1,7 +1,7 @@
 ---
 title: Words
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Represents an estimate of the number of words in the document.
 type: docs
 weight: 330
 url: /net/aspose.words.properties/builtindocumentproperties/words/

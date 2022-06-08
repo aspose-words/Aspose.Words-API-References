@@ -1,7 +1,7 @@
 ---
 title: StoryType
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Returns Textbox.
 type: docs
 weight: 170
 url: /net/aspose.words.drawing/shape/storytype/

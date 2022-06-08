@@ -1,7 +1,7 @@
 ---
 title: ImageSize
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Initializes width and height to the given values in pixels. Initializes resolution to 96 dpi.
 type: docs
 weight: 10
 url: /net/aspose.words.drawing/imagesize/imagesize/

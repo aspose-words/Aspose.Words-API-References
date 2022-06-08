@@ -1,7 +1,7 @@
 ---
 title: GetEnumerator
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Provides support for the for each style iteration over the child nodes of this node.
 type: docs
 weight: 110
 url: /net/aspose.words/compositenode/getenumerator/

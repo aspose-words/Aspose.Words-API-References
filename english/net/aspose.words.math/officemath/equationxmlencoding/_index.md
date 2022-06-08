@@ -1,7 +1,7 @@
 ---
 title: EquationXmlEncoding
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets/sets an encoding that was used to encode equation XML if this office math object is read from equation XML. We use the encoding on saving a document to write in same encoding that it was read.
 type: docs
 weight: 20
 url: /net/aspose.words.math/officemath/equationxmlencoding/

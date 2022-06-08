@@ -1,7 +1,7 @@
 ---
 title: SearchFromBottom
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets whether to search from the bottom of the current page rather from the top.
 type: docs
 weight: 60
 url: /net/aspose.words.fields/fieldstyleref/searchfrombottom/

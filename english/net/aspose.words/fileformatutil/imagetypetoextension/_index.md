@@ -1,7 +1,7 @@
 ---
 title: ImageTypeToExtension
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Converts an Aspose.Words image type enumerated value into a file extension. The returned extension is a lower-case string with a leading dot.
 type: docs
 weight: 50
 url: /net/aspose.words/fileformatutil/imagetypetoextension/

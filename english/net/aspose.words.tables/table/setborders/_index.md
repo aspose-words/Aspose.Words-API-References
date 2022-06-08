@@ -1,7 +1,7 @@
 ---
 title: SetBorders
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Sets all table borders to the specified line style width and color.
 type: docs
 weight: 420
 url: /net/aspose.words.tables/table/setborders/

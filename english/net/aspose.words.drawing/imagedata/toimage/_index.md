@@ -1,7 +1,7 @@
 ---
 title: ToImage
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets the image stored in the shape as a Image object.
 type: docs
 weight: 220
 url: /net/aspose.words.drawing/imagedata/toimage/

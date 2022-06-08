@@ -1,7 +1,7 @@
 ---
 title: FieldFormDropDown
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Implements the FORMDROPDOWN field.
 type: docs
 weight: 1730
 url: /net/aspose.words.fields/fieldformdropdown/

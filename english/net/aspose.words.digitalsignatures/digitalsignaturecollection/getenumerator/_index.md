@@ -1,7 +1,7 @@
 ---
 title: GetEnumerator
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Returns a dictionary enumerator object that can be used to iterate over all items in the collection.
 type: docs
 weight: 50
 url: /net/aspose.words.digitalsignatures/digitalsignaturecollection/getenumerator/

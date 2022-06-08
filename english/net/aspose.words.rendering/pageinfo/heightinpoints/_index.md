@@ -1,7 +1,7 @@
 ---
 title: HeightInPoints
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets the height of the page in points.
 type: docs
 weight: 10
 url: /net/aspose.words.rendering/pageinfo/heightinpoints/

@@ -1,7 +1,7 @@
 ---
 title: Initial
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Returns or sets the initials of the user associated with a specific comment.
 type: docs
 weight: 70
 url: /net/aspose.words/comment/initial/

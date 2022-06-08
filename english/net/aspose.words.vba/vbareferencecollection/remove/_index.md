@@ -1,7 +1,7 @@
 ---
 title: Remove
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Removes the first occurrence of a specified VbaReference item from the collection.
 type: docs
 weight: 30
 url: /net/aspose.words.vba/vbareferencecollection/remove/

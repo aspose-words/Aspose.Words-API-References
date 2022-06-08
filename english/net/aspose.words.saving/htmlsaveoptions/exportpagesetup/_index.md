@@ -1,7 +1,7 @@
 ---
 title: ExportPageSetup
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies whether page setup is exported to HTML MHTML or EPUB. Default is false.
 type: docs
 weight: 230
 url: /net/aspose.words.saving/htmlsaveoptions/exportpagesetup/

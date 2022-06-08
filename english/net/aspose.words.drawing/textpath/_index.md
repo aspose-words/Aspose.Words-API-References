@@ -1,7 +1,7 @@
 ---
 title: TextPath
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Defines the text and formatting of the text path of a WordArt object.
 type: docs
 weight: 1180
 url: /net/aspose.words.drawing/textpath/

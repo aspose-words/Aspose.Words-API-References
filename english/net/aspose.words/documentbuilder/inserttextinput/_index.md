@@ -1,7 +1,7 @@
 ---
 title: InsertTextInput
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Inserts a text form field at the current position.
 type: docs
 weight: 450
 url: /net/aspose.words/documentbuilder/inserttextinput/

@@ -1,7 +1,7 @@
 ---
 title: VisitBookmarkStart
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Called when a start of a bookmark is encountered in the document.
 type: docs
 weight: 50
 url: /net/aspose.words/documentvisitor/visitbookmarkstart/

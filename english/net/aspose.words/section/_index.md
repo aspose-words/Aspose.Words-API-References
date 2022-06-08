@@ -1,7 +1,7 @@
 ---
 title: Section
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Represents a single section in a document.
 type: docs
 weight: 5390
 url: /net/aspose.words/section/

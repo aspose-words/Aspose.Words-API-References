@@ -1,7 +1,7 @@
 ---
 title: IsBold
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets whether to apply bold formatting to the page number for the entry.
 type: docs
 weight: 30
 url: /net/aspose.words.fields/fieldta/isbold/

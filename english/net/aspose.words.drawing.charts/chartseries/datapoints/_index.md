@@ -1,7 +1,7 @@
 ---
 title: DataPoints
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Returns a collection of formatting objects for all data points in this series.
 type: docs
 weight: 30
 url: /net/aspose.words.drawing.charts/chartseries/datapoints/

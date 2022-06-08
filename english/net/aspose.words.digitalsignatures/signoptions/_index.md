@@ -1,7 +1,7 @@
 ---
 title: SignOptions
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Allows to specify options for document signing.
 type: docs
 weight: 410
 url: /net/aspose.words.digitalsignatures/signoptions/

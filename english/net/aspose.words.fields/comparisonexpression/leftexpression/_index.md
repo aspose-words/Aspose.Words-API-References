@@ -1,7 +1,7 @@
 ---
 title: LeftExpression
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets the left expression.
 type: docs
 weight: 20
 url: /net/aspose.words.fields/comparisonexpression/leftexpression/

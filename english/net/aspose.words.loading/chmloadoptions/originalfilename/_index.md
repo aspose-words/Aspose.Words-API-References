@@ -1,7 +1,7 @@
 ---
 title: OriginalFileName
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: The name of the CHM file. Default value is null.
 type: docs
 weight: 20
 url: /net/aspose.words.loading/chmloadoptions/originalfilename/

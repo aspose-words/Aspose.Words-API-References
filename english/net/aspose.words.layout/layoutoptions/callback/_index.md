@@ -1,7 +1,7 @@
 ---
 title: Callback
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets IPageLayoutCallbackaspose.words.layout/ipagelayoutcallback implementation used by page layout model.
 type: docs
 weight: 20
 url: /net/aspose.words.layout/layoutoptions/callback/

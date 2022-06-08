@@ -1,7 +1,7 @@
 ---
 title: Height
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets the height of the specified frame.
 type: docs
 weight: 10
 url: /net/aspose.words/frameformat/height/

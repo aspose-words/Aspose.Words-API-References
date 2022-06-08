@@ -1,7 +1,7 @@
 ---
 title: Save
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Renders the shape into an image and saves into a file.
 type: docs
 weight: 90
 url: /net/aspose.words.rendering/noderendererbase/save/

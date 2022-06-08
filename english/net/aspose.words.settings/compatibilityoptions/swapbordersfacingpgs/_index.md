@@ -1,7 +1,7 @@
 ---
 title: SwapBordersFacingPgs
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Swap Paragraph Borders on Odd Numbered Pages.
 type: docs
 weight: 530
 url: /net/aspose.words.settings/compatibilityoptions/swapbordersfacingpgs/

@@ -1,7 +1,7 @@
 ---
 title: ImageSavingCallback
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Allows to control how images are saved when a document is saved to Markdown format.
 type: docs
 weight: 30
 url: /net/aspose.words.saving/markdownsaveoptions/imagesavingcallback/

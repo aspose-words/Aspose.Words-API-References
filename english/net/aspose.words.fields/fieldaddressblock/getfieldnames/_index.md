@@ -1,7 +1,7 @@
 ---
 title: GetFieldNames
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Returns a collection of mail merge field names used by the field.
 type: docs
 weight: 70
 url: /net/aspose.words.fields/fieldaddressblock/getfieldnames/

@@ -1,7 +1,7 @@
 ---
 title: ParentParagraph
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Retrieves the parent Paragraphaspose.words/paragraph of this node.
 type: docs
 weight: 60
 url: /net/aspose.words.math/officemath/parentparagraph/

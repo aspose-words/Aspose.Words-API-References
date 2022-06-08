@@ -1,7 +1,7 @@
 ---
 title: EndField
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Returns an end field for the region.
 type: docs
 weight: 10
 url: /net/aspose.words.mailmerging/mailmergeregioninfo/endfield/

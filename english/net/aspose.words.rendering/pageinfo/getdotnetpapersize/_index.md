@@ -1,7 +1,7 @@
 ---
 title: GetDotNetPaperSize
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets the PaperSize object suitable for printing the page represented by this PageInfoaspose.words.rendering/pageinfo.
 type: docs
 weight: 70
 url: /net/aspose.words.rendering/pageinfo/getdotnetpapersize/

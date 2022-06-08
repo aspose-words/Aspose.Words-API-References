@@ -1,7 +1,7 @@
 ---
 title: Tables
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets a collection of tables that are immediate children of the story.
 type: docs
 weight: 50
 url: /net/aspose.words/story/tables/

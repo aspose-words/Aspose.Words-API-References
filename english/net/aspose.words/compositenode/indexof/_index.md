@@ -1,7 +1,7 @@
 ---
 title: IndexOf
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Returns the index of the specified child node in the child node array.
 type: docs
 weight: 130
 url: /net/aspose.words/compositenode/indexof/

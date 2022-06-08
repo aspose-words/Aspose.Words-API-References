@@ -1,7 +1,7 @@
 ---
 title: VisitSectionStart
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Called when enumeration of a section has started.
 type: docs
 weight: 380
 url: /net/aspose.words/documentvisitor/visitsectionstart/

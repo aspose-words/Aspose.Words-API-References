@@ -1,7 +1,7 @@
 ---
 title: Save
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Saves the current table substitution settings to file.
 type: docs
 weight: 70
 url: /net/aspose.words.fonts/tablesubstitutionrule/save/

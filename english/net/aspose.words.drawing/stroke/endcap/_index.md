@@ -1,7 +1,7 @@
 ---
 title: EndCap
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Defines the cap style for the end of a stroke.
 type: docs
 weight: 80
 url: /net/aspose.words.drawing/stroke/endcap/

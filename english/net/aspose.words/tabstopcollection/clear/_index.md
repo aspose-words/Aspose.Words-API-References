@@ -1,7 +1,7 @@
 ---
 title: Clear
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Deletes all tab stop positions.
 type: docs
 weight: 60
 url: /net/aspose.words/tabstopcollection/clear/

@@ -1,7 +1,7 @@
 ---
 title: RegionEndTag
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets a mail merge region end tag.
 type: docs
 weight: 90
 url: /net/aspose.words.mailmerging/mailmerge/regionendtag/

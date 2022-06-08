@@ -1,7 +1,7 @@
 ---
 title: GetEnumerator
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Provides a simple foreach style iteration over the collection of nodes.
 type: docs
 weight: 60
 url: /net/aspose.words/nodecollection/getenumerator/

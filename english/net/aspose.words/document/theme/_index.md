@@ -1,7 +1,7 @@
 ---
 title: Theme
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets the Themeaspose.words/document/theme object for this document.
 type: docs
 weight: 400
 url: /net/aspose.words/document/theme/

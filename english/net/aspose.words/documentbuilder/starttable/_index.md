@@ -1,7 +1,7 @@
 ---
 title: StartTable
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Starts a table in the document.
 type: docs
 weight: 610
 url: /net/aspose.words/documentbuilder/starttable/

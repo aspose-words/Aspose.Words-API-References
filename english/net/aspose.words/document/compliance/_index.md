@@ -1,7 +1,7 @@
 ---
 title: Compliance
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets the OOXML compliance version determined from the loaded document content. Makes sense only for OOXML documents.
 type: docs
 weight: 60
 url: /net/aspose.words/document/compliance/

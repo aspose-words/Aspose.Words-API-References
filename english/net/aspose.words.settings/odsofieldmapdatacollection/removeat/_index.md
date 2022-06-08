@@ -1,7 +1,7 @@
 ---
 title: RemoveAt
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Removes the element at the specified index.
 type: docs
 weight: 70
 url: /net/aspose.words.settings/odsofieldmapdatacollection/removeat/

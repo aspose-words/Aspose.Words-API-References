@@ -1,7 +1,7 @@
 ---
 title: ImageHeight
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies the image height for the image to insert into the document.
 type: docs
 weight: 30
 url: /net/aspose.words.mailmerging/imagefieldmergingargs/imageheight/

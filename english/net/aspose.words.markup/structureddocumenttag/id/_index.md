@@ -1,7 +1,7 @@
 ---
 title: Id
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies a unique read-only persistent numerical Id for this SDT.
 type: docs
 weight: 140
 url: /net/aspose.words.markup/structureddocumenttag/id/

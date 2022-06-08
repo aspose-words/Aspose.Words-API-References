@@ -1,7 +1,7 @@
 ---
 title: StyleIdentifier
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets the locale independent style identifier of the character style applied to this formatting.
 type: docs
 weight: 410
 url: /net/aspose.words/font/styleidentifier/

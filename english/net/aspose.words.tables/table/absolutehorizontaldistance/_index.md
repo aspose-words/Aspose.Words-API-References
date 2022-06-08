@@ -1,7 +1,7 @@
 ---
 title: AbsoluteHorizontalDistance
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets absolute horizontal floating table position specified by the table properties in points. Default value is 0.
 type: docs
 weight: 20
 url: /net/aspose.words.tables/table/absolutehorizontaldistance/

@@ -1,7 +1,7 @@
 ---
 title: Size
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets chart marker size. Default value is 7.
 type: docs
 weight: 20
 url: /net/aspose.words.drawing.charts/chartmarker/size/

@@ -1,7 +1,7 @@
 ---
 title: Author
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Returns or sets the author name for a comment.
 type: docs
 weight: 30
 url: /net/aspose.words/comment/author/

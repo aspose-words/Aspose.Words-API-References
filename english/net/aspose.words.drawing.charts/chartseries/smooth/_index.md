@@ -1,7 +1,7 @@
 ---
 title: Smooth
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Allows to specify whether the line connecting the points on the chart shall be smoothed using Catmull-Rom splines.
 type: docs
 weight: 110
 url: /net/aspose.words.drawing.charts/chartseries/smooth/

@@ -1,7 +1,7 @@
 ---
 title: SelectNodes
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Selects a list of nodes matching the XPath expression.
 type: docs
 weight: 200
 url: /net/aspose.words/compositenode/selectnodes/

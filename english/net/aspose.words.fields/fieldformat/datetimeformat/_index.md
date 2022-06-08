@@ -1,7 +1,7 @@
 ---
 title: DateTimeFormat
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets a formatting that is applied to a date and time field result. Corresponds to the  switch.
 type: docs
 weight: 10
 url: /net/aspose.words.fields/fieldformat/datetimeformat/

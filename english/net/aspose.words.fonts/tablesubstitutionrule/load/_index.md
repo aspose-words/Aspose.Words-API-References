@@ -1,7 +1,7 @@
 ---
 title: Load
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Loads table substitution settings from XML file.
 type: docs
 weight: 30
 url: /net/aspose.words.fonts/tablesubstitutionrule/load/

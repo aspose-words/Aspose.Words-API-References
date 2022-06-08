@@ -1,7 +1,7 @@
 ---
 title: StructuredDocumentTagRangeEnd
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Represents an end of ranged structured document tag which accepts multi-sections content. See also StructuredDocumentTagRangeStart./structureddocumenttagrangestart node.
 type: docs
 weight: 3790
 url: /net/aspose.words.markup/structureddocumenttagrangeend/

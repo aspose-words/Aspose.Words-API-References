@@ -1,7 +1,7 @@
 ---
 title: FieldUpdating
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: A user defined method that is called just before a field is updated.
 type: docs
 weight: 20
 url: /net/aspose.words.fields/ifieldupdatingcallback/fieldupdating/

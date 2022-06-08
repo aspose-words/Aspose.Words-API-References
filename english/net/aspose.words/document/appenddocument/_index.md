@@ -1,7 +1,7 @@
 ---
 title: AppendDocument
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Appends the specified document to the end of this document.
 type: docs
 weight: 510
 url: /net/aspose.words/document/appenddocument/

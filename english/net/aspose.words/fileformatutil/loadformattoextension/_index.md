@@ -1,7 +1,7 @@
 ---
 title: LoadFormatToExtension
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Converts a load format enumerated value into a file extension. The returned extension is a lower-case string with a leading dot.
 type: docs
 weight: 60
 url: /net/aspose.words/fileformatutil/loadformattoextension/

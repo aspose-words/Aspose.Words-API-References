@@ -1,7 +1,7 @@
 ---
 title: InsertField
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Inserts a field into this paragraph.
 type: docs
 weight: 270
 url: /net/aspose.words/paragraph/insertfield/

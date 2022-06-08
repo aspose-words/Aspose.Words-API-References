@@ -1,7 +1,7 @@
 ---
 title: SpellingChecked
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Returns true if the document has been checked for spelling.
 type: docs
 weight: 390
 url: /net/aspose.words/document/spellingchecked/

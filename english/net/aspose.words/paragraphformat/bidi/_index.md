@@ -1,7 +1,7 @@
 ---
 title: Bidi
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets whether this is a right-to-left paragraph.
 type: docs
 weight: 40
 url: /net/aspose.words/paragraphformat/bidi/

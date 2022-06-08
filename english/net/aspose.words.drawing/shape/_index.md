@@ -1,7 +1,7 @@
 ---
 title: Shape
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Represents an object in the drawing layer such as an AutoShape textbox freeform OLE object ActiveX control or picture.
 type: docs
 weight: 1080
 url: /net/aspose.words.drawing/shape/

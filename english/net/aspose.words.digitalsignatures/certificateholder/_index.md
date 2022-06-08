@@ -1,7 +1,7 @@
 ---
 title: CertificateHolder
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Represents a holder of X509Certificate2 instance.
 type: docs
 weight: 360
 url: /net/aspose.words.digitalsignatures/certificateholder/

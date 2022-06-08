@@ -1,7 +1,7 @@
 ---
 title: Styles
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Returns a collection of styles defined in the document.
 type: docs
 weight: 80
 url: /net/aspose.words/documentbase/styles/

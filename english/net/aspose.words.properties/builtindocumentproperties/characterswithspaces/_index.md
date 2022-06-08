@@ -1,7 +1,7 @@
 ---
 title: CharactersWithSpaces
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Represents an estimate of the number of characters including spaces in the document.
 type: docs
 weight: 50
 url: /net/aspose.words.properties/builtindocumentproperties/characterswithspaces/

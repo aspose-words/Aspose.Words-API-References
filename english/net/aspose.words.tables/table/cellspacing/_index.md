@@ -1,7 +1,7 @@
 ---
 title: CellSpacing
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets the amount of space in points between the cells.
 type: docs
 weight: 100
 url: /net/aspose.words.tables/table/cellspacing/

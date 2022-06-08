@@ -1,7 +1,7 @@
 ---
 title: DistanceFromText
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets distance of the border from text in points.
 type: docs
 weight: 40
 url: /net/aspose.words/bordercollection/distancefromtext/

@@ -1,7 +1,7 @@
 ---
 title: DeletePictureBullet
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Deletes picture bullet for the current list level.
 type: docs
 weight: 160
 url: /net/aspose.words.lists/listlevel/deletepicturebullet/

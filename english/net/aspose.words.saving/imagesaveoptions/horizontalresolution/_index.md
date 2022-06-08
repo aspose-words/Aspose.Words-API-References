@@ -1,7 +1,7 @@
 ---
 title: HorizontalResolution
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets the horizontal resolution for the generated images in dots per inch.
 type: docs
 weight: 30
 url: /net/aspose.words.saving/imagesaveoptions/horizontalresolution/

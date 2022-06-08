@@ -1,7 +1,7 @@
 ---
 title: ContinuousSectionRestart
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Represents different behaviors when computing page numbers in a continuous section that restarts page numbering.
 type: docs
 weight: 3050
 url: /net/aspose.words.layout/continuoussectionrestart/

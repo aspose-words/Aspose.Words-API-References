@@ -1,7 +1,7 @@
 ---
 title: GetShapeRenderer
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Creates and returns an object that can be used to render this shape into an image.
 type: docs
 weight: 590
 url: /net/aspose.words.drawing/shapebase/getshaperenderer/

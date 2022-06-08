@@ -1,7 +1,7 @@
 ---
 title: StyleCollection
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: A collection of Style objects that represent both the built-in and user-defined styles in a document.
 type: docs
 weight: 5790
 url: /net/aspose.words/stylecollection/

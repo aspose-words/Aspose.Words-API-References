@@ -1,7 +1,7 @@
 ---
 title: Remove
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Removes the specified value from the collection.
 type: docs
 weight: 80
 url: /net/aspose.words.markup/customxmlschemacollection/remove/

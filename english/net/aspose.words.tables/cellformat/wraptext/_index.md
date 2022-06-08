@@ -1,7 +1,7 @@
 ---
 title: WrapText
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: If true wrap text for the cell.
 type: docs
 weight: 140
 url: /net/aspose.words.tables/cellformat/wraptext/

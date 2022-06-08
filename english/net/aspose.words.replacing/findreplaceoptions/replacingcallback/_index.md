@@ -1,7 +1,7 @@
 ---
 title: ReplacingCallback
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: The user-defined method which is called before every replace occurrence.
 type: docs
 weight: 130
 url: /net/aspose.words.replacing/findreplaceoptions/replacingcallback/

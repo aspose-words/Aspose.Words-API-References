@@ -1,7 +1,7 @@
 ---
 title: InsertShape
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Inserts inline shape with specified type and size.
 type: docs
 weight: 410
 url: /net/aspose.words/documentbuilder/insertshape/

@@ -1,7 +1,7 @@
 ---
 title: Password
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets a password to encrypt document.
 type: docs
 weight: 40
 url: /net/aspose.words.saving/odtsaveoptions/password/

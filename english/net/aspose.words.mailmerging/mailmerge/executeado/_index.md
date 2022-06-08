@@ -1,7 +1,7 @@
 ---
 title: ExecuteADO
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Performs mail merge from an ADO Recordset object into the document.
 type: docs
 weight: 190
 url: /net/aspose.words.mailmerging/mailmerge/executeado/

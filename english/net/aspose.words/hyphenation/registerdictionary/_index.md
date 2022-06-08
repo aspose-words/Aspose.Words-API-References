@@ -1,7 +1,7 @@
 ---
 title: RegisterDictionary
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Registers and loads a hyphenation dictionary for the specified language from a stream. Throws if dictionary cannot be read or has invalid format.
 type: docs
 weight: 40
 url: /net/aspose.words/hyphenation/registerdictionary/

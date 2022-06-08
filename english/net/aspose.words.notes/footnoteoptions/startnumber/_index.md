@@ -1,7 +1,7 @@
 ---
 title: StartNumber
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies the starting number or character for the first automatically numbered footnotes.
 type: docs
 weight: 50
 url: /net/aspose.words.notes/footnoteoptions/startnumber/

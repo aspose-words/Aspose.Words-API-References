@@ -1,7 +1,7 @@
 ---
 title: DigitalSignature
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Represents a digital signature on a document and the result of its verification.
 type: docs
 weight: 370
 url: /net/aspose.words.digitalsignatures/digitalsignature/

@@ -1,7 +1,7 @@
 ---
 title: Type
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Returns the type of the font source.
 type: docs
 weight: 20
 url: /net/aspose.words.fonts/fontsourcebase/type/

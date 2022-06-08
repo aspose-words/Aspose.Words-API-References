@@ -1,7 +1,7 @@
 ---
 title: NewValue
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets an optional value that updates the property.
 type: docs
 weight: 30
 url: /net/aspose.words.fields/fieldinfo/newvalue/

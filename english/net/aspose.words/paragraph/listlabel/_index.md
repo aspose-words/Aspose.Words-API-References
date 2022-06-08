@@ -1,7 +1,7 @@
 ---
 title: ListLabel
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets a ListLabelaspose.words/paragraph/listlabel object that provides access to list numbering value and formatting for this paragraph.
 type: docs
 weight: 160
 url: /net/aspose.words/paragraph/listlabel/

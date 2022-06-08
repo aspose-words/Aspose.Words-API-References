@@ -1,7 +1,7 @@
 ---
 title: MailAsAttachment
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies that the documents produced during a mail merge operation should be emailed as an attachment rather than the body of the actual e-mail. The default value is false.
 type: docs
 weight: 120
 url: /net/aspose.words.settings/mailmergesettings/mailasattachment/

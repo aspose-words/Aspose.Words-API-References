@@ -1,7 +1,7 @@
 ---
 title: IsRestartAtEachSection
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies whether list should be restarted at each section. Default value is false.
 type: docs
 weight: 50
 url: /net/aspose.words.lists/list/isrestartateachsection/

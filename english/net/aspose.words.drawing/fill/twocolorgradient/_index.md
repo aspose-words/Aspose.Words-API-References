@@ -1,7 +1,7 @@
 ---
 title: TwoColorGradient
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Sets the specified fill to a two-color gradient.
 type: docs
 weight: 210
 url: /net/aspose.words.drawing/fill/twocolorgradient/

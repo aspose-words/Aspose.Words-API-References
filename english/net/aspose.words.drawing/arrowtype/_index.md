@@ -1,7 +1,7 @@
 ---
 title: ArrowType
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies the type of an arrow at a line end.
 type: docs
 weight: 480
 url: /net/aspose.words.drawing/arrowtype/

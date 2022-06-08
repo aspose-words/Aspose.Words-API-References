@@ -1,7 +1,7 @@
 ---
 title: Text
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets the text to retrieve.
 type: docs
 weight: 20
 url: /net/aspose.words.fields/fieldshape/text/

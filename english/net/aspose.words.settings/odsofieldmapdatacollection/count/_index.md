@@ -1,7 +1,7 @@
 ---
 title: Count
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets the number of elements contained in the collection.
 type: docs
 weight: 20
 url: /net/aspose.words.settings/odsofieldmapdatacollection/count/

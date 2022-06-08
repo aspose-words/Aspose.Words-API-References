@@ -1,7 +1,7 @@
 ---
 title: Name
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Returns the name of the property.
 type: docs
 weight: 30
 url: /net/aspose.words.properties/documentproperty/name/

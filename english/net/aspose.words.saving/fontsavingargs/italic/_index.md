@@ -1,7 +1,7 @@
 ---
 title: Italic
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Indicates whether the current font is italic.
 type: docs
 weight: 80
 url: /net/aspose.words.saving/fontsavingargs/italic/

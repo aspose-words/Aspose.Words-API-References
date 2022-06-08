@@ -1,7 +1,7 @@
 ---
 title: FirstParagraph
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets the first paragraph in the story.
 type: docs
 weight: 10
 url: /net/aspose.words/inlinestory/firstparagraph/

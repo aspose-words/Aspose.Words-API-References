@@ -1,7 +1,7 @@
 ---
 title: Destination
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies how Microsoft Word will output the results of a mail merge. The default value is Default.
 type: docs
 weight: 80
 url: /net/aspose.words.settings/mailmergesettings/destination/

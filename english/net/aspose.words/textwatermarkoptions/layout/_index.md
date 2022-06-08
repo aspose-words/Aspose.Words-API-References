@@ -1,7 +1,7 @@
 ---
 title: Layout
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets layout of the watermark. The default value is Diagonal.
 type: docs
 weight: 60
 url: /net/aspose.words/textwatermarkoptions/layout/

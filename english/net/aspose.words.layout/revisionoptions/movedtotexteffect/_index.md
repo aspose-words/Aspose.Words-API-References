@@ -1,7 +1,7 @@
 ---
 title: MovedToTextEffect
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Allows to specify the effect to be applied to the areas where content was moved to Moving. Default value is DoubleUnderline
 type: docs
 weight: 100
 url: /net/aspose.words.layout/revisionoptions/movedtotexteffect/

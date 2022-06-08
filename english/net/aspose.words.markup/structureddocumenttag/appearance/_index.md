@@ -1,7 +1,7 @@
 ---
 title: Appearance
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets/sets the appearance of a structured document tag.
 type: docs
 weight: 20
 url: /net/aspose.words.markup/structureddocumenttag/appearance/

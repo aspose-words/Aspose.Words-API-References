@@ -1,7 +1,7 @@
 ---
 title: CalendarType
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies the type of calendar for this SDT. Default is Default
 type: docs
 weight: 50
 url: /net/aspose.words.markup/structureddocumenttag/calendartype/

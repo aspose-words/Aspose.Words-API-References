@@ -1,7 +1,7 @@
 ---
 title: FieldSkipIf
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Implements the SKIPIF field.
 type: docs
 weight: 2230
 url: /net/aspose.words.fields/fieldskipif/

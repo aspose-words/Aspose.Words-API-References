@@ -1,7 +1,7 @@
 ---
 title: PrettyFormat
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: When true pretty formats output where applicable. Default value is false.
 type: docs
 weight: 120
 url: /net/aspose.words.saving/saveoptions/prettyformat/

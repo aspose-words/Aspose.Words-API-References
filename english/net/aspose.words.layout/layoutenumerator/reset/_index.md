@@ -1,7 +1,7 @@
 ---
 title: Reset
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Moves the enumerator to the first page of the document.
 type: docs
 weight: 160
 url: /net/aspose.words.layout/layoutenumerator/reset/

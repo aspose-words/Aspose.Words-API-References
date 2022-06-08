@@ -1,7 +1,7 @@
 ---
 title: Value
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Returns numeric value of axis bound.
 type: docs
 weight: 30
 url: /net/aspose.words.drawing.charts/axisbound/value/

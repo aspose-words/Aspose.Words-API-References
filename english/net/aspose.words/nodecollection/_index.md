@@ -1,7 +1,7 @@
 ---
 title: NodeCollection
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Represents a collection of nodes of a specific type.
 type: docs
 weight: 3910
 url: /net/aspose.words/nodecollection/

@@ -1,7 +1,7 @@
 ---
 title: BuildVersionInfo
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Provides information about the current product name and version.
 type: docs
 weight: 110
 url: /net/aspose.words/buildversioninfo/

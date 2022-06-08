@@ -1,7 +1,7 @@
 ---
 title: FirstRow
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets the first row style.
 type: docs
 weight: 70
 url: /net/aspose.words/conditionalstylecollection/firstrow/

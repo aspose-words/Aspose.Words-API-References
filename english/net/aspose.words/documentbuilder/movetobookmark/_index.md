@@ -1,7 +1,7 @@
 ---
 title: MoveToBookmark
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Moves the cursor to a bookmark.
 type: docs
 weight: 470
 url: /net/aspose.words/documentbuilder/movetobookmark/

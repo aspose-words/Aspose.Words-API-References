@@ -1,7 +1,7 @@
 ---
 title: BorderType
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies sides of a border.
 type: docs
 weight: 90
 url: /net/aspose.words/bordertype/

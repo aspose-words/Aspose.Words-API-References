@@ -1,7 +1,7 @@
 ---
 title: BuildAndInsert
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Builds and inserts a field into the document before the specified inline node.
 type: docs
 weight: 40
 url: /net/aspose.words.fields/fieldbuilder/buildandinsert/

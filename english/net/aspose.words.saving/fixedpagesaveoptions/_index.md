@@ -1,7 +1,7 @@
 ---
 title: FixedPageSaveOptions
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Contains common options that can be specified when saving a document into fixed page formats PDF XPS images etc.
 type: docs
 weight: 4710
 url: /net/aspose.words.saving/fixedpagesaveoptions/

@@ -1,7 +1,7 @@
 ---
 title: SetImage
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Sets the image that the shape displays.
 type: docs
 weight: 200
 url: /net/aspose.words.drawing/imagedata/setimage/

@@ -1,7 +1,7 @@
 ---
 title: IsVisible
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies whether the task pane shows as visible by default when the document opens.
 type: docs
 weight: 40
 url: /net/aspose.words.webextensions/taskpane/isvisible/

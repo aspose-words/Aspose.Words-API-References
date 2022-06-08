@@ -1,7 +1,7 @@
 ---
 title: Range
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Represents a contiguous area in a document.
 type: docs
 weight: 4220
 url: /net/aspose.words/range/

@@ -1,7 +1,7 @@
 ---
 title: FieldUserName
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Implements the USERNAME field.
 type: docs
 weight: 2400
 url: /net/aspose.words.fields/fieldusername/

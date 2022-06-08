@@ -1,7 +1,7 @@
 ---
 title: IsListItem
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: True when the paragraph is an item in a bulleted or numbered list.
 type: docs
 weight: 140
 url: /net/aspose.words/paragraphformat/islistitem/

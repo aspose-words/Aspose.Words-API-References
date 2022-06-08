@@ -1,7 +1,7 @@
 ---
 title: AxisX
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Provides access to properties of the X axis of the chart.
 type: docs
 weight: 10
 url: /net/aspose.words.drawing.charts/chart/axisx/

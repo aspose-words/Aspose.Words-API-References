@@ -1,7 +1,7 @@
 ---
 title: SelectFldWithFirstOrLastChar
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Select Field When First or Last Character Is Selected.
 type: docs
 weight: 410
 url: /net/aspose.words.settings/compatibilityoptions/selectfldwithfirstorlastchar/

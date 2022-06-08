@@ -1,7 +1,7 @@
 ---
 title: ToDateTime
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Returns the property value as DateTime in UTC.
 type: docs
 weight: 80
 url: /net/aspose.words.properties/documentproperty/todatetime/

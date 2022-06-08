@@ -1,7 +1,7 @@
 ---
 title: EndCap
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies line cap style.
 type: docs
 weight: 810
 url: /net/aspose.words.drawing/endcap/

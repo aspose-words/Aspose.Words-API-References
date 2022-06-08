@@ -1,7 +1,7 @@
 ---
 title: IndexOf
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Returns the zero-based index of the specified value in the collection.
 type: docs
 weight: 70
 url: /net/aspose.words.markup/customxmlschemacollection/indexof/

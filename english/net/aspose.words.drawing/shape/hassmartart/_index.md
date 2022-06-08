@@ -1,7 +1,7 @@
 ---
 title: HasSmartArt
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Returns true if this Shape has a SmartArt object.
 type: docs
 weight: 90
 url: /net/aspose.words.drawing/shape/hassmartart/

@@ -1,7 +1,7 @@
 ---
 title: Comments
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets the document comments.
 type: docs
 weight: 60
 url: /net/aspose.words.properties/builtindocumentproperties/comments/

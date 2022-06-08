@@ -1,7 +1,7 @@
 ---
 title: BorderAppliesTo
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies which pages the page border is printed on.
 type: docs
 weight: 30
 url: /net/aspose.words/pagesetup/borderappliesto/

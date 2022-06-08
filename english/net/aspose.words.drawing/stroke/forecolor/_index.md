@@ -1,7 +1,7 @@
 ---
 title: ForeColor
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets the foreground color of the stroke.
 type: docs
 weight: 90
 url: /net/aspose.words.drawing/stroke/forecolor/

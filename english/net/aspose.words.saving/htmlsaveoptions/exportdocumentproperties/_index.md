@@ -1,7 +1,7 @@
 ---
 title: ExportDocumentProperties
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies whether to export built-in and custom document properties to HTML MHTML or EPUB. Default value is false.
 type: docs
 weight: 130
 url: /net/aspose.words.saving/htmlsaveoptions/exportdocumentproperties/

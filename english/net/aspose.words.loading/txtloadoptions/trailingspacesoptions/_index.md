@@ -1,7 +1,7 @@
 ---
 title: TrailingSpacesOptions
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets preferred option of a trailing space handling. Default value is Trim.
 type: docs
 weight: 50
 url: /net/aspose.words.loading/txtloadoptions/trailingspacesoptions/

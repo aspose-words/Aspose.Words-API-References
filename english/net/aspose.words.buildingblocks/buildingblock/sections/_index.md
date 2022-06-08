@@ -1,7 +1,7 @@
 ---
 title: Sections
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Returns a collection that represents all sections in the building block.
 type: docs
 weight: 110
 url: /net/aspose.words.buildingblocks/buildingblock/sections/

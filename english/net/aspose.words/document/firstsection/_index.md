@@ -1,7 +1,7 @@
 ---
 title: FirstSection
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets the first section in the document.
 type: docs
 weight: 130
 url: /net/aspose.words/document/firstsection/

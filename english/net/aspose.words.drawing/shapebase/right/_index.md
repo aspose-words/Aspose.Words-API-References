@@ -1,7 +1,7 @@
 ---
 title: Right
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets the position of the right edge of the containing block of the shape.
 type: docs
 weight: 420
 url: /net/aspose.words.drawing/shapebase/right/

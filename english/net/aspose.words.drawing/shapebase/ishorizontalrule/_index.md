@@ -1,7 +1,7 @@
 ---
 title: IsHorizontalRule
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Returns true if this shape is a horizontal rule.
 type: docs
 weight: 260
 url: /net/aspose.words.drawing/shapebase/ishorizontalrule/

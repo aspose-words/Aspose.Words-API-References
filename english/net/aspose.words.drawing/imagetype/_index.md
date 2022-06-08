@@ -1,7 +1,7 @@
 ---
 title: ImageType
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies the type format of an image in a Microsoft Word document.
 type: docs
 weight: 950
 url: /net/aspose.words.drawing/imagetype/

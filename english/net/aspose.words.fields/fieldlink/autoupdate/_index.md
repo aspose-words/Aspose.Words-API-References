@@ -1,7 +1,7 @@
 ---
 title: AutoUpdate
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets whether to update this field automatically.
 type: docs
 weight: 20
 url: /net/aspose.words.fields/fieldlink/autoupdate/

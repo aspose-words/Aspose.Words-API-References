@@ -1,7 +1,7 @@
 ---
 title: Action
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets a value indicating what type of node change event is occurring.
 type: docs
 weight: 10
 url: /net/aspose.words/nodechangingargs/action/

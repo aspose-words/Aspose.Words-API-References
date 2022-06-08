@@ -1,7 +1,7 @@
 ---
 title: FirstPageTray
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets the paper tray bin to use for the first page of a section. The value is implementation printer specific.
 type: docs
 weight: 130
 url: /net/aspose.words/pagesetup/firstpagetray/

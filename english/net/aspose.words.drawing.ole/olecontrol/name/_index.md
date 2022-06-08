@@ -1,7 +1,7 @@
 ---
 title: Name
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets name of the ActiveX control.
 type: docs
 weight: 20
 url: /net/aspose.words.drawing.ole/olecontrol/name/

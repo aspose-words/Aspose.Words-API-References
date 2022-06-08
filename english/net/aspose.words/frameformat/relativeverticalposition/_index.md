@@ -1,7 +1,7 @@
 ---
 title: RelativeVerticalPosition
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets the relative vertical position of a frame.
 type: docs
 weight: 80
 url: /net/aspose.words/frameformat/relativeverticalposition/

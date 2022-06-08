@@ -1,7 +1,7 @@
 ---
 title: SuppressSpBfAfterPgBrk
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Do Not Use Space Before On First Line After a Page Break.
 type: docs
 weight: 500
 url: /net/aspose.words.settings/compatibilityoptions/suppressspbfafterpgbrk/

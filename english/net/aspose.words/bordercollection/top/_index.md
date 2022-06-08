@@ -1,7 +1,7 @@
 ---
 title: Top
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets the top border.
 type: docs
 weight: 120
 url: /net/aspose.words/bordercollection/top/

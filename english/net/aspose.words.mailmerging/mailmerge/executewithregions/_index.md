@@ -1,7 +1,7 @@
 ---
 title: ExecuteWithRegions
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Performs a mail merge from a custom data source with mail merge regions.
 type: docs
 weight: 200
 url: /net/aspose.words.mailmerging/mailmerge/executewithregions/

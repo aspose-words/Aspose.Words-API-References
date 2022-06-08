@@ -1,7 +1,7 @@
 ---
 title: NodeRemoving
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Called just before a node belonging to this document is about to be removed from the document.
 type: docs
 weight: 40
 url: /net/aspose.words/inodechangingcallback/noderemoving/

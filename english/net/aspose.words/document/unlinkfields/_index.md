@@ -1,7 +1,7 @@
 ---
 title: UnlinkFields
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Unlinks fields in the whole document.
 type: docs
 weight: 710
 url: /net/aspose.words/document/unlinkfields/

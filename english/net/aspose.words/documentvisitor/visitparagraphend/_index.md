@@ -1,7 +1,7 @@
 ---
 title: VisitParagraphEnd
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Called when enumeration of a paragraph has ended.
 type: docs
 weight: 320
 url: /net/aspose.words/documentvisitor/visitparagraphend/

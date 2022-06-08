@@ -1,7 +1,7 @@
 ---
 title: ContentType
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Returns the Content-Type string Internet Media Type that identifies the type of the saved document.
 type: docs
 weight: 10
 url: /net/aspose.words.saving/saveoutputparameters/contenttype/

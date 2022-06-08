@@ -1,7 +1,7 @@
 ---
 title: UseUmAlQuraCalendar
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets whether to use the Um-al-Qura calendar.
 type: docs
 weight: 50
 url: /net/aspose.words.fields/fielddate/useumalquracalendar/

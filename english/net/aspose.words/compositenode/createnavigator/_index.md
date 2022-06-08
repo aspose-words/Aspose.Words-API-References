@@ -1,7 +1,7 @@
 ---
 title: CreateNavigator
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Reserved for system use. IXPathNavigable.
 type: docs
 weight: 80
 url: /net/aspose.words/compositenode/createnavigator/

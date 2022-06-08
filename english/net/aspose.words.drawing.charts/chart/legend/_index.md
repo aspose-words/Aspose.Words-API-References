@@ -1,7 +1,7 @@
 ---
 title: Legend
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Provides access to the chart legend properties.
 type: docs
 weight: 40
 url: /net/aspose.words.drawing.charts/chart/legend/

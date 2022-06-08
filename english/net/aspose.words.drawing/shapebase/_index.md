@@ -1,7 +1,7 @@
 ---
 title: ShapeBase
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Base class for objects in the drawing layer such as an AutoShape freeform OLE object ActiveX control or picture.
 type: docs
 weight: 1090
 url: /net/aspose.words.drawing/shapebase/

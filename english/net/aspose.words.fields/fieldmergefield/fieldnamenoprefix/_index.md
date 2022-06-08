@@ -1,7 +1,7 @@
 ---
 title: FieldNameNoPrefix
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Returns just the name of the data field. Any prefix is stripped to the prefix property.
 type: docs
 weight: 20
 url: /net/aspose.words.fields/fieldmergefield/fieldnamenoprefix/

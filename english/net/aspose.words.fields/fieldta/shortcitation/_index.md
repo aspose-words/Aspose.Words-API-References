@@ -1,7 +1,7 @@
 ---
 title: ShortCitation
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets the short citation for the entry.
 type: docs
 weight: 70
 url: /net/aspose.words.fields/fieldta/shortcitation/

@@ -1,7 +1,7 @@
 ---
 title: FieldCollection
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: A collection of Field./field objects that represents the fields in the specified range.
 type: docs
 weight: 1520
 url: /net/aspose.words.fields/fieldcollection/

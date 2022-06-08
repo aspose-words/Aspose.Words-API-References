@@ -1,7 +1,7 @@
 ---
 title: AxisBuiltInUnit
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies the display units for an axis.
 type: docs
 weight: 510
 url: /net/aspose.words.drawing.charts/axisbuiltinunit/

@@ -1,7 +1,7 @@
 ---
 title: AppendField
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Appends a field to this paragraph.
 type: docs
 weight: 240
 url: /net/aspose.words/paragraph/appendfield/

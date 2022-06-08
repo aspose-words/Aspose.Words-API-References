@@ -1,7 +1,7 @@
 ---
 title: UseLunarCalendar
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets whether to use the Hijri Lunar or Hebrew Lunar calendar.
 type: docs
 weight: 20
 url: /net/aspose.words.fields/fieldprintdate/uselunarcalendar/

@@ -1,7 +1,7 @@
 ---
 title: ContinuousSectionPageNumberingRestart
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets the mode of behavior for computing page numbers when a continuous section restarts the page numbering.
 type: docs
 weight: 40
 url: /net/aspose.words.layout/layoutoptions/continuoussectionpagenumberingrestart/

@@ -1,7 +1,7 @@
 ---
 title: CrLf
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Carriage return followed by line feed character x000dx000a or rn. Not used as such in Microsoft Word documents but commonly used in text files for paragraph breaks.
 type: docs
 weight: 60
 url: /net/aspose.words/controlchar/crlf/

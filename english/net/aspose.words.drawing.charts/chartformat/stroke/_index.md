@@ -1,7 +1,7 @@
 ---
 title: Stroke
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets line formatting for the parent chart element.
 type: docs
 weight: 20
 url: /net/aspose.words.drawing.charts/chartformat/stroke/

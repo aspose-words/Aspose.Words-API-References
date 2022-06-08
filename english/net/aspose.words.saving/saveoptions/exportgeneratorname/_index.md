@@ -1,7 +1,7 @@
 ---
 title: ExportGeneratorName
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: When true causes the name and version of Aspose.Words to be embedded into produced files. Default value is true.
 type: docs
 weight: 80
 url: /net/aspose.words.saving/saveoptions/exportgeneratorname/

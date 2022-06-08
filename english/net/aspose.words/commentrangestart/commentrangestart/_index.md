@@ -1,7 +1,7 @@
 ---
 title: CommentRangeStart
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Initializes a new instance of this class.
 type: docs
 weight: 10
 url: /net/aspose.words/commentrangestart/commentrangestart/

@@ -1,7 +1,7 @@
 ---
 title: Crosses
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies how this axis crosses the perpendicular axis.
 type: docs
 weight: 40
 url: /net/aspose.words.drawing.charts/chartaxis/crosses/

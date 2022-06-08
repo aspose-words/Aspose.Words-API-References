@@ -1,7 +1,7 @@
 ---
 title: Notify
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: This is called to notify of document loading progress.
 type: docs
 weight: 10
 url: /net/aspose.words.loading/idocumentloadingcallback/notify/

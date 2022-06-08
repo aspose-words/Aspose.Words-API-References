@@ -1,7 +1,7 @@
 ---
 title: UpdateLastSavedTimeProperty
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets a value determining whether the LastSavedTimeaspose.words.properties/builtindocumentproperties/lastsavedtime property is updated before saving.
 type: docs
 weight: 190
 url: /net/aspose.words.saving/saveoptions/updatelastsavedtimeproperty/

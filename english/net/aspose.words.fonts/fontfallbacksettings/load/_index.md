@@ -1,7 +1,7 @@
 ---
 title: Load
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Loads font fallback settings from XML file.
 type: docs
 weight: 20
 url: /net/aspose.words.fonts/fontfallbacksettings/load/

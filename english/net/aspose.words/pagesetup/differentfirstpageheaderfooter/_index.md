@@ -1,7 +1,7 @@
 ---
 title: DifferentFirstPageHeaderFooter
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: True if a different header or footer is used on the first page.
 type: docs
 weight: 110
 url: /net/aspose.words/pagesetup/differentfirstpageheaderfooter/

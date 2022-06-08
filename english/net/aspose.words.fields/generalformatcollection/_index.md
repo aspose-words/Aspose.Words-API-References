@@ -1,7 +1,7 @@
 ---
 title: GeneralFormatCollection
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Represents a typed collection of general formats.
 type: docs
 weight: 2450
 url: /net/aspose.words.fields/generalformatcollection/

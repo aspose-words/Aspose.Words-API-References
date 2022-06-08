@@ -1,7 +1,7 @@
 ---
 title: BuildingBlockGallery
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies the predefined gallery into which a building block is classified.
 type: docs
 weight: 150
 url: /net/aspose.words.buildingblocks/buildingblockgallery/

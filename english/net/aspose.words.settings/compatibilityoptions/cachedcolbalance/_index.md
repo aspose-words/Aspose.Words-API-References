@@ -1,7 +1,7 @@
 ---
 title: CachedColBalance
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Use Cached Paragraph Information for Column Balancing.
 type: docs
 weight: 80
 url: /net/aspose.words.settings/compatibilityoptions/cachedcolbalance/

@@ -1,7 +1,7 @@
 ---
 title: ShapeType
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies the type of shape in a Microsoft Word document.
 type: docs
 weight: 1120
 url: /net/aspose.words.drawing/shapetype/

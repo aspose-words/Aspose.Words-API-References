@@ -1,7 +1,7 @@
 ---
 title: FollowedHyperlink
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies color for a clicked hyperlink.
 type: docs
 weight: 90
 url: /net/aspose.words.themes/themecolors/followedhyperlink/

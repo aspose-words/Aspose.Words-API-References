@@ -1,7 +1,7 @@
 ---
 title: Clear
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Clears contents of this structured document tag and displays a placeholder if it is defined.
 type: docs
 weight: 330
 url: /net/aspose.words.markup/structureddocumenttag/clear/

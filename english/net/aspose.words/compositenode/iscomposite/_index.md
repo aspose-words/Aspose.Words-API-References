@@ -1,7 +1,7 @@
 ---
 title: IsComposite
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Returns true as this node can have child nodes.
 type: docs
 weight: 50
 url: /net/aspose.words/compositenode/iscomposite/

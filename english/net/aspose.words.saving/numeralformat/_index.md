@@ -1,7 +1,7 @@
 ---
 title: NumeralFormat
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Indicates the symbol set that is used to represent numbers while rendering to fixed page formats.
 type: docs
 weight: 4980
 url: /net/aspose.words.saving/numeralformat/

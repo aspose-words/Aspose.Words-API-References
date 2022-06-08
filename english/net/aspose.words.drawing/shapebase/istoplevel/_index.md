@@ -1,7 +1,7 @@
 ---
 title: IsTopLevel
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Returns true if this shape is not a child of a group shape.
 type: docs
 weight: 340
 url: /net/aspose.words.drawing/shapebase/istoplevel/

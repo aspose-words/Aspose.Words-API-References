@@ -1,7 +1,7 @@
 ---
 title: Bookmark
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets the facade object that encapsulates this bookmark start and end.
 type: docs
 weight: 20
 url: /net/aspose.words/bookmarkstart/bookmark/

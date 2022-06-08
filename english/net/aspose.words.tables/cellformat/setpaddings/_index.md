@@ -1,7 +1,7 @@
 ---
 title: SetPaddings
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Sets the amount of space in points to add to the left/top/right/bottom of the contents of cell.
 type: docs
 weight: 160
 url: /net/aspose.words.tables/cellformat/setpaddings/

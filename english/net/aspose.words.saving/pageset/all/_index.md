@@ -1,7 +1,7 @@
 ---
 title: All
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets a set with all the pages of the document in their original order.
 type: docs
 weight: 20
 url: /net/aspose.words.saving/pageset/all/

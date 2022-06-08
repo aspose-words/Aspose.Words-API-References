@@ -1,7 +1,7 @@
 ---
 title: IsEndOfDocument
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: True if this paragraph is the last paragraph in the last section of the document.
 type: docs
 weight: 60
 url: /net/aspose.words/paragraph/isendofdocument/

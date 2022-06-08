@@ -1,7 +1,7 @@
 ---
 title: LastSavedBy
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets the name of the last author.
 type: docs
 weight: 160
 url: /net/aspose.words.properties/builtindocumentproperties/lastsavedby/

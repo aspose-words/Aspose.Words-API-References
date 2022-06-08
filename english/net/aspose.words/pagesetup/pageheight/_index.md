@@ -1,7 +1,7 @@
 ---
 title: PageHeight
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Returns or sets the height of the page in points.
 type: docs
 weight: 300
 url: /net/aspose.words/pagesetup/pageheight/

@@ -1,7 +1,7 @@
 ---
 title: GetEnumerator
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Returns an enumerator that can iterate through a collection.
 type: docs
 weight: 50
 url: /net/aspose.words.webextensions/basewebextensioncollection-1/getenumerator/

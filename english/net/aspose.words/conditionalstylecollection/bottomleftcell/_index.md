@@ -1,7 +1,7 @@
 ---
 title: BottomLeftCell
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets the bottom left cell style.
 type: docs
 weight: 10
 url: /net/aspose.words/conditionalstylecollection/bottomleftcell/

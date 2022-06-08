@@ -1,7 +1,7 @@
 ---
 title: DownOffset
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets the number of points by which the text that follows the field should be moved down.
 type: docs
 weight: 20
 url: /net/aspose.words.fields/fieldadvance/downoffset/

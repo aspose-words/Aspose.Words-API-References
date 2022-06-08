@@ -1,7 +1,7 @@
 ---
 title: PageInfo
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Represents information about a particular document page.
 type: docs
 weight: 4260
 url: /net/aspose.words.rendering/pageinfo/

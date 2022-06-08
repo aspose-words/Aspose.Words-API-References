@@ -1,7 +1,7 @@
 ---
 title: XmlDataSource
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Creates a new data source with data from an XML file using default options for XML data loading.
 type: docs
 weight: 10
 url: /net/aspose.words.reporting/xmldatasource/xmldatasource/

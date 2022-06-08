@@ -1,7 +1,7 @@
 ---
 title: GetHashCode
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Serves as a hash function for this type.
 type: docs
 weight: 60
 url: /net/aspose.words.drawing.charts/axisbound/gethashcode/

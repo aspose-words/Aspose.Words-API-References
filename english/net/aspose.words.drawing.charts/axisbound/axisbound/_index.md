@@ -1,7 +1,7 @@
 ---
 title: AxisBound
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Creates a new instance indicating that axis bound should be determined automatically by a word-processing application.
 type: docs
 weight: 10
 url: /net/aspose.words.drawing.charts/axisbound/axisbound/

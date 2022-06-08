@@ -1,7 +1,7 @@
 ---
 title: MovedFromTextColor
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Allows to specify the color to be used for areas where content was moved from Moving. Default value is ByAuthor.
 type: docs
 weight: 70
 url: /net/aspose.words.layout/revisionoptions/movedfromtextcolor/

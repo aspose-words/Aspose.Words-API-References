@@ -1,7 +1,7 @@
 ---
 title: ZoomType
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets a zoom value based on the size of the window.
 type: docs
 weight: 60
 url: /net/aspose.words.settings/viewoptions/zoomtype/

@@ -1,7 +1,7 @@
 ---
 title: Placeholder
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets the BuildingBlockaspose.words.buildingblocks/buildingblock containing placeholder text which should be displayed when this SDT run contents are empty the associated mapped XML element is empty as specified via the XmlMappingaspose.words.markup/structureddocumenttag/xmlmapping element or the IsShowingPlaceholderTextaspose.words.markup/structureddocumenttag/isshowingplaceholdertext element is true.
 type: docs
 weight: 230
 url: /net/aspose.words.markup/structureddocumenttag/placeholder/

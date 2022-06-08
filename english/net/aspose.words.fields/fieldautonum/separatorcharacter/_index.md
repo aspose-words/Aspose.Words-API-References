@@ -1,7 +1,7 @@
 ---
 title: SeparatorCharacter
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets the separator character to be used.
 type: docs
 weight: 20
 url: /net/aspose.words.fields/fieldautonum/separatorcharacter/

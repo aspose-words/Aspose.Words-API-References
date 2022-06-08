@@ -1,7 +1,7 @@
 ---
 title: SpacingInWholePoints
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Only Expand/Condense Text By Whole Points.
 type: docs
 weight: 450
 url: /net/aspose.words.settings/compatibilityoptions/spacinginwholepoints/

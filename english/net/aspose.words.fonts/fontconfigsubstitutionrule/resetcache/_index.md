@@ -1,7 +1,7 @@
 ---
 title: ResetCache
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Resets the cache of fontconfig calling results.
 type: docs
 weight: 30
 url: /net/aspose.words.fonts/fontconfigsubstitutionrule/resetcache/

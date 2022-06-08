@@ -1,7 +1,7 @@
 ---
 title: FacingIdentificationMark
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Type of a Facing Identification Mark FIM.
 type: docs
 weight: 90
 url: /net/aspose.words.fields/barcodeparameters/facingidentificationmark/

@@ -1,7 +1,7 @@
 ---
 title: AllowSpaceOfSameStyleInTable
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Allow Contextual Spacing of Paragraphs in Tables.
 type: docs
 weight: 30
 url: /net/aspose.words.settings/compatibilityoptions/allowspaceofsamestyleintable/

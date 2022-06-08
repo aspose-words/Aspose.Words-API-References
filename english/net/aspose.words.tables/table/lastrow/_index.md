@@ -1,7 +1,7 @@
 ---
 title: LastRow
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Returns the last Row node in the table.
 type: docs
 weight: 180
 url: /net/aspose.words.tables/table/lastrow/

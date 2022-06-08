@@ -1,7 +1,7 @@
 ---
 title: SpaceBefore
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets the amount of spacing in points before the paragraph.
 type: docs
 weight: 310
 url: /net/aspose.words/paragraphformat/spacebefore/

@@ -1,7 +1,7 @@
 ---
 title: NoColumnBalance
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Do Not Balance Text Columns within a Section.
 type: docs
 weight: 330
 url: /net/aspose.words.settings/compatibilityoptions/nocolumnbalance/

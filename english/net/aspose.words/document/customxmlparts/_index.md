@@ -1,7 +1,7 @@
 ---
 title: CustomXmlParts
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets the collection of Custom XML Data Storage Parts.
 type: docs
 weight: 80
 url: /net/aspose.words/document/customxmlparts/

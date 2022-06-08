@@ -1,7 +1,7 @@
 ---
 title: WrapType
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies how text is wrapped around a shape or picture.
 type: docs
 weight: 1230
 url: /net/aspose.words.drawing/wraptype/

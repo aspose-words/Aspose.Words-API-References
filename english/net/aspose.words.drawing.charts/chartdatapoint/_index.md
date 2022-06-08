@@ -1,7 +1,7 @@
 ---
 title: ChartDataPoint
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Allows to specify formatting of a single data point on the chart.
 type: docs
 weight: 650
 url: /net/aspose.words.drawing.charts/chartdatapoint/

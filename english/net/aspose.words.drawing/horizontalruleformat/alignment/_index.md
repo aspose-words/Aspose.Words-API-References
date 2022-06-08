@@ -1,7 +1,7 @@
 ---
 title: Alignment
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets the alignment of the horizontal rule.
 type: docs
 weight: 10
 url: /net/aspose.words.drawing/horizontalruleformat/alignment/

@@ -1,7 +1,7 @@
 ---
 title: Height
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets the height of the horizontal rule.
 type: docs
 weight: 30
 url: /net/aspose.words.drawing/horizontalruleformat/height/

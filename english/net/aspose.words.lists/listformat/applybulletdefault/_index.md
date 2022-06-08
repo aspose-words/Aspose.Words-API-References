@@ -1,7 +1,7 @@
 ---
 title: ApplyBulletDefault
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Starts a new default bulleted list and applies it to the paragraph.
 type: docs
 weight: 50
 url: /net/aspose.words.lists/listformat/applybulletdefault/

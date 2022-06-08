@@ -1,7 +1,7 @@
 ---
 title: DeleteRow
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Deletes a row from a table.
 type: docs
 weight: 180
 url: /net/aspose.words/documentbuilder/deleterow/

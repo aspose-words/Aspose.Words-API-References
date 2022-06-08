@@ -1,7 +1,7 @@
 ---
 title: LocaleIdFarEast
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets the locale identifier language of the formatted Asian characters.
 type: docs
 weight: 220
 url: /net/aspose.words/font/localeidfareast/

@@ -1,7 +1,7 @@
 ---
 title: GetAncestor
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets the first ancestor of the specified object type.
 type: docs
 weight: 110
 url: /net/aspose.words/node/getancestor/

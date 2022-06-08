@@ -1,7 +1,7 @@
 ---
 title: AxisTickMark
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies the possible positions for tick marks.
 type: docs
 weight: 580
 url: /net/aspose.words.drawing.charts/axistickmark/

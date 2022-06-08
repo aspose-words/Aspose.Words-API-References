@@ -1,7 +1,7 @@
 ---
 title: CodePage
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Returns the VBA projects code page.
 type: docs
 weight: 20
 url: /net/aspose.words.vba/vbaproject/codepage/

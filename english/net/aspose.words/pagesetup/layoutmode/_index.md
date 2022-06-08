@@ -1,7 +1,7 @@
 ---
 title: LayoutMode
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets the layout mode of this section.
 type: docs
 weight: 190
 url: /net/aspose.words/pagesetup/layoutmode/

@@ -1,7 +1,7 @@
 ---
 title: PosCodeStyle
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets the style of a Point of Sale barcode barcode types UPCAx7CUPCEx7CEAN13x7CEAN8. The valid values case insensitive are STDx7CSUP2x7CSUP5x7CCASE.
 type: docs
 weight: 110
 url: /net/aspose.words.fields/fielddisplaybarcode/poscodestyle/

@@ -1,7 +1,7 @@
 ---
 title: Font
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Provides access to the font formatting of the anchor character of this object.
 type: docs
 weight: 20
 url: /net/aspose.words/inlinestory/font/

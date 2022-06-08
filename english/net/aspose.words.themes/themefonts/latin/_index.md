@@ -1,7 +1,7 @@
 ---
 title: Latin
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies font name for Latin characters.
 type: docs
 weight: 30
 url: /net/aspose.words.themes/themefonts/latin/

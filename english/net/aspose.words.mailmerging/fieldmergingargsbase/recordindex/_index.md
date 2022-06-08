@@ -1,7 +1,7 @@
 ---
 title: RecordIndex
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets the zero based index of the record that is being merged.
 type: docs
 weight: 60
 url: /net/aspose.words.mailmerging/fieldmergingargsbase/recordindex/

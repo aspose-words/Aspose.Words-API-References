@@ -1,7 +1,7 @@
 ---
 title: LanguageId
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets the language ID used to generate the index.
 type: docs
 weight: 80
 url: /net/aspose.words.fields/fieldindex/languageid/

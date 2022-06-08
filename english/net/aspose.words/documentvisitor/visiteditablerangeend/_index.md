@@ -1,7 +1,7 @@
 ---
 title: VisitEditableRangeEnd
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Called when an end of an editable range is encountered in the document.
 type: docs
 weight: 160
 url: /net/aspose.words/documentvisitor/visiteditablerangeend/

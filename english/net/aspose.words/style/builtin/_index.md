@@ -1,7 +1,7 @@
 ---
 title: BuiltIn
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: True if this style is one of the built-in styles in MS Word.
 type: docs
 weight: 30
 url: /net/aspose.words/style/builtin/

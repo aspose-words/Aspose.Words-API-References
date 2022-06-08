@@ -1,7 +1,7 @@
 ---
 title: RtfLoadOptions
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Allows to specify additional options when loading Rtf document into a Document../aspose.words/document object.
 type: docs
 weight: 3460
 url: /net/aspose.words.loading/rtfloadoptions/

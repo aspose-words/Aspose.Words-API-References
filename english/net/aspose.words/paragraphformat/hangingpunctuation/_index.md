@@ -1,7 +1,7 @@
 ---
 title: HangingPunctuation
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets a flag indicating whether hanging punctuation is enabled for the current paragraph.
 type: docs
 weight: 120
 url: /net/aspose.words/paragraphformat/hangingpunctuation/

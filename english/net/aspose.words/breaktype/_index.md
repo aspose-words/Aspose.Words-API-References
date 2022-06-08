@@ -1,7 +1,7 @@
 ---
 title: BreakType
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies type of a break inside a document.
 type: docs
 weight: 100
 url: /net/aspose.words/breaktype/

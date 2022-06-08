@@ -1,7 +1,7 @@
 ---
 title: DocumentBuilder
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Provides methods to insert text images and other content specify font paragraph and section formatting.
 type: docs
 weight: 440
 url: /net/aspose.words/documentbuilder/

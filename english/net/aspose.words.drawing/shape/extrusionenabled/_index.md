@@ -1,7 +1,7 @@
 ---
 title: ExtrusionEnabled
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Returns true if an extrusion effect is enabled.
 type: docs
 weight: 30
 url: /net/aspose.words.drawing/shape/extrusionenabled/

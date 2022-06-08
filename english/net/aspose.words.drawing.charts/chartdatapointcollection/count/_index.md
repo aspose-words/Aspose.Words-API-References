@@ -1,7 +1,7 @@
 ---
 title: Count
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Returns the number of ChartDataPointaspose.words.drawing.charts/chartdatapoint in this collection.
 type: docs
 weight: 10
 url: /net/aspose.words.drawing.charts/chartdatapointcollection/count/

@@ -1,7 +1,7 @@
 ---
 title: TickLabelOffset
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets the distance of labels from the axis.
 type: docs
 weight: 210
 url: /net/aspose.words.drawing.charts/chartaxis/ticklabeloffset/

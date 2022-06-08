@@ -1,7 +1,7 @@
 ---
 title: Index
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Index of the data point this object applies formatting to.
 type: docs
 weight: 40
 url: /net/aspose.words.drawing.charts/chartdatapoint/index/

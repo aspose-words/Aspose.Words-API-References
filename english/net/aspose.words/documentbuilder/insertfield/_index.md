@@ -1,7 +1,7 @@
 ---
 title: InsertField
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Inserts a Word field into a document and optionally updates the field result.
 type: docs
 weight: 300
 url: /net/aspose.words/documentbuilder/insertfield/

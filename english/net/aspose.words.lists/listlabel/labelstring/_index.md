@@ -1,7 +1,7 @@
 ---
 title: LabelString
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets a string representation of list label.
 type: docs
 weight: 20
 url: /net/aspose.words.lists/listlabel/labelstring/

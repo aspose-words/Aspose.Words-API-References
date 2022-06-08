@@ -1,7 +1,7 @@
 ---
 title: BuildReport
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Populates the specified template document with data from the specified source making it a ready report.
 type: docs
 weight: 40
 url: /net/aspose.words.reporting/reportingengine/buildreport/

@@ -1,7 +1,7 @@
 ---
 title: RequestDictionary
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Notifies application that hyphenation dictionary for the specified language wasnt found and may need to be registered.
 type: docs
 weight: 10
 url: /net/aspose.words/ihyphenationcallback/requestdictionary/

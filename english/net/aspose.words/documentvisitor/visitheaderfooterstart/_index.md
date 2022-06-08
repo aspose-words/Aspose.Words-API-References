@@ -1,7 +1,7 @@
 ---
 title: VisitHeaderFooterStart
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Called when enumeration of a header or footer in a section has started.
 type: docs
 weight: 290
 url: /net/aspose.words/documentvisitor/visitheaderfooterstart/

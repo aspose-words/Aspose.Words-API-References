@@ -1,7 +1,7 @@
 ---
 title: CompositeNode
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Base class for nodes that can contain other nodes.
 type: docs
 weight: 290
 url: /net/aspose.words/compositenode/

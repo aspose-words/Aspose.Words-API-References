@@ -1,7 +1,7 @@
 ---
 title: ShowInBalloons
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Allows to specify whether the revisions are rendered in the balloons. Default value is None.
 type: docs
 weight: 160
 url: /net/aspose.words.layout/revisionoptions/showinballoons/

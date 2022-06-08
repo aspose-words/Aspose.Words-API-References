@@ -1,7 +1,7 @@
 ---
 title: PreserveTabs
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets whether to preserve tab entries within table entries.
 type: docs
 weight: 140
 url: /net/aspose.words.fields/fieldtoc/preservetabs/

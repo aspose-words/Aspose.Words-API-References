@@ -1,7 +1,7 @@
 ---
 title: RemoveNumbers
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Removes numbers or bullets from the current paragraph and sets list level to zero.
 type: docs
 weight: 90
 url: /net/aspose.words.lists/listformat/removenumbers/

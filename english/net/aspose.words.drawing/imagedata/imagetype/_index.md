@@ -1,7 +1,7 @@
 ---
 title: ImageType
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets the type of the image.
 type: docs
 weight: 140
 url: /net/aspose.words.drawing/imagedata/imagetype/

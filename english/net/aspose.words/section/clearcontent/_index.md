@@ -1,7 +1,7 @@
 ---
 title: ClearContent
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Clears the section.
 type: docs
 weight: 90
 url: /net/aspose.words/section/clearcontent/

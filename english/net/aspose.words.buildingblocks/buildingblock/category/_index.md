@@ -1,7 +1,7 @@
 ---
 title: Category
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies the second-level categorization for the building block.
 type: docs
 weight: 30
 url: /net/aspose.words.buildingblocks/buildingblock/category/

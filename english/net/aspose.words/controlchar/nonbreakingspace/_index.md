@@ -1,7 +1,7 @@
 ---
 title: NonBreakingSpace
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Non-breaking space character x00a0.
 type: docs
 weight: 170
 url: /net/aspose.words/controlchar/nonbreakingspace/

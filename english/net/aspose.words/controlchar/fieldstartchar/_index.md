@@ -1,7 +1,7 @@
 ---
 title: FieldStartChar
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Start of MS Word field character char19.
 type: docs
 weight: 100
 url: /net/aspose.words/controlchar/fieldstartchar/

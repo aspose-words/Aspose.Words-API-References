@@ -1,7 +1,7 @@
 ---
 title: GetPositionByIndex
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets the position in points of the tab stop at the specified index.
 type: docs
 weight: 100
 url: /net/aspose.words/tabstopcollection/getpositionbyindex/

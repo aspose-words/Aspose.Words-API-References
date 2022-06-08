@@ -1,7 +1,7 @@
 ---
 title: EmbedTrueTypeFonts
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies whether or not to embed TrueType fonts in a document when it is saved. Default value for this property is false.
 type: docs
 weight: 30
 url: /net/aspose.words.fonts/fontinfocollection/embedtruetypefonts/

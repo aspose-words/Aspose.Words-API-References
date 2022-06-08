@@ -1,7 +1,7 @@
 ---
 title: BookmarkText
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets the new text of the bookmark.
 type: docs
 weight: 30
 url: /net/aspose.words.fields/fieldset/bookmarktext/

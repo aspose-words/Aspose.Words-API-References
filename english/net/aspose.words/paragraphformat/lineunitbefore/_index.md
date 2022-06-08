@@ -1,7 +1,7 @@
 ---
 title: LineUnitBefore
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets the amount of spacing in gridlines before the paragraphs.
 type: docs
 weight: 220
 url: /net/aspose.words/paragraphformat/lineunitbefore/

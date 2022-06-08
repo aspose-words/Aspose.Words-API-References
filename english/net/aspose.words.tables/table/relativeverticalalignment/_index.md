@@ -1,7 +1,7 @@
 ---
 title: RelativeVerticalAlignment
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets floating table relative vertical alignment.
 type: docs
 weight: 240
 url: /net/aspose.words.tables/table/relativeverticalalignment/

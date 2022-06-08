@@ -1,7 +1,7 @@
 ---
 title: PageSet
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Describes a random set of pages.
 type: docs
 weight: 5060
 url: /net/aspose.words.saving/pageset/

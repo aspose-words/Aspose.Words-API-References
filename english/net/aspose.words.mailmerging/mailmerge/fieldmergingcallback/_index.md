@@ -1,7 +1,7 @@
 ---
 title: FieldMergingCallback
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Occurs during mail merge when a mail merge field is encountered in the document.
 type: docs
 weight: 30
 url: /net/aspose.words.mailmerging/mailmerge/fieldmergingcallback/

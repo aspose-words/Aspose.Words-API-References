@@ -1,7 +1,7 @@
 ---
 title: FieldBuilder
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Builds a field from field code tokens arguments and switches.
 type: docs
 weight: 1490
 url: /net/aspose.words.fields/fieldbuilder/

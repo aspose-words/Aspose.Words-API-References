@@ -1,7 +1,7 @@
 ---
 title: Document
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Returns the Document the title holder belongs.
 type: docs
 weight: 70
 url: /net/aspose.words.drawing.charts/chartaxis/document/

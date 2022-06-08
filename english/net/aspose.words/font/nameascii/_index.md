@@ -1,7 +1,7 @@
 ---
 title: NameAscii
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Returns or sets the font used for Latin text characters with character codes from 0 zero through 127.
 type: docs
 weight: 240
 url: /net/aspose.words/font/nameascii/

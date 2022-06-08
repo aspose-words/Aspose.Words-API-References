@@ -1,7 +1,7 @@
 ---
 title: FlipOrientation
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Possible values for the orientation of a shape.
 type: docs
 weight: 840
 url: /net/aspose.words.drawing/fliporientation/

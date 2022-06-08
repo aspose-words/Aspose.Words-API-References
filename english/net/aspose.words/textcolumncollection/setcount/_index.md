@@ -1,7 +1,7 @@
 ---
 title: SetCount
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Arranges text into the specified number of text columns.
 type: docs
 weight: 70
 url: /net/aspose.words/textcolumncollection/setcount/

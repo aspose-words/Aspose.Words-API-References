@@ -1,7 +1,7 @@
 ---
 title: AxisTimeUnit
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies the unit of time for axes.
 type: docs
 weight: 590
 url: /net/aspose.words.drawing.charts/axistimeunit/

@@ -1,7 +1,7 @@
 ---
 title: SmoothingMode
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets the rendering quality for this Graphics.
 type: docs
 weight: 50
 url: /net/aspose.words.saving/graphicsqualityoptions/smoothingmode/

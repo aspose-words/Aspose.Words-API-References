@@ -1,7 +1,7 @@
 ---
 title: Match
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: The Match resulting from a single regular expression match during a Replace.
 type: docs
 weight: 30
 url: /net/aspose.words.replacing/replacingargs/match/

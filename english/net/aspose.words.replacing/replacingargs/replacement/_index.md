@@ -1,7 +1,7 @@
 ---
 title: Replacement
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets the replacement string.
 type: docs
 weight: 60
 url: /net/aspose.words.replacing/replacingargs/replacement/

@@ -1,7 +1,7 @@
 ---
 title: DockState
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies the last-docked location of this task pane object.
 type: docs
 weight: 20
 url: /net/aspose.words.webextensions/taskpane/dockstate/

@@ -1,7 +1,7 @@
 ---
 title: FieldUnknown
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Implements an unknown or unrecognized field.
 type: docs
 weight: 2360
 url: /net/aspose.words.fields/fieldunknown/

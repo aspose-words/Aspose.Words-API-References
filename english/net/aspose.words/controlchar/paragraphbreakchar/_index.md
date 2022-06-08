@@ -1,7 +1,7 @@
 ---
 title: ParagraphBreakChar
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: End of paragraph character char13 or r.
 type: docs
 weight: 230
 url: /net/aspose.words/controlchar/paragraphbreakchar/

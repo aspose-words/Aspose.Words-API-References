@@ -1,7 +1,7 @@
 ---
 title: HyphenationOptions
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Provides access to document hyphenation options.
 type: docs
 weight: 210
 url: /net/aspose.words/document/hyphenationoptions/

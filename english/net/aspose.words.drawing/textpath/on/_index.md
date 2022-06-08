@@ -1,7 +1,7 @@
 ---
 title: On
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Defines whether the text is displayed.
 type: docs
 weight: 70
 url: /net/aspose.words.drawing/textpath/on/

@@ -1,7 +1,7 @@
 ---
 title: PdfFontEmbeddingMode
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies how Aspose.Words should embed fonts.
 type: docs
 weight: 5140
 url: /net/aspose.words.saving/pdffontembeddingmode/

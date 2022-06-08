@@ -1,7 +1,7 @@
 ---
 title: TextInputType
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets the type of a text form field.
 type: docs
 weight: 210
 url: /net/aspose.words.fields/formfield/textinputtype/

@@ -1,7 +1,7 @@
 ---
 title: Execute
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Performs a mail merge from a custom data source.
 type: docs
 weight: 180
 url: /net/aspose.words.mailmerging/mailmerge/execute/

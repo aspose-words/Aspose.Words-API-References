@@ -1,7 +1,7 @@
 ---
 title: RemoveAt
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Removes a value at the specified index.
 type: docs
 weight: 100
 url: /net/aspose.words.fields/dropdownitemcollection/removeat/

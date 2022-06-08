@@ -1,7 +1,7 @@
 ---
 title: PageBorderDistanceFrom
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies the positioning of the page border relative to the page margin.
 type: docs
 weight: 4060
 url: /net/aspose.words/pageborderdistancefrom/

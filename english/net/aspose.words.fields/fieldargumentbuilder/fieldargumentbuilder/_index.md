@@ -1,7 +1,7 @@
 ---
 title: FieldArgumentBuilder
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Initializes an instance of the FieldArgumentBuilderaspose.words.fields/fieldargumentbuilder class.
 type: docs
 weight: 10
 url: /net/aspose.words.fields/fieldargumentbuilder/fieldargumentbuilder/

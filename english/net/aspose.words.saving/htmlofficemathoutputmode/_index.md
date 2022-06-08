@@ -1,7 +1,7 @@
 ---
 title: HtmlOfficeMathOutputMode
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies how Aspose.Words exports OfficeMath to HTML MHTML and EPUB.
 type: docs
 weight: 4790
 url: /net/aspose.words.saving/htmlofficemathoutputmode/

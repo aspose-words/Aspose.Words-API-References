@@ -1,7 +1,7 @@
 ---
 title: Show
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Determines whether the title shall be shown for this chart. Default value is true.
 type: docs
 weight: 20
 url: /net/aspose.words.drawing.charts/charttitle/show/

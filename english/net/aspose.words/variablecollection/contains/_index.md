@@ -1,7 +1,7 @@
 ---
 title: Contains
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Determines whether the collection contains a document variable with the given name.
 type: docs
 weight: 50
 url: /net/aspose.words/variablecollection/contains/

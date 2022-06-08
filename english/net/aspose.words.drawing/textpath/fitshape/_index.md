@@ -1,7 +1,7 @@
 ---
 title: FitShape
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Defines whether the text fits bounding box of a shape.
 type: docs
 weight: 30
 url: /net/aspose.words.drawing/textpath/fitshape/

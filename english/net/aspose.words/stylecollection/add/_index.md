@@ -1,7 +1,7 @@
 ---
 title: Add
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Creates a new user defined style and adds it the collection.
 type: docs
 weight: 60
 url: /net/aspose.words/stylecollection/add/

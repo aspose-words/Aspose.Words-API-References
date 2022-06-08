@@ -1,7 +1,7 @@
 ---
 title: ExportImagesAsBase64
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies whether images are saved in Base64 format to the output HTML MHTML or EPUB. Default is false.
 type: docs
 weight: 180
 url: /net/aspose.words.saving/htmlsaveoptions/exportimagesasbase64/

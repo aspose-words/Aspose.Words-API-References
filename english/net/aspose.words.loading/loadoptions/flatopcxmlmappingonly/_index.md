@@ -1,7 +1,7 @@
 ---
 title: FlatOpcXmlMappingOnly
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets value determining which document formats are allowed to be mapped by XmlMappingaspose.words.markup/structureddocumenttag/xmlmapping. By default only FlatOpc document format is allowed to be mapped.
 type: docs
 weight: 60
 url: /net/aspose.words.loading/loadoptions/flatopcxmlmappingonly/

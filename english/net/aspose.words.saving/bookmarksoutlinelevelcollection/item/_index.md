@@ -1,7 +1,7 @@
 ---
 title: Item
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or a sets a bookmark outline level by the bookmark name.
 type: docs
 weight: 30
 url: /net/aspose.words.saving/bookmarksoutlinelevelcollection/item/

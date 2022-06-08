@@ -1,7 +1,7 @@
 ---
 title: OriginalFileName
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets the original font file name with an extension.
 type: docs
 weight: 100
 url: /net/aspose.words.saving/fontsavingargs/originalfilename/

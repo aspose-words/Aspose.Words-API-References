@@ -1,7 +1,7 @@
 ---
 title: InsertBefore
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Inserts the specified node immediately before the specified reference node.
 type: docs
 weight: 150
 url: /net/aspose.words/compositenode/insertbefore/

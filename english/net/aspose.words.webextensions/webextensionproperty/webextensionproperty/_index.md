@@ -1,7 +1,7 @@
 ---
 title: WebExtensionProperty
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Creates web extension custom property with specified name and value.
 type: docs
 weight: 10
 url: /net/aspose.words.webextensions/webextensionproperty/webextensionproperty/

@@ -1,7 +1,7 @@
 ---
 title: MarkupLanguage
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets MarkupLanguage used for this graphic object.
 type: docs
 weight: 370
 url: /net/aspose.words.drawing/shapebase/markuplanguage/

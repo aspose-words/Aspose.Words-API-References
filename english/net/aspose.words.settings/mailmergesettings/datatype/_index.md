@@ -1,7 +1,7 @@
 ---
 title: DataType
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies the type of the mail-merge data source and the method of data access. The default value is Default.
 type: docs
 weight: 70
 url: /net/aspose.words.settings/mailmergesettings/datatype/

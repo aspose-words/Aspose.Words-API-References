@@ -1,7 +1,7 @@
 ---
 title: Position
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets the position of text in points relative to the base line. A positive number raises the text and a negative number lowers it.
 type: docs
 weight: 300
 url: /net/aspose.words/font/position/

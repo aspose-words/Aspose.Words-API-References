@@ -1,7 +1,7 @@
 ---
 title: Unprotect
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Removes protection from the document regardless of the password.
 type: docs
 weight: 720
 url: /net/aspose.words/document/unprotect/

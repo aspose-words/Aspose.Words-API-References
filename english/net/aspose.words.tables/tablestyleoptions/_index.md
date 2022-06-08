@@ -1,7 +1,7 @@
 ---
 title: TableStyleOptions
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies how table style is applied to a table.
 type: docs
 weight: 6020
 url: /net/aspose.words.tables/tablestyleoptions/

@@ -1,7 +1,7 @@
 ---
 title: Done
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets flag indicating that the comment has been marked done.
 type: docs
 weight: 50
 url: /net/aspose.words/comment/done/

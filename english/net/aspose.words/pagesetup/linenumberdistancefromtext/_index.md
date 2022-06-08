@@ -1,7 +1,7 @@
 ---
 title: LineNumberDistanceFromText
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets distance between the right edge of line numbers and the left edge of the document.
 type: docs
 weight: 220
 url: /net/aspose.words/pagesetup/linenumberdistancefromtext/

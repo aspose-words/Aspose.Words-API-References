@@ -1,7 +1,7 @@
 ---
 title: Bubble3D
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies whether the bubbles in Bubble chart should have a 3-D effect applied to them.
 type: docs
 weight: 10
 url: /net/aspose.words.drawing.charts/ichartdatapoint/bubble3d/

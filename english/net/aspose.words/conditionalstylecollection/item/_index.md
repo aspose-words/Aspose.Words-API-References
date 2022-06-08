@@ -1,7 +1,7 @@
 ---
 title: Item
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Retrieves a ConditionalStyleaspose.words/conditionalstyle object by conditional style type.
 type: docs
 weight: 80
 url: /net/aspose.words/conditionalstylecollection/item/

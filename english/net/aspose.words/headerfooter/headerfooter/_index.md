@@ -1,7 +1,7 @@
 ---
 title: HeaderFooter
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Creates a new header or footer of the specified type.
 type: docs
 weight: 10
 url: /net/aspose.words/headerfooter/headerfooter/

@@ -1,7 +1,7 @@
 ---
 title: Element
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies the name of the smart tag within the document.
 type: docs
 weight: 20
 url: /net/aspose.words.markup/smarttag/element/

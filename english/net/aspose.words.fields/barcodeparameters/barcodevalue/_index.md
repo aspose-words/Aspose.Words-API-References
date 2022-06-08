@@ -1,7 +1,7 @@
 ---
 title: BarcodeValue
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Data to be encoded.
 type: docs
 weight: 50
 url: /net/aspose.words.fields/barcodeparameters/barcodevalue/

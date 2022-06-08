@@ -1,7 +1,7 @@
 ---
 title: AlternativeText
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Defines alternative text to be displayed instead of a graphic.
 type: docs
 weight: 20
 url: /net/aspose.words.drawing/shapebase/alternativetext/

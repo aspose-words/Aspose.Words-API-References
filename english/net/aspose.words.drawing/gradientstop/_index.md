@@ -1,7 +1,7 @@
 ---
 title: GradientStop
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Represents one gradient stop.
 type: docs
 weight: 850
 url: /net/aspose.words.drawing/gradientstop/

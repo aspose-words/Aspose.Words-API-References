@@ -1,7 +1,7 @@
 ---
 title: RowFormat
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Provides access to the formatting properties of the row.
 type: docs
 weight: 90
 url: /net/aspose.words.tables/row/rowformat/

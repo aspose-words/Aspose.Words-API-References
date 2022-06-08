@@ -1,7 +1,7 @@
 ---
 title: LeftMargin
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Returns or sets the distance in points between the left edge of the page and the left boundary of the body text.
 type: docs
 weight: 200
 url: /net/aspose.words/pagesetup/leftmargin/

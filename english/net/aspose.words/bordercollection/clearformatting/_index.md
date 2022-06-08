@@ -1,7 +1,7 @@
 ---
 title: ClearFormatting
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Removes all borders of an object.
 type: docs
 weight: 140
 url: /net/aspose.words/bordercollection/clearformatting/

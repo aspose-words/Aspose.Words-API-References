@@ -1,7 +1,7 @@
 ---
 title: Document
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets document.
 type: docs
 weight: 10
 url: /net/aspose.words.layout/pagelayoutcallbackargs/document/

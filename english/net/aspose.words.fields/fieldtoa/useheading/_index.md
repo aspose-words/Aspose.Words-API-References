@@ -1,7 +1,7 @@
 ---
 title: UseHeading
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets whether to include the category heading for the entries in a table of authorities.
 type: docs
 weight: 100
 url: /net/aspose.words.fields/fieldtoa/useheading/

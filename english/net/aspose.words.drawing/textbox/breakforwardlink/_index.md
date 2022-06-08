@@ -1,7 +1,7 @@
 ---
 title: BreakForwardLink
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Breaks the link to the next TextBox.
 type: docs
 weight: 120
 url: /net/aspose.words.drawing/textbox/breakforwardlink/

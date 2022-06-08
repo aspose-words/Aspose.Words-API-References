@@ -1,7 +1,7 @@
 ---
 title: GradientAngle
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets the angle of the gradient fill.
 type: docs
 weight: 40
 url: /net/aspose.words.drawing/fill/gradientangle/

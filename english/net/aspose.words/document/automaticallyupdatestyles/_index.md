@@ -1,7 +1,7 @@
 ---
 title: AutomaticallyUpdateStyles
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets a flag indicating whether the styles in the document are updated to match the styles in the attached template each time the document is opened in MS Word.
 type: docs
 weight: 30
 url: /net/aspose.words/document/automaticallyupdatestyles/

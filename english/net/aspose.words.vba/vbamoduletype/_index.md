@@ -1,7 +1,7 @@
 ---
 title: VbaModuleType
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies the type of a model in a VBA project.
 type: docs
 weight: 6210
 url: /net/aspose.words.vba/vbamoduletype/

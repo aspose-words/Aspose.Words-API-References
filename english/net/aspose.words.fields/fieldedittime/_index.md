@@ -1,7 +1,7 @@
 ---
 title: FieldEditTime
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Implements the EDITTIME field.
 type: docs
 weight: 1650
 url: /net/aspose.words.fields/fieldedittime/

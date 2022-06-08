@@ -1,7 +1,7 @@
 ---
 title: ImageBytes
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Defines the image for a stroke image or pattern fill.
 type: docs
 weight: 100
 url: /net/aspose.words.drawing/stroke/imagebytes/

@@ -1,7 +1,7 @@
 ---
 title: FieldMapDatas
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets a collection of objects that specify how columns from the external data source are mapped to the predefined merge field names in the document. This object is never null.
 type: docs
 weight: 50
 url: /net/aspose.words.settings/odso/fieldmapdatas/

@@ -1,7 +1,7 @@
 ---
 title: Equals
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Compares with the specified TabStop.
 type: docs
 weight: 60
 url: /net/aspose.words/tabstop/equals/

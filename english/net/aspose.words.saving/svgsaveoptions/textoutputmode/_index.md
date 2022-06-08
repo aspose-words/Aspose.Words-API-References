@@ -1,7 +1,7 @@
 ---
 title: TextOutputMode
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets a value determining how text should be rendered in SVG.
 type: docs
 weight: 90
 url: /net/aspose.words.saving/svgsaveoptions/textoutputmode/

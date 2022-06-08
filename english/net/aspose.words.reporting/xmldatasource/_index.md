@@ -1,7 +1,7 @@
 ---
 title: XmlDataSource
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Provides access to data of an XML file or stream to be used within a report.
 type: docs
 weight: 4440
 url: /net/aspose.words.reporting/xmldatasource/

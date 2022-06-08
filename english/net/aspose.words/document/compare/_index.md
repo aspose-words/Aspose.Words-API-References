@@ -1,7 +1,7 @@
 ---
 title: Compare
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Compares this document with another document producing changes as number of edit and format revisions Revisionaspose.words/revision.
 type: docs
 weight: 540
 url: /net/aspose.words/document/compare/

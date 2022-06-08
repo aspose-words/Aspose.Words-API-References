@@ -1,7 +1,7 @@
 ---
 title: Dml3DEffectsRenderingMode
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets a value determining how 3D effects are rendered.
 type: docs
 weight: 50
 url: /net/aspose.words.saving/saveoptions/dml3deffectsrenderingmode/

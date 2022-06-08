@@ -1,7 +1,7 @@
 ---
 title: FieldIfComparisonResult
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies the result of the IF field condition evaluation.
 type: docs
 weight: 1820
 url: /net/aspose.words.fields/fieldifcomparisonresult/

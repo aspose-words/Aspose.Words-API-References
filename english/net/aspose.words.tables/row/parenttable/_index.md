@@ -1,7 +1,7 @@
 ---
 title: ParentTable
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Returns the immediate parent table of the row.
 type: docs
 weight: 80
 url: /net/aspose.words.tables/row/parenttable/

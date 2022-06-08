@@ -1,7 +1,7 @@
 ---
 title: SuppressTopSpacingWP
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Emulate WordPerfect 5.x Line Spacing.
 type: docs
 weight: 520
 url: /net/aspose.words.settings/compatibilityoptions/suppresstopspacingwp/

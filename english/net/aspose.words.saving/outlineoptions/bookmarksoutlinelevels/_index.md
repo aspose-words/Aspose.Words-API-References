@@ -1,7 +1,7 @@
 ---
 title: BookmarksOutlineLevels
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Allows to specify individual bookmarks outline level.
 type: docs
 weight: 20
 url: /net/aspose.words.saving/outlineoptions/bookmarksoutlinelevels/

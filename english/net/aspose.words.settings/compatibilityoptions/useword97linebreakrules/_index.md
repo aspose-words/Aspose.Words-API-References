@@ -1,7 +1,7 @@
 ---
 title: UseWord97LineBreakRules
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Emulate Word 97 East Asian Line Breaking.
 type: docs
 weight: 680
 url: /net/aspose.words.settings/compatibilityoptions/useword97linebreakrules/

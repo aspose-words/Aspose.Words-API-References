@@ -1,7 +1,7 @@
 ---
 title: TrueText
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets the text displayed if the comparison expression is true.
 type: docs
 weight: 60
 url: /net/aspose.words.fields/fieldif/truetext/

@@ -1,7 +1,7 @@
 ---
 title: Add
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Adds the specified Type object to the set. Throws ArgumentException in the following cases
 type: docs
 weight: 20
 url: /net/aspose.words.reporting/knowntypeset/add/

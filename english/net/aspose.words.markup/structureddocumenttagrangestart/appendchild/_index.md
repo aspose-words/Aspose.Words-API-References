@@ -1,7 +1,7 @@
 ---
 title: AppendChild
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Adds the specified node to the end of the stdContent range.
 type: docs
 weight: 200
 url: /net/aspose.words.markup/structureddocumenttagrangestart/appendchild/

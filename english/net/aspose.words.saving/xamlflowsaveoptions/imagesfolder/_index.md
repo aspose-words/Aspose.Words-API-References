@@ -1,7 +1,7 @@
 ---
 title: ImagesFolder
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies the physical folder where images are saved when exporting a document to XAML format. Default is an empty string.
 type: docs
 weight: 30
 url: /net/aspose.words.saving/xamlflowsaveoptions/imagesfolder/

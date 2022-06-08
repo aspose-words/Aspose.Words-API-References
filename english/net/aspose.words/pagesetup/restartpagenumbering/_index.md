@@ -1,7 +1,7 @@
 ---
 title: RestartPageNumbering
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: True if page numbering restarts at the beginning of the section.
 type: docs
 weight: 350
 url: /net/aspose.words/pagesetup/restartpagenumbering/

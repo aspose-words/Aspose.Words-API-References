@@ -1,7 +1,7 @@
 ---
 title: ListName
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets the name of the abstract numbering definition used for the numbering.
 type: docs
 weight: 40
 url: /net/aspose.words.fields/fieldlistnum/listname/

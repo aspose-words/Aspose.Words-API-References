@@ -1,7 +1,7 @@
 ---
 title: StoryType
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Returns StoryType.Footnotes or StoryType.Endnotes.
 type: docs
 weight: 60
 url: /net/aspose.words.notes/footnote/storytype/

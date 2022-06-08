@@ -1,7 +1,7 @@
 ---
 title: Bold
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Indicates whether the current font is bold.
 type: docs
 weight: 10
 url: /net/aspose.words.saving/fontsavingargs/bold/

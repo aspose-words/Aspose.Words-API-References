@@ -1,7 +1,7 @@
 ---
 title: DocumentPropertyCollection
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Base class for BuiltInDocumentProperties./builtindocumentproperties and CustomDocumentProperties./customdocumentproperties collections.
 type: docs
 weight: 4180
 url: /net/aspose.words.properties/documentpropertycollection/

@@ -1,7 +1,7 @@
 ---
 title: ListCollection
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Stores and manages formatting of bulleted and numbered lists used in a document.
 type: docs
 weight: 3220
 url: /net/aspose.words.lists/listcollection/

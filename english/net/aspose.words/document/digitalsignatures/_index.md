@@ -1,7 +1,7 @@
 ---
 title: DigitalSignatures
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets the collection of digital signatures for this document and their validation results.
 type: docs
 weight: 100
 url: /net/aspose.words/document/digitalsignatures/

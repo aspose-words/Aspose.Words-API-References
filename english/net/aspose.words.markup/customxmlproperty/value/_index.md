@@ -1,7 +1,7 @@
 ---
 title: Value
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets the value of the custom XML attribute or smart tag property.
 type: docs
 weight: 40
 url: /net/aspose.words.markup/customxmlproperty/value/

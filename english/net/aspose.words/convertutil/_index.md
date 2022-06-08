@@ -1,7 +1,7 @@
 ---
 title: ConvertUtil
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Provides helper functions to convert between various measurement units.
 type: docs
 weight: 350
 url: /net/aspose.words/convertutil/

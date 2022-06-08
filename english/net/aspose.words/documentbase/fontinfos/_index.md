@@ -1,7 +1,7 @@
 ---
 title: FontInfos
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Provides access to properties of fonts used in this document.
 type: docs
 weight: 30
 url: /net/aspose.words/documentbase/fontinfos/

@@ -1,7 +1,7 @@
 ---
 title: RemoveAt
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Removes a property at the specified index.
 type: docs
 weight: 80
 url: /net/aspose.words.properties/documentpropertycollection/removeat/

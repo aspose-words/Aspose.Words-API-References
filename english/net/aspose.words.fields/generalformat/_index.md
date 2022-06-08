@@ -1,7 +1,7 @@
 ---
 title: GeneralFormat
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies a general format that is applied to a numeric text or any field result. A field may have a combination of general formats.
 type: docs
 weight: 2440
 url: /net/aspose.words.fields/generalformat/

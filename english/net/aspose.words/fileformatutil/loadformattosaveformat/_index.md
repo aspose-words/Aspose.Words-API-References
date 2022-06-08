@@ -1,7 +1,7 @@
 ---
 title: LoadFormatToSaveFormat
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Converts a LoadFormataspose.words/loadformat value to a SaveFormataspose.words/saveformat value if possible.
 type: docs
 weight: 70
 url: /net/aspose.words/fileformatutil/loadformattosaveformat/

@@ -1,7 +1,7 @@
 ---
 title: PdfPermissions
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies the operations that are allowed to a user on an encrypted PDF document.
 type: docs
 weight: 5180
 url: /net/aspose.words.saving/pdfpermissions/

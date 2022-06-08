@@ -1,7 +1,7 @@
 ---
 title: Remove
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Removes the specified Type object from the set. Throws ArgumentException if type is null.
 type: docs
 weight: 50
 url: /net/aspose.words.reporting/knowntypeset/remove/

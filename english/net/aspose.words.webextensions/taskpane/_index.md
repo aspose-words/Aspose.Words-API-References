@@ -1,7 +1,7 @@
 ---
 title: TaskPane
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Represents an add-in task pane object.
 type: docs
 weight: 6350
 url: /net/aspose.words.webextensions/taskpane/

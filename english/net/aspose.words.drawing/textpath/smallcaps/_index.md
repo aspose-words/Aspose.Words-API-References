@@ -1,7 +1,7 @@
 ---
 title: SmallCaps
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: True if the font is formatted as small capital letters.
 type: docs
 weight: 130
 url: /net/aspose.words.drawing/textpath/smallcaps/

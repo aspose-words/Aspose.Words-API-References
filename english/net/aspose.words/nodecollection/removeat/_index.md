@@ -1,7 +1,7 @@
 ---
 title: RemoveAt
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Removes the node at the specified index from the collection and from the document.
 type: docs
 weight: 100
 url: /net/aspose.words/nodecollection/removeat/

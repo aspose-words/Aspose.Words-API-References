@@ -1,7 +1,7 @@
 ---
 title: ViewType
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Controls the view mode in Microsoft Word.
 type: docs
 weight: 40
 url: /net/aspose.words.settings/viewoptions/viewtype/

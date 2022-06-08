@@ -1,7 +1,7 @@
 ---
 title: ForeColor
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets a Color object that represents the foreground color for the fill.
 type: docs
 weight: 30
 url: /net/aspose.words.drawing/fill/forecolor/

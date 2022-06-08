@@ -1,7 +1,7 @@
 ---
 title: Create
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Creates CertificateHolder object using byte array of PKCS12 store and its password.
 type: docs
 weight: 10
 url: /net/aspose.words.digitalsignatures/certificateholder/create/

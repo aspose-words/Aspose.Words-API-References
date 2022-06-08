@@ -1,7 +1,7 @@
 ---
 title: Enabled
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Returns true if control is in enabled state.
 type: docs
 weight: 30
 url: /net/aspose.words.drawing.ole/forms2olecontrol/enabled/

@@ -1,7 +1,7 @@
 ---
 title: OpenFontDataStream
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: This method should open the stream with font data on demand.
 type: docs
 weight: 30
 url: /net/aspose.words.fonts/streamfontsource/openfontdatastream/

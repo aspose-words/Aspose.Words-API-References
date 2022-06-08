@@ -1,7 +1,7 @@
 ---
 title: SetImage
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Changes the fill type to single image.
 type: docs
 weight: 190
 url: /net/aspose.words.drawing/fill/setimage/

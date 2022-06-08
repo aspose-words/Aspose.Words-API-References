@@ -1,7 +1,7 @@
 ---
 title: SkipPdfImages
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets the flag indicating whether images must be skipped while loading PDF document. Default is False.
 type: docs
 weight: 40
 url: /net/aspose.words.loading/pdfloadoptions/skippdfimages/

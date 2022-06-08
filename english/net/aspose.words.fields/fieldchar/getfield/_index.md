@@ -1,7 +1,7 @@
 ---
 title: GetField
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Returns a field for the field char.
 type: docs
 weight: 40
 url: /net/aspose.words.fields/fieldchar/getfield/

@@ -1,7 +1,7 @@
 ---
 title: Print
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Prints the whole document to the default printer.
 type: docs
 weight: 620
 url: /net/aspose.words/document/print/

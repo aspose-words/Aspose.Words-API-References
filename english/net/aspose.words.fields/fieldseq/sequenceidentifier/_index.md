@@ -1,7 +1,7 @@
 ---
 title: SequenceIdentifier
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets the name assigned to the series of items that are to be numbered.
 type: docs
 weight: 60
 url: /net/aspose.words.fields/fieldseq/sequenceidentifier/

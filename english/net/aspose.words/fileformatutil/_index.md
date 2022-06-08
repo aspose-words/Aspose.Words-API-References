@@ -1,7 +1,7 @@
 ---
 title: FileFormatUtil
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Provides utility methods for working with file formats such as detecting file format or converting file extensions to/from file format enums.
 type: docs
 weight: 2590
 url: /net/aspose.words/fileformatutil/

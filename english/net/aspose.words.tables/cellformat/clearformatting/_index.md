@@ -1,7 +1,7 @@
 ---
 title: ClearFormatting
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Resets to default cell formatting. Does not change the width of the cell.
 type: docs
 weight: 150
 url: /net/aspose.words.tables/cellformat/clearformatting/

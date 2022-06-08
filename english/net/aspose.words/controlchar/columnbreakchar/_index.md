@@ -1,7 +1,7 @@
 ---
 title: ColumnBreakChar
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: End of column character char14.
 type: docs
 weight: 40
 url: /net/aspose.words/controlchar/columnbreakchar/

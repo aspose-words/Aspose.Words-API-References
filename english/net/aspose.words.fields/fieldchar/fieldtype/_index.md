@@ -1,7 +1,7 @@
 ---
 title: FieldType
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Returns the type of the field.
 type: docs
 weight: 10
 url: /net/aspose.words.fields/fieldchar/fieldtype/

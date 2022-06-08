@@ -1,7 +1,7 @@
 ---
 title: DoubleStrikeThrough
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: True if the font is formatted as double strikethrough text.
 type: docs
 weight: 90
 url: /net/aspose.words/font/doublestrikethrough/

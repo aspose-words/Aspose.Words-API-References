@@ -1,7 +1,7 @@
 ---
 title: Start
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets the node that represents the start of the field.
 type: docs
 weight: 90
 url: /net/aspose.words.fields/field/start/

@@ -1,7 +1,7 @@
 ---
 title: ChartLegend
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Represents chart legend properties.
 type: docs
 weight: 680
 url: /net/aspose.words.drawing.charts/chartlegend/

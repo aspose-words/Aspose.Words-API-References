@@ -1,7 +1,7 @@
 ---
 title: StoryType
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Returns StoryType.Comments.
 type: docs
 weight: 100
 url: /net/aspose.words/comment/storytype/

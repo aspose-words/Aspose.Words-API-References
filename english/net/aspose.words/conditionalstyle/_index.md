@@ -1,7 +1,7 @@
 ---
 title: ConditionalStyle
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Represents special formatting applied to some area of a table with assigned table style.
 type: docs
 weight: 300
 url: /net/aspose.words/conditionalstyle/

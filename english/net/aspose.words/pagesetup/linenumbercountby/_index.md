@@ -1,7 +1,7 @@
 ---
 title: LineNumberCountBy
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Returns or sets the numeric increment for line numbers.
 type: docs
 weight: 210
 url: /net/aspose.words/pagesetup/linenumbercountby/

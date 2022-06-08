@@ -1,7 +1,7 @@
 ---
 title: ExpandTableStylesToDirectFormatting
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Converts formatting specified in table styles into direct formatting on tables in the document.
 type: docs
 weight: 570
 url: /net/aspose.words/document/expandtablestylestodirectformatting/

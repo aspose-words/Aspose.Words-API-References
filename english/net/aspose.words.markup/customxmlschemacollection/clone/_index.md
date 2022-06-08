@@ -1,7 +1,7 @@
 ---
 title: Clone
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Makes a deep clone of this object.
 type: docs
 weight: 50
 url: /net/aspose.words.markup/customxmlschemacollection/clone/

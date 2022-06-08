@@ -1,7 +1,7 @@
 ---
 title: VerticalDistanceFromText
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies vertical distance in points between a frame and the surrounding text.
 type: docs
 weight: 100
 url: /net/aspose.words/frameformat/verticaldistancefromtext/

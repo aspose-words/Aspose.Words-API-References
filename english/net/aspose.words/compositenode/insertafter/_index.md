@@ -1,7 +1,7 @@
 ---
 title: InsertAfter
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Inserts the specified node immediately after the specified reference node.
 type: docs
 weight: 140
 url: /net/aspose.words/compositenode/insertafter/

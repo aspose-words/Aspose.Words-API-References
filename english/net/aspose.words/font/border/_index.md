@@ -1,7 +1,7 @@
 ---
 title: Border
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Returns a Border object that specifies border for the font.
 type: docs
 weight: 60
 url: /net/aspose.words/font/border/

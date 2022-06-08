@@ -1,7 +1,7 @@
 ---
 title: PrintBodyTextBeforeHeader
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Print Body Text before Header/Footer Contents.
 type: docs
 weight: 390
 url: /net/aspose.words.settings/compatibilityoptions/printbodytextbeforeheader/

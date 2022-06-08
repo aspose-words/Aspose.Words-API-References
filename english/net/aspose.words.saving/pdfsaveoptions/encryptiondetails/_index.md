@@ -1,7 +1,7 @@
 ---
 title: EncryptionDetails
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets the details for encrypting the output PDF document.
 type: docs
 weight: 110
 url: /net/aspose.words.saving/pdfsaveoptions/encryptiondetails/

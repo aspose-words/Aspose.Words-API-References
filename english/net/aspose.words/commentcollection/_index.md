@@ -1,7 +1,7 @@
 ---
 title: CommentCollection
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Provides typed access to a collection of Comment./comment nodes.
 type: docs
 weight: 230
 url: /net/aspose.words/commentcollection/

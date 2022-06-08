@@ -1,7 +1,7 @@
 ---
 title: ListLevelCollection
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: A collection of list formatting for each level in a list.
 type: docs
 weight: 3270
 url: /net/aspose.words.lists/listlevelcollection/

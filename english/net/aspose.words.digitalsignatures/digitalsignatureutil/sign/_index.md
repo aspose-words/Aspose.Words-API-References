@@ -1,7 +1,7 @@
 ---
 title: Sign
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Signs source document using given CertificateHolderaspose.words.digitalsignatures/certificateholder and SignOptionsaspose.words.digitalsignatures/signoptions with digital signature and writes signed document to destination stream.
 type: docs
 weight: 30
 url: /net/aspose.words.digitalsignatures/digitalsignatureutil/sign/

@@ -1,7 +1,7 @@
 ---
 title: VisitShapeEnd
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Called when enumeration of a shape has ended.
 type: docs
 weight: 390
 url: /net/aspose.words/documentvisitor/visitshapeend/

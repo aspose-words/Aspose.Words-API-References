@@ -1,7 +1,7 @@
 ---
 title: Spacing
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: When columns are evenly spaced gets or sets the amount of space between each column in points.
 type: docs
 weight: 50
 url: /net/aspose.words/textcolumncollection/spacing/

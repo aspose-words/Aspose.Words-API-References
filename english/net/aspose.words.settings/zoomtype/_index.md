@@ -1,7 +1,7 @@
 ---
 title: ZoomType
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Possible values for how large or small the document appears on the screen in Microsoft Word.
 type: docs
 weight: 5630
 url: /net/aspose.words.settings/zoomtype/

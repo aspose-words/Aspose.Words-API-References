@@ -1,7 +1,7 @@
 ---
 title: LeftPadding
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Returns or sets the amount of space in points to add to the left of the contents of cell.
 type: docs
 weight: 50
 url: /net/aspose.words.tables/cellformat/leftpadding/

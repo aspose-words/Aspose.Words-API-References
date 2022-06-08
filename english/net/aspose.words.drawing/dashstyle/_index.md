@@ -1,7 +1,7 @@
 ---
 title: DashStyle
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Dashed line style.
 type: docs
 weight: 800
 url: /net/aspose.words.drawing/dashstyle/

@@ -1,7 +1,7 @@
 ---
 title: SuppressTopSpacing
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Ignore Minimum and Exact Line Height for First Line on Page.
 type: docs
 weight: 510
 url: /net/aspose.words.settings/compatibilityoptions/suppresstopspacing/

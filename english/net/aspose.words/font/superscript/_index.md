@@ -1,7 +1,7 @@
 ---
 title: Superscript
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: True if the font is formatted as superscript.
 type: docs
 weight: 440
 url: /net/aspose.words/font/superscript/

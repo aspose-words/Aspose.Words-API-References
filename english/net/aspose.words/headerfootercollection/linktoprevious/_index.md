@@ -1,7 +1,7 @@
 ---
 title: LinkToPrevious
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Links or unlinks all headers and footers to the corresponding headers and footers in the previous section.
 type: docs
 weight: 20
 url: /net/aspose.words/headerfootercollection/linktoprevious/

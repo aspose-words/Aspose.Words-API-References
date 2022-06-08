@@ -1,7 +1,7 @@
 ---
 title: RevisedPropertiesEffect
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Allows to specify the effect for content areas with changes of formatting properties FormatChange Default value is None
 type: docs
 weight: 120
 url: /net/aspose.words.layout/revisionoptions/revisedpropertieseffect/

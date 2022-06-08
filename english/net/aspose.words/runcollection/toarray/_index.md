@@ -1,7 +1,7 @@
 ---
 title: ToArray
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Copies all runs from the collection to a new array of runs.
 type: docs
 weight: 20
 url: /net/aspose.words/runcollection/toarray/

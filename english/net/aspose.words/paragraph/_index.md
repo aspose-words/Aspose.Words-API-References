@@ -1,7 +1,7 @@
 ---
 title: Paragraph
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Represents a paragraph of text.
 type: docs
 weight: 4100
 url: /net/aspose.words/paragraph/

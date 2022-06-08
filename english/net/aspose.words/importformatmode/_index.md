@@ -1,7 +1,7 @@
 ---
 title: ImportFormatMode
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies how formatting is merged when importing content from another document.
 type: docs
 weight: 2980
 url: /net/aspose.words/importformatmode/

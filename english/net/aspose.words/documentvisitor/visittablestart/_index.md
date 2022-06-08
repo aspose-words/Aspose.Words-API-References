@@ -1,7 +1,7 @@
 ---
 title: VisitTableStart
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Called when enumeration of a table has started.
 type: docs
 weight: 500
 url: /net/aspose.words/documentvisitor/visittablestart/

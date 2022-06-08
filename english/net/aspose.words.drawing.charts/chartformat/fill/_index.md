@@ -1,7 +1,7 @@
 ---
 title: Fill
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets fill formatting for the parent chart element.
 type: docs
 weight: 10
 url: /net/aspose.words.drawing.charts/chartformat/fill/

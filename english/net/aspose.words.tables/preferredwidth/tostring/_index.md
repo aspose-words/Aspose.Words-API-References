@@ -1,7 +1,7 @@
 ---
 title: ToString
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Returns a user-friendly string that displays the value of this object.
 type: docs
 weight: 80
 url: /net/aspose.words.tables/preferredwidth/tostring/

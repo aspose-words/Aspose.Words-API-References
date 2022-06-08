@@ -1,7 +1,7 @@
 ---
 title: InsertImage
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Inserts an image from a .NET Image object into the document. The image is inserted inline and at 100 scale.
 type: docs
 weight: 350
 url: /net/aspose.words/documentbuilder/insertimage/

@@ -1,7 +1,7 @@
 ---
 title: FieldEmbed
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Implements the EMBED field.
 type: docs
 weight: 1660
 url: /net/aspose.words.fields/fieldembed/

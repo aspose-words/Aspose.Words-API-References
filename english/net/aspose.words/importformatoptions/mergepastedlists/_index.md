@@ -1,7 +1,7 @@
 ---
 title: MergePastedLists
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets a boolean value that specifies whether pasted lists will be merged with surrounding lists. The default value is false.
 type: docs
 weight: 60
 url: /net/aspose.words/importformatoptions/mergepastedlists/

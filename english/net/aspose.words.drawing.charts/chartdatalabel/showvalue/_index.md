@@ -1,7 +1,7 @@
 ---
 title: ShowValue
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Allows to specify if values are to be displayed in the data labels. Default value is false.
 type: docs
 weight: 130
 url: /net/aspose.words.drawing.charts/chartdatalabel/showvalue/

@@ -1,7 +1,7 @@
 ---
 title: SizeBi
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets the font size in points used in a right-to-left document.
 type: docs
 weight: 350
 url: /net/aspose.words/font/sizebi/

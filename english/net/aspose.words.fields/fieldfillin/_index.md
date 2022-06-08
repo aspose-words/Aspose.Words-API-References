@@ -1,7 +1,7 @@
 ---
 title: FieldFillIn
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Implements the FILLIN field.
 type: docs
 weight: 1700
 url: /net/aspose.words.fields/fieldfillin/

@@ -1,7 +1,7 @@
 ---
 title: XslTransformation
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets the location of XSL Transformation to format XML data.
 type: docs
 weight: 100
 url: /net/aspose.words.fields/fieldincludetext/xsltransformation/

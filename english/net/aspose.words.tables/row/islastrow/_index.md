@@ -1,7 +1,7 @@
 ---
 title: IsLastRow
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: True if this is the last row in a table false otherwise.
 type: docs
 weight: 50
 url: /net/aspose.words.tables/row/islastrow/

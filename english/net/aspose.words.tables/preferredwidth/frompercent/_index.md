@@ -1,7 +1,7 @@
 ---
 title: FromPercent
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: A creation method that returns a new instance that represents a preferred width specified as a percentage.
 type: docs
 weight: 20
 url: /net/aspose.words.tables/preferredwidth/frompercent/

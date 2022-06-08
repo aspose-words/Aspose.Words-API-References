@@ -1,7 +1,7 @@
 ---
 title: ImageWidth
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies the image width for the image to insert into the document.
 type: docs
 weight: 50
 url: /net/aspose.words.mailmerging/imagefieldmergingargs/imagewidth/

@@ -1,7 +1,7 @@
 ---
 title: Value
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: The value.
 type: docs
 weight: 30
 url: /net/aspose.words.fields/mergefieldimagedimension/value/

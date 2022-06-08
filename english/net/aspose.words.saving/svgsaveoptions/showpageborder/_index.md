@@ -1,7 +1,7 @@
 ---
 title: ShowPageBorder
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Controls whether a border is added to the outline of the page. Default is true.
 type: docs
 weight: 80
 url: /net/aspose.words.saving/svgsaveoptions/showpageborder/

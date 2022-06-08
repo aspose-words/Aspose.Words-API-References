@@ -1,7 +1,7 @@
 ---
 title: PixelFormat
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets the pixel format for the generated images.
 type: docs
 weight: 110
 url: /net/aspose.words.saving/imagesaveoptions/pixelformat/

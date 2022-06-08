@@ -1,7 +1,7 @@
 ---
 title: VisitFieldStart
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Called when a field starts in the document.
 type: docs
 weight: 200
 url: /net/aspose.words/documentvisitor/visitfieldstart/

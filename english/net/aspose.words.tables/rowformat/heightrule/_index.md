@@ -1,7 +1,7 @@
 ---
 title: HeightRule
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets the rule for determining the height of the table row.
 type: docs
 weight: 50
 url: /net/aspose.words.tables/rowformat/heightrule/

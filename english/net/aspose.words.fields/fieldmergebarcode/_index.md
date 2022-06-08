@@ -1,7 +1,7 @@
 ---
 title: FieldMergeBarcode
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Implements the MERGEBARCODE field.
 type: docs
 weight: 1950
 url: /net/aspose.words.fields/fieldmergebarcode/

@@ -1,7 +1,7 @@
 ---
 title: EndRow
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Ends a table row in the document.
 type: docs
 weight: 220
 url: /net/aspose.words/documentbuilder/endrow/

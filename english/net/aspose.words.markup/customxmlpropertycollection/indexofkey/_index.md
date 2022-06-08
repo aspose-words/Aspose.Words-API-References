@@ -1,7 +1,7 @@
 ---
 title: IndexOfKey
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Returns the zero-based index of the specified property in the collection.
 type: docs
 weight: 70
 url: /net/aspose.words.markup/customxmlpropertycollection/indexofkey/

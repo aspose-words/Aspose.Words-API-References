@@ -1,7 +1,7 @@
 ---
 title: BoundsInPoints
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets the location and size of the containing block of the shape in points relative to the anchor of the topmost shape.
 type: docs
 weight: 80
 url: /net/aspose.words.drawing/shapebase/boundsinpoints/

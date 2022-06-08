@@ -1,7 +1,7 @@
 ---
 title: SectionStart
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Returns or sets the type of section break for the specified object.
 type: docs
 weight: 380
 url: /net/aspose.words/pagesetup/sectionstart/

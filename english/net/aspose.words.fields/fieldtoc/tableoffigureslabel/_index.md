@@ -1,7 +1,7 @@
 ---
 title: TableOfFiguresLabel
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets the name of the sequence identifier used when building a table of figures.
 type: docs
 weight: 160
 url: /net/aspose.words.fields/fieldtoc/tableoffigureslabel/

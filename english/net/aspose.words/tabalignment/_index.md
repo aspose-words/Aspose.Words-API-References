@@ -1,7 +1,7 @@
 ---
 title: TabAlignment
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies the alignment/type of a tab stop.
 type: docs
 weight: 5830
 url: /net/aspose.words/tabalignment/

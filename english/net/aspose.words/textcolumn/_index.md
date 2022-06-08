@@ -1,7 +1,7 @@
 ---
 title: TextColumn
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Represents a single text column. TextColumn is a member of the TextColumnCollection./textcolumncollection collection. The TextColumns collection includes all the columns in a section of a document.
 type: docs
 weight: 6040
 url: /net/aspose.words/textcolumn/

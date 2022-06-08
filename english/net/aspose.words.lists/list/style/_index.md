@@ -1,7 +1,7 @@
 ---
 title: Style
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets the list style that this list references or defines.
 type: docs
 weight: 80
 url: /net/aspose.words.lists/list/style/

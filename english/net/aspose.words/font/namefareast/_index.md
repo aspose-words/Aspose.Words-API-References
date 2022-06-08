@@ -1,7 +1,7 @@
 ---
 title: NameFarEast
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Returns or sets an East Asian font name.
 type: docs
 weight: 260
 url: /net/aspose.words/font/namefareast/

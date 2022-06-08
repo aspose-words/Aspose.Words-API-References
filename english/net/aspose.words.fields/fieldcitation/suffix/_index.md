@@ -1,7 +1,7 @@
 ---
 title: Suffix
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets a suffix that is appended to the citation.
 type: docs
 weight: 70
 url: /net/aspose.words.fields/fieldcitation/suffix/

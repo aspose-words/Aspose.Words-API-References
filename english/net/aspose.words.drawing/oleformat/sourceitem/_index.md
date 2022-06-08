@@ -1,7 +1,7 @@
 ---
 title: SourceItem
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets a string that is used to identify the portion of the source file that is being linked.
 type: docs
 weight: 110
 url: /net/aspose.words.drawing/oleformat/sourceitem/

@@ -1,7 +1,7 @@
 ---
 title: BackColor
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets the background color of the stroke.
 type: docs
 weight: 10
 url: /net/aspose.words.drawing/stroke/backcolor/

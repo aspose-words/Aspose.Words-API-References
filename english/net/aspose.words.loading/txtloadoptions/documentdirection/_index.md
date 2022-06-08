@@ -1,7 +1,7 @@
 ---
 title: DocumentDirection
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets a document direction. The default value is LeftToRight.
 type: docs
 weight: 30
 url: /net/aspose.words.loading/txtloadoptions/documentdirection/

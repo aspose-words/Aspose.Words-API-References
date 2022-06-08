@@ -1,7 +1,7 @@
 ---
 title: ProtectionType
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Protection type for a document.
 type: docs
 weight: 4210
 url: /net/aspose.words/protectiontype/

@@ -1,7 +1,7 @@
 ---
 title: OleControl
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Represents OLE ActiveX control.
 type: docs
 weight: 1010
 url: /net/aspose.words.drawing.ole/olecontrol/

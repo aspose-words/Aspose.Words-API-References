@@ -1,7 +1,7 @@
 ---
 title: Thumbnail
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets the thumbnail of the document.
 type: docs
 weight: 280
 url: /net/aspose.words.properties/builtindocumentproperties/thumbnail/

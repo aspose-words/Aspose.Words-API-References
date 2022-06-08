@@ -1,7 +1,7 @@
 ---
 title: VisitGlossaryDocumentStart
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Called when enumeration of a glossary document has started.
 type: docs
 weight: 250
 url: /net/aspose.words/documentvisitor/visitglossarydocumentstart/

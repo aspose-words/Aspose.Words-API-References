@@ -1,7 +1,7 @@
 ---
 title: Borders
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets the collection of borders of the image. Borders only have effect for inline images.
 type: docs
 weight: 20
 url: /net/aspose.words.drawing/imagedata/borders/

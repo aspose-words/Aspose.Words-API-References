@@ -1,7 +1,7 @@
 ---
 title: Dml3DEffectsRenderingMode
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies how 3D shape effects are rendered.
 type: docs
 weight: 4590
 url: /net/aspose.words.saving/dml3deffectsrenderingmode/

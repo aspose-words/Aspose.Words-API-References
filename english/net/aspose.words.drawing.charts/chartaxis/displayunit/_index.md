@@ -1,7 +1,7 @@
 ---
 title: DisplayUnit
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies the scaling value of the display units for the value axis.
 type: docs
 weight: 60
 url: /net/aspose.words.drawing.charts/chartaxis/displayunit/

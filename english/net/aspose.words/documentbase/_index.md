@@ -1,7 +1,7 @@
 ---
 title: DocumentBase
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Provides the abstract base class for a main document and a glossary document of a Word document.
 type: docs
 weight: 430
 url: /net/aspose.words/documentbase/

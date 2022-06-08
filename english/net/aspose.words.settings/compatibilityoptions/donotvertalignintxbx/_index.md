@@ -1,7 +1,7 @@
 ---
 title: DoNotVertAlignInTxbx
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Ignore Vertical Alignment in Textboxes.
 type: docs
 weight: 240
 url: /net/aspose.words.settings/compatibilityoptions/donotvertalignintxbx/

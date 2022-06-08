@@ -1,7 +1,7 @@
 ---
 title: GrammarChecked
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Returns true if the document has been checked for grammar.
 type: docs
 weight: 180
 url: /net/aspose.words/document/grammarchecked/

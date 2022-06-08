@@ -1,7 +1,7 @@
 ---
 title: FieldFormat
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Provides typed access to fields numeric date and time and general formatting.
 type: docs
 weight: 1750
 url: /net/aspose.words.fields/fieldformat/

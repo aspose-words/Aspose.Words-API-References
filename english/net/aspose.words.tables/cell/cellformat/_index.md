@@ -1,7 +1,7 @@
 ---
 title: CellFormat
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Provides access to the formatting properties of the cell.
 type: docs
 weight: 20
 url: /net/aspose.words.tables/cell/cellformat/

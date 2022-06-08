@@ -1,7 +1,7 @@
 ---
 title: VbaReference
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Implements a reference to an Automation type library or VBA project.
 type: docs
 weight: 6230
 url: /net/aspose.words.vba/vbareference/

@@ -1,7 +1,7 @@
 ---
 title: Description
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Returns the description of the warning.
 type: docs
 weight: 10
 url: /net/aspose.words/warninginfo/description/

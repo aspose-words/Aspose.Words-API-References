@@ -1,7 +1,7 @@
 ---
 title: BackColor
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets a Color object that represents the background color for the fill.
 type: docs
 weight: 10
 url: /net/aspose.words.drawing/fill/backcolor/

@@ -1,7 +1,7 @@
 ---
 title: VisitGroupShapeStart
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Called when enumeration of a group shape has started.
 type: docs
 weight: 270
 url: /net/aspose.words/documentvisitor/visitgroupshapestart/

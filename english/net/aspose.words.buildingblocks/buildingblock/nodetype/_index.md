@@ -1,7 +1,7 @@
 ---
 title: NodeType
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Returns the BuildingBlock value.
 type: docs
 weight: 100
 url: /net/aspose.words.buildingblocks/buildingblock/nodetype/

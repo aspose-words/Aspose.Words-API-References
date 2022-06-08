@@ -1,7 +1,7 @@
 ---
 title: Current
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets current position in the page layout model. This property returns an opaque object which corresponds to the current layout entity.
 type: docs
 weight: 20
 url: /net/aspose.words.layout/layoutenumerator/current/

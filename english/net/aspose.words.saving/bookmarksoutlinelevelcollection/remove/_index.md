@@ -1,7 +1,7 @@
 ---
 title: Remove
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Removes a bookmark with the specified name from the collection.
 type: docs
 weight: 90
 url: /net/aspose.words.saving/bookmarksoutlinelevelcollection/remove/

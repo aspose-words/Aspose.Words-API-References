@@ -1,7 +1,7 @@
 ---
 title: TickLabelSpacing
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets the interval at which tick labels are drawn.
 type: docs
 weight: 230
 url: /net/aspose.words.drawing.charts/chartaxis/ticklabelspacing/

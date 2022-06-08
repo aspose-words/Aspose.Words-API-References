@@ -1,7 +1,7 @@
 ---
 title: Clear
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Removes all nodes from this collection and from the document.
 type: docs
 weight: 40
 url: /net/aspose.words/nodecollection/clear/

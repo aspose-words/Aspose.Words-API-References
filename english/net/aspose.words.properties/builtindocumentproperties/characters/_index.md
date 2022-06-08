@@ -1,7 +1,7 @@
 ---
 title: Characters
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Represents an estimate of the number of characters in the document.
 type: docs
 weight: 40
 url: /net/aspose.words.properties/builtindocumentproperties/characters/

@@ -1,7 +1,7 @@
 ---
 title: RevisionBarsWidth
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets width of revision bars points.
 type: docs
 weight: 150
 url: /net/aspose.words.layout/revisionoptions/revisionbarswidth/

@@ -1,7 +1,7 @@
 ---
 title: AddNode
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Adds a node to the argument.
 type: docs
 weight: 30
 url: /net/aspose.words.fields/fieldargumentbuilder/addnode/

@@ -1,7 +1,7 @@
 ---
 title: CreateSaveOptions
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Creates a save options object of a class suitable for the specified save format.
 type: docs
 weight: 10
 url: /net/aspose.words.saving/saveoptions/createsaveoptions/

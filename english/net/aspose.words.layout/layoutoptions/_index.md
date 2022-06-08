@@ -1,7 +1,7 @@
 ---
 title: LayoutOptions
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Holds the options that allow controlling the document layout process.
 type: docs
 weight: 3100
 url: /net/aspose.words.layout/layoutoptions/

@@ -1,7 +1,7 @@
 ---
 title: ListLevelNumber
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets the list level number 0 to 8 for the paragraph.
 type: docs
 weight: 40
 url: /net/aspose.words.lists/listformat/listlevelnumber/

@@ -1,7 +1,7 @@
 ---
 title: LoadOptions
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Allows to specify additional options such as password or base URI when loading a document into a Document../aspose.words/document object.
 type: docs
 weight: 3410
 url: /net/aspose.words.loading/loadoptions/

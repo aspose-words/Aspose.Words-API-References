@@ -1,7 +1,7 @@
 ---
 title: InsertHtml
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Inserts an HTML string into the document.
 type: docs
 weight: 330
 url: /net/aspose.words/documentbuilder/inserthtml/

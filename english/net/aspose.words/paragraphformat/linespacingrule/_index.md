@@ -1,7 +1,7 @@
 ---
 title: LineSpacingRule
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets the line spacing for the paragraph.
 type: docs
 weight: 190
 url: /net/aspose.words/paragraphformat/linespacingrule/

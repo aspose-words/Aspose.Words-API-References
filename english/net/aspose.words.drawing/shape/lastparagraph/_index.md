@@ -1,7 +1,7 @@
 ---
 title: LastParagraph
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets the last paragraph in the shape.
 type: docs
 weight: 120
 url: /net/aspose.words.drawing/shape/lastparagraph/

@@ -1,7 +1,7 @@
 ---
 title: FieldMerging
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Called when the Aspose.Words mail merge engine is about to insert data into a merge field in the document.
 type: docs
 weight: 10
 url: /net/aspose.words.mailmerging/ifieldmergingcallback/fieldmerging/

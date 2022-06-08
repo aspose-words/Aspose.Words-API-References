@@ -1,7 +1,7 @@
 ---
 title: HasRevisions
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Returns true if the document has any tracked changes.
 type: docs
 weight: 200
 url: /net/aspose.words/document/hasrevisions/

@@ -1,7 +1,7 @@
 ---
 title: CalendarType
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies the type of a calendar.
 type: docs
 weight: 180
 url: /net/aspose.words/calendartype/

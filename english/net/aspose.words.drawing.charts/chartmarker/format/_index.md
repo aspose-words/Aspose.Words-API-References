@@ -1,7 +1,7 @@
 ---
 title: Format
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Provides access to fill and line formatting of this marker.
 type: docs
 weight: 10
 url: /net/aspose.words.drawing.charts/chartmarker/format/

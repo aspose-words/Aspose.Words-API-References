@@ -1,7 +1,7 @@
 ---
 title: HeadingLevelRange
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets a range of heading levels to include.
 type: docs
 weight: 80
 url: /net/aspose.words.fields/fieldtoc/headinglevelrange/

@@ -1,7 +1,7 @@
 ---
 title: UseSingleBorderforContiguousCells
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Use Simplified Rules For Table Border Conflicts.
 type: docs
 weight: 650
 url: /net/aspose.words.settings/compatibilityoptions/usesingleborderforcontiguouscells/

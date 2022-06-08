@@ -1,7 +1,7 @@
 ---
 title: DocumentFieldName
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets the name of the merge field as specified in the document.
 type: docs
 weight: 20
 url: /net/aspose.words.mailmerging/fieldmergingargsbase/documentfieldname/

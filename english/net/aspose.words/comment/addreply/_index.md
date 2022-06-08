@@ -1,7 +1,7 @@
 ---
 title: AddReply
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Adds a reply to this comment.
 type: docs
 weight: 120
 url: /net/aspose.words/comment/addreply/

@@ -1,7 +1,7 @@
 ---
 title: Title
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets the title of the document.
 type: docs
 weight: 290
 url: /net/aspose.words.properties/builtindocumentproperties/title/

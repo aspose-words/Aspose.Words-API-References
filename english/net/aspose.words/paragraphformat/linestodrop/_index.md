@@ -1,7 +1,7 @@
 ---
 title: LinesToDrop
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets the number of lines of the paragraph text used to calculate the drop cap height.
 type: docs
 weight: 200
 url: /net/aspose.words/paragraphformat/linestodrop/

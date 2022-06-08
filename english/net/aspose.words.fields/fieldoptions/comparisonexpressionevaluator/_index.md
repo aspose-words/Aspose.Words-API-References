@@ -1,7 +1,7 @@
 ---
 title: ComparisonExpressionEvaluator
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets the field comparison expressions evaluator.
 type: docs
 weight: 30
 url: /net/aspose.words.fields/fieldoptions/comparisonexpressionevaluator/

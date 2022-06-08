@@ -1,7 +1,7 @@
 ---
 title: ListTemplate
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies one of the predefined list formats available in Microsoft Word.
 type: docs
 weight: 3280
 url: /net/aspose.words.lists/listtemplate/

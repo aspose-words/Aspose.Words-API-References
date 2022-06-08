@@ -1,7 +1,7 @@
 ---
 title: IFieldUpdateCultureProvider
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: When implemented provides a CultureInfo object that should be used during the update of a particular field.
 type: docs
 weight: 2490
 url: /net/aspose.words.fields/ifieldupdatecultureprovider/

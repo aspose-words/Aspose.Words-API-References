@@ -1,7 +1,7 @@
 ---
 title: CurrentShape
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets the ShapeBaseaspose.words.drawing/shapebase object corresponding to the shape or group shape that is about to be saved.
 type: docs
 weight: 10
 url: /net/aspose.words.saving/imagesavingargs/currentshape/

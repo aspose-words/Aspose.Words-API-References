@@ -1,7 +1,7 @@
 ---
 title: SdtDateStorageFormat
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies how the date for a date SDT is stored/retrieved when the SDT is bound to an XML node in the documents data store.
 type: docs
 weight: 3720
 url: /net/aspose.words.markup/sdtdatestorageformat/

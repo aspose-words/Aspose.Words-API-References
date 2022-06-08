@@ -1,7 +1,7 @@
 ---
 title: HorizontalAlignment
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies horizontal alignment of a floating shape text frame or floating table.
 type: docs
 weight: 900
 url: /net/aspose.words.drawing/horizontalalignment/

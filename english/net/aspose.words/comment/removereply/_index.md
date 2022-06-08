@@ -1,7 +1,7 @@
 ---
 title: RemoveReply
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Removes the specified reply to this comment.
 type: docs
 weight: 140
 url: /net/aspose.words/comment/removereply/

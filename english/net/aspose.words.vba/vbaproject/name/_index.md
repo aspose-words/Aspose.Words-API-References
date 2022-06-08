@@ -1,7 +1,7 @@
 ---
 title: Name
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets VBA project name.
 type: docs
 weight: 50
 url: /net/aspose.words.vba/vbaproject/name/

@@ -1,7 +1,7 @@
 ---
 title: GetRegionsHierarchy
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Returns a full hierarchy of regions with fields available in the document.
 type: docs
 weight: 250
 url: /net/aspose.words.mailmerging/mailmerge/getregionshierarchy/

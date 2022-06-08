@@ -1,7 +1,7 @@
 ---
 title: IsLocked
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets whether the field is locked should not recalculate its result.
 type: docs
 weight: 50
 url: /net/aspose.words.fields/field/islocked/

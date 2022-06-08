@@ -1,7 +1,7 @@
 ---
 title: Save
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Saves the document to a file. Automatically determines the save format from the extension.
 type: docs
 weight: 680
 url: /net/aspose.words/document/save/

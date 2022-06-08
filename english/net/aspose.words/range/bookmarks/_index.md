@@ -1,7 +1,7 @@
 ---
 title: Bookmarks
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Returns a Bookmarksaspose.words/range/bookmarks collection that represents all bookmarks in the range.
 type: docs
 weight: 10
 url: /net/aspose.words/range/bookmarks/

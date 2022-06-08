@@ -1,7 +1,7 @@
 ---
 title: MoveParent
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Moves to the parent entity.
 type: docs
 weight: 130
 url: /net/aspose.words.layout/layoutenumerator/moveparent/

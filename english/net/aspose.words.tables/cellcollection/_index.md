@@ -1,7 +1,7 @@
 ---
 title: CellCollection
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Provides typed access to a collection of Cell./cell nodes.
 type: docs
 weight: 5900
 url: /net/aspose.words.tables/cellcollection/

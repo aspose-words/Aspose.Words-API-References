@@ -1,7 +1,7 @@
 ---
 title: DefaultTextInputChar
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: This is the o character used as a default value in text input form fields.
 type: docs
 weight: 70
 url: /net/aspose.words/controlchar/defaulttextinputchar/

@@ -1,7 +1,7 @@
 ---
 title: NodeInserting
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Called just before a node belonging to this document is about to be inserted into another node.
 type: docs
 weight: 20
 url: /net/aspose.words/inodechangingcallback/nodeinserting/

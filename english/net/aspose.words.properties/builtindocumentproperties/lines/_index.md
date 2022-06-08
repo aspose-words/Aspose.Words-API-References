@@ -1,7 +1,7 @@
 ---
 title: Lines
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Represents an estimate of the number of lines in the document.
 type: docs
 weight: 180
 url: /net/aspose.words.properties/builtindocumentproperties/lines/

@@ -1,7 +1,7 @@
 ---
 title: Paragraphs
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets a collection of paragraphs that are immediate children of the cell.
 type: docs
 weight: 80
 url: /net/aspose.words.tables/cell/paragraphs/

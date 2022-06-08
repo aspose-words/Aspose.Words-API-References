@@ -1,7 +1,7 @@
 ---
 title: CreatePictureBullet
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Creates picture bullet shape for the current list level.
 type: docs
 weight: 150
 url: /net/aspose.words.lists/listlevel/createpicturebullet/

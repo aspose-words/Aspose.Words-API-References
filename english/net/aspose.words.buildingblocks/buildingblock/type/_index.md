@@ -1,7 +1,7 @@
 ---
 title: Type
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies the building block type.
 type: docs
 weight: 120
 url: /net/aspose.words.buildingblocks/buildingblock/type/

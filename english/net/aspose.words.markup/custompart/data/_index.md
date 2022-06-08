@@ -1,7 +1,7 @@
 ---
 title: Data
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Contains the data of this custom part.
 type: docs
 weight: 30
 url: /net/aspose.words.markup/custompart/data/

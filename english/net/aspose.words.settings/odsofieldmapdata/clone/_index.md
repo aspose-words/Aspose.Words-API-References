@@ -1,7 +1,7 @@
 ---
 title: Clone
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Returns a deep clone of this object.
 type: docs
 weight: 60
 url: /net/aspose.words.settings/odsofieldmapdata/clone/

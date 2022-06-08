@@ -1,7 +1,7 @@
 ---
 title: Type
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Returns the form field type.
 type: docs
 weight: 220
 url: /net/aspose.words.fields/formfield/type/

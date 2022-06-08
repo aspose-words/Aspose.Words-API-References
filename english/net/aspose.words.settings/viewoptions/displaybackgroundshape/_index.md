@@ -1,7 +1,7 @@
 ---
 title: DisplayBackgroundShape
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Controls display of the background shape in print layout view.
 type: docs
 weight: 10
 url: /net/aspose.words.settings/viewoptions/displaybackgroundshape/

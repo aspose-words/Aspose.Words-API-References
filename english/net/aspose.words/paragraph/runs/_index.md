@@ -1,7 +1,7 @@
 ---
 title: Runs
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Provides access to the typed collection of pieces of text inside the paragraph.
 type: docs
 weight: 220
 url: /net/aspose.words/paragraph/runs/

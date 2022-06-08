@@ -1,7 +1,7 @@
 ---
 title: AppendChild
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Adds the specified node to the end of the list of child nodes for this node.
 type: docs
 weight: 70
 url: /net/aspose.words/compositenode/appendchild/

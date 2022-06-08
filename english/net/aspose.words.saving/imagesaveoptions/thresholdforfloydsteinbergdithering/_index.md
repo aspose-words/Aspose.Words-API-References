@@ -1,7 +1,7 @@
 ---
 title: ThresholdForFloydSteinbergDithering
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets the threshold that determines the value of the binarization error in the Floyd-Steinberg method. when ImageBinarizationMethodaspose.words.saving/imagebinarizationmethod is ImageBinarizationMethod.FloydSteinbergDithering.
 type: docs
 weight: 150
 url: /net/aspose.words.saving/imagesaveoptions/thresholdforfloydsteinbergdithering/

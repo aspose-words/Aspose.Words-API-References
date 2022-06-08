@@ -1,7 +1,7 @@
 ---
 title: ShowHiddenText
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets indication of whether hidden text in the document is rendered. Default is False.
 type: docs
 weight: 70
 url: /net/aspose.words.layout/layoutoptions/showhiddentext/

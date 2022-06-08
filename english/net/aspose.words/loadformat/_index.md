@@ -1,7 +1,7 @@
 ---
 title: LoadFormat
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Indicates the format of the document that is to be loaded.
 type: docs
 weight: 3300
 url: /net/aspose.words/loadformat/

@@ -1,7 +1,7 @@
 ---
 title: EpubNavigationMapLevel
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies the maximum level of headings populated to the navigation map when exporting to IDPF EPUB format. Default value is 3.
 type: docs
 weight: 110
 url: /net/aspose.words.saving/htmlsaveoptions/epubnavigationmaplevel/

@@ -1,7 +1,7 @@
 ---
 title: Name
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets the bookmark name.
 type: docs
 weight: 20
 url: /net/aspose.words/bookmarkend/name/

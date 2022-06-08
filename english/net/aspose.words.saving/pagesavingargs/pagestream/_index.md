@@ -1,7 +1,7 @@
 ---
 title: PageStream
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Allows to specify the stream where the document page will be saved to.
 type: docs
 weight: 50
 url: /net/aspose.words.saving/pagesavingargs/pagestream/

@@ -1,7 +1,7 @@
 ---
 title: IDocumentSavingCallback
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Implement this interface if you want to have your own custom method called during saving a document.
 type: docs
 weight: 4840
 url: /net/aspose.words.saving/idocumentsavingcallback/

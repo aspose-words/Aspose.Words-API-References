@@ -1,7 +1,7 @@
 ---
 title: AxisBetweenCategories
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets a flag indicating whether the value axis crosses the category axis between categories.
 type: docs
 weight: 10
 url: /net/aspose.words.drawing.charts/chartaxis/axisbetweencategories/

@@ -1,7 +1,7 @@
 ---
 title: JsonDataSource
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Provides access to data of a JSON file or stream to be used within a report.
 type: docs
 weight: 4380
 url: /net/aspose.words.reporting/jsondatasource/

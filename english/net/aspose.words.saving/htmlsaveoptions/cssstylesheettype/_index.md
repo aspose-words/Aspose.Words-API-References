@@ -1,7 +1,7 @@
 ---
 title: CssStyleSheetType
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies how CSS Cascading Style Sheet styles are exported to HTML MHTML or EPUB. Default value is Inline for HTML/MHTML and External for EPUB.
 type: docs
 weight: 60
 url: /net/aspose.words.saving/htmlsaveoptions/cssstylesheettype/

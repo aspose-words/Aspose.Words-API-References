@@ -1,7 +1,7 @@
 ---
 title: Cell
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: End of a table cell or end of a table row character x0007 or a.
 type: docs
 weight: 10
 url: /net/aspose.words/controlchar/cell/

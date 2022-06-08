@@ -1,7 +1,7 @@
 ---
 title: FootnotePosition
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Defines the footnote position.
 type: docs
 weight: 4000
 url: /net/aspose.words.notes/footnoteposition/

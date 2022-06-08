@@ -1,7 +1,7 @@
 ---
 title: ReadOnlyRecommended
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies whether the document author has recommended that the document be opened as read-only.
 type: docs
 weight: 20
 url: /net/aspose.words.settings/writeprotection/readonlyrecommended/
