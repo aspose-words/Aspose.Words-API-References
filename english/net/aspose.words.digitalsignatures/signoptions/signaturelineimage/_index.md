@@ -1,7 +1,7 @@
 ---
 title: SignatureLineImage
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: The image that will be shown in associated SignatureLineaspose.words.drawing/signatureline. Default value is null.
 type: docs
 weight: 60
 url: /net/aspose.words.digitalsignatures/signoptions/signaturelineimage/

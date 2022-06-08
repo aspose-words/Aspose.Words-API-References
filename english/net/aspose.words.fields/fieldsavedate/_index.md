@@ -1,7 +1,7 @@
 ---
 title: FieldSaveDate
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Implements the SAVEDATE field.
 type: docs
 weight: 2160
 url: /net/aspose.words.fields/fieldsavedate/

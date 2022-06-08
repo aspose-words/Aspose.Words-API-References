@@ -1,12 +1,12 @@
 ---
 title: Save
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Saves the document to a file. Automatically determines the save format from the extension.
 type: docs
 weight: 680
 url: /net/aspose.words/document/save/
 ---
-## Document.Save method (1 of 6)
+## Save(string) {#save_2}
 
 Saves the document to a file. Automatically determines the save format from the extension.
 
@@ -57,7 +57,7 @@ pdfDoc.Save(ArtifactsDir + "PDF2Word.ConvertPdfToDocx.docx");
 
 ---
 
-## Document.Save method (2 of 6)
+## Save(string, SaveFormat) {#save_3}
 
 Saves the document to a file in the specified format.
 
@@ -94,7 +94,7 @@ doc.Save(ArtifactsDir + "Document.ConvertToHtml.html", SaveFormat.Html);
 
 ---
 
-## Document.Save method (3 of 6)
+## Save(string, SaveOptions) {#save_4}
 
 Saves the document to a file using the specified save options.
 
@@ -299,7 +299,7 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.ExpandedOutlineLevels.pdf", options);
 
 ---
 
-## Document.Save method (4 of 6)
+## Save(Stream, SaveFormat) {#save}
 
 Saves the document to a stream using the specified format.
 
@@ -391,7 +391,7 @@ Document doc = new Document();
 
 ---
 
-## Document.Save method (5 of 6)
+## Save(Stream, SaveOptions) {#save_1}
 
 Saves the document to a stream using the specified save options.
 
@@ -446,7 +446,7 @@ using (Stream stream = File.Create(ArtifactsDir + "PdfSaveOptions.OnePage.pdf"))
 
 ---
 
-## Document.Save method (6 of 6)
+## Save(HttpResponse, string, ContentDisposition, SaveOptions) {#save_5}
 
 Sends the document to the client browser.
 

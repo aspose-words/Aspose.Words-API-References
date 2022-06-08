@@ -1,7 +1,7 @@
 ---
 title: GetChild
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Returns an Nth child node that matches the specified type.
 type: docs
 weight: 90
 url: /net/aspose.words/compositenode/getchild/

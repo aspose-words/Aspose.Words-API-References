@@ -1,7 +1,7 @@
 ---
 title: DoNotSuppressParagraphBorders
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Do Not Suppress Paragraph Borders Next To Frames.
 type: docs
 weight: 190
 url: /net/aspose.words.settings/compatibilityoptions/donotsuppressparagraphborders/

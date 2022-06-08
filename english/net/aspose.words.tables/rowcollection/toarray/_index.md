@@ -1,7 +1,7 @@
 ---
 title: ToArray
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Copies all rows from the collection to a new array of rows.
 type: docs
 weight: 20
 url: /net/aspose.words.tables/rowcollection/toarray/

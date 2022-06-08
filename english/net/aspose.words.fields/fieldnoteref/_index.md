@@ -1,7 +1,7 @@
 ---
 title: FieldNoteRef
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Implements the NOTEREF field.
 type: docs
 weight: 2010
 url: /net/aspose.words.fields/fieldnoteref/

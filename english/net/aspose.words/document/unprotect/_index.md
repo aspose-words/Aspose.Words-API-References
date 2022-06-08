@@ -1,12 +1,12 @@
 ---
 title: Unprotect
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Removes protection from the document regardless of the password.
 type: docs
 weight: 720
 url: /net/aspose.words/document/unprotect/
 ---
-## Document.Unprotect method (1 of 2)
+## Unprotect() {#unprotect_1}
 
 Removes protection from the document regardless of the password.
 
@@ -70,7 +70,7 @@ Assert.AreEqual(ProtectionType.NoProtection, doc.ProtectionType);
 
 ---
 
-## Document.Unprotect method (2 of 2)
+## Unprotect(string) {#unprotect}
 
 Removes protection from the document if a correct password is specified.
 

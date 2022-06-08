@@ -1,7 +1,7 @@
 ---
 title: BoundsInPoints
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets the actual bounds of the shape in points.
 type: docs
 weight: 10
 url: /net/aspose.words.rendering/noderendererbase/boundsinpoints/

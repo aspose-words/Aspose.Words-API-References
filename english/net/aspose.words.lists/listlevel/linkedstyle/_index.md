@@ -1,7 +1,7 @@
 ---
 title: LinkedStyle
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets the paragraph style that is linked to this list level.
 type: docs
 weight: 60
 url: /net/aspose.words.lists/listlevel/linkedstyle/

@@ -1,12 +1,12 @@
 ---
 title: Replace
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Replaces all occurrences of a specified character string pattern with a replacement string.
 type: docs
 weight: 80
 url: /net/aspose.words/range/replace/
 ---
-## Range.Replace method (1 of 4)
+## Replace(string, string) {#replace}
 
 Replaces all occurrences of a specified character string pattern with a replacement string.
 
@@ -109,7 +109,7 @@ Assert.AreEqual("Every paragraph that ends with a full stop like this one will b
 
 ---
 
-## Range.Replace method (2 of 4)
+## Replace(Regex, string) {#replace_2}
 
 Replaces all occurrences of a character pattern specified by a regular expression with another string.
 
@@ -173,7 +173,7 @@ Assert.AreEqual("I decided to get the curtains in lavender, ideal for the lavend
 
 ---
 
-## Range.Replace method (3 of 4)
+## Replace(string, string, FindReplaceOptions) {#replace_1}
 
 Replaces all occurrences of a specified character string pattern with a replacement string.
 
@@ -320,7 +320,7 @@ Assert.AreEqual("Eggs\a50\a\a" +
 
 ---
 
-## Range.Replace method (4 of 4)
+## Replace(Regex, string, FindReplaceOptions) {#replace_3}
 
 Replaces all occurrences of a character pattern specified by a regular expression with another string.
 

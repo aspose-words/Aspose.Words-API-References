@@ -1,7 +1,7 @@
 ---
 title: BuildingBlockCollection
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: A collection of BuildingBlock./buildingblock objects in the document.
 type: docs
 weight: 140
 url: /net/aspose.words.buildingblocks/buildingblockcollection/
@@ -33,7 +33,7 @@ public class BuildingBlockCollection : NodeCollection
 | [Insert](../../aspose.words/nodecollection/insert)(int, Node) | Inserts a node into the collection at the specified index. |
 | [Remove](../../aspose.words/nodecollection/remove)(Node) | Removes the node from the collection and from the document. |
 | [RemoveAt](../../aspose.words/nodecollection/removeat)(int) | Removes the node at the specified index from the collection and from the document. |
-| [ToArray](../../aspose.words.buildingblocks/buildingblockcollection/toarray)() | Copies all building blocks from the collection to a new array of building blocks. (2 methods) |
+| [ToArray](../../aspose.words.buildingblocks/buildingblockcollection/toarray#toarray)() | Copies all building blocks from the collection to a new array of building blocks. (2 methods) |
 
 ## Remarks
 

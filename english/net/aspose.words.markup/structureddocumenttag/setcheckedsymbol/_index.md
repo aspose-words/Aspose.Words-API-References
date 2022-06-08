@@ -1,7 +1,7 @@
 ---
 title: SetCheckedSymbol
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Sets the symbol used to represent the checked state of a check box content control.
 type: docs
 weight: 350
 url: /net/aspose.words.markup/structureddocumenttag/setcheckedsymbol/

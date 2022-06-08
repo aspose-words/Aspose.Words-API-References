@@ -1,7 +1,7 @@
 ---
 title: IsImageMap
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets whether to append coordinates to the hyperlink for a server-side image map.
 type: docs
 weight: 30
 url: /net/aspose.words.fields/fieldhyperlink/isimagemap/

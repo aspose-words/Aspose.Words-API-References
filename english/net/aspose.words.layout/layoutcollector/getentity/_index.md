@@ -1,7 +1,7 @@
 ---
 title: GetEntity
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Returns an opaque position of the LayoutEnumeratoraspose.words.layout/layoutenumerator which corresponds to the specified node. You can use returned value as an argument to Currentaspose.words.layout/layoutenumerator/current given the document being enumerated and the document of the node are the same.
 type: docs
 weight: 50
 url: /net/aspose.words.layout/layoutcollector/getentity/

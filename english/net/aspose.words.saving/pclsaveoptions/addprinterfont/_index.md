@@ -1,7 +1,7 @@
 ---
 title: AddPrinterFont
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Adds information about font that is uploaded to the printer by manufacturer.
 type: docs
 weight: 50
 url: /net/aspose.words.saving/pclsaveoptions/addprinterfont/

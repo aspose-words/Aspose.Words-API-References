@@ -1,7 +1,7 @@
 ---
 title: BuildingBlock
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Represents a glossary document entry such as a Building Block AutoText or an AutoCorrect entry.
 type: docs
 weight: 120
 url: /net/aspose.words.buildingblocks/buildingblock/

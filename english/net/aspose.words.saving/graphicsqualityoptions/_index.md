@@ -1,7 +1,7 @@
 ---
 title: GraphicsQualityOptions
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Allows to specify additional Graphics quality options.
 type: docs
 weight: 4730
 url: /net/aspose.words.saving/graphicsqualityoptions/

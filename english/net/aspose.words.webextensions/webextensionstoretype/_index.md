@@ -1,7 +1,7 @@
 ---
 title: WebExtensionStoreType
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Enumerates available types of a web extension store.
 type: docs
 weight: 6460
 url: /net/aspose.words.webextensions/webextensionstoretype/

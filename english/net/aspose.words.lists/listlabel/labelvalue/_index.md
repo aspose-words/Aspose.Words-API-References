@@ -1,7 +1,7 @@
 ---
 title: LabelValue
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets a numeric value for this label.
 type: docs
 weight: 30
 url: /net/aspose.words.lists/listlabel/labelvalue/

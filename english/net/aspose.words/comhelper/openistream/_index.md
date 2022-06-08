@@ -1,7 +1,7 @@
 ---
 title: OpenIStream
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Allows a COM application to load a Documentaspose.words/document from an IStream object.
 type: docs
 weight: 30
 url: /net/aspose.words/comhelper/openistream/

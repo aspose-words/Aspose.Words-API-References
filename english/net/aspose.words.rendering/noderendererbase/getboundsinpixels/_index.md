@@ -1,12 +1,12 @@
 ---
 title: GetBoundsInPixels
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Calculates the bounds of the shape in pixels for a specified zoom factor and resolution.
 type: docs
 weight: 40
 url: /net/aspose.words.rendering/noderendererbase/getboundsinpixels/
 ---
-## NodeRendererBase.GetBoundsInPixels method (1 of 2)
+## GetBoundsInPixels(float, float) {#getboundsinpixels}
 
 Calculates the bounds of the shape in pixels for a specified zoom factor and resolution.
 
@@ -79,7 +79,7 @@ Assert.AreEqual(30, bounds.Height);
 
 ---
 
-## NodeRendererBase.GetBoundsInPixels method (2 of 2)
+## GetBoundsInPixels(float, float, float) {#getboundsinpixels_1}
 
 Calculates the bounds of the shape in pixels for a specified zoom factor and resolution.
 

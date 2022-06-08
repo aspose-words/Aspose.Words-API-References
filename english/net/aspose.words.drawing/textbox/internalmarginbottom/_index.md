@@ -1,7 +1,7 @@
 ---
 title: InternalMarginBottom
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies the inner bottom margin in points for a shape.
 type: docs
 weight: 20
 url: /net/aspose.words.drawing/textbox/internalmarginbottom/

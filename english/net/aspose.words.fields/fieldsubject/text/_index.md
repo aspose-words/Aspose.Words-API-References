@@ -1,7 +1,7 @@
 ---
 title: Text
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets the text of the subject.
 type: docs
 weight: 20
 url: /net/aspose.words.fields/fieldsubject/text/

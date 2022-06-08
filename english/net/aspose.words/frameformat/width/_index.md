@@ -1,7 +1,7 @@
 ---
 title: Width
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets the width of the specified frame in points.
 type: docs
 weight: 120
 url: /net/aspose.words/frameformat/width/

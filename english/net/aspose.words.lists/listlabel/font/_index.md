@@ -1,7 +1,7 @@
 ---
 title: Font
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets the list label font.
 type: docs
 weight: 10
 url: /net/aspose.words.lists/listlabel/font/

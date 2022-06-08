@@ -1,7 +1,7 @@
 ---
 title: IgnoreTextBoxes
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets a boolean value that specifies that source formatting of textboxes content ignored if KeepSourceFormatting mode is used. The default value is true.
 type: docs
 weight: 40
 url: /net/aspose.words/importformatoptions/ignoretextboxes/

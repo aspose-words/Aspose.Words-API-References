@@ -1,7 +1,7 @@
 ---
 title: MaxCharactersPerLine
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets an integer value that specifies the maximum number of characters per one line. The default value is 0 that means no limit.
 type: docs
 weight: 40
 url: /net/aspose.words.saving/txtsaveoptions/maxcharactersperline/

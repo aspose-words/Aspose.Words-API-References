@@ -1,7 +1,7 @@
 ---
 title: DisplayDocTitle
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: A flag specifying whether the windows title bar should display the document title taken from the Title entry of the document information dictionary.
 type: docs
 weight: 70
 url: /net/aspose.words.saving/pdfsaveoptions/displaydoctitle/

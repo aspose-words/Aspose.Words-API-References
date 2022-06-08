@@ -1,7 +1,7 @@
 ---
 title: GetText
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets the text of all cells in this row including the end of row character.
 type: docs
 weight: 120
 url: /net/aspose.words.tables/row/gettext/

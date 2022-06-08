@@ -1,7 +1,7 @@
 ---
 title: TextOrientation
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies orientation of text on a page in a table cell or a text frame.
 type: docs
 weight: 6080
 url: /net/aspose.words/textorientation/

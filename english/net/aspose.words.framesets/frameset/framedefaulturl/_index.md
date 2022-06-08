@@ -1,7 +1,7 @@
 ---
 title: FrameDefaultUrl
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets the web page URL or document file name to display in this frame.
 type: docs
 weight: 30
 url: /net/aspose.words.framesets/frameset/framedefaulturl/

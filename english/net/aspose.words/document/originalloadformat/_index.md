@@ -1,7 +1,7 @@
 ---
 title: OriginalLoadFormat
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets the format of the original document that was loaded into this object.
 type: docs
 weight: 280
 url: /net/aspose.words/document/originalloadformat/

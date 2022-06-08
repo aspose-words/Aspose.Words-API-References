@@ -1,7 +1,7 @@
 ---
 title: CsvDataLoadOptions
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Represents options for parsing CSV data.
 type: docs
 weight: 4350
 url: /net/aspose.words.reporting/csvdataloadoptions/
@@ -18,8 +18,8 @@ public class CsvDataLoadOptions
 
 | Name | Description |
 | --- | --- |
-| [CsvDataLoadOptions](csvdataloadoptions)() | Initializes a new instance of this class with default options. |
-| [CsvDataLoadOptions](csvdataloadoptions)(bool) | Initializes a new instance of this class with specifying whether CSV data contains column names at the first line. |
+| [CsvDataLoadOptions](csvdataloadoptions#constructor)() | Initializes a new instance of this class with default options. |
+| [CsvDataLoadOptions](csvdataloadoptions#constructor_1)(bool) | Initializes a new instance of this class with specifying whether CSV data contains column names at the first line. |
 
 ## Properties
 

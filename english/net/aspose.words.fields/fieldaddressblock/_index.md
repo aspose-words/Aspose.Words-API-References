@@ -1,7 +1,7 @@
 ---
 title: FieldAddressBlock
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Implements the ADDRESSBLOCK field.
 type: docs
 weight: 1360
 url: /net/aspose.words.fields/fieldaddressblock/

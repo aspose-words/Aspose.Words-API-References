@@ -1,7 +1,7 @@
 ---
 title: FieldTC
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Implements the TC field.
 type: docs
 weight: 2290
 url: /net/aspose.words.fields/fieldtc/

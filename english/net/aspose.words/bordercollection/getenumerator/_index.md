@@ -1,7 +1,7 @@
 ---
 title: GetEnumerator
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Returns an enumerator object that can be used to iterate over all borders in the collection.
 type: docs
 weight: 160
 url: /net/aspose.words/bordercollection/getenumerator/

@@ -1,7 +1,7 @@
 ---
 title: EntryName
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets the name of the AutoText entry.
 type: docs
 weight: 20
 url: /net/aspose.words.fields/fieldautotextlist/entryname/

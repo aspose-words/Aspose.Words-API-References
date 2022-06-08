@@ -1,7 +1,7 @@
 ---
 title: PageBreak
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Page break character x000c or f. Note it has the same value as SectionBreakaspose.words/controlchar/sectionbreak.
 type: docs
 weight: 200
 url: /net/aspose.words/controlchar/pagebreak/

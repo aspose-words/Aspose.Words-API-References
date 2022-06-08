@@ -1,7 +1,7 @@
 ---
 title: SetShading
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Sets shading to the specified values on whole table.
 type: docs
 weight: 430
 url: /net/aspose.words.tables/table/setshading/

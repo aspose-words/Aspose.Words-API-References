@@ -1,7 +1,7 @@
 ---
 title: Item
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Returns the structured document tag at the specified index.
 type: docs
 weight: 20
 url: /net/aspose.words.markup/structureddocumenttagcollection/item/

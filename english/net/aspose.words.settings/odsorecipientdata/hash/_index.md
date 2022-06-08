@@ -1,7 +1,7 @@
 ---
 title: Hash
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Represents the hash code for this record. Sometimes Microsoft Word uses Hashaspose.words.settings/odsorecipientdata/hash of a whole record instead of a UniqueTagaspose.words.settings/odsorecipientdata/uniquetag value. The default value is 0.
 type: docs
 weight: 40
 url: /net/aspose.words.settings/odsorecipientdata/hash/

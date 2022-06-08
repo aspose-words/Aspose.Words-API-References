@@ -1,7 +1,7 @@
 ---
 title: GetText
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Returns an empty string.
 type: docs
 weight: 60
 url: /net/aspose.words/bookmarkstart/gettext/

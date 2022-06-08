@@ -1,7 +1,7 @@
 ---
 title: Run
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Represents a run of characters with the same font formatting.
 type: docs
 weight: 4510
 url: /net/aspose.words/run/
@@ -18,8 +18,8 @@ public class Run : Inline
 
 | Name | Description |
 | --- | --- |
-| [Run](run)(DocumentBase) | Initializes a new instance of the **Run** class. |
-| [Run](run)(DocumentBase, string) | Initializes a new instance of the **Run** class. |
+| [Run](run#constructor)(DocumentBase) | Initializes a new instance of the **Run** class. |
+| [Run](run#constructor_1)(DocumentBase, string) | Initializes a new instance of the **Run** class. |
 
 ## Properties
 

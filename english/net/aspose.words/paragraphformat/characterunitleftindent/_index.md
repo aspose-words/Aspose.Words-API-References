@@ -1,7 +1,7 @@
 ---
 title: CharacterUnitLeftIndent
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets the left indent value in characters for the specified paragraphs.
 type: docs
 weight: 70
 url: /net/aspose.words/paragraphformat/characterunitleftindent/

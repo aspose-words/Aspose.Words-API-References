@@ -1,7 +1,7 @@
 ---
 title: DocumentProperty
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Represents a custom or built-in document property.
 type: docs
 weight: 4170
 url: /net/aspose.words.properties/documentproperty/

@@ -1,7 +1,7 @@
 ---
 title: Template
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets the informational name of the document template.
 type: docs
 weight: 270
 url: /net/aspose.words.properties/builtindocumentproperties/template/

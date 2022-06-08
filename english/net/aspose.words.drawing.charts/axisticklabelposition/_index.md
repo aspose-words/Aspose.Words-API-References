@@ -1,7 +1,7 @@
 ---
 title: AxisTickLabelPosition
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies the possible positions for tick labels.
 type: docs
 weight: 570
 url: /net/aspose.words.drawing.charts/axisticklabelposition/

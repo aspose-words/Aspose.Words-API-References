@@ -1,7 +1,7 @@
 ---
 title: UseHighQualityRendering
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets a value determining whether or not to use high quality i.e. slow rendering algorithms.
 type: docs
 weight: 220
 url: /net/aspose.words.saving/saveoptions/usehighqualityrendering/

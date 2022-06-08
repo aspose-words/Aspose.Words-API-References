@@ -1,7 +1,7 @@
 ---
 title: Document
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets the document this collector instance is attached to.
 type: docs
 weight: 20
 url: /net/aspose.words.layout/layoutcollector/document/

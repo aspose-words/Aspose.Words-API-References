@@ -1,7 +1,7 @@
 ---
 title: Value
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets the value of this list item.
 type: docs
 weight: 30
 url: /net/aspose.words.markup/sdtlistitem/value/

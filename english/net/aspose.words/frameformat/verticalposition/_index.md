@@ -1,7 +1,7 @@
 ---
 title: VerticalPosition
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets vertical distance between the edge of the frame and the item specified by the RelativeVerticalPositionaspose.words/frameformat/relativeverticalposition property.
 type: docs
 weight: 110
 url: /net/aspose.words/frameformat/verticalposition/

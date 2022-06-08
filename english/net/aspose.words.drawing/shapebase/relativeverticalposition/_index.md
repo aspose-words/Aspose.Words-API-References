@@ -1,7 +1,7 @@
 ---
 title: RelativeVerticalPosition
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies relative to what the shape is positioned vertically.
 type: docs
 weight: 410
 url: /net/aspose.words.drawing/shapebase/relativeverticalposition/

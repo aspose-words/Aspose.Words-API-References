@@ -1,7 +1,7 @@
 ---
 title: OpaqueBoundsInPoints
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets the opaque bounds of the shape in points.
 type: docs
 weight: 20
 url: /net/aspose.words.rendering/noderendererbase/opaqueboundsinpoints/

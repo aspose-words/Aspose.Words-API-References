@@ -1,7 +1,7 @@
 ---
 title: DistanceBottom
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets distance between table bottom and the surrounding text in points.
 type: docs
 weight: 120
 url: /net/aspose.words.tables/table/distancebottom/

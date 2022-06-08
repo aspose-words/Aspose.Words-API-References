@@ -1,7 +1,7 @@
 ---
 title: ForegroundPatternColor
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets the color thats applied to the foreground of the Shading object.
 type: docs
 weight: 20
 url: /net/aspose.words/shading/foregroundpatterncolor/

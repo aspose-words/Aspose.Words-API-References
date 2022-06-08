@@ -1,7 +1,7 @@
 ---
 title: HasDmlEffect
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Checks if particular DrawingML text effect is applied.
 type: docs
 weight: 560
 url: /net/aspose.words/font/hasdmleffect/

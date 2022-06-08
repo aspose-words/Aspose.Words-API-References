@@ -1,7 +1,7 @@
 ---
 title: AllowOverlap
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets whether a floating table shall allow other floating objects in the document to overlap its extents when displayed. Default value is true.
 type: docs
 weight: 70
 url: /net/aspose.words.tables/table/allowoverlap/

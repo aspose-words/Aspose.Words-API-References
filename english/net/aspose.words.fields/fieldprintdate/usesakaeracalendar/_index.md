@@ -1,7 +1,7 @@
 ---
 title: UseSakaEraCalendar
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets whether to use the Saka Era calendar.
 type: docs
 weight: 30
 url: /net/aspose.words.fields/fieldprintdate/usesakaeracalendar/

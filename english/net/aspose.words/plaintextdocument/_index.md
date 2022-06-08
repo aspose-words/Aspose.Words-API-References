@@ -1,7 +1,7 @@
 ---
 title: PlainTextDocument
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Allows to extract plain-text representation of the documents content.
 type: docs
 weight: 4140
 url: /net/aspose.words/plaintextdocument/
@@ -18,10 +18,10 @@ public class PlainTextDocument
 
 | Name | Description |
 | --- | --- |
-| [PlainTextDocument](plaintextdocument)(Stream) | Creates a plain text document from a stream. Automatically detects the file format. |
-| [PlainTextDocument](plaintextdocument)(string) | Creates a plain text document from a file. Automatically detects the file format. |
-| [PlainTextDocument](plaintextdocument)(Stream, LoadOptions) | Creates a plain text document from a stream. Allows to specify additional options such as an encryption password. |
-| [PlainTextDocument](plaintextdocument)(string, LoadOptions) | Creates a plain text document from a file. Allows to specify additional options such as an encryption password. |
+| [PlainTextDocument](plaintextdocument#constructor)(Stream) | Creates a plain text document from a stream. Automatically detects the file format. |
+| [PlainTextDocument](plaintextdocument#constructor_2)(string) | Creates a plain text document from a file. Automatically detects the file format. |
+| [PlainTextDocument](plaintextdocument#constructor_1)(Stream, LoadOptions) | Creates a plain text document from a stream. Allows to specify additional options such as an encryption password. |
+| [PlainTextDocument](plaintextdocument#constructor_3)(string, LoadOptions) | Creates a plain text document from a file. Allows to specify additional options such as an encryption password. |
 
 ## Properties
 

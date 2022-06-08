@@ -1,7 +1,7 @@
 ---
 title: Paragraphs
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets a collection of paragraphs that are immediate children of the story.
 type: docs
 weight: 30
 url: /net/aspose.words/story/paragraphs/

@@ -1,12 +1,12 @@
 ---
 title: Patterned
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Sets the specified fill to a pattern.
 type: docs
 weight: 170
 url: /net/aspose.words.drawing/fill/patterned/
 ---
-## Fill.Patterned method (1 of 2)
+## Patterned(PatternType) {#patterned}
 
 Sets the specified fill to a pattern.
 
@@ -49,7 +49,7 @@ doc.Save(ArtifactsDir + "Shape.FillPattern.docx");
 
 ---
 
-## Fill.Patterned method (2 of 2)
+## Patterned(PatternType, Color, Color) {#patterned_1}
 
 Sets the specified fill to a pattern.
 

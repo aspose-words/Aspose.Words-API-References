@@ -1,7 +1,7 @@
 ---
 title: RelativeHorizontalAlignment
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets floating table relative horizontal alignment.
 type: docs
 weight: 230
 url: /net/aspose.words.tables/table/relativehorizontalalignment/

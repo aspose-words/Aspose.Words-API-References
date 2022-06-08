@@ -1,7 +1,7 @@
 ---
 title: FieldGoToButton
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Implements the GOTOBUTTON field.
 type: docs
 weight: 1780
 url: /net/aspose.words.fields/fieldgotobutton/

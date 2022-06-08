@@ -1,7 +1,7 @@
 ---
 title: ToArray
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Copies all nodes from the collection to a new array of nodes.
 type: docs
 weight: 40
 url: /net/aspose.words/nodelist/toarray/

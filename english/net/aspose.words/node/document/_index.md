@@ -1,7 +1,7 @@
 ---
 title: Document
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets the document to which this node belongs.
 type: docs
 weight: 20
 url: /net/aspose.words/node/document/

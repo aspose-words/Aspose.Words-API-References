@@ -1,7 +1,7 @@
 ---
 title: INodeChangingCallback
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Implement this interface if you want to receive notifications when nodes are inserted or removed in the document.
 type: docs
 weight: 2950
 url: /net/aspose.words/inodechangingcallback/

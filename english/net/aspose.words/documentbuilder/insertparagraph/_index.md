@@ -1,7 +1,7 @@
 ---
 title: InsertParagraph
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Inserts a paragraph break into the document.
 type: docs
 weight: 400
 url: /net/aspose.words/documentbuilder/insertparagraph/

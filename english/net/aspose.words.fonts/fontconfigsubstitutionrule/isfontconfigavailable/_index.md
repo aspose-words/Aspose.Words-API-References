@@ -1,7 +1,7 @@
 ---
 title: IsFontConfigAvailable
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Check if fontconfig utility is available or not.
 type: docs
 weight: 20
 url: /net/aspose.words.fonts/fontconfigsubstitutionrule/isfontconfigavailable/

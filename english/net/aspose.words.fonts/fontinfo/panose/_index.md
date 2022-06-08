@@ -1,7 +1,7 @@
 ---
 title: Panose
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets the PANOSE typeface classification number.
 type: docs
 weight: 60
 url: /net/aspose.words.fonts/fontinfo/panose/

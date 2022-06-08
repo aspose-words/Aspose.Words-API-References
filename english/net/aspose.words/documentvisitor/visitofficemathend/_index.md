@@ -1,7 +1,7 @@
 ---
 title: VisitOfficeMathEnd
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Called when enumeration of a Office Math object has ended.
 type: docs
 weight: 300
 url: /net/aspose.words/documentvisitor/visitofficemathend/

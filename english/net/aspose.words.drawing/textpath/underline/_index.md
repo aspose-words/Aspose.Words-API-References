@@ -1,7 +1,7 @@
 ---
 title: Underline
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: True if the font is underlined.
 type: docs
 weight: 190
 url: /net/aspose.words.drawing/textpath/underline/

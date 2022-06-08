@@ -1,7 +1,7 @@
 ---
 title: Checked
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets/Sets current state of the Checkbox SDT. Default value for this property is false.
 type: docs
 weight: 60
 url: /net/aspose.words.markup/structureddocumenttag/checked/

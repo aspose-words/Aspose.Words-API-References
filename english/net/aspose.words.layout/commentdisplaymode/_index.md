@@ -1,7 +1,7 @@
 ---
 title: CommentDisplayMode
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies the rendering mode for document comments.
 type: docs
 weight: 3040
 url: /net/aspose.words.layout/commentdisplaymode/

@@ -1,7 +1,7 @@
 ---
 title: ChromaKey
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Defines the color value of the image that will be treated as transparent.
 type: docs
 weight: 40
 url: /net/aspose.words.drawing/imagedata/chromakey/

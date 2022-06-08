@@ -1,7 +1,7 @@
 ---
 title: PreferredWidth
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Returns or sets the preferred width of the cell.
 type: docs
 weight: 70
 url: /net/aspose.words.tables/cellformat/preferredwidth/

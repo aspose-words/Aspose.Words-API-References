@@ -1,7 +1,7 @@
 ---
 title: VisitFieldSeparator
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Called when a field separator is encountered in the document.
 type: docs
 weight: 190
 url: /net/aspose.words/documentvisitor/visitfieldseparator/

@@ -1,7 +1,7 @@
 ---
 title: JoinRunsWithSameFormatting
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Joins runs with same formatting in all paragraphs of the document.
 type: docs
 weight: 600
 url: /net/aspose.words/document/joinrunswithsameformatting/

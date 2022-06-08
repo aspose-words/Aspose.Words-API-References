@@ -1,7 +1,7 @@
 ---
 title: PdfDigitalSignatureHashAlgorithm
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies a digital hash algorithm used by a digital signature.
 type: docs
 weight: 5110
 url: /net/aspose.words.saving/pdfdigitalsignaturehashalgorithm/
@@ -18,10 +18,12 @@ public enum PdfDigitalSignatureHashAlgorithm
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Sha256 | `0` | SHA-256 hash algorithm. |
-| Sha384 | `1` | SHA-384 hash algorithm. |
-| Sha512 | `2` | SHA-512 hash algorithm. |
-| RipeMD160 | `3` | RIPEMD-160 hash algorithm. |
+| Sha1 | `0` |  |
+| Sha256 | `1` | SHA-256 hash algorithm. |
+| Sha384 | `2` | SHA-384 hash algorithm. |
+| Sha512 | `3` | SHA-512 hash algorithm. |
+| Md5 | `4` |  |
+| RipeMD160 | `5` | RIPEMD-160 hash algorithm. |
 
 ## Examples
 

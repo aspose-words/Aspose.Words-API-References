@@ -1,7 +1,7 @@
 ---
 title: HorizontalAlignment
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets horizontal alignment of the specified frame.
 type: docs
 weight: 30
 url: /net/aspose.words/frameformat/horizontalalignment/

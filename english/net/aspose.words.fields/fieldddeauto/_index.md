@@ -1,7 +1,7 @@
 ---
 title: FieldDdeAuto
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Implements the DDEAUTO field.
 type: docs
 weight: 1600
 url: /net/aspose.words.fields/fieldddeauto/

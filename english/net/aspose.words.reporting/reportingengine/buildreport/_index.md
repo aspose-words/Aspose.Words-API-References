@@ -1,12 +1,12 @@
 ---
 title: BuildReport
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Populates the specified template document with data from the specified source making it a ready report.
 type: docs
 weight: 40
 url: /net/aspose.words.reporting/reportingengine/buildreport/
 ---
-## ReportingEngine.BuildReport method (1 of 3)
+## BuildReport(Document, object) {#buildreport}
 
 Populates the specified template document with data from the specified source making it a ready report.
 
@@ -52,7 +52,7 @@ For information on how to work with data sources of different types in template 
 
 ---
 
-## ReportingEngine.BuildReport method (2 of 3)
+## BuildReport(Document, object, string) {#buildreport_1}
 
 Populates the specified template document with data from the specified source making it a ready report.
 
@@ -99,7 +99,7 @@ For information on how to work with data sources of different types in template 
 
 ---
 
-## ReportingEngine.BuildReport method (3 of 3)
+## BuildReport(Document, object[], string[]) {#buildreport_2}
 
 Populates the specified template document with data from the specified sources making it a ready report.
 

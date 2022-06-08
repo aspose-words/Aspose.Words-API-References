@@ -1,7 +1,7 @@
 ---
 title: Bidi
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets whether this is a right-to-left table.
 type: docs
 weight: 80
 url: /net/aspose.words.tables/table/bidi/

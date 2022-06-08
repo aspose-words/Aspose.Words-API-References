@@ -1,7 +1,7 @@
 ---
 title: IsLayoutInCell
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets a flag indicating whether the shape is displayed inside a table or outside of it.
 type: docs
 weight: 300
 url: /net/aspose.words.drawing/shapebase/islayoutincell/

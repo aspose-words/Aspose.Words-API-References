@@ -1,7 +1,7 @@
 ---
 title: AdjustWithEffects
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Adds to the source rectangle values of the effect extent and returns the final rectangle.
 type: docs
 weight: 550
 url: /net/aspose.words.drawing/shapebase/adjustwitheffects/

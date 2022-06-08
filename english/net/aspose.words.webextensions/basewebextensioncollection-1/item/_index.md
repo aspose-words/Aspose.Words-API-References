@@ -1,7 +1,7 @@
 ---
 title: Item
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets an item at the specified index.
 type: docs
 weight: 20
 url: /net/aspose.words.webextensions/basewebextensioncollection-1/item/

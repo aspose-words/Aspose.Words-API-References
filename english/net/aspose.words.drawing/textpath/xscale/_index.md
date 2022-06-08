@@ -1,7 +1,7 @@
 ---
 title: XScale
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Determines whether a straight textpath will be used instead of the shape path.
 type: docs
 weight: 200
 url: /net/aspose.words.drawing/textpath/xscale/

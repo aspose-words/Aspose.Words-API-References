@@ -1,7 +1,7 @@
 ---
 title: Left
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets the left border.
 type: docs
 weight: 70
 url: /net/aspose.words/bordercollection/left/

@@ -1,7 +1,7 @@
 ---
 title: IsInKilobytes
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets whether to display the file size in kilobytes.
 type: docs
 weight: 20
 url: /net/aspose.words.fields/fieldfilesize/isinkilobytes/

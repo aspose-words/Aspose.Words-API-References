@@ -1,7 +1,7 @@
 ---
 title: PdfPageMode
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies how the PDF document should be displayed when opened in the PDF reader.
 type: docs
 weight: 5170
 url: /net/aspose.words.saving/pdfpagemode/

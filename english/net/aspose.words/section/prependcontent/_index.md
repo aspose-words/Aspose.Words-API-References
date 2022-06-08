@@ -1,7 +1,7 @@
 ---
 title: PrependContent
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Inserts a copy of content of the source section at the beginning of this section.
 type: docs
 weight: 140
 url: /net/aspose.words/section/prependcontent/

@@ -1,12 +1,12 @@
 ---
 title: MemoryFontSource
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Ctor.
 type: docs
 weight: 10
 url: /net/aspose.words.fonts/memoryfontsource/memoryfontsource/
 ---
-## MemoryFontSource constructor (1 of 3)
+## MemoryFontSource(byte[]) {#constructor}
 
 Ctor.
 
@@ -42,7 +42,7 @@ Assert.AreEqual(0, memoryFontSource.Priority);
 
 ---
 
-## MemoryFontSource constructor (2 of 3)
+## MemoryFontSource(byte[], int) {#constructor_1}
 
 Ctor.
 
@@ -79,7 +79,7 @@ Assert.AreEqual(0, memoryFontSource.Priority);
 
 ---
 
-## MemoryFontSource constructor (3 of 3)
+## MemoryFontSource(byte[], int, string) {#constructor_2}
 
 Ctor.
 

@@ -1,7 +1,7 @@
 ---
 title: Type
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets table area to which this conditional style relates.
 type: docs
 weight: 90
 url: /net/aspose.words/conditionalstyle/type/

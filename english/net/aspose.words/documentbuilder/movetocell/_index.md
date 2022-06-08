@@ -1,7 +1,7 @@
 ---
 title: MoveToCell
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Moves the cursor to a table cell in the current section.
 type: docs
 weight: 480
 url: /net/aspose.words/documentbuilder/movetocell/

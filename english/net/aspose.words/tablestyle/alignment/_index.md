@@ -1,7 +1,7 @@
 ---
 title: Alignment
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies the alignment for the table style.
 type: docs
 weight: 10
 url: /net/aspose.words/tablestyle/alignment/

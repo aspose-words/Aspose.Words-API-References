@@ -1,7 +1,7 @@
 ---
 title: ListOutdent
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Decreases the list level of the current paragraph by one level.
 type: docs
 weight: 80
 url: /net/aspose.words.lists/listformat/listoutdent/

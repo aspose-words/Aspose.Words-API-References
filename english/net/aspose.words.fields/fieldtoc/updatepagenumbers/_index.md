@@ -1,7 +1,7 @@
 ---
 title: UpdatePageNumbers
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Updates the page numbers for items in this table of contents.
 type: docs
 weight: 180
 url: /net/aspose.words.fields/fieldtoc/updatepagenumbers/

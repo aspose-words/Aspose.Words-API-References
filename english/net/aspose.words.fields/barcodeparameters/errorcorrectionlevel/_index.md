@@ -1,7 +1,7 @@
 ---
 title: ErrorCorrectionLevel
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Error correction level of QR Code. Valid values are 0 3.
 type: docs
 weight: 80
 url: /net/aspose.words.fields/barcodeparameters/errorcorrectionlevel/

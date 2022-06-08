@@ -1,7 +1,7 @@
 ---
 title: Shading
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets a Shadingaspose.words/shading object that refers to the shading formatting for this conditional style.
 type: docs
 weight: 70
 url: /net/aspose.words/conditionalstyle/shading/

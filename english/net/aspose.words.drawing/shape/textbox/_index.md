@@ -1,7 +1,7 @@
 ---
 title: TextBox
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Defines attributes that specify how text is displayed in a shape.
 type: docs
 weight: 220
 url: /net/aspose.words.drawing/shape/textbox/

@@ -1,7 +1,7 @@
 ---
 title: ExportListLabels
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Controls how list labels are output to HTML MHTML or EPUB. Default value is Auto.
 type: docs
 weight: 200
 url: /net/aspose.words.saving/htmlsaveoptions/exportlistlabels/

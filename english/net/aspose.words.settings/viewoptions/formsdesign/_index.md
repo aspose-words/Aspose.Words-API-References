@@ -1,7 +1,7 @@
 ---
 title: FormsDesign
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies whether the document is in forms design mode.
 type: docs
 weight: 30
 url: /net/aspose.words.settings/viewoptions/formsdesign/

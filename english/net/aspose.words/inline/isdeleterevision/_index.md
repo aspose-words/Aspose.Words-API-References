@@ -1,7 +1,7 @@
 ---
 title: IsDeleteRevision
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Returns true if this object was deleted in Microsoft Word while change tracking was enabled.
 type: docs
 weight: 20
 url: /net/aspose.words/inline/isdeleterevision/

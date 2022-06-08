@@ -1,7 +1,7 @@
 ---
 title: DisplayResult
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets the text that represents the displayed field result.
 type: docs
 weight: 10
 url: /net/aspose.words.fields/field/displayresult/

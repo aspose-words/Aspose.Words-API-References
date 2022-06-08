@@ -1,7 +1,7 @@
 ---
 title: Pattern
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets a PatternTypeaspose.words.drawing/patterntype for the fill.
 type: docs
 weight: 100
 url: /net/aspose.words.drawing/fill/pattern/

@@ -1,7 +1,7 @@
 ---
 title: FieldDde
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Implements the DDE field.
 type: docs
 weight: 1590
 url: /net/aspose.words.fields/fielddde/

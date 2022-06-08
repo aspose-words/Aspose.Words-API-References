@@ -1,12 +1,12 @@
 ---
 title: Remove
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Removes the specified bookmark from the document.
 type: docs
 weight: 50
 url: /net/aspose.words/bookmarkcollection/remove/
 ---
-## BookmarkCollection.Remove method (1 of 2)
+## Remove(Bookmark) {#remove}
 
 Removes the specified bookmark from the document.
 
@@ -85,7 +85,7 @@ Assert.AreEqual("Text inside MyBookmark_1.\r" +
 
 ---
 
-## BookmarkCollection.Remove method (2 of 2)
+## Remove(string) {#remove_1}
 
 Removes a bookmark with the specified name.
 

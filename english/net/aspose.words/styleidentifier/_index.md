@@ -1,7 +1,7 @@
 ---
 title: StyleIdentifier
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Locale independent style identifier.
 type: docs
 weight: 5800
 url: /net/aspose.words/styleidentifier/

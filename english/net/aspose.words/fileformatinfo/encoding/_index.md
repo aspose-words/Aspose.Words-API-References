@@ -1,7 +1,7 @@
 ---
 title: Encoding
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets the detected encoding if applicable to the current document format. At the moment detects encoding only for HTML documents.
 type: docs
 weight: 10
 url: /net/aspose.words/fileformatinfo/encoding/

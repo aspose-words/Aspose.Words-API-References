@@ -1,7 +1,7 @@
 ---
 title: GetStartPageIndex
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets 1-based index of the page where node begins. Returns 0 if node cannot be mapped to a page.
 type: docs
 weight: 70
 url: /net/aspose.words.layout/layoutcollector/getstartpageindex/

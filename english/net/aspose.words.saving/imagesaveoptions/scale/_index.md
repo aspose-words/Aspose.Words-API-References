@@ -1,7 +1,7 @@
 ---
 title: Scale
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets the zoom factor for the generated images.
 type: docs
 weight: 140
 url: /net/aspose.words.saving/imagesaveoptions/scale/

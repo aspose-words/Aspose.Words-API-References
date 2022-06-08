@@ -1,7 +1,7 @@
 ---
 title: ResourcesFolder
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies the physical folder where resources images and fonts are saved when exporting a document to fixed page Xaml format. Default is null.
 type: docs
 weight: 30
 url: /net/aspose.words.saving/xamlfixedsaveoptions/resourcesfolder/

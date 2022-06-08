@@ -1,7 +1,7 @@
 ---
 title: CssSavingArgs
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Provides data for the CssSaving./icsssavingcallback/csssaving event.
 type: docs
 weight: 4570
 url: /net/aspose.words.saving/csssavingargs/

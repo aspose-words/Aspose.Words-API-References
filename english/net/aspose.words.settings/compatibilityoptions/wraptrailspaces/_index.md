@@ -1,7 +1,7 @@
 ---
 title: WrapTrailSpaces
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Line Wrap Trailing Spaces.
 type: docs
 weight: 710
 url: /net/aspose.words.settings/compatibilityoptions/wraptrailspaces/

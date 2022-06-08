@@ -1,7 +1,7 @@
 ---
 title: Kerning
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Determines whether kerning is turned on.
 type: docs
 weight: 60
 url: /net/aspose.words.drawing/textpath/kerning/

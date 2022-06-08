@@ -1,7 +1,7 @@
 ---
 title: VisitDocumentEnd
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Called when enumeration of the document has finished.
 type: docs
 weight: 140
 url: /net/aspose.words/documentvisitor/visitdocumentend/

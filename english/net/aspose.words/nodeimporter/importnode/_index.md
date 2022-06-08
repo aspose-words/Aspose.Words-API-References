@@ -1,7 +1,7 @@
 ---
 title: ImportNode
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Imports a node from one document into another.
 type: docs
 weight: 20
 url: /net/aspose.words/nodeimporter/importnode/

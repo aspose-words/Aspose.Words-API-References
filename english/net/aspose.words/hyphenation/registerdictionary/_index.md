@@ -1,12 +1,12 @@
 ---
 title: RegisterDictionary
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Registers and loads a hyphenation dictionary for the specified language from a stream. Throws if dictionary cannot be read or has invalid format.
 type: docs
 weight: 40
 url: /net/aspose.words/hyphenation/registerdictionary/
 ---
-## Hyphenation.RegisterDictionary method (1 of 2)
+## RegisterDictionary(string, Stream) {#registerdictionary}
 
 Registers and loads a hyphenation dictionary for the specified language from a stream. Throws if dictionary cannot be read or has invalid format.
 
@@ -99,7 +99,7 @@ private class CustomHyphenationDictionaryRegister : IHyphenationCallback
 
 ---
 
-## Hyphenation.RegisterDictionary method (2 of 2)
+## RegisterDictionary(string, string) {#registerdictionary_1}
 
 Registers and loads a hyphenation dictionary for the specified language from file. Throws if dictionary cannot be read or has invalid format.
 

@@ -1,7 +1,7 @@
 ---
 title: FieldData
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets custom field data which is associated with the field.
 type: docs
 weight: 10
 url: /net/aspose.words.fields/fieldstart/fielddata/

@@ -1,7 +1,7 @@
 ---
 title: Active
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies whether the record from the data source shall be imported into a document when the mail merge is performed. The default value is true.
 type: docs
 weight: 20
 url: /net/aspose.words.settings/odsorecipientdata/active/

@@ -1,7 +1,7 @@
 ---
 title: GetMathRenderer
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Creates and returns an object that can be used to render this equation into an image.
 type: docs
 weight: 80
 url: /net/aspose.words.math/officemath/getmathrenderer/

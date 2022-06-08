@@ -1,7 +1,7 @@
 ---
 title: PreferredWidth
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Represents a value and its unit of measure that is used to specify the preferred width of a table or a cell.
 type: docs
 weight: 5940
 url: /net/aspose.words.tables/preferredwidth/
@@ -27,8 +27,8 @@ public sealed class PreferredWidth
 | --- | --- |
 | static [FromPercent](../../aspose.words.tables/preferredwidth/frompercent)(double) | A creation method that returns a new instance that represents a preferred width specified as a percentage. |
 | static [FromPoints](../../aspose.words.tables/preferredwidth/frompoints)(double) | A creation method that returns a new instance that represents a preferred width specified using a number of points. |
-| override [Equals](../../aspose.words.tables/preferredwidth/equals)(object) | Determines whether the specified object is equal in value to the current object. |
-| [Equals](../../aspose.words.tables/preferredwidth/equals)(PreferredWidth) | Determines whether the specified PreferredWidth is equal in value to the current PreferredWidth. |
+| override [Equals](../../aspose.words.tables/preferredwidth/equals#equals_1)(object) | Determines whether the specified object is equal in value to the current object. |
+| [Equals](../../aspose.words.tables/preferredwidth/equals#equals)(PreferredWidth) | Determines whether the specified PreferredWidth is equal in value to the current PreferredWidth. |
 | override [GetHashCode](../../aspose.words.tables/preferredwidth/gethashcode)() | Serves as a hash function for this type. |
 | override [ToString](../../aspose.words.tables/preferredwidth/tostring)() | Returns a user-friendly string that displays the value of this object. |
 

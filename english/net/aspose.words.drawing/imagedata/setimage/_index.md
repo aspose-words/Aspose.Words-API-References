@@ -1,12 +1,12 @@
 ---
 title: SetImage
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Sets the image that the shape displays.
 type: docs
 weight: 200
 url: /net/aspose.words.drawing/imagedata/setimage/
 ---
-## ImageData.SetImage method (1 of 3)
+## SetImage(Image) {#setimage}
 
 Sets the image that the shape displays.
 
@@ -58,7 +58,7 @@ doc.Save(ArtifactsDir + "Drawing.ImportImage.docx");
 
 ---
 
-## ImageData.SetImage method (2 of 3)
+## SetImage(Stream) {#setimage_1}
 
 Sets the image that the shape displays.
 
@@ -110,7 +110,7 @@ doc.Save(ArtifactsDir + "Drawing.ImportImage.docx");
 
 ---
 
-## ImageData.SetImage method (3 of 3)
+## SetImage(string) {#setimage_2}
 
 Sets the image that the shape displays.
 

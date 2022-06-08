@@ -1,7 +1,7 @@
 ---
 title: ShowRevisionBars
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Allows to specify whether revision bars should be rendered near lines containing revised content. Default value is True.
 type: docs
 weight: 180
 url: /net/aspose.words.layout/revisionoptions/showrevisionbars/

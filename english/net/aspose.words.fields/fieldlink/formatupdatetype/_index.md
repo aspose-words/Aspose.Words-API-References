@@ -1,7 +1,7 @@
 ---
 title: FormatUpdateType
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets a way the linked object updates its formatting.
 type: docs
 weight: 30
 url: /net/aspose.words.fields/fieldlink/formatupdatetype/

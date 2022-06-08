@@ -1,7 +1,7 @@
 ---
 title: AcceptAll
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Accepts all revisions in this collection.
 type: docs
 weight: 40
 url: /net/aspose.words/revisioncollection/acceptall/

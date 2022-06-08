@@ -1,7 +1,7 @@
 ---
 title: SourceFullName
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets the name and location of the source file.
 type: docs
 weight: 110
 url: /net/aspose.words.fields/fielddde/sourcefullname/

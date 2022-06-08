@@ -1,7 +1,7 @@
 ---
 title: Count
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets the number of tab stops in the collection.
 type: docs
 weight: 10
 url: /net/aspose.words/tabstopcollection/count/

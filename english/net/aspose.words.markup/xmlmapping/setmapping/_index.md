@@ -1,7 +1,7 @@
 ---
 title: SetMapping
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Sets a mapping between the parent structured document tag and an XML node of a custom XML data part.
 type: docs
 weight: 70
 url: /net/aspose.words.markup/xmlmapping/setmapping/

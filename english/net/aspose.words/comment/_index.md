@@ -1,7 +1,7 @@
 ---
 title: Comment
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Represents a container for text of a comment.
 type: docs
 weight: 220
 url: /net/aspose.words/comment/
@@ -18,8 +18,8 @@ public sealed class Comment : InlineStory
 
 | Name | Description |
 | --- | --- |
-| [Comment](comment)(DocumentBase) | Initializes a new instance of the **Comment** class. |
-| [Comment](comment)(DocumentBase, string, string, DateTime) | Initializes a new instance of the **Comment** class. |
+| [Comment](comment#constructor)(DocumentBase) | Initializes a new instance of the **Comment** class. |
+| [Comment](comment#constructor_1)(DocumentBase, string, string, DateTime) | Initializes a new instance of the **Comment** class. |
 
 ## Properties
 

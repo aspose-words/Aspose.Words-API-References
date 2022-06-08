@@ -1,7 +1,7 @@
 ---
 title: Add
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Adds a property to the collection.
 type: docs
 weight: 30
 url: /net/aspose.words.markup/customxmlpropertycollection/add/

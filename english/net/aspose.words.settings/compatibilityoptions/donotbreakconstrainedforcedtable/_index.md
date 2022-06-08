@@ -1,7 +1,7 @@
 ---
 title: DoNotBreakConstrainedForcedTable
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Dont Break Table Rows Around Floating Tables.
 type: docs
 weight: 130
 url: /net/aspose.words.settings/compatibilityoptions/donotbreakconstrainedforcedtable/

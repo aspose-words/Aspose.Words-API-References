@@ -1,7 +1,7 @@
 ---
 title: HeaderDistance
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Returns or sets the distance in points between the header and the top of the page.
 type: docs
 weight: 170
 url: /net/aspose.words/pagesetup/headerdistance/

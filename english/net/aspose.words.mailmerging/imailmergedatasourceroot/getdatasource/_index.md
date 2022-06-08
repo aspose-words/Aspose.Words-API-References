@@ -1,7 +1,7 @@
 ---
 title: GetDataSource
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: The Aspose.Words mail merge engine invokes this method when it encounters a beginning of a top-level mail merge region.
 type: docs
 weight: 10
 url: /net/aspose.words.mailmerging/imailmergedatasourceroot/getdatasource/

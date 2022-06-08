@@ -1,7 +1,7 @@
 ---
 title: ClearFormatting
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Clears formatting of this conditional style.
 type: docs
 weight: 100
 url: /net/aspose.words/conditionalstyle/clearformatting/

@@ -1,7 +1,7 @@
 ---
 title: CompressionLevel
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Compression level for OOXML files.
 type: docs
 weight: 4560
 url: /net/aspose.words.saving/compressionlevel/

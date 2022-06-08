@@ -1,7 +1,7 @@
 ---
 title: OdsoDataSourceType
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies the type of the external data source to be connected to as part of the ODSO connection information.
 type: docs
 weight: 5540
 url: /net/aspose.words.settings/odsodatasourcetype/

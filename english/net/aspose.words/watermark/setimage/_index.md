@@ -1,12 +1,12 @@
 ---
 title: SetImage
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Adds Image watermark into the document.
 type: docs
 weight: 30
 url: /net/aspose.words/watermark/setimage/
 ---
-## Watermark.SetImage method (1 of 3)
+## SetImage(Image) {#setimage}
 
 Adds Image watermark into the document.
 
@@ -32,7 +32,7 @@ public void SetImage(Image image)
 
 ---
 
-## Watermark.SetImage method (2 of 3)
+## SetImage(Image, ImageWatermarkOptions) {#setimage_1}
 
 Adds Image watermark into the document.
 
@@ -89,7 +89,7 @@ Document doc = new Document();
 
 ---
 
-## Watermark.SetImage method (3 of 3)
+## SetImage(string, ImageWatermarkOptions) {#setimage_2}
 
 Adds Image watermark into the document.
 

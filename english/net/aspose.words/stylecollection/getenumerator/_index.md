@@ -1,7 +1,7 @@
 ---
 title: GetEnumerator
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets an enumerator object that will enumerate styles in the alphabetical order of their names.
 type: docs
 weight: 90
 url: /net/aspose.words/stylecollection/getenumerator/

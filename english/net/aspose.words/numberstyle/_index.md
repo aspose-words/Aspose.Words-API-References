@@ -1,7 +1,7 @@
 ---
 title: NumberStyle
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies the number style for a list footnotes and endnotes page numbers.
 type: docs
 weight: 4020
 url: /net/aspose.words/numberstyle/

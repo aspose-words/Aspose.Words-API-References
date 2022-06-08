@@ -1,7 +1,7 @@
 ---
 title: ProgId
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets the application type of the link information.
 type: docs
 weight: 100
 url: /net/aspose.words.fields/fielddde/progid/

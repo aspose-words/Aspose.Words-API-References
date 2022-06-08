@@ -1,7 +1,7 @@
 ---
 title: Comments
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies comments on the digital signature. Default value is empty string Empty.
 type: docs
 weight: 20
 url: /net/aspose.words.digitalsignatures/signoptions/comments/

@@ -1,7 +1,7 @@
 ---
 title: NodeType
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Returns FieldStart.
 type: docs
 weight: 20
 url: /net/aspose.words.fields/fieldstart/nodetype/

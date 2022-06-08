@@ -1,7 +1,7 @@
 ---
 title: Remove
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Removes the field from the document. Returns a node right after the field. If the fields end is the last child of its parent node returns its parent paragraph. If the field is already removed returns null.
 type: docs
 weight: 120
 url: /net/aspose.words.fields/field/remove/

@@ -1,7 +1,7 @@
 ---
 title: RevisionNumber
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets the document revision number.
 type: docs
 weight: 240
 url: /net/aspose.words.properties/builtindocumentproperties/revisionnumber/

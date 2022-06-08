@@ -1,7 +1,7 @@
 ---
 title: After
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets a first tab stop to the right of the specified position.
 type: docs
 weight: 40
 url: /net/aspose.words/tabstopcollection/after/

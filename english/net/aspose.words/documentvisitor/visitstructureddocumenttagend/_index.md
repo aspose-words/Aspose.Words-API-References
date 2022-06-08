@@ -1,7 +1,7 @@
 ---
 title: VisitStructuredDocumentTagEnd
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Called when enumeration of a structured document tag has ended.
 type: docs
 weight: 440
 url: /net/aspose.words/documentvisitor/visitstructureddocumenttagend/

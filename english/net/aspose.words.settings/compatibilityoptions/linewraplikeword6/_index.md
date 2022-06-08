@@ -1,7 +1,7 @@
 ---
 title: LineWrapLikeWord6
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Emulate Word 6.0 Line Wrapping for East Asian Text.
 type: docs
 weight: 310
 url: /net/aspose.words.settings/compatibilityoptions/linewraplikeword6/

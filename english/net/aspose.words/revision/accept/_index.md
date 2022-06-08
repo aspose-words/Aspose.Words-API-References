@@ -1,7 +1,7 @@
 ---
 title: Accept
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Accepts this revision.
 type: docs
 weight: 70
 url: /net/aspose.words/revision/accept/

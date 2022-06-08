@@ -1,7 +1,7 @@
 ---
 title: DropDownItems
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Provides access to the items of a dropdown form field.
 type: docs
 weight: 50
 url: /net/aspose.words.fields/formfield/dropdownitems/

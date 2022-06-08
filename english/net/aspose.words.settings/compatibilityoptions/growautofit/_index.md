@@ -1,7 +1,7 @@
 ---
 title: GrowAutofit
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Allow Tables to AutoFit Into Page Margins.
 type: docs
 weight: 280
 url: /net/aspose.words.settings/compatibilityoptions/growautofit/

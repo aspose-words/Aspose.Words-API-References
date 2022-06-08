@@ -1,7 +1,7 @@
 ---
 title: FieldRevNum
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Implements the REVNUM field.
 type: docs
 weight: 2150
 url: /net/aspose.words.fields/fieldrevnum/

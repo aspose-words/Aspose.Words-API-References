@@ -1,7 +1,7 @@
 ---
 title: Id
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies the binding identifier.
 type: docs
 weight: 40
 url: /net/aspose.words.webextensions/webextensionbinding/id/

@@ -1,7 +1,7 @@
 ---
 title: TextPathAlignment
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Defines the alignment of text.
 type: docs
 weight: 170
 url: /net/aspose.words.drawing/textpath/textpathalignment/

@@ -1,7 +1,7 @@
 ---
 title: Subscript
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: True if the font is formatted as subscript.
 type: docs
 weight: 430
 url: /net/aspose.words/font/subscript/

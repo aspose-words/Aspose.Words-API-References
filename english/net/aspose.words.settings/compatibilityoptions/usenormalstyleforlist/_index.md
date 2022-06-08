@@ -1,7 +1,7 @@
 ---
 title: UseNormalStyleForList
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Do Not Automatically Apply List Paragraph Style To Bulleted/Numbered Text.
 type: docs
 weight: 630
 url: /net/aspose.words.settings/compatibilityoptions/usenormalstyleforlist/

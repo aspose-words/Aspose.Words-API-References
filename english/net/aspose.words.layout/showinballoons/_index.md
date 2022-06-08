@@ -1,7 +1,7 @@
 ---
 title: ShowInBalloons
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies which revisions are rendered in balloons.
 type: docs
 weight: 3160
 url: /net/aspose.words.layout/showinballoons/

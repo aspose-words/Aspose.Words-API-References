@@ -1,7 +1,7 @@
 ---
 title: SymbolHeight
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Bar code image height in twips - 1/1440 inches
 type: docs
 weight: 170
 url: /net/aspose.words.fields/barcodeparameters/symbolheight/

@@ -1,7 +1,7 @@
 ---
 title: VisitBookmarkEnd
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Called when an end of a bookmark is encountered in the document.
 type: docs
 weight: 40
 url: /net/aspose.words/documentvisitor/visitbookmarkend/

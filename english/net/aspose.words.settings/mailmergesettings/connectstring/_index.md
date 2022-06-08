@@ -1,7 +1,7 @@
 ---
 title: ConnectString
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies the connection string used to connect to an external data source. The default value is an empty string.
 type: docs
 weight: 50
 url: /net/aspose.words.settings/mailmergesettings/connectstring/

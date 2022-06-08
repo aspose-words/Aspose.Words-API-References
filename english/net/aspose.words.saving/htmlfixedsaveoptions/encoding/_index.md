@@ -1,7 +1,7 @@
 ---
 title: Encoding
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies the encoding to use when exporting to HTML. Default value is new UTF8Encodingtrue UTF-8 with BOM.
 type: docs
 weight: 30
 url: /net/aspose.words.saving/htmlfixedsaveoptions/encoding/

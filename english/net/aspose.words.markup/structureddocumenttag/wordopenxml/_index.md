@@ -1,7 +1,7 @@
 ---
 title: WordOpenXML
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets a string that represents the XML contained within the node in the FlatOpc format.
 type: docs
 weight: 300
 url: /net/aspose.words.markup/structureddocumenttag/wordopenxml/

@@ -1,7 +1,7 @@
 ---
 title: CropTop
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Defines the fraction of picture removal from the top side.
 type: docs
 weight: 90
 url: /net/aspose.words.drawing/imagedata/croptop/

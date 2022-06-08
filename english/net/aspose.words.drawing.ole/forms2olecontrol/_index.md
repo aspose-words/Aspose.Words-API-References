@@ -1,7 +1,7 @@
 ---
 title: Forms2OleControl
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Represents Microsoft Forms 2.0 OLE control.
 type: docs
 weight: 980
 url: /net/aspose.words.drawing.ole/forms2olecontrol/

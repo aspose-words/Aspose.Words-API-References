@@ -1,7 +1,7 @@
 ---
 title: SuppressBottomSpacing
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Ignore Exact Line Height for Last Line on Page.
 type: docs
 weight: 480
 url: /net/aspose.words.settings/compatibilityoptions/suppressbottomspacing/

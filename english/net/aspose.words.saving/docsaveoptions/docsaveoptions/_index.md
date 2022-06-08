@@ -1,12 +1,12 @@
 ---
 title: DocSaveOptions
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Initializes a new instance of this class that can be used to save a document in the Doc format.
 type: docs
 weight: 10
 url: /net/aspose.words.saving/docsaveoptions/docsaveoptions/
 ---
-## DocSaveOptions constructor (1 of 2)
+## DocSaveOptions() {#constructor}
 
 Initializes a new instance of this class that can be used to save a document in the Doc format.
 
@@ -52,7 +52,7 @@ Assert.AreEqual("Hello world!", doc.GetText().Trim());
 
 ---
 
-## DocSaveOptions constructor (2 of 2)
+## DocSaveOptions(SaveFormat) {#constructor_1}
 
 Initializes a new instance of this class that can be used to save a document in the Doc or Dot format.
 

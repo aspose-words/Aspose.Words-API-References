@@ -1,7 +1,7 @@
 ---
 title: CssClassNamesPrefix
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies prefix which is added to all class names in style.css file. Default value is aw.
 type: docs
 weight: 20
 url: /net/aspose.words.saving/htmlfixedsaveoptions/cssclassnamesprefix/

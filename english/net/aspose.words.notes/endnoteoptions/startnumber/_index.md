@@ -1,7 +1,7 @@
 ---
 title: StartNumber
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies the starting number or character for the first automatically numbered endnotes.
 type: docs
 weight: 40
 url: /net/aspose.words.notes/endnoteoptions/startnumber/

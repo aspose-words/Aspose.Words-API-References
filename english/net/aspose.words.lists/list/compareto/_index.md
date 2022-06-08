@@ -1,12 +1,12 @@
 ---
 title: CompareTo
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Compares the specified object to the current object.
 type: docs
 weight: 90
 url: /net/aspose.words.lists/list/compareto/
 ---
-## List.CompareTo method (1 of 2)
+## CompareTo(object) {#compareto_1}
 
 Compares the specified object to the current object.
 
@@ -22,7 +22,7 @@ public int CompareTo(object obj)
 
 ---
 
-## List.CompareTo method (2 of 2)
+## CompareTo(List) {#compareto}
 
 Compares the specified list to the current list.
 

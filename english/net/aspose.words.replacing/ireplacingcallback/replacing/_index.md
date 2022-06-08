@@ -1,7 +1,7 @@
 ---
 title: Replacing
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: A user defined method that is called during a replace operation for each match found just before a replace is made.
 type: docs
 weight: 10
 url: /net/aspose.words.replacing/ireplacingcallback/replacing/

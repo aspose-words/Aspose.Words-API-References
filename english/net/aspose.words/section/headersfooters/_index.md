@@ -1,7 +1,7 @@
 ---
 title: HeadersFooters
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Provides access to the headers and footers nodes of the section.
 type: docs
 weight: 30
 url: /net/aspose.words/section/headersfooters/

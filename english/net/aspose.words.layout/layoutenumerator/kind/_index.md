@@ -1,7 +1,7 @@
 ---
 title: Kind
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets the kind of the current entity. This can be an empty string but never null.
 type: docs
 weight: 40
 url: /net/aspose.words.layout/layoutenumerator/kind/

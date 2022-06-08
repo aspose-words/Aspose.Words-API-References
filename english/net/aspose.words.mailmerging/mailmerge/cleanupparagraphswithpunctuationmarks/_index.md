@@ -1,7 +1,7 @@
 ---
 title: CleanupParagraphsWithPunctuationMarks
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets a value indicating whether paragraphs with punctuation marks are considered as empty and should be removed if the RemoveEmptyParagraphs option is specified.
 type: docs
 weight: 20
 url: /net/aspose.words.mailmerging/mailmerge/cleanupparagraphswithpunctuationmarks/

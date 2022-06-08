@@ -1,7 +1,7 @@
 ---
 title: PageNumberOmittingLevelRange
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets a range of levels of the table of contents entries from which to omits page numbers.
 type: docs
 weight: 110
 url: /net/aspose.words.fields/fieldtoc/pagenumberomittinglevelrange/

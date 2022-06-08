@@ -1,7 +1,7 @@
 ---
 title: ListStyle
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets the name of the style on which the list to contain entries is based.
 type: docs
 weight: 30
 url: /net/aspose.words.fields/fieldautotextlist/liststyle/

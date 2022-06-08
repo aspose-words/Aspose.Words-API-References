@@ -1,7 +1,7 @@
 ---
 title: LockContents
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: When set to true this property will prohibit a user from editing the contents of this structured document tag.
 type: docs
 weight: 90
 url: /net/aspose.words.markup/structureddocumenttagrangestart/lockcontents/

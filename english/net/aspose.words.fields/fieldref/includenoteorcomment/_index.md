@@ -1,7 +1,7 @@
 ---
 title: IncludeNoteOrComment
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets whether to increment footnote endnote and annotation numbers that are marked by the bookmark and insert the corresponding footnote endnote and comment text.
 type: docs
 weight: 30
 url: /net/aspose.words.fields/fieldref/includenoteorcomment/

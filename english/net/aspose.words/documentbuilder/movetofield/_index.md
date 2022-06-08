@@ -1,7 +1,7 @@
 ---
 title: MoveToField
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Moves the cursor to a field in the document.
 type: docs
 weight: 510
 url: /net/aspose.words/documentbuilder/movetofield/

@@ -1,7 +1,7 @@
 ---
 title: Unlink
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Performs the field unlink.
 type: docs
 weight: 130
 url: /net/aspose.words.fields/field/unlink/

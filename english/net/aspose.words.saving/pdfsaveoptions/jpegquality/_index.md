@@ -1,7 +1,7 @@
 ---
 title: JpegQuality
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets a value determining the quality of the JPEG images inside PDF document.
 type: docs
 weight: 190
 url: /net/aspose.words.saving/pdfsaveoptions/jpegquality/

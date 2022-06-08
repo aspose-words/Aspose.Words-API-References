@@ -1,7 +1,7 @@
 ---
 title: MarkupLevel
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies the level in the document tree where a particular StructuredDocumentTag./structureddocumenttag can occur.
 type: docs
 weight: 3690
 url: /net/aspose.words.markup/markuplevel/

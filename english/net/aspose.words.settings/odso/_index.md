@@ -1,7 +1,7 @@
 ---
 title: Odso
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies the Office Data Source Object ODSO settings for a mail merge data source.
 type: docs
 weight: 5530
 url: /net/aspose.words.settings/odso/

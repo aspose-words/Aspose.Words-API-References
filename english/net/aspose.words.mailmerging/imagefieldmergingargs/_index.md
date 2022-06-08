@@ -1,7 +1,7 @@
 ---
 title: ImageFieldMergingArgs
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Provides data for the ImageFieldMerging./ifieldmergingcallback/imagefieldmerging event.
 type: docs
 weight: 3560
 url: /net/aspose.words.mailmerging/imagefieldmergingargs/

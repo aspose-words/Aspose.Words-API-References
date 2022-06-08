@@ -1,7 +1,7 @@
 ---
 title: Bytes
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Represents an estimate of the number of bytes in the document.
 type: docs
 weight: 20
 url: /net/aspose.words.properties/builtindocumentproperties/bytes/

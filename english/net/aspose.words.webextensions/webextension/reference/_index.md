@@ -1,7 +1,7 @@
 ---
 title: Reference
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies the primary reference to an web extension.
 type: docs
 weight: 60
 url: /net/aspose.words.webextensions/webextension/reference/

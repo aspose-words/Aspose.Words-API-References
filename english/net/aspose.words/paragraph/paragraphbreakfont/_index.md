@@ -1,7 +1,7 @@
 ---
 title: ParagraphBreakFont
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Provides access to the font formatting of the paragraph break character.
 type: docs
 weight: 180
 url: /net/aspose.words/paragraph/paragraphbreakfont/

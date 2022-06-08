@@ -1,7 +1,7 @@
 ---
 title: MoveToParagraph
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Moves the cursor to a paragraph in the current section.
 type: docs
 weight: 540
 url: /net/aspose.words/documentbuilder/movetoparagraph/

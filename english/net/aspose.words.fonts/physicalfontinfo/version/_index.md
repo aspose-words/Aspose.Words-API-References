@@ -1,7 +1,7 @@
 ---
 title: Version
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Version string of the font.
 type: docs
 weight: 40
 url: /net/aspose.words.fonts/physicalfontinfo/version/

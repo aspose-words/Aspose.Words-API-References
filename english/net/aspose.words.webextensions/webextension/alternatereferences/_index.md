@@ -1,7 +1,7 @@
 ---
 title: AlternateReferences
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies alternate references to a web extension.
 type: docs
 weight: 10
 url: /net/aspose.words.webextensions/webextension/alternatereferences/

@@ -1,7 +1,7 @@
 ---
 title: IsItalic
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets whether to apply italic formatting to the page number for the entry.
 type: docs
 weight: 40
 url: /net/aspose.words.fields/fieldta/isitalic/

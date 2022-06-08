@@ -1,7 +1,7 @@
 ---
 title: RemoveAt
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Removes a bookmark at the specified index.
 type: docs
 weight: 60
 url: /net/aspose.words/bookmarkcollection/removeat/

@@ -1,7 +1,7 @@
 ---
 title: ResourcesFolder
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies the physical folder where resources images are saved when exporting a document to Svg format. Default is null.
 type: docs
 weight: 50
 url: /net/aspose.words.saving/svgsaveoptions/resourcesfolder/

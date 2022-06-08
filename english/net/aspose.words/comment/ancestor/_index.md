@@ -1,7 +1,7 @@
 ---
 title: Ancestor
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Returns the parent Comment object. Returns null for top-level comments.
 type: docs
 weight: 20
 url: /net/aspose.words/comment/ancestor/

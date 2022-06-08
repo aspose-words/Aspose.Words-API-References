@@ -1,7 +1,7 @@
 ---
 title: Color
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets the color of the structured document tag.
 type: docs
 weight: 10
 url: /net/aspose.words.markup/istructureddocumenttag/color/

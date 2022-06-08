@@ -1,7 +1,7 @@
 ---
 title: TrackRevisions
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: True if changes are tracked when this document is edited in Microsoft Word.
 type: docs
 weight: 410
 url: /net/aspose.words/document/trackrevisions/

@@ -1,7 +1,7 @@
 ---
 title: AxisBound
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Represents minimum or maximum bound of axis values.
 type: docs
 weight: 500
 url: /net/aspose.words.drawing.charts/axisbound/
@@ -18,9 +18,9 @@ public sealed class AxisBound
 
 | Name | Description |
 | --- | --- |
-| [AxisBound](axisbound)() | Creates a new instance indicating that axis bound should be determined automatically by a word-processing application. |
-| [AxisBound](axisbound)(DateTime) | Creates an axis bound represented as datetime value. |
-| [AxisBound](axisbound)(double) | Creates an axis bound represented as a number. |
+| [AxisBound](axisbound#constructor)() | Creates a new instance indicating that axis bound should be determined automatically by a word-processing application. |
+| [AxisBound](axisbound#constructor_2)(DateTime) | Creates an axis bound represented as datetime value. |
+| [AxisBound](axisbound#constructor_1)(double) | Creates an axis bound represented as a number. |
 
 ## Properties
 

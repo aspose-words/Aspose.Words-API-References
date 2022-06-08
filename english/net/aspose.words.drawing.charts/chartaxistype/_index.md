@@ -1,7 +1,7 @@
 ---
 title: ChartAxisType
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies type of chart axis.
 type: docs
 weight: 620
 url: /net/aspose.words.drawing.charts/chartaxistype/

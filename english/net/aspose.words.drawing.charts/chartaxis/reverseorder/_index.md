@@ -1,7 +1,7 @@
 ---
 title: ReverseOrder
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Returns or sets a flag indicating whether values of axis should be displayed in reverse order i.e. from max to min.
 type: docs
 weight: 180
 url: /net/aspose.words.drawing.charts/chartaxis/reverseorder/

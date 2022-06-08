@@ -1,7 +1,7 @@
 ---
 title: CalculateOnExit
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: True if references to the specified form field are automatically updated whenever the field is exited.
 type: docs
 weight: 10
 url: /net/aspose.words.fields/formfield/calculateonexit/

@@ -1,7 +1,7 @@
 ---
 title: Item
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets a document signature at the specified index.
 type: docs
 weight: 40
 url: /net/aspose.words.digitalsignatures/digitalsignaturecollection/item/

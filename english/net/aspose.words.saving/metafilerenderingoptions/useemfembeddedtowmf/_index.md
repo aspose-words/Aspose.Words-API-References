@@ -1,7 +1,7 @@
 ---
 title: UseEmfEmbeddedToWmf
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets a value determining how WMF metafiles with embedded EMF metafiles should be rendered.
 type: docs
 weight: 60
 url: /net/aspose.words.saving/metafilerenderingoptions/useemfembeddedtowmf/

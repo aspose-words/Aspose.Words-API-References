@@ -1,7 +1,7 @@
 ---
 title: MoveNext
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Moves to the next sibling entity in visual order. When iterating lines of a paragraph broken across pages this method will not move to the next page but rather move to the next entity on the same page.
 type: docs
 weight: 110
 url: /net/aspose.words.layout/layoutenumerator/movenext/

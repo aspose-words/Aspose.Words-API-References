@@ -1,12 +1,12 @@
 ---
 title: LoadSignatures
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Loads digital signatures from document.
 type: docs
 weight: 10
 url: /net/aspose.words.digitalsignatures/digitalsignatureutil/loadsignatures/
 ---
-## DigitalSignatureUtil.LoadSignatures method (1 of 2)
+## LoadSignatures(string) {#loadsignatures_1}
 
 Loads digital signatures from document.
 
@@ -75,7 +75,7 @@ Assert.That(DigitalSignatureUtil.LoadSignatures(ArtifactsDir + "DigitalSignature
 
 ---
 
-## DigitalSignatureUtil.LoadSignatures method (2 of 2)
+## LoadSignatures(Stream) {#loadsignatures}
 
 Loads digital signatures from document using stream.
 

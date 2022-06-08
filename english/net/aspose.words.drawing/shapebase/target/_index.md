@@ -1,7 +1,7 @@
 ---
 title: Target
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets the target frame for the shape hyperlink.
 type: docs
 weight: 470
 url: /net/aspose.words.drawing/shapebase/target/

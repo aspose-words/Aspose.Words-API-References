@@ -1,7 +1,7 @@
 ---
 title: IsShiftJis
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets whether the character code is interpreted as the value of a SHIFT-JIS character.
 type: docs
 weight: 70
 url: /net/aspose.words.fields/fieldsymbol/isshiftjis/

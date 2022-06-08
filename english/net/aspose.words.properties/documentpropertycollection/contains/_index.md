@@ -1,7 +1,7 @@
 ---
 title: Contains
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Returns true if a property with the specified name exists in the collection.
 type: docs
 weight: 40
 url: /net/aspose.words.properties/documentpropertycollection/contains/

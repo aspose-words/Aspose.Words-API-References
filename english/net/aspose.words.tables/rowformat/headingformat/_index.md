@@ -1,7 +1,7 @@
 ---
 title: HeadingFormat
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: True if the row is repeated as a table heading on every page when the table spans more than one page.
 type: docs
 weight: 30
 url: /net/aspose.words.tables/rowformat/headingformat/

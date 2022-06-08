@@ -1,7 +1,7 @@
 ---
 title: IgnoreComments
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies whether to compare differences in comments. By default comments are not ignored.
 type: docs
 weight: 40
 url: /net/aspose.words.comparing/compareoptions/ignorecomments/

@@ -1,7 +1,7 @@
 ---
 title: GradientStyle
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies the style for a gradient fill.
 type: docs
 weight: 870
 url: /net/aspose.words.drawing/gradientstyle/

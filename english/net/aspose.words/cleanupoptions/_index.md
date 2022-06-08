@@ -1,7 +1,7 @@
 ---
 title: CleanupOptions
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Allows to specify options for document cleaning.
 type: docs
 weight: 200
 url: /net/aspose.words/cleanupoptions/

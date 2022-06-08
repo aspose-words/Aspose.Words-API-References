@@ -1,7 +1,7 @@
 ---
 title: Image
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies the image that the mail merge engine must insert into the document.
 type: docs
 weight: 10
 url: /net/aspose.words.mailmerging/imagefieldmergingargs/image/

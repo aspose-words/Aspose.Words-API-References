@@ -1,7 +1,7 @@
 ---
 title: LineBreak
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Line break character x000b or v.
 type: docs
 weight: 120
 url: /net/aspose.words/controlchar/linebreak/

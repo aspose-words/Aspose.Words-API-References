@@ -1,7 +1,7 @@
 ---
 title: FileCorruptedException
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Thrown during document load when the document appears to be corrupted and impossible to load.
 type: docs
 weight: 2570
 url: /net/aspose.words/filecorruptedexception/

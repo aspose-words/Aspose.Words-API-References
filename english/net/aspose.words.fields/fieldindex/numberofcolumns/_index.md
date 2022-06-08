@@ -1,7 +1,7 @@
 ---
 title: NumberOfColumns
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets the number of columns per page used when building the index.
 type: docs
 weight: 100
 url: /net/aspose.words.fields/fieldindex/numberofcolumns/

@@ -1,12 +1,12 @@
 ---
 title: Solid
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Sets the fill to a uniform color.
 type: docs
 weight: 200
 url: /net/aspose.words.drawing/fill/solid/
 ---
-## Fill.Solid method (1 of 2)
+## Solid() {#solid}
 
 Sets the fill to a uniform color.
 
@@ -26,7 +26,7 @@ Use this method to convert any of the fills back to solid fill.
 
 ---
 
-## Fill.Solid method (2 of 2)
+## Solid(Color) {#solid_1}
 
 Sets the fill to a specified uniform color.
 

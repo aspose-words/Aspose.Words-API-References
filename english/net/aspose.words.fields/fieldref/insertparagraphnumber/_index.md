@@ -1,7 +1,7 @@
 ---
 title: InsertParagraphNumber
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets whether to insert the paragraph number of the referenced paragraph exactly as it appears in the document.
 type: docs
 weight: 50
 url: /net/aspose.words.fields/fieldref/insertparagraphnumber/

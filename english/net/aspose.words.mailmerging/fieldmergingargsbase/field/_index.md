@@ -1,7 +1,7 @@
 ---
 title: Field
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets the object that represents the current merge field.
 type: docs
 weight: 30
 url: /net/aspose.words.mailmerging/fieldmergingargsbase/field/

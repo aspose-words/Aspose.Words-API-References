@@ -1,12 +1,12 @@
 ---
 title: Add
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Adds an item to the collection.
 type: docs
 weight: 40
 url: /net/aspose.words.markup/customxmlpartcollection/add/
 ---
-## CustomXmlPartCollection.Add method (1 of 2)
+## Add(CustomXmlPart) {#add_1}
 
 Adds an item to the collection.
 
@@ -91,7 +91,7 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.CustomXml.docx");
 
 ---
 
-## CustomXmlPartCollection.Add method (2 of 2)
+## Add(string, string) {#add}
 
 Creates a new XML part with the specified XML and adds it to the collection.
 

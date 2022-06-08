@@ -1,12 +1,12 @@
 ---
 title: HtmlSaveOptions
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Initializes a new instance of this class that can be used to save a document in the Html format.
 type: docs
 weight: 10
 url: /net/aspose.words.saving/htmlsaveoptions/htmlsaveoptions/
 ---
-## HtmlSaveOptions constructor (1 of 2)
+## HtmlSaveOptions() {#constructor}
 
 Initializes a new instance of this class that can be used to save a document in the Html format.
 
@@ -46,7 +46,7 @@ doc.Save(ArtifactsDir + "HtmlSaveOptions.Doc2EpubSaveOptions.epub", saveOptions)
 
 ---
 
-## HtmlSaveOptions constructor (2 of 2)
+## HtmlSaveOptions(SaveFormat) {#constructor_1}
 
 Initializes a new instance of this class that can be used to save a document in the Html, Mhtml or Epub format.
 

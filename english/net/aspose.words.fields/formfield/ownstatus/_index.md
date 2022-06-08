@@ -1,7 +1,7 @@
 ---
 title: OwnStatus
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies the source of the text thats displayed in the status bar when a form field has the focus.
 type: docs
 weight: 160
 url: /net/aspose.words.fields/formfield/ownstatus/

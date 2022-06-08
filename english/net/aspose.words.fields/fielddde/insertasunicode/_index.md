@@ -1,7 +1,7 @@
 ---
 title: InsertAsUnicode
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets whether to insert the linked object as Unicode text.
 type: docs
 weight: 80
 url: /net/aspose.words.fields/fielddde/insertasunicode/

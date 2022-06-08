@@ -1,7 +1,7 @@
 ---
 title: LoadOptions
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Allows to specify additional options such as password or base URI when loading a document into a Document../aspose.words/document object.
 type: docs
 weight: 3410
 url: /net/aspose.words.loading/loadoptions/
@@ -18,9 +18,9 @@ public class LoadOptions
 
 | Name | Description |
 | --- | --- |
-| [LoadOptions](loadoptions)() | Initializes a new instance of this class with default values. |
-| [LoadOptions](loadoptions)(string) | A shortcut to initialize a new instance of this class with the specified password to load an encrypted document. |
-| [LoadOptions](loadoptions)(LoadFormat, string, string) | A shortcut to initialize a new instance of this class with properties set to the specified values. |
+| [LoadOptions](loadoptions#constructor)() | Initializes a new instance of this class with default values. |
+| [LoadOptions](loadoptions#constructor_2)(string) | A shortcut to initialize a new instance of this class with the specified password to load an encrypted document. |
+| [LoadOptions](loadoptions#constructor_1)(LoadFormat, string, string) | A shortcut to initialize a new instance of this class with properties set to the specified values. |
 
 ## Properties
 

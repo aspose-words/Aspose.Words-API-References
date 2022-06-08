@@ -1,7 +1,7 @@
 ---
 title: RelativeHorizontalPosition
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies relative to what the shape is positioned horizontally.
 type: docs
 weight: 400
 url: /net/aspose.words.drawing/shapebase/relativehorizontalposition/

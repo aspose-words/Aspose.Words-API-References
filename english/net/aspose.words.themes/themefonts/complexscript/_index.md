@@ -1,7 +1,7 @@
 ---
 title: ComplexScript
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies font name for ComplexScript characters.
 type: docs
 weight: 10
 url: /net/aspose.words.themes/themefonts/complexscript/

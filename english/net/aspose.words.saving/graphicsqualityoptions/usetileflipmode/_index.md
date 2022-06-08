@@ -1,7 +1,7 @@
 ---
 title: UseTileFlipMode
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets a flag indicating whether WrapMode is TileFlipXY.
 type: docs
 weight: 80
 url: /net/aspose.words.saving/graphicsqualityoptions/usetileflipmode/

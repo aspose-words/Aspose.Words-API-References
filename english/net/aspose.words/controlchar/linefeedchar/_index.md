@@ -1,7 +1,7 @@
 ---
 title: LineFeedChar
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Line feed character char10 or n.
 type: docs
 weight: 150
 url: /net/aspose.words/controlchar/linefeedchar/

@@ -1,7 +1,7 @@
 ---
 title: SdtListItemCollection
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Provides access to SdtListItem./sdtlistitem elements of a structured document tag.
 type: docs
 weight: 3740
 url: /net/aspose.words.markup/sdtlistitemcollection/

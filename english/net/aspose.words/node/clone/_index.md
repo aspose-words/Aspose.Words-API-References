@@ -1,7 +1,7 @@
 ---
 title: Clone
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Creates a duplicate of the node.
 type: docs
 weight: 100
 url: /net/aspose.words/node/clone/

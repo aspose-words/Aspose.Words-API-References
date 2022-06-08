@@ -1,7 +1,7 @@
 ---
 title: OriginalFileName
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets the original file name of the document.
 type: docs
 weight: 270
 url: /net/aspose.words/document/originalfilename/

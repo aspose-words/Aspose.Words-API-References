@@ -1,7 +1,7 @@
 ---
 title: Color
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets a value representing the color of the gradient stop.
 type: docs
 weight: 20
 url: /net/aspose.words.drawing/gradientstop/color/

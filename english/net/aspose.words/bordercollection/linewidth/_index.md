@@ -1,7 +1,7 @@
 ---
 title: LineWidth
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets the border width in points.
 type: docs
 weight: 90
 url: /net/aspose.words/bordercollection/linewidth/

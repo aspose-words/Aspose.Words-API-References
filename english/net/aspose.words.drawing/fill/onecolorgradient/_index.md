@@ -1,12 +1,12 @@
 ---
 title: OneColorGradient
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Sets the specified fill to a one-color gradient.
 type: docs
 weight: 160
 url: /net/aspose.words.drawing/fill/onecolorgradient/
 ---
-## Fill.OneColorGradient method (1 of 2)
+## OneColorGradient(GradientStyle, GradientVariant, double) {#onecolorgradient}
 
 Sets the specified fill to a one-color gradient.
 
@@ -68,7 +68,7 @@ doc.Save(ArtifactsDir + "Shape.GradientFill.docx", saveOptions);
 
 ---
 
-## Fill.OneColorGradient method (2 of 2)
+## OneColorGradient(Color, GradientStyle, GradientVariant, double) {#onecolorgradient_1}
 
 Sets the specified fill to a one-color gradient using the specified color.
 

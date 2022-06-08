@@ -1,7 +1,7 @@
 ---
 title: AlignTablesRowByRow
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Align Table Rows Independently.
 type: docs
 weight: 20
 url: /net/aspose.words.settings/compatibilityoptions/aligntablesrowbyrow/

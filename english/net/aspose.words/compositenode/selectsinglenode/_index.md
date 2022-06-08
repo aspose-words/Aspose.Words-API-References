@@ -1,7 +1,7 @@
 ---
 title: SelectSingleNode
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Selects the first Node that matches the XPath expression.
 type: docs
 weight: 210
 url: /net/aspose.words/compositenode/selectsinglenode/

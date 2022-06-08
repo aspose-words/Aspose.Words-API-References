@@ -1,12 +1,12 @@
 ---
 title: ImageSize
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Initializes width and height to the given values in pixels. Initializes resolution to 96 dpi.
 type: docs
 weight: 10
 url: /net/aspose.words.drawing/imagesize/imagesize/
 ---
-## ImageSize constructor (1 of 2)
+## ImageSize(int, int) {#constructor}
 
 Initializes width and height to the given values in pixels. Initializes resolution to 96 dpi.
 
@@ -27,7 +27,7 @@ public ImageSize(int widthPixels, int heightPixels)
 
 ---
 
-## ImageSize constructor (2 of 2)
+## ImageSize(int, int, double, double) {#constructor_1}
 
 Initializes width, height and resolution to the given values.
 

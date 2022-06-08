@@ -1,7 +1,7 @@
 ---
 title: DoNotBreakWrappedTables
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Do Not Allow Floating Tables To Break Across Pages.
 type: docs
 weight: 140
 url: /net/aspose.words.settings/compatibilityoptions/donotbreakwrappedtables/

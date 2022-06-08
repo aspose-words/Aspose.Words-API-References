@@ -1,7 +1,7 @@
 ---
 title: ContainsValue
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Determines whether a mapping from the specified field in the data source exists in the collection.
 type: docs
 weight: 60
 url: /net/aspose.words.mailmerging/mappeddatafieldcollection/containsvalue/

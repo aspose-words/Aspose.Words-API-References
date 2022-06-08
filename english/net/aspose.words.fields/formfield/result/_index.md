@@ -1,7 +1,7 @@
 ---
 title: Result
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets a string that represents the result of this form field.
 type: docs
 weight: 170
 url: /net/aspose.words.fields/formfield/result/

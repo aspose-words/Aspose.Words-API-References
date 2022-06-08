@@ -1,7 +1,7 @@
 ---
 title: DefaultInstructions
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets a value indicating that default instructions is shown in the Sign dialog. Default value for this property is true.
 type: docs
 weight: 30
 url: /net/aspose.words/signaturelineoptions/defaultinstructions/

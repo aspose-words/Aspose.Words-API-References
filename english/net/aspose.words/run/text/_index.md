@@ -1,7 +1,7 @@
 ---
 title: Text
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets the text of the run.
 type: docs
 weight: 30
 url: /net/aspose.words/run/text/

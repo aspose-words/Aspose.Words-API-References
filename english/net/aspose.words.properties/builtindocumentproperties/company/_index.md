@@ -1,7 +1,7 @@
 ---
 title: Company
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets the company property.
 type: docs
 weight: 70
 url: /net/aspose.words.properties/builtindocumentproperties/company/

@@ -1,7 +1,7 @@
 ---
 title: ChartFormat
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Represents the formatting of a chart element.
 type: docs
 weight: 670
 url: /net/aspose.words.drawing.charts/chartformat/

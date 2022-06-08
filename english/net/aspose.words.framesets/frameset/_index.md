@@ -1,7 +1,7 @@
 ---
 title: Frameset
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Represents a frames page or a single frame on a frames page.
 type: docs
 weight: 2850
 url: /net/aspose.words.framesets/frameset/

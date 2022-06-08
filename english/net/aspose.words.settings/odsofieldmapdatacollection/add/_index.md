@@ -1,7 +1,7 @@
 ---
 title: Add
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Adds an object to the end of this collection.
 type: docs
 weight: 40
 url: /net/aspose.words.settings/odsofieldmapdatacollection/add/

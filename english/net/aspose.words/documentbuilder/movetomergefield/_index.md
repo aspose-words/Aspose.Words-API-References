@@ -1,12 +1,12 @@
 ---
 title: MoveToMergeField
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Moves the cursor to a position just beyond the specified merge field and removes the merge field.
 type: docs
 weight: 530
 url: /net/aspose.words/documentbuilder/movetomergefield/
 ---
-## DocumentBuilder.MoveToMergeField method (1 of 2)
+## MoveToMergeField(string) {#movetomergefield}
 
 Moves the cursor to a position just beyond the specified merge field and removes the merge field.
 
@@ -144,7 +144,7 @@ private static DataTable GetStudentCourseDataTable()
 
 ---
 
-## DocumentBuilder.MoveToMergeField method (2 of 2)
+## MoveToMergeField(string, bool, bool) {#movetomergefield_1}
 
 Moves the merge field to the specified merge field.
 

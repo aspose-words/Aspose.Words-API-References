@@ -1,7 +1,7 @@
 ---
 title: Border
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Represents a border of an object.
 type: docs
 weight: 70
 url: /net/aspose.words/border/
@@ -30,8 +30,8 @@ public class Border : InternableComplexAttr
 | Name | Description |
 | --- | --- |
 | [ClearFormatting](../../aspose.words/border/clearformatting)() | Resets border properties to default values. |
-| [Equals](../../aspose.words/border/equals)(Border) | Determines whether the specified border is equal in value to the current border. |
-| override [Equals](../../aspose.words/border/equals)(object) | Determines whether the specified object is equal in value to the current object. |
+| [Equals](../../aspose.words/border/equals#equals)(Border) | Determines whether the specified border is equal in value to the current border. |
+| override [Equals](../../aspose.words/border/equals#equals_1)(object) | Determines whether the specified object is equal in value to the current object. |
 | override [GetHashCode](../../aspose.words/border/gethashcode)() | Serves as a hash function for this type. |
 
 ## Remarks

@@ -1,7 +1,7 @@
 ---
 title: FieldOptions
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets a FieldOptions object that represents options to control field handling in the document.
 type: docs
 weight: 120
 url: /net/aspose.words/document/fieldoptions/

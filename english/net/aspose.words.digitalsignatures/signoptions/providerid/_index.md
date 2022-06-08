@@ -1,7 +1,7 @@
 ---
 title: ProviderId
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies the class ID of the signature provider. Default value is Empty all zeroes Guid.
 type: docs
 weight: 40
 url: /net/aspose.words.digitalsignatures/signoptions/providerid/

@@ -1,7 +1,7 @@
 ---
 title: NodeType
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies the type of a Word document node.
 type: docs
 weight: 3940
 url: /net/aspose.words/nodetype/

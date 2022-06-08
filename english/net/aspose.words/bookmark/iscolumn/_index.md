@@ -1,7 +1,7 @@
 ---
 title: IsColumn
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Returns true if this bookmark is a table column bookmark.
 type: docs
 weight: 40
 url: /net/aspose.words/bookmark/iscolumn/

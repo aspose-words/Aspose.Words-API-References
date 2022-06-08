@@ -1,7 +1,7 @@
 ---
 title: DefaultPageSettingsPaperSource
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: See PaperSource of DefaultPageSettings.
 type: docs
 weight: 20
 url: /net/aspose.words.rendering/printersettingscontainer/defaultpagesettingspapersource/

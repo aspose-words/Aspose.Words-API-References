@@ -1,7 +1,7 @@
 ---
 title: ShapeLayoutLikeWW8
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Emulate Word 97 Text Wrapping Around Floating Objects.
 type: docs
 weight: 420
 url: /net/aspose.words.settings/compatibilityoptions/shapelayoutlikeww8/

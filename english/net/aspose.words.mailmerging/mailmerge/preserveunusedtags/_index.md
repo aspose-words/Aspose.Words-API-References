@@ -1,7 +1,7 @@
 ---
 title: PreserveUnusedTags
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets a value indicating whether the unused mustache tags should be preserved.
 type: docs
 weight: 80
 url: /net/aspose.words.mailmerging/mailmerge/preserveunusedtags/

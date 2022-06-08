@@ -1,7 +1,7 @@
 ---
 title: GetEmbeddedFont
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets a specific embedded font file.
 type: docs
 weight: 80
 url: /net/aspose.words.fonts/fontinfo/getembeddedfont/

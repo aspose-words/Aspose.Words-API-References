@@ -1,7 +1,7 @@
 ---
 title: Alignment
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets the justification of the actual number of the list item.
 type: docs
 weight: 10
 url: /net/aspose.words.lists/listlevel/alignment/

@@ -1,7 +1,7 @@
 ---
 title: FirstParagraph
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets the first paragraph among the immediate children.
 type: docs
 weight: 30
 url: /net/aspose.words.tables/cell/firstparagraph/

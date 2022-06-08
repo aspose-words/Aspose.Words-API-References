@@ -1,7 +1,7 @@
 ---
 title: ExportPageMargins
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies whether page margins is exported to HTML MHTML or EPUB. Default is false.
 type: docs
 weight: 220
 url: /net/aspose.words.saving/htmlsaveoptions/exportpagemargins/

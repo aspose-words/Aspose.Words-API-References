@@ -1,7 +1,7 @@
 ---
 title: Insert
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Inserts a string into the collection at the specified index.
 type: docs
 weight: 80
 url: /net/aspose.words.fields/dropdownitemcollection/insert/

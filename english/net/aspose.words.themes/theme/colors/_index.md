@@ -1,7 +1,7 @@
 ---
 title: Colors
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Allows to specify the set of theme colors for the document.
 type: docs
 weight: 20
 url: /net/aspose.words.themes/theme/colors/

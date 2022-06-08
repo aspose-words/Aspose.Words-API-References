@@ -1,7 +1,7 @@
 ---
 title: Fields
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Returns a Fieldsaspose.words/range/fields collection that represents all fields in the range.
 type: docs
 weight: 20
 url: /net/aspose.words/range/fields/

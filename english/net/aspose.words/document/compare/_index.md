@@ -1,12 +1,12 @@
 ---
 title: Compare
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Compares this document with another document producing changes as number of edit and format revisions Revisionaspose.words/revision.
 type: docs
 weight: 540
 url: /net/aspose.words/document/compare/
 ---
-## Document.Compare method (1 of 2)
+## Compare(Document, string, DateTime) {#compare}
 
 Compares this document with another document producing changes as number of edit and format revisions [`Revision`](../../revision).
 
@@ -67,7 +67,7 @@ Assert.AreEqual(docOriginal.GetText(), docEdited.GetText());
 
 ---
 
-## Document.Compare method (2 of 2)
+## Compare(Document, string, DateTime, CompareOptions) {#compare_1}
 
 Compares this document with another document producing changes as a number of edit and format revisions [`Revision`](../../revision). Allows to specify comparison options using [`CompareOptions`](../../../aspose.words.comparing/compareoptions).
 

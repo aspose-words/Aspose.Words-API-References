@@ -1,7 +1,7 @@
 ---
 title: BarcodeGenerator
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or set custom barcode generator.
 type: docs
 weight: 10
 url: /net/aspose.words.fields/fieldoptions/barcodegenerator/

@@ -1,7 +1,7 @@
 ---
 title: CommentDisplayMode
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets the way comments are rendered. Default value is ShowInBalloons.
 type: docs
 weight: 30
 url: /net/aspose.words.layout/layoutoptions/commentdisplaymode/

@@ -1,7 +1,7 @@
 ---
 title: RevisionType
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets the type of this revision.
 type: docs
 weight: 60
 url: /net/aspose.words/revision/revisiontype/

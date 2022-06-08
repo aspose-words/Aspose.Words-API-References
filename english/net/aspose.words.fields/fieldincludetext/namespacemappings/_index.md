@@ -1,7 +1,7 @@
 ---
 title: NamespaceMappings
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets the namespace mappings for XPath queries.
 type: docs
 weight: 60
 url: /net/aspose.words.fields/fieldincludetext/namespacemappings/

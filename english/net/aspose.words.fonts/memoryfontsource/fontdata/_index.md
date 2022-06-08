@@ -1,7 +1,7 @@
 ---
 title: FontData
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Binary font data.
 type: docs
 weight: 30
 url: /net/aspose.words.fonts/memoryfontsource/fontdata/

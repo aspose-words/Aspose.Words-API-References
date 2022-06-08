@@ -1,7 +1,7 @@
 ---
 title: Level
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Returns the nesting level for the region.
 type: docs
 weight: 30
 url: /net/aspose.words.mailmerging/mailmergeregioninfo/level/

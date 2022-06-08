@@ -1,7 +1,7 @@
 ---
 title: Bottom
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets the bottom border.
 type: docs
 weight: 10
 url: /net/aspose.words/bordercollection/bottom/

@@ -1,7 +1,7 @@
 ---
 title: Font
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Returns an object that represents current font formatting properties.
 type: docs
 weight: 90
 url: /net/aspose.words/documentbuilder/font/

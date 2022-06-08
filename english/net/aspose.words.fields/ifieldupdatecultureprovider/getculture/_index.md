@@ -1,7 +1,7 @@
 ---
 title: GetCulture
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Returns a CultureInfo object to be used during the fields update.
 type: docs
 weight: 10
 url: /net/aspose.words.fields/ifieldupdatecultureprovider/getculture/

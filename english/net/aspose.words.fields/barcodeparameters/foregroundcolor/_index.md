@@ -1,7 +1,7 @@
 ---
 title: ForegroundColor
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Bar code foreground color 0x000000 - 0xFFFFFF
 type: docs
 weight: 110
 url: /net/aspose.words.fields/barcodeparameters/foregroundcolor/

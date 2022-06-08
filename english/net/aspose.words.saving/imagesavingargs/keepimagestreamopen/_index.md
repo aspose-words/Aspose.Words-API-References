@@ -1,7 +1,7 @@
 ---
 title: KeepImageStreamOpen
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies whether Aspose.Words should keep the stream open or close it after saving an image.
 type: docs
 weight: 60
 url: /net/aspose.words.saving/imagesavingargs/keepimagestreamopen/

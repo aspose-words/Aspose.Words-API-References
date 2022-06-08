@@ -1,7 +1,7 @@
 ---
 title: StartArrowWidth
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Defines the arrowhead width for the start of a stroke.
 type: docs
 weight: 170
 url: /net/aspose.words.drawing/stroke/startarrowwidth/

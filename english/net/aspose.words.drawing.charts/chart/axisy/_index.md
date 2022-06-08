@@ -1,7 +1,7 @@
 ---
 title: AxisY
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Provides access to properties of the Y axis of the chart.
 type: docs
 weight: 20
 url: /net/aspose.words.drawing.charts/chart/axisy/

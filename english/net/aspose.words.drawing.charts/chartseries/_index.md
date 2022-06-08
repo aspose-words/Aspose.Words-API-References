@@ -1,7 +1,7 @@
 ---
 title: ChartSeries
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Represents chart series properties.
 type: docs
 weight: 730
 url: /net/aspose.words.drawing.charts/chartseries/

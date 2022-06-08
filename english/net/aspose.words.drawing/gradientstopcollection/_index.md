@@ -1,7 +1,7 @@
 ---
 title: GradientStopCollection
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Contains a collection of GradientStop./gradientstop objects.
 type: docs
 weight: 860
 url: /net/aspose.words.drawing/gradientstopcollection/

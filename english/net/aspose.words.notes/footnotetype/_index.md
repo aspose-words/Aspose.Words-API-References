@@ -1,7 +1,7 @@
 ---
 title: FootnoteType
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies whether this is a footnote or an endnote.
 type: docs
 weight: 4010
 url: /net/aspose.words.notes/footnotetype/

@@ -1,7 +1,7 @@
 ---
 title: LastRecord
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets the integral record number of the last data record to insert.
 type: docs
 weight: 80
 url: /net/aspose.words.fields/fielddatabase/lastrecord/

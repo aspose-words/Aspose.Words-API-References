@@ -1,7 +1,7 @@
 ---
 title: GenerateFromFirstPage
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies whether to generate thumbnail from first page of the document or first image.
 type: docs
 weight: 20
 url: /net/aspose.words.rendering/thumbnailgeneratingoptions/generatefromfirstpage/

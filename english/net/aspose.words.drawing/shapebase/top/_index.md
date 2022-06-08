@@ -1,7 +1,7 @@
 ---
 title: Top
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets the position of the top edge of the containing block of the shape.
 type: docs
 weight: 490
 url: /net/aspose.words.drawing/shapebase/top/

@@ -1,7 +1,7 @@
 ---
 title: KeepWithNext
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: True if the paragraph is to remains on the same page as the paragraph that follows it.
 type: docs
 weight: 160
 url: /net/aspose.words/paragraphformat/keepwithnext/

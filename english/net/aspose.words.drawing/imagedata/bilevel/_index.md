@@ -1,7 +1,7 @@
 ---
 title: BiLevel
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Determines whether an image will be displayed in black and white.
 type: docs
 weight: 10
 url: /net/aspose.words.drawing/imagedata/bilevel/

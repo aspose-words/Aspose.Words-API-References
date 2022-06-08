@@ -1,7 +1,7 @@
 ---
 title: Unit
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: The unit.
 type: docs
 weight: 20
 url: /net/aspose.words.fields/mergefieldimagedimension/unit/

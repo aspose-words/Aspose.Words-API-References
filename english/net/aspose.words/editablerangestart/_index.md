@@ -1,7 +1,7 @@
 ---
 title: EditableRangeStart
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Represents a start of an editable range in a Word document.
 type: docs
 weight: 1270
 url: /net/aspose.words/editablerangestart/

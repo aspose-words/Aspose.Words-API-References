@@ -1,7 +1,7 @@
 ---
 title: Location
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets the name of a bookmark a page number or some other item to jump to.
 type: docs
 weight: 30
 url: /net/aspose.words.fields/fieldgotobutton/location/

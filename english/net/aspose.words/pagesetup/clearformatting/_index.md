@@ -1,7 +1,7 @@
 ---
 title: ClearFormatting
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Resets page setup to default paper size margins and orientation.
 type: docs
 weight: 450
 url: /net/aspose.words/pagesetup/clearformatting/

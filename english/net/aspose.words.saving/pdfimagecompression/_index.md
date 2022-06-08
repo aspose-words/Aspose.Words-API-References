@@ -1,7 +1,7 @@
 ---
 title: PdfImageCompression
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies the type of compression applied to images in the PDF file.
 type: docs
 weight: 5160
 url: /net/aspose.words.saving/pdfimagecompression/

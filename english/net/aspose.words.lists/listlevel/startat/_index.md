@@ -1,7 +1,7 @@
 ---
 title: StartAt
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Returns or sets the starting number for this list level.
 type: docs
 weight: 110
 url: /net/aspose.words.lists/listlevel/startat/

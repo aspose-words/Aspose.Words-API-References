@@ -1,7 +1,7 @@
 ---
 title: Alignment
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets text alignment for the paragraph.
 type: docs
 weight: 30
 url: /net/aspose.words/paragraphformat/alignment/

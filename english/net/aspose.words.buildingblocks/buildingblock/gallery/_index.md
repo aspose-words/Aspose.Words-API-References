@@ -1,7 +1,7 @@
 ---
 title: Gallery
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies the first-level categorization for the building block for the purposes of classification or user interface sorting.
 type: docs
 weight: 60
 url: /net/aspose.words.buildingblocks/buildingblock/gallery/

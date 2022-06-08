@@ -1,12 +1,12 @@
 ---
 title: EndEditableRange
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Marks the current position in the document as an editable range end.
 type: docs
 weight: 210
 url: /net/aspose.words/documentbuilder/endeditablerange/
 ---
-## DocumentBuilder.EndEditableRange method (1 of 2)
+## EndEditableRange() {#endeditablerange}
 
 Marks the current position in the document as an editable range end.
 
@@ -76,7 +76,7 @@ editableRange.Remove();
 
 ---
 
-## DocumentBuilder.EndEditableRange method (2 of 2)
+## EndEditableRange(EditableRangeStart) {#endeditablerange_1}
 
 Marks the current position in the document as an editable range end.
 

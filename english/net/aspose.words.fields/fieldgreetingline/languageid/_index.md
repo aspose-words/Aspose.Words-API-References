@@ -1,7 +1,7 @@
 ---
 title: LanguageId
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets the language id used to format the name.
 type: docs
 weight: 30
 url: /net/aspose.words.fields/fieldgreetingline/languageid/

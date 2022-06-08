@@ -1,7 +1,7 @@
 ---
 title: FindReplaceOptions
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies options for find/replace operations.
 type: docs
 weight: 4310
 url: /net/aspose.words.replacing/findreplaceoptions/
@@ -18,10 +18,10 @@ public class FindReplaceOptions
 
 | Name | Description |
 | --- | --- |
-| [FindReplaceOptions](findreplaceoptions)() | The default constructor. |
-| [FindReplaceOptions](findreplaceoptions)(FindReplaceDirection) |  |
-| [FindReplaceOptions](findreplaceoptions)(IReplacingCallback) |  |
-| [FindReplaceOptions](findreplaceoptions)(FindReplaceDirection, IReplacingCallback) |  |
+| [FindReplaceOptions](findreplaceoptions#constructor)() | The default constructor. |
+| [FindReplaceOptions](findreplaceoptions#constructor_1)(FindReplaceDirection) |  |
+| [FindReplaceOptions](findreplaceoptions#constructor_3)(IReplacingCallback) |  |
+| [FindReplaceOptions](findreplaceoptions#constructor_2)(FindReplaceDirection, IReplacingCallback) |  |
 
 ## Properties
 

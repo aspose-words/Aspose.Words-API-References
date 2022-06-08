@@ -1,7 +1,7 @@
 ---
 title: SuppressAuthor
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets whether the author information is suppressed from the citation.
 type: docs
 weight: 80
 url: /net/aspose.words.fields/fieldcitation/suppressauthor/

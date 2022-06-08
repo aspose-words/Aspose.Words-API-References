@@ -1,7 +1,7 @@
 ---
 title: Remove
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Removes the bookmark from the document. Does not remove text inside the bookmark.
 type: docs
 weight: 80
 url: /net/aspose.words/bookmark/remove/

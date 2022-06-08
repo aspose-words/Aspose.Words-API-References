@@ -1,7 +1,7 @@
 ---
 title: PrintColBlack
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Print Colors as Black And White without Dithering.
 type: docs
 weight: 400
 url: /net/aspose.words.settings/compatibilityoptions/printcolblack/

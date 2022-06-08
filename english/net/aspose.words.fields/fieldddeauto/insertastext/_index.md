@@ -1,7 +1,7 @@
 ---
 title: InsertAsText
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets whether to insert the linked object in text-only format.
 type: docs
 weight: 60
 url: /net/aspose.words.fields/fieldddeauto/insertastext/

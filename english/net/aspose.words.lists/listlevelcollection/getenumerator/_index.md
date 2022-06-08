@@ -1,7 +1,7 @@
 ---
 title: GetEnumerator
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets the enumerator object that will enumerate levels in this list.
 type: docs
 weight: 30
 url: /net/aspose.words.lists/listlevelcollection/getenumerator/

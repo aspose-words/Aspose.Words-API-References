@@ -1,7 +1,7 @@
 ---
 title: Remove
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Removes the item at the specified index from the collection.
 type: docs
 weight: 60
 url: /net/aspose.words.webextensions/basewebextensioncollection-1/remove/

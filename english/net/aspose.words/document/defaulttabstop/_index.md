@@ -1,7 +1,7 @@
 ---
 title: DefaultTabStop
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets the interval in points between the default tab stops.
 type: docs
 weight: 90
 url: /net/aspose.words/document/defaulttabstop/

@@ -1,7 +1,7 @@
 ---
 title: WPJustification
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Emulate WordPerfect 6.x Paragraph Justification.
 type: docs
 weight: 690
 url: /net/aspose.words.settings/compatibilityoptions/wpjustification/

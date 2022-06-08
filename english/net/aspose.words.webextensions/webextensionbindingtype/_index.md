@@ -1,7 +1,7 @@
 ---
 title: WebExtensionBindingType
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Enumerates available types of binding between a web extension and the data in the document.
 type: docs
 weight: 6410
 url: /net/aspose.words.webextensions/webextensionbindingtype/

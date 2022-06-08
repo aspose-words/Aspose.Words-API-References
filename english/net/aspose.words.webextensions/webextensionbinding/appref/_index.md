@@ -1,7 +1,7 @@
 ---
 title: AppRef
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies the binding key used to map the binding entry in this list with the bound data in the document.
 type: docs
 weight: 20
 url: /net/aspose.words.webextensions/webextensionbinding/appref/

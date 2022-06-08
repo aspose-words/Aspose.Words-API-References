@@ -1,7 +1,7 @@
 ---
 title: FieldChar
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Base class for nodes that represent field characters in a document.
 type: docs
 weight: 1500
 url: /net/aspose.words.fields/fieldchar/

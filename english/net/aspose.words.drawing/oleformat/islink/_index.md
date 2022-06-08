@@ -1,7 +1,7 @@
 ---
 title: IsLink
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Returns true if the OLE object is linked when SourceFullNameaspose.words.drawing/oleformat/sourcefullname is specified.
 type: docs
 weight: 40
 url: /net/aspose.words.drawing/oleformat/islink/

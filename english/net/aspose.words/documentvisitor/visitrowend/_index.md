@@ -1,7 +1,7 @@
 ---
 title: VisitRowEnd
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Called when enumeration of a table row has ended.
 type: docs
 weight: 340
 url: /net/aspose.words/documentvisitor/visitrowend/

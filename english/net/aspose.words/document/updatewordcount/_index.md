@@ -1,12 +1,12 @@
 ---
 title: UpdateWordCount
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Updates word count properties of the document.
 type: docs
 weight: 770
 url: /net/aspose.words/document/updatewordcount/
 ---
-## Document.UpdateWordCount method (1 of 2)
+## UpdateWordCount() {#updatewordcount}
 
 Updates word count properties of the document.
 
@@ -64,7 +64,7 @@ Assert.AreEqual(4, doc.BuiltInDocumentProperties.Lines);
 
 ---
 
-## Document.UpdateWordCount method (2 of 2)
+## UpdateWordCount(bool) {#updatewordcount_1}
 
 Updates word count properties of the document, optionally updates [`Lines`](../../../aspose.words.properties/builtindocumentproperties/lines) property.
 

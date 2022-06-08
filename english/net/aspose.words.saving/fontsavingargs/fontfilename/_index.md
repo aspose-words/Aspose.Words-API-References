@@ -1,7 +1,7 @@
 ---
 title: FontFileName
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets the file name without path where the font will be saved to.
 type: docs
 weight: 40
 url: /net/aspose.words.saving/fontsavingargs/fontfilename/

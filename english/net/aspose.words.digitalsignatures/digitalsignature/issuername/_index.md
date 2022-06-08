@@ -1,7 +1,7 @@
 ---
 title: IssuerName
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Returns the subject distinguished name of the certificate isuuer.
 type: docs
 weight: 30
 url: /net/aspose.words.digitalsignatures/digitalsignature/issuername/

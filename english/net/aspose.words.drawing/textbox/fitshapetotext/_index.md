@@ -1,7 +1,7 @@
 ---
 title: FitShapeToText
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Determines whether Microsoft Word will grow the shape to fit text.
 type: docs
 weight: 10
 url: /net/aspose.words.drawing/textbox/fitshapetotext/

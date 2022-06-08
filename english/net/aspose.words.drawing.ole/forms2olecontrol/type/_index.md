@@ -1,7 +1,7 @@
 ---
 title: Type
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets type of Forms 2.0 control.
 type: docs
 weight: 50
 url: /net/aspose.words.drawing.ole/forms2olecontrol/type/

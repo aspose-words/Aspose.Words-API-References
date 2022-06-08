@@ -1,7 +1,7 @@
 ---
 title: EntryCategory
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets the integral entry category which is a number that corresponds to the order of categories.
 type: docs
 weight: 20
 url: /net/aspose.words.fields/fieldta/entrycategory/

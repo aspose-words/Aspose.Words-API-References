@@ -1,7 +1,7 @@
 ---
 title: HtmlVersion
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Indicates the version of HTML is used when saving the document to Html and Mhtml formats.
 type: docs
 weight: 4810
 url: /net/aspose.words.saving/htmlversion/

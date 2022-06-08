@@ -1,7 +1,7 @@
 ---
 title: SubFontBySize
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Increase Priority Of Font Size During Font Substitution.
 type: docs
 weight: 470
 url: /net/aspose.words.settings/compatibilityoptions/subfontbysize/

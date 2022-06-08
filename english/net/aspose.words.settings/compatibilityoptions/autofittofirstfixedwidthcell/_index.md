@@ -1,7 +1,7 @@
 ---
 title: AutofitToFirstFixedWidthCell
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Allow Table Columns To Exceed Preferred Widths of Constituent Cells.
 type: docs
 weight: 50
 url: /net/aspose.words.settings/compatibilityoptions/autofittofirstfixedwidthcell/

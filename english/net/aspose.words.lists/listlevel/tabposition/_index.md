@@ -1,7 +1,7 @@
 ---
 title: TabPosition
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Returns or sets the tab position in points for the list level.
 type: docs
 weight: 120
 url: /net/aspose.words.lists/listlevel/tabposition/

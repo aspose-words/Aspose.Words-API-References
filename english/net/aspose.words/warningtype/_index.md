@@ -1,7 +1,7 @@
 ---
 title: WarningType
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies the type of a warning that is issued by Aspose.Words during document loading or saving.
 type: docs
 weight: 6300
 url: /net/aspose.words/warningtype/

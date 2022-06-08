@@ -1,7 +1,7 @@
 ---
 title: PdfZoomBehavior
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies the type of zoom applied to a PDF document when it is opened in a PDF viewer.
 type: docs
 weight: 5210
 url: /net/aspose.words.saving/pdfzoombehavior/

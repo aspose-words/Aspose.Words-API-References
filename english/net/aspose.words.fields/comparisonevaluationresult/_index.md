@@ -1,7 +1,7 @@
 ---
 title: ComparisonEvaluationResult
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: The comparison evaluation result.
 type: docs
 weight: 1310
 url: /net/aspose.words.fields/comparisonevaluationresult/
@@ -18,8 +18,8 @@ public sealed class ComparisonEvaluationResult
 
 | Name | Description |
 | --- | --- |
-| [ComparisonEvaluationResult](comparisonevaluationresult)(bool) | Creates a comparison evaluation result. |
-| [ComparisonEvaluationResult](comparisonevaluationresult)(string) | Creates a failed comparison evaluation result with the corresponding error message. |
+| [ComparisonEvaluationResult](comparisonevaluationresult#constructor)(bool) | Creates a comparison evaluation result. |
+| [ComparisonEvaluationResult](comparisonevaluationresult#constructor_1)(string) | Creates a failed comparison evaluation result with the corresponding error message. |
 
 ## Properties
 

@@ -1,7 +1,7 @@
 ---
 title: Name
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies the name of the custom XML attribute or smart tag property.
 type: docs
 weight: 20
 url: /net/aspose.words.markup/customxmlproperty/name/

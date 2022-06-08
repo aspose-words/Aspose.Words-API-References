@@ -1,7 +1,7 @@
 ---
 title: Shading
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Returns a Shading object that refers to the shading formatting for the font.
 type: docs
 weight: 320
 url: /net/aspose.words/font/shading/

@@ -1,7 +1,7 @@
 ---
 title: WidthInPoints
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets the width of the page in points.
 type: docs
 weight: 60
 url: /net/aspose.words.rendering/pageinfo/widthinpoints/

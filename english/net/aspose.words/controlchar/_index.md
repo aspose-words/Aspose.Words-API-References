@@ -1,7 +1,7 @@
 ---
 title: ControlChar
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Control characters often encountered in documents.
 type: docs
 weight: 340
 url: /net/aspose.words/controlchar/

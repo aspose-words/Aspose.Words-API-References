@@ -1,7 +1,7 @@
 ---
 title: Bounds
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets the location and size of the containing block of the shape.
 type: docs
 weight: 70
 url: /net/aspose.words.drawing/shapebase/bounds/

@@ -1,7 +1,7 @@
 ---
 title: ImageSaveOptions
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Allows to specify additional options when rendering document pages or shapes to images.
 type: docs
 weight: 4920
 url: /net/aspose.words.saving/imagesaveoptions/

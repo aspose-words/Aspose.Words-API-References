@@ -1,7 +1,7 @@
 ---
 title: Series
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Provides access to series collection.
 type: docs
 weight: 50
 url: /net/aspose.words.drawing.charts/chart/series/

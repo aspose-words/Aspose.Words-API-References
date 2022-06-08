@@ -1,7 +1,7 @@
 ---
 title: HorizontalAlignment
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies how the shape is positioned horizontally.
 type: docs
 weight: 210
 url: /net/aspose.words.drawing/shapebase/horizontalalignment/

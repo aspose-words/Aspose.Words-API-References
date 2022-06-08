@@ -1,7 +1,7 @@
 ---
 title: ComparisonTargetType
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Allows to specify base document which will be used during comparison. Default value is Current.
 type: docs
 weight: 270
 url: /net/aspose.words.comparing/comparisontargettype/

@@ -1,7 +1,7 @@
 ---
 title: AnchorLocked
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies whether the shapes anchor is locked.
 type: docs
 weight: 30
 url: /net/aspose.words.drawing/shapebase/anchorlocked/

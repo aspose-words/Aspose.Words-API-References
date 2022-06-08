@@ -1,7 +1,7 @@
 ---
 title: ImageWatermarkOptions
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Contains options that can be specified when adding a watermark with image.
 type: docs
 weight: 2970
 url: /net/aspose.words/imagewatermarkoptions/

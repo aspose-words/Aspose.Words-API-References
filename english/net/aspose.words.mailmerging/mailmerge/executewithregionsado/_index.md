@@ -1,7 +1,7 @@
 ---
 title: ExecuteWithRegionsADO
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Performs mail merge from an ADO Recordset object into the document with mail merge regions.
 type: docs
 weight: 210
 url: /net/aspose.words.mailmerging/mailmerge/executewithregionsado/

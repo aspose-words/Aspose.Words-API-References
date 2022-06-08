@@ -1,7 +1,7 @@
 ---
 title: LetterRange
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets a range of letters to which limit the index.
 type: docs
 weight: 90
 url: /net/aspose.words.fields/fieldindex/letterrange/

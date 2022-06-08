@@ -1,7 +1,7 @@
 ---
 title: IsAnsi
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets whether the character code is interpreted as the value of an ANSI character.
 type: docs
 weight: 60
 url: /net/aspose.words.fields/fieldsymbol/isansi/

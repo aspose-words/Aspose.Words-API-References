@@ -1,7 +1,7 @@
 ---
 title: Email
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets suggested signers e-mail address. Default value for this property is empty string Empty.
 type: docs
 weight: 30
 url: /net/aspose.words.drawing/signatureline/email/

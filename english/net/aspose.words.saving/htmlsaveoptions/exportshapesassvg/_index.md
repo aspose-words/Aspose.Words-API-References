@@ -1,7 +1,7 @@
 ---
 title: ExportShapesAsSvg
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Controls whether Shapeaspose.words.drawing/shape nodes are converted to SVG images when saving to HTML MHTML or EPUB. Default value is false.
 type: docs
 weight: 260
 url: /net/aspose.words.saving/htmlsaveoptions/exportshapesassvg/

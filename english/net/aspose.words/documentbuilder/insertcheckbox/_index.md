@@ -1,12 +1,12 @@
 ---
 title: InsertCheckBox
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Inserts a checkbox form field at the current position.
 type: docs
 weight: 270
 url: /net/aspose.words/documentbuilder/insertcheckbox/
 ---
-## DocumentBuilder.InsertCheckBox method (1 of 2)
+## InsertCheckBox(string, bool, int) {#insertcheckbox_1}
 
 Inserts a checkbox form field at the current position.
 
@@ -64,7 +64,7 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertCheckBox.docx");
 
 ---
 
-## DocumentBuilder.InsertCheckBox method (2 of 2)
+## InsertCheckBox(string, bool, bool, int) {#insertcheckbox}
 
 Inserts a checkbox form field at the current position.
 

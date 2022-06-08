@@ -1,7 +1,7 @@
 ---
 title: SetTextInputValue
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Applies the text format specified in TextInputFormataspose.words.fields/formfield/textinputformat and stores the value in Resultaspose.words.fields/formfield/result.
 type: docs
 weight: 250
 url: /net/aspose.words.fields/formfield/settextinputvalue/

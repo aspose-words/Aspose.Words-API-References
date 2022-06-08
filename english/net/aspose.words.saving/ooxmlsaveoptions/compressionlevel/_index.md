@@ -1,7 +1,7 @@
 ---
 title: CompressionLevel
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies the compression level used to save document. The default value is Normal.
 type: docs
 weight: 30
 url: /net/aspose.words.saving/ooxmlsaveoptions/compressionlevel/

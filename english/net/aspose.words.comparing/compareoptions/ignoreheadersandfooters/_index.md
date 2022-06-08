@@ -1,7 +1,7 @@
 ---
 title: IgnoreHeadersAndFooters
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: True indicates that headers and footers content is ignored. By default headers and footers are not ignored.
 type: docs
 weight: 90
 url: /net/aspose.words.comparing/compareoptions/ignoreheadersandfooters/

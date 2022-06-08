@@ -1,7 +1,7 @@
 ---
 title: FieldFileSize
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Implements the FILESIZE field.
 type: docs
 weight: 1690
 url: /net/aspose.words.fields/fieldfilesize/

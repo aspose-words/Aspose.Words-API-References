@@ -1,7 +1,7 @@
 ---
 title: ImageSavingCallback
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Allows to control how images are saved when a document is saved to XAML.
 type: docs
 weight: 20
 url: /net/aspose.words.saving/xamlflowsaveoptions/imagesavingcallback/

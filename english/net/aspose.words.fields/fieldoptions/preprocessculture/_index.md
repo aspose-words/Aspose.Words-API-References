@@ -1,7 +1,7 @@
 ---
 title: PreProcessCulture
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets the culture to preprocess field values.
 type: docs
 weight: 140
 url: /net/aspose.words.fields/fieldoptions/preprocessculture/

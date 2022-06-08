@@ -1,7 +1,7 @@
 ---
 title: ProgId
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets the ProgID of the OLE object.
 type: docs
 weight: 90
 url: /net/aspose.words.drawing/oleformat/progid/

@@ -1,7 +1,7 @@
 ---
 title: ToInt
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Returns the property value as integer.
 type: docs
 weight: 100
 url: /net/aspose.words.properties/documentproperty/toint/

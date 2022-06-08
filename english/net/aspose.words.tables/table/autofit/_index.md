@@ -1,7 +1,7 @@
 ---
 title: AutoFit
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Resizes the table and cells according to the specified auto fit behavior.
 type: docs
 weight: 360
 url: /net/aspose.words.tables/table/autofit/

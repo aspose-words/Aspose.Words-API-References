@@ -1,7 +1,7 @@
 ---
 title: ResourceLoadingCallback
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Allows to control how external resources are loaded.
 type: docs
 weight: 70
 url: /net/aspose.words/documentbase/resourceloadingcallback/

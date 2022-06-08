@@ -1,7 +1,7 @@
 ---
 title: ImageStream
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies the stream for the mail merge engine to read an image from.
 type: docs
 weight: 40
 url: /net/aspose.words.mailmerging/imagefieldmergingargs/imagestream/

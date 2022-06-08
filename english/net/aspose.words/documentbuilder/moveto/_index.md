@@ -1,7 +1,7 @@
 ---
 title: MoveTo
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Moves the cursor to an inline node or to the end of a paragraph.
 type: docs
 weight: 460
 url: /net/aspose.words/documentbuilder/moveto/

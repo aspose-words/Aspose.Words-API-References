@@ -1,7 +1,7 @@
 ---
 title: VisitCellEnd
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Called when enumeration of a table cell has ended.
 type: docs
 weight: 80
 url: /net/aspose.words/documentvisitor/visitcellend/

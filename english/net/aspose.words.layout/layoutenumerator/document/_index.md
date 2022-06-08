@@ -1,7 +1,7 @@
 ---
 title: Document
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets document this instance enumerates.
 type: docs
 weight: 30
 url: /net/aspose.words.layout/layoutenumerator/document/

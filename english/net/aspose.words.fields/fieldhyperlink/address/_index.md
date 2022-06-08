@@ -1,7 +1,7 @@
 ---
 title: Address
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets a location where this hyperlink jumps.
 type: docs
 weight: 20
 url: /net/aspose.words.fields/fieldhyperlink/address/

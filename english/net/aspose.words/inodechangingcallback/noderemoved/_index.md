@@ -1,7 +1,7 @@
 ---
 title: NodeRemoved
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Called when a node belonging to this document has been removed from its parent.
 type: docs
 weight: 30
 url: /net/aspose.words/inodechangingcallback/noderemoved/

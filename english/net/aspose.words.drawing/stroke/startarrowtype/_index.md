@@ -1,7 +1,7 @@
 ---
 title: StartArrowType
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Defines the arrowhead for the start of a stroke.
 type: docs
 weight: 160
 url: /net/aspose.words.drawing/stroke/startarrowtype/

@@ -1,7 +1,7 @@
 ---
 title: FieldDocVariable
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Implements DOCVARIABLE field.
 type: docs
 weight: 1630
 url: /net/aspose.words.fields/fielddocvariable/

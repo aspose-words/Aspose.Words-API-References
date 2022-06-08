@@ -1,7 +1,7 @@
 ---
 title: MoveNextLogical
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Moves to the next sibling entity in a logical order. When iterating lines of a paragraph broken across pages this method will move to the next line even if it resides on another page.
 type: docs
 weight: 120
 url: /net/aspose.words.layout/layoutenumerator/movenextlogical/

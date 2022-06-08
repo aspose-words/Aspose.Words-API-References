@@ -1,7 +1,7 @@
 ---
 title: WidthPixels
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets the width of the image in pixels.
 type: docs
 weight: 60
 url: /net/aspose.words.drawing/imagesize/widthpixels/

@@ -1,7 +1,7 @@
 ---
 title: GetBuildingBlock
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Finds a building block using the specified gallery category and name.
 type: docs
 weight: 70
 url: /net/aspose.words.buildingblocks/glossarydocument/getbuildingblock/

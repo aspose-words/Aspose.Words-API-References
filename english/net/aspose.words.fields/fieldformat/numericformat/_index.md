@@ -1,7 +1,7 @@
 ---
 title: NumericFormat
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets a formatting that is applied to a numeric field result. Corresponds to the  switch.
 type: docs
 weight: 30
 url: /net/aspose.words.fields/fieldformat/numericformat/

@@ -1,7 +1,7 @@
 ---
 title: FallbackSettings
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Settings related to font fallback mechanism.
 type: docs
 weight: 30
 url: /net/aspose.words.fonts/fontsettings/fallbacksettings/

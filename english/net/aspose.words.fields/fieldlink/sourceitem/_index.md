@@ -1,7 +1,7 @@
 ---
 title: SourceItem
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets the portion of the source file thats being linked.
 type: docs
 weight: 130
 url: /net/aspose.words.fields/fieldlink/sourceitem/

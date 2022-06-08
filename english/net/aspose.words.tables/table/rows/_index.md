@@ -1,7 +1,7 @@
 ---
 title: Rows
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Provides typed access to the rows of the table.
 type: docs
 weight: 260
 url: /net/aspose.words.tables/table/rows/

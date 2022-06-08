@@ -1,7 +1,7 @@
 ---
 title: ResourcesFolderAlias
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies the name of the folder used to construct image URIs written into an fixed page Xaml document. Default is null.
 type: docs
 weight: 40
 url: /net/aspose.words.saving/xamlfixedsaveoptions/resourcesfolderalias/

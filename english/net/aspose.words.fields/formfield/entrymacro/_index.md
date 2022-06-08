@@ -1,7 +1,7 @@
 ---
 title: EntryMacro
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Returns or sets an entry macro name for the form field.
 type: docs
 weight: 80
 url: /net/aspose.words.fields/formfield/entrymacro/

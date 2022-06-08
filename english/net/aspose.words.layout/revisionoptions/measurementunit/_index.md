@@ -1,7 +1,7 @@
 ---
 title: MeasurementUnit
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Allows to specify the measurement units for revision comments. Default value is Centimeters
 type: docs
 weight: 60
 url: /net/aspose.words.layout/revisionoptions/measurementunit/

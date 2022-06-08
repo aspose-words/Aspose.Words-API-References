@@ -1,7 +1,7 @@
 ---
 title: VisitCommentStart
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Called when enumeration of a comment text has started.
 type: docs
 weight: 130
 url: /net/aspose.words/documentvisitor/visitcommentstart/

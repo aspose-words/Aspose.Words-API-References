@@ -1,7 +1,7 @@
 ---
 title: PageRangeBookmarkName
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets the name of the bookmark that marks a range of pages that is inserted as the entrys page number.
 type: docs
 weight: 60
 url: /net/aspose.words.fields/fieldxe/pagerangebookmarkname/

@@ -1,7 +1,7 @@
 ---
 title: Enabled
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: True if a form field is enabled.
 type: docs
 weight: 70
 url: /net/aspose.words.fields/formfield/enabled/

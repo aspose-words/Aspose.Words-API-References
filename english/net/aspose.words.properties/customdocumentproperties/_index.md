@@ -1,7 +1,7 @@
 ---
 title: CustomDocumentProperties
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: A collection of custom document properties.
 type: docs
 weight: 4160
 url: /net/aspose.words.properties/customdocumentproperties/
@@ -26,11 +26,11 @@ public class CustomDocumentProperties : DocumentPropertyCollection
 
 | Name | Description |
 | --- | --- |
-| [Add](../../aspose.words.properties/customdocumentproperties/add)(string, bool) | Creates a new custom document property of the **PropertyType.Boolean** data type. |
-| [Add](../../aspose.words.properties/customdocumentproperties/add)(string, DateTime) | Creates a new custom document property of the **PropertyType.DateTime** data type. |
-| [Add](../../aspose.words.properties/customdocumentproperties/add)(string, double) | Creates a new custom document property of the **PropertyType.Float** data type. |
-| [Add](../../aspose.words.properties/customdocumentproperties/add)(string, int) | Creates a new custom document property of the **PropertyType.Number** data type. |
-| [Add](../../aspose.words.properties/customdocumentproperties/add)(string, string) | Creates a new custom document property of the **PropertyType.String** data type. |
+| [Add](../../aspose.words.properties/customdocumentproperties/add#add)(string, bool) | Creates a new custom document property of the **PropertyType.Boolean** data type. |
+| [Add](../../aspose.words.properties/customdocumentproperties/add#add_3)(string, DateTime) | Creates a new custom document property of the **PropertyType.DateTime** data type. |
+| [Add](../../aspose.words.properties/customdocumentproperties/add#add_1)(string, double) | Creates a new custom document property of the **PropertyType.Float** data type. |
+| [Add](../../aspose.words.properties/customdocumentproperties/add#add_2)(string, int) | Creates a new custom document property of the **PropertyType.Number** data type. |
+| [Add](../../aspose.words.properties/customdocumentproperties/add#add_4)(string, string) | Creates a new custom document property of the **PropertyType.String** data type. |
 | [AddLinkToContent](../../aspose.words.properties/customdocumentproperties/addlinktocontent)(string, string) | Creates a new linked to content custom document property. |
 | [Clear](../../aspose.words.properties/documentpropertycollection/clear)() | Removes all properties from the collection. |
 | [Contains](../../aspose.words.properties/documentpropertycollection/contains)(string) | Returns true if a property with the specified name exists in the collection. |

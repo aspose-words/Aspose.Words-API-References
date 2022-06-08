@@ -1,12 +1,12 @@
 ---
 title: Save
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Saves the current table substitution settings to file.
 type: docs
 weight: 70
 url: /net/aspose.words.fonts/tablesubstitutionrule/save/
 ---
-## TableSubstitutionRule.Save method (1 of 2)
+## Save(string) {#save_1}
 
 Saves the current table substitution settings to file.
 
@@ -62,7 +62,7 @@ using (FileStream fileStream = new FileStream(ArtifactsDir + "FontSettings.Table
 
 ---
 
-## TableSubstitutionRule.Save method (2 of 2)
+## Save(Stream) {#save}
 
 Saves the current table substitution settings to stream.
 

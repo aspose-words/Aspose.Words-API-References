@@ -1,7 +1,7 @@
 ---
 title: FontFamilyName
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Family name of the font.
 type: docs
 weight: 20
 url: /net/aspose.words.fonts/physicalfontinfo/fontfamilyname/

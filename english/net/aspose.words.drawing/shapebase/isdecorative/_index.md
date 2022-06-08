@@ -1,7 +1,7 @@
 ---
 title: IsDecorative
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets the flag that specifies whether the shape is decorative in the document.
 type: docs
 weight: 230
 url: /net/aspose.words.drawing/shapebase/isdecorative/

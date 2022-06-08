@@ -1,7 +1,7 @@
 ---
 title: Type
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets the Microsoft Word field type.
 type: docs
 weight: 100
 url: /net/aspose.words.fields/field/type/

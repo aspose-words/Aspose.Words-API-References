@@ -1,7 +1,7 @@
 ---
 title: IsSigned
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Indicates that signature line is signed by digital signature.
 type: docs
 weight: 60
 url: /net/aspose.words.drawing/signatureline/issigned/

@@ -1,7 +1,7 @@
 ---
 title: UseFELayout
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Do Not Bypass East Asian/Complex Script Layout Code.
 type: docs
 weight: 620
 url: /net/aspose.words.settings/compatibilityoptions/usefelayout/

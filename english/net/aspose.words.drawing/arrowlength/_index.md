@@ -1,7 +1,7 @@
 ---
 title: ArrowLength
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Length of the arrow at the end of a line.
 type: docs
 weight: 470
 url: /net/aspose.words.drawing/arrowlength/

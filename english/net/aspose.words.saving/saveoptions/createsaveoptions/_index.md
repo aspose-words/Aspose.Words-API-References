@@ -1,12 +1,12 @@
 ---
 title: CreateSaveOptions
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Creates a save options object of a class suitable for the specified save format.
 type: docs
 weight: 10
 url: /net/aspose.words.saving/saveoptions/createsaveoptions/
 ---
-## SaveOptions.CreateSaveOptions method (1 of 2)
+## CreateSaveOptions(SaveFormat) {#createsaveoptions}
 
 Creates a save options object of a class suitable for the specified save format.
 
@@ -50,7 +50,7 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.MemoryOptimization.pdf", saveOptions);
 
 ---
 
-## SaveOptions.CreateSaveOptions method (2 of 2)
+## CreateSaveOptions(string) {#createsaveoptions_1}
 
 Creates a save options object of a class suitable for the file extension specified in the given file name.
 

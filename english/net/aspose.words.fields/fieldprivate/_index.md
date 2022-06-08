@@ -1,7 +1,7 @@
 ---
 title: FieldPrivate
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Implements the PRIVATE field.
 type: docs
 weight: 2110
 url: /net/aspose.words.fields/fieldprivate/

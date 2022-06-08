@@ -1,12 +1,12 @@
 ---
 title: NodeImporter
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Initializes a new instance of the NodeImporteraspose.words/nodeimporter class.
 type: docs
 weight: 10
 url: /net/aspose.words/nodeimporter/nodeimporter/
 ---
-## NodeImporter constructor (1 of 2)
+## NodeImporter(DocumentBase, DocumentBase, ImportFormatMode) {#constructor}
 
 Initializes a new instance of the [`NodeImporter`](../../nodeimporter) class.
 
@@ -96,7 +96,7 @@ static void InsertDocument(Node insertionDestination, Document docToInsert)
 
 ---
 
-## NodeImporter constructor (2 of 2)
+## NodeImporter(DocumentBase, DocumentBase, ImportFormatMode, ImportFormatOptions) {#constructor_1}
 
 Initializes a new instance of the [`NodeImporter`](../../nodeimporter) class.
 

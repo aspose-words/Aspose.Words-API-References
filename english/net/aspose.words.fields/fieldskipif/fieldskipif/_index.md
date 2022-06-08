@@ -1,7 +1,7 @@
 ---
 title: FieldSkipIf
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: The default constructor.
 type: docs
 weight: 10
 url: /net/aspose.words.fields/fieldskipif/fieldskipif/

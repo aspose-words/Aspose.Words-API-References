@@ -1,12 +1,12 @@
 ---
 title: SdtListItem
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Initializes a new instance of this class.
 type: docs
 weight: 10
 url: /net/aspose.words.markup/sdtlistitem/sdtlistitem/
 ---
-## SdtListItem constructor (1 of 2)
+## SdtListItem(string, string) {#constructor_1}
 
 Initializes a new instance of this class.
 
@@ -76,7 +76,7 @@ Assert.AreEqual(0, listItems.Count);
 
 ---
 
-## SdtListItem constructor (2 of 2)
+## SdtListItem(string) {#constructor}
 
 Initializes a new instance of this class.
 

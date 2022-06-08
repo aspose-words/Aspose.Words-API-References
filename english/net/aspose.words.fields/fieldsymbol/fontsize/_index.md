@@ -1,7 +1,7 @@
 ---
 title: FontSize
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets the size in points of the font of the character retrieved by the field.
 type: docs
 weight: 50
 url: /net/aspose.words.fields/fieldsymbol/fontsize/

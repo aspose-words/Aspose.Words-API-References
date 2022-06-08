@@ -1,7 +1,7 @@
 ---
 title: NodeType
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Returns NodeType.Comment.
 type: docs
 weight: 80
 url: /net/aspose.words/comment/nodetype/

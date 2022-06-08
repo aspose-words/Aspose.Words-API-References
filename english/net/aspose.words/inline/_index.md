@@ -1,7 +1,7 @@
 ---
 title: Inline
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Base class for inline-level nodes that can have character formatting associated with them but cannot have child nodes of their own.
 type: docs
 weight: 3010
 url: /net/aspose.words/inline/

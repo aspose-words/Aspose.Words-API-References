@@ -1,12 +1,12 @@
 ---
 title: InsertOnlineVideo
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Inserts an online video object into the document and scales it to the specified size.
 type: docs
 weight: 390
 url: /net/aspose.words/documentbuilder/insertonlinevideo/
 ---
-## DocumentBuilder.InsertOnlineVideo method (1 of 4)
+## InsertOnlineVideo(string, double, double) {#insertonlinevideo_1}
 
 Inserts an online video object into the document and scales it to the specified size.
 
@@ -60,7 +60,7 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertVideoWithUrl.docx");
 
 ---
 
-## DocumentBuilder.InsertOnlineVideo method (2 of 4)
+## InsertOnlineVideo(string, RelativeHorizontalPosition, double, RelativeVerticalPosition, double, double, double, WrapType) {#insertonlinevideo}
 
 Inserts an online video object into the document and scales it to the specified size.
 
@@ -129,7 +129,7 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertOnlineVideo.docx");
 
 ---
 
-## DocumentBuilder.InsertOnlineVideo method (3 of 4)
+## InsertOnlineVideo(string, string, byte[], double, double) {#insertonlinevideo_3}
 
 Inserts an online video object into the document and scales it to the specified size.
 
@@ -202,7 +202,7 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertOnlineVideoCustomThumbnail.docx")
 
 ---
 
-## DocumentBuilder.InsertOnlineVideo method (4 of 4)
+## InsertOnlineVideo(string, string, byte[], RelativeHorizontalPosition, double, RelativeVerticalPosition, double, double, double, WrapType) {#insertonlinevideo_2}
 
 Inserts an online video object into the document and scales it to the specified size.
 

@@ -1,7 +1,7 @@
 ---
 title: StrikeThrough
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: True if the font is formatted as strikethrough text.
 type: docs
 weight: 390
 url: /net/aspose.words/font/strikethrough/

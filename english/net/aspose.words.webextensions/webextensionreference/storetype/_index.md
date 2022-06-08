@@ -1,7 +1,7 @@
 ---
 title: StoreType
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies the type of marketplace.
 type: docs
 weight: 40
 url: /net/aspose.words.webextensions/webextensionreference/storetype/

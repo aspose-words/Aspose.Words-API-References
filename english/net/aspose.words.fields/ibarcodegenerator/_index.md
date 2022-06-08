@@ -1,7 +1,7 @@
 ---
 title: IBarcodeGenerator
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Public interface for barcode custom generator. Implementation should be provided by user.
 type: docs
 weight: 2460
 url: /net/aspose.words.fields/ibarcodegenerator/

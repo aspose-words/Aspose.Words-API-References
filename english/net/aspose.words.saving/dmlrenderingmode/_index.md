@@ -1,7 +1,7 @@
 ---
 title: DmlRenderingMode
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies how DrawingML shapes are rendered to fixed page formats.
 type: docs
 weight: 4610
 url: /net/aspose.words.saving/dmlrenderingmode/

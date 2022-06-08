@@ -1,7 +1,7 @@
 ---
 title: SheetsPerBooklet
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Returns or sets the number of pages to be included in each booklet.
 type: docs
 weight: 390
 url: /net/aspose.words/pagesetup/sheetsperbooklet/

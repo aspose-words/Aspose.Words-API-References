@@ -1,7 +1,7 @@
 ---
 title: FieldEQ
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Implements the EQ field.
 type: docs
 weight: 1640
 url: /net/aspose.words.fields/fieldeq/

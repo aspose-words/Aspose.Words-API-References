@@ -1,7 +1,7 @@
 ---
 title: Stroked
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Defines whether the path will be stroked.
 type: docs
 weight: 200
 url: /net/aspose.words.drawing/shape/stroked/

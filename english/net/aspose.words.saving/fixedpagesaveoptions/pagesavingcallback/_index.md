@@ -1,7 +1,7 @@
 ---
 title: PageSavingCallback
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Allows to control how separate pages are saved when a document is exported to fixed page format.
 type: docs
 weight: 60
 url: /net/aspose.words.saving/fixedpagesaveoptions/pagesavingcallback/

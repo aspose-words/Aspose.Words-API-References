@@ -1,7 +1,7 @@
 ---
 title: ChartNumberFormat
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Represents number formatting of the parent element.
 type: docs
 weight: 720
 url: /net/aspose.words.drawing.charts/chartnumberformat/

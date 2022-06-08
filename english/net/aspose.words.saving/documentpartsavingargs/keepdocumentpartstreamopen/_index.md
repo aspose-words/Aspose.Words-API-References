@@ -1,7 +1,7 @@
 ---
 title: KeepDocumentPartStreamOpen
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies whether Aspose.Words should keep the stream open or close it after saving a document part.
 type: docs
 weight: 40
 url: /net/aspose.words.saving/documentpartsavingargs/keepdocumentpartstreamopen/

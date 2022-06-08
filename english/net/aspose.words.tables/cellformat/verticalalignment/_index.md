@@ -1,7 +1,7 @@
 ---
 title: VerticalAlignment
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Returns or sets the vertical alignment of text in the cell.
 type: docs
 weight: 110
 url: /net/aspose.words.tables/cellformat/verticalalignment/

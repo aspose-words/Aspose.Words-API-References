@@ -1,7 +1,7 @@
 ---
 title: AcceptAllRevisions
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Accepts all tracked changes in the document.
 type: docs
 weight: 500
 url: /net/aspose.words/document/acceptallrevisions/

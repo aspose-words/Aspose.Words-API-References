@@ -1,7 +1,7 @@
 ---
 title: SetPassword
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Sets the write protection password for the document.
 type: docs
 weight: 30
 url: /net/aspose.words.settings/writeprotection/setpassword/

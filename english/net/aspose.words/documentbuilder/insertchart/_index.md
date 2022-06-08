@@ -1,12 +1,12 @@
 ---
 title: InsertChart
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Inserts an chart object into the document and scales it to the specified size.
 type: docs
 weight: 260
 url: /net/aspose.words/documentbuilder/insertchart/
 ---
-## DocumentBuilder.InsertChart method (1 of 2)
+## InsertChart(ChartType, double, double) {#insertchart_1}
 
 Inserts an chart object into the document and scales it to the specified size.
 
@@ -55,7 +55,7 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertPieChart.docx");
 
 ---
 
-## DocumentBuilder.InsertChart method (2 of 2)
+## InsertChart(ChartType, RelativeHorizontalPosition, double, RelativeVerticalPosition, double, double, double, WrapType) {#insertchart}
 
 Inserts an chart object into the document and scales it to the specified size.
 

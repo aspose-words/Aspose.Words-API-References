@@ -1,12 +1,12 @@
 ---
 title: ComparisonEvaluationResult
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Creates a comparison evaluation result.
 type: docs
 weight: 10
 url: /net/aspose.words.fields/comparisonevaluationresult/comparisonevaluationresult/
 ---
-## ComparisonEvaluationResult constructor (1 of 2)
+## ComparisonEvaluationResult(bool) {#constructor}
 
 Creates a comparison evaluation result.
 
@@ -103,7 +103,7 @@ private class ComparisonExpressionEvaluator : IComparisonExpressionEvaluator
 
 ---
 
-## ComparisonEvaluationResult constructor (2 of 2)
+## ComparisonEvaluationResult(string) {#constructor_1}
 
 Creates a failed comparison evaluation result with the corresponding error message.
 

@@ -1,7 +1,7 @@
 ---
 title: GetChildNodes
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Returns a live collection of child nodes that match the specified types.
 type: docs
 weight: 210
 url: /net/aspose.words.markup/structureddocumenttagrangestart/getchildnodes/

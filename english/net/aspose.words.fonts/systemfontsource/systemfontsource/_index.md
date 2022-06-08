@@ -1,12 +1,12 @@
 ---
 title: SystemFontSource
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Ctor.
 type: docs
 weight: 10
 url: /net/aspose.words.fonts/systemfontsource/systemfontsource/
 ---
-## SystemFontSource constructor (1 of 2)
+## SystemFontSource() {#constructor}
 
 Ctor.
 
@@ -75,7 +75,7 @@ Assert.AreEqual(1,
 
 ---
 
-## SystemFontSource constructor (2 of 2)
+## SystemFontSource(int) {#constructor_1}
 
 Ctor.
 

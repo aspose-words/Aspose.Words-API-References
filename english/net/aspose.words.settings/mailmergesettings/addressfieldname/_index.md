@@ -1,7 +1,7 @@
 ---
 title: AddressFieldName
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies the column within the data source that contains e-mail addresses. The default value is an empty string.
 type: docs
 weight: 30
 url: /net/aspose.words.settings/mailmergesettings/addressfieldname/

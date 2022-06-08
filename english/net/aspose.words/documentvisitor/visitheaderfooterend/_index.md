@@ -1,7 +1,7 @@
 ---
 title: VisitHeaderFooterEnd
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Called when enumeration of a header or footer in a section has ended.
 type: docs
 weight: 280
 url: /net/aspose.words/documentvisitor/visitheaderfooterend/

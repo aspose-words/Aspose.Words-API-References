@@ -1,7 +1,7 @@
 ---
 title: SpaceAfterAuto
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: True if the amount of spacing after the paragraph is set automatically.
 type: docs
 weight: 300
 url: /net/aspose.words/paragraphformat/spaceafterauto/

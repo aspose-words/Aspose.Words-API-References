@@ -1,12 +1,12 @@
 ---
 title: Equals
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Determines whether the specified PreferredWidth is equal in value to the current PreferredWidth.
 type: docs
 weight: 60
 url: /net/aspose.words.tables/preferredwidth/equals/
 ---
-## PreferredWidth.Equals method (1 of 2)
+## Equals(PreferredWidth) {#equals}
 
 Determines whether the specified PreferredWidth is equal in value to the current PreferredWidth.
 
@@ -59,7 +59,7 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertCellsWithPreferredWidths.docx");
 
 ---
 
-## PreferredWidth.Equals method (2 of 2)
+## Equals(object) {#equals_1}
 
 Determines whether the specified object is equal in value to the current object.
 

@@ -1,7 +1,7 @@
 ---
 title: RunSubentriesOnSameLine
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets whether run subentries into the same line as the main entry.
 type: docs
 weight: 140
 url: /net/aspose.words.fields/fieldindex/runsubentriesonsameline/

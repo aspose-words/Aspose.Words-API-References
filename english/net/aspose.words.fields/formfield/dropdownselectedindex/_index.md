@@ -1,7 +1,7 @@
 ---
 title: DropDownSelectedIndex
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets the index specifying the currently selected item in a dropdown form field.
 type: docs
 weight: 60
 url: /net/aspose.words.fields/formfield/dropdownselectedindex/

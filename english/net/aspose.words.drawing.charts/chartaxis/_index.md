@@ -1,7 +1,7 @@
 ---
 title: ChartAxis
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Represents the axis options of the chart.
 type: docs
 weight: 610
 url: /net/aspose.words.drawing.charts/chartaxis/

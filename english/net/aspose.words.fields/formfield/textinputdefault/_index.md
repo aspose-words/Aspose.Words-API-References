@@ -1,7 +1,7 @@
 ---
 title: TextInputDefault
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets the default string or a calculation expression of a text form field.
 type: docs
 weight: 190
 url: /net/aspose.words.fields/formfield/textinputdefault/

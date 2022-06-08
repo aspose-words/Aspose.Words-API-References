@@ -1,7 +1,7 @@
 ---
 title: NameBi
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Returns or sets the name of the font in a right-to-left language document.
 type: docs
 weight: 250
 url: /net/aspose.words/font/namebi/

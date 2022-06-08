@@ -1,7 +1,7 @@
 ---
 title: ExportEmbeddedFonts
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies whether fonts should be embedded into Html document in Base64 format. Note setting this flag can significantly increase size of output Html file.
 type: docs
 weight: 50
 url: /net/aspose.words.saving/htmlfixedsaveoptions/exportembeddedfonts/

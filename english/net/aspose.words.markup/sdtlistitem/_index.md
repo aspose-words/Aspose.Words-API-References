@@ -1,7 +1,7 @@
 ---
 title: SdtListItem
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: This element specifies a single list item within a parent ComboBox or DropDownList structured document tag.
 type: docs
 weight: 3730
 url: /net/aspose.words.markup/sdtlistitem/
@@ -18,8 +18,8 @@ public class SdtListItem
 
 | Name | Description |
 | --- | --- |
-| [SdtListItem](sdtlistitem)(string) | Initializes a new instance of this class. |
-| [SdtListItem](sdtlistitem)(string, string) | Initializes a new instance of this class. |
+| [SdtListItem](sdtlistitem#constructor)(string) | Initializes a new instance of this class. |
+| [SdtListItem](sdtlistitem#constructor_1)(string, string) | Initializes a new instance of this class. |
 
 ## Properties
 

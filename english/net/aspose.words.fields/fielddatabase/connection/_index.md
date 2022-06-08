@@ -1,7 +1,7 @@
 ---
 title: Connection
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets a connection to the data.
 type: docs
 weight: 20
 url: /net/aspose.words.fields/fielddatabase/connection/

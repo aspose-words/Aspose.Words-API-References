@@ -1,7 +1,7 @@
 ---
 title: ExportCidUrlsForMhtmlResources
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies whether to use CID Content-ID URLs to reference resources images fonts CSS included in MHTML documents. Default value is false.
 type: docs
 weight: 120
 url: /net/aspose.words.saving/htmlsaveoptions/exportcidurlsformhtmlresources/

@@ -1,7 +1,7 @@
 ---
 title: ImageFieldMerging
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Called when the Aspose.Words mail merge engine is about to insert an image into a merge field.
 type: docs
 weight: 20
 url: /net/aspose.words.mailmerging/ifieldmergingcallback/imagefieldmerging/

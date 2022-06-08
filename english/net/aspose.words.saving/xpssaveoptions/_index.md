@@ -1,7 +1,7 @@
 ---
 title: XpsSaveOptions
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Can be used to specify additional options when saving a document into the Xps format.
 type: docs
 weight: 5380
 url: /net/aspose.words.saving/xpssaveoptions/
@@ -18,8 +18,8 @@ public class XpsSaveOptions : FixedPageSaveOptions
 
 | Name | Description |
 | --- | --- |
-| [XpsSaveOptions](xpssaveoptions)() | Initializes a new instance of this class that can be used to save a document in the Xps format. |
-| [XpsSaveOptions](xpssaveoptions)(SaveFormat) | Initializes a new instance of this class that can be used to save a document in the Xps or OpenXps format. |
+| [XpsSaveOptions](xpssaveoptions#constructor)() | Initializes a new instance of this class that can be used to save a document in the Xps format. |
+| [XpsSaveOptions](xpssaveoptions#constructor_1)(SaveFormat) | Initializes a new instance of this class that can be used to save a document in the Xps or OpenXps format. |
 
 ## Properties
 

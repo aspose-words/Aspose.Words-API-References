@@ -1,7 +1,7 @@
 ---
 title: ZoomBehavior
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets a value determining what type of zoom should be applied when a document is opened with a PDF viewer.
 type: docs
 weight: 290
 url: /net/aspose.words.saving/pdfsaveoptions/zoombehavior/

@@ -1,7 +1,7 @@
 ---
 title: Version
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Represents the version number of the application that created the document.
 type: docs
 weight: 320
 url: /net/aspose.words.properties/builtindocumentproperties/version/

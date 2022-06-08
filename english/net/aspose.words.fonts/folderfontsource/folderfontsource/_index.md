@@ -1,12 +1,12 @@
 ---
 title: FolderFontSource
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Ctor.
 type: docs
 weight: 10
 url: /net/aspose.words.fonts/folderfontsource/folderfontsource/
 ---
-## FolderFontSource constructor (1 of 2)
+## FolderFontSource(string, bool) {#constructor}
 
 Ctor.
 
@@ -45,7 +45,7 @@ Assert.AreEqual(1, folderFontSource.Priority);
 
 ---
 
-## FolderFontSource constructor (2 of 2)
+## FolderFontSource(string, bool, int) {#constructor_1}
 
 Ctor.
 

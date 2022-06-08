@@ -1,7 +1,7 @@
 ---
 title: Author
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets the name of the documents author.
 type: docs
 weight: 10
 url: /net/aspose.words.properties/builtindocumentproperties/author/

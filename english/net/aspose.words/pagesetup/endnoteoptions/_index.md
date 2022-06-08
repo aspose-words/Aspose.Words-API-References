@@ -1,7 +1,7 @@
 ---
 title: EndnoteOptions
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Provides options that control numbering and positioning of endnotes in this section.
 type: docs
 weight: 120
 url: /net/aspose.words/pagesetup/endnoteoptions/

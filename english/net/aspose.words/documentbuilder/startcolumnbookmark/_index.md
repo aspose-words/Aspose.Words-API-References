@@ -1,7 +1,7 @@
 ---
 title: StartColumnBookmark
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Marks the current position in the document as a column bookmark start. The position must be in a table cell.
 type: docs
 weight: 590
 url: /net/aspose.words/documentbuilder/startcolumnbookmark/

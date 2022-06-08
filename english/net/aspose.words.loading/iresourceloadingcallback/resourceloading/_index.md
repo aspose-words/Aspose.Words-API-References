@@ -1,7 +1,7 @@
 ---
 title: ResourceLoading
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Called when Aspose.Words loads any external resource.
 type: docs
 weight: 10
 url: /net/aspose.words.loading/iresourceloadingcallback/resourceloading/

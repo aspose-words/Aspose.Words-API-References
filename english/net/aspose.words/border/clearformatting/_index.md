@@ -1,7 +1,7 @@
 ---
 title: ClearFormatting
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Resets border properties to default values.
 type: docs
 weight: 70
 url: /net/aspose.words/border/clearformatting/

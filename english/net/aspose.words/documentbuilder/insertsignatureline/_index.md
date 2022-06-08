@@ -1,12 +1,12 @@
 ---
 title: InsertSignatureLine
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Inserts a signature line at the current position.
 type: docs
 weight: 420
 url: /net/aspose.words/documentbuilder/insertsignatureline/
 ---
-## DocumentBuilder.InsertSignatureLine method (1 of 2)
+## InsertSignatureLine(SignatureLineOptions) {#insertsignatureline}
 
 Inserts a signature line at the current position.
 
@@ -82,7 +82,7 @@ Assert.True(signatureLine.IsValid);
 
 ---
 
-## DocumentBuilder.InsertSignatureLine method (2 of 2)
+## InsertSignatureLine(SignatureLineOptions, RelativeHorizontalPosition, double, RelativeVerticalPosition, double, WrapType) {#insertsignatureline_1}
 
 Inserts a signature line at the specified position.
 

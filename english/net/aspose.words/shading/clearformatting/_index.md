@@ -1,7 +1,7 @@
 ---
 title: ClearFormatting
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Removes shading from the object.
 type: docs
 weight: 40
 url: /net/aspose.words/shading/clearformatting/

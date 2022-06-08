@@ -1,7 +1,7 @@
 ---
 title: IsClear
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Returns true if this tab stop clears any existing tab stops in this position.
 type: docs
 weight: 30
 url: /net/aspose.words/tabstop/isclear/

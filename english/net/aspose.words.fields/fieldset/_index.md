@@ -1,7 +1,7 @@
 ---
 title: FieldSet
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Implements the SET field.
 type: docs
 weight: 2210
 url: /net/aspose.words.fields/fieldset/

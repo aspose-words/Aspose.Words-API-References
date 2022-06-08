@@ -1,7 +1,7 @@
 ---
 title: Name
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets the name of this building block.
 type: docs
 weight: 90
 url: /net/aspose.words.buildingblocks/buildingblock/name/

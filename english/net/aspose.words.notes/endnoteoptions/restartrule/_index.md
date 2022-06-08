@@ -1,7 +1,7 @@
 ---
 title: RestartRule
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Determines when automatic numbering restarts.
 type: docs
 weight: 30
 url: /net/aspose.words.notes/endnoteoptions/restartrule/

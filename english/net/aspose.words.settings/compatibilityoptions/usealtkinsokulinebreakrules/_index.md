@@ -1,7 +1,7 @@
 ---
 title: UseAltKinsokuLineBreakRules
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Use Alternate Set of East Asian Line Breaking Rules.
 type: docs
 weight: 600
 url: /net/aspose.words.settings/compatibilityoptions/usealtkinsokulinebreakrules/

@@ -1,7 +1,7 @@
 ---
 title: RemoveAllReplies
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Removes all replies to this comment.
 type: docs
 weight: 130
 url: /net/aspose.words/comment/removeallreplies/

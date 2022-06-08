@@ -1,7 +1,7 @@
 ---
 title: WrapSide
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies how the text is wrapped around the shape.
 type: docs
 weight: 520
 url: /net/aspose.words.drawing/shapebase/wrapside/

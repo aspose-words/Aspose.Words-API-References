@@ -1,7 +1,7 @@
 ---
 title: LineFeed
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Line feed character x000a or n. Same as Lfaspose.words/controlchar/lf.
 type: docs
 weight: 140
 url: /net/aspose.words/controlchar/linefeed/

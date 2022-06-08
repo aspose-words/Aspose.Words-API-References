@@ -1,7 +1,7 @@
 ---
 title: Style
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets the paragraph style applied to this formatting.
 type: docs
 weight: 330
 url: /net/aspose.words/paragraphformat/style/

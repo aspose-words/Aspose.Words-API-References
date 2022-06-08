@@ -1,7 +1,7 @@
 ---
 title: RemoveAt
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Removes a structured document tag at the specified index.
 type: docs
 weight: 80
 url: /net/aspose.words.markup/structureddocumenttagcollection/removeat/

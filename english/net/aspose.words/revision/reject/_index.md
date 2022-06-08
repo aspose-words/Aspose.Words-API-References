@@ -1,7 +1,7 @@
 ---
 title: Reject
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Reject this revision.
 type: docs
 weight: 80
 url: /net/aspose.words/revision/reject/

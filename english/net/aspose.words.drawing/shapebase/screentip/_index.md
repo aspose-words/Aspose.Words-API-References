@@ -1,7 +1,7 @@
 ---
 title: ScreenTip
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Defines the text displayed when the mouse pointer moves over the shape.
 type: docs
 weight: 440
 url: /net/aspose.words.drawing/shapebase/screentip/

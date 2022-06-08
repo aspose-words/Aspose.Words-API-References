@@ -1,7 +1,7 @@
 ---
 title: SdtType
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies the type of a structured document tag SDT node.
 type: docs
 weight: 3750
 url: /net/aspose.words.markup/sdttype/

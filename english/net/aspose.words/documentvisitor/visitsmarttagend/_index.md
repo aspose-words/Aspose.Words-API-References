@@ -1,7 +1,7 @@
 ---
 title: VisitSmartTagEnd
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Called when enumeration of a smart tag has ended.
 type: docs
 weight: 410
 url: /net/aspose.words/documentvisitor/visitsmarttagend/

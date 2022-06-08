@@ -1,7 +1,7 @@
 ---
 title: RightExpression
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets the right expression.
 type: docs
 weight: 30
 url: /net/aspose.words.fields/comparisonexpression/rightexpression/

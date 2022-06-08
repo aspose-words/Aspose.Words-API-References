@@ -1,12 +1,12 @@
 ---
 title: GetFieldCode
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Returns text between field start and field separator or field end if there is no separator. Both field code and field result of child fields are included.
 type: docs
 weight: 110
 url: /net/aspose.words.fields/field/getfieldcode/
 ---
-## Field.GetFieldCode method (1 of 2)
+## GetFieldCode() {#getfieldcode}
 
 Returns text between field start and field separator (or field end if there is no separator). Both field code and field result of child fields are included.
 
@@ -58,7 +58,7 @@ Assert.AreEqual(fieldIf.GetFieldCode(), fieldIf.GetFieldCode(true));
 
 ---
 
-## Field.GetFieldCode method (2 of 2)
+## GetFieldCode(bool) {#getfieldcode_1}
 
 Returns text between field start and field separator (or field end if there is no separator).
 

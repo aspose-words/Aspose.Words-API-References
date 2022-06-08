@@ -1,7 +1,7 @@
 ---
 title: DefaultFontName
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets the default font name.
 type: docs
 weight: 10
 url: /net/aspose.words.fonts/defaultfontsubstitutionrule/defaultfontname/

@@ -1,7 +1,7 @@
 ---
 title: Remove
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Removes the specified module from the collection.
 type: docs
 weight: 40
 url: /net/aspose.words.vba/vbamodulecollection/remove/

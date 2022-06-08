@@ -1,7 +1,7 @@
 ---
 title: Borders
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets collection of borders of the cell.
 type: docs
 weight: 10
 url: /net/aspose.words.tables/cellformat/borders/

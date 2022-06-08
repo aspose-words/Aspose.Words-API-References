@@ -1,7 +1,7 @@
 ---
 title: IgnoreCaseChanges
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: True indicates that documents comparison is case insensitive. By default comparison is case sensitive.
 type: docs
 weight: 30
 url: /net/aspose.words.comparing/compareoptions/ignorecasechanges/

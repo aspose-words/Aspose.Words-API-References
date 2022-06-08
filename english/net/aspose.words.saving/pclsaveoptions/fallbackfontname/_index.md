@@ -1,7 +1,7 @@
 ---
 title: FallbackFontName
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Name of the font that will be used if no expected font is found in printer and built-in fonts collections.
 type: docs
 weight: 20
 url: /net/aspose.words.saving/pclsaveoptions/fallbackfontname/

@@ -1,7 +1,7 @@
 ---
 title: Id
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets the string that identifies this custom XML part within an OOXML document.
 type: docs
 weight: 40
 url: /net/aspose.words.markup/customxmlpart/id/

@@ -1,7 +1,7 @@
 ---
 title: Tag
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies a tag associated with the current SDT node. Can not be null.
 type: docs
 weight: 100
 url: /net/aspose.words.markup/istructureddocumenttag/tag/

@@ -1,7 +1,7 @@
 ---
 title: BackgroundPatternColor
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets the color thats applied to the background of the Shading object.
 type: docs
 weight: 10
 url: /net/aspose.words/shading/backgroundpatterncolor/

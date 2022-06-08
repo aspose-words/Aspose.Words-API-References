@@ -1,7 +1,7 @@
 ---
 title: AxisZ
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Provides access to properties of the Z axis of the chart.
 type: docs
 weight: 30
 url: /net/aspose.words.drawing.charts/chart/axisz/

@@ -1,7 +1,7 @@
 ---
 title: ShowLegendKey
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Allows to specify whether legend key is to be displayed for the data labels of the entire series. Default value is false.
 type: docs
 weight: 90
 url: /net/aspose.words.drawing.charts/chartdatalabelcollection/showlegendkey/

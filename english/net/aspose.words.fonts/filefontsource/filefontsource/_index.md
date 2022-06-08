@@ -1,12 +1,12 @@
 ---
 title: FileFontSource
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Ctor.
 type: docs
 weight: 10
 url: /net/aspose.words.fonts/filefontsource/filefontsource/
 ---
-## FileFontSource constructor (1 of 3)
+## FileFontSource(string) {#constructor}
 
 Ctor.
 
@@ -42,7 +42,7 @@ Assert.AreEqual(0, fileFontSource.Priority);
 
 ---
 
-## FileFontSource constructor (2 of 3)
+## FileFontSource(string, int) {#constructor_1}
 
 Ctor.
 
@@ -79,7 +79,7 @@ Assert.AreEqual(0, fileFontSource.Priority);
 
 ---
 
-## FileFontSource constructor (3 of 3)
+## FileFontSource(string, int, string) {#constructor_2}
 
 Ctor.
 

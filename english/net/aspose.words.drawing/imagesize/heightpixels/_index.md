@@ -1,7 +1,7 @@
 ---
 title: HeightPixels
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets the height of the image in pixels.
 type: docs
 weight: 20
 url: /net/aspose.words.drawing/imagesize/heightpixels/

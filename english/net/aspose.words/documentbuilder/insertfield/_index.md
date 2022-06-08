@@ -1,12 +1,12 @@
 ---
 title: InsertField
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Inserts a Word field into a document and optionally updates the field result.
 type: docs
 weight: 300
 url: /net/aspose.words/documentbuilder/insertfield/
 ---
-## DocumentBuilder.InsertField method (1 of 3)
+## InsertField(FieldType, bool) {#insertfield}
 
 Inserts a Word field into a document and optionally updates the field result.
 
@@ -79,7 +79,7 @@ else
 
 ---
 
-## DocumentBuilder.InsertField method (2 of 3)
+## InsertField(string) {#insertfield_1}
 
 Inserts a Word field into a document and updates the field result.
 
@@ -149,7 +149,7 @@ doc.Save(ArtifactsDir + "DocumentBuilder.MergeFields.docx");
 
 ---
 
-## DocumentBuilder.InsertField method (3 of 3)
+## InsertField(string, string) {#insertfield_2}
 
 Inserts a Word field into a document without updating the field result.
 

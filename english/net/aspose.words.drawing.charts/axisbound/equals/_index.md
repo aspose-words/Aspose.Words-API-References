@@ -1,7 +1,7 @@
 ---
 title: Equals
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Determines whether the specified object is equal in value to the current object.
 type: docs
 weight: 50
 url: /net/aspose.words.drawing.charts/axisbound/equals/

@@ -1,7 +1,7 @@
 ---
 title: Remove
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Removes the structured document tag with the specified identifier.
 type: docs
 weight: 70
 url: /net/aspose.words.markup/structureddocumenttagcollection/remove/

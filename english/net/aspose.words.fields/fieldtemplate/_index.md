@@ -1,7 +1,7 @@
 ---
 title: FieldTemplate
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Implements the TEMPLATE field.
 type: docs
 weight: 2300
 url: /net/aspose.words.fields/fieldtemplate/

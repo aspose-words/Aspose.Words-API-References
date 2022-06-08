@@ -1,7 +1,7 @@
 ---
 title: ShowPercentage
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Allows to specify if percentage value is to be displayed for the data labels on a chart. Default value is false.
 type: docs
 weight: 110
 url: /net/aspose.words.drawing.charts/chartdatalabel/showpercentage/

@@ -1,7 +1,7 @@
 ---
 title: FontResourcesSubsettingSizeThreshold
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Controls which font resources need subsetting when saving to HTML MHTML or EPUB. Default is 0.
 type: docs
 weight: 300
 url: /net/aspose.words.saving/htmlsaveoptions/fontresourcessubsettingsizethreshold/

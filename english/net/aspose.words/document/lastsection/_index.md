@@ -1,7 +1,7 @@
 ---
 title: LastSection
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets the last section in the document.
 type: docs
 weight: 220
 url: /net/aspose.words/document/lastsection/

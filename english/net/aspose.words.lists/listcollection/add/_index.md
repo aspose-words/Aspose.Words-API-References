@@ -1,12 +1,12 @@
 ---
 title: Add
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Creates a new list based on a predefined template and adds it to the collection of lists in the document.
 type: docs
 weight: 40
 url: /net/aspose.words.lists/listcollection/add/
 ---
-## ListCollection.Add method (1 of 2)
+## Add(ListTemplate) {#add}
 
 Creates a new list based on a predefined template and adds it to the collection of lists in the document.
 
@@ -152,7 +152,7 @@ doc.Save(ArtifactsDir + "Lists.SpecifyListLevel.docx");
 
 ---
 
-## ListCollection.Add method (2 of 2)
+## Add(Style) {#add_1}
 
 Creates a new list that references a list style and adds it to the collection of lists in the document.
 

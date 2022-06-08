@@ -1,7 +1,7 @@
 ---
 title: ListLabel
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Defines properties specific to a list label.
 type: docs
 weight: 3240
 url: /net/aspose.words.lists/listlabel/

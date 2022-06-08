@@ -1,7 +1,7 @@
 ---
 title: InsertStyleSeparator
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Inserts style separator into the document.
 type: docs
 weight: 430
 url: /net/aspose.words/documentbuilder/insertstyleseparator/

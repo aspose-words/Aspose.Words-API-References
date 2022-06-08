@@ -1,7 +1,7 @@
 ---
 title: UseAntiAliasing
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets a value determining whether or not to use anti-aliasing for rendering.
 type: docs
 weight: 210
 url: /net/aspose.words.saving/saveoptions/useantialiasing/

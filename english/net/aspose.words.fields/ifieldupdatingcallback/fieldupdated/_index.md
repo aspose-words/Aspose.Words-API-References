@@ -1,7 +1,7 @@
 ---
 title: FieldUpdated
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: A user defined method that is called just after a field is updated.
 type: docs
 weight: 10
 url: /net/aspose.words.fields/ifieldupdatingcallback/fieldupdated/

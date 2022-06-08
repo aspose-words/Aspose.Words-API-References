@@ -1,7 +1,7 @@
 ---
 title: NodeType
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Returns NodeType.FormField.
 type: docs
 weight: 140
 url: /net/aspose.words.fields/formfield/nodetype/

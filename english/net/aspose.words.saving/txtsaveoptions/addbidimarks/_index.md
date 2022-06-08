@@ -1,7 +1,7 @@
 ---
 title: AddBidiMarks
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies whether to add bi-directional marks before each BiDi run when exporting in plain text format.
 type: docs
 weight: 20
 url: /net/aspose.words.saving/txtsaveoptions/addbidimarks/

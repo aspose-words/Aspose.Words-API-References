@@ -1,7 +1,7 @@
 ---
 title: CustomXmlPart
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Returns the custom XML data part to which the parent structured document tag is mapped.
 type: docs
 weight: 10
 url: /net/aspose.words.markup/xmlmapping/customxmlpart/

@@ -1,7 +1,7 @@
 ---
 title: VerticalAlignment
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets vertical alignment of the specified frame.
 type: docs
 weight: 90
 url: /net/aspose.words/frameformat/verticalalignment/

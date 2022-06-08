@@ -1,7 +1,7 @@
 ---
 title: IsLastCell
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: True if this is the last cell inside a row false otherwise.
 type: docs
 weight: 50
 url: /net/aspose.words.tables/cell/islastcell/

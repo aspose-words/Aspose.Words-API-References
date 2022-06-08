@@ -1,7 +1,7 @@
 ---
 title: NormalizeFieldTypes
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Changes field type values FieldTypeaspose.words.fields/fieldchar/fieldtype of FieldStartaspose.words.fields/fieldstart FieldSeparatoraspose.words.fields/fieldseparator FieldEndaspose.words.fields/fieldend in this range so that they correspond to the field types contained in the field codes.
 type: docs
 weight: 70
 url: /net/aspose.words/range/normalizefieldtypes/

@@ -1,7 +1,7 @@
 ---
 title: Position
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies the position of the legend on a chart. Default value is Right.
 type: docs
 weight: 30
 url: /net/aspose.words.drawing.charts/chartlegend/position/

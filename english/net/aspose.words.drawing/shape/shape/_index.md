@@ -1,7 +1,7 @@
 ---
 title: Shape
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Creates a new shape object.
 type: docs
 weight: 10
 url: /net/aspose.words.drawing/shape/shape/

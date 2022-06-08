@@ -1,7 +1,7 @@
 ---
 title: Clear
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Clears all items from this collection.
 type: docs
 weight: 50
 url: /net/aspose.words.markup/sdtlistitemcollection/clear/

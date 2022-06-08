@@ -1,7 +1,7 @@
 ---
 title: CompatibilityOptions
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Provides access to document compatibility options that is the user preferences entered on the Compatibility tab of the Options dialog in Word.
 type: docs
 weight: 50
 url: /net/aspose.words/document/compatibilityoptions/

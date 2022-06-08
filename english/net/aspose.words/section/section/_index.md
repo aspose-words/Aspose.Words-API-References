@@ -1,7 +1,7 @@
 ---
 title: Section
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Initializes a new instance of the Section class.
 type: docs
 weight: 10
 url: /net/aspose.words/section/section/

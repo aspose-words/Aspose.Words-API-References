@@ -1,12 +1,12 @@
 ---
 title: ImportNode
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Imports a node from another document to the current document.
 type: docs
 weight: 100
 url: /net/aspose.words/documentbase/importnode/
 ---
-## DocumentBase.ImportNode method (1 of 2)
+## ImportNode(Node, bool) {#importnode}
 
 Imports a node from another document to the current document.
 
@@ -73,7 +73,7 @@ Assert.AreEqual("Destination document first paragraph text.\r\nSource document f
 
 ---
 
-## DocumentBase.ImportNode method (2 of 2)
+## ImportNode(Node, bool, ImportFormatMode) {#importnode_1}
 
 Imports a node from another document to the current document with an option to control formatting.
 

@@ -1,12 +1,12 @@
 ---
 title: AppendDocument
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Appends the specified document to the end of this document.
 type: docs
 weight: 510
 url: /net/aspose.words/document/appenddocument/
 ---
-## Document.AppendDocument method (1 of 2)
+## AppendDocument(Document, ImportFormatMode) {#appenddocument}
 
 Appends the specified document to the end of this document.
 
@@ -72,7 +72,7 @@ dstDoc.Save(ArtifactsDir + "Document.AppendAllDocumentsInFolder.doc");
 
 ---
 
-## Document.AppendDocument method (2 of 2)
+## AppendDocument(Document, ImportFormatMode, ImportFormatOptions) {#appenddocument_1}
 
 Appends the specified document to the end of this document.
 

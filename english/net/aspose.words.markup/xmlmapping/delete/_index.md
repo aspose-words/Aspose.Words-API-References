@@ -1,7 +1,7 @@
 ---
 title: Delete
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Deletes mapping of the parent structured document to XML data.
 type: docs
 weight: 60
 url: /net/aspose.words.markup/xmlmapping/delete/

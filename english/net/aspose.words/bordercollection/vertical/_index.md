@@ -1,7 +1,7 @@
 ---
 title: Vertical
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets the vertical border that is used between cells.
 type: docs
 weight: 130
 url: /net/aspose.words/bordercollection/vertical/

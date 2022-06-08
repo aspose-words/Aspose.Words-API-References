@@ -1,7 +1,7 @@
 ---
 title: VisitRun
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Called when a run of text in the is encountered.
 type: docs
 weight: 360
 url: /net/aspose.words/documentvisitor/visitrun/

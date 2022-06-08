@@ -1,7 +1,7 @@
 ---
 title: VisitAbsolutePositionTab
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Called when a AbsolutePositionTabaspose.words/absolutepositiontab node is encountered in the document.
 type: docs
 weight: 10
 url: /net/aspose.words/documentvisitor/visitabsolutepositiontab/

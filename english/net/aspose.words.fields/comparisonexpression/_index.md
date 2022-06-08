@@ -1,7 +1,7 @@
 ---
 title: ComparisonExpression
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: The comparison expression.
 type: docs
 weight: 1320
 url: /net/aspose.words.fields/comparisonexpression/

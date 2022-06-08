@@ -1,7 +1,7 @@
 ---
 title: InsertedTextColor
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Allows to specify the color to be used for inserted content Insertion. Default value is ByAuthor.
 type: docs
 weight: 40
 url: /net/aspose.words.layout/revisionoptions/insertedtextcolor/

@@ -1,7 +1,7 @@
 ---
 title: TextBoxAnchor
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies values used for shape text vertical alignment.
 type: docs
 weight: 1160
 url: /net/aspose.words.drawing/textboxanchor/

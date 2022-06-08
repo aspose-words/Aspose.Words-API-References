@@ -1,7 +1,7 @@
 ---
 title: CustomXmlPartCollection
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Represents a collection of Custom XML Parts. The items are CustomXmlPart./customxmlpart objects.
 type: docs
 weight: 3640
 url: /net/aspose.words.markup/customxmlpartcollection/
@@ -31,8 +31,8 @@ public class CustomXmlPartCollection : IEnumerable<CustomXmlPart>
 
 | Name | Description |
 | --- | --- |
-| [Add](../../aspose.words.markup/customxmlpartcollection/add)(CustomXmlPart) | Adds an item to the collection. |
-| [Add](../../aspose.words.markup/customxmlpartcollection/add)(string, string) | Creates a new XML part with the specified XML and adds it to the collection. |
+| [Add](../../aspose.words.markup/customxmlpartcollection/add#add_1)(CustomXmlPart) | Adds an item to the collection. |
+| [Add](../../aspose.words.markup/customxmlpartcollection/add#add)(string, string) | Creates a new XML part with the specified XML and adds it to the collection. |
 | [Clear](../../aspose.words.markup/customxmlpartcollection/clear)() | Removes all elements from the collection. |
 | [Clone](../../aspose.words.markup/customxmlpartcollection/clone)() | Makes a deep copy of this collection and its items. |
 | [GetById](../../aspose.words.markup/customxmlpartcollection/getbyid)(string) | Finds and returns a custom XML part by its identifier. |

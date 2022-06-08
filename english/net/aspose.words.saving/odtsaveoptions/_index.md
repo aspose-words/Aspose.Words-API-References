@@ -1,7 +1,7 @@
 ---
 title: OdtSaveOptions
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Can be used to specify additional options when saving a document into the Odt or Ott format.
 type: docs
 weight: 5000
 url: /net/aspose.words.saving/odtsaveoptions/
@@ -18,9 +18,9 @@ public class OdtSaveOptions : SaveOptions
 
 | Name | Description |
 | --- | --- |
-| [OdtSaveOptions](odtsaveoptions)() | Initializes a new instance of this class that can be used to save a document in the Odt format. |
-| [OdtSaveOptions](odtsaveoptions)(SaveFormat) | Initializes a new instance of this class that can be used to save a document in the Odt or Ott format. |
-| [OdtSaveOptions](odtsaveoptions)(string) | Initializes a new instance of this class that can be used to save a document in the Odt format encrypted with a password. |
+| [OdtSaveOptions](odtsaveoptions#constructor)() | Initializes a new instance of this class that can be used to save a document in the Odt format. |
+| [OdtSaveOptions](odtsaveoptions#constructor_1)(SaveFormat) | Initializes a new instance of this class that can be used to save a document in the Odt or Ott format. |
+| [OdtSaveOptions](odtsaveoptions#constructor_2)(string) | Initializes a new instance of this class that can be used to save a document in the Odt format encrypted with a password. |
 
 ## Properties
 

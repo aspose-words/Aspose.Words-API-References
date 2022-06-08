@@ -1,7 +1,7 @@
 ---
 title: IndexOf
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets the index of a property by name.
 type: docs
 weight: 60
 url: /net/aspose.words.properties/documentpropertycollection/indexof/

@@ -1,7 +1,7 @@
 ---
 title: Document
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets the document object that is currently being saved.
 type: docs
 weight: 20
 url: /net/aspose.words.saving/csssavingargs/document/

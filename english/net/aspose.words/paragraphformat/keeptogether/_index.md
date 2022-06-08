@@ -1,7 +1,7 @@
 ---
 title: KeepTogether
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: True if all lines in the paragraph are to remain on the same page.
 type: docs
 weight: 150
 url: /net/aspose.words/paragraphformat/keeptogether/

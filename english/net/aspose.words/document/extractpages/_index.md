@@ -1,7 +1,7 @@
 ---
 title: ExtractPages
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Returns the Documentaspose.words/document object representing specified range of pages.
 type: docs
 weight: 580
 url: /net/aspose.words/document/extractpages/

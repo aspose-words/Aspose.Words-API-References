@@ -1,12 +1,12 @@
 ---
 title: MoveParent
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Moves to the parent entity.
 type: docs
 weight: 130
 url: /net/aspose.words.layout/layoutenumerator/moveparent/
 ---
-## LayoutEnumerator.MoveParent method (1 of 2)
+## MoveParent() {#moveparent}
 
 Moves to the parent entity.
 
@@ -164,7 +164,7 @@ private static void PrintCurrentEntity(LayoutEnumerator layoutEnumerator, int in
 
 ---
 
-## LayoutEnumerator.MoveParent method (2 of 2)
+## MoveParent(LayoutEntityType) {#moveparent_1}
 
 Moves to the parent entity of the specified type.
 

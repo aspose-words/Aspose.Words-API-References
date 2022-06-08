@@ -1,7 +1,7 @@
 ---
 title: OfficeMathDisplayType
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies the display format type of the equation.
 type: docs
 weight: 3840
 url: /net/aspose.words.math/officemathdisplaytype/

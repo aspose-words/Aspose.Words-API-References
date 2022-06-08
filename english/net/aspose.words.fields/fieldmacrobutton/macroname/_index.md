@@ -1,7 +1,7 @@
 ---
 title: MacroName
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets the name of the macro or command to run.
 type: docs
 weight: 30
 url: /net/aspose.words.fields/fieldmacrobutton/macroname/

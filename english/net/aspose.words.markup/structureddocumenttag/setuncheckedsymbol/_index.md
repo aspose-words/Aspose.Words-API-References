@@ -1,7 +1,7 @@
 ---
 title: SetUncheckedSymbol
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Sets the symbol used to represent the unchecked state of a check box content control.
 type: docs
 weight: 360
 url: /net/aspose.words.markup/structureddocumenttag/setuncheckedsymbol/

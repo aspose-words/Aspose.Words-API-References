@@ -1,7 +1,7 @@
 ---
 title: TickMarkSpacing
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets the interval at which tick marks are drawn.
 type: docs
 weight: 250
 url: /net/aspose.words.drawing.charts/chartaxis/tickmarkspacing/

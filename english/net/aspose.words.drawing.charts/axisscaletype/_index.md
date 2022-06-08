@@ -1,7 +1,7 @@
 ---
 title: AxisScaleType
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies the possible scale types for an axis.
 type: docs
 weight: 550
 url: /net/aspose.words.drawing.charts/axisscaletype/

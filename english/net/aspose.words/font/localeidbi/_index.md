@@ -1,7 +1,7 @@
 ---
 title: LocaleIdBi
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets the locale identifier language of the formatted right-to-left characters.
 type: docs
 weight: 210
 url: /net/aspose.words/font/localeidbi/

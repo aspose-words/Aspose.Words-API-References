@@ -1,7 +1,7 @@
 ---
 title: BorderCollection
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: A collection of Border objects.
 type: docs
 weight: 80
 url: /net/aspose.words/bordercollection/
@@ -37,7 +37,7 @@ public sealed class BorderCollection : IEnumerable<Border>
 | Name | Description |
 | --- | --- |
 | [ClearFormatting](../../aspose.words/bordercollection/clearformatting)() | Removes all borders of an object. |
-| [Equals](../../aspose.words/bordercollection/equals)(BorderCollection) | Compares collections of borders. |
+| [Equals](../../aspose.words/bordercollection/equals#equals)(BorderCollection) | Compares collections of borders. |
 | [GetEnumerator](../../aspose.words/bordercollection/getenumerator)() | Returns an enumerator object that can be used to iterate over all borders in the collection. |
 
 ## Remarks

@@ -1,7 +1,7 @@
 ---
 title: OdsoFieldMappingType
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies the possible types used to indicate if a given mail merge field has been mapped to a column in the given external data source.
 type: docs
 weight: 5570
 url: /net/aspose.words.settings/odsofieldmappingtype/

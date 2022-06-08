@@ -1,7 +1,7 @@
 ---
 title: Modules
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Returns collection of VBA project modules.
 type: docs
 weight: 40
 url: /net/aspose.words.vba/vbaproject/modules/

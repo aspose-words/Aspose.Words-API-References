@@ -1,7 +1,7 @@
 ---
 title: AxisCategoryType
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies type of a category axis.
 type: docs
 weight: 520
 url: /net/aspose.words.drawing.charts/axiscategorytype/

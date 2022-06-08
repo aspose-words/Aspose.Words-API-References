@@ -1,7 +1,7 @@
 ---
 title: Title
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets the title caption of the current shape object.
 type: docs
 weight: 480
 url: /net/aspose.words.drawing/shapebase/title/

@@ -1,7 +1,7 @@
 ---
 title: Width
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies the default width value for this task pane instance.
 type: docs
 weight: 70
 url: /net/aspose.words.webextensions/taskpane/width/

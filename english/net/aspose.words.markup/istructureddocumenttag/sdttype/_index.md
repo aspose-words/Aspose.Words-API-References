@@ -1,7 +1,7 @@
 ---
 title: SdtType
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets type of this Structured document tag.
 type: docs
 weight: 90
 url: /net/aspose.words.markup/istructureddocumenttag/sdttype/

@@ -1,7 +1,7 @@
 ---
 title: IsLink
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Returns true if the image is linked to the shape when SourceFullNameaspose.words.drawing/imagedata/sourcefullname is specified.
 type: docs
 weight: 150
 url: /net/aspose.words.drawing/imagedata/islink/

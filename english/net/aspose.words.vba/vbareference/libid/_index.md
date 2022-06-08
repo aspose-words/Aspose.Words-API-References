@@ -1,7 +1,7 @@
 ---
 title: LibId
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets a string value containing the identifier of an Automation type library.
 type: docs
 weight: 10
 url: /net/aspose.words.vba/vbareference/libid/

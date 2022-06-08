@@ -1,7 +1,7 @@
 ---
 title: RegionStartTag
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets a mail merge region start tag.
 type: docs
 weight: 100
 url: /net/aspose.words.mailmerging/mailmerge/regionstarttag/

@@ -1,7 +1,7 @@
 ---
 title: Name
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Returns the name of region.
 type: docs
 weight: 40
 url: /net/aspose.words.mailmerging/mailmergeregioninfo/name/

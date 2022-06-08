@@ -1,7 +1,7 @@
 ---
 title: AxisCrosses
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies the possible crossing points for an axis.
 type: docs
 weight: 530
 url: /net/aspose.words.drawing.charts/axiscrosses/

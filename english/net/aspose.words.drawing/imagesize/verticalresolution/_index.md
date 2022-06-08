@@ -1,7 +1,7 @@
 ---
 title: VerticalResolution
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets the vertical resolution in DPI.
 type: docs
 weight: 50
 url: /net/aspose.words.drawing/imagesize/verticalresolution/

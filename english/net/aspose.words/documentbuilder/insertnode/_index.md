@@ -1,7 +1,7 @@
 ---
 title: InsertNode
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Inserts a text level node inside the current paragraph before the cursor.
 type: docs
 weight: 360
 url: /net/aspose.words/documentbuilder/insertnode/

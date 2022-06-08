@@ -1,7 +1,7 @@
 ---
 title: JoinStyle
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Defines the join style of a polyline.
 type: docs
 weight: 110
 url: /net/aspose.words.drawing/stroke/joinstyle/

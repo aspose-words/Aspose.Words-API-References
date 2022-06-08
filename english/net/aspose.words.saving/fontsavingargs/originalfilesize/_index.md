@@ -1,7 +1,7 @@
 ---
 title: OriginalFileSize
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets the original font file size.
 type: docs
 weight: 110
 url: /net/aspose.words.saving/fontsavingargs/originalfilesize/

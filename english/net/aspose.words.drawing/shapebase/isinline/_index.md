@@ -1,7 +1,7 @@
 ---
 title: IsInline
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: A quick way to determine if this shape is positioned inline with text.
 type: docs
 weight: 280
 url: /net/aspose.words.drawing/shapebase/isinline/

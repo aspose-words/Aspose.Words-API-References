@@ -1,7 +1,7 @@
 ---
 title: Delete
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Deletes all characters of the range.
 type: docs
 weight: 60
 url: /net/aspose.words/range/delete/

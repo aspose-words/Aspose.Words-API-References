@@ -1,7 +1,7 @@
 ---
 title: TextInputFormat
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Returns or sets the text formatting for a text form field.
 type: docs
 weight: 200
 url: /net/aspose.words.fields/formfield/textinputformat/

@@ -1,7 +1,7 @@
 ---
 title: PageNumber
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets a page number associated with the citation.
 type: docs
 weight: 40
 url: /net/aspose.words.fields/fieldcitation/pagenumber/

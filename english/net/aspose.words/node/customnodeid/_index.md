@@ -1,7 +1,7 @@
 ---
 title: CustomNodeId
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies custom node identifier.
 type: docs
 weight: 10
 url: /net/aspose.words/node/customnodeid/

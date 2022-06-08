@@ -1,7 +1,7 @@
 ---
 title: FieldPrintDate
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Implements the PRINTDATE field.
 type: docs
 weight: 2100
 url: /net/aspose.words.fields/fieldprintdate/

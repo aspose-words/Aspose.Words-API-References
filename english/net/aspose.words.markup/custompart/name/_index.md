@@ -1,7 +1,7 @@
 ---
 title: Name
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets this parts absolute name within the OOXML package or the target URL.
 type: docs
 weight: 50
 url: /net/aspose.words.markup/custompart/name/

@@ -1,7 +1,7 @@
 ---
 title: Resolution
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies the resolution in pixels per inch which the images should be downsampled to.
 type: docs
 weight: 30
 url: /net/aspose.words.saving/downsampleoptions/resolution/

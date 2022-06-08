@@ -1,7 +1,7 @@
 ---
 title: NonBreakingHyphenChar
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Nonbreaking Hyphen in Microsoft Word is char30.
 type: docs
 weight: 160
 url: /net/aspose.words/controlchar/nonbreakinghyphenchar/

@@ -1,7 +1,7 @@
 ---
 title: Accent6
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies color Accent 6.
 type: docs
 weight: 60
 url: /net/aspose.words.themes/themecolors/accent6/

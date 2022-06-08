@@ -1,7 +1,7 @@
 ---
 title: Item
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets the category heading by category number.
 type: docs
 weight: 30
 url: /net/aspose.words.fields/toacategories/item/

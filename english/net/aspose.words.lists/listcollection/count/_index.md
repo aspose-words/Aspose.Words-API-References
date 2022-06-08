@@ -1,7 +1,7 @@
 ---
 title: Count
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets the count of numbered and bulleted lists in the document.
 type: docs
 weight: 10
 url: /net/aspose.words.lists/listcollection/count/

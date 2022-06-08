@@ -1,7 +1,7 @@
 ---
 title: EntryType
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets an index entry type.
 type: docs
 weight: 20
 url: /net/aspose.words.fields/fieldxe/entrytype/

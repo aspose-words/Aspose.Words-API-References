@@ -1,7 +1,7 @@
 ---
 title: LastParagraph
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets the last paragraph in the story.
 type: docs
 weight: 20
 url: /net/aspose.words/story/lastparagraph/

@@ -1,7 +1,7 @@
 ---
 title: SetFontsFolders
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Sets the folders where Aspose.Words looks for TrueType fonts when rendering documents or embedding fonts.
 type: docs
 weight: 90
 url: /net/aspose.words.fonts/fontsettings/setfontsfolders/

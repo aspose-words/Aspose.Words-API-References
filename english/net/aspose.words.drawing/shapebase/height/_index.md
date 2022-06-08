@@ -1,7 +1,7 @@
 ---
 title: Height
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets the height of the containing block of the shape.
 type: docs
 weight: 200
 url: /net/aspose.words.drawing/shapebase/height/

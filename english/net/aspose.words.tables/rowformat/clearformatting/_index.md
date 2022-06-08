@@ -1,7 +1,7 @@
 ---
 title: ClearFormatting
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Resets to default row formatting.
 type: docs
 weight: 60
 url: /net/aspose.words.tables/rowformat/clearformatting/

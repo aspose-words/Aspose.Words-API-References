@@ -1,12 +1,12 @@
 ---
 title: MoveToBookmark
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Moves the cursor to a bookmark.
 type: docs
 weight: 470
 url: /net/aspose.words/documentbuilder/movetobookmark/
 ---
-## DocumentBuilder.MoveToBookmark method (1 of 2)
+## MoveToBookmark(string) {#movetobookmark}
 
 Moves the cursor to a bookmark.
 
@@ -91,7 +91,7 @@ Assert.IsTrue(builder.IsAtStartOfParagraph);
 
 ---
 
-## DocumentBuilder.MoveToBookmark method (2 of 2)
+## MoveToBookmark(string, bool, bool) {#movetobookmark_1}
 
 Moves the cursor to a bookmark with greater precision.
 

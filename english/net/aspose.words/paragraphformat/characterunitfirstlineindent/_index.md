@@ -1,7 +1,7 @@
 ---
 title: CharacterUnitFirstLineIndent
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets the value in characters for the first-line or hanging indent.
 type: docs
 weight: 60
 url: /net/aspose.words/paragraphformat/characterunitfirstlineindent/

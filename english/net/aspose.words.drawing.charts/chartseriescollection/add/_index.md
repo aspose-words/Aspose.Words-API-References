@@ -1,12 +1,12 @@
 ---
 title: Add
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Adds new ChartSeriesaspose.words.drawing.charts/chartseries to this collection. Use this method to add series to any type of Bar Column Line and Surface charts.
 type: docs
 weight: 30
 url: /net/aspose.words.drawing.charts/chartseriescollection/add/
 ---
-## ChartSeriesCollection.Add method (1 of 4)
+## Add(string, string[], double[]) {#add_3}
 
 Adds new [`ChartSeries`](../../chartseries) to this collection. Use this method to add series to any type of Bar, Column, Line and Surface charts.
 
@@ -112,7 +112,7 @@ private static Chart AppendChart(DocumentBuilder builder, ChartType chartType, d
 
 ---
 
-## ChartSeriesCollection.Add method (2 of 4)
+## Add(string, double[], double[]) {#add}
 
 Adds new [`ChartSeries`](../../chartseries) to this collection. Use this method to add series to any type of Scatter charts.
 
@@ -218,7 +218,7 @@ private static Chart AppendChart(DocumentBuilder builder, ChartType chartType, d
 
 ---
 
-## ChartSeriesCollection.Add method (3 of 4)
+## Add(string, DateTime[], double[]) {#add_2}
 
 Adds new [`ChartSeries`](../../chartseries) to this collection. Use this method to add series to any type of Area, Radar and Stock charts.
 
@@ -320,7 +320,7 @@ private static Chart AppendChart(DocumentBuilder builder, ChartType chartType, d
 
 ---
 
-## ChartSeriesCollection.Add method (4 of 4)
+## Add(string, double[], double[], double[]) {#add_1}
 
 Adds new [`ChartSeries`](../../chartseries) to this collection. Use this method to add series to any type of Bubble charts.
 

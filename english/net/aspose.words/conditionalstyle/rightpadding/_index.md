@@ -1,7 +1,7 @@
 ---
 title: RightPadding
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets the amount of space in points to add to the right of the contents of table cells.
 type: docs
 weight: 60
 url: /net/aspose.words/conditionalstyle/rightpadding/

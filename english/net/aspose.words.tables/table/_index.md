@@ -1,7 +1,7 @@
 ---
 title: Table
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Represents a table in a Word document.
 type: docs
 weight: 5990
 url: /net/aspose.words.tables/table/

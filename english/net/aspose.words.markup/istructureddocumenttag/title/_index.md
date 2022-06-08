@@ -1,7 +1,7 @@
 ---
 title: Title
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies the friendly name associated with this SDT. Can not be null.
 type: docs
 weight: 110
 url: /net/aspose.words.markup/istructureddocumenttag/title/

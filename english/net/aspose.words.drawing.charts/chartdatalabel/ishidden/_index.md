@@ -1,7 +1,7 @@
 ---
 title: IsHidden
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets/sets a flag indicating whether this label is hidden. The default value is false.
 type: docs
 weight: 20
 url: /net/aspose.words.drawing.charts/chartdatalabel/ishidden/

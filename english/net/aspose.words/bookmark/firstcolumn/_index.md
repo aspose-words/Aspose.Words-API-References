@@ -1,7 +1,7 @@
 ---
 title: FirstColumn
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets the zero-based index of the first column of the table column range associated with the bookmark.
 type: docs
 weight: 30
 url: /net/aspose.words/bookmark/firstcolumn/

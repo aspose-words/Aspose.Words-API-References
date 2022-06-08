@@ -1,7 +1,7 @@
 ---
 title: OddColumnBanding
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets the odd column banding style.
 type: docs
 weight: 110
 url: /net/aspose.words/conditionalstylecollection/oddcolumnbanding/

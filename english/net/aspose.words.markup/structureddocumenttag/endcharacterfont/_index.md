@@ -1,7 +1,7 @@
 ---
 title: EndCharacterFont
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Font formatting that will be applied to the last character of text entered into SDT.
 type: docs
 weight: 120
 url: /net/aspose.words.markup/structureddocumenttag/endcharacterfont/

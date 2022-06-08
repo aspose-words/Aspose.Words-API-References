@@ -1,7 +1,7 @@
 ---
 title: HtmlInsertOptions
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies options for the InsertHtml./documentbuilder/inserthtml method.
 type: docs
 weight: 2910
 url: /net/aspose.words/htmlinsertoptions/

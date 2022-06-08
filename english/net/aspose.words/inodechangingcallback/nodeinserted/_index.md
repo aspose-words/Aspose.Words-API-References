@@ -1,7 +1,7 @@
 ---
 title: NodeInserted
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Called when a node belonging to this document has been inserted into another node.
 type: docs
 weight: 10
 url: /net/aspose.words/inodechangingcallback/nodeinserted/

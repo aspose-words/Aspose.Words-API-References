@@ -1,7 +1,7 @@
 ---
 title: Title
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Defines the title of an image.
 type: docs
 weight: 180
 url: /net/aspose.words.drawing/imagedata/title/

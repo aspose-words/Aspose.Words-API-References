@@ -1,12 +1,12 @@
 ---
 title: Document
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Creates a blank Word document.
 type: docs
 weight: 10
 url: /net/aspose.words/document/document/
 ---
-## Document constructor (1 of 5)
+## Document() {#constructor}
 
 Creates a blank Word document.
 
@@ -69,7 +69,7 @@ Assert.AreEqual("Test encrypted document.", doc.FirstSection.Body.FirstParagraph
 
 ---
 
-## Document constructor (2 of 5)
+## Document(string) {#constructor_3}
 
 Opens an existing document from a file. Automatically detects the file format.
 
@@ -151,7 +151,7 @@ Assert.AreEqual("Hello world!", textFragmentAbsorber.Text.Trim());
 
 ---
 
-## Document constructor (3 of 5)
+## Document(string, LoadOptions) {#constructor_4}
 
 Opens an existing document from a file. Allows to specify additional options such as an encryption password.
 
@@ -230,7 +230,7 @@ Assert.AreEqual("Test encrypted document.", doc.FirstSection.Body.FirstParagraph
 
 ---
 
-## Document constructor (4 of 5)
+## Document(Stream) {#constructor_1}
 
 Opens an existing document from a stream. Automatically detects the file format.
 
@@ -306,7 +306,7 @@ using (WebClient webClient = new WebClient())
 
 ---
 
-## Document constructor (5 of 5)
+## Document(Stream, LoadOptions) {#constructor_2}
 
 Opens an existing document from a stream. Allows to specify additional options such as an encryption password.
 

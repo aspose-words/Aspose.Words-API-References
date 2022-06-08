@@ -1,7 +1,7 @@
 ---
 title: ImageSize
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets the information about image size and resolution.
 type: docs
 weight: 130
 url: /net/aspose.words.drawing/imagedata/imagesize/

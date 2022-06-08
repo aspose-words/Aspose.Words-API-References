@@ -1,7 +1,7 @@
 ---
 title: PageNumberStyle
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets the page number format.
 type: docs
 weight: 310
 url: /net/aspose.words/pagesetup/pagenumberstyle/

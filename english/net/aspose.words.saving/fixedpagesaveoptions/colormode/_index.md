@@ -1,7 +1,7 @@
 ---
 title: ColorMode
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets a value determining how colors are rendered.
 type: docs
 weight: 10
 url: /net/aspose.words.saving/fixedpagesaveoptions/colormode/

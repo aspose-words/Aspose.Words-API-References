@@ -1,7 +1,7 @@
 ---
 title: InsertRelativePosition
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets whether to insert the relative position of the referenced paragraph.
 type: docs
 weight: 80
 url: /net/aspose.words.fields/fieldref/insertrelativeposition/

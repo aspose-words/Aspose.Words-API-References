@@ -1,12 +1,12 @@
 ---
 title: Equals
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Compares with the specified list.
 type: docs
 weight: 100
 url: /net/aspose.words.lists/list/equals/
 ---
-## List.Equals method (1 of 2)
+## Equals(List) {#equals}
 
 Compares with the specified list.
 
@@ -22,7 +22,7 @@ public bool Equals(List list)
 
 ---
 
-## List.Equals method (2 of 2)
+## Equals(object) {#equals_1}
 
 ```csharp
 public override bool Equals(object obj)

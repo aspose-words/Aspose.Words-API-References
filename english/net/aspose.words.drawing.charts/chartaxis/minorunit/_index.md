@@ -1,7 +1,7 @@
 ---
 title: MinorUnit
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Returns or sets the distance between minor tick marks.
 type: docs
 weight: 140
 url: /net/aspose.words.drawing.charts/chartaxis/minorunit/

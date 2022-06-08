@@ -1,7 +1,7 @@
 ---
 title: FirstRow
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Returns the first Row node in the table.
 type: docs
 weight: 160
 url: /net/aspose.words.tables/table/firstrow/

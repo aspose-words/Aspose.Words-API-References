@@ -1,7 +1,7 @@
 ---
 title: RelativeHorizontalPosition
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies to what the horizontal position of a shape or text frame is relative.
 type: docs
 weight: 1060
 url: /net/aspose.words.drawing/relativehorizontalposition/

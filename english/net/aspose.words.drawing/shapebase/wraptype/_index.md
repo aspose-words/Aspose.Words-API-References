@@ -1,7 +1,7 @@
 ---
 title: WrapType
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Defines whether the shape is inline or floating. For floating shapes defines the wrapping mode for text around the shape.
 type: docs
 weight: 530
 url: /net/aspose.words.drawing/shapebase/wraptype/

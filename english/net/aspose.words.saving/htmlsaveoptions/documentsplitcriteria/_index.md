@@ -1,7 +1,7 @@
 ---
 title: DocumentSplitCriteria
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies how the document should be split when saving to Html or Epub format. Default is None for HTML and HeadingParagraph for EPUB.
 type: docs
 weight: 80
 url: /net/aspose.words.saving/htmlsaveoptions/documentsplitcriteria/

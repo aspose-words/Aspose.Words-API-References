@@ -1,7 +1,7 @@
 ---
 title: Multiline
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies whether this SDT allows multiple lines of text.
 type: docs
 weight: 210
 url: /net/aspose.words.markup/structureddocumenttag/multiline/

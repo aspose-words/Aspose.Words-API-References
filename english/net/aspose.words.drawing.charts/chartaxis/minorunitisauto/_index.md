@@ -1,7 +1,7 @@
 ---
 title: MinorUnitIsAuto
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets a flag indicating whether default distance between minor tick marks shall be used.
 type: docs
 weight: 150
 url: /net/aspose.words.drawing.charts/chartaxis/minorunitisauto/

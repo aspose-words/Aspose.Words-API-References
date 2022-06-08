@@ -1,7 +1,7 @@
 ---
 title: IsFormatRevision
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Returns true if formatting of the object was changed in Microsoft Word while change tracking was enabled.
 type: docs
 weight: 90
 url: /net/aspose.words/paragraph/isformatrevision/

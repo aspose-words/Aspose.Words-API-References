@@ -1,7 +1,7 @@
 ---
 title: RowFormat
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Represents all formatting for a table row.
 type: docs
 weight: 5980
 url: /net/aspose.words.tables/rowformat/

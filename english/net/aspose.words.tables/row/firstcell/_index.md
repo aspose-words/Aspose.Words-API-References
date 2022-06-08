@@ -1,7 +1,7 @@
 ---
 title: FirstCell
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Returns the first Cell in the row.
 type: docs
 weight: 30
 url: /net/aspose.words.tables/row/firstcell/

@@ -1,7 +1,7 @@
 ---
 title: SetData
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Sets user provided data of the resource which is used if ResourceLoadingaspose.words.loading/iresourceloadingcallback/resourceloading returns UserProvided.
 type: docs
 weight: 40
 url: /net/aspose.words.loading/resourceloadingargs/setdata/

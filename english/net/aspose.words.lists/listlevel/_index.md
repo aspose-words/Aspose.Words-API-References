@@ -1,7 +1,7 @@
 ---
 title: ListLevel
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Defines formatting for a list level.
 type: docs
 weight: 3250
 url: /net/aspose.words.lists/listlevel/
@@ -39,7 +39,7 @@ public class ListLevel
 | --- | --- |
 | [CreatePictureBullet](../../aspose.words.lists/listlevel/createpicturebullet)() | Creates picture bullet shape for the current list level. |
 | [DeletePictureBullet](../../aspose.words.lists/listlevel/deletepicturebullet)() | Deletes picture bullet for the current list level. |
-| [Equals](../../aspose.words.lists/listlevel/equals)(ListLevel) | Compares with the specified ListLevel. |
+| [Equals](../../aspose.words.lists/listlevel/equals#equals)(ListLevel) | Compares with the specified ListLevel. |
 | override [GetHashCode](../../aspose.words.lists/listlevel/gethashcode)() | Calculates hash code for this object. |
 | static [GetEffectiveValue](../../aspose.words.lists/listlevel/geteffectivevalue)(int, NumberStyle, string) | Reports the string representation of the [`ListLevel`](../listlevel) object for the specified index of the list item. Parameters specify the [`NumberStyle`](../../aspose.words/numberstyle) and an optional format string used when Custom is specified. |
 

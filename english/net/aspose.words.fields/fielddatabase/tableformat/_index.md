@@ -1,7 +1,7 @@
 ---
 title: TableFormat
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets the format that is to be applied to the result of the database query.
 type: docs
 weight: 100
 url: /net/aspose.words.fields/fielddatabase/tableformat/

@@ -1,7 +1,7 @@
 ---
 title: VisitCommentEnd
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Called when enumeration of a comment text has ended.
 type: docs
 weight: 100
 url: /net/aspose.words/documentvisitor/visitcommentend/

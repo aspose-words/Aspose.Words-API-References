@@ -1,7 +1,7 @@
 ---
 title: Fill
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets fill formatting for the shape.
 type: docs
 weight: 170
 url: /net/aspose.words.drawing/shapebase/fill/

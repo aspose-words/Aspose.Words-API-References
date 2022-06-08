@@ -1,12 +1,12 @@
 ---
 title: UpdateThumbnail
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Updates Thumbnailaspose.words.properties/builtindocumentproperties/thumbnail of the document according to the specified options.
 type: docs
 weight: 760
 url: /net/aspose.words/document/updatethumbnail/
 ---
-## Document.UpdateThumbnail method (1 of 2)
+## UpdateThumbnail(ThumbnailGeneratingOptions) {#updatethumbnail_1}
 
 Updates [`Thumbnail`](../../../aspose.words.properties/builtindocumentproperties/thumbnail) of the document according to the specified options.
 
@@ -56,7 +56,7 @@ doc.Save(ArtifactsDir + "Document.UpdateThumbnail.FirstImage.epub");
 
 ---
 
-## Document.UpdateThumbnail method (2 of 2)
+## UpdateThumbnail() {#updatethumbnail}
 
 Updates [`Thumbnail`](../../../aspose.words.properties/builtindocumentproperties/thumbnail) of the document using default options.
 

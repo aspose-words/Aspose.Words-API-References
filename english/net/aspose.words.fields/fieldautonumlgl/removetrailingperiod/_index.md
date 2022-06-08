@@ -1,7 +1,7 @@
 ---
 title: RemoveTrailingPeriod
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets whether to display the number without a trailing period.
 type: docs
 weight: 20
 url: /net/aspose.words.fields/fieldautonumlgl/removetrailingperiod/

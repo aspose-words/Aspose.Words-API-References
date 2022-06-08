@@ -1,12 +1,12 @@
 ---
 title: GetAncestor
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets the first ancestor of the specified object type.
 type: docs
 weight: 110
 url: /net/aspose.words/node/getancestor/
 ---
-## Node.GetAncestor method (1 of 2)
+## GetAncestor(Type) {#getancestor_1}
 
 Gets the first ancestor of the specified object type.
 
@@ -111,7 +111,7 @@ private static int GetChildTableCount(Table table)
 
 ---
 
-## Node.GetAncestor method (2 of 2)
+## GetAncestor(NodeType) {#getancestor}
 
 Gets the first ancestor of the specified [`NodeType`](../../nodetype).
 

@@ -1,7 +1,7 @@
 ---
 title: FieldSection
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Implements the SECTION field.
 type: docs
 weight: 2170
 url: /net/aspose.words.fields/fieldsection/

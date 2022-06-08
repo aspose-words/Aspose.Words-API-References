@@ -1,7 +1,7 @@
 ---
 title: ResolveFontNames
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies whether font family names used in the document are resolved and substituted according to FontSettingsaspose.words/document/fontsettings when being written into HTML-based formats.
 type: docs
 weight: 410
 url: /net/aspose.words.saving/htmlsaveoptions/resolvefontnames/

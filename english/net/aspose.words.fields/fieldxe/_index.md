@@ -1,7 +1,7 @@
 ---
 title: FieldXE
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Implements the XE field.
 type: docs
 weight: 2410
 url: /net/aspose.words.fields/fieldxe/

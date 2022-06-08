@@ -1,7 +1,7 @@
 ---
 title: Keywords
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets the document keywords.
 type: docs
 weight: 140
 url: /net/aspose.words.properties/builtindocumentproperties/keywords/

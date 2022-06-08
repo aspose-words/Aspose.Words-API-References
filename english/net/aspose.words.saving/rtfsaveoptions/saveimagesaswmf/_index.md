@@ -1,7 +1,7 @@
 ---
 title: SaveImagesAsWmf
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: When true all images will be saved as WMF.
 type: docs
 weight: 50
 url: /net/aspose.words.saving/rtfsaveoptions/saveimagesaswmf/

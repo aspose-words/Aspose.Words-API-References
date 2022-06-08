@@ -1,7 +1,7 @@
 ---
 title: ImageBytes
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets the raw bytes of the image stored in the shape.
 type: docs
 weight: 120
 url: /net/aspose.words.drawing/imagedata/imagebytes/

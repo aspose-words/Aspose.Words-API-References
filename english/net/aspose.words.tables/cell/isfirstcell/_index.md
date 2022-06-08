@@ -1,7 +1,7 @@
 ---
 title: IsFirstCell
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: True if this is the first cell inside a row false otherwise.
 type: docs
 weight: 40
 url: /net/aspose.words.tables/cell/isfirstcell/

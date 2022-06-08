@@ -1,7 +1,7 @@
 ---
 title: GradientStop
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Represents one gradient stop.
 type: docs
 weight: 850
 url: /net/aspose.words.drawing/gradientstop/
@@ -18,8 +18,8 @@ public class GradientStop
 
 | Name | Description |
 | --- | --- |
-| [GradientStop](gradientstop)(Color, double) | Initializes a new instance of the [`GradientStop`](../gradientstop) class. |
-| [GradientStop](gradientstop)(Color, double, double) | Initializes a new instance of the [`GradientStop`](../gradientstop) class. |
+| [GradientStop](gradientstop#constructor)(Color, double) | Initializes a new instance of the [`GradientStop`](../gradientstop) class. |
+| [GradientStop](gradientstop#constructor_1)(Color, double, double) | Initializes a new instance of the [`GradientStop`](../gradientstop) class. |
 
 ## Properties
 

@@ -1,7 +1,7 @@
 ---
 title: ToaCategories
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Represents a table of authorities categories.
 type: docs
 weight: 2550
 url: /net/aspose.words.fields/toacategories/

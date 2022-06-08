@@ -1,7 +1,7 @@
 ---
 title: ResetNumber
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets an integer number to reset the sequence number to. Returns -1 if the number is absent.
 type: docs
 weight: 50
 url: /net/aspose.words.fields/fieldseq/resetnumber/

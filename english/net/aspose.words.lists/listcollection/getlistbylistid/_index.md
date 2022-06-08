@@ -1,7 +1,7 @@
 ---
 title: GetListByListId
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets a list by a list identifier.
 type: docs
 weight: 70
 url: /net/aspose.words.lists/listcollection/getlistbylistid/

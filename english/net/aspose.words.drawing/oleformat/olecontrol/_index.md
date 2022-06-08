@@ -1,7 +1,7 @@
 ---
 title: OleControl
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets OleControlaspose.words.drawing/oleformat/olecontrol objects if this OLE object is an ActiveX control. Otherwise this property is null.
 type: docs
 weight: 60
 url: /net/aspose.words.drawing/oleformat/olecontrol/

@@ -1,7 +1,7 @@
 ---
 title: FieldAsk
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Implements the ASK field.
 type: docs
 weight: 1390
 url: /net/aspose.words.fields/fieldask/

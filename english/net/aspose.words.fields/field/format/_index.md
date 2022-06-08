@@ -1,7 +1,7 @@
 ---
 title: Format
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets a FieldFormataspose.words.fields/fieldformat object that provides typed access to fields formatting.
 type: docs
 weight: 30
 url: /net/aspose.words.fields/field/format/

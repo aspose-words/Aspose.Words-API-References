@@ -1,7 +1,7 @@
 ---
 title: OverrideTableStyleFontSizeAndJustification
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies how the style hierarchy of the document is evaluated.
 type: docs
 weight: 380
 url: /net/aspose.words.settings/compatibilityoptions/overridetablestylefontsizeandjustification/

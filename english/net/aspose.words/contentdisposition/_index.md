@@ -1,7 +1,7 @@
 ---
 title: ContentDisposition
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Enumerates different ways of presenting the document at the client browser.
 type: docs
 weight: 330
 url: /net/aspose.words/contentdisposition/

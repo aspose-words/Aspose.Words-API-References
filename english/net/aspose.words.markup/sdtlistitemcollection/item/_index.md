@@ -1,7 +1,7 @@
 ---
 title: Item
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Returns a SdtListItemaspose.words.markup/sdtlistitem object given its zero-based index in the collection.
 type: docs
 weight: 20
 url: /net/aspose.words.markup/sdtlistitemcollection/item/

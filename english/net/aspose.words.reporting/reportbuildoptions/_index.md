@@ -1,7 +1,7 @@
 ---
 title: ReportBuildOptions
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies options controlling behavior of ReportingEngine./reportingengine while building a report.
 type: docs
 weight: 4410
 url: /net/aspose.words.reporting/reportbuildoptions/

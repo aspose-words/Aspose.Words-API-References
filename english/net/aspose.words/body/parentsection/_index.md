@@ -1,7 +1,7 @@
 ---
 title: ParentSection
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets the parent section of this story.
 type: docs
 weight: 30
 url: /net/aspose.words/body/parentsection/

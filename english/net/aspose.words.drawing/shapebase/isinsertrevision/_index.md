@@ -1,7 +1,7 @@
 ---
 title: IsInsertRevision
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Returns true if this object was inserted in Microsoft Word while change tracking was enabled.
 type: docs
 weight: 290
 url: /net/aspose.words.drawing/shapebase/isinsertrevision/

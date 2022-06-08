@@ -1,7 +1,7 @@
 ---
 title: IsLinkedToSource
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies whether the format code is linked to a source cell. Default is true.
 type: docs
 weight: 20
 url: /net/aspose.words.drawing.charts/chartnumberformat/islinkedtosource/

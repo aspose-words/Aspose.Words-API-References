@@ -1,7 +1,7 @@
 ---
 title: BookmarkCollection
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: A collection of Bookmark./bookmark objects that represent the bookmarks in the specified range.
 type: docs
 weight: 40
 url: /net/aspose.words/bookmarkcollection/
@@ -27,8 +27,8 @@ public class BookmarkCollection : IEnumerable<Bookmark>
 | --- | --- |
 | [Clear](../../aspose.words/bookmarkcollection/clear)() | Removes all bookmarks from this collection and from the document. |
 | [GetEnumerator](../../aspose.words/bookmarkcollection/getenumerator)() | Returns an enumerator object. |
-| [Remove](../../aspose.words/bookmarkcollection/remove)(Bookmark) | Removes the specified bookmark from the document. |
-| [Remove](../../aspose.words/bookmarkcollection/remove)(string) | Removes a bookmark with the specified name. |
+| [Remove](../../aspose.words/bookmarkcollection/remove#remove)(Bookmark) | Removes the specified bookmark from the document. |
+| [Remove](../../aspose.words/bookmarkcollection/remove#remove_1)(string) | Removes a bookmark with the specified name. |
 | [RemoveAt](../../aspose.words/bookmarkcollection/removeat)(int) | Removes a bookmark at the specified index. |
 
 ## Examples

@@ -1,7 +1,7 @@
 ---
 title: PageBreakChar
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Page break character char12 or f.
 type: docs
 weight: 210
 url: /net/aspose.words/controlchar/pagebreakchar/

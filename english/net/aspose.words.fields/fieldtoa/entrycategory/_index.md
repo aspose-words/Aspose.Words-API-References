@@ -1,7 +1,7 @@
 ---
 title: EntryCategory
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets the integral category for entries included in the table.
 type: docs
 weight: 30
 url: /net/aspose.words.fields/fieldtoa/entrycategory/

@@ -1,7 +1,7 @@
 ---
 title: PresetTextured
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Sets the fill to a preset texture.
 type: docs
 weight: 180
 url: /net/aspose.words.drawing/fill/presettextured/

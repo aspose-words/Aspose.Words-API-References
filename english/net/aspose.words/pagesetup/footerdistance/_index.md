@@ -1,7 +1,7 @@
 ---
 title: FooterDistance
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Returns or sets the distance in points between the footer and the bottom of the page.
 type: docs
 weight: 140
 url: /net/aspose.words/pagesetup/footerdistance/

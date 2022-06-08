@@ -1,7 +1,7 @@
 ---
 title: ShowBreaksInFrames
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Display Page/Column Breaks Present in Frames.
 type: docs
 weight: 430
 url: /net/aspose.words.settings/compatibilityoptions/showbreaksinframes/

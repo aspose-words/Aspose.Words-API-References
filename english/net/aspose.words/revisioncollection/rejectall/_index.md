@@ -1,7 +1,7 @@
 ---
 title: RejectAll
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Rejects all revisions in this collection.
 type: docs
 weight: 60
 url: /net/aspose.words/revisioncollection/rejectall/

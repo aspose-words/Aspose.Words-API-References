@@ -1,7 +1,7 @@
 ---
 title: Visible
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets value that is true if the formatting applied to this instance is visible.
 type: docs
 weight: 150
 url: /net/aspose.words.drawing/fill/visible/

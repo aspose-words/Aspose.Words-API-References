@@ -1,7 +1,7 @@
 ---
 title: Read
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Reads the data from the specified stream into the Documentaspose.words/document instance.
 type: docs
 weight: 10
 url: /net/aspose.words/idocumentreaderplugin/read/

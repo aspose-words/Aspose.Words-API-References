@@ -1,7 +1,7 @@
 ---
 title: ShowPageBorder
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies whether border around pages should be shown. Default is true.
 type: docs
 weight: 180
 url: /net/aspose.words.saving/htmlfixedsaveoptions/showpageborder/

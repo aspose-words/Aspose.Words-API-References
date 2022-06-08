@@ -1,7 +1,7 @@
 ---
 title: SuppressYear
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets whether the year information is suppressed from the citation.
 type: docs
 weight: 100
 url: /net/aspose.words.fields/fieldcitation/suppressyear/

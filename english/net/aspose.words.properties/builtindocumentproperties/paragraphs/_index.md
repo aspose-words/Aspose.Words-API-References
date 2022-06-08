@@ -1,7 +1,7 @@
 ---
 title: Paragraphs
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Represents an estimate of the number of paragraphs in the document.
 type: docs
 weight: 230
 url: /net/aspose.words.properties/builtindocumentproperties/paragraphs/

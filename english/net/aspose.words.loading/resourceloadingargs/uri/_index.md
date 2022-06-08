@@ -1,7 +1,7 @@
 ---
 title: Uri
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: URI of the resource which is used for downloading if ResourceLoadingaspose.words.loading/iresourceloadingcallback/resourceloading returns Default.
 type: docs
 weight: 30
 url: /net/aspose.words.loading/resourceloadingargs/uri/

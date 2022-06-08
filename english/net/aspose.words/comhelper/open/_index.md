@@ -1,12 +1,12 @@
 ---
 title: Open
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Allows a COM application to load a Documentaspose.words/document from a file.
 type: docs
 weight: 20
 url: /net/aspose.words/comhelper/open/
 ---
-## ComHelper.Open method (1 of 2)
+## Open(string) {#open_1}
 
 Allows a COM application to load a [`Document`](../../document) from a file.
 
@@ -67,7 +67,7 @@ using (FileStream stream = new FileStream(MyDir + "Document.docx", FileMode.Open
 
 ---
 
-## ComHelper.Open method (2 of 2)
+## Open(Stream) {#open}
 
 Allows a COM application to load [`Document`](../../document) from a stream.
 

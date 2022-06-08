@@ -1,7 +1,7 @@
 ---
 title: FirstRowContainsColumnNames
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies that a hosting application shall treat the first row of data in the specified external data source as a header row containing the names of each column in the data source. The default value is false.
 type: docs
 weight: 60
 url: /net/aspose.words.settings/odso/firstrowcontainscolumnnames/

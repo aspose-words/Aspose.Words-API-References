@@ -1,7 +1,7 @@
 ---
 title: FieldMergingArgs
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Provides data for the MergeField event.
 type: docs
 weight: 3500
 url: /net/aspose.words.mailmerging/fieldmergingargs/

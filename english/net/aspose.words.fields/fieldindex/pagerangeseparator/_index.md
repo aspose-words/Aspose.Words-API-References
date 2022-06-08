@@ -1,7 +1,7 @@
 ---
 title: PageRangeSeparator
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets the character sequence that is used to separate the start and end of a page range.
 type: docs
 weight: 130
 url: /net/aspose.words.fields/fieldindex/pagerangeseparator/

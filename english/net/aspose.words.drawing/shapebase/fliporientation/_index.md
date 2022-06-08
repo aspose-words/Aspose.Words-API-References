@@ -1,7 +1,7 @@
 ---
 title: FlipOrientation
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Switches the orientation of a shape.
 type: docs
 weight: 180
 url: /net/aspose.words.drawing/shapebase/fliporientation/

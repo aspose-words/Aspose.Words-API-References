@@ -1,7 +1,7 @@
 ---
 title: DontAffectsLineSpacing
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets whether the character retrieved by the field affects the line spacing of the paragraph.
 type: docs
 weight: 30
 url: /net/aspose.words.fields/fieldsymbol/dontaffectslinespacing/

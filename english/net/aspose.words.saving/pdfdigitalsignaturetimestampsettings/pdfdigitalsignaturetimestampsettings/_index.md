@@ -1,12 +1,12 @@
 ---
 title: PdfDigitalSignatureTimestampSettings
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Initializes an instance of this class.
 type: docs
 weight: 10
 url: /net/aspose.words.saving/pdfdigitalsignaturetimestampsettings/pdfdigitalsignaturetimestampsettings/
 ---
-## PdfDigitalSignatureTimestampSettings constructor (1 of 3)
+## PdfDigitalSignatureTimestampSettings() {#constructor}
 
 Initializes an instance of this class.
 
@@ -59,7 +59,7 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignatureTimestamp.pdf", optio
 
 ---
 
-## PdfDigitalSignatureTimestampSettings constructor (2 of 3)
+## PdfDigitalSignatureTimestampSettings(string, string, string) {#constructor_1}
 
 Initializes an instance of this class.
 
@@ -118,7 +118,7 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignatureTimestamp.pdf", optio
 
 ---
 
-## PdfDigitalSignatureTimestampSettings constructor (3 of 3)
+## PdfDigitalSignatureTimestampSettings(string, string, string, TimeSpan) {#constructor_2}
 
 Initializes an instance of this class.
 

@@ -1,7 +1,7 @@
 ---
 title: OwnerPassword
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies the owner password for the encrypted PDF document.
 type: docs
 weight: 20
 url: /net/aspose.words.saving/pdfencryptiondetails/ownerpassword/

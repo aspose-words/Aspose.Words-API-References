@@ -1,7 +1,7 @@
 ---
 title: AutoSpaceLikeWord95
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Emulate Word 95 Full-Width Character Spacing.
 type: docs
 weight: 60
 url: /net/aspose.words.settings/compatibilityoptions/autospacelikeword95/

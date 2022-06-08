@@ -1,7 +1,7 @@
 ---
 title: IsValid
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Indicates that signature line is signed by digital signature and this digital signature is valid.
 type: docs
 weight: 70
 url: /net/aspose.words.drawing/signatureline/isvalid/

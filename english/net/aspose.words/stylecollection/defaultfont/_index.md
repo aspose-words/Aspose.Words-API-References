@@ -1,7 +1,7 @@
 ---
 title: DefaultFont
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets document default text formatting.
 type: docs
 weight: 20
 url: /net/aspose.words/stylecollection/defaultfont/

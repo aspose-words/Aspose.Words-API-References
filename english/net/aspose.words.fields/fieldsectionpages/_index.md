@@ -1,7 +1,7 @@
 ---
 title: FieldSectionPages
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Implements the SECTIONPAGES field.
 type: docs
 weight: 2180
 url: /net/aspose.words.fields/fieldsectionpages/

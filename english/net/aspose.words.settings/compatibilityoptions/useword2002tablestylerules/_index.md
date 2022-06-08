@@ -1,7 +1,7 @@
 ---
 title: UseWord2002TableStyleRules
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Emulate Word 2002 Table Style Rules.
 type: docs
 weight: 660
 url: /net/aspose.words.settings/compatibilityoptions/useword2002tablestylerules/

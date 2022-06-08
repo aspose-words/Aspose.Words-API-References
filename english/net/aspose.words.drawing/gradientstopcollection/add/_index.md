@@ -1,7 +1,7 @@
 ---
 title: Add
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Adds a specified GradientStopaspose.words.drawing/gradientstop to a gradient.
 type: docs
 weight: 30
 url: /net/aspose.words.drawing/gradientstopcollection/add/

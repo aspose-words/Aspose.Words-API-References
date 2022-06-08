@@ -1,7 +1,7 @@
 ---
 title: TopRightCell
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets the top right cell style.
 type: docs
 weight: 140
 url: /net/aspose.words/conditionalstylecollection/toprightcell/

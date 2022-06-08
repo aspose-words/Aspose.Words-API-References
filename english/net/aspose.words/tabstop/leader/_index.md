@@ -1,7 +1,7 @@
 ---
 title: Leader
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets the type of the leader line displayed under the tab character.
 type: docs
 weight: 40
 url: /net/aspose.words/tabstop/leader/

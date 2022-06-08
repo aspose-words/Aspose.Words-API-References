@@ -1,7 +1,7 @@
 ---
 title: AlwaysCompressMetafiles
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: When false small metafiles are not compressed for performance reason. Default value is true all metafiles are compressed regardless of its size.
 type: docs
 weight: 20
 url: /net/aspose.words.saving/docsaveoptions/alwayscompressmetafiles/

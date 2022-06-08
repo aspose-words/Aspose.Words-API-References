@@ -1,7 +1,7 @@
 ---
 title: CommentChar
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets the character that is used to comment lines of CSV data.
 type: docs
 weight: 20
 url: /net/aspose.words.reporting/csvdataloadoptions/commentchar/

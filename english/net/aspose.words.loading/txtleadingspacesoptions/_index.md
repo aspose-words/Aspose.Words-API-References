@@ -1,7 +1,7 @@
 ---
 title: TxtLeadingSpacesOptions
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies available options for leading space handling during import from Text file.
 type: docs
 weight: 3470
 url: /net/aspose.words.loading/txtleadingspacesoptions/

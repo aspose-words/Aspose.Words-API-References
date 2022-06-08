@@ -1,7 +1,7 @@
 ---
 title: MarkerSymbol
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies marker symbol style.
 type: docs
 weight: 790
 url: /net/aspose.words.drawing.charts/markersymbol/

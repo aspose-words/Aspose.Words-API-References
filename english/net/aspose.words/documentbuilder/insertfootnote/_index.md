@@ -1,12 +1,12 @@
 ---
 title: InsertFootnote
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Inserts a footnote or endnote into the document.
 type: docs
 weight: 310
 url: /net/aspose.words/documentbuilder/insertfootnote/
 ---
-## DocumentBuilder.InsertFootnote method (1 of 2)
+## InsertFootnote(FootnoteType, string) {#insertfootnote}
 
 Inserts a footnote or endnote into the document.
 
@@ -61,7 +61,7 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertFootnote.docx");
 
 ---
 
-## DocumentBuilder.InsertFootnote method (2 of 2)
+## InsertFootnote(FootnoteType, string, string) {#insertfootnote_1}
 
 Inserts a footnote or endnote into the document.
 

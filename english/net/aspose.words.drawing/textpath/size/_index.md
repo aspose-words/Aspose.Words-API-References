@@ -1,7 +1,7 @@
 ---
 title: Size
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Defines the size of the font in points.
 type: docs
 weight: 120
 url: /net/aspose.words.drawing/textpath/size/

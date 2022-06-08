@@ -1,7 +1,7 @@
 ---
 title: PageHorizontalAlignment
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies the horizontal alignment of pages in an HTML document. Default value is HtmlFixedHorizontalPageAlignment.Center.
 type: docs
 weight: 110
 url: /net/aspose.words.saving/htmlfixedsaveoptions/pagehorizontalalignment/

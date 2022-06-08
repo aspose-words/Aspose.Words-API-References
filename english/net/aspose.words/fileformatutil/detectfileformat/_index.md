@@ -1,12 +1,12 @@
 ---
 title: DetectFileFormat
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Detects and returns the information about a format of a document stored in a disk file.
 type: docs
 weight: 30
 url: /net/aspose.words/fileformatutil/detectfileformat/
 ---
-## FileFormatUtil.DetectFileFormat method (1 of 2)
+## DetectFileFormat(string) {#detectfileformat_1}
 
 Detects and returns the information about a format of a document stored in a disk file.
 
@@ -80,7 +80,7 @@ Assert.AreEqual(1, DigitalSignatureUtil.LoadSignatures(ArtifactsDir + "File.Dete
 
 ---
 
-## FileFormatUtil.DetectFileFormat method (2 of 2)
+## DetectFileFormat(Stream) {#detectfileformat}
 
 Detects and returns the information about a format of a document stored in a stream.
 

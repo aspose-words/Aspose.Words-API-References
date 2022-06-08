@@ -1,7 +1,7 @@
 ---
 title: HorizontalDistanceFromText
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets horizontal distance between a frame and the surrounding text in points.
 type: docs
 weight: 40
 url: /net/aspose.words/frameformat/horizontaldistancefromtext/

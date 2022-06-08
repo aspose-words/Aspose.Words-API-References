@@ -1,7 +1,7 @@
 ---
 title: Timeout
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Time-out value for accessing timestamp server.
 type: docs
 weight: 40
 url: /net/aspose.words.saving/pdfdigitalsignaturetimestampsettings/timeout/

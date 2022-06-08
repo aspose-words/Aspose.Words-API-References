@@ -1,7 +1,7 @@
 ---
 title: InsertOnceOnMailMerge
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets whether to insert data at the beginning of a merge.
 type: docs
 weight: 70
 url: /net/aspose.words.fields/fielddatabase/insertonceonmailmerge/

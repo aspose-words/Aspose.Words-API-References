@@ -1,7 +1,7 @@
 ---
 title: TableAlignment
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies alignment for an inline table.
 type: docs
 weight: 6000
 url: /net/aspose.words.tables/tablealignment/

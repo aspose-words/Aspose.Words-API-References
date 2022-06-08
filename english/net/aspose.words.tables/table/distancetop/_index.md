@@ -1,7 +1,7 @@
 ---
 title: DistanceTop
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets distance between table top and the surrounding text in points.
 type: docs
 weight: 150
 url: /net/aspose.words.tables/table/distancetop/

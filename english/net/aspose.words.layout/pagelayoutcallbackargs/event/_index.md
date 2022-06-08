@@ -1,7 +1,7 @@
 ---
 title: Event
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets event.
 type: docs
 weight: 20
 url: /net/aspose.words.layout/pagelayoutcallbackargs/event/

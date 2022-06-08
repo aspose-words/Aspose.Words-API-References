@@ -1,7 +1,7 @@
 ---
 title: ExportLanguageInformation
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies whether language information is exported to HTML MHTML or EPUB. Default is false.
 type: docs
 weight: 190
 url: /net/aspose.words.saving/htmlsaveoptions/exportlanguageinformation/

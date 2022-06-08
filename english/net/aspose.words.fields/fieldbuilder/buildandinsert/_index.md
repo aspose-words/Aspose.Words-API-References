@@ -1,12 +1,12 @@
 ---
 title: BuildAndInsert
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Builds and inserts a field into the document before the specified inline node.
 type: docs
 weight: 40
 url: /net/aspose.words.fields/fieldbuilder/buildandinsert/
 ---
-## FieldBuilder.BuildAndInsert method (1 of 2)
+## BuildAndInsert(Inline) {#buildandinsert}
 
 Builds and inserts a field into the document before the specified inline node.
 
@@ -53,7 +53,7 @@ doc.Save(ArtifactsDir + "Field.CreateWithFieldBuilder.docx");
 
 ---
 
-## FieldBuilder.BuildAndInsert method (2 of 2)
+## BuildAndInsert(Paragraph) {#buildandinsert_1}
 
 Builds and inserts a field into the document to the end of the specified paragraph.
 

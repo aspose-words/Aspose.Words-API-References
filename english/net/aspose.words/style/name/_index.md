@@ -1,7 +1,7 @@
 ---
 title: Name
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets the name of the style.
 type: docs
 weight: 110
 url: /net/aspose.words/style/name/

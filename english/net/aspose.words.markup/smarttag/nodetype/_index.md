@@ -1,7 +1,7 @@
 ---
 title: NodeType
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Returns NodeType.SmartTag.
 type: docs
 weight: 30
 url: /net/aspose.words.markup/smarttag/nodetype/

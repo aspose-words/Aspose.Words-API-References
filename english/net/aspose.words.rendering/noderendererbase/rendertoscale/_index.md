@@ -1,7 +1,7 @@
 ---
 title: RenderToScale
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Renders the shape into a Graphics object to a specified scale.
 type: docs
 weight: 70
 url: /net/aspose.words.rendering/noderendererbase/rendertoscale/

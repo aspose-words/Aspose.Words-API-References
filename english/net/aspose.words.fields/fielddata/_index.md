@@ -1,7 +1,7 @@
 ---
 title: FieldData
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Implements the DATA field.
 type: docs
 weight: 1560
 url: /net/aspose.words.fields/fielddata/

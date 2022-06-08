@@ -1,7 +1,7 @@
 ---
 title: ExportLanguageToSpanTag
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets a value determining whether or not to create a Span tag in the document structure to export the text language.
 type: docs
 weight: 130
 url: /net/aspose.words.saving/pdfsaveoptions/exportlanguagetospantag/

@@ -1,12 +1,12 @@
 ---
 title: Save
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Saves the image into the specified stream.
 type: docs
 weight: 190
 url: /net/aspose.words.drawing/imagedata/save/
 ---
-## ImageData.Save method (1 of 2)
+## Save(Stream) {#save}
 
 Saves the image into the specified stream.
 
@@ -60,7 +60,7 @@ using (IEnumerator<Shape> enumerator = shapesWithImages.GetEnumerator())
 
 ---
 
-## ImageData.Save method (2 of 2)
+## Save(string) {#save_1}
 
 Saves the image into a file.
 

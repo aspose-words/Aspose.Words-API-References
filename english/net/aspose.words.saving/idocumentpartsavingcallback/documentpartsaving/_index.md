@@ -1,7 +1,7 @@
 ---
 title: DocumentPartSaving
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Called when Aspose.Words is about to save a document part.
 type: docs
 weight: 10
 url: /net/aspose.words.saving/idocumentpartsavingcallback/documentpartsaving/

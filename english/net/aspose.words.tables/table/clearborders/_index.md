@@ -1,7 +1,7 @@
 ---
 title: ClearBorders
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Removes all table and cell borders on this table.
 type: docs
 weight: 370
 url: /net/aspose.words.tables/table/clearborders/

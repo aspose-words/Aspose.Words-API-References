@@ -1,7 +1,7 @@
 ---
 title: EntryIdentifier
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets a string that should match type identifiers of TC fields being included.
 type: docs
 weight: 50
 url: /net/aspose.words.fields/fieldtoc/entryidentifier/

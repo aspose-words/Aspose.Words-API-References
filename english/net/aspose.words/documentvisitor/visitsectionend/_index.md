@@ -1,7 +1,7 @@
 ---
 title: VisitSectionEnd
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Called when enumeration of a section has ended.
 type: docs
 weight: 370
 url: /net/aspose.words/documentvisitor/visitsectionend/

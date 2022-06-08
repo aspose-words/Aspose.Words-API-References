@@ -1,7 +1,7 @@
 ---
 title: PaperSize
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets the paper size as enumeration.
 type: docs
 weight: 30
 url: /net/aspose.words.rendering/pageinfo/papersize/

@@ -1,7 +1,7 @@
 ---
 title: Item
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets Forms2OleControlaspose.words.drawing.ole/forms2olecontrol object at specified index.
 type: docs
 weight: 30
 url: /net/aspose.words.drawing.ole/forms2olecontrolcollection/item/

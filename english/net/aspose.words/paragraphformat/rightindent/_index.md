@@ -1,7 +1,7 @@
 ---
 title: RightIndent
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets the value in points that represents the right indent for paragraph.
 type: docs
 weight: 260
 url: /net/aspose.words/paragraphformat/rightindent/

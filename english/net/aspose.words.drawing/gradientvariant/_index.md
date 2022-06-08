@@ -1,7 +1,7 @@
 ---
 title: GradientVariant
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies the variant for a gradient fill.
 type: docs
 weight: 880
 url: /net/aspose.words.drawing/gradientvariant/

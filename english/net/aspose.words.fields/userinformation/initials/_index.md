@@ -1,7 +1,7 @@
 ---
 title: Initials
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets the users initials.
 type: docs
 weight: 40
 url: /net/aspose.words.fields/userinformation/initials/

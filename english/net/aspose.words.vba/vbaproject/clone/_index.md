@@ -1,7 +1,7 @@
 ---
 title: Clone
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Performs a copy of the VbaProjectaspose.words.vba/vbaproject.
 type: docs
 weight: 70
 url: /net/aspose.words.vba/vbaproject/clone/

@@ -1,7 +1,7 @@
 ---
 title: VisitFootnoteStart
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Called when enumeration of a footnote or endnote text has started.
 type: docs
 weight: 220
 url: /net/aspose.words/documentvisitor/visitfootnotestart/

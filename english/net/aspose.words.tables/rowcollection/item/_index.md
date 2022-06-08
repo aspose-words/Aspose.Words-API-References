@@ -1,7 +1,7 @@
 ---
 title: Item
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Retrieves a Row at the given index.
 type: docs
 weight: 10
 url: /net/aspose.words.tables/rowcollection/item/

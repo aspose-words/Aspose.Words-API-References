@@ -1,7 +1,7 @@
 ---
 title: FillType
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies fill type for a fillable object.
 type: docs
 weight: 830
 url: /net/aspose.words.drawing/filltype/

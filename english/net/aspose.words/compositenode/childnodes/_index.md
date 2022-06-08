@@ -1,7 +1,7 @@
 ---
 title: ChildNodes
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets all immediate child nodes of this node.
 type: docs
 weight: 10
 url: /net/aspose.words/compositenode/childnodes/

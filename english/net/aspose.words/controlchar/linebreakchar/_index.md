@@ -1,7 +1,7 @@
 ---
 title: LineBreakChar
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Line break character char11 or v.
 type: docs
 weight: 130
 url: /net/aspose.words/controlchar/linebreakchar/

@@ -1,7 +1,7 @@
 ---
 title: ChildNodes
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets collection of immediate child controls.
 type: docs
 weight: 20
 url: /net/aspose.words.drawing.ole/forms2olecontrol/childnodes/

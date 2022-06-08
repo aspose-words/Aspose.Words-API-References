@@ -1,7 +1,7 @@
 ---
 title: ActiveRecord
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies the one-based index of the record from the data source which shall be displayed in Microsoft Word. The default value is 1.
 type: docs
 weight: 20
 url: /net/aspose.words.settings/mailmergesettings/activerecord/

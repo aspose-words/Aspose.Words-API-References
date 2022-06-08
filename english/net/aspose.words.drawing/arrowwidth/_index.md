@@ -1,7 +1,7 @@
 ---
 title: ArrowWidth
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Width of the arrow at the end of a line.
 type: docs
 weight: 490
 url: /net/aspose.words.drawing/arrowwidth/

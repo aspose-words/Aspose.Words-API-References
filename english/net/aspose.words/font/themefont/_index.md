@@ -1,7 +1,7 @@
 ---
 title: ThemeFont
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets the theme font in the applied font scheme that is associated with this Font object.
 type: docs
 weight: 470
 url: /net/aspose.words/font/themefont/

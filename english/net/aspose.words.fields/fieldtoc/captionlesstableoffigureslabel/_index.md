@@ -1,7 +1,7 @@
 ---
 title: CaptionlessTableOfFiguresLabel
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets the name of the sequence identifier used when building a table of figures that does not include captions label and number.
 type: docs
 weight: 30
 url: /net/aspose.words.fields/fieldtoc/captionlesstableoffigureslabel/

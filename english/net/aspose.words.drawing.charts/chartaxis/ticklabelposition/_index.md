@@ -1,7 +1,7 @@
 ---
 title: TickLabelPosition
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Returns or sets the position of the tick labels on the axis.
 type: docs
 weight: 220
 url: /net/aspose.words.drawing.charts/chartaxis/ticklabelposition/

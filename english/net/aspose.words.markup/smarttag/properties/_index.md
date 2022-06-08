@@ -1,7 +1,7 @@
 ---
 title: Properties
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: A collection of the smart tag properties.
 type: docs
 weight: 40
 url: /net/aspose.words.markup/smarttag/properties/

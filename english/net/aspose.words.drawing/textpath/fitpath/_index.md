@@ -1,7 +1,7 @@
 ---
 title: FitPath
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Defines whether the text fits the path of a shape.
 type: docs
 weight: 20
 url: /net/aspose.words.drawing/textpath/fitpath/

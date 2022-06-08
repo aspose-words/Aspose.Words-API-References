@@ -1,7 +1,7 @@
 ---
 title: HeadingsOutlineLevels
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies how many levels of headings paragraphs formatted with the Heading styles to include in the document outline.
 type: docs
 weight: 70
 url: /net/aspose.words.saving/outlineoptions/headingsoutlinelevels/

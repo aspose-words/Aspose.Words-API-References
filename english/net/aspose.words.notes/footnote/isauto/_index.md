@@ -1,7 +1,7 @@
 ---
 title: IsAuto
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Holds a value that specifies whether this is a auto-numbered footnote or footnote with user defined custom reference mark.
 type: docs
 weight: 30
 url: /net/aspose.words.notes/footnote/isauto/

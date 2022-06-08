@@ -1,7 +1,7 @@
 ---
 title: CanHaveImage
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Returns true if the shape type allows the shape to have an image.
 type: docs
 weight: 100
 url: /net/aspose.words.drawing/shapebase/canhaveimage/

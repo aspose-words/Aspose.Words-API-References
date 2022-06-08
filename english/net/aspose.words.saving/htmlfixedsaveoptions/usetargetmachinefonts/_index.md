@@ -1,7 +1,7 @@
 ---
 title: UseTargetMachineFonts
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Flag indicates whether fonts from target machine must be used to display the document. If this flag is set to true FontFormataspose.words.saving/htmlfixedsaveoptions/fontformat and ExportEmbeddedFontsaspose.words.saving/htmlfixedsaveoptions/exportembeddedfonts properties do not have effect also ResourceSavingCallbackaspose.words.saving/htmlfixedsaveoptions/resourcesavingcallback is not fired for fonts. Default is false.
 type: docs
 weight: 190
 url: /net/aspose.words.saving/htmlfixedsaveoptions/usetargetmachinefonts/

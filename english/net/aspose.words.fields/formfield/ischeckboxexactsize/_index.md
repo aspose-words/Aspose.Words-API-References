@@ -1,7 +1,7 @@
 ---
 title: IsCheckBoxExactSize
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets the boolean value that indicates whether the size of the textbox is automatic or specified explicitly.
 type: docs
 weight: 110
 url: /net/aspose.words.fields/formfield/ischeckboxexactsize/

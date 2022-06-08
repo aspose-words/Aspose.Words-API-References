@@ -1,7 +1,7 @@
 ---
 title: PreviousPreOrder
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets the previous node according to the pre-order tree traversal algorithm.
 type: docs
 weight: 140
 url: /net/aspose.words/node/previouspreorder/

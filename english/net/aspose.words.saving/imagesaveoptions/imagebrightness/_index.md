@@ -1,7 +1,7 @@
 ---
 title: ImageBrightness
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets the brightness for the generated images.
 type: docs
 weight: 40
 url: /net/aspose.words.saving/imagesaveoptions/imagebrightness/

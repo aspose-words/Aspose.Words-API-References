@@ -1,7 +1,7 @@
 ---
 title: Level
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets the level at which this SDT occurs in the document tree.
 type: docs
 weight: 170
 url: /net/aspose.words.markup/structureddocumenttag/level/

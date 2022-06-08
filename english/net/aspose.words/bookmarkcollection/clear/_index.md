@@ -1,7 +1,7 @@
 ---
 title: Clear
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Removes all bookmarks from this collection and from the document.
 type: docs
 weight: 30
 url: /net/aspose.words/bookmarkcollection/clear/

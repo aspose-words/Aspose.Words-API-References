@@ -1,7 +1,7 @@
 ---
 title: VisitOfficeMathStart
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Called when enumeration of a Office Math object has started.
 type: docs
 weight: 310
 url: /net/aspose.words/documentvisitor/visitofficemathstart/

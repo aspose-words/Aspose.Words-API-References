@@ -1,7 +1,7 @@
 ---
 title: Dark2
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies color Dark 2.
 type: docs
 weight: 80
 url: /net/aspose.words.themes/themecolors/dark2/

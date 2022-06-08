@@ -1,7 +1,7 @@
 ---
 title: PackageCustomParts
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets the collection of custom parts arbitrary content that are linked to the OOXML package using unknown relationships.
 type: docs
 weight: 290
 url: /net/aspose.words/document/packagecustomparts/

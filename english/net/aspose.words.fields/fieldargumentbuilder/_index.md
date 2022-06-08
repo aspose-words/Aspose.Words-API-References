@@ -1,7 +1,7 @@
 ---
 title: FieldArgumentBuilder
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Builds a complex field argument consisting of fields nodes and plain text.
 type: docs
 weight: 1380
 url: /net/aspose.words.fields/fieldargumentbuilder/

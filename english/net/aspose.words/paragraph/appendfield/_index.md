@@ -1,12 +1,12 @@
 ---
 title: AppendField
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Appends a field to this paragraph.
 type: docs
 weight: 240
 url: /net/aspose.words/paragraph/appendfield/
 ---
-## Paragraph.AppendField method (1 of 3)
+## AppendField(FieldType, bool) {#appendfield}
 
 Appends a field to this paragraph.
 
@@ -61,7 +61,7 @@ doc.Save(ArtifactsDir + "Paragraph.AppendField.docx");
 
 ---
 
-## Paragraph.AppendField method (2 of 3)
+## AppendField(string) {#appendfield_1}
 
 Appends a field to this paragraph.
 
@@ -114,7 +114,7 @@ doc.Save(ArtifactsDir + "Paragraph.AppendField.docx");
 
 ---
 
-## Paragraph.AppendField method (3 of 3)
+## AppendField(string, string) {#appendfield_2}
 
 Appends a field to this paragraph.
 

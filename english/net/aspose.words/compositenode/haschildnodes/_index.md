@@ -1,7 +1,7 @@
 ---
 title: HasChildNodes
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Returns true if this node has any child nodes.
 type: docs
 weight: 40
 url: /net/aspose.words/compositenode/haschildnodes/

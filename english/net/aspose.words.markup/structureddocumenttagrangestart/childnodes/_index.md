@@ -1,7 +1,7 @@
 ---
 title: ChildNodes
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets all nodes between this range start node and the range end node.
 type: docs
 weight: 20
 url: /net/aspose.words.markup/structureddocumenttagrangestart/childnodes/

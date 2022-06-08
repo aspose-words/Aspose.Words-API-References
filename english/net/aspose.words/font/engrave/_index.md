@@ -1,7 +1,7 @@
 ---
 title: Engrave
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: True if the font is formatted as engraved.
 type: docs
 weight: 120
 url: /net/aspose.words/font/engrave/

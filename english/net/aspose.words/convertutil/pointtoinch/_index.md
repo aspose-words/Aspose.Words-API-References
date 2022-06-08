@@ -1,7 +1,7 @@
 ---
 title: PointToInch
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Converts points to inches.
 type: docs
 weight: 50
 url: /net/aspose.words/convertutil/pointtoinch/

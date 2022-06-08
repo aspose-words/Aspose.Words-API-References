@@ -1,7 +1,7 @@
 ---
 title: Type
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies whether the module is a procedural module document module class module or designer module.
 type: docs
 weight: 40
 url: /net/aspose.words.vba/vbamodule/type/

@@ -1,7 +1,7 @@
 ---
 title: TickLabelAlignment
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets text alignment of axis tick labels.
 type: docs
 weight: 200
 url: /net/aspose.words.drawing.charts/chartaxis/ticklabelalignment/

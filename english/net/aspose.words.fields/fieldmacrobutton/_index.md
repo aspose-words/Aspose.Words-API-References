@@ -1,7 +1,7 @@
 ---
 title: FieldMacroButton
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Implements the MACROBUTTON field.
 type: docs
 weight: 1940
 url: /net/aspose.words.fields/fieldmacrobutton/

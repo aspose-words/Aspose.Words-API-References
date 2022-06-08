@@ -1,7 +1,7 @@
 ---
 title: LinesPerPage
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets the number of lines per page in the document grid.
 type: docs
 weight: 240
 url: /net/aspose.words/pagesetup/linesperpage/

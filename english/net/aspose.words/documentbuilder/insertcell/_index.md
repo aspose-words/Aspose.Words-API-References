@@ -1,7 +1,7 @@
 ---
 title: InsertCell
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Inserts a table cell into the document.
 type: docs
 weight: 250
 url: /net/aspose.words/documentbuilder/insertcell/

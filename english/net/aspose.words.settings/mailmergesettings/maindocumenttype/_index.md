@@ -1,7 +1,7 @@
 ---
 title: MainDocumentType
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies the mail-merge main document type. The default value is Default.
 type: docs
 weight: 140
 url: /net/aspose.words.settings/mailmergesettings/maindocumenttype/

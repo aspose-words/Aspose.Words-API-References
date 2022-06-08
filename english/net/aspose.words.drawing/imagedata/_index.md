@@ -1,7 +1,7 @@
 ---
 title: ImageData
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Defines an image for a shape.
 type: docs
 weight: 930
 url: /net/aspose.words.drawing/imagedata/
@@ -41,11 +41,11 @@ public class ImageData
 
 | Name | Description |
 | --- | --- |
-| [Save](../../aspose.words.drawing/imagedata/save)(Stream) | Saves the image into the specified stream. |
-| [Save](../../aspose.words.drawing/imagedata/save)(string) | Saves the image into a file. |
-| [SetImage](../../aspose.words.drawing/imagedata/setimage)(Image) | Sets the image that the shape displays. |
-| [SetImage](../../aspose.words.drawing/imagedata/setimage)(Stream) | Sets the image that the shape displays. |
-| [SetImage](../../aspose.words.drawing/imagedata/setimage)(string) | Sets the image that the shape displays. |
+| [Save](../../aspose.words.drawing/imagedata/save#save)(Stream) | Saves the image into the specified stream. |
+| [Save](../../aspose.words.drawing/imagedata/save#save_1)(string) | Saves the image into a file. |
+| [SetImage](../../aspose.words.drawing/imagedata/setimage#setimage)(Image) | Sets the image that the shape displays. |
+| [SetImage](../../aspose.words.drawing/imagedata/setimage#setimage_1)(Stream) | Sets the image that the shape displays. |
+| [SetImage](../../aspose.words.drawing/imagedata/setimage#setimage_2)(string) | Sets the image that the shape displays. |
 | [ToByteArray](../../aspose.words.drawing/imagedata/tobytearray)() | Returns image bytes for any image regardless whether the image is stored or linked. |
 | [ToImage](../../aspose.words.drawing/imagedata/toimage)() | Gets the image stored in the shape as a Image object. |
 | [ToStream](../../aspose.words.drawing/imagedata/tostream)() | Creates and returns a stream that contains the image bytes. |

@@ -1,12 +1,12 @@
 ---
 title: HtmlLoadOptions
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Initializes a new instance of this class with default values.
 type: docs
 weight: 10
 url: /net/aspose.words.loading/htmlloadoptions/htmlloadoptions/
 ---
-## HtmlLoadOptions constructor (1 of 3)
+## HtmlLoadOptions() {#constructor}
 
 Initializes a new instance of this class with default values.
 
@@ -44,7 +44,7 @@ else
 
 ---
 
-## HtmlLoadOptions constructor (2 of 3)
+## HtmlLoadOptions(string) {#constructor_2}
 
 A shortcut to initialize a new instance of this class with the specified password to load an encrypted document.
 
@@ -94,7 +94,7 @@ Assert.AreEqual("Test encrypted document.", doc.GetText().Trim());
 
 ---
 
-## HtmlLoadOptions constructor (3 of 3)
+## HtmlLoadOptions(LoadFormat, string, string) {#constructor_1}
 
 A shortcut to initialize a new instance of this class with properties set to the specified values.
 

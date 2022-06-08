@@ -1,7 +1,7 @@
 ---
 title: CustomTimeZoneInfo
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets custom local time zone used for date/time fields.
 type: docs
 weight: 30
 url: /net/aspose.words.saving/saveoptions/customtimezoneinfo/

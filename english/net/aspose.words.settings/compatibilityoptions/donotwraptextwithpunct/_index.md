@@ -1,7 +1,7 @@
 ---
 title: DoNotWrapTextWithPunct
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Do Not Allow Hanging Punctuation With Character Grid.
 type: docs
 weight: 250
 url: /net/aspose.words.settings/compatibilityoptions/donotwraptextwithpunct/

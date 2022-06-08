@@ -1,7 +1,7 @@
 ---
 title: FieldIncludeText
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Implements the INCLUDETEXT field.
 type: docs
 weight: 1860
 url: /net/aspose.words.fields/fieldincludetext/

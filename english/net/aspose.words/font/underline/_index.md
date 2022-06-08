@@ -1,7 +1,7 @@
 ---
 title: Underline
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets the type of underline applied to the font.
 type: docs
 weight: 530
 url: /net/aspose.words/font/underline/

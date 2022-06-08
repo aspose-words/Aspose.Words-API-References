@@ -1,7 +1,7 @@
 ---
 title: ImageBytes
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets the raw bytes of the fill texture or pattern.
 type: docs
 weight: 80
 url: /net/aspose.words.drawing/fill/imagebytes/

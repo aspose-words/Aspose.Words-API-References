@@ -1,7 +1,7 @@
 ---
 title: ParentNode
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets the immediate parent of this node.
 type: docs
 weight: 60
 url: /net/aspose.words/node/parentnode/

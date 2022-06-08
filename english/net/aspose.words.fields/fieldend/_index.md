@@ -1,7 +1,7 @@
 ---
 title: FieldEnd
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Represents an end of a Word field in a document.
 type: docs
 weight: 1670
 url: /net/aspose.words.fields/fieldend/

@@ -1,7 +1,7 @@
 ---
 title: ApplyFont
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Text formatting applied to new content.
 type: docs
 weight: 20
 url: /net/aspose.words.replacing/findreplaceoptions/applyfont/

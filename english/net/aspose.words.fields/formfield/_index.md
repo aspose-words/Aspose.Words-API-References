@@ -1,7 +1,7 @@
 ---
 title: FormField
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Represents a single form field.
 type: docs
 weight: 2420
 url: /net/aspose.words.fields/formfield/

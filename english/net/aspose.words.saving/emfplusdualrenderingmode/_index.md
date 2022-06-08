@@ -1,7 +1,7 @@
 ---
 title: EmfPlusDualRenderingMode
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies how Aspose.Words should render EMF Dual metafiles.
 type: docs
 weight: 4670
 url: /net/aspose.words.saving/emfplusdualrenderingmode/

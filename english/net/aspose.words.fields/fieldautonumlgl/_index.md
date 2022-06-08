@@ -1,7 +1,7 @@
 ---
 title: FieldAutoNumLgl
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Implements the AUTONUMLGL field.
 type: docs
 weight: 1420
 url: /net/aspose.words.fields/fieldautonumlgl/

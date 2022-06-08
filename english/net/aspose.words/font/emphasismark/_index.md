@@ -1,7 +1,7 @@
 ---
 title: EmphasisMark
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets the emphasis mark applied to this formatting.
 type: docs
 weight: 110
 url: /net/aspose.words/font/emphasismark/

@@ -1,7 +1,7 @@
 ---
 title: TextOrientation
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Allows to specify TextOrientationaspose.words/pagesetup/textorientation for the whole page. Default value is Horizontal
 type: docs
 weight: 420
 url: /net/aspose.words/pagesetup/textorientation/

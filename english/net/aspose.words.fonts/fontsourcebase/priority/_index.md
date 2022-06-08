@@ -1,7 +1,7 @@
 ---
 title: Priority
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Returns the font source priority.
 type: docs
 weight: 10
 url: /net/aspose.words.fonts/fontsourcebase/priority/

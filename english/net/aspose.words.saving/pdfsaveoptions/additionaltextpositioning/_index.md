@@ -1,7 +1,7 @@
 ---
 title: AdditionalTextPositioning
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: A flag specifying whether to write additional text positioning operators or not.
 type: docs
 weight: 20
 url: /net/aspose.words.saving/pdfsaveoptions/additionaltextpositioning/

@@ -1,7 +1,7 @@
 ---
 title: Shading
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Contains shading attributes for an object.
 type: docs
 weight: 5640
 url: /net/aspose.words/shading/
@@ -27,8 +27,8 @@ public class Shading : InternableComplexAttr
 | Name | Description |
 | --- | --- |
 | [ClearFormatting](../../aspose.words/shading/clearformatting)() | Removes shading from the object. |
-| override [Equals](../../aspose.words/shading/equals)(object) | Determines whether the specified object is equal in value to the current object. |
-| [Equals](../../aspose.words/shading/equals)(Shading) | Determines whether the specified Shading is equal in value to the current Shading. |
+| override [Equals](../../aspose.words/shading/equals#equals_1)(object) | Determines whether the specified object is equal in value to the current object. |
+| [Equals](../../aspose.words/shading/equals#equals)(Shading) | Determines whether the specified Shading is equal in value to the current Shading. |
 | override [GetHashCode](../../aspose.words/shading/gethashcode)() | Serves as a hash function for this type. |
 
 ## Examples

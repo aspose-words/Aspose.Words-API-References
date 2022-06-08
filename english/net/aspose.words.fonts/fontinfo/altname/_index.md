@@ -1,7 +1,7 @@
 ---
 title: AltName
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets the alternate name for the font.
 type: docs
 weight: 10
 url: /net/aspose.words.fonts/fontinfo/altname/

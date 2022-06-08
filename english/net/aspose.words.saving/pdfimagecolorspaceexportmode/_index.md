@@ -1,7 +1,7 @@
 ---
 title: PdfImageColorSpaceExportMode
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Specifies how the color space will be selected for the images in PDF document.
 type: docs
 weight: 5150
 url: /net/aspose.words.saving/pdfimagecolorspaceexportmode/

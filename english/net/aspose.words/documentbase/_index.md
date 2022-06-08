@@ -1,7 +1,7 @@
 ---
 title: DocumentBase
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Provides the abstract base class for a main document and a glossary document of a Word document.
 type: docs
 weight: 430
 url: /net/aspose.words/documentbase/
@@ -54,8 +54,8 @@ public abstract class DocumentBase : CompositeNode
 | [GetChildNodes](../../aspose.words/compositenode/getchildnodes)(NodeType, bool) | Returns a live collection of child nodes that match the specified type. |
 | [GetEnumerator](../../aspose.words/compositenode/getenumerator)() | Provides support for the for each style iteration over the child nodes of this node. |
 | override [GetText](../../aspose.words/compositenode/gettext)() | Gets the text of this node and of all its children. |
-| [ImportNode](../../aspose.words/documentbase/importnode)(Node, bool) | Imports a node from another document to the current document. |
-| [ImportNode](../../aspose.words/documentbase/importnode)(Node, bool, ImportFormatMode) | Imports a node from another document to the current document with an option to control formatting. |
+| [ImportNode](../../aspose.words/documentbase/importnode#importnode)(Node, bool) | Imports a node from another document to the current document. |
+| [ImportNode](../../aspose.words/documentbase/importnode#importnode_1)(Node, bool, ImportFormatMode) | Imports a node from another document to the current document with an option to control formatting. |
 | [IndexOf](../../aspose.words/compositenode/indexof)(Node) | Returns the index of the specified child node in the child node array. |
 | [InsertAfter](../../aspose.words/compositenode/insertafter)(Node, Node) | Inserts the specified node immediately after the specified reference node. |
 | [InsertBefore](../../aspose.words/compositenode/insertbefore)(Node, Node) | Inserts the specified node immediately before the specified reference node. |

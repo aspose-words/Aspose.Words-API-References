@@ -1,7 +1,7 @@
 ---
 title: Item
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets a font with the specified name.
 type: docs
 weight: 40
 url: /net/aspose.words.fonts/fontinfocollection/item/

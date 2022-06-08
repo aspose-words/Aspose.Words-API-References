@@ -1,7 +1,7 @@
 ---
 title: IsImageAvailable
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Returns true if the current image is available for export.
 type: docs
 weight: 50
 url: /net/aspose.words.saving/imagesavingargs/isimageavailable/

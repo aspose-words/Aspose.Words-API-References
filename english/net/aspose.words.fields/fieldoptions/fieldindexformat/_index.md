@@ -1,7 +1,7 @@
 ---
 title: FieldIndexFormat
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Gets or sets a FieldIndexFormataspose.words.fields/fieldoptions/fieldindexformat that represents the formatting for the FieldIndexaspose.words.fields/fieldindex fields in the document.
 type: docs
 weight: 70
 url: /net/aspose.words.fields/fieldoptions/fieldindexformat/

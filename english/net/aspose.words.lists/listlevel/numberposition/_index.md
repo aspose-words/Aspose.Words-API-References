@@ -1,7 +1,7 @@
 ---
 title: NumberPosition
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Returns or sets the position in points of the number or bullet for the list level.
 type: docs
 weight: 80
 url: /net/aspose.words.lists/listlevel/numberposition/

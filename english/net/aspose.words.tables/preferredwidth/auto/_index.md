@@ -1,7 +1,7 @@
 ---
 title: Auto
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Returns an instance that represents the preferred width is not specified value.
 type: docs
 weight: 10
 url: /net/aspose.words.tables/preferredwidth/auto/
