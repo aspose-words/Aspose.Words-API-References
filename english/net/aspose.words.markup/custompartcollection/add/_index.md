@@ -18,7 +18,7 @@ public void Add(CustomPart part)
 | --- | --- | --- |
 | part | CustomPart | The item to add. |
 
-## Examples
+### Examples
 
 Shows how to access a document's arbitrary custom parts collection.
 

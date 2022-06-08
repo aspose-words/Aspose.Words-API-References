@@ -14,11 +14,11 @@ Defines a second color for a stroke.
 public Color Color2 { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 The default value for a [`Shape`](../../shape) is White.
 
-## Examples
+### Examples
 
 Shows how to process shape stroke features.
 

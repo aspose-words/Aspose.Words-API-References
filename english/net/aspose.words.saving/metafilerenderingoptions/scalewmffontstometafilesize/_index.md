@@ -14,7 +14,7 @@ Gets or sets a value determining whether or not to scale fonts in WMF metafile a
 public bool ScaleWmfFontsToMetafileSize { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 When WMF metafiles are displayed in MS Word, fonts may be scaled according to actual metafile size on the page.
 
@@ -26,7 +26,7 @@ This option is used only when metafile is rendered as vector graphics.
 
 The default value is `true`.
 
-## Examples
+### Examples
 
 Shows how to WMF fonts scaling according to metafile size on the page.
 

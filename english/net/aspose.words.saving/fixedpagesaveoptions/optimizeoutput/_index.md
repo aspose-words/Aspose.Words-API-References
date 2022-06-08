@@ -14,7 +14,7 @@ Flag indicates whether it is required to optimize output. If this flag is set re
 public virtual bool OptimizeOutput { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to optimize document objects while saving to xps.
 

@@ -14,7 +14,7 @@ Gets or sets a value determining the quality of the JPEG images inside Html docu
 public int JpegQuality { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 Has effect only when a document contains JPEG images.
 
@@ -22,7 +22,7 @@ Use this property to get or set the quality of the images inside a document when
 
 The default value is 95.
 
-## Examples
+### Examples
 
 Shows how to configure compression while saving a document as a JPEG.
 

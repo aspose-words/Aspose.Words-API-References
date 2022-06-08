@@ -46,11 +46,11 @@ public class FieldSection : Field
 | [Update](../../aspose.words.fields/field/update)() | Performs the field update. Throws if the field is being updated already. |
 | [Update](../../aspose.words.fields/field/update)(bool) | Performs a field update. Throws if the field is being updated already. |
 
-## Remarks
+### Remarks
 
 Retrieves the number of the current section.
 
-## Examples
+### Examples
 
 Shows how to use SECTION and SECTIONPAGES fields to number pages by sections.
 

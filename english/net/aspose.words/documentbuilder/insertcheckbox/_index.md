@@ -6,7 +6,7 @@ type: docs
 weight: 270
 url: /net/aspose.words/documentbuilder/insertcheckbox/
 ---
-## DocumentBuilder.InsertCheckBox method (1 of 2)
+## InsertCheckBox(string, bool, int) {#insertcheckbox_1}
 
 Inserts a checkbox form field at the current position.
 
@@ -24,11 +24,11 @@ public FormField InsertCheckBox(string name, bool checkedValue, int size)
 
 The form field node that was just inserted.
 
-## Remarks
+### Remarks
 
 If you specify a name for the form field, then a bookmark is automatically created with the same name.
 
-## Examples
+### Examples
 
 Shows how to insert checkboxes into the document.
 
@@ -64,7 +64,7 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertCheckBox.docx");
 
 ---
 
-## DocumentBuilder.InsertCheckBox method (2 of 2)
+## InsertCheckBox(string, bool, bool, int) {#insertcheckbox}
 
 Inserts a checkbox form field at the current position.
 
@@ -83,11 +83,11 @@ public FormField InsertCheckBox(string name, bool defaultValue, bool checkedValu
 
 The form field node that was just inserted.
 
-## Remarks
+### Remarks
 
 If you specify a name for the form field, then a bookmark is automatically created with the same name.
 
-## Examples
+### Examples
 
 Shows how to insert checkboxes into the document.
 

@@ -14,7 +14,7 @@ Deletes all shapes from the text of this story.
 public void DeleteShapes()
 ```
 
-## Examples
+### Examples
 
 Shows how to remove all shapes from a node.
 

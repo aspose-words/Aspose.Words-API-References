@@ -14,7 +14,7 @@ Gets or sets whether to search from the bottom of the current page, rather from 
 public bool SearchFromBottom { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to use STYLEREF fields.
 

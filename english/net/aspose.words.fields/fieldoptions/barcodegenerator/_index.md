@@ -14,11 +14,11 @@ Gets or set custom barcode generator.
 public IBarcodeGenerator BarcodeGenerator { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 Custom barcode generator should implement public interface [`IBarcodeGenerator`](../../ibarcodegenerator).
 
-## Examples
+### Examples
 
 Shows how to use a barcode generator.
 

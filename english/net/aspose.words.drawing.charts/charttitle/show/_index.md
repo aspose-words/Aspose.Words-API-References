@@ -14,7 +14,7 @@ Determines whether the title shall be shown for this chart. Default value is tru
 public bool Show { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to insert a chart and set a title.
 

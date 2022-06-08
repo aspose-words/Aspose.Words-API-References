@@ -14,7 +14,7 @@ Gets or sets which attributes of the format are to be applied to the table.
 public string FormatAttributes { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to extract data from a database and insert it as a field into a document.
 

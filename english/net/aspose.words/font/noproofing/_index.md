@@ -14,7 +14,7 @@ True when the formatted characters are not to be spell checked.
 public bool NoProofing { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to prevent text from being spell checked by Microsoft Word.
 

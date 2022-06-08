@@ -19,7 +19,7 @@ public void SetMeteredKey(string publicKey, string privateKey)
 | publicKey | String | public key |
 | privateKey | String | private key |
 
-## Examples
+### Examples
 
 Shows how to activate a Metered license and track credit/consumption.
 

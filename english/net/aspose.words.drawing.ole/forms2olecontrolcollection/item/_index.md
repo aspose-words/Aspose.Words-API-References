@@ -14,7 +14,7 @@ Gets [`Forms2OleControl`](../../forms2olecontrol) object at specified index.
 public Forms2OleControl this[int index] { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to access an OLE control embedded in a document and its child controls.
 

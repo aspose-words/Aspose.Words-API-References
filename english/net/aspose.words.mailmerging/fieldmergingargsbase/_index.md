@@ -26,7 +26,7 @@ public abstract class FieldMergingArgsBase
 | [RecordIndex](../../aspose.words.mailmerging/fieldmergingargsbase/recordindex) { get; } | Gets the zero based index of the record that is being merged. |
 | [TableName](../../aspose.words.mailmerging/fieldmergingargsbase/tablename) { get; } | Gets the name of the data table for the current merge operation or empty string if the name is not available. |
 
-## Examples
+### Examples
 
 Shows how to execute a mail merge with a custom callback that handles merge data in the form of HTML documents.
 

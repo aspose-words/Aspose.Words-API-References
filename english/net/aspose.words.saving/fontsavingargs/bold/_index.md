@@ -14,7 +14,7 @@ Indicates whether the current font is bold.
 public bool Bold { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to define custom logic for exporting fonts when saving to HTML.
 

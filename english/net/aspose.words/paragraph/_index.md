@@ -64,9 +64,9 @@ public class Paragraph : CompositeNode
 | --- | --- |
 | override [Accept](../../aspose.words/paragraph/accept)(DocumentVisitor) | Accepts a visitor. |
 | [AppendChild](../../aspose.words/compositenode/appendchild)(Node) | Adds the specified node to the end of the list of child nodes for this node. |
-| [AppendField](../../aspose.words/paragraph/appendfield)(string) | Appends a field to this paragraph. |
-| [AppendField](../../aspose.words/paragraph/appendfield)(FieldType, bool) | Appends a field to this paragraph. |
-| [AppendField](../../aspose.words/paragraph/appendfield)(string, string) | Appends a field to this paragraph. |
+| [AppendField](../../aspose.words/paragraph/appendfield#appendfield_1)(string) | Appends a field to this paragraph. |
+| [AppendField](../../aspose.words/paragraph/appendfield#appendfield)(FieldType, bool) | Appends a field to this paragraph. |
+| [AppendField](../../aspose.words/paragraph/appendfield#appendfield_2)(string, string) | Appends a field to this paragraph. |
 | [Clone](../../aspose.words/node/clone)(bool) | Creates a duplicate of the node. |
 | [CreateNavigator](../../aspose.words/compositenode/createnavigator)() | Reserved for system use. IXPathNavigable. |
 | [GetAncestor](../../aspose.words/node/getancestor)(NodeType) | Gets the first ancestor of the specified [`NodeType`](../nodetype). |
@@ -79,9 +79,9 @@ public class Paragraph : CompositeNode
 | [IndexOf](../../aspose.words/compositenode/indexof)(Node) | Returns the index of the specified child node in the child node array. |
 | [InsertAfter](../../aspose.words/compositenode/insertafter)(Node, Node) | Inserts the specified node immediately after the specified reference node. |
 | [InsertBefore](../../aspose.words/compositenode/insertbefore)(Node, Node) | Inserts the specified node immediately before the specified reference node. |
-| [InsertField](../../aspose.words/paragraph/insertfield)(string, Node, bool) | Inserts a field into this paragraph. |
-| [InsertField](../../aspose.words/paragraph/insertfield)(FieldType, bool, Node, bool) | Inserts a field into this paragraph. |
-| [InsertField](../../aspose.words/paragraph/insertfield)(string, string, Node, bool) | Inserts a field into this paragraph. |
+| [InsertField](../../aspose.words/paragraph/insertfield#insertfield_1)(string, Node, bool) | Inserts a field into this paragraph. |
+| [InsertField](../../aspose.words/paragraph/insertfield#insertfield)(FieldType, bool, Node, bool) | Inserts a field into this paragraph. |
+| [InsertField](../../aspose.words/paragraph/insertfield#insertfield_2)(string, string, Node, bool) | Inserts a field into this paragraph. |
 | [JoinRunsWithSameFormatting](../../aspose.words/paragraph/joinrunswithsameformatting)() | Joins runs with the same formatting in the paragraph. |
 | [NextPreOrder](../../aspose.words/node/nextpreorder)(Node) | Gets next node according to the pre-order tree traversal algorithm. |
 | [PrependChild](../../aspose.words/compositenode/prependchild)(Node) | Adds the specified node to the beginning of the list of child nodes for this node. |
@@ -95,7 +95,7 @@ public class Paragraph : CompositeNode
 | [ToString](../../aspose.words/node/tostring)(SaveFormat) | Exports the content of the node into a string in the specified format. |
 | [ToString](../../aspose.words/node/tostring)(SaveOptions) | Exports the content of the node into a string using the specified save options. |
 
-## Remarks
+### Remarks
 
 [`Paragraph`](../paragraph) is a block-level node and can be a child of classes derived from [`Story`](../story) or [`InlineStory`](../inlinestory).
 
@@ -107,7 +107,7 @@ A valid paragraph in Microsoft Word always ends with a paragraph break character
 
 Do not include the end of paragraph [`ControlChar.ParagraphBreak`](../controlchar/paragraphbreak) or end of cell [`ControlChar.Cell`](../controlchar/cell) characters inside the text of the paragraph as it might make the paragraph invalid when the document is opened in Microsoft Word.
 
-## Examples
+### Examples
 
 Shows how to construct an Aspose.Words document by hand.
 

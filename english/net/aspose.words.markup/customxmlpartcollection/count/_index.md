@@ -14,7 +14,7 @@ Gets the number of elements contained in the collection.
 public int Count { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to create a structured document tag with custom XML data.
 

@@ -14,7 +14,7 @@ Gets or sets a value determining whether or not the raster operations should be 
 public bool EmulateRasterOperations { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 Specific raster operations could be used in metafiles. They can not be rendered directly to vector graphics. Emulating raster operations requires partial rasterization of the resulting vector graphics which may affect the metafile rendering performance.
 
@@ -26,7 +26,7 @@ This option is used only when metafile is rendered as vector graphics.
 
 The default value is `true`.
 
-## Examples
+### Examples
 
 Shows added a fallback to bitmap rendering and changing type of warnings about unsupported metafile records.
 

@@ -18,7 +18,7 @@ public VbaModule this[int index] { get; }
 | --- | --- |
 | index | Zero-based index of the module to retrieve. |
 
-## Examples
+### Examples
 
 Shows how to access a document's VBA project information.
 
@@ -62,7 +62,7 @@ Retrieves a [`VbaModule`](../../vbamodule) object by name, or Null if not found.
 public VbaModule this[string name] { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to access a document's VBA project information.
 

@@ -14,13 +14,13 @@ Gets or sets a double value that lightens or darkens a color.
 public double TintAndShade { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 The allowed values are in range from -1 (darkest) to 1 (lightest) for this property. Zero (0) is neutral. Attempting to set this property to a value less than -1 or more than 1 results in a ArgumentOutOfRangeException.
 
 Setting this property for Font object with non-theme colors results in a InvalidOperationException.
 
-## Examples
+### Examples
 
 Shows how to create and use themed style.
 

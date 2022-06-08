@@ -14,7 +14,7 @@ Gets the number of immediate children of this node.
 public int Count { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to add, update and delete child nodes in a CompositeNode's collection of children.
 

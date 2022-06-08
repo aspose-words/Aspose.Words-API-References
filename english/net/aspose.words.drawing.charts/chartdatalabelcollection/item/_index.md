@@ -14,7 +14,7 @@ Returns [`ChartDataLabel`](../../chartdatalabel) for the specified index.
 public ChartDataLabel this[int index] { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to apply labels to data points in a line chart.
 

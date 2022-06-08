@@ -14,7 +14,7 @@ Specifies the default width value for this task pane instance.
 public double Width { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to add a web extension to a document.
 

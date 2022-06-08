@@ -14,11 +14,11 @@ Gets or sets [`NumeralFormat`](../../numeralformat) used for rendering of numera
 public NumeralFormat NumeralFormat { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 If the value of this property is changed and page layout is already built then [`UpdatePageLayout`](../../../aspose.words/document/updatepagelayout) is invoked automatically to update any changes.
 
-## Examples
+### Examples
 
 Shows how to set the numeral format used when saving to PDF.
 

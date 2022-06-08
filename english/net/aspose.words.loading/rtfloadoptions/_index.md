@@ -42,7 +42,7 @@ public class RtfLoadOptions : LoadOptions
 | [UpdateDirtyFields](../../aspose.words.loading/loadoptions/updatedirtyfields) { get; set; } | Specifies whether to update the fields with the `dirty` attribute. |
 | [WarningCallback](../../aspose.words.loading/loadoptions/warningcallback) { get; set; } | Called during a load operation, when an issue is detected that might result in data or formatting fidelity loss. |
 
-## Examples
+### Examples
 
 Shows how to detect UTF-8 characters while loading an RTF document.
 

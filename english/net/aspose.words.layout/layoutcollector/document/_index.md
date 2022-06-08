@@ -14,11 +14,11 @@ Gets or sets the document this collector instance is attached to.
 public Document Document { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 If you need to access page indexes of the document nodes you need to set this property to point to a document instance, before page layout of the document is built. It is best to set this property to `null` afterwards, otherwise the collector continues to accumulate information from subsequent rebuilds of the document's page layout.
 
-## Examples
+### Examples
 
 Shows how to see the the ranges of pages that a node spans.
 

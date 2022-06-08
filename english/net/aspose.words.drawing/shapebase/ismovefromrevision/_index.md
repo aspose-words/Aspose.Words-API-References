@@ -14,7 +14,7 @@ Returns **true** if this object was moved (deleted) in Microsoft Word while chan
 public bool IsMoveFromRevision { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to identify move revision shapes.
 

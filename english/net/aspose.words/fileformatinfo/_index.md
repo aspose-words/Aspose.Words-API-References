@@ -23,11 +23,11 @@ public class FileFormatInfo
 | [IsEncrypted](../../aspose.words/fileformatinfo/isencrypted) { get; } | Returns true if the document is encrypted and requires a password to open. |
 | [LoadFormat](../../aspose.words/fileformatinfo/loadformat) { get; } | Gets the detected document format. |
 
-## Remarks
+### Remarks
 
 You do not create instances of this class directly. Objects of this class are returned by [`DetectFileFormat`](../fileformatutil/detectfileformat) methods.
 
-## Examples
+### Examples
 
 Shows how to use the FileFormatUtil class to detect the document format and encryption.
 

@@ -14,7 +14,7 @@ Gets or sets OLE Package display name.
 public string DisplayName { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how insert an OLE object into a document.
 

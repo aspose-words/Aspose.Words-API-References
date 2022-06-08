@@ -14,7 +14,7 @@ Gets or sets the type of the document property to insert.
 public string InfoType { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to work with INFO fields.
 

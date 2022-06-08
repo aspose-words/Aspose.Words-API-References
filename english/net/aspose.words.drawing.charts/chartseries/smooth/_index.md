@@ -14,7 +14,7 @@ Allows to specify whether the line connecting the points on the chart shall be s
 public bool Smooth { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to work with data points on a line chart.
 

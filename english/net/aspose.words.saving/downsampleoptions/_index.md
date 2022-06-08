@@ -28,7 +28,7 @@ public class DownsampleOptions
 | [Resolution](../../aspose.words.saving/downsampleoptions/resolution) { get; set; } | Specifies the resolution in pixels per inch which the images should be downsampled to. |
 | [ResolutionThreshold](../../aspose.words.saving/downsampleoptions/resolutionthreshold) { get; set; } | Specifies the threshold resolution in pixels per inch. If resolution of an image in the document is less than threshold value, the downsampling algorithm will not be applied. A value of 0 means the threshold check is not used and all images that can be reduced in size are downsampled. |
 
-## Examples
+### Examples
 
 Shows how to change the resolution of images in the PDF document.
 

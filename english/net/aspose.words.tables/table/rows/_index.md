@@ -14,7 +14,7 @@ Provides typed access to the rows of the table.
 public RowCollection Rows { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to combine the rows from two tables into one.
 

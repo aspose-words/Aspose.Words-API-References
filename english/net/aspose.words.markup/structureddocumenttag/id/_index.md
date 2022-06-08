@@ -14,7 +14,7 @@ Specifies a unique read-only persistent numerical Id for this **SDT**.
 public int Id { get; }
 ```
 
-## Remarks
+### Remarks
 
 Id attribute shall follow these rules:
 
@@ -24,7 +24,7 @@ Id attribute shall follow these rules:
 * During standalone SDT INodeCloningListener) operation new unique ID will be generated for the cloned SDT node.
 * If Id is not specified in the source document, then the SDT node shall have a new unique identifier assigned to it when the document is loaded.
 
-## Examples
+### Examples
 
 Shows how to create a structured document tag in a plain text box and modify its appearance.
 

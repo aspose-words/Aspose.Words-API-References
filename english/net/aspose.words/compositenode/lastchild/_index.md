@@ -14,11 +14,11 @@ Gets the last child of the node.
 public Node LastChild { get; }
 ```
 
-## Remarks
+### Remarks
 
 If there is no last child node, a null is returned.
 
-## Examples
+### Examples
 
 Shows how to use of methods of Node and CompositeNode to remove a section before the last section in the document.
 

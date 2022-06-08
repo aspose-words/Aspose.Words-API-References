@@ -14,11 +14,11 @@ Gets or sets the foreground color of the stroke.
 public Color ForeColor { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 The default value for a [`Shape`](../../shape) is Black.
 
-## Examples
+### Examples
 
 Show how to set marker formatting.
 

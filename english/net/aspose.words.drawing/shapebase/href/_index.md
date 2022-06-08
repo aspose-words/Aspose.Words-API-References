@@ -14,7 +14,7 @@ Gets or sets the full hyperlink address for a shape.
 public string HRef { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 The default value is an empty string.
 
@@ -32,7 +32,7 @@ Bookmark within another document: `https://www.aspose.com/Products/Default.aspx#
 
 Bookmark within this document: `#BookmakName`.
 
-## Examples
+### Examples
 
 Shows how to insert a shape which contains an image, and is also a hyperlink.
 

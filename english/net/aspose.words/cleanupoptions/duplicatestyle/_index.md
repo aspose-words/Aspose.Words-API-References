@@ -14,7 +14,7 @@ Gets/sets a flag indicating whether duplicate styles should be removed from docu
 public bool DuplicateStyle { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to remove duplicated styles from the document.
 

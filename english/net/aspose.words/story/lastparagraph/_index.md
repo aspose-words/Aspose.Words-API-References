@@ -14,7 +14,7 @@ Gets the last paragraph in the story.
 public Paragraph LastParagraph { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to move a DocumentBuilder's cursor position to a specified node.
 

@@ -14,7 +14,7 @@ Gets or sets chart marker size. Default value is 7.
 public int Size { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to work with data points on a line chart.
 

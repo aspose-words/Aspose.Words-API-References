@@ -14,11 +14,11 @@ Gets the unique identifier of the list.
 public int ListId { get; }
 ```
 
-## Remarks
+### Remarks
 
 You do not normally need to use this property. But if you use it, you normally do so in conjunction with the [`GetListByListId`](../../listcollection/getlistbylistid) method to find a list by its identifier.
 
-## Examples
+### Examples
 
 Shows how to verify owner document properties of lists.
 

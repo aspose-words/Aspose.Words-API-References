@@ -14,11 +14,11 @@ Defines the cap style for the end of a stroke.
 public EndCap EndCap { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 The default value is Flat.
 
-## Examples
+### Examples
 
 Shows to create a variety of shapes.
 

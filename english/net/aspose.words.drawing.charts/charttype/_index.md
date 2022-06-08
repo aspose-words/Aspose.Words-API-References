@@ -54,7 +54,7 @@ public enum ChartType
 | Surface | `33` | Surface chart. |
 | Surface3D | `34` | 3D Surface chart. |
 
-## Examples
+### Examples
 
 Shows how to create an appropriate type of chart series for a graph type.
 

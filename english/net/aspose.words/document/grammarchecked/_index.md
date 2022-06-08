@@ -14,11 +14,11 @@ Returns **true** if the document has been checked for grammar.
 public bool GrammarChecked { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 To recheck the grammar in the document, set this property to **false**.
 
-## Examples
+### Examples
 
 Shows how to set spelling or grammar verifying.
 

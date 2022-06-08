@@ -40,27 +40,27 @@ public class MailMerge
 | Name | Description |
 | --- | --- |
 | [DeleteFields](../../aspose.words.mailmerging/mailmerge/deletefields)() | Removes mail merge related fields from the document. |
-| [Execute](../../aspose.words.mailmerging/mailmerge/execute)(DataRow) | Performs mail merge from a DataRow into the document. |
-| [Execute](../../aspose.words.mailmerging/mailmerge/execute)(DataTable) | Performs mail merge from a DataTable into the document. |
-| [Execute](../../aspose.words.mailmerging/mailmerge/execute)(DataView) | Performs mail merge from a DataView into the document. |
-| [Execute](../../aspose.words.mailmerging/mailmerge/execute)(IDataReader) | Performs mail merge from IDataReader into the document. |
-| [Execute](../../aspose.words.mailmerging/mailmerge/execute)(IMailMergeDataSource) | Performs a mail merge from a custom data source. |
-| [Execute](../../aspose.words.mailmerging/mailmerge/execute)(string[], object[]) | Performs a mail merge operation for a single record. |
+| [Execute](../../aspose.words.mailmerging/mailmerge/execute#execute_1)(DataRow) | Performs mail merge from a DataRow into the document. |
+| [Execute](../../aspose.words.mailmerging/mailmerge/execute#execute_2)(DataTable) | Performs mail merge from a DataTable into the document. |
+| [Execute](../../aspose.words.mailmerging/mailmerge/execute#execute_3)(DataView) | Performs mail merge from a DataView into the document. |
+| [Execute](../../aspose.words.mailmerging/mailmerge/execute#execute_4)(IDataReader) | Performs mail merge from IDataReader into the document. |
+| [Execute](../../aspose.words.mailmerging/mailmerge/execute#execute)(IMailMergeDataSource) | Performs a mail merge from a custom data source. |
+| [Execute](../../aspose.words.mailmerging/mailmerge/execute#execute_5)(string[], object[]) | Performs a mail merge operation for a single record. |
 | [ExecuteADO](../../aspose.words.mailmerging/mailmerge/executeado)(object) | Performs mail merge from an ADO Recordset object into the document. |
-| [ExecuteWithRegions](../../aspose.words.mailmerging/mailmerge/executewithregions)(DataSet) | Performs mail merge from a DataSet into a document with mail merge regions. |
-| [ExecuteWithRegions](../../aspose.words.mailmerging/mailmerge/executewithregions)(DataTable) | Performs mail merge from a DataTable into the document with mail merge regions. |
-| [ExecuteWithRegions](../../aspose.words.mailmerging/mailmerge/executewithregions)(DataView) | Performs mail merge from a DataView into the document with mail merge regions. |
-| [ExecuteWithRegions](../../aspose.words.mailmerging/mailmerge/executewithregions)(IMailMergeDataSource) | Performs a mail merge from a custom data source with mail merge regions. |
-| [ExecuteWithRegions](../../aspose.words.mailmerging/mailmerge/executewithregions)(IMailMergeDataSourceRoot) | Performs a mail merge from a custom data source with mail merge regions. |
-| [ExecuteWithRegions](../../aspose.words.mailmerging/mailmerge/executewithregions)(IDataReader, string) | Performs mail merge from IDataReader into the document with mail merge regions. |
+| [ExecuteWithRegions](../../aspose.words.mailmerging/mailmerge/executewithregions#executewithregions_2)(DataSet) | Performs mail merge from a DataSet into a document with mail merge regions. |
+| [ExecuteWithRegions](../../aspose.words.mailmerging/mailmerge/executewithregions#executewithregions_3)(DataTable) | Performs mail merge from a DataTable into the document with mail merge regions. |
+| [ExecuteWithRegions](../../aspose.words.mailmerging/mailmerge/executewithregions#executewithregions_4)(DataView) | Performs mail merge from a DataView into the document with mail merge regions. |
+| [ExecuteWithRegions](../../aspose.words.mailmerging/mailmerge/executewithregions#executewithregions)(IMailMergeDataSource) | Performs a mail merge from a custom data source with mail merge regions. |
+| [ExecuteWithRegions](../../aspose.words.mailmerging/mailmerge/executewithregions#executewithregions_1)(IMailMergeDataSourceRoot) | Performs a mail merge from a custom data source with mail merge regions. |
+| [ExecuteWithRegions](../../aspose.words.mailmerging/mailmerge/executewithregions#executewithregions_5)(IDataReader, string) | Performs mail merge from IDataReader into the document with mail merge regions. |
 | [ExecuteWithRegionsADO](../../aspose.words.mailmerging/mailmerge/executewithregionsado)(object, string) | Performs mail merge from an ADO Recordset object into the document with mail merge regions. |
 | [GetFieldNames](../../aspose.words.mailmerging/mailmerge/getfieldnames)() | Returns a collection of mail merge field names available in the document. |
-| [GetFieldNamesForRegion](../../aspose.words.mailmerging/mailmerge/getfieldnamesforregion)(string) | Returns a collection of mail merge field names available in the region. |
-| [GetFieldNamesForRegion](../../aspose.words.mailmerging/mailmerge/getfieldnamesforregion)(string, int) | Returns a collection of mail merge field names available in the region. |
+| [GetFieldNamesForRegion](../../aspose.words.mailmerging/mailmerge/getfieldnamesforregion#getfieldnamesforregion)(string) | Returns a collection of mail merge field names available in the region. |
+| [GetFieldNamesForRegion](../../aspose.words.mailmerging/mailmerge/getfieldnamesforregion#getfieldnamesforregion_1)(string, int) | Returns a collection of mail merge field names available in the region. |
 | [GetRegionsByName](../../aspose.words.mailmerging/mailmerge/getregionsbyname)(string) | Returns a collection of mail merge regions with the specified name. |
 | [GetRegionsHierarchy](../../aspose.words.mailmerging/mailmerge/getregionshierarchy)() | Returns a full hierarchy of regions (with fields) available in the document. |
 
-## Remarks
+### Remarks
 
 For mail merge operation to work, the document should contain Word MERGEFIELD and optionally NEXT fields. During mail merge operation, merge fields in the document are replaced with values from your data source.
 
@@ -74,7 +74,7 @@ Use ExecuteWithRegions methods to merge information into a document with mail me
 
 You need to use mail merge regions if you want to dynamically grow portions inside the document. Without mail merge regions whole document will be repeated for every record of the data source.
 
-## Examples
+### Examples
 
 Shows how to execute a mail merge with data from a DataTable.
 

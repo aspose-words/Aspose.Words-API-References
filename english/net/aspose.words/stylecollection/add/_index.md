@@ -19,7 +19,7 @@ public Style Add(StyleType type, string name)
 | type | StyleType | A [`StyleType`](../../styletype) value that specifies the type of the style to create. |
 | name | String | Case sensitive name of the style to create. |
 
-## Remarks
+### Remarks
 
 You can create character, paragraph or a list style.
 
@@ -27,7 +27,7 @@ When creating a list style, the style is created with default numbered list form
 
 Throws an exception if a style with this name already exists.
 
-## Examples
+### Examples
 
 Shows how to add a Style to a document's styles collection.
 

@@ -14,7 +14,7 @@ Specifies a unique read-only persistent numerical Id for this **StructuredDocume
 public int Id { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to get the properties of multi-section structured document tags.
 

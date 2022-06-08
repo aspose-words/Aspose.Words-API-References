@@ -14,11 +14,11 @@ Gets or sets the boolean value that indicates whether the size of the textbox is
 public bool IsCheckBoxExactSize { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 Applicable for a check box form field only.
 
-## Examples
+### Examples
 
 Shows how insert different kinds of form fields into a document, and process them with using a document visitor implementation.
 

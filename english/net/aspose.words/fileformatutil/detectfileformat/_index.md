@@ -6,7 +6,7 @@ type: docs
 weight: 30
 url: /net/aspose.words/fileformatutil/detectfileformat/
 ---
-## FileFormatUtil.DetectFileFormat method (1 of 2)
+## DetectFileFormat(string) {#detectfileformat_1}
 
 Detects and returns the information about a format of a document stored in a disk file.
 
@@ -22,13 +22,13 @@ public static FileFormatInfo DetectFileFormat(string fileName)
 
 A [`FileFormatInfo`](../../fileformatinfo) object that contains the detected information.
 
-## Remarks
+### Remarks
 
 Even if this method detects the document format, it does not guarantee that the specified document is valid. This method only detects the document format by reading data that is sufficient for detection. To fully verify that a document is valid you need to load the document into a [`Document`](../../document) object.
 
 This method throws [`FileCorruptedException`](../../filecorruptedexception) when the format is recognized, but the detection cannot complete because of corruption.
 
-## Examples
+### Examples
 
 Shows how to use the FileFormatUtil class to detect the document format and encryption.
 
@@ -80,7 +80,7 @@ Assert.AreEqual(1, DigitalSignatureUtil.LoadSignatures(ArtifactsDir + "File.Dete
 
 ---
 
-## FileFormatUtil.DetectFileFormat method (2 of 2)
+## DetectFileFormat(Stream) {#detectfileformat}
 
 Detects and returns the information about a format of a document stored in a stream.
 
@@ -96,7 +96,7 @@ public static FileFormatInfo DetectFileFormat(Stream stream)
 
 A [`FileFormatInfo`](../../fileformatinfo) object that contains the detected information.
 
-## Remarks
+### Remarks
 
 The stream must be positioned at the beginning of the document.
 
@@ -106,7 +106,7 @@ Even if this method detects the document format, it does not guarantee that the 
 
 This method throws [`FileCorruptedException`](../../filecorruptedexception) when the format is recognized, but the detection cannot complete because of corruption.
 
-## Examples
+### Examples
 
 Shows how to use the FileFormatUtil methods to detect the format of a document.
 

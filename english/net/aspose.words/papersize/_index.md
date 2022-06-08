@@ -37,7 +37,7 @@ public enum PaperSize
 | Number10Envelope | `16` | 4.125 x 9.5 inches. |
 | Custom | `17` | Custom paper size. |
 
-## Examples
+### Examples
 
 Shows how to adjust paper size, orientation, margins, along with other settings for a section.
 

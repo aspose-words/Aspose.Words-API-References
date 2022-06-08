@@ -22,7 +22,7 @@ public int IndexOf(string value)
 
 The zero based index. Negative value if not found.
 
-## Examples
+### Examples
 
 Shows how to work with an XML schema collection.
 

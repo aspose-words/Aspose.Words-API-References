@@ -14,11 +14,11 @@ Specifies the mail-merge main document type. The default value is Default.
 public MailMergeMainDocumentType MainDocumentType { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 The main document is the document that contains information that is the same for each version of the merged document.
 
-## Examples
+### Examples
 
 Shows how to execute a mail merge with data from an Office Data Source Object.
 

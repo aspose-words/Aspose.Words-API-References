@@ -14,7 +14,7 @@ Specifies whether border around pages should be shown. Default is `true`.
 public bool ShowPageBorder { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to use a callback to print the URIs of external resources created while converting a document to HTML.
 

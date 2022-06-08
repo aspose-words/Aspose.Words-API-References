@@ -18,7 +18,7 @@ public static PreferredWidth FromPoints(double points)
 | --- | --- | --- |
 | points | Double | The value must be from 0 to 22 inches (22 * 72 points). |
 
-## Examples
+### Examples
 
 Shows how to use unit conversion tools while specifying a preferred width for a cell.
 

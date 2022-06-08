@@ -14,7 +14,7 @@ Specifies whether the rule is enabled or not.
 public override bool Enabled { set; }
 ```
 
-## Examples
+### Examples
 
 Shows operating system-dependent font config substitution.
 

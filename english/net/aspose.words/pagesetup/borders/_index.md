@@ -14,7 +14,7 @@ Gets a collection of the page borders.
 public BorderCollection Borders { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to create green wavy page border with a shadow.
 

@@ -14,11 +14,11 @@ Gets or sets minimum value of the axis.
 public AxisBound Minimum { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 The default value is "auto".
 
-## Examples
+### Examples
 
 Shows how to insert chart with date/time values.
 

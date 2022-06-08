@@ -14,7 +14,7 @@ Returns true if the page orientation specified in the document for this page is 
 public bool Landscape { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to print page size and orientation information for every page in a Word document.
 

@@ -14,7 +14,7 @@ Gets or sets a way the linked object updates its formatting.
 public string FormatUpdateType { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to use various field types to link to other documents in the local file system, and display their contents.
 

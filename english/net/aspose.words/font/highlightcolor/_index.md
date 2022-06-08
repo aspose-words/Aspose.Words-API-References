@@ -14,7 +14,7 @@ Gets or sets the highlight (marker) color.
 public Color HighlightColor { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to format a run of text using its font property.
 

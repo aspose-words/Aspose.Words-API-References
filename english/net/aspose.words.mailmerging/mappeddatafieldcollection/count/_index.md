@@ -14,7 +14,7 @@ Gets the number of elements contained in the collection.
 public int Count { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to map data columns and MERGEFIELDs with different names so the data is transferred between them during a mail merge.
 

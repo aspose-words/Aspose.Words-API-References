@@ -74,7 +74,7 @@ public class ImageSaveOptions : FixedPageSaveOptions
 | [Clone](../../aspose.words.saving/imagesaveoptions/clone)() | Creates a deep clone of this object. |
 | override [Equals](../../aspose.words.saving/fixedpagesaveoptions/equals)(object) | Determines whether the specified object is equal in value to the current object. |
 
-## Examples
+### Examples
 
 Renders a page of a Word document into an image with transparent or colored background.
 

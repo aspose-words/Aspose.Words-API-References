@@ -22,7 +22,7 @@ public enum TxtLeadingSpacesOptions
 | Trim | `1` |  |
 | Preserve | `2` |  |
 
-## Examples
+### Examples
 
 Shows how to trim whitespace when loading plaintext documents.
 

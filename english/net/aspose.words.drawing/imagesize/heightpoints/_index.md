@@ -14,7 +14,7 @@ Gets the height of the image in points. 1 point is 1/72 inch.
 public double HeightPoints { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to resize a shape with an image.
 

@@ -14,7 +14,7 @@ Returns or sets the major tick marks.
 public AxisTickMark MajorTickMark { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to insert a chart and modify the appearance of its axes.
 

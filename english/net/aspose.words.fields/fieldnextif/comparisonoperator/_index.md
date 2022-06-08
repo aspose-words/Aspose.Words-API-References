@@ -14,7 +14,7 @@ Gets or sets the comparison operator.
 public string ComparisonOperator { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to use NEXT/NEXTIF fields to merge multiple rows into one page during a mail merge.
 

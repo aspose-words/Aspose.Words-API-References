@@ -14,7 +14,7 @@ Gets the left border.
 public Border Left { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to apply border and shading color while building a table.
 

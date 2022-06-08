@@ -14,11 +14,11 @@ Determines whether the letters of the text are rotated.
 public bool RotateLetters { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 The default value is **false**.
 
-## Examples
+### Examples
 
 Shows how to work with WordArt.
 

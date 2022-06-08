@@ -14,7 +14,7 @@ Gets or sets a value determining the quality of the generated JPEG images.
 public int JpegQuality { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 Has effect only when saving to JPEG.
 
@@ -22,7 +22,7 @@ Use this property to get or set the quality of generated images when saving in J
 
 The default value is 95.
 
-## Examples
+### Examples
 
 Shows how to configure compression while saving a document as a JPEG.
 

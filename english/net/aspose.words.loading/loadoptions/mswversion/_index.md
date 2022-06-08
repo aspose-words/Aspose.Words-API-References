@@ -14,11 +14,11 @@ Allows to specify that the document loading process should match a specific MS W
 public MsWordVersion MswVersion { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 Different Word versions may handle certain aspects of document content and formatting slightly differently during the loading process, which may result in minor differences in Document Object Model.
 
-## Examples
+### Examples
 
 Shows how to emulate the loading procedure of a specific Microsoft Word version during document loading.
 

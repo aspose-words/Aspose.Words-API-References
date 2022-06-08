@@ -18,10 +18,10 @@ public class FindReplaceOptions
 
 | Name | Description |
 | --- | --- |
-| [FindReplaceOptions](findreplaceoptions)() | The default constructor. |
-| [FindReplaceOptions](findreplaceoptions)(FindReplaceDirection) |  |
-| [FindReplaceOptions](findreplaceoptions)(IReplacingCallback) |  |
-| [FindReplaceOptions](findreplaceoptions)(FindReplaceDirection, IReplacingCallback) |  |
+| [FindReplaceOptions](findreplaceoptions#constructor)() | The default constructor. |
+| [FindReplaceOptions](findreplaceoptions#constructor_1)(FindReplaceDirection) |  |
+| [FindReplaceOptions](findreplaceoptions#constructor_3)(IReplacingCallback) |  |
+| [FindReplaceOptions](findreplaceoptions#constructor_2)(FindReplaceDirection, IReplacingCallback) |  |
 
 ## Properties
 
@@ -43,7 +43,7 @@ public class FindReplaceOptions
 | [UseLegacyOrder](../../aspose.words.replacing/findreplaceoptions/uselegacyorder) { get; set; } | True indicates that a text search is performed sequentially from top to bottom considering the text boxes. Default value is false. |
 | [UseSubstitutions](../../aspose.words.replacing/findreplaceoptions/usesubstitutions) { get; set; } | Gets or sets a boolean value indicating whether to recognize and use substitutions within replacement patterns. The default value is `false`. |
 
-## Examples
+### Examples
 
 Shows how to toggle case sensitivity when performing a find-and-replace operation.
 

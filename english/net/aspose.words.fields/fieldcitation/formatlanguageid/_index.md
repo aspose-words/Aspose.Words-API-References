@@ -14,7 +14,7 @@ Gets or sets the language ID that is used in conjunction with the specified bibl
 public string FormatLanguageId { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to work with CITATION and BIBLIOGRAPHY fields.
 

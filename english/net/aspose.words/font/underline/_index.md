@@ -14,7 +14,7 @@ Gets or sets the type of underline applied to the font.
 public Underline Underline { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to configure the style and color of a text underline.
 

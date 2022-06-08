@@ -23,13 +23,13 @@ public NodeCollection GetChildNodes(NodeType nodeType, bool isDeep)
 
 A live collection of child nodes of the specified type.
 
-## Remarks
+### Remarks
 
 The collection of nodes returned by this method is always live.
 
 A live collection is always in sync with the document. For example, if you selected all sections in a document and enumerate through the collection deleting the sections, the section is removed from the collection immediately when it is removed from the document.
 
-## Examples
+### Examples
 
 Shows how to print all of a document's comments and their replies.
 

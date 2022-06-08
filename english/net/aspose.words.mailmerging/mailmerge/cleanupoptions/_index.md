@@ -14,7 +14,7 @@ Gets or sets a set of flags that specify what items should be removed during mai
 public MailMergeCleanupOptions CleanupOptions { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to remove empty paragraphs that a mail merge may create from the merge output document.
 

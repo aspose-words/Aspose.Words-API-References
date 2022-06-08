@@ -14,7 +14,7 @@ Gets or sets a flag indicating that Microsoft Word will remove all user informat
 public bool RemovePersonalInformation { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to enable the removal of personal information during a manual save.
 

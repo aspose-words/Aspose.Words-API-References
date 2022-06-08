@@ -38,7 +38,7 @@ public class ChartDataLabelCollection : IEnumerable<ChartDataLabel>
 | [ClearFormat](../../aspose.words.drawing.charts/chartdatalabelcollection/clearformat)() | Clears format of all [`ChartDataLabel`](../chartdatalabel) in this collection. |
 | [GetEnumerator](../../aspose.words.drawing.charts/chartdatalabelcollection/getenumerator)() | Returns an enumerator object. |
 
-## Examples
+### Examples
 
 Shows how to apply labels to data points in a line chart.
 

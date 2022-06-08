@@ -14,13 +14,13 @@ Gets or sets the color mode for the generated images.
 public ImageColorMode ImageColorMode { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 This property has effect only when saving to raster image formats.
 
 The default value is None.
 
-## Examples
+### Examples
 
 Shows how to set a color mode when rendering documents.
 

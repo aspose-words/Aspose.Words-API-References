@@ -14,7 +14,7 @@ Allows to specify if legend key is to be displayed for the data labels on a char
 public bool ShowLegendKey { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to apply labels to data points in a line chart.
 

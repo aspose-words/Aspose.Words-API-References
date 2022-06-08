@@ -27,13 +27,13 @@ public class FontConfigSubstitutionRule : FontSubstitutionRule
 | [IsFontConfigAvailable](../../aspose.words.fonts/fontconfigsubstitutionrule/isfontconfigavailable)() | Check if fontconfig utility is available or not. |
 | [ResetCache](../../aspose.words.fonts/fontconfigsubstitutionrule/resetcache)() | Resets the cache of fontconfig calling results. |
 
-## Remarks
+### Remarks
 
 This rule uses fontconfig utility on Linux (and other Unix-like) platforms to get the substitution if the original font is not available.
 
 If fontconfig utility is not available then this rule will be ignored.
 
-## Examples
+### Examples
 
 Shows operating system-dependent font config substitution.
 

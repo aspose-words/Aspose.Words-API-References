@@ -14,7 +14,7 @@ Returns a collection that represents all the custom document properties of the d
 public CustomDocumentProperties CustomDocumentProperties { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to work with built-in document properties.
 

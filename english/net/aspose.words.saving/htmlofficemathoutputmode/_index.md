@@ -22,7 +22,7 @@ public enum HtmlOfficeMathOutputMode
 | MathML | `1` | OfficeMath is converted to HTML using MathML. |
 | Text | `2` | OfficeMath is converted to HTML as sequence of runs specified by &lt;span&gt; tags. |
 
-## Examples
+### Examples
 
 Shows how to specify how to export Microsoft OfficeMath objects to HTML.
 

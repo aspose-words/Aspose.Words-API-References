@@ -14,7 +14,7 @@ Gets or sets the page number format.
 public NumberStyle PageNumberStyle { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to set up page numbering in a section.
 

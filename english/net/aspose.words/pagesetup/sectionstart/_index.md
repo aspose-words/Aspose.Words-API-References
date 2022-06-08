@@ -14,7 +14,7 @@ Returns or sets the type of section break for the specified object.
 public SectionStart SectionStart { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to construct an Aspose.Words document by hand.
 

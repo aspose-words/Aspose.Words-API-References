@@ -14,7 +14,7 @@ Gets or sets font color. The default value is Color.Silver.
 public Color Color { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to create a text watermark.
 

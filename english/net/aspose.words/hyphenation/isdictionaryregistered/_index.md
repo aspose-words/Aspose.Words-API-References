@@ -14,7 +14,7 @@ Returns False if for the specified language there is no dictionary registered or
 public static bool IsDictionaryRegistered(string language)
 ```
 
-## Examples
+### Examples
 
 Shows how to register a hyphenation dictionary.
 

@@ -26,7 +26,7 @@ public abstract class Forms2OleControl : OleControl
 | [Type](../../aspose.words.drawing.ole/forms2olecontrol/type) { get; } | Gets type of Forms 2.0 control. |
 | [Value](../../aspose.words.drawing.ole/forms2olecontrol/value) { get; } | Gets underlying Value property which often represents control state. For example checked option button has '1' value while unchecked has '0'. Default value is an empty string. |
 
-## Examples
+### Examples
 
 Shows how to verify the properties of an ActiveX control.
 

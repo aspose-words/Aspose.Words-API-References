@@ -23,7 +23,7 @@ public enum EmbeddedFontFormat
 | EmbeddedOpenType | `0` | Specifies Embedded OpenType (EOT) File Format. |
 | OpenType | `1` | Specifies font, embedded as plain copy of OpenType (TrueType) font file. |
 
-## Examples
+### Examples
 
 Shows how to extract an embedded font from a document, and save it to the local file system.
 

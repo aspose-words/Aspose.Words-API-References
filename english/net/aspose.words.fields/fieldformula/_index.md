@@ -46,11 +46,11 @@ public class FieldFormula : Field
 | [Update](../../aspose.words.fields/field/update)() | Performs the field update. Throws if the field is being updated already. |
 | [Update](../../aspose.words.fields/field/update)(bool) | Performs a field update. Throws if the field is being updated already. |
 
-## Remarks
+### Remarks
 
 Calcualtes the result of an expression.
 
-## Examples
+### Examples
 
 Shows how to use the formula field to display the result of an equation.
 

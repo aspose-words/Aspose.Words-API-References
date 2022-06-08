@@ -14,11 +14,11 @@ The width and height of the coordinate space inside the containing block of this
 public Size CoordSize { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 The default value is (1000, 1000).
 
-## Examples
+### Examples
 
 Shows how to translate the x and y coordinate location on a shape's coordinate plane to a location on the parent shape's coordinate plane.
 

@@ -14,7 +14,7 @@ Gets or sets the prompt text (the title of the prompt window).
 public string PromptText { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to create an ASK field, and set its properties.
 

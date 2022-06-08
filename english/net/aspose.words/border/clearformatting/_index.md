@@ -14,11 +14,11 @@ Resets border properties to default values.
 public void ClearFormatting()
 ```
 
-## Remarks
+### Remarks
 
 When border properties are reset to default values, the border is invisible.
 
-## Examples
+### Examples
 
 Shows how to remove borders from a paragraph.
 

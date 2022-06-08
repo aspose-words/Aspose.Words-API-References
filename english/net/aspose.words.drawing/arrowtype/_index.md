@@ -26,7 +26,7 @@ public enum ArrowType
 | Open | `5` | The arrow is an open arrow. |
 | Default | `0` | Same as None. |
 
-## Examples
+### Examples
 
 Shows to create a variety of shapes.
 

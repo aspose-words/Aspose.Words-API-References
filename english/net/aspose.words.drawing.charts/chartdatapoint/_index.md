@@ -31,11 +31,11 @@ public class ChartDataPoint : IChartDataPoint
 | --- | --- |
 | [ClearFormat](../../aspose.words.drawing.charts/chartdatapoint/clearformat)() | Clears format of this data point. The properties are set to the default values defined in the parent series. |
 
-## Remarks
+### Remarks
 
 On a series, the [`ChartDataPoint`](../chartdatapoint) object is a member of the [`ChartDataPointCollection`](../chartdatapointcollection). The [`ChartDataPointCollection`](../chartdatapointcollection) contains a [`ChartDataPoint`](../chartdatapoint) object for each point.
 
-## Examples
+### Examples
 
 Shows how to work with data points on a line chart.
 

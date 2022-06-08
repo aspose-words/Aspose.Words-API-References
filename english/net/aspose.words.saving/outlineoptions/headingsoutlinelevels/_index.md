@@ -14,13 +14,13 @@ Specifies how many levels of headings (paragraphs formatted with the Heading sty
 public int HeadingsOutlineLevels { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 Specify 0 for no headings in the outline; specify 1 for one level of headings in the outline and so on.
 
 Default is 0. Valid range is 0 to 9.
 
-## Examples
+### Examples
 
 Shows how to convert a whole document to PDF with three levels in the document outline.
 

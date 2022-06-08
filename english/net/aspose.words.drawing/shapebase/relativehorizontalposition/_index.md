@@ -14,13 +14,13 @@ Specifies relative to what the shape is positioned horizontally.
 public RelativeHorizontalPosition RelativeHorizontalPosition { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 The default value is Column.
 
 Has effect only for top level floating shapes.
 
-## Examples
+### Examples
 
 Shows how to insert a floating image to the center of a page.
 

@@ -14,7 +14,7 @@ Gets or sets an integer value that specifies the maximum number of characters pe
 public int MaxCharactersPerLine { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to set maximum number of characters per line.
 

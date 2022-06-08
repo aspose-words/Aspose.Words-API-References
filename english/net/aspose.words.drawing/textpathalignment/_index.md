@@ -25,7 +25,7 @@ public enum TextPathAlignment
 | LetterJustify | `4` | Spread letters out to fit width. |
 | WordJustify | `5` | Spread words out to fit width. |
 
-## Examples
+### Examples
 
 Shows how to work with WordArt.
 

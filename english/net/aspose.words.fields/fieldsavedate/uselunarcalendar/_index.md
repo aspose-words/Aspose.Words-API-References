@@ -14,7 +14,7 @@ Gets or sets whether to use the Hijri Lunar or Hebrew Lunar calendar.
 public bool UseLunarCalendar { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to use the SAVEDATE field to display the date/time of the document's most recent save operation performed using Microsoft Word.
 

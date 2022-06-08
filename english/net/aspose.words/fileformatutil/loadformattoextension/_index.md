@@ -20,11 +20,11 @@ public static string LoadFormatToExtension(LoadFormat loadFormat)
 | --- | --- |
 | ArgumentException | Throws when cannot convert. |
 
-## Remarks
+### Remarks
 
 The WordML value is converted to ".wml".
 
-## Examples
+### Examples
 
 Shows how to use the FileFormatUtil methods to detect the format of a document.
 

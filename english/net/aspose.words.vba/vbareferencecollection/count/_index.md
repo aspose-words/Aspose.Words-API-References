@@ -14,7 +14,7 @@ Returns the number of VBA references in the collection.
 public int Count { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to get/remove an element from the VBA reference collection.
 

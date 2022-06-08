@@ -14,7 +14,7 @@ Gets or sets a formatting that is applied to a date and time field result. Corre
 public string DateTimeFormat { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to format field results.
 

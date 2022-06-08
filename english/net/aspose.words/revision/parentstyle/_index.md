@@ -14,11 +14,11 @@ Gets the immediate parent style (owner) of this revision. This property will wor
 public Style ParentStyle { get; }
 ```
 
-## Remarks
+### Remarks
 
 If this revision relates to changes on document nodes, use [`ParentNode`](../parentnode) instead.
 
-## Examples
+### Examples
 
 Shows how to work with a document's collection of revisions.
 

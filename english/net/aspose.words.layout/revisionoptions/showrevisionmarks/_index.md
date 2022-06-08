@@ -14,7 +14,7 @@ Allow to specify whether revision text should be marked with special formatting 
 public bool ShowRevisionMarks { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to modify the appearance of revisions.
 

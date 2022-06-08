@@ -23,7 +23,7 @@ public enum SectionLayoutMode
 | LineGrid | `2` | Specifies that the corresponding section shall have additional line pitch added to each line within it in order to maintain the specified number of lines per page. |
 | SnapToChars | `3` | Specifies that the corresponding section shall have both the additional line pitch and character pitch added to each line and character within it in order to maintain a specific number of lines per page and characters per line. Characters will be automatically aligned with gridlines on typing. |
 
-## Examples
+### Examples
 
 Shows how to specify a for the number of characters that each line may have.
 

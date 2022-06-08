@@ -14,11 +14,11 @@ Returns or sets an alias (or editing group) which shall be used to determine if 
 public EditorType EditorGroup { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 Single user and editor group cannot be set simultaneously for the specific editable range, if the one is set, the other will be clear.
 
-## Examples
+### Examples
 
 Shows how to create nested editable ranges.
 

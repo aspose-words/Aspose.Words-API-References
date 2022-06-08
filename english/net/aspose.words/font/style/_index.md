@@ -14,7 +14,7 @@ Gets or sets the character style applied to this formatting.
 public Style Style { get; set; }
 ```
 
-## Examples
+### Examples
 
 Applies a double underline to all runs in a document that are formatted with custom character styles.
 

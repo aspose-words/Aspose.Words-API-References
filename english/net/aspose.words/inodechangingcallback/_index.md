@@ -23,7 +23,7 @@ public interface INodeChangingCallback
 | [NodeRemoved](../../aspose.words/inodechangingcallback/noderemoved)(NodeChangingArgs) | Called when a node belonging to this document has been removed from its parent. |
 | [NodeRemoving](../../aspose.words/inodechangingcallback/noderemoving)(NodeChangingArgs) | Called just before a node belonging to this document is about to be removed from the document. |
 
-## Examples
+### Examples
 
 Shows how customize node changing with a callback.
 

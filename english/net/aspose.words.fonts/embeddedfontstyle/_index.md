@@ -24,7 +24,7 @@ public enum EmbeddedFontStyle
 | Italic | `2` | Specifies the Italic embedded font. |
 | BoldItalic | `3` | Specifies the Bold-Italic embedded font. |
 
-## Examples
+### Examples
 
 Shows how to extract an embedded font from a document, and save it to the local file system.
 

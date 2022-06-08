@@ -22,7 +22,7 @@ public enum ResourceType
 | CssStyleSheet | `1` | Css style sheet. |
 | Document | `2` | Document. |
 
-## Examples
+### Examples
 
 Shows how to customize the process of loading external resources into a document.
 

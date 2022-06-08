@@ -19,11 +19,11 @@ public void AddPrinterFont(string fontFullName, string fontPclName)
 | fontFullName | String | Full name of the font (e.g. "Times New Roman Bold Italic"). |
 | fontPclName | String | Name of the font that is used in Pcl document. |
 
-## Remarks
+### Remarks
 
 There are 52 fonts that are to be built in any printer according to Pcl specification. However manufactures can add some other fonts to their devices.
 
-## Examples
+### Examples
 
 Shows how to get a printer to substitute all instances of a specific font with a different font.
 

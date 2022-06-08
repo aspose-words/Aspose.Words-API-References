@@ -14,7 +14,7 @@ Gets or sets the barcode value.
 public string BarcodeValue { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to perform a mail merge on EAN13 barcodes.
 

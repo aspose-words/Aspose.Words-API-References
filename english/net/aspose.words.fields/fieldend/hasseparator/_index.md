@@ -14,7 +14,7 @@ Returns **true** if this field has a separator.
 public bool HasSeparator { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to work with a collection of fields.
 

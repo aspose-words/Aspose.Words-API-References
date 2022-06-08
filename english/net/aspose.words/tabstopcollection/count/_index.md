@@ -14,7 +14,7 @@ Gets the number of tab stops in the collection.
 public int Count { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to work with a document's collection of tab stops.
 

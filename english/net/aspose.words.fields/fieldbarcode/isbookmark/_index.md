@@ -14,7 +14,7 @@ Gets or sets whether [`PostalAddress`](../postaladdress) is the name of a bookma
 public bool IsBookmark { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to use the BARCODE field to display U.S. ZIP codes in the form of a barcode.
 

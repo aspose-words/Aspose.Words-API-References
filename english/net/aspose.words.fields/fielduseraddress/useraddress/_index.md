@@ -14,7 +14,7 @@ Gets or sets the current user's postal address.
 public string UserAddress { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to use the USERADDRESS field.
 

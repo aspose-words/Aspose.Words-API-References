@@ -19,13 +19,13 @@ public HeaderFooter(DocumentBase doc, HeaderFooterType headerFooterType)
 | doc | DocumentBase | The owner document. |
 | headerFooterType | HeaderFooterType | A [`HeaderFooterType`](../headerfootertype) value that specifies the type of the header or footer. |
 
-## Remarks
+### Remarks
 
 When **HeaderFooter** is created, it belongs to the specified document, but is not yet part of the document and **ParentNode** is null.
 
 To append **HeaderFooter** to a **Section** use Section.InsertAfter, Section.InsertBefore, HeadersFooters.Add or HeadersFooters.Insert.
 
-## Examples
+### Examples
 
 Shows how to create a header and a footer.
 

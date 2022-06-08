@@ -14,7 +14,7 @@ Font formatting that will be applied to text entered into **SDT**.
 public Font ContentsFont { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to create a structured document tag in a plain text box and modify its appearance.
 

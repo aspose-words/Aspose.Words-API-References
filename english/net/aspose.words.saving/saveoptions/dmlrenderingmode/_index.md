@@ -14,13 +14,13 @@ Gets or sets a value determining how DrawingML shapes are rendered.
 public DmlRenderingMode DmlRenderingMode { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 The default value is Fallback.
 
 This property is used when the document is exported to fixed page formats.
 
-## Examples
+### Examples
 
 Shows how to render fallback shapes when saving to PDF.
 

@@ -23,7 +23,7 @@ public enum EndCap
 | Flat | `2` | Line ends at end point. |
 | Default | `2` | Default value is Flat. |
 
-## Examples
+### Examples
 
 Shows to create a variety of shapes.
 

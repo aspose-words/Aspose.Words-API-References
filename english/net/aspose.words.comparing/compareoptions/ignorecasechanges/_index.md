@@ -14,7 +14,7 @@ True indicates that documents comparison is case insensitive. By default compari
 public bool IgnoreCaseChanges { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to filter specific types of document elements when making a comparison.
 

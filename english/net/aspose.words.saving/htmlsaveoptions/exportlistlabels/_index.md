@@ -14,7 +14,7 @@ Controls how list labels are output to HTML, MHTML or EPUB. Default value is Aut
 public ExportListLabels ExportListLabels { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to configure list exporting to HTML.
 

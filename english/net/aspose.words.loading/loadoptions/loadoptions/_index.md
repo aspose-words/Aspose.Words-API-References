@@ -6,7 +6,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.loading/loadoptions/loadoptions/
 ---
-## LoadOptions constructor (1 of 3)
+## LoadOptions() {#constructor}
 
 Initializes a new instance of this class with default values.
 
@@ -14,7 +14,7 @@ Initializes a new instance of this class with default values.
 public LoadOptions()
 ```
 
-## Examples
+### Examples
 
 Shows how to open an HTML document with images from a stream using a base URI.
 
@@ -46,7 +46,7 @@ using (Stream stream = File.OpenRead(MyDir + "Document.html"))
 
 ---
 
-## LoadOptions constructor (2 of 3)
+## LoadOptions(string) {#constructor_2}
 
 A shortcut to initialize a new instance of this class with the specified password to load an encrypted document.
 
@@ -58,7 +58,7 @@ public LoadOptions(string password)
 | --- | --- | --- |
 | password | String | The password to open an encrypted document. Can be null or empty string. |
 
-## Examples
+### Examples
 
 Shows how to load an encrypted Microsoft Word document.
 
@@ -88,7 +88,7 @@ using (Stream stream = File.OpenRead(MyDir + "Encrypted.docx"))
 
 ---
 
-## LoadOptions constructor (3 of 3)
+## LoadOptions(LoadFormat, string, string) {#constructor_1}
 
 A shortcut to initialize a new instance of this class with properties set to the specified values.
 
@@ -102,7 +102,7 @@ public LoadOptions(LoadFormat loadFormat, string password, string baseUri)
 | password | String | The password to open an encrypted document. Can be null or empty string. |
 | baseUri | String | The string that will be used to resolve relative URIs to absolute. Can be null or empty string. |
 
-## Examples
+### Examples
 
 Shows how save a web page as a .docx file.
 

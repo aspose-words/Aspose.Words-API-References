@@ -14,7 +14,7 @@ Adds an item to this collection.
 public void Add(SdtListItem item)
 ```
 
-## Examples
+### Examples
 
 Shows how to work with drop down-list structured document tags.
 

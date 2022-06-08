@@ -20,7 +20,7 @@ public interface IDocumentPartSavingCallback
 | --- | --- |
 | [DocumentPartSaving](../../aspose.words.saving/idocumentpartsavingcallback/documentpartsaving)(DocumentPartSavingArgs) | Called when Aspose.Words is about to save a document part. |
 
-## Examples
+### Examples
 
 Shows how to split a document into parts and save them.
 

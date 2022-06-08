@@ -14,7 +14,7 @@ Gets all aliases of this style. If style has no aliases then empty array of stri
 public string[] Aliases { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to use style aliases.
 

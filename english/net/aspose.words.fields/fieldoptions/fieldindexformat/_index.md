@@ -14,7 +14,7 @@ Gets or sets a `FieldIndexFormat` that represents the formatting for the [`Field
 public FieldIndexFormat FieldIndexFormat { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to formatting FieldIndex fields.
 

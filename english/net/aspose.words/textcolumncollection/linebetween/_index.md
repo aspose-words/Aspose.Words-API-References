@@ -14,7 +14,7 @@ When **true**, adds a vertical line between columns.
 public bool LineBetween { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to separate columns with a vertical line.
 

@@ -14,11 +14,11 @@ Allows to specify whether values are to be displayed in the data labels of the e
 public bool ShowValue { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 Value defined for this property can be overridden for an individual data label with using the [`ShowValue`](../../chartdatalabel/showvalue) property.
 
-## Examples
+### Examples
 
 Shows how to work with data labels of a pie chart.
 

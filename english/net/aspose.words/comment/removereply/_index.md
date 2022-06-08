@@ -18,11 +18,11 @@ public void RemoveReply(Comment reply)
 | --- | --- | --- |
 | reply | Comment | The comment node of the deleting reply. |
 
-## Remarks
+### Remarks
 
 All constituent nodes of the reply will be deleted from the document.
 
-## Examples
+### Examples
 
 Shows how to remove comment replies.
 

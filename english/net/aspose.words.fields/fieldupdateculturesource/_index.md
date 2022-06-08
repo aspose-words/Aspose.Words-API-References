@@ -21,7 +21,7 @@ public enum FieldUpdateCultureSource
 | CurrentThread | `0` | The culture of the current execution thread is used to update fields. |
 | FieldCode | `1` | The culture specified in the field formatting properties via language setting is used. |
 
-## Examples
+### Examples
 
 Shows how to specify the source of the culture used for date formatting during a field update or mail merge.
 

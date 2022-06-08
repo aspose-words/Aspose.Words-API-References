@@ -36,7 +36,7 @@ public sealed class ConditionalStyle
 | override [Equals](../../aspose.words/conditionalstyle/equals)(object) |  |
 | override [GetHashCode](../../aspose.words/conditionalstyle/gethashcode)() | Calculates hash code for this object. |
 
-## Examples
+### Examples
 
 Shows how to work with certain area styles of a table.
 

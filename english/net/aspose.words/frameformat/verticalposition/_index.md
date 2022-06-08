@@ -14,7 +14,7 @@ Gets vertical distance between the edge of the frame and the item specified by t
 public double VerticalPosition { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to get information about formatting properties of paragraphs that are frames.
 

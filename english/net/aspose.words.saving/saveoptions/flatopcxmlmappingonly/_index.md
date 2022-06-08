@@ -14,11 +14,11 @@ Gets or sets value determining which document formats are allowed to be mapped b
 public bool FlatOpcXmlMappingOnly { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 This option is paired with [`FlatOpcXmlMappingOnly`](../../../aspose.words.loading/loadoptions/flatopcxmlmappingonly). Typically you need set both of them to false to allow arbitrary document format mapped.
 
-## Examples
+### Examples
 
 Shows how to binding structured document tags to any format.
 

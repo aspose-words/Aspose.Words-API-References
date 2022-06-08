@@ -14,11 +14,11 @@ Specifies the vertical alignment of the text within a shape.
 public TextBoxAnchor VerticalAnchor { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 The default value is Top.
 
-## Examples
+### Examples
 
 Shows how to vertically align the text contents of a text box.
 

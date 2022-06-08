@@ -18,7 +18,7 @@ public static decimal GetConsumptionCredit()
 
 consumption quantity
 
-## Examples
+### Examples
 
 Shows how to activate a Metered license and track credit/consumption.
 

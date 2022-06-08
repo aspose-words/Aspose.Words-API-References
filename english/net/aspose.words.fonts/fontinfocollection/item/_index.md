@@ -18,7 +18,7 @@ public FontInfo this[string name] { get; }
 | --- | --- |
 | name | Case-insensitive name of the font to locate. |
 
-## Examples
+### Examples
 
 Shows how to extract an embedded font from a document, and save it to the local file system.
 
@@ -63,7 +63,7 @@ public FontInfo this[int index] { get; }
 | --- | --- |
 | index | Zero-based index of the font. |
 
-## Examples
+### Examples
 
 Shows how to extract an embedded font from a document, and save it to the local file system.
 

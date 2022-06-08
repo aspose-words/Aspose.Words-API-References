@@ -14,7 +14,7 @@ Allows to specify downsample options.
 public DownsampleOptions DownsampleOptions { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to change the resolution of images in the PDF document.
 

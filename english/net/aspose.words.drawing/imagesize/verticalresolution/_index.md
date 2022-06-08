@@ -14,7 +14,7 @@ Gets the vertical resolution in DPI.
 public double VerticalResolution { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to read the properties of an image in a shape.
 

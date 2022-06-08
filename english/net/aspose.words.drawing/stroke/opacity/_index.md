@@ -14,11 +14,11 @@ Defines the amount of transparency of a stroke. Valid range is from 0 to 1.
 public double Opacity { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 The default value is 1.
 
-## Examples
+### Examples
 
 Shows to create a variety of shapes.
 

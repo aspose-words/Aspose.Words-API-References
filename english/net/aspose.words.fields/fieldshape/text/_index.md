@@ -14,7 +14,7 @@ Gets or sets the text to retrieve.
 public string Text { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to create right-to-left language-compatible lists with BIDIOUTLINE fields.
 

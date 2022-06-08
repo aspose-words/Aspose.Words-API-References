@@ -14,7 +14,7 @@ Gets or sets the LCID of the field.
 public int LocaleId { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to insert a field and work with its locale.
 

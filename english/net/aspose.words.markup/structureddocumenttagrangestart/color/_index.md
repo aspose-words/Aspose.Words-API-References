@@ -14,7 +14,7 @@ Gets or sets the color of the structured document tag.
 public Color Color { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to get the properties of multi-section structured document tags.
 

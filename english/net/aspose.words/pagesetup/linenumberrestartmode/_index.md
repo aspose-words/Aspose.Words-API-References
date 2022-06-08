@@ -14,7 +14,7 @@ Gets or sets the way line numbering runs that is, whether it starts over at the 
 public LineNumberRestartMode LineNumberRestartMode { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to enable line numbering for a section.
 

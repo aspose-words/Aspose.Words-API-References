@@ -14,13 +14,13 @@ Gets the editable range identifier.
 public int Id { get; }
 ```
 
-## Remarks
+### Remarks
 
 The region must be demarcated using the [`EditableRangeStart`](../editablerangestart) and [`EditableRangeEnd`](../editablerangeend)
 
 Editable range identifiers are supposed to be unique across a document and Aspose.Words automatically maintains editable range identifiers when loading, saving and combining documents.
 
-## Examples
+### Examples
 
 Shows how to work with an editable range.
 

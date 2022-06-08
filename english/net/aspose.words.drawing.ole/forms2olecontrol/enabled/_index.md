@@ -14,7 +14,7 @@ Returns true if control is in enabled state.
 public bool Enabled { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to verify the properties of an ActiveX control.
 

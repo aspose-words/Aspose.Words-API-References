@@ -14,13 +14,13 @@ Gets or sets the maximum number of consecutive lines that can end with hyphens. 
 public int ConsecutiveHyphenLimit { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 If value of this property is set to 0, any number of consecutive lines can end with hyphens.
 
 The property does not have effect when saving to fixed page formats e.g. PDF.
 
-## Examples
+### Examples
 
 Shows how to configure automatic hyphenation.
 

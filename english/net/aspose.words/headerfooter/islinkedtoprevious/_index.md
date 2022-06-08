@@ -14,13 +14,13 @@ True if this header or footer is linked to the corresponding header or footer in
 public bool IsLinkedToPrevious { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 Default is true.
 
 Note, when your link a header or footer, its contents is cleared.
 
-## Examples
+### Examples
 
 Shows how to link headers and footers between sections.
 

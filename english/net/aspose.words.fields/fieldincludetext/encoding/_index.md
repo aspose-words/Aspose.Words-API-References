@@ -14,7 +14,7 @@ Gets or sets the encoding applied to the data within the referenced file.
 public string Encoding { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to create an INCLUDETEXT field, and set its properties.
 

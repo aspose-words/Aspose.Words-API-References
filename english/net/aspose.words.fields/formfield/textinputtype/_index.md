@@ -14,7 +14,7 @@ Gets or sets the type of a text form field.
 public TextFormFieldType TextInputType { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how insert different kinds of form fields into a document, and process them with using a document visitor implementation.
 

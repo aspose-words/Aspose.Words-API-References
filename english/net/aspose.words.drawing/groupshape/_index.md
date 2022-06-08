@@ -129,13 +129,13 @@ public class GroupShape : ShapeBase
 | [ToString](../../aspose.words/node/tostring)(SaveFormat) | Exports the content of the node into a string in the specified format. |
 | [ToString](../../aspose.words/node/tostring)(SaveOptions) | Exports the content of the node into a string using the specified save options. |
 
-## Remarks
+### Remarks
 
 A [`GroupShape`](../groupshape) is a composite node and can have [`Shape`](../shape) and [`GroupShape`](../groupshape) nodes as children.
 
 Each [`GroupShape`](../groupshape) defines a new coordinate system for its child shapes. The coordinate system is defined using the [`CoordSize`](../shapebase/coordsize) and [`CoordOrigin`](../shapebase/coordorigin) properties.
 
-## Examples
+### Examples
 
 Shows how to create a group of shapes, and print its contents using a document visitor.
 

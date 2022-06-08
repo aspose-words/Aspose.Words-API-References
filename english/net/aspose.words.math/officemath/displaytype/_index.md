@@ -14,13 +14,13 @@ Gets/sets Office Math display format type which represents whether an equation i
 public OfficeMathDisplayType DisplayType { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 Display format type has effect for top level Office Math only.
 
 Returned display format type is always Inline for nested Office Math.
 
-## Examples
+### Examples
 
 Shows how to set office math display formatting.
 

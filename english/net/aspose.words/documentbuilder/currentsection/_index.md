@@ -14,7 +14,7 @@ Gets the section that is currently selected in this DocumentBuilder.
 public Section CurrentSection { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to insert a floating image, and specify its position and size.
 

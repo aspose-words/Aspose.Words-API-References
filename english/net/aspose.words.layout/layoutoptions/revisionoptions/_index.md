@@ -14,7 +14,7 @@ Gets revision options.
 public RevisionOptions RevisionOptions { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to alter the appearance of revisions in a rendered output document.
 

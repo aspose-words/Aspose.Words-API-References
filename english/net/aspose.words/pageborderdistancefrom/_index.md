@@ -21,7 +21,7 @@ public enum PageBorderDistanceFrom
 | Text | `0` | Border position is measured from the page margin. |
 | PageEdge | `1` | Border position is measured from the page edge. |
 
-## Examples
+### Examples
 
 Shows how to create a wide blue band border at the top of the first page.
 

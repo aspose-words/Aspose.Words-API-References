@@ -22,11 +22,11 @@ public enum FontPitch
 | Fixed | `1` | Specifies that this is a fixed width font. |
 | Variable | `2` | Specifies that this is a proportional width font. |
 
-## Remarks
+### Remarks
 
 The pitch indicates if the font is fixed pitch, proportionally spaced, or relies on a default setting.
 
-## Examples
+### Examples
 
 Shows how to access and print details of each font in a document.
 

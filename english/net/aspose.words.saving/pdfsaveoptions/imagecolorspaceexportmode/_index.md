@@ -14,7 +14,7 @@ Specifies how the color space will be selected for the images in PDF document.
 public PdfImageColorSpaceExportMode ImageColorSpaceExportMode { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 The default value is Auto.
 
@@ -22,7 +22,7 @@ If SimpleCmyk value is specified, [`ImageCompression`](../imagecompression) opti
 
 SimpleCmyk value is not supported when saving to PDF/A. Auto value will be used instead.
 
-## Examples
+### Examples
 
 Shows how to set a different color space for images in a document as we export it to PDF.
 

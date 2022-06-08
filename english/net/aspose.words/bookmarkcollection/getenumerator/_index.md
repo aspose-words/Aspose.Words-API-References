@@ -14,7 +14,7 @@ Returns an enumerator object.
 public IEnumerator<Bookmark> GetEnumerator()
 ```
 
-## Examples
+### Examples
 
 Shows how to add bookmarks and update their contents.
 

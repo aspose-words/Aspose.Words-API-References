@@ -14,11 +14,11 @@ Defines the line style of the stroke.
 public ShapeLineStyle LineStyle { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 The default value is Single.
 
-## Examples
+### Examples
 
 Shows how change stroke properties.
 

@@ -14,7 +14,7 @@ Provides access to the headers and footers nodes of the section.
 public HeaderFooterCollection HeadersFooters { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to replace text in a document's footer.
 

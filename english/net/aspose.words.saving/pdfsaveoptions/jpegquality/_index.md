@@ -14,7 +14,7 @@ Gets or sets a value determining the quality of the JPEG images inside PDF docum
 public int JpegQuality { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 The default value is 100.
 
@@ -24,7 +24,7 @@ Has effect only when a document contains JPEG images.
 
 Use this property to get or set the quality of the images inside a document when saving in PDF format. The value may vary from 0 to 100 where 0 means worst quality but maximum compression and 100 means best quality but minimum compression. If quality is 100 and source image is JPEG, it means no compression - original bytes will be saved.
 
-## Examples
+### Examples
 
 Shows how to specify a compression type for all images in a document that we are converting to PDF.
 

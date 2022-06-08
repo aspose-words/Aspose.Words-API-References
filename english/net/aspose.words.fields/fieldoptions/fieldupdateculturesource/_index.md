@@ -14,13 +14,13 @@ Specifies what culture to use to format the field result.
 public FieldUpdateCultureSource FieldUpdateCultureSource { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 By default, the culture of the current thread is used.
 
 The setting affects only date/time fields with \\@ format switch.
 
-## Examples
+### Examples
 
 Shows how to specify the source of the culture used for date formatting during a field update or mail merge.
 

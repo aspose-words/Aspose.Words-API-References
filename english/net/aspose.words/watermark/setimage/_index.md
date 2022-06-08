@@ -6,7 +6,7 @@ type: docs
 weight: 30
 url: /net/aspose.words/watermark/setimage/
 ---
-## Watermark.SetImage method (1 of 3)
+## SetImage(Image) {#setimage}
 
 Adds Image watermark into the document.
 
@@ -32,7 +32,7 @@ public void SetImage(Image image)
 
 ---
 
-## Watermark.SetImage method (2 of 3)
+## SetImage(Image, ImageWatermarkOptions) {#setimage_1}
 
 Adds Image watermark into the document.
 
@@ -51,11 +51,11 @@ public void SetImage(Image image, ImageWatermarkOptions options)
 | --- | --- |
 | ArgumentNullException | Throws when the image is null. |
 
-## Remarks
+### Remarks
 
 If [`ImageWatermarkOptions`](../../imagewatermarkoptions) is null, the watermark will be set with default options.
 
-## Examples
+### Examples
 
 Shows how to create a watermark from an image in the local file system.
 
@@ -89,7 +89,7 @@ Document doc = new Document();
 
 ---
 
-## Watermark.SetImage method (3 of 3)
+## SetImage(string, ImageWatermarkOptions) {#setimage_2}
 
 Adds Image watermark into the document.
 
@@ -108,7 +108,7 @@ public void SetImage(string imagePath, ImageWatermarkOptions options)
 | --- | --- |
 | ArgumentNullException | Throws when the path is null. |
 
-## Remarks
+### Remarks
 
 If [`ImageWatermarkOptions`](../../imagewatermarkoptions) is null, the watermark will be set with default options.
 

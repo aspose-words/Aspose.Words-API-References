@@ -22,7 +22,7 @@ public virtual VisitorAction VisitStructuredDocumentTagStart(StructuredDocumentT
 
 A [`VisitorAction`](../../visitoraction) value that specifies how to continue the enumeration.
 
-## Examples
+### Examples
 
 Shows how to print the node structure of every structured document tag in a document.
 

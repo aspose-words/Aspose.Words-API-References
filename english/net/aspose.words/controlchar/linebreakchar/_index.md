@@ -14,7 +14,7 @@ Line break character: (char)11 or "\v".
 public const char LineBreakChar;
 ```
 
-## Examples
+### Examples
 
 Shows how to add various control characters to a document.
 

@@ -14,7 +14,7 @@ Gets or sets the name of the character style applied to this formatting.
 public string StyleName { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to change the style of existing text.
 

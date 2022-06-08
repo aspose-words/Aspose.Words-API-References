@@ -23,7 +23,7 @@ public interface IChartDataPoint
 | [InvertIfNegative](../../aspose.words.drawing.charts/ichartdatapoint/invertifnegative) { get; set; } | Specifies whether the parent element shall inverts its colors if the value is negative. |
 | [Marker](../../aspose.words.drawing.charts/ichartdatapoint/marker) { get; } | Specifies a data marker. Marker is automatically created when requested. |
 
-## Examples
+### Examples
 
 Shows how to work with data points on a line chart.
 

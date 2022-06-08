@@ -22,7 +22,7 @@ public class ChartTitle
 | [Show](../../aspose.words.drawing.charts/charttitle/show) { get; set; } | Determines whether the title shall be shown for this chart. Default value is true. |
 | [Text](../../aspose.words.drawing.charts/charttitle/text) { get; set; } | Gets or sets the text of the chart title. If null or empty value is specified, auto generated title will be shown. |
 
-## Examples
+### Examples
 
 Shows how to insert a chart and set a title.
 

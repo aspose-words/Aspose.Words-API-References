@@ -14,7 +14,7 @@ Removes all elements from the collection.
 public void Clear()
 ```
 
-## Examples
+### Examples
 
 Shows how to work with an XML schema collection.
 

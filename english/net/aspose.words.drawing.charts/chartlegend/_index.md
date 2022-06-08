@@ -22,7 +22,7 @@ public class ChartLegend
 | [Overlay](../../aspose.words.drawing.charts/chartlegend/overlay) { get; set; } | Determines whether other chart elements shall be allowed to overlap legend. Default value is false. |
 | [Position](../../aspose.words.drawing.charts/chartlegend/position) { get; set; } | Specifies the position of the legend on a chart. Default value is Right. |
 
-## Examples
+### Examples
 
 Shows how to edit the appearance of a chart's legend.
 

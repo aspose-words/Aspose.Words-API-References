@@ -14,7 +14,7 @@ Specifies whether SVG resources should be embedded into Html document. Default v
 public bool ExportEmbeddedSvg { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to determine where to store SVG objects when exporting a document to Html.
 

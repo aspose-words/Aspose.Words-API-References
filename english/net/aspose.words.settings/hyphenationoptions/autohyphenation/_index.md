@@ -14,7 +14,7 @@ Gets or sets value determining whether automatic hyphenation is turned on for th
 public bool AutoHyphenation { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to configure automatic hyphenation.
 

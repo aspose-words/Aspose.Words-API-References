@@ -14,7 +14,7 @@ Gets or sets the name of the style applied to the structured document tag.
 public string StyleName { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to work with styles for content control elements.
 

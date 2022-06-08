@@ -14,13 +14,13 @@ Gets the text of all cells in this row including the end of row character.
 public override string GetText()
 ```
 
-## Remarks
+### Remarks
 
 Returns concatenated text of all child nodes with the end of row character [`ControlChar.Cell`](../../../aspose.words/controlchar/cell) appended at the end.
 
 The returned string includes all control and special characters as described in [`ControlChar`](../../../aspose.words/controlchar).
 
-## Examples
+### Examples
 
 Shows how to print the node structure of every table in a document.
 

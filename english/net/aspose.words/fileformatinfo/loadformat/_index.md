@@ -14,11 +14,11 @@ Gets the detected document format.
 public LoadFormat LoadFormat { get; }
 ```
 
-## Remarks
+### Remarks
 
 When an OOXML document is encrypted, it is not possible to ascertained whether it is an Excel, Word or PowerPoint document without decrypting it first so for an encrypted OOXML document this property will always return Docx.
 
-## Examples
+### Examples
 
 Shows how to use the FileFormatUtil class to detect the document format and encryption.
 

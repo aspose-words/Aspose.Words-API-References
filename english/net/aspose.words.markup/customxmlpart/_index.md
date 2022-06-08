@@ -35,11 +35,11 @@ public class CustomXmlPart
 | --- | --- |
 | [Clone](../../aspose.words.markup/customxmlpart/clone)() | Makes a "deep enough" copy of the object. Does not duplicate the bytes of the [`Data`](./data) value. |
 
-## Remarks
+### Remarks
 
 A DOCX or DOC document can contain one or more Custom XML Data Storage parts. Aspose.Words preserves and allows to create and extract Custom XML Data via the [`CustomXmlParts`](../../aspose.words/document/customxmlparts) collection.
 
-## Examples
+### Examples
 
 Shows how to create a structured document tag with custom XML data.
 

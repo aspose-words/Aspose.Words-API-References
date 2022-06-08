@@ -16,7 +16,7 @@ BuildingBlock with this name [`Name`](../../../aspose.words.buildingblocks/build
 public string PlaceholderName { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to get the properties of multi-section structured document tags.
 

@@ -14,7 +14,7 @@ Gets or sets whether to display the number without a trailing period.
 public bool RemoveTrailingPeriod { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to organize a document using AUTONUMLGL fields.
 

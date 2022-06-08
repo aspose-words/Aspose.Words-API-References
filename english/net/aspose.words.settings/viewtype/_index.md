@@ -25,7 +25,7 @@ public enum ViewType
 | Normal | `4` | The document shall be rendered in a view optimized for outlining or creating long documents. |
 | Web | `5` | The document shall be rendered in a view mimicking the way this document would be displayed in a web page. |
 
-## Examples
+### Examples
 
 Shows how to set a custom zoom factor, which older versions of Microsoft Word will apply to a document upon loading.
 

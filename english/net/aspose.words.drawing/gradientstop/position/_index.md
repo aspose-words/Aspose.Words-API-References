@@ -14,7 +14,7 @@ Gets or sets a value representing the position of a stop within the gradient exp
 public double Position { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to add gradient stops to the gradient fill.
 

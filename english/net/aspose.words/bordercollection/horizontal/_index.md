@@ -14,7 +14,7 @@ Gets the horizontal border that is used between cells or conforming paragraphs.
 public Border Horizontal { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to apply settings to horizontal borders to a paragraph's format.
 

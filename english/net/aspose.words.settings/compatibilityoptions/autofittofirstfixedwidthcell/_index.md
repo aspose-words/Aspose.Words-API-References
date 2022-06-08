@@ -14,7 +14,7 @@ Allow Table Columns To Exceed Preferred Widths of Constituent Cells.
 public bool AutofitToFirstFixedWidthCell { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 The option is called "Use Word 2003 table autofit rules" in MS Word 2013 user interface. It actually affects how the grid is calculated for fixed layout tables, too (for some cases).
 

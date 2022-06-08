@@ -14,7 +14,7 @@ Gets the level at which this structured document tag range start occurs in the d
 public MarkupLevel Level { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to get the properties of multi-section structured document tags.
 

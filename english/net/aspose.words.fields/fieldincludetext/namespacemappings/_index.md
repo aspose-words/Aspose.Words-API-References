@@ -14,7 +14,7 @@ Gets or sets the namespace mappings for XPath queries.
 public string NamespaceMappings { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to create an INCLUDETEXT field, and set its properties.
 

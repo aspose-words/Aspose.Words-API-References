@@ -6,7 +6,7 @@ type: docs
 weight: 160
 url: /net/aspose.words.drawing/oleformat/save/
 ---
-## OleFormat.Save method (1 of 2)
+## Save(Stream) {#save}
 
 Saves the data of the embedded object into the specified stream.
 
@@ -24,11 +24,11 @@ public void Save(Stream stream)
 | --- | --- |
 | InvalidOperationException | Throws if you attempt to save a linked object. |
 
-## Remarks
+### Remarks
 
 It is the responsibility of the caller to dispose the stream.
 
-## Examples
+### Examples
 
 Shows how to extract embedded OLE objects into files.
 
@@ -68,7 +68,7 @@ oleFormat.Save(ArtifactsDir + "OLE spreadsheet saved directly" + oleFormat.Sugge
 
 ---
 
-## OleFormat.Save method (2 of 2)
+## Save(string) {#save_1}
 
 Saves the data of the embedded object into a file with the specified name.
 
@@ -86,7 +86,7 @@ public void Save(string fileName)
 | --- | --- |
 | InvalidOperationException | Throws if you attempt to save a linked object. |
 
-## Examples
+### Examples
 
 Shows how to extract embedded OLE objects into files.
 

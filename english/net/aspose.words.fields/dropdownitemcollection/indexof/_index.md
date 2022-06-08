@@ -22,7 +22,7 @@ public int IndexOf(string value)
 
 The zero based index. Negative value if not found.
 
-## Examples
+### Examples
 
 Shows how to insert a combo box field, and edit the elements in its item collection.
 

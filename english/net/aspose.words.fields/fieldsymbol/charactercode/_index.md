@@ -14,7 +14,7 @@ Gets or sets the character's code point value in decimal or hexadecimal.
 public string CharacterCode { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to use the SYMBOL field.
 

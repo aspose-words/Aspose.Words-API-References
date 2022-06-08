@@ -24,13 +24,13 @@ public Field InsertHyperlink(string displayText, string urlOrBookmark, bool isBo
 
 A [`Field`](../../../aspose.words.fields/field) object that represents the inserted field.
 
-## Remarks
+### Remarks
 
 Note that you need to specify font formatting for the hyperlink display text explicitly using the [`Font`](../font) property.
 
 This methods internally calls [`InsertField`](../insertfield) to insert an MS Word HYPERLINK field into the document.
 
-## Examples
+### Examples
 
 Shows how to insert a hyperlink which references a local bookmark.
 

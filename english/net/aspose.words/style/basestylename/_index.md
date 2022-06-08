@@ -14,11 +14,11 @@ Gets/sets the name of the style this style is based on.
 public string BaseStyleName { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 This will be an empty string if the style is not based on any other style and it can be set to an empty string.
 
-## Examples
+### Examples
 
 Shows how to use style aliases.
 

@@ -14,7 +14,7 @@ Gets or sets the value (in points) that represents the right indent for paragrap
 public double RightIndent { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to configure paragraph formatting to create off-center text.
 

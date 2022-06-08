@@ -18,11 +18,11 @@ public static double MillimeterToPoint(double millimeters)
 | --- | --- | --- |
 | millimeters | Double | The value to convert. |
 
-## Remarks
+### Remarks
 
 1 inch equals 25.4 millimeters. 1 inch equals 72 points.
 
-## Examples
+### Examples
 
 Shows how to specify page properties in millimeters.
 

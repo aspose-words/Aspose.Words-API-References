@@ -14,13 +14,13 @@ Returns or sets the distance (in points) between the document text and the right
 public double DistanceRight { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 The default value is 1/8 inch.
 
 Has effect only for top level shapes.
 
-## Examples
+### Examples
 
 Shows how to set the wrapping distance for a text that surrounds a shape.
 

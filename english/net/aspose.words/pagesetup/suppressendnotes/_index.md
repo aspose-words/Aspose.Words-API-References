@@ -14,7 +14,7 @@ url: /net/aspose.words/pagesetup/suppressendnotes/
 public bool SuppressEndnotes { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to store endnotes at the end of each section, and modify their positions.
 

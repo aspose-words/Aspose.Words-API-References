@@ -14,7 +14,7 @@ Gets or sets the left part of the comparison expression.
 public string LeftExpression { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to compare expressions using a COMPARE field.
 

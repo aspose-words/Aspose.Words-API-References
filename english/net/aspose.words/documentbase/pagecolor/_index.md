@@ -14,13 +14,13 @@ Gets or sets the page color of the document. This property is a simpler version 
 public Color PageColor { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 This property provides a simple way to specify a solid page color for the document. Setting this property creates and sets an appropriate [`BackgroundShape`](../backgroundshape).
 
 If the page color is not set (e.g. there is no background shape in the document) returns Empty.
 
-## Examples
+### Examples
 
 Shows how to set the background color for all pages of a document.
 

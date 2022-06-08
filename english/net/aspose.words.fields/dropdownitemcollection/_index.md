@@ -34,7 +34,7 @@ public class DropDownItemCollection : IEnumerable<string>
 | [Remove](../../aspose.words.fields/dropdownitemcollection/remove)(string) | Removes the specified value from the collection. |
 | [RemoveAt](../../aspose.words.fields/dropdownitemcollection/removeat)(int) | Removes a value at the specified index. |
 
-## Examples
+### Examples
 
 Shows how to insert a combo box field, and edit the elements in its item collection.
 

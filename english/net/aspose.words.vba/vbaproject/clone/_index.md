@@ -18,7 +18,7 @@ public VbaProject Clone()
 
 The cloned VbaProject.
 
-## Examples
+### Examples
 
 Shows how to deep clone a VBA project and module.
 

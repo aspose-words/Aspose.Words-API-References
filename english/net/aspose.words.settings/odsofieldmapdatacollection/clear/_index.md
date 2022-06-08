@@ -14,7 +14,7 @@ Removes all elements from this collection.
 public void Clear()
 ```
 
-## Examples
+### Examples
 
 Shows how to access the collection of data that maps data source columns to merge fields.
 

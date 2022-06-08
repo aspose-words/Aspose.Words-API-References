@@ -14,7 +14,7 @@ Gets the custom number style format for this list level. For example: "a, ç, ĝ
 public string CustomNumberStyleFormat { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to get the format for a list with the custom number style.
 

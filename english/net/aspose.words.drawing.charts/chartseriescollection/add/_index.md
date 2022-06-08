@@ -6,7 +6,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.drawing.charts/chartseriescollection/add/
 ---
-## ChartSeriesCollection.Add method (1 of 4)
+## Add(string, string[], double[]) {#add_3}
 
 Adds new [`ChartSeries`](../../chartseries) to this collection. Use this method to add series to any type of Bar, Column, Line and Surface charts.
 
@@ -18,7 +18,7 @@ public ChartSeries Add(string seriesName, string[] categories, double[] values)
 
 Recently added [`ChartSeries`](../../chartseries) object.
 
-## Examples
+### Examples
 
 Shows how to create an appropriate type of chart series for a graph type.
 
@@ -112,7 +112,7 @@ private static Chart AppendChart(DocumentBuilder builder, ChartType chartType, d
 
 ---
 
-## ChartSeriesCollection.Add method (2 of 4)
+## Add(string, double[], double[]) {#add}
 
 Adds new [`ChartSeries`](../../chartseries) to this collection. Use this method to add series to any type of Scatter charts.
 
@@ -124,7 +124,7 @@ public ChartSeries Add(string seriesName, double[] xValues, double[] yValues)
 
 Recently added [`ChartSeries`](../../chartseries) object.
 
-## Examples
+### Examples
 
 Shows how to create an appropriate type of chart series for a graph type.
 
@@ -218,7 +218,7 @@ private static Chart AppendChart(DocumentBuilder builder, ChartType chartType, d
 
 ---
 
-## ChartSeriesCollection.Add method (3 of 4)
+## Add(string, DateTime[], double[]) {#add_2}
 
 Adds new [`ChartSeries`](../../chartseries) to this collection. Use this method to add series to any type of Area, Radar and Stock charts.
 
@@ -226,7 +226,7 @@ Adds new [`ChartSeries`](../../chartseries) to this collection. Use this method 
 public ChartSeries Add(string seriesName, DateTime[] dates, double[] values)
 ```
 
-## Examples
+### Examples
 
 Shows how to create an appropriate type of chart series for a graph type.
 
@@ -320,7 +320,7 @@ private static Chart AppendChart(DocumentBuilder builder, ChartType chartType, d
 
 ---
 
-## ChartSeriesCollection.Add method (4 of 4)
+## Add(string, double[], double[], double[]) {#add_1}
 
 Adds new [`ChartSeries`](../../chartseries) to this collection. Use this method to add series to any type of Bubble charts.
 
@@ -332,7 +332,7 @@ public ChartSeries Add(string seriesName, double[] xValues, double[] yValues, do
 
 Recently added [`ChartSeries`](../../chartseries) object.
 
-## Examples
+### Examples
 
 Shows how to create an appropriate type of chart series for a graph type.
 

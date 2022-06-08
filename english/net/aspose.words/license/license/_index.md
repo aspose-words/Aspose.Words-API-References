@@ -14,7 +14,7 @@ Initializes a new instance of this class.
 public License()
 ```
 
-## Examples
+### Examples
 
 Shows how initialize a license for Aspose.Words using a license file in the local file system.
 

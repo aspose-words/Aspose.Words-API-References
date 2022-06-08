@@ -14,7 +14,7 @@ Gets a [`FieldFormat`](../../fieldformat) object that provides typed access to f
 public FieldFormat Format { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to format field results.
 

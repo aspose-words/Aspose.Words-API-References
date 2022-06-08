@@ -14,7 +14,7 @@ Gets or sets the degree of transparency of the specified fill as a value between
 public double Transparency { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 This property is the opposite of property [`Opacity`](../opacity).
 

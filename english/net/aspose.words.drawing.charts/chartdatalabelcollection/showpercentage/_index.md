@@ -14,11 +14,11 @@ Allows to specify whether percentage value is to be displayed for the data label
 public bool ShowPercentage { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 Value defined for this property can be overridden for an individual data label with using the [`ShowPercentage`](../../chartdatalabel/showpercentage) property.
 
-## Examples
+### Examples
 
 Shows how to work with data labels of a pie chart.
 

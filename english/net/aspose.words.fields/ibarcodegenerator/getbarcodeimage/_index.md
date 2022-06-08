@@ -22,7 +22,7 @@ public Image GetBarcodeImage(BarcodeParameters parameters)
 
 Image representing generated barcode.
 
-## Examples
+### Examples
 
 Shows how to use a barcode generator.
 

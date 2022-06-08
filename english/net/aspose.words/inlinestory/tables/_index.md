@@ -14,7 +14,7 @@ Gets a collection of tables that are immediate children of the story.
 public TableCollection Tables { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to insert InlineStory nodes.
 

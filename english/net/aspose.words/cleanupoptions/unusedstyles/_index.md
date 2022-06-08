@@ -14,7 +14,7 @@ Specifies whether unused styles should be removed from document. Default value i
 public bool UnusedStyles { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to remove all unused custom styles from a document.
 

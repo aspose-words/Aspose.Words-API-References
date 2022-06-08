@@ -14,7 +14,7 @@ Gets or sets a flag indicating whether a generated data source will always conta
 public bool AlwaysGenerateRootObject { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 The default value is **false**.
 

@@ -14,7 +14,7 @@ Returns the XPath expression, which is evaluated to find the custom XML node tha
 public string XPath { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to set XML mappings for custom XML parts.
 

@@ -14,13 +14,13 @@ Clears contents of this structured document tag and displays a placeholder if it
 public void Clear()
 ```
 
-## Remarks
+### Remarks
 
 It is not possible to clear contents of a structured document tag if it has revisions.
 
 If this structured document tag is mapped to custom XML (with using the [`XmlMapping`](../xmlmapping) property), the referenced XML node is cleared.
 
-## Examples
+### Examples
 
 Shows how to delete contents of structured document tag elements.
 

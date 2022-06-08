@@ -14,7 +14,7 @@ Returns an enumerator object.
 public IEnumerator<ChartDataPoint> GetEnumerator()
 ```
 
-## Examples
+### Examples
 
 Shows how to work with data points on a line chart.
 

@@ -14,11 +14,11 @@ Time-out value for accessing timestamp server.
 public TimeSpan Timeout { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 The default value is 100 seconds.
 
-## Examples
+### Examples
 
 Shows how to sign a saved PDF document digitally and timestamp it.
 

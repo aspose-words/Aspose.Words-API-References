@@ -14,11 +14,11 @@ Gets collection of immediate child controls.
 public Forms2OleControlCollection ChildNodes { get; }
 ```
 
-## Remarks
+### Remarks
 
 Returns **null** if this control can not have children.
 
-## Examples
+### Examples
 
 Shows how to verify the properties of an ActiveX control.
 

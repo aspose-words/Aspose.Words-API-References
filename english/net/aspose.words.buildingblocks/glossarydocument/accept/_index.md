@@ -22,7 +22,7 @@ public override bool Accept(DocumentVisitor visitor)
 
 True if all nodes were visited; false if DocumentVisitor stopped the operation before visiting all nodes.
 
-## Remarks
+### Remarks
 
 Enumerates over this node and all of its children. Each node calls a corresponding method on DocumentVisitor.
 
@@ -32,7 +32,7 @@ Calls [`VisitGlossaryDocumentStart`](../../../aspose.words/documentvisitor/visit
 
 Note: A glossary document node and its children are not visited when you execute a Visitor over a [`Document`](../../../aspose.words/document). If you want to execute a Visitor over a glossary document, you need to call `Accept`.
 
-## Examples
+### Examples
 
 Shows ways of accessing building blocks in a glossary document.
 

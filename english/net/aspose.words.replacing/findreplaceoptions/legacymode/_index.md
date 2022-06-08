@@ -14,11 +14,11 @@ Gets or sets a boolean value indicating that old find/replace algorithm is used.
 public bool LegacyMode { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 Use this flag if you need exactly the same behavior as before advanced find/replace feature was introduced. Note that old algorithm does not support advanced features such as replace with breaks, apply formatting and so on.
 
-## Examples
+### Examples
 
 Shows how to recognize and use substitutions within replacement patterns.
 

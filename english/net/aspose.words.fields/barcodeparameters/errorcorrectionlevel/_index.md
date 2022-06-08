@@ -14,7 +14,7 @@ Error correction level of QR Code. Valid values are [0, 3].
 public string ErrorCorrectionLevel { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to use a barcode generator.
 

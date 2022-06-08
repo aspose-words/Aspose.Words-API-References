@@ -14,7 +14,7 @@ Tab character: (char)9 or "\t".
 public const char TabChar;
 ```
 
-## Examples
+### Examples
 
 Shows how to set a custom interval for tab stop positions.
 

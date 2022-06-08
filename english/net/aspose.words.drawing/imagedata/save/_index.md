@@ -6,7 +6,7 @@ type: docs
 weight: 190
 url: /net/aspose.words.drawing/imagedata/save/
 ---
-## ImageData.Save method (1 of 2)
+## Save(Stream) {#save}
 
 Saves the image into the specified stream.
 
@@ -18,11 +18,11 @@ public void Save(Stream stream)
 | --- | --- | --- |
 | stream | Stream | The stream where to save the image to. |
 
-## Remarks
+### Remarks
 
 Is it the responsibility of the caller to dispose the stream object.
 
-## Examples
+### Examples
 
 Shows how to save all images from a document to the file system.
 
@@ -60,7 +60,7 @@ using (IEnumerator<Shape> enumerator = shapesWithImages.GetEnumerator())
 
 ---
 
-## ImageData.Save method (2 of 2)
+## Save(string) {#save_1}
 
 Saves the image into a file.
 
@@ -72,7 +72,7 @@ public void Save(string fileName)
 | --- | --- | --- |
 | fileName | String | The file name where to save the image. |
 
-## Examples
+### Examples
 
 Shows how to extract images from a document, and save them to the local file system as individual files.
 

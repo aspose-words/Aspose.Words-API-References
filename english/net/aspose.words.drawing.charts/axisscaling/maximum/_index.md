@@ -14,11 +14,11 @@ Gets or sets the maximum value of the axis.
 public AxisBound Maximum { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 The default value is "auto".
 
-## Examples
+### Examples
 
 Shows how to insert chart with date/time values.
 

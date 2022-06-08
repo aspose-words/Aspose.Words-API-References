@@ -14,7 +14,7 @@ Gets the odd column banding style.
 public ConditionalStyle OddColumnBanding { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to work with certain area styles of a table.
 

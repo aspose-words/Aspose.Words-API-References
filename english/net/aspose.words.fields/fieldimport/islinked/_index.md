@@ -14,7 +14,7 @@ Gets or sets whether to reduce the file size by not storing graphics data with t
 public bool IsLinked { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to insert images using IMPORT and INCLUDEPICTURE fields.
 

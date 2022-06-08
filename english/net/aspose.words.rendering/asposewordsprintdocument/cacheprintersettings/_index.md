@@ -14,11 +14,11 @@ Reads and caches some fields of PrinterSettings to reduce printing time.
 public void CachePrinterSettings()
 ```
 
-## Remarks
+### Remarks
 
 This method is called before the printing starts if it wasn't executed previously.
 
-## Examples
+### Examples
 
 Shows how to select a page range and a printer to print the document with, and then bring up a print preview.
 

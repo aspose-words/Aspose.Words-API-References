@@ -76,7 +76,7 @@ public class Body : Story
 | [ToString](../../aspose.words/node/tostring)(SaveFormat) | Exports the content of the node into a string in the specified format. |
 | [ToString](../../aspose.words/node/tostring)(SaveOptions) | Exports the content of the node into a string using the specified save options. |
 
-## Remarks
+### Remarks
 
 **Body** can contain **Paragraph** and **Table** child nodes.
 
@@ -84,7 +84,7 @@ public class Body : Story
 
 A minimal valid **Body** needs to contain at least one **Paragraph**.
 
-## Examples
+### Examples
 
 Shows how to construct an Aspose.Words document by hand.
 

@@ -14,13 +14,13 @@ Removes mail merge related fields from the document.
 public void DeleteFields()
 ```
 
-## Remarks
+### Remarks
 
 This method removes MERGEFIELD and NEXT fields from the document.
 
 This method could be useful if your mail merge operation does not always need to populate all fields in the document. Use this method to remove all remaining mail merge fields.
 
-## Examples
+### Examples
 
 Shows how to delete all MERGEFIELDs from a document.
 

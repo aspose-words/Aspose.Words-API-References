@@ -25,7 +25,7 @@ public enum LegendPosition
 | Top | `4` | Specifies that the legend shall be drawn at the top of the chart. |
 | TopRight | `5` | Specifies that the legend shall be drawn at the top right of the chart. |
 
-## Examples
+### Examples
 
 Shows how to edit the appearance of a chart's legend.
 

@@ -14,7 +14,7 @@ Gets the type of this header/footer.
 public HeaderFooterType HeaderFooterType { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to create a header and a footer.
 

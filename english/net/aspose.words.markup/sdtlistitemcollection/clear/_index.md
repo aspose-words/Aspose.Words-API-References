@@ -14,7 +14,7 @@ Clears all items from this collection.
 public void Clear()
 ```
 
-## Examples
+### Examples
 
 Shows how to work with drop down-list structured document tags.
 

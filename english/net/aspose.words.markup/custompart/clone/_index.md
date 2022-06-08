@@ -14,7 +14,7 @@ Makes a "deep enough" copy of the object. Does not duplicate the bytes of the [`
 public CustomPart Clone()
 ```
 
-## Examples
+### Examples
 
 Shows how to access a document's arbitrary custom parts collection.
 

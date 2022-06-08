@@ -14,7 +14,7 @@ Returns or sets the font used for Latin text (characters with character codes fr
 public string NameAscii { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how Microsoft Word can combine two different fonts in one run.
 

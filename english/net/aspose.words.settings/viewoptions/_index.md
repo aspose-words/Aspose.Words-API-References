@@ -25,7 +25,7 @@ public class ViewOptions
 | [ZoomPercent](../../aspose.words.settings/viewoptions/zoompercent) { get; set; } | Gets or sets the percentage (between 10 and 500) at which you want to view your document. |
 | [ZoomType](../../aspose.words.settings/viewoptions/zoomtype) { get; set; } | Gets or sets a zoom value based on the size of the window. |
 
-## Examples
+### Examples
 
 Shows how to set a custom zoom factor, which older versions of Microsoft Word will apply to a document upon loading.
 

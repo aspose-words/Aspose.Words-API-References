@@ -28,7 +28,7 @@ public enum RevisionTextEffect
 | DoubleStrikeThrough | `7` | Revised content is double stroked through and colored. |
 | Hidden | `8` | Revised content is hidden. |
 
-## Examples
+### Examples
 
 Shows how to modify the appearance of revisions.
 

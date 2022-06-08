@@ -44,14 +44,14 @@ public abstract class SaveOptions
 
 | Name | Description |
 | --- | --- |
-| static [CreateSaveOptions](../../aspose.words.saving/saveoptions/createsaveoptions)(SaveFormat) | Creates a save options object of a class suitable for the specified save format. |
-| static [CreateSaveOptions](../../aspose.words.saving/saveoptions/createsaveoptions)(string) | Creates a save options object of a class suitable for the file extension specified in the given file name. |
+| static [CreateSaveOptions](../../aspose.words.saving/saveoptions/createsaveoptions#createsaveoptions)(SaveFormat) | Creates a save options object of a class suitable for the specified save format. |
+| static [CreateSaveOptions](../../aspose.words.saving/saveoptions/createsaveoptions#createsaveoptions_1)(string) | Creates a save options object of a class suitable for the file extension specified in the given file name. |
 
-## Remarks
+### Remarks
 
 An instance of the SaveOptions class or any derived class is passed to the stream [`Save`](../../aspose.words/document/save) or string [`Save`](../../aspose.words/document/save) overloads for the user to define custom options when saving a document.
 
-## Examples
+### Examples
 
 Shows how to use a specific encoding when saving a document to .epub.
 

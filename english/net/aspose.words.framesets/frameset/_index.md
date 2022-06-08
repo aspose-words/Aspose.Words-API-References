@@ -28,11 +28,11 @@ public class Frameset
 | [FrameDefaultUrl](../../aspose.words.framesets/frameset/framedefaulturl) { get; set; } | Gets or sets the web page URL or document file name to display in this frame. |
 | [IsFrameLinkToFile](../../aspose.words.framesets/frameset/isframelinktofile) { get; set; } | Gets or sets a value indicating whether the web page or document file name specified in the [`FrameDefaultUrl`](./framedefaulturl) property is an external resource the frame is linked with. |
 
-## Remarks
+### Remarks
 
 If the [`ChildFramesets`](./childframesets) property contains items, this instance is a frames page, otherwise it is a single frame.
 
-## Examples
+### Examples
 
 Shows how to access frames on-page.
 

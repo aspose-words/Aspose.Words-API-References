@@ -14,7 +14,7 @@ Gets the collection of default cell borders for the style.
 public BorderCollection Borders { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to create custom style settings for the table.
 

@@ -14,7 +14,7 @@ Selects direction for replace. Default value is Forward.
 public FindReplaceDirection Direction { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to determine which direction a find-and-replace operation traverses the document in.
 

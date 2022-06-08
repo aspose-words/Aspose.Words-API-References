@@ -6,7 +6,7 @@ type: docs
 weight: 10
 url: /net/aspose.words/plaintextdocument/plaintextdocument/
 ---
-## PlainTextDocument constructor (1 of 4)
+## PlainTextDocument(string) {#constructor_2}
 
 Creates a plain text document from a file. Automatically detects the file format.
 
@@ -29,7 +29,7 @@ public PlainTextDocument(string fileName)
 | [IncorrectPasswordException](../../incorrectpasswordexception) | The document is encrypted and requires a password to open, but you supplied an incorrect password. |
 | ArgumentException | The name of the file cannot be null or empty string. |
 
-## Examples
+### Examples
 
 Shows how to load the contents of a Microsoft Word document in plaintext.
 
@@ -53,7 +53,7 @@ Assert.AreEqual("Hello world!", plaintext.Text.Trim());
 
 ---
 
-## PlainTextDocument constructor (2 of 4)
+## PlainTextDocument(string, LoadOptions) {#constructor_3}
 
 Creates a plain text document from a file. Allows to specify additional options such as an encryption password.
 
@@ -77,7 +77,7 @@ public PlainTextDocument(string fileName, LoadOptions loadOptions)
 | [IncorrectPasswordException](../../incorrectpasswordexception) | The document is encrypted and requires a password to open, but you supplied an incorrect password. |
 | ArgumentException | The name of the file cannot be null or empty string. |
 
-## Examples
+### Examples
 
 Shows how to load the contents of an encrypted Microsoft Word document in plaintext.
 
@@ -108,7 +108,7 @@ Assert.AreEqual("Hello world!", plaintext.Text.Trim());
 
 ---
 
-## PlainTextDocument constructor (3 of 4)
+## PlainTextDocument(Stream) {#constructor}
 
 Creates a plain text document from a stream. Automatically detects the file format.
 
@@ -133,11 +133,11 @@ public PlainTextDocument(Stream stream)
 | NotSupportedException | The stream does not support reading or seeking. |
 | ObjectDisposedException | The stream is a disposed object. |
 
-## Remarks
+### Remarks
 
 The document must be stored at the beginning of the stream. The stream must support random positioning.
 
-## Examples
+### Examples
 
 Shows how to load the contents of a Microsoft Word document in plaintext using stream.
 
@@ -164,7 +164,7 @@ using (FileStream stream = new FileStream(ArtifactsDir + "PlainTextDocument.Load
 
 ---
 
-## PlainTextDocument constructor (4 of 4)
+## PlainTextDocument(Stream, LoadOptions) {#constructor_1}
 
 Creates a plain text document from a stream. Allows to specify additional options such as an encryption password.
 
@@ -190,11 +190,11 @@ public PlainTextDocument(Stream stream, LoadOptions loadOptions)
 | NotSupportedException | The stream does not support reading or seeking. |
 | ObjectDisposedException | The stream is a disposed object. |
 
-## Remarks
+### Remarks
 
 The document must be stored at the beginning of the stream. The stream must support random positioning.
 
-## Examples
+### Examples
 
 Shows how to load the contents of an encrypted Microsoft Word document in plaintext using stream.
 

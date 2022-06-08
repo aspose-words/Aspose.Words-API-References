@@ -14,7 +14,7 @@ Gets or sets the amount of space (in points) between the cells.
 public double CellSpacing { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to enable spacing between individual cells in a table.
 

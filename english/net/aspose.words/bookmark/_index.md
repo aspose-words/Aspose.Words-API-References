@@ -32,11 +32,11 @@ public class Bookmark
 | --- | --- |
 | [Remove](../../aspose.words/bookmark/remove)() | Removes the bookmark from the document. Does not remove text inside the bookmark. |
 
-## Remarks
+### Remarks
 
 [`Bookmark`](../bookmark) is a "facade" object that encapsulates two nodes [`BookmarkStart`](./bookmarkstart) and [`BookmarkEnd`](./bookmarkend) in a document tree and allows to work with a bookmark as a single object.
 
-## Examples
+### Examples
 
 Shows how to add bookmarks and update their contents.
 

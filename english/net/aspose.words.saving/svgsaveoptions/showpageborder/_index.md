@@ -14,7 +14,7 @@ Controls whether a border is added to the outline of the page. Default is `true`
 public bool ShowPageBorder { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to mimic the properties of images when converting a .docx document to .svg.
 

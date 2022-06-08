@@ -47,11 +47,11 @@ public class FieldUserInitials : Field
 | [Update](../../aspose.words.fields/field/update)() | Performs the field update. Throws if the field is being updated already. |
 | [Update](../../aspose.words.fields/field/update)(bool) | Performs a field update. Throws if the field is being updated already. |
 
-## Remarks
+### Remarks
 
 Retrieves the current user's initials.
 
-## Examples
+### Examples
 
 Shows how to use the USERINITIALS field.
 

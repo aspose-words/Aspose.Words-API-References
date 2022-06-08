@@ -33,11 +33,11 @@ public class LanguagePreferences
 | [AddEditingLanguage](../../aspose.words.loading/languagepreferences/addeditinglanguage)(EditingLanguage) | Adds additional editing language. |
 | [AddEditingLanguages](../../aspose.words.loading/languagepreferences/addeditinglanguages)(EditingLanguage[]) | Adds additional editing languages. |
 
-## Remarks
+### Remarks
 
 Implements 'Set the Office Language Preferences' dialog in Word.
 
-## Examples
+### Examples
 
 Shows how to apply language preferences when loading a document.
 

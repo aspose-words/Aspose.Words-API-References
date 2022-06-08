@@ -14,7 +14,7 @@ Removes the editable range from the document. Does not remove content inside the
 public void Remove()
 ```
 
-## Examples
+### Examples
 
 Shows how to work with an editable range.
 

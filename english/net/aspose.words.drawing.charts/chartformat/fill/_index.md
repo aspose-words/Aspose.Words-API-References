@@ -14,7 +14,7 @@ Gets fill formatting for the parent chart element.
 public Fill Fill { get; }
 ```
 
-## Examples
+### Examples
 
 Show how to set marker formatting.
 

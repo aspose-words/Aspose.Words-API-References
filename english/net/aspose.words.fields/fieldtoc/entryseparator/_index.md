@@ -14,7 +14,7 @@ Gets or sets a sequence of characters that separate an entry and its page number
 public string EntrySeparator { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to insert a TOC, and populate it with entries based on heading styles.
 

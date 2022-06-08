@@ -14,13 +14,13 @@ Gets or sets the encoding that will be used to load an HTML, TXT, or CHM documen
 public Encoding Encoding { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 This property is used only when loading HTML, TXT, or CHM documents.
 
 If encoding is not specified inside the document and this property is `null`, then the system will try to automatically detect the encoding.
 
-## Examples
+### Examples
 
 Shows how to set the encoding with which to open a document.
 

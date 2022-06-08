@@ -18,13 +18,13 @@ public Paragraph InsertParagraph()
 
 The paragraph node that was just inserted. It is the same node as [`CurrentParagraph`](../currentparagraph).
 
-## Remarks
+### Remarks
 
 Current paragraph formatting specified by the [`ParagraphFormat`](../paragraphformat) property is used.
 
 Breaks the current paragraph in two. After inserting the paragraph, the cursor is placed at the beginning of the new paragraph.
 
-## Examples
+### Examples
 
 Shows how to insert a paragraph into the document.
 

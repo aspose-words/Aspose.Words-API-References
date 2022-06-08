@@ -14,7 +14,7 @@ Compares collections of borders.
 public bool Equals(BorderCollection brColl)
 ```
 
-## Examples
+### Examples
 
 Shows how border collections can share elements.
 

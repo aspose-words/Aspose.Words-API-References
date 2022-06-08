@@ -14,7 +14,7 @@ Gets a **FieldOptions** object that represents options to control field handling
 public FieldOptions FieldOptions { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to specify the source of the culture used for date formatting during a field update or mail merge.
 

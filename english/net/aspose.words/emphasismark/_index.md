@@ -24,7 +24,7 @@ public enum EmphasisMark
 | OverWhiteCircle | `3` | Emphasis mark is an empty white circle displayed above text. |
 | UnderSolidCircle | `4` | Emphasis mark is a solid black circle displayed below text. |
 
-## Examples
+### Examples
 
 Shows how to add additional character rendered above/below the glyph-character.
 

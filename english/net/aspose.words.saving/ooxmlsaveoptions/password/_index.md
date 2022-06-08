@@ -14,11 +14,11 @@ Gets/sets a password to encrypt document using ECMA376 Standard encryption algor
 public string Password { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 In order to save document without encryption this property should be null or empty string.
 
-## Examples
+### Examples
 
 Shows how to create a password encrypted Office Open XML document.
 

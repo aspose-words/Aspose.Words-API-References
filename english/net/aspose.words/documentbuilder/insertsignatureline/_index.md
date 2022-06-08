@@ -6,7 +6,7 @@ type: docs
 weight: 420
 url: /net/aspose.words/documentbuilder/insertsignatureline/
 ---
-## DocumentBuilder.InsertSignatureLine method (1 of 2)
+## InsertSignatureLine(SignatureLineOptions) {#insertsignatureline}
 
 Inserts a signature line at the current position.
 
@@ -22,7 +22,7 @@ public Shape InsertSignatureLine(SignatureLineOptions signatureLineOptions)
 
 The signature line node that was just inserted.
 
-## Examples
+### Examples
 
 Shows how to sign a document with a personal certificate and a signature line.
 
@@ -82,7 +82,7 @@ Assert.True(signatureLine.IsValid);
 
 ---
 
-## DocumentBuilder.InsertSignatureLine method (2 of 2)
+## InsertSignatureLine(SignatureLineOptions, RelativeHorizontalPosition, double, RelativeVerticalPosition, double, WrapType) {#insertsignatureline_1}
 
 Inserts a signature line at the specified position.
 
@@ -105,11 +105,11 @@ public Shape InsertSignatureLine(SignatureLineOptions signatureLineOptions,
 
 The signature line node that was just inserted.
 
-## Remarks
+### Remarks
 
 You can change the image size, location, positioning method and other settings using the [`Shape`](../../../aspose.words.drawing/shape) object returned by this method.
 
-## Examples
+### Examples
 
 Shows how to insert an inline signature line into a document.
 

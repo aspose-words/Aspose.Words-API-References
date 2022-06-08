@@ -6,7 +6,7 @@ type: docs
 weight: 210
 url: /net/aspose.words.drawing/fill/twocolorgradient/
 ---
-## Fill.TwoColorGradient method (1 of 2)
+## TwoColorGradient(GradientStyle, GradientVariant) {#twocolorgradient}
 
 Sets the specified fill to a two-color gradient.
 
@@ -19,7 +19,7 @@ public void TwoColorGradient(GradientStyle style, GradientVariant variant)
 | style | GradientStyle | The gradient style [`GradientStyle`](../../gradientstyle). |
 | variant | GradientVariant | The gradient variant [`GradientVariant`](../../gradientvariant) |
 
-## Examples
+### Examples
 
 Shows how to fill a shape with a gradients.
 
@@ -67,7 +67,7 @@ doc.Save(ArtifactsDir + "Shape.GradientFill.docx", saveOptions);
 
 ---
 
-## Fill.TwoColorGradient method (2 of 2)
+## TwoColorGradient(Color, Color, GradientStyle, GradientVariant) {#twocolorgradient_1}
 
 Sets the specified fill to a two-color gradient.
 
@@ -83,7 +83,7 @@ public void TwoColorGradient(Color color1, Color color2, GradientStyle style,
 | style | GradientStyle | The gradient style [`GradientStyle`](../../gradientstyle). |
 | variant | GradientVariant | The gradient variant [`GradientVariant`](../../gradientvariant) |
 
-## Examples
+### Examples
 
 Shows how to fill a shape with a gradients.
 

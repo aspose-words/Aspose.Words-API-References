@@ -18,13 +18,13 @@ public string TableName { get; }
 
 The name of the data source. Empty string if the data source has no name.
 
-## Remarks
+### Remarks
 
 If you are implementing [`IMailMergeDataSource`](../../imailmergedatasource), return the name of the data source from this property.
 
 Aspose.Words uses this name to match against the mail merge region name specified in the template document. The comparison between the data source name and the mail merge region name is not case sensitive.
 
-## Examples
+### Examples
 
 Shows how to execute a mail merge with a data source in the form of a custom object.
 

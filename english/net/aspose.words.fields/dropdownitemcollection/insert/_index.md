@@ -19,7 +19,7 @@ public void Insert(int index, string value)
 | index | Int32 | The zero-based index at which value is inserted. |
 | value | String | The string to insert. |
 
-## Examples
+### Examples
 
 Shows how to insert a combo box field, and edit the elements in its item collection.
 

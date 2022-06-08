@@ -123,7 +123,7 @@ public abstract class ShapeBase : CompositeNode
 | [ToString](../../aspose.words/node/tostring)(SaveFormat) | Exports the content of the node into a string in the specified format. |
 | [ToString](../../aspose.words/node/tostring)(SaveOptions) | Exports the content of the node into a string using the specified save options. |
 
-## Remarks
+### Remarks
 
 This is an abstract class. The two derived classes that you can instantiate are [`Shape`](../shape) and [`GroupShape`](../groupshape).
 
@@ -139,7 +139,7 @@ When a shape is floating, it is positioned relative to something (e.g the curren
 
 A floating shape be positioned explicitly using the [`Left`](./left) and [`Top`](./top) properties or aligned relative to some other object using the [`HorizontalAlignment`](./horizontalalignment) and [`VerticalAlignment`](./verticalalignment) properties.
 
-## Examples
+### Examples
 
 Shows how to insert a floating image to the center of a page.
 

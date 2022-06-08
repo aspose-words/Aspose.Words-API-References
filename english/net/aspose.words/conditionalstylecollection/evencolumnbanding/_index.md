@@ -14,7 +14,7 @@ Gets the even column banding style.
 public ConditionalStyle EvenColumnBanding { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to work with certain area styles of a table.
 

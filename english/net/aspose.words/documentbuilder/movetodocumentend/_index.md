@@ -14,7 +14,7 @@ Moves the cursor to the end of the document.
 public void MoveToDocumentEnd()
 ```
 
-## Examples
+### Examples
 
 Shows how to move a document builder's cursor to different nodes in a document.
 

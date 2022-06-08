@@ -14,7 +14,7 @@ Loads predefined fallback settings which mimics the Microsoft Word fallback and 
 public void LoadMsOfficeFallbackSettings()
 ```
 
-## Examples
+### Examples
 
 Shows how to load pre-defined fallback font settings.
 

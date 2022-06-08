@@ -14,7 +14,7 @@ Gets the number of elements contained in the collection.
 public int Count { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to insert a combo box field, and edit the elements in its item collection.
 

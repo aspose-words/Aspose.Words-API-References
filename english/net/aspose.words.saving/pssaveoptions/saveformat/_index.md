@@ -14,7 +14,7 @@ Specifies the format in which the document will be saved if this save options ob
 public override SaveFormat SaveFormat { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to save a document to the Postscript format in the form of a book fold.
 

@@ -14,7 +14,7 @@ Gets the node that represents the end of the bookmark.
 public BookmarkEnd BookmarkEnd { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to add bookmarks and update their contents.
 

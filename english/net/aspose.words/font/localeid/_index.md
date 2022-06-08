@@ -14,11 +14,11 @@ Gets or sets the locale identifier (language) of the formatted characters.
 public int LocaleId { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 For the list of locale identifiers see https://msdn.microsoft.com/en-us/library/cc233965.aspx
 
-## Examples
+### Examples
 
 Shows how to set the locale of the text that we are adding with a document builder.
 

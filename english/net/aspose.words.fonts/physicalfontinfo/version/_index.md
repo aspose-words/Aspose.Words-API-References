@@ -14,7 +14,7 @@ Version string of the font.
 public string Version { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to list available fonts.
 

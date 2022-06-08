@@ -18,7 +18,7 @@ public void PresetTextured(PresetTexture presetTexture)
 | --- | --- | --- |
 | presetTexture | PresetTexture | [`PresetTexture`](../../presettexture) |
 
-## Examples
+### Examples
 
 Show how to set marker formatting.
 

@@ -14,7 +14,7 @@ Gets or sets text that is between the field separator and field end.
 public string Result { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to insert a field into a document using a field code.
 

@@ -14,7 +14,7 @@ Gets or sets a value determining whether or not to preblend transparent images w
 public bool PreblendImages { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 Preblending images may improve PDF document visual appearance in Adobe Reader and remove anti-aliasing artifacts.
 
@@ -22,7 +22,7 @@ In order to properly display preblended images, PDF viewer application must supp
 
 The default value is `false`.
 
-## Examples
+### Examples
 
 Shows how to preblend images with transparent backgrounds while saving a document to PDF.
 

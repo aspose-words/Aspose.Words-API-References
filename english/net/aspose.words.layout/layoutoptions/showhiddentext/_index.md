@@ -14,11 +14,11 @@ Gets or sets indication of whether hidden text in the document is rendered. Defa
 public bool ShowHiddenText { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 This property affects all hidden content, not just text.
 
-## Examples
+### Examples
 
 Shows how to hide text in a rendered output document.
 

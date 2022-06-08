@@ -18,7 +18,7 @@ public void Remove(string name)
 | --- | --- | --- |
 | name | String | The case-sensitive value to remove. |
 
-## Examples
+### Examples
 
 Shows how to insert a combo box field, and edit the elements in its item collection.
 

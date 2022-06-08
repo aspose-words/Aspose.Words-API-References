@@ -14,7 +14,7 @@ Returns or sets the number format for the list level.
 public string NumberFormat { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 Among normal text characters, the string can contain placeholder characters \x0000 to \x0008 representing the numbers from the corresponding list levels.
 
@@ -22,7 +22,7 @@ For example, the string "\x0000.\x0001)" will generate a list label that looks s
 
 Null is not allowed, but an empty string meaning no number is valid.
 
-## Examples
+### Examples
 
 Shows how to apply custom list formatting to paragraphs when using DocumentBuilder.
 

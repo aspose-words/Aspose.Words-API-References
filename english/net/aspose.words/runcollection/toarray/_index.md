@@ -18,7 +18,7 @@ public Run[] ToArray()
 
 An array of runs.
 
-## Examples
+### Examples
 
 Shows how to determine the revision type of an inline node.
 

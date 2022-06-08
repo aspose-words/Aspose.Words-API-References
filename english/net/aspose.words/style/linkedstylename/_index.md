@@ -14,7 +14,7 @@ Gets the name of the Style linked to this one. Returns Empty string if no styles
 public string LinkedStyleName { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to use style aliases.
 

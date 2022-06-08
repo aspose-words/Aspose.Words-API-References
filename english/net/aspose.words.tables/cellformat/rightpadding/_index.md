@@ -14,7 +14,7 @@ Returns or sets the amount of space (in points) to add to the right of the conte
 public double RightPadding { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to format cells with a document builder.
 

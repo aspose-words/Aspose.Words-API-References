@@ -16,8 +16,8 @@ public interface ITextShaperFactory
 
 | Name | Description |
 | --- | --- |
-| [GetTextShaper](../../aspose.words.shaping/itextshaperfactory/gettextshaper)(string, int) |  |
-| [GetTextShaper](../../aspose.words.shaping/itextshaperfactory/gettextshaper)(string, byte[], int) |  |
+| [GetTextShaper](../../aspose.words.shaping/itextshaperfactory/gettextshaper#gettextshaper_1)(string, int) |  |
+| [GetTextShaper](../../aspose.words.shaping/itextshaperfactory/gettextshaper#gettextshaper)(string, byte[], int) |  |
 
 ### See Also
 

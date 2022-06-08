@@ -22,11 +22,11 @@ public bool Contains(Node node)
 
 True if item is found in the collection; otherwise, false.
 
-## Remarks
+### Remarks
 
 This method performs a linear search; therefore, the average execution time is proportional to Count.
 
-## Examples
+### Examples
 
 Shows how to work with a NodeCollection.
 

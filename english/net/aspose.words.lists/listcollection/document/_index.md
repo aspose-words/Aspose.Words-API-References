@@ -14,7 +14,7 @@ Gets the owner document.
 public DocumentBase Document { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to verify owner document properties of lists.
 

@@ -6,7 +6,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.fields/mergefieldimagedimension/mergefieldimagedimension/
 ---
-## MergeFieldImageDimension constructor (1 of 2)
+## MergeFieldImageDimension(double) {#constructor}
 
 Creates an image dimension instance with the given value in points.
 
@@ -18,11 +18,11 @@ public MergeFieldImageDimension(double value)
 | --- | --- | --- |
 | value | Double | The value. |
 
-## Remarks
+### Remarks
 
 You should use a negative value to indicate that the original value of the corresponding image dimension should be applied.
 
-## Examples
+### Examples
 
 Shows how to set the dimensions of images as MERGEFIELDS accepts them during a mail merge.
 
@@ -95,7 +95,7 @@ private class MergedImageResizer : IFieldMergingCallback
 
 ---
 
-## MergeFieldImageDimension constructor (2 of 2)
+## MergeFieldImageDimension(double, MergeFieldImageDimensionUnit) {#constructor_1}
 
 Creates an image dimension instance with the given value and the given unit.
 
@@ -108,11 +108,11 @@ public MergeFieldImageDimension(double value, MergeFieldImageDimensionUnit unit)
 | value | Double | The value. |
 | unit | MergeFieldImageDimensionUnit | The unit. |
 
-## Remarks
+### Remarks
 
 You should use a negative value to indicate that the original value of the corresponding image dimension should be applied.
 
-## Examples
+### Examples
 
 Shows how to set the dimensions of images as MERGEFIELDS accepts them during a mail merge.
 

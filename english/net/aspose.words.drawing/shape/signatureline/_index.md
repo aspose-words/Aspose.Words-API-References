@@ -14,11 +14,11 @@ Gets `SignatureLine` object if the shape is a signature line. Returns **null** o
 public SignatureLine SignatureLine { get; }
 ```
 
-## Remarks
+### Remarks
 
 You can insert new SignatureLines into the document using [`InsertSignatureLine`](../../../aspose.words/documentbuilder/insertsignatureline) and
 
-## Examples
+### Examples
 
 Shows how to create a line for a signature and insert it into a document.
 

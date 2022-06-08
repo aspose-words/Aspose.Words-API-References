@@ -14,11 +14,11 @@ Determines whether an image will be displayed in black and white.
 public bool BiLevel { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 The default value is **false**.
 
-## Examples
+### Examples
 
 Shows how to edit a shape's image data.
 

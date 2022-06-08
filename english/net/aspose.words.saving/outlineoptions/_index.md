@@ -31,7 +31,7 @@ public class OutlineOptions
 | [ExpandedOutlineLevels](../../aspose.words.saving/outlineoptions/expandedoutlinelevels) { get; set; } | Specifies how many levels in the document outline to show expanded when the file is viewed. |
 | [HeadingsOutlineLevels](../../aspose.words.saving/outlineoptions/headingsoutlinelevels) { get; set; } | Specifies how many levels of headings (paragraphs formatted with the Heading styles) to include in the document outline. |
 
-## Examples
+### Examples
 
 Shows to process bookmarks in headers/footers in a document that we are rendering to PDF.
 

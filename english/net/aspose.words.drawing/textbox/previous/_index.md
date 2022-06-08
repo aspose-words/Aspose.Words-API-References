@@ -14,7 +14,7 @@ Returns a TextBox that represents the previous TextBox in a sequence of shapes.
 public TextBox Previous { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to link text boxes.
 

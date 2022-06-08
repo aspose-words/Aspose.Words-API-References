@@ -35,7 +35,7 @@ public abstract class BaseWebExtensionCollection<T> : IEnumerable<T>
 | [GetEnumerator](../../aspose.words.webextensions/basewebextensioncollection`1/getenumerator)() | Returns an enumerator that can iterate through a collection. |
 | [Remove](../../aspose.words.webextensions/basewebextensioncollection`1/remove)(int) | Removes the item at the specified index from the collection. |
 
-## Examples
+### Examples
 
 Shows how to work with a document's collection of web extensions.
 

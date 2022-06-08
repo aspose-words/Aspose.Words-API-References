@@ -18,7 +18,7 @@ public Field InsertTableOfContents(string switches)
 | --- | --- | --- |
 | switches | String | The TOC field switches. |
 
-## Remarks
+### Remarks
 
 This method inserts a TOC (table of contents) field into the document at the current position.
 
@@ -34,7 +34,7 @@ If you insert a table of contents using this method and then open the file in Mi
 
 In Microsoft Word, fields are not automatically updated when a document is opened, but you can update fields in a document at any time by pressing F9.
 
-## Examples
+### Examples
 
 Shows how to insert a Table of contents (TOC) into a document using heading styles as entries.
 

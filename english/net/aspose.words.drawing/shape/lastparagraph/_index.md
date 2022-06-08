@@ -14,7 +14,7 @@ Gets the last paragraph in the shape.
 public Paragraph LastParagraph { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to set the orientation of text inside a text box.
 

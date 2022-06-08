@@ -14,7 +14,7 @@ Returns or sets the amount of space (in points) to add below the contents of cel
 public double BottomPadding { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to format cells with a document builder.
 

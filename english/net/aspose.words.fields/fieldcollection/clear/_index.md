@@ -14,7 +14,7 @@ Removes all fields of this collection from the document and from this collection
 public void Clear()
 ```
 
-## Examples
+### Examples
 
 Shows how to remove fields from a field collection.
 

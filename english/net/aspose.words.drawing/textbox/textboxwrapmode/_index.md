@@ -14,11 +14,11 @@ Determines how text wraps inside a shape.
 public TextBoxWrapMode TextBoxWrapMode { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 The default value is Square.
 
-## Examples
+### Examples
 
 Shows how to set a wrapping mode for the contents of a text box.
 

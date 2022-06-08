@@ -14,7 +14,7 @@ Specifies the connection string used to connect to an external data source. The 
 public string ConnectString { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to execute a mail merge while connecting to an external data source.
 

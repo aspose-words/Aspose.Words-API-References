@@ -14,7 +14,7 @@ Returns **true** if the document has a VBA project (macros).
 public bool HasMacros { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to use MACROBUTTON fields to allow us to run a document's macros by clicking.
 

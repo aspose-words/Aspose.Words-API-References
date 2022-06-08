@@ -14,7 +14,7 @@ Returns or sets the vertical alignment of text on each page in a document or sec
 public PageVerticalAlignment VerticalAlignment { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to apply and revert page setup settings to sections in a document.
 

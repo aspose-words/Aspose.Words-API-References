@@ -14,7 +14,7 @@ Defines the image for a stroke image or pattern fill.
 public byte[] ImageBytes { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to process shape stroke features.
 

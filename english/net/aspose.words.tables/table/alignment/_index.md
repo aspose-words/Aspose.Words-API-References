@@ -14,11 +14,11 @@ Specifies how an inline table is aligned in the document.
 public TableAlignment Alignment { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 The default value is Left.
 
-## Examples
+### Examples
 
 Shows how to apply an outline border to a table.
 

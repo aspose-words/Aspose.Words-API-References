@@ -14,13 +14,13 @@ Gets or sets the interval, at which tick marks are drawn.
 public int TickMarkSpacing { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 The property has effect for text category and series axes. It is not supported by MS Office 2016 new charts.
 
 Valid range of a value is greater than or equal to 1.
 
-## Examples
+### Examples
 
 Shows how to insert a chart and modify the appearance of its axes.
 

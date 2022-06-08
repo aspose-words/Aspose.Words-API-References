@@ -18,7 +18,7 @@ public void Remove(string name)
 | --- | --- | --- |
 | name | String | The case-sensitive name of the property. |
 
-## Examples
+### Examples
 
 Shows how to work with smart tag properties to get in depth information about smart tags.
 

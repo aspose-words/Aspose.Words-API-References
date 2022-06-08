@@ -14,7 +14,7 @@ Gets or sets absolute vertical floating table position specified by the table pr
 public double AbsoluteVerticalDistance { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how set the location of floating tables.
 

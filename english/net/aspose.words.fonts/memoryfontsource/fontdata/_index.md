@@ -14,7 +14,7 @@ Binary font data.
 public byte[] FontData { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to use a byte array with data from a font file as a font source.
 

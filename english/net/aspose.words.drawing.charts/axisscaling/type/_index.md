@@ -14,11 +14,11 @@ Gets or sets scaling type of the axis.
 public AxisScaleType Type { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 The Linear value is the only that is allowed in MS Office 2016 new charts.
 
-## Examples
+### Examples
 
 Shows how to apply logarithmic scaling to a chart axis.
 

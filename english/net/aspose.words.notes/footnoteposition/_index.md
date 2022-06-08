@@ -21,7 +21,7 @@ public enum FootnotePosition
 | BottomOfPage | `1` | Footnotes are output at the bottom of each page. |
 | BeneathText | `2` | Footnotes are output beneath text on each page. |
 
-## Examples
+### Examples
 
 Shows how to select a different place where the document collects and displays its footnotes.
 

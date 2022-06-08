@@ -18,7 +18,7 @@ public void RemoveAt(int index)
 | --- | --- | --- |
 | index | Int32 | The zero-based index of the node. Negative indexes are allowed and indicate access from the back of the list. For example -1 means the last node, -2 means the second before last and so on. |
 
-## Examples
+### Examples
 
 Shows how to add and remove sections in a document.
 

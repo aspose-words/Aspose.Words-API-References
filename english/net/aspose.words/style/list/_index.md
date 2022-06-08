@@ -14,11 +14,11 @@ Gets the list that defines formatting of this list style.
 public List List { get; }
 ```
 
-## Remarks
+### Remarks
 
 This property is only valid for list styles. For other style types this property returns null.
 
-## Examples
+### Examples
 
 Shows how to create a list style and use it in a document.
 

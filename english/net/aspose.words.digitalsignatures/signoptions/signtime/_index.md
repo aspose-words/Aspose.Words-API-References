@@ -14,7 +14,7 @@ The date of signing. Default value is **current time** (Now).
 public DateTime SignTime { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to digitally sign documents.
 

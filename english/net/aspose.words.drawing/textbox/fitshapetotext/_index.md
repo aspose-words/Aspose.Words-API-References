@@ -14,11 +14,11 @@ Determines whether Microsoft Word will grow the shape to fit text.
 public bool FitShapeToText { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 The default value is **false**.
 
-## Examples
+### Examples
 
 Shows how to get a text box to resize itself to fit its contents tightly.
 

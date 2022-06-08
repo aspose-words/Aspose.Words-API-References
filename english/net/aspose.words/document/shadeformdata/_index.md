@@ -14,7 +14,7 @@ Specifies whether to turn on the gray shading on form fields.
 public bool ShadeFormData { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to apply gray shading to form fields.
 

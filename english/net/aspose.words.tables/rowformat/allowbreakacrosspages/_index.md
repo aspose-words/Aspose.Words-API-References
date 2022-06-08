@@ -14,7 +14,7 @@ True if the text in a table row is allowed to split across a page break.
 public bool AllowBreakAcrossPages { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to disable rows breaking across pages for every row in a table.
 

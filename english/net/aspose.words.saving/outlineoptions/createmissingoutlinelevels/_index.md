@@ -16,7 +16,7 @@ Default value for this property is **false**.
 public bool CreateMissingOutlineLevels { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to work with outline levels that do not contain any corresponding headings when saving a PDF document.
 

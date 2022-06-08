@@ -28,7 +28,7 @@ public class Theme
 | [MajorFonts](../../aspose.words.themes/theme/majorfonts) { get; } | Allows to specify the set of major fonts for different languages. |
 | [MinorFonts](../../aspose.words.themes/theme/minorfonts) { get; } | Allows to specify the set of minor fonts for different languages. |
 
-## Examples
+### Examples
 
 Shows how to set custom colors and fonts for themes.
 

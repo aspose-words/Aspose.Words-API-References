@@ -14,7 +14,7 @@ Removes all elements from the collection.
 public void Clear()
 ```
 
-## Examples
+### Examples
 
 Shows how to set the property for finding the closest match for a missing font from the available font sources.
 

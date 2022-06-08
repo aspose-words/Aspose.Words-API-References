@@ -14,7 +14,7 @@ Gets the number of elements contained in the collection.
 public int Count { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to work with smart tag properties to get in depth information about smart tags.
 

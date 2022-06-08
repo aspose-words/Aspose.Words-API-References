@@ -14,7 +14,7 @@ Gets the type of the current entity.
 public LayoutEntityType Type { get; }
 ```
 
-## Examples
+### Examples
 
 Shows ways of traversing a document's layout entities.
 

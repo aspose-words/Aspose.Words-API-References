@@ -14,7 +14,7 @@ Provides options that control numbering and positioning of endnotes in this docu
 public EndnoteOptions EndnoteOptions { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to select a different place where the document collects and displays its endnotes.
 

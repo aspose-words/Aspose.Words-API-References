@@ -21,7 +21,7 @@ public enum TxtTrailingSpacesOptions
 | Trim | `0` |  |
 | Preserve | `1` |  |
 
-## Examples
+### Examples
 
 Shows how to trim whitespace when loading plaintext documents.
 

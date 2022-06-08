@@ -14,7 +14,7 @@ Gets or sets a value indicating that default instructions is shown in the Sign d
 public bool DefaultInstructions { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to sign a document with a personal certificate and a signature line.
 

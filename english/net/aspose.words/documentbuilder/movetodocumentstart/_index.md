@@ -14,7 +14,7 @@ Moves the cursor to the beginning of the document.
 public void MoveToDocumentStart()
 ```
 
-## Examples
+### Examples
 
 Shows how to move a document builder's cursor to different nodes in a document.
 

@@ -14,7 +14,7 @@ Gets the number of conditional styles in the collection.
 public int Count { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to work with certain area styles of a table.
 

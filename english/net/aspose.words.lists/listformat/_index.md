@@ -33,7 +33,7 @@ public class ListFormat
 | [ListOutdent](../../aspose.words.lists/listformat/listoutdent)() | Decreases the list level of the current paragraph by one level. |
 | [RemoveNumbers](../../aspose.words.lists/listformat/removenumbers)() | Removes numbers or bullets from the current paragraph and sets list level to zero. |
 
-## Remarks
+### Remarks
 
 A paragraph in a Microsoft Word document can be bulleted or numbered. When a paragraph is bulleted or numbered, it is said that list formatting is applied to the paragraph.
 
@@ -49,7 +49,7 @@ The list formatting itself is stored inside a [`List`](../list) object that is s
 
 The paragraphs do not physically belong to a list. The paragraphs just reference a particular list object via the [`List`](./list) property and a particular level in the list via the [`ListLevelNumber`](./listlevelnumber) property. By setting these two properties you control what bullets and numbering is applied to a paragraph.
 
-## Examples
+### Examples
 
 Shows how to work with list levels.
 

@@ -14,11 +14,11 @@ url: /net/aspose.words/pagesetup/oddandevenpagesheaderfooter/
 public bool OddAndEvenPagesHeaderFooter { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 Note, changing this property affects all sections in the document.
 
-## Examples
+### Examples
 
 Shows how to create headers and footers in a document using DocumentBuilder.
 

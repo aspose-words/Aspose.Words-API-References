@@ -14,7 +14,7 @@ Gets the story that is currently selected in this DocumentBuilder.
 public Story CurrentStory { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to work with a document builder's current story.
 

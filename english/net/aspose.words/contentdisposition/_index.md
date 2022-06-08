@@ -21,11 +21,11 @@ public enum ContentDisposition
 | Attachment | `0` | Send the document to the browser and present an option to save the document to disk or open in the application associated with the document's extension. |
 | Inline | `1` | Send the document to the browser and presents an option to save the document to disk or open inside the browser. |
 
-## Remarks
+### Remarks
 
 Note that the actual behavior on the client browser might be affected by security configuration of the browser.
 
-## Examples
+### Examples
 
 Shows how to perform a mail merge, and then save the document to the client browser.
 

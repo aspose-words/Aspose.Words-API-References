@@ -14,7 +14,7 @@ Returns numeric value of axis bound.
 public double Value { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to set custom axis bounds.
 

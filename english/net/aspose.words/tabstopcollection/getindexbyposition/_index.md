@@ -14,7 +14,7 @@ Gets the index of a tab stop with the specified position in points.
 public int GetIndexByPosition(double position)
 ```
 
-## Examples
+### Examples
 
 Shows how to look up a position to see if a tab stop exists there and obtain its index.
 

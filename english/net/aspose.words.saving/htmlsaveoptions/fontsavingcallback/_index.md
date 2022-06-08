@@ -14,7 +14,7 @@ Allows to control how fonts are saved when a document is saved to HTML, MHTML or
 public IFontSavingCallback FontSavingCallback { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to define custom logic for exporting fonts when saving to HTML.
 

@@ -6,7 +6,7 @@ type: docs
 weight: 550
 url: /net/aspose.words/document/copystylesfromtemplate/
 ---
-## Document.CopyStylesFromTemplate method (1 of 2)
+## CopyStylesFromTemplate(string) {#copystylesfromtemplate_1}
 
 Copies styles from the specified template to a document.
 
@@ -14,11 +14,11 @@ Copies styles from the specified template to a document.
 public void CopyStylesFromTemplate(string template)
 ```
 
-## Remarks
+### Remarks
 
 When styles are copied from a template to a document, like-named styles in the document are redefined to match the style descriptions in the template. Unique styles from the template are copied to the document. Unique styles in the document remain intact.
 
-## Examples
+### Examples
 
 Shows how to copy styles from one document to another.
 
@@ -75,7 +75,7 @@ Assert.AreEqual(21, target.Styles.Count);
 
 ---
 
-## Document.CopyStylesFromTemplate method (2 of 2)
+## CopyStylesFromTemplate(Document) {#copystylesfromtemplate}
 
 Copies styles from the specified template to a document.
 
@@ -83,11 +83,11 @@ Copies styles from the specified template to a document.
 public void CopyStylesFromTemplate(Document template)
 ```
 
-## Remarks
+### Remarks
 
 When styles are copied from a template to a document, like-named styles in the document are redefined to match the style descriptions in the template. Unique styles from the template are copied to the document. Unique styles in the document remain intact.
 
-## Examples
+### Examples
 
 Shows how to copies styles from the template to a document via Document.
 

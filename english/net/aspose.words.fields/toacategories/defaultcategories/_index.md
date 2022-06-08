@@ -14,11 +14,11 @@ Gets the default table of authorities categories.
 public static ToaCategories DefaultCategories { get; }
 ```
 
-## Remarks
+### Remarks
 
 Use the [`ToaCategories`](../../fieldoptions/toacategories) property to specify table of authorities categories for a single document.
 
-## Examples
+### Examples
 
 Shows how to specify a set of categories for TOA fields.
 

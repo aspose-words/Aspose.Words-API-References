@@ -14,7 +14,7 @@ Returns a Shading object that refers to the shading formatting for the paragraph
 public Shading Shading { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to decorate text with borders and shading.
 

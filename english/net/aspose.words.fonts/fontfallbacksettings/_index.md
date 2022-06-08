@@ -19,18 +19,18 @@ public class FontFallbackSettings
 | Name | Description |
 | --- | --- |
 | [BuildAutomatic](../../aspose.words.fonts/fontfallbacksettings/buildautomatic)() | Automatically builds the fallback settings by scanning available fonts. |
-| [Load](../../aspose.words.fonts/fontfallbacksettings/load)(Stream) | Loads fallback settings from XML stream. |
-| [Load](../../aspose.words.fonts/fontfallbacksettings/load)(string) | Loads font fallback settings from XML file. |
+| [Load](../../aspose.words.fonts/fontfallbacksettings/load#load)(Stream) | Loads fallback settings from XML stream. |
+| [Load](../../aspose.words.fonts/fontfallbacksettings/load#load_1)(string) | Loads font fallback settings from XML file. |
 | [LoadMsOfficeFallbackSettings](../../aspose.words.fonts/fontfallbacksettings/loadmsofficefallbacksettings)() | Loads predefined fallback settings which mimics the Microsoft Word fallback and uses Microsoft office fonts. |
 | [LoadNotoFallbackSettings](../../aspose.words.fonts/fontfallbacksettings/loadnotofallbacksettings)() | Loads predefined fallback settings which uses Google Noto fonts. |
-| [Save](../../aspose.words.fonts/fontfallbacksettings/save)(Stream) | Saves the current fallback settings to stream. |
-| [Save](../../aspose.words.fonts/fontfallbacksettings/save)(string) | Saves the current fallback settings to file. |
+| [Save](../../aspose.words.fonts/fontfallbacksettings/save#save)(Stream) | Saves the current fallback settings to stream. |
+| [Save](../../aspose.words.fonts/fontfallbacksettings/save#save_1)(string) | Saves the current fallback settings to file. |
 
-## Remarks
+### Remarks
 
 By default fallback settings are initialized with predefined settings which mimics the Microsoft Word fallback.
 
-## Examples
+### Examples
 
 Shows how to distribute fallback fonts across Unicode character code ranges.
 

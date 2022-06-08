@@ -18,8 +18,8 @@ public class XpsSaveOptions : FixedPageSaveOptions
 
 | Name | Description |
 | --- | --- |
-| [XpsSaveOptions](xpssaveoptions)() | Initializes a new instance of this class that can be used to save a document in the Xps format. |
-| [XpsSaveOptions](xpssaveoptions)(SaveFormat) | Initializes a new instance of this class that can be used to save a document in the Xps or OpenXps format. |
+| [XpsSaveOptions](xpssaveoptions#constructor)() | Initializes a new instance of this class that can be used to save a document in the Xps format. |
+| [XpsSaveOptions](xpssaveoptions#constructor_1)(SaveFormat) | Initializes a new instance of this class that can be used to save a document in the Xps or OpenXps format. |
 
 ## Properties
 
@@ -62,7 +62,7 @@ public class XpsSaveOptions : FixedPageSaveOptions
 | --- | --- |
 | override [Equals](../../aspose.words.saving/fixedpagesaveoptions/equals)(object) | Determines whether the specified object is equal in value to the current object. |
 
-## Examples
+### Examples
 
 Shows how to limit the headings' level that will appear in the outline of a saved XPS document.
 

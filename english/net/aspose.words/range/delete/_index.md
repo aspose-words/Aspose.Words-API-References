@@ -14,7 +14,7 @@ Deletes all characters of the range.
 public void Delete()
 ```
 
-## Examples
+### Examples
 
 Shows how to delete all the nodes from a range.
 

@@ -32,7 +32,7 @@ public class DigitalSignature
 | --- | --- |
 | override [ToString](../../aspose.words.digitalsignatures/digitalsignature/tostring)() | Returns a user-friendly string that displays the value of this object. |
 
-## Examples
+### Examples
 
 Shows how to validate and display information about each signature in a document.
 

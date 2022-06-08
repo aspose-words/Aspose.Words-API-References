@@ -14,7 +14,7 @@ Specifies color Accent 5.
 public Color Accent5 { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to set custom colors and fonts for themes.
 

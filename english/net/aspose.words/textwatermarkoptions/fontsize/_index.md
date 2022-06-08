@@ -20,13 +20,13 @@ public float FontSize { get; set; }
 | --- | --- |
 | ArgumentOutOfRangeException | Throws when argument was out of the range of valid values. |
 
-## Remarks
+### Remarks
 
 Valid values range from 0 to 65.5 inclusive.
 
 Auto font size means that the watermark will be scaled to its max width and max height relative to the page margins.
 
-## Examples
+### Examples
 
 Shows how to create a text watermark.
 

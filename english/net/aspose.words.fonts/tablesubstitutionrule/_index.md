@@ -26,20 +26,20 @@ public class TableSubstitutionRule : FontSubstitutionRule
 | --- | --- |
 | [AddSubstitutes](../../aspose.words.fonts/tablesubstitutionrule/addsubstitutes)(string, params string[]) | Adds substitute font names for given original font name. |
 | [GetSubstitutes](../../aspose.words.fonts/tablesubstitutionrule/getsubstitutes)(string) | Returns array containing substitute font names for the specified original font name. |
-| [Load](../../aspose.words.fonts/tablesubstitutionrule/load)(Stream) | Loads table substitution settings from XML stream. |
-| [Load](../../aspose.words.fonts/tablesubstitutionrule/load)(string) | Loads table substitution settings from XML file. |
+| [Load](../../aspose.words.fonts/tablesubstitutionrule/load#load)(Stream) | Loads table substitution settings from XML stream. |
+| [Load](../../aspose.words.fonts/tablesubstitutionrule/load#load_1)(string) | Loads table substitution settings from XML file. |
 | [LoadAndroidSettings](../../aspose.words.fonts/tablesubstitutionrule/loadandroidsettings)() | Loads predefined table substitution settings for Linux platform. |
 | [LoadLinuxSettings](../../aspose.words.fonts/tablesubstitutionrule/loadlinuxsettings)() | Loads predefined table substitution settings for Linux platform. |
 | [LoadWindowsSettings](../../aspose.words.fonts/tablesubstitutionrule/loadwindowssettings)() | Loads predefined table substitution settings for Windows platform. |
-| [Save](../../aspose.words.fonts/tablesubstitutionrule/save)(Stream) | Saves the current table substitution settings to stream. |
-| [Save](../../aspose.words.fonts/tablesubstitutionrule/save)(string) | Saves the current table substitution settings to file. |
+| [Save](../../aspose.words.fonts/tablesubstitutionrule/save#save)(Stream) | Saves the current table substitution settings to stream. |
+| [Save](../../aspose.words.fonts/tablesubstitutionrule/save#save_1)(string) | Saves the current table substitution settings to file. |
 | [SetSubstitutes](../../aspose.words.fonts/tablesubstitutionrule/setsubstitutes)(string, params string[]) | Override substitute font names for given original font name. |
 
-## Remarks
+### Remarks
 
 This rule defines the list of substitute font names to be used if the original font is not available. Substitutes will be checked for the font name and the [`AltName`](../fontinfo/altname) (if any).
 
-## Examples
+### Examples
 
 Shows how to access font substitution tables for Windows and Linux.
 

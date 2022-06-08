@@ -14,7 +14,7 @@ Gets or sets the type of the leader line displayed under the tab character.
 public TabLeader Leader { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to modify the position of the right tab stop in TOC related paragraphs.
 

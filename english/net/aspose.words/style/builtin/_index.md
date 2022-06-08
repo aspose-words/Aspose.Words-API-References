@@ -14,7 +14,7 @@ True if this style is one of the built-in styles in MS Word.
 public bool BuiltIn { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to differentiate custom styles from built-in styles.
 

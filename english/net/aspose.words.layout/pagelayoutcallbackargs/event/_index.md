@@ -14,7 +14,7 @@ Gets event.
 public PageLayoutEvent Event { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to track layout changes with a layout callback.
 

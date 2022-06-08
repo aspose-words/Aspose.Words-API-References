@@ -14,7 +14,7 @@ Returns a **MailMerge** object that represents the mail merge functionality for 
 public MailMerge MailMerge { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to execute a mail merge with data from a DataTable.
 

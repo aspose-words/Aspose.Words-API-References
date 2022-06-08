@@ -14,7 +14,7 @@ Gets the `Theme` object for this document.
 public Theme Theme { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to set custom colors and fonts for themes.
 

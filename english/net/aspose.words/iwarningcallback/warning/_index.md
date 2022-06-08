@@ -14,7 +14,7 @@ Aspose.Words invokes this method when it encounters some issue during document l
 public void Warning(WarningInfo info)
 ```
 
-## Examples
+### Examples
 
 Shows how to set the property for finding the closest match for a missing font from the available font sources.
 

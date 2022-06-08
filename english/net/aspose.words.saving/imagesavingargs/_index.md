@@ -25,7 +25,7 @@ public class ImageSavingArgs
 | [IsImageAvailable](../../aspose.words.saving/imagesavingargs/isimageavailable) { get; } | Returns `true` if the current image is available for export. |
 | [KeepImageStreamOpen](../../aspose.words.saving/imagesavingargs/keepimagestreamopen) { get; set; } | Specifies whether Aspose.Words should keep the stream open or close it after saving an image. |
 
-## Remarks
+### Remarks
 
 By default, when Aspose.Words saves a document to HTML, it saves each image into a separate file. Aspose.Words uses the document file name and a unique number to generate unique file name for each image found in the document.
 
@@ -35,7 +35,7 @@ To apply your own logic for generating image file names use the [`ImageFileName`
 
 To save images into streams instead of files, use the [`ImageStream`](./imagestream) property.
 
-## Examples
+### Examples
 
 Shows how to split a document into parts and save them.
 

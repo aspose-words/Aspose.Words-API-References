@@ -14,7 +14,7 @@ Specifies the custom XML data identifier for the custom XML data part which shal
 public string StoreItemId { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to get the custom XML data identifier of an XML part.
 

@@ -35,7 +35,7 @@ public class CommentCollection : NodeCollection
 | [RemoveAt](../../aspose.words/nodecollection/removeat)(int) | Removes the node at the specified index from the collection and from the document. |
 | [ToArray](../../aspose.words/nodecollection/toarray)() | Copies all nodes from the collection to a new array of nodes. |
 
-## Examples
+### Examples
 
 Shows how to mark a comment as "done".
 

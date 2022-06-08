@@ -14,11 +14,11 @@ Returns true if the shape type allows the shape to have an image.
 public bool CanHaveImage { get; }
 ```
 
-## Remarks
+### Remarks
 
 Although Microsoft Word has a special shape type for images, it appears that in Microsoft Word documents any shape except a group shape can have an image, therefore this property returns true for all shapes except [`GroupShape`](../../groupshape).
 
-## Examples
+### Examples
 
 Shows how to insert and rotate an image.
 

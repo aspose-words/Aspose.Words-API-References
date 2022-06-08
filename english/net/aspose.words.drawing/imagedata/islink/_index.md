@@ -14,7 +14,7 @@ Returns true if the image is linked to the shape (when [`SourceFullName`](../sou
 public bool IsLink { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to edit a shape's image data.
 

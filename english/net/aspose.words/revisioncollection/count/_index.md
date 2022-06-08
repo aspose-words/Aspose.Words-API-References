@@ -14,7 +14,7 @@ Returns the number of revisions in the collection.
 public int Count { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to work with revisions in a document.
 

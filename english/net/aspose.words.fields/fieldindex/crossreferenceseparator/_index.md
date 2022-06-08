@@ -14,7 +14,7 @@ Gets or sets the character sequence that is used to separate cross references an
 public string CrossReferenceSeparator { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to define cross references in an INDEX field.
 

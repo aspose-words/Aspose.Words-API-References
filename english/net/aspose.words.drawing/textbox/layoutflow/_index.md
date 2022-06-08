@@ -14,11 +14,11 @@ Determines the flow of the text layout in a shape.
 public LayoutFlow LayoutFlow { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 The default value is Horizontal.
 
-## Examples
+### Examples
 
 Shows how to set the orientation of text inside a text box.
 

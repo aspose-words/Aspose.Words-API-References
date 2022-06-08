@@ -14,11 +14,11 @@ Specifies a tag associated with the current SDT node. Can not be null.
 public string Tag { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 A tag is an arbitrary string which applications can associate with SDT in order to identify it without providing a visible friendly name.
 
-## Examples
+### Examples
 
 Shows how to create a structured document tag in a plain text box and modify its appearance.
 

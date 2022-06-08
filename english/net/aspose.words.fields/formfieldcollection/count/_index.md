@@ -14,7 +14,7 @@ Returns the number of form fields in the collection.
 public int Count { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how insert different kinds of form fields into a document, and process them with using a document visitor implementation.
 

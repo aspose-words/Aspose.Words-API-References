@@ -22,11 +22,11 @@ public enum ListTrailingCharacter
 | Space | `1` | A space character is placed between the list label and text of the paragraph. |
 | Nothing | `2` | There is no separator character between the list label and text of the paragraph. |
 
-## Remarks
+### Remarks
 
 Used as a value for the [`TrailingCharacter`](../listlevel/trailingcharacter) property.
 
-## Examples
+### Examples
 
 Shows how to apply custom list formatting to paragraphs when using DocumentBuilder.
 

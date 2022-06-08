@@ -18,9 +18,9 @@ public class MemoryFontSource : FontSourceBase
 
 | Name | Description |
 | --- | --- |
-| [MemoryFontSource](memoryfontsource)(byte[]) | Ctor. |
-| [MemoryFontSource](memoryfontsource)(byte[], int) | Ctor. |
-| [MemoryFontSource](memoryfontsource)(byte[], int, string) | Ctor. |
+| [MemoryFontSource](memoryfontsource#constructor)(byte[]) | Ctor. |
+| [MemoryFontSource](memoryfontsource#constructor_1)(byte[], int) | Ctor. |
+| [MemoryFontSource](memoryfontsource#constructor_2)(byte[], int, string) | Ctor. |
 
 ## Properties
 
@@ -38,7 +38,7 @@ public class MemoryFontSource : FontSourceBase
 | --- | --- |
 | [GetAvailableFonts](../../aspose.words.fonts/fontsourcebase/getavailablefonts)() | Returns list of fonts available via this source. |
 
-## Examples
+### Examples
 
 Shows how to use a byte array with data from a font file as a font source.
 

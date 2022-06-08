@@ -14,7 +14,7 @@ Specifies whether the rule is enabled or not.
 public virtual bool Enabled { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows operating system-dependent font config substitution.
 

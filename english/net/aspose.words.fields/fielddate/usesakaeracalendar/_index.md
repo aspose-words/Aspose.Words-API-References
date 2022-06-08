@@ -14,7 +14,7 @@ Gets or sets whether to use the Saka Era calendar.
 public bool UseSakaEraCalendar { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to use DATE fields to display dates according to different kinds of calendars.
 

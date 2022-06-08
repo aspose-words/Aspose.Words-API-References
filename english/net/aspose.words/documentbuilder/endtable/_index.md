@@ -18,11 +18,11 @@ public Table EndTable()
 
 The table node that was just finished.
 
-## Remarks
+### Remarks
 
 This method should be called only once after [`EndRow`](../endrow) was called. When called, **EndTable** moves the cursor out of the current cell to point just after the table.
 
-## Examples
+### Examples
 
 Shows how to format cells with a document builder.
 

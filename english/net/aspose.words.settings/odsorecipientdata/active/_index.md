@@ -14,7 +14,7 @@ Specifies whether the record from the data source shall be imported into a docum
 public bool Active { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to access the collection of data that designates which merge data source records a mail merge will exclude.
 

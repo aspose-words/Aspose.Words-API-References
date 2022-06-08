@@ -21,7 +21,7 @@ public enum OfficeMathDisplayType
 | Display | `0` | The Office Math is displayed on its own line. |
 | Inline | `1` | The Office Math is displayed inline with the text. |
 
-## Examples
+### Examples
 
 Shows how to set office math display formatting.
 

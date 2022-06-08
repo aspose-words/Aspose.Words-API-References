@@ -18,7 +18,7 @@ public void Add(T item)
 | --- | --- | --- |
 | item | T | Item for adding. |
 
-## Examples
+### Examples
 
 Shows how to add a web extension to a document.
 

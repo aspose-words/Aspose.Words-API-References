@@ -24,7 +24,7 @@ public enum WrapSide
 | Largest | `3` | The document text wraps on the side of the shape that is farthest from the page margin, leaving text free area on the other side of the shape. |
 | Default | `0` | Default value is Both. |
 
-## Examples
+### Examples
 
 Shows how to replace all textbox shapes with image shapes.
 

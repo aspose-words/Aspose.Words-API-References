@@ -14,7 +14,7 @@ When columns are evenly spaced, gets the width of the columns.
 public double Width { get; }
 ```
 
-## Remarks
+### Remarks
 
 Has effect only when [`EvenlySpaced`](../evenlyspaced) is set to **true**.
 

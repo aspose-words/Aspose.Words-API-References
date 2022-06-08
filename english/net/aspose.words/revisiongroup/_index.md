@@ -22,7 +22,7 @@ public class RevisionGroup
 | [RevisionType](../../aspose.words/revisiongroup/revisiontype) { get; } | Gets the type of revisions included in this group. |
 | [Text](../../aspose.words/revisiongroup/text) { get; } | Returns inserted/deleted/moved text or description of format change. |
 
-## Examples
+### Examples
 
 Shows how to print info about a group of revisions in a document.
 

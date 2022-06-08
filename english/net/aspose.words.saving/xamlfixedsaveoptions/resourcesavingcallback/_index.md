@@ -14,7 +14,7 @@ Allows to control how resources (images and fonts) are saved when a document is 
 public IResourceSavingCallback ResourceSavingCallback { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to print the URIs of linked resources created while converting a document to fixed-form .xaml.
 

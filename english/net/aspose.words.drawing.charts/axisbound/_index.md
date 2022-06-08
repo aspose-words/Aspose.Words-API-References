@@ -18,9 +18,9 @@ public sealed class AxisBound
 
 | Name | Description |
 | --- | --- |
-| [AxisBound](axisbound)() | Creates a new instance indicating that axis bound should be determined automatically by a word-processing application. |
-| [AxisBound](axisbound)(DateTime) | Creates an axis bound represented as datetime value. |
-| [AxisBound](axisbound)(double) | Creates an axis bound represented as a number. |
+| [AxisBound](axisbound#constructor)() | Creates a new instance indicating that axis bound should be determined automatically by a word-processing application. |
+| [AxisBound](axisbound#constructor_2)(DateTime) | Creates an axis bound represented as datetime value. |
+| [AxisBound](axisbound#constructor_1)(double) | Creates an axis bound represented as a number. |
 
 ## Properties
 
@@ -38,13 +38,13 @@ public sealed class AxisBound
 | override [GetHashCode](../../aspose.words.drawing.charts/axisbound/gethashcode)() | Serves as a hash function for this type. |
 | override [ToString](../../aspose.words.drawing.charts/axisbound/tostring)() | Returns a user-friendly string that displays the value of this object. |
 
-## Remarks
+### Remarks
 
 Bound can be specified as a numeric, datetime or a special "auto" value.
 
 The instances of this class are immutable.
 
-## Examples
+### Examples
 
 Shows how to insert chart with date/time values.
 

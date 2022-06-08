@@ -14,7 +14,7 @@ Gets/sets underline type for the current font.
 public Underline Underline { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to format text inserted by a document builder.
 

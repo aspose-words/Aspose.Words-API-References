@@ -14,7 +14,7 @@ Gets vertical alignment of the specified frame.
 public VerticalAlignment VerticalAlignment { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to get information about formatting properties of paragraphs that are frames.
 

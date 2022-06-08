@@ -14,11 +14,11 @@ Represents the version number of the application that created the document.
 public int Version { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 When a document was created by Microsoft Word, then high 16 bit represent the major version and low 16 bit represent the build number.
 
-## Examples
+### Examples
 
 Shows how to work with document properties in the "Origin" category.
 

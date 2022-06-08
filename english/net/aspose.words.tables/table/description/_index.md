@@ -14,13 +14,13 @@ Gets or sets description of this table. It provides an alternative text represen
 public string Description { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 The default value is an empty string.
 
 This property is meaningful for ISO/IEC 29500 compliant DOCX documents ([`OoxmlCompliance`](../../../aspose.words.saving/ooxmlcompliance)). When saved to pre-ISO/IEC 29500 formats, the property is ignored.
 
-## Examples
+### Examples
 
 Shows how to build a nested table without using a document builder.
 

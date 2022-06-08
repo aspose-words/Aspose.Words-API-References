@@ -14,11 +14,11 @@ Removes all [`SmartTag`](../../../aspose.words.markup/smarttag) descendant nodes
 public void RemoveSmartTags()
 ```
 
-## Remarks
+### Remarks
 
 This method does not remove the content of the smart tags.
 
-## Examples
+### Examples
 
 Removes all smart tags from descendant nodes of a composite node.
 

@@ -19,11 +19,11 @@ public PageRange(int from, int to)
 | from | Int32 | The starting page zero-based index. |
 | to | Int32 | The ending page zero-based index. If it exceeds the index of the last page in the document, it is truncated to fit in the document on rendering. |
 
-## Remarks
+### Remarks
 
 MaxValue means the last page in the document.
 
-## Examples
+### Examples
 
 Shows how to extract pages based on exact page ranges.
 

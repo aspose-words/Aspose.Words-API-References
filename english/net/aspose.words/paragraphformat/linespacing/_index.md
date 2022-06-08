@@ -14,13 +14,13 @@ Gets or sets the line spacing (in points) for the paragraph.
 public double LineSpacing { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 When LineSpacingRule property is set to AtLeast, the line spacing can be greater than or equal to, but never less than the specified LineSpacing value.
 
 When LineSpacingRule property is set to Exactly, the line spacing never changes from the specified LineSpacing value, even if a larger font is used within the paragraph.
 
-## Examples
+### Examples
 
 Shows how to work with line spacing.
 

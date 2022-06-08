@@ -14,13 +14,13 @@ Defines whether the shape is inline or floating. For floating shapes defines the
 public WrapType WrapType { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 The default value is None.
 
 Has effect only for top level shapes.
 
-## Examples
+### Examples
 
 Shows how to insert a floating image to the center of a page.
 

@@ -14,11 +14,11 @@ Specifies whether the link to the OLE object is automatically updated or not in 
 public bool AutoUpdate { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 The default value is **false**.
 
-## Examples
+### Examples
 
 Shows how to extract embedded OLE objects into files.
 

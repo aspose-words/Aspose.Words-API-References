@@ -20,7 +20,7 @@ public interface IHyphenationCallback
 | --- | --- |
 | [RequestDictionary](../../aspose.words/ihyphenationcallback/requestdictionary)(string) | Notifies application that hyphenation dictionary for the specified language wasn't found and may need to be registered. |
 
-## Examples
+### Examples
 
 Shows how to open and register a dictionary from a file.
 

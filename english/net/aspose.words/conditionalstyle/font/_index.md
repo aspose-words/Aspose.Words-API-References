@@ -14,7 +14,7 @@ Gets the character formatting of the conditional style.
 public Font Font { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to work with certain area styles of a table.
 

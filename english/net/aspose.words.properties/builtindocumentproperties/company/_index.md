@@ -14,7 +14,7 @@ Gets or sets the company property.
 public string Company { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to work with document properties in the "Origin" category.
 

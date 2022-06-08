@@ -14,7 +14,7 @@ Gets or sets whether to use a format last used by the hosting application when i
 public bool UseLastFormat { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to use DATE fields to display dates according to different kinds of calendars.
 

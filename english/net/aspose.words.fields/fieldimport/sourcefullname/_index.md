@@ -14,7 +14,7 @@ Gets or sets the location of the picture.
 public string SourceFullName { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to insert images using IMPORT and INCLUDEPICTURE fields.
 

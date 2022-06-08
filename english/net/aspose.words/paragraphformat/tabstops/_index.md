@@ -14,7 +14,7 @@ Gets the collection of custom tab stops defined for this object.
 public TabStopCollection TabStops { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to modify the position of the right tab stop in TOC related paragraphs.
 

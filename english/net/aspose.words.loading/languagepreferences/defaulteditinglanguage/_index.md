@@ -16,7 +16,7 @@ The default value is EnglishUS.
 public EditingLanguage DefaultEditingLanguage { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how set a default language when loading a document.
 

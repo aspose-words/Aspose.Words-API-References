@@ -14,7 +14,7 @@ Gets or sets a string that represents the result of this form field.
 public string Result { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 For a text form field the result is the text that is in the field.
 
@@ -26,7 +26,7 @@ Setting `Result` for a text form field does not apply the text format specified 
 
 For a text form field the [`TextInputDefault`](../textinputdefault) value is applied if *value* is `null`.
 
-## Examples
+### Examples
 
 Shows how to insert a combo box.
 

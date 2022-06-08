@@ -6,7 +6,7 @@ type: docs
 weight: 680
 url: /net/aspose.words/document/save/
 ---
-## Document.Save method (1 of 6)
+## Save(string) {#save_2}
 
 Saves the document to a file. Automatically determines the save format from the extension.
 
@@ -22,7 +22,7 @@ public SaveOutputParameters Save(string fileName)
 
 Additional information that you can optionally use.
 
-## Examples
+### Examples
 
 Shows how to open a document and convert it to .PDF.
 
@@ -57,7 +57,7 @@ pdfDoc.Save(ArtifactsDir + "PDF2Word.ConvertPdfToDocx.docx");
 
 ---
 
-## Document.Save method (2 of 6)
+## Save(string, SaveFormat) {#save_3}
 
 Saves the document to a file in the specified format.
 
@@ -74,7 +74,7 @@ public SaveOutputParameters Save(string fileName, SaveFormat saveFormat)
 
 Additional information that you can optionally use.
 
-## Examples
+### Examples
 
 Shows how to convert from DOCX to HTML format.
 
@@ -94,7 +94,7 @@ doc.Save(ArtifactsDir + "Document.ConvertToHtml.html", SaveFormat.Html);
 
 ---
 
-## Document.Save method (3 of 6)
+## Save(string, SaveOptions) {#save_4}
 
 Saves the document to a file using the specified save options.
 
@@ -111,7 +111,7 @@ public SaveOutputParameters Save(string fileName, SaveOptions saveOptions)
 
 Additional information that you can optionally use.
 
-## Examples
+### Examples
 
 Shows how to improve the quality of a rendered document with SaveOptions.
 
@@ -299,7 +299,7 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.ExpandedOutlineLevels.pdf", options);
 
 ---
 
-## Document.Save method (4 of 6)
+## Save(Stream, SaveFormat) {#save}
 
 Saves the document to a stream using the specified format.
 
@@ -316,7 +316,7 @@ public SaveOutputParameters Save(Stream stream, SaveFormat saveFormat)
 
 Additional information that you can optionally use.
 
-## Examples
+### Examples
 
 Shows how to save a document to a stream.
 
@@ -391,7 +391,7 @@ Document doc = new Document();
 
 ---
 
-## Document.Save method (5 of 6)
+## Save(Stream, SaveOptions) {#save_1}
 
 Saves the document to a stream using the specified save options.
 
@@ -408,7 +408,7 @@ public SaveOutputParameters Save(Stream stream, SaveOptions saveOptions)
 
 Additional information that you can optionally use.
 
-## Examples
+### Examples
 
 Shows how to convert only some of the pages in a document to PDF.
 
@@ -446,7 +446,7 @@ using (Stream stream = File.Create(ArtifactsDir + "PdfSaveOptions.OnePage.pdf"))
 
 ---
 
-## Document.Save method (6 of 6)
+## Save(HttpResponse, string, ContentDisposition, SaveOptions) {#save_5}
 
 Sends the document to the client browser.
 
@@ -466,11 +466,11 @@ public SaveOutputParameters Save(HttpResponse response, string fileName,
 
 Additional information that you can optionally use.
 
-## Remarks
+### Remarks
 
 Internally, this method saves to a memory stream first and then copies to the response stream because the response stream does not support seek.
 
-## Examples
+### Examples
 
 Shows how to perform a mail merge, and then save the document to the client browser.
 

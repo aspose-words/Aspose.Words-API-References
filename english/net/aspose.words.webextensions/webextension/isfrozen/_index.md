@@ -14,7 +14,7 @@ Specifies whether the user can interact with the web extension or not.
 public bool IsFrozen { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to add a web extension to a document.
 

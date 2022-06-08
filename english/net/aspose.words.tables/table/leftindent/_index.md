@@ -14,7 +14,7 @@ Gets or sets the value that represents the left indent of the table.
 public double LeftIndent { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to create a formatted table using DocumentBuilder.
 

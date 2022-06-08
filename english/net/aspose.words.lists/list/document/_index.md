@@ -14,11 +14,11 @@ Gets the owner document.
 public DocumentBase Document { get; }
 ```
 
-## Remarks
+### Remarks
 
 A list always has a parent document and is valid only in the context of that document.
 
-## Examples
+### Examples
 
 Shows how to verify owner document properties of lists.
 

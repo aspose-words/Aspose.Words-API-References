@@ -14,7 +14,7 @@ Allows to specify the effect to be applied to the deleted content Deletion. Defa
 public RevisionTextEffect DeletedTextEffect { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to modify the appearance of revisions.
 

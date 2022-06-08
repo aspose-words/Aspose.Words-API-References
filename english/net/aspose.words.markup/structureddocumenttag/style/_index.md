@@ -14,11 +14,11 @@ Gets or sets the Style of the structured document tag.
 public Style Style { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 Only Character style or Paragraph style with linked character style can be set.
 
-## Examples
+### Examples
 
 Shows how to work with styles for content control elements.
 

@@ -25,7 +25,7 @@ public enum WrapType
 | Tight | `4` | Wraps tightly around the edges of the shape, instead of wrapping around the bounding box. |
 | Through | `5` | Same as Tight, but wraps inside any parts of the shape that are open. |
 
-## Examples
+### Examples
 
 Shows how to insert a floating image to the center of a page.
 

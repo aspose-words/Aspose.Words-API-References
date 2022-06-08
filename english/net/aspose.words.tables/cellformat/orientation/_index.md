@@ -14,7 +14,7 @@ Returns or sets the orientation of text in a table cell.
 public TextOrientation Orientation { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to build a formatted 2x2 table.
 

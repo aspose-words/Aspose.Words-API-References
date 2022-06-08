@@ -14,13 +14,13 @@ Specifies the name of the smart tag within the document.
 public string Element { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 Cannot be null.
 
 Default is empty string.
 
-## Examples
+### Examples
 
 Shows how to create smart tags.
 

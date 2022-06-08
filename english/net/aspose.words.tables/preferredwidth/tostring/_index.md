@@ -14,7 +14,7 @@ Returns a user-friendly string that displays the value of this object.
 public override string ToString()
 ```
 
-## Examples
+### Examples
 
 Shows how to set a preferred width for table cells.
 

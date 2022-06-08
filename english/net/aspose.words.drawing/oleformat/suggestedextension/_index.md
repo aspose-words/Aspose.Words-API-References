@@ -14,7 +14,7 @@ Gets the file extension suggested for the current embedded object if you want to
 public string SuggestedExtension { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to extract embedded OLE objects into files.
 

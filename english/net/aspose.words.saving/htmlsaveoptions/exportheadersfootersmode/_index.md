@@ -14,7 +14,7 @@ Specifies how headers and footers are output to HTML, MHTML or EPUB. Default val
 public ExportHeadersFootersMode ExportHeadersFootersMode { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 It is hard to meaningfully output headers and footers to HTML because HTML is not paginated.
 
@@ -24,7 +24,7 @@ When it is FirstSectionHeaderLastSectionFooter only first primary header and the
 
 You can disable export of headers and footers altogether by setting this property to None.
 
-## Examples
+### Examples
 
 Shows how to omit headers/footers when saving a document to HTML.
 

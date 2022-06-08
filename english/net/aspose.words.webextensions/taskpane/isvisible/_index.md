@@ -14,7 +14,7 @@ Specifies whether the task pane shows as visible by default when the document op
 public bool IsVisible { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to add a web extension to a document.
 

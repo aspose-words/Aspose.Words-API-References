@@ -6,7 +6,7 @@ type: docs
 weight: 70
 url: /net/aspose.words.fonts/tablesubstitutionrule/save/
 ---
-## TableSubstitutionRule.Save method (1 of 2)
+## Save(string) {#save_1}
 
 Saves the current table substitution settings to file.
 
@@ -18,7 +18,7 @@ public void Save(string fileName)
 | --- | --- | --- |
 | fileName | String | Output file name. |
 
-## Examples
+### Examples
 
 Shows how to access font substitution tables for Windows and Linux.
 
@@ -62,7 +62,7 @@ using (FileStream fileStream = new FileStream(ArtifactsDir + "FontSettings.Table
 
 ---
 
-## TableSubstitutionRule.Save method (2 of 2)
+## Save(Stream) {#save}
 
 Saves the current table substitution settings to stream.
 
@@ -74,7 +74,7 @@ public void Save(Stream outputStream)
 | --- | --- | --- |
 | outputStream | Stream | Output stream. |
 
-## Examples
+### Examples
 
 Shows how to access font substitution tables for Windows and Linux.
 

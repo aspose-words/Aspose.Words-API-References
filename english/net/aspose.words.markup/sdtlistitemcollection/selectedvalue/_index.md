@@ -14,7 +14,7 @@ Specifies currently selected value in this list. Null value allowed, meaning tha
 public SdtListItem SelectedValue { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to work with drop down-list structured document tags.
 

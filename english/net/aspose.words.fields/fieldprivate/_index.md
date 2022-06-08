@@ -46,11 +46,11 @@ public class FieldPrivate : Field
 | [Update](../../aspose.words.fields/field/update)() | Performs the field update. Throws if the field is being updated already. |
 | [Update](../../aspose.words.fields/field/update)(bool) | Performs a field update. Throws if the field is being updated already. |
 
-## Remarks
+### Remarks
 
 Provides a private storage area. This field is used to store data for documents converted from other file formats.
 
-## Examples
+### Examples
 
 Shows how to process PRIVATE fields.
 

@@ -14,7 +14,7 @@ Clears all conditional styles of the table style.
 public void ClearFormatting()
 ```
 
-## Examples
+### Examples
 
 Shows how to reset conditional table styles.
 

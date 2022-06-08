@@ -24,11 +24,11 @@ public PaperSource GetSpecifiedPrinterPaperSource(PaperSourceCollection paperSou
 
 An object that you can use in the .NET printing framework to specify the paper source.
 
-## Remarks
+### Remarks
 
 This method requires .NET Framework 2.0 or later.
 
-## Examples
+### Examples
 
 Shows how to print page size and orientation information for every page in a Word document.
 

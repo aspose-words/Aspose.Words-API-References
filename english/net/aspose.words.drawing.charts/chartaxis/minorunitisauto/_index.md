@@ -14,11 +14,11 @@ Gets or sets a flag indicating whether default distance between minor tick marks
 public bool MinorUnitIsAuto { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 The property has effect for time category and value axes.
 
-## Examples
+### Examples
 
 Shows how to manipulate the tick marks and displayed values of a chart axis.
 

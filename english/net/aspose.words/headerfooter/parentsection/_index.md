@@ -14,11 +14,11 @@ Gets the parent section of this story.
 public Section ParentSection { get; }
 ```
 
-## Remarks
+### Remarks
 
 **ParentSection** is equivalent to `(Section)ParentNode`.
 
-## Examples
+### Examples
 
 Shows how to link headers and footers between sections.
 

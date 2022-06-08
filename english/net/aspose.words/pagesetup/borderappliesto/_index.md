@@ -14,7 +14,7 @@ Specifies which pages the page border is printed on.
 public PageBorderAppliesTo BorderAppliesTo { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to create a wide blue band border at the top of the first page.
 

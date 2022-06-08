@@ -23,7 +23,7 @@ public enum AxisTickMark
 | Outside | `2` | Specifies that the tick marks shall be outside the plot area. |
 | None | `3` | Specifies that there shall be no tick marks. |
 
-## Examples
+### Examples
 
 Shows how to insert chart with date/time values.
 

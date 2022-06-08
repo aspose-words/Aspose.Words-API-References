@@ -14,11 +14,11 @@ Called when Aspose.Words applies a numeric format switch, i.e. \# "#.##".
 public string FormatNumeric(double value, string format)
 ```
 
-## Remarks
+### Remarks
 
 The implementation should return **null** to indicate that the default formatting should be applied.
 
-## Examples
+### Examples
 
 Shows how to automatically apply a custom format to field results as the fields are updated.
 

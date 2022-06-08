@@ -14,7 +14,7 @@ Gets the paper size as enumeration.
 public PaperSize PaperSize { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to print page size and orientation information for every page in a Word document.
 

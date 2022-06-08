@@ -6,7 +6,7 @@ type: docs
 weight: 160
 url: /net/aspose.words.drawing/fill/onecolorgradient/
 ---
-## Fill.OneColorGradient method (1 of 2)
+## OneColorGradient(GradientStyle, GradientVariant, double) {#onecolorgradient}
 
 Sets the specified fill to a one-color gradient.
 
@@ -20,7 +20,7 @@ public void OneColorGradient(GradientStyle style, GradientVariant variant, doubl
 | variant | GradientVariant | The gradient variant [`GradientVariant`](../../gradientvariant) |
 | degree | Double | The gradient degree. Can be a value from 0.0 (dark) to 1.0 (light). |
 
-## Examples
+### Examples
 
 Shows how to fill a shape with a gradients.
 
@@ -68,7 +68,7 @@ doc.Save(ArtifactsDir + "Shape.GradientFill.docx", saveOptions);
 
 ---
 
-## Fill.OneColorGradient method (2 of 2)
+## OneColorGradient(Color, GradientStyle, GradientVariant, double) {#onecolorgradient_1}
 
 Sets the specified fill to a one-color gradient using the specified color.
 
@@ -84,7 +84,7 @@ public void OneColorGradient(Color color, GradientStyle style, GradientVariant v
 | variant | GradientVariant | The gradient variant [`GradientVariant`](../../gradientvariant) |
 | degree | Double | The gradient degree. Can be a value from 0.0 (dark) to 1.0 (light). |
 
-## Examples
+### Examples
 
 Shows how to fill a shape with a gradients.
 

@@ -14,7 +14,7 @@ Gets or sets whether to display the file size in kilobytes.
 public bool IsInKilobytes { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to display the file size of a document with a FILESIZE field.
 

@@ -14,13 +14,13 @@ Gets or sets this part's absolute name within the OOXML package or the target UR
 public string Name { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 If the relationship target is internal, then this property is the absolute part name within the package. If the relationship target is external, then this property is the target URL.
 
 The default value is an empty string. A valid value must be a non-empty string.
 
-## Examples
+### Examples
 
 Shows how to access a document's arbitrary custom parts collection.
 

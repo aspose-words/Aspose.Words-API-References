@@ -14,7 +14,7 @@ Gets or sets the amount of space (in points) to add below the contents of table 
 public double BottomPadding { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to create custom style settings for the table.
 

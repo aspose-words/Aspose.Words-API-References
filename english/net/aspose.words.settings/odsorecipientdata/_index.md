@@ -35,11 +35,11 @@ public class OdsoRecipientData
 | --- | --- |
 | [Clone](../../aspose.words.settings/odsorecipientdata/clone)() | Returns a deep clone of this object. |
 
-## Remarks
+### Remarks
 
 If a record shall be merged into a merged document, then no information is needed about that record. However, if a given record shall not be merged into a merged document, then the value of the unique key for that record shall be stored in the [`UniqueTag`](./uniquetag) property of this object to indicate this exclusion.
 
-## Examples
+### Examples
 
 Shows how to access the collection of data that designates which merge data source records a mail merge will exclude.
 

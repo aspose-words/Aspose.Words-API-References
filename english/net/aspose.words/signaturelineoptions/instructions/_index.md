@@ -14,7 +14,7 @@ Gets or sets instructions to the signer that are displayed on signing the signat
 public string Instructions { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to sign a document with a personal certificate and a signature line.
 

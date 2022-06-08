@@ -14,11 +14,11 @@ Specifies the number of columns with which the footnotes area is formatted.
 public int Columns { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 If this property has the value of 0, the footnotes area is formatted with a number of columns based on the number of columns on the displayed page. The default value is 0.
 
-## Examples
+### Examples
 
 Shows how to split the footnote section into a given number of columns.
 

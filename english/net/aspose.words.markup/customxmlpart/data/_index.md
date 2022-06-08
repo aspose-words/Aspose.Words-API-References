@@ -14,11 +14,11 @@ Gets or sets the XML content of this Custom XML Data Storage Part.
 public byte[] Data { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 The default value is an empty byte array. The value cannot be `null`.
 
-## Examples
+### Examples
 
 Shows how to create a structured document tag with custom XML data.
 

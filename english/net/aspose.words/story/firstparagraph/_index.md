@@ -14,7 +14,7 @@ Gets the first paragraph in the story.
 public Paragraph FirstParagraph { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to format a run of text using its font property.
 

@@ -14,7 +14,7 @@ Returns an object that represents page setup and section properties.
 public PageSetup PageSetup { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to create a wide blue band border at the top of the first page.
 

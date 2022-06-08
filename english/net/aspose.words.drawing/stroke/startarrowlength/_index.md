@@ -14,11 +14,11 @@ Defines the arrowhead length for the start of a stroke.
 public ArrowLength StartArrowLength { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 The default value is Medium.
 
-## Examples
+### Examples
 
 Shows to create a variety of shapes.
 

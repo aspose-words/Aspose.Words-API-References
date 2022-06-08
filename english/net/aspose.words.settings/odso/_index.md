@@ -39,7 +39,7 @@ public class Odso
 | --- | --- |
 | [Clone](../../aspose.words.settings/odso/clone)() | Returns a deep clone of this object. |
 
-## Remarks
+### Remarks
 
 ODSO seems to be the "new" way the newer Microsoft Word versions prefer to use when specifying certain types of data sources for a mail merge document. ODSO probably first appeared in Microsoft Word 2000.
 
@@ -47,7 +47,7 @@ The use of ODSO is poorly documented and the best way to learn how to use the pr
 
 You do not normally need to create objects of this class directly because ODSO settings are always available via the [`Odso`](../mailmergesettings/odso) property.
 
-## Examples
+### Examples
 
 Shows how to execute a mail merge with data from an Office Data Source Object.
 

@@ -14,7 +14,7 @@ Specifies the position of the legend on a chart. Default value is Right.
 public LegendPosition Position { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to edit the appearance of a chart's legend.
 

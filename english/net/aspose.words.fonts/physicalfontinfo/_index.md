@@ -23,7 +23,7 @@ public class PhysicalFontInfo
 | [FullFontName](../../aspose.words.fonts/physicalfontinfo/fullfontname) { get; } | Full name of the font. |
 | [Version](../../aspose.words.fonts/physicalfontinfo/version) { get; } | Version string of the font. |
 
-## Examples
+### Examples
 
 Shows how to list available fonts.
 

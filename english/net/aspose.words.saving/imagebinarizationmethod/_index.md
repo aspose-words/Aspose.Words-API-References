@@ -21,7 +21,7 @@ public enum ImageBinarizationMethod
 | Threshold | `0` | Specifies threshold method. |
 | FloydSteinbergDithering | `1` | Specifies dithering using Floyd-Steinberg error diffusion method. |
 
-## Examples
+### Examples
 
 Shows how to set the TIFF binarization error threshold when using the Floyd-Steinberg method to render a TIFF image.
 

@@ -14,11 +14,11 @@ Specifies whether the page border includes or excludes the footer.
 public bool BorderSurroundsFooter { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 Note, changing this property affects all sections in the document.
 
-## Examples
+### Examples
 
 Shows how to apply a border to the page and header/footer.
 

@@ -14,7 +14,7 @@ Allows to specify the effect to be applied to the areas where content was moved 
 public RevisionTextEffect MovedFromTextEffect { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to modify the appearance of revisions.
 

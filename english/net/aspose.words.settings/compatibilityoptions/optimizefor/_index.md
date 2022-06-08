@@ -16,7 +16,7 @@ Use this method to prevent MS Word from displaying "Compatibility mode" ribbon u
 public void OptimizeFor(MsWordVersion version)
 ```
 
-## Examples
+### Examples
 
 Shows how to vertically align the text contents of a text box.
 

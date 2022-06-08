@@ -14,7 +14,7 @@ Gets or sets the identifier of a sequence for which a prefix should be added to 
 public string PrefixedSequenceIdentifier { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to populate a TOC field with entries using SEQ fields.
 

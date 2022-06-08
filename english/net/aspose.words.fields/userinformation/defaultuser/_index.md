@@ -14,11 +14,11 @@ Default user information.
 public static UserInformation DefaultUser { get; }
 ```
 
-## Remarks
+### Remarks
 
 Use the [`CurrentUser`](../../fieldoptions/currentuser) property to specify user information for single document.
 
-## Examples
+### Examples
 
 Shows how to set user details, and display them using fields.
 

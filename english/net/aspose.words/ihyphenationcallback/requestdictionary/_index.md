@@ -22,11 +22,11 @@ public void RequestDictionary(string language)
 | --- | --- | --- |
 | language | String | A language name, e.g. "en-US". See .NET documentation for "culture name" and RFC 4646 for details. |
 
-## Remarks
+### Remarks
 
 Exceptions thrown by this method will abort execution of page layout process.
 
-## Examples
+### Examples
 
 Shows how to open and register a dictionary from a file.
 

@@ -22,7 +22,7 @@ public enum TableAlignment
 | Center | `1` | The table is centered. |
 | Right | `2` | The table is aligned to the right. |
 
-## Examples
+### Examples
 
 Shows how to apply an outline border to a table.
 

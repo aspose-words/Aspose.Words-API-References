@@ -14,7 +14,7 @@ Specifies that the documents produced during a mail merge operation should be em
 public bool MailAsAttachment { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to execute a mail merge while connecting to an external data source.
 

@@ -18,7 +18,7 @@ public int JoinRunsWithSameFormatting()
 
 Number of joins performed. When **N** adjacent runs are being joined they count as **N - 1** joins.
 
-## Examples
+### Examples
 
 Shows how to simplify paragraphs by merging superfluous runs.
 

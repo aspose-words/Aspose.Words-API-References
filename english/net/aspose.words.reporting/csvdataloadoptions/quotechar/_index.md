@@ -14,7 +14,7 @@ Gets or sets the character that is used to quote field values.
 public char QuoteChar { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 The default value is '"' (quotation mark).
 

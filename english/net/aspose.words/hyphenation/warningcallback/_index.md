@@ -14,7 +14,7 @@ Called during a load hyphenation patterns, when an issue is detected that might 
 public static IWarningCallback WarningCallback { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to open and register a dictionary from a file.
 

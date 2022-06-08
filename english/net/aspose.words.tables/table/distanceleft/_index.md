@@ -14,7 +14,7 @@ Gets distance between table left and the surrounding text, in points.
 public double DistanceLeft { get; }
 ```
 
-## Examples
+### Examples
 
 Shows the minimum distance operations between table boundaries and text.
 

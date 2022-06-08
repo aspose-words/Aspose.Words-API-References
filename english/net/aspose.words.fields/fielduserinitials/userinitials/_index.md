@@ -14,7 +14,7 @@ Gets or sets the current user's initials.
 public string UserInitials { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to use the USERINITIALS field.
 

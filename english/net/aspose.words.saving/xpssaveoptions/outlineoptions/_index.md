@@ -14,11 +14,11 @@ Allows to specify outline options.
 public OutlineOptions OutlineOptions { get; }
 ```
 
-## Remarks
+### Remarks
 
 Note that ExpandedOutlineLevels option will not work when saving to XPS.
 
-## Examples
+### Examples
 
 Shows how to limit the headings' level that will appear in the outline of a saved XPS document.
 

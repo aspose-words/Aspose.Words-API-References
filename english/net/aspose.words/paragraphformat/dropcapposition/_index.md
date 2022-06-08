@@ -14,7 +14,7 @@ Gets or sets the position for a drop cap text.
 public DropCapPosition DropCapPosition { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to nest a list inside another list.
 

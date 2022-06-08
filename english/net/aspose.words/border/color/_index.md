@@ -14,7 +14,7 @@ Gets or sets the border color.
 public Color Color { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to insert a string surrounded by a border into a document.
 

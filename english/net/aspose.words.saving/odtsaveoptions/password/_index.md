@@ -14,11 +14,11 @@ Gets or sets a password to encrypt document.
 public string Password { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 In order to save document without encryption this property should be null or empty string.
 
-## Examples
+### Examples
 
 Shows how to encrypt a saved ODT/OTT document with a password, and then load it using Aspose.Words.
 

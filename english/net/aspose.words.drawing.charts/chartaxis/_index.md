@@ -45,7 +45,7 @@ public class ChartAxis
 | [TickMarkSpacing](../../aspose.words.drawing.charts/chartaxis/tickmarkspacing) { get; set; } | Gets or sets the interval, at which tick marks are drawn. |
 | [Type](../../aspose.words.drawing.charts/chartaxis/type) { get; } | Returns type of the axis. |
 
-## Examples
+### Examples
 
 Shows how to insert a chart and modify the appearance of its axes.
 

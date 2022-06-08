@@ -18,7 +18,7 @@ public void RemoveAt(int index)
 | --- | --- | --- |
 | index | Int32 | An index into the collection. |
 
-## Examples
+### Examples
 
 Shows how to remove fields from a field collection.
 

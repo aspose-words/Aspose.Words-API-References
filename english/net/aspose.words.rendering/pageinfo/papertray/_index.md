@@ -14,7 +14,7 @@ Gets the paper tray (bin) for this page as specified in the document. The value 
 public int PaperTray { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to print page size and orientation information for every page in a Word document.
 

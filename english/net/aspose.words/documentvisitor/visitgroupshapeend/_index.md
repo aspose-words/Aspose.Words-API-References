@@ -22,7 +22,7 @@ public virtual VisitorAction VisitGroupShapeEnd(GroupShape groupShape)
 
 A [`VisitorAction`](../../visitoraction) value that specifies how to continue the enumeration.
 
-## Examples
+### Examples
 
 Shows how to create a group of shapes, and print its contents using a document visitor.
 

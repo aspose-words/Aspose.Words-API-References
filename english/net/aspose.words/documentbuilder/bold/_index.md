@@ -14,7 +14,7 @@ True if the font is formatted as bold.
 public bool Bold { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to fill MERGEFIELDs with data with a document builder instead of a mail merge.
 

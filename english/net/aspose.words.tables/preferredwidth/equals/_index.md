@@ -6,7 +6,7 @@ type: docs
 weight: 60
 url: /net/aspose.words.tables/preferredwidth/equals/
 ---
-## PreferredWidth.Equals method (1 of 2)
+## Equals(PreferredWidth) {#equals}
 
 Determines whether the specified PreferredWidth is equal in value to the current PreferredWidth.
 
@@ -14,7 +14,7 @@ Determines whether the specified PreferredWidth is equal in value to the current
 public bool Equals(PreferredWidth other)
 ```
 
-## Examples
+### Examples
 
 Shows how to set a preferred width for table cells.
 
@@ -59,7 +59,7 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertCellsWithPreferredWidths.docx");
 
 ---
 
-## PreferredWidth.Equals method (2 of 2)
+## Equals(object) {#equals_1}
 
 Determines whether the specified object is equal in value to the current object.
 
@@ -67,7 +67,7 @@ Determines whether the specified object is equal in value to the current object.
 public override bool Equals(object obj)
 ```
 
-## Examples
+### Examples
 
 Shows how to set a preferred width for table cells.
 

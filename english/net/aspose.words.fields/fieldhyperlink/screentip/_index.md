@@ -14,7 +14,7 @@ Gets or sets the ScreenTip text for the hyperlink.
 public string ScreenTip { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to use HYPERLINK fields to link to documents in the local file system.
 

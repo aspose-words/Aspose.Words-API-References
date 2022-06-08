@@ -14,7 +14,7 @@ Line feed character: (char)10 or "\n".
 public const char LineFeedChar;
 ```
 
-## Examples
+### Examples
 
 Shows how to add various control characters to a document.
 

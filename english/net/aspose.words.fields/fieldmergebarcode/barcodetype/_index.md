@@ -14,7 +14,7 @@ Gets or sets the barcode type (QR, etc.)
 public string BarcodeType { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to perform a mail merge on ITF14 barcodes.
 

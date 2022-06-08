@@ -14,11 +14,11 @@ Gets or sets a value indicating whether the unused "mustache" tags should be pre
 public bool PreserveUnusedTags { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 The default value is **false**.
 
-## Examples
+### Examples
 
 Shows how to preserve the appearance of alternative mail merge tags that go unused during a mail merge.
 

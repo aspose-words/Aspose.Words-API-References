@@ -14,7 +14,7 @@ Provides options that control numbering and positioning of footnotes in this sec
 public FootnoteOptions FootnoteOptions { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to configure options affecting footnotes/endnotes in a section.
 

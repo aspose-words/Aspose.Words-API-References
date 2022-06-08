@@ -6,7 +6,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.drawing.charts/axisbound/axisbound/
 ---
-## AxisBound constructor (1 of 3)
+## AxisBound() {#constructor}
 
 Creates a new instance indicating that axis bound should be determined automatically by a word-processing application.
 
@@ -14,7 +14,7 @@ Creates a new instance indicating that axis bound should be determined automatic
 public AxisBound()
 ```
 
-## Examples
+### Examples
 
 Shows how to set custom axis bounds.
 
@@ -79,7 +79,7 @@ doc.Save(ArtifactsDir + "Charts.AxisBound.docx");
 
 ---
 
-## AxisBound constructor (2 of 3)
+## AxisBound(double) {#constructor_1}
 
 Creates an axis bound represented as a number.
 
@@ -87,7 +87,7 @@ Creates an axis bound represented as a number.
 public AxisBound(double value)
 ```
 
-## Examples
+### Examples
 
 Shows how to insert chart with date/time values.
 
@@ -142,7 +142,7 @@ doc.Save(ArtifactsDir + "Charts.DateTimeValues.docx");
 
 ---
 
-## AxisBound constructor (3 of 3)
+## AxisBound(DateTime) {#constructor_2}
 
 Creates an axis bound represented as datetime value.
 
@@ -150,7 +150,7 @@ Creates an axis bound represented as datetime value.
 public AxisBound(DateTime datetime)
 ```
 
-## Examples
+### Examples
 
 Shows how to insert chart with date/time values.
 

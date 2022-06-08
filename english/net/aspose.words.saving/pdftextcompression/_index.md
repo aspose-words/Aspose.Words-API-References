@@ -21,7 +21,7 @@ public enum PdfTextCompression
 | None | `0` | No compression. |
 | Flate | `1` | Flate (ZIP) compression. |
 
-## Examples
+### Examples
 
 Shows how to apply text compression when saving a document to PDF.
 

@@ -14,7 +14,7 @@ Specifies whether to export built-in and custom document properties to HTML, MHT
 public bool ExportDocumentProperties { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to use a specific encoding when saving a document to .epub.
 

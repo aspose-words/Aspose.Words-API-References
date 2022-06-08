@@ -14,7 +14,7 @@ Specifies the particular set of data that a source shall be connected to within 
 public string TableName { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to execute a mail merge while connecting to an external data source.
 

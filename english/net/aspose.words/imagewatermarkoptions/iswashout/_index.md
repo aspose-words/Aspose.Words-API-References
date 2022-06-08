@@ -14,7 +14,7 @@ Gets or sets a boolean value which is responsible for washout effect of the wate
 public bool IsWashout { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to create a watermark from an image in the local file system.
 

@@ -14,7 +14,7 @@ Gets or sets the paper tray (bin) to be used for all but the first page of a sec
 public int OtherPagesTray { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to get all the sections in a document to use the default paper tray of the selected printer.
 

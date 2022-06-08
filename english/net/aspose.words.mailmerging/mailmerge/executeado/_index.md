@@ -18,7 +18,7 @@ public void ExecuteADO(object recordset)
 | --- | --- | --- |
 | recordset | Object | ADO Recordset or Record object. |
 
-## Remarks
+### Remarks
 
 This method is useful when you intend to use Aspose.Words classes as COM objects from unmanaged code such as an application built using ASP or Visual Basic 6.0.
 
@@ -26,7 +26,7 @@ This method ignores the RemoveUnusedRegions option.
 
 For more information see description of MailMerge.Execute(DataTable).
 
-## Examples
+### Examples
 
 ```csharp
 [VBScript]

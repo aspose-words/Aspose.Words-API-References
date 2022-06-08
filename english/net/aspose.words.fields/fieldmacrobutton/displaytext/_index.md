@@ -14,7 +14,7 @@ Gets or sets the text to appear as the "button" that is selected to run the macr
 public string DisplayText { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to use MACROBUTTON fields to allow us to run a document's macros by clicking.
 

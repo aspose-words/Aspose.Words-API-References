@@ -49,7 +49,7 @@ public class SpecialChar : Inline
 | [ToString](../../aspose.words/node/tostring)(SaveFormat) | Exports the content of the node into a string in the specified format. |
 | [ToString](../../aspose.words/node/tostring)(SaveOptions) | Exports the content of the node into a string using the specified save options. |
 
-## Remarks
+### Remarks
 
 A Microsoft Word document can include a number of special characters that represent fields, form fields, shapes, OLE objects, footnotes etc. For the list of special characters see [`ControlChar`](../controlchar).
 
@@ -57,7 +57,7 @@ A Microsoft Word document can include a number of special characters that repres
 
 **SpecialChar** char is used as a base class for more specific classes that represent special characters that Aspose.Words provides programmatic access for. The **SpecialChar** class is also used itself to represent special character for which Aspose.Words does not provide detailed programmatic access.
 
-## Examples
+### Examples
 
 Shows how to use a DocumentVisitor implementation to remove all hidden content from a document.
 

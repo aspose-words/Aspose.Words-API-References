@@ -14,7 +14,7 @@ Gets or sets the amount of spacing (in gridlines) before the paragraphs.
 public double LineUnitBefore { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to change paragraph spacing and indents.
 

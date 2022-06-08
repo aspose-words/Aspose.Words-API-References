@@ -6,7 +6,7 @@ type: docs
 weight: 720
 url: /net/aspose.words/document/unprotect/
 ---
-## Document.Unprotect method (1 of 2)
+## Unprotect() {#unprotect_1}
 
 Removes protection from the document regardless of the password.
 
@@ -14,13 +14,13 @@ Removes protection from the document regardless of the password.
 public void Unprotect()
 ```
 
-## Remarks
+### Remarks
 
 This method unprotects the document even if it has a protection password.
 
 Note that document protection is different from write protection. Write protection is specified using the [`WriteProtection`](../writeprotection).
 
-## Examples
+### Examples
 
 Shows how to protect and unprotect a document.
 
@@ -70,7 +70,7 @@ Assert.AreEqual(ProtectionType.NoProtection, doc.ProtectionType);
 
 ---
 
-## Document.Unprotect method (2 of 2)
+## Unprotect(string) {#unprotect}
 
 Removes protection from the document if a correct password is specified.
 
@@ -86,13 +86,13 @@ public bool Unprotect(string password)
 
 True if a correct password was specified and the document was unprotected.
 
-## Remarks
+### Remarks
 
 This method unprotects the document only if a correct password is specified.
 
 Note that document protection is different from write protection. Write protection is specified using the [`WriteProtection`](../writeprotection).
 
-## Examples
+### Examples
 
 Shows how to protect and unprotect a document.
 

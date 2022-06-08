@@ -14,7 +14,7 @@ Gets or sets the description associated with this building block.
 public string Description { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 The description may contain any string content, usually additional information.
 
@@ -22,7 +22,7 @@ Cannot be `null`, but can be an empty string.
 
 Corresponds to the **docPartPr.description** element in OOXML.
 
-## Examples
+### Examples
 
 Shows how to add a custom building block to a document.
 

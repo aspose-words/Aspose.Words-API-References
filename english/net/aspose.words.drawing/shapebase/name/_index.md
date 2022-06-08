@@ -14,13 +14,13 @@ Gets or sets the optional shape name.
 public string Name { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 Default is empty string.
 
 Cannot be null, but can be an empty string.
 
-## Examples
+### Examples
 
 Shows how to use a shape's alternative text.
 

@@ -14,7 +14,7 @@ Allows to specify whether revision bars should be rendered near lines containing
 public bool ShowRevisionBars { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to alter the appearance of revisions in a rendered output document.
 

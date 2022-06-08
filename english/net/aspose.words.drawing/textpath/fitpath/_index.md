@@ -14,11 +14,11 @@ Defines whether the text fits the path of a shape.
 public bool FitPath { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 The default value is **false**.
 
-## Examples
+### Examples
 
 Shows how to work with WordArt.
 

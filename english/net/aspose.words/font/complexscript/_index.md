@@ -14,7 +14,7 @@ Specifies whether the contents of this run shall be treated as complex script te
 public bool ComplexScript { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to add text that is always treated as complex script.
 

@@ -18,8 +18,8 @@ public class PdfDigitalSignatureDetails
 
 | Name | Description |
 | --- | --- |
-| [PdfDigitalSignatureDetails](pdfdigitalsignaturedetails)() | Initializes an instance of this class. |
-| [PdfDigitalSignatureDetails](pdfdigitalsignaturedetails)(CertificateHolder, string, string, DateTime) | Initializes an instance of this class. |
+| [PdfDigitalSignatureDetails](pdfdigitalsignaturedetails#constructor)() | Initializes an instance of this class. |
+| [PdfDigitalSignatureDetails](pdfdigitalsignaturedetails#constructor_1)(CertificateHolder, string, string, DateTime) | Initializes an instance of this class. |
 
 ## Properties
 
@@ -32,7 +32,7 @@ public class PdfDigitalSignatureDetails
 | [SignatureDate](../../aspose.words.saving/pdfdigitalsignaturedetails/signaturedate) { get; set; } | Gets or sets the date of the signing. |
 | [TimestampSettings](../../aspose.words.saving/pdfdigitalsignaturedetails/timestampsettings) { get; set; } | Gets or sets the digital signature timestamp settings. |
 
-## Remarks
+### Remarks
 
 At the moment digitally signing PDF documents is only available on .NET 2.0 or higher.
 
@@ -40,7 +40,7 @@ To digitally sign a PDF document when it is created by Aspose.Words, set the [`D
 
 Aspose.Words creates a PKCS#7 signature over the whole PDF document and uses the "Adobe.PPKMS" filter and "adbe.pkcs7.sha1" subfilter when creating a digital signature.
 
-## Examples
+### Examples
 
 Shows how to sign a generated PDF document.
 

@@ -22,7 +22,7 @@ public virtual VisitorAction VisitHeaderFooterStart(HeaderFooter headerFooter)
 
 A [`VisitorAction`](../../visitoraction) value that specifies how to continue the enumeration.
 
-## Examples
+### Examples
 
 Shows how to print the node structure of every header and footer in a document.
 

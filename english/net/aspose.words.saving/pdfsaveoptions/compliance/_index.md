@@ -14,11 +14,11 @@ Specifies the PDF standards compliance level for output documents.
 public PdfCompliance Compliance { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 Default is Pdf17.
 
-## Examples
+### Examples
 
 Shows how to set the PDF standards compliance level of saved PDF documents.
 

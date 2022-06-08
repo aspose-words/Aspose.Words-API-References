@@ -14,7 +14,7 @@ Allows to control how external resources (images, style sheets) are loaded when 
 public IResourceLoadingCallback ResourceLoadingCallback { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to handle external resources when loading Html documents.
 

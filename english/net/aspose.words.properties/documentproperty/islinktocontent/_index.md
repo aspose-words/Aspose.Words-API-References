@@ -14,7 +14,7 @@ Shows whether this property is linked to content or not.
 public bool IsLinkToContent { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to link a custom document property to a bookmark.
 

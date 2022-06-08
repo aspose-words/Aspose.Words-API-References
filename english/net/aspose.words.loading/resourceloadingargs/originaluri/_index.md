@@ -14,7 +14,7 @@ Original URI of the resource as specified in imported document.
 public string OriginalUri { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to customize the process of loading external resources into a document.
 

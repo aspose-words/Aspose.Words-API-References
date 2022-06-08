@@ -23,7 +23,7 @@ public enum PdfDigitalSignatureHashAlgorithm
 | Sha512 | `2` | SHA-512 hash algorithm. |
 | RipeMD160 | `3` | RIPEMD-160 hash algorithm. |
 
-## Examples
+### Examples
 
 Shows how to sign a generated PDF document.
 

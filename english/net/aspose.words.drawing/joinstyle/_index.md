@@ -22,7 +22,7 @@ public enum JoinStyle
 | Miter | `1` | Extend edges until they join. |
 | Round | `2` | Draw an arc between the two edges. |
 
-## Examples
+### Examples
 
 Shows to create a variety of shapes.
 

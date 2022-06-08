@@ -18,7 +18,7 @@ public ReplaceAction Replacing(ReplacingArgs args)
 
 A [`ReplaceAction`](../../replaceaction) value that specifies the action to be taken for the current match.
 
-## Examples
+### Examples
 
 Shows how to replace all occurrences of a regular expression pattern with another string, while tracking all such replacements.
 

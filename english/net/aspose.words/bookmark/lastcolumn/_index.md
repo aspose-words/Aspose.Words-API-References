@@ -14,11 +14,11 @@ Gets the zero-based index of the last column of the table column range associate
 public int LastColumn { get; }
 ```
 
-## Remarks
+### Remarks
 
 Returns **-1** if this bookmark is not a table column bookmark.
 
-## Examples
+### Examples
 
 Shows how to get information about table column bookmarks.
 

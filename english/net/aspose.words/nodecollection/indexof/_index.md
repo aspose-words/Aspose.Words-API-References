@@ -22,11 +22,11 @@ public int IndexOf(Node node)
 
 The zero-based index of the node within the collection, if found; otherwise, -1.
 
-## Remarks
+### Remarks
 
 This method performs a linear search; therefore, the average execution time is proportional to Count.
 
-## Examples
+### Examples
 
 Shows how to get the index of a node in a collection.
 

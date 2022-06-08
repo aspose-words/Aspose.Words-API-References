@@ -14,7 +14,7 @@ Returns or sets the distance (in points) between the left edge of the page and t
 public double LeftMargin { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to adjust paper size, orientation, margins, along with other settings for a section.
 

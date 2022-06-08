@@ -21,7 +21,7 @@ public enum PdfImageCompression
 | Auto | `0` | Automatically selects the most appropriate compression for each image. |
 | Jpeg | `1` | Jpeg compression. Does not support transparency. |
 
-## Examples
+### Examples
 
 Shows how to specify a compression type for all images in a document that we are converting to PDF.
 

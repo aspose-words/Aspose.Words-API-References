@@ -14,7 +14,7 @@ If the table has no rows, creates and appends one **Row**.
 public void EnsureMinimum()
 ```
 
-## Examples
+### Examples
 
 Shows how to ensure that a table node contains the nodes we need to add content.
 

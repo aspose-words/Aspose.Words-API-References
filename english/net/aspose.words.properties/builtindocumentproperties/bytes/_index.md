@@ -14,13 +14,13 @@ Represents an estimate of the number of bytes in the document.
 public int Bytes { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 Microsoft Word does not always set this property.
 
 Aspose.Words does not update this property.
 
-## Examples
+### Examples
 
 Shows how to work with document properties in the "Content" category.
 

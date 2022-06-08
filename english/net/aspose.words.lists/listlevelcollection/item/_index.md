@@ -14,7 +14,7 @@ Gets a list level by index.
 public ListLevel this[int index] { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to create a list style and use it in a document.
 

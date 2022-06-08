@@ -6,7 +6,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.fields/comparisonevaluationresult/comparisonevaluationresult/
 ---
-## ComparisonEvaluationResult constructor (1 of 2)
+## ComparisonEvaluationResult(bool) {#constructor}
 
 Creates a comparison evaluation result.
 
@@ -14,7 +14,7 @@ Creates a comparison evaluation result.
 public ComparisonEvaluationResult(bool result)
 ```
 
-## Examples
+### Examples
 
 Shows how to implement custom evaluation for the IF and COMPARE fields.
 
@@ -103,7 +103,7 @@ private class ComparisonExpressionEvaluator : IComparisonExpressionEvaluator
 
 ---
 
-## ComparisonEvaluationResult constructor (2 of 2)
+## ComparisonEvaluationResult(string) {#constructor_1}
 
 Creates a failed comparison evaluation result with the corresponding error message.
 
@@ -111,7 +111,7 @@ Creates a failed comparison evaluation result with the corresponding error messa
 public ComparisonEvaluationResult(string errorMessage)
 ```
 
-## Examples
+### Examples
 
 Shows how to implement custom evaluation for the IF and COMPARE fields.
 

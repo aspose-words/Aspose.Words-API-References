@@ -14,7 +14,7 @@ Removes all the child nodes of the current node.
 public void RemoveAllChildren()
 ```
 
-## Examples
+### Examples
 
 Shows how to construct an Aspose.Words document by hand.
 

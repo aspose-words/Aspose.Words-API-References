@@ -14,7 +14,7 @@ Current page index.
 public int PageIndex { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to use a callback to save a document to HTML page by page.
 

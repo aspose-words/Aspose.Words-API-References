@@ -22,13 +22,13 @@ public override bool Accept(DocumentVisitor visitor)
 
 False if the visitor requested the enumeration to stop.
 
-## Remarks
+### Remarks
 
 Calls [`VisitBookmarkStart`](../../documentvisitor/visitbookmarkstart).
 
 For more info see the Visitor design pattern.
 
-## Examples
+### Examples
 
 Shows how to add bookmarks and update their contents.
 

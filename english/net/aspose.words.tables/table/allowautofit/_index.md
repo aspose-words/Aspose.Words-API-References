@@ -14,11 +14,11 @@ Allows Microsoft Word and Aspose.Words to automatically resize cells in a table 
 public bool AllowAutoFit { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 The default value is `true`.
 
-## Examples
+### Examples
 
 Shows how to enable/disable automatic table cell resizing.
 

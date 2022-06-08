@@ -23,7 +23,7 @@ public enum ArrowWidth
 | Wide | `2` |  |
 | Default | `0` | Same as Narrow. |
 
-## Examples
+### Examples
 
 Shows to create a variety of shapes.
 

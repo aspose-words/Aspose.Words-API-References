@@ -14,7 +14,7 @@ Gets or sets which character to use for indenting list levels. The default value
 public char Character { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to configure list indenting when saving a document to plaintext.
 

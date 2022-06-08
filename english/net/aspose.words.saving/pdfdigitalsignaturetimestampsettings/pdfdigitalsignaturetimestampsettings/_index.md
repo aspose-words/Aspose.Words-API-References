@@ -6,7 +6,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.saving/pdfdigitalsignaturetimestampsettings/pdfdigitalsignaturetimestampsettings/
 ---
-## PdfDigitalSignatureTimestampSettings constructor (1 of 3)
+## PdfDigitalSignatureTimestampSettings() {#constructor}
 
 Initializes an instance of this class.
 
@@ -14,7 +14,7 @@ Initializes an instance of this class.
 public PdfDigitalSignatureTimestampSettings()
 ```
 
-## Examples
+### Examples
 
 Shows how to sign a saved PDF document digitally and timestamp it.
 
@@ -59,7 +59,7 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignatureTimestamp.pdf", optio
 
 ---
 
-## PdfDigitalSignatureTimestampSettings constructor (2 of 3)
+## PdfDigitalSignatureTimestampSettings(string, string, string) {#constructor_1}
 
 Initializes an instance of this class.
 
@@ -73,7 +73,7 @@ public PdfDigitalSignatureTimestampSettings(string serverUrl, string userName, s
 | userName | String | Timestamp server user name. |
 | password | String | Timestamp server password. |
 
-## Examples
+### Examples
 
 Shows how to sign a saved PDF document digitally and timestamp it.
 
@@ -118,7 +118,7 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignatureTimestamp.pdf", optio
 
 ---
 
-## PdfDigitalSignatureTimestampSettings constructor (3 of 3)
+## PdfDigitalSignatureTimestampSettings(string, string, string, TimeSpan) {#constructor_2}
 
 Initializes an instance of this class.
 
@@ -134,7 +134,7 @@ public PdfDigitalSignatureTimestampSettings(string serverUrl, string userName, s
 | password | String | Timestamp server password. |
 | timeout | TimeSpan | Time-out value for accessing timestamp server. |
 
-## Examples
+### Examples
 
 Shows how to sign a saved PDF document digitally and timestamp it.
 

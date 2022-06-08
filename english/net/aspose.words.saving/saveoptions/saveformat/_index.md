@@ -14,7 +14,7 @@ Specifies the format in which the document will be saved if this save options ob
 public abstract SaveFormat SaveFormat { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to use a specific encoding when saving a document to .epub.
 

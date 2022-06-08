@@ -18,7 +18,7 @@ public T this[int index] { get; set; }
 | --- | --- |
 | index | Zero-based index of the item. |
 
-## Examples
+### Examples
 
 Shows how to work with a document's collection of web extensions.
 

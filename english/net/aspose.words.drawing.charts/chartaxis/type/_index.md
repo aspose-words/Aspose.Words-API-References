@@ -14,7 +14,7 @@ Returns type of the axis.
 public ChartAxisType Type { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to create an appropriate type of chart series for a graph type.
 

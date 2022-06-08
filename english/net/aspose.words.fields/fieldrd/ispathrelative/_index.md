@@ -14,7 +14,7 @@ Gets or sets whether the path is relative to the current document.
 public bool IsPathRelative { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows to use the RD field to create a table of contents entries from headings in other documents.
 

@@ -14,7 +14,7 @@ Gets or sets the current user information.
 public UserInformation CurrentUser { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to set user details, and display them using fields.
 

@@ -30,7 +30,7 @@ public abstract class StreamFontSource : FontSourceBase
 | [GetAvailableFonts](../../aspose.words.fonts/fontsourcebase/getavailablefonts)() | Returns list of fonts available via this source. |
 | abstract [OpenFontDataStream](../../aspose.words.fonts/streamfontsource/openfontdatastream)() | This method should open the stream with font data on demand. |
 
-## Remarks
+### Remarks
 
 In order to use the stream font source you should create a derived class from the [`StreamFontSource`](../streamfontsource) and provide implementation of the [`OpenFontDataStream`](./openfontdatastream) method.
 
@@ -38,7 +38,7 @@ In order to use the stream font source you should create a derived class from th
 
 [`StreamFontSource`](../streamfontsource) may be useful because it allows to load the font data only when it is required and not to store it in the memory for the [`FontSettings`](../fontsettings) lifetime.
 
-## Examples
+### Examples
 
 Shows how to load fonts from stream.
 

@@ -14,7 +14,7 @@ Gets the node that represents the field separator. Can be null.
 public FieldSeparator Separator { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to work with a collection of fields.
 

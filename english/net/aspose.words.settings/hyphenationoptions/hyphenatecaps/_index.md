@@ -14,7 +14,7 @@ Gets or sets value determining whether words written in all capital letters are 
 public bool HyphenateCaps { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to configure automatic hyphenation.
 

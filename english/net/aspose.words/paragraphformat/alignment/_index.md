@@ -14,7 +14,7 @@ Gets or sets text alignment for the paragraph.
 public ParagraphAlignment Alignment { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to insert a paragraph into the document.
 

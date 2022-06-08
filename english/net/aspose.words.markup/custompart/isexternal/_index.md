@@ -14,11 +14,11 @@ url: /net/aspose.words.markup/custompart/isexternal/
 public bool IsExternal { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 The default value is `false`.
 
-## Examples
+### Examples
 
 Shows how to access a document's arbitrary custom parts collection.
 

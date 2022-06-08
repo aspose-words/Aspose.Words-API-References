@@ -27,7 +27,7 @@ public enum MailMergeCleanupOptions
 | RemoveStaticFields | `10` | Specifies whether static fields should be removed from the document. Static fields are fields, which results remain the same upon any document change. Fields, which do not store their results in a document and are calculated on the fly (like FieldListNum, FieldSymbol, etc.) are not considered to be static. |
 | RemoveEmptyTableRows | `20` | Specifies whether empty rows that contain mail merge regions should be removed from the document. |
 
-## Examples
+### Examples
 
 Shows how to remove empty paragraphs that a mail merge may create from the merge output document.
 

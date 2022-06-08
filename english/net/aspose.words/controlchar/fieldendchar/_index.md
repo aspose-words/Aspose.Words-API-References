@@ -14,7 +14,7 @@ End of MS Word field character: (char)21.
 public const char FieldEndChar;
 ```
 
-## Examples
+### Examples
 
 Shows how to add various control characters to a document.
 

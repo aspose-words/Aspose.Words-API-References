@@ -14,7 +14,7 @@ Provides access to fill and line formatting of the series.
 public ChartFormat Format { get; }
 ```
 
-## Examples
+### Examples
 
 Sows how to set series color.
 

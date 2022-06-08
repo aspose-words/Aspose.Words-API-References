@@ -14,7 +14,7 @@ Gets the name of the data table for the current merge operation or empty string 
 public string TableName { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to insert checkbox form fields into MERGEFIELDs as merge data during mail merge.
 

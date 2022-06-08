@@ -14,7 +14,7 @@ Returns the type of the font source.
 public override FontSourceType Type { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to use a byte array with data from a font file as a font source.
 

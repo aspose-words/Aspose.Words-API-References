@@ -14,7 +14,7 @@ Returns true if the specified password is the same as the write-protection passw
 public bool ValidatePassword(string password)
 ```
 
-## Examples
+### Examples
 
 Shows how to protect a document with a password.
 

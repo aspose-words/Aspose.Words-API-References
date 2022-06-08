@@ -6,7 +6,7 @@ type: docs
 weight: 170
 url: /net/aspose.words.drawing/fill/patterned/
 ---
-## Fill.Patterned method (1 of 2)
+## Patterned(PatternType) {#patterned}
 
 Sets the specified fill to a pattern.
 
@@ -18,7 +18,7 @@ public void Patterned(PatternType patternType)
 | --- | --- | --- |
 | patternType | PatternType | [`PatternType`](../../patterntype) |
 
-## Examples
+### Examples
 
 Shows how to set pattern for a shape.
 
@@ -49,7 +49,7 @@ doc.Save(ArtifactsDir + "Shape.FillPattern.docx");
 
 ---
 
-## Fill.Patterned method (2 of 2)
+## Patterned(PatternType, Color, Color) {#patterned_1}
 
 Sets the specified fill to a pattern.
 
@@ -63,7 +63,7 @@ public void Patterned(PatternType patternType, Color foreColor, Color backColor)
 | foreColor | Color | The color of the foreground fill. |
 | backColor | Color | The color of the background fill. |
 
-## Examples
+### Examples
 
 Shows how to set pattern for a shape.
 

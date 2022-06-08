@@ -14,7 +14,7 @@ Gets underlying Value property which often represents control state. For example
 public string Value { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to verify the properties of an ActiveX control.
 

@@ -14,7 +14,7 @@ Gets or sets a formatting that is applied to a numeric field result. Corresponds
 public string NumericFormat { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to format field results.
 

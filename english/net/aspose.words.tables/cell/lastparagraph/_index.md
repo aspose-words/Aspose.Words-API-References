@@ -14,7 +14,7 @@ Gets the last paragraph among the immediate children.
 public Paragraph LastParagraph { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to apply settings to vertical borders to a table row's format.
 

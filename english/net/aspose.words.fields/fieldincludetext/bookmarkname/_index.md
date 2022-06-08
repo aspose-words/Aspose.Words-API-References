@@ -14,7 +14,7 @@ Gets or sets the name of the bookmark in the document to include.
 public string BookmarkName { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to create an INCLUDETEXT field, and set its properties.
 

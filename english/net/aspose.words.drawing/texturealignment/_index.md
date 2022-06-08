@@ -29,7 +29,7 @@ public enum TextureAlignment
 | BottomRight | `8` | Bottom right texture alignment. |
 | None | `9` | None texture alignment. |
 
-## Examples
+### Examples
 
 Shows how to fill and tiling the texture inside the shape.
 

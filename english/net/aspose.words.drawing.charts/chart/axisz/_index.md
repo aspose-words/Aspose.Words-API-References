@@ -14,7 +14,7 @@ Provides access to properties of the Z axis of the chart.
 public ChartAxis AxisZ { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to insert a chart and modify the appearance of its axes.
 

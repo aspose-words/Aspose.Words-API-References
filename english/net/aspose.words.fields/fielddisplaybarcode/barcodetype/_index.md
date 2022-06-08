@@ -14,7 +14,7 @@ Gets or sets the barcode type (QR, etc.)
 public string BarcodeType { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to insert a DISPLAYBARCODE field, and set its properties.
 

@@ -14,7 +14,7 @@ Returns true as this node can have child nodes.
 public override bool IsComposite { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to traverse a composite node's tree of child nodes.
 

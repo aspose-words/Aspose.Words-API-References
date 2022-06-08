@@ -14,7 +14,7 @@ Gets/sets an encoding that was used to encode equation XML, if this office math 
 public Encoding EquationXmlEncoding { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to set office math display formatting.
 

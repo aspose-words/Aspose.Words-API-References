@@ -14,7 +14,7 @@ Gets or sets whether to enable character conversion for vertical formatting.
 public bool IsVerticalFormatting { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to use MERGEFIELD fields to perform a mail merge.
 

@@ -14,7 +14,7 @@ Moves to the previous sibling entity.
 public bool MovePrevious()
 ```
 
-## Examples
+### Examples
 
 Shows ways of traversing a document's layout entities.
 

@@ -14,7 +14,7 @@ Returns true if this digital signature is valid and the document has not been ta
 public bool IsValid { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to validate and display information about each signature in a document.
 

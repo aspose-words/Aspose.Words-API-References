@@ -6,7 +6,7 @@ type: docs
 weight: 50
 url: /net/aspose.words.fonts/fontfallbacksettings/save/
 ---
-## FontFallbackSettings.Save method (1 of 2)
+## Save(Stream) {#save}
 
 Saves the current fallback settings to stream.
 
@@ -18,7 +18,7 @@ public void Save(Stream outputStream)
 | --- | --- | --- |
 | outputStream | Stream | Output stream. |
 
-## Examples
+### Examples
 
 Shows how to load and save font fallback settings to/from a stream.
 
@@ -52,7 +52,7 @@ using (FileStream fontFallbackStream =
 
 ---
 
-## FontFallbackSettings.Save method (2 of 2)
+## Save(string) {#save_1}
 
 Saves the current fallback settings to file.
 
@@ -64,7 +64,7 @@ public void Save(string fileName)
 | --- | --- | --- |
 | fileName | String | Output file name. |
 
-## Examples
+### Examples
 
 Shows how to load and save font fallback settings to/from an XML document in the local file system.
 

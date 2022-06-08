@@ -14,7 +14,7 @@ Gets or sets default document author's name. If author's name is already specifi
 public string DefaultDocumentAuthor { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to use an AUTHOR field to display a document creator's name.
 

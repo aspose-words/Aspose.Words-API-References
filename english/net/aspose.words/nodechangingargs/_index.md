@@ -23,7 +23,7 @@ public class NodeChangingArgs
 | [Node](../../aspose.words/nodechangingargs/node) { get; } | Gets the [`Node`](./node) that is being added or removed. |
 | [OldParent](../../aspose.words/nodechangingargs/oldparent) { get; } | Gets the node's parent before the operation began. |
 
-## Examples
+### Examples
 
 Shows how customize node changing with a callback.
 

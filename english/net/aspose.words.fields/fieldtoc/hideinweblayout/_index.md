@@ -14,7 +14,7 @@ Gets or sets whether to hide tab leader and page numbers in Web layout view.
 public bool HideInWebLayout { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to insert a TOC, and populate it with entries based on heading styles.
 

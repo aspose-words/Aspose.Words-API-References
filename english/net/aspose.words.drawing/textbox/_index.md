@@ -37,11 +37,11 @@ public class TextBox
 | [BreakForwardLink](../../aspose.words.drawing/textbox/breakforwardlink)() | Breaks the link to the next TextBox. |
 | [IsValidLinkTarget](../../aspose.words.drawing/textbox/isvalidlinktarget)(TextBox) | Determines whether this TextBox can be linked to the target Textbox. |
 
-## Remarks
+### Remarks
 
 Use the [`TextBox`](../shape/textbox) property to access text properties of a shape. You do not create instances of the [`TextBox`](../textbox) class directly.
 
-## Examples
+### Examples
 
 Shows how to set internal margins for a text box.
 

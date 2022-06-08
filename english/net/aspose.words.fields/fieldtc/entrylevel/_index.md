@@ -14,7 +14,7 @@ Gets or sets the level of the entry.
 public string EntryLevel { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to insert a TOC field, and filter which TC fields end up as entries.
 

@@ -14,7 +14,7 @@ Gets or sets an integer number representing a heading level to reset the sequenc
 public string ResetHeadingLevel { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows create numbering using SEQ fields.
 

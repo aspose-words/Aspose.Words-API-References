@@ -49,7 +49,7 @@ public class BookmarkEnd : Node
 | [ToString](../../aspose.words/node/tostring)(SaveFormat) | Exports the content of the node into a string in the specified format. |
 | [ToString](../../aspose.words/node/tostring)(SaveOptions) | Exports the content of the node into a string using the specified save options. |
 
-## Remarks
+### Remarks
 
 A complete bookmark in a Word document consists of a [`BookmarkStart`](../bookmarkstart) and a matching [`BookmarkEnd`](../bookmarkend) with the same bookmark name.
 
@@ -57,7 +57,7 @@ A complete bookmark in a Word document consists of a [`BookmarkStart`](../bookma
 
 Use the [`Bookmark`](../bookmark) class as a "facade" to work with a bookmark as a single object.
 
-## Examples
+### Examples
 
 Shows how to add bookmarks and update their contents.
 

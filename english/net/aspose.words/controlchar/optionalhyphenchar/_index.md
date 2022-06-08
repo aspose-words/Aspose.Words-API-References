@@ -14,11 +14,11 @@ Optional Hyphen in Microsoft Word is (char)31.
 public const char OptionalHyphenChar;
 ```
 
-## Remarks
+### Remarks
 
 Optional Hyphen in Microsoft Word does not correspond to the Unicode character U+00AD soft hyphen. Instead, it inserts internal information that tells Word about a possible hyphenation point.
 
-## Examples
+### Examples
 
 Shows how to add various control characters to a document.
 

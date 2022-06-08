@@ -14,11 +14,11 @@ Allows to specify the effect to be applied to the inserted content Insertion. De
 public RevisionTextEffect InsertedTextEffect { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 Values of Hidden and DoubleStrikeThrough are not allowed and will cause ArgumentOutOfRangeException.
 
-## Examples
+### Examples
 
 Shows how to modify the appearance of revisions.
 

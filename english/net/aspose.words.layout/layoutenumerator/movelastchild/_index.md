@@ -14,7 +14,7 @@ Moves to the last child entity.
 public bool MoveLastChild()
 ```
 
-## Examples
+### Examples
 
 Shows ways of traversing a document's layout entities.
 

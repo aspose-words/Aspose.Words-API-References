@@ -14,7 +14,7 @@ Gets the type of this node.
 public abstract NodeType NodeType { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to use a node's NextSibling property to enumerate through its immediate children.
 

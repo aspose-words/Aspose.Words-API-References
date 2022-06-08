@@ -42,11 +42,11 @@ public class BarcodeParameters
 | [SymbolHeight](../../aspose.words.fields/barcodeparameters/symbolheight) { get; set; } | Bar code image height (in twips - 1/1440 inches) |
 | [SymbolRotation](../../aspose.words.fields/barcodeparameters/symbolrotation) { get; set; } | Rotation of the barcode symbol. Valid values are [0, 3]. |
 
-## Remarks
+### Remarks
 
 The set of parameters are according to DISPLAYBARCODE field options. See the exact list at [https://msdn.microsoft.com/en-us/library/hh745901(v=office.12).aspx](https://msdn.microsoft.com/en-us/library/hh745901(v=office.12).aspx)
 
-## Examples
+### Examples
 
 Shows how to use a barcode generator.
 

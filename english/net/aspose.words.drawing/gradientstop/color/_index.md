@@ -14,7 +14,7 @@ Gets or sets a value representing the color of the gradient stop.
 public Color Color { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to add gradient stops to the gradient fill.
 

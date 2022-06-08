@@ -14,7 +14,7 @@ Called when Aspose.Words loads any external resource.
 public ResourceLoadingAction ResourceLoading(ResourceLoadingArgs args)
 ```
 
-## Examples
+### Examples
 
 Shows how to customize the process of loading external resources into a document.
 

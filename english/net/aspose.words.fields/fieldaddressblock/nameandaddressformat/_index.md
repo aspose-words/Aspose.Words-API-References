@@ -14,7 +14,7 @@ Gets or sets the name and address format.
 public string NameAndAddressFormat { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to insert an ADDRESSBLOCK field.
 

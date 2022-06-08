@@ -14,11 +14,11 @@ Determines when automatic numbering restarts.
 public FootnoteNumberingRule RestartRule { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 Not all values are applicable to endnotes. To ascertain which values are applicable see [`FootnoteNumberingRule`](../../footnotenumberingrule).
 
-## Examples
+### Examples
 
 Shows how to restart footnote/endnote numbering at certain places in the document.
 

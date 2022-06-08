@@ -14,7 +14,7 @@ Determines whether or not to scan the subfolders.
 public bool ScanSubfolders { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to use a local system folder which contains fonts as a font source.
 

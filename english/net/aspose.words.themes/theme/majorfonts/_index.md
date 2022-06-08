@@ -14,7 +14,7 @@ Allows to specify the set of major fonts for different languages.
 public ThemeFonts MajorFonts { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to set custom colors and fonts for themes.
 

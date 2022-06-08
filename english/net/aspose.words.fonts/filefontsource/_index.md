@@ -18,9 +18,9 @@ public class FileFontSource : FontSourceBase
 
 | Name | Description |
 | --- | --- |
-| [FileFontSource](filefontsource)(string) | Ctor. |
-| [FileFontSource](filefontsource)(string, int) | Ctor. |
-| [FileFontSource](filefontsource)(string, int, string) | Ctor. |
+| [FileFontSource](filefontsource#constructor)(string) | Ctor. |
+| [FileFontSource](filefontsource#constructor_1)(string, int) | Ctor. |
+| [FileFontSource](filefontsource#constructor_2)(string, int, string) | Ctor. |
 
 ## Properties
 
@@ -38,7 +38,7 @@ public class FileFontSource : FontSourceBase
 | --- | --- |
 | [GetAvailableFonts](../../aspose.words.fonts/fontsourcebase/getavailablefonts)() | Returns list of fonts available via this source. |
 
-## Examples
+### Examples
 
 Shows how to use a font file in the local file system as a font source.
 

@@ -14,11 +14,11 @@ Defines the brush thickness that strokes the path of a shape in points.
 public double Weight { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 The default value for a [`Shape`](../../shape) is 0.75.
 
-## Examples
+### Examples
 
 Shows how change stroke properties.
 

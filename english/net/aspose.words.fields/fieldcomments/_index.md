@@ -47,11 +47,11 @@ public class FieldComments : Field
 | [Update](../../aspose.words.fields/field/update)() | Performs the field update. Throws if the field is being updated already. |
 | [Update](../../aspose.words.fields/field/update)(bool) | Performs a field update. Throws if the field is being updated already. |
 
-## Remarks
+### Remarks
 
 Retrieves, and optionally sets, the comments relating to the current document, as recorded in the **Comments** property of the built-in document properties.
 
-## Examples
+### Examples
 
 Shows how to use the COMMENTS field.
 

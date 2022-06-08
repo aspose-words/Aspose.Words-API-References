@@ -36,7 +36,7 @@ public class OdsoRecipientDataCollection : IEnumerable<OdsoRecipientData>
 | [GetEnumerator](../../aspose.words.settings/odsorecipientdatacollection/getenumerator)() | Returns an enumerator object that can be used to iterate over all items in the collection. |
 | [RemoveAt](../../aspose.words.settings/odsorecipientdatacollection/removeat)(int) | Removes the element at the specified index. |
 
-## Examples
+### Examples
 
 Shows how to access the collection of data that designates which merge data source records a mail merge will exclude.
 

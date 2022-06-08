@@ -31,7 +31,7 @@ public class TaskPane
 | [WebExtension](../../aspose.words.webextensions/taskpane/webextension) { get; } | Represents an web extension object. |
 | [Width](../../aspose.words.webextensions/taskpane/width) { get; set; } | Specifies the default width value for this task pane instance. |
 
-## Examples
+### Examples
 
 Shows how to add a web extension to a document.
 

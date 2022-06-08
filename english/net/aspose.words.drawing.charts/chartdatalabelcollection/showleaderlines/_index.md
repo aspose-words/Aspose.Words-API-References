@@ -14,13 +14,13 @@ Allows to specify whether data label leader lines need be shown for the data lab
 public bool ShowLeaderLines { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 Applies to Pie charts only. Leader lines create a visual connection between a data label and its corresponding data point.
 
 Value defined for this property can be overridden for an individual data label with using the [`ShowLeaderLines`](../../chartdatalabel/showleaderlines) property.
 
-## Examples
+### Examples
 
 Shows how to work with data labels of a pie chart.
 

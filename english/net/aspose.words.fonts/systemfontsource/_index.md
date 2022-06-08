@@ -18,8 +18,8 @@ public class SystemFontSource : FontSourceBase
 
 | Name | Description |
 | --- | --- |
-| [SystemFontSource](systemfontsource)() | Ctor. |
-| [SystemFontSource](systemfontsource)(int) | Ctor. |
+| [SystemFontSource](systemfontsource#constructor)() | Ctor. |
+| [SystemFontSource](systemfontsource#constructor_1)(int) | Ctor. |
 
 ## Properties
 
@@ -36,7 +36,7 @@ public class SystemFontSource : FontSourceBase
 | [GetAvailableFonts](../../aspose.words.fonts/fontsourcebase/getavailablefonts)() | Returns list of fonts available via this source. |
 | static [GetSystemFontFolders](../../aspose.words.fonts/systemfontsource/getsystemfontfolders)() | Returns system font folders or empty array if folders are not accessible. |
 
-## Examples
+### Examples
 
 Shows how to access a document's system font source and set font substitutes.
 

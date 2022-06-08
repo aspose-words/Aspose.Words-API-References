@@ -35,7 +35,7 @@ public class DocumentProperty
 | [ToInt](../../aspose.words.properties/documentproperty/toint)() | Returns the property value as integer. |
 | override [ToString](../../aspose.words.properties/documentproperty/tostring)() | Returns the property value as a string formatted according to the current locale. |
 
-## Examples
+### Examples
 
 Shows how to work with built-in document properties.
 

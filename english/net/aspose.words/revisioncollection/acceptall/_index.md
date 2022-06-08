@@ -14,7 +14,7 @@ Accepts all revisions in this collection.
 public void AcceptAll()
 ```
 
-## Examples
+### Examples
 
 Shows how to compare documents.
 

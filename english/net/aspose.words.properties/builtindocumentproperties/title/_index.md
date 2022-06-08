@@ -14,7 +14,7 @@ Gets or sets the title of the document.
 public string Title { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to work with built-in document properties in the "Description" category.
 

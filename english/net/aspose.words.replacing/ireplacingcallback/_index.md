@@ -20,7 +20,7 @@ public interface IReplacingCallback
 | --- | --- |
 | [Replacing](../../aspose.words.replacing/ireplacingcallback/replacing)(ReplacingArgs) | A user defined method that is called during a replace operation for each match found just before a replace is made. |
 
-## Examples
+### Examples
 
 Shows how to replace all occurrences of a regular expression pattern with another string, while tracking all such replacements.
 

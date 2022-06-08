@@ -14,13 +14,13 @@ Gets the position of the right edge of the containing block of the shape.
 public double Right { get; }
 ```
 
-## Remarks
+### Remarks
 
 For a top-level shape, the value is in points and relative to the shape anchor.
 
 For shapes in a group, the value is in the coordinate space and units of the parent group.
 
-## Examples
+### Examples
 
 Shows how to insert a floating image, and specify its position and size.
 

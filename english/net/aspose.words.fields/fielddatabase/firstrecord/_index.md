@@ -14,7 +14,7 @@ Gets or sets the integral record number of the first data record to insert.
 public string FirstRecord { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to extract data from a database and insert it as a field into a document.
 

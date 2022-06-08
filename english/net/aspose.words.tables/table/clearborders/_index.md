@@ -14,7 +14,7 @@ Removes all table and cell borders on this table.
 public void ClearBorders()
 ```
 
-## Examples
+### Examples
 
 Shows how to apply an outline border to a table.
 

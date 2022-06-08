@@ -14,7 +14,7 @@ Gets fill formatting for the shape.
 public Fill Fill { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to fill a shape with a solid color.
 

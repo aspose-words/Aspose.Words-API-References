@@ -20,7 +20,7 @@ public interface IDocumentSavingCallback
 | --- | --- |
 | [Notify](../../aspose.words.saving/idocumentsavingcallback/notify)(DocumentSavingArgs) | This is called to notify of document saving progress. |
 
-## Examples
+### Examples
 
 Shows how to manage a document while saving to html.
 

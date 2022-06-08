@@ -14,7 +14,7 @@ Gets the total number of the items in the collection.
 public int Count { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to format field results.
 

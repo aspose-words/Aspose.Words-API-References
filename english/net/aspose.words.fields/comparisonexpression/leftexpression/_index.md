@@ -14,7 +14,7 @@ Gets the left expression.
 public string LeftExpression { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to implement custom evaluation for the IF and COMPARE fields.
 

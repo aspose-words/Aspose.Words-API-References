@@ -14,13 +14,13 @@ Specifies whether this **SDT** allows multiple lines of text.
 public bool Multiline { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 Accessing this property will only work for RichText and PlainText SDT type.
 
 For all other SDT types exception will occur.
 
-## Examples
+### Examples
 
 Shows how to create a structured document tag in a plain text box and modify its appearance.
 

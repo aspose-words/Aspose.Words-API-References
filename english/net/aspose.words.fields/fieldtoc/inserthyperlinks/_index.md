@@ -14,7 +14,7 @@ Gets or sets whether to make the table of contents entries hyperlinks.
 public bool InsertHyperlinks { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to insert a TOC, and populate it with entries based on heading styles.
 

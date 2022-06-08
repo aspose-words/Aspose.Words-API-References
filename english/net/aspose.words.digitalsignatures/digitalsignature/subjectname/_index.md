@@ -14,7 +14,7 @@ Returns the subject distinguished name of the certificate that was used to sign 
 public string SubjectName { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to sign documents with X.509 certificates.
 

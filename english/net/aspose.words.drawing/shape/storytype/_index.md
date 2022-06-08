@@ -14,7 +14,7 @@ Returns Textbox.
 public StoryType StoryType { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to iterate over all the shapes in a document.
 

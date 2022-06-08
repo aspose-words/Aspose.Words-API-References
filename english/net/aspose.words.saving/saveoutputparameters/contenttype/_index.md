@@ -14,7 +14,7 @@ Returns the Content-Type string (Internet Media Type) that identifies the type o
 public string ContentType { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to access output parameters of a document's save operation.
 

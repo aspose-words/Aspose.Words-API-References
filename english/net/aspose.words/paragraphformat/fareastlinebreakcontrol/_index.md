@@ -14,7 +14,7 @@ Gets or sets a flag indicating whether East Asian line-breaking rules are applie
 public bool FarEastLineBreakControl { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to set special properties for Asian typography.
 

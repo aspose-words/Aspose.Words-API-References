@@ -14,7 +14,7 @@ Gets or sets a boolean value indicating either to ignore text inside insert revi
 public bool IgnoreInserted { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to include or ignore text inside insert revisions during a find-and-replace operation.
 

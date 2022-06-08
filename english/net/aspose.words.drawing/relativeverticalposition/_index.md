@@ -29,7 +29,7 @@ public enum RelativeVerticalPosition
 | TableDefault | `0` | Default value is Margin. |
 | TextFrameDefault | `2` | Default value is Paragraph. |
 
-## Examples
+### Examples
 
 Shows how to insert a floating image to the center of a page.
 

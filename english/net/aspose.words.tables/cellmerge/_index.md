@@ -22,7 +22,7 @@ public enum CellMerge
 | First | `1` | The cell is the first cell in a range of merged cells. |
 | Previous | `2` | The cell is merged to the previous cell horizontally or vertically. |
 
-## Examples
+### Examples
 
 Shows how to merge table cells horizontally.
 

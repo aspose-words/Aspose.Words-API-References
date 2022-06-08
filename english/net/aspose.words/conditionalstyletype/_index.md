@@ -31,7 +31,7 @@ public enum ConditionalStyleType
 | BottomLeftCell | `10` | Specifies formatting of the bottom left cell of a table. |
 | BottomRightCell | `11` | Specifies formatting of the bottom right cell of a table. |
 
-## Examples
+### Examples
 
 Shows how to work with certain area styles of a table.
 

@@ -16,11 +16,11 @@ The default value is `false`.
 public bool SmartParagraphBreakReplacement { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 This option allows to replace paragraph break when there is no next sibling paragraph to which all child nodes can be moved, by finding any (not necessarily sibling) next paragraph after the paragraph being replaced.
 
-## Examples
+### Examples
 
 Shows how to remove paragraph from a table cell with a nested table.
 

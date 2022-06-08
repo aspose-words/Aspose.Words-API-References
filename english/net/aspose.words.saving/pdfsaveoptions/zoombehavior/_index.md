@@ -14,11 +14,11 @@ Gets or sets a value determining what type of zoom should be applied when a docu
 public PdfZoomBehavior ZoomBehavior { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 The default value is None, i.e. no fit is applied.
 
-## Examples
+### Examples
 
 Shows how to set the default zooming that a reader applies when opening a rendered PDF document.
 

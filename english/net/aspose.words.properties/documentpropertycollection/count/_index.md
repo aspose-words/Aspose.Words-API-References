@@ -14,7 +14,7 @@ Gets number of items in the collection.
 public int Count { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to work with custom document properties.
 

@@ -14,7 +14,7 @@ Gets a list by index.
 public List this[int index] { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to verify owner document properties of lists.
 

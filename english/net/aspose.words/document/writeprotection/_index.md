@@ -14,7 +14,7 @@ Provides access to the document write protection options.
 public WriteProtection WriteProtection { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to protect a document with a password.
 

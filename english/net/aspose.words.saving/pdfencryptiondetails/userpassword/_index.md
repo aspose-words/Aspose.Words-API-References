@@ -14,13 +14,13 @@ Specifies the user password required for opening the encrypted PDF document.
 public string UserPassword { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 The user password will be required to open an encrypted PDF document for viewing. The permissions specified in [`Permissions`](../permissions) will be enforced by the reader software.
 
 The user password can be null or empty string, in this case no password will be required from the user when opening the PDF document. The user password cannot be the same as the owner password.
 
-## Examples
+### Examples
 
 Shows how to set permissions on a saved PDF document.
 

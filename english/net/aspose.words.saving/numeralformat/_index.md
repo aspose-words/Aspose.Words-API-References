@@ -24,7 +24,7 @@ public enum NumeralFormat
 | Context | `3` | Symbol set is decided from context(locale and RTL property). |
 | System | `4` | THIS OPTION IS NOT SUPPORTED. Symbol set is decided from regional settings. |
 
-## Examples
+### Examples
 
 Shows how to set the numeral format used when saving to PDF.
 

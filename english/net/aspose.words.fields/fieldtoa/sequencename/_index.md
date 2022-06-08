@@ -14,7 +14,7 @@ Gets or sets the name of a sequence whose number is included with the page numbe
 public string SequenceName { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to build and customize a table of authorities using TOA and TA fields.
 

@@ -14,11 +14,11 @@ Defines the title of an image.
 public string Title { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 The default value is an empty string.
 
-## Examples
+### Examples
 
 Shows how to edit a shape's image data.
 

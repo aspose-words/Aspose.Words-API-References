@@ -14,7 +14,7 @@ True if a page break is forced before the paragraph.
 public bool PageBreakBefore { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to create paragraphs with page breaks at the beginning.
 

@@ -30,7 +30,7 @@ public class RowFormat
 | --- | --- |
 | [ClearFormatting](../../aspose.words.tables/rowformat/clearformatting)() | Resets to default row formatting. |
 
-## Examples
+### Examples
 
 Shows how to modify formatting of a table row.
 

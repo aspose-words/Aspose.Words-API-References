@@ -14,11 +14,11 @@ Gets or sets a flag indicating whether this axis is hidden or not.
 public bool Hidden { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 Default value is **false**.
 
-## Examples
+### Examples
 
 Shows how to hide chart axes.
 

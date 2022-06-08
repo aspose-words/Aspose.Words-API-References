@@ -14,7 +14,7 @@ Returns a Border object that specifies border for the font.
 public Border Border { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to insert a string surrounded by a border into a document.
 

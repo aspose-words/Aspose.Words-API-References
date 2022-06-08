@@ -14,13 +14,13 @@ Gets or sets a user-defined divisor to scale display units on the value axis.
 public double CustomUnit { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 The property is not supported by MS Office 2016 new charts. Default value is 1.
 
 Setting this property sets the [`Unit`](../unit) property to Custom.
 
-## Examples
+### Examples
 
 Shows how to manipulate the tick marks and displayed values of a chart axis.
 

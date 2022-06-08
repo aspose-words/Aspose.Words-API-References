@@ -14,7 +14,7 @@ Gets horizontal distance between a frame and the surrounding text, in points.
 public double HorizontalDistanceFromText { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to get information about formatting properties of paragraphs that are frames.
 

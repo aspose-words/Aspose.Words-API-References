@@ -18,11 +18,11 @@ public void InsertBreak(BreakType breakType)
 | --- | --- | --- |
 | breakType | BreakType | Specifies the type of the break to insert. |
 
-## Remarks
+### Remarks
 
 Use this method to insert paragraph, page, column, section or line break into the document.
 
-## Examples
+### Examples
 
 Shows how to create headers and footers in a document using DocumentBuilder.
 

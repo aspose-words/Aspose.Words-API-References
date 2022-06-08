@@ -14,7 +14,7 @@ Specifies color for a hyperlink.
 public Color Hyperlink { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to set custom colors and fonts for themes.
 

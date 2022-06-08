@@ -14,7 +14,7 @@ Family name of the font.
 public string FontFamilyName { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to list available fonts.
 

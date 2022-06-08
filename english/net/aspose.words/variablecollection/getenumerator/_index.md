@@ -14,7 +14,7 @@ Returns an enumerator object that can be used to iterate over all variable in th
 public IEnumerator<KeyValuePair<string, string>> GetEnumerator()
 ```
 
-## Examples
+### Examples
 
 Shows how to work with a document's variable collection.
 

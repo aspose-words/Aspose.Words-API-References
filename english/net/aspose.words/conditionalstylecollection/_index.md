@@ -40,11 +40,11 @@ public sealed class ConditionalStyleCollection : IEnumerable<ConditionalStyle>
 | [ClearFormatting](../../aspose.words/conditionalstylecollection/clearformatting)() | Clears all conditional styles of the table style. |
 | [GetEnumerator](../../aspose.words/conditionalstylecollection/getenumerator)() | Returns an enumerator object that can be used to iterate over all conditional styles in the collection. |
 
-## Remarks
+### Remarks
 
 It is not possible to add or remove items from this collection. It contains permanent set of items: one item for each value of the [`ConditionalStyleType`](../conditionalstyletype) enumeration type.
 
-## Examples
+### Examples
 
 Shows how to work with certain area styles of a table.
 

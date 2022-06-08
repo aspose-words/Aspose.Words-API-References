@@ -14,7 +14,7 @@ Gets or sets bit flags that specify how a table style is applied to this table.
 public TableStyleOptions StyleOptions { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to build a new table while applying a style.
 

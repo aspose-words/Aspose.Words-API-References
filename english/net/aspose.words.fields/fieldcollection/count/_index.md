@@ -14,7 +14,7 @@ Returns the number of the fields in the collection.
 public int Count { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to remove fields from a field collection.
 

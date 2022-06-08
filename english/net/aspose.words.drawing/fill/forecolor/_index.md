@@ -14,7 +14,7 @@ Gets or sets a Color object that represents the foreground color for the fill.
 public Color ForeColor { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows to create a variety of shapes.
 

@@ -14,13 +14,13 @@ Gets a style by name or alias.
 public Style this[string name] { get; }
 ```
 
-## Remarks
+### Remarks
 
 Case sensitive, returns null if the style with the given name is not found.
 
 If this is an English name of a built in style that does not yet exist, automatically creates it.
 
-## Examples
+### Examples
 
 Shows when to recalculate the page layout of the document.
 
@@ -64,11 +64,11 @@ public Style this[StyleIdentifier sti] { get; }
 | --- | --- |
 | sti | A [`StyleIdentifier`](../../styleidentifier) value that specifies the built in style to retrieve. |
 
-## Remarks
+### Remarks
 
 When accessing a style that does not yet exist, automatically creates it.
 
-## Examples
+### Examples
 
 Shows how to add a Style to a document's styles collection.
 
@@ -108,7 +108,7 @@ Gets a style by index.
 public Style this[int index] { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to add a Style to a document's styles collection.
 

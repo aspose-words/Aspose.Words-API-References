@@ -14,7 +14,7 @@ Occurs during mail merge when a mail merge field is encountered in the document.
 public IFieldMergingCallback FieldMergingCallback { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to insert images stored in a database BLOB field into a report.
 

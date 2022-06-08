@@ -107,7 +107,7 @@ public class Table : CompositeNode
 | [ToString](../../aspose.words/node/tostring)(SaveFormat) | Exports the content of the node into a string in the specified format. |
 | [ToString](../../aspose.words/node/tostring)(SaveOptions) | Exports the content of the node into a string using the specified save options. |
 
-## Remarks
+### Remarks
 
 **Table** is a block-level node and can be a child of classes derived from **Story** or **InlineStory**.
 
@@ -115,7 +115,7 @@ public class Table : CompositeNode
 
 A minimal valid table needs to have at least one **Row**.
 
-## Examples
+### Examples
 
 Shows how to create a table.
 

@@ -22,7 +22,7 @@ public enum HtmlFixedPageHorizontalAlignment
 | Center | `1` | Center pages. This is the default value. |
 | Right | `2` | Align pages to the right. |
 
-## Examples
+### Examples
 
 Shows how to set the horizontal alignment of pages when saving a document to HTML.
 

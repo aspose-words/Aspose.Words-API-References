@@ -14,7 +14,7 @@ Settings related to font info substitution rule.
 public FontInfoSubstitutionRule FontInfoSubstitution { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to set the property for finding the closest match for a missing font from the available font sources.
 

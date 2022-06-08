@@ -96,7 +96,7 @@ public class CompatibilityOptions
 | --- | --- |
 | [OptimizeFor](../../aspose.words.settings/compatibilityoptions/optimizefor)(MsWordVersion) | Allows to optimize the document contents as well as default Aspose.Words behavior to a particular versions of MS Word. |
 
-## Examples
+### Examples
 
 Shows how to vertically align the text contents of a text box.
 

@@ -14,7 +14,7 @@ Gets the rule for determining the height of the specified frame.
 public HeightRule HeightRule { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to get information about formatting properties of paragraphs that are frames.
 

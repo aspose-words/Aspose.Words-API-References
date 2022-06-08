@@ -14,7 +14,7 @@ Removes the watermark.
 public void Remove()
 ```
 
-## Examples
+### Examples
 
 Shows how to create a text watermark.
 

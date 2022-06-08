@@ -14,11 +14,11 @@ Gets or sets a value determining whether or not complex transformed elements sho
 public bool RasterizeTransformedElements { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 PCL doesn't support some kind of transformations that are used by Aspose Words. E.g. rotated, skewed images and texture brushes. To properly render such elements rasterization process is used, i.e. saving to image and clipping. This process can take additional time and memory. If flag is set to `false`, some content in output may be different as compared with the source document.
 
-## Examples
+### Examples
 
 Shows how to rasterize complex elements while saving a document to PCL.
 

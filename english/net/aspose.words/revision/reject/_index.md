@@ -14,7 +14,7 @@ Reject this revision.
 public void Reject()
 ```
 
-## Examples
+### Examples
 
 Shows how to work with revisions in a document.
 

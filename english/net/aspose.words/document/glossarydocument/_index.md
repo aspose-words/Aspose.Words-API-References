@@ -14,13 +14,13 @@ Gets or sets the glossary document within this document or template. A glossary 
 public GlossaryDocument GlossaryDocument { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 This property returns `null` if the document does not have a glossary document.
 
 You can add a glossary document to a document by creating a [`GlossaryDocument`](../../../aspose.words.buildingblocks/glossarydocument) object and assigning to this property.
 
-## Examples
+### Examples
 
 Shows how to add a custom building block to a document.
 

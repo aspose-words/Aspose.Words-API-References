@@ -14,13 +14,13 @@ Returns the **Body** child node of the section.
 public Body Body { get; }
 ```
 
-## Remarks
+### Remarks
 
 **Body** contains main text of the section.
 
 Returns null if the section does not have a **Body** node among its children.
 
-## Examples
+### Examples
 
 Clears main text from all sections from the document leaving the sections themselves.
 

@@ -14,7 +14,7 @@ Gets or sets the element at the specified index.
 public string this[int index] { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to insert a combo box field, and edit the elements in its item collection.
 

@@ -14,7 +14,7 @@ Retrieves a [`ConditionalStyle`](../../conditionalstyle) object by conditional s
 public ConditionalStyle this[ConditionalStyleType conditionalStyleType] { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to work with certain area styles of a table.
 
@@ -103,7 +103,7 @@ public ConditionalStyle this[int index] { get; }
 | --- | --- |
 | index | Zero-based index of the conditional style to retrieve. |
 
-## Examples
+### Examples
 
 Shows how to work with certain area styles of a table.
 

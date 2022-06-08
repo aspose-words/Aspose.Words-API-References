@@ -28,7 +28,7 @@ public abstract class FontSourceBase
 | --- | --- |
 | [GetAvailableFonts](../../aspose.words.fonts/fontsourcebase/getavailablefonts)() | Returns list of fonts available via this source. |
 
-## Examples
+### Examples
 
 Shows how to use a font file in the local file system as a font source.
 

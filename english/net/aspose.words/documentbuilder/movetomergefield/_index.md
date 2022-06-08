@@ -6,7 +6,7 @@ type: docs
 weight: 530
 url: /net/aspose.words/documentbuilder/movetomergefield/
 ---
-## DocumentBuilder.MoveToMergeField method (1 of 2)
+## MoveToMergeField(string) {#movetomergefield}
 
 Moves the cursor to a position just beyond the specified merge field and removes the merge field.
 
@@ -22,11 +22,11 @@ public bool MoveToMergeField(string fieldName)
 
 True if the merge field was found and the cursor was moved; false otherwise.
 
-## Remarks
+### Remarks
 
 Note that this method deletes the merge field from the document after moving the cursor.
 
-## Examples
+### Examples
 
 Shows how to fill MERGEFIELDs with data with a document builder instead of a mail merge.
 
@@ -144,7 +144,7 @@ private static DataTable GetStudentCourseDataTable()
 
 ---
 
-## DocumentBuilder.MoveToMergeField method (2 of 2)
+## MoveToMergeField(string, bool, bool) {#movetomergefield_1}
 
 Moves the merge field to the specified merge field.
 
@@ -162,7 +162,7 @@ public bool MoveToMergeField(string fieldName, bool isAfter, bool isDeleteField)
 
 True if the merge field was found and the cursor was moved; false otherwise.
 
-## Examples
+### Examples
 
 Shows how to insert fields, and move the document builder's cursor to them.
 

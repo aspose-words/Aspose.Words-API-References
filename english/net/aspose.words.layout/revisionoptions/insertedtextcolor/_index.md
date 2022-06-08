@@ -14,7 +14,7 @@ Allows to specify the color to be used for inserted content Insertion. Default v
 public RevisionColor InsertedTextColor { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to alter the appearance of revisions in a rendered output document.
 

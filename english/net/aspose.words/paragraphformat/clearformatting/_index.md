@@ -14,11 +14,11 @@ Resets to default paragraph formatting.
 public void ClearFormatting()
 ```
 
-## Remarks
+### Remarks
 
 Default paragraph formatting is Normal style, left aligned, no indentation, no spacing, no borders and no shading.
 
-## Examples
+### Examples
 
 Shows how to nest a list inside another list.
 

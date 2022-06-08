@@ -28,7 +28,7 @@ public enum RelativeHorizontalPosition
 | OutsideMargin | `7` | Specifies that the horizontal positioning shall be relative to the outside margin of the current page (the right margin on odd pages, left on even pages). |
 | Default | `2` | Default value is Column. |
 
-## Examples
+### Examples
 
 Shows how to insert a floating image to the center of a page.
 

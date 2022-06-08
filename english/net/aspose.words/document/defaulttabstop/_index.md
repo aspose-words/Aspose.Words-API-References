@@ -14,7 +14,7 @@ Gets or sets the interval (in points) between the default tab stops.
 public double DefaultTabStop { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to set a custom interval for tab stop positions.
 

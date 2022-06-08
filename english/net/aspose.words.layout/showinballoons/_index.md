@@ -22,11 +22,11 @@ public enum ShowInBalloons
 | Format | `1` | Renders insert and delete revisions inline, format revisions in balloons. |
 | FormatAndDelete | `2` | Renders insert revisions inline, delete and format revisions in balloons. |
 
-## Remarks
+### Remarks
 
 Note that revisions are not rendered in balloons for ShowInAnnotations.
 
-## Examples
+### Examples
 
 Shows how to modify the appearance of revisions.
 

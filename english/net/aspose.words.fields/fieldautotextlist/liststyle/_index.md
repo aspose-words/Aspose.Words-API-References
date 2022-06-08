@@ -14,7 +14,7 @@ Gets or sets the name of the style on which the list to contain entries is based
 public string ListStyle { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to use an AUTOTEXTLIST field to select from a list of AutoText entries.
 

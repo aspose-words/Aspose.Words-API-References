@@ -14,7 +14,7 @@ Gets or sets whether to append coordinates to the hyperlink for a server-side im
 public bool IsImageMap { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to use HYPERLINK fields to link to documents in the local file system.
 

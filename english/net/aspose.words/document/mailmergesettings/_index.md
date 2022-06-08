@@ -14,13 +14,13 @@ Gets or sets the object that contains all of the mail merge information for a do
 public MailMergeSettings MailMergeSettings { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 You can use this object to specify a mail merge data source for a document and this information (along with the available data fields) will appear in Microsoft Word when the user opens this document. Or you can use this object to query mail merge settings that the user has specified in Microsoft Word for this document.
 
 This object is never null.
 
-## Examples
+### Examples
 
 Shows how to execute a mail merge with data from an Office Data Source Object.
 

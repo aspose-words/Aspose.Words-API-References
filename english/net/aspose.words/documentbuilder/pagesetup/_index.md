@@ -14,7 +14,7 @@ Returns an object that represents current page setup and section properties.
 public PageSetup PageSetup { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to apply and revert page setup settings to sections in a document.
 

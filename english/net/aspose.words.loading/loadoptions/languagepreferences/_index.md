@@ -14,7 +14,7 @@ Gets language preferences that will be used when document is loading.
 public LanguagePreferences LanguagePreferences { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to apply language preferences when loading a document.
 

@@ -14,7 +14,7 @@ Gets the style type (paragraph or character).
 public StyleType Type { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to access a document's style collection.
 

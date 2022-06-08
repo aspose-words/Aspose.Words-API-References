@@ -14,7 +14,7 @@ Gets the last child in the stdContent range.
 public Node LastChild { get; }
 ```
 
-## Remarks
+### Remarks
 
 If there is no last child node, a null is returned.
 

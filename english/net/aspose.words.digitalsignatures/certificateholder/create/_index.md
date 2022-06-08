@@ -6,7 +6,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.digitalsignatures/certificateholder/create/
 ---
-## CertificateHolder.Create method (1 of 4)
+## Create(byte[], SecureString) {#create}
 
 Creates CertificateHolder object using byte array of PKCS12 store and its password.
 
@@ -32,7 +32,7 @@ An instance of CertificateHolder
 | SecurityException | Thrown if PKCS12 store contains no aliases |
 | IOException | Thrown if there is wrong password or corrupted file. |
 
-## Examples
+### Examples
 
 Shows how to create CertificateHolder objects.
 
@@ -81,7 +81,7 @@ CertificateHolder.Create(MyDir + "morzal.pfx", "aw", null);
 
 ---
 
-## CertificateHolder.Create method (2 of 4)
+## Create(byte[], string) {#create_1}
 
 Creates CertificateHolder object using byte array of PKCS12 store and its password.
 
@@ -107,7 +107,7 @@ An instance of CertificateHolder
 | SecurityException | Thrown if PKCS12 store contains no aliases |
 | IOException | Thrown if there is wrong password or corrupted file. |
 
-## Examples
+### Examples
 
 Shows how to create CertificateHolder objects.
 
@@ -156,7 +156,7 @@ CertificateHolder.Create(MyDir + "morzal.pfx", "aw", null);
 
 ---
 
-## CertificateHolder.Create method (3 of 4)
+## Create(string, string) {#create_2}
 
 Creates CertificateHolder object using path to PKCS12 store and its password.
 
@@ -182,7 +182,7 @@ An instance of CertificateHolder
 | SecurityException | Thrown if PKCS12 store contains no aliases |
 | IOException | Thrown if there is wrong password or corrupted file. |
 
-## Examples
+### Examples
 
 Shows how to digitally sign documents.
 
@@ -216,7 +216,7 @@ using (Stream streamIn = new FileStream(MyDir + "Document.docx", FileMode.Open))
 
 ---
 
-## CertificateHolder.Create method (4 of 4)
+## Create(string, string, string) {#create_3}
 
 Creates CertificateHolder object using path to PKCS12 store, its password and the alias by using which private key and certificate will be found.
 
@@ -244,7 +244,7 @@ An instance of CertificateHolder
 | IOException | Thrown if there is wrong password or corrupted file. |
 | SecurityException | Thrown if there is no private key with the given alias |
 
-## Examples
+### Examples
 
 Shows how to create CertificateHolder objects.
 

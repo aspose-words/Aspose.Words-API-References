@@ -14,7 +14,7 @@ Specifies the last-docked location of this task pane object.
 public TaskPaneDockState DockState { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to add a web extension to a document.
 

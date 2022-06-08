@@ -397,13 +397,13 @@ public enum StyleIdentifier
 | User | `4094` | A user defined style. |
 | Nil | `12287` | Reserved for internal use. |
 
-## Remarks
+### Remarks
 
 The names of built-in styles in MS Word are localized for different languages. Using a style identifier you can find the correct style regardless of the document language.
 
 All user defined styles are assigned the StyleIdentifier.User value.
 
-## Examples
+### Examples
 
 Shows how to change the style of existing text.
 

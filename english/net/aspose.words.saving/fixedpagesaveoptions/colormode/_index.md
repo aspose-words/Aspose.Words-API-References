@@ -14,11 +14,11 @@ Gets or sets a value determining how colors are rendered.
 public ColorMode ColorMode { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 The default value is Normal.
 
-## Examples
+### Examples
 
 Shows how to change image color with saving options property.
 

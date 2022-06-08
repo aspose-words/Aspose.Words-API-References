@@ -20,7 +20,7 @@ public interface IFontSavingCallback
 | --- | --- |
 | [FontSaving](../../aspose.words.saving/ifontsavingcallback/fontsaving)(FontSavingArgs) | Called when Aspose.Words is about to save a font resource. |
 
-## Examples
+### Examples
 
 Shows how to define custom logic for exporting fonts when saving to HTML.
 

@@ -14,7 +14,7 @@ Gets or sets the name of the macro or command to run.
 public string MacroName { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to use MACROBUTTON fields to allow us to run a document's macros by clicking.
 

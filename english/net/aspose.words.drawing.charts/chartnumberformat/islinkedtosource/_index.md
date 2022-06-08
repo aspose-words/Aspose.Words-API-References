@@ -14,11 +14,11 @@ Specifies whether the format code is linked to a source cell. Default is true.
 public bool IsLinkedToSource { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 The NumberFormat will be reset to general if format code is linked to source.
 
-## Examples
+### Examples
 
 Shows how to set formatting for chart values.
 

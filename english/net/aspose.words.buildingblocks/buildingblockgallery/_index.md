@@ -58,11 +58,11 @@ public enum BuildingBlockGallery
 | Watermarks | `37` |  |
 | Default | `0` | Same as All. |
 
-## Remarks
+### Remarks
 
 Corresponds to the **ST_DocPartGallery** type in OOXML.
 
-## Examples
+### Examples
 
 Shows ways of accessing building blocks in a glossary document.
 

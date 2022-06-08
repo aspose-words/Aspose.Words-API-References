@@ -14,7 +14,7 @@ Specifies that unused [`BuiltIn`](../../style/builtin) styles should be removed 
 public bool UnusedBuiltinStyles { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to remove all unused custom styles from a document.
 

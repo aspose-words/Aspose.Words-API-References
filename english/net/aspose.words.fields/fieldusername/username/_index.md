@@ -14,7 +14,7 @@ Gest or sets the current user's name.
 public string UserName { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to use the USERNAME field.
 

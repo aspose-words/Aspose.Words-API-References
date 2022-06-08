@@ -14,7 +14,7 @@ Specifies whether the contents of this run shall have right-to-left characterist
 public bool Bidi { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 This property, when on, shall not be used with strongly left-to-right text. Any behavior under that condition is unspecified. This property, when off, shall not be used with strong right-to-left text. Any behavior under that condition is unspecified.
 
@@ -22,7 +22,7 @@ When the contents of this run are displayed, all characters shall be treated as 
 
 Also, when the contents of this run are displayed, this property acts as a right-to-left override for characters which are classified as "weak types" and "neutral types".
 
-## Examples
+### Examples
 
 Shows how to define separate sets of font settings for right-to-left, and right-to-left text.
 

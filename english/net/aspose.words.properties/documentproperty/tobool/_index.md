@@ -14,11 +14,11 @@ Returns the property value as bool.
 public bool ToBool()
 ```
 
-## Remarks
+### Remarks
 
 Throws an exception if the property type is not Boolean.
 
-## Examples
+### Examples
 
 Shows various type conversion methods of custom document properties.
 

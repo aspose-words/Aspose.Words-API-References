@@ -14,7 +14,7 @@ Allows to control how the field result is formatted.
 public IFieldResultFormatter ResultFormatter { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to automatically apply a custom format to field results as the fields are updated.
 

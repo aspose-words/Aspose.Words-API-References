@@ -22,7 +22,7 @@ public bool Contains(string name)
 
 True if the item is found in the collection; otherwise, false.
 
-## Examples
+### Examples
 
 Shows how to work with smart tag properties to get in depth information about smart tags.
 

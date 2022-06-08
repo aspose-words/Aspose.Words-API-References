@@ -14,7 +14,7 @@ Flag indicates whether it is required to optimize output. If this flag is set re
 public override bool OptimizeOutput { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to simplify a document when saving it to HTML by removing various redundant objects.
 

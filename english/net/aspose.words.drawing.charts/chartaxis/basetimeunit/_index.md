@@ -14,11 +14,11 @@ Returns or sets the smallest time unit that is represented on the time category 
 public AxisTimeUnit BaseTimeUnit { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 The property has effect only for time category axes.
 
-## Examples
+### Examples
 
 Shows how to insert chart with date/time values.
 

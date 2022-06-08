@@ -14,11 +14,11 @@ Gets or sets the background color of the stroke.
 public Color BackColor { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 The default value for a [`Shape`](../../shape) is White.
 
-## Examples
+### Examples
 
 Show how to set marker formatting.
 

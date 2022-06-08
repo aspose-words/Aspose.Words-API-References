@@ -28,7 +28,7 @@ public sealed class VbaModuleCollection : IEnumerable<VbaModule>
 | [Add](../../aspose.words.vba/vbamodulecollection/add)(VbaModule) | Adds a module to the collection. |
 | [Remove](../../aspose.words.vba/vbamodulecollection/remove)(VbaModule) | Removes the specified module from the collection. |
 
-## Examples
+### Examples
 
 Shows how to access a document's VBA project information.
 

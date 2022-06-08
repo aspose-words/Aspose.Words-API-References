@@ -14,7 +14,7 @@ Gets or sets the text enclosed in the bookmark.
 public string Text { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to add bookmarks and update their contents.
 

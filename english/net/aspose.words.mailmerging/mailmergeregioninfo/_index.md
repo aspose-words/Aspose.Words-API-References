@@ -26,7 +26,7 @@ public class MailMergeRegionInfo
 | [Regions](../../aspose.words.mailmerging/mailmergeregioninfo/regions) { get; } | Returns a list of child regions. |
 | [StartField](../../aspose.words.mailmerging/mailmergeregioninfo/startfield) { get; } | Returns a start field for the region. |
 
-## Examples
+### Examples
 
 Shows how to verify mail merge regions.
 

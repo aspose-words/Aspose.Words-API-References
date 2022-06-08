@@ -30,7 +30,7 @@ public class ChartSeries : IChartDataPoint
 | [Name](../../aspose.words.drawing.charts/chartseries/name) { get; set; } | Gets or sets the name of the series, if name is not set explicitly it is generated using index. By default returns Series plus one based index. |
 | [Smooth](../../aspose.words.drawing.charts/chartseries/smooth) { get; set; } | Allows to specify whether the line connecting the points on the chart shall be smoothed using Catmull-Rom splines. |
 
-## Examples
+### Examples
 
 Shows how to apply labels to data points in a line chart.
 

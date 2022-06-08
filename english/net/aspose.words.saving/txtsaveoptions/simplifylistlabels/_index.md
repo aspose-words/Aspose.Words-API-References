@@ -16,7 +16,7 @@ If set to **true**, numbered list labels are written in simple numeric format an
 public bool SimplifyListLabels { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to change the appearance of lists when saving a document to plaintext.
 

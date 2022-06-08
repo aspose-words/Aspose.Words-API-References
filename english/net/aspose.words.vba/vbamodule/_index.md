@@ -34,7 +34,7 @@ public class VbaModule
 | --- | --- |
 | [Clone](../../aspose.words.vba/vbamodule/clone)() | Performs a copy of the [`VbaModule`](../vbamodule). |
 
-## Examples
+### Examples
 
 Shows how to access a document's VBA project information.
 

@@ -14,7 +14,7 @@ Gets or sets whether to enable the use of yomi text for index entries.
 public bool UseYomi { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to sort INDEX field entries phonetically.
 

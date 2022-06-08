@@ -18,7 +18,7 @@ public void Remove(string documentFieldName)
 | --- | --- | --- |
 | documentFieldName | String | Case-sensitive name of the mail merge field in the document. |
 
-## Examples
+### Examples
 
 Shows how to map data columns and MERGEFIELDs with different names so the data is transferred between them during a mail merge.
 

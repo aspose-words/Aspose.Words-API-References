@@ -22,11 +22,11 @@ public class WarningInfo
 | [Source](../../aspose.words/warninginfo/source) { get; } | Returns the source of the warning. |
 | [WarningType](../../aspose.words/warninginfo/warningtype) { get; } | Returns the type of the warning. |
 
-## Remarks
+### Remarks
 
 You do not create instances of this class. Objects of this class are created and passed by Aspose.Words to the [`Warning`](../iwarningcallback/warning) method.
 
-## Examples
+### Examples
 
 Shows how to set the property for finding the closest match for a missing font from the available font sources.
 

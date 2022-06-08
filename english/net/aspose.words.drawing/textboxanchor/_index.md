@@ -29,7 +29,7 @@ public enum TextBoxAnchor
 | TopCenteredBaseline | `8` | Text is aligned to the top centered baseline of the textbox. |
 | BottomCenteredBaseline | `9` | Text is aligned to the bottom centered baseline of the textbox. |
 
-## Examples
+### Examples
 
 Shows how to vertically align the text contents of a text box.
 

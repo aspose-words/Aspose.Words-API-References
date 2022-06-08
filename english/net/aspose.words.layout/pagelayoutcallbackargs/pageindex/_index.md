@@ -14,7 +14,7 @@ Gets 0-based index of the page in the document this event relates to. Returns ne
 public int PageIndex { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to track layout changes with a layout callback.
 

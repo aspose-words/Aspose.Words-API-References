@@ -14,7 +14,7 @@ Removes shading from the object.
 public void ClearFormatting()
 ```
 
-## Examples
+### Examples
 
 Shows how to build a table with custom borders.
 

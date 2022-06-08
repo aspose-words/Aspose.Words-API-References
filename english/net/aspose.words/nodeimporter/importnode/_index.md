@@ -23,7 +23,7 @@ public Node ImportNode(Node srcNode, bool isImportChildren)
 
 The cloned, imported node. The node belongs to the destination document, but has no parent.
 
-## Remarks
+### Remarks
 
 Importing a node creates a copy of the source node belonging to the importing document. The returned node has no parent. The source node is not altered or removed from the original document.
 
@@ -31,7 +31,7 @@ Before a node from another document can be inserted into this document, it must 
 
 If the source node already belongs to the destination document, then simply a deep clone of the source node is created.
 
-## Examples
+### Examples
 
 Shows how to insert the contents of one document to a bookmark in another document.
 

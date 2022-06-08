@@ -14,7 +14,7 @@ Moves the enumerator to the first page of the document.
 public void Reset()
 ```
 
-## Examples
+### Examples
 
 Shows ways of traversing a document's layout entities.
 

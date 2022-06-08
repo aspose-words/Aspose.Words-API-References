@@ -14,7 +14,7 @@ Gets or sets the number of lines of the paragraph text used to calculate the dro
 public int LinesToDrop { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to set the size of a drop cap.
 

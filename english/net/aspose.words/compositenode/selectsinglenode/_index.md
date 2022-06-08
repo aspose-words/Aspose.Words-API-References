@@ -22,11 +22,11 @@ public Node SelectSingleNode(string xpath)
 
 The first Node that matches the XPath query or null if no matching node is found.
 
-## Remarks
+### Remarks
 
 Only expressions with element names are supported at the moment. Expressions that use attribute names are not supported.
 
-## Examples
+### Examples
 
 Shows how to select certain nodes by using an XPath expression.
 

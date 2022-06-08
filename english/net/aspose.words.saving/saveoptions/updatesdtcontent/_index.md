@@ -14,11 +14,11 @@ Gets or sets value determining whether content of [`StructuredDocumentTag`](../.
 public bool UpdateSdtContent { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 The default value is `true`.
 
-## Examples
+### Examples
 
 Shows how to update structured document tags while saving a document to PDF.
 

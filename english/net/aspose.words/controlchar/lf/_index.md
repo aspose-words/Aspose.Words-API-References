@@ -14,7 +14,7 @@ Line feed character: "\x000a" or "\n". Same as [`LineFeed`](../linefeed).
 public static readonly string Lf;
 ```
 
-## Examples
+### Examples
 
 Shows how to add various control characters to a document.
 

@@ -14,7 +14,7 @@ Bar code image height (in twips - 1/1440 inches)
 public string SymbolHeight { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to use a barcode generator.
 

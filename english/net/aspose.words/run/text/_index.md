@@ -14,7 +14,7 @@ Gets or sets the text of the run.
 public string Text { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to construct an Aspose.Words document by hand.
 

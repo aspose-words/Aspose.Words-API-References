@@ -22,11 +22,11 @@ public TabStop After(double position)
 
 A tab stop object or null if a suitable tab stop was not found.
 
-## Remarks
+### Remarks
 
 Skips tab stops with **Alignment** set to `TabAlignment.Bar`.
 
-## Examples
+### Examples
 
 Shows how to work with a document's collection of tab stops.
 

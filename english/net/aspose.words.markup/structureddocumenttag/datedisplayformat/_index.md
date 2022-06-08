@@ -14,13 +14,13 @@ String that represents the format in which dates are displayed. Can not be null.
 public string DateDisplayFormat { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 Accessing this property will only work for Date SDT type.
 
 For all other SDT types exception will occur.
 
-## Examples
+### Examples
 
 Shows how to prompt the user to enter a date with a structured document tag.
 

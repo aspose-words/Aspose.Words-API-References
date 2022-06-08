@@ -14,7 +14,7 @@ End of column character: (char)14.
 public const char ColumnBreakChar;
 ```
 
-## Examples
+### Examples
 
 Shows how to add various control characters to a document.
 

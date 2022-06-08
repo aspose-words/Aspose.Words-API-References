@@ -14,7 +14,7 @@ Specifies the friendly name associated with this structured document tag. Can no
 public string Title { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to get the properties of multi-section structured document tags.
 

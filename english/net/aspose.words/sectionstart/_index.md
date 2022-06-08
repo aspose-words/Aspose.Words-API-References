@@ -24,7 +24,7 @@ public enum SectionStart
 | EvenPage | `3` | The section starts on a new even page. |
 | OddPage | `4` | The section starts on a new odd page. |
 
-## Examples
+### Examples
 
 Shows how to construct an Aspose.Words document by hand.
 

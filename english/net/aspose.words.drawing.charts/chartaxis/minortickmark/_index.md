@@ -14,7 +14,7 @@ Returns or sets the minor tick marks for the axis.
 public AxisTickMark MinorTickMark { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to insert a chart and modify the appearance of its axes.
 

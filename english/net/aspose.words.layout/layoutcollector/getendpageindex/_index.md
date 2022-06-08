@@ -14,7 +14,7 @@ Gets 1-based index of the page where node ends. Returns 0 if node cannot be mapp
 public int GetEndPageIndex(Node node)
 ```
 
-## Examples
+### Examples
 
 Shows how to see the the ranges of pages that a node spans.
 

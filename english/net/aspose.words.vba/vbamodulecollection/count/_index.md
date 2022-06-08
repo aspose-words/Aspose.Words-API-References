@@ -14,7 +14,7 @@ Returns the number of VBA modules in the collection.
 public int Count { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to access a document's VBA project information.
 

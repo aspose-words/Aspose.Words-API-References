@@ -14,7 +14,7 @@ Gets or sets the name of the AutoText entry.
 public string EntryName { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to display a building block with AUTOTEXT and GLOSSARY fields.
 

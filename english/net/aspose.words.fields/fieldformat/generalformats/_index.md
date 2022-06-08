@@ -14,7 +14,7 @@ Gets a collection of general formats that are applied to a numeric, text or any 
 public GeneralFormatCollection GeneralFormats { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to format field results.
 

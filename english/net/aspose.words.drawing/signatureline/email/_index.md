@@ -14,7 +14,7 @@ Gets or sets suggested signer's e-mail address. Default value for this property 
 public string Email { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to create a line for a signature and insert it into a document.
 

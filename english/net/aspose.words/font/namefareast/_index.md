@@ -14,7 +14,7 @@ Returns or sets an East Asian font name.
 public string NameFarEast { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to insert and format text in a Far East language.
 

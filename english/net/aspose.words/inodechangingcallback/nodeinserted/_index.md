@@ -14,7 +14,7 @@ Called when a node belonging to this document has been inserted into another nod
 public void NodeInserted(NodeChangingArgs args)
 ```
 
-## Examples
+### Examples
 
 Shows how customize node changing with a callback.
 

@@ -6,7 +6,7 @@ type: docs
 weight: 110
 url: /net/aspose.words.fields/field/getfieldcode/
 ---
-## Field.GetFieldCode method (1 of 2)
+## GetFieldCode() {#getfieldcode}
 
 Returns text between field start and field separator (or field end if there is no separator). Both field code and field result of child fields are included.
 
@@ -14,7 +14,7 @@ Returns text between field start and field separator (or field end if there is n
 public string GetFieldCode()
 ```
 
-## Examples
+### Examples
 
 Shows how to insert a field into a document using a field code.
 
@@ -58,7 +58,7 @@ Assert.AreEqual(fieldIf.GetFieldCode(), fieldIf.GetFieldCode(true));
 
 ---
 
-## Field.GetFieldCode method (2 of 2)
+## GetFieldCode(bool) {#getfieldcode_1}
 
 Returns text between field start and field separator (or field end if there is no separator).
 
@@ -70,7 +70,7 @@ public string GetFieldCode(bool includeChildFieldCodes)
 | --- | --- | --- |
 | includeChildFieldCodes | Boolean | `True` if child field codes should be included. |
 
-## Examples
+### Examples
 
 Shows how to get a field's field code.
 

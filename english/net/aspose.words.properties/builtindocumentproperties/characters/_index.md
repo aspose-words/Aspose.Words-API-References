@@ -14,11 +14,11 @@ Represents an estimate of the number of characters in the document.
 public int Characters { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 Aspose.Words updates this property when you call [`UpdateWordCount`](../../../aspose.words/document/updatewordcount).
 
-## Examples
+### Examples
 
 Shows how to update all list labels in a document.
 

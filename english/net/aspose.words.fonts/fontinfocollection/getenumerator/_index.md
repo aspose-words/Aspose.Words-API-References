@@ -14,7 +14,7 @@ Returns an enumerator object that can be used to iterate over all items in the c
 public IEnumerator<FontInfo> GetEnumerator()
 ```
 
-## Examples
+### Examples
 
 Shows how to access and print details of each font in a document.
 

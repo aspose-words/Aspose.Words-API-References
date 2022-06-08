@@ -22,13 +22,13 @@ public override bool Accept(DocumentVisitor visitor)
 
 False if the visitor requested the enumeration to stop.
 
-## Remarks
+### Remarks
 
 Calls [`VisitCommentRangeEnd`](../../documentvisitor/visitcommentrangeend).
 
 For more info see the Visitor design pattern.
 
-## Examples
+### Examples
 
 Shows how print the contents of all comments and their comment ranges using a document visitor.
 

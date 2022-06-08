@@ -14,7 +14,7 @@ Returns an enumerator object that can be used to iterate over all items in the c
 public IEnumerator<CustomPart> GetEnumerator()
 ```
 
-## Examples
+### Examples
 
 Shows how to access a document's arbitrary custom parts collection.
 

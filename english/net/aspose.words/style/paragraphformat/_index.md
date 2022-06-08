@@ -14,11 +14,11 @@ Gets the paragraph formatting of the style.
 public ParagraphFormat ParagraphFormat { get; }
 ```
 
-## Remarks
+### Remarks
 
 For character and list styles this property returns null.
 
-## Examples
+### Examples
 
 Shows how to create and use a paragraph style with list formatting.
 

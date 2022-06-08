@@ -14,7 +14,7 @@ Gets or sets `TextWrapping` for table.
 public TextWrapping TextWrapping { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to work with table text wrapping.
 

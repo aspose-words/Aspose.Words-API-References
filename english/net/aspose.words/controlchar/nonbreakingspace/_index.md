@@ -14,7 +14,7 @@ Non-breaking space character: "\x00a0".
 public static readonly string NonBreakingSpace;
 ```
 
-## Examples
+### Examples
 
 Shows how to add various control characters to a document.
 

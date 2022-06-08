@@ -18,8 +18,8 @@ public class FolderFontSource : FontSourceBase
 
 | Name | Description |
 | --- | --- |
-| [FolderFontSource](folderfontsource)(string, bool) | Ctor. |
-| [FolderFontSource](folderfontsource)(string, bool, int) | Ctor. |
+| [FolderFontSource](folderfontsource#constructor)(string, bool) | Ctor. |
+| [FolderFontSource](folderfontsource#constructor_1)(string, bool, int) | Ctor. |
 
 ## Properties
 
@@ -37,7 +37,7 @@ public class FolderFontSource : FontSourceBase
 | --- | --- |
 | [GetAvailableFonts](../../aspose.words.fonts/fontsourcebase/getavailablefonts)() | Returns list of fonts available via this source. |
 
-## Examples
+### Examples
 
 Shows how to use a local system folder which contains fonts as a font source.
 

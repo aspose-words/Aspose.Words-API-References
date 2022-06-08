@@ -33,13 +33,13 @@ public class LayoutOptions
 | [ShowParagraphMarks](../../aspose.words.layout/layoutoptions/showparagraphmarks) { get; set; } | Gets or sets indication of whether paragraph marks are rendered. Default is False. |
 | [TextShaperFactory](../../aspose.words.layout/layoutoptions/textshaperfactory) { get; set; } | Gets or sets [`ITextShaperFactory`](../../aspose.words.shaping/itextshaperfactory) implementation used for Advanced Typography rendering features. |
 
-## Remarks
+### Remarks
 
 You do not create instances of this class directly. Use the [`LayoutOptions`](../../aspose.words/document/layoutoptions) property to access layout options for this document.
 
 Note that after changing any of the options present in this class, [`UpdatePageLayout`](../../aspose.words/document/updatepagelayout) method should be called in order for the changed options to be applied to the layout.
 
-## Examples
+### Examples
 
 Shows how to hide text in a rendered output document.
 

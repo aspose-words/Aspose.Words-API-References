@@ -14,13 +14,13 @@ Clears the headers and footers of this section.
 public void ClearHeadersFooters()
 ```
 
-## Remarks
+### Remarks
 
 The text of all headers and footers is cleared, but [`HeaderFooter`](../../headerfooter) objects themselves are not removed.
 
 This makes headers and footers of this section linked to headers and footers of the previous section.
 
-## Examples
+### Examples
 
 Shows how to clear the contents of all headers and footers in a section.
 

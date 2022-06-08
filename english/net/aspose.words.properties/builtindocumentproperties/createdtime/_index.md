@@ -14,13 +14,13 @@ Gets or sets date of the document creation in UTC.
 public DateTime CreatedTime { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 For documents originated from RTF format this property returns local time of the author's machine at the moment of document creation.
 
 Aspose.Words does not update this property.
 
-## Examples
+### Examples
 
 Shows how to work with document properties in the "Origin" category.
 

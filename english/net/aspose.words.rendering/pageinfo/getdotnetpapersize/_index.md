@@ -22,7 +22,7 @@ public PaperSize GetDotNetPaperSize(PaperSizeCollection paperSizes)
 
 An object that you can use in the .NET printing framework to specify the paper size.
 
-## Examples
+### Examples
 
 Shows how to customize the printing of Aspose.Words documents.
 

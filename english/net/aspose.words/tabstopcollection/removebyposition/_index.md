@@ -18,7 +18,7 @@ public void RemoveByPosition(double position)
 | --- | --- | --- |
 | position | Double | The position (in points) of the tab stop to remove. |
 
-## Examples
+### Examples
 
 Shows how to modify the position of the right tab stop in TOC related paragraphs.
 

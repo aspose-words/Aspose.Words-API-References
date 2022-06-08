@@ -14,7 +14,7 @@ Gets or sets a value determining whether hyperlinks in the output Pdf document a
 public bool OpenHyperlinksInNewWindow { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 The default value is `false`. When this value is set to `true` hyperlinks are saved using JavaScript code. JavaScript code is `app.launchURL("URL", true);`, where `URL` is a hyperlink.
 
@@ -22,7 +22,7 @@ Note that if this option is set to `true` hyperlinks can't work in some PDF read
 
 JavaScript actions are prohibited by PDF/A-1 and PDF/A-2 compliance. `false` will be used automatically when saving to PDF/A-1 and PDF/A-2.
 
-## Examples
+### Examples
 
 Shows how to save hyperlinks in a document we convert to PDF so that they open new pages when we click on them.
 

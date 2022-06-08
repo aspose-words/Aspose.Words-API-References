@@ -14,7 +14,7 @@ Initializes a new instance of this class with default values.
 public RtfLoadOptions()
 ```
 
-## Examples
+### Examples
 
 Shows how to detect UTF-8 characters while loading an RTF document.
 

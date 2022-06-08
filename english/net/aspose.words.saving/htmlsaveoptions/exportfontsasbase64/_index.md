@@ -14,11 +14,11 @@ Specifies whether fonts resources should be embedded to HTML in Base64 encoding.
 public bool ExportFontsAsBase64 { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 By default, fonts are written to separate files. If this option is set to `true`, fonts will be embedded into the document's CSS in Base64 encoding.
 
-## Examples
+### Examples
 
 Shows how to embed fonts inside a saved HTML document.
 

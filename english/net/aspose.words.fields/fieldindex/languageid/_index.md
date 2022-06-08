@@ -14,7 +14,7 @@ Gets or sets the language ID used to generate the index.
 public string LanguageId { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to populate an INDEX field with entries using XE fields, and also modify its appearance.
 

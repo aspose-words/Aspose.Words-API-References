@@ -14,11 +14,11 @@ Gets the actual size of the shape in points.
 public SizeF SizeInPoints { get; }
 ```
 
-## Remarks
+### Remarks
 
 This property returns the size of the actual (as rendered on the page) bounding box of the shape. The size takes into account shape rotation (if any).
 
-## Examples
+### Examples
 
 Shows how to measure and scale shapes.
 

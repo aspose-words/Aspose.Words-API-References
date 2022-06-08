@@ -14,7 +14,7 @@ Flag indicates whether fonts from target machine must be used to display the doc
 public bool UseTargetMachineFonts { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how use fonts only from the target machine when saving a document to HTML.
 

@@ -14,7 +14,7 @@ Provides access to the formatting properties of the row.
 public RowFormat RowFormat { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to modify formatting of a table row.
 

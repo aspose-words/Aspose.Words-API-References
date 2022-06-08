@@ -20,7 +20,7 @@ public interface IImageSavingCallback
 | --- | --- |
 | [ImageSaving](../../aspose.words.saving/iimagesavingcallback/imagesaving)(ImageSavingArgs) | Called when Aspose.Words saves an image to HTML. |
 
-## Examples
+### Examples
 
 Shows how to rename the image name during saving into Markdown document.
 

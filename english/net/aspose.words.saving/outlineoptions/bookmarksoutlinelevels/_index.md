@@ -14,11 +14,11 @@ Allows to specify individual bookmarks outline level.
 public BookmarksOutlineLevelCollection BookmarksOutlineLevels { get; }
 ```
 
-## Remarks
+### Remarks
 
 If bookmark level is not specified in this collection then [`DefaultBookmarksOutlineLevel`](../defaultbookmarksoutlinelevel) value is used.
 
-## Examples
+### Examples
 
 Shows how to set outline levels for bookmarks.
 

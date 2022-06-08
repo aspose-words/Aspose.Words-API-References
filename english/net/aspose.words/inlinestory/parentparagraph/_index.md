@@ -14,7 +14,7 @@ Retrieves the parent [`Paragraph`](../../paragraph) of this node.
 public Paragraph ParentParagraph { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to insert InlineStory nodes.
 

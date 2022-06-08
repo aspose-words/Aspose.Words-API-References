@@ -18,7 +18,7 @@ public HeaderFooter[] ToArray()
 
 An array of `HeaderFoorter`s.
 
-## Examples
+### Examples
 
 Shows how to print the node structure of every header and footer in a document.
 

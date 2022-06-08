@@ -14,13 +14,13 @@ Allows to use temporary files when reading document. By default this property is
 public string TempFolder { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 The folder must exist and be writable, otherwise an exception will be thrown.
 
 Aspose.Words automatically deletes all temporary files when reading is complete.
 
-## Examples
+### Examples
 
 Shows how to load a document using temporary files.
 

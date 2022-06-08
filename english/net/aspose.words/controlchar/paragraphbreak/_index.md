@@ -14,7 +14,7 @@ End of paragraph character: "\x000d" or "\r". Same as [`Cr`](../cr)
 public static readonly string ParagraphBreak;
 ```
 
-## Examples
+### Examples
 
 Shows how to add various control characters to a document.
 

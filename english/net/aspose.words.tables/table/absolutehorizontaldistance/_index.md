@@ -14,7 +14,7 @@ Gets or sets absolute horizontal floating table position specified by the table 
 public double AbsoluteHorizontalDistance { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how set the location of floating tables.
 

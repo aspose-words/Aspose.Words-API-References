@@ -14,7 +14,7 @@ Returns a value indicating whether the name of an abstract numbering definition 
 public bool HasListName { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to number paragraphs with LISTNUM fields.
 

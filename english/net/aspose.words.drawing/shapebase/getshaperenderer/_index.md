@@ -18,11 +18,11 @@ public ShapeRenderer GetShapeRenderer()
 
 The renderer object for this shape.
 
-## Remarks
+### Remarks
 
 This method just invokes the [`ShapeRenderer`](../../../aspose.words.rendering/shaperenderer) constructor and passes this object as a parameter.
 
-## Examples
+### Examples
 
 Shows how to use a shape renderer to export shapes to files in the local file system.
 

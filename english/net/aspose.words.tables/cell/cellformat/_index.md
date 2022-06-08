@@ -14,7 +14,7 @@ Provides access to the formatting properties of the cell.
 public CellFormat CellFormat { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to modify formatting of a table cell.
 

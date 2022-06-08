@@ -14,7 +14,7 @@ Allows to specify the stream where the document part will be saved to.
 public Stream DocumentPartStream { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 This property allows you to save document parts to streams instead of files during HTML export.
 
@@ -24,7 +24,7 @@ When saving to a stream in HTML format is requested by [`Save`](../../../aspose.
 
 When saving to EPUB format that is a container format based on HTML, `DocumentPartStream` cannot be specified because all subsidiary parts will be encapsulated into a single output package.
 
-## Examples
+### Examples
 
 Shows how to split a document into parts and save them.
 

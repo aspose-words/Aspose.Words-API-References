@@ -29,7 +29,7 @@ public class CleanupOptions
 | [UnusedLists](../../aspose.words/cleanupoptions/unusedlists) { get; set; } | Specifies whether unused list and list definitions should be removed from document. Default value is **true**. |
 | [UnusedStyles](../../aspose.words/cleanupoptions/unusedstyles) { get; set; } | Specifies whether unused styles should be removed from document. Default value is **true**. |
 
-## Examples
+### Examples
 
 Shows how to remove all unused custom styles from a document.
 

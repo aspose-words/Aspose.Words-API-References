@@ -14,7 +14,7 @@ Gets or sets the number of columns per page used when building the index.
 public string NumberOfColumns { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to populate an INDEX field with entries using XE fields, and also modify its appearance.
 

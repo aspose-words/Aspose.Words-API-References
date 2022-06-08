@@ -14,7 +14,7 @@ True if the font is formatted as hidden text.
 public bool Hidden { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to create a run of hidden text.
 

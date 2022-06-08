@@ -14,7 +14,7 @@ Gets or sets a boolean value that specifies that source formatting of headers/fo
 public bool IgnoreHeaderFooter { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to specifies ignoring or not source formatting of headers/footers content.
 

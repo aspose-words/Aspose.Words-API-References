@@ -14,13 +14,13 @@ Returns or sets the distance between major tick marks.
 public double MajorUnit { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 Valid range of a value is greater than zero. The property has effect for time category and value axes.
 
 Setting this property sets the [`MajorUnitIsAuto`](../majorunitisauto) property to **false**.
 
-## Examples
+### Examples
 
 Shows how to insert a chart and modify the appearance of its axes.
 

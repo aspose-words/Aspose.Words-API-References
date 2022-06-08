@@ -14,7 +14,7 @@ Clears all collected layout data. Call this method after document was manually u
 public void Clear()
 ```
 
-## Examples
+### Examples
 
 Shows how to see the the ranges of pages that a node spans.
 

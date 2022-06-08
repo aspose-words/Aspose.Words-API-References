@@ -14,7 +14,7 @@ Gets document.
 public Document Document { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to track layout changes with a layout callback.
 

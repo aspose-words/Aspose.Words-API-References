@@ -14,7 +14,7 @@ Gets the base object from which the vertical positioning of floating table shoul
 public RelativeVerticalPosition VerticalAnchor { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to work with floating tables properties.
 

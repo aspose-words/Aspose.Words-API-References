@@ -14,7 +14,7 @@ Specifies character formatting used for the list label.
 public Font Font { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to apply custom list formatting to paragraphs when using DocumentBuilder.
 

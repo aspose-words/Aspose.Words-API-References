@@ -14,7 +14,7 @@ Controls display of the background shape in print layout view.
 public bool DisplayBackgroundShape { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to hide/display document background images in view options.
 

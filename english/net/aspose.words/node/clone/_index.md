@@ -22,13 +22,13 @@ public Node Clone(bool isCloneChildren)
 
 The cloned node.
 
-## Remarks
+### Remarks
 
 This method serves as a copy constructor for nodes. The cloned node has no parent, but belongs to the same document as the original node.
 
 This method always performs a deep copy of the node. The isCloneChildren parameter specifies whether to perform copy all child nodes as well.
 
-## Examples
+### Examples
 
 Shows how to clone a composite node.
 

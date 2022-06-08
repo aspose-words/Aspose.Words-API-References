@@ -14,7 +14,7 @@ Gets the document object that is currently being saved.
 public Document Document { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to use a callback to track external resources created while converting a document to HTML.
 

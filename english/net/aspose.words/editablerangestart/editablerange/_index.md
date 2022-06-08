@@ -14,7 +14,7 @@ Gets the facade object that encapsulates this editable range start and end.
 public EditableRange EditableRange { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to work with an editable range.
 

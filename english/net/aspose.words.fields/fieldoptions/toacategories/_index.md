@@ -14,7 +14,7 @@ Gets or sets the table of authorities categories.
 public ToaCategories ToaCategories { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to specify a set of categories for TOA fields.
 

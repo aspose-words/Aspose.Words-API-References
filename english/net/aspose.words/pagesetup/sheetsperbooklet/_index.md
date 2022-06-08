@@ -14,7 +14,7 @@ Returns or sets the number of pages to be included in each booklet.
 public int SheetsPerBooklet { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to configure a document that can be printed as a book fold.
 

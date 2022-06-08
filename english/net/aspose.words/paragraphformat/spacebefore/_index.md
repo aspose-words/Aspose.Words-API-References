@@ -20,13 +20,13 @@ public double SpaceBefore { get; set; }
 | --- | --- |
 | ArgumentOutOfRangeException | Throws when argument was out of the range of valid values. |
 
-## Remarks
+### Remarks
 
 Has no effect when [`SpaceBeforeAuto`](../spacebeforeauto) is true.
 
 Valid values range from 0 to 1584 inclusive.
 
-## Examples
+### Examples
 
 Shows how to set automatic paragraph spacing.
 

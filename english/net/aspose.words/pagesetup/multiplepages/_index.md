@@ -14,7 +14,7 @@ For multiple page documents, gets or sets how a document is printed or rendered 
 public MultiplePagesType MultiplePages { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to configure a document that can be printed as a book fold.
 

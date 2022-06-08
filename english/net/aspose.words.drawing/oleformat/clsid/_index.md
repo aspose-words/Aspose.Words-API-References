@@ -14,7 +14,7 @@ Gets the CLSID of the OLE object.
 public Guid Clsid { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to access an OLE control embedded in a document and its child controls.
 

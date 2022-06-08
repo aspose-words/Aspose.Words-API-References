@@ -20,7 +20,7 @@ public CustomXmlProperty(string name, string uri, string value)
 | uri | String | The namespace URI of the property. Cannot be null. |
 | value | String | The value of the property. Cannot be null. |
 
-## Examples
+### Examples
 
 Shows how to create smart tags.
 

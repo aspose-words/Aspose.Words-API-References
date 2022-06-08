@@ -14,11 +14,11 @@ Specifies the number format for automatically numbered footnotes.
 public NumberStyle NumberStyle { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 Not all number styles are applicable for this property. For the list of applicable number styles see the Insert Footnote or Endnote dialog box in Microsoft Word. If you select a number style that is not applicable, Microsoft Word will revert to a default value.
 
-## Examples
+### Examples
 
 Shows how to change the number style of footnote/endnote reference marks.
 

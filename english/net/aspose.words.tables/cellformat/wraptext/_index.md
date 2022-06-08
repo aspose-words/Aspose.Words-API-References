@@ -14,7 +14,7 @@ If true, wrap text for the cell.
 public bool WrapText { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to build a table with custom borders.
 

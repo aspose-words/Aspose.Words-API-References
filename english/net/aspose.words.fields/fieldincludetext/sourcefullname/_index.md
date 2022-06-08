@@ -14,7 +14,7 @@ Gets or sets the location of the document using an IRI.
 public string SourceFullName { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to create an INCLUDETEXT field, and set its properties.
 

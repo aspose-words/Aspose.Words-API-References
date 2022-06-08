@@ -14,7 +14,7 @@ Specifies the version of the web extension.
 public string Version { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to add a web extension to a document.
 

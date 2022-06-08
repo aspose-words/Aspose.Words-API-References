@@ -20,7 +20,7 @@ public static int PixelToNewDpi(double pixels, double oldDpi, double newDpi)
 | oldDpi | Double | The current dpi (dots per inch) resolution. |
 | newDpi | Double | The new dpi (dots per inch) resolution. |
 
-## Examples
+### Examples
 
 Shows how to use convert points to pixels with default and custom resolution.
 

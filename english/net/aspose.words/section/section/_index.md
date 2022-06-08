@@ -18,13 +18,13 @@ public Section(DocumentBase doc)
 | --- | --- | --- |
 | doc | DocumentBase | The owner document. |
 
-## Remarks
+### Remarks
 
 When the section is created, it belongs to the specified document, but is not yet part of the document and **ParentNode** is null.
 
 To include Section into a document use Document.InsertAfter, Document.InsertBefore or Sections.Add and Section.Insert methods.
 
-## Examples
+### Examples
 
 Shows how to construct an Aspose.Words document by hand.
 

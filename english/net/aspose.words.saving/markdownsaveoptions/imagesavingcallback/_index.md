@@ -14,7 +14,7 @@ Allows to control how images are saved when a document is saved to Markdown form
 public IImageSavingCallback ImageSavingCallback { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to rename the image name during saving into Markdown document.
 

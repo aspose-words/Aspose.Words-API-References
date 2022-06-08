@@ -36,7 +36,7 @@ public class OdsoFieldMapDataCollection : IEnumerable<OdsoFieldMapData>
 | [GetEnumerator](../../aspose.words.settings/odsofieldmapdatacollection/getenumerator)() | Returns an enumerator object that can be used to iterate over all items in the collection. |
 | [RemoveAt](../../aspose.words.settings/odsofieldmapdatacollection/removeat)(int) | Removes the element at the specified index. |
 
-## Examples
+### Examples
 
 Shows how to access the collection of data that maps data source columns to merge fields.
 

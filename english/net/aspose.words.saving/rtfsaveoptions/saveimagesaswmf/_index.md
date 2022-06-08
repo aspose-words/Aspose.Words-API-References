@@ -14,11 +14,11 @@ When true all images will be saved as WMF.
 public bool SaveImagesAsWmf { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 This option might help to avoid WordPad warning messages.
 
-## Examples
+### Examples
 
 Shows how to convert all images in a document to the Windows Metafile format as we save the document as an RTF.
 

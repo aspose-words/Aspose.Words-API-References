@@ -20,7 +20,7 @@ public static LoadFormat SaveFormatToLoadFormat(SaveFormat saveFormat)
 | --- | --- |
 | ArgumentException | Throws when cannot convert. |
 
-## Examples
+### Examples
 
 Shows how to convert a save format to its corresponding load format.
 

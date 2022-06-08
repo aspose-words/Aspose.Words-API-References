@@ -14,7 +14,7 @@ Gets or sets the character sequence that is used to separate a table of authorit
 public string EntrySeparator { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to build and customize a table of authorities using TOA and TA fields.
 

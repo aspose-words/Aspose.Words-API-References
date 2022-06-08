@@ -14,7 +14,7 @@ Use Printer Metrics To Display Documents.
 public bool UsePrinterMetrics { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 Printer Metrics may differ depending on drivers used. For instance, Windows "Microsoft OpenXPS Class Driver 2" and "Microsoft Print to PDF" provide slightly different metrics. Therefore, the final document's layout may change if this option is enabled.
 

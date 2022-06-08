@@ -20,11 +20,11 @@ public string AttachedTemplate { get; set; }
 | --- | --- |
 | ArgumentNullException | Throws if you attempt to set to a null value. |
 
-## Remarks
+### Remarks
 
 Empty string means the document is attached to the Normal template.
 
-## Examples
+### Examples
 
 Shows how to set a default template for documents that do not have attached templates.
 

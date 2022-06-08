@@ -14,13 +14,13 @@ Gets or sets a flag indicating whether the shape is displayed inside a table or 
 public bool IsLayoutInCell { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 The default value is **true**.
 
 Has effect only for top level shapes, the property [`WrapType`](../wraptype) of which is set to value other than [`Inline`](../../../aspose.words/inline).
 
-## Examples
+### Examples
 
 Shows how to determine how to display a shape in a table cell.
 

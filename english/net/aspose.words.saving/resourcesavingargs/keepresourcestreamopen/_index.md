@@ -14,11 +14,11 @@ Specifies whether Aspose.Words should keep the stream open or close it after sav
 public bool KeepResourceStreamOpen { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 Default is `false` and Aspose.Words will close the stream you provided in the [`ResourceStream`](../resourcestream) property after writing a resource into it. Specify `true` to keep the stream open.
 
-## Examples
+### Examples
 
 Shows how to use a callback to print the URIs of external resources created while converting a document to HTML.
 

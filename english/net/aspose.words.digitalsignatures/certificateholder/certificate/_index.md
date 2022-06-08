@@ -18,7 +18,7 @@ public X509Certificate2 Certificate { get; }
 
 X509Certificate2 instance
 
-## Examples
+### Examples
 
 Shows how to validate and display information about each signature in a document.
 

@@ -14,7 +14,7 @@ Specifies color Light 1.
 public Color Light1 { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to set custom colors and fonts for themes.
 

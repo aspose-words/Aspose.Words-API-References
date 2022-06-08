@@ -14,7 +14,7 @@ Determines whether other chart elements shall be allowed to overlap title. By de
 public bool Overlay { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to insert a chart and set a title.
 

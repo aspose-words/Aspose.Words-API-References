@@ -22,7 +22,7 @@ public bool Contains(string name)
 
 True if the item is found in the collection; otherwise, false.
 
-## Examples
+### Examples
 
 Shows info about the fonts that are present in the blank document.
 

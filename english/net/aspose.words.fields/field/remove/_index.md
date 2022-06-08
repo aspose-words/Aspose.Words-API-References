@@ -14,7 +14,7 @@ Removes the field from the document. Returns a node right after the field. If th
 public Node Remove()
 ```
 
-## Examples
+### Examples
 
 Shows how to remove fields from a field collection.
 

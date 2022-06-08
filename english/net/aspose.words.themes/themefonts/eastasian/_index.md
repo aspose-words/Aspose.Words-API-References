@@ -14,7 +14,7 @@ Specifies font name for EastAsian characters.
 public string EastAsian { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to set custom colors and fonts for themes.
 

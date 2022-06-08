@@ -22,7 +22,7 @@ public enum DropCapPosition
 | Normal | `1` | The drop cap is positioned inside the text margin on the anchor paragraph. |
 | Margin | `2` | The drop cap is positioned outside the text margin on the anchor paragraph. |
 
-## Examples
+### Examples
 
 Shows how to create a drop cap.
 

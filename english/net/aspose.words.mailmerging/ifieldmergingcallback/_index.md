@@ -21,7 +21,7 @@ public interface IFieldMergingCallback
 | [FieldMerging](../../aspose.words.mailmerging/ifieldmergingcallback/fieldmerging)(FieldMergingArgs) | Called when the Aspose.Words mail merge engine is about to insert data into a merge field in the document. |
 | [ImageFieldMerging](../../aspose.words.mailmerging/ifieldmergingcallback/imagefieldmerging)(ImageFieldMergingArgs) | Called when the Aspose.Words mail merge engine is about to insert an image into a merge field. |
 
-## Examples
+### Examples
 
 Shows how to insert images stored in a database BLOB field into a report.
 

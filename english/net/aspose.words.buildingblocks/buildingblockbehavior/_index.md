@@ -23,11 +23,11 @@ public enum BuildingBlockBehavior
 | Page | `2` | Specifies that the building block shall be added into its own page. |
 | Default | `0` | Same as Content. |
 
-## Remarks
+### Remarks
 
 Corresponds to the **ST_DocPartBehavior** type in OOXML.
 
-## Examples
+### Examples
 
 Shows how to add a custom building block to a document.
 

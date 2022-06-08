@@ -6,7 +6,7 @@ type: docs
 weight: 20
 url: /net/aspose.words/license/setlicense/
 ---
-## License.SetLicense method (1 of 2)
+## SetLicense(string) {#setlicense_1}
 
 Licenses the component.
 
@@ -18,7 +18,7 @@ public void SetLicense(string licenseName)
 | --- | --- | --- |
 | licenseName | String | Can be a full or short file name or name of an embedded resource. Use an empty string to switch to evaluation mode. |
 
-## Remarks
+### Remarks
 
 Tries to find the license in the following locations:
 
@@ -38,7 +38,7 @@ Tries to find the license in the following locations:
 
 2. An embedded resource in the client's calling assembly.
 
-## Examples
+### Examples
 
 Shows how initialize a license for Aspose.Words using a license file in the local file system.
 
@@ -67,7 +67,7 @@ license.SetLicense("Aspose.Words.NET.lic");
 
 ---
 
-## License.SetLicense method (2 of 2)
+## SetLicense(Stream) {#setlicense}
 
 Licenses the component.
 
@@ -79,11 +79,11 @@ public void SetLicense(Stream stream)
 | --- | --- | --- |
 | stream | Stream | A stream that contains the license. |
 
-## Remarks
+### Remarks
 
 Use this method to load a license from a stream.
 
-## Examples
+### Examples
 
 Shows how to initialize a license for Aspose.Words from a stream.
 

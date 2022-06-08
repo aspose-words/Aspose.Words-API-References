@@ -14,7 +14,7 @@ Initializes a new instance of this class.
 public ComHelper()
 ```
 
-## Examples
+### Examples
 
 Shows how to open documents using the ComHelper class.
 

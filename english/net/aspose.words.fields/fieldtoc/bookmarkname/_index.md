@@ -14,7 +14,7 @@ Gets or sets the name of the bookmark that marks the portion of the document use
 public string BookmarkName { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to insert a TOC, and populate it with entries based on heading styles.
 

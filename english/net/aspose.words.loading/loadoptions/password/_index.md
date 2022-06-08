@@ -14,11 +14,11 @@ Gets or sets the password for opening an encrypted document. Can be null or empt
 public string Password { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 You need to know the password to open an encrypted document. If the document is not encrypted, set this to null or empty string.
 
-## Examples
+### Examples
 
 Shows how to sign encrypted document file.
 

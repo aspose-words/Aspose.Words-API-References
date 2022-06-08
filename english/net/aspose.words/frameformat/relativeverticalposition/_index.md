@@ -14,7 +14,7 @@ Gets the relative vertical position of a frame.
 public RelativeVerticalPosition RelativeVerticalPosition { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to get information about formatting properties of paragraphs that are frames.
 

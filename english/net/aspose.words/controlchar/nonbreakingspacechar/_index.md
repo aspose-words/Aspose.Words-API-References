@@ -14,7 +14,7 @@ Non-breaking space character: (char)160.
 public const char NonBreakingSpaceChar;
 ```
 
-## Examples
+### Examples
 
 Shows how to add various control characters to a document.
 

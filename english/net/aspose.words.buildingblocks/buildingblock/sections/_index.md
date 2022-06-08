@@ -14,7 +14,7 @@ Returns a collection that represents all sections in the building block.
 public SectionCollection Sections { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to add a custom building block to a document.
 

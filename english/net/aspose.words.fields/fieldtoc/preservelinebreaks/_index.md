@@ -14,7 +14,7 @@ Gets or sets whether to preserve newline characters within table entries.
 public bool PreserveLineBreaks { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to insert a TOC, and populate it with entries based on heading styles.
 

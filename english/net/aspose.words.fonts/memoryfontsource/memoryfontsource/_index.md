@@ -6,7 +6,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.fonts/memoryfontsource/memoryfontsource/
 ---
-## MemoryFontSource constructor (1 of 3)
+## MemoryFontSource(byte[]) {#constructor}
 
 Ctor.
 
@@ -18,7 +18,7 @@ public MemoryFontSource(byte[] fontData)
 | --- | --- | --- |
 | fontData | Byte[] | Binary font data. |
 
-## Examples
+### Examples
 
 Shows how to use a byte array with data from a font file as a font source.
 
@@ -42,7 +42,7 @@ Assert.AreEqual(0, memoryFontSource.Priority);
 
 ---
 
-## MemoryFontSource constructor (2 of 3)
+## MemoryFontSource(byte[], int) {#constructor_1}
 
 Ctor.
 
@@ -55,7 +55,7 @@ public MemoryFontSource(byte[] fontData, int priority)
 | fontData | Byte[] | Binary font data. |
 | priority | Int32 | Font source priority. See the [`Priority`](../../fontsourcebase/priority) property description for more information. |
 
-## Examples
+### Examples
 
 Shows how to use a byte array with data from a font file as a font source.
 
@@ -79,7 +79,7 @@ Assert.AreEqual(0, memoryFontSource.Priority);
 
 ---
 
-## MemoryFontSource constructor (3 of 3)
+## MemoryFontSource(byte[], int, string) {#constructor_2}
 
 Ctor.
 
@@ -93,7 +93,7 @@ public MemoryFontSource(byte[] fontData, int priority, string cacheKey)
 | priority | Int32 | Font source priority. See the [`Priority`](../../fontsourcebase/priority) property description for more information. |
 | cacheKey | String | The key of this source in the cache. See [`CacheKey`](../cachekey) property description for more information. |
 
-## Examples
+### Examples
 
 Shows how to speed up the font cache initialization process.
 

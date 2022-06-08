@@ -14,7 +14,7 @@ Gets the first paragraph in the shape.
 public Paragraph FirstParagraph { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to create and format a text box.
 

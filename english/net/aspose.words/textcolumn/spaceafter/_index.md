@@ -14,7 +14,7 @@ Gets or sets the space between this column and the next column in points. Not re
 public double SpaceAfter { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to create unevenly spaced columns.
 

@@ -14,11 +14,11 @@ Gets the node immediately preceding this node.
 public Node PreviousSibling { get; }
 ```
 
-## Remarks
+### Remarks
 
 If there is no preceding node, a null is returned.
 
-## Examples
+### Examples
 
 Shows how to use of methods of Node and CompositeNode to remove a section before the last section in the document.
 

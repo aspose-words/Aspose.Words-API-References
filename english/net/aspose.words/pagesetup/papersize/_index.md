@@ -14,11 +14,11 @@ Returns or sets the paper size.
 public PaperSize PaperSize { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 Setting this property updates [`PageWidth`](../pagewidth) and [`PageHeight`](../pageheight) values. Setting this value to Custom does not change existing values.
 
-## Examples
+### Examples
 
 Shows how to adjust paper size, orientation, margins, along with other settings for a section.
 

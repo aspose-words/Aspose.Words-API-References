@@ -14,7 +14,7 @@ Specifies the identifier of the comment to which this region is linked to.
 public int Id { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how print the contents of all comments and their comment ranges using a document visitor.
 

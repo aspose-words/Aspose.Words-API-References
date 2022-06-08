@@ -14,7 +14,7 @@ Gets or sets a connection to the data.
 public string Connection { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to extract data from a database and insert it as a field into a document.
 

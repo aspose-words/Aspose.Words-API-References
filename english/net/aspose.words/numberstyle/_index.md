@@ -81,7 +81,7 @@ public enum NumberStyle
 | None | `255` | No bullet or number. |
 | Custom | `65280` | Custom number format. It is supported by DOCX format only. |
 
-## Examples
+### Examples
 
 Shows how to apply custom list formatting to paragraphs when using DocumentBuilder.
 

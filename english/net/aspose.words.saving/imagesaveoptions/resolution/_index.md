@@ -14,11 +14,11 @@ Sets both horizontal and vertical resolution for the generated images, in dots p
 public float Resolution { set; }
 ```
 
-## Remarks
+### Remarks
 
 This property has effect only when saving to raster image formats.
 
-## Examples
+### Examples
 
 Shows how to specify a resolution while rendering a document to PNG.
 

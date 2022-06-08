@@ -18,8 +18,8 @@ public class MergeFieldImageDimension
 
 | Name | Description |
 | --- | --- |
-| [MergeFieldImageDimension](mergefieldimagedimension)(double) | Creates an image dimension instance with the given value in points. |
-| [MergeFieldImageDimension](mergefieldimagedimension)(double, MergeFieldImageDimensionUnit) | Creates an image dimension instance with the given value and the given unit. |
+| [MergeFieldImageDimension](mergefieldimagedimension#constructor)(double) | Creates an image dimension instance with the given value in points. |
+| [MergeFieldImageDimension](mergefieldimagedimension#constructor_1)(double, MergeFieldImageDimensionUnit) | Creates an image dimension instance with the given value and the given unit. |
 
 ## Properties
 
@@ -28,11 +28,11 @@ public class MergeFieldImageDimension
 | [Unit](../../aspose.words.fields/mergefieldimagedimension/unit) { get; set; } | The unit. |
 | [Value](../../aspose.words.fields/mergefieldimagedimension/value) { get; set; } | The value. |
 
-## Remarks
+### Remarks
 
 To indicate that the image should be inserted with its original dimension during a mail merge, you should assign a negative value to the [`Value`](./value) property.
 
-## Examples
+### Examples
 
 Shows how to set the dimensions of images as MERGEFIELDS accepts them during a mail merge.
 

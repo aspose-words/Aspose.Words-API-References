@@ -14,7 +14,7 @@ Returns a collection of mail merge field names used by the field.
 public string[] GetFieldNames()
 ```
 
-## Examples
+### Examples
 
 Shows how to get mail merge field names used by a field.
 

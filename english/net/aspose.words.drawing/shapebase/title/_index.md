@@ -14,13 +14,13 @@ Gets or sets the title (caption) of the current shape object.
 public string Title { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 Default is empty string.
 
 Cannot be null, but can be an empty string.
 
-## Examples
+### Examples
 
 Shows how to set the title of a shape.
 

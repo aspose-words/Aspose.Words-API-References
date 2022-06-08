@@ -14,7 +14,7 @@ Specifies whether to compare differences in fields. By default fields are not ig
 public bool IgnoreFields { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to filter specific types of document elements when making a comparison.
 

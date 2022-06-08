@@ -21,7 +21,7 @@ public enum EndnotePosition
 | EndOfSection | `0` | Endnotes are output at the end of the section. |
 | EndOfDocument | `3` | Endnotes are output at the end of the document. |
 
-## Examples
+### Examples
 
 Shows how to select a different place where the document collects and displays its endnotes.
 

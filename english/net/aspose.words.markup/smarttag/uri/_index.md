@@ -14,13 +14,13 @@ Specifies the namespace URI of the smart tag.
 public string Uri { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 Cannot be null.
 
 Default is empty string.
 
-## Examples
+### Examples
 
 Shows how to create smart tags.
 

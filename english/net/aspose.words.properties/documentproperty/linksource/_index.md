@@ -14,7 +14,7 @@ Gets the source of a linked custom document property.
 public string LinkSource { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to link a custom document property to a bookmark.
 

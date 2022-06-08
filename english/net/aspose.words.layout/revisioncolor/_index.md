@@ -40,7 +40,7 @@ public enum RevisionColor
 | NoHighlight | `19` | No color is used to highlight revision changes. |
 | ByAuthor | `20` | Revisions of each author receive their own color for highlighting from a predfined set of hi-contrast colors. |
 
-## Examples
+### Examples
 
 Shows how to alter the appearance of revisions in a rendered output document.
 

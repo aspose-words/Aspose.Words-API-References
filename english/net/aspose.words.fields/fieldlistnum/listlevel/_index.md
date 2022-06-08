@@ -14,7 +14,7 @@ Gets or sets the level in the list, overriding the default behavior of the field
 public string ListLevel { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to number paragraphs with LISTNUM fields.
 

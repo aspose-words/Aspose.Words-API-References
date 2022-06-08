@@ -14,7 +14,7 @@ Whether to add Start/Stop characters for barcode types NW7 and CODE39.
 public bool AddStartStopChar { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to use a barcode generator.
 

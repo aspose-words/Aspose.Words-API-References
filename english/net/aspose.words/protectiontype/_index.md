@@ -24,7 +24,7 @@ public enum ProtectionType
 | ReadOnly | `3` | No changes are allowed to the document. Available since Microsoft Word 2003. |
 | NoProtection | `-1` | The document is not protected. |
 
-## Examples
+### Examples
 
 Shows how to turn off protection for a section.
 

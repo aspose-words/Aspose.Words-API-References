@@ -14,13 +14,13 @@ Gets or sets a flag indicating whether automatic interval of drawing tick labels
 public bool TickLabelSpacingIsAuto { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 Default value is **true**.
 
 The property has effect for text category and series axes. It is not supported by MS Office 2016 new charts.
 
-## Examples
+### Examples
 
 Shows how to insert a chart and modify the appearance of its axes.
 

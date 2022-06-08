@@ -22,7 +22,7 @@ public int IndexOfKey(string name)
 
 The zero based index. Negative value if not found.
 
-## Examples
+### Examples
 
 Shows how to set outline levels for bookmarks.
 

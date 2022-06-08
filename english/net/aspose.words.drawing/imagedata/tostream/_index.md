@@ -14,7 +14,7 @@ Creates and returns a stream that contains the image bytes.
 public Stream ToStream()
 ```
 
-## Remarks
+### Remarks
 
 If the image bytes are stored in the shape, creates and returns a MemoryStream object.
 
@@ -24,7 +24,7 @@ If the image is linked and stored in an external URL, downloads the file and ret
 
 Is it the responsibility of the caller to dispose the stream object.
 
-## Examples
+### Examples
 
 Shows how to create an image file from a shape's raw image data.
 

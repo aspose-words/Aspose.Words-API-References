@@ -18,7 +18,7 @@ public FieldBuilder(FieldType fieldType)
 | --- | --- | --- |
 | fieldType | FieldType | The type of the field to build. |
 
-## Examples
+### Examples
 
 Shows how to create and insert a field using a field builder.
 

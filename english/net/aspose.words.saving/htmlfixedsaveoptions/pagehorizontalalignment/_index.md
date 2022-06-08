@@ -14,7 +14,7 @@ Specifies the horizontal alignment of pages in an HTML document. Default value i
 public HtmlFixedPageHorizontalAlignment PageHorizontalAlignment { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to set the horizontal alignment of pages when saving a document to HTML.
 

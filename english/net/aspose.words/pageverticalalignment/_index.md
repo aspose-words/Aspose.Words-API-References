@@ -23,7 +23,7 @@ public enum PageVerticalAlignment
 | Justify | `2` | Text is spread to fill the page. |
 | Top | `0` | Text is aligned at the top of the page. |
 
-## Examples
+### Examples
 
 Shows how to apply and revert page setup settings to sections in a document.
 

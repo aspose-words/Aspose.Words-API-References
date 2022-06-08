@@ -14,7 +14,7 @@ Gets the detected encoding if applicable to the current document format. At the 
 public Encoding Encoding { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to detect encoding in an html file.
 

@@ -14,7 +14,7 @@ Gets or sets the text of the entry.
 public string Text { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to create an INDEX field, and then use XE fields to populate it with entries.
 

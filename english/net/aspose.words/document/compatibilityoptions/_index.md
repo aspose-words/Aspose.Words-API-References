@@ -14,7 +14,7 @@ Provides access to document compatibility options (that is, the user preferences
 public CompatibilityOptions CompatibilityOptions { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to optimize the document for different versions of Microsoft Word.
 

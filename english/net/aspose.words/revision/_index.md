@@ -32,7 +32,7 @@ public class Revision
 | [Accept](../../aspose.words/revision/accept)() | Accepts this revision. |
 | [Reject](../../aspose.words/revision/reject)() | Reject this revision. |
 
-## Examples
+### Examples
 
 Shows how to work with revisions in a document.
 

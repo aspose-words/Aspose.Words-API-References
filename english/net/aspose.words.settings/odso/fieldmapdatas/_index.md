@@ -14,7 +14,7 @@ Gets or sets a collection of objects that specify how columns from the external 
 public OdsoFieldMapDataCollection FieldMapDatas { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to access the collection of data that maps data source columns to merge fields.
 

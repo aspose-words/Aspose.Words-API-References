@@ -18,7 +18,7 @@ public LayoutCollector(Document doc)
 | --- | --- | --- |
 | doc | Document | The document to which this collector instance will be attached to. |
 
-## Examples
+### Examples
 
 Shows how to see the the ranges of pages that a node spans.
 

@@ -14,7 +14,7 @@ Gets or sets a boolean value that specifies how the numbering will be imported w
 public bool KeepSourceNumbering { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how resolve a clash when importing documents that have lists with the same list definition identifier.
 

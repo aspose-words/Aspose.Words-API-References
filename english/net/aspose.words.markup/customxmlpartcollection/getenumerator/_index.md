@@ -14,7 +14,7 @@ Returns an enumerator object that can be used to iterate over all items in the c
 public IEnumerator<CustomXmlPart> GetEnumerator()
 ```
 
-## Examples
+### Examples
 
 Shows how to create a structured document tag with custom XML data.
 

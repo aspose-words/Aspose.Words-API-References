@@ -14,7 +14,7 @@ Allows to specify the color to be used for content with changes of formatting pr
 public RevisionColor RevisedPropertiesColor { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to modify the appearance of revisions.
 

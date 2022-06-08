@@ -22,7 +22,7 @@ public enum TxtExportHeadersFootersMode
 | PrimaryOnly | `1` | Only primary headers and footers are exported at the beginning and end of each section. |
 | AllAtEnd | `2` | All headers and footers are placed after all section bodies at the very end of a document. |
 
-## Examples
+### Examples
 
 Shows how to specify how to export headers and footers to plain text format.
 

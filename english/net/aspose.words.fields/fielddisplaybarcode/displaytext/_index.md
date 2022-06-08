@@ -14,7 +14,7 @@ Gets or sets whether to display barcode data (text) along with image.
 public bool DisplayText { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to insert a DISPLAYBARCODE field, and set its properties.
 

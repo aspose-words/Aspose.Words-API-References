@@ -14,11 +14,11 @@ Returns the property value as double.
 public double ToDouble()
 ```
 
-## Remarks
+### Remarks
 
 Throws an exception if the property type is not Number.
 
-## Examples
+### Examples
 
 Shows various type conversion methods of custom document properties.
 

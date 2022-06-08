@@ -14,7 +14,7 @@ Specifies the physical folder where resources (images) are saved when exporting 
 public string ResourcesFolder { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 Has effect only if [`ExportEmbeddedImages`](../exportembeddedimages) property is false.
 
@@ -24,7 +24,7 @@ If you save a document into a file and provide a file name, Aspose.Words, by def
 
 If you save a document into a stream, Aspose.Words does not have a folder where to save the images, but still needs to save the images somewhere. In this case, you need to specify an accessible folder in the `ResourcesFolder` property
 
-## Examples
+### Examples
 
 Shows how to manipulate and print the URIs of linked resources created while converting a document to .svg.
 

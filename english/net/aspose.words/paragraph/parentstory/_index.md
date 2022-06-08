@@ -14,7 +14,7 @@ Retrieves the parent section-level story that can be [`Body`](../../body) or [`H
 public Story ParentStory { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to create a header and a footer.
 

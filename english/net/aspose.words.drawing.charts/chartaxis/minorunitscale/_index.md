@@ -14,11 +14,11 @@ Returns or sets the scale value for minor tick marks on the time category axis.
 public AxisTimeUnit MinorUnitScale { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 The property has effect only for time category axes.
 
-## Examples
+### Examples
 
 Shows how to manipulate the tick marks and displayed values of a chart axis.
 

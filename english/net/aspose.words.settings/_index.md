@@ -12,30 +12,30 @@ The **Aspose.Words.Settings** namespace contains classes and enums that are used
 
 | Class | Description |
 | --- | --- |
-| class [CompatibilityOptions](./compatibilityoptions) | Contains compatibility options (that is, the user preferences entered on the **Compatibility** tab of the **Options** dialog in Microsoft Word). |
-| class [HyphenationOptions](./hyphenationoptions) | Allows to configure document hyphenation options. |
-| class [MailMergeSettings](./mailmergesettings) | Specifies all of the mail merge information for a document. |
-| class [Odso](./odso) | Specifies the Office Data Source Object (ODSO) settings for a mail merge data source. |
-| class [OdsoFieldMapData](./odsofieldmapdata) | Specifies how a column in the external data source shall be mapped to the predefined merge fields within the document. |
-| class [OdsoFieldMapDataCollection](./odsofieldmapdatacollection) | A typed collection of the [`OdsoFieldMapData`](../aspose.words.settings/odsofieldmapdata) objects. |
-| class [OdsoRecipientData](./odsorecipientdata) | Represents information about a single record within an external data source that is to be excluded from the mail merge. |
-| class [OdsoRecipientDataCollection](./odsorecipientdatacollection) | A typed collection of [`OdsoRecipientData`](../aspose.words.settings/odsorecipientdata) |
-| class [ViewOptions](./viewoptions) | Provides various options that control how a document is shown in Microsoft Word. |
-| class [WriteProtection](./writeprotection) | Specifies write protection settings for a document. |
+| [CompatibilityOptions](./compatibilityoptions) | Contains compatibility options (that is, the user preferences entered on the **Compatibility** tab of the **Options** dialog in Microsoft Word). |
+| [HyphenationOptions](./hyphenationoptions) | Allows to configure document hyphenation options. |
+| [MailMergeSettings](./mailmergesettings) | Specifies all of the mail merge information for a document. |
+| [Odso](./odso) | Specifies the Office Data Source Object (ODSO) settings for a mail merge data source. |
+| [OdsoFieldMapData](./odsofieldmapdata) | Specifies how a column in the external data source shall be mapped to the predefined merge fields within the document. |
+| [OdsoFieldMapDataCollection](./odsofieldmapdatacollection) | A typed collection of the [`OdsoFieldMapData`](../aspose.words.settings/odsofieldmapdata) objects. |
+| [OdsoRecipientData](./odsorecipientdata) | Represents information about a single record within an external data source that is to be excluded from the mail merge. |
+| [OdsoRecipientDataCollection](./odsorecipientdatacollection) | A typed collection of [`OdsoRecipientData`](../aspose.words.settings/odsorecipientdata) |
+| [ViewOptions](./viewoptions) | Provides various options that control how a document is shown in Microsoft Word. |
+| [WriteProtection](./writeprotection) | Specifies write protection settings for a document. |
 ## Enumeration
 
 | Enumeration | Description |
 | --- | --- |
-| enum [Compatibility](./compatibility) | Specifies names of compatibility options. |
-| enum [MailMergeCheckErrors](./mailmergecheckerrors) | Specifies how Microsoft Word will report errors detected during mail merge. |
-| enum [MailMergeDataType](./mailmergedatatype) | Specifies the type of an external mail merge data source. |
-| enum [MailMergeDestination](./mailmergedestination) | Specifies the possible results which may be generated when a mail merge is carried out on a document. |
-| enum [MailMergeMainDocumentType](./mailmergemaindocumenttype) | Specifies the possible types for a mail merge source document. |
-| enum [MsWordVersion](./mswordversion) | Allows Aspose.Wods to mimic MS Word version-specific application behavior. |
-| enum [MultiplePagesType](./multiplepagestype) | Specifies how document is printed out. |
-| enum [OdsoDataSourceType](./odsodatasourcetype) | Specifies the type of the external data source to be connected to as part of the ODSO connection information. |
-| enum [OdsoFieldMappingType](./odsofieldmappingtype) | Specifies the possible types used to indicate if a given mail merge field has been mapped to a column in the given external data source. |
-| enum [ViewType](./viewtype) | Possible values for the view mode in Microsoft Word. |
-| enum [ZoomType](./zoomtype) | Possible values for how large or small the document appears on the screen in Microsoft Word. |
+| [Compatibility](./compatibility) | Specifies names of compatibility options. |
+| [MailMergeCheckErrors](./mailmergecheckerrors) | Specifies how Microsoft Word will report errors detected during mail merge. |
+| [MailMergeDataType](./mailmergedatatype) | Specifies the type of an external mail merge data source. |
+| [MailMergeDestination](./mailmergedestination) | Specifies the possible results which may be generated when a mail merge is carried out on a document. |
+| [MailMergeMainDocumentType](./mailmergemaindocumenttype) | Specifies the possible types for a mail merge source document. |
+| [MsWordVersion](./mswordversion) | Allows Aspose.Wods to mimic MS Word version-specific application behavior. |
+| [MultiplePagesType](./multiplepagestype) | Specifies how document is printed out. |
+| [OdsoDataSourceType](./odsodatasourcetype) | Specifies the type of the external data source to be connected to as part of the ODSO connection information. |
+| [OdsoFieldMappingType](./odsofieldmappingtype) | Specifies the possible types used to indicate if a given mail merge field has been mapped to a column in the given external data source. |
+| [ViewType](./viewtype) | Possible values for the view mode in Microsoft Word. |
+| [ZoomType](./zoomtype) | Possible values for how large or small the document appears on the screen in Microsoft Word. |
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

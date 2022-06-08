@@ -14,7 +14,7 @@ Gets or sets the theme font used for Latin text (characters with character codes
 public ThemeFont ThemeFontAscii { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to work with theme fonts and colors.
 

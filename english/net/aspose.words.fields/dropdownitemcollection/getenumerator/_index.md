@@ -14,7 +14,7 @@ Returns an enumerator object that can be used to iterate over all items in the c
 public IEnumerator<string> GetEnumerator()
 ```
 
-## Examples
+### Examples
 
 Shows how to insert a combo box field, and edit the elements in its item collection.
 

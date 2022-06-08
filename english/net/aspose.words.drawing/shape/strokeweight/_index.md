@@ -14,13 +14,13 @@ Defines the brush thickness that strokes the path of a shape in points.
 public double StrokeWeight { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 This is a shortcut to the [`Weight`](../../stroke/weight) property.
 
 The default value is 0.75.
 
-## Examples
+### Examples
 
 Shows how to iterate over all the shapes in a document.
 

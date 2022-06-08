@@ -14,7 +14,7 @@ Gets or sets the name of the file to include when generating a table of contents
 public string FileName { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows to use the RD field to create a table of contents entries from headings in other documents.
 

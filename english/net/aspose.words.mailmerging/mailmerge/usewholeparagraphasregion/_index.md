@@ -14,11 +14,11 @@ Gets or sets a value indicating whether whole paragraph with TableStart or Table
 public bool UseWholeParagraphAsRegion { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 The default value is **true**.
 
-## Examples
+### Examples
 
 Shows the relationship between mail merge regions and paragraphs.
 

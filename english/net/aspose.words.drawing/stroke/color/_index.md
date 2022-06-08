@@ -14,11 +14,11 @@ Defines the color of a stroke.
 public Color Color { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 The default value for a [`Shape`](../../shape) is Black.
 
-## Examples
+### Examples
 
 Shows to create a variety of shapes.
 

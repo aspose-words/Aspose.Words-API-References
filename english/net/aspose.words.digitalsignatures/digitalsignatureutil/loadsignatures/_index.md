@@ -6,7 +6,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.digitalsignatures/digitalsignatureutil/loadsignatures/
 ---
-## DigitalSignatureUtil.LoadSignatures method (1 of 2)
+## LoadSignatures(string) {#loadsignatures_1}
 
 Loads digital signatures from document.
 
@@ -22,7 +22,7 @@ public static DigitalSignatureCollection LoadSignatures(string fileName)
 
 Collection of digital signatures. Returns empty collection if file is not signed.
 
-## Examples
+### Examples
 
 Shows how to load signatures from a digitally signed document.
 
@@ -75,7 +75,7 @@ Assert.That(DigitalSignatureUtil.LoadSignatures(ArtifactsDir + "DigitalSignature
 
 ---
 
-## DigitalSignatureUtil.LoadSignatures method (2 of 2)
+## LoadSignatures(Stream) {#loadsignatures}
 
 Loads digital signatures from document using stream.
 
@@ -91,7 +91,7 @@ public static DigitalSignatureCollection LoadSignatures(Stream stream)
 
 Collection of digital signatures. Returns empty collection if file is not signed.
 
-## Examples
+### Examples
 
 Shows how to load signatures from a digitally signed document.
 

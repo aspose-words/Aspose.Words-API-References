@@ -14,7 +14,7 @@ Returns **NodeType.SubDocument**
 public override NodeType NodeType { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to access a master document's subdocument.
 

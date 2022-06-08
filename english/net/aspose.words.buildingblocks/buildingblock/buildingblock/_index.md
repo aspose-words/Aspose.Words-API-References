@@ -18,13 +18,13 @@ public BuildingBlock(GlossaryDocument glossaryDoc)
 | --- | --- | --- |
 | glossaryDoc | GlossaryDocument | The owner document. |
 
-## Remarks
+### Remarks
 
 When [`BuildingBlock`](../../buildingblock) is created, it belongs to the specified glossary document, but is not yet part of the glossary document and [`ParentNode`](../../../aspose.words/node/parentnode) is `null`.
 
 To append [`BuildingBlock`](../../buildingblock) to a [`GlossaryDocument`](../../glossarydocument) use [`AppendChild`](../../../aspose.words/compositenode/appendchild).
 
-## Examples
+### Examples
 
 Shows how to add a custom building block to a document.
 

@@ -14,7 +14,7 @@ Returns the `Document` object for which the mail merge is performed.
 public Document Document { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to execute a mail merge with a custom callback that handles merge data in the form of HTML documents.
 

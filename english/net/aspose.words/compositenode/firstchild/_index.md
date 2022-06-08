@@ -14,11 +14,11 @@ Gets the first child of the node.
 public Node FirstChild { get; }
 ```
 
-## Remarks
+### Remarks
 
 If there is no first child node, a null is returned.
 
-## Examples
+### Examples
 
 Shows how to use a node's NextSibling property to enumerate through its immediate children.
 

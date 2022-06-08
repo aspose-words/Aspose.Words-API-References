@@ -18,7 +18,7 @@ public CustomXmlPart this[int index] { get; set; }
 | --- | --- |
 | index | Zero-based index of the item. |
 
-## Examples
+### Examples
 
 Shows how to create a structured document tag with custom XML data.
 

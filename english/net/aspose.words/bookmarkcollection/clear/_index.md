@@ -14,7 +14,7 @@ Removes all bookmarks from this collection and from the document.
 public void Clear()
 ```
 
-## Examples
+### Examples
 
 Shows how to remove bookmarks from a document.
 

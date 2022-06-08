@@ -14,11 +14,11 @@ Gets or sets the default font name.
 public string DefaultFontName { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 The default value is 'Times New Roman'.
 
-## Examples
+### Examples
 
 Shows how to set the default font substitution rule.
 

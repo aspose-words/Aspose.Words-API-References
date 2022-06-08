@@ -14,7 +14,7 @@ Gets the full name of the product.
 public static string Product { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to display information about your installed version of Aspose.Words.
 

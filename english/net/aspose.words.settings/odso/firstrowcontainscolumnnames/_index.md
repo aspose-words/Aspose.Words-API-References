@@ -14,11 +14,11 @@ Specifies that a hosting application shall treat the first row of data in the sp
 public bool FirstRowContainsColumnNames { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 RK I have never seen this in use.
 
-## Examples
+### Examples
 
 Shows how to execute a mail merge with data from an Office Data Source Object.
 

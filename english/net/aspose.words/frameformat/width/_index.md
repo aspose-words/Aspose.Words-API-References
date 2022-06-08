@@ -14,7 +14,7 @@ Gets the width of the specified frame, in points.
 public double Width { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to get information about formatting properties of paragraphs that are frames.
 

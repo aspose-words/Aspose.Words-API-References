@@ -14,7 +14,7 @@ Loads predefined table substitution settings for Windows platform.
 public void LoadWindowsSettings()
 ```
 
-## Examples
+### Examples
 
 Shows how to access font substitution tables for Windows and Linux.
 

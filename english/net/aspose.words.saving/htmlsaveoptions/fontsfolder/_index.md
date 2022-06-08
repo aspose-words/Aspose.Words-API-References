@@ -14,7 +14,7 @@ Specifies the physical folder where fonts are saved when exporting a document to
 public string FontsFolder { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 When you save a [`Document`](../../../aspose.words/document) in HTML format and [`ExportFontResources`](../exportfontresources) is set to `true`, Aspose.Words needs to save fonts used in the document as standalone files. `FontsFolder` allows you to specify where the fonts will be saved and [`FontsFolderAlias`](../fontsfolderalias) allows to specify how the font URIs will be constructed.
 
@@ -26,7 +26,7 @@ If the folder specified by `FontsFolder` doesn't exist, it will be created autom
 
 [`ResourceFolder`](../resourcefolder) is another way to specify a folder where fonts should be saved.
 
-## Examples
+### Examples
 
 Shows how to set folders and folder aliases for externally saved resources that Aspose.Words will create when saving a document to HTML.
 

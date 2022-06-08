@@ -22,13 +22,13 @@ public override bool Accept(DocumentVisitor visitor)
 
 False if the visitor requested the enumeration to stop.
 
-## Remarks
+### Remarks
 
 Calls DocumentVisitor.VisitRun.
 
 For more info see the Visitor design pattern.
 
-## Examples
+### Examples
 
 Shows how to print the node structure of every header and footer in a document.
 

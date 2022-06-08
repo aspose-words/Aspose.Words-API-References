@@ -18,7 +18,7 @@ public Comment this[int index] { get; }
 | --- | --- |
 | index | An index into the collection. |
 
-## Remarks
+### Remarks
 
 The index is zero-based.
 
@@ -28,7 +28,7 @@ If index is greater than or equal to the number of items in the list, this retur
 
 If index is negative and its absolute value is greater than the number of items in the list, this returns a null reference.
 
-## Examples
+### Examples
 
 Shows how to remove comment replies.
 

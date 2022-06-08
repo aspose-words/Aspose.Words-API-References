@@ -14,7 +14,7 @@ Specifies the margins around pages in an HTML document. The margins value is mea
 public double PageMargins { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 Depends on the value of [`PageHorizontalAlignment`](../pagehorizontalalignment) property:
 
@@ -22,7 +22,7 @@ Depends on the value of [`PageHorizontalAlignment`](../pagehorizontalalignment) 
 * Defines top, bottom and right page margins if the value is Right.
 * Defines top and bottom page margins if the value is Center.
 
-## Examples
+### Examples
 
 Shows how to adjust page margins when saving a document to HTML.
 

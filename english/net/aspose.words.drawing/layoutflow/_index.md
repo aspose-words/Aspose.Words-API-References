@@ -25,7 +25,7 @@ public enum LayoutFlow
 | HorizontalIdeographic | `4` | Ideographic text is displayed horizontally. |
 | Vertical | `5` | Text is displayed vertically. |
 
-## Examples
+### Examples
 
 Shows how to add text to a text box, and change its orientation
 

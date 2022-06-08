@@ -14,7 +14,7 @@ Gets or sets the text to be inserted before the field if the field is not blank.
 public string TextBefore { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to use MERGEFIELD fields to perform a mail merge.
 

@@ -14,7 +14,7 @@ Gets or sets default user response (initial value contained in the prompt window
 public string DefaultResponse { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to use the FILLIN field to prompt the user for a response.
 

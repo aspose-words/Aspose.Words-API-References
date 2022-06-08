@@ -22,7 +22,7 @@ public enum WatermarkType
 | Image | `1` | Indicates that the image will be used as a watermark. |
 | None | `2` | Indicates watermark is no set. |
 
-## Examples
+### Examples
 
 Shows how to create a text watermark.
 

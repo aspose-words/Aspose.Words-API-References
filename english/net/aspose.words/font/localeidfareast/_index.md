@@ -14,11 +14,11 @@ Gets or sets the locale identifier (language) of the formatted Asian characters.
 public int LocaleIdFarEast { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 For the list of locale identifiers see https://msdn.microsoft.com/en-us/library/cc233965.aspx
 
-## Examples
+### Examples
 
 Shows how to insert and format text in a Far East language.
 

@@ -22,7 +22,7 @@ public bool ContainsValue(string dataSourceFieldName)
 
 True if item is found in the collection; otherwise, false.
 
-## Examples
+### Examples
 
 Shows how to map data columns and MERGEFIELDs with different names so the data is transferred between them during a mail merge.
 

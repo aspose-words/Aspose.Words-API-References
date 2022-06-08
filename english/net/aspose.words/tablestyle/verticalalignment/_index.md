@@ -14,11 +14,11 @@ Specifies the vertical alignment for the cells.
 public CellVerticalAlignment VerticalAlignment { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 The default value is Top.
 
-## Examples
+### Examples
 
 Shows how to create custom style settings for the table.
 

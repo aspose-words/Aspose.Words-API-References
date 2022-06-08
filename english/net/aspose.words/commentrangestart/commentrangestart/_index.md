@@ -19,13 +19,13 @@ public CommentRangeStart(DocumentBase doc, int id)
 | doc | DocumentBase | The owner document. |
 | id | Int32 | The comment identifier to which this object is linked. |
 
-## Remarks
+### Remarks
 
 When [`CommentRangeStart`](../../commentrangestart) is created, it belongs to the specified document, but is not yet part of the document and [`ParentNode`](../../node/parentnode) is null.
 
 To append a [`CommentRangeStart`](../../commentrangestart) to the document use InsertAfter or InsertBefore on the paragraph where you want the comment inserted.
 
-## Examples
+### Examples
 
 Shows how print the contents of all comments and their comment ranges using a document visitor.
 

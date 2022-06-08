@@ -18,7 +18,7 @@ public IStructuredDocumentTag GetByTag(string tag)
 | --- | --- | --- |
 | tag | String | The tag of the structured document tag. |
 
-## Remarks
+### Remarks
 
 Returns null if the structured document tag with the specified tag cannot be found.
 

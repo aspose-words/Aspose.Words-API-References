@@ -14,7 +14,7 @@ Start of MS Word field character: (char)19.
 public const char FieldStartChar;
 ```
 
-## Examples
+### Examples
 
 Shows how to add various control characters to a document.
 

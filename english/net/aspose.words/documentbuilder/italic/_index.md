@@ -14,7 +14,7 @@ True if the font is formatted as italic.
 public bool Italic { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to fill MERGEFIELDs with data with a document builder instead of a mail merge.
 

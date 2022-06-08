@@ -29,7 +29,7 @@ public class UserInformation
 | [Initials](../../aspose.words.fields/userinformation/initials) { get; set; } | Gets or sets the user's initials. |
 | [Name](../../aspose.words.fields/userinformation/name) { get; set; } | Gets or sets the user's name. |
 
-## Examples
+### Examples
 
 Shows how to set user details, and display them using fields.
 

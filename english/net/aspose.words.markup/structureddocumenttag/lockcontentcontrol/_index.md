@@ -14,7 +14,7 @@ When set to true, this property will prohibit a user from deleting this **SDT**.
 public bool LockContentControl { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to apply editing restrictions to structured document tags.
 

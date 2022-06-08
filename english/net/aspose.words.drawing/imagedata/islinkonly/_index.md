@@ -14,7 +14,7 @@ Returns true if the image is linked and not stored in the document.
 public bool IsLinkOnly { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to edit a shape's image data.
 

@@ -14,13 +14,13 @@ Allows to set/get the language format for the date displayed in this **SDT**.
 public int DateDisplayLocale { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 Accessing this property will only work for Date SDT type.
 
 For all other SDT types exception will occur.
 
-## Examples
+### Examples
 
 Shows how to prompt the user to enter a date with a structured document tag.
 

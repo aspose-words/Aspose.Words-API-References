@@ -18,7 +18,7 @@ public override DocumentProperty this[string name] { get; }
 | --- | --- |
 | name | The case-insensitive name of the property to retrieve. |
 
-## Remarks
+### Remarks
 
 The string names of the properties correspond to the names of the typed properties available from [`BuiltInDocumentProperties`](../../builtindocumentproperties).
 
@@ -26,7 +26,7 @@ If you request a property that is not present in the document, but the name of t
 
 If you request a property that is not present in the document and the name is not recognized as a built-in name, a null is returned.
 
-## Examples
+### Examples
 
 Shows how to work with custom document properties.
 

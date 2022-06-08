@@ -14,11 +14,11 @@ Specifies whether to generate thumbnail from first page of the document or first
 public bool GenerateFromFirstPage { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 Default is `true`, which means thumbnail will be generated from first page of the document. If value is `false` and there is no image in the document, thumbnail will be generated from first page of the document.
 
-## Examples
+### Examples
 
 Shows how to update a document's thumbnail.
 

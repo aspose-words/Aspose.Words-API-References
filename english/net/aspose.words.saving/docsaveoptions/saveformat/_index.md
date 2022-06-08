@@ -14,7 +14,7 @@ Specifies the format in which the document will be saved if this save options ob
 public override SaveFormat SaveFormat { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to set save options for older Microsoft Word formats.
 

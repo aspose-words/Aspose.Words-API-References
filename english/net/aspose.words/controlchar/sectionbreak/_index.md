@@ -14,7 +14,7 @@ End of section character: "\x000c" or "\f". Note it has the same value as [`Page
 public static readonly string SectionBreak;
 ```
 
-## Examples
+### Examples
 
 Shows how to add various control characters to a document.
 

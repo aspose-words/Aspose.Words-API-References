@@ -27,7 +27,7 @@ public enum MailMergeMainDocumentType
 | Fax | `32` | Specifies that the mail merge source document is of the fax type. |
 | Default | `0` | Equals to NotAMergeDocument |
 
-## Examples
+### Examples
 
 Shows how to execute a mail merge with data from an Office Data Source Object.
 

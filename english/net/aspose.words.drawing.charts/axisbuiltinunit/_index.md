@@ -31,7 +31,7 @@ public enum AxisBuiltInUnit
 | Trillions | `10` | Specifies the values on the chart shall be divided by 1,000,000,000,0000. |
 | Percentage | `11` | Specifies the values on the chart shall be divided by 0.01. This value is supported only by the new chart types of MS Office 2016. |
 
-## Examples
+### Examples
 
 Shows how to manipulate the tick marks and displayed values of a chart axis.
 

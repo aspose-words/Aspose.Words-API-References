@@ -14,7 +14,7 @@ Specifies the column within the data source that contains e-mail addresses. The 
 public string AddressFieldName { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to execute a mail merge while connecting to an external data source.
 

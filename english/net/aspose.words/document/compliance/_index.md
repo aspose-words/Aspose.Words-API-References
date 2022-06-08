@@ -14,11 +14,11 @@ Gets the OOXML compliance version determined from the loaded document content. M
 public OoxmlCompliance Compliance { get; }
 ```
 
-## Remarks
+### Remarks
 
 If you created a new blank document or load non OOXML document returns the Ecma376_2006 value.
 
-## Examples
+### Examples
 
 Shows how to read a loaded document's Open Office XML compliance version.
 

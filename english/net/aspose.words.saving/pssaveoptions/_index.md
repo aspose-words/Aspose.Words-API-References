@@ -60,7 +60,7 @@ public class PsSaveOptions : FixedPageSaveOptions
 | --- | --- |
 | override [Equals](../../aspose.words.saving/fixedpagesaveoptions/equals)(object) | Determines whether the specified object is equal in value to the current object. |
 
-## Examples
+### Examples
 
 Shows how to save a document to the Postscript format in the form of a book fold.
 

@@ -14,7 +14,7 @@ Returns the name of region.
 public string Name { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to verify mail merge regions.
 

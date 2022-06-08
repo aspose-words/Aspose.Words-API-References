@@ -22,13 +22,13 @@ public BookmarkEnd EndBookmark(string bookmarkName)
 
 The bookmark end node that was just created.
 
-## Remarks
+### Remarks
 
 Bookmarks in a document can overlap and span any range. To create a valid bookmark you need to call both [`StartBookmark`](../startbookmark) and `EndBookmark` with the same **bookmarkName** parameter.
 
 Badly formed bookmarks or bookmarks with duplicate names will be ignored when the document is saved.
 
-## Examples
+### Examples
 
 Shows how create a bookmark.
 

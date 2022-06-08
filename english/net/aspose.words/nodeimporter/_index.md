@@ -18,8 +18,8 @@ public class NodeImporter
 
 | Name | Description |
 | --- | --- |
-| [NodeImporter](nodeimporter)(DocumentBase, DocumentBase, ImportFormatMode) | Initializes a new instance of the [`NodeImporter`](../nodeimporter) class. |
-| [NodeImporter](nodeimporter)(DocumentBase, DocumentBase, ImportFormatMode, ImportFormatOptions) | Initializes a new instance of the [`NodeImporter`](../nodeimporter) class. |
+| [NodeImporter](nodeimporter#constructor)(DocumentBase, DocumentBase, ImportFormatMode) | Initializes a new instance of the [`NodeImporter`](../nodeimporter) class. |
+| [NodeImporter](nodeimporter#constructor_1)(DocumentBase, DocumentBase, ImportFormatMode, ImportFormatOptions) | Initializes a new instance of the [`NodeImporter`](../nodeimporter) class. |
 
 ## Methods
 
@@ -27,7 +27,7 @@ public class NodeImporter
 | --- | --- |
 | [ImportNode](../../aspose.words/nodeimporter/importnode)(Node, bool) | Imports a node from one document into another. |
 
-## Remarks
+### Remarks
 
 Aspose.Words provides functionality for easy copying and moving fragments between Microsoft Word documents. This is known as "importing nodes". Before you can insert a fragment from one document into another, you need to "import" it. Importing creates a deep clone of the original node, ready to be inserted into the destination document.
 
@@ -41,7 +41,7 @@ The challenges arise from the fact that styles and lists are different in differ
 
 The [`NodeImporter`](../nodeimporter) class is like a context, that holds the "translation tables" during the import. It correctly translates between styles and lists in the source and destination documents.
 
-## Examples
+### Examples
 
 Shows how to insert the contents of one document to a bookmark in another document.
 

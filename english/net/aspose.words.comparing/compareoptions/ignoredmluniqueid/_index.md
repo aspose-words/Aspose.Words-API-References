@@ -14,7 +14,7 @@ Specifies whether to ignore difference in DrawingML unique Id. Default value is 
 public bool IgnoreDmlUniqueId { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to compare documents ignoring DML unique ID.
 

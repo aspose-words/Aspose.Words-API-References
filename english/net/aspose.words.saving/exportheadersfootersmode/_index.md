@@ -23,7 +23,7 @@ public enum ExportHeadersFootersMode
 | FirstSectionHeaderLastSectionFooter | `2` | Primary header of the first section is exported at the beginning of the document and primary footer is at the end. |
 | FirstPageHeaderFooterPerSection | `3` | First page header and footer are exported at the beginning and the end of each section. |
 
-## Examples
+### Examples
 
 Shows how to omit headers/footers when saving a document to HTML.
 

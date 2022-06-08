@@ -14,7 +14,7 @@ Determines when automatic numbering restarts.
 public FootnoteNumberingRule RestartRule { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to restart footnote/endnote numbering at certain places in the document.
 

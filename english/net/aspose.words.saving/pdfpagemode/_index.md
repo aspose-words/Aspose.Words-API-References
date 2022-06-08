@@ -25,7 +25,7 @@ public enum PdfPageMode
 | UseOC | `4` | Optional content group panel is visible. |
 | UseAttachments | `5` | Attachments panel is visible. |
 
-## Examples
+### Examples
 
 Shows how to set instructions for some PDF readers to follow when opening an output document.
 

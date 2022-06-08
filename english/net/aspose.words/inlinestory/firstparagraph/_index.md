@@ -14,7 +14,7 @@ Gets the first paragraph in the story.
 public Paragraph FirstParagraph { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to add a comment to a paragraph.
 

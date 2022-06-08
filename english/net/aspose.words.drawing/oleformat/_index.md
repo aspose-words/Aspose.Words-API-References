@@ -38,14 +38,14 @@ public class OleFormat
 | --- | --- |
 | [GetOleEntry](../../aspose.words.drawing/oleformat/getoleentry)(string) | Gets OLE object data entry. |
 | [GetRawData](../../aspose.words.drawing/oleformat/getrawdata)() | Gets OLE object raw data. |
-| [Save](../../aspose.words.drawing/oleformat/save)(Stream) | Saves the data of the embedded object into the specified stream. |
-| [Save](../../aspose.words.drawing/oleformat/save)(string) | Saves the data of the embedded object into a file with the specified name. |
+| [Save](../../aspose.words.drawing/oleformat/save#save)(Stream) | Saves the data of the embedded object into the specified stream. |
+| [Save](../../aspose.words.drawing/oleformat/save#save_1)(string) | Saves the data of the embedded object into a file with the specified name. |
 
-## Remarks
+### Remarks
 
 Use the [`OleFormat`](../shape/oleformat) property to access the data of an OLE object. You do not create instances of the [`OleFormat`](../oleformat) class directly.
 
-## Examples
+### Examples
 
 Shows how to extract embedded OLE objects into files.
 

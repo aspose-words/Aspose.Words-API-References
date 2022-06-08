@@ -14,7 +14,7 @@ Gets or sets the name of the application.
 public string NameOfApplication { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to work with document properties in the "Origin" category.
 

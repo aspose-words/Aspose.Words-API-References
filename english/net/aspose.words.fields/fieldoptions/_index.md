@@ -38,7 +38,7 @@ public sealed class FieldOptions
 | [UseInvariantCultureNumberFormat](../../aspose.words.fields/fieldoptions/useinvariantculturenumberformat) { get; set; } | Gets or sets the value indicating that number format is parsed using invariant culture or not |
 | [UserPromptRespondent](../../aspose.words.fields/fieldoptions/userpromptrespondent) { get; set; } | Gets or sets the respondent to user prompts during field update. |
 
-## Examples
+### Examples
 
 Shows how to specify the source of the culture used for date formatting during a field update or mail merge.
 

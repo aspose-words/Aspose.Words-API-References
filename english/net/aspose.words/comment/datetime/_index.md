@@ -14,11 +14,11 @@ Gets the date and time that the comment was made.
 public DateTime DateTime { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 Default is MinValue.
 
-## Examples
+### Examples
 
 Shows how print the contents of all comments and their comment ranges using a document visitor.
 

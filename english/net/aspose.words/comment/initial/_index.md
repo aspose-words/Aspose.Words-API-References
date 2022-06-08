@@ -14,13 +14,13 @@ Returns or sets the initials of the user associated with a specific comment.
 public string Initial { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 Cannot be null.
 
 Default is empty string.
 
-## Examples
+### Examples
 
 Shows how print the contents of all comments and their comment ranges using a document visitor.
 

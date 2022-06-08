@@ -14,7 +14,7 @@ Gets or sets the application type of the link information.
 public string ProgId { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to use various field types to link to other documents in the local file system, and display their contents.
 

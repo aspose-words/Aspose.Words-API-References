@@ -14,7 +14,7 @@ Gets or sets the character sequence that is used to separate the start and end o
 public string PageRangeSeparator { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to specify a bookmark's spanned pages as a page range for an INDEX field entry.
 

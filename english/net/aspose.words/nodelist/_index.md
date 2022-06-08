@@ -28,7 +28,7 @@ public class NodeList : IEnumerable<Node>
 | [GetEnumerator](../../aspose.words/nodelist/getenumerator)() | Provides a simple "foreach" style iteration over the collection of nodes. |
 | [ToArray](../../aspose.words/nodelist/toarray)() | Copies all nodes from the collection to a new array of nodes. |
 
-## Remarks
+### Remarks
 
 **NodeList** is returned by [`SelectNodes`](../compositenode/selectnodes) and contains a collection of nodes matching the XPath query.
 
@@ -36,7 +36,7 @@ public class NodeList : IEnumerable<Node>
 
 Treat the **NodeList** collection as a "snapshot" collection. **NodeList** starts as a "live" collection because the nodes are not actually retrieved when the XPath query is run. The nodes are only retrieved upon access and at this time the node and all nodes that precede it are cached forming a "snapshot" collection.
 
-## Examples
+### Examples
 
 Shows how to find all hyperlinks in a Word document, and then change their URLs and display names.
 

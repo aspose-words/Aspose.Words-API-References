@@ -20,7 +20,7 @@ public interface IDocumentLoadingCallback
 | --- | --- |
 | [Notify](../../aspose.words.loading/idocumentloadingcallback/notify)(DocumentLoadingArgs) | This is called to notify of document loading progress. |
 
-## Examples
+### Examples
 
 Shows how to notify the user if document loading exceeded expected loading time.
 

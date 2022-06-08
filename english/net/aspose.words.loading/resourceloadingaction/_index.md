@@ -22,7 +22,7 @@ public enum ResourceLoadingAction
 | Skip | `1` | Aspose.Words will skip loading of this resource. Only link without data will be stored for an image, CSS style sheet will be ignored for HTML format. |
 | UserProvided | `2` | Aspose.Words will use byte array provided by user in [`SetData`](../resourceloadingargs/setdata) as resource data. |
 
-## Examples
+### Examples
 
 Shows how to customize the process of loading external resources into a document.
 

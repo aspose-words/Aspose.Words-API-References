@@ -14,7 +14,7 @@ Barcode postal address.
 public string PostalAddress { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to use a barcode generator.
 

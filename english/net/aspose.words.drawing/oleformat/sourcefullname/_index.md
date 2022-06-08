@@ -14,13 +14,13 @@ Gets or sets the path and name of the source file for the linked OLE object.
 public string SourceFullName { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 The default value is an empty string.
 
 If `SourceFullName` is not an empty string, the OLE object is linked.
 
-## Examples
+### Examples
 
 Shows how to insert linked and unlinked OLE objects.
 

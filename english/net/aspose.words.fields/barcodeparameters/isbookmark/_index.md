@@ -14,7 +14,7 @@ Whether [`PostalAddress`](../postaladdress) is the name of a bookmark.
 public bool IsBookmark { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to use a barcode generator.
 

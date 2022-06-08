@@ -14,7 +14,7 @@ Gets or sets a suffix that is appended to the citation.
 public string Suffix { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to work with CITATION and BIBLIOGRAPHY fields.
 

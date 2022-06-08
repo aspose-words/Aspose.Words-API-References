@@ -14,7 +14,7 @@ Gets the top border.
 public Border Top { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to apply border and shading color while building a table.
 

@@ -14,7 +14,7 @@ Gets or sets the language id used to format the name.
 public string LanguageId { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to insert a GREETINGLINE field.
 

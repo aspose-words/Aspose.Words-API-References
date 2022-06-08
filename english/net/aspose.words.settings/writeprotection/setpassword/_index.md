@@ -18,11 +18,11 @@ public void SetPassword(string password)
 | --- | --- | --- |
 | password | String | The password to set. Cannot be null, but can be an empty string. |
 
-## Remarks
+### Remarks
 
 If a password is set, Microsoft Word will require the user to enter it or open the document as read-only.
 
-## Examples
+### Examples
 
 Shows how to protect a document with a password.
 

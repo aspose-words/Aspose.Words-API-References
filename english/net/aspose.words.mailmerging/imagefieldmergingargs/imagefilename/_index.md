@@ -14,7 +14,7 @@ Sets the file name of the image that the mail merge engine must insert into the 
 public string ImageFileName { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to set the dimensions of images as MERGEFIELDS accepts them during a mail merge.
 

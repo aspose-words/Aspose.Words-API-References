@@ -14,7 +14,7 @@ Gets the list style that this list references or defines.
 public Style Style { get; }
 ```
 
-## Remarks
+### Remarks
 
 If this list is not associated with a list style, the property will return null.
 
@@ -22,7 +22,7 @@ A list could be a reference to a list style, in this case [`IsListStyleReference
 
 A list could be a definition of a list style, in this case [`IsListStyleDefinition`](../isliststyledefinition) will be true. Such a list cannot be applied to paragraphs in the document directly.
 
-## Examples
+### Examples
 
 Shows how to create a list style and use it in a document.
 

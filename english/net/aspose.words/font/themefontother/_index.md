@@ -14,7 +14,7 @@ Gets or sets the theme font used for characters with character codes from 128 th
 public ThemeFont ThemeFontOther { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to work with theme fonts and colors.
 

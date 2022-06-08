@@ -14,7 +14,7 @@ Gets or sets the font size at which kerning starts.
 public double Kerning { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to specify the font size at which kerning begins to take effect.
 

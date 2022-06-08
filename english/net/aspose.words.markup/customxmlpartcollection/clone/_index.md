@@ -14,7 +14,7 @@ Makes a deep copy of this collection and its items.
 public CustomXmlPartCollection Clone()
 ```
 
-## Examples
+### Examples
 
 Shows how to create a structured document tag with custom XML data.
 

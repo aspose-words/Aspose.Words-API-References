@@ -14,7 +14,7 @@ Specifies whether to display spelling errors in this document.
 public bool ShowSpellingErrors { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to show/hide errors in the document.
 

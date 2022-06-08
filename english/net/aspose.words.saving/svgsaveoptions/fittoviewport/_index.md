@@ -16,7 +16,7 @@ The default value is false.
 public bool FitToViewPort { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to mimic the properties of images when converting a .docx document to .svg.
 

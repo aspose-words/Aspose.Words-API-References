@@ -14,11 +14,11 @@ Gets the actual bounds of the shape in points.
 public RectangleF BoundsInPoints { get; }
 ```
 
-## Remarks
+### Remarks
 
 This property returns the actual (as rendered on the page) bounding box of the shape. The bounds takes into account shape rotation (if any).
 
-## Examples
+### Examples
 
 Shows how to measure and scale shapes.
 

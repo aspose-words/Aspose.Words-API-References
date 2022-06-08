@@ -20,7 +20,7 @@ public WebExtensionBinding(string id, WebExtensionBindingType bindingType, strin
 | bindingType | WebExtensionBindingType | Binding type. |
 | appRef | String | Binding key used to map the binding entry in this list with the bound data in the document. |
 
-## Examples
+### Examples
 
 Shows how to add a web extension to a document.
 

@@ -14,7 +14,7 @@ Settings related to font substitution mechanism.
 public FontSubstitutionSettings SubstitutionSettings { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to access a document's system font source and set font substitutes.
 

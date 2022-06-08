@@ -14,11 +14,11 @@ When `false`, PictureBullet data is not saved to output document. Default value 
 public bool SavePictureBullet { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 This option is provided for Word 97, which cannot work correctly with PictureBullet data. To remove PictureBullet data, set the option to "false".
 
-## Examples
+### Examples
 
 Shows how to omit PictureBullet data from the document when saving.
 

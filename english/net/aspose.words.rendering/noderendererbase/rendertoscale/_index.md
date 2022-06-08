@@ -25,7 +25,7 @@ public SizeF RenderToScale(Graphics graphics, float x, float y, float scale)
 
 The width and height (in world units) of the rendered shape.
 
-## Examples
+### Examples
 
 Shows how to render a shape with a Graphics object and display it using a Windows Form.
 

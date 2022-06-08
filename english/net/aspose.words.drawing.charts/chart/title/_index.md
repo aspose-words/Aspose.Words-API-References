@@ -14,7 +14,7 @@ Provides access to the chart title properties.
 public ChartTitle Title { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to insert a chart and set a title.
 

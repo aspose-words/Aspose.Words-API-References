@@ -27,11 +27,11 @@ public class BookmarkCollection : IEnumerable<Bookmark>
 | --- | --- |
 | [Clear](../../aspose.words/bookmarkcollection/clear)() | Removes all bookmarks from this collection and from the document. |
 | [GetEnumerator](../../aspose.words/bookmarkcollection/getenumerator)() | Returns an enumerator object. |
-| [Remove](../../aspose.words/bookmarkcollection/remove)(Bookmark) | Removes the specified bookmark from the document. |
-| [Remove](../../aspose.words/bookmarkcollection/remove)(string) | Removes a bookmark with the specified name. |
+| [Remove](../../aspose.words/bookmarkcollection/remove#remove)(Bookmark) | Removes the specified bookmark from the document. |
+| [Remove](../../aspose.words/bookmarkcollection/remove#remove_1)(string) | Removes a bookmark with the specified name. |
 | [RemoveAt](../../aspose.words/bookmarkcollection/removeat)(int) | Removes a bookmark at the specified index. |
 
-## Examples
+### Examples
 
 Shows how to add bookmarks and update their contents.
 

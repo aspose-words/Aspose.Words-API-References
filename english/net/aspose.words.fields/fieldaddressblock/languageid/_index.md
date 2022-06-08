@@ -14,7 +14,7 @@ Gets or sets the language ID used to format the address.
 public string LanguageId { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to insert an ADDRESSBLOCK field.
 

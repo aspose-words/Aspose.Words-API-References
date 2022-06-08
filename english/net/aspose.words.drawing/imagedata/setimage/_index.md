@@ -6,7 +6,7 @@ type: docs
 weight: 200
 url: /net/aspose.words.drawing/imagedata/setimage/
 ---
-## ImageData.SetImage method (1 of 3)
+## SetImage(Image) {#setimage}
 
 Sets the image that the shape displays.
 
@@ -18,7 +18,7 @@ public void SetImage(Image image)
 | --- | --- | --- |
 | image | Image | The image object. |
 
-## Examples
+### Examples
 
 Shows how to display images from the local file system in a document.
 
@@ -58,7 +58,7 @@ doc.Save(ArtifactsDir + "Drawing.ImportImage.docx");
 
 ---
 
-## ImageData.SetImage method (2 of 3)
+## SetImage(Stream) {#setimage_1}
 
 Sets the image that the shape displays.
 
@@ -70,7 +70,7 @@ public void SetImage(Stream stream)
 | --- | --- | --- |
 | stream | Stream | The stream that contains the image. |
 
-## Examples
+### Examples
 
 Shows how to display images from the local file system in a document.
 
@@ -110,7 +110,7 @@ doc.Save(ArtifactsDir + "Drawing.ImportImage.docx");
 
 ---
 
-## ImageData.SetImage method (3 of 3)
+## SetImage(string) {#setimage_2}
 
 Sets the image that the shape displays.
 
@@ -122,7 +122,7 @@ public void SetImage(string fileName)
 | --- | --- | --- |
 | fileName | String | The image file. Can be a file name or a URL. |
 
-## Examples
+### Examples
 
 Shows how to insert a linked image into a document.
 

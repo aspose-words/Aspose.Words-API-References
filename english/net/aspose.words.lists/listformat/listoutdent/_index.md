@@ -14,13 +14,13 @@ Decreases the list level of the current paragraph by one level.
 public void ListOutdent()
 ```
 
-## Remarks
+### Remarks
 
 This method changes the list level and applies formatting properties of the new level.
 
 In Word documents, lists may consist of up to nine levels. List formatting for each level specifies what bullet or number is used, left indent, space between the bullet and text etc.
 
-## Examples
+### Examples
 
 Shows how to create bulleted and numbered lists.
 

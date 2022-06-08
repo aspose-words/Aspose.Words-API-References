@@ -14,7 +14,7 @@ Specifies the contents of a given record in the column containing unique data. T
 public byte[] UniqueTag { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to access the collection of data that designates which merge data source records a mail merge will exclude.
 

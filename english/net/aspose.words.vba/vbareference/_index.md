@@ -21,7 +21,7 @@ public abstract class VbaReference
 | abstract [LibId](../../aspose.words.vba/vbareference/libid) { get; } | Gets a string value containing the identifier of an Automation type library. |
 | abstract [Type](../../aspose.words.vba/vbareference/type) { get; } | Gets [`VbaReferenceType`](../vbareferencetype) object that indicates the type of reference that a VbaReference object represents. |
 
-## Examples
+### Examples
 
 Shows how to get/remove an element from the VBA reference collection.
 

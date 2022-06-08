@@ -14,7 +14,7 @@ Gets or sets the width of the text column in points.
 public double Width { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to create unevenly spaced columns.
 

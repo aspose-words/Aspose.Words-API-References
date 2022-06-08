@@ -14,7 +14,7 @@ Gets the location and size of the containing block of the shape in points, relat
 public RectangleF BoundsInPoints { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to verify shape containing block boundaries.
 

@@ -14,7 +14,7 @@ Allows to control how resources (images) are saved when a document is exported t
 public IResourceSavingCallback ResourceSavingCallback { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to manipulate and print the URIs of linked resources created while converting a document to .svg.
 

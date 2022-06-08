@@ -14,7 +14,7 @@ Gets or sets a value indicating whether this entry is hidden in the chart legend
 public bool IsHidden { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 When a chart legend entry is hidden, it does not affect the corresponding chart series or trendline that is still displayed on the chart.
 

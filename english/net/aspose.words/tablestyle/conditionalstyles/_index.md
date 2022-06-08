@@ -14,7 +14,7 @@ Collection of conditional styles that may be defined for this table style.
 public ConditionalStyleCollection ConditionalStyles { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to work with certain area styles of a table.
 

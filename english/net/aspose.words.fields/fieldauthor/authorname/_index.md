@@ -14,7 +14,7 @@ Gets or sets the document author's name.
 public string AuthorName { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to use an AUTHOR field to display a document creator's name.
 

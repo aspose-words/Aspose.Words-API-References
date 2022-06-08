@@ -14,11 +14,11 @@ Returns the present calculated color of the text (black or white) to be used for
 public Color AutoColor { get; }
 ```
 
-## Remarks
+### Remarks
 
 When text has 'automatic color', the actual color of text is calculated automatically so that it is readable against the background color. As you change the background color, the text color will automatically switch to black or white in MS Word to maximize legibility.
 
-## Examples
+### Examples
 
 Shows how to improve readability by automatically selecting text color based on the brightness of its background.
 

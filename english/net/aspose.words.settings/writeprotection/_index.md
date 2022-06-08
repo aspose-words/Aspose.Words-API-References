@@ -28,7 +28,7 @@ public class WriteProtection
 | [SetPassword](../../aspose.words.settings/writeprotection/setpassword)(string) | Sets the write protection password for the document. |
 | [ValidatePassword](../../aspose.words.settings/writeprotection/validatepassword)(string) | Returns true if the specified password is the same as the write-protection password the document was protected with. If document is not write-protected with password then returns false. |
 
-## Remarks
+### Remarks
 
 Write protection specifies whether the author has recommended that the document is to be opened as read-only and/or require a password to modify a document.
 
@@ -36,7 +36,7 @@ Write protection is different from document protection. Write protection is spec
 
 You do not create instances of this class directly. You access document protection settings via the [`WriteProtection`](../../aspose.words/document/writeprotection) property.
 
-## Examples
+### Examples
 
 Shows how to protect a document with a password.
 

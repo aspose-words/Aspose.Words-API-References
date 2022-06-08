@@ -14,11 +14,11 @@ Removes all macros (the VBA project) as well as toolbars and command customizati
 public void RemoveMacros()
 ```
 
-## Remarks
+### Remarks
 
 By removing all macros from a document you can ensure the document contains no macro viruses.
 
-## Examples
+### Examples
 
 Shows how to remove all macros from a document.
 

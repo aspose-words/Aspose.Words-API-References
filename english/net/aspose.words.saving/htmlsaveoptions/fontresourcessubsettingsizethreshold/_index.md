@@ -14,7 +14,7 @@ Controls which font resources need subsetting when saving to HTML, MHTML or EPUB
 public int FontResourcesSubsettingSizeThreshold { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 [`ExportFontResources`](../exportfontresources) allows exporting fonts as subsidiary files or as parts of the output package. If the document uses many fonts, especially with large number of glyphs, then output size can grow significantly. Font subsetting reduces the size of the exported font resource by filtering out glyphs that are not used by the current document.
 
@@ -26,7 +26,7 @@ Font subsetting works as follows:
 
 **Important!** When exporting font resources, font licensing issues should be considered. Authors who want to use specific fonts via a downloadable font mechanism must always carefully verify that their intended use is within the scope of the font license. Many commercial fonts presently do not allow web downloading of their fonts in any form. License agreements that cover some fonts specifically note that usage via **@font-face** rules in CSS style sheets is not allowed. Font subsetting can also violate license terms.
 
-## Examples
+### Examples
 
 Shows how to work with font subsetting.
 

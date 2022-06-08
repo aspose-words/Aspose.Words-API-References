@@ -14,7 +14,7 @@ Provides access to the typed collection of pieces of text inside the paragraph.
 public RunCollection Runs { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to determine the revision type of an inline node.
 

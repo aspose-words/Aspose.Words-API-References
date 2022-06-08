@@ -14,7 +14,7 @@ Provides access to the scaling options of the axis.
 public AxisScaling Scaling { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to insert chart with date/time values.
 

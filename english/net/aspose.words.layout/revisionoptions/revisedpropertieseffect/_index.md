@@ -14,11 +14,11 @@ Allows to specify the effect for content areas with changes of formatting proper
 public RevisionTextEffect RevisedPropertiesEffect { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 Hidden is not allowed and will cause ArgumentOutOfRangeException.
 
-## Examples
+### Examples
 
 Shows how to modify the appearance of revisions.
 

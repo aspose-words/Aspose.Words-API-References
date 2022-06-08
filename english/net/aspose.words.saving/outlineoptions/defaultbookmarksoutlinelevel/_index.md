@@ -14,7 +14,7 @@ Specifies the default level in the document outline at which to display Word boo
 public int DefaultBookmarksOutlineLevel { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 Individual bookmarks level could be specified using [`BookmarksOutlineLevels`](../bookmarksoutlinelevels) property.
 
@@ -22,7 +22,7 @@ Specify 0 and Word bookmarks will not be displayed in the document outline. Spec
 
 Default is 0. Valid range is 0 to 9.
 
-## Examples
+### Examples
 
 Shows to process bookmarks in headers/footers in a document that we are rendering to PDF.
 

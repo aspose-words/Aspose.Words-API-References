@@ -14,13 +14,13 @@ Gets or sets the interval, at which tick labels are drawn.
 public int TickLabelSpacing { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 The property has effect for text category and series axes. It is not supported by MS Office 2016 new charts. Valid range of a value is greater than or equal to 1.
 
 Setting this property sets the [`TickLabelSpacingIsAuto`](../ticklabelspacingisauto) property to **false**.
 
-## Examples
+### Examples
 
 Shows how to manipulate the tick marks and displayed values of a chart axis.
 

@@ -14,13 +14,13 @@ Returns `true` if the current image is available for export.
 public bool IsImageAvailable { get; }
 ```
 
-## Remarks
+### Remarks
 
 Some images in the document can be unavailable, for example, because the image is linked and the link is inaccessible or does not point to a valid image. In this case Aspose.Words exports an icon with a red cross. This property returns `true` if the original image is available; returns `false` if the original image is not available and a "no image" icon will be offered for save.
 
 When saving a group shape or a shape that doesn't require any image this property is always `true`.
 
-## Examples
+### Examples
 
 Shows how to involve an image saving callback in an HTML conversion process.
 

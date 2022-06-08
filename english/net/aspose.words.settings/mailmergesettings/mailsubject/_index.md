@@ -14,7 +14,7 @@ Specifies the text which shall appear in the subject line of the e-mails or faxe
 public string MailSubject { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to execute a mail merge while connecting to an external data source.
 

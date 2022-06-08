@@ -6,7 +6,7 @@ type: docs
 weight: 100
 url: /net/aspose.words/documentbase/importnode/
 ---
-## DocumentBase.ImportNode method (1 of 2)
+## ImportNode(Node, bool) {#importnode}
 
 Imports a node from another document to the current document.
 
@@ -23,7 +23,7 @@ public Node ImportNode(Node srcNode, bool isImportChildren)
 
 The cloned node that belongs to the current document.
 
-## Remarks
+### Remarks
 
 This method uses the UseDestinationStyles option to resolve formatting.
 
@@ -33,7 +33,7 @@ Before a node from another document can be inserted into this document, it must 
 
 If the source node already belongs to the destination document, then simply a deep clone of the source node is created.
 
-## Examples
+### Examples
 
 Shows how to import a node from one document to another.
 
@@ -73,7 +73,7 @@ Assert.AreEqual("Destination document first paragraph text.\r\nSource document f
 
 ---
 
-## DocumentBase.ImportNode method (2 of 2)
+## ImportNode(Node, bool, ImportFormatMode) {#importnode_1}
 
 Imports a node from another document to the current document with an option to control formatting.
 
@@ -91,7 +91,7 @@ public Node ImportNode(Node srcNode, bool isImportChildren, ImportFormatMode imp
 
 The cloned, imported node. The node belongs to the destination document, but has no parent.
 
-## Remarks
+### Remarks
 
 This overload is useful to control how styles and list formatting are imported.
 
@@ -101,7 +101,7 @@ Before a node from another document can be inserted into this document, it must 
 
 If the source node already belongs to the destination document, then simply a deep clone of the source node is created.
 
-## Examples
+### Examples
 
 Shows how to import node from source document to destination document with specific options.
 

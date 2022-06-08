@@ -6,7 +6,7 @@ type: docs
 weight: 80
 url: /net/aspose.words/border/equals/
 ---
-## Border.Equals method (1 of 2)
+## Equals(Border) {#equals}
 
 Determines whether the specified border is equal in value to the current border.
 
@@ -14,7 +14,7 @@ Determines whether the specified border is equal in value to the current border.
 public bool Equals(Border rhs)
 ```
 
-## Examples
+### Examples
 
 Shows how border collections can share elements.
 
@@ -62,7 +62,7 @@ doc.Save(ArtifactsDir + "Border.SharedElements.docx");
 
 ---
 
-## Border.Equals method (2 of 2)
+## Equals(object) {#equals_1}
 
 Determines whether the specified object is equal in value to the current object.
 
@@ -70,7 +70,7 @@ Determines whether the specified object is equal in value to the current object.
 public override bool Equals(object obj)
 ```
 
-## Examples
+### Examples
 
 Shows how border collections can share elements.
 

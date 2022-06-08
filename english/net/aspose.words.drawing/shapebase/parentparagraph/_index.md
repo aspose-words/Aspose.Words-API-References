@@ -14,11 +14,11 @@ Returns the immediate parent paragraph.
 public Paragraph ParentParagraph { get; }
 ```
 
-## Remarks
+### Remarks
 
 For child shapes of a group shape and child shapes of an Office Math object always returns null.
 
-## Examples
+### Examples
 
 Shows how to insert a text box, and set the font of its contents.
 

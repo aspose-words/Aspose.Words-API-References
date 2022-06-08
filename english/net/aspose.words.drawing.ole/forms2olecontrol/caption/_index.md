@@ -14,7 +14,7 @@ Gets Caption property of control. Default value is an empty string.
 public string Caption { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to verify the properties of an ActiveX control.
 

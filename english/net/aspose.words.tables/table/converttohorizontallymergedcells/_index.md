@@ -14,7 +14,7 @@ Converts cells horizontally merged by width to cells merged by [`HorizontalMerge
 public void ConvertToHorizontallyMergedCells()
 ```
 
-## Remarks
+### Remarks
 
 Table cells can be horizontally merged either using merge flags [`HorizontalMerge`](../../cellformat/horizontalmerge) or using cell width [`Width`](../../cellformat/width).
 
@@ -22,7 +22,7 @@ When table cell is merged by width property [`HorizontalMerge`](../../cellformat
 
 Use this method to transforms table cells horizontally merged by width to cells merged by merge flags.
 
-## Examples
+### Examples
 
 Shows how to convert cells horizontally merged by width to cells merged by CellFormat.HorizontalMerge.
 

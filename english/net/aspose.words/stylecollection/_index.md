@@ -33,7 +33,7 @@ public class StyleCollection : IEnumerable<Style>
 | [ClearQuickStyleGallery](../../aspose.words/stylecollection/clearquickstylegallery)() | Removes all styles from the Quick Style Gallery panel. |
 | [GetEnumerator](../../aspose.words/stylecollection/getenumerator)() | Gets an enumerator object that will enumerate styles in the alphabetical order of their names. |
 
-## Examples
+### Examples
 
 Shows how to create and use a paragraph style with list formatting.
 

@@ -14,11 +14,11 @@ Gets or sets a value indicating whether lists are restarted at each section afte
 public bool RestartListsAtEachSection { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 The default value is **true**.
 
-## Examples
+### Examples
 
 Shows how to control whether or not list numbering is restarted at each section when mail merge is performed.
 

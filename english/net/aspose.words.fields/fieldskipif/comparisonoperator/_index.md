@@ -14,7 +14,7 @@ Gets or sets the comparison operator.
 public string ComparisonOperator { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to skip pages in a mail merge using the SKIPIF field.
 

@@ -22,13 +22,13 @@ public IMailMergeDataSource GetDataSource(string tableName)
 
 A data source object that will provide access to the data records of the specified table.
 
-## Remarks
+### Remarks
 
 When the Aspose.Words mail merge engines populates a document with data and encounters MERGEFIELD TableStart:TableName, it invokes `GetDataSource` on this object. Your implementation needs to return a new data source object. Aspose.Words will use the returned data source to populate the mail merge region.
 
 If a data source (table) with the specified name does not exist, your implementation should return `null`.
 
-## Examples
+### Examples
 
 Performs mail merge from a custom data source with master-detail data.
 

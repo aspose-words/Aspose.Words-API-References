@@ -14,11 +14,11 @@ Returns or sets the position (in points) of the number or bullet for the list le
 public double NumberPosition { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 `NumberPosition` corresponds to LeftIndent plus FirstLineIndent of the paragraph.
 
-## Examples
+### Examples
 
 Shows how to apply custom list formatting to paragraphs when using DocumentBuilder.
 

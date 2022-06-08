@@ -14,7 +14,7 @@ Allows to control how document parts are saved when a document is saved to HTML 
 public IDocumentPartSavingCallback DocumentPartSavingCallback { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to split a document into parts and save them.
 

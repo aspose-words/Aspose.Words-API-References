@@ -14,7 +14,7 @@ Gets or sets a location where this hyperlink jumps.
 public string Address { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to use HYPERLINK fields to link to documents in the local file system.
 

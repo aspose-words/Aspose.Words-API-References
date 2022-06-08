@@ -14,7 +14,7 @@ Returns an enumerator object that can be used to iterate over all borders in the
 public IEnumerator<Border> GetEnumerator()
 ```
 
-## Examples
+### Examples
 
 Shows how to iterate over and edit all of the borders in a paragraph format object.
 

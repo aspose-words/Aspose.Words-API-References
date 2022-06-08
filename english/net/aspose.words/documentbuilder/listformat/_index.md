@@ -14,7 +14,7 @@ Returns an object that represents current list formatting properties.
 public ListFormat ListFormat { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to create bulleted and numbered lists.
 

@@ -47,11 +47,11 @@ public class FieldTemplate : Field
 | [Update](../../aspose.words.fields/field/update)() | Performs the field update. Throws if the field is being updated already. |
 | [Update](../../aspose.words.fields/field/update)(bool) | Performs a field update. Throws if the field is being updated already. |
 
-## Remarks
+### Remarks
 
 Retrieves the file name of the template used by the current document.
 
-## Examples
+### Examples
 
 Shows how to use a TEMPLATE field to display the local file system location of a document's template.
 

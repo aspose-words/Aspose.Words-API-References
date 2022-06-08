@@ -14,7 +14,7 @@ Gets or sets whether to replace five or more different page references to the sa
 public bool UsePassim { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to build and customize a table of authorities using TOA and TA fields.
 

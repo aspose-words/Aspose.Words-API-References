@@ -14,7 +14,7 @@ End of a table cell or end of a table row character: "\x0007" or "\a".
 public static readonly string Cell;
 ```
 
-## Examples
+### Examples
 
 Shows how to add various control characters to a document.
 

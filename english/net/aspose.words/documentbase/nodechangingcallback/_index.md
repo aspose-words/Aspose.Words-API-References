@@ -14,7 +14,7 @@ Called when a node is inserted or removed in the document.
 public INodeChangingCallback NodeChangingCallback { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how customize node changing with a callback.
 

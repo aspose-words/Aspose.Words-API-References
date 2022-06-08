@@ -14,7 +14,7 @@ Gets or sets the font size in points.
 public double Size { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to format a run of text using its font property.
 

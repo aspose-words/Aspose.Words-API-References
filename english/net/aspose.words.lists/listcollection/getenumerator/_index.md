@@ -14,7 +14,7 @@ Gets the enumerator object that will enumerate lists in the document.
 public IEnumerator<List> GetEnumerator()
 ```
 
-## Examples
+### Examples
 
 Shows how to create a document with a sample of all the lists from another document.
 

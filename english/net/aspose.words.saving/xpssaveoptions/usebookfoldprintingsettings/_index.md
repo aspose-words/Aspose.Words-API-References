@@ -14,11 +14,11 @@ Gets or sets a boolean value indicating whether the document should be saved usi
 public bool UseBookFoldPrintingSettings { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 If this option is specified, [`PageSet`](../../fixedpagesaveoptions/pageset) is ignored when saving. This behavior matches MS Word. If book fold printing settings are not specified in page setup, this option will have no effect.
 
-## Examples
+### Examples
 
 Shows how to save a document to the XPS format in the form of a book fold.
 

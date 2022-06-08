@@ -14,11 +14,11 @@ Allows to specify the color to be used for side bars that identify document line
 public RevisionColor RevisionBarsColor { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 Setting this property to ByAuthor or NoHighlight values will result in hiding revision bars from the layout.
 
-## Examples
+### Examples
 
 Shows how to modify the appearance of revisions.
 

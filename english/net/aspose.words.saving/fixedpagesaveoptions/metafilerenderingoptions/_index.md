@@ -14,7 +14,7 @@ Allows to specify metafile rendering options.
 public MetafileRenderingOptions MetafileRenderingOptions { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows added a fallback to bitmap rendering and changing type of warnings about unsupported metafile records.
 

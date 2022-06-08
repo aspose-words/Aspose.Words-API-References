@@ -14,7 +14,7 @@ Gets or sets the postal address used for generating a barcode or the name of the
 public string PostalAddress { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to use the BARCODE field to display U.S. ZIP codes in the form of a barcode.
 

@@ -6,7 +6,7 @@ type: docs
 weight: 230
 url: /net/aspose.words.mailmerging/mailmerge/getfieldnamesforregion/
 ---
-## MailMerge.GetFieldNamesForRegion method (1 of 2)
+## GetFieldNamesForRegion(string) {#getfieldnamesforregion}
 
 Returns a collection of mail merge field names available in the region.
 
@@ -18,7 +18,7 @@ public string[] GetFieldNamesForRegion(string regionName)
 | --- | --- | --- |
 | regionName | String | Region name (case-insensitive). |
 
-## Remarks
+### Remarks
 
 Returns full merge field names including optional prefix. Does not eliminate duplicate field names.
 
@@ -26,7 +26,7 @@ If document contains multiple regions with the same name the very first region i
 
 A new string array is created on every call.
 
-## Examples
+### Examples
 
 Shows how to create, list, and read mail merge regions.
 
@@ -86,7 +86,7 @@ Assert.AreEqual("Column2", mergeFieldNames[0]);
 
 ---
 
-## MailMerge.GetFieldNamesForRegion method (2 of 2)
+## GetFieldNamesForRegion(string, int) {#getfieldnamesforregion_1}
 
 Returns a collection of mail merge field names available in the region.
 
@@ -99,7 +99,7 @@ public string[] GetFieldNamesForRegion(string regionName, int regionIndex)
 | regionName | String | Region name (case-insensitive). |
 | regionIndex | Int32 | Region index (zero-based). |
 
-## Remarks
+### Remarks
 
 Returns full merge field names including optional prefix. Does not eliminate duplicate field names.
 
@@ -107,7 +107,7 @@ If document contains multiple regions with the same name the Nth region (zero-ba
 
 A new string array is created on every call.
 
-## Examples
+### Examples
 
 Shows how to create, list, and read mail merge regions.
 

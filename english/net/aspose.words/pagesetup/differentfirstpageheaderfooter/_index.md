@@ -14,7 +14,7 @@ url: /net/aspose.words/pagesetup/differentfirstpageheaderfooter/
 public bool DifferentFirstPageHeaderFooter { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to create headers and footers in a document using DocumentBuilder.
 

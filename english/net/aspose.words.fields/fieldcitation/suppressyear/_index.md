@@ -14,7 +14,7 @@ Gets or sets whether the year information is suppressed from the citation.
 public bool SuppressYear { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to work with CITATION and BIBLIOGRAPHY fields.
 

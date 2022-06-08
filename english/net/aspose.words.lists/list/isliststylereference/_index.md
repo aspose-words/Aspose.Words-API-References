@@ -14,11 +14,11 @@ Returns true if this list is a reference to a list style.
 public bool IsListStyleReference { get; }
 ```
 
-## Remarks
+### Remarks
 
 Note, modifying properties of a list that is a reference to list style has no effect. The list formatting specified in the list style itself always takes precedence.
 
-## Examples
+### Examples
 
 Shows how to create a list style and use it in a document.
 

@@ -14,7 +14,7 @@ Returns an object that represents current table cell formatting properties.
 public CellFormat CellFormat { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to format cells with a document builder.
 

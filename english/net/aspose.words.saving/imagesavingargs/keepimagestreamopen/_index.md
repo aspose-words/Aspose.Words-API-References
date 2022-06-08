@@ -14,11 +14,11 @@ Specifies whether Aspose.Words should keep the stream open or close it after sav
 public bool KeepImageStreamOpen { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 Default is `false` and Aspose.Words will close the stream you provided in the [`ImageStream`](../imagestream) property after writing an image into it. Specify `true` to keep the stream open.
 
-## Examples
+### Examples
 
 Shows how to involve an image saving callback in an HTML conversion process.
 

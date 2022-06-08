@@ -14,7 +14,7 @@ Gets collection of borders of the cell.
 public BorderCollection Borders { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to combine the rows from two tables into one.
 

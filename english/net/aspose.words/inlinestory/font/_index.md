@@ -14,7 +14,7 @@ Provides access to the font formatting of the anchor character of this object.
 public Font Font { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to insert InlineStory nodes.
 

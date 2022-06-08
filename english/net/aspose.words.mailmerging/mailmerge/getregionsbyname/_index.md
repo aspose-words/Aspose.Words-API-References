@@ -22,7 +22,7 @@ public IList<MailMergeRegionInfo> GetRegionsByName(string regionName)
 
 The list of regions.
 
-## Examples
+### Examples
 
 Shows how to create, list, and read mail merge regions.
 

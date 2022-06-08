@@ -14,7 +14,7 @@ Removes all borders of an object.
 public void ClearFormatting()
 ```
 
-## Examples
+### Examples
 
 Shows how to remove all borders from all paragraphs in a document.
 

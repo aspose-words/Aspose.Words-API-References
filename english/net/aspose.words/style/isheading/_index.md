@@ -14,7 +14,7 @@ True when the style is one of the built-in Heading styles.
 public bool IsHeading { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to access a document's style collection.
 

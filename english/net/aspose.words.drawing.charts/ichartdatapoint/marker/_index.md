@@ -14,7 +14,7 @@ Specifies a data marker. Marker is automatically created when requested.
 public ChartMarker Marker { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to work with data points on a line chart.
 

@@ -14,7 +14,7 @@ Returns number format of the parent element.
 public ChartNumberFormat NumberFormat { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to apply labels to data points in a line chart.
 

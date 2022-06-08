@@ -14,7 +14,7 @@ Gets or sets preferred option of a trailing space handling. Default value is Tri
 public TxtTrailingSpacesOptions TrailingSpacesOptions { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to trim whitespace when loading plaintext documents.
 

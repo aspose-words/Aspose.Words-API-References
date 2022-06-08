@@ -6,7 +6,7 @@ type: docs
 weight: 270
 url: /net/aspose.words/paragraph/insertfield/
 ---
-## Paragraph.InsertField method (1 of 3)
+## InsertField(FieldType, bool, Node, bool) {#insertfield}
 
 Inserts a field into this paragraph.
 
@@ -25,7 +25,7 @@ public Field InsertField(FieldType fieldType, bool updateField, Node refNode, bo
 
 A [`Field`](../../../aspose.words.fields/field) object that represents the inserted field.
 
-## Examples
+### Examples
 
 Shows various ways of adding fields to a paragraph.
 
@@ -72,7 +72,7 @@ doc.Save(ArtifactsDir + "Paragraph.InsertField.docx");
 
 ---
 
-## Paragraph.InsertField method (2 of 3)
+## InsertField(string, Node, bool) {#insertfield_1}
 
 Inserts a field into this paragraph.
 
@@ -90,7 +90,7 @@ public Field InsertField(string fieldCode, Node refNode, bool isAfter)
 
 A [`Field`](../../../aspose.words.fields/field) object that represents the inserted field.
 
-## Examples
+### Examples
 
 Shows various ways of adding fields to a paragraph.
 
@@ -136,7 +136,7 @@ doc.Save(ArtifactsDir + "Paragraph.InsertField.docx");
 
 ---
 
-## Paragraph.InsertField method (3 of 3)
+## InsertField(string, string, Node, bool) {#insertfield_2}
 
 Inserts a field into this paragraph.
 
@@ -155,7 +155,7 @@ public Field InsertField(string fieldCode, string fieldValue, Node refNode, bool
 
 A [`Field`](../../../aspose.words.fields/field) object that represents the inserted field.
 
-## Examples
+### Examples
 
 Shows various ways of adding fields to a paragraph.
 

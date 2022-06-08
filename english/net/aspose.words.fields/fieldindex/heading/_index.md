@@ -14,7 +14,7 @@ Gets or sets a heading that appears at the start of each set of entries for any 
 public string Heading { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to populate an INDEX field with entries using XE fields, and also modify its appearance.
 

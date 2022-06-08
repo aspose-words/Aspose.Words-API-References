@@ -14,7 +14,7 @@ If the **Row** has no cells, creates and appends one **Cell**.
 public void EnsureMinimum()
 ```
 
-## Examples
+### Examples
 
 Shows how to ensure a row node contains the nodes we need to begin adding content to it.
 

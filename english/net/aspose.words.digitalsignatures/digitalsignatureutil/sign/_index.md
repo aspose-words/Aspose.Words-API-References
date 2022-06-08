@@ -6,7 +6,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.digitalsignatures/digitalsignatureutil/sign/
 ---
-## DigitalSignatureUtil.Sign method (1 of 4)
+## Sign(Stream, Stream, CertificateHolder, SignOptions) {#sign_1}
 
 Signs source document using given [`CertificateHolder`](../../certificateholder) and [`SignOptions`](../../signoptions) with digital signature and writes signed document to destination stream.
 
@@ -26,7 +26,7 @@ public static void Sign(Stream srcStream, Stream dstStream, CertificateHolder ce
 | certHolder | CertificateHolder | [`CertificateHolder`](../../certificateholder) object with certificate that used to sign file. The certificate in holder MUST contain private keys and have the X509KeyStorageFlags.Exportable flag set. |
 | signOptions | SignOptions | [`SignOptions`](../../signoptions) object with various signing options. |
 
-## Examples
+### Examples
 
 Shows how to digitally sign documents.
 
@@ -62,7 +62,7 @@ using (Stream streamIn = new FileStream(MyDir + "Document.docx", FileMode.Open))
 
 ---
 
-## DigitalSignatureUtil.Sign method (2 of 4)
+## Sign(string, string, CertificateHolder, SignOptions) {#sign_3}
 
 Signs source document using given [`CertificateHolder`](../../certificateholder) and [`SignOptions`](../../signoptions) with digital signature and writes signed document to destination file.
 
@@ -80,7 +80,7 @@ public static void Sign(string srcFileName, string dstFileName, CertificateHolde
 | certHolder | CertificateHolder | [`CertificateHolder`](../../certificateholder) object with certificate that used to sign file. The certificate in holder MUST contain private keys and have the X509KeyStorageFlags.Exportable flag set. |
 | signOptions | SignOptions | [`SignOptions`](../../signoptions) object with various signing options. |
 
-## Examples
+### Examples
 
 Shows how to add a signature line to a document, and then sign it using a digital certificate.
 
@@ -202,7 +202,7 @@ public static void Sign()
 
 ---
 
-## DigitalSignatureUtil.Sign method (3 of 4)
+## Sign(Stream, Stream, CertificateHolder) {#sign}
 
 Signs source document using given [`CertificateHolder`](../../certificateholder) with digital signature and writes signed document to destination stream.
 
@@ -220,7 +220,7 @@ public static void Sign(Stream srcStream, Stream dstStream, CertificateHolder ce
 | dstStream | Stream | The stream that signed document will be written to. |
 | certHolder | CertificateHolder | [`CertificateHolder`](../../certificateholder) object with certificate that used to sign file. The certificate in holder MUST contain private keys and have the X509KeyStorageFlags.Exportable flag set. |
 
-## Examples
+### Examples
 
 Shows how to sign documents with X.509 certificates.
 
@@ -269,7 +269,7 @@ Assert.AreEqual("CN=Morzal.Me", signedDoc.DigitalSignatures[0].SubjectName);
 
 ---
 
-## DigitalSignatureUtil.Sign method (4 of 4)
+## Sign(string, string, CertificateHolder) {#sign_2}
 
 Signs source document using given [`CertificateHolder`](../../certificateholder) with digital signature and writes signed document to destination file.
 
@@ -285,7 +285,7 @@ public static void Sign(string srcFileName, string dstFileName, CertificateHolde
 | dstFileName | String | The file name of the signed document output. |
 | certHolder | CertificateHolder | [`CertificateHolder`](../../certificateholder) object with certificate that used to sign file. The certificate in holder MUST contain private keys and have the X509KeyStorageFlags.Exportable flag set. |
 
-## Examples
+### Examples
 
 Shows how to sign documents with X.509 certificates.
 

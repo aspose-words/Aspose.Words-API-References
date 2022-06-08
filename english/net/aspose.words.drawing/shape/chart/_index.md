@@ -14,11 +14,11 @@ Provides access to the chart properties if this shape has a Chart.
 public Chart Chart { get; }
 ```
 
-## Remarks
+### Remarks
 
 This property will return the `Chart` object only if [`HasChart`](../haschart) property is true for this Shape, and will throw an exception otherwise.
 
-## Examples
+### Examples
 
 Shows how to iterate over all the shapes in a document.
 

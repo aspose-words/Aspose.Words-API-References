@@ -14,7 +14,7 @@ Gets or sets XPath for the desired portion of the XML file.
 public string XPath { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to create an INCLUDETEXT field, and set its properties.
 

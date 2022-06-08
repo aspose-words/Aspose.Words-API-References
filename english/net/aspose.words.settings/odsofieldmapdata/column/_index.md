@@ -14,7 +14,7 @@ Specifies the zero-based index of the column within an external data source whic
 public int Column { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to access the collection of data that maps data source columns to merge fields.
 

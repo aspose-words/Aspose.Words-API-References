@@ -14,7 +14,7 @@ Gets line formatting for the parent chart element.
 public Stroke Stroke { get; }
 ```
 
-## Examples
+### Examples
 
 Show how to set marker formatting.
 

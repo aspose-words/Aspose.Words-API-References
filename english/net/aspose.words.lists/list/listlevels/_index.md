@@ -14,11 +14,11 @@ Gets the collection of list levels for this list.
 public ListLevelCollection ListLevels { get; }
 ```
 
-## Remarks
+### Remarks
 
 Use this property to access and modify formatting individual to each level of the list.
 
-## Examples
+### Examples
 
 Shows how to apply custom list formatting to paragraphs when using DocumentBuilder.
 

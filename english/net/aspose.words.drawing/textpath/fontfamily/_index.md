@@ -14,11 +14,11 @@ Defines the family of the textpath font.
 public string FontFamily { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 The default value is Arial.
 
-## Examples
+### Examples
 
 Shows how to work with WordArt.
 

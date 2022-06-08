@@ -14,7 +14,7 @@ Allows to specify if bubble size is to be displayed for the data labels on a cha
 public bool ShowBubbleSize { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to use 3D effects with bubble charts.
 

@@ -22,7 +22,7 @@ public enum AxisCategoryType
 | Category | `1` | Specifies an axis of an arbitrary set of categories. |
 | Time | `2` | Specifies a time category axis. |
 
-## Examples
+### Examples
 
 Shows how to insert a chart and modify the appearance of its axes.
 

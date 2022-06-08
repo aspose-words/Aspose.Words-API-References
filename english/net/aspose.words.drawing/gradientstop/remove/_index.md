@@ -14,7 +14,7 @@ Removes the gradient stop from the parent [`GradientStopCollection`](../../gradi
 public void Remove()
 ```
 
-## Examples
+### Examples
 
 Shows how to add gradient stops to the gradient fill.
 

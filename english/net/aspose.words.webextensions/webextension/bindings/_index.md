@@ -14,7 +14,7 @@ Specifies a list of web extension bindings.
 public WebExtensionBindingCollection Bindings { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to add a web extension to a document.
 

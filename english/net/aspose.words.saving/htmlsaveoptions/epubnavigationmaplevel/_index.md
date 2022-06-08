@@ -14,13 +14,13 @@ Specifies the maximum level of headings populated to the navigation map when exp
 public int EpubNavigationMapLevel { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 Navigation map in IDPF EPUB format allows user agents to provide easy way of navigation through the document structure. Usually navigation points correspond to headings in the document. To populate headings up to level **N** assign this value to `EpubNavigationMapLevel`.
 
 By default, three levels of headings are populated: paragraphs of styles **Heading 1**, **Heading 2** and **Heading 3**. You can set this property to a value from 1 to 9 to request corresponding maximum level. Setting it to zero will reduce navigation map to only document root or roots of document parts.
 
-## Examples
+### Examples
 
 Shows how to filter headings that appear in the navigation panel of a saved Epub document.
 

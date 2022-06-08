@@ -28,11 +28,11 @@ public enum BuildingBlockType
 | All | `7` | The building block is associated with all types. |
 | Default | `0` | Save as None. |
 
-## Remarks
+### Remarks
 
 Corresponds to the **ST_DocPartType** type in OOXML.
 
-## Examples
+### Examples
 
 Shows how to add a custom building block to a document.
 

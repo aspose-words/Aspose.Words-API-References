@@ -14,7 +14,7 @@ Returns true if this is a group shape.
 public bool IsGroup { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to create a group of shapes, and print its contents using a document visitor.
 

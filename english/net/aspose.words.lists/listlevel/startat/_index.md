@@ -14,11 +14,11 @@ Returns or sets the starting number for this list level.
 public int StartAt { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 Default value is 1.
 
-## Examples
+### Examples
 
 Shows how to restart numbering in a list by copying a list.
 

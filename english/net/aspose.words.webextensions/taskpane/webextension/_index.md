@@ -14,7 +14,7 @@ Represents an web extension object.
 public WebExtension WebExtension { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to add a web extension to a document.
 

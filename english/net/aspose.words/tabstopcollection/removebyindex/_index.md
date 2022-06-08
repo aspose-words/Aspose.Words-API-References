@@ -18,7 +18,7 @@ public void RemoveByIndex(int index)
 | --- | --- | --- |
 | index | Int32 | An index into the collection of tab stops. |
 
-## Examples
+### Examples
 
 Shows how to select a tab stop in a document by its index and remove it.
 

@@ -19,13 +19,13 @@ public void SetFontsFolders(string[] fontsFolders, bool recursive)
 | fontsFolders | String[] | An array of folders that contain TrueType fonts. |
 | recursive | Boolean | True to scan the specified folders for fonts recursively. |
 
-## Remarks
+### Remarks
 
 By default, Aspose.Words looks for fonts installed to the system.
 
 Setting this property resets the cache of all previously loaded fonts.
 
-## Examples
+### Examples
 
 Shows how to set multiple font source directories.
 

@@ -14,7 +14,7 @@ Sets user provided data of the resource which is used if [`ResourceLoading`](../
 public void SetData(byte[] data)
 ```
 
-## Examples
+### Examples
 
 Shows how to customize the process of loading external resources into a document.
 

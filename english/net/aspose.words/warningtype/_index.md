@@ -31,7 +31,7 @@ public enum WarningType
 | UnexpectedContent | `1000000` | Generic unexpected content, no specific code. |
 | Hint | `10000000` | Advises of a potential problem or suggests an improvement. |
 
-## Examples
+### Examples
 
 Shows how to set the property for finding the closest match for a missing font from the available font sources.
 

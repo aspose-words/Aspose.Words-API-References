@@ -14,7 +14,7 @@ Implements the [`IWarningCallback`](../../iwarningcallback) interface. Adds a wa
 public void Warning(WarningInfo info)
 ```
 
-## Examples
+### Examples
 
 Shows how to set the property for finding the closest match for a missing font from the available font sources.
 

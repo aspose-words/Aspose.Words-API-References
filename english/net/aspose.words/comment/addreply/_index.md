@@ -25,11 +25,11 @@ public Comment AddReply(string author, string initial, DateTime dateTime, string
 
 The created [`Comment`](../../comment) node for the reply.
 
-## Remarks
+### Remarks
 
 Due to the existing MS Office limitations only 1 level of replies is allowed in the document. An exception of type InvalidOperationException will be raised if this method is called on the existing Reply comment.
 
-## Examples
+### Examples
 
 Shows how to add a comment to a document, and then reply to it.
 

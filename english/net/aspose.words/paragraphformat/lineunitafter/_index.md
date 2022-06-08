@@ -14,7 +14,7 @@ Gets or sets the amount of spacing (in gridlines) after the paragraphs.
 public double LineUnitAfter { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to change paragraph spacing and indents.
 

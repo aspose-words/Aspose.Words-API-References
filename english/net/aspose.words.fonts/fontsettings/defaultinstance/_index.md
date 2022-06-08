@@ -14,11 +14,11 @@ Static default font settings.
 public static FontSettings DefaultInstance { get; }
 ```
 
-## Remarks
+### Remarks
 
 This instance is used by default in a document unless [`FontSettings`](../../../aspose.words/document/fontsettings) is specified.
 
-## Examples
+### Examples
 
 Shows how to configure the default font settings instance.
 

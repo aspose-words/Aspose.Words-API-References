@@ -22,11 +22,11 @@ public List GetListByListId(int listId)
 
 Returns the list object. Returns null if a list with the specified identifier was not found.
 
-## Remarks
+### Remarks
 
 You don't normally need to use this method. Most of the time you apply list formatting to paragraphs just by settings the [`List`](../../listformat/list) property of the [`ListFormat`](../../listformat) object.
 
-## Examples
+### Examples
 
 Shows how to verify owner document properties of lists.
 

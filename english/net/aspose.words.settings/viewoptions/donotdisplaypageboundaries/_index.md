@@ -14,7 +14,7 @@ Turns off display of the space between the top of the text and the top edge of t
 public bool DoNotDisplayPageBoundaries { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to hide vertical whitespace and headers/footers in view options.
 

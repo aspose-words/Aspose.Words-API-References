@@ -14,7 +14,7 @@ Creates a deep clone of this object.
 public PdfSaveOptions Clone()
 ```
 
-## Examples
+### Examples
 
 Shows how to update all the fields in a document immediately before saving it to PDF.
 

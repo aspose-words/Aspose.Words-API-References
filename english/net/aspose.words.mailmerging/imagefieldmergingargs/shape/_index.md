@@ -14,7 +14,7 @@ Specifies the shape that the mail merge engine must insert into the document.
 public Shape Shape { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 When this property is specified, the mail merge engine ignores all other properties like [`ImageFileName`](../imagefilename) or [`ImageStream`](../imagestream) and simply inserts the shape into the document.
 

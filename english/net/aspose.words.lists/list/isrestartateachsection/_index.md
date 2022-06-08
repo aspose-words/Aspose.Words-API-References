@@ -14,13 +14,13 @@ Specifies whether list should be restarted at each section. Default value is **f
 public bool IsRestartAtEachSection { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 This option is supported only in RTF, DOC and DOCX document formats.
 
 This option will be written to DOCX only if [`OoxmlCompliance`](../../../aspose.words.saving/ooxmlcompliance) is higher then Ecma376_2006.
 
-## Examples
+### Examples
 
 Shows how to configure a list to restart numbering at each section.
 

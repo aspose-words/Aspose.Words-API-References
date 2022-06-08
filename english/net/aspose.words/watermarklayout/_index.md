@@ -21,7 +21,7 @@ public enum WatermarkLayout
 | Horizontal | `0` | Horizontal watermark layout. Corresponds to 0 degrees of rotation. |
 | Diagonal | `315` | Diagonal watermark layout. Corresponds to 315 degrees of rotation. |
 
-## Examples
+### Examples
 
 Shows how to create a text watermark.
 

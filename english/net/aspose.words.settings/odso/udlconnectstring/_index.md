@@ -14,7 +14,7 @@ Specifies the Universal Data Link (UDL) connection string used to connect to an 
 public string UdlConnectString { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to execute a mail merge while connecting to an external data source.
 

@@ -14,7 +14,7 @@ Carriage return followed by line feed character: "\x000d\x000a" or "\r\n". Not u
 public static readonly string CrLf;
 ```
 
-## Examples
+### Examples
 
 Shows how to add various control characters to a document.
 

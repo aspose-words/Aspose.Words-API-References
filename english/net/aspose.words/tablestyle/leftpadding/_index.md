@@ -14,7 +14,7 @@ Gets or sets the amount of space (in points) to add to the left of the contents 
 public double LeftPadding { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to create custom style settings for the table.
 

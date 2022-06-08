@@ -14,7 +14,7 @@ Gets the signing purpose comment.
 public string Comments { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to validate and display information about each signature in a document.
 

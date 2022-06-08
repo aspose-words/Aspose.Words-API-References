@@ -14,11 +14,11 @@ Defines the alignment of text.
 public TextPathAlignment TextPathAlignment { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 The default value is Center.
 
-## Examples
+### Examples
 
 Shows how to work with WordArt.
 

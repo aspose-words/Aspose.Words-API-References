@@ -14,7 +14,7 @@ Gets or sets a value indicating whether the [`SectionStart`](../../../aspose.wor
 public bool RetainFirstSectionStart { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 The default value is **true**.
 

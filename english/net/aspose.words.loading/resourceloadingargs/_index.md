@@ -28,7 +28,7 @@ public class ResourceLoadingArgs
 | --- | --- |
 | [SetData](../../aspose.words.loading/resourceloadingargs/setdata)(byte[]) | Sets user provided data of the resource which is used if [`ResourceLoading`](../iresourceloadingcallback/resourceloading) returns UserProvided. |
 
-## Examples
+### Examples
 
 Shows how to customize the process of loading external resources into a document.
 

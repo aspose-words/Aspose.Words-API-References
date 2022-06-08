@@ -14,7 +14,7 @@ Gets or sets whether to resize the picture horizontally from the source.
 public bool ResizeHorizontally { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to insert images using IMPORT and INCLUDEPICTURE fields.
 

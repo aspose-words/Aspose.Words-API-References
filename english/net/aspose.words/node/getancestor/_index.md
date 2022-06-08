@@ -6,7 +6,7 @@ type: docs
 weight: 110
 url: /net/aspose.words/node/getancestor/
 ---
-## Node.GetAncestor method (1 of 2)
+## GetAncestor(Type) {#getancestor_1}
 
 Gets the first ancestor of the specified object type.
 
@@ -22,11 +22,11 @@ public CompositeNode GetAncestor(Type ancestorType)
 
 The ancestor of the specified type or null if no ancestor of this type was found.
 
-## Remarks
+### Remarks
 
 The ancestor type matches if it is equal to ancestorType or derived from ancestorType.
 
-## Examples
+### Examples
 
 Shows how to find out if a tables are nested.
 
@@ -111,7 +111,7 @@ private static int GetChildTableCount(Table table)
 
 ---
 
-## Node.GetAncestor method (2 of 2)
+## GetAncestor(NodeType) {#getancestor}
 
 Gets the first ancestor of the specified [`NodeType`](../../nodetype).
 
@@ -127,7 +127,7 @@ public CompositeNode GetAncestor(NodeType ancestorType)
 
 The ancestor of the specified type or null if no ancestor of this type was found.
 
-## Examples
+### Examples
 
 Shows how to find out if a tables are nested.
 

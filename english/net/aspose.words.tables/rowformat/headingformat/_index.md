@@ -14,7 +14,7 @@ True if the row is repeated as a table heading on every page when the table span
 public bool HeadingFormat { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to build a table with rows that repeat on every page.
 

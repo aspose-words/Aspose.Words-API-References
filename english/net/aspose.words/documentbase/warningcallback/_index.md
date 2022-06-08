@@ -14,11 +14,11 @@ Called during various document processing procedures when an issue is detected t
 public IWarningCallback WarningCallback { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 Document may generate warnings at any stage of its existence, so it's important to setup warning callback as early as possible to avoid the warnings loss. E.g. such properties as [`PageCount`](../../document/pagecount) actually build the document layout which is used later for rendering, and the layout warnings may be lost if warning callback is specified just for the rendering calls later.
 
-## Examples
+### Examples
 
 Shows how to use the IWarningCallback interface to monitor font substitution warnings.
 

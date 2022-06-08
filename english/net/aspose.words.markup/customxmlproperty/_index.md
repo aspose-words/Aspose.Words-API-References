@@ -28,11 +28,11 @@ public class CustomXmlProperty
 | [Uri](../../aspose.words.markup/customxmlproperty/uri) { get; set; } | Gets or sets the namespace URI of the custom XML attribute or smart tag property. |
 | [Value](../../aspose.words.markup/customxmlproperty/value) { get; set; } | Gets or sets the value of the custom XML attribute or smart tag property. |
 
-## Remarks
+### Remarks
 
 Used as an item of a [`CustomXmlPropertyCollection`](../customxmlpropertycollection) collection.
 
-## Examples
+### Examples
 
 Shows how to create smart tags.
 

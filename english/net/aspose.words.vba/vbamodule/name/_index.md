@@ -14,7 +14,7 @@ Gets or sets VBA project module name.
 public string Name { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to create a VBA project using macros.
 

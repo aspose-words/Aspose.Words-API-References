@@ -14,7 +14,7 @@ Corresponding EditableRangeStart, received by ID.
 public EditableRangeStart EditableRangeStart { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to work with an editable range.
 

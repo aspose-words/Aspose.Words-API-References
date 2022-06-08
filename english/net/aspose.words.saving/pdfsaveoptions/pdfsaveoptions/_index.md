@@ -14,7 +14,7 @@ Initializes a new instance of this class that can be used to save a document in 
 public PdfSaveOptions()
 ```
 
-## Examples
+### Examples
 
 Shows how to enable or disable subsetting when embedding fonts while rendering a document to PDF.
 

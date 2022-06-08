@@ -18,7 +18,7 @@ public void RemoveAt(int index)
 | --- | --- | --- |
 | index | Int32 | The zero based index. |
 
-## Examples
+### Examples
 
 Shows how to access a document's arbitrary custom parts collection.
 

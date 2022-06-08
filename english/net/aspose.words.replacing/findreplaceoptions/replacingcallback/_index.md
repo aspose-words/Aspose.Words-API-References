@@ -14,7 +14,7 @@ The user-defined method which is called before every replace occurrence.
 public IReplacingCallback ReplacingCallback { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to replace all occurrences of a regular expression pattern with another string, while tracking all such replacements.
 

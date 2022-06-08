@@ -14,7 +14,7 @@ Gets or sets a document direction. The default value is LeftToRight.
 public DocumentDirection DocumentDirection { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to detect plaintext document text direction.
 

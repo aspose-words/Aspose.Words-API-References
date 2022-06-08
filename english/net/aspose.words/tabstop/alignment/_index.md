@@ -14,7 +14,7 @@ Gets or sets the alignment of text at this tab stop.
 public TabAlignment Alignment { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to modify the position of the right tab stop in TOC related paragraphs.
 

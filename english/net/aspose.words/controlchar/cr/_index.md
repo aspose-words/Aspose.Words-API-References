@@ -14,7 +14,7 @@ Carriage return character: "\x000d" or "\r". Same as [`ParagraphBreak`](../parag
 public static readonly string Cr;
 ```
 
-## Examples
+### Examples
 
 Shows how to use control characters.
 

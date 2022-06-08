@@ -14,11 +14,11 @@ Gets or sets the contrast for the specified picture. The value for this property
 public double Contrast { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 The default value is 0.5.
 
-## Examples
+### Examples
 
 Shows how to edit a shape's image data.
 

@@ -14,11 +14,11 @@ Gets document default paragraph formatting.
 public ParagraphFormat DefaultParagraphFormat { get; }
 ```
 
-## Remarks
+### Remarks
 
 Note that document-wide defaults were introduced in Microsoft Word 2007 and are fully supported in OOXML formats (Docx) only. Earlier document formats have no support for document default paragraph formatting.
 
-## Examples
+### Examples
 
 Shows how to add a Style to a document's styles collection.
 

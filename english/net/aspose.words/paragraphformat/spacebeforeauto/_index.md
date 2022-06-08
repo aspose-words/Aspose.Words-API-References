@@ -14,7 +14,7 @@ True if the amount of spacing before the paragraph is set automatically.
 public bool SpaceBeforeAuto { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 When set to true, overrides the effect of [`SpaceBefore`](../spacebefore).
 
@@ -27,7 +27,7 @@ When you set paragraph Space Before and Space After to Auto, Microsoft Word adds
 * Spacing is not added after a table if it is the last block in a table cell.
 * Spacing is not added after the last paragraph in a table cell.
 
-## Examples
+### Examples
 
 Shows how to set automatic paragraph spacing.
 

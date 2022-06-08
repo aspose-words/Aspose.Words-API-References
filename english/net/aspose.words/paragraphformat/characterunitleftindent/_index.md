@@ -14,7 +14,7 @@ Gets or sets the left indent value (in characters) for the specified paragraphs.
 public double CharacterUnitLeftIndent { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to change paragraph spacing and indents.
 

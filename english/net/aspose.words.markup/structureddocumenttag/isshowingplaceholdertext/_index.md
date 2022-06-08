@@ -16,7 +16,7 @@ if set to true, this state shall be resumed (showing placeholder text) upon open
 public bool IsShowingPlaceholderText { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to use a building block's contents as a custom placeholder text for a structured document tag.
 

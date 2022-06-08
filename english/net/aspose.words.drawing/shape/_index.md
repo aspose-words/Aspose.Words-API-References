@@ -151,7 +151,7 @@ public sealed class Shape : ShapeBase
 | [ToString](../../aspose.words/node/tostring)(SaveOptions) | Exports the content of the node into a string using the specified save options. |
 | [UpdateSmartArtDrawing](../../aspose.words.drawing/shape/updatesmartartdrawing)() | Updates SmartArt pre-rendered drawing by using Aspose.Words's SmartArt cold rendering engine. |
 
-## Remarks
+### Remarks
 
 Using the [`Shape`](../shape) class you can create or modify shapes in a Microsoft Word document.
 
@@ -159,7 +159,7 @@ An important property of a shape is its [`ShapeType`](../shapebase/shapetype). S
 
 Shapes that can have text, can contain [`Paragraph`](../../aspose.words/paragraph) and [`Table`](../../aspose.words.tables/table) nodes as children.
 
-## Examples
+### Examples
 
 Shows how to insert a floating image to the center of a page.
 

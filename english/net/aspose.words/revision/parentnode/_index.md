@@ -14,11 +14,11 @@ Gets the immediate parent node (owner) of this revision. This property will work
 public Node ParentNode { get; }
 ```
 
-## Remarks
+### Remarks
 
 If this revision relates to change of Style formatting, use [`ParentStyle`](../parentstyle) instead.
 
-## Examples
+### Examples
 
 Shows how to determine the revision type of an inline node.
 

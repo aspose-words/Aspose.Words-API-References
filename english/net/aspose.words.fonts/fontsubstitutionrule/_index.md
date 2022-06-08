@@ -20,7 +20,7 @@ public abstract class FontSubstitutionRule
 | --- | --- |
 | virtual [Enabled](../../aspose.words.fonts/fontsubstitutionrule/enabled) { get; set; } | Specifies whether the rule is enabled or not. |
 
-## Examples
+### Examples
 
 Shows operating system-dependent font config substitution.
 

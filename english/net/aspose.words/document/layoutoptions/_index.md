@@ -14,7 +14,7 @@ Gets a **LayoutOptions** object that represents options to control the layout pr
 public LayoutOptions LayoutOptions { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to hide text in a rendered output document.
 

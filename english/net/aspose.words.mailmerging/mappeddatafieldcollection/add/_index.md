@@ -19,7 +19,7 @@ public void Add(string documentFieldName, string dataSourceFieldName)
 | documentFieldName | String | Case-sensitive name of the mail merge field in the document. |
 | dataSourceFieldName | String | Case-sensitive name of the field in the data source. |
 
-## Examples
+### Examples
 
 Shows how to map data columns and MERGEFIELDs with different names so the data is transferred between them during a mail merge.
 

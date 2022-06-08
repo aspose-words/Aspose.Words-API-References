@@ -14,7 +14,7 @@ Gets or sets a value indicating whether the first record of CSV data contains co
 public bool HasHeaders { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 The default value is **false**.
 

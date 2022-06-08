@@ -14,7 +14,7 @@ True if the paragraph is to remains on the same page as the paragraph that follo
 public bool KeepWithNext { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to set a table to stay together on the same page.
 

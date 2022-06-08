@@ -14,7 +14,7 @@ Specifies the name of the folder used to construct image URIs written into an HT
 public string ImagesFolderAlias { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 When you save a [`Document`](../../../aspose.words/document) in HTML format, Aspose.Words needs to save all images embedded in the document as standalone files. [`ImagesFolder`](../imagesfolder) allows you to specify where the images will be saved and `ImagesFolderAlias` allows to specify how the image URIs will be constructed.
 
@@ -26,7 +26,7 @@ If `ImagesFolderAlias` is set to '.' (dot), then the image file name will be wri
 
 Alternative way to specify the name of the folder to construct image URIs is to use [`ResourceFolderAlias`](../resourcefolderalias).
 
-## Examples
+### Examples
 
 Shows how to set folders and folder aliases for externally saved resources that Aspose.Words will create when saving a document to HTML.
 

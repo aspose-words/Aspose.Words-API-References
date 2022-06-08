@@ -27,7 +27,7 @@ public enum VerticalAlignment
 | Inline | `-1` | Not documented. Seems to be a possible value for floating paragraphs and tables. |
 | Default | `0` | Same as None. |
 
-## Examples
+### Examples
 
 Shows how to insert a floating image to the center of a page.
 

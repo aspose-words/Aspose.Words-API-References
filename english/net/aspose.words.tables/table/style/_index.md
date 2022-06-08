@@ -14,7 +14,7 @@ Gets or sets the table style applied to this table.
 public Style Style { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to create custom style settings for the table.
 

@@ -14,7 +14,7 @@ Gets or sets the date/time of this revision.
 public DateTime DateTime { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to work with revisions in a document.
 

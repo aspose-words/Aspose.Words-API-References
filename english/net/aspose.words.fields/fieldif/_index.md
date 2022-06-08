@@ -52,13 +52,13 @@ public class FieldIf : Field
 | [Update](../../aspose.words.fields/field/update)() | Performs the field update. Throws if the field is being updated already. |
 | [Update](../../aspose.words.fields/field/update)(bool) | Performs a field update. Throws if the field is being updated already. |
 
-## Remarks
+### Remarks
 
 Compares the values designated by the expressions [`LeftExpression`](./leftexpression) and [`RightExpression`](./rightexpression) in comparison using the operator designated by [`ComparisonOperator`](./comparisonoperator).
 
 A field in the following format will be used as a mail merge source: { IF 0 = 0 "{PatientsNameFML}" "" \* MERGEFORMAT }
 
-## Examples
+### Examples
 
 Shows how to insert an IF field.
 

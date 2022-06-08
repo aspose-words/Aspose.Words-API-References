@@ -14,7 +14,7 @@ Gets or sets the document keywords.
 public string Keywords { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to work with built-in document properties in the "Description" category.
 

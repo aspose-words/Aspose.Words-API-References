@@ -22,13 +22,13 @@ public Node AppendChild(Node newChild)
 
 The node added.
 
-## Remarks
+### Remarks
 
 If the newChild is already in the tree, it is first removed.
 
 If the node being inserted was created from another document, you should use [`ImportNode`](../../documentbase/importnode) to import the node to the current document. The imported node can then be inserted into the current document.
 
-## Examples
+### Examples
 
 Shows how to construct an Aspose.Words document by hand.
 

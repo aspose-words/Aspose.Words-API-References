@@ -14,7 +14,7 @@ Returns **true** if the parent structured document tag is successfully mapped to
 public bool IsMapped { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to set XML mappings for custom XML parts.
 

@@ -14,13 +14,13 @@ Returns or sets the text that's displayed in a message box when the form field h
 public string HelpText { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 If the OwnHelp property is set to True, HelpText specifies the text string value. If OwnHelp is set to False, HelpText specifies the name of an AutoText entry that contains help text for the form field.
 
 Microsoft Word allows strings with at most 255 characters.
 
-## Examples
+### Examples
 
 Shows how insert different kinds of form fields into a document, and process them with using a document visitor implementation.
 

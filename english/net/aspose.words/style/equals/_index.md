@@ -14,7 +14,7 @@ Compares with the specified style. Styles Istds are compared for built-in styles
 public bool Equals(Style style)
 ```
 
-## Examples
+### Examples
 
 Shows how to use style aliases.
 

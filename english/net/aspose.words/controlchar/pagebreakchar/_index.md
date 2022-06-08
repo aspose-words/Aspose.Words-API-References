@@ -14,7 +14,7 @@ Page break character: (char)12 or "\f".
 public const char PageBreakChar;
 ```
 
-## Examples
+### Examples
 
 Shows how to add various control characters to a document.
 

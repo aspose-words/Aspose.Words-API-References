@@ -14,7 +14,7 @@ Returns or sets the name of the font in a right-to-left language document.
 public string NameBi { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to define separate sets of font settings for right-to-left, and right-to-left text.
 

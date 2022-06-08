@@ -14,7 +14,7 @@ Gets type of this structured document tag.
 public SdtType SdtType { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to get the properties of multi-section structured document tags.
 

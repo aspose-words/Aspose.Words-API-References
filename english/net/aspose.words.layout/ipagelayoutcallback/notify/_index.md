@@ -18,11 +18,11 @@ public void Notify(PageLayoutCallbackArgs args)
 | --- | --- | --- |
 | args | PageLayoutCallbackArgs | An argument of the event. |
 
-## Remarks
+### Remarks
 
 Exception when thrown by implementation aborts layout build process.
 
-## Examples
+### Examples
 
 Shows how to track layout changes with a layout callback.
 

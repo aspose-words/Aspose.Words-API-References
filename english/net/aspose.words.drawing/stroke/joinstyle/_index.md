@@ -14,11 +14,11 @@ Defines the join style of a polyline.
 public JoinStyle JoinStyle { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 The default value is Round.
 
-## Examples
+### Examples
 
 Shows how change stroke properties.
 

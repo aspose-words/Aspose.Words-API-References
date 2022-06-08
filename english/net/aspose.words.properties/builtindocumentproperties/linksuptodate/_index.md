@@ -14,11 +14,11 @@ Indicates whether hyperlinks in a document are up-to-date.
 public bool LinksUpToDate { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 Aspose.Words does not update this property.
 
-## Examples
+### Examples
 
 Shows how to work with document properties in the "Content" category.
 

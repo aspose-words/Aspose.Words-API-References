@@ -14,7 +14,7 @@ Gets a string that represents the XML contained within the node in the FlatOpc f
 public string WordOpenXML { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to get the properties of multi-section structured document tags.
 

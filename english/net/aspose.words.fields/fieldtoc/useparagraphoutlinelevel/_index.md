@@ -14,7 +14,7 @@ Gets or sets whether to use the applied paragraph outline level.
 public bool UseParagraphOutlineLevel { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to insert a TOC, and populate it with entries based on heading styles.
 

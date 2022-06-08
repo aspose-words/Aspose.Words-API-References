@@ -14,7 +14,7 @@ Gets textual content of the document concatenated as a string.
 public string Text { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to load the contents of a Microsoft Word document in plaintext.
 

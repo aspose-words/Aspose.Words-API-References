@@ -22,7 +22,7 @@ public bool Contains(string name)
 
 True if item is found in the collection; otherwise, false.
 
-## Examples
+### Examples
 
 Shows how to set outline levels for bookmarks.
 

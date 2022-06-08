@@ -14,7 +14,7 @@ Returns or sets a TextBox that represents the next TextBox in a sequence of shap
 public TextBox Next { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to link text boxes.
 

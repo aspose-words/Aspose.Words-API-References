@@ -18,11 +18,11 @@ public virtual DocumentProperty this[string name] { get; }
 | --- | --- |
 | name | The case-insensitive name of the property to retrieve. |
 
-## Remarks
+### Remarks
 
 Returns null if a property with the specified name is not found.
 
-## Examples
+### Examples
 
 Shows how to create a custom document property which contains a date and time.
 
@@ -55,7 +55,7 @@ public DocumentProperty this[int index] { get; }
 | --- | --- |
 | index | Zero-based index of the [`DocumentProperty`](../../documentproperty) to retrieve. |
 
-## Examples
+### Examples
 
 Shows how to work with custom document properties.
 

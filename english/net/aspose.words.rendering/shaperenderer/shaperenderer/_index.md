@@ -18,7 +18,7 @@ public ShapeRenderer(ShapeBase shape)
 | --- | --- | --- |
 | shape | ShapeBase | The DrawinML shape object that you want to render. |
 
-## Examples
+### Examples
 
 Shows how to render a shape with a Graphics object and display it using a Windows Form.
 

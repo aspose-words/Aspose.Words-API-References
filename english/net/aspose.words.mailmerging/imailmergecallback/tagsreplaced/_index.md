@@ -14,7 +14,7 @@ Called when "mustache" text tags are replaced with MERGEFIELD fields.
 public void TagsReplaced()
 ```
 
-## Examples
+### Examples
 
 Shows how to define custom logic for handling events during mail merge.
 

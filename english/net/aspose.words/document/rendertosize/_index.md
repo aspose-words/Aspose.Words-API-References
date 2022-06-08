@@ -28,7 +28,7 @@ public float RenderToSize(int pageIndex, Graphics graphics, float x, float y, fl
 
 The scale that was automatically calculated for the rendered page to fit the specified size.
 
-## Examples
+### Examples
 
 Shows how to render the document as a bitmap at a specified location and size (.NetStandard 2.0).
 

@@ -14,7 +14,7 @@ Gets or sets the name of the field in the data source associated with the specif
 public string this[string documentFieldName] { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to map data columns and MERGEFIELDs with different names so the data is transferred between them during a mail merge.
 

@@ -24,7 +24,7 @@ public enum TiffCompression
 | Ccitt3 | `3` | Specifies the CCITT3 compression scheme. |
 | Ccitt4 | `4` | Specifies the CCITT4 compression scheme. |
 
-## Examples
+### Examples
 
 Shows how to select the compression scheme to apply to a document that we convert into a TIFF image.
 

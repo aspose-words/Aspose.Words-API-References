@@ -35,7 +35,7 @@ public enum PageLayoutEvent
 | PartRenderingStarted | `10` | Rendering of page has started. This is fired once per page. |
 | PartRenderingFinished | `11` | Rendering of page has finished. This is fired once per page. |
 
-## Examples
+### Examples
 
 Shows how to track layout changes with a layout callback.
 

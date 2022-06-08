@@ -18,7 +18,7 @@ public Cell[] ToArray()
 
 An array of cells.
 
-## Examples
+### Examples
 
 Shows how to iterate through all tables in the document and print the contents of each cell.
 

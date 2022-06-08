@@ -6,7 +6,7 @@ type: docs
 weight: 520
 url: /net/aspose.words/document/cleanup/
 ---
-## Document.Cleanup method (1 of 2)
+## Cleanup() {#cleanup}
 
 Cleans unused styles and lists from the document.
 
@@ -14,7 +14,7 @@ Cleans unused styles and lists from the document.
 public void Cleanup()
 ```
 
-## Examples
+### Examples
 
 Shows how to remove unused custom styles from a document.
 
@@ -61,7 +61,7 @@ Assert.AreEqual(4, doc.Styles.Count);
 
 ---
 
-## Document.Cleanup method (2 of 2)
+## Cleanup(CleanupOptions) {#cleanup_1}
 
 Cleans unused styles and lists from the document depending on given [`CleanupOptions`](../../cleanupoptions).
 
@@ -69,7 +69,7 @@ Cleans unused styles and lists from the document depending on given [`CleanupOpt
 public void Cleanup(CleanupOptions options)
 ```
 
-## Examples
+### Examples
 
 Shows how to remove all unused custom styles from a document.
 

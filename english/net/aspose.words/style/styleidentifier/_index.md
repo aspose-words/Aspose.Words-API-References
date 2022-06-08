@@ -14,11 +14,11 @@ Gets the locale independent style identifier for a built-in style.
 public StyleIdentifier StyleIdentifier { get; }
 ```
 
-## Remarks
+### Remarks
 
 For user defined (custom) styles, this property returns User.
 
-## Examples
+### Examples
 
 Shows how to modify the position of the right tab stop in TOC related paragraphs.
 

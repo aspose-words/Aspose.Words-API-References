@@ -14,11 +14,11 @@ Gets or sets a flag indicating whether the stroke is visible.
 public bool Visible { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 The default value for a [`Shape`](../../shape) is **true**.
 
-## Examples
+### Examples
 
 Show how to set marker formatting.
 

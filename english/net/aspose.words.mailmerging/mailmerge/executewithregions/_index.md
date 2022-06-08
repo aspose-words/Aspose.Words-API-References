@@ -6,7 +6,7 @@ type: docs
 weight: 200
 url: /net/aspose.words.mailmerging/mailmerge/executewithregions/
 ---
-## MailMerge.ExecuteWithRegions method (1 of 6)
+## ExecuteWithRegions(IMailMergeDataSource) {#executewithregions}
 
 Performs a mail merge from a custom data source with mail merge regions.
 
@@ -18,13 +18,13 @@ public void ExecuteWithRegions(IMailMergeDataSource dataSource)
 | --- | --- | --- |
 | dataSource | IMailMergeDataSource | An object that implements the custom mail merge data source interface. |
 
-## Remarks
+### Remarks
 
 Use this method to fill mail merge fields in the document with values from any custom data source such as an XML file or collections of business objects. You need to write your own class that implements the [`IMailMergeDataSource`](../../imailmergedatasource) interface.
 
 You can use this method only when [`IsBidiTextSupportedOnUpdate`](../../../aspose.words.fields/fieldoptions/isbiditextsupportedonupdate) is false, that is you do not need Right-To-Left language (such as Arabic or Hebrew) compatibility.
 
-## Examples
+### Examples
 
 Shows how to use mail merge regions to execute a nested mail merge.
 
@@ -276,7 +276,7 @@ public class OrderMailMergeDataSource : IMailMergeDataSource
 
 ---
 
-## MailMerge.ExecuteWithRegions method (2 of 6)
+## ExecuteWithRegions(IMailMergeDataSourceRoot) {#executewithregions_1}
 
 Performs a mail merge from a custom data source with mail merge regions.
 
@@ -288,13 +288,13 @@ public void ExecuteWithRegions(IMailMergeDataSourceRoot dataSourceRoot)
 | --- | --- | --- |
 | dataSourceRoot | IMailMergeDataSourceRoot | An object that implements the custom mail merge data source root interface. |
 
-## Remarks
+### Remarks
 
 Use this method to fill mail merge fields in the document with values from any custom data source such as an XML file or collections of business objects. You need to write your own classes that implement the [`IMailMergeDataSourceRoot`](../../imailmergedatasourceroot) and [`IMailMergeDataSource`](../../imailmergedatasource) interfaces.
 
 You can use this method only when [`IsBidiTextSupportedOnUpdate`](../../../aspose.words.fields/fieldoptions/isbiditextsupportedonupdate) is false, that is you do not need Right-To-Left language (such as Arabic or Hebrew) compatibility.
 
-## Examples
+### Examples
 
 Performs mail merge from a custom data source with master-detail data.
 
@@ -483,7 +483,7 @@ private class EmployeeListMailMergeSource : IMailMergeDataSource
 
 ---
 
-## MailMerge.ExecuteWithRegions method (3 of 6)
+## ExecuteWithRegions(DataSet) {#executewithregions_2}
 
 Performs mail merge from a DataSet into a document with mail merge regions.
 
@@ -495,7 +495,7 @@ public void ExecuteWithRegions(DataSet dataSet)
 | --- | --- | --- |
 | dataSet | DataSet | DataSet that contains data to be inserted into mail merge fields. |
 
-## Remarks
+### Remarks
 
 Use this method to perform mail merge from one or more tables into repeatable mail merge regions in the document. The mail merge regions inside the document will dynamically grow to accommodate records in the corresponding tables.
 
@@ -519,7 +519,7 @@ If used inside a table, TableStart and TableEnd must be inside the same row in t
 
 Mail merge regions in a document should be well formed (there always needs to be a pair of matching TableStart and TableEnd merge fields with the same table name).
 
-## Examples
+### Examples
 
 Shows how to execute a nested mail merge with two merge regions and two data tables.
 
@@ -609,7 +609,7 @@ private static DataSet CreateDataSet()
 
 ---
 
-## MailMerge.ExecuteWithRegions method (4 of 6)
+## ExecuteWithRegions(DataTable) {#executewithregions_3}
 
 Performs mail merge from a DataTable into the document with mail merge regions.
 
@@ -621,13 +621,13 @@ public void ExecuteWithRegions(DataTable dataTable)
 | --- | --- | --- |
 | dataTable | DataTable | Data source for the mail merge operation. The table must have its **TableName** property set. |
 
-## Remarks
+### Remarks
 
 The document must have a mail merge region defined with name that matches **DataTable.TableName**.
 
 If there are other mail merge regions defined in the document they are left intact. This allows to perform several mail merge operations.
 
-## Examples
+### Examples
 
 Shows how to use regions to execute two separate mail merges in one document.
 
@@ -768,7 +768,7 @@ private static DataTable GetSuppliersDataTable()
 
 ---
 
-## MailMerge.ExecuteWithRegions method (5 of 6)
+## ExecuteWithRegions(DataView) {#executewithregions_4}
 
 Performs mail merge from a DataView into the document with mail merge regions.
 
@@ -780,7 +780,7 @@ public void ExecuteWithRegions(DataView dataView)
 | --- | --- | --- |
 | dataView | DataView | Data source for the mail merge operation. The source table of the **DataView** must have its **TableName** property set. |
 
-## Remarks
+### Remarks
 
 This method is useful if you retrieve data into a **DataTable** but then need to apply a filter or sort before the mail merge.
 
@@ -788,7 +788,7 @@ The document must have a mail merge region defined with name that matches **Data
 
 If there are other mail merge regions defined in the document they are left intact. This allows to perform several mail merge operations.
 
-## Examples
+### Examples
 
 Shows how to use regions to execute two separate mail merges in one document.
 
@@ -849,7 +849,7 @@ doc.Save(ArtifactsDir + "MailMerge.ExecuteWithRegionsConcurrent.docx");
 
 ---
 
-## MailMerge.ExecuteWithRegions method (6 of 6)
+## ExecuteWithRegions(IDataReader, string) {#executewithregions_5}
 
 Performs mail merge from IDataReader into the document with mail merge regions.
 
@@ -862,11 +862,11 @@ public void ExecuteWithRegions(IDataReader dataReader, string tableName)
 | dataReader | IDataReader | Source of the data records for mail merge such as OleDbDataReader or SqlDataReader. |
 | tableName | String | Name of the mail merge region in the document to populate. |
 
-## Remarks
+### Remarks
 
 You can pass **SqlDataReader** or **OleDbDataReader** object into this method as a parameter because they both implemented **IDataReader** interface.
 
-## Examples
+### Examples
 
 Shows how to insert images stored in a database BLOB field into a report.
 

@@ -14,7 +14,7 @@ Gets or sets the yomi (first phonetic character for sorting indexes) for the ind
 public string Yomi { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to sort INDEX field entries phonetically.
 

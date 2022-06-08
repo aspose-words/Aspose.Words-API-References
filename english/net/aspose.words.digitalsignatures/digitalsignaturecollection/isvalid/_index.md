@@ -14,7 +14,7 @@ Returns `true` if all digital signatures in this collection are valid and the do
 public bool IsValid { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to sign documents with X.509 certificates.
 

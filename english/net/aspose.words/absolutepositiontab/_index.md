@@ -49,7 +49,7 @@ public class AbsolutePositionTab : SpecialChar
 | [ToString](../../aspose.words/node/tostring)(SaveFormat) | Exports the content of the node into a string in the specified format. |
 | [ToString](../../aspose.words/node/tostring)(SaveOptions) | Exports the content of the node into a string using the specified save options. |
 
-## Examples
+### Examples
 
 Shows how to process absolute position tab characters with a document visitor.
 

@@ -14,7 +14,7 @@ Overall estimated percentage progress.
 public double EstimatedProgress { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to manage a document while saving to html.
 

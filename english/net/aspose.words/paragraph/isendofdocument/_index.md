@@ -14,7 +14,7 @@ True if this paragraph is the last paragraph in the last section of the document
 public bool IsEndOfDocument { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to insert a paragraph into the document.
 

@@ -14,7 +14,7 @@ Returns or sets the font used for characters with character codes from 128 throu
 public string NameOther { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how Microsoft Word can combine two different fonts in one run.
 

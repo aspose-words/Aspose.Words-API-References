@@ -14,7 +14,7 @@ Removes all nodes from this collection and from the document.
 public void Clear()
 ```
 
-## Examples
+### Examples
 
 Shows how to remove all sections from a document.
 

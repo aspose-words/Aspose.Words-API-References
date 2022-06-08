@@ -14,7 +14,7 @@ Called during a load operation, when an issue is detected that might result in d
 public IWarningCallback WarningCallback { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to print and store warnings that occur during document loading.
 

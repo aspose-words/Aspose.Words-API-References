@@ -19,7 +19,7 @@ public void MoveToField(Field field, bool isAfter)
 | field | Field | The field to move the cursor to. |
 | isAfter | Boolean | When true, moves the cursor to be after the field end. When false, moves the cursor to be before the field start. |
 
-## Examples
+### Examples
 
 Shows how to move a document builder's node insertion point cursor to a specific field.
 

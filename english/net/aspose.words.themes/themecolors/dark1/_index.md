@@ -14,7 +14,7 @@ Specifies color Dark 1.
 public Color Dark1 { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to set custom colors and fonts for themes.
 

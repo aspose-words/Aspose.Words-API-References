@@ -14,7 +14,7 @@ Gets or sets the name of the document's author.
 public string Author { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to work with built-in document properties in the "Description" category.
 

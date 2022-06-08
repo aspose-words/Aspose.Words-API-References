@@ -14,7 +14,7 @@ Allows to control how CSS styles are saved when a document is saved to HTML, MHT
 public ICssSavingCallback CssSavingCallback { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to work with CSS stylesheets that an HTML conversion creates.
 

@@ -14,11 +14,11 @@ True if the font is formatted as strikethrough text.
 public bool StrikeThrough { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 The default value is **false**.
 
-## Examples
+### Examples
 
 Shows how to work with WordArt.
 

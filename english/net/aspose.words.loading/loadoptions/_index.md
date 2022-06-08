@@ -18,9 +18,9 @@ public class LoadOptions
 
 | Name | Description |
 | --- | --- |
-| [LoadOptions](loadoptions)() | Initializes a new instance of this class with default values. |
-| [LoadOptions](loadoptions)(string) | A shortcut to initialize a new instance of this class with the specified password to load an encrypted document. |
-| [LoadOptions](loadoptions)(LoadFormat, string, string) | A shortcut to initialize a new instance of this class with properties set to the specified values. |
+| [LoadOptions](loadoptions#constructor)() | Initializes a new instance of this class with default values. |
+| [LoadOptions](loadoptions#constructor_2)(string) | A shortcut to initialize a new instance of this class with the specified password to load an encrypted document. |
+| [LoadOptions](loadoptions#constructor_1)(LoadFormat, string, string) | A shortcut to initialize a new instance of this class with properties set to the specified values. |
 
 ## Properties
 
@@ -43,7 +43,7 @@ public class LoadOptions
 | [UpdateDirtyFields](../../aspose.words.loading/loadoptions/updatedirtyfields) { get; set; } | Specifies whether to update the fields with the `dirty` attribute. |
 | [WarningCallback](../../aspose.words.loading/loadoptions/warningcallback) { get; set; } | Called during a load operation, when an issue is detected that might result in data or formatting fidelity loss. |
 
-## Examples
+### Examples
 
 Shows how to load an encrypted Microsoft Word document.
 

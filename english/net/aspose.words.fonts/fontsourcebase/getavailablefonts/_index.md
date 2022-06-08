@@ -14,7 +14,7 @@ Returns list of fonts available via this source.
 public IList<PhysicalFontInfo> GetAvailableFonts()
 ```
 
-## Examples
+### Examples
 
 Shows how to list available fonts.
 

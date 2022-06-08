@@ -14,7 +14,7 @@ Gets or sets a flag indicating whether hanging punctuation is enabled for the cu
 public bool HangingPunctuation { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to set special properties for Asian typography.
 

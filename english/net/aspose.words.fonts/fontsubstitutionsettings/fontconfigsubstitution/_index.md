@@ -14,7 +14,7 @@ Settings related to font config substitution rule.
 public FontConfigSubstitutionRule FontConfigSubstitution { get; }
 ```
 
-## Examples
+### Examples
 
 Shows operating system-dependent font config substitution.
 

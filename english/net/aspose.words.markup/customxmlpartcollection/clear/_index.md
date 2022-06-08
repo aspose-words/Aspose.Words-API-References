@@ -14,7 +14,7 @@ Removes all elements from the collection.
 public void Clear()
 ```
 
-## Examples
+### Examples
 
 Shows how to create a structured document tag with custom XML data.
 

@@ -14,11 +14,11 @@ Returns **true** if the document has any tracked changes.
 public bool HasRevisions { get; }
 ```
 
-## Remarks
+### Remarks
 
 This property is a shortcut for comparing [`Count`](../../revisioncollection/count) to zero.
 
-## Examples
+### Examples
 
 Shows how to work with revisions in a document.
 

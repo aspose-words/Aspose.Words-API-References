@@ -21,7 +21,7 @@ public enum NodeChangingAction
 | Insert | `0` | A node is being inserted in the tree. |
 | Remove | `1` | A node is being removed from the tree. |
 
-## Examples
+### Examples
 
 Shows how to use a NodeChangingCallback to monitor changes to the document tree in real-time as we edit it.
 

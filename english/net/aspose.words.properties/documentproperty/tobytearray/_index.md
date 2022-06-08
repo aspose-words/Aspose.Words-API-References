@@ -14,11 +14,11 @@ Returns the property value as byte array.
 public byte[] ToByteArray()
 ```
 
-## Remarks
+### Remarks
 
 Throws an exception if the property type is not ByteArray.
 
-## Examples
+### Examples
 
 Shows how to add a thumbnail to a document that we save as an Epub.
 

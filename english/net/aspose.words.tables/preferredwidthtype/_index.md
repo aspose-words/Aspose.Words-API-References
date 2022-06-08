@@ -22,7 +22,7 @@ public enum PreferredWidthType
 | Percent | `2` | Measure the current item width using a specified percentage. |
 | Points | `3` | Measure the current item width using a specified number of points (1/72 inch). |
 
-## Examples
+### Examples
 
 Shows how to verify the preferred width type and value of a table cell.
 

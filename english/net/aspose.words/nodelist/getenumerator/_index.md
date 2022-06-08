@@ -18,7 +18,7 @@ public IEnumerator<Node> GetEnumerator()
 
 An IEnumerator.
 
-## Examples
+### Examples
 
 Shows how to select certain nodes by using an XPath expression.
 

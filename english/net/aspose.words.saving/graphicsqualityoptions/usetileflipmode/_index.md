@@ -14,7 +14,7 @@ Gets or sets a flag indicating whether WrapMode is TileFlipXY.
 public bool UseTileFlipMode { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 The WrapMode specifies how a texture or gradient is tiled when it is smaller than the area being filled.
 
@@ -22,7 +22,7 @@ By default uses Tile (specifies tiling without flipping). This causes inaccurate
 
 This property allows to switch WrapMode to TileFlipXY (specifies that tiles are flipped horizontally as you move along a row and flipped vertically as you move along a column).
 
-## Examples
+### Examples
 
 Shows how to prevent the white line appears when rendering with a high resolution.
 

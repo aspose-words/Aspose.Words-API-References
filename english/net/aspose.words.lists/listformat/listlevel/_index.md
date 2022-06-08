@@ -14,7 +14,7 @@ Returns the list level formatting plus any formatting overrides applied to the c
 public ListLevel ListLevel { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to apply custom list formatting to paragraphs when using DocumentBuilder.
 

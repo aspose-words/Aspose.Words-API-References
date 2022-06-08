@@ -6,7 +6,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.saving/saveoptions/createsaveoptions/
 ---
-## SaveOptions.CreateSaveOptions method (1 of 2)
+## CreateSaveOptions(SaveFormat) {#createsaveoptions}
 
 Creates a save options object of a class suitable for the specified save format.
 
@@ -22,7 +22,7 @@ public static SaveOptions CreateSaveOptions(SaveFormat saveFormat)
 
 An object of a class that derives from [`SaveOptions`](../../saveoptions).
 
-## Examples
+### Examples
 
 Shows an option to optimize memory consumption when rendering large documents to PDF.
 
@@ -50,7 +50,7 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.MemoryOptimization.pdf", saveOptions);
 
 ---
 
-## SaveOptions.CreateSaveOptions method (2 of 2)
+## CreateSaveOptions(string) {#createsaveoptions_1}
 
 Creates a save options object of a class suitable for the file extension specified in the given file name.
 
@@ -66,7 +66,7 @@ public static SaveOptions CreateSaveOptions(string fileName)
 
 An object of a class that derives from [`SaveOptions`](../../saveoptions).
 
-## Examples
+### Examples
 
 Shows how to set a default template for documents that do not have attached templates.
 

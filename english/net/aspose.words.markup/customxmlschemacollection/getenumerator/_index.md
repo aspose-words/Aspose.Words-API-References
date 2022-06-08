@@ -14,7 +14,7 @@ Returns an enumerator object that can be used to iterate over all items in the c
 public IEnumerator<string> GetEnumerator()
 ```
 
-## Examples
+### Examples
 
 Shows how to work with an XML schema collection.
 

@@ -14,7 +14,7 @@ Deletes all tab stop positions.
 public void Clear()
 ```
 
-## Examples
+### Examples
 
 Shows how to work with a document's collection of tab stops.
 

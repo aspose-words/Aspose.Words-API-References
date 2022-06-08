@@ -78,7 +78,7 @@ public class HeaderFooter : Story
 | [ToString](../../aspose.words/node/tostring)(SaveFormat) | Exports the content of the node into a string in the specified format. |
 | [ToString](../../aspose.words/node/tostring)(SaveOptions) | Exports the content of the node into a string using the specified save options. |
 
-## Remarks
+### Remarks
 
 **HeaderFooter** can contain **Paragraph** and **Table** child nodes.
 
@@ -88,7 +88,7 @@ If **Section** does not have a **HeaderFooter** of a specific type or the **Head
 
 When **HeaderFooter** contains at least one **Paragraph**, it is no longer considered linked to previous in Microsoft Word.
 
-## Examples
+### Examples
 
 Shows how to replace text in a document's footer.
 

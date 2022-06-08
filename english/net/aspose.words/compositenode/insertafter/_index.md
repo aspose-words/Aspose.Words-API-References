@@ -23,7 +23,7 @@ public Node InsertAfter(Node newChild, Node refChild)
 
 The inserted node.
 
-## Remarks
+### Remarks
 
 If refChild is null, inserts newChild at the beginning of the list of child nodes.
 
@@ -31,7 +31,7 @@ If the newChild is already in the tree, it is first removed.
 
 If the node being inserted was created from another document, you should use [`ImportNode`](../../documentbase/importnode) to import the node to the current document. The imported node can then be inserted into the current document.
 
-## Examples
+### Examples
 
 Shows how to replace all textbox shapes with image shapes.
 

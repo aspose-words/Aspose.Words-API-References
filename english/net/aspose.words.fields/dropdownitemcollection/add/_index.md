@@ -22,7 +22,7 @@ public int Add(string value)
 
 The zero-based index at which the new element is inserted.
 
-## Examples
+### Examples
 
 Shows how to insert a combo box field, and edit the elements in its item collection.
 

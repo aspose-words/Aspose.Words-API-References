@@ -22,7 +22,7 @@ public MemoryStream GetOleEntry(string oleEntryName)
 
 An OLE data stream or null.
 
-## Examples
+### Examples
 
 Shows how to insert linked and unlinked OLE objects.
 

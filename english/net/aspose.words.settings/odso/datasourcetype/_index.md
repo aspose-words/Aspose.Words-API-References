@@ -14,11 +14,11 @@ Specifies the type of the external data source to be connected to as part of the
 public OdsoDataSourceType DataSourceType { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 This setting is purely a suggestion of the data source type that is being used for this mail merge.
 
-## Examples
+### Examples
 
 Shows how to execute a mail merge with data from an Office Data Source Object.
 

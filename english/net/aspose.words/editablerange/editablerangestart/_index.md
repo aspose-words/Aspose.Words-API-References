@@ -14,7 +14,7 @@ Gets the node that represents the start of the editable range.
 public EditableRangeStart EditableRangeStart { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to work with an editable range.
 

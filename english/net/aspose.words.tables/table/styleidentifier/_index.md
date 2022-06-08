@@ -14,7 +14,7 @@ Gets or sets the locale independent style identifier of the table style applied 
 public StyleIdentifier StyleIdentifier { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to build a new table while applying a style.
 

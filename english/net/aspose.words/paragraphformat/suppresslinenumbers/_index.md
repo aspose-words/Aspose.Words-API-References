@@ -14,7 +14,7 @@ Specifies whether the current paragraph's lines should be exempted from line num
 public bool SuppressLineNumbers { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to enable line numbering for a section.
 

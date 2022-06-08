@@ -14,11 +14,11 @@ Indicates the presence of 3D shading for the horizontal rule. If true, then the 
 public bool NoShade { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 The default value is false.
 
-## Examples
+### Examples
 
 Shows how to insert a horizontal rule shape, and customize its formatting.
 

@@ -14,7 +14,7 @@ Returns true if this list is a definition of a list style.
 public bool IsListStyleDefinition { get; }
 ```
 
-## Remarks
+### Remarks
 
 When this property is true, the [`Style`](../style) property returns the list style that this list defines.
 
@@ -22,7 +22,7 @@ By modifying properties of a list that defines a list style, you modify the prop
 
 A list that is a definition of a list style cannot be applied directly to paragraphs to make them numbered.
 
-## Examples
+### Examples
 
 Shows how to create a list style and use it in a document.
 

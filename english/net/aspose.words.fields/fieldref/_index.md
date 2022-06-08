@@ -55,11 +55,11 @@ public class FieldRef : Field
 | [Update](../../aspose.words.fields/field/update)() | Performs the field update. Throws if the field is being updated already. |
 | [Update](../../aspose.words.fields/field/update)(bool) | Performs a field update. Throws if the field is being updated already. |
 
-## Remarks
+### Remarks
 
 Inserts the text or graphics represented by the specified bookmark.
 
-## Examples
+### Examples
 
 Shows how to create bookmarked text with a SET field, and then display it in the document using a REF field.
 

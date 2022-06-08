@@ -23,7 +23,7 @@ public bool GetValue(string fieldName, out object fieldValue)
 
 **true** if value was found.
 
-## Examples
+### Examples
 
 Shows how to execute a mail merge with a data source in the form of a custom object.
 

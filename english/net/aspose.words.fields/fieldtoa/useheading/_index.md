@@ -14,7 +14,7 @@ Gets or sets whether to include the category heading for the entries in a table 
 public bool UseHeading { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to build and customize a table of authorities using TOA and TA fields.
 

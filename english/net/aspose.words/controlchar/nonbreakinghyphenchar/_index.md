@@ -14,13 +14,13 @@ Nonbreaking Hyphen in Microsoft Word is (char)30.
 public const char NonBreakingHyphenChar;
 ```
 
-## Remarks
+### Remarks
 
 Nonbreaking Hyphen in Microsoft Word does not correspond to the Unicode character U+2011 non-breaking hyphen but instead represents internal information that tells Microsoft Word to display a hyphen and not to break a line.
 
 Useful info: http://www.cs.tut.fi/~jkorpela/dashes.html#linebreaks.
 
-## Examples
+### Examples
 
 Shows how to add various control characters to a document.
 

@@ -14,7 +14,7 @@ Specifies the amount the data point shall be moved from the center of the pie. C
 public int Explosion { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to move the slices of a pie chart away from the center.
 

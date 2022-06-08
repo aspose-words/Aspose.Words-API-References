@@ -22,11 +22,11 @@ public virtual VisitorAction VisitFieldEnd(FieldEnd fieldEnd)
 
 A [`VisitorAction`](../../visitoraction) value that specifies how to continue the enumeration.
 
-## Remarks
+### Remarks
 
 For more info see [`VisitFieldStart`](../visitfieldstart)
 
-## Examples
+### Examples
 
 Shows how to print the node structure of every field in a document.
 

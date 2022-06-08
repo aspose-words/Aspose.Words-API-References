@@ -21,7 +21,7 @@ public enum RevisionsView
 | Original | `0` | Specifies original version of a document. |
 | Final | `1` | Specifies revised version of a document. |
 
-## Examples
+### Examples
 
 Shows how to switch between the revised and the original view of a document.
 

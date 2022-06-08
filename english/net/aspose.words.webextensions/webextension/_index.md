@@ -25,7 +25,7 @@ public class WebExtension
 | [Properties](../../aspose.words.webextensions/webextension/properties) { get; } | Represents a set of web extension custom properties. |
 | [Reference](../../aspose.words.webextensions/webextension/reference) { get; } | Specifies the primary reference to an web extension. |
 
-## Examples
+### Examples
 
 Shows how to add a web extension to a document.
 

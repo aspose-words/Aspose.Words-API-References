@@ -14,7 +14,7 @@ Gets or sets the language ID that is used to format the bibliographic sources in
 public string FormatLanguageId { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to work with CITATION and BIBLIOGRAPHY fields.
 

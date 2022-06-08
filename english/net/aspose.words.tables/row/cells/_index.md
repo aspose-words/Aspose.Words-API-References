@@ -14,7 +14,7 @@ Provides typed access to the **Cell** child nodes of the row.
 public CellCollection Cells { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to iterate through all tables in the document and print the contents of each cell.
 

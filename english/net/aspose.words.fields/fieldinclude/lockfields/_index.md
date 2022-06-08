@@ -14,7 +14,7 @@ Gets or sets whether to prevent fields in the included document from being updat
 public bool LockFields { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to create an INCLUDE field, and set its properties.
 

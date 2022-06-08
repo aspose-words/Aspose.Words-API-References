@@ -14,7 +14,7 @@ Specifies how Microsoft Word will output the results of a mail merge. The defaul
 public MailMergeDestination Destination { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to execute a mail merge with data from an Office Data Source Object.
 

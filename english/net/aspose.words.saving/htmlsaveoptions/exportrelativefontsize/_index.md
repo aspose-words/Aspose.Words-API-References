@@ -14,7 +14,7 @@ Specifies whether font sizes should be output in relative units when saving to H
 public bool ExportRelativeFontSize { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 In many existing documents (HTML, IDPF EPUB) font sizes are specified in relative units. This allows applications to adjust text size when viewing/processing documents. For instance, Microsoft Internet Explorer has "View-&gt;Text Size" submenu, Adobe Digital Editions has two buttons: Increase/Decrease Text Size. If you expect this functionality to work then set `ExportRelativeFontSize` property to `true`.
 
@@ -22,7 +22,7 @@ Aspose Words document model contains and operates only with absolute font size u
 
 When this option is enabled, document elements other than text will still have absolute sizes. Also some text-related attributes might be expressed absolutely. In particular, line spacing specified with "exactly" rule might produce unwanted results when scaling text. So the source documents should be properly designed and tested when exporting with `ExportRelativeFontSize` set to `true`.
 
-## Examples
+### Examples
 
 Shows how to use relative font sizes when saving to .html.
 

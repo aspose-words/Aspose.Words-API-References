@@ -25,7 +25,7 @@ public enum OfficeMathJustification
 | Inline | `7` | Inline position of Math. |
 | Default | `1` | Default value CenterGroup. |
 
-## Examples
+### Examples
 
 Shows how to set office math display formatting.
 

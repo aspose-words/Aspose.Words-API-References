@@ -14,7 +14,7 @@ Gets or sets suggested signer of the signature line. Default value for this prop
 public string Signer { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to create a line for a signature and insert it into a document.
 

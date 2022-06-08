@@ -14,11 +14,11 @@ Provide access to [`OlePackage`](../../olepackage) if OLE object is an OLE Packa
 public OlePackage OlePackage { get; }
 ```
 
-## Remarks
+### Remarks
 
 OLE Package is a legacy technology that allows to wrap any file format not present in the OLE registry of a Windows system into a generic package allowing to embed almost anything into a document. See [`OlePackage`](../../olepackage) type for more info.
 
-## Examples
+### Examples
 
 Shows how insert an OLE object into a document.
 

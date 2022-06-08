@@ -14,7 +14,7 @@ Type of a Facing Identification Mark (FIM).
 public string FacingIdentificationMark { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to use a barcode generator.
 

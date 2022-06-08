@@ -31,19 +31,19 @@ public class CustomXmlPartCollection : IEnumerable<CustomXmlPart>
 
 | Name | Description |
 | --- | --- |
-| [Add](../../aspose.words.markup/customxmlpartcollection/add)(CustomXmlPart) | Adds an item to the collection. |
-| [Add](../../aspose.words.markup/customxmlpartcollection/add)(string, string) | Creates a new XML part with the specified XML and adds it to the collection. |
+| [Add](../../aspose.words.markup/customxmlpartcollection/add#add_1)(CustomXmlPart) | Adds an item to the collection. |
+| [Add](../../aspose.words.markup/customxmlpartcollection/add#add)(string, string) | Creates a new XML part with the specified XML and adds it to the collection. |
 | [Clear](../../aspose.words.markup/customxmlpartcollection/clear)() | Removes all elements from the collection. |
 | [Clone](../../aspose.words.markup/customxmlpartcollection/clone)() | Makes a deep copy of this collection and its items. |
 | [GetById](../../aspose.words.markup/customxmlpartcollection/getbyid)(string) | Finds and returns a custom XML part by its identifier. |
 | [GetEnumerator](../../aspose.words.markup/customxmlpartcollection/getenumerator)() | Returns an enumerator object that can be used to iterate over all items in the collection. |
 | [RemoveAt](../../aspose.words.markup/customxmlpartcollection/removeat)(int) | Removes an item at the specified index. |
 
-## Remarks
+### Remarks
 
 You do not normally need to create instances of this class. You can access custom XML data stored in a document via the [`CustomXmlParts`](../../aspose.words/document/customxmlparts) property.
 
-## Examples
+### Examples
 
 Shows how to create a structured document tag with custom XML data.
 

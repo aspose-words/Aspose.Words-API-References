@@ -14,7 +14,7 @@ Gets or sets a value that specifies how composited images are drawn to this Grap
 public CompositingMode? CompositingMode { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to set render quality options while converting documents to image formats.
 

@@ -14,7 +14,7 @@ Gets type `MathObjectType` of this Office Math object.
 public MathObjectType MathObjectType { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to print the node structure of every office math node in a document.
 

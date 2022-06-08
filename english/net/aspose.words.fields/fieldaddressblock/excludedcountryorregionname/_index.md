@@ -14,7 +14,7 @@ Gets or sets the excluded country/region name.
 public string ExcludedCountryOrRegionName { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to insert an ADDRESSBLOCK field.
 

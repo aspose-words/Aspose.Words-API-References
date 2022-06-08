@@ -14,7 +14,7 @@ Specifies font name for Latin characters.
 public string Latin { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to set custom colors and fonts for themes.
 

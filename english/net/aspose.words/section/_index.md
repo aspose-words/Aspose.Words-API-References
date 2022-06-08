@@ -51,7 +51,7 @@ public sealed class Section : CompositeNode
 | [AppendContent](../../aspose.words/section/appendcontent)(Section) | Inserts a copy of content of the source section at the end of this section. |
 | [ClearContent](../../aspose.words/section/clearcontent)() | Clears the section. |
 | [ClearHeadersFooters](../../aspose.words/section/clearheadersfooters)() | Clears the headers and footers of this section. |
-| [Clone](../../aspose.words/section/clone)() | Creates a duplicate of this section. |
+| [Clone](../../aspose.words/section/clone#clone_1)() | Creates a duplicate of this section. |
 | [Clone](../../aspose.words/node/clone)(bool) | Creates a duplicate of the node. |
 | [CreateNavigator](../../aspose.words/compositenode/createnavigator)() | Reserved for system use. IXPathNavigable. |
 | [DeleteHeaderFooterShapes](../../aspose.words/section/deleteheaderfootershapes)() | Deletes all shapes (drawing objects) from the headers and footers of this section. |
@@ -78,7 +78,7 @@ public sealed class Section : CompositeNode
 | [ToString](../../aspose.words/node/tostring)(SaveFormat) | Exports the content of the node into a string in the specified format. |
 | [ToString](../../aspose.words/node/tostring)(SaveOptions) | Exports the content of the node into a string using the specified save options. |
 
-## Remarks
+### Remarks
 
 **Section** can have one [`Body`](./body) and maximum one [`HeaderFooter`](../headerfooter) of each [`HeaderFooterType`](../headerfootertype). **Body** and **HeaderFooter** nodes can be in any order inside **Section**.
 
@@ -92,7 +92,7 @@ To add, insert or remove a whole section including section break and section pro
 
 To copy and insert just content of the section excluding the section break and section properties use **AppendContent** and **PrependContent** methods.
 
-## Examples
+### Examples
 
 Shows how to construct an Aspose.Words document by hand.
 

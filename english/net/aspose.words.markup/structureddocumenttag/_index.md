@@ -100,7 +100,7 @@ public class StructuredDocumentTag : CompositeNode, IStructuredDocumentTag
 | [ToString](../../aspose.words/node/tostring)(SaveFormat) | Exports the content of the node into a string in the specified format. |
 | [ToString](../../aspose.words/node/tostring)(SaveOptions) | Exports the content of the node into a string using the specified save options. |
 
-## Remarks
+### Remarks
 
 Structured document tags (SDTs) allow to embed customer-defined semantics as well as its behavior and appearance into a document.
 
@@ -114,7 +114,7 @@ In this version Aspose.Words provides a number of public methods and properties 
 * Inline-level - Among inline content inside, as a child of a [`Paragraph`](../../aspose.words/paragraph).
 * Nested inside another [`StructuredDocumentTag`](../structureddocumenttag).
 
-## Examples
+### Examples
 
 Shows how to work with styles for content control elements.
 

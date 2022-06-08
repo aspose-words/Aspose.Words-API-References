@@ -14,13 +14,13 @@ Specifies whether the shape's aspect ratio is locked.
 public bool AspectRatioLocked { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 The default value depends on the [`ShapeType`](../shapetype), for the ShapeType.Image it is **true** but for the other shape types it is **false**.
 
 Has effect for top level shapes only.
 
-## Examples
+### Examples
 
 Shows how to lock/unlock a shape's aspect ratio.
 

@@ -14,7 +14,7 @@ Returns the collection of variables added to a document or template.
 public VariableCollection Variables { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to work with a document's variable collection.
 

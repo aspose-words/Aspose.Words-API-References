@@ -14,7 +14,7 @@ When true, specifies that in addition to MERGEFIELD fields, mail merge is perfor
 public bool UseNonMergeFields { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 Normally, mail merge is only performed into MERGEFIELD fields, but several customers had their reporting built using other fields and had many documents created this way. To simplify migration (and because this approach was independently used by several customers) the ability to mail merge into other fields was introduced.
 
@@ -28,7 +28,7 @@ IF 0 = 0 "{FieldName}" ""
 
 Also, when **UserNonMergeFields** is set to true, Aspose.Words will perform mail merge into text tags "{{fieldName}}". These are not fields, but just text tags.
 
-## Examples
+### Examples
 
 Shows how to preserve the appearance of alternative mail merge tags that go unused during a mail merge.
 

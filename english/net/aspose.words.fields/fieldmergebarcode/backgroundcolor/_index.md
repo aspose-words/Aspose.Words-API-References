@@ -14,7 +14,7 @@ Gets or sets the background color of the barcode symbol. Valid values are in the
 public string BackgroundColor { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to perform a mail merge on QR barcodes.
 

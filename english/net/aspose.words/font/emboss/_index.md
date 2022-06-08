@@ -14,7 +14,7 @@ True if the font is formatted as embossed.
 public bool Emboss { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to apply engraving/embossing effects to text.
 

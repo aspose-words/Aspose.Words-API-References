@@ -14,11 +14,11 @@ Specifies whether Aspose.Words should keep the stream open or close it after sav
 public bool KeepFontStreamOpen { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 Default is `false` and Aspose.Words will close the stream you provided in the [`FontStream`](../fontstream) property after writing a font into it. Specify `true` to keep the stream open.
 
-## Examples
+### Examples
 
 Shows how to define custom logic for exporting fonts when saving to HTML.
 

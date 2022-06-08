@@ -6,7 +6,7 @@ type: docs
 weight: 190
 url: /net/aspose.words.drawing/fill/setimage/
 ---
-## Fill.SetImage method (1 of 3)
+## SetImage(string) {#setimage_2}
 
 Changes the fill type to single image.
 
@@ -18,7 +18,7 @@ public void SetImage(string fileName)
 | --- | --- | --- |
 | fileName | String | The path to the image file. |
 
-## Examples
+### Examples
 
 Shows how to set shape fill type as image.
 
@@ -50,7 +50,7 @@ doc.Save(ArtifactsDir + "Shape.FillImage.Stream.docx");
 
 ---
 
-## Fill.SetImage method (2 of 3)
+## SetImage(Stream) {#setimage_1}
 
 Changes the fill type to single image.
 
@@ -70,7 +70,7 @@ public void SetImage(Stream stream)
 
 ---
 
-## Fill.SetImage method (3 of 3)
+## SetImage(byte[]) {#setimage}
 
 Changes the fill type to single image.
 

@@ -14,7 +14,7 @@ Removes all elements from the collection.
 public void Clear()
 ```
 
-## Examples
+### Examples
 
 Shows how to map data columns and MERGEFIELDs with different names so the data is transferred between them during a mail merge.
 

@@ -246,7 +246,7 @@ public enum EditingLanguage
 | Yiddish | `1085` |  |
 | Yoruba | `1130` |  |
 
-## Examples
+### Examples
 
 Shows how to apply language preferences when loading a document.
 

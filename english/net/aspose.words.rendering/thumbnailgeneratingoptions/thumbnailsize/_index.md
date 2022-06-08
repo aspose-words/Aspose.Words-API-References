@@ -14,7 +14,7 @@ Size of generated thumbnail in pixels. Default is 600x900.
 public Size ThumbnailSize { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to update a document's thumbnail.
 

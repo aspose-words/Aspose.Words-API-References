@@ -14,7 +14,7 @@ Gets the number of nodes in the list.
 public int Count { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to use XPaths to navigate a NodeList.
 

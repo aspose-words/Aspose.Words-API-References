@@ -14,11 +14,11 @@ Defines the text displayed when the mouse pointer moves over the shape.
 public string ScreenTip { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 The default value is an empty string.
 
-## Examples
+### Examples
 
 Shows how to insert a shape which contains an image, and is also a hyperlink.
 

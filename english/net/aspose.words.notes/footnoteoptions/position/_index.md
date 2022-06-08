@@ -14,7 +14,7 @@ Specifies the footnotes position.
 public FootnotePosition Position { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to select a different place where the document collects and displays its footnotes.
 

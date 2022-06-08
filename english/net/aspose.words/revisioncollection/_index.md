@@ -30,11 +30,11 @@ public class RevisionCollection : IEnumerable<Revision>
 | [GetEnumerator](../../aspose.words/revisioncollection/getenumerator)() | Returns an enumerator object. |
 | [RejectAll](../../aspose.words/revisioncollection/rejectall)() | Rejects all revisions in this collection. |
 
-## Remarks
+### Remarks
 
 You do not create instances of this class directly. Use the [`Revisions`](../document/revisions) property to get revisions present in a document.
 
-## Examples
+### Examples
 
 Shows how to work with revisions in a document.
 

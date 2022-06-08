@@ -14,7 +14,7 @@ Gets or sets the position of the top edge of the containing block of the shape.
 public double Top { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 For a top-level shape, the value is in points and relative to the shape anchor.
 
@@ -24,7 +24,7 @@ The default value is 0.
 
 Has effect only for floating shapes.
 
-## Examples
+### Examples
 
 Shows how to insert a floating image, and specify its position and size.
 

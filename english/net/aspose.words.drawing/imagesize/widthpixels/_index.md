@@ -14,7 +14,7 @@ Gets the width of the image in pixels.
 public int WidthPixels { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to read the properties of an image in a shape.
 

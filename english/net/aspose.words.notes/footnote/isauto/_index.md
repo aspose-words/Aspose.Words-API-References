@@ -14,11 +14,11 @@ Holds a value that specifies whether this is a auto-numbered footnote or footnot
 public bool IsAuto { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 [`ReferenceMark`](../referencemark) initialized with empty string if IsAuto set to false.
 
-## Examples
+### Examples
 
 Shows how to insert and customize footnotes.
 

@@ -14,7 +14,7 @@ Specifies whether fonts should be embedded into Html document in Base64 format. 
 public bool ExportEmbeddedFonts { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to determine where to store embedded fonts when exporting a document to Html.
 

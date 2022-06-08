@@ -21,7 +21,7 @@ public enum PdfImageColorSpaceExportMode
 | Auto | `0` | Aspose.Words automatically selects the most appropriate color space for each image. |
 | SimpleCmyk | `1` | Aspose.Words coverts RGB images to CMYK color space using simple formula. |
 
-## Examples
+### Examples
 
 Shows how to set a different color space for images in a document as we export it to PDF.
 

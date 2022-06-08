@@ -6,7 +6,7 @@ type: docs
 weight: 60
 url: /net/aspose.words/convertutil/pointtopixel/
 ---
-## ConvertUtil.PointToPixel method (1 of 2)
+## PointToPixel(double) {#pointtopixel}
 
 Converts points to pixels at 96 dpi.
 
@@ -18,11 +18,11 @@ public static double PointToPixel(double points)
 | --- | --- | --- |
 | points | Double | The value to convert. |
 
-## Remarks
+### Remarks
 
 1 inch equals 72 points.
 
-## Examples
+### Examples
 
 Shows how to specify page properties in pixels.
 
@@ -63,7 +63,7 @@ doc.Save(ArtifactsDir + "UtilityClasses.PointsAndPixels.docx");
 
 ---
 
-## ConvertUtil.PointToPixel method (2 of 2)
+## PointToPixel(double, double) {#pointtopixel_1}
 
 Converts points to pixels at the specified pixel resolution.
 
@@ -76,11 +76,11 @@ public static double PointToPixel(double points, double resolution)
 | points | Double | The value to convert. |
 | resolution | Double | The dpi (dots per inch) resolution. |
 
-## Remarks
+### Remarks
 
 1 inch equals 72 points.
 
-## Examples
+### Examples
 
 Shows how to use convert points to pixels with default and custom resolution.
 

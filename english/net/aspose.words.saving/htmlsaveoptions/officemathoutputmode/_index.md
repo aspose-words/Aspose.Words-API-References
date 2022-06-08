@@ -14,7 +14,7 @@ Controls how OfficeMath objects are exported to HTML, MHTML or EPUB. Default val
 public HtmlOfficeMathOutputMode OfficeMathOutputMode { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to specify how to export Microsoft OfficeMath objects to HTML.
 

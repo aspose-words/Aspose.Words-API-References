@@ -6,7 +6,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.fields/fieldbuilder/addswitch/
 ---
-## FieldBuilder.AddSwitch method (1 of 4)
+## AddSwitch(string) {#addswitch}
 
 Adds a field's switch.
 
@@ -18,11 +18,11 @@ public FieldBuilder AddSwitch(string switchName)
 | --- | --- | --- |
 | switchName | String | The switch name. |
 
-## Remarks
+### Remarks
 
 This overload adds a flag (switch without argument).
 
-## Examples
+### Examples
 
 Shows how to construct fields using a field builder, and then insert them into the document.
 
@@ -110,7 +110,7 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 
 ---
 
-## FieldBuilder.AddSwitch method (2 of 4)
+## AddSwitch(string, string) {#addswitch_3}
 
 Adds a field's switch.
 
@@ -123,7 +123,7 @@ public FieldBuilder AddSwitch(string switchName, string switchArgument)
 | switchName | String | The switch name. |
 | switchArgument | String | The switch value. |
 
-## Examples
+### Examples
 
 Shows how to construct fields using a field builder, and then insert them into the document.
 
@@ -211,7 +211,7 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 
 ---
 
-## FieldBuilder.AddSwitch method (3 of 4)
+## AddSwitch(string, int) {#addswitch_2}
 
 Adds a field's switch.
 
@@ -224,7 +224,7 @@ public FieldBuilder AddSwitch(string switchName, int switchArgument)
 | switchName | String | The switch name. |
 | switchArgument | Int32 | The switch value. |
 
-## Examples
+### Examples
 
 Shows how to construct fields using a field builder, and then insert them into the document.
 
@@ -312,7 +312,7 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 
 ---
 
-## FieldBuilder.AddSwitch method (4 of 4)
+## AddSwitch(string, double) {#addswitch_1}
 
 Adds a field's switch.
 
@@ -325,7 +325,7 @@ public FieldBuilder AddSwitch(string switchName, double switchArgument)
 | switchName | String | The switch name. |
 | switchArgument | Double | The switch value. |
 
-## Examples
+### Examples
 
 Shows how to construct fields using a field builder, and then insert them into the document.
 

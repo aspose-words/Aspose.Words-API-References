@@ -6,7 +6,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.reporting/csvdataloadoptions/csvdataloadoptions/
 ---
-## CsvDataLoadOptions constructor (1 of 2)
+## CsvDataLoadOptions() {#constructor}
 
 Initializes a new instance of this class with default options.
 
@@ -22,7 +22,7 @@ public CsvDataLoadOptions()
 
 ---
 
-## CsvDataLoadOptions constructor (2 of 2)
+## CsvDataLoadOptions(bool) {#constructor_1}
 
 Initializes a new instance of this class with specifying whether CSV data contains column names at the first line.
 

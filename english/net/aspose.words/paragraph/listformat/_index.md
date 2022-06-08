@@ -14,7 +14,7 @@ Provides access to the list formatting properties of the paragraph.
 public ListFormat ListFormat { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to output all paragraphs in a document that are list items.
 

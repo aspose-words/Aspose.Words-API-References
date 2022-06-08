@@ -14,7 +14,7 @@ Specifies the physical folder where images are saved when exporting a document t
 public string ImagesFolder { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 When you save a [`Document`](../../../aspose.words/document) in HTML format, Aspose.Words needs to save all images embedded in the document as standalone files. `ImagesFolder` allows you to specify where the images will be saved and [`ImagesFolderAlias`](../imagesfolderalias) allows to specify how the image URIs will be constructed.
 
@@ -26,7 +26,7 @@ If the folder specified by `ImagesFolder` doesn't exist, it will be created auto
 
 [`ResourceFolder`](../resourcefolder) is another way to specify a folder where images should be saved.
 
-## Examples
+### Examples
 
 Shows how to specify the folder for storing linked images after saving to .html.
 

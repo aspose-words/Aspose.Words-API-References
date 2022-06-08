@@ -14,7 +14,7 @@ Gets the owner document.
 public DocumentBase Document { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to access a document's style collection.
 

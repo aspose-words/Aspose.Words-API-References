@@ -36,7 +36,7 @@ public class CompareOptions
 | [IgnoreTextboxes](../../aspose.words.comparing/compareoptions/ignoretextboxes) { get; set; } | Specifies whether to compare differences in the data contained within text boxes. By default textboxes are not ignored. |
 | [Target](../../aspose.words.comparing/compareoptions/target) { get; set; } | Specifies which document shall be used as a target during comparison. |
 
-## Examples
+### Examples
 
 Shows how to filter specific types of document elements when making a comparison.
 

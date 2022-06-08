@@ -14,7 +14,7 @@ Gets the right border.
 public Border Right { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to apply border and shading color while building a table.
 

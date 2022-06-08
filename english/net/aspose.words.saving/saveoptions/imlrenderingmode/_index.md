@@ -14,13 +14,13 @@ Gets or sets a value determining how ink (InkML) objects are rendered.
 public ImlRenderingMode ImlRenderingMode { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 The default value is InkML.
 
 This property is used when the document is exported to fixed page formats.
 
-## Examples
+### Examples
 
 Shows how to render Ink object.
 

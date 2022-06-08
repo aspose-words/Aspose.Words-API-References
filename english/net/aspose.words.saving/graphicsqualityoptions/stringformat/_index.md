@@ -14,7 +14,7 @@ Gets or sets text layout information (such as alignment, orientation and tab sto
 public StringFormat StringFormat { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to set render quality options while converting documents to image formats.
 

@@ -14,11 +14,11 @@ Creates picture bullet shape for the current list level.
 public void CreatePictureBullet()
 ```
 
-## Remarks
+### Remarks
 
 Please note, NumberStyle will be set to Bullet and NumberFormat to "\xF0B7" to properly display picture bullet. Red cross image will be set as picture bullet image upon creating. To change it please use [`ImageData`](../imagedata).
 
-## Examples
+### Examples
 
 Shows how to set a custom image icon for list item labels.
 

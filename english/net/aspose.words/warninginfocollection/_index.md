@@ -35,11 +35,11 @@ public class WarningInfoCollection : IEnumerable<WarningInfo>, IWarningCallback
 | [GetEnumerator](../../aspose.words/warninginfocollection/getenumerator)() | Returns an enumerator object that can be used to iterate over all items in the collection. |
 | [Warning](../../aspose.words/warninginfocollection/warning)(WarningInfo) | Implements the [`IWarningCallback`](../iwarningcallback) interface. Adds a warning to this collection. |
 
-## Remarks
+### Remarks
 
 You can use this collection object as the simplest form of [`IWarningCallback`](../iwarningcallback) implementation to gather all warnings that Aspose.Words generates during a load or save operation. Create an instance of this class and assign it to the [`WarningCallback`](../../aspose.words.loading/loadoptions/warningcallback) or [`WarningCallback`](../documentbase/warningcallback) property.
 
-## Examples
+### Examples
 
 Shows how to set the property for finding the closest match for a missing font from the available font sources.
 

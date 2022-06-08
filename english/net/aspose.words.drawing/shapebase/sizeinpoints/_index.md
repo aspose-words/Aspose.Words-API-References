@@ -14,7 +14,7 @@ Gets the size of the shape in points.
 public SizeF SizeInPoints { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to verify a shape's size and markup language.
 

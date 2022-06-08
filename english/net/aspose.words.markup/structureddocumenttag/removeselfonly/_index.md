@@ -14,7 +14,7 @@ Removes just this SDT node itself, but keeps the content of it inside the docume
 public void RemoveSelfOnly()
 ```
 
-## Examples
+### Examples
 
 Shows how to create a structured document tag in a plain text box and modify its appearance.
 

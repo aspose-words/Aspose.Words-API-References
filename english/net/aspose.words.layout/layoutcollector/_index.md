@@ -36,7 +36,7 @@ public class LayoutCollector
 | [GetNumPagesSpanned](../../aspose.words.layout/layoutcollector/getnumpagesspanned)(Node) | Gets number of pages the specified node spans. 0 if node is within a single page. This is the same as [`GetEndPageIndex`](./getendpageindex) - [`GetStartPageIndex`](./getstartpageindex). |
 | [GetStartPageIndex](../../aspose.words.layout/layoutcollector/getstartpageindex)(Node) | Gets 1-based index of the page where node begins. Returns 0 if node cannot be mapped to a page. |
 
-## Remarks
+### Remarks
 
 When you create a [`LayoutCollector`](../layoutcollector) and specify a [`Document`](../../aspose.words/document) document object to attach to, the collector will record mapping of document nodes to layout objects when the document is formatted into pages.
 
@@ -44,7 +44,7 @@ You will be able to find out on which page a particular document node (e.g. run,
 
 When you no longer need to collect layout information, it is best to set the [`Document`](./document) property to null to avoid unnecessary collection of more layout mappings.
 
-## Examples
+### Examples
 
 Shows how to see the the ranges of pages that a node spans.
 

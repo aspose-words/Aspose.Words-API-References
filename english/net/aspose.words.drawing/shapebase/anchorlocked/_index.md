@@ -14,7 +14,7 @@ Specifies whether the shape's anchor is locked.
 public bool AnchorLocked { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 The default value is **false**.
 
@@ -22,7 +22,7 @@ Has effect only for top level shapes.
 
 This property affects behavior of the shape's anchor in Microsoft Word. When the anchor is not locked, moving the shape in Microsoft Word can move the shape's anchor too.
 
-## Examples
+### Examples
 
 Shows how to lock or unlock a shape's paragraph anchor.
 

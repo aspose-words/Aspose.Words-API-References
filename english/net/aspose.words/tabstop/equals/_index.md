@@ -14,7 +14,7 @@ Compares with the specified TabStop.
 public bool Equals(TabStop rhs)
 ```
 
-## Examples
+### Examples
 
 Shows how to work with a document's collection of tab stops.
 

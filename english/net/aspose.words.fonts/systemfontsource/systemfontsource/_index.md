@@ -6,7 +6,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.fonts/systemfontsource/systemfontsource/
 ---
-## SystemFontSource constructor (1 of 2)
+## SystemFontSource() {#constructor}
 
 Ctor.
 
@@ -14,7 +14,7 @@ Ctor.
 public SystemFontSource()
 ```
 
-## Examples
+### Examples
 
 Shows how to access a document's system font source and set font substitutes.
 
@@ -75,7 +75,7 @@ Assert.AreEqual(1,
 
 ---
 
-## SystemFontSource constructor (2 of 2)
+## SystemFontSource(int) {#constructor_1}
 
 Ctor.
 
@@ -87,7 +87,7 @@ public SystemFontSource(int priority)
 | --- | --- | --- |
 | priority | Int32 | Font source priority. See the [`Priority`](../../fontsourcebase/priority) property description for more information. |
 
-## Examples
+### Examples
 
 Shows how to access a document's system font source and set font substitutes.
 

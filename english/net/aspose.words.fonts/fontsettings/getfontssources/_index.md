@@ -18,11 +18,11 @@ public FontSourceBase[] GetFontsSources()
 
 A copy of the current font sources.
 
-## Remarks
+### Remarks
 
 The returned value is a copy of the data that Aspose.Words uses. If you change the entries in the returned array, it will have no effect on document rendering. To specify new font sources use the [`SetFontsSources`](../setfontssources) method.
 
-## Examples
+### Examples
 
 Shows how to add a font source to our existing font sources.
 

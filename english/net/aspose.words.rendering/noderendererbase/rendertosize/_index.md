@@ -26,7 +26,7 @@ public float RenderToSize(Graphics graphics, float x, float y, float width, floa
 
 The scale that was automatically calculated for the rendered shape to fit the specified size.
 
-## Examples
+### Examples
 
 Shows how to render a shape with a Graphics object and display it using a Windows Form.
 

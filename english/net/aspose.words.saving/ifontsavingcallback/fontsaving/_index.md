@@ -14,7 +14,7 @@ Called when Aspose.Words is about to save a font resource.
 public void FontSaving(FontSavingArgs args)
 ```
 
-## Examples
+### Examples
 
 Shows how to define custom logic for exporting fonts when saving to HTML.
 

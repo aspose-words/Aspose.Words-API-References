@@ -14,11 +14,11 @@ Determines whether extra space is removed above and below the text.
 public bool Trim { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 The default value is **false**.
 
-## Examples
+### Examples
 
 Shows how to work with WordArt.
 

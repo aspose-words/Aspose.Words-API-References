@@ -18,11 +18,11 @@ public void SetCount(int newCount)
 | --- | --- | --- |
 | newCount | Int32 | The number of columns the text is to be arranged into. |
 
-## Remarks
+### Remarks
 
 When [`EvenlySpaced`](../evenlyspaced) is **false** and you increase the number of columns, new [`TextColumn`](../../textcolumn) objects are created with zero width and spacing. You need to set width and spacing for the new columns.
 
-## Examples
+### Examples
 
 Shows how to create multiple evenly spaced columns in a section.
 

@@ -14,7 +14,7 @@ Gets or sets the shading texture.
 public TextureIndex Texture { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to decorate text with borders and shading.
 

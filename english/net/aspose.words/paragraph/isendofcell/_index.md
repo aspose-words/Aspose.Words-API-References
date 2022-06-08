@@ -14,7 +14,7 @@ True if this paragraph is the last paragraph in a [`Cell`](../../../aspose.words
 public bool IsEndOfCell { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to set a table to stay together on the same page.
 

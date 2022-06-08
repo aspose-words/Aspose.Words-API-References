@@ -16,7 +16,7 @@ The default value is **false**.
 public bool AddBidiMarks { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to insert Unicode Character 'RIGHT-TO-LEFT MARK' (U+200F) before each bi-directional Run in text.
 

@@ -14,7 +14,7 @@ Contains the Structured Query Language string that shall be run against the spec
 public string Query { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to execute a mail merge with data from an Office Data Source Object.
 

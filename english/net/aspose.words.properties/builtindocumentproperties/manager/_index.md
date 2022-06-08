@@ -14,7 +14,7 @@ Gets or sets the manager property.
 public string Manager { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to work with document properties in the "Origin" category.
 

@@ -25,7 +25,7 @@ public enum HeaderFooterType
 | HeaderFirst | `4` | Header for the first page of the section. |
 | FooterFirst | `5` | Footer for the first page of the section. |
 
-## Examples
+### Examples
 
 Shows how to create headers and footers in a document using DocumentBuilder.
 

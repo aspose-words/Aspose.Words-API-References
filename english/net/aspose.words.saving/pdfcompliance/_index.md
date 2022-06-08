@@ -27,7 +27,7 @@ public enum PdfCompliance
 | PdfA4 | `6` | The output file will comply with the PDF/A-4 (ISO 19005-4:2020) standard. PDF/A-4 has the objective of preserving document static visual appearance over time, independent of the tools and systems used for creating, storing or rendering the files. Additionally any text contained in the document can be reliably extracted as a series of Unicode codepoints. |
 | PdfUa1 | `7` | The output file will comply with the PDF/UA-1 (ISO 14289-1) standard. The primary purpose of PDF/UA is to define how to represent electronic documents in the PDF format in a manner that allows the file to be accessible. |
 
-## Examples
+### Examples
 
 Shows how to set the PDF standards compliance level of saved PDF documents.
 

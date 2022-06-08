@@ -14,7 +14,7 @@ Specifies whether changes are tracked by character or by word. Default value is 
 public Granularity Granularity { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows to specify a granularity while comparing documents.
 

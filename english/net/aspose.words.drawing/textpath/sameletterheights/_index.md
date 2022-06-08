@@ -14,11 +14,11 @@ Determines whether all letters will be the same height regardless of initial cas
 public bool SameLetterHeights { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 The default value is **false**.
 
-## Examples
+### Examples
 
 Shows how to work with WordArt.
 

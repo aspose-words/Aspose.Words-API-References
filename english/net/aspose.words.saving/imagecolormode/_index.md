@@ -22,7 +22,7 @@ public enum ImageColorMode
 | Grayscale | `1` | The pages of the document will be rendered as grayscale images. |
 | BlackAndWhite | `2` | The pages of the document will be rendered as black and white images. |
 
-## Examples
+### Examples
 
 Shows how to set a color mode when rendering documents.
 

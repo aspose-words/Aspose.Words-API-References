@@ -22,7 +22,7 @@ public enum ReplaceAction
 | Skip | `1` | Skip the current match. |
 | Stop | `2` | Terminate the replace operation. |
 
-## Examples
+### Examples
 
 Shows how to insert an entire document's contents as a replacement of a match in a find-and-replace operation.
 

@@ -14,7 +14,7 @@ Removes the bookmark from the document. Does not remove text inside the bookmark
 public void Remove()
 ```
 
-## Examples
+### Examples
 
 Shows how to remove bookmarks from a document.
 

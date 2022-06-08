@@ -27,7 +27,7 @@ public enum ImageType
 | Png | `6` | Portable Network Graphics. |
 | Bmp | `7` | Windows Bitmap. |
 
-## Examples
+### Examples
 
 Shows how to add an image to a shape and check its type.
 

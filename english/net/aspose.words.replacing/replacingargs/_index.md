@@ -25,7 +25,7 @@ public class ReplacingArgs
 | [MatchOffset](../../aspose.words.replacing/replacingargs/matchoffset) { get; } | Gets the zero-based starting position of the match from the start of the node that contains the beginning of the match. |
 | [Replacement](../../aspose.words.replacing/replacingargs/replacement) { get; set; } | Gets or sets the replacement string. |
 
-## Examples
+### Examples
 
 Shows how to replace all occurrences of a regular expression pattern with another string, while tracking all such replacements.
 

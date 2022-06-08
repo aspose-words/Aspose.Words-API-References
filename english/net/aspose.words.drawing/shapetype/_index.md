@@ -269,7 +269,7 @@ public enum ShapeType
 | ChartX | `246` | Chart X. |
 | MinValue | `-2` | Reserved for the system use. |
 
-## Examples
+### Examples
 
 Shows how to insert a shape with an image from the local file system into a document.
 

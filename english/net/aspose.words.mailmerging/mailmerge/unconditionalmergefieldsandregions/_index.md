@@ -14,11 +14,11 @@ Gets or sets a value indicating whether merge fields and merge regions are merge
 public bool UnconditionalMergeFieldsAndRegions { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 The default value is **false**.
 
-## Examples
+### Examples
 
 Shows how to merge fields or regions regardless of the parent IF field's condition.
 

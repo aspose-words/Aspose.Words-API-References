@@ -14,7 +14,7 @@ Gets the horizontal resolution in DPI.
 public double HorizontalResolution { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to read the properties of an image in a shape.
 

@@ -14,7 +14,7 @@ Gets or sets a boolean value indicating either to ignore footnotes. The default 
 public bool IgnoreFootnotes { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to ignore footnotes during a find-and-replace operation.
 

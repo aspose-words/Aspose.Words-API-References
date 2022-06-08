@@ -14,7 +14,7 @@ Returns true when a write protection password is set.
 public bool IsWriteProtected { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to protect a document with a password.
 

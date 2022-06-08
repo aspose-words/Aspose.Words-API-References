@@ -14,7 +14,7 @@ Provides access to the paragraph formatting properties.
 public FrameFormat FrameFormat { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to get information about formatting properties of paragraphs that are frames.
 

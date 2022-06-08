@@ -14,7 +14,7 @@ Returns an enumerator object that can be used to iterate over all items in the c
 public IEnumerator<OdsoRecipientData> GetEnumerator()
 ```
 
-## Examples
+### Examples
 
 Shows how to access the collection of data that designates which merge data source records a mail merge will exclude.
 

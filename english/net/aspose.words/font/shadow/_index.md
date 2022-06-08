@@ -14,7 +14,7 @@ True if the font is formatted as shadowed.
 public bool Shadow { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to create a run of text formatted with a shadow.
 

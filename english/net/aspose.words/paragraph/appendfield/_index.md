@@ -6,7 +6,7 @@ type: docs
 weight: 240
 url: /net/aspose.words/paragraph/appendfield/
 ---
-## Paragraph.AppendField method (1 of 3)
+## AppendField(FieldType, bool) {#appendfield}
 
 Appends a field to this paragraph.
 
@@ -23,7 +23,7 @@ public Field AppendField(FieldType fieldType, bool updateField)
 
 A [`Field`](../../../aspose.words.fields/field) object that represents the appended field.
 
-## Examples
+### Examples
 
 Shows various ways of appending fields to a paragraph.
 
@@ -61,7 +61,7 @@ doc.Save(ArtifactsDir + "Paragraph.AppendField.docx");
 
 ---
 
-## Paragraph.AppendField method (2 of 3)
+## AppendField(string) {#appendfield_1}
 
 Appends a field to this paragraph.
 
@@ -77,7 +77,7 @@ public Field AppendField(string fieldCode)
 
 A [`Field`](../../../aspose.words.fields/field) object that represents the appended field.
 
-## Examples
+### Examples
 
 Shows various ways of appending fields to a paragraph.
 
@@ -114,7 +114,7 @@ doc.Save(ArtifactsDir + "Paragraph.AppendField.docx");
 
 ---
 
-## Paragraph.AppendField method (3 of 3)
+## AppendField(string, string) {#appendfield_2}
 
 Appends a field to this paragraph.
 
@@ -131,7 +131,7 @@ public Field AppendField(string fieldCode, string fieldValue)
 
 A [`Field`](../../../aspose.words.fields/field) object that represents the appended field.
 
-## Examples
+### Examples
 
 Shows various ways of appending fields to a paragraph.
 

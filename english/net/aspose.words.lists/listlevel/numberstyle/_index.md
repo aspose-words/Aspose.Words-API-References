@@ -14,7 +14,7 @@ Returns or sets the number style for this list level.
 public NumberStyle NumberStyle { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to apply custom list formatting to paragraphs when using DocumentBuilder.
 

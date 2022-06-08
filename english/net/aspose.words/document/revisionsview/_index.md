@@ -14,11 +14,11 @@ Gets or sets a value indicating whether to work with the original or revised ver
 public RevisionsView RevisionsView { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 The default value is .
 
-## Examples
+### Examples
 
 Shows how to switch between the revised and the original view of a document.
 

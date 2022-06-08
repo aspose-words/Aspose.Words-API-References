@@ -22,7 +22,7 @@ public enum EmfPlusDualRenderingMode
 | EmfPlus | `1` | Aspose.Words renders EMF+ part of EMF+ Dual metafile. |
 | Emf | `2` | Aspose.Words renders EMF part of EMF+ Dual metafile. |
 
-## Examples
+### Examples
 
 Shows how to configure Enhanced Windows Metafile-related rendering options when saving to PDF.
 

@@ -14,7 +14,7 @@ Specifies whether this style is shown in the Quick Style gallery inside MS Word 
 public bool IsQuickStyle { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to access a document's style collection.
 

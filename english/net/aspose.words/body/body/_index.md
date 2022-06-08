@@ -18,13 +18,13 @@ public Body(DocumentBase doc)
 | --- | --- | --- |
 | doc | DocumentBase | The owner document. |
 
-## Remarks
+### Remarks
 
 When **Body** is created, it belongs to the specified document, but is not yet part of the document and **ParentNode** is null.
 
 To append **Body** to a **Section** use Section.InsertAfter or Section.InsertBefore.
 
-## Examples
+### Examples
 
 Shows how to construct an Aspose.Words document by hand.
 

@@ -21,13 +21,13 @@ public class TextColumn
 | [SpaceAfter](../../aspose.words/textcolumn/spaceafter) { get; set; } | Gets or sets the space between this column and the next column in points. Not required for the last column. |
 | [Width](../../aspose.words/textcolumn/width) { get; set; } | Gets or sets the width of the text column in points. |
 
-## Remarks
+### Remarks
 
 **TextColumn** objects are only used to specify columns with custom width and spacing. If you want the columns in the document to be of equal width, set TextColumns.[`EvenlySpaced`](../textcolumncollection/evenlyspaced) to **true**.
 
 When a new **TextColumn** is created it has its width and spacing set to zero.
 
-## Examples
+### Examples
 
 Shows how to create unevenly spaced columns.
 

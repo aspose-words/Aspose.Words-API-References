@@ -14,7 +14,7 @@ Specifies the encoding to use when exporting to HTML. Default value is `new UTF8
 public Encoding Encoding { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to set which encoding to use while exporting a document to HTML.
 

@@ -18,7 +18,7 @@ public override string GetText()
 
 An empty string.
 
-## Examples
+### Examples
 
 Shows how to add bookmarks and update their contents.
 

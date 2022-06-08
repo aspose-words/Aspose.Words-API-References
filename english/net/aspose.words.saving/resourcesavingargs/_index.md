@@ -24,7 +24,7 @@ public class ResourceSavingArgs
 | [ResourceFileUri](../../aspose.words.saving/resourcesavingargs/resourcefileuri) { get; set; } | Gets or sets the uniform resource identifier (URI) used to reference the resource file from the document. |
 | [ResourceStream](../../aspose.words.saving/resourcesavingargs/resourcestream) { get; set; } | Allows to specify the stream where the resource will be saved to. |
 
-## Remarks
+### Remarks
 
 By default, when Aspose.Words saves a document to fixed page HTML or SVG, it saves each resource into a separate file. Aspose.Words uses the document file name and a unique number to generate unique file name for each resource found in the document.
 
@@ -34,7 +34,7 @@ To apply your own logic for generating resource file names use the [`ResourceFil
 
 To save resources into streams instead of files, use the [`ResourceStream`](./resourcestream) property.
 
-## Examples
+### Examples
 
 Shows how to use a callback to track external resources created while converting a document to HTML.
 

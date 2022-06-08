@@ -14,11 +14,11 @@ Specifies the scaling value of the display units for the value axis.
 public AxisDisplayUnit DisplayUnit { get; }
 ```
 
-## Remarks
+### Remarks
 
 The property has effect only for value axes.
 
-## Examples
+### Examples
 
 Shows how to manipulate the tick marks and displayed values of a chart axis.
 

@@ -14,7 +14,7 @@ Gets or sets whether to insert the relative position of the referenced paragraph
 public bool InsertRelativePosition { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to use STYLEREF fields.
 

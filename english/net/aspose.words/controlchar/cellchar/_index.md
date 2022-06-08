@@ -14,7 +14,7 @@ End of a table cell or end of a table row character: (char)7 or "\a".
 public const char CellChar;
 ```
 
-## Examples
+### Examples
 
 Shows how to add various control characters to a document.
 

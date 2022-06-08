@@ -14,11 +14,11 @@ Gets or sets a value between 0.0 (opaque) and 1.0 (clear) representing the degre
 public double Transparency { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 The default value is 0.
 
-## Examples
+### Examples
 
 Show how to set marker formatting.
 

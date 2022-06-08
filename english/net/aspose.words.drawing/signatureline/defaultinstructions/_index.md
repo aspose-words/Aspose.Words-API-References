@@ -14,7 +14,7 @@ Gets or sets a value indicating that default instructions is shown in the Sign d
 public bool DefaultInstructions { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to create a line for a signature and insert it into a document.
 

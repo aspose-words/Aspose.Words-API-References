@@ -22,11 +22,11 @@ public virtual VisitorAction VisitBuildingBlockEnd(BuildingBlock block)
 
 A [`VisitorAction`](../../visitoraction) value that specifies how to continue the enumeration.
 
-## Remarks
+### Remarks
 
 Note: A building block node and its children are not visited when you execute a Visitor over a [`Document`](../../document). If you want to execute a Visitor over a building block, you need to execute the visitor over [`GlossaryDocument`](../../../aspose.words.buildingblocks/glossarydocument) or call [`Accept`](../../../aspose.words.buildingblocks/buildingblock/accept).
 
-## Examples
+### Examples
 
 Shows ways of accessing building blocks in a glossary document.
 

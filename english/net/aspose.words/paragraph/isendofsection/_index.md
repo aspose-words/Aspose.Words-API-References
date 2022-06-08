@@ -14,7 +14,7 @@ True if this paragraph is the last paragraph in the **Body** (main text story) o
 public bool IsEndOfSection { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to insert the contents of one document to a bookmark in another document.
 

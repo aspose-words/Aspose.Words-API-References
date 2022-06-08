@@ -14,7 +14,7 @@ Gets or sets whether to insert the paragraph number of the referenced paragraph 
 public bool InsertParagraphNumberInFullContext { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to insert REF fields to reference bookmarks.
 

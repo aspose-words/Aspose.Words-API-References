@@ -14,11 +14,11 @@ Gets or sets the value of the property.
 public object Value { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 Cannot be null.
 
-## Examples
+### Examples
 
 Shows how to work with built-in document properties.
 

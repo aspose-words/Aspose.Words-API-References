@@ -22,7 +22,7 @@ public GeneralFormat this[int index] { get; }
 
 A general format.
 
-## Examples
+### Examples
 
 Shows how to format field results.
 

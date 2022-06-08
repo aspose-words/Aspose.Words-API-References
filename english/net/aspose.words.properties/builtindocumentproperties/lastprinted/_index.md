@@ -14,7 +14,7 @@ Gets or sets the date when the document was last printed in UTC.
 public DateTime LastPrinted { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 For documents originated from RTF format this property returns the local time of last print operation.
 
@@ -22,7 +22,7 @@ If the document was never printed, this property will return DateTime.MinValue.
 
 Aspose.Words does not update this property.
 
-## Examples
+### Examples
 
 Shows how to work with document properties in the "Origin" category.
 

@@ -31,7 +31,7 @@ public class TextColumnCollection
 | --- | --- |
 | [SetCount](../../aspose.words/textcolumncollection/setcount)(int) | Arranges text into the specified number of text columns. |
 
-## Remarks
+### Remarks
 
 Use [`SetCount`](./setcount) to set the number of text columns.
 
@@ -41,7 +41,7 @@ If you have **EvenlySpaced** set to **false**, you need to specify width and spa
 
 When using custom column widths, make sure the sum of all column widths and spacings between them equals page width minus left and right page margins.
 
-## Examples
+### Examples
 
 Shows how to create multiple evenly spaced columns in a section.
 

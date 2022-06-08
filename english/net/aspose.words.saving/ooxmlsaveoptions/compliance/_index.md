@@ -14,7 +14,7 @@ Specifies the OOXML version for the output document. The default value is Ecma37
 public OoxmlCompliance Compliance { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to insert DML shapes into a document.
 

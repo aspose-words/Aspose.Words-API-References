@@ -20,13 +20,13 @@ public double WidthPercent { get; set; }
 | --- | --- |
 | ArgumentOutOfRangeException | Throws when argument was out of the range of valid values. |
 
-## Remarks
+### Remarks
 
 Valid values ​​range from 1 to 100 inclusive.
 
 The default value is 100.
 
-## Examples
+### Examples
 
 Shows how to insert a horizontal rule shape, and customize its formatting.
 

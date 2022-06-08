@@ -14,11 +14,11 @@ Returns or sets the position (in points) for the second line of wrapping text fo
 public double TextPosition { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 `TextPosition` corresponds to LeftIndent of the paragraph.
 
-## Examples
+### Examples
 
 Shows how to apply custom list formatting to paragraphs when using DocumentBuilder.
 

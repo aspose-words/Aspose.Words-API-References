@@ -14,11 +14,11 @@ Starts a new default bulleted list and applies it to the paragraph.
 public void ApplyBulletDefault()
 ```
 
-## Remarks
+### Remarks
 
 This is a shortcut method that creates a new list using the default bulleted template, applies it to the paragraph and selects the 1st list level.
 
-## Examples
+### Examples
 
 Shows how to create bulleted and numbered lists.
 

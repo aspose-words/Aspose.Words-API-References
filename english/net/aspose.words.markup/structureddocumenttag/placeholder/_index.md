@@ -14,11 +14,11 @@ Gets the [`BuildingBlock`](../../../aspose.words.buildingblocks/buildingblock) c
 public BuildingBlock Placeholder { get; }
 ```
 
-## Remarks
+### Remarks
 
 Can be null, meaning that the placeholder is not applicable for this Sdt.
 
-## Examples
+### Examples
 
 Shows how to use a building block's contents as a custom placeholder text for a structured document tag.
 

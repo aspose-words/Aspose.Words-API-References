@@ -19,7 +19,7 @@ public void Add(string name, string value)
 | name | String | The case-insensitive name of the variable to add. |
 | value | String | The value of the variable. The value cannot be null, if value is null empty string will be used instead. |
 
-## Examples
+### Examples
 
 Shows how to work with a document's variable collection.
 

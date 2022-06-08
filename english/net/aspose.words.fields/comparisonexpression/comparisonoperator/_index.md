@@ -14,7 +14,7 @@ Gets the comparison operator.
 public string ComparisonOperator { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to implement custom evaluation for the IF and COMPARE fields.
 

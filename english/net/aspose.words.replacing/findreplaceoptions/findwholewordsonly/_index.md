@@ -14,7 +14,7 @@ True indicates the oldValue must be a standalone word.
 public bool FindWholeWordsOnly { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to toggle standalone word-only find-and-replace operations.
 

@@ -14,7 +14,7 @@ True if this is the first cell inside a row; false otherwise.
 public bool IsFirstCell { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to print the node structure of every table in a document.
 

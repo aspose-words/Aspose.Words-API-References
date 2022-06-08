@@ -14,7 +14,7 @@ Gets or sets the line spacing for the paragraph.
 public LineSpacingRule LineSpacingRule { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to work with line spacing.
 

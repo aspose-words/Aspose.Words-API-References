@@ -14,7 +14,7 @@ Specifies whether images are scaled by Aspose.Words to the bounding shape size w
 public bool ScaleImageToShapeSize { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 An image in a Microsoft Word document is a shape. The shape has a size and the image has its own size. The sizes are not directly linked. For example, the image can be 1024x786 pixels, but shape that displays this image can be 400x300 points.
 
@@ -24,7 +24,7 @@ When `ScaleImageToShapeSize` is `true`, the image is scaled by Aspose.Words usin
 
 In general, browsers do quick and poor quality scaling. As a result, you will normally get better display quality in the browser and smaller file size when `ScaleImageToShapeSize` is `true`, but better printing quality and faster conversion when `ScaleImageToShapeSize` is `false`.
 
-## Examples
+### Examples
 
 Shows how to disable the scaling of images to their parent shape dimensions when saving to .html.
 

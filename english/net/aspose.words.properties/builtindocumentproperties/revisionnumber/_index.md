@@ -14,11 +14,11 @@ Gets or sets the document revision number.
 public int RevisionNumber { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 Aspose.Words does not update this property.
 
-## Examples
+### Examples
 
 Shows how to work with REVNUM fields.
 

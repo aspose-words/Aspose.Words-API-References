@@ -14,13 +14,13 @@ Gets/Sets current state of the Checkbox **SDT**. Default value for this property
 public bool Checked { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 Accessing this property will only work for Checkbox SDT types.
 
 For all other SDT types exception will occur.
 
-## Examples
+### Examples
 
 Show how to create a structured document tag in the form of a check box.
 

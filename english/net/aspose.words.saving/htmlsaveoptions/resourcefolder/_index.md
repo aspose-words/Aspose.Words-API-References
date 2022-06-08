@@ -14,7 +14,7 @@ Specifies a physical folder where all resources like images, fonts, and external
 public string ResourceFolder { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 `ResourceFolder` is the simplest way to specify a folder where all resources should be written. Another way is to use individual properties [`FontsFolder`](../fontsfolder), [`ImagesFolder`](../imagesfolder), and [`CssStyleSheetFileName`](../cssstylesheetfilename).
 
@@ -22,7 +22,7 @@ public string ResourceFolder { get; set; }
 
 If the folder specified by `ResourceFolder` doesn't exist, it will be created automatically.
 
-## Examples
+### Examples
 
 Shows how to set folders and folder aliases for externally saved resources that Aspose.Words will create when saving a document to HTML.
 

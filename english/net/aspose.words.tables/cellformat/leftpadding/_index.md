@@ -14,7 +14,7 @@ Returns or sets the amount of space (in points) to add to the left of the conten
 public double LeftPadding { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to format cells with a document builder.
 

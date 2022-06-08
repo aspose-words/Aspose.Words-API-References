@@ -28,7 +28,7 @@ public class PdfEncryptionDetails
 | [Permissions](../../aspose.words.saving/pdfencryptiondetails/permissions) { get; set; } | Specifies the operations that are allowed to a user on an encrypted PDF document. The default value is DisallowAll. |
 | [UserPassword](../../aspose.words.saving/pdfencryptiondetails/userpassword) { get; set; } | Specifies the user password required for opening the encrypted PDF document. |
 
-## Examples
+### Examples
 
 Shows how to set permissions on a saved PDF document.
 

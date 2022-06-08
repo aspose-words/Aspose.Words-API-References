@@ -14,7 +14,7 @@ Gets or sets the starting value for this field.
 public string StartingNumber { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to number paragraphs with LISTNUM fields.
 

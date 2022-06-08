@@ -18,8 +18,8 @@ public class DocSaveOptions : SaveOptions
 
 | Name | Description |
 | --- | --- |
-| [DocSaveOptions](docsaveoptions)() | Initializes a new instance of this class that can be used to save a document in the Doc format. |
-| [DocSaveOptions](docsaveoptions)(SaveFormat) | Initializes a new instance of this class that can be used to save a document in the Doc or Dot format. |
+| [DocSaveOptions](docsaveoptions#constructor)() | Initializes a new instance of this class that can be used to save a document in the Doc format. |
+| [DocSaveOptions](docsaveoptions#constructor_1)(SaveFormat) | Initializes a new instance of this class that can be used to save a document in the Doc or Dot format. |
 
 ## Properties
 
@@ -51,11 +51,11 @@ public class DocSaveOptions : SaveOptions
 | [UseAntiAliasing](../../aspose.words.saving/saveoptions/useantialiasing) { get; set; } | Gets or sets a value determining whether or not to use anti-aliasing for rendering. |
 | [UseHighQualityRendering](../../aspose.words.saving/saveoptions/usehighqualityrendering) { get; set; } | Gets or sets a value determining whether or not to use high quality (i.e. slow) rendering algorithms. |
 
-## Remarks
+### Remarks
 
 At the moment provides only the [`SaveFormat`](./saveformat) property, but in the future will have other options added, such as an encryption password or digital signature settings.
 
-## Examples
+### Examples
 
 Shows how to set save options for older Microsoft Word formats.
 

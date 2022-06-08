@@ -14,7 +14,7 @@ Specifies whether to display grammar errors in this document.
 public bool ShowGrammaticalErrors { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to show/hide errors in the document.
 

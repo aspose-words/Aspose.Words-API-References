@@ -14,7 +14,7 @@ Provides access to the chart legend properties.
 public ChartLegend Legend { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to edit the appearance of a chart's legend.
 

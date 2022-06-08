@@ -14,7 +14,7 @@ Gets a value indicating whether a page number separator is overridden through th
 public bool HasPageNumberSeparator { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to edit the page number separator in an INDEX field.
 

@@ -46,7 +46,7 @@ public enum LoadFormat
 | Xml | `65` | XML document. |
 | Unknown | `255` | Unrecognized format, cannot be loaded by Aspose.Words. |
 
-## Examples
+### Examples
 
 Shows how save a web page as a .docx file.
 

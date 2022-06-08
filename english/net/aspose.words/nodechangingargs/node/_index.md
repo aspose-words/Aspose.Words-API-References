@@ -14,7 +14,7 @@ Gets the `Node` that is being added or removed.
 public Node Node { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how customize node changing with a callback.
 

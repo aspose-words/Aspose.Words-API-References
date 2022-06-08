@@ -14,7 +14,7 @@ Gets the 1-based index of a page which contains the current entity.
 public int PageIndex { get; }
 ```
 
-## Examples
+### Examples
 
 Shows ways of traversing a document's layout entities.
 

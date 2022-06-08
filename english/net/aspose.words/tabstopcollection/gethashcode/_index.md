@@ -14,7 +14,7 @@ Serves as a hash function for this type.
 public override int GetHashCode()
 ```
 
-## Examples
+### Examples
 
 Shows how to work with a document's collection of tab stops.
 

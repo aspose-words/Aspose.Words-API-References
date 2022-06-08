@@ -14,7 +14,7 @@ Returns the subject distinguished name of the certificate isuuer.
 public string IssuerName { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to sign documents with X.509 certificates.
 

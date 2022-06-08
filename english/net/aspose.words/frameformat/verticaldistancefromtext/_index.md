@@ -14,7 +14,7 @@ Specifies vertical distance (in points) between a frame and the surrounding text
 public double VerticalDistanceFromText { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to get information about formatting properties of paragraphs that are frames.
 

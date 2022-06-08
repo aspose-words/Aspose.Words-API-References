@@ -14,7 +14,7 @@ Gets or sets the informational name of the document template.
 public string Template { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 In Microsoft Word, this property is for informational purposes only and usually contains only the file name of the template without the path.
 
@@ -22,7 +22,7 @@ Empty string means the document is attached to the Normal template.
 
 To get or set the actual name of the attached template, use the [`AttachedTemplate`](../../../aspose.words/document/attachedtemplate) property.
 
-## Examples
+### Examples
 
 Shows how to work with document properties in the "Origin" category.
 

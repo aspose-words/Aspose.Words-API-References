@@ -22,7 +22,7 @@ public double GetPositionByIndex(int index)
 
 The position of the tab stop.
 
-## Examples
+### Examples
 
 Shows how to find a tab, stop by its index and verify its position.
 

@@ -18,9 +18,9 @@ public class OdtSaveOptions : SaveOptions
 
 | Name | Description |
 | --- | --- |
-| [OdtSaveOptions](odtsaveoptions)() | Initializes a new instance of this class that can be used to save a document in the Odt format. |
-| [OdtSaveOptions](odtsaveoptions)(SaveFormat) | Initializes a new instance of this class that can be used to save a document in the Odt or Ott format. |
-| [OdtSaveOptions](odtsaveoptions)(string) | Initializes a new instance of this class that can be used to save a document in the Odt format encrypted with a password. |
+| [OdtSaveOptions](odtsaveoptions#constructor)() | Initializes a new instance of this class that can be used to save a document in the Odt format. |
+| [OdtSaveOptions](odtsaveoptions#constructor_1)(SaveFormat) | Initializes a new instance of this class that can be used to save a document in the Odt or Ott format. |
+| [OdtSaveOptions](odtsaveoptions#constructor_2)(string) | Initializes a new instance of this class that can be used to save a document in the Odt format encrypted with a password. |
 
 ## Properties
 
@@ -51,11 +51,11 @@ public class OdtSaveOptions : SaveOptions
 | [UseAntiAliasing](../../aspose.words.saving/saveoptions/useantialiasing) { get; set; } | Gets or sets a value determining whether or not to use anti-aliasing for rendering. |
 | [UseHighQualityRendering](../../aspose.words.saving/saveoptions/usehighqualityrendering) { get; set; } | Gets or sets a value determining whether or not to use high quality (i.e. slow) rendering algorithms. |
 
-## Remarks
+### Remarks
 
 At the moment provides only the [`SaveFormat`](./saveformat) property, but in the future will have other options added, such as an encryption password or digital signature settings.
 
-## Examples
+### Examples
 
 Shows how to make a saved document conform to an older ODT schema.
 

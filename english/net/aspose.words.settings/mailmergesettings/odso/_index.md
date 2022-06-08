@@ -14,11 +14,11 @@ Gets or sets the object that specifies the Office Data Source Object (ODSO) sett
 public Odso Odso { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 This object is never null.
 
-## Examples
+### Examples
 
 Shows how to execute a mail merge with data from an Office Data Source Object.
 

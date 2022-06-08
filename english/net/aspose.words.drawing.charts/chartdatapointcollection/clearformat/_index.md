@@ -14,7 +14,7 @@ Clears format of all [`ChartDataPoint`](../../chartdatapoint) in this collection
 public void ClearFormat()
 ```
 
-## Examples
+### Examples
 
 Shows how to work with data points on a line chart.
 

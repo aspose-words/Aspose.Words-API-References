@@ -14,7 +14,7 @@ Gets or sets whether to open the destination site in a new web browser window.
 public bool OpenInNewWindow { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to use HYPERLINK fields to link to documents in the local file system.
 

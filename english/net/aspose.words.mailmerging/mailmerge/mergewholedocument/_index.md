@@ -14,11 +14,11 @@ Gets or sets a value indicating whether fields in whole document are updated whi
 public bool MergeWholeDocument { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 The default value is **false**.
 
-## Examples
+### Examples
 
 Shows the relationship between mail merges with regions, and field updating.
 

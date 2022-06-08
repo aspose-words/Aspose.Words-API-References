@@ -14,13 +14,13 @@ Gets or sets the time of the last save in UTC.
 public DateTime LastSavedTime { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 For documents originated from RTF format this property returns the local time of last save operation.
 
 Aspose.Words does not update this property.
 
-## Examples
+### Examples
 
 Shows how to work with document properties in the "Origin" category.
 

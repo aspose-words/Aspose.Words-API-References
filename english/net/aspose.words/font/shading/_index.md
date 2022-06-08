@@ -14,7 +14,7 @@ Returns a Shading object that refers to the shading formatting for the font.
 public Shading Shading { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to apply shading to text created by a document builder.
 

@@ -14,7 +14,7 @@ Gets or sets whether to insert the next sequence number for the specified item.
 public bool InsertNextNumber { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows create numbering using SEQ fields.
 

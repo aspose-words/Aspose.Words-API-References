@@ -14,11 +14,11 @@ Specifies whether images are saved in Base64 format to the output HTML, MHTML or
 public bool ExportImagesAsBase64 { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 When this property is set to `true` images data are exported directly into the **img** elements and separate files are not created.
 
-## Examples
+### Examples
 
 Shows how to embed fonts inside a saved HTML document.
 

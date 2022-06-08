@@ -14,7 +14,7 @@ Type of resource.
 public ResourceType ResourceType { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to customize the process of loading external resources into a document.
 

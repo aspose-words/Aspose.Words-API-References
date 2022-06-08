@@ -14,11 +14,11 @@ Defines alternative text to be displayed instead of a graphic.
 public string AlternativeText { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 The default value is an empty string.
 
-## Examples
+### Examples
 
 Shows how to use a shape's alternative text.
 

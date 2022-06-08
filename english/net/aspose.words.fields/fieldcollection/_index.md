@@ -30,7 +30,7 @@ public class FieldCollection : IEnumerable<Field>
 | [Remove](../../aspose.words.fields/fieldcollection/remove)(Field) | Removes the specified field from this collection and from the document. |
 | [RemoveAt](../../aspose.words.fields/fieldcollection/removeat)(int) | Removes a field at the specified index from this collection and from the document. |
 
-## Remarks
+### Remarks
 
 An instance of this collection iterates fields which start fall within the specified range.
 
@@ -38,7 +38,7 @@ The [`FieldCollection`](../fieldcollection) collection does not own the fields i
 
 The [`FieldCollection`](../fieldcollection) collection is "live", i.e. changes to the children of the node object that it was created from are immediately reflected in the fields returned by the [`FieldCollection`](../fieldcollection) properties and methods.
 
-## Examples
+### Examples
 
 Shows how to remove fields from a field collection.
 

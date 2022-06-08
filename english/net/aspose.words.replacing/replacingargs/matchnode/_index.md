@@ -14,7 +14,7 @@ Gets the node that contains the beginning of the match.
 public Node MatchNode { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to insert an entire document's contents as a replacement of a match in a find-and-replace operation.
 

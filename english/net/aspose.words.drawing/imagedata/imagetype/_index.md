@@ -14,7 +14,7 @@ Gets the type of the image.
 public ImageType ImageType { get; }
 ```
 
-## Examples
+### Examples
 
 Shows how to extract images from a document, and save them to the local file system as individual files.
 

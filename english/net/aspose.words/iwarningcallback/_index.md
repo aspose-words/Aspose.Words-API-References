@@ -20,7 +20,7 @@ public interface IWarningCallback
 | --- | --- |
 | [Warning](../../aspose.words/iwarningcallback/warning)(WarningInfo) | Aspose.Words invokes this method when it encounters some issue during document loading or saving that might result in loss of formatting or data fidelity. |
 
-## Examples
+### Examples
 
 Shows how to use the IWarningCallback interface to monitor font substitution warnings.
 

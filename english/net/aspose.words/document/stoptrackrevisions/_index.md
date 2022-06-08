@@ -14,7 +14,7 @@ Stops automatic marking of document changes as revisions.
 public void StopTrackRevisions()
 ```
 
-## Examples
+### Examples
 
 Shows how to track revisions while editing a document.
 

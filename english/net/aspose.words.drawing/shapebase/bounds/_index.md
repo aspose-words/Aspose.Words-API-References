@@ -14,7 +14,7 @@ Gets or sets the location and size of the containing block of the shape.
 public RectangleF Bounds { get; set; }
 ```
 
-## Remarks
+### Remarks
 
 Ignores aspect ratio lock upon setting.
 
@@ -22,7 +22,7 @@ For a top-level shape, the value is in points and relative to the shape anchor.
 
 For shapes in a group, the value is in the coordinate space and units of the parent group.
 
-## Examples
+### Examples
 
 Shows how to verify shape containing block boundaries.
 

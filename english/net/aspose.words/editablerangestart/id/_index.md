@@ -14,7 +14,7 @@ Specifies the identifier of the editable range.
 public int Id { get; set; }
 ```
 
-## Examples
+### Examples
 
 Shows how to work with an editable range.
 

@@ -24,7 +24,7 @@ public class FontSubstitutionSettings
 | [FontNameSubstitution](../../aspose.words.fonts/fontsubstitutionsettings/fontnamesubstitution) { get; } | Settings related to font name substitution rule. |
 | [TableSubstitution](../../aspose.words.fonts/fontsubstitutionsettings/tablesubstitution) { get; } | Settings related to table substitution rule. |
 
-## Remarks
+### Remarks
 
 Font substitution process consists of several rules which are checked one by one in specific order. If the first rule can't resolve the font then second rule is checked and so on.
 
@@ -34,7 +34,7 @@ Note that font info substitution rule will always resolve the font if [`FontInfo
 
 Note that font config substitution rule will resolve the font in most cases and thus overrides all other rules.
 
-## Examples
+### Examples
 
 Shows how to access a document's system font source and set font substitutes.
 

@@ -48,13 +48,13 @@ public class FieldMacroButton : Field
 | [Update](../../aspose.words.fields/field/update)() | Performs the field update. Throws if the field is being updated already. |
 | [Update](../../aspose.words.fields/field/update)(bool) | Performs a field update. Throws if the field is being updated already. |
 
-## Remarks
+### Remarks
 
 Allows a macro or command to be run.
 
 In Aspose.Words this field can also act as a merge field.
 
-## Examples
+### Examples
 
 Shows how to use MACROBUTTON fields to allow us to run a document's macros by clicking.
 

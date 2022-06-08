@@ -18,7 +18,7 @@ public void Remove(VbaModule module)
 | --- | --- | --- |
 | module | VbaModule | The module to remove. |
 
-## Examples
+### Examples
 
 Shows how to access a document's VBA project information.
 
