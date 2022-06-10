@@ -1,0 +1,189 @@
+---
+title: Id
+second_title: Справочник по API Aspose.Words для .NET
+description: Получает идентификатор комментария.
+type: docs
+weight: 60
+url: /ru/net/aspose.words/comment/id/
+---
+## Comment.Id property
+
+Получает идентификатор комментария.
+
+```csharp
+public int Id { get; }
+```
+
+### Примечания
+
+Идентификатор комментария позволяет привязать комментарий к области текста в документе. Область должна быть разграничена с помощью[`CommentRangeStart`](../../commentrangestart)и[`CommentRangeEnd`](../../commentrangeend) Объект с тем же значением идентификатора, что и объект[`Comment`](../../comment).
+
+Вы должны использовать это значение при поиске[`CommentRangeStart`](../../commentrangestart)и [`CommentRangeEnd`](../../commentrangeend)узлы, связанные с этим комментарием.
+
+Идентификаторы комментариев должны быть уникальными в документе, и Aspose.Words автоматически поддерживает идентификаторы комментариев при загрузке, сохранении и объединении документов.
+
+### Примеры
+
+Показывает, как распечатать содержимое всех комментариев и диапазоны их комментариев с помощью посетителя документа.
+
+```csharp
+public void CreateCommentsAndPrintAllInfo()
+{
+    Document doc = new Document();
+
+    Comment newComment = new Comment(doc)
+    {
+        Author = "VDeryushev",
+        Initial = "VD",
+        DateTime = DateTime.Now
+    };
+
+    newComment.SetText("Comment regarding text.");
+
+     // Добавьте текст в документ, деформируйте его в диапазоне комментариев, а затем добавьте свой комментарий.
+    Paragraph para = doc.FirstSection.Body.FirstParagraph;
+    para.AppendChild(new CommentRangeStart(doc, newComment.Id));
+    para.AppendChild(new Run(doc, "Commented text."));
+    para.AppendChild(new CommentRangeEnd(doc, newComment.Id));
+    para.AppendChild(newComment); 
+
+     // Добавляем два ответа на комментарий.
+    newComment.AddReply("John Doe", "JD", DateTime.Now, "New reply.");
+    newComment.AddReply("John Doe", "JD", DateTime.Now, "Another reply.");
+
+    PrintAllCommentInfo(doc.GetChildNodes(NodeType.Comment, true));
+}
+
+/// <summary>
+ /// Перебирает каждый комментарий верхнего уровня и печатает его диапазон комментариев, содержимое и ответы.
+/// </summary>
+private static void PrintAllCommentInfo(NodeCollection comments)
+{
+    CommentInfoPrinter commentVisitor = new CommentInfoPrinter();
+
+    // Перебираем все комментарии верхнего уровня. В отличие от комментариев типа ответа, комментарии верхнего уровня не имеют предка.
+    foreach (Comment comment in comments.Where(c => ((Comment)c).Ancestor == null))
+    {
+         // Сначала заходим в начало диапазона комментариев.
+        CommentRangeStart commentRangeStart = (CommentRangeStart)comment.PreviousSibling.PreviousSibling.PreviousSibling;
+        commentRangeStart.Accept(commentVisitor);
+
+         // Затем перейдите к комментарию и любым возможным ответам.
+        comment.Accept(commentVisitor);
+
+        foreach (Comment reply in comment.Replies)
+            reply.Accept(commentVisitor);
+
+         // Наконец, переходим к концу диапазона комментариев, а затем печатаем текстовое содержимое посетителя.
+        CommentRangeEnd commentRangeEnd = (CommentRangeEnd)comment.PreviousSibling;
+        commentRangeEnd.Accept(commentVisitor);
+
+        Console.WriteLine(commentVisitor.GetText());
+    }
+}
+
+/// <summary>
+ /// Выводит информацию и содержимое всех комментариев и диапазонов комментариев, встречающихся в документе.
+/// </summary>
+public class CommentInfoPrinter : DocumentVisitor
+{
+    public CommentInfoPrinter()
+    {
+        mBuilder = new StringBuilder();
+        mVisitorIsInsideComment = false;
+    }
+
+    /// <summary>
+     /// Получает простой текст документа, который накопил посетитель.
+    /// </summary>
+    public string GetText()
+    {
+        return mBuilder.ToString();
+    }
+
+    /// <summary>
+     /// Вызывается, когда в документе встречается узел Run.
+    /// </summary>
+    public override VisitorAction VisitRun(Run run)
+    {
+        if (mVisitorIsInsideComment) IndentAndAppendLine("[Run] \"" + run.Text + "\"");
+
+        return VisitorAction.Continue;
+    }
+
+    /// <summary>
+     /// Вызывается, когда в документе встречается узел CommentRangeStart.
+    /// </summary>
+    public override VisitorAction VisitCommentRangeStart(CommentRangeStart commentRangeStart)
+    {
+        IndentAndAppendLine("[Comment range start] ID: " + commentRangeStart.Id);
+        mDocTraversalDepth++;
+        mVisitorIsInsideComment = true;
+
+        return VisitorAction.Continue;
+    }
+
+    /// <summary>
+     /// Вызывается, когда в документе встречается узел CommentRangeEnd.
+    /// </summary>
+    public override VisitorAction VisitCommentRangeEnd(CommentRangeEnd commentRangeEnd)
+    {
+        mDocTraversalDepth--;
+        IndentAndAppendLine("[Comment range end] ID: " + commentRangeEnd.Id + "\n");
+        mVisitorIsInsideComment = false;
+
+        return VisitorAction.Continue;
+    }
+
+    /// <summary>
+     /// Вызывается, когда в документе встречается узел Comment.
+    /// </summary>
+    public override VisitorAction VisitCommentStart(Comment comment)
+    {
+        IndentAndAppendLine(
+            $"[Comment start] For comment range ID {comment.Id}, By {comment.Author} on {comment.DateTime}");
+        mDocTraversalDepth++;
+        mVisitorIsInsideComment = true;
+
+        return VisitorAction.Continue;
+    }
+
+    /// <summary>
+     /// Вызывается, когда в документе заканчивается посещение узла Comment.
+    /// </summary>
+    public override VisitorAction VisitCommentEnd(Comment comment)
+    {
+        mDocTraversalDepth--;
+        IndentAndAppendLine("[Comment end]");
+        mVisitorIsInsideComment = false;
+
+        return VisitorAction.Continue;
+    }
+
+    /// <summary>
+     /// Добавляем строку в StringBuilder и делаем отступ в зависимости от того, насколько глубоко посетитель находится в дереве документа.
+    /// </summary>
+     /// <param name="text"></param>
+    private void IndentAndAppendLine(string text)
+    {
+        for (int i = 0; i < mDocTraversalDepth; i++)
+        {
+            mBuilder.Append("|  ");
+        }
+
+        mBuilder.AppendLine(text);
+    }
+
+    private bool mVisitorIsInsideComment;
+    private int mDocTraversalDepth;
+    private readonly StringBuilder mBuilder;
+}
+```
+
+### Смотрите также
+
+* class [Comment](../../comment)
+* пространство имен [Aspose.Words](../../comment)
+* сборка [Aspose.Words](../../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

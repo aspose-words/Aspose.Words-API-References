@@ -1,0 +1,153 @@
+---
+title: DocumentPartSavingArgs
+second_title: Aspose.Words for .NET API 参考
+description: 为DocumentPartSaving./idocumentpartsavingcallback/documentpartsaving回调提供数据
+type: docs
+weight: 4630
+url: /zh/net/aspose.words.saving/documentpartsavingargs/
+---
+## DocumentPartSavingArgs class
+
+为[`DocumentPartSaving`](../idocumentpartsavingcallback/documentpartsaving)回调提供数据。
+
+```csharp
+public class DocumentPartSavingArgs
+```
+
+## 特性
+
+| 姓名 | 描述 |
+| --- | --- |
+| [Document](../../aspose.words.saving/documentpartsavingargs/document) { get; } | 获取正在保存的文档对象。 |
+| [DocumentPartFileName](../../aspose.words.saving/documentpartsavingargs/documentpartfilename) { get; set; } | 获取或设置文档部分将保存到的文件名（不带路径）。 |
+| [DocumentPartStream](../../aspose.words.saving/documentpartsavingargs/documentpartstream) { get; set; } | 允许指定文档部分将保存到的流。 |
+| [KeepDocumentPartStreamOpen](../../aspose.words.saving/documentpartsavingargs/keepdocumentpartstreamopen) { get; set; } | 指定 Aspose.Words 应该在保存文档部分后保持流打开还是关闭它。 |
+
+### 评论
+
+当 Aspose.Words 将文档保存为 HTML 或相关格式和P时:Aspose.Words.Saving.HtmlSaveOptions.DocumentSplitCriteria 被指定，文档被分割成多个部分，默认情况下，每个文档部分被保存到一个单独的文件中。
+
+Class[`DocumentPartSavingArgs`](../documentpartsavingargs)允许您控制每个文档部分的保存方式。 它允许重新定义文件名的生成方式或通过提供您自己的流对象来完全避免将文档部分保存到 文件中。
+
+要将文档部分保存到流而不是文件中，请使用[`DocumentPartStream`](./documentpartstream)属性。
+
+### 例子
+
+显示如何将文档拆分为多个部分并保存它们。
+
+```csharp
+public void DocumentPartsFileNames()
+{
+    Document doc = new Document(MyDir + "Rendering.docx");
+    string outFileName = "SavingCallback.DocumentPartsFileNames.html";
+
+     // 创建一个“HtmlFixedSaveOptions”对象，我们可以将它传递给文档的“Save”方法
+     // 修改我们如何将文档转换为 HTML.
+    HtmlSaveOptions options = new HtmlSaveOptions();
+
+     // 如果我们正常保存文档，就会有一个输出 HTML
+     // 包含所有源文档内容的文档。
+    // 将“DocumentSplitCriteria”属性设置为“DocumentSplitCriteria.SectionBreak” to
+     // 将我们的文档保存到多个 HTML 文件中：每个部分一个。
+    options.DocumentSplitCriteria = DocumentSplitCriteria.SectionBreak;
+
+     // 将自定义回调分配给“DocumentPartSavingCallback”属性以更改文档部分保存逻辑。
+    options.DocumentPartSavingCallback = new SavedDocumentPartRename(outFileName, options.DocumentSplitCriteria);
+
+     // 如果我们将包含图像的文档转换为 html，我们最终会得到一个链接到多个图像的 html 文件。
+     // 每张图片都会以文件的形式存在于本地文件系统中
+     // 还有一个回调可以自定义每张图片的名称和文件系统位置
+    options.ImageSavingCallback = new SavedImageRename(outFileName);
+
+    doc.Save(ArtifactsDir + outFileName, options);
+}
+
+/// <summary>
+ /// 为保存操作将文档拆分成的输出文档设置自定义文件名。
+/// </summary>
+private class SavedDocumentPartRename : IDocumentPartSavingCallback
+{
+    public SavedDocumentPartRename(string outFileName, DocumentSplitCriteria documentSplitCriteria)
+    {
+        mOutFileName = outFileName;
+        mDocumentSplitCriteria = documentSplitCriteria;
+    }
+
+    void IDocumentPartSavingCallback.DocumentPartSaving(DocumentPartSavingArgs args)
+    {
+         // 我们可以通过“Document”属性访问整个源文档。
+        Assert.True(args.Document.OriginalFileName.EndsWith("Rendering.docx"));
+
+        string partType = string.Empty;
+
+        switch (mDocumentSplitCriteria)
+        {
+            case DocumentSplitCriteria.PageBreak:
+                partType = "Page";
+                break;
+            case DocumentSplitCriteria.ColumnBreak:
+                partType = "Column";
+                break;
+            case DocumentSplitCriteria.SectionBreak:
+                partType = "Section";
+                break;
+            case DocumentSplitCriteria.HeadingParagraph:
+                partType = "Paragraph from heading";
+                break;
+        }
+
+        string partFileName = $"{mOutFileName} part {++mCount}, of type {partType}{Path.GetExtension(args.DocumentPartFileName)}";
+
+         // 下面是指定 Aspose.Words 将文档的每个部分保存在哪里的两种方法。
+         // 1 - 为输出部分文件设置文件名：
+        args.DocumentPartFileName = partFileName;
+
+         // 2 - 为输出部分文件创建自定义流：
+        args.DocumentPartStream = new FileStream(ArtifactsDir + partFileName, FileMode.Create);
+
+        Assert.True(args.DocumentPartStream.CanWrite);
+        Assert.False(args.KeepDocumentPartStreamOpen);
+    }
+
+    private int mCount;
+    private readonly string mOutFileName;
+    private readonly DocumentSplitCriteria mDocumentSplitCriteria;
+}
+
+/// <summary>
+/// 为 HTML 转换创建的图像文件设置自定义文件名。
+/// </summary>
+public class SavedImageRename : IImageSavingCallback
+{
+    public SavedImageRename(string outFileName)
+    {
+        mOutFileName = outFileName;
+    }
+
+    void IImageSavingCallback.ImageSaving(ImageSavingArgs args)
+    {
+        string imageFileName = $"{mOutFileName} shape {++mCount}, of type {args.CurrentShape.ShapeType}{Path.GetExtension(args.ImageFileName)}";
+
+         // 下面是指定 Aspose.Words 将文档的每个部分保存在哪里的两种方法。
+         // 1 - 为输出图像文件设置文件名：
+        args.ImageFileName = imageFileName;
+
+         // 2 - 为输出图像文件创建自定义流：
+        args.ImageStream = new FileStream(ArtifactsDir + imageFileName, FileMode.Create);
+
+        Assert.True(args.ImageStream.CanWrite);
+        Assert.True(args.IsImageAvailable);
+        Assert.False(args.KeepImageStreamOpen);
+    }
+
+    private int mCount;
+    private readonly string mOutFileName;
+}
+```
+
+### 也可以看看
+
+* 命名空间 [Aspose.Words.Saving](../../aspose.words.saving)
+* 部件 [Aspose.Words](../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

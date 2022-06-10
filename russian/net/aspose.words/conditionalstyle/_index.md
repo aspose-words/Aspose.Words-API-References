@@ -1,0 +1,111 @@
+---
+title: ConditionalStyle
+second_title: Справочник по API Aspose.Words для .NET
+description: Представляет специальное форматирование примененное к некоторой области таблицы с назначенным стилем таблицы.
+type: docs
+weight: 300
+url: /ru/net/aspose.words/conditionalstyle/
+---
+## ConditionalStyle class
+
+Представляет специальное форматирование, примененное к некоторой области таблицы с назначенным стилем таблицы.
+
+```csharp
+public sealed class ConditionalStyle
+```
+
+## Характеристики
+
+| Имя | Описание |
+| --- | --- |
+| [Borders](../../aspose.words/conditionalstyle/borders) { get; } | Получает коллекцию границ ячеек по умолчанию для условного стиля. |
+| [BottomPadding](../../aspose.words/conditionalstyle/bottompadding) { get; set; } | Получает или задает количество места (в пунктах) для добавления под содержимым ячеек таблицы. |
+| [Font](../../aspose.words/conditionalstyle/font) { get; } | Получает форматирование символов условного стиля. |
+| [LeftPadding](../../aspose.words/conditionalstyle/leftpadding) { get; set; } | Получает или задает количество места (в пунктах) для добавления слева от содержимого ячеек таблицы. |
+| [ParagraphFormat](../../aspose.words/conditionalstyle/paragraphformat) { get; } | Получает форматирование абзаца условного стиля. |
+| [RightPadding](../../aspose.words/conditionalstyle/rightpadding) { get; set; } | Получает или задает количество места (в пунктах), добавляемого справа от содержимого ячеек таблицы. |
+| [Shading](../../aspose.words/conditionalstyle/shading) { get; } | Получает объект[`Shading`](../shading), который ссылается на форматирование заливки для этого условного стиля. |
+| [TopPadding](../../aspose.words/conditionalstyle/toppadding) { get; set; } | Получает или задает количество места (в пунктах) для добавления над содержимым ячеек таблицы. |
+| [Type](../../aspose.words/conditionalstyle/type) { get; } | Получает область таблицы, к которой относится этот условный стиль. |
+
+## Методы
+
+| Имя | Описание |
+| --- | --- |
+| [ClearFormatting](../../aspose.words/conditionalstyle/clearformatting)() | Очищает форматирование этого условного стиля. |
+| override [Equals](../../aspose.words/conditionalstyle/equals)(object) |  |
+| override [GetHashCode](../../aspose.words/conditionalstyle/gethashcode)() | Вычисляет хеш-код для этого объекта. |
+
+### Примеры
+
+Показывает, как работать с определенными стилями областей таблицы.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+Table table = builder.StartTable();
+builder.InsertCell();
+builder.Write("Cell 1");
+builder.InsertCell();
+builder.Write("Cell 2");
+builder.EndRow();
+builder.InsertCell();
+builder.Write("Cell 3");
+builder.InsertCell();
+builder.Write("Cell 4");
+builder.EndTable();
+
+ // Создаем пользовательский стиль таблицы.
+TableStyle tableStyle = (TableStyle)doc.Styles.Add(StyleType.Table, "MyTableStyle1");
+
+ // Условные стили — это изменения форматирования, которые влияют только на некоторые ячейки таблицы
+ // на основе предиката, такого как ячейки, находящиеся в последней строке.
+// Ниже приведены три способа доступа к условным стилям табличного стиля из коллекции "ConditionalStyles".
+ // 1 - По типу стиля:
+tableStyle.ConditionalStyles[ConditionalStyleType.FirstRow].Shading.BackgroundPatternColor = Color.AliceBlue;
+
+ // 2 - По индексу:
+tableStyle.ConditionalStyles[0].Borders.Color = Color.Black;
+tableStyle.ConditionalStyles[0].Borders.LineStyle = LineStyle.DotDash;
+Assert.AreEqual(ConditionalStyleType.FirstRow, tableStyle.ConditionalStyles[0].Type);
+
+ // 3 - Как свойство:
+tableStyle.ConditionalStyles.FirstRow.ParagraphFormat.Alignment = ParagraphAlignment.Center;
+
+ // Применяем отступы и форматирование текста к условным стилям.
+tableStyle.ConditionalStyles.LastRow.BottomPadding = 10;
+tableStyle.ConditionalStyles.LastRow.LeftPadding = 10;
+tableStyle.ConditionalStyles.LastRow.RightPadding = 10;
+tableStyle.ConditionalStyles.LastRow.TopPadding = 10;
+tableStyle.ConditionalStyles.LastColumn.Font.Bold = true;
+
+ // Список всех возможных условий стиля.
+using (IEnumerator<ConditionalStyle> enumerator = tableStyle.ConditionalStyles.GetEnumerator())
+{
+    while (enumerator.MoveNext())
+    {
+        ConditionalStyle currentStyle = enumerator.Current;
+        if (currentStyle != null) Console.WriteLine(currentStyle.Type);
+    }
+}
+
+ // Применяем пользовательский стиль, содержащий все условные стили, к таблице.
+table.Style = tableStyle;
+
+ // Наш стиль по умолчанию применяет некоторые условные стили.
+Assert.AreEqual(TableStyleOptions.FirstRow | TableStyleOptions.FirstColumn | TableStyleOptions.RowBands, 
+    table.StyleOptions);
+
+ // Нам нужно будет включить все остальные стили самостоятельно через свойство StyleOptions.
+table.StyleOptions = table.StyleOptions | TableStyleOptions.LastRow | TableStyleOptions.LastColumn;
+
+doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
+```
+
+### Смотрите также
+
+* пространство имен [Aspose.Words](../../aspose.words)
+* сборка [Aspose.Words](../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->
