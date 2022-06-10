@@ -1,12 +1,12 @@
 ---
 title: Aspose.Words.Rendering
 second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Rendering 命名空间提供允许47的类自定义文档的打印或渲染
+description: Aspose.Words.Rendering 命名空间提供允许的类自定义文档的打印或渲染
 type: docs
 weight: 190
 url: /zh/net/aspose.words.rendering/
 ---
-**Aspose.Words.Rendering** 命名空间提供允许:::47::的类:自定义文档的打印或渲染。
+**Aspose.Words.Rendering** 命名空间提供允许的类自定义文档的打印或渲染。
 
 ## 课程
 

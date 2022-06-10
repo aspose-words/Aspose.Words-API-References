@@ -1,12 +1,12 @@
 ---
 title: Aspose.Words.Layout
 second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Layout 命名空间提供允许访问47 的类当文档被格式化为页面时特定文档元素 定位在哪个页面和页面上的位置等信息
+description: Aspose.Words.Layout 命名空间提供允许访问 的类当文档被格式化为页面时特定文档元素 定位在哪个页面和页面上的位置等信息
 type: docs
 weight: 110
 url: /zh/net/aspose.words.layout/
 ---
-**Aspose.Words.Layout** 命名空间提供允许访问:::47 的类:::当文档被格式化为页面时，特定文档元素 定位在哪个页面和页面上的位置等信息。
+**Aspose.Words.Layout** 命名空间提供允许访问 的类当文档被格式化为页面时，特定文档元素 定位在哪个页面和页面上的位置等信息。
 
 ## 课程
 

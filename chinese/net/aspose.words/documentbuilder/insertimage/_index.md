@@ -1,14 +1,14 @@
 ---
 title: InsertImage
 second_title: Aspose.Words for .NET API 参考
-description: 从 .NETImage47 插入图像对象到文档中图像以 100 的比例内嵌插入
+description: 从 .NETImage 插入图像对象到文档中图像以 100 的比例内嵌插入
 type: docs
 weight: 350
 url: /zh/net/aspose.words/documentbuilder/insertimage/
 ---
 ## InsertImage(Image) {#insertimage_3}
 
-从 .NETImage:::47 插入图像:::对象到文档中。图像以 100% 的比例内嵌插入。
+从 .NETImage 插入图像对象到文档中。图像以 100% 的比例内嵌插入。
 
 ```csharp
 public Shape InsertImage(Image image)
@@ -58,8 +58,8 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromImageObject.docx")
 
 * class [Shape](../../../aspose.words.drawing/shape)
 * class [DocumentBuilder](../../documentbuilder)
-* namespace [Aspose.Words](../../documentbuilder)
-* assembly [Aspose.Words](../../../)
+* 命名空间 [Aspose.Words](../../documentbuilder)
+* 部件 [Aspose.Words](../../../)
 
 ---
 
@@ -216,8 +216,8 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromFilename.docx");
 
 * class [Shape](../../../aspose.words.drawing/shape)
 * class [DocumentBuilder](../../documentbuilder)
-* namespace [Aspose.Words](../../documentbuilder)
-* assembly [Aspose.Words](../../../)
+* 命名空间 [Aspose.Words](../../documentbuilder)
+* 部件 [Aspose.Words](../../../)
 
 ---
 
@@ -301,8 +301,8 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromStream.docx");
 
 * class [Shape](../../../aspose.words.drawing/shape)
 * class [DocumentBuilder](../../documentbuilder)
-* namespace [Aspose.Words](../../documentbuilder)
-* assembly [Aspose.Words](../../../)
+* 命名空间 [Aspose.Words](../../documentbuilder)
+* 部件 [Aspose.Words](../../../)
 
 ---
 
@@ -404,8 +404,8 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromByteArrayNetStanda
 
 * class [Shape](../../../aspose.words.drawing/shape)
 * class [DocumentBuilder](../../documentbuilder)
-* namespace [Aspose.Words](../../documentbuilder)
-* assembly [Aspose.Words](../../../)
+* 命名空间 [Aspose.Words](../../documentbuilder)
+* 部件 [Aspose.Words](../../../)
 
 ---
 
@@ -493,8 +493,8 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromImageObjectNetStan
 
 * class [Shape](../../../aspose.words.drawing/shape)
 * class [DocumentBuilder](../../documentbuilder)
-* namespace [Aspose.Words](../../documentbuilder)
-* assembly [Aspose.Words](../../../)
+* 命名空间 [Aspose.Words](../../documentbuilder)
+* 部件 [Aspose.Words](../../../)
 
 ---
 
@@ -551,8 +551,8 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromFilename.docx");
 
 * class [Shape](../../../aspose.words.drawing/shape)
 * class [DocumentBuilder](../../documentbuilder)
-* namespace [Aspose.Words](../../documentbuilder)
-* assembly [Aspose.Words](../../../)
+* 命名空间 [Aspose.Words](../../documentbuilder)
+* 部件 [Aspose.Words](../../../)
 
 ---
 
@@ -611,8 +611,8 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromStream.docx");
 
 * class [Shape](../../../aspose.words.drawing/shape)
 * class [DocumentBuilder](../../documentbuilder)
-* namespace [Aspose.Words](../../documentbuilder)
-* assembly [Aspose.Words](../../../)
+* 命名空间 [Aspose.Words](../../documentbuilder)
+* 部件 [Aspose.Words](../../../)
 
 ---
 
@@ -716,8 +716,8 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromByteArrayNetStanda
 
 * class [Shape](../../../aspose.words.drawing/shape)
 * class [DocumentBuilder](../../documentbuilder)
-* namespace [Aspose.Words](../../documentbuilder)
-* assembly [Aspose.Words](../../../)
+* 命名空间 [Aspose.Words](../../documentbuilder)
+* 部件 [Aspose.Words](../../../)
 
 ---
 
@@ -814,8 +814,8 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromImageObjectNetStan
 * enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition)
 * enum [WrapType](../../../aspose.words.drawing/wraptype)
 * class [DocumentBuilder](../../documentbuilder)
-* namespace [Aspose.Words](../../documentbuilder)
-* assembly [Aspose.Words](../../../)
+* 命名空间 [Aspose.Words](../../documentbuilder)
+* 部件 [Aspose.Words](../../../)
 
 ---
 
@@ -931,8 +931,8 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromFilename.docx");
 * enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition)
 * enum [WrapType](../../../aspose.words.drawing/wraptype)
 * class [DocumentBuilder](../../documentbuilder)
-* namespace [Aspose.Words](../../documentbuilder)
-* assembly [Aspose.Words](../../../)
+* 命名空间 [Aspose.Words](../../documentbuilder)
+* 部件 [Aspose.Words](../../../)
 
 ---
 
@@ -1000,8 +1000,8 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromStream.docx");
 * enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition)
 * enum [WrapType](../../../aspose.words.drawing/wraptype)
 * class [DocumentBuilder](../../documentbuilder)
-* namespace [Aspose.Words](../../documentbuilder)
-* assembly [Aspose.Words](../../../)
+* 命名空间 [Aspose.Words](../../documentbuilder)
+* 部件 [Aspose.Words](../../../)
 
 ---
 
@@ -1114,7 +1114,7 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromByteArrayNetStanda
 * enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition)
 * enum [WrapType](../../../aspose.words.drawing/wraptype)
 * class [DocumentBuilder](../../documentbuilder)
-* namespace [Aspose.Words](../../documentbuilder)
-* assembly [Aspose.Words](../../../)
+* 命名空间 [Aspose.Words](../../documentbuilder)
+* 部件 [Aspose.Words](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

@@ -58,8 +58,8 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromImageObject.docx")
 
 * class [Shape](../../../aspose.words.drawing/shape)
 * class [DocumentBuilder](../../documentbuilder)
-* namespace [Aspose.Words](../../documentbuilder)
-* assembly [Aspose.Words](../../../)
+* пространство имен [Aspose.Words](../../documentbuilder)
+* сборка [Aspose.Words](../../../)
 
 ---
 
@@ -216,8 +216,8 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromFilename.docx");
 
 * class [Shape](../../../aspose.words.drawing/shape)
 * class [DocumentBuilder](../../documentbuilder)
-* namespace [Aspose.Words](../../documentbuilder)
-* assembly [Aspose.Words](../../../)
+* пространство имен [Aspose.Words](../../documentbuilder)
+* сборка [Aspose.Words](../../../)
 
 ---
 
@@ -301,8 +301,8 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromStream.docx");
 
 * class [Shape](../../../aspose.words.drawing/shape)
 * class [DocumentBuilder](../../documentbuilder)
-* namespace [Aspose.Words](../../documentbuilder)
-* assembly [Aspose.Words](../../../)
+* пространство имен [Aspose.Words](../../documentbuilder)
+* сборка [Aspose.Words](../../../)
 
 ---
 
@@ -404,8 +404,8 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromByteArrayNetStanda
 
 * class [Shape](../../../aspose.words.drawing/shape)
 * class [DocumentBuilder](../../documentbuilder)
-* namespace [Aspose.Words](../../documentbuilder)
-* assembly [Aspose.Words](../../../)
+* пространство имен [Aspose.Words](../../documentbuilder)
+* сборка [Aspose.Words](../../../)
 
 ---
 
@@ -493,8 +493,8 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromImageObjectNetStan
 
 * class [Shape](../../../aspose.words.drawing/shape)
 * class [DocumentBuilder](../../documentbuilder)
-* namespace [Aspose.Words](../../documentbuilder)
-* assembly [Aspose.Words](../../../)
+* пространство имен [Aspose.Words](../../documentbuilder)
+* сборка [Aspose.Words](../../../)
 
 ---
 
@@ -551,8 +551,8 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromFilename.docx");
 
 * class [Shape](../../../aspose.words.drawing/shape)
 * class [DocumentBuilder](../../documentbuilder)
-* namespace [Aspose.Words](../../documentbuilder)
-* assembly [Aspose.Words](../../../)
+* пространство имен [Aspose.Words](../../documentbuilder)
+* сборка [Aspose.Words](../../../)
 
 ---
 
@@ -611,8 +611,8 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromStream.docx");
 
 * class [Shape](../../../aspose.words.drawing/shape)
 * class [DocumentBuilder](../../documentbuilder)
-* namespace [Aspose.Words](../../documentbuilder)
-* assembly [Aspose.Words](../../../)
+* пространство имен [Aspose.Words](../../documentbuilder)
+* сборка [Aspose.Words](../../../)
 
 ---
 
@@ -716,8 +716,8 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromByteArrayNetStanda
 
 * class [Shape](../../../aspose.words.drawing/shape)
 * class [DocumentBuilder](../../documentbuilder)
-* namespace [Aspose.Words](../../documentbuilder)
-* assembly [Aspose.Words](../../../)
+* пространство имен [Aspose.Words](../../documentbuilder)
+* сборка [Aspose.Words](../../../)
 
 ---
 
@@ -814,8 +814,8 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromImageObjectNetStan
 * enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition)
 * enum [WrapType](../../../aspose.words.drawing/wraptype)
 * class [DocumentBuilder](../../documentbuilder)
-* namespace [Aspose.Words](../../documentbuilder)
-* assembly [Aspose.Words](../../../)
+* пространство имен [Aspose.Words](../../documentbuilder)
+* сборка [Aspose.Words](../../../)
 
 ---
 
@@ -931,8 +931,8 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromFilename.docx");
 * enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition)
 * enum [WrapType](../../../aspose.words.drawing/wraptype)
 * class [DocumentBuilder](../../documentbuilder)
-* namespace [Aspose.Words](../../documentbuilder)
-* assembly [Aspose.Words](../../../)
+* пространство имен [Aspose.Words](../../documentbuilder)
+* сборка [Aspose.Words](../../../)
 
 ---
 
@@ -1000,8 +1000,8 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromStream.docx");
 * enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition)
 * enum [WrapType](../../../aspose.words.drawing/wraptype)
 * class [DocumentBuilder](../../documentbuilder)
-* namespace [Aspose.Words](../../documentbuilder)
-* assembly [Aspose.Words](../../../)
+* пространство имен [Aspose.Words](../../documentbuilder)
+* сборка [Aspose.Words](../../../)
 
 ---
 
@@ -1114,7 +1114,7 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromByteArrayNetStanda
 * enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition)
 * enum [WrapType](../../../aspose.words.drawing/wraptype)
 * class [DocumentBuilder](../../documentbuilder)
-* namespace [Aspose.Words](../../documentbuilder)
-* assembly [Aspose.Words](../../../)
+* пространство имен [Aspose.Words](../../documentbuilder)
+* сборка [Aspose.Words](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

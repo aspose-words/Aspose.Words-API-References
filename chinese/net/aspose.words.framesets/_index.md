@@ -1,12 +1,12 @@
 ---
 title: Aspose.Words.Framesets
 second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Framesets 命名空间提供47的类和枚举表示框架页面或框架页面上的单个框架
+description: Aspose.Words.Framesets 命名空间提供的类和枚举表示框架页面或框架页面上的单个框架
 type: docs
 weight: 100
 url: /zh/net/aspose.words.framesets/
 ---
-**Aspose.Words.Framesets** 命名空间提供:::47::的类和枚举:表示框架页面或框架页面上的单个框架。
+**Aspose.Words.Framesets** 命名空间提供的类和枚举表示框架页面或框架页面上的单个框架。
 
 ## 课程
 

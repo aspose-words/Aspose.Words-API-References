@@ -1,12 +1,12 @@
 ---
 title: Aspose.Words.Loading
 second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Loading 命名空间提供47的类和枚举允许在加载文档时指定其他选项
+description: Aspose.Words.Loading 命名空间提供的类和枚举允许在加载文档时指定其他选项
 type: docs
 weight: 130
 url: /zh/net/aspose.words.loading/
 ---
-**Aspose.Words.Loading** 命名空间提供:::47::的类和枚举:允许在加载文档时指定其他选项。
+**Aspose.Words.Loading** 命名空间提供的类和枚举允许在加载文档时指定其他选项。
 
 ## 课程
 

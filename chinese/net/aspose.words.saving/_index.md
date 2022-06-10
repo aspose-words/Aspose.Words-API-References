@@ -1,12 +1,12 @@
 ---
 title: Aspose.Words.Saving
 second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Saving 命名空间提供47的类和枚举允许指定用于保存或转换文档的附加选项
+description: Aspose.Words.Saving 命名空间提供的类和枚举允许指定用于保存或转换文档的附加选项
 type: docs
 weight: 220
 url: /zh/net/aspose.words.saving/
 ---
-**Aspose.Words.Saving** 命名空间提供:::47::的类和枚举:允许指定用于保存或转换文档的附加选项。
+**Aspose.Words.Saving** 命名空间提供的类和枚举允许指定用于保存或转换文档的附加选项。
 
 ## 课程
 
@@ -14,21 +14,21 @@ url: /zh/net/aspose.words.saving/
 | --- | --- |
 | [BookmarksOutlineLevelCollection](./bookmarksoutlinelevelcollection) | 单个书签大纲级别的集合。 |
 | [CssSavingArgs](./csssavingargs) | 为[`CssSaving`](../aspose.words.saving/icsssavingcallback/csssaving)事件提供数据。 |
-| [DocSaveOptions](./docsaveoptions) | 可用于在将文档保存到Doc或:::47 时指定附加选项:::Dot格式。 |
+| [DocSaveOptions](./docsaveoptions) | 可用于在将文档保存到Doc或 时指定附加选项Dot格式。 |
 | [DocumentPartSavingArgs](./documentpartsavingargs) | 为[`DocumentPartSaving`](../aspose.words.saving/idocumentpartsavingcallback/documentpartsaving)回调提供数据。 |
 | [DocumentSavingArgs](./documentsavingargs) | 传递给[`Notify`](../aspose.words.saving/idocumentsavingcallback/notify)的参数。 |
 | [DownsampleOptions](./downsampleoptions) | 允许指定下采样选项。 |
-| [FixedPageSaveOptions](./fixedpagesaveoptions) | 包含在将文档保存为固定页面格式（PDF、XPS、::47:::图像等）时可以指定的常用选项。 |
+| [FixedPageSaveOptions](./fixedpagesaveoptions) | 包含在将文档保存为固定页面格式（PDF、XPS、图像等）时可以指定的常用选项。 |
 | [FontSavingArgs](./fontsavingargs) | 为[`FontSaving`](../aspose.words.saving/ifontsavingcallback/fontsaving)事件提供数据。 |
 | [GraphicsQualityOptions](./graphicsqualityoptions) | 允许指定额外的Graphics质量选项。 |
 | [HtmlFixedSaveOptions](./htmlfixedsaveoptions) | 可用于在将文档保存为HtmlFixed格式时指定附加选项。 |
-| [HtmlSaveOptions](./htmlsaveoptions) | 可用于在将文档保存到Html,:::47 时指定附加选项:::Mhtml或Epub格式。 |
+| [HtmlSaveOptions](./htmlsaveoptions) | 可用于在将文档保存到Html, 时指定附加选项Mhtml或Epub格式。 |
 | [ImageSaveOptions](./imagesaveoptions) | 允许在将文档页面或形状渲染为图像时指定其他选项。 |
 | [ImageSavingArgs](./imagesavingargs) | 为[`ImageSaving`](../aspose.words.saving/iimagesavingcallback/imagesaving)事件提供数据。 |
 | [MarkdownSaveOptions](./markdownsaveoptions) | 类在将文档保存为Markdown格式时指定其他选项。 |
 | [MetafileRenderingOptions](./metafilerenderingoptions) | 允许指定额外的元文件渲染选项。 |
-| [OdtSaveOptions](./odtsaveoptions) | 可用于在将文档保存到Odt或:::47 时指定附加选项:::Ott格式。 |
-| [OoxmlSaveOptions](./ooxmlsaveoptions) | 可用于在将文档保存到Docx,:::47 时指定其他选项:::Docm,Dotx,Dotm或 FlatOpc格式。 |
+| [OdtSaveOptions](./odtsaveoptions) | 可用于在将文档保存到Odt或 时指定附加选项Ott格式。 |
+| [OoxmlSaveOptions](./ooxmlsaveoptions) | 可用于在将文档保存到Docx, 时指定其他选项Docm,Dotx,Dotm或 FlatOpc格式。 |
 | [OutlineOptions](./outlineoptions) | 允许指定大纲选项。 |
 | [PageRange](./pagerange) | 表示页面的连续范围。 |
 | [PageSavingArgs](./pagesavingargs) | 为[`PageSaving`](../aspose.words.saving/ipagesavingcallback/pagesaving)事件提供数据。 |
@@ -82,7 +82,7 @@ url: /zh/net/aspose.words.saving/
 | [HtmlFixedPageHorizontalAlignment](./htmlfixedpagehorizontalalignment) | 指定输出 HTML 文档中页面的水平对齐方式。 |
 | [HtmlMetafileFormat](./htmlmetafileformat) | 指示元文件保存到 HTML 文档的格式。 |
 | [HtmlOfficeMathOutputMode](./htmlofficemathoutputmode) | 指定 Aspose.Words 如何将 OfficeMath 导出为 HTML、MHTML 和 EPUB。 |
-| [HtmlVersion](./htmlversion) | 表示将文档保存到Html和:::47 时使用的 HTML 版本:::Mhtml格式。 |
+| [HtmlVersion](./htmlversion) | 表示将文档保存到Html和 时使用的 HTML 版本Mhtml格式。 |
 | [ImageBinarizationMethod](./imagebinarizationmethod) | 指定用于二值化图像的方法。 |
 | [ImageColorMode](./imagecolormode) | 指定文档页面生成图像的颜色模式。 |
 | [ImagePixelFormat](./imagepixelformat) | 指定文档页面生成图像的像素格式。 |

@@ -1,12 +1,12 @@
 ---
 title: Aspose.Words.WebExtensions
 second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.WebExtensions 命名空间提供允许47的类自定义元素和属性以扩展 XML 词汇表以表示 Office 加载项
+description: Aspose.Words.WebExtensions 命名空间提供允许的类自定义元素和属性以扩展 XML 词汇表以表示 Office 加载项
 type: docs
 weight: 280
 url: /zh/net/aspose.words.webextensions/
 ---
-**Aspose.Words.WebExtensions** 命名空间提供允许:::47::的类:自定义元素和属性，以扩展 XML 词汇表以表示 Office 加载项。
+**Aspose.Words.WebExtensions** 命名空间提供允许的类自定义元素和属性，以扩展 XML 词汇表以表示 Office 加载项。
 
 ## 课程
 

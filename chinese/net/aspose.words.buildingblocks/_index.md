@@ -1,12 +1,12 @@
 ---
 title: Aspose.Words.BuildingBlocks
 second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.BuildingBlocks 命名空间提供允许访问47 的类并在文档中使用自动图文集自动更正条目和构建基块
+description: Aspose.Words.BuildingBlocks 命名空间提供允许访问 的类并在文档中使用自动图文集自动更正条目和构建基块
 type: docs
 weight: 20
 url: /zh/net/aspose.words.buildingblocks/
 ---
-**Aspose.Words.BuildingBlocks** 命名空间提供允许访问:::47 的类:::并在文档中使用自动图文集、自动更正条目和构建基块。
+**Aspose.Words.BuildingBlocks** 命名空间提供允许访问 的类并在文档中使用自动图文集、自动更正条目和构建基块。
 
 ## 课程
 

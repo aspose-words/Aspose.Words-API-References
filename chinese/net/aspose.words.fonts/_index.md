@@ -1,12 +1,12 @@
 ---
 title: Aspose.Words.Fonts
 second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Fonts 命名空间提供类和枚举以访问有关的信息47文档中使用的字体
+description: Aspose.Words.Fonts 命名空间提供类和枚举以访问有关的信息文档中使用的字体
 type: docs
 weight: 90
 url: /zh/net/aspose.words.fonts/
 ---
-**Aspose.Words.Fonts** 命名空间提供类和枚举以访问有关:::的信息47:::文档中使用的字体。
+**Aspose.Words.Fonts** 命名空间提供类和枚举以访问有关的信息文档中使用的字体。
 
 ## 课程
 
