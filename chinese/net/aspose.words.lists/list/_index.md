@@ -1,0 +1,203 @@
+---
+title: List
+second_title: Aspose.Words for .NET API 参考
+description: 表示列表的格式
+type: docs
+weight: 3210
+url: /zh/net/aspose.words.lists/list/
+---
+## List class
+
+表示列表的格式。
+
+```csharp
+public class List : IComparable<List>
+```
+
+## 特性
+
+| 姓名 | 描述 |
+| --- | --- |
+| [Document](../../aspose.words.lists/list/document) { get; } | 获取所有者文档。 |
+| [IsListStyleDefinition](../../aspose.words.lists/list/isliststyledefinition) { get; } | 如果此列表是列表样式的定义，则返回 true。 |
+| [IsListStyleReference](../../aspose.words.lists/list/isliststylereference) { get; } | 如果此列表是对列表样式的引用，则返回 true。 |
+| [IsMultiLevel](../../aspose.words.lists/list/ismultilevel) { get; } | 当列表包含 9 个级别时返回 true； 1 级时为假。 |
+| [IsRestartAtEachSection](../../aspose.words.lists/list/isrestartateachsection) { get; set; } | 指定列表是否应在每个部分重新启动。 默认值为 **false** 。 |
+| [ListId](../../aspose.words.lists/list/listid) { get; } | 获取列表的唯一标识符。 |
+| [ListLevels](../../aspose.words.lists/list/listlevels) { get; } | 获取此列表的列表级别的集合。 |
+| [Style](../../aspose.words.lists/list/style) { get; } | 获取此列表引用或定义的列表样式。 |
+
+## 方法
+
+| 姓名 | 描述 |
+| --- | --- |
+| [CompareTo](../../aspose.words.lists/list/compareto#compareto)(List) | 将指定列表与当前列表进行比较。 |
+| [CompareTo](../../aspose.words.lists/list/compareto#compareto_1)(object) | 将指定对象与当前对象进行比较。 |
+| [Equals](../../aspose.words.lists/list/equals#equals)(List) | 与指定列表比较。 |
+| override [Equals](../../aspose.words.lists/list/equals#equals_1)(object) |  |
+| override [GetHashCode](../../aspose.words.lists/list/gethashcode)() | 计算此列表对象的哈希码。 |
+
+### 评论
+
+Microsoft Word 文档中的列表是一组列表格式属性。 每个列表最多可以有 9 个级别，并且为每个级别单独定义格式属性，例如数字样式、起始值、 缩进、制表位置等。
+
+A[`List`](../list)对象始终属于ListCollection集合。
+
+要创建新列表，请使用[`ListCollection`](../listcollection)集合的 Add 方法。
+
+要修改列表的格式，请使用[`ListLevel`](../listlevel):::47::中的对象:[`ListLevels`](./listlevels)集合。
+
+要在段落中应用或删除列表格式，请使用[`ListFormat`](../listformat)。
+
+### 例子
+
+显示如何通过复制列表重新开始列表中的编号。
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+Assert.False(builder.ListFormat.IsListItem);
+
+// 列表允许我们用前缀符号和缩进组织和装饰段落集。
+ // 我们可以通过增加缩进级别来创建嵌套列表。 
+ // 我们可以使用文档构建器的“ListFormat”属性来开始和结束一个列表。 
+ // 我们在列表开头和结尾之间添加的每个段落都将成为列表中的一个项目。
+ // 下面是我们可以使用文档构建器创建的两种类型的列表。
+ // 1 - 编号列表：
+ // 编号列表通过为每个项目编号来为其段落创建逻辑顺序。
+builder.ListFormat.List = doc.Lists.Add(ListTemplate.NumberDefault);
+
+Assert.True(builder.ListFormat.IsListItem);
+
+ // 通过设置“ListLevelNumber”属性，我们可以增加列表级别
+ // 在当前列表项开始一个自包含的子列表。
+ // 名为“NumberDefault”的 Microsoft Word 列表模板使用数字为第一个列表级别创建列表级别。
+// 更深的列表级别使用字母和小写罗马数字。 
+for (int i = 0; i < 9; i++)
+{
+    builder.ListFormat.ListLevelNumber = i;
+    builder.Writeln("Level " + i);
+}
+
+ // 2 - 项目符号列表：
+ // 此列表将在每个段落之前应用缩进和项目符号 ("•")。
+ // 此列表的更深层次将使用不同的符号，例如“■”和“○”。
+builder.ListFormat.List = doc.Lists.Add(ListTemplate.BulletDefault);
+
+for (int i = 0; i < 9; i++)
+{
+    builder.ListFormat.ListLevelNumber = i;
+    builder.Writeln("Level " + i);
+}
+
+ // 我们可以通过取消设置“列表”标志来禁用列表格式，以不将任何后续段落格式化为列表。
+builder.ListFormat.List = null;
+
+Assert.False(builder.ListFormat.IsListItem);
+
+doc.Save(ArtifactsDir + "Lists.SpecifyListLevel.docx");
+```
+
+演示如何在使用 DocumentBuilder 时将自定义列表格式应用于段落。
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+Assert.False(builder.ListFormat.IsListItem);
+
+// 列表允许我们用前缀符号和缩进组织和装饰段落集。
+ // 我们可以通过增加缩进级别来创建嵌套列表。 
+ // 我们可以使用文档构建器的“ListFormat”属性来开始和结束一个列表。 
+ // 我们在列表开头和结尾之间添加的每个段落都将成为列表中的一个项目。
+ // 下面是我们可以使用文档构建器创建的两种类型的列表。
+ // 1 - 编号列表：
+ // 编号列表通过为每个项目编号来为其段落创建逻辑顺序。
+builder.ListFormat.List = doc.Lists.Add(ListTemplate.NumberDefault);
+
+Assert.True(builder.ListFormat.IsListItem);
+
+ // 通过设置“ListLevelNumber”属性，我们可以增加列表级别
+ // 在当前列表项开始一个自包含的子列表。
+ // 名为“NumberDefault”的 Microsoft Word 列表模板使用数字为第一个列表级别创建列表级别。
+// 更深的列表级别使用字母和小写罗马数字。 
+for (int i = 0; i < 9; i++)
+{
+    builder.ListFormat.ListLevelNumber = i;
+    builder.Writeln("Level " + i);
+}
+
+ // 2 - 项目符号列表：
+ // 此列表将在每个段落之前应用缩进和项目符号 ("•")。
+ // 此列表的更深层次将使用不同的符号，例如“■”和“○”。
+builder.ListFormat.List = doc.Lists.Add(ListTemplate.BulletDefault);
+
+for (int i = 0; i < 9; i++)
+{
+    builder.ListFormat.ListLevelNumber = i;
+    builder.Writeln("Level " + i);
+}
+
+ // 我们可以通过取消设置“列表”标志来禁用列表格式，以不将任何后续段落格式化为列表。
+builder.ListFormat.List = null;
+
+Assert.False(builder.ListFormat.IsListItem);
+
+doc.Save(ArtifactsDir + "Lists.SpecifyListLevel.docx");
+```
+
+显示如何使用列表级别。
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+Assert.False(builder.ListFormat.IsListItem);
+
+// 列表允许我们用前缀符号和缩进组织和装饰段落集。
+ // 我们可以通过增加缩进级别来创建嵌套列表。 
+ // 我们可以使用文档构建器的“ListFormat”属性来开始和结束一个列表。 
+ // 我们在列表开头和结尾之间添加的每个段落都将成为列表中的一个项目。
+ // 下面是我们可以使用文档构建器创建的两种类型的列表。
+ // 1 - 编号列表：
+ // 编号列表通过为每个项目编号来为其段落创建逻辑顺序。
+builder.ListFormat.List = doc.Lists.Add(ListTemplate.NumberDefault);
+
+Assert.True(builder.ListFormat.IsListItem);
+
+ // 通过设置“ListLevelNumber”属性，我们可以增加列表级别
+ // 在当前列表项开始一个自包含的子列表。
+ // 名为“NumberDefault”的 Microsoft Word 列表模板使用数字为第一个列表级别创建列表级别。
+// 更深的列表级别使用字母和小写罗马数字。 
+for (int i = 0; i < 9; i++)
+{
+    builder.ListFormat.ListLevelNumber = i;
+    builder.Writeln("Level " + i);
+}
+
+ // 2 - 项目符号列表：
+ // 此列表将在每个段落之前应用缩进和项目符号 ("•")。
+ // 此列表的更深层次将使用不同的符号，例如“■”和“○”。
+builder.ListFormat.List = doc.Lists.Add(ListTemplate.BulletDefault);
+
+for (int i = 0; i < 9; i++)
+{
+    builder.ListFormat.ListLevelNumber = i;
+    builder.Writeln("Level " + i);
+}
+
+ // 我们可以通过取消设置“列表”标志来禁用列表格式，以不将任何后续段落格式化为列表。
+builder.ListFormat.List = null;
+
+Assert.False(builder.ListFormat.IsListItem);
+
+doc.Save(ArtifactsDir + "Lists.SpecifyListLevel.docx");
+```
+
+### 也可以看看
+
+* namespace [Aspose.Words.Lists](../../aspose.words.lists)
+* assembly [Aspose.Words](../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

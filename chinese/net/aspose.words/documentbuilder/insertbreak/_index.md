@@ -1,0 +1,175 @@
+---
+title: InsertBreak
+second_title: Aspose.Words for .NET API 参考
+description: 将指定类型的中断插入到文档中
+type: docs
+weight: 240
+url: /zh/net/aspose.words/documentbuilder/insertbreak/
+---
+## DocumentBuilder.InsertBreak method
+
+将指定类型的中断插入到文档中。
+
+```csharp
+public void InsertBreak(BreakType breakType)
+```
+
+| 范围 | 类型 | 描述 |
+| --- | --- | --- |
+| breakType | BreakType | 指定要插入的中断类型。 |
+
+### 评论
+
+使用此方法在文档中插入段落、页面、列、节或换行符。
+
+### 例子
+
+展示如何使用 DocumentBuilder 在文档中创建页眉和页脚。
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+// 为文档的第一页插入目录。
+// 配置表格以拾取具有 1 到 3 级标题的段落。
+// 此外，将其条目设置为将带我们的超链接
+// 在 Microsoft Word 中左键单击时指向标题的位置。
+builder.InsertTableOfContents("\\o \"1-3\" \\h \\z \\u");
+builder.InsertBreak(BreakType.PageBreak);
+
+// 通过添加带有标题样式的段落来填充目录。
+// 每个级别在 1 到 3 之间的标题都会在表中创建一个条目。
+builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading1;
+builder.Writeln("Heading 1");
+
+builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading2;
+builder.Writeln("Heading 1.1");
+builder.Writeln("Heading 1.2");
+
+builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading1;
+builder.Writeln("Heading 2");
+builder.Writeln("Heading 3");
+
+builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading2;
+builder.Writeln("Heading 3.1");
+
+builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading3;
+builder.Writeln("Heading 3.1.1");
+builder.Writeln("Heading 3.1.2");
+builder.Writeln("Heading 3.1.3");
+
+builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading4;
+builder.Writeln("Heading 3.1.3.1");
+builder.Writeln("Heading 3.1.3.2");
+
+builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading2;
+builder.Writeln("Heading 3.2");
+builder.Writeln("Heading 3.3");
+
+// 目录是需要更新以显示最新结果的类型的字段。
+doc.UpdateFields();
+doc.Save(ArtifactsDir + "DocumentBuilder.InsertToc.docx");
+```
+
+显示如何将页面设置设置应用和恢复到文档中的部分。
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+// 为文档的第一页插入目录。
+// 配置表格以拾取具有 1 到 3 级标题的段落。
+// 此外，将其条目设置为将带我们的超链接
+// 在 Microsoft Word 中左键单击时指向标题的位置。
+builder.InsertTableOfContents("\\o \"1-3\" \\h \\z \\u");
+builder.InsertBreak(BreakType.PageBreak);
+
+// 通过添加带有标题样式的段落来填充目录。
+// 每个级别在 1 到 3 之间的标题都会在表中创建一个条目。
+builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading1;
+builder.Writeln("Heading 1");
+
+builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading2;
+builder.Writeln("Heading 1.1");
+builder.Writeln("Heading 1.2");
+
+builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading1;
+builder.Writeln("Heading 2");
+builder.Writeln("Heading 3");
+
+builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading2;
+builder.Writeln("Heading 3.1");
+
+builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading3;
+builder.Writeln("Heading 3.1.1");
+builder.Writeln("Heading 3.1.2");
+builder.Writeln("Heading 3.1.3");
+
+builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading4;
+builder.Writeln("Heading 3.1.3.1");
+builder.Writeln("Heading 3.1.3.2");
+
+builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading2;
+builder.Writeln("Heading 3.2");
+builder.Writeln("Heading 3.3");
+
+// 目录是需要更新以显示最新结果的类型的字段。
+doc.UpdateFields();
+doc.Save(ArtifactsDir + "DocumentBuilder.InsertToc.docx");
+```
+
+展示如何使用标题样式作为条目将目录 (TOC) 插入到文档中。
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+// 为文档的第一页插入目录。
+// 配置表格以拾取具有 1 到 3 级标题的段落。
+// 此外，将其条目设置为将带我们的超链接
+// 在 Microsoft Word 中左键单击时指向标题的位置。
+builder.InsertTableOfContents("\\o \"1-3\" \\h \\z \\u");
+builder.InsertBreak(BreakType.PageBreak);
+
+// 通过添加带有标题样式的段落来填充目录。
+// 每个级别在 1 到 3 之间的标题都会在表中创建一个条目。
+builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading1;
+builder.Writeln("Heading 1");
+
+builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading2;
+builder.Writeln("Heading 1.1");
+builder.Writeln("Heading 1.2");
+
+builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading1;
+builder.Writeln("Heading 2");
+builder.Writeln("Heading 3");
+
+builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading2;
+builder.Writeln("Heading 3.1");
+
+builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading3;
+builder.Writeln("Heading 3.1.1");
+builder.Writeln("Heading 3.1.2");
+builder.Writeln("Heading 3.1.3");
+
+builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading4;
+builder.Writeln("Heading 3.1.3.1");
+builder.Writeln("Heading 3.1.3.2");
+
+builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading2;
+builder.Writeln("Heading 3.2");
+builder.Writeln("Heading 3.3");
+
+// 目录是需要更新以显示最新结果的类型的字段。
+doc.UpdateFields();
+doc.Save(ArtifactsDir + "DocumentBuilder.InsertToc.docx");
+```
+
+### 也可以看看
+
+* enum [BreakType](../../breaktype)
+* class [DocumentBuilder](../../documentbuilder)
+* namespace [Aspose.Words](../../documentbuilder)
+* assembly [Aspose.Words](../../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

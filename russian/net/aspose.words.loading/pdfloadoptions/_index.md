@@ -1,0 +1,53 @@
+---
+title: PdfLoadOptions
+second_title: Справочник по API Aspose.Words для .NET
+description: Позволяет указать дополнительные параметры при загрузке документа Pdf в объектDocument../aspose.words/document.
+type: docs
+weight: 3420
+url: /ru/net/aspose.words.loading/pdfloadoptions/
+---
+## PdfLoadOptions class
+
+Позволяет указать дополнительные параметры при загрузке документа Pdf в объект[`Document`](../../aspose.words/document).
+
+```csharp
+public class PdfLoadOptions : LoadOptions
+```
+
+## Конструкторы
+
+| Имя | Описание |
+| --- | --- |
+| [PdfLoadOptions](pdfloadoptions)() | Конструктор по умолчанию. |
+
+## Характеристики
+
+| Имя | Описание |
+| --- | --- |
+| [BaseUri](../../aspose.words.loading/loadoptions/baseuri) { get; set; } | Получает или задает строку, которая будет использоваться для преобразования относительных URI, найденных в документе, в абсолютные URI, когда это необходимо. Может быть null или пустой строкой. Значение по умолчанию равно нулю. |
+| [ConvertMetafilesToPng](../../aspose.words.loading/loadoptions/convertmetafilestopng) { get; set; } | Получает или задает, следует ли преобразовывать метафайл (WmfилиEmf) изображения вPngформат изображения. |
+| [ConvertShapeToOfficeMath](../../aspose.words.loading/loadoptions/convertshapetoofficemath) { get; set; } | Получает или задает, следует ли преобразовывать фигуры с помощью EquationXML в объекты Office Math. |
+| [Encoding](../../aspose.words.loading/loadoptions/encoding) { get; set; } | Получает или задает кодировку, которая будет использоваться для загрузки документа HTML, TXT или CHM, если кодировка не указана внутри документа . Может быть нулевым. Значение по умолчанию равно нулю. |
+| [FlatOpcXmlMappingOnly](../../aspose.words.loading/loadoptions/flatopcxmlmappingonly) { get; set; } | Получает или задает значение, определяющее, какие форматы документов разрешено отображать с помощью[`XmlMapping`](../../aspose.words.markup/structureddocumenttag/xmlmapping). По умолчанию только формат документаFlatOpcразрешен для сопоставления. |
+| [FontSettings](../../aspose.words.loading/loadoptions/fontsettings) { get; set; } | Позволяет задать настройки шрифта документа. |
+| [LanguagePreferences](../../aspose.words.loading/loadoptions/languagepreferences) { get; } | Получает языковые настройки, которые будут использоваться при загрузке документа. |
+| [LoadFormat](../../aspose.words.loading/loadoptions/loadformat) { get; set; } | Задает формат загружаемого документа. По умолчанию:Auto. |
+| [MswVersion](../../aspose.words.loading/loadoptions/mswversion) { get; set; } | Позволяет указать, что процесс загрузки документа должен соответствовать конкретной версии MS Word. Значение по умолчанию:Word2019 |
+| [PageCount](../../aspose.words.loading/pdfloadoptions/pagecount) { get; set; } | Получает или задает количество страниц для чтения. По умолчанию установлено значение MaxValue, что означает, что будут прочитаны все страницы документа. |
+| [PageIndex](../../aspose.words.loading/pdfloadoptions/pageindex) { get; set; } | Получает или задает отсчитываемый от 0 индекс первой страницы для чтения. По умолчанию 0. |
+| [Password](../../aspose.words.loading/loadoptions/password) { get; set; } | Получает или задает пароль для открытия зашифрованного документа. Может быть null или пустой строкой. Значение по умолчанию равно нулю. |
+| [PreserveIncludePictureField](../../aspose.words.loading/loadoptions/preserveincludepicturefield) { get; set; } | Получает или задает, следует ли сохранять поле INCLUDEPICTURE при чтении форматов Microsoft Word. Значение по умолчанию — false. |
+| [ProgressCallback](../../aspose.words.loading/loadoptions/progresscallback) { get; set; } | Вызывается при загрузке документа и принимает данные о ходе загрузки. |
+| [ResourceLoadingCallback](../../aspose.words.loading/loadoptions/resourceloadingcallback) { get; set; } | Позволяет управлять загрузкой внешних ресурсов (изображений, таблиц стилей) при импорте документа из HTML, MHTML. |
+| [SkipPdfImages](../../aspose.words.loading/pdfloadoptions/skippdfimages) { get; set; } | Получает или устанавливает флаг, указывающий, должны ли изображения пропускаться при загрузке PDF-документа. По умолчанию — Ложь. |
+| [TempFolder](../../aspose.words.loading/loadoptions/tempfolder) { get; set; } | Позволяет использовать временные файлы при чтении документа. По умолчанию это свойство` null` и временные файлы не используются. |
+| [UpdateDirtyFields](../../aspose.words.loading/loadoptions/updatedirtyfields) { get; set; } | Указывает, обновлять ли поля с атрибутом` dirty` . |
+| [WarningCallback](../../aspose.words.loading/loadoptions/warningcallback) { get; set; } | Вызывается во время операции загрузки, когда обнаруживается проблема, которая может привести к потере точности данных или форматирования. |
+
+### Смотрите также
+
+* class [LoadOptions](../loadoptions)
+* namespace [Aspose.Words.Loading](../../aspose.words.loading)
+* assembly [Aspose.Words](../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

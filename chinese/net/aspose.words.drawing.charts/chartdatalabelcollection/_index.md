@@ -1,0 +1,121 @@
+---
+title: ChartDataLabelCollection
+second_title: Aspose.Words for .NET API 参考
+description: 表示ChartDataLabel./chartdatalabel的集合
+type: docs
+weight: 640
+url: /zh/net/aspose.words.drawing.charts/chartdatalabelcollection/
+---
+## ChartDataLabelCollection class
+
+表示[`ChartDataLabel`](../chartdatalabel)的集合。
+
+```csharp
+public class ChartDataLabelCollection : IEnumerable<ChartDataLabel>
+```
+
+## 特性
+
+| 姓名 | 描述 |
+| --- | --- |
+| [Count](../../aspose.words.drawing.charts/chartdatalabelcollection/count) { get; } | 返回此集合中[`ChartDataLabel`](../chartdatalabel)的数量。 |
+| [Item](../../aspose.words.drawing.charts/chartdatalabelcollection/item) { get; } | 返回指定索引的[`ChartDataLabel`](../chartdatalabel)。 |
+| [NumberFormat](../../aspose.words.drawing.charts/chartdatalabelcollection/numberformat) { get; } | 获取[`ChartNumberFormat`](../chartnumberformat)实例，允许为::的数据标签设置数字格式:47:::整个系列。 |
+| [Separator](../../aspose.words.drawing.charts/chartdatalabelcollection/separator) { get; set; } | 获取或设置用于整个系列数据标签的字符串分隔符。 默认为逗号，但饼图仅显示类别名称和百分比除外，此时应使用换行符 。 |
+| [ShowBubbleSize](../../aspose.words.drawing.charts/chartdatalabelcollection/showbubblesize) { get; set; } | 允许指定是否为整个系列的数据标签显示气泡大小。 仅适用于气泡图。 默认值为 **false** 。 |
+| [ShowCategoryName](../../aspose.words.drawing.charts/chartdatalabelcollection/showcategoryname) { get; set; } | 允许指定是否为整个系列的数据标签显示类别名称。 默认值为 **false** 。 |
+| [ShowDataLabelsRange](../../aspose.words.drawing.charts/chartdatalabelcollection/showdatalabelsrange) { get; set; } | 允许指定数据标签范围内的值是否显示在整个系列的数据标签中。 默认值为 **false** 。 |
+| [ShowLeaderLines](../../aspose.words.drawing.charts/chartdatalabelcollection/showleaderlines) { get; set; } | 允许指定是否需要为整个系列的数据标签显示数据标签引出线。 默认值为 **false** 。 |
+| [ShowLegendKey](../../aspose.words.drawing.charts/chartdatalabelcollection/showlegendkey) { get; set; } | 允许指定是否为整个系列的数据标签显示图例键。 默认值为 **false** 。 |
+| [ShowPercentage](../../aspose.words.drawing.charts/chartdatalabelcollection/showpercentage) { get; set; } | 允许指定是否为整个系列的数据标签显示百分比值。 默认值为 **false** 。仅适用于饼图。 |
+| [ShowSeriesName](../../aspose.words.drawing.charts/chartdatalabelcollection/showseriesname) { get; set; } | 返回或设置一个布尔值，表示整个系列数据标签的系列名称显示行为。  **True** 显示系列名称。 **False** 隐藏。默认情况下 **false** 。 |
+| [ShowValue](../../aspose.words.drawing.charts/chartdatalabelcollection/showvalue) { get; set; } | 允许指定值是否显示在整个系列的数据标签中。 默认值为 **false** 。 |
+
+## 方法
+
+| 姓名 | 描述 |
+| --- | --- |
+| [ClearFormat](../../aspose.words.drawing.charts/chartdatalabelcollection/clearformat)() | 清除此集合中所有[`ChartDataLabel`](../chartdatalabel)的格式。 |
+| [GetEnumerator](../../aspose.words.drawing.charts/chartdatalabelcollection/getenumerator)() | 返回一个枚举器对象。 |
+
+### 例子
+
+显示如何将标签应用于折线图中的数据点。
+
+```csharp
+{
+    Document doc = new Document();
+    DocumentBuilder builder = new DocumentBuilder(doc);
+
+    Shape chartShape = builder.InsertChart(ChartType.Line, 400, 300);
+    Chart chart = chartShape.Chart;
+
+    Assert.AreEqual(3, chart.Series.Count);
+    Assert.AreEqual("Series 1", chart.Series[0].Name);
+    Assert.AreEqual("Series 2", chart.Series[1].Name);
+    Assert.AreEqual("Series 3", chart.Series[2].Name);
+
+    // 将数据标签应用于图表中的每个系列。
+    // 这些标签将出现在图表中每个数据点的旁边并显示其值。
+    foreach (ChartSeries series in chart.Series)
+    {
+        ApplyDataLabels(series, 4, "000.0", ", ");
+        Assert.AreEqual(4, series.DataLabels.Count);
+    }
+
+    // 更改系列中每个数据标签的分隔符字符串。
+    using (IEnumerator<ChartDataLabel> enumerator = chart.Series[0].DataLabels.GetEnumerator())
+    {
+        while (enumerator.MoveNext())
+        {
+            Assert.AreEqual(", ", enumerator.Current.Separator);
+            enumerator.Current.Separator = " & ";
+        }
+    }
+
+    // 为了更清晰的图表，我们可以单独删除数据标签。
+    chart.Series[1].DataLabels[2].ClearFormat();
+
+    // 我们也可以一次剥离整个系列的数据标签。
+    chart.Series[2].DataLabels.ClearFormat();
+
+    doc.Save(ArtifactsDir + "Charts.DataLabels.docx");
+}
+
+/// <summary>
+/// 将具有自定义数字格式和分隔符的数据标签应用于系列中的多个数据点。
+/// </summary>
+private static void ApplyDataLabels(ChartSeries series, int labelsCount, string numberFormat, string separator)
+{
+    for (int i = 0; i < labelsCount; i++)
+    {
+        series.HasDataLabels = true;
+
+        Assert.False(series.DataLabels[i].IsVisible);
+
+        series.DataLabels[i].ShowCategoryName = true;
+        series.DataLabels[i].ShowSeriesName = true;
+        series.DataLabels[i].ShowValue = true;
+        series.DataLabels[i].ShowLeaderLines = true;
+        series.DataLabels[i].ShowLegendKey = true;
+        series.DataLabels[i].ShowPercentage = false;
+        series.DataLabels[i].IsHidden = false;
+        Assert.False(series.DataLabels[i].ShowDataLabelsRange);
+
+        series.DataLabels[i].NumberFormat.FormatCode = numberFormat;
+        series.DataLabels[i].Separator = separator;
+
+        Assert.False(series.DataLabels[i].ShowDataLabelsRange);
+        Assert.True(series.DataLabels[i].IsVisible);
+        Assert.False(series.DataLabels[i].IsHidden);
+    }
+}
+```
+
+### 也可以看看
+
+* class [ChartDataLabel](../chartdatalabel)
+* namespace [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts)
+* assembly [Aspose.Words](../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

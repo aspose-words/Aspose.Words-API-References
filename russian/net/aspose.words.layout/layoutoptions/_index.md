@@ -1,0 +1,109 @@
+---
+title: LayoutOptions
+second_title: Справочник по API Aspose.Words для .NET
+description: Содержит опции позволяющие управлять процессом компоновки документа.
+type: docs
+weight: 3100
+url: /ru/net/aspose.words.layout/layoutoptions/
+---
+## LayoutOptions class
+
+Содержит опции, позволяющие управлять процессом компоновки документа.
+
+```csharp
+public class LayoutOptions
+```
+
+## Конструкторы
+
+| Имя | Описание |
+| --- | --- |
+| [LayoutOptions](layoutoptions)() | Конструктор по умолчанию. |
+
+## Характеристики
+
+| Имя | Описание |
+| --- | --- |
+| [Callback](../../aspose.words.layout/layoutoptions/callback) { get; set; } | Получает или устанавливает[`IPageLayoutCallback`](../ipagelayoutcallback)реализация, используемая моделью макета страницы. |
+| [CommentDisplayMode](../../aspose.words.layout/layoutoptions/commentdisplaymode) { get; set; } | Получает или задает способ отображения комментариев. Значение по умолчанию:ShowInBalloons. |
+| [ContinuousSectionPageNumberingRestart](../../aspose.words.layout/layoutoptions/continuoussectionpagenumberingrestart) { get; set; } | Получает или задает режим поведения для вычисления номеров страниц, когда непрерывный раздел перезапускает нумерацию страниц. |
+| [IgnorePrinterMetrics](../../aspose.words.layout/layoutoptions/ignoreprintermetrics) { get; set; } | Получает или задает указание на то, игнорируется ли параметр совместимости "Использовать метрики принтера для компоновки документа". Значение по умолчанию — True. |
+| [RevisionOptions](../../aspose.words.layout/layoutoptions/revisionoptions) { get; } | Получает параметры ревизии. |
+| [ShowHiddenText](../../aspose.words.layout/layoutoptions/showhiddentext) { get; set; } | Получает или задает индикацию того, отображается ли скрытый текст в документе. По умолчанию - False. |
+| [ShowParagraphMarks](../../aspose.words.layout/layoutoptions/showparagraphmarks) { get; set; } | Получает или задает индикацию того, отображаются ли знаки абзаца. По умолчанию - False. |
+| [TextShaperFactory](../../aspose.words.layout/layoutoptions/textshaperfactory) { get; set; } | Получает или задает[`ITextShaperFactory`](../../aspose.words.shaping/itextshaperfactory)реализация, используемая для функций рендеринга Advanced Typography. |
+
+### Примечания
+
+Вы не создаете экземпляры этого класса напрямую. Используйте свойство[`LayoutOptions`](../../aspose.words/document/layoutoptions)для доступа к параметрам макета для этого документа.
+
+Обратите внимание, что после изменения любой из опций, присутствующих в этом классе,[`UpdatePageLayout`](../../aspose.words/document/updatepagelayout)метод должен быть вызван для того, чтобы измененные параметры были применены к макету.
+
+### Примеры
+
+Показывает, как скрыть текст в визуализированном выходном документе.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+// Вставьте ревизию, затем измените цвет всех ревизий на зеленый.
+builder.Writeln("This is not a revision.");
+doc.StartTrackRevisions("John Doe", DateTime.Now);
+builder.Writeln("This is a revision.");
+doc.StopTrackRevisions();
+builder.Writeln("This is not a revision.");
+
+// Удаляем полосу, которая появляется слева от каждой исправленной строки.
+doc.LayoutOptions.RevisionOptions.InsertedTextColor = RevisionColor.BrightGreen;
+doc.LayoutOptions.RevisionOptions.ShowRevisionBars = false;
+
+doc.Save(ArtifactsDir + "Document.LayoutOptionsRevisions.pdf");
+```
+
+Показывает, как отображать метки абзаца в готовом выходном документе.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+// Вставьте ревизию, затем измените цвет всех ревизий на зеленый.
+builder.Writeln("This is not a revision.");
+doc.StartTrackRevisions("John Doe", DateTime.Now);
+builder.Writeln("This is a revision.");
+doc.StopTrackRevisions();
+builder.Writeln("This is not a revision.");
+
+// Удаляем полосу, которая появляется слева от каждой исправленной строки.
+doc.LayoutOptions.RevisionOptions.InsertedTextColor = RevisionColor.BrightGreen;
+doc.LayoutOptions.RevisionOptions.ShowRevisionBars = false;
+
+doc.Save(ArtifactsDir + "Document.LayoutOptionsRevisions.pdf");
+```
+
+Показывает, как изменить внешний вид редакций в готовом выходном документе.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+// Вставьте ревизию, затем измените цвет всех ревизий на зеленый.
+builder.Writeln("This is not a revision.");
+doc.StartTrackRevisions("John Doe", DateTime.Now);
+builder.Writeln("This is a revision.");
+doc.StopTrackRevisions();
+builder.Writeln("This is not a revision.");
+
+// Удаляем полосу, которая появляется слева от каждой исправленной строки.
+doc.LayoutOptions.RevisionOptions.InsertedTextColor = RevisionColor.BrightGreen;
+doc.LayoutOptions.RevisionOptions.ShowRevisionBars = false;
+
+doc.Save(ArtifactsDir + "Document.LayoutOptionsRevisions.pdf");
+```
+
+### Смотрите также
+
+* namespace [Aspose.Words.Layout](../../aspose.words.layout)
+* assembly [Aspose.Words](../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

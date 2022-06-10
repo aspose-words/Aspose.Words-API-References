@@ -1,0 +1,122 @@
+---
+title: OoxmlCompliance
+second_title: Справочник по API Aspose.Words для .NET
+description: Позволяет указать какая спецификация OOXML будет использоваться при сохранении в формате DOCX.
+type: docs
+weight: 5010
+url: /ru/net/aspose.words.saving/ooxmlcompliance/
+---
+## OoxmlCompliance enumeration
+
+Позволяет указать, какая спецификация OOXML будет использоваться при сохранении в формате DOCX.
+
+```csharp
+public enum OoxmlCompliance
+```
+
+### Ценности
+
+| Имя | Ценность | Описание |
+| --- | --- | --- |
+| Ecma376_2006 | `0` | ECMA-376 1-е издание, 2006 г. |
+| Iso29500_2008_Transitional | `1` | ISO/IEC 29500:2008 Переходный уровень соответствия. |
+| Iso29500_2008_Strict | `2` | ISO/IEC 29500:2008 Строгий уровень соответствия. |
+
+### Примеры
+
+Показывает, как вставлять фигуры DML в документ.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+// Если мы настроим параметры совместимости для соответствия Microsoft Word 2003,
+// вставка изображения определит его форму с помощью VML.
+doc.CompatibilityOptions.OptimizeFor(MsWordVersion.Word2003);
+builder.InsertImage(ImageDir + "Transparent background logo.png");
+
+Assert.AreEqual(ShapeMarkupLanguage.Vml, ((Shape)doc.GetChild(NodeType.Shape, 0, true)).MarkupLanguage);
+
+// Стандарт OOXML "ISO/IEC 29500:2008" не поддерживает формы VML.
+// Если мы установим для свойства "Соответствие" объекта SaveOptions значение "OoxmlCompliance.Iso29500_2008_Strict",
+ // любой документ, который мы сохраняем при передаче этого объекта, должен соответствовать этому стандарту.
+OoxmlSaveOptions saveOptions = new OoxmlSaveOptions
+{
+    Compliance = OoxmlCompliance.Iso29500_2008_Strict,
+    SaveFormat = SaveFormat.Docx
+};
+
+doc.Save(ArtifactsDir + "OoxmlSaveOptions.Iso29500Strict.docx", saveOptions);
+
+// Наш сохраненный документ определяет форму с помощью DML, чтобы соответствовать стандарту OOXML "ISO/IEC 29500:2008".
+doc = new Document(ArtifactsDir + "OoxmlSaveOptions.Iso29500Strict.docx");
+
+Assert.AreEqual(ShapeMarkupLanguage.Dml, ((Shape)doc.GetChild(NodeType.Shape, 0, true)).MarkupLanguage);
+```
+
+Показывает, как настроить список для повторной нумерации в каждом разделе.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+// Если мы настроим параметры совместимости для соответствия Microsoft Word 2003,
+// вставка изображения определит его форму с помощью VML.
+doc.CompatibilityOptions.OptimizeFor(MsWordVersion.Word2003);
+builder.InsertImage(ImageDir + "Transparent background logo.png");
+
+Assert.AreEqual(ShapeMarkupLanguage.Vml, ((Shape)doc.GetChild(NodeType.Shape, 0, true)).MarkupLanguage);
+
+// Стандарт OOXML "ISO/IEC 29500:2008" не поддерживает формы VML.
+// Если мы установим для свойства "Соответствие" объекта SaveOptions значение "OoxmlCompliance.Iso29500_2008_Strict",
+ // любой документ, который мы сохраняем при передаче этого объекта, должен соответствовать этому стандарту.
+OoxmlSaveOptions saveOptions = new OoxmlSaveOptions
+{
+    Compliance = OoxmlCompliance.Iso29500_2008_Strict,
+    SaveFormat = SaveFormat.Docx
+};
+
+doc.Save(ArtifactsDir + "OoxmlSaveOptions.Iso29500Strict.docx", saveOptions);
+
+// Наш сохраненный документ определяет форму с помощью DML, чтобы соответствовать стандарту OOXML "ISO/IEC 29500:2008".
+doc = new Document(ArtifactsDir + "OoxmlSaveOptions.Iso29500Strict.docx");
+
+Assert.AreEqual(ShapeMarkupLanguage.Dml, ((Shape)doc.GetChild(NodeType.Shape, 0, true)).MarkupLanguage);
+```
+
+Показывает, как установить спецификацию соответствия OOXML для сохраненного документа.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+// Если мы настроим параметры совместимости для соответствия Microsoft Word 2003,
+// вставка изображения определит его форму с помощью VML.
+doc.CompatibilityOptions.OptimizeFor(MsWordVersion.Word2003);
+builder.InsertImage(ImageDir + "Transparent background logo.png");
+
+Assert.AreEqual(ShapeMarkupLanguage.Vml, ((Shape)doc.GetChild(NodeType.Shape, 0, true)).MarkupLanguage);
+
+// Стандарт OOXML "ISO/IEC 29500:2008" не поддерживает формы VML.
+// Если мы установим для свойства "Соответствие" объекта SaveOptions значение "OoxmlCompliance.Iso29500_2008_Strict",
+ // любой документ, который мы сохраняем при передаче этого объекта, должен соответствовать этому стандарту.
+OoxmlSaveOptions saveOptions = new OoxmlSaveOptions
+{
+    Compliance = OoxmlCompliance.Iso29500_2008_Strict,
+    SaveFormat = SaveFormat.Docx
+};
+
+doc.Save(ArtifactsDir + "OoxmlSaveOptions.Iso29500Strict.docx", saveOptions);
+
+// Наш сохраненный документ определяет форму с помощью DML, чтобы соответствовать стандарту OOXML "ISO/IEC 29500:2008".
+doc = new Document(ArtifactsDir + "OoxmlSaveOptions.Iso29500Strict.docx");
+
+Assert.AreEqual(ShapeMarkupLanguage.Dml, ((Shape)doc.GetChild(NodeType.Shape, 0, true)).MarkupLanguage);
+```
+
+### Смотрите также
+
+* namespace [Aspose.Words.Saving](../../aspose.words.saving)
+* assembly [Aspose.Words](../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

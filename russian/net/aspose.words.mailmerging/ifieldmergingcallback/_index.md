@@ -1,0 +1,157 @@
+---
+title: IFieldMergingCallback
+second_title: Справочник по API Aspose.Words для .NET
+description: Реализуйте этот интерфейс если вы хотите управлять тем как данные вставляются в поля слияния во время операции слияния.
+type: docs
+weight: 3520
+url: /ru/net/aspose.words.mailmerging/ifieldmergingcallback/
+---
+## IFieldMergingCallback interface
+
+Реализуйте этот интерфейс, если вы хотите управлять тем, как данные вставляются в поля слияния во время операции слияния.
+
+```csharp
+public interface IFieldMergingCallback
+```
+
+## Методы
+
+| Имя | Описание |
+| --- | --- |
+| [FieldMerging](../../aspose.words.mailmerging/ifieldmergingcallback/fieldmerging)(FieldMergingArgs) | Вызывается, когда механизм слияния Aspose.Words собирается вставить данные в поле слияния в документе. |
+| [ImageFieldMerging](../../aspose.words.mailmerging/ifieldmergingcallback/imagefieldmerging)(ImageFieldMergingArgs) | Вызывается, когда механизм слияния Aspose.Words собирается вставить изображение в поле слияния. |
+
+### Примеры
+
+Показывает, как вставлять в отчет изображения, хранящиеся в поле BLOB базы данных.
+
+```csharp
+public void MergeHtml()
+{
+    Document doc = new Document();
+    DocumentBuilder builder = new DocumentBuilder(doc);
+
+    builder.InsertField(@"MERGEFIELD  html_Title  \b Content");
+    builder.InsertField(@"MERGEFIELD  html_Body  \b Content");
+
+    object[] mergeData =
+    {
+        "<html>" +
+            "<h1>" +
+                "<span style=\"color: #0000ff; font-family: Arial;\">Hello World!</span>" +
+            "</h1>" +
+        "</html>", 
+
+        "<html>" +
+            "<blockquote>" +
+                "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>" +
+            "</blockquote>" +
+        "</html>"
+    };
+
+    doc.MailMerge.FieldMergingCallback = new HandleMergeFieldInsertHtml();
+    doc.MailMerge.Execute(new[] { "html_Title", "html_Body" }, mergeData);
+
+    doc.Save(ArtifactsDir + "MailMergeEvent.MergeHtml.docx");
+}
+
+/// <summary>
+ /// Если слияние почты встречает MERGEFIELD, имя которого начинается с префикса "html_", 
+ /// этот обратный вызов анализирует свои данные слияния как содержимое HTML и добавляет результат в расположение документа MERGEFIELD.
+/// </summary>
+private class HandleMergeFieldInsertHtml : IFieldMergingCallback
+{
+    /// <summary>
+     /// Вызывается, когда слияние почты объединяет данные в MERGEFIELD.
+    /// </summary>
+    void IFieldMergingCallback.FieldMerging(FieldMergingArgs args)
+    {
+        if (args.DocumentFieldName.StartsWith("html_") && args.Field.GetFieldCode().Contains("\\b"))
+        {
+             // Добавляем проанализированные HTML-данные в тело документа.
+            DocumentBuilder builder = new DocumentBuilder(args.Document);
+            builder.MoveToMergeField(args.DocumentFieldName);
+            builder.InsertHtml((string)args.FieldValue);
+
+             // Поскольку мы уже вставили объединенный контент вручную, 
+             // нам не нужно будет реагировать на это событие, возвращая содержимое через свойство «Текст». 
+            args.Text = string.Empty;
+        }
+    }
+
+    void IFieldMergingCallback.ImageFieldMerging(ImageFieldMergingArgs args)
+    {
+         // Ничего не делать.
+    }
+}
+```
+
+Показывает, как выполнить слияние почты с настраиваемым обратным вызовом, который обрабатывает данные слияния в виде HTML-документов.
+
+```csharp
+public void MergeHtml()
+{
+    Document doc = new Document();
+    DocumentBuilder builder = new DocumentBuilder(doc);
+
+    builder.InsertField(@"MERGEFIELD  html_Title  \b Content");
+    builder.InsertField(@"MERGEFIELD  html_Body  \b Content");
+
+    object[] mergeData =
+    {
+        "<html>" +
+            "<h1>" +
+                "<span style=\"color: #0000ff; font-family: Arial;\">Hello World!</span>" +
+            "</h1>" +
+        "</html>", 
+
+        "<html>" +
+            "<blockquote>" +
+                "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>" +
+            "</blockquote>" +
+        "</html>"
+    };
+
+    doc.MailMerge.FieldMergingCallback = new HandleMergeFieldInsertHtml();
+    doc.MailMerge.Execute(new[] { "html_Title", "html_Body" }, mergeData);
+
+    doc.Save(ArtifactsDir + "MailMergeEvent.MergeHtml.docx");
+}
+
+/// <summary>
+ /// Если слияние почты встречает MERGEFIELD, имя которого начинается с префикса "html_", 
+ /// этот обратный вызов анализирует свои данные слияния как содержимое HTML и добавляет результат в расположение документа MERGEFIELD.
+/// </summary>
+private class HandleMergeFieldInsertHtml : IFieldMergingCallback
+{
+    /// <summary>
+     /// Вызывается, когда слияние почты объединяет данные в MERGEFIELD.
+    /// </summary>
+    void IFieldMergingCallback.FieldMerging(FieldMergingArgs args)
+    {
+        if (args.DocumentFieldName.StartsWith("html_") && args.Field.GetFieldCode().Contains("\\b"))
+        {
+             // Добавляем проанализированные HTML-данные в тело документа.
+            DocumentBuilder builder = new DocumentBuilder(args.Document);
+            builder.MoveToMergeField(args.DocumentFieldName);
+            builder.InsertHtml((string)args.FieldValue);
+
+             // Поскольку мы уже вставили объединенный контент вручную, 
+             // нам не нужно будет реагировать на это событие, возвращая содержимое через свойство «Текст». 
+            args.Text = string.Empty;
+        }
+    }
+
+    void IFieldMergingCallback.ImageFieldMerging(ImageFieldMergingArgs args)
+    {
+         // Ничего не делать.
+    }
+}
+```
+
+### Смотрите также
+
+* namespace [Aspose.Words.MailMerging](../../aspose.words.mailmerging)
+* assembly [Aspose.Words](../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->
