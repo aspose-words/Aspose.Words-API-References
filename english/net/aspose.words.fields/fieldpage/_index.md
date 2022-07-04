@@ -3,7 +3,7 @@ title: FieldPage
 second_title: Aspose.Words for .NET API Reference
 description: Implements the PAGE field.
 type: docs
-weight: 2070
+weight: 2110
 url: /net/aspose.words.fields/fieldpage/
 ---
 ## FieldPage class
@@ -46,11 +46,11 @@ public class FieldPage : Field
 | [Update](../../aspose.words.fields/field/update)() | Performs the field update. Throws if the field is being updated already. |
 | [Update](../../aspose.words.fields/field/update)(bool) | Performs a field update. Throws if the field is being updated already. |
 
-### Remarks
+## Remarks
 
 Retrieves the number of the current page.
 
-### Examples
+## Examples
 
 Shows how to use NUMCHARS, NUMWORDS, NUMPAGES and PAGE fields to track the size of our documents.
 

@@ -18,7 +18,7 @@ public void Add(CustomXmlProperty property)
 | --- | --- | --- |
 | property | CustomXmlProperty | The property to add. |
 
-### Examples
+## Examples
 
 Shows how to work with smart tag properties to get in depth information about smart tags.
 

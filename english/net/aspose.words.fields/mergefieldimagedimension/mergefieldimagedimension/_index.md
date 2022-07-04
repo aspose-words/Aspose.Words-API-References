@@ -18,11 +18,11 @@ public MergeFieldImageDimension(double value)
 | --- | --- | --- |
 | value | Double | The value. |
 
-### Remarks
+## Remarks
 
 You should use a negative value to indicate that the original value of the corresponding image dimension should be applied.
 
-### Examples
+## Examples
 
 Shows how to set the dimensions of images as MERGEFIELDS accepts them during a mail merge.
 
@@ -108,11 +108,11 @@ public MergeFieldImageDimension(double value, MergeFieldImageDimensionUnit unit)
 | value | Double | The value. |
 | unit | MergeFieldImageDimensionUnit | The unit. |
 
-### Remarks
+## Remarks
 
 You should use a negative value to indicate that the original value of the corresponding image dimension should be applied.
 
-### Examples
+## Examples
 
 Shows how to set the dimensions of images as MERGEFIELDS accepts them during a mail merge.
 

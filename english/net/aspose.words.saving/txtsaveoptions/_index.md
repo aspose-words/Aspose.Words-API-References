@@ -3,7 +3,7 @@ title: TxtSaveOptions
 second_title: Aspose.Words for .NET API Reference
 description: Can be used to specify additional options when saving a document into the Text format.
 type: docs
-weight: 5330
+weight: 5380
 url: /net/aspose.words.saving/txtsaveoptions/
 ---
 ## TxtSaveOptions class
@@ -55,7 +55,7 @@ public class TxtSaveOptions : TxtSaveOptionsBase
 | [UseAntiAliasing](../../aspose.words.saving/saveoptions/useantialiasing) { get; set; } | Gets or sets a value determining whether or not to use anti-aliasing for rendering. |
 | [UseHighQualityRendering](../../aspose.words.saving/saveoptions/usehighqualityrendering) { get; set; } | Gets or sets a value determining whether or not to use high quality (i.e. slow) rendering algorithms. |
 
-### Examples
+## Examples
 
 Shows how to save a .txt document with a custom paragraph break.
 

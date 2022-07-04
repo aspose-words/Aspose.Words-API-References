@@ -14,7 +14,7 @@ Allows to control how external resources are loaded.
 public IResourceLoadingCallback ResourceLoadingCallback { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to customize the process of loading external resources into a document.
 

@@ -3,7 +3,7 @@ title: StoryType
 second_title: Aspose.Words for .NET API Reference
 description: Text of a Word document is stored in stories. StoryType identifies a story.
 type: docs
-weight: 5770
+weight: 5820
 url: /net/aspose.words/storytype/
 ---
 ## StoryType enumeration
@@ -37,7 +37,7 @@ public enum StoryType
 | EndnoteContinuationSeparator | `16` | Contains the text of the endnote continuation separator, represented by FootnoteSeparator. |
 | EndnoteContinuationNotice | `17` | Contains the text of the endnote continuation notice separator, represented by FootnoteSeparator. |
 
-### Examples
+## Examples
 
 Shows how to remove all shapes from a node.
 

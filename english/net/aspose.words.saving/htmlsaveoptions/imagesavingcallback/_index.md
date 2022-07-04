@@ -14,7 +14,7 @@ Allows to control how images are saved when a document is saved to HTML, MHTML o
 public IImageSavingCallback ImageSavingCallback { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to split a document into parts and save them.
 

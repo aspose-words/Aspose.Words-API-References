@@ -3,7 +3,7 @@ title: EndnotePosition
 second_title: Aspose.Words for .NET API Reference
 description: Defines the endnote position.
 type: docs
-weight: 3960
+weight: 4010
 url: /net/aspose.words.notes/endnoteposition/
 ---
 ## EndnotePosition enumeration
@@ -21,7 +21,7 @@ public enum EndnotePosition
 | EndOfSection | `0` | Endnotes are output at the end of the section. |
 | EndOfDocument | `3` | Endnotes are output at the end of the document. |
 
-### Examples
+## Examples
 
 Shows how to select a different place where the document collects and displays its endnotes.
 

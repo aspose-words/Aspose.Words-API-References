@@ -18,7 +18,7 @@ public ImageSaveOptions(SaveFormat saveFormat)
 | --- | --- | --- |
 | saveFormat | SaveFormat | Can be Tiff, Png, Bmp, Emf, Jpeg or Svg. Png, Bmp, Jpeg or Svg. |
 
-### Examples
+## Examples
 
 Shows how to configure compression while saving a document as a JPEG.
 

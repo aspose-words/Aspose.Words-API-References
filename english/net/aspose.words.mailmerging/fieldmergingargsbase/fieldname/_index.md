@@ -14,18 +14,17 @@ Gets the name of the merge field in the data source.
 public string FieldName { get; }
 ```
 
-### Remarks
+## Remarks
 
 If you have a mapping from a document field name to a different data source field name, then this is the mapped field name.
 
 If you specified a field name prefix, for example "Image:MyFieldName" in the document, then **FieldName** returns field name without the prefix, that is "MyFieldName".
 
-### Examples
+## Examples
 
 Shows how to insert checkbox form fields into MERGEFIELDs as merge data during mail merge.
 
 ```csharp
-public void InsertCheckBox()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -47,7 +46,6 @@ public void InsertCheckBox()
 
     doc.MailMerge.ExecuteWithRegions(dataTable);
     doc.Save(ArtifactsDir + "MailMergeEvent.InsertCheckBox.docx");
-}
 
 /// <summary>
 /// Upon encountering a MERGEFIELD with a specific name, inserts a check box form field instead of merge data text.

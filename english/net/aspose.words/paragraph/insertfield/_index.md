@@ -25,7 +25,7 @@ public Field InsertField(FieldType fieldType, bool updateField, Node refNode, bo
 
 A [`Field`](../../../aspose.words.fields/field) object that represents the inserted field.
 
-### Examples
+## Examples
 
 Shows various ways of adding fields to a paragraph.
 
@@ -90,7 +90,7 @@ public Field InsertField(string fieldCode, Node refNode, bool isAfter)
 
 A [`Field`](../../../aspose.words.fields/field) object that represents the inserted field.
 
-### Examples
+## Examples
 
 Shows various ways of adding fields to a paragraph.
 
@@ -155,7 +155,7 @@ public Field InsertField(string fieldCode, string fieldValue, Node refNode, bool
 
 A [`Field`](../../../aspose.words.fields/field) object that represents the inserted field.
 
-### Examples
+## Examples
 
 Shows various ways of adding fields to a paragraph.
 

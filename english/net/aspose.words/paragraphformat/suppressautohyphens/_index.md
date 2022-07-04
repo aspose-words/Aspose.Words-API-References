@@ -14,7 +14,7 @@ Specifies whether the current paragraph should be exempted from any hyphenation 
 public bool SuppressAutoHyphens { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to suppress hyphenation for a paragraph.
 

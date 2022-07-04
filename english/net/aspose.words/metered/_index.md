@@ -3,7 +3,7 @@ title: Metered
 second_title: Aspose.Words for .NET API Reference
 description: Provides methods to set metered key.
 type: docs
-weight: 3870
+weight: 3920
 url: /net/aspose.words/metered/
 ---
 ## Metered class
@@ -28,7 +28,7 @@ public class Metered
 | static [GetConsumptionCredit](../../aspose.words/metered/getconsumptioncredit)() | Gets consumption credit |
 | static [GetConsumptionQuantity](../../aspose.words/metered/getconsumptionquantity)() | Gets consumption file size |
 
-### Examples
+## Examples
 
 In this example, an attempt will be made to set metered public and private key
 

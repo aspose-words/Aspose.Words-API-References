@@ -24,11 +24,11 @@ public FormField InsertCheckBox(string name, bool checkedValue, int size)
 
 The form field node that was just inserted.
 
-### Remarks
+## Remarks
 
 If you specify a name for the form field, then a bookmark is automatically created with the same name.
 
-### Examples
+## Examples
 
 Shows how to insert checkboxes into the document.
 
@@ -83,11 +83,11 @@ public FormField InsertCheckBox(string name, bool defaultValue, bool checkedValu
 
 The form field node that was just inserted.
 
-### Remarks
+## Remarks
 
 If you specify a name for the form field, then a bookmark is automatically created with the same name.
 
-### Examples
+## Examples
 
 Shows how to insert checkboxes into the document.
 

@@ -14,7 +14,7 @@ Gets or sets the text to include in the field if the name is blank.
 public string AlternateText { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to insert a GREETINGLINE field.
 

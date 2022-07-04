@@ -3,7 +3,7 @@ title: TextBoxAnchor
 second_title: Aspose.Words for .NET API Reference
 description: Specifies values used for shape text vertical alignment.
 type: docs
-weight: 1160
+weight: 1180
 url: /net/aspose.words.drawing/textboxanchor/
 ---
 ## TextBoxAnchor enumeration
@@ -29,7 +29,7 @@ public enum TextBoxAnchor
 | TopCenteredBaseline | `8` | Text is aligned to the top centered baseline of the textbox. |
 | BottomCenteredBaseline | `9` | Text is aligned to the bottom centered baseline of the textbox. |
 
-### Examples
+## Examples
 
 Shows how to vertically align the text contents of a text box.
 

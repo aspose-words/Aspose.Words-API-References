@@ -3,7 +3,7 @@ title: FieldBibliography
 second_title: Aspose.Words for .NET API Reference
 description: Implements the BIBLIOGRAPHY field.
 type: docs
-weight: 1470
+weight: 1490
 url: /net/aspose.words.fields/fieldbibliography/
 ---
 ## FieldBibliography class
@@ -47,11 +47,11 @@ public class FieldBibliography : Field
 | [Update](../../aspose.words.fields/field/update)() | Performs the field update. Throws if the field is being updated already. |
 | [Update](../../aspose.words.fields/field/update)(bool) | Performs a field update. Throws if the field is being updated already. |
 
-### Remarks
+## Remarks
 
 Inserts the contents of the document's Bibliography part in a bibliographic style.
 
-### Examples
+## Examples
 
 Shows how to work with CITATION and BIBLIOGRAPHY fields.
 

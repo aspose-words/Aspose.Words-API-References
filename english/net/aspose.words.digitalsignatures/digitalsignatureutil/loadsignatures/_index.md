@@ -22,7 +22,7 @@ public static DigitalSignatureCollection LoadSignatures(string fileName)
 
 Collection of digital signatures. Returns empty collection if file is not signed.
 
-### Examples
+## Examples
 
 Shows how to load signatures from a digitally signed document.
 
@@ -91,7 +91,7 @@ public static DigitalSignatureCollection LoadSignatures(Stream stream)
 
 Collection of digital signatures. Returns empty collection if file is not signed.
 
-### Examples
+## Examples
 
 Shows how to load signatures from a digitally signed document.
 

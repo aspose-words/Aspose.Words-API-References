@@ -14,7 +14,7 @@ Gets or sets whether Microsoft Word uses gutters for the section based on a righ
 public bool RtlGutter { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to set gutter margins.
 

@@ -14,11 +14,11 @@ Returns image bytes for any image regardless whether the image is stored or link
 public byte[] ToByteArray()
 ```
 
-### Remarks
+## Remarks
 
 If the image is linked, downloads the image every time it is called.
 
-### Examples
+## Examples
 
 Shows how to create an image file from a shape's raw image data.
 

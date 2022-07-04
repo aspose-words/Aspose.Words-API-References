@@ -14,11 +14,11 @@ Name of the font that will be used if no expected font is found in printer and b
 public string FallbackFontName { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 If no fallback is found, a warning is generated and "Arial" font is used.
 
-### Examples
+## Examples
 
 Shows how to declare a font that a printer will apply to printed text as a substitute should its original font be unavailable.
 

@@ -3,7 +3,7 @@ title: StyleType
 second_title: Aspose.Words for .NET API Reference
 description: Represents type of the style.
 type: docs
-weight: 5810
+weight: 5860
 url: /net/aspose.words/styletype/
 ---
 ## StyleType enumeration
@@ -23,7 +23,7 @@ public enum StyleType
 | Table | `3` | The style is a table style. |
 | List | `4` | The style is a list style. |
 
-### Examples
+## Examples
 
 Shows how to create a list style and use it in a document.
 

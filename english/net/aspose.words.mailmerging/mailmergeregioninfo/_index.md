@@ -3,7 +3,7 @@ title: MailMergeRegionInfo
 second_title: Aspose.Words for .NET API Reference
 description: Contains information about a mail merge region.
 type: docs
-weight: 3590
+weight: 3640
 url: /net/aspose.words.mailmerging/mailmergeregioninfo/
 ---
 ## MailMergeRegionInfo class
@@ -26,7 +26,7 @@ public class MailMergeRegionInfo
 | [Regions](../../aspose.words.mailmerging/mailmergeregioninfo/regions) { get; } | Returns a list of child regions. |
 | [StartField](../../aspose.words.mailmerging/mailmergeregioninfo/startfield) { get; } | Returns a start field for the region. |
 
-### Examples
+## Examples
 
 Shows how to verify mail merge regions.
 

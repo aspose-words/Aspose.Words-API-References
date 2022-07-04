@@ -3,7 +3,7 @@ title: TextPath
 second_title: Aspose.Words for .NET API Reference
 description: Defines the text and formatting of the text path of a WordArt object.
 type: docs
-weight: 1180
+weight: 1200
 url: /net/aspose.words.drawing/textpath/
 ---
 ## TextPath class
@@ -39,11 +39,11 @@ public class TextPath
 | [Underline](../../aspose.words.drawing/textpath/underline) { get; set; } | True if the font is underlined. |
 | [XScale](../../aspose.words.drawing/textpath/xscale) { get; set; } | Determines whether a straight textpath will be used instead of the shape path. |
 
-### Remarks
+## Remarks
 
 Use the [`TextPath`](../shape/textpath) property to access WordArt properties of a shape. You do not create instances of the [`TextPath`](../textpath) class directly.
 
-### Examples
+## Examples
 
 Shows how to work with WordArt.
 

@@ -3,7 +3,7 @@ title: ExportFontFormat
 second_title: Aspose.Words for .NET API Reference
 description: Indicates the format that is used to export fonts while rendering to HTML fixed format.
 type: docs
-weight: 4680
+weight: 4730
 url: /net/aspose.words.saving/exportfontformat/
 ---
 ## ExportFontFormat enumeration
@@ -21,7 +21,7 @@ public enum ExportFontFormat
 | Woff | `0` | WOFF (Web Open Font Format). |
 | Ttf | `1` | TTF (TrueType Font format). |
 
-### Examples
+## Examples
 
 Shows how use fonts only from the target machine when saving a document to HTML.
 

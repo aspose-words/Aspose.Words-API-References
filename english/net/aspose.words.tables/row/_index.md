@@ -3,7 +3,7 @@ title: Row
 second_title: Aspose.Words for .NET API Reference
 description: Represents a table row.
 type: docs
-weight: 5960
+weight: 6010
 url: /net/aspose.words.tables/row/
 ---
 ## Row class
@@ -75,7 +75,7 @@ public class Row : CompositeNode
 | [ToString](../../aspose.words/node/tostring)(SaveFormat) | Exports the content of the node into a string in the specified format. |
 | [ToString](../../aspose.words/node/tostring)(SaveOptions) | Exports the content of the node into a string using the specified save options. |
 
-### Remarks
+## Remarks
 
 **Row** can only be a child of a **Table**.
 
@@ -83,7 +83,7 @@ public class Row : CompositeNode
 
 A minimal valid row needs to have at least one **Cell**.
 
-### Examples
+## Examples
 
 Shows how to create a table.
 

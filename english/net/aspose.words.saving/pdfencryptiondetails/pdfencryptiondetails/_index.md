@@ -14,7 +14,7 @@ Initializes an instance of this class.
 public PdfEncryptionDetails(string userPassword, string ownerPassword)
 ```
 
-### Examples
+## Examples
 
 Shows how to set permissions on a saved PDF document.
 

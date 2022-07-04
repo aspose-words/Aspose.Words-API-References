@@ -14,13 +14,13 @@ Gets or sets the type of compression to apply when saving generated images to th
 public TiffCompression TiffCompression { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 Has effect only when saving to TIFF.
 
 The default value is Lzw.
 
-### Examples
+## Examples
 
 Shows how to select the compression scheme to apply to a document that we convert into a TIFF image.
 

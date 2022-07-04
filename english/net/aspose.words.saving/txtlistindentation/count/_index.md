@@ -14,7 +14,7 @@ Gets or sets how many [`Character`](../character) to use as indentation per one 
 public int Count { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to configure list indenting when saving a document to plaintext.
 

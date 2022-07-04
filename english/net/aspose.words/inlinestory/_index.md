@@ -3,7 +3,7 @@ title: InlineStory
 second_title: Aspose.Words for .NET API Reference
 description: Base class for inline-level nodes that can contain paragraphs and tables.
 type: docs
-weight: 3020
+weight: 3070
 url: /net/aspose.words/inlinestory/
 ---
 ## InlineStory class
@@ -73,13 +73,13 @@ public abstract class InlineStory : CompositeNode
 | [ToString](../../aspose.words/node/tostring)(SaveFormat) | Exports the content of the node into a string in the specified format. |
 | [ToString](../../aspose.words/node/tostring)(SaveOptions) | Exports the content of the node into a string using the specified save options. |
 
-### Remarks
+## Remarks
 
 **InlineStory** is a container for block-level nodes [`Paragraph`](../paragraph) and [`Table`](../../aspose.words.tables/table).
 
 The classes that derive from **InlineStory** are inline-level nodes that can contain their own text (paragraphs and tables). For example, a **Comment** node contains text of a comment and a **Footnote** contains text of a footnote.
 
-### Examples
+## Examples
 
 Shows how to add a comment to a paragraph.
 

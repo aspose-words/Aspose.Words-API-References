@@ -14,7 +14,7 @@ Gets a value indicating what type of node change event is occurring.
 public NodeChangingAction Action { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to use a NodeChangingCallback to monitor changes to the document tree in real-time as we edit it.
 

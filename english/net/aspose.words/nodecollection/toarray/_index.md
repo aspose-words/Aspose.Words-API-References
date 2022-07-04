@@ -18,13 +18,13 @@ public Node[] ToArray()
 
 An array of nodes.
 
-### Remarks
+## Remarks
 
 You should not be adding/removing nodes while iterating over a collection of nodes because it invalidates the iterator and requires refreshes for live collections.
 
 To be able to add/remove nodes during iteration, use this method to copy nodes into a fixed-size array and then iterate over the array.
 
-### Examples
+## Examples
 
 Shows how to replace all textbox shapes with image shapes.
 

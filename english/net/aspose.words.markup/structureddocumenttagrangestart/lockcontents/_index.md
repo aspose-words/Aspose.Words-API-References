@@ -14,7 +14,7 @@ When set to true, this property will prohibit a user from editing the contents o
 public bool LockContents { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to get the properties of multi-section structured document tags.
 

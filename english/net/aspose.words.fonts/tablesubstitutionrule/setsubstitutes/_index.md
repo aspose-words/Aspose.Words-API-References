@@ -19,7 +19,7 @@ public void SetSubstitutes(string originalFontName, params string[] substituteFo
 | originalFontName | String | Original font name. |
 | substituteFontNames | String[] | List of alternative font names. |
 
-### Examples
+## Examples
 
 Shows how set font substitution rules.
 

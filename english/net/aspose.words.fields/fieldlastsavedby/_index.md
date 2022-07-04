@@ -3,7 +3,7 @@ title: FieldLastSavedBy
 second_title: Aspose.Words for .NET API Reference
 description: Implements the LASTSAVEDBY field.
 type: docs
-weight: 1910
+weight: 1950
 url: /net/aspose.words.fields/fieldlastsavedby/
 ---
 ## FieldLastSavedBy class
@@ -46,11 +46,11 @@ public class FieldLastSavedBy : Field
 | [Update](../../aspose.words.fields/field/update)() | Performs the field update. Throws if the field is being updated already. |
 | [Update](../../aspose.words.fields/field/update)(bool) | Performs a field update. Throws if the field is being updated already. |
 
-### Remarks
+## Remarks
 
 Retrieves the name of the user who last modified and saved the current document, as recorded in the **LastModifiedBy** property of the built-in document properties.
 
-### Examples
+## Examples
 
 Shows how to use the LASTSAVEDBY field.
 

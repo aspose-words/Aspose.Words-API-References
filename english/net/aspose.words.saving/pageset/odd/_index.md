@@ -14,7 +14,7 @@ Gets a set with all the odd pages of the document in their original order.
 public static PageSet Odd { get; }
 ```
 
-### Remarks
+## Remarks
 
 Odd pages have even indices since page indices are zero-based.
 

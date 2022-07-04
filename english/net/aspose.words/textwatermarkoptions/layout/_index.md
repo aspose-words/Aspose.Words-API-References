@@ -14,7 +14,7 @@ Gets or sets layout of the watermark. The default value is Diagonal.
 public WatermarkLayout Layout { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to create a text watermark.
 

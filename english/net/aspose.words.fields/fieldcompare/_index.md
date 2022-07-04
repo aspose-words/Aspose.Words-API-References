@@ -3,7 +3,7 @@ title: FieldCompare
 second_title: Aspose.Words for .NET API Reference
 description: Implements the COMPARE field.
 type: docs
-weight: 1540
+weight: 1560
 url: /net/aspose.words.fields/fieldcompare/
 ---
 ## FieldCompare class
@@ -49,11 +49,11 @@ public class FieldCompare : Field
 | [Update](../../aspose.words.fields/field/update)() | Performs the field update. Throws if the field is being updated already. |
 | [Update](../../aspose.words.fields/field/update)(bool) | Performs a field update. Throws if the field is being updated already. |
 
-### Remarks
+## Remarks
 
 Compares the values designated by the expressions [`LeftExpression`](./leftexpression) and [`RightExpression`](./rightexpression) in comparison using the operator designated by [`ComparisonOperator`](./comparisonoperator).
 
-### Examples
+## Examples
 
 Shows how to compare expressions using a COMPARE field.
 

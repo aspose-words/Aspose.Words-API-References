@@ -14,7 +14,7 @@ Specifies the instance of the marketplace where the web extension is stored.
 public string Store { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to add a web extension to a document.
 

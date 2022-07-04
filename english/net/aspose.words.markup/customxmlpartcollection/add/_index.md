@@ -18,7 +18,7 @@ public void Add(CustomXmlPart part)
 | --- | --- | --- |
 | part | CustomXmlPart | The custom XML part to add. |
 
-### Examples
+## Examples
 
 Shows how to create a structured document tag with custom XML data.
 
@@ -108,7 +108,7 @@ public CustomXmlPart Add(string id, string xml)
 
 Created custom XML part.
 
-### Examples
+## Examples
 
 Shows how to create a structured document tag with custom XML data.
 

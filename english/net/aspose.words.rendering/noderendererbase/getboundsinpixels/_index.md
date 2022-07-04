@@ -23,11 +23,11 @@ public Rectangle GetBoundsInPixels(float scale, float dpi)
 
 The actual (as rendered on the page) bounding box of the shape in pixels.
 
-### Remarks
+## Remarks
 
 This method converts [`BoundsInPoints`](../boundsinpoints) into rectangle in pixels.
 
-### Examples
+## Examples
 
 Shows how to measure and scale shapes.
 
@@ -97,11 +97,11 @@ public Rectangle GetBoundsInPixels(float scale, float horizontalDpi, float verti
 
 The actual (as rendered on the page) bounding box of the shape in pixels.
 
-### Remarks
+## Remarks
 
 This method converts [`BoundsInPoints`](../boundsinpoints) into rectangle in pixels.
 
-### Examples
+## Examples
 
 Shows how to measure and scale shapes.
 

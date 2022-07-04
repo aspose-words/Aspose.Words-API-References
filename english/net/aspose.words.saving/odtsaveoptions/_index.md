@@ -3,7 +3,7 @@ title: OdtSaveOptions
 second_title: Aspose.Words for .NET API Reference
 description: Can be used to specify additional options when saving a document into the Odt or Ott format.
 type: docs
-weight: 5000
+weight: 5050
 url: /net/aspose.words.saving/odtsaveoptions/
 ---
 ## OdtSaveOptions class
@@ -51,11 +51,11 @@ public class OdtSaveOptions : SaveOptions
 | [UseAntiAliasing](../../aspose.words.saving/saveoptions/useantialiasing) { get; set; } | Gets or sets a value determining whether or not to use anti-aliasing for rendering. |
 | [UseHighQualityRendering](../../aspose.words.saving/saveoptions/usehighqualityrendering) { get; set; } | Gets or sets a value determining whether or not to use high quality (i.e. slow) rendering algorithms. |
 
-### Remarks
+## Remarks
 
 At the moment provides only the [`SaveFormat`](./saveformat) property, but in the future will have other options added, such as an encryption password or digital signature settings.
 
-### Examples
+## Examples
 
 Shows how to make a saved document conform to an older ODT schema.
 

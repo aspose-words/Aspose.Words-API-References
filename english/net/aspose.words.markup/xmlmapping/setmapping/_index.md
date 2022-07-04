@@ -24,7 +24,7 @@ public bool SetMapping(CustomXmlPart customXmlPart, string xPath, string prefixM
 
 A flag indicating whether the parent structured document tag is successfully mapped to the XML node.
 
-### Examples
+## Examples
 
 Shows how to create a structured document tag with custom XML data.
 

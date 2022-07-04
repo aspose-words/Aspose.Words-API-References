@@ -14,11 +14,11 @@ Gets the number of levels in this list.
 public int Count { get; }
 ```
 
-### Remarks
+## Remarks
 
 There could be 1 or 9 levels in a list.
 
-### Examples
+## Examples
 
 Shows how to create a list style and use it in a document.
 

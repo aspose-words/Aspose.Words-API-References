@@ -3,7 +3,7 @@ title: PageBorderDistanceFrom
 second_title: Aspose.Words for .NET API Reference
 description: Specifies the positioning of the page border relative to the page margin.
 type: docs
-weight: 4060
+weight: 4110
 url: /net/aspose.words/pageborderdistancefrom/
 ---
 ## PageBorderDistanceFrom enumeration
@@ -21,7 +21,7 @@ public enum PageBorderDistanceFrom
 | Text | `0` | Border position is measured from the page margin. |
 | PageEdge | `1` | Border position is measured from the page edge. |
 
-### Examples
+## Examples
 
 Shows how to create a wide blue band border at the top of the first page.
 

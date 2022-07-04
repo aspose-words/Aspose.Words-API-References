@@ -3,7 +3,7 @@ title: PageVerticalAlignment
 second_title: Aspose.Words for .NET API Reference
 description: Specifies vertical justification of text on each page.
 type: docs
-weight: 4080
+weight: 4130
 url: /net/aspose.words/pageverticalalignment/
 ---
 ## PageVerticalAlignment enumeration
@@ -23,7 +23,7 @@ public enum PageVerticalAlignment
 | Justify | `2` | Text is spread to fill the page. |
 | Top | `0` | Text is aligned at the top of the page. |
 
-### Examples
+## Examples
 
 Shows how to apply and revert page setup settings to sections in a document.
 

@@ -14,7 +14,7 @@ Gets the top left cell style.
 public ConditionalStyle TopLeftCell { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to work with certain area styles of a table.
 

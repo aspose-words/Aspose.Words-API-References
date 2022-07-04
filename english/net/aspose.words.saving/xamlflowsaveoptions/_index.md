@@ -3,7 +3,7 @@ title: XamlFlowSaveOptions
 second_title: Aspose.Words for .NET API Reference
 description: Can be used to specify additional options when saving a document into the XamlFlow or XamlFlowPack format.
 type: docs
-weight: 5370
+weight: 5420
 url: /net/aspose.words.saving/xamlflowsaveoptions/
 ---
 ## XamlFlowSaveOptions class
@@ -50,7 +50,7 @@ public class XamlFlowSaveOptions : SaveOptions
 | [UseAntiAliasing](../../aspose.words.saving/saveoptions/useantialiasing) { get; set; } | Gets or sets a value determining whether or not to use anti-aliasing for rendering. |
 | [UseHighQualityRendering](../../aspose.words.saving/saveoptions/usehighqualityrendering) { get; set; } | Gets or sets a value determining whether or not to use high quality (i.e. slow) rendering algorithms. |
 
-### Examples
+## Examples
 
 Shows how to print the filenames of linked images created while converting a document to flow-form .xaml.
 

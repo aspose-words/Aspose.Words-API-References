@@ -3,7 +3,7 @@ title: RunCollection
 second_title: Aspose.Words for .NET API Reference
 description: Provides typed access to a collection of Run./run nodes.
 type: docs
-weight: 4520
+weight: 4570
 url: /net/aspose.words/runcollection/
 ---
 ## RunCollection class
@@ -35,7 +35,7 @@ public class RunCollection : NodeCollection
 | [RemoveAt](../../aspose.words/nodecollection/removeat)(int) | Removes the node at the specified index from the collection and from the document. |
 | [ToArray](../../aspose.words/runcollection/toarray#toarray_1)() | Copies all runs from the collection to a new array of runs. (2 methods) |
 
-### Examples
+## Examples
 
 Shows how to determine the revision type of an inline node.
 

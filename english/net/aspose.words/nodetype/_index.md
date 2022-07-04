@@ -3,7 +3,7 @@ title: NodeType
 second_title: Aspose.Words for .NET API Reference
 description: Specifies the type of a Word document node.
 type: docs
-weight: 3940
+weight: 3990
 url: /net/aspose.words/nodetype/
 ---
 ## NodeType enumeration
@@ -58,7 +58,7 @@ public enum NodeType
 | System | `37` | Reserved for internal use by Aspose.Words. |
 | Null | `38` | Reserved for internal use by Aspose.Words. |
 
-### Examples
+## Examples
 
 Shows how to traverse through a composite node's collection of child nodes.
 

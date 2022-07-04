@@ -14,7 +14,7 @@ Gets horizontal alignment of the specified frame.
 public HorizontalAlignment HorizontalAlignment { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to get information about formatting properties of paragraphs that are frames.
 

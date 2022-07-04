@@ -14,11 +14,11 @@ Gets or sets whether this is a right-to-left paragraph.
 public bool Bidi { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 When true, the runs and other inline objects in this paragraph are laid out right to left.
 
-### Examples
+## Examples
 
 Shows how to detect plaintext document text direction.
 

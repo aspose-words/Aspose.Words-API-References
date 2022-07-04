@@ -14,7 +14,7 @@ Gets or sets the name of the bookmark.
 public string BookmarkName { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows to insert NOTEREF fields, and modify their appearance.
 

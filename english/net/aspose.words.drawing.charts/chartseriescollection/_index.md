@@ -33,7 +33,7 @@ public class ChartSeriesCollection : IEnumerable<ChartSeries>
 | [GetEnumerator](../../aspose.words.drawing.charts/chartseriescollection/getenumerator)() | Returns an enumerator object. |
 | [RemoveAt](../../aspose.words.drawing.charts/chartseriescollection/removeat)(int) | Removes a [`ChartSeries`](../chartseries) at the specified index. |
 
-### Examples
+## Examples
 
 Shows how to add and remove series data in a chart.
 

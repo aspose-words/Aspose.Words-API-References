@@ -14,7 +14,7 @@ Returns or sets the vertical alignment of text in the cell.
 public CellVerticalAlignment VerticalAlignment { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to build a table with custom borders.
 

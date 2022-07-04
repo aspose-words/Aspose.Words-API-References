@@ -77,7 +77,7 @@ public class BuildingBlock : CompositeNode
 | [ToString](../../aspose.words/node/tostring)(SaveFormat) | Exports the content of the node into a string in the specified format. |
 | [ToString](../../aspose.words/node/tostring)(SaveOptions) | Exports the content of the node into a string using the specified save options. |
 
-### Remarks
+## Remarks
 
 [`BuildingBlock`](../buildingblock) can contain only [`Section`](../../aspose.words/section) nodes.
 
@@ -87,7 +87,7 @@ You can create new building blocks and insert them into a glossary document. You
 
 Corresponds to the **docPart**, **docPartPr** and **docPartBody** elements in OOXML.
 
-### Examples
+## Examples
 
 Shows how to add a custom building block to a document.
 

@@ -14,7 +14,7 @@ Removes external XML schema references from this document.
 public void RemoveExternalSchemaReferences()
 ```
 
-### Examples
+## Examples
 
 Shows how to remove all external XML schema references from a document.
 

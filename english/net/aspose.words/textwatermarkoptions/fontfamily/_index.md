@@ -14,7 +14,7 @@ Gets or sets font family name. The default value is "Calibri".
 public string FontFamily { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to create a text watermark.
 

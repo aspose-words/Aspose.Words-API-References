@@ -14,7 +14,7 @@ Specifies whether this **SDT** shall be removed from the WordProcessingML docume
 public bool IsTemporary { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to make single-use controls.
 

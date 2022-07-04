@@ -22,13 +22,13 @@ public override bool Accept(DocumentVisitor visitor)
 
 False if the visitor requested the enumeration to stop.
 
-### Remarks
+## Remarks
 
 Calls DocumentVisitor.VisitFormField.
 
 For more info see the Visitor design pattern.
 
-### Examples
+## Examples
 
 Shows how insert different kinds of form fields into a document, and process them with using a document visitor implementation.
 

@@ -14,7 +14,7 @@ Gets the first column style.
 public ConditionalStyle FirstColumn { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to work with certain area styles of a table.
 

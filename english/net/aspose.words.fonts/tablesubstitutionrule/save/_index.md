@@ -18,7 +18,7 @@ public void Save(string fileName)
 | --- | --- | --- |
 | fileName | String | Output file name. |
 
-### Examples
+## Examples
 
 Shows how to access font substitution tables for Windows and Linux.
 
@@ -74,7 +74,7 @@ public void Save(Stream outputStream)
 | --- | --- | --- |
 | outputStream | Stream | Output stream. |
 
-### Examples
+## Examples
 
 Shows how to access font substitution tables for Windows and Linux.
 

@@ -3,7 +3,7 @@ title: PdfDigitalSignatureTimestampSettings
 second_title: Aspose.Words for .NET API Reference
 description: Contains settings of the digital signature timestamp.
 type: docs
-weight: 5120
+weight: 5170
 url: /net/aspose.words.saving/pdfdigitalsignaturetimestampsettings/
 ---
 ## PdfDigitalSignatureTimestampSettings class
@@ -31,7 +31,7 @@ public class PdfDigitalSignatureTimestampSettings
 | [Timeout](../../aspose.words.saving/pdfdigitalsignaturetimestampsettings/timeout) { get; set; } | Time-out value for accessing timestamp server. |
 | [UserName](../../aspose.words.saving/pdfdigitalsignaturetimestampsettings/username) { get; set; } | Timestamp server user name. |
 
-### Examples
+## Examples
 
 Shows how to sign a saved PDF document digitally and timestamp it.
 

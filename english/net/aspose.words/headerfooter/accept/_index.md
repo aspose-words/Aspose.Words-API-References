@@ -22,7 +22,7 @@ public override bool Accept(DocumentVisitor visitor)
 
 True if all nodes were visited; false if DocumentVisitor stopped the operation before visiting all nodes.
 
-### Remarks
+## Remarks
 
 Enumerates over this node and all of its children. Each node calls a corresponding method on DocumentVisitor.
 
@@ -30,7 +30,7 @@ For more info see the Visitor design pattern.
 
 Calls DocumentVisitor.VisitHeaderFooterStart, then calls Accept for all child nodes of the section and calls DocumentVisitor.VisitHeaderFooterEnd at the end.
 
-### Examples
+## Examples
 
 Shows how to print the node structure of every header and footer in a document.
 

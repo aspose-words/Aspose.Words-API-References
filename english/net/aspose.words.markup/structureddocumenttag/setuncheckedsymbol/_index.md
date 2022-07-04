@@ -19,13 +19,13 @@ public void SetUncheckedSymbol(int characterCode, string fontName)
 | characterCode | Int32 | The character code for the specified symbol. |
 | fontName | String | The name of the font that contains the symbol. |
 
-### Remarks
+## Remarks
 
 Accessing this method will only work for Checkbox SDT types.
 
 For all other SDT types exception will occur.
 
-### Examples
+## Examples
 
 Show how to create a structured document tag in the form of a check box.
 

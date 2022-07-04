@@ -3,7 +3,7 @@ title: WarningSource
 second_title: Aspose.Words for .NET API Reference
 description: Specifies the module that produces a warning during document loading or saving.
 type: docs
-weight: 6290
+weight: 6340
 url: /net/aspose.words/warningsource/
 ---
 ## WarningSource enumeration

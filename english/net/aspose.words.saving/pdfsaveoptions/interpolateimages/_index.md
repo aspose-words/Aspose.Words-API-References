@@ -14,7 +14,7 @@ A flag indicating whether image interpolation shall be performed by a conforming
 public bool InterpolateImages { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 When the resolution of a source image is significantly lower than that of the output device, each source sample covers many device pixels. As a result, images can appear jaggy or blocky. These visual artifacts can be reduced by applying an image interpolation algorithm during rendering. Instead of painting all pixels covered by a source sample with the same color, image interpolation attempts to produce a smooth transition between adjacent sample values.
 
@@ -24,7 +24,7 @@ The default value is `false`.
 
 Interpolation flag is prohibited by PDF/A compliance. `false` value will be used automatically when saving to PDF/A.
 
-### Examples
+## Examples
 
 Shows how to perform interpolation on images while saving a document to PDF.
 

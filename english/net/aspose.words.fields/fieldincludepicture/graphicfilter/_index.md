@@ -14,7 +14,7 @@ Gets or sets the name of the filter for the format of the graphic that is to be 
 public string GraphicFilter { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to insert images using IMPORT and INCLUDEPICTURE fields.
 

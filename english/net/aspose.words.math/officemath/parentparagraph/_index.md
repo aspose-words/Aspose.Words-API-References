@@ -14,7 +14,7 @@ Retrieves the parent [`Paragraph`](../../../aspose.words/paragraph) of this node
 public Paragraph ParentParagraph { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to set office math display formatting.
 

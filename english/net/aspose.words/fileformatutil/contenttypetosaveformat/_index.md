@@ -20,7 +20,7 @@ public static SaveFormat ContentTypeToSaveFormat(string contentType)
 | --- | --- |
 | ArgumentException | Throws when cannot convert. |
 
-### Examples
+## Examples
 
 Shows how to find the corresponding Aspose load/save format from each media type string.
 

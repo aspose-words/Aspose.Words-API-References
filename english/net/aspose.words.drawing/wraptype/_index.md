@@ -3,7 +3,7 @@ title: WrapType
 second_title: Aspose.Words for .NET API Reference
 description: Specifies how text is wrapped around a shape or picture.
 type: docs
-weight: 1230
+weight: 1250
 url: /net/aspose.words.drawing/wraptype/
 ---
 ## WrapType enumeration
@@ -25,7 +25,7 @@ public enum WrapType
 | Tight | `4` | Wraps tightly around the edges of the shape, instead of wrapping around the bounding box. |
 | Through | `5` | Same as Tight, but wraps inside any parts of the shape that are open. |
 
-### Examples
+## Examples
 
 Shows how to insert a floating image to the center of a page.
 

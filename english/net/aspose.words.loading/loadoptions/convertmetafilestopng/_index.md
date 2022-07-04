@@ -14,11 +14,11 @@ Gets or sets whether to convert metafile (Wmf or Emf) images to Png image format
 public bool ConvertMetafilesToPng { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 Metafiles (Wmf or Emf) is an uncompressed image format and sometimes requires to much RAM to hold and process document. This option allows to convert all metafile images to Png on document loading. Please note - conversion vector graphics to raster decreases quality of the images.
 
-### Examples
+## Examples
 
 Shows how to convert WMF/EMF to PNG during loading document.
 

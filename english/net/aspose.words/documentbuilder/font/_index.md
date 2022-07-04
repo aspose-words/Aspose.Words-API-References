@@ -14,13 +14,13 @@ Returns an object that represents current font formatting properties.
 public Font Font { get; }
 ```
 
-### Remarks
+## Remarks
 
 Use **Font** to access and modify font formatting properties.
 
 Specify font formatting before inserting text.
 
-### Examples
+## Examples
 
 Shows how to insert a string surrounded by a border into a document.
 

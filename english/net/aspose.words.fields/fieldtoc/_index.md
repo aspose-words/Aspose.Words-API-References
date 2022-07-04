@@ -3,7 +3,7 @@ title: FieldToc
 second_title: Aspose.Words for .NET API Reference
 description: Implements the TOC field.
 type: docs
-weight: 2340
+weight: 2380
 url: /net/aspose.words.fields/fieldtoc/
 ---
 ## FieldToc class
@@ -63,11 +63,11 @@ public class FieldToc : Field
 | [Update](../../aspose.words.fields/field/update)(bool) | Performs a field update. Throws if the field is being updated already. |
 | [UpdatePageNumbers](../../aspose.words.fields/fieldtoc/updatepagenumbers)() | Updates the page numbers for items in this table of contents. |
 
-### Remarks
+## Remarks
 
 Builds a table of contents (which can also be a table of figures) using the entries specified by TC fields, their heading levels, and specified styles, and inserts that table at this place in the document.
 
-### Examples
+## Examples
 
 Shows how to insert a TOC, and populate it with entries based on heading styles.
 

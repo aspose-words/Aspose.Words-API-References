@@ -14,7 +14,7 @@ Gets or sets default user response (initial value contained in the prompt window
 public string DefaultResponse { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to create an ASK field, and set its properties.
 

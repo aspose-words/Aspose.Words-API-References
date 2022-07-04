@@ -14,7 +14,7 @@ Gets or sets preferred option of a leading space handling. Default value is Conv
 public TxtLeadingSpacesOptions LeadingSpacesOptions { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to trim whitespace when loading plaintext documents.
 

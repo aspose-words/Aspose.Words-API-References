@@ -14,11 +14,11 @@ Gets or sets a flag indicating whether the value axis crosses the category axis 
 public bool AxisBetweenCategories { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 The property has effect only for value axes. It is not supported by MS Office 2016 new charts.
 
-### Examples
+## Examples
 
 Shows how to get a graph axis to cross at a custom location.
 

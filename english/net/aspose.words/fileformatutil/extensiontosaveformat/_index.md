@@ -24,11 +24,11 @@ public static SaveFormat ExtensionToSaveFormat(string extension)
 | --- | --- |
 | ArgumentNullException | Throws if the parameter is null. |
 
-### Remarks
+## Remarks
 
 If the extension cannot be recognized, returns Unknown.
 
-### Examples
+## Examples
 
 Shows how to use the FileFormatUtil methods to detect the format of a document.
 

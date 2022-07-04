@@ -3,7 +3,7 @@ title: Shading
 second_title: Aspose.Words for .NET API Reference
 description: Contains shading attributes for an object.
 type: docs
-weight: 5640
+weight: 5690
 url: /net/aspose.words/shading/
 ---
 ## Shading class
@@ -31,7 +31,7 @@ public class Shading : InternableComplexAttr
 | [Equals](../../aspose.words/shading/equals#equals)(Shading) | Determines whether the specified Shading is equal in value to the current Shading. |
 | override [GetHashCode](../../aspose.words/shading/gethashcode)() | Serves as a hash function for this type. |
 
-### Examples
+## Examples
 
 Shows how to decorate text with borders and shading.
 

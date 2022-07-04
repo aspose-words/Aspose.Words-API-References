@@ -14,7 +14,7 @@ Tab character: "\x0009" or "\t".
 public static readonly string Tab;
 ```
 
-### Examples
+## Examples
 
 Shows how to set a custom interval for tab stop positions.
 

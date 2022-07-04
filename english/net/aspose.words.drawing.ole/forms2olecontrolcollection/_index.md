@@ -27,7 +27,7 @@ public class Forms2OleControlCollection
 | [Count](../../aspose.words.drawing.ole/forms2olecontrolcollection/count) { get; } | Gets count of objects in the collection. |
 | [Item](../../aspose.words.drawing.ole/forms2olecontrolcollection/item) { get; } | Gets [`Forms2OleControl`](../forms2olecontrol) object at specified index. |
 
-### Examples
+## Examples
 
 Shows how to access an OLE control embedded in a document and its child controls.
 

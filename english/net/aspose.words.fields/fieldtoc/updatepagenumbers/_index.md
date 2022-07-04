@@ -18,7 +18,7 @@ public bool UpdatePageNumbers()
 
 True if the operation is successful. If any of the related TOC bookmarks was removed, false will be returned.
 
-### Examples
+## Examples
 
 Shows how to insert a TOC, and populate it with entries based on heading styles.
 

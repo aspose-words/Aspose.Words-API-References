@@ -14,7 +14,7 @@ Gets or sets whether to insert a hyperlink to the bookmarked paragraph.
 public bool InsertHyperlink { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows to insert NOTEREF fields, and modify their appearance.
 

@@ -18,7 +18,7 @@ public void Remove(string name)
 | --- | --- | --- |
 | name | String | The case-insensitive name of the variable. |
 
-### Examples
+## Examples
 
 Shows how to work with a document's variable collection.
 

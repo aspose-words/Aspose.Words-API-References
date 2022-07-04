@@ -14,7 +14,7 @@ See PaperSource of DefaultPageSettings.
 public PaperSource DefaultPageSettingsPaperSource { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to access and list your printer's paper sources and sizes.
 

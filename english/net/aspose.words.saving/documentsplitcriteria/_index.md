@@ -3,7 +3,7 @@ title: DocumentSplitCriteria
 second_title: Aspose.Words for .NET API Reference
 description: Specifies how the document is split into parts when saving to Html or Epub format.
 type: docs
-weight: 4650
+weight: 4700
 url: /net/aspose.words.saving/documentsplitcriteria/
 ---
 ## DocumentSplitCriteria enumeration
@@ -25,13 +25,13 @@ public enum DocumentSplitCriteria
 | SectionBreak | `4` | The document is split into parts at a section break of any type. |
 | HeadingParagraph | `8` | The document is split into parts at a paragraph formatted using a heading style **Heading 1**, **Heading 2** etc. Use together with [`DocumentSplitHeadingLevel`](../htmlsaveoptions/documentsplitheadinglevel) to specify the heading levels (from 1 to the specified level) at which to split. |
 
-### Remarks
+## Remarks
 
 [`DocumentSplitCriteria`](../documentsplitcriteria) is a set of flags which can be combined. For instance you can split the document at page breaks and heading paragraphs in the same export operation.
 
 Different criteria can partially overlap. For instance, **Heading 1** style is frequently given [`PageBreakBefore`](../../aspose.words/paragraphformat/pagebreakbefore) property so it falls under two criteria: PageBreak and HeadingParagraph. Some section breaks can cause page breaks and so on. In typical cases specifying only one flag is the most practical option.
 
-### Examples
+## Examples
 
 Shows how to use a specific encoding when saving a document to .epub.
 

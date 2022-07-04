@@ -14,13 +14,13 @@ Specifies the owner password for the encrypted PDF document.
 public string OwnerPassword { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 The owner password allows the user to open an encrypted PDF document without any access restrictions specified in [`Permissions`](../permissions).
 
 The owner password cannot be the same as the user password.
 
-### Examples
+## Examples
 
 Shows how to set permissions on a saved PDF document.
 

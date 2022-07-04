@@ -3,7 +3,7 @@ title: HeaderFooterType
 second_title: Aspose.Words for .NET API Reference
 description: Identifies the type of header or footer found in a Word file.
 type: docs
-weight: 2890
+weight: 2940
 url: /net/aspose.words/headerfootertype/
 ---
 ## HeaderFooterType enumeration
@@ -25,7 +25,7 @@ public enum HeaderFooterType
 | HeaderFirst | `4` | Header for the first page of the section. |
 | FooterFirst | `5` | Footer for the first page of the section. |
 
-### Examples
+## Examples
 
 Shows how to create headers and footers in a document using DocumentBuilder.
 

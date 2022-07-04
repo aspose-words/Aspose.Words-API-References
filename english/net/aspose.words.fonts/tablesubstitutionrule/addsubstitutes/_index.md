@@ -19,7 +19,7 @@ public void AddSubstitutes(string originalFontName, params string[] substituteFo
 | originalFontName | String | Original font name. |
 | substituteFontNames | String[] | List of alternative font names. |
 
-### Examples
+## Examples
 
 Shows how to access a document's system font source and set font substitutes.
 

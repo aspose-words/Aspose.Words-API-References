@@ -14,11 +14,11 @@ Called during loading a document and accepts data about loading progress.
 public IDocumentLoadingCallback ProgressCallback { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 Docx, FlatOpc, Docm, Dotm, Dotx, Markdown, Rtf, WordML, Doc, Dot, Odt, Ott formats supported.
 
-### Examples
+## Examples
 
 Shows how to notify the user if document loading exceeded expected loading time.
 

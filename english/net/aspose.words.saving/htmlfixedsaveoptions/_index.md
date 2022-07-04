@@ -3,7 +3,7 @@ title: HtmlFixedSaveOptions
 second_title: Aspose.Words for .NET API Reference
 description: Can be used to specify additional options when saving a document into the HtmlFixed format.
 type: docs
-weight: 4770
+weight: 4820
 url: /net/aspose.words.saving/htmlfixedsaveoptions/
 ---
 ## HtmlFixedSaveOptions class
@@ -75,7 +75,7 @@ public class HtmlFixedSaveOptions : FixedPageSaveOptions
 | --- | --- |
 | override [Equals](../../aspose.words.saving/fixedpagesaveoptions/equals)(object) | Determines whether the specified object is equal in value to the current object. |
 
-### Examples
+## Examples
 
 Shows how to use a callback to print the URIs of external resources created while converting a document to HTML.
 

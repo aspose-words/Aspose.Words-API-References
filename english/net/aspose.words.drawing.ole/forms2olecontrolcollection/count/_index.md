@@ -14,7 +14,7 @@ Gets count of objects in the collection.
 public int Count { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to access an OLE control embedded in a document and its child controls.
 

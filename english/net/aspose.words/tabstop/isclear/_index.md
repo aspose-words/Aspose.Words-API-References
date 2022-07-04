@@ -14,7 +14,7 @@ Returns true if this tab stop clears any existing tab stops in this position.
 public bool IsClear { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to work with a document's collection of tab stops.
 

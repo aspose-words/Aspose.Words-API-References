@@ -14,12 +14,11 @@ Gets the name of the data table for the current merge operation or empty string 
 public string TableName { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to insert checkbox form fields into MERGEFIELDs as merge data during mail merge.
 
 ```csharp
-public void InsertCheckBox()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -41,7 +40,6 @@ public void InsertCheckBox()
 
     doc.MailMerge.ExecuteWithRegions(dataTable);
     doc.Save(ArtifactsDir + "MailMergeEvent.InsertCheckBox.docx");
-}
 
 /// <summary>
 /// Upon encountering a MERGEFIELD with a specific name, inserts a check box form field instead of merge data text.

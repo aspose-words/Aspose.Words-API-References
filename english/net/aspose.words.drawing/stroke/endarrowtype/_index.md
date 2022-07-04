@@ -14,11 +14,11 @@ Defines the arrowhead for the end of a stroke.
 public ArrowType EndArrowType { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 The default value is None.
 
-### Examples
+## Examples
 
 Shows to create a variety of shapes.
 

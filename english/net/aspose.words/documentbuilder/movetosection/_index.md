@@ -18,13 +18,13 @@ public void MoveToSection(int sectionIndex)
 | --- | --- | --- |
 | sectionIndex | Int32 | The index of the section to move to. |
 
-### Remarks
+## Remarks
 
 When sectionIndex is greater than or equal to 0, it specifies an index from the beginning of the document with 0 being the first section. When sectionIndex is less than 0, it specified an index from the end of the document with -1 being the last section.
 
 The cursor is moved to the first paragraph in the **Body** of the specified section.
 
-### Examples
+## Examples
 
 Shows how to create headers and footers in a document using DocumentBuilder.
 

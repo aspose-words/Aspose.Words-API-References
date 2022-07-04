@@ -3,7 +3,7 @@ title: OoxmlCompliance
 second_title: Aspose.Words for .NET API Reference
 description: Allows to specify which OOXML specification will be used when saving in the DOCX format.
 type: docs
-weight: 5010
+weight: 5060
 url: /net/aspose.words.saving/ooxmlcompliance/
 ---
 ## OoxmlCompliance enumeration
@@ -22,7 +22,7 @@ public enum OoxmlCompliance
 | Iso29500_2008_Transitional | `1` | ISO/IEC 29500:2008 Transitional compliance level. |
 | Iso29500_2008_Strict | `2` | ISO/IEC 29500:2008 Strict compliance level. |
 
-### Examples
+## Examples
 
 Shows how to insert DML shapes into a document.
 

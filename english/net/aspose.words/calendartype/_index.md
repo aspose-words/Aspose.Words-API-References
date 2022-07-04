@@ -24,7 +24,7 @@ public enum CalendarType
 | SakaEra | `3` | The Saka Era calendar. |
 | UmAlQura | `4` | The Um-al-Qura calendar. |
 
-### Examples
+## Examples
 
 Shows how to automatically apply a custom format to field results as the fields are updated.
 

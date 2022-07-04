@@ -14,11 +14,11 @@ Defines the text of the text path.
 public string Text { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 The default value is an empty string.
 
-### Examples
+## Examples
 
 Shows how to work with WordArt.
 

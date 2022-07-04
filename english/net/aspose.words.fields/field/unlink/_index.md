@@ -18,13 +18,13 @@ public bool Unlink()
 
 `True` if the field has been unlinked, otherwise `false`.
 
-### Remarks
+## Remarks
 
 Replaces the field with its most recent result.
 
 Some fields, such as XE (Index Entry) fields and SEQ (Sequence) fields, cannot be unlinked.
 
-### Examples
+## Examples
 
 Shows how to unlink a field.
 

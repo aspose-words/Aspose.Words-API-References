@@ -14,7 +14,7 @@ True if the font is formatted as all capital letters.
 public bool AllCaps { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to format a run to display its contents in capitals.
 

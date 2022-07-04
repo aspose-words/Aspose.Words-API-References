@@ -3,7 +3,7 @@ title: ThemeFont
 second_title: Aspose.Words for .NET API Reference
 description: Specifies the types of theme font names for document themes.
 type: docs
-weight: 6140
+weight: 6190
 url: /net/aspose.words.themes/themefont/
 ---
 ## ThemeFont enumeration
@@ -22,11 +22,11 @@ public enum ThemeFont
 | Major | `1` | Major theme font. |
 | Minor | `2` | Minor theme font. |
 
-### Remarks
+## Remarks
 
 Specifies a theme font type which can be referenced as a theme font within the parent object properties. This theme font is a reference to one of the predefined theme fonts, located in the document's Theme part, which allows for font information to be set centrally in the document.
 
-### Examples
+## Examples
 
 Shows how to create and use themed style.
 

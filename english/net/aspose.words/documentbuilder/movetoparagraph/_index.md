@@ -19,13 +19,13 @@ public void MoveToParagraph(int paragraphIndex, int characterIndex)
 | paragraphIndex | Int32 | The index of the paragraph to move to. |
 | characterIndex | Int32 | The index of the character inside the paragraph. A negative value allows you to specify a position from the end of the paragraph. Use -1 to move to the end of the paragraph. |
 
-### Remarks
+## Remarks
 
 The navigation is performed inside the current story of the current section. That is, if you moved the cursor to the primary header of the first section, then paragraphIndex specified the index of the paragraph inside that header of that section.
 
 When paragraphIndex is greater than or equal to 0, it specifies an index from the beginning of the section with 0 being the first paragraph. When paragraphIndex is less than 0, it specified an index from the end of the section with -1 being the last paragraph.
 
-### Examples
+## Examples
 
 Shows how to move a builder's cursor position to a specified paragraph.
 

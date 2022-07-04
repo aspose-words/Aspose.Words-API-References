@@ -3,7 +3,7 @@ title: FieldAsk
 second_title: Aspose.Words for .NET API Reference
 description: Implements the ASK field.
 type: docs
-weight: 1390
+weight: 1410
 url: /net/aspose.words.fields/fieldask/
 ---
 ## FieldAsk class
@@ -50,11 +50,11 @@ public class FieldAsk : Field
 | [Update](../../aspose.words.fields/field/update)() | Performs the field update. Throws if the field is being updated already. |
 | [Update](../../aspose.words.fields/field/update)(bool) | Performs a field update. Throws if the field is being updated already. |
 
-### Remarks
+## Remarks
 
 Prompts the user to enter information and assigns a bookmark to represent the user's response.
 
-### Examples
+## Examples
 
 Shows how to create an ASK field, and set its properties.
 

@@ -14,13 +14,13 @@ Gets or sets a boolean value indicating either to ignore text inside field codes
 public bool IgnoreFieldCodes { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 This option affects only field codes (it does not ignore nodes between FieldSeparator and FieldEnd).
 
 To ignore whole field, please use corresponding option [`IgnoreFields`](../ignorefields).
 
-### Examples
+## Examples
 
 Shows how to ignore text inside field codes.
 

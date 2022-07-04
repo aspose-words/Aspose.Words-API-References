@@ -22,11 +22,11 @@ public Shape InsertImage(Image image)
 
 The image node that was just inserted.
 
-### Remarks
+## Remarks
 
 You can change the image size, location, positioning method and other settings using the [`Shape`](../../../aspose.words.drawing/shape) object returned by this method.
 
-### Examples
+## Examples
 
 Shows how to insert an image from an object into a document.
 
@@ -79,13 +79,13 @@ public Shape InsertImage(string fileName)
 
 The image node that was just inserted.
 
-### Remarks
+## Remarks
 
 This overload will automatically download the image before inserting into the document if you specify a remote URI.
 
 You can change the image size, location, positioning method and other settings using the [`Shape`](../../../aspose.words.drawing/shape) object returned by this method.
 
-### Examples
+## Examples
 
 Shows how to insert gif image to the document.
 
@@ -212,11 +212,11 @@ public Shape InsertImage(Stream stream)
 
 The image node that was just inserted.
 
-### Remarks
+## Remarks
 
 You can change the image size, location, positioning method and other settings using the [`Shape`](../../../aspose.words.drawing/shape) object returned by this method.
 
-### Examples
+## Examples
 
 Shows how to insert a shape with an image from a stream into a document.
 
@@ -285,11 +285,11 @@ public Shape InsertImage(byte[] imageBytes)
 
 The image node that was just inserted.
 
-### Remarks
+## Remarks
 
 You can change the image size, location, positioning method and other settings using the [`Shape`](../../../aspose.words.drawing/shape) object returned by this method.
 
-### Examples
+## Examples
 
 Shows how to insert an image from a byte array into a document.
 
@@ -386,11 +386,11 @@ public Shape InsertImage(Image image, double width, double height)
 
 The image node that was just inserted.
 
-### Remarks
+## Remarks
 
 You can change the image size, location, positioning method and other settings using the [`Shape`](../../../aspose.words.drawing/shape) object returned by this method.
 
-### Examples
+## Examples
 
 Shows how to insert an image from an object into a document.
 
@@ -473,11 +473,11 @@ public Shape InsertImage(string fileName, double width, double height)
 
 The image node that was just inserted.
 
-### Remarks
+## Remarks
 
 You can change the image size, location, positioning method and other settings using the [`Shape`](../../../aspose.words.drawing/shape) object returned by this method.
 
-### Examples
+## Examples
 
 Shows how to insert an image from the local file system into a document.
 
@@ -531,11 +531,11 @@ public Shape InsertImage(Stream stream, double width, double height)
 
 The image node that was just inserted.
 
-### Remarks
+## Remarks
 
 You can change the image size, location, positioning method and other settings using the [`Shape`](../../../aspose.words.drawing/shape) object returned by this method.
 
-### Examples
+## Examples
 
 Shows how to insert an image from a stream into a document.
 
@@ -591,11 +591,11 @@ public Shape InsertImage(byte[] imageBytes, double width, double height)
 
 The image node that was just inserted.
 
-### Remarks
+## Remarks
 
 You can change the image size, location, positioning method and other settings using the [`Shape`](../../../aspose.words.drawing/shape) object returned by this method.
 
-### Examples
+## Examples
 
 Shows how to insert an image from a byte array into a document.
 
@@ -698,11 +698,11 @@ public Shape InsertImage(Image image, RelativeHorizontalPosition horzPos, double
 
 The image node that was just inserted.
 
-### Remarks
+## Remarks
 
 You can change the image size, location, positioning method and other settings using the [`Shape`](../../../aspose.words.drawing/shape) object returned by this method.
 
-### Examples
+## Examples
 
 Shows how to insert an image from an object into a document.
 
@@ -794,11 +794,11 @@ public Shape InsertImage(string fileName, RelativeHorizontalPosition horzPos, do
 
 The image node that was just inserted.
 
-### Remarks
+## Remarks
 
 You can change the image size, location, positioning method and other settings using the [`Shape`](../../../aspose.words.drawing/shape) object returned by this method.
 
-### Examples
+## Examples
 
 Shows how to insert an image.
 
@@ -898,11 +898,11 @@ public Shape InsertImage(Stream stream, RelativeHorizontalPosition horzPos, doub
 
 The image node that was just inserted.
 
-### Remarks
+## Remarks
 
 You can change the image size, location, positioning method and other settings using the [`Shape`](../../../aspose.words.drawing/shape) object returned by this method.
 
-### Examples
+## Examples
 
 Shows how to insert an image from a stream into a document.
 
@@ -967,11 +967,11 @@ public Shape InsertImage(byte[] imageBytes, RelativeHorizontalPosition horzPos, 
 
 The image node that was just inserted.
 
-### Remarks
+## Remarks
 
 You can change the image size, location, positioning method and other settings using the [`Shape`](../../../aspose.words.drawing/shape) object returned by this method.
 
-### Examples
+## Examples
 
 Shows how to insert an image from a byte array into a document.
 

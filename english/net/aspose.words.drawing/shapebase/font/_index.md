@@ -14,7 +14,7 @@ Provides access to the font formatting of this object.
 public Font Font { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to insert a text box, and set the font of its contents.
 

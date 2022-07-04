@@ -22,7 +22,7 @@ public virtual VisitorAction VisitFormField(FormField formField)
 
 A [`VisitorAction`](../../visitoraction) value that specifies how to continue the enumeration.
 
-### Examples
+## Examples
 
 Shows how to use a DocumentVisitor implementation to remove all hidden content from a document.
 

@@ -14,7 +14,7 @@ Gets or sets the comparison operator.
 public string ComparisonOperator { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to compare expressions using a COMPARE field.
 

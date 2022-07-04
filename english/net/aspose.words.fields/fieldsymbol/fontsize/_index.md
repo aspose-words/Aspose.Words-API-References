@@ -14,7 +14,7 @@ Gets or sets the size in points of the font of the character retrieved by the fi
 public string FontSize { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to use the SYMBOL field.
 

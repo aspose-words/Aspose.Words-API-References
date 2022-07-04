@@ -3,7 +3,7 @@ title: IsBidiTextSupportedOnUpdate
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the value indicating whether bidirectional text is fully supported during field update or not.
 type: docs
-weight: 120
+weight: 130
 url: /net/aspose.words.fields/fieldoptions/isbiditextsupportedonupdate/
 ---
 ## FieldOptions.IsBidiTextSupportedOnUpdate property
@@ -14,7 +14,7 @@ Gets or sets the value indicating whether bidirectional text is fully supported 
 public bool IsBidiTextSupportedOnUpdate { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 When this property is set to **true**, additional steps are performed to produce Right-To-Left language (i.e. Arabic or Hebrew) compatible field result during its update.
 
@@ -22,7 +22,7 @@ When this property is set to **false** and Right-To-Left language is used, corre
 
 The default value is **false**.
 
-### Examples
+## Examples
 
 Shows how to use FieldOptions to ensure that field updating fully supports bi-directional text.
 

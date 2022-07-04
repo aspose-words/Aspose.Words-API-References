@@ -51,11 +51,11 @@ public void SetImage(Image image, ImageWatermarkOptions options)
 | --- | --- |
 | ArgumentNullException | Throws when the image is null. |
 
-### Remarks
+## Remarks
 
 If [`ImageWatermarkOptions`](../../imagewatermarkoptions) is null, the watermark will be set with default options.
 
-### Examples
+## Examples
 
 Shows how to create a watermark from an image in the local file system.
 
@@ -108,7 +108,7 @@ public void SetImage(string imagePath, ImageWatermarkOptions options)
 | --- | --- |
 | ArgumentNullException | Throws when the path is null. |
 
-### Remarks
+## Remarks
 
 If [`ImageWatermarkOptions`](../../imagewatermarkoptions) is null, the watermark will be set with default options.
 

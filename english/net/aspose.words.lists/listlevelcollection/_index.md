@@ -3,7 +3,7 @@ title: ListLevelCollection
 second_title: Aspose.Words for .NET API Reference
 description: A collection of list formatting for each level in a list.
 type: docs
-weight: 3270
+weight: 3320
 url: /net/aspose.words.lists/listlevelcollection/
 ---
 ## ListLevelCollection class
@@ -27,7 +27,7 @@ public class ListLevelCollection : IEnumerable<ListLevel>
 | --- | --- |
 | [GetEnumerator](../../aspose.words.lists/listlevelcollection/getenumerator)() | Gets the enumerator object that will enumerate levels in this list. |
 
-### Examples
+## Examples
 
 Shows how to create a list style and use it in a document.
 

@@ -18,7 +18,7 @@ public void Load(string fileName)
 | --- | --- | --- |
 | fileName | String | Input file name. |
 
-### Examples
+## Examples
 
 Shows how to work with custom font substitution tables.
 
@@ -96,7 +96,7 @@ public void Load(Stream stream)
 | --- | --- | --- |
 | stream | Stream | Input stream. |
 
-### Examples
+## Examples
 
 Shows how to work with custom font substitution tables.
 

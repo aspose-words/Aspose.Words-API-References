@@ -3,7 +3,7 @@ title: OfficeMathRenderer
 second_title: Aspose.Words for .NET API Reference
 description: Provides methods to render an individual OfficeMath../aspose.words.math/officemath to a raster or vector image or to a Graphics object.
 type: docs
-weight: 4250
+weight: 4300
 url: /net/aspose.words.rendering/officemathrenderer/
 ---
 ## OfficeMathRenderer class
@@ -43,7 +43,7 @@ public class OfficeMathRenderer : NodeRendererBase
 | [Save](../../aspose.words.rendering/noderendererbase/save)(Stream, ImageSaveOptions) | Renders the shape into an image and saves into a stream. |
 | [Save](../../aspose.words.rendering/noderendererbase/save)(string, ImageSaveOptions) | Renders the shape into an image and saves into a file. |
 
-### Examples
+## Examples
 
 Shows how to measure and scale shapes.
 

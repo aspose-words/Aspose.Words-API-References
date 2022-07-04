@@ -14,7 +14,7 @@ Gets or sets suggested signer's title. Default value for this property is **empt
 public string SignerTitle { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to add a signature line to a document, and then sign it using a digital certificate.
 

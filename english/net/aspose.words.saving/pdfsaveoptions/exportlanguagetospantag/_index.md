@@ -14,7 +14,7 @@ Gets or sets a value determining whether or not to create a "Span" tag in the do
 public bool ExportLanguageToSpanTag { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 Default value is `false` and "Lang" attribute is attached to a marked-content sequence in a page content stream.
 
@@ -22,7 +22,7 @@ When the value is `true` "Span" tag is created for the text with non-default lan
 
 This value is ignored when [`ExportDocumentStructure`](../exportdocumentstructure) is `false`.
 
-### Examples
+## Examples
 
 Shows how to create a "Span" tag in the document structure to export the text language.
 

@@ -14,7 +14,7 @@ Specifies the folder for temporary files used when saving to a DOC or DOCX file.
 public string TempFolder { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 When Aspose.Words saves a document, it needs to create temporary internal structures. By default, these internal structures are created in memory and the memory usage spikes for a short period while the document is being saved. When saving is complete, the memory is freed and reclaimed by the garbage collector.
 
@@ -24,7 +24,7 @@ The folder must exist and be writable, otherwise an exception will be thrown.
 
 Aspose.Words automatically deletes all temporary files when saving is complete.
 
-### Examples
+## Examples
 
 Shows how to use the hard drive instead of memory when saving a document.
 

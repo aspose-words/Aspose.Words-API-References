@@ -3,7 +3,7 @@ title: FieldUpdateCultureSource
 second_title: Aspose.Words for .NET API Reference
 description: Indicates what culture to use during field update.
 type: docs
-weight: 2370
+weight: 2410
 url: /net/aspose.words.fields/fieldupdateculturesource/
 ---
 ## FieldUpdateCultureSource enumeration
@@ -21,7 +21,7 @@ public enum FieldUpdateCultureSource
 | CurrentThread | `0` | The culture of the current execution thread is used to update fields. |
 | FieldCode | `1` | The culture specified in the field formatting properties via language setting is used. |
 
-### Examples
+## Examples
 
 Shows how to specify the source of the culture used for date formatting during a field update or mail merge.
 

@@ -14,7 +14,7 @@ Initializes a new instance of this class with default values.
 public HtmlLoadOptions()
 ```
 
-### Examples
+## Examples
 
 Shows how to support conditional comments while loading an HTML document.
 
@@ -56,7 +56,7 @@ public HtmlLoadOptions(string password)
 | --- | --- | --- |
 | password | String | The password to open an encrypted document. Can be null or empty string. |
 
-### Examples
+## Examples
 
 Shows how to encrypt an Html document, and then open it using a password.
 
@@ -108,7 +108,7 @@ public HtmlLoadOptions(LoadFormat loadFormat, string password, string baseUri)
 | password | String | The password to open an encrypted document. Can be null or empty string. |
 | baseUri | String | The string that will be used to resolve relative URIs to absolute. Can be null or empty string. |
 
-### Examples
+## Examples
 
 Shows how to specify a base URI when opening an html document.
 

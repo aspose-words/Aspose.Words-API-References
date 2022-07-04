@@ -3,7 +3,7 @@ title: HtmlSaveOptions
 second_title: Aspose.Words for .NET API Reference
 description: Can be used to specify additional options when saving a document into the Html Mhtml or Epub format.
 type: docs
-weight: 4800
+weight: 4850
 url: /net/aspose.words.saving/htmlsaveoptions/
 ---
 ## HtmlSaveOptions class
@@ -91,7 +91,7 @@ public class HtmlSaveOptions : SaveOptions
 | [UseAntiAliasing](../../aspose.words.saving/saveoptions/useantialiasing) { get; set; } | Gets or sets a value determining whether or not to use anti-aliasing for rendering. |
 | [UseHighQualityRendering](../../aspose.words.saving/saveoptions/usehighqualityrendering) { get; set; } | Gets or sets a value determining whether or not to use high quality (i.e. slow) rendering algorithms. |
 
-### Examples
+## Examples
 
 Shows how to specify the folder for storing linked images after saving to .html.
 

@@ -18,13 +18,13 @@ public void SetFontsSources(FontSourceBase[] sources)
 | --- | --- | --- |
 | sources | FontSourceBase[] | An array of sources that contain TrueType fonts. |
 
-### Remarks
+## Remarks
 
 By default, Aspose.Words looks for fonts installed to the system.
 
 Setting this property resets the cache of all previously loaded fonts.
 
-### Examples
+## Examples
 
 Shows how to add a font source to our existing font sources.
 
@@ -92,7 +92,7 @@ public void SetFontsSources(FontSourceBase[] sources, Stream cacheInputStream)
 | sources | FontSourceBase[] | An array of sources that contain TrueType fonts. |
 | cacheInputStream | Stream | Input stream with saved font search cache. |
 
-### Remarks
+## Remarks
 
 Loading previously saved font search cache will speed up the font cache initialization process. It is especially useful when access to font sources is complicated (e.g. when fonts are loaded via network).
 
@@ -100,7 +100,7 @@ When saving and loading font search cache, fonts in the provided sources are ide
 
 It is highly recommended to provide the same font sources when loading cache as at the time the cache was saved. Any changes in the font sources (e.g. adding new fonts, moving font files or changing the cache key) may lead to the inaccurate font resolving by Aspose.Words.
 
-### Examples
+## Examples
 
 Shows how to speed up the font cache initialization process.
 

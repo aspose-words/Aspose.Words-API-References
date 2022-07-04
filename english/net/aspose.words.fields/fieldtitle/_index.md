@@ -3,7 +3,7 @@ title: FieldTitle
 second_title: Aspose.Words for .NET API Reference
 description: Implements the TITLE field.
 type: docs
-weight: 2320
+weight: 2360
 url: /net/aspose.words.fields/fieldtitle/
 ---
 ## FieldTitle class
@@ -47,11 +47,11 @@ public class FieldTitle : Field
 | [Update](../../aspose.words.fields/field/update)() | Performs the field update. Throws if the field is being updated already. |
 | [Update](../../aspose.words.fields/field/update)(bool) | Performs a field update. Throws if the field is being updated already. |
 
-### Remarks
+## Remarks
 
 Retrieves, and optionally sets, the document's title, as recorded in the **Title** property of the built-in document properties.
 
-### Examples
+## Examples
 
 Shows how to use the TITLE field.
 

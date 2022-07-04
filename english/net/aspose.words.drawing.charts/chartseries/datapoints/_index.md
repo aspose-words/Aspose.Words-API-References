@@ -14,7 +14,7 @@ Returns a collection of formatting objects for all data points in this series.
 public ChartDataPointCollection DataPoints { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to apply labels to data points in a line chart.
 

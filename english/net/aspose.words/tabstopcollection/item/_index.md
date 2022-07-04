@@ -18,7 +18,7 @@ public TabStop this[int index] { get; }
 | --- | --- |
 | index | An index into the collection of tab stops. |
 
-### Examples
+## Examples
 
 Shows how to work with a document's collection of tab stops.
 
@@ -80,11 +80,11 @@ public TabStop this[double position] { get; }
 | --- | --- |
 | position | The position (in points) of the tab stop. |
 
-### Remarks
+## Remarks
 
 Returns null if no tab stop is found at the specified position.
 
-### Examples
+## Examples
 
 Shows how to work with a document's collection of tab stops.
 

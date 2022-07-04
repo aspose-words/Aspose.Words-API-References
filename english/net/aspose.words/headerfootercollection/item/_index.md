@@ -18,7 +18,7 @@ public HeaderFooter this[int index] { get; }
 | --- | --- |
 | index | An index into the collection. |
 
-### Remarks
+## Remarks
 
 The index is zero-based.
 
@@ -28,7 +28,7 @@ If index is greater than or equal to the number of items in the list, this retur
 
 If index is negative and its absolute value is greater than the number of items in the list, this returns a null reference.
 
-### Examples
+## Examples
 
 Shows how to link headers and footers between sections.
 
@@ -111,11 +111,11 @@ public HeaderFooter this[HeaderFooterType headerFooterType] { get; }
 | --- | --- |
 | headerFooterType | A [`HeaderFooterType`](../../headerfootertype) value that specifies the type of the header/footer to retrieve. |
 
-### Remarks
+## Remarks
 
 Returns null if the header/footer of the specified type is not found.
 
-### Examples
+## Examples
 
 Shows how to replace text in a document's footer.
 

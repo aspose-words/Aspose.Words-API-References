@@ -18,7 +18,7 @@ public static PreferredWidth FromPercent(double percent)
 | --- | --- | --- |
 | percent | Double | The value must be from 0 to 100. |
 
-### Examples
+## Examples
 
 Shows how to set a table to auto fit to 50% of the width of the page.
 

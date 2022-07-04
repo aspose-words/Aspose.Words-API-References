@@ -14,11 +14,11 @@ Gets or sets a value indicating whether all of the document mail merge regions w
 public bool MergeDuplicateRegions { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 The default value is **false**.
 
-### Examples
+## Examples
 
 Shows how to work with duplicate mail merge regions.
 

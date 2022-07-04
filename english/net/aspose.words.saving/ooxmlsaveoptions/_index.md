@@ -3,7 +3,7 @@ title: OoxmlSaveOptions
 second_title: Aspose.Words for .NET API Reference
 description: Can be used to specify additional options when saving a document into the Docx Docm Dotx Dotm or FlatOpc format.
 type: docs
-weight: 5020
+weight: 5070
 url: /net/aspose.words.saving/ooxmlsaveoptions/
 ---
 ## OoxmlSaveOptions class
@@ -51,7 +51,7 @@ public class OoxmlSaveOptions : SaveOptions
 | [UseAntiAliasing](../../aspose.words.saving/saveoptions/useantialiasing) { get; set; } | Gets or sets a value determining whether or not to use anti-aliasing for rendering. |
 | [UseHighQualityRendering](../../aspose.words.saving/saveoptions/usehighqualityrendering) { get; set; } | Gets or sets a value determining whether or not to use high quality (i.e. slow) rendering algorithms. |
 
-### Examples
+## Examples
 
 Shows how to set an OOXML compliance specification for a saved document to adhere to.
 

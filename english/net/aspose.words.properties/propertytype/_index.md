@@ -3,7 +3,7 @@ title: PropertyType
 second_title: Aspose.Words for .NET API Reference
 description: Specifies data type of a document property.
 type: docs
-weight: 4200
+weight: 4250
 url: /net/aspose.words.properties/propertytype/
 ---
 ## PropertyType enumeration
@@ -28,7 +28,7 @@ public enum PropertyType
 | ByteArray | `7` | The property is an array of bytes. |
 | Other | `8` | The property is some other type. |
 
-### Examples
+## Examples
 
 Shows how to work with a document's custom properties.
 

@@ -3,7 +3,7 @@ title: JsonDataSource
 second_title: Aspose.Words for .NET API Reference
 description: Provides access to data of a JSON file or stream to be used within a report.
 type: docs
-weight: 4380
+weight: 4430
 url: /net/aspose.words.reporting/jsondatasource/
 ---
 ## JsonDataSource class
@@ -23,7 +23,7 @@ public class JsonDataSource
 | [JsonDataSource](jsondatasource#constructor_1)(Stream, JsonDataLoadOptions) | Creates a new data source with data from a JSON stream using the specified options for parsing JSON data. |
 | [JsonDataSource](jsondatasource#constructor_3)(string, JsonDataLoadOptions) | Creates a new data source with data from a JSON file using the specified options for parsing JSON data. |
 
-### Remarks
+## Remarks
 
 To access data of the corresponding file or stream while generating a report, pass an instance of this class as a data source to one of [`ReportingEngine`](../reportingengine).BuildReport overloads.
 

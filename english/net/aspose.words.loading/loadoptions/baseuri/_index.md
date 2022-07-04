@@ -14,14 +14,14 @@ Gets or sets the string that will be used to resolve relative URIs found in the 
 public string BaseUri { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 This property is used to resolve relative URIs into absolute in the following cases:
 
 1. When loading an HTML document from a stream and the document contains images with relative URIs and does not have a base URI specified in the BASE HTML element.
 2. When saving a document to PDF and other formats, to retrieve images linked using relative URIs so the images can be saved into the output document.
 
-### Examples
+## Examples
 
 Shows how to open an HTML document with images from a stream using a base URI.
 

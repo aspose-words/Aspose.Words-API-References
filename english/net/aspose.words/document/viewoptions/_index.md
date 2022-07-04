@@ -14,7 +14,7 @@ Provides options to control how the document is displayed in Microsoft Word.
 public ViewOptions ViewOptions { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to set a custom zoom factor, which older versions of Microsoft Word will apply to a document upon loading.
 

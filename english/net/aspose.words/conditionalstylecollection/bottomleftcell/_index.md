@@ -14,7 +14,7 @@ Gets the bottom left cell style.
 public ConditionalStyle BottomLeftCell { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to work with certain area styles of a table.
 

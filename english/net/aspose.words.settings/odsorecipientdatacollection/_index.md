@@ -3,7 +3,7 @@ title: OdsoRecipientDataCollection
 second_title: Aspose.Words for .NET API Reference
 description: A typed collection of OdsoRecipientData./odsorecipientdata
 type: docs
-weight: 5590
+weight: 5640
 url: /net/aspose.words.settings/odsorecipientdatacollection/
 ---
 ## OdsoRecipientDataCollection class
@@ -36,7 +36,7 @@ public class OdsoRecipientDataCollection : IEnumerable<OdsoRecipientData>
 | [GetEnumerator](../../aspose.words.settings/odsorecipientdatacollection/getenumerator)() | Returns an enumerator object that can be used to iterate over all items in the collection. |
 | [RemoveAt](../../aspose.words.settings/odsorecipientdatacollection/removeat)(int) | Removes the element at the specified index. |
 
-### Examples
+## Examples
 
 Shows how to access the collection of data that designates which merge data source records a mail merge will exclude.
 

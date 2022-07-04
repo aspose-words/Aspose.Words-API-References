@@ -3,7 +3,7 @@ title: ListLevelAlignment
 second_title: Aspose.Words for .NET API Reference
 description: Specifies alignment for the list number or bullet.
 type: docs
-weight: 3260
+weight: 3310
 url: /net/aspose.words.lists/listlevelalignment/
 ---
 ## ListLevelAlignment enumeration
@@ -22,11 +22,11 @@ public enum ListLevelAlignment
 | Center | `1` | The list label is centered at the number position. |
 | Right | `2` | This list label is aligned to the right of the number position. |
 
-### Remarks
+## Remarks
 
 Used as a value for the [`Alignment`](../listlevel/alignment) property.
 
-### Examples
+## Examples
 
 Shows how to apply custom list formatting to paragraphs when using DocumentBuilder.
 

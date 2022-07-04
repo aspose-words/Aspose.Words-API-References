@@ -14,7 +14,7 @@ Called when Aspose.Words is about to save a document part.
 public void DocumentPartSaving(DocumentPartSavingArgs args)
 ```
 
-### Examples
+## Examples
 
 Shows how to split a document into parts and save them.
 

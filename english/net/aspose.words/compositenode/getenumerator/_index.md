@@ -14,7 +14,7 @@ Provides support for the for each style iteration over the child nodes of this n
 public IEnumerator<Node> GetEnumerator()
 ```
 
-### Examples
+## Examples
 
 Shows how to traverse through a composite node's collection of child nodes.
 

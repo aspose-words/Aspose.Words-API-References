@@ -3,7 +3,7 @@ title: XmlDataSource
 second_title: Aspose.Words for .NET API Reference
 description: Provides access to data of an XML file or stream to be used within a report.
 type: docs
-weight: 4440
+weight: 4490
 url: /net/aspose.words.reporting/xmldatasource/
 ---
 ## XmlDataSource class
@@ -27,7 +27,7 @@ public class XmlDataSource
 | [XmlDataSource](xmldatasource#constructor_3)(Stream, Stream, XmlDataLoadOptions) | Creates a new data source with data from an XML stream using an XML Schema Definition stream. The specified options are used for XML data loading. |
 | [XmlDataSource](xmldatasource#constructor_7)(string, string, XmlDataLoadOptions) | Creates a new data source with data from an XML file using an XML Schema Definition file. The specified options are used for XML data loading. |
 
-### Remarks
+## Remarks
 
 To access data of the corresponding file or stream while generating a report, pass an instance of this class as a data source to one of [`ReportingEngine`](../reportingengine).BuildReport overloads.
 

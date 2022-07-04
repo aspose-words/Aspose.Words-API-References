@@ -14,7 +14,7 @@ Gets the path and name of an xls/xlsx file this chart is linked to.
 public string SourceFullName { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to get the full name of the external xls/xlsx document if the chart is linked.
 

@@ -14,7 +14,7 @@ Returns true if an extrusion effect is enabled.
 public bool ExtrusionEnabled { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to iterate over all the shapes in a document.
 

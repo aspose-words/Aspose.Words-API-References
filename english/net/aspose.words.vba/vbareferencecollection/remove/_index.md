@@ -14,7 +14,7 @@ Removes the first occurrence of a specified VbaReference item from the collectio
 public void Remove(VbaReference item)
 ```
 
-### Examples
+## Examples
 
 Shows how to get/remove an element from the VBA reference collection.
 

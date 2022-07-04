@@ -14,7 +14,7 @@ Gets or sets a list of styles other than the built-in heading styles to include 
 public string CustomStyles { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to insert a TOC, and populate it with entries based on heading styles.
 

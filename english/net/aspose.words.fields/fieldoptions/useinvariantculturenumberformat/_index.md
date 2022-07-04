@@ -3,7 +3,7 @@ title: UseInvariantCultureNumberFormat
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the value indicating that number format is parsed using invariant culture or not
 type: docs
-weight: 180
+weight: 190
 url: /net/aspose.words.fields/fieldoptions/useinvariantculturenumberformat/
 ---
 ## FieldOptions.UseInvariantCultureNumberFormat property
@@ -14,7 +14,7 @@ Gets or sets the value indicating that number format is parsed using invariant c
 public bool UseInvariantCultureNumberFormat { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 When this property is set to **true**, number format is taken from an invariant culture.
 
@@ -22,7 +22,7 @@ When this property is set to **false**, number format is taken from the current 
 
 The default value is **false**.
 
-### Examples
+## Examples
 
 Shows how to format numbers according to the invariant culture.
 

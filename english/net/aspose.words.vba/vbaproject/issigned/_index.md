@@ -14,7 +14,7 @@ Shows whether the VbaProject is signed or not.
 public bool IsSigned { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to access a document's VBA project information.
 

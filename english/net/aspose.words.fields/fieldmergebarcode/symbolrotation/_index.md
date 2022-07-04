@@ -14,7 +14,7 @@ Gets or sets the rotation of the barcode symbol. Valid values are [0, 3]
 public string SymbolRotation { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to perform a mail merge on QR barcodes.
 

@@ -21,6 +21,7 @@ The **Aspose.Words.Drawing** namespace provides classes that allow to create and
 | [ImageSize](./imagesize) | Contains information about image size and resolution. |
 | [OleFormat](./oleformat) | Provides access to the data of an OLE object or ActiveX control. |
 | [OlePackage](./olepackage) | Allows to access OLE Package properties. |
+| [ShadowFormat](./shadowformat) | Represents shadow formatting for an object. |
 | [Shape](./shape) | Represents an object in the drawing layer, such as an AutoShape, textbox, freeform, OLE object, ActiveX control, or picture. |
 | [ShapeBase](./shapebase) | Base class for objects in the drawing layer, such as an AutoShape, freeform, OLE object, ActiveX control, or picture. |
 | [SignatureLine](./signatureline) | Provides access to signature line properties. |
@@ -49,6 +50,7 @@ The **Aspose.Words.Drawing** namespace provides classes that allow to create and
 | [PresetTexture](./presettexture) | Specifies texture to be used to fill a shape. |
 | [RelativeHorizontalPosition](./relativehorizontalposition) | Specifies to what the horizontal position of a shape or text frame is relative. |
 | [RelativeVerticalPosition](./relativeverticalposition) | Specifies to what the vertical position of a shape or text frame is relative. |
+| [ShadowType](./shadowtype) | Specifies the type of a shape shadow. |
 | [ShapeLineStyle](./shapelinestyle) | Specifies the compound line style of a [`Shape`](../aspose.words.drawing/shape). |
 | [ShapeMarkupLanguage](./shapemarkuplanguage) | Specifies Markup language used for the shape. |
 | [ShapeType](./shapetype) | Specifies the type of shape in a Microsoft Word document. |

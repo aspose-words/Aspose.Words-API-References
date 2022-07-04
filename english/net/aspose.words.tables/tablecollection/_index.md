@@ -3,7 +3,7 @@ title: TableCollection
 second_title: Aspose.Words for .NET API Reference
 description: Provides typed access to a collection of Table./table nodes.
 type: docs
-weight: 6010
+weight: 6060
 url: /net/aspose.words.tables/tablecollection/
 ---
 ## TableCollection class
@@ -35,7 +35,7 @@ public class TableCollection : NodeCollection
 | [RemoveAt](../../aspose.words/nodecollection/removeat)(int) | Removes the node at the specified index from the collection and from the document. |
 | [ToArray](../../aspose.words.tables/tablecollection/toarray#toarray_1)() | Copies all tables from the collection to a new array of tables. (2 methods) |
 
-### Examples
+## Examples
 
 Shows how to remove the first and last rows of all tables in a document.
 

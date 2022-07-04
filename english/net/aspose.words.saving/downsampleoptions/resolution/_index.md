@@ -14,11 +14,11 @@ Specifies the resolution in pixels per inch which the images should be downsampl
 public int Resolution { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 The default value is 220 ppi.
 
-### Examples
+## Examples
 
 Shows how to change the resolution of images in the PDF document.
 

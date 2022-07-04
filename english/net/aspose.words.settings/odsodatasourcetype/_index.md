@@ -3,7 +3,7 @@ title: OdsoDataSourceType
 second_title: Aspose.Words for .NET API Reference
 description: Specifies the type of the external data source to be connected to as part of the ODSO connection information.
 type: docs
-weight: 5540
+weight: 5590
 url: /net/aspose.words.settings/odsodatasourcetype/
 ---
 ## OdsoDataSourceType enumeration
@@ -30,11 +30,11 @@ public enum OdsoDataSourceType
 | Master | `9` | Specifies that a given document has been connected to a data source which aggregates other data sources. |
 | Default | `7` | Equals to None. |
 
-### Remarks
+## Remarks
 
 The OOXML specification is very vague for this enum. I guess it might correspond to the WdMergeSubType enumeration http://msdn.microsoft.com/en-us/library/bb237801.aspx.
 
-### Examples
+## Examples
 
 Shows how to execute a mail merge with data from an Office Data Source Object.
 

@@ -3,7 +3,7 @@ title: ImlRenderingMode
 second_title: Aspose.Words for .NET API Reference
 description: Specifies how ink InkML objects are rendered to fixed page formats.
 type: docs
-weight: 4940
+weight: 4990
 url: /net/aspose.words.saving/imlrenderingmode/
 ---
 ## ImlRenderingMode enumeration
@@ -21,7 +21,7 @@ public enum ImlRenderingMode
 | Fallback | `0` | If fall-back shape is available for ink (InkML) object, Aspose.Words renders fall-back shape instead of the InkML. |
 | InkML | `1` | Aspose.Words ignores fall-back shape of ink (InkML) object and renders InkML itself. This is the default mode. |
 
-### Examples
+## Examples
 
 Shows how to render Ink object.
 

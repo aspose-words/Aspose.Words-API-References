@@ -14,7 +14,7 @@ Gets the collection of default cell borders for the conditional style.
 public BorderCollection Borders { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to work with certain area styles of a table.
 

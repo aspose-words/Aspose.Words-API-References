@@ -18,7 +18,7 @@ public bool MoveNext()
 
 True if moved to next record successfully. False if reached end of the data source.
 
-### Examples
+## Examples
 
 Shows how to execute a mail merge with a data source in the form of a custom object.
 

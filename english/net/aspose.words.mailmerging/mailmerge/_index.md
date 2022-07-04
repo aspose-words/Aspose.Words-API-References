@@ -3,7 +3,7 @@ title: MailMerge
 second_title: Aspose.Words for .NET API Reference
 description: Represents the mail merge functionality.
 type: docs
-weight: 3570
+weight: 3620
 url: /net/aspose.words.mailmerging/mailmerge/
 ---
 ## MailMerge class
@@ -60,7 +60,7 @@ public class MailMerge
 | [GetRegionsByName](../../aspose.words.mailmerging/mailmerge/getregionsbyname)(string) | Returns a collection of mail merge regions with the specified name. |
 | [GetRegionsHierarchy](../../aspose.words.mailmerging/mailmerge/getregionshierarchy)() | Returns a full hierarchy of regions (with fields) available in the document. |
 
-### Remarks
+## Remarks
 
 For mail merge operation to work, the document should contain Word MERGEFIELD and optionally NEXT fields. During mail merge operation, merge fields in the document are replaced with values from your data source.
 
@@ -74,7 +74,7 @@ Use ExecuteWithRegions methods to merge information into a document with mail me
 
 You need to use mail merge regions if you want to dynamically grow portions inside the document. Without mail merge regions whole document will be repeated for every record of the data source.
 
-### Examples
+## Examples
 
 Shows how to execute a mail merge with data from a DataTable.
 

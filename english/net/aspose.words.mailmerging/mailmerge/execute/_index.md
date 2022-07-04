@@ -18,7 +18,7 @@ public void Execute(IMailMergeDataSource dataSource)
 | --- | --- | --- |
 | dataSource | IMailMergeDataSource | An object that implements the custom mail merge data source interface. |
 
-### Remarks
+## Remarks
 
 Use this method to fill mail merge fields in the document with values from any data source such as a list or hashtable or objects. You need to write your own class that implements the [`IMailMergeDataSource`](../../imailmergedatasource) interface.
 
@@ -48,7 +48,7 @@ public void Execute(string[] fieldNames, object[] values)
 | fieldNames | String[] | Array of merge field names. Field names are not case sensitive. If a field name that is not found in the document is encountered, it is ignored. |
 | values | Object[] | Array of values to be inserted into the merge fields. Number of elements in this array must be the same as the number of elements in fieldNames. |
 
-### Remarks
+## Remarks
 
 Use this method to fill mail merge fields in the document with values from an array of objects.
 
@@ -58,7 +58,7 @@ This method does not use mail merge regions.
 
 This method ignores the RemoveUnusedRegions option.
 
-### Examples
+## Examples
 
 Shows how to merge an image from a URI as mail merge data into a MERGEFIELD.
 
@@ -128,7 +128,7 @@ public void Execute(DataTable table)
 | --- | --- | --- |
 | table | DataTable | Table that contains data to be inserted into mail merge fields. Field names are not case sensitive. If a field name that is not found in the document is encountered, it is ignored. |
 
-### Remarks
+## Remarks
 
 Use this method to fill mail merge fields in the document with values from a **DataTable**.
 
@@ -140,7 +140,7 @@ When **MailMerge** object reaches end of the main document and there are still m
 
 This method ignores the RemoveUnusedRegions option.
 
-### Examples
+## Examples
 
 Shows how to execute a mail merge with data from a DataTable.
 
@@ -205,7 +205,7 @@ public void Execute(IDataReader dataReader)
 | --- | --- | --- |
 | dataReader | IDataReader | Data source for the mail merge operation. |
 
-### Remarks
+## Remarks
 
 You can pass **SqlDataReader** or **OleDbDataReader** object into this method as a parameter because they both implemented **IDataReader** interface.
 
@@ -213,7 +213,7 @@ Note this method does not use mail merge regions and for multiple records the do
 
 This method ignores the RemoveUnusedRegions option.
 
-### Examples
+## Examples
 
 Shows how to run a mail merge using data from a data reader.
 
@@ -280,7 +280,7 @@ public void Execute(DataView dataView)
 | --- | --- | --- |
 | dataView | DataView | Data source for the mail merge operation. |
 
-### Remarks
+## Remarks
 
 This method is useful if you retrieve data into a **DataTable** but then need to apply a filter or sort before the mail merge.
 
@@ -288,7 +288,7 @@ Note this method does not use mail merge regions and for multiple records the do
 
 This method ignores the RemoveUnusedRegions option.
 
-### Examples
+## Examples
 
 Shows how to edit mail merge data with a DataView.
 
@@ -342,13 +342,13 @@ public void Execute(DataRow row)
 | --- | --- | --- |
 | row | DataRow | Row that contains data to be inserted into mail merge fields. Field names are not case sensitive. If a field name that is not found in the document is encountered, it is ignored. |
 
-### Remarks
+## Remarks
 
 Use this method to fill mail merge fields in the document with values from a **DataRow**.
 
 This method ignores the RemoveUnusedRegions option.
 
-### Examples
+## Examples
 
 Shows how to execute a mail merge with data from a DataTable.
 

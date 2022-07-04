@@ -14,13 +14,13 @@ Returns the property value as DateTime in UTC.
 public DateTime ToDateTime()
 ```
 
-### Remarks
+## Remarks
 
 Throws an exception if the property type is not DateTime.
 
 Microsoft Word stores only the date part (no time) for custom date properties.
 
-### Examples
+## Examples
 
 Shows how to create a custom document property which contains a date and time.
 

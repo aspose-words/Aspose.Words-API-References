@@ -14,7 +14,7 @@ Allows to specify outline options.
 public OutlineOptions OutlineOptions { get; }
 ```
 
-### Remarks
+## Remarks
 
 Outlines can be created from headings and bookmarks.
 
@@ -26,7 +26,7 @@ For bookmarks outline level may be set in options as a default value for all boo
 
 Also, outlines can be exported to XPS format by using the same `OutlineOptions` class.
 
-### Examples
+## Examples
 
 Shows how to limit the headings' level that will appear in the outline of a saved PDF document.
 

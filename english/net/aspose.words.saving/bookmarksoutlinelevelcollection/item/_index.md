@@ -22,7 +22,7 @@ public int this[string name] { get; set; }
 
 The outline level of the bookmark. Valid range is 0 to 9.
 
-### Examples
+## Examples
 
 Shows how to set outline levels for bookmarks.
 
@@ -101,7 +101,7 @@ public int this[int index] { get; set; }
 
 The outline level of the bookmark. Valid range is 0 to 9.
 
-### Examples
+## Examples
 
 Shows how to set outline levels for bookmarks.
 

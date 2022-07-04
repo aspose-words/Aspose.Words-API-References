@@ -3,7 +3,7 @@ title: ShapeRenderer
 second_title: Aspose.Words for .NET API Reference
 description: Provides methods to render an individual Shape../aspose.words.drawing/shape or GroupShape../aspose.words.drawing/groupshape to a raster or vector image or to a Graphics object.
 type: docs
-weight: 4280
+weight: 4330
 url: /net/aspose.words.rendering/shaperenderer/
 ---
 ## ShapeRenderer class
@@ -43,7 +43,7 @@ public class ShapeRenderer : NodeRendererBase
 | [Save](../../aspose.words.rendering/noderendererbase/save)(Stream, ImageSaveOptions) | Renders the shape into an image and saves into a stream. |
 | [Save](../../aspose.words.rendering/noderendererbase/save)(string, ImageSaveOptions) | Renders the shape into an image and saves into a file. |
 
-### Examples
+## Examples
 
 Shows how to render a shape with a Graphics object and display it using a Windows Form.
 

@@ -18,11 +18,11 @@ public void SetText(string text)
 | --- | --- | --- |
 | text | String | The new text of the comment. |
 
-### Remarks
+## Remarks
 
 This method allows to quickly set text of a comment from a string. The string can contain paragraph breaks, this will create paragraphs of text in the comment accordingly. If you want to insert more complex elements into the comment, for example bookmarks or tables or apply rich formatting, then you need to use the appropriate node classes to build up the comment text.
 
-### Examples
+## Examples
 
 Shows how to add a comment to a document, and then reply to it.
 

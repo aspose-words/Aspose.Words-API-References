@@ -3,7 +3,7 @@ title: Story
 second_title: Aspose.Words for .NET API Reference
 description: Base class for elements that contain block-level nodes Paragraph./paragraph and Table../aspose.words.tables/table.
 type: docs
-weight: 5760
+weight: 5810
 url: /net/aspose.words/story/
 ---
 ## Story class
@@ -68,11 +68,11 @@ public abstract class Story : CompositeNode
 | [ToString](../../aspose.words/node/tostring)(SaveFormat) | Exports the content of the node into a string in the specified format. |
 | [ToString](../../aspose.words/node/tostring)(SaveOptions) | Exports the content of the node into a string using the specified save options. |
 
-### Remarks
+## Remarks
 
 Text of a Word document is said to consist of several stories. The main text is stored in the main text story represented by [`Body`](../body), each header and footer is stored in a separate story represented by [`HeaderFooter`](../headerfooter).
 
-### Examples
+## Examples
 
 Shows how to remove all shapes from a node.
 

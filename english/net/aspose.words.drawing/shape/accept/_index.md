@@ -22,7 +22,7 @@ public override bool Accept(DocumentVisitor visitor)
 
 True if all nodes were visited; false if DocumentVisitor stopped the operation before visiting all nodes.
 
-### Remarks
+## Remarks
 
 Enumerates over this node and all of its children. Each node calls a corresponding method on DocumentVisitor.
 
@@ -30,7 +30,7 @@ For more info see the Visitor design pattern.
 
 Calls [`VisitShapeStart`](../../../aspose.words/documentvisitor/visitshapestart), then calls [`Accept`](../../../aspose.words/node/accept) for all child nodes of the shape and calls [`VisitShapeEnd`](../../../aspose.words/documentvisitor/visitshapeend) at the end.
 
-### Examples
+## Examples
 
 Shows how to iterate over all the shapes in a document.
 

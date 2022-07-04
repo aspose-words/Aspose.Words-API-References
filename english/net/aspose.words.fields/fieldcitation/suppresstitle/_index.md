@@ -14,7 +14,7 @@ Gets or sets whether the title information is suppressed from the citation.
 public bool SuppressTitle { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to work with CITATION and BIBLIOGRAPHY fields.
 

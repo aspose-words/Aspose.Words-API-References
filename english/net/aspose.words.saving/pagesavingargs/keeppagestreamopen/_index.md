@@ -14,11 +14,11 @@ Specifies whether Aspose.Words should keep the stream open or close it after sav
 public bool KeepPageStreamOpen { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 Default is `false` and Aspose.Words will close the stream you provided in the [`PageStream`](../pagestream) property after writing a document page into it. Specify `true` to keep the stream open.
 
-### Examples
+## Examples
 
 Shows how to use a callback to save a document to HTML page by page.
 

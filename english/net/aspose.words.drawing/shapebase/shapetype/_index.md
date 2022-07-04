@@ -3,7 +3,7 @@ title: ShapeType
 second_title: Aspose.Words for .NET API Reference
 description: Gets the shape type.
 type: docs
-weight: 450
+weight: 460
 url: /net/aspose.words.drawing/shapebase/shapetype/
 ---
 ## ShapeBase.ShapeType property
@@ -14,7 +14,7 @@ Gets the shape type.
 public ShapeType ShapeType { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to create a group of shapes, and print its contents using a document visitor.
 

@@ -28,7 +28,7 @@ public enum BorderType
 | DiagonalDown | `6` | Specifies the diagonal border in a table cell. |
 | DiagonalUp | `7` | Specifies the diagonal border in a table cell. |
 
-### Examples
+## Examples
 
 Shows how to insert a paragraph with a top border.
 

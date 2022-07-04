@@ -14,7 +14,7 @@ Gets or sets the name of this building block.
 public string Name { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 The name may contain any string content, usually a friendly identifier. Multiple building blocks can have the same name.
 
@@ -22,7 +22,7 @@ Cannot be `null` and cannot be an empty string.
 
 Corresponds to the **docPartPr.name** element in OOXML.
 
-### Examples
+## Examples
 
 Shows how to add a custom building block to a document.
 

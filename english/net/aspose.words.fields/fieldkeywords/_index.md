@@ -3,7 +3,7 @@ title: FieldKeywords
 second_title: Aspose.Words for .NET API Reference
 description: Implements the KEYWORDS field.
 type: docs
-weight: 1900
+weight: 1940
 url: /net/aspose.words.fields/fieldkeywords/
 ---
 ## FieldKeywords class
@@ -47,11 +47,11 @@ public class FieldKeywords : Field
 | [Update](../../aspose.words.fields/field/update)() | Performs the field update. Throws if the field is being updated already. |
 | [Update](../../aspose.words.fields/field/update)(bool) | Performs a field update. Throws if the field is being updated already. |
 
-### Remarks
+## Remarks
 
 Retrieves, and optionally sets, the document's keywords, as recorded in the **Keywords** property of the built-in document properties.
 
-### Examples
+## Examples
 
 Shows to insert a KEYWORDS field.
 

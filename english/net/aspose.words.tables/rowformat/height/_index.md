@@ -14,7 +14,7 @@ Gets or sets the height of the table row in points.
 public double Height { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to format rows with a document builder.
 

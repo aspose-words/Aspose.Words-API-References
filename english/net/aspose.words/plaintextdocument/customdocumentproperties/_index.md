@@ -14,7 +14,7 @@ Gets `CustomDocumentProperties` of the document.
 public CustomDocumentProperties CustomDocumentProperties { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to load the contents of a Microsoft Word document in plaintext and then access the original document's custom properties.
 

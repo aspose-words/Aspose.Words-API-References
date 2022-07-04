@@ -14,7 +14,7 @@ Specifies whether to preserve Microsoft Word form fields as form fields in PDF o
 public bool PreserveFormFields { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 Microsoft Word form fields include text input, drop down and check box controls.
 
@@ -28,7 +28,7 @@ Editable forms are prohibited by PDF/A compliance. `false` value will be used au
 
 Form fields are not supported when saving to PDF/UA. `false` value will be used automatically.
 
-### Examples
+## Examples
 
 Shows how to save a document to the PDF format using the Save method and the PdfSaveOptions class.
 

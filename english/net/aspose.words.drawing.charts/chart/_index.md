@@ -26,7 +26,7 @@ public class Chart
 | [SourceFullName](../../aspose.words.drawing.charts/chart/sourcefullname) { get; set; } | Gets the path and name of an xls/xlsx file this chart is linked to. |
 | [Title](../../aspose.words.drawing.charts/chart/title) { get; } | Provides access to the chart title properties. |
 
-### Examples
+## Examples
 
 Shows how to insert a chart and set a title.
 

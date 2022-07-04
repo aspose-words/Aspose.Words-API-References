@@ -3,7 +3,7 @@ title: AdjustWithEffects
 second_title: Aspose.Words for .NET API Reference
 description: Adds to the source rectangle values of the effect extent and returns the final rectangle.
 type: docs
-weight: 550
+weight: 560
 url: /net/aspose.words.drawing/shapebase/adjustwitheffects/
 ---
 ## ShapeBase.AdjustWithEffects method
@@ -14,7 +14,7 @@ Adds to the source rectangle values of the effect extent and returns the final r
 public RectangleF AdjustWithEffects(RectangleF source)
 ```
 
-### Examples
+## Examples
 
 Shows how to check how a shape's bounds are affected by shape effects.
 

@@ -14,11 +14,11 @@ Defines the amount of spacing for text. 1 means 100%.
 public double Spacing { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 The default value is 1.
 
-### Examples
+## Examples
 
 Shows how to work with WordArt.
 

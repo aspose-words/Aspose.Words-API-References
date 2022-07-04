@@ -14,7 +14,7 @@ Returns the type of the font source.
 public override FontSourceType Type { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to access a document's system font source and set font substitutes.
 

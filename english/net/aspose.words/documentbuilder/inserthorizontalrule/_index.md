@@ -18,7 +18,7 @@ public Shape InsertHorizontalRule()
 
 The shape that is a horizontal rule.
 
-### Examples
+## Examples
 
 Shows how to insert a horizontal rule shape, and customize its formatting.
 

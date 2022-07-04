@@ -14,7 +14,7 @@ Gets the node that represents the end of the editable range.
 public EditableRangeEnd EditableRangeEnd { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to work with an editable range.
 

@@ -14,7 +14,7 @@ Gets or sets the right part of the comparison expression.
 public string RightExpression { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to skip pages in a mail merge using the SKIPIF field.
 

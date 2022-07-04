@@ -14,7 +14,7 @@ Returns the nesting level for the region.
 public int Level { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to verify mail merge regions.
 

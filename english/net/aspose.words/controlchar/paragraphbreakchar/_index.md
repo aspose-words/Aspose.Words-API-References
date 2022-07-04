@@ -14,7 +14,7 @@ End of paragraph character: (char)13 or "\r".
 public const char ParagraphBreakChar;
 ```
 
-### Examples
+## Examples
 
 Shows how to add various control characters to a document.
 

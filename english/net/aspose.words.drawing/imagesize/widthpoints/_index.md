@@ -14,7 +14,7 @@ Gets the width of the image in points. 1 point is 1/72 inch.
 public double WidthPoints { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to resize a shape with an image.
 

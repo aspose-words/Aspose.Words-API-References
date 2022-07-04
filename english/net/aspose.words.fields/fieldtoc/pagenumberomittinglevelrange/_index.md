@@ -14,7 +14,7 @@ Gets or sets a range of levels of the table of contents entries from which to om
 public string PageNumberOmittingLevelRange { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to insert a TOC, and populate it with entries based on heading styles.
 

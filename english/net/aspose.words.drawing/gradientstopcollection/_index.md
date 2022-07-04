@@ -31,11 +31,11 @@ public class GradientStopCollection : IEnumerable<GradientStop>
 | [Remove](../../aspose.words.drawing/gradientstopcollection/remove)(GradientStop) | Removes a specified [`GradientStop`](../gradientstop) from the collection. |
 | [RemoveAt](../../aspose.words.drawing/gradientstopcollection/removeat)(int) | Removes a [`GradientStop`](../gradientstop) from the collection at a specified index. |
 
-### Remarks
+## Remarks
 
 You do not create instances of this class directly. Use the [`GradientStops`](../fill/gradientstops) property to access gradient stops of fill objects.
 
-### Examples
+## Examples
 
 Shows how to add gradient stops to the gradient fill.
 

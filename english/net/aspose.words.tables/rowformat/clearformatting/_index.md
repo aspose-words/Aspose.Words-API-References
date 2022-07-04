@@ -14,7 +14,7 @@ Resets to default row formatting.
 public void ClearFormatting()
 ```
 
-### Examples
+## Examples
 
 Shows how to build a table with custom borders.
 

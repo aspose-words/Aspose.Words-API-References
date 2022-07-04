@@ -14,7 +14,7 @@ Returns collection of VBA project modules.
 public VbaModuleCollection Modules { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to access a document's VBA project information.
 

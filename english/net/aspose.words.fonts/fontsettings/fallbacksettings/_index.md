@@ -14,7 +14,7 @@ Settings related to font fallback mechanism.
 public FontFallbackSettings FallbackSettings { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to distribute fallback fonts across Unicode character code ranges.
 

@@ -14,7 +14,7 @@ Provides access to the image of the shape. Returns null if the shape cannot have
 public ImageData ImageData { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to extract images from a document, and save them to the local file system as individual files.
 

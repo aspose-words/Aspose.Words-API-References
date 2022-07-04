@@ -22,13 +22,13 @@ public override bool Accept(DocumentVisitor visitor)
 
 False if the visitor requested the enumeration to stop.
 
-### Remarks
+## Remarks
 
 Calls [`VisitEditableRangeEnd`](../../documentvisitor/visiteditablerangeend).
 
 For more info see the Visitor design pattern.
 
-### Examples
+## Examples
 
 Shows how to limit the editing rights of editable ranges to a specific group/user.
 

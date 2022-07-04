@@ -3,7 +3,7 @@ title: LineStyle
 second_title: Aspose.Words for .NET API Reference
 description: Specifies line style of a Border./border.
 type: docs
-weight: 3200
+weight: 3250
 url: /net/aspose.words/linestyle/
 ---
 ## LineStyle enumeration
@@ -46,7 +46,7 @@ public enum LineStyle
 | Outset | `26` |  |
 | Inset | `27` |  |
 
-### Examples
+## Examples
 
 Shows how to insert a string surrounded by a border into a document.
 

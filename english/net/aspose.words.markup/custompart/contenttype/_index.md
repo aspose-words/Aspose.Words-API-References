@@ -14,13 +14,13 @@ Specifies the content type of this custom part.
 public string ContentType { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 This property is applicable only when [`IsExternal`](../isexternal) is `false`.
 
 The default value is an empty string. A valid value must be a non-empty string.
 
-### Examples
+## Examples
 
 Shows how to access a document's arbitrary custom parts collection.
 

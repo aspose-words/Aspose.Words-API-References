@@ -14,11 +14,11 @@ Gets or sets value determining if memory optimization should be performed before
 public bool MemoryOptimization { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 Setting this option to true can significantly decrease memory consumption while saving large documents at the cost of slower saving time.
 
-### Examples
+## Examples
 
 Shows an option to optimize memory consumption when rendering large documents to PDF.
 

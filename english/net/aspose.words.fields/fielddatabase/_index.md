@@ -3,7 +3,7 @@ title: FieldDatabase
 second_title: Aspose.Words for .NET API Reference
 description: Implements the DATABASE field.
 type: docs
-weight: 1570
+weight: 1590
 url: /net/aspose.words.fields/fielddatabase/
 ---
 ## FieldDatabase class
@@ -55,11 +55,11 @@ public class FieldDatabase : Field
 | [Update](../../aspose.words.fields/field/update)() | Performs the field update. Throws if the field is being updated already. |
 | [Update](../../aspose.words.fields/field/update)(bool) | Performs a field update. Throws if the field is being updated already. |
 
-### Remarks
+## Remarks
 
 Inserts the results of a database query into a WordprocessingML table.
 
-### Examples
+## Examples
 
 Shows how to extract data from a database and insert it as a field into a document.
 

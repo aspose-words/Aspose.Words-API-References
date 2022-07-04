@@ -14,11 +14,11 @@ Specifies how CSS (Cascading Style Sheet) styles are exported to HTML, MHTML or 
 public CssStyleSheetType CssStyleSheetType { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 Saving CSS style sheet into an external file is only supported when saving to HTML. When you are exporting to one of the container formats (EPUB or MHTML) and specifying External, CSS file will be encapsulated into the output package.
 
-### Examples
+## Examples
 
 Shows how to work with CSS stylesheets that an HTML conversion creates.
 

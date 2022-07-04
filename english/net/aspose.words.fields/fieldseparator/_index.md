@@ -3,7 +3,7 @@ title: FieldSeparator
 second_title: Aspose.Words for .NET API Reference
 description: Represents a Word field separator that separates the field code from the field result.
 type: docs
-weight: 2190
+weight: 2230
 url: /net/aspose.words.fields/fieldseparator/
 ---
 ## FieldSeparator class
@@ -53,7 +53,7 @@ public class FieldSeparator : FieldChar
 | [ToString](../../aspose.words/node/tostring)(SaveFormat) | Exports the content of the node into a string in the specified format. |
 | [ToString](../../aspose.words/node/tostring)(SaveOptions) | Exports the content of the node into a string using the specified save options. |
 
-### Remarks
+## Remarks
 
 [`FieldSeparator`](../fieldseparator) is an inline-level node and represented by the [`FieldSeparatorChar`](../../aspose.words/controlchar/fieldseparatorchar) control character in the document.
 
@@ -63,7 +63,7 @@ A complete field in a Microsoft Word document is a complex structure consisting 
 
 To easily insert a new field into a document, use the [`InsertField`](../../aspose.words/documentbuilder/insertfield) method.
 
-### Examples
+## Examples
 
 Shows how to work with a collection of fields.
 

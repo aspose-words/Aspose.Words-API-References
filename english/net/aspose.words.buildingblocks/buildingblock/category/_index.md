@@ -14,7 +14,7 @@ Specifies the second-level categorization for the building block.
 public string Category { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 Building blocks in Microsoft Word user interface are arranged into Galleries. Each [`Gallery`](../gallery) can have multiple Categories. Each block within a `Category` has a [`Name`](../name).
 
@@ -22,7 +22,7 @@ Cannot be `null` and cannot be an empty string.
 
 Corresponds to the **docPartPr.category.name** element in OOXML.
 
-### Examples
+## Examples
 
 Shows how to add a custom building block to a document.
 

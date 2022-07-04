@@ -14,7 +14,7 @@ Initializes a new instance of this class that can be used to save a document in 
 public OoxmlSaveOptions()
 ```
 
-### Examples
+## Examples
 
 Shows how to set an OOXML compliance specification for a saved document to adhere to.
 
@@ -66,7 +66,7 @@ public OoxmlSaveOptions(SaveFormat saveFormat)
 | --- | --- | --- |
 | saveFormat | SaveFormat | Can be Docx, Docm, Dotx, Dotm or FlatOpc. |
 
-### Examples
+## Examples
 
 Shows how to support legacy control characters when converting to .docx.
 

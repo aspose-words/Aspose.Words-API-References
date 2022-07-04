@@ -14,7 +14,7 @@ Gets or sets the printer-specific control code characters or PostScript instruct
 public string PrinterInstructions { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows to insert a PRINT field.
 

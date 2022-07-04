@@ -14,7 +14,7 @@ Returns the type of the warning.
 public WarningType WarningType { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to set the property for finding the closest match for a missing font from the available font sources.
 

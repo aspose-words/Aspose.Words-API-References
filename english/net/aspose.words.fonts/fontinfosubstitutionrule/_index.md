@@ -3,7 +3,7 @@ title: FontInfoSubstitutionRule
 second_title: Aspose.Words for .NET API Reference
 description: Font info substitution rule.
 type: docs
-weight: 2710
+weight: 2760
 url: /net/aspose.words.fonts/fontinfosubstitutionrule/
 ---
 ## FontInfoSubstitutionRule class
@@ -20,11 +20,11 @@ public class FontInfoSubstitutionRule : FontSubstitutionRule
 | --- | --- |
 | virtual [Enabled](../../aspose.words.fonts/fontsubstitutionrule/enabled) { get; set; } | Specifies whether the rule is enabled or not. |
 
-### Remarks
+## Remarks
 
 According to this rule Aspose.Words evaluates all the related fields in [`FontInfo`](../fontinfo) (Panose, Sig etc) for the missing font and finds the closest match among the available font sources. If [`FontInfo`](../fontinfo) is not available for the missing font then nothing will be done.
 
-### Examples
+## Examples
 
 Shows how to set the property for finding the closest match for a missing font from the available font sources.
 

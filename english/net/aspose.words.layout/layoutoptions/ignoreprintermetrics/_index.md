@@ -14,7 +14,7 @@ Gets or sets indication of whether the "Use printer metrics to lay out document"
 public bool IgnorePrinterMetrics { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to ignore 'Use printer metrics to lay out document' option.
 

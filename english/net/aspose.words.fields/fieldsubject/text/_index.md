@@ -14,7 +14,7 @@ Gets or sets the text of the subject.
 public string Text { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to use the SUBJECT field.
 

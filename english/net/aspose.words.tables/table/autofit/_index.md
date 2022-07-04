@@ -18,11 +18,11 @@ public void AutoFit(AutoFitBehavior behavior)
 | --- | --- | --- |
 | behavior | AutoFitBehavior | Specifies how to auto fit the table. |
 
-### Remarks
+## Remarks
 
 This method mimics the commands available in the Auto Fit menu for a table in Microsoft Word. The commands available are "Auto Fit to Contents", "Auto Fit to Window" and "Fixed Column Width". In Microsoft Word these commands set relevant table properties and then update the table layout and Aspose.Words does the same for you.
 
-### Examples
+## Examples
 
 Shows how to build a new table while applying a style.
 

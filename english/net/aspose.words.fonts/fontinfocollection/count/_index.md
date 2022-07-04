@@ -14,7 +14,7 @@ Gets the number of elements contained in the collection.
 public int Count { get; }
 ```
 
-### Examples
+## Examples
 
 Shows info about the fonts that are present in the blank document.
 

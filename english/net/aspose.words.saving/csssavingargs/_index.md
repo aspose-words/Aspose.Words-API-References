@@ -3,7 +3,7 @@ title: CssSavingArgs
 second_title: Aspose.Words for .NET API Reference
 description: Provides data for the CssSaving./icsssavingcallback/csssaving event.
 type: docs
-weight: 4570
+weight: 4620
 url: /net/aspose.words.saving/csssavingargs/
 ---
 ## CssSavingArgs class
@@ -23,7 +23,7 @@ public class CssSavingArgs
 | [IsExportNeeded](../../aspose.words.saving/csssavingargs/isexportneeded) { get; set; } | Allows to specify whether the CSS will be exported to file and embedded to HTML document. Default is `true`. When this property is `false`, the CSS information will not be saved to a CSS file and will not be embedded to HTML document. |
 | [KeepCssStreamOpen](../../aspose.words.saving/csssavingargs/keepcssstreamopen) { get; set; } | Specifies whether Aspose.Words should keep the stream open or close it after saving an CSS information. |
 
-### Remarks
+## Remarks
 
 By default, when Aspose.Words saves a document to HTML, it saves CSS information inline (as a value of the **style** attribute on every element).
 
@@ -33,7 +33,7 @@ To save CSS into stream, use the [`CssStream`](./cssstream) property.
 
 To suppress saving CSS into a file and embedding to HTML document use the [`IsExportNeeded`](./isexportneeded) property.
 
-### Examples
+## Examples
 
 Shows how to work with CSS stylesheets that an HTML conversion creates.
 

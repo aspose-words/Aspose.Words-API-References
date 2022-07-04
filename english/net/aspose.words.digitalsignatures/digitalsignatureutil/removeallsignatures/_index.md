@@ -14,7 +14,7 @@ Removes all digital signatures from source file and writes unsigned file to dest
 public static void RemoveAllSignatures(string srcFileName, string dstFileName)
 ```
 
-### Examples
+## Examples
 
 Shows how to remove digital signatures from a digitally signed document.
 
@@ -57,7 +57,7 @@ Removes all digital signatures from document in source stream and writes unsigne
 public static void RemoveAllSignatures(Stream srcStream, Stream dstStream)
 ```
 
-### Examples
+## Examples
 
 Shows how to remove digital signatures from a digitally signed document.
 

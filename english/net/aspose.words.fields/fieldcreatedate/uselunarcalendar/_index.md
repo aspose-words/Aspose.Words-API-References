@@ -14,7 +14,7 @@ Gets or sets whether to use the Hijri Lunar or Hebrew Lunar calendar.
 public bool UseLunarCalendar { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to use the CREATEDATE field to display the creation date/time of the document.
 

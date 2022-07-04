@@ -14,7 +14,7 @@ The unit.
 public MergeFieldImageDimensionUnit Unit { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to set the dimensions of images as MERGEFIELDS accepts them during a mail merge.
 

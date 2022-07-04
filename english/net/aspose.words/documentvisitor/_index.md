@@ -69,7 +69,7 @@ public abstract class DocumentVisitor
 | virtual [VisitTableEnd](../../aspose.words/documentvisitor/visittableend)(Table) | Called when enumeration of a table has ended. |
 | virtual [VisitTableStart](../../aspose.words/documentvisitor/visittablestart)(Table) | Called when enumeration of a table has started. |
 
-### Remarks
+## Remarks
 
 With **DocumentVisitor** you can define and execute custom operations that require enumeration over the document tree.
 
@@ -85,7 +85,7 @@ To use **DocumentVisitor**:
 
 For more information see the Visitor design pattern.
 
-### Examples
+## Examples
 
 Shows how to use a document visitor to print a document's node structure.
 

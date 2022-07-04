@@ -14,7 +14,7 @@ Returns true if this object was deleted in Microsoft Word while change tracking 
 public bool IsDeleteRevision { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to view revision-related properties of InlineStory nodes.
 

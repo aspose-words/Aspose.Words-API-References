@@ -22,7 +22,7 @@ public virtual VisitorAction VisitAbsolutePositionTab(AbsolutePositionTab tab)
 
 A [`VisitorAction`](../../visitoraction) value that specifies how to continue the enumeration.
 
-### Examples
+## Examples
 
 Shows how to process absolute position tab characters with a document visitor.
 

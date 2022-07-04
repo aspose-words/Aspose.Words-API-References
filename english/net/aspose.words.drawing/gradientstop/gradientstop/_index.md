@@ -19,7 +19,7 @@ public GradientStop(Color color, double position)
 | color | Color | Represents the color of the gradient stop. |
 | position | Double | Represents the position of a stop within the gradient expressed as a percent in range 0.0 to 1.0. |
 
-### Examples
+## Examples
 
 Shows how to add gradient stops to the gradient fill.
 
@@ -90,7 +90,7 @@ public GradientStop(Color color, double position, double transparency)
 | position | Double | Represents the position of a stop within the gradient expressed as a percent in range 0.0 to 1.0. |
 | transparency | Double | Represents the transparency of a stop within the gradient expressed as a percent in range 0.0 to 1.0. |
 
-### Examples
+## Examples
 
 Shows how to add gradient stops to the gradient fill.
 

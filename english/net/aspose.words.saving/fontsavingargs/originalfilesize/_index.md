@@ -14,11 +14,11 @@ Gets the original font file size.
 public int OriginalFileSize { get; }
 ```
 
-### Remarks
+## Remarks
 
 This property contains the original file size of the current font if it is known. Otherwise it can be zero.
 
-### Examples
+## Examples
 
 Shows how to define custom logic for exporting fonts when saving to HTML.
 

@@ -14,7 +14,7 @@ Returns true if this Shape has a [`Chart`](../chart).
 public bool HasChart { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to iterate over all the shapes in a document.
 

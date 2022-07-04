@@ -14,11 +14,11 @@ Gets the last section in the document.
 public Section LastSection { get; }
 ```
 
-### Remarks
+## Remarks
 
 Returns `null` if there are no sections.
 
-### Examples
+## Examples
 
 Shows how to create a new section with a document builder.
 

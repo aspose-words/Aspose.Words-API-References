@@ -3,7 +3,7 @@ title: IPageLayoutCallback
 second_title: Aspose.Words for .NET API Reference
 description: Implement this interface if you want to have your own custom method called during build and rendering of page layout model.
 type: docs
-weight: 3060
+weight: 3110
 url: /net/aspose.words.layout/ipagelayoutcallback/
 ---
 ## IPageLayoutCallback interface
@@ -20,7 +20,7 @@ public interface IPageLayoutCallback
 | --- | --- |
 | [Notify](../../aspose.words.layout/ipagelayoutcallback/notify)(PageLayoutCallbackArgs) | This is called to notify of layout build and rendering progress. |
 
-### Remarks
+## Remarks
 
 The primary use for this interface is to allow application code to abort build process.
 
@@ -30,7 +30,7 @@ Note, however, that rendering results may not match what would be rendered for e
 
 This technique may not work for every document or may fail completely.
 
-### Examples
+## Examples
 
 Shows how to track layout changes with a layout callback.
 

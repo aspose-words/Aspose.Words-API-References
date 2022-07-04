@@ -14,11 +14,11 @@ Specifies the string to use as a paragraph break when exporting in text formats.
 public string ParagraphBreak { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 The default value is [`CrLf`](../../../aspose.words/controlchar/crlf).
 
-### Examples
+## Examples
 
 Shows how to save a .txt document with a custom paragraph break.
 

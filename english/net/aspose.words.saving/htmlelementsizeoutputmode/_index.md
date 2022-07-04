@@ -3,7 +3,7 @@ title: HtmlElementSizeOutputMode
 second_title: Aspose.Words for .NET API Reference
 description: Specifies how Aspose.Words exports element widths and heights to HTML MHTML and EPUB.
 type: docs
-weight: 4750
+weight: 4800
 url: /net/aspose.words.saving/htmlelementsizeoutputmode/
 ---
 ## HtmlElementSizeOutputMode enumeration
@@ -22,7 +22,7 @@ public enum HtmlElementSizeOutputMode
 | RelativeOnly | `1` | Element sizes are exported only if they are specified in relative units in the document. Fixed sizes are not exported in this mode. Visual agents will calculate missing sizes to make document layout more natural. |
 | None | `2` | Element sizes are not exported. Visual agents will build layout automatically according to relationship between elements. |
 
-### Examples
+## Examples
 
 Shows how to preserve negative indents in the output .html.
 

@@ -14,7 +14,7 @@ Gets or sets the format code applied to a data label.
 public string FormatCode { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 Number formatting is used to change the way a value appears in data label and can be used in some very creative ways. The examples of number formats:
 
@@ -38,7 +38,7 @@ Accounting - "_-\"$\"* #,##0.00_-;-\"$\"* #,##0.00_-;_-\"$\"* \"-\"??_-;_-@_-"
 
 Custom with color - "[Red]-#,##0.0"
 
-### Examples
+## Examples
 
 Shows how to set formatting for chart values.
 

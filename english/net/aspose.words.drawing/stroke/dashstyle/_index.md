@@ -14,11 +14,11 @@ Specifies the dot and dash pattern for a stroke.
 public DashStyle DashStyle { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 The default value is Solid.
 
-### Examples
+## Examples
 
 Shows to create a variety of shapes.
 

@@ -14,7 +14,7 @@ Gets or sets a value determining how 3D effects are rendered.
 public Dml3DEffectsRenderingMode Dml3DEffectsRenderingMode { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 The default value is Basic.
 

@@ -14,7 +14,7 @@ Sets the fill to a uniform color.
 public void Solid()
 ```
 
-### Remarks
+## Remarks
 
 Use this method to convert any of the fills back to solid fill.
 
@@ -34,11 +34,11 @@ Sets the fill to a specified uniform color.
 public void Solid(Color color)
 ```
 
-### Remarks
+## Remarks
 
 Use this method to convert any of the fills back to solid fill.
 
-### Examples
+## Examples
 
 Shows how to convert any of the fills back to solid fill.
 

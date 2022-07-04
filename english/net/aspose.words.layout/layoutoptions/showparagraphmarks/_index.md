@@ -14,7 +14,7 @@ Gets or sets indication of whether paragraph marks are rendered. Default is Fals
 public bool ShowParagraphMarks { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to show paragraph marks in a rendered output document.
 

@@ -14,7 +14,7 @@ Deletes mapping of the parent structured document to XML data.
 public void Delete()
 ```
 
-### Examples
+## Examples
 
 Shows how to set XML mappings for custom XML parts.
 

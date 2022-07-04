@@ -14,7 +14,7 @@ Specifies whether images should be embedded into Html document in Base64 format.
 public bool ExportEmbeddedImages { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to determine where to store images when exporting a document to Html.
 

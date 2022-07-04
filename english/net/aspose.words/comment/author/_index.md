@@ -14,13 +14,13 @@ Returns or sets the author name for a comment.
 public string Author { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 Cannot be null.
 
 Default is empty string.
 
-### Examples
+## Examples
 
 Shows how to print all of a document's comments and their replies.
 

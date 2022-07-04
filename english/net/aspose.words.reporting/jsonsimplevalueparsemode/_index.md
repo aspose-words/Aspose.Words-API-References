@@ -3,7 +3,7 @@ title: JsonSimpleValueParseMode
 second_title: Aspose.Words for .NET API Reference
 description: Specifies a mode for parsing JSON simple values null boolean number integer and string while loading JSON. Such a mode does not affect parsing of date-time values.
 type: docs
-weight: 4390
+weight: 4440
 url: /net/aspose.words.reporting/jsonsimplevalueparsemode/
 ---
 ## JsonSimpleValueParseMode enumeration

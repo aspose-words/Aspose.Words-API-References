@@ -3,7 +3,7 @@ title: HtmlMetafileFormat
 second_title: Aspose.Words for .NET API Reference
 description: Indicates the format in which metafiles are saved to HTML documents.
 type: docs
-weight: 4780
+weight: 4830
 url: /net/aspose.words.saving/htmlmetafileformat/
 ---
 ## HtmlMetafileFormat enumeration
@@ -22,7 +22,7 @@ public enum HtmlMetafileFormat
 | Svg | `1` | Metafiles are converted to vector SVG images. |
 | EmfOrWmf | `2` | Metafiles are saved as is, without conversion. |
 
-### Examples
+## Examples
 
 Shows how to convert SVG objects to a different format when saving HTML documents.
 

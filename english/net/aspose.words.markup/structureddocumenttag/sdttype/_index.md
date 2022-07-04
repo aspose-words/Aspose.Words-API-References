@@ -14,7 +14,7 @@ Gets type of this **Structured document tag**.
 public SdtType SdtType { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to get the type of a structured document tag.
 

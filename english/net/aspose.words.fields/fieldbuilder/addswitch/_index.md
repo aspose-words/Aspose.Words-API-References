@@ -18,11 +18,11 @@ public FieldBuilder AddSwitch(string switchName)
 | --- | --- | --- |
 | switchName | String | The switch name. |
 
-### Remarks
+## Remarks
 
 This overload adds a flag (switch without argument).
 
-### Examples
+## Examples
 
 Shows how to construct fields using a field builder, and then insert them into the document.
 
@@ -123,7 +123,7 @@ public FieldBuilder AddSwitch(string switchName, string switchArgument)
 | switchName | String | The switch name. |
 | switchArgument | String | The switch value. |
 
-### Examples
+## Examples
 
 Shows how to construct fields using a field builder, and then insert them into the document.
 
@@ -224,7 +224,7 @@ public FieldBuilder AddSwitch(string switchName, int switchArgument)
 | switchName | String | The switch name. |
 | switchArgument | Int32 | The switch value. |
 
-### Examples
+## Examples
 
 Shows how to construct fields using a field builder, and then insert them into the document.
 
@@ -325,7 +325,7 @@ public FieldBuilder AddSwitch(string switchName, double switchArgument)
 | switchName | String | The switch name. |
 | switchArgument | Double | The switch value. |
 
-### Examples
+## Examples
 
 Shows how to construct fields using a field builder, and then insert them into the document.
 

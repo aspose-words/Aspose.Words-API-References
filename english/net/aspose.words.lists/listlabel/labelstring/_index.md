@@ -14,7 +14,7 @@ Gets a string representation of list label.
 public string LabelString { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to extract the list labels of all paragraphs that are list items.
 

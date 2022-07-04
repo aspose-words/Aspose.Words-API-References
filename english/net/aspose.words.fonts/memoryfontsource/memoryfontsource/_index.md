@@ -18,7 +18,7 @@ public MemoryFontSource(byte[] fontData)
 | --- | --- | --- |
 | fontData | Byte[] | Binary font data. |
 
-### Examples
+## Examples
 
 Shows how to use a byte array with data from a font file as a font source.
 
@@ -55,7 +55,7 @@ public MemoryFontSource(byte[] fontData, int priority)
 | fontData | Byte[] | Binary font data. |
 | priority | Int32 | Font source priority. See the [`Priority`](../../fontsourcebase/priority) property description for more information. |
 
-### Examples
+## Examples
 
 Shows how to use a byte array with data from a font file as a font source.
 
@@ -93,7 +93,7 @@ public MemoryFontSource(byte[] fontData, int priority, string cacheKey)
 | priority | Int32 | Font source priority. See the [`Priority`](../../fontsourcebase/priority) property description for more information. |
 | cacheKey | String | The key of this source in the cache. See [`CacheKey`](../cachekey) property description for more information. |
 
-### Examples
+## Examples
 
 Shows how to speed up the font cache initialization process.
 

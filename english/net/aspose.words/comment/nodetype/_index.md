@@ -14,7 +14,7 @@ Returns **NodeType.Comment**.
 public override NodeType NodeType { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to traverse a composite node's tree of child nodes.
 

@@ -3,7 +3,7 @@ title: FieldUpdateCultureProvider
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets a provider that returns a culture object specific for each particular field.
 type: docs
-weight: 80
+weight: 90
 url: /net/aspose.words.fields/fieldoptions/fieldupdatecultureprovider/
 ---
 ## FieldOptions.FieldUpdateCultureProvider property
@@ -14,13 +14,13 @@ Gets or sets a provider that returns a culture object specific for each particul
 public IFieldUpdateCultureProvider FieldUpdateCultureProvider { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 The provider is requested when the value of [`FieldUpdateCultureSource`](../fieldupdateculturesource) is **FieldUpdateCultureSource.FieldCode**.
 
 If the provider is present, then the culture object it returns is used for the field update. Otherwise, a system culture is used.
 
-### Examples
+## Examples
 
 Shows how to specify a culture which parses date/time formatting for each field.
 

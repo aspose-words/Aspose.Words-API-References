@@ -14,7 +14,7 @@ Cleans unused styles and lists from the document.
 public void Cleanup()
 ```
 
-### Examples
+## Examples
 
 Shows how to remove unused custom styles from a document.
 
@@ -69,7 +69,7 @@ Cleans unused styles and lists from the document depending on given [`CleanupOpt
 public void Cleanup(CleanupOptions options)
 ```
 
-### Examples
+## Examples
 
 Shows how to remove all unused custom styles from a document.
 

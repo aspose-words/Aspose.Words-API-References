@@ -14,11 +14,11 @@ Provides access to the list formatting used in the document.
 public ListCollection Lists { get; }
 ```
 
-### Remarks
+## Remarks
 
 For more information see the description of the [`ListCollection`](../../../aspose.words.lists/listcollection) class.
 
-### Examples
+## Examples
 
 Shows how to work with list levels.
 

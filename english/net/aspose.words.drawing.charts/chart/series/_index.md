@@ -14,7 +14,7 @@ Provides access to series collection.
 public ChartSeriesCollection Series { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to create an appropriate type of chart series for a graph type.
 

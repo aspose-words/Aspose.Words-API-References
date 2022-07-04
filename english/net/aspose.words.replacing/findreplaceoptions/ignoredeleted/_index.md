@@ -14,7 +14,7 @@ Gets or sets a boolean value indicating either to ignore text inside delete revi
 public bool IgnoreDeleted { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to include or ignore text inside delete revisions during a find-and-replace operation.
 

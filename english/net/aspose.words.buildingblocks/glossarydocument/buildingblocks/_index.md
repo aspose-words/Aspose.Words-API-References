@@ -14,7 +14,7 @@ Returns a typed collection that represents all building blocks in the glossary d
 public BuildingBlockCollection BuildingBlocks { get; }
 ```
 
-### Examples
+## Examples
 
 Shows ways of accessing building blocks in a glossary document.
 

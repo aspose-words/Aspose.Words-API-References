@@ -3,7 +3,7 @@ title: FieldFormCheckBox
 second_title: Aspose.Words for .NET API Reference
 description: Implements the FORMCHECKBOX field.
 type: docs
-weight: 1720
+weight: 1760
 url: /net/aspose.words.fields/fieldformcheckbox/
 ---
 ## FieldFormCheckBox class
@@ -46,11 +46,11 @@ public class FieldFormCheckBox : Field
 | [Update](../../aspose.words.fields/field/update)() | Performs the field update. Throws if the field is being updated already. |
 | [Update](../../aspose.words.fields/field/update)(bool) | Performs a field update. Throws if the field is being updated already. |
 
-### Remarks
+## Remarks
 
 Inserts a check box style form field.
 
-### Examples
+## Examples
 
 Shows how to process FORMCHECKBOX, FORMDROPDOWN and FORMTEXT fields.
 

@@ -14,7 +14,7 @@ Specifies whether to compare differences in footnotes and endnotes. By default f
 public bool IgnoreFootnotes { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to filter specific types of document elements when making a comparison.
 

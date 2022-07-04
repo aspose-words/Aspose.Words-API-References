@@ -3,7 +3,7 @@ title: SdtListItemCollection
 second_title: Aspose.Words for .NET API Reference
 description: Provides access to SdtListItem./sdtlistitem elements of a structured document tag.
 type: docs
-weight: 3740
+weight: 3790
 url: /net/aspose.words.markup/sdtlistitemcollection/
 ---
 ## SdtListItemCollection class
@@ -31,7 +31,7 @@ public class SdtListItemCollection : IEnumerable<SdtListItem>
 | [GetEnumerator](../../aspose.words.markup/sdtlistitemcollection/getenumerator)() | Returns an enumerator object that can be used to iterate over all items in the collection. |
 | [RemoveAt](../../aspose.words.markup/sdtlistitemcollection/removeat)(int) | Removes a list item at the specified index. |
 
-### Examples
+## Examples
 
 Shows how to work with drop down-list structured document tags.
 

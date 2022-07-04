@@ -3,7 +3,7 @@ title: OfficeMath
 second_title: Aspose.Words for .NET API Reference
 description: Represents an Office Math object such as function equation matrix or alike. Can contain child elements including runs of mathematical text bookmarks comments other OfficeMath./officemath instances and some other nodes.
 type: docs
-weight: 3830
+weight: 3880
 url: /net/aspose.words.math/officemath/
 ---
 ## OfficeMath class
@@ -67,13 +67,13 @@ public class OfficeMath : CompositeNode
 | [ToString](../../aspose.words/node/tostring)(SaveFormat) | Exports the content of the node into a string in the specified format. |
 | [ToString](../../aspose.words/node/tostring)(SaveOptions) | Exports the content of the node into a string using the specified save options. |
 
-### Remarks
+## Remarks
 
 In this version of Aspose.Words, [`OfficeMath`](../officemath) nodes do not provide public methods and properties to create or modify a OfficeMath object. In this version you are not able to instantiate Math nodes or modify existing except deleting them.
 
 [`OfficeMath`](../officemath) can only be a child of [`Paragraph`](../../aspose.words/paragraph).
 
-### Examples
+## Examples
 
 Shows how to set office math display formatting.
 

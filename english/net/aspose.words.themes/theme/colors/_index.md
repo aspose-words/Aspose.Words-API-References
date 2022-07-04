@@ -14,7 +14,7 @@ Allows to specify the set of theme colors for the document.
 public ThemeColors Colors { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to set custom colors and fonts for themes.
 

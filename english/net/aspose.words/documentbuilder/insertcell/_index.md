@@ -18,7 +18,7 @@ public Cell InsertCell()
 
 The cell node that was just inserted.
 
-### Remarks
+## Remarks
 
 To start a table, just call **InsertCell**. After this, any content you add using other methods of the [`DocumentBuilder`](../../documentbuilder) class will be added to the current cell.
 
@@ -28,7 +28,7 @@ To end a table row call [`EndRow`](../endrow).
 
 Use the [`CellFormat`](../cellformat) property to specify cell formatting.
 
-### Examples
+## Examples
 
 Shows how to use a document builder to create a table.
 

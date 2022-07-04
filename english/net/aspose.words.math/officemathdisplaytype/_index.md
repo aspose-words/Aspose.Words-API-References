@@ -3,7 +3,7 @@ title: OfficeMathDisplayType
 second_title: Aspose.Words for .NET API Reference
 description: Specifies the display format type of the equation.
 type: docs
-weight: 3840
+weight: 3890
 url: /net/aspose.words.math/officemathdisplaytype/
 ---
 ## OfficeMathDisplayType enumeration
@@ -21,7 +21,7 @@ public enum OfficeMathDisplayType
 | Display | `0` | The Office Math is displayed on its own line. |
 | Inline | `1` | The Office Math is displayed inline with the text. |
 
-### Examples
+## Examples
 
 Shows how to set office math display formatting.
 

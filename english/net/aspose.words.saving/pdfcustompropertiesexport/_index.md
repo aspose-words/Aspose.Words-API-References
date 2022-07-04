@@ -3,7 +3,7 @@ title: PdfCustomPropertiesExport
 second_title: Aspose.Words for .NET API Reference
 description: Specifies the way CustomDocumentProperties../aspose.words/document/customdocumentproperties are exported to PDF file.
 type: docs
-weight: 5090
+weight: 5140
 url: /net/aspose.words.saving/pdfcustompropertiesexport/
 ---
 ## PdfCustomPropertiesExport enumeration
@@ -22,7 +22,7 @@ public enum PdfCustomPropertiesExport
 | Standard | `1` | Custom properties are exported as entries in /Info dictionary. |
 | Metadata | `2` | Custom properties are Metadata. |
 
-### Examples
+## Examples
 
 Shows how to export custom properties while converting a document to PDF.
 

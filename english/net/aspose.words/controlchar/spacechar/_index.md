@@ -14,7 +14,7 @@ Space character: (char)32.
 public const char SpaceChar;
 ```
 
-### Examples
+## Examples
 
 Shows how to add various control characters to a document.
 

@@ -14,7 +14,7 @@ Specifies the name of the folder used to construct URIs of all resources written
 public string ResourceFolderAlias { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 `ResourceFolderAlias` is the simplest way to specify how URIs for all resource files should be constructed. Same information can be specified for images and fonts separately via [`ImagesFolderAlias`](../imagesfolderalias) and [`FontsFolderAlias`](../fontsfolderalias) properties, respectively. However, there is no individual property for CSS.
 
@@ -24,7 +24,7 @@ If `ResourceFolderAlias` is empty, the [`ResourceFolder`](../resourcefolder) pro
 
 If `ResourceFolderAlias` is set to '.' (dot), resource URIs will contain file names only, without any path.
 
-### Examples
+## Examples
 
 Shows how to set folders and folder aliases for externally saved resources that Aspose.Words will create when saving a document to HTML.
 

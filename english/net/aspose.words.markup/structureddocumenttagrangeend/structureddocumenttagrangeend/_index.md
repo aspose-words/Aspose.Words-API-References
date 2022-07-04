@@ -19,7 +19,7 @@ public StructuredDocumentTagRangeEnd(DocumentBase doc, int id)
 | doc | DocumentBase | The owner document. |
 | id | Int32 | Identifier of the corresponding structured document tag range start. |
 
-### Examples
+## Examples
 
 Shows how to create/remove structured document tag and its content.
 

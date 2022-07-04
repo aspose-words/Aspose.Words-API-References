@@ -3,7 +3,7 @@ title: ParagraphFormat
 second_title: Aspose.Words for .NET API Reference
 description: Represents all the formatting for a paragraph.
 type: docs
-weight: 4130
+weight: 4180
 url: /net/aspose.words/paragraphformat/
 ---
 ## ParagraphFormat class
@@ -65,7 +65,7 @@ public class ParagraphFormat
 | --- | --- |
 | [ClearFormatting](../../aspose.words/paragraphformat/clearformatting)() | Resets to default paragraph formatting. |
 
-### Examples
+## Examples
 
 Shows how to construct an Aspose.Words document by hand.
 

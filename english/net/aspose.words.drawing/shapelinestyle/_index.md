@@ -3,7 +3,7 @@ title: ShapeLineStyle
 second_title: Aspose.Words for .NET API Reference
 description: Specifies the compound line style of a Shape./shape.
 type: docs
-weight: 1100
+weight: 1120
 url: /net/aspose.words.drawing/shapelinestyle/
 ---
 ## ShapeLineStyle enumeration
@@ -25,7 +25,7 @@ public enum ShapeLineStyle
 | Triple | `4` | Three lines, thin, thick, thin. |
 | Default | `0` | Default value is Single. |
 
-### Examples
+## Examples
 
 Shows how change stroke properties.
 

@@ -3,7 +3,7 @@ title: FieldNoteRef
 second_title: Aspose.Words for .NET API Reference
 description: Implements the NOTEREF field.
 type: docs
-weight: 2010
+weight: 2050
 url: /net/aspose.words.fields/fieldnoteref/
 ---
 ## FieldNoteRef class
@@ -50,11 +50,11 @@ public class FieldNoteRef : Field
 | [Update](../../aspose.words.fields/field/update)() | Performs the field update. Throws if the field is being updated already. |
 | [Update](../../aspose.words.fields/field/update)(bool) | Performs a field update. Throws if the field is being updated already. |
 
-### Remarks
+## Remarks
 
 Inserts the mark of the footnote or endnote that is marked by the specified bookmark.
 
-### Examples
+## Examples
 
 Shows to insert NOTEREF fields, and modify their appearance.
 

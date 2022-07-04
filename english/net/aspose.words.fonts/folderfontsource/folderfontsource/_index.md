@@ -19,7 +19,7 @@ public FolderFontSource(string folderPath, bool scanSubfolders)
 | folderPath | String | Path to folder. |
 | scanSubfolders | Boolean | Determines whether or not to scan subfolders. |
 
-### Examples
+## Examples
 
 Shows how to use a local system folder which contains fonts as a font source.
 
@@ -59,7 +59,7 @@ public FolderFontSource(string folderPath, bool scanSubfolders, int priority)
 | scanSubfolders | Boolean | Determines whether or not to scan subfolders. |
 | priority | Int32 | Font source priority. See the [`Priority`](../../fontsourcebase/priority) property description for more information. |
 
-### Examples
+## Examples
 
 Shows how to use a local system folder which contains fonts as a font source.
 

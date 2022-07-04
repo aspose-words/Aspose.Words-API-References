@@ -14,7 +14,7 @@ True indicates that headers and footers content is ignored. By default headers a
 public bool IgnoreHeadersAndFooters { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to filter specific types of document elements when making a comparison.
 

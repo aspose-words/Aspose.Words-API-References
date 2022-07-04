@@ -14,11 +14,11 @@ Gets/sets a password to encrypt document using RC4 encryption method.
 public string Password { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 In order to save document without encryption this property should be null or empty string.
 
-### Examples
+## Examples
 
 Shows how to set save options for older Microsoft Word formats.
 

@@ -14,7 +14,7 @@ Gets or sets whether to use the Saka Era calendar.
 public bool UseSakaEraCalendar { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to use the CREATEDATE field to display the creation date/time of the document.
 

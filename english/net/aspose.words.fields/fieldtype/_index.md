@@ -3,7 +3,7 @@ title: FieldType
 second_title: Aspose.Words for .NET API Reference
 description: Specifies Microsoft Word field types.
 type: docs
-weight: 2350
+weight: 2390
 url: /net/aspose.words.fields/fieldtype/
 ---
 ## FieldType enumeration
@@ -116,7 +116,7 @@ public enum FieldType
 | FieldUserInitials | `61` | Specifies the USERINITIALS field. |
 | FieldUserName | `60` | Specifies the USERNAME field. |
 
-### Examples
+## Examples
 
 Shows how to insert a field into a document using a field code.
 

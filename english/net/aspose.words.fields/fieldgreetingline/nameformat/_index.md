@@ -14,7 +14,7 @@ Gets or sets the format of the name included in the field.
 public string NameFormat { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to insert a GREETINGLINE field.
 

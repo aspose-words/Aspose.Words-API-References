@@ -3,7 +3,7 @@ title: Target
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the target frame for the shape hyperlink.
 type: docs
-weight: 470
+weight: 480
 url: /net/aspose.words.drawing/shapebase/target/
 ---
 ## ShapeBase.Target property
@@ -14,11 +14,11 @@ Gets or sets the target frame for the shape hyperlink.
 public string Target { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 The default value is an empty string.
 
-### Examples
+## Examples
 
 Shows how to insert a shape which contains an image, and is also a hyperlink.
 

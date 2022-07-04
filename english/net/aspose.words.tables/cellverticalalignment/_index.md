@@ -3,7 +3,7 @@ title: CellVerticalAlignment
 second_title: Aspose.Words for .NET API Reference
 description: Specifies vertical justification of text inside a table cell.
 type: docs
-weight: 5930
+weight: 5980
 url: /net/aspose.words.tables/cellverticalalignment/
 ---
 ## CellVerticalAlignment enumeration
@@ -22,7 +22,7 @@ public enum CellVerticalAlignment
 | Center | `1` | Text is aligned in the middle of a cell. |
 | Bottom | `2` | Text is aligned at the bottom of the cell. |
 
-### Examples
+## Examples
 
 Shows how to build a formatted 2x2 table.
 

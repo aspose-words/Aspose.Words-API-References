@@ -14,7 +14,7 @@ Allows to specify whether the original text should be shown instead of revised o
 public bool ShowOriginalRevision { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to modify the appearance of revisions.
 

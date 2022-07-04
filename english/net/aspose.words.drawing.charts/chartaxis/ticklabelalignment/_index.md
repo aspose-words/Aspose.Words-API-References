@@ -14,7 +14,7 @@ Gets or sets text alignment of axis tick labels.
 public ParagraphAlignment TickLabelAlignment { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 This property has effect only for multi-line labels.
 
@@ -22,7 +22,7 @@ Default value is Center.
 
 .
 
-### Examples
+## Examples
 
 Shows how to manipulate the tick marks and displayed values of a chart axis.
 

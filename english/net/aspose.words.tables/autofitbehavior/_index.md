@@ -3,7 +3,7 @@ title: AutoFitBehavior
 second_title: Aspose.Words for .NET API Reference
 description: Determines how Aspose.Words resizes the table when you invoke the AutoFit./table/autofit method.
 type: docs
-weight: 5880
+weight: 5930
 url: /net/aspose.words.tables/autofitbehavior/
 ---
 ## AutoFitBehavior enumeration
@@ -22,7 +22,7 @@ public enum AutoFitBehavior
 | AutoFitToWindow | `1` | When you use this value, Aspose.Words enables the AutoFit option, sets the preferred width for the table to 100%, removes preferred widths from all cells and then updates the table layout. |
 | FixedColumnWidths | `2` | Aspose.Words disables the AutoFit option and removes the preferred with from the table. |
 
-### Examples
+## Examples
 
 Shows how to build a new table while applying a style.
 

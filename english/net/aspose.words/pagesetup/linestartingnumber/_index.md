@@ -14,7 +14,7 @@ Gets or sets the starting line number.
 public int LineStartingNumber { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to enable line numbering for a section.
 

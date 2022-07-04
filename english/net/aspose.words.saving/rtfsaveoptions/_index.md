@@ -3,7 +3,7 @@ title: RtfSaveOptions
 second_title: Aspose.Words for .NET API Reference
 description: Can be used to specify additional options when saving a document into the Rtf format.
 type: docs
-weight: 5240
+weight: 5290
 url: /net/aspose.words.saving/rtfsaveoptions/
 ---
 ## RtfSaveOptions class
@@ -49,7 +49,7 @@ public class RtfSaveOptions : SaveOptions
 | [UseAntiAliasing](../../aspose.words.saving/saveoptions/useantialiasing) { get; set; } | Gets or sets a value determining whether or not to use anti-aliasing for rendering. |
 | [UseHighQualityRendering](../../aspose.words.saving/saveoptions/usehighqualityrendering) { get; set; } | Gets or sets a value determining whether or not to use high quality (i.e. slow) rendering algorithms. |
 
-### Examples
+## Examples
 
 Shows how to save a document to .rtf with custom options.
 

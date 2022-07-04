@@ -14,7 +14,7 @@ Returns a deep clone of this object.
 public OdsoRecipientData Clone()
 ```
 
-### Examples
+## Examples
 
 Shows how to access the collection of data that designates which merge data source records a mail merge will exclude.
 

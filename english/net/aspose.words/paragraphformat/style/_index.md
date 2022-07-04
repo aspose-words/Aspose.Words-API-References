@@ -14,7 +14,7 @@ Gets or sets the paragraph style applied to this formatting.
 public Style Style { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to create and use a paragraph style with list formatting.
 

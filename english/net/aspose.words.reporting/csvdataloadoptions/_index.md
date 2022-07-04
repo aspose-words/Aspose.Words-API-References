@@ -3,7 +3,7 @@ title: CsvDataLoadOptions
 second_title: Aspose.Words for .NET API Reference
 description: Represents options for parsing CSV data.
 type: docs
-weight: 4350
+weight: 4400
 url: /net/aspose.words.reporting/csvdataloadoptions/
 ---
 ## CsvDataLoadOptions class
@@ -30,7 +30,7 @@ public class CsvDataLoadOptions
 | [HasHeaders](../../aspose.words.reporting/csvdataloadoptions/hasheaders) { get; set; } | Gets or sets a value indicating whether the first record of CSV data contains column names. |
 | [QuoteChar](../../aspose.words.reporting/csvdataloadoptions/quotechar) { get; set; } | Gets or sets the character that is used to quote field values. |
 
-### Remarks
+## Remarks
 
 An instance of this class can be passed into constructors of [`CsvDataSource`](../csvdatasource).
 

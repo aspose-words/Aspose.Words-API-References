@@ -14,11 +14,11 @@ Gets or sets the checked status of the check box form field. Default value for t
 public bool Checked { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 Applicable for a check box form field only.
 
-### Examples
+## Examples
 
 Shows how insert different kinds of form fields into a document, and process them with using a document visitor implementation.
 

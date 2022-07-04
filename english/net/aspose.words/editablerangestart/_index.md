@@ -3,7 +3,7 @@ title: EditableRangeStart
 second_title: Aspose.Words for .NET API Reference
 description: Represents a start of an editable range in a Word document.
 type: docs
-weight: 1270
+weight: 1290
 url: /net/aspose.words/editablerangestart/
 ---
 ## EditableRangeStart class
@@ -44,7 +44,7 @@ public sealed class EditableRangeStart : Node
 | [ToString](../../aspose.words/node/tostring)(SaveFormat) | Exports the content of the node into a string in the specified format. |
 | [ToString](../../aspose.words/node/tostring)(SaveOptions) | Exports the content of the node into a string using the specified save options. |
 
-### Remarks
+## Remarks
 
 A complete editable range in a Word document consists of a [`EditableRangeStart`](../editablerangestart) and a matching [`EditableRangeEnd`](../editablerangeend) with the same Id.
 
@@ -54,7 +54,7 @@ Use the [`EditableRange`](./editablerange) class as a "facade" to work with an e
 
 Currently editable ranges are supported only at the inline-level, that is inside [`Paragraph`](../paragraph), but editable range start and editable range end can be in different paragraphs.
 
-### Examples
+## Examples
 
 Shows how to limit the editing rights of editable ranges to a specific group/user.
 

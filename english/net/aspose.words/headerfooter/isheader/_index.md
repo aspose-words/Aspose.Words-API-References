@@ -14,7 +14,7 @@ True if this **HeaderFooter** object is a header.
 public bool IsHeader { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to create a header and a footer.
 

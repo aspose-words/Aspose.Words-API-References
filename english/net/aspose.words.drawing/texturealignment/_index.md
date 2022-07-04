@@ -3,7 +3,7 @@ title: TextureAlignment
 second_title: Aspose.Words for .NET API Reference
 description: Specifies the alignment for the tiling of the texture fill.
 type: docs
-weight: 1200
+weight: 1220
 url: /net/aspose.words.drawing/texturealignment/
 ---
 ## TextureAlignment enumeration
@@ -29,7 +29,7 @@ public enum TextureAlignment
 | BottomRight | `8` | Bottom right texture alignment. |
 | None | `9` | None texture alignment. |
 
-### Examples
+## Examples
 
 Shows how to fill and tiling the texture inside the shape.
 

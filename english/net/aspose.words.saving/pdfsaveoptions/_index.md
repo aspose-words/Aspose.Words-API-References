@@ -3,7 +3,7 @@ title: PdfSaveOptions
 second_title: Aspose.Words for .NET API Reference
 description: Can be used to specify additional options when saving a document into the Pdf format.
 type: docs
-weight: 5190
+weight: 5240
 url: /net/aspose.words.saving/pdfsaveoptions/
 ---
 ## PdfSaveOptions class
@@ -86,7 +86,7 @@ public class PdfSaveOptions : FixedPageSaveOptions
 | [Clone](../../aspose.words.saving/pdfsaveoptions/clone)() | Creates a deep clone of this object. |
 | override [Equals](../../aspose.words.saving/fixedpagesaveoptions/equals)(object) | Determines whether the specified object is equal in value to the current object. |
 
-### Examples
+## Examples
 
 Shows how to change image color with saving options property.
 

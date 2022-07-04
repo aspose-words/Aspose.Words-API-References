@@ -20,7 +20,7 @@ public static SaveFormat LoadFormatToSaveFormat(LoadFormat loadFormat)
 | --- | --- |
 | ArgumentException | Throws when cannot convert. |
 
-### Examples
+## Examples
 
 Shows how to use the FileFormatUtil methods to detect the format of a document.
 

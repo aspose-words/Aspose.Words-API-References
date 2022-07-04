@@ -3,7 +3,7 @@ title: ImageBinarizationMethod
 second_title: Aspose.Words for .NET API Reference
 description: Specifies the method used to binarize image.
 type: docs
-weight: 4890
+weight: 4940
 url: /net/aspose.words.saving/imagebinarizationmethod/
 ---
 ## ImageBinarizationMethod enumeration
@@ -21,7 +21,7 @@ public enum ImageBinarizationMethod
 | Threshold | `0` | Specifies threshold method. |
 | FloydSteinbergDithering | `1` | Specifies dithering using Floyd-Steinberg error diffusion method. |
 
-### Examples
+## Examples
 
 Shows how to set the TIFF binarization error threshold when using the Floyd-Steinberg method to render a TIFF image.
 

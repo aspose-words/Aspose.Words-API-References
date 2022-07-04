@@ -81,7 +81,7 @@ public class GlossaryDocument : DocumentBase
 | [ToString](../../aspose.words/node/tostring)(SaveFormat) | Exports the content of the node into a string in the specified format. |
 | [ToString](../../aspose.words/node/tostring)(SaveOptions) | Exports the content of the node into a string using the specified save options. |
 
-### Remarks
+## Remarks
 
 Some documents, usually templates, can contain AutoText, AutoCorrect entries and/or Building Blocks (also known as glossary document entries, document parts or building blocks).
 
@@ -91,7 +91,7 @@ To access building blocks, you need to load a document into a [`Document`](../..
 
 Corresponds to the **glossaryDocument** and **docParts** elements in OOXML.
 
-### Examples
+## Examples
 
 Shows ways of accessing building blocks in a glossary document.
 

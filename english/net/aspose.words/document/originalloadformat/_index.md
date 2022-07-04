@@ -14,11 +14,11 @@ Gets the format of the original document that was loaded into this object.
 public LoadFormat OriginalLoadFormat { get; }
 ```
 
-### Remarks
+## Remarks
 
 If you created a new blank document, returns the Doc value.
 
-### Examples
+## Examples
 
 Shows how to retrieve details of a document's load operation.
 

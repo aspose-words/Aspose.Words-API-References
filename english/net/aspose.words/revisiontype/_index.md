@@ -3,7 +3,7 @@ title: RevisionType
 second_title: Aspose.Words for .NET API Reference
 description: Specifies the type of change being tracked in Revision./revision.
 type: docs
-weight: 4490
+weight: 4540
 url: /net/aspose.words/revisiontype/
 ---
 ## RevisionType enumeration
@@ -24,7 +24,7 @@ public enum RevisionType
 | StyleDefinitionChange | `3` | Change of formatting was applied to the parent style. |
 | Moving | `4` | Content was moved in the document. |
 
-### Examples
+## Examples
 
 Shows how to work with revisions in a document.
 

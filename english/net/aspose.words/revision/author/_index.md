@@ -14,7 +14,7 @@ Gets or sets the author of this revision. Can not be empty string or null.
 public string Author { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to work with revisions in a document.
 

@@ -14,7 +14,7 @@ Specifies whether the document author has recommended that the document be opene
 public bool ReadOnlyRecommended { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to protect a document with a password.
 

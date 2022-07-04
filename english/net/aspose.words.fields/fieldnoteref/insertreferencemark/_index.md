@@ -14,7 +14,7 @@ Inserts the reference mark with the same character formatting as the Footnote Re
 public bool InsertReferenceMark { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows to insert NOTEREF fields, and modify their appearance.
 

@@ -3,7 +3,7 @@ title: WebExtensionBindingCollection
 second_title: Aspose.Words for .NET API Reference
 description: Specifies a list of web extension bindings.
 type: docs
-weight: 6400
+weight: 6450
 url: /net/aspose.words.webextensions/webextensionbindingcollection/
 ---
 ## WebExtensionBindingCollection class
@@ -30,7 +30,7 @@ public class WebExtensionBindingCollection : BaseWebExtensionCollection<WebExten
 | [GetEnumerator](../../aspose.words.webextensions/basewebextensioncollection`1/getenumerator)() |  |
 | [Remove](../../aspose.words.webextensions/basewebextensioncollection`1/remove)(int) |  |
 
-### Examples
+## Examples
 
 Shows how to add a web extension to a document.
 

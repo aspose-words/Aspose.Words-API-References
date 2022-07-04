@@ -3,7 +3,7 @@ title: TextFormFieldType
 second_title: Aspose.Words for .NET API Reference
 description: Specifies the type of a text form field.
 type: docs
-weight: 2540
+weight: 2590
 url: /net/aspose.words.fields/textformfieldtype/
 ---
 ## TextFormFieldType enumeration
@@ -25,7 +25,7 @@ public enum TextFormFieldType
 | CurrentTime | `4` | The text form field value is the current time when the field is updated. |
 | Calculated | `5` | The text form field value is calculated from the expression specified in the [`TextInputDefault`](../formfield/textinputdefault) property. |
 
-### Examples
+## Examples
 
 Shows how to create form fields.
 

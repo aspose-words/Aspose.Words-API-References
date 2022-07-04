@@ -14,7 +14,7 @@ Gets the number of borders in the collection.
 public int Count { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how border collections can share elements.
 

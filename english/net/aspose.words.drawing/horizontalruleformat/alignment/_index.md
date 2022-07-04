@@ -14,11 +14,11 @@ Gets or sets the alignment of the horizontal rule.
 public HorizontalRuleAlignment Alignment { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 The default value is Left.
 
-### Examples
+## Examples
 
 Shows how to insert a horizontal rule shape, and customize its formatting.
 

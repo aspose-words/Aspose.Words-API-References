@@ -14,7 +14,7 @@ Returns the number of [`ChartSeries`](../../chartseries) in this collection.
 public int Count { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to add and remove series data in a chart.
 

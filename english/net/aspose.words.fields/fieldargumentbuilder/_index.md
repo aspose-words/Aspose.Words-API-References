@@ -3,7 +3,7 @@ title: FieldArgumentBuilder
 second_title: Aspose.Words for .NET API Reference
 description: Builds a complex field argument consisting of fields nodes and plain text.
 type: docs
-weight: 1380
+weight: 1400
 url: /net/aspose.words.fields/fieldargumentbuilder/
 ---
 ## FieldArgumentBuilder class
@@ -28,7 +28,7 @@ public class FieldArgumentBuilder
 | [AddNode](../../aspose.words.fields/fieldargumentbuilder/addnode)(Inline) | Adds a node to the argument. |
 | [AddText](../../aspose.words.fields/fieldargumentbuilder/addtext)(string) | Adds a plain text to the argument. |
 
-### Examples
+## Examples
 
 Shows how to construct fields using a field builder, and then insert them into the document.
 

@@ -14,7 +14,7 @@ Gets or sets the character sequence that is used to separate sequence numbers an
 public string SequenceSeparator { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to split a document into portions by combining INDEX and SEQ fields.
 

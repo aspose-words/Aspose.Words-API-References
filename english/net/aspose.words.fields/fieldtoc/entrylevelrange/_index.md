@@ -14,7 +14,7 @@ Gets or sets a range of levels of the table of contents entries to be included.
 public string EntryLevelRange { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to insert a TOC field, and filter which TC fields end up as entries.
 

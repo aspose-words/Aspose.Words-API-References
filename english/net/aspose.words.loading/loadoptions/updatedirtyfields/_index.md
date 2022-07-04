@@ -14,7 +14,7 @@ Specifies whether to update the fields with the `dirty` attribute.
 public bool UpdateDirtyFields { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to use special property for updating field result.
 

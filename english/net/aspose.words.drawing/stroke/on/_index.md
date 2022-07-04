@@ -14,11 +14,11 @@ Defines whether the path will be stroked.
 public bool On { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 The default value for a [`Shape`](../../shape) is **true**.
 
-### Examples
+## Examples
 
 Shows how change stroke properties.
 

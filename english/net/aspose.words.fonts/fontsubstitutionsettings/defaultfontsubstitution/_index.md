@@ -14,7 +14,7 @@ Settings related to default font substitution rule.
 public DefaultFontSubstitutionRule DefaultFontSubstitution { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to set the default font substitution rule.
 

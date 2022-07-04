@@ -14,7 +14,7 @@ Gets or sets the paper tray (bin) to use for the first page of a section. The va
 public int FirstPageTray { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to get all the sections in a document to use the default paper tray of the selected printer.
 

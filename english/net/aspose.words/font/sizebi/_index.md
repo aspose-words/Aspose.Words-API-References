@@ -14,7 +14,7 @@ Gets or sets the font size in points used in a right-to-left document.
 public double SizeBi { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to define separate sets of font settings for right-to-left, and right-to-left text.
 

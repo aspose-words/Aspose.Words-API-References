@@ -14,7 +14,7 @@ Returns true if the shape has image bytes or links an image.
 public bool HasImage { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to save all images from a document to the file system.
 

@@ -14,7 +14,7 @@ Gets or sets whether to preserve tab entries within table entries.
 public bool PreserveTabs { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to insert a TOC, and populate it with entries based on heading styles.
 

@@ -20,7 +20,7 @@ public void Compare(Document document, string author, DateTime dateTime)
 | author | String | Initials of the author to use for revisions. |
 | dateTime | DateTime | The date and time to use for revisions. |
 
-### Remarks
+## Remarks
 
 The following document nodes are not compared at the moment:
 
@@ -29,7 +29,7 @@ The following document nodes are not compared at the moment:
 
 Documents must not have revisions before comparison.
 
-### Examples
+## Examples
 
 Shows how to compare documents.
 
@@ -75,7 +75,7 @@ Compares this document with another document producing changes as a number of ed
 public void Compare(Document document, string author, DateTime dateTime, CompareOptions options)
 ```
 
-### Examples
+## Examples
 
 Shows how to filter specific types of document elements when making a comparison.
 

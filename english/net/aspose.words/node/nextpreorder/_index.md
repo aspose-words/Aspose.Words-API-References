@@ -22,7 +22,7 @@ public Node NextPreOrder(Node rootNode)
 
 Next node in pre-order order. Null if reached the rootNode.
 
-### Examples
+## Examples
 
 Shows how to traverse the document's node tree using the pre-order traversal algorithm, and delete any encountered shape with an image.
 

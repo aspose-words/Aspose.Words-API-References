@@ -14,7 +14,7 @@ Specifies a unique read-only persistent numerical Id for this structured documen
 public int Id { get; }
 ```
 
-### Remarks
+## Remarks
 
 Id attribute shall follow these rules:
 
@@ -24,7 +24,7 @@ Id attribute shall follow these rules:
 * During standalone structured document tag INodeCloningListener) operation new unique ID will be generated for the cloned structured document tag node.
 * If Id is not specified in the source document, then the structured document tag node shall have a new unique identifier assigned to it when the document is loaded.
 
-### Examples
+## Examples
 
 Shows how to get the properties of multi-section structured document tags.
 

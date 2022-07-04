@@ -14,7 +14,7 @@ Returns true if this object was inserted in Microsoft Word while change tracking
 public bool IsInsertRevision { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to work with revision paragraphs.
 

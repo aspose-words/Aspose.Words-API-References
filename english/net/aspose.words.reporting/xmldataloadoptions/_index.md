@@ -3,7 +3,7 @@ title: XmlDataLoadOptions
 second_title: Aspose.Words for .NET API Reference
 description: Represents options for XML data loading.
 type: docs
-weight: 4430
+weight: 4480
 url: /net/aspose.words.reporting/xmldataloadoptions/
 ---
 ## XmlDataLoadOptions class
@@ -26,7 +26,7 @@ public class XmlDataLoadOptions
 | --- | --- |
 | [AlwaysGenerateRootObject](../../aspose.words.reporting/xmldataloadoptions/alwaysgeneraterootobject) { get; set; } | Gets or sets a flag indicating whether a generated data source will always contain an object for an XML root element. If an XML root element has no attributes and all its child elements have same names, such an object is not created by default. |
 
-### Remarks
+## Remarks
 
 An instance of this class can be passed into constructors of [`XmlDataSource`](../xmldatasource).
 

@@ -18,7 +18,7 @@ public DigitalSignature this[int index] { get; }
 | --- | --- |
 | index | Zero-based index of the signature. |
 
-### Examples
+## Examples
 
 Shows how to sign documents with X.509 certificates.
 

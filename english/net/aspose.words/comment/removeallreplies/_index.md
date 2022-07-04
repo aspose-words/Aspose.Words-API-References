@@ -14,11 +14,11 @@ Removes all replies to this comment.
 public void RemoveAllReplies()
 ```
 
-### Remarks
+## Remarks
 
 All constituent nodes of the replies will be deleted from the document.
 
-### Examples
+## Examples
 
 Shows how to remove comment replies.
 

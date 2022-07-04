@@ -22,7 +22,7 @@ public enum ChartAxisType
 | Series | `1` | Series axis of a chart. |
 | Value | `2` | Value axis of a chart. |
 
-### Examples
+## Examples
 
 Shows how to create an appropriate type of chart series for a graph type.
 

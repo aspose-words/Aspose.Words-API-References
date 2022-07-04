@@ -3,7 +3,7 @@ title: FieldPrint
 second_title: Aspose.Words for .NET API Reference
 description: Implements the PRINT field.
 type: docs
-weight: 2090
+weight: 2130
 url: /net/aspose.words.fields/fieldprint/
 ---
 ## FieldPrint class
@@ -48,11 +48,11 @@ public class FieldPrint : Field
 | [Update](../../aspose.words.fields/field/update)() | Performs the field update. Throws if the field is being updated already. |
 | [Update](../../aspose.words.fields/field/update)(bool) | Performs a field update. Throws if the field is being updated already. |
 
-### Remarks
+## Remarks
 
 An instruction to send the printer-specific control code characters to the selected printer when the document is printed.
 
-### Examples
+## Examples
 
 Shows to insert a PRINT field.
 

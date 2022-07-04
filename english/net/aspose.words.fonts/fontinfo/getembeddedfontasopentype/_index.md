@@ -22,7 +22,7 @@ public byte[] GetEmbeddedFontAsOpenType(EmbeddedFontStyle style)
 
 Returns `null` if the specified font is not embedded.
 
-### Examples
+## Examples
 
 Shows how to extract an embedded font from a document, and save it to the local file system.
 

@@ -14,7 +14,7 @@ Gets or sets a range of heading levels to include.
 public string HeadingLevelRange { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to insert a TOC, and populate it with entries based on heading styles.
 

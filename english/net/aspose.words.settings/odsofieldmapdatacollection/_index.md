@@ -3,7 +3,7 @@ title: OdsoFieldMapDataCollection
 second_title: Aspose.Words for .NET API Reference
 description: A typed collection of the OdsoFieldMapData./odsofieldmapdata objects.
 type: docs
-weight: 5560
+weight: 5610
 url: /net/aspose.words.settings/odsofieldmapdatacollection/
 ---
 ## OdsoFieldMapDataCollection class
@@ -36,7 +36,7 @@ public class OdsoFieldMapDataCollection : IEnumerable<OdsoFieldMapData>
 | [GetEnumerator](../../aspose.words.settings/odsofieldmapdatacollection/getenumerator)() | Returns an enumerator object that can be used to iterate over all items in the collection. |
 | [RemoveAt](../../aspose.words.settings/odsofieldmapdatacollection/removeat)(int) | Removes the element at the specified index. |
 
-### Examples
+## Examples
 
 Shows how to access the collection of data that maps data source columns to merge fields.
 

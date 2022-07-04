@@ -14,7 +14,7 @@ True if the font is formatted as subscript.
 public bool Subscript { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to format text to offset its position.
 

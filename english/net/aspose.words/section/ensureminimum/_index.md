@@ -14,7 +14,7 @@ Ensures that the section has Body with one Paragraph.
 public void EnsureMinimum()
 ```
 
-### Examples
+## Examples
 
 Shows how to prepare a new section node for editing.
 

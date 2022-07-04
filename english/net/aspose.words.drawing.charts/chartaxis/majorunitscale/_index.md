@@ -14,11 +14,11 @@ Returns or sets the scale value for major tick marks on the time category axis.
 public AxisTimeUnit MajorUnitScale { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 The property has effect only for time category axes.
 
-### Examples
+## Examples
 
 Shows how to manipulate the tick marks and displayed values of a chart axis.
 

@@ -14,11 +14,11 @@ Specifies the inner bottom margin in points for a shape.
 public double InternalMarginBottom { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 The default value is 1/20 inch.
 
-### Examples
+## Examples
 
 Shows how to set internal margins for a text box.
 

@@ -14,13 +14,13 @@ Specifies whether the keywords for "old readers" are written to RTF or not. This
 public bool ExportImagesForOldReaders { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 "Old readers" are pre-Microsoft Word 97 applications and also WordPad. When this option is `true` Aspose.Words writes additional RTF keywords. These keywords allow the document to be displayed correctly when opened in an "old reader" application, but can significantly increase the size of the document.
 
 If you set this option to `false`, then only images in WMF, EMF and BMP formats will be displayed in "old readers".
 
-### Examples
+## Examples
 
 Shows how to save a document to .rtf with custom options.
 

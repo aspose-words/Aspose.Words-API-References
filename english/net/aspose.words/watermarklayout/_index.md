@@ -3,7 +3,7 @@ title: WatermarkLayout
 second_title: Aspose.Words for .NET API Reference
 description: Defines layout of the watermark relative to the watermark center.
 type: docs
-weight: 6320
+weight: 6370
 url: /net/aspose.words/watermarklayout/
 ---
 ## WatermarkLayout enumeration
@@ -21,7 +21,7 @@ public enum WatermarkLayout
 | Horizontal | `0` | Horizontal watermark layout. Corresponds to 0 degrees of rotation. |
 | Diagonal | `315` | Diagonal watermark layout. Corresponds to 315 degrees of rotation. |
 
-### Examples
+## Examples
 
 Shows how to create a text watermark.
 

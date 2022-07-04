@@ -14,7 +14,7 @@ Gets or sets the text to be inserted after the field if the field is not blank.
 public string TextAfter { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to use MERGEFIELD fields to perform a mail merge.
 

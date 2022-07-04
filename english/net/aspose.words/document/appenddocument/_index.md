@@ -19,7 +19,7 @@ public void AppendDocument(Document srcDoc, ImportFormatMode importFormatMode)
 | srcDoc | Document | The document to append. |
 | importFormatMode | ImportFormatMode | Specifies how to merge style formatting that clashes. |
 
-### Examples
+## Examples
 
 Shows how to append a document to the end of another document.
 
@@ -87,7 +87,7 @@ public void AppendDocument(Document srcDoc, ImportFormatMode importFormatMode,
 | importFormatMode | ImportFormatMode | Specifies how to merge style formatting that clashes. |
 | importFormatOptions | ImportFormatOptions | Allows to specify options that affect formatting of a result document. |
 
-### Examples
+## Examples
 
 Shows how to manage list style clashes while appending a clone of a document to itself.
 

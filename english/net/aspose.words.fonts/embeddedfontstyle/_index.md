@@ -3,7 +3,7 @@ title: EmbeddedFontStyle
 second_title: Aspose.Words for .NET API Reference
 description: Specifies the style of an embedded font inside a FontInfo./fontinfo object.
 type: docs
-weight: 2630
+weight: 2680
 url: /net/aspose.words.fonts/embeddedfontstyle/
 ---
 ## EmbeddedFontStyle enumeration
@@ -24,7 +24,7 @@ public enum EmbeddedFontStyle
 | Italic | `2` | Specifies the Italic embedded font. |
 | BoldItalic | `3` | Specifies the Bold-Italic embedded font. |
 
-### Examples
+## Examples
 
 Shows how to extract an embedded font from a document, and save it to the local file system.
 

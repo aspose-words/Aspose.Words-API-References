@@ -14,7 +14,7 @@ Returns an enumerator object.
 public IEnumerator<ChartSeries> GetEnumerator()
 ```
 
-### Examples
+## Examples
 
 Shows how to add and remove series data in a chart.
 

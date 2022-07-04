@@ -18,7 +18,7 @@ public void Protect(ProtectionType type)
 | --- | --- | --- |
 | type | ProtectionType | Specifies the protection type for the document. |
 
-### Remarks
+## Remarks
 
 When a document is protected, the user can make only limited changes, such as adding annotations, making revisions, or completing a form.
 
@@ -26,7 +26,7 @@ When you protect a document, and the document already has a protection password,
 
 When you protect a document, and the document does not have a protection password, this method assigns a random password that makes it impossible to unprotect the document in Microsoft Word, but you still can unprotect the document in Aspose.Words as it does not require a password when unprotecting.
 
-### Examples
+## Examples
 
 Shows how to turn off protection for a section.
 
@@ -74,13 +74,13 @@ public void Protect(ProtectionType type, string password)
 | type | ProtectionType | Specifies the protection type for the document. |
 | password | String | The password to protect the document with. Specify null or empty string if you want to protect the document without a password. |
 
-### Remarks
+## Remarks
 
 When a document is protected, the user can make only limited changes, such as adding annotations, making revisions, or completing a form.
 
 Note that document protection is different from write protection. Write protection is specified using the [`WriteProtection`](../writeprotection).
 
-### Examples
+## Examples
 
 Shows how to protect and unprotect a document.
 

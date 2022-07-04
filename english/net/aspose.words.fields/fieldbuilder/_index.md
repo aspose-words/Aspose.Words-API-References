@@ -3,7 +3,7 @@ title: FieldBuilder
 second_title: Aspose.Words for .NET API Reference
 description: Builds a field from field code tokens arguments and switches.
 type: docs
-weight: 1490
+weight: 1510
 url: /net/aspose.words.fields/fieldbuilder/
 ---
 ## FieldBuilder class
@@ -36,7 +36,7 @@ public class FieldBuilder
 | [BuildAndInsert](../../aspose.words.fields/fieldbuilder/buildandinsert#buildandinsert)(Inline) | Builds and inserts a field into the document before the specified inline node. |
 | [BuildAndInsert](../../aspose.words.fields/fieldbuilder/buildandinsert#buildandinsert_1)(Paragraph) | Builds and inserts a field into the document to the end of the specified paragraph. |
 
-### Examples
+## Examples
 
 Shows how to construct fields using a field builder, and then insert them into the document.
 

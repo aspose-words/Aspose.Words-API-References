@@ -14,7 +14,7 @@ Returns or sets the single user for editable range.
 public string SingleUser { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 This editor can be stored in one of the following forms:
 
@@ -26,7 +26,7 @@ user - for users whose access shall be authenticated using the current user's ma
 
 Single user and editor group cannot be set simultaneously for the specific editable range, if the one is set, the other will be clear.
 
-### Examples
+## Examples
 
 Shows how to limit the editing rights of editable ranges to a specific group/user.
 

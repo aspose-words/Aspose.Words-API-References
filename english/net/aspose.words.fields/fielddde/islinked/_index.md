@@ -14,7 +14,7 @@ Gets or sets whether to reduce the file size by not storing graphics data with t
 public bool IsLinked { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to use various field types to link to other documents in the local file system, and display their contents.
 

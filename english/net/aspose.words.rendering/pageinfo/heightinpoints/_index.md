@@ -14,7 +14,7 @@ Gets the height of the page in points.
 public float HeightInPoints { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to print page size and orientation information for every page in a Word document.
 

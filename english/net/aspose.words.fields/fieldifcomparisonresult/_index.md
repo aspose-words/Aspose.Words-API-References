@@ -3,7 +3,7 @@ title: FieldIfComparisonResult
 second_title: Aspose.Words for .NET API Reference
 description: Specifies the result of the IF field condition evaluation.
 type: docs
-weight: 1820
+weight: 1860
 url: /net/aspose.words.fields/fieldifcomparisonresult/
 ---
 ## FieldIfComparisonResult enumeration
@@ -22,7 +22,7 @@ public enum FieldIfComparisonResult
 | True | `1` | The condition is `true`. |
 | False | `2` | The condition is `false`. |
 
-### Examples
+## Examples
 
 Shows how to insert an IF field.
 

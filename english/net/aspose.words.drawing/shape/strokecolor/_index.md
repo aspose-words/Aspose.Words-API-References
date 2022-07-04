@@ -14,13 +14,13 @@ Defines the color of a stroke.
 public Color StrokeColor { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 This is a shortcut to the [`Color`](../../stroke/color) property.
 
 The default value is Black.
 
-### Examples
+## Examples
 
 Shows how to fill a shape with a solid color.
 

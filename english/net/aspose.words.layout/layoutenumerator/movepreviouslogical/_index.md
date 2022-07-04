@@ -14,11 +14,11 @@ Moves to the previous sibling entity in a logical order. When iterating lines of
 public bool MovePreviousLogical()
 ```
 
-### Remarks
+## Remarks
 
 Note that all Span entities are linked together thus if [`Current`](../current) entity is span repeated calling of this method will iterates complete story of the document.
 
-### Examples
+## Examples
 
 Shows ways of traversing a document's layout entities.
 

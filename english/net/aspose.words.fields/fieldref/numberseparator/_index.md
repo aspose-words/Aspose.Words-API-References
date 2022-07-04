@@ -14,7 +14,7 @@ Gets or sets the character sequence that is used to separate sequence numbers an
 public string NumberSeparator { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to insert REF fields to reference bookmarks.
 

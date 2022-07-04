@@ -14,7 +14,7 @@ Gets or sets whether to fix the check digit if it’s invalid.
 public bool FixCheckDigit { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to insert a DISPLAYBARCODE field, and set its properties.
 

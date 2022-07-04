@@ -14,7 +14,7 @@ Gets or sets whether to add Start/Stop characters for barcode types NW7 and CODE
 public bool AddStartStopChar { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to insert a DISPLAYBARCODE field, and set its properties.
 

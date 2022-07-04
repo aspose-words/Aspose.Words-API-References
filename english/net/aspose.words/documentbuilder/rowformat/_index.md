@@ -14,7 +14,7 @@ Returns an object that represents current table row formatting properties.
 public RowFormat RowFormat { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to format rows with a document builder.
 

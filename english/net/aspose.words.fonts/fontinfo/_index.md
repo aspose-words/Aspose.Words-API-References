@@ -3,7 +3,7 @@ title: FontInfo
 second_title: Aspose.Words for .NET API Reference
 description: Specifies information about a font used in the document.
 type: docs
-weight: 2690
+weight: 2740
 url: /net/aspose.words.fonts/fontinfo/
 ---
 ## FontInfo class
@@ -33,11 +33,11 @@ public class FontInfo
 | [GetEmbeddedFont](../../aspose.words.fonts/fontinfo/getembeddedfont)(EmbeddedFontFormat, EmbeddedFontStyle) | Gets a specific embedded font file. |
 | [GetEmbeddedFontAsOpenType](../../aspose.words.fonts/fontinfo/getembeddedfontasopentype)(EmbeddedFontStyle) | Gets an embedded font file in OpenType format. Fonts in Embedded OpenType format are converted to OpenType. |
 
-### Remarks
+## Remarks
 
 You do not create instances of this class directly. Use the [`FontInfos`](../../aspose.words/documentbase/fontinfos) property to access the collection of fonts defined in a document.
 
-### Examples
+## Examples
 
 Shows how to print the details of what fonts are present in a document.
 

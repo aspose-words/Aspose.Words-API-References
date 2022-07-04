@@ -14,11 +14,11 @@ Gets the last building block in the glossary document.
 public BuildingBlock LastBuildingBlock { get; }
 ```
 
-### Remarks
+## Remarks
 
 Returns `null` if there are no building blocks available.
 
-### Examples
+## Examples
 
 Shows ways of accessing building blocks in a glossary document.
 

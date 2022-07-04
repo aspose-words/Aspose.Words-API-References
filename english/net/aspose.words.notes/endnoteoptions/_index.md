@@ -3,7 +3,7 @@ title: EndnoteOptions
 second_title: Aspose.Words for .NET API Reference
 description: Represents the endnote numbering options for a document or section.
 type: docs
-weight: 3950
+weight: 4000
 url: /net/aspose.words.notes/endnoteoptions/
 ---
 ## EndnoteOptions class
@@ -23,7 +23,7 @@ public sealed class EndnoteOptions
 | [RestartRule](../../aspose.words.notes/endnoteoptions/restartrule) { get; set; } | Determines when automatic numbering restarts. |
 | [StartNumber](../../aspose.words.notes/endnoteoptions/startnumber) { get; set; } | Specifies the starting number or character for the first automatically numbered endnotes. |
 
-### Examples
+## Examples
 
 Shows how to select a different place where the document collects and displays its endnotes.
 

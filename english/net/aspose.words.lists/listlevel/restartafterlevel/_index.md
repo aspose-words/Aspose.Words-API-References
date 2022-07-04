@@ -14,11 +14,11 @@ Sets or returns the list level that must appear before the specified list level 
 public int RestartAfterLevel { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 The value of -1 means the numbering will continue.
 
-### Examples
+## Examples
 
 Shows advances ways of customizing list labels.
 

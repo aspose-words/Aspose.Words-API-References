@@ -3,7 +3,7 @@ title: FieldMergeSeq
 second_title: Aspose.Words for .NET API Reference
 description: Implements the MERGESEQ field.
 type: docs
-weight: 1980
+weight: 2020
 url: /net/aspose.words.fields/fieldmergeseq/
 ---
 ## FieldMergeSeq class
@@ -46,11 +46,11 @@ public class FieldMergeSeq : Field
 | [Update](../../aspose.words.fields/field/update)() | Performs the field update. Throws if the field is being updated already. |
 | [Update](../../aspose.words.fields/field/update)(bool) | Performs a field update. Throws if the field is being updated already. |
 
-### Remarks
+## Remarks
 
 At the moment the MERGEREC and MERGESEQ fields implement the same functionality because we don't know for sure how to skip records in Aspose.Words mail merge.
 
-### Examples
+## Examples
 
 Shows how to use MERGEREC and MERGESEQ fields to the number and count mail merge records in a mail merge's output documents.
 

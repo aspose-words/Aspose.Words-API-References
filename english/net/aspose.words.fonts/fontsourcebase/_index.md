@@ -3,7 +3,7 @@ title: FontSourceBase
 second_title: Aspose.Words for .NET API Reference
 description: This is an abstract base class for the classes that allow the user to specify various font sources.
 type: docs
-weight: 2750
+weight: 2800
 url: /net/aspose.words.fonts/fontsourcebase/
 ---
 ## FontSourceBase class
@@ -28,7 +28,7 @@ public abstract class FontSourceBase
 | --- | --- |
 | [GetAvailableFonts](../../aspose.words.fonts/fontsourcebase/getavailablefonts)() | Returns list of fonts available via this source. |
 
-### Examples
+## Examples
 
 Shows how to use a font file in the local file system as a font source.
 

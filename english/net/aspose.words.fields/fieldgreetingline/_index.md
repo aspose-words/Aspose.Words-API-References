@@ -3,7 +3,7 @@ title: FieldGreetingLine
 second_title: Aspose.Words for .NET API Reference
 description: Implements the GREETINGLINE field.
 type: docs
-weight: 1790
+weight: 1830
 url: /net/aspose.words.fields/fieldgreetingline/
 ---
 ## FieldGreetingLine class
@@ -50,11 +50,11 @@ public class FieldGreetingLine : Field
 | [Update](../../aspose.words.fields/field/update)() | Performs the field update. Throws if the field is being updated already. |
 | [Update](../../aspose.words.fields/field/update)(bool) | Performs a field update. Throws if the field is being updated already. |
 
-### Remarks
+## Remarks
 
 Inserts a mail merge greeting line.
 
-### Examples
+## Examples
 
 Shows how to insert a GREETINGLINE field.
 

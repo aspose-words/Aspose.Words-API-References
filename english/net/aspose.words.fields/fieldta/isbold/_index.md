@@ -14,7 +14,7 @@ Gets or sets whether to apply bold formatting to the page number for the entry.
 public bool IsBold { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to build and customize a table of authorities using TOA and TA fields.
 

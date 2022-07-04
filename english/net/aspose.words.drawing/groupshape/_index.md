@@ -81,6 +81,7 @@ public class GroupShape : ShapeBase
 | [Right](../../aspose.words.drawing/shapebase/right) { get; } | Gets the position of the right edge of the containing block of the shape. |
 | [Rotation](../../aspose.words.drawing/shapebase/rotation) { get; set; } | Defines the angle (in degrees) that a shape is rotated. Positive value corresponds to clockwise rotation angle. |
 | [ScreenTip](../../aspose.words.drawing/shapebase/screentip) { get; set; } | Defines the text displayed when the mouse pointer moves over the shape. |
+| [ShadowFormat](../../aspose.words.drawing/shapebase/shadowformat) { get; } | Gets shadow formatting for the shape. |
 | [ShapeType](../../aspose.words.drawing/shapebase/shapetype) { get; } | Gets the shape type. |
 | [SizeInPoints](../../aspose.words.drawing/shapebase/sizeinpoints) { get; } | Gets the size of the shape in points. |
 | [Target](../../aspose.words.drawing/shapebase/target) { get; set; } | Gets or sets the target frame for the shape hyperlink. |
@@ -129,13 +130,13 @@ public class GroupShape : ShapeBase
 | [ToString](../../aspose.words/node/tostring)(SaveFormat) | Exports the content of the node into a string in the specified format. |
 | [ToString](../../aspose.words/node/tostring)(SaveOptions) | Exports the content of the node into a string using the specified save options. |
 
-### Remarks
+## Remarks
 
 A [`GroupShape`](../groupshape) is a composite node and can have [`Shape`](../shape) and [`GroupShape`](../groupshape) nodes as children.
 
 Each [`GroupShape`](../groupshape) defines a new coordinate system for its child shapes. The coordinate system is defined using the [`CoordSize`](../shapebase/coordsize) and [`CoordOrigin`](../shapebase/coordorigin) properties.
 
-### Examples
+## Examples
 
 Shows how to create a group of shapes, and print its contents using a document visitor.
 

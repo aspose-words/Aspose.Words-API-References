@@ -14,11 +14,11 @@ Gets or sets the zoom factor for the generated images.
 public float Scale { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 The default value is 1.0. The value must be greater than 0.
 
-### Examples
+## Examples
 
 Shows how to render an Office Math object into an image file in the local file system.
 

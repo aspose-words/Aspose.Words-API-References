@@ -91,7 +91,7 @@ public sealed class Comment : InlineStory
 | [ToString](../../aspose.words/node/tostring)(SaveFormat) | Exports the content of the node into a string in the specified format. |
 | [ToString](../../aspose.words/node/tostring)(SaveOptions) | Exports the content of the node into a string using the specified save options. |
 
-### Remarks
+## Remarks
 
 A comment is an annotation which is anchored to a region of text or to a position in text. A comment can contain an arbitrary amount of block-level content.
 
@@ -103,7 +103,7 @@ To anchor a comment to a region of text three objects are required: [`Comment`](
 
 [`Comment`](../comment) can contain [`Paragraph`](../paragraph) and [`Table`](../../aspose.words.tables/table) child nodes.
 
-### Examples
+## Examples
 
 Shows how to add a comment to a paragraph.
 

@@ -14,7 +14,7 @@ Gets or sets the amount of space (in points) between the cells.
 public double CellSpacing { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to create custom style settings for the table.
 

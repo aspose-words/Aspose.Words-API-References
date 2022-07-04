@@ -3,7 +3,7 @@ title: ThemeColors
 second_title: Aspose.Words for .NET API Reference
 description: Represents the color scheme of the document theme which contains twelve colors.
 type: docs
-weight: 6130
+weight: 6180
 url: /net/aspose.words.themes/themecolors/
 ---
 ## ThemeColors class
@@ -33,7 +33,7 @@ public class ThemeColors
 | [Light1](../../aspose.words.themes/themecolors/light1) { get; set; } | Specifies color Light 1. |
 | [Light2](../../aspose.words.themes/themecolors/light2) { get; set; } | Specifies color Light 2. |
 
-### Examples
+## Examples
 
 Shows how to set custom colors and fonts for themes.
 

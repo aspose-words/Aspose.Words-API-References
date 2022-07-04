@@ -3,7 +3,7 @@ title: FieldUnknown
 second_title: Aspose.Words for .NET API Reference
 description: Implements an unknown or unrecognized field.
 type: docs
-weight: 2360
+weight: 2400
 url: /net/aspose.words.fields/fieldunknown/
 ---
 ## FieldUnknown class
@@ -46,7 +46,7 @@ public class FieldUnknown : Field
 | [Update](../../aspose.words.fields/field/update)() | Performs the field update. Throws if the field is being updated already. |
 | [Update](../../aspose.words.fields/field/update)(bool) | Performs a field update. Throws if the field is being updated already. |
 
-### Examples
+## Examples
 
 Shows how to work with 'FieldNone' field in a document.
 

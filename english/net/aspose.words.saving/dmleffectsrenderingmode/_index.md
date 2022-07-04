@@ -3,7 +3,7 @@ title: DmlEffectsRenderingMode
 second_title: Aspose.Words for .NET API Reference
 description: Specifies how DrawingML effects are rendered to fixed page formats.
 type: docs
-weight: 4600
+weight: 4650
 url: /net/aspose.words.saving/dmleffectsrenderingmode/
 ---
 ## DmlEffectsRenderingMode enumeration
@@ -22,7 +22,7 @@ public enum DmlEffectsRenderingMode
 | None | `1` | No DrawingML effects are rendered. |
 | Fine | `2` | DrawingML effects are rendered in fine mode which involves advanced processing. In this mode rendering of effects gives better results but at a higher performance cost than Simplified mode. |
 
-### Examples
+## Examples
 
 Shows how to configure the rendering quality of DrawingML effects in a document as we save it to PDF.
 

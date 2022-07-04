@@ -14,7 +14,7 @@ Adds additional editing language.
 public void AddEditingLanguage(EditingLanguage language)
 ```
 
-### Examples
+## Examples
 
 Shows how to apply language preferences when loading a document.
 

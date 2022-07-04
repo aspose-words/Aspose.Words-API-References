@@ -14,11 +14,11 @@ Gets a collection of revisions (tracked changes) that exist in this document.
 public RevisionCollection Revisions { get; }
 ```
 
-### Remarks
+## Remarks
 
 The returned collection is a "live" collection, which means if you remove parts of a document that contain revisions, the deleted revisions will automatically disappear from this collection.
 
-### Examples
+## Examples
 
 Shows how to work with revisions in a document.
 

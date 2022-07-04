@@ -3,7 +3,7 @@ title: FieldNumChars
 second_title: Aspose.Words for .NET API Reference
 description: Implements the NUMCHARS field.
 type: docs
-weight: 2020
+weight: 2060
 url: /net/aspose.words.fields/fieldnumchars/
 ---
 ## FieldNumChars class
@@ -46,11 +46,11 @@ public class FieldNumChars : Field
 | [Update](../../aspose.words.fields/field/update)() | Performs the field update. Throws if the field is being updated already. |
 | [Update](../../aspose.words.fields/field/update)(bool) | Performs a field update. Throws if the field is being updated already. |
 
-### Remarks
+## Remarks
 
 Retrieves the number of characters in the current document, as recorded in the **Characters** property of the built-in document properties.
 
-### Examples
+## Examples
 
 Shows how to use NUMCHARS, NUMWORDS, NUMPAGES and PAGE fields to track the size of our documents.
 

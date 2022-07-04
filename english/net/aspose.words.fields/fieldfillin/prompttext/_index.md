@@ -14,7 +14,7 @@ Gets or sets the prompt text (the title of the prompt window).
 public string PromptText { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to use the FILLIN field to prompt the user for a response.
 

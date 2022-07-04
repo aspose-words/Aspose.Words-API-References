@@ -14,7 +14,7 @@ Specifies whether the parent element shall inverts its colors if the value is ne
 public bool InvertIfNegative { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to work with data points on a line chart.
 

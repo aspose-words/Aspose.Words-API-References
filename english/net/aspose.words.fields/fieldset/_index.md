@@ -3,7 +3,7 @@ title: FieldSet
 second_title: Aspose.Words for .NET API Reference
 description: Implements the SET field.
 type: docs
-weight: 2210
+weight: 2250
 url: /net/aspose.words.fields/fieldset/
 ---
 ## FieldSet class
@@ -48,11 +48,11 @@ public class FieldSet : Field
 | [Update](../../aspose.words.fields/field/update)() | Performs the field update. Throws if the field is being updated already. |
 | [Update](../../aspose.words.fields/field/update)(bool) | Performs a field update. Throws if the field is being updated already. |
 
-### Remarks
+## Remarks
 
 Assigns new text to a bookmark.
 
-### Examples
+## Examples
 
 Shows how to create bookmarked text with a SET field, and then display it in the document using a REF field.
 

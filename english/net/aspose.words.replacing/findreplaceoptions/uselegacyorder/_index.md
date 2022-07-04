@@ -14,7 +14,7 @@ True indicates that a text search is performed sequentially from top to bottom c
 public bool UseLegacyOrder { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to change the searching order of nodes when performing a find-and-replace text operation.
 

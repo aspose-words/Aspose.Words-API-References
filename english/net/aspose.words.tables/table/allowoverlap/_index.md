@@ -14,7 +14,7 @@ Gets whether a floating table shall allow other floating objects in the document
 public bool AllowOverlap { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to work with floating tables properties.
 

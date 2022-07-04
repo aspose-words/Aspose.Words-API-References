@@ -3,7 +3,7 @@ title: ParagraphCollection
 second_title: Aspose.Words for .NET API Reference
 description: Provides typed access to a collection of Paragraph./paragraph nodes.
 type: docs
-weight: 4120
+weight: 4170
 url: /net/aspose.words/paragraphcollection/
 ---
 ## ParagraphCollection class
@@ -35,7 +35,7 @@ public class ParagraphCollection : NodeCollection
 | [RemoveAt](../../aspose.words/nodecollection/removeat)(int) | Removes the node at the specified index from the collection and from the document. |
 | [ToArray](../../aspose.words/paragraphcollection/toarray#toarray_1)() | Copies all paragraphs from the collection to a new array of paragraphs. (2 methods) |
 
-### Examples
+## Examples
 
 Shows how to check whether a paragraph is a move revision.
 

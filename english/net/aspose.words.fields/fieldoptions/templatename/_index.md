@@ -3,7 +3,7 @@ title: TemplateName
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the file name of the template used by the document.
 type: docs
-weight: 160
+weight: 170
 url: /net/aspose.words.fields/fieldoptions/templatename/
 ---
 ## FieldOptions.TemplateName property
@@ -14,13 +14,13 @@ Gets or sets the file name of the template used by the document.
 public string TemplateName { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 This property is used by the [`FieldTemplate`](../../fieldtemplate) field if the [`AttachedTemplate`](../../../aspose.words/document/attachedtemplate) property is empty.
 
 If this property is empty, the default template file name `Normal.dotm` is used.
 
-### Examples
+## Examples
 
 Shows how to use a TEMPLATE field to display the local file system location of a document's template.
 

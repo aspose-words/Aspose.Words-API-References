@@ -14,7 +14,7 @@ Gets the preferred width value. The unit of measure is specified in the [`Type`]
 public double Value { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to verify the preferred width type and value of a table cell.
 

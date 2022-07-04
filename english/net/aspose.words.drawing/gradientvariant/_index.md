@@ -24,11 +24,11 @@ public enum GradientVariant
 | Variant3 | `3` | Gradient variant 3. |
 | Variant4 | `4` | Gradient variant 4. |
 
-### Remarks
+## Remarks
 
 Corresponds to the four variants on the Gradient tab in the Fill Effects dialog box in Word.
 
-### Examples
+## Examples
 
 Shows how to fill a shape with a gradients.
 

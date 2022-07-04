@@ -3,7 +3,7 @@ title: OdtSaveMeasureUnit
 second_title: Aspose.Words for .NET API Reference
 description: Specified units of measure to apply to measurable document content such as shape widths and other during saving.
 type: docs
-weight: 4990
+weight: 5040
 url: /net/aspose.words.saving/odtsavemeasureunit/
 ---
 ## OdtSaveMeasureUnit enumeration
@@ -21,7 +21,7 @@ public enum OdtSaveMeasureUnit
 | Centimeters | `0` | Specifies that the document content is saved using centimeters. |
 | Inches | `1` | Specifies that the document content is saved using inches. |
 
-### Examples
+## Examples
 
 Shows how to use different measurement units to define style parameters of a saved ODT document.
 

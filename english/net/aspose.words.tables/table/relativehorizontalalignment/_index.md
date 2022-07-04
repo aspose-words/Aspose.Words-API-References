@@ -14,7 +14,7 @@ Gets or sets floating table relative horizontal alignment.
 public HorizontalAlignment RelativeHorizontalAlignment { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how set the location of floating tables.
 

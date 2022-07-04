@@ -14,7 +14,7 @@ Returns or sets the height of the page in points.
 public double PageHeight { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to insert an image, and use it as a watermark.
 

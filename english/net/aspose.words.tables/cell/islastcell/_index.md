@@ -14,7 +14,7 @@ True if this is the last cell inside a row; false otherwise.
 public bool IsLastCell { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to print the node structure of every table in a document.
 

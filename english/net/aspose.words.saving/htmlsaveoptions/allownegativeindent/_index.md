@@ -14,11 +14,11 @@ Specifies whether negative left and right indents of paragraphs are normalized w
 public bool AllowNegativeIndent { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 When negative indent is not allowed, it is exported as zero margin to HTML. When negative indent is allowed, a paragraph might appear partially outside of the browser window.
 
-### Examples
+## Examples
 
 Shows how to preserve negative indents in the output .html.
 

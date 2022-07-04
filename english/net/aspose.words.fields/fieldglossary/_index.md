@@ -3,7 +3,7 @@ title: FieldGlossary
 second_title: Aspose.Words for .NET API Reference
 description: Implements the GLOSSARY field.
 type: docs
-weight: 1770
+weight: 1810
 url: /net/aspose.words.fields/fieldglossary/
 ---
 ## FieldGlossary class
@@ -47,11 +47,11 @@ public class FieldGlossary : Field
 | [Update](../../aspose.words.fields/field/update)() | Performs the field update. Throws if the field is being updated already. |
 | [Update](../../aspose.words.fields/field/update)(bool) | Performs a field update. Throws if the field is being updated already. |
 
-### Remarks
+## Remarks
 
 Inserts a glossary entry.
 
-### Examples
+## Examples
 
 Shows how to display a building block with AUTOTEXT and GLOSSARY fields.
 

@@ -3,7 +3,7 @@ title: EmfPlusDualRenderingMode
 second_title: Aspose.Words for .NET API Reference
 description: Specifies how Aspose.Words should render EMF Dual metafiles.
 type: docs
-weight: 4670
+weight: 4720
 url: /net/aspose.words.saving/emfplusdualrenderingmode/
 ---
 ## EmfPlusDualRenderingMode enumeration
@@ -22,7 +22,7 @@ public enum EmfPlusDualRenderingMode
 | EmfPlus | `1` | Aspose.Words renders EMF+ part of EMF+ Dual metafile. |
 | Emf | `2` | Aspose.Words renders EMF part of EMF+ Dual metafile. |
 
-### Examples
+## Examples
 
 Shows how to configure Enhanced Windows Metafile-related rendering options when saving to PDF.
 

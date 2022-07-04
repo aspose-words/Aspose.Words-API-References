@@ -14,13 +14,13 @@ Gets or sets a value determining whether or not to use high quality (i.e. slow) 
 public bool UseHighQualityRendering { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 The default value is `false`.
 
 This property is used when the document is exported to image formats: Tiff, Png, Bmp, Jpeg, Emf.
 
-### Examples
+## Examples
 
 Shows how to improve the quality of a rendered document with SaveOptions.
 

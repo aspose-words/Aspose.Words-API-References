@@ -14,13 +14,13 @@ Specifies the format in which the rendered document pages or shapes will be save
 public override SaveFormat SaveFormat { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 On different platforms, the supported formats may be different. The number of other options depends on the selected format.
 
 Also, it is possible to save to SVG both via ImageSaveOptions and via [`SvgSaveOptions`](../../svgsaveoptions).
 
-### Examples
+## Examples
 
 Shows how to edit the image while Aspose.Words converts a document to one.
 

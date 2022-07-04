@@ -3,7 +3,7 @@ title: FontInfoCollection
 second_title: Aspose.Words for .NET API Reference
 description: Represents a collection of fonts used in a document.
 type: docs
-weight: 2700
+weight: 2750
 url: /net/aspose.words.fonts/fontinfocollection/
 ---
 ## FontInfoCollection class
@@ -31,13 +31,13 @@ public class FontInfoCollection : IEnumerable<FontInfo>
 | [Contains](../../aspose.words.fonts/fontinfocollection/contains)(string) | Determines whether the collection contains a font with the given name. |
 | [GetEnumerator](../../aspose.words.fonts/fontinfocollection/getenumerator)() | Returns an enumerator object that can be used to iterate over all items in the collection. |
 
-### Remarks
+## Remarks
 
 Items are [`FontInfo`](../fontinfo) objects.
 
 You do not create instances of this class directly. Use the [`FontInfos`](../../aspose.words/documentbase/fontinfos) property to access the collection of fonts defined in the document.
 
-### Examples
+## Examples
 
 Shows how to print the details of what fonts are present in a document.
 

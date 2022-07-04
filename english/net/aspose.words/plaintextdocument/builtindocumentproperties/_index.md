@@ -14,7 +14,7 @@ Gets `BuiltInDocumentProperties` of the document.
 public BuiltInDocumentProperties BuiltInDocumentProperties { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to load the contents of a Microsoft Word document in plaintext and then access the original document's built-in properties.
 

@@ -14,7 +14,7 @@ Gets or sets a value determining the way [`CustomDocumentProperties`](../../../a
 public PdfCustomPropertiesExport CustomPropertiesExport { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 Default value is None.
 
@@ -22,7 +22,7 @@ Metadata value is not supported when saving to PDF/A. Standard will be used inst
 
 Standard value is not supported when saving to PDF 2.0. Metadata will be used instead.
 
-### Examples
+## Examples
 
 Shows how to export custom properties while converting a document to PDF.
 

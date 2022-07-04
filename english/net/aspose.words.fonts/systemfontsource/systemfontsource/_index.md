@@ -14,7 +14,7 @@ Ctor.
 public SystemFontSource()
 ```
 
-### Examples
+## Examples
 
 Shows how to access a document's system font source and set font substitutes.
 
@@ -87,7 +87,7 @@ public SystemFontSource(int priority)
 | --- | --- | --- |
 | priority | Int32 | Font source priority. See the [`Priority`](../../fontsourcebase/priority) property description for more information. |
 
-### Examples
+## Examples
 
 Shows how to access a document's system font source and set font substitutes.
 

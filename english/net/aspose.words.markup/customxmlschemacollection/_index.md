@@ -3,7 +3,7 @@ title: CustomXmlSchemaCollection
 second_title: Aspose.Words for .NET API Reference
 description: A collection of strings that represent XML schemas that are associated with a custom XML part.
 type: docs
-weight: 3670
+weight: 3720
 url: /net/aspose.words.markup/customxmlschemacollection/
 ---
 ## CustomXmlSchemaCollection class
@@ -33,11 +33,11 @@ public class CustomXmlSchemaCollection : IEnumerable<string>
 | [Remove](../../aspose.words.markup/customxmlschemacollection/remove)(string) | Removes the specified value from the collection. |
 | [RemoveAt](../../aspose.words.markup/customxmlschemacollection/removeat)(int) | Removes a value at the specified index. |
 
-### Remarks
+## Remarks
 
 You do not create instances of this class. You access the collection of XML schemas of a custom XML part via the [`Schemas`](../customxmlpart/schemas) property.
 
-### Examples
+## Examples
 
 Shows how to work with an XML schema collection.
 

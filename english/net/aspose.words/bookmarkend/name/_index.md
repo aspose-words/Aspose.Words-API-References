@@ -14,11 +14,11 @@ Gets or sets the bookmark name.
 public string Name { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 Cannot be null.
 
-### Examples
+## Examples
 
 Shows how to add bookmarks and update their contents.
 

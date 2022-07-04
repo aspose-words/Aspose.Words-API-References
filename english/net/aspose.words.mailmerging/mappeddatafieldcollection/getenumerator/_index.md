@@ -14,7 +14,7 @@ Returns a dictionary enumerator object that can be used to iterate over all item
 public IEnumerator<KeyValuePair<string, string>> GetEnumerator()
 ```
 
-### Examples
+## Examples
 
 Shows how to map data columns and MERGEFIELDs with different names so the data is transferred between them during a mail merge.
 

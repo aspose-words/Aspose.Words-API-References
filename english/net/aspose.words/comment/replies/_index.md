@@ -14,7 +14,7 @@ Returns a collection of [`Comment`](../../comment) objects that are immediate ch
 public CommentCollection Replies { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to print all of a document's comments and their replies.
 

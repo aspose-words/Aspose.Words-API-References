@@ -14,7 +14,7 @@ Gets or sets a value that specifies whether this shape can overlap other shapes.
 public bool AllowOverlap { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 This property affects behavior of the shape in Microsoft Word. Aspose.Words ignores the value of this property.
 
@@ -22,7 +22,7 @@ This property is applicable only to top level shapes.
 
 The default value is **true**.
 
-### Examples
+## Examples
 
 Shows how to work with floating tables properties.
 

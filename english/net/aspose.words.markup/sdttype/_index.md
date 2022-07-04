@@ -3,7 +3,7 @@ title: SdtType
 second_title: Aspose.Words for .NET API Reference
 description: Specifies the type of a structured document tag SDT node.
 type: docs
-weight: 3750
+weight: 3800
 url: /net/aspose.words.markup/sdttype/
 ---
 ## SdtType enumeration
@@ -36,7 +36,7 @@ public enum SdtType
 | RepeatingSectionItem | `15` | The SDT represents repeating section item. |
 | EntityPicker | `16` | The SDT represents an entity picker that allows the user to select an instance of an external content type. |
 
-### Examples
+## Examples
 
 Shows how to work with styles for content control elements.
 

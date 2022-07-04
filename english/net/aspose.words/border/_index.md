@@ -34,11 +34,11 @@ public class Border : InternableComplexAttr
 | override [Equals](../../aspose.words/border/equals#equals_1)(object) | Determines whether the specified object is equal in value to the current object. |
 | override [GetHashCode](../../aspose.words/border/gethashcode)() | Serves as a hash function for this type. |
 
-### Remarks
+## Remarks
 
 Borders can be applied to various document elements including paragraph, run of text inside a paragraph or a table cell.
 
-### Examples
+## Examples
 
 Shows how to insert a string surrounded by a border into a document.
 

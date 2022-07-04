@@ -3,7 +3,7 @@ title: SaveOptions
 second_title: Aspose.Words for .NET API Reference
 description: This is an abstract base class for classes that allow the user to specify additional options when saving a document into a particular format.
 type: docs
-weight: 5250
+weight: 5300
 url: /net/aspose.words.saving/saveoptions/
 ---
 ## SaveOptions class
@@ -47,11 +47,11 @@ public abstract class SaveOptions
 | static [CreateSaveOptions](../../aspose.words.saving/saveoptions/createsaveoptions#createsaveoptions)(SaveFormat) | Creates a save options object of a class suitable for the specified save format. |
 | static [CreateSaveOptions](../../aspose.words.saving/saveoptions/createsaveoptions#createsaveoptions_1)(string) | Creates a save options object of a class suitable for the file extension specified in the given file name. |
 
-### Remarks
+## Remarks
 
 An instance of the SaveOptions class or any derived class is passed to the stream [`Save`](../../aspose.words/document/save) or string [`Save`](../../aspose.words/document/save) overloads for the user to define custom options when saving a document.
 
-### Examples
+## Examples
 
 Shows how to use a specific encoding when saving a document to .epub.
 

@@ -18,13 +18,13 @@ public int JoinRunsWithSameFormatting()
 
 Number of joins performed. When **N** adjacent runs are being joined they count as **N - 1** joins.
 
-### Remarks
+## Remarks
 
 This is an optimization method. Some documents contain adjacent runs with same formatting. Usually this occurs if a document was intensively edited manually. You can reduce the document size and speed up further processing by joining these runs.
 
 The operation checks every [`Paragraph`](../../paragraph) node in the document for adjacent [`Run`](../../run) nodes having identical properties. It ignores unique identifiers used to track editing sessions of run creation and modification. First run in every joining sequence accumulates all text. Remaining runs are deleted from the document.
 
-### Examples
+## Examples
 
 Shows how to join runs in a document to reduce unneeded runs.
 

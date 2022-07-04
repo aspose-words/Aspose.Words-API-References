@@ -14,7 +14,7 @@ Specifies the type of the mail-merge data source and the method of data access. 
 public MailMergeDataType DataType { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to execute a mail merge with data from an Office Data Source Object.
 

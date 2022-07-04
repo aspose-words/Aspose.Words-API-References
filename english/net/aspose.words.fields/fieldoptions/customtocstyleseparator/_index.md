@@ -14,11 +14,11 @@ Gets or sets custom style separator for the \t switch in [`FieldToc`](../../fiel
 public string CustomTocStyleSeparator { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 By default, custom styles defined by the \t switch in the [`FieldToc`](../../fieldtoc) field are separated by a delimiter taken from the current culture. This property overrides that behaviour by specifying a user defined delimiter.
 
-### Examples
+## Examples
 
 Shows how to insert a TOC, and populate it with entries based on heading styles.
 

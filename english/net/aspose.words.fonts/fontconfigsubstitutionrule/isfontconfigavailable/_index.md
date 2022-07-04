@@ -14,7 +14,7 @@ Check if fontconfig utility is available or not.
 public bool IsFontConfigAvailable()
 ```
 
-### Examples
+## Examples
 
 Shows operating system-dependent font config substitution.
 

@@ -3,7 +3,7 @@ title: AsposeWordsPrintDocument
 second_title: Aspose.Words for .NET API Reference
 description: Provides a default implementation for printing of a Document../aspose.words/document within the .NET printing framework.
 type: docs
-weight: 4230
+weight: 4280
 url: /net/aspose.words.rendering/asposewordsprintdocument/
 ---
 ## AsposeWordsPrintDocument class
@@ -26,7 +26,7 @@ public class AsposeWordsPrintDocument : PrintDocument
 | --- | --- |
 | [CachePrinterSettings](../../aspose.words.rendering/asposewordsprintdocument/cacheprintersettings)() | Reads and caches some fields of PrinterSettings to reduce printing time. |
 
-### Remarks
+## Remarks
 
 [`AsposeWordsPrintDocument`](../asposewordsprintdocument) overrides PrintEventArgs) to print the range of pages that is specified in PrinterSettings.
 

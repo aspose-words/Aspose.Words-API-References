@@ -3,7 +3,7 @@ title: NumeralFormat
 second_title: Aspose.Words for .NET API Reference
 description: Indicates the symbol set that is used to represent numbers while rendering to fixed page formats.
 type: docs
-weight: 4980
+weight: 5030
 url: /net/aspose.words.saving/numeralformat/
 ---
 ## NumeralFormat enumeration
@@ -24,7 +24,7 @@ public enum NumeralFormat
 | Context | `3` | Symbol set is decided from context(locale and RTL property). |
 | System | `4` | THIS OPTION IS NOT SUPPORTED. Symbol set is decided from regional settings. |
 
-### Examples
+## Examples
 
 Shows how to set the numeral format used when saving to PDF.
 

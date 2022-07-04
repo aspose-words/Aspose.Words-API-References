@@ -3,7 +3,7 @@ title: FontSavingArgs
 second_title: Aspose.Words for .NET API Reference
 description: Provides data for the FontSaving./ifontsavingcallback/fontsaving event.
 type: docs
-weight: 4720
+weight: 4770
 url: /net/aspose.words.saving/fontsavingargs/
 ---
 ## FontSavingArgs class
@@ -30,7 +30,7 @@ public class FontSavingArgs
 | [OriginalFileName](../../aspose.words.saving/fontsavingargs/originalfilename) { get; } | Gets the original font file name with an extension. |
 | [OriginalFileSize](../../aspose.words.saving/fontsavingargs/originalfilesize) { get; } | Gets the original font file size. |
 
-### Remarks
+## Remarks
 
 When Aspose.Words saves a document to HTML or related formats and [`ExportFontResources`](../htmlsaveoptions/exportfontresources) is set to **true**, it saves each font subject for export into a separate file.
 
@@ -42,7 +42,7 @@ To decide whether to save a particular font resource, use the [`IsExportNeeded`]
 
 To save fonts into streams instead of files, use the [`FontStream`](./fontstream) property.
 
-### Examples
+## Examples
 
 Shows how to define custom logic for exporting fonts when saving to HTML.
 

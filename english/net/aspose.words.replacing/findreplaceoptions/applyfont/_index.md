@@ -14,7 +14,7 @@ Text formatting applied to new content.
 public Font ApplyFont { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to apply a different font to new content via FindReplaceOptions.
 

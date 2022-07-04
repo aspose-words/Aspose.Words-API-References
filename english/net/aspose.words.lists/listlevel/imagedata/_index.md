@@ -14,7 +14,7 @@ Returns image data of the picture bullet shape for the current list level.
 public ImageData ImageData { get; }
 ```
 
-### Remarks
+## Remarks
 
 If this level doesn't define picture bullet returns null. Before setting new image for non picture bullet shape, please use [`CreatePictureBullet`](../createpicturebullet) method first.
 

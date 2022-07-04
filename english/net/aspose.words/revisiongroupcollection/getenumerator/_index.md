@@ -14,7 +14,7 @@ Returns an enumerator object.
 public IEnumerator<RevisionGroup> GetEnumerator()
 ```
 
-### Examples
+## Examples
 
 Shows how to work with a document's collection of revisions.
 

@@ -14,7 +14,7 @@ Creates a deep clone of this object.
 public ImageSaveOptions Clone()
 ```
 
-### Examples
+## Examples
 
 Shows how to select a bit-per-pixel rate with which to render a document to an image.
 

@@ -14,7 +14,7 @@ Gets or sets whether the user response should be recieved once per a mail merge 
 public bool PromptOnceOnMailMerge { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to create an ASK field, and set its properties.
 

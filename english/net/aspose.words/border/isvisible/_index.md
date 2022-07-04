@@ -14,7 +14,7 @@ Returns true if the LineStyle is not LineStyle.None.
 public bool IsVisible { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to remove borders from a paragraph.
 

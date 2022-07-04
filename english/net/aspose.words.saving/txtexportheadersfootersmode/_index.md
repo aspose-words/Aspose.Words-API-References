@@ -3,7 +3,7 @@ title: TxtExportHeadersFootersMode
 second_title: Aspose.Words for .NET API Reference
 description: Specifies the way headers and footers are exported to plain text format.
 type: docs
-weight: 5310
+weight: 5360
 url: /net/aspose.words.saving/txtexportheadersfootersmode/
 ---
 ## TxtExportHeadersFootersMode enumeration
@@ -22,7 +22,7 @@ public enum TxtExportHeadersFootersMode
 | PrimaryOnly | `1` | Only primary headers and footers are exported at the beginning and end of each section. |
 | AllAtEnd | `2` | All headers and footers are placed after all section bodies at the very end of a document. |
 
-### Examples
+## Examples
 
 Shows how to specify how to export headers and footers to plain text format.
 

@@ -14,7 +14,7 @@ Gets the unit of measure used for this preferred width value.
 public PreferredWidthType Type { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to verify the preferred width type and value of a table cell.
 

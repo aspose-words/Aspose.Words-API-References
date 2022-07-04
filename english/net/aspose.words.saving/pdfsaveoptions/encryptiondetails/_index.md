@@ -14,7 +14,7 @@ Gets or sets the details for encrypting the output PDF document.
 public PdfEncryptionDetails EncryptionDetails { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 The default value is null and the output document will not be encrypted. When this property is set to a valid [`PdfEncryptionDetails`](../../pdfencryptiondetails) object, then the output PDF document will be encrypted.
 
@@ -26,7 +26,7 @@ ContentCopyForAccessibility permission is required by PDF/UA compliance if the o
 
 ContentCopyForAccessibility permission is deprecated in PDF 2.0 format. This permission will be ignored when saving to PDF 2.0.
 
-### Examples
+## Examples
 
 Shows how to set permissions on a saved PDF document.
 

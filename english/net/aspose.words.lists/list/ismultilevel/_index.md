@@ -14,13 +14,13 @@ Returns true when the list contains 9 levels; false when 1 level.
 public bool IsMultiLevel { get; }
 ```
 
-### Remarks
+## Remarks
 
 The lists that you create with Aspose.Words are always multi-level lists and contain 9 levels.
 
 Microsoft Word 2003 and later always create multi-level lists with 9 levels. But in some documents, created with earlier versions of Microsoft Word you might encounter lists that have 1 level only.
 
-### Examples
+## Examples
 
 Shows how to create a list style and use it in a document.
 

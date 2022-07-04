@@ -14,7 +14,7 @@ End of column character: "\x000e".
 public static readonly string ColumnBreak;
 ```
 
-### Examples
+## Examples
 
 Shows how to add various control characters to a document.
 

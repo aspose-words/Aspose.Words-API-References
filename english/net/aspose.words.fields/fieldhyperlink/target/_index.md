@@ -14,7 +14,7 @@ Gets or sets the target to which the link should be redirected.
 public string Target { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to use HYPERLINK fields to link to documents in the local file system.
 

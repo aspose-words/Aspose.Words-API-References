@@ -14,7 +14,7 @@ Gets or sets the name of the abstract numbering definition used for the numberin
 public string ListName { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to number paragraphs with LISTNUM fields.
 

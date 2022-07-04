@@ -3,7 +3,7 @@ title: SvgSaveOptions
 second_title: Aspose.Words for .NET API Reference
 description: Can be used to specify additional options when saving a document into the Svg format.
 type: docs
-weight: 5270
+weight: 5320
 url: /net/aspose.words.saving/svgsaveoptions/
 ---
 ## SvgSaveOptions class
@@ -66,7 +66,7 @@ public class SvgSaveOptions : FixedPageSaveOptions
 | --- | --- |
 | override [Equals](../../aspose.words.saving/fixedpagesaveoptions/equals)(object) | Determines whether the specified object is equal in value to the current object. |
 
-### Examples
+## Examples
 
 Shows how to manipulate and print the URIs of linked resources created while converting a document to .svg.
 

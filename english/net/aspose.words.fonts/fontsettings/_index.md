@@ -3,7 +3,7 @@ title: FontSettings
 second_title: Aspose.Words for .NET API Reference
 description: Specifies font settings for a document.
 type: docs
-weight: 2740
+weight: 2790
 url: /net/aspose.words.fonts/fontsettings/
 ---
 ## FontSettings class
@@ -40,7 +40,7 @@ public class FontSettings
 | [SetFontsSources](../../aspose.words.fonts/fontsettings/setfontssources#setfontssources)(FontSourceBase[]) | Sets the sources where Aspose.Words looks for TrueType fonts when rendering documents or embedding fonts. |
 | [SetFontsSources](../../aspose.words.fonts/fontsettings/setfontssources#setfontssources_1)(FontSourceBase[], Stream) | Sets the sources where Aspose.Words looks for TrueType fonts and additionally loads previously saved font search cache. |
 
-### Remarks
+## Remarks
 
 Aspose.Words uses font settings to resolve the fonts in the document. Fonts are resolved mostly when building document layout or rendering to fixed page formats. But when loading some formats, Aspose.Words also may require to resolve the fonts. For example, when loading HTML documents Aspose.Words may resolve the fonts to perform font fallback. So it is recommended that you set the font settings in [`LoadOptions`](../../aspose.words.loading/loadoptions) when loading the document. Or at least before building the layout or rendering the document to the fixed-page format.
 
@@ -48,7 +48,7 @@ By default all documents uses single static font settings instance. It could be 
 
 Changing font settings is safe at any time from any thread. But it is recommended that you do not change the font settings while processing some documents which uses this settings. This can lead to the fact that the same font will be resolved differently in different parts of the document.
 
-### Examples
+## Examples
 
 Shows how to add a font source to our existing font sources.
 

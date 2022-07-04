@@ -14,11 +14,11 @@ Gets or sets the hash algorithm.
 public PdfDigitalSignatureHashAlgorithm HashAlgorithm { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 The default value is the SHA-256 algorithm.
 
-### Examples
+## Examples
 
 Shows how to sign a generated PDF document.
 

@@ -14,7 +14,7 @@ Called when Aspose.Words saves a separate page to fixed page formats.
 public void PageSaving(PageSavingArgs args)
 ```
 
-### Examples
+## Examples
 
 Shows how to use a callback to save a document to HTML page by page.
 

@@ -3,7 +3,7 @@ title: FieldAutoNumLgl
 second_title: Aspose.Words for .NET API Reference
 description: Implements the AUTONUMLGL field.
 type: docs
-weight: 1420
+weight: 1440
 url: /net/aspose.words.fields/fieldautonumlgl/
 ---
 ## FieldAutoNumLgl class
@@ -48,11 +48,11 @@ public class FieldAutoNumLgl : Field
 | [Update](../../aspose.words.fields/field/update)() | Performs the field update. Throws if the field is being updated already. |
 | [Update](../../aspose.words.fields/field/update)(bool) | Performs a field update. Throws if the field is being updated already. |
 
-### Remarks
+## Remarks
 
 Inserts an automatic number in legal format.
 
-### Examples
+## Examples
 
 Shows how to organize a document using AUTONUMLGL fields.
 

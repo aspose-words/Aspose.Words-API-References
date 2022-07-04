@@ -14,7 +14,7 @@ Gets or sets the logarithmic base for a logarithmic axis.
 public double LogBase { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 The property is not supported by MS Office 2016 new charts.
 
@@ -22,7 +22,7 @@ Valid range of a floating point value is greater than or equal to 2 and less tha
 
 Setting this property sets the [`Type`](../type) property to Logarithmic.
 
-### Examples
+## Examples
 
 Shows how to apply logarithmic scaling to a chart axis.
 

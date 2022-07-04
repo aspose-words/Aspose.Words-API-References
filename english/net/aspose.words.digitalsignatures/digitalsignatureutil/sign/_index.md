@@ -26,7 +26,7 @@ public static void Sign(Stream srcStream, Stream dstStream, CertificateHolder ce
 | certHolder | CertificateHolder | [`CertificateHolder`](../../certificateholder) object with certificate that used to sign file. The certificate in holder MUST contain private keys and have the X509KeyStorageFlags.Exportable flag set. |
 | signOptions | SignOptions | [`SignOptions`](../../signoptions) object with various signing options. |
 
-### Examples
+## Examples
 
 Shows how to digitally sign documents.
 
@@ -80,7 +80,7 @@ public static void Sign(string srcFileName, string dstFileName, CertificateHolde
 | certHolder | CertificateHolder | [`CertificateHolder`](../../certificateholder) object with certificate that used to sign file. The certificate in holder MUST contain private keys and have the X509KeyStorageFlags.Exportable flag set. |
 | signOptions | SignOptions | [`SignOptions`](../../signoptions) object with various signing options. |
 
-### Examples
+## Examples
 
 Shows how to add a signature line to a document, and then sign it using a digital certificate.
 
@@ -220,7 +220,7 @@ public static void Sign(Stream srcStream, Stream dstStream, CertificateHolder ce
 | dstStream | Stream | The stream that signed document will be written to. |
 | certHolder | CertificateHolder | [`CertificateHolder`](../../certificateholder) object with certificate that used to sign file. The certificate in holder MUST contain private keys and have the X509KeyStorageFlags.Exportable flag set. |
 
-### Examples
+## Examples
 
 Shows how to sign documents with X.509 certificates.
 
@@ -285,7 +285,7 @@ public static void Sign(string srcFileName, string dstFileName, CertificateHolde
 | dstFileName | String | The file name of the signed document output. |
 | certHolder | CertificateHolder | [`CertificateHolder`](../../certificateholder) object with certificate that used to sign file. The certificate in holder MUST contain private keys and have the X509KeyStorageFlags.Exportable flag set. |
 
-### Examples
+## Examples
 
 Shows how to sign documents with X.509 certificates.
 

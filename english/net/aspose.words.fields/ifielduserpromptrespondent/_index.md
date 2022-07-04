@@ -3,7 +3,7 @@ title: IFieldUserPromptRespondent
 second_title: Aspose.Words for .NET API Reference
 description: Represents the respondent to user prompts during field update.
 type: docs
-weight: 2510
+weight: 2560
 url: /net/aspose.words.fields/ifielduserpromptrespondent/
 ---
 ## IFieldUserPromptRespondent interface
@@ -20,11 +20,11 @@ public interface IFieldUserPromptRespondent
 | --- | --- |
 | [Respond](../../aspose.words.fields/ifielduserpromptrespondent/respond)(string, string) | When implemented, returns a response from the user on prompting. Your implementation should return **null** to indicate that the user has not responded to the prompt (i.e. the user has pressed the Cancel button in the prompt window). |
 
-### Remarks
+## Remarks
 
 The ASK and FILLIN fields are the examples of fields that prompt the user for some response. Implement this interface and assign it to the [`UserPromptRespondent`](../fieldoptions/userpromptrespondent) property to establish interaction between field update and the user.
 
-### Examples
+## Examples
 
 Shows how to create an ASK field, and set its properties.
 

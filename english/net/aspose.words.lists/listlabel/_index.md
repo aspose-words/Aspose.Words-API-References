@@ -3,7 +3,7 @@ title: ListLabel
 second_title: Aspose.Words for .NET API Reference
 description: Defines properties specific to a list label.
 type: docs
-weight: 3240
+weight: 3290
 url: /net/aspose.words.lists/listlabel/
 ---
 ## ListLabel class
@@ -22,7 +22,7 @@ public class ListLabel
 | [LabelString](../../aspose.words.lists/listlabel/labelstring) { get; } | Gets a string representation of list label. |
 | [LabelValue](../../aspose.words.lists/listlabel/labelvalue) { get; } | Gets a numeric value for this label. |
 
-### Examples
+## Examples
 
 Shows how to extract the list labels of all paragraphs that are list items.
 

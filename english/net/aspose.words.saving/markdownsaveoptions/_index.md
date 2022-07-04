@@ -3,7 +3,7 @@ title: MarkdownSaveOptions
 second_title: Aspose.Words for .NET API Reference
 description: Class to specify additional options when saving a document into the Markdown format.
 type: docs
-weight: 4950
+weight: 5000
 url: /net/aspose.words.saving/markdownsaveoptions/
 ---
 ## MarkdownSaveOptions class

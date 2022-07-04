@@ -18,7 +18,7 @@ public BuildingBlock[] ToArray()
 
 An array of building blocks.
 
-### Examples
+## Examples
 
 Shows ways of accessing building blocks in a glossary document.
 

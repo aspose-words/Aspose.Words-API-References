@@ -3,7 +3,7 @@ title: CompatibilityOptions
 second_title: Aspose.Words for .NET API Reference
 description: Contains compatibility options that is the user preferences entered on the Compatibility tab of the Options dialog in Microsoft Word.
 type: docs
-weight: 5440
+weight: 5490
 url: /net/aspose.words.settings/compatibilityoptions/
 ---
 ## CompatibilityOptions class
@@ -96,7 +96,7 @@ public class CompatibilityOptions
 | --- | --- |
 | [OptimizeFor](../../aspose.words.settings/compatibilityoptions/optimizefor)(MsWordVersion) | Allows to optimize the document contents as well as default Aspose.Words behavior to a particular versions of MS Word. |
 
-### Examples
+## Examples
 
 Shows how to vertically align the text contents of a text box.
 

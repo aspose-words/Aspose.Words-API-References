@@ -14,7 +14,7 @@ Gets or sets the rule for determining the height of the table row.
 public HeightRule HeightRule { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to format rows with a document builder.
 

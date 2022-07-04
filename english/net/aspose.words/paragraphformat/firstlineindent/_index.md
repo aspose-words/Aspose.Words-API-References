@@ -16,7 +16,7 @@ Use positive values to set the first-line indent, and negative values to set the
 public double FirstLineIndent { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to insert a paragraph into the document.
 

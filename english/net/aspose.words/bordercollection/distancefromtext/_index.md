@@ -14,7 +14,7 @@ Gets or sets distance of the border from text in points.
 public double DistanceFromText { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 Gets the distance from text for the first border.
 
@@ -22,7 +22,7 @@ Sets the distance from text for all borders in the collection excluding diagonal
 
 Has no effect and will be automatically reset to zero for borders of table cells.
 
-### Examples
+## Examples
 
 Shows how to create green wavy page border with a shadow.
 

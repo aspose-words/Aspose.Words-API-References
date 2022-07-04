@@ -14,7 +14,7 @@ True if the first and last lines in the paragraph are to remain on the same page
 public bool WidowControl { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to enable widow/orphan control for a paragraph.
 

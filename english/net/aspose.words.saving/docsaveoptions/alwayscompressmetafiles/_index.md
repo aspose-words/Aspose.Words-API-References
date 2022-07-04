@@ -14,7 +14,7 @@ When `false`, small metafiles are not compressed for performance reason. Default
 public bool AlwaysCompressMetafiles { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to change metafiles compression in a document while saving.
 

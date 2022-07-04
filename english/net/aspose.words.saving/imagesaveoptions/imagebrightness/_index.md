@@ -14,13 +14,13 @@ Gets or sets the brightness for the generated images.
 public float ImageBrightness { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 This property has effect only when saving to raster image formats.
 
 The default value is 0.5. The value must be in the range between 0 and 1.
 
-### Examples
+## Examples
 
 Shows how to edit the image while Aspose.Words converts a document to one.
 

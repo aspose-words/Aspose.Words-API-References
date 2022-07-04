@@ -18,7 +18,7 @@ public Paragraph[] ToArray()
 
 An array of paragraphs.
 
-### Examples
+## Examples
 
 Shows how to create an array from a NodeCollection.
 

@@ -14,7 +14,7 @@ Allows to control how images are saved when a document is saved to XAML.
 public IImageSavingCallback ImageSavingCallback { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to print the filenames of linked images created while converting a document to flow-form .xaml.
 

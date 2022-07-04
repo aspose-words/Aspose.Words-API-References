@@ -3,7 +3,7 @@ title: RowCollection
 second_title: Aspose.Words for .NET API Reference
 description: Provides typed access to a collection of Row./row nodes.
 type: docs
-weight: 5970
+weight: 6020
 url: /net/aspose.words.tables/rowcollection/
 ---
 ## RowCollection class
@@ -35,7 +35,7 @@ public class RowCollection : NodeCollection
 | [RemoveAt](../../aspose.words/nodecollection/removeat)(int) | Removes the node at the specified index from the collection and from the document. |
 | [ToArray](../../aspose.words.tables/rowcollection/toarray#toarray_1)() | Copies all rows from the collection to a new array of rows. (2 methods) |
 
-### Examples
+## Examples
 
 Shows how to iterate through all tables in the document and print the contents of each cell.
 

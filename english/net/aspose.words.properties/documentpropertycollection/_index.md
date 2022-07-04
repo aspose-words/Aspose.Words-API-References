@@ -3,7 +3,7 @@ title: DocumentPropertyCollection
 second_title: Aspose.Words for .NET API Reference
 description: Base class for BuiltInDocumentProperties./builtindocumentproperties and CustomDocumentProperties./customdocumentproperties collections.
 type: docs
-weight: 4180
+weight: 4230
 url: /net/aspose.words.properties/documentpropertycollection/
 ---
 ## DocumentPropertyCollection class
@@ -33,13 +33,13 @@ public abstract class DocumentPropertyCollection : IEnumerable<DocumentProperty>
 | [Remove](../../aspose.words.properties/documentpropertycollection/remove)(string) | Removes a property with the specified name from the collection. |
 | [RemoveAt](../../aspose.words.properties/documentpropertycollection/removeat)(int) | Removes a property at the specified index. |
 
-### Remarks
+## Remarks
 
 The names of the properties are case-insensitive.
 
 The properties in the collection are sorted alphabetically by name.
 
-### Examples
+## Examples
 
 Shows how to work with a document's custom properties.
 

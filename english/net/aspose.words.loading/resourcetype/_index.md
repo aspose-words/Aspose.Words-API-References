@@ -3,7 +3,7 @@ title: ResourceType
 second_title: Aspose.Words for .NET API Reference
 description: Type of loaded resource.
 type: docs
-weight: 3450
+weight: 3500
 url: /net/aspose.words.loading/resourcetype/
 ---
 ## ResourceType enumeration
@@ -22,7 +22,7 @@ public enum ResourceType
 | CssStyleSheet | `1` | Css style sheet. |
 | Document | `2` | Document. |
 
-### Examples
+## Examples
 
 Shows how to customize the process of loading external resources into a document.
 

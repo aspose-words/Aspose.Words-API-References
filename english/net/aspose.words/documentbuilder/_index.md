@@ -125,7 +125,7 @@ public class DocumentBuilder
 | [Writeln](../../aspose.words/documentbuilder/writeln#writeln)() | Inserts a paragraph break into the document. |
 | [Writeln](../../aspose.words/documentbuilder/writeln#writeln_1)(string) | Inserts a string and a paragraph break into the document. |
 
-### Remarks
+## Remarks
 
 **DocumentBuilder** makes the process of building a **Document** easier. **Document** is a composite object consisting of a tree of nodes and while inserting content nodes directly into the tree is possible, it requires good understanding of the tree structure. **DocumentBuilder** is a "facade" for the complex structure of **Document** and allows to insert content and formatting quickly and easily.
 
@@ -143,7 +143,7 @@ Use the [`CellFormat`](./cellformat) and [`RowFormat`](./rowformat) properties t
 
 Note that **Font**, **ParagraphFormat** and **PageSetup** properties are updated whenever you navigate to a different place in the document to reflect formatting properties available at the new location.
 
-### Examples
+## Examples
 
 Shows how to use a document builder to create a table.
 

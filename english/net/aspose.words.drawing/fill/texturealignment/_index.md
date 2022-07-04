@@ -14,7 +14,7 @@ Gets or sets the alignment for tile texture fill.
 public TextureAlignment TextureAlignment { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to fill and tiling the texture inside the shape.
 

@@ -3,7 +3,7 @@ title: IFieldResultFormatter
 second_title: Aspose.Words for .NET API Reference
 description: Implement this interface if you want to control how the field result is formatted.
 type: docs
-weight: 2480
+weight: 2530
 url: /net/aspose.words.fields/ifieldresultformatter/
 ---
 ## IFieldResultFormatter interface
@@ -23,7 +23,7 @@ public interface IFieldResultFormatter
 | [FormatDateTime](../../aspose.words.fields/ifieldresultformatter/formatdatetime)(DateTime, string, CalendarType) | Called when Aspose.Words applies a date/time format switch, i.e. \@ "dd.MM.yyyy". |
 | [FormatNumeric](../../aspose.words.fields/ifieldresultformatter/formatnumeric)(double, string) | Called when Aspose.Words applies a numeric format switch, i.e. \# "#.##". |
 
-### Examples
+## Examples
 
 Shows how to automatically apply a custom format to field results as the fields are updated.
 

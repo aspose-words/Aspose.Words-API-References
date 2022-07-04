@@ -23,11 +23,11 @@ public Node InsertDocument(Document srcDoc, ImportFormatMode importFormatMode)
 
 First node of the inserted content.
 
-### Remarks
+## Remarks
 
 This method mimics the MS Word behavior, as if CTRL+'A' (select all content) was pressed, then CTRL+'C' (copy selected into the buffer) inside one document and then CTRL+'V' (insert content from the buffer) inside another document.
 
-### Examples
+## Examples
 
 Shows how to insert a document into another document.
 
@@ -74,11 +74,11 @@ public Node InsertDocument(Document srcDoc, ImportFormatMode importFormatMode,
 
 First node of the inserted content.
 
-### Remarks
+## Remarks
 
 This method mimics the MS Word behavior, as if CTRL+'A' (select all content) was pressed, then CTRL+'C' (copy selected into the buffer) inside one document and then CTRL+'V' (insert content from the buffer) inside another document.
 
-### Examples
+## Examples
 
 Shows how to resolve duplicate styles while inserting documents.
 

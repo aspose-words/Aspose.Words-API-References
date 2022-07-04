@@ -3,7 +3,7 @@ title: MailMergeMainDocumentType
 second_title: Aspose.Words for .NET API Reference
 description: Specifies the possible types for a mail merge source document.
 type: docs
-weight: 5490
+weight: 5540
 url: /net/aspose.words.settings/mailmergemaindocumenttype/
 ---
 ## MailMergeMainDocumentType enumeration
@@ -27,7 +27,7 @@ public enum MailMergeMainDocumentType
 | Fax | `32` | Specifies that the mail merge source document is of the fax type. |
 | Default | `0` | Equals to NotAMergeDocument |
 
-### Examples
+## Examples
 
 Shows how to execute a mail merge with data from an Office Data Source Object.
 

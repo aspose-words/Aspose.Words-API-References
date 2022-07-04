@@ -3,7 +3,7 @@ title: FileFormatUtil
 second_title: Aspose.Words for .NET API Reference
 description: Provides utility methods for working with file formats such as detecting file format or converting file extensions to/from file format enums.
 type: docs
-weight: 2590
+weight: 2640
 url: /net/aspose.words/fileformatutil/
 ---
 ## FileFormatUtil class
@@ -29,7 +29,7 @@ public static class FileFormatUtil
 | static [SaveFormatToExtension](../../aspose.words/fileformatutil/saveformattoextension)(SaveFormat) | Converts a save format enumerated value into a file extension. The returned extension is a lower-case string with a leading dot. |
 | static [SaveFormatToLoadFormat](../../aspose.words/fileformatutil/saveformattoloadformat)(SaveFormat) | Converts a [`SaveFormat`](../saveformat) value to a [`LoadFormat`](../loadformat) value if possible. |
 
-### Examples
+## Examples
 
 Shows how to detect encoding in an html file.
 

@@ -3,7 +3,7 @@ title: ShapeType
 second_title: Aspose.Words for .NET API Reference
 description: Specifies the type of shape in a Microsoft Word document.
 type: docs
-weight: 1120
+weight: 1140
 url: /net/aspose.words.drawing/shapetype/
 ---
 ## ShapeType enumeration
@@ -269,7 +269,7 @@ public enum ShapeType
 | ChartX | `246` | Chart X. |
 | MinValue | `-2` | Reserved for the system use. |
 
-### Examples
+## Examples
 
 Shows how to insert a shape with an image from the local file system into a document.
 

@@ -14,7 +14,7 @@ Initializes an instance of this class.
 public PdfDigitalSignatureTimestampSettings()
 ```
 
-### Examples
+## Examples
 
 Shows how to sign a saved PDF document digitally and timestamp it.
 
@@ -73,7 +73,7 @@ public PdfDigitalSignatureTimestampSettings(string serverUrl, string userName, s
 | userName | String | Timestamp server user name. |
 | password | String | Timestamp server password. |
 
-### Examples
+## Examples
 
 Shows how to sign a saved PDF document digitally and timestamp it.
 
@@ -134,7 +134,7 @@ public PdfDigitalSignatureTimestampSettings(string serverUrl, string userName, s
 | password | String | Timestamp server password. |
 | timeout | TimeSpan | Time-out value for accessing timestamp server. |
 
-### Examples
+## Examples
 
 Shows how to sign a saved PDF document digitally and timestamp it.
 

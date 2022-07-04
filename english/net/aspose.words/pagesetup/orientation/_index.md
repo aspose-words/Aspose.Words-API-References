@@ -14,11 +14,11 @@ Returns or sets the orientation of the page.
 public Orientation Orientation { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 Changing **Orientation** swaps [`PageWidth`](../pagewidth) and [`PageHeight`](../pageheight).
 
-### Examples
+## Examples
 
 Shows how to adjust paper size, orientation, margins, along with other settings for a section.
 

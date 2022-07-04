@@ -14,11 +14,11 @@ Specifies that this section contains bidirectional (complex scripts) text.
 public bool Bidi { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 When true, the columns in this section are laid out from right to left.
 
-### Examples
+## Examples
 
 Shows how to set the order of text columns in a section.
 

@@ -49,13 +49,13 @@ public sealed class CommentRangeEnd : Node
 | [ToString](../../aspose.words/node/tostring)(SaveFormat) | Exports the content of the node into a string in the specified format. |
 | [ToString](../../aspose.words/node/tostring)(SaveOptions) | Exports the content of the node into a string using the specified save options. |
 
-### Remarks
+## Remarks
 
 To create a comment anchored to a region of text, you need to create a [`Comment`](../comment) and then create [`CommentRangeStart`](../commentrangestart) and [`CommentRangeEnd`](../commentrangeend) and set their identifiers to the same [`Id`](../comment/id) value.
 
 [`CommentRangeEnd`](../commentrangeend) is an inline-level node and can only be a child of [`Paragraph`](../paragraph).
 
-### Examples
+## Examples
 
 Shows how print the contents of all comments and their comment ranges using a document visitor.
 

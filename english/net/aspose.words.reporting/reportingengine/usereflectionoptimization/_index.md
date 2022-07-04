@@ -14,7 +14,7 @@ Gets or sets a value indicating whether invocations of custom type members perfo
 public static bool UseReflectionOptimization { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 There are some scenarios where it is preferrable to disable this optimization. For example, if you are dealing with small collections of data items all the time, then an overhead of dynamic class generation can be more noticeable than an overhead of direct reflection API calls. The option does not have effect when run on iOS and reflection optimization is not used.
 

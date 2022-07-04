@@ -3,7 +3,7 @@ title: LayoutEnumerator
 second_title: Aspose.Words for .NET API Reference
 description: Enumerates page layout entities of a document. You can use this class to walk over the page layout model. Available properties are type geometry text and page index where entity is rendered as well as overall structure and relationships. Use combination of GetEntity./layoutcollector/getentity and Current./layoutenumerator/current move to the entity which corresponds to a document node.
 type: docs
-weight: 3090
+weight: 3140
 url: /net/aspose.words.layout/layoutenumerator/
 ---
 ## LayoutEnumerator class
@@ -46,7 +46,7 @@ public class LayoutEnumerator
 | [MovePreviousLogical](../../aspose.words.layout/layoutenumerator/movepreviouslogical)() | Moves to the previous sibling entity in a logical order. When iterating lines of a paragraph broken across pages this method will move to the previous line even if it resides on another page. |
 | [Reset](../../aspose.words.layout/layoutenumerator/reset)() | Moves the enumerator to the first page of the document. |
 
-### Examples
+## Examples
 
 Shows ways of traversing a document's layout entities.
 

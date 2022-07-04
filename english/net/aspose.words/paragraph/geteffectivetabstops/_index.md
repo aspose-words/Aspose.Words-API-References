@@ -14,7 +14,7 @@ Returns array of all tab stops applied to this paragraph, including applied indi
 public TabStop[] GetEffectiveTabStops()
 ```
 
-### Examples
+## Examples
 
 Shows how to set custom tab stops for a paragraph.
 

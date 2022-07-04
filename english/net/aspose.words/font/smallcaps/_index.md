@@ -14,7 +14,7 @@ True if the font is formatted as small capital letters.
 public bool SmallCaps { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to format a run to display its contents in capitals.
 

@@ -3,7 +3,7 @@ title: VerticalAlignment
 second_title: Aspose.Words for .NET API Reference
 description: Specifies vertical alignment of a floating shape text frame or a floating table.
 type: docs
-weight: 1210
+weight: 1230
 url: /net/aspose.words.drawing/verticalalignment/
 ---
 ## VerticalAlignment enumeration
@@ -27,7 +27,7 @@ public enum VerticalAlignment
 | Inline | `-1` | Not documented. Seems to be a possible value for floating paragraphs and tables. |
 | Default | `0` | Same as None. |
 
-### Examples
+## Examples
 
 Shows how to insert a floating image to the center of a page.
 

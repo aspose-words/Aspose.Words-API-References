@@ -14,7 +14,7 @@ Gets or sets the new text of the bookmark.
 public string BookmarkText { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to create bookmarked text with a SET field, and then display it in the document using a REF field.
 

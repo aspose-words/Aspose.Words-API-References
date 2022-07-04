@@ -14,11 +14,11 @@ Gets the original file name of the document.
 public string OriginalFileName { get; }
 ```
 
-### Remarks
+## Remarks
 
 Returns null if the document was loaded from a stream or created blank.
 
-### Examples
+## Examples
 
 Shows how to retrieve details of a document's load operation.
 

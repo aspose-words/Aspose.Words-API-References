@@ -29,11 +29,11 @@ public class CertificateHolder
 | static [Create](../../aspose.words.digitalsignatures/certificateholder/create#create_2)(string, string) | Creates CertificateHolder object using path to PKCS12 store and its password. |
 | static [Create](../../aspose.words.digitalsignatures/certificateholder/create#create_3)(string, string, string) | Creates CertificateHolder object using path to PKCS12 store, its password and the alias by using which private key and certificate will be found. |
 
-### Remarks
+## Remarks
 
 **CertificateHolder** can be created by static factory methods only. It contains an instance of **X509Certificate2** which is used to introduce private, public keys and certificate chains into the system. This class is applied in [`DigitalSignatureUtil`](../digitalsignatureutil) and [`PdfDigitalSignatureDetails`](../../aspose.words.saving/pdfdigitalsignaturedetails) instead of obsolete methods with X509Certificate2 as parameters.
 
-### Examples
+## Examples
 
 Shows how to sign encrypted document file.
 

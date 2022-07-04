@@ -3,7 +3,7 @@ title: HtmlFixedPageHorizontalAlignment
 second_title: Aspose.Words for .NET API Reference
 description: Specifies the horizontal alignment for pages in output HTML document.
 type: docs
-weight: 4760
+weight: 4810
 url: /net/aspose.words.saving/htmlfixedpagehorizontalalignment/
 ---
 ## HtmlFixedPageHorizontalAlignment enumeration
@@ -22,7 +22,7 @@ public enum HtmlFixedPageHorizontalAlignment
 | Center | `1` | Center pages. This is the default value. |
 | Right | `2` | Align pages to the right. |
 
-### Examples
+## Examples
 
 Shows how to set the horizontal alignment of pages when saving a document to HTML.
 

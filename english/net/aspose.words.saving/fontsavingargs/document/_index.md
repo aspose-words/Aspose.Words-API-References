@@ -14,7 +14,7 @@ Gets the document object that is being saved.
 public Document Document { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to define custom logic for exporting fonts when saving to HTML.
 

@@ -3,7 +3,7 @@ title: LanguagePreferences
 second_title: Aspose.Words for .NET API Reference
 description: Allows to set up language preferences.
 type: docs
-weight: 3400
+weight: 3450
 url: /net/aspose.words.loading/languagepreferences/
 ---
 ## LanguagePreferences class
@@ -33,11 +33,11 @@ public class LanguagePreferences
 | [AddEditingLanguage](../../aspose.words.loading/languagepreferences/addeditinglanguage)(EditingLanguage) | Adds additional editing language. |
 | [AddEditingLanguages](../../aspose.words.loading/languagepreferences/addeditinglanguages)(EditingLanguage[]) | Adds additional editing languages. |
 
-### Remarks
+## Remarks
 
 Implements 'Set the Office Language Preferences' dialog in Word.
 
-### Examples
+## Examples
 
 Shows how to apply language preferences when loading a document.
 

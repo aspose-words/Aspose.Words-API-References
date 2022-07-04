@@ -3,7 +3,7 @@ title: FieldNumPages
 second_title: Aspose.Words for .NET API Reference
 description: Implements the NUMPAGES field.
 type: docs
-weight: 2030
+weight: 2070
 url: /net/aspose.words.fields/fieldnumpages/
 ---
 ## FieldNumPages class
@@ -46,11 +46,11 @@ public class FieldNumPages : Field
 | [Update](../../aspose.words.fields/field/update)() | Performs the field update. Throws if the field is being updated already. |
 | [Update](../../aspose.words.fields/field/update)(bool) | Performs a field update. Throws if the field is being updated already. |
 
-### Remarks
+## Remarks
 
 Retrieves the number of pages in the current document, as recorded in the **Pages** property of the built-in document properties.
 
-### Examples
+## Examples
 
 Shows how to use NUMCHARS, NUMWORDS, NUMPAGES and PAGE fields to track the size of our documents.
 

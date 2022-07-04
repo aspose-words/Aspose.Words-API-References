@@ -14,7 +14,7 @@ True indicates case-sensitive comparison, false indicates case-insensitive compa
 public bool MatchCase { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to toggle case sensitivity when performing a find-and-replace operation.
 

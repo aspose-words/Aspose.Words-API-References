@@ -3,7 +3,7 @@ title: FontSourceType
 second_title: Aspose.Words for .NET API Reference
 description: Specifies the type of a font source.
 type: docs
-weight: 2760
+weight: 2810
 url: /net/aspose.words.fonts/fontsourcetype/
 ---
 ## FontSourceType enumeration
@@ -24,7 +24,7 @@ public enum FontSourceType
 | SystemFonts | `3` | A [`SystemFontSource`](../systemfontsource) object that represents all fonts installed to the system. |
 | FontStream | `4` | A [`StreamFontSource`](../streamfontsource) object that represents a stream with font data. |
 
-### Examples
+## Examples
 
 Shows how to use a font file in the local file system as a font source.
 

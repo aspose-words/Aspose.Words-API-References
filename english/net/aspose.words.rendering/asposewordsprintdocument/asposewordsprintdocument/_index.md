@@ -18,7 +18,7 @@ public AsposeWordsPrintDocument(Document document)
 | --- | --- | --- |
 | document | Document | The document to print. |
 
-### Examples
+## Examples
 
 Shows how to select a page range and a printer to print the document with, and then bring up a print preview.
 

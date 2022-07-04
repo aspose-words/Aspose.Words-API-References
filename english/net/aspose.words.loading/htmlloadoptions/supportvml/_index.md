@@ -14,7 +14,7 @@ Gets or sets a value indicating whether to support VML images.
 public bool SupportVml { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to support conditional comments while loading an HTML document.
 

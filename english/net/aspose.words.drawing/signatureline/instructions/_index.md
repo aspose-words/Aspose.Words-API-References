@@ -14,7 +14,7 @@ Gets or sets instructions to the signer that are displayed on signing the signat
 public string Instructions { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to create a line for a signature and insert it into a document.
 

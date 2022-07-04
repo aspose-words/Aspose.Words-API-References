@@ -14,7 +14,7 @@ Resets the cache of fontconfig calling results.
 public void ResetCache()
 ```
 
-### Examples
+## Examples
 
 Shows operating system-dependent font config substitution.
 

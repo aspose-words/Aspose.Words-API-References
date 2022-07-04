@@ -14,11 +14,11 @@ Determines whether kerning is turned on.
 public bool Kerning { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 The default value is **false**.
 
-### Examples
+## Examples
 
 Shows how to work with WordArt.
 

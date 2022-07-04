@@ -14,7 +14,7 @@ Gets the bottom border.
 public Border Bottom { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to apply border and shading color while building a table.
 

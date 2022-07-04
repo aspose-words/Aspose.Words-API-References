@@ -14,7 +14,7 @@ Gets a string that represents the XML contained within the node in the FlatOpc f
 public string WordOpenXML { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to get XML contained within the node in the FlatOpc format.
 

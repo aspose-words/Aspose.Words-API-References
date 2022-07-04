@@ -22,11 +22,11 @@ public CompositeNode GetAncestor(Type ancestorType)
 
 The ancestor of the specified type or null if no ancestor of this type was found.
 
-### Remarks
+## Remarks
 
 The ancestor type matches if it is equal to ancestorType or derived from ancestorType.
 
-### Examples
+## Examples
 
 Shows how to find out if a tables are nested.
 
@@ -127,7 +127,7 @@ public CompositeNode GetAncestor(NodeType ancestorType)
 
 The ancestor of the specified type or null if no ancestor of this type was found.
 
-### Examples
+## Examples
 
 Shows how to find out if a tables are nested.
 

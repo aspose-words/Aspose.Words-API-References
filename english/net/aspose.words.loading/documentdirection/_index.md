@@ -3,7 +3,7 @@ title: DocumentDirection
 second_title: Aspose.Words for .NET API Reference
 description: Allows to specify the direction to flow the text in a document.
 type: docs
-weight: 3330
+weight: 3380
 url: /net/aspose.words.loading/documentdirection/
 ---
 ## DocumentDirection enumeration

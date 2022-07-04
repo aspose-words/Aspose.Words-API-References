@@ -14,13 +14,13 @@ Gets or sets a boolean value that specifies how styles will be imported when the
 public bool SmartStyleBehavior { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 When this option is **enabled**, the source style will be expanded into a direct attributes inside a destination document, if KeepSourceFormatting importing mode is used.
 
 When this option is **disabled**, the source style will be expanded only if it is numbered. Existing destination attributes will not be overridden, including lists.
 
-### Examples
+## Examples
 
 Shows how to resolve duplicate styles while inserting documents.
 

@@ -27,11 +27,11 @@ public FormField InsertTextInput(string name, TextFormFieldType type, string for
 
 The form field node that was just inserted.
 
-### Remarks
+## Remarks
 
 If you specify a name for the form field, then a bookmark is automatically created with the same name.
 
-### Examples
+## Examples
 
 Shows how to insert a text input form field into a document.
 

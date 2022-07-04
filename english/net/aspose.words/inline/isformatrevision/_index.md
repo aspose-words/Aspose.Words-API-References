@@ -14,7 +14,7 @@ Returns true if formatting of the object was changed in Microsoft Word while cha
 public bool IsFormatRevision { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to determine the revision type of an inline node.
 

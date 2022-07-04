@@ -14,11 +14,11 @@ Gets or sets a value indicating whether to ignore &lt;noscript&gt; HTML elements
 public bool IgnoreNoscriptElements { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 Like MS Word, Aspose.Words does not support scripts and by default loads content of &lt;noscript&gt; elements into the resulting document. In most browsers, however, scripts are supported and content from &lt;noscript&gt; is not visible. Setting this property to `true` forces Aspose.Words to ignore all &lt;noscript&gt; elements and helps to produce documents that look closer to what is seen in browsers.
 
-### Examples
+## Examples
 
 Shows how to ignore &lt;noscript&gt; HTML elements.
 

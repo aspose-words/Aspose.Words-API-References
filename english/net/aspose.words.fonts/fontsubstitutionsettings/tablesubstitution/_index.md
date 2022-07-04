@@ -14,7 +14,7 @@ Settings related to table substitution rule.
 public TableSubstitutionRule TableSubstitution { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to work with custom font substitution tables.
 

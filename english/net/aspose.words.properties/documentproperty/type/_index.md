@@ -14,7 +14,7 @@ Gets the data type of the property.
 public PropertyType Type { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to work with built-in document properties.
 

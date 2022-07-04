@@ -14,7 +14,7 @@ Gets the zero-based starting position of the match from the start of the node th
 public int MatchOffset { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to apply a different font to new content via FindReplaceOptions.
 

@@ -14,7 +14,7 @@ Returns or sets the distance (in points) between the footer and the bottom of th
 public double FooterDistance { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to adjust paper size, orientation, margins, along with other settings for a section.
 

@@ -3,7 +3,7 @@ title: TextureIndex
 second_title: Aspose.Words for .NET API Reference
 description: Specifies shading texture.
 type: docs
-weight: 6100
+weight: 6150
 url: /net/aspose.words/textureindex/
 ---
 ## TextureIndex enumeration
@@ -73,7 +73,7 @@ public enum TextureIndex
 | TextureVertical | `21` |  |
 | TextureNil | `65535` | Specifies that there shall be no pattern used on the current shaded region (i.e. the pattern shall be a complete fill with the background color). |
 
-### Examples
+## Examples
 
 Shows how to decorate text with borders and shading.
 

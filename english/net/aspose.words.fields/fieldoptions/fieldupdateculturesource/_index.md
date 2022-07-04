@@ -3,7 +3,7 @@ title: FieldUpdateCultureSource
 second_title: Aspose.Words for .NET API Reference
 description: Specifies what culture to use to format the field result.
 type: docs
-weight: 90
+weight: 100
 url: /net/aspose.words.fields/fieldoptions/fieldupdateculturesource/
 ---
 ## FieldOptions.FieldUpdateCultureSource property
@@ -14,13 +14,13 @@ Specifies what culture to use to format the field result.
 public FieldUpdateCultureSource FieldUpdateCultureSource { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 By default, the culture of the current thread is used.
 
 The setting affects only date/time fields with \\@ format switch.
 
-### Examples
+## Examples
 
 Shows how to specify the source of the culture used for date formatting during a field update or mail merge.
 

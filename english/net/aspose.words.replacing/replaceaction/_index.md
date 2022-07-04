@@ -3,7 +3,7 @@ title: ReplaceAction
 second_title: Aspose.Words for .NET API Reference
 description: Allows the user to specify what happens to the current match during a replace operation.
 type: docs
-weight: 4330
+weight: 4380
 url: /net/aspose.words.replacing/replaceaction/
 ---
 ## ReplaceAction enumeration
@@ -22,7 +22,7 @@ public enum ReplaceAction
 | Skip | `1` | Skip the current match. |
 | Stop | `2` | Terminate the replace operation. |
 
-### Examples
+## Examples
 
 Shows how to insert an entire document's contents as a replacement of a match in a find-and-replace operation.
 

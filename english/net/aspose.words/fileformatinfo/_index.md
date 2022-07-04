@@ -3,7 +3,7 @@ title: FileFormatInfo
 second_title: Aspose.Words for .NET API Reference
 description: Contains data returned by FileFormatUtil./fileformatutil document format detection methods.
 type: docs
-weight: 2580
+weight: 2630
 url: /net/aspose.words/fileformatinfo/
 ---
 ## FileFormatInfo class
@@ -23,11 +23,11 @@ public class FileFormatInfo
 | [IsEncrypted](../../aspose.words/fileformatinfo/isencrypted) { get; } | Returns true if the document is encrypted and requires a password to open. |
 | [LoadFormat](../../aspose.words/fileformatinfo/loadformat) { get; } | Gets the detected document format. |
 
-### Remarks
+## Remarks
 
 You do not create instances of this class directly. Objects of this class are returned by [`DetectFileFormat`](../fileformatutil/detectfileformat) methods.
 
-### Examples
+## Examples
 
 Shows how to use the FileFormatUtil class to detect the document format and encryption.
 

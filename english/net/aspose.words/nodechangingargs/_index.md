@@ -3,7 +3,7 @@ title: NodeChangingArgs
 second_title: Aspose.Words for .NET API Reference
 description: Provides data for methods of the INodeChangingCallback./inodechangingcallback interface.
 type: docs
-weight: 3900
+weight: 3950
 url: /net/aspose.words/nodechangingargs/
 ---
 ## NodeChangingArgs class
@@ -23,7 +23,7 @@ public class NodeChangingArgs
 | [Node](../../aspose.words/nodechangingargs/node) { get; } | Gets the [`Node`](./node) that is being added or removed. |
 | [OldParent](../../aspose.words/nodechangingargs/oldparent) { get; } | Gets the node's parent before the operation began. |
 
-### Examples
+## Examples
 
 Shows how customize node changing with a callback.
 

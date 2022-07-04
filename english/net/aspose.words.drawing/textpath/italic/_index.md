@@ -14,11 +14,11 @@ True if the font is formatted as italic.
 public bool Italic { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 The default value is **false**.
 
-### Examples
+## Examples
 
 Shows how to work with WordArt.
 

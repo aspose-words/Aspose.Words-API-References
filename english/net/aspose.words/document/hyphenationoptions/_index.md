@@ -14,7 +14,7 @@ Provides access to document hyphenation options.
 public HyphenationOptions HyphenationOptions { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to configure automatic hyphenation.
 

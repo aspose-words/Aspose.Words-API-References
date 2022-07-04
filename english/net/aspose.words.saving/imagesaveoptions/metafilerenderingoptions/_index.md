@@ -14,7 +14,7 @@ Allows to specify how metafiles are treated in the rendered output.
 public MetafileRenderingOptions MetafileRenderingOptions { get; }
 ```
 
-### Remarks
+## Remarks
 
 When Vector is specified, Aspose.Words renders metafile to vector graphics using its own metafile rendering engine first and then renders vector graphics to the image.
 
@@ -24,7 +24,7 @@ GDI+ metafile rendering engine works faster, supports almost all metafile featur
 
 The default value for [`MetafileRenderingMode`](../../metafilerenderingmode) is Bitmap.
 
-### Examples
+## Examples
 
 Shows how to set the rendering mode when saving documents with Windows Metafile images to other image formats.
 

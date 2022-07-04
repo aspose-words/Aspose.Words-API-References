@@ -3,7 +3,7 @@ title: FileFontSource
 second_title: Aspose.Words for .NET API Reference
 description: Represents the single TrueType font file stored in the file system.
 type: docs
-weight: 2640
+weight: 2690
 url: /net/aspose.words.fonts/filefontsource/
 ---
 ## FileFontSource class
@@ -38,7 +38,7 @@ public class FileFontSource : FontSourceBase
 | --- | --- |
 | [GetAvailableFonts](../../aspose.words.fonts/fontsourcebase/getavailablefonts)() | Returns list of fonts available via this source. |
 
-### Examples
+## Examples
 
 Shows how to use a font file in the local file system as a font source.
 

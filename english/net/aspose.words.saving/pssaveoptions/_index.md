@@ -3,7 +3,7 @@ title: PsSaveOptions
 second_title: Aspose.Words for .NET API Reference
 description: Can be used to specify additional options when saving a document into the Ps format.
 type: docs
-weight: 5220
+weight: 5270
 url: /net/aspose.words.saving/pssaveoptions/
 ---
 ## PsSaveOptions class
@@ -60,7 +60,7 @@ public class PsSaveOptions : FixedPageSaveOptions
 | --- | --- |
 | override [Equals](../../aspose.words.saving/fixedpagesaveoptions/equals)(object) | Determines whether the specified object is equal in value to the current object. |
 
-### Examples
+## Examples
 
 Shows how to save a document to the Postscript format in the form of a book fold.
 

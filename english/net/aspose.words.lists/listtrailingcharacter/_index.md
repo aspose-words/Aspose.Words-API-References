@@ -3,7 +3,7 @@ title: ListTrailingCharacter
 second_title: Aspose.Words for .NET API Reference
 description: Specifies the character that separates the list label from the text of the paragraph.
 type: docs
-weight: 3290
+weight: 3340
 url: /net/aspose.words.lists/listtrailingcharacter/
 ---
 ## ListTrailingCharacter enumeration
@@ -22,11 +22,11 @@ public enum ListTrailingCharacter
 | Space | `1` | A space character is placed between the list label and text of the paragraph. |
 | Nothing | `2` | There is no separator character between the list label and text of the paragraph. |
 
-### Remarks
+## Remarks
 
 Used as a value for the [`TrailingCharacter`](../listlevel/trailingcharacter) property.
 
-### Examples
+## Examples
 
 Shows how to apply custom list formatting to paragraphs when using DocumentBuilder.
 

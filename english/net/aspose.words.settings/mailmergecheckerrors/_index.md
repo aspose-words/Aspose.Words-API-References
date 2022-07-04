@@ -3,7 +3,7 @@ title: MailMergeCheckErrors
 second_title: Aspose.Words for .NET API Reference
 description: Specifies how Microsoft Word will report errors detected during mail merge.
 type: docs
-weight: 5460
+weight: 5510
 url: /net/aspose.words.settings/mailmergecheckerrors/
 ---
 ## MailMergeCheckErrors enumeration
@@ -23,7 +23,7 @@ public enum MailMergeCheckErrors
 | CollectErrors | `3` | Complete the merge and report errors in a new document. |
 | Default | `2` | Equals to the PauseOnError value. |
 
-### Examples
+## Examples
 
 Shows how to execute a mail merge with data from an Office Data Source Object.
 

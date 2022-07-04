@@ -3,7 +3,7 @@ title: WebExtensionBindingType
 second_title: Aspose.Words for .NET API Reference
 description: Enumerates available types of binding between a web extension and the data in the document.
 type: docs
-weight: 6410
+weight: 6460
 url: /net/aspose.words.webextensions/webextensionbindingtype/
 ---
 ## WebExtensionBindingType enumeration
@@ -23,7 +23,7 @@ public enum WebExtensionBindingType
 | Text | `2` | Plain text. |
 | Default | `0` |  |
 
-### Examples
+## Examples
 
 Shows how to add a web extension to a document.
 

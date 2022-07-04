@@ -14,7 +14,7 @@ Allows to specify the color to be used for deleted content Deletion. Default val
 public RevisionColor DeletedTextColor { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to modify the appearance of revisions.
 

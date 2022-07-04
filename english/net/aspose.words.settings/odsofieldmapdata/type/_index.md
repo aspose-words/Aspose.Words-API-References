@@ -14,7 +14,7 @@ Specifies if a given mail merge field has been mapped to a column in the given e
 public OdsoFieldMappingType Type { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to access the collection of data that maps data source columns to merge fields.
 

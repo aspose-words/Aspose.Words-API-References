@@ -18,13 +18,13 @@ public Run(DocumentBase doc)
 | --- | --- | --- |
 | doc | DocumentBase | The owner document. |
 
-### Remarks
+## Remarks
 
 When **Run** is created, it belongs to the specified document, but is not yet part of the document and **ParentNode** is null.
 
 To append **Run** to the document use InsertAfter or InsertBefore on the paragraph where you want the run inserted.
 
-### Examples
+## Examples
 
 Shows how to construct an Aspose.Words document by hand.
 
@@ -93,13 +93,13 @@ public Run(DocumentBase doc, string text)
 | doc | DocumentBase | The owner document. |
 | text | String | The text of the run. |
 
-### Remarks
+## Remarks
 
 When **Run** is created, it belongs to the specified document, but is not yet part of the document and **ParentNode** is null.
 
 To append **Run** to the document use InsertAfter or InsertBefore on the paragraph where you want the run inserted.
 
-### Examples
+## Examples
 
 Shows how to format a run of text using its font property.
 

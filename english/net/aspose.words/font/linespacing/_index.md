@@ -14,7 +14,7 @@ Returns line spacing of this font (in points).
 public double LineSpacing { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to get a font's line spacing, in points.
 

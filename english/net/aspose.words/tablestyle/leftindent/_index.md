@@ -14,7 +14,7 @@ Gets or sets the value that represents the left indent of a table.
 public double LeftIndent { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to set the position of a table.
 

@@ -14,7 +14,7 @@ Whether [`PostalAddress`](../postaladdress) is a U.S. postal address.
 public bool IsUSPostalAddress { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to use a barcode generator.
 

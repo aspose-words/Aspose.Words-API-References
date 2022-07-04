@@ -14,7 +14,7 @@ Gets the comment identifier.
 public int Id { get; }
 ```
 
-### Remarks
+## Remarks
 
 The comment identifier allows to anchor a comment to a region of text in the document. The region must be demarcated using the [`CommentRangeStart`](../../commentrangestart) and [`CommentRangeEnd`](../../commentrangeend) object sharing the same identifier value as the [`Comment`](../../comment) object.
 
@@ -22,7 +22,7 @@ You would use this value when looking for the [`CommentRangeStart`](../../commen
 
 Comment identifiers are supposed to be unique across a document and Aspose.Words automatically maintains comment identifiers when loading, saving and combining documents.
 
-### Examples
+## Examples
 
 Shows how print the contents of all comments and their comment ranges using a document visitor.
 

@@ -28,7 +28,7 @@ public class ChartDataPointCollection : IEnumerable<ChartDataPoint>
 | [ClearFormat](../../aspose.words.drawing.charts/chartdatapointcollection/clearformat)() | Clears format of all [`ChartDataPoint`](../chartdatapoint) in this collection. |
 | [GetEnumerator](../../aspose.words.drawing.charts/chartdatapointcollection/getenumerator)() | Returns an enumerator object. |
 
-### Examples
+## Examples
 
 Shows how to work with data points on a line chart.
 

@@ -3,7 +3,7 @@ title: FixedPageSaveOptions
 second_title: Aspose.Words for .NET API Reference
 description: Contains common options that can be specified when saving a document into fixed page formats PDF XPS images etc.
 type: docs
-weight: 4710
+weight: 4760
 url: /net/aspose.words.saving/fixedpagesaveoptions/
 ---
 ## FixedPageSaveOptions class
@@ -53,7 +53,7 @@ public abstract class FixedPageSaveOptions : SaveOptions
 | --- | --- |
 | override [Equals](../../aspose.words.saving/fixedpagesaveoptions/equals)(object) | Determines whether the specified object is equal in value to the current object. |
 
-### Examples
+## Examples
 
 Shows how to render every page of a document to a separate TIFF image.
 

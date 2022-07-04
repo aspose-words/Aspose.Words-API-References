@@ -3,7 +3,7 @@ title: DefaultFontSubstitutionRule
 second_title: Aspose.Words for .NET API Reference
 description: Default font substitution rule.
 type: docs
-weight: 2610
+weight: 2660
 url: /net/aspose.words.fonts/defaultfontsubstitutionrule/
 ---
 ## DefaultFontSubstitutionRule class
@@ -21,11 +21,11 @@ public class DefaultFontSubstitutionRule : FontSubstitutionRule
 | [DefaultFontName](../../aspose.words.fonts/defaultfontsubstitutionrule/defaultfontname) { get; set; } | Gets or sets the default font name. |
 | virtual [Enabled](../../aspose.words.fonts/fontsubstitutionrule/enabled) { get; set; } | Specifies whether the rule is enabled or not. |
 
-### Remarks
+## Remarks
 
 This rule defines single default font name to be used for substitution if the original font is not available.
 
-### Examples
+## Examples
 
 Shows how to set the default font substitution rule.
 

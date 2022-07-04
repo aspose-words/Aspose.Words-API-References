@@ -3,7 +3,7 @@ title: FootnoteNumberingRule
 second_title: Aspose.Words for .NET API Reference
 description: Determines when automatic footnote or endnote numbering restarts.
 type: docs
-weight: 3980
+weight: 4030
 url: /net/aspose.words.notes/footnotenumberingrule/
 ---
 ## FootnoteNumberingRule enumeration
@@ -23,7 +23,7 @@ public enum FootnoteNumberingRule
 | RestartPage | `2` | Numbering restarts at each page. Valid for footnotes only. |
 | Default | `0` | Equals Continuous. |
 
-### Examples
+## Examples
 
 Shows how to restart footnote/endnote numbering at certain places in the document.
 

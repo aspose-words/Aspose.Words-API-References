@@ -3,7 +3,7 @@ title: Compatibility
 second_title: Aspose.Words for .NET API Reference
 description: Specifies names of compatibility options.
 type: docs
-weight: 5430
+weight: 5480
 url: /net/aspose.words.settings/compatibility/
 ---
 ## Compatibility enumeration
@@ -90,7 +90,7 @@ public enum Compatibility
 | SwapInsideAndOutsideForMirrorIndentsAndRelativePositioning | `69` |  |
 | UseWord2010TableStyleRules | `70` |  |
 
-### Examples
+## Examples
 
 Shows how to optimize the document for different versions of Microsoft Word.
 

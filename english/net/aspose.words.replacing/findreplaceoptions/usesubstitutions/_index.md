@@ -14,11 +14,11 @@ Gets or sets a boolean value indicating whether to recognize and use substitutio
 public bool UseSubstitutions { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 For the details on substitution elements please refer to: https://docs.microsoft.com/en-us/dotnet/standard/base-types/substitutions-in-regular-expressions.
 
-### Examples
+## Examples
 
 Shows how to recognize and use substitutions within replacement patterns.
 

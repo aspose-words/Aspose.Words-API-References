@@ -14,7 +14,7 @@ Returns the type of the font source.
 public abstract FontSourceType Type { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to use a font file in the local file system as a font source.
 

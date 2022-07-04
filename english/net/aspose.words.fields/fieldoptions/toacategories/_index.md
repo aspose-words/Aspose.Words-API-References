@@ -3,7 +3,7 @@ title: ToaCategories
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the table of authorities categories.
 type: docs
-weight: 170
+weight: 180
 url: /net/aspose.words.fields/fieldoptions/toacategories/
 ---
 ## FieldOptions.ToaCategories property
@@ -14,7 +14,7 @@ Gets or sets the table of authorities categories.
 public ToaCategories ToaCategories { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to specify a set of categories for TOA fields.
 

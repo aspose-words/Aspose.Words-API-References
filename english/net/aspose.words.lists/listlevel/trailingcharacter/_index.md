@@ -14,7 +14,7 @@ Returns or sets the character inserted after the number for the list level.
 public ListTrailingCharacter TrailingCharacter { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to apply custom list formatting to paragraphs when using DocumentBuilder.
 

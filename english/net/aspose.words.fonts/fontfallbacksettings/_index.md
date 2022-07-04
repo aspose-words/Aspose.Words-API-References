@@ -3,7 +3,7 @@ title: FontFallbackSettings
 second_title: Aspose.Words for .NET API Reference
 description: Specifies font fallback mechanism settings.
 type: docs
-weight: 2670
+weight: 2720
 url: /net/aspose.words.fonts/fontfallbacksettings/
 ---
 ## FontFallbackSettings class
@@ -26,11 +26,11 @@ public class FontFallbackSettings
 | [Save](../../aspose.words.fonts/fontfallbacksettings/save#save)(Stream) | Saves the current fallback settings to stream. |
 | [Save](../../aspose.words.fonts/fontfallbacksettings/save#save_1)(string) | Saves the current fallback settings to file. |
 
-### Remarks
+## Remarks
 
 By default fallback settings are initialized with predefined settings which mimics the Microsoft Word fallback.
 
-### Examples
+## Examples
 
 Shows how to distribute fallback fonts across Unicode character code ranges.
 

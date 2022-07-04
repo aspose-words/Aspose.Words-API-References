@@ -14,7 +14,7 @@ Gets or sets the "Allow spacing between cells" option.
 public bool AllowCellSpacing { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to enable spacing between individual cells in a table.
 

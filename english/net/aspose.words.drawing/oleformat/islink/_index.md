@@ -14,7 +14,7 @@ Returns true if the OLE object is linked (when [`SourceFullName`](../sourcefulln
 public bool IsLink { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to insert linked and unlinked OLE objects.
 

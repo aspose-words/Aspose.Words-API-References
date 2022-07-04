@@ -14,7 +14,7 @@ Gets name of the ActiveX control.
 public string Name { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to verify the properties of an ActiveX control.
 

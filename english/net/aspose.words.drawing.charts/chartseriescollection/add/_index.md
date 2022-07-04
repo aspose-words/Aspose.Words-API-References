@@ -18,7 +18,7 @@ public ChartSeries Add(string seriesName, string[] categories, double[] values)
 
 Recently added [`ChartSeries`](../../chartseries) object.
 
-### Examples
+## Examples
 
 Shows how to create an appropriate type of chart series for a graph type.
 
@@ -124,7 +124,7 @@ public ChartSeries Add(string seriesName, double[] xValues, double[] yValues)
 
 Recently added [`ChartSeries`](../../chartseries) object.
 
-### Examples
+## Examples
 
 Shows how to create an appropriate type of chart series for a graph type.
 
@@ -226,7 +226,7 @@ Adds new [`ChartSeries`](../../chartseries) to this collection. Use this method 
 public ChartSeries Add(string seriesName, DateTime[] dates, double[] values)
 ```
 
-### Examples
+## Examples
 
 Shows how to create an appropriate type of chart series for a graph type.
 
@@ -332,7 +332,7 @@ public ChartSeries Add(string seriesName, double[] xValues, double[] yValues, do
 
 Recently added [`ChartSeries`](../../chartseries) object.
 
-### Examples
+## Examples
 
 Shows how to create an appropriate type of chart series for a graph type.
 

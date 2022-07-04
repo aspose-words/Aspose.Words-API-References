@@ -3,7 +3,7 @@ title: ComparisonEvaluationResult
 second_title: Aspose.Words for .NET API Reference
 description: The comparison evaluation result.
 type: docs
-weight: 1310
+weight: 1330
 url: /net/aspose.words.fields/comparisonevaluationresult/
 ---
 ## ComparisonEvaluationResult class
@@ -28,7 +28,7 @@ public sealed class ComparisonEvaluationResult
 | [ErrorMessage](../../aspose.words.fields/comparisonevaluationresult/errormessage) { get; } | Gets the failed comparison evaluation result's error message. |
 | [Result](../../aspose.words.fields/comparisonevaluationresult/result) { get; } | Gets the comparison evaluation result. |
 
-### Examples
+## Examples
 
 Shows how to implement custom evaluation for the IF and COMPARE fields.
 

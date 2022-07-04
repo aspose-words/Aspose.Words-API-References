@@ -14,7 +14,7 @@ Returns EditableRangeEnd.
 public override NodeType NodeType { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to work with an editable range.
 

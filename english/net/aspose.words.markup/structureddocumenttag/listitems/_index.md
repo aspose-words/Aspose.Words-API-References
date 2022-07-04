@@ -14,13 +14,13 @@ Gets [`SdtListItemCollection`](../../sdtlistitemcollection) associated with this
 public SdtListItemCollection ListItems { get; }
 ```
 
-### Remarks
+## Remarks
 
 Accessing this property will only work for ComboBox or DropDownList SDT types.
 
 For all other SDT types exception will occur.
 
-### Examples
+## Examples
 
 Shows how to work with drop down-list structured document tags.
 
