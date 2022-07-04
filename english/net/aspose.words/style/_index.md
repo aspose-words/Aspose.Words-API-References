@@ -3,7 +3,7 @@ title: Style
 second_title: Aspose.Words for .NET API Reference
 description: Represents a single built-in or user-defined style.
 type: docs
-weight: 5780
+weight: 5830
 url: /net/aspose.words/style/
 ---
 ## Style class
@@ -42,7 +42,7 @@ public class Style
 | [Equals](../../aspose.words/style/equals#equals)(Style) | Compares with the specified style. Styles Istds are compared for built-in styles only. Styles defaults are not included in comparison. Base style, linked style and next paragraph style are recursively compared. |
 | [Remove](../../aspose.words/style/remove)() | Removes the specified style from the document. |
 
-### Examples
+## Examples
 
 Shows how to create and use a paragraph style with list formatting.
 

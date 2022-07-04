@@ -14,11 +14,11 @@ Gets the first section in the document.
 public Section FirstSection { get; }
 ```
 
-### Remarks
+## Remarks
 
 Returns `null` if there are no sections.
 
-### Examples
+## Examples
 
 Shows how to replace text in a document's footer.
 

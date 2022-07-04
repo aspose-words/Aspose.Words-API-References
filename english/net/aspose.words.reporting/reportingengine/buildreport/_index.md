@@ -23,7 +23,7 @@ public bool BuildReport(Document document, object dataSource)
 
 A flag indicating whether parsing of the template document was successful. The returned flag makes sense only if a value of the [`Options`](../options) property includes the InlineErrorMessages option.
 
-### Remarks
+## Remarks
 
 Using this overload you can reference the data source's members in the template document, but you cannot reference the data source object itself. You should use the [`BuildReport`](../buildreport) overload to achieve this.
 
@@ -70,7 +70,7 @@ public bool BuildReport(Document document, object dataSource, string dataSourceN
 
 A flag indicating whether parsing of the template document was successful. The returned flag makes sense only if a value of the [`Options`](../options) property includes the InlineErrorMessages option.
 
-### Remarks
+## Remarks
 
 Using this overload you can reference the data source's members and the data source object itself in the template. If you are not going to reference the data source object itself, you can omit *dataSourceName* passing null or use the [`BuildReport`](../buildreport) overload.
 
@@ -117,7 +117,7 @@ public bool BuildReport(Document document, object[] dataSources, string[] dataSo
 
 A flag indicating whether parsing of the template document was successful. The returned flag makes sense only if a value of the [`Options`](../options) property includes the InlineErrorMessages option.
 
-### Remarks
+## Remarks
 
 Using this overload you can reference multiple data source objects and their members in the template. The name of the first data source can be omitted (i.e. be an empty string or null) if you are going to reference the data source's members but not the data source object itself. Names of the other data sources must be specified and unique.
 

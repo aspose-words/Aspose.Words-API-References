@@ -18,11 +18,11 @@ public void UpdateThumbnail(ThumbnailGeneratingOptions options)
 | --- | --- | --- |
 | options | ThumbnailGeneratingOptions | The generating options to use. |
 
-### Remarks
+## Remarks
 
 The [`ThumbnailGeneratingOptions`](../../../aspose.words.rendering/thumbnailgeneratingoptions) allows you to specify the source of thumbnail, size and other options. If attempt to generate thumbnail fails, doesn't change one.
 
-### Examples
+## Examples
 
 Shows how to update a document's thumbnail.
 
@@ -64,7 +64,7 @@ Updates [`Thumbnail`](../../../aspose.words.properties/builtindocumentproperties
 public void UpdateThumbnail()
 ```
 
-### Examples
+## Examples
 
 Shows how to update a document's thumbnail.
 

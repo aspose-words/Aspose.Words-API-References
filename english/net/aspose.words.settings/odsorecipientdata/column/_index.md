@@ -14,7 +14,7 @@ Specifies the column within the data source that contains unique data for the cu
 public int Column { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to access the collection of data that designates which merge data source records a mail merge will exclude.
 

@@ -14,7 +14,7 @@ Gets or sets an item in this collection.
 public OdsoRecipientData this[int index] { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to access the collection of data that designates which merge data source records a mail merge will exclude.
 

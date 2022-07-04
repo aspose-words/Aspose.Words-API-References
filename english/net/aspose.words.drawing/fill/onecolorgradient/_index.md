@@ -20,7 +20,7 @@ public void OneColorGradient(GradientStyle style, GradientVariant variant, doubl
 | variant | GradientVariant | The gradient variant [`GradientVariant`](../../gradientvariant) |
 | degree | Double | The gradient degree. Can be a value from 0.0 (dark) to 1.0 (light). |
 
-### Examples
+## Examples
 
 Shows how to fill a shape with a gradients.
 
@@ -84,7 +84,7 @@ public void OneColorGradient(Color color, GradientStyle style, GradientVariant v
 | variant | GradientVariant | The gradient variant [`GradientVariant`](../../gradientvariant) |
 | degree | Double | The gradient degree. Can be a value from 0.0 (dark) to 1.0 (light). |
 
-### Examples
+## Examples
 
 Shows how to fill a shape with a gradients.
 

@@ -14,7 +14,7 @@ Specifies whether the current paragraph should use the document grid lines per p
 public bool SnapToGrid { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to specify a limit for the number of lines that each page may have.
 

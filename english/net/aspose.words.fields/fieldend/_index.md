@@ -3,7 +3,7 @@ title: FieldEnd
 second_title: Aspose.Words for .NET API Reference
 description: Represents an end of a Word field in a document.
 type: docs
-weight: 1670
+weight: 1710
 url: /net/aspose.words.fields/fieldend/
 ---
 ## FieldEnd class
@@ -54,7 +54,7 @@ public class FieldEnd : FieldChar
 | [ToString](../../aspose.words/node/tostring)(SaveFormat) | Exports the content of the node into a string in the specified format. |
 | [ToString](../../aspose.words/node/tostring)(SaveOptions) | Exports the content of the node into a string using the specified save options. |
 
-### Remarks
+## Remarks
 
 [`FieldEnd`](../fieldend) is an inline-level node and represented by the [`FieldEndChar`](../../aspose.words/controlchar/fieldendchar) control character in the document.
 
@@ -64,7 +64,7 @@ A complete field in a Microsoft Word document is a complex structure consisting 
 
 To easily insert a new field into a document, use the [`InsertField`](../../aspose.words/documentbuilder/insertfield) method.
 
-### Examples
+## Examples
 
 Shows how to work with a collection of fields.
 

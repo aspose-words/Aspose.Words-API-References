@@ -14,7 +14,7 @@ Gets or sets whether to include the name of the country/region.
 public string IncludeCountryOrRegionName { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to insert an ADDRESSBLOCK field.
 

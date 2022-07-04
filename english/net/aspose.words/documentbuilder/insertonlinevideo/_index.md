@@ -24,7 +24,7 @@ public Shape InsertOnlineVideo(string videoUrl, double width, double height)
 
 The image node that was just inserted.
 
-### Remarks
+## Remarks
 
 You can change the image size, location, positioning method and other settings using the [`Shape`](../../../aspose.words.drawing/shape) object returned by this method.
 
@@ -37,7 +37,7 @@ If your online video is not displaying correctly, use [`InsertOnlineVideo`](../i
 
 The code for embedding video can vary between providers, consult your corresponding provider of choice for details.
 
-### Examples
+## Examples
 
 Shows how to insert an online video into a document using a URL.
 
@@ -84,7 +84,7 @@ public Shape InsertOnlineVideo(string videoUrl, RelativeHorizontalPosition horzP
 
 The image node that was just inserted.
 
-### Remarks
+## Remarks
 
 You can change the image size, location, positioning method and other settings using the [`Shape`](../../../aspose.words.drawing/shape) object returned by this method.
 
@@ -97,7 +97,7 @@ If your online video is not displaying correctly, use [`InsertOnlineVideo`](../i
 
 The code for embedding video can vary between providers, consult your corresponding provider of choice for details.
 
-### Examples
+## Examples
 
 Shows how to insert an online video into a document.
 
@@ -150,11 +150,11 @@ public Shape InsertOnlineVideo(string videoUrl, string videoEmbedCode, byte[] th
 
 The image node that was just inserted.
 
-### Remarks
+## Remarks
 
 You can change the image size, location, positioning method and other settings using the [`Shape`](../../../aspose.words.drawing/shape) object returned by this method.
 
-### Examples
+## Examples
 
 Shows how to insert an online video into a document with a custom thumbnail.
 
@@ -229,11 +229,11 @@ public Shape InsertOnlineVideo(string videoUrl, string videoEmbedCode, byte[] th
 
 The image node that was just inserted.
 
-### Remarks
+## Remarks
 
 You can change the image size, location, positioning method and other settings using the [`Shape`](../../../aspose.words.drawing/shape) object returned by this method.
 
-### Examples
+## Examples
 
 Shows how to insert an online video into a document with a custom thumbnail.
 

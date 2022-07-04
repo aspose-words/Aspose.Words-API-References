@@ -3,7 +3,7 @@ title: IReplacingCallback
 second_title: Aspose.Words for .NET API Reference
 description: Implement this interface if you want to have your own custom method called during a find and replace operation.
 type: docs
-weight: 4320
+weight: 4370
 url: /net/aspose.words.replacing/ireplacingcallback/
 ---
 ## IReplacingCallback interface
@@ -20,7 +20,7 @@ public interface IReplacingCallback
 | --- | --- |
 | [Replacing](../../aspose.words.replacing/ireplacingcallback/replacing)(ReplacingArgs) | A user defined method that is called during a replace operation for each match found just before a replace is made. |
 
-### Examples
+## Examples
 
 Shows how to replace all occurrences of a regular expression pattern with another string, while tracking all such replacements.
 

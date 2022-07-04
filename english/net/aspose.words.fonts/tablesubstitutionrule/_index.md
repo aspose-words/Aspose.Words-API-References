@@ -3,7 +3,7 @@ title: TableSubstitutionRule
 second_title: Aspose.Words for .NET API Reference
 description: Table font substitution rule.
 type: docs
-weight: 2830
+weight: 2880
 url: /net/aspose.words.fonts/tablesubstitutionrule/
 ---
 ## TableSubstitutionRule class
@@ -35,11 +35,11 @@ public class TableSubstitutionRule : FontSubstitutionRule
 | [Save](../../aspose.words.fonts/tablesubstitutionrule/save#save_1)(string) | Saves the current table substitution settings to file. |
 | [SetSubstitutes](../../aspose.words.fonts/tablesubstitutionrule/setsubstitutes)(string, params string[]) | Override substitute font names for given original font name. |
 
-### Remarks
+## Remarks
 
 This rule defines the list of substitute font names to be used if the original font is not available. Substitutes will be checked for the font name and the [`AltName`](../fontinfo/altname) (if any).
 
-### Examples
+## Examples
 
 Shows how to access font substitution tables for Windows and Linux.
 

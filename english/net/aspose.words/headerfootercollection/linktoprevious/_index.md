@@ -18,11 +18,11 @@ public void LinkToPrevious(bool isLinkToPrevious)
 | --- | --- | --- |
 | isLinkToPrevious | Boolean | True to link the headers and footers to the previous section; false to unlink them. |
 
-### Remarks
+## Remarks
 
 If any of the headers or footers do not exist, creates them automatically.
 
-### Examples
+## Examples
 
 Shows how to link headers and footers between sections.
 
@@ -105,11 +105,11 @@ public void LinkToPrevious(HeaderFooterType headerFooterType, bool isLinkToPrevi
 | headerFooterType | HeaderFooterType | A [`HeaderFooterType`](../../headerfootertype) value that specifies the header or footer to link/unlink. |
 | isLinkToPrevious | Boolean | True to link the header or footer to the previous section; false to unlink. |
 
-### Remarks
+## Remarks
 
 If the header or footer of the specified type does not exist, creates it automatically.
 
-### Examples
+## Examples
 
 Shows how to link headers and footers between sections.
 

@@ -14,13 +14,13 @@ Gets or sets the border color.
 public Color Color { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 Returns the color of the first border in the collection.
 
 Sets the color of all borders in the collection excluding diagonal borders.
 
-### Examples
+## Examples
 
 Shows how to create green wavy page border with a shadow.
 

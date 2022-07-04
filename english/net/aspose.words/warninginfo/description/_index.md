@@ -14,7 +14,7 @@ Returns the description of the warning.
 public string Description { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to set the property for finding the closest match for a missing font from the available font sources.
 

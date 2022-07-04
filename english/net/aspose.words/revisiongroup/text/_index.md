@@ -14,7 +14,7 @@ Returns inserted/deleted/moved text or description of format change.
 public string Text { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to print info about a group of revisions in a document.
 

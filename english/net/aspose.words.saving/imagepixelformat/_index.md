@@ -3,7 +3,7 @@ title: ImagePixelFormat
 second_title: Aspose.Words for .NET API Reference
 description: Specifies the pixel format for the generated images of document pages.
 type: docs
-weight: 4910
+weight: 4960
 url: /net/aspose.words.saving/imagepixelformat/
 ---
 ## ImagePixelFormat enumeration
@@ -30,7 +30,7 @@ public enum ImagePixelFormat
 | Format64BppPArgb | `9` | 64 bits per pixel, ARGB, premultiplied alpha. |
 | Format1bppIndexed | `10` | 1 bit per pixel, Indexed. |
 
-### Examples
+## Examples
 
 Shows how to select a bit-per-pixel rate with which to render a document to an image.
 

@@ -14,7 +14,7 @@ Gets or sets the font animation effect.
 public TextEffect TextEffect { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to apply a visual effect to a run.
 

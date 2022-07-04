@@ -14,7 +14,7 @@ Field separator character separates field code from field value. Optional in som
 public const char FieldSeparatorChar;
 ```
 
-### Examples
+## Examples
 
 Shows how to add various control characters to a document.
 

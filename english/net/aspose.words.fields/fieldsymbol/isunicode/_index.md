@@ -14,7 +14,7 @@ Gets or sets whether the character code is interpreted as the value of a Unicode
 public bool IsUnicode { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to use the SYMBOL field.
 

@@ -14,7 +14,7 @@ Allows to specify whether the current font will be exported as a font resource. 
 public bool IsExportNeeded { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to define custom logic for exporting fonts when saving to HTML.
 

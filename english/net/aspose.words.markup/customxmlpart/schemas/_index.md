@@ -14,7 +14,7 @@ Specifies the set of XML schemas that are associated with this custom XML part.
 public CustomXmlSchemaCollection Schemas { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to create a structured document tag with custom XML data.
 

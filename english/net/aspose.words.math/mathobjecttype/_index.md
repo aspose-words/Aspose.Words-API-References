@@ -3,7 +3,7 @@ title: MathObjectType
 second_title: Aspose.Words for .NET API Reference
 description: Specifies type of an Office Math object.
 type: docs
-weight: 3820
+weight: 3870
 url: /net/aspose.words.math/mathobjecttype/
 ---
 ## MathObjectType enumeration
@@ -49,7 +49,7 @@ public enum MathObjectType
 | SubSuperscript | `28` | Sub-superscript object, which consists of a base element, a reduced-size script placed below and to the right, and a reduced-size script placed above and to the right. |
 | Supercript | `29` | Superscript object, which consists of a base element and a reduced-size script placed above and to the right. |
 
-### Examples
+## Examples
 
 Shows how to print the node structure of every office math node in a document.
 

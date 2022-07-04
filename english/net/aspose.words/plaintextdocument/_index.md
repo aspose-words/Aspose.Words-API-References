@@ -3,7 +3,7 @@ title: PlainTextDocument
 second_title: Aspose.Words for .NET API Reference
 description: Allows to extract plain-text representation of the documents content.
 type: docs
-weight: 4140
+weight: 4190
 url: /net/aspose.words/plaintextdocument/
 ---
 ## PlainTextDocument class
@@ -31,7 +31,7 @@ public class PlainTextDocument
 | [CustomDocumentProperties](../../aspose.words/plaintextdocument/customdocumentproperties) { get; } | Gets [`CustomDocumentProperties`](./customdocumentproperties) of the document. |
 | [Text](../../aspose.words/plaintextdocument/text) { get; } | Gets textual content of the document concatenated as a string. |
 
-### Examples
+## Examples
 
 Shows how to load the contents of a Microsoft Word document in plaintext.
 

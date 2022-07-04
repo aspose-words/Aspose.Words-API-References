@@ -3,7 +3,7 @@ title: WrapType
 second_title: Aspose.Words for .NET API Reference
 description: Defines whether the shape is inline or floating. For floating shapes defines the wrapping mode for text around the shape.
 type: docs
-weight: 530
+weight: 540
 url: /net/aspose.words.drawing/shapebase/wraptype/
 ---
 ## ShapeBase.WrapType property
@@ -14,13 +14,13 @@ Defines whether the shape is inline or floating. For floating shapes defines the
 public WrapType WrapType { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 The default value is None.
 
 Has effect only for top level shapes.
 
-### Examples
+## Examples
 
 Shows how to insert a floating image to the center of a page.
 

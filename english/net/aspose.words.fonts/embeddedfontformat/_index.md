@@ -3,7 +3,7 @@ title: EmbeddedFontFormat
 second_title: Aspose.Words for .NET API Reference
 description: Specifies format of particular embedded font inside FontInfo./fontinfo object.
 type: docs
-weight: 2620
+weight: 2670
 url: /net/aspose.words.fonts/embeddedfontformat/
 ---
 ## EmbeddedFontFormat enumeration
@@ -23,7 +23,7 @@ public enum EmbeddedFontFormat
 | EmbeddedOpenType | `0` | Specifies Embedded OpenType (EOT) File Format. |
 | OpenType | `1` | Specifies font, embedded as plain copy of OpenType (TrueType) font file. |
 
-### Examples
+## Examples
 
 Shows how to extract an embedded font from a document, and save it to the local file system.
 

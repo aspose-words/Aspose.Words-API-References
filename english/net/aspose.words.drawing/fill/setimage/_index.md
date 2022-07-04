@@ -18,7 +18,7 @@ public void SetImage(string fileName)
 | --- | --- | --- |
 | fileName | String | The path to the image file. |
 
-### Examples
+## Examples
 
 Shows how to set shape fill type as image.
 

@@ -3,7 +3,7 @@ title: FieldPrintDate
 second_title: Aspose.Words for .NET API Reference
 description: Implements the PRINTDATE field.
 type: docs
-weight: 2100
+weight: 2140
 url: /net/aspose.words.fields/fieldprintdate/
 ---
 ## FieldPrintDate class
@@ -49,11 +49,11 @@ public class FieldPrintDate : Field
 | [Update](../../aspose.words.fields/field/update)() | Performs the field update. Throws if the field is being updated already. |
 | [Update](../../aspose.words.fields/field/update)(bool) | Performs a field update. Throws if the field is being updated already. |
 
-### Remarks
+## Remarks
 
 Retrieves the date and time on which the document was last printed. By default, the Gregorian calendar is used.
 
-### Examples
+## Examples
 
 Shows read PRINTDATE fields.
 

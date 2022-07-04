@@ -3,7 +3,7 @@ title: TiffCompression
 second_title: Aspose.Words for .NET API Reference
 description: Specifies what type of compression to apply when saving page images into a TIFF file.
 type: docs
-weight: 5300
+weight: 5350
 url: /net/aspose.words.saving/tiffcompression/
 ---
 ## TiffCompression enumeration
@@ -24,7 +24,7 @@ public enum TiffCompression
 | Ccitt3 | `3` | Specifies the CCITT3 compression scheme. |
 | Ccitt4 | `4` | Specifies the CCITT4 compression scheme. |
 
-### Examples
+## Examples
 
 Shows how to select the compression scheme to apply to a document that we convert into a TIFF image.
 

@@ -3,7 +3,7 @@ title: SvgTextOutputMode
 second_title: Aspose.Words for .NET API Reference
 description: 
 type: docs
-weight: 5280
+weight: 5330
 url: /net/aspose.words.saving/svgtextoutputmode/
 ---
 ## SvgTextOutputMode enumeration
@@ -20,7 +20,7 @@ public enum SvgTextOutputMode
 | UseTargetMachineFonts | `1` | Fonts installed on the target machine are used to render text. Note, if some of fonts used in the document are not available on the target machine, document can look differently. |
 | UsePlacedGlyphs | `2` | Text is rendered using curves. Note, text selection will not work if you use this option. |
 
-### Examples
+## Examples
 
 Shows how to mimic the properties of images when converting a .docx document to .svg.
 

@@ -14,11 +14,11 @@ Gets or sets the degree of opacity of the specified fill as a value between 0.0 
 public double Opacity { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 This property is the opposite of property [`Transparency`](../transparency).
 
-### Examples
+## Examples
 
 Shows how to fill a shape with a solid color.
 

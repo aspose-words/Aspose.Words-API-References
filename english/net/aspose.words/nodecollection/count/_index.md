@@ -14,7 +14,7 @@ Gets the number of nodes in the collection.
 public int Count { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to traverse through a composite node's collection of child nodes.
 

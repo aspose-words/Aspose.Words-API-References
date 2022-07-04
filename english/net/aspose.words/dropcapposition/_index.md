@@ -3,7 +3,7 @@ title: DropCapPosition
 second_title: Aspose.Words for .NET API Reference
 description: Specifies the position for a drop cap text.
 type: docs
-weight: 1240
+weight: 1260
 url: /net/aspose.words/dropcapposition/
 ---
 ## DropCapPosition enumeration
@@ -22,7 +22,7 @@ public enum DropCapPosition
 | Normal | `1` | The drop cap is positioned inside the text margin on the anchor paragraph. |
 | Margin | `2` | The drop cap is positioned outside the text margin on the anchor paragraph. |
 
-### Examples
+## Examples
 
 Shows how to create a drop cap.
 

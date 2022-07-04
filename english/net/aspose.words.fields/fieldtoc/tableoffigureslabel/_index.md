@@ -14,7 +14,7 @@ Gets or sets the name of the sequence identifier used when building a table of f
 public string TableOfFiguresLabel { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to populate a TOC field with entries using SEQ fields.
 

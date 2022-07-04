@@ -3,7 +3,7 @@ title: LoadOptions
 second_title: Aspose.Words for .NET API Reference
 description: Allows to specify additional options such as password or base URI when loading a document into a Document../aspose.words/document object.
 type: docs
-weight: 3410
+weight: 3460
 url: /net/aspose.words.loading/loadoptions/
 ---
 ## LoadOptions class
@@ -43,7 +43,7 @@ public class LoadOptions
 | [UpdateDirtyFields](../../aspose.words.loading/loadoptions/updatedirtyfields) { get; set; } | Specifies whether to update the fields with the `dirty` attribute. |
 | [WarningCallback](../../aspose.words.loading/loadoptions/warningcallback) { get; set; } | Called during a load operation, when an issue is detected that might result in data or formatting fidelity loss. |
 
-### Examples
+## Examples
 
 Shows how to load an encrypted Microsoft Word document.
 

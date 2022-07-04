@@ -3,7 +3,7 @@ title: FieldMergeField
 second_title: Aspose.Words for .NET API Reference
 description: Implements the MERGEFIELD field.
 type: docs
-weight: 1960
+weight: 2000
 url: /net/aspose.words.fields/fieldmergefield/
 ---
 ## FieldMergeField class
@@ -46,11 +46,11 @@ public class FieldMergeField : Field
 | [Update](../../aspose.words.fields/field/update)() | Performs the field update. Throws if the field is being updated already. |
 | [Update](../../aspose.words.fields/field/update)(bool) | Performs a field update. Throws if the field is being updated already. |
 
-### Remarks
+## Remarks
 
 Retrieves the name of a data field within the merge characters in a mail merge main document. When the main document is merged with the selected data source, information from the specified data field is inserted in place of the merge field.
 
-### Examples
+## Examples
 
 Shows how to use MERGEFIELD fields to perform a mail merge.
 

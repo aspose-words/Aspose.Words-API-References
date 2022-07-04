@@ -14,7 +14,7 @@ Specifies the image that the mail merge engine must insert into the document.
 public Image Image { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to use a callback to customize image merging logic.
 

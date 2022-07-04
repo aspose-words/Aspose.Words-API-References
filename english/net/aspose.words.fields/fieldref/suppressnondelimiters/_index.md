@@ -14,7 +14,7 @@ Gets or sets whether to suppress non-delimiter characters.
 public bool SuppressNonDelimiters { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to insert REF fields to reference bookmarks.
 

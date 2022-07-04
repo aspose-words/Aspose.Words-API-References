@@ -3,7 +3,7 @@ title: CustomPartCollection
 second_title: Aspose.Words for .NET API Reference
 description: Represents a collection of CustomPart./custompart objects.
 type: docs
-weight: 3620
+weight: 3670
 url: /net/aspose.words.markup/custompartcollection/
 ---
 ## CustomPartCollection class
@@ -37,11 +37,11 @@ public class CustomPartCollection : IEnumerable<CustomPart>
 | [GetEnumerator](../../aspose.words.markup/custompartcollection/getenumerator)() | Returns an enumerator object that can be used to iterate over all items in the collection. |
 | [RemoveAt](../../aspose.words.markup/custompartcollection/removeat)(int) | Removes an item at the specified index. |
 
-### Remarks
+## Remarks
 
 You do not normally need to create instances of this class. You access custom parts related to the OOXML package via the [`PackageCustomParts`](../../aspose.words/document/packagecustomparts) property.
 
-### Examples
+## Examples
 
 Shows how to access a document's arbitrary custom parts collection.
 

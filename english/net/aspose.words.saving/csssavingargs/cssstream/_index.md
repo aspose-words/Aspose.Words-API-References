@@ -14,7 +14,7 @@ Allows to specify the stream where the CSS information will be saved to.
 public Stream CssStream { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 This property allows you to save CSS information to a stream.
 
@@ -22,7 +22,7 @@ The default value is `null`. This property doesn't suppress saving CSS informati
 
 Using [`ICssSavingCallback`](../../icsssavingcallback) you cannot substitute CSS with another. It is intended only for saving CSS to a stream.
 
-### Examples
+## Examples
 
 Shows how to work with CSS stylesheets that an HTML conversion creates.
 

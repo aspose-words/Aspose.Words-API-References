@@ -14,7 +14,7 @@ Specifies the name of the folder used to construct image URIs written into an XA
 public string ImagesFolderAlias { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 When you save a [`Document`](../../../aspose.words/document) in XAML format, Aspose.Words needs to save all images embedded in the document as standalone files. [`ImagesFolder`](../imagesfolder) allows you to specify where the images will be saved and `ImagesFolderAlias` allows to specify how the image URIs will be constructed.
 
@@ -24,7 +24,7 @@ If `ImagesFolderAlias` is an empty string, then the image URI written to XAML wi
 
 If `ImagesFolderAlias` is set to '.' (dot), then the image file name will be written to XAML without path regardless of other options.
 
-### Examples
+## Examples
 
 Shows how to print the filenames of linked images created while converting a document to flow-form .xaml.
 

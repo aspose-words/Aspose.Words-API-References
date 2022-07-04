@@ -14,7 +14,7 @@ Controls how fonts are embedded into the resulting PDF documents.
 public bool EmbedFullFonts { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 The default value is `false`, which means the fonts are subsetted before embedding. Subsetting is useful if you want to keep the output file size smaller. Subsetting removes all unused glyphs from a font.
 
@@ -22,7 +22,7 @@ When this value is set to `true`, a complete font file is embedded into PDF with
 
 Some fonts are large (several megabytes) and embedding them without subsetting will result in large output documents.
 
-### Examples
+## Examples
 
 Shows how to enable or disable subsetting when embedding fonts while rendering a document to PDF.
 

@@ -14,7 +14,7 @@ Gets the type of revisions included in this group.
 public RevisionType RevisionType { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to print info about a group of revisions in a document.
 

@@ -3,7 +3,7 @@ title: MergeFieldImageDimension
 second_title: Aspose.Words for .NET API Reference
 description: Represents an image dimension i.e. the width or the height used across a mail merge process.
 type: docs
-weight: 2520
+weight: 2570
 url: /net/aspose.words.fields/mergefieldimagedimension/
 ---
 ## MergeFieldImageDimension class
@@ -28,11 +28,11 @@ public class MergeFieldImageDimension
 | [Unit](../../aspose.words.fields/mergefieldimagedimension/unit) { get; set; } | The unit. |
 | [Value](../../aspose.words.fields/mergefieldimagedimension/value) { get; set; } | The value. |
 
-### Remarks
+## Remarks
 
 To indicate that the image should be inserted with its original dimension during a mail merge, you should assign a negative value to the [`Value`](./value) property.
 
-### Examples
+## Examples
 
 Shows how to set the dimensions of images as MERGEFIELDS accepts them during a mail merge.
 

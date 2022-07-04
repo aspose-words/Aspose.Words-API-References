@@ -14,7 +14,7 @@ Gets or sets a value determining how DrawingML effects are rendered.
 public override DmlEffectsRenderingMode DmlEffectsRenderingMode { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 The default value is Simplified.
 
@@ -22,7 +22,7 @@ This property is used when the document is exported to fixed page formats.
 
 If [`Compliance`](../compliance) is set to PdfA1a or PdfA1b, property always returns None.
 
-### Examples
+## Examples
 
 Shows how to configure the rendering quality of DrawingML effects in a document as we save it to PDF.
 

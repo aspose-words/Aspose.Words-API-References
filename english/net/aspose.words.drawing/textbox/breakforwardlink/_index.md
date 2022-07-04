@@ -14,11 +14,11 @@ Breaks the link to the next TextBox.
 public void BreakForwardLink()
 ```
 
-### Remarks
+## Remarks
 
 BreakForwardLink() doesn't break all other links in the current sequence of shapes. For example: 1-2-3-4 sequence and BreakForwardLink at the 2-nd textbox will create two sequences 1-2, 3-4.
 
-### Examples
+## Examples
 
 Shows how to link text boxes.
 

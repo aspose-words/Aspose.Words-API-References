@@ -18,13 +18,13 @@ public Table StartTable()
 
 The table node that was just created.
 
-### Remarks
+## Remarks
 
 The next method to call is [`InsertCell`](../insertcell).
 
 This method starts a nested table when called inside a cell.
 
-### Examples
+## Examples
 
 Shows how to format cells with a document builder.
 

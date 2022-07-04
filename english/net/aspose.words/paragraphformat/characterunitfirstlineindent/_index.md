@@ -16,7 +16,7 @@ Use positive values to set the first-line indent, and negative values to set the
 public double CharacterUnitFirstLineIndent { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to change paragraph spacing and indents.
 

@@ -14,7 +14,7 @@ Specifies whether to write page numbers to table of contents when saving HTML, M
 public bool ExportTocPageNumbers { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to display page numbers when saving a document with a table of contents to .html.
 

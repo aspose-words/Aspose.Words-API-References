@@ -14,7 +14,7 @@ Gets or sets the long citation for the entry.
 public string LongCitation { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to build and customize a table of authorities using TOA and TA fields.
 

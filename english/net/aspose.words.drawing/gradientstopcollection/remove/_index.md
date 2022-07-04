@@ -18,7 +18,7 @@ public bool Remove(GradientStop gradientStop)
 
 True if gradient stop was successfully removed, otherwise false.
 
-### Examples
+## Examples
 
 Shows how to add gradient stops to the gradient fill.
 

@@ -3,7 +3,7 @@ title: VerticalAlignment
 second_title: Aspose.Words for .NET API Reference
 description: Specifies how the shape is positioned vertically.
 type: docs
-weight: 500
+weight: 510
 url: /net/aspose.words.drawing/shapebase/verticalalignment/
 ---
 ## ShapeBase.VerticalAlignment property
@@ -14,13 +14,13 @@ Specifies how the shape is positioned vertically.
 public VerticalAlignment VerticalAlignment { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 The default value is None.
 
 Has effect only for top level floating shapes.
 
-### Examples
+## Examples
 
 Shows how to insert a floating image to the center of a page.
 

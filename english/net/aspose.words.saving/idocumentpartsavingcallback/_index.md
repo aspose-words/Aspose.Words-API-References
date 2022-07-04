@@ -3,7 +3,7 @@ title: IDocumentPartSavingCallback
 second_title: Aspose.Words for .NET API Reference
 description: Implement this interface if you want to receive notifications and control how Aspose.Words saves document parts when exporting a document to Html or Epub format.
 type: docs
-weight: 4830
+weight: 4880
 url: /net/aspose.words.saving/idocumentpartsavingcallback/
 ---
 ## IDocumentPartSavingCallback interface
@@ -20,7 +20,7 @@ public interface IDocumentPartSavingCallback
 | --- | --- |
 | [DocumentPartSaving](../../aspose.words.saving/idocumentpartsavingcallback/documentpartsaving)(DocumentPartSavingArgs) | Called when Aspose.Words is about to save a document part. |
 
-### Examples
+## Examples
 
 Shows how to split a document into parts and save them.
 

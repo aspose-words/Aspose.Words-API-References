@@ -14,7 +14,7 @@ Called when a node belonging to this document has been removed from its parent.
 public void NodeRemoved(NodeChangingArgs args)
 ```
 
-### Examples
+## Examples
 
 Shows how customize node changing with a callback.
 

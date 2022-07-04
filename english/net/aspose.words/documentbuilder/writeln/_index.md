@@ -18,11 +18,11 @@ public void Writeln(string text)
 | --- | --- | --- |
 | text | String | The string to insert into the document. |
 
-### Remarks
+## Remarks
 
 Current font and paragraph formatting specified by the [`Font`](../font) and [`ParagraphFormat`](../paragraphformat) properties are used.
 
-### Examples
+## Examples
 
 Shows how to build a formatted 2x2 table.
 
@@ -81,11 +81,11 @@ Inserts a paragraph break into the document.
 public void Writeln()
 ```
 
-### Remarks
+## Remarks
 
 Calls [`InsertParagraph`](../insertparagraph).
 
-### Examples
+## Examples
 
 Shows how to create headers and footers in a document using DocumentBuilder.
 

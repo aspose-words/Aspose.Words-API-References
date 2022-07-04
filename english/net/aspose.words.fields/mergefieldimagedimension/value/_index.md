@@ -14,11 +14,11 @@ The value.
 public double Value { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 You should use a negative value to indicate that the original value of the corresponding image dimension should be applied.
 
-### Examples
+## Examples
 
 Shows how to set the dimensions of images as MERGEFIELDS accepts them during a mail merge.
 

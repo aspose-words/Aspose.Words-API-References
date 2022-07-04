@@ -14,7 +14,7 @@ Gets the document object that is currently being saved.
 public Document Document { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to involve an image saving callback in an HTML conversion process.
 

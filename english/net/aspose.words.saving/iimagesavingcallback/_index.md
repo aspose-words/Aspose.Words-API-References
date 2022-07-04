@@ -3,7 +3,7 @@ title: IImageSavingCallback
 second_title: Aspose.Words for .NET API Reference
 description: Implement this interface if you want to control how Aspose.Words saves images when saving a document to HTML. May be used by other formats.
 type: docs
-weight: 4860
+weight: 4910
 url: /net/aspose.words.saving/iimagesavingcallback/
 ---
 ## IImageSavingCallback interface
@@ -20,7 +20,7 @@ public interface IImageSavingCallback
 | --- | --- |
 | [ImageSaving](../../aspose.words.saving/iimagesavingcallback/imagesaving)(ImageSavingArgs) | Called when Aspose.Words saves an image to HTML. |
 
-### Examples
+## Examples
 
 Shows how to rename the image name during saving into Markdown document.
 

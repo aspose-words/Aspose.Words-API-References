@@ -14,7 +14,7 @@ Gets the node's parent that will be set after the operation completes.
 public Node NewParent { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to use a NodeChangingCallback to monitor changes to the document tree in real-time as we edit it.
 

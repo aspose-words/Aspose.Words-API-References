@@ -14,13 +14,13 @@ Specifies how this axis crosses the perpendicular axis.
 public AxisCrosses Crosses { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 Default value is Automatic.
 
 The property is not supported by MS Office 2016 new charts.
 
-### Examples
+## Examples
 
 Shows how to insert a chart and modify the appearance of its axes.
 

@@ -3,7 +3,7 @@ title: FootnoteType
 second_title: Aspose.Words for .NET API Reference
 description: Specifies whether this is a footnote or an endnote.
 type: docs
-weight: 4010
+weight: 4060
 url: /net/aspose.words.notes/footnotetype/
 ---
 ## FootnoteType enumeration
@@ -21,11 +21,11 @@ public enum FootnoteType
 | Footnote | `0` | The object is a footnote. |
 | Endnote | `1` | The object is an endnote. |
 
-### Remarks
+## Remarks
 
 Both footnotes and endnotes are represented by objects by the Footnote class. Use [`FootnoteType`](../footnote/footnotetype) to distinguish between footnotes and endnotes.
 
-### Examples
+## Examples
 
 Shows how to reference text with a footnote and an endnote.
 

@@ -3,7 +3,7 @@ title: IFieldMergingCallback
 second_title: Aspose.Words for .NET API Reference
 description: Implement this interface if you want to control how data is inserted into merge fields during a mail merge operation.
 type: docs
-weight: 3520
+weight: 3570
 url: /net/aspose.words.mailmerging/ifieldmergingcallback/
 ---
 ## IFieldMergingCallback interface
@@ -21,7 +21,7 @@ public interface IFieldMergingCallback
 | [FieldMerging](../../aspose.words.mailmerging/ifieldmergingcallback/fieldmerging)(FieldMergingArgs) | Called when the Aspose.Words mail merge engine is about to insert data into a merge field in the document. |
 | [ImageFieldMerging](../../aspose.words.mailmerging/ifieldmergingcallback/imagefieldmerging)(ImageFieldMergingArgs) | Called when the Aspose.Words mail merge engine is about to insert an image into a merge field. |
 
-### Examples
+## Examples
 
 Shows how to insert images stored in a database BLOB field into a report.
 
@@ -47,7 +47,6 @@ public void ImageFromBlob()
     }
 
     doc.Save(ArtifactsDir + "MailMergeEvent.ImageFromBlob.docx");
-}
 
 private class HandleMergeImageFieldFromBlob : IFieldMergingCallback
 {
@@ -70,7 +69,6 @@ private class HandleMergeImageFieldFromBlob : IFieldMergingCallback
 Shows how to execute a mail merge with a custom callback that handles merge data in the form of HTML documents.
 
 ```csharp
-public void MergeHtml()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);

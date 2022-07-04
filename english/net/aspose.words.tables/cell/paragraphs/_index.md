@@ -14,7 +14,7 @@ Gets a collection of paragraphs that are immediate children of the cell.
 public ParagraphCollection Paragraphs { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to set a table to stay together on the same page.
 

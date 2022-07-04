@@ -34,11 +34,11 @@ public class DigitalSignatureCollection : IEnumerable<DigitalSignature>
 | --- | --- |
 | [GetEnumerator](../../aspose.words.digitalsignatures/digitalsignaturecollection/getenumerator)() | Returns a dictionary enumerator object that can be used to iterate over all items in the collection. |
 
-### Remarks
+## Remarks
 
 [`DigitalSignatures`](../../aspose.words/document/digitalsignatures)
 
-### Examples
+## Examples
 
 Shows how to validate and display information about each signature in a document.
 

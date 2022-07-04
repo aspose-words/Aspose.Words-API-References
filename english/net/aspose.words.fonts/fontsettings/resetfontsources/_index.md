@@ -14,7 +14,7 @@ Resets the fonts sources to the system default.
 public void ResetFontSources()
 ```
 
-### Examples
+## Examples
 
 Shows how to access a document's system font source and set font substitutes.
 

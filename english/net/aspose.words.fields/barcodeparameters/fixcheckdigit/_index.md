@@ -14,7 +14,7 @@ Whether to fix the check digit if it’s invalid.
 public bool FixCheckDigit { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to use a barcode generator.
 

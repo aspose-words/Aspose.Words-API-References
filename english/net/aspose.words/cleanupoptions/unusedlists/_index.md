@@ -14,7 +14,7 @@ Specifies whether unused list and list definitions should be removed from docume
 public bool UnusedLists { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to remove all unused custom styles from a document.
 

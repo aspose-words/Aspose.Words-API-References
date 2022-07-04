@@ -19,7 +19,7 @@ public WebExtensionProperty(string name, string value)
 | name | String | Property name. |
 | value | String | Property value. |
 
-### Examples
+## Examples
 
 Shows how to add a web extension to a document.
 

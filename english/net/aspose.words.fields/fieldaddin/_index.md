@@ -3,7 +3,7 @@ title: FieldAddIn
 second_title: Aspose.Words for .NET API Reference
 description: Implements the ADDIN field.
 type: docs
-weight: 1350
+weight: 1370
 url: /net/aspose.words.fields/fieldaddin/
 ---
 ## FieldAddIn class
@@ -46,11 +46,11 @@ public class FieldAddIn : Field
 | [Update](../../aspose.words.fields/field/update)() | Performs the field update. Throws if the field is being updated already. |
 | [Update](../../aspose.words.fields/field/update)(bool) | Performs a field update. Throws if the field is being updated already. |
 
-### Remarks
+## Remarks
 
 Contains data created by an add-in.
 
-### Examples
+## Examples
 
 Shows how to process an ADDIN field.
 

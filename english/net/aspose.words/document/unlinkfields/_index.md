@@ -14,13 +14,13 @@ Unlinks fields in the whole document.
 public void UnlinkFields()
 ```
 
-### Remarks
+## Remarks
 
 Replaces all the fields in the whole document with their most recent results.
 
 To unlink fields in a specific part of the document use [`UnlinkFields`](../../range/unlinkfields).
 
-### Examples
+## Examples
 
 Shows how to unlink all fields in the document.
 

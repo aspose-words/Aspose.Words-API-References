@@ -14,13 +14,13 @@ Determines whether the layout order of rows is reversed.
 public bool ReverseRows { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 The default value is **false**.
 
 If **true**, the layout order of rows is reversed. This attribute is used for vertical text layout.
 
-### Examples
+## Examples
 
 Shows how to work with WordArt.
 

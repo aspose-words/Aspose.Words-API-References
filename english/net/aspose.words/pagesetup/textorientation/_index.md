@@ -14,11 +14,11 @@ Allows to specify `TextOrientation` for the whole page. Default value is Horizon
 public TextOrientation TextOrientation { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 This property is only supported for MS Word native formats DOCX, WML, RTF and DOC.
 
-### Examples
+## Examples
 
 Shows how to set text orientation.
 

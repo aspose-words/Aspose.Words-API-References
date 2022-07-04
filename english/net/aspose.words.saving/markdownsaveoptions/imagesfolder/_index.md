@@ -14,7 +14,7 @@ Specifies the physical folder where images are saved when exporting a document t
 public string ImagesFolder { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 When you save a [`Document`](../../../aspose.words/document) in Markdown format, Aspose.Words needs to save all images embedded in the document as standalone files. `ImagesFolder` allows you to specify where the images will be saved.
 

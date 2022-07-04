@@ -14,7 +14,7 @@ Gets or sets the style of a Case Code for barcode type ITF14. The valid values a
 public string CaseCodeStyle { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to perform a mail merge on ITF14 barcodes.
 

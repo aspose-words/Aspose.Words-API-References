@@ -3,7 +3,7 @@ title: CommentDisplayMode
 second_title: Aspose.Words for .NET API Reference
 description: Specifies the rendering mode for document comments.
 type: docs
-weight: 3040
+weight: 3090
 url: /net/aspose.words.layout/commentdisplaymode/
 ---
 ## CommentDisplayMode enumeration
@@ -22,7 +22,7 @@ public enum CommentDisplayMode
 | ShowInBalloons | `1` | Renders document comments in balloons in the margin. This is the default value. |
 | ShowInAnnotations | `2` | Renders document comments in annotations. This is only available for Pdf format. |
 
-### Examples
+## Examples
 
 Shows how to show comments when saving a document to a rendered format.
 

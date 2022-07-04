@@ -14,7 +14,7 @@ Specifies end of range if the StructuredDocumentTag is a ranged structured docum
 public StructuredDocumentTagRangeEnd RangeEnd { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to get the properties of multi-section structured document tags.
 

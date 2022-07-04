@@ -14,7 +14,7 @@ True if the font is formatted as outline.
 public bool Outline { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to create a run of text formatted as outline.
 

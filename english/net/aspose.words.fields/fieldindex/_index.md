@@ -3,7 +3,7 @@ title: FieldIndex
 second_title: Aspose.Words for .NET API Reference
 description: Implements the INDEX field.
 type: docs
-weight: 1870
+weight: 1910
 url: /net/aspose.words.fields/fieldindex/
 ---
 ## FieldIndex class
@@ -62,11 +62,11 @@ public class FieldIndex : Field
 | [Update](../../aspose.words.fields/field/update)() | Performs the field update. Throws if the field is being updated already. |
 | [Update](../../aspose.words.fields/field/update)(bool) | Performs a field update. Throws if the field is being updated already. |
 
-### Remarks
+## Remarks
 
 Builds an index using the index entries specified by XE fields, and inserts that index at this place in the document.
 
-### Examples
+## Examples
 
 Shows how to create an INDEX field, and then use XE fields to populate it with entries.
 

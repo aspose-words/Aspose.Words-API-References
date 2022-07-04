@@ -29,7 +29,7 @@ public class AxisScaling
 | [Minimum](../../aspose.words.drawing.charts/axisscaling/minimum) { get; set; } | Gets or sets minimum value of the axis. |
 | [Type](../../aspose.words.drawing.charts/axisscaling/type) { get; set; } | Gets or sets scaling type of the axis. |
 
-### Examples
+## Examples
 
 Shows how to apply logarithmic scaling to a chart axis.
 

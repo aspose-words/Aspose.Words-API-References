@@ -14,7 +14,7 @@ Gets or sets a number of rows to include in the banding when the style specifies
 public int RowStripe { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to create conditional table styles that alternate between rows.
 

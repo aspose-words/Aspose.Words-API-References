@@ -3,7 +3,7 @@ title: MergeFieldImageDimensionUnit
 second_title: Aspose.Words for .NET API Reference
 description: Specifies an unit of an image dimension i.e. the width or the height used across a mail merge process.
 type: docs
-weight: 2530
+weight: 2580
 url: /net/aspose.words.fields/mergefieldimagedimensionunit/
 ---
 ## MergeFieldImageDimensionUnit enumeration
@@ -21,7 +21,7 @@ public enum MergeFieldImageDimensionUnit
 | Point | `0` | The point (i.e. 1/72 inch). |
 | Percent | `1` | The percent of the original image dimension value. |
 
-### Examples
+## Examples
 
 Shows how to set the dimensions of images as MERGEFIELDS accepts them during a mail merge.
 

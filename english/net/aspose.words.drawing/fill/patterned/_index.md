@@ -18,7 +18,7 @@ public void Patterned(PatternType patternType)
 | --- | --- | --- |
 | patternType | PatternType | [`PatternType`](../../patterntype) |
 
-### Examples
+## Examples
 
 Shows how to set pattern for a shape.
 
@@ -63,7 +63,7 @@ public void Patterned(PatternType patternType, Color foreColor, Color backColor)
 | foreColor | Color | The color of the foreground fill. |
 | backColor | Color | The color of the background fill. |
 
-### Examples
+## Examples
 
 Shows how to set pattern for a shape.
 

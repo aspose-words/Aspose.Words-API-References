@@ -14,7 +14,7 @@ Specifies the path to the mail-merge data source. The default value is an empty 
 public string DataSource { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to construct a data source for a mail merge from a header source and a data source.
 

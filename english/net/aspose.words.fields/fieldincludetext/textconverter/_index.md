@@ -14,7 +14,7 @@ Gets or sets the name of the text converter for the format of the included file.
 public string TextConverter { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to create an INCLUDETEXT field, and set its properties.
 

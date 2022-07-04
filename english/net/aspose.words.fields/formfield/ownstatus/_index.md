@@ -14,11 +14,11 @@ Specifies the source of the text that's displayed in the status bar when a form 
 public bool OwnStatus { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 If true, the text specified by the StatusText property is displayed. If false, the text of the AutoText entry specified by the StatusText property is displayed.
 
-### Examples
+## Examples
 
 Shows how insert different kinds of form fields into a document, and process them with using a document visitor implementation.
 

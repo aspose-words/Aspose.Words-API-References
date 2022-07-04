@@ -14,7 +14,7 @@ Gets or sets [`ITextShaperFactory`](../../../aspose.words.shaping/itextshaperfac
 public ITextShaperFactory TextShaperFactory { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to support OpenType features using the HarfBuzz text shaping engine.
 

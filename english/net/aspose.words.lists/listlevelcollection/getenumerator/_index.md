@@ -14,7 +14,7 @@ Gets the enumerator object that will enumerate levels in this list.
 public IEnumerator<ListLevel> GetEnumerator()
 ```
 
-### Examples
+## Examples
 
 Shows advances ways of customizing list labels.
 

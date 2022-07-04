@@ -14,7 +14,7 @@ Specifies the physical folder where images are saved when exporting a document t
 public string ImagesFolder { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 When you save a [`Document`](../../../aspose.words/document) in XAML format, Aspose.Words needs to save all images embedded in the document as standalone files. `ImagesFolder` allows you to specify where the images will be saved and [`ImagesFolderAlias`](../imagesfolderalias) allows to specify how the image URIs will be constructed.
 
@@ -22,7 +22,7 @@ If you save a document into a file and provide a file name, Aspose.Words, by def
 
 If you save a document into a stream, Aspose.Words does not have a folder where to save the images, but still needs to save the images somewhere. In this case, you need to specify an accessible folder in the `ImagesFolder` property or provide custom streams via the [`ImageSavingCallback`](../imagesavingcallback) event handler.
 
-### Examples
+## Examples
 
 Shows how to print the filenames of linked images created while converting a document to flow-form .xaml.
 

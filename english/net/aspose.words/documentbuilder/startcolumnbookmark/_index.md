@@ -22,7 +22,7 @@ public BookmarkStart StartColumnBookmark(string bookmarkName)
 
 The bookmark start node that was just created.
 
-### Remarks
+## Remarks
 
 A column bookmark covers one or more columns in a range of rows. To create a valid bookmark you need to call both `StartColumnBookmark` and [`EndColumnBookmark`](../endcolumnbookmark) with the same **bookmarkName** parameter.
 
@@ -30,7 +30,7 @@ Badly formed bookmarks or bookmarks with duplicate names will be ignored when th
 
 The actual position of the inserted [`BookmarkStart`](../../bookmarkstart) node may differ from the current document builder position.
 
-### Examples
+## Examples
 
 Shows how to create a column bookmark.
 

@@ -14,7 +14,7 @@ Gets the currently active document protection type.
 public ProtectionType ProtectionType { get; }
 ```
 
-### Remarks
+## Remarks
 
 This property allows to retrieve the currently set document protection type. To change the document protection type use the [`Protect`](../protect) and [`Unprotect`](../unprotect) methods.
 
@@ -22,7 +22,7 @@ When a document is protected, the user can make only limited changes, such as ad
 
 Note that document protection is different from write protection. Write protection is specified using the [`WriteProtection`](../writeprotection)
 
-### Examples
+## Examples
 
 Shows how to protect and unprotect a document.
 

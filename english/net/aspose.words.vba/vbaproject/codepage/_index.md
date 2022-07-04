@@ -14,7 +14,7 @@ Returns the VBA project’s code page.
 public int CodePage { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to access a document's VBA project information.
 

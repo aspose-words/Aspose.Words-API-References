@@ -14,7 +14,7 @@ Allows to specify the stream where the document page will be saved to.
 public Stream PageStream { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 This property allows you to save document pages to streams instead of files.
 
@@ -22,7 +22,7 @@ The default value is `null`. When this property is `null`, the document page wil
 
 If both PageStream and PageFileName are set, then PageStream will be used.
 
-### Examples
+## Examples
 
 Shows how to use a callback to save a document to HTML page by page.
 

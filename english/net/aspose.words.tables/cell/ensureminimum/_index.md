@@ -14,7 +14,7 @@ If the last child is not a paragraph, creates and appends one empty paragraph.
 public void EnsureMinimum()
 ```
 
-### Examples
+## Examples
 
 Shows how to ensure a cell node contains the nodes we need to begin adding content to it.
 

@@ -14,11 +14,11 @@ Gets or sets the pages to render. Default is all the pages in the document.
 public PageSet PageSet { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 This property has effect only when rendering document pages. This property is ignored when rendering shapes to images.
 
-### Examples
+## Examples
 
 Shows how to extract pages based on exact page ranges.
 

@@ -14,7 +14,7 @@ Specifies how many levels in the document outline to show expanded when the file
 public int ExpandedOutlineLevels { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 Note that this options will not work when saving to XPS.
 
@@ -22,7 +22,7 @@ Specify 0 and the document outline will be collapsed; specify 1 and the first le
 
 Default is 0. Valid range is 0 to 9.
 
-### Examples
+## Examples
 
 Shows how to convert a whole document to PDF with three levels in the document outline.
 

@@ -14,11 +14,11 @@ Gets or sets method used while converting images to 1 bpp format when [`SaveForm
 public ImageBinarizationMethod TiffBinarizationMethod { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 The default value is ImageBinarizationMethod.Threshold.
 
-### Examples
+## Examples
 
 Shows how to set the TIFF binarization error threshold when using the Floyd-Steinberg method to render a TIFF image.
 

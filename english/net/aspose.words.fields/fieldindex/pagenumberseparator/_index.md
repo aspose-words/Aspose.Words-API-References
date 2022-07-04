@@ -14,7 +14,7 @@ Gets or sets the character sequence that is used to separate an index entry and 
 public string PageNumberSeparator { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to edit the page number separator in an INDEX field.
 

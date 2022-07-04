@@ -3,7 +3,7 @@ title: FieldFormText
 second_title: Aspose.Words for .NET API Reference
 description: Implements the FORMTEXT field.
 type: docs
-weight: 1740
+weight: 1780
 url: /net/aspose.words.fields/fieldformtext/
 ---
 ## FieldFormText class
@@ -46,11 +46,11 @@ public class FieldFormText : Field
 | [Update](../../aspose.words.fields/field/update)() | Performs the field update. Throws if the field is being updated already. |
 | [Update](../../aspose.words.fields/field/update)(bool) | Performs a field update. Throws if the field is being updated already. |
 
-### Remarks
+## Remarks
 
 Inserts a text box style form field.
 
-### Examples
+## Examples
 
 Shows how to process FORMCHECKBOX, FORMDROPDOWN and FORMTEXT fields.
 

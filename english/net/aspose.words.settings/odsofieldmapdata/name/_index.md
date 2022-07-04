@@ -14,7 +14,7 @@ Specifies the column name within an external data source for the column whose in
 public string Name { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to access the collection of data that maps data source columns to merge fields.
 

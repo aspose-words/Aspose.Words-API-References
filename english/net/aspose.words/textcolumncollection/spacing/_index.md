@@ -14,11 +14,11 @@ When columns are evenly spaced, gets or sets the amount of space between each co
 public double Spacing { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 Has effect only when [`EvenlySpaced`](../evenlyspaced) is set to **true**.
 
-### Examples
+## Examples
 
 Shows how to create multiple evenly spaced columns in a section.
 

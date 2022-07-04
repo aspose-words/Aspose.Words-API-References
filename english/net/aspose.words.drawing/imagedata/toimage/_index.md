@@ -14,13 +14,13 @@ Gets the image stored in the shape as a Image object.
 public Image ToImage()
 ```
 
-### Remarks
+## Remarks
 
 A new Image object is created every time this method is called.
 
 It is the responsibility of the caller to dispose the image object.
 
-### Examples
+## Examples
 
 Shows how to save all images from a document to the file system.
 

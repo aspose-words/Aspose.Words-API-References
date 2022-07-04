@@ -14,11 +14,11 @@ Automatically builds the fallback settings by scanning available fonts.
 public void BuildAutomatic()
 ```
 
-### Remarks
+## Remarks
 
 This method may produce non-optimal fallback settings. Fonts are checked by [ Unicode Character Range](https://docs.microsoft.com/en-us/typography/opentype/spec/os2#ur) fields and not by the actual glyphs presence. Also Unicode ranges are checked individually and several ranges related to single language/script may use different fallback fonts.
 
-### Examples
+## Examples
 
 Shows how to distribute fallback fonts across Unicode character code ranges.
 

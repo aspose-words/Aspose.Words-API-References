@@ -3,7 +3,7 @@ title: FieldIndexFormat
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets a FieldIndexFormataspose.words.fields/fieldoptions/fieldindexformat that represents the formatting for the FieldIndexaspose.words.fields/fieldindex fields in the document.
 type: docs
-weight: 70
+weight: 80
 url: /net/aspose.words.fields/fieldoptions/fieldindexformat/
 ---
 ## FieldOptions.FieldIndexFormat property
@@ -14,7 +14,7 @@ Gets or sets a `FieldIndexFormat` that represents the formatting for the [`Field
 public FieldIndexFormat FieldIndexFormat { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to formatting FieldIndex fields.
 

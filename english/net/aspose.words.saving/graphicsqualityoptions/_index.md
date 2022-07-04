@@ -3,7 +3,7 @@ title: GraphicsQualityOptions
 second_title: Aspose.Words for .NET API Reference
 description: Allows to specify additional Graphics quality options.
 type: docs
-weight: 4730
+weight: 4780
 url: /net/aspose.words.saving/graphicsqualityoptions/
 ---
 ## GraphicsQualityOptions class
@@ -32,7 +32,7 @@ public class GraphicsQualityOptions
 | [TextRenderingHint](../../aspose.words.saving/graphicsqualityoptions/textrenderinghint) { get; set; } | Gets or sets the rendering mode for text associated with this Graphics. |
 | [UseTileFlipMode](../../aspose.words.saving/graphicsqualityoptions/usetileflipmode) { get; set; } | Gets or sets a flag indicating whether WrapMode is TileFlipXY. |
 
-### Examples
+## Examples
 
 Shows how to set render quality options while converting documents to image formats.
 

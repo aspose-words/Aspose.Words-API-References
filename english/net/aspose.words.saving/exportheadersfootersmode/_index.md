@@ -3,7 +3,7 @@ title: ExportHeadersFootersMode
 second_title: Aspose.Words for .NET API Reference
 description: Specifies how headers and footers are exported to HTML MHTML or EPUB.
 type: docs
-weight: 4690
+weight: 4740
 url: /net/aspose.words.saving/exportheadersfootersmode/
 ---
 ## ExportHeadersFootersMode enumeration
@@ -23,7 +23,7 @@ public enum ExportHeadersFootersMode
 | FirstSectionHeaderLastSectionFooter | `2` | Primary header of the first section is exported at the beginning of the document and primary footer is at the end. |
 | FirstPageHeaderFooterPerSection | `3` | First page header and footer are exported at the beginning and the end of each section. |
 
-### Examples
+## Examples
 
 Shows how to omit headers/footers when saving a document to HTML.
 

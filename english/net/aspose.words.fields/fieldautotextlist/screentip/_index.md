@@ -14,7 +14,7 @@ Gets or sets the text of the ScreenTip to show.
 public string ScreenTip { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to use an AUTOTEXTLIST field to select from a list of AutoText entries.
 

@@ -16,11 +16,11 @@ The default value is **false**.
 public bool ForcePageBreaks { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 The property affects only page breaks that are inserted explicitly into a document. It is not related to page breaks that MS Word automatically inserts at the end of each page.
 
-### Examples
+## Examples
 
 Shows how to specify whether to preserve page breaks when exporting a document to plaintext.
 

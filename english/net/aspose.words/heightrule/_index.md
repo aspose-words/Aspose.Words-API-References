@@ -3,7 +3,7 @@ title: HeightRule
 second_title: Aspose.Words for .NET API Reference
 description: Specifies the rule for determining the height of an object.
 type: docs
-weight: 2900
+weight: 2950
 url: /net/aspose.words/heightrule/
 ---
 ## HeightRule enumeration
@@ -22,7 +22,7 @@ public enum HeightRule
 | Exactly | `1` | The height is specified exactly in points. Please note that if the text cannot fit inside the object of this height, it will appear truncated. |
 | Auto | `2` | The height will grow automatically to accommodate all text inside an object. |
 
-### Examples
+## Examples
 
 Shows how to format rows with a document builder.
 

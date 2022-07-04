@@ -3,7 +3,7 @@ title: WordML2003SaveOptions
 second_title: Aspose.Words for .NET API Reference
 description: Can be used to specify additional options when saving a document into the WordML format.
 type: docs
-weight: 5350
+weight: 5400
 url: /net/aspose.words.saving/wordml2003saveoptions/
 ---
 ## WordML2003SaveOptions class
@@ -46,11 +46,11 @@ public class WordML2003SaveOptions : SaveOptions
 | [UseAntiAliasing](../../aspose.words.saving/saveoptions/useantialiasing) { get; set; } | Gets or sets a value determining whether or not to use anti-aliasing for rendering. |
 | [UseHighQualityRendering](../../aspose.words.saving/saveoptions/usehighqualityrendering) { get; set; } | Gets or sets a value determining whether or not to use high quality (i.e. slow) rendering algorithms. |
 
-### Remarks
+## Remarks
 
 At the moment provides only the [`SaveFormat`](./saveformat) property, but in the future may have other options added.
 
-### Examples
+## Examples
 
 Shows how to manage memory optimization.
 

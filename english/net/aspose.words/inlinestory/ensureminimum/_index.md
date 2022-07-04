@@ -14,7 +14,7 @@ If the last child is not a paragraph, creates and appends one empty paragraph.
 public void EnsureMinimum()
 ```
 
-### Examples
+## Examples
 
 Shows how to insert InlineStory nodes.
 

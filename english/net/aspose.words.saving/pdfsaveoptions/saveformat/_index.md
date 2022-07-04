@@ -14,7 +14,7 @@ Specifies the format in which the document will be saved if this save options ob
 public override SaveFormat SaveFormat { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to limit the headings' level that will appear in the outline of a saved PDF document.
 

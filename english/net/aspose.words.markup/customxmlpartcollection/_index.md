@@ -3,7 +3,7 @@ title: CustomXmlPartCollection
 second_title: Aspose.Words for .NET API Reference
 description: Represents a collection of Custom XML Parts. The items are CustomXmlPart./customxmlpart objects.
 type: docs
-weight: 3640
+weight: 3690
 url: /net/aspose.words.markup/customxmlpartcollection/
 ---
 ## CustomXmlPartCollection class
@@ -39,11 +39,11 @@ public class CustomXmlPartCollection : IEnumerable<CustomXmlPart>
 | [GetEnumerator](../../aspose.words.markup/customxmlpartcollection/getenumerator)() | Returns an enumerator object that can be used to iterate over all items in the collection. |
 | [RemoveAt](../../aspose.words.markup/customxmlpartcollection/removeat)(int) | Removes an item at the specified index. |
 
-### Remarks
+## Remarks
 
 You do not normally need to create instances of this class. You can access custom XML data stored in a document via the [`CustomXmlParts`](../../aspose.words/document/customxmlparts) property.
 
-### Examples
+## Examples
 
 Shows how to create a structured document tag with custom XML data.
 

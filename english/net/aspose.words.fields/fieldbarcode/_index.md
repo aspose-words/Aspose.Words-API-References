@@ -3,7 +3,7 @@ title: FieldBarcode
 second_title: Aspose.Words for .NET API Reference
 description: Implements the BARCODE field.
 type: docs
-weight: 1460
+weight: 1480
 url: /net/aspose.words.fields/fieldbarcode/
 ---
 ## FieldBarcode class
@@ -50,11 +50,11 @@ public class FieldBarcode : Field
 | [Update](../../aspose.words.fields/field/update)() | Performs the field update. Throws if the field is being updated already. |
 | [Update](../../aspose.words.fields/field/update)(bool) | Performs a field update. Throws if the field is being updated already. |
 
-### Remarks
+## Remarks
 
 Inserts a postal barcode in a machine-readable form of address used by the U.S. Postal Service.
 
-### Examples
+## Examples
 
 Shows how to use the BARCODE field to display U.S. ZIP codes in the form of a barcode.
 

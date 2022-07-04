@@ -14,7 +14,7 @@ Gets or sets the amount of space (in points) to add above the contents of table 
 public double TopPadding { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to create custom style settings for the table.
 

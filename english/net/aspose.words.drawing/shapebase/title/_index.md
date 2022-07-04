@@ -3,7 +3,7 @@ title: Title
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the title caption of the current shape object.
 type: docs
-weight: 480
+weight: 490
 url: /net/aspose.words.drawing/shapebase/title/
 ---
 ## ShapeBase.Title property
@@ -14,13 +14,13 @@ Gets or sets the title (caption) of the current shape object.
 public string Title { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 Default is empty string.
 
 Cannot be null, but can be an empty string.
 
-### Examples
+## Examples
 
 Shows how to set the title of a shape.
 

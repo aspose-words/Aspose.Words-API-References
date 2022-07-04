@@ -14,13 +14,13 @@ Identifies, by index, a captured group in the [`Match`](../match) that is to be 
 public int GroupIndex { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 `GroupIndex` has effect only when [`GroupName`](../groupname) is null.
 
 Default is zero.
 
-### Examples
+## Examples
 
 Shows how to apply a different font to new content via FindReplaceOptions.
 

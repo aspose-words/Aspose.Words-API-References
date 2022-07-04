@@ -14,7 +14,7 @@ Gets or sets the distance of labels from the axis.
 public int TickLabelOffset { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 The property represents a percentage of the default label offset.
 
@@ -22,7 +22,7 @@ Valid range is from 0 to 1000 percent inclusive. Default value is 100%.
 
 The property has effect only for category axes. It is not supported by MS Office 2016 new charts.
 
-### Examples
+## Examples
 
 Shows how to insert a chart and modify the appearance of its axes.
 

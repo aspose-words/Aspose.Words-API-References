@@ -14,13 +14,13 @@ Specifies the type of calendar for this **SDT**. Default is Default
 public SdtCalendarType CalendarType { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 Accessing this property will only work for Date SDT type.
 
 For all other SDT types exception will occur.
 
-### Examples
+## Examples
 
 Shows how to prompt the user to enter a date with a structured document tag.
 

@@ -3,7 +3,7 @@ title: SaveFormat
 second_title: Aspose.Words for .NET API Reference
 description: Indicates the format in which the document is saved.
 type: docs
-weight: 4530
+weight: 4580
 url: /net/aspose.words/saveformat/
 ---
 ## SaveFormat enumeration
@@ -55,7 +55,7 @@ public enum SaveFormat
 | Jpeg | `104` | Renders a page of the document and saves it as a JPEG file. |
 | Gif | `105` | Renders a page of the document and saves it as a GIF file. |
 
-### Examples
+## Examples
 
 Shows how to convert from DOCX to HTML format.
 

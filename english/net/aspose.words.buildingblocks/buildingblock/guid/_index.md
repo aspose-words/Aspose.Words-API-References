@@ -14,13 +14,13 @@ Gets or sets an identifier (a 128-bit GUID) that uniquely identifies this buildi
 public Guid Guid { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 Can be used by an application to uniquely reference a building block regardless of different naming due to localization.
 
 Corresponds to the **docPartPr.guid** element in OOXML.
 
-### Examples
+## Examples
 
 Shows how to add a custom building block to a document.
 

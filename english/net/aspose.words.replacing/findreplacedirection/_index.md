@@ -3,7 +3,7 @@ title: FindReplaceDirection
 second_title: Aspose.Words for .NET API Reference
 description: Specifies direction for replace operations.
 type: docs
-weight: 4300
+weight: 4350
 url: /net/aspose.words.replacing/findreplacedirection/
 ---
 ## FindReplaceDirection enumeration
@@ -21,7 +21,7 @@ public enum FindReplaceDirection
 | Forward | `0` | Matched items are replaced from first to last. |
 | Backward | `1` | Matched items are replaced from last back to first. |
 
-### Examples
+## Examples
 
 Shows how to determine which direction a find-and-replace operation traverses the document in.
 

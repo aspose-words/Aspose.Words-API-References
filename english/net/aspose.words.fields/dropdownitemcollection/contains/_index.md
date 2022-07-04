@@ -22,7 +22,7 @@ public bool Contains(string value)
 
 True if the item is found in the collection; otherwise, false.
 
-### Examples
+## Examples
 
 Shows how to insert a combo box field, and edit the elements in its item collection.
 

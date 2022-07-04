@@ -3,7 +3,7 @@ title: ImageColorMode
 second_title: Aspose.Words for .NET API Reference
 description: Specifies the color mode for the generated images of document pages.
 type: docs
-weight: 4900
+weight: 4950
 url: /net/aspose.words.saving/imagecolormode/
 ---
 ## ImageColorMode enumeration
@@ -22,7 +22,7 @@ public enum ImageColorMode
 | Grayscale | `1` | The pages of the document will be rendered as grayscale images. |
 | BlackAndWhite | `2` | The pages of the document will be rendered as black and white images. |
 
-### Examples
+## Examples
 
 Shows how to set a color mode when rendering documents.
 

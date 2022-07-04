@@ -14,7 +14,7 @@ Specifies the behavior that shall be applied when the contents of the building b
 public BuildingBlockBehavior Behavior { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to add a custom building block to a document.
 

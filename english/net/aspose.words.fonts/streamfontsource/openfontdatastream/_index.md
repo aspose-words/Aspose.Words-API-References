@@ -18,11 +18,11 @@ public abstract Stream OpenFontDataStream()
 
 Font data stream.
 
-### Remarks
+## Remarks
 
 The stream will be closed after reading. There is no need to close it explicitly.
 
-### Examples
+## Examples
 
 Shows how to load fonts from stream.
 

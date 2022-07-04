@@ -14,7 +14,7 @@ Gets or sets the file name (without path) where the font will be saved to.
 public string FontFileName { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 This property allows you to redefine how the font file names are generated during export to HTML.
 
@@ -28,7 +28,7 @@ When saving a document to a stream, the generated font file name looks like Aspo
 
 `FontFileName` must contain only the file name without the path. Aspose.Words determines the path for saving using the document file name, the [`FontsFolder`](../../htmlsaveoptions/fontsfolder) and [`FontsFolderAlias`](../../htmlsaveoptions/fontsfolderalias) properties.
 
-### Examples
+## Examples
 
 Shows how to define custom logic for exporting fonts when saving to HTML.
 

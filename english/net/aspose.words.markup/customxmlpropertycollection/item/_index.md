@@ -18,7 +18,7 @@ public CustomXmlProperty this[string name] { get; }
 | --- | --- |
 | name | Case-sensitive name of the property to locate. |
 
-### Examples
+## Examples
 
 Shows how to work with smart tag properties to get in depth information about smart tags.
 
@@ -93,7 +93,7 @@ public CustomXmlProperty this[int index] { get; }
 | --- | --- |
 | index | Zero-based index of the property. |
 
-### Examples
+## Examples
 
 Shows how to work with smart tag properties to get in depth information about smart tags.
 

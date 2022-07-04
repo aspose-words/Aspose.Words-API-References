@@ -18,13 +18,13 @@ public void Notify(DocumentSavingArgs args)
 | --- | --- | --- |
 | args | DocumentSavingArgs | An argument of the event. |
 
-### Remarks
+## Remarks
 
 The primary uses for this interface is to allow application code to obtain progress status and abort saving process.
 
 An exception should be threw from the progress callback for abortion and it should be caught in the consumer code.
 
-### Examples
+## Examples
 
 Shows how to manage a document while saving to html.
 

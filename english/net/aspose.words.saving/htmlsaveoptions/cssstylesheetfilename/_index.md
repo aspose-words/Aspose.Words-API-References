@@ -14,7 +14,7 @@ Specifies the path and the name of the Cascading Style Sheet (CSS) file written 
 public string CssStyleSheetFileName { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 This property has effect only when saving a document to HTML format and external CSS style sheet is requested using [`CssStyleSheetType`](../cssstylesheettype).
 
@@ -26,7 +26,7 @@ If the folder specified by this property doesn't exist, it will be created autom
 
 Another way to specify a folder where external CSS file is saved is to use [`ResourceFolder`](../resourcefolder).
 
-### Examples
+## Examples
 
 Shows how to work with CSS stylesheets that an HTML conversion creates.
 

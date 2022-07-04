@@ -3,7 +3,7 @@ title: Stroke
 second_title: Aspose.Words for .NET API Reference
 description: Defines a stroke for a shape.
 type: docs
-weight: 1140
+weight: 1160
 url: /net/aspose.words.drawing/stroke/
 ---
 ## Stroke class
@@ -39,11 +39,11 @@ public class Stroke
 | [Visible](../../aspose.words.drawing/stroke/visible) { get; set; } | Gets or sets a flag indicating whether the stroke is visible. |
 | [Weight](../../aspose.words.drawing/stroke/weight) { get; set; } | Defines the brush thickness that strokes the path of a shape in points. |
 
-### Remarks
+## Remarks
 
 Use the [`Stroke`](../shape/stroke) property to access stroke properties of a shape. You do not create instances of the [`Stroke`](../stroke) class directly.
 
-### Examples
+## Examples
 
 Shows how change stroke properties.
 

@@ -24,7 +24,7 @@ public Shape InsertShape(ShapeType shapeType, double width, double height)
 
 The shape node that was inserted.
 
-### Examples
+## Examples
 
 Shows how to insert DML shapes into a document.
 
@@ -83,7 +83,7 @@ public Shape InsertShape(ShapeType shapeType, RelativeHorizontalPosition horzPos
 
 The shape node that was inserted.
 
-### Examples
+## Examples
 
 Shows how to insert DML shapes into a document.
 

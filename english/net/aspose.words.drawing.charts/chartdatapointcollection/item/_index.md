@@ -14,7 +14,7 @@ Returns [`ChartDataPoint`](../../chartdatapoint) for the specified index.
 public ChartDataPoint this[int index] { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to work with data points on a line chart.
 

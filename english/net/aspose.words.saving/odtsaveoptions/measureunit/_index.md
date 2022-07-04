@@ -14,11 +14,11 @@ Allows to specify units of measure to apply to document content. The default val
 public OdtSaveMeasureUnit MeasureUnit { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 Open Office uses centimeters when specifying lengths, widths and other measurable formatting and content properties in documents whereas MS Office uses inches.
 
-### Examples
+## Examples
 
 Shows how to use different measurement units to define style parameters of a saved ODT document.
 

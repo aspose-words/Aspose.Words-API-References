@@ -14,7 +14,7 @@ Gets or sets a prefix that is prepended to the citation.
 public string Prefix { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to work with CITATION and BIBLIOGRAPHY fields.
 

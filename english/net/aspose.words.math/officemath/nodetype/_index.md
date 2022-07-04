@@ -14,7 +14,7 @@ Returns **NodeType.OfficeMath**.
 public override NodeType NodeType { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to set office math display formatting.
 

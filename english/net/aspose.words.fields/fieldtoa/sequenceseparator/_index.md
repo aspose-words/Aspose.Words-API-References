@@ -14,7 +14,7 @@ Gets or sets the character sequence that is used to separate sequence numbers an
 public string SequenceSeparator { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to build and customize a table of authorities using TOA and TA fields.
 

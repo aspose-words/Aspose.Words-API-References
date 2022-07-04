@@ -24,11 +24,11 @@ public FormField InsertComboBox(string name, string[] items, int selectedIndex)
 
 The form field node that was just inserted.
 
-### Remarks
+## Remarks
 
 If you specify a name for the form field, then a bookmark is automatically created with the same name.
 
-### Examples
+## Examples
 
 Shows how to insert a combo box form field into a document.
 

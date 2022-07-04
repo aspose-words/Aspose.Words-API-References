@@ -3,7 +3,7 @@ title: EmphasisMark
 second_title: Aspose.Words for .NET API Reference
 description: Specifies possible types of emphasis mark.
 type: docs
-weight: 1290
+weight: 1310
 url: /net/aspose.words/emphasismark/
 ---
 ## EmphasisMark enumeration
@@ -24,7 +24,7 @@ public enum EmphasisMark
 | OverWhiteCircle | `3` | Emphasis mark is an empty white circle displayed above text. |
 | UnderSolidCircle | `4` | Emphasis mark is a solid black circle displayed below text. |
 
-### Examples
+## Examples
 
 Shows how to add additional character rendered above/below the glyph-character.
 

@@ -14,7 +14,7 @@ Returns or sets the numeric increment for line numbers.
 public int LineNumberCountBy { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to enable line numbering for a section.
 

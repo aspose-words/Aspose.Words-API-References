@@ -14,7 +14,7 @@ Gets or sets whether page number in TOC should be omitted for this field.
 public bool OmitPageNumber { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to insert a TOC field, and filter which TC fields end up as entries.
 

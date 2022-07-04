@@ -3,7 +3,7 @@ title: FootnotePosition
 second_title: Aspose.Words for .NET API Reference
 description: Defines the footnote position.
 type: docs
-weight: 4000
+weight: 4050
 url: /net/aspose.words.notes/footnoteposition/
 ---
 ## FootnotePosition enumeration
@@ -21,7 +21,7 @@ public enum FootnotePosition
 | BottomOfPage | `1` | Footnotes are output at the bottom of each page. |
 | BeneathText | `2` | Footnotes are output beneath text on each page. |
 
-### Examples
+## Examples
 
 Shows how to select a different place where the document collects and displays its footnotes.
 

@@ -22,11 +22,11 @@ public bool MoveToMergeField(string fieldName)
 
 True if the merge field was found and the cursor was moved; false otherwise.
 
-### Remarks
+## Remarks
 
 Note that this method deletes the merge field from the document after moving the cursor.
 
-### Examples
+## Examples
 
 Shows how to fill MERGEFIELDs with data with a document builder instead of a mail merge.
 
@@ -58,7 +58,6 @@ doc.Save(ArtifactsDir + "DocumentBuilder.FillMergeFields.docx");
 Shows how to insert checkbox form fields into MERGEFIELDs as merge data during mail merge.
 
 ```csharp
-public void InsertCheckBox()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -80,7 +79,6 @@ public void InsertCheckBox()
 
     doc.MailMerge.ExecuteWithRegions(dataTable);
     doc.Save(ArtifactsDir + "MailMergeEvent.InsertCheckBox.docx");
-}
 
 /// <summary>
 /// Upon encountering a MERGEFIELD with a specific name, inserts a check box form field instead of merge data text.
@@ -162,7 +160,7 @@ public bool MoveToMergeField(string fieldName, bool isAfter, bool isDeleteField)
 
 True if the merge field was found and the cursor was moved; false otherwise.
 
-### Examples
+## Examples
 
 Shows how to insert fields, and move the document builder's cursor to them.
 

@@ -14,11 +14,11 @@ Specifies how the PDF document should be displayed when opened in the PDF reader
 public PdfPageMode PageMode { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 The default value is UseOutlines.
 
-### Examples
+## Examples
 
 Shows how to set instructions for some PDF readers to follow when opening an output document.
 

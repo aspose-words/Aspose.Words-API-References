@@ -14,7 +14,7 @@ The image that will be shown in associated [`SignatureLine`](../../../aspose.wor
 public byte[] SignatureLineImage { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to add a signature line to a document, and then sign it using a digital certificate.
 

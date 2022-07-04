@@ -14,7 +14,7 @@ Specifies the endnotes position.
 public EndnotePosition Position { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to select a different place where the document collects and displays its endnotes.
 

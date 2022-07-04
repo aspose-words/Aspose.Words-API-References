@@ -14,11 +14,11 @@ The coordinates at the top-left corner of the containing block of this shape.
 public Point CoordOrigin { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 The default value is (0,0).
 
-### Examples
+## Examples
 
 Shows how to translate the x and y coordinate location on a shape's coordinate plane to a location on the parent shape's coordinate plane.
 

@@ -3,7 +3,7 @@ title: FieldAdvance
 second_title: Aspose.Words for .NET API Reference
 description: Implements the ADVANCE field.
 type: docs
-weight: 1370
+weight: 1390
 url: /net/aspose.words.fields/fieldadvance/
 ---
 ## FieldAdvance class
@@ -52,11 +52,11 @@ public class FieldAdvance : Field
 | [Update](../../aspose.words.fields/field/update)() | Performs the field update. Throws if the field is being updated already. |
 | [Update](../../aspose.words.fields/field/update)(bool) | Performs a field update. Throws if the field is being updated already. |
 
-### Remarks
+## Remarks
 
 Moves the starting point at which the text that lexically follows the field is displayed to the right or left, up or down, or to a specific horizontal or vertical position.
 
-### Examples
+## Examples
 
 Shows how to insert an ADVANCE field, and edit its properties.
 

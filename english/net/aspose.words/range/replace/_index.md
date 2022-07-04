@@ -23,7 +23,7 @@ public int Replace(string pattern, string replacement)
 
 The number of replacements made.
 
-### Remarks
+## Remarks
 
 The pattern will not be used as regular expression. Please use [`Replace`](../replace) if you need regular expressions.
 
@@ -40,7 +40,7 @@ You should use special meta-characters if you need to work with breaks:
 
 Use method [`Replace`](../replace) to have more flexible customization.
 
-### Examples
+## Examples
 
 ```csharp
 Document doc = new Document();
@@ -126,7 +126,7 @@ public int Replace(Regex pattern, string replacement)
 
 The number of replacements made.
 
-### Remarks
+## Remarks
 
 Replaces the whole match captured by the regular expression.
 
@@ -141,7 +141,7 @@ You should use special meta-characters if you need to work with breaks:
 
 Use method [`Replace`](../replace) to have more flexible customization.
 
-### Examples
+## Examples
 
 ```csharp
 Document doc = new Document();
@@ -191,7 +191,7 @@ public int Replace(string pattern, string replacement, FindReplaceOptions option
 
 The number of replacements made.
 
-### Remarks
+## Remarks
 
 The pattern will not be used as regular expression. Please use [`Replace`](../replace) if you need regular expressions.
 
@@ -205,7 +205,7 @@ You should use special meta-characters if you need to work with breaks:
 * **&amp;l** - manual line break
 * **&amp;&amp;** - &amp; character
 
-### Examples
+## Examples
 
 ```csharp
 Document doc = new Document();
@@ -338,7 +338,7 @@ public int Replace(Regex pattern, string replacement, FindReplaceOptions options
 
 The number of replacements made.
 
-### Remarks
+## Remarks
 
 Replaces the whole match captured by the regular expression.
 
@@ -352,7 +352,7 @@ You should use special meta-characters if you need to work with breaks:
 * **&amp;l** - manual line break
 * **&amp;&amp;** - &amp; character
 
-### Examples
+## Examples
 
 ```csharp
 Document doc = new Document();

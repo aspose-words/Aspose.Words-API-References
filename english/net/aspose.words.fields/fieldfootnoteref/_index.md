@@ -3,7 +3,7 @@ title: FieldFootnoteRef
 second_title: Aspose.Words for .NET API Reference
 description: Implements the FOOTNOTEREF field.
 type: docs
-weight: 1710
+weight: 1750
 url: /net/aspose.words.fields/fieldfootnoteref/
 ---
 ## FieldFootnoteRef class
@@ -46,7 +46,7 @@ public class FieldFootnoteRef : Field
 | [Update](../../aspose.words.fields/field/update)() | Performs the field update. Throws if the field is being updated already. |
 | [Update](../../aspose.words.fields/field/update)(bool) | Performs a field update. Throws if the field is being updated already. |
 
-### Examples
+## Examples
 
 Shows how to cross-reference footnotes with the FOOTNOTEREF field.
 

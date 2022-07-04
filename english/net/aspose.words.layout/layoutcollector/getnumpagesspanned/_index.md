@@ -14,7 +14,7 @@ Gets number of pages the specified node spans. 0 if node is within a single page
 public int GetNumPagesSpanned(Node node)
 ```
 
-### Examples
+## Examples
 
 Shows how to see the the ranges of pages that a node spans.
 

@@ -14,7 +14,7 @@ Gets or sets a `VbaProject`.
 public VbaProject VbaProject { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to access a document's VBA project information.
 

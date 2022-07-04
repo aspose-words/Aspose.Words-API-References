@@ -14,7 +14,7 @@ Line break character: "\x000b" or "\v".
 public static readonly string LineBreak;
 ```
 
-### Examples
+## Examples
 
 Shows how to add various control characters to a document.
 

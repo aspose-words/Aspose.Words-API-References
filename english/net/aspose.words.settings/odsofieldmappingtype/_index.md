@@ -3,7 +3,7 @@ title: OdsoFieldMappingType
 second_title: Aspose.Words for .NET API Reference
 description: Specifies the possible types used to indicate if a given mail merge field has been mapped to a column in the given external data source.
 type: docs
-weight: 5570
+weight: 5620
 url: /net/aspose.words.settings/odsofieldmappingtype/
 ---
 ## OdsoFieldMappingType enumeration
@@ -22,7 +22,7 @@ public enum OdsoFieldMappingType
 | Null | `1` | Specifies that the mail merge field has not been mapped to a column in the given external data source. |
 | Default | `1` | Equals to Null. |
 
-### Examples
+## Examples
 
 Shows how to access the collection of data that maps data source columns to merge fields.
 

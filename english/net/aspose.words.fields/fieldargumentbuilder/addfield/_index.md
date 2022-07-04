@@ -14,7 +14,7 @@ Adds a field represented by a [`FieldBuilder`](../../fieldbuilder) to the argume
 public FieldArgumentBuilder AddField(FieldBuilder fieldBuilder)
 ```
 
-### Examples
+## Examples
 
 Shows how to construct fields using a field builder, and then insert them into the document.
 

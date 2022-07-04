@@ -14,7 +14,7 @@ Gets or sets whether to include the full file path name.
 public bool IncludeFullPath { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to use a TEMPLATE field to display the local file system location of a document's template.
 

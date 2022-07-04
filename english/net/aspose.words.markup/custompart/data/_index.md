@@ -14,13 +14,13 @@ Contains the data of this custom part.
 public byte[] Data { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 This property is applicable only when [`IsExternal`](../isexternal) is `false`.
 
 The default value is an empty byte array. The value cannot be `null`.
 
-### Examples
+## Examples
 
 Shows how to access a document's arbitrary custom parts collection.
 

@@ -3,7 +3,7 @@ title: IMailMergeDataSourceRoot
 second_title: Aspose.Words for .NET API Reference
 description: Implement this interface to allow mail merge from a custom data source with master-detail data.
 type: docs
-weight: 3550
+weight: 3600
 url: /net/aspose.words.mailmerging/imailmergedatasourceroot/
 ---
 ## IMailMergeDataSourceRoot interface
@@ -20,7 +20,7 @@ public interface IMailMergeDataSourceRoot
 | --- | --- |
 | [GetDataSource](../../aspose.words.mailmerging/imailmergedatasourceroot/getdatasource)(string) | The Aspose.Words mail merge engine invokes this method when it encounters a beginning of a top-level mail merge region. |
 
-### Examples
+## Examples
 
 Performs mail merge from a custom data source with master-detail data.
 

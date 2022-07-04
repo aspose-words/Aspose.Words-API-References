@@ -3,7 +3,7 @@ title: IFieldUpdateCultureProvider
 second_title: Aspose.Words for .NET API Reference
 description: When implemented provides a CultureInfo object that should be used during the update of a particular field.
 type: docs
-weight: 2490
+weight: 2540
 url: /net/aspose.words.fields/ifieldupdatecultureprovider/
 ---
 ## IFieldUpdateCultureProvider interface
@@ -20,7 +20,7 @@ public interface IFieldUpdateCultureProvider
 | --- | --- |
 | [GetCulture](../../aspose.words.fields/ifieldupdatecultureprovider/getculture)(string, Field) | Returns a CultureInfo object to be used during the field's update. |
 
-### Examples
+## Examples
 
 Shows how to specify a culture which parses date/time formatting for each field.
 

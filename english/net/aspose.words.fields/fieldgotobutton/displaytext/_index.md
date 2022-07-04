@@ -14,7 +14,7 @@ Gets or sets the text of the "button" that appears in the document, such that it
 public string DisplayText { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows to insert a GOTOBUTTON field.
 

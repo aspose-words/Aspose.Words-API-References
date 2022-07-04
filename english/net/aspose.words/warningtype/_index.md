@@ -3,7 +3,7 @@ title: WarningType
 second_title: Aspose.Words for .NET API Reference
 description: Specifies the type of a warning that is issued by Aspose.Words during document loading or saving.
 type: docs
-weight: 6300
+weight: 6350
 url: /net/aspose.words/warningtype/
 ---
 ## WarningType enumeration
@@ -31,7 +31,7 @@ public enum WarningType
 | UnexpectedContent | `1000000` | Generic unexpected content, no specific code. |
 | Hint | `10000000` | Advises of a potential problem or suggests an improvement. |
 
-### Examples
+## Examples
 
 Shows how to set the property for finding the closest match for a missing font from the available font sources.
 

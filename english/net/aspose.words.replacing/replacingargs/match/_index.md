@@ -14,11 +14,11 @@ The Match resulting from a single regular expression match during a **Replace**.
 public Match Match { get; }
 ```
 
-### Remarks
+## Remarks
 
 **Match.Index"** gets the zero-based starting position of the match from the start of the find and replace range.
 
-### Examples
+## Examples
 
 Shows how to apply a different font to new content via FindReplaceOptions.
 

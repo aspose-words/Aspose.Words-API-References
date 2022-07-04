@@ -14,7 +14,7 @@ Determines whether other chart elements shall be allowed to overlap legend. Defa
 public bool Overlay { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to edit the appearance of a chart's legend.
 

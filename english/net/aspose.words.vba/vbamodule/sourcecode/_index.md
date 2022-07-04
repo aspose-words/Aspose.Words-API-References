@@ -14,7 +14,7 @@ Gets or sets VBA project module source code.
 public string SourceCode { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to create a VBA project using macros.
 

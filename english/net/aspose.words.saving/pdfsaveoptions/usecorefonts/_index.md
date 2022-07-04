@@ -14,7 +14,7 @@ Gets or sets a value determining whether or not to substitute TrueType fonts Ari
 public bool UseCoreFonts { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 The default value is `false`. When this value is set to `true` Arial, Times New Roman, Courier New and Symbol fonts are replaced in PDF document with corresponding core Type 1 font.
 
@@ -28,7 +28,7 @@ Core fonts are not supported when saving to PDF 2.0 format. `false` value will b
 
 This option has a higher priority then [`FontEmbeddingMode`](../fontembeddingmode) option.
 
-### Examples
+## Examples
 
 Shows how enable/disable PDF Type 1 font substitution.
 

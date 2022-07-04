@@ -3,7 +3,7 @@ title: FieldGoToButton
 second_title: Aspose.Words for .NET API Reference
 description: Implements the GOTOBUTTON field.
 type: docs
-weight: 1780
+weight: 1820
 url: /net/aspose.words.fields/fieldgotobutton/
 ---
 ## FieldGoToButton class
@@ -48,11 +48,11 @@ public class FieldGoToButton : Field
 | [Update](../../aspose.words.fields/field/update)() | Performs the field update. Throws if the field is being updated already. |
 | [Update](../../aspose.words.fields/field/update)(bool) | Performs a field update. Throws if the field is being updated already. |
 
-### Remarks
+## Remarks
 
 Inserts a jump command, such that when it is activated, the insertion point of the document is moved to the specified location.
 
-### Examples
+## Examples
 
 Shows to insert a GOTOBUTTON field.
 

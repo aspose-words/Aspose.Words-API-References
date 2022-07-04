@@ -18,7 +18,7 @@ public void Remove(string name)
 | --- | --- | --- |
 | name | String | The case-sensitive value to remove. |
 
-### Examples
+## Examples
 
 Shows how to work with an XML schema collection.
 

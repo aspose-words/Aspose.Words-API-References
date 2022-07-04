@@ -14,7 +14,7 @@ Indicates that this font is a TrueType or OpenType font as opposed to a raster o
 public bool IsTrueType { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to print the details of what fonts are present in a document.
 

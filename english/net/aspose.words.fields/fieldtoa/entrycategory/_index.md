@@ -14,7 +14,7 @@ Gets or sets the integral category for entries included in the table.
 public string EntryCategory { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to build and customize a table of authorities using TOA and TA fields.
 

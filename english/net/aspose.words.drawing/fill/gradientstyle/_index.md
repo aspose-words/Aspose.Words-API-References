@@ -14,7 +14,7 @@ Gets the gradient style [`GradientStyle`](../../gradientstyle) for the fill.
 public GradientStyle GradientStyle { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to fill a shape with a gradients.
 

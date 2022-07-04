@@ -14,7 +14,7 @@ Gets the width of the page in points.
 public float WidthInPoints { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to print page size and orientation information for every page in a Word document.
 

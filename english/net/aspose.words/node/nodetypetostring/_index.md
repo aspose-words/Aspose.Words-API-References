@@ -14,7 +14,7 @@ A utility method that converts a node type enum value into a user friendly strin
 public static string NodeTypeToString(NodeType nodeType)
 ```
 
-### Examples
+## Examples
 
 Shows how to use a node's NextSibling property to enumerate through its immediate children.
 

@@ -3,7 +3,7 @@ title: ParagraphAlignment
 second_title: Aspose.Words for .NET API Reference
 description: Specifies text alignment in a paragraph.
 type: docs
-weight: 4110
+weight: 4160
 url: /net/aspose.words/paragraphalignment/
 ---
 ## ParagraphAlignment enumeration
@@ -29,7 +29,7 @@ public enum ParagraphAlignment
 | ThaiDistributed | `9` | Thai only. Text is justified with an optimization for Thai. |
 | MathElementCenterAsGroup | `10` | The only Math element in a line, aligned as 'Centered As Group'. |
 
-### Examples
+## Examples
 
 Shows how to construct an Aspose.Words document by hand.
 

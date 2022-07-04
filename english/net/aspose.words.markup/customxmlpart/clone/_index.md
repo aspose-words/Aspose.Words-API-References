@@ -14,7 +14,7 @@ Makes a "deep enough" copy of the object. Does not duplicate the bytes of the [`
 public CustomXmlPart Clone()
 ```
 
-### Examples
+## Examples
 
 Shows how to create a structured document tag with custom XML data.
 

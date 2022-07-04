@@ -18,7 +18,7 @@ public int Add(OdsoRecipientData value)
 | --- | --- | --- |
 | value | OdsoRecipientData | The object to add. Cannot be null. |
 
-### Examples
+## Examples
 
 Shows how to access the collection of data that designates which merge data source records a mail merge will exclude.
 

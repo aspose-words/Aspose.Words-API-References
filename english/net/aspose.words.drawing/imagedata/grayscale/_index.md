@@ -14,11 +14,11 @@ Determines whether a picture will display in grayscale mode.
 public bool GrayScale { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 The default value is **false**.
 
-### Examples
+## Examples
 
 Shows how to edit a shape's image data.
 

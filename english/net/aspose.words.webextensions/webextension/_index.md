@@ -3,7 +3,7 @@ title: WebExtension
 second_title: Aspose.Words for .NET API Reference
 description: Represents a web extension object.
 type: docs
-weight: 6380
+weight: 6430
 url: /net/aspose.words.webextensions/webextension/
 ---
 ## WebExtension class
@@ -25,7 +25,7 @@ public class WebExtension
 | [Properties](../../aspose.words.webextensions/webextension/properties) { get; } | Represents a set of web extension custom properties. |
 | [Reference](../../aspose.words.webextensions/webextension/reference) { get; } | Specifies the primary reference to an web extension. |
 
-### Examples
+## Examples
 
 Shows how to add a web extension to a document.
 

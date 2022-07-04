@@ -14,7 +14,7 @@ Gets or sets the theme font in the applied font scheme that is associated with t
 public ThemeFont ThemeFont { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to create and use themed style.
 

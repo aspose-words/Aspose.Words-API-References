@@ -23,7 +23,7 @@ public CultureInfo GetCulture(string culture, Field field)
 
 The culture object that should be used for the field's update.
 
-### Examples
+## Examples
 
 Shows how to specify a culture which parses date/time formatting for each field.
 

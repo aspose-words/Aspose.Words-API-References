@@ -3,7 +3,7 @@ title: ShapeBase
 second_title: Aspose.Words for .NET API Reference
 description: Base class for objects in the drawing layer such as an AutoShape freeform OLE object ActiveX control or picture.
 type: docs
-weight: 1090
+weight: 1110
 url: /net/aspose.words.drawing/shapebase/
 ---
 ## ShapeBase class
@@ -75,6 +75,7 @@ public abstract class ShapeBase : CompositeNode
 | [Right](../../aspose.words.drawing/shapebase/right) { get; } | Gets the position of the right edge of the containing block of the shape. |
 | [Rotation](../../aspose.words.drawing/shapebase/rotation) { get; set; } | Defines the angle (in degrees) that a shape is rotated. Positive value corresponds to clockwise rotation angle. |
 | [ScreenTip](../../aspose.words.drawing/shapebase/screentip) { get; set; } | Defines the text displayed when the mouse pointer moves over the shape. |
+| [ShadowFormat](../../aspose.words.drawing/shapebase/shadowformat) { get; } | Gets shadow formatting for the shape. |
 | [ShapeType](../../aspose.words.drawing/shapebase/shapetype) { get; } | Gets the shape type. |
 | [SizeInPoints](../../aspose.words.drawing/shapebase/sizeinpoints) { get; } | Gets the size of the shape in points. |
 | [Target](../../aspose.words.drawing/shapebase/target) { get; set; } | Gets or sets the target frame for the shape hyperlink. |
@@ -123,7 +124,7 @@ public abstract class ShapeBase : CompositeNode
 | [ToString](../../aspose.words/node/tostring)(SaveFormat) | Exports the content of the node into a string in the specified format. |
 | [ToString](../../aspose.words/node/tostring)(SaveOptions) | Exports the content of the node into a string using the specified save options. |
 
-### Remarks
+## Remarks
 
 This is an abstract class. The two derived classes that you can instantiate are [`Shape`](../shape) and [`GroupShape`](../groupshape).
 
@@ -139,7 +140,7 @@ When a shape is floating, it is positioned relative to something (e.g the curren
 
 A floating shape be positioned explicitly using the [`Left`](./left) and [`Top`](./top) properties or aligned relative to some other object using the [`HorizontalAlignment`](./horizontalalignment) and [`VerticalAlignment`](./verticalalignment) properties.
 
-### Examples
+## Examples
 
 Shows how to insert a floating image to the center of a page.
 

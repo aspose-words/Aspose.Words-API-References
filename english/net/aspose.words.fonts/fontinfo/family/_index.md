@@ -14,7 +14,7 @@ Gets or sets the font family this font belongs to.
 public FontFamily Family { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to access and print details of each font in a document.
 

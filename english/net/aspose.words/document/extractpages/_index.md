@@ -19,11 +19,11 @@ public Document ExtractPages(int index, int count)
 | index | Int32 | The zero-based index of the first page to extract. |
 | count | Int32 | Number of pages to be extracted. |
 
-### Remarks
+## Remarks
 
 The resulting document should look like the one in MS Word, as if we had performed 'Print specific pages' – the numbering, headers/footers and cross tables layout will be preserved. But due to a large number of nuances, appearing while reducing the number of pages, full match of the layout is a quiet complicated task requiring a lot of effort. Depending on the document complexity there might be slight differences in the resulting document contents layout comparing to the source document. Any feedback would be greatly appreciated.
 
-### Examples
+## Examples
 
 Shows how to get specified range of pages from the document.
 

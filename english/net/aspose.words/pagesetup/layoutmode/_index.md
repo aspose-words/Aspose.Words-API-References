@@ -14,7 +14,7 @@ Gets or sets the layout mode of this section.
 public SectionLayoutMode LayoutMode { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to specify a for the number of characters that each line may have.
 

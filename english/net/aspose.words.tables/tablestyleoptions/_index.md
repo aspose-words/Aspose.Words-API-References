@@ -3,7 +3,7 @@ title: TableStyleOptions
 second_title: Aspose.Words for .NET API Reference
 description: Specifies how table style is applied to a table.
 type: docs
-weight: 6020
+weight: 6070
 url: /net/aspose.words.tables/tablestyleoptions/
 ---
 ## TableStyleOptions enumeration
@@ -29,7 +29,7 @@ public enum TableStyleOptions
 | Default2003 | `600` | Row and column banding is applied. This is Microsoft Word default for old formats such as DOC, WML and RTF. |
 | Default | `2A0` | This is Microsoft Word defaults. |
 
-### Examples
+## Examples
 
 Shows how to build a new table while applying a style.
 

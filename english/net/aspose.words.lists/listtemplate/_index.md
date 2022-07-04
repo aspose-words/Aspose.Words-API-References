@@ -3,7 +3,7 @@ title: ListTemplate
 second_title: Aspose.Words for .NET API Reference
 description: Specifies one of the predefined list formats available in Microsoft Word.
 type: docs
-weight: 3280
+weight: 3330
 url: /net/aspose.words.lists/listtemplate/
 ---
 ## ListTemplate enumeration
@@ -41,13 +41,13 @@ public enum ListTemplate
 | OutlineHeadingsNumbers | `18` | An outline list with levels linked to Heading styles. |
 | OutlineHeadingsChapter | `19` | An outline list with levels linked to Heading styles. |
 
-### Remarks
+## Remarks
 
 A list template value is used as a parameter into the [`Add`](../listcollection/add) method.
 
 Aspose.Words list templates correspond to the 21 list templates available in the Bullets and Numbering dialog box in Microsoft Word 2003.
 
-### Examples
+## Examples
 
 Shows how to create a document that contains all outline headings list templates.
 

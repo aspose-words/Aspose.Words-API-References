@@ -14,7 +14,7 @@ Gets the [`BuildingBlock`](../../../aspose.words.buildingblocks/buildingblock) c
 public BuildingBlock Placeholder { get; }
 ```
 
-### Remarks
+## Remarks
 
 Can be null, meaning that the placeholder is not applicable for this structured document tag.
 

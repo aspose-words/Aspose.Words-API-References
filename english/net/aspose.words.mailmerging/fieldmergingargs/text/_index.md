@@ -14,7 +14,7 @@ Gets or sets the text that will be inserted into the document for the current me
 public string Text { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 When your event handler is called, this property is set to null.
 
@@ -22,12 +22,11 @@ If you leave Text as null, the mail merge engine will insert [`FieldValue`](../.
 
 If you set Text to any string (including empty), the string will be inserted into the document in place of the merge field.
 
-### Examples
+## Examples
 
 Shows how to execute a mail merge with a custom callback that handles merge data in the form of HTML documents.
 
 ```csharp
-public void MergeHtml()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);

@@ -3,7 +3,7 @@ title: MailMergeDestination
 second_title: Aspose.Words for .NET API Reference
 description: Specifies the possible results which may be generated when a mail merge is carried out on a document.
 type: docs
-weight: 5480
+weight: 5530
 url: /net/aspose.words.settings/mailmergedestination/
 ---
 ## MailMergeDestination enumeration
@@ -24,7 +24,7 @@ public enum MailMergeDestination
 | Fax | `4` | Specifies that conforming hosting applications shall generate faxes using the documents that result from populating the fields within a given document with data from the specified external data source. |
 | Default | `0` | Equals to the NewDocument value. |
 
-### Examples
+## Examples
 
 Shows how to execute a mail merge with data from an Office Data Source Object.
 

@@ -3,7 +3,7 @@ title: HeaderFooterBookmarksExportMode
 second_title: Aspose.Words for .NET API Reference
 description: Specifies how bookmarks in headers/footers are exported.
 type: docs
-weight: 4740
+weight: 4790
 url: /net/aspose.words.saving/headerfooterbookmarksexportmode/
 ---
 ## HeaderFooterBookmarksExportMode enumeration
@@ -22,7 +22,7 @@ public enum HeaderFooterBookmarksExportMode
 | First | `1` | Only bookmark in first header/footer of the section is exported. |
 | All | `2` | Bookmarks in all headers/footers are exported. |
 
-### Examples
+## Examples
 
 Shows to process bookmarks in headers/footers in a document that we are rendering to PDF.
 

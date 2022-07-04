@@ -14,7 +14,7 @@ Gets the [`ShapeBase`](../../../aspose.words.drawing/shapebase) object correspon
 public ShapeBase CurrentShape { get; }
 ```
 
-### Remarks
+## Remarks
 
 [`IImageSavingCallback`](../../iimagesavingcallback) can be fired while saving either a shape or a group shape. That's why the property has [`ShapeBase`](../../../aspose.words.drawing/shapebase) type. You can check whether it's a group shape comparing [`ShapeType`](../../../aspose.words.drawing/shapebase/shapetype) with Group or by casting it to one of derived classes: [`Shape`](../../../aspose.words.drawing/shape) or [`GroupShape`](../../../aspose.words.drawing/groupshape).
 
@@ -22,7 +22,7 @@ Aspose.Words uses the document file name and a unique number to generate unique 
 
 Some images in the document can be unavailable. To check image availability use the [`IsImageAvailable`](../isimageavailable) property.
 
-### Examples
+## Examples
 
 Shows how to involve an image saving callback in an HTML conversion process.
 

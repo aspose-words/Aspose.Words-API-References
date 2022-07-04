@@ -18,7 +18,7 @@ public void Add(string value)
 | --- | --- | --- |
 | value | String | The item to add. |
 
-### Examples
+## Examples
 
 Shows how to work with an XML schema collection.
 

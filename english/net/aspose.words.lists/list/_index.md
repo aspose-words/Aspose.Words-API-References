@@ -3,7 +3,7 @@ title: List
 second_title: Aspose.Words for .NET API Reference
 description: Represents formatting of a list.
 type: docs
-weight: 3210
+weight: 3260
 url: /net/aspose.words.lists/list/
 ---
 ## List class
@@ -37,7 +37,7 @@ public class List : IComparable<List>
 | override [Equals](../../aspose.words.lists/list/equals#equals_1)(object) |  |
 | override [GetHashCode](../../aspose.words.lists/list/gethashcode)() | Calculates hash code for this list object. |
 
-### Remarks
+## Remarks
 
 A list in a Microsoft Word document is a set of list formatting properties. Each list can have up to 9 levels and formatting properties, such as number style, start value, indent, tab position etc are defined separately for each level.
 
@@ -49,7 +49,7 @@ To modify formatting of a list, use [`ListLevel`](../listlevel) objects found in
 
 To apply or remove list formatting from a paragraph, use [`ListFormat`](../listformat).
 
-### Examples
+## Examples
 
 Shows how to restart numbering in a list by copying a list.
 

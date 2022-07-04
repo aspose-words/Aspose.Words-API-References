@@ -14,11 +14,11 @@ Gets or sets the name of the bookmark.
 public string Name { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 Note that if you change the name of a bookmark to a name that already exists in the document, no error will be given and only the first bookmark will be stored when you save the document.
 
-### Examples
+## Examples
 
 Shows how to insert a bookmark.
 

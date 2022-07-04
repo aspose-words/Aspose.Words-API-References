@@ -3,7 +3,7 @@ title: PdfImageColorSpaceExportMode
 second_title: Aspose.Words for .NET API Reference
 description: Specifies how the color space will be selected for the images in PDF document.
 type: docs
-weight: 5150
+weight: 5200
 url: /net/aspose.words.saving/pdfimagecolorspaceexportmode/
 ---
 ## PdfImageColorSpaceExportMode enumeration
@@ -21,7 +21,7 @@ public enum PdfImageColorSpaceExportMode
 | Auto | `0` | Aspose.Words automatically selects the most appropriate color space for each image. |
 | SimpleCmyk | `1` | Aspose.Words coverts RGB images to CMYK color space using simple formula. |
 
-### Examples
+## Examples
 
 Shows how to set a different color space for images in a document as we export it to PDF.
 

@@ -18,7 +18,7 @@ public string ToString(SaveFormat saveFormat)
 
 The content of the node in the specified format.
 
-### Examples
+## Examples
 
 Shows the difference between calling the GetText and ToString methods on a node.
 
@@ -112,7 +112,7 @@ public string ToString(SaveOptions saveOptions)
 
 The content of the node in the specified format.
 
-### Examples
+## Examples
 
 Exports the content of a node to String in HTML format.
 

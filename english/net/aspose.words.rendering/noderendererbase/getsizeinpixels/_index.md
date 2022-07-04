@@ -23,11 +23,11 @@ public Size GetSizeInPixels(float scale, float dpi)
 
 The size of the shape in pixels.
 
-### Remarks
+## Remarks
 
 This method converts [`SizeInPoints`](../sizeinpoints) into size in pixels and it is useful when you want to create a bitmap for rendering the shape neatly onto the bitmap.
 
-### Examples
+## Examples
 
 Shows how to measure and scale shapes.
 
@@ -97,11 +97,11 @@ public Size GetSizeInPixels(float scale, float horizontalDpi, float verticalDpi)
 
 The size of the shape in pixels.
 
-### Remarks
+## Remarks
 
 This method converts [`SizeInPoints`](../sizeinpoints) into size in pixels and it is useful when you want to create a bitmap for rendering the shape neatly onto the bitmap.
 
-### Examples
+## Examples
 
 Shows how to measure and scale shapes.
 

@@ -14,11 +14,11 @@ Inserts style separator into the document.
 public void InsertStyleSeparator()
 ```
 
-### Remarks
+## Remarks
 
 This method allows to apply different paragraph styles to two different parts of a text line.
 
-### Examples
+## Examples
 
 Shows how to work with style separators.
 

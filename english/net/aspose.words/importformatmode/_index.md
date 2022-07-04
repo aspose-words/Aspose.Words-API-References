@@ -3,7 +3,7 @@ title: ImportFormatMode
 second_title: Aspose.Words for .NET API Reference
 description: Specifies how formatting is merged when importing content from another document.
 type: docs
-weight: 2980
+weight: 3030
 url: /net/aspose.words/importformatmode/
 ---
 ## ImportFormatMode enumeration
@@ -22,7 +22,7 @@ public enum ImportFormatMode
 | KeepSourceFormatting | `1` | Copy all required styles to the destination document, generate unique style names if needed. |
 | KeepDifferentStyles | `2` | Only copy styles that are different from those in the source document. |
 
-### Remarks
+## Remarks
 
 When you copy nodes from one document to another, this option specifies how formatting is resolved when both documents have a style with the same name, but different formatting.
 
@@ -42,7 +42,7 @@ The drawback of using **KeepSourceFormatting** is that if you perform several im
 
 Using **KeepDifferentStyles** option allows to reuse destination styles if the formatting they provide is identical to the styles in the source document. If the style in destination document is different from the source then it is imported.
 
-### Examples
+## Examples
 
 Shows how to insert a document into another document.
 

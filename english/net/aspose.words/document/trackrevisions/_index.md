@@ -14,13 +14,13 @@ url: /net/aspose.words/document/trackrevisions/
 public bool TrackRevisions { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 Setting this option only instructs Microsoft Word whether the track changes is turned on or off. This property has no effect on changes to the document that you make programmatically via Aspose.Words.
 
 If you want to automatically track changes as they are made programmatically by Aspose.Words to this document use the [`StartTrackRevisions`](../starttrackrevisions) method.
 
-### Examples
+## Examples
 
 Shows how to work with revisions in a document.
 

@@ -14,13 +14,13 @@ Specifies how the shape is positioned horizontally.
 public HorizontalAlignment HorizontalAlignment { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 The default value is None.
 
 Has effect only for top level floating shapes.
 
-### Examples
+## Examples
 
 Shows how to insert a floating image to the center of a page.
 

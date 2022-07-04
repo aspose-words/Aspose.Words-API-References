@@ -14,11 +14,11 @@ Gets or sets the starting page number of the section.
 public int PageStartingNumber { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 The [`RestartPageNumbering`](../restartpagenumbering) property, if set to **false**, will override the **PageStartingNumber** property so that page numbering can continue from the previous section.
 
-### Examples
+## Examples
 
 Shows how to set up page numbering in a section.
 

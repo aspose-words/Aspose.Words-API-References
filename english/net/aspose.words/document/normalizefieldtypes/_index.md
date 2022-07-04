@@ -14,13 +14,13 @@ Changes field type values [`FieldType`](../../../aspose.words.fields/fieldchar/f
 public void NormalizeFieldTypes()
 ```
 
-### Remarks
+## Remarks
 
 Use this method after document changes that affect field types.
 
 To change field type values in a specific part of the document use [`NormalizeFieldTypes`](../../range/normalizefieldtypes).
 
-### Examples
+## Examples
 
 Shows how to get the keep a field's type up to date with its field code.
 

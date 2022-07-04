@@ -14,7 +14,7 @@ Gets or sets the MIME type of the referenced file.
 public string MimeType { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to create an INCLUDETEXT field, and set its properties.
 

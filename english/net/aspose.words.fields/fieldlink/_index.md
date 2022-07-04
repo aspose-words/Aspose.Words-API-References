@@ -3,7 +3,7 @@ title: FieldLink
 second_title: Aspose.Words for .NET API Reference
 description: Implements the LINK field.
 type: docs
-weight: 1920
+weight: 1960
 url: /net/aspose.words.fields/fieldlink/
 ---
 ## FieldLink class
@@ -58,11 +58,11 @@ public class FieldLink : Field
 | [Update](../../aspose.words.fields/field/update)() | Performs the field update. Throws if the field is being updated already. |
 | [Update](../../aspose.words.fields/field/update)(bool) | Performs a field update. Throws if the field is being updated already. |
 
-### Remarks
+## Remarks
 
 For information copied from another application, this field links that information to its original source file.
 
-### Examples
+## Examples
 
 Shows how to use various field types to link to other documents in the local file system, and display their contents.
 

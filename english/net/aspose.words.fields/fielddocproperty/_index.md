@@ -3,7 +3,7 @@ title: FieldDocProperty
 second_title: Aspose.Words for .NET API Reference
 description: Implements the DOCPROPERTY field.
 type: docs
-weight: 1620
+weight: 1660
 url: /net/aspose.words.fields/fielddocproperty/
 ---
 ## FieldDocProperty class
@@ -46,11 +46,11 @@ public class FieldDocProperty : Field
 | [Update](../../aspose.words.fields/field/update)() | Performs the field update. Throws if the field is being updated already. |
 | [Update](../../aspose.words.fields/field/update)(bool) | Performs a field update. Throws if the field is being updated already. |
 
-### Remarks
+## Remarks
 
 Retrieves the indicated document information.
 
-### Examples
+## Examples
 
 Shows how to use DOCPROPERTY fields to display document properties and variables.
 

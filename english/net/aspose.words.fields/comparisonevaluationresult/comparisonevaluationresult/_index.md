@@ -14,7 +14,7 @@ Creates a comparison evaluation result.
 public ComparisonEvaluationResult(bool result)
 ```
 
-### Examples
+## Examples
 
 Shows how to implement custom evaluation for the IF and COMPARE fields.
 
@@ -111,7 +111,7 @@ Creates a failed comparison evaluation result with the corresponding error messa
 public ComparisonEvaluationResult(string errorMessage)
 ```
 
-### Examples
+## Examples
 
 Shows how to implement custom evaluation for the IF and COMPARE fields.
 

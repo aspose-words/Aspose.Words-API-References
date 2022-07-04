@@ -14,7 +14,7 @@ If this property is **false**, Latin text in the middle of a word can be wrapped
 public bool WordWrap { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to set special properties for Asian typography.
 

@@ -14,7 +14,7 @@ Gets/sets a flag indicating whether this label is hidden. The default value is *
 public bool IsHidden { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to apply labels to data points in a line chart.
 

@@ -14,7 +14,7 @@ Returns true if a shadow effect is enabled.
 public bool ShadowEnabled { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to iterate over all the shapes in a document.
 

@@ -3,7 +3,7 @@ title: FieldSkipIf
 second_title: Aspose.Words for .NET API Reference
 description: Implements the SKIPIF field.
 type: docs
-weight: 2230
+weight: 2270
 url: /net/aspose.words.fields/fieldskipif/
 ---
 ## FieldSkipIf class
@@ -49,11 +49,11 @@ public class FieldSkipIf : Field
 | [Update](../../aspose.words.fields/field/update)() | Performs the field update. Throws if the field is being updated already. |
 | [Update](../../aspose.words.fields/field/update)(bool) | Performs a field update. Throws if the field is being updated already. |
 
-### Remarks
+## Remarks
 
 Compares the values designated by the expressions [`LeftExpression`](./leftexpression) and [`RightExpression`](./rightexpression) in comparison using the operator designated by [`ComparisonOperator`](./comparisonoperator). If the comparison is true, SKIPIF cancels the current merge document, moves to the next data record in the data source, and starts a new merge document. If the comparison is false, the current merge document is continued.
 
-### Examples
+## Examples
 
 Shows how to skip pages in a mail merge using the SKIPIF field.
 

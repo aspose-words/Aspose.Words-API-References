@@ -14,7 +14,7 @@ Gets the facade object that encapsulates this bookmark start and end.
 public Bookmark Bookmark { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to add bookmarks and update their contents.
 

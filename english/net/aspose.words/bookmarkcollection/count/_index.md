@@ -14,7 +14,7 @@ Returns the number of bookmarks in the collection.
 public int Count { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to remove bookmarks from a document.
 

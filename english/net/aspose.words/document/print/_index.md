@@ -14,7 +14,7 @@ Prints the whole document to the default printer.
 public void Print()
 ```
 
-### Examples
+## Examples
 
 Shows how to print a document using the default printer.
 
@@ -55,7 +55,7 @@ public void Print(string printerName)
 | --- | --- | --- |
 | printerName | String | The name of the printer. |
 
-### Examples
+## Examples
 
 Shows how to print a document using the default printer.
 
@@ -96,11 +96,11 @@ public void Print(PrinterSettings printerSettings)
 | --- | --- | --- |
 | printerSettings | PrinterSettings | The printer settings to use. |
 
-### Remarks
+## Remarks
 
 The PrinterSettings object allows you to specify the printer to print on, the range of pages of to print and other options.
 
-### Examples
+## Examples
 
 Shows how to print a range of pages.
 
@@ -149,11 +149,11 @@ public void Print(PrinterSettings printerSettings, string documentName)
 | printerSettings | PrinterSettings | The printer settings to use. |
 | documentName | String | The document name to display (for example, in a print status dialog box or printer queue) while printing the document. |
 
-### Remarks
+## Remarks
 
 The PrinterSettings object allows you to specify the printer to print on, the range of pages of to print and other options.
 
-### Examples
+## Examples
 
 Shows how to print a range of pages.
 

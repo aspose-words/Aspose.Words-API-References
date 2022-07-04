@@ -3,7 +3,7 @@ title: MappedDataFieldCollection
 second_title: Aspose.Words for .NET API Reference
 description: Allows to automatically map between names of fields in your data source and names of mail merge fields in the document.
 type: docs
-weight: 3600
+weight: 3650
 url: /net/aspose.words.mailmerging/mappeddatafieldcollection/
 ---
 ## MappedDataFieldCollection class
@@ -32,11 +32,11 @@ public class MappedDataFieldCollection : IEnumerable<KeyValuePair<string, string
 | [GetEnumerator](../../aspose.words.mailmerging/mappeddatafieldcollection/getenumerator)() | Returns a dictionary enumerator object that can be used to iterate over all items in the collection. |
 | [Remove](../../aspose.words.mailmerging/mappeddatafieldcollection/remove)(string) | Removes a field mapping. |
 
-### Remarks
+## Remarks
 
 This is implemented as a collection of string keys into string values. The keys are the names of mail merge fields in the document and the values are the names of fields in your data source.
 
-### Examples
+## Examples
 
 Shows how to map data columns and MERGEFIELDs with different names so the data is transferred between them during a mail merge.
 

@@ -14,7 +14,7 @@ Specifies whether the bubbles in Bubble chart should have a 3-D effect applied t
 public bool Bubble3D { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to use 3D effects with bubble charts.
 

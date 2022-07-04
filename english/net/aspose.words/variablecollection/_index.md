@@ -3,7 +3,7 @@ title: VariableCollection
 second_title: Aspose.Words for .NET API Reference
 description: A collection of document variables.
 type: docs
-weight: 6180
+weight: 6230
 url: /net/aspose.words/variablecollection/
 ---
 ## VariableCollection class
@@ -33,13 +33,13 @@ public class VariableCollection : IEnumerable<KeyValuePair<string, string>>
 | [Remove](../../aspose.words/variablecollection/remove)(string) | Removes a document variable with the specified name from the collection. |
 | [RemoveAt](../../aspose.words/variablecollection/removeat)(int) | Removes a document variable at the specified index. |
 
-### Remarks
+## Remarks
 
 Variable names and values are strings.
 
 Variable names are case-insensitive.
 
-### Examples
+## Examples
 
 Shows how to work with a document's variable collection.
 

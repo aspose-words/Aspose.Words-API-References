@@ -3,7 +3,7 @@ title: FieldChar
 second_title: Aspose.Words for .NET API Reference
 description: Base class for nodes that represent field characters in a document.
 type: docs
-weight: 1500
+weight: 1520
 url: /net/aspose.words.fields/fieldchar/
 ---
 ## FieldChar class
@@ -53,13 +53,13 @@ public abstract class FieldChar : SpecialChar
 | [ToString](../../aspose.words/node/tostring)(SaveFormat) | Exports the content of the node into a string in the specified format. |
 | [ToString](../../aspose.words/node/tostring)(SaveOptions) | Exports the content of the node into a string using the specified save options. |
 
-### Remarks
+## Remarks
 
 A complete field in a Microsoft Word document is a complex structure consisting of a field start character, field code, field separator character, field result and field end character. Some fields only have field start, field code and field end.
 
 To easily insert a new field into a document, use the [`InsertField`](../../aspose.words/documentbuilder/insertfield) method.
 
-### Examples
+## Examples
 
 Shows how to work with a FieldStart node.
 

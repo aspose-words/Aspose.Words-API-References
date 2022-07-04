@@ -14,7 +14,7 @@ Gets type of Forms 2.0 control.
 public Forms2OleControlType Type { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to verify the properties of an ActiveX control.
 

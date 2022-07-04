@@ -14,7 +14,7 @@ Gets or sets OLE Package file name.
 public string FileName { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how insert an OLE object into a document.
 

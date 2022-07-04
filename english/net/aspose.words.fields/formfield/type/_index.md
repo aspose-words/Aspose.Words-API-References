@@ -14,7 +14,7 @@ Returns the form field type.
 public FieldType Type { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to insert a combo box.
 

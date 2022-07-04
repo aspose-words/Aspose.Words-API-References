@@ -3,7 +3,7 @@ title: MarkupLevel
 second_title: Aspose.Words for .NET API Reference
 description: Specifies the level in the document tree where a particular StructuredDocumentTag./structureddocumenttag can occur.
 type: docs
-weight: 3690
+weight: 3740
 url: /net/aspose.words.markup/markuplevel/
 ---
 ## MarkupLevel enumeration
@@ -24,7 +24,7 @@ public enum MarkupLevel
 | Row | `3` | The element occurs among rows in a table. |
 | Cell | `4` | The element occurs among cells in a row. |
 
-### Examples
+## Examples
 
 Shows how to work with styles for content control elements.
 

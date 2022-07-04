@@ -14,13 +14,13 @@ Clears the section.
 public void ClearContent()
 ```
 
-### Remarks
+## Remarks
 
 The text of [`Body`](../body) is cleared, only one empty paragraph is left that represents the section break.
 
 The text of all headers and footers is cleared, but [`HeaderFooter`](../../headerfooter) objects themselves are not removed.
 
-### Examples
+## Examples
 
 Shows how to clear the contents of a section.
 

@@ -14,11 +14,11 @@ Represents an estimate of the number of pages in the document.
 public int Pages { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 Aspose.Words updates this property when you call [`UpdatePageLayout`](../../../aspose.words/document/updatepagelayout).
 
-### Examples
+## Examples
 
 Shows how to work with document properties in the "Content" category.
 

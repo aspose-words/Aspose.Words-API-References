@@ -14,11 +14,11 @@ Gets or sets path to default template (including filename). Default value for th
 public string DefaultTemplate { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 If specified, this path is used to load template when [`AutomaticallyUpdateStyles`](../../../aspose.words/document/automaticallyupdatestyles) is true, but [`AttachedTemplate`](../../../aspose.words/document/attachedtemplate) is empty.
 
-### Examples
+## Examples
 
 Shows how to set a default template for documents that do not have attached templates.
 

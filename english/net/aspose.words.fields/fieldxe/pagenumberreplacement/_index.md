@@ -14,7 +14,7 @@ Gets or sets text used in place of a page number.
 public string PageNumberReplacement { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to define cross references in an INDEX field.
 

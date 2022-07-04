@@ -3,7 +3,7 @@ title: TextBoxWrapMode
 second_title: Aspose.Words for .NET API Reference
 description: Specifies how text wraps inside a shape.
 type: docs
-weight: 1170
+weight: 1190
 url: /net/aspose.words.drawing/textboxwrapmode/
 ---
 ## TextBoxWrapMode enumeration
@@ -21,7 +21,7 @@ public enum TextBoxWrapMode
 | Square | `0` | Text wraps inside a shape. |
 | None | `2` | Text does not wrap inside a shape. |
 
-### Examples
+## Examples
 
 Shows how to set a wrapping mode for the contents of a text box.
 

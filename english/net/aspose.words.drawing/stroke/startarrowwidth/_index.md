@@ -14,11 +14,11 @@ Defines the arrowhead width for the start of a stroke.
 public ArrowWidth StartArrowWidth { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 The default value is Medium.
 
-### Examples
+## Examples
 
 Shows to create a variety of shapes.
 

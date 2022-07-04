@@ -14,7 +14,7 @@ Adds a specified [`GradientStop`](../../gradientstop) to a gradient.
 public GradientStop Add(GradientStop gradientStop)
 ```
 
-### Examples
+## Examples
 
 Shows how to add gradient stops to the gradient fill.
 

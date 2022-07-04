@@ -14,7 +14,7 @@ Called when the Aspose.Words mail merge engine is about to insert data into a me
 public void FieldMerging(FieldMergingArgs args)
 ```
 
-### Examples
+## Examples
 
 Shows how to insert images stored in a database BLOB field into a report.
 
@@ -40,7 +40,6 @@ public void ImageFromBlob()
     }
 
     doc.Save(ArtifactsDir + "MailMergeEvent.ImageFromBlob.docx");
-}
 
 private class HandleMergeImageFieldFromBlob : IFieldMergingCallback
 {
@@ -63,7 +62,6 @@ private class HandleMergeImageFieldFromBlob : IFieldMergingCallback
 Shows how to execute a mail merge with a custom callback that handles merge data in the form of HTML documents.
 
 ```csharp
-public void MergeHtml()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);

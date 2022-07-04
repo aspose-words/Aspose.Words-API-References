@@ -14,7 +14,7 @@ True when the paragraph has bulleted or numbered formatting applied to it.
 public bool IsListItem { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to output all paragraphs in a document that are list items.
 

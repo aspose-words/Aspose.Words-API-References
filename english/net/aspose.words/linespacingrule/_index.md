@@ -3,7 +3,7 @@ title: LineSpacingRule
 second_title: Aspose.Words for .NET API Reference
 description: Specifies line spacing values for a paragraph.
 type: docs
-weight: 3190
+weight: 3240
 url: /net/aspose.words/linespacingrule/
 ---
 ## LineSpacingRule enumeration

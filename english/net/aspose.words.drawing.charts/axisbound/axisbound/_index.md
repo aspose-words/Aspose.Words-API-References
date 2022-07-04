@@ -14,7 +14,7 @@ Creates a new instance indicating that axis bound should be determined automatic
 public AxisBound()
 ```
 
-### Examples
+## Examples
 
 Shows how to set custom axis bounds.
 
@@ -87,7 +87,7 @@ Creates an axis bound represented as a number.
 public AxisBound(double value)
 ```
 
-### Examples
+## Examples
 
 Shows how to insert chart with date/time values.
 
@@ -150,7 +150,7 @@ Creates an axis bound represented as datetime value.
 public AxisBound(DateTime datetime)
 ```
 
-### Examples
+## Examples
 
 Shows how to insert chart with date/time values.
 

@@ -3,7 +3,7 @@ title: TextPathAlignment
 second_title: Aspose.Words for .NET API Reference
 description: WordArt alignment.
 type: docs
-weight: 1190
+weight: 1210
 url: /net/aspose.words.drawing/textpathalignment/
 ---
 ## TextPathAlignment enumeration
@@ -25,7 +25,7 @@ public enum TextPathAlignment
 | LetterJustify | `4` | Spread letters out to fit width. |
 | WordJustify | `5` | Spread words out to fit width. |
 
-### Examples
+## Examples
 
 Shows how to work with WordArt.
 

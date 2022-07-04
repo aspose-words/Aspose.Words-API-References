@@ -14,7 +14,7 @@ Gets or sets whether to remove the formatting of the entry text in the document 
 public bool RemoveEntryFormatting { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to build and customize a table of authorities using TOA and TA fields.
 

@@ -22,7 +22,7 @@ public Paragraph AppendParagraph(string text)
 
 The newly created and appended paragraph.
 
-### Examples
+## Examples
 
 Shows how to create a header and a footer.
 

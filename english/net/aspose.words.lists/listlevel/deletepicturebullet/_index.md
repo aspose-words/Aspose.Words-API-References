@@ -14,11 +14,11 @@ Deletes picture bullet for the current list level.
 public void DeletePictureBullet()
 ```
 
-### Remarks
+## Remarks
 
 Default bullet will be shown after deleting.
 
-### Examples
+## Examples
 
 Shows how to set a custom image icon for list item labels.
 

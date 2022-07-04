@@ -14,11 +14,11 @@ Specifies a tag associated with the current structured document tag node. Can no
 public string Tag { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 A tag is an arbitrary string which applications can associate with structured document tag in order to identify it without providing a visible friendly name.
 
-### Examples
+## Examples
 
 Shows how to get the properties of multi-section structured document tags.
 

@@ -14,13 +14,13 @@ Gets or sets paths of MS Word built-in templates.
 public string[] BuiltInTemplatesPaths { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 This property is used by the [`FieldAutoText`](../../fieldautotext) and [`FieldGlossary`](../../fieldglossary) fields, if referenced auto text entry is not found in the [`AttachedTemplate`](../../../aspose.words/document/attachedtemplate) template.
 
 By default MS Word stores built-in templates in c:\Users\&lt;username&gt;\AppData\Roaming\Microsoft\Document Building Blocks\1033\16\Built-In Building Blocks.dotx and C:\Users\&lt;username&gt;\AppData\Roaming\Microsoft\Templates\Normal.dotm files.
 
-### Examples
+## Examples
 
 Shows how to display a building block with AUTOTEXT and GLOSSARY fields.
 

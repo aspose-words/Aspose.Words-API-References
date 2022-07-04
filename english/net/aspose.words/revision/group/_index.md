@@ -14,11 +14,11 @@ Gets the revision group. Returns null if the revision does not belong to any gro
 public RevisionGroup Group { get; }
 ```
 
-### Remarks
+## Remarks
 
 Revision has no group if revision type is RevisionType.StyleDefinitionChange or if the revision is not longer exist in document context (accepted/rejected).
 
-### Examples
+## Examples
 
 Shows how to work with revisions in a document.
 

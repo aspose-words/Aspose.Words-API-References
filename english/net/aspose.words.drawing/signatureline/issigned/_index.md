@@ -14,7 +14,7 @@ Indicates that signature line is signed by digital signature.
 public bool IsSigned { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to sign a document with a personal certificate and a signature line.
 

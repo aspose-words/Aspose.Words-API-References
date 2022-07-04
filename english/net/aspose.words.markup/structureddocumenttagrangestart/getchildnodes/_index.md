@@ -14,7 +14,7 @@ Returns a live collection of child nodes that match the specified types.
 public NodeCollection GetChildNodes(NodeType nodeType, bool isDeep)
 ```
 
-### Examples
+## Examples
 
 Shows how to get child nodes of StructuredDocumentTagRangeStart.
 

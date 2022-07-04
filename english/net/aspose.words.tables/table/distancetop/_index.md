@@ -14,7 +14,7 @@ Gets distance between table top and the surrounding text, in points.
 public double DistanceTop { get; }
 ```
 
-### Examples
+## Examples
 
 Shows the minimum distance operations between table boundaries and text.
 

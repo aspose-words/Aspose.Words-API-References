@@ -14,7 +14,7 @@ Specifies whether the task pane is locked to the document in the UI and cannot b
 public bool IsLocked { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to add a web extension to a document.
 

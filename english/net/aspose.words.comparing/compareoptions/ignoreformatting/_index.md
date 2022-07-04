@@ -14,7 +14,7 @@ True indicates that formatting is ignored. By default document formatting is not
 public bool IgnoreFormatting { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to filter specific types of document elements when making a comparison.
 

@@ -3,7 +3,7 @@ title: INodeChangingCallback
 second_title: Aspose.Words for .NET API Reference
 description: Implement this interface if you want to receive notifications when nodes are inserted or removed in the document.
 type: docs
-weight: 2950
+weight: 3000
 url: /net/aspose.words/inodechangingcallback/
 ---
 ## INodeChangingCallback interface
@@ -23,7 +23,7 @@ public interface INodeChangingCallback
 | [NodeRemoved](../../aspose.words/inodechangingcallback/noderemoved)(NodeChangingArgs) | Called when a node belonging to this document has been removed from its parent. |
 | [NodeRemoving](../../aspose.words/inodechangingcallback/noderemoving)(NodeChangingArgs) | Called just before a node belonging to this document is about to be removed from the document. |
 
-### Examples
+## Examples
 
 Shows how customize node changing with a callback.
 

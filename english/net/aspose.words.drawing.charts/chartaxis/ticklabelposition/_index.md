@@ -14,11 +14,11 @@ Returns or sets the position of the tick labels on the axis.
 public AxisTickLabelPosition TickLabelPosition { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 The property is not supported by MS Office 2016 new charts.
 
-### Examples
+## Examples
 
 Shows how to insert a chart and modify the appearance of its axes.
 

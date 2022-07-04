@@ -14,7 +14,7 @@ Specifies whether to compare the differences in data contained in tables. By def
 public bool IgnoreTables { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to filter specific types of document elements when making a comparison.
 

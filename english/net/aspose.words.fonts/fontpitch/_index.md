@@ -3,7 +3,7 @@ title: FontPitch
 second_title: Aspose.Words for .NET API Reference
 description: Represents the font pitch.
 type: docs
-weight: 2730
+weight: 2780
 url: /net/aspose.words.fonts/fontpitch/
 ---
 ## FontPitch enumeration
@@ -22,11 +22,11 @@ public enum FontPitch
 | Fixed | `1` | Specifies that this is a fixed width font. |
 | Variable | `2` | Specifies that this is a proportional width font. |
 
-### Remarks
+## Remarks
 
 The pitch indicates if the font is fixed pitch, proportionally spaced, or relies on a default setting.
 
-### Examples
+## Examples
 
 Shows how to access and print details of each font in a document.
 

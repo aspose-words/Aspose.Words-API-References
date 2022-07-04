@@ -3,7 +3,7 @@ title: DocSaveOptions
 second_title: Aspose.Words for .NET API Reference
 description: Can be used to specify additional options when saving a document into the Doc or Dot format.
 type: docs
-weight: 4620
+weight: 4670
 url: /net/aspose.words.saving/docsaveoptions/
 ---
 ## DocSaveOptions class
@@ -51,11 +51,11 @@ public class DocSaveOptions : SaveOptions
 | [UseAntiAliasing](../../aspose.words.saving/saveoptions/useantialiasing) { get; set; } | Gets or sets a value determining whether or not to use anti-aliasing for rendering. |
 | [UseHighQualityRendering](../../aspose.words.saving/saveoptions/usehighqualityrendering) { get; set; } | Gets or sets a value determining whether or not to use high quality (i.e. slow) rendering algorithms. |
 
-### Remarks
+## Remarks
 
 At the moment provides only the [`SaveFormat`](./saveformat) property, but in the future will have other options added, such as an encryption password or digital signature settings.
 
-### Examples
+## Examples
 
 Shows how to set save options for older Microsoft Word formats.
 

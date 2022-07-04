@@ -3,7 +3,7 @@ title: NodeChangingAction
 second_title: Aspose.Words for .NET API Reference
 description: Specifies the type of node change.
 type: docs
-weight: 3890
+weight: 3940
 url: /net/aspose.words/nodechangingaction/
 ---
 ## NodeChangingAction enumeration
@@ -21,7 +21,7 @@ public enum NodeChangingAction
 | Insert | `0` | A node is being inserted in the tree. |
 | Remove | `1` | A node is being removed from the tree. |
 
-### Examples
+## Examples
 
 Shows how to use a NodeChangingCallback to monitor changes to the document tree in real-time as we edit it.
 

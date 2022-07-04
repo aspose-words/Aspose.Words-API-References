@@ -3,7 +3,7 @@ title: RevisionTextEffect
 second_title: Aspose.Words for .NET API Reference
 description: Allows to specify decoration effect for revisions of document text.
 type: docs
-weight: 3150
+weight: 3200
 url: /net/aspose.words.layout/revisiontexteffect/
 ---
 ## RevisionTextEffect enumeration
@@ -28,7 +28,7 @@ public enum RevisionTextEffect
 | DoubleStrikeThrough | `7` | Revised content is double stroked through and colored. |
 | Hidden | `8` | Revised content is hidden. |
 
-### Examples
+## Examples
 
 Shows how to modify the appearance of revisions.
 

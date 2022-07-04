@@ -15,7 +15,7 @@ Reserved for system use. IXPathNavigable.
 public XPathNavigator CreateNavigator()
 ```
 
-### Examples
+## Examples
 
 Shows how to create an XPathNavigator, and then use it to traverse and read nodes.
 

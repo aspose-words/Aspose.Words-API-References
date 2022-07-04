@@ -3,7 +3,7 @@ title: TaskPane
 second_title: Aspose.Words for .NET API Reference
 description: Represents an add-in task pane object.
 type: docs
-weight: 6350
+weight: 6400
 url: /net/aspose.words.webextensions/taskpane/
 ---
 ## TaskPane class
@@ -31,7 +31,7 @@ public class TaskPane
 | [WebExtension](../../aspose.words.webextensions/taskpane/webextension) { get; } | Represents an web extension object. |
 | [Width](../../aspose.words.webextensions/taskpane/width) { get; set; } | Specifies the default width value for this task pane instance. |
 
-### Examples
+## Examples
 
 Shows how to add a web extension to a document.
 

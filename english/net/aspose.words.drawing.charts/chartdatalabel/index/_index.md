@@ -14,7 +14,7 @@ Specifies the index of the containing element. This index shall determine which 
 public int Index { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to apply labels to data points in a line chart.
 

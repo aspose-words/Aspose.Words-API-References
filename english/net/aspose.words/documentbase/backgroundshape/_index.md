@@ -14,7 +14,7 @@ Gets or sets the background shape of the document. Can be null.
 public Shape BackgroundShape { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 Microsoft Word allows only a shape that has its [`ShapeType`](../../../aspose.words.drawing/shapebase/shapetype) property equal to Rectangle to be used as a background shape for a document.
 
@@ -22,7 +22,7 @@ Microsoft Word supports only the fill properties of a background shape. All othe
 
 Setting this property to a non-null value will also set the [`DisplayBackgroundShape`](../../../aspose.words.settings/viewoptions/displaybackgroundshape) to true.
 
-### Examples
+## Examples
 
 Shows how to set a background shape for every page of a document.
 

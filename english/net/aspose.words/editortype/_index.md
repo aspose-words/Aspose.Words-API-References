@@ -3,7 +3,7 @@ title: EditorType
 second_title: Aspose.Words for .NET API Reference
 description: Specifies the set of possible aliases or editing groups which can be used as aliases to determine if the current user shall be allowed to edit a single range defined by an editable range within a document.
 type: docs
-weight: 1280
+weight: 1300
 url: /net/aspose.words/editortype/
 ---
 ## EditorType enumeration
@@ -28,7 +28,7 @@ public enum EditorType
 | Owners | `7` | Specifies that users associated with the Owners group shall be allowed to edit editable ranges using this editing type when document protection is enabled. |
 | Default | `0` | Same as Unspecified. |
 
-### Examples
+## Examples
 
 Shows how to limit the editing rights of editable ranges to a specific group/user.
 

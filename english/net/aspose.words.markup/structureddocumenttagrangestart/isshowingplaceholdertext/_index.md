@@ -16,7 +16,7 @@ if set to true, this state shall be resumed (showing placeholder text) upon open
 public bool IsShowingPlaceholderText { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to get the properties of multi-section structured document tags.
 

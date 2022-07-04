@@ -3,7 +3,7 @@ title: FileName
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the file name of the document.
 type: docs
-weight: 110
+weight: 120
 url: /net/aspose.words.fields/fieldoptions/filename/
 ---
 ## FieldOptions.FileName property
@@ -14,11 +14,11 @@ Gets or sets the file name of the document.
 public string FileName { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 This property is used by the [`FieldFileName`](../../fieldfilename) field with higher priority than the [`OriginalFileName`](../../../aspose.words/document/originalfilename) property.
 
-### Examples
+## Examples
 
 Shows how to use FieldOptions to override the default value for the FILENAME field.
 

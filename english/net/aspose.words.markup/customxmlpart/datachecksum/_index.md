@@ -14,7 +14,7 @@ Specifies a cyclic redundancy check (CRC) checksum of the [`Data`](../data) cont
 public long DataChecksum { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how the checksum is calculated in a runtime.
 

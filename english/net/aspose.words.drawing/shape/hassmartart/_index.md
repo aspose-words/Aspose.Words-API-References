@@ -14,7 +14,7 @@ Returns true if this Shape has a SmartArt object.
 public bool HasSmartArt { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to count the number of shapes in a document with SmartArt objects.
 

@@ -14,7 +14,7 @@ Path to the folder.
 public string FolderPath { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to use a local system folder which contains fonts as a font source.
 

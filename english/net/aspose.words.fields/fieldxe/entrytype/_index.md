@@ -14,7 +14,7 @@ Gets or sets an index entry type.
 public string EntryType { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to create an INDEX field, and then use XE fields to populate it with entries.
 

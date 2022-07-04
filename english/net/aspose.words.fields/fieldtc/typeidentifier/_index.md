@@ -14,7 +14,7 @@ Gets or sets a type identifier for this field (which is typically a letter).
 public string TypeIdentifier { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to insert a TOC field, and filter which TC fields end up as entries.
 

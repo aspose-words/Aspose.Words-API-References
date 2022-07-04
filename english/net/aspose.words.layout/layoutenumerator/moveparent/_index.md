@@ -14,7 +14,7 @@ Moves to the parent entity.
 public bool MoveParent()
 ```
 
-### Examples
+## Examples
 
 Shows ways of traversing a document's layout entities.
 
@@ -176,11 +176,11 @@ public bool MoveParent(LayoutEntityType types)
 | --- | --- | --- |
 | types | LayoutEntityType | The parent entity type to move to. Use bitwise-OR to specify multiple parent types. |
 
-### Remarks
+## Remarks
 
 This method is useful if you need to find the cell, column or header/footer parent of the entity.
 
-### Examples
+## Examples
 
 Shows ways of traversing a document's layout entities.
 

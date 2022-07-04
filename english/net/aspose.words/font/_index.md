@@ -3,7 +3,7 @@ title: Font
 second_title: Aspose.Words for .NET API Reference
 description: Contains font attributes font name font size color and so on for an object.
 type: docs
-weight: 2600
+weight: 2650
 url: /net/aspose.words/font/
 ---
 ## Font class
@@ -80,11 +80,11 @@ public class Font
 | [ClearFormatting](../../aspose.words/font/clearformatting)() | Resets to default font formatting. |
 | [HasDmlEffect](../../aspose.words/font/hasdmleffect)(TextDmlEffect) | Checks if particular DrawingML text effect is applied. |
 
-### Remarks
+## Remarks
 
 You do not create instances of the [`Font`](../font) class directly. You just use [`Font`](../font) to access the font properties of the various objects such as [`Run`](../run), [`Paragraph`](../paragraph), [`Style`](../style), [`DocumentBuilder`](../documentbuilder).
 
-### Examples
+## Examples
 
 Shows how to format a run of text using its font property.
 

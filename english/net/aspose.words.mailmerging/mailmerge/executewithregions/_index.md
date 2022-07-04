@@ -18,13 +18,13 @@ public void ExecuteWithRegions(IMailMergeDataSource dataSource)
 | --- | --- | --- |
 | dataSource | IMailMergeDataSource | An object that implements the custom mail merge data source interface. |
 
-### Remarks
+## Remarks
 
 Use this method to fill mail merge fields in the document with values from any custom data source such as an XML file or collections of business objects. You need to write your own class that implements the [`IMailMergeDataSource`](../../imailmergedatasource) interface.
 
 You can use this method only when [`IsBidiTextSupportedOnUpdate`](../../../aspose.words.fields/fieldoptions/isbiditextsupportedonupdate) is false, that is you do not need Right-To-Left language (such as Arabic or Hebrew) compatibility.
 
-### Examples
+## Examples
 
 Shows how to use mail merge regions to execute a nested mail merge.
 
@@ -288,13 +288,13 @@ public void ExecuteWithRegions(IMailMergeDataSourceRoot dataSourceRoot)
 | --- | --- | --- |
 | dataSourceRoot | IMailMergeDataSourceRoot | An object that implements the custom mail merge data source root interface. |
 
-### Remarks
+## Remarks
 
 Use this method to fill mail merge fields in the document with values from any custom data source such as an XML file or collections of business objects. You need to write your own classes that implement the [`IMailMergeDataSourceRoot`](../../imailmergedatasourceroot) and [`IMailMergeDataSource`](../../imailmergedatasource) interfaces.
 
 You can use this method only when [`IsBidiTextSupportedOnUpdate`](../../../aspose.words.fields/fieldoptions/isbiditextsupportedonupdate) is false, that is you do not need Right-To-Left language (such as Arabic or Hebrew) compatibility.
 
-### Examples
+## Examples
 
 Performs mail merge from a custom data source with master-detail data.
 
@@ -495,7 +495,7 @@ public void ExecuteWithRegions(DataSet dataSet)
 | --- | --- | --- |
 | dataSet | DataSet | DataSet that contains data to be inserted into mail merge fields. |
 
-### Remarks
+## Remarks
 
 Use this method to perform mail merge from one or more tables into repeatable mail merge regions in the document. The mail merge regions inside the document will dynamically grow to accommodate records in the corresponding tables.
 
@@ -519,7 +519,7 @@ If used inside a table, TableStart and TableEnd must be inside the same row in t
 
 Mail merge regions in a document should be well formed (there always needs to be a pair of matching TableStart and TableEnd merge fields with the same table name).
 
-### Examples
+## Examples
 
 Shows how to execute a nested mail merge with two merge regions and two data tables.
 
@@ -621,69 +621,17 @@ public void ExecuteWithRegions(DataTable dataTable)
 | --- | --- | --- |
 | dataTable | DataTable | Data source for the mail merge operation. The table must have its **TableName** property set. |
 
-### Remarks
+## Remarks
 
 The document must have a mail merge region defined with name that matches **DataTable.TableName**.
 
 If there are other mail merge regions defined in the document they are left intact. This allows to perform several mail merge operations.
 
-### Examples
-
-Shows how to use regions to execute two separate mail merges in one document.
-
-```csharp
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-
-// If we want to perform two consecutive mail merges on one document while taking data from two tables
-// related to each other in any way, we can separate the mail merges with regions.
-// Normally, MERGEFIELDs contain the name of a column of a mail merge data source.
-// Instead, we can use "TableStart:" and "TableEnd:" prefixes to begin/end a mail merge region.
-// Each region will belong to a table with a name that matches the string immediately after the prefix's colon.
-// These regions are separate for unrelated data, while they can be nested for hierarchical data.
-builder.Writeln("\tCities: ");
-builder.InsertField(" MERGEFIELD TableStart:Cities");
-builder.InsertField(" MERGEFIELD Name");
-builder.InsertField(" MERGEFIELD TableEnd:Cities");
-builder.InsertParagraph();
-
-// Both MERGEFIELDs refer to the same column name, but values for each will come from different data tables.
-builder.Writeln("\tFruit: ");
-builder.InsertField(" MERGEFIELD TableStart:Fruit");
-builder.InsertField(" MERGEFIELD Name");
-builder.InsertField(" MERGEFIELD TableEnd:Fruit");
-
-// Create two unrelated data tables.
-DataTable tableCities = new DataTable("Cities");
-tableCities.Columns.Add("Name");
-tableCities.Rows.Add(new object[] { "Washington" });
-tableCities.Rows.Add(new object[] { "London" });
-tableCities.Rows.Add(new object[] { "New York" });
-
-DataTable tableFruit = new DataTable("Fruit");
-tableFruit.Columns.Add("Name");
-tableFruit.Rows.Add(new object[] { "Cherry" });
-tableFruit.Rows.Add(new object[] { "Apple" });
-tableFruit.Rows.Add(new object[] { "Watermelon" });
-tableFruit.Rows.Add(new object[] { "Banana" });
-
-// We will need to run one mail merge per table. The first mail merge will populate the MERGEFIELDs
-// in the "Cities" range while leaving the fields the "Fruit" range unfilled.
-doc.MailMerge.ExecuteWithRegions(tableCities);
-
-// Run a second merge for the "Fruit" table, while using a data view
-// to sort the rows in ascending order on the "Name" column before the merge.
-DataView dv = new DataView(tableFruit);
-dv.Sort = "Name ASC";
-doc.MailMerge.ExecuteWithRegions(dv);
-
-doc.Save(ArtifactsDir + "MailMerge.ExecuteWithRegionsConcurrent.docx");
-```
+## Examples
 
 Demonstrates how to format cells during a mail merge.
 
 ```csharp
-public void AlternatingRows()
 {
     Document doc = new Document(MyDir + "Mail merge destination - Northwind suppliers.docx");
 
@@ -693,7 +641,6 @@ public void AlternatingRows()
     doc.MailMerge.ExecuteWithRegions(dataTable);
 
     doc.Save(ArtifactsDir + "MailMergeEvent.AlternatingRows.docx");
-}
 
 /// <summary>
 /// Formats table rows as a mail merge takes place to alternate between two colors on odd/even rows.
@@ -760,6 +707,57 @@ private static DataTable GetSuppliersDataTable()
 }
 ```
 
+Shows how to use regions to execute two separate mail merges in one document.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+// If we want to perform two consecutive mail merges on one document while taking data from two tables
+// related to each other in any way, we can separate the mail merges with regions.
+// Normally, MERGEFIELDs contain the name of a column of a mail merge data source.
+// Instead, we can use "TableStart:" and "TableEnd:" prefixes to begin/end a mail merge region.
+// Each region will belong to a table with a name that matches the string immediately after the prefix's colon.
+// These regions are separate for unrelated data, while they can be nested for hierarchical data.
+builder.Writeln("\tCities: ");
+builder.InsertField(" MERGEFIELD TableStart:Cities");
+builder.InsertField(" MERGEFIELD Name");
+builder.InsertField(" MERGEFIELD TableEnd:Cities");
+builder.InsertParagraph();
+
+// Both MERGEFIELDs refer to the same column name, but values for each will come from different data tables.
+builder.Writeln("\tFruit: ");
+builder.InsertField(" MERGEFIELD TableStart:Fruit");
+builder.InsertField(" MERGEFIELD Name");
+builder.InsertField(" MERGEFIELD TableEnd:Fruit");
+
+// Create two unrelated data tables.
+DataTable tableCities = new DataTable("Cities");
+tableCities.Columns.Add("Name");
+tableCities.Rows.Add(new object[] { "Washington" });
+tableCities.Rows.Add(new object[] { "London" });
+tableCities.Rows.Add(new object[] { "New York" });
+
+DataTable tableFruit = new DataTable("Fruit");
+tableFruit.Columns.Add("Name");
+tableFruit.Rows.Add(new object[] { "Cherry" });
+tableFruit.Rows.Add(new object[] { "Apple" });
+tableFruit.Rows.Add(new object[] { "Watermelon" });
+tableFruit.Rows.Add(new object[] { "Banana" });
+
+// We will need to run one mail merge per table. The first mail merge will populate the MERGEFIELDs
+// in the "Cities" range while leaving the fields the "Fruit" range unfilled.
+doc.MailMerge.ExecuteWithRegions(tableCities);
+
+// Run a second merge for the "Fruit" table, while using a data view
+// to sort the rows in ascending order on the "Name" column before the merge.
+DataView dv = new DataView(tableFruit);
+dv.Sort = "Name ASC";
+doc.MailMerge.ExecuteWithRegions(dv);
+
+doc.Save(ArtifactsDir + "MailMerge.ExecuteWithRegionsConcurrent.docx");
+```
+
 ### See Also
 
 * class [MailMerge](../../mailmerge)
@@ -780,7 +778,7 @@ public void ExecuteWithRegions(DataView dataView)
 | --- | --- | --- |
 | dataView | DataView | Data source for the mail merge operation. The source table of the **DataView** must have its **TableName** property set. |
 
-### Remarks
+## Remarks
 
 This method is useful if you retrieve data into a **DataTable** but then need to apply a filter or sort before the mail merge.
 
@@ -788,7 +786,7 @@ The document must have a mail merge region defined with name that matches **Data
 
 If there are other mail merge regions defined in the document they are left intact. This allows to perform several mail merge operations.
 
-### Examples
+## Examples
 
 Shows how to use regions to execute two separate mail merges in one document.
 
@@ -862,11 +860,11 @@ public void ExecuteWithRegions(IDataReader dataReader, string tableName)
 | dataReader | IDataReader | Source of the data records for mail merge such as OleDbDataReader or SqlDataReader. |
 | tableName | String | Name of the mail merge region in the document to populate. |
 
-### Remarks
+## Remarks
 
 You can pass **SqlDataReader** or **OleDbDataReader** object into this method as a parameter because they both implemented **IDataReader** interface.
 
-### Examples
+## Examples
 
 Shows how to insert images stored in a database BLOB field into a report.
 
@@ -892,7 +890,6 @@ public void ImageFromBlob()
     }
 
     doc.Save(ArtifactsDir + "MailMergeEvent.ImageFromBlob.docx");
-}
 
 private class HandleMergeImageFieldFromBlob : IFieldMergingCallback
 {

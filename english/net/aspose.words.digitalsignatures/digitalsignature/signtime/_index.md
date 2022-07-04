@@ -14,7 +14,7 @@ Gets the time the document was signed.
 public DateTime SignTime { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to validate and display information about each signature in a document.
 

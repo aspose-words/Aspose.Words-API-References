@@ -3,7 +3,7 @@ title: Width
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the width of the containing block of the shape.
 type: docs
-weight: 510
+weight: 520
 url: /net/aspose.words.drawing/shapebase/width/
 ---
 ## ShapeBase.Width property
@@ -14,7 +14,7 @@ Gets or sets the width of the containing block of the shape.
 public double Width { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 For a top-level shape, the value is in points.
 
@@ -22,7 +22,7 @@ For shapes in a group, the value is in the coordinate space and units of the par
 
 The default value is 0.
 
-### Examples
+## Examples
 
 Shows how to insert a floating image, and specify its position and size.
 

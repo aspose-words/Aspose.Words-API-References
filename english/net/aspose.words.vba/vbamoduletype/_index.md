@@ -3,7 +3,7 @@ title: VbaModuleType
 second_title: Aspose.Words for .NET API Reference
 description: Specifies the type of a model in a VBA project.
 type: docs
-weight: 6210
+weight: 6260
 url: /net/aspose.words.vba/vbamoduletype/
 ---
 ## VbaModuleType enumeration
@@ -23,7 +23,7 @@ public enum VbaModuleType
 | ClassModule | `2` | A module that contains the definition for a new object. Each instance of a class creates a new object, and procedures that are defined in the module become properties and methods of the object. |
 | DesignerModule | `3` | A VBA module that extends the methods and properties of an ActiveX control that has been registered with the project. |
 
-### Examples
+## Examples
 
 Shows how to create a VBA project using macros.
 

@@ -3,7 +3,7 @@ title: License
 second_title: Aspose.Words for .NET API Reference
 description: Provides methods to license the component.
 type: docs
-weight: 3170
+weight: 3220
 url: /net/aspose.words/license/
 ---
 ## License class
@@ -27,7 +27,7 @@ public class License
 | [SetLicense](../../aspose.words/license/setlicense#setlicense)(Stream) | Licenses the component. |
 | [SetLicense](../../aspose.words/license/setlicense#setlicense_1)(string) | Licenses the component. |
 
-### Examples
+## Examples
 
 Shows how initialize a license for Aspose.Words using a license file in the local file system.
 

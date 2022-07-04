@@ -14,7 +14,7 @@ url: /net/aspose.words/textcolumncollection/evenlyspaced/
 public bool EvenlySpaced { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to create unevenly spaced columns.
 

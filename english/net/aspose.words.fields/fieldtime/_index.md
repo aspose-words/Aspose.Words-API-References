@@ -3,7 +3,7 @@ title: FieldTime
 second_title: Aspose.Words for .NET API Reference
 description: Implements the TIME field.
 type: docs
-weight: 2310
+weight: 2350
 url: /net/aspose.words.fields/fieldtime/
 ---
 ## FieldTime class
@@ -46,11 +46,11 @@ public class FieldTime : Field
 | [Update](../../aspose.words.fields/field/update)() | Performs the field update. Throws if the field is being updated already. |
 | [Update](../../aspose.words.fields/field/update)(bool) | Performs a field update. Throws if the field is being updated already. |
 
-### Remarks
+## Remarks
 
 Inserts the current date and time.
 
-### Examples
+## Examples
 
 Shows how to display the current time using the TIME field.
 

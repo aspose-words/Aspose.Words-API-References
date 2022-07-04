@@ -14,7 +14,7 @@ Inserts a text level node inside the current paragraph before the cursor.
 public void InsertNode(Node node)
 ```
 
-### Examples
+## Examples
 
 Shows how to insert a linked image into a document.
 

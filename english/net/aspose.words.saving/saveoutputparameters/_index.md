@@ -3,7 +3,7 @@ title: SaveOutputParameters
 second_title: Aspose.Words for .NET API Reference
 description: This object is returned to the caller after a document is saved and contains additional information that has been generated or calculated during the save operation. The caller can use or ignore this object.
 type: docs
-weight: 5260
+weight: 5310
 url: /net/aspose.words.saving/saveoutputparameters/
 ---
 ## SaveOutputParameters class
@@ -20,7 +20,7 @@ public class SaveOutputParameters
 | --- | --- |
 | [ContentType](../../aspose.words.saving/saveoutputparameters/contenttype) { get; } | Returns the Content-Type string (Internet Media Type) that identifies the type of the saved document. |
 
-### Examples
+## Examples
 
 Shows how to access output parameters of a document's save operation.
 

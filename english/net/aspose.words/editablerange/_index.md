@@ -3,7 +3,7 @@ title: EditableRange
 second_title: Aspose.Words for .NET API Reference
 description: Represents a single editable range.
 type: docs
-weight: 1250
+weight: 1270
 url: /net/aspose.words/editablerange/
 ---
 ## EditableRange class
@@ -30,11 +30,11 @@ public class EditableRange
 | --- | --- |
 | [Remove](../../aspose.words/editablerange/remove)() | Removes the editable range from the document. Does not remove content inside the editable range. |
 
-### Remarks
+## Remarks
 
 [`EditableRange`](../editablerange) is a "facade" object that encapsulates two nodes [`EditableRangeStart`](./editablerangestart) and [`EditableRangeEnd`](./editablerangeend) in a document tree and allows to work with an editable range as a single object.
 
-### Examples
+## Examples
 
 Shows how to work with an editable range.
 

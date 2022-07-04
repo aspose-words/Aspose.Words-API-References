@@ -14,7 +14,7 @@ Returns a start field for the region.
 public FieldMergeField StartField { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to verify mail merge regions.
 

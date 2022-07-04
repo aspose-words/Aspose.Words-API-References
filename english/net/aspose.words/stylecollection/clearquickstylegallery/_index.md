@@ -14,7 +14,7 @@ Removes all styles from the Quick Style Gallery panel.
 public void ClearQuickStyleGallery()
 ```
 
-### Examples
+## Examples
 
 Shows how to remove styles from Style Gallery panel.
 

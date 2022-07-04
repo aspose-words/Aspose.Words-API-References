@@ -3,7 +3,7 @@ title: DmlRenderingMode
 second_title: Aspose.Words for .NET API Reference
 description: Specifies how DrawingML shapes are rendered to fixed page formats.
 type: docs
-weight: 4610
+weight: 4660
 url: /net/aspose.words.saving/dmlrenderingmode/
 ---
 ## DmlRenderingMode enumeration
@@ -21,7 +21,7 @@ public enum DmlRenderingMode
 | Fallback | `0` | If fall-back shape is available for DrawingML, Aspose.Words renders fall-back shape instead of the DrawingML. |
 | DrawingML | `1` | Aspose.Words ignores fall-back shape of DrawingML and renders DrawingML itself. This is the default mode. |
 
-### Examples
+## Examples
 
 Shows how to render fallback shapes when saving to PDF.
 

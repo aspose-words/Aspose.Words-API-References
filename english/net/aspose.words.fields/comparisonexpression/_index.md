@@ -3,7 +3,7 @@ title: ComparisonExpression
 second_title: Aspose.Words for .NET API Reference
 description: The comparison expression.
 type: docs
-weight: 1320
+weight: 1340
 url: /net/aspose.words.fields/comparisonexpression/
 ---
 ## ComparisonExpression class
@@ -22,7 +22,7 @@ public sealed class ComparisonExpression
 | [LeftExpression](../../aspose.words.fields/comparisonexpression/leftexpression) { get; } | Gets the left expression. |
 | [RightExpression](../../aspose.words.fields/comparisonexpression/rightexpression) { get; } | Gets the right expression. |
 
-### Examples
+## Examples
 
 Shows how to implement custom evaluation for the IF and COMPARE fields.
 

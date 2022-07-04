@@ -22,7 +22,7 @@ public IEnumerable<string> GetSubstitutes(string originalFontName)
 
 List of alternative font names.
 
-### Examples
+## Examples
 
 Shows how to access a document's system font source and set font substitutes.
 

@@ -14,7 +14,7 @@ Makes a deep copy of this collection and its items.
 public CustomPartCollection Clone()
 ```
 
-### Examples
+## Examples
 
 Shows how to access a document's arbitrary custom parts collection.
 

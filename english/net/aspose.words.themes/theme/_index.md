@@ -3,7 +3,7 @@ title: Theme
 second_title: Aspose.Words for .NET API Reference
 description: Represents document Theme and provides access to main theme parts including MajorFonts./theme/majorfonts MinorFonts./theme/minorfonts and Colors./theme/colors
 type: docs
-weight: 6110
+weight: 6160
 url: /net/aspose.words.themes/theme/
 ---
 ## Theme class
@@ -28,7 +28,7 @@ public class Theme
 | [MajorFonts](../../aspose.words.themes/theme/majorfonts) { get; } | Allows to specify the set of major fonts for different languages. |
 | [MinorFonts](../../aspose.words.themes/theme/minorfonts) { get; } | Allows to specify the set of minor fonts for different languages. |
 
-### Examples
+## Examples
 
 Shows how to set custom colors and fonts for themes.
 

@@ -14,7 +14,7 @@ Returns true if this shape is not a child of a group shape.
 public bool IsTopLevel { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to tell whether a shape is a part of a group shape.
 

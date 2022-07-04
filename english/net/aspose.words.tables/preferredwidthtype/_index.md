@@ -3,7 +3,7 @@ title: PreferredWidthType
 second_title: Aspose.Words for .NET API Reference
 description: Specifies the unit of measurement for the preferred width of a table or cell.
 type: docs
-weight: 5950
+weight: 6000
 url: /net/aspose.words.tables/preferredwidthtype/
 ---
 ## PreferredWidthType enumeration
@@ -22,7 +22,7 @@ public enum PreferredWidthType
 | Percent | `2` | Measure the current item width using a specified percentage. |
 | Points | `3` | Measure the current item width using a specified number of points (1/72 inch). |
 
-### Examples
+## Examples
 
 Shows how to verify the preferred width type and value of a table cell.
 

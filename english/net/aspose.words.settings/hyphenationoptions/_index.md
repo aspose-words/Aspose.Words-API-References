@@ -3,7 +3,7 @@ title: HyphenationOptions
 second_title: Aspose.Words for .NET API Reference
 description: Allows to configure document hyphenation options.
 type: docs
-weight: 5450
+weight: 5500
 url: /net/aspose.words.settings/hyphenationoptions/
 ---
 ## HyphenationOptions class
@@ -29,7 +29,7 @@ public class HyphenationOptions
 | [HyphenateCaps](../../aspose.words.settings/hyphenationoptions/hyphenatecaps) { get; set; } | Gets or sets value determining whether words written in all capital letters are hyphenated. Default value for this property is **true**. |
 | [HyphenationZone](../../aspose.words.settings/hyphenationoptions/hyphenationzone) { get; set; } | Gets or sets the distance in 1/20 of a point from the right margin within which you do not want to hyphenate words. Default value for this property is 360 (0.25 inch). |
 
-### Examples
+## Examples
 
 Shows how to configure automatic hyphenation.
 

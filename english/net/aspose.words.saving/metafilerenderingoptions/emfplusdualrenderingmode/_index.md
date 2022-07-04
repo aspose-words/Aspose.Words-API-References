@@ -14,7 +14,7 @@ Gets or sets a value determining how EMF+ Dual metafiles should be rendered.
 public EmfPlusDualRenderingMode EmfPlusDualRenderingMode { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 EMF+ Dual metafiles contains both EMF+ and EMF parts. MS Word and GDI+ always renders EMF+ part. Aspose.Words currently doesn't fully supports all EMF+ records and in some cases rendering result of EMF part looks better then rendering result of EMF+ part.
 
@@ -22,7 +22,7 @@ This option is used only when metafile is rendered as vector graphics. When meta
 
 The default value is EmfPlusWithFallback.
 
-### Examples
+## Examples
 
 Shows how to configure Enhanced Windows Metafile-related rendering options when saving to PDF.
 

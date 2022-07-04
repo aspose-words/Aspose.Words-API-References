@@ -14,7 +14,7 @@ Returns a text column at the specified index.
 public TextColumn this[int index] { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to create unevenly spaced columns.
 

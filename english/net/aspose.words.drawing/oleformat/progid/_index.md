@@ -14,7 +14,7 @@ Gets or sets the ProgID of the OLE object.
 public string ProgId { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 The ProgID property is not always present in Microsoft Word documents and cannot be relied upon.
 
@@ -22,7 +22,7 @@ Cannot be null.
 
 The default value is an empty string.
 
-### Examples
+## Examples
 
 Shows how to extract embedded OLE objects into files.
 

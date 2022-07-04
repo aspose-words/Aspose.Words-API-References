@@ -3,7 +3,7 @@ title: FieldQuote
 second_title: Aspose.Words for .NET API Reference
 description: Implements the QUOTE field.
 type: docs
-weight: 2120
+weight: 2160
 url: /net/aspose.words.fields/fieldquote/
 ---
 ## FieldQuote class
@@ -47,11 +47,11 @@ public class FieldQuote : Field
 | [Update](../../aspose.words.fields/field/update)() | Performs the field update. Throws if the field is being updated already. |
 | [Update](../../aspose.words.fields/field/update)(bool) | Performs a field update. Throws if the field is being updated already. |
 
-### Remarks
+## Remarks
 
 Retrieves the specified text.
 
-### Examples
+## Examples
 
 Shows to use the QUOTE field.
 

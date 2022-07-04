@@ -14,13 +14,13 @@ Gets or sets whether to preserve the INCLUDEPICTURE field when reading Microsoft
 public bool PreserveIncludePictureField { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 By default, the INCLUDEPICTURE field is converted into a shape object. You can override that if you need the field to be preserved, for example, if you wish to update it programmatically. Note however that this approach is not common for Aspose.Words. Use it on your own risk.
 
 One of the possible use cases may be using a MERGEFIELD as a child field to dynamically change the source path of the picture. In this case you need the INCLUDEPICTURE to be preserved in the model.
 
-### Examples
+## Examples
 
 Shows how to preserve or discard INCLUDEPICTURE fields when loading a document.
 

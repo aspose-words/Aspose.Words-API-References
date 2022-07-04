@@ -14,11 +14,11 @@ Copies styles from the specified template to a document.
 public void CopyStylesFromTemplate(string template)
 ```
 
-### Remarks
+## Remarks
 
 When styles are copied from a template to a document, like-named styles in the document are redefined to match the style descriptions in the template. Unique styles from the template are copied to the document. Unique styles in the document remain intact.
 
-### Examples
+## Examples
 
 Shows how to copy styles from one document to another.
 
@@ -83,11 +83,11 @@ Copies styles from the specified template to a document.
 public void CopyStylesFromTemplate(Document template)
 ```
 
-### Remarks
+## Remarks
 
 When styles are copied from a template to a document, like-named styles in the document are redefined to match the style descriptions in the template. Unique styles from the template are copied to the document. Unique styles in the document remain intact.
 
-### Examples
+## Examples
 
 Shows how to copies styles from the template to a document via Document.
 

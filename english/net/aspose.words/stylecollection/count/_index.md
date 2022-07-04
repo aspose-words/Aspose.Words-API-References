@@ -14,7 +14,7 @@ Gets the number of styles in the collection.
 public int Count { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to add a Style to a document's styles collection.
 

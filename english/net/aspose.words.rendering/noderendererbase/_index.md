@@ -3,7 +3,7 @@ title: NodeRendererBase
 second_title: Aspose.Words for .NET API Reference
 description: Base class for ShapeRenderer./shaperenderer and OfficeMathRenderer./officemathrenderer.
 type: docs
-weight: 4240
+weight: 4290
 url: /net/aspose.words.rendering/noderendererbase/
 ---
 ## NodeRendererBase class
@@ -37,7 +37,7 @@ public abstract class NodeRendererBase
 | [Save](../../aspose.words.rendering/noderendererbase/save#save)(Stream, ImageSaveOptions) | Renders the shape into an image and saves into a stream. |
 | [Save](../../aspose.words.rendering/noderendererbase/save#save_1)(string, ImageSaveOptions) | Renders the shape into an image and saves into a file. |
 
-### Examples
+## Examples
 
 Shows how to measure and scale shapes.
 

@@ -3,7 +3,7 @@ title: CellCollection
 second_title: Aspose.Words for .NET API Reference
 description: Provides typed access to a collection of Cell./cell nodes.
 type: docs
-weight: 5900
+weight: 5950
 url: /net/aspose.words.tables/cellcollection/
 ---
 ## CellCollection class
@@ -35,7 +35,7 @@ public class CellCollection : NodeCollection
 | [RemoveAt](../../aspose.words/nodecollection/removeat)(int) | Removes the node at the specified index from the collection and from the document. |
 | [ToArray](../../aspose.words.tables/cellcollection/toarray#toarray_1)() | Copies all cells from the collection to a new array of cells. (2 methods) |
 
-### Examples
+## Examples
 
 Shows how to iterate through all tables in the document and print the contents of each cell.
 

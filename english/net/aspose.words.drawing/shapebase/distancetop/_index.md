@@ -14,13 +14,13 @@ Returns or sets the distance (in points) between the document text and the top e
 public double DistanceTop { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 The default value is 0.
 
 Has effect only for top level shapes.
 
-### Examples
+## Examples
 
 Shows how to set the wrapping distance for a text that surrounds a shape.
 

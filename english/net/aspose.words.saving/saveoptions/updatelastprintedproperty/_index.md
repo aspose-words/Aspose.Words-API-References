@@ -14,7 +14,7 @@ Gets or sets a value determining whether the [`LastPrinted`](../../../aspose.wor
 public bool UpdateLastPrintedProperty { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to update a document's "CreatedTime" property when saving.
 

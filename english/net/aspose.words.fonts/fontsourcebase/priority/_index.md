@@ -14,13 +14,13 @@ Returns the font source priority.
 public int Priority { get; }
 ```
 
-### Remarks
+## Remarks
 
 This value is used when there are fonts with the same family name and style in different font sources. In this case Aspose.Words selects the font from the source with the higher priority value.
 
 The default value is 0.
 
-### Examples
+## Examples
 
 Shows how to use a font file in the local file system as a font source.
 

@@ -14,7 +14,7 @@ Specifies version of HTML standard that should be used when saving the document 
 public HtmlVersion HtmlVersion { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to display a DOCTYPE heading when converting documents to the Xhtml 1.0 transitional standard.
 

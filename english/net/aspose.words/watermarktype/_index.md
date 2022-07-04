@@ -3,7 +3,7 @@ title: WatermarkType
 second_title: Aspose.Words for .NET API Reference
 description: Specifies the watermark type.
 type: docs
-weight: 6330
+weight: 6380
 url: /net/aspose.words/watermarktype/
 ---
 ## WatermarkType enumeration
@@ -22,7 +22,7 @@ public enum WatermarkType
 | Image | `1` | Indicates that the image will be used as a watermark. |
 | None | `2` | Indicates watermark is no set. |
 
-### Examples
+## Examples
 
 Shows how to create a text watermark.
 

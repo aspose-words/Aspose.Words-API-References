@@ -14,7 +14,7 @@ Gets or sets the format that is to be applied to the result of the database quer
 public string TableFormat { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to extract data from a database and insert it as a field into a document.
 

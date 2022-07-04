@@ -14,13 +14,13 @@ Gets the node that is currently selected in this DocumentBuilder.
 public Node CurrentNode { get; }
 ```
 
-### Remarks
+## Remarks
 
 **CurrentNode** is a cursor of **DocumentBuilder** and points to a **Node** that is a direct child of a **Paragraph**. Any insert operations you perform using **DocumentBuilder** will insert before the **CurrentNode**.
 
 When the current paragraph is empty or the cursor is positioned just before the end of the paragraph, **CurrentNode** returns null.
 
-### Examples
+## Examples
 
 Shows how to move a document builder's cursor to different nodes in a document.
 

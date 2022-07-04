@@ -61,7 +61,7 @@ public abstract class CompositeNode : Node, IEnumerable<Node>, IXPathNavigable
 | [ToString](../../aspose.words/node/tostring)(SaveFormat) | Exports the content of the node into a string in the specified format. |
 | [ToString](../../aspose.words/node/tostring)(SaveOptions) | Exports the content of the node into a string using the specified save options. |
 
-### Remarks
+## Remarks
 
 A document is represented as a tree of nodes, similar to DOM or XmlDocument.
 
@@ -73,7 +73,7 @@ The [`CompositeNode`](../compositenode) class:
 * Implements Composite operations such as insert and remove children.
 * Provides methods for XPath navigation.
 
-### Examples
+## Examples
 
 Shows how to traverse through a composite node's collection of child nodes.
 

@@ -3,7 +3,7 @@ title: FieldAutoNum
 second_title: Aspose.Words for .NET API Reference
 description: Implements the AUTONUM field.
 type: docs
-weight: 1410
+weight: 1430
 url: /net/aspose.words.fields/fieldautonum/
 ---
 ## FieldAutoNum class
@@ -47,11 +47,11 @@ public class FieldAutoNum : Field
 | [Update](../../aspose.words.fields/field/update)() | Performs the field update. Throws if the field is being updated already. |
 | [Update](../../aspose.words.fields/field/update)(bool) | Performs a field update. Throws if the field is being updated already. |
 
-### Remarks
+## Remarks
 
 Inserts an automatic number.
 
-### Examples
+## Examples
 
 Shows how to number paragraphs using autonum fields.
 

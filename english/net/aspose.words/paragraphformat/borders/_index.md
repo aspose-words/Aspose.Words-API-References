@@ -14,7 +14,7 @@ Gets collection of borders of the paragraph.
 public BorderCollection Borders { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to insert a paragraph with a top border.
 

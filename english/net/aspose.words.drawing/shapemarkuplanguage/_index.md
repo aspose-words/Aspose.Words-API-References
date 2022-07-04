@@ -3,7 +3,7 @@ title: ShapeMarkupLanguage
 second_title: Aspose.Words for .NET API Reference
 description: Specifies Markup language used for the shape.
 type: docs
-weight: 1110
+weight: 1130
 url: /net/aspose.words.drawing/shapemarkuplanguage/
 ---
 ## ShapeMarkupLanguage enumeration
@@ -21,7 +21,7 @@ public enum ShapeMarkupLanguage : byte
 | Dml | `0` | Drawing Markup Language is used to define the shape. |
 | Vml | `1` | Vector Markup Language is used to define the shape. |
 
-### Examples
+## Examples
 
 Shows how to set an OOXML compliance specification for a saved document to adhere to.
 

@@ -14,11 +14,11 @@ Returns system font folders or empty array if folders are not accessible.
 public static string[] GetSystemFontFolders()
 ```
 
-### Remarks
+## Remarks
 
 On some platforms Aspose.Words could search system fonts not only through folders but in other sources too. For example, on Windows platform Aspose.Words search fonts also in the registry.
 
-### Examples
+## Examples
 
 Shows how to access a document's system font source and set font substitutes.
 

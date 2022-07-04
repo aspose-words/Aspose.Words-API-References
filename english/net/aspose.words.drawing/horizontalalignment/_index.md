@@ -26,7 +26,7 @@ public enum HorizontalAlignment
 | Inside | `4` | Specifies that the object shall be inside of the horizontal alignment base. |
 | Outside | `5` | Specifies that the object shall be outside of the horizontal alignment base. |
 
-### Examples
+## Examples
 
 Shows how to insert a floating image to the center of a page.
 

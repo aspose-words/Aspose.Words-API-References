@@ -14,7 +14,7 @@ Returns a flag indicating that axis bound should be determined automatically.
 public bool IsAuto { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to set custom axis bounds.
 

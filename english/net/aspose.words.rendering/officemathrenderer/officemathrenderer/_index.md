@@ -18,7 +18,7 @@ public OfficeMathRenderer(OfficeMath math)
 | --- | --- | --- |
 | math | OfficeMath | The OfficeMath object that you want to render. |
 
-### Examples
+## Examples
 
 Shows how to measure and scale shapes.
 

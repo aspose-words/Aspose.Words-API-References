@@ -14,7 +14,7 @@ Style of a Case Code for barcode type ITF14. The valid values are [STD&#x7C;EXT&
 public string CaseCodeStyle { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to use a barcode generator.
 

@@ -14,13 +14,13 @@ Specifies how the document should be split when saving to Html or Epub format. D
 public DocumentSplitCriteria DocumentSplitCriteria { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 Normally you would want a document saved to HTML as a single file. But in some cases it is preferable to split the output into several smaller HTML pages. When saving to HTML format these pages will be output to individual files or streams. When saving to EPUB format they will be incorporated into corresponding packages.
 
 A document cannot be split when saving in the MHTML format.
 
-### Examples
+## Examples
 
 Shows how to use a specific encoding when saving a document to .epub.
 

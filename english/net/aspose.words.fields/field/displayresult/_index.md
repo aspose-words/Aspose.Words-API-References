@@ -14,11 +14,11 @@ Gets the text that represents the displayed field result.
 public string DisplayResult { get; }
 ```
 
-### Remarks
+## Remarks
 
 The [`UpdateListLabels`](../../../aspose.words/document/updatelistlabels) method must be called to obtain correct value for the [`FieldListNum`](../../fieldlistnum), [`FieldAutoNum`](../../fieldautonum), [`FieldAutoNumOut`](../../fieldautonumout) and [`FieldAutoNumLgl`](../../fieldautonumlgl) fields.
 
-### Examples
+## Examples
 
 Shows how to get the real text that a field displays in the document.
 

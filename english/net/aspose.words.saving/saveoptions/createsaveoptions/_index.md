@@ -22,7 +22,7 @@ public static SaveOptions CreateSaveOptions(SaveFormat saveFormat)
 
 An object of a class that derives from [`SaveOptions`](../../saveoptions).
 
-### Examples
+## Examples
 
 Shows an option to optimize memory consumption when rendering large documents to PDF.
 
@@ -66,7 +66,7 @@ public static SaveOptions CreateSaveOptions(string fileName)
 
 An object of a class that derives from [`SaveOptions`](../../saveoptions).
 
-### Examples
+## Examples
 
 Shows how to set a default template for documents that do not have attached templates.
 

@@ -18,7 +18,7 @@ public FieldBuilder AddArgument(string argument)
 | --- | --- | --- |
 | argument | String | The argument value. |
 
-### Examples
+## Examples
 
 Shows how to construct fields using a field builder, and then insert them into the document.
 
@@ -118,7 +118,7 @@ public FieldBuilder AddArgument(int argument)
 | --- | --- | --- |
 | argument | Int32 | The argument value. |
 
-### Examples
+## Examples
 
 Shows how to construct fields using a field builder, and then insert them into the document.
 
@@ -218,7 +218,7 @@ public FieldBuilder AddArgument(double argument)
 | --- | --- | --- |
 | argument | Double | The argument value. |
 
-### Examples
+## Examples
 
 Shows how to construct fields using a field builder, and then insert them into the document.
 
@@ -314,11 +314,11 @@ Adds a child field represented by another [`FieldBuilder`](../../fieldbuilder) t
 public FieldBuilder AddArgument(FieldBuilder argument)
 ```
 
-### Remarks
+## Remarks
 
 This overload is used when the argument consists of a single child field.
 
-### Examples
+## Examples
 
 Shows how to construct fields using a field builder, and then insert them into the document.
 
@@ -414,11 +414,11 @@ Adds a field's argument represented by [`FieldArgumentBuilder`](../../fieldargum
 public FieldBuilder AddArgument(FieldArgumentBuilder argument)
 ```
 
-### Remarks
+## Remarks
 
 This overload is used when the argument consists of a mixture of different parts such as child fields, nodes, and plain text.
 
-### Examples
+## Examples
 
 Shows how to construct fields using a field builder, and then insert them into the document.
 

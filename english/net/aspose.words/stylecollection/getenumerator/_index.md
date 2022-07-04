@@ -14,7 +14,7 @@ Gets an enumerator object that will enumerate styles in the alphabetical order o
 public IEnumerator<Style> GetEnumerator()
 ```
 
-### Examples
+## Examples
 
 Shows how to access a document's style collection.
 

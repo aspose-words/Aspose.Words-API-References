@@ -3,7 +3,7 @@ title: Hyphenation
 second_title: Aspose.Words for .NET API Reference
 description: Provides methods for working with hyphenation dictionaries. These dictionaries prescribe where words of a specific language can be hyphenated.
 type: docs
-weight: 2920
+weight: 2970
 url: /net/aspose.words/hyphenation/
 ---
 ## Hyphenation class
@@ -30,7 +30,7 @@ public static class Hyphenation
 | static [RegisterDictionary](../../aspose.words/hyphenation/registerdictionary#registerdictionary_1)(string, string) | Registers and loads a hyphenation dictionary for the specified language from file. Throws if dictionary cannot be read or has invalid format. |
 | static [UnregisterDictionary](../../aspose.words/hyphenation/unregisterdictionary)(string) | Unregisters a hyphenation dictionary for the specified language. |
 
-### Examples
+## Examples
 
 Shows how to open and register a dictionary from a file.
 

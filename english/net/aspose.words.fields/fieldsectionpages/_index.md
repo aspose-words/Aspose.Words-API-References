@@ -3,7 +3,7 @@ title: FieldSectionPages
 second_title: Aspose.Words for .NET API Reference
 description: Implements the SECTIONPAGES field.
 type: docs
-weight: 2180
+weight: 2220
 url: /net/aspose.words.fields/fieldsectionpages/
 ---
 ## FieldSectionPages class
@@ -46,11 +46,11 @@ public class FieldSectionPages : Field
 | [Update](../../aspose.words.fields/field/update)() | Performs the field update. Throws if the field is being updated already. |
 | [Update](../../aspose.words.fields/field/update)(bool) | Performs a field update. Throws if the field is being updated already. |
 
-### Remarks
+## Remarks
 
 Retrieves the number of the current page within the current section.
 
-### Examples
+## Examples
 
 Shows how to use SECTION and SECTIONPAGES fields to number pages by sections.
 

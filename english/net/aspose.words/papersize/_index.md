@@ -3,7 +3,7 @@ title: PaperSize
 second_title: Aspose.Words for .NET API Reference
 description: Specifies paper size.
 type: docs
-weight: 4090
+weight: 4140
 url: /net/aspose.words/papersize/
 ---
 ## PaperSize enumeration
@@ -37,7 +37,7 @@ public enum PaperSize
 | Number10Envelope | `16` | 4.125 x 9.5 inches. |
 | Custom | `17` | Custom paper size. |
 
-### Examples
+## Examples
 
 Shows how to adjust paper size, orientation, margins, along with other settings for a section.
 

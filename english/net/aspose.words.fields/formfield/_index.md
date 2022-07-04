@@ -3,7 +3,7 @@ title: FormField
 second_title: Aspose.Words for .NET API Reference
 description: Represents a single form field.
 type: docs
-weight: 2420
+weight: 2460
 url: /net/aspose.words.fields/formfield/
 ---
 ## FormField class
@@ -72,7 +72,7 @@ public class FormField : SpecialChar
 | [ToString](../../aspose.words/node/tostring)(SaveFormat) | Exports the content of the node into a string in the specified format. |
 | [ToString](../../aspose.words/node/tostring)(SaveOptions) | Exports the content of the node into a string using the specified save options. |
 
-### Remarks
+## Remarks
 
 Microsoft Word provides the following form fields: checkbox, text input and dropdown (combobox).
 
@@ -82,7 +82,7 @@ Microsoft Word provides the following form fields: checkbox, text input and drop
 
 A complete form field in a Word document is a complex structure represented by several nodes: field start, field code such as FORMTEXT, form field data, field separator, field result, field end and a bookmark. To programmatically create form fields in a Word document use [`DocumentBuilder.InsertCheckBox`](../../aspose.words/documentbuilder/insertcheckbox), [`DocumentBuilder.InsertTextInput`](../../aspose.words/documentbuilder/inserttextinput) and [`DocumentBuilder.InsertComboBox`](../../aspose.words/documentbuilder/insertcombobox) which make sure all of the form field nodes are created in a correct order and in a suitable state.
 
-### Examples
+## Examples
 
 Shows how to formatting the entire FormField, including the field value.
 

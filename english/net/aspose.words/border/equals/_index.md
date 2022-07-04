@@ -14,7 +14,7 @@ Determines whether the specified border is equal in value to the current border.
 public bool Equals(Border rhs)
 ```
 
-### Examples
+## Examples
 
 Shows how border collections can share elements.
 
@@ -70,7 +70,7 @@ Determines whether the specified object is equal in value to the current object.
 public override bool Equals(object obj)
 ```
 
-### Examples
+## Examples
 
 Shows how border collections can share elements.
 

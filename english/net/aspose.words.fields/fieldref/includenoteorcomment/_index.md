@@ -14,7 +14,7 @@ Gets or sets whether to increment footnote, endnote, and annotation numbers that
 public bool IncludeNoteOrComment { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to insert REF fields to reference bookmarks.
 

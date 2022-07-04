@@ -14,11 +14,11 @@ Allows to specify whether the revisions are rendered in the balloons. Default va
 public ShowInBalloons ShowInBalloons { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 Note that revisions are not rendered in balloons for ShowInAnnotations.
 
-### Examples
+## Examples
 
 Shows how to display revisions in balloons.
 

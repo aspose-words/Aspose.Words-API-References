@@ -23,7 +23,7 @@ public Footnote InsertFootnote(FootnoteType footnoteType, string footnoteText)
 
 Returns a footnote object that was just created.
 
-### Examples
+## Examples
 
 Shows how to reference text with a footnote and an endnote.
 
@@ -79,7 +79,7 @@ public Footnote InsertFootnote(FootnoteType footnoteType, string footnoteText, s
 
 Returns a footnote object that was just created.
 
-### Examples
+## Examples
 
 Shows how to reference text with a footnote and an endnote.
 

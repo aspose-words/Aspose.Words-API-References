@@ -14,7 +14,7 @@ Gets or sets the name of the paragraph style applied to this formatting.
 public string StyleName { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to construct an Aspose.Words document by hand.
 

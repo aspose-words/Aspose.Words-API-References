@@ -14,7 +14,7 @@ Allows to handle particular events during mail merge.
 public IMailMergeCallback MailMergeCallback { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to define custom logic for handling events during mail merge.
 

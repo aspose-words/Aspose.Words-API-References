@@ -14,7 +14,7 @@ Gets or sets a value determining whether the [`LastSavedTime`](../../../aspose.w
 public bool UpdateLastSavedTimeProperty { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to determine whether to preserve the document's "Last saved time" property when saving.
 

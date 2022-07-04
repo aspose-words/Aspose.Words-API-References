@@ -14,13 +14,13 @@ Gets or sets the relationship type from the parent part to this custom part.
 public string RelationshipType { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 The relationship type for a custom part must be "unknown" e.g. a custom relationship type, not one of the relationship types defined within ISO/IEC 29500.
 
 The default value is an empty string. A valid value must be a non-empty string.
 
-### Examples
+## Examples
 
 Shows how to access a document's arbitrary custom parts collection.
 

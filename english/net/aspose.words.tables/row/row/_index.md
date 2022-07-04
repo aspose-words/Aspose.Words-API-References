@@ -18,13 +18,13 @@ public Row(DocumentBase doc)
 | --- | --- | --- |
 | doc | DocumentBase | The owner document. |
 
-### Remarks
+## Remarks
 
 When **Row** is created, it belongs to the specified document, but is not yet part of the document and **ParentNode** is null.
 
 To append **Row** to the document use InsertAfter or InsertBefore on the table where you want the row inserted.
 
-### Examples
+## Examples
 
 Shows how to build a nested table without using a document builder.
 

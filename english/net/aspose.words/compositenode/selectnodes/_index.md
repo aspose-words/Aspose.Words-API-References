@@ -22,11 +22,11 @@ public NodeList SelectNodes(string xpath)
 
 A list of nodes matching the XPath query.
 
-### Remarks
+## Remarks
 
 Only expressions with element names are supported at the moment. Expressions that use attribute names are not supported.
 
-### Examples
+## Examples
 
 Shows how to use an XPath expression to test whether a node is inside a field.
 

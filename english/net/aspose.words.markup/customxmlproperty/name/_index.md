@@ -14,13 +14,13 @@ Specifies the name of the custom XML attribute or smart tag property.
 public string Name { get; }
 ```
 
-### Remarks
+## Remarks
 
 Cannot be null.
 
 Default is empty string.
 
-### Examples
+## Examples
 
 Shows how to create smart tags.
 

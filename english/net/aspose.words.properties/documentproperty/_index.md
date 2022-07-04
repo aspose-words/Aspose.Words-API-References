@@ -3,7 +3,7 @@ title: DocumentProperty
 second_title: Aspose.Words for .NET API Reference
 description: Represents a custom or built-in document property.
 type: docs
-weight: 4170
+weight: 4220
 url: /net/aspose.words.properties/documentproperty/
 ---
 ## DocumentProperty class
@@ -35,7 +35,7 @@ public class DocumentProperty
 | [ToInt](../../aspose.words.properties/documentproperty/toint)() | Returns the property value as integer. |
 | override [ToString](../../aspose.words.properties/documentproperty/tostring)() | Returns the property value as a string formatted according to the current locale. |
 
-### Examples
+## Examples
 
 Shows how to work with built-in document properties.
 

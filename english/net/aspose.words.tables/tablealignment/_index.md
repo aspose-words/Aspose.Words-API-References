@@ -3,7 +3,7 @@ title: TableAlignment
 second_title: Aspose.Words for .NET API Reference
 description: Specifies alignment for an inline table.
 type: docs
-weight: 6000
+weight: 6050
 url: /net/aspose.words.tables/tablealignment/
 ---
 ## TableAlignment enumeration
@@ -22,7 +22,7 @@ public enum TableAlignment
 | Center | `1` | The table is centered. |
 | Right | `2` | The table is aligned to the right. |
 
-### Examples
+## Examples
 
 Shows how to apply an outline border to a table.
 

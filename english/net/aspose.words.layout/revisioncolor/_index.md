@@ -3,7 +3,7 @@ title: RevisionColor
 second_title: Aspose.Words for .NET API Reference
 description: Allows to specify color of document revisions.
 type: docs
-weight: 3130
+weight: 3180
 url: /net/aspose.words.layout/revisioncolor/
 ---
 ## RevisionColor enumeration
@@ -40,7 +40,7 @@ public enum RevisionColor
 | NoHighlight | `19` | No color is used to highlight revision changes. |
 | ByAuthor | `20` | Revisions of each author receive their own color for highlighting from a predfined set of hi-contrast colors. |
 
-### Examples
+## Examples
 
 Shows how to alter the appearance of revisions in a rendered output document.
 

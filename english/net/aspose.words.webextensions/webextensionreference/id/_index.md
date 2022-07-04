@@ -14,7 +14,7 @@ Identifier associated with the web extension within a catalog provider.
 public string Id { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to add a web extension to a document.
 

@@ -3,7 +3,7 @@ title: CompressionLevel
 second_title: Aspose.Words for .NET API Reference
 description: Compression level for OOXML files.
 type: docs
-weight: 4560
+weight: 4610
 url: /net/aspose.words.saving/compressionlevel/
 ---
 ## CompressionLevel enumeration
@@ -27,7 +27,7 @@ public enum CompressionLevel
 | Fast | `2` | Fast compression level. |
 | SuperFast | `3` | Super Fast compression level. Microsoft Word uses this compression level. |
 
-### Examples
+## Examples
 
 Shows how to specify the compression level to use while saving an OOXML document.
 

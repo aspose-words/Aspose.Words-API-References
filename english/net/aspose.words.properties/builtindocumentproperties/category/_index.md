@@ -14,7 +14,7 @@ Gets or sets the category of the document.
 public string Category { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to work with built-in document properties in the "Description" category.
 

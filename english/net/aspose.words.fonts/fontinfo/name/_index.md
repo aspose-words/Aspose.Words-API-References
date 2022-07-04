@@ -14,11 +14,11 @@ Gets the name of the font.
 public string Name { get; }
 ```
 
-### Remarks
+## Remarks
 
 Cannot be `null`. Can be an empty string.
 
-### Examples
+## Examples
 
 Shows how to print the details of what fonts are present in a document.
 

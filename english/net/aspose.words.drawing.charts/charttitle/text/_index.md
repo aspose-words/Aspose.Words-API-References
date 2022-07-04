@@ -14,11 +14,11 @@ Gets or sets the text of the chart title. If null or empty value is specified, a
 public string Text { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 Use [`Show`](../show) option if you need to hide the Title.
 
-### Examples
+## Examples
 
 Shows how to insert a chart and set a title.
 

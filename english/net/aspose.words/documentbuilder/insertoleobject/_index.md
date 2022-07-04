@@ -25,7 +25,7 @@ public Shape InsertOleObject(Stream stream, string progId, bool asIcon, Stream p
 
 Shape node containing Ole object and inserted at the current Builder position.
 
-### Examples
+## Examples
 
 Shows how to use document builder to embed OLE objects in a document.
 
@@ -93,7 +93,7 @@ public Shape InsertOleObject(string fileName, bool isLinked, bool asIcon, Stream
 
 Shape node containing Ole object and inserted at the current Builder position.
 
-### Examples
+## Examples
 
 Shows how to insert an OLE object into a document.
 
@@ -156,7 +156,7 @@ public Shape InsertOleObject(string fileName, string progId, bool isLinked, bool
 
 Shape node containing Ole object and inserted at the current Builder position.
 
-### Examples
+## Examples
 
 Shows how to insert an OLE object into a document.
 

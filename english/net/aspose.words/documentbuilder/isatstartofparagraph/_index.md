@@ -14,7 +14,7 @@ Returns true if the cursor is at the beginning of the current paragraph (no text
 public bool IsAtStartOfParagraph { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to move a document builder's cursor to different nodes in a document.
 

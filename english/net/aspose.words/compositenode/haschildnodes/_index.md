@@ -14,7 +14,7 @@ Returns true if this node has any child nodes.
 public bool HasChildNodes { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to combine the rows from two tables into one.
 

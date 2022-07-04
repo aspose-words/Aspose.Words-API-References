@@ -16,7 +16,7 @@ In case of OLE object is not embedded as icon or caption couldn't be retrieved r
 public string IconCaption { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to insert linked and unlinked OLE objects.
 

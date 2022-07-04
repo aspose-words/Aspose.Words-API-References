@@ -14,7 +14,7 @@ Returns **true** if this object was moved (inserted) in Microsoft Word while cha
 public bool IsMoveToRevision { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to determine the revision type of an inline node.
 

@@ -3,7 +3,7 @@ title: FieldSeq
 second_title: Aspose.Words for .NET API Reference
 description: Implements the SEQ field.
 type: docs
-weight: 2200
+weight: 2240
 url: /net/aspose.words.fields/fieldseq/
 ---
 ## FieldSeq class
@@ -51,11 +51,11 @@ public class FieldSeq : Field
 | [Update](../../aspose.words.fields/field/update)() | Performs the field update. Throws if the field is being updated already. |
 | [Update](../../aspose.words.fields/field/update)(bool) | Performs a field update. Throws if the field is being updated already. |
 
-### Remarks
+## Remarks
 
 Sequentially numbers chapters, tables, figures, and other user-defined lists of items in a document.
 
-### Examples
+## Examples
 
 Shows create numbering using SEQ fields.
 

@@ -14,11 +14,11 @@ Specifies the base string used for evaluating relative hyperlinks in this docume
 public string HyperlinkBase { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 Aspose.Words does not use this property.
 
-### Examples
+## Examples
 
 Shows how to store the base part of a hyperlink in the document's properties.
 

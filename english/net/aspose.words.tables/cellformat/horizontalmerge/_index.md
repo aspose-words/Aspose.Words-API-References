@@ -14,7 +14,7 @@ Specifies how the cell is merged horizontally with other cells in the row.
 public CellMerge HorizontalMerge { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to merge table cells horizontally.
 

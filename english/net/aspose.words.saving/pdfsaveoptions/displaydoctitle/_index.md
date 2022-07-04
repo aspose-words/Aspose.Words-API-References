@@ -14,7 +14,7 @@ A flag specifying whether the window’s title bar should display the document t
 public bool DisplayDocTitle { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 If `false`, the title bar should instead display the name of the PDF file containing the document.
 
@@ -22,7 +22,7 @@ This flag is required by PDF/UA compliance. `true` value will be used automatica
 
 The default value is `false`.
 
-### Examples
+## Examples
 
 Shows how to display the title of the document as the title bar.
 

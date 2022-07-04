@@ -14,7 +14,7 @@ Returns or sets a Boolean to indicate the series name display behavior for the d
 public bool ShowSeriesName { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to apply labels to data points in a line chart.
 

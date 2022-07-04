@@ -14,7 +14,7 @@ Returns **NodeType.HeaderFooter**.
 public override NodeType NodeType { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to iterate through the children of a composite node.
 

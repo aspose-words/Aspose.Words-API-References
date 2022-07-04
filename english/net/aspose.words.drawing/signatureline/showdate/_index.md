@@ -14,7 +14,7 @@ Gets or sets a value indicating that sign date is shown in the signature line. D
 public bool ShowDate { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to create a line for a signature and insert it into a document.
 

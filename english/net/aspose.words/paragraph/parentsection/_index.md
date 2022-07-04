@@ -14,7 +14,7 @@ Retrieves the parent [`Section`](../../section) of the paragraph.
 public Section ParentSection { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to create a header and a footer.
 

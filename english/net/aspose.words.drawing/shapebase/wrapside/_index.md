@@ -3,7 +3,7 @@ title: WrapSide
 second_title: Aspose.Words for .NET API Reference
 description: Specifies how the text is wrapped around the shape.
 type: docs
-weight: 520
+weight: 530
 url: /net/aspose.words.drawing/shapebase/wrapside/
 ---
 ## ShapeBase.WrapSide property
@@ -14,13 +14,13 @@ Specifies how the text is wrapped around the shape.
 public WrapSide WrapSide { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 The default value is Both.
 
 Has effect only for top level shapes.
 
-### Examples
+## Examples
 
 Shows how to replace all textbox shapes with image shapes.
 

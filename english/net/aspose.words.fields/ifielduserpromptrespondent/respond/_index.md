@@ -23,7 +23,7 @@ public string Respond(string promptText, string defaultResponse)
 
 User response (i.e. confirmed value contained in the prompt window).
 
-### Examples
+## Examples
 
 Shows how to create an ASK field, and set its properties.
 

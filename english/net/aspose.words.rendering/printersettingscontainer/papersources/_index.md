@@ -14,7 +14,7 @@ See PaperSources.
 public PaperSourceCollection PaperSources { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to access and list your printer's paper sources and sizes.
 

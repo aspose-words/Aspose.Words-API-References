@@ -3,7 +3,7 @@ title: CellMerge
 second_title: Aspose.Words for .NET API Reference
 description: Specifies how a cell in a table is merged with other cells.
 type: docs
-weight: 5920
+weight: 5970
 url: /net/aspose.words.tables/cellmerge/
 ---
 ## CellMerge enumeration
@@ -22,7 +22,7 @@ public enum CellMerge
 | First | `1` | The cell is the first cell in a range of merged cells. |
 | Previous | `2` | The cell is merged to the previous cell horizontally or vertically. |
 
-### Examples
+## Examples
 
 Shows how to merge table cells horizontally.
 

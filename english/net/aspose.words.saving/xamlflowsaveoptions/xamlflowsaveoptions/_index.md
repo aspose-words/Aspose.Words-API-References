@@ -14,7 +14,7 @@ Initializes a new instance of this class that can be used to save a document in 
 public XamlFlowSaveOptions()
 ```
 
-### Examples
+## Examples
 
 Shows how to print the filenames of linked images created while converting a document to flow-form .xaml.
 
@@ -95,7 +95,7 @@ public XamlFlowSaveOptions(SaveFormat saveFormat)
 | --- | --- | --- |
 | saveFormat | SaveFormat | Can be XamlFlow or XamlFlowPack. |
 
-### Examples
+## Examples
 
 Shows how to print the filenames of linked images created while converting a document to flow-form .xaml.
 

@@ -3,7 +3,7 @@ title: RowFormat
 second_title: Aspose.Words for .NET API Reference
 description: Represents all formatting for a table row.
 type: docs
-weight: 5980
+weight: 6030
 url: /net/aspose.words.tables/rowformat/
 ---
 ## RowFormat class
@@ -30,7 +30,7 @@ public class RowFormat
 | --- | --- |
 | [ClearFormatting](../../aspose.words.tables/rowformat/clearformatting)() | Resets to default row formatting. |
 
-### Examples
+## Examples
 
 Shows how to modify formatting of a table row.
 

@@ -16,7 +16,7 @@ This identifier can be associated with a digital signature, when signing documen
 public Guid Id { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to add a signature line to a document, and then sign it using a digital certificate.
 

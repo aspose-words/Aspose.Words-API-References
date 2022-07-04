@@ -3,7 +3,7 @@ title: PdfImageCompression
 second_title: Aspose.Words for .NET API Reference
 description: Specifies the type of compression applied to images in the PDF file.
 type: docs
-weight: 5160
+weight: 5210
 url: /net/aspose.words.saving/pdfimagecompression/
 ---
 ## PdfImageCompression enumeration
@@ -21,7 +21,7 @@ public enum PdfImageCompression
 | Auto | `0` | Automatically selects the most appropriate compression for each image. |
 | Jpeg | `1` | Jpeg compression. Does not support transparency. |
 
-### Examples
+## Examples
 
 Shows how to specify a compression type for all images in a document that we are converting to PDF.
 

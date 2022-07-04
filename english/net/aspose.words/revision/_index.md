@@ -3,7 +3,7 @@ title: Revision
 second_title: Aspose.Words for .NET API Reference
 description: Represents a revision tracked change in a document node or style. Use RevisionType./revision/revisiontype to check the type of this revision.
 type: docs
-weight: 4450
+weight: 4500
 url: /net/aspose.words/revision/
 ---
 ## Revision class
@@ -32,7 +32,7 @@ public class Revision
 | [Accept](../../aspose.words/revision/accept)() | Accepts this revision. |
 | [Reject](../../aspose.words/revision/reject)() | Reject this revision. |
 
-### Examples
+## Examples
 
 Shows how to work with revisions in a document.
 

@@ -3,7 +3,7 @@ title: ThemeFonts
 second_title: Aspose.Words for .NET API Reference
 description: Represents a collection of fonts in the font scheme allowing to specify different fonts for different languages Latin./themefonts/latin EastAsian./themefonts/eastasian and ComplexScript./themefonts/complexscript.
 type: docs
-weight: 6150
+weight: 6200
 url: /net/aspose.words.themes/themefonts/
 ---
 ## ThemeFonts class
@@ -22,7 +22,7 @@ public class ThemeFonts
 | [EastAsian](../../aspose.words.themes/themefonts/eastasian) { get; set; } | Specifies font name for EastAsian characters. |
 | [Latin](../../aspose.words.themes/themefonts/latin) { get; set; } | Specifies font name for Latin characters. |
 
-### Examples
+## Examples
 
 Shows how to set custom colors and fonts for themes.
 

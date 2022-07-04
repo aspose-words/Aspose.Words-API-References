@@ -14,11 +14,11 @@ Gets an object that represents the mapping of this structured document tag range
 public XmlMapping XmlMapping { get; }
 ```
 
-### Remarks
+## Remarks
 
 You can use the [`SetMapping`](../../xmlmapping/setmapping) method of this object to map a structured document tag range to XML data.
 
-### Examples
+## Examples
 
 Shows how to set XML mappings for the range start of a structured document tag.
 

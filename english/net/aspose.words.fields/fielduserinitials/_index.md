@@ -3,7 +3,7 @@ title: FieldUserInitials
 second_title: Aspose.Words for .NET API Reference
 description: Implements the USERINITIALS field.
 type: docs
-weight: 2390
+weight: 2430
 url: /net/aspose.words.fields/fielduserinitials/
 ---
 ## FieldUserInitials class
@@ -47,11 +47,11 @@ public class FieldUserInitials : Field
 | [Update](../../aspose.words.fields/field/update)() | Performs the field update. Throws if the field is being updated already. |
 | [Update](../../aspose.words.fields/field/update)(bool) | Performs a field update. Throws if the field is being updated already. |
 
-### Remarks
+## Remarks
 
 Retrieves the current user's initials.
 
-### Examples
+## Examples
 
 Shows how to use the USERINITIALS field.
 

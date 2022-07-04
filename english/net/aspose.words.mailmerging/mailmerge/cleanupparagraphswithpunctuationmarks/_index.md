@@ -14,7 +14,7 @@ Gets or sets a value indicating whether paragraphs with punctuation marks are co
 public bool CleanupParagraphsWithPunctuationMarks { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 The default value is `true`.
 
@@ -29,7 +29,7 @@ Here is the complete list of cleanable punctuation marks:
 * ¡
 * ¿
 
-### Examples
+## Examples
 
 Shows how to remove paragraphs with punctuation marks after a mail merge operation.
 

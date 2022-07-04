@@ -14,11 +14,11 @@ True if the font is underlined.
 public bool Underline { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 The default value is **false**.
 
-### Examples
+## Examples
 
 Shows how to work with WordArt.
 

@@ -14,7 +14,7 @@ Gets horizontal distance between the edge of the frame and the item specified by
 public double HorizontalPosition { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to get information about formatting properties of paragraphs that are frames.
 

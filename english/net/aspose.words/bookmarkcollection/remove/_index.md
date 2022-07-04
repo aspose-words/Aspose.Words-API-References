@@ -18,7 +18,7 @@ public void Remove(Bookmark bookmark)
 | --- | --- | --- |
 | bookmark | Bookmark | The bookmark to remove. |
 
-### Examples
+## Examples
 
 Shows how to remove bookmarks from a document.
 
@@ -97,7 +97,7 @@ public void Remove(string bookmarkName)
 | --- | --- | --- |
 | bookmarkName | String | The case-insensitive name of the bookmark to remove. |
 
-### Examples
+## Examples
 
 Shows how to remove bookmarks from a document.
 

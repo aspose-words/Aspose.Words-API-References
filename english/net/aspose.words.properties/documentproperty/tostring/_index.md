@@ -14,11 +14,11 @@ Returns the property value as a string formatted according to the current locale
 public override string ToString()
 ```
 
-### Remarks
+## Remarks
 
 Converts a boolean property into "Y" or "N". Converts a date property into a short date string. For all other types converts a property using Object.ToString().
 
-### Examples
+## Examples
 
 Shows various type conversion methods of custom document properties.
 

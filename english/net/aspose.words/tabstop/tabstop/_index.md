@@ -14,7 +14,7 @@ Initializes a new instance of this class.
 public TabStop(double position)
 ```
 
-### Examples
+## Examples
 
 Shows how to work with a document's collection of tab stops.
 
@@ -77,7 +77,7 @@ public TabStop(double position, TabAlignment alignment, TabLeader leader)
 | alignment | TabAlignment | A [`TabAlignment`](../../tabalignment) value that specifies the alignment of text at this tab stop. |
 | leader | TabLeader | A [`TabLeader`](../../tableader) value that specifies the type of the leader line displayed under the tab character. |
 
-### Examples
+## Examples
 
 Shows how to work with a document's collection of tab stops.
 

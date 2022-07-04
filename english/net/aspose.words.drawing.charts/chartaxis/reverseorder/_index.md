@@ -14,11 +14,11 @@ Returns or sets a flag indicating whether values of axis should be displayed in 
 public bool ReverseOrder { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 The property is not supported by MS Office 2016 new charts. Default value is **false**.
 
-### Examples
+## Examples
 
 Shows how to insert a chart and modify the appearance of its axes.
 

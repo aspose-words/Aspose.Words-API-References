@@ -3,7 +3,7 @@ title: Underline
 second_title: Aspose.Words for .NET API Reference
 description: Indicates type of the underline applied to a font.
 type: docs
-weight: 6160
+weight: 6210
 url: /net/aspose.words/underline/
 ---
 ## Underline enumeration
@@ -37,7 +37,7 @@ public enum Underline
 | WavyHeavy | `27` |  |
 | WavyDouble | `43` |  |
 
-### Examples
+## Examples
 
 Shows how to insert a hyperlink field.
 

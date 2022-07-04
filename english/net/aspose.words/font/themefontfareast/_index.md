@@ -14,7 +14,7 @@ Gets or sets the East Asian theme font in the applied font scheme that is associ
 public ThemeFont ThemeFontFarEast { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to work with theme fonts and colors.
 

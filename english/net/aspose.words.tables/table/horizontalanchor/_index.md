@@ -14,7 +14,7 @@ Gets the base object from which the horizontal positioning of floating table sho
 public RelativeHorizontalPosition HorizontalAnchor { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to work with floating tables properties.
 

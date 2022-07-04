@@ -14,7 +14,7 @@ Returns true if the control is a [`Forms2OleControl`](../../forms2olecontrol).
 public virtual bool IsForms2OleControl { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to verify the properties of an ActiveX control.
 

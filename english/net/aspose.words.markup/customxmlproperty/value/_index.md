@@ -14,13 +14,13 @@ Gets or sets the value of the custom XML attribute or smart tag property.
 public string Value { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 Cannot be null.
 
 Default is empty string.
 
-### Examples
+## Examples
 
 Shows how to create smart tags.
 

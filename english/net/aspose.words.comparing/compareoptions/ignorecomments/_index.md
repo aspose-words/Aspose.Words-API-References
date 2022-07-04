@@ -14,7 +14,7 @@ Specifies whether to compare differences in comments. By default comments are no
 public bool IgnoreComments { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to filter specific types of document elements when making a comparison.
 

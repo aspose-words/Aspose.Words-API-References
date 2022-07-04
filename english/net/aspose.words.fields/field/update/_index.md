@@ -14,7 +14,7 @@ Performs the field update. Throws if the field is being updated already.
 public void Update()
 ```
 
-### Examples
+## Examples
 
 Shows how to insert a field into a document using FieldType.
 
@@ -135,7 +135,7 @@ public void Update(bool ignoreMergeFormat)
 | --- | --- | --- |
 | ignoreMergeFormat | Boolean | If `true` then direct field result formatting is abandoned, regardless of the MERGEFORMAT switch, otherwise normal update is performed. |
 
-### Examples
+## Examples
 
 Shows how to preserve or discard INCLUDEPICTURE fields when loading a document.
 

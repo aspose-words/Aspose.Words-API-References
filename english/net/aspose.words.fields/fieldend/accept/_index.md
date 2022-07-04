@@ -22,13 +22,13 @@ public override bool Accept(DocumentVisitor visitor)
 
 **False** if the visitor requested the enumeration to stop.
 
-### Remarks
+## Remarks
 
 Calls [`VisitFieldEnd`](../../../aspose.words/documentvisitor/visitfieldend).
 
 For more info see the Visitor design pattern.
 
-### Examples
+## Examples
 
 Shows how to work with a collection of fields.
 

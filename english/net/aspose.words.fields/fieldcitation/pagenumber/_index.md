@@ -14,7 +14,7 @@ Gets or sets a page number associated with the citation.
 public string PageNumber { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to work with CITATION and BIBLIOGRAPHY fields.
 

@@ -14,7 +14,7 @@ Creates a duplicate of this section.
 public Section Clone()
 ```
 
-### Examples
+## Examples
 
 Shows how to add and remove sections in a document.
 

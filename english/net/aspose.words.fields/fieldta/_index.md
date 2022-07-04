@@ -3,7 +3,7 @@ title: FieldTA
 second_title: Aspose.Words for .NET API Reference
 description: Implements the TA field.
 type: docs
-weight: 2280
+weight: 2320
 url: /net/aspose.words.fields/fieldta/
 ---
 ## FieldTA class
@@ -52,11 +52,11 @@ public class FieldTA : Field
 | [Update](../../aspose.words.fields/field/update)() | Performs the field update. Throws if the field is being updated already. |
 | [Update](../../aspose.words.fields/field/update)(bool) | Performs a field update. Throws if the field is being updated already. |
 
-### Remarks
+## Remarks
 
 Defines the text and page number for a table of authorities entry, which is used by a TOA field.
 
-### Examples
+## Examples
 
 Shows how to build and customize a table of authorities using TOA and TA fields.
 

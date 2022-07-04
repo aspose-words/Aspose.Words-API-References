@@ -3,7 +3,7 @@ title: CustomXmlPart
 second_title: Aspose.Words for .NET API Reference
 description: Represents a Custom XML Data Storage Part custom XML data within a package.
 type: docs
-weight: 3630
+weight: 3680
 url: /net/aspose.words.markup/customxmlpart/
 ---
 ## CustomXmlPart class
@@ -35,11 +35,11 @@ public class CustomXmlPart
 | --- | --- |
 | [Clone](../../aspose.words.markup/customxmlpart/clone)() | Makes a "deep enough" copy of the object. Does not duplicate the bytes of the [`Data`](./data) value. |
 
-### Remarks
+## Remarks
 
 A DOCX or DOC document can contain one or more Custom XML Data Storage parts. Aspose.Words preserves and allows to create and extract Custom XML Data via the [`CustomXmlParts`](../../aspose.words/document/customxmlparts) collection.
 
-### Examples
+## Examples
 
 Shows how to create a structured document tag with custom XML data.
 

@@ -14,7 +14,7 @@ Specifies whether the CSS (Cascading Style Sheet) should be embedded into Html d
 public bool ExportEmbeddedCss { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to determine where to store CSS stylesheets when exporting a document to Html.
 

@@ -14,7 +14,7 @@ Gets or sets the default string or a calculation expression of a text form field
 public string TextInputDefault { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 The meaning of this property depends on the value of the [`TextInputType`](../textinputtype) property.
 
@@ -24,7 +24,7 @@ When [`TextInputType`](../textinputtype) is Calculated, then this string holds t
 
 Microsoft Word allows strings with at most 255 characters.
 
-### Examples
+## Examples
 
 Shows how insert different kinds of form fields into a document, and process them with using a document visitor implementation.
 

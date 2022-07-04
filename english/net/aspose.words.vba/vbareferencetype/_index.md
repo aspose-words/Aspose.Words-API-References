@@ -3,7 +3,7 @@ title: VbaReferenceType
 second_title: Aspose.Words for .NET API Reference
 description: Allows to specify the type of a VbaReference./vbareference object.
 type: docs
-weight: 6250
+weight: 6300
 url: /net/aspose.words.vba/vbareferencetype/
 ---
 ## VbaReferenceType enumeration
@@ -23,7 +23,7 @@ public enum VbaReferenceType
 | Original | `51` | Specifies an original Automation type library reference type. |
 | Control | `47` | Specifies a twiddled type library reference type. |
 
-### Examples
+## Examples
 
 Shows how to get/remove an element from the VBA reference collection.
 

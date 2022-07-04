@@ -3,7 +3,7 @@ title: WebExtensionStoreType
 second_title: Aspose.Words for .NET API Reference
 description: Enumerates available types of a web extension store.
 type: docs
-weight: 6460
+weight: 6510
 url: /net/aspose.words.webextensions/webextensionstoretype/
 ---
 ## WebExtensionStoreType enumeration
@@ -27,7 +27,7 @@ public enum WebExtensionStoreType
 | ExCatalog | `6` | Specifies that the store type is Centralized Deployment via Exchange. |
 | Default | `0` | Default value. |
 
-### Examples
+## Examples
 
 Shows how to add a web extension to a document.
 

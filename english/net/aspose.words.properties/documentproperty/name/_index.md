@@ -14,11 +14,11 @@ Returns the name of the property.
 public string Name { get; }
 ```
 
-### Remarks
+## Remarks
 
 Cannot be null and cannot be an empty string.
 
-### Examples
+## Examples
 
 Shows how to work with built-in document properties.
 

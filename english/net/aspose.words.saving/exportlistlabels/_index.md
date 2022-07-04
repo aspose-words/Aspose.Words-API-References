@@ -3,7 +3,7 @@ title: ExportListLabels
 second_title: Aspose.Words for .NET API Reference
 description: Specifies how list labels are exported to HTML MHTML and EPUB.
 type: docs
-weight: 4700
+weight: 4750
 url: /net/aspose.words.saving/exportlistlabels/
 ---
 ## ExportListLabels enumeration
@@ -22,7 +22,7 @@ public enum ExportListLabels
 | AsInlineText | `1` | Outputs all list labels as inline text. |
 | ByHtmlTags | `2` | Outputs all list labels as HTML native elements. |
 
-### Examples
+## Examples
 
 Shows how to configure list exporting to HTML.
 

@@ -14,7 +14,7 @@ Defines the text of the text path (of a WordArt object).
 public TextPath TextPath { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to work with WordArt.
 

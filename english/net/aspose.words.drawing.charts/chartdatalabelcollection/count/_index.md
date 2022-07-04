@@ -14,7 +14,7 @@ Returns the number of [`ChartDataLabel`](../../chartdatalabel) in this collectio
 public int Count { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to apply labels to data points in a line chart.
 

@@ -3,7 +3,7 @@ title: FieldInclude
 second_title: Aspose.Words for .NET API Reference
 description: Implements the INCLUDE field.
 type: docs
-weight: 1840
+weight: 1880
 url: /net/aspose.words.fields/fieldinclude/
 ---
 ## FieldInclude class
@@ -50,11 +50,11 @@ public class FieldInclude : Field
 | [Update](../../aspose.words.fields/field/update)() | Performs the field update. Throws if the field is being updated already. |
 | [Update](../../aspose.words.fields/field/update)(bool) | Performs a field update. Throws if the field is being updated already. |
 
-### Remarks
+## Remarks
 
 Inserts all or part of the text and graphics contained in another document.
 
-### Examples
+## Examples
 
 Shows how to create an INCLUDE field, and set its properties.
 

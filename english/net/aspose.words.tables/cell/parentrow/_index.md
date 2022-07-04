@@ -14,11 +14,11 @@ Returns the parent row of the cell.
 public Row ParentRow { get; }
 ```
 
-### Remarks
+## Remarks
 
 Equivalent to `(Row)FirstNonMarkupParentNode`.
 
-### Examples
+## Examples
 
 Shows how to set a table to stay together on the same page.
 

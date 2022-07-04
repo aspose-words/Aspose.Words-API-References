@@ -14,11 +14,11 @@ Specifies the alignment for the table style.
 public TableAlignment Alignment { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 The default value is Left.
 
-### Examples
+## Examples
 
 Shows how to set the position of a table.
 

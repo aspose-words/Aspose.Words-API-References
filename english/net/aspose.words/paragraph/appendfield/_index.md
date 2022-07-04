@@ -23,7 +23,7 @@ public Field AppendField(FieldType fieldType, bool updateField)
 
 A [`Field`](../../../aspose.words.fields/field) object that represents the appended field.
 
-### Examples
+## Examples
 
 Shows various ways of appending fields to a paragraph.
 
@@ -77,7 +77,7 @@ public Field AppendField(string fieldCode)
 
 A [`Field`](../../../aspose.words.fields/field) object that represents the appended field.
 
-### Examples
+## Examples
 
 Shows various ways of appending fields to a paragraph.
 
@@ -131,7 +131,7 @@ public Field AppendField(string fieldCode, string fieldValue)
 
 A [`Field`](../../../aspose.words.fields/field) object that represents the appended field.
 
-### Examples
+## Examples
 
 Shows various ways of appending fields to a paragraph.
 

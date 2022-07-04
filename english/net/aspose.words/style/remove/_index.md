@@ -14,7 +14,7 @@ Removes the specified style from the document.
 public void Remove()
 ```
 
-### Remarks
+## Remarks
 
 Style removal has following effects on the document model:
 
@@ -22,7 +22,7 @@ Style removal has following effects on the document model:
 * If base style is removed its formatting is moved to child styles.
 * If style to be deleted has a linked style, then both of these are deleted.
 
-### Examples
+## Examples
 
 Shows how to create and apply a custom style.
 

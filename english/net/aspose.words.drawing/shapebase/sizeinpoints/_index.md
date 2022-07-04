@@ -3,7 +3,7 @@ title: SizeInPoints
 second_title: Aspose.Words for .NET API Reference
 description: Gets the size of the shape in points.
 type: docs
-weight: 460
+weight: 470
 url: /net/aspose.words.drawing/shapebase/sizeinpoints/
 ---
 ## ShapeBase.SizeInPoints property
@@ -14,7 +14,7 @@ Gets the size of the shape in points.
 public SizeF SizeInPoints { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to verify a shape's size and markup language.
 

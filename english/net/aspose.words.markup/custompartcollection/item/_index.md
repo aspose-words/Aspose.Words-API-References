@@ -18,7 +18,7 @@ public CustomPart this[int index] { get; set; }
 | --- | --- |
 | index | Zero-based index of the item. |
 
-### Examples
+## Examples
 
 Shows how to access a document's arbitrary custom parts collection.
 

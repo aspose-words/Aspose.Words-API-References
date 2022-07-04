@@ -3,7 +3,7 @@ title: Cell
 second_title: Aspose.Words for .NET API Reference
 description: Represents a table cell.
 type: docs
-weight: 5890
+weight: 5940
 url: /net/aspose.words.tables/cell/
 ---
 ## Cell class
@@ -76,7 +76,7 @@ public class Cell : CompositeNode
 | [ToString](../../aspose.words/node/tostring)(SaveFormat) | Exports the content of the node into a string in the specified format. |
 | [ToString](../../aspose.words/node/tostring)(SaveOptions) | Exports the content of the node into a string using the specified save options. |
 
-### Remarks
+## Remarks
 
 **Cell** can only be a child of a **Row**.
 
@@ -84,7 +84,7 @@ public class Cell : CompositeNode
 
 A minimal valid cell needs to have at least one **Paragraph**.
 
-### Examples
+## Examples
 
 Shows how to create a table.
 

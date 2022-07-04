@@ -14,7 +14,7 @@ Gets or sets whether run subentries into the same line as the main entry.
 public bool RunSubentriesOnSameLine { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to work with subentries in an INDEX field.
 

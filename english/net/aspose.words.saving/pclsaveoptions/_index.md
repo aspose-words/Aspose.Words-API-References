@@ -3,7 +3,7 @@ title: PclSaveOptions
 second_title: Aspose.Words for .NET API Reference
 description: Can be used to specify additional options when saving a document into the Pcl format.
 type: docs
-weight: 5070
+weight: 5120
 url: /net/aspose.words.saving/pclsaveoptions/
 ---
 ## PclSaveOptions class
@@ -62,7 +62,7 @@ public class PclSaveOptions : FixedPageSaveOptions
 | [AddPrinterFont](../../aspose.words.saving/pclsaveoptions/addprinterfont)(string, string) | Adds information about font that is uploaded to the printer by manufacturer. |
 | override [Equals](../../aspose.words.saving/fixedpagesaveoptions/equals)(object) | Determines whether the specified object is equal in value to the current object. |
 
-### Examples
+## Examples
 
 Shows how to rasterize complex elements while saving a document to PCL.
 

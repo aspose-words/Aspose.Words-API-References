@@ -14,7 +14,7 @@ Gets or sets a string that should match type identifiers of TC fields being incl
 public string EntryIdentifier { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to insert a TOC field, and filter which TC fields end up as entries.
 

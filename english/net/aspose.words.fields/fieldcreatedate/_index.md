@@ -3,7 +3,7 @@ title: FieldCreateDate
 second_title: Aspose.Words for .NET API Reference
 description: Implements the CREATEDATE field.
 type: docs
-weight: 1550
+weight: 1570
 url: /net/aspose.words.fields/fieldcreatedate/
 ---
 ## FieldCreateDate class
@@ -49,11 +49,11 @@ public class FieldCreateDate : Field
 | [Update](../../aspose.words.fields/field/update)() | Performs the field update. Throws if the field is being updated already. |
 | [Update](../../aspose.words.fields/field/update)(bool) | Performs a field update. Throws if the field is being updated already. |
 
-### Remarks
+## Remarks
 
 Retrieves the date and time at which the document was created. By default, the Gregorian calendar is used.
 
-### Examples
+## Examples
 
 Shows how to use the CREATEDATE field to display the creation date/time of the document.
 

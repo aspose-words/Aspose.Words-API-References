@@ -14,7 +14,7 @@ Bar code type.
 public string BarcodeType { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to use a barcode generator.
 

@@ -14,7 +14,7 @@ Returns a collection that represents all sections in the document.
 public SectionCollection Sections { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to add and remove sections in a document.
 

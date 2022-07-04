@@ -14,7 +14,7 @@ Gets or sets the text of the entry.
 public string Text { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to insert a TOC field, and filter which TC fields end up as entries.
 

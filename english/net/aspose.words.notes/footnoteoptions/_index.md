@@ -3,7 +3,7 @@ title: FootnoteOptions
 second_title: Aspose.Words for .NET API Reference
 description: Represents the footnote numbering options for a document or section.
 type: docs
-weight: 3990
+weight: 4040
 url: /net/aspose.words.notes/footnoteoptions/
 ---
 ## FootnoteOptions class
@@ -24,7 +24,7 @@ public sealed class FootnoteOptions
 | [RestartRule](../../aspose.words.notes/footnoteoptions/restartrule) { get; set; } | Determines when automatic numbering restarts. |
 | [StartNumber](../../aspose.words.notes/footnoteoptions/startnumber) { get; set; } | Specifies the starting number or character for the first automatically numbered footnotes. |
 
-### Examples
+## Examples
 
 Shows how to split the footnote section into a given number of columns.
 

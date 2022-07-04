@@ -14,7 +14,7 @@ Gets or sets the name of the style by which the text to search for is formatted.
 public string StyleName { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to use STYLEREF fields.
 

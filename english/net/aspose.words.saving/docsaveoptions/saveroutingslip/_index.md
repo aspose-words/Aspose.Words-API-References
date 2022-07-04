@@ -14,7 +14,7 @@ When `false`, RoutingSlip data is not saved to output document. Default value is
 public bool SaveRoutingSlip { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to set save options for older Microsoft Word formats.
 

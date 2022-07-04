@@ -18,11 +18,11 @@ public void Write(string text)
 | --- | --- | --- |
 | text | String | The string to insert into the document. |
 
-### Remarks
+## Remarks
 
 Current font formatting specified by the [`Font`](../font) property is used.
 
-### Examples
+## Examples
 
 Shows how to insert a string surrounded by a border into a document.
 

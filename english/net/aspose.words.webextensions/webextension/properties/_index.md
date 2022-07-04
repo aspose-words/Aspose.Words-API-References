@@ -14,7 +14,7 @@ Represents a set of web extension custom properties.
 public WebExtensionPropertyCollection Properties { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to add a web extension to a document.
 

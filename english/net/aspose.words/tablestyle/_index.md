@@ -3,7 +3,7 @@ title: TableStyle
 second_title: Aspose.Words for .NET API Reference
 description: Represents a table style.
 type: docs
-weight: 5870
+weight: 5920
 url: /net/aspose.words/tablestyle/
 ---
 ## TableStyle class
@@ -57,7 +57,7 @@ public class TableStyle : Style
 | [Equals](../../aspose.words/style/equals)(Style) | Compares with the specified style. Styles Istds are compared for built-in styles only. Styles defaults are not included in comparison. Base style, linked style and next paragraph style are recursively compared. |
 | [Remove](../../aspose.words/style/remove)() | Removes the specified style from the document. |
 
-### Examples
+## Examples
 
 Shows how to create custom style settings for the table.
 

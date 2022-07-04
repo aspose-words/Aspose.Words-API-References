@@ -18,7 +18,7 @@ public FileFontSource(string filePath)
 | --- | --- | --- |
 | filePath | String | Path to font file. |
 
-### Examples
+## Examples
 
 Shows how to use a font file in the local file system as a font source.
 
@@ -55,7 +55,7 @@ public FileFontSource(string filePath, int priority)
 | filePath | String | Path to font file. |
 | priority | Int32 | Font source priority. See the [`Priority`](../../fontsourcebase/priority) property description for more information. |
 
-### Examples
+## Examples
 
 Shows how to use a font file in the local file system as a font source.
 
@@ -93,7 +93,7 @@ public FileFontSource(string filePath, int priority, string cacheKey)
 | priority | Int32 | Font source priority. See the [`Priority`](../../fontsourcebase/priority) property description for more information. |
 | cacheKey | String | The key of this source in the cache. See [`CacheKey`](../cachekey) property description for more information. |
 
-### Examples
+## Examples
 
 Shows how to speed up the font cache initialization process.
 

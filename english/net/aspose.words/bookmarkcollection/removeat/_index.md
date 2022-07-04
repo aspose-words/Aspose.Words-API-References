@@ -18,7 +18,7 @@ public void RemoveAt(int index)
 | --- | --- | --- |
 | index | Int32 | The zero-based index of the bookmark to remove. |
 
-### Examples
+## Examples
 
 Shows how to remove bookmarks from a document.
 

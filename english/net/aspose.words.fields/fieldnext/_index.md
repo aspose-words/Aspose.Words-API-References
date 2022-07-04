@@ -3,7 +3,7 @@ title: FieldNext
 second_title: Aspose.Words for .NET API Reference
 description: Implements the NEXT field.
 type: docs
-weight: 1990
+weight: 2030
 url: /net/aspose.words.fields/fieldnext/
 ---
 ## FieldNext class
@@ -46,11 +46,11 @@ public class FieldNext : Field
 | [Update](../../aspose.words.fields/field/update)() | Performs the field update. Throws if the field is being updated already. |
 | [Update](../../aspose.words.fields/field/update)(bool) | Performs a field update. Throws if the field is being updated already. |
 
-### Remarks
+## Remarks
 
 Merges the next data record into the current resulting merged document, rather than starting a new merged document.
 
-### Examples
+## Examples
 
 Shows how to use NEXT/NEXTIF fields to merge multiple rows into one page during a mail merge.
 

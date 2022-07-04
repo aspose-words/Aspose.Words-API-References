@@ -14,11 +14,11 @@ Returns or sets the tab position (in points) for the list level.
 public double TabPosition { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 Has effect only when [`TrailingCharacter`](../trailingcharacter) is a tab.
 
-### Examples
+## Examples
 
 Shows how to apply custom list formatting to paragraphs when using DocumentBuilder.
 

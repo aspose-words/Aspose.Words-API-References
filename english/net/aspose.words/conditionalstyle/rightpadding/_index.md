@@ -14,7 +14,7 @@ Gets or sets the amount of space (in points) to add to the right of the contents
 public double RightPadding { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to work with certain area styles of a table.
 

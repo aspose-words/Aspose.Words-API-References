@@ -14,7 +14,7 @@ Called during processing of font source when an issue is detected that might res
 public IWarningCallback WarningCallback { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to call warning callback when the font sources working with.
 

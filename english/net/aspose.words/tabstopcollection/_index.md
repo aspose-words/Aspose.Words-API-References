@@ -3,7 +3,7 @@ title: TabStopCollection
 second_title: Aspose.Words for .NET API Reference
 description: A collection of TabStop./tabstop objects that represent custom tabs for a paragraph or a style.
 type: docs
-weight: 5860
+weight: 5910
 url: /net/aspose.words/tabstopcollection/
 ---
 ## TabStopCollection class
@@ -38,13 +38,13 @@ public class TabStopCollection : InternableComplexAttr
 | [RemoveByIndex](../../aspose.words/tabstopcollection/removebyindex)(int) | Removes a tab stop at the specified index from the collection. |
 | [RemoveByPosition](../../aspose.words/tabstopcollection/removebyposition)(double) | Removes a tab stop at the specified position from the collection. |
 
-### Remarks
+## Remarks
 
 In Microsoft Word documents, a tab stop can be defined in the properties of a paragraph style or directly in the properties of a paragraph. A style can be based on another style. Therefore, the complete set of tab stops for a given object is a combination of tab stops defined directly on this object and tab stops inherited from the parent styles.
 
 In Aspose.Words, when you obtain a **TabStops** collection for a paragraph or a style, it contains only the custom tab stops defined directly for this paragraph or style. The collection does not include tab stops defined in the parent styles or default tab stops.
 
-### Examples
+## Examples
 
 Shows how to work with a document's collection of tab stops.
 

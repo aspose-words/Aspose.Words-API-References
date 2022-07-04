@@ -14,11 +14,11 @@ Called when Aspose.Words applies a capitalization format switch, i.e. \* Upper.
 public string Format(string value, GeneralFormat format)
 ```
 
-### Remarks
+## Remarks
 
 The implementation should return **null** to indicate that the default formatting should be applied.
 
-### Examples
+## Examples
 
 Shows how to automatically apply a custom format to field results as the fields are updated.
 
@@ -168,11 +168,11 @@ Called when Aspose.Words applies a number format switch, i.e. \* Ordinal.
 public string Format(double value, GeneralFormat format)
 ```
 
-### Remarks
+## Remarks
 
 The implementation should return **null** to indicate that the default formatting should be applied.
 
-### Examples
+## Examples
 
 Shows how to automatically apply a custom format to field results as the fields are updated.
 

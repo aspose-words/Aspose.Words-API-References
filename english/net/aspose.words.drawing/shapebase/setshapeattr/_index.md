@@ -3,7 +3,7 @@ title: SetShapeAttr
 second_title: Aspose.Words for .NET API Reference
 description: Reserved for system use. IShapeAttrSource.
 type: docs
-weight: 620
+weight: 630
 url: /net/aspose.words.drawing/shapebase/setshapeattr/
 ---
 ## ShapeBase.SetShapeAttr method

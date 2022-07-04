@@ -14,7 +14,7 @@ Gets the number of pages in the document as calculated by the most recent page l
 public int PageCount { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to count the number of pages in the document.
 

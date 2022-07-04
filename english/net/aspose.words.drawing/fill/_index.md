@@ -51,11 +51,11 @@ public class Fill
 | [TwoColorGradient](../../aspose.words.drawing/fill/twocolorgradient#twocolorgradient)(GradientStyle, GradientVariant) | Sets the specified fill to a two-color gradient. |
 | [TwoColorGradient](../../aspose.words.drawing/fill/twocolorgradient#twocolorgradient_1)(Color, Color, GradientStyle, GradientVariant) | Sets the specified fill to a two-color gradient. |
 
-### Remarks
+## Remarks
 
 Use the [`Fill`](../shapebase/fill) or [`Fill`](../../aspose.words/font/fill) property to access fill properties of an object. You do not create instances of the [`Fill`](../fill) class directly.
 
-### Examples
+## Examples
 
 Shows how to fill a shape with a solid color.
 

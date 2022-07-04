@@ -14,13 +14,13 @@ Specifies the building block type.
 public BuildingBlockType Type { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 The building block type can influence the visibility and behavior of the building block in Microsoft Word.
 
 Corresponds to the **docPartPr.types** element in OOXML.
 
-### Examples
+## Examples
 
 Shows how to add a custom building block to a document.
 

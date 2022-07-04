@@ -3,7 +3,7 @@ title: FieldImport
 second_title: Aspose.Words for .NET API Reference
 description: Implements the IMPORT field.
 type: docs
-weight: 1830
+weight: 1870
 url: /net/aspose.words.fields/fieldimport/
 ---
 ## FieldImport class
@@ -49,11 +49,11 @@ public class FieldImport : Field
 | [Update](../../aspose.words.fields/field/update)() | Performs the field update. Throws if the field is being updated already. |
 | [Update](../../aspose.words.fields/field/update)(bool) | Performs a field update. Throws if the field is being updated already. |
 
-### Remarks
+## Remarks
 
 Retrieves the picture contained in the document.
 
-### Examples
+## Examples
 
 Shows how to insert images using IMPORT and INCLUDEPICTURE fields.
 

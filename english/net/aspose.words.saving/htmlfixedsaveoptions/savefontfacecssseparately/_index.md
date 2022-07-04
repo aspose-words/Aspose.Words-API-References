@@ -14,11 +14,11 @@ Flag indicates whether "@font-face" CSS rules should be placed into a separate f
 public bool SaveFontFaceCssSeparately { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 Setting this property to `true` restores the old behavior (separate files) for compatibility with legacy code.
 
-### Examples
+## Examples
 
 Shows how to place CSS into a separate file and add a prefix to all of its CSS class names.
 

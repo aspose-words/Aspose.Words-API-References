@@ -14,7 +14,7 @@ Initializes a new instance of this class with default values.
 public LoadOptions()
 ```
 
-### Examples
+## Examples
 
 Shows how to open an HTML document with images from a stream using a base URI.
 
@@ -58,7 +58,7 @@ public LoadOptions(string password)
 | --- | --- | --- |
 | password | String | The password to open an encrypted document. Can be null or empty string. |
 
-### Examples
+## Examples
 
 Shows how to load an encrypted Microsoft Word document.
 
@@ -102,7 +102,7 @@ public LoadOptions(LoadFormat loadFormat, string password, string baseUri)
 | password | String | The password to open an encrypted document. Can be null or empty string. |
 | baseUri | String | The string that will be used to resolve relative URIs to absolute. Can be null or empty string. |
 
-### Examples
+## Examples
 
 Shows how save a web page as a .docx file.
 

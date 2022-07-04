@@ -3,7 +3,7 @@ title: Range
 second_title: Aspose.Words for .NET API Reference
 description: Represents a contiguous area in a document.
 type: docs
-weight: 4220
+weight: 4270
 url: /net/aspose.words/range/
 ---
 ## Range class
@@ -38,7 +38,7 @@ public class Range
 | [UnlinkFields](../../aspose.words/range/unlinkfields)() | Unlinks fields in this range. |
 | [UpdateFields](../../aspose.words/range/updatefields)() | Updates the values of document fields in this range. |
 
-### Remarks
+## Remarks
 
 The document is represented by a tree of nodes and the nodes provide operations to work with the tree, but some operations are easier to perform if the document is treated as a contiguous sequence of text.
 
@@ -46,7 +46,7 @@ The document is represented by a tree of nodes and the nodes provide operations 
 
 **Range** does not contain any text or nodes, it is merely a view or "window" over a fragment of a document.
 
-### Examples
+## Examples
 
 Shows how to get the text contents of all the nodes that a range covers.
 

@@ -14,7 +14,7 @@ Removes the VbaReference element at the specified index of the collection.
 public void RemoveAt(int index)
 ```
 
-### Examples
+## Examples
 
 Shows how to get/remove an element from the VBA reference collection.
 

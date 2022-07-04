@@ -3,7 +3,7 @@ title: StructuredDocumentTagRangeStart
 second_title: Aspose.Words for .NET API Reference
 description: Represents a start of ranged structured document tag which accepts multi-sections content. See also StructuredDocumentTagRangeEnd./structureddocumenttagrangeend.
 type: docs
-weight: 3800
+weight: 3850
 url: /net/aspose.words.markup/structureddocumenttagrangestart/
 ---
 ## StructuredDocumentTagRangeStart class
@@ -69,11 +69,11 @@ public class StructuredDocumentTagRangeStart : Node, IEnumerable<Node>, IStructu
 | [ToString](../../aspose.words/node/tostring)(SaveFormat) | Exports the content of the node into a string in the specified format. |
 | [ToString](../../aspose.words/node/tostring)(SaveOptions) | Exports the content of the node into a string using the specified save options. |
 
-### Remarks
+## Remarks
 
 Can be immediate child of [`Body`](../../aspose.words/body) node **only**.
 
-### Examples
+## Examples
 
 Shows how to get the properties of multi-section structured document tags.
 

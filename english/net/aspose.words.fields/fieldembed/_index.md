@@ -3,7 +3,7 @@ title: FieldEmbed
 second_title: Aspose.Words for .NET API Reference
 description: Implements the EMBED field.
 type: docs
-weight: 1660
+weight: 1700
 url: /net/aspose.words.fields/fieldembed/
 ---
 ## FieldEmbed class
@@ -46,7 +46,7 @@ public class FieldEmbed : Field
 | [Update](../../aspose.words.fields/field/update)() | Performs the field update. Throws if the field is being updated already. |
 | [Update](../../aspose.words.fields/field/update)(bool) | Performs a field update. Throws if the field is being updated already. |
 
-### Examples
+## Examples
 
 Shows how some older Microsoft Word fields such as SHAPE and EMBED are handled during loading.
 

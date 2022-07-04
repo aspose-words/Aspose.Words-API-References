@@ -18,7 +18,7 @@ public void AppendContent(Section sourceSection)
 | --- | --- | --- |
 | sourceSection | Section | The section to copy content from. |
 
-### Remarks
+## Remarks
 
 Only content of [`Body`](../body) of the source section is copied, page setup, headers and footers are not copied.
 
@@ -26,7 +26,7 @@ The nodes are automatically imported if the source section belongs to a differen
 
 No new section is created in the destination document.
 
-### Examples
+## Examples
 
 Shows how to append the contents of a section to another section.
 

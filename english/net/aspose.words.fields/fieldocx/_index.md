@@ -3,7 +3,7 @@ title: FieldOcx
 second_title: Aspose.Words for .NET API Reference
 description: Implements the OCX field.
 type: docs
-weight: 2050
+weight: 2090
 url: /net/aspose.words.fields/fieldocx/
 ---
 ## FieldOcx class
@@ -46,7 +46,7 @@ public class FieldOcx : Field
 | [Update](../../aspose.words.fields/field/update)() | Performs the field update. Throws if the field is being updated already. |
 | [Update](../../aspose.words.fields/field/update)(bool) | Performs a field update. Throws if the field is being updated already. |
 
-### Examples
+## Examples
 
 Shows how to insert an OCX field.
 

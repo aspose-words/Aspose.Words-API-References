@@ -3,7 +3,7 @@ title: PageLayoutEvent
 second_title: Aspose.Words for .NET API Reference
 description: A code of event raised during page layout model build and rendering.
 type: docs
-weight: 3120
+weight: 3170
 url: /net/aspose.words.layout/pagelayoutevent/
 ---
 ## PageLayoutEvent enumeration
@@ -35,7 +35,7 @@ public enum PageLayoutEvent
 | PartRenderingStarted | `10` | Rendering of page has started. This is fired once per page. |
 | PartRenderingFinished | `11` | Rendering of page has finished. This is fired once per page. |
 
-### Examples
+## Examples
 
 Shows how to track layout changes with a layout callback.
 

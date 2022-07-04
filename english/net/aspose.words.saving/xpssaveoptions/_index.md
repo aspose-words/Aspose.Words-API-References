@@ -3,7 +3,7 @@ title: XpsSaveOptions
 second_title: Aspose.Words for .NET API Reference
 description: Can be used to specify additional options when saving a document into the Xps format.
 type: docs
-weight: 5380
+weight: 5430
 url: /net/aspose.words.saving/xpssaveoptions/
 ---
 ## XpsSaveOptions class
@@ -62,7 +62,7 @@ public class XpsSaveOptions : FixedPageSaveOptions
 | --- | --- |
 | override [Equals](../../aspose.words.saving/fixedpagesaveoptions/equals)(object) | Determines whether the specified object is equal in value to the current object. |
 
-### Examples
+## Examples
 
 Shows how to limit the headings' level that will appear in the outline of a saved XPS document.
 

@@ -14,7 +14,7 @@ Gets the height of the image in pixels.
 public int HeightPixels { get; }
 ```
 
-### Examples
+## Examples
 
 Shows how to read the properties of an image in a shape.
 

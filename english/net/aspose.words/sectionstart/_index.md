@@ -3,7 +3,7 @@ title: SectionStart
 second_title: Aspose.Words for .NET API Reference
 description: The type of break at the beginning of the section.
 type: docs
-weight: 5420
+weight: 5470
 url: /net/aspose.words/sectionstart/
 ---
 ## SectionStart enumeration
@@ -24,7 +24,7 @@ public enum SectionStart
 | EvenPage | `3` | The section starts on a new even page. |
 | OddPage | `4` | The section starts on a new odd page. |
 
-### Examples
+## Examples
 
 Shows how to construct an Aspose.Words document by hand.
 

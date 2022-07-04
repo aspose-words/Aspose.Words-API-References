@@ -14,13 +14,13 @@ Controls whether [`Shape`](../../../aspose.words.drawing/shape) nodes are conver
 public bool ExportShapesAsSvg { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 If this option is set to `true`, [`Shape`](../../../aspose.words.drawing/shape) nodes are exported as &lt;svg&gt; elements. Otherwise, they are rendered to bitmaps and are exported as &lt;img&gt; elements.
 
 Note that this options also affects text boxes, because they are represented by [`Shape`](../../../aspose.words.drawing/shape) nodes. As a result, if this option is set to `true`, it overrides the ExportTextBoxAsSvg property value and causes text boxes to be converted to SVG.
 
-### Examples
+## Examples
 
 Shows how to export shape as scalable vector graphics.
 

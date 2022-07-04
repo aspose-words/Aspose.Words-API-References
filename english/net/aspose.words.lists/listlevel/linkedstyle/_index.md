@@ -14,11 +14,11 @@ Gets or sets the paragraph style that is linked to this list level.
 public Style LinkedStyle { get; set; }
 ```
 
-### Remarks
+## Remarks
 
 This property is null when the list level is not linked to a paragraph style. This property can be set to null.
 
-### Examples
+## Examples
 
 Shows advances ways of customizing list labels.
 

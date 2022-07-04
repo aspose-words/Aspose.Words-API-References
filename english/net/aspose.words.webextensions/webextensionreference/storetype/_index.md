@@ -14,7 +14,7 @@ Specifies the type of marketplace.
 public WebExtensionStoreType StoreType { get; set; }
 ```
 
-### Examples
+## Examples
 
 Shows how to add a web extension to a document.
 
