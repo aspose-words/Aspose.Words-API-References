@@ -3,7 +3,7 @@ title: Shape
 second_title: Aspose.Words for .NET API Reference
 description: Represents an object in the drawing layer such as an AutoShape textbox freeform OLE object ActiveX control or picture.
 type: docs
-weight: 1080
+weight: 1100
 url: /net/aspose.words.drawing/shape/
 ---
 ## Shape class
@@ -94,6 +94,7 @@ public sealed class Shape : ShapeBase
 | [Rotation](../../aspose.words.drawing/shapebase/rotation) { get; set; } | Defines the angle (in degrees) that a shape is rotated. Positive value corresponds to clockwise rotation angle. |
 | [ScreenTip](../../aspose.words.drawing/shapebase/screentip) { get; set; } | Defines the text displayed when the mouse pointer moves over the shape. |
 | [ShadowEnabled](../../aspose.words.drawing/shape/shadowenabled) { get; } | Returns true if a shadow effect is enabled. |
+| [ShadowFormat](../../aspose.words.drawing/shapebase/shadowformat) { get; } | Gets shadow formatting for the shape. |
 | [ShapeType](../../aspose.words.drawing/shapebase/shapetype) { get; } | Gets the shape type. |
 | [SignatureLine](../../aspose.words.drawing/shape/signatureline) { get; } | Gets [`SignatureLine`](./signatureline) object if the shape is a signature line. Returns **null** otherwise. |
 | [SizeInPoints](../../aspose.words.drawing/shapebase/sizeinpoints) { get; } | Gets the size of the shape in points. |

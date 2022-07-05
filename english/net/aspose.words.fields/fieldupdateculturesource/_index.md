@@ -3,7 +3,7 @@ title: FieldUpdateCultureSource
 second_title: Aspose.Words for .NET API Reference
 description: Indicates what culture to use during field update.
 type: docs
-weight: 2370
+weight: 2410
 url: /net/aspose.words.fields/fieldupdateculturesource/
 ---
 ## FieldUpdateCultureSource enumeration

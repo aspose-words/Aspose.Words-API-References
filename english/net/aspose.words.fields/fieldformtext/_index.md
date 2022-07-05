@@ -3,7 +3,7 @@ title: FieldFormText
 second_title: Aspose.Words for .NET API Reference
 description: Implements the FORMTEXT field.
 type: docs
-weight: 1740
+weight: 1780
 url: /net/aspose.words.fields/fieldformtext/
 ---
 ## FieldFormText class

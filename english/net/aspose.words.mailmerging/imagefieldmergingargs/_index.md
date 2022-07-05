@@ -3,7 +3,7 @@ title: ImageFieldMergingArgs
 second_title: Aspose.Words for .NET API Reference
 description: Provides data for the ImageFieldMerging./ifieldmergingcallback/imagefieldmerging event.
 type: docs
-weight: 3560
+weight: 3610
 url: /net/aspose.words.mailmerging/imagefieldmergingargs/
 ---
 ## ImageFieldMergingArgs class
@@ -66,7 +66,6 @@ public void ImageFromBlob()
     }
 
     doc.Save(ArtifactsDir + "MailMergeEvent.ImageFromBlob.docx");
-}
 
 private class HandleMergeImageFieldFromBlob : IFieldMergingCallback
 {

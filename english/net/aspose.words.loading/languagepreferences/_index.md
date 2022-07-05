@@ -3,7 +3,7 @@ title: LanguagePreferences
 second_title: Aspose.Words for .NET API Reference
 description: Allows to set up language preferences.
 type: docs
-weight: 3400
+weight: 3450
 url: /net/aspose.words.loading/languagepreferences/
 ---
 ## LanguagePreferences class

@@ -3,7 +3,7 @@ title: ResourceLoadingArgs
 second_title: Aspose.Words for .NET API Reference
 description: Provides data for the ResourceLoading./iresourceloadingcallback/resourceloading method.
 type: docs
-weight: 3440
+weight: 3490
 url: /net/aspose.words.loading/resourceloadingargs/
 ---
 ## ResourceLoadingArgs class

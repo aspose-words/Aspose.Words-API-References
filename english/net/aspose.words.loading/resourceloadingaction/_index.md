@@ -3,7 +3,7 @@ title: ResourceLoadingAction
 second_title: Aspose.Words for .NET API Reference
 description: Specifies the mode of resource loading.
 type: docs
-weight: 3430
+weight: 3480
 url: /net/aspose.words.loading/resourceloadingaction/
 ---
 ## ResourceLoadingAction enumeration

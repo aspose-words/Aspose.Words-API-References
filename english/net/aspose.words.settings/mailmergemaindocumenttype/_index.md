@@ -3,7 +3,7 @@ title: MailMergeMainDocumentType
 second_title: Aspose.Words for .NET API Reference
 description: Specifies the possible types for a mail merge source document.
 type: docs
-weight: 5490
+weight: 5540
 url: /net/aspose.words.settings/mailmergemaindocumenttype/
 ---
 ## MailMergeMainDocumentType enumeration

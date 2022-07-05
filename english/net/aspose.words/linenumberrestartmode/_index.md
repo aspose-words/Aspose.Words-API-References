@@ -3,7 +3,7 @@ title: LineNumberRestartMode
 second_title: Aspose.Words for .NET API Reference
 description: Determines when automatic line numbering restarts.
 type: docs
-weight: 3180
+weight: 3230
 url: /net/aspose.words/linenumberrestartmode/
 ---
 ## LineNumberRestartMode enumeration

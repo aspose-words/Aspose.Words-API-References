@@ -3,7 +3,7 @@ title: Hyphenation
 second_title: Aspose.Words for .NET API Reference
 description: Provides methods for working with hyphenation dictionaries. These dictionaries prescribe where words of a specific language can be hyphenated.
 type: docs
-weight: 2920
+weight: 2970
 url: /net/aspose.words/hyphenation/
 ---
 ## Hyphenation class

@@ -3,7 +3,7 @@ title: FieldAutoText
 second_title: Aspose.Words for .NET API Reference
 description: Implements the AUTOTEXT field.
 type: docs
-weight: 1440
+weight: 1460
 url: /net/aspose.words.fields/fieldautotext/
 ---
 ## FieldAutoText class

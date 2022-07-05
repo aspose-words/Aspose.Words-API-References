@@ -3,7 +3,7 @@ title: SaveFormat
 second_title: Aspose.Words for .NET API Reference
 description: Indicates the format in which the document is saved.
 type: docs
-weight: 4530
+weight: 4580
 url: /net/aspose.words/saveformat/
 ---
 ## SaveFormat enumeration

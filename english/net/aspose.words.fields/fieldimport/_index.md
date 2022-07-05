@@ -3,7 +3,7 @@ title: FieldImport
 second_title: Aspose.Words for .NET API Reference
 description: Implements the IMPORT field.
 type: docs
-weight: 1830
+weight: 1870
 url: /net/aspose.words.fields/fieldimport/
 ---
 ## FieldImport class

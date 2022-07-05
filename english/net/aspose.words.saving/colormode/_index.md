@@ -3,7 +3,7 @@ title: ColorMode
 second_title: Aspose.Words for .NET API Reference
 description: Specifies how colors are rendered.
 type: docs
-weight: 4550
+weight: 4600
 url: /net/aspose.words.saving/colormode/
 ---
 ## ColorMode enumeration

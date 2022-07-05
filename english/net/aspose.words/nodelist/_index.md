@@ -3,7 +3,7 @@ title: NodeList
 second_title: Aspose.Words for .NET API Reference
 description: Represents a collection of nodes matching an XPath query executed using the SelectNodes./compositenode/selectnodes method.
 type: docs
-weight: 3930
+weight: 3980
 url: /net/aspose.words/nodelist/
 ---
 ## NodeList class

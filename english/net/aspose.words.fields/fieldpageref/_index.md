@@ -3,7 +3,7 @@ title: FieldPageRef
 second_title: Aspose.Words for .NET API Reference
 description: Implements the PAGEREF field.
 type: docs
-weight: 2080
+weight: 2120
 url: /net/aspose.words.fields/fieldpageref/
 ---
 ## FieldPageRef class

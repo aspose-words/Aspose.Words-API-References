@@ -3,7 +3,7 @@ title: ImageSavingArgs
 second_title: Aspose.Words for .NET API Reference
 description: Provides data for the ImageSaving./iimagesavingcallback/imagesaving event.
 type: docs
-weight: 4930
+weight: 4980
 url: /net/aspose.words.saving/imagesavingargs/
 ---
 ## ImageSavingArgs class

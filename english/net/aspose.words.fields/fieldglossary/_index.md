@@ -3,7 +3,7 @@ title: FieldGlossary
 second_title: Aspose.Words for .NET API Reference
 description: Implements the GLOSSARY field.
 type: docs
-weight: 1770
+weight: 1810
 url: /net/aspose.words.fields/fieldglossary/
 ---
 ## FieldGlossary class

@@ -40,6 +40,8 @@ The **Aspose.Words.Fields** namespace contains classes that represent Microsoft 
 | [FieldCreateDate](./fieldcreatedate) | Implements the CREATEDATE field. |
 | [FieldData](./fielddata) | Implements the DATA field. |
 | [FieldDatabase](./fielddatabase) | Implements the DATABASE field. |
+| [FieldDatabaseDataRow](./fielddatabasedatarow) | Provides data for the [`FieldDatabase`](../aspose.words.fields/fielddatabase) field result. |
+| [FieldDatabaseDataTable](./fielddatabasedatatable) | Provides data for the [`FieldDatabase`](../aspose.words.fields/fielddatabase) field result. |
 | [FieldDate](./fielddate) | Implements the DATE field. |
 | [FieldDde](./fielddde) | Implements the DDE field. |
 | [FieldDdeAuto](./fieldddeauto) | Implements the DDEAUTO field. |
@@ -132,6 +134,7 @@ The **Aspose.Words.Fields** namespace contains classes that represent Microsoft 
 | --- | --- |
 | [IBarcodeGenerator](./ibarcodegenerator) | Public interface for barcode custom generator. Implementation should be provided by user. |
 | [IComparisonExpressionEvaluator](./icomparisonexpressionevaluator) | When implemented, allows to override default comparison expressions evaluation for the [`FieldIf`](../aspose.words.fields/fieldif) and [`FieldCompare`](../aspose.words.fields/fieldcompare) fields. |
+| [IFieldDatabaseProvider](./ifielddatabaseprovider) | Implement this interface to provide data for the [`FieldDatabase`](../aspose.words.fields/fielddatabase) field when it's updated. |
 | [IFieldResultFormatter](./ifieldresultformatter) | Implement this interface if you want to control how the field result is formatted. |
 | [IFieldUpdateCultureProvider](./ifieldupdatecultureprovider) | When implemented, provides a CultureInfo object that should be used during the update of a particular field. |
 | [IFieldUpdatingCallback](./ifieldupdatingcallback) | Implement this interface if you want to have your own custom methods called during a field update. |

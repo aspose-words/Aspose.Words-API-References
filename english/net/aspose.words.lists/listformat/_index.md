@@ -3,7 +3,7 @@ title: ListFormat
 second_title: Aspose.Words for .NET API Reference
 description: Allows to control what list formatting is applied to a paragraph.
 type: docs
-weight: 3230
+weight: 3280
 url: /net/aspose.words.lists/listformat/
 ---
 ## ListFormat class

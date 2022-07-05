@@ -3,7 +3,7 @@ title: Width
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the width of the containing block of the shape.
 type: docs
-weight: 510
+weight: 520
 url: /net/aspose.words.drawing/shapebase/width/
 ---
 ## ShapeBase.Width property

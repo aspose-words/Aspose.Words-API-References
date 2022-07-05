@@ -3,7 +3,7 @@ title: FieldFormula
 second_title: Aspose.Words for .NET API Reference
 description: Implements the  formula field.
 type: docs
-weight: 1760
+weight: 1800
 url: /net/aspose.words.fields/fieldformula/
 ---
 ## FieldFormula class

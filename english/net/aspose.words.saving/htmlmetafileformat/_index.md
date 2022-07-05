@@ -3,7 +3,7 @@ title: HtmlMetafileFormat
 second_title: Aspose.Words for .NET API Reference
 description: Indicates the format in which metafiles are saved to HTML documents.
 type: docs
-weight: 4780
+weight: 4830
 url: /net/aspose.words.saving/htmlmetafileformat/
 ---
 ## HtmlMetafileFormat enumeration

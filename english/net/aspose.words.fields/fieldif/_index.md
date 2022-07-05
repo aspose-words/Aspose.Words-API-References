@@ -3,7 +3,7 @@ title: FieldIf
 second_title: Aspose.Words for .NET API Reference
 description: Implements the IF field.
 type: docs
-weight: 1810
+weight: 1850
 url: /net/aspose.words.fields/fieldif/
 ---
 ## FieldIf class

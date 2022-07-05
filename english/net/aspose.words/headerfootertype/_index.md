@@ -3,7 +3,7 @@ title: HeaderFooterType
 second_title: Aspose.Words for .NET API Reference
 description: Identifies the type of header or footer found in a Word file.
 type: docs
-weight: 2890
+weight: 2940
 url: /net/aspose.words/headerfootertype/
 ---
 ## HeaderFooterType enumeration

@@ -3,7 +3,7 @@ title: TxtTrailingSpacesOptions
 second_title: Aspose.Words for .NET API Reference
 description: Specifies available options for trailing spaces handling during import from Text file.
 type: docs
-weight: 3490
+weight: 3540
 url: /net/aspose.words.loading/txttrailingspacesoptions/
 ---
 ## TxtTrailingSpacesOptions enumeration

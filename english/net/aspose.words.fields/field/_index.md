@@ -3,7 +3,7 @@ title: Field
 second_title: Aspose.Words for .NET API Reference
 description: Represents a Microsoft Word document field.
 type: docs
-weight: 1340
+weight: 1360
 url: /net/aspose.words.fields/field/
 ---
 ## Field class

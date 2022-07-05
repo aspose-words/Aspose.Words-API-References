@@ -3,7 +3,7 @@ title: FieldMergingArgsBase
 second_title: Aspose.Words for .NET API Reference
 description: Base class for FieldMergingArgs./fieldmergingargs and ImageFieldMergingArgs./imagefieldmergingargs.
 type: docs
-weight: 3510
+weight: 3560
 url: /net/aspose.words.mailmerging/fieldmergingargsbase/
 ---
 ## FieldMergingArgsBase class
@@ -31,7 +31,6 @@ public abstract class FieldMergingArgsBase
 Shows how to execute a mail merge with a custom callback that handles merge data in the form of HTML documents.
 
 ```csharp
-public void MergeHtml()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);

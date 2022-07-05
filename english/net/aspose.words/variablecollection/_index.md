@@ -3,7 +3,7 @@ title: VariableCollection
 second_title: Aspose.Words for .NET API Reference
 description: A collection of document variables.
 type: docs
-weight: 6180
+weight: 6230
 url: /net/aspose.words/variablecollection/
 ---
 ## VariableCollection class

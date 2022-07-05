@@ -3,7 +3,7 @@ title: NodeChangingAction
 second_title: Aspose.Words for .NET API Reference
 description: Specifies the type of node change.
 type: docs
-weight: 3890
+weight: 3940
 url: /net/aspose.words/nodechangingaction/
 ---
 ## NodeChangingAction enumeration

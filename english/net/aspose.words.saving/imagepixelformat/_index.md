@@ -3,7 +3,7 @@ title: ImagePixelFormat
 second_title: Aspose.Words for .NET API Reference
 description: Specifies the pixel format for the generated images of document pages.
 type: docs
-weight: 4910
+weight: 4960
 url: /net/aspose.words.saving/imagepixelformat/
 ---
 ## ImagePixelFormat enumeration

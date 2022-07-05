@@ -3,7 +3,7 @@ title: ExportListLabels
 second_title: Aspose.Words for .NET API Reference
 description: Specifies how list labels are exported to HTML MHTML and EPUB.
 type: docs
-weight: 4700
+weight: 4750
 url: /net/aspose.words.saving/exportlistlabels/
 ---
 ## ExportListLabels enumeration

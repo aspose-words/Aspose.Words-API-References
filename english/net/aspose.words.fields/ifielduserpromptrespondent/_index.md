@@ -3,7 +3,7 @@ title: IFieldUserPromptRespondent
 second_title: Aspose.Words for .NET API Reference
 description: Represents the respondent to user prompts during field update.
 type: docs
-weight: 2510
+weight: 2560
 url: /net/aspose.words.fields/ifielduserpromptrespondent/
 ---
 ## IFieldUserPromptRespondent interface

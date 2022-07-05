@@ -3,7 +3,7 @@ title: FileFormatInfo
 second_title: Aspose.Words for .NET API Reference
 description: Contains data returned by FileFormatUtil./fileformatutil document format detection methods.
 type: docs
-weight: 2580
+weight: 2630
 url: /net/aspose.words/fileformatinfo/
 ---
 ## FileFormatInfo class

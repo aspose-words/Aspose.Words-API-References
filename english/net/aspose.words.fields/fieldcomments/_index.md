@@ -3,7 +3,7 @@ title: FieldComments
 second_title: Aspose.Words for .NET API Reference
 description: Implements the COMMENTS field.
 type: docs
-weight: 1530
+weight: 1550
 url: /net/aspose.words.fields/fieldcomments/
 ---
 ## FieldComments class

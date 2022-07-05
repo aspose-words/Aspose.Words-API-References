@@ -3,7 +3,7 @@ title: FieldMergeField
 second_title: Aspose.Words for .NET API Reference
 description: Implements the MERGEFIELD field.
 type: docs
-weight: 1960
+weight: 2000
 url: /net/aspose.words.fields/fieldmergefield/
 ---
 ## FieldMergeField class

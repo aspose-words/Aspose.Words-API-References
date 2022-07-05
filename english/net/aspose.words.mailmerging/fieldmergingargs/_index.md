@@ -3,7 +3,7 @@ title: FieldMergingArgs
 second_title: Aspose.Words for .NET API Reference
 description: Provides data for the MergeField event.
 type: docs
-weight: 3500
+weight: 3550
 url: /net/aspose.words.mailmerging/fieldmergingargs/
 ---
 ## FieldMergingArgs class
@@ -36,7 +36,6 @@ The **MergeField** event occurs during mail merge when a simple mail merge field
 Shows how to execute a mail merge with a custom callback that handles merge data in the form of HTML documents.
 
 ```csharp
-public void MergeHtml()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);

@@ -23,7 +23,6 @@ This property contains a value that has just been selected from your data source
 Shows how to edit values that MERGEFIELDs receive as a mail merge takes place.
 
 ```csharp
-public void FieldFormats()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);

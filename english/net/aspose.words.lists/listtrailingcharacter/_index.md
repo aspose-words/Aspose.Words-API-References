@@ -3,7 +3,7 @@ title: ListTrailingCharacter
 second_title: Aspose.Words for .NET API Reference
 description: Specifies the character that separates the list label from the text of the paragraph.
 type: docs
-weight: 3290
+weight: 3340
 url: /net/aspose.words.lists/listtrailingcharacter/
 ---
 ## ListTrailingCharacter enumeration

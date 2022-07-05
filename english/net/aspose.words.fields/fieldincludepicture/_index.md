@@ -3,7 +3,7 @@ title: FieldIncludePicture
 second_title: Aspose.Words for .NET API Reference
 description: Implements the INCLUDEPICTURE field.
 type: docs
-weight: 1850
+weight: 1890
 url: /net/aspose.words.fields/fieldincludepicture/
 ---
 ## FieldIncludePicture class

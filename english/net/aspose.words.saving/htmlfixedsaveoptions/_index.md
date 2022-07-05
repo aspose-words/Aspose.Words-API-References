@@ -3,7 +3,7 @@ title: HtmlFixedSaveOptions
 second_title: Aspose.Words for .NET API Reference
 description: Can be used to specify additional options when saving a document into the HtmlFixed format.
 type: docs
-weight: 4770
+weight: 4820
 url: /net/aspose.words.saving/htmlfixedsaveoptions/
 ---
 ## HtmlFixedSaveOptions class

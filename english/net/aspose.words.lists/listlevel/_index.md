@@ -3,7 +3,7 @@ title: ListLevel
 second_title: Aspose.Words for .NET API Reference
 description: Defines formatting for a list level.
 type: docs
-weight: 3250
+weight: 3300
 url: /net/aspose.words.lists/listlevel/
 ---
 ## ListLevel class

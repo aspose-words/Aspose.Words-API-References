@@ -3,7 +3,7 @@ title: FieldListNum
 second_title: Aspose.Words for .NET API Reference
 description: Implements the LISTNUM field.
 type: docs
-weight: 1930
+weight: 1970
 url: /net/aspose.words.fields/fieldlistnum/
 ---
 ## FieldListNum class

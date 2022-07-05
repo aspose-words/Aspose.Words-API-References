@@ -3,7 +3,7 @@ title: FieldShape
 second_title: Aspose.Words for .NET API Reference
 description: Implements the SHAPE field.
 type: docs
-weight: 2220
+weight: 2260
 url: /net/aspose.words.fields/fieldshape/
 ---
 ## FieldShape class

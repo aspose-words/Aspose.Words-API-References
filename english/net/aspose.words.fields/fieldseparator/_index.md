@@ -3,7 +3,7 @@ title: FieldSeparator
 second_title: Aspose.Words for .NET API Reference
 description: Represents a Word field separator that separates the field code from the field result.
 type: docs
-weight: 2190
+weight: 2230
 url: /net/aspose.words.fields/fieldseparator/
 ---
 ## FieldSeparator class

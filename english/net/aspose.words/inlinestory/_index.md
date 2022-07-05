@@ -3,7 +3,7 @@ title: InlineStory
 second_title: Aspose.Words for .NET API Reference
 description: Base class for inline-level nodes that can contain paragraphs and tables.
 type: docs
-weight: 3020
+weight: 3070
 url: /net/aspose.words/inlinestory/
 ---
 ## InlineStory class

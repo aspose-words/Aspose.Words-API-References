@@ -3,7 +3,7 @@ title: MsWordVersion
 second_title: Aspose.Words for .NET API Reference
 description: Allows Aspose.Wods to mimic MS Word version-specific application behavior.
 type: docs
-weight: 5510
+weight: 5560
 url: /net/aspose.words.settings/mswordversion/
 ---
 ## MsWordVersion enumeration

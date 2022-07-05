@@ -3,7 +3,7 @@ title: OfficeMathJustification
 second_title: Aspose.Words for .NET API Reference
 description: Specifies the justification of the equation.
 type: docs
-weight: 3850
+weight: 3900
 url: /net/aspose.words.math/officemathjustification/
 ---
 ## OfficeMathJustification enumeration

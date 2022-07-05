@@ -3,7 +3,7 @@ title: OoxmlCompliance
 second_title: Aspose.Words for .NET API Reference
 description: Allows to specify which OOXML specification will be used when saving in the DOCX format.
 type: docs
-weight: 5010
+weight: 5060
 url: /net/aspose.words.saving/ooxmlcompliance/
 ---
 ## OoxmlCompliance enumeration

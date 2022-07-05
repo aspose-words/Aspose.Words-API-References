@@ -3,7 +3,7 @@ title: FieldOptions
 second_title: Aspose.Words for .NET API Reference
 description: Represents options to control field handling in a document.
 type: docs
-weight: 2060
+weight: 2100
 url: /net/aspose.words.fields/fieldoptions/
 ---
 ## FieldOptions class
@@ -24,6 +24,7 @@ public sealed class FieldOptions
 | [CurrentUser](../../aspose.words.fields/fieldoptions/currentuser) { get; set; } | Gets or sets the current user information. |
 | [CustomTocStyleSeparator](../../aspose.words.fields/fieldoptions/customtocstyleseparator) { get; set; } | Gets or sets custom style separator for the \t switch in [`FieldToc`](../fieldtoc) field. |
 | [DefaultDocumentAuthor](../../aspose.words.fields/fieldoptions/defaultdocumentauthor) { get; set; } | Gets or sets default document author's name. If author's name is already specified in built-in document properties, this option is not considered. |
+| [FieldDatabaseProvider](../../aspose.words.fields/fieldoptions/fielddatabaseprovider) { get; set; } | Gets or sets a provider that returns a query result for the [`FieldDatabase`](../fielddatabase) field. |
 | [FieldIndexFormat](../../aspose.words.fields/fieldoptions/fieldindexformat) { get; set; } | Gets or sets a [`FieldIndexFormat`](./fieldindexformat) that represents the formatting for the [`FieldIndex`](../fieldindex) fields in the document. |
 | [FieldUpdateCultureProvider](../../aspose.words.fields/fieldoptions/fieldupdatecultureprovider) { get; set; } | Gets or sets a provider that returns a culture object specific for each particular field. |
 | [FieldUpdateCultureSource](../../aspose.words.fields/fieldoptions/fieldupdateculturesource) { get; set; } | Specifies what culture to use to format the field result. |

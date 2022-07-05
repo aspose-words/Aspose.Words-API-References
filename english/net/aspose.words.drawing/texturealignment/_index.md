@@ -3,7 +3,7 @@ title: TextureAlignment
 second_title: Aspose.Words for .NET API Reference
 description: Specifies the alignment for the tiling of the texture fill.
 type: docs
-weight: 1200
+weight: 1220
 url: /net/aspose.words.drawing/texturealignment/
 ---
 ## TextureAlignment enumeration

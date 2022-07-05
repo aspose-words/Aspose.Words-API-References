@@ -3,7 +3,7 @@ title: TxtExportHeadersFootersMode
 second_title: Aspose.Words for .NET API Reference
 description: Specifies the way headers and footers are exported to plain text format.
 type: docs
-weight: 5310
+weight: 5360
 url: /net/aspose.words.saving/txtexportheadersfootersmode/
 ---
 ## TxtExportHeadersFootersMode enumeration

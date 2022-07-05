@@ -3,7 +3,7 @@ title: PdfTextCompression
 second_title: Aspose.Words for .NET API Reference
 description: Specifies a type of compression applied to all content in the PDF file except images.
 type: docs
-weight: 5200
+weight: 5250
 url: /net/aspose.words.saving/pdftextcompression/
 ---
 ## PdfTextCompression enumeration

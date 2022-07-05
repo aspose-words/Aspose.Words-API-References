@@ -3,7 +3,7 @@ title: MultiplePagesType
 second_title: Aspose.Words for .NET API Reference
 description: Specifies how document is printed out.
 type: docs
-weight: 5520
+weight: 5570
 url: /net/aspose.words.settings/multiplepagestype/
 ---
 ## MultiplePagesType enumeration

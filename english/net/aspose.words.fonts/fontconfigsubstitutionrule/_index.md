@@ -3,7 +3,7 @@ title: FontConfigSubstitutionRule
 second_title: Aspose.Words for .NET API Reference
 description: Font config substitution rule.
 type: docs
-weight: 2660
+weight: 2710
 url: /net/aspose.words.fonts/fontconfigsubstitutionrule/
 ---
 ## FontConfigSubstitutionRule class

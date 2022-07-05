@@ -3,7 +3,7 @@ title: FieldBidiOutline
 second_title: Aspose.Words for .NET API Reference
 description: Implements the BIDIOUTLINE field.
 type: docs
-weight: 1480
+weight: 1500
 url: /net/aspose.words.fields/fieldbidioutline/
 ---
 ## FieldBidiOutline class

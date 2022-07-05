@@ -3,7 +3,7 @@ title: DocumentSplitCriteria
 second_title: Aspose.Words for .NET API Reference
 description: Specifies how the document is split into parts when saving to Html or Epub format.
 type: docs
-weight: 4650
+weight: 4700
 url: /net/aspose.words.saving/documentsplitcriteria/
 ---
 ## DocumentSplitCriteria enumeration

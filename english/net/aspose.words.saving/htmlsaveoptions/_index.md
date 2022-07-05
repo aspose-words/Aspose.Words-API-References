@@ -3,7 +3,7 @@ title: HtmlSaveOptions
 second_title: Aspose.Words for .NET API Reference
 description: Can be used to specify additional options when saving a document into the Html Mhtml or Epub format.
 type: docs
-weight: 4800
+weight: 4850
 url: /net/aspose.words.saving/htmlsaveoptions/
 ---
 ## HtmlSaveOptions class

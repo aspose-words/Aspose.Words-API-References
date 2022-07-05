@@ -3,7 +3,7 @@ title: TaskPaneDockState
 second_title: Aspose.Words for .NET API Reference
 description: Enumerates available locations of task pane object.
 type: docs
-weight: 6370
+weight: 6420
 url: /net/aspose.words.webextensions/taskpanedockstate/
 ---
 ## TaskPaneDockState enumeration

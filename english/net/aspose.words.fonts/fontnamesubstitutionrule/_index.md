@@ -3,7 +3,7 @@ title: FontNameSubstitutionRule
 second_title: Aspose.Words for .NET API Reference
 description: Font substitution rule for processing font name.
 type: docs
-weight: 2720
+weight: 2770
 url: /net/aspose.words.fonts/fontnamesubstitutionrule/
 ---
 ## FontNameSubstitutionRule class

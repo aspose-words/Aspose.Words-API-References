@@ -3,7 +3,7 @@ title: HtmlInsertOptions
 second_title: Aspose.Words for .NET API Reference
 description: Specifies options for the InsertHtml./documentbuilder/inserthtml method.
 type: docs
-weight: 2910
+weight: 2960
 url: /net/aspose.words/htmlinsertoptions/
 ---
 ## HtmlInsertOptions enumeration
@@ -22,6 +22,7 @@ public enum HtmlInsertOptions
 | None | `0` | Use the default options when inserting HTML. |
 | UseBuilderFormatting | `1` | Use font and paragraph formatting specified in [`DocumentBuilder`](../documentbuilder) as base formatting for text inserted from HTML. |
 | RemoveLastEmptyParagraph | `2` | Remove the empty paragraph that is normally inserted after HTML that ends with a block-level element. |
+| PreserveBlocks | `4` | Preserve properties of block-level elements. |
 
 ### See Also
 

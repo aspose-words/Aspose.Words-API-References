@@ -3,7 +3,7 @@ title: Theme
 second_title: Aspose.Words for .NET API Reference
 description: Represents document Theme and provides access to main theme parts including MajorFonts./theme/majorfonts MinorFonts./theme/minorfonts and Colors./theme/colors
 type: docs
-weight: 6110
+weight: 6160
 url: /net/aspose.words.themes/theme/
 ---
 ## Theme class

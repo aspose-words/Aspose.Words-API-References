@@ -3,7 +3,7 @@ title: HeaderFooterCollection
 second_title: Aspose.Words for .NET API Reference
 description: Provides typed access to HeaderFooter./headerfooter nodes of a Section.
 type: docs
-weight: 2880
+weight: 2930
 url: /net/aspose.words/headerfootercollection/
 ---
 ## HeaderFooterCollection class

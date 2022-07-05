@@ -3,7 +3,7 @@ title: FieldGreetingLine
 second_title: Aspose.Words for .NET API Reference
 description: Implements the GREETINGLINE field.
 type: docs
-weight: 1790
+weight: 1830
 url: /net/aspose.words.fields/fieldgreetingline/
 ---
 ## FieldGreetingLine class

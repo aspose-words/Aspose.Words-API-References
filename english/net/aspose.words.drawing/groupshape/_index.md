@@ -81,6 +81,7 @@ public class GroupShape : ShapeBase
 | [Right](../../aspose.words.drawing/shapebase/right) { get; } | Gets the position of the right edge of the containing block of the shape. |
 | [Rotation](../../aspose.words.drawing/shapebase/rotation) { get; set; } | Defines the angle (in degrees) that a shape is rotated. Positive value corresponds to clockwise rotation angle. |
 | [ScreenTip](../../aspose.words.drawing/shapebase/screentip) { get; set; } | Defines the text displayed when the mouse pointer moves over the shape. |
+| [ShadowFormat](../../aspose.words.drawing/shapebase/shadowformat) { get; } | Gets shadow formatting for the shape. |
 | [ShapeType](../../aspose.words.drawing/shapebase/shapetype) { get; } | Gets the shape type. |
 | [SizeInPoints](../../aspose.words.drawing/shapebase/sizeinpoints) { get; } | Gets the size of the shape in points. |
 | [Target](../../aspose.words.drawing/shapebase/target) { get; set; } | Gets or sets the target frame for the shape hyperlink. |

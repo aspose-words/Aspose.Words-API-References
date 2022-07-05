@@ -3,7 +3,7 @@ title: PageVerticalAlignment
 second_title: Aspose.Words for .NET API Reference
 description: Specifies vertical justification of text on each page.
 type: docs
-weight: 4080
+weight: 4130
 url: /net/aspose.words/pageverticalalignment/
 ---
 ## PageVerticalAlignment enumeration

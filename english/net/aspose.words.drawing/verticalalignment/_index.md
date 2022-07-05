@@ -3,7 +3,7 @@ title: VerticalAlignment
 second_title: Aspose.Words for .NET API Reference
 description: Specifies vertical alignment of a floating shape text frame or a floating table.
 type: docs
-weight: 1210
+weight: 1230
 url: /net/aspose.words.drawing/verticalalignment/
 ---
 ## VerticalAlignment enumeration

@@ -3,7 +3,7 @@ title: EmbeddedFontStyle
 second_title: Aspose.Words for .NET API Reference
 description: Specifies the style of an embedded font inside a FontInfo./fontinfo object.
 type: docs
-weight: 2630
+weight: 2680
 url: /net/aspose.words.fonts/embeddedfontstyle/
 ---
 ## EmbeddedFontStyle enumeration

@@ -3,7 +3,7 @@ title: HeaderFooter
 second_title: Aspose.Words for .NET API Reference
 description: Represents a container for the header or footer text of a section.
 type: docs
-weight: 2870
+weight: 2920
 url: /net/aspose.words/headerfooter/
 ---
 ## HeaderFooter class

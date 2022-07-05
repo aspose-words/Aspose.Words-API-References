@@ -3,7 +3,7 @@ title: EmphasisMark
 second_title: Aspose.Words for .NET API Reference
 description: Specifies possible types of emphasis mark.
 type: docs
-weight: 1290
+weight: 1310
 url: /net/aspose.words/emphasismark/
 ---
 ## EmphasisMark enumeration

@@ -3,7 +3,7 @@ title: MailMergeRegionInfo
 second_title: Aspose.Words for .NET API Reference
 description: Contains information about a mail merge region.
 type: docs
-weight: 3590
+weight: 3640
 url: /net/aspose.words.mailmerging/mailmergeregioninfo/
 ---
 ## MailMergeRegionInfo class

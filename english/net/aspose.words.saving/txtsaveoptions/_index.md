@@ -3,7 +3,7 @@ title: TxtSaveOptions
 second_title: Aspose.Words for .NET API Reference
 description: Can be used to specify additional options when saving a document into the Text format.
 type: docs
-weight: 5330
+weight: 5380
 url: /net/aspose.words.saving/txtsaveoptions/
 ---
 ## TxtSaveOptions class

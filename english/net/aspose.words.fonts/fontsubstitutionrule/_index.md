@@ -3,7 +3,7 @@ title: FontSubstitutionRule
 second_title: Aspose.Words for .NET API Reference
 description: This is an abstract base class for the font substitution rule.
 type: docs
-weight: 2770
+weight: 2820
 url: /net/aspose.words.fonts/fontsubstitutionrule/
 ---
 ## FontSubstitutionRule class

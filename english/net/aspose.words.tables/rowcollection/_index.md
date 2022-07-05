@@ -3,7 +3,7 @@ title: RowCollection
 second_title: Aspose.Words for .NET API Reference
 description: Provides typed access to a collection of Row./row nodes.
 type: docs
-weight: 5970
+weight: 6020
 url: /net/aspose.words.tables/rowcollection/
 ---
 ## RowCollection class

@@ -3,7 +3,7 @@ title: DocumentSavingArgs
 second_title: Aspose.Words for .NET API Reference
 description: An argument passed into Notify./idocumentsavingcallback/notify.
 type: docs
-weight: 4640
+weight: 4690
 url: /net/aspose.words.saving/documentsavingargs/
 ---
 ## DocumentSavingArgs class

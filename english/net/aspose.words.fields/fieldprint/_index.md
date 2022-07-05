@@ -3,7 +3,7 @@ title: FieldPrint
 second_title: Aspose.Words for .NET API Reference
 description: Implements the PRINT field.
 type: docs
-weight: 2090
+weight: 2130
 url: /net/aspose.words.fields/fieldprint/
 ---
 ## FieldPrint class

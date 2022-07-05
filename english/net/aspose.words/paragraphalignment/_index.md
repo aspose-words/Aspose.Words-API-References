@@ -3,7 +3,7 @@ title: ParagraphAlignment
 second_title: Aspose.Words for .NET API Reference
 description: Specifies text alignment in a paragraph.
 type: docs
-weight: 4110
+weight: 4160
 url: /net/aspose.words/paragraphalignment/
 ---
 ## ParagraphAlignment enumeration

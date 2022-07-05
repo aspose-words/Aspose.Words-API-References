@@ -3,7 +3,7 @@ title: FontPitch
 second_title: Aspose.Words for .NET API Reference
 description: Represents the font pitch.
 type: docs
-weight: 2730
+weight: 2780
 url: /net/aspose.words.fonts/fontpitch/
 ---
 ## FontPitch enumeration

@@ -3,7 +3,7 @@ title: PhysicalFontInfo
 second_title: Aspose.Words for .NET API Reference
 description: Specifies information about physical font available to Aspose.Words font engine.
 type: docs
-weight: 2800
+weight: 2850
 url: /net/aspose.words.fonts/physicalfontinfo/
 ---
 ## PhysicalFontInfo class

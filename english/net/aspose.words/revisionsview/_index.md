@@ -3,7 +3,7 @@ title: RevisionsView
 second_title: Aspose.Words for .NET API Reference
 description: Allows to specify whether to work with the original or revised version of a document.
 type: docs
-weight: 4500
+weight: 4550
 url: /net/aspose.words/revisionsview/
 ---
 ## RevisionsView enumeration

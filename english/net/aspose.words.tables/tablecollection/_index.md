@@ -3,7 +3,7 @@ title: TableCollection
 second_title: Aspose.Words for .NET API Reference
 description: Provides typed access to a collection of Table./table nodes.
 type: docs
-weight: 6010
+weight: 6060
 url: /net/aspose.words.tables/tablecollection/
 ---
 ## TableCollection class

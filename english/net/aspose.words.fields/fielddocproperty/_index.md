@@ -3,7 +3,7 @@ title: FieldDocProperty
 second_title: Aspose.Words for .NET API Reference
 description: Implements the DOCPROPERTY field.
 type: docs
-weight: 1620
+weight: 1660
 url: /net/aspose.words.fields/fielddocproperty/
 ---
 ## FieldDocProperty class

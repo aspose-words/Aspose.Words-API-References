@@ -3,7 +3,7 @@ title: TableSubstitutionRule
 second_title: Aspose.Words for .NET API Reference
 description: Table font substitution rule.
 type: docs
-weight: 2830
+weight: 2880
 url: /net/aspose.words.fonts/tablesubstitutionrule/
 ---
 ## TableSubstitutionRule class

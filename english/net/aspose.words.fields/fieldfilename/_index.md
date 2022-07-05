@@ -3,7 +3,7 @@ title: FieldFileName
 second_title: Aspose.Words for .NET API Reference
 description: Implements the FILENAME field.
 type: docs
-weight: 1680
+weight: 1720
 url: /net/aspose.words.fields/fieldfilename/
 ---
 ## FieldFileName class

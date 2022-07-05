@@ -3,7 +3,7 @@ title: UserPromptRespondent
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the respondent to user prompts during field update.
 type: docs
-weight: 190
+weight: 200
 url: /net/aspose.words.fields/fieldoptions/userpromptrespondent/
 ---
 ## FieldOptions.UserPromptRespondent property

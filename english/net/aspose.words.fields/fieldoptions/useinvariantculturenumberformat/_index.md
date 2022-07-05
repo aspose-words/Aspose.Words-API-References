@@ -3,7 +3,7 @@ title: UseInvariantCultureNumberFormat
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the value indicating that number format is parsed using invariant culture or not
 type: docs
-weight: 180
+weight: 190
 url: /net/aspose.words.fields/fieldoptions/useinvariantculturenumberformat/
 ---
 ## FieldOptions.UseInvariantCultureNumberFormat property

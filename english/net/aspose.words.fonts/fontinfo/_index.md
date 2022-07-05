@@ -3,7 +3,7 @@ title: FontInfo
 second_title: Aspose.Words for .NET API Reference
 description: Specifies information about a font used in the document.
 type: docs
-weight: 2690
+weight: 2740
 url: /net/aspose.words.fonts/fontinfo/
 ---
 ## FontInfo class

@@ -3,7 +3,7 @@ title: FieldType
 second_title: Aspose.Words for .NET API Reference
 description: Specifies Microsoft Word field types.
 type: docs
-weight: 2350
+weight: 2390
 url: /net/aspose.words.fields/fieldtype/
 ---
 ## FieldType enumeration

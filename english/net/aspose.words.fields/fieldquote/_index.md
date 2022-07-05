@@ -3,7 +3,7 @@ title: FieldQuote
 second_title: Aspose.Words for .NET API Reference
 description: Implements the QUOTE field.
 type: docs
-weight: 2120
+weight: 2160
 url: /net/aspose.words.fields/fieldquote/
 ---
 ## FieldQuote class

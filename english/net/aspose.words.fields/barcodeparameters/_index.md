@@ -3,7 +3,7 @@ title: BarcodeParameters
 second_title: Aspose.Words for .NET API Reference
 description: Container class for barcode parameters to pass-through to BarcodeGenerator.
 type: docs
-weight: 1300
+weight: 1320
 url: /net/aspose.words.fields/barcodeparameters/
 ---
 ## BarcodeParameters class

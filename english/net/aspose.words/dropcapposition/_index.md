@@ -3,7 +3,7 @@ title: DropCapPosition
 second_title: Aspose.Words for .NET API Reference
 description: Specifies the position for a drop cap text.
 type: docs
-weight: 1240
+weight: 1260
 url: /net/aspose.words/dropcapposition/
 ---
 ## DropCapPosition enumeration

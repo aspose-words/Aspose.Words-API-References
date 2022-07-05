@@ -3,7 +3,7 @@ title: ReportingEngine
 second_title: Aspose.Words for .NET API Reference
 description: Provides routines to populate template documents with data and a set of settings to control these routines.
 type: docs
-weight: 4420
+weight: 4470
 url: /net/aspose.words.reporting/reportingengine/
 ---
 ## ReportingEngine class

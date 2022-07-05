@@ -3,7 +3,7 @@ title: FieldCreateDate
 second_title: Aspose.Words for .NET API Reference
 description: Implements the CREATEDATE field.
 type: docs
-weight: 1550
+weight: 1570
 url: /net/aspose.words.fields/fieldcreatedate/
 ---
 ## FieldCreateDate class

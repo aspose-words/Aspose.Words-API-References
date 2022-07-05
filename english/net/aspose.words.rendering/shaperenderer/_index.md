@@ -3,7 +3,7 @@ title: ShapeRenderer
 second_title: Aspose.Words for .NET API Reference
 description: Provides methods to render an individual Shape../aspose.words.drawing/shape or GroupShape../aspose.words.drawing/groupshape to a raster or vector image or to a Graphics object.
 type: docs
-weight: 4280
+weight: 4330
 url: /net/aspose.words.rendering/shaperenderer/
 ---
 ## ShapeRenderer class

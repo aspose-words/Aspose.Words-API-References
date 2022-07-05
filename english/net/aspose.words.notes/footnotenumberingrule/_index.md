@@ -3,7 +3,7 @@ title: FootnoteNumberingRule
 second_title: Aspose.Words for .NET API Reference
 description: Determines when automatic footnote or endnote numbering restarts.
 type: docs
-weight: 3980
+weight: 4030
 url: /net/aspose.words.notes/footnotenumberingrule/
 ---
 ## FootnoteNumberingRule enumeration

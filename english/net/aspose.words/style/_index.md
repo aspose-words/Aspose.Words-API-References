@@ -3,7 +3,7 @@ title: Style
 second_title: Aspose.Words for .NET API Reference
 description: Represents a single built-in or user-defined style.
 type: docs
-weight: 5780
+weight: 5830
 url: /net/aspose.words/style/
 ---
 ## Style class

@@ -3,7 +3,7 @@ title: SmartTag
 second_title: Aspose.Words for .NET API Reference
 description: This element specifies the presence of a smart tag around one or more inline structures runs images fieldsetc. within a paragraph.
 type: docs
-weight: 3760
+weight: 3810
 url: /net/aspose.words.markup/smarttag/
 ---
 ## SmartTag class

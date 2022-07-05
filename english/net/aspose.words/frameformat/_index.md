@@ -3,7 +3,7 @@ title: FrameFormat
 second_title: Aspose.Words for .NET API Reference
 description: Represents frame related formatting for a paragraph.
 type: docs
-weight: 2840
+weight: 2890
 url: /net/aspose.words/frameformat/
 ---
 ## FrameFormat class

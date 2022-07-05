@@ -3,7 +3,7 @@ title: IFieldMergingCallback
 second_title: Aspose.Words for .NET API Reference
 description: Implement this interface if you want to control how data is inserted into merge fields during a mail merge operation.
 type: docs
-weight: 3520
+weight: 3570
 url: /net/aspose.words.mailmerging/ifieldmergingcallback/
 ---
 ## IFieldMergingCallback interface
@@ -47,7 +47,6 @@ public void ImageFromBlob()
     }
 
     doc.Save(ArtifactsDir + "MailMergeEvent.ImageFromBlob.docx");
-}
 
 private class HandleMergeImageFieldFromBlob : IFieldMergingCallback
 {
@@ -70,7 +69,6 @@ private class HandleMergeImageFieldFromBlob : IFieldMergingCallback
 Shows how to execute a mail merge with a custom callback that handles merge data in the form of HTML documents.
 
 ```csharp
-public void MergeHtml()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
