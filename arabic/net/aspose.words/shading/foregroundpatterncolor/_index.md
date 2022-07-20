@@ -1,14 +1,14 @@
 ---
 title: ForegroundPatternColor
 second_title: Aspose.Words لمراجع .NET API
-description: الحصول على أو تعيين اللون المطبق على مقدمة كائن التظليل ._ x000d_
+description: الحصول على أو تعيين اللون المطبق على مقدمة كائن التظليل .
 type: docs
 weight: 20
 url: /ar/net/aspose.words/shading/foregroundpatterncolor/
 ---
 ## Shading.ForegroundPatternColor property
 
-الحصول على أو تعيين اللون المطبق على مقدمة كائن التظليل ._ x000d_
+الحصول على أو تعيين اللون المطبق على مقدمة كائن التظليل .
 
 ```csharp
 public Color ForegroundPatternColor { get; set; }

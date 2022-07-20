@@ -16,7 +16,7 @@ public int LabelValue { get; }
 
 ### ملاحظات
 
-استخدم ملف[`UpdateListLabels`](../../../aspose.words/document/updatelistlabels) طريقة لتحديث قيمة هذه الخاصية ._ x000d_
+استخدم ملف[`UpdateListLabels`](../../../aspose.words/document/updatelistlabels) طريقة لتحديث قيمة هذه الخاصية .
 
 ### أمثلة
 

@@ -1,14 +1,14 @@
 ---
 title: Transparency
 second_title: Aspose.Words لمراجع .NET API
-description: الحصول على أو تعيين قيمة بين 0.0 معتم و 1.0 واضح تمثل درجة الشفافية_ x000d_ للحد .
+description: الحصول على أو تعيين قيمة بين 0.0 معتم و 1.0 واضح تمثل درجة الشفافية للحد .
 type: docs
 weight: 180
 url: /ar/net/aspose.words.drawing/stroke/transparency/
 ---
 ## Stroke.Transparency property
 
-الحصول على أو تعيين قيمة بين 0.0 (معتم) و 1.0 (واضح) تمثل درجة الشفافية_ x000d_ للحد .
+الحصول على أو تعيين قيمة بين 0.0 (معتم) و 1.0 (واضح) تمثل درجة الشفافية للحد .
 
 ```csharp
 public double Transparency { get; set; }

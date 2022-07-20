@@ -1,14 +1,14 @@
 ---
 title: ForceCopyStyles
 second_title: Aspose.Words لمراجع .NET API
-description: الحصول على أو تعيين قيمة منطقية تشير إما إلى نسخ الأنماط المتعارضة_ x000d_ فيKeepSourceFormatting mode. القيمة الافتراضية هيخاطئة .
+description: الحصول على أو تعيين قيمة منطقية تشير إما إلى نسخ الأنماط المتعارضة_ فيKeepSourceFormatting mode. القيمة الافتراضية هيخاطئة .
 type: docs
 weight: 20
 url: /ar/net/aspose.words/importformatoptions/forcecopystyles/
 ---
 ## ImportFormatOptions.ForceCopyStyles property
 
-الحصول على أو تعيين قيمة منطقية تشير إما إلى نسخ الأنماط المتعارضة_ x000d_ فيKeepSourceFormatting mode. القيمة الافتراضية هي`خاطئة` .
+الحصول على أو تعيين قيمة منطقية تشير إما إلى نسخ الأنماط المتعارضة_ فيKeepSourceFormatting mode. القيمة الافتراضية هي`خاطئة` .
 
 ```csharp
 public bool ForceCopyStyles { get; set; }

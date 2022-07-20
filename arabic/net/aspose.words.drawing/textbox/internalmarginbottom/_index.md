@@ -1,14 +1,14 @@
 ---
 title: InternalMarginBottom
 second_title: Aspose.Words لمراجع .NET API
-description: يحدد الهامش السفلي الداخلي بالنقاط للشكل ._ x000d_
+description: يحدد الهامش السفلي الداخلي بالنقاط للشكل .
 type: docs
 weight: 20
 url: /ar/net/aspose.words.drawing/textbox/internalmarginbottom/
 ---
 ## TextBox.InternalMarginBottom property
 
-يحدد الهامش السفلي الداخلي بالنقاط للشكل ._ x000d_
+يحدد الهامش السفلي الداخلي بالنقاط للشكل .
 
 ```csharp
 public double InternalMarginBottom { get; set; }

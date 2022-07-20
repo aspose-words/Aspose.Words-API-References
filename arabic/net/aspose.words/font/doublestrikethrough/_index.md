@@ -1,14 +1,14 @@
 ---
 title: DoubleStrikeThrough
 second_title: Aspose.Words لمراجع .NET API
-description: True إذا تم تنسيق الخط كنص يتوسطه خط مزدوج ._ x000d_
+description: True إذا تم تنسيق الخط كنص يتوسطه خط مزدوج .
 type: docs
 weight: 90
 url: /ar/net/aspose.words/font/doublestrikethrough/
 ---
 ## Font.DoubleStrikeThrough property
 
-True إذا تم تنسيق الخط كنص يتوسطه خط مزدوج ._ x000d_
+True إذا تم تنسيق الخط كنص يتوسطه خط مزدوج .
 
 ```csharp
 public bool DoubleStrikeThrough { get; set; }

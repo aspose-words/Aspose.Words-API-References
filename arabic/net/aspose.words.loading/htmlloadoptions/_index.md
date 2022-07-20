@@ -1,14 +1,14 @@
 ---
 title: HtmlLoadOptions
 second_title: Aspose.Words لمراجع .NET API
-description: يسمح بتحديد خيارات إضافية عند تحميل مستند HTML في ملفDocument../aspose.words/document الكائن ._ x000d_
+description: يسمح بتحديد خيارات إضافية عند تحميل مستند HTML في ملفDocument../aspose.words/document الكائن .
 type: docs
 weight: 3420
 url: /ar/net/aspose.words.loading/htmlloadoptions/
 ---
 ## HtmlLoadOptions class
 
-يسمح بتحديد خيارات إضافية عند تحميل مستند HTML في ملف[`Document`](../../aspose.words/document) الكائن ._ x000d_
+يسمح بتحديد خيارات إضافية عند تحميل مستند HTML في ملف[`Document`](../../aspose.words/document) الكائن .
 
 ```csharp
 public class HtmlLoadOptions : LoadOptions
@@ -28,7 +28,7 @@ public class HtmlLoadOptions : LoadOptions
 | --- | --- |
 | [BaseUri](../../aspose.words.loading/loadoptions/baseuri) { get; set; } | الحصول على أو تعيين السلسلة التي سيتم استخدامها لحل URIs النسبية الموجودة في المستند إلى URIs المطلقة عند الحاجة . يمكن أن تكون سلسلة فارغة أو فارغة. الافتراضي هو فارغ. |
 | [BlockImportMode](../../aspose.words.loading/htmlloadoptions/blockimportmode) { get; set; } | الحصول على أو تعيين قيمة تحدد كيفية استيراد خصائص عناصر مستوى الكتلة. القيمة الافتراضية هيMerge . |
-| [ConvertMetafilesToPng](../../aspose.words.loading/loadoptions/convertmetafilestopng) { get; set; } | الحصول على أو تعيين ما إذا كان سيتم تحويل ملف تعريف (Wmf أوEmf ) صور لPng تنسيق الصورة ._ x000d_ |
+| [ConvertMetafilesToPng](../../aspose.words.loading/loadoptions/convertmetafilestopng) { get; set; } | الحصول على أو تعيين ما إذا كان سيتم تحويل ملف تعريف (Wmf أوEmf ) صور لPng تنسيق الصورة . |
 | [ConvertShapeToOfficeMath](../../aspose.words.loading/loadoptions/convertshapetoofficemath) { get; set; } | الحصول على أو تعيين ما إذا كان سيتم تحويل الأشكال باستخدام EquationXML إلى كائنات Office Math. |
 | [ConvertSvgToEmf](../../aspose.words.loading/htmlloadoptions/convertsvgtoemf) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كان سيتم تحويل صور SVG المحملة إلى تنسيق EMF. القيمة الافتراضية هي`خاطئة` وإذا أمكن ، يتم تخزين صور SVG المحملة كما هي بدون تحويل. |
 | [Encoding](../../aspose.words.loading/loadoptions/encoding) { get; set; } | الحصول على أو تعيين الترميز الذي سيتم استخدامه لتحميل مستند HTML أو TXT أو CHM إذا لم يتم تحديد الترميز داخل المستند. يمكن أن يكون فارغًا. الافتراضي هو فارغ. |
@@ -45,9 +45,9 @@ public class HtmlLoadOptions : LoadOptions
 | [ResourceLoadingCallback](../../aspose.words.loading/loadoptions/resourceloadingcallback) { get; set; } | يسمح بالتحكم في كيفية تحميل الموارد الخارجية (الصور ، أوراق الأنماط) عند استيراد مستند من HTML ، MHTML. |
 | [SupportVml](../../aspose.words.loading/htmlloadoptions/supportvml) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كان سيتم دعم صور VML. |
 | [TempFolder](../../aspose.words.loading/loadoptions/tempfolder) { get; set; } | يسمح باستخدام الملفات المؤقتة عند قراءة المستند. افتراضيًا ، هذه الخاصية هي`لا شيء` ولا يتم استخدام أي ملفات مؤقتة. |
-| [UpdateDirtyFields](../../aspose.words.loading/loadoptions/updatedirtyfields) { get; set; } | يحدد ما إذا كان سيتم تحديث الحقول بامتداد`متسخ` السمة ._ x000d_ |
+| [UpdateDirtyFields](../../aspose.words.loading/loadoptions/updatedirtyfields) { get; set; } | يحدد ما إذا كان سيتم تحديث الحقول بامتداد`متسخ` السمة . |
 | [WarningCallback](../../aspose.words.loading/loadoptions/warningcallback) { get; set; } | تم الاستدعاء أثناء عملية التحميل ، عند اكتشاف مشكلة قد تؤدي إلى فقدان دقة البيانات أو التنسيق. |
-| [WebRequestTimeout](../../aspose.words.loading/htmlloadoptions/webrequesttimeout) { get; set; } | عدد المللي ثانية المطلوب انتظاره قبل انتهاء مهلة طلب الويب. القيمة الافتراضية هي 100000 مللي ثانية_ x000d_ (100 ثانية) ._ x000d_ |
+| [WebRequestTimeout](../../aspose.words.loading/htmlloadoptions/webrequesttimeout) { get; set; } | عدد المللي ثانية المطلوب انتظاره قبل انتهاء مهلة طلب الويب. القيمة الافتراضية هي 100000 مللي ثانية (100 ثانية) . |
 
 ### أنظر أيضا
 

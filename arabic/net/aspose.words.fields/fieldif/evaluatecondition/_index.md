@@ -1,14 +1,14 @@
 ---
 title: EvaluateCondition
 second_title: Aspose.Words لمراجع .NET API
-description: يقيم الحالة. _ x000d_
+description: يقيم الحالة.
 type: docs
 weight: 70
 url: /ar/net/aspose.words.fields/fieldif/evaluatecondition/
 ---
 ## FieldIf.EvaluateCondition method
 
-يقيم الحالة. _ x000d_
+يقيم الحالة.
 
 ```csharp
 public FieldIfComparisonResult EvaluateCondition()

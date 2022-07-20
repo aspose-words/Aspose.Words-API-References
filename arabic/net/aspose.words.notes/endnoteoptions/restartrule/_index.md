@@ -16,7 +16,7 @@ public FootnoteNumberingRule RestartRule { get; set; }
 
 ### ملاحظات
 
-ليست كل القيم قابلة للتطبيق على التعليقات الختامية ._ x000d_ للتأكد من القيم القابلة للتطبيق ، انظر[`FootnoteNumberingRule`](../../footnotenumberingrule).
+ليست كل القيم قابلة للتطبيق على التعليقات الختامية . للتأكد من القيم القابلة للتطبيق ، انظر[`FootnoteNumberingRule`](../../footnotenumberingrule).
 
 ### أمثلة
 

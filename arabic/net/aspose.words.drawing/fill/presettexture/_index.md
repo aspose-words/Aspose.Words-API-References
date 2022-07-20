@@ -1,14 +1,14 @@
 ---
 title: PresetTexture
 second_title: Aspose.Words لمراجع .NET API
-description: يحصل على أPresetTextureaspose.words.drawing/presettexture للتعبئة ._ x000d_
+description: يحصل على أPresetTextureaspose.words.drawing/presettexture للتعبئة .
 type: docs
 weight: 110
 url: /ar/net/aspose.words.drawing/fill/presettexture/
 ---
 ## Fill.PresetTexture property
 
-يحصل على أ[`PresetTexture`](../../presettexture) للتعبئة ._ x000d_
+يحصل على أ[`PresetTexture`](../../presettexture) للتعبئة .
 
 ```csharp
 public PresetTexture PresetTexture { get; }

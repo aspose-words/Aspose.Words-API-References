@@ -1,14 +1,14 @@
 ---
 title: AllCaps
 second_title: Aspose.Words لمراجع .NET API
-description: True إذا تم تنسيق الخط على هيئة أحرف كبيرة ._ x000d_
+description: True إذا تم تنسيق الخط على هيئة أحرف كبيرة .
 type: docs
 weight: 10
 url: /ar/net/aspose.words/font/allcaps/
 ---
 ## Font.AllCaps property
 
-True إذا تم تنسيق الخط على هيئة أحرف كبيرة ._ x000d_
+True إذا تم تنسيق الخط على هيئة أحرف كبيرة .
 
 ```csharp
 public bool AllCaps { get; set; }

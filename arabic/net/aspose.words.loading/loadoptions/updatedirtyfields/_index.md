@@ -1,14 +1,14 @@
 ---
 title: UpdateDirtyFields
 second_title: Aspose.Words لمراجع .NET API
-description: يحدد ما إذا كان سيتم تحديث الحقول بامتدادمتسخ السمة ._ x000d_
+description: يحدد ما إذا كان سيتم تحديث الحقول بامتدادمتسخ السمة .
 type: docs
 weight: 160
 url: /ar/net/aspose.words.loading/loadoptions/updatedirtyfields/
 ---
 ## LoadOptions.UpdateDirtyFields property
 
-يحدد ما إذا كان سيتم تحديث الحقول بامتداد`متسخ` السمة ._ x000d_
+يحدد ما إذا كان سيتم تحديث الحقول بامتداد`متسخ` السمة .
 
 ```csharp
 public bool UpdateDirtyFields { get; set; }

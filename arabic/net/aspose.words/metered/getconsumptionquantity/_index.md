@@ -1,14 +1,14 @@
 ---
 title: GetConsumptionQuantity
 second_title: Aspose.Words لمراجع .NET API
-description: يحصل على حجم ملف الاستهلاك_ x000d_
+description: يحصل على حجم ملف الاستهلاك
 type: docs
 weight: 40
 url: /ar/net/aspose.words/metered/getconsumptionquantity/
 ---
 ## Metered.GetConsumptionQuantity method
 
-يحصل على حجم ملف الاستهلاك_ x000d_
+يحصل على حجم ملف الاستهلاك
 
 ```csharp
 public static decimal GetConsumptionQuantity()

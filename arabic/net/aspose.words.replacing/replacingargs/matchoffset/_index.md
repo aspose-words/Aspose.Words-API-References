@@ -1,14 +1,14 @@
 ---
 title: MatchOffset
 second_title: Aspose.Words لمراجع .NET API
-description: يحصل على موضع البداية الصفري للمباراة من بداية العقدة التي تحتوي على بداية المباراة ._ x000d_
+description: يحصل على موضع البداية الصفري للمباراة من بداية العقدة التي تحتوي على بداية المباراة .
 type: docs
 weight: 50
 url: /ar/net/aspose.words.replacing/replacingargs/matchoffset/
 ---
 ## ReplacingArgs.MatchOffset property
 
-يحصل على موضع البداية الصفري للمباراة من بداية العقدة التي تحتوي على بداية المباراة ._ x000d_
+يحصل على موضع البداية الصفري للمباراة من بداية العقدة التي تحتوي على بداية المباراة .
 
 ```csharp
 public int MatchOffset { get; }

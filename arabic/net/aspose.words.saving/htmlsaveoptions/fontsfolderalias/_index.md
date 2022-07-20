@@ -18,7 +18,7 @@ public string FontsFolderAlias { get; set; }
 
 عندما تقوم بحفظ ملف[`Document`](../../../aspose.words/document) بتنسيق HTML و[`ExportFontResources`](../exportfontresources) تم ضبط على`حقيقي` يحتاج Aspose.Words إلى حفظ الخطوط المستخدمة في المستند كملفات مستقلة. [`FontsFolder`](../fontsfolder) يسمح لك بتحديد مكان حفظ الخطوط و `FontsFolderAlias` يسمح بتحديد كيفية إنشاء عناوين URI للخط.
 
-إذا`FontsFolderAlias` ليست سلسلة فارغة ، ثم الخط URI المكتوب_ x000d_ إلى HTML سيكونFontsFolderAlias + &lt;اسم ملف الخط&gt;.
+إذا`FontsFolderAlias` ليست سلسلة فارغة ، ثم الخط URI المكتوب_ إلى HTML سيكونFontsFolderAlias + &lt;اسم ملف الخط&gt;.
 
 إذا`FontsFolderAlias` عبارة عن سلسلة فارغة ، فسيكون الخط مكتوبًا إلى HTMLFontsFolder + &lt;اسم ملف الخط&gt;.
 

@@ -22,16 +22,16 @@ public class Fill
 | [FillType](../../aspose.words.drawing/fill/filltype) { get; } | يحصل على نوع التعبئة . |
 | [ForeColor](../../aspose.words.drawing/fill/forecolor) { get; set; } | الحصول على أو تعيين كائن اللون الذي يمثل اللون الأمامي للتعبئة. |
 | [GradientAngle](../../aspose.words.drawing/fill/gradientangle) { get; set; } | الحصول على أو تحديد زاوية التعبئة المتدرجة. |
-| [GradientStops](../../aspose.words.drawing/fill/gradientstops) { get; } | يحصل على مجموعة من[`GradientStop`](../gradientstop) كائنات للتعبئة ._ x000d_ |
-| [GradientStyle](../../aspose.words.drawing/fill/gradientstyle) { get; } | يحصل على نمط التدرج[`GradientStyle`](../gradientstyle) للتعبئة ._ x000d_ |
-| [GradientVariant](../../aspose.words.drawing/fill/gradientvariant) { get; } | يحصل على متغير التدرج[`GradientVariant`](../gradientvariant) للتعبئة ._ x000d_ |
-| [ImageBytes](../../aspose.words.drawing/fill/imagebytes) { get; } | الحصول على وحدات البايت الأولية من نسيج أو نموذج التعبئة ._ x000d_ |
-| [Opacity](../../aspose.words.drawing/fill/opacity) { get; set; } | الحصول على درجة تعتيم التعبئة المحددة أو تعيينها كقيمة بين 0.0 (واضح) و 1.0 (معتم) ._ x000d_ |
-| [Pattern](../../aspose.words.drawing/fill/pattern) { get; } | يحصل على أ[`PatternType`](../patterntype) للتعبئة ._ x000d_ |
-| [PresetTexture](../../aspose.words.drawing/fill/presettexture) { get; } | يحصل على أ[`PresetTexture`](../presettexture) للتعبئة ._ x000d_ |
+| [GradientStops](../../aspose.words.drawing/fill/gradientstops) { get; } | يحصل على مجموعة من[`GradientStop`](../gradientstop) كائنات للتعبئة . |
+| [GradientStyle](../../aspose.words.drawing/fill/gradientstyle) { get; } | يحصل على نمط التدرج[`GradientStyle`](../gradientstyle) للتعبئة . |
+| [GradientVariant](../../aspose.words.drawing/fill/gradientvariant) { get; } | يحصل على متغير التدرج[`GradientVariant`](../gradientvariant) للتعبئة . |
+| [ImageBytes](../../aspose.words.drawing/fill/imagebytes) { get; } | الحصول على وحدات البايت الأولية من نسيج أو نموذج التعبئة . |
+| [Opacity](../../aspose.words.drawing/fill/opacity) { get; set; } | الحصول على درجة تعتيم التعبئة المحددة أو تعيينها كقيمة بين 0.0 (واضح) و 1.0 (معتم) . |
+| [Pattern](../../aspose.words.drawing/fill/pattern) { get; } | يحصل على أ[`PatternType`](../patterntype) للتعبئة . |
+| [PresetTexture](../../aspose.words.drawing/fill/presettexture) { get; } | يحصل على أ[`PresetTexture`](../presettexture) للتعبئة . |
 | [RotateWithObject](../../aspose.words.drawing/fill/rotatewithobject) { get; set; } | الحصول على أو تحديد ما إذا كانت التعبئة تدور مع الكائن المحدد. |
 | [TextureAlignment](../../aspose.words.drawing/fill/texturealignment) { get; set; } | الحصول على أو تعيين المحاذاة لتعبئة نسيج التجانب. |
-| [Transparency](../../aspose.words.drawing/fill/transparency) { get; set; } | الحصول على درجة شفافية التعبئة المحددة أو تعيينها كقيمة بين 0.0 (معتم) و 1.0 (مسح) ._ x000d_ |
+| [Transparency](../../aspose.words.drawing/fill/transparency) { get; set; } | الحصول على درجة شفافية التعبئة المحددة أو تعيينها كقيمة بين 0.0 (معتم) و 1.0 (مسح) . |
 | [Visible](../../aspose.words.drawing/fill/visible) { get; set; } | الحصول على القيمة أو تعيينها`حقيقي` إذا كان التنسيق المطبق على هذا المثال ، يكون مرئيًا. |
 
 ## طُرق

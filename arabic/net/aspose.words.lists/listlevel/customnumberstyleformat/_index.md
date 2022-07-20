@@ -1,14 +1,14 @@
 ---
 title: CustomNumberStyleFormat
 second_title: Aspose.Words لمراجع .NET API
-description: الحصول على تنسيق نمط الرقم المخصص لمستوى القائمة هذا. على سبيل المثال a ç ĝ ... ._ x000d_
+description: الحصول على تنسيق نمط الرقم المخصص لمستوى القائمة هذا. على سبيل المثال a ç ĝ ... .
 type: docs
 weight: 20
 url: /ar/net/aspose.words.lists/listlevel/customnumberstyleformat/
 ---
 ## ListLevel.CustomNumberStyleFormat property
 
-الحصول على تنسيق نمط الرقم المخصص لمستوى القائمة هذا. على سبيل المثال: "a، ç، ĝ، ..." ._ x000d_
+الحصول على تنسيق نمط الرقم المخصص لمستوى القائمة هذا. على سبيل المثال: "a، ç، ĝ، ..." .
 
 ```csharp
 public string CustomNumberStyleFormat { get; }

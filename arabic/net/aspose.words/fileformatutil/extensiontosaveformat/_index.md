@@ -1,14 +1,14 @@
 ---
 title: ExtensionToSaveFormat
 second_title: Aspose.Words لمراجع .NET API
-description: يحول امتداد اسم الملف إلى ملفSaveFormataspose.words/saveformat القيمة ._ x000d_
+description: يحول امتداد اسم الملف إلى ملفSaveFormataspose.words/saveformat القيمة .
 type: docs
 weight: 40
 url: /ar/net/aspose.words/fileformatutil/extensiontosaveformat/
 ---
 ## FileFormatUtil.ExtensionToSaveFormat method
 
-يحول امتداد اسم الملف إلى ملف[`SaveFormat`](../../saveformat) القيمة ._ x000d_
+يحول امتداد اسم الملف إلى ملف[`SaveFormat`](../../saveformat) القيمة .
 
 ```csharp
 public static SaveFormat ExtensionToSaveFormat(string extension)

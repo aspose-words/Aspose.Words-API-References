@@ -1,14 +1,14 @@
 ---
 title: WebExtensionReferenceCollection
 second_title: Aspose.Words لمراجع .NET API
-description: يحدد قائمة مراجع امتداد الويب ._ x000d_
+description: يحدد قائمة مراجع امتداد الويب .
 type: docs
 weight: 6500
 url: /ar/net/aspose.words.webextensions/webextensionreferencecollection/
 ---
 ## WebExtensionReferenceCollection class
 
-يحدد قائمة مراجع امتداد الويب ._ x000d_
+يحدد قائمة مراجع امتداد الويب .
 
 ```csharp
 public class WebExtensionReferenceCollection : BaseWebExtensionCollection<WebExtensionReference>

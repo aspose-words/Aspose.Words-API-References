@@ -27,9 +27,9 @@ public interface IStructuredDocumentTag
 | [Placeholder](../../aspose.words.markup/istructureddocumenttag/placeholder) { get; } | يحصل على ملف[`BuildingBlock`](../../aspose.words.buildingblocks/buildingblock) يحتوي على نص عنصر نائب يجب عرضه عندما تكون محتويات تشغيل SDT فارغة ، يكون عنصر XML المعين المرتبط فارغًا كما هو محدد عبر[`XmlMapping`](./xmlmapping) element أو ملف[`IsShowingPlaceholderText`](./isshowingplaceholdertext) العنصر صحيح. |
 | [PlaceholderName](../../aspose.words.markup/istructureddocumenttag/placeholdername) { get; set; } | يحصل أو يحدد اسم[`BuildingBlock`](../../aspose.words.buildingblocks/buildingblock) تحتوي على نص عنصر نائب. |
 | [SdtType](../../aspose.words.markup/istructureddocumenttag/sdttype) { get; } | يحصل على نوع من هذا **علامة وثيقة منظم** . |
-| [Tag](../../aspose.words.markup/istructureddocumenttag/tag) { get; set; } | يحدد علامة مرتبطة بعقدة SDT الحالية. لا يمكن أن يكون فارغًا ._ x000d_ |
-| [Title](../../aspose.words.markup/istructureddocumenttag/title) { get; set; } | تحديد الاسم المألوف المرتبط بهذا **المعاملة الخاصة والتفضيلية** . لا يمكن أن يكون فارغًا ._ x000d_ |
-| [WordOpenXML](../../aspose.words.markup/istructureddocumenttag/wordopenxml) { get; } | يحصل على سلسلة تمثل XML الموجود داخل العقدة في ملفFlatOpc التنسيق ._ x000d_ |
+| [Tag](../../aspose.words.markup/istructureddocumenttag/tag) { get; set; } | يحدد علامة مرتبطة بعقدة SDT الحالية. لا يمكن أن يكون فارغًا . |
+| [Title](../../aspose.words.markup/istructureddocumenttag/title) { get; set; } | تحديد الاسم المألوف المرتبط بهذا **المعاملة الخاصة والتفضيلية** . لا يمكن أن يكون فارغًا . |
+| [WordOpenXML](../../aspose.words.markup/istructureddocumenttag/wordopenxml) { get; } | يحصل على سلسلة تمثل XML الموجود داخل العقدة في ملفFlatOpc التنسيق . |
 | [XmlMapping](../../aspose.words.markup/istructureddocumenttag/xmlmapping) { get; } | الحصول على كائن يمثل تعيين علامة المستند المهيكلة هذه إلى بيانات XML في جزء XML مخصص من المستند الحالي. |
 
 ## طُرق

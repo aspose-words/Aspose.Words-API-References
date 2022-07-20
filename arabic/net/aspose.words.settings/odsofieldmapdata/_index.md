@@ -25,7 +25,7 @@ public class OdsoFieldMapData
 | اسم | وصف |
 | --- | --- |
 | [Column](../../aspose.words.settings/odsofieldmapdata/column) { get; set; } | يحدد الفهرس الصفري للعمود داخل مصدر بيانات خارجي والذي يجب تعيينه إلى الاسم المحلي لحقل MERGEFIELD محدد. القيمة الافتراضية هي 0. |
-| [MappedName](../../aspose.words.settings/odsofieldmapdata/mappedname) { get; set; } | يحدد اسم حقل الدمج المحدد مسبقًا والذي يجب تعيينه إلى رقم العمود المحدد بواسطة[`Column`](./column) الخاصية داخل تعيين الحقل هذا ._ x000d_ القيمة الافتراضية هي سلسلة فارغة. |
+| [MappedName](../../aspose.words.settings/odsofieldmapdata/mappedname) { get; set; } | يحدد اسم حقل الدمج المحدد مسبقًا والذي يجب تعيينه إلى رقم العمود المحدد بواسطة[`Column`](./column) الخاصية داخل تعيين الحقل هذا . القيمة الافتراضية هي سلسلة فارغة. |
 | [Name](../../aspose.words.settings/odsofieldmapdata/name) { get; set; } | يحدد اسم العمود داخل مصدر بيانات خارجي للعمود الذي تم تحديد فهرسه بواسطة[`Column`](./column) property. القيمة الافتراضية هي سلسلة فارغة. |
 | [Type](../../aspose.words.settings/odsofieldmapdata/type) { get; set; } | تحديد ما إذا كان قد تم تعيين حقل دمج المراسلات لعمود في مصدر البيانات الخارجية المحدد أم لا. القيمة الافتراضية هيDefault . |
 

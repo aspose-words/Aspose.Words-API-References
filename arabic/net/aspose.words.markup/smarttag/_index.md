@@ -1,14 +1,14 @@
 ---
 title: SmartTag
 second_title: Aspose.Words لمراجع .NET API
-description: يحدد هذا العنصر وجود علامة ذكية حول واحد أو أكثر من الهياكل المضمنة_ x000d_ عمليات التشغيل  الصور  الحقول  إلخ داخل فقرة.
+description: يحدد هذا العنصر وجود علامة ذكية حول واحد أو أكثر من الهياكل المضمنة عمليات التشغيل  الصور  الحقول  إلخ داخل فقرة.
 type: docs
 weight: 3810
 url: /ar/net/aspose.words.markup/smarttag/
 ---
 ## SmartTag class
 
-يحدد هذا العنصر وجود علامة ذكية حول واحد أو أكثر من الهياكل المضمنة_ x000d_ (عمليات التشغيل ، الصور ، الحقول ، إلخ) داخل فقرة.
+يحدد هذا العنصر وجود علامة ذكية حول واحد أو أكثر من الهياكل المضمنة (عمليات التشغيل ، الصور ، الحقول ، إلخ) داخل فقرة.
 
 ```csharp
 public class SmartTag : CompositeNode
@@ -18,7 +18,7 @@ public class SmartTag : CompositeNode
 
 | اسم | وصف |
 | --- | --- |
-| [SmartTag](smarttag)(DocumentBase) | يقوم بتهيئة مثيل جديد لملف[`SmartTag`](../smarttag) فئة ._ x000d_ |
+| [SmartTag](smarttag)(DocumentBase) | يقوم بتهيئة مثيل جديد لملف[`SmartTag`](../smarttag) فئة . |
 
 ## الخصائص
 
@@ -26,7 +26,7 @@ public class SmartTag : CompositeNode
 | --- | --- |
 | [ChildNodes](../../aspose.words/compositenode/childnodes) { get; } | يحصل على جميع العقد الفرعية الفورية لهذه العقدة. |
 | [Count](../../aspose.words/compositenode/count) { get; } | الحصول على عدد الأطفال المباشرين لهذه العقدة. |
-| [CustomNodeId](../../aspose.words/node/customnodeid) { get; set; } | يحدد معرف العقدة المخصص ._ x000d_ |
+| [CustomNodeId](../../aspose.words/node/customnodeid) { get; set; } | يحدد معرف العقدة المخصص . |
 | virtual [Document](../../aspose.words/node/document) { get; } | الحصول على المستند الذي تنتمي إليه هذه العقدة . |
 | [Element](../../aspose.words.markup/smarttag/element) { get; set; } | يحدد اسم العلامة الذكية داخل المستند. |
 | [FirstChild](../../aspose.words/compositenode/firstchild) { get; } | الحصول على الطفل الأول للعقدة . |
@@ -37,7 +37,7 @@ public class SmartTag : CompositeNode
 | override [NodeType](../../aspose.words.markup/smarttag/nodetype) { get; } | عوائد **NodeType.SmartTag** . |
 | [ParentNode](../../aspose.words/node/parentnode) { get; } | الحصول على الأصل المباشر لهذه العقدة. |
 | [PreviousSibling](../../aspose.words/node/previoussibling) { get; } | يحصل على العقدة التي تسبق هذه العقدة مباشرة. |
-| [Properties](../../aspose.words.markup/smarttag/properties) { get; } | مجموعة من خصائص العلامات الذكية ._ x000d_ |
+| [Properties](../../aspose.words.markup/smarttag/properties) { get; } | مجموعة من خصائص العلامات الذكية . |
 | [Range](../../aspose.words/node/range) { get; } | إرجاع أ **نطاق** الكائن الذي يمثل جزء المستند الموجود في هذه العقدة. |
 | [Uri](../../aspose.words.markup/smarttag/uri) { get; set; } | يحدد مساحة الاسم URI للعلامة الذكية. |
 
@@ -53,7 +53,7 @@ public class SmartTag : CompositeNode
 | [GetAncestor](../../aspose.words/node/getancestor)(Type) | الحصول على الأصل الأول لنوع الكائن المحدد. |
 | [GetChild](../../aspose.words/compositenode/getchild)(NodeType, int, bool) | إرجاع العقدة الفرعية رقم N التي تطابق النوع المحدد. |
 | [GetChildNodes](../../aspose.words/compositenode/getchildnodes)(NodeType, bool) | إرجاع مجموعة مباشرة من العقد الفرعية التي تطابق النوع المحدد. |
-| [GetEnumerator](../../aspose.words/compositenode/getenumerator)() | يوفر دعمًا لكل تكرار نمط على العقد التابعة لهذه العقدة ._ x000d_ |
+| [GetEnumerator](../../aspose.words/compositenode/getenumerator)() | يوفر دعمًا لكل تكرار نمط على العقد التابعة لهذه العقدة . |
 | override [GetText](../../aspose.words/compositenode/gettext)() | يحصل على نص هذه العقدة وجميع توابعها. |
 | [IndexOf](../../aspose.words/compositenode/indexof)(Node) | إرجاع فهرس العقدة الفرعية المحددة في مصفوفة العقدة الفرعية. |
 | [InsertAfter](../../aspose.words/compositenode/insertafter)(Node, Node) | يدخل العقدة المحددة مباشرة بعد العقدة المرجعية المحددة. |

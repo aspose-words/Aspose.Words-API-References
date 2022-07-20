@@ -1,14 +1,14 @@
 ---
 title: RenderToSize
 second_title: Aspose.Words لمراجع .NET API
-description: يجعل الشكل في ملفGraphics كائن لحجم محدد ._ x000d_
+description: يجعل الشكل في ملفGraphics كائن لحجم محدد .
 type: docs
 weight: 80
 url: /ar/net/aspose.words.rendering/noderendererbase/rendertosize/
 ---
 ## NodeRendererBase.RenderToSize method
 
-يجعل الشكل في ملفGraphics كائن لحجم محدد ._ x000d_
+يجعل الشكل في ملفGraphics كائن لحجم محدد .
 
 ```csharp
 public float RenderToSize(Graphics graphics, float x, float y, float width, float height)

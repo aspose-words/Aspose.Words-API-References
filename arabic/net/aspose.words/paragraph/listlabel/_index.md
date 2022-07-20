@@ -1,14 +1,14 @@
 ---
 title: ListLabel
 second_title: Aspose.Words لمراجع .NET API
-description: يحصل على أListLabelaspose.words/paragraph/listlabel الذي يوفر الوصول إلى قائمة قيم الترقيم والتنسيق_ x000d_ لهذه الفقرة.
+description: يحصل على أListLabelaspose.words/paragraph/listlabel الذي يوفر الوصول إلى قائمة قيم الترقيم والتنسيق_ لهذه الفقرة.
 type: docs
 weight: 160
 url: /ar/net/aspose.words/paragraph/listlabel/
 ---
 ## Paragraph.ListLabel property
 
-يحصل على أ`ListLabel` الذي يوفر الوصول إلى قائمة قيم الترقيم والتنسيق_ x000d_ لهذه الفقرة.
+يحصل على أ`ListLabel` الذي يوفر الوصول إلى قائمة قيم الترقيم والتنسيق_ لهذه الفقرة.
 
 ```csharp
 public ListLabel ListLabel { get; }

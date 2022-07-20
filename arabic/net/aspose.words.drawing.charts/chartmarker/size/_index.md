@@ -1,14 +1,14 @@
 ---
 title: Size
 second_title: Aspose.Words لمراجع .NET API
-description: الحصول على أو تعيين حجم علامة المخطط ._ x000d_ القيمة الافتراضية هي 7.
+description: الحصول على أو تعيين حجم علامة المخطط . القيمة الافتراضية هي 7.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.drawing.charts/chartmarker/size/
 ---
 ## ChartMarker.Size property
 
-الحصول على أو تعيين حجم علامة المخطط ._ x000d_ القيمة الافتراضية هي 7.
+الحصول على أو تعيين حجم علامة المخطط . القيمة الافتراضية هي 7.
 
 ```csharp
 public int Size { get; set; }

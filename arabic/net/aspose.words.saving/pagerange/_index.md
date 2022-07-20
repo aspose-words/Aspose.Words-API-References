@@ -18,7 +18,7 @@ public sealed class PageRange
 
 | اسم | وصف |
 | --- | --- |
-| [PageRange](pagerange)(int, int) | إنشاء كائن نطاق صفحات جديد ._ x000d_ |
+| [PageRange](pagerange)(int, int) | إنشاء كائن نطاق صفحات جديد . |
 
 ### أنظر أيضا
 

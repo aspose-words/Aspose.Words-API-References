@@ -16,11 +16,11 @@ public string ResourceFolder { get; set; }
 
 ### ملاحظات
 
-`ResourceFolder` هي أبسط طريقة لتحديد مجلد حيث يجب كتابة جميع الموارد ._ x000d_ هناك طريقة أخرى وهي استخدام الخصائص الفردية[`FontsFolder`](../fontsfolder) و[`ImagesFolder`](../imagesfolder) و و[`CssStyleSheetFileName`](../cssstylesheetfilename).
+`ResourceFolder` هي أبسط طريقة لتحديد مجلد حيث يجب كتابة جميع الموارد . هناك طريقة أخرى وهي استخدام الخصائص الفردية[`FontsFolder`](../fontsfolder) و[`ImagesFolder`](../imagesfolder) و و[`CssStyleSheetFileName`](../cssstylesheetfilename).
 
-`ResourceFolder` له أولوية أقل من المجلدات المحددة عبر[`FontsFolder`](../fontsfolder) ، [`ImagesFolder`](../imagesfolder) ، و[`CssStyleSheetFileName`](../cssstylesheetfilename) . على سبيل المثال ، إذا كان both `ResourceFolder` و[`FontsFolder`](../fontsfolder)تم تحديد الخطوط ، سيتم حفظها_ x000d_ إلى[`FontsFolder`](../fontsfolder) ، بينما سيتم حفظ الصور و CSS في`ResourceFolder`.
+`ResourceFolder` له أولوية أقل من المجلدات المحددة عبر[`FontsFolder`](../fontsfolder) ، [`ImagesFolder`](../imagesfolder) ، و[`CssStyleSheetFileName`](../cssstylesheetfilename) . على سبيل المثال ، إذا كان both `ResourceFolder` و[`FontsFolder`](../fontsfolder)تم تحديد الخطوط ، سيتم حفظها_ إلى[`FontsFolder`](../fontsfolder) ، بينما سيتم حفظ الصور و CSS في`ResourceFolder`.
 
-إذا كان المجلد المحدد بواسطة`ResourceFolder` غير موجود ، سيتم إنشاؤه تلقائيًا ._ x000d_
+إذا كان المجلد المحدد بواسطة`ResourceFolder` غير موجود ، سيتم إنشاؤه تلقائيًا .
 
 ### أمثلة
 

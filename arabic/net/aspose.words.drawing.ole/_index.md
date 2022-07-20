@@ -13,7 +13,7 @@ url: /ar/net/aspose.words.drawing.ole/
 | فصل | وصف |
 | --- | --- |
 | [Forms2OleControl](./forms2olecontrol) | يمثل عنصر تحكم Microsoft Forms 2.0 OLE. |
-| [Forms2OleControlCollection](./forms2olecontrolcollection) | يمثل مجموعة من[`Forms2OleControl`](../aspose.words.drawing.ole/forms2olecontrol) الكائنات ._ x000d_ |
+| [Forms2OleControlCollection](./forms2olecontrolcollection) | يمثل مجموعة من[`Forms2OleControl`](../aspose.words.drawing.ole/forms2olecontrol) الكائنات . |
 | [OleControl](./olecontrol) | يمثل عنصر تحكم OLE ActiveX. |
 ## تعداد
 

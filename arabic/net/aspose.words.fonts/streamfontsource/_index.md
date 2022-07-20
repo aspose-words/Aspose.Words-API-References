@@ -18,7 +18,7 @@ public abstract class StreamFontSource : FontSourceBase
 
 | اسم | وصف |
 | --- | --- |
-| [CacheKey](../../aspose.words.fonts/streamfontsource/cachekey) { get; } | مفتاح هذا المصدر في ذاكرة التخزين المؤقت ._ x000d_ |
+| [CacheKey](../../aspose.words.fonts/streamfontsource/cachekey) { get; } | مفتاح هذا المصدر في ذاكرة التخزين المؤقت . |
 | [Priority](../../aspose.words.fonts/fontsourcebase/priority) { get; } | إرجاع أولوية مصدر الخط. |
 | [Type](../../aspose.words.fonts/streamfontsource/type) { get; } | إرجاع نوع مصدر الخط. |
 | [WarningCallback](../../aspose.words.fonts/fontsourcebase/warningcallback) { get; set; } | تم الاتصال أثناء معالجة مصدر الخط عند اكتشاف مشكلة قد تؤدي إلى فقدان الدقة في التنسيق. |

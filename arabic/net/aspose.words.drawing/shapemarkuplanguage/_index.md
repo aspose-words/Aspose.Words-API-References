@@ -1,14 +1,14 @@
 ---
 title: ShapeMarkupLanguage
 second_title: Aspose.Words لمراجع .NET API
-description: يحدد لغة الترميز المستخدمة للشكل ._ x000d_
+description: يحدد لغة الترميز المستخدمة للشكل .
 type: docs
 weight: 1130
 url: /ar/net/aspose.words.drawing/shapemarkuplanguage/
 ---
 ## ShapeMarkupLanguage enumeration
 
-يحدد لغة الترميز المستخدمة للشكل ._ x000d_
+يحدد لغة الترميز المستخدمة للشكل .
 
 ```csharp
 public enum ShapeMarkupLanguage : byte

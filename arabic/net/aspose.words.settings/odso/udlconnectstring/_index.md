@@ -1,14 +1,14 @@
 ---
 title: UdlConnectString
 second_title: Aspose.Words لمراجع .NET API
-description: تحدد سلسلة اتصال ارتباط البيانات العالمي UDL المستخدمة للاتصال بمصدر بيانات خارجي ._ x000d_ القيمة الافتراضية هي سلسلة فارغة.
+description: تحدد سلسلة اتصال ارتباط البيانات العالمي UDL المستخدمة للاتصال بمصدر بيانات خارجي . القيمة الافتراضية هي سلسلة فارغة.
 type: docs
 weight: 90
 url: /ar/net/aspose.words.settings/odso/udlconnectstring/
 ---
 ## Odso.UdlConnectString property
 
-تحدد سلسلة اتصال ارتباط البيانات العالمي (UDL) المستخدمة للاتصال بمصدر بيانات خارجي ._ x000d_ القيمة الافتراضية هي سلسلة فارغة.
+تحدد سلسلة اتصال ارتباط البيانات العالمي (UDL) المستخدمة للاتصال بمصدر بيانات خارجي . القيمة الافتراضية هي سلسلة فارغة.
 
 ```csharp
 public string UdlConnectString { get; set; }

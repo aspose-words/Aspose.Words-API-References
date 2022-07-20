@@ -1,14 +1,14 @@
 ---
 title: Comment
 second_title: Aspose.Words لمراجع .NET API
-description: يقوم بتهيئة مثيل جديد لملف تعليق فئة ._ x000d_
+description: يقوم بتهيئة مثيل جديد لملف تعليق فئة .
 type: docs
 weight: 10
 url: /ar/net/aspose.words/comment/comment/
 ---
 ## Comment(DocumentBase) {#constructor}
 
-يقوم بتهيئة مثيل جديد لملف **تعليق** فئة ._ x000d_
+يقوم بتهيئة مثيل جديد لملف **تعليق** فئة .
 
 ```csharp
 public Comment(DocumentBase doc)
@@ -195,7 +195,7 @@ public class CommentInfoPrinter : DocumentVisitor
 
 ## Comment(DocumentBase, string, string, DateTime) {#constructor_1}
 
-يقوم بتهيئة مثيل جديد لملف **تعليق** فئة ._ x000d_
+يقوم بتهيئة مثيل جديد لملف **تعليق** فئة .
 
 ```csharp
 public Comment(DocumentBase doc, string author, string initial, DateTime dateTime)

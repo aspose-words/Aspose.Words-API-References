@@ -18,7 +18,7 @@ public class FieldArgumentBuilder
 
 | اسم | وصف |
 | --- | --- |
-| [FieldArgumentBuilder](fieldargumentbuilder)() | يقوم بتهيئة مثيل لملف[`FieldArgumentBuilder`](../fieldargumentbuilder) فئة ._ x000d_ |
+| [FieldArgumentBuilder](fieldargumentbuilder)() | يقوم بتهيئة مثيل لملف[`FieldArgumentBuilder`](../fieldargumentbuilder) فئة . |
 
 ## طُرق
 

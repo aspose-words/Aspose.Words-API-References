@@ -20,8 +20,8 @@ public interface IFieldResultFormatter
 | --- | --- |
 | [Format](../../aspose.words.fields/ifieldresultformatter/format#format)(double, GeneralFormat) | يتم الاستدعاء عند تطبيق Aspose.Words مفتاح تنسيق رقم ، مثل \ * Ordinal. |
 | [Format](../../aspose.words.fields/ifieldresultformatter/format#format_1)(string, GeneralFormat) | يتم الاستدعاء عند قيام Aspose.Words بتطبيق تبديل تنسيق الأحرف الكبيرة ، أي \ * Upper. |
-| [FormatDateTime](../../aspose.words.fields/ifieldresultformatter/formatdatetime)(DateTime, string, CalendarType) | يتم الاستدعاء عند قيام Aspose.Words بتطبيق تبديل تنسيق التاريخ / الوقت ، على سبيل المثال \ @ "dd.MM.yyyy" ._ x000d_ |
-| [FormatNumeric](../../aspose.words.fields/ifieldresultformatter/formatnumeric)(double, string) | يتم الاستدعاء عند قيام Aspose.Words بتطبيق تبديل تنسيق رقمي ، أي \ # "#. ##" ._ x000d_ |
+| [FormatDateTime](../../aspose.words.fields/ifieldresultformatter/formatdatetime)(DateTime, string, CalendarType) | يتم الاستدعاء عند قيام Aspose.Words بتطبيق تبديل تنسيق التاريخ / الوقت ، على سبيل المثال \ @ "dd.MM.yyyy" . |
+| [FormatNumeric](../../aspose.words.fields/ifieldresultformatter/formatnumeric)(double, string) | يتم الاستدعاء عند قيام Aspose.Words بتطبيق تبديل تنسيق رقمي ، أي \ # "#. ##" . |
 
 ### أمثلة
 

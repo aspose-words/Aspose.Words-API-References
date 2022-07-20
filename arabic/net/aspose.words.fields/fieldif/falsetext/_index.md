@@ -1,14 +1,14 @@
 ---
 title: FalseText
 second_title: Aspose.Words لمراجع .NET API
-description: الحصول على النص المعروض أو تحديده إذا كان تعبير المقارنة خاطئًا ._ x000d_
+description: الحصول على النص المعروض أو تحديده إذا كان تعبير المقارنة خاطئًا .
 type: docs
 weight: 30
 url: /ar/net/aspose.words.fields/fieldif/falsetext/
 ---
 ## FieldIf.FalseText property
 
-الحصول على النص المعروض أو تحديده إذا كان تعبير المقارنة خاطئًا ._ x000d_
+الحصول على النص المعروض أو تحديده إذا كان تعبير المقارنة خاطئًا .
 
 ```csharp
 public string FalseText { get; set; }

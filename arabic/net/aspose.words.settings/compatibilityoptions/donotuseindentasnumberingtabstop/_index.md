@@ -1,14 +1,14 @@
 ---
 title: DoNotUseIndentAsNumberingTabStop
 second_title: Aspose.Words لمراجع .NET API
-description: تجاهل المسافة البادئة المعلقة عند إنشاء علامة الجدولة بعد الترقيم ._ x000d_
+description: تجاهل المسافة البادئة المعلقة عند إنشاء علامة الجدولة بعد الترقيم .
 type: docs
 weight: 220
 url: /ar/net/aspose.words.settings/compatibilityoptions/donotuseindentasnumberingtabstop/
 ---
 ## CompatibilityOptions.DoNotUseIndentAsNumberingTabStop property
 
-تجاهل المسافة البادئة المعلقة عند إنشاء علامة الجدولة بعد الترقيم ._ x000d_
+تجاهل المسافة البادئة المعلقة عند إنشاء علامة الجدولة بعد الترقيم .
 
 ```csharp
 public bool DoNotUseIndentAsNumberingTabStop { get; set; }

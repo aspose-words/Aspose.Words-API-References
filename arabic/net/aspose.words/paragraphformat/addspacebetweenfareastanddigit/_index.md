@@ -1,14 +1,14 @@
 ---
 title: AddSpaceBetweenFarEastAndDigit
 second_title: Aspose.Words لمراجع .NET API
-description: الحصول على أو تعيين علامة تشير إلى ما إذا كان يتم ضبط التباعد بين الأحرف تلقائيًا بين المناطق_ x000d_ من الأرقام والمناطق لنص شرق آسيا في الفقرة الحالية ._ x000d_
+description: الحصول على أو تعيين علامة تشير إلى ما إذا كان يتم ضبط التباعد بين الأحرف تلقائيًا بين المناطق من الأرقام والمناطق لنص شرق آسيا في الفقرة الحالية .
 type: docs
 weight: 20
 url: /ar/net/aspose.words/paragraphformat/addspacebetweenfareastanddigit/
 ---
 ## ParagraphFormat.AddSpaceBetweenFarEastAndDigit property
 
-الحصول على أو تعيين علامة تشير إلى ما إذا كان يتم ضبط التباعد بين الأحرف تلقائيًا بين المناطق_ x000d_ من الأرقام والمناطق لنص شرق آسيا في الفقرة الحالية ._ x000d_
+الحصول على أو تعيين علامة تشير إلى ما إذا كان يتم ضبط التباعد بين الأحرف تلقائيًا بين المناطق من الأرقام والمناطق لنص شرق آسيا في الفقرة الحالية .
 
 ```csharp
 public bool AddSpaceBetweenFarEastAndDigit { get; set; }

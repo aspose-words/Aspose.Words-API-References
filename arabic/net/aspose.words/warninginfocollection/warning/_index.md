@@ -1,14 +1,14 @@
 ---
 title: Warning
 second_title: Aspose.Words لمراجع .NET API
-description: تنفذ ملفIWarningCallbackaspose.words/iwarningcallback واجهه المستخدم. يضيف تحذيرًا إلى هذه المجموعة ._ x000d_
+description: تنفذ ملفIWarningCallbackaspose.words/iwarningcallback واجهه المستخدم. يضيف تحذيرًا إلى هذه المجموعة .
 type: docs
 weight: 60
 url: /ar/net/aspose.words/warninginfocollection/warning/
 ---
 ## WarningInfoCollection.Warning method
 
-تنفذ ملف[`IWarningCallback`](../../iwarningcallback) واجهه المستخدم. يضيف تحذيرًا إلى هذه المجموعة ._ x000d_
+تنفذ ملف[`IWarningCallback`](../../iwarningcallback) واجهه المستخدم. يضيف تحذيرًا إلى هذه المجموعة .
 
 ```csharp
 public void Warning(WarningInfo info)

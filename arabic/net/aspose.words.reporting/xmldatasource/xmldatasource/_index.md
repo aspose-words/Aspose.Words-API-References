@@ -48,7 +48,7 @@ public XmlDataSource(Stream xmlStream)
 
 ## XmlDataSource(string, string) {#constructor_6}
 
-إنشاء مصدر بيانات جديد ببيانات من ملف XML باستخدام ملف تعريف مخطط XML. يتم استخدام الخيارات الافتراضية_ x000d_ لتحميل بيانات XML.
+إنشاء مصدر بيانات جديد ببيانات من ملف XML باستخدام ملف تعريف مخطط XML. يتم استخدام الخيارات الافتراضية لتحميل بيانات XML.
 
 ```csharp
 public XmlDataSource(string xmlPath, string xmlSchemaPath)
@@ -69,7 +69,7 @@ public XmlDataSource(string xmlPath, string xmlSchemaPath)
 
 ## XmlDataSource(Stream, Stream) {#constructor_2}
 
-إنشاء مصدر بيانات جديد ببيانات من دفق XML باستخدام دفق تعريف مخطط XML. يتم استخدام الخيارات الافتراضية_ x000d_ لتحميل بيانات XML.
+إنشاء مصدر بيانات جديد ببيانات من دفق XML باستخدام دفق تعريف مخطط XML. يتم استخدام الخيارات الافتراضية لتحميل بيانات XML.
 
 ```csharp
 public XmlDataSource(Stream xmlStream, Stream xmlSchemaStream)
@@ -134,7 +134,7 @@ public XmlDataSource(Stream xmlStream, XmlDataLoadOptions options)
 
 ## XmlDataSource(string, string, XmlDataLoadOptions) {#constructor_7}
 
-إنشاء مصدر بيانات جديد ببيانات من ملف XML باستخدام ملف تعريف مخطط XML. يتم استخدام الخيارات المحددة x000d_ لتحميل بيانات XML.
+إنشاء مصدر بيانات جديد ببيانات من ملف XML باستخدام ملف تعريف مخطط XML. يتم استخدام الخيارات المحددة لتحميل بيانات XML.
 
 ```csharp
 public XmlDataSource(string xmlPath, string xmlSchemaPath, XmlDataLoadOptions options)
@@ -157,7 +157,7 @@ public XmlDataSource(string xmlPath, string xmlSchemaPath, XmlDataLoadOptions op
 
 ## XmlDataSource(Stream, Stream, XmlDataLoadOptions) {#constructor_3}
 
-إنشاء مصدر بيانات جديد ببيانات من دفق XML باستخدام دفق تعريف مخطط XML. يتم استخدام الخيارات المحددة x000d_ لتحميل بيانات XML.
+إنشاء مصدر بيانات جديد ببيانات من دفق XML باستخدام دفق تعريف مخطط XML. يتم استخدام الخيارات المحددة لتحميل بيانات XML.
 
 ```csharp
 public XmlDataSource(Stream xmlStream, Stream xmlSchemaStream, XmlDataLoadOptions options)

@@ -13,7 +13,7 @@ url: /ar/net/aspose.words.replacing/
 | فصل | وصف |
 | --- | --- |
 | [FindReplaceOptions](./findreplaceoptions) | يحدد خيارات عمليات البحث / الاستبدال. |
-| [ReplacingArgs](./replacingargs) | توفير بيانات لعملية استبدال مخصصة ._ x000d_ |
+| [ReplacingArgs](./replacingargs) | توفير بيانات لعملية استبدال مخصصة . |
 ## واجهات
 
 | واجهه المستخدم | وصف |

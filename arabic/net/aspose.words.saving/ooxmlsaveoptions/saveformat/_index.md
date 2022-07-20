@@ -1,14 +1,14 @@
 ---
 title: SaveFormat
 second_title: Aspose.Words لمراجع .NET API
-description: يحدد التنسيق الذي سيتم حفظ المستند به إذا تم استخدام كائن خيارات الحفظ هذا ._ x000d_ يمكن أن يكونDocx وDocm  Dotx وDotm أوFlatOpc .
+description: يحدد التنسيق الذي سيتم حفظ المستند به إذا تم استخدام كائن خيارات الحفظ هذا . يمكن أن يكونDocx وDocm  Dotx وDotm أوFlatOpc .
 type: docs
 weight: 60
 url: /ar/net/aspose.words.saving/ooxmlsaveoptions/saveformat/
 ---
 ## OoxmlSaveOptions.SaveFormat property
 
-يحدد التنسيق الذي سيتم حفظ المستند به إذا تم استخدام كائن خيارات الحفظ هذا ._ x000d_ يمكن أن يكونDocx وDocm ، Dotx وDotm أوFlatOpc .
+يحدد التنسيق الذي سيتم حفظ المستند به إذا تم استخدام كائن خيارات الحفظ هذا . يمكن أن يكونDocx وDocm ، Dotx وDotm أوFlatOpc .
 
 ```csharp
 public override SaveFormat SaveFormat { get; set; }

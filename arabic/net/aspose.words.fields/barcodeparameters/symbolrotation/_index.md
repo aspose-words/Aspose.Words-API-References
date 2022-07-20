@@ -1,14 +1,14 @@
 ---
 title: SymbolRotation
 second_title: Aspose.Words لمراجع .NET API
-description: دوران رمز الباركود. القيم الصالحة هي 0  3 ._ x000d_
+description: دوران رمز الباركود. القيم الصالحة هي 0  3 .
 type: docs
 weight: 180
 url: /ar/net/aspose.words.fields/barcodeparameters/symbolrotation/
 ---
 ## BarcodeParameters.SymbolRotation property
 
-دوران رمز الباركود. القيم الصالحة هي [0 ، 3] ._ x000d_
+دوران رمز الباركود. القيم الصالحة هي [0 ، 3] .
 
 ```csharp
 public string SymbolRotation { get; set; }

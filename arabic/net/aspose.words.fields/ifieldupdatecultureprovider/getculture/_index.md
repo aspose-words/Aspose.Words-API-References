@@ -1,14 +1,14 @@
 ---
 title: GetCulture
 second_title: Aspose.Words لمراجع .NET API
-description: إرجاع أCultureInfo كائن لاستخدامه أثناء تحديث الحقل ._ x000d_
+description: إرجاع أCultureInfo كائن لاستخدامه أثناء تحديث الحقل .
 type: docs
 weight: 10
 url: /ar/net/aspose.words.fields/ifieldupdatecultureprovider/getculture/
 ---
 ## IFieldUpdateCultureProvider.GetCulture method
 
-إرجاع أCultureInfo كائن لاستخدامه أثناء تحديث الحقل ._ x000d_
+إرجاع أCultureInfo كائن لاستخدامه أثناء تحديث الحقل .
 
 ```csharp
 public CultureInfo GetCulture(string culture, Field field)

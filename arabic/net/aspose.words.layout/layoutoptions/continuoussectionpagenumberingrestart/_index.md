@@ -1,14 +1,14 @@
 ---
 title: ContinuousSectionPageNumberingRestart
 second_title: Aspose.Words لمراجع .NET API
-description: الحصول على أو تعيين وضع السلوك لحساب أرقام الصفحات عندما يقوم قسم مستمر بإعادة تشغيل ترقيم الصفحات ._ x000d_
+description: الحصول على أو تعيين وضع السلوك لحساب أرقام الصفحات عندما يقوم قسم مستمر بإعادة تشغيل ترقيم الصفحات .
 type: docs
 weight: 40
 url: /ar/net/aspose.words.layout/layoutoptions/continuoussectionpagenumberingrestart/
 ---
 ## LayoutOptions.ContinuousSectionPageNumberingRestart property
 
-الحصول على أو تعيين وضع السلوك لحساب أرقام الصفحات عندما يقوم قسم مستمر بإعادة تشغيل ترقيم الصفحات ._ x000d_
+الحصول على أو تعيين وضع السلوك لحساب أرقام الصفحات عندما يقوم قسم مستمر بإعادة تشغيل ترقيم الصفحات .
 
 ```csharp
 public ContinuousSectionRestart ContinuousSectionPageNumberingRestart { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: LineFeedChar
 second_title: Aspose.Words لمراجع .NET API
-description: حرف موجز السطر char 10 أو  n ._ x000d_
+description: حرف موجز السطر char 10 أو  n .
 type: docs
 weight: 150
 url: /ar/net/aspose.words/controlchar/linefeedchar/
 ---
 ## ControlChar.LineFeedChar field
 
-حرف موجز السطر: (char) 10 أو "\ n" ._ x000d_
+حرف موجز السطر: (char) 10 أو "\ n" .
 
 ```csharp
 public const char LineFeedChar;

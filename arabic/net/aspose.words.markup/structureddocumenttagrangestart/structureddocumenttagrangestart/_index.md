@@ -1,14 +1,14 @@
 ---
 title: StructuredDocumentTagRangeStart
 second_title: Aspose.Words لمراجع .NET API
-description: يقوم بتهيئة مثيل جديد لملف يبدأ نطاق علامة المستند المنظمة فئة ._ x000d_
+description: يقوم بتهيئة مثيل جديد لملف يبدأ نطاق علامة المستند المنظمة فئة .
 type: docs
 weight: 10
 url: /ar/net/aspose.words.markup/structureddocumenttagrangestart/structureddocumenttagrangestart/
 ---
 ## StructuredDocumentTagRangeStart constructor
 
-يقوم بتهيئة مثيل جديد لملف **يبدأ نطاق علامة المستند المنظمة** فئة ._ x000d_
+يقوم بتهيئة مثيل جديد لملف **يبدأ نطاق علامة المستند المنظمة** فئة .
 
 ```csharp
 public StructuredDocumentTagRangeStart(DocumentBase doc, SdtType type)

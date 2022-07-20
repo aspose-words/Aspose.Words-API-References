@@ -1,14 +1,14 @@
 ---
 title: Hyperlink
 second_title: Aspose.Words لمراجع .NET API
-description: تحديد لون الارتباط التشعبي ._ x000d_
+description: تحديد لون الارتباط التشعبي .
 type: docs
 weight: 100
 url: /ar/net/aspose.words.themes/themecolors/hyperlink/
 ---
 ## ThemeColors.Hyperlink property
 
-تحديد لون الارتباط التشعبي ._ x000d_
+تحديد لون الارتباط التشعبي .
 
 ```csharp
 public Color Hyperlink { get; set; }

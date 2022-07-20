@@ -1,14 +1,14 @@
 ---
 title: XamlFlowSaveOptions
 second_title: Aspose.Words لمراجع .NET API
-description: يقوم بتهيئة مثيل جديد من هذه الفئة يمكن استخدامه لحفظ مستند بتنسيقXamlFlow التنسيق ._ x000d_
+description: يقوم بتهيئة مثيل جديد من هذه الفئة يمكن استخدامه لحفظ مستند بتنسيقXamlFlow التنسيق .
 type: docs
 weight: 10
 url: /ar/net/aspose.words.saving/xamlflowsaveoptions/xamlflowsaveoptions/
 ---
 ## XamlFlowSaveOptions() {#constructor}
 
-يقوم بتهيئة مثيل جديد من هذه الفئة يمكن استخدامه لحفظ مستند بتنسيقXamlFlow التنسيق ._ x000d_
+يقوم بتهيئة مثيل جديد من هذه الفئة يمكن استخدامه لحفظ مستند بتنسيقXamlFlow التنسيق .
 
 ```csharp
 public XamlFlowSaveOptions()
@@ -85,7 +85,7 @@ private class ImageUriPrinter : IImageSavingCallback
 
 ## XamlFlowSaveOptions(SaveFormat) {#constructor_1}
 
-يقوم بتهيئة مثيل جديد من هذه الفئة يمكن استخدامه لحفظ مستند بتنسيقXamlFlow أوXamlFlowPack التنسيق ._ x000d_
+يقوم بتهيئة مثيل جديد من هذه الفئة يمكن استخدامه لحفظ مستند بتنسيقXamlFlow أوXamlFlowPack التنسيق .
 
 ```csharp
 public XamlFlowSaveOptions(SaveFormat saveFormat)

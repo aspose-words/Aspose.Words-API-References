@@ -1,14 +1,14 @@
 ---
 title: DefaultTemplate
 second_title: Aspose.Words لمراجع .NET API
-description: الحصول على أو تعيين المسار للقالب الافتراضي بما في ذلك اسم الملف ._ x000d_ القيمة الافتراضية لهذه الخاصية هي سلسلة فارغة Empty  ._ x000d_
+description: الحصول على أو تعيين المسار للقالب الافتراضي بما في ذلك اسم الملف . القيمة الافتراضية لهذه الخاصية هي سلسلة فارغة Empty  .
 type: docs
 weight: 40
 url: /ar/net/aspose.words.saving/saveoptions/defaulttemplate/
 ---
 ## SaveOptions.DefaultTemplate property
 
-الحصول على أو تعيين المسار للقالب الافتراضي (بما في ذلك اسم الملف) ._ x000d_ القيمة الافتراضية لهذه الخاصية هي **سلسلة فارغة** (Empty ) ._ x000d_
+الحصول على أو تعيين المسار للقالب الافتراضي (بما في ذلك اسم الملف) . القيمة الافتراضية لهذه الخاصية هي **سلسلة فارغة** (Empty ) .
 
 ```csharp
 public string DefaultTemplate { get; set; }

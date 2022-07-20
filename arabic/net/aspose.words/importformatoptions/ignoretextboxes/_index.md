@@ -1,14 +1,14 @@
 ---
 title: IgnoreTextBoxes
 second_title: Aspose.Words لمراجع .NET API
-description: الحصول على أو تعيين قيمة منطقية تحدد تنسيق المصدر لمحتوى مربعات النص الذي تم تجاهله_ x000d_ إذاKeepSourceFormatting الوضع المستخدم ._ x000d_ القيمة الافتراضية هيحقيقي .
+description: الحصول على أو تعيين قيمة منطقية تحدد تنسيق المصدر لمحتوى مربعات النص الذي تم تجاهله_ إذاKeepSourceFormatting الوضع المستخدم . القيمة الافتراضية هيحقيقي .
 type: docs
 weight: 40
 url: /ar/net/aspose.words/importformatoptions/ignoretextboxes/
 ---
 ## ImportFormatOptions.IgnoreTextBoxes property
 
-الحصول على أو تعيين قيمة منطقية تحدد تنسيق المصدر لمحتوى مربعات النص الذي تم تجاهله_ x000d_ إذاKeepSourceFormatting الوضع المستخدم ._ x000d_ القيمة الافتراضية هي`حقيقي` .
+الحصول على أو تعيين قيمة منطقية تحدد تنسيق المصدر لمحتوى مربعات النص الذي تم تجاهله_ إذاKeepSourceFormatting الوضع المستخدم . القيمة الافتراضية هي`حقيقي` .
 
 ```csharp
 public bool IgnoreTextBoxes { get; set; }

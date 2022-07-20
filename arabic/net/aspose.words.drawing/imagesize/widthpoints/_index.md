@@ -1,14 +1,14 @@
 ---
 title: WidthPoints
 second_title: Aspose.Words لمراجع .NET API
-description: يحصل على عرض الصورة بالنقاط. 1 نقطة 1/72 بوصة. _ x000d_
+description: يحصل على عرض الصورة بالنقاط. 1 نقطة 1/72 بوصة.
 type: docs
 weight: 70
 url: /ar/net/aspose.words.drawing/imagesize/widthpoints/
 ---
 ## ImageSize.WidthPoints property
 
-يحصل على عرض الصورة بالنقاط. 1 نقطة 1/72 بوصة. _ x000d_
+يحصل على عرض الصورة بالنقاط. 1 نقطة 1/72 بوصة.
 
 ```csharp
 public double WidthPoints { get; }

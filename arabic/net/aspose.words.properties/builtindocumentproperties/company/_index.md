@@ -1,14 +1,14 @@
 ---
 title: Company
 second_title: Aspose.Words لمراجع .NET API
-description: الحصول على أو تعيين خاصية الشركة ._ x000d_
+description: الحصول على أو تعيين خاصية الشركة .
 type: docs
 weight: 70
 url: /ar/net/aspose.words.properties/builtindocumentproperties/company/
 ---
 ## BuiltInDocumentProperties.Company property
 
-الحصول على أو تعيين خاصية الشركة ._ x000d_
+الحصول على أو تعيين خاصية الشركة .
 
 ```csharp
 public string Company { get; set; }

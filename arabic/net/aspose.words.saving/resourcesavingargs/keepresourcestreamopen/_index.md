@@ -16,7 +16,7 @@ public bool KeepResourceStreamOpen { get; set; }
 
 ### ملاحظات
 
-الافتراضي هو`خاطئة` و Aspose.Words ستغلق الدفق الذي قدمته في[`ResourceStream`](../resourcestream) الخاصية بعد كتابة مورد فيه ._ x000d_ تحديد`حقيقي` لإبقاء الدفق مفتوحًا.
+الافتراضي هو`خاطئة` و Aspose.Words ستغلق الدفق الذي قدمته في[`ResourceStream`](../resourcestream) الخاصية بعد كتابة مورد فيه . تحديد`حقيقي` لإبقاء الدفق مفتوحًا.
 
 ### أمثلة
 

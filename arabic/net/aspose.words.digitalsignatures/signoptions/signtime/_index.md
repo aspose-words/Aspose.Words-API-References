@@ -1,14 +1,14 @@
 ---
 title: SignTime
 second_title: Aspose.Words لمراجع .NET API
-description: تاريخ التوقيع ._ x000d_ القيمة الافتراضية هي الوقت الحالي Now  ._ x000d_
+description: تاريخ التوقيع . القيمة الافتراضية هي الوقت الحالي Now  .
 type: docs
 weight: 70
 url: /ar/net/aspose.words.digitalsignatures/signoptions/signtime/
 ---
 ## SignOptions.SignTime property
 
-تاريخ التوقيع ._ x000d_ القيمة الافتراضية هي **الوقت الحالي** (Now ) ._ x000d_
+تاريخ التوقيع . القيمة الافتراضية هي **الوقت الحالي** (Now ) .
 
 ```csharp
 public DateTime SignTime { get; set; }

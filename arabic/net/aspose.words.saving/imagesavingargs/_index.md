@@ -1,14 +1,14 @@
 ---
 title: ImageSavingArgs
 second_title: Aspose.Words لمراجع .NET API
-description: توفير بيانات لملفImageSaving./iimagesavingcallback/imagesaving الحدث ._ x000d_
+description: توفير بيانات لملفImageSaving./iimagesavingcallback/imagesaving الحدث .
 type: docs
 weight: 4980
 url: /ar/net/aspose.words.saving/imagesavingargs/
 ---
 ## ImageSavingArgs class
 
-توفير بيانات لملف[`ImageSaving`](../iimagesavingcallback/imagesaving) الحدث ._ x000d_
+توفير بيانات لملف[`ImageSaving`](../iimagesavingcallback/imagesaving) الحدث .
 
 ```csharp
 public class ImageSavingArgs
@@ -27,7 +27,7 @@ public class ImageSavingArgs
 
 ### ملاحظات
 
-بشكل افتراضي ، عندما يحفظ Aspose.Words مستند إلى HTML ، فإنه يحفظ كل صورة في ملف منفصل. يستخدم Aspose.Words اسم ملف المستند ورقمًا فريدًا لإنشاء اسم ملف فريد_ x000d_ لكل صورة موجودة في المستند.
+بشكل افتراضي ، عندما يحفظ Aspose.Words مستند إلى HTML ، فإنه يحفظ كل صورة في ملف منفصل. يستخدم Aspose.Words اسم ملف المستند ورقمًا فريدًا لإنشاء اسم ملف فريد لكل صورة موجودة في المستند.
 
 [`ImageSavingArgs`](../imagesavingargs) يسمح بإعادة تعريف كيفية إنشاء أسماء ملفات الصور أو التحايل تمامًا على حفظ الصور في ملفات من خلال توفير كائنات البث الخاصة بك.
 

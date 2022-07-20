@@ -1,14 +1,14 @@
 ---
 title: IsBookmark
 second_title: Aspose.Words لمراجع .NET API
-description: يحصل أو يحدد ما إذا كانPostalAddressaspose.words.fields/fieldbarcode/postaladdress هو اسم إشارة مرجعية ._ x000d_
+description: يحصل أو يحدد ما إذا كانPostalAddressaspose.words.fields/fieldbarcode/postaladdress هو اسم إشارة مرجعية .
 type: docs
 weight: 30
 url: /ar/net/aspose.words.fields/fieldbarcode/isbookmark/
 ---
 ## FieldBarcode.IsBookmark property
 
-يحصل أو يحدد ما إذا كان[`PostalAddress`](../postaladdress) هو اسم إشارة مرجعية ._ x000d_
+يحصل أو يحدد ما إذا كان[`PostalAddress`](../postaladdress) هو اسم إشارة مرجعية .
 
 ```csharp
 public bool IsBookmark { get; set; }

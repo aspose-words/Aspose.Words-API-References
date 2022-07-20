@@ -1,14 +1,14 @@
 ---
 title: ResourceType
 second_title: Aspose.Words لمراجع .NET API
-description: نوع المورد ._ x000d_
+description: نوع المورد .
 type: docs
 weight: 20
 url: /ar/net/aspose.words.loading/resourceloadingargs/resourcetype/
 ---
 ## ResourceLoadingArgs.ResourceType property
 
-نوع المورد ._ x000d_
+نوع المورد .
 
 ```csharp
 public ResourceType ResourceType { get; }

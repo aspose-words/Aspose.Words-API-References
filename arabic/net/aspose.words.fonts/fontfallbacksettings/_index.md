@@ -1,14 +1,14 @@
 ---
 title: FontFallbackSettings
 second_title: Aspose.Words لمراجع .NET API
-description: يحدد إعدادات آلية الرجوع للخط ._ x000d_
+description: يحدد إعدادات آلية الرجوع للخط .
 type: docs
 weight: 2720
 url: /ar/net/aspose.words.fonts/fontfallbacksettings/
 ---
 ## FontFallbackSettings class
 
-يحدد إعدادات آلية الرجوع للخط ._ x000d_
+يحدد إعدادات آلية الرجوع للخط .
 
 ```csharp
 public class FontFallbackSettings

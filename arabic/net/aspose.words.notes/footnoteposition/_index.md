@@ -1,14 +1,14 @@
 ---
 title: FootnotePosition
 second_title: Aspose.Words لمراجع .NET API
-description: يحدد موضع الحاشية السفلية ._ x000d_
+description: يحدد موضع الحاشية السفلية .
 type: docs
 weight: 4050
 url: /ar/net/aspose.words.notes/footnoteposition/
 ---
 ## FootnotePosition enumeration
 
-يحدد موضع الحاشية السفلية ._ x000d_
+يحدد موضع الحاشية السفلية .
 
 ```csharp
 public enum FootnotePosition

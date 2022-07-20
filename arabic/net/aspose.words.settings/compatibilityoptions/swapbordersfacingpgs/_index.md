@@ -1,14 +1,14 @@
 ---
 title: SwapBordersFacingPgs
 second_title: Aspose.Words لمراجع .NET API
-description: تبديل حدود الفقرة على الصفحات المرقمة الفردية ._ x000d_
+description: تبديل حدود الفقرة على الصفحات المرقمة الفردية .
 type: docs
 weight: 530
 url: /ar/net/aspose.words.settings/compatibilityoptions/swapbordersfacingpgs/
 ---
 ## CompatibilityOptions.SwapBordersFacingPgs property
 
-تبديل حدود الفقرة على الصفحات المرقمة الفردية ._ x000d_
+تبديل حدود الفقرة على الصفحات المرقمة الفردية .
 
 ```csharp
 public bool SwapBordersFacingPgs { get; set; }

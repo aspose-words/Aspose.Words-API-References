@@ -1,14 +1,14 @@
 ---
 title: FontInfoSubstitutionRule
 second_title: Aspose.Words لمراجع .NET API
-description: قاعدة استبدال معلومات الخط ._ x000d_
+description: قاعدة استبدال معلومات الخط .
 type: docs
 weight: 2760
 url: /ar/net/aspose.words.fonts/fontinfosubstitutionrule/
 ---
 ## FontInfoSubstitutionRule class
 
-قاعدة استبدال معلومات الخط ._ x000d_
+قاعدة استبدال معلومات الخط .
 
 ```csharp
 public class FontInfoSubstitutionRule : FontSubstitutionRule

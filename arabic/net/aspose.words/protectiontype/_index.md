@@ -1,14 +1,14 @@
 ---
 title: ProtectionType
 second_title: Aspose.Words لمراجع .NET API
-description: نوع الحماية للمستند ._ x000d_
+description: نوع الحماية للمستند .
 type: docs
 weight: 4260
 url: /ar/net/aspose.words/protectiontype/
 ---
 ## ProtectionType enumeration
 
-نوع الحماية للمستند ._ x000d_
+نوع الحماية للمستند .
 
 ```csharp
 public enum ProtectionType

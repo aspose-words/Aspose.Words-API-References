@@ -1,14 +1,14 @@
 ---
 title: BarcodeValue
 second_title: Aspose.Words لمراجع .NET API
-description: البيانات المراد تشفيرها ._ x000d_
+description: البيانات المراد تشفيرها .
 type: docs
 weight: 50
 url: /ar/net/aspose.words.fields/barcodeparameters/barcodevalue/
 ---
 ## BarcodeParameters.BarcodeValue property
 
-البيانات المراد تشفيرها ._ x000d_
+البيانات المراد تشفيرها .
 
 ```csharp
 public string BarcodeValue { get; set; }

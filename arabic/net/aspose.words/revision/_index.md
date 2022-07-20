@@ -22,7 +22,7 @@ public class Revision
 | [DateTime](../../aspose.words/revision/datetime) { get; set; } | الحصول على أو تحديد تاريخ / وقت هذه المراجعة. |
 | [Group](../../aspose.words/revision/group) { get; } | يحصل على مجموعة المراجعة. إرجاع القيمة فارغة إذا كانت المراجعة لا تنتمي إلى أي مجموعة. |
 | [ParentNode](../../aspose.words/revision/parentnode) { get; } | الحصول على العقدة الأصلية المباشرة (المالك) لهذه المراجعة . ستعمل هذه الخاصية مع أي نوع مراجعة بخلافStyleDefinitionChange . |
-| [ParentStyle](../../aspose.words/revision/parentstyle) { get; } | الحصول على النمط الأصل المباشر (المالك) لهذه المراجعة . ستعمل هذه الخاصية فقط معStyleDefinitionChange نوع المراجعة ._ x000d_ |
+| [ParentStyle](../../aspose.words/revision/parentstyle) { get; } | الحصول على النمط الأصل المباشر (المالك) لهذه المراجعة . ستعمل هذه الخاصية فقط معStyleDefinitionChange نوع المراجعة . |
 | [RevisionType](../../aspose.words/revision/revisiontype) { get; } | الحصول على نوع هذه المراجعة. |
 
 ## طُرق

@@ -1,14 +1,14 @@
 ---
 title: ImageBytes
 second_title: Aspose.Words لمراجع .NET API
-description: الحصول على وحدات البايت الأولية من نسيج أو نموذج التعبئة ._ x000d_
+description: الحصول على وحدات البايت الأولية من نسيج أو نموذج التعبئة .
 type: docs
 weight: 80
 url: /ar/net/aspose.words.drawing/fill/imagebytes/
 ---
 ## Fill.ImageBytes property
 
-الحصول على وحدات البايت الأولية من نسيج أو نموذج التعبئة ._ x000d_
+الحصول على وحدات البايت الأولية من نسيج أو نموذج التعبئة .
 
 ```csharp
 public byte[] ImageBytes { get; }

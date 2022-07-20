@@ -26,7 +26,7 @@ public Field InsertHyperlink(string displayText, string urlOrBookmark, bool isBo
 
 ### ملاحظات
 
-لاحظ أنك تحتاج إلى تحديد تنسيق الخط لنص عرض الارتباط التشعبي بشكل صريح_ x000d_ باستخدام امتداد[`Font`](../font) منشأه.
+لاحظ أنك تحتاج إلى تحديد تنسيق الخط لنص عرض الارتباط التشعبي بشكل صريح_ باستخدام امتداد[`Font`](../font) منشأه.
 
 تستدعي هذه الطرق داخليًا[`InsertField`](../insertfield) لإدراج حقل HYPERLINK MS Word في المستند.
 

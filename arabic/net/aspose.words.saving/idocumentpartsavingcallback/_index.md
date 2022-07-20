@@ -1,14 +1,14 @@
 ---
 title: IDocumentPartSavingCallback
 second_title: Aspose.Words لمراجع .NET API
-description: قم بتنفيذ هذه الواجهة إذا كنت تريد تلقي إشعارات والتحكم في how يحفظ Aspose.Words أجزاء المستند عند تصدير مستند إلىHtml أوEpub التنسيق ._ x000d_
+description: قم بتنفيذ هذه الواجهة إذا كنت تريد تلقي إشعارات والتحكم في how يحفظ Aspose.Words أجزاء المستند عند تصدير مستند إلىHtml أوEpub التنسيق .
 type: docs
 weight: 4880
 url: /ar/net/aspose.words.saving/idocumentpartsavingcallback/
 ---
 ## IDocumentPartSavingCallback interface
 
-قم بتنفيذ هذه الواجهة إذا كنت تريد تلقي إشعارات والتحكم في how يحفظ Aspose.Words أجزاء المستند عند تصدير مستند إلىHtml أوEpub التنسيق ._ x000d_
+قم بتنفيذ هذه الواجهة إذا كنت تريد تلقي إشعارات والتحكم في how يحفظ Aspose.Words أجزاء المستند عند تصدير مستند إلىHtml أوEpub التنسيق .
 
 ```csharp
 public interface IDocumentPartSavingCallback

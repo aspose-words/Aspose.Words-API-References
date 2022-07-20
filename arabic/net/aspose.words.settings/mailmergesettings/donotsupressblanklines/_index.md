@@ -1,14 +1,14 @@
 ---
 title: DoNotSupressBlankLines
 second_title: Aspose.Words لمراجع .NET API
-description: يحدد كيفية تعامل التطبيق الذي يقوم بعملية دمج البريد مع الأسطر الفارغة في المستندات المدمجة الناتجة عن دمج البريد. _ x000d_ القيمة الافتراضية هيخاطئة .
+description: يحدد كيفية تعامل التطبيق الذي يقوم بعملية دمج البريد مع الأسطر الفارغة في المستندات المدمجة الناتجة عن دمج البريد. القيمة الافتراضية هيخاطئة .
 type: docs
 weight: 90
 url: /ar/net/aspose.words.settings/mailmergesettings/donotsupressblanklines/
 ---
 ## MailMergeSettings.DoNotSupressBlankLines property
 
-يحدد كيفية تعامل التطبيق الذي يقوم بعملية دمج البريد مع الأسطر الفارغة في المستندات المدمجة الناتجة عن دمج البريد. _ x000d_ القيمة الافتراضية هي`خاطئة` .
+يحدد كيفية تعامل التطبيق الذي يقوم بعملية دمج البريد مع الأسطر الفارغة في المستندات المدمجة الناتجة عن دمج البريد. القيمة الافتراضية هي`خاطئة` .
 
 ```csharp
 public bool DoNotSupressBlankLines { get; set; }

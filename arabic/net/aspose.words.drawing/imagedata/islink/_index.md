@@ -1,14 +1,14 @@
 ---
 title: IsLink
 second_title: Aspose.Words لمراجع .NET API
-description: يعود صحيحًا إذا كانت الصورة مرتبطة بالشكل متىSourceFullNameaspose.words.drawing/imagedata/sourcefullname محدد ._ x000d_
+description: يعود صحيحًا إذا كانت الصورة مرتبطة بالشكل متىSourceFullNameaspose.words.drawing/imagedata/sourcefullname محدد .
 type: docs
 weight: 150
 url: /ar/net/aspose.words.drawing/imagedata/islink/
 ---
 ## ImageData.IsLink property
 
-يعود صحيحًا إذا كانت الصورة مرتبطة بالشكل (متى[`SourceFullName`](../sourcefullname) محدد) ._ x000d_
+يعود صحيحًا إذا كانت الصورة مرتبطة بالشكل (متى[`SourceFullName`](../sourcefullname) محدد) .
 
 ```csharp
 public bool IsLink { get; }

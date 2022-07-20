@@ -18,7 +18,7 @@ public CultureInfo PreProcessCulture { get; set; }
 
 لا تؤثر هذه الخاصية حاليًا إلا على قيمة[`FieldDocProperty`](../../fielddocproperty) مجال.
 
-النظام الأساسي **لا شيء** . عندما يتم تعيين هذه الخاصية على **لا شيء** ، ال[`FieldDocProperty`](../../fielddocproperty) قيمة الحقل مُجهزة مسبقًا_ x000d_ مع الثقافة التي يتحكم فيها[`FieldUpdateCultureSource`](../fieldupdateculturesource) منشأه.
+النظام الأساسي **لا شيء** . عندما يتم تعيين هذه الخاصية على **لا شيء** ، ال[`FieldDocProperty`](../../fielddocproperty) قيمة الحقل مُجهزة مسبقًا مع الثقافة التي يتحكم فيها[`FieldUpdateCultureSource`](../fieldupdateculturesource) منشأه.
 
 ### أمثلة
 

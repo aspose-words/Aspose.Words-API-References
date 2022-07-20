@@ -1,14 +1,14 @@
 ---
 title: Groups
 second_title: Aspose.Words لمراجع .NET API
-description: مجموعة من مجموعات المراجعة ._ x000d_
+description: مجموعة من مجموعات المراجعة .
 type: docs
 weight: 20
 url: /ar/net/aspose.words/revisioncollection/groups/
 ---
 ## RevisionCollection.Groups property
 
-مجموعة من مجموعات المراجعة ._ x000d_
+مجموعة من مجموعات المراجعة .
 
 ```csharp
 public RevisionGroupCollection Groups { get; }

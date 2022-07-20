@@ -1,14 +1,14 @@
 ---
 title: ImageBytes
 second_title: Aspose.Words لمراجع .NET API
-description: يحدد الصورة لصورة الحد أو تعبئة النقش ._ x000d_
+description: يحدد الصورة لصورة الحد أو تعبئة النقش .
 type: docs
 weight: 100
 url: /ar/net/aspose.words.drawing/stroke/imagebytes/
 ---
 ## Stroke.ImageBytes property
 
-يحدد الصورة لصورة الحد أو تعبئة النقش ._ x000d_
+يحدد الصورة لصورة الحد أو تعبئة النقش .
 
 ```csharp
 public byte[] ImageBytes { get; }

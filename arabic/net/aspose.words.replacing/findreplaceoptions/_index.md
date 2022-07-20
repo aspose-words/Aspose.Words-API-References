@@ -31,11 +31,11 @@ public class FindReplaceOptions
 | [ApplyParagraphFormat](../../aspose.words.replacing/findreplaceoptions/applyparagraphformat) { get; } | تم تطبيق تنسيق الفقرة على المحتوى الجديد. |
 | [Direction](../../aspose.words.replacing/findreplaceoptions/direction) { get; set; } | يحدد اتجاه الاستبدال. القيمة الافتراضية هيForward . |
 | [FindWholeWordsOnly](../../aspose.words.replacing/findreplaceoptions/findwholewordsonly) { get; set; } | صحيح يشير إلى أن oldValue يجب أن تكون كلمة قائمة بذاتها. |
-| [IgnoreDeleted](../../aspose.words.replacing/findreplaceoptions/ignoredeleted) { get; set; } | الحصول على أو تعيين قيمة منطقية تشير إما إلى تجاهل النص داخل مراجعات حذف ._ x000d_ القيمة الافتراضية هي`خاطئة` . |
-| [IgnoreFieldCodes](../../aspose.words.replacing/findreplaceoptions/ignorefieldcodes) { get; set; } | الحصول على أو تعيين قيمة منطقية تشير إما إلى تجاهل النص داخل رموز الحقول ._ x000d_ القيمة الافتراضية هي`خاطئة` . |
+| [IgnoreDeleted](../../aspose.words.replacing/findreplaceoptions/ignoredeleted) { get; set; } | الحصول على أو تعيين قيمة منطقية تشير إما إلى تجاهل النص داخل مراجعات حذف . القيمة الافتراضية هي`خاطئة` . |
+| [IgnoreFieldCodes](../../aspose.words.replacing/findreplaceoptions/ignorefieldcodes) { get; set; } | الحصول على أو تعيين قيمة منطقية تشير إما إلى تجاهل النص داخل رموز الحقول . القيمة الافتراضية هي`خاطئة` . |
 | [IgnoreFields](../../aspose.words.replacing/findreplaceoptions/ignorefields) { get; set; } | الحصول على أو تعيين قيمة منطقية تشير إما إلى تجاهل النص داخل الحقول. القيمة الافتراضية هي`خاطئة` . |
-| [IgnoreFootnotes](../../aspose.words.replacing/findreplaceoptions/ignorefootnotes) { get; set; } | الحصول على أو تعيين قيمة منطقية تشير إما إلى تجاهل الحواشي السفلية ._ x000d_ القيمة الافتراضية هي`خاطئة` . |
-| [IgnoreInserted](../../aspose.words.replacing/findreplaceoptions/ignoreinserted) { get; set; } | الحصول على أو تعيين قيمة منطقية تشير إما إلى تجاهل النص داخل مراجعات الإدراج ._ x000d_ القيمة الافتراضية هي`خاطئة` . |
+| [IgnoreFootnotes](../../aspose.words.replacing/findreplaceoptions/ignorefootnotes) { get; set; } | الحصول على أو تعيين قيمة منطقية تشير إما إلى تجاهل الحواشي السفلية . القيمة الافتراضية هي`خاطئة` . |
+| [IgnoreInserted](../../aspose.words.replacing/findreplaceoptions/ignoreinserted) { get; set; } | الحصول على أو تعيين قيمة منطقية تشير إما إلى تجاهل النص داخل مراجعات الإدراج . القيمة الافتراضية هي`خاطئة` . |
 | [LegacyMode](../../aspose.words.replacing/findreplaceoptions/legacymode) { get; set; } | الحصول على أو تعيين قيمة منطقية تشير إلى استخدام خوارزمية البحث / الاستبدال القديمة. |
 | [MatchCase](../../aspose.words.replacing/findreplaceoptions/matchcase) { get; set; } | يشير True إلى مقارنة حساسة لحالة الأحرف ، بينما يشير الخطأ "خطأ" إلى مقارنة غير حساسة لحالة الأحرف. |
 | [ReplacingCallback](../../aspose.words.replacing/findreplaceoptions/replacingcallback) { get; set; } | الطريقة المعرفة من قبل المستخدم والتي يتم استدعاؤها قبل حدوث كل استبدال. |

@@ -1,14 +1,14 @@
 ---
 title: NodeType
 second_title: Aspose.Words لمراجع .NET API
-description: إرجاع ملفGlossaryDocument القيمة ._ x000d_
+description: إرجاع ملفGlossaryDocument القيمة .
 type: docs
 weight: 50
 url: /ar/net/aspose.words.buildingblocks/glossarydocument/nodetype/
 ---
 ## GlossaryDocument.NodeType property
 
-إرجاع ملفGlossaryDocument القيمة ._ x000d_
+إرجاع ملفGlossaryDocument القيمة .
 
 ```csharp
 public override NodeType NodeType { get; }

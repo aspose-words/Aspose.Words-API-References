@@ -1,14 +1,14 @@
 ---
 title: ResourceSavingArgs
 second_title: Aspose.Words لمراجع .NET API
-description: توفير بيانات لملفResourceSaving./iresourcesavingcallback/resourcesaving الحدث ._ x000d_
+description: توفير بيانات لملفResourceSaving./iresourcesavingcallback/resourcesaving الحدث .
 type: docs
 weight: 5280
 url: /ar/net/aspose.words.saving/resourcesavingargs/
 ---
 ## ResourceSavingArgs class
 
-توفير بيانات لملف[`ResourceSaving`](../iresourcesavingcallback/resourcesaving) الحدث ._ x000d_
+توفير بيانات لملف[`ResourceSaving`](../iresourcesavingcallback/resourcesaving) الحدث .
 
 ```csharp
 public class ResourceSavingArgs

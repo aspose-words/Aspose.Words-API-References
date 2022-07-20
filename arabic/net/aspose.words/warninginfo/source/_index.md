@@ -1,14 +1,14 @@
 ---
 title: Source
 second_title: Aspose.Words لمراجع .NET API
-description: إرجاع مصدر التحذير ._ x000d_
+description: إرجاع مصدر التحذير .
 type: docs
 weight: 20
 url: /ar/net/aspose.words/warninginfo/source/
 ---
 ## WarningInfo.Source property
 
-إرجاع مصدر التحذير ._ x000d_
+إرجاع مصدر التحذير .
 
 ```csharp
 public WarningSource Source { get; }

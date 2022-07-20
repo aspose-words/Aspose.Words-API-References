@@ -1,14 +1,14 @@
 ---
 title: MappedName
 second_title: Aspose.Words لمراجع .NET API
-description: يحدد اسم حقل الدمج المحدد مسبقًا والذي يجب تعيينه إلى رقم العمود المحدد بواسطةColumnaspose.words.settings/odsofieldmapdata/column الخاصية داخل تعيين الحقل هذا ._ x000d_ القيمة الافتراضية هي سلسلة فارغة.
+description: يحدد اسم حقل الدمج المحدد مسبقًا والذي يجب تعيينه إلى رقم العمود المحدد بواسطةColumnaspose.words.settings/odsofieldmapdata/column الخاصية داخل تعيين الحقل هذا . القيمة الافتراضية هي سلسلة فارغة.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.settings/odsofieldmapdata/mappedname/
 ---
 ## OdsoFieldMapData.MappedName property
 
-يحدد اسم حقل الدمج المحدد مسبقًا والذي يجب تعيينه إلى رقم العمود المحدد بواسطة[`Column`](../column) الخاصية داخل تعيين الحقل هذا ._ x000d_ القيمة الافتراضية هي سلسلة فارغة.
+يحدد اسم حقل الدمج المحدد مسبقًا والذي يجب تعيينه إلى رقم العمود المحدد بواسطة[`Column`](../column) الخاصية داخل تعيين الحقل هذا . القيمة الافتراضية هي سلسلة فارغة.
 
 ```csharp
 public string MappedName { get; set; }

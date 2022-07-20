@@ -1,14 +1,14 @@
 ---
 title: GetEnumerator
 second_title: Aspose.Words لمراجع .NET API
-description: إرجاع AnIEnumerator كائن للتكرار على عناصر المجموعة ._ x000d_
+description: إرجاع AnIEnumerator كائن للتكرار على عناصر المجموعة .
 type: docs
 weight: 40
 url: /ar/net/aspose.words.reporting/knowntypeset/getenumerator/
 ---
 ## KnownTypeSet.GetEnumerator method
 
-إرجاع AnIEnumerator كائن للتكرار على عناصر المجموعة ._ x000d_
+إرجاع AnIEnumerator كائن للتكرار على عناصر المجموعة .
 
 ```csharp
 public IEnumerator<Type> GetEnumerator()

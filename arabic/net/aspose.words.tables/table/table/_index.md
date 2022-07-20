@@ -1,14 +1,14 @@
 ---
 title: Table
 second_title: Aspose.Words لمراجع .NET API
-description: يقوم بتهيئة مثيل جديد لملف الطاولة فئة ._ x000d_
+description: يقوم بتهيئة مثيل جديد لملف الطاولة فئة .
 type: docs
 weight: 10
 url: /ar/net/aspose.words.tables/table/table/
 ---
 ## Table constructor
 
-يقوم بتهيئة مثيل جديد لملف **الطاولة** فئة ._ x000d_
+يقوم بتهيئة مثيل جديد لملف **الطاولة** فئة .
 
 ```csharp
 public Table(DocumentBase doc)

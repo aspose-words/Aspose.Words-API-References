@@ -21,7 +21,7 @@ public abstract class DocumentBase : CompositeNode
 | [BackgroundShape](../../aspose.words/documentbase/backgroundshape) { get; set; } | الحصول على أو تحديد شكل خلفية المستند. يمكن أن يكون فارغًا. |
 | [ChildNodes](../../aspose.words/compositenode/childnodes) { get; } | يحصل على جميع العقد الفرعية الفورية لهذه العقدة. |
 | [Count](../../aspose.words/compositenode/count) { get; } | الحصول على عدد الأطفال المباشرين لهذه العقدة. |
-| [CustomNodeId](../../aspose.words/node/customnodeid) { get; set; } | يحدد معرف العقدة المخصص ._ x000d_ |
+| [CustomNodeId](../../aspose.words/node/customnodeid) { get; set; } | يحدد معرف العقدة المخصص . |
 | override [Document](../../aspose.words/documentbase/document) { get; } |  |
 | [FirstChild](../../aspose.words/compositenode/firstchild) { get; } | الحصول على الطفل الأول للعقدة . |
 | [FontInfos](../../aspose.words/documentbase/fontinfos) { get; } | يوفر الوصول إلى خصائص الخطوط المستخدمة في هذا المستند. |
@@ -38,7 +38,7 @@ public abstract class DocumentBase : CompositeNode
 | [Range](../../aspose.words/node/range) { get; } | إرجاع أ **نطاق** الكائن الذي يمثل جزء المستند الموجود في هذه العقدة. |
 | [ResourceLoadingCallback](../../aspose.words/documentbase/resourceloadingcallback) { get; set; } | يسمح بالتحكم في كيفية تحميل الموارد الخارجية. |
 | [Styles](../../aspose.words/documentbase/styles) { get; } | إرجاع مجموعة من الأنماط المحددة في المستند. |
-| [WarningCallback](../../aspose.words/documentbase/warningcallback) { get; set; } | يتم استدعاؤه أثناء إجراءات معالجة المستندات المختلفة عند اكتشاف مشكلة قد تؤدي إلى في البيانات أو فقدان الدقة في التنسيق ._ x000d_ |
+| [WarningCallback](../../aspose.words/documentbase/warningcallback) { get; set; } | يتم استدعاؤه أثناء إجراءات معالجة المستندات المختلفة عند اكتشاف مشكلة قد تؤدي إلى في البيانات أو فقدان الدقة في التنسيق . |
 
 ## طُرق
 
@@ -52,7 +52,7 @@ public abstract class DocumentBase : CompositeNode
 | [GetAncestor](../../aspose.words/node/getancestor)(Type) | الحصول على الأصل الأول لنوع الكائن المحدد. |
 | [GetChild](../../aspose.words/compositenode/getchild)(NodeType, int, bool) | إرجاع العقدة الفرعية رقم N التي تطابق النوع المحدد. |
 | [GetChildNodes](../../aspose.words/compositenode/getchildnodes)(NodeType, bool) | إرجاع مجموعة مباشرة من العقد الفرعية التي تطابق النوع المحدد. |
-| [GetEnumerator](../../aspose.words/compositenode/getenumerator)() | يوفر دعمًا لكل تكرار نمط على العقد التابعة لهذه العقدة ._ x000d_ |
+| [GetEnumerator](../../aspose.words/compositenode/getenumerator)() | يوفر دعمًا لكل تكرار نمط على العقد التابعة لهذه العقدة . |
 | override [GetText](../../aspose.words/compositenode/gettext)() | يحصل على نص هذه العقدة وجميع توابعها. |
 | [ImportNode](../../aspose.words/documentbase/importnode#importnode)(Node, bool) | يستورد عقدة من وثيقة أخرى إلى الوثيقة الحالية. |
 | [ImportNode](../../aspose.words/documentbase/importnode#importnode_1)(Node, bool, ImportFormatMode) | يستورد عقدة من وثيقة أخرى إلى الوثيقة الحالية مع خيار للتحكم في التنسيق. |
@@ -75,7 +75,7 @@ public abstract class DocumentBase : CompositeNode
 
 Aspose. Words يمثل مستند Word كشجرة من العقد.[`DocumentBase`](../documentbase) هي عقدة جذر للشجرة تحتوي على جميع العقد الأخرى للمستند.
 
-[`DocumentBase`](../documentbase) يخزن أيضًا معلومات على مستوى المستند مثل[`Styles`](./styles) و _ x000d_[`Lists`](./lists) التي قد تشير إليها عُقد الشجرة.
+[`DocumentBase`](../documentbase) يخزن أيضًا معلومات على مستوى المستند مثل[`Styles`](./styles) و _ [`Lists`](./lists) التي قد تشير إليها عُقد الشجرة.
 
 ### أمثلة
 

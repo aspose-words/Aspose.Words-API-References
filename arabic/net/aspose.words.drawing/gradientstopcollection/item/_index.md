@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Aspose.Words لمراجع .NET API
-description: يحصل أو يحدد أGradientStopaspose.words.drawing/gradientstop كائن في المجموعة ._ x000d_
+description: يحصل أو يحدد أGradientStopaspose.words.drawing/gradientstop كائن في المجموعة .
 type: docs
 weight: 20
 url: /ar/net/aspose.words.drawing/gradientstopcollection/item/
 ---
 ## GradientStopCollection indexer
 
-يحصل أو يحدد أ[`GradientStop`](../../gradientstop) كائن في المجموعة ._ x000d_
+يحصل أو يحدد أ[`GradientStop`](../../gradientstop) كائن في المجموعة .
 
 ```csharp
 public GradientStop this[int index] { get; set; }

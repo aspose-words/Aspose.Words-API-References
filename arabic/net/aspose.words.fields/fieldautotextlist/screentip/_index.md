@@ -1,14 +1,14 @@
 ---
 title: ScreenTip
 second_title: Aspose.Words لمراجع .NET API
-description: الحصول على نص تلميح الشاشة المراد عرضه أو تعيينه ._ x000d_
+description: الحصول على نص تلميح الشاشة المراد عرضه أو تعيينه .
 type: docs
 weight: 40
 url: /ar/net/aspose.words.fields/fieldautotextlist/screentip/
 ---
 ## FieldAutoTextList.ScreenTip property
 
-الحصول على نص تلميح الشاشة المراد عرضه أو تعيينه ._ x000d_
+الحصول على نص تلميح الشاشة المراد عرضه أو تعيينه .
 
 ```csharp
 public string ScreenTip { get; set; }

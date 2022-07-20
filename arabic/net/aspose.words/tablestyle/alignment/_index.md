@@ -1,14 +1,14 @@
 ---
 title: Alignment
 second_title: Aspose.Words لمراجع .NET API
-description: يحدد محاذاة نمط الجدول ._ x000d_
+description: يحدد محاذاة نمط الجدول .
 type: docs
 weight: 10
 url: /ar/net/aspose.words/tablestyle/alignment/
 ---
 ## TableStyle.Alignment property
 
-يحدد محاذاة نمط الجدول ._ x000d_
+يحدد محاذاة نمط الجدول .
 
 ```csharp
 public TableAlignment Alignment { get; set; }

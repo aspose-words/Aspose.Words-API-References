@@ -19,7 +19,7 @@ public interface IChartDataPoint
 | اسم | وصف |
 | --- | --- |
 | [Bubble3D](../../aspose.words.drawing.charts/ichartdatapoint/bubble3d) { get; set; } | تحديد ما إذا كان يجب تطبيق تأثير ثلاثي الأبعاد للفقاعات في مخطط الفقاعات. |
-| [Explosion](../../aspose.words.drawing.charts/ichartdatapoint/explosion) { get; set; } | يحدد المقدار الذي يجب نقل نقطة البيانات من مركز الدائرة. يمكن أن تكون سالبة ، وتعني السالبة أن الخاصية لم يتم تعيينها ولا يجب تطبيق أي انفجار. ينطبق فقط على المخططات الدائرية ._ x000d_ |
+| [Explosion](../../aspose.words.drawing.charts/ichartdatapoint/explosion) { get; set; } | يحدد المقدار الذي يجب نقل نقطة البيانات من مركز الدائرة. يمكن أن تكون سالبة ، وتعني السالبة أن الخاصية لم يتم تعيينها ولا يجب تطبيق أي انفجار. ينطبق فقط على المخططات الدائرية . |
 | [InvertIfNegative](../../aspose.words.drawing.charts/ichartdatapoint/invertifnegative) { get; set; } | يحدد ما إذا كان العنصر الأصلي سيعكس ألوانه إذا كانت القيمة سالبة. |
 | [Marker](../../aspose.words.drawing.charts/ichartdatapoint/marker) { get; } | يحدد علامة بيانات. يتم إنشاء محدد الموقع تلقائيًا عند الطلب. |
 

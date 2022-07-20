@@ -1,14 +1,14 @@
 ---
 title: TabChar
 second_title: Aspose.Words لمراجع .NET API
-description: حرف الجدولة char 9 أو  t ._ x000d_
+description: حرف الجدولة char 9 أو  t .
 type: docs
 weight: 280
 url: /ar/net/aspose.words/controlchar/tabchar/
 ---
 ## ControlChar.TabChar field
 
-حرف الجدولة: (char) 9 أو "\ t" ._ x000d_
+حرف الجدولة: (char) 9 أو "\ t" .
 
 ```csharp
 public const char TabChar;

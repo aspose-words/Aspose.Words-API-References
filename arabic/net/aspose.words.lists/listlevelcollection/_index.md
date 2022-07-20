@@ -19,7 +19,7 @@ public class ListLevelCollection : IEnumerable<ListLevel>
 | اسم | وصف |
 | --- | --- |
 | [Count](../../aspose.words.lists/listlevelcollection/count) { get; } | الحصول على عدد المستويات في هذه القائمة . |
-| [Item](../../aspose.words.lists/listlevelcollection/item) { get; set; } | يحصل على مستوى قائمة بالفهرس ._ x000d_ |
+| [Item](../../aspose.words.lists/listlevelcollection/item) { get; set; } | يحصل على مستوى قائمة بالفهرس . |
 
 ## طُرق
 

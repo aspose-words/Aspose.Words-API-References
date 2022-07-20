@@ -1,14 +1,14 @@
 ---
 title: LineBreakChar
 second_title: Aspose.Words لمراجع .NET API
-description: حرف فاصل الأسطر حرف 11 أو  v ._ x000d_
+description: حرف فاصل الأسطر حرف 11 أو  v .
 type: docs
 weight: 130
 url: /ar/net/aspose.words/controlchar/linebreakchar/
 ---
 ## ControlChar.LineBreakChar field
 
-حرف فاصل الأسطر: (حرف) 11 أو "\ v" ._ x000d_
+حرف فاصل الأسطر: (حرف) 11 أو "\ v" .
 
 ```csharp
 public const char LineBreakChar;

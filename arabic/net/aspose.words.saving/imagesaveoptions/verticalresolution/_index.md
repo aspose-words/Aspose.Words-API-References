@@ -1,14 +1,14 @@
 ---
 title: VerticalResolution
 second_title: Aspose.Words لمراجع .NET API
-description: الحصول على أو تعيين الدقة الرأسية للصور التي تم إنشاؤها  بالنقاط في البوصة ._ x000d_
+description: الحصول على أو تعيين الدقة الرأسية للصور التي تم إنشاؤها  بالنقاط في البوصة .
 type: docs
 weight: 190
 url: /ar/net/aspose.words.saving/imagesaveoptions/verticalresolution/
 ---
 ## ImageSaveOptions.VerticalResolution property
 
-الحصول على أو تعيين الدقة الرأسية للصور التي تم إنشاؤها ، بالنقاط في البوصة ._ x000d_
+الحصول على أو تعيين الدقة الرأسية للصور التي تم إنشاؤها ، بالنقاط في البوصة .
 
 ```csharp
 public float VerticalResolution { get; set; }

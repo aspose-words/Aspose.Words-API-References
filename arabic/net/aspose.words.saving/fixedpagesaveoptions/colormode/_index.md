@@ -1,14 +1,14 @@
 ---
 title: ColorMode
 second_title: Aspose.Words لمراجع .NET API
-description: الحصول على أو تعيين قيمة تحدد كيفية عرض الألوان ._ x000d_
+description: الحصول على أو تعيين قيمة تحدد كيفية عرض الألوان .
 type: docs
 weight: 10
 url: /ar/net/aspose.words.saving/fixedpagesaveoptions/colormode/
 ---
 ## FixedPageSaveOptions.ColorMode property
 
-الحصول على أو تعيين قيمة تحدد كيفية عرض الألوان ._ x000d_
+الحصول على أو تعيين قيمة تحدد كيفية عرض الألوان .
 
 ```csharp
 public ColorMode ColorMode { get; set; }

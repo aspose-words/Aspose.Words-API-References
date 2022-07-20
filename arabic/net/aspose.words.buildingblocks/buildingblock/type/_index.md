@@ -1,14 +1,14 @@
 ---
 title: Type
 second_title: Aspose.Words لمراجع .NET API
-description: يحدد نوع الكتلة البرمجية الإنشائية ._ x000d_
+description: يحدد نوع الكتلة البرمجية الإنشائية .
 type: docs
 weight: 120
 url: /ar/net/aspose.words.buildingblocks/buildingblock/type/
 ---
 ## BuildingBlock.Type property
 
-يحدد نوع الكتلة البرمجية الإنشائية ._ x000d_
+يحدد نوع الكتلة البرمجية الإنشائية .
 
 ```csharp
 public BuildingBlockType Type { get; set; }

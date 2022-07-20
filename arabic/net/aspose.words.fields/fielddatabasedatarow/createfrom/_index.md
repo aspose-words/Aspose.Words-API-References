@@ -1,14 +1,14 @@
 ---
 title: CreateFrom
 second_title: Aspose.Words لمراجع .NET API
-description: يقوم بتهيئة مثيل جديد لملفFieldDatabaseDataRowaspose.words.fields/fielddatabasedatarow class منDataRow المثال. x000d_
+description: يقوم بتهيئة مثيل جديد لملفFieldDatabaseDataRowaspose.words.fields/fielddatabasedatarow class منDataRow المثال.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.fields/fielddatabasedatarow/createfrom/
 ---
 ## FieldDatabaseDataRow.CreateFrom method
 
-يقوم بتهيئة مثيل جديد لملف[`FieldDatabaseDataRow`](../../fielddatabasedatarow) class منDataRow المثال. x000d_
+يقوم بتهيئة مثيل جديد لملف[`FieldDatabaseDataRow`](../../fielddatabasedatarow) class منDataRow المثال.
 
 ```csharp
 public static FieldDatabaseDataRow CreateFrom(DataRow dataRow)

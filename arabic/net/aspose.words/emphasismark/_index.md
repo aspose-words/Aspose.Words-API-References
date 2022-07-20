@@ -1,14 +1,14 @@
 ---
 title: EmphasisMark
 second_title: Aspose.Words لمراجع .NET API
-description: تحديد الأنواع الممكنة لعلامة التوكيد ._ x000d_
+description: تحديد الأنواع الممكنة لعلامة التوكيد .
 type: docs
 weight: 1310
 url: /ar/net/aspose.words/emphasismark/
 ---
 ## EmphasisMark enumeration
 
-تحديد الأنواع الممكنة لعلامة التوكيد ._ x000d_
+تحديد الأنواع الممكنة لعلامة التوكيد .
 
 ```csharp
 public enum EmphasisMark
@@ -18,7 +18,7 @@ public enum EmphasisMark
 
 | اسم | قيمة | وصف |
 | --- | --- | --- |
-| None | `0` | لا توجد علامة تأكيد ._ x000d_ |
+| None | `0` | لا توجد علامة تأكيد . |
 | OverSolidCircle | `1` | علامة التوكيد عبارة عن دائرة سوداء صلبة معروضة أعلى النص. |
 | OverComma | `2` | علامة التوكيد هي حرف فاصلة معروض أعلى النص. |
 | OverWhiteCircle | `3` | علامة التوكيد عبارة عن دائرة بيضاء فارغة معروضة فوق النص. |

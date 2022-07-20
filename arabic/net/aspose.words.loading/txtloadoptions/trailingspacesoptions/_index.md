@@ -1,14 +1,14 @@
 ---
 title: TrailingSpacesOptions
 second_title: Aspose.Words لمراجع .NET API
-description: الحصول على أو تعيين الخيار المفضل لمعالجة مساحة زائدة ._ x000d_ القيمة الافتراضية هيTrim .
+description: الحصول على أو تعيين الخيار المفضل لمعالجة مساحة زائدة . القيمة الافتراضية هيTrim .
 type: docs
 weight: 50
 url: /ar/net/aspose.words.loading/txtloadoptions/trailingspacesoptions/
 ---
 ## TxtLoadOptions.TrailingSpacesOptions property
 
-الحصول على أو تعيين الخيار المفضل لمعالجة مساحة زائدة ._ x000d_ القيمة الافتراضية هيTrim .
+الحصول على أو تعيين الخيار المفضل لمعالجة مساحة زائدة . القيمة الافتراضية هيTrim .
 
 ```csharp
 public TxtTrailingSpacesOptions TrailingSpacesOptions { get; set; }

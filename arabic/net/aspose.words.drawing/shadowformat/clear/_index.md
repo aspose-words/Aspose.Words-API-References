@@ -1,14 +1,14 @@
 ---
 title: Clear
 second_title: Aspose.Words لمراجع .NET API
-description: مسح تنسيق الظل ._ x000d_
+description: مسح تنسيق الظل .
 type: docs
 weight: 30
 url: /ar/net/aspose.words.drawing/shadowformat/clear/
 ---
 ## ShadowFormat.Clear method
 
-مسح تنسيق الظل ._ x000d_
+مسح تنسيق الظل .
 
 ```csharp
 public void Clear()

@@ -1,14 +1,14 @@
 ---
 title: ShowDataLabelsRange
 second_title: Aspose.Words لمراجع .NET API
-description: يسمح بتحديد ما إذا كانت القيم من نطاق تسميات البيانات سيتم عرضها في تسميات البيانات. القيمة الافتراضية خاطئة ._ x000d_
+description: يسمح بتحديد ما إذا كانت القيم من نطاق تسميات البيانات سيتم عرضها في تسميات البيانات. القيمة الافتراضية خاطئة .
 type: docs
 weight: 80
 url: /ar/net/aspose.words.drawing.charts/chartdatalabel/showdatalabelsrange/
 ---
 ## ChartDataLabel.ShowDataLabelsRange property
 
-يسمح بتحديد ما إذا كانت القيم من نطاق تسميات البيانات سيتم عرضها في تسميات البيانات. القيمة الافتراضية خاطئة ._ x000d_
+يسمح بتحديد ما إذا كانت القيم من نطاق تسميات البيانات سيتم عرضها في تسميات البيانات. القيمة الافتراضية خاطئة .
 
 ```csharp
 public bool ShowDataLabelsRange { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: ErrorCorrectionLevel
 second_title: Aspose.Words لمراجع .NET API
-description: الحصول على أو تعيين مستوى تصحيح الخطأ لرمز الاستجابة السريعة. القيم الصالحة هي 0  3 ._ x000d_
+description: الحصول على أو تعيين مستوى تصحيح الخطأ لرمز الاستجابة السريعة. القيم الصالحة هي 0  3 .
 type: docs
 weight: 80
 url: /ar/net/aspose.words.fields/fielddisplaybarcode/errorcorrectionlevel/
 ---
 ## FieldDisplayBarcode.ErrorCorrectionLevel property
 
-الحصول على أو تعيين مستوى تصحيح الخطأ لرمز الاستجابة السريعة. القيم الصالحة هي [0 ، 3] ._ x000d_
+الحصول على أو تعيين مستوى تصحيح الخطأ لرمز الاستجابة السريعة. القيم الصالحة هي [0 ، 3] .
 
 ```csharp
 public string ErrorCorrectionLevel { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: SmartTag
 second_title: Aspose.Words لمراجع .NET API
-description: يقوم بتهيئة مثيل جديد لملفSmartTagaspose.words.markup/smarttag فئة ._ x000d_
+description: يقوم بتهيئة مثيل جديد لملفSmartTagaspose.words.markup/smarttag فئة .
 type: docs
 weight: 10
 url: /ar/net/aspose.words.markup/smarttag/smarttag/
 ---
 ## SmartTag constructor
 
-يقوم بتهيئة مثيل جديد لملف[`SmartTag`](../../smarttag) فئة ._ x000d_
+يقوم بتهيئة مثيل جديد لملف[`SmartTag`](../../smarttag) فئة .
 
 ```csharp
 public SmartTag(DocumentBase doc)

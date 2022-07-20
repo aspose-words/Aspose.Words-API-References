@@ -1,14 +1,14 @@
 ---
 title: Rectangle
 second_title: Aspose.Words لمراجع .NET API
-description: إرجاع المستطيل المحيط للكيان الحالي بالنسبة إلى الزاوية اليسرى العلوية للصفحة بالنقاط ._ x000d_
+description: إرجاع المستطيل المحيط للكيان الحالي بالنسبة إلى الزاوية اليسرى العلوية للصفحة بالنقاط .
 type: docs
 weight: 60
 url: /ar/net/aspose.words.layout/layoutenumerator/rectangle/
 ---
 ## LayoutEnumerator.Rectangle property
 
-إرجاع المستطيل المحيط للكيان الحالي بالنسبة إلى الزاوية اليسرى العلوية للصفحة (بالنقاط) ._ x000d_
+إرجاع المستطيل المحيط للكيان الحالي بالنسبة إلى الزاوية اليسرى العلوية للصفحة (بالنقاط) .
 
 ```csharp
 public RectangleF Rectangle { get; }

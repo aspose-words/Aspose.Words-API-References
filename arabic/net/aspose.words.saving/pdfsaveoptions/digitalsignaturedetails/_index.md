@@ -16,7 +16,7 @@ public PdfDigitalSignatureDetails DigitalSignatureDetails { get; set; }
 
 ### ملاحظات
 
-القيمة الافتراضية خالية ولن يتم توقيع مستند الإخراج ._ x000d_ عند تعيين هذه الخاصية على صالحة[`PdfDigitalSignatureDetails`](../../pdfdigitalsignaturedetails) كائن ، ثم سيتم توقيع مستند PDF الناتج رقميًا.
+القيمة الافتراضية خالية ولن يتم توقيع مستند الإخراج . عند تعيين هذه الخاصية على صالحة[`PdfDigitalSignatureDetails`](../../pdfdigitalsignaturedetails) كائن ، ثم سيتم توقيع مستند PDF الناتج رقميًا.
 
 ### أمثلة
 

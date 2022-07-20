@@ -1,14 +1,14 @@
 ---
 title: Value
 second_title: Aspose.Words لمراجع .NET API
-description: إرجاع القيمة الرقمية لحد المحور ._ x000d_
+description: إرجاع القيمة الرقمية لحد المحور .
 type: docs
 weight: 30
 url: /ar/net/aspose.words.drawing.charts/axisbound/value/
 ---
 ## AxisBound.Value property
 
-إرجاع القيمة الرقمية لحد المحور ._ x000d_
+إرجاع القيمة الرقمية لحد المحور .
 
 ```csharp
 public double Value { get; }

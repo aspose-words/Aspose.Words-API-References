@@ -1,14 +1,14 @@
 ---
 title: DocumentSplitCriteria
 second_title: Aspose.Words لمراجع .NET API
-description: يحدد كيفية تقسيم المستند إلى أجزاء عند الحفظHtml أوEpub التنسيق ._ x000d_
+description: يحدد كيفية تقسيم المستند إلى أجزاء عند الحفظHtml أوEpub التنسيق .
 type: docs
 weight: 4700
 url: /ar/net/aspose.words.saving/documentsplitcriteria/
 ---
 ## DocumentSplitCriteria enumeration
 
-يحدد كيفية تقسيم المستند إلى أجزاء عند الحفظHtml أوEpub التنسيق ._ x000d_
+يحدد كيفية تقسيم المستند إلى أجزاء عند الحفظHtml أوEpub التنسيق .
 
 ```csharp
 [Flags]
@@ -29,7 +29,7 @@ public enum DocumentSplitCriteria
 
 [`DocumentSplitCriteria`](../documentsplitcriteria)هي مجموعة من الأعلام التي يمكن دمجها. على سبيل المثال ، يمكنك تقسيم document عند فواصل الصفحات وفقرات العناوين في نفس عملية التصدير.
 
-يمكن أن تتداخل المعايير المختلفة جزئيًا. على سبيل المثال، **عنوان 1** يتم إعطاء النمط بشكل متكرر [`PageBreakBefore`](../../aspose.words/paragraphformat/pagebreakbefore) الملكية لذا فهي تندرج تحت معيارين:PageBreak و _ x000d_HeadingParagraph. يمكن أن تتسبب بعض فواصل المقاطع في حدوث فواصل للصفحات وما إلى ذلك. في الحالات النموذجية ، يكون تحديد علامة واحدة فقط هو الخيار الأكثر عملية.
+يمكن أن تتداخل المعايير المختلفة جزئيًا. على سبيل المثال، **عنوان 1** يتم إعطاء النمط بشكل متكرر [`PageBreakBefore`](../../aspose.words/paragraphformat/pagebreakbefore) الملكية لذا فهي تندرج تحت معيارين:PageBreak و HeadingParagraph. يمكن أن تتسبب بعض فواصل المقاطع في حدوث فواصل للصفحات وما إلى ذلك. في الحالات النموذجية ، يكون تحديد علامة واحدة فقط هو الخيار الأكثر عملية.
 
 ### أمثلة
 

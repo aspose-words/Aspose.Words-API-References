@@ -1,14 +1,14 @@
 ---
 title: VerticalPosition
 second_title: Aspose.Words لمراجع .NET API
-description: يحصل على مسافة عمودية بين حافة الإطار والعنصر المحدد بواسطةRelativeVerticalPositionaspose.words/frameformat/relativeverticalposition الملكية ._ x000d_
+description: يحصل على مسافة عمودية بين حافة الإطار والعنصر المحدد بواسطةRelativeVerticalPositionaspose.words/frameformat/relativeverticalposition الملكية .
 type: docs
 weight: 110
 url: /ar/net/aspose.words/frameformat/verticalposition/
 ---
 ## FrameFormat.VerticalPosition property
 
-يحصل على مسافة عمودية بين حافة الإطار والعنصر المحدد بواسطة[`RelativeVerticalPosition`](../relativeverticalposition) الملكية ._ x000d_
+يحصل على مسافة عمودية بين حافة الإطار والعنصر المحدد بواسطة[`RelativeVerticalPosition`](../relativeverticalposition) الملكية .
 
 ```csharp
 public double VerticalPosition { get; }

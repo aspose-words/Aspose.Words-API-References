@@ -1,14 +1,14 @@
 ---
 title: ToImage
 second_title: Aspose.Words لمراجع .NET API
-description: يحصل على الصورة المخزنة بالشكل كملفImage الكائن ._ x000d_
+description: يحصل على الصورة المخزنة بالشكل كملفImage الكائن .
 type: docs
 weight: 220
 url: /ar/net/aspose.words.drawing/imagedata/toimage/
 ---
 ## ImageData.ToImage method
 
-يحصل على الصورة المخزنة بالشكل كملفImage الكائن ._ x000d_
+يحصل على الصورة المخزنة بالشكل كملفImage الكائن .
 
 ```csharp
 public Image ToImage()

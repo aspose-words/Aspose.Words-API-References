@@ -1,14 +1,14 @@
 ---
 title: CssSaving
 second_title: Aspose.Words لمراجع .NET API
-description: يتم استدعاؤها عند قيام Aspose.Words بحفظ CSS ورقة الأنماط المتتالية ._ x000d_
+description: يتم استدعاؤها عند قيام Aspose.Words بحفظ CSS ورقة الأنماط المتتالية .
 type: docs
 weight: 10
 url: /ar/net/aspose.words.saving/icsssavingcallback/csssaving/
 ---
 ## ICssSavingCallback.CssSaving method
 
-يتم استدعاؤها عند قيام Aspose.Words بحفظ CSS (ورقة الأنماط المتتالية) ._ x000d_
+يتم استدعاؤها عند قيام Aspose.Words بحفظ CSS (ورقة الأنماط المتتالية) .
 
 ```csharp
 public void CssSaving(CssSavingArgs args)

@@ -1,14 +1,14 @@
 ---
 title: JoinStyle
 second_title: Aspose.Words لمراجع .NET API
-description: نمط ربط الخط ._ x000d_
+description: نمط ربط الخط .
 type: docs
 weight: 960
 url: /ar/net/aspose.words.drawing/joinstyle/
 ---
 ## JoinStyle enumeration
 
-نمط ربط الخط ._ x000d_
+نمط ربط الخط .
 
 ```csharp
 public enum JoinStyle

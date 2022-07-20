@@ -21,7 +21,7 @@ public class XmlMapping
 | [CustomXmlPart](../../aspose.words.markup/xmlmapping/customxmlpart) { get; } | إرجاع جزء بيانات XML المخصص الذي تم تعيين علامة المستند المهيكلة الأصلية إليه. |
 | [IsMapped](../../aspose.words.markup/xmlmapping/ismapped) { get; } | عوائد **حقيقي** إذا تم تعيين علامة المستند المهيكل الأصلي بنجاح إلى بيانات XML. |
 | [PrefixMappings](../../aspose.words.markup/xmlmapping/prefixmappings) { get; } | إرجاع تعيينات بادئة مساحة اسم XML لتقييم ملف[`XPath`](./xpath) . |
-| [StoreItemId](../../aspose.words.markup/xmlmapping/storeitemid) { get; } | يحدد معرف بيانات XML المخصص لجزء بيانات XML المخصص والذي يجب استخدامه لتقييم[`XPath`](./xpath) التعبير ._ x000d_ |
+| [StoreItemId](../../aspose.words.markup/xmlmapping/storeitemid) { get; } | يحدد معرف بيانات XML المخصص لجزء بيانات XML المخصص والذي يجب استخدامه لتقييم[`XPath`](./xpath) التعبير . |
 | [XPath](../../aspose.words.markup/xmlmapping/xpath) { get; } | إرجاع تعبير XPath ، الذي تم تقييمه للعثور على XML node المخصص الذي تم تعيينه إلى علامة المستند المهيكلة الأصل. |
 
 ## طُرق

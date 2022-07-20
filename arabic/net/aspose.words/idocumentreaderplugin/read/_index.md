@@ -1,14 +1,14 @@
 ---
 title: Read
 second_title: Aspose.Words لمراجع .NET API
-description: يقرأ البيانات من الدفق المحدد إلى ملفDocumentaspose.words/document المثال. x000d_
+description: يقرأ البيانات من الدفق المحدد إلى ملفDocumentaspose.words/document المثال.
 type: docs
 weight: 10
 url: /ar/net/aspose.words/idocumentreaderplugin/read/
 ---
 ## IDocumentReaderPlugin.Read method
 
-يقرأ البيانات من الدفق المحدد إلى ملف[`Document`](../../document) المثال. x000d_
+يقرأ البيانات من الدفق المحدد إلى ملف[`Document`](../../document) المثال.
 
 ```csharp
 public void Read(Stream src, LoadOptions loadOptions, Document document)

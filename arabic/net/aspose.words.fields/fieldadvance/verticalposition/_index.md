@@ -1,14 +1,14 @@
 ---
 title: VerticalPosition
 second_title: Aspose.Words لمراجع .NET API
-description: الحصول على أو تعيين عدد النقاط التي يجب نقل النص الذي يتبع الحقل عموديًا_ x000d_ من الحافة العلوية للصفحة.
+description: الحصول على أو تعيين عدد النقاط التي يجب نقل النص الذي يتبع الحقل عموديًا من الحافة العلوية للصفحة.
 type: docs
 weight: 70
 url: /ar/net/aspose.words.fields/fieldadvance/verticalposition/
 ---
 ## FieldAdvance.VerticalPosition property
 
-الحصول على أو تعيين عدد النقاط التي يجب نقل النص الذي يتبع الحقل عموديًا_ x000d_ من الحافة العلوية للصفحة.
+الحصول على أو تعيين عدد النقاط التي يجب نقل النص الذي يتبع الحقل عموديًا من الحافة العلوية للصفحة.
 
 ```csharp
 public string VerticalPosition { get; set; }

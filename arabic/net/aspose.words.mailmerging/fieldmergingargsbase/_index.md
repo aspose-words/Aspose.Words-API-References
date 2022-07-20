@@ -24,7 +24,7 @@ public abstract class FieldMergingArgsBase
 | [FieldName](../../aspose.words.mailmerging/fieldmergingargsbase/fieldname) { get; } | الحصول على اسم حقل الدمج في مصدر البيانات. |
 | [FieldValue](../../aspose.words.mailmerging/fieldmergingargsbase/fieldvalue) { get; set; } | الحصول على أو تعيين قيمة الحقل من مصدر البيانات. |
 | [RecordIndex](../../aspose.words.mailmerging/fieldmergingargsbase/recordindex) { get; } | الحصول على فهرس السجل الذي يتم دمجه على أساس الصفر. |
-| [TableName](../../aspose.words.mailmerging/fieldmergingargsbase/tablename) { get; } | الحصول على اسم جدول البيانات لعملية الدمج الحالية أو السلسلة الفارغة إذا لم يكن الاسم متاحًا ._ x000d_ |
+| [TableName](../../aspose.words.mailmerging/fieldmergingargsbase/tablename) { get; } | الحصول على اسم جدول البيانات لعملية الدمج الحالية أو السلسلة الفارغة إذا لم يكن الاسم متاحًا . |
 
 ### أمثلة
 

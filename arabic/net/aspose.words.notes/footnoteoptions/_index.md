@@ -22,7 +22,7 @@ public sealed class FootnoteOptions
 | [NumberStyle](../../aspose.words.notes/footnoteoptions/numberstyle) { get; set; } | يحدد تنسيق الأرقام للحواشي السفلية المرقمة تلقائيًا. |
 | [Position](../../aspose.words.notes/footnoteoptions/position) { get; set; } | يحدد موضع الحواشي السفلية. |
 | [RestartRule](../../aspose.words.notes/footnoteoptions/restartrule) { get; set; } | يحدد عند إعادة تشغيل الترقيم التلقائي. |
-| [StartNumber](../../aspose.words.notes/footnoteoptions/startnumber) { get; set; } | يحدد رقم البداية أو الحرف لأول حواشي سفلية مرقمة تلقائيًا ._ x000d_ |
+| [StartNumber](../../aspose.words.notes/footnoteoptions/startnumber) { get; set; } | يحدد رقم البداية أو الحرف لأول حواشي سفلية مرقمة تلقائيًا . |
 
 ### أمثلة
 

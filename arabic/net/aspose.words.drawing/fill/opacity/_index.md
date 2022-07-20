@@ -1,14 +1,14 @@
 ---
 title: Opacity
 second_title: Aspose.Words لمراجع .NET API
-description: الحصول على درجة تعتيم التعبئة المحددة أو تعيينها كقيمة بين 0.0 واضح و 1.0 معتم ._ x000d_
+description: الحصول على درجة تعتيم التعبئة المحددة أو تعيينها كقيمة بين 0.0 واضح و 1.0 معتم .
 type: docs
 weight: 90
 url: /ar/net/aspose.words.drawing/fill/opacity/
 ---
 ## Fill.Opacity property
 
-الحصول على درجة تعتيم التعبئة المحددة أو تعيينها كقيمة بين 0.0 (واضح) و 1.0 (معتم) ._ x000d_
+الحصول على درجة تعتيم التعبئة المحددة أو تعيينها كقيمة بين 0.0 (واضح) و 1.0 (معتم) .
 
 ```csharp
 public double Opacity { get; set; }

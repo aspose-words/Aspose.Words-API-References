@@ -1,14 +1,14 @@
 ---
 title: TextEffect
 second_title: Aspose.Words لمراجع .NET API
-description: تأثير الحركة لتشغيل النص. x000d_
+description: تأثير الحركة لتشغيل النص.
 type: docs
 weight: 6120
 url: /ar/net/aspose.words/texteffect/
 ---
 ## TextEffect enumeration
 
-تأثير الحركة لتشغيل النص. x000d_
+تأثير الحركة لتشغيل النص.
 
 ```csharp
 public enum TextEffect

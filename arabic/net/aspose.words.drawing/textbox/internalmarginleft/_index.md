@@ -1,14 +1,14 @@
 ---
 title: InternalMarginLeft
 second_title: Aspose.Words لمراجع .NET API
-description: يحدد الهامش الأيسر الداخلي بالنقاط للشكل ._ x000d_
+description: يحدد الهامش الأيسر الداخلي بالنقاط للشكل .
 type: docs
 weight: 30
 url: /ar/net/aspose.words.drawing/textbox/internalmarginleft/
 ---
 ## TextBox.InternalMarginLeft property
 
-يحدد الهامش الأيسر الداخلي بالنقاط للشكل ._ x000d_
+يحدد الهامش الأيسر الداخلي بالنقاط للشكل .
 
 ```csharp
 public double InternalMarginLeft { get; set; }

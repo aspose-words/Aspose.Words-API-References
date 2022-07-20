@@ -16,7 +16,7 @@ public string ImageFileName { get; set; }
 
 ### ملاحظات
 
-تتيح لك هذه الخاصية إعادة تعريف كيفية إنشاء أسماء ملفات الصور_ x000d_ أثناء التصدير إلى HTML.
+تتيح لك هذه الخاصية إعادة تعريف كيفية إنشاء أسماء ملفات الصور أثناء التصدير إلى HTML.
 
 عند إطلاق الحدث ، تحتوي هذه الخاصية على اسم الملف الذي تم إنشاؤه بواسطة Aspose.Words . يمكنك تغيير قيمة هذه الخاصية لحفظ الصورة في ملف مختلف . لاحظ أن أسماء الملفات يجب أن تكون فريدة.
 
@@ -26,7 +26,7 @@ public string ImageFileName { get; set; }
 
 عند حفظ مستند إلى دفق ، يبدو اسم ملف الصورة الذي تم إنشاؤه مثل Aspose.Words. &lt;document GU&gt;. &lt;image number&gt;. &lt;extension&gt;.
 
-`ImageFileName` يجب أن يحتوي على اسم الملف فقط بدون المسار. Aspose. تحدد الكلمات مسار الحفظ وقيمة`src`السمة لكتابة إلى HTML باستخدام اسم ملف المستند ، و[`ImagesFolder`](../../htmlsaveoptions/imagesfolder) و_ x000d_[`ImagesFolderAlias`](../../htmlsaveoptions/imagesfolderalias) الخصائص.
+`ImageFileName` يجب أن يحتوي على اسم الملف فقط بدون المسار. Aspose. تحدد الكلمات مسار الحفظ وقيمة`src`السمة لكتابة إلى HTML باستخدام اسم ملف المستند ، و[`ImagesFolder`](../../htmlsaveoptions/imagesfolder) و [`ImagesFolderAlias`](../../htmlsaveoptions/imagesfolderalias) الخصائص.
 
 ### أمثلة
 

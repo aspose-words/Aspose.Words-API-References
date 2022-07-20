@@ -21,7 +21,7 @@ public class OleFormat
 | [AutoUpdate](../../aspose.words.drawing/oleformat/autoupdate) { get; set; } | يحدد ما إذا كان الارتباط إلى كائن OLE يتم تحديثه تلقائيًا أم لا في Microsoft Word. |
 | [Clsid](../../aspose.words.drawing/oleformat/clsid) { get; } | الحصول على CLSID الخاص بكائن OLE. |
 | [IconCaption](../../aspose.words.drawing/oleformat/iconcaption) { get; } | الحصول على رمز التسمية التوضيحية لكائن OLE . |
-| [IsLink](../../aspose.words.drawing/oleformat/islink) { get; } | إرجاع صحيح إذا تم ربط كائن OLE (عندما[`SourceFullName`](./sourcefullname) محدد) ._ x000d_ |
+| [IsLink](../../aspose.words.drawing/oleformat/islink) { get; } | إرجاع صحيح إذا تم ربط كائن OLE (عندما[`SourceFullName`](./sourcefullname) محدد) . |
 | [IsLocked](../../aspose.words.drawing/oleformat/islocked) { get; set; } | يحدد ما إذا كان الارتباط بكائن OLE مؤمنًا من التحديثات. |
 | [OleControl](../../aspose.words.drawing/oleformat/olecontrol) { get; } | يحصل[`OleControl`](./olecontrol) كائنات إذا كان كائن OLE هذا عنصر تحكم ActiveX. وإلا فإن هذه الخاصية لاغية. |
 | [OleIcon](../../aspose.words.drawing/oleformat/oleicon) { get; } | الحصول على وجه الرسم لكائن OLE. متي **حقيقي** ، يتم عرض كائن OLE كرمز. متى **خاطئة** ، يتم عرض كائن OLE كمحتوى. |

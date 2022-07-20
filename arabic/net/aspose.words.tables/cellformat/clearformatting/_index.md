@@ -1,14 +1,14 @@
 ---
 title: ClearFormatting
 second_title: Aspose.Words لمراجع .NET API
-description: إعادة التعيين إلى تنسيق الخلية الافتراضي. لا يغير عرض الخلية ._ x000d_
+description: إعادة التعيين إلى تنسيق الخلية الافتراضي. لا يغير عرض الخلية .
 type: docs
 weight: 150
 url: /ar/net/aspose.words.tables/cellformat/clearformatting/
 ---
 ## CellFormat.ClearFormatting method
 
-إعادة التعيين إلى تنسيق الخلية الافتراضي. لا يغير عرض الخلية ._ x000d_
+إعادة التعيين إلى تنسيق الخلية الافتراضي. لا يغير عرض الخلية .
 
 ```csharp
 public void ClearFormatting()

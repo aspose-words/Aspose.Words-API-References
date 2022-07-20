@@ -1,14 +1,14 @@
 ---
 title: Resolution
 second_title: Aspose.Words لمراجع .NET API
-description: يحدد الدقة بالبكسل في البوصة التي يجب تصغير حجم الصور إليها ._ x000d_
+description: يحدد الدقة بالبكسل في البوصة التي يجب تصغير حجم الصور إليها .
 type: docs
 weight: 30
 url: /ar/net/aspose.words.saving/downsampleoptions/resolution/
 ---
 ## DownsampleOptions.Resolution property
 
-يحدد الدقة بالبكسل في البوصة التي يجب تصغير حجم الصور إليها ._ x000d_
+يحدد الدقة بالبكسل في البوصة التي يجب تصغير حجم الصور إليها .
 
 ```csharp
 public int Resolution { get; set; }

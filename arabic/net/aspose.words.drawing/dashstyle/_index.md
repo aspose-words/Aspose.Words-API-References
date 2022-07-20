@@ -1,14 +1,14 @@
 ---
 title: DashStyle
 second_title: Aspose.Words لمراجع .NET API
-description: نمط الخط المتقطع ._ x000d_
+description: نمط الخط المتقطع .
 type: docs
 weight: 800
 url: /ar/net/aspose.words.drawing/dashstyle/
 ---
 ## DashStyle enumeration
 
-نمط الخط المتقطع ._ x000d_
+نمط الخط المتقطع .
 
 ```csharp
 public enum DashStyle
@@ -18,17 +18,17 @@ public enum DashStyle
 
 | اسم | قيمة | وصف |
 | --- | --- | --- |
-| Solid | `0` | قلم صلب (مستمر) ._ x000d_ |
-| ShortDash | `1` | نمط اندفاعة النظام ._ x000d_ |
-| ShortDot | `2` | نمط اندفاعة النظام ._ x000d_ |
-| ShortDashDot | `3` | نمط اندفاعة النظام ._ x000d_ |
-| ShortDashDotDot | `4` | نمط اندفاعة النظام ._ x000d_ |
-| Dot | `5` | نمط نقطة مربعة ._ x000d_ |
-| Dash | `6` | نمط اندفاعة ._ x000d_ |
-| LongDash | `7` | نمط شرطة طويلة ._ x000d_ |
+| Solid | `0` | قلم صلب (مستمر) . |
+| ShortDash | `1` | نمط اندفاعة النظام . |
+| ShortDot | `2` | نمط اندفاعة النظام . |
+| ShortDashDot | `3` | نمط اندفاعة النظام . |
+| ShortDashDotDot | `4` | نمط اندفاعة النظام . |
+| Dot | `5` | نمط نقطة مربعة . |
+| Dash | `6` | نمط اندفاعة . |
+| LongDash | `7` | نمط شرطة طويلة . |
 | DashDot | `8` | شرطة قصيرة. |
 | LongDashDot | `9` | شرطة طويلة واصلة قصيرة . |
-| LongDashDotDot | `10` | شرطة طويلة شرطة قصيرة شرطة قصيرة ._ x000d_ |
+| LongDashDotDot | `10` | شرطة طويلة شرطة قصيرة شرطة قصيرة . |
 | Default | `0` | نفسSolid . |
 
 ### أمثلة

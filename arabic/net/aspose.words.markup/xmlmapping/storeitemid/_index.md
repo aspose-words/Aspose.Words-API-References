@@ -1,14 +1,14 @@
 ---
 title: StoreItemId
 second_title: Aspose.Words لمراجع .NET API
-description: يحدد معرف بيانات XML المخصص لجزء بيانات XML المخصص والذي يجب استخدامه لتقييمXPathaspose.words.markup/xmlmapping/xpath التعبير ._ x000d_
+description: يحدد معرف بيانات XML المخصص لجزء بيانات XML المخصص والذي يجب استخدامه لتقييمXPathaspose.words.markup/xmlmapping/xpath التعبير .
 type: docs
 weight: 40
 url: /ar/net/aspose.words.markup/xmlmapping/storeitemid/
 ---
 ## XmlMapping.StoreItemId property
 
-يحدد معرف بيانات XML المخصص لجزء بيانات XML المخصص والذي يجب استخدامه لتقييم[`XPath`](../xpath) التعبير ._ x000d_
+يحدد معرف بيانات XML المخصص لجزء بيانات XML المخصص والذي يجب استخدامه لتقييم[`XPath`](../xpath) التعبير .
 
 ```csharp
 public string StoreItemId { get; }

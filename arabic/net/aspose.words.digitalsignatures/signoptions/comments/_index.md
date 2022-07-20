@@ -1,14 +1,14 @@
 ---
 title: Comments
 second_title: Aspose.Words لمراجع .NET API
-description: يحدد التعليقات على التوقيع الرقمي. _ x000d_ القيمة الافتراضية هي سلسلة فارغة Empty  ._ x000d_
+description: يحدد التعليقات على التوقيع الرقمي. القيمة الافتراضية هي سلسلة فارغة Empty  .
 type: docs
 weight: 20
 url: /ar/net/aspose.words.digitalsignatures/signoptions/comments/
 ---
 ## SignOptions.Comments property
 
-يحدد التعليقات على التوقيع الرقمي. _ x000d_ القيمة الافتراضية هي **سلسلة فارغة** (Empty ) ._ x000d_
+يحدد التعليقات على التوقيع الرقمي. القيمة الافتراضية هي **سلسلة فارغة** (Empty ) .
 
 ```csharp
 public string Comments { get; set; }

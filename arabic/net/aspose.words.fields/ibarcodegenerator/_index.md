@@ -18,12 +18,12 @@ public interface IBarcodeGenerator
 
 | اسم | وصف |
 | --- | --- |
-| [GetBarcodeImage](../../aspose.words.fields/ibarcodegenerator/getbarcodeimage)(BarcodeParameters) | إنشاء صورة الرمز الشريطي باستخدام مجموعة المعلمات (لحقل DisplayBarcode) ._ x000d_ |
-| [GetOldBarcodeImage](../../aspose.words.fields/ibarcodegenerator/getoldbarcodeimage)(BarcodeParameters) | إنشاء صورة الرمز الشريطي باستخدام مجموعة المعلمات (لحقل الرمز الشريطي القديم) ._ x000d_ |
+| [GetBarcodeImage](../../aspose.words.fields/ibarcodegenerator/getbarcodeimage)(BarcodeParameters) | إنشاء صورة الرمز الشريطي باستخدام مجموعة المعلمات (لحقل DisplayBarcode) . |
+| [GetOldBarcodeImage](../../aspose.words.fields/ibarcodegenerator/getoldbarcodeimage)(BarcodeParameters) | إنشاء صورة الرمز الشريطي باستخدام مجموعة المعلمات (لحقل الرمز الشريطي القديم) . |
 
 ### ملاحظات
 
-يجب أن يتم تمرير مثيل المولد عبر ملف[`BarcodeGenerator`](../fieldoptions/barcodegenerator) الملكية ._ x000d_
+يجب أن يتم تمرير مثيل المولد عبر ملف[`BarcodeGenerator`](../fieldoptions/barcodegenerator) الملكية .
 
 ### أمثلة
 

@@ -1,14 +1,14 @@
 ---
 title: GetEnumerator
 second_title: Aspose.Words لمراجع .NET API
-description: يوفر دعمًا لكل تكرار نمط على العقد التابعة لهذه العقدة ._ x000d_
+description: يوفر دعمًا لكل تكرار نمط على العقد التابعة لهذه العقدة .
 type: docs
 weight: 220
 url: /ar/net/aspose.words.markup/structureddocumenttagrangestart/getenumerator/
 ---
 ## StructuredDocumentTagRangeStart.GetEnumerator method
 
-يوفر دعمًا لكل تكرار نمط على العقد التابعة لهذه العقدة ._ x000d_
+يوفر دعمًا لكل تكرار نمط على العقد التابعة لهذه العقدة .
 
 ```csharp
 public IEnumerator<Node> GetEnumerator()

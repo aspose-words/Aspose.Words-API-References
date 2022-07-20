@@ -1,14 +1,14 @@
 ---
 title: PixelToPoint
 second_title: Aspose.Words لمراجع .NET API
-description: تحويل وحدات البكسل إلى نقاط بدقة 96 نقطة في البوصة ._ x000d_
+description: تحويل وحدات البكسل إلى نقاط بدقة 96 نقطة في البوصة .
 type: docs
 weight: 40
 url: /ar/net/aspose.words/convertutil/pixeltopoint/
 ---
 ## PixelToPoint(double) {#pixeltopoint}
 
-تحويل وحدات البكسل إلى نقاط بدقة 96 نقطة في البوصة ._ x000d_
+تحويل وحدات البكسل إلى نقاط بدقة 96 نقطة في البوصة .
 
 ```csharp
 public static double PixelToPoint(double pixels)
@@ -20,7 +20,7 @@ public static double PixelToPoint(double pixels)
 
 ### ملاحظات
 
-1 بوصة تساوي 72 نقطة ._ x000d_
+1 بوصة تساوي 72 نقطة .
 
 ### أمثلة
 
@@ -78,7 +78,7 @@ public static double PixelToPoint(double pixels, double resolution)
 
 ### ملاحظات
 
-1 بوصة تساوي 72 نقطة ._ x000d_
+1 بوصة تساوي 72 نقطة .
 
 ### أمثلة
 

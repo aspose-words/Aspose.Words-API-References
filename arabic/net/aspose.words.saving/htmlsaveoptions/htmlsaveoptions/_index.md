@@ -1,14 +1,14 @@
 ---
 title: HtmlSaveOptions
 second_title: Aspose.Words لمراجع .NET API
-description: تهيئة مثيل جديد من هذه الفئة يمكن استخدامه لحفظ document فيHtml التنسيق ._ x000d_
+description: تهيئة مثيل جديد من هذه الفئة يمكن استخدامه لحفظ document فيHtml التنسيق .
 type: docs
 weight: 10
 url: /ar/net/aspose.words.saving/htmlsaveoptions/htmlsaveoptions/
 ---
 ## HtmlSaveOptions() {#constructor}
 
-تهيئة مثيل جديد من هذه الفئة يمكن استخدامه لحفظ document فيHtml التنسيق ._ x000d_
+تهيئة مثيل جديد من هذه الفئة يمكن استخدامه لحفظ document فيHtml التنسيق .
 
 ```csharp
 public HtmlSaveOptions()
@@ -48,7 +48,7 @@ doc.Save(ArtifactsDir + "HtmlSaveOptions.Doc2EpubSaveOptions.epub", saveOptions)
 
 ## HtmlSaveOptions(SaveFormat) {#constructor_1}
 
-تهيئة مثيل جديد من هذه الفئة يمكن استخدامه لحفظ document فيHtml وMhtml أوEpub التنسيق ._ x000d_
+تهيئة مثيل جديد من هذه الفئة يمكن استخدامه لحفظ document فيHtml وMhtml أوEpub التنسيق .
 
 ```csharp
 public HtmlSaveOptions(SaveFormat saveFormat)

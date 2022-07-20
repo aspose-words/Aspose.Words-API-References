@@ -1,14 +1,14 @@
 ---
 title: PageIndex
 second_title: Aspose.Words لمراجع .NET API
-description: فهرس الصفحة الحالية ._ x000d_
+description: فهرس الصفحة الحالية .
 type: docs
 weight: 40
 url: /ar/net/aspose.words.saving/pagesavingargs/pageindex/
 ---
 ## PageSavingArgs.PageIndex property
 
-فهرس الصفحة الحالية ._ x000d_
+فهرس الصفحة الحالية .
 
 ```csharp
 public int PageIndex { get; }

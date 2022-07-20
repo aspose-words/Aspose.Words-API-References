@@ -1,14 +1,14 @@
 ---
 title: WrapText
 second_title: Aspose.Words لمراجع .NET API
-description: إذا كان صحيحًا  فالتفاف النص للخلية ._ x000d_
+description: إذا كان صحيحًا  فالتفاف النص للخلية .
 type: docs
 weight: 140
 url: /ar/net/aspose.words.tables/cellformat/wraptext/
 ---
 ## CellFormat.WrapText property
 
-إذا كان صحيحًا ، فالتفاف النص للخلية ._ x000d_
+إذا كان صحيحًا ، فالتفاف النص للخلية .
 
 ```csharp
 public bool WrapText { get; set; }

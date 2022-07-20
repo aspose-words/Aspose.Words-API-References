@@ -1,14 +1,14 @@
 ---
 title: CheckBoxSize
 second_title: Aspose.Words لمراجع .NET API
-description: الحصول على أو تحديد حجم خانة الاختيار بالنقاط. يكون له تأثير فقط عندماIsCheckBoxExactSizeaspose.words.fields/formfield/ischeckboxexactsize هذا صحيح ._ x000d_
+description: الحصول على أو تحديد حجم خانة الاختيار بالنقاط. يكون له تأثير فقط عندماIsCheckBoxExactSizeaspose.words.fields/formfield/ischeckboxexactsize هذا صحيح .
 type: docs
 weight: 20
 url: /ar/net/aspose.words.fields/formfield/checkboxsize/
 ---
 ## FormField.CheckBoxSize property
 
-الحصول على أو تحديد حجم خانة الاختيار بالنقاط. يكون له تأثير فقط عندما[`IsCheckBoxExactSize`](../ischeckboxexactsize) هذا صحيح ._ x000d_
+الحصول على أو تحديد حجم خانة الاختيار بالنقاط. يكون له تأثير فقط عندما[`IsCheckBoxExactSize`](../ischeckboxexactsize) هذا صحيح .
 
 ```csharp
 public double CheckBoxSize { get; set; }

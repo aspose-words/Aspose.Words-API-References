@@ -1,14 +1,14 @@
 ---
 title: RowCollection
 second_title: Aspose.Words لمراجع .NET API
-description: يوفر وصولاً مكتوبًا إلى مجموعة منRow./row العقد ._ x000d_
+description: يوفر وصولاً مكتوبًا إلى مجموعة منRow./row العقد .
 type: docs
 weight: 6020
 url: /ar/net/aspose.words.tables/rowcollection/
 ---
 ## RowCollection class
 
-يوفر وصولاً مكتوبًا إلى مجموعة من[`Row`](../row) العقد ._ x000d_
+يوفر وصولاً مكتوبًا إلى مجموعة من[`Row`](../row) العقد .
 
 ```csharp
 public class RowCollection : NodeCollection

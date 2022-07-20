@@ -1,14 +1,14 @@
 ---
 title: Open
 second_title: Aspose.Words لمراجع .NET API
-description: يسمح لتطبيق COM بتحميل ملفDocumentaspose.words/document من ملف ._ x000d_
+description: يسمح لتطبيق COM بتحميل ملفDocumentaspose.words/document من ملف .
 type: docs
 weight: 20
 url: /ar/net/aspose.words/comhelper/open/
 ---
 ## Open(string) {#open_1}
 
-يسمح لتطبيق COM بتحميل ملف[`Document`](../../document) من ملف ._ x000d_
+يسمح لتطبيق COM بتحميل ملف[`Document`](../../document) من ملف .
 
 ```csharp
 public Document Open(string fileName)
@@ -69,7 +69,7 @@ using (FileStream stream = new FileStream(MyDir + "Document.docx", FileMode.Open
 
 ## Open(Stream) {#open}
 
-يسمح بتحميل تطبيق COM[`Document`](../../document) من تيار ._ x000d_
+يسمح بتحميل تطبيق COM[`Document`](../../document) من تيار .
 
 ```csharp
 public Document Open(Stream stream)

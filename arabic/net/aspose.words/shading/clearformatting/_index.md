@@ -1,14 +1,14 @@
 ---
 title: ClearFormatting
 second_title: Aspose.Words لمراجع .NET API
-description: يزيل التظليل من الكائن ._ x000d_
+description: يزيل التظليل من الكائن .
 type: docs
 weight: 40
 url: /ar/net/aspose.words/shading/clearformatting/
 ---
 ## Shading.ClearFormatting method
 
-يزيل التظليل من الكائن ._ x000d_
+يزيل التظليل من الكائن .
 
 ```csharp
 public void ClearFormatting()

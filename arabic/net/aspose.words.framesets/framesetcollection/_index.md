@@ -1,14 +1,14 @@
 ---
 title: FramesetCollection
 second_title: Aspose.Words لمراجع .NET API
-description: يمثل مجموعة من مثيلات ملفFrameset./frameset فئة ._ x000d_
+description: يمثل مجموعة من مثيلات ملفFrameset./frameset فئة .
 type: docs
 weight: 2910
 url: /ar/net/aspose.words.framesets/framesetcollection/
 ---
 ## FramesetCollection class
 
-يمثل مجموعة من مثيلات ملف[`Frameset`](../frameset) فئة ._ x000d_
+يمثل مجموعة من مثيلات ملف[`Frameset`](../frameset) فئة .
 
 ```csharp
 public class FramesetCollection : IEnumerable<Frameset>

@@ -1,14 +1,14 @@
 ---
 title: SetData
 second_title: Aspose.Words لمراجع .NET API
-description: يحدد البيانات التي قدمها المستخدم للمورد المستخدم_ x000d_ ifResourceLoadingaspose.words.loading/iresourceloadingcallback/resourceloading إرجاع UserProvided .
+description: يحدد البيانات التي قدمها المستخدم للمورد المستخدم ifResourceLoadingaspose.words.loading/iresourceloadingcallback/resourceloading إرجاع UserProvided .
 type: docs
 weight: 40
 url: /ar/net/aspose.words.loading/resourceloadingargs/setdata/
 ---
 ## ResourceLoadingArgs.SetData method
 
-يحدد البيانات التي قدمها المستخدم للمورد المستخدم_ x000d_ if[`ResourceLoading`](../../iresourceloadingcallback/resourceloading) إرجاع UserProvided .
+يحدد البيانات التي قدمها المستخدم للمورد المستخدم if[`ResourceLoading`](../../iresourceloadingcallback/resourceloading) إرجاع UserProvided .
 
 ```csharp
 public void SetData(byte[] data)

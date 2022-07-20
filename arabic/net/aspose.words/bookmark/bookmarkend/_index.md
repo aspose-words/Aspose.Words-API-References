@@ -1,14 +1,14 @@
 ---
 title: BookmarkEnd
 second_title: Aspose.Words لمراجع .NET API
-description: يحصل على العقدة التي تمثل نهاية الإشارة المرجعية ._ x000d_
+description: يحصل على العقدة التي تمثل نهاية الإشارة المرجعية .
 type: docs
 weight: 10
 url: /ar/net/aspose.words/bookmark/bookmarkend/
 ---
 ## Bookmark.BookmarkEnd property
 
-يحصل على العقدة التي تمثل نهاية الإشارة المرجعية ._ x000d_
+يحصل على العقدة التي تمثل نهاية الإشارة المرجعية .
 
 ```csharp
 public BookmarkEnd BookmarkEnd { get; }

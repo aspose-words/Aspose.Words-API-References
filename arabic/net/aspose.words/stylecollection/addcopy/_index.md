@@ -1,14 +1,14 @@
 ---
 title: AddCopy
 second_title: Aspose.Words لمراجع .NET API
-description: نسخ نمط في هذه المجموعة ._ x000d_
+description: نسخ نمط في هذه المجموعة .
 type: docs
 weight: 70
 url: /ar/net/aspose.words/stylecollection/addcopy/
 ---
 ## StyleCollection.AddCopy method
 
-نسخ نمط في هذه المجموعة ._ x000d_
+نسخ نمط في هذه المجموعة .
 
 ```csharp
 public Style AddCopy(Style style)
@@ -30,7 +30,7 @@ public Style AddCopy(Style style)
 
 هذه الطريقة لا تنسخ الأنماط الأساسية.
 
-إذا كانت المجموعة تحتوي بالفعل على نمط بنفس الاسم ، فسيتم إنشاء الاسم الجديد تلقائيًا عن طريق إضافة لاحقة "_number" تبدأ من 0 ، مثل "Normal_0" و "Heading 1_1" وما إلى ذلك. x000d_ Use[`Name`](../../style/name) setter لتغيير اسم النمط المستورد.
+إذا كانت المجموعة تحتوي بالفعل على نمط بنفس الاسم ، فسيتم إنشاء الاسم الجديد تلقائيًا عن طريق إضافة لاحقة "_number" تبدأ من 0 ، مثل "Normal_0" و "Heading 1_1" وما إلى ذلك. Use[`Name`](../../style/name) setter لتغيير اسم النمط المستورد.
 
 ### أمثلة
 

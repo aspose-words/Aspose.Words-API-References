@@ -1,14 +1,14 @@
 ---
 title: HeightPoints
 second_title: Aspose.Words لمراجع .NET API
-description: يحصل على ارتفاع الصورة بالنقاط. 1 نقطة 1/72 بوصة. _ x000d_
+description: يحصل على ارتفاع الصورة بالنقاط. 1 نقطة 1/72 بوصة.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.drawing/imagesize/heightpoints/
 ---
 ## ImageSize.HeightPoints property
 
-يحصل على ارتفاع الصورة بالنقاط. 1 نقطة 1/72 بوصة. _ x000d_
+يحصل على ارتفاع الصورة بالنقاط. 1 نقطة 1/72 بوصة.
 
 ```csharp
 public double HeightPoints { get; }

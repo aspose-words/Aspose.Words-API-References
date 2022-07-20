@@ -1,14 +1,14 @@
 ---
 title: Spacing
 second_title: Aspose.Words لمراجع .NET API
-description: عندما تكون الأعمدة متباعدة بشكل متساوٍ  تحصل على مقدار المسافة بين كل عمود أو يحدده بالنقاط ._ x000d_
+description: عندما تكون الأعمدة متباعدة بشكل متساوٍ  تحصل على مقدار المسافة بين كل عمود أو يحدده بالنقاط .
 type: docs
 weight: 50
 url: /ar/net/aspose.words/textcolumncollection/spacing/
 ---
 ## TextColumnCollection.Spacing property
 
-عندما تكون الأعمدة متباعدة بشكل متساوٍ ، تحصل على مقدار المسافة بين كل عمود أو يحدده بالنقاط ._ x000d_
+عندما تكون الأعمدة متباعدة بشكل متساوٍ ، تحصل على مقدار المسافة بين كل عمود أو يحدده بالنقاط .
 
 ```csharp
 public double Spacing { get; set; }

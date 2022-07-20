@@ -18,12 +18,12 @@ public static string GetEffectiveValue(int index, NumberStyle numberStyle,
 | معامل | يكتب | وصف |
 | --- | --- | --- |
 | index | Int32 | فهرس عنصر القائمة (يجب أن يكون في النطاق من 1 إلى 32767). |
-| numberStyle | NumberStyle | ملف[`NumberStyle`](../../../aspose.words/numberstyle) التابع[`ListLevel`](../../listlevel) الكائن ._ x000d_ |
-| customNumberStyleFormat | String | يتم استخدام سلسلة التنسيق الاختيارية عندماCustom محدد (على سبيل المثال "a، ç، ĝ، ...") ._ x000d_ في حالات أخرى ، يجب أن يكون هذا المعامل فارغًا أو فارغًا. |
+| numberStyle | NumberStyle | ملف[`NumberStyle`](../../../aspose.words/numberstyle) التابع[`ListLevel`](../../listlevel) الكائن . |
+| customNumberStyleFormat | String | يتم استخدام سلسلة التنسيق الاختيارية عندماCustom محدد (على سبيل المثال "a، ç، ĝ، ...") . في حالات أخرى ، يجب أن يكون هذا المعامل فارغًا أو فارغًا. |
 
 ### قيمة الإرجاع
 
-تمثيل السلسلة لملف[`ListLevel`](../../listlevel) الكائن ، الموصوف بواسطة معلمة numberStyle و_ x000d_ معلمة customNumberStyleFormat ، في عنصر القائمة في الموضع الذي تحدده معلمة الفهرس.
+تمثيل السلسلة لملف[`ListLevel`](../../listlevel) الكائن ، الموصوف بواسطة معلمة numberStyle و معلمة customNumberStyleFormat ، في عنصر القائمة في الموضع الذي تحدده معلمة الفهرس.
 
 ### استثناءات
 

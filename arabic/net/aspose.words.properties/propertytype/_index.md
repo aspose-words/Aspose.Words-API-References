@@ -1,14 +1,14 @@
 ---
 title: PropertyType
 second_title: Aspose.Words لمراجع .NET API
-description: يحدد نوع البيانات لخاصية المستند ._ x000d_
+description: يحدد نوع البيانات لخاصية المستند .
 type: docs
 weight: 4250
 url: /ar/net/aspose.words.properties/propertytype/
 ---
 ## PropertyType enumeration
 
-يحدد نوع البيانات لخاصية المستند ._ x000d_
+يحدد نوع البيانات لخاصية المستند .
 
 ```csharp
 public enum PropertyType
@@ -18,15 +18,15 @@ public enum PropertyType
 
 | اسم | قيمة | وصف |
 | --- | --- | --- |
-| Boolean | `0` | الخاصية هي قيمة منطقية ._ x000d_ |
-| DateTime | `1` | الخاصية هي قيمة وقت للتاريخ ._ x000d_ |
+| Boolean | `0` | الخاصية هي قيمة منطقية . |
+| DateTime | `1` | الخاصية هي قيمة وقت للتاريخ . |
 | Double | `2` | الخاصية هي رقم عائم . |
-| Number | `3` | الخاصية هي رقم صحيح ._ x000d_ |
-| String | `4` | الخاصية هي قيمة سلسلة ._ x000d_ |
+| Number | `3` | الخاصية هي رقم صحيح . |
+| String | `4` | الخاصية هي قيمة سلسلة . |
 | StringArray | `5` | الخاصية عبارة عن مصفوفة من السلاسل . |
-| ObjectArray | `6` | الخاصية عبارة عن مصفوفة من الكائنات ._ x000d_ |
+| ObjectArray | `6` | الخاصية عبارة عن مصفوفة من الكائنات . |
 | ByteArray | `7` | الخاصية عبارة عن مصفوفة من البايت. |
-| Other | `8` | الخاصية هي نوع آخر ._ x000d_ |
+| Other | `8` | الخاصية هي نوع آخر . |
 
 ### أمثلة
 

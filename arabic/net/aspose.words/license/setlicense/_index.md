@@ -1,14 +1,14 @@
 ---
 title: SetLicense
 second_title: Aspose.Words لمراجع .NET API
-description: تراخيص المكون ._ x000d_
+description: تراخيص المكون .
 type: docs
 weight: 20
 url: /ar/net/aspose.words/license/setlicense/
 ---
 ## SetLicense(string) {#setlicense_1}
 
-تراخيص المكون ._ x000d_
+تراخيص المكون .
 
 ```csharp
 public void SetLicense(string licenseName)
@@ -69,7 +69,7 @@ license.SetLicense("Aspose.Words.NET.lic");
 
 ## SetLicense(Stream) {#setlicense}
 
-تراخيص المكون ._ x000d_
+تراخيص المكون .
 
 ```csharp
 public void SetLicense(Stream stream)

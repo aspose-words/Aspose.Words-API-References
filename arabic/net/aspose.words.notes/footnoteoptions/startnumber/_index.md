@@ -1,14 +1,14 @@
 ---
 title: StartNumber
 second_title: Aspose.Words لمراجع .NET API
-description: يحدد رقم البداية أو الحرف لأول حواشي سفلية مرقمة تلقائيًا ._ x000d_
+description: يحدد رقم البداية أو الحرف لأول حواشي سفلية مرقمة تلقائيًا .
 type: docs
 weight: 50
 url: /ar/net/aspose.words.notes/footnoteoptions/startnumber/
 ---
 ## FootnoteOptions.StartNumber property
 
-يحدد رقم البداية أو الحرف لأول حواشي سفلية مرقمة تلقائيًا ._ x000d_
+يحدد رقم البداية أو الحرف لأول حواشي سفلية مرقمة تلقائيًا .
 
 ```csharp
 public int StartNumber { get; set; }

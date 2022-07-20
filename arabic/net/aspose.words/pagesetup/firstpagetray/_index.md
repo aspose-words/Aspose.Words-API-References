@@ -1,14 +1,14 @@
 ---
 title: FirstPageTray
 second_title: Aspose.Words لمراجع .NET API
-description: الحصول على أو تعيين علبة الورق حاوية لاستخدامها في الصفحة الأولى من القسم ._ x000d_ القيمة هي التنفيذ الطابعة الخاصة.
+description: الحصول على أو تعيين علبة الورق حاوية لاستخدامها في الصفحة الأولى من القسم . القيمة هي التنفيذ الطابعة الخاصة.
 type: docs
 weight: 130
 url: /ar/net/aspose.words/pagesetup/firstpagetray/
 ---
 ## PageSetup.FirstPageTray property
 
-الحصول على أو تعيين علبة الورق (حاوية) لاستخدامها في الصفحة الأولى من القسم ._ x000d_ القيمة هي التنفيذ (الطابعة) الخاصة.
+الحصول على أو تعيين علبة الورق (حاوية) لاستخدامها في الصفحة الأولى من القسم . القيمة هي التنفيذ (الطابعة) الخاصة.
 
 ```csharp
 public int FirstPageTray { get; set; }

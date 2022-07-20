@@ -18,14 +18,14 @@ public class Table : CompositeNode
 
 | اسم | وصف |
 | --- | --- |
-| [Table](table)(DocumentBase) | يقوم بتهيئة مثيل جديد لملف **الطاولة** فئة ._ x000d_ |
+| [Table](table)(DocumentBase) | يقوم بتهيئة مثيل جديد لملف **الطاولة** فئة . |
 
 ## الخصائص
 
 | اسم | وصف |
 | --- | --- |
-| [AbsoluteHorizontalDistance](../../aspose.words.tables/table/absolutehorizontaldistance) { get; set; } | الحصول على أو تعيين موضع الجدول العائم الأفقي المطلق المحدد بواسطة خصائص الجدول ، بالنقاط ._ x000d_ القيمة الافتراضية هي 0. |
-| [AbsoluteVerticalDistance](../../aspose.words.tables/table/absoluteverticaldistance) { get; set; } | الحصول على أو تعيين موضع الجدول العائم العمودي المطلق المحدد بواسطة خصائص الجدول ، بالنقاط ._ x000d_ القيمة الافتراضية هي 0. |
+| [AbsoluteHorizontalDistance](../../aspose.words.tables/table/absolutehorizontaldistance) { get; set; } | الحصول على أو تعيين موضع الجدول العائم الأفقي المطلق المحدد بواسطة خصائص الجدول ، بالنقاط . القيمة الافتراضية هي 0. |
+| [AbsoluteVerticalDistance](../../aspose.words.tables/table/absoluteverticaldistance) { get; set; } | الحصول على أو تعيين موضع الجدول العائم العمودي المطلق المحدد بواسطة خصائص الجدول ، بالنقاط . القيمة الافتراضية هي 0. |
 | [Alignment](../../aspose.words.tables/table/alignment) { get; set; } | يحدد كيفية محاذاة الجدول المضمن في المستند. |
 | [AllowAutoFit](../../aspose.words.tables/table/allowautofit) { get; set; } | يسمح لـ Microsoft Word و Aspose.Words بتغيير حجم الخلايا تلقائيًا في جدول لتلائم محتوياتها . |
 | [AllowCellSpacing](../../aspose.words.tables/table/allowcellspacing) { get; set; } | الحصول على أو تعيين خيار "السماح بالتباعد بين الخلايا". |
@@ -35,12 +35,12 @@ public class Table : CompositeNode
 | [CellSpacing](../../aspose.words.tables/table/cellspacing) { get; set; } | الحصول على أو تحديد مقدار المسافة (بالنقاط) بين الخلايا. |
 | [ChildNodes](../../aspose.words/compositenode/childnodes) { get; } | يحصل على جميع العقد الفرعية الفورية لهذه العقدة. |
 | [Count](../../aspose.words/compositenode/count) { get; } | الحصول على عدد الأطفال المباشرين لهذه العقدة. |
-| [CustomNodeId](../../aspose.words/node/customnodeid) { get; set; } | يحدد معرف العقدة المخصص ._ x000d_ |
+| [CustomNodeId](../../aspose.words/node/customnodeid) { get; set; } | يحدد معرف العقدة المخصص . |
 | [Description](../../aspose.words.tables/table/description) { get; set; } | الحصول على وصف لهذا الجدول أو تعيينه . يوفر تمثيلًا نصيًا بديلاً للمعلومات الواردة في الجدول. |
-| [DistanceBottom](../../aspose.words.tables/table/distancebottom) { get; } | تحصل على المسافة بين أسفل الجدول والنص المحيط بالنقاط ._ x000d_ |
-| [DistanceLeft](../../aspose.words.tables/table/distanceleft) { get; } | تحصل على المسافة بين يسار الجدول والنص المحيط بالنقاط ._ x000d_ |
-| [DistanceRight](../../aspose.words.tables/table/distanceright) { get; } | تحصل على المسافة بين الجدول الأيمن والنص المحيط بالنقاط ._ x000d_ |
-| [DistanceTop](../../aspose.words.tables/table/distancetop) { get; } | تحصل على المسافة بين سطح الجدول والنص المحيط بالنقاط ._ x000d_ |
+| [DistanceBottom](../../aspose.words.tables/table/distancebottom) { get; } | تحصل على المسافة بين أسفل الجدول والنص المحيط بالنقاط . |
+| [DistanceLeft](../../aspose.words.tables/table/distanceleft) { get; } | تحصل على المسافة بين يسار الجدول والنص المحيط بالنقاط . |
+| [DistanceRight](../../aspose.words.tables/table/distanceright) { get; } | تحصل على المسافة بين الجدول الأيمن والنص المحيط بالنقاط . |
+| [DistanceTop](../../aspose.words.tables/table/distancetop) { get; } | تحصل على المسافة بين سطح الجدول والنص المحيط بالنقاط . |
 | virtual [Document](../../aspose.words/node/document) { get; } | الحصول على المستند الذي تنتمي إليه هذه العقدة . |
 | [FirstChild](../../aspose.words/compositenode/firstchild) { get; } | الحصول على الطفل الأول للعقدة . |
 | [FirstRow](../../aspose.words.tables/table/firstrow) { get; } | إرجاع أول **صف** عقدة في الجدول . |
@@ -65,7 +65,7 @@ public class Table : CompositeNode
 | [StyleIdentifier](../../aspose.words.tables/table/styleidentifier) { get; set; } | الحصول على أو تعيين معرف النمط المستقل للإعدادات المحلية لنمط الجدول المطبق على هذا الجدول. |
 | [StyleName](../../aspose.words.tables/table/stylename) { get; set; } | الحصول على أو تحديد اسم نمط الجدول المطبق على هذا الجدول. |
 | [StyleOptions](../../aspose.words.tables/table/styleoptions) { get; set; } | الحصول على أو تعيين علامات البت التي تحدد كيفية تطبيق نمط الجدول على هذا الجدول. |
-| [TextWrapping](../../aspose.words.tables/table/textwrapping) { get; set; } | يحصل أو يحدد[`TextWrapping`](./textwrapping) للجدول ._ x000d_ |
+| [TextWrapping](../../aspose.words.tables/table/textwrapping) { get; set; } | يحصل أو يحدد[`TextWrapping`](./textwrapping) للجدول . |
 | [Title](../../aspose.words.tables/table/title) { get; set; } | الحصول على عنوان هذا الجدول أو تعيينه . يوفر تمثيلًا نصيًا بديلاً للمعلومات الواردة في الجدول. |
 | [TopPadding](../../aspose.words.tables/table/toppadding) { get; set; } | الحصول على أو تحديد مقدار المساحة (بالنقاط) للإضافة فوق محتويات الخلايا. |
 | [VerticalAnchor](../../aspose.words.tables/table/verticalanchor) { get; set; } | الحصول على الكائن الأساسي الذي يجب من خلاله حساب الموضع الرأسي للجدول العائم. القيمة الافتراضية هيMargin . |
@@ -87,7 +87,7 @@ public class Table : CompositeNode
 | [GetAncestor](../../aspose.words/node/getancestor)(Type) | الحصول على الأصل الأول لنوع الكائن المحدد. |
 | [GetChild](../../aspose.words/compositenode/getchild)(NodeType, int, bool) | إرجاع العقدة الفرعية رقم N التي تطابق النوع المحدد. |
 | [GetChildNodes](../../aspose.words/compositenode/getchildnodes)(NodeType, bool) | إرجاع مجموعة مباشرة من العقد الفرعية التي تطابق النوع المحدد. |
-| [GetEnumerator](../../aspose.words/compositenode/getenumerator)() | يوفر دعمًا لكل تكرار نمط على العقد التابعة لهذه العقدة ._ x000d_ |
+| [GetEnumerator](../../aspose.words/compositenode/getenumerator)() | يوفر دعمًا لكل تكرار نمط على العقد التابعة لهذه العقدة . |
 | override [GetText](../../aspose.words/compositenode/gettext)() | يحصل على نص هذه العقدة وجميع توابعها. |
 | [IndexOf](../../aspose.words/compositenode/indexof)(Node) | إرجاع فهرس العقدة الفرعية المحددة في مصفوفة العقدة الفرعية. |
 | [InsertAfter](../../aspose.words/compositenode/insertafter)(Node, Node) | يدخل العقدة المحددة مباشرة بعد العقدة المرجعية المحددة. |
@@ -109,7 +109,7 @@ public class Table : CompositeNode
 
 ### ملاحظات
 
-**الطاولة**هي عقدة على مستوى الكتلة ويمكن أن تكون تابعة للفئات المشتقة منها **قصة** أو x000d_ **InlineStory**.
+**الطاولة**هي عقدة على مستوى الكتلة ويمكن أن تكون تابعة للفئات المشتقة منها **قصة** أو  **InlineStory**.
 
 **الطاولة** يمكن أن تحتوي على واحد أو أكثر **صف** العقد.
 

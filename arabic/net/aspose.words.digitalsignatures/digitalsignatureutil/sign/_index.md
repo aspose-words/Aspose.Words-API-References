@@ -204,7 +204,7 @@ public static void Sign()
 
 ## Sign(Stream, Stream, CertificateHolder) {#sign}
 
-يوقع المستند المصدر باستخدام معين[`CertificateHolder`](../../certificateholder)مع التوقيع الرقمي_ x000d_ ويكتب المستند الموقع إلى تيار الوجهة.
+يوقع المستند المصدر باستخدام معين[`CertificateHolder`](../../certificateholder)مع التوقيع الرقمي_ ويكتب المستند الموقع إلى تيار الوجهة.
 
 يجب أن يكون المستند إماDoc أوDocx.
 
@@ -271,7 +271,7 @@ Assert.AreEqual("CN=Morzal.Me", signedDoc.DigitalSignatures[0].SubjectName);
 
 ## Sign(string, string, CertificateHolder) {#sign_2}
 
-يوقع المستند المصدر باستخدام معين[`CertificateHolder`](../../certificateholder) مع التوقيع الرقمي_ x000d_ وكتابة المستند الموقع إلى الملف الوجهة.
+يوقع المستند المصدر باستخدام معين[`CertificateHolder`](../../certificateholder) مع التوقيع الرقمي_ وكتابة المستند الموقع إلى الملف الوجهة.
 
 يجب أن يكون المستند إماDoc أوDocx.
 

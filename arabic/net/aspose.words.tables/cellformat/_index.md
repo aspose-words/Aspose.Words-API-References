@@ -18,7 +18,7 @@ public class CellFormat
 
 | اسم | وصف |
 | --- | --- |
-| [Borders](../../aspose.words.tables/cellformat/borders) { get; } | الحصول على مجموعة من حدود الخلية ._ x000d_ |
+| [Borders](../../aspose.words.tables/cellformat/borders) { get; } | الحصول على مجموعة من حدود الخلية . |
 | [BottomPadding](../../aspose.words.tables/cellformat/bottompadding) { get; set; } | إرجاع أو تعيين مقدار المسافة (بالنقاط) لإضافتها أسفل محتويات الخلية. |
 | [FitText](../../aspose.words.tables/cellformat/fittext) { get; set; } | إذا كان صحيحًا ، يناسب النص الموجود في الخلية ، وضغط كل فقرة على عرض الخلية. |
 | [HorizontalMerge](../../aspose.words.tables/cellformat/horizontalmerge) { get; set; } | يحدد كيفية دمج الخلية أفقيًا مع الخلايا الأخرى في الصف. |
@@ -31,13 +31,13 @@ public class CellFormat
 | [VerticalAlignment](../../aspose.words.tables/cellformat/verticalalignment) { get; set; } | إرجاع أو تعيين المحاذاة الرأسية للنص في الخلية. |
 | [VerticalMerge](../../aspose.words.tables/cellformat/verticalmerge) { get; set; } | يحدد كيفية دمج الخلية مع الخلايا الأخرى عموديًا. |
 | [Width](../../aspose.words.tables/cellformat/width) { get; set; } | الحصول على عرض الخلية بالنقاط . |
-| [WrapText](../../aspose.words.tables/cellformat/wraptext) { get; set; } | إذا كان صحيحًا ، فالتفاف النص للخلية ._ x000d_ |
+| [WrapText](../../aspose.words.tables/cellformat/wraptext) { get; set; } | إذا كان صحيحًا ، فالتفاف النص للخلية . |
 
 ## طُرق
 
 | اسم | وصف |
 | --- | --- |
-| [ClearFormatting](../../aspose.words.tables/cellformat/clearformatting)() | إعادة التعيين إلى تنسيق الخلية الافتراضي. لا يغير عرض الخلية ._ x000d_ |
+| [ClearFormatting](../../aspose.words.tables/cellformat/clearformatting)() | إعادة التعيين إلى تنسيق الخلية الافتراضي. لا يغير عرض الخلية . |
 | [SetPaddings](../../aspose.words.tables/cellformat/setpaddings)(double, double, double, double) | يضبط مقدار المساحة (بالنقاط) لإضافتها إلى اليسار / أعلى / يمين / أسفل محتويات الخلية. |
 
 ### أمثلة

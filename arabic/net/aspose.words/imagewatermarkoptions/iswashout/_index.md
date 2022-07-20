@@ -1,14 +1,14 @@
 ---
 title: IsWashout
 second_title: Aspose.Words لمراجع .NET API
-description: الحصول على أو تعيين قيمة منطقية مسؤولة عن تأثير تبييض العلامة المائية ._ x000d_ القيمة الافتراضية هي True .
+description: الحصول على أو تعيين قيمة منطقية مسؤولة عن تأثير تبييض العلامة المائية . القيمة الافتراضية هي True .
 type: docs
 weight: 20
 url: /ar/net/aspose.words/imagewatermarkoptions/iswashout/
 ---
 ## ImageWatermarkOptions.IsWashout property
 
-الحصول على أو تعيين قيمة منطقية مسؤولة عن تأثير تبييض العلامة المائية ._ x000d_ القيمة الافتراضية هي True .
+الحصول على أو تعيين قيمة منطقية مسؤولة عن تأثير تبييض العلامة المائية . القيمة الافتراضية هي True .
 
 ```csharp
 public bool IsWashout { get; set; }

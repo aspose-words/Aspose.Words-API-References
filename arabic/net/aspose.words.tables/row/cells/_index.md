@@ -1,14 +1,14 @@
 ---
 title: Cells
 second_title: Aspose.Words لمراجع .NET API
-description: يوفر وصولاً مكتوبًا إلى ملف خلية العقد الفرعية للصف ._ x000d_
+description: يوفر وصولاً مكتوبًا إلى ملف خلية العقد الفرعية للصف .
 type: docs
 weight: 20
 url: /ar/net/aspose.words.tables/row/cells/
 ---
 ## Row.Cells property
 
-يوفر وصولاً مكتوبًا إلى ملف **خلية** العقد الفرعية للصف ._ x000d_
+يوفر وصولاً مكتوبًا إلى ملف **خلية** العقد الفرعية للصف .
 
 ```csharp
 public CellCollection Cells { get; }

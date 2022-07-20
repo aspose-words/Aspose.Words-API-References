@@ -18,7 +18,7 @@ public enum PdfTextCompression
 
 | اسم | قيمة | وصف |
 | --- | --- | --- |
-| None | `0` | بدون ضغط ._ x000d_ |
+| None | `0` | بدون ضغط . |
 | Flate | `1` | ضغط Flate (ZIP) . |
 
 ### أمثلة

@@ -1,14 +1,14 @@
 ---
 title: ImageFieldMergingArgs
 second_title: Aspose.Words لمراجع .NET API
-description: توفير بيانات لملفImageFieldMerging./ifieldmergingcallback/imagefieldmerging الحدث ._ x000d_
+description: توفير بيانات لملفImageFieldMerging./ifieldmergingcallback/imagefieldmerging الحدث .
 type: docs
 weight: 3610
 url: /ar/net/aspose.words.mailmerging/imagefieldmergingargs/
 ---
 ## ImageFieldMergingArgs class
 
-توفير بيانات لملف[`ImageFieldMerging`](../ifieldmergingcallback/imagefieldmerging) الحدث ._ x000d_
+توفير بيانات لملف[`ImageFieldMerging`](../ifieldmergingcallback/imagefieldmerging) الحدث .
 
 ```csharp
 public class ImageFieldMergingArgs : FieldMergingArgsBase
@@ -30,7 +30,7 @@ public class ImageFieldMergingArgs : FieldMergingArgsBase
 | [ImageWidth](../../aspose.words.mailmerging/imagefieldmergingargs/imagewidth) { get; set; } | يحدد عرض الصورة للصورة لإدراجها في المستند. |
 | [RecordIndex](../../aspose.words.mailmerging/fieldmergingargsbase/recordindex) { get; } | الحصول على فهرس السجل الذي يتم دمجه على أساس الصفر. |
 | [Shape](../../aspose.words.mailmerging/imagefieldmergingargs/shape) { get; set; } | تحديد الشكل الذي يجب على محرك دمج المراسلات إدراجه في المستند. |
-| [TableName](../../aspose.words.mailmerging/fieldmergingargsbase/tablename) { get; } | الحصول على اسم جدول البيانات لعملية الدمج الحالية أو السلسلة الفارغة إذا لم يكن الاسم متاحًا ._ x000d_ |
+| [TableName](../../aspose.words.mailmerging/fieldmergingargsbase/tablename) { get; } | الحصول على اسم جدول البيانات لعملية الدمج الحالية أو السلسلة الفارغة إذا لم يكن الاسم متاحًا . |
 
 ### ملاحظات
 

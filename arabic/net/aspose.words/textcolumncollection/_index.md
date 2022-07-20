@@ -22,8 +22,8 @@ public class TextColumnCollection
 | [EvenlySpaced](../../aspose.words/textcolumncollection/evenlyspaced) { get; set; } | **حقيقي** إذا كانت أعمدة النص متساوية العرض ومتباعدة بشكل متساوٍ. |
 | [Item](../../aspose.words/textcolumncollection/item) { get; } | إرجاع عمود نص بالفهرس المحدد. |
 | [LineBetween](../../aspose.words/textcolumncollection/linebetween) { get; set; } | متى **حقيقي** ، يضيف خطًا رأسيًا بين الأعمدة. |
-| [Spacing](../../aspose.words/textcolumncollection/spacing) { get; set; } | عندما تكون الأعمدة متباعدة بشكل متساوٍ ، تحصل على مقدار المسافة بين كل عمود أو يحدده بالنقاط ._ x000d_ |
-| [Width](../../aspose.words/textcolumncollection/width) { get; } | عند تباعد الأعمدة بشكل متساوٍ ، يحصل على عرض الأعمدة ._ x000d_ |
+| [Spacing](../../aspose.words/textcolumncollection/spacing) { get; set; } | عندما تكون الأعمدة متباعدة بشكل متساوٍ ، تحصل على مقدار المسافة بين كل عمود أو يحدده بالنقاط . |
+| [Width](../../aspose.words/textcolumncollection/width) { get; } | عند تباعد الأعمدة بشكل متساوٍ ، يحصل على عرض الأعمدة . |
 
 ## طُرق
 
@@ -39,7 +39,7 @@ public class TextColumnCollection
 
 اذا كنت تمتلك **مسافات متساوية** ضبط ل **خاطئة**، تحتاج إلى تحديد العرض والتباعد لكل عمود على حدة. استخدم المفهرس للوصول إلى الأفراد[`TextColumn`](../textcolumn) أشياء.
 
-عند استخدام عروض الأعمدة المخصصة ، تأكد من أن مجموع كل عروض الأعمدة والتباعد بينها_ x000d_ يساوي عرض الصفحة مطروحًا منه هوامش الصفحة اليمنى واليسرى.
+عند استخدام عروض الأعمدة المخصصة ، تأكد من أن مجموع كل عروض الأعمدة والتباعد بينها_ يساوي عرض الصفحة مطروحًا منه هوامش الصفحة اليمنى واليسرى.
 
 ### أمثلة
 

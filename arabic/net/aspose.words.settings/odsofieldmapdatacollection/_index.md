@@ -1,14 +1,14 @@
 ---
 title: OdsoFieldMapDataCollection
 second_title: Aspose.Words لمراجع .NET API
-description: مجموعة مكتوبة من ملفOdsoFieldMapData./odsofieldmapdata الكائنات ._ x000d_
+description: مجموعة مكتوبة من ملفOdsoFieldMapData./odsofieldmapdata الكائنات .
 type: docs
 weight: 5610
 url: /ar/net/aspose.words.settings/odsofieldmapdatacollection/
 ---
 ## OdsoFieldMapDataCollection class
 
-مجموعة مكتوبة من ملف[`OdsoFieldMapData`](../odsofieldmapdata) الكائنات ._ x000d_
+مجموعة مكتوبة من ملف[`OdsoFieldMapData`](../odsofieldmapdata) الكائنات .
 
 ```csharp
 public class OdsoFieldMapDataCollection : IEnumerable<OdsoFieldMapData>

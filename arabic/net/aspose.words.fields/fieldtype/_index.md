@@ -35,11 +35,11 @@ public enum FieldType
 | FieldBidiOutline | `92` | تحديد حقل BIDIOUTLINE . |
 | FieldCitation | `1980` | تحديد حقل CITATION . |
 | FieldComments | `19` | يحدد حقل "التعليقات". |
-| FieldCompare | `80` | تحديد حقل المقارنة ._ x000d_ |
+| FieldCompare | `80` | تحديد حقل المقارنة . |
 | FieldCreateDate | `21` | يحدد الحقل CREATEDATE . |
-| FieldData | `40` | يحدد حقل البيانات ._ x000d_ |
+| FieldData | `40` | يحدد حقل البيانات . |
 | FieldDatabase | `78` | تحديد حقل قاعدة البيانات . |
-| FieldDate | `31` | يحدد حقل التاريخ ._ x000d_ |
+| FieldDate | `31` | يحدد حقل التاريخ . |
 | FieldDDE | `45` | يحدد حقل DDE . |
 | FieldDisplayBarcode | `6301` | يحدد حقل DISPLAYBARCODE . |
 | FieldMergeBarcode | `6302` | يحدد حقل MERGEBARCODE . |
@@ -69,7 +69,7 @@ public enum FieldType
 | FieldIndex | `8` | يحدد الحقل INDEX . |
 | FieldIndexEntry | `4` | تحديد حقل XE . |
 | FieldInfo | `14` | تحديد حقل INFO . |
-| FieldImport | `55` | يحدد حقل الاستيراد ._ x000d_ |
+| FieldImport | `55` | يحدد حقل الاستيراد . |
 | FieldKeyword | `18` | تحديد حقل KEYWORDS . |
 | FieldLastSavedBy | `20` | يحدد الحقل LASTSAVEDBY . |
 | FieldLink | `56` | يحدد حقل LINK . |
@@ -78,7 +78,7 @@ public enum FieldType
 | FieldMergeField | `59` | يحدد الحقل MERGEFIELD . |
 | FieldMergeRec | `44` | يحدد حقل MERGEREC . |
 | FieldMergeSeq | `75` | يحدد حقل MERGESEQ . |
-| FieldNext | `41` | يحدد الحقل التالي ._ x000d_ |
+| FieldNext | `41` | يحدد الحقل التالي . |
 | FieldNextIf | `42` | تحديد حقل NEXTIF . |
 | FieldNoteRef | `72` | يحدد حقل NOTEREF . |
 | FieldNumChars | `28` | يحدد الحقل NUMCHARS . |
@@ -89,14 +89,14 @@ public enum FieldType
 | FieldPageRef | `37` | تحديد حقل PAGEREF . |
 | FieldPrint | `48` | تحديد حقل PRINT . |
 | FieldPrintDate | `23` | يحدد حقل PRINTDATE . |
-| FieldPrivate | `77` | يحدد الحقل الخاص ._ x000d_ |
+| FieldPrivate | `77` | يحدد الحقل الخاص . |
 | FieldQuote | `35` | تحديد حقل QUOTE . |
 | FieldRef | `3` | يحدد الحقل REF . |
-| FieldRefNoKeyword | `2` | يحدد أن الحقل يمثل حقل REF حيث تم حذف الكلمة الأساسية ._ x000d_ |
+| FieldRefNoKeyword | `2` | يحدد أن الحقل يمثل حقل REF حيث تم حذف الكلمة الأساسية . |
 | FieldRefDoc | `11` | يحدد حقل RD . |
 | FieldRevisionNum | `24` | يحدد حقل REVNUM . |
-| FieldSaveDate | `22` | تحديد حقل الحفظ ._ x000d_ |
-| FieldSection | `65` | يحدد حقل القسم ._ x000d_ |
+| FieldSaveDate | `22` | تحديد حقل الحفظ . |
+| FieldSection | `65` | يحدد حقل القسم . |
 | FieldSectionPages | `66` | يحدد حقل SECTIONPAGES . |
 | FieldSequence | `12` | يحدد حقل SEQ . |
 | FieldSet | `6` | يحدد حقل SET . |
@@ -105,8 +105,8 @@ public enum FieldType
 | FieldStyleRef | `10` | تحديد حقل STYLEREF . |
 | FieldSubject | `16` | يحدد الحقل SUBJECT . |
 | FieldSymbol | `57` | يحدد حقل SYMBOL . |
-| FieldTemplate | `30` | يحدد حقل النموذج ._ x000d_ |
-| FieldTime | `32` | يحدد حقل الوقت ._ x000d_ |
+| FieldTemplate | `30` | يحدد حقل النموذج . |
+| FieldTime | `32` | يحدد حقل الوقت . |
 | FieldTitle | `15` | يحدد حقل العنوان. |
 | FieldTOA | `73` | يحدد حقل TOA . |
 | FieldTOAEntry | `74` | يحدد حقل TA . |

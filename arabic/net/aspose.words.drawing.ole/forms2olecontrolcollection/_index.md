@@ -1,14 +1,14 @@
 ---
 title: Forms2OleControlCollection
 second_title: Aspose.Words لمراجع .NET API
-description: يمثل مجموعة منForms2OleControl./forms2olecontrol الكائنات ._ x000d_
+description: يمثل مجموعة منForms2OleControl./forms2olecontrol الكائنات .
 type: docs
 weight: 990
 url: /ar/net/aspose.words.drawing.ole/forms2olecontrolcollection/
 ---
 ## Forms2OleControlCollection class
 
-يمثل مجموعة من[`Forms2OleControl`](../forms2olecontrol) الكائنات ._ x000d_
+يمثل مجموعة من[`Forms2OleControl`](../forms2olecontrol) الكائنات .
 
 ```csharp
 public class Forms2OleControlCollection

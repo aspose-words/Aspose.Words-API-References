@@ -1,14 +1,14 @@
 ---
 title: TextPath
 second_title: Aspose.Words لمراجع .NET API
-description: يحدد نص مسار النص لكائن WordArt ._ x000d_
+description: يحدد نص مسار النص لكائن WordArt .
 type: docs
 weight: 230
 url: /ar/net/aspose.words.drawing/shape/textpath/
 ---
 ## Shape.TextPath property
 
-يحدد نص مسار النص (لكائن WordArt) ._ x000d_
+يحدد نص مسار النص (لكائن WordArt) .
 
 ```csharp
 public TextPath TextPath { get; }

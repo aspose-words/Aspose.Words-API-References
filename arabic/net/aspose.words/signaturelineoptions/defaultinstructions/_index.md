@@ -1,14 +1,14 @@
 ---
 title: DefaultInstructions
 second_title: Aspose.Words لمراجع .NET API
-description: الحصول على قيمة أو تعيينها للإشارة إلى أن الإرشادات الافتراضية تظهر في مربع حوار التوقيع ._ x000d_ القيمة الافتراضية لهذه الخاصية هي حقيقي .
+description: الحصول على قيمة أو تعيينها للإشارة إلى أن الإرشادات الافتراضية تظهر في مربع حوار التوقيع . القيمة الافتراضية لهذه الخاصية هي حقيقي .
 type: docs
 weight: 30
 url: /ar/net/aspose.words/signaturelineoptions/defaultinstructions/
 ---
 ## SignatureLineOptions.DefaultInstructions property
 
-الحصول على قيمة أو تعيينها للإشارة إلى أن الإرشادات الافتراضية تظهر في مربع حوار التوقيع ._ x000d_ القيمة الافتراضية لهذه الخاصية هي **حقيقي** .
+الحصول على قيمة أو تعيينها للإشارة إلى أن الإرشادات الافتراضية تظهر في مربع حوار التوقيع . القيمة الافتراضية لهذه الخاصية هي **حقيقي** .
 
 ```csharp
 public bool DefaultInstructions { get; set; }

@@ -24,7 +24,7 @@ public virtual VisitorAction VisitSpecialChar(SpecialChar specialChar)
 
 ### ملاحظات
 
-لا يتم استدعاء هذه الطريقة لأحرف التحكم العامة (انظر[`ControlChar`](../../controlchar) ) التي يمكن أن تكون موجودة في المستند ._ x000d_
+لا يتم استدعاء هذه الطريقة لأحرف التحكم العامة (انظر[`ControlChar`](../../controlchar) ) التي يمكن أن تكون موجودة في المستند .
 
 ### أمثلة
 

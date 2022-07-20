@@ -1,14 +1,14 @@
 ---
 title: StrikeThrough
 second_title: Aspose.Words لمراجع .NET API
-description: True إذا تم تنسيق الخط كنص يتوسطه خط ._ x000d_
+description: True إذا تم تنسيق الخط كنص يتوسطه خط .
 type: docs
 weight: 150
 url: /ar/net/aspose.words.drawing/textpath/strikethrough/
 ---
 ## TextPath.StrikeThrough property
 
-True إذا تم تنسيق الخط كنص يتوسطه خط ._ x000d_
+True إذا تم تنسيق الخط كنص يتوسطه خط .
 
 ```csharp
 public bool StrikeThrough { get; set; }

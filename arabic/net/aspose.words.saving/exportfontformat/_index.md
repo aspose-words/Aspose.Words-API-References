@@ -19,7 +19,7 @@ public enum ExportFontFormat
 | اسم | قيمة | وصف |
 | --- | --- | --- |
 | Woff | `0` | WOFF (تنسيق خط الويب المفتوح). |
-| Ttf | `1` | TTF (تنسيق خط TrueType) ._ x000d_ |
+| Ttf | `1` | TTF (تنسيق خط TrueType) . |
 
 ### أمثلة
 

@@ -1,14 +1,14 @@
 ---
 title: FallbackSettings
 second_title: Aspose.Words لمراجع .NET API
-description: الإعدادات المتعلقة بآلية النسخ الاحتياطي للخط ._ x000d_
+description: الإعدادات المتعلقة بآلية النسخ الاحتياطي للخط .
 type: docs
 weight: 30
 url: /ar/net/aspose.words.fonts/fontsettings/fallbacksettings/
 ---
 ## FontSettings.FallbackSettings property
 
-الإعدادات المتعلقة بآلية النسخ الاحتياطي للخط ._ x000d_
+الإعدادات المتعلقة بآلية النسخ الاحتياطي للخط .
 
 ```csharp
 public FontFallbackSettings FallbackSettings { get; }

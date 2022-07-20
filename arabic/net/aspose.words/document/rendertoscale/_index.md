@@ -1,14 +1,14 @@
 ---
 title: RenderToScale
 second_title: Aspose.Words لمراجع .NET API
-description: يعرض صفحة مستند إلى ملفGraphics كائن لمقياس محدد ._ x000d_
+description: يعرض صفحة مستند إلى ملفGraphics كائن لمقياس محدد .
 type: docs
 weight: 660
 url: /ar/net/aspose.words/document/rendertoscale/
 ---
 ## Document.RenderToScale method
 
-يعرض صفحة مستند إلى ملفGraphics كائن لمقياس محدد ._ x000d_
+يعرض صفحة مستند إلى ملفGraphics كائن لمقياس محدد .
 
 ```csharp
 public SizeF RenderToScale(int pageIndex, Graphics graphics, float x, float y, float scale)

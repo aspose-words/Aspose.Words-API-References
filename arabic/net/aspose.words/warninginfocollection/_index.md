@@ -1,14 +1,14 @@
 ---
 title: WarningInfoCollection
 second_title: Aspose.Words لمراجع .NET API
-description: يمثل مجموعة مكتوبة منWarningInfo./warninginfo الكائنات ._ x000d_
+description: يمثل مجموعة مكتوبة منWarningInfo./warninginfo الكائنات .
 type: docs
 weight: 6330
 url: /ar/net/aspose.words/warninginfocollection/
 ---
 ## WarningInfoCollection class
 
-يمثل مجموعة مكتوبة من[`WarningInfo`](../warninginfo) الكائنات ._ x000d_
+يمثل مجموعة مكتوبة من[`WarningInfo`](../warninginfo) الكائنات .
 
 ```csharp
 public class WarningInfoCollection : IEnumerable<WarningInfo>, IWarningCallback
@@ -33,7 +33,7 @@ public class WarningInfoCollection : IEnumerable<WarningInfo>, IWarningCallback
 | --- | --- |
 | [Clear](../../aspose.words/warninginfocollection/clear)() | يزيل كل العناصر من المجموعة. |
 | [GetEnumerator](../../aspose.words/warninginfocollection/getenumerator)() | إرجاع كائن العداد الذي يمكن استخدامه للتكرار على كافة العناصر في المجموعة. |
-| [Warning](../../aspose.words/warninginfocollection/warning)(WarningInfo) | تنفذ ملف[`IWarningCallback`](../iwarningcallback) واجهه المستخدم. يضيف تحذيرًا إلى هذه المجموعة ._ x000d_ |
+| [Warning](../../aspose.words/warninginfocollection/warning)(WarningInfo) | تنفذ ملف[`IWarningCallback`](../iwarningcallback) واجهه المستخدم. يضيف تحذيرًا إلى هذه المجموعة . |
 
 ### ملاحظات
 

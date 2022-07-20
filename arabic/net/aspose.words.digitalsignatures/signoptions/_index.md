@@ -24,12 +24,12 @@ public class SignOptions
 
 | اسم | وصف |
 | --- | --- |
-| [Comments](../../aspose.words.digitalsignatures/signoptions/comments) { get; set; } | يحدد التعليقات على التوقيع الرقمي. _ x000d_ القيمة الافتراضية هي **سلسلة فارغة** (Empty ) ._ x000d_ |
-| [DecryptionPassword](../../aspose.words.digitalsignatures/signoptions/decryptionpassword) { get; set; } | كلمة المرور لفك تشفير المستند المصدر. _ x000d_ القيمة الافتراضية هي **سلسلة فارغة** (Empty ) ._ x000d_ |
+| [Comments](../../aspose.words.digitalsignatures/signoptions/comments) { get; set; } | يحدد التعليقات على التوقيع الرقمي. القيمة الافتراضية هي **سلسلة فارغة** (Empty ) . |
+| [DecryptionPassword](../../aspose.words.digitalsignatures/signoptions/decryptionpassword) { get; set; } | كلمة المرور لفك تشفير المستند المصدر. _ القيمة الافتراضية هي **سلسلة فارغة** (Empty ) . |
 | [ProviderId](../../aspose.words.digitalsignatures/signoptions/providerid) { get; set; } | يحدد معرف فئة موفر التوقيع. القيمة الافتراضية هي **دليل فارغ (جميع الأصفار)** . |
-| [SignatureLineId](../../aspose.words.digitalsignatures/signoptions/signaturelineid) { get; set; } | معرف سطر التوقيع. _ x000d_ القيمة الافتراضية هي **دليل فارغ (جميع الأصفار)** . |
+| [SignatureLineId](../../aspose.words.digitalsignatures/signoptions/signaturelineid) { get; set; } | معرف سطر التوقيع. القيمة الافتراضية هي **دليل فارغ (جميع الأصفار)** . |
 | [SignatureLineImage](../../aspose.words.digitalsignatures/signoptions/signaturelineimage) { get; set; } | الصورة التي سيتم عرضها مرتبطة[`SignatureLine`](../../aspose.words.drawing/signatureline) . القيمة الافتراضية هي`لا شيء` . |
-| [SignTime](../../aspose.words.digitalsignatures/signoptions/signtime) { get; set; } | تاريخ التوقيع ._ x000d_ القيمة الافتراضية هي **الوقت الحالي** (Now ) ._ x000d_ |
+| [SignTime](../../aspose.words.digitalsignatures/signoptions/signtime) { get; set; } | تاريخ التوقيع . القيمة الافتراضية هي **الوقت الحالي** (Now ) . |
 
 ### أنظر أيضا
 

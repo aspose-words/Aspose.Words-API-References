@@ -1,14 +1,14 @@
 ---
 title: BoundsInPoints
 second_title: Aspose.Words لمراجع .NET API
-description: الحصول على موقع وحجم الكتلة المحتوية للشكل بالنقاط  بالنسبة إلى مرساة الشكل العلوي ._ x000d_
+description: الحصول على موقع وحجم الكتلة المحتوية للشكل بالنقاط  بالنسبة إلى مرساة الشكل العلوي .
 type: docs
 weight: 80
 url: /ar/net/aspose.words.drawing/shapebase/boundsinpoints/
 ---
 ## ShapeBase.BoundsInPoints property
 
-الحصول على موقع وحجم الكتلة المحتوية للشكل بالنقاط ، بالنسبة إلى مرساة الشكل العلوي ._ x000d_
+الحصول على موقع وحجم الكتلة المحتوية للشكل بالنقاط ، بالنسبة إلى مرساة الشكل العلوي .
 
 ```csharp
 public RectangleF BoundsInPoints { get; }

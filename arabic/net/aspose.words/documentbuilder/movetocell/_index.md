@@ -19,7 +19,7 @@ public void MoveToCell(int tableIndex, int rowIndex, int columnIndex, int charac
 | tableIndex | Int32 | فهرس الجدول المراد الانتقال إليه. |
 | rowIndex | Int32 | فهرس الصف في الجدول. |
 | columnIndex | Int32 | فهرس العمود في الجدول. |
-| characterIndex | Int32 | فهرس الحرف داخل الخلية ._ x000d_ تسمح لك القيمة السالبة بتحديد موضع من نهاية الخلية. استخدم -1 للانتقال إلى نهاية الخلية. |
+| characterIndex | Int32 | فهرس الحرف داخل الخلية . تسمح لك القيمة السالبة بتحديد موضع من نهاية الخلية. استخدم -1 للانتقال إلى نهاية الخلية. |
 
 ### ملاحظات
 

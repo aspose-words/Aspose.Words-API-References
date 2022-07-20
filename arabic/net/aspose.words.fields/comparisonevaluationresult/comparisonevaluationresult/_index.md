@@ -1,14 +1,14 @@
 ---
 title: ComparisonEvaluationResult
 second_title: Aspose.Words لمراجع .NET API
-description: إنشاء نتيجة تقييم مقارنة ._ x000d_
+description: إنشاء نتيجة تقييم مقارنة .
 type: docs
 weight: 10
 url: /ar/net/aspose.words.fields/comparisonevaluationresult/comparisonevaluationresult/
 ---
 ## ComparisonEvaluationResult(bool) {#constructor}
 
-إنشاء نتيجة تقييم مقارنة ._ x000d_
+إنشاء نتيجة تقييم مقارنة .
 
 ```csharp
 public ComparisonEvaluationResult(bool result)

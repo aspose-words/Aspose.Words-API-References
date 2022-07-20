@@ -19,7 +19,7 @@ public class CsvDataLoadOptions
 | اسم | وصف |
 | --- | --- |
 | [CsvDataLoadOptions](csvdataloadoptions#constructor)() | تهيئة مثيل جديد من هذه الفئة بالخيارات الافتراضية. |
-| [CsvDataLoadOptions](csvdataloadoptions#constructor_1)(bool) | يقوم بتهيئة مثيل جديد لهذه الفئة مع تحديد ما إذا كانت بيانات CSV تحتوي على أسماء الأعمدة_ x000d_ في السطر الأول. |
+| [CsvDataLoadOptions](csvdataloadoptions#constructor_1)(bool) | يقوم بتهيئة مثيل جديد لهذه الفئة مع تحديد ما إذا كانت بيانات CSV تحتوي على أسماء الأعمدة في السطر الأول. |
 
 ## الخصائص
 

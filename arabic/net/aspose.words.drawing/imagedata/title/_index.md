@@ -1,14 +1,14 @@
 ---
 title: Title
 second_title: Aspose.Words لمراجع .NET API
-description: يحدد عنوان الصورة. _ x000d_
+description: يحدد عنوان الصورة. _
 type: docs
 weight: 180
 url: /ar/net/aspose.words.drawing/imagedata/title/
 ---
 ## ImageData.Title property
 
-يحدد عنوان الصورة. _ x000d_
+يحدد عنوان الصورة. _
 
 ```csharp
 public string Title { get; set; }

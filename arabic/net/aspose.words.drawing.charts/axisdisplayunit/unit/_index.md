@@ -16,7 +16,7 @@ public AxisBuiltInUnit Unit { get; set; }
 
 ### ملاحظات
 
-القيمة الافتراضية هيNone . الCustom و_ x000d_Percentage القيم غير متوفرة في بعض أنواع المخططات ؛ انظر x000d_[`AxisBuiltInUnit`](../../axisbuiltinunit) لمزيد من المعلومات.
+القيمة الافتراضية هيNone . الCustom و Percentage القيم غير متوفرة في بعض أنواع المخططات ؛ انظر [`AxisBuiltInUnit`](../../axisbuiltinunit) لمزيد من المعلومات.
 
 ### أمثلة
 

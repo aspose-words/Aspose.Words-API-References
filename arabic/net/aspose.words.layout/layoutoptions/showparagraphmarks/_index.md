@@ -1,14 +1,14 @@
 ---
 title: ShowParagraphMarks
 second_title: Aspose.Words لمراجع .NET API
-description: الحصول على أو تعيين إشارة إلى ما إذا كان يتم تقديم علامات الفقرات. _ x000d_ الإعداد الافتراضي هو False .
+description: الحصول على أو تعيين إشارة إلى ما إذا كان يتم تقديم علامات الفقرات. الإعداد الافتراضي هو False .
 type: docs
 weight: 80
 url: /ar/net/aspose.words.layout/layoutoptions/showparagraphmarks/
 ---
 ## LayoutOptions.ShowParagraphMarks property
 
-الحصول على أو تعيين إشارة إلى ما إذا كان يتم تقديم علامات الفقرات. _ x000d_ الإعداد الافتراضي هو False .
+الحصول على أو تعيين إشارة إلى ما إذا كان يتم تقديم علامات الفقرات. الإعداد الافتراضي هو False .
 
 ```csharp
 public bool ShowParagraphMarks { get; set; }

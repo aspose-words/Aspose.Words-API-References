@@ -1,14 +1,14 @@
 ---
 title: DefaultUser
 second_title: Aspose.Words لمراجع .NET API
-description: معلومات المستخدم الافتراضية ._ x000d_
+description: معلومات المستخدم الافتراضية .
 type: docs
 weight: 20
 url: /ar/net/aspose.words.fields/userinformation/defaultuser/
 ---
 ## UserInformation.DefaultUser property
 
-معلومات المستخدم الافتراضية ._ x000d_
+معلومات المستخدم الافتراضية .
 
 ```csharp
 public static UserInformation DefaultUser { get; }

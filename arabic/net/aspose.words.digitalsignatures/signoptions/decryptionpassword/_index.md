@@ -1,14 +1,14 @@
 ---
 title: DecryptionPassword
 second_title: Aspose.Words لمراجع .NET API
-description: كلمة المرور لفك تشفير المستند المصدر. _ x000d_ القيمة الافتراضية هي سلسلة فارغة Empty  ._ x000d_
+description: كلمة المرور لفك تشفير المستند المصدر. _ القيمة الافتراضية هي سلسلة فارغة Empty  .
 type: docs
 weight: 30
 url: /ar/net/aspose.words.digitalsignatures/signoptions/decryptionpassword/
 ---
 ## SignOptions.DecryptionPassword property
 
-كلمة المرور لفك تشفير المستند المصدر. _ x000d_ القيمة الافتراضية هي **سلسلة فارغة** (Empty ) ._ x000d_
+كلمة المرور لفك تشفير المستند المصدر. _ القيمة الافتراضية هي **سلسلة فارغة** (Empty ) .
 
 ```csharp
 public string DecryptionPassword { get; set; }

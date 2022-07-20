@@ -1,14 +1,14 @@
 ---
 title: TxtLeadingSpacesOptions
 second_title: Aspose.Words لمراجع .NET API
-description: يحدد الخيارات المتاحة لمعالجة المساحة الرائدة أثناء الاستيراد منText ملف ._ x000d_
+description: يحدد الخيارات المتاحة لمعالجة المساحة الرائدة أثناء الاستيراد منText ملف .
 type: docs
 weight: 3520
 url: /ar/net/aspose.words.loading/txtleadingspacesoptions/
 ---
 ## TxtLeadingSpacesOptions enumeration
 
-يحدد الخيارات المتاحة لمعالجة المساحة الرائدة أثناء الاستيراد منText ملف ._ x000d_
+يحدد الخيارات المتاحة لمعالجة المساحة الرائدة أثناء الاستيراد منText ملف .
 
 ```csharp
 public enum TxtLeadingSpacesOptions

@@ -20,10 +20,10 @@ public class List : IComparable<List>
 | --- | --- |
 | [Document](../../aspose.words.lists/list/document) { get; } | الحصول على مستند المالك. |
 | [IsListStyleDefinition](../../aspose.words.lists/list/isliststyledefinition) { get; } | إرجاع صحيح إذا كانت هذه القائمة هي تعريف لنمط قائمة. |
-| [IsListStyleReference](../../aspose.words.lists/list/isliststylereference) { get; } | إرجاع صحيح إذا كانت هذه القائمة تشير إلى نمط قائمة ._ x000d_ |
-| [IsMultiLevel](../../aspose.words.lists/list/ismultilevel) { get; } | إرجاع صحيح عندما تحتوي القائمة على 9 مستويات ؛ خطأ عند المستوى الأول ._ x000d_ |
+| [IsListStyleReference](../../aspose.words.lists/list/isliststylereference) { get; } | إرجاع صحيح إذا كانت هذه القائمة تشير إلى نمط قائمة . |
+| [IsMultiLevel](../../aspose.words.lists/list/ismultilevel) { get; } | إرجاع صحيح عندما تحتوي القائمة على 9 مستويات ؛ خطأ عند المستوى الأول . |
 | [IsRestartAtEachSection](../../aspose.words.lists/list/isrestartateachsection) { get; set; } | يحدد ما إذا كان يجب إعادة تشغيل القائمة في كل قسم. القيمة الافتراضية هي **خاطئة** . |
-| [ListId](../../aspose.words.lists/list/listid) { get; } | الحصول على المعرف الفريد للقائمة ._ x000d_ |
+| [ListId](../../aspose.words.lists/list/listid) { get; } | الحصول على المعرف الفريد للقائمة . |
 | [ListLevels](../../aspose.words.lists/list/listlevels) { get; } | الحصول على مجموعة مستويات القائمة لهذه القائمة. |
 | [Style](../../aspose.words.lists/list/style) { get; } | الحصول على نمط القائمة الذي تشير إليه هذه القائمة أو تحدده. |
 
@@ -33,13 +33,13 @@ public class List : IComparable<List>
 | --- | --- |
 | [CompareTo](../../aspose.words.lists/list/compareto#compareto)(List) | مقارنة القائمة المحددة بالقائمة الحالية. |
 | [CompareTo](../../aspose.words.lists/list/compareto#compareto_1)(object) | مقارنة الكائن المحدد بالكائن الحالي. |
-| [Equals](../../aspose.words.lists/list/equals#equals)(List) | يقارن بالقائمة المحددة ._ x000d_ |
+| [Equals](../../aspose.words.lists/list/equals#equals)(List) | يقارن بالقائمة المحددة . |
 | override [Equals](../../aspose.words.lists/list/equals#equals_1)(object) |  |
 | override [GetHashCode](../../aspose.words.lists/list/gethashcode)() | حساب كود التجزئة لكائن القائمة هذا. |
 
 ### ملاحظات
 
-القائمة في مستند Microsoft Word عبارة عن مجموعة من خصائص تنسيق القائمة. _ x000d_ يمكن أن تحتوي كل قائمة على ما يصل إلى 9 مستويات وخصائص التنسيق ، مثل نمط الرقم ، وقيمة البداية ، و المسافة البادئة ، وموضع الجدولة ، إلخ ، يتم تحديدها بشكل منفصل لكل مستوى.
+القائمة في مستند Microsoft Word عبارة عن مجموعة من خصائص تنسيق القائمة. يمكن أن تحتوي كل قائمة على ما يصل إلى 9 مستويات وخصائص التنسيق ، مثل نمط الرقم ، وقيمة البداية ، و المسافة البادئة ، وموضع الجدولة ، إلخ ، يتم تحديدها بشكل منفصل لكل مستوى.
 
 أ[`List`](../list) الكائن ينتمي دائمًا إلى[`ListCollection`](../listcollection) مجموعة.
 

@@ -1,14 +1,14 @@
 ---
 title: Chart
 second_title: Aspose.Words لمراجع .NET API
-description: يوفر الوصول إلى خصائص شكل المخطط ._ x000d_
+description: يوفر الوصول إلى خصائص شكل المخطط .
 type: docs
 weight: 600
 url: /ar/net/aspose.words.drawing.charts/chart/
 ---
 ## Chart class
 
-يوفر الوصول إلى خصائص شكل المخطط ._ x000d_
+يوفر الوصول إلى خصائص شكل المخطط .
 
 ```csharp
 public class Chart
@@ -19,7 +19,7 @@ public class Chart
 | اسم | وصف |
 | --- | --- |
 | [AxisX](../../aspose.words.drawing.charts/chart/axisx) { get; } | يوفر الوصول إلى خصائص المحور X للمخطط. |
-| [AxisY](../../aspose.words.drawing.charts/chart/axisy) { get; } | يوفر الوصول إلى خصائص المحور ص في المخطط ._ x000d_ |
+| [AxisY](../../aspose.words.drawing.charts/chart/axisy) { get; } | يوفر الوصول إلى خصائص المحور ص في المخطط . |
 | [AxisZ](../../aspose.words.drawing.charts/chart/axisz) { get; } | يوفر الوصول إلى خصائص المحور Z في المخطط. |
 | [Legend](../../aspose.words.drawing.charts/chart/legend) { get; } | يوفر الوصول إلى خصائص وسيلة إيضاح الرسم البياني. |
 | [Series](../../aspose.words.drawing.charts/chart/series) { get; } | يوفر الوصول إلى مجموعة المسلسلات . |

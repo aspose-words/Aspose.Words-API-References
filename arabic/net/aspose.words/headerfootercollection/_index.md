@@ -41,7 +41,7 @@ public class HeaderFooterCollection : NodeCollection
 
 يمكن أن يكون هناك واحد كحد أقصى **تذييل الرأس**
 
-لكل واحد[`HeaderFooterType`](../headerfootertype) لكل_ x000d_ **الجزء** .
+لكل واحد[`HeaderFooterType`](../headerfootertype) لكل_  **الجزء** .
 
 **تذييل الرأس** يمكن أن تحدث الكائنات بأي ترتيب في المجموعة.
 

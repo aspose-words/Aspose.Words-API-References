@@ -1,14 +1,14 @@
 ---
 title: TxtListIndentation
 second_title: Aspose.Words لمراجع .NET API
-description: يحدد كيفية وضع مسافة بادئة لمستويات القائمة عند تصدير المستند إليهاText التنسيق ._ x000d_
+description: يحدد كيفية وضع مسافة بادئة لمستويات القائمة عند تصدير المستند إليهاText التنسيق .
 type: docs
 weight: 5370
 url: /ar/net/aspose.words.saving/txtlistindentation/
 ---
 ## TxtListIndentation class
 
-يحدد كيفية وضع مسافة بادئة لمستويات القائمة عند تصدير المستند إليهاText التنسيق ._ x000d_
+يحدد كيفية وضع مسافة بادئة لمستويات القائمة عند تصدير المستند إليهاText التنسيق .
 
 ```csharp
 public class TxtListIndentation
@@ -25,7 +25,7 @@ public class TxtListIndentation
 | اسم | وصف |
 | --- | --- |
 | [Character](../../aspose.words.saving/txtlistindentation/character) { get; set; } | الحصول على أو تحديد الحرف الذي يجب استخدامه لوضع مسافة بادئة لمستويات القائمة . القيمة الافتراضية هي "\ 0" ، وهذا يعني عدم وجود مسافة بادئة . |
-| [Count](../../aspose.words.saving/txtlistindentation/count) { get; set; } | يحصل أو يحدد كم[`Character`](./character) لاستخدام مسافة بادئة لكل مستوى قائمة ._ x000d_ القيمة الافتراضية هي 0 ، وهذا يعني عدم وجود مسافة بادئة ._ x000d_ |
+| [Count](../../aspose.words.saving/txtlistindentation/count) { get; set; } | يحصل أو يحدد كم[`Character`](./character) لاستخدام مسافة بادئة لكل مستوى قائمة . القيمة الافتراضية هي 0 ، وهذا يعني عدم وجود مسافة بادئة . |
 
 ### أمثلة
 

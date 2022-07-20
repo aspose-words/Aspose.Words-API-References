@@ -103,7 +103,7 @@ private class CustomHyphenationDictionaryRegister : IHyphenationCallback
 
 يقوم بتسجيل وتحميل قاموس الواصلة للغة المحددة من الملف. يُطرح في حالة تعذر قراءة القاموس أو إذا كان تنسيقه غير صالح.
 
-يمكن أيضًا استخدام هذه الطريقة لتسجيل قاموس Null لمنع حدوث ذلك[`Callback`](../callback) من الاستدعاء المتكرر لنفس اللغة ._ x000d_
+يمكن أيضًا استخدام هذه الطريقة لتسجيل قاموس Null لمنع حدوث ذلك[`Callback`](../callback) من الاستدعاء المتكرر لنفس اللغة .
 
 ```csharp
 public static void RegisterDictionary(string language, string fileName)

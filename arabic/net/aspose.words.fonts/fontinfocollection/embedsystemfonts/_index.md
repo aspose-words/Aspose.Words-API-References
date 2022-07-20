@@ -1,14 +1,14 @@
 ---
 title: EmbedSystemFonts
 second_title: Aspose.Words لمراجع .NET API
-description: يحدد ما إذا كان سيتم تضمين خطوط النظام في الوثيقة أم لا. _ x000d_ القيمة الافتراضية لهذه الخاصية هي خاطئة.
+description: يحدد ما إذا كان سيتم تضمين خطوط النظام في الوثيقة أم لا. القيمة الافتراضية لهذه الخاصية هي خاطئة.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.fonts/fontinfocollection/embedsystemfonts/
 ---
 ## FontInfoCollection.EmbedSystemFonts property
 
-يحدد ما إذا كان سيتم تضمين خطوط النظام في الوثيقة أم لا. _ x000d_ القيمة الافتراضية لهذه الخاصية هي **خاطئة**.
+يحدد ما إذا كان سيتم تضمين خطوط النظام في الوثيقة أم لا. القيمة الافتراضية لهذه الخاصية هي **خاطئة**.
 
 يعمل هذا الخيار فقط عندما[`EmbedTrueTypeFonts`](../embedtruetypefonts) تم تعيين الخيار ل **حقيقي**.
 

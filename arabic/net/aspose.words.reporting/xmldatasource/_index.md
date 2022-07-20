@@ -20,12 +20,12 @@ public class XmlDataSource
 | --- | --- |
 | [XmlDataSource](xmldatasource#constructor)(Stream) | إنشاء مصدر بيانات جديد ببيانات من دفق XML باستخدام الخيارات الافتراضية لتحميل بيانات XML . |
 | [XmlDataSource](xmldatasource#constructor_4)(string) | إنشاء مصدر بيانات جديد ببيانات من ملف XML باستخدام الخيارات الافتراضية لتحميل بيانات XML . |
-| [XmlDataSource](xmldatasource#constructor_2)(Stream, Stream) | إنشاء مصدر بيانات جديد ببيانات من دفق XML باستخدام دفق تعريف مخطط XML. يتم استخدام الخيارات الافتراضية_ x000d_ لتحميل بيانات XML. |
+| [XmlDataSource](xmldatasource#constructor_2)(Stream, Stream) | إنشاء مصدر بيانات جديد ببيانات من دفق XML باستخدام دفق تعريف مخطط XML. يتم استخدام الخيارات الافتراضية لتحميل بيانات XML. |
 | [XmlDataSource](xmldatasource#constructor_1)(Stream, XmlDataLoadOptions) | إنشاء مصدر بيانات جديد ببيانات من دفق XML باستخدام الخيارات المحددة لتحميل بيانات XML . |
-| [XmlDataSource](xmldatasource#constructor_6)(string, string) | إنشاء مصدر بيانات جديد ببيانات من ملف XML باستخدام ملف تعريف مخطط XML. يتم استخدام الخيارات الافتراضية_ x000d_ لتحميل بيانات XML. |
+| [XmlDataSource](xmldatasource#constructor_6)(string, string) | إنشاء مصدر بيانات جديد ببيانات من ملف XML باستخدام ملف تعريف مخطط XML. يتم استخدام الخيارات الافتراضية لتحميل بيانات XML. |
 | [XmlDataSource](xmldatasource#constructor_5)(string, XmlDataLoadOptions) | إنشاء مصدر بيانات جديد ببيانات من ملف XML باستخدام الخيارات المحددة لتحميل بيانات XML . |
-| [XmlDataSource](xmldatasource#constructor_3)(Stream, Stream, XmlDataLoadOptions) | إنشاء مصدر بيانات جديد ببيانات من دفق XML باستخدام دفق تعريف مخطط XML. يتم استخدام الخيارات المحددة x000d_ لتحميل بيانات XML. |
-| [XmlDataSource](xmldatasource#constructor_7)(string, string, XmlDataLoadOptions) | إنشاء مصدر بيانات جديد ببيانات من ملف XML باستخدام ملف تعريف مخطط XML. يتم استخدام الخيارات المحددة x000d_ لتحميل بيانات XML. |
+| [XmlDataSource](xmldatasource#constructor_3)(Stream, Stream, XmlDataLoadOptions) | إنشاء مصدر بيانات جديد ببيانات من دفق XML باستخدام دفق تعريف مخطط XML. يتم استخدام الخيارات المحددة لتحميل بيانات XML. |
+| [XmlDataSource](xmldatasource#constructor_7)(string, string, XmlDataLoadOptions) | إنشاء مصدر بيانات جديد ببيانات من ملف XML باستخدام ملف تعريف مخطط XML. يتم استخدام الخيارات المحددة لتحميل بيانات XML. |
 
 ### ملاحظات
 

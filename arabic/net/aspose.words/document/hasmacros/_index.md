@@ -1,14 +1,14 @@
 ---
 title: HasMacros
 second_title: Aspose.Words لمراجع .NET API
-description: عوائد حقيقي إذا كان المستند يحتوي على مشروع VBA وحدات ماكرو ._ x000d_
+description: عوائد حقيقي إذا كان المستند يحتوي على مشروع VBA وحدات ماكرو .
 type: docs
 weight: 190
 url: /ar/net/aspose.words/document/hasmacros/
 ---
 ## Document.HasMacros property
 
-عوائد **حقيقي** إذا كان المستند يحتوي على مشروع VBA (وحدات ماكرو) ._ x000d_
+عوائد **حقيقي** إذا كان المستند يحتوي على مشروع VBA (وحدات ماكرو) .
 
 ```csharp
 public bool HasMacros { get; }

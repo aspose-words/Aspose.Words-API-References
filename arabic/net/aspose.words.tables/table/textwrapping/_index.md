@@ -1,14 +1,14 @@
 ---
 title: TextWrapping
 second_title: Aspose.Words لمراجع .NET API
-description: يحصل أو يحددTextWrappingaspose.words.tables/table/textwrapping للجدول ._ x000d_
+description: يحصل أو يحددTextWrappingaspose.words.tables/table/textwrapping للجدول .
 type: docs
 weight: 310
 url: /ar/net/aspose.words.tables/table/textwrapping/
 ---
 ## Table.TextWrapping property
 
-يحصل أو يحدد`TextWrapping` للجدول ._ x000d_
+يحصل أو يحدد`TextWrapping` للجدول .
 
 ```csharp
 public TextWrapping TextWrapping { get; set; }

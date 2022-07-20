@@ -1,14 +1,14 @@
 ---
 title: Borders
 second_title: Aspose.Words لمراجع .NET API
-description: الحصول على مجموعة من حدود الصفحة ._ x000d_
+description: الحصول على مجموعة من حدود الصفحة .
 type: docs
 weight: 50
 url: /ar/net/aspose.words/pagesetup/borders/
 ---
 ## PageSetup.Borders property
 
-الحصول على مجموعة من حدود الصفحة ._ x000d_
+الحصول على مجموعة من حدود الصفحة .
 
 ```csharp
 public BorderCollection Borders { get; }

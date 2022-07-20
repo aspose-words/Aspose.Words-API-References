@@ -1,14 +1,14 @@
 ---
 title: InsertField
 second_title: Aspose.Words لمراجع .NET API
-description: إدراج حقل في هذه الفقرة ._ x000d_
+description: إدراج حقل في هذه الفقرة .
 type: docs
 weight: 270
 url: /ar/net/aspose.words/paragraph/insertfield/
 ---
 ## InsertField(FieldType, bool, Node, bool) {#insertfield}
 
-إدراج حقل في هذه الفقرة ._ x000d_
+إدراج حقل في هذه الفقرة .
 
 ```csharp
 public Field InsertField(FieldType fieldType, bool updateField, Node refNode, bool isAfter)
@@ -74,7 +74,7 @@ doc.Save(ArtifactsDir + "Paragraph.InsertField.docx");
 
 ## InsertField(string, Node, bool) {#insertfield_1}
 
-إدراج حقل في هذه الفقرة ._ x000d_
+إدراج حقل في هذه الفقرة .
 
 ```csharp
 public Field InsertField(string fieldCode, Node refNode, bool isAfter)
@@ -138,7 +138,7 @@ doc.Save(ArtifactsDir + "Paragraph.InsertField.docx");
 
 ## InsertField(string, string, Node, bool) {#insertfield_2}
 
-إدراج حقل في هذه الفقرة ._ x000d_
+إدراج حقل في هذه الفقرة .
 
 ```csharp
 public Field InsertField(string fieldCode, string fieldValue, Node refNode, bool isAfter)

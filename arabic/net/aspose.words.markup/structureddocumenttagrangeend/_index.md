@@ -18,13 +18,13 @@ public class StructuredDocumentTagRangeEnd : Node
 
 | اسم | وصف |
 | --- | --- |
-| [StructuredDocumentTagRangeEnd](structureddocumenttagrangeend)(DocumentBase, int) | يقوم بتهيئة مثيل جديد لملف **نهاية نطاق علامة المستند المنظم** فئة ._ x000d_ |
+| [StructuredDocumentTagRangeEnd](structureddocumenttagrangeend)(DocumentBase, int) | يقوم بتهيئة مثيل جديد لملف **نهاية نطاق علامة المستند المنظم** فئة . |
 
 ## الخصائص
 
 | اسم | وصف |
 | --- | --- |
-| [CustomNodeId](../../aspose.words/node/customnodeid) { get; set; } | يحدد معرف العقدة المخصص ._ x000d_ |
+| [CustomNodeId](../../aspose.words/node/customnodeid) { get; set; } | يحدد معرف العقدة المخصص . |
 | virtual [Document](../../aspose.words/node/document) { get; } | الحصول على المستند الذي تنتمي إليه هذه العقدة . |
 | [Id](../../aspose.words.markup/structureddocumenttagrangeend/id) { get; } | تحديد معرف رقمي فريد ومستمر للقراءة فقط لهذا الغرض **StructuredDocumentTagRange** node. المقابلة[`StructuredDocumentTagRangeStart`](../structureddocumenttagrangestart) العقدة لها نفس الشيء[`Id`](../structureddocumenttagrangestart/id) . |
 | virtual [IsComposite](../../aspose.words/node/iscomposite) { get; } | إرجاع صحيح إذا كانت هذه العقدة يمكن أن تحتوي على عقد أخرى. |

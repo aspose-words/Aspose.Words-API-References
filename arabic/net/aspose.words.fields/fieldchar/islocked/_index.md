@@ -1,14 +1,14 @@
 ---
 title: IsLocked
 second_title: Aspose.Words لمراجع .NET API
-description: الحصول على أو تحديد ما إذا كان الحقل الأصلي مغلقًا يجب عدم إعادة حساب النتيجة ._ x000d_
+description: الحصول على أو تحديد ما إذا كان الحقل الأصلي مغلقًا يجب عدم إعادة حساب النتيجة .
 type: docs
 weight: 30
 url: /ar/net/aspose.words.fields/fieldchar/islocked/
 ---
 ## FieldChar.IsLocked property
 
-الحصول على أو تحديد ما إذا كان الحقل الأصلي مغلقًا (يجب عدم إعادة حساب النتيجة) ._ x000d_
+الحصول على أو تحديد ما إذا كان الحقل الأصلي مغلقًا (يجب عدم إعادة حساب النتيجة) .
 
 ```csharp
 public bool IsLocked { get; set; }

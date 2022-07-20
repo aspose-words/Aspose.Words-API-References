@@ -22,7 +22,7 @@ public enum FontSourceType
 | FontsFolder | `1` | أ[`FolderFontSource`](../folderfontsource) الكائن الذي يمثل مجلدًا يحتوي على ملفات خط . |
 | MemoryFont | `2` | أ[`MemoryFontSource`](../memoryfontsource) كائن يمثل خطًا واحدًا في الذاكرة. |
 | SystemFonts | `3` | أ[`SystemFontSource`](../systemfontsource) يمثل كل الخطوط المثبتة على النظام. |
-| FontStream | `4` | أ[`StreamFontSource`](../streamfontsource) الكائن الذي يمثل دفقًا ببيانات الخط ._ x000d_ |
+| FontStream | `4` | أ[`StreamFontSource`](../streamfontsource) الكائن الذي يمثل دفقًا ببيانات الخط . |
 
 ### أمثلة
 

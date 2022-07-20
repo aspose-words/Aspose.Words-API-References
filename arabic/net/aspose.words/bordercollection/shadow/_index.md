@@ -1,14 +1,14 @@
 ---
 title: Shadow
 second_title: Aspose.Words لمراجع .NET API
-description: الحصول على أو تعيين قيمة تشير إلى ما إذا كانت الحدود لها ظل ._ x000d_
+description: الحصول على أو تعيين قيمة تشير إلى ما إذا كانت الحدود لها ظل .
 type: docs
 weight: 110
 url: /ar/net/aspose.words/bordercollection/shadow/
 ---
 ## BorderCollection.Shadow property
 
-الحصول على أو تعيين قيمة تشير إلى ما إذا كانت الحدود لها ظل ._ x000d_
+الحصول على أو تعيين قيمة تشير إلى ما إذا كانت الحدود لها ظل .
 
 ```csharp
 public bool Shadow { get; set; }

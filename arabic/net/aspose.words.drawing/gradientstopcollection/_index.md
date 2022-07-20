@@ -1,14 +1,14 @@
 ---
 title: GradientStopCollection
 second_title: Aspose.Words لمراجع .NET API
-description: يحتوي على مجموعة منGradientStop./gradientstop الكائنات ._ x000d_
+description: يحتوي على مجموعة منGradientStop./gradientstop الكائنات .
 type: docs
 weight: 860
 url: /ar/net/aspose.words.drawing/gradientstopcollection/
 ---
 ## GradientStopCollection class
 
-يحتوي على مجموعة من[`GradientStop`](../gradientstop) الكائنات ._ x000d_
+يحتوي على مجموعة من[`GradientStop`](../gradientstop) الكائنات .
 
 ```csharp
 public class GradientStopCollection : IEnumerable<GradientStop>
@@ -19,13 +19,13 @@ public class GradientStopCollection : IEnumerable<GradientStop>
 | اسم | وصف |
 | --- | --- |
 | [Count](../../aspose.words.drawing/gradientstopcollection/count) { get; } | الحصول على قيمة عددية تشير إلى عدد العناصر في المجموعة. |
-| [Item](../../aspose.words.drawing/gradientstopcollection/item) { get; set; } | يحصل أو يحدد أ[`GradientStop`](../gradientstop) كائن في المجموعة ._ x000d_ |
+| [Item](../../aspose.words.drawing/gradientstopcollection/item) { get; set; } | يحصل أو يحدد أ[`GradientStop`](../gradientstop) كائن في المجموعة . |
 
 ## طُرق
 
 | اسم | وصف |
 | --- | --- |
-| [Add](../../aspose.words.drawing/gradientstopcollection/add)(GradientStop) | يضيف محددًا[`GradientStop`](../gradientstop) إلى التدرج اللوني ._ x000d_ |
+| [Add](../../aspose.words.drawing/gradientstopcollection/add)(GradientStop) | يضيف محددًا[`GradientStop`](../gradientstop) إلى التدرج اللوني . |
 | [GetEnumerator](../../aspose.words.drawing/gradientstopcollection/getenumerator)() | إرجاع عداد يتكرر خلال المجموعة. |
 | [Insert](../../aspose.words.drawing/gradientstopcollection/insert)(int, GradientStop) | إدراج أ[`GradientStop`](../gradientstop) إلى المجموعة في فهرس محدد. |
 | [Remove](../../aspose.words.drawing/gradientstopcollection/remove)(GradientStop) | يزيل ملف[`GradientStop`](../gradientstop) من المجموعة. |

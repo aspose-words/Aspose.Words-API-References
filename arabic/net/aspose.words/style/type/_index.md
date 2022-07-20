@@ -1,14 +1,14 @@
 ---
 title: Type
 second_title: Aspose.Words لمراجع .NET API
-description: الحصول على نوع النمط فقرة أو حرف ._ x000d_
+description: الحصول على نوع النمط فقرة أو حرف .
 type: docs
 weight: 160
 url: /ar/net/aspose.words/style/type/
 ---
 ## Style.Type property
 
-الحصول على نوع النمط (فقرة أو حرف) ._ x000d_
+الحصول على نوع النمط (فقرة أو حرف) .
 
 ```csharp
 public StyleType Type { get; }

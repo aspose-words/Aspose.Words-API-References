@@ -1,14 +1,14 @@
 ---
 title: ShowValue
 second_title: Aspose.Words لمراجع .NET API
-description: يسمح بتحديد ما إذا كان سيتم عرض القيم في تسميات البيانات. القيمة الافتراضية خاطئة ._ x000d_
+description: يسمح بتحديد ما إذا كان سيتم عرض القيم في تسميات البيانات. القيمة الافتراضية خاطئة .
 type: docs
 weight: 130
 url: /ar/net/aspose.words.drawing.charts/chartdatalabel/showvalue/
 ---
 ## ChartDataLabel.ShowValue property
 
-يسمح بتحديد ما إذا كان سيتم عرض القيم في تسميات البيانات. القيمة الافتراضية خاطئة ._ x000d_
+يسمح بتحديد ما إذا كان سيتم عرض القيم في تسميات البيانات. القيمة الافتراضية خاطئة .
 
 ```csharp
 public bool ShowValue { get; set; }

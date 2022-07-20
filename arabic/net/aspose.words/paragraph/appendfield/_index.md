@@ -1,14 +1,14 @@
 ---
 title: AppendField
 second_title: Aspose.Words لمراجع .NET API
-description: لإلحاق حقل بهذه الفقرة ._ x000d_
+description: لإلحاق حقل بهذه الفقرة .
 type: docs
 weight: 240
 url: /ar/net/aspose.words/paragraph/appendfield/
 ---
 ## AppendField(FieldType, bool) {#appendfield}
 
-لإلحاق حقل بهذه الفقرة ._ x000d_
+لإلحاق حقل بهذه الفقرة .
 
 ```csharp
 public Field AppendField(FieldType fieldType, bool updateField)
@@ -63,7 +63,7 @@ doc.Save(ArtifactsDir + "Paragraph.AppendField.docx");
 
 ## AppendField(string) {#appendfield_1}
 
-لإلحاق حقل بهذه الفقرة ._ x000d_
+لإلحاق حقل بهذه الفقرة .
 
 ```csharp
 public Field AppendField(string fieldCode)
@@ -116,7 +116,7 @@ doc.Save(ArtifactsDir + "Paragraph.AppendField.docx");
 
 ## AppendField(string, string) {#appendfield_2}
 
-لإلحاق حقل بهذه الفقرة ._ x000d_
+لإلحاق حقل بهذه الفقرة .
 
 ```csharp
 public Field AppendField(string fieldCode, string fieldValue)

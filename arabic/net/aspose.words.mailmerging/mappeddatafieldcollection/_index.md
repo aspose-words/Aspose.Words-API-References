@@ -1,14 +1,14 @@
 ---
 title: MappedDataFieldCollection
 second_title: Aspose.Words لمراجع .NET API
-description: يسمح بالتعيين التلقائي بين أسماء الحقول في مصدر البيانات_ x000d_ وأسماء حقول دمج البريد في المستند.
+description: يسمح بالتعيين التلقائي بين أسماء الحقول في مصدر البيانات وأسماء حقول دمج البريد في المستند.
 type: docs
 weight: 3650
 url: /ar/net/aspose.words.mailmerging/mappeddatafieldcollection/
 ---
 ## MappedDataFieldCollection class
 
-يسمح بالتعيين التلقائي بين أسماء الحقول في مصدر البيانات_ x000d_ وأسماء حقول دمج البريد في المستند.
+يسمح بالتعيين التلقائي بين أسماء الحقول في مصدر البيانات وأسماء حقول دمج البريد في المستند.
 
 ```csharp
 public class MappedDataFieldCollection : IEnumerable<KeyValuePair<string, string>>
@@ -30,7 +30,7 @@ public class MappedDataFieldCollection : IEnumerable<KeyValuePair<string, string
 | [ContainsKey](../../aspose.words.mailmerging/mappeddatafieldcollection/containskey)(string) | لتحديد ما إذا كان التعيين من الحقل المحدد في المستند موجودًا في المجموعة. |
 | [ContainsValue](../../aspose.words.mailmerging/mappeddatafieldcollection/containsvalue)(string) | تحديد ما إذا كان التعيين من الحقل المحدد في مصدر البيانات موجودًا في المجموعة. |
 | [GetEnumerator](../../aspose.words.mailmerging/mappeddatafieldcollection/getenumerator)() | إرجاع كائن تعداد القاموس الذي يمكن استخدامه للتكرار على كافة العناصر في المجموعة. |
-| [Remove](../../aspose.words.mailmerging/mappeddatafieldcollection/remove)(string) | يزيل تعيين الحقل ._ x000d_ |
+| [Remove](../../aspose.words.mailmerging/mappeddatafieldcollection/remove)(string) | يزيل تعيين الحقل . |
 
 ### ملاحظات
 

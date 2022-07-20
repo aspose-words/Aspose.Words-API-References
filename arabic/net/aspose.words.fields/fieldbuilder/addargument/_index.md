@@ -1,14 +1,14 @@
 ---
 title: AddArgument
 second_title: Aspose.Words لمراجع .NET API
-description: إضافة وسيطة الحقل ._ x000d_
+description: إضافة وسيطة الحقل .
 type: docs
 weight: 20
 url: /ar/net/aspose.words.fields/fieldbuilder/addargument/
 ---
 ## AddArgument(string) {#addargument_4}
 
-إضافة وسيطة الحقل ._ x000d_
+إضافة وسيطة الحقل .
 
 ```csharp
 public FieldBuilder AddArgument(string argument)
@@ -108,7 +108,7 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 
 ## AddArgument(int) {#addargument_3}
 
-إضافة وسيطة الحقل ._ x000d_
+إضافة وسيطة الحقل .
 
 ```csharp
 public FieldBuilder AddArgument(int argument)
@@ -208,7 +208,7 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 
 ## AddArgument(double) {#addargument_2}
 
-إضافة وسيطة الحقل ._ x000d_
+إضافة وسيطة الحقل .
 
 ```csharp
 public FieldBuilder AddArgument(double argument)

@@ -1,14 +1,14 @@
 ---
 title: Vertical
 second_title: Aspose.Words لمراجع .NET API
-description: الحصول على الحد الرأسي المستخدم بين الخلايا ._ x000d_
+description: الحصول على الحد الرأسي المستخدم بين الخلايا .
 type: docs
 weight: 130
 url: /ar/net/aspose.words/bordercollection/vertical/
 ---
 ## BorderCollection.Vertical property
 
-الحصول على الحد الرأسي المستخدم بين الخلايا ._ x000d_
+الحصول على الحد الرأسي المستخدم بين الخلايا .
 
 ```csharp
 public Border Vertical { get; }

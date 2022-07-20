@@ -1,14 +1,14 @@
 ---
 title: EndCap
 second_title: Aspose.Words لمراجع .NET API
-description: تحديد نمط غطاء الخط ._ x000d_
+description: تحديد نمط غطاء الخط .
 type: docs
 weight: 810
 url: /ar/net/aspose.words.drawing/endcap/
 ---
 ## EndCap enumeration
 
-تحديد نمط غطاء الخط ._ x000d_
+تحديد نمط غطاء الخط .
 
 ```csharp
 public enum EndCap
@@ -18,7 +18,7 @@ public enum EndCap
 
 | اسم | قيمة | وصف |
 | --- | --- | --- |
-| Round | `0` | نهايات مستديرة ._ x000d_ |
+| Round | `0` | نهايات مستديرة . |
 | Square | `1` | يبرز مربع بنصف عرض الخط. |
 | Flat | `2` | ينتهي الخط عند نقطة النهاية . |
 | Default | `2` | القيمة الافتراضية هيFlat . |

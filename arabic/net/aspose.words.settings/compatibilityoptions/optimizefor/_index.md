@@ -10,7 +10,7 @@ url: /ar/net/aspose.words.settings/compatibilityoptions/optimizefor/
 
 يسمح بتحسين محتويات المستند بالإضافة إلى سلوك Aspose.Words الافتراضي لإصدارات معينة من MS Word.
 
-استخدم هذه الطريقة لمنع MS Word من عرض شريط "وضع التوافق" عند تحميل المستند. (لاحظ أنك قد تحتاج أيضًا إلى تعيين[`Compliance`](../../../aspose.words.saving/ooxmlsaveoptions/compliance) الخاصية إلى Iso29500_2008_Transitional أو أعلى.) _ x000d_
+استخدم هذه الطريقة لمنع MS Word من عرض شريط "وضع التوافق" عند تحميل المستند. (لاحظ أنك قد تحتاج أيضًا إلى تعيين[`Compliance`](../../../aspose.words.saving/ooxmlsaveoptions/compliance) الخاصية إلى Iso29500_2008_Transitional أو أعلى.)
 
 ```csharp
 public void OptimizeFor(MsWordVersion version)

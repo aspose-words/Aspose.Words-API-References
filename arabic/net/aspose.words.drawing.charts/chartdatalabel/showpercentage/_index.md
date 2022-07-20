@@ -1,14 +1,14 @@
 ---
 title: ShowPercentage
 second_title: Aspose.Words لمراجع .NET API
-description: يسمح بتحديد ما إذا كان سيتم عرض قيمة النسبة المئوية لتسميات البيانات على الرسم البياني. القيمة الافتراضية خاطئة ._ x000d_
+description: يسمح بتحديد ما إذا كان سيتم عرض قيمة النسبة المئوية لتسميات البيانات على الرسم البياني. القيمة الافتراضية خاطئة .
 type: docs
 weight: 110
 url: /ar/net/aspose.words.drawing.charts/chartdatalabel/showpercentage/
 ---
 ## ChartDataLabel.ShowPercentage property
 
-يسمح بتحديد ما إذا كان سيتم عرض قيمة النسبة المئوية لتسميات البيانات على الرسم البياني. القيمة الافتراضية خاطئة ._ x000d_
+يسمح بتحديد ما إذا كان سيتم عرض قيمة النسبة المئوية لتسميات البيانات على الرسم البياني. القيمة الافتراضية خاطئة .
 
 ```csharp
 public bool ShowPercentage { get; set; }

@@ -24,7 +24,7 @@ public class UserInformation
 
 | اسم | وصف |
 | --- | --- |
-| static [DefaultUser](../../aspose.words.fields/userinformation/defaultuser) { get; } | معلومات المستخدم الافتراضية ._ x000d_ |
+| static [DefaultUser](../../aspose.words.fields/userinformation/defaultuser) { get; } | معلومات المستخدم الافتراضية . |
 | [Address](../../aspose.words.fields/userinformation/address) { get; set; } | الحصول على أو تعيين العنوان البريدي للمستخدم. |
 | [Initials](../../aspose.words.fields/userinformation/initials) { get; set; } | الحصول على أو تعيين الأحرف الأولى للمستخدم. |
 | [Name](../../aspose.words.fields/userinformation/name) { get; set; } | الحصول على أو تحديد اسم المستخدم . |

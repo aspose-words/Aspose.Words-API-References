@@ -1,14 +1,14 @@
 ---
 title: FacingIdentificationMark
 second_title: Aspose.Words لمراجع .NET API
-description: نوع علامة تحديد الوجه FIM ._ x000d_
+description: نوع علامة تحديد الوجه FIM .
 type: docs
 weight: 90
 url: /ar/net/aspose.words.fields/barcodeparameters/facingidentificationmark/
 ---
 ## BarcodeParameters.FacingIdentificationMark property
 
-نوع علامة تحديد الوجه (FIM) ._ x000d_
+نوع علامة تحديد الوجه (FIM) .
 
 ```csharp
 public string FacingIdentificationMark { get; set; }

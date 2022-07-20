@@ -1,14 +1,14 @@
 ---
 title: CacheKey
 second_title: Aspose.Words لمراجع .NET API
-description: مفتاح هذا المصدر في ذاكرة التخزين المؤقت ._ x000d_
+description: مفتاح هذا المصدر في ذاكرة التخزين المؤقت .
 type: docs
 weight: 10
 url: /ar/net/aspose.words.fonts/streamfontsource/cachekey/
 ---
 ## StreamFontSource.CacheKey property
 
-مفتاح هذا المصدر في ذاكرة التخزين المؤقت ._ x000d_
+مفتاح هذا المصدر في ذاكرة التخزين المؤقت .
 
 ```csharp
 public string CacheKey { get; }
@@ -16,7 +16,7 @@ public string CacheKey { get; }
 
 ### ملاحظات
 
-يُستخدم هذا المفتاح لتحديد عنصر ذاكرة التخزين المؤقت عند حفظ / تحميل ذاكرة التخزين المؤقت للبحث عن الخط باستخدام [`SaveSearchCache`](../../fontsettings/savesearchcache) و[`SetFontsSources`](../../fontsettings/setfontssources)الطرق ._ x000d_
+يُستخدم هذا المفتاح لتحديد عنصر ذاكرة التخزين المؤقت عند حفظ / تحميل ذاكرة التخزين المؤقت للبحث عن الخط باستخدام [`SaveSearchCache`](../../fontsettings/savesearchcache) و[`SetFontsSources`](../../fontsettings/setfontssources)الطرق .
 
 ### أنظر أيضا
 

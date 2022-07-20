@@ -1,14 +1,14 @@
 ---
 title: CoordSize
 second_title: Aspose.Words لمراجع .NET API
-description: عرض وارتفاع مساحة الإحداثيات داخل الكتلة التي تحتوي على هذا الشكل ._ x000d_
+description: عرض وارتفاع مساحة الإحداثيات داخل الكتلة التي تحتوي على هذا الشكل .
 type: docs
 weight: 120
 url: /ar/net/aspose.words.drawing/shapebase/coordsize/
 ---
 ## ShapeBase.CoordSize property
 
-عرض وارتفاع مساحة الإحداثيات داخل الكتلة التي تحتوي على هذا الشكل ._ x000d_
+عرض وارتفاع مساحة الإحداثيات داخل الكتلة التي تحتوي على هذا الشكل .
 
 ```csharp
 public Size CoordSize { get; set; }

@@ -20,7 +20,7 @@ public class ChartDataLabelCollection : IEnumerable<ChartDataLabel>
 | --- | --- |
 | [Count](../../aspose.words.drawing.charts/chartdatalabelcollection/count) { get; } | إرجاع عدد[`ChartDataLabel`](../chartdatalabel) في هذه المجموعة. |
 | [Item](../../aspose.words.drawing.charts/chartdatalabelcollection/item) { get; } | عوائد[`ChartDataLabel`](../chartdatalabel) للفهرس المحدد. |
-| [NumberFormat](../../aspose.words.drawing.charts/chartdatalabelcollection/numberformat) { get; } | يحصل على ملف[`ChartNumberFormat`](../chartnumberformat) مثال يسمح بتعيين تنسيق رقم لتسميات البيانات لسلسلة_ x000d_ بأكملها. |
+| [NumberFormat](../../aspose.words.drawing.charts/chartdatalabelcollection/numberformat) { get; } | يحصل على ملف[`ChartNumberFormat`](../chartnumberformat) مثال يسمح بتعيين تنسيق رقم لتسميات البيانات لسلسلة بأكملها. |
 | [Separator](../../aspose.words.drawing.charts/chartdatalabelcollection/separator) { get; set; } | الحصول على أو تعيين فاصل السلسلة المستخدم لتسميات البيانات للسلسلة بأكملها. الافتراضي هو الفاصلة ، باستثناء المخططات الدائرية التي تعرض اسم الفئة والنسبة المئوية فقط ، عند استخدام فاصل أسطر بدلاً من ذلك. |
 | [ShowBubbleSize](../../aspose.words.drawing.charts/chartdatalabelcollection/showbubblesize) { get; set; } | يسمح بتحديد ما إذا كان سيتم عرض حجم الفقاعة لتسميات البيانات الخاصة بالسلسلة بأكملها. ينطبق فقط على المخططات الفقاعية. القيمة الافتراضية هي **خاطئة** . |
 | [ShowCategoryName](../../aspose.words.drawing.charts/chartdatalabelcollection/showcategoryname) { get; set; } | يسمح بتحديد ما إذا كان سيتم عرض اسم الفئة لتسميات البيانات الخاصة بالسلسلة بأكملها. القيمة الافتراضية هي **خاطئة** . |

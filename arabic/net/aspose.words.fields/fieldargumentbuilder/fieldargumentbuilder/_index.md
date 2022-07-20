@@ -1,14 +1,14 @@
 ---
 title: FieldArgumentBuilder
 second_title: Aspose.Words لمراجع .NET API
-description: يقوم بتهيئة مثيل لملفFieldArgumentBuilderaspose.words.fields/fieldargumentbuilder فئة ._ x000d_
+description: يقوم بتهيئة مثيل لملفFieldArgumentBuilderaspose.words.fields/fieldargumentbuilder فئة .
 type: docs
 weight: 10
 url: /ar/net/aspose.words.fields/fieldargumentbuilder/fieldargumentbuilder/
 ---
 ## FieldArgumentBuilder constructor
 
-يقوم بتهيئة مثيل لملف[`FieldArgumentBuilder`](../../fieldargumentbuilder) فئة ._ x000d_
+يقوم بتهيئة مثيل لملف[`FieldArgumentBuilder`](../../fieldargumentbuilder) فئة .
 
 ```csharp
 public FieldArgumentBuilder()

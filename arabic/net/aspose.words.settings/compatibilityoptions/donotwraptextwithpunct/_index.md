@@ -1,14 +1,14 @@
 ---
 title: DoNotWrapTextWithPunct
 second_title: Aspose.Words لمراجع .NET API
-description: عدم السماح بتعليق علامات الترقيم بشبكة الأحرف ._ x000d_
+description: عدم السماح بتعليق علامات الترقيم بشبكة الأحرف .
 type: docs
 weight: 250
 url: /ar/net/aspose.words.settings/compatibilityoptions/donotwraptextwithpunct/
 ---
 ## CompatibilityOptions.DoNotWrapTextWithPunct property
 
-عدم السماح بتعليق علامات الترقيم بشبكة الأحرف ._ x000d_
+عدم السماح بتعليق علامات الترقيم بشبكة الأحرف .
 
 ```csharp
 public bool DoNotWrapTextWithPunct { get; set; }

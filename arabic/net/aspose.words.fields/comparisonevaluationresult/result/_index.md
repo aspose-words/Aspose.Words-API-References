@@ -1,14 +1,14 @@
 ---
 title: Result
 second_title: Aspose.Words لمراجع .NET API
-description: الحصول على نتيجة تقييم المقارنة ._ x000d_
+description: الحصول على نتيجة تقييم المقارنة .
 type: docs
 weight: 30
 url: /ar/net/aspose.words.fields/comparisonevaluationresult/result/
 ---
 ## ComparisonEvaluationResult.Result property
 
-الحصول على نتيجة تقييم المقارنة ._ x000d_
+الحصول على نتيجة تقييم المقارنة .
 
 ```csharp
 public bool Result { get; }

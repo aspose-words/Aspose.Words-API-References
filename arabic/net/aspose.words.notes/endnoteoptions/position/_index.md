@@ -1,14 +1,14 @@
 ---
 title: Position
 second_title: Aspose.Words لمراجع .NET API
-description: يحدد موضع التعليقات الختامية ._ x000d_
+description: يحدد موضع التعليقات الختامية .
 type: docs
 weight: 20
 url: /ar/net/aspose.words.notes/endnoteoptions/position/
 ---
 ## EndnoteOptions.Position property
 
-يحدد موضع التعليقات الختامية ._ x000d_
+يحدد موضع التعليقات الختامية .
 
 ```csharp
 public EndnotePosition Position { get; set; }

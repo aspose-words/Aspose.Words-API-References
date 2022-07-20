@@ -1,14 +1,14 @@
 ---
 title: SignatureLineId
 second_title: Aspose.Words لمراجع .NET API
-description: معرف سطر التوقيع. _ x000d_ القيمة الافتراضية هي دليل فارغ جميع الأصفار .
+description: معرف سطر التوقيع. القيمة الافتراضية هي دليل فارغ جميع الأصفار .
 type: docs
 weight: 50
 url: /ar/net/aspose.words.digitalsignatures/signoptions/signaturelineid/
 ---
 ## SignOptions.SignatureLineId property
 
-معرف سطر التوقيع. _ x000d_ القيمة الافتراضية هي **دليل فارغ (جميع الأصفار)** .
+معرف سطر التوقيع. القيمة الافتراضية هي **دليل فارغ (جميع الأصفار)** .
 
 ```csharp
 public Guid SignatureLineId { get; set; }

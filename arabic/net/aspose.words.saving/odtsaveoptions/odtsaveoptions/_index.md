@@ -1,14 +1,14 @@
 ---
 title: OdtSaveOptions
 second_title: Aspose.Words لمراجع .NET API
-description: يقوم بتهيئة مثيل جديد من هذه الفئة يمكن استخدامه لحفظ مستند بتنسيقOdt التنسيق ._ x000d_
+description: يقوم بتهيئة مثيل جديد من هذه الفئة يمكن استخدامه لحفظ مستند بتنسيقOdt التنسيق .
 type: docs
 weight: 10
 url: /ar/net/aspose.words.saving/odtsaveoptions/odtsaveoptions/
 ---
 ## OdtSaveOptions() {#constructor}
 
-يقوم بتهيئة مثيل جديد من هذه الفئة يمكن استخدامه لحفظ مستند بتنسيقOdt التنسيق ._ x000d_
+يقوم بتهيئة مثيل جديد من هذه الفئة يمكن استخدامه لحفظ مستند بتنسيقOdt التنسيق .
 
 ```csharp
 public OdtSaveOptions()
@@ -40,7 +40,7 @@ doc.Save(ArtifactsDir + "OdtSaveOptions.Odt11Schema.odt", saveOptions);
 
 ## OdtSaveOptions(string) {#constructor_2}
 
-يقوم بتهيئة مثيل جديد من هذه الفئة يمكن استخدامه لحفظ مستند بتنسيقOdt format مشفر بكلمة مرور. x000d_
+يقوم بتهيئة مثيل جديد من هذه الفئة يمكن استخدامه لحفظ مستند بتنسيقOdt format مشفر بكلمة مرور.
 
 ```csharp
 public OdtSaveOptions(string password)
@@ -56,7 +56,7 @@ public OdtSaveOptions(string password)
 
 ## OdtSaveOptions(SaveFormat) {#constructor_1}
 
-يقوم بتهيئة مثيل جديد من هذه الفئة يمكن استخدامه لحفظ مستند بتنسيقOdt أو x000d_Ott التنسيق ._ x000d_
+يقوم بتهيئة مثيل جديد من هذه الفئة يمكن استخدامه لحفظ مستند بتنسيقOdt أو Ott التنسيق .
 
 ```csharp
 public OdtSaveOptions(SaveFormat saveFormat)

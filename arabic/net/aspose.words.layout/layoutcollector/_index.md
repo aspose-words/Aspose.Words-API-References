@@ -33,7 +33,7 @@ public class LayoutCollector
 | [Clear](../../aspose.words.layout/layoutcollector/clear)() | مسح كافة بيانات التخطيط المجمعة. قم باستدعاء هذه الطريقة بعد تحديث المستند يدويًا أو إعادة تصميم التخطيط. |
 | [GetEndPageIndex](../../aspose.words.layout/layoutcollector/getendpageindex)(Node) | الحصول على فهرس يستند إلى 1 للصفحة التي تنتهي فيها العقدة. تُرجع القيمة 0 إذا تعذر تعيين العقدة إلى الصفحة. |
 | [GetEntity](../../aspose.words.layout/layoutcollector/getentity)(Node) | إرجاع موضع معتم لملف[`LayoutEnumerator`](../layoutenumerator) التي تتوافق مع العقدة المحددة. يمكنك استخدام القيمة التي تم إرجاعها كوسيطة ل[`Current`](../layoutenumerator/current) بالنظر إلى أن المستند يتم تعداده وأن مستند العقدة هو نفسه. |
-| [GetNumPagesSpanned](../../aspose.words.layout/layoutcollector/getnumpagesspanned)(Node) | الحصول على عدد الصفحات التي تمتد العقدة المحددة إليها. 0 إذا كانت العقدة داخل صفحة واحدة ._ x000d_ هذا هو نفسه[`GetEndPageIndex`](./getendpageindex) -[`GetStartPageIndex`](./getstartpageindex) . |
+| [GetNumPagesSpanned](../../aspose.words.layout/layoutcollector/getnumpagesspanned)(Node) | الحصول على عدد الصفحات التي تمتد العقدة المحددة إليها. 0 إذا كانت العقدة داخل صفحة واحدة . هذا هو نفسه[`GetEndPageIndex`](./getendpageindex) -[`GetStartPageIndex`](./getstartpageindex) . |
 | [GetStartPageIndex](../../aspose.words.layout/layoutcollector/getstartpageindex)(Node) | الحصول على فهرس يستند إلى 1 للصفحة حيث تبدأ العقدة. تُرجع القيمة 0 إذا تعذر تعيين العقدة إلى الصفحة. |
 
 ### ملاحظات

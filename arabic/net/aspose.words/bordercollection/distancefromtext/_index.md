@@ -1,14 +1,14 @@
 ---
 title: DistanceFromText
 second_title: Aspose.Words لمراجع .NET API
-description: الحصول على مسافة الحد أو تحديدها من النص بالنقاط ._ x000d_
+description: الحصول على مسافة الحد أو تحديدها من النص بالنقاط .
 type: docs
 weight: 40
 url: /ar/net/aspose.words/bordercollection/distancefromtext/
 ---
 ## BorderCollection.DistanceFromText property
 
-الحصول على مسافة الحد أو تحديدها من النص بالنقاط ._ x000d_
+الحصول على مسافة الحد أو تحديدها من النص بالنقاط .
 
 ```csharp
 public double DistanceFromText { get; set; }

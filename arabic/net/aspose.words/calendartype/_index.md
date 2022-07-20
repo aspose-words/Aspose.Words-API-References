@@ -1,14 +1,14 @@
 ---
 title: CalendarType
 second_title: Aspose.Words لمراجع .NET API
-description: يحدد نوع التقويم ._ x000d_
+description: يحدد نوع التقويم .
 type: docs
 weight: 180
 url: /ar/net/aspose.words/calendartype/
 ---
 ## CalendarType enumeration
 
-يحدد نوع التقويم ._ x000d_
+يحدد نوع التقويم .
 
 ```csharp
 public enum CalendarType

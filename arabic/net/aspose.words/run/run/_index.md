@@ -1,14 +1,14 @@
 ---
 title: Run
 second_title: Aspose.Words لمراجع .NET API
-description: يقوم بتهيئة مثيل جديد لملف يجري فئة ._ x000d_
+description: يقوم بتهيئة مثيل جديد لملف يجري فئة .
 type: docs
 weight: 10
 url: /ar/net/aspose.words/run/run/
 ---
 ## Run(DocumentBase) {#constructor}
 
-يقوم بتهيئة مثيل جديد لملف **يجري** فئة ._ x000d_
+يقوم بتهيئة مثيل جديد لملف **يجري** فئة .
 
 ```csharp
 public Run(DocumentBase doc)
@@ -82,7 +82,7 @@ doc.Save(ArtifactsDir + "Section.CreateManually.docx");
 
 ## Run(DocumentBase, string) {#constructor_1}
 
-يقوم بتهيئة مثيل جديد لملف **يجري** فئة ._ x000d_
+يقوم بتهيئة مثيل جديد لملف **يجري** فئة .
 
 ```csharp
 public Run(DocumentBase doc, string text)

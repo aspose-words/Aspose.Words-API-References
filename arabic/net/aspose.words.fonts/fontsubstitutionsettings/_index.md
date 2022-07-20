@@ -22,7 +22,7 @@ public class FontSubstitutionSettings
 | [FontConfigSubstitution](../../aspose.words.fonts/fontsubstitutionsettings/fontconfigsubstitution) { get; } | الإعدادات المتعلقة بقاعدة استبدال تكوين الخط. |
 | [FontInfoSubstitution](../../aspose.words.fonts/fontsubstitutionsettings/fontinfosubstitution) { get; } | الإعدادات المتعلقة بقاعدة استبدال معلومات الخط. |
 | [FontNameSubstitution](../../aspose.words.fonts/fontsubstitutionsettings/fontnamesubstitution) { get; } | الإعدادات المتعلقة بقاعدة استبدال اسم الخط. |
-| [TableSubstitution](../../aspose.words.fonts/fontsubstitutionsettings/tablesubstitution) { get; } | الإعدادات المتعلقة بقاعدة استبدال الجدول ._ x000d_ |
+| [TableSubstitution](../../aspose.words.fonts/fontsubstitutionsettings/tablesubstitution) { get; } | الإعدادات المتعلقة بقاعدة استبدال الجدول . |
 
 ### ملاحظات
 

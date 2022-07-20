@@ -1,14 +1,14 @@
 ---
 title: CellCollection
 second_title: Aspose.Words لمراجع .NET API
-description: يوفر وصولاً مكتوبًا إلى مجموعة منCell./cell العقد ._ x000d_
+description: يوفر وصولاً مكتوبًا إلى مجموعة منCell./cell العقد .
 type: docs
 weight: 5950
 url: /ar/net/aspose.words.tables/cellcollection/
 ---
 ## CellCollection class
 
-يوفر وصولاً مكتوبًا إلى مجموعة من[`Cell`](../cell) العقد ._ x000d_
+يوفر وصولاً مكتوبًا إلى مجموعة من[`Cell`](../cell) العقد .
 
 ```csharp
 public class CellCollection : NodeCollection

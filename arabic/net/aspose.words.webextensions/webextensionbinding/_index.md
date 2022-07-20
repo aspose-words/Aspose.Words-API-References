@@ -18,15 +18,15 @@ public class WebExtensionBinding
 
 | اسم | وصف |
 | --- | --- |
-| [WebExtensionBinding](webextensionbinding)(string, WebExtensionBindingType, string) | إنشاء ارتباط امتداد الويب بمعلمات محددة ._ x000d_ |
+| [WebExtensionBinding](webextensionbinding)(string, WebExtensionBindingType, string) | إنشاء ارتباط امتداد الويب بمعلمات محددة . |
 
 ## الخصائص
 
 | اسم | وصف |
 | --- | --- |
 | [AppRef](../../aspose.words.webextensions/webextensionbinding/appref) { get; set; } | يحدد مفتاح الربط المستخدم لتعيين إدخال الربط في هذه القائمة مع البيانات المرتبطة في المستند. |
-| [BindingType](../../aspose.words.webextensions/webextensionbinding/bindingtype) { get; set; } | يحدد نوع الربط. _ x000d_ |
-| [Id](../../aspose.words.webextensions/webextensionbinding/id) { get; set; } | يحدد معرف الربط ._ x000d_ |
+| [BindingType](../../aspose.words.webextensions/webextensionbinding/bindingtype) { get; set; } | يحدد نوع الربط. |
+| [Id](../../aspose.words.webextensions/webextensionbinding/id) { get; set; } | يحدد معرف الربط . |
 
 ### أنظر أيضا
 

@@ -1,14 +1,14 @@
 ---
 title: ParagraphBreakChar
 second_title: Aspose.Words لمراجع .NET API
-description: نهاية حرف الفقرة حرف 13 أو  r ._ x000d_
+description: نهاية حرف الفقرة حرف 13 أو  r .
 type: docs
 weight: 230
 url: /ar/net/aspose.words/controlchar/paragraphbreakchar/
 ---
 ## ControlChar.ParagraphBreakChar field
 
-نهاية حرف الفقرة: (حرف) 13 أو "\ r" ._ x000d_
+نهاية حرف الفقرة: (حرف) 13 أو "\ r" .
 
 ```csharp
 public const char ParagraphBreakChar;

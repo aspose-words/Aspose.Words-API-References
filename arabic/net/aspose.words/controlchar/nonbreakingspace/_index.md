@@ -1,14 +1,14 @@
 ---
 title: NonBreakingSpace
 second_title: Aspose.Words لمراجع .NET API
-description: حرف مسافة غير منقسمة  x00a0 ._ x000d_
+description: حرف مسافة غير منقسمة  x00a0 .
 type: docs
 weight: 170
 url: /ar/net/aspose.words/controlchar/nonbreakingspace/
 ---
 ## ControlChar.NonBreakingSpace field
 
-حرف مسافة غير منقسمة: "\ x00a0" ._ x000d_
+حرف مسافة غير منقسمة: "\ x00a0" .
 
 ```csharp
 public static readonly string NonBreakingSpace;

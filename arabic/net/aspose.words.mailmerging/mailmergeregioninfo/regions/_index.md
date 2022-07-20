@@ -1,14 +1,14 @@
 ---
 title: Regions
 second_title: Aspose.Words لمراجع .NET API
-description: إرجاع قائمة بالمناطق الفرعية ._ x000d_
+description: إرجاع قائمة بالمناطق الفرعية .
 type: docs
 weight: 60
 url: /ar/net/aspose.words.mailmerging/mailmergeregioninfo/regions/
 ---
 ## MailMergeRegionInfo.Regions property
 
-إرجاع قائمة بالمناطق الفرعية ._ x000d_
+إرجاع قائمة بالمناطق الفرعية .
 
 ```csharp
 public IList<MailMergeRegionInfo> Regions { get; }

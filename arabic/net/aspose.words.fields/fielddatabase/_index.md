@@ -27,8 +27,8 @@ public class FieldDatabase : Field
 | [Connection](../../aspose.words.fields/fielddatabase/connection) { get; set; } | الحصول على اتصال بالبيانات أو تعيينه. |
 | [DisplayResult](../../aspose.words.fields/field/displayresult) { get; } | يحصل على النص الذي يمثل نتيجة الحقل المعروض. |
 | [End](../../aspose.words.fields/field/end) { get; } | يحصل على العقدة التي تمثل نهاية الحقل. |
-| [FileName](../../aspose.words.fields/fielddatabase/filename) { get; set; } | الحصول على أو تحديد المسار الكامل واسم الملف لقاعدة البيانات_ x000d_ |
-| [FirstRecord](../../aspose.words.fields/fielddatabase/firstrecord) { get; set; } | الحصول على أو تعيين رقم السجل المتكامل لسجل البيانات الأول المراد إدراجه ._ x000d_ |
+| [FileName](../../aspose.words.fields/fielddatabase/filename) { get; set; } | الحصول على أو تحديد المسار الكامل واسم الملف لقاعدة البيانات |
+| [FirstRecord](../../aspose.words.fields/fielddatabase/firstrecord) { get; set; } | الحصول على أو تعيين رقم السجل المتكامل لسجل البيانات الأول المراد إدراجه . |
 | [Format](../../aspose.words.fields/field/format) { get; } | يحصل على أ[`FieldFormat`](../fieldformat) كائن يوفر وصولاً مكتوبًا إلى تنسيق الحقل. |
 | [FormatAttributes](../../aspose.words.fields/fielddatabase/formatattributes) { get; set; } | الحصول على أو تحديد سمات التنسيق التي سيتم تطبيقها على الجدول. |
 | [InsertHeadings](../../aspose.words.fields/fielddatabase/insertheadings) { get; set; } | الحصول على أو تحديد ما إذا كان سيتم إدراج أسماء الحقول من قاعدة البيانات كعناوين أعمدة في الجدول الناتج. |
@@ -48,8 +48,8 @@ public class FieldDatabase : Field
 
 | اسم | وصف |
 | --- | --- |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode)() | إرجاع النص بين بداية الحقل وفاصل الحقل (أو نهاية الحقل إذا لم يكن هناك فاصل) ._ x000d_ يتم تضمين كل من رمز الحقل ونتيجة الحقل للحقول الفرعية. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode)(bool) | إرجاع النص بين بداية الحقل وفاصل الحقل (أو نهاية الحقل إذا لم يكن هناك فاصل) ._ x000d_ |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode)() | إرجاع النص بين بداية الحقل وفاصل الحقل (أو نهاية الحقل إذا لم يكن هناك فاصل) . يتم تضمين كل من رمز الحقل ونتيجة الحقل للحقول الفرعية. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode)(bool) | إرجاع النص بين بداية الحقل وفاصل الحقل (أو نهاية الحقل إذا لم يكن هناك فاصل) . |
 | [Remove](../../aspose.words.fields/field/remove)() | يزيل الحقل من المستند. إرجاع عقدة بعد الحقل مباشرة. إذا كانت نهاية الحقل هي آخر child من العقدة الأصلية ، يتم إرجاع فقرته الأصلية. إذا تمت إزالة الحقل بالفعل ، يعود **لا شيء** . |
 | [Unlink](../../aspose.words.fields/field/unlink)() | يقوم بإلغاء ربط الحقل. |
 | [Update](../../aspose.words.fields/field/update)() | يقوم بالتحديث الميداني. يرمي إذا تم تحديث الحقل بالفعل. |

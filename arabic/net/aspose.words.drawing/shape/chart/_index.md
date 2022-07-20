@@ -1,14 +1,14 @@
 ---
 title: Chart
 second_title: Aspose.Words لمراجع .NET API
-description: يوفر الوصول إلى خصائص المخطط إذا كان هذا الشكل يحتوي على مخطط ._ x000d_
+description: يوفر الوصول إلى خصائص المخطط إذا كان هذا الشكل يحتوي على مخطط .
 type: docs
 weight: 20
 url: /ar/net/aspose.words.drawing/shape/chart/
 ---
 ## Shape.Chart property
 
-يوفر الوصول إلى خصائص المخطط إذا كان هذا الشكل يحتوي على مخطط ._ x000d_
+يوفر الوصول إلى خصائص المخطط إذا كان هذا الشكل يحتوي على مخطط .
 
 ```csharp
 public Chart Chart { get; }

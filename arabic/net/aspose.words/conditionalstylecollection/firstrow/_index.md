@@ -1,14 +1,14 @@
 ---
 title: FirstRow
 second_title: Aspose.Words لمراجع .NET API
-description: يحصل على نمط الصف الأول ._ x000d_
+description: يحصل على نمط الصف الأول .
 type: docs
 weight: 70
 url: /ar/net/aspose.words/conditionalstylecollection/firstrow/
 ---
 ## ConditionalStyleCollection.FirstRow property
 
-يحصل على نمط الصف الأول ._ x000d_
+يحصل على نمط الصف الأول .
 
 ```csharp
 public ConditionalStyle FirstRow { get; }

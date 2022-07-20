@@ -1,14 +1,14 @@
 ---
 title: Yomi
 second_title: Aspose.Words لمراجع .NET API
-description: الحصول على أو تعيين yomi الحرف الصوتي الأول لفهارس الفرز لمدخل الفهرس_ x000d_
+description: الحصول على أو تعيين yomi الحرف الصوتي الأول لفهارس الفرز لمدخل الفهرس
 type: docs
 weight: 80
 url: /ar/net/aspose.words.fields/fieldxe/yomi/
 ---
 ## FieldXE.Yomi property
 
-الحصول على أو تعيين yomi (الحرف الصوتي الأول لفهارس الفرز) لمدخل الفهرس_ x000d_
+الحصول على أو تعيين yomi (الحرف الصوتي الأول لفهارس الفرز) لمدخل الفهرس
 
 ```csharp
 public string Yomi { get; set; }

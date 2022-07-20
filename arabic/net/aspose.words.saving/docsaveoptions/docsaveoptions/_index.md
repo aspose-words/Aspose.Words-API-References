@@ -1,14 +1,14 @@
 ---
 title: DocSaveOptions
 second_title: Aspose.Words لمراجع .NET API
-description: يقوم بتهيئة مثيل جديد من هذه الفئة يمكن استخدامه لحفظ مستند بتنسيقDoc التنسيق ._ x000d_
+description: يقوم بتهيئة مثيل جديد من هذه الفئة يمكن استخدامه لحفظ مستند بتنسيقDoc التنسيق .
 type: docs
 weight: 10
 url: /ar/net/aspose.words.saving/docsaveoptions/docsaveoptions/
 ---
 ## DocSaveOptions() {#constructor}
 
-يقوم بتهيئة مثيل جديد من هذه الفئة يمكن استخدامه لحفظ مستند بتنسيقDoc التنسيق ._ x000d_
+يقوم بتهيئة مثيل جديد من هذه الفئة يمكن استخدامه لحفظ مستند بتنسيقDoc التنسيق .
 
 ```csharp
 public DocSaveOptions()
@@ -54,7 +54,7 @@ Assert.AreEqual("Hello world!", doc.GetText().Trim());
 
 ## DocSaveOptions(SaveFormat) {#constructor_1}
 
-يقوم بتهيئة مثيل جديد من هذه الفئة يمكن استخدامه لحفظ مستند بتنسيقDoc أو x000d_Dot التنسيق ._ x000d_
+يقوم بتهيئة مثيل جديد من هذه الفئة يمكن استخدامه لحفظ مستند بتنسيقDoc أو Dot التنسيق .
 
 ```csharp
 public DocSaveOptions(SaveFormat saveFormat)

@@ -1,14 +1,14 @@
 ---
 title: MatchNode
 second_title: Aspose.Words لمراجع .NET API
-description: يحصل على العقدة التي تحتوي على بداية المباراة ._ x000d_
+description: يحصل على العقدة التي تحتوي على بداية المباراة .
 type: docs
 weight: 40
 url: /ar/net/aspose.words.replacing/replacingargs/matchnode/
 ---
 ## ReplacingArgs.MatchNode property
 
-يحصل على العقدة التي تحتوي على بداية المباراة ._ x000d_
+يحصل على العقدة التي تحتوي على بداية المباراة .
 
 ```csharp
 public Node MatchNode { get; }

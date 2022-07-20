@@ -1,14 +1,14 @@
 ---
 title: HeaderFooterBookmarksExportMode
 second_title: Aspose.Words لمراجع .NET API
-description: يحدد كيفية تصدير الإشارات المرجعية في الرؤوس / التذييلات ._ x000d_
+description: يحدد كيفية تصدير الإشارات المرجعية في الرؤوس / التذييلات .
 type: docs
 weight: 150
 url: /ar/net/aspose.words.saving/pdfsaveoptions/headerfooterbookmarksexportmode/
 ---
 ## PdfSaveOptions.HeaderFooterBookmarksExportMode property
 
-يحدد كيفية تصدير الإشارات المرجعية في الرؤوس / التذييلات ._ x000d_
+يحدد كيفية تصدير الإشارات المرجعية في الرؤوس / التذييلات .
 
 ```csharp
 public HeaderFooterBookmarksExportMode HeaderFooterBookmarksExportMode { get; set; }

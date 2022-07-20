@@ -1,14 +1,14 @@
 ---
 title: LayoutOptions
 second_title: Aspose.Words لمراجع .NET API
-description: يحصل على أ خيارات التخطيط كائن يمثل خيارات للتحكم في عملية التخطيط لهذا المستند ._ x000d_
+description: يحصل على أ خيارات التخطيط كائن يمثل خيارات للتحكم في عملية التخطيط لهذا المستند .
 type: docs
 weight: 230
 url: /ar/net/aspose.words/document/layoutoptions/
 ---
 ## Document.LayoutOptions property
 
-يحصل على أ **خيارات التخطيط** كائن يمثل خيارات للتحكم في عملية التخطيط لهذا المستند ._ x000d_
+يحصل على أ **خيارات التخطيط** كائن يمثل خيارات للتحكم في عملية التخطيط لهذا المستند .
 
 ```csharp
 public LayoutOptions LayoutOptions { get; }

@@ -1,14 +1,14 @@
 ---
 title: PageRange
 second_title: Aspose.Words لمراجع .NET API
-description: إنشاء كائن نطاق صفحات جديد ._ x000d_
+description: إنشاء كائن نطاق صفحات جديد .
 type: docs
 weight: 10
 url: /ar/net/aspose.words.saving/pagerange/pagerange/
 ---
 ## PageRange constructor
 
-إنشاء كائن نطاق صفحات جديد ._ x000d_
+إنشاء كائن نطاق صفحات جديد .
 
 ```csharp
 public PageRange(int from, int to)

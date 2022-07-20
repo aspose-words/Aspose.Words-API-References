@@ -20,7 +20,7 @@ public override string GetText()
 
 * إذا كانت الفقرة هي الفقرة الأخيرة من[`Body`](../../body) ، then [`ControlChar.SectionBreak`](../../controlchar/sectionbreak) (\ x000c) ملحق.
 * إذا كانت الفقرة هي الفقرة الأخيرة من[`Cell`](../../../aspose.words.tables/cell) ، then [`ControlChar.Cell`](../../controlchar/cell) (\ x0007) ملحق.
-* لجميع الفقرات الأخرى_ x000d_[`ControlChar.ParagraphBreak`](../../controlchar/paragraphbreak) (\ r) مرفق.
+* لجميع الفقرات الأخرى [`ControlChar.ParagraphBreak`](../../controlchar/paragraphbreak) (\ r) مرفق.
 
 تتضمن السلسلة التي تم إرجاعها كل عناصر التحكم والأحرف الخاصة كما هو موضح في[`ControlChar`](../../controlchar).
 

@@ -1,14 +1,14 @@
 ---
 title: TableSubstitution
 second_title: Aspose.Words لمراجع .NET API
-description: الإعدادات المتعلقة بقاعدة استبدال الجدول ._ x000d_
+description: الإعدادات المتعلقة بقاعدة استبدال الجدول .
 type: docs
 weight: 50
 url: /ar/net/aspose.words.fonts/fontsubstitutionsettings/tablesubstitution/
 ---
 ## FontSubstitutionSettings.TableSubstitution property
 
-الإعدادات المتعلقة بقاعدة استبدال الجدول ._ x000d_
+الإعدادات المتعلقة بقاعدة استبدال الجدول .
 
 ```csharp
 public TableSubstitutionRule TableSubstitution { get; }

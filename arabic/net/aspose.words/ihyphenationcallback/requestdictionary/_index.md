@@ -12,7 +12,7 @@ url: /ar/net/aspose.words/ihyphenationcallback/requestdictionary/
 
 يجب أن يجد التنفيذ قاموسًا ويسجله باستخدامه[`RegisterDictionary`](../../hyphenation/registerdictionary)طُرق.
 
-إذا كان القاموس غير متاح لتطبيق اللغة المحدد ، فيمكن إلغاء الاشتراك في المكالمات الإضافية لنفس اللغة_ x000d_ باستخدام[`RegisterDictionary`](../../hyphenation/registerdictionary) بقيمة فارغة.
+إذا كان القاموس غير متاح لتطبيق اللغة المحدد ، فيمكن إلغاء الاشتراك في المكالمات الإضافية لنفس اللغة_ باستخدام[`RegisterDictionary`](../../hyphenation/registerdictionary) بقيمة فارغة.
 
 ```csharp
 public void RequestDictionary(string language)

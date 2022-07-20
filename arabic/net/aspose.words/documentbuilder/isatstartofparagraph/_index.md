@@ -1,14 +1,14 @@
 ---
 title: IsAtStartOfParagraph
 second_title: Aspose.Words لمراجع .NET API
-description: إرجاع صحيح إذا كان المؤشر في بداية الفقرة الحالية لا يوجد نص قبل المؤشر ._ x000d_
+description: إرجاع صحيح إذا كان المؤشر في بداية الفقرة الحالية لا يوجد نص قبل المؤشر .
 type: docs
 weight: 110
 url: /ar/net/aspose.words/documentbuilder/isatstartofparagraph/
 ---
 ## DocumentBuilder.IsAtStartOfParagraph property
 
-إرجاع صحيح إذا كان المؤشر في بداية الفقرة الحالية (لا يوجد نص قبل المؤشر) ._ x000d_
+إرجاع صحيح إذا كان المؤشر في بداية الفقرة الحالية (لا يوجد نص قبل المؤشر) .
 
 ```csharp
 public bool IsAtStartOfParagraph { get; }

@@ -20,17 +20,17 @@ public class CustomDocumentProperties : DocumentPropertyCollection
 | --- | --- |
 | [Count](../../aspose.words.properties/documentpropertycollection/count) { get; } | الحصول على عدد العناصر في المجموعة. |
 | [Item](../../aspose.words.properties/documentpropertycollection/item) { get; } | إرجاع أ[`DocumentProperty`](../documentproperty) كائن بالفهرس . |
-| virtual [Item](../../aspose.words.properties/documentpropertycollection/item) { get; } | إرجاع أ[`DocumentProperty`](../documentproperty) الكائن باسم الخاصية ._ x000d_ |
+| virtual [Item](../../aspose.words.properties/documentpropertycollection/item) { get; } | إرجاع أ[`DocumentProperty`](../documentproperty) الكائن باسم الخاصية . |
 
 ## طُرق
 
 | اسم | وصف |
 | --- | --- |
-| [Add](../../aspose.words.properties/customdocumentproperties/add#add)(string, bool) | إنشاء خاصية مستند مخصصة جديدة لملف **نوع الملكية. منطقي** نوع البيانات ._ x000d_ |
-| [Add](../../aspose.words.properties/customdocumentproperties/add#add_3)(string, DateTime) | إنشاء خاصية مستند مخصصة جديدة لملف **PropertyType.DateTime** نوع البيانات ._ x000d_ |
-| [Add](../../aspose.words.properties/customdocumentproperties/add#add_1)(string, double) | إنشاء خاصية مستند مخصصة جديدة لملف **نوع الملكية** نوع البيانات ._ x000d_ |
-| [Add](../../aspose.words.properties/customdocumentproperties/add#add_2)(string, int) | إنشاء خاصية مستند مخصصة جديدة لملف **نوع الملكية** نوع البيانات ._ x000d_ |
-| [Add](../../aspose.words.properties/customdocumentproperties/add#add_4)(string, string) | إنشاء خاصية مستند مخصصة جديدة لملف **PropertyType.String** نوع البيانات ._ x000d_ |
+| [Add](../../aspose.words.properties/customdocumentproperties/add#add)(string, bool) | إنشاء خاصية مستند مخصصة جديدة لملف **نوع الملكية. منطقي** نوع البيانات . |
+| [Add](../../aspose.words.properties/customdocumentproperties/add#add_3)(string, DateTime) | إنشاء خاصية مستند مخصصة جديدة لملف **PropertyType.DateTime** نوع البيانات . |
+| [Add](../../aspose.words.properties/customdocumentproperties/add#add_1)(string, double) | إنشاء خاصية مستند مخصصة جديدة لملف **نوع الملكية** نوع البيانات . |
+| [Add](../../aspose.words.properties/customdocumentproperties/add#add_2)(string, int) | إنشاء خاصية مستند مخصصة جديدة لملف **نوع الملكية** نوع البيانات . |
+| [Add](../../aspose.words.properties/customdocumentproperties/add#add_4)(string, string) | إنشاء خاصية مستند مخصصة جديدة لملف **PropertyType.String** نوع البيانات . |
 | [AddLinkToContent](../../aspose.words.properties/customdocumentproperties/addlinktocontent)(string, string) | إنشاء ارتباط جديد بخاصية مستند مخصص للمحتوى. |
 | [Clear](../../aspose.words.properties/documentpropertycollection/clear)() | يزيل كل الخصائص من المجموعة. |
 | [Contains](../../aspose.words.properties/documentpropertycollection/contains)(string) | إرجاع صحيح في حالة وجود خاصية بالاسم المحدد في المجموعة. |

@@ -28,7 +28,7 @@ public class FieldIndex : Field
 | [CrossReferenceSeparator](../../aspose.words.fields/fieldindex/crossreferenceseparator) { get; set; } | الحصول على أو تعيين تسلسل الأحرف المستخدم لفصل المراجع التبادلية والإدخالات الأخرى. |
 | [DisplayResult](../../aspose.words.fields/field/displayresult) { get; } | يحصل على النص الذي يمثل نتيجة الحقل المعروض. |
 | [End](../../aspose.words.fields/field/end) { get; } | يحصل على العقدة التي تمثل نهاية الحقل. |
-| [EntryType](../../aspose.words.fields/fieldindex/entrytype) { get; set; } | الحصول على أو تحديد نوع إدخال الفهرس المستخدم في إنشاء الفهرس ._ x000d_ |
+| [EntryType](../../aspose.words.fields/fieldindex/entrytype) { get; set; } | الحصول على أو تحديد نوع إدخال الفهرس المستخدم في إنشاء الفهرس . |
 | [Format](../../aspose.words.fields/field/format) { get; } | يحصل على أ[`FieldFormat`](../fieldformat) كائن يوفر وصولاً مكتوبًا إلى تنسيق الحقل. |
 | [HasPageNumberSeparator](../../aspose.words.fields/fieldindex/haspagenumberseparator) { get; } | يحصل على قيمة تشير إلى ما إذا كان فاصل رقم الصفحة قد تم تجاوزه من خلال كود الحقل. |
 | [HasSequenceName](../../aspose.words.fields/fieldindex/hassequencename) { get; } | يحصل على قيمة تشير إلى ما إذا كان يجب استخدام تسلسل أثناء بناء نتيجة الحقل. |
@@ -55,8 +55,8 @@ public class FieldIndex : Field
 
 | اسم | وصف |
 | --- | --- |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode)() | إرجاع النص بين بداية الحقل وفاصل الحقل (أو نهاية الحقل إذا لم يكن هناك فاصل) ._ x000d_ يتم تضمين كل من رمز الحقل ونتيجة الحقل للحقول الفرعية. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode)(bool) | إرجاع النص بين بداية الحقل وفاصل الحقل (أو نهاية الحقل إذا لم يكن هناك فاصل) ._ x000d_ |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode)() | إرجاع النص بين بداية الحقل وفاصل الحقل (أو نهاية الحقل إذا لم يكن هناك فاصل) . يتم تضمين كل من رمز الحقل ونتيجة الحقل للحقول الفرعية. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode)(bool) | إرجاع النص بين بداية الحقل وفاصل الحقل (أو نهاية الحقل إذا لم يكن هناك فاصل) . |
 | [Remove](../../aspose.words.fields/field/remove)() | يزيل الحقل من المستند. إرجاع عقدة بعد الحقل مباشرة. إذا كانت نهاية الحقل هي آخر child من العقدة الأصلية ، يتم إرجاع فقرته الأصلية. إذا تمت إزالة الحقل بالفعل ، يعود **لا شيء** . |
 | [Unlink](../../aspose.words.fields/field/unlink)() | يقوم بإلغاء ربط الحقل. |
 | [Update](../../aspose.words.fields/field/update)() | يقوم بالتحديث الميداني. يرمي إذا تم تحديث الحقل بالفعل. |

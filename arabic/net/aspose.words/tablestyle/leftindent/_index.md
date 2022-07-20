@@ -1,14 +1,14 @@
 ---
 title: LeftIndent
 second_title: Aspose.Words لمراجع .NET API
-description: الحصول على أو تعيين القيمة التي تمثل المسافة البادئة اليسرى للجدول ._ x000d_
+description: الحصول على أو تعيين القيمة التي تمثل المسافة البادئة اليسرى للجدول .
 type: docs
 weight: 90
 url: /ar/net/aspose.words/tablestyle/leftindent/
 ---
 ## TableStyle.LeftIndent property
 
-الحصول على أو تعيين القيمة التي تمثل المسافة البادئة اليسرى للجدول ._ x000d_
+الحصول على أو تعيين القيمة التي تمثل المسافة البادئة اليسرى للجدول .
 
 ```csharp
 public double LeftIndent { get; set; }

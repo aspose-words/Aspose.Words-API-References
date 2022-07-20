@@ -28,7 +28,7 @@ public class TaskPane
 | [IsLocked](../../aspose.words.webextensions/taskpane/islocked) { get; set; } | يحدد ما إذا كان جزء المهام مؤمنًا على المستند في واجهة المستخدم ولا يمكن للمستخدم إغلاقه. |
 | [IsVisible](../../aspose.words.webextensions/taskpane/isvisible) { get; set; } | يحدد ما إذا كان جزء المهام سيظهر على أنه مرئي افتراضيًا عند فتح المستند. |
 | [Row](../../aspose.words.webextensions/taskpane/row) { get; set; } | يحدد الفهرس ، الذي يتم تعداده من الخارج إلى الداخل ، لجزء المهام هذا بين أجزاء المهام المستمرة الأخرى التي تم إرساؤها في نفس الموقع الافتراضي. |
-| [WebExtension](../../aspose.words.webextensions/taskpane/webextension) { get; } | يمثل كائن امتداد الويب ._ x000d_ |
+| [WebExtension](../../aspose.words.webextensions/taskpane/webextension) { get; } | يمثل كائن امتداد الويب . |
 | [Width](../../aspose.words.webextensions/taskpane/width) { get; set; } | يحدد قيمة العرض الافتراضية لمثيل جزء المهام هذا. |
 
 ### أمثلة

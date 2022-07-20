@@ -1,14 +1,14 @@
 ---
 title: FirstRecord
 second_title: Aspose.Words لمراجع .NET API
-description: الحصول على أو تعيين رقم السجل المتكامل لسجل البيانات الأول المراد إدراجه ._ x000d_
+description: الحصول على أو تعيين رقم السجل المتكامل لسجل البيانات الأول المراد إدراجه .
 type: docs
 weight: 40
 url: /ar/net/aspose.words.fields/fielddatabase/firstrecord/
 ---
 ## FieldDatabase.FirstRecord property
 
-الحصول على أو تعيين رقم السجل المتكامل لسجل البيانات الأول المراد إدراجه ._ x000d_
+الحصول على أو تعيين رقم السجل المتكامل لسجل البيانات الأول المراد إدراجه .
 
 ```csharp
 public string FirstRecord { get; set; }

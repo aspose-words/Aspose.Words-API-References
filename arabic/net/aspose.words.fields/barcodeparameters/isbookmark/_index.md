@@ -1,14 +1,14 @@
 ---
 title: IsBookmark
 second_title: Aspose.Words لمراجع .NET API
-description: سواءPostalAddressaspose.words.fields/barcodeparameters/postaladdress هو اسم إشارة مرجعية ._ x000d_
+description: سواءPostalAddressaspose.words.fields/barcodeparameters/postaladdress هو اسم إشارة مرجعية .
 type: docs
 weight: 120
 url: /ar/net/aspose.words.fields/barcodeparameters/isbookmark/
 ---
 ## BarcodeParameters.IsBookmark property
 
-سواء[`PostalAddress`](../postaladdress) هو اسم إشارة مرجعية ._ x000d_
+سواء[`PostalAddress`](../postaladdress) هو اسم إشارة مرجعية .
 
 ```csharp
 public bool IsBookmark { get; set; }

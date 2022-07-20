@@ -1,14 +1,14 @@
 ---
 title: Remove
 second_title: Aspose.Words لمراجع .NET API
-description: يزيل الإشارة المرجعية من الوثيقة. لا يزيل النص الموجود داخل الإشارة المرجعية ._ x000d_
+description: يزيل الإشارة المرجعية من الوثيقة. لا يزيل النص الموجود داخل الإشارة المرجعية .
 type: docs
 weight: 80
 url: /ar/net/aspose.words/bookmark/remove/
 ---
 ## Bookmark.Remove method
 
-يزيل الإشارة المرجعية من الوثيقة. لا يزيل النص الموجود داخل الإشارة المرجعية ._ x000d_
+يزيل الإشارة المرجعية من الوثيقة. لا يزيل النص الموجود داخل الإشارة المرجعية .
 
 ```csharp
 public void Remove()

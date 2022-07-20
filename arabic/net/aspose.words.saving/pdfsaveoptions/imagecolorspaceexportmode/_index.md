@@ -18,7 +18,7 @@ public PdfImageColorSpaceExportMode ImageColorSpaceExportMode { get; set; }
 
 القيمة الافتراضية هيAuto .
 
-إذاSimpleCmyk تم تحديد القيمة ، [`ImageCompression`](../imagecompression) يتم تجاهل الخيار و_ x000d_ يتم استخدام ضغط Flate لجميع الصور في المستند.
+إذاSimpleCmyk تم تحديد القيمة ، [`ImageCompression`](../imagecompression) يتم تجاهل الخيار و يتم استخدام ضغط Flate لجميع الصور في المستند.
 
 SimpleCmyk القيمة غير مدعومة عند الحفظ في PDF / A. Auto سيتم استخدام القيمة بدلاً من ذلك.
 

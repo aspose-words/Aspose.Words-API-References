@@ -25,11 +25,11 @@ public class GraphicsQualityOptions
 | اسم | وصف |
 | --- | --- |
 | [CompositingMode](../../aspose.words.saving/graphicsqualityoptions/compositingmode) { get; set; } | الحصول على أو تعيين قيمة تحدد كيفية رسم الصور المركبة على هذه الرسومات. |
-| [CompositingQuality](../../aspose.words.saving/graphicsqualityoptions/compositingquality) { get; set; } | الحصول على جودة عرض الصور المركبة المرسومة إلى هذه الرسومات أو تعيينها ._ x000d_ |
+| [CompositingQuality](../../aspose.words.saving/graphicsqualityoptions/compositingquality) { get; set; } | الحصول على جودة عرض الصور المركبة المرسومة إلى هذه الرسومات أو تعيينها . |
 | [InterpolationMode](../../aspose.words.saving/graphicsqualityoptions/interpolationmode) { get; set; } | الحصول على أو تحديد وضع الاستيفاء المرتبط بهذه الرسومات. |
 | [SmoothingMode](../../aspose.words.saving/graphicsqualityoptions/smoothingmode) { get; set; } | الحصول على جودة العرض لهذه الرسومات أو تعيينها. |
 | [StringFormat](../../aspose.words.saving/graphicsqualityoptions/stringformat) { get; set; } | الحصول على معلومات تخطيط النص أو تعيينها (مثل المحاذاة والاتجاه وعلامات الجدولة) معالجة عرض (مثل إدراج القطع واستبدال الأرقام الوطنية) وميزات OpenType. |
-| [TextRenderingHint](../../aspose.words.saving/graphicsqualityoptions/textrenderinghint) { get; set; } | الحصول على أو تحديد وضع العرض للنص المرتبط بهذه الرسومات ._ x000d_ |
+| [TextRenderingHint](../../aspose.words.saving/graphicsqualityoptions/textrenderinghint) { get; set; } | الحصول على أو تحديد وضع العرض للنص المرتبط بهذه الرسومات . |
 | [UseTileFlipMode](../../aspose.words.saving/graphicsqualityoptions/usetileflipmode) { get; set; } | الحصول على أو تعيين علامة تشير إلى ما إذا كان WrapMode هو TileFlipXY. |
 
 ### أمثلة

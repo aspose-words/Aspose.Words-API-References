@@ -19,7 +19,7 @@ public sealed class EndnoteOptions
 | اسم | وصف |
 | --- | --- |
 | [NumberStyle](../../aspose.words.notes/endnoteoptions/numberstyle) { get; set; } | يحدد تنسيق الأرقام للتعليقات الختامية المرقمة تلقائيًا. |
-| [Position](../../aspose.words.notes/endnoteoptions/position) { get; set; } | يحدد موضع التعليقات الختامية ._ x000d_ |
+| [Position](../../aspose.words.notes/endnoteoptions/position) { get; set; } | يحدد موضع التعليقات الختامية . |
 | [RestartRule](../../aspose.words.notes/endnoteoptions/restartrule) { get; set; } | يحدد عند إعادة تشغيل الترقيم التلقائي. |
 | [StartNumber](../../aspose.words.notes/endnoteoptions/startnumber) { get; set; } | يحدد رقم البداية أو الحرف لأول تعليقات ختامية مرقمة تلقائيًا. |
 

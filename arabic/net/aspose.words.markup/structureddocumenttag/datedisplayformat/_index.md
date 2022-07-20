@@ -1,14 +1,14 @@
 ---
 title: DateDisplayFormat
 second_title: Aspose.Words لمراجع .NET API
-description: السلسلة التي تمثل التنسيق الذي يتم عرض التواريخ به ._ x000d_ لا يمكن أن تكون خالية ._ x000d_تواريخ اللغة الإنجليزية الولايات المتحدة هي mm / dd / yyyy
+description: السلسلة التي تمثل التنسيق الذي يتم عرض التواريخ به . لا يمكن أن تكون خالية . تواريخ اللغة الإنجليزية الولايات المتحدة هي mm / dd / yyyy
 type: docs
 weight: 90
 url: /ar/net/aspose.words.markup/structureddocumenttag/datedisplayformat/
 ---
 ## StructuredDocumentTag.DateDisplayFormat property
 
-السلسلة التي تمثل التنسيق الذي يتم عرض التواريخ به ._ x000d_ لا يمكن أن تكون خالية ._ x000d_تواريخ اللغة الإنجليزية (الولايات المتحدة) هي "mm / dd / yyyy"
+السلسلة التي تمثل التنسيق الذي يتم عرض التواريخ به . لا يمكن أن تكون خالية . تواريخ اللغة الإنجليزية (الولايات المتحدة) هي "mm / dd / yyyy"
 
 ```csharp
 public string DateDisplayFormat { get; set; }

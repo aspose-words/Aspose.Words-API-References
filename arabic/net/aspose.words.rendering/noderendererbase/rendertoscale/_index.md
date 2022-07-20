@@ -1,14 +1,14 @@
 ---
 title: RenderToScale
 second_title: Aspose.Words لمراجع .NET API
-description: يجعل الشكل في ملفGraphics كائن إلى مقياس محدد ._ x000d_
+description: يجعل الشكل في ملفGraphics كائن إلى مقياس محدد .
 type: docs
 weight: 70
 url: /ar/net/aspose.words.rendering/noderendererbase/rendertoscale/
 ---
 ## NodeRendererBase.RenderToScale method
 
-يجعل الشكل في ملفGraphics كائن إلى مقياس محدد ._ x000d_
+يجعل الشكل في ملفGraphics كائن إلى مقياس محدد .
 
 ```csharp
 public SizeF RenderToScale(Graphics graphics, float x, float y, float scale)

@@ -1,14 +1,14 @@
 ---
 title: IsVisible
 second_title: Aspose.Words لمراجع .NET API
-description: إرجاع صحيح إذا كانت تسمية البيانات هذه بها شيء لعرضه ._ x000d_
+description: إرجاع صحيح إذا كانت تسمية البيانات هذه بها شيء لعرضه .
 type: docs
 weight: 30
 url: /ar/net/aspose.words.drawing.charts/chartdatalabel/isvisible/
 ---
 ## ChartDataLabel.IsVisible property
 
-إرجاع صحيح إذا كانت تسمية البيانات هذه بها شيء لعرضه ._ x000d_
+إرجاع صحيح إذا كانت تسمية البيانات هذه بها شيء لعرضه .
 
 ```csharp
 public bool IsVisible { get; }

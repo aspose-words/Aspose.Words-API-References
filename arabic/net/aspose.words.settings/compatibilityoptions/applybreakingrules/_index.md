@@ -1,14 +1,14 @@
 ---
 title: ApplyBreakingRules
 second_title: Aspose.Words لمراجع .NET API
-description: استخدام قواعد كسر الأسطر القديمة الإثيوبية والأمهرية ._ x000d_
+description: استخدام قواعد كسر الأسطر القديمة الإثيوبية والأمهرية .
 type: docs
 weight: 40
 url: /ar/net/aspose.words.settings/compatibilityoptions/applybreakingrules/
 ---
 ## CompatibilityOptions.ApplyBreakingRules property
 
-استخدام قواعد كسر الأسطر القديمة الإثيوبية والأمهرية ._ x000d_
+استخدام قواعد كسر الأسطر القديمة الإثيوبية والأمهرية .
 
 ```csharp
 public bool ApplyBreakingRules { get; set; }

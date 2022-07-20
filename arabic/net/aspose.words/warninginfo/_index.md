@@ -18,9 +18,9 @@ public class WarningInfo
 
 | اسم | وصف |
 | --- | --- |
-| [Description](../../aspose.words/warninginfo/description) { get; } | إرجاع وصف التحذير ._ x000d_ |
-| [Source](../../aspose.words/warninginfo/source) { get; } | إرجاع مصدر التحذير ._ x000d_ |
-| [WarningType](../../aspose.words/warninginfo/warningtype) { get; } | إرجاع نوع التحذير ._ x000d_ |
+| [Description](../../aspose.words/warninginfo/description) { get; } | إرجاع وصف التحذير . |
+| [Source](../../aspose.words/warninginfo/source) { get; } | إرجاع مصدر التحذير . |
+| [WarningType](../../aspose.words/warninginfo/warningtype) { get; } | إرجاع نوع التحذير . |
 
 ### ملاحظات
 

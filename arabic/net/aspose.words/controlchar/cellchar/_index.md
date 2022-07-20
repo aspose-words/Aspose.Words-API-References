@@ -1,14 +1,14 @@
 ---
 title: CellChar
 second_title: Aspose.Words لمراجع .NET API
-description: نهاية خلية الجدول أو حرف نهاية صف الجدول char 7 أو  a ._ x000d_
+description: نهاية خلية الجدول أو حرف نهاية صف الجدول char 7 أو  a .
 type: docs
 weight: 20
 url: /ar/net/aspose.words/controlchar/cellchar/
 ---
 ## ControlChar.CellChar field
 
-نهاية خلية الجدول أو حرف نهاية صف الجدول: (char) 7 أو "\ a" ._ x000d_
+نهاية خلية الجدول أو حرف نهاية صف الجدول: (char) 7 أو "\ a" .
 
 ```csharp
 public const char CellChar;

@@ -21,7 +21,7 @@ public enum MailMergeCheckErrors
 | Simulate | `1` | محاكاة الدمج والإبلاغ عن الأخطاء في مستند جديد. |
 | PauseOnError | `2` | أكمل الدمج ثم توقف للإبلاغ عن الأخطاء. |
 | CollectErrors | `3` | إكمال الدمج والإبلاغ عن الأخطاء في مستند جديد. |
-| Default | `2` | يساويPauseOnError القيمة ._ x000d_ |
+| Default | `2` | يساويPauseOnError القيمة . |
 
 ### أمثلة
 

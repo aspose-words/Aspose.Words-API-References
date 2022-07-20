@@ -18,7 +18,7 @@ public class Document : DocumentBase
 
 | اسم | وصف |
 | --- | --- |
-| [Document](document#constructor)() | إنشاء مستند Word فارغ ._ x000d_ |
+| [Document](document#constructor)() | إنشاء مستند Word فارغ . |
 | [Document](document#constructor_1)(Stream) | يفتح مستندًا موجودًا من دفق. يكتشف تنسيق الملف تلقائيًا. |
 | [Document](document#constructor_3)(string) | يفتح وثيقة موجودة من ملف. يكتشف تنسيق الملف تلقائيًا. |
 | [Document](document#constructor_2)(Stream, LoadOptions) | يفتح مستندًا موجودًا من دفق. يسمح بتحديد خيارات إضافية مثل كلمة مرور التشفير. |
@@ -37,7 +37,7 @@ public class Document : DocumentBase
 | [Compliance](../../aspose.words/document/compliance) { get; } | الحصول على إصدار التوافق OOXML المحدد من محتوى المستند الذي تم تحميله. يكون منطقيًا فقط لمستندات OOXML . |
 | [Count](../../aspose.words/compositenode/count) { get; } | الحصول على عدد الأطفال المباشرين لهذه العقدة. |
 | [CustomDocumentProperties](../../aspose.words/document/customdocumentproperties) { get; } | إرجاع مجموعة تمثل كافة خصائص المستند المخصصة. |
-| [CustomNodeId](../../aspose.words/node/customnodeid) { get; set; } | يحدد معرف العقدة المخصص ._ x000d_ |
+| [CustomNodeId](../../aspose.words/node/customnodeid) { get; set; } | يحدد معرف العقدة المخصص . |
 | [CustomXmlParts](../../aspose.words/document/customxmlparts) { get; set; } | الحصول على مجموعة أجزاء تخزين بيانات XML المخصصة أو تعيينها. |
 | [DefaultTabStop](../../aspose.words/document/defaulttabstop) { get; set; } | الحصول على أو تحديد الفاصل الزمني (بالنقاط) بين علامات الجدولة الافتراضية. |
 | [DigitalSignatures](../../aspose.words/document/digitalsignatures) { get; } | الحصول على مجموعة التوقيعات الرقمية لهذا المستند ونتائج التحقق من صحتها. |
@@ -53,13 +53,13 @@ public class Document : DocumentBase
 | [GlossaryDocument](../../aspose.words/document/glossarydocument) { get; set; } | الحصول على أو تحديد مستند المسرد في هذا المستند أو القالب. مستند قاموس المصطلحات هو storage لإدخالات النص التلقائي والتصحيح التلقائي و Building Block المحددة في المستند. |
 | [GrammarChecked](../../aspose.words/document/grammarchecked) { get; set; } | عوائد **حقيقي** إذا تم فحص المستند من أجل القواعد. |
 | [HasChildNodes](../../aspose.words/compositenode/haschildnodes) { get; } | إرجاع صحيح إذا كانت هذه العقدة بها أي عقد فرعية. |
-| [HasMacros](../../aspose.words/document/hasmacros) { get; } | عوائد **حقيقي** إذا كان المستند يحتوي على مشروع VBA (وحدات ماكرو) ._ x000d_ |
+| [HasMacros](../../aspose.words/document/hasmacros) { get; } | عوائد **حقيقي** إذا كان المستند يحتوي على مشروع VBA (وحدات ماكرو) . |
 | [HasRevisions](../../aspose.words/document/hasrevisions) { get; } | عوائد **حقيقي** إذا كان المستند يحتوي على أي تغييرات متعقبة. |
 | [HyphenationOptions](../../aspose.words/document/hyphenationoptions) { get; } | يوفر الوصول إلى خيارات الواصلة في المستند. |
 | override [IsComposite](../../aspose.words/compositenode/iscomposite) { get; } | إرجاع صحيح لأن هذه العقدة يمكن أن تحتوي على عقد فرعية. |
 | [LastChild](../../aspose.words/compositenode/lastchild) { get; } | الحصول على آخر تابع للعقدة . |
 | [LastSection](../../aspose.words/document/lastsection) { get; } | يحصل على القسم الأخير في المستند. |
-| [LayoutOptions](../../aspose.words/document/layoutoptions) { get; } | يحصل على أ **خيارات التخطيط** كائن يمثل خيارات للتحكم في عملية التخطيط لهذا المستند ._ x000d_ |
+| [LayoutOptions](../../aspose.words/document/layoutoptions) { get; } | يحصل على أ **خيارات التخطيط** كائن يمثل خيارات للتحكم في عملية التخطيط لهذا المستند . |
 | [Lists](../../aspose.words/documentbase/lists) { get; } | يوفر الوصول إلى تنسيق القائمة المستخدم في المستند. |
 | [MailMerge](../../aspose.words/document/mailmerge) { get; } | إرجاع أ **دمج المراسلات** كائن يمثل وظيفة دمج المراسلات للمستند. |
 | [MailMergeSettings](../../aspose.words/document/mailmergesettings) { get; set; } | الحصول على الكائن الذي يحتوي على كافة معلومات دمج المراسلات لمستند أو تعيينه. |
@@ -75,7 +75,7 @@ public class Document : DocumentBase
 | [PreviousSibling](../../aspose.words/node/previoussibling) { get; } | يحصل على العقدة التي تسبق هذه العقدة مباشرة. |
 | [ProtectionType](../../aspose.words/document/protectiontype) { get; } | يحصل على نوع حماية المستند النشط حاليًا. |
 | [Range](../../aspose.words/node/range) { get; } | إرجاع أ **نطاق** الكائن الذي يمثل جزء المستند الموجود في هذه العقدة. |
-| [RemovePersonalInformation](../../aspose.words/document/removepersonalinformation) { get; set; } | الحصول على أو تعيين علامة تشير إلى أن Microsoft Word سيزيل كافة معلومات المستخدم من التعليقات والمراجعات وخصائص المستند x000d عند حفظ المستند. |
+| [RemovePersonalInformation](../../aspose.words/document/removepersonalinformation) { get; set; } | الحصول على أو تعيين علامة تشير إلى أن Microsoft Word سيزيل كافة معلومات المستخدم من التعليقات والمراجعات وخصائص المستند عند حفظ المستند. |
 | [ResourceLoadingCallback](../../aspose.words/documentbase/resourceloadingcallback) { get; set; } | يسمح بالتحكم في كيفية تحميل الموارد الخارجية. |
 | [Revisions](../../aspose.words/document/revisions) { get; } | الحصول على مجموعة من المراجعات (التغييرات المتعقبة) الموجودة في هذا المستند. |
 | [RevisionsView](../../aspose.words/document/revisionsview) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كان سيتم العمل مع النسخة الأصلية أو المنقحة من المستند. |
@@ -91,7 +91,7 @@ public class Document : DocumentBase
 | [VbaProject](../../aspose.words/document/vbaproject) { get; set; } | يحصل أو يحدد أ[`VbaProject`](./vbaproject) . |
 | [VersionsCount](../../aspose.words/document/versionscount) { get; } | الحصول على عدد إصدارات المستند التي تم تخزينها في مستند DOC. |
 | [ViewOptions](../../aspose.words/document/viewoptions) { get; } | يوفر خيارات للتحكم في كيفية عرض المستند في Microsoft Word . |
-| [WarningCallback](../../aspose.words/documentbase/warningcallback) { get; set; } | يتم استدعاؤه أثناء إجراءات معالجة المستندات المختلفة عند اكتشاف مشكلة قد تؤدي إلى في البيانات أو فقدان الدقة في التنسيق ._ x000d_ |
+| [WarningCallback](../../aspose.words/documentbase/warningcallback) { get; set; } | يتم استدعاؤه أثناء إجراءات معالجة المستندات المختلفة عند اكتشاف مشكلة قد تؤدي إلى في البيانات أو فقدان الدقة في التنسيق . |
 | [Watermark](../../aspose.words/document/watermark) { get; } | يوفر الوصول إلى العلامة المائية للمستند. |
 | [WebExtensionTaskPanes](../../aspose.words/document/webextensiontaskpanes) { get; } | إرجاع مجموعة تمثل قائمة الوظائف الإضافية لجزء المهام. |
 | [WriteProtection](../../aspose.words/document/writeprotection) { get; } | يوفر الوصول إلى خيارات الحماية ضد الكتابة في المستند. |
@@ -121,7 +121,7 @@ public class Document : DocumentBase
 | [GetAncestor](../../aspose.words/node/getancestor)(Type) | الحصول على الأصل الأول لنوع الكائن المحدد. |
 | [GetChild](../../aspose.words/compositenode/getchild)(NodeType, int, bool) | إرجاع العقدة الفرعية رقم N التي تطابق النوع المحدد. |
 | [GetChildNodes](../../aspose.words/compositenode/getchildnodes)(NodeType, bool) | إرجاع مجموعة مباشرة من العقد الفرعية التي تطابق النوع المحدد. |
-| [GetEnumerator](../../aspose.words/compositenode/getenumerator)() | يوفر دعمًا لكل تكرار نمط على العقد التابعة لهذه العقدة ._ x000d_ |
+| [GetEnumerator](../../aspose.words/compositenode/getenumerator)() | يوفر دعمًا لكل تكرار نمط على العقد التابعة لهذه العقدة . |
 | [GetPageInfo](../../aspose.words/document/getpageinfo)(int) | الحصول على حجم الصفحة والاتجاه والمعلومات الأخرى حول الصفحة التي قد تكون مفيدة للطباعة أو التقديم. |
 | override [GetText](../../aspose.words/compositenode/gettext)() | يحصل على نص هذه العقدة وجميع توابعها. |
 | [ImportNode](../../aspose.words/documentbase/importnode)(Node, bool) | يستورد عقدة من وثيقة أخرى إلى الوثيقة الحالية. |
@@ -146,8 +146,8 @@ public class Document : DocumentBase
 | [RemoveExternalSchemaReferences](../../aspose.words/document/removeexternalschemareferences)() | إزالة مراجع مخطط XML الخارجية من هذا المستند. |
 | [RemoveMacros](../../aspose.words/document/removemacros)() | يزيل كافة وحدات الماكرو (مشروع VBA) بالإضافة إلى أشرطة الأدوات وتخصيصات الأوامر من المستند. |
 | [RemoveSmartTags](../../aspose.words/compositenode/removesmarttags)() | يزيل الكل[`SmartTag`](../../aspose.words.markup/smarttag) العقد التابعة للعقدة الحالية. |
-| [RenderToScale](../../aspose.words/document/rendertoscale)(int, Graphics, float, float, float) | يعرض صفحة مستند إلى ملفGraphics كائن لمقياس محدد ._ x000d_ |
-| [RenderToSize](../../aspose.words/document/rendertosize)(int, Graphics, float, float, float, float) | يعرض صفحة مستند إلى ملفGraphics كائن لحجم محدد ._ x000d_ |
+| [RenderToScale](../../aspose.words/document/rendertoscale)(int, Graphics, float, float, float) | يعرض صفحة مستند إلى ملفGraphics كائن لمقياس محدد . |
+| [RenderToSize](../../aspose.words/document/rendertosize)(int, Graphics, float, float, float, float) | يعرض صفحة مستند إلى ملفGraphics كائن لحجم محدد . |
 | [Save](../../aspose.words/document/save#save_2)(string) | يحفظ المستند في ملف. يحدد تلقائيًا تنسيق الحفظ من الامتداد. |
 | [Save](../../aspose.words/document/save#save)(Stream, SaveFormat) | يحفظ المستند إلى دفق باستخدام التنسيق المحدد. |
 | [Save](../../aspose.words/document/save#save_1)(Stream, SaveOptions) | يحفظ المستند في دفق باستخدام خيارات الحفظ المحددة. |
@@ -170,7 +170,7 @@ public class Document : DocumentBase
 | [UpdateThumbnail](../../aspose.words/document/updatethumbnail#updatethumbnail)() | التحديثات[`Thumbnail`](../../aspose.words.properties/builtindocumentproperties/thumbnail) من المستند باستخدام الخيارات الافتراضية. |
 | [UpdateThumbnail](../../aspose.words/document/updatethumbnail#updatethumbnail_1)(ThumbnailGeneratingOptions) | التحديثات[`Thumbnail`](../../aspose.words.properties/builtindocumentproperties/thumbnail) من المستند وفقًا للخيارات المحددة. |
 | [UpdateWordCount](../../aspose.words/document/updatewordcount#updatewordcount)() | يقوم بتحديث خصائص عدد الكلمات الخاصة بالمستند. |
-| [UpdateWordCount](../../aspose.words/document/updatewordcount#updatewordcount_1)(bool) | يحدّث خصائص عدد الكلمات في المستند ، ويتم تحديثه اختياريًا[`Lines`](../../aspose.words.properties/builtindocumentproperties/lines) الملكية ._ x000d_ |
+| [UpdateWordCount](../../aspose.words/document/updatewordcount#updatewordcount_1)(bool) | يحدّث خصائص عدد الكلمات في المستند ، ويتم تحديثه اختياريًا[`Lines`](../../aspose.words.properties/builtindocumentproperties/lines) الملكية . |
 
 ### ملاحظات
 
@@ -184,7 +184,7 @@ public class Document : DocumentBase
 
 لطباعة المستند ، استخدم أحد ملفات[`Print`](./print)طُرق.
 
-[`MailMerge`](./mailmerge) هو محرك تقارير Aspose.Words الذي يسمح بملء_ x000d_ التقارير المصممة في Microsoft Word ببيانات من مصادر بيانات مختلفة بسرعة وسهولة . يمكن أن تكون البيانات من DataSet أو DataTable أو DataView أو IDataReader أو مجموعة من القيم .  **دمج المراسلات** سوف يمر عبر السجلات الموجودة في مصدر البيانات وإدراجها في حقول دمج المراسلات في المستند التي تزداد حسب الضرورة.
+[`MailMerge`](./mailmerge) هو محرك تقارير Aspose.Words الذي يسمح بملء_ التقارير المصممة في Microsoft Word ببيانات من مصادر بيانات مختلفة بسرعة وسهولة . يمكن أن تكون البيانات من DataSet أو DataTable أو DataView أو IDataReader أو مجموعة من القيم .  **دمج المراسلات** سوف يمر عبر السجلات الموجودة في مصدر البيانات وإدراجها في حقول دمج المراسلات في المستند التي تزداد حسب الضرورة.
 
 **وثيقة** يخزن المعلومات على مستوى المستند مثل[`Styles`](../documentbase/styles) ، [`BuiltInDocumentProperties`](./builtindocumentproperties) و[`CustomDocumentProperties`](./customdocumentproperties) والقوائم ووحدات الماكرو. يمكن الوصول إلى معظم هذه الكائنات عبر الخصائص المقابلة لـ **وثيقة**.
 

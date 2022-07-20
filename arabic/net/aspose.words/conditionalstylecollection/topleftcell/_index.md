@@ -1,14 +1,14 @@
 ---
 title: TopLeftCell
 second_title: Aspose.Words لمراجع .NET API
-description: الحصول على نمط الخلية الأيسر العلوي ._ x000d_
+description: الحصول على نمط الخلية الأيسر العلوي .
 type: docs
 weight: 130
 url: /ar/net/aspose.words/conditionalstylecollection/topleftcell/
 ---
 ## ConditionalStyleCollection.TopLeftCell property
 
-الحصول على نمط الخلية الأيسر العلوي ._ x000d_
+الحصول على نمط الخلية الأيسر العلوي .
 
 ```csharp
 public ConditionalStyle TopLeftCell { get; }

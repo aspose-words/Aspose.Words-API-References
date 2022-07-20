@@ -1,14 +1,14 @@
 ---
 title: DeleteHeaderFooterShapes
 second_title: Aspose.Words لمراجع .NET API
-description: حذف كافة الأشكال الكائنات الرسومية من رؤوس وتذييلات هذا القسم ._ x000d_
+description: حذف كافة الأشكال الكائنات الرسومية من رؤوس وتذييلات هذا القسم .
 type: docs
 weight: 120
 url: /ar/net/aspose.words/section/deleteheaderfootershapes/
 ---
 ## Section.DeleteHeaderFooterShapes method
 
-حذف كافة الأشكال (الكائنات الرسومية) من رؤوس وتذييلات هذا القسم ._ x000d_
+حذف كافة الأشكال (الكائنات الرسومية) من رؤوس وتذييلات هذا القسم .
 
 ```csharp
 public void DeleteHeaderFooterShapes()

@@ -18,12 +18,12 @@ public class Border : InternableComplexAttr
 
 | اسم | وصف |
 | --- | --- |
-| [Color](../../aspose.words/border/color) { get; set; } | الحصول على لون الحد أو تعيينه ._ x000d_ |
+| [Color](../../aspose.words/border/color) { get; set; } | الحصول على لون الحد أو تعيينه . |
 | [DistanceFromText](../../aspose.words/border/distancefromtext) { get; set; } | الحصول على مسافة الحد أو تعيينها من النص أو من حافة الصفحة بالنقاط. |
 | [IsVisible](../../aspose.words/border/isvisible) { get; } | إرجاع صحيح إذا لم يكن LineStyle ليس LineStyle. |
 | [LineStyle](../../aspose.words/border/linestyle) { get; set; } | الحصول على نمط الحدود أو تعيينه . |
 | [LineWidth](../../aspose.words/border/linewidth) { get; set; } | الحصول على أو تحديد عرض الحد بالنقاط . |
-| [Shadow](../../aspose.words/border/shadow) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كانت الحدود لها ظل ._ x000d_ |
+| [Shadow](../../aspose.words/border/shadow) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كانت الحدود لها ظل . |
 
 ## طُرق
 

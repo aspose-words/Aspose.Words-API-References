@@ -19,7 +19,7 @@ public class FontInfoCollection : IEnumerable<FontInfo>
 | اسم | وصف |
 | --- | --- |
 | [Count](../../aspose.words.fonts/fontinfocollection/count) { get; } | الحصول على عدد العناصر الموجودة في المجموعة. |
-| [EmbedSystemFonts](../../aspose.words.fonts/fontinfocollection/embedsystemfonts) { get; set; } | يحدد ما إذا كان سيتم تضمين خطوط النظام في الوثيقة أم لا. _ x000d_ القيمة الافتراضية لهذه الخاصية هي **خاطئة**. |
+| [EmbedSystemFonts](../../aspose.words.fonts/fontinfocollection/embedsystemfonts) { get; set; } | يحدد ما إذا كان سيتم تضمين خطوط النظام في الوثيقة أم لا. القيمة الافتراضية لهذه الخاصية هي **خاطئة**. |
 | [EmbedTrueTypeFonts](../../aspose.words.fonts/fontinfocollection/embedtruetypefonts) { get; set; } | يحدد ما إذا كان سيتم تضمين خطوط TrueType في مستند أم لا عند حفظه. القيمة الافتراضية لهذه الخاصية هي **خاطئة** . |
 | [Item](../../aspose.words.fonts/fontinfocollection/item) { get; } | يحصل على خط بالاسم المحدد . (2 indexers) |
 | [SaveSubsetFonts](../../aspose.words.fonts/fontinfocollection/savesubsetfonts) { get; set; } | يحدد ما إذا كان سيتم حفظ مجموعة فرعية من خطوط TrueType المضمنة مع المستند أم لا. **خاطئة**. |

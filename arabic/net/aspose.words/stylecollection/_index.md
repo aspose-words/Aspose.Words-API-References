@@ -22,14 +22,14 @@ public class StyleCollection : IEnumerable<Style>
 | [DefaultFont](../../aspose.words/stylecollection/defaultfont) { get; } | الحصول على تنسيق النص الافتراضي للوثيقة. |
 | [DefaultParagraphFormat](../../aspose.words/stylecollection/defaultparagraphformat) { get; } | الحصول على تنسيق الفقرة الافتراضي للوثيقة. |
 | [Document](../../aspose.words/stylecollection/document) { get; } | الحصول على مستند المالك. |
-| [Item](../../aspose.words/stylecollection/item) { get; } | الحصول على نمط بالاسم أو الاسم المستعار ._ x000d_ (3 indexers) |
+| [Item](../../aspose.words/stylecollection/item) { get; } | الحصول على نمط بالاسم أو الاسم المستعار . (3 indexers) |
 
 ## طُرق
 
 | اسم | وصف |
 | --- | --- |
 | [Add](../../aspose.words/stylecollection/add)(StyleType, string) | ينشئ نمطًا جديدًا معرّفًا من قبل المستخدم ويضيفه إلى المجموعة. |
-| [AddCopy](../../aspose.words/stylecollection/addcopy)(Style) | نسخ نمط في هذه المجموعة ._ x000d_ |
+| [AddCopy](../../aspose.words/stylecollection/addcopy)(Style) | نسخ نمط في هذه المجموعة . |
 | [ClearQuickStyleGallery](../../aspose.words/stylecollection/clearquickstylegallery)() | يزيل كل الأنماط من لوحة معرض الأنماط السريعة. |
 | [GetEnumerator](../../aspose.words/stylecollection/getenumerator)() | الحصول على كائن العداد الذي يقوم بتعداد الأنماط بالترتيب الأبجدي لأسمائها. |
 

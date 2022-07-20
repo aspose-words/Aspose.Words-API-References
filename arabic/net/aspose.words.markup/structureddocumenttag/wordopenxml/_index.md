@@ -1,14 +1,14 @@
 ---
 title: WordOpenXML
 second_title: Aspose.Words لمراجع .NET API
-description: يحصل على سلسلة تمثل XML الموجود داخل العقدة في ملفFlatOpc التنسيق ._ x000d_
+description: يحصل على سلسلة تمثل XML الموجود داخل العقدة في ملفFlatOpc التنسيق .
 type: docs
 weight: 300
 url: /ar/net/aspose.words.markup/structureddocumenttag/wordopenxml/
 ---
 ## StructuredDocumentTag.WordOpenXML property
 
-يحصل على سلسلة تمثل XML الموجود داخل العقدة في ملفFlatOpc التنسيق ._ x000d_
+يحصل على سلسلة تمثل XML الموجود داخل العقدة في ملفFlatOpc التنسيق .
 
 ```csharp
 public string WordOpenXML { get; }

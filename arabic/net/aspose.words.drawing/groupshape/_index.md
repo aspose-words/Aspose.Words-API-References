@@ -18,7 +18,7 @@ public class GroupShape : ShapeBase
 
 | اسم | وصف |
 | --- | --- |
-| [GroupShape](groupshape)(DocumentBase) | إنشاء شكل مجموعة جديد ._ x000d_ |
+| [GroupShape](groupshape)(DocumentBase) | إنشاء شكل مجموعة جديد . |
 
 ## الخصائص
 
@@ -31,14 +31,14 @@ public class GroupShape : ShapeBase
 | [BehindText](../../aspose.words.drawing/shapebase/behindtext) { get; set; } | تحديد ما إذا كان الشكل أسفل النص أو فوقه. |
 | [Bottom](../../aspose.words.drawing/shapebase/bottom) { get; } | الحصول على موضع الحافة السفلية للكتلة التي تحتوي على الشكل. |
 | [Bounds](../../aspose.words.drawing/shapebase/bounds) { get; set; } | الحصول على أو تحديد موقع وحجم الكتلة التي تحتوي على الشكل. |
-| [BoundsInPoints](../../aspose.words.drawing/shapebase/boundsinpoints) { get; } | الحصول على موقع وحجم الكتلة المحتوية للشكل بالنقاط ، بالنسبة إلى مرساة الشكل العلوي ._ x000d_ |
-| [BoundsWithEffects](../../aspose.words.drawing/shapebase/boundswitheffects) { get; } | الحصول على المدى النهائي الذي يمتلكه كائن الشكل هذا بعد تطبيق تأثيرات الرسم. يتم قياس القيمة بالنقاط ._ x000d_ |
+| [BoundsInPoints](../../aspose.words.drawing/shapebase/boundsinpoints) { get; } | الحصول على موقع وحجم الكتلة المحتوية للشكل بالنقاط ، بالنسبة إلى مرساة الشكل العلوي . |
+| [BoundsWithEffects](../../aspose.words.drawing/shapebase/boundswitheffects) { get; } | الحصول على المدى النهائي الذي يمتلكه كائن الشكل هذا بعد تطبيق تأثيرات الرسم. يتم قياس القيمة بالنقاط . |
 | [CanHaveImage](../../aspose.words.drawing/shapebase/canhaveimage) { get; } | إرجاع صحيح إذا كان نوع الشكل يسمح للشكل بأن يكون له صورة. |
 | [ChildNodes](../../aspose.words/compositenode/childnodes) { get; } | يحصل على جميع العقد الفرعية الفورية لهذه العقدة. |
 | [CoordOrigin](../../aspose.words.drawing/shapebase/coordorigin) { get; set; } | الإحداثيات الموجودة في الزاوية العلوية اليسرى للكتلة التي تحتوي على هذا الشكل. |
-| [CoordSize](../../aspose.words.drawing/shapebase/coordsize) { get; set; } | عرض وارتفاع مساحة الإحداثيات داخل الكتلة التي تحتوي على هذا الشكل ._ x000d_ |
+| [CoordSize](../../aspose.words.drawing/shapebase/coordsize) { get; set; } | عرض وارتفاع مساحة الإحداثيات داخل الكتلة التي تحتوي على هذا الشكل . |
 | [Count](../../aspose.words/compositenode/count) { get; } | الحصول على عدد الأطفال المباشرين لهذه العقدة. |
-| [CustomNodeId](../../aspose.words/node/customnodeid) { get; set; } | يحدد معرف العقدة المخصص ._ x000d_ |
+| [CustomNodeId](../../aspose.words/node/customnodeid) { get; set; } | يحدد معرف العقدة المخصص . |
 | [DistanceBottom](../../aspose.words.drawing/shapebase/distancebottom) { get; set; } | إرجاع أو تحديد المسافة (بالنقاط) بين نص المستند والحافة السفلية للشكل. |
 | [DistanceLeft](../../aspose.words.drawing/shapebase/distanceleft) { get; set; } | إرجاع أو تحديد المسافة (بالنقاط) بين نص المستند والحافة اليسرى للشكل. |
 | [DistanceRight](../../aspose.words.drawing/shapebase/distanceright) { get; set; } | إرجاع أو تحديد المسافة (بالنقاط) بين نص المستند والحافة اليمنى للشكل. |
@@ -64,7 +64,7 @@ public class GroupShape : ShapeBase
 | [IsMoveFromRevision](../../aspose.words.drawing/shapebase/ismovefromrevision) { get; } | عوائد **حقيقي** إذا تم نقل (حذف) هذا الكائن في Microsoft Word أثناء تمكين تعقب التغييرات. |
 | [IsMoveToRevision](../../aspose.words.drawing/shapebase/ismovetorevision) { get; } | عوائد **حقيقي** إذا تم نقل هذا الكائن (إدراجه) في Microsoft Word أثناء تمكين تعقب التغيير. |
 | [IsSignatureLine](../../aspose.words.drawing/shapebase/issignatureline) { get; } | يشير إلى أن الشكل عبارة عن خط توقيع. |
-| [IsTopLevel](../../aspose.words.drawing/shapebase/istoplevel) { get; } | إرجاع صحيح إذا لم يكن هذا الشكل فرعاً لشكل مجموعة ._ x000d_ |
+| [IsTopLevel](../../aspose.words.drawing/shapebase/istoplevel) { get; } | إرجاع صحيح إذا لم يكن هذا الشكل فرعاً لشكل مجموعة . |
 | [IsWordArt](../../aspose.words.drawing/shapebase/iswordart) { get; } | إرجاع صحيح إذا كان هذا الشكل عبارة عن كائن WordArt. |
 | [LastChild](../../aspose.words/compositenode/lastchild) { get; } | الحصول على آخر تابع للعقدة . |
 | [Left](../../aspose.words.drawing/shapebase/left) { get; set; } | الحصول على أو تحديد موضع الحافة اليسرى للكتلة التي تحتوي على الشكل. |
@@ -73,17 +73,17 @@ public class GroupShape : ShapeBase
 | [NextSibling](../../aspose.words/node/nextsibling) { get; } | يحصل على العقدة التي تلي هذه العقدة مباشرة. |
 | override [NodeType](../../aspose.words.drawing/groupshape/nodetype) { get; } | عوائدGroupShape . |
 | [ParentNode](../../aspose.words/node/parentnode) { get; } | الحصول على الأصل المباشر لهذه العقدة. |
-| [ParentParagraph](../../aspose.words.drawing/shapebase/parentparagraph) { get; } | إرجاع الفقرة الأصل المباشرة ._ x000d_ |
+| [ParentParagraph](../../aspose.words.drawing/shapebase/parentparagraph) { get; } | إرجاع الفقرة الأصل المباشرة . |
 | [PreviousSibling](../../aspose.words/node/previoussibling) { get; } | يحصل على العقدة التي تسبق هذه العقدة مباشرة. |
 | [Range](../../aspose.words/node/range) { get; } | إرجاع أ **نطاق** الكائن الذي يمثل جزء المستند الموجود في هذه العقدة. |
 | [RelativeHorizontalPosition](../../aspose.words.drawing/shapebase/relativehorizontalposition) { get; set; } | تحديد متعلق بالموضع الأفقي للشكل. |
 | [RelativeVerticalPosition](../../aspose.words.drawing/shapebase/relativeverticalposition) { get; set; } | تحديد متعلق بالموضع الرأسي للشكل. |
 | [Right](../../aspose.words.drawing/shapebase/right) { get; } | الحصول على موضع الحافة اليمنى للكتلة التي تحتوي على الشكل. |
-| [Rotation](../../aspose.words.drawing/shapebase/rotation) { get; set; } | يحدد الزاوية (بالدرجات) التي يتم تدوير الشكل بها. _ x000d_ القيمة الموجبة تقابل زاوية الدوران في اتجاه عقارب الساعة ._ x000d_ |
+| [Rotation](../../aspose.words.drawing/shapebase/rotation) { get; set; } | يحدد الزاوية (بالدرجات) التي يتم تدوير الشكل بها. _ القيمة الموجبة تقابل زاوية الدوران في اتجاه عقارب الساعة . |
 | [ScreenTip](../../aspose.words.drawing/shapebase/screentip) { get; set; } | يحدد النص المعروض عندما يتحرك مؤشر الماوس فوق الشكل. |
-| [ShadowFormat](../../aspose.words.drawing/shapebase/shadowformat) { get; } | الحصول على تنسيق الظل للشكل ._ x000d_ |
+| [ShadowFormat](../../aspose.words.drawing/shapebase/shadowformat) { get; } | الحصول على تنسيق الظل للشكل . |
 | [ShapeType](../../aspose.words.drawing/shapebase/shapetype) { get; } | يحصل على نوع الشكل. |
-| [SizeInPoints](../../aspose.words.drawing/shapebase/sizeinpoints) { get; } | الحصول على حجم الشكل بالنقاط ._ x000d_ |
+| [SizeInPoints](../../aspose.words.drawing/shapebase/sizeinpoints) { get; } | الحصول على حجم الشكل بالنقاط . |
 | [Target](../../aspose.words.drawing/shapebase/target) { get; set; } | الحصول على أو تعيين الإطار الهدف للارتباط التشعبي للشكل. |
 | [Title](../../aspose.words.drawing/shapebase/title) { get; set; } | الحصول على أو تعيين العنوان (التسمية التوضيحية) لكائن الشكل الحالي. |
 | [Top](../../aspose.words.drawing/shapebase/top) { get; set; } | الحصول على أو تحديد موضع الحافة العلوية للكتلة التي تحتوي على الشكل. |
@@ -109,7 +109,7 @@ public class GroupShape : ShapeBase
 | [GetChild](../../aspose.words/compositenode/getchild)(NodeType, int, bool) | إرجاع العقدة الفرعية رقم N التي تطابق النوع المحدد. |
 | [GetChildNodes](../../aspose.words/compositenode/getchildnodes)(NodeType, bool) | إرجاع مجموعة مباشرة من العقد الفرعية التي تطابق النوع المحدد. |
 | [GetDirectShapeAttr](../../aspose.words.drawing/shapebase/getdirectshapeattr)(int) | محجوز لاستخدام النظام. IShapeAttrSource. |
-| [GetEnumerator](../../aspose.words/compositenode/getenumerator)() | يوفر دعمًا لكل تكرار نمط على العقد التابعة لهذه العقدة ._ x000d_ |
+| [GetEnumerator](../../aspose.words/compositenode/getenumerator)() | يوفر دعمًا لكل تكرار نمط على العقد التابعة لهذه العقدة . |
 | [GetShapeRenderer](../../aspose.words.drawing/shapebase/getshaperenderer)() | إنشاء وإرجاع كائن يمكن استخدامه لتحويل هذا الشكل إلى صورة. |
 | override [GetText](../../aspose.words/compositenode/gettext)() | يحصل على نص هذه العقدة وجميع توابعها. |
 | [IndexOf](../../aspose.words/compositenode/indexof)(Node) | إرجاع فهرس العقدة الفرعية المحددة في مصفوفة العقدة الفرعية. |
@@ -132,9 +132,9 @@ public class GroupShape : ShapeBase
 
 ### ملاحظات
 
-أ[`GroupShape`](../groupshape) هي عقدة مركبة ويمكن أن يكون لها[`Shape`](../shape) و_ x000d_[`GroupShape`](../groupshape) العقد كأطفال.
+أ[`GroupShape`](../groupshape) هي عقدة مركبة ويمكن أن يكون لها[`Shape`](../shape) و [`GroupShape`](../groupshape) العقد كأطفال.
 
-كل[`GroupShape`](../groupshape) يحدد نظام إحداثيات جديدًا لأشكاله الفرعية ._ x000d_ يتم تعريف نظام الإحداثيات باستخدام[`CoordSize`](../shapebase/coordsize) و _ x000d_[`CoordOrigin`](../shapebase/coordorigin) الخصائص.
+كل[`GroupShape`](../groupshape) يحدد نظام إحداثيات جديدًا لأشكاله الفرعية . يتم تعريف نظام الإحداثيات باستخدام[`CoordSize`](../shapebase/coordsize) و [`CoordOrigin`](../shapebase/coordorigin) الخصائص.
 
 ### أمثلة
 

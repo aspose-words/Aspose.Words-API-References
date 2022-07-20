@@ -1,14 +1,14 @@
 ---
 title: EndArrowType
 second_title: Aspose.Words لمراجع .NET API
-description: يحدد رأس السهم لنهاية السكتة الدماغية ._ x000d_
+description: يحدد رأس السهم لنهاية السكتة الدماغية .
 type: docs
 weight: 60
 url: /ar/net/aspose.words.drawing/stroke/endarrowtype/
 ---
 ## Stroke.EndArrowType property
 
-يحدد رأس السهم لنهاية السكتة الدماغية ._ x000d_
+يحدد رأس السهم لنهاية السكتة الدماغية .
 
 ```csharp
 public ArrowType EndArrowType { get; set; }

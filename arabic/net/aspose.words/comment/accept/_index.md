@@ -28,7 +28,7 @@ public override bool Accept(DocumentVisitor visitor)
 
 لمزيد من المعلومات ، راجع نمط تصميم الزائر.
 
-المكالمات[`VisitCommentStart`](../../documentvisitor/visitcommentstart) ثم المكالمات[`Accept`](../../node/accept) لجميع العقد الفرعية للتعليق والمكالمات[`VisitCommentEnd`](../../documentvisitor/visitcommentend) في النهاية ._ x000d_
+المكالمات[`VisitCommentStart`](../../documentvisitor/visitcommentstart) ثم المكالمات[`Accept`](../../node/accept) لجميع العقد الفرعية للتعليق والمكالمات[`VisitCommentEnd`](../../documentvisitor/visitcommentend) في النهاية .
 
 ### أمثلة
 

@@ -1,14 +1,14 @@
 ---
 title: FontFamily
 second_title: Aspose.Words لمراجع .NET API
-description: يمثل عائلة الخطوط ._ x000d_
+description: يمثل عائلة الخطوط .
 type: docs
 weight: 2730
 url: /ar/net/aspose.words.fonts/fontfamily/
 ---
 ## FontFamily enumeration
 
-يمثل عائلة الخطوط ._ x000d_
+يمثل عائلة الخطوط .
 
 ```csharp
 public enum FontFamily

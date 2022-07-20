@@ -16,7 +16,7 @@ public bool HasRevisions { get; }
 
 ### ملاحظات
 
-هذه الخاصية هي اختصار للمقارنة[`Count`](../../revisioncollection/count)إلى الصفر ._ x000d_
+هذه الخاصية هي اختصار للمقارنة[`Count`](../../revisioncollection/count)إلى الصفر .
 
 ### أمثلة
 

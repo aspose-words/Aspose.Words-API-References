@@ -18,7 +18,7 @@ public PdfCustomPropertiesExport CustomPropertiesExport { get; set; }
 
 القيمة الافتراضية هيNone.
 
-Metadata القيمة غير مدعومة عند الحفظ في PDF / A. Standard سيتم استخدامها بدلاً من ذلك لملفات PDF / A-1 و PDF / A-2 و_ x000d_None لـ PDF / A-4.
+Metadata القيمة غير مدعومة عند الحفظ في PDF / A. Standard سيتم استخدامها بدلاً من ذلك لملفات PDF / A-1 و PDF / A-2 و None لـ PDF / A-4.
 
 Standard القيمة غير مدعومة عند الحفظ إلى PDF 2.0. Metadata سيتم استخدامها بدلا من ذلك.
 

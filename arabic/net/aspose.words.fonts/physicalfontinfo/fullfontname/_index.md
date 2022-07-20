@@ -1,14 +1,14 @@
 ---
 title: FullFontName
 second_title: Aspose.Words لمراجع .NET API
-description: الاسم الكامل للخط ._ x000d_
+description: الاسم الكامل للخط .
 type: docs
 weight: 30
 url: /ar/net/aspose.words.fonts/physicalfontinfo/fullfontname/
 ---
 ## PhysicalFontInfo.FullFontName property
 
-الاسم الكامل للخط ._ x000d_
+الاسم الكامل للخط .
 
 ```csharp
 public string FullFontName { get; }

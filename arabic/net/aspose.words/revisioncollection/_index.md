@@ -19,7 +19,7 @@ public class RevisionCollection : IEnumerable<Revision>
 | اسم | وصف |
 | --- | --- |
 | [Count](../../aspose.words/revisioncollection/count) { get; } | إرجاع عدد المراجعات في المجموعة. |
-| [Groups](../../aspose.words/revisioncollection/groups) { get; } | مجموعة من مجموعات المراجعة ._ x000d_ |
+| [Groups](../../aspose.words/revisioncollection/groups) { get; } | مجموعة من مجموعات المراجعة . |
 | [Item](../../aspose.words/revisioncollection/item) { get; } | إرجاع مراجعة بالفهرس المحدد. |
 
 ## طُرق

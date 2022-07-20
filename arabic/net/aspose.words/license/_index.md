@@ -24,8 +24,8 @@ public class License
 
 | اسم | وصف |
 | --- | --- |
-| [SetLicense](../../aspose.words/license/setlicense#setlicense)(Stream) | تراخيص المكون ._ x000d_ |
-| [SetLicense](../../aspose.words/license/setlicense#setlicense_1)(string) | تراخيص المكون ._ x000d_ |
+| [SetLicense](../../aspose.words/license/setlicense#setlicense)(Stream) | تراخيص المكون . |
+| [SetLicense](../../aspose.words/license/setlicense#setlicense_1)(string) | تراخيص المكون . |
 
 ### أمثلة
 

@@ -1,14 +1,14 @@
 ---
 title: TxtTrailingSpacesOptions
 second_title: Aspose.Words لمراجع .NET API
-description: يحدد الخيارات المتاحة لمعالجة المسافات الزائدة أثناء الاستيراد منText ملف ._ x000d_
+description: يحدد الخيارات المتاحة لمعالجة المسافات الزائدة أثناء الاستيراد منText ملف .
 type: docs
 weight: 3540
 url: /ar/net/aspose.words.loading/txttrailingspacesoptions/
 ---
 ## TxtTrailingSpacesOptions enumeration
 
-يحدد الخيارات المتاحة لمعالجة المسافات الزائدة أثناء الاستيراد منText ملف ._ x000d_
+يحدد الخيارات المتاحة لمعالجة المسافات الزائدة أثناء الاستيراد منText ملف .
 
 ```csharp
 public enum TxtTrailingSpacesOptions

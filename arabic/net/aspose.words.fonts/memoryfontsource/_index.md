@@ -26,8 +26,8 @@ public class MemoryFontSource : FontSourceBase
 
 | اسم | وصف |
 | --- | --- |
-| [CacheKey](../../aspose.words.fonts/memoryfontsource/cachekey) { get; } | مفتاح هذا المصدر في ذاكرة التخزين المؤقت ._ x000d_ |
-| [FontData](../../aspose.words.fonts/memoryfontsource/fontdata) { get; } | بيانات الخط الثنائي ._ x000d_ |
+| [CacheKey](../../aspose.words.fonts/memoryfontsource/cachekey) { get; } | مفتاح هذا المصدر في ذاكرة التخزين المؤقت . |
+| [FontData](../../aspose.words.fonts/memoryfontsource/fontdata) { get; } | بيانات الخط الثنائي . |
 | [Priority](../../aspose.words.fonts/fontsourcebase/priority) { get; } | إرجاع أولوية مصدر الخط. |
 | override [Type](../../aspose.words.fonts/memoryfontsource/type) { get; } | إرجاع نوع مصدر الخط. |
 | [WarningCallback](../../aspose.words.fonts/fontsourcebase/warningcallback) { get; set; } | تم الاتصال أثناء معالجة مصدر الخط عند اكتشاف مشكلة قد تؤدي إلى فقدان الدقة في التنسيق. |

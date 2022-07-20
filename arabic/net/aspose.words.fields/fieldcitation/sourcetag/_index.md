@@ -1,14 +1,14 @@
 ---
 title: SourceTag
 second_title: Aspose.Words لمراجع .NET API
-description: الحصول على أو تعيين قيمة تحسب ال بطاقة شعارقيمة العنصر للمصدر المراد إدراجها ._ x000d_
+description: الحصول على أو تعيين قيمة تحسب ال بطاقة شعارقيمة العنصر للمصدر المراد إدراجها .
 type: docs
 weight: 60
 url: /ar/net/aspose.words.fields/fieldcitation/sourcetag/
 ---
 ## FieldCitation.SourceTag property
 
-الحصول على أو تعيين قيمة تحسب ال **بطاقة شعار**قيمة العنصر للمصدر المراد إدراجها ._ x000d_
+الحصول على أو تعيين قيمة تحسب ال **بطاقة شعار**قيمة العنصر للمصدر المراد إدراجها .
 
 ```csharp
 public string SourceTag { get; set; }

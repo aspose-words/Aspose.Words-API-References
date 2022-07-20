@@ -1,14 +1,14 @@
 ---
 title: EmbeddedFontStyle
 second_title: Aspose.Words لمراجع .NET API
-description: يحدد نمط الخط المضمن داخل ملفFontInfo./fontinfo الكائن ._ x000d_
+description: يحدد نمط الخط المضمن داخل ملفFontInfo./fontinfo الكائن .
 type: docs
 weight: 2680
 url: /ar/net/aspose.words.fonts/embeddedfontstyle/
 ---
 ## EmbeddedFontStyle enumeration
 
-يحدد نمط الخط المضمن داخل ملف[`FontInfo`](../fontinfo) الكائن ._ x000d_
+يحدد نمط الخط المضمن داخل ملف[`FontInfo`](../fontinfo) الكائن .
 
 ```csharp
 [Flags]
@@ -22,7 +22,7 @@ public enum EmbeddedFontStyle
 | Regular | `0` | يحدد الخط المضمن العادي. |
 | Bold | `1` | يحدد الخط المضمن الغامق . |
 | Italic | `2` | يحدد الخط المائل المضمن. |
-| BoldItalic | `3` | يحدد الخط المضمن بالخط العريض-المائل ._ x000d_ |
+| BoldItalic | `3` | يحدد الخط المضمن بالخط العريض-المائل . |
 
 ### أمثلة
 

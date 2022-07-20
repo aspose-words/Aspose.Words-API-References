@@ -1,14 +1,14 @@
 ---
 title: Email
 second_title: Aspose.Words لمراجع .NET API
-description: الحصول على أو تعيين عنوان البريد الإلكتروني للموقّع المقترح. القيمة الافتراضية لهذه الخاصية هي سلسلة فارغة Empty  ._ x000d_
+description: الحصول على أو تعيين عنوان البريد الإلكتروني للموقّع المقترح. القيمة الافتراضية لهذه الخاصية هي سلسلة فارغة Empty  .
 type: docs
 weight: 40
 url: /ar/net/aspose.words/signaturelineoptions/email/
 ---
 ## SignatureLineOptions.Email property
 
-الحصول على أو تعيين عنوان البريد الإلكتروني للموقّع المقترح. القيمة الافتراضية لهذه الخاصية هي **سلسلة فارغة** (Empty ) ._ x000d_
+الحصول على أو تعيين عنوان البريد الإلكتروني للموقّع المقترح. القيمة الافتراضية لهذه الخاصية هي **سلسلة فارغة** (Empty ) .
 
 ```csharp
 public string Email { get; set; }

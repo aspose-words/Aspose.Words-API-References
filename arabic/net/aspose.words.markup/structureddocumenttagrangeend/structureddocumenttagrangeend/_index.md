@@ -1,14 +1,14 @@
 ---
 title: StructuredDocumentTagRangeEnd
 second_title: Aspose.Words لمراجع .NET API
-description: يقوم بتهيئة مثيل جديد لملف نهاية نطاق علامة المستند المنظم فئة ._ x000d_
+description: يقوم بتهيئة مثيل جديد لملف نهاية نطاق علامة المستند المنظم فئة .
 type: docs
 weight: 10
 url: /ar/net/aspose.words.markup/structureddocumenttagrangeend/structureddocumenttagrangeend/
 ---
 ## StructuredDocumentTagRangeEnd constructor
 
-يقوم بتهيئة مثيل جديد لملف **نهاية نطاق علامة المستند المنظم** فئة ._ x000d_
+يقوم بتهيئة مثيل جديد لملف **نهاية نطاق علامة المستند المنظم** فئة .
 
 ```csharp
 public StructuredDocumentTagRangeEnd(DocumentBase doc, int id)

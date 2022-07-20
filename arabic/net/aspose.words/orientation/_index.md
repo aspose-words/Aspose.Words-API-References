@@ -1,14 +1,14 @@
 ---
 title: Orientation
 second_title: Aspose.Words لمراجع .NET API
-description: يحدد اتجاه الصفحة ._ x000d_
+description: يحدد اتجاه الصفحة .
 type: docs
 weight: 4080
 url: /ar/net/aspose.words/orientation/
 ---
 ## Orientation enumeration
 
-يحدد اتجاه الصفحة ._ x000d_
+يحدد اتجاه الصفحة .
 
 ```csharp
 public enum Orientation
@@ -19,7 +19,7 @@ public enum Orientation
 | اسم | قيمة | وصف |
 | --- | --- | --- |
 | Portrait | `1` | اتجاه الصفحة العمودي (ضيق وطويل). |
-| Landscape | `2` | اتجاه الصفحة الأفقي (واسع وقصير) ._ x000d_ |
+| Landscape | `2` | اتجاه الصفحة الأفقي (واسع وقصير) . |
 
 ### أمثلة
 

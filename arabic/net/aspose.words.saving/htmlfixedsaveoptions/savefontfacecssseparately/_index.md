@@ -1,14 +1,14 @@
 ---
 title: SaveFontFaceCssSeparately
 second_title: Aspose.Words لمراجع .NET API
-description: تشير العلامة إلى ما إذا كان يجب وضع قواعد CSS  font-face في ملف منفصل fontFaces.css عندما يتم حفظ مستند مع ورقة أنماط خارجية أي عندماExportEmbeddedCssaspose.words.saving/htmlfixedsaveoptions/exportembeddedcss هوخاطئة  ._ x000d_ القيمة الافتراضية هيخاطئة  جميع قواعد CSS مكتوبة في ملف واحد styles.css ._ x000d_
+description: تشير العلامة إلى ما إذا كان يجب وضع قواعد CSS  font-face في ملف منفصل fontFaces.css عندما يتم حفظ مستند مع ورقة أنماط خارجية أي عندماExportEmbeddedCssaspose.words.saving/htmlfixedsaveoptions/exportembeddedcss هوخاطئة  . القيمة الافتراضية هيخاطئة  جميع قواعد CSS مكتوبة في ملف واحد styles.css .
 type: docs
 weight: 160
 url: /ar/net/aspose.words.saving/htmlfixedsaveoptions/savefontfacecssseparately/
 ---
 ## HtmlFixedSaveOptions.SaveFontFaceCssSeparately property
 
-تشير العلامة إلى ما إذا كان يجب وضع قواعد CSS "@ font-face" في ملف منفصل "fontFaces.css" عندما يتم حفظ مستند مع ورقة أنماط خارجية (أي عندما[`ExportEmbeddedCss`](../exportembeddedcss) هو`خاطئة` ) ._ x000d_ القيمة الافتراضية هي`خاطئة` ، جميع قواعد CSS مكتوبة في ملف واحد "styles.css" ._ x000d_
+تشير العلامة إلى ما إذا كان يجب وضع قواعد CSS "@ font-face" في ملف منفصل "fontFaces.css" عندما يتم حفظ مستند مع ورقة أنماط خارجية (أي عندما[`ExportEmbeddedCss`](../exportembeddedcss) هو`خاطئة` ) . القيمة الافتراضية هي`خاطئة` ، جميع قواعد CSS مكتوبة في ملف واحد "styles.css" .
 
 ```csharp
 public bool SaveFontFaceCssSeparately { get; set; }

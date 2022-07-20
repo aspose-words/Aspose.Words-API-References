@@ -26,7 +26,7 @@ public class FileFontSource : FontSourceBase
 
 | اسم | وصف |
 | --- | --- |
-| [CacheKey](../../aspose.words.fonts/filefontsource/cachekey) { get; } | مفتاح هذا المصدر في ذاكرة التخزين المؤقت ._ x000d_ |
+| [CacheKey](../../aspose.words.fonts/filefontsource/cachekey) { get; } | مفتاح هذا المصدر في ذاكرة التخزين المؤقت . |
 | [FilePath](../../aspose.words.fonts/filefontsource/filepath) { get; } | المسار إلى ملف الخط. |
 | [Priority](../../aspose.words.fonts/fontsourcebase/priority) { get; } | إرجاع أولوية مصدر الخط. |
 | override [Type](../../aspose.words.fonts/filefontsource/type) { get; } | إرجاع نوع مصدر الخط. |

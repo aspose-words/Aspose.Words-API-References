@@ -1,14 +1,14 @@
 ---
 title: SaveFormat
 second_title: Aspose.Words لمراجع .NET API
-description: يحدد التنسيق الذي سيتم حفظ المستند به إذا تم استخدام كائن خيارات الحفظ هذا ._ x000d_ يمكن أن يكونDoc أوDot .
+description: يحدد التنسيق الذي سيتم حفظ المستند به إذا تم استخدام كائن خيارات الحفظ هذا . يمكن أن يكونDoc أوDot .
 type: docs
 weight: 40
 url: /ar/net/aspose.words.saving/docsaveoptions/saveformat/
 ---
 ## DocSaveOptions.SaveFormat property
 
-يحدد التنسيق الذي سيتم حفظ المستند به إذا تم استخدام كائن خيارات الحفظ هذا ._ x000d_ يمكن أن يكونDoc أوDot .
+يحدد التنسيق الذي سيتم حفظ المستند به إذا تم استخدام كائن خيارات الحفظ هذا . يمكن أن يكونDoc أوDot .
 
 ```csharp
 public override SaveFormat SaveFormat { get; set; }

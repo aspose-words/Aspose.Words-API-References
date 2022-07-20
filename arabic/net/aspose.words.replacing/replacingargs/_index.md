@@ -1,14 +1,14 @@
 ---
 title: ReplacingArgs
 second_title: Aspose.Words لمراجع .NET API
-description: توفير بيانات لعملية استبدال مخصصة ._ x000d_
+description: توفير بيانات لعملية استبدال مخصصة .
 type: docs
 weight: 4390
 url: /ar/net/aspose.words.replacing/replacingargs/
 ---
 ## ReplacingArgs class
 
-توفير بيانات لعملية استبدال مخصصة ._ x000d_
+توفير بيانات لعملية استبدال مخصصة .
 
 ```csharp
 public class ReplacingArgs
@@ -18,11 +18,11 @@ public class ReplacingArgs
 
 | اسم | وصف |
 | --- | --- |
-| [GroupIndex](../../aspose.words.replacing/replacingargs/groupindex) { get; set; } | يحدد ، عن طريق الفهرس ، مجموعة تم التقاطها في ملف[`Match`](./match) الذي سيتم استبداله بامتداد[`Replacement`](./replacement) السلسلة ._ x000d_ |
-| [GroupName](../../aspose.words.replacing/replacingargs/groupname) { get; set; } | يحدد ، بالاسم ، مجموعة تم التقاطها في ملف[`Match`](./match) الذي سيتم استبداله بامتداد[`Replacement`](./replacement) السلسلة ._ x000d_ |
+| [GroupIndex](../../aspose.words.replacing/replacingargs/groupindex) { get; set; } | يحدد ، عن طريق الفهرس ، مجموعة تم التقاطها في ملف[`Match`](./match) الذي سيتم استبداله بامتداد[`Replacement`](./replacement) السلسلة . |
+| [GroupName](../../aspose.words.replacing/replacingargs/groupname) { get; set; } | يحدد ، بالاسم ، مجموعة تم التقاطها في ملف[`Match`](./match) الذي سيتم استبداله بامتداد[`Replacement`](./replacement) السلسلة . |
 | [Match](../../aspose.words.replacing/replacingargs/match) { get; } | ملفMatch الناتج عن تطابق تعبير واحد normal أثناء a **يحل محل** . |
-| [MatchNode](../../aspose.words.replacing/replacingargs/matchnode) { get; } | يحصل على العقدة التي تحتوي على بداية المباراة ._ x000d_ |
-| [MatchOffset](../../aspose.words.replacing/replacingargs/matchoffset) { get; } | يحصل على موضع البداية الصفري للمباراة من بداية العقدة التي تحتوي على بداية المباراة ._ x000d_ |
+| [MatchNode](../../aspose.words.replacing/replacingargs/matchnode) { get; } | يحصل على العقدة التي تحتوي على بداية المباراة . |
+| [MatchOffset](../../aspose.words.replacing/replacingargs/matchoffset) { get; } | يحصل على موضع البداية الصفري للمباراة من بداية العقدة التي تحتوي على بداية المباراة . |
 | [Replacement](../../aspose.words.replacing/replacingargs/replacement) { get; set; } | الحصول على سلسلة الاستبدال أو تعيينها. |
 
 ### أمثلة

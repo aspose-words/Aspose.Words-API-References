@@ -1,14 +1,14 @@
 ---
 title: GroupShape
 second_title: Aspose.Words لمراجع .NET API
-description: إنشاء شكل مجموعة جديد ._ x000d_
+description: إنشاء شكل مجموعة جديد .
 type: docs
 weight: 10
 url: /ar/net/aspose.words.drawing/groupshape/groupshape/
 ---
 ## GroupShape constructor
 
-إنشاء شكل مجموعة جديد ._ x000d_
+إنشاء شكل مجموعة جديد .
 
 ```csharp
 public GroupShape(DocumentBase doc)

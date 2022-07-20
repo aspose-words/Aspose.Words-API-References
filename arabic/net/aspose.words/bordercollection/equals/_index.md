@@ -1,14 +1,14 @@
 ---
 title: Equals
 second_title: Aspose.Words لمراجع .NET API
-description: مقارنة مجموعات الحدود ._ x000d_
+description: مقارنة مجموعات الحدود .
 type: docs
 weight: 150
 url: /ar/net/aspose.words/bordercollection/equals/
 ---
 ## BorderCollection.Equals method
 
-مقارنة مجموعات الحدود ._ x000d_
+مقارنة مجموعات الحدود .
 
 ```csharp
 public bool Equals(BorderCollection brColl)

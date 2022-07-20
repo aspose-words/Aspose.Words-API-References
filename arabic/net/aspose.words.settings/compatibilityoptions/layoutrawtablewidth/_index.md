@@ -1,14 +1,14 @@
 ---
 title: LayoutRawTableWidth
 second_title: Aspose.Words لمراجع .NET API
-description: تجاهل المساحة الموجودة قبل الجدول عند تحديد ما إذا كان يجب أن يلتف الجدول كائنًا عائمًا ._ x000d_
+description: تجاهل المساحة الموجودة قبل الجدول عند تحديد ما إذا كان يجب أن يلتف الجدول كائنًا عائمًا .
 type: docs
 weight: 290
 url: /ar/net/aspose.words.settings/compatibilityoptions/layoutrawtablewidth/
 ---
 ## CompatibilityOptions.LayoutRawTableWidth property
 
-تجاهل المساحة الموجودة قبل الجدول عند تحديد ما إذا كان يجب أن يلتف الجدول كائنًا عائمًا ._ x000d_
+تجاهل المساحة الموجودة قبل الجدول عند تحديد ما إذا كان يجب أن يلتف الجدول كائنًا عائمًا .
 
 ```csharp
 public bool LayoutRawTableWidth { get; set; }

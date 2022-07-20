@@ -1,14 +1,14 @@
 ---
 title: PrinterSettingsContainer
 second_title: Aspose.Words لمراجع .NET API
-description: تمثل مخزنًا لبعض معلماتPrinterSettings الكائن ._ x000d_
+description: تمثل مخزنًا لبعض معلماتPrinterSettings الكائن .
 type: docs
 weight: 4320
 url: /ar/net/aspose.words.rendering/printersettingscontainer/
 ---
 ## PrinterSettingsContainer class
 
-تمثل مخزنًا لبعض معلماتPrinterSettings الكائن ._ x000d_
+تمثل مخزنًا لبعض معلماتPrinterSettings الكائن .
 
 ```csharp
 public class PrinterSettingsContainer

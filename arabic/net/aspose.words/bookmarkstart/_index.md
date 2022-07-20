@@ -18,14 +18,14 @@ public class BookmarkStart : Node
 
 | اسم | وصف |
 | --- | --- |
-| [BookmarkStart](bookmarkstart)(DocumentBase, string) | يقوم بتهيئة مثيل جديد لملف[`BookmarkStart`](../bookmarkstart) فئة ._ x000d_ |
+| [BookmarkStart](bookmarkstart)(DocumentBase, string) | يقوم بتهيئة مثيل جديد لملف[`BookmarkStart`](../bookmarkstart) فئة . |
 
 ## الخصائص
 
 | اسم | وصف |
 | --- | --- |
 | [Bookmark](../../aspose.words/bookmarkstart/bookmark) { get; } | الحصول على كائن الواجهة الذي يغلف بداية الإشارة المرجعية هذه ونهايتها. |
-| [CustomNodeId](../../aspose.words/node/customnodeid) { get; set; } | يحدد معرف العقدة المخصص ._ x000d_ |
+| [CustomNodeId](../../aspose.words/node/customnodeid) { get; set; } | يحدد معرف العقدة المخصص . |
 | virtual [Document](../../aspose.words/node/document) { get; } | الحصول على المستند الذي تنتمي إليه هذه العقدة . |
 | virtual [IsComposite](../../aspose.words/node/iscomposite) { get; } | إرجاع صحيح إذا كانت هذه العقدة يمكن أن تحتوي على عقد أخرى. |
 | [Name](../../aspose.words/bookmarkstart/name) { get; set; } | الحصول على اسم الإشارة المرجعية أو تعيينه. |

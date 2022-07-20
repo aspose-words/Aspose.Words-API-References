@@ -18,8 +18,8 @@ public class ListLabel
 
 | اسم | وصف |
 | --- | --- |
-| [Font](../../aspose.words.lists/listlabel/font) { get; } | يحصل على خط تسمية القائمة ._ x000d_ |
-| [LabelString](../../aspose.words.lists/listlabel/labelstring) { get; } | الحصول على تمثيل سلسلة لتسمية القائمة ._ x000d_ |
+| [Font](../../aspose.words.lists/listlabel/font) { get; } | يحصل على خط تسمية القائمة . |
+| [LabelString](../../aspose.words.lists/listlabel/labelstring) { get; } | الحصول على تمثيل سلسلة لتسمية القائمة . |
 | [LabelValue](../../aspose.words.lists/listlabel/labelvalue) { get; } | الحصول على قيمة رقمية لهذا التصنيف. |
 
 ### أمثلة

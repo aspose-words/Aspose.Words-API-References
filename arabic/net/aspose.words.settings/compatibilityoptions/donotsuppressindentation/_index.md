@@ -1,14 +1,14 @@
 ---
 title: DoNotSuppressIndentation
 second_title: Aspose.Words لمراجع .NET API
-description: لا تتجاهل الكائنات العائمة عند حساب المسافة البادئة للفقرة ._ x000d_
+description: لا تتجاهل الكائنات العائمة عند حساب المسافة البادئة للفقرة .
 type: docs
 weight: 180
 url: /ar/net/aspose.words.settings/compatibilityoptions/donotsuppressindentation/
 ---
 ## CompatibilityOptions.DoNotSuppressIndentation property
 
-لا تتجاهل الكائنات العائمة عند حساب المسافة البادئة للفقرة ._ x000d_
+لا تتجاهل الكائنات العائمة عند حساب المسافة البادئة للفقرة .
 
 ```csharp
 public bool DoNotSuppressIndentation { get; set; }

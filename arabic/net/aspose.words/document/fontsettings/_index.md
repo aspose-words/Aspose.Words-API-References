@@ -16,7 +16,7 @@ public FontSettings FontSettings { get; set; }
 
 ### ملاحظات
 
-تسمح هذه الخاصية بتحديد إعدادات الخط لكل مستند. إذا تم التعيين على قيمة خالية ، فإن الإعدادات الافتراضية للخط الثابت_ x000d_[`DefaultInstance`](../../../aspose.words.fonts/fontsettings/defaultinstance) سوف يستخدم.
+تسمح هذه الخاصية بتحديد إعدادات الخط لكل مستند. إذا تم التعيين على قيمة خالية ، فإن الإعدادات الافتراضية للخط الثابت_ [`DefaultInstance`](../../../aspose.words.fonts/fontsettings/defaultinstance) سوف يستخدم.
 
 القيمه الافتراضيه فارغه.
 

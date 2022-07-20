@@ -1,14 +1,14 @@
 ---
 title: ConditionalStyleCollection
 second_title: Aspose.Words لمراجع .NET API
-description: يمثل مجموعة منConditionalStyle./conditionalstyle الكائنات ._ x000d_
+description: يمثل مجموعة منConditionalStyle./conditionalstyle الكائنات .
 type: docs
 weight: 310
 url: /ar/net/aspose.words/conditionalstylecollection/
 ---
 ## ConditionalStyleCollection class
 
-يمثل مجموعة من[`ConditionalStyle`](../conditionalstyle) الكائنات ._ x000d_
+يمثل مجموعة من[`ConditionalStyle`](../conditionalstyle) الكائنات .
 
 ```csharp
 public sealed class ConditionalStyleCollection : IEnumerable<ConditionalStyle>
@@ -21,17 +21,17 @@ public sealed class ConditionalStyleCollection : IEnumerable<ConditionalStyle>
 | [BottomLeftCell](../../aspose.words/conditionalstylecollection/bottomleftcell) { get; } | الحصول على نمط الخلية اليسرى السفلية. |
 | [BottomRightCell](../../aspose.words/conditionalstylecollection/bottomrightcell) { get; } | الحصول على نمط الخلية الأيمن السفلي. |
 | [Count](../../aspose.words/conditionalstylecollection/count) { get; } | الحصول على عدد الأنماط الشرطية في المجموعة. |
-| [EvenColumnBanding](../../aspose.words/conditionalstylecollection/evencolumnbanding) { get; } | الحصول على نمط نطاقات الأعمدة الزوجية ._ x000d_ |
+| [EvenColumnBanding](../../aspose.words/conditionalstylecollection/evencolumnbanding) { get; } | الحصول على نمط نطاقات الأعمدة الزوجية . |
 | [EvenRowBanding](../../aspose.words/conditionalstylecollection/evenrowbanding) { get; } | يحصل على نمط نطاقات الصف الزوجي . |
-| [FirstColumn](../../aspose.words/conditionalstylecollection/firstcolumn) { get; } | يحصل على نمط العمود الأول ._ x000d_ |
-| [FirstRow](../../aspose.words/conditionalstylecollection/firstrow) { get; } | يحصل على نمط الصف الأول ._ x000d_ |
+| [FirstColumn](../../aspose.words/conditionalstylecollection/firstcolumn) { get; } | يحصل على نمط العمود الأول . |
+| [FirstRow](../../aspose.words/conditionalstylecollection/firstrow) { get; } | يحصل على نمط الصف الأول . |
 | [Item](../../aspose.words/conditionalstylecollection/item) { get; } | يسترجع أ[`ConditionalStyle`](../conditionalstyle) الكائن حسب نوع النمط الشرطي. (2 indexers) |
-| [LastColumn](../../aspose.words/conditionalstylecollection/lastcolumn) { get; } | الحصول على نمط العمود الأخير ._ x000d_ |
-| [LastRow](../../aspose.words/conditionalstylecollection/lastrow) { get; } | يحصل على نمط الصف الأخير ._ x000d_ |
-| [OddColumnBanding](../../aspose.words/conditionalstylecollection/oddcolumnbanding) { get; } | يحصل على نمط نطاقات العمود الفردي ._ x000d_ |
-| [OddRowBanding](../../aspose.words/conditionalstylecollection/oddrowbanding) { get; } | يحصل على نمط نطاقات الصف الفردي ._ x000d_ |
-| [TopLeftCell](../../aspose.words/conditionalstylecollection/topleftcell) { get; } | الحصول على نمط الخلية الأيسر العلوي ._ x000d_ |
-| [TopRightCell](../../aspose.words/conditionalstylecollection/toprightcell) { get; } | الحصول على نمط الخلية الأيمن العلوي ._ x000d_ |
+| [LastColumn](../../aspose.words/conditionalstylecollection/lastcolumn) { get; } | الحصول على نمط العمود الأخير . |
+| [LastRow](../../aspose.words/conditionalstylecollection/lastrow) { get; } | يحصل على نمط الصف الأخير . |
+| [OddColumnBanding](../../aspose.words/conditionalstylecollection/oddcolumnbanding) { get; } | يحصل على نمط نطاقات العمود الفردي . |
+| [OddRowBanding](../../aspose.words/conditionalstylecollection/oddrowbanding) { get; } | يحصل على نمط نطاقات الصف الفردي . |
+| [TopLeftCell](../../aspose.words/conditionalstylecollection/topleftcell) { get; } | الحصول على نمط الخلية الأيسر العلوي . |
+| [TopRightCell](../../aspose.words/conditionalstylecollection/toprightcell) { get; } | الحصول على نمط الخلية الأيمن العلوي . |
 
 ## طُرق
 
@@ -42,7 +42,7 @@ public sealed class ConditionalStyleCollection : IEnumerable<ConditionalStyle>
 
 ### ملاحظات
 
-لا يمكن إضافة أو إزالة عناصر من هذه المجموعة. يحتوي على مجموعة دائمة من العناصر: عنصر واحد مقابل_ x000d_ لكل قيمة من[`ConditionalStyleType`](../conditionalstyletype) نوع التعداد ._ x000d_
+لا يمكن إضافة أو إزالة عناصر من هذه المجموعة. يحتوي على مجموعة دائمة من العناصر: عنصر واحد مقابل_ لكل قيمة من[`ConditionalStyleType`](../conditionalstyletype) نوع التعداد .
 
 ### أمثلة
 

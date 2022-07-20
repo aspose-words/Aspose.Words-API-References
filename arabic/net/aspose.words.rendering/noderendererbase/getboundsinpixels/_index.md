@@ -1,14 +1,14 @@
 ---
 title: GetBoundsInPixels
 second_title: Aspose.Words لمراجع .NET API
-description: حساب حدود الشكل بالبكسل لعامل تكبير ودقة محددين ._ x000d_
+description: حساب حدود الشكل بالبكسل لعامل تكبير ودقة محددين .
 type: docs
 weight: 40
 url: /ar/net/aspose.words.rendering/noderendererbase/getboundsinpixels/
 ---
 ## GetBoundsInPixels(float, float) {#getboundsinpixels}
 
-حساب حدود الشكل بالبكسل لعامل تكبير ودقة محددين ._ x000d_
+حساب حدود الشكل بالبكسل لعامل تكبير ودقة محددين .
 
 ```csharp
 public Rectangle GetBoundsInPixels(float scale, float dpi)
@@ -81,7 +81,7 @@ Assert.AreEqual(30, bounds.Height);
 
 ## GetBoundsInPixels(float, float, float) {#getboundsinpixels_1}
 
-حساب حدود الشكل بالبكسل لعامل تكبير ودقة محددين ._ x000d_
+حساب حدود الشكل بالبكسل لعامل تكبير ودقة محددين .
 
 ```csharp
 public Rectangle GetBoundsInPixels(float scale, float horizontalDpi, float verticalDpi)

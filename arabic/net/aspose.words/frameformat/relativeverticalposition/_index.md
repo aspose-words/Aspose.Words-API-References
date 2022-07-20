@@ -1,14 +1,14 @@
 ---
 title: RelativeVerticalPosition
 second_title: Aspose.Words لمراجع .NET API
-description: الحصول على الموضع الرأسي النسبي للإطار ._ x000d_
+description: الحصول على الموضع الرأسي النسبي للإطار .
 type: docs
 weight: 80
 url: /ar/net/aspose.words/frameformat/relativeverticalposition/
 ---
 ## FrameFormat.RelativeVerticalPosition property
 
-الحصول على الموضع الرأسي النسبي للإطار ._ x000d_
+الحصول على الموضع الرأسي النسبي للإطار .
 
 ```csharp
 public RelativeVerticalPosition RelativeVerticalPosition { get; }

@@ -24,9 +24,9 @@ public class Metered
 
 | اسم | وصف |
 | --- | --- |
-| [SetMeteredKey](../../aspose.words/metered/setmeteredkey)(string, string) | مجموعات المفاتيح العامة والخاصة المقننة ._ x000d_ إذا قمت بشراء ترخيص مقنن ، عند بدء التطبيق ، يجب استدعاء واجهة برمجة التطبيقات هذه ، عادةً ، هذا يكفي. ومع ذلك ، إذا فشلت دائمًا في تحميل بيانات الاستهلاك وتجاوزت 24 ساعة ، فسيتم تعيين الترخيص على حالة التقييم ، لتجنب مثل هذه الحالة ، يجب عليك التحقق بانتظام من حالة الترخيص ، إذا كانت حالة التقييم ، فاتصل بواجهة برمجة التطبيقات هذه مرة أخرى. |
-| static [GetConsumptionCredit](../../aspose.words/metered/getconsumptioncredit)() | يحصل على ائتمان الاستهلاك_ x000d_ |
-| static [GetConsumptionQuantity](../../aspose.words/metered/getconsumptionquantity)() | يحصل على حجم ملف الاستهلاك_ x000d_ |
+| [SetMeteredKey](../../aspose.words/metered/setmeteredkey)(string, string) | مجموعات المفاتيح العامة والخاصة المقننة . إذا قمت بشراء ترخيص مقنن ، عند بدء التطبيق ، يجب استدعاء واجهة برمجة التطبيقات هذه ، عادةً ، هذا يكفي. ومع ذلك ، إذا فشلت دائمًا في تحميل بيانات الاستهلاك وتجاوزت 24 ساعة ، فسيتم تعيين الترخيص على حالة التقييم ، لتجنب مثل هذه الحالة ، يجب عليك التحقق بانتظام من حالة الترخيص ، إذا كانت حالة التقييم ، فاتصل بواجهة برمجة التطبيقات هذه مرة أخرى. |
+| static [GetConsumptionCredit](../../aspose.words/metered/getconsumptioncredit)() | يحصل على ائتمان الاستهلاك |
+| static [GetConsumptionQuantity](../../aspose.words/metered/getconsumptionquantity)() | يحصل على حجم ملف الاستهلاك |
 
 ### أمثلة
 

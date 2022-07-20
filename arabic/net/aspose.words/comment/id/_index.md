@@ -18,7 +18,7 @@ public int Id { get; }
 
 يسمح معرف التعليق بإرساء تعليق بمنطقة النص في المستند. يجب ترسيم المنطقة باستخدام[`CommentRangeStart`](../../commentrangestart) و[`CommentRangeEnd`](../../commentrangeend) يتقاسم الكائن نفس قيمة المعرف مثل[`Comment`](../../comment) هدف.
 
-يمكنك استخدام هذه القيمة عند البحث عن ملف[`CommentRangeStart`](../../commentrangestart) و_ x000d_[`CommentRangeEnd`](../../commentrangeend) العقد المرتبطة بهذا التعليق.
+يمكنك استخدام هذه القيمة عند البحث عن ملف[`CommentRangeStart`](../../commentrangestart) و_ [`CommentRangeEnd`](../../commentrangeend) العقد المرتبطة بهذا التعليق.
 
 من المفترض أن تكون معرفات التعليقات فريدة عبر المستند ، ويحتفظ Aspose.Words تلقائيًا بمعرفات التعليقات عند تحميل المستندات وحفظها ودمجها.
 

@@ -1,14 +1,14 @@
 ---
 title: Description
 second_title: Aspose.Words لمراجع .NET API
-description: إرجاع وصف التحذير ._ x000d_
+description: إرجاع وصف التحذير .
 type: docs
 weight: 10
 url: /ar/net/aspose.words/warninginfo/description/
 ---
 ## WarningInfo.Description property
 
-إرجاع وصف التحذير ._ x000d_
+إرجاع وصف التحذير .
 
 ```csharp
 public string Description { get; }

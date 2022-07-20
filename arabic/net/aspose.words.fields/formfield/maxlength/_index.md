@@ -1,14 +1,14 @@
 ---
 title: MaxLength
 second_title: Aspose.Words لمراجع .NET API
-description: أقصى طول لحقل النص. صفر عندما يكون الطول غير محدود ._ x000d_
+description: أقصى طول لحقل النص. صفر عندما يكون الطول غير محدود .
 type: docs
 weight: 120
 url: /ar/net/aspose.words.fields/formfield/maxlength/
 ---
 ## FormField.MaxLength property
 
-أقصى طول لحقل النص. صفر عندما يكون الطول غير محدود ._ x000d_
+أقصى طول لحقل النص. صفر عندما يكون الطول غير محدود .
 
 ```csharp
 public int MaxLength { get; set; }

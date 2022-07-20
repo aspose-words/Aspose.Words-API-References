@@ -1,14 +1,14 @@
 ---
 title: Footnote
 second_title: Aspose.Words لمراجع .NET API
-description: يقوم بتهيئة مثيل لملف هامش فئة ._ x000d_
+description: يقوم بتهيئة مثيل لملف هامش فئة .
 type: docs
 weight: 10
 url: /ar/net/aspose.words.notes/footnote/footnote/
 ---
 ## Footnote constructor
 
-يقوم بتهيئة مثيل لملف **هامش** فئة ._ x000d_
+يقوم بتهيئة مثيل لملف **هامش** فئة .
 
 ```csharp
 public Footnote(DocumentBase doc, FootnoteType footnoteType)

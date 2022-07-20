@@ -1,14 +1,14 @@
 ---
 title: TableName
 second_title: Aspose.Words لمراجع .NET API
-description: الحصول على اسم جدول البيانات لعملية الدمج الحالية أو السلسلة الفارغة إذا لم يكن الاسم متاحًا ._ x000d_
+description: الحصول على اسم جدول البيانات لعملية الدمج الحالية أو السلسلة الفارغة إذا لم يكن الاسم متاحًا .
 type: docs
 weight: 70
 url: /ar/net/aspose.words.mailmerging/fieldmergingargsbase/tablename/
 ---
 ## FieldMergingArgsBase.TableName property
 
-الحصول على اسم جدول البيانات لعملية الدمج الحالية أو السلسلة الفارغة إذا لم يكن الاسم متاحًا ._ x000d_
+الحصول على اسم جدول البيانات لعملية الدمج الحالية أو السلسلة الفارغة إذا لم يكن الاسم متاحًا .
 
 ```csharp
 public string TableName { get; }

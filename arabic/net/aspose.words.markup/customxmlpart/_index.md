@@ -1,14 +1,14 @@
 ---
 title: CustomXmlPart
 second_title: Aspose.Words لمراجع .NET API
-description: يمثل جزء تخزين بيانات XML مخصص بيانات XML مخصصة داخل حزمة ._ x000d_
+description: يمثل جزء تخزين بيانات XML مخصص بيانات XML مخصصة داخل حزمة .
 type: docs
 weight: 3680
 url: /ar/net/aspose.words.markup/customxmlpart/
 ---
 ## CustomXmlPart class
 
-يمثل جزء تخزين بيانات XML مخصص (بيانات XML مخصصة داخل حزمة) ._ x000d_
+يمثل جزء تخزين بيانات XML مخصص (بيانات XML مخصصة داخل حزمة) .
 
 ```csharp
 public class CustomXmlPart
@@ -25,7 +25,7 @@ public class CustomXmlPart
 | اسم | وصف |
 | --- | --- |
 | [Data](../../aspose.words.markup/customxmlpart/data) { get; set; } | الحصول على محتوى XML لجزء تخزين بيانات XML المخصص هذا أو تعيينه. |
-| [DataChecksum](../../aspose.words.markup/customxmlpart/datachecksum) { get; } | يحدد المجموع الاختباري لفحص التكرار الدوري (CRC) لملف[`Data`](./data) المحتوى ._ x000d_ |
+| [DataChecksum](../../aspose.words.markup/customxmlpart/datachecksum) { get; } | يحدد المجموع الاختباري لفحص التكرار الدوري (CRC) لملف[`Data`](./data) المحتوى . |
 | [Id](../../aspose.words.markup/customxmlpart/id) { get; set; } | الحصول على أو تعيين السلسلة التي تحدد جزء XML المخصص هذا داخل مستند OOXML. |
 | [Schemas](../../aspose.words.markup/customxmlpart/schemas) { get; } | تحديد مجموعة مخططات XML المرتبطة بجزء XML المخصص هذا. |
 
@@ -33,7 +33,7 @@ public class CustomXmlPart
 
 | اسم | وصف |
 | --- | --- |
-| [Clone](../../aspose.words.markup/customxmlpart/clone)() | عمل نسخة "عميقة بدرجة كافية" من الكائن. لا يكرر بايتات ملف[`Data`](./data) القيمة ._ x000d_ |
+| [Clone](../../aspose.words.markup/customxmlpart/clone)() | عمل نسخة "عميقة بدرجة كافية" من الكائن. لا يكرر بايتات ملف[`Data`](./data) القيمة . |
 
 ### ملاحظات
 

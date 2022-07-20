@@ -18,9 +18,9 @@ public class RowFormat
 
 | اسم | وصف |
 | --- | --- |
-| [AllowBreakAcrossPages](../../aspose.words.tables/rowformat/allowbreakacrosspages) { get; set; } | صواب في حالة السماح بتقسيم النص الموجود في صف الجدول عبر فاصل صفحة ._ x000d_ |
+| [AllowBreakAcrossPages](../../aspose.words.tables/rowformat/allowbreakacrosspages) { get; set; } | صواب في حالة السماح بتقسيم النص الموجود في صف الجدول عبر فاصل صفحة . |
 | [Borders](../../aspose.words.tables/rowformat/borders) { get; } | الحصول على مجموعة حدود الخلية الافتراضية للصف. |
-| [HeadingFormat](../../aspose.words.tables/rowformat/headingformat) { get; set; } | True إذا تكرر الصف كعنوان جدول في كل صفحة عندما يمتد الجدول على أكثر من صفحة واحدة ._ x000d_ |
+| [HeadingFormat](../../aspose.words.tables/rowformat/headingformat) { get; set; } | True إذا تكرر الصف كعنوان جدول في كل صفحة عندما يمتد الجدول على أكثر من صفحة واحدة . |
 | [Height](../../aspose.words.tables/rowformat/height) { get; set; } | الحصول على أو تحديد ارتفاع صف الجدول بالنقاط . |
 | [HeightRule](../../aspose.words.tables/rowformat/heightrule) { get; set; } | الحصول على أو تعيين قاعدة تحديد ارتفاع صف الجدول. |
 

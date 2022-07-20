@@ -1,14 +1,14 @@
 ---
 title: GetQueryResult
 second_title: Aspose.Words لمراجع .NET API
-description: إرجاع نتيجة الاستعلام ._ x000d_
+description: إرجاع نتيجة الاستعلام .
 type: docs
 weight: 10
 url: /ar/net/aspose.words.fields/ifielddatabaseprovider/getqueryresult/
 ---
 ## IFieldDatabaseProvider.GetQueryResult method
 
-إرجاع نتيجة الاستعلام ._ x000d_
+إرجاع نتيجة الاستعلام .
 
 ```csharp
 public FieldDatabaseDataTable GetQueryResult(string fileName, string connection, string query, 

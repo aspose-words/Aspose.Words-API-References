@@ -28,7 +28,7 @@ public override bool Accept(DocumentVisitor visitor)
 
 لمزيد من المعلومات ، راجع نمط تصميم الزائر.
 
-المكالمات[`VisitSmartTagStart`](../../../aspose.words/documentvisitor/visitsmarttagstart) ثم المكالمات[`Accept`](../../../aspose.words/node/accept)لجميع العقد الفرعية للعلامة الذكية والمكالمات[`VisitSmartTagEnd`](../../../aspose.words/documentvisitor/visitsmarttagend) في النهاية ._ x000d_
+المكالمات[`VisitSmartTagStart`](../../../aspose.words/documentvisitor/visitsmarttagstart) ثم المكالمات[`Accept`](../../../aspose.words/node/accept)لجميع العقد الفرعية للعلامة الذكية والمكالمات[`VisitSmartTagEnd`](../../../aspose.words/documentvisitor/visitsmarttagend) في النهاية .
 
 ### أمثلة
 

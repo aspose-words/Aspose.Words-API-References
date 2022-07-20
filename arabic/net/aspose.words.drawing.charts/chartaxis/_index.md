@@ -41,9 +41,9 @@ public class ChartAxis
 | [TickLabelOffset](../../aspose.words.drawing.charts/chartaxis/ticklabeloffset) { get; set; } | الحصول على مسافة الملصقات من المحور أو تحديدها. |
 | [TickLabelPosition](../../aspose.words.drawing.charts/chartaxis/ticklabelposition) { get; set; } | إرجاع أو تعيين موضع تسميات التجزئة على المحور. |
 | [TickLabelSpacing](../../aspose.words.drawing.charts/chartaxis/ticklabelspacing) { get; set; } | الحصول على أو تحديد الفاصل الزمني الذي يتم عنده رسم علامات التجزئة. |
-| [TickLabelSpacingIsAuto](../../aspose.words.drawing.charts/chartaxis/ticklabelspacingisauto) { get; set; } | الحصول على أو تعيين علامة تشير إلى ما إذا كان سيتم استخدام الفاصل الزمني التلقائي لعلامات رسم التجزئة ._ x000d_ |
+| [TickLabelSpacingIsAuto](../../aspose.words.drawing.charts/chartaxis/ticklabelspacingisauto) { get; set; } | الحصول على أو تعيين علامة تشير إلى ما إذا كان سيتم استخدام الفاصل الزمني التلقائي لعلامات رسم التجزئة . |
 | [TickMarkSpacing](../../aspose.words.drawing.charts/chartaxis/tickmarkspacing) { get; set; } | الحصول على أو تحديد الفاصل الزمني الذي يتم عنده رسم علامات التجزئة. |
-| [Type](../../aspose.words.drawing.charts/chartaxis/type) { get; } | إرجاع نوع المحور ._ x000d_ |
+| [Type](../../aspose.words.drawing.charts/chartaxis/type) { get; } | إرجاع نوع المحور . |
 
 ### أمثلة
 

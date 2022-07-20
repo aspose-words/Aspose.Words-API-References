@@ -19,7 +19,7 @@ public enum DmlRenderingMode
 | اسم | قيمة | وصف |
 | --- | --- | --- |
 | Fallback | `0` | إذا كان الشكل الخلفي متاحًا لـ DrawingML ، فإن Aspose. Words تعرض الشكل الخلفي بدلاً من DrawingML. |
-| DrawingML | `1` | Aspose.Words يتجاهل الشكل الخلفي لـ DrawingML ويعرض DrawingML نفسه. هذا هو الوضع الافتراضي ._ x000d_ |
+| DrawingML | `1` | Aspose.Words يتجاهل الشكل الخلفي لـ DrawingML ويعرض DrawingML نفسه. هذا هو الوضع الافتراضي . |
 
 ### أمثلة
 

@@ -18,9 +18,9 @@ public enum BreakType
 
 | اسم | قيمة | وصف |
 | --- | --- | --- |
-| ParagraphBreak | `0` | استراحة بين الفقرات ._ x000d_ |
+| ParagraphBreak | `0` | استراحة بين الفقرات . |
 | PageBreak | `1` | فاصل صفحة صريح . |
-| ColumnBreak | `2` | فاصل عمود صريح ._ x000d_ |
+| ColumnBreak | `2` | فاصل عمود صريح . |
 | SectionBreakContinuous | `3` | يحدد بداية قسم جديد في نفس الصفحة كما في القسم السابق. |
 | SectionBreakNewColumn | `4` | يحدد بداية قسم جديد في العمود الجديد. |
 | SectionBreakNewPage | `5` | يحدد بداية قسم جديد في صفحة جديدة. |

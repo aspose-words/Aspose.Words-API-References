@@ -21,14 +21,14 @@ public class FrameFormat
 | [Height](../../aspose.words/frameformat/height) { get; } | الحصول على ارتفاع الإطار المحدد. |
 | [HeightRule](../../aspose.words/frameformat/heightrule) { get; } | يحصل على قاعدة تحديد ارتفاع الإطار المحدد. |
 | [HorizontalAlignment](../../aspose.words/frameformat/horizontalalignment) { get; } | يحصل على محاذاة أفقية للإطار المحدد. |
-| [HorizontalDistanceFromText](../../aspose.words/frameformat/horizontaldistancefromtext) { get; } | الحصول على مسافة أفقية بين الإطار والنص المحيط بالنقاط ._ x000d_ |
-| [HorizontalPosition](../../aspose.words/frameformat/horizontalposition) { get; } | يحصل على مسافة أفقية بين حافة الإطار والعنصر المحدد بواسطة[`RelativeHorizontalPosition`](./relativehorizontalposition) الملكية ._ x000d_ |
+| [HorizontalDistanceFromText](../../aspose.words/frameformat/horizontaldistancefromtext) { get; } | الحصول على مسافة أفقية بين الإطار والنص المحيط بالنقاط . |
+| [HorizontalPosition](../../aspose.words/frameformat/horizontalposition) { get; } | يحصل على مسافة أفقية بين حافة الإطار والعنصر المحدد بواسطة[`RelativeHorizontalPosition`](./relativehorizontalposition) الملكية . |
 | [IsFrame](../../aspose.words/frameformat/isframe) { get; } | إرجاع صحيح إذا كانت الفقرة إطار. |
 | [RelativeHorizontalPosition](../../aspose.words/frameformat/relativehorizontalposition) { get; } | الحصول على الموضع الأفقي النسبي للإطار. |
-| [RelativeVerticalPosition](../../aspose.words/frameformat/relativeverticalposition) { get; } | الحصول على الموضع الرأسي النسبي للإطار ._ x000d_ |
+| [RelativeVerticalPosition](../../aspose.words/frameformat/relativeverticalposition) { get; } | الحصول على الموضع الرأسي النسبي للإطار . |
 | [VerticalAlignment](../../aspose.words/frameformat/verticalalignment) { get; } | يحصل على محاذاة رأسية للإطار المحدد. |
 | [VerticalDistanceFromText](../../aspose.words/frameformat/verticaldistancefromtext) { get; } | يحدد المسافة العمودية (بالنقاط) بين الإطار والنص المحيط. |
-| [VerticalPosition](../../aspose.words/frameformat/verticalposition) { get; } | يحصل على مسافة عمودية بين حافة الإطار والعنصر المحدد بواسطة[`RelativeVerticalPosition`](./relativeverticalposition) الملكية ._ x000d_ |
+| [VerticalPosition](../../aspose.words/frameformat/verticalposition) { get; } | يحصل على مسافة عمودية بين حافة الإطار والعنصر المحدد بواسطة[`RelativeVerticalPosition`](./relativeverticalposition) الملكية . |
 | [Width](../../aspose.words/frameformat/width) { get; } | الحصول على عرض الإطار المحدد بالنقاط . |
 
 ### ملاحظات

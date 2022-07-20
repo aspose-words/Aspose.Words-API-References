@@ -1,14 +1,14 @@
 ---
 title: LastColumn
 second_title: Aspose.Words لمراجع .NET API
-description: الحصول على نمط العمود الأخير ._ x000d_
+description: الحصول على نمط العمود الأخير .
 type: docs
 weight: 90
 url: /ar/net/aspose.words/conditionalstylecollection/lastcolumn/
 ---
 ## ConditionalStyleCollection.LastColumn property
 
-الحصول على نمط العمود الأخير ._ x000d_
+الحصول على نمط العمود الأخير .
 
 ```csharp
 public ConditionalStyle LastColumn { get; }

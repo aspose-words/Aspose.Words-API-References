@@ -1,14 +1,14 @@
 ---
 title: ParagraphAlignment
 second_title: Aspose.Words لمراجع .NET API
-description: يحدد محاذاة النص في فقرة ._ x000d_
+description: يحدد محاذاة النص في فقرة .
 type: docs
 weight: 4160
 url: /ar/net/aspose.words/paragraphalignment/
 ---
 ## ParagraphAlignment enumeration
 
-يحدد محاذاة النص في فقرة ._ x000d_
+يحدد محاذاة النص في فقرة .
 
 ```csharp
 public enum ParagraphAlignment
@@ -18,16 +18,16 @@ public enum ParagraphAlignment
 
 | اسم | قيمة | وصف |
 | --- | --- | --- |
-| Left | `0` | يتم محاذاة النص إلى اليسار ._ x000d_ |
+| Left | `0` | يتم محاذاة النص إلى اليسار . |
 | Center | `1` | يتم توسيط النص أفقيًا . |
 | Right | `2` | يتم محاذاة النص إلى اليمين. |
-| Justify | `3` | تمت محاذاة النص إلى اليسار واليمين ._ x000d_ |
+| Justify | `3` | تمت محاذاة النص إلى اليسار واليمين . |
 | Distributed | `4` | يتم توزيع النص بالتساوي. |
 | ArabicMediumKashida | `5` | عربي فقط. يتم تمديد طول الكشيدة للنص إلى متوسط الطول الذي يحدده المستهلك. |
 | ArabicHighKashida | `7` | عربي فقط. يتم تمديد طول الكشيدة للنص إلى أكبر طول ممكن. |
-| ArabicLowKashida | `8` | عربي فقط. يتم تمديد طول الكشيدة للنص إلى طول أطول قليلاً ._ x000d_ |
+| ArabicLowKashida | `8` | عربي فقط. يتم تمديد طول الكشيدة للنص إلى طول أطول قليلاً . |
 | ThaiDistributed | `9` | التايلاندية فقط. النص مبرر بتحسين اللغة التايلاندية. |
-| MathElementCenterAsGroup | `10` | العنصر الرياضي الوحيد في السطر ، تمت محاذاته كـ "توسيط كمجموعة" ._ x000d_ |
+| MathElementCenterAsGroup | `10` | العنصر الرياضي الوحيد في السطر ، تمت محاذاته كـ "توسيط كمجموعة" . |
 
 ### أمثلة
 

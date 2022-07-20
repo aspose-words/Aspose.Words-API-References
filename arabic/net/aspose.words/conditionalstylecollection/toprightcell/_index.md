@@ -1,14 +1,14 @@
 ---
 title: TopRightCell
 second_title: Aspose.Words لمراجع .NET API
-description: الحصول على نمط الخلية الأيمن العلوي ._ x000d_
+description: الحصول على نمط الخلية الأيمن العلوي .
 type: docs
 weight: 140
 url: /ar/net/aspose.words/conditionalstylecollection/toprightcell/
 ---
 ## ConditionalStyleCollection.TopRightCell property
 
-الحصول على نمط الخلية الأيمن العلوي ._ x000d_
+الحصول على نمط الخلية الأيمن العلوي .
 
 ```csharp
 public ConditionalStyle TopRightCell { get; }

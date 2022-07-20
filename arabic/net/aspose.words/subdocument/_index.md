@@ -1,14 +1,14 @@
 ---
 title: SubDocument
 second_title: Aspose.Words لمراجع .NET API
-description: يمثل أ مستند ثانوي - وهي إشارة إلى مستند مخزن خارجيًا ._ x000d_
+description: يمثل أ مستند ثانوي - وهي إشارة إلى مستند مخزن خارجيًا .
 type: docs
 weight: 5870
 url: /ar/net/aspose.words/subdocument/
 ---
 ## SubDocument class
 
-يمثل أ **مستند ثانوي** - وهي إشارة إلى مستند مخزن خارجيًا ._ x000d_
+يمثل أ **مستند ثانوي** - وهي إشارة إلى مستند مخزن خارجيًا .
 
 ```csharp
 public class SubDocument : Node
@@ -18,7 +18,7 @@ public class SubDocument : Node
 
 | اسم | وصف |
 | --- | --- |
-| [CustomNodeId](../../aspose.words/node/customnodeid) { get; set; } | يحدد معرف العقدة المخصص ._ x000d_ |
+| [CustomNodeId](../../aspose.words/node/customnodeid) { get; set; } | يحدد معرف العقدة المخصص . |
 | virtual [Document](../../aspose.words/node/document) { get; } | الحصول على المستند الذي تنتمي إليه هذه العقدة . |
 | virtual [IsComposite](../../aspose.words/node/iscomposite) { get; } | إرجاع صحيح إذا كانت هذه العقدة يمكن أن تحتوي على عقد أخرى. |
 | [NextSibling](../../aspose.words/node/nextsibling) { get; } | يحصل على العقدة التي تلي هذه العقدة مباشرة. |

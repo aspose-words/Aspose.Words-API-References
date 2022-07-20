@@ -26,8 +26,8 @@ public class KnownTypeSet : IEnumerable<Type>
 | --- | --- |
 | [Add](../../aspose.words.reporting/knowntypeset/add)(Type) | يضيف المحددType تعترض على المجموعة. رمياتArgumentException in الحالات التالية: |
 | [Clear](../../aspose.words.reporting/knowntypeset/clear)() | يزيل كل العناصر من المجموعة. |
-| [GetEnumerator](../../aspose.words.reporting/knowntypeset/getenumerator)() | إرجاع AnIEnumerator كائن للتكرار على عناصر المجموعة ._ x000d_ |
-| [Remove](../../aspose.words.reporting/knowntypeset/remove)(Type) | يزيل المحددTypeكائن من المجموعة. رمياتArgumentException if *type* فارغ ._ x000d_ |
+| [GetEnumerator](../../aspose.words.reporting/knowntypeset/getenumerator)() | إرجاع AnIEnumerator كائن للتكرار على عناصر المجموعة . |
+| [Remove](../../aspose.words.reporting/knowntypeset/remove)(Type) | يزيل المحددTypeكائن من المجموعة. رمياتArgumentException if *type* فارغ . |
 
 ### أنظر أيضا
 

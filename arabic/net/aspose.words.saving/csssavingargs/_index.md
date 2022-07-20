@@ -1,14 +1,14 @@
 ---
 title: CssSavingArgs
 second_title: Aspose.Words لمراجع .NET API
-description: توفير بيانات لملفCssSaving./icsssavingcallback/csssaving الحدث ._ x000d_
+description: توفير بيانات لملفCssSaving./icsssavingcallback/csssaving الحدث .
 type: docs
 weight: 4620
 url: /ar/net/aspose.words.saving/csssavingargs/
 ---
 ## CssSavingArgs class
 
-توفير بيانات لملف[`CssSaving`](../icsssavingcallback/csssaving) الحدث ._ x000d_
+توفير بيانات لملف[`CssSaving`](../icsssavingcallback/csssaving) الحدث .
 
 ```csharp
 public class CssSavingArgs
@@ -25,7 +25,7 @@ public class CssSavingArgs
 
 ### ملاحظات
 
-بشكل افتراضي ، عندما يحفظ Aspose.Words مستند إلى HTML ، فإنه يحفظ معلومات CSS inline (كقيمة لـ **نمط** السمة على كل عنصر) ._ x000d_
+بشكل افتراضي ، عندما يحفظ Aspose.Words مستند إلى HTML ، فإنه يحفظ معلومات CSS inline (كقيمة لـ **نمط** السمة على كل عنصر) .
 
 [`CssSavingArgs`](../csssavingargs) يسمح بحفظ معلومات CSS في ملف من خلال توفير كائن البث الخاص بك.
 

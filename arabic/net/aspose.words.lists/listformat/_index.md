@@ -41,11 +41,11 @@ public class ListFormat
 
 [`ListFormat`](../listformat) من أ[`Paragraph`](../../aspose.words/paragraph) specified ما هو تنسيق القائمة ومستوى القائمة المطبقين على تلك الفقرة المعينة.
 
-[`ListFormat`](../listformat) من أ[`Style`](../../aspose.words/style)(ينطبق على أنماط الفقرة فقط) يسمح بتحديد تنسيق القائمة وقائمة المستوى_ x000d_ المطبقة على جميع فقرات هذا النمط المعين.
+[`ListFormat`](../listformat) من أ[`Style`](../../aspose.words/style)(ينطبق على أنماط الفقرة فقط) يسمح بتحديد تنسيق القائمة وقائمة المستوى المطبقة على جميع فقرات هذا النمط المعين.
 
-[`ListFormat`](../listformat) من أ[`DocumentBuilder`](../../aspose.words/documentbuilder) يوفر الوصول إلى تنسيق القائمة في موضع المؤشر الحالي_ x000d_ داخل ملف[`DocumentBuilder`](../../aspose.words/documentbuilder).
+[`ListFormat`](../listformat) من أ[`DocumentBuilder`](../../aspose.words/documentbuilder) يوفر الوصول إلى تنسيق القائمة في موضع المؤشر الحالي داخل ملف[`DocumentBuilder`](../../aspose.words/documentbuilder).
 
-يتم تخزين قائمة التنسيق نفسها داخل ملف[`List`](../list) كائن مخزّن بشكل منفصل عن الفقرات. يتم تخزين كائنات القائمة_ x000d_ داخل ملف[`ListCollection`](../listcollection) مجموعة. هناك واحد_ x000d_[`ListCollection`](../listcollection) جمع لكل[`Document`](../../aspose.words/document).
+يتم تخزين قائمة التنسيق نفسها داخل ملف[`List`](../list) كائن مخزّن بشكل منفصل عن الفقرات. يتم تخزين كائنات القائمة داخل ملف[`ListCollection`](../listcollection) مجموعة. هناك واحد [`ListCollection`](../listcollection) جمع لكل[`Document`](../../aspose.words/document).
 
 لا تنتمي الفقرات فعليًا إلى قائمة. تشير الفقرات just إلى كائن قائمة معين عبر ملف[`List`](./list) property ومستوى معين في القائمة عبر ملف[`ListLevelNumber`](./listlevelnumber) property. من خلال تعيين هاتين الخاصيتين ، يمكنك التحكم في التعداد والترقيم الذي يتم تطبيقه على فقرة.
 

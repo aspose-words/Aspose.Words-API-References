@@ -1,14 +1,14 @@
 ---
 title: UseTargetMachineFonts
 second_title: Aspose.Words لمراجع .NET API
-description: تشير العلامة إلى ما إذا كان يجب استخدام الخطوط من الجهاز الهدف لعرض المستند. _ x000d_ إذا تم تعيين هذه العلامة على صواب FontFormataspose.words.saving/htmlfixedsaveoptions/fontformat وExportEmbeddedFontsaspose.words.saving/htmlfixedsaveoptions/exportembeddedfontsالخصائص ليس لها تأثير  أيضًاResourceSavingCallbackaspose.words.saving/htmlfixedsaveoptions/resourcesavingcallback لم يتم إطلاقه من أجل الخطوط.
+description: تشير العلامة إلى ما إذا كان يجب استخدام الخطوط من الجهاز الهدف لعرض المستند. إذا تم تعيين هذه العلامة على صواب FontFormataspose.words.saving/htmlfixedsaveoptions/fontformat وExportEmbeddedFontsaspose.words.saving/htmlfixedsaveoptions/exportembeddedfontsالخصائص ليس لها تأثير  أيضًاResourceSavingCallbackaspose.words.saving/htmlfixedsaveoptions/resourcesavingcallback لم يتم إطلاقه من أجل الخطوط.
 type: docs
 weight: 190
 url: /ar/net/aspose.words.saving/htmlfixedsaveoptions/usetargetmachinefonts/
 ---
 ## HtmlFixedSaveOptions.UseTargetMachineFonts property
 
-تشير العلامة إلى ما إذا كان يجب استخدام الخطوط من الجهاز الهدف لعرض المستند. _ x000d_ إذا تم تعيين هذه العلامة على "صواب" ،[`FontFormat`](../fontformat) و[`ExportEmbeddedFonts`](../exportembeddedfonts)الخصائص ليس لها تأثير ، أيضًا[`ResourceSavingCallback`](../resourcesavingcallback) لم يتم إطلاقه من أجل الخطوط.
+تشير العلامة إلى ما إذا كان يجب استخدام الخطوط من الجهاز الهدف لعرض المستند. إذا تم تعيين هذه العلامة على "صواب" ،[`FontFormat`](../fontformat) و[`ExportEmbeddedFonts`](../exportembeddedfonts)الخصائص ليس لها تأثير ، أيضًا[`ResourceSavingCallback`](../resourcesavingcallback) لم يتم إطلاقه من أجل الخطوط.
 
 ```csharp
 public bool UseTargetMachineFonts { get; set; }

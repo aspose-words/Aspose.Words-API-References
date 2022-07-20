@@ -1,14 +1,14 @@
 ---
 title: Evaluate
 second_title: Aspose.Words لمراجع .NET API
-description: تقييم تعبير المقارنة ._ x000d_
+description: تقييم تعبير المقارنة .
 type: docs
 weight: 10
 url: /ar/net/aspose.words.fields/icomparisonexpressionevaluator/evaluate/
 ---
 ## IComparisonExpressionEvaluator.Evaluate method
 
-تقييم تعبير المقارنة ._ x000d_
+تقييم تعبير المقارنة .
 
 ```csharp
 public ComparisonEvaluationResult Evaluate(Field field, ComparisonExpression expression)

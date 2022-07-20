@@ -1,14 +1,14 @@
 ---
 title: FormatDateTime
 second_title: Aspose.Words لمراجع .NET API
-description: يتم الاستدعاء عند قيام Aspose.Words بتطبيق تبديل تنسيق التاريخ / الوقت  على سبيل المثال   dd.MM.yyyy ._ x000d_
+description: يتم الاستدعاء عند قيام Aspose.Words بتطبيق تبديل تنسيق التاريخ / الوقت  على سبيل المثال   dd.MM.yyyy .
 type: docs
 weight: 20
 url: /ar/net/aspose.words.fields/ifieldresultformatter/formatdatetime/
 ---
 ## IFieldResultFormatter.FormatDateTime method
 
-يتم الاستدعاء عند قيام Aspose.Words بتطبيق تبديل تنسيق التاريخ / الوقت ، على سبيل المثال \ @ "dd.MM.yyyy" ._ x000d_
+يتم الاستدعاء عند قيام Aspose.Words بتطبيق تبديل تنسيق التاريخ / الوقت ، على سبيل المثال \ @ "dd.MM.yyyy" .
 
 ```csharp
 public string FormatDateTime(DateTime value, string format, CalendarType calendarType)

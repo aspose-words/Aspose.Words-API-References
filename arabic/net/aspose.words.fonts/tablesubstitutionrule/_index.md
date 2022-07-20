@@ -1,14 +1,14 @@
 ---
 title: TableSubstitutionRule
 second_title: Aspose.Words لمراجع .NET API
-description: قاعدة استبدال خط الجدول ._ x000d_
+description: قاعدة استبدال خط الجدول .
 type: docs
 weight: 2880
 url: /ar/net/aspose.words.fonts/tablesubstitutionrule/
 ---
 ## TableSubstitutionRule class
 
-قاعدة استبدال خط الجدول ._ x000d_
+قاعدة استبدال خط الجدول .
 
 ```csharp
 public class TableSubstitutionRule : FontSubstitutionRule
@@ -37,7 +37,7 @@ public class TableSubstitutionRule : FontSubstitutionRule
 
 ### ملاحظات
 
-تحدد هذه القاعدة قائمة أسماء الخطوط البديلة التي سيتم استخدامها في حالة عدم توفر الخط الأصلي. سيتم التحقق من البدائل لاسم الخط و[`AltName`](../fontinfo/altname) (إن وجد) ._ x000d_
+تحدد هذه القاعدة قائمة أسماء الخطوط البديلة التي سيتم استخدامها في حالة عدم توفر الخط الأصلي. سيتم التحقق من البدائل لاسم الخط و[`AltName`](../fontinfo/altname) (إن وجد) .
 
 ### أمثلة
 

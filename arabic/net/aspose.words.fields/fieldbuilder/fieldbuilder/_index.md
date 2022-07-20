@@ -1,14 +1,14 @@
 ---
 title: FieldBuilder
 second_title: Aspose.Words لمراجع .NET API
-description: يقوم بتهيئة مثيل لملفFieldBuilderaspose.words.fields/fieldbuilder فئة ._ x000d_
+description: يقوم بتهيئة مثيل لملفFieldBuilderaspose.words.fields/fieldbuilder فئة .
 type: docs
 weight: 10
 url: /ar/net/aspose.words.fields/fieldbuilder/fieldbuilder/
 ---
 ## FieldBuilder constructor
 
-يقوم بتهيئة مثيل لملف[`FieldBuilder`](../../fieldbuilder) فئة ._ x000d_
+يقوم بتهيئة مثيل لملف[`FieldBuilder`](../../fieldbuilder) فئة .
 
 ```csharp
 public FieldBuilder(FieldType fieldType)

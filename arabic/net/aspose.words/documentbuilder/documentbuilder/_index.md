@@ -16,7 +16,7 @@ public DocumentBuilder()
 
 ### ملاحظات
 
-ينشئ ملفًا جديدًا **DocumentBuilder** الكائن وإرفاقه بملف[`Document`](../document) الكائن ._ x000d_
+ينشئ ملفًا جديدًا **DocumentBuilder** الكائن وإرفاقه بملف[`Document`](../document) الكائن .
 
 ### أمثلة
 

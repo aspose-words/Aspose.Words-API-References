@@ -1,14 +1,14 @@
 ---
 title: EditableRange
 second_title: Aspose.Words لمراجع .NET API
-description: يمثل نطاقًا واحدًا قابلاً للتحرير ._ x000d_
+description: يمثل نطاقًا واحدًا قابلاً للتحرير .
 type: docs
 weight: 1270
 url: /ar/net/aspose.words/editablerange/
 ---
 ## EditableRange class
 
-يمثل نطاقًا واحدًا قابلاً للتحرير ._ x000d_
+يمثل نطاقًا واحدًا قابلاً للتحرير .
 
 ```csharp
 public class EditableRange

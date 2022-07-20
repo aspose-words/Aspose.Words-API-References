@@ -1,14 +1,14 @@
 ---
 title: FormatNumeric
 second_title: Aspose.Words لمراجع .NET API
-description: يتم الاستدعاء عند قيام Aspose.Words بتطبيق تبديل تنسيق رقمي  أي   .  ._ x000d_
+description: يتم الاستدعاء عند قيام Aspose.Words بتطبيق تبديل تنسيق رقمي  أي   .  .
 type: docs
 weight: 30
 url: /ar/net/aspose.words.fields/ifieldresultformatter/formatnumeric/
 ---
 ## IFieldResultFormatter.FormatNumeric method
 
-يتم الاستدعاء عند قيام Aspose.Words بتطبيق تبديل تنسيق رقمي ، أي \ # "#. ##" ._ x000d_
+يتم الاستدعاء عند قيام Aspose.Words بتطبيق تبديل تنسيق رقمي ، أي \ # "#. ##" .
 
 ```csharp
 public string FormatNumeric(double value, string format)

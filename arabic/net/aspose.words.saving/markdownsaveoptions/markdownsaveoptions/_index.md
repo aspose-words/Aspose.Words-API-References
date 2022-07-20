@@ -1,14 +1,14 @@
 ---
 title: MarkdownSaveOptions
 second_title: Aspose.Words لمراجع .NET API
-description: تهيئة مثيل جديد من هذه الفئة يمكن استخدامه لحفظ document فيMarkdown التنسيق ._ x000d_
+description: تهيئة مثيل جديد من هذه الفئة يمكن استخدامه لحفظ document فيMarkdown التنسيق .
 type: docs
 weight: 10
 url: /ar/net/aspose.words.saving/markdownsaveoptions/markdownsaveoptions/
 ---
 ## MarkdownSaveOptions constructor
 
-تهيئة مثيل جديد من هذه الفئة يمكن استخدامه لحفظ document فيMarkdown التنسيق ._ x000d_
+تهيئة مثيل جديد من هذه الفئة يمكن استخدامه لحفظ document فيMarkdown التنسيق .
 
 ```csharp
 public MarkdownSaveOptions()

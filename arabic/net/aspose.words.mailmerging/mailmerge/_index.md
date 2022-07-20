@@ -23,7 +23,7 @@ public class MailMerge
 | [FieldMergingCallback](../../aspose.words.mailmerging/mailmerge/fieldmergingcallback) { get; set; } | يحدث أثناء دمج المراسلات عند مصادفة حقل دمج المراسلات في المستند. |
 | [MailMergeCallback](../../aspose.words.mailmerging/mailmerge/mailmergecallback) { get; set; } | يسمح بمعالجة أحداث معينة أثناء دمج البريد. |
 | [MappedDataFields](../../aspose.words.mailmerging/mailmerge/mappeddatafields) { get; } | إرجاع مجموعة تمثل حقول البيانات المعينة لعملية دمج المراسلات. |
-| [MergeDuplicateRegions](../../aspose.words.mailmerging/mailmerge/mergeduplicateregions) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كان يجب دمج جميع مناطق دمج بريد المستندات مع اسم مصدر البيانات_ x000d_ أثناء تنفيذ دمج البريد مع المناطق مقابل مصدر البيانات أو الأول فقط. |
+| [MergeDuplicateRegions](../../aspose.words.mailmerging/mailmerge/mergeduplicateregions) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كان يجب دمج جميع مناطق دمج بريد المستندات مع اسم مصدر البيانات أثناء تنفيذ دمج البريد مع المناطق مقابل مصدر البيانات أو الأول فقط. |
 | [MergeWholeDocument](../../aspose.words.mailmerging/mailmerge/mergewholedocument) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كان سيتم تحديث الحقول في المستند بأكمله أثناء تنفيذ دمج البريد مع المناطق. |
 | [PreserveUnusedTags](../../aspose.words.mailmerging/mailmerge/preserveunusedtags) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كان يجب الاحتفاظ بعلامات "الشارب" غير المستخدمة . |
 | [RegionEndTag](../../aspose.words.mailmerging/mailmerge/regionendtag) { get; set; } | الحصول على علامة نهاية منطقة دمج المراسلات أو تعيينها. |
@@ -32,7 +32,7 @@ public class MailMerge
 | [RetainFirstSectionStart](../../aspose.words.mailmerging/mailmerge/retainfirstsectionstart) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كان ملف[`SectionStart`](../../aspose.words/pagesetup/sectionstart) من قسم المستند الأول ونسخه لمصدر البيانات اللاحقة rows يتم الاحتفاظ بها أثناء دمج المراسلات أو تحديثها وفقًا لسلوك MS Word. |
 | [TrimWhitespaces](../../aspose.words.mailmerging/mailmerge/trimwhitespaces) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كانت المسافات البيضاء الزائدة والبادئة قد تم اقتطاعها من قيم دمج البريد. |
 | [UnconditionalMergeFieldsAndRegions](../../aspose.words.mailmerging/mailmerge/unconditionalmergefieldsandregions) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كانت حقول الدمج ومناطق الدمج مدمجة بغض النظر عن حالة حقل IF الأصلي. |
-| [UseNonMergeFields](../../aspose.words.mailmerging/mailmerge/usenonmergefields) { get; set; } | عندما يكون صحيحًا ، يحدد أنه بالإضافة إلى حقول MERGEFIELD ، يتم تنفيذ دمج المراسلات في بعض أنواع الحقول الأخرى و_ x000d_ أيضًا في علامات "{{fieldName}}". |
+| [UseNonMergeFields](../../aspose.words.mailmerging/mailmerge/usenonmergefields) { get; set; } | عندما يكون صحيحًا ، يحدد أنه بالإضافة إلى حقول MERGEFIELD ، يتم تنفيذ دمج المراسلات في بعض أنواع الحقول الأخرى و أيضًا في علامات "{{fieldName}}". |
 | [UseWholeParagraphAsRegion](../../aspose.words.mailmerging/mailmerge/usewholeparagraphasregion) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كان يجب تضمين فقرة كاملة مع TableStart أو TableEnd field أو نطاق معين بين حقول TableStart و TableEnd في منطقة دمج المراسلات. |
 
 ## طُرق
@@ -62,11 +62,11 @@ public class MailMerge
 
 ### ملاحظات
 
-لكي تعمل عملية دمج المراسلات ، يجب أن يحتوي المستند على Word MERGEFIELD و_ x000d_ اختياريًا الحقول التالية. أثناء عملية دمج المراسلات ، يتم استبدال حقول الدمج في المستند بقيم من مصدر البيانات.
+لكي تعمل عملية دمج المراسلات ، يجب أن يحتوي المستند على Word MERGEFIELD و اختياريًا الحقول التالية. أثناء عملية دمج المراسلات ، يتم استبدال حقول الدمج في المستند بقيم من مصدر البيانات.
 
 هناك طريقتان مميزتان لاستخدام دمج المراسلات: باستخدام مناطق دمج المراسلات وبدونها.
 
-أبسط دمج للمراسلات هو بدون مناطق وهو مشابه جدًا لكيفية عمل دمج المراسلات في Word. يستخدمنفذ - اعدم طرق لدمج المعلومات من بعض مصادر البيانات مثل **جدول البيانات** و **مجموعة البيانات** و **عرض البيانات** و **إداتاريدر** أو مصفوفة من الكائنات في المستند الخاص بك. ال_ x000d_ **دمج المراسلات** يقوم الكائن بمعالجة جميع سجلات مصدر البيانات ونسخ وإلحاق محتوى المستند بأكمله لكل سجل.
+أبسط دمج للمراسلات هو بدون مناطق وهو مشابه جدًا لكيفية عمل دمج المراسلات في Word. يستخدمنفذ - اعدم طرق لدمج المعلومات من بعض مصادر البيانات مثل **جدول البيانات** و **مجموعة البيانات** و **عرض البيانات** و **إداتاريدر** أو مصفوفة من الكائنات في المستند الخاص بك. ال  **دمج المراسلات** يقوم الكائن بمعالجة جميع سجلات مصدر البيانات ونسخ وإلحاق محتوى المستند بأكمله لكل سجل.
 
 لاحظ أن متى **دمج المراسلات**يواجه الكائن حقل NEXT ، ويحدد record التالي في مصدر البيانات ويستمر في الدمج دون نسخ أي محتوى.
 

@@ -21,9 +21,9 @@ public enum SaveFormat
 | Unknown | `0` | قيمة افتراضية غير صالحة لتنسيق الملف. |
 | Doc | `10` | يحفظ المستند بتنسيق Microsoft Word 97 - 2007 Document . |
 | Dot | `11` | يحفظ المستند بتنسيق Microsoft Word 97 - 2007 Template . |
-| Docx | `20` | يحفظ المستند كمستند معالجة Word XML مفتوح لـ Office (خالٍ من الماكرو) ._ x000d_ |
+| Docx | `20` | يحفظ المستند كمستند معالجة Word XML مفتوح لـ Office (خالٍ من الماكرو) . |
 | Docm | `21` | يحفظ المستند كمستند Office Open XML WordprocessingML Macro-Enabled . |
-| Dotx | `22` | يحفظ المستند كقالب معالجة Word بتنسيق XML لـ Office Open XML (خالٍ من الماكرو) ._ x000d_ |
+| Dotx | `22` | يحفظ المستند كقالب معالجة Word بتنسيق XML لـ Office Open XML (خالٍ من الماكرو) . |
 | Dotm | `23` | يحفظ المستند كقالب معالجة Word XML مفتوح لـ Office. |
 | FlatOpc | `24` | يحفظ المستند كملف Office Open XML WordprocessingML المخزن في ملف XML مسطح بدلاً من حزمة ZIP. |
 | FlatOpcMacroEnabled | `25` | يحفظ المستند كمستند Office Open XML WordprocessingML Macro-Enabled المخزن في ملف XML ثابت بدلاً من حزمة ZIP. |

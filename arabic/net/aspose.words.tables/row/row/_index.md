@@ -1,14 +1,14 @@
 ---
 title: Row
 second_title: Aspose.Words لمراجع .NET API
-description: يقوم بتهيئة مثيل جديد لملف صف فئة ._ x000d_
+description: يقوم بتهيئة مثيل جديد لملف صف فئة .
 type: docs
 weight: 10
 url: /ar/net/aspose.words.tables/row/row/
 ---
 ## Row constructor
 
-يقوم بتهيئة مثيل جديد لملف **صف** فئة ._ x000d_
+يقوم بتهيئة مثيل جديد لملف **صف** فئة .
 
 ```csharp
 public Row(DocumentBase doc)

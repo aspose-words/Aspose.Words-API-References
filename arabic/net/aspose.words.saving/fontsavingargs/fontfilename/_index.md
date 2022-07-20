@@ -16,7 +16,7 @@ public string FontFileName { get; set; }
 
 ### ملاحظات
 
-تتيح لك هذه الخاصية إعادة تعريف كيفية إنشاء أسماء ملفات الخطوط_ x000d_ أثناء التصدير إلى HTML.
+تتيح لك هذه الخاصية إعادة تعريف كيفية إنشاء أسماء ملفات الخطوط أثناء التصدير إلى HTML.
 
 عند إطلاق الحدث ، تحتوي هذه الخاصية على اسم الملف الذي تم إنشاؤه بواسطة Aspose.Words . يمكنك تغيير قيمة هذه الخاصية لحفظ الخط في ملف مختلف . لاحظ أن أسماء الملفات يجب أن تكون فريدة.
 
@@ -26,7 +26,7 @@ public string FontFileName { get; set; }
 
 عند حفظ مستند إلى دفق ، يبدو اسم ملف الخط الذي تم إنشاؤه مثل Aspose.Words. &lt;document GU&gt;. &lt;original file name&gt; &lt;Optional Optional&gt;. &lt;extension&gt;.
 
-`FontFileName` يجب أن يحتوي على اسم الملف فقط بدون المسار. Aspose. تحدد الكلمات مسار الحفظ باستخدام اسم ملف المستند ، the[`FontsFolder`](../../htmlsaveoptions/fontsfolder) و_ x000d_[`FontsFolderAlias`](../../htmlsaveoptions/fontsfolderalias) الخصائص.
+`FontFileName` يجب أن يحتوي على اسم الملف فقط بدون المسار. Aspose. تحدد الكلمات مسار الحفظ باستخدام اسم ملف المستند ، the[`FontsFolder`](../../htmlsaveoptions/fontsfolder) و [`FontsFolderAlias`](../../htmlsaveoptions/fontsfolderalias) الخصائص.
 
 ### أمثلة
 

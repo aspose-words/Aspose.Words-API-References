@@ -1,14 +1,14 @@
 ---
 title: VbaReferenceType
 second_title: Aspose.Words لمراجع .NET API
-description: يسمح بتحديد نوع ملفVbaReference./vbareference الكائن ._ x000d_
+description: يسمح بتحديد نوع ملفVbaReference./vbareference الكائن .
 type: docs
 weight: 6300
 url: /ar/net/aspose.words.vba/vbareferencetype/
 ---
 ## VbaReferenceType enumeration
 
-يسمح بتحديد نوع ملف[`VbaReference`](../vbareference) الكائن ._ x000d_
+يسمح بتحديد نوع ملف[`VbaReference`](../vbareference) الكائن .
 
 ```csharp
 public enum VbaReferenceType

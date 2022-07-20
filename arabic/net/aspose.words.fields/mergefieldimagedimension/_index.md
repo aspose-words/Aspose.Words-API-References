@@ -26,11 +26,11 @@ public class MergeFieldImageDimension
 | اسم | وصف |
 | --- | --- |
 | [Unit](../../aspose.words.fields/mergefieldimagedimension/unit) { get; set; } | الوحدة . |
-| [Value](../../aspose.words.fields/mergefieldimagedimension/value) { get; set; } | القيمة ._ x000d_ |
+| [Value](../../aspose.words.fields/mergefieldimagedimension/value) { get; set; } | القيمة . |
 
 ### ملاحظات
 
-للإشارة إلى أنه يجب إدراج الصورة بأبعادها الأصلية أثناء دمج المراسلات ، يجب عليك تعيين قيمة سالبة إلى[`Value`](./value) الملكية ._ x000d_
+للإشارة إلى أنه يجب إدراج الصورة بأبعادها الأصلية أثناء دمج المراسلات ، يجب عليك تعيين قيمة سالبة إلى[`Value`](./value) الملكية .
 
 ### أمثلة
 

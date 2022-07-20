@@ -1,14 +1,14 @@
 ---
 title: KeepSourceNumbering
 second_title: Aspose.Words لمراجع .NET API
-description: الحصول على أو تعيين قيمة منطقية تحدد كيفية استيراد الترقيم عندما يتعارض في مستندات المصدر و_ x000d_ المستندات ._ x000d_ القيمة الافتراضية هيخاطئة .
+description: الحصول على أو تعيين قيمة منطقية تحدد كيفية استيراد الترقيم عندما يتعارض في مستندات المصدر و_ المستندات . القيمة الافتراضية هيخاطئة .
 type: docs
 weight: 50
 url: /ar/net/aspose.words/importformatoptions/keepsourcenumbering/
 ---
 ## ImportFormatOptions.KeepSourceNumbering property
 
-الحصول على أو تعيين قيمة منطقية تحدد كيفية استيراد الترقيم عندما يتعارض في مستندات المصدر و_ x000d_ المستندات ._ x000d_ القيمة الافتراضية هي`خاطئة` .
+الحصول على أو تعيين قيمة منطقية تحدد كيفية استيراد الترقيم عندما يتعارض في مستندات المصدر و_ المستندات . القيمة الافتراضية هي`خاطئة` .
 
 ```csharp
 public bool KeepSourceNumbering { get; set; }

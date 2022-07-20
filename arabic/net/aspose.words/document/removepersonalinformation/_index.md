@@ -1,14 +1,14 @@
 ---
 title: RemovePersonalInformation
 second_title: Aspose.Words لمراجع .NET API
-description: الحصول على أو تعيين علامة تشير إلى أن Microsoft Word سيزيل كافة معلومات المستخدم من التعليقات والمراجعات وخصائص المستند x000d عند حفظ المستند.
+description: الحصول على أو تعيين علامة تشير إلى أن Microsoft Word سيزيل كافة معلومات المستخدم من التعليقات والمراجعات وخصائص المستند عند حفظ المستند.
 type: docs
 weight: 320
 url: /ar/net/aspose.words/document/removepersonalinformation/
 ---
 ## Document.RemovePersonalInformation property
 
-الحصول على أو تعيين علامة تشير إلى أن Microsoft Word سيزيل كافة معلومات المستخدم من التعليقات والمراجعات وخصائص المستند x000d عند حفظ المستند.
+الحصول على أو تعيين علامة تشير إلى أن Microsoft Word سيزيل كافة معلومات المستخدم من التعليقات والمراجعات وخصائص المستند عند حفظ المستند.
 
 ```csharp
 public bool RemovePersonalInformation { get; set; }

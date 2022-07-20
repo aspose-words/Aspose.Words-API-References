@@ -1,14 +1,14 @@
 ---
 title: Spacing
 second_title: Aspose.Words لمراجع .NET API
-description: يحدد مقدار التباعد للنص. 1 يعني 100 ._ x000d_
+description: يحدد مقدار التباعد للنص. 1 يعني 100 .
 type: docs
 weight: 140
 url: /ar/net/aspose.words.drawing/textpath/spacing/
 ---
 ## TextPath.Spacing property
 
-يحدد مقدار التباعد للنص. 1 يعني 100٪ ._ x000d_
+يحدد مقدار التباعد للنص. 1 يعني 100٪ .
 
 ```csharp
 public double Spacing { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: GradientStyle
 second_title: Aspose.Words لمراجع .NET API
-description: تحديد نمط التعبئة المتدرجة ._ x000d_
+description: تحديد نمط التعبئة المتدرجة .
 type: docs
 weight: 870
 url: /ar/net/aspose.words.drawing/gradientstyle/
 ---
 ## GradientStyle enumeration
 
-تحديد نمط التعبئة المتدرجة ._ x000d_
+تحديد نمط التعبئة المتدرجة .
 
 ```csharp
 public enum GradientStyle
@@ -20,9 +20,9 @@ public enum GradientStyle
 | --- | --- | --- |
 | None | `-1` | لا يوجد تدرج . |
 | Horizontal | `1` | تشغيل التدرج أفقيًا عبر كائن . |
-| Vertical | `2` | جري التدرج رأسيًا لأسفل كائن ._ x000d_ |
+| Vertical | `2` | جري التدرج رأسيًا لأسفل كائن . |
 | DiagonalUp | `3` | تدرج لوني قطري يتحرك من الزاوية السفلية إلى الزاوية المقابلة. |
-| DiagonalDown | `4` | تدرج لوني قطري يتحرك من الزاوية العلوية لأسفل إلى الزاوية المقابلة ._ x000d_ |
+| DiagonalDown | `4` | تدرج لوني قطري يتحرك من الزاوية العلوية لأسفل إلى الزاوية المقابلة . |
 | FromCorner | `5` | تدرج متدرج من زاوية إلى الزوايا الثلاث الأخرى. |
 | FromCenter | `6` | التدرج المتدرج من المركز إلى الزوايا . |
 

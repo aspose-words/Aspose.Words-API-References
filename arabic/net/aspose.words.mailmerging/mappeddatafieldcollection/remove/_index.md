@@ -1,14 +1,14 @@
 ---
 title: Remove
 second_title: Aspose.Words لمراجع .NET API
-description: يزيل تعيين الحقل ._ x000d_
+description: يزيل تعيين الحقل .
 type: docs
 weight: 80
 url: /ar/net/aspose.words.mailmerging/mappeddatafieldcollection/remove/
 ---
 ## MappedDataFieldCollection.Remove method
 
-يزيل تعيين الحقل ._ x000d_
+يزيل تعيين الحقل .
 
 ```csharp
 public void Remove(string documentFieldName)

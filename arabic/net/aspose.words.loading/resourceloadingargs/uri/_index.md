@@ -1,14 +1,14 @@
 ---
 title: Uri
 second_title: Aspose.Words لمراجع .NET API
-description: معرف الموارد المنتظم URI للمورد الذي يتم استخدامه للتنزيل_ x000d_ ifResourceLoadingaspose.words.loading/iresourceloadingcallback/resourceloading إرجاع Default.
+description: معرف الموارد المنتظم URI للمورد الذي يتم استخدامه للتنزيل ifResourceLoadingaspose.words.loading/iresourceloadingcallback/resourceloading إرجاع Default.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.loading/resourceloadingargs/uri/
 ---
 ## ResourceLoadingArgs.Uri property
 
-معرف الموارد المنتظم (URI) للمورد الذي يتم استخدامه للتنزيل_ x000d_ if[`ResourceLoading`](../../iresourceloadingcallback/resourceloading) إرجاع Default.
+معرف الموارد المنتظم (URI) للمورد الذي يتم استخدامه للتنزيل if[`ResourceLoading`](../../iresourceloadingcallback/resourceloading) إرجاع Default.
 
 مبدئيًا ، تم تعيينه على URI المطلق للمورد ، ولكن يمكن للمستخدم إعادة تعريفه إلى أي قيمة.
 

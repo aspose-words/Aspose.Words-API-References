@@ -1,14 +1,14 @@
 ---
 title: AutoFitBehavior
 second_title: Aspose.Words لمراجع .NET API
-description: يحدد كيفية قيام Aspose.Words بتغيير حجم الجدول عند استدعاء ملفAutoFit./table/autofit طريقة ._ x000d_
+description: يحدد كيفية قيام Aspose.Words بتغيير حجم الجدول عند استدعاء ملفAutoFit./table/autofit طريقة .
 type: docs
 weight: 5930
 url: /ar/net/aspose.words.tables/autofitbehavior/
 ---
 ## AutoFitBehavior enumeration
 
-يحدد كيفية قيام Aspose.Words بتغيير حجم الجدول عند استدعاء ملف[`AutoFit`](../table/autofit) طريقة ._ x000d_
+يحدد كيفية قيام Aspose.Words بتغيير حجم الجدول عند استدعاء ملف[`AutoFit`](../table/autofit) طريقة .
 
 ```csharp
 public enum AutoFitBehavior

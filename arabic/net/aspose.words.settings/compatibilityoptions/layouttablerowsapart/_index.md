@@ -1,14 +1,14 @@
 ---
 title: LayoutTableRowsApart
 second_title: Aspose.Words لمراجع .NET API
-description: السماح لصفوف الجدول بالتفاف الكائنات المضمنة بشكل مستقل ._ x000d_
+description: السماح لصفوف الجدول بالتفاف الكائنات المضمنة بشكل مستقل .
 type: docs
 weight: 300
 url: /ar/net/aspose.words.settings/compatibilityoptions/layouttablerowsapart/
 ---
 ## CompatibilityOptions.LayoutTableRowsApart property
 
-السماح لصفوف الجدول بالتفاف الكائنات المضمنة بشكل مستقل ._ x000d_
+السماح لصفوف الجدول بالتفاف الكائنات المضمنة بشكل مستقل .
 
 ```csharp
 public bool LayoutTableRowsApart { get; set; }

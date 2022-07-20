@@ -18,24 +18,24 @@ public class Row : CompositeNode
 
 | اسم | وصف |
 | --- | --- |
-| [Row](row)(DocumentBase) | يقوم بتهيئة مثيل جديد لملف **صف** فئة ._ x000d_ |
+| [Row](row)(DocumentBase) | يقوم بتهيئة مثيل جديد لملف **صف** فئة . |
 
 ## الخصائص
 
 | اسم | وصف |
 | --- | --- |
-| [Cells](../../aspose.words.tables/row/cells) { get; } | يوفر وصولاً مكتوبًا إلى ملف **خلية** العقد الفرعية للصف ._ x000d_ |
+| [Cells](../../aspose.words.tables/row/cells) { get; } | يوفر وصولاً مكتوبًا إلى ملف **خلية** العقد الفرعية للصف . |
 | [ChildNodes](../../aspose.words/compositenode/childnodes) { get; } | يحصل على جميع العقد الفرعية الفورية لهذه العقدة. |
 | [Count](../../aspose.words/compositenode/count) { get; } | الحصول على عدد الأطفال المباشرين لهذه العقدة. |
-| [CustomNodeId](../../aspose.words/node/customnodeid) { get; set; } | يحدد معرف العقدة المخصص ._ x000d_ |
+| [CustomNodeId](../../aspose.words/node/customnodeid) { get; set; } | يحدد معرف العقدة المخصص . |
 | virtual [Document](../../aspose.words/node/document) { get; } | الحصول على المستند الذي تنتمي إليه هذه العقدة . |
-| [FirstCell](../../aspose.words.tables/row/firstcell) { get; } | إرجاع أول **خلية** في الصف ._ x000d_ |
+| [FirstCell](../../aspose.words.tables/row/firstcell) { get; } | إرجاع أول **خلية** في الصف . |
 | [FirstChild](../../aspose.words/compositenode/firstchild) { get; } | الحصول على الطفل الأول للعقدة . |
 | [HasChildNodes](../../aspose.words/compositenode/haschildnodes) { get; } | إرجاع صحيح إذا كانت هذه العقدة بها أي عقد فرعية. |
 | override [IsComposite](../../aspose.words/compositenode/iscomposite) { get; } | إرجاع صحيح لأن هذه العقدة يمكن أن تحتوي على عقد فرعية. |
 | [IsFirstRow](../../aspose.words.tables/row/isfirstrow) { get; } | صواب إذا كان هذا هو الصف الأول في الجدول ؛ خطأ بخلاف ذلك. |
 | [IsLastRow](../../aspose.words.tables/row/islastrow) { get; } | صواب إذا كان هذا هو الصف الأخير في الجدول ؛ خطأ بخلاف ذلك. |
-| [LastCell](../../aspose.words.tables/row/lastcell) { get; } | إرجاع الأخير **خلية** في الصف ._ x000d_ |
+| [LastCell](../../aspose.words.tables/row/lastcell) { get; } | إرجاع الأخير **خلية** في الصف . |
 | [LastChild](../../aspose.words/compositenode/lastchild) { get; } | الحصول على آخر تابع للعقدة . |
 | [NextSibling](../../aspose.words/node/nextsibling) { get; } | يحصل على العقدة التي تلي هذه العقدة مباشرة. |
 | override [NodeType](../../aspose.words.tables/row/nodetype) { get; } | عوائد **NodeType.Row** . |
@@ -58,7 +58,7 @@ public class Row : CompositeNode
 | [GetAncestor](../../aspose.words/node/getancestor)(Type) | الحصول على الأصل الأول لنوع الكائن المحدد. |
 | [GetChild](../../aspose.words/compositenode/getchild)(NodeType, int, bool) | إرجاع العقدة الفرعية رقم N التي تطابق النوع المحدد. |
 | [GetChildNodes](../../aspose.words/compositenode/getchildnodes)(NodeType, bool) | إرجاع مجموعة مباشرة من العقد الفرعية التي تطابق النوع المحدد. |
-| [GetEnumerator](../../aspose.words/compositenode/getenumerator)() | يوفر دعمًا لكل تكرار نمط على العقد التابعة لهذه العقدة ._ x000d_ |
+| [GetEnumerator](../../aspose.words/compositenode/getenumerator)() | يوفر دعمًا لكل تكرار نمط على العقد التابعة لهذه العقدة . |
 | override [GetText](../../aspose.words.tables/row/gettext)() | الحصول على نص جميع الخلايا في هذا الصف بما في ذلك نهاية حرف الصف. |
 | [IndexOf](../../aspose.words/compositenode/indexof)(Node) | إرجاع فهرس العقدة الفرعية المحددة في مصفوفة العقدة الفرعية. |
 | [InsertAfter](../../aspose.words/compositenode/insertafter)(Node, Node) | يدخل العقدة المحددة مباشرة بعد العقدة المرجعية المحددة. |

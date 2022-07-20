@@ -18,7 +18,7 @@ public interface IDocumentReaderPlugin
 
 | اسم | وصف |
 | --- | --- |
-| [Read](../../aspose.words/idocumentreaderplugin/read)(Stream, LoadOptions, Document) | يقرأ البيانات من الدفق المحدد إلى ملف[`Document`](../document) المثال. x000d_ |
+| [Read](../../aspose.words/idocumentreaderplugin/read)(Stream, LoadOptions, Document) | يقرأ البيانات من الدفق المحدد إلى ملف[`Document`](../document) المثال. |
 
 ### أنظر أيضا
 

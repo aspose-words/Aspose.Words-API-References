@@ -1,14 +1,14 @@
 ---
 title: OoxmlSaveOptions
 second_title: Aspose.Words لمراجع .NET API
-description: يقوم بتهيئة مثيل جديد من هذه الفئة يمكن استخدامه لحفظ مستند بتنسيقDocx التنسيق ._ x000d_
+description: يقوم بتهيئة مثيل جديد من هذه الفئة يمكن استخدامه لحفظ مستند بتنسيقDocx التنسيق .
 type: docs
 weight: 10
 url: /ar/net/aspose.words.saving/ooxmlsaveoptions/ooxmlsaveoptions/
 ---
 ## OoxmlSaveOptions() {#constructor}
 
-يقوم بتهيئة مثيل جديد من هذه الفئة يمكن استخدامه لحفظ مستند بتنسيقDocx التنسيق ._ x000d_
+يقوم بتهيئة مثيل جديد من هذه الفئة يمكن استخدامه لحفظ مستند بتنسيقDocx التنسيق .
 
 ```csharp
 public OoxmlSaveOptions()
@@ -56,7 +56,7 @@ Assert.AreEqual(ShapeMarkupLanguage.Dml, ((Shape)doc.GetChild(NodeType.Shape, 0,
 
 ## OoxmlSaveOptions(SaveFormat) {#constructor_1}
 
-يقوم بتهيئة مثيل جديد من هذه الفئة يمكن استخدامه لحفظ مستند بتنسيقDocx ، Docm وDotx وDotm أو x000d_FlatOpc التنسيق ._ x000d_
+يقوم بتهيئة مثيل جديد من هذه الفئة يمكن استخدامه لحفظ مستند بتنسيقDocx ، Docm وDotx وDotm أو FlatOpc التنسيق .
 
 ```csharp
 public OoxmlSaveOptions(SaveFormat saveFormat)

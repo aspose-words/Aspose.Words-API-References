@@ -13,19 +13,19 @@ url: /ar/net/aspose.words.tables/
 | فصل | وصف |
 | --- | --- |
 | [Cell](./cell) | يمثل خلية جدول . |
-| [CellCollection](./cellcollection) | يوفر وصولاً مكتوبًا إلى مجموعة من[`Cell`](../aspose.words.tables/cell) العقد ._ x000d_ |
+| [CellCollection](./cellcollection) | يوفر وصولاً مكتوبًا إلى مجموعة من[`Cell`](../aspose.words.tables/cell) العقد . |
 | [CellFormat](./cellformat) | يمثل كل التنسيقات لخلية جدول. |
 | [PreferredWidth](./preferredwidth) | يمثل قيمة ووحدة قياسها المستخدمة لتحديد العرض المفضل لجدول أو خلية. |
 | [Row](./row) | يمثل صف جدول . |
-| [RowCollection](./rowcollection) | يوفر وصولاً مكتوبًا إلى مجموعة من[`Row`](../aspose.words.tables/row) العقد ._ x000d_ |
+| [RowCollection](./rowcollection) | يوفر وصولاً مكتوبًا إلى مجموعة من[`Row`](../aspose.words.tables/row) العقد . |
 | [RowFormat](./rowformat) | يمثل كل التنسيقات لصف الجدول. |
 | [Table](./table) | يمثل جدولاً في مستند Word . |
-| [TableCollection](./tablecollection) | يوفر وصولاً مكتوبًا إلى مجموعة من[`Table`](../aspose.words.tables/table) العقد ._ x000d_ |
+| [TableCollection](./tablecollection) | يوفر وصولاً مكتوبًا إلى مجموعة من[`Table`](../aspose.words.tables/table) العقد . |
 ## تعداد
 
 | تعداد | وصف |
 | --- | --- |
-| [AutoFitBehavior](./autofitbehavior) | يحدد كيفية قيام Aspose.Words بتغيير حجم الجدول عند استدعاء ملف[`AutoFit`](../aspose.words.tables/table/autofit) طريقة ._ x000d_ |
+| [AutoFitBehavior](./autofitbehavior) | يحدد كيفية قيام Aspose.Words بتغيير حجم الجدول عند استدعاء ملف[`AutoFit`](../aspose.words.tables/table/autofit) طريقة . |
 | [CellMerge](./cellmerge) | يحدد كيفية دمج خلية في جدول مع خلايا أخرى. |
 | [CellVerticalAlignment](./cellverticalalignment) | تحديد الضبط الرأسي للنص داخل خلية جدول. |
 | [PreferredWidthType](./preferredwidthtype) | يحدد وحدة القياس للعرض المفضل لجدول أو خلية. |

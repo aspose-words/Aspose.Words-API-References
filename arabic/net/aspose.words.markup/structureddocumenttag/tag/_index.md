@@ -1,14 +1,14 @@
 ---
 title: Tag
 second_title: Aspose.Words لمراجع .NET API
-description: يحدد علامة مرتبطة بعقدة SDT الحالية. لا يمكن أن يكون فارغًا ._ x000d_
+description: يحدد علامة مرتبطة بعقدة SDT الحالية. لا يمكن أن يكون فارغًا .
 type: docs
 weight: 280
 url: /ar/net/aspose.words.markup/structureddocumenttag/tag/
 ---
 ## StructuredDocumentTag.Tag property
 
-يحدد علامة مرتبطة بعقدة SDT الحالية. لا يمكن أن يكون فارغًا ._ x000d_
+يحدد علامة مرتبطة بعقدة SDT الحالية. لا يمكن أن يكون فارغًا .
 
 ```csharp
 public string Tag { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: DoNotSnapToGridInCell
 second_title: Aspose.Words لمراجع .NET API
-description: عدم الانطباق على شبكة المستند في خلايا الجدول ذات الكائنات ._ x000d_
+description: عدم الانطباق على شبكة المستند في خلايا الجدول ذات الكائنات .
 type: docs
 weight: 170
 url: /ar/net/aspose.words.settings/compatibilityoptions/donotsnaptogridincell/
 ---
 ## CompatibilityOptions.DoNotSnapToGridInCell property
 
-عدم الانطباق على شبكة المستند في خلايا الجدول ذات الكائنات ._ x000d_
+عدم الانطباق على شبكة المستند في خلايا الجدول ذات الكائنات .
 
 ```csharp
 public bool DoNotSnapToGridInCell { get; set; }

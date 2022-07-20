@@ -1,14 +1,14 @@
 ---
 title: Remove
 second_title: Aspose.Words لمراجع .NET API
-description: يزيل المحددTypeكائن من المجموعة. رمياتArgumentException if type فارغ ._ x000d_
+description: يزيل المحددTypeكائن من المجموعة. رمياتArgumentException if type فارغ .
 type: docs
 weight: 50
 url: /ar/net/aspose.words.reporting/knowntypeset/remove/
 ---
 ## KnownTypeSet.Remove method
 
-يزيل المحددTypeكائن من المجموعة. رمياتArgumentException if *type* فارغ ._ x000d_
+يزيل المحددTypeكائن من المجموعة. رمياتArgumentException if *type* فارغ .
 
 ```csharp
 public void Remove(Type type)

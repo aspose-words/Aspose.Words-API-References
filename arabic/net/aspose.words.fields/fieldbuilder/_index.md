@@ -1,14 +1,14 @@
 ---
 title: FieldBuilder
 second_title: Aspose.Words لمراجع .NET API
-description: ينشئ حقلاً من الرموز المميزة لرمز الحقل الوسائط والمفاتيح ._ x000d_
+description: ينشئ حقلاً من الرموز المميزة لرمز الحقل الوسائط والمفاتيح .
 type: docs
 weight: 1510
 url: /ar/net/aspose.words.fields/fieldbuilder/
 ---
 ## FieldBuilder class
 
-ينشئ حقلاً من الرموز المميزة لرمز الحقل (الوسائط والمفاتيح) ._ x000d_
+ينشئ حقلاً من الرموز المميزة لرمز الحقل (الوسائط والمفاتيح) .
 
 ```csharp
 public class FieldBuilder
@@ -18,17 +18,17 @@ public class FieldBuilder
 
 | اسم | وصف |
 | --- | --- |
-| [FieldBuilder](fieldbuilder)(FieldType) | يقوم بتهيئة مثيل لملف[`FieldBuilder`](../fieldbuilder) فئة ._ x000d_ |
+| [FieldBuilder](fieldbuilder)(FieldType) | يقوم بتهيئة مثيل لملف[`FieldBuilder`](../fieldbuilder) فئة . |
 
 ## طُرق
 
 | اسم | وصف |
 | --- | --- |
-| [AddArgument](../../aspose.words.fields/fieldbuilder/addargument#addargument_2)(double) | إضافة وسيطة الحقل ._ x000d_ |
+| [AddArgument](../../aspose.words.fields/fieldbuilder/addargument#addargument_2)(double) | إضافة وسيطة الحقل . |
 | [AddArgument](../../aspose.words.fields/fieldbuilder/addargument#addargument)(FieldArgumentBuilder) | إضافة وسيطة الحقل التي يمثلها[`FieldArgumentBuilder`](../fieldargumentbuilder) إلى رمز الحقل. |
 | [AddArgument](../../aspose.words.fields/fieldbuilder/addargument#addargument_1)(FieldBuilder) | إضافة حقل فرعي يمثله حقل آخر[`FieldBuilder`](../fieldbuilder) إلى رمز الحقل. |
-| [AddArgument](../../aspose.words.fields/fieldbuilder/addargument#addargument_3)(int) | إضافة وسيطة الحقل ._ x000d_ |
-| [AddArgument](../../aspose.words.fields/fieldbuilder/addargument#addargument_4)(string) | إضافة وسيطة الحقل ._ x000d_ |
+| [AddArgument](../../aspose.words.fields/fieldbuilder/addargument#addargument_3)(int) | إضافة وسيطة الحقل . |
+| [AddArgument](../../aspose.words.fields/fieldbuilder/addargument#addargument_4)(string) | إضافة وسيطة الحقل . |
 | [AddSwitch](../../aspose.words.fields/fieldbuilder/addswitch#addswitch)(string) | يضيف مفتاح تبديل الحقل . |
 | [AddSwitch](../../aspose.words.fields/fieldbuilder/addswitch#addswitch_1)(string, double) | يضيف مفتاح تبديل الحقل . |
 | [AddSwitch](../../aspose.words.fields/fieldbuilder/addswitch#addswitch_2)(string, int) | يضيف مفتاح تبديل الحقل . |

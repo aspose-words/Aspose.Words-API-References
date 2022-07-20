@@ -65,13 +65,13 @@ public abstract class DocumentVisitor
 | virtual [VisitStructuredDocumentTagRangeEnd](../../aspose.words/documentvisitor/visitstructureddocumenttagrangeend)(StructuredDocumentTagRangeEnd) |  |
 | virtual [VisitStructuredDocumentTagRangeStart](../../aspose.words/documentvisitor/visitstructureddocumenttagrangestart)(StructuredDocumentTagRangeStart) |  |
 | virtual [VisitStructuredDocumentTagStart](../../aspose.words/documentvisitor/visitstructureddocumenttagstart)(StructuredDocumentTag) | يتم استدعاؤها عند بدء تعداد علامة مستند منظم. |
-| virtual [VisitSubDocument](../../aspose.words/documentvisitor/visitsubdocument)(SubDocument) | يتم استدعاؤه عند مصادفة مستند ثانوي ._ x000d_ |
+| virtual [VisitSubDocument](../../aspose.words/documentvisitor/visitsubdocument)(SubDocument) | يتم استدعاؤه عند مصادفة مستند ثانوي . |
 | virtual [VisitTableEnd](../../aspose.words/documentvisitor/visittableend)(Table) | يتم استدعاؤه عند انتهاء تعداد جدول . |
 | virtual [VisitTableStart](../../aspose.words/documentvisitor/visittablestart)(Table) | يتم استدعاؤها عند بدء تعداد جدول . |
 
 ### ملاحظات
 
-مع **وثيقة الزائر** يمكنك تحديد وتنفيذ عمليات مخصصة_ x000d_ التي تتطلب تعدادًا عبر شجرة المستند.
+مع **وثيقة الزائر** يمكنك تحديد وتنفيذ عمليات مخصصة_ التي تتطلب تعدادًا عبر شجرة المستند.
 
 على سبيل المثال ، يستخدم Aspose.Words **وثيقة الزائر** داخليا للحفظ **وثيقة** بتنسيقات مختلفة ولعمليات أخرى مثل البحث عن الحقول أو الإشارات المرجعية over جزء من المستند.
 

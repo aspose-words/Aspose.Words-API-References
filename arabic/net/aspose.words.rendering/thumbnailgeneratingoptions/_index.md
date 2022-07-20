@@ -25,11 +25,11 @@ public class ThumbnailGeneratingOptions
 | اسم | وصف |
 | --- | --- |
 | [GenerateFromFirstPage](../../aspose.words.rendering/thumbnailgeneratingoptions/generatefromfirstpage) { get; set; } | يحدد ما إذا كان سيتم إنشاء مصغر من الصفحة الأولى من المستند أو الصورة الأولى. |
-| [ThumbnailSize](../../aspose.words.rendering/thumbnailgeneratingoptions/thumbnailsize) { get; set; } | حجم الصورة المصغرة التي تم إنشاؤها بالبكسل ._ x000d_ الافتراضي هو 600x900. |
+| [ThumbnailSize](../../aspose.words.rendering/thumbnailgeneratingoptions/thumbnailsize) { get; set; } | حجم الصورة المصغرة التي تم إنشاؤها بالبكسل . الافتراضي هو 600x900. |
 
 ### ملاحظات
 
-يمكن للمستخدم استدعاء الطريقة[`UpdateThumbnail`](../../aspose.words/document/updatethumbnail) لتوليد [`Thumbnail`](../../aspose.words.properties/builtindocumentproperties/thumbnail) لمستند ._ x000d_
+يمكن للمستخدم استدعاء الطريقة[`UpdateThumbnail`](../../aspose.words/document/updatethumbnail) لتوليد [`Thumbnail`](../../aspose.words.properties/builtindocumentproperties/thumbnail) لمستند .
 
 ### أمثلة
 

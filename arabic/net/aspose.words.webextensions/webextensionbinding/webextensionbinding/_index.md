@@ -1,14 +1,14 @@
 ---
 title: WebExtensionBinding
 second_title: Aspose.Words لمراجع .NET API
-description: إنشاء ارتباط امتداد الويب بمعلمات محددة ._ x000d_
+description: إنشاء ارتباط امتداد الويب بمعلمات محددة .
 type: docs
 weight: 10
 url: /ar/net/aspose.words.webextensions/webextensionbinding/webextensionbinding/
 ---
 ## WebExtensionBinding constructor
 
-إنشاء ارتباط امتداد الويب بمعلمات محددة ._ x000d_
+إنشاء ارتباط امتداد الويب بمعلمات محددة .
 
 ```csharp
 public WebExtensionBinding(string id, WebExtensionBindingType bindingType, string appRef)

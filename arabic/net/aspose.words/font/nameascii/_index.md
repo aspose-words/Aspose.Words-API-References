@@ -1,14 +1,14 @@
 ---
 title: NameAscii
 second_title: Aspose.Words لمراجع .NET API
-description: إرجاع أو تعيين الخط المستخدم للنص اللاتيني الأحرف برموز الأحرف من 0 صفر إلى 127 ._ x000d_
+description: إرجاع أو تعيين الخط المستخدم للنص اللاتيني الأحرف برموز الأحرف من 0 صفر إلى 127 .
 type: docs
 weight: 240
 url: /ar/net/aspose.words/font/nameascii/
 ---
 ## Font.NameAscii property
 
-إرجاع أو تعيين الخط المستخدم للنص اللاتيني (الأحرف برموز الأحرف من 0 (صفر) إلى 127) ._ x000d_
+إرجاع أو تعيين الخط المستخدم للنص اللاتيني (الأحرف برموز الأحرف من 0 (صفر) إلى 127) .
 
 ```csharp
 public string NameAscii { get; set; }

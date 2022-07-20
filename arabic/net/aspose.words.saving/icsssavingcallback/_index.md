@@ -18,7 +18,7 @@ public interface ICssSavingCallback
 
 | اسم | وصف |
 | --- | --- |
-| [CssSaving](../../aspose.words.saving/icsssavingcallback/csssaving)(CssSavingArgs) | يتم استدعاؤها عند قيام Aspose.Words بحفظ CSS (ورقة الأنماط المتتالية) ._ x000d_ |
+| [CssSaving](../../aspose.words.saving/icsssavingcallback/csssaving)(CssSavingArgs) | يتم استدعاؤها عند قيام Aspose.Words بحفظ CSS (ورقة الأنماط المتتالية) . |
 
 ### أمثلة
 

@@ -1,14 +1,14 @@
 ---
 title: HorizontalPosition
 second_title: Aspose.Words لمراجع .NET API
-description: الحصول على أو تحديد عدد النقاط التي يجب نقل النص الذي يتبع الحقل أفقيًا_ x000d_ من الحافة اليسرى للعمود أو الإطار أو مربع النص.
+description: الحصول على أو تحديد عدد النقاط التي يجب نقل النص الذي يتبع الحقل أفقيًا من الحافة اليسرى للعمود أو الإطار أو مربع النص.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.fields/fieldadvance/horizontalposition/
 ---
 ## FieldAdvance.HorizontalPosition property
 
-الحصول على أو تحديد عدد النقاط التي يجب نقل النص الذي يتبع الحقل أفقيًا_ x000d_ من الحافة اليسرى للعمود أو الإطار أو مربع النص.
+الحصول على أو تحديد عدد النقاط التي يجب نقل النص الذي يتبع الحقل أفقيًا من الحافة اليسرى للعمود أو الإطار أو مربع النص.
 
 ```csharp
 public string HorizontalPosition { get; set; }

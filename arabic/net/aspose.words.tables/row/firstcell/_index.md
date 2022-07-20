@@ -1,14 +1,14 @@
 ---
 title: FirstCell
 second_title: Aspose.Words لمراجع .NET API
-description: إرجاع أول خلية في الصف ._ x000d_
+description: إرجاع أول خلية في الصف .
 type: docs
 weight: 30
 url: /ar/net/aspose.words.tables/row/firstcell/
 ---
 ## Row.FirstCell property
 
-إرجاع أول **خلية** في الصف ._ x000d_
+إرجاع أول **خلية** في الصف .
 
 ```csharp
 public Cell FirstCell { get; }

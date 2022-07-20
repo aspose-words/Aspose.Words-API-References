@@ -18,7 +18,7 @@ public class StructuredDocumentTag : CompositeNode, IStructuredDocumentTag
 
 | اسم | وصف |
 | --- | --- |
-| [StructuredDocumentTag](structureddocumenttag)(DocumentBase, SdtType, MarkupLevel) | يقوم بتهيئة مثيل جديد لملف **علامة وثيقة منظم** فئة ._ x000d_ |
+| [StructuredDocumentTag](structureddocumenttag)(DocumentBase, SdtType, MarkupLevel) | يقوم بتهيئة مثيل جديد لملف **علامة وثيقة منظم** فئة . |
 
 ## الخصائص
 
@@ -33,8 +33,8 @@ public class StructuredDocumentTag : CompositeNode, IStructuredDocumentTag
 | [Color](../../aspose.words.markup/structureddocumenttag/color) { get; set; } | الحصول على أو تحديد لون علامة المستند المهيكلة. |
 | [ContentsFont](../../aspose.words.markup/structureddocumenttag/contentsfont) { get; } | تنسيق الخط الذي سيتم تطبيقه على النص الذي تم إدخاله فيه **المعاملة الخاصة والتفضيلية** . |
 | [Count](../../aspose.words/compositenode/count) { get; } | الحصول على عدد الأطفال المباشرين لهذه العقدة. |
-| [CustomNodeId](../../aspose.words/node/customnodeid) { get; set; } | يحدد معرف العقدة المخصص ._ x000d_ |
-| [DateDisplayFormat](../../aspose.words.markup/structureddocumenttag/datedisplayformat) { get; set; } | السلسلة التي تمثل التنسيق الذي يتم عرض التواريخ به ._ x000d_ لا يمكن أن تكون خالية ._ x000d_تواريخ اللغة الإنجليزية (الولايات المتحدة) هي "mm / dd / yyyy" |
+| [CustomNodeId](../../aspose.words/node/customnodeid) { get; set; } | يحدد معرف العقدة المخصص . |
+| [DateDisplayFormat](../../aspose.words.markup/structureddocumenttag/datedisplayformat) { get; set; } | السلسلة التي تمثل التنسيق الذي يتم عرض التواريخ به . لا يمكن أن تكون خالية . تواريخ اللغة الإنجليزية (الولايات المتحدة) هي "mm / dd / yyyy" |
 | [DateDisplayLocale](../../aspose.words.markup/structureddocumenttag/datedisplaylocale) { get; set; } | يسمح بتعيين / الحصول على تنسيق اللغة للتاريخ المعروض في هذا **المعاملة الخاصة والتفضيلية** . |
 | [DateStorageFormat](../../aspose.words.markup/structureddocumenttag/datestorageformat) { get; set; } | الحصول على / مجموعات التنسيق الذي يتم فيه تخزين تاريخ تاريخ SDT عندما يكون ملف **المعاملة الخاصة والتفضيلية** مرتبط بعقدة XML في مخزن بيانات المستند. القيمة الافتراضية هيDateTime |
 | virtual [Document](../../aspose.words/node/document) { get; } | الحصول على المستند الذي تنتمي إليه هذه العقدة . |
@@ -45,7 +45,7 @@ public class StructuredDocumentTag : CompositeNode, IStructuredDocumentTag
 | [Id](../../aspose.words.markup/structureddocumenttag/id) { get; } | يحدد معرّفًا رقميًا فريدًا ومستمرًا للقراءة فقط لهذا الغرض **المعاملة الخاصة والتفضيلية**. |
 | override [IsComposite](../../aspose.words/compositenode/iscomposite) { get; } | إرجاع صحيح لأن هذه العقدة يمكن أن تحتوي على عقد فرعية. |
 | [IsShowingPlaceholderText](../../aspose.words.markup/structureddocumenttag/isshowingplaceholdertext) { get; set; } | يحدد ما إذا كان محتوى هذا **المعاملة الخاصة والتفضيلية** يجب أن يتم تفسيره على أنه يحتوي على عنصر نائب text (على عكس محتويات النص العادي داخل SDT). |
-| [IsTemporary](../../aspose.words.markup/structureddocumenttag/istemporary) { get; set; } | يحدد ما إذا كان هذا **المعاملة الخاصة والتفضيلية** يجب إزالتها من مستند WordProcessingML عندما يتم تعديل محتوياته_ x000d_. |
+| [IsTemporary](../../aspose.words.markup/structureddocumenttag/istemporary) { get; set; } | يحدد ما إذا كان هذا **المعاملة الخاصة والتفضيلية** يجب إزالتها من مستند WordProcessingML عندما يتم تعديل محتوياته . |
 | [LastChild](../../aspose.words/compositenode/lastchild) { get; } | الحصول على آخر تابع للعقدة . |
 | [Level](../../aspose.words.markup/structureddocumenttag/level) { get; } | يحصل على المستوى الذي عنده هذا **المعاملة الخاصة والتفضيلية** يحدث في شجرة الوثيقة. |
 | [ListItems](../../aspose.words.markup/structureddocumenttag/listitems) { get; } | يحصل[`SdtListItemCollection`](../sdtlistitemcollection) المرتبطة بهذا **المعاملة الخاصة والتفضيلية** . |
@@ -62,9 +62,9 @@ public class StructuredDocumentTag : CompositeNode, IStructuredDocumentTag
 | [SdtType](../../aspose.words.markup/structureddocumenttag/sdttype) { get; } | يحصل على نوع من هذا **علامة وثيقة منظم** . |
 | [Style](../../aspose.words.markup/structureddocumenttag/style) { get; set; } | الحصول على أو تحديد نمط علامة المستند المهيكلة. |
 | [StyleName](../../aspose.words.markup/structureddocumenttag/stylename) { get; set; } | الحصول على أو تحديد اسم النمط المطبق على علامة المستند المهيكلة. |
-| [Tag](../../aspose.words.markup/structureddocumenttag/tag) { get; set; } | يحدد علامة مرتبطة بعقدة SDT الحالية. لا يمكن أن يكون فارغًا ._ x000d_ |
-| [Title](../../aspose.words.markup/structureddocumenttag/title) { get; set; } | تحديد الاسم المألوف المرتبط بهذا **المعاملة الخاصة والتفضيلية** . لا يمكن أن يكون فارغًا ._ x000d_ |
-| [WordOpenXML](../../aspose.words.markup/structureddocumenttag/wordopenxml) { get; } | يحصل على سلسلة تمثل XML الموجود داخل العقدة في ملفFlatOpc التنسيق ._ x000d_ |
+| [Tag](../../aspose.words.markup/structureddocumenttag/tag) { get; set; } | يحدد علامة مرتبطة بعقدة SDT الحالية. لا يمكن أن يكون فارغًا . |
+| [Title](../../aspose.words.markup/structureddocumenttag/title) { get; set; } | تحديد الاسم المألوف المرتبط بهذا **المعاملة الخاصة والتفضيلية** . لا يمكن أن يكون فارغًا . |
+| [WordOpenXML](../../aspose.words.markup/structureddocumenttag/wordopenxml) { get; } | يحصل على سلسلة تمثل XML الموجود داخل العقدة في ملفFlatOpc التنسيق . |
 | [XmlMapping](../../aspose.words.markup/structureddocumenttag/xmlmapping) { get; } | الحصول على كائن يمثل تعيين علامة المستند المهيكلة هذه إلى بيانات XML في جزء XML مخصص من المستند الحالي. |
 
 ## طُرق
@@ -80,7 +80,7 @@ public class StructuredDocumentTag : CompositeNode, IStructuredDocumentTag
 | [GetAncestor](../../aspose.words/node/getancestor)(Type) | الحصول على الأصل الأول لنوع الكائن المحدد. |
 | [GetChild](../../aspose.words/compositenode/getchild)(NodeType, int, bool) | إرجاع العقدة الفرعية رقم N التي تطابق النوع المحدد. |
 | [GetChildNodes](../../aspose.words/compositenode/getchildnodes)(NodeType, bool) | إرجاع مجموعة مباشرة من العقد الفرعية التي تطابق النوع المحدد. |
-| [GetEnumerator](../../aspose.words/compositenode/getenumerator)() | يوفر دعمًا لكل تكرار نمط على العقد التابعة لهذه العقدة ._ x000d_ |
+| [GetEnumerator](../../aspose.words/compositenode/getenumerator)() | يوفر دعمًا لكل تكرار نمط على العقد التابعة لهذه العقدة . |
 | override [GetText](../../aspose.words/compositenode/gettext)() | يحصل على نص هذه العقدة وجميع توابعها. |
 | [IndexOf](../../aspose.words/compositenode/indexof)(Node) | إرجاع فهرس العقدة الفرعية المحددة في مصفوفة العقدة الفرعية. |
 | [InsertAfter](../../aspose.words/compositenode/insertafter)(Node, Node) | يدخل العقدة المحددة مباشرة بعد العقدة المرجعية المحددة. |

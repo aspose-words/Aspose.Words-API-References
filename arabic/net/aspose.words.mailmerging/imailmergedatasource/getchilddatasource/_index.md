@@ -26,7 +26,7 @@ public IMailMergeDataSource GetChildDataSource(string tableName)
 
 عندما تملأ محركات دمج المراسلات Aspose.Words منطقة دمج بريد بالبيانات وتواجه بداية منطقة دمج بريد متداخلة في شكل MERGEFIELD TableStart: TableName ، تستدعي`GetChildDataSource` على كائن مصدر البيانات current . يحتاج التنفيذ الخاص بك إلى إرجاع كائن مصدر بيانات جديد يوفر الوصول إلى سجلات child للسجل الأصل الحالي. سوف تستخدم كلمات Aspose.Words مصدر البيانات الذي تم إرجاعه لملء منطقة دمج البريد المتداخلة.
 
-فيما يلي القواعد التي يتم تنفيذها`GetChildDataSource` يجب أن تتبع ._ x000d_
+فيما يلي القواعد التي يتم تنفيذها`GetChildDataSource` يجب أن تتبع .
 
 إذا كان الجدول الذي يمثله كائن مصدر البيانات هذا يحتوي على جدول فرعي (تفصيلي) مرتبط بالاسم المحدد ، فحينئذٍ يحتاج التنفيذ إلى إرجاع عنصر جديد[`IMailMergeDataSource`](../../imailmergedatasource) الذي سيوفر access إلى السجلات التابعة للسجل الحالي. مثال على ذلك هو علاقة الطلبات / تفاصيل الطلب. لنفترض أن التيار[`IMailMergeDataSource`](../../imailmergedatasource) يمثل object جدول الطلبات وله سجل أوامر حالي. بعد ذلك ، يواجه Aspose.Words "MERGEFIELD TableStart: OrderDetails" في المستند ويستدعى`GetChildDataSource` . تحتاج إلى إنشاء وإرجاع ملف[`IMailMergeDataSource`](../../imailmergedatasource) كائن سيسمح لـ Aspose.Words بالوصول إلى سجل OrderDetails للطلب الحالي.
 

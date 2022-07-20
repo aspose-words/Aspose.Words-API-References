@@ -1,14 +1,14 @@
 ---
 title: DistanceBottom
 second_title: Aspose.Words لمراجع .NET API
-description: تحصل على المسافة بين أسفل الجدول والنص المحيط بالنقاط ._ x000d_
+description: تحصل على المسافة بين أسفل الجدول والنص المحيط بالنقاط .
 type: docs
 weight: 120
 url: /ar/net/aspose.words.tables/table/distancebottom/
 ---
 ## Table.DistanceBottom property
 
-تحصل على المسافة بين أسفل الجدول والنص المحيط بالنقاط ._ x000d_
+تحصل على المسافة بين أسفل الجدول والنص المحيط بالنقاط .
 
 ```csharp
 public double DistanceBottom { get; }

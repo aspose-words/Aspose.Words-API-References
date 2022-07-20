@@ -1,14 +1,14 @@
 ---
 title: FieldDatabaseDataRow
 second_title: Aspose.Words لمراجع .NET API
-description: يقوم بتهيئة مثيل جديد لملفFieldDatabaseDataRowaspose.words.fields/fielddatabasedatarow فئة ._ x000d_
+description: يقوم بتهيئة مثيل جديد لملفFieldDatabaseDataRowaspose.words.fields/fielddatabasedatarow فئة .
 type: docs
 weight: 10
 url: /ar/net/aspose.words.fields/fielddatabasedatarow/fielddatabasedatarow/
 ---
 ## FieldDatabaseDataRow constructor
 
-يقوم بتهيئة مثيل جديد لملف[`FieldDatabaseDataRow`](../../fielddatabasedatarow) فئة ._ x000d_
+يقوم بتهيئة مثيل جديد لملف[`FieldDatabaseDataRow`](../../fielddatabasedatarow) فئة .
 
 ```csharp
 public FieldDatabaseDataRow(params string[] values)

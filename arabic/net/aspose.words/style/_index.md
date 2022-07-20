@@ -32,14 +32,14 @@ public class Style
 | [NextParagraphStyleName](../../aspose.words/style/nextparagraphstylename) { get; set; } | يحصل / يحدد اسم النمط ليتم تطبيقه تلقائيًا على فقرة جديدة مدرجة بعد a فقرة منسقة بالنمط المحدد. |
 | [ParagraphFormat](../../aspose.words/style/paragraphformat) { get; } | الحصول على تنسيق الفقرة للنمط. |
 | [StyleIdentifier](../../aspose.words/style/styleidentifier) { get; } | الحصول على معرف النمط المستقل للإعدادات المحلية لنمط مضمن. |
-| [Styles](../../aspose.words/style/styles) { get; } | الحصول على مجموعة الأنماط التي ينتمي إليها هذا النمط ._ x000d_ |
-| [Type](../../aspose.words/style/type) { get; } | الحصول على نوع النمط (فقرة أو حرف) ._ x000d_ |
+| [Styles](../../aspose.words/style/styles) { get; } | الحصول على مجموعة الأنماط التي ينتمي إليها هذا النمط . |
+| [Type](../../aspose.words/style/type) { get; } | الحصول على نوع النمط (فقرة أو حرف) . |
 
 ## طُرق
 
 | اسم | وصف |
 | --- | --- |
-| [Equals](../../aspose.words/style/equals#equals)(Style) | مقارنة بالنمط المحدد ._ x000d_ تتم مقارنة الأنماط للأنماط المضمنة فقط . لا يتم تضمين افتراضيات الأنماط في المقارنة. تتم مقارنة النمط الأساسي والنمط المرتبط ونمط الفقرة التالي بشكل متكرر. |
+| [Equals](../../aspose.words/style/equals#equals)(Style) | مقارنة بالنمط المحدد . تتم مقارنة الأنماط للأنماط المضمنة فقط . لا يتم تضمين افتراضيات الأنماط في المقارنة. تتم مقارنة النمط الأساسي والنمط المرتبط ونمط الفقرة التالي بشكل متكرر. |
 | [Remove](../../aspose.words/style/remove)() | يزيل النمط المحدد من المستند. |
 
 ### أمثلة

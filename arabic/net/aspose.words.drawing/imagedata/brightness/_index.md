@@ -1,14 +1,14 @@
 ---
 title: Brightness
 second_title: Aspose.Words لمراجع .NET API
-description: الحصول على سطوع الصورة أو ضبطه ._ x000d_ يجب أن تكون قيمة هذه الخاصية رقمًا من 0.0 خافت إلى 1.0 الأكثر سطوعًا ._ x000d_
+description: الحصول على سطوع الصورة أو ضبطه . يجب أن تكون قيمة هذه الخاصية رقمًا من 0.0 خافت إلى 1.0 الأكثر سطوعًا .
 type: docs
 weight: 30
 url: /ar/net/aspose.words.drawing/imagedata/brightness/
 ---
 ## ImageData.Brightness property
 
-الحصول على سطوع الصورة أو ضبطه ._ x000d_ يجب أن تكون قيمة هذه الخاصية رقمًا من 0.0 (خافت) إلى 1.0 (الأكثر سطوعًا) ._ x000d_
+الحصول على سطوع الصورة أو ضبطه . يجب أن تكون قيمة هذه الخاصية رقمًا من 0.0 (خافت) إلى 1.0 (الأكثر سطوعًا) .
 
 ```csharp
 public double Brightness { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: BuildingBlockBehavior
 second_title: Aspose.Words لمراجع .NET API
-description: يحدد السلوك الذي يجب تطبيقه على محتويات الكتلة البرمجية الإنشائية_ x000d_ عند إدراجه في المستند الرئيسي.
+description: يحدد السلوك الذي يجب تطبيقه على محتويات الكتلة البرمجية الإنشائية عند إدراجه في المستند الرئيسي.
 type: docs
 weight: 130
 url: /ar/net/aspose.words.buildingblocks/buildingblockbehavior/
 ---
 ## BuildingBlockBehavior enumeration
 
-يحدد السلوك الذي يجب تطبيقه على محتويات الكتلة البرمجية الإنشائية_ x000d_ عند إدراجه في المستند الرئيسي.
+يحدد السلوك الذي يجب تطبيقه على محتويات الكتلة البرمجية الإنشائية عند إدراجه في المستند الرئيسي.
 
 ```csharp
 public enum BuildingBlockBehavior

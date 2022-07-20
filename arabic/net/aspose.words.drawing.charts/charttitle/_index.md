@@ -19,8 +19,8 @@ public class ChartTitle
 | اسم | وصف |
 | --- | --- |
 | [Overlay](../../aspose.words.drawing.charts/charttitle/overlay) { get; set; } | يحدد ما إذا كان يُسمح لعناصر المخطط الأخرى بالتداخل مع العنوان. بشكل افتراضي ، يكون التراكب خاطئًا. |
-| [Show](../../aspose.words.drawing.charts/charttitle/show) { get; set; } | لتحديد ما إذا كان العنوان سيظهر لهذا المخطط. القيمة الافتراضية هي صحيحة ._ x000d_ |
-| [Text](../../aspose.words.drawing.charts/charttitle/text) { get; set; } | الحصول على نص عنوان المخطط أو تعيينه. _ x000d_ إذا تم تحديد قيمة فارغة أو فارغة ، فسيتم عرض العنوان الذي تم إنشاؤه تلقائيًا. |
+| [Show](../../aspose.words.drawing.charts/charttitle/show) { get; set; } | لتحديد ما إذا كان العنوان سيظهر لهذا المخطط. القيمة الافتراضية هي صحيحة . |
+| [Text](../../aspose.words.drawing.charts/charttitle/text) { get; set; } | الحصول على نص عنوان المخطط أو تعيينه. إذا تم تحديد قيمة فارغة أو فارغة ، فسيتم عرض العنوان الذي تم إنشاؤه تلقائيًا. |
 
 ### أمثلة
 

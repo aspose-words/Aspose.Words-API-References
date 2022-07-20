@@ -1,14 +1,14 @@
 ---
 title: Contrast
 second_title: Aspose.Words لمراجع .NET API
-description: الحصول على أو تحديد التباين للصورة المحددة. يجب أن تكون قيمة value لهذه الخاصية عددًا من 0.0 أقل تباين إلى 1.0 أكبر تباين ._ x000d_
+description: الحصول على أو تحديد التباين للصورة المحددة. يجب أن تكون قيمة value لهذه الخاصية عددًا من 0.0 أقل تباين إلى 1.0 أكبر تباين .
 type: docs
 weight: 50
 url: /ar/net/aspose.words.drawing/imagedata/contrast/
 ---
 ## ImageData.Contrast property
 
-الحصول على أو تحديد التباين للصورة المحددة. يجب أن تكون قيمة value لهذه الخاصية عددًا من 0.0 (أقل تباين) إلى 1.0 (أكبر تباين) ._ x000d_
+الحصول على أو تحديد التباين للصورة المحددة. يجب أن تكون قيمة value لهذه الخاصية عددًا من 0.0 (أقل تباين) إلى 1.0 (أكبر تباين) .
 
 ```csharp
 public double Contrast { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: DefaultInstance
 second_title: Aspose.Words لمراجع .NET API
-description: إعدادات الخط الافتراضية الثابتة ._ x000d_
+description: إعدادات الخط الافتراضية الثابتة .
 type: docs
 weight: 20
 url: /ar/net/aspose.words.fonts/fontsettings/defaultinstance/
 ---
 ## FontSettings.DefaultInstance property
 
-إعدادات الخط الافتراضية الثابتة ._ x000d_
+إعدادات الخط الافتراضية الثابتة .
 
 ```csharp
 public static FontSettings DefaultInstance { get; }

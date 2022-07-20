@@ -1,14 +1,14 @@
 ---
 title: Bottom
 second_title: Aspose.Words لمراجع .NET API
-description: يحصل على الحد السفلي ._ x000d_
+description: يحصل على الحد السفلي .
 type: docs
 weight: 10
 url: /ar/net/aspose.words/bordercollection/bottom/
 ---
 ## BorderCollection.Bottom property
 
-يحصل على الحد السفلي ._ x000d_
+يحصل على الحد السفلي .
 
 ```csharp
 public Border Bottom { get; }

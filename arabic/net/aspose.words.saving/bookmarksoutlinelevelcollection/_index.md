@@ -31,13 +31,13 @@ public class BookmarksOutlineLevelCollection : IEnumerable<KeyValuePair<string, 
 
 | اسم | وصف |
 | --- | --- |
-| [Add](../../aspose.words.saving/bookmarksoutlinelevelcollection/add)(string, int) | إضافة إشارة مرجعية إلى المجموعة ._ x000d_ |
+| [Add](../../aspose.words.saving/bookmarksoutlinelevelcollection/add)(string, int) | إضافة إشارة مرجعية إلى المجموعة . |
 | [Clear](../../aspose.words.saving/bookmarksoutlinelevelcollection/clear)() | يزيل كل العناصر من المجموعة. |
 | [Contains](../../aspose.words.saving/bookmarksoutlinelevelcollection/contains)(string) | لتحديد ما إذا كانت المجموعة تحتوي على إشارة مرجعية بالاسم المحدد. |
 | [GetEnumerator](../../aspose.words.saving/bookmarksoutlinelevelcollection/getenumerator)() |  |
 | [IndexOfKey](../../aspose.words.saving/bookmarksoutlinelevelcollection/indexofkey)(string) | إرجاع الفهرس الصفري للإشارة المرجعية المحددة في المجموعة. |
 | [Remove](../../aspose.words.saving/bookmarksoutlinelevelcollection/remove)(string) | يزيل إشارة مرجعية بالاسم المحدد من المجموعة. |
-| [RemoveAt](../../aspose.words.saving/bookmarksoutlinelevelcollection/removeat)(int) | يزيل إشارة مرجعية في الفهرس المحدد ._ x000d_ |
+| [RemoveAt](../../aspose.words.saving/bookmarksoutlinelevelcollection/removeat)(int) | يزيل إشارة مرجعية في الفهرس المحدد . |
 
 ### ملاحظات
 

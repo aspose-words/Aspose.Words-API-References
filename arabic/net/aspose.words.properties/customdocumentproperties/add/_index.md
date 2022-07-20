@@ -1,14 +1,14 @@
 ---
 title: Add
 second_title: Aspose.Words لمراجع .NET API
-description: إنشاء خاصية مستند مخصصة جديدة لملف PropertyType.String نوع البيانات ._ x000d_
+description: إنشاء خاصية مستند مخصصة جديدة لملف PropertyType.String نوع البيانات .
 type: docs
 weight: 10
 url: /ar/net/aspose.words.properties/customdocumentproperties/add/
 ---
 ## Add(string, string) {#add_4}
 
-إنشاء خاصية مستند مخصصة جديدة لملف **PropertyType.String** نوع البيانات ._ x000d_
+إنشاء خاصية مستند مخصصة جديدة لملف **PropertyType.String** نوع البيانات .
 
 ```csharp
 public DocumentProperty Add(string name, string value)
@@ -91,7 +91,7 @@ Assert.AreEqual(0, properties.Count);
 
 ## Add(string, int) {#add_2}
 
-إنشاء خاصية مستند مخصصة جديدة لملف **نوع الملكية** نوع البيانات ._ x000d_
+إنشاء خاصية مستند مخصصة جديدة لملف **نوع الملكية** نوع البيانات .
 
 ```csharp
 public DocumentProperty Add(string name, int value)
@@ -174,7 +174,7 @@ Assert.AreEqual(0, properties.Count);
 
 ## Add(string, DateTime) {#add_3}
 
-إنشاء خاصية مستند مخصصة جديدة لملف **PropertyType.DateTime** نوع البيانات ._ x000d_
+إنشاء خاصية مستند مخصصة جديدة لملف **PropertyType.DateTime** نوع البيانات .
 
 ```csharp
 public DocumentProperty Add(string name, DateTime value)
@@ -267,7 +267,7 @@ Assert.AreEqual(0, properties.Count);
 
 ## Add(string, bool) {#add}
 
-إنشاء خاصية مستند مخصصة جديدة لملف **نوع الملكية. منطقي** نوع البيانات ._ x000d_
+إنشاء خاصية مستند مخصصة جديدة لملف **نوع الملكية. منطقي** نوع البيانات .
 
 ```csharp
 public DocumentProperty Add(string name, bool value)
@@ -350,7 +350,7 @@ Assert.AreEqual(0, properties.Count);
 
 ## Add(string, double) {#add_1}
 
-إنشاء خاصية مستند مخصصة جديدة لملف **نوع الملكية** نوع البيانات ._ x000d_
+إنشاء خاصية مستند مخصصة جديدة لملف **نوع الملكية** نوع البيانات .
 
 ```csharp
 public DocumentProperty Add(string name, double value)

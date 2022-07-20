@@ -1,14 +1,14 @@
 ---
 title: ListStyle
 second_title: Aspose.Words لمراجع .NET API
-description: الحصول على أو تحديد اسم النمط الذي تستند إليه القائمة التي ستحتوي على الإدخالات ._ x000d_
+description: الحصول على أو تحديد اسم النمط الذي تستند إليه القائمة التي ستحتوي على الإدخالات .
 type: docs
 weight: 30
 url: /ar/net/aspose.words.fields/fieldautotextlist/liststyle/
 ---
 ## FieldAutoTextList.ListStyle property
 
-الحصول على أو تحديد اسم النمط الذي تستند إليه القائمة التي ستحتوي على الإدخالات ._ x000d_
+الحصول على أو تحديد اسم النمط الذي تستند إليه القائمة التي ستحتوي على الإدخالات .
 
 ```csharp
 public string ListStyle { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: TextPath
 second_title: Aspose.Words لمراجع .NET API
-description: يحدد النص وتنسيق مسار النص لكائن WordArt ._ x000d_
+description: يحدد النص وتنسيق مسار النص لكائن WordArt .
 type: docs
 weight: 1200
 url: /ar/net/aspose.words.drawing/textpath/
 ---
 ## TextPath class
 
-يحدد النص وتنسيق مسار النص (لكائن WordArt) ._ x000d_
+يحدد النص وتنسيق مسار النص (لكائن WordArt) .
 
 ```csharp
 public class TextPath
@@ -29,19 +29,19 @@ public class TextPath
 | [RotateLetters](../../aspose.words.drawing/textpath/rotateletters) { get; set; } | لتحديد ما إذا كان سيتم تدوير أحرف النص. |
 | [SameLetterHeights](../../aspose.words.drawing/textpath/sameletterheights) { get; set; } | لتحديد ما إذا كانت جميع الأحرف ستكون بنفس الارتفاع بغض النظر عن الحالة الأولية. |
 | [Shadow](../../aspose.words.drawing/textpath/shadow) { get; set; } | يحدد ما إذا كان يتم تطبيق الظل على النص الموجود على مسار النص. |
-| [Size](../../aspose.words.drawing/textpath/size) { get; set; } | يحدد حجم الخط بالنقاط ._ x000d_ |
+| [Size](../../aspose.words.drawing/textpath/size) { get; set; } | يحدد حجم الخط بالنقاط . |
 | [SmallCaps](../../aspose.words.drawing/textpath/smallcaps) { get; set; } | True إذا تم تنسيق الخط كأحرف كبيرة صغيرة. |
-| [Spacing](../../aspose.words.drawing/textpath/spacing) { get; set; } | يحدد مقدار التباعد للنص. 1 يعني 100٪ ._ x000d_ |
-| [StrikeThrough](../../aspose.words.drawing/textpath/strikethrough) { get; set; } | True إذا تم تنسيق الخط كنص يتوسطه خط ._ x000d_ |
+| [Spacing](../../aspose.words.drawing/textpath/spacing) { get; set; } | يحدد مقدار التباعد للنص. 1 يعني 100٪ . |
+| [StrikeThrough](../../aspose.words.drawing/textpath/strikethrough) { get; set; } | True إذا تم تنسيق الخط كنص يتوسطه خط . |
 | [Text](../../aspose.words.drawing/textpath/text) { get; set; } | يحدد نص مسار النص. |
-| [TextPathAlignment](../../aspose.words.drawing/textpath/textpathalignment) { get; set; } | يحدد محاذاة النص ._ x000d_ |
+| [TextPathAlignment](../../aspose.words.drawing/textpath/textpathalignment) { get; set; } | يحدد محاذاة النص . |
 | [Trim](../../aspose.words.drawing/textpath/trim) { get; set; } | لتحديد ما إذا كانت المساحة الزائدة ستتم إزالتها أعلى النص وأسفله. |
 | [Underline](../../aspose.words.drawing/textpath/underline) { get; set; } | صحيح إذا كان الخط مسطرًا . |
 | [XScale](../../aspose.words.drawing/textpath/xscale) { get; set; } | يحدد ما إذا كان سيتم استخدام مسار نص مستقيم بدلاً من مسار الشكل. |
 
 ### ملاحظات
 
-استخدم ال[`TextPath`](../shape/textpath) للوصول إلى خصائص WordArt لشكل ._ x000d_ لا يمكنك إنشاء مثيلات من[`TextPath`](../textpath) فئة مباشرة.
+استخدم ال[`TextPath`](../shape/textpath) للوصول إلى خصائص WordArt لشكل . لا يمكنك إنشاء مثيلات من[`TextPath`](../textpath) فئة مباشرة.
 
 ### أمثلة
 

@@ -21,7 +21,7 @@ public class HorizontalRuleFormat
 | [Alignment](../../aspose.words.drawing/horizontalruleformat/alignment) { get; set; } | الحصول على محاذاة القاعدة الأفقية أو تعيينها. |
 | [Color](../../aspose.words.drawing/horizontalruleformat/color) { get; set; } | الحصول على أو تعيين لون الفرشاة الذي يملأ القاعدة الأفقية. |
 | [Height](../../aspose.words.drawing/horizontalruleformat/height) { get; set; } | الحصول على أو تحديد ارتفاع القاعدة الأفقية. |
-| [NoShade](../../aspose.words.drawing/horizontalruleformat/noshade) { get; set; } | يشير إلى وجود تظليل ثلاثي الأبعاد للقاعدة الأفقية ._ x000d_ إذا كان هذا صحيحًا ، فإن القاعدة الأفقية بدون تظليل ثلاثي الأبعاد ويتم استخدام لون خالص ._ x000d_ |
+| [NoShade](../../aspose.words.drawing/horizontalruleformat/noshade) { get; set; } | يشير إلى وجود تظليل ثلاثي الأبعاد للقاعدة الأفقية . إذا كان هذا صحيحًا ، فإن القاعدة الأفقية بدون تظليل ثلاثي الأبعاد ويتم استخدام لون خالص . |
 | [WidthPercent](../../aspose.words.drawing/horizontalruleformat/widthpercent) { get; set; } | الحصول على أو تحديد طول القاعدة الأفقية المحددة كنسبة مئوية من عرض النافذة. |
 
 ### أمثلة

@@ -1,14 +1,14 @@
 ---
 title: NodeList
 second_title: Aspose.Words لمراجع .NET API
-description: يمثل مجموعة من العقد المطابقة لاستعلام XPath المنفذ باستخدام امتدادSelectNodes./compositenode/selectnodes طريقة ._ x000d_
+description: يمثل مجموعة من العقد المطابقة لاستعلام XPath المنفذ باستخدام امتدادSelectNodes./compositenode/selectnodes طريقة .
 type: docs
 weight: 3980
 url: /ar/net/aspose.words/nodelist/
 ---
 ## NodeList class
 
-يمثل مجموعة من العقد المطابقة لاستعلام XPath المنفذ باستخدام امتداد[`SelectNodes`](../compositenode/selectnodes) طريقة ._ x000d_
+يمثل مجموعة من العقد المطابقة لاستعلام XPath المنفذ باستخدام امتداد[`SelectNodes`](../compositenode/selectnodes) طريقة .
 
 ```csharp
 public class NodeList : IEnumerable<Node>

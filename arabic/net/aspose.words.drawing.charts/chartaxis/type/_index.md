@@ -1,14 +1,14 @@
 ---
 title: Type
 second_title: Aspose.Words لمراجع .NET API
-description: إرجاع نوع المحور ._ x000d_
+description: إرجاع نوع المحور .
 type: docs
 weight: 260
 url: /ar/net/aspose.words.drawing.charts/chartaxis/type/
 ---
 ## ChartAxis.Type property
 
-إرجاع نوع المحور ._ x000d_
+إرجاع نوع المحور .
 
 ```csharp
 public ChartAxisType Type { get; }

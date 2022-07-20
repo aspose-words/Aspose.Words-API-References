@@ -1,14 +1,14 @@
 ---
 title: SuppressTopSpacing
 second_title: Aspose.Words لمراجع .NET API
-description: تجاهل الحد الأدنى والضبط لارتفاع السطر للخط الأول في الصفحة ._ x000d_
+description: تجاهل الحد الأدنى والضبط لارتفاع السطر للخط الأول في الصفحة .
 type: docs
 weight: 510
 url: /ar/net/aspose.words.settings/compatibilityoptions/suppresstopspacing/
 ---
 ## CompatibilityOptions.SuppressTopSpacing property
 
-تجاهل الحد الأدنى والضبط لارتفاع السطر للخط الأول في الصفحة ._ x000d_
+تجاهل الحد الأدنى والضبط لارتفاع السطر للخط الأول في الصفحة .
 
 ```csharp
 public bool SuppressTopSpacing { get; set; }

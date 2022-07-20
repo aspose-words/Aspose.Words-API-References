@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Aspose.Words لمراجع .NET API
-description: إرجاع أDocumentPropertyaspose.words.properties/documentproperty الكائن باسم الخاصية ._ x000d_
+description: إرجاع أDocumentPropertyaspose.words.properties/documentproperty الكائن باسم الخاصية .
 type: docs
 weight: 20
 url: /ar/net/aspose.words.properties/documentpropertycollection/item/
 ---
 ## DocumentPropertyCollection indexer (1 of 2)
 
-إرجاع أ[`DocumentProperty`](../../documentproperty) الكائن باسم الخاصية ._ x000d_
+إرجاع أ[`DocumentProperty`](../../documentproperty) الكائن باسم الخاصية .
 
 ```csharp
 public virtual DocumentProperty this[string name] { get; }

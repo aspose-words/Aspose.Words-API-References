@@ -1,14 +1,14 @@
 ---
 title: WebRequestTimeout
 second_title: Aspose.Words لمراجع .NET API
-description: عدد المللي ثانية المطلوب انتظاره قبل انتهاء مهلة طلب الويب. القيمة الافتراضية هي 100000 مللي ثانية_ x000d_ 100 ثانية ._ x000d_
+description: عدد المللي ثانية المطلوب انتظاره قبل انتهاء مهلة طلب الويب. القيمة الافتراضية هي 100000 مللي ثانية 100 ثانية .
 type: docs
 weight: 70
 url: /ar/net/aspose.words.loading/htmlloadoptions/webrequesttimeout/
 ---
 ## HtmlLoadOptions.WebRequestTimeout property
 
-عدد المللي ثانية المطلوب انتظاره قبل انتهاء مهلة طلب الويب. القيمة الافتراضية هي 100000 مللي ثانية_ x000d_ (100 ثانية) ._ x000d_
+عدد المللي ثانية المطلوب انتظاره قبل انتهاء مهلة طلب الويب. القيمة الافتراضية هي 100000 مللي ثانية (100 ثانية) .
 
 ```csharp
 public int WebRequestTimeout { get; set; }

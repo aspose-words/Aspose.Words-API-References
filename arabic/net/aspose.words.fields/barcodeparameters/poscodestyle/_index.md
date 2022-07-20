@@ -1,14 +1,14 @@
 ---
 title: PosCodeStyle
 second_title: Aspose.Words لمراجع .NET API
-description: نمط الرمز الشريطي لنقطة البيع أنواع الرموز الشريطية UPCA x7C UPCE x7C EAN13 x7C EAN8. القيم الصالحة غير حساسة لحالة الأحرف هي STD x7C SUP2 x7C SUP5 x7C CASE ._ x000d_
+description: نمط الرمز الشريطي لنقطة البيع أنواع الرموز الشريطية UPCA x7C UPCE x7C EAN13 x7C EAN8. القيم الصالحة غير حساسة لحالة الأحرف هي STD x7C SUP2 x7C SUP5 x7C CASE .
 type: docs
 weight: 140
 url: /ar/net/aspose.words.fields/barcodeparameters/poscodestyle/
 ---
 ## BarcodeParameters.PosCodeStyle property
 
-نمط الرمز الشريطي لنقطة البيع (أنواع الرموز الشريطية UPCA &#x7C; UPCE &#x7C; EAN13 &#x7C; EAN8). القيم الصالحة (غير حساسة لحالة الأحرف) هي [STD &#x7C; SUP2 &#x7C; SUP5 &#x7C; CASE] ._ x000d_
+نمط الرمز الشريطي لنقطة البيع (أنواع الرموز الشريطية UPCA &#x7C; UPCE &#x7C; EAN13 &#x7C; EAN8). القيم الصالحة (غير حساسة لحالة الأحرف) هي [STD &#x7C; SUP2 &#x7C; SUP5 &#x7C; CASE] .
 
 ```csharp
 public string PosCodeStyle { get; set; }

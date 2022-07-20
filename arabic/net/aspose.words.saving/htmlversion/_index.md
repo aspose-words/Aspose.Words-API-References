@@ -1,14 +1,14 @@
 ---
 title: HtmlVersion
 second_title: Aspose.Words لمراجع .NET API
-description: يشير إلى إصدار HTML المستخدم عند حفظ المستندHtml و _ x000d_Mhtml التنسيقات ._ x000d_
+description: يشير إلى إصدار HTML المستخدم عند حفظ المستندHtml و Mhtml التنسيقات .
 type: docs
 weight: 4860
 url: /ar/net/aspose.words.saving/htmlversion/
 ---
 ## HtmlVersion enumeration
 
-يشير إلى إصدار HTML المستخدم عند حفظ المستندHtml و _ x000d_Mhtml التنسيقات ._ x000d_
+يشير إلى إصدار HTML المستخدم عند حفظ المستندHtml و Mhtml التنسيقات .
 
 ```csharp
 public enum HtmlVersion

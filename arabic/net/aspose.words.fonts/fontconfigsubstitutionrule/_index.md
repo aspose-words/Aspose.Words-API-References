@@ -1,14 +1,14 @@
 ---
 title: FontConfigSubstitutionRule
 second_title: Aspose.Words لمراجع .NET API
-description: قاعدة استبدال تكوين الخط ._ x000d_
+description: قاعدة استبدال تكوين الخط .
 type: docs
 weight: 2710
 url: /ar/net/aspose.words.fonts/fontconfigsubstitutionrule/
 ---
 ## FontConfigSubstitutionRule class
 
-قاعدة استبدال تكوين الخط ._ x000d_
+قاعدة استبدال تكوين الخط .
 
 ```csharp
 public class FontConfigSubstitutionRule : FontSubstitutionRule
@@ -29,7 +29,7 @@ public class FontConfigSubstitutionRule : FontSubstitutionRule
 
 ### ملاحظات
 
-تستخدم هذه القاعدة الأداة المساعدة fontconfig على أنظمة Linux (والأنظمة الأخرى المشابهة لـ Unix) للحصول على الاستبدال_ x000d_ إذا كان الخط الأصلي غير متوفر.
+تستخدم هذه القاعدة الأداة المساعدة fontconfig على أنظمة Linux (والأنظمة الأخرى المشابهة لـ Unix) للحصول على الاستبدال إذا كان الخط الأصلي غير متوفر.
 
 إذا لم تكن الأداة المساعدة fontconfig متاحة ، فسيتم تجاهل هذه القاعدة.
 

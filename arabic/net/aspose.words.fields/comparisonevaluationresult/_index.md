@@ -1,14 +1,14 @@
 ---
 title: ComparisonEvaluationResult
 second_title: Aspose.Words لمراجع .NET API
-description: نتيجة تقييم المقارنة ._ x000d_
+description: نتيجة تقييم المقارنة .
 type: docs
 weight: 1330
 url: /ar/net/aspose.words.fields/comparisonevaluationresult/
 ---
 ## ComparisonEvaluationResult class
 
-نتيجة تقييم المقارنة ._ x000d_
+نتيجة تقييم المقارنة .
 
 ```csharp
 public sealed class ComparisonEvaluationResult
@@ -18,15 +18,15 @@ public sealed class ComparisonEvaluationResult
 
 | اسم | وصف |
 | --- | --- |
-| [ComparisonEvaluationResult](comparisonevaluationresult#constructor)(bool) | إنشاء نتيجة تقييم مقارنة ._ x000d_ |
+| [ComparisonEvaluationResult](comparisonevaluationresult#constructor)(bool) | إنشاء نتيجة تقييم مقارنة . |
 | [ComparisonEvaluationResult](comparisonevaluationresult#constructor_1)(string) | إنشاء نتيجة تقييم مقارنة فاشلة مع رسالة الخطأ المقابلة. |
 
 ## الخصائص
 
 | اسم | وصف |
 | --- | --- |
-| [ErrorMessage](../../aspose.words.fields/comparisonevaluationresult/errormessage) { get; } | الحصول على رسالة الخطأ الخاصة بنتيجة تقييم المقارنة الفاشلة ._ x000d_ |
-| [Result](../../aspose.words.fields/comparisonevaluationresult/result) { get; } | الحصول على نتيجة تقييم المقارنة ._ x000d_ |
+| [ErrorMessage](../../aspose.words.fields/comparisonevaluationresult/errormessage) { get; } | الحصول على رسالة الخطأ الخاصة بنتيجة تقييم المقارنة الفاشلة . |
+| [Result](../../aspose.words.fields/comparisonevaluationresult/result) { get; } | الحصول على نتيجة تقييم المقارنة . |
 
 ### أمثلة
 

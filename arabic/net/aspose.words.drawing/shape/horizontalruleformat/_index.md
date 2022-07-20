@@ -1,14 +1,14 @@
 ---
 title: HorizontalRuleFormat
 second_title: Aspose.Words لمراجع .NET API
-description: يوفر الوصول إلى خصائص شكل القاعدة الأفقية. _ x000d_ بالنسبة للشكل الذي ليس قاعدة أفقية  يتم إرجاع قيمة خالية.
+description: يوفر الوصول إلى خصائص شكل القاعدة الأفقية. بالنسبة للشكل الذي ليس قاعدة أفقية  يتم إرجاع قيمة خالية.
 type: docs
 weight: 100
 url: /ar/net/aspose.words.drawing/shape/horizontalruleformat/
 ---
 ## Shape.HorizontalRuleFormat property
 
-يوفر الوصول إلى خصائص شكل القاعدة الأفقية. _ x000d_ بالنسبة للشكل الذي ليس قاعدة أفقية ، يتم إرجاع قيمة خالية.
+يوفر الوصول إلى خصائص شكل القاعدة الأفقية. بالنسبة للشكل الذي ليس قاعدة أفقية ، يتم إرجاع قيمة خالية.
 
 ```csharp
 public HorizontalRuleFormat HorizontalRuleFormat { get; }

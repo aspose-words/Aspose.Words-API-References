@@ -1,14 +1,14 @@
 ---
 title: StyleIdentifier
 second_title: Aspose.Words لمراجع .NET API
-description: معرّف نمط مستقل للإعدادات المحلية ._ x000d_
+description: معرّف نمط مستقل للإعدادات المحلية .
 type: docs
 weight: 5850
 url: /ar/net/aspose.words/styleidentifier/
 ---
 ## StyleIdentifier enumeration
 
-معرّف نمط مستقل للإعدادات المحلية ._ x000d_
+معرّف نمط مستقل للإعدادات المحلية .
 
 ```csharp
 public enum StyleIdentifier
@@ -19,12 +19,12 @@ public enum StyleIdentifier
 | اسم | قيمة | وصف |
 | --- | --- | --- |
 | BookTitle | `264` |  |
-| CommentReference | `39` | النمط المرجعي للتعليق التوضيحي (التعليق) ._ x000d_ |
-| DefaultParagraphFont | `65` | نمط خط الفقرة الافتراضي ._ x000d_ |
+| CommentReference | `39` | النمط المرجعي للتعليق التوضيحي (التعليق) . |
+| DefaultParagraphFont | `65` | نمط خط الفقرة الافتراضي . |
 | Emphasis | `88` |  |
 | EndnoteReference | `42` | نمط مرجع التعليق الختامي. |
 | FollowedHyperlink | `86` |  |
-| FootnoteReference | `38` | النمط المرجعي للحاشية السفلية ._ x000d_ |
+| FootnoteReference | `38` | النمط المرجعي للحاشية السفلية . |
 | HtmlAcronym | `95` |  |
 | HtmlCite | `97` |  |
 | HtmlCode | `98` |  |
@@ -33,18 +33,18 @@ public enum StyleIdentifier
 | HtmlSample | `102` |  |
 | HtmlTypewriter | `103` |  |
 | HtmlVariable | `104` |  |
-| Hyperlink | `85` | نمط الارتباط التشعبي ._ x000d_ |
+| Hyperlink | `85` | نمط الارتباط التشعبي . |
 | IntenseEmphasis | `261` |  |
 | IntenseReference | `263` |  |
-| LineNumber | `40` | نمط رقم الخط ._ x000d_ |
-| PageNumber | `41` | نمط رقم الصفحة ._ x000d_ |
+| LineNumber | `40` | نمط رقم الخط . |
+| PageNumber | `41` | نمط رقم الصفحة . |
 | PlaceholderText | `156` |  |
-| SmartLink | `371` | نمط الارتباط الذكي ._ x000d_ |
+| SmartLink | `371` | نمط الارتباط الذكي . |
 | Strong | `87` |  |
 | SubtleEmphasis | `260` |  |
 | SubtleReference | `262` |  |
 | BalloonText | `153` |  |
-| BodyText | `66` | نمط النص الأساسي ._ x000d_ |
+| BodyText | `66` | نمط النص الأساسي . |
 | BodyText2 | `80` |  |
 | BodyText3 | `81` |  |
 | BodyText1I | `77` |  |
@@ -54,23 +54,23 @@ public enum StyleIdentifier
 | BodyTextInd3 | `83` |  |
 | Closing | `63` |  |
 | CommentSubject | `106` |  |
-| CommentText | `30` | نمط نص التعليق التوضيحي (التعليق) ._ x000d_ |
+| CommentText | `30` | نمط نص التعليق التوضيحي (التعليق) . |
 | Date | `76` |  |
 | DocumentMap | `89` |  |
 | EmailSignature | `91` |  |
-| EndnoteText | `43` | نمط نص التعليق الختامي ._ x000d_ |
-| Footer | `32` | نمط التذييل ._ x000d_ |
-| FootnoteText | `29` | نمط نص الحاشية السفلية ._ x000d_ |
-| Header | `31` | نمط الرأس ._ x000d_ |
+| EndnoteText | `43` | نمط نص التعليق الختامي . |
+| Footer | `32` | نمط التذييل . |
+| FootnoteText | `29` | نمط نص الحاشية السفلية . |
+| Header | `31` | نمط الرأس . |
 | Heading1 | `1` | نمط العنوان 1 . |
 | Heading2 | `2` | نمط العنوان 2 . |
-| Heading3 | `3` | نمط العنوان 3 ._ x000d_ |
+| Heading3 | `3` | نمط العنوان 3 . |
 | Heading4 | `4` | نمط العنوان 4 . |
-| Heading5 | `5` | نمط العنوان 5 ._ x000d_ |
+| Heading5 | `5` | نمط العنوان 5 . |
 | Heading6 | `6` | نمط العنوان 6 . |
-| Heading7 | `7` | نمط العنوان 7 ._ x000d_ |
+| Heading7 | `7` | نمط العنوان 7 . |
 | Heading8 | `8` | نمط العنوان 8 . |
-| Heading9 | `9` | نمط العنوان 9 ._ x000d_ |
+| Heading9 | `9` | نمط العنوان 9 . |
 | HtmlAddress | `96` |  |
 | HtmlTopOfForm | `92` |  |
 | HtmlBottomOfForm | `93` |  |
@@ -84,12 +84,12 @@ public enum StyleIdentifier
 | Salutation | `75` |  |
 | Signature | `64` |  |
 | Subtitle | `74` |  |
-| Title | `62` | نمط العنوان ._ x000d_ |
+| Title | `62` | نمط العنوان . |
 | Bibliography | `265` |  |
 | BlockText | `84` |  |
 | Caption | `34` |  |
-| EnvelopeAddress | `36` | نمط عنوان المغلف ._ x000d_ |
-| EnvelopeReturn | `37` | نمط إرجاع المغلف ._ x000d_ |
+| EnvelopeAddress | `36` | نمط عنوان المغلف . |
+| EnvelopeReturn | `37` | نمط إرجاع المغلف . |
 | Index1 | `10` |  |
 | Index2 | `11` |  |
 | Index3 | `12` |  |
@@ -99,13 +99,13 @@ public enum StyleIdentifier
 | Index7 | `16` |  |
 | Index8 | `17` |  |
 | Index9 | `18` |  |
-| IndexHeading | `33` | نمط عنوان الفهرس ._ x000d_ |
-| List | `47` | نمط القائمة ._ x000d_ |
+| IndexHeading | `33` | نمط عنوان الفهرس . |
+| List | `47` | نمط القائمة . |
 | List2 | `50` |  |
 | List3 | `51` |  |
 | List4 | `52` |  |
 | List5 | `53` |  |
-| ListBullet | `48` | نمط القائمة النقطية ._ x000d_ |
+| ListBullet | `48` | نمط القائمة النقطية . |
 | ListBullet2 | `54` |  |
 | ListBullet3 | `55` |  |
 | ListBullet4 | `56` |  |
@@ -115,18 +115,18 @@ public enum StyleIdentifier
 | ListContinue3 | `70` |  |
 | ListContinue4 | `71` |  |
 | ListContinue5 | `72` |  |
-| ListNumber | `49` | نمط رقم القائمة ._ x000d_ |
+| ListNumber | `49` | نمط رقم القائمة . |
 | ListNumber2 | `58` |  |
 | ListNumber3 | `59` |  |
 | ListNumber4 | `60` |  |
 | ListNumber5 | `61` |  |
 | ListParagraph | `179` |  |
 | NoSpacing | `157` |  |
-| Normal | `0` | النمط العادي ._ x000d_ |
+| Normal | `0` | النمط العادي . |
 | NormalWeb | `94` |  |
-| NormalIndent | `28` | نمط المسافة البادئة العادية ._ x000d_ |
+| NormalIndent | `28` | نمط المسافة البادئة العادية . |
 | TableOfAuthorities | `44` |  |
-| TableOfFigures | `35` | نمط جدول الأشكال ._ x000d_ |
+| TableOfFigures | `35` | نمط جدول الأشكال . |
 | ToaHeading | `46` |  |
 | Toc1 | `19` |  |
 | Toc2 | `20` |  |
@@ -141,7 +141,7 @@ public enum StyleIdentifier
 | Revision | `178` |  |
 | OutlineList1 | `108` | نمط 1 / a / i . |
 | OutlineList2 | `109` | نمط 1 / 1.1 / 1.1.1 . |
-| OutlineList3 | `110` | نمط المقالة / القسم ._ x000d_ |
+| OutlineList3 | `110` | نمط المقالة / القسم . |
 | NoList | `107` |  |
 | ColorfulGrid | `171` |  |
 | ColorfulGridAccent1 | `189` |  |
@@ -291,14 +291,14 @@ public enum StyleIdentifier
 | PlainTable3 | `269` | الجدول العادي 3 |
 | PlainTable4 | `270` | الجدول العادي 4 |
 | PlainTable5 | `271` | الجدول العادي 5 |
-| TableGridLight | `272` | ضوء شبكة الجدول_ x000d_ |
+| TableGridLight | `272` | ضوء شبكة الجدول_ |
 | GridTable1Light | `273` | جدول الشبكة 1 Light |
 | GridTable2 | `274` | جدول الشبكة 2 |
 | GridTable3 | `275` | جدول الشبكة 3 |
 | GridTable4 | `276` | جدول الشبكة 4 |
 | GridTable5Dark | `277` | جدول الشبكة 5 Dark |
 | GridTable6Colorful | `278` | جدول الشبكة 6 ملون |
-| GridTable7Colorful | `279` | جدول الشبكة 7 ملون_ x000d_ |
+| GridTable7Colorful | `279` | جدول الشبكة 7 ملون_ |
 | GridTable1LightAccent1 | `280` | ضوء الجدول 1 للشبكة - تشكيل 1 |
 | GridTable2Accent1 | `281` | جدول الشبكة 2 - تشكيل 1 |
 | GridTable3Accent1 | `282` | جدول الشبكة 3 - تشكيل 1 |
@@ -390,16 +390,16 @@ public enum StyleIdentifier
 | ListTable5DarkAccent6 | `368` | جدول قائمة 5 داكن - تشكيل 6 |
 | ListTable6ColorfulAccent6 | `369` | جدول قائمة 6 ملون - تشكيل 6 |
 | ListTable7ColorfulAccent6 | `370` | جدول قائمة 7 ملون - تشكيل 6 |
-| Mention | `372` | أسلوب الإشارة ._ x000d_ |
+| Mention | `372` | أسلوب الإشارة . |
 | SmartHyperlink | `373` | نمط SmartHyperlink . |
 | Hashtag | `374` | نمط Hashtag . |
-| UnresolvedMention | `375` | نمط الإشارة التي لم يتم حلها ._ x000d_ |
+| UnresolvedMention | `375` | نمط الإشارة التي لم يتم حلها . |
 | User | `4094` | نمط محدد من قبل المستخدم. |
-| Nil | `12287` | محجوزة للاستخدام الداخلي ._ x000d_ |
+| Nil | `12287` | محجوزة للاستخدام الداخلي . |
 
 ### ملاحظات
 
-تتم ترجمة أسماء الأنماط المضمنة في MS Word إلى لغات مختلفة. _ x000d_ باستخدام معرف نمط ، يمكنك العثور على النمط الصحيح بغض النظر عن لغة المستند.
+تتم ترجمة أسماء الأنماط المضمنة في MS Word إلى لغات مختلفة. _ باستخدام معرف نمط ، يمكنك العثور على النمط الصحيح بغض النظر عن لغة المستند.
 
 يتم تعيين قيمة StyleIdentifier.User لجميع الأنماط التي يحددها المستخدم.
 

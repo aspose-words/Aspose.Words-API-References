@@ -29,7 +29,7 @@ public class BookmarkCollection : IEnumerable<Bookmark>
 | [GetEnumerator](../../aspose.words/bookmarkcollection/getenumerator)() | إرجاع كائن العداد . |
 | [Remove](../../aspose.words/bookmarkcollection/remove#remove)(Bookmark) | يزيل الإشارة المرجعية المحددة من المستند. |
 | [Remove](../../aspose.words/bookmarkcollection/remove#remove_1)(string) | يزيل إشارة مرجعية بالاسم المحدد. |
-| [RemoveAt](../../aspose.words/bookmarkcollection/removeat)(int) | يزيل إشارة مرجعية في الفهرس المحدد ._ x000d_ |
+| [RemoveAt](../../aspose.words/bookmarkcollection/removeat)(int) | يزيل إشارة مرجعية في الفهرس المحدد . |
 
 ### أمثلة
 

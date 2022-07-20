@@ -30,8 +30,8 @@ public class LanguagePreferences
 
 | اسم | وصف |
 | --- | --- |
-| [AddEditingLanguage](../../aspose.words.loading/languagepreferences/addeditinglanguage)(EditingLanguage) | يضيف لغة تحرير إضافية ._ x000d_ |
-| [AddEditingLanguages](../../aspose.words.loading/languagepreferences/addeditinglanguages)(EditingLanguage[]) | إضافة لغات تحرير إضافية ._ x000d_ |
+| [AddEditingLanguage](../../aspose.words.loading/languagepreferences/addeditinglanguage)(EditingLanguage) | يضيف لغة تحرير إضافية . |
+| [AddEditingLanguages](../../aspose.words.loading/languagepreferences/addeditinglanguages)(EditingLanguage[]) | إضافة لغات تحرير إضافية . |
 
 ### ملاحظات
 

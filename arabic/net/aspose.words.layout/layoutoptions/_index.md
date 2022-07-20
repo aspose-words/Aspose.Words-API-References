@@ -26,11 +26,11 @@ public class LayoutOptions
 | --- | --- |
 | [Callback](../../aspose.words.layout/layoutoptions/callback) { get; set; } | يحصل أو يحدد[`IPageLayoutCallback`](../ipagelayoutcallback)التنفيذ المستخدم بواسطة نموذج تخطيط الصفحة. |
 | [CommentDisplayMode](../../aspose.words.layout/layoutoptions/commentdisplaymode) { get; set; } | الحصول على أو تحديد طريقة عرض التعليقات. القيمة الافتراضية هيShowInBalloons . |
-| [ContinuousSectionPageNumberingRestart](../../aspose.words.layout/layoutoptions/continuoussectionpagenumberingrestart) { get; set; } | الحصول على أو تعيين وضع السلوك لحساب أرقام الصفحات عندما يقوم قسم مستمر بإعادة تشغيل ترقيم الصفحات ._ x000d_ |
+| [ContinuousSectionPageNumberingRestart](../../aspose.words.layout/layoutoptions/continuoussectionpagenumberingrestart) { get; set; } | الحصول على أو تعيين وضع السلوك لحساب أرقام الصفحات عندما يقوم قسم مستمر بإعادة تشغيل ترقيم الصفحات . |
 | [IgnorePrinterMetrics](../../aspose.words.layout/layoutoptions/ignoreprintermetrics) { get; set; } | الحصول على أو تعيين إشارة إلى ما إذا كان يتم تجاهل خيار التوافق "استخدام مقاييس الطابعة لتخطيط المستند". القيمة الافتراضية هي True . |
-| [RevisionOptions](../../aspose.words.layout/layoutoptions/revisionoptions) { get; } | يحصل على خيارات المراجعة ._ x000d_ |
+| [RevisionOptions](../../aspose.words.layout/layoutoptions/revisionoptions) { get; } | يحصل على خيارات المراجعة . |
 | [ShowHiddenText](../../aspose.words.layout/layoutoptions/showhiddentext) { get; set; } | الحصول على أو تعيين إشارة إلى ما إذا كان النص المخفي في المستند سيتم تقديمه أم لا. الإعداد الافتراضي خطأ. |
-| [ShowParagraphMarks](../../aspose.words.layout/layoutoptions/showparagraphmarks) { get; set; } | الحصول على أو تعيين إشارة إلى ما إذا كان يتم تقديم علامات الفقرات. _ x000d_ الإعداد الافتراضي هو False . |
+| [ShowParagraphMarks](../../aspose.words.layout/layoutoptions/showparagraphmarks) { get; set; } | الحصول على أو تعيين إشارة إلى ما إذا كان يتم تقديم علامات الفقرات. الإعداد الافتراضي هو False . |
 | [TextShaperFactory](../../aspose.words.layout/layoutoptions/textshaperfactory) { get; set; } | يحصل أو يحدد[`ITextShaperFactory`](../../aspose.words.shaping/itextshaperfactory) التنفيذ المستخدم لميزات عرض الطباعة المتقدمة. |
 
 ### ملاحظات

@@ -16,7 +16,7 @@ public PaperSize PaperSize { get; set; }
 
 ### ملاحظات
 
-تعيين تحديثات هذه الخاصية[`PageWidth`](../pagewidth) و[`PageHeight`](../pageheight) القيم ._ x000d_ تعيين هذه القيمة علىCustom لا يغير القيم الموجودة.
+تعيين تحديثات هذه الخاصية[`PageWidth`](../pagewidth) و[`PageHeight`](../pageheight) القيم . تعيين هذه القيمة علىCustom لا يغير القيم الموجودة.
 
 ### أمثلة
 

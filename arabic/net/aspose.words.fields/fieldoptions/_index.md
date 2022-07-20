@@ -22,9 +22,9 @@ public sealed class FieldOptions
 | [BuiltInTemplatesPaths](../../aspose.words.fields/fieldoptions/builtintemplatespaths) { get; set; } | الحصول على أو تعيين مسارات قوالب MS Word المضمنة. |
 | [ComparisonExpressionEvaluator](../../aspose.words.fields/fieldoptions/comparisonexpressionevaluator) { get; set; } | الحصول على أو تعيين مقيِّم تعبيرات مقارنة الحقول. |
 | [CurrentUser](../../aspose.words.fields/fieldoptions/currentuser) { get; set; } | الحصول على أو تعيين معلومات المستخدم الحالية. |
-| [CustomTocStyleSeparator](../../aspose.words.fields/fieldoptions/customtocstyleseparator) { get; set; } | الحصول على أو تعيين فاصل نمط مخصص للمحول \ t[`FieldToc`](../fieldtoc) الحقل ._ x000d_ |
+| [CustomTocStyleSeparator](../../aspose.words.fields/fieldoptions/customtocstyleseparator) { get; set; } | الحصول على أو تعيين فاصل نمط مخصص للمحول \ t[`FieldToc`](../fieldtoc) الحقل . |
 | [DefaultDocumentAuthor](../../aspose.words.fields/fieldoptions/defaultdocumentauthor) { get; set; } | الحصول على أو تعيين اسم مؤلف المستند الافتراضي. إذا كان اسم المؤلف محددًا بالفعل في خصائص المستند المضمنة ، فلن يتم اعتبار هذا الخيار . |
-| [FieldDatabaseProvider](../../aspose.words.fields/fieldoptions/fielddatabaseprovider) { get; set; } | الحصول على أو تعيين موفر يقوم بإرجاع نتيجة استعلام لـ[`FieldDatabase`](../fielddatabase) الحقل ._ x000d_ |
+| [FieldDatabaseProvider](../../aspose.words.fields/fieldoptions/fielddatabaseprovider) { get; set; } | الحصول على أو تعيين موفر يقوم بإرجاع نتيجة استعلام لـ[`FieldDatabase`](../fielddatabase) الحقل . |
 | [FieldIndexFormat](../../aspose.words.fields/fieldoptions/fieldindexformat) { get; set; } | يحصل أو يحدد أ[`FieldIndexFormat`](./fieldindexformat) الذي يمثل تنسيق ملف[`FieldIndex`](../fieldindex)الحقول في المستند. |
 | [FieldUpdateCultureProvider](../../aspose.words.fields/fieldoptions/fieldupdatecultureprovider) { get; set; } | الحصول على أو تعيين موفر يقوم بإرجاع كائن ثقافة محدد لكل حقل معين. |
 | [FieldUpdateCultureSource](../../aspose.words.fields/fieldoptions/fieldupdateculturesource) { get; set; } | تحدد الثقافة المراد استخدامها لتنسيق نتيجة الحقل. |
@@ -35,7 +35,7 @@ public sealed class FieldOptions
 | [PreProcessCulture](../../aspose.words.fields/fieldoptions/preprocessculture) { get; set; } | الحصول على الثقافة أو تعيينها لقيم حقل المعالجة المسبقة. |
 | [ResultFormatter](../../aspose.words.fields/fieldoptions/resultformatter) { get; set; } | يسمح بالتحكم في كيفية تنسيق نتيجة الحقل. |
 | [TemplateName](../../aspose.words.fields/fieldoptions/templatename) { get; set; } | الحصول على أو تحديد اسم ملف النموذج المستخدم في المستند. |
-| [ToaCategories](../../aspose.words.fields/fieldoptions/toacategories) { get; set; } | الحصول على أو تعيين جدول فئات المصادر ._ x000d_ |
+| [ToaCategories](../../aspose.words.fields/fieldoptions/toacategories) { get; set; } | الحصول على أو تعيين جدول فئات المصادر . |
 | [UseInvariantCultureNumberFormat](../../aspose.words.fields/fieldoptions/useinvariantculturenumberformat) { get; set; } | الحصول على أو تعيين القيمة التي تشير إلى أن تنسيق الأرقام يتم تحليله باستخدام ثقافة ثابتة أو لا |
 | [UserPromptRespondent](../../aspose.words.fields/fieldoptions/userpromptrespondent) { get; set; } | الحصول على أو تعيين المستجيب لمطالبات المستخدم أثناء تحديث الحقل. |
 

@@ -1,14 +1,14 @@
 ---
 title: AxisTickLabelPosition
 second_title: Aspose.Words لمراجع .NET API
-description: يحدد المواضع المحتملة لعناوين التجزئة ._ x000d_
+description: يحدد المواضع المحتملة لعناوين التجزئة .
 type: docs
 weight: 570
 url: /ar/net/aspose.words.drawing.charts/axisticklabelposition/
 ---
 ## AxisTickLabelPosition enumeration
 
-يحدد المواضع المحتملة لعناوين التجزئة ._ x000d_
+يحدد المواضع المحتملة لعناوين التجزئة .
 
 ```csharp
 public enum AxisTickLabelPosition
@@ -18,10 +18,10 @@ public enum AxisTickLabelPosition
 
 | اسم | قيمة | وصف |
 | --- | --- | --- |
-| High | `0` | تحديد يجب أن تكون تسميات المحور في الطرف العلوي للمحور العمودي ._ x000d_ |
-| Low | `1` | تحديد يجب أن تكون تسميات المحور عند الطرف السفلي للمحور العمودي ._ x000d_ |
+| High | `0` | تحديد يجب أن تكون تسميات المحور في الطرف العلوي للمحور العمودي . |
+| Low | `1` | تحديد يجب أن تكون تسميات المحور عند الطرف السفلي للمحور العمودي . |
 | NextToAxis | `2` | تحديد يجب أن تكون تسميات المحور بجوار المحور. |
-| None | `3` | تحديد لم يتم رسم تسميات المحور ._ x000d_ |
+| None | `3` | تحديد لم يتم رسم تسميات المحور . |
 | Default | `2` | يحدد القيمة الافتراضية لموضع علامات التجزئة. |
 
 ### أمثلة

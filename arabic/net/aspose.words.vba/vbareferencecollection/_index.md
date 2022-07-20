@@ -1,14 +1,14 @@
 ---
 title: VbaReferenceCollection
 second_title: Aspose.Words لمراجع .NET API
-description: يمثل مجموعة منVbaReference./vbareference الكائنات ._ x000d_
+description: يمثل مجموعة منVbaReference./vbareference الكائنات .
 type: docs
 weight: 6290
 url: /ar/net/aspose.words.vba/vbareferencecollection/
 ---
 ## VbaReferenceCollection class
 
-يمثل مجموعة من[`VbaReference`](../vbareference) الكائنات ._ x000d_
+يمثل مجموعة من[`VbaReference`](../vbareference) الكائنات .
 
 ```csharp
 public sealed class VbaReferenceCollection : IEnumerable<VbaReference>

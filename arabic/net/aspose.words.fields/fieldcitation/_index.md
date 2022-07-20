@@ -36,7 +36,7 @@ public class FieldCitation : Field
 | [Prefix](../../aspose.words.fields/fieldcitation/prefix) { get; set; } | الحصول على بادئة مُلحقة مسبقًا بالاقتباس أو تعيينها. |
 | [Result](../../aspose.words.fields/field/result) { get; set; } | الحصول على أو تعيين النص الموجود بين فاصل الحقل ونهاية الحقل. |
 | [Separator](../../aspose.words.fields/field/separator) { get; } | يحصل على العقدة التي تمثل فاصل المجال. يمكن أن يكون فارغًا. |
-| [SourceTag](../../aspose.words.fields/fieldcitation/sourcetag) { get; set; } | الحصول على أو تعيين قيمة تحسب ال **بطاقة شعار**قيمة العنصر للمصدر المراد إدراجها ._ x000d_ |
+| [SourceTag](../../aspose.words.fields/fieldcitation/sourcetag) { get; set; } | الحصول على أو تعيين قيمة تحسب ال **بطاقة شعار**قيمة العنصر للمصدر المراد إدراجها . |
 | [Start](../../aspose.words.fields/field/start) { get; } | يحصل على العقدة التي تمثل بداية الحقل. |
 | [Suffix](../../aspose.words.fields/fieldcitation/suffix) { get; set; } | الحصول على أو تعيين لاحقة ملحقة بالاقتباس. |
 | [SuppressAuthor](../../aspose.words.fields/fieldcitation/suppressauthor) { get; set; } | الحصول على أو تحديد ما إذا كانت معلومات المؤلف ممنوعة من الاقتباس. |
@@ -49,8 +49,8 @@ public class FieldCitation : Field
 
 | اسم | وصف |
 | --- | --- |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode)() | إرجاع النص بين بداية الحقل وفاصل الحقل (أو نهاية الحقل إذا لم يكن هناك فاصل) ._ x000d_ يتم تضمين كل من رمز الحقل ونتيجة الحقل للحقول الفرعية. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode)(bool) | إرجاع النص بين بداية الحقل وفاصل الحقل (أو نهاية الحقل إذا لم يكن هناك فاصل) ._ x000d_ |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode)() | إرجاع النص بين بداية الحقل وفاصل الحقل (أو نهاية الحقل إذا لم يكن هناك فاصل) . يتم تضمين كل من رمز الحقل ونتيجة الحقل للحقول الفرعية. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode)(bool) | إرجاع النص بين بداية الحقل وفاصل الحقل (أو نهاية الحقل إذا لم يكن هناك فاصل) . |
 | [Remove](../../aspose.words.fields/field/remove)() | يزيل الحقل من المستند. إرجاع عقدة بعد الحقل مباشرة. إذا كانت نهاية الحقل هي آخر child من العقدة الأصلية ، يتم إرجاع فقرته الأصلية. إذا تمت إزالة الحقل بالفعل ، يعود **لا شيء** . |
 | [Unlink](../../aspose.words.fields/field/unlink)() | يقوم بإلغاء ربط الحقل. |
 | [Update](../../aspose.words.fields/field/update)() | يقوم بالتحديث الميداني. يرمي إذا تم تحديث الحقل بالفعل. |
@@ -58,7 +58,7 @@ public class FieldCitation : Field
 
 ### ملاحظات
 
-يتم إدراج محتويات ملف **مصدر** عنصر مع محدد **بطاقة شعار** عنصر باستخدام نمط ببليوغرافي ._ x000d_
+يتم إدراج محتويات ملف **مصدر** عنصر مع محدد **بطاقة شعار** عنصر باستخدام نمط ببليوغرافي .
 
 ### أمثلة
 

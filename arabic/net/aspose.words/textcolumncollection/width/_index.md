@@ -1,14 +1,14 @@
 ---
 title: Width
 second_title: Aspose.Words لمراجع .NET API
-description: عند تباعد الأعمدة بشكل متساوٍ  يحصل على عرض الأعمدة ._ x000d_
+description: عند تباعد الأعمدة بشكل متساوٍ  يحصل على عرض الأعمدة .
 type: docs
 weight: 60
 url: /ar/net/aspose.words/textcolumncollection/width/
 ---
 ## TextColumnCollection.Width property
 
-عند تباعد الأعمدة بشكل متساوٍ ، يحصل على عرض الأعمدة ._ x000d_
+عند تباعد الأعمدة بشكل متساوٍ ، يحصل على عرض الأعمدة .
 
 ```csharp
 public double Width { get; }

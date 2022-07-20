@@ -22,8 +22,8 @@ public class MailMergeRegionInfo
 | [Fields](../../aspose.words.mailmerging/mailmergeregioninfo/fields) { get; } | إرجاع قائمة بالحقول الفرعية . |
 | [Level](../../aspose.words.mailmerging/mailmergeregioninfo/level) { get; } | إرجاع مستوى التداخل للمنطقة. |
 | [Name](../../aspose.words.mailmerging/mailmergeregioninfo/name) { get; } | إرجاع اسم المنطقة . |
-| [ParentRegion](../../aspose.words.mailmerging/mailmergeregioninfo/parentregion) { get; } | إرجاع معلومات المنطقة الأصلية (خالية لمنطقة المستوى الأعلى) ._ x000d_ |
-| [Regions](../../aspose.words.mailmerging/mailmergeregioninfo/regions) { get; } | إرجاع قائمة بالمناطق الفرعية ._ x000d_ |
+| [ParentRegion](../../aspose.words.mailmerging/mailmergeregioninfo/parentregion) { get; } | إرجاع معلومات المنطقة الأصلية (خالية لمنطقة المستوى الأعلى) . |
+| [Regions](../../aspose.words.mailmerging/mailmergeregioninfo/regions) { get; } | إرجاع قائمة بالمناطق الفرعية . |
 | [StartField](../../aspose.words.mailmerging/mailmergeregioninfo/startfield) { get; } | إرجاع حقل بداية للمنطقة . |
 
 ### أمثلة

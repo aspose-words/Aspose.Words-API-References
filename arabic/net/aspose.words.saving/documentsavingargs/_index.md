@@ -18,7 +18,7 @@ public sealed class DocumentSavingArgs
 
 | اسم | وصف |
 | --- | --- |
-| [EstimatedProgress](../../aspose.words.saving/documentsavingargs/estimatedprogress) { get; } | النسبة المئوية التقديرية الإجمالية للتقدم ._ x000d_ |
+| [EstimatedProgress](../../aspose.words.saving/documentsavingargs/estimatedprogress) { get; } | النسبة المئوية التقديرية الإجمالية للتقدم . |
 
 ### أنظر أيضا
 

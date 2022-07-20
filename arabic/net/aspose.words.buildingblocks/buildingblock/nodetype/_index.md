@@ -1,14 +1,14 @@
 ---
 title: NodeType
 second_title: Aspose.Words لمراجع .NET API
-description: إرجاع ملفBuildingBlock القيمة ._ x000d_
+description: إرجاع ملفBuildingBlock القيمة .
 type: docs
 weight: 100
 url: /ar/net/aspose.words.buildingblocks/buildingblock/nodetype/
 ---
 ## BuildingBlock.NodeType property
 
-إرجاع ملفBuildingBlock القيمة ._ x000d_
+إرجاع ملفBuildingBlock القيمة .
 
 ```csharp
 public override NodeType NodeType { get; }

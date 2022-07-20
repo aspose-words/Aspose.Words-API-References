@@ -1,14 +1,14 @@
 ---
 title: EditingLanguage
 second_title: Aspose.Words لمراجع .NET API
-description: يحدد لغة التحرير ._ x000d_
+description: يحدد لغة التحرير .
 type: docs
 weight: 3400
 url: /ar/net/aspose.words.loading/editinglanguage/
 ---
 ## EditingLanguage enumeration
 
-يحدد لغة التحرير ._ x000d_
+يحدد لغة التحرير .
 
 ```csharp
 public enum EditingLanguage

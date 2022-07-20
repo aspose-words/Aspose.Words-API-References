@@ -1,14 +1,14 @@
 ---
 title: VbaModuleCollection
 second_title: Aspose.Words لمراجع .NET API
-description: يمثل مجموعة منVbaModule./vbamodule الكائنات ._ x000d_
+description: يمثل مجموعة منVbaModule./vbamodule الكائنات .
 type: docs
 weight: 6250
 url: /ar/net/aspose.words.vba/vbamodulecollection/
 ---
 ## VbaModuleCollection class
 
-يمثل مجموعة من[`VbaModule`](../vbamodule) الكائنات ._ x000d_
+يمثل مجموعة من[`VbaModule`](../vbamodule) الكائنات .
 
 ```csharp
 public sealed class VbaModuleCollection : IEnumerable<VbaModule>

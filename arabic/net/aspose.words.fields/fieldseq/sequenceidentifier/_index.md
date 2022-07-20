@@ -1,14 +1,14 @@
 ---
 title: SequenceIdentifier
 second_title: Aspose.Words لمراجع .NET API
-description: الحصول على أو تعيين الاسم المخصص لسلسلة العناصر المراد ترقيمها ._ x000d_
+description: الحصول على أو تعيين الاسم المخصص لسلسلة العناصر المراد ترقيمها .
 type: docs
 weight: 60
 url: /ar/net/aspose.words.fields/fieldseq/sequenceidentifier/
 ---
 ## FieldSeq.SequenceIdentifier property
 
-الحصول على أو تعيين الاسم المخصص لسلسلة العناصر المراد ترقيمها ._ x000d_
+الحصول على أو تعيين الاسم المخصص لسلسلة العناصر المراد ترقيمها .
 
 ```csharp
 public string SequenceIdentifier { get; set; }

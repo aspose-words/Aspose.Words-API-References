@@ -1,14 +1,14 @@
 ---
 title: GradientVariant
 second_title: Aspose.Words لمراجع .NET API
-description: يحصل على متغير التدرجGradientVariantaspose.words.drawing/gradientvariant للتعبئة ._ x000d_
+description: يحصل على متغير التدرجGradientVariantaspose.words.drawing/gradientvariant للتعبئة .
 type: docs
 weight: 70
 url: /ar/net/aspose.words.drawing/fill/gradientvariant/
 ---
 ## Fill.GradientVariant property
 
-يحصل على متغير التدرج[`GradientVariant`](../../gradientvariant) للتعبئة ._ x000d_
+يحصل على متغير التدرج[`GradientVariant`](../../gradientvariant) للتعبئة .
 
 ```csharp
 public GradientVariant GradientVariant { get; }

@@ -1,14 +1,14 @@
 ---
 title: EvenColumnBanding
 second_title: Aspose.Words لمراجع .NET API
-description: الحصول على نمط نطاقات الأعمدة الزوجية ._ x000d_
+description: الحصول على نمط نطاقات الأعمدة الزوجية .
 type: docs
 weight: 40
 url: /ar/net/aspose.words/conditionalstylecollection/evencolumnbanding/
 ---
 ## ConditionalStyleCollection.EvenColumnBanding property
 
-الحصول على نمط نطاقات الأعمدة الزوجية ._ x000d_
+الحصول على نمط نطاقات الأعمدة الزوجية .
 
 ```csharp
 public ConditionalStyle EvenColumnBanding { get; }

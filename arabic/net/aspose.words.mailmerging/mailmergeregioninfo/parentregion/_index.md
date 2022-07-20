@@ -1,14 +1,14 @@
 ---
 title: ParentRegion
 second_title: Aspose.Words لمراجع .NET API
-description: إرجاع معلومات المنطقة الأصلية خالية لمنطقة المستوى الأعلى ._ x000d_
+description: إرجاع معلومات المنطقة الأصلية خالية لمنطقة المستوى الأعلى .
 type: docs
 weight: 50
 url: /ar/net/aspose.words.mailmerging/mailmergeregioninfo/parentregion/
 ---
 ## MailMergeRegionInfo.ParentRegion property
 
-إرجاع معلومات المنطقة الأصلية (خالية لمنطقة المستوى الأعلى) ._ x000d_
+إرجاع معلومات المنطقة الأصلية (خالية لمنطقة المستوى الأعلى) .
 
 ```csharp
 public MailMergeRegionInfo ParentRegion { get; }

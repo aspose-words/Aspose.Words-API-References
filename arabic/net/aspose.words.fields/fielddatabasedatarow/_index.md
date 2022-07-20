@@ -1,14 +1,14 @@
 ---
 title: FieldDatabaseDataRow
 second_title: Aspose.Words لمراجع .NET API
-description: توفير بيانات لملفFieldDatabase./fielddatabase نتيجة الحقل ._ x000d_
+description: توفير بيانات لملفFieldDatabase./fielddatabase نتيجة الحقل .
 type: docs
 weight: 1600
 url: /ar/net/aspose.words.fields/fielddatabasedatarow/
 ---
 ## FieldDatabaseDataRow class
 
-توفير بيانات لملف[`FieldDatabase`](../fielddatabase) نتيجة الحقل ._ x000d_
+توفير بيانات لملف[`FieldDatabase`](../fielddatabase) نتيجة الحقل .
 
 ```csharp
 public class FieldDatabaseDataRow
@@ -18,7 +18,7 @@ public class FieldDatabaseDataRow
 
 | اسم | وصف |
 | --- | --- |
-| [FieldDatabaseDataRow](fielddatabasedatarow)(params string[]) | يقوم بتهيئة مثيل جديد لملف[`FieldDatabaseDataRow`](../fielddatabasedatarow) فئة ._ x000d_ |
+| [FieldDatabaseDataRow](fielddatabasedatarow)(params string[]) | يقوم بتهيئة مثيل جديد لملف[`FieldDatabaseDataRow`](../fielddatabasedatarow) فئة . |
 
 ## الخصائص
 
@@ -30,7 +30,7 @@ public class FieldDatabaseDataRow
 
 | اسم | وصف |
 | --- | --- |
-| static [CreateFrom](../../aspose.words.fields/fielddatabasedatarow/createfrom)(DataRow) | يقوم بتهيئة مثيل جديد لملف[`FieldDatabaseDataRow`](../fielddatabasedatarow) class منDataRow المثال. x000d_ |
+| static [CreateFrom](../../aspose.words.fields/fielddatabasedatarow/createfrom)(DataRow) | يقوم بتهيئة مثيل جديد لملف[`FieldDatabaseDataRow`](../fielddatabasedatarow) class منDataRow المثال. |
 
 ### أنظر أيضا
 

@@ -28,7 +28,7 @@ public override bool Accept(DocumentVisitor visitor)
 
 لمزيد من المعلومات ، راجع نمط تصميم الزائر.
 
-يستدعي DocumentVisitor.VisitParagraphStart ، ثم يستدعي Accept لجميع العقد الفرعية_ x000d_ من الفقرة ويستدعي DocumentVisitor.VisitParagraphEnd في النهاية.
+يستدعي DocumentVisitor.VisitParagraphStart ، ثم يستدعي Accept لجميع العقد الفرعية من الفقرة ويستدعي DocumentVisitor.VisitParagraphEnd في النهاية.
 
 ### أمثلة
 

@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Aspose.Words لمراجع .NET API
-description: يحصل على مستوى قائمة بالفهرس ._ x000d_
+description: يحصل على مستوى قائمة بالفهرس .
 type: docs
 weight: 20
 url: /ar/net/aspose.words.lists/listlevelcollection/item/
 ---
 ## ListLevelCollection indexer
 
-يحصل على مستوى قائمة بالفهرس ._ x000d_
+يحصل على مستوى قائمة بالفهرس .
 
 ```csharp
 public ListLevel this[int index] { get; set; }

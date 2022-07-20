@@ -1,14 +1,14 @@
 ---
 title: FieldDatabaseDataTable
 second_title: Aspose.Words لمراجع .NET API
-description: توفير بيانات لملفFieldDatabase./fielddatabase نتيجة الحقل ._ x000d_
+description: توفير بيانات لملفFieldDatabase./fielddatabase نتيجة الحقل .
 type: docs
 weight: 1610
 url: /ar/net/aspose.words.fields/fielddatabasedatatable/
 ---
 ## FieldDatabaseDataTable class
 
-توفير بيانات لملف[`FieldDatabase`](../fielddatabase) نتيجة الحقل ._ x000d_
+توفير بيانات لملف[`FieldDatabase`](../fielddatabase) نتيجة الحقل .
 
 ```csharp
 public class FieldDatabaseDataTable
@@ -18,7 +18,7 @@ public class FieldDatabaseDataTable
 
 | اسم | وصف |
 | --- | --- |
-| [FieldDatabaseDataTable](fielddatabasedatatable)(params string[]) | يقوم بتهيئة مثيل جديد لملف[`FieldDatabaseDataTable`](../fielddatabasedatatable) فئة ._ x000d_ |
+| [FieldDatabaseDataTable](fielddatabasedatatable)(params string[]) | يقوم بتهيئة مثيل جديد لملف[`FieldDatabaseDataTable`](../fielddatabasedatatable) فئة . |
 
 ## الخصائص
 
@@ -31,7 +31,7 @@ public class FieldDatabaseDataTable
 
 | اسم | وصف |
 | --- | --- |
-| static [CreateFrom](../../aspose.words.fields/fielddatabasedatatable/createfrom)(DataTable) | يقوم بتهيئة مثيل جديد لملف[`FieldDatabaseDataTable`](../fielddatabasedatatable) class منDataTable المثال. x000d_ |
+| static [CreateFrom](../../aspose.words.fields/fielddatabasedatatable/createfrom)(DataTable) | يقوم بتهيئة مثيل جديد لملف[`FieldDatabaseDataTable`](../fielddatabasedatatable) class منDataTable المثال. |
 
 ### أنظر أيضا
 

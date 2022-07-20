@@ -1,14 +1,14 @@
 ---
 title: Count
 second_title: Aspose.Words لمراجع .NET API
-description: يحصل أو يحدد كمCharacteraspose.words.saving/txtlistindentation/character لاستخدام مسافة بادئة لكل مستوى قائمة ._ x000d_ القيمة الافتراضية هي 0  وهذا يعني عدم وجود مسافة بادئة ._ x000d_
+description: يحصل أو يحدد كمCharacteraspose.words.saving/txtlistindentation/character لاستخدام مسافة بادئة لكل مستوى قائمة . القيمة الافتراضية هي 0  وهذا يعني عدم وجود مسافة بادئة .
 type: docs
 weight: 30
 url: /ar/net/aspose.words.saving/txtlistindentation/count/
 ---
 ## TxtListIndentation.Count property
 
-يحصل أو يحدد كم[`Character`](../character) لاستخدام مسافة بادئة لكل مستوى قائمة ._ x000d_ القيمة الافتراضية هي 0 ، وهذا يعني عدم وجود مسافة بادئة ._ x000d_
+يحصل أو يحدد كم[`Character`](../character) لاستخدام مسافة بادئة لكل مستوى قائمة . القيمة الافتراضية هي 0 ، وهذا يعني عدم وجود مسافة بادئة .
 
 ```csharp
 public int Count { get; set; }

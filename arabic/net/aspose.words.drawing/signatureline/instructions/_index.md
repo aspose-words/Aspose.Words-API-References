@@ -1,14 +1,14 @@
 ---
 title: Instructions
 second_title: Aspose.Words لمراجع .NET API
-description: الحصول على التعليمات أو تعيينها للموقِّع التي يتم عرضها عند توقيع سطر التوقيع. يتم تجاهل هذه الخاصية إذاDefaultInstructionsaspose.words.drawing/signatureline/defaultinstructions تم تعيين. القيمة الافتراضية لهذه الخاصية هي سلسلة فارغة Empty  ._ x000d_
+description: الحصول على التعليمات أو تعيينها للموقِّع التي يتم عرضها عند توقيع سطر التوقيع. يتم تجاهل هذه الخاصية إذاDefaultInstructionsaspose.words.drawing/signatureline/defaultinstructions تم تعيين. القيمة الافتراضية لهذه الخاصية هي سلسلة فارغة Empty  .
 type: docs
 weight: 50
 url: /ar/net/aspose.words.drawing/signatureline/instructions/
 ---
 ## SignatureLine.Instructions property
 
-الحصول على التعليمات أو تعيينها للموقِّع التي يتم عرضها عند توقيع سطر التوقيع. يتم تجاهل هذه الخاصية إذا[`DefaultInstructions`](../defaultinstructions) تم تعيين. القيمة الافتراضية لهذه الخاصية هي **سلسلة فارغة** (Empty ) ._ x000d_
+الحصول على التعليمات أو تعيينها للموقِّع التي يتم عرضها عند توقيع سطر التوقيع. يتم تجاهل هذه الخاصية إذا[`DefaultInstructions`](../defaultinstructions) تم تعيين. القيمة الافتراضية لهذه الخاصية هي **سلسلة فارغة** (Empty ) .
 
 ```csharp
 public string Instructions { get; set; }

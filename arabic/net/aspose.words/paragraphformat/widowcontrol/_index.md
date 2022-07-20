@@ -1,14 +1,14 @@
 ---
 title: WidowControl
 second_title: Aspose.Words لمراجع .NET API
-description: صحيح إذا كان السطر الأول والأخير في الفقرة سيظلان في نفس الصفحة كبقية الفقرة ._ x000d_
+description: صحيح إذا كان السطر الأول والأخير في الفقرة سيظلان في نفس الصفحة كبقية الفقرة .
 type: docs
 weight: 390
 url: /ar/net/aspose.words/paragraphformat/widowcontrol/
 ---
 ## ParagraphFormat.WidowControl property
 
-صحيح إذا كان السطر الأول والأخير في الفقرة سيظلان في نفس الصفحة كبقية الفقرة ._ x000d_
+صحيح إذا كان السطر الأول والأخير في الفقرة سيظلان في نفس الصفحة كبقية الفقرة .
 
 ```csharp
 public bool WidowControl { get; set; }

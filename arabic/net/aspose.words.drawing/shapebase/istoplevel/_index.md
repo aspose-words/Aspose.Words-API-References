@@ -1,14 +1,14 @@
 ---
 title: IsTopLevel
 second_title: Aspose.Words لمراجع .NET API
-description: إرجاع صحيح إذا لم يكن هذا الشكل فرعاً لشكل مجموعة ._ x000d_
+description: إرجاع صحيح إذا لم يكن هذا الشكل فرعاً لشكل مجموعة .
 type: docs
 weight: 340
 url: /ar/net/aspose.words.drawing/shapebase/istoplevel/
 ---
 ## ShapeBase.IsTopLevel property
 
-إرجاع صحيح إذا لم يكن هذا الشكل فرعاً لشكل مجموعة ._ x000d_
+إرجاع صحيح إذا لم يكن هذا الشكل فرعاً لشكل مجموعة .
 
 ```csharp
 public bool IsTopLevel { get; }

@@ -1,14 +1,14 @@
 ---
 title: AllowBreakAcrossPages
 second_title: Aspose.Words لمراجع .NET API
-description: صواب في حالة السماح بتقسيم النص الموجود في صف الجدول عبر فاصل صفحة ._ x000d_
+description: صواب في حالة السماح بتقسيم النص الموجود في صف الجدول عبر فاصل صفحة .
 type: docs
 weight: 10
 url: /ar/net/aspose.words.tables/rowformat/allowbreakacrosspages/
 ---
 ## RowFormat.AllowBreakAcrossPages property
 
-صواب في حالة السماح بتقسيم النص الموجود في صف الجدول عبر فاصل صفحة ._ x000d_
+صواب في حالة السماح بتقسيم النص الموجود في صف الجدول عبر فاصل صفحة .
 
 ```csharp
 public bool AllowBreakAcrossPages { get; set; }

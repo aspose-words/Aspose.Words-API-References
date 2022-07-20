@@ -18,7 +18,7 @@ public sealed class DocumentLoadingArgs
 
 | اسم | وصف |
 | --- | --- |
-| [EstimatedProgress](../../aspose.words.loading/documentloadingargs/estimatedprogress) { get; } | النسبة المئوية التقديرية الإجمالية للتقدم ._ x000d_ |
+| [EstimatedProgress](../../aspose.words.loading/documentloadingargs/estimatedprogress) { get; } | النسبة المئوية التقديرية الإجمالية للتقدم . |
 
 ### أنظر أيضا
 

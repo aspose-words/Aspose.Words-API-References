@@ -1,14 +1,14 @@
 ---
 title: ResourceLoadingAction
 second_title: Aspose.Words لمراجع .NET API
-description: يحدد وضع تحميل المورد ._ x000d_
+description: يحدد وضع تحميل المورد .
 type: docs
 weight: 3480
 url: /ar/net/aspose.words.loading/resourceloadingaction/
 ---
 ## ResourceLoadingAction enumeration
 
-يحدد وضع تحميل المورد ._ x000d_
+يحدد وضع تحميل المورد .
 
 ```csharp
 public enum ResourceLoadingAction

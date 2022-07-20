@@ -18,7 +18,7 @@ public class SpecialChar : Inline
 
 | اسم | وصف |
 | --- | --- |
-| [CustomNodeId](../../aspose.words/node/customnodeid) { get; set; } | يحدد معرف العقدة المخصص ._ x000d_ |
+| [CustomNodeId](../../aspose.words/node/customnodeid) { get; set; } | يحدد معرف العقدة المخصص . |
 | virtual [Document](../../aspose.words/node/document) { get; } | الحصول على المستند الذي تنتمي إليه هذه العقدة . |
 | [Font](../../aspose.words/inline/font) { get; } | يوفر الوصول إلى تنسيق خط هذا الكائن. |
 | virtual [IsComposite](../../aspose.words/node/iscomposite) { get; } | إرجاع صحيح إذا كانت هذه العقدة يمكن أن تحتوي على عقد أخرى. |
@@ -51,7 +51,7 @@ public class SpecialChar : Inline
 
 ### ملاحظات
 
-يمكن أن يتضمن مستند Microsoft Word عددًا من الأحرف الخاصة_ x000d_ التي تمثل الحقول ، وحقول النموذج ، والأشكال ، وكائنات OLE ، والحواشي السفلية ، إلخ.[`ControlChar`](../controlchar).
+يمكن أن يتضمن مستند Microsoft Word عددًا من الأحرف الخاصة التي تمثل الحقول ، وحقول النموذج ، والأشكال ، وكائنات OLE ، والحواشي السفلية ، إلخ.[`ControlChar`](../controlchar).
 
 **SpecialChar** هي عقدة مضمنة ويمكن أن تكون تابعة فقط لـ **فقرة**.
 

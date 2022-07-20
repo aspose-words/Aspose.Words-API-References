@@ -1,14 +1,14 @@
 ---
 title: ParentStyle
 second_title: Aspose.Words لمراجع .NET API
-description: الحصول على النمط الأصل المباشر المالك لهذه المراجعة . ستعمل هذه الخاصية فقط معStyleDefinitionChange نوع المراجعة ._ x000d_
+description: الحصول على النمط الأصل المباشر المالك لهذه المراجعة . ستعمل هذه الخاصية فقط معStyleDefinitionChange نوع المراجعة .
 type: docs
 weight: 50
 url: /ar/net/aspose.words/revision/parentstyle/
 ---
 ## Revision.ParentStyle property
 
-الحصول على النمط الأصل المباشر (المالك) لهذه المراجعة . ستعمل هذه الخاصية فقط معStyleDefinitionChange نوع المراجعة ._ x000d_
+الحصول على النمط الأصل المباشر (المالك) لهذه المراجعة . ستعمل هذه الخاصية فقط معStyleDefinitionChange نوع المراجعة .
 
 ```csharp
 public Style ParentStyle { get; }
@@ -16,7 +16,7 @@ public Style ParentStyle { get; }
 
 ### ملاحظات
 
-إذا كانت هذه المراجعة تتعلق بالتغييرات في عقد المستند ، فاستخدم[`ParentNode`](../parentnode) بدلاً من ذلك ._ x000d_
+إذا كانت هذه المراجعة تتعلق بالتغييرات في عقد المستند ، فاستخدم[`ParentNode`](../parentnode) بدلاً من ذلك .
 
 ### أمثلة
 

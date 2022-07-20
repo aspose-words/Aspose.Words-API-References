@@ -1,14 +1,14 @@
 ---
 title: FormatAddressOnCountryOrRegion
 second_title: Aspose.Words لمراجع .NET API
-description: الحصول على أو تحديد ما إذا كان سيتم تنسيق العنوان وفقًا للبلد / المنطقة الخاصة بالمستلم_ x000d_ كما هو محدد بواسطة POST  CODE الاتحاد البريدي العالمي 2006 ._ x000d_
+description: الحصول على أو تحديد ما إذا كان سيتم تنسيق العنوان وفقًا للبلد / المنطقة الخاصة بالمستلم كما هو محدد بواسطة POST  CODE الاتحاد البريدي العالمي 2006 .
 type: docs
 weight: 30
 url: /ar/net/aspose.words.fields/fieldaddressblock/formataddressoncountryorregion/
 ---
 ## FieldAddressBlock.FormatAddressOnCountryOrRegion property
 
-الحصول على أو تحديد ما إذا كان سيتم تنسيق العنوان وفقًا للبلد / المنطقة الخاصة بالمستلم_ x000d_ كما هو محدد بواسطة POST * CODE (الاتحاد البريدي العالمي 2006) ._ x000d_
+الحصول على أو تحديد ما إذا كان سيتم تنسيق العنوان وفقًا للبلد / المنطقة الخاصة بالمستلم كما هو محدد بواسطة POST * CODE (الاتحاد البريدي العالمي 2006) .
 
 ```csharp
 public bool FormatAddressOnCountryOrRegion { get; set; }

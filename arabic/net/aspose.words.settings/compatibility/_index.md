@@ -1,14 +1,14 @@
 ---
 title: Compatibility
 second_title: Aspose.Words لمراجع .NET API
-description: يحدد أسماء خيارات التوافق ._ x000d_
+description: يحدد أسماء خيارات التوافق .
 type: docs
 weight: 5480
 url: /ar/net/aspose.words.settings/compatibility/
 ---
 ## Compatibility enumeration
 
-يحدد أسماء خيارات التوافق ._ x000d_
+يحدد أسماء خيارات التوافق .
 
 ```csharp
 public enum Compatibility

@@ -25,7 +25,7 @@ public class TextWatermarkOptions
 | اسم | وصف |
 | --- | --- |
 | [Color](../../aspose.words/textwatermarkoptions/color) { get; set; } | الحصول على لون الخط أو تعيينه. القيمة الافتراضية هي Color.Silver. |
-| [FontFamily](../../aspose.words/textwatermarkoptions/fontfamily) { get; set; } | الحصول على اسم عائلة الخط أو تعيينه. القيمة الافتراضية هي "Calibri" ._ x000d_ |
+| [FontFamily](../../aspose.words/textwatermarkoptions/fontfamily) { get; set; } | الحصول على اسم عائلة الخط أو تعيينه. القيمة الافتراضية هي "Calibri" . |
 | [FontSize](../../aspose.words/textwatermarkoptions/fontsize) { get; set; } | الحصول على حجم الخط أو تحديده. القيمة الافتراضية هي 0 - auto . |
 | [IsSemitrasparent](../../aspose.words/textwatermarkoptions/issemitrasparent) { get; set; } | الحصول على أو تعيين قيمة منطقية مسؤولة عن عتامة العلامة المائية. القيمة الافتراضية هي True . |
 | [Layout](../../aspose.words/textwatermarkoptions/layout) { get; set; } | الحصول على تخطيط العلامة المائية أو تعيينه. النظام الأساسيDiagonal . |

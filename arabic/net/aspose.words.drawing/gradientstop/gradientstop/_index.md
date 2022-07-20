@@ -1,14 +1,14 @@
 ---
 title: GradientStop
 second_title: Aspose.Words لمراجع .NET API
-description: يقوم بتهيئة مثيل جديد لملفGradientStopaspose.words.drawing/gradientstop فئة ._ x000d_
+description: يقوم بتهيئة مثيل جديد لملفGradientStopaspose.words.drawing/gradientstop فئة .
 type: docs
 weight: 10
 url: /ar/net/aspose.words.drawing/gradientstop/gradientstop/
 ---
 ## GradientStop(Color, double) {#constructor}
 
-يقوم بتهيئة مثيل جديد لملف[`GradientStop`](../../gradientstop) فئة ._ x000d_
+يقوم بتهيئة مثيل جديد لملف[`GradientStop`](../../gradientstop) فئة .
 
 ```csharp
 public GradientStop(Color color, double position)
@@ -17,7 +17,7 @@ public GradientStop(Color color, double position)
 | معامل | يكتب | وصف |
 | --- | --- | --- |
 | color | Color | يمثل لون توقف التدرج. |
-| position | Double | يمثل موضع التوقف ضمن_ x000d_ التدرج اللوني المعبر عنه كنسبة مئوية في النطاق من 0.0 إلى 1.0. |
+| position | Double | يمثل موضع التوقف ضمن التدرج اللوني المعبر عنه كنسبة مئوية في النطاق من 0.0 إلى 1.0. |
 
 ### أمثلة
 
@@ -78,7 +78,7 @@ doc.Save(ArtifactsDir + "Shape.GradientStops.docx", saveOptions);
 
 ## GradientStop(Color, double, double) {#constructor_1}
 
-يقوم بتهيئة مثيل جديد لملف[`GradientStop`](../../gradientstop) فئة ._ x000d_
+يقوم بتهيئة مثيل جديد لملف[`GradientStop`](../../gradientstop) فئة .
 
 ```csharp
 public GradientStop(Color color, double position, double transparency)
@@ -87,8 +87,8 @@ public GradientStop(Color color, double position, double transparency)
 | معامل | يكتب | وصف |
 | --- | --- | --- |
 | color | Color | يمثل لون توقف التدرج. |
-| position | Double | يمثل موضع التوقف ضمن_ x000d_ التدرج اللوني المعبر عنه كنسبة مئوية في النطاق من 0.0 إلى 1.0. |
-| transparency | Double | يمثل شفافية التوقف ضمن_ x000d_ التدرج المعبر عنه كنسبة مئوية في النطاق من 0.0 إلى 1.0. |
+| position | Double | يمثل موضع التوقف ضمن التدرج اللوني المعبر عنه كنسبة مئوية في النطاق من 0.0 إلى 1.0. |
+| transparency | Double | يمثل شفافية التوقف ضمن التدرج المعبر عنه كنسبة مئوية في النطاق من 0.0 إلى 1.0. |
 
 ### أمثلة
 

@@ -1,14 +1,14 @@
 ---
 title: BuildingBlockCollection
 second_title: Aspose.Words لمراجع .NET API
-description: مجموعة منBuildingBlock./buildingblock كائنات في المستند ._ x000d_
+description: مجموعة منBuildingBlock./buildingblock كائنات في المستند .
 type: docs
 weight: 140
 url: /ar/net/aspose.words.buildingblocks/buildingblockcollection/
 ---
 ## BuildingBlockCollection class
 
-مجموعة من[`BuildingBlock`](../buildingblock) كائنات في المستند ._ x000d_
+مجموعة من[`BuildingBlock`](../buildingblock) كائنات في المستند .
 
 ```csharp
 public class BuildingBlockCollection : NodeCollection

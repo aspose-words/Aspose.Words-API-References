@@ -1,14 +1,14 @@
 ---
 title: SignerTitle
 second_title: Aspose.Words لمراجع .NET API
-description: الحصول على عنوان الموقّع المقترح أو تعيينه. القيمة الافتراضية لهذه الخاصية هي سلسلة فارغة Empty  ._ x000d_
+description: الحصول على عنوان الموقّع المقترح أو تعيينه. القيمة الافتراضية لهذه الخاصية هي سلسلة فارغة Empty  .
 type: docs
 weight: 80
 url: /ar/net/aspose.words/signaturelineoptions/signertitle/
 ---
 ## SignatureLineOptions.SignerTitle property
 
-الحصول على عنوان الموقّع المقترح أو تعيينه. القيمة الافتراضية لهذه الخاصية هي **سلسلة فارغة** (Empty ) ._ x000d_
+الحصول على عنوان الموقّع المقترح أو تعيينه. القيمة الافتراضية لهذه الخاصية هي **سلسلة فارغة** (Empty ) .
 
 ```csharp
 public string SignerTitle { get; set; }

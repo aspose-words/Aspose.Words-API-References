@@ -1,14 +1,14 @@
 ---
 title: Visible
 second_title: Aspose.Words لمراجع .NET API
-description: الحصول على أو تعيين علامة تشير إلى ما إذا كانت ضربة الفرشاة مرئية ._ x000d_
+description: الحصول على أو تعيين علامة تشير إلى ما إذا كانت ضربة الفرشاة مرئية .
 type: docs
 weight: 190
 url: /ar/net/aspose.words.drawing/stroke/visible/
 ---
 ## Stroke.Visible property
 
-الحصول على أو تعيين علامة تشير إلى ما إذا كانت ضربة الفرشاة مرئية ._ x000d_
+الحصول على أو تعيين علامة تشير إلى ما إذا كانت ضربة الفرشاة مرئية .
 
 ```csharp
 public bool Visible { get; set; }

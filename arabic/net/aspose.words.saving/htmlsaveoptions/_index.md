@@ -1,14 +1,14 @@
 ---
 title: HtmlSaveOptions
 second_title: Aspose.Words لمراجع .NET API
-description: يمكن استخدامها لتحديد خيارات إضافية عند حفظ مستند في ملفHtml  Mhtml أوEpub التنسيق ._ x000d_
+description: يمكن استخدامها لتحديد خيارات إضافية عند حفظ مستند في ملفHtml  Mhtml أوEpub التنسيق .
 type: docs
 weight: 4850
 url: /ar/net/aspose.words.saving/htmlsaveoptions/
 ---
 ## HtmlSaveOptions class
 
-يمكن استخدامها لتحديد خيارات إضافية عند حفظ مستند في ملفHtml ، Mhtml أوEpub التنسيق ._ x000d_
+يمكن استخدامها لتحديد خيارات إضافية عند حفظ مستند في ملفHtml ، Mhtml أوEpub التنسيق .
 
 ```csharp
 public class HtmlSaveOptions : SaveOptions
@@ -18,8 +18,8 @@ public class HtmlSaveOptions : SaveOptions
 
 | اسم | وصف |
 | --- | --- |
-| [HtmlSaveOptions](htmlsaveoptions#constructor)() | تهيئة مثيل جديد من هذه الفئة يمكن استخدامه لحفظ document فيHtml التنسيق ._ x000d_ |
-| [HtmlSaveOptions](htmlsaveoptions#constructor_1)(SaveFormat) | تهيئة مثيل جديد من هذه الفئة يمكن استخدامه لحفظ document فيHtml وMhtml أوEpub التنسيق ._ x000d_ |
+| [HtmlSaveOptions](htmlsaveoptions#constructor)() | تهيئة مثيل جديد من هذه الفئة يمكن استخدامه لحفظ document فيHtml التنسيق . |
+| [HtmlSaveOptions](htmlsaveoptions#constructor_1)(SaveFormat) | تهيئة مثيل جديد من هذه الفئة يمكن استخدامه لحفظ document فيHtml وMhtml أوEpub التنسيق . |
 
 ## الخصائص
 
@@ -32,14 +32,14 @@ public class HtmlSaveOptions : SaveOptions
 | [CssStyleSheetFileName](../../aspose.words.saving/htmlsaveoptions/cssstylesheetfilename) { get; set; } | يحدد المسار واسم ملف ورقة الأنماط المتتالية (CSS) المكتوب عند تصدير document إلى HTML. الافتراضي هو سلسلة فارغة. |
 | [CssStyleSheetType](../../aspose.words.saving/htmlsaveoptions/cssstylesheettype) { get; set; } | يحدد كيفية تصدير أنماط CSS (ورقة الأنماط المتتالية) إلى HTML أو MHTML أو EPUB. القيمة الافتراضية هيInline لـ HTML / MHTML و External لـ EPUB. |
 | [CustomTimeZoneInfo](../../aspose.words.saving/saveoptions/customtimezoneinfo) { get; set; } | الحصول على أو تعيين المنطقة الزمنية المحلية المخصصة المستخدمة لحقول التاريخ / الوقت. |
-| [DefaultTemplate](../../aspose.words.saving/saveoptions/defaulttemplate) { get; set; } | الحصول على أو تعيين المسار للقالب الافتراضي (بما في ذلك اسم الملف) ._ x000d_ القيمة الافتراضية لهذه الخاصية هي **سلسلة فارغة** (Empty ) ._ x000d_ |
-| [Dml3DEffectsRenderingMode](../../aspose.words.saving/saveoptions/dml3deffectsrenderingmode) { get; set; } | الحصول على أو تعيين قيمة تحدد كيفية عرض التأثيرات ثلاثية الأبعاد ._ x000d_ |
+| [DefaultTemplate](../../aspose.words.saving/saveoptions/defaulttemplate) { get; set; } | الحصول على أو تعيين المسار للقالب الافتراضي (بما في ذلك اسم الملف) . القيمة الافتراضية لهذه الخاصية هي **سلسلة فارغة** (Empty ) . |
+| [Dml3DEffectsRenderingMode](../../aspose.words.saving/saveoptions/dml3deffectsrenderingmode) { get; set; } | الحصول على أو تعيين قيمة تحدد كيفية عرض التأثيرات ثلاثية الأبعاد . |
 | virtual [DmlEffectsRenderingMode](../../aspose.words.saving/saveoptions/dmleffectsrenderingmode) { get; set; } | الحصول على أو تعيين قيمة تحدد كيفية عرض تأثيرات DrawingML . |
 | [DmlRenderingMode](../../aspose.words.saving/saveoptions/dmlrenderingmode) { get; set; } | الحصول على قيمة أو تعيينها لتحديد كيفية عرض أشكال DrawingML . |
 | [DocumentPartSavingCallback](../../aspose.words.saving/htmlsaveoptions/documentpartsavingcallback) { get; set; } | يسمح بالتحكم في كيفية حفظ أجزاء المستند عند حفظ المستند بتنسيق HTML أو EPUB. |
 | [DocumentSplitCriteria](../../aspose.words.saving/htmlsaveoptions/documentsplitcriteria) { get; set; } | يحدد كيفية تقسيم المستند عند الحفظHtml أوEpub صيغة. الافتراضي هوNone لـ HTML و HeadingParagraph لـ EPUB. |
 | [DocumentSplitHeadingLevel](../../aspose.words.saving/htmlsaveoptions/documentsplitheadinglevel) { get; set; } | يحدد المستوى الأقصى للعناوين التي يتم عندها تقسيم المستند. القيمة الافتراضية هي`2` . |
-| [Encoding](../../aspose.words.saving/htmlsaveoptions/encoding) { get; set; } | يحدد الترميز المراد استخدامه عند التصدير إلى HTML أو MHTML أو EPUB. القيمة الافتراضية هي`ترميز UTF8 جديد (خطأ)` (UTF-8 بدون BOM) ._ x000d_ |
+| [Encoding](../../aspose.words.saving/htmlsaveoptions/encoding) { get; set; } | يحدد الترميز المراد استخدامه عند التصدير إلى HTML أو MHTML أو EPUB. القيمة الافتراضية هي`ترميز UTF8 جديد (خطأ)` (UTF-8 بدون BOM) . |
 | [EpubNavigationMapLevel](../../aspose.words.saving/htmlsaveoptions/epubnavigationmaplevel) { get; set; } | يحدد المستوى الأقصى للعناوين التي يتم ملؤها في خريطة التنقل عند التصدير إلى تنسيق IDPF EPUB . القيمة الافتراضية هي`3` . |
 | [ExportCidUrlsForMhtmlResources](../../aspose.words.saving/htmlsaveoptions/exportcidurlsformhtmlresources) { get; set; } | يحدد ما إذا كان سيتم استخدام عناوين URL لـ CID (معرف المحتوى) للإشارة إلى الموارد (الصور والخطوط و CSS) المضمنة في مستندات MHTML . القيمة الافتراضية هي`خاطئة` . |
 | [ExportDocumentProperties](../../aspose.words.saving/htmlsaveoptions/exportdocumentproperties) { get; set; } | يحدد ما إذا كان سيتم تصدير خصائص المستند المضمنة والمخصصة إلى HTML أو MHTML أو EPUB. القيمة الافتراضية هي`خاطئة` . |
@@ -75,16 +75,16 @@ public class HtmlSaveOptions : SaveOptions
 | [MetafileFormat](../../aspose.words.saving/htmlsaveoptions/metafileformat) { get; set; } | يحدد التنسيق الذي يتم حفظ ملفات التعريف به عند التصدير إلى HTML أو MHTML أو EPUB. القيمة الافتراضية هيPng ، مما يعني أنه يتم تقديم ملفات التعريف إلى صور PNG نقطية. |
 | [OfficeMathOutputMode](../../aspose.words.saving/htmlsaveoptions/officemathoutputmode) { get; set; } | يتحكم في كيفية تصدير كائنات OfficeMath إلى HTML أو MHTML أو EPUB. القيمة الافتراضية هي`HtmlOfficeMathOutputMode.Image` . |
 | [PrettyFormat](../../aspose.words.saving/saveoptions/prettyformat) { get; set; } | متى`حقيقي` ، جميلة تنسيقات الإخراج حيثما أمكن ذلك. القيمة الافتراضية هي **خاطئة** . |
-| [ProgressCallback](../../aspose.words.saving/saveoptions/progresscallback) { get; set; } | يتم الاتصال به أثناء حفظ المستند ويقبل البيانات حول حفظ التقدم ._ x000d_ |
-| [ResolveFontNames](../../aspose.words.saving/htmlsaveoptions/resolvefontnames) { get; set; } | يحدد ما إذا كانت أسماء عائلة الخط المستخدمة في المستند سيتم حلها واستبدالها وفقًا لـ_ x000d_[`FontSettings`](../../aspose.words/document/fontsettings) عند كتابتها في تنسيقات تستند إلى HTML. |
+| [ProgressCallback](../../aspose.words.saving/saveoptions/progresscallback) { get; set; } | يتم الاتصال به أثناء حفظ المستند ويقبل البيانات حول حفظ التقدم . |
+| [ResolveFontNames](../../aspose.words.saving/htmlsaveoptions/resolvefontnames) { get; set; } | يحدد ما إذا كانت أسماء عائلة الخط المستخدمة في المستند سيتم حلها واستبدالها وفقًا لـ [`FontSettings`](../../aspose.words/document/fontsettings) عند كتابتها في تنسيقات تستند إلى HTML. |
 | [ResourceFolder](../../aspose.words.saving/htmlsaveoptions/resourcefolder) { get; set; } | يحدد مجلدًا ماديًا حيث يتم حفظ جميع الموارد مثل الصور والخطوط و CSS الخارجية عند تصدير document إلى HTML. الافتراضي هو عبارة عن سلسلة فارغة. |
 | [ResourceFolderAlias](../../aspose.words.saving/htmlsaveoptions/resourcefolderalias) { get; set; } | يحدد اسم المجلد المستخدم لإنشاء URIs لجميع الموارد المكتوبة في مستند HTML. الافتراضي هو سلسلة فارغة. |
-| override [SaveFormat](../../aspose.words.saving/htmlsaveoptions/saveformat) { get; set; } | يحدد التنسيق الذي سيتم حفظ المستند به إذا تم استخدام كائن خيارات الحفظ هذا ._ x000d_ يمكن أن يكونHtml وMhtml أوEpub . |
+| override [SaveFormat](../../aspose.words.saving/htmlsaveoptions/saveformat) { get; set; } | يحدد التنسيق الذي سيتم حفظ المستند به إذا تم استخدام كائن خيارات الحفظ هذا . يمكن أن يكونHtml وMhtml أوEpub . |
 | [ScaleImageToShapeSize](../../aspose.words.saving/htmlsaveoptions/scaleimagetoshapesize) { get; set; } | يحدد ما إذا كان يتم قياس الصور بواسطة Aspose.Words لحجم الشكل المحيط عند التصدير إلى HTML أو MHTML أو EPUB. القيمة الافتراضية هي`حقيقي` . |
 | [TableWidthOutputMode](../../aspose.words.saving/htmlsaveoptions/tablewidthoutputmode) { get; set; } | يتحكم في كيفية تصدير عرض الجدول والصف والخلية إلى HTML أو MHTML أو EPUB. القيمة الافتراضية هيAll . |
 | [TempFolder](../../aspose.words.saving/saveoptions/tempfolder) { get; set; } | يحدد المجلد للملفات المؤقتة المستخدمة عند الحفظ في ملف DOC أو DOCX. بشكل افتراضي ، هذه الخاصية هي`لا شيء` ولا يتم استخدام أي ملفات مؤقتة. |
 | [UpdateCreatedTimeProperty](../../aspose.words.saving/saveoptions/updatecreatedtimeproperty) { get; set; } | الحصول على أو تعيين قيمة تحدد ما إذا كان ملف[`CreatedTime`](../../aspose.words.properties/builtindocumentproperties/createdtime) يتم تحديث الخاصية قبل الحفظ. القيمة الافتراضية خاطئة ؛ |
-| [UpdateFields](../../aspose.words.saving/saveoptions/updatefields) { get; set; } | الحصول على قيمة أو تعيينها لتحديد ما إذا كان يجب تحديث حقول من أنواع معينة قبل حفظ المستند بتنسيق صفحة ثابت ._ x000d_ القيمة الافتراضية لهذه الخاصية هي **حقيقي** . |
+| [UpdateFields](../../aspose.words.saving/saveoptions/updatefields) { get; set; } | الحصول على قيمة أو تعيينها لتحديد ما إذا كان يجب تحديث حقول من أنواع معينة قبل حفظ المستند بتنسيق صفحة ثابت . القيمة الافتراضية لهذه الخاصية هي **حقيقي** . |
 | [UpdateLastPrintedProperty](../../aspose.words.saving/saveoptions/updatelastprintedproperty) { get; set; } | الحصول على أو تعيين قيمة تحدد ما إذا كان ملف[`LastPrinted`](../../aspose.words.properties/builtindocumentproperties/lastprinted) يتم تحديث الخاصية قبل الحفظ. |
 | [UpdateLastSavedTimeProperty](../../aspose.words.saving/saveoptions/updatelastsavedtimeproperty) { get; set; } | الحصول على أو تعيين قيمة تحدد ما إذا كان ملف[`LastSavedTime`](../../aspose.words.properties/builtindocumentproperties/lastsavedtime) يتم تحديث الخاصية قبل الحفظ. |
 | [UpdateSdtContent](../../aspose.words.saving/saveoptions/updatesdtcontent) { get; set; } | الحصول على قيمة أو تعيينها لتحديد ما إذا كان محتوى[`StructuredDocumentTag`](../../aspose.words.markup/structureddocumenttag) يتم تحديثه قبل الحفظ. |

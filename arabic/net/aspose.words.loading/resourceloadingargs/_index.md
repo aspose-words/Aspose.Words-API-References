@@ -1,14 +1,14 @@
 ---
 title: ResourceLoadingArgs
 second_title: Aspose.Words لمراجع .NET API
-description: توفير بيانات لملفResourceLoading./iresourceloadingcallback/resourceloading طريقة ._ x000d_
+description: توفير بيانات لملفResourceLoading./iresourceloadingcallback/resourceloading طريقة .
 type: docs
 weight: 3490
 url: /ar/net/aspose.words.loading/resourceloadingargs/
 ---
 ## ResourceLoadingArgs class
 
-توفير بيانات لملف[`ResourceLoading`](../iresourceloadingcallback/resourceloading) طريقة ._ x000d_
+توفير بيانات لملف[`ResourceLoading`](../iresourceloadingcallback/resourceloading) طريقة .
 
 ```csharp
 public class ResourceLoadingArgs
@@ -19,14 +19,14 @@ public class ResourceLoadingArgs
 | اسم | وصف |
 | --- | --- |
 | [OriginalUri](../../aspose.words.loading/resourceloadingargs/originaluri) { get; } | URI الأصلي للمورد كما هو محدد في المستند المستورد. |
-| [ResourceType](../../aspose.words.loading/resourceloadingargs/resourcetype) { get; } | نوع المورد ._ x000d_ |
-| [Uri](../../aspose.words.loading/resourceloadingargs/uri) { get; set; } | معرف الموارد المنتظم (URI) للمورد الذي يتم استخدامه للتنزيل_ x000d_ if[`ResourceLoading`](../iresourceloadingcallback/resourceloading) إرجاع Default. |
+| [ResourceType](../../aspose.words.loading/resourceloadingargs/resourcetype) { get; } | نوع المورد . |
+| [Uri](../../aspose.words.loading/resourceloadingargs/uri) { get; set; } | معرف الموارد المنتظم (URI) للمورد الذي يتم استخدامه للتنزيل if[`ResourceLoading`](../iresourceloadingcallback/resourceloading) إرجاع Default. |
 
 ## طُرق
 
 | اسم | وصف |
 | --- | --- |
-| [SetData](../../aspose.words.loading/resourceloadingargs/setdata)(byte[]) | يحدد البيانات التي قدمها المستخدم للمورد المستخدم_ x000d_ if[`ResourceLoading`](../iresourceloadingcallback/resourceloading) إرجاع UserProvided . |
+| [SetData](../../aspose.words.loading/resourceloadingargs/setdata)(byte[]) | يحدد البيانات التي قدمها المستخدم للمورد المستخدم if[`ResourceLoading`](../iresourceloadingcallback/resourceloading) إرجاع UserProvided . |
 
 ### أمثلة
 

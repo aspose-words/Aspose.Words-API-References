@@ -24,7 +24,7 @@ public class ImageWatermarkOptions
 
 | اسم | وصف |
 | --- | --- |
-| [IsWashout](../../aspose.words/imagewatermarkoptions/iswashout) { get; set; } | الحصول على أو تعيين قيمة منطقية مسؤولة عن تأثير تبييض العلامة المائية ._ x000d_ القيمة الافتراضية هي True . |
+| [IsWashout](../../aspose.words/imagewatermarkoptions/iswashout) { get; set; } | الحصول على أو تعيين قيمة منطقية مسؤولة عن تأثير تبييض العلامة المائية . القيمة الافتراضية هي True . |
 | [Scale](../../aspose.words/imagewatermarkoptions/scale) { get; set; } | الحصول على عامل القياس أو تعيينه ككسر من الصورة. القيمة الافتراضية هي 0 - auto . |
 
 ### أنظر أيضا

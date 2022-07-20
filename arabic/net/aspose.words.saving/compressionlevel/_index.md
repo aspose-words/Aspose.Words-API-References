@@ -12,7 +12,7 @@ url: /ar/net/aspose.words.saving/compressionlevel/
 
 (ملفات DOCX و DOTX هي أرشيف ZIP داخليًا ، وتتحكم هذه الخاصية في مستوى ضغط الأرشيف.
 
-لاحظ أن ملف FlatOpc ليس أرشيفًا مضغوطًا ، وبالتالي ، لا تؤثر هذه الخاصية على ملفات FlatOpc.) _ x000d_
+لاحظ أن ملف FlatOpc ليس أرشيفًا مضغوطًا ، وبالتالي ، لا تؤثر هذه الخاصية على ملفات FlatOpc.)
 
 ```csharp
 public enum CompressionLevel
@@ -23,8 +23,8 @@ public enum CompressionLevel
 | اسم | قيمة | وصف |
 | --- | --- | --- |
 | Normal | `0` | مستوى ضغط عادي. مستوى الضغط الافتراضي المستخدم بواسطة Aspose.Words. |
-| Maximum | `1` | الحد الأقصى لمستوى الضغط ._ x000d_ |
-| Fast | `2` | مستوى ضغط سريع ._ x000d_ |
+| Maximum | `1` | الحد الأقصى لمستوى الضغط . |
+| Fast | `2` | مستوى ضغط سريع . |
 | SuperFast | `3` | مستوى ضغط فائق السرعة. يستخدم Microsoft Word مستوى الضغط هذا. |
 
 ### أمثلة

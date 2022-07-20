@@ -25,8 +25,8 @@ public class DownsampleOptions
 | اسم | وصف |
 | --- | --- |
 | [DownsampleImages](../../aspose.words.saving/downsampleoptions/downsampleimages) { get; set; } | يحدد ما إذا كان يجب اختزال حجم الصور. |
-| [Resolution](../../aspose.words.saving/downsampleoptions/resolution) { get; set; } | يحدد الدقة بالبكسل في البوصة التي يجب تصغير حجم الصور إليها ._ x000d_ |
-| [ResolutionThreshold](../../aspose.words.saving/downsampleoptions/resolutionthreshold) { get; set; } | يحدد دقة الحد بالبكسل لكل بوصة. _ x000d_ إذا كانت دقة صورة في المستند أقل من قيمة العتبة ، فلن يتم تطبيق خوارزمية الاختزال ._ x000d_ القيمة 0 تعني عدم استخدام فحص الحد وجميع الصور التي يمكن تقليل حجمها يتم تصغيرها. |
+| [Resolution](../../aspose.words.saving/downsampleoptions/resolution) { get; set; } | يحدد الدقة بالبكسل في البوصة التي يجب تصغير حجم الصور إليها . |
+| [ResolutionThreshold](../../aspose.words.saving/downsampleoptions/resolutionthreshold) { get; set; } | يحدد دقة الحد بالبكسل لكل بوصة. إذا كانت دقة صورة في المستند أقل من قيمة العتبة ، فلن يتم تطبيق خوارزمية الاختزال . القيمة 0 تعني عدم استخدام فحص الحد وجميع الصور التي يمكن تقليل حجمها يتم تصغيرها. |
 
 ### أمثلة
 

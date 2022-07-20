@@ -16,7 +16,7 @@ public RevisionColor RevisionBarsColor { get; set; }
 
 ### ملاحظات
 
-تعيين هذه الخاصية إلىByAuthor أوNoHighlight القيم_ x000d_ ستؤدي إلى إخفاء أشرطة المراجعة من التخطيط.
+تعيين هذه الخاصية إلىByAuthor أوNoHighlight القيم ستؤدي إلى إخفاء أشرطة المراجعة من التخطيط.
 
 ### أمثلة
 

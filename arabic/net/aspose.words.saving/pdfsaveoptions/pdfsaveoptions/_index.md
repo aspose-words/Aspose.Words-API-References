@@ -1,14 +1,14 @@
 ---
 title: PdfSaveOptions
 second_title: Aspose.Words لمراجع .NET API
-description: تهيئة مثيل جديد من هذه الفئة يمكن استخدامه لحفظ مستند في Pdf التنسيق ._ x000d_
+description: تهيئة مثيل جديد من هذه الفئة يمكن استخدامه لحفظ مستند في Pdf التنسيق .
 type: docs
 weight: 10
 url: /ar/net/aspose.words.saving/pdfsaveoptions/pdfsaveoptions/
 ---
 ## PdfSaveOptions constructor
 
-تهيئة مثيل جديد من هذه الفئة يمكن استخدامه لحفظ مستند في Pdf التنسيق ._ x000d_
+تهيئة مثيل جديد من هذه الفئة يمكن استخدامه لحفظ مستند في Pdf التنسيق .
 
 ```csharp
 public PdfSaveOptions()

@@ -25,7 +25,7 @@ public class WebExtensionProperty
 | اسم | وصف |
 | --- | --- |
 | [Name](../../aspose.words.webextensions/webextensionproperty/name) { get; set; } | تحديد اسم خاصية مخصصة |
-| [Value](../../aspose.words.webextensions/webextensionproperty/value) { get; set; } | تحديد قيمة خاصية مخصصة ._ x000d_ |
+| [Value](../../aspose.words.webextensions/webextensionproperty/value) { get; set; } | تحديد قيمة خاصية مخصصة . |
 
 ### أنظر أيضا
 

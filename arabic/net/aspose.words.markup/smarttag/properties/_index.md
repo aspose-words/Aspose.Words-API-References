@@ -1,14 +1,14 @@
 ---
 title: Properties
 second_title: Aspose.Words لمراجع .NET API
-description: مجموعة من خصائص العلامات الذكية ._ x000d_
+description: مجموعة من خصائص العلامات الذكية .
 type: docs
 weight: 40
 url: /ar/net/aspose.words.markup/smarttag/properties/
 ---
 ## SmartTag.Properties property
 
-مجموعة من خصائص العلامات الذكية ._ x000d_
+مجموعة من خصائص العلامات الذكية .
 
 ```csharp
 public CustomXmlPropertyCollection Properties { get; }

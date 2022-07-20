@@ -1,14 +1,14 @@
 ---
 title: HeadingPairs
 second_title: Aspose.Words لمراجع .NET API
-description: تحديد عناوين المستند وأسمائها ._ x000d_
+description: تحديد عناوين المستند وأسمائها .
 type: docs
 weight: 110
 url: /ar/net/aspose.words.properties/builtindocumentproperties/headingpairs/
 ---
 ## BuiltInDocumentProperties.HeadingPairs property
 
-تحديد عناوين المستند وأسمائها ._ x000d_
+تحديد عناوين المستند وأسمائها .
 
 ```csharp
 public object[] HeadingPairs { get; set; }
@@ -20,7 +20,7 @@ public object[] HeadingPairs { get; set; }
 
 العنصر الأول في الزوج هوString ويحدد اسم العنوان . العنصر الثاني للزوج هوInt32 ويحدد عدد أجزاء document لهذا العنوان في ملف[`TitlesOfParts`](../titlesofparts) منشأه.
 
-يجب أن يكون إجمالي عدد الأعداد لكل أزواج العناوين في هذه الخاصية مساويًا لـ_ x000d_ عدد العناصر في[`TitlesOfParts`](../titlesofparts) منشأه.
+يجب أن يكون إجمالي عدد الأعداد لكل أزواج العناوين في هذه الخاصية مساويًا لـ عدد العناصر في[`TitlesOfParts`](../titlesofparts) منشأه.
 
 Aspose.Words لا تقوم بتحديث هذه الخاصية.
 

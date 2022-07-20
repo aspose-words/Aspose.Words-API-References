@@ -13,7 +13,7 @@ url: /ar/net/aspose.words.layout/
 | فصل | وصف |
 | --- | --- |
 | [LayoutCollector](./layoutcollector) | تسمح هذه الفئة بحساب أرقام الصفحات لعقد المستند. |
-| [LayoutEnumerator](./layoutenumerator) | تعداد كيانات تخطيط الصفحة للمستند. _ x000d_ يمكنك استخدام هذه الفئة للتجول في نموذج تخطيط الصفحة. الخصائص المتاحة هي النوع والشكل الهندسي والنص وفهرس الصفحة حيث يتم تقديم الكيان ، بالإضافة إلى الهيكل العام والعلاقات ._ x000d_ استخدم مزيجًا من[`GetEntity`](../aspose.words.layout/layoutcollector/getentity) و[`Current`](../aspose.words.layout/layoutenumerator/current) الانتقال إلى الكيان الذي يتوافق مع عقدة المستند. |
+| [LayoutEnumerator](./layoutenumerator) | تعداد كيانات تخطيط الصفحة للمستند. يمكنك استخدام هذه الفئة للتجول في نموذج تخطيط الصفحة. الخصائص المتاحة هي النوع والشكل الهندسي والنص وفهرس الصفحة حيث يتم تقديم الكيان ، بالإضافة إلى الهيكل العام والعلاقات . استخدم مزيجًا من[`GetEntity`](../aspose.words.layout/layoutcollector/getentity) و[`Current`](../aspose.words.layout/layoutenumerator/current) الانتقال إلى الكيان الذي يتوافق مع عقدة المستند. |
 | [LayoutOptions](./layoutoptions) | يحتوي على الخيارات التي تسمح بالتحكم في عملية تخطيط المستند. |
 | [PageLayoutCallbackArgs](./pagelayoutcallbackargs) | تم تمرير وسيطة إلى[`Notify`](../aspose.words.layout/ipagelayoutcallback/notify) |
 | [RevisionOptions](./revisionoptions) | يسمح بالتحكم في كيفية معالجة مراجعات المستند أثناء عملية التخطيط. |
@@ -28,7 +28,7 @@ url: /ar/net/aspose.words.layout/
 | --- | --- |
 | [CommentDisplayMode](./commentdisplaymode) | يحدد وضع التجسيد لتعليقات المستند. |
 | [ContinuousSectionRestart](./continuoussectionrestart) | يمثل سلوكيات مختلفة عند حساب أرقام الصفحات في قسم مستمر يقوم بإعادة تشغيل ترقيم الصفحات. |
-| [LayoutEntityType](./layoutentitytype) | أنواع كيانات التخطيط ._ x000d_ |
+| [LayoutEntityType](./layoutentitytype) | أنواع كيانات التخطيط . |
 | [PageLayoutEvent](./pagelayoutevent) | رمز حدث يظهر أثناء إنشاء نموذج تخطيط الصفحة وعرضه. |
 | [RevisionColor](./revisioncolor) | يسمح بتحديد لون مراجعات المستند. |
 | [RevisionTextEffect](./revisiontexteffect) | يسمح بتحديد تأثير الزخرفة لمراجعات نص المستند. |

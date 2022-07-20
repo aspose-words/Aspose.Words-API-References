@@ -147,7 +147,7 @@ public void Print(PrinterSettings printerSettings, string documentName)
 | معامل | يكتب | وصف |
 | --- | --- | --- |
 | printerSettings | PrinterSettings | إعدادات الطابعة المراد استخدامها. |
-| documentName | String | اسم المستند المراد عرضه (على سبيل المثال ، في مربع حوار حالة الطباعة_ x000d_ أو قائمة انتظار الطابعة) أثناء طباعة المستند. |
+| documentName | String | اسم المستند المراد عرضه (على سبيل المثال ، في مربع حوار حالة الطباعة_ أو قائمة انتظار الطابعة) أثناء طباعة المستند. |
 
 ### ملاحظات
 

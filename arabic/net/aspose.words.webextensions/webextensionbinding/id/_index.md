@@ -1,14 +1,14 @@
 ---
 title: Id
 second_title: Aspose.Words لمراجع .NET API
-description: يحدد معرف الربط ._ x000d_
+description: يحدد معرف الربط .
 type: docs
 weight: 40
 url: /ar/net/aspose.words.webextensions/webextensionbinding/id/
 ---
 ## WebExtensionBinding.Id property
 
-يحدد معرف الربط ._ x000d_
+يحدد معرف الربط .
 
 ```csharp
 public string Id { get; set; }

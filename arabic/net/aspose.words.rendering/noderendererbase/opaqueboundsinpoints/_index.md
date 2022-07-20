@@ -1,14 +1,14 @@
 ---
 title: OpaqueBoundsInPoints
 second_title: Aspose.Words لمراجع .NET API
-description: يحصل على الحدود المعتمة للشكل بالنقاط ._ x000d_
+description: يحصل على الحدود المعتمة للشكل بالنقاط .
 type: docs
 weight: 20
 url: /ar/net/aspose.words.rendering/noderendererbase/opaqueboundsinpoints/
 ---
 ## NodeRendererBase.OpaqueBoundsInPoints property
 
-يحصل على الحدود المعتمة للشكل بالنقاط ._ x000d_
+يحصل على الحدود المعتمة للشكل بالنقاط .
 
 ```csharp
 public RectangleF OpaqueBoundsInPoints { get; }

@@ -1,14 +1,14 @@
 ---
 title: OfficeMath
 second_title: Aspose.Words لمراجع .NET API
-description: يمثل كائن Office Math مثل الوظيفة أو المعادلة أو المصفوفة أو ما شابه. يمكن أن تحتوي على عناصر فرعية_ x000d_ بما في ذلك مجموعة من النصوص الرياضية والإشارات المرجعية والتعليقات وغيرهاOfficeMath./officemath مثيلات وبعض العقد الأخرى.
+description: يمثل كائن Office Math مثل الوظيفة أو المعادلة أو المصفوفة أو ما شابه. يمكن أن تحتوي على عناصر فرعية بما في ذلك مجموعة من النصوص الرياضية والإشارات المرجعية والتعليقات وغيرهاOfficeMath./officemath مثيلات وبعض العقد الأخرى.
 type: docs
 weight: 3880
 url: /ar/net/aspose.words.math/officemath/
 ---
 ## OfficeMath class
 
-يمثل كائن Office Math مثل الوظيفة أو المعادلة أو المصفوفة أو ما شابه. يمكن أن تحتوي على عناصر فرعية_ x000d_ بما في ذلك مجموعة من النصوص الرياضية والإشارات المرجعية والتعليقات وغيرها[`OfficeMath`](../officemath) مثيلات وبعض العقد الأخرى.
+يمثل كائن Office Math مثل الوظيفة أو المعادلة أو المصفوفة أو ما شابه. يمكن أن تحتوي على عناصر فرعية بما في ذلك مجموعة من النصوص الرياضية والإشارات المرجعية والتعليقات وغيرها[`OfficeMath`](../officemath) مثيلات وبعض العقد الأخرى.
 
 ```csharp
 public class OfficeMath : CompositeNode
@@ -20,7 +20,7 @@ public class OfficeMath : CompositeNode
 | --- | --- |
 | [ChildNodes](../../aspose.words/compositenode/childnodes) { get; } | يحصل على جميع العقد الفرعية الفورية لهذه العقدة. |
 | [Count](../../aspose.words/compositenode/count) { get; } | الحصول على عدد الأطفال المباشرين لهذه العقدة. |
-| [CustomNodeId](../../aspose.words/node/customnodeid) { get; set; } | يحدد معرف العقدة المخصص ._ x000d_ |
+| [CustomNodeId](../../aspose.words/node/customnodeid) { get; set; } | يحدد معرف العقدة المخصص . |
 | [DisplayType](../../aspose.words.math/officemath/displaytype) { get; set; } | الحصول على / تعيين نوع تنسيق عرض Office Math الذي يمثل ما إذا كانت المعادلة تُعرض سطريًا مع النص أو يتم عرضها على السطر الخاص بها. |
 | virtual [Document](../../aspose.words/node/document) { get; } | الحصول على المستند الذي تنتمي إليه هذه العقدة . |
 | [EquationXmlEncoding](../../aspose.words.math/officemath/equationxmlencoding) { get; set; } | الحصول على / تعيين الترميز الذي تم استخدامه لتشفير معادلة XML ، إذا تمت قراءة كائن الرياضيات في المكتب من معادلة XML. نستخدم الترميز عند حفظ مستند لكتابة نفس الترميز الذي تمت قراءته. |
@@ -49,7 +49,7 @@ public class OfficeMath : CompositeNode
 | [GetAncestor](../../aspose.words/node/getancestor)(Type) | الحصول على الأصل الأول لنوع الكائن المحدد. |
 | [GetChild](../../aspose.words/compositenode/getchild)(NodeType, int, bool) | إرجاع العقدة الفرعية رقم N التي تطابق النوع المحدد. |
 | [GetChildNodes](../../aspose.words/compositenode/getchildnodes)(NodeType, bool) | إرجاع مجموعة مباشرة من العقد الفرعية التي تطابق النوع المحدد. |
-| [GetEnumerator](../../aspose.words/compositenode/getenumerator)() | يوفر دعمًا لكل تكرار نمط على العقد التابعة لهذه العقدة ._ x000d_ |
+| [GetEnumerator](../../aspose.words/compositenode/getenumerator)() | يوفر دعمًا لكل تكرار نمط على العقد التابعة لهذه العقدة . |
 | [GetMathRenderer](../../aspose.words.math/officemath/getmathrenderer)() | إنشاء وإرجاع كائن يمكن استخدامه لتحويل هذه المعادلة إلى صورة. |
 | override [GetText](../../aspose.words/compositenode/gettext)() | يحصل على نص هذه العقدة وجميع توابعها. |
 | [IndexOf](../../aspose.words/compositenode/indexof)(Node) | إرجاع فهرس العقدة الفرعية المحددة في مصفوفة العقدة الفرعية. |
@@ -69,7 +69,7 @@ public class OfficeMath : CompositeNode
 
 ### ملاحظات
 
-في هذا الإصدار من Aspose.Words ،[`OfficeMath`](../officemath) العقد لا توفر الأساليب العامة والخصائص لإنشاء أو تعديل كائن OfficeMath. في هذا الإصدار لا يمكنك إنشاء مثيل_ x000d_Math العقد أو تعديل الموجودة باستثناء حذفها.
+في هذا الإصدار من Aspose.Words ،[`OfficeMath`](../officemath) العقد لا توفر الأساليب العامة والخصائص لإنشاء أو تعديل كائن OfficeMath. في هذا الإصدار لا يمكنك إنشاء مثيل Math العقد أو تعديل الموجودة باستثناء حذفها.
 
 [`OfficeMath`](../officemath) يمكن أن يكون فقط تابعًا لـ[`Paragraph`](../../aspose.words/paragraph).
 

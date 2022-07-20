@@ -1,14 +1,14 @@
 ---
 title: ImageData
 second_title: Aspose.Words لمراجع .NET API
-description: يوفر الوصول إلى صورة الشكل. إرجاع فارغ إذا كان الشكل لا يمكن أن يحتوي على صورة ._ x000d_
+description: يوفر الوصول إلى صورة الشكل. إرجاع فارغ إذا كان الشكل لا يمكن أن يحتوي على صورة .
 type: docs
 weight: 110
 url: /ar/net/aspose.words.drawing/shape/imagedata/
 ---
 ## Shape.ImageData property
 
-يوفر الوصول إلى صورة الشكل. إرجاع فارغ إذا كان الشكل لا يمكن أن يحتوي على صورة ._ x000d_
+يوفر الوصول إلى صورة الشكل. إرجاع فارغ إذا كان الشكل لا يمكن أن يحتوي على صورة .
 
 ```csharp
 public ImageData ImageData { get; }

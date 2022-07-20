@@ -1,14 +1,14 @@
 ---
 title: Add
 second_title: Aspose.Words لمراجع .NET API
-description: إضافة إشارة مرجعية إلى المجموعة ._ x000d_
+description: إضافة إشارة مرجعية إلى المجموعة .
 type: docs
 weight: 40
 url: /ar/net/aspose.words.saving/bookmarksoutlinelevelcollection/add/
 ---
 ## BookmarksOutlineLevelCollection.Add method
 
-إضافة إشارة مرجعية إلى المجموعة ._ x000d_
+إضافة إشارة مرجعية إلى المجموعة .
 
 ```csharp
 public void Add(string name, int outlineLevel)

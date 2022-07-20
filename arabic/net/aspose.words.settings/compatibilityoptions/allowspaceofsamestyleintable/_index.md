@@ -1,14 +1,14 @@
 ---
 title: AllowSpaceOfSameStyleInTable
 second_title: Aspose.Words لمراجع .NET API
-description: السماح بالتباعد السياقي للفقرات في الجداول ._ x000d_
+description: السماح بالتباعد السياقي للفقرات في الجداول .
 type: docs
 weight: 30
 url: /ar/net/aspose.words.settings/compatibilityoptions/allowspaceofsamestyleintable/
 ---
 ## CompatibilityOptions.AllowSpaceOfSameStyleInTable property
 
-السماح بالتباعد السياقي للفقرات في الجداول ._ x000d_
+السماح بالتباعد السياقي للفقرات في الجداول .
 
 ```csharp
 public bool AllowSpaceOfSameStyleInTable { get; set; }

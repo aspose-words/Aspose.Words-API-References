@@ -1,14 +1,14 @@
 ---
 title: Borders
 second_title: Aspose.Words لمراجع .NET API
-description: يحصل على مجموعة حدود الصورة. الحدود لها تأثير فقط على الصور المضمنة ._ x000d_
+description: يحصل على مجموعة حدود الصورة. الحدود لها تأثير فقط على الصور المضمنة .
 type: docs
 weight: 20
 url: /ar/net/aspose.words.drawing/imagedata/borders/
 ---
 ## ImageData.Borders property
 
-يحصل على مجموعة حدود الصورة. الحدود لها تأثير فقط على الصور المضمنة ._ x000d_
+يحصل على مجموعة حدود الصورة. الحدود لها تأثير فقط على الصور المضمنة .
 
 ```csharp
 public BorderCollection Borders { get; }

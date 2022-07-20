@@ -1,14 +1,14 @@
 ---
 title: IgnoreInserted
 second_title: Aspose.Words لمراجع .NET API
-description: الحصول على أو تعيين قيمة منطقية تشير إما إلى تجاهل النص داخل مراجعات الإدراج ._ x000d_ القيمة الافتراضية هيخاطئة .
+description: الحصول على أو تعيين قيمة منطقية تشير إما إلى تجاهل النص داخل مراجعات الإدراج . القيمة الافتراضية هيخاطئة .
 type: docs
 weight: 100
 url: /ar/net/aspose.words.replacing/findreplaceoptions/ignoreinserted/
 ---
 ## FindReplaceOptions.IgnoreInserted property
 
-الحصول على أو تعيين قيمة منطقية تشير إما إلى تجاهل النص داخل مراجعات الإدراج ._ x000d_ القيمة الافتراضية هي`خاطئة` .
+الحصول على أو تعيين قيمة منطقية تشير إما إلى تجاهل النص داخل مراجعات الإدراج . القيمة الافتراضية هي`خاطئة` .
 
 ```csharp
 public bool IgnoreInserted { get; set; }

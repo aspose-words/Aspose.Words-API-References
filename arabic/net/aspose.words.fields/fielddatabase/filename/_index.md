@@ -1,14 +1,14 @@
 ---
 title: FileName
 second_title: Aspose.Words لمراجع .NET API
-description: الحصول على أو تحديد المسار الكامل واسم الملف لقاعدة البيانات_ x000d_
+description: الحصول على أو تحديد المسار الكامل واسم الملف لقاعدة البيانات
 type: docs
 weight: 30
 url: /ar/net/aspose.words.fields/fielddatabase/filename/
 ---
 ## FieldDatabase.FileName property
 
-الحصول على أو تحديد المسار الكامل واسم الملف لقاعدة البيانات_ x000d_
+الحصول على أو تحديد المسار الكامل واسم الملف لقاعدة البيانات
 
 ```csharp
 public string FileName { get; set; }

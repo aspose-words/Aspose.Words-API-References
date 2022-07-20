@@ -24,7 +24,7 @@ public class OdsoRecipientData
 
 | اسم | وصف |
 | --- | --- |
-| [Active](../../aspose.words.settings/odsorecipientdata/active) { get; set; } | يحدد ما إذا كان يجب استيراد السجل من مصدر البيانات إلى مستند عند تنفيذ دمج البريد. _ x000d_ القيمة الافتراضية هي`حقيقي` . |
+| [Active](../../aspose.words.settings/odsorecipientdata/active) { get; set; } | يحدد ما إذا كان يجب استيراد السجل من مصدر البيانات إلى مستند عند تنفيذ دمج البريد. القيمة الافتراضية هي`حقيقي` . |
 | [Column](../../aspose.words.settings/odsorecipientdata/column) { get; set; } | يحدد العمود داخل مصدر البيانات الذي يحتوي على بيانات فريدة للسجل الحالي. القيمة الافتراضية هي 0. |
 | [Hash](../../aspose.words.settings/odsorecipientdata/hash) { get; set; } | يمثل رمز التجزئة لهذا السجل. يستخدم Microsoft Word أحيانًا[`Hash`](./hash) من سجل كامل بدلاً من ملف[`UniqueTag`](./uniquetag) value. القيمة الافتراضية هي 0. |
 | [UniqueTag](../../aspose.words.settings/odsorecipientdata/uniquetag) { get; set; } | يحدد محتويات سجل معين في العمود الذي يحتوي على بيانات فريدة. القيمة الافتراضية هي`لا شيء` . |

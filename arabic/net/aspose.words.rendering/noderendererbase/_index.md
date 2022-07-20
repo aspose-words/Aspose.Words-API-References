@@ -18,22 +18,22 @@ public abstract class NodeRendererBase
 
 | اسم | وصف |
 | --- | --- |
-| [BoundsInPoints](../../aspose.words.rendering/noderendererbase/boundsinpoints) { get; } | يحصل على الحدود الفعلية للشكل بالنقاط ._ x000d_ |
-| [OpaqueBoundsInPoints](../../aspose.words.rendering/noderendererbase/opaqueboundsinpoints) { get; } | يحصل على الحدود المعتمة للشكل بالنقاط ._ x000d_ |
-| [SizeInPoints](../../aspose.words.rendering/noderendererbase/sizeinpoints) { get; } | الحصول على الحجم الفعلي للشكل بالنقاط ._ x000d_ |
+| [BoundsInPoints](../../aspose.words.rendering/noderendererbase/boundsinpoints) { get; } | يحصل على الحدود الفعلية للشكل بالنقاط . |
+| [OpaqueBoundsInPoints](../../aspose.words.rendering/noderendererbase/opaqueboundsinpoints) { get; } | يحصل على الحدود المعتمة للشكل بالنقاط . |
+| [SizeInPoints](../../aspose.words.rendering/noderendererbase/sizeinpoints) { get; } | الحصول على الحجم الفعلي للشكل بالنقاط . |
 
 ## طُرق
 
 | اسم | وصف |
 | --- | --- |
-| [GetBoundsInPixels](../../aspose.words.rendering/noderendererbase/getboundsinpixels#getboundsinpixels)(float, float) | حساب حدود الشكل بالبكسل لعامل تكبير ودقة محددين ._ x000d_ |
-| [GetBoundsInPixels](../../aspose.words.rendering/noderendererbase/getboundsinpixels#getboundsinpixels_1)(float, float, float) | حساب حدود الشكل بالبكسل لعامل تكبير ودقة محددين ._ x000d_ |
-| [GetOpaqueBoundsInPixels](../../aspose.words.rendering/noderendererbase/getopaqueboundsinpixels#getopaqueboundsinpixels)(float, float) | لحساب الحدود المعتمة للشكل بالبكسل لعامل تكبير ودقة محددين ._ x000d_ |
-| [GetOpaqueBoundsInPixels](../../aspose.words.rendering/noderendererbase/getopaqueboundsinpixels#getopaqueboundsinpixels_1)(float, float, float) | لحساب الحدود المعتمة للشكل بالبكسل لعامل تكبير ودقة محددين ._ x000d_ |
-| [GetSizeInPixels](../../aspose.words.rendering/noderendererbase/getsizeinpixels#getsizeinpixels)(float, float) | حساب حجم الشكل بالبكسل لعامل تكبير ودقة محددين ._ x000d_ |
-| [GetSizeInPixels](../../aspose.words.rendering/noderendererbase/getsizeinpixels#getsizeinpixels_1)(float, float, float) | حساب حجم الشكل بالبكسل لعامل تكبير ودقة محددين ._ x000d_ |
-| [RenderToScale](../../aspose.words.rendering/noderendererbase/rendertoscale)(Graphics, float, float, float) | يجعل الشكل في ملفGraphics كائن إلى مقياس محدد ._ x000d_ |
-| [RenderToSize](../../aspose.words.rendering/noderendererbase/rendertosize)(Graphics, float, float, float, float) | يجعل الشكل في ملفGraphics كائن لحجم محدد ._ x000d_ |
+| [GetBoundsInPixels](../../aspose.words.rendering/noderendererbase/getboundsinpixels#getboundsinpixels)(float, float) | حساب حدود الشكل بالبكسل لعامل تكبير ودقة محددين . |
+| [GetBoundsInPixels](../../aspose.words.rendering/noderendererbase/getboundsinpixels#getboundsinpixels_1)(float, float, float) | حساب حدود الشكل بالبكسل لعامل تكبير ودقة محددين . |
+| [GetOpaqueBoundsInPixels](../../aspose.words.rendering/noderendererbase/getopaqueboundsinpixels#getopaqueboundsinpixels)(float, float) | لحساب الحدود المعتمة للشكل بالبكسل لعامل تكبير ودقة محددين . |
+| [GetOpaqueBoundsInPixels](../../aspose.words.rendering/noderendererbase/getopaqueboundsinpixels#getopaqueboundsinpixels_1)(float, float, float) | لحساب الحدود المعتمة للشكل بالبكسل لعامل تكبير ودقة محددين . |
+| [GetSizeInPixels](../../aspose.words.rendering/noderendererbase/getsizeinpixels#getsizeinpixels)(float, float) | حساب حجم الشكل بالبكسل لعامل تكبير ودقة محددين . |
+| [GetSizeInPixels](../../aspose.words.rendering/noderendererbase/getsizeinpixels#getsizeinpixels_1)(float, float, float) | حساب حجم الشكل بالبكسل لعامل تكبير ودقة محددين . |
+| [RenderToScale](../../aspose.words.rendering/noderendererbase/rendertoscale)(Graphics, float, float, float) | يجعل الشكل في ملفGraphics كائن إلى مقياس محدد . |
+| [RenderToSize](../../aspose.words.rendering/noderendererbase/rendertosize)(Graphics, float, float, float, float) | يجعل الشكل في ملفGraphics كائن لحجم محدد . |
 | [Save](../../aspose.words.rendering/noderendererbase/save#save)(Stream, ImageSaveOptions) | يجسد الشكل في صورة ويحفظ في تدفق . |
 | [Save](../../aspose.words.rendering/noderendererbase/save#save_1)(string, ImageSaveOptions) | يعرض الشكل في صورة وحفظه في ملف. |
 

@@ -27,7 +27,7 @@ public sealed class Section : CompositeNode
 | [Body](../../aspose.words/section/body) { get; } | إرجاع ملف **الجسم** العقدة الفرعية للقسم. |
 | [ChildNodes](../../aspose.words/compositenode/childnodes) { get; } | يحصل على جميع العقد الفرعية الفورية لهذه العقدة. |
 | [Count](../../aspose.words/compositenode/count) { get; } | الحصول على عدد الأطفال المباشرين لهذه العقدة. |
-| [CustomNodeId](../../aspose.words/node/customnodeid) { get; set; } | يحدد معرف العقدة المخصص ._ x000d_ |
+| [CustomNodeId](../../aspose.words/node/customnodeid) { get; set; } | يحدد معرف العقدة المخصص . |
 | virtual [Document](../../aspose.words/node/document) { get; } | الحصول على المستند الذي تنتمي إليه هذه العقدة . |
 | [FirstChild](../../aspose.words/compositenode/firstchild) { get; } | الحصول على الطفل الأول للعقدة . |
 | [HasChildNodes](../../aspose.words/compositenode/haschildnodes) { get; } | إرجاع صحيح إذا كانت هذه العقدة بها أي عقد فرعية. |
@@ -54,13 +54,13 @@ public sealed class Section : CompositeNode
 | [Clone](../../aspose.words/section/clone#clone_1)() | لإنشاء نسخة مكررة من هذا القسم. |
 | [Clone](../../aspose.words/node/clone)(bool) | لإنشاء نسخة مكررة من العقدة . |
 | [CreateNavigator](../../aspose.words/compositenode/createnavigator)() | محجوز لاستخدام النظام. IXPathNavigable. |
-| [DeleteHeaderFooterShapes](../../aspose.words/section/deleteheaderfootershapes)() | حذف كافة الأشكال (الكائنات الرسومية) من رؤوس وتذييلات هذا القسم ._ x000d_ |
+| [DeleteHeaderFooterShapes](../../aspose.words/section/deleteheaderfootershapes)() | حذف كافة الأشكال (الكائنات الرسومية) من رؤوس وتذييلات هذا القسم . |
 | [EnsureMinimum](../../aspose.words/section/ensureminimum)() | يضمن أن القسم به نص فقرة واحدة. |
 | [GetAncestor](../../aspose.words/node/getancestor)(NodeType) | يحصل على أول سلف محدد[`NodeType`](../nodetype) . |
 | [GetAncestor](../../aspose.words/node/getancestor)(Type) | الحصول على الأصل الأول لنوع الكائن المحدد. |
 | [GetChild](../../aspose.words/compositenode/getchild)(NodeType, int, bool) | إرجاع العقدة الفرعية رقم N التي تطابق النوع المحدد. |
 | [GetChildNodes](../../aspose.words/compositenode/getchildnodes)(NodeType, bool) | إرجاع مجموعة مباشرة من العقد الفرعية التي تطابق النوع المحدد. |
-| [GetEnumerator](../../aspose.words/compositenode/getenumerator)() | يوفر دعمًا لكل تكرار نمط على العقد التابعة لهذه العقدة ._ x000d_ |
+| [GetEnumerator](../../aspose.words/compositenode/getenumerator)() | يوفر دعمًا لكل تكرار نمط على العقد التابعة لهذه العقدة . |
 | override [GetText](../../aspose.words/compositenode/gettext)() | يحصل على نص هذه العقدة وجميع توابعها. |
 | [IndexOf](../../aspose.words/compositenode/indexof)(Node) | إرجاع فهرس العقدة الفرعية المحددة في مصفوفة العقدة الفرعية. |
 | [InsertAfter](../../aspose.words/compositenode/insertafter)(Node, Node) | يدخل العقدة المحددة مباشرة بعد العقدة المرجعية المحددة. |
@@ -88,7 +88,7 @@ public sealed class Section : CompositeNode
 
 يمكنك إنشاء نسخة من قسم باستخدام[`Clone`](../node/clone). يمكن إدراج النسخة في نفس المستند أو في مستند مختلف.
 
-لإضافة أو إدراج أو إزالة قسم كامل بما في ذلك فاصل المقطع وخصائص القسم x000d_ استخدم طرق **الأقسام** هدف.
+لإضافة أو إدراج أو إزالة قسم كامل بما في ذلك فاصل المقطع وخصائص القسم استخدم طرق **الأقسام** هدف.
 
 لنسخ وإدراج محتوى القسم فقط باستثناء المقطع break واستخدام خصائص القسم **AppendContent** و **PrependContent**طُرق.
 

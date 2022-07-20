@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Aspose.Words لمراجع .NET API
-description: الحصول على نمط بالاسم أو الاسم المستعار ._ x000d_
+description: الحصول على نمط بالاسم أو الاسم المستعار .
 type: docs
 weight: 50
 url: /ar/net/aspose.words/stylecollection/item/
 ---
 ## StyleCollection indexer (1 of 3)
 
-الحصول على نمط بالاسم أو الاسم المستعار ._ x000d_
+الحصول على نمط بالاسم أو الاسم المستعار .
 
 ```csharp
 public Style this[string name] { get; }
@@ -102,7 +102,7 @@ Assert.AreEqual(15.0, styles["MyStyle"].ParagraphFormat.FirstLineIndent);
 
 ## StyleCollection indexer (3 of 3)
 
-الحصول على نمط حسب الفهرس ._ x000d_
+الحصول على نمط حسب الفهرس .
 
 ```csharp
 public Style this[int index] { get; }

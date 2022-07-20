@@ -1,14 +1,14 @@
 ---
 title: WPJustification
 second_title: Aspose.Words لمراجع .NET API
-description: محاكاة WordPerfect 6.x ضبط الفقرة. _ x000d_
+description: محاكاة WordPerfect 6.x ضبط الفقرة.
 type: docs
 weight: 690
 url: /ar/net/aspose.words.settings/compatibilityoptions/wpjustification/
 ---
 ## CompatibilityOptions.WPJustification property
 
-محاكاة WordPerfect 6.x ضبط الفقرة. _ x000d_
+محاكاة WordPerfect 6.x ضبط الفقرة.
 
 ```csharp
 public bool WPJustification { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: TickLabelSpacingIsAuto
 second_title: Aspose.Words لمراجع .NET API
-description: الحصول على أو تعيين علامة تشير إلى ما إذا كان سيتم استخدام الفاصل الزمني التلقائي لعلامات رسم التجزئة ._ x000d_
+description: الحصول على أو تعيين علامة تشير إلى ما إذا كان سيتم استخدام الفاصل الزمني التلقائي لعلامات رسم التجزئة .
 type: docs
 weight: 240
 url: /ar/net/aspose.words.drawing.charts/chartaxis/ticklabelspacingisauto/
 ---
 ## ChartAxis.TickLabelSpacingIsAuto property
 
-الحصول على أو تعيين علامة تشير إلى ما إذا كان سيتم استخدام الفاصل الزمني التلقائي لعلامات رسم التجزئة ._ x000d_
+الحصول على أو تعيين علامة تشير إلى ما إذا كان سيتم استخدام الفاصل الزمني التلقائي لعلامات رسم التجزئة .
 
 ```csharp
 public bool TickLabelSpacingIsAuto { get; set; }

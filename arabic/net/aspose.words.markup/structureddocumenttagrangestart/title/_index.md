@@ -1,14 +1,14 @@
 ---
 title: Title
 second_title: Aspose.Words لمراجع .NET API
-description: يحدد الاسم المألوف المرتبط بعلامة المستند المنظمة هذه. لا يمكن أن يكون فارغًا ._ x000d_
+description: يحدد الاسم المألوف المرتبط بعلامة المستند المنظمة هذه. لا يمكن أن يكون فارغًا .
 type: docs
 weight: 160
 url: /ar/net/aspose.words.markup/structureddocumenttagrangestart/title/
 ---
 ## StructuredDocumentTagRangeStart.Title property
 
-يحدد الاسم المألوف المرتبط بعلامة المستند المنظمة هذه. لا يمكن أن يكون فارغًا ._ x000d_
+يحدد الاسم المألوف المرتبط بعلامة المستند المنظمة هذه. لا يمكن أن يكون فارغًا .
 
 ```csharp
 public string Title { get; set; }

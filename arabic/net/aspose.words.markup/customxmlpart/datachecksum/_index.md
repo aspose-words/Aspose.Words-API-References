@@ -1,14 +1,14 @@
 ---
 title: DataChecksum
 second_title: Aspose.Words لمراجع .NET API
-description: يحدد المجموع الاختباري لفحص التكرار الدوري CRC لملفDataaspose.words.markup/customxmlpart/data المحتوى ._ x000d_
+description: يحدد المجموع الاختباري لفحص التكرار الدوري CRC لملفDataaspose.words.markup/customxmlpart/data المحتوى .
 type: docs
 weight: 30
 url: /ar/net/aspose.words.markup/customxmlpart/datachecksum/
 ---
 ## CustomXmlPart.DataChecksum property
 
-يحدد المجموع الاختباري لفحص التكرار الدوري (CRC) لملف[`Data`](../data) المحتوى ._ x000d_
+يحدد المجموع الاختباري لفحص التكرار الدوري (CRC) لملف[`Data`](../data) المحتوى .
 
 ```csharp
 public long DataChecksum { get; }

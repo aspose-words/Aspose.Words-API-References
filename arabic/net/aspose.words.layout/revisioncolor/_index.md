@@ -18,23 +18,23 @@ public enum RevisionColor
 
 | اسم | قيمة | وصف |
 | --- | --- | --- |
-| Auto | `0` | افتراضي ._ x000d_ |
+| Auto | `0` | افتراضي . |
 | Black | `1` | يمثل 000000 لون . |
 | Blue | `2` | يمثل 2e97d3 color. |
-| BrightGreen | `3` | يمثل 84a35b لون ._ x000d_ |
+| BrightGreen | `3` | يمثل 84a35b لون . |
 | ClassicBlue | `4` | يمثل 0000ff color. |
 | ClassicRed | `5` | يمثل ff0000 لون . |
 | DarkBlue | `6` | يمثل 376e96 لونًا . |
-| DarkRed | `7` | يمثل 881824 لون ._ x000d_ |
+| DarkRed | `7` | يمثل 881824 لون . |
 | DarkYellow | `8` | يمثل e09a2b color. |
 | Gray25 | `9` | يمثل a0a3a9 color. |
-| Gray50 | `10` | يمثل 50565e اللون ._ x000d_ |
+| Gray50 | `10` | يمثل 50565e اللون . |
 | Green | `11` | يمثل 2c6234 color. |
 | Pink | `12` | يمثل لون ce338f . |
 | Red | `13` | يمثل لون b5082e . |
 | Teal | `14` | يمثل 1b9cab color. |
 | Turquoise | `15` | يمثل 3eafc2 color. |
-| Violet | `16` | يمثل 633277 لون ._ x000d_ |
+| Violet | `16` | يمثل 633277 لون . |
 | White | `17` | يمثل لون ffffff . |
 | Yellow | `18` | يمثل fad272 color. |
 | NoHighlight | `19` | لم يتم استخدام أي لون لإبراز تغييرات المراجعة. |

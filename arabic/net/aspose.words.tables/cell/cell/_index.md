@@ -1,14 +1,14 @@
 ---
 title: Cell
 second_title: Aspose.Words لمراجع .NET API
-description: يقوم بتهيئة مثيل جديد لملف خلية فئة ._ x000d_
+description: يقوم بتهيئة مثيل جديد لملف خلية فئة .
 type: docs
 weight: 10
 url: /ar/net/aspose.words.tables/cell/cell/
 ---
 ## Cell constructor
 
-يقوم بتهيئة مثيل جديد لملف **خلية** فئة ._ x000d_
+يقوم بتهيئة مثيل جديد لملف **خلية** فئة .
 
 ```csharp
 public Cell(DocumentBase doc)

@@ -18,16 +18,16 @@ public sealed class AxisBound
 
 | اسم | وصف |
 | --- | --- |
-| [AxisBound](axisbound#constructor)() | إنشاء مثيل جديد يشير إلى أنه يجب تحديد حد المحور تلقائيًا بواسطة تطبيق معالجة الكلمات_ x000d_ . |
+| [AxisBound](axisbound#constructor)() | إنشاء مثيل جديد يشير إلى أنه يجب تحديد حد المحور تلقائيًا بواسطة تطبيق معالجة الكلمات . |
 | [AxisBound](axisbound#constructor_2)(DateTime) | يُنشئ محورًا منضمًا يتم تمثيله كقيمة للتاريخ والوقت. |
-| [AxisBound](axisbound#constructor_1)(double) | لإنشاء حد محور يتم تمثيله كرقم ._ x000d_ |
+| [AxisBound](axisbound#constructor_1)(double) | لإنشاء حد محور يتم تمثيله كرقم . |
 
 ## الخصائص
 
 | اسم | وصف |
 | --- | --- |
 | [IsAuto](../../aspose.words.drawing.charts/axisbound/isauto) { get; } | إرجاع إشارة تشير إلى أنه يجب تحديد حد المحور تلقائيًا. |
-| [Value](../../aspose.words.drawing.charts/axisbound/value) { get; } | إرجاع القيمة الرقمية لحد المحور ._ x000d_ |
+| [Value](../../aspose.words.drawing.charts/axisbound/value) { get; } | إرجاع القيمة الرقمية لحد المحور . |
 | [ValueAsDate](../../aspose.words.drawing.charts/axisbound/valueasdate) { get; } | إرجاع قيمة منضم المحور ممثلة بالتاريخ والوقت. |
 
 ## طُرق

@@ -1,14 +1,14 @@
 ---
 title: TextRenderingHint
 second_title: Aspose.Words لمراجع .NET API
-description: الحصول على أو تحديد وضع العرض للنص المرتبط بهذه الرسومات ._ x000d_
+description: الحصول على أو تحديد وضع العرض للنص المرتبط بهذه الرسومات .
 type: docs
 weight: 70
 url: /ar/net/aspose.words.saving/graphicsqualityoptions/textrenderinghint/
 ---
 ## GraphicsQualityOptions.TextRenderingHint property
 
-الحصول على أو تحديد وضع العرض للنص المرتبط بهذه الرسومات ._ x000d_
+الحصول على أو تحديد وضع العرض للنص المرتبط بهذه الرسومات .
 
 ```csharp
 public TextRenderingHint? TextRenderingHint { get; set; }

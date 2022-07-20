@@ -1,14 +1,14 @@
 ---
 title: ResourceType
 second_title: Aspose.Words لمراجع .NET API
-description: نوع المورد الذي تم تحميله ._ x000d_
+description: نوع المورد الذي تم تحميله .
 type: docs
 weight: 3500
 url: /ar/net/aspose.words.loading/resourcetype/
 ---
 ## ResourceType enumeration
 
-نوع المورد الذي تم تحميله ._ x000d_
+نوع المورد الذي تم تحميله .
 
 ```csharp
 public enum ResourceType

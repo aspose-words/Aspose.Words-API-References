@@ -1,14 +1,14 @@
 ---
 title: Pattern
 second_title: Aspose.Words لمراجع .NET API
-description: يحصل على أPatternTypeaspose.words.drawing/patterntype للتعبئة ._ x000d_
+description: يحصل على أPatternTypeaspose.words.drawing/patterntype للتعبئة .
 type: docs
 weight: 100
 url: /ar/net/aspose.words.drawing/fill/pattern/
 ---
 ## Fill.Pattern property
 
-يحصل على أ[`PatternType`](../../patterntype) للتعبئة ._ x000d_
+يحصل على أ[`PatternType`](../../patterntype) للتعبئة .
 
 ```csharp
 public PatternType Pattern { get; }

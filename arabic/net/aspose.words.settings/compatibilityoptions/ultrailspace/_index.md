@@ -1,14 +1,14 @@
 ---
 title: UlTrailSpace
 second_title: Aspose.Words لمراجع .NET API
-description: تسطير كافة المساحات اللاحقة ._ x000d_
+description: تسطير كافة المساحات اللاحقة .
 type: docs
 weight: 580
 url: /ar/net/aspose.words.settings/compatibilityoptions/ultrailspace/
 ---
 ## CompatibilityOptions.UlTrailSpace property
 
-تسطير كافة المساحات اللاحقة ._ x000d_
+تسطير كافة المساحات اللاحقة .
 
 ```csharp
 public bool UlTrailSpace { get; set; }

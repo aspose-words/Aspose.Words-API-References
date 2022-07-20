@@ -1,14 +1,14 @@
 ---
 title: DocumentPartSavingArgs
 second_title: Aspose.Words لمراجع .NET API
-description: توفير بيانات لملفDocumentPartSaving./idocumentpartsavingcallback/documentpartsaving رد الاتصال ._ x000d_
+description: توفير بيانات لملفDocumentPartSaving./idocumentpartsavingcallback/documentpartsaving رد الاتصال .
 type: docs
 weight: 4680
 url: /ar/net/aspose.words.saving/documentpartsavingargs/
 ---
 ## DocumentPartSavingArgs class
 
-توفير بيانات لملف[`DocumentPartSaving`](../idocumentpartsavingcallback/documentpartsaving) رد الاتصال ._ x000d_
+توفير بيانات لملف[`DocumentPartSaving`](../idocumentpartsavingcallback/documentpartsaving) رد الاتصال .
 
 ```csharp
 public class DocumentPartSavingArgs

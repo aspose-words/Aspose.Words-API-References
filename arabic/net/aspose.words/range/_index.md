@@ -28,7 +28,7 @@ public class Range
 
 | اسم | وصف |
 | --- | --- |
-| [Delete](../../aspose.words/range/delete)() | حذف كافة أحرف النطاق ._ x000d_ |
+| [Delete](../../aspose.words/range/delete)() | حذف كافة أحرف النطاق . |
 | [NormalizeFieldTypes](../../aspose.words/range/normalizefieldtypes)() | يغير قيم نوع الحقل[`FieldType`](../../aspose.words.fields/fieldchar/fieldtype) من[`FieldStart`](../../aspose.words.fields/fieldstart) و[`FieldSeparator`](../../aspose.words.fields/fieldseparator) و[`FieldEnd`](../../aspose.words.fields/fieldend) في هذا النطاق بحيث تتوافق مع أنواع الحقول الموجودة في أكواد الحقول. |
 | [Replace](../../aspose.words/range/replace#replace_2)(Regex, string) | يستبدل كل تكرارات نمط الحرف المحدد بواسطة تعبير عادي بسلسلة أخرى. |
 | [Replace](../../aspose.words/range/replace#replace)(string, string) | يستبدل كل تكرارات نمط سلسلة الأحرف المحددة بسلسلة بديلة. |

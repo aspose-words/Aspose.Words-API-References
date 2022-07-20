@@ -1,14 +1,14 @@
 ---
 title: Clone
 second_title: Aspose.Words لمراجع .NET API
-description: عمل نسخة عميقة بدرجة كافية من الكائن. لا يكرر بايتات ملفDataaspose.words.markup/custompart/data القيمة ._ x000d_
+description: عمل نسخة عميقة بدرجة كافية من الكائن. لا يكرر بايتات ملفDataaspose.words.markup/custompart/data القيمة .
 type: docs
 weight: 70
 url: /ar/net/aspose.words.markup/custompart/clone/
 ---
 ## CustomPart.Clone method
 
-عمل نسخة "عميقة بدرجة كافية" من الكائن. لا يكرر بايتات ملف[`Data`](../data) القيمة ._ x000d_
+عمل نسخة "عميقة بدرجة كافية" من الكائن. لا يكرر بايتات ملف[`Data`](../data) القيمة .
 
 ```csharp
 public CustomPart Clone()

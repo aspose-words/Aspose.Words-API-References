@@ -1,14 +1,14 @@
 ---
 title: FontData
 second_title: Aspose.Words لمراجع .NET API
-description: بيانات الخط الثنائي ._ x000d_
+description: بيانات الخط الثنائي .
 type: docs
 weight: 30
 url: /ar/net/aspose.words.fonts/memoryfontsource/fontdata/
 ---
 ## MemoryFontSource.FontData property
 
-بيانات الخط الثنائي ._ x000d_
+بيانات الخط الثنائي .
 
 ```csharp
 public byte[] FontData { get; }

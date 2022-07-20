@@ -1,14 +1,14 @@
 ---
 title: FirstParagraph
 second_title: Aspose.Words لمراجع .NET API
-description: الحصول على الفقرة الأولى بالشكل ._ x000d_
+description: الحصول على الفقرة الأولى بالشكل .
 type: docs
 weight: 60
 url: /ar/net/aspose.words.drawing/shape/firstparagraph/
 ---
 ## Shape.FirstParagraph property
 
-الحصول على الفقرة الأولى بالشكل ._ x000d_
+الحصول على الفقرة الأولى بالشكل .
 
 ```csharp
 public Paragraph FirstParagraph { get; }

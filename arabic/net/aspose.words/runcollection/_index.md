@@ -1,14 +1,14 @@
 ---
 title: RunCollection
 second_title: Aspose.Words لمراجع .NET API
-description: يوفر وصولاً مكتوبًا إلى مجموعة منRun./run العقد ._ x000d_
+description: يوفر وصولاً مكتوبًا إلى مجموعة منRun./run العقد .
 type: docs
 weight: 4570
 url: /ar/net/aspose.words/runcollection/
 ---
 ## RunCollection class
 
-يوفر وصولاً مكتوبًا إلى مجموعة من[`Run`](../run) العقد ._ x000d_
+يوفر وصولاً مكتوبًا إلى مجموعة من[`Run`](../run) العقد .
 
 ```csharp
 public class RunCollection : NodeCollection

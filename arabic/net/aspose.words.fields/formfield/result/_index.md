@@ -22,9 +22,9 @@ public string Result { get; set; }
 
 بالنسبة لحقل النموذج المنسدل ، تكون النتيجة هي السلسلة المحددة في القائمة المنسدلة.
 
-ضبط`Result` لحقل نموذج نصي لا يطبق تنسيق النص المحدد في x000d[`TextInputFormat`](../textinputformat) . إذا كنت تريد تعيين قيمة وتطبيق تنسيق ، فاستخدم ملف[`SetTextInputValue`](../settextinputvalue) طريقة.
+ضبط`Result` لحقل نموذج نصي لا يطبق تنسيق النص المحدد في [`TextInputFormat`](../textinputformat) . إذا كنت تريد تعيين قيمة وتطبيق تنسيق ، فاستخدم ملف[`SetTextInputValue`](../settextinputvalue) طريقة.
 
-للحصول على حقل نموذج نصي[`TextInputDefault`](../textinputdefault) يتم تطبيق القيمة_ x000d_ إذا*value* هو`لا شيء`.
+للحصول على حقل نموذج نصي[`TextInputDefault`](../textinputdefault) يتم تطبيق القيمة إذا*value* هو`لا شيء`.
 
 ### أمثلة
 

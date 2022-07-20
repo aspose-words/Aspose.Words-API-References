@@ -16,7 +16,7 @@ public bool ShowValue { get; set; }
 
 ### ملاحظات
 
-يمكن تجاوز القيمة المحددة لهذه الخاصية لتسمية بيانات فردية باستخدام the [`ShowValue`](../../chartdatalabel/showvalue) الملكية ._ x000d_
+يمكن تجاوز القيمة المحددة لهذه الخاصية لتسمية بيانات فردية باستخدام the [`ShowValue`](../../chartdatalabel/showvalue) الملكية .
 
 ### أمثلة
 

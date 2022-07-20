@@ -20,7 +20,7 @@ public class ListCollection : IEnumerable<List>
 | --- | --- |
 | [Count](../../aspose.words.lists/listcollection/count) { get; } | الحصول على عدد القوائم المرقمة والنقطية في المستند. |
 | [Document](../../aspose.words.lists/listcollection/document) { get; } | الحصول على مستند المالك. |
-| [Item](../../aspose.words.lists/listcollection/item) { get; } | يحصل على قائمة بالفهرس ._ x000d_ |
+| [Item](../../aspose.words.lists/listcollection/item) { get; } | يحصل على قائمة بالفهرس . |
 
 ## طُرق
 
@@ -34,7 +34,7 @@ public class ListCollection : IEnumerable<List>
 
 ### ملاحظات
 
-القائمة في مستند Microsoft Word عبارة عن مجموعة من خصائص تنسيق القائمة. _ x000d_ يتم تخزين تنسيق القوائم في[`ListCollection`](../listcollection) جمع بشكل منفصل من فقرات النص.
+القائمة في مستند Microsoft Word عبارة عن مجموعة من خصائص تنسيق القائمة. يتم تخزين تنسيق القوائم في[`ListCollection`](../listcollection) جمع بشكل منفصل من فقرات النص.
 
 لا تقوم بإنشاء كائنات من هذه الفئة. هناك دائما واحد فقط[`ListCollection`](../listcollection) كائن لكل مستند ويمكن الوصول إليه عبر ملف[`Lists`](../../aspose.words/documentbase/lists) منشأه.
 
@@ -42,11 +42,11 @@ public class ListCollection : IEnumerable<List>
 
 لإنشاء قائمة جديدة بتنسيق مماثل لقائمة موجودة ، استخدم [`AddCopy`](./addcopy) طريقة.
 
-لجعل فقرة ذات تعداد نقطي أو رقمي ، تحتاج إلى تطبيق تنسيق القائمة_ x000d_ على فقرة من خلال تعيين[`List`](../list) الكائن على [`List`](../listformat/list) ممتلكات[`ListFormat`](../listformat).
+لجعل فقرة ذات تعداد نقطي أو رقمي ، تحتاج إلى تطبيق تنسيق القائمة على فقرة من خلال تعيين[`List`](../list) الكائن على [`List`](../listformat/list) ممتلكات[`ListFormat`](../listformat).
 
 لإزالة تنسيق القائمة من فقرة ، استخدم[`RemoveNumbers`](../listformat/removenumbers) طريقة .
 
-إذا كنت تعرف القليل عن WordprocessingML ، فقد تعلم أنه يعرّف مفاهيم منفصلة لـ "قائمة" و "تعريف القائمة". هذا يتوافق تمامًا مع كيفية تخزين تنسيق القائمة_ x000d_ في مستند Microsoft Word بالمستوى المنخفض. تعريف القائمة يشبه "المخطط" وقائمة x000d_ مثل مثيل لتعريف القائمة.
+إذا كنت تعرف القليل عن WordprocessingML ، فقد تعلم أنه يعرّف مفاهيم منفصلة لـ "قائمة" و "تعريف القائمة". هذا يتوافق تمامًا مع كيفية تخزين تنسيق القائمة في مستند Microsoft Word بالمستوى المنخفض. تعريف القائمة يشبه "المخطط" وقائمة مثل مثيل لتعريف القائمة.
 
 لتبسيط نموذج البرمجة ، يخفي Aspose.Words التمييز بين تعريف list بنفس الطريقة التي يخفي بها Microsoft Word هذا في واجهة المستخدم الخاصة به. بناء كائنات منخفضة المستوى لتلبية متطلبات تنسيق ملف Microsoft Word.
 

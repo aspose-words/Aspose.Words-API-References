@@ -26,9 +26,9 @@ public class FieldBarcode : Field
 | --- | --- |
 | [DisplayResult](../../aspose.words.fields/field/displayresult) { get; } | يحصل على النص الذي يمثل نتيجة الحقل المعروض. |
 | [End](../../aspose.words.fields/field/end) { get; } | يحصل على العقدة التي تمثل نهاية الحقل. |
-| [FacingIdentificationMark](../../aspose.words.fields/fieldbarcode/facingidentificationmark) { get; set; } | الحصول على أو تحديد نوع علامة تحديد الوجه (FIM) المطلوب إدراجها ._ x000d_ |
+| [FacingIdentificationMark](../../aspose.words.fields/fieldbarcode/facingidentificationmark) { get; set; } | الحصول على أو تحديد نوع علامة تحديد الوجه (FIM) المطلوب إدراجها . |
 | [Format](../../aspose.words.fields/field/format) { get; } | يحصل على أ[`FieldFormat`](../fieldformat) كائن يوفر وصولاً مكتوبًا إلى تنسيق الحقل. |
-| [IsBookmark](../../aspose.words.fields/fieldbarcode/isbookmark) { get; set; } | يحصل أو يحدد ما إذا كان[`PostalAddress`](./postaladdress) هو اسم إشارة مرجعية ._ x000d_ |
+| [IsBookmark](../../aspose.words.fields/fieldbarcode/isbookmark) { get; set; } | يحصل أو يحدد ما إذا كان[`PostalAddress`](./postaladdress) هو اسم إشارة مرجعية . |
 | [IsDirty](../../aspose.words.fields/field/isdirty) { get; set; } | الحصول على أو تحديد ما إذا كانت النتيجة الحالية للحقل لم تعد صحيحة (قديمة) بسبب التعديلات الأخرى التي تم إجراؤها على المستند. |
 | [IsLocked](../../aspose.words.fields/field/islocked) { get; set; } | تحديد ما إذا كان الحقل مغلقًا أم لا (يجب عدم إعادة حساب النتيجة). |
 | [IsUSPostalAddress](../../aspose.words.fields/fieldbarcode/isuspostaladdress) { get; set; } | يحصل أو يحدد ما إذا كان[`PostalAddress`](./postaladdress) هو عنوان بريدي أمريكي. |
@@ -43,8 +43,8 @@ public class FieldBarcode : Field
 
 | اسم | وصف |
 | --- | --- |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode)() | إرجاع النص بين بداية الحقل وفاصل الحقل (أو نهاية الحقل إذا لم يكن هناك فاصل) ._ x000d_ يتم تضمين كل من رمز الحقل ونتيجة الحقل للحقول الفرعية. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode)(bool) | إرجاع النص بين بداية الحقل وفاصل الحقل (أو نهاية الحقل إذا لم يكن هناك فاصل) ._ x000d_ |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode)() | إرجاع النص بين بداية الحقل وفاصل الحقل (أو نهاية الحقل إذا لم يكن هناك فاصل) . يتم تضمين كل من رمز الحقل ونتيجة الحقل للحقول الفرعية. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode)(bool) | إرجاع النص بين بداية الحقل وفاصل الحقل (أو نهاية الحقل إذا لم يكن هناك فاصل) . |
 | [Remove](../../aspose.words.fields/field/remove)() | يزيل الحقل من المستند. إرجاع عقدة بعد الحقل مباشرة. إذا كانت نهاية الحقل هي آخر child من العقدة الأصلية ، يتم إرجاع فقرته الأصلية. إذا تمت إزالة الحقل بالفعل ، يعود **لا شيء** . |
 | [Unlink](../../aspose.words.fields/field/unlink)() | يقوم بإلغاء ربط الحقل. |
 | [Update](../../aspose.words.fields/field/update)() | يقوم بالتحديث الميداني. يرمي إذا تم تحديث الحقل بالفعل. |

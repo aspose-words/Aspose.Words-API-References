@@ -26,21 +26,21 @@ public class BarcodeParameters
 | --- | --- |
 | [AddStartStopChar](../../aspose.words.fields/barcodeparameters/addstartstopchar) { get; set; } | ما إذا كنت تريد إضافة أحرف بدء / إيقاف لأنواع الباركود NW7 و CODE39. |
 | [BackgroundColor](../../aspose.words.fields/barcodeparameters/backgroundcolor) { get; set; } | لون خلفية الرمز الشريطي (0x000000 - 0xFFFFFF) |
-| [BarcodeType](../../aspose.words.fields/barcodeparameters/barcodetype) { get; set; } | نوع الرمز الشريطي ._ x000d_ |
-| [BarcodeValue](../../aspose.words.fields/barcodeparameters/barcodevalue) { get; set; } | البيانات المراد تشفيرها ._ x000d_ |
+| [BarcodeType](../../aspose.words.fields/barcodeparameters/barcodetype) { get; set; } | نوع الرمز الشريطي . |
+| [BarcodeValue](../../aspose.words.fields/barcodeparameters/barcodevalue) { get; set; } | البيانات المراد تشفيرها . |
 | [CaseCodeStyle](../../aspose.words.fields/barcodeparameters/casecodestyle) { get; set; } | نمط رمز الحالة لنوع الرمز الشريطي ITF14. القيم الصالحة هي [STD &#x7C; EXT &#x7C; ADD] |
 | [DisplayText](../../aspose.words.fields/barcodeparameters/displaytext) { get; set; } | عرض بيانات الباركود (نص) مع الصورة. |
-| [ErrorCorrectionLevel](../../aspose.words.fields/barcodeparameters/errorcorrectionlevel) { get; set; } | مستوى تصحيح الخطأ لرمز الاستجابة السريعة. القيم الصالحة هي [0 ، 3] ._ x000d_ |
-| [FacingIdentificationMark](../../aspose.words.fields/barcodeparameters/facingidentificationmark) { get; set; } | نوع علامة تحديد الوجه (FIM) ._ x000d_ |
+| [ErrorCorrectionLevel](../../aspose.words.fields/barcodeparameters/errorcorrectionlevel) { get; set; } | مستوى تصحيح الخطأ لرمز الاستجابة السريعة. القيم الصالحة هي [0 ، 3] . |
+| [FacingIdentificationMark](../../aspose.words.fields/barcodeparameters/facingidentificationmark) { get; set; } | نوع علامة تحديد الوجه (FIM) . |
 | [FixCheckDigit](../../aspose.words.fields/barcodeparameters/fixcheckdigit) { get; set; } | تحديد ما إذا كان يجب إصلاح خانة الاختيار إذا كانت غير صالحة. |
 | [ForegroundColor](../../aspose.words.fields/barcodeparameters/foregroundcolor) { get; set; } | لون مقدمة الرمز الشريطي (0x000000 - 0xFFFFFF) |
-| [IsBookmark](../../aspose.words.fields/barcodeparameters/isbookmark) { get; set; } | سواء[`PostalAddress`](./postaladdress) هو اسم إشارة مرجعية ._ x000d_ |
+| [IsBookmark](../../aspose.words.fields/barcodeparameters/isbookmark) { get; set; } | سواء[`PostalAddress`](./postaladdress) هو اسم إشارة مرجعية . |
 | [IsUSPostalAddress](../../aspose.words.fields/barcodeparameters/isuspostaladdress) { get; set; } | سواء[`PostalAddress`](./postaladdress) هو عنوان بريدي أمريكي. |
-| [PosCodeStyle](../../aspose.words.fields/barcodeparameters/poscodestyle) { get; set; } | نمط الرمز الشريطي لنقطة البيع (أنواع الرموز الشريطية UPCA &#x7C; UPCE &#x7C; EAN13 &#x7C; EAN8). القيم الصالحة (غير حساسة لحالة الأحرف) هي [STD &#x7C; SUP2 &#x7C; SUP5 &#x7C; CASE] ._ x000d_ |
-| [PostalAddress](../../aspose.words.fields/barcodeparameters/postaladdress) { get; set; } | العنوان البريدي للرمز الشريطي ._ x000d_ |
-| [ScalingFactor](../../aspose.words.fields/barcodeparameters/scalingfactor) { get; set; } | معامل القياس للرمز. القيمة بالنقاط المئوية الكاملة والقيم الصالحة هي [10 ، 1000] ._ x000d_ |
-| [SymbolHeight](../../aspose.words.fields/barcodeparameters/symbolheight) { get; set; } | ارتفاع صورة الرمز الشريطي (بالتويب - 1/1440 بوصة) _ x000d_ |
-| [SymbolRotation](../../aspose.words.fields/barcodeparameters/symbolrotation) { get; set; } | دوران رمز الباركود. القيم الصالحة هي [0 ، 3] ._ x000d_ |
+| [PosCodeStyle](../../aspose.words.fields/barcodeparameters/poscodestyle) { get; set; } | نمط الرمز الشريطي لنقطة البيع (أنواع الرموز الشريطية UPCA &#x7C; UPCE &#x7C; EAN13 &#x7C; EAN8). القيم الصالحة (غير حساسة لحالة الأحرف) هي [STD &#x7C; SUP2 &#x7C; SUP5 &#x7C; CASE] . |
+| [PostalAddress](../../aspose.words.fields/barcodeparameters/postaladdress) { get; set; } | العنوان البريدي للرمز الشريطي . |
+| [ScalingFactor](../../aspose.words.fields/barcodeparameters/scalingfactor) { get; set; } | معامل القياس للرمز. القيمة بالنقاط المئوية الكاملة والقيم الصالحة هي [10 ، 1000] . |
+| [SymbolHeight](../../aspose.words.fields/barcodeparameters/symbolheight) { get; set; } | ارتفاع صورة الرمز الشريطي (بالتويب - 1/1440 بوصة) |
+| [SymbolRotation](../../aspose.words.fields/barcodeparameters/symbolrotation) { get; set; } | دوران رمز الباركود. القيم الصالحة هي [0 ، 3] . |
 
 ### ملاحظات
 

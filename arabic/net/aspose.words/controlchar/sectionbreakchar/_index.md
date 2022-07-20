@@ -1,14 +1,14 @@
 ---
 title: SectionBreakChar
 second_title: Aspose.Words لمراجع .NET API
-description: حرف نهاية المقطع char 12 أو  f ._ x000d_
+description: حرف نهاية المقطع char 12 أو  f .
 type: docs
 weight: 250
 url: /ar/net/aspose.words/controlchar/sectionbreakchar/
 ---
 ## ControlChar.SectionBreakChar field
 
-حرف نهاية المقطع: (char) 12 أو "\ f" ._ x000d_
+حرف نهاية المقطع: (char) 12 أو "\ f" .
 
 ```csharp
 public const char SectionBreakChar;

@@ -18,7 +18,7 @@ public interface IFieldUserPromptRespondent
 
 | اسم | وصف |
 | --- | --- |
-| [Respond](../../aspose.words.fields/ifielduserpromptrespondent/respond)(string, string) | عند التنفيذ ، يتم إرجاع استجابة من المستخدم عند المطالبة. يجب أن يعود التنفيذ **لا شيء** للإشارة إلى أن المستخدم لم يستجب إلى المطالبة (أي أن المستخدم قد ضغط على زر "إلغاء" في نافذة المطالبة) ._ x000d_ |
+| [Respond](../../aspose.words.fields/ifielduserpromptrespondent/respond)(string, string) | عند التنفيذ ، يتم إرجاع استجابة من المستخدم عند المطالبة. يجب أن يعود التنفيذ **لا شيء** للإشارة إلى أن المستخدم لم يستجب إلى المطالبة (أي أن المستخدم قد ضغط على زر "إلغاء" في نافذة المطالبة) . |
 
 ### ملاحظات
 

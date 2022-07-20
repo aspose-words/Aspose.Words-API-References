@@ -1,14 +1,14 @@
 ---
 title: Delete
 second_title: Aspose.Words لمراجع .NET API
-description: حذف كافة أحرف النطاق ._ x000d_
+description: حذف كافة أحرف النطاق .
 type: docs
 weight: 60
 url: /ar/net/aspose.words/range/delete/
 ---
 ## Range.Delete method
 
-حذف كافة أحرف النطاق ._ x000d_
+حذف كافة أحرف النطاق .
 
 ```csharp
 public void Delete()

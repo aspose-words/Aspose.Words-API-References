@@ -1,14 +1,14 @@
 ---
 title: SaveFormat
 second_title: Aspose.Words لمراجع .NET API
-description: يحدد التنسيق الذي سيتم حفظ المستند به إذا تم استخدام كائن خيارات الحفظ هذا ._ x000d_ يمكن أن يكونHtml وMhtml أوEpub .
+description: يحدد التنسيق الذي سيتم حفظ المستند به إذا تم استخدام كائن خيارات الحفظ هذا . يمكن أن يكونHtml وMhtml أوEpub .
 type: docs
 weight: 440
 url: /ar/net/aspose.words.saving/htmlsaveoptions/saveformat/
 ---
 ## HtmlSaveOptions.SaveFormat property
 
-يحدد التنسيق الذي سيتم حفظ المستند به إذا تم استخدام كائن خيارات الحفظ هذا ._ x000d_ يمكن أن يكونHtml وMhtml أوEpub .
+يحدد التنسيق الذي سيتم حفظ المستند به إذا تم استخدام كائن خيارات الحفظ هذا . يمكن أن يكونHtml وMhtml أوEpub .
 
 ```csharp
 public override SaveFormat SaveFormat { get; set; }

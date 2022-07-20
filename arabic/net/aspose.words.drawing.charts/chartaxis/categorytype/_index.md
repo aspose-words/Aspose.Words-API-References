@@ -16,7 +16,7 @@ public AxisCategoryType CategoryType { get; set; }
 
 ### ملاحظات
 
-فئات النص فقط (Category ) مسموح به في مخططات MS Office 2016 الجديدة ._ x000d_
+فئات النص فقط (Category ) مسموح به في مخططات MS Office 2016 الجديدة .
 
 ### أمثلة
 

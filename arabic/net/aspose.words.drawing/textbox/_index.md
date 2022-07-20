@@ -19,10 +19,10 @@ public class TextBox
 | اسم | وصف |
 | --- | --- |
 | [FitShapeToText](../../aspose.words.drawing/textbox/fitshapetotext) { get; set; } | تحديد ما إذا كان Microsoft Word سيزيد الشكل ليلائم النص. |
-| [InternalMarginBottom](../../aspose.words.drawing/textbox/internalmarginbottom) { get; set; } | يحدد الهامش السفلي الداخلي بالنقاط للشكل ._ x000d_ |
-| [InternalMarginLeft](../../aspose.words.drawing/textbox/internalmarginleft) { get; set; } | يحدد الهامش الأيسر الداخلي بالنقاط للشكل ._ x000d_ |
-| [InternalMarginRight](../../aspose.words.drawing/textbox/internalmarginright) { get; set; } | يحدد الهامش الأيمن الداخلي بالنقاط للشكل ._ x000d_ |
-| [InternalMarginTop](../../aspose.words.drawing/textbox/internalmargintop) { get; set; } | يحدد الهامش العلوي الداخلي بالنقاط للشكل ._ x000d_ |
+| [InternalMarginBottom](../../aspose.words.drawing/textbox/internalmarginbottom) { get; set; } | يحدد الهامش السفلي الداخلي بالنقاط للشكل . |
+| [InternalMarginLeft](../../aspose.words.drawing/textbox/internalmarginleft) { get; set; } | يحدد الهامش الأيسر الداخلي بالنقاط للشكل . |
+| [InternalMarginRight](../../aspose.words.drawing/textbox/internalmarginright) { get; set; } | يحدد الهامش الأيمن الداخلي بالنقاط للشكل . |
+| [InternalMarginTop](../../aspose.words.drawing/textbox/internalmargintop) { get; set; } | يحدد الهامش العلوي الداخلي بالنقاط للشكل . |
 | [LayoutFlow](../../aspose.words.drawing/textbox/layoutflow) { get; set; } | يحدد تدفق تخطيط النص في شكل. |
 | [Next](../../aspose.words.drawing/textbox/next) { get; set; } | إرجاع أو تعيين مربع نص يمثل مربع النص التالي في تسلسل من الأشكال. |
 | [Parent](../../aspose.words.drawing/textbox/parent) { get; } | الحصول على شكل أصل لمربع النص. |
@@ -39,7 +39,7 @@ public class TextBox
 
 ### ملاحظات
 
-استخدم ال[`TextBox`](../shape/textbox) للوصول إلى خصائص النص الخاصة بالشكل ._ x000d_ لا يمكنك إنشاء مثيلات لملف[`TextBox`](../textbox) فئة مباشرة.
+استخدم ال[`TextBox`](../shape/textbox) للوصول إلى خصائص النص الخاصة بالشكل . لا يمكنك إنشاء مثيلات لملف[`TextBox`](../textbox) فئة مباشرة.
 
 ### أمثلة
 

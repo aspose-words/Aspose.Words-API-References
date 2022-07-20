@@ -1,14 +1,14 @@
 ---
 title: BoundsWithEffects
 second_title: Aspose.Words لمراجع .NET API
-description: الحصول على المدى النهائي الذي يمتلكه كائن الشكل هذا بعد تطبيق تأثيرات الرسم. يتم قياس القيمة بالنقاط ._ x000d_
+description: الحصول على المدى النهائي الذي يمتلكه كائن الشكل هذا بعد تطبيق تأثيرات الرسم. يتم قياس القيمة بالنقاط .
 type: docs
 weight: 90
 url: /ar/net/aspose.words.drawing/shapebase/boundswitheffects/
 ---
 ## ShapeBase.BoundsWithEffects property
 
-الحصول على المدى النهائي الذي يمتلكه كائن الشكل هذا بعد تطبيق تأثيرات الرسم. يتم قياس القيمة بالنقاط ._ x000d_
+الحصول على المدى النهائي الذي يمتلكه كائن الشكل هذا بعد تطبيق تأثيرات الرسم. يتم قياس القيمة بالنقاط .
 
 ```csharp
 public RectangleF BoundsWithEffects { get; }

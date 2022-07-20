@@ -1,14 +1,14 @@
 ---
 title: LineSpacingRule
 second_title: Aspose.Words لمراجع .NET API
-description: تحديد قيم تباعد الأسطر للفقرة ._ x000d_
+description: تحديد قيم تباعد الأسطر للفقرة .
 type: docs
 weight: 3240
 url: /ar/net/aspose.words/linespacingrule/
 ---
 ## LineSpacingRule enumeration
 
-تحديد قيم تباعد الأسطر للفقرة ._ x000d_
+تحديد قيم تباعد الأسطر للفقرة .
 
 ```csharp
 public enum LineSpacingRule
@@ -18,7 +18,7 @@ public enum LineSpacingRule
 
 | اسم | قيمة | وصف |
 | --- | --- | --- |
-| AtLeast | `0` | يمكن أن يكون تباعد الأسطر أكبر من أو يساوي ، ولكن ليس أقل من ، القيمة المحددة في[`LineSpacing`](../paragraphformat/linespacing) الملكية ._ x000d_ |
+| AtLeast | `0` | يمكن أن يكون تباعد الأسطر أكبر من أو يساوي ، ولكن ليس أقل من ، القيمة المحددة في[`LineSpacing`](../paragraphformat/linespacing) الملكية . |
 | Exactly | `1` | لا يتغير تباعد الأسطر أبدًا عن القيمة المحددة في [`LineSpacing`](../paragraphformat/linespacing) الخاصية ، حتى إذا تم استخدام خط أكبر داخل الفقرة. |
 | Multiple | `2` | تم تحديد تباعد الأسطر في ملف[`LineSpacing`](../paragraphformat/linespacing) كعدد الأسطر. سطر واحد يساوي 12 نقطة. |
 

@@ -1,14 +1,14 @@
 ---
 title: Equals
 second_title: Aspose.Words لمراجع .NET API
-description: يقارن بالقائمة المحددة ._ x000d_
+description: يقارن بالقائمة المحددة .
 type: docs
 weight: 100
 url: /ar/net/aspose.words.lists/list/equals/
 ---
 ## Equals(List) {#equals}
 
-يقارن بالقائمة المحددة ._ x000d_
+يقارن بالقائمة المحددة .
 
 ```csharp
 public bool Equals(List list)

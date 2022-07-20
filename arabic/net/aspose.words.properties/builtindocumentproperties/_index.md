@@ -1,14 +1,14 @@
 ---
 title: BuiltInDocumentProperties
 second_title: Aspose.Words لمراجع .NET API
-description: مجموعة من خصائص المستند المضمنة ._ x000d_
+description: مجموعة من خصائص المستند المضمنة .
 type: docs
 weight: 4200
 url: /ar/net/aspose.words.properties/builtindocumentproperties/
 ---
 ## BuiltInDocumentProperties class
 
-مجموعة من خصائص المستند المضمنة ._ x000d_
+مجموعة من خصائص المستند المضمنة .
 
 ```csharp
 public class BuiltInDocumentProperties : DocumentPropertyCollection
@@ -24,15 +24,15 @@ public class BuiltInDocumentProperties : DocumentPropertyCollection
 | [Characters](../../aspose.words.properties/builtindocumentproperties/characters) { get; set; } | يمثل تقديرًا لعدد الأحرف في المستند. |
 | [CharactersWithSpaces](../../aspose.words.properties/builtindocumentproperties/characterswithspaces) { get; set; } | يمثل تقديرًا لعدد الأحرف (بما في ذلك المسافات) في المستند. |
 | [Comments](../../aspose.words.properties/builtindocumentproperties/comments) { get; set; } | الحصول على تعليقات المستند أو تعيينها. |
-| [Company](../../aspose.words.properties/builtindocumentproperties/company) { get; set; } | الحصول على أو تعيين خاصية الشركة ._ x000d_ |
+| [Company](../../aspose.words.properties/builtindocumentproperties/company) { get; set; } | الحصول على أو تعيين خاصية الشركة . |
 | [ContentStatus](../../aspose.words.properties/builtindocumentproperties/contentstatus) { get; set; } | الحصول على أو تعيين حالة محتوى المستند. |
 | [ContentType](../../aspose.words.properties/builtindocumentproperties/contenttype) { get; set; } | الحصول على أو تعيين حالة محتوى المستند. |
 | [Count](../../aspose.words.properties/documentpropertycollection/count) { get; } | الحصول على عدد العناصر في المجموعة. |
 | [CreatedTime](../../aspose.words.properties/builtindocumentproperties/createdtime) { get; set; } | الحصول على أو تحديد تاريخ إنشاء المستند بالتوقيت العالمي المنسق . |
-| [HeadingPairs](../../aspose.words.properties/builtindocumentproperties/headingpairs) { get; set; } | تحديد عناوين المستند وأسمائها ._ x000d_ |
+| [HeadingPairs](../../aspose.words.properties/builtindocumentproperties/headingpairs) { get; set; } | تحديد عناوين المستند وأسمائها . |
 | [HyperlinkBase](../../aspose.words.properties/builtindocumentproperties/hyperlinkbase) { get; set; } | تحديد السلسلة الأساسية المستخدمة لتقييم الارتباطات التشعبية النسبية في هذا المستند. |
 | [Item](../../aspose.words.properties/documentpropertycollection/item) { get; } | إرجاع أ[`DocumentProperty`](../documentproperty) كائن بالفهرس . |
-| override [Item](../../aspose.words.properties/builtindocumentproperties/item) { get; } | إرجاع أ[`DocumentProperty`](../documentproperty) الكائن باسم الخاصية ._ x000d_ |
+| override [Item](../../aspose.words.properties/builtindocumentproperties/item) { get; } | إرجاع أ[`DocumentProperty`](../documentproperty) الكائن باسم الخاصية . |
 | [Keywords](../../aspose.words.properties/builtindocumentproperties/keywords) { get; set; } | الحصول على الكلمات الأساسية للمستند أو تعيينها. |
 | [LastPrinted](../../aspose.words.properties/builtindocumentproperties/lastprinted) { get; set; } | الحصول على أو تحديد تاريخ آخر طباعة للمستند بالتوقيت العالمي المنسق. |
 | [LastSavedBy](../../aspose.words.properties/builtindocumentproperties/lastsavedby) { get; set; } | الحصول على أو تحديد اسم آخر مؤلف . |
@@ -67,7 +67,7 @@ public class BuiltInDocumentProperties : DocumentPropertyCollection
 
 ### ملاحظات
 
-يوفر الوصول إلى[`DocumentProperty`](../documentproperty) الكائنات حسب أسمائها (باستخدام مفهرس) و_ x000d_ عبر مجموعة من الخصائص المكتوبة التي ترجع قيمًا من الأنواع المناسبة.
+يوفر الوصول إلى[`DocumentProperty`](../documentproperty) الكائنات حسب أسمائها (باستخدام مفهرس) و عبر مجموعة من الخصائص المكتوبة التي ترجع قيمًا من الأنواع المناسبة.
 
 أسماء الخصائص غير حساسة لحالة الأحرف.
 

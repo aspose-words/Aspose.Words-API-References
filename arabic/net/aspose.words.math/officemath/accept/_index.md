@@ -28,7 +28,7 @@ public override bool Accept(DocumentVisitor visitor)
 
 لمزيد من المعلومات ، راجع نمط تصميم الزائر.
 
-المكالمات[`VisitOfficeMathStart`](../../../aspose.words/documentvisitor/visitofficemathstart) ثم المكالمات[`Accept`](../../../aspose.words/node/accept) لجميع العقد الفرعية للرياضيات المكتبية والمكالمات all [`VisitOfficeMathEnd`](../../../aspose.words/documentvisitor/visitofficemathend) في النهاية ._ x000d_
+المكالمات[`VisitOfficeMathStart`](../../../aspose.words/documentvisitor/visitofficemathstart) ثم المكالمات[`Accept`](../../../aspose.words/node/accept) لجميع العقد الفرعية للرياضيات المكتبية والمكالمات all [`VisitOfficeMathEnd`](../../../aspose.words/documentvisitor/visitofficemathend) في النهاية .
 
 ### أمثلة
 

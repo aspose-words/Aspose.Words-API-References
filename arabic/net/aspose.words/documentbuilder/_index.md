@@ -31,10 +31,10 @@ public class DocumentBuilder
 | [CurrentParagraph](../../aspose.words/documentbuilder/currentparagraph) { get; } | الحصول على الفقرة المحددة حاليًا في DocumentBuilder . |
 | [CurrentSection](../../aspose.words/documentbuilder/currentsection) { get; } | يحصل على القسم المحدد حاليًا في DocumentBuilder هذا. |
 | [CurrentStory](../../aspose.words/documentbuilder/currentstory) { get; } | الحصول على القصة المحددة حاليًا في DocumentBuilder هذا. |
-| [Document](../../aspose.words/documentbuilder/document) { get; set; } | يحصل أو يحدد ملف[`Document`](./document) الكائن الذي يرتبط به هذا الكائن ._ x000d_ |
+| [Document](../../aspose.words/documentbuilder/document) { get; set; } | يحصل أو يحدد ملف[`Document`](./document) الكائن الذي يرتبط به هذا الكائن . |
 | [Font](../../aspose.words/documentbuilder/font) { get; } | إرجاع كائن يمثل خصائص تنسيق الخط الحالية. |
 | [IsAtEndOfParagraph](../../aspose.words/documentbuilder/isatendofparagraph) { get; } | إرجاع صحيح إذا كان المؤشر في نهاية الفقرة الحالية. |
-| [IsAtStartOfParagraph](../../aspose.words/documentbuilder/isatstartofparagraph) { get; } | إرجاع صحيح إذا كان المؤشر في بداية الفقرة الحالية (لا يوجد نص قبل المؤشر) ._ x000d_ |
+| [IsAtStartOfParagraph](../../aspose.words/documentbuilder/isatstartofparagraph) { get; } | إرجاع صحيح إذا كان المؤشر في بداية الفقرة الحالية (لا يوجد نص قبل المؤشر) . |
 | [Italic](../../aspose.words/documentbuilder/italic) { get; set; } | True إذا تم تنسيق الخط على أنه مائل. |
 | [ListFormat](../../aspose.words/documentbuilder/listformat) { get; } | إرجاع كائن يمثل خصائص تنسيق القائمة الحالية. |
 | [PageSetup](../../aspose.words/documentbuilder/pagesetup) { get; } | إرجاع كائن يمثل إعداد الصفحة الحالية وخصائص القسم. |
@@ -78,10 +78,10 @@ public class DocumentBuilder
 | [InsertImage](../../aspose.words/documentbuilder/insertimage#insertimage_9)(string) | يقوم بإدراج صورة من ملف أو عنوان URL في المستند. تم إدراج الصورة في السطر وبمقياس 100٪. |
 | [InsertImage](../../aspose.words/documentbuilder/insertimage#insertimage_2)(byte[], double, double) | إدراج صورة مضمنة من مصفوفة بايت في المستند وقياسها إلى الحجم المحدد. |
 | [InsertImage](../../aspose.words/documentbuilder/insertimage#insertimage_5)(Image, double, double) | إدراج صورة مضمنة من .NETImage في المستند وقياسه إلى الحجم المحدد. |
-| [InsertImage](../../aspose.words/documentbuilder/insertimage#insertimage_8)(Stream, double, double) | إدراج صورة مضمنة من دفق في المستند وقياسها إلى الحجم المحدد ._ x000d_ |
+| [InsertImage](../../aspose.words/documentbuilder/insertimage#insertimage_8)(Stream, double, double) | إدراج صورة مضمنة من دفق في المستند وقياسها إلى الحجم المحدد . |
 | [InsertImage](../../aspose.words/documentbuilder/insertimage#insertimage_11)(string, double, double) | إدراج صورة مضمنة من ملف أو عنوان URL في المستند وقياسها إلى الحجم المحدد. |
 | [InsertImage](../../aspose.words/documentbuilder/insertimage#insertimage_1)(byte[], RelativeHorizontalPosition, double, RelativeVerticalPosition, double, double, double, WrapType) | إدراج صورة من مصفوفة بايت في الموضع والحجم المحددين. |
-| [InsertImage](../../aspose.words/documentbuilder/insertimage#insertimage_4)(Image, RelativeHorizontalPosition, double, RelativeVerticalPosition, double, double, double, WrapType) | لإدراج صورة من .NETImage كائن في الموضع والحجم المحددين ._ x000d_ |
+| [InsertImage](../../aspose.words/documentbuilder/insertimage#insertimage_4)(Image, RelativeHorizontalPosition, double, RelativeVerticalPosition, double, double, double, WrapType) | لإدراج صورة من .NETImage كائن في الموضع والحجم المحددين . |
 | [InsertImage](../../aspose.words/documentbuilder/insertimage#insertimage_7)(Stream, RelativeHorizontalPosition, double, RelativeVerticalPosition, double, double, double, WrapType) | لإدراج صورة من تيار في الموضع والحجم المحددين. |
 | [InsertImage](../../aspose.words/documentbuilder/insertimage#insertimage_10)(string, RelativeHorizontalPosition, double, RelativeVerticalPosition, double, double, double, WrapType) | إدراج صورة من ملف أو عنوان URL في الموضع والحجم المحددين. |
 | [InsertNode](../../aspose.words/documentbuilder/insertnode)(Node) | إدراج عقدة على مستوى النص داخل الفقرة الحالية قبل المؤشر. |
@@ -105,7 +105,7 @@ public class DocumentBuilder
 | [InsertTextInput](../../aspose.words/documentbuilder/inserttextinput)(string, TextFormFieldType, string, string, int) | يُدرج حقل نموذج نصي في الموضع الحالي. |
 | [MoveTo](../../aspose.words/documentbuilder/moveto)(Node) | لنقل المؤشر إلى عقدة سطرية أو إلى نهاية فقرة. |
 | [MoveToBookmark](../../aspose.words/documentbuilder/movetobookmark#movetobookmark)(string) | ينقل المؤشر إلى إشارة مرجعية . |
-| [MoveToBookmark](../../aspose.words/documentbuilder/movetobookmark#movetobookmark_1)(string, bool, bool) | ينقل المؤشر إلى إشارة مرجعية بدقة أكبر ._ x000d_ |
+| [MoveToBookmark](../../aspose.words/documentbuilder/movetobookmark#movetobookmark_1)(string, bool, bool) | ينقل المؤشر إلى إشارة مرجعية بدقة أكبر . |
 | [MoveToCell](../../aspose.words/documentbuilder/movetocell)(int, int, int, int) | ينقل المؤشر إلى خلية جدول في القسم الحالي. |
 | [MoveToDocumentEnd](../../aspose.words/documentbuilder/movetodocumentend)() | ينقل المؤشر إلى نهاية المستند. |
 | [MoveToDocumentStart](../../aspose.words/documentbuilder/movetodocumentstart)() | ينقل المؤشر إلى بداية المستند. |
@@ -139,7 +139,7 @@ public class DocumentBuilder
 
 استخدم ال[`PageSetup`](./pagesetup)لتحديد خصائص الصفحة والقسم للقسم current وجميع الأقسام التي سيتم إدراجها.
 
-استخدم ال[`CellFormat`](./cellformat) و[`RowFormat`](./rowformat) خصائص تحديد x000d_ خصائص التنسيق لخلايا الجدول والصفوف. استخدم ملف[`InsertCell`](./insertcell) و_ x000d_[`EndRow`](./endrow) طرق لبناء الجدول.
+استخدم ال[`CellFormat`](./cellformat) و[`RowFormat`](./rowformat) خصائص تحديد خصائص التنسيق لخلايا الجدول والصفوف. استخدم ملف[`InsertCell`](./insertcell) و_ [`EndRow`](./endrow) طرق لبناء الجدول.
 
 لاحظ أن **الخط** و **تنسيق الفقرة** و **اعداد الصفحة** يتم تحديث الخصائص عندما تنتقل إلى مكان مختلف في المستند لتعكس خصائص التنسيق المتوفرة في الموقع الجديد.
 

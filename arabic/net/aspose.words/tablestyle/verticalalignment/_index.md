@@ -1,14 +1,14 @@
 ---
 title: VerticalAlignment
 second_title: Aspose.Words لمراجع .NET API
-description: يحدد المحاذاة العمودية للخلايا ._ x000d_
+description: يحدد المحاذاة العمودية للخلايا .
 type: docs
 weight: 150
 url: /ar/net/aspose.words/tablestyle/verticalalignment/
 ---
 ## TableStyle.VerticalAlignment property
 
-يحدد المحاذاة العمودية للخلايا ._ x000d_
+يحدد المحاذاة العمودية للخلايا .
 
 ```csharp
 public CellVerticalAlignment VerticalAlignment { get; set; }

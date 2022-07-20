@@ -1,14 +1,14 @@
 ---
 title: ParagraphCollection
 second_title: Aspose.Words لمراجع .NET API
-description: يوفر وصولاً مكتوبًا إلى مجموعة منParagraph./paragraph العقد ._ x000d_
+description: يوفر وصولاً مكتوبًا إلى مجموعة منParagraph./paragraph العقد .
 type: docs
 weight: 4170
 url: /ar/net/aspose.words/paragraphcollection/
 ---
 ## ParagraphCollection class
 
-يوفر وصولاً مكتوبًا إلى مجموعة من[`Paragraph`](../paragraph) العقد ._ x000d_
+يوفر وصولاً مكتوبًا إلى مجموعة من[`Paragraph`](../paragraph) العقد .
 
 ```csharp
 public class ParagraphCollection : NodeCollection

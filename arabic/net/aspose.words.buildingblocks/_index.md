@@ -13,13 +13,13 @@ url: /ar/net/aspose.words.buildingblocks/
 | فصل | وصف |
 | --- | --- |
 | [BuildingBlock](./buildingblock) | يمثل إدخال مستند مسرد مثل Building Block أو AutoText أو إدخال التصحيح التلقائي. |
-| [BuildingBlockCollection](./buildingblockcollection) | مجموعة من[`BuildingBlock`](../aspose.words.buildingblocks/buildingblock) كائنات في المستند ._ x000d_ |
-| [GlossaryDocument](./glossarydocument) | يمثل العنصر الجذر لمستند قاموس المصطلحات داخل مستند Word. _ x000d_ مستند المسرد هو تخزين للنص التلقائي وإدخالات التصحيح التلقائي وكتل الإنشاء. |
+| [BuildingBlockCollection](./buildingblockcollection) | مجموعة من[`BuildingBlock`](../aspose.words.buildingblocks/buildingblock) كائنات في المستند . |
+| [GlossaryDocument](./glossarydocument) | يمثل العنصر الجذر لمستند قاموس المصطلحات داخل مستند Word. مستند المسرد هو تخزين للنص التلقائي وإدخالات التصحيح التلقائي وكتل الإنشاء. |
 ## تعداد
 
 | تعداد | وصف |
 | --- | --- |
-| [BuildingBlockBehavior](./buildingblockbehavior) | يحدد السلوك الذي يجب تطبيقه على محتويات الكتلة البرمجية الإنشائية_ x000d_ عند إدراجه في المستند الرئيسي. |
+| [BuildingBlockBehavior](./buildingblockbehavior) | يحدد السلوك الذي يجب تطبيقه على محتويات الكتلة البرمجية الإنشائية عند إدراجه في المستند الرئيسي. |
 | [BuildingBlockGallery](./buildingblockgallery) | يحدد المعرض المعرف مسبقًا الذي تم تصنيف الكتلة البرمجية الإنشائية فيه. |
 | [BuildingBlockType](./buildingblocktype) | تحديد نوع الكتلة البرمجية الإنشائية. قد يؤثر النوع على رؤية وسلوك block في Microsoft Word. |
 

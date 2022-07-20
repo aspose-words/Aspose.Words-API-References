@@ -20,8 +20,8 @@ public class PhysicalFontInfo
 | --- | --- |
 | [FilePath](../../aspose.words.fonts/physicalfontinfo/filepath) { get; } | المسار إلى ملف الخط إن وجد. |
 | [FontFamilyName](../../aspose.words.fonts/physicalfontinfo/fontfamilyname) { get; } | اسم عائلة الخط. |
-| [FullFontName](../../aspose.words.fonts/physicalfontinfo/fullfontname) { get; } | الاسم الكامل للخط ._ x000d_ |
-| [Version](../../aspose.words.fonts/physicalfontinfo/version) { get; } | سلسلة إصدار الخط ._ x000d_ |
+| [FullFontName](../../aspose.words.fonts/physicalfontinfo/fullfontname) { get; } | الاسم الكامل للخط . |
+| [Version](../../aspose.words.fonts/physicalfontinfo/version) { get; } | سلسلة إصدار الخط . |
 
 ### أمثلة
 

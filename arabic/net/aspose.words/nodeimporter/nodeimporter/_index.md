@@ -1,14 +1,14 @@
 ---
 title: NodeImporter
 second_title: Aspose.Words لمراجع .NET API
-description: يقوم بتهيئة مثيل جديد لملفNodeImporteraspose.words/nodeimporter فئة ._ x000d_
+description: يقوم بتهيئة مثيل جديد لملفNodeImporteraspose.words/nodeimporter فئة .
 type: docs
 weight: 10
 url: /ar/net/aspose.words/nodeimporter/nodeimporter/
 ---
 ## NodeImporter(DocumentBase, DocumentBase, ImportFormatMode) {#constructor}
 
-يقوم بتهيئة مثيل جديد لملف[`NodeImporter`](../../nodeimporter) فئة ._ x000d_
+يقوم بتهيئة مثيل جديد لملف[`NodeImporter`](../../nodeimporter) فئة .
 
 ```csharp
 public NodeImporter(DocumentBase srcDoc, DocumentBase dstDoc, ImportFormatMode importFormatMode)
@@ -98,7 +98,7 @@ static void InsertDocument(Node insertionDestination, Document docToInsert)
 
 ## NodeImporter(DocumentBase, DocumentBase, ImportFormatMode, ImportFormatOptions) {#constructor_1}
 
-يقوم بتهيئة مثيل جديد لملف[`NodeImporter`](../../nodeimporter) فئة ._ x000d_
+يقوم بتهيئة مثيل جديد لملف[`NodeImporter`](../../nodeimporter) فئة .
 
 ```csharp
 public NodeImporter(DocumentBase srcDoc, DocumentBase dstDoc, ImportFormatMode importFormatMode, 

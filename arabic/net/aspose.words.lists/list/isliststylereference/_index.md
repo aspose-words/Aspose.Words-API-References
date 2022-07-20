@@ -1,14 +1,14 @@
 ---
 title: IsListStyleReference
 second_title: Aspose.Words لمراجع .NET API
-description: إرجاع صحيح إذا كانت هذه القائمة تشير إلى نمط قائمة ._ x000d_
+description: إرجاع صحيح إذا كانت هذه القائمة تشير إلى نمط قائمة .
 type: docs
 weight: 30
 url: /ar/net/aspose.words.lists/list/isliststylereference/
 ---
 ## List.IsListStyleReference property
 
-إرجاع صحيح إذا كانت هذه القائمة تشير إلى نمط قائمة ._ x000d_
+إرجاع صحيح إذا كانت هذه القائمة تشير إلى نمط قائمة .
 
 ```csharp
 public bool IsListStyleReference { get; }
@@ -16,7 +16,7 @@ public bool IsListStyleReference { get; }
 
 ### ملاحظات
 
-لاحظ أن تعديل خصائص قائمة تمثل مرجعًا لنمط القائمة ليس له أي تأثير ._ x000d_ تنسيق القائمة المحدد في نمط القائمة نفسه دائمًا ما يكون له الأسبقية.
+لاحظ أن تعديل خصائص قائمة تمثل مرجعًا لنمط القائمة ليس له أي تأثير . تنسيق القائمة المحدد في نمط القائمة نفسه دائمًا ما يكون له الأسبقية.
 
 ### أمثلة
 

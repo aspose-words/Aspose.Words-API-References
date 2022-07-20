@@ -1,14 +1,14 @@
 ---
 title: HorizontalDistanceFromText
 second_title: Aspose.Words لمراجع .NET API
-description: الحصول على مسافة أفقية بين الإطار والنص المحيط بالنقاط ._ x000d_
+description: الحصول على مسافة أفقية بين الإطار والنص المحيط بالنقاط .
 type: docs
 weight: 40
 url: /ar/net/aspose.words/frameformat/horizontaldistancefromtext/
 ---
 ## FrameFormat.HorizontalDistanceFromText property
 
-الحصول على مسافة أفقية بين الإطار والنص المحيط بالنقاط ._ x000d_
+الحصول على مسافة أفقية بين الإطار والنص المحيط بالنقاط .
 
 ```csharp
 public double HorizontalDistanceFromText { get; }

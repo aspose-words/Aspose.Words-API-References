@@ -1,14 +1,14 @@
 ---
 title: HtmlInsertOptions
 second_title: Aspose.Words لمراجع .NET API
-description: تحديد خيارات لـInsertHtml./documentbuilder/inserthtml طريقة ._ x000d_
+description: تحديد خيارات لـInsertHtml./documentbuilder/inserthtml طريقة .
 type: docs
 weight: 2960
 url: /ar/net/aspose.words/htmlinsertoptions/
 ---
 ## HtmlInsertOptions enumeration
 
-تحديد خيارات لـ[`InsertHtml`](../documentbuilder/inserthtml) طريقة ._ x000d_
+تحديد خيارات لـ[`InsertHtml`](../documentbuilder/inserthtml) طريقة .
 
 ```csharp
 [Flags]
@@ -22,7 +22,7 @@ public enum HtmlInsertOptions
 | None | `0` | استخدم الخيارات الافتراضية عند إدخال HTML . |
 | UseBuilderFormatting | `1` | استخدم تنسيق الخط والفقرة المحدد في[`DocumentBuilder`](../documentbuilder) كتنسيق أساسي للنص text المُدرج من HTML. |
 | RemoveLastEmptyParagraph | `2` | قم بإزالة الفقرة الفارغة التي يتم إدراجها عادةً بعد HTML والتي تنتهي بعنصر على مستوى الكتلة. |
-| PreserveBlocks | `4` | الاحتفاظ بخصائص عناصر مستوى الكتلة ._ x000d_ |
+| PreserveBlocks | `4` | الاحتفاظ بخصائص عناصر مستوى الكتلة . |
 
 ### أنظر أيضا
 

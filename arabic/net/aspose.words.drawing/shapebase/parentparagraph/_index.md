@@ -1,14 +1,14 @@
 ---
 title: ParentParagraph
 second_title: Aspose.Words لمراجع .NET API
-description: إرجاع الفقرة الأصل المباشرة ._ x000d_
+description: إرجاع الفقرة الأصل المباشرة .
 type: docs
 weight: 390
 url: /ar/net/aspose.words.drawing/shapebase/parentparagraph/
 ---
 ## ShapeBase.ParentParagraph property
 
-إرجاع الفقرة الأصل المباشرة ._ x000d_
+إرجاع الفقرة الأصل المباشرة .
 
 ```csharp
 public Paragraph ParentParagraph { get; }

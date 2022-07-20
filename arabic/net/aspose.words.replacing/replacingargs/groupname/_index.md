@@ -1,14 +1,14 @@
 ---
 title: GroupName
 second_title: Aspose.Words لمراجع .NET API
-description: يحدد  بالاسم  مجموعة تم التقاطها في ملفMatchaspose.words.replacing/replacingargs/match الذي سيتم استبداله بامتدادReplacementaspose.words.replacing/replacingargs/replacement السلسلة ._ x000d_
+description: يحدد  بالاسم  مجموعة تم التقاطها في ملفMatchaspose.words.replacing/replacingargs/match الذي سيتم استبداله بامتدادReplacementaspose.words.replacing/replacingargs/replacement السلسلة .
 type: docs
 weight: 20
 url: /ar/net/aspose.words.replacing/replacingargs/groupname/
 ---
 ## ReplacingArgs.GroupName property
 
-يحدد ، بالاسم ، مجموعة تم التقاطها في ملف[`Match`](../match) الذي سيتم استبداله بامتداد[`Replacement`](../replacement) السلسلة ._ x000d_
+يحدد ، بالاسم ، مجموعة تم التقاطها في ملف[`Match`](../match) الذي سيتم استبداله بامتداد[`Replacement`](../replacement) السلسلة .
 
 ```csharp
 public string GroupName { get; set; }

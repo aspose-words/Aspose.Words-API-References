@@ -1,14 +1,14 @@
 ---
 title: LeftExpression
 second_title: Aspose.Words لمراجع .NET API
-description: يحصل على التعبير الأيسر ._ x000d_
+description: يحصل على التعبير الأيسر .
 type: docs
 weight: 20
 url: /ar/net/aspose.words.fields/comparisonexpression/leftexpression/
 ---
 ## ComparisonExpression.LeftExpression property
 
-يحصل على التعبير الأيسر ._ x000d_
+يحصل على التعبير الأيسر .
 
 ```csharp
 public string LeftExpression { get; }

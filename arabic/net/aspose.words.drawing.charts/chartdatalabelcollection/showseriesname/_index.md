@@ -16,7 +16,7 @@ public bool ShowSeriesName { get; set; }
 
 ### ملاحظات
 
-يمكن تجاوز القيمة المحددة لهذه الخاصية لتسمية بيانات فردية باستخدام the [`ShowSeriesName`](../../chartdatalabel/showseriesname) الملكية ._ x000d_
+يمكن تجاوز القيمة المحددة لهذه الخاصية لتسمية بيانات فردية باستخدام the [`ShowSeriesName`](../../chartdatalabel/showseriesname) الملكية .
 
 ### أمثلة
 

@@ -18,7 +18,7 @@ public string ImagesFolderAlias { get; set; }
 
 عندما تقوم بحفظ ملف[`Document`](../../../aspose.words/document) بتنسيق XAML ، يحتاج Aspose.Words إلى حفظ جميع الصور المضمنة في المستند كملفات قائمة بذاتها.[`ImagesFolder`](../imagesfolder) يسمح لك بتحديد مكان حفظ الصور و`ImagesFolderAlias` يسمح بتحديد كيفية إنشاء عناوين URI للصورة.
 
-إذا`ImagesFolderAlias` ليست سلسلة فارغة ، ثم صورة URI المكتوبة_ x000d_ إلى XAML ستكونImagesFolderAlias + &lt;اسم ملف الصورة&gt;.
+إذا`ImagesFolderAlias` ليست سلسلة فارغة ، ثم صورة URI المكتوبة إلى XAML ستكونImagesFolderAlias + &lt;اسم ملف الصورة&gt;.
 
 إذا`ImagesFolderAlias` عبارة عن سلسلة فارغة ، فسيكون عنوان URI للصورة المكتوب إلى XAMLImagesFolder + &lt;اسم ملف الصورة&gt;.
 

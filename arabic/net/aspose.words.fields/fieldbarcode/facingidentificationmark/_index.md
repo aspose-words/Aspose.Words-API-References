@@ -1,14 +1,14 @@
 ---
 title: FacingIdentificationMark
 second_title: Aspose.Words لمراجع .NET API
-description: الحصول على أو تحديد نوع علامة تحديد الوجه FIM المطلوب إدراجها ._ x000d_
+description: الحصول على أو تحديد نوع علامة تحديد الوجه FIM المطلوب إدراجها .
 type: docs
 weight: 20
 url: /ar/net/aspose.words.fields/fieldbarcode/facingidentificationmark/
 ---
 ## FieldBarcode.FacingIdentificationMark property
 
-الحصول على أو تحديد نوع علامة تحديد الوجه (FIM) المطلوب إدراجها ._ x000d_
+الحصول على أو تحديد نوع علامة تحديد الوجه (FIM) المطلوب إدراجها .
 
 ```csharp
 public string FacingIdentificationMark { get; set; }

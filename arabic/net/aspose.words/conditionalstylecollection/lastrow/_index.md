@@ -1,14 +1,14 @@
 ---
 title: LastRow
 second_title: Aspose.Words لمراجع .NET API
-description: يحصل على نمط الصف الأخير ._ x000d_
+description: يحصل على نمط الصف الأخير .
 type: docs
 weight: 100
 url: /ar/net/aspose.words/conditionalstylecollection/lastrow/
 ---
 ## ConditionalStyleCollection.LastRow property
 
-يحصل على نمط الصف الأخير ._ x000d_
+يحصل على نمط الصف الأخير .
 
 ```csharp
 public ConditionalStyle LastRow { get; }

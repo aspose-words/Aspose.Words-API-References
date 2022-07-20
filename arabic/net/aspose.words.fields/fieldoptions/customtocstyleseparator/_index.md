@@ -1,14 +1,14 @@
 ---
 title: CustomTocStyleSeparator
 second_title: Aspose.Words لمراجع .NET API
-description: الحصول على أو تعيين فاصل نمط مخصص للمحول  tFieldTocaspose.words.fields/fieldtoc الحقل ._ x000d_
+description: الحصول على أو تعيين فاصل نمط مخصص للمحول  tFieldTocaspose.words.fields/fieldtoc الحقل .
 type: docs
 weight: 50
 url: /ar/net/aspose.words.fields/fieldoptions/customtocstyleseparator/
 ---
 ## FieldOptions.CustomTocStyleSeparator property
 
-الحصول على أو تعيين فاصل نمط مخصص للمحول \ t[`FieldToc`](../../fieldtoc) الحقل ._ x000d_
+الحصول على أو تعيين فاصل نمط مخصص للمحول \ t[`FieldToc`](../../fieldtoc) الحقل .
 
 ```csharp
 public string CustomTocStyleSeparator { get; set; }

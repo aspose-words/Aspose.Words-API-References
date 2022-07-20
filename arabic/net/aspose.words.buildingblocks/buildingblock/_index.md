@@ -28,7 +28,7 @@ public class BuildingBlock : CompositeNode
 | [Category](../../aspose.words.buildingblocks/buildingblock/category) { get; set; } | يحدد تصنيف المستوى الثاني للكتلة البرمجية الإنشائية. |
 | [ChildNodes](../../aspose.words/compositenode/childnodes) { get; } | يحصل على جميع العقد الفرعية الفورية لهذه العقدة. |
 | [Count](../../aspose.words/compositenode/count) { get; } | الحصول على عدد الأطفال المباشرين لهذه العقدة. |
-| [CustomNodeId](../../aspose.words/node/customnodeid) { get; set; } | يحدد معرف العقدة المخصص ._ x000d_ |
+| [CustomNodeId](../../aspose.words/node/customnodeid) { get; set; } | يحدد معرف العقدة المخصص . |
 | [Description](../../aspose.words.buildingblocks/buildingblock/description) { get; set; } | الحصول على الوصف المرتبط بهذه الكتلة البرمجية الإنشائية أو تعيينه. |
 | virtual [Document](../../aspose.words/node/document) { get; } | الحصول على المستند الذي تنتمي إليه هذه العقدة . |
 | [FirstChild](../../aspose.words/compositenode/firstchild) { get; } | الحصول على الطفل الأول للعقدة . |
@@ -41,12 +41,12 @@ public class BuildingBlock : CompositeNode
 | [LastSection](../../aspose.words.buildingblocks/buildingblock/lastsection) { get; } | يحصل على القسم الأخير في الكتلة البرمجية الإنشائية . |
 | [Name](../../aspose.words.buildingblocks/buildingblock/name) { get; set; } | الحصول على اسم الكتلة البرمجية الإنشائية هذه أو تعيينه. |
 | [NextSibling](../../aspose.words/node/nextsibling) { get; } | يحصل على العقدة التي تلي هذه العقدة مباشرة. |
-| override [NodeType](../../aspose.words.buildingblocks/buildingblock/nodetype) { get; } | إرجاع ملفBuildingBlock القيمة ._ x000d_ |
+| override [NodeType](../../aspose.words.buildingblocks/buildingblock/nodetype) { get; } | إرجاع ملفBuildingBlock القيمة . |
 | [ParentNode](../../aspose.words/node/parentnode) { get; } | الحصول على الأصل المباشر لهذه العقدة. |
 | [PreviousSibling](../../aspose.words/node/previoussibling) { get; } | يحصل على العقدة التي تسبق هذه العقدة مباشرة. |
 | [Range](../../aspose.words/node/range) { get; } | إرجاع أ **نطاق** الكائن الذي يمثل جزء المستند الموجود في هذه العقدة. |
 | [Sections](../../aspose.words.buildingblocks/buildingblock/sections) { get; } | إرجاع مجموعة تمثل كافة الأقسام في الكتلة البرمجية الإنشائية. |
-| [Type](../../aspose.words.buildingblocks/buildingblock/type) { get; set; } | يحدد نوع الكتلة البرمجية الإنشائية ._ x000d_ |
+| [Type](../../aspose.words.buildingblocks/buildingblock/type) { get; set; } | يحدد نوع الكتلة البرمجية الإنشائية . |
 
 ## طُرق
 
@@ -60,7 +60,7 @@ public class BuildingBlock : CompositeNode
 | [GetAncestor](../../aspose.words/node/getancestor)(Type) | الحصول على الأصل الأول لنوع الكائن المحدد. |
 | [GetChild](../../aspose.words/compositenode/getchild)(NodeType, int, bool) | إرجاع العقدة الفرعية رقم N التي تطابق النوع المحدد. |
 | [GetChildNodes](../../aspose.words/compositenode/getchildnodes)(NodeType, bool) | إرجاع مجموعة مباشرة من العقد الفرعية التي تطابق النوع المحدد. |
-| [GetEnumerator](../../aspose.words/compositenode/getenumerator)() | يوفر دعمًا لكل تكرار نمط على العقد التابعة لهذه العقدة ._ x000d_ |
+| [GetEnumerator](../../aspose.words/compositenode/getenumerator)() | يوفر دعمًا لكل تكرار نمط على العقد التابعة لهذه العقدة . |
 | override [GetText](../../aspose.words/compositenode/gettext)() | يحصل على نص هذه العقدة وجميع توابعها. |
 | [IndexOf](../../aspose.words/compositenode/indexof)(Node) | إرجاع فهرس العقدة الفرعية المحددة في مصفوفة العقدة الفرعية. |
 | [InsertAfter](../../aspose.words/compositenode/insertafter)(Node, Node) | يدخل العقدة المحددة مباشرة بعد العقدة المرجعية المحددة. |
@@ -83,7 +83,7 @@ public class BuildingBlock : CompositeNode
 
 [`BuildingBlock`](../buildingblock) يمكن أن يكون فقط تابعًا لـ[`GlossaryDocument`](../glossarydocument).
 
-يمكنك إنشاء كتل إنشاء جديدة وإدراجها في مستند قاموس المصطلحات ._ x000d_ يمكنك تعديل أو حذف الكتل البرمجية الإنشائية الموجودة. يمكنك نسخ أو نقل الكتل البرمجية الإنشائية_ x000d_ بين المستندات. يمكنك إدراج محتوى الكتلة البرمجية الإنشائية في مستند.
+يمكنك إنشاء كتل إنشاء جديدة وإدراجها في مستند قاموس المصطلحات . يمكنك تعديل أو حذف الكتل البرمجية الإنشائية الموجودة. يمكنك نسخ أو نقل الكتل البرمجية الإنشائية بين المستندات. يمكنك إدراج محتوى الكتلة البرمجية الإنشائية في مستند.
 
 يتوافق مع **docPart** و **docPartPr** و **docPartBody**العناصر في OOXML.
 

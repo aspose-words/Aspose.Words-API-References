@@ -1,14 +1,14 @@
 ---
 title: TypeIdentifier
 second_title: Aspose.Words لمراجع .NET API
-description: الحصول على أو تحديد معرف نوع لهذا الحقل والذي يكون عادةً حرفًا ._ x000d_
+description: الحصول على أو تحديد معرف نوع لهذا الحقل والذي يكون عادةً حرفًا .
 type: docs
 weight: 50
 url: /ar/net/aspose.words.fields/fieldtc/typeidentifier/
 ---
 ## FieldTC.TypeIdentifier property
 
-الحصول على أو تحديد معرف نوع لهذا الحقل (والذي يكون عادةً حرفًا) ._ x000d_
+الحصول على أو تحديد معرف نوع لهذا الحقل (والذي يكون عادةً حرفًا) .
 
 ```csharp
 public string TypeIdentifier { get; set; }

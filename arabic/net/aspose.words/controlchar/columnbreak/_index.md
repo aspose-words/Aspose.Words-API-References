@@ -1,14 +1,14 @@
 ---
 title: ColumnBreak
 second_title: Aspose.Words لمراجع .NET API
-description: نهاية حرف العمود  x000e ._ x000d_
+description: نهاية حرف العمود  x000e .
 type: docs
 weight: 30
 url: /ar/net/aspose.words/controlchar/columnbreak/
 ---
 ## ControlChar.ColumnBreak field
 
-نهاية حرف العمود: "\ x000e" ._ x000d_
+نهاية حرف العمود: "\ x000e" .
 
 ```csharp
 public static readonly string ColumnBreak;

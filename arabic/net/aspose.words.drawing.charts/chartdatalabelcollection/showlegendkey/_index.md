@@ -16,7 +16,7 @@ public bool ShowLegendKey { get; set; }
 
 ### ملاحظات
 
-يمكن تجاوز القيمة المحددة لهذه الخاصية لتسمية بيانات فردية باستخدام the [`ShowLegendKey`](../../chartdatalabel/showlegendkey) الملكية ._ x000d_
+يمكن تجاوز القيمة المحددة لهذه الخاصية لتسمية بيانات فردية باستخدام the [`ShowLegendKey`](../../chartdatalabel/showlegendkey) الملكية .
 
 ### أمثلة
 

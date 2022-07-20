@@ -1,14 +1,14 @@
 ---
 title: IgnoreFootnotes
 second_title: Aspose.Words لمراجع .NET API
-description: الحصول على أو تعيين قيمة منطقية تشير إما إلى تجاهل الحواشي السفلية ._ x000d_ القيمة الافتراضية هيخاطئة .
+description: الحصول على أو تعيين قيمة منطقية تشير إما إلى تجاهل الحواشي السفلية . القيمة الافتراضية هيخاطئة .
 type: docs
 weight: 90
 url: /ar/net/aspose.words.replacing/findreplaceoptions/ignorefootnotes/
 ---
 ## FindReplaceOptions.IgnoreFootnotes property
 
-الحصول على أو تعيين قيمة منطقية تشير إما إلى تجاهل الحواشي السفلية ._ x000d_ القيمة الافتراضية هي`خاطئة` .
+الحصول على أو تعيين قيمة منطقية تشير إما إلى تجاهل الحواشي السفلية . القيمة الافتراضية هي`خاطئة` .
 
 ```csharp
 public bool IgnoreFootnotes { get; set; }

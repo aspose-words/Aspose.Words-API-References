@@ -25,7 +25,7 @@ public class ShadowFormat
 
 | اسم | وصف |
 | --- | --- |
-| [Clear](../../aspose.words.drawing/shadowformat/clear)() | مسح تنسيق الظل ._ x000d_ |
+| [Clear](../../aspose.words.drawing/shadowformat/clear)() | مسح تنسيق الظل . |
 
 ### أنظر أيضا
 

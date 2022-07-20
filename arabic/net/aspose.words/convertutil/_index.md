@@ -18,13 +18,13 @@ public static class ConvertUtil
 
 | اسم | وصف |
 | --- | --- |
-| static [InchToPoint](../../aspose.words/convertutil/inchtopoint)(double) | تحويل بوصة إلى نقاط ._ x000d_ |
-| static [MillimeterToPoint](../../aspose.words/convertutil/millimetertopoint)(double) | تحويل المليمترات إلى نقاط ._ x000d_ |
+| static [InchToPoint](../../aspose.words/convertutil/inchtopoint)(double) | تحويل بوصة إلى نقاط . |
+| static [MillimeterToPoint](../../aspose.words/convertutil/millimetertopoint)(double) | تحويل المليمترات إلى نقاط . |
 | static [PixelToNewDpi](../../aspose.words/convertutil/pixeltonewdpi)(double, double, double) | يحول البكسل من دقة إلى أخرى. |
-| static [PixelToPoint](../../aspose.words/convertutil/pixeltopoint#pixeltopoint)(double) | تحويل وحدات البكسل إلى نقاط بدقة 96 نقطة في البوصة ._ x000d_ |
+| static [PixelToPoint](../../aspose.words/convertutil/pixeltopoint#pixeltopoint)(double) | تحويل وحدات البكسل إلى نقاط بدقة 96 نقطة في البوصة . |
 | static [PixelToPoint](../../aspose.words/convertutil/pixeltopoint#pixeltopoint_1)(double, double) | يحول البكسل إلى نقاط بدقة البكسل المحددة. |
-| static [PointToInch](../../aspose.words/convertutil/pointtoinch)(double) | تحويل النقاط إلى بوصة ._ x000d_ |
-| static [PointToPixel](../../aspose.words/convertutil/pointtopixel#pointtopixel)(double) | تحويل النقاط إلى بكسل بدقة 96 نقطة في البوصة ._ x000d_ |
+| static [PointToInch](../../aspose.words/convertutil/pointtoinch)(double) | تحويل النقاط إلى بوصة . |
+| static [PointToPixel](../../aspose.words/convertutil/pointtopixel#pointtopixel)(double) | تحويل النقاط إلى بكسل بدقة 96 نقطة في البوصة . |
 | static [PointToPixel](../../aspose.words/convertutil/pointtopixel#pointtopixel_1)(double, double) | تحويل النقاط إلى بكسل بدقة البكسل المحددة. |
 
 ### أمثلة

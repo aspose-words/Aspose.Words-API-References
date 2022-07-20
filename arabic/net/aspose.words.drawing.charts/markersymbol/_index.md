@@ -1,14 +1,14 @@
 ---
 title: MarkerSymbol
 second_title: Aspose.Words لمراجع .NET API
-description: يحدد نمط رمز العلامة ._ x000d_
+description: يحدد نمط رمز العلامة .
 type: docs
 weight: 790
 url: /ar/net/aspose.words.drawing.charts/markersymbol/
 ---
 ## MarkerSymbol enumeration
 
-يحدد نمط رمز العلامة ._ x000d_
+يحدد نمط رمز العلامة .
 
 ```csharp
 public enum MarkerSymbol

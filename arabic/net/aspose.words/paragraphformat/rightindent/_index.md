@@ -1,14 +1,14 @@
 ---
 title: RightIndent
 second_title: Aspose.Words لمراجع .NET API
-description: الحصول على أو تعيين القيمة بالنقاط التي تمثل المسافة البادئة اليمنى للفقرة ._ x000d_
+description: الحصول على أو تعيين القيمة بالنقاط التي تمثل المسافة البادئة اليمنى للفقرة .
 type: docs
 weight: 260
 url: /ar/net/aspose.words/paragraphformat/rightindent/
 ---
 ## ParagraphFormat.RightIndent property
 
-الحصول على أو تعيين القيمة (بالنقاط) التي تمثل المسافة البادئة اليمنى للفقرة ._ x000d_
+الحصول على أو تعيين القيمة (بالنقاط) التي تمثل المسافة البادئة اليمنى للفقرة .
 
 ```csharp
 public double RightIndent { get; set; }

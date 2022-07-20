@@ -1,14 +1,14 @@
 ---
 title: PrintColBlack
 second_title: Aspose.Words لمراجع .NET API
-description: طباعة الألوان باللون الأسود والأبيض دون ثبات الألوان ._ x000d_
+description: طباعة الألوان باللون الأسود والأبيض دون ثبات الألوان .
 type: docs
 weight: 400
 url: /ar/net/aspose.words.settings/compatibilityoptions/printcolblack/
 ---
 ## CompatibilityOptions.PrintColBlack property
 
-طباعة الألوان باللون الأسود والأبيض دون ثبات الألوان ._ x000d_
+طباعة الألوان باللون الأسود والأبيض دون ثبات الألوان .
 
 ```csharp
 public bool PrintColBlack { get; set; }

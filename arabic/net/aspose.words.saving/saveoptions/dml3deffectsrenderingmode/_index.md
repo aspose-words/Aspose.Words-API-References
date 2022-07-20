@@ -1,14 +1,14 @@
 ---
 title: Dml3DEffectsRenderingMode
 second_title: Aspose.Words لمراجع .NET API
-description: الحصول على أو تعيين قيمة تحدد كيفية عرض التأثيرات ثلاثية الأبعاد ._ x000d_
+description: الحصول على أو تعيين قيمة تحدد كيفية عرض التأثيرات ثلاثية الأبعاد .
 type: docs
 weight: 50
 url: /ar/net/aspose.words.saving/saveoptions/dml3deffectsrenderingmode/
 ---
 ## SaveOptions.Dml3DEffectsRenderingMode property
 
-الحصول على أو تعيين قيمة تحدد كيفية عرض التأثيرات ثلاثية الأبعاد ._ x000d_
+الحصول على أو تعيين قيمة تحدد كيفية عرض التأثيرات ثلاثية الأبعاد .
 
 ```csharp
 public Dml3DEffectsRenderingMode Dml3DEffectsRenderingMode { get; set; }

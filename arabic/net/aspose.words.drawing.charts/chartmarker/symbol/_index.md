@@ -1,14 +1,14 @@
 ---
 title: Symbol
 second_title: Aspose.Words لمراجع .NET API
-description: الحصول على أو تعيين رمز علامة المخطط ._ x000d_
+description: الحصول على أو تعيين رمز علامة المخطط .
 type: docs
 weight: 30
 url: /ar/net/aspose.words.drawing.charts/chartmarker/symbol/
 ---
 ## ChartMarker.Symbol property
 
-الحصول على أو تعيين رمز علامة المخطط ._ x000d_
+الحصول على أو تعيين رمز علامة المخطط .
 
 ```csharp
 public MarkerSymbol Symbol { get; set; }

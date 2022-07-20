@@ -1,14 +1,14 @@
 ---
 title: GetNumPagesSpanned
 second_title: Aspose.Words لمراجع .NET API
-description: الحصول على عدد الصفحات التي تمتد العقدة المحددة إليها. 0 إذا كانت العقدة داخل صفحة واحدة ._ x000d_ هذا هو نفسهGetEndPageIndexaspose.words.layout/layoutcollector/getendpageindex -GetStartPageIndexaspose.words.layout/layoutcollector/getstartpageindex .
+description: الحصول على عدد الصفحات التي تمتد العقدة المحددة إليها. 0 إذا كانت العقدة داخل صفحة واحدة . هذا هو نفسهGetEndPageIndexaspose.words.layout/layoutcollector/getendpageindex -GetStartPageIndexaspose.words.layout/layoutcollector/getstartpageindex .
 type: docs
 weight: 60
 url: /ar/net/aspose.words.layout/layoutcollector/getnumpagesspanned/
 ---
 ## LayoutCollector.GetNumPagesSpanned method
 
-الحصول على عدد الصفحات التي تمتد العقدة المحددة إليها. 0 إذا كانت العقدة داخل صفحة واحدة ._ x000d_ هذا هو نفسه[`GetEndPageIndex`](../getendpageindex) -[`GetStartPageIndex`](../getstartpageindex) .
+الحصول على عدد الصفحات التي تمتد العقدة المحددة إليها. 0 إذا كانت العقدة داخل صفحة واحدة . هذا هو نفسه[`GetEndPageIndex`](../getendpageindex) -[`GetStartPageIndex`](../getstartpageindex) .
 
 ```csharp
 public int GetNumPagesSpanned(Node node)

@@ -1,14 +1,14 @@
 ---
 title: Body
 second_title: Aspose.Words لمراجع .NET API
-description: يقوم بتهيئة مثيل جديد لملف الجسم فئة ._ x000d_
+description: يقوم بتهيئة مثيل جديد لملف الجسم فئة .
 type: docs
 weight: 10
 url: /ar/net/aspose.words/body/body/
 ---
 ## Body constructor
 
-يقوم بتهيئة مثيل جديد لملف **الجسم** فئة ._ x000d_
+يقوم بتهيئة مثيل جديد لملف **الجسم** فئة .
 
 ```csharp
 public Body(DocumentBase doc)

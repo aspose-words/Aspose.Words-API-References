@@ -18,8 +18,8 @@ public sealed class Comment : InlineStory
 
 | اسم | وصف |
 | --- | --- |
-| [Comment](comment#constructor)(DocumentBase) | يقوم بتهيئة مثيل جديد لملف **تعليق** فئة ._ x000d_ |
-| [Comment](comment#constructor_1)(DocumentBase, string, string, DateTime) | يقوم بتهيئة مثيل جديد لملف **تعليق** فئة ._ x000d_ |
+| [Comment](comment#constructor)(DocumentBase) | يقوم بتهيئة مثيل جديد لملف **تعليق** فئة . |
+| [Comment](comment#constructor_1)(DocumentBase, string, string, DateTime) | يقوم بتهيئة مثيل جديد لملف **تعليق** فئة . |
 
 ## الخصائص
 
@@ -29,7 +29,7 @@ public sealed class Comment : InlineStory
 | [Author](../../aspose.words/comment/author) { get; set; } | إرجاع أو تعيين اسم المؤلف للتعليق. |
 | [ChildNodes](../../aspose.words/compositenode/childnodes) { get; } | يحصل على جميع العقد الفرعية الفورية لهذه العقدة. |
 | [Count](../../aspose.words/compositenode/count) { get; } | الحصول على عدد الأطفال المباشرين لهذه العقدة. |
-| [CustomNodeId](../../aspose.words/node/customnodeid) { get; set; } | يحدد معرف العقدة المخصص ._ x000d_ |
+| [CustomNodeId](../../aspose.words/node/customnodeid) { get; set; } | يحدد معرف العقدة المخصص . |
 | [DateTime](../../aspose.words/comment/datetime) { get; set; } | الحصول على تاريخ ووقت عمل التعليق. |
 | virtual [Document](../../aspose.words/node/document) { get; } | الحصول على المستند الذي تنتمي إليه هذه العقدة . |
 | [Done](../../aspose.words/comment/done) { get; set; } | الحصول على أو تعيين إشارة تشير إلى أنه تم وضع علامة "تم" على التعليق . |
@@ -71,7 +71,7 @@ public sealed class Comment : InlineStory
 | [GetAncestor](../../aspose.words/node/getancestor)(Type) | الحصول على الأصل الأول لنوع الكائن المحدد. |
 | [GetChild](../../aspose.words/compositenode/getchild)(NodeType, int, bool) | إرجاع العقدة الفرعية رقم N التي تطابق النوع المحدد. |
 | [GetChildNodes](../../aspose.words/compositenode/getchildnodes)(NodeType, bool) | إرجاع مجموعة مباشرة من العقد الفرعية التي تطابق النوع المحدد. |
-| [GetEnumerator](../../aspose.words/compositenode/getenumerator)() | يوفر دعمًا لكل تكرار نمط على العقد التابعة لهذه العقدة ._ x000d_ |
+| [GetEnumerator](../../aspose.words/compositenode/getenumerator)() | يوفر دعمًا لكل تكرار نمط على العقد التابعة لهذه العقدة . |
 | override [GetText](../../aspose.words/compositenode/gettext)() | يحصل على نص هذه العقدة وجميع توابعها. |
 | [IndexOf](../../aspose.words/compositenode/indexof)(Node) | إرجاع فهرس العقدة الفرعية المحددة في مصفوفة العقدة الفرعية. |
 | [InsertAfter](../../aspose.words/compositenode/insertafter)(Node, Node) | يدخل العقدة المحددة مباشرة بعد العقدة المرجعية المحددة. |

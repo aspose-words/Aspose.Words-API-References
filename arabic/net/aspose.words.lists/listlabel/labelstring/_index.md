@@ -1,14 +1,14 @@
 ---
 title: LabelString
 second_title: Aspose.Words لمراجع .NET API
-description: الحصول على تمثيل سلسلة لتسمية القائمة ._ x000d_
+description: الحصول على تمثيل سلسلة لتسمية القائمة .
 type: docs
 weight: 20
 url: /ar/net/aspose.words.lists/listlabel/labelstring/
 ---
 ## ListLabel.LabelString property
 
-الحصول على تمثيل سلسلة لتسمية القائمة ._ x000d_
+الحصول على تمثيل سلسلة لتسمية القائمة .
 
 ```csharp
 public string LabelString { get; }

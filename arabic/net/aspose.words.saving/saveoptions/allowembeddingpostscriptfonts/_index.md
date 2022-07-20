@@ -18,7 +18,7 @@ public bool AllowEmbeddingPostScriptFonts { get; set; }
 
 ملاحظة ، لا يقوم Word بتضمين خطوط PostScript ، ولكن يمكنه فتح المستندات ذات الخطوط المضمنة من هذا النوع.
 
-هذا الخيار يعمل فقط عندما[`EmbedTrueTypeFonts`](../../../aspose.words.fonts/fontinfocollection/embedtruetypefonts) من_ x000d_[`FontInfos`](../../../aspose.words/documentbase/fontinfos) تم تعيين الخاصية على`حقيقي`.
+هذا الخيار يعمل فقط عندما[`EmbedTrueTypeFonts`](../../../aspose.words.fonts/fontinfocollection/embedtruetypefonts) من [`FontInfos`](../../../aspose.words/documentbase/fontinfos) تم تعيين الخاصية على`حقيقي`.
 
 ### أمثلة
 

@@ -1,14 +1,14 @@
 ---
 title: StrokeColor
 second_title: Aspose.Words لمراجع .NET API
-description: يحدد لون ضربة الفرشاة ._ x000d_
+description: يحدد لون ضربة الفرشاة .
 type: docs
 weight: 190
 url: /ar/net/aspose.words.drawing/shape/strokecolor/
 ---
 ## Shape.StrokeColor property
 
-يحدد لون ضربة الفرشاة ._ x000d_
+يحدد لون ضربة الفرشاة .
 
 ```csharp
 public Color StrokeColor { get; set; }

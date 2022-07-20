@@ -1,14 +1,14 @@
 ---
 title: Show
 second_title: Aspose.Words لمراجع .NET API
-description: لتحديد ما إذا كان العنوان سيظهر لهذا المخطط. القيمة الافتراضية هي صحيحة ._ x000d_
+description: لتحديد ما إذا كان العنوان سيظهر لهذا المخطط. القيمة الافتراضية هي صحيحة .
 type: docs
 weight: 20
 url: /ar/net/aspose.words.drawing.charts/charttitle/show/
 ---
 ## ChartTitle.Show property
 
-لتحديد ما إذا كان العنوان سيظهر لهذا المخطط. القيمة الافتراضية هي صحيحة ._ x000d_
+لتحديد ما إذا كان العنوان سيظهر لهذا المخطط. القيمة الافتراضية هي صحيحة .
 
 ```csharp
 public bool Show { get; set; }

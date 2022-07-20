@@ -1,14 +1,14 @@
 ---
 title: UseAnsiKerningPairs
 second_title: Aspose.Words لمراجع .NET API
-description: استخدم أزواج تقنين الأحرف ANSI من الخطوط ._ x000d_
+description: استخدم أزواج تقنين الأحرف ANSI من الخطوط .
 type: docs
 weight: 610
 url: /ar/net/aspose.words.settings/compatibilityoptions/useansikerningpairs/
 ---
 ## CompatibilityOptions.UseAnsiKerningPairs property
 
-استخدم أزواج تقنين الأحرف ANSI من الخطوط ._ x000d_
+استخدم أزواج تقنين الأحرف ANSI من الخطوط .
 
 ```csharp
 public bool UseAnsiKerningPairs { get; set; }

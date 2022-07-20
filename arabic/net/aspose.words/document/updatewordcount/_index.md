@@ -16,11 +16,11 @@ public void UpdateWordCount()
 
 ### ملاحظات
 
-**UpdateWordCount** يعيد حساب وتحديث خصائص الأحرف والكلمات والفقرات_ x000d_ في ملف[`BuiltInDocumentProperties`](../builtindocumentproperties) جمع **وثيقة**.
+**UpdateWordCount** يعيد حساب وتحديث خصائص الأحرف والكلمات والفقرات_ في ملف[`BuiltInDocumentProperties`](../builtindocumentproperties) جمع **وثيقة**.
 
 لاحظ أن **UpdateWordCount** لا يقوم بتحديث عدد الأسطر وخصائص الصفحات. استخدم ملف`UpdateWordCount` الزائد وتمرير القيمة الحقيقية كمعامل للقيام بذلك.
 
-عند استخدام إصدار تقييم ، سيتم أيضًا تضمين العلامة المائية للتقييم_ x000d_ في عدد الكلمات.
+عند استخدام إصدار تقييم ، سيتم أيضًا تضمين العلامة المائية للتقييم_ في عدد الكلمات.
 
 ### أمثلة
 
@@ -66,7 +66,7 @@ Assert.AreEqual(4, doc.BuiltInDocumentProperties.Lines);
 
 ## UpdateWordCount(bool) {#updatewordcount_1}
 
-يحدّث خصائص عدد الكلمات في المستند ، ويتم تحديثه اختياريًا[`Lines`](../../../aspose.words.properties/builtindocumentproperties/lines) الملكية ._ x000d_
+يحدّث خصائص عدد الكلمات في المستند ، ويتم تحديثه اختياريًا[`Lines`](../../../aspose.words.properties/builtindocumentproperties/lines) الملكية .
 
 ```csharp
 public void UpdateWordCount(bool updateLinesCount)

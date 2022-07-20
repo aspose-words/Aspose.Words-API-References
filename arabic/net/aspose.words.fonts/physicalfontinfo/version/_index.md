@@ -1,14 +1,14 @@
 ---
 title: Version
 second_title: Aspose.Words لمراجع .NET API
-description: سلسلة إصدار الخط ._ x000d_
+description: سلسلة إصدار الخط .
 type: docs
 weight: 40
 url: /ar/net/aspose.words.fonts/physicalfontinfo/version/
 ---
 ## PhysicalFontInfo.Version property
 
-سلسلة إصدار الخط ._ x000d_
+سلسلة إصدار الخط .
 
 ```csharp
 public string Version { get; }

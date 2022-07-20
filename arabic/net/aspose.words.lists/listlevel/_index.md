@@ -1,14 +1,14 @@
 ---
 title: ListLevel
 second_title: Aspose.Words لمراجع .NET API
-description: يحدد التنسيق لمستوى القائمة ._ x000d_
+description: يحدد التنسيق لمستوى القائمة .
 type: docs
 weight: 3300
 url: /ar/net/aspose.words.lists/listlevel/
 ---
 ## ListLevel class
 
-يحدد التنسيق لمستوى القائمة ._ x000d_
+يحدد التنسيق لمستوى القائمة .
 
 ```csharp
 public class ListLevel
@@ -19,7 +19,7 @@ public class ListLevel
 | اسم | وصف |
 | --- | --- |
 | [Alignment](../../aspose.words.lists/listlevel/alignment) { get; set; } | الحصول على أو تحديد تبرير العدد الفعلي لعنصر القائمة. |
-| [CustomNumberStyleFormat](../../aspose.words.lists/listlevel/customnumberstyleformat) { get; } | الحصول على تنسيق نمط الرقم المخصص لمستوى القائمة هذا. على سبيل المثال: "a، ç، ĝ، ..." ._ x000d_ |
+| [CustomNumberStyleFormat](../../aspose.words.lists/listlevel/customnumberstyleformat) { get; } | الحصول على تنسيق نمط الرقم المخصص لمستوى القائمة هذا. على سبيل المثال: "a، ç، ĝ، ..." . |
 | [Font](../../aspose.words.lists/listlevel/font) { get; } | تحديد تنسيق الأحرف المستخدم لتسمية القائمة. |
 | [ImageData](../../aspose.words.lists/listlevel/imagedata) { get; } | إرجاع بيانات الصورة لشكل التعداد النقطي للصورة لمستوى القائمة الحالي. |
 | [IsLegal](../../aspose.words.lists/listlevel/islegal) { get; set; } | صحيح إذا قام المستوى بتحويل جميع الأرقام الموروثة إلى اللغة العربية ، خطأ إذا احتفظ بنمط الأرقام . |
@@ -47,7 +47,7 @@ public class ListLevel
 
 لا تقوم بإنشاء كائنات من هذه الفئة. يتم إنشاء كائنات مستوى القائمة تلقائيًا عند إنشاء قائمة. يمكنك الوصول[`ListLevel`](../listlevel) الكائنات عبر the [`ListLevelCollection`](../listlevelcollection) مجموعة.
 
-استخدم خصائص[`ListLevel`](../listlevel) لتحديد تنسيق القائمة_ x000d_ لمستويات القائمة الفردية.
+استخدم خصائص[`ListLevel`](../listlevel) لتحديد تنسيق القائمة لمستويات القائمة الفردية.
 
 ### أمثلة
 

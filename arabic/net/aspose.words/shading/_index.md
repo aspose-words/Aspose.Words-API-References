@@ -19,14 +19,14 @@ public class Shading : InternableComplexAttr
 | اسم | وصف |
 | --- | --- |
 | [BackgroundPatternColor](../../aspose.words/shading/backgroundpatterncolor) { get; set; } | الحصول على أو تعيين اللون المطبق على خلفية كائن التظليل. |
-| [ForegroundPatternColor](../../aspose.words/shading/foregroundpatterncolor) { get; set; } | الحصول على أو تعيين اللون المطبق على مقدمة كائن التظليل ._ x000d_ |
+| [ForegroundPatternColor](../../aspose.words/shading/foregroundpatterncolor) { get; set; } | الحصول على أو تعيين اللون المطبق على مقدمة كائن التظليل . |
 | [Texture](../../aspose.words/shading/texture) { get; set; } | الحصول على نسيج التظليل أو تعيينه. |
 
 ## طُرق
 
 | اسم | وصف |
 | --- | --- |
-| [ClearFormatting](../../aspose.words/shading/clearformatting)() | يزيل التظليل من الكائن ._ x000d_ |
+| [ClearFormatting](../../aspose.words/shading/clearformatting)() | يزيل التظليل من الكائن . |
 | override [Equals](../../aspose.words/shading/equals#equals_1)(object) | لتحديد ما إذا كان الكائن المحدد يساوي قيمة الكائن الحالي. |
 | [Equals](../../aspose.words/shading/equals#equals)(Shading) | لتحديد ما إذا كان التظليل المحدد مساويًا لقيمة التظليل الحالي. |
 | override [GetHashCode](../../aspose.words/shading/gethashcode)() | يعمل كدالة تجزئة لهذا النوع. |

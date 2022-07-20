@@ -1,14 +1,14 @@
 ---
 title: CustomXmlPartCollection
 second_title: Aspose.Words لمراجع .NET API
-description: يمثل مجموعة من أجزاء XML المخصصة. العناصرCustomXmlPart./customxmlpart الكائنات ._ x000d_
+description: يمثل مجموعة من أجزاء XML المخصصة. العناصرCustomXmlPart./customxmlpart الكائنات .
 type: docs
 weight: 3690
 url: /ar/net/aspose.words.markup/customxmlpartcollection/
 ---
 ## CustomXmlPartCollection class
 
-يمثل مجموعة من أجزاء XML المخصصة. العناصر[`CustomXmlPart`](../customxmlpart) الكائنات ._ x000d_
+يمثل مجموعة من أجزاء XML المخصصة. العناصر[`CustomXmlPart`](../customxmlpart) الكائنات .
 
 ```csharp
 public class CustomXmlPartCollection : IEnumerable<CustomXmlPart>

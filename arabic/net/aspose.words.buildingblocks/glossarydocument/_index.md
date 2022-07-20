@@ -1,14 +1,14 @@
 ---
 title: GlossaryDocument
 second_title: Aspose.Words لمراجع .NET API
-description: يمثل العنصر الجذر لمستند قاموس المصطلحات داخل مستند Word. _ x000d_ مستند المسرد هو تخزين للنص التلقائي وإدخالات التصحيح التلقائي وكتل الإنشاء.
+description: يمثل العنصر الجذر لمستند قاموس المصطلحات داخل مستند Word. مستند المسرد هو تخزين للنص التلقائي وإدخالات التصحيح التلقائي وكتل الإنشاء.
 type: docs
 weight: 170
 url: /ar/net/aspose.words.buildingblocks/glossarydocument/
 ---
 ## GlossaryDocument class
 
-يمثل العنصر الجذر لمستند قاموس المصطلحات داخل مستند Word. _ x000d_ مستند المسرد هو تخزين للنص التلقائي وإدخالات التصحيح التلقائي وكتل الإنشاء.
+يمثل العنصر الجذر لمستند قاموس المصطلحات داخل مستند Word. مستند المسرد هو تخزين للنص التلقائي وإدخالات التصحيح التلقائي وكتل الإنشاء.
 
 ```csharp
 public class GlossaryDocument : DocumentBase
@@ -28,7 +28,7 @@ public class GlossaryDocument : DocumentBase
 | [BuildingBlocks](../../aspose.words.buildingblocks/glossarydocument/buildingblocks) { get; } | إرجاع مجموعة مكتوبة تمثل كل الكتل الإنشائية في مستند قاموس المصطلحات. |
 | [ChildNodes](../../aspose.words/compositenode/childnodes) { get; } | يحصل على جميع العقد الفرعية الفورية لهذه العقدة. |
 | [Count](../../aspose.words/compositenode/count) { get; } | الحصول على عدد الأطفال المباشرين لهذه العقدة. |
-| [CustomNodeId](../../aspose.words/node/customnodeid) { get; set; } | يحدد معرف العقدة المخصص ._ x000d_ |
+| [CustomNodeId](../../aspose.words/node/customnodeid) { get; set; } | يحدد معرف العقدة المخصص . |
 | override [Document](../../aspose.words/documentbase/document) { get; } |  |
 | [FirstBuildingBlock](../../aspose.words.buildingblocks/glossarydocument/firstbuildingblock) { get; } | الحصول على اللبنة البرمجية الإنشائية الأولى في مستند المسرد. |
 | [FirstChild](../../aspose.words/compositenode/firstchild) { get; } | الحصول على الطفل الأول للعقدة . |
@@ -40,14 +40,14 @@ public class GlossaryDocument : DocumentBase
 | [Lists](../../aspose.words/documentbase/lists) { get; } | يوفر الوصول إلى تنسيق القائمة المستخدم في المستند. |
 | [NextSibling](../../aspose.words/node/nextsibling) { get; } | يحصل على العقدة التي تلي هذه العقدة مباشرة. |
 | [NodeChangingCallback](../../aspose.words/documentbase/nodechangingcallback) { get; set; } | يتم استدعائها عند إدراج عقدة أو إزالتها في المستند. |
-| override [NodeType](../../aspose.words.buildingblocks/glossarydocument/nodetype) { get; } | إرجاع ملفGlossaryDocument القيمة ._ x000d_ |
+| override [NodeType](../../aspose.words.buildingblocks/glossarydocument/nodetype) { get; } | إرجاع ملفGlossaryDocument القيمة . |
 | [PageColor](../../aspose.words/documentbase/pagecolor) { get; set; } | الحصول على أو تحديد لون صفحة المستند. هذه الخاصية هي نسخة أبسط من[`BackgroundShape`](../../aspose.words/documentbase/backgroundshape) . |
 | [ParentNode](../../aspose.words/node/parentnode) { get; } | الحصول على الأصل المباشر لهذه العقدة. |
 | [PreviousSibling](../../aspose.words/node/previoussibling) { get; } | يحصل على العقدة التي تسبق هذه العقدة مباشرة. |
 | [Range](../../aspose.words/node/range) { get; } | إرجاع أ **نطاق** الكائن الذي يمثل جزء المستند الموجود في هذه العقدة. |
 | [ResourceLoadingCallback](../../aspose.words/documentbase/resourceloadingcallback) { get; set; } | يسمح بالتحكم في كيفية تحميل الموارد الخارجية. |
 | [Styles](../../aspose.words/documentbase/styles) { get; } | إرجاع مجموعة من الأنماط المحددة في المستند. |
-| [WarningCallback](../../aspose.words/documentbase/warningcallback) { get; set; } | يتم استدعاؤه أثناء إجراءات معالجة المستندات المختلفة عند اكتشاف مشكلة قد تؤدي إلى في البيانات أو فقدان الدقة في التنسيق ._ x000d_ |
+| [WarningCallback](../../aspose.words/documentbase/warningcallback) { get; set; } | يتم استدعاؤه أثناء إجراءات معالجة المستندات المختلفة عند اكتشاف مشكلة قد تؤدي إلى في البيانات أو فقدان الدقة في التنسيق . |
 
 ## طُرق
 
@@ -62,7 +62,7 @@ public class GlossaryDocument : DocumentBase
 | [GetBuildingBlock](../../aspose.words.buildingblocks/glossarydocument/getbuildingblock)(BuildingBlockGallery, string, string) | البحث عن كتلة إنشاء باستخدام المعرض والفئة والاسم المحدد. |
 | [GetChild](../../aspose.words/compositenode/getchild)(NodeType, int, bool) | إرجاع العقدة الفرعية رقم N التي تطابق النوع المحدد. |
 | [GetChildNodes](../../aspose.words/compositenode/getchildnodes)(NodeType, bool) | إرجاع مجموعة مباشرة من العقد الفرعية التي تطابق النوع المحدد. |
-| [GetEnumerator](../../aspose.words/compositenode/getenumerator)() | يوفر دعمًا لكل تكرار نمط على العقد التابعة لهذه العقدة ._ x000d_ |
+| [GetEnumerator](../../aspose.words/compositenode/getenumerator)() | يوفر دعمًا لكل تكرار نمط على العقد التابعة لهذه العقدة . |
 | override [GetText](../../aspose.words/compositenode/gettext)() | يحصل على نص هذه العقدة وجميع توابعها. |
 | [ImportNode](../../aspose.words/documentbase/importnode)(Node, bool) | يستورد عقدة من وثيقة أخرى إلى الوثيقة الحالية. |
 | [ImportNode](../../aspose.words/documentbase/importnode)(Node, bool, ImportFormatMode) | يستورد عقدة من وثيقة أخرى إلى الوثيقة الحالية مع خيار للتحكم في التنسيق. |
@@ -83,11 +83,11 @@ public class GlossaryDocument : DocumentBase
 
 ### ملاحظات
 
-يمكن أن تحتوي بعض المستندات ، عادةً قوالب ، على نص تلقائي وإدخالات التصحيح التلقائي_ x000d_ و / أو كتل الإنشاء (تُعرف أيضًا باسمإدخالات وثيقة مسرد وأجزاء الوثيقة أواللبنات).
+يمكن أن تحتوي بعض المستندات ، عادةً قوالب ، على نص تلقائي وإدخالات التصحيح التلقائي و / أو كتل الإنشاء (تُعرف أيضًا باسمإدخالات وثيقة مسرد وأجزاء الوثيقة أواللبنات).
 
 للوصول إلى الكتل البرمجية الإنشائية ، تحتاج إلى تحميل مستند إلى ملف[`Document`](../../aspose.words/document) كائن. اللبنات الأساسية ستكون متاحة عبر[`GlossaryDocument`](../../aspose.words/document/glossarydocument) منشأه.
 
-[`GlossaryDocument`](../glossarydocument) يمكن أن تحتوي على أي عدد من[`BuildingBlock`](../buildingblock) الكائنات ._ x000d_ لكل منهما[`BuildingBlock`](../buildingblock) يمثل جزءًا واحدًا من المستند.
+[`GlossaryDocument`](../glossarydocument) يمكن أن تحتوي على أي عدد من[`BuildingBlock`](../buildingblock) الكائنات . لكل منهما[`BuildingBlock`](../buildingblock) يمثل جزءًا واحدًا من المستند.
 
 يتوافق مع **وثيقة** و **docParts**العناصر في OOXML.
 

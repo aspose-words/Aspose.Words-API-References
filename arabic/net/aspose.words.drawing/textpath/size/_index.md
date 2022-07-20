@@ -1,14 +1,14 @@
 ---
 title: Size
 second_title: Aspose.Words لمراجع .NET API
-description: يحدد حجم الخط بالنقاط ._ x000d_
+description: يحدد حجم الخط بالنقاط .
 type: docs
 weight: 120
 url: /ar/net/aspose.words.drawing/textpath/size/
 ---
 ## TextPath.Size property
 
-يحدد حجم الخط بالنقاط ._ x000d_
+يحدد حجم الخط بالنقاط .
 
 ```csharp
 public double Size { get; set; }

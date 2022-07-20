@@ -18,7 +18,7 @@ public sealed class EditableRangeEnd : Node
 
 | اسم | وصف |
 | --- | --- |
-| [CustomNodeId](../../aspose.words/node/customnodeid) { get; set; } | يحدد معرف العقدة المخصص ._ x000d_ |
+| [CustomNodeId](../../aspose.words/node/customnodeid) { get; set; } | يحدد معرف العقدة المخصص . |
 | virtual [Document](../../aspose.words/node/document) { get; } | الحصول على المستند الذي تنتمي إليه هذه العقدة . |
 | [EditableRangeStart](../../aspose.words/editablerangeend/editablerangestart) { get; } | EditableRangeStart المقابل ، تم استلامه بواسطة ID. |
 | [Id](../../aspose.words/editablerangeend/id) { get; set; } | يحدد معرف النطاق القابل للتحرير. |

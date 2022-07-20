@@ -1,14 +1,14 @@
 ---
 title: Encoding
 second_title: Aspose.Words لمراجع .NET API
-description: يحدد الترميز المراد استخدامه عند التصدير إلى HTML أو MHTML أو EPUB. القيمة الافتراضية هيترميز UTF8 جديد خطأ UTF-8 بدون BOM ._ x000d_
+description: يحدد الترميز المراد استخدامه عند التصدير إلى HTML أو MHTML أو EPUB. القيمة الافتراضية هيترميز UTF8 جديد خطأ UTF-8 بدون BOM .
 type: docs
 weight: 100
 url: /ar/net/aspose.words.saving/htmlsaveoptions/encoding/
 ---
 ## HtmlSaveOptions.Encoding property
 
-يحدد الترميز المراد استخدامه عند التصدير إلى HTML أو MHTML أو EPUB. القيمة الافتراضية هي`ترميز UTF8 جديد (خطأ)` (UTF-8 بدون BOM) ._ x000d_
+يحدد الترميز المراد استخدامه عند التصدير إلى HTML أو MHTML أو EPUB. القيمة الافتراضية هي`ترميز UTF8 جديد (خطأ)` (UTF-8 بدون BOM) .
 
 ```csharp
 public Encoding Encoding { get; set; }

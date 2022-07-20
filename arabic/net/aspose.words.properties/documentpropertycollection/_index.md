@@ -20,7 +20,7 @@ public abstract class DocumentPropertyCollection : IEnumerable<DocumentProperty>
 | --- | --- |
 | [Count](../../aspose.words.properties/documentpropertycollection/count) { get; } | الحصول على عدد العناصر في المجموعة. |
 | [Item](../../aspose.words.properties/documentpropertycollection/item) { get; } | إرجاع أ[`DocumentProperty`](../documentproperty) كائن بالفهرس . |
-| virtual [Item](../../aspose.words.properties/documentpropertycollection/item) { get; } | إرجاع أ[`DocumentProperty`](../documentproperty) الكائن باسم الخاصية ._ x000d_ |
+| virtual [Item](../../aspose.words.properties/documentpropertycollection/item) { get; } | إرجاع أ[`DocumentProperty`](../documentproperty) الكائن باسم الخاصية . |
 
 ## طُرق
 

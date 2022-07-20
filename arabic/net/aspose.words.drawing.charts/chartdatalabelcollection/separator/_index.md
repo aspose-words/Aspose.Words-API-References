@@ -16,7 +16,7 @@ public string Separator { get; set; }
 
 ### ملاحظات
 
-يمكن تجاوز القيمة المحددة لهذه الخاصية لتسمية بيانات فردية باستخدام the [`Separator`](../../chartdatalabel/separator) الملكية ._ x000d_
+يمكن تجاوز القيمة المحددة لهذه الخاصية لتسمية بيانات فردية باستخدام the [`Separator`](../../chartdatalabel/separator) الملكية .
 
 ### أمثلة
 

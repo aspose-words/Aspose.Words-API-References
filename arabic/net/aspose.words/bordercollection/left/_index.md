@@ -1,14 +1,14 @@
 ---
 title: Left
 second_title: Aspose.Words لمراجع .NET API
-description: يحصل على الحد الأيسر ._ x000d_
+description: يحصل على الحد الأيسر .
 type: docs
 weight: 70
 url: /ar/net/aspose.words/bordercollection/left/
 ---
 ## BorderCollection.Left property
 
-يحصل على الحد الأيسر ._ x000d_
+يحصل على الحد الأيسر .
 
 ```csharp
 public Border Left { get; }

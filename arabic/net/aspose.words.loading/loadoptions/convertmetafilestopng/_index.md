@@ -1,14 +1,14 @@
 ---
 title: ConvertMetafilesToPng
 second_title: Aspose.Words لمراجع .NET API
-description: الحصول على أو تعيين ما إذا كان سيتم تحويل ملف تعريف Wmf أوEmf  صور لPng تنسيق الصورة ._ x000d_
+description: الحصول على أو تعيين ما إذا كان سيتم تحويل ملف تعريف Wmf أوEmf  صور لPng تنسيق الصورة .
 type: docs
 weight: 30
 url: /ar/net/aspose.words.loading/loadoptions/convertmetafilestopng/
 ---
 ## LoadOptions.ConvertMetafilesToPng property
 
-الحصول على أو تعيين ما إذا كان سيتم تحويل ملف تعريف (Wmf أوEmf ) صور لPng تنسيق الصورة ._ x000d_
+الحصول على أو تعيين ما إذا كان سيتم تحويل ملف تعريف (Wmf أوEmf ) صور لPng تنسيق الصورة .
 
 ```csharp
 public bool ConvertMetafilesToPng { get; set; }

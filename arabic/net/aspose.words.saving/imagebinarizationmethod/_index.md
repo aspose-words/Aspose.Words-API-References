@@ -18,7 +18,7 @@ public enum ImageBinarizationMethod
 
 | اسم | قيمة | وصف |
 | --- | --- | --- |
-| Threshold | `0` | يحدد طريقة العتبة ._ x000d_ |
+| Threshold | `0` | يحدد طريقة العتبة . |
 | FloydSteinbergDithering | `1` | يحدد ثبات الألوان باستخدام طريقة Floyd-Steinberg لنشر الخطأ. |
 
 ### أمثلة

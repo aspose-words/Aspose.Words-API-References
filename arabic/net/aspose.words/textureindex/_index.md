@@ -1,14 +1,14 @@
 ---
 title: TextureIndex
 second_title: Aspose.Words لمراجع .NET API
-description: يحدد نسيج التظليل ._ x000d_
+description: يحدد نسيج التظليل .
 type: docs
 weight: 6150
 url: /ar/net/aspose.words/textureindex/
 ---
 ## TextureIndex enumeration
 
-يحدد نسيج التظليل ._ x000d_
+يحدد نسيج التظليل .
 
 ```csharp
 public enum TextureIndex
@@ -71,7 +71,7 @@ public enum TextureIndex
 | TextureNone | `0` |  |
 | TextureSolid | `1` |  |
 | TextureVertical | `21` |  |
-| TextureNil | `65535` | يحدد أنه لن يكون هناك نمط مستخدم في المنطقة المظللة الحالية (أي يجب أن يكون النموذج تعبئة كاملة بلون الخلفية) ._ x000d_ |
+| TextureNil | `65535` | يحدد أنه لن يكون هناك نمط مستخدم في المنطقة المظللة الحالية (أي يجب أن يكون النموذج تعبئة كاملة بلون الخلفية) . |
 
 ### أمثلة
 

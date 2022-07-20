@@ -31,14 +31,14 @@ public class MailMergeSettings
 | [DataSource](../../aspose.words.settings/mailmergesettings/datasource) { get; set; } | تحديد المسار إلى مصدر بيانات دمج المراسلات. القيمة الافتراضية هي سلسلة فارغة. |
 | [DataType](../../aspose.words.settings/mailmergesettings/datatype) { get; set; } | تحديد نوع مصدر بيانات دمج المراسلات وطريقة الوصول إلى البيانات. القيمة الافتراضية هيDefault . |
 | [Destination](../../aspose.words.settings/mailmergesettings/destination) { get; set; } | يحدد كيفية إخراج Microsoft Word لنتائج دمج المراسلات. القيمة الافتراضية هيDefault . |
-| [DoNotSupressBlankLines](../../aspose.words.settings/mailmergesettings/donotsupressblanklines) { get; set; } | يحدد كيفية تعامل التطبيق الذي يقوم بعملية دمج البريد مع الأسطر الفارغة في المستندات المدمجة الناتجة عن دمج البريد. _ x000d_ القيمة الافتراضية هي`خاطئة` . |
+| [DoNotSupressBlankLines](../../aspose.words.settings/mailmergesettings/donotsupressblanklines) { get; set; } | يحدد كيفية تعامل التطبيق الذي يقوم بعملية دمج البريد مع الأسطر الفارغة في المستندات المدمجة الناتجة عن دمج البريد. القيمة الافتراضية هي`خاطئة` . |
 | [HeaderSource](../../aspose.words.settings/mailmergesettings/headersource) { get; set; } | يحدد المسار إلى مصدر رأس دمج المراسلات. القيمة الافتراضية هي سلسلة فارغة. |
-| [LinkToQuery](../../aspose.words.settings/mailmergesettings/linktoquery) { get; set; } | لست متأكدًا من هذا . يشير مرجع أتمتة Microsoft Word إلى أن هذا يحدد أن الاستعلام يتم تنفيذه في كل مرة يتم فيها فتح المستند في Microsoft Word. لكن مواصفات OOXML تشير إلى أن هذا يحدد أن الاستعلام يحتوي على reference لملف استعلام خارجي يحتوي على الاستعلام الفعلي ._ x000d_ القيمة الافتراضية هي`خاطئة` . |
+| [LinkToQuery](../../aspose.words.settings/mailmergesettings/linktoquery) { get; set; } | لست متأكدًا من هذا . يشير مرجع أتمتة Microsoft Word إلى أن هذا يحدد أن الاستعلام يتم تنفيذه في كل مرة يتم فيها فتح المستند في Microsoft Word. لكن مواصفات OOXML تشير إلى أن هذا يحدد أن الاستعلام يحتوي على reference لملف استعلام خارجي يحتوي على الاستعلام الفعلي . القيمة الافتراضية هي`خاطئة` . |
 | [MailAsAttachment](../../aspose.words.settings/mailmergesettings/mailasattachment) { get; set; } | يحدد أن المستندات التي تم إنتاجها أثناء عملية دمج المراسلات يجب إرسالها بالبريد الإلكتروني كمرفق بدلاً من بدلاً من نص البريد الإلكتروني الفعلي. النظام الأساسي`خاطئة` . |
 | [MailSubject](../../aspose.words.settings/mailmergesettings/mailsubject) { get; set; } | يحدد النص الذي يجب أن يظهر في سطر الموضوع لرسائل البريد الإلكتروني أو الفاكسات التي يتم إنتاجها أثناء دمج المراسلات. القيمة الافتراضية هي سلسلة فارغة. |
 | [MainDocumentType](../../aspose.words.settings/mailmergesettings/maindocumenttype) { get; set; } | تحديد نوع المستند الأساسي لدمج المراسلات. القيمة الافتراضية هيDefault . |
 | [Odso](../../aspose.words.settings/mailmergesettings/odso) { get; set; } | الحصول على أو تعيين الكائن الذي يحدد إعدادات كائن مصدر بيانات Office (ODSO). |
-| [Query](../../aspose.words.settings/mailmergesettings/query) { get; set; } | يحتوي على سلسلة لغة الاستعلام الهيكلية التي يجب تشغيلها مقابل مصدر البيانات الخارجي المحدد إلى لإرجاع مجموعة السجلات التي يجب استيرادها إلى المستند عند تنفيذ عملية دمج المراسلات ._ x000d_ القيمة الافتراضية هي سلسلة فارغة . |
+| [Query](../../aspose.words.settings/mailmergesettings/query) { get; set; } | يحتوي على سلسلة لغة الاستعلام الهيكلية التي يجب تشغيلها مقابل مصدر البيانات الخارجي المحدد إلى لإرجاع مجموعة السجلات التي يجب استيرادها إلى المستند عند تنفيذ عملية دمج المراسلات . القيمة الافتراضية هي سلسلة فارغة . |
 | [ViewMergedData](../../aspose.words.settings/mailmergesettings/viewmergeddata) { get; set; } | يحدد أن Microsoft Word يجب أن يعرض البيانات من مصدر البيانات الخارجية المحدد حيث تم إدراج حقول الدمج (على سبيل المثال معاينة البيانات المدمجة). النظام الأساسي`خاطئة` . |
 
 ## طُرق
@@ -50,7 +50,7 @@ public class MailMergeSettings
 
 ### ملاحظات
 
-يمكنك استخدام هذا الكائن لتحديد مصدر بيانات دمج المراسلات لمستند وستظهر هذه المعلومات_ x000d_ (مع حقول البيانات المتاحة) في Microsoft Word عندما يفتح المستخدم هذا المستند ._ x000d_ أو يمكنك استخدام هذا الكائن للاستعلام عن إعدادات دمج المراسلات التي حددها المستخدم في Microsoft Word لهذا المستند.
+يمكنك استخدام هذا الكائن لتحديد مصدر بيانات دمج المراسلات لمستند وستظهر هذه المعلومات (مع حقول البيانات المتاحة) في Microsoft Word عندما يفتح المستخدم هذا المستند . أو يمكنك استخدام هذا الكائن للاستعلام عن إعدادات دمج المراسلات التي حددها المستخدم في Microsoft Word لهذا المستند.
 
 لا تحتاج عادةً إلى إنشاء كائنات من هذه الفئة مباشرةً لأن إعدادات دمج المراسلات لمستند متاحة دائمًا عبر[`MailMergeSettings`](../../aspose.words/document/mailmergesettings) منشأه.
 

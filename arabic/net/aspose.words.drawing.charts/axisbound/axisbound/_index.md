@@ -1,14 +1,14 @@
 ---
 title: AxisBound
 second_title: Aspose.Words لمراجع .NET API
-description: إنشاء مثيل جديد يشير إلى أنه يجب تحديد حد المحور تلقائيًا بواسطة تطبيق معالجة الكلمات_ x000d_ .
+description: إنشاء مثيل جديد يشير إلى أنه يجب تحديد حد المحور تلقائيًا بواسطة تطبيق معالجة الكلمات .
 type: docs
 weight: 10
 url: /ar/net/aspose.words.drawing.charts/axisbound/axisbound/
 ---
 ## AxisBound() {#constructor}
 
-إنشاء مثيل جديد يشير إلى أنه يجب تحديد حد المحور تلقائيًا بواسطة تطبيق معالجة الكلمات_ x000d_ .
+إنشاء مثيل جديد يشير إلى أنه يجب تحديد حد المحور تلقائيًا بواسطة تطبيق معالجة الكلمات .
 
 ```csharp
 public AxisBound()
@@ -81,7 +81,7 @@ doc.Save(ArtifactsDir + "Charts.AxisBound.docx");
 
 ## AxisBound(double) {#constructor_1}
 
-لإنشاء حد محور يتم تمثيله كرقم ._ x000d_
+لإنشاء حد محور يتم تمثيله كرقم .
 
 ```csharp
 public AxisBound(double value)

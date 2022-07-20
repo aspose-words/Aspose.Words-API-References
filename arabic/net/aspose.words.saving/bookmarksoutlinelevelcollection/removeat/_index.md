@@ -1,14 +1,14 @@
 ---
 title: RemoveAt
 second_title: Aspose.Words لمراجع .NET API
-description: يزيل إشارة مرجعية في الفهرس المحدد ._ x000d_
+description: يزيل إشارة مرجعية في الفهرس المحدد .
 type: docs
 weight: 100
 url: /ar/net/aspose.words.saving/bookmarksoutlinelevelcollection/removeat/
 ---
 ## BookmarksOutlineLevelCollection.RemoveAt method
 
-يزيل إشارة مرجعية في الفهرس المحدد ._ x000d_
+يزيل إشارة مرجعية في الفهرس المحدد .
 
 ```csharp
 public void RemoveAt(int index)

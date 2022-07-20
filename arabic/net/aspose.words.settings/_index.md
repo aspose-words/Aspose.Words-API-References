@@ -17,7 +17,7 @@ url: /ar/net/aspose.words.settings/
 | [MailMergeSettings](./mailmergesettings) | تحديد كافة معلومات دمج المراسلات لمستند. |
 | [Odso](./odso) | يحدد إعدادات كائن مصدر بيانات Office (ODSO) لمصدر بيانات دمج المراسلات. |
 | [OdsoFieldMapData](./odsofieldmapdata) | يحدد كيفية تعيين عمود في مصدر البيانات الخارجي إلى حقول الدمج المحددة مسبقًا داخل المستند. |
-| [OdsoFieldMapDataCollection](./odsofieldmapdatacollection) | مجموعة مكتوبة من ملف[`OdsoFieldMapData`](../aspose.words.settings/odsofieldmapdata) الكائنات ._ x000d_ |
+| [OdsoFieldMapDataCollection](./odsofieldmapdatacollection) | مجموعة مكتوبة من ملف[`OdsoFieldMapData`](../aspose.words.settings/odsofieldmapdata) الكائنات . |
 | [OdsoRecipientData](./odsorecipientdata) | يمثل معلومات حول سجل واحد ضمن مصدر بيانات خارجي ليتم استبعاده من دمج البريد. |
 | [OdsoRecipientDataCollection](./odsorecipientdatacollection) | مجموعة مكتوبة من[`OdsoRecipientData`](../aspose.words.settings/odsorecipientdata) |
 | [ViewOptions](./viewoptions) | يوفر خيارات متنوعة تتحكم في كيفية عرض المستند في Microsoft Word. |
@@ -26,7 +26,7 @@ url: /ar/net/aspose.words.settings/
 
 | تعداد | وصف |
 | --- | --- |
-| [Compatibility](./compatibility) | يحدد أسماء خيارات التوافق ._ x000d_ |
+| [Compatibility](./compatibility) | يحدد أسماء خيارات التوافق . |
 | [MailMergeCheckErrors](./mailmergecheckerrors) | يحدد كيفية قيام Microsoft Word بالإبلاغ عن الأخطاء التي تم اكتشافها أثناء دمج المراسلات. |
 | [MailMergeDataType](./mailmergedatatype) | تحديد نوع مصدر بيانات دمج البريد الخارجي. |
 | [MailMergeDestination](./mailmergedestination) | تحديد النتائج المحتملة التي يمكن إنشاؤها عند تنفيذ دمج المراسلات في مستند. |

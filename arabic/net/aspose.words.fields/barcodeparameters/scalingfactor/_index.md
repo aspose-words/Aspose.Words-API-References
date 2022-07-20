@@ -1,14 +1,14 @@
 ---
 title: ScalingFactor
 second_title: Aspose.Words لمراجع .NET API
-description: معامل القياس للرمز. القيمة بالنقاط المئوية الكاملة والقيم الصالحة هي 10  1000 ._ x000d_
+description: معامل القياس للرمز. القيمة بالنقاط المئوية الكاملة والقيم الصالحة هي 10  1000 .
 type: docs
 weight: 160
 url: /ar/net/aspose.words.fields/barcodeparameters/scalingfactor/
 ---
 ## BarcodeParameters.ScalingFactor property
 
-معامل القياس للرمز. القيمة بالنقاط المئوية الكاملة والقيم الصالحة هي [10 ، 1000] ._ x000d_
+معامل القياس للرمز. القيمة بالنقاط المئوية الكاملة والقيم الصالحة هي [10 ، 1000] .
 
 ```csharp
 public string ScalingFactor { get; set; }

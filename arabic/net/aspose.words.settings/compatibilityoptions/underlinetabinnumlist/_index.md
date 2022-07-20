@@ -1,14 +1,14 @@
 ---
 title: UnderlineTabInNumList
 second_title: Aspose.Words لمراجع .NET API
-description: وضع خط تحت الترقيم التالي للحرف ._ x000d_
+description: وضع خط تحت الترقيم التالي للحرف .
 type: docs
 weight: 590
 url: /ar/net/aspose.words.settings/compatibilityoptions/underlinetabinnumlist/
 ---
 ## CompatibilityOptions.UnderlineTabInNumList property
 
-وضع خط تحت الترقيم التالي للحرف ._ x000d_
+وضع خط تحت الترقيم التالي للحرف .
 
 ```csharp
 public bool UnderlineTabInNumList { get; set; }

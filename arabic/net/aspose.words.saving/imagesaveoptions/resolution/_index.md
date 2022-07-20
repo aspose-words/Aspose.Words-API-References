@@ -1,14 +1,14 @@
 ---
 title: Resolution
 second_title: Aspose.Words لمراجع .NET API
-description: يضبط الدقة الأفقية والرأسية للصور التي تم إنشاؤها  بالنقاط في البوصة ._ x000d_
+description: يضبط الدقة الأفقية والرأسية للصور التي تم إنشاؤها  بالنقاط في البوصة .
 type: docs
 weight: 120
 url: /ar/net/aspose.words.saving/imagesaveoptions/resolution/
 ---
 ## ImageSaveOptions.Resolution property
 
-يضبط الدقة الأفقية والرأسية للصور التي تم إنشاؤها ، بالنقاط في البوصة ._ x000d_
+يضبط الدقة الأفقية والرأسية للصور التي تم إنشاؤها ، بالنقاط في البوصة .
 
 ```csharp
 public float Resolution { set; }

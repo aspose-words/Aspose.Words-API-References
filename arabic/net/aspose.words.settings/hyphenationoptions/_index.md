@@ -26,8 +26,8 @@ public class HyphenationOptions
 | --- | --- |
 | [AutoHyphenation](../../aspose.words.settings/hyphenationoptions/autohyphenation) { get; set; } | الحصول على قيمة أو تعيينها لتحديد ما إذا كان سيتم تشغيل الواصلة التلقائية للمستند. القيمة الافتراضية لهذه الخاصية هي **خاطئة** . |
 | [ConsecutiveHyphenLimit](../../aspose.words.settings/hyphenationoptions/consecutivehyphenlimit) { get; set; } | الحصول على أو تعيين الحد الأقصى لعدد الأسطر المتتالية التي يمكن أن تنتهي بواصلات . القيمة الافتراضية لهذه الخاصية هي 0. |
-| [HyphenateCaps](../../aspose.words.settings/hyphenationoptions/hyphenatecaps) { get; set; } | الحصول على قيمة أو تعيينها لتحديد ما إذا كانت الكلمات المكتوبة بأحرف كبيرة جميعها موصولة بواصلة ._ x000d_ القيمة الافتراضية لهذه الخاصية هي **حقيقي** . |
-| [HyphenationZone](../../aspose.words.settings/hyphenationoptions/hyphenationzone) { get; set; } | الحصول على المسافة أو تحديدها في 1/20 نقطة من الهامش الأيمن الذي لا ترغب في لوصل الكلمات ._ x000d_ القيمة الافتراضية لهذه الخاصية هي 360 (0.25 بوصة) ._ x000d_ |
+| [HyphenateCaps](../../aspose.words.settings/hyphenationoptions/hyphenatecaps) { get; set; } | الحصول على قيمة أو تعيينها لتحديد ما إذا كانت الكلمات المكتوبة بأحرف كبيرة جميعها موصولة بواصلة . القيمة الافتراضية لهذه الخاصية هي **حقيقي** . |
+| [HyphenationZone](../../aspose.words.settings/hyphenationoptions/hyphenationzone) { get; set; } | الحصول على المسافة أو تحديدها في 1/20 نقطة من الهامش الأيمن الذي لا ترغب في لوصل الكلمات . القيمة الافتراضية لهذه الخاصية هي 360 (0.25 بوصة) . |
 
 ### أمثلة
 

@@ -1,14 +1,14 @@
 ---
 title: FormField
 second_title: Aspose.Words لمراجع .NET API
-description: يمثل حقل نموذج واحد ._ x000d_
+description: يمثل حقل نموذج واحد .
 type: docs
 weight: 2460
 url: /ar/net/aspose.words.fields/formfield/
 ---
 ## FormField class
 
-يمثل حقل نموذج واحد ._ x000d_
+يمثل حقل نموذج واحد .
 
 ```csharp
 public class FormField : SpecialChar
@@ -19,9 +19,9 @@ public class FormField : SpecialChar
 | اسم | وصف |
 | --- | --- |
 | [CalculateOnExit](../../aspose.words.fields/formfield/calculateonexit) { get; set; } | صحيح إذا تم تحديث المراجع إلى حقل النموذج المحدد تلقائيًا عند الخروج من الحقل. |
-| [CheckBoxSize](../../aspose.words.fields/formfield/checkboxsize) { get; set; } | الحصول على أو تحديد حجم خانة الاختيار بالنقاط. يكون له تأثير فقط عندما[`IsCheckBoxExactSize`](./ischeckboxexactsize) هذا صحيح ._ x000d_ |
+| [CheckBoxSize](../../aspose.words.fields/formfield/checkboxsize) { get; set; } | الحصول على أو تحديد حجم خانة الاختيار بالنقاط. يكون له تأثير فقط عندما[`IsCheckBoxExactSize`](./ischeckboxexactsize) هذا صحيح . |
 | [Checked](../../aspose.words.fields/formfield/checked) { get; set; } | الحصول على أو تعيين الحالة المحددة لحقل نموذج خانة الاختيار. القيمة الافتراضية لهذه الخاصية هي **خاطئة** . |
-| [CustomNodeId](../../aspose.words/node/customnodeid) { get; set; } | يحدد معرف العقدة المخصص ._ x000d_ |
+| [CustomNodeId](../../aspose.words/node/customnodeid) { get; set; } | يحدد معرف العقدة المخصص . |
 | [Default](../../aspose.words.fields/formfield/default) { get; set; } | الحصول على القيمة الافتراضية لحقل نموذج خانة الاختيار أو تعيينها. القيمة الافتراضية لهذه الخاصية هي **خاطئة** . |
 | virtual [Document](../../aspose.words/node/document) { get; } | الحصول على المستند الذي تنتمي إليه هذه العقدة . |
 | [DropDownItems](../../aspose.words.fields/formfield/dropdownitems) { get; } | يوفر الوصول إلى عناصر حقل نموذج القائمة المنسدلة. |
@@ -38,7 +38,7 @@ public class FormField : SpecialChar
 | [IsInsertRevision](../../aspose.words/inline/isinsertrevision) { get; } | إرجاع صحيح إذا تم إدراج هذا الكائن في Microsoft Word أثناء تمكين تعقب التغييرات. |
 | [IsMoveFromRevision](../../aspose.words/inline/ismovefromrevision) { get; } | عوائد **حقيقي** إذا تم نقل (حذف) هذا الكائن في Microsoft Word أثناء تمكين تعقب التغييرات. |
 | [IsMoveToRevision](../../aspose.words/inline/ismovetorevision) { get; } | عوائد **حقيقي** إذا تم نقل هذا الكائن (إدراجه) في Microsoft Word أثناء تمكين تعقب التغيير. |
-| [MaxLength](../../aspose.words.fields/formfield/maxlength) { get; set; } | أقصى طول لحقل النص. صفر عندما يكون الطول غير محدود ._ x000d_ |
+| [MaxLength](../../aspose.words.fields/formfield/maxlength) { get; set; } | أقصى طول لحقل النص. صفر عندما يكون الطول غير محدود . |
 | [Name](../../aspose.words.fields/formfield/name) { get; set; } | الحصول على اسم حقل النموذج أو تعيينه. |
 | [NextSibling](../../aspose.words/node/nextsibling) { get; } | يحصل على العقدة التي تلي هذه العقدة مباشرة. |
 | override [NodeType](../../aspose.words.fields/formfield/nodetype) { get; } | عوائد **NodeType.FormField** . |
@@ -78,9 +78,9 @@ public class FormField : SpecialChar
 
 **حقل النموذج** هي عقدة مضمنة ويمكن أن تكون تابعة فقط لـ **فقرة**.
 
-**حقل النموذج** يتم تمثيله في المستند بحرف خاص و_ x000d_ يتم وضعه كحرف داخل سطر من النص.
+**حقل النموذج** يتم تمثيله في المستند بحرف خاص و يتم وضعه كحرف داخل سطر من النص.
 
-حقل النموذج الكامل في مستند Word عبارة عن بنية معقدة يتم تمثيلها بواسطة عدة عقد_ x000d: بداية الحقل ، ورمز الحقل مثل FORMTEXT ، وبيانات حقل النموذج ، وفاصل الحقل ، ونتائج الحقل ، ونهاية الحقل ، والإشارة المرجعية. لإنشاء حقول نموذج برمجيًا في مستند Word use [`DocumentBuilder.InsertCheckBox`](../../aspose.words/documentbuilder/insertcheckbox) ، [`DocumentBuilder.InsertTextInput`](../../aspose.words/documentbuilder/inserttextinput) و_ x000d_[`DocumentBuilder.InsertComboBox`](../../aspose.words/documentbuilder/insertcombobox) أي تأكد من إنشاء جميع عقد حقول النموذج بترتيب صحيح وفي حالة مناسبة.
+حقل النموذج الكامل في مستند Word عبارة عن بنية معقدة يتم تمثيلها بواسطة عدة عقد: بداية الحقل ، ورمز الحقل مثل FORMTEXT ، وبيانات حقل النموذج ، وفاصل الحقل ، ونتائج الحقل ، ونهاية الحقل ، والإشارة المرجعية. لإنشاء حقول نموذج برمجيًا في مستند Word use [`DocumentBuilder.InsertCheckBox`](../../aspose.words/documentbuilder/insertcheckbox) ، [`DocumentBuilder.InsertTextInput`](../../aspose.words/documentbuilder/inserttextinput) و [`DocumentBuilder.InsertComboBox`](../../aspose.words/documentbuilder/insertcombobox) أي تأكد من إنشاء جميع عقد حقول النموذج بترتيب صحيح وفي حالة مناسبة.
 
 ### أمثلة
 

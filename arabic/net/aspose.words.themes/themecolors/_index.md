@@ -29,7 +29,7 @@ public class ThemeColors
 | [Dark1](../../aspose.words.themes/themecolors/dark1) { get; set; } | يحدد اللون داكن 1. |
 | [Dark2](../../aspose.words.themes/themecolors/dark2) { get; set; } | يحدد اللون الداكن 2. |
 | [FollowedHyperlink](../../aspose.words.themes/themecolors/followedhyperlink) { get; set; } | تحديد لون الارتباط التشعبي الذي تم النقر فوقه. |
-| [Hyperlink](../../aspose.words.themes/themecolors/hyperlink) { get; set; } | تحديد لون الارتباط التشعبي ._ x000d_ |
+| [Hyperlink](../../aspose.words.themes/themecolors/hyperlink) { get; set; } | تحديد لون الارتباط التشعبي . |
 | [Light1](../../aspose.words.themes/themecolors/light1) { get; set; } | يحدد لون فاتح 1. |
 | [Light2](../../aspose.words.themes/themecolors/light2) { get; set; } | يحدد لون فاتح 2. |
 

@@ -1,14 +1,14 @@
 ---
 title: AxisCategoryType
 second_title: Aspose.Words لمراجع .NET API
-description: يحدد نوع محور الفئة ._ x000d_
+description: يحدد نوع محور الفئة .
 type: docs
 weight: 520
 url: /ar/net/aspose.words.drawing.charts/axiscategorytype/
 ---
 ## AxisCategoryType enumeration
 
-يحدد نوع محور الفئة ._ x000d_
+يحدد نوع محور الفئة .
 
 ```csharp
 public enum AxisCategoryType
@@ -20,7 +20,7 @@ public enum AxisCategoryType
 | --- | --- | --- |
 | Automatic | `0` | يحدد هذا النوع من محور الفئة الذي يتم تحديده تلقائيًا استنادًا إلى البيانات. |
 | Category | `1` | يحدد محورًا لمجموعة عشوائية من الفئات. |
-| Time | `2` | يحدد محور فئة الوقت ._ x000d_ |
+| Time | `2` | يحدد محور فئة الوقت . |
 
 ### أمثلة
 

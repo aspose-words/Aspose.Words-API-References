@@ -1,14 +1,14 @@
 ---
 title: BookmarkEnd
 second_title: Aspose.Words لمراجع .NET API
-description: يقوم بتهيئة مثيل جديد لملفBookmarkEndaspose.words/bookmarkend فئة ._ x000d_
+description: يقوم بتهيئة مثيل جديد لملفBookmarkEndaspose.words/bookmarkend فئة .
 type: docs
 weight: 10
 url: /ar/net/aspose.words/bookmarkend/bookmarkend/
 ---
 ## BookmarkEnd constructor
 
-يقوم بتهيئة مثيل جديد لملف[`BookmarkEnd`](../../bookmarkend) فئة ._ x000d_
+يقوم بتهيئة مثيل جديد لملف[`BookmarkEnd`](../../bookmarkend) فئة .
 
 ```csharp
 public BookmarkEnd(DocumentBase doc, string name)

@@ -18,7 +18,7 @@ public enum EmfPlusDualRenderingMode
 
 | اسم | قيمة | وصف |
 | --- | --- | --- |
-| EmfPlusWithFallback | `0` | Aspose.Words يحاول تقديم EMF + جزء من EMF + Dual metafile. إذا كانت بعض سجلات EMF + غير مدعومة_ x000d_ فإن Aspose.Words يعرض جزء EMF من EMF + Dual metafile . |
+| EmfPlusWithFallback | `0` | Aspose.Words يحاول تقديم EMF + جزء من EMF + Dual metafile. إذا كانت بعض سجلات EMF + غير مدعومة فإن Aspose.Words يعرض جزء EMF من EMF + Dual metafile . |
 | EmfPlus | `1` | Aspose.Words يجعل EMF + جزء من EMF + ملف تعريف مزدوج . |
 | Emf | `2` | Aspose.Words يجعل جزء EMF من EMF + Dual metafile . |
 

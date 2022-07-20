@@ -1,14 +1,14 @@
 ---
 title: ShadowFormat
 second_title: Aspose.Words لمراجع .NET API
-description: الحصول على تنسيق الظل للشكل ._ x000d_
+description: الحصول على تنسيق الظل للشكل .
 type: docs
 weight: 450
 url: /ar/net/aspose.words.drawing/shapebase/shadowformat/
 ---
 ## ShapeBase.ShadowFormat property
 
-الحصول على تنسيق الظل للشكل ._ x000d_
+الحصول على تنسيق الظل للشكل .
 
 ```csharp
 public ShadowFormat ShadowFormat { get; }

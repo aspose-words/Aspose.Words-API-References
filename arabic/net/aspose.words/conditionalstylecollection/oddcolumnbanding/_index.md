@@ -1,14 +1,14 @@
 ---
 title: OddColumnBanding
 second_title: Aspose.Words لمراجع .NET API
-description: يحصل على نمط نطاقات العمود الفردي ._ x000d_
+description: يحصل على نمط نطاقات العمود الفردي .
 type: docs
 weight: 110
 url: /ar/net/aspose.words/conditionalstylecollection/oddcolumnbanding/
 ---
 ## ConditionalStyleCollection.OddColumnBanding property
 
-يحصل على نمط نطاقات العمود الفردي ._ x000d_
+يحصل على نمط نطاقات العمود الفردي .
 
 ```csharp
 public ConditionalStyle OddColumnBanding { get; }

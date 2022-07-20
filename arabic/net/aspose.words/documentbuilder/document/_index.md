@@ -1,14 +1,14 @@
 ---
 title: Document
 second_title: Aspose.Words لمراجع .NET API
-description: يحصل أو يحدد ملفDocumentaspose.words/documentbuilder/document الكائن الذي يرتبط به هذا الكائن ._ x000d_
+description: يحصل أو يحدد ملفDocumentaspose.words/documentbuilder/document الكائن الذي يرتبط به هذا الكائن .
 type: docs
 weight: 80
 url: /ar/net/aspose.words/documentbuilder/document/
 ---
 ## DocumentBuilder.Document property
 
-يحصل أو يحدد ملف`Document` الكائن الذي يرتبط به هذا الكائن ._ x000d_
+يحصل أو يحدد ملف`Document` الكائن الذي يرتبط به هذا الكائن .
 
 ```csharp
 public Document Document { get; set; }

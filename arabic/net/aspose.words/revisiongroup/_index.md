@@ -1,14 +1,14 @@
 ---
 title: RevisionGroup
 second_title: Aspose.Words لمراجع .NET API
-description: يمثل مجموعة متسلسلةRevision./revision الكائنات ._ x000d_
+description: يمثل مجموعة متسلسلةRevision./revision الكائنات .
 type: docs
 weight: 4520
 url: /ar/net/aspose.words/revisiongroup/
 ---
 ## RevisionGroup class
 
-يمثل مجموعة متسلسلة[`Revision`](../revision) الكائنات ._ x000d_
+يمثل مجموعة متسلسلة[`Revision`](../revision) الكائنات .
 
 ```csharp
 public class RevisionGroup

@@ -16,7 +16,7 @@ public SignatureLine SignatureLine { get; }
 
 ### ملاحظات
 
-يمكنك إدراج خطوط التوقيع الجديدة في المستند باستخدام[`InsertSignatureLine`](../../../aspose.words/documentbuilder/insertsignatureline) و_ x000d_
+يمكنك إدراج خطوط التوقيع الجديدة في المستند باستخدام[`InsertSignatureLine`](../../../aspose.words/documentbuilder/insertsignatureline) و
 
 ### أمثلة
 

@@ -26,7 +26,7 @@ public enum RevisionTextEffect
 | DoubleUnderline | `5` | يتم تسطير المحتوى المنقح بشكل مزدوج وملون. |
 | StrikeThrough | `6` | يتم رسم المحتوى المنقح وتلوينه. |
 | DoubleStrikeThrough | `7` | يتم تمييز المحتوى المنقح بضرب مزدوج ولون. |
-| Hidden | `8` | المحتوى المنقح مخفي ._ x000d_ |
+| Hidden | `8` | المحتوى المنقح مخفي . |
 
 ### أمثلة
 

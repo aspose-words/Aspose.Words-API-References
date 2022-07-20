@@ -19,8 +19,8 @@ public class ChartMarker
 | اسم | وصف |
 | --- | --- |
 | [Format](../../aspose.words.drawing.charts/chartmarker/format) { get; } | يوفر الوصول لتعبئة وتنسيق خط هذه العلامة. |
-| [Size](../../aspose.words.drawing.charts/chartmarker/size) { get; set; } | الحصول على أو تعيين حجم علامة المخطط ._ x000d_ القيمة الافتراضية هي 7. |
-| [Symbol](../../aspose.words.drawing.charts/chartmarker/symbol) { get; set; } | الحصول على أو تعيين رمز علامة المخطط ._ x000d_ |
+| [Size](../../aspose.words.drawing.charts/chartmarker/size) { get; set; } | الحصول على أو تعيين حجم علامة المخطط . القيمة الافتراضية هي 7. |
+| [Symbol](../../aspose.words.drawing.charts/chartmarker/symbol) { get; set; } | الحصول على أو تعيين رمز علامة المخطط . |
 
 ### أمثلة
 

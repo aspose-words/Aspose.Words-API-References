@@ -1,14 +1,14 @@
 ---
 title: PromptText
 second_title: Aspose.Words لمراجع .NET API
-description: الحصول على نص المطالبة أو تعيينه عنوان نافذة المطالبة ._ x000d_
+description: الحصول على نص المطالبة أو تعيينه عنوان نافذة المطالبة .
 type: docs
 weight: 40
 url: /ar/net/aspose.words.fields/fieldfillin/prompttext/
 ---
 ## FieldFillIn.PromptText property
 
-الحصول على نص المطالبة أو تعيينه (عنوان نافذة المطالبة) ._ x000d_
+الحصول على نص المطالبة أو تعيينه (عنوان نافذة المطالبة) .
 
 ```csharp
 public string PromptText { get; set; }

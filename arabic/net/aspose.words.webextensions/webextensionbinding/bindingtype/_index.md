@@ -1,14 +1,14 @@
 ---
 title: BindingType
 second_title: Aspose.Words لمراجع .NET API
-description: يحدد نوع الربط. _ x000d_
+description: يحدد نوع الربط.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.webextensions/webextensionbinding/bindingtype/
 ---
 ## WebExtensionBinding.BindingType property
 
-يحدد نوع الربط. _ x000d_
+يحدد نوع الربط.
 
 ```csharp
 public WebExtensionBindingType BindingType { get; set; }

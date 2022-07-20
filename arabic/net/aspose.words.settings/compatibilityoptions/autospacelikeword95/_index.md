@@ -1,14 +1,14 @@
 ---
 title: AutoSpaceLikeWord95
 second_title: Aspose.Words لمراجع .NET API
-description: محاكاة تباعد الأحرف بالعرض الكامل في Word 95 ._ x000d_
+description: محاكاة تباعد الأحرف بالعرض الكامل في Word 95 .
 type: docs
 weight: 60
 url: /ar/net/aspose.words.settings/compatibilityoptions/autospacelikeword95/
 ---
 ## CompatibilityOptions.AutoSpaceLikeWord95 property
 
-محاكاة تباعد الأحرف بالعرض الكامل في Word 95 ._ x000d_
+محاكاة تباعد الأحرف بالعرض الكامل في Word 95 .
 
 ```csharp
 public bool AutoSpaceLikeWord95 { get; set; }

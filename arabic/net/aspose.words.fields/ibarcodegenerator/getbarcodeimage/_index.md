@@ -1,14 +1,14 @@
 ---
 title: GetBarcodeImage
 second_title: Aspose.Words لمراجع .NET API
-description: إنشاء صورة الرمز الشريطي باستخدام مجموعة المعلمات لحقل DisplayBarcode ._ x000d_
+description: إنشاء صورة الرمز الشريطي باستخدام مجموعة المعلمات لحقل DisplayBarcode .
 type: docs
 weight: 10
 url: /ar/net/aspose.words.fields/ibarcodegenerator/getbarcodeimage/
 ---
 ## IBarcodeGenerator.GetBarcodeImage method
 
-إنشاء صورة الرمز الشريطي باستخدام مجموعة المعلمات (لحقل DisplayBarcode) ._ x000d_
+إنشاء صورة الرمز الشريطي باستخدام مجموعة المعلمات (لحقل DisplayBarcode) .
 
 ```csharp
 public Image GetBarcodeImage(BarcodeParameters parameters)

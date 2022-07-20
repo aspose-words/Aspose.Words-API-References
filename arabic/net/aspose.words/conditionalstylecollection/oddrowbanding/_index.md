@@ -1,14 +1,14 @@
 ---
 title: OddRowBanding
 second_title: Aspose.Words لمراجع .NET API
-description: يحصل على نمط نطاقات الصف الفردي ._ x000d_
+description: يحصل على نمط نطاقات الصف الفردي .
 type: docs
 weight: 120
 url: /ar/net/aspose.words/conditionalstylecollection/oddrowbanding/
 ---
 ## ConditionalStyleCollection.OddRowBanding property
 
-يحصل على نمط نطاقات الصف الفردي ._ x000d_
+يحصل على نمط نطاقات الصف الفردي .
 
 ```csharp
 public ConditionalStyle OddRowBanding { get; }

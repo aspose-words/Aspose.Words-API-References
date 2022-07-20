@@ -1,14 +1,14 @@
 ---
 title: PrintBodyTextBeforeHeader
 second_title: Aspose.Words لمراجع .NET API
-description: طباعة النص الأساسي قبل محتويات الرأس / التذييل ._ x000d_
+description: طباعة النص الأساسي قبل محتويات الرأس / التذييل .
 type: docs
 weight: 390
 url: /ar/net/aspose.words.settings/compatibilityoptions/printbodytextbeforeheader/
 ---
 ## CompatibilityOptions.PrintBodyTextBeforeHeader property
 
-طباعة النص الأساسي قبل محتويات الرأس / التذييل ._ x000d_
+طباعة النص الأساسي قبل محتويات الرأس / التذييل .
 
 ```csharp
 public bool PrintBodyTextBeforeHeader { get; set; }

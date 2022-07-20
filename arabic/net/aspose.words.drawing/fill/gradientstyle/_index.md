@@ -1,14 +1,14 @@
 ---
 title: GradientStyle
 second_title: Aspose.Words لمراجع .NET API
-description: يحصل على نمط التدرجGradientStyleaspose.words.drawing/gradientstyle للتعبئة ._ x000d_
+description: يحصل على نمط التدرجGradientStyleaspose.words.drawing/gradientstyle للتعبئة .
 type: docs
 weight: 60
 url: /ar/net/aspose.words.drawing/fill/gradientstyle/
 ---
 ## Fill.GradientStyle property
 
-يحصل على نمط التدرج[`GradientStyle`](../../gradientstyle) للتعبئة ._ x000d_
+يحصل على نمط التدرج[`GradientStyle`](../../gradientstyle) للتعبئة .
 
 ```csharp
 public GradientStyle GradientStyle { get; }

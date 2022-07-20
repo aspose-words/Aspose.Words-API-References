@@ -18,7 +18,7 @@ public string Title { get; set; }
 
 القيمة الافتراضية هي سلسلة فارغة.
 
-هذه الخاصية مفيدة لمستندات DOCX المتوافقة مع ISO / IEC 29500 ([`OoxmlCompliance`](../../../aspose.words.saving/ooxmlcompliance)) ._ x000d_ عند الحفظ بتنسيقات ما قبل ISO / IEC 29500 ، يتم تجاهل الخاصية.
+هذه الخاصية مفيدة لمستندات DOCX المتوافقة مع ISO / IEC 29500 ([`OoxmlCompliance`](../../../aspose.words.saving/ooxmlcompliance)) . عند الحفظ بتنسيقات ما قبل ISO / IEC 29500 ، يتم تجاهل الخاصية.
 
 ### أمثلة
 

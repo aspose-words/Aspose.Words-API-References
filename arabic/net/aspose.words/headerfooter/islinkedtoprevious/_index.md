@@ -1,14 +1,14 @@
 ---
 title: IsLinkedToPrevious
 second_title: Aspose.Words لمراجع .NET API
-description: صحيح إذا كان هذا الرأس أو التذييل مرتبطًا بالرأس أو التذييل المقابل_ x000d_ في القسم السابق.
+description: صحيح إذا كان هذا الرأس أو التذييل مرتبطًا بالرأس أو التذييل المقابل_ في القسم السابق.
 type: docs
 weight: 40
 url: /ar/net/aspose.words/headerfooter/islinkedtoprevious/
 ---
 ## HeaderFooter.IsLinkedToPrevious property
 
-صحيح إذا كان هذا الرأس أو التذييل مرتبطًا بالرأس أو التذييل المقابل_ x000d_ في القسم السابق.
+صحيح إذا كان هذا الرأس أو التذييل مرتبطًا بالرأس أو التذييل المقابل_ في القسم السابق.
 
 ```csharp
 public bool IsLinkedToPrevious { get; set; }

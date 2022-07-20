@@ -1,14 +1,14 @@
 ---
 title: GetOldBarcodeImage
 second_title: Aspose.Words لمراجع .NET API
-description: إنشاء صورة الرمز الشريطي باستخدام مجموعة المعلمات لحقل الرمز الشريطي القديم ._ x000d_
+description: إنشاء صورة الرمز الشريطي باستخدام مجموعة المعلمات لحقل الرمز الشريطي القديم .
 type: docs
 weight: 20
 url: /ar/net/aspose.words.fields/ibarcodegenerator/getoldbarcodeimage/
 ---
 ## IBarcodeGenerator.GetOldBarcodeImage method
 
-إنشاء صورة الرمز الشريطي باستخدام مجموعة المعلمات (لحقل الرمز الشريطي القديم) ._ x000d_
+إنشاء صورة الرمز الشريطي باستخدام مجموعة المعلمات (لحقل الرمز الشريطي القديم) .
 
 ```csharp
 public Image GetOldBarcodeImage(BarcodeParameters parameters)

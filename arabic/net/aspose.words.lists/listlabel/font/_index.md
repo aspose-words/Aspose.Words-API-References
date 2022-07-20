@@ -1,14 +1,14 @@
 ---
 title: Font
 second_title: Aspose.Words لمراجع .NET API
-description: يحصل على خط تسمية القائمة ._ x000d_
+description: يحصل على خط تسمية القائمة .
 type: docs
 weight: 10
 url: /ar/net/aspose.words.lists/listlabel/font/
 ---
 ## ListLabel.Font property
 
-يحصل على خط تسمية القائمة ._ x000d_
+يحصل على خط تسمية القائمة .
 
 ```csharp
 public Font Font { get; }

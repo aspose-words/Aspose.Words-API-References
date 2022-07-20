@@ -1,14 +1,14 @@
 ---
 title: PostalAddress
 second_title: Aspose.Words لمراجع .NET API
-description: العنوان البريدي للرمز الشريطي ._ x000d_
+description: العنوان البريدي للرمز الشريطي .
 type: docs
 weight: 150
 url: /ar/net/aspose.words.fields/barcodeparameters/postaladdress/
 ---
 ## BarcodeParameters.PostalAddress property
 
-العنوان البريدي للرمز الشريطي ._ x000d_
+العنوان البريدي للرمز الشريطي .
 
 ```csharp
 public string PostalAddress { get; set; }

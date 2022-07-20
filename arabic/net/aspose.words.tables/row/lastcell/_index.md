@@ -1,14 +1,14 @@
 ---
 title: LastCell
 second_title: Aspose.Words لمراجع .NET API
-description: إرجاع الأخير خلية في الصف ._ x000d_
+description: إرجاع الأخير خلية في الصف .
 type: docs
 weight: 60
 url: /ar/net/aspose.words.tables/row/lastcell/
 ---
 ## Row.LastCell property
 
-إرجاع الأخير **خلية** في الصف ._ x000d_
+إرجاع الأخير **خلية** في الصف .
 
 ```csharp
 public Cell LastCell { get; }

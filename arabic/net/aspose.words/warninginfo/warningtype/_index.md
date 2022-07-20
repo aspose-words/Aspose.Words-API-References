@@ -1,14 +1,14 @@
 ---
 title: WarningType
 second_title: Aspose.Words لمراجع .NET API
-description: إرجاع نوع التحذير ._ x000d_
+description: إرجاع نوع التحذير .
 type: docs
 weight: 30
 url: /ar/net/aspose.words/warninginfo/warningtype/
 ---
 ## WarningInfo.WarningType property
 
-إرجاع نوع التحذير ._ x000d_
+إرجاع نوع التحذير .
 
 ```csharp
 public WarningType WarningType { get; }

@@ -1,14 +1,14 @@
 ---
 title: Document
 second_title: Aspose.Words لمراجع .NET API
-description: إنشاء مستند Word فارغ ._ x000d_
+description: إنشاء مستند Word فارغ .
 type: docs
 weight: 10
 url: /ar/net/aspose.words/document/document/
 ---
 ## Document() {#constructor}
 
-إنشاء مستند Word فارغ ._ x000d_
+إنشاء مستند Word فارغ .
 
 ```csharp
 public Document()

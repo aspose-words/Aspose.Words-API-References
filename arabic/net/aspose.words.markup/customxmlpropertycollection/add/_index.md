@@ -1,14 +1,14 @@
 ---
 title: Add
 second_title: Aspose.Words لمراجع .NET API
-description: إضافة خاصية للمجموعة ._ x000d_
+description: إضافة خاصية للمجموعة .
 type: docs
 weight: 30
 url: /ar/net/aspose.words.markup/customxmlpropertycollection/add/
 ---
 ## CustomXmlPropertyCollection.Add method
 
-إضافة خاصية للمجموعة ._ x000d_
+إضافة خاصية للمجموعة .
 
 ```csharp
 public void Add(CustomXmlProperty property)

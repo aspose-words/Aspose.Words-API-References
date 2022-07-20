@@ -1,14 +1,14 @@
 ---
 title: Tab
 second_title: Aspose.Words لمراجع .NET API
-description: حرف الجدولة  x0009 أو  t ._ x000d_
+description: حرف الجدولة  x0009 أو  t .
 type: docs
 weight: 270
 url: /ar/net/aspose.words/controlchar/tab/
 ---
 ## ControlChar.Tab field
 
-حرف الجدولة: "\ x0009" أو "\ t" ._ x000d_
+حرف الجدولة: "\ x0009" أو "\ t" .
 
 ```csharp
 public static readonly string Tab;

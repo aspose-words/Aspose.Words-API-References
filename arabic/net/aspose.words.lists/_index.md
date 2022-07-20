@@ -16,7 +16,7 @@ url: /ar/net/aspose.words.lists/
 | [ListCollection](./listcollection) | يخزن ويدير تنسيق قوائم التعداد النقطي والرقمي المستخدمة في المستند. |
 | [ListFormat](./listformat) | يسمح بالتحكم في تنسيق القائمة المطبق على فقرة. |
 | [ListLabel](./listlabel) | يحدد الخصائص الخاصة بتسمية القائمة. |
-| [ListLevel](./listlevel) | يحدد التنسيق لمستوى القائمة ._ x000d_ |
+| [ListLevel](./listlevel) | يحدد التنسيق لمستوى القائمة . |
 | [ListLevelCollection](./listlevelcollection) | مجموعة من تنسيق القائمة لكل مستوى في قائمة . |
 ## تعداد
 

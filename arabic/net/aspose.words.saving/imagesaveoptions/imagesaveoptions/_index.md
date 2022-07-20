@@ -1,14 +1,14 @@
 ---
 title: ImageSaveOptions
 second_title: Aspose.Words لمراجع .NET API
-description: تهيئة مثيل جديد من هذه الفئة يمكن استخدامه لحفظ الصور المعروضة في Tiff وPng وBmp  Emf وJpeg أوSvg التنسيق ._ x000d_Png وBmp وJpeg أوSvg التنسيق ._ x000d_
+description: تهيئة مثيل جديد من هذه الفئة يمكن استخدامه لحفظ الصور المعروضة في Tiff وPng وBmp  Emf وJpeg أوSvg التنسيق . Png وBmp وJpeg أوSvg التنسيق .
 type: docs
 weight: 10
 url: /ar/net/aspose.words.saving/imagesaveoptions/imagesaveoptions/
 ---
 ## ImageSaveOptions constructor
 
-تهيئة مثيل جديد من هذه الفئة يمكن استخدامه لحفظ الصور المعروضة في Tiff وPng وBmp ، Emf وJpeg أوSvg التنسيق ._ x000d_Png وBmp وJpeg أوSvg التنسيق ._ x000d_
+تهيئة مثيل جديد من هذه الفئة يمكن استخدامه لحفظ الصور المعروضة في Tiff وPng وBmp ، Emf وJpeg أوSvg التنسيق . Png وBmp وJpeg أوSvg التنسيق .
 
 ```csharp
 public ImageSaveOptions(SaveFormat saveFormat)

@@ -1,14 +1,14 @@
 ---
 title: WebExtension
 second_title: Aspose.Words لمراجع .NET API
-description: يمثل كائن امتداد الويب ._ x000d_
+description: يمثل كائن امتداد الويب .
 type: docs
 weight: 60
 url: /ar/net/aspose.words.webextensions/taskpane/webextension/
 ---
 ## TaskPane.WebExtension property
 
-يمثل كائن امتداد الويب ._ x000d_
+يمثل كائن امتداد الويب .
 
 ```csharp
 public WebExtension WebExtension { get; }

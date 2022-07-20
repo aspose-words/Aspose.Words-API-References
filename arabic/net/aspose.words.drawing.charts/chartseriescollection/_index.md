@@ -26,8 +26,8 @@ public class ChartSeriesCollection : IEnumerable<ChartSeries>
 | اسم | وصف |
 | --- | --- |
 | [Add](../../aspose.words.drawing.charts/chartseriescollection/add#add_2)(string, DateTime[], double[]) | إضافة جديد[`ChartSeries`](../chartseries) إلى هذه المجموعة. استخدم هذه الطريقة لإضافة سلسلة إلى أي نوع من المخططات المساحية والرادار والأسهم. |
-| [Add](../../aspose.words.drawing.charts/chartseriescollection/add#add)(string, double[], double[]) | إضافة جديد[`ChartSeries`](../chartseries) إلى هذه المجموعة ._ x000d_ استخدم هذه الطريقة لإضافة سلسلة إلى أي نوع من المخططات المبعثرة. |
-| [Add](../../aspose.words.drawing.charts/chartseriescollection/add#add_3)(string, string[], double[]) | إضافة جديد[`ChartSeries`](../chartseries)إلى هذه المجموعة ._ x000d_ استخدم هذه الطريقة لإضافة سلسلة إلى أي نوع من المخططات الشريطية والعمودية والخطية والسطحية. |
+| [Add](../../aspose.words.drawing.charts/chartseriescollection/add#add)(string, double[], double[]) | إضافة جديد[`ChartSeries`](../chartseries) إلى هذه المجموعة . استخدم هذه الطريقة لإضافة سلسلة إلى أي نوع من المخططات المبعثرة. |
+| [Add](../../aspose.words.drawing.charts/chartseriescollection/add#add_3)(string, string[], double[]) | إضافة جديد[`ChartSeries`](../chartseries)إلى هذه المجموعة . استخدم هذه الطريقة لإضافة سلسلة إلى أي نوع من المخططات الشريطية والعمودية والخطية والسطحية. |
 | [Add](../../aspose.words.drawing.charts/chartseriescollection/add#add_1)(string, double[], double[], double[]) | إضافة جديد[`ChartSeries`](../chartseries) إلى هذه المجموعة. استخدم هذه الطريقة لإضافة سلسلة إلى أي نوع من المخططات الفقاعية. |
 | [Clear](../../aspose.words.drawing.charts/chartseriescollection/clear)() | يزيل الكل[`ChartSeries`](../chartseries) من هذه المجموعة. |
 | [GetEnumerator](../../aspose.words.drawing.charts/chartseriescollection/getenumerator)() | إرجاع كائن العداد . |

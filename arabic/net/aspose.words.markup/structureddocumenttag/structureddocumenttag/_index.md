@@ -1,14 +1,14 @@
 ---
 title: StructuredDocumentTag
 second_title: Aspose.Words لمراجع .NET API
-description: يقوم بتهيئة مثيل جديد لملف علامة وثيقة منظم فئة ._ x000d_
+description: يقوم بتهيئة مثيل جديد لملف علامة وثيقة منظم فئة .
 type: docs
 weight: 10
 url: /ar/net/aspose.words.markup/structureddocumenttag/structureddocumenttag/
 ---
 ## StructuredDocumentTag constructor
 
-يقوم بتهيئة مثيل جديد لملف **علامة وثيقة منظم** فئة ._ x000d_
+يقوم بتهيئة مثيل جديد لملف **علامة وثيقة منظم** فئة .
 
 ```csharp
 public StructuredDocumentTag(DocumentBase doc, SdtType type, MarkupLevel level)

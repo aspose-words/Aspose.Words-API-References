@@ -18,13 +18,13 @@ public class BookmarkEnd : Node
 
 | اسم | وصف |
 | --- | --- |
-| [BookmarkEnd](bookmarkend)(DocumentBase, string) | يقوم بتهيئة مثيل جديد لملف[`BookmarkEnd`](../bookmarkend) فئة ._ x000d_ |
+| [BookmarkEnd](bookmarkend)(DocumentBase, string) | يقوم بتهيئة مثيل جديد لملف[`BookmarkEnd`](../bookmarkend) فئة . |
 
 ## الخصائص
 
 | اسم | وصف |
 | --- | --- |
-| [CustomNodeId](../../aspose.words/node/customnodeid) { get; set; } | يحدد معرف العقدة المخصص ._ x000d_ |
+| [CustomNodeId](../../aspose.words/node/customnodeid) { get; set; } | يحدد معرف العقدة المخصص . |
 | virtual [Document](../../aspose.words/node/document) { get; } | الحصول على المستند الذي تنتمي إليه هذه العقدة . |
 | virtual [IsComposite](../../aspose.words/node/iscomposite) { get; } | إرجاع صحيح إذا كانت هذه العقدة يمكن أن تحتوي على عقد أخرى. |
 | [Name](../../aspose.words/bookmarkend/name) { get; set; } | الحصول على اسم الإشارة المرجعية أو تعيينه. |

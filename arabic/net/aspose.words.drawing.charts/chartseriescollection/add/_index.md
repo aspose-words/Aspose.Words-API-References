@@ -1,14 +1,14 @@
 ---
 title: Add
 second_title: Aspose.Words لمراجع .NET API
-description: إضافة جديدChartSeriesaspose.words.drawing.charts/chartseriesإلى هذه المجموعة ._ x000d_ استخدم هذه الطريقة لإضافة سلسلة إلى أي نوع من المخططات الشريطية والعمودية والخطية والسطحية.
+description: إضافة جديدChartSeriesaspose.words.drawing.charts/chartseriesإلى هذه المجموعة . استخدم هذه الطريقة لإضافة سلسلة إلى أي نوع من المخططات الشريطية والعمودية والخطية والسطحية.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.drawing.charts/chartseriescollection/add/
 ---
 ## Add(string, string[], double[]) {#add_3}
 
-إضافة جديد[`ChartSeries`](../../chartseries)إلى هذه المجموعة ._ x000d_ استخدم هذه الطريقة لإضافة سلسلة إلى أي نوع من المخططات الشريطية والعمودية والخطية والسطحية.
+إضافة جديد[`ChartSeries`](../../chartseries)إلى هذه المجموعة . استخدم هذه الطريقة لإضافة سلسلة إلى أي نوع من المخططات الشريطية والعمودية والخطية والسطحية.
 
 ```csharp
 public ChartSeries Add(string seriesName, string[] categories, double[] values)
@@ -114,7 +114,7 @@ private static Chart AppendChart(DocumentBuilder builder, ChartType chartType, d
 
 ## Add(string, double[], double[]) {#add}
 
-إضافة جديد[`ChartSeries`](../../chartseries) إلى هذه المجموعة ._ x000d_ استخدم هذه الطريقة لإضافة سلسلة إلى أي نوع من المخططات المبعثرة.
+إضافة جديد[`ChartSeries`](../../chartseries) إلى هذه المجموعة . استخدم هذه الطريقة لإضافة سلسلة إلى أي نوع من المخططات المبعثرة.
 
 ```csharp
 public ChartSeries Add(string seriesName, double[] xValues, double[] yValues)

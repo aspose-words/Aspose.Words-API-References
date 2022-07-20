@@ -18,15 +18,15 @@ public class Font
 
 | اسم | وصف |
 | --- | --- |
-| [AllCaps](../../aspose.words/font/allcaps) { get; set; } | True إذا تم تنسيق الخط على هيئة أحرف كبيرة ._ x000d_ |
-| [AutoColor](../../aspose.words/font/autocolor) { get; } | إرجاع اللون المحسوب الحالي للنص (أسود أو أبيض) لاستخدامه في "اللون التلقائي" ._ x000d_ إذا لم يكن اللون "تلقائي" ، فسيتم إرجاعه[`Color`](./color) . |
+| [AllCaps](../../aspose.words/font/allcaps) { get; set; } | True إذا تم تنسيق الخط على هيئة أحرف كبيرة . |
+| [AutoColor](../../aspose.words/font/autocolor) { get; } | إرجاع اللون المحسوب الحالي للنص (أسود أو أبيض) لاستخدامه في "اللون التلقائي" . إذا لم يكن اللون "تلقائي" ، فسيتم إرجاعه[`Color`](./color) . |
 | [Bidi](../../aspose.words/font/bidi) { get; set; } | تحديد ما إذا كانت محتويات هذا التشغيل ستتميز بخصائص اتجاهها من اليمين إلى اليسار. |
 | [Bold](../../aspose.words/font/bold) { get; set; } | True إذا كان تنسيق الخط عريض . |
 | [BoldBi](../../aspose.words/font/boldbi) { get; set; } | True إذا تم تنسيق النص من اليمين إلى اليسار بتنسيق غامق . |
 | [Border](../../aspose.words/font/border) { get; } | إرجاع كائن حد يحدد حدًا للخط. |
 | [Color](../../aspose.words/font/color) { get; set; } | الحصول على لون الخط أو تحديده. |
 | [ComplexScript](../../aspose.words/font/complexscript) { get; set; } | يحدد ما إذا كان يجب معاملة محتويات هذا التشغيل كنص نص برمجي معقد بغض النظر عن قيم أحرف Unicode الخاصة بها عند تحديد تنسيق هذا التشغيل. |
-| [DoubleStrikeThrough](../../aspose.words/font/doublestrikethrough) { get; set; } | True إذا تم تنسيق الخط كنص يتوسطه خط مزدوج ._ x000d_ |
+| [DoubleStrikeThrough](../../aspose.words/font/doublestrikethrough) { get; set; } | True إذا تم تنسيق الخط كنص يتوسطه خط مزدوج . |
 | [Emboss](../../aspose.words/font/emboss) { get; set; } | True إذا تم تنسيق الخط على أنه منقوش. |
 | [EmphasisMark](../../aspose.words/font/emphasismark) { get; set; } | الحصول على أو تعيين علامة التأكيد المطبقة على هذا التنسيق. |
 | [Engrave](../../aspose.words/font/engrave) { get; set; } | صحيح إذا تم تنسيق الخط على أنه محفور. |
@@ -34,20 +34,20 @@ public class Font
 | [Hidden](../../aspose.words/font/hidden) { get; set; } | True إذا تم تنسيق الخط كنص مخفي. |
 | [HighlightColor](../../aspose.words/font/highlightcolor) { get; set; } | الحصول على أو تعيين لون التمييز (علامة). |
 | [Italic](../../aspose.words/font/italic) { get; set; } | True إذا تم تنسيق الخط على أنه مائل. |
-| [ItalicBi](../../aspose.words/font/italicbi) { get; set; } | True إذا تم تنسيق النص من اليمين إلى اليسار على أنه مائل ._ x000d_ |
+| [ItalicBi](../../aspose.words/font/italicbi) { get; set; } | True إذا تم تنسيق النص من اليمين إلى اليسار على أنه مائل . |
 | [Kerning](../../aspose.words/font/kerning) { get; set; } | الحصول على أو تحديد حجم الخط الذي يبدأ عنده تقنين الأحرف. |
 | [LineSpacing](../../aspose.words/font/linespacing) { get; } | إرجاع تباعد الأسطر لهذا الخط (بالنقاط). |
 | [LocaleId](../../aspose.words/font/localeid) { get; set; } | الحصول على أو تحديد معرف الإعدادات المحلية (اللغة) للأحرف المنسقة. |
 | [LocaleIdBi](../../aspose.words/font/localeidbi) { get; set; } | الحصول على أو تعيين معرف الإعدادات المحلية (اللغة) للأحرف المنسقة من اليمين إلى اليسار. |
 | [LocaleIdFarEast](../../aspose.words/font/localeidfareast) { get; set; } | الحصول على أو تعيين معرف الإعدادات المحلية (اللغة) للأحرف الآسيوية المنسقة. |
 | [Name](../../aspose.words/font/name) { get; set; } | الحصول على اسم الخط أو تحديده. |
-| [NameAscii](../../aspose.words/font/nameascii) { get; set; } | إرجاع أو تعيين الخط المستخدم للنص اللاتيني (الأحرف برموز الأحرف من 0 (صفر) إلى 127) ._ x000d_ |
+| [NameAscii](../../aspose.words/font/nameascii) { get; set; } | إرجاع أو تعيين الخط المستخدم للنص اللاتيني (الأحرف برموز الأحرف من 0 (صفر) إلى 127) . |
 | [NameBi](../../aspose.words/font/namebi) { get; set; } | إرجاع أو تعيين اسم الخط في مستند لغة من اليمين إلى اليسار. |
 | [NameFarEast](../../aspose.words/font/namefareast) { get; set; } | إرجاع أو تعيين اسم خط شرق آسيوي. |
 | [NameOther](../../aspose.words/font/nameother) { get; set; } | إرجاع أو تعيين الخط المستخدم للأحرف ذات رموز الأحرف من 128 إلى 255. |
 | [NoProofing](../../aspose.words/font/noproofing) { get; set; } | صحيح عندما لا يتم التدقيق الإملائي على الأحرف المنسقة. |
 | [Outline](../../aspose.words/font/outline) { get; set; } | True إذا تم تنسيق الخط كمخطط تفصيلي . |
-| [Position](../../aspose.words/font/position) { get; set; } | الحصول على أو تحديد موضع النص (بالنقاط) بالنسبة إلى السطر الأساسي ._ x000d_ يرفع الرقم الموجب النص ، ويخفضه الرقم السالب ._ x000d_ |
+| [Position](../../aspose.words/font/position) { get; set; } | الحصول على أو تحديد موضع النص (بالنقاط) بالنسبة إلى السطر الأساسي . يرفع الرقم الموجب النص ، ويخفضه الرقم السالب . |
 | [Scaling](../../aspose.words/font/scaling) { get; set; } | الحصول على أو تعيين قياس عرض الأحرف بالنسبة المئوية. |
 | [Shading](../../aspose.words/font/shading) { get; } | إرجاع كائن تظليل يشير إلى تنسيق التظليل للخط. |
 | [Shadow](../../aspose.words/font/shadow) { get; set; } | True إذا تم تنسيق الخط على أنه مظلل . |
@@ -56,7 +56,7 @@ public class Font
 | [SmallCaps](../../aspose.words/font/smallcaps) { get; set; } | True إذا تم تنسيق الخط كأحرف كبيرة صغيرة. |
 | [SnapToGrid](../../aspose.words/font/snaptogrid) { get; set; } | يحدد ما إذا كان يجب أن يستخدم الخط الحالي أحرف شبكة المستند لكل سطر settings عند التخطيط. |
 | [Spacing](../../aspose.words/font/spacing) { get; set; } | إرجاع أو تعيين التباعد (بالنقاط) بين الأحرف. |
-| [StrikeThrough](../../aspose.words/font/strikethrough) { get; set; } | True إذا تم تنسيق الخط كنص يتوسطه خط ._ x000d_ |
+| [StrikeThrough](../../aspose.words/font/strikethrough) { get; set; } | True إذا تم تنسيق الخط كنص يتوسطه خط . |
 | [Style](../../aspose.words/font/style) { get; set; } | الحصول على أو تعيين نمط الأحرف المطبق على هذا التنسيق. |
 | [StyleIdentifier](../../aspose.words/font/styleidentifier) { get; set; } | الحصول على أو تعيين معرف النمط المستقل للإعدادات المحلية لنمط الحرف المطبق على هذا التنسيق. |
 | [StyleName](../../aspose.words/font/stylename) { get; set; } | الحصول على اسم نمط الحرف المطبق على هذا التنسيق أو تعيينه. |
@@ -66,7 +66,7 @@ public class Font
 | [ThemeColor](../../aspose.words/font/themecolor) { get; set; } | الحصول على لون النسق أو تعيينه في نظام الألوان المطبق المرتبط بكائن الخط هذا. |
 | [ThemeFont](../../aspose.words/font/themefont) { get; set; } | الحصول على خط النسق أو تعيينه في نظام الخطوط المطبق المرتبط بكائن الخط هذا. |
 | [ThemeFontAscii](../../aspose.words/font/themefontascii) { get; set; } | الحصول على أو تعيين خط السمة المستخدم للنص اللاتيني (الأحرف برموز الأحرف من 0 (صفر) إلى 127) في نظام الخطوط المطبق المرتبط بكائن الخط هذا. |
-| [ThemeFontBi](../../aspose.words/font/themefontbi) { get; set; } | الحصول على أو تحديد خط النسق في نظام الخطوط المطبق والمرتبط بكائن الخط هذا_ x000d_ في مستند بلغة من اليمين إلى اليسار. |
+| [ThemeFontBi](../../aspose.words/font/themefontbi) { get; set; } | الحصول على أو تحديد خط النسق في نظام الخطوط المطبق والمرتبط بكائن الخط هذا_ في مستند بلغة من اليمين إلى اليسار. |
 | [ThemeFontFarEast](../../aspose.words/font/themefontfareast) { get; set; } | الحصول على أو تعيين خط نسق شرق آسيا في نظام الخطوط المطبق المرتبط بكائن الخط هذا. |
 | [ThemeFontOther](../../aspose.words/font/themefontother) { get; set; } | الحصول على أو تعيين خط النسق المستخدم للأحرف ذات رموز الأحرف من 128 إلى 255 في نظام الخطوط المطبق والمرتبط بكائن الخط هذا. |
 | [TintAndShade](../../aspose.words/font/tintandshade) { get; set; } | الحصول على أو تعيين قيمة مزدوجة لتفتيح أو تغميق اللون. |

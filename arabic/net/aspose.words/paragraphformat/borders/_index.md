@@ -1,14 +1,14 @@
 ---
 title: Borders
 second_title: Aspose.Words لمراجع .NET API
-description: الحصول على مجموعة من حدود الفقرة ._ x000d_
+description: الحصول على مجموعة من حدود الفقرة .
 type: docs
 weight: 50
 url: /ar/net/aspose.words/paragraphformat/borders/
 ---
 ## ParagraphFormat.Borders property
 
-الحصول على مجموعة من حدود الفقرة ._ x000d_
+الحصول على مجموعة من حدود الفقرة .
 
 ```csharp
 public BorderCollection Borders { get; }

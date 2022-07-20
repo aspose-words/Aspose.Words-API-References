@@ -1,14 +1,14 @@
 ---
 title: GetOpaqueBoundsInPixels
 second_title: Aspose.Words لمراجع .NET API
-description: لحساب الحدود المعتمة للشكل بالبكسل لعامل تكبير ودقة محددين ._ x000d_
+description: لحساب الحدود المعتمة للشكل بالبكسل لعامل تكبير ودقة محددين .
 type: docs
 weight: 50
 url: /ar/net/aspose.words.rendering/noderendererbase/getopaqueboundsinpixels/
 ---
 ## GetOpaqueBoundsInPixels(float, float) {#getopaqueboundsinpixels}
 
-لحساب الحدود المعتمة للشكل بالبكسل لعامل تكبير ودقة محددين ._ x000d_
+لحساب الحدود المعتمة للشكل بالبكسل لعامل تكبير ودقة محددين .
 
 ```csharp
 public Rectangle GetOpaqueBoundsInPixels(float scale, float dpi)
@@ -25,7 +25,7 @@ public Rectangle GetOpaqueBoundsInPixels(float scale, float dpi)
 
 ### ملاحظات
 
-هذه الطريقة تحول[`OpaqueBoundsInPoints`](../opaqueboundsinpoints) إلى مستطيل بالبكسل ويكون من المفيد_ x000d_ عندما تريد إنشاء صورة نقطية لعرض الشكل مع جزء معتم فقط من الشكل.
+هذه الطريقة تحول[`OpaqueBoundsInPoints`](../opaqueboundsinpoints) إلى مستطيل بالبكسل ويكون من المفيد عندما تريد إنشاء صورة نقطية لعرض الشكل مع جزء معتم فقط من الشكل.
 
 ### أمثلة
 
@@ -81,7 +81,7 @@ Assert.AreEqual(30, bounds.Height);
 
 ## GetOpaqueBoundsInPixels(float, float, float) {#getopaqueboundsinpixels_1}
 
-لحساب الحدود المعتمة للشكل بالبكسل لعامل تكبير ودقة محددين ._ x000d_
+لحساب الحدود المعتمة للشكل بالبكسل لعامل تكبير ودقة محددين .
 
 ```csharp
 public Rectangle GetOpaqueBoundsInPixels(float scale, float horizontalDpi, float verticalDpi)
@@ -99,7 +99,7 @@ public Rectangle GetOpaqueBoundsInPixels(float scale, float horizontalDpi, float
 
 ### ملاحظات
 
-هذه الطريقة تحول[`OpaqueBoundsInPoints`](../opaqueboundsinpoints) إلى مستطيل بالبكسل ويكون من المفيد_ x000d_ عندما تريد إنشاء صورة نقطية لعرض الشكل مع جزء معتم فقط من الشكل.
+هذه الطريقة تحول[`OpaqueBoundsInPoints`](../opaqueboundsinpoints) إلى مستطيل بالبكسل ويكون من المفيد عندما تريد إنشاء صورة نقطية لعرض الشكل مع جزء معتم فقط من الشكل.
 
 ### أمثلة
 

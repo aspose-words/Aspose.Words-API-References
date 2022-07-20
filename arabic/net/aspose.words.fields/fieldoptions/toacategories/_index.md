@@ -1,14 +1,14 @@
 ---
 title: ToaCategories
 second_title: Aspose.Words لمراجع .NET API
-description: الحصول على أو تعيين جدول فئات المصادر ._ x000d_
+description: الحصول على أو تعيين جدول فئات المصادر .
 type: docs
 weight: 180
 url: /ar/net/aspose.words.fields/fieldoptions/toacategories/
 ---
 ## FieldOptions.ToaCategories property
 
-الحصول على أو تعيين جدول فئات المصادر ._ x000d_
+الحصول على أو تعيين جدول فئات المصادر .
 
 ```csharp
 public ToaCategories ToaCategories { get; set; }

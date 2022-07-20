@@ -62,7 +62,7 @@ using (IEnumerator<Shape> enumerator = shapesWithImages.GetEnumerator())
 
 ## Save(string) {#save_1}
 
-يحفظ الصورة في ملف ._ x000d_
+يحفظ الصورة في ملف .
 
 ```csharp
 public void Save(string fileName)

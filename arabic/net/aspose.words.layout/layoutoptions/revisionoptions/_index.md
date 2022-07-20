@@ -1,14 +1,14 @@
 ---
 title: RevisionOptions
 second_title: Aspose.Words لمراجع .NET API
-description: يحصل على خيارات المراجعة ._ x000d_
+description: يحصل على خيارات المراجعة .
 type: docs
 weight: 60
 url: /ar/net/aspose.words.layout/layoutoptions/revisionoptions/
 ---
 ## LayoutOptions.RevisionOptions property
 
-يحصل على خيارات المراجعة ._ x000d_
+يحصل على خيارات المراجعة .
 
 ```csharp
 public RevisionOptions RevisionOptions { get; }

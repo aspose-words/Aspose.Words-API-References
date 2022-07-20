@@ -18,7 +18,7 @@ public CustomPartCollection PackageCustomParts { get; set; }
 
 لا تخلط بين هذه الأجزاء المخصصة وبيانات XML المخصصة. إذا كنت بحاجة إلى الوصول إلى أجزاء XML المخصصة ، فاستخدم ملحق[`CustomXmlParts`](../customxmlparts) منشأه.
 
-تحتوي هذه المجموعة على أجزاء OOXML التي يكون أصلها هو حزمة OOXML وهي أهداف لها "علاقة غير معروفة" ._ x000d_ لمزيد من المعلومات ، راجع[`CustomPart`](../../../aspose.words.markup/custompart).
+تحتوي هذه المجموعة على أجزاء OOXML التي يكون أصلها هو حزمة OOXML وهي أهداف لها "علاقة غير معروفة" . لمزيد من المعلومات ، راجع[`CustomPart`](../../../aspose.words.markup/custompart).
 
 يقوم Aspose.Words بتحميل وحفظ الأجزاء المخصصة في مستندات OOXML فقط.
 

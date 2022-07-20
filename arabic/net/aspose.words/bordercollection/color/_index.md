@@ -1,14 +1,14 @@
 ---
 title: Color
 second_title: Aspose.Words لمراجع .NET API
-description: الحصول على لون الحد أو تعيينه ._ x000d_
+description: الحصول على لون الحد أو تعيينه .
 type: docs
 weight: 20
 url: /ar/net/aspose.words/bordercollection/color/
 ---
 ## BorderCollection.Color property
 
-الحصول على لون الحد أو تعيينه ._ x000d_
+الحصول على لون الحد أو تعيينه .
 
 ```csharp
 public Color Color { get; set; }

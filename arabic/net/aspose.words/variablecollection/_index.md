@@ -19,7 +19,7 @@ public class VariableCollection : IEnumerable<KeyValuePair<string, string>>
 | اسم | وصف |
 | --- | --- |
 | [Count](../../aspose.words/variablecollection/count) { get; } | الحصول على عدد العناصر الموجودة في المجموعة. |
-| [Item](../../aspose.words/variablecollection/item) { get; set; } | الحصول على متغير مستند أو تعيينه حسب الاسم غير الحساس لحالة الأحرف. _ x000d_ القيم الفارغة غير مسموح بها كجانب يمين من المهمة وسيتم استبدالها بسلسلة فارغة. (2 indexers) |
+| [Item](../../aspose.words/variablecollection/item) { get; set; } | الحصول على متغير مستند أو تعيينه حسب الاسم غير الحساس لحالة الأحرف. _ القيم الفارغة غير مسموح بها كجانب يمين من المهمة وسيتم استبدالها بسلسلة فارغة. (2 indexers) |
 
 ## طُرق
 

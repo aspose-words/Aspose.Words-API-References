@@ -1,14 +1,14 @@
 ---
 title: GraphicsQualityOptions
 second_title: Aspose.Words لمراجع .NET API
-description: يسمح بتحديد وضع العرض والجودة لملفGraphics الكائن ._ x000d_
+description: يسمح بتحديد وضع العرض والجودة لملفGraphics الكائن .
 type: docs
 weight: 20
 url: /ar/net/aspose.words.saving/imagesaveoptions/graphicsqualityoptions/
 ---
 ## ImageSaveOptions.GraphicsQualityOptions property
 
-يسمح بتحديد وضع العرض والجودة لملفGraphics الكائن ._ x000d_
+يسمح بتحديد وضع العرض والجودة لملفGraphics الكائن .
 
 ```csharp
 public GraphicsQualityOptions GraphicsQualityOptions { get; set; }

@@ -23,7 +23,7 @@ public enum TextFormFieldType
 | Date | `2` | يمكن أن يحتوي حقل النموذج النصي على قيمة تاريخ صالحة فقط. |
 | CurrentDate | `3` | قيمة حقل نموذج النص هي التاريخ الحالي عند تحديث الحقل. |
 | CurrentTime | `4` | قيمة حقل نموذج النص هي الوقت الحالي عند تحديث الحقل. |
-| Calculated | `5` | يتم حساب قيمة حقل نموذج النص من التعبير المحدد في [`TextInputDefault`](../formfield/textinputdefault) الملكية ._ x000d_ |
+| Calculated | `5` | يتم حساب قيمة حقل نموذج النص من التعبير المحدد في [`TextInputDefault`](../formfield/textinputdefault) الملكية . |
 
 ### أمثلة
 

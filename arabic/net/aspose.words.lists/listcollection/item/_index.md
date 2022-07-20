@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Aspose.Words لمراجع .NET API
-description: يحصل على قائمة بالفهرس ._ x000d_
+description: يحصل على قائمة بالفهرس .
 type: docs
 weight: 30
 url: /ar/net/aspose.words.lists/listcollection/item/
 ---
 ## ListCollection indexer
 
-يحصل على قائمة بالفهرس ._ x000d_
+يحصل على قائمة بالفهرس .
 
 ```csharp
 public List this[int index] { get; }

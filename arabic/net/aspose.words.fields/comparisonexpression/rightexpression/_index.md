@@ -1,14 +1,14 @@
 ---
 title: RightExpression
 second_title: Aspose.Words لمراجع .NET API
-description: الحصول على التعبير الصحيح ._ x000d_
+description: الحصول على التعبير الصحيح .
 type: docs
 weight: 30
 url: /ar/net/aspose.words.fields/comparisonexpression/rightexpression/
 ---
 ## ComparisonExpression.RightExpression property
 
-الحصول على التعبير الصحيح ._ x000d_
+الحصول على التعبير الصحيح .
 
 ```csharp
 public string RightExpression { get; }

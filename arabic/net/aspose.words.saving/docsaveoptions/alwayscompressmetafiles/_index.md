@@ -1,14 +1,14 @@
 ---
 title: AlwaysCompressMetafiles
 second_title: Aspose.Words لمراجع .NET API
-description: متىخاطئة  لا يتم ضغط ملفات التعريف الصغيرة لسبب الأداء. _ x000d_ القيمة الافتراضية هي حقيقي  يتم ضغط كافة ملفات التعريف بغض النظر عن حجمها.
+description: متىخاطئة  لا يتم ضغط ملفات التعريف الصغيرة لسبب الأداء. القيمة الافتراضية هي حقيقي  يتم ضغط كافة ملفات التعريف بغض النظر عن حجمها.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.saving/docsaveoptions/alwayscompressmetafiles/
 ---
 ## DocSaveOptions.AlwaysCompressMetafiles property
 
-متى`خاطئة` ، لا يتم ضغط ملفات التعريف الصغيرة لسبب الأداء. _ x000d_ القيمة الافتراضية هي **حقيقي** ، يتم ضغط كافة ملفات التعريف بغض النظر عن حجمها.
+متى`خاطئة` ، لا يتم ضغط ملفات التعريف الصغيرة لسبب الأداء. القيمة الافتراضية هي **حقيقي** ، يتم ضغط كافة ملفات التعريف بغض النظر عن حجمها.
 
 ```csharp
 public bool AlwaysCompressMetafiles { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: ToaCategories
 second_title: Aspose.Words لمراجع .NET API
-description: يمثل جدول فئات المصادر ._ x000d_
+description: يمثل جدول فئات المصادر .
 type: docs
 weight: 2600
 url: /ar/net/aspose.words.fields/toacategories/
 ---
 ## ToaCategories class
 
-يمثل جدول فئات المصادر ._ x000d_
+يمثل جدول فئات المصادر .
 
 ```csharp
 public class ToaCategories
@@ -24,7 +24,7 @@ public class ToaCategories
 
 | اسم | وصف |
 | --- | --- |
-| static [DefaultCategories](../../aspose.words.fields/toacategories/defaultcategories) { get; } | الحصول على الجدول الافتراضي لفئات المصادر ._ x000d_ |
+| static [DefaultCategories](../../aspose.words.fields/toacategories/defaultcategories) { get; } | الحصول على الجدول الافتراضي لفئات المصادر . |
 | [Item](../../aspose.words.fields/toacategories/item) { get; set; } | الحصول على أو تحديد عنوان الفئة حسب رقم الفئة. |
 
 ### أمثلة

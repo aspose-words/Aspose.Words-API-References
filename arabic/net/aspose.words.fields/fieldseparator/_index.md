@@ -18,16 +18,16 @@ public class FieldSeparator : FieldChar
 
 | اسم | وصف |
 | --- | --- |
-| [CustomNodeId](../../aspose.words/node/customnodeid) { get; set; } | يحدد معرف العقدة المخصص ._ x000d_ |
+| [CustomNodeId](../../aspose.words/node/customnodeid) { get; set; } | يحدد معرف العقدة المخصص . |
 | virtual [Document](../../aspose.words/node/document) { get; } | الحصول على المستند الذي تنتمي إليه هذه العقدة . |
 | [FieldType](../../aspose.words.fields/fieldchar/fieldtype) { get; } | إرجاع نوع الحقل. |
 | [Font](../../aspose.words/inline/font) { get; } | يوفر الوصول إلى تنسيق خط هذا الكائن. |
 | virtual [IsComposite](../../aspose.words/node/iscomposite) { get; } | إرجاع صحيح إذا كانت هذه العقدة يمكن أن تحتوي على عقد أخرى. |
 | [IsDeleteRevision](../../aspose.words/inline/isdeleterevision) { get; } | إرجاع صحيح إذا تم حذف هذا الكائن في Microsoft Word أثناء تمكين تعقب التغييرات. |
-| [IsDirty](../../aspose.words.fields/fieldchar/isdirty) { get; set; } | الحصول على أو تحديد ما إذا كانت النتيجة الحالية للحقل لم تعد صحيحة (قديمة) بسبب التعديلات الأخرى_ x000d_ التي تم إجراؤها على المستند. |
+| [IsDirty](../../aspose.words.fields/fieldchar/isdirty) { get; set; } | الحصول على أو تحديد ما إذا كانت النتيجة الحالية للحقل لم تعد صحيحة (قديمة) بسبب التعديلات الأخرى التي تم إجراؤها على المستند. |
 | [IsFormatRevision](../../aspose.words/inline/isformatrevision) { get; } | إرجاع صحيح إذا تم تغيير تنسيق الكائن في Microsoft Word أثناء تمكين تعقب التغييرات. |
 | [IsInsertRevision](../../aspose.words/inline/isinsertrevision) { get; } | إرجاع صحيح إذا تم إدراج هذا الكائن في Microsoft Word أثناء تمكين تعقب التغييرات. |
-| [IsLocked](../../aspose.words.fields/fieldchar/islocked) { get; set; } | الحصول على أو تحديد ما إذا كان الحقل الأصلي مغلقًا (يجب عدم إعادة حساب النتيجة) ._ x000d_ |
+| [IsLocked](../../aspose.words.fields/fieldchar/islocked) { get; set; } | الحصول على أو تحديد ما إذا كان الحقل الأصلي مغلقًا (يجب عدم إعادة حساب النتيجة) . |
 | [IsMoveFromRevision](../../aspose.words/inline/ismovefromrevision) { get; } | عوائد **حقيقي** إذا تم نقل (حذف) هذا الكائن في Microsoft Word أثناء تمكين تعقب التغييرات. |
 | [IsMoveToRevision](../../aspose.words/inline/ismovetorevision) { get; } | عوائد **حقيقي** إذا تم نقل هذا الكائن (إدراجه) في Microsoft Word أثناء تمكين تعقب التغيير. |
 | [NextSibling](../../aspose.words/node/nextsibling) { get; } | يحصل على العقدة التي تلي هذه العقدة مباشرة. |
@@ -55,7 +55,7 @@ public class FieldSeparator : FieldChar
 
 ### ملاحظات
 
-[`FieldSeparator`](../fieldseparator) هي عقدة ذات مستوى مضمن ويتم تمثيلها بـ x000d_ بواسطة ملف[`FieldSeparatorChar`](../../aspose.words/controlchar/fieldseparatorchar) حرف التحكم في المستند.
+[`FieldSeparator`](../fieldseparator) هي عقدة ذات مستوى مضمن ويتم تمثيلها بـ بواسطة ملف[`FieldSeparatorChar`](../../aspose.words/controlchar/fieldseparatorchar) حرف التحكم في المستند.
 
 [`FieldSeparator`](../fieldseparator) يمكن أن يكون فقط تابعًا لـ[`Paragraph`](../../aspose.words/paragraph).
 

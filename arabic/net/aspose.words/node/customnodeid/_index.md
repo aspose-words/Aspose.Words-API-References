@@ -1,14 +1,14 @@
 ---
 title: CustomNodeId
 second_title: Aspose.Words لمراجع .NET API
-description: يحدد معرف العقدة المخصص ._ x000d_
+description: يحدد معرف العقدة المخصص .
 type: docs
 weight: 10
 url: /ar/net/aspose.words/node/customnodeid/
 ---
 ## Node.CustomNodeId property
 
-يحدد معرف العقدة المخصص ._ x000d_
+يحدد معرف العقدة المخصص .
 
 ```csharp
 public int CustomNodeId { get; set; }

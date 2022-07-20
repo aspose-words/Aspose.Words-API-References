@@ -1,14 +1,14 @@
 ---
 title: RelativeVerticalPosition
 second_title: Aspose.Words لمراجع .NET API
-description: يحدد ما هو الموضع الرأسي لشكل أو إطار نص نسبي ._ x000d_
+description: يحدد ما هو الموضع الرأسي لشكل أو إطار نص نسبي .
 type: docs
 weight: 1070
 url: /ar/net/aspose.words.drawing/relativeverticalposition/
 ---
 ## RelativeVerticalPosition enumeration
 
-يحدد ما هو الموضع الرأسي لشكل أو إطار نص نسبي ._ x000d_
+يحدد ما هو الموضع الرأسي لشكل أو إطار نص نسبي .
 
 ```csharp
 public enum RelativeVerticalPosition
@@ -21,7 +21,7 @@ public enum RelativeVerticalPosition
 | Margin | `0` | تحديد أن الوضع الرأسي يجب أن يكون متناسبًا مع هوامش الصفحة. |
 | Page | `1` | يتم وضع الكائن بالنسبة إلى الحافة العلوية للصفحة. |
 | Paragraph | `2` | يتم وضع الكائن بالنسبة إلى الجزء العلوي من الفقرة التي تحتوي على نقطة الارتساء. |
-| Line | `3` | غير موثق ._ x000d_ |
+| Line | `3` | غير موثق . |
 | TopMargin | `4` | تحديد أن الوضع الرأسي يجب أن يكون متعلقًا بالهامش العلوي للصفحة الحالية. |
 | BottomMargin | `5` | تحديد أن الوضع الرأسي يجب أن يكون متناسبًا مع الهامش السفلي للصفحة الحالية. |
 | InsideMargin | `6` | تحديد أن الوضع الرأسي يجب أن يكون متعلقًا بالهامش الداخلي للصفحة الحالية. |

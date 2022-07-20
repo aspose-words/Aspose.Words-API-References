@@ -1,14 +1,14 @@
 ---
 title: VisitSubDocument
 second_title: Aspose.Words لمراجع .NET API
-description: يتم استدعاؤه عند مصادفة مستند ثانوي ._ x000d_
+description: يتم استدعاؤه عند مصادفة مستند ثانوي .
 type: docs
 weight: 480
 url: /ar/net/aspose.words/documentvisitor/visitsubdocument/
 ---
 ## DocumentVisitor.VisitSubDocument method
 
-يتم استدعاؤه عند مصادفة مستند ثانوي ._ x000d_
+يتم استدعاؤه عند مصادفة مستند ثانوي .
 
 ```csharp
 public virtual VisitorAction VisitSubDocument(SubDocument subDocument)

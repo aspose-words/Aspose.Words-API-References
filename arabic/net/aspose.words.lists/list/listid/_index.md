@@ -1,14 +1,14 @@
 ---
 title: ListId
 second_title: Aspose.Words لمراجع .NET API
-description: الحصول على المعرف الفريد للقائمة ._ x000d_
+description: الحصول على المعرف الفريد للقائمة .
 type: docs
 weight: 60
 url: /ar/net/aspose.words.lists/list/listid/
 ---
 ## List.ListId property
 
-الحصول على المعرف الفريد للقائمة ._ x000d_
+الحصول على المعرف الفريد للقائمة .
 
 ```csharp
 public int ListId { get; }

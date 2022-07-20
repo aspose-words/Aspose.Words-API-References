@@ -1,14 +1,14 @@
 ---
 title: BarcodeType
 second_title: Aspose.Words لمراجع .NET API
-description: الحصول على نوع الرمز الشريطي أو تعيينه QR  وما إلى ذلك _ x000d_
+description: الحصول على نوع الرمز الشريطي أو تعيينه QR  وما إلى ذلك
 type: docs
 weight: 40
 url: /ar/net/aspose.words.fields/fieldmergebarcode/barcodetype/
 ---
 ## FieldMergeBarcode.BarcodeType property
 
-الحصول على نوع الرمز الشريطي أو تعيينه (QR ، وما إلى ذلك) _ x000d_
+الحصول على نوع الرمز الشريطي أو تعيينه (QR ، وما إلى ذلك)
 
 ```csharp
 public string BarcodeType { get; set; }

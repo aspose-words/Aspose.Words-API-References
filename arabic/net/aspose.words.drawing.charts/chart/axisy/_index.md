@@ -1,14 +1,14 @@
 ---
 title: AxisY
 second_title: Aspose.Words لمراجع .NET API
-description: يوفر الوصول إلى خصائص المحور ص في المخطط ._ x000d_
+description: يوفر الوصول إلى خصائص المحور ص في المخطط .
 type: docs
 weight: 20
 url: /ar/net/aspose.words.drawing.charts/chart/axisy/
 ---
 ## Chart.AxisY property
 
-يوفر الوصول إلى خصائص المحور ص في المخطط ._ x000d_
+يوفر الوصول إلى خصائص المحور ص في المخطط .
 
 ```csharp
 public ChartAxis AxisY { get; }

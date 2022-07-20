@@ -75,7 +75,7 @@ public TabStop(double position, TabAlignment alignment, TabLeader leader)
 | --- | --- | --- |
 | position | Double | موضع علامة الجدولة بالنقاط. |
 | alignment | TabAlignment | أ[`TabAlignment`](../../tabalignment) تحدد القيمة that محاذاة النص في علامة التبويب هذه. |
-| leader | TabLeader | أ[`TabLeader`](../../tableader) القيمة التي تحدد x000d_ نوع السطر الرئيسي المعروض أسفل حرف الجدولة. |
+| leader | TabLeader | أ[`TabLeader`](../../tableader) القيمة التي تحدد نوع السطر الرئيسي المعروض أسفل حرف الجدولة. |
 
 ### أمثلة
 

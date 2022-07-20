@@ -1,14 +1,14 @@
 ---
 title: HeightPixels
 second_title: Aspose.Words لمراجع .NET API
-description: الحصول على ارتفاع الصورة بالبكسل ._ x000d_
+description: الحصول على ارتفاع الصورة بالبكسل .
 type: docs
 weight: 20
 url: /ar/net/aspose.words.drawing/imagesize/heightpixels/
 ---
 ## ImageSize.HeightPixels property
 
-الحصول على ارتفاع الصورة بالبكسل ._ x000d_
+الحصول على ارتفاع الصورة بالبكسل .
 
 ```csharp
 public int HeightPixels { get; }

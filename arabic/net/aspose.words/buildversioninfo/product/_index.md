@@ -1,14 +1,14 @@
 ---
 title: Product
 second_title: Aspose.Words لمراجع .NET API
-description: الحصول على الاسم الكامل للمنتج ._ x000d_
+description: الحصول على الاسم الكامل للمنتج .
 type: docs
 weight: 10
 url: /ar/net/aspose.words/buildversioninfo/product/
 ---
 ## BuildVersionInfo.Product property
 
-الحصول على الاسم الكامل للمنتج ._ x000d_
+الحصول على الاسم الكامل للمنتج .
 
 ```csharp
 public static string Product { get; }

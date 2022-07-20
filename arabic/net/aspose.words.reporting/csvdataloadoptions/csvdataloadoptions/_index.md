@@ -24,7 +24,7 @@ public CsvDataLoadOptions()
 
 ## CsvDataLoadOptions(bool) {#constructor_1}
 
-يقوم بتهيئة مثيل جديد لهذه الفئة مع تحديد ما إذا كانت بيانات CSV تحتوي على أسماء الأعمدة_ x000d_ في السطر الأول.
+يقوم بتهيئة مثيل جديد لهذه الفئة مع تحديد ما إذا كانت بيانات CSV تحتوي على أسماء الأعمدة في السطر الأول.
 
 ```csharp
 public CsvDataLoadOptions(bool hasHeaders)

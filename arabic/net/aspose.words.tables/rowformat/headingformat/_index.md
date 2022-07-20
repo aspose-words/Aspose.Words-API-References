@@ -1,14 +1,14 @@
 ---
 title: HeadingFormat
 second_title: Aspose.Words لمراجع .NET API
-description: True إذا تكرر الصف كعنوان جدول في كل صفحة عندما يمتد الجدول على أكثر من صفحة واحدة ._ x000d_
+description: True إذا تكرر الصف كعنوان جدول في كل صفحة عندما يمتد الجدول على أكثر من صفحة واحدة .
 type: docs
 weight: 30
 url: /ar/net/aspose.words.tables/rowformat/headingformat/
 ---
 ## RowFormat.HeadingFormat property
 
-True إذا تكرر الصف كعنوان جدول في كل صفحة عندما يمتد الجدول على أكثر من صفحة واحدة ._ x000d_
+True إذا تكرر الصف كعنوان جدول في كل صفحة عندما يمتد الجدول على أكثر من صفحة واحدة .
 
 ```csharp
 public bool HeadingFormat { get; set; }

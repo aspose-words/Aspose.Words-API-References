@@ -1,14 +1,14 @@
 ---
 title: SizeInPoints
 second_title: Aspose.Words لمراجع .NET API
-description: الحصول على الحجم الفعلي للشكل بالنقاط ._ x000d_
+description: الحصول على الحجم الفعلي للشكل بالنقاط .
 type: docs
 weight: 30
 url: /ar/net/aspose.words.rendering/noderendererbase/sizeinpoints/
 ---
 ## NodeRendererBase.SizeInPoints property
 
-الحصول على الحجم الفعلي للشكل بالنقاط ._ x000d_
+الحصول على الحجم الفعلي للشكل بالنقاط .
 
 ```csharp
 public SizeF SizeInPoints { get; }
@@ -16,7 +16,7 @@ public SizeF SizeInPoints { get; }
 
 ### ملاحظات
 
-تعرض هذه الخاصية الحجم الفعلي للمربع المحيط بالشكل (كما هو معروض في الصفحة). _ x000d_ يأخذ الحجم في الاعتبار دوران الشكل (إن وجد).
+تعرض هذه الخاصية الحجم الفعلي للمربع المحيط بالشكل (كما هو معروض في الصفحة). يأخذ الحجم في الاعتبار دوران الشكل (إن وجد).
 
 ### أمثلة
 

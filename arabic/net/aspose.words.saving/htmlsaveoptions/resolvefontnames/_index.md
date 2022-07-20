@@ -1,14 +1,14 @@
 ---
 title: ResolveFontNames
 second_title: Aspose.Words لمراجع .NET API
-description: يحدد ما إذا كانت أسماء عائلة الخط المستخدمة في المستند سيتم حلها واستبدالها وفقًا لـ_ x000d_FontSettingsaspose.words/document/fontsettings عند كتابتها في تنسيقات تستند إلى HTML.
+description: يحدد ما إذا كانت أسماء عائلة الخط المستخدمة في المستند سيتم حلها واستبدالها وفقًا لـ FontSettingsaspose.words/document/fontsettings عند كتابتها في تنسيقات تستند إلى HTML.
 type: docs
 weight: 410
 url: /ar/net/aspose.words.saving/htmlsaveoptions/resolvefontnames/
 ---
 ## HtmlSaveOptions.ResolveFontNames property
 
-يحدد ما إذا كانت أسماء عائلة الخط المستخدمة في المستند سيتم حلها واستبدالها وفقًا لـ_ x000d_[`FontSettings`](../../../aspose.words/document/fontsettings) عند كتابتها في تنسيقات تستند إلى HTML.
+يحدد ما إذا كانت أسماء عائلة الخط المستخدمة في المستند سيتم حلها واستبدالها وفقًا لـ [`FontSettings`](../../../aspose.words/document/fontsettings) عند كتابتها في تنسيقات تستند إلى HTML.
 
 ```csharp
 public bool ResolveFontNames { get; set; }
@@ -16,7 +16,7 @@ public bool ResolveFontNames { get; set; }
 
 ### ملاحظات
 
-بشكل افتراضي ، يتم تعيين هذا الخيار على`خاطئة`وأسماء عائلة الخطوط مكتوبة إلى HTML كما هو محدد x000d_ في المستندات المصدر. هذا هو،[`FontSettings`](../../../aspose.words/document/fontsettings) يتم تجاهلها ولا يتم إجراء تحليل أو استبدال_ x000d_ لأسماء عائلة الخطوط.
+بشكل افتراضي ، يتم تعيين هذا الخيار على`خاطئة`وأسماء عائلة الخطوط مكتوبة إلى HTML كما هو محدد في المستندات المصدر. هذا هو،[`FontSettings`](../../../aspose.words/document/fontsettings) يتم تجاهلها ولا يتم إجراء تحليل أو استبدال لأسماء عائلة الخطوط.
 
 إذا تم تعيين هذا الخيار على`حقيقي` يستخدم Aspose.Words[`FontSettings`](../../../aspose.words/document/fontsettings) لحل كل اسم عائلة خط محدد في مستند مصدر في اسم عائلة خطوط متوفرة ، يتم استبدال الخط على النحو المطلوب.
 

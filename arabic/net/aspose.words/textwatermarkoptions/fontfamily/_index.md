@@ -1,14 +1,14 @@
 ---
 title: FontFamily
 second_title: Aspose.Words لمراجع .NET API
-description: الحصول على اسم عائلة الخط أو تعيينه. القيمة الافتراضية هي Calibri ._ x000d_
+description: الحصول على اسم عائلة الخط أو تعيينه. القيمة الافتراضية هي Calibri .
 type: docs
 weight: 30
 url: /ar/net/aspose.words/textwatermarkoptions/fontfamily/
 ---
 ## TextWatermarkOptions.FontFamily property
 
-الحصول على اسم عائلة الخط أو تعيينه. القيمة الافتراضية هي "Calibri" ._ x000d_
+الحصول على اسم عائلة الخط أو تعيينه. القيمة الافتراضية هي "Calibri" .
 
 ```csharp
 public string FontFamily { get; set; }

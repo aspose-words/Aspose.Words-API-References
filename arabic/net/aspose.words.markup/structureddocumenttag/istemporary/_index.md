@@ -1,14 +1,14 @@
 ---
 title: IsTemporary
 second_title: Aspose.Words لمراجع .NET API
-description: يحدد ما إذا كان هذا المعاملة الخاصة والتفضيلية يجب إزالتها من مستند WordProcessingML عندما يتم تعديل محتوياته_ x000d_.
+description: يحدد ما إذا كان هذا المعاملة الخاصة والتفضيلية يجب إزالتها من مستند WordProcessingML عندما يتم تعديل محتوياته .
 type: docs
 weight: 160
 url: /ar/net/aspose.words.markup/structureddocumenttag/istemporary/
 ---
 ## StructuredDocumentTag.IsTemporary property
 
-يحدد ما إذا كان هذا **المعاملة الخاصة والتفضيلية** يجب إزالتها من مستند WordProcessingML عندما يتم تعديل محتوياته_ x000d_.
+يحدد ما إذا كان هذا **المعاملة الخاصة والتفضيلية** يجب إزالتها من مستند WordProcessingML عندما يتم تعديل محتوياته .
 
 ```csharp
 public bool IsTemporary { get; set; }

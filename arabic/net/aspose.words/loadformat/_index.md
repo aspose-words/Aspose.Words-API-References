@@ -22,10 +22,10 @@ public enum LoadFormat
 | Doc | `10` | مستند Microsoft Word 95 أو Word 97-2003 . |
 | Dot | `11` | Microsoft Word 95 أو Word 97-2003 Template. |
 | DocPreWord60 | `12` | المستند بتنسيق ما قبل Word 95. Aspose. لا تدعم AdWords حاليًا تحميل مثل هذه المستندات. |
-| Docx | `20` | Office Open XML WordprocessingML Document (خالٍ من الماكرو) ._ x000d_ |
-| Docm | `21` | Office Open XML WordprocessingML مستند ممكّن بماكرو ._ x000d_ |
-| Dotx | `22` | Office Open XML WordprocessingML Template (خالٍ من الماكرو) ._ x000d_ |
-| Dotm | `23` | Office Open XML WordprocessingML قالب ممكّن بماكرو ._ x000d_ |
+| Docx | `20` | Office Open XML WordprocessingML Document (خالٍ من الماكرو) . |
+| Docm | `21` | Office Open XML WordprocessingML مستند ممكّن بماكرو . |
+| Dotx | `22` | Office Open XML WordprocessingML Template (خالٍ من الماكرو) . |
+| Dotm | `23` | Office Open XML WordprocessingML قالب ممكّن بماكرو . |
 | FlatOpc | `24` | Office Open XML WordprocessingML المخزنة في ملف XML ثابت بدلاً من حزمة ZIP. |
 | FlatOpcMacroEnabled | `25` | Office Open XML WordprocessingML مستند ممكن بماكرو مخزن في ملف XML مسطح بدلاً من حزمة ZIP. |
 | FlatOpcTemplate | `26` | Office Open XML WordprocessingML Template (خالٍ من الماكرو) المخزن في ملف XML مسطح بدلاً من حزمة ZIP. |

@@ -1,14 +1,14 @@
 ---
 title: MoveParent
 second_title: Aspose.Words لمراجع .NET API
-description: ينتقل إلى الكيان الأصلي ._ x000d_
+description: ينتقل إلى الكيان الأصلي .
 type: docs
 weight: 130
 url: /ar/net/aspose.words.layout/layoutenumerator/moveparent/
 ---
 ## MoveParent() {#moveparent}
 
-ينتقل إلى الكيان الأصلي ._ x000d_
+ينتقل إلى الكيان الأصلي .
 
 ```csharp
 public bool MoveParent()

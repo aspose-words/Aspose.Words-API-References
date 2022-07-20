@@ -1,14 +1,14 @@
 ---
 title: AbsoluteHorizontalDistance
 second_title: Aspose.Words لمراجع .NET API
-description: الحصول على أو تعيين موضع الجدول العائم الأفقي المطلق المحدد بواسطة خصائص الجدول  بالنقاط ._ x000d_ القيمة الافتراضية هي 0.
+description: الحصول على أو تعيين موضع الجدول العائم الأفقي المطلق المحدد بواسطة خصائص الجدول  بالنقاط . القيمة الافتراضية هي 0.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.tables/table/absolutehorizontaldistance/
 ---
 ## Table.AbsoluteHorizontalDistance property
 
-الحصول على أو تعيين موضع الجدول العائم الأفقي المطلق المحدد بواسطة خصائص الجدول ، بالنقاط ._ x000d_ القيمة الافتراضية هي 0.
+الحصول على أو تعيين موضع الجدول العائم الأفقي المطلق المحدد بواسطة خصائص الجدول ، بالنقاط . القيمة الافتراضية هي 0.
 
 ```csharp
 public double AbsoluteHorizontalDistance { get; set; }

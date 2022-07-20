@@ -1,14 +1,14 @@
 ---
 title: Add
 second_title: Aspose.Words لمراجع .NET API
-description: يضيف محددًاGradientStopaspose.words.drawing/gradientstop إلى التدرج اللوني ._ x000d_
+description: يضيف محددًاGradientStopaspose.words.drawing/gradientstop إلى التدرج اللوني .
 type: docs
 weight: 30
 url: /ar/net/aspose.words.drawing/gradientstopcollection/add/
 ---
 ## GradientStopCollection.Add method
 
-يضيف محددًا[`GradientStop`](../../gradientstop) إلى التدرج اللوني ._ x000d_
+يضيف محددًا[`GradientStop`](../../gradientstop) إلى التدرج اللوني .
 
 ```csharp
 public GradientStop Add(GradientStop gradientStop)

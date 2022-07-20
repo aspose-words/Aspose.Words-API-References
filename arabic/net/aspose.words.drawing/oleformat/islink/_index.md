@@ -1,14 +1,14 @@
 ---
 title: IsLink
 second_title: Aspose.Words لمراجع .NET API
-description: إرجاع صحيح إذا تم ربط كائن OLE عندماSourceFullNameaspose.words.drawing/oleformat/sourcefullname محدد ._ x000d_
+description: إرجاع صحيح إذا تم ربط كائن OLE عندماSourceFullNameaspose.words.drawing/oleformat/sourcefullname محدد .
 type: docs
 weight: 40
 url: /ar/net/aspose.words.drawing/oleformat/islink/
 ---
 ## OleFormat.IsLink property
 
-إرجاع صحيح إذا تم ربط كائن OLE (عندما[`SourceFullName`](../sourcefullname) محدد) ._ x000d_
+إرجاع صحيح إذا تم ربط كائن OLE (عندما[`SourceFullName`](../sourcefullname) محدد) .
 
 ```csharp
 public bool IsLink { get; }

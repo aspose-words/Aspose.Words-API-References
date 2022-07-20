@@ -1,14 +1,14 @@
 ---
 title: Borders
 second_title: Aspose.Words لمراجع .NET API
-description: الحصول على مجموعة من حدود الخلية ._ x000d_
+description: الحصول على مجموعة من حدود الخلية .
 type: docs
 weight: 10
 url: /ar/net/aspose.words.tables/cellformat/borders/
 ---
 ## CellFormat.Borders property
 
-الحصول على مجموعة من حدود الخلية ._ x000d_
+الحصول على مجموعة من حدود الخلية .
 
 ```csharp
 public BorderCollection Borders { get; }

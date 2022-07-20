@@ -1,14 +1,14 @@
 ---
 title: SymbolHeight
 second_title: Aspose.Words لمراجع .NET API
-description: الحصول على ارتفاع الرمز أو تحديده. الوحدات في TWIPS 1/1440 بوصة. _ x000d_
+description: الحصول على ارتفاع الرمز أو تحديده. الوحدات في TWIPS 1/1440 بوصة.
 type: docs
 weight: 130
 url: /ar/net/aspose.words.fields/fieldmergebarcode/symbolheight/
 ---
 ## FieldMergeBarcode.SymbolHeight property
 
-الحصول على ارتفاع الرمز أو تحديده. الوحدات في TWIPS (1/1440 بوصة). _ x000d_
+الحصول على ارتفاع الرمز أو تحديده. الوحدات في TWIPS (1/1440 بوصة).
 
 ```csharp
 public string SymbolHeight { get; set; }

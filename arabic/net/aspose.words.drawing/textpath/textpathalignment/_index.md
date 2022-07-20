@@ -1,14 +1,14 @@
 ---
 title: TextPathAlignment
 second_title: Aspose.Words لمراجع .NET API
-description: يحدد محاذاة النص ._ x000d_
+description: يحدد محاذاة النص .
 type: docs
 weight: 170
 url: /ar/net/aspose.words.drawing/textpath/textpathalignment/
 ---
 ## TextPath.TextPathAlignment property
 
-يحدد محاذاة النص ._ x000d_
+يحدد محاذاة النص .
 
 ```csharp
 public TextPathAlignment TextPathAlignment { get; set; }

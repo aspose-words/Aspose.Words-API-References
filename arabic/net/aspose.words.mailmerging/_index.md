@@ -1,23 +1,23 @@
 ---
 title: Aspose.Words.MailMerging
 second_title: Aspose.Words لمراجع .NET API
-description: ال Aspose.Words.MailMerging تحتوي مساحة الاسم على فئات محرك إعداد تقارير دمج المراسلات الأصلي x000d_.
+description: ال Aspose.Words.MailMerging تحتوي مساحة الاسم على فئات محرك إعداد تقارير دمج المراسلات الأصلي .
 type: docs
 weight: 140
 url: /ar/net/aspose.words.mailmerging/
 ---
-ال **Aspose.Words.MailMerging** تحتوي مساحة الاسم على فئات محرك إعداد تقارير دمج المراسلات "الأصلي" x000d_.
+ال **Aspose.Words.MailMerging** تحتوي مساحة الاسم على فئات محرك إعداد تقارير دمج المراسلات "الأصلي" .
 
 ## الطبقات
 
 | فصل | وصف |
 | --- | --- |
-| [FieldMergingArgs](./fieldmergingargs) | توفير بيانات لملف **مجال مدمج** الحدث ._ x000d_ |
+| [FieldMergingArgs](./fieldmergingargs) | توفير بيانات لملف **مجال مدمج** الحدث . |
 | [FieldMergingArgsBase](./fieldmergingargsbase) | الفئة الأساسية لـ[`FieldMergingArgs`](../aspose.words.mailmerging/fieldmergingargs) و[`ImageFieldMergingArgs`](../aspose.words.mailmerging/imagefieldmergingargs) . |
-| [ImageFieldMergingArgs](./imagefieldmergingargs) | توفير بيانات لملف[`ImageFieldMerging`](../aspose.words.mailmerging/ifieldmergingcallback/imagefieldmerging) الحدث ._ x000d_ |
+| [ImageFieldMergingArgs](./imagefieldmergingargs) | توفير بيانات لملف[`ImageFieldMerging`](../aspose.words.mailmerging/ifieldmergingcallback/imagefieldmerging) الحدث . |
 | [MailMerge](./mailmerge) | يمثل وظيفة دمج المراسلات. |
 | [MailMergeRegionInfo](./mailmergeregioninfo) | يحتوي على معلومات حول منطقة دمج المراسلات . |
-| [MappedDataFieldCollection](./mappeddatafieldcollection) | يسمح بالتعيين التلقائي بين أسماء الحقول في مصدر البيانات_ x000d_ وأسماء حقول دمج البريد في المستند. |
+| [MappedDataFieldCollection](./mappeddatafieldcollection) | يسمح بالتعيين التلقائي بين أسماء الحقول في مصدر البيانات وأسماء حقول دمج البريد في المستند. |
 ## واجهات
 
 | واجهه المستخدم | وصف |

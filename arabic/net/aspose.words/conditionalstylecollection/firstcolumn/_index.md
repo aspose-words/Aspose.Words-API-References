@@ -1,14 +1,14 @@
 ---
 title: FirstColumn
 second_title: Aspose.Words لمراجع .NET API
-description: يحصل على نمط العمود الأول ._ x000d_
+description: يحصل على نمط العمود الأول .
 type: docs
 weight: 60
 url: /ar/net/aspose.words/conditionalstylecollection/firstcolumn/
 ---
 ## ConditionalStyleCollection.FirstColumn property
 
-يحصل على نمط العمود الأول ._ x000d_
+يحصل على نمط العمود الأول .
 
 ```csharp
 public ConditionalStyle FirstColumn { get; }

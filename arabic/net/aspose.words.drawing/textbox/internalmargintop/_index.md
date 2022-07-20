@@ -1,14 +1,14 @@
 ---
 title: InternalMarginTop
 second_title: Aspose.Words لمراجع .NET API
-description: يحدد الهامش العلوي الداخلي بالنقاط للشكل ._ x000d_
+description: يحدد الهامش العلوي الداخلي بالنقاط للشكل .
 type: docs
 weight: 50
 url: /ar/net/aspose.words.drawing/textbox/internalmargintop/
 ---
 ## TextBox.InternalMarginTop property
 
-يحدد الهامش العلوي الداخلي بالنقاط للشكل ._ x000d_
+يحدد الهامش العلوي الداخلي بالنقاط للشكل .
 
 ```csharp
 public double InternalMarginTop { get; set; }

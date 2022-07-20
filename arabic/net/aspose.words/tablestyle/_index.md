@@ -1,14 +1,14 @@
 ---
 title: TableStyle
 second_title: Aspose.Words لمراجع .NET API
-description: يمثل نمط الجدول ._ x000d_
+description: يمثل نمط الجدول .
 type: docs
 weight: 5920
 url: /ar/net/aspose.words/tablestyle/
 ---
 ## TableStyle class
 
-يمثل نمط الجدول ._ x000d_
+يمثل نمط الجدول .
 
 ```csharp
 public class TableStyle : Style
@@ -19,7 +19,7 @@ public class TableStyle : Style
 | اسم | وصف |
 | --- | --- |
 | [Aliases](../../aspose.words/style/aliases) { get; } | يحصل على كافة الأسماء المستعارة لهذا النمط. إذا كان النمط لا يحتوي على أسماء مستعارة ، فسيتم إرجاع مصفوفة سلسلة فارغة. |
-| [Alignment](../../aspose.words/tablestyle/alignment) { get; set; } | يحدد محاذاة نمط الجدول ._ x000d_ |
+| [Alignment](../../aspose.words/tablestyle/alignment) { get; set; } | يحدد محاذاة نمط الجدول . |
 | [AllowBreakAcrossPages](../../aspose.words/tablestyle/allowbreakacrosspages) { get; set; } | الحصول على أو تعيين علامة تشير إلى ما إذا كان النص في صف الجدول مسموحًا بالانقسام عبر فاصل صفحة. |
 | [BaseStyleName](../../aspose.words/style/basestylename) { get; set; } | يحصل / يحدد اسم النمط الذي يعتمد عليه هذا النمط. |
 | [Bidi](../../aspose.words/tablestyle/bidi) { get; set; } | الحصول على أو تحديد ما إذا كان هذا نمطًا لجدول من اليمين إلى اليسار. |
@@ -33,7 +33,7 @@ public class TableStyle : Style
 | [Font](../../aspose.words/style/font) { get; } | الحصول على تنسيق الأحرف للنمط. |
 | [IsHeading](../../aspose.words/style/isheading) { get; } | صحيح عندما يكون النمط أحد أنماط العناوين المضمنة. |
 | [IsQuickStyle](../../aspose.words/style/isquickstyle) { get; set; } | يحدد ما إذا كان هذا النمط سيظهر في معرض الأنماط السريعة داخل واجهة مستخدم MS Word . |
-| [LeftIndent](../../aspose.words/tablestyle/leftindent) { get; set; } | الحصول على أو تعيين القيمة التي تمثل المسافة البادئة اليسرى للجدول ._ x000d_ |
+| [LeftIndent](../../aspose.words/tablestyle/leftindent) { get; set; } | الحصول على أو تعيين القيمة التي تمثل المسافة البادئة اليسرى للجدول . |
 | [LeftPadding](../../aspose.words/tablestyle/leftpadding) { get; set; } | الحصول على أو تحديد مقدار المساحة (بالنقاط) لإضافتها إلى يسار محتويات خلايا الجدول. |
 | [LinkedStyleName](../../aspose.words/style/linkedstylename) { get; } | الحصول على اسم النمط المرتبط بهذا النمط. إرجاع سلسلة فارغة إذا لم يتم ربط الأنماط. |
 | [List](../../aspose.words/style/list) { get; } | الحصول على القائمة التي تحدد تنسيق نمط القائمة هذا. |
@@ -45,16 +45,16 @@ public class TableStyle : Style
 | [RowStripe](../../aspose.words/tablestyle/rowstripe) { get; set; } | الحصول على أو تعيين عدد من الصفوف لتضمينها في النطاق عندما يحدد النمط نطاق الصفوف الفردية / الزوجية. |
 | [Shading](../../aspose.words/tablestyle/shading) { get; } | يحصل على أ[`Shading`](../shading) كائن يشير إلى تنسيق التظليل لخلايا الجدول. |
 | [StyleIdentifier](../../aspose.words/style/styleidentifier) { get; } | الحصول على معرف النمط المستقل للإعدادات المحلية لنمط مضمن. |
-| [Styles](../../aspose.words/style/styles) { get; } | الحصول على مجموعة الأنماط التي ينتمي إليها هذا النمط ._ x000d_ |
+| [Styles](../../aspose.words/style/styles) { get; } | الحصول على مجموعة الأنماط التي ينتمي إليها هذا النمط . |
 | [TopPadding](../../aspose.words/tablestyle/toppadding) { get; set; } | الحصول على أو تحديد مقدار المساحة (بالنقاط) للإضافة فوق محتويات خلايا الجدول. |
-| [Type](../../aspose.words/style/type) { get; } | الحصول على نوع النمط (فقرة أو حرف) ._ x000d_ |
-| [VerticalAlignment](../../aspose.words/tablestyle/verticalalignment) { get; set; } | يحدد المحاذاة العمودية للخلايا ._ x000d_ |
+| [Type](../../aspose.words/style/type) { get; } | الحصول على نوع النمط (فقرة أو حرف) . |
+| [VerticalAlignment](../../aspose.words/tablestyle/verticalalignment) { get; set; } | يحدد المحاذاة العمودية للخلايا . |
 
 ## طُرق
 
 | اسم | وصف |
 | --- | --- |
-| [Equals](../../aspose.words/style/equals)(Style) | مقارنة بالنمط المحدد ._ x000d_ تتم مقارنة الأنماط للأنماط المضمنة فقط . لا يتم تضمين افتراضيات الأنماط في المقارنة. تتم مقارنة النمط الأساسي والنمط المرتبط ونمط الفقرة التالي بشكل متكرر. |
+| [Equals](../../aspose.words/style/equals)(Style) | مقارنة بالنمط المحدد . تتم مقارنة الأنماط للأنماط المضمنة فقط . لا يتم تضمين افتراضيات الأنماط في المقارنة. تتم مقارنة النمط الأساسي والنمط المرتبط ونمط الفقرة التالي بشكل متكرر. |
 | [Remove](../../aspose.words/style/remove)() | يزيل النمط المحدد من المستند. |
 
 ### أمثلة

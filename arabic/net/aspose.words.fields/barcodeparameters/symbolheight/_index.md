@@ -1,14 +1,14 @@
 ---
 title: SymbolHeight
 second_title: Aspose.Words لمراجع .NET API
-description: ارتفاع صورة الرمز الشريطي بالتويب - 1/1440 بوصة _ x000d_
+description: ارتفاع صورة الرمز الشريطي بالتويب - 1/1440 بوصة
 type: docs
 weight: 170
 url: /ar/net/aspose.words.fields/barcodeparameters/symbolheight/
 ---
 ## BarcodeParameters.SymbolHeight property
 
-ارتفاع صورة الرمز الشريطي (بالتويب - 1/1440 بوصة) _ x000d_
+ارتفاع صورة الرمز الشريطي (بالتويب - 1/1440 بوصة)
 
 ```csharp
 public string SymbolHeight { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: CrLf
 second_title: Aspose.Words لمراجع .NET API
-description: إرجاع السطر متبوعًا بحرف تغذية الأسطر  x000d  x000a أو  r  n ._ x000d_ غير مستخدم على هذا النحو في مستندات Microsoft Word  ولكنه شائع الاستخدام في الملفات النصية لفواصل الفقرات .
+description: إرجاع السطر متبوعًا بحرف تغذية الأسطر  x000d  x000a أو  r  n . غير مستخدم على هذا النحو في مستندات Microsoft Word  ولكنه شائع الاستخدام في الملفات النصية لفواصل الفقرات .
 type: docs
 weight: 60
 url: /ar/net/aspose.words/controlchar/crlf/
 ---
 ## ControlChar.CrLf field
 
-إرجاع السطر متبوعًا بحرف تغذية الأسطر: "\ x000d \ x000a" أو "\ r \ n" ._ x000d_ غير مستخدم على هذا النحو في مستندات Microsoft Word ، ولكنه شائع الاستخدام في الملفات النصية لفواصل الفقرات .
+إرجاع السطر متبوعًا بحرف تغذية الأسطر: "\ x000d \ x000a" أو "\ r \ n" . غير مستخدم على هذا النحو في مستندات Microsoft Word ، ولكنه شائع الاستخدام في الملفات النصية لفواصل الفقرات .
 
 ```csharp
 public static readonly string CrLf;

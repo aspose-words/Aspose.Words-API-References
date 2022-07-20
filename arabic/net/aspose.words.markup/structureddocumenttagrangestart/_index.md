@@ -18,7 +18,7 @@ public class StructuredDocumentTagRangeStart : Node, IEnumerable<Node>, IStructu
 
 | اسم | وصف |
 | --- | --- |
-| [StructuredDocumentTagRangeStart](structureddocumenttagrangestart)(DocumentBase, SdtType) | يقوم بتهيئة مثيل جديد لملف **يبدأ نطاق علامة المستند المنظمة** فئة ._ x000d_ |
+| [StructuredDocumentTagRangeStart](structureddocumenttagrangestart)(DocumentBase, SdtType) | يقوم بتهيئة مثيل جديد لملف **يبدأ نطاق علامة المستند المنظمة** فئة . |
 
 ## الخصائص
 
@@ -26,7 +26,7 @@ public class StructuredDocumentTagRangeStart : Node, IEnumerable<Node>, IStructu
 | --- | --- |
 | [ChildNodes](../../aspose.words.markup/structureddocumenttagrangestart/childnodes) { get; } | يحصل على جميع العقد بين عقدة بداية النطاق وعقدة نهاية النطاق. |
 | [Color](../../aspose.words.markup/structureddocumenttagrangestart/color) { get; set; } | الحصول على أو تحديد لون علامة المستند المهيكلة. |
-| [CustomNodeId](../../aspose.words/node/customnodeid) { get; set; } | يحدد معرف العقدة المخصص ._ x000d_ |
+| [CustomNodeId](../../aspose.words/node/customnodeid) { get; set; } | يحدد معرف العقدة المخصص . |
 | virtual [Document](../../aspose.words/node/document) { get; } | الحصول على المستند الذي تنتمي إليه هذه العقدة . |
 | [Id](../../aspose.words.markup/structureddocumenttagrangestart/id) { get; } | يحدد معرّفًا رقميًا فريدًا للقراءة فقط مستمرًا لعلامة المستند المهيكلة هذه. |
 | virtual [IsComposite](../../aspose.words/node/iscomposite) { get; } | إرجاع صحيح إذا كانت هذه العقدة يمكن أن تحتوي على عقد أخرى. |
@@ -45,8 +45,8 @@ public class StructuredDocumentTagRangeStart : Node, IEnumerable<Node>, IStructu
 | [RangeEnd](../../aspose.words.markup/structureddocumenttagrangestart/rangeend) { get; } | تحدد نهاية النطاق إذا كانت علامة StructuredDocumentTag هي علامة نطاق مستند منظم. وإلا فستُرجع فارغة . |
 | [SdtType](../../aspose.words.markup/structureddocumenttagrangestart/sdttype) { get; } | يحصل على نوع علامة المستند المنظمة هذه. |
 | [Tag](../../aspose.words.markup/structureddocumenttagrangestart/tag) { get; set; } | يحدد علامة مرتبطة بعقدة علامة المستند المهيكلة الحالية. لا يمكن أن يكون فارغًا. |
-| [Title](../../aspose.words.markup/structureddocumenttagrangestart/title) { get; set; } | يحدد الاسم المألوف المرتبط بعلامة المستند المنظمة هذه. لا يمكن أن يكون فارغًا ._ x000d_ |
-| [WordOpenXML](../../aspose.words.markup/structureddocumenttagrangestart/wordopenxml) { get; } | يحصل على سلسلة تمثل XML الموجود داخل العقدة في ملفFlatOpc التنسيق ._ x000d_ |
+| [Title](../../aspose.words.markup/structureddocumenttagrangestart/title) { get; set; } | يحدد الاسم المألوف المرتبط بعلامة المستند المنظمة هذه. لا يمكن أن يكون فارغًا . |
+| [WordOpenXML](../../aspose.words.markup/structureddocumenttagrangestart/wordopenxml) { get; } | يحصل على سلسلة تمثل XML الموجود داخل العقدة في ملفFlatOpc التنسيق . |
 | [XmlMapping](../../aspose.words.markup/structureddocumenttagrangestart/xmlmapping) { get; } | الحصول على كائن يمثل تعيين نطاق علامة المستند المهيكلة هذا إلى بيانات XML في جزء XML مخصص من المستند الحالي. |
 
 ## طُرق
@@ -59,7 +59,7 @@ public class StructuredDocumentTagRangeStart : Node, IEnumerable<Node>, IStructu
 | [GetAncestor](../../aspose.words/node/getancestor)(NodeType) | يحصل على أول سلف محدد[`NodeType`](../../aspose.words/nodetype) . |
 | [GetAncestor](../../aspose.words/node/getancestor)(Type) | الحصول على الأصل الأول لنوع الكائن المحدد. |
 | [GetChildNodes](../../aspose.words.markup/structureddocumenttagrangestart/getchildnodes)(NodeType, bool) | إرجاع مجموعة مباشرة من العقد الفرعية التي تطابق الأنواع المحددة. |
-| [GetEnumerator](../../aspose.words.markup/structureddocumenttagrangestart/getenumerator)() | يوفر دعمًا لكل تكرار نمط على العقد التابعة لهذه العقدة ._ x000d_ |
+| [GetEnumerator](../../aspose.words.markup/structureddocumenttagrangestart/getenumerator)() | يوفر دعمًا لكل تكرار نمط على العقد التابعة لهذه العقدة . |
 | virtual [GetText](../../aspose.words/node/gettext)() | يحصل على نص هذه العقدة وجميع توابعها. |
 | [NextPreOrder](../../aspose.words/node/nextpreorder)(Node) | الحصول على العقدة التالية وفقًا لخوارزمية اجتياز الشجرة بالطلب المسبق. |
 | [PreviousPreOrder](../../aspose.words/node/previouspreorder)(Node) | الحصول على العقدة السابقة وفقًا لخوارزمية اجتياز الشجرة بالطلب المسبق. |

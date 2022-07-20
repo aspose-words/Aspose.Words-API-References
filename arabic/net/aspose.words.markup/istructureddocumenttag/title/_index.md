@@ -1,14 +1,14 @@
 ---
 title: Title
 second_title: Aspose.Words لمراجع .NET API
-description: تحديد الاسم المألوف المرتبط بهذا المعاملة الخاصة والتفضيلية . لا يمكن أن يكون فارغًا ._ x000d_
+description: تحديد الاسم المألوف المرتبط بهذا المعاملة الخاصة والتفضيلية . لا يمكن أن يكون فارغًا .
 type: docs
 weight: 110
 url: /ar/net/aspose.words.markup/istructureddocumenttag/title/
 ---
 ## IStructuredDocumentTag.Title property
 
-تحديد الاسم المألوف المرتبط بهذا **المعاملة الخاصة والتفضيلية** . لا يمكن أن يكون فارغًا ._ x000d_
+تحديد الاسم المألوف المرتبط بهذا **المعاملة الخاصة والتفضيلية** . لا يمكن أن يكون فارغًا .
 
 ```csharp
 public string Title { get; set; }

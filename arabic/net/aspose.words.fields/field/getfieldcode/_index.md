@@ -1,14 +1,14 @@
 ---
 title: GetFieldCode
 second_title: Aspose.Words لمراجع .NET API
-description: إرجاع النص بين بداية الحقل وفاصل الحقل أو نهاية الحقل إذا لم يكن هناك فاصل ._ x000d_ يتم تضمين كل من رمز الحقل ونتيجة الحقل للحقول الفرعية.
+description: إرجاع النص بين بداية الحقل وفاصل الحقل أو نهاية الحقل إذا لم يكن هناك فاصل . يتم تضمين كل من رمز الحقل ونتيجة الحقل للحقول الفرعية.
 type: docs
 weight: 110
 url: /ar/net/aspose.words.fields/field/getfieldcode/
 ---
 ## GetFieldCode() {#getfieldcode}
 
-إرجاع النص بين بداية الحقل وفاصل الحقل (أو نهاية الحقل إذا لم يكن هناك فاصل) ._ x000d_ يتم تضمين كل من رمز الحقل ونتيجة الحقل للحقول الفرعية.
+إرجاع النص بين بداية الحقل وفاصل الحقل (أو نهاية الحقل إذا لم يكن هناك فاصل) . يتم تضمين كل من رمز الحقل ونتيجة الحقل للحقول الفرعية.
 
 ```csharp
 public string GetFieldCode()
@@ -60,7 +60,7 @@ Assert.AreEqual(fieldIf.GetFieldCode(), fieldIf.GetFieldCode(true));
 
 ## GetFieldCode(bool) {#getfieldcode_1}
 
-إرجاع النص بين بداية الحقل وفاصل الحقل (أو نهاية الحقل إذا لم يكن هناك فاصل) ._ x000d_
+إرجاع النص بين بداية الحقل وفاصل الحقل (أو نهاية الحقل إذا لم يكن هناك فاصل) .
 
 ```csharp
 public string GetFieldCode(bool includeChildFieldCodes)

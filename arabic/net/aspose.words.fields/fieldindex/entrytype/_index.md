@@ -1,14 +1,14 @@
 ---
 title: EntryType
 second_title: Aspose.Words لمراجع .NET API
-description: الحصول على أو تحديد نوع إدخال الفهرس المستخدم في إنشاء الفهرس ._ x000d_
+description: الحصول على أو تحديد نوع إدخال الفهرس المستخدم في إنشاء الفهرس .
 type: docs
 weight: 40
 url: /ar/net/aspose.words.fields/fieldindex/entrytype/
 ---
 ## FieldIndex.EntryType property
 
-الحصول على أو تحديد نوع إدخال الفهرس المستخدم في إنشاء الفهرس ._ x000d_
+الحصول على أو تحديد نوع إدخال الفهرس المستخدم في إنشاء الفهرس .
 
 ```csharp
 public string EntryType { get; set; }

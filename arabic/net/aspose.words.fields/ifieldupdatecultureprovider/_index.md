@@ -18,7 +18,7 @@ public interface IFieldUpdateCultureProvider
 
 | اسم | وصف |
 | --- | --- |
-| [GetCulture](../../aspose.words.fields/ifieldupdatecultureprovider/getculture)(string, Field) | إرجاع أCultureInfo كائن لاستخدامه أثناء تحديث الحقل ._ x000d_ |
+| [GetCulture](../../aspose.words.fields/ifieldupdatecultureprovider/getculture)(string, Field) | إرجاع أCultureInfo كائن لاستخدامه أثناء تحديث الحقل . |
 
 ### أمثلة
 

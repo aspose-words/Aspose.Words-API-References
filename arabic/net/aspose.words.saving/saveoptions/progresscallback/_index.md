@@ -1,14 +1,14 @@
 ---
 title: ProgressCallback
 second_title: Aspose.Words لمراجع .NET API
-description: يتم الاتصال به أثناء حفظ المستند ويقبل البيانات حول حفظ التقدم ._ x000d_
+description: يتم الاتصال به أثناء حفظ المستند ويقبل البيانات حول حفظ التقدم .
 type: docs
 weight: 130
 url: /ar/net/aspose.words.saving/saveoptions/progresscallback/
 ---
 ## SaveOptions.ProgressCallback property
 
-يتم الاتصال به أثناء حفظ المستند ويقبل البيانات حول حفظ التقدم ._ x000d_
+يتم الاتصال به أثناء حفظ المستند ويقبل البيانات حول حفظ التقدم .
 
 ```csharp
 public IDocumentSavingCallback ProgressCallback { get; set; }

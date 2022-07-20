@@ -58,7 +58,7 @@ public void Save(Stream stream, ImageSaveOptions saveOptions)
 | معامل | يكتب | وصف |
 | --- | --- | --- |
 | stream | Stream | الدفق حيث يتم حفظ صورة الشكل. |
-| saveOptions | ImageSaveOptions | يحدد الخيارات التي تتحكم في كيفية عرض الشكل وحفظه. يمكن أن يكون فارغًا. _ x000d_ إذا كان هذا فارغًا ، فسيتم حفظ الصورة بتنسيق PNG. |
+| saveOptions | ImageSaveOptions | يحدد الخيارات التي تتحكم في كيفية عرض الشكل وحفظه. يمكن أن يكون فارغًا. إذا كان هذا فارغًا ، فسيتم حفظ الصورة بتنسيق PNG. |
 
 ### أمثلة
 

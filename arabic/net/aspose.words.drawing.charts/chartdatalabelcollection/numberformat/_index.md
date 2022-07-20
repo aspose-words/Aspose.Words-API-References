@@ -1,14 +1,14 @@
 ---
 title: NumberFormat
 second_title: Aspose.Words لمراجع .NET API
-description: يحصل على ملفChartNumberFormataspose.words.drawing.charts/chartnumberformat مثال يسمح بتعيين تنسيق رقم لتسميات البيانات لسلسلة_ x000d_ بأكملها.
+description: يحصل على ملفChartNumberFormataspose.words.drawing.charts/chartnumberformat مثال يسمح بتعيين تنسيق رقم لتسميات البيانات لسلسلة بأكملها.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.drawing.charts/chartdatalabelcollection/numberformat/
 ---
 ## ChartDataLabelCollection.NumberFormat property
 
-يحصل على ملف[`ChartNumberFormat`](../../chartnumberformat) مثال يسمح بتعيين تنسيق رقم لتسميات البيانات لسلسلة_ x000d_ بأكملها.
+يحصل على ملف[`ChartNumberFormat`](../../chartnumberformat) مثال يسمح بتعيين تنسيق رقم لتسميات البيانات لسلسلة بأكملها.
 
 ```csharp
 public ChartNumberFormat NumberFormat { get; }

@@ -1,14 +1,14 @@
 ---
 title: Styles
 second_title: Aspose.Words لمراجع .NET API
-description: الحصول على مجموعة الأنماط التي ينتمي إليها هذا النمط ._ x000d_
+description: الحصول على مجموعة الأنماط التي ينتمي إليها هذا النمط .
 type: docs
 weight: 150
 url: /ar/net/aspose.words/style/styles/
 ---
 ## Style.Styles property
 
-الحصول على مجموعة الأنماط التي ينتمي إليها هذا النمط ._ x000d_
+الحصول على مجموعة الأنماط التي ينتمي إليها هذا النمط .
 
 ```csharp
 public StyleCollection Styles { get; }

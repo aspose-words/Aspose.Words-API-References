@@ -1,14 +1,14 @@
 ---
 title: PointToPixel
 second_title: Aspose.Words لمراجع .NET API
-description: تحويل النقاط إلى بكسل بدقة 96 نقطة في البوصة ._ x000d_
+description: تحويل النقاط إلى بكسل بدقة 96 نقطة في البوصة .
 type: docs
 weight: 60
 url: /ar/net/aspose.words/convertutil/pointtopixel/
 ---
 ## PointToPixel(double) {#pointtopixel}
 
-تحويل النقاط إلى بكسل بدقة 96 نقطة في البوصة ._ x000d_
+تحويل النقاط إلى بكسل بدقة 96 نقطة في البوصة .
 
 ```csharp
 public static double PointToPixel(double points)
@@ -20,7 +20,7 @@ public static double PointToPixel(double points)
 
 ### ملاحظات
 
-1 بوصة تساوي 72 نقطة ._ x000d_
+1 بوصة تساوي 72 نقطة .
 
 ### أمثلة
 
@@ -78,7 +78,7 @@ public static double PointToPixel(double points, double resolution)
 
 ### ملاحظات
 
-1 بوصة تساوي 72 نقطة ._ x000d_
+1 بوصة تساوي 72 نقطة .
 
 ### أمثلة
 

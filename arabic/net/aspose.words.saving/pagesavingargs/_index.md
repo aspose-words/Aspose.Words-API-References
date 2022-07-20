@@ -1,14 +1,14 @@
 ---
 title: PageSavingArgs
 second_title: Aspose.Words لمراجع .NET API
-description: توفير بيانات لملفPageSaving./ipagesavingcallback/pagesaving الحدث ._ x000d_
+description: توفير بيانات لملفPageSaving./ipagesavingcallback/pagesaving الحدث .
 type: docs
 weight: 5100
 url: /ar/net/aspose.words.saving/pagesavingargs/
 ---
 ## PageSavingArgs class
 
-توفير بيانات لملف[`PageSaving`](../ipagesavingcallback/pagesaving) الحدث ._ x000d_
+توفير بيانات لملف[`PageSaving`](../ipagesavingcallback/pagesaving) الحدث .
 
 ```csharp
 public class PageSavingArgs
@@ -26,7 +26,7 @@ public class PageSavingArgs
 | --- | --- |
 | [KeepPageStreamOpen](../../aspose.words.saving/pagesavingargs/keeppagestreamopen) { get; set; } | يحدد ما إذا كان يجب على Aspose.Words إبقاء الدفق مفتوحًا أو إغلاقه بعد حفظ صفحة المستند. |
 | [PageFileName](../../aspose.words.saving/pagesavingargs/pagefilename) { get; set; } | الحصول على أو تحديد اسم الملف الذي سيتم حفظ صفحة المستند فيه. |
-| [PageIndex](../../aspose.words.saving/pagesavingargs/pageindex) { get; } | فهرس الصفحة الحالية ._ x000d_ |
+| [PageIndex](../../aspose.words.saving/pagesavingargs/pageindex) { get; } | فهرس الصفحة الحالية . |
 | [PageStream](../../aspose.words.saving/pagesavingargs/pagestream) { get; set; } | يسمح بتحديد التدفق حيث سيتم حفظ صفحة المستند فيه. |
 
 ### أمثلة

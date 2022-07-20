@@ -1,14 +1,14 @@
 ---
 title: GradientStops
 second_title: Aspose.Words لمراجع .NET API
-description: يحصل على مجموعة منGradientStopaspose.words.drawing/gradientstop كائنات للتعبئة ._ x000d_
+description: يحصل على مجموعة منGradientStopaspose.words.drawing/gradientstop كائنات للتعبئة .
 type: docs
 weight: 50
 url: /ar/net/aspose.words.drawing/fill/gradientstops/
 ---
 ## Fill.GradientStops property
 
-يحصل على مجموعة من[`GradientStop`](../../gradientstop) كائنات للتعبئة ._ x000d_
+يحصل على مجموعة من[`GradientStop`](../../gradientstop) كائنات للتعبئة .
 
 ```csharp
 public GradientStopCollection GradientStops { get; }

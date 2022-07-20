@@ -1,14 +1,14 @@
 ---
 title: GetConsumptionCredit
 second_title: Aspose.Words لمراجع .NET API
-description: يحصل على ائتمان الاستهلاك_ x000d_
+description: يحصل على ائتمان الاستهلاك
 type: docs
 weight: 30
 url: /ar/net/aspose.words/metered/getconsumptioncredit/
 ---
 ## Metered.GetConsumptionCredit method
 
-يحصل على ائتمان الاستهلاك_ x000d_
+يحصل على ائتمان الاستهلاك
 
 ```csharp
 public static decimal GetConsumptionCredit()

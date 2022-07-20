@@ -1,14 +1,14 @@
 ---
 title: ItalicBi
 second_title: Aspose.Words لمراجع .NET API
-description: True إذا تم تنسيق النص من اليمين إلى اليسار على أنه مائل ._ x000d_
+description: True إذا تم تنسيق النص من اليمين إلى اليسار على أنه مائل .
 type: docs
 weight: 170
 url: /ar/net/aspose.words/font/italicbi/
 ---
 ## Font.ItalicBi property
 
-True إذا تم تنسيق النص من اليمين إلى اليسار على أنه مائل ._ x000d_
+True إذا تم تنسيق النص من اليمين إلى اليسار على أنه مائل .
 
 ```csharp
 public bool ItalicBi { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: FontSavingArgs
 second_title: Aspose.Words لمراجع .NET API
-description: توفير بيانات لملفFontSaving./ifontsavingcallback/fontsaving الحدث ._ x000d_
+description: توفير بيانات لملفFontSaving./ifontsavingcallback/fontsaving الحدث .
 type: docs
 weight: 4770
 url: /ar/net/aspose.words.saving/fontsavingargs/
 ---
 ## FontSavingArgs class
 
-توفير بيانات لملف[`FontSaving`](../ifontsavingcallback/fontsaving) الحدث ._ x000d_
+توفير بيانات لملف[`FontSaving`](../ifontsavingcallback/fontsaving) الحدث .
 
 ```csharp
 public class FontSavingArgs

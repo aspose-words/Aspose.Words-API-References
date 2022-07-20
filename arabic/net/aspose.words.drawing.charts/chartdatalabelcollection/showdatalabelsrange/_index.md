@@ -16,7 +16,7 @@ public bool ShowDataLabelsRange { get; set; }
 
 ### ملاحظات
 
-يمكن تجاوز القيمة المحددة لهذه الخاصية لتسمية بيانات فردية باستخدام the [`ShowDataLabelsRange`](../../chartdatalabel/showdatalabelsrange) الملكية ._ x000d_
+يمكن تجاوز القيمة المحددة لهذه الخاصية لتسمية بيانات فردية باستخدام the [`ShowDataLabelsRange`](../../chartdatalabel/showdatalabelsrange) الملكية .
 
 ### أنظر أيضا
 

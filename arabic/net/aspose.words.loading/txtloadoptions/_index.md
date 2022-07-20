@@ -1,14 +1,14 @@
 ---
 title: TxtLoadOptions
 second_title: Aspose.Words لمراجع .NET API
-description: يسمح بتحديد خيارات إضافية عند التحميلText وثيقة فيDocument../aspose.words/document الكائن ._ x000d_
+description: يسمح بتحديد خيارات إضافية عند التحميلText وثيقة فيDocument../aspose.words/document الكائن .
 type: docs
 weight: 3530
 url: /ar/net/aspose.words.loading/txtloadoptions/
 ---
 ## TxtLoadOptions class
 
-يسمح بتحديد خيارات إضافية عند التحميلText وثيقة في[`Document`](../../aspose.words/document) الكائن ._ x000d_
+يسمح بتحديد خيارات إضافية عند التحميلText وثيقة في[`Document`](../../aspose.words/document) الكائن .
 
 ```csharp
 public class TxtLoadOptions : LoadOptions
@@ -25,7 +25,7 @@ public class TxtLoadOptions : LoadOptions
 | اسم | وصف |
 | --- | --- |
 | [BaseUri](../../aspose.words.loading/loadoptions/baseuri) { get; set; } | الحصول على أو تعيين السلسلة التي سيتم استخدامها لحل URIs النسبية الموجودة في المستند إلى URIs المطلقة عند الحاجة . يمكن أن تكون سلسلة فارغة أو فارغة. الافتراضي هو فارغ. |
-| [ConvertMetafilesToPng](../../aspose.words.loading/loadoptions/convertmetafilestopng) { get; set; } | الحصول على أو تعيين ما إذا كان سيتم تحويل ملف تعريف (Wmf أوEmf ) صور لPng تنسيق الصورة ._ x000d_ |
+| [ConvertMetafilesToPng](../../aspose.words.loading/loadoptions/convertmetafilestopng) { get; set; } | الحصول على أو تعيين ما إذا كان سيتم تحويل ملف تعريف (Wmf أوEmf ) صور لPng تنسيق الصورة . |
 | [ConvertShapeToOfficeMath](../../aspose.words.loading/loadoptions/convertshapetoofficemath) { get; set; } | الحصول على أو تعيين ما إذا كان سيتم تحويل الأشكال باستخدام EquationXML إلى كائنات Office Math. |
 | [DetectNumberingWithWhitespaces](../../aspose.words.loading/txtloadoptions/detectnumberingwithwhitespaces) { get; set; } | يسمح بتحديد كيفية التعرف على عناصر القائمة المرقمة عند استيراد المستند من تنسيق نص عادي. القيمة الافتراضية هي true. |
 | [DocumentDirection](../../aspose.words.loading/txtloadoptions/documentdirection) { get; set; } | الحصول على أو تحديد اتجاه المستند. القيمة الافتراضية هيLeftToRight . |
@@ -41,8 +41,8 @@ public class TxtLoadOptions : LoadOptions
 | [ProgressCallback](../../aspose.words.loading/loadoptions/progresscallback) { get; set; } | يتم الاتصال به أثناء تحميل مستند ويقبل البيانات حول تقدم التحميل. |
 | [ResourceLoadingCallback](../../aspose.words.loading/loadoptions/resourceloadingcallback) { get; set; } | يسمح بالتحكم في كيفية تحميل الموارد الخارجية (الصور ، أوراق الأنماط) عند استيراد مستند من HTML ، MHTML. |
 | [TempFolder](../../aspose.words.loading/loadoptions/tempfolder) { get; set; } | يسمح باستخدام الملفات المؤقتة عند قراءة المستند. افتراضيًا ، هذه الخاصية هي`لا شيء` ولا يتم استخدام أي ملفات مؤقتة. |
-| [TrailingSpacesOptions](../../aspose.words.loading/txtloadoptions/trailingspacesoptions) { get; set; } | الحصول على أو تعيين الخيار المفضل لمعالجة مساحة زائدة ._ x000d_ القيمة الافتراضية هيTrim . |
-| [UpdateDirtyFields](../../aspose.words.loading/loadoptions/updatedirtyfields) { get; set; } | يحدد ما إذا كان سيتم تحديث الحقول بامتداد`متسخ` السمة ._ x000d_ |
+| [TrailingSpacesOptions](../../aspose.words.loading/txtloadoptions/trailingspacesoptions) { get; set; } | الحصول على أو تعيين الخيار المفضل لمعالجة مساحة زائدة . القيمة الافتراضية هيTrim . |
+| [UpdateDirtyFields](../../aspose.words.loading/loadoptions/updatedirtyfields) { get; set; } | يحدد ما إذا كان سيتم تحديث الحقول بامتداد`متسخ` السمة . |
 | [WarningCallback](../../aspose.words.loading/loadoptions/warningcallback) { get; set; } | تم الاستدعاء أثناء عملية التحميل ، عند اكتشاف مشكلة قد تؤدي إلى فقدان دقة البيانات أو التنسيق. |
 
 ### أنظر أيضا

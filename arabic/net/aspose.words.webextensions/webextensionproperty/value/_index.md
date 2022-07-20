@@ -1,14 +1,14 @@
 ---
 title: Value
 second_title: Aspose.Words لمراجع .NET API
-description: تحديد قيمة خاصية مخصصة ._ x000d_
+description: تحديد قيمة خاصية مخصصة .
 type: docs
 weight: 30
 url: /ar/net/aspose.words.webextensions/webextensionproperty/value/
 ---
 ## WebExtensionProperty.Value property
 
-تحديد قيمة خاصية مخصصة ._ x000d_
+تحديد قيمة خاصية مخصصة .
 
 ```csharp
 public string Value { get; set; }

@@ -16,7 +16,7 @@ public void UpdateListLabels()
 
 ### ملاحظات
 
-تقوم هذه الطريقة بتحديث خصائص تسمية القائمة مثل[`LabelValue`](../../../aspose.words.lists/listlabel/labelvalue) و_ x000d_[`LabelString`](../../../aspose.words.lists/listlabel/labelstring)لكل[`ListLabel`](../../paragraph/listlabel) كائن في المستند.
+تقوم هذه الطريقة بتحديث خصائص تسمية القائمة مثل[`LabelValue`](../../../aspose.words.lists/listlabel/labelvalue) و_ [`LabelString`](../../../aspose.words.lists/listlabel/labelstring)لكل[`ListLabel`](../../paragraph/listlabel) كائن في المستند.
 
 أيضًا ، يتم أحيانًا استدعاء هذه الطريقة ضمنيًا عند تحديث الحقول في المستند. هذا required لأن بعض الحقول التي قد تشير إلى أرقام القائمة (مثل TOC أو REF) تحتاج إلى أن تكون محدثة.
 

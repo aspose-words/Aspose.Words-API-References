@@ -1,14 +1,14 @@
 ---
 title: NodeChangingArgs
 second_title: Aspose.Words لمراجع .NET API
-description: توفير بيانات لأساليب ملفINodeChangingCallback./inodechangingcallback الواجهة ._ x000d_
+description: توفير بيانات لأساليب ملفINodeChangingCallback./inodechangingcallback الواجهة .
 type: docs
 weight: 3950
 url: /ar/net/aspose.words/nodechangingargs/
 ---
 ## NodeChangingArgs class
 
-توفير بيانات لأساليب ملف[`INodeChangingCallback`](../inodechangingcallback) الواجهة ._ x000d_
+توفير بيانات لأساليب ملف[`INodeChangingCallback`](../inodechangingcallback) الواجهة .
 
 ```csharp
 public class NodeChangingArgs

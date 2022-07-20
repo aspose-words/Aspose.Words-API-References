@@ -10,7 +10,7 @@ url: /ar/net/aspose.words.loading/rtfloadoptions/recognizeutf8text/
 
 عند التعيين على صواب ،CharsetDetectorسيحاول اكتشاف أحرف UTF8 ، سيتم الاحتفاظ بها أثناء الاستيراد.
 
-القيمة الافتراضية خاطئة ._ x000d_
+القيمة الافتراضية خاطئة .
 
 ```csharp
 public bool RecognizeUtf8Text { get; set; }

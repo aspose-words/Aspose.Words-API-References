@@ -1,14 +1,14 @@
 ---
 title: ShowLeaderLines
 second_title: Aspose.Words لمراجع .NET API
-description: يسمح بتحديد ما إذا كانت هناك حاجة لإظهار الخطوط البادئة لتسمية البيانات. القيمة الافتراضية خاطئة ._ x000d_
+description: يسمح بتحديد ما إذا كانت هناك حاجة لإظهار الخطوط البادئة لتسمية البيانات. القيمة الافتراضية خاطئة .
 type: docs
 weight: 90
 url: /ar/net/aspose.words.drawing.charts/chartdatalabel/showleaderlines/
 ---
 ## ChartDataLabel.ShowLeaderLines property
 
-يسمح بتحديد ما إذا كانت هناك حاجة لإظهار الخطوط البادئة لتسمية البيانات. القيمة الافتراضية خاطئة ._ x000d_
+يسمح بتحديد ما إذا كانت هناك حاجة لإظهار الخطوط البادئة لتسمية البيانات. القيمة الافتراضية خاطئة .
 
 ```csharp
 public bool ShowLeaderLines { get; set; }

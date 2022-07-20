@@ -515,7 +515,7 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromFilename.docx");
 
 ## InsertImage(Stream, double, double) {#insertimage_8}
 
-إدراج صورة مضمنة من دفق في المستند وقياسها إلى الحجم المحدد ._ x000d_
+إدراج صورة مضمنة من دفق في المستند وقياسها إلى الحجم المحدد .
 
 ```csharp
 public Shape InsertImage(Stream stream, double width, double height)
@@ -676,7 +676,7 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromByteArrayNetStanda
 
 ## InsertImage(Image, RelativeHorizontalPosition, double, RelativeVerticalPosition, double, double, double, WrapType) {#insertimage_4}
 
-لإدراج صورة من .NETImage كائن في الموضع والحجم المحددين ._ x000d_
+لإدراج صورة من .NETImage كائن في الموضع والحجم المحددين .
 
 ```csharp
 public Shape InsertImage(Image image, RelativeHorizontalPosition horzPos, double left, 

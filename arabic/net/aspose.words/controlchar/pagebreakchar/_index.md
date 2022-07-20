@@ -1,14 +1,14 @@
 ---
 title: PageBreakChar
 second_title: Aspose.Words لمراجع .NET API
-description: حرف فاصل الصفحة char 12 أو  f ._ x000d_
+description: حرف فاصل الصفحة char 12 أو  f .
 type: docs
 weight: 210
 url: /ar/net/aspose.words/controlchar/pagebreakchar/
 ---
 ## ControlChar.PageBreakChar field
 
-حرف فاصل الصفحة: (char) 12 أو "\ f" ._ x000d_
+حرف فاصل الصفحة: (char) 12 أو "\ f" .
 
 ```csharp
 public const char PageBreakChar;

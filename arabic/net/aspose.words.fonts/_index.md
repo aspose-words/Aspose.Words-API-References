@@ -1,12 +1,12 @@
 ---
 title: Aspose.Words.Fonts
 second_title: Aspose.Words لمراجع .NET API
-description: ال Aspose.Words.Fonts توفر مساحة الاسم فئات وتعدادات للوصول إلى معلومات حول_ x000d_ الخطوط المستخدمة في المستند.
+description: ال Aspose.Words.Fonts توفر مساحة الاسم فئات وتعدادات للوصول إلى معلومات حول الخطوط المستخدمة في المستند.
 type: docs
 weight: 90
 url: /ar/net/aspose.words.fonts/
 ---
-ال **Aspose.Words.Fonts** توفر مساحة الاسم فئات وتعدادات للوصول إلى معلومات حول_ x000d_ الخطوط المستخدمة في المستند.
+ال **Aspose.Words.Fonts** توفر مساحة الاسم فئات وتعدادات للوصول إلى معلومات حول الخطوط المستخدمة في المستند.
 
 ## الطبقات
 
@@ -15,13 +15,13 @@ url: /ar/net/aspose.words.fonts/
 | [DefaultFontSubstitutionRule](./defaultfontsubstitutionrule) | قاعدة استبدال الخط الافتراضي. |
 | [FileFontSource](./filefontsource) | يمثل ملف خط TrueType الفردي المخزن في نظام الملفات. |
 | [FolderFontSource](./folderfontsource) | يمثل المجلد الذي يحتوي على ملفات خط TrueType. |
-| [FontConfigSubstitutionRule](./fontconfigsubstitutionrule) | قاعدة استبدال تكوين الخط ._ x000d_ |
-| [FontFallbackSettings](./fontfallbacksettings) | يحدد إعدادات آلية الرجوع للخط ._ x000d_ |
+| [FontConfigSubstitutionRule](./fontconfigsubstitutionrule) | قاعدة استبدال تكوين الخط . |
+| [FontFallbackSettings](./fontfallbacksettings) | يحدد إعدادات آلية الرجوع للخط . |
 | [FontInfo](./fontinfo) | يحدد معلومات حول الخط المستخدم في الوثيقة. |
 | [FontInfoCollection](./fontinfocollection) | يمثل مجموعة من الخطوط المستخدمة في المستند. |
-| [FontInfoSubstitutionRule](./fontinfosubstitutionrule) | قاعدة استبدال معلومات الخط ._ x000d_ |
+| [FontInfoSubstitutionRule](./fontinfosubstitutionrule) | قاعدة استبدال معلومات الخط . |
 | [FontNameSubstitutionRule](./fontnamesubstitutionrule) | قاعدة استبدال الخط لمعالجة اسم الخط. |
-| [FontSettings](./fontsettings) | يحدد إعدادات الخط لمستند ._ x000d_ |
+| [FontSettings](./fontsettings) | يحدد إعدادات الخط لمستند . |
 | [FontSourceBase](./fontsourcebase) | هذه فئة أساسية مجردة للفئات التي تسمح للمستخدم بتحديد مصادر خطوط مختلفة. |
 | [FontSubstitutionRule](./fontsubstitutionrule) | هذه فئة أساسية مجردة لقاعدة استبدال الخط. |
 | [FontSubstitutionSettings](./fontsubstitutionsettings) | يحدد إعدادات آلية استبدال الخط. |
@@ -29,14 +29,14 @@ url: /ar/net/aspose.words.fonts/
 | [PhysicalFontInfo](./physicalfontinfo) | يحدد معلومات حول الخط المادي المتاح لمحرك خطوط Aspose.Words. |
 | [StreamFontSource](./streamfontsource) | الفئة الأساسية لمصدر خط التدفق المحدد من قبل المستخدم. |
 | [SystemFontSource](./systemfontsource) | يمثل جميع خطوط TrueType المثبتة على النظام. |
-| [TableSubstitutionRule](./tablesubstitutionrule) | قاعدة استبدال خط الجدول ._ x000d_ |
+| [TableSubstitutionRule](./tablesubstitutionrule) | قاعدة استبدال خط الجدول . |
 ## تعداد
 
 | تعداد | وصف |
 | --- | --- |
 | [EmbeddedFontFormat](./embeddedfontformat) | يحدد تنسيق خط مضمن بالداخل[`FontInfo`](../aspose.words.fonts/fontinfo) هدف. |
-| [EmbeddedFontStyle](./embeddedfontstyle) | يحدد نمط الخط المضمن داخل ملف[`FontInfo`](../aspose.words.fonts/fontinfo) الكائن ._ x000d_ |
-| [FontFamily](./fontfamily) | يمثل عائلة الخطوط ._ x000d_ |
+| [EmbeddedFontStyle](./embeddedfontstyle) | يحدد نمط الخط المضمن داخل ملف[`FontInfo`](../aspose.words.fonts/fontinfo) الكائن . |
+| [FontFamily](./fontfamily) | يمثل عائلة الخطوط . |
 | [FontPitch](./fontpitch) | يمثل درجة الخط. |
 | [FontSourceType](./fontsourcetype) | يحدد نوع مصدر الخط. |
 

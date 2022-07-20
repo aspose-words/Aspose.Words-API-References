@@ -1,14 +1,14 @@
 ---
 title: CommentCollection
 second_title: Aspose.Words لمراجع .NET API
-description: يوفر وصولاً مكتوبًا إلى مجموعة منComment./comment العقد ._ x000d_
+description: يوفر وصولاً مكتوبًا إلى مجموعة منComment./comment العقد .
 type: docs
 weight: 230
 url: /ar/net/aspose.words/commentcollection/
 ---
 ## CommentCollection class
 
-يوفر وصولاً مكتوبًا إلى مجموعة من[`Comment`](../comment) العقد ._ x000d_
+يوفر وصولاً مكتوبًا إلى مجموعة من[`Comment`](../comment) العقد .
 
 ```csharp
 public class CommentCollection : NodeCollection

@@ -18,7 +18,7 @@ public string TextInputDefault { get; set; }
 
 معنى هذه الخاصية يعتمد على قيمة[`TextInputType`](../textinputtype) منشأه.
 
-متي[`TextInputType`](../textinputtype) هوRegular أو x000d_Number، تحدد هذه السلسلة السلسلة الافتراضية لحقل نموذج النص ._ x000d_ هذه السلسلة هي المحتوى الذي سيعرضه Microsoft Word في المستند عندما يكون حقل النموذج فارغًا.
+متي[`TextInputType`](../textinputtype) هوRegular أو Number، تحدد هذه السلسلة السلسلة الافتراضية لحقل نموذج النص . هذه السلسلة هي المحتوى الذي سيعرضه Microsoft Word في المستند عندما يكون حقل النموذج فارغًا.
 
 متي[`TextInputType`](../textinputtype) هوCalculated، فهذه السلسلة تحمل التعبير المراد حسابه. يجب أن يكون التعبير صيغة صالحة وفقًا لمتطلبات صيغة Microsoft Word field . عند تعيين تعبير جديد باستخدام هذه الخاصية ، تقوم Aspose.Words بحساب الصيغة result تلقائيًا وإدراجها في حقل النموذج.
 

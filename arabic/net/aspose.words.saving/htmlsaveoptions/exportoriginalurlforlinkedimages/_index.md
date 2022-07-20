@@ -16,9 +16,9 @@ public bool ExportOriginalUrlForLinkedImages { get; set; }
 
 ### ملاحظات
 
-إذا تم تعيين القيمة على`حقيقي`[`SourceFullName`](../../../aspose.words.drawing/imagedata/sourcefullname) يتم استخدام القيمة used حيث لا يتم تحميل عنوان URL للصور المرتبطة والصور المرتبطة في مجلد المستند_ x000d_ أو[`ImagesFolder`](../imagesfolder).
+إذا تم تعيين القيمة على`حقيقي`[`SourceFullName`](../../../aspose.words.drawing/imagedata/sourcefullname) يتم استخدام القيمة used حيث لا يتم تحميل عنوان URL للصور المرتبطة والصور المرتبطة في مجلد المستند أو[`ImagesFolder`](../imagesfolder).
 
-إذا تم تعيين القيمة على`خاطئة` يتم تحميل الصور المرتبطة في مجلد المستند_ x000d_ أو[`ImagesFolder`](../imagesfolder) وعنوان URL لكل صورة مرتبطة يتم إنشاؤه اعتمادًا على في مجلد المستند ،[`ImagesFolder`](../imagesfolder) و[`ImagesFolderAlias`](../imagesfolderalias) الخصائص.
+إذا تم تعيين القيمة على`خاطئة` يتم تحميل الصور المرتبطة في مجلد المستند أو[`ImagesFolder`](../imagesfolder) وعنوان URL لكل صورة مرتبطة يتم إنشاؤه اعتمادًا على في مجلد المستند ،[`ImagesFolder`](../imagesfolder) و[`ImagesFolderAlias`](../imagesfolderalias) الخصائص.
 
 ### أمثلة
 

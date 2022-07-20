@@ -25,7 +25,7 @@ public class CustomXmlPropertyCollection : IEnumerable<CustomXmlProperty>
 
 | اسم | وصف |
 | --- | --- |
-| [Add](../../aspose.words.markup/customxmlpropertycollection/add)(CustomXmlProperty) | إضافة خاصية للمجموعة ._ x000d_ |
+| [Add](../../aspose.words.markup/customxmlpropertycollection/add)(CustomXmlProperty) | إضافة خاصية للمجموعة . |
 | [Clear](../../aspose.words.markup/customxmlpropertycollection/clear)() | يزيل كل العناصر من المجموعة. |
 | [Contains](../../aspose.words.markup/customxmlpropertycollection/contains)(string) | لتحديد ما إذا كانت المجموعة تحتوي على خاصية بالاسم المحدد. |
 | [GetEnumerator](../../aspose.words.markup/customxmlpropertycollection/getenumerator)() | إرجاع كائن العداد الذي يمكن استخدامه للتكرار على كافة العناصر في المجموعة. |

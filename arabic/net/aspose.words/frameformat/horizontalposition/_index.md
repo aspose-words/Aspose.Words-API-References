@@ -1,14 +1,14 @@
 ---
 title: HorizontalPosition
 second_title: Aspose.Words لمراجع .NET API
-description: يحصل على مسافة أفقية بين حافة الإطار والعنصر المحدد بواسطةRelativeHorizontalPositionaspose.words/frameformat/relativehorizontalposition الملكية ._ x000d_
+description: يحصل على مسافة أفقية بين حافة الإطار والعنصر المحدد بواسطةRelativeHorizontalPositionaspose.words/frameformat/relativehorizontalposition الملكية .
 type: docs
 weight: 50
 url: /ar/net/aspose.words/frameformat/horizontalposition/
 ---
 ## FrameFormat.HorizontalPosition property
 
-يحصل على مسافة أفقية بين حافة الإطار والعنصر المحدد بواسطة[`RelativeHorizontalPosition`](../relativehorizontalposition) الملكية ._ x000d_
+يحصل على مسافة أفقية بين حافة الإطار والعنصر المحدد بواسطة[`RelativeHorizontalPosition`](../relativehorizontalposition) الملكية .
 
 ```csharp
 public double HorizontalPosition { get; }

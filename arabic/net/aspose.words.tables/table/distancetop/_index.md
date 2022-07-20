@@ -1,14 +1,14 @@
 ---
 title: DistanceTop
 second_title: Aspose.Words لمراجع .NET API
-description: تحصل على المسافة بين سطح الجدول والنص المحيط بالنقاط ._ x000d_
+description: تحصل على المسافة بين سطح الجدول والنص المحيط بالنقاط .
 type: docs
 weight: 150
 url: /ar/net/aspose.words.tables/table/distancetop/
 ---
 ## Table.DistanceTop property
 
-تحصل على المسافة بين سطح الجدول والنص المحيط بالنقاط ._ x000d_
+تحصل على المسافة بين سطح الجدول والنص المحيط بالنقاط .
 
 ```csharp
 public double DistanceTop { get; }

@@ -1,14 +1,14 @@
 ---
 title: LineNumberRestartMode
 second_title: Aspose.Words لمراجع .NET API
-description: الحصول على طريقة تشغيل ترقيم الأسطر أو تعيينها  سواء كانت تبدأ من جديد في بداية صفحة أو قسم جديد_ x000d أو يتم تشغيلها بشكل مستمر.
+description: الحصول على طريقة تشغيل ترقيم الأسطر أو تعيينها  سواء كانت تبدأ من جديد في بداية صفحة أو قسم جديد أو يتم تشغيلها بشكل مستمر.
 type: docs
 weight: 230
 url: /ar/net/aspose.words/pagesetup/linenumberrestartmode/
 ---
 ## PageSetup.LineNumberRestartMode property
 
-الحصول على طريقة تشغيل ترقيم الأسطر أو تعيينها ، سواء كانت تبدأ من جديد في بداية صفحة أو قسم جديد_ x000d أو يتم تشغيلها بشكل مستمر.
+الحصول على طريقة تشغيل ترقيم الأسطر أو تعيينها ، سواء كانت تبدأ من جديد في بداية صفحة أو قسم جديد أو يتم تشغيلها بشكل مستمر.
 
 ```csharp
 public LineNumberRestartMode LineNumberRestartMode { get; set; }

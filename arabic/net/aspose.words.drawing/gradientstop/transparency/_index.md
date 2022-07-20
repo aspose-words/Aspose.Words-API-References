@@ -1,14 +1,14 @@
 ---
 title: Transparency
 second_title: Aspose.Words لمراجع .NET API
-description: الحصول على أو تعيين قيمة تمثل شفافية التعبئة المتدرجة_ x000d_ معبراً عنها كنسبة مئوية في النطاق من 0.0 إلى 1.0 .
+description: الحصول على أو تعيين قيمة تمثل شفافية التعبئة المتدرجة معبراً عنها كنسبة مئوية في النطاق من 0.0 إلى 1.0 .
 type: docs
 weight: 40
 url: /ar/net/aspose.words.drawing/gradientstop/transparency/
 ---
 ## GradientStop.Transparency property
 
-الحصول على أو تعيين قيمة تمثل شفافية التعبئة المتدرجة_ x000d_ معبراً عنها كنسبة مئوية في النطاق من 0.0 إلى 1.0 .
+الحصول على أو تعيين قيمة تمثل شفافية التعبئة المتدرجة معبراً عنها كنسبة مئوية في النطاق من 0.0 إلى 1.0 .
 
 ```csharp
 public double Transparency { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: DefaultCategories
 second_title: Aspose.Words لمراجع .NET API
-description: الحصول على الجدول الافتراضي لفئات المصادر ._ x000d_
+description: الحصول على الجدول الافتراضي لفئات المصادر .
 type: docs
 weight: 20
 url: /ar/net/aspose.words.fields/toacategories/defaultcategories/
 ---
 ## ToaCategories.DefaultCategories property
 
-الحصول على الجدول الافتراضي لفئات المصادر ._ x000d_
+الحصول على الجدول الافتراضي لفئات المصادر .
 
 ```csharp
 public static ToaCategories DefaultCategories { get; }

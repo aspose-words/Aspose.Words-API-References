@@ -18,7 +18,7 @@ public static class BuildVersionInfo
 
 | اسم | وصف |
 | --- | --- |
-| static [Product](../../aspose.words/buildversioninfo/product) { get; } | الحصول على الاسم الكامل للمنتج ._ x000d_ |
+| static [Product](../../aspose.words/buildversioninfo/product) { get; } | الحصول على الاسم الكامل للمنتج . |
 | static [Version](../../aspose.words/buildversioninfo/version) { get; } | الحصول على إصدار المنتج. |
 
 ### أمثلة

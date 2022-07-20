@@ -1,14 +1,14 @@
 ---
 title: ShowBreaksInFrames
 second_title: Aspose.Words لمراجع .NET API
-description: عرض فواصل الصفحة / الأعمدة في الإطارات ._ x000d_
+description: عرض فواصل الصفحة / الأعمدة في الإطارات .
 type: docs
 weight: 430
 url: /ar/net/aspose.words.settings/compatibilityoptions/showbreaksinframes/
 ---
 ## CompatibilityOptions.ShowBreaksInFrames property
 
-عرض فواصل الصفحة / الأعمدة في الإطارات ._ x000d_
+عرض فواصل الصفحة / الأعمدة في الإطارات .
 
 ```csharp
 public bool ShowBreaksInFrames { get; set; }

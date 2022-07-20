@@ -1,14 +1,14 @@
 ---
 title: CustomPartCollection
 second_title: Aspose.Words لمراجع .NET API
-description: يمثل مجموعة منCustomPart./custompart الكائنات ._ x000d_
+description: يمثل مجموعة منCustomPart./custompart الكائنات .
 type: docs
 weight: 3670
 url: /ar/net/aspose.words.markup/custompartcollection/
 ---
 ## CustomPartCollection class
 
-يمثل مجموعة من[`CustomPart`](../custompart) الكائنات ._ x000d_
+يمثل مجموعة من[`CustomPart`](../custompart) الكائنات .
 
 ```csharp
 public class CustomPartCollection : IEnumerable<CustomPart>

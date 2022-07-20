@@ -18,7 +18,7 @@ public interface IFieldDatabaseProvider
 
 | اسم | وصف |
 | --- | --- |
-| [GetQueryResult](../../aspose.words.fields/ifielddatabaseprovider/getqueryresult)(string, string, string, FieldDatabase) | إرجاع نتيجة الاستعلام ._ x000d_ |
+| [GetQueryResult](../../aspose.words.fields/ifielddatabaseprovider/getqueryresult)(string, string, string, FieldDatabase) | إرجاع نتيجة الاستعلام . |
 
 ### أنظر أيضا
 

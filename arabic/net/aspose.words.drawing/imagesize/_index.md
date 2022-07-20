@@ -1,14 +1,14 @@
 ---
 title: ImageSize
 second_title: Aspose.Words لمراجع .NET API
-description: يحتوي على معلومات حول حجم الصورة ودقتها ._ x000d_
+description: يحتوي على معلومات حول حجم الصورة ودقتها .
 type: docs
 weight: 940
 url: /ar/net/aspose.words.drawing/imagesize/
 ---
 ## ImageSize class
 
-يحتوي على معلومات حول حجم الصورة ودقتها ._ x000d_
+يحتوي على معلومات حول حجم الصورة ودقتها .
 
 ```csharp
 public class ImageSize
@@ -18,19 +18,19 @@ public class ImageSize
 
 | اسم | وصف |
 | --- | --- |
-| [ImageSize](imagesize#constructor)(int, int) | يقوم بتهيئة العرض والارتفاع للقيم المحددة بالبكسل. يقوم بتهيئة الدقة إلى 96 نقطة في البوصة. _ x000d_ |
+| [ImageSize](imagesize#constructor)(int, int) | يقوم بتهيئة العرض والارتفاع للقيم المحددة بالبكسل. يقوم بتهيئة الدقة إلى 96 نقطة في البوصة. _ |
 | [ImageSize](imagesize#constructor_1)(int, int, double, double) | يقوم بتهيئة العرض والارتفاع والدقة للقيم المحددة. |
 
 ## الخصائص
 
 | اسم | وصف |
 | --- | --- |
-| [HeightPixels](../../aspose.words.drawing/imagesize/heightpixels) { get; } | الحصول على ارتفاع الصورة بالبكسل ._ x000d_ |
-| [HeightPoints](../../aspose.words.drawing/imagesize/heightpoints) { get; } | يحصل على ارتفاع الصورة بالنقاط. 1 نقطة 1/72 بوصة. _ x000d_ |
+| [HeightPixels](../../aspose.words.drawing/imagesize/heightpixels) { get; } | الحصول على ارتفاع الصورة بالبكسل . |
+| [HeightPoints](../../aspose.words.drawing/imagesize/heightpoints) { get; } | يحصل على ارتفاع الصورة بالنقاط. 1 نقطة 1/72 بوصة. |
 | [HorizontalResolution](../../aspose.words.drawing/imagesize/horizontalresolution) { get; } | الحصول على الدقة الأفقية في DPI. |
 | [VerticalResolution](../../aspose.words.drawing/imagesize/verticalresolution) { get; } | الحصول على الدقة الرأسية في DPI. |
 | [WidthPixels](../../aspose.words.drawing/imagesize/widthpixels) { get; } | يحصل على عرض الصورة بالبكسل. |
-| [WidthPoints](../../aspose.words.drawing/imagesize/widthpoints) { get; } | يحصل على عرض الصورة بالنقاط. 1 نقطة 1/72 بوصة. _ x000d_ |
+| [WidthPoints](../../aspose.words.drawing/imagesize/widthpoints) { get; } | يحصل على عرض الصورة بالنقاط. 1 نقطة 1/72 بوصة. |
 
 ### أمثلة
 

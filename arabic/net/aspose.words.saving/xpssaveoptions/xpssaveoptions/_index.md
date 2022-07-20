@@ -1,14 +1,14 @@
 ---
 title: XpsSaveOptions
 second_title: Aspose.Words لمراجع .NET API
-description: تهيئة مثيل جديد من هذه الفئة يمكن استخدامه لحفظ document فيXps التنسيق ._ x000d_
+description: تهيئة مثيل جديد من هذه الفئة يمكن استخدامه لحفظ document فيXps التنسيق .
 type: docs
 weight: 10
 url: /ar/net/aspose.words.saving/xpssaveoptions/xpssaveoptions/
 ---
 ## XpsSaveOptions() {#constructor}
 
-تهيئة مثيل جديد من هذه الفئة يمكن استخدامه لحفظ document فيXps التنسيق ._ x000d_
+تهيئة مثيل جديد من هذه الفئة يمكن استخدامه لحفظ document فيXps التنسيق .
 
 ```csharp
 public XpsSaveOptions()
@@ -64,7 +64,7 @@ doc.Save(ArtifactsDir + "XpsSaveOptions.OutlineLevels.xps", saveOptions);
 
 ## XpsSaveOptions(SaveFormat) {#constructor_1}
 
-تهيئة مثيل جديد من هذه الفئة يمكن استخدامه لحفظ document فيXps أوOpenXps التنسيق ._ x000d_
+تهيئة مثيل جديد من هذه الفئة يمكن استخدامه لحفظ document فيXps أوOpenXps التنسيق .
 
 ```csharp
 public XpsSaveOptions(SaveFormat saveFormat)

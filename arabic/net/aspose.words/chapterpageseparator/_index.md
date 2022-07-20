@@ -22,7 +22,7 @@ public enum ChapterPageSeparator
 | Period | `1` | فترة . |
 | Colon | `2` | نقطتان . |
 | EmDash | `3` | شرطة بارزة . |
-| EnDash | `4` | شرطة قياسية ._ x000d_ |
+| EnDash | `4` | شرطة قياسية . |
 
 ### أنظر أيضا
 

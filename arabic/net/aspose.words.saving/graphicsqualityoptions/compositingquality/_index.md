@@ -1,14 +1,14 @@
 ---
 title: CompositingQuality
 second_title: Aspose.Words لمراجع .NET API
-description: الحصول على جودة عرض الصور المركبة المرسومة إلى هذه الرسومات أو تعيينها ._ x000d_
+description: الحصول على جودة عرض الصور المركبة المرسومة إلى هذه الرسومات أو تعيينها .
 type: docs
 weight: 30
 url: /ar/net/aspose.words.saving/graphicsqualityoptions/compositingquality/
 ---
 ## GraphicsQualityOptions.CompositingQuality property
 
-الحصول على جودة عرض الصور المركبة المرسومة إلى هذه الرسومات أو تعيينها ._ x000d_
+الحصول على جودة عرض الصور المركبة المرسومة إلى هذه الرسومات أو تعيينها .
 
 ```csharp
 public CompositingQuality? CompositingQuality { get; set; }

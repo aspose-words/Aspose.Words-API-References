@@ -1,14 +1,14 @@
 ---
 title: DistanceRight
 second_title: Aspose.Words لمراجع .NET API
-description: تحصل على المسافة بين الجدول الأيمن والنص المحيط بالنقاط ._ x000d_
+description: تحصل على المسافة بين الجدول الأيمن والنص المحيط بالنقاط .
 type: docs
 weight: 140
 url: /ar/net/aspose.words.tables/table/distanceright/
 ---
 ## Table.DistanceRight property
 
-تحصل على المسافة بين الجدول الأيمن والنص المحيط بالنقاط ._ x000d_
+تحصل على المسافة بين الجدول الأيمن والنص المحيط بالنقاط .
 
 ```csharp
 public double DistanceRight { get; }

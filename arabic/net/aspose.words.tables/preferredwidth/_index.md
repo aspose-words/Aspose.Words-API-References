@@ -19,7 +19,7 @@ public sealed class PreferredWidth
 | اسم | وصف |
 | --- | --- |
 | [Type](../../aspose.words.tables/preferredwidth/type) { get; } | الحصول على وحدة القياس المستخدمة لقيمة العرض المفضلة هذه. |
-| [Value](../../aspose.words.tables/preferredwidth/value) { get; } | الحصول على قيمة العرض المفضلة. يتم تحديد وحدة القياس في[`Type`](./type) الملكية ._ x000d_ |
+| [Value](../../aspose.words.tables/preferredwidth/value) { get; } | الحصول على قيمة العرض المفضلة. يتم تحديد وحدة القياس في[`Type`](./type) الملكية . |
 
 ## طُرق
 

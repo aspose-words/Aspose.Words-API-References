@@ -1,14 +1,14 @@
 ---
 title: Bookmark
 second_title: Aspose.Words لمراجع .NET API
-description: يمثل إشارة مرجعية واحدة ._ x000d_
+description: يمثل إشارة مرجعية واحدة .
 type: docs
 weight: 30
 url: /ar/net/aspose.words/bookmark/
 ---
 ## Bookmark class
 
-يمثل إشارة مرجعية واحدة ._ x000d_
+يمثل إشارة مرجعية واحدة .
 
 ```csharp
 public class Bookmark
@@ -18,7 +18,7 @@ public class Bookmark
 
 | اسم | وصف |
 | --- | --- |
-| [BookmarkEnd](../../aspose.words/bookmark/bookmarkend) { get; } | يحصل على العقدة التي تمثل نهاية الإشارة المرجعية ._ x000d_ |
+| [BookmarkEnd](../../aspose.words/bookmark/bookmarkend) { get; } | يحصل على العقدة التي تمثل نهاية الإشارة المرجعية . |
 | [BookmarkStart](../../aspose.words/bookmark/bookmarkstart) { get; } | يحصل على العقدة التي تمثل بداية الإشارة المرجعية. |
 | [FirstColumn](../../aspose.words/bookmark/firstcolumn) { get; } | الحصول على الفهرس الصفري للعمود الأول من نطاق عمود الجدول المرتبط بالإشارة المرجعية. |
 | [IsColumn](../../aspose.words/bookmark/iscolumn) { get; } | عوائد **حقيقي** إذا كانت هذه الإشارة المرجعية عبارة عن إشارة مرجعية لعمود الجدول. |
@@ -30,7 +30,7 @@ public class Bookmark
 
 | اسم | وصف |
 | --- | --- |
-| [Remove](../../aspose.words/bookmark/remove)() | يزيل الإشارة المرجعية من الوثيقة. لا يزيل النص الموجود داخل الإشارة المرجعية ._ x000d_ |
+| [Remove](../../aspose.words/bookmark/remove)() | يزيل الإشارة المرجعية من الوثيقة. لا يزيل النص الموجود داخل الإشارة المرجعية . |
 
 ### ملاحظات
 

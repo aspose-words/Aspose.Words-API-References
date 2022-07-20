@@ -1,14 +1,14 @@
 ---
 title: WrapTrailSpaces
 second_title: Aspose.Words لمراجع .NET API
-description: مسافات زائدة لفاف الأسطر ._ x000d_
+description: مسافات زائدة لفاف الأسطر .
 type: docs
 weight: 710
 url: /ar/net/aspose.words.settings/compatibilityoptions/wraptrailspaces/
 ---
 ## CompatibilityOptions.WrapTrailSpaces property
 
-مسافات زائدة لفاف الأسطر ._ x000d_
+مسافات زائدة لفاف الأسطر .
 
 ```csharp
 public bool WrapTrailSpaces { get; set; }

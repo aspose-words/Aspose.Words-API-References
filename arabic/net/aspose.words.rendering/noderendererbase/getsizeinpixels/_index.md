@@ -1,14 +1,14 @@
 ---
 title: GetSizeInPixels
 second_title: Aspose.Words لمراجع .NET API
-description: حساب حجم الشكل بالبكسل لعامل تكبير ودقة محددين ._ x000d_
+description: حساب حجم الشكل بالبكسل لعامل تكبير ودقة محددين .
 type: docs
 weight: 60
 url: /ar/net/aspose.words.rendering/noderendererbase/getsizeinpixels/
 ---
 ## GetSizeInPixels(float, float) {#getsizeinpixels}
 
-حساب حجم الشكل بالبكسل لعامل تكبير ودقة محددين ._ x000d_
+حساب حجم الشكل بالبكسل لعامل تكبير ودقة محددين .
 
 ```csharp
 public Size GetSizeInPixels(float scale, float dpi)
@@ -25,7 +25,7 @@ public Size GetSizeInPixels(float scale, float dpi)
 
 ### ملاحظات
 
-هذه الطريقة تحول[`SizeInPoints`](../sizeinpoints) إلى حجم بالبكسل ويكون من المفيد_ x000d_ عندما تريد إنشاء صورة نقطية لعرض الشكل بدقة على الصورة النقطية.
+هذه الطريقة تحول[`SizeInPoints`](../sizeinpoints) إلى حجم بالبكسل ويكون من المفيد عندما تريد إنشاء صورة نقطية لعرض الشكل بدقة على الصورة النقطية.
 
 ### أمثلة
 
@@ -81,7 +81,7 @@ Assert.AreEqual(30, bounds.Height);
 
 ## GetSizeInPixels(float, float, float) {#getsizeinpixels_1}
 
-حساب حجم الشكل بالبكسل لعامل تكبير ودقة محددين ._ x000d_
+حساب حجم الشكل بالبكسل لعامل تكبير ودقة محددين .
 
 ```csharp
 public Size GetSizeInPixels(float scale, float horizontalDpi, float verticalDpi)
@@ -99,7 +99,7 @@ public Size GetSizeInPixels(float scale, float horizontalDpi, float verticalDpi)
 
 ### ملاحظات
 
-هذه الطريقة تحول[`SizeInPoints`](../sizeinpoints) إلى حجم بالبكسل ويكون من المفيد_ x000d_ عندما تريد إنشاء صورة نقطية لعرض الشكل بدقة على الصورة النقطية.
+هذه الطريقة تحول[`SizeInPoints`](../sizeinpoints) إلى حجم بالبكسل ويكون من المفيد عندما تريد إنشاء صورة نقطية لعرض الشكل بدقة على الصورة النقطية.
 
 ### أمثلة
 

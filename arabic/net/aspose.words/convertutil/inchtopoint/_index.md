@@ -1,14 +1,14 @@
 ---
 title: InchToPoint
 second_title: Aspose.Words لمراجع .NET API
-description: تحويل بوصة إلى نقاط ._ x000d_
+description: تحويل بوصة إلى نقاط .
 type: docs
 weight: 10
 url: /ar/net/aspose.words/convertutil/inchtopoint/
 ---
 ## ConvertUtil.InchToPoint method
 
-تحويل بوصة إلى نقاط ._ x000d_
+تحويل بوصة إلى نقاط .
 
 ```csharp
 public static double InchToPoint(double inches)
@@ -20,7 +20,7 @@ public static double InchToPoint(double inches)
 
 ### ملاحظات
 
-1 بوصة تساوي 72 نقطة ._ x000d_
+1 بوصة تساوي 72 نقطة .
 
 ### أمثلة
 

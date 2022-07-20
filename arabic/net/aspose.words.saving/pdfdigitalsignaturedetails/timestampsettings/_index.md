@@ -16,7 +16,7 @@ public PdfDigitalSignatureTimestampSettings TimestampSettings { get; set; }
 
 ### ملاحظات
 
-القيمة الافتراضية خالية ولن يكون التوقيع الرقمي مختومًا بالوقت ._ x000d_ عند تعيين هذه الخاصية على قيمة صالحة[`PdfDigitalSignatureTimestampSettings`](../../pdfdigitalsignaturetimestampsettings) الكائن ، ثم التوقيع الرقمي في مستند PDF سيكون مختومًا بالوقت.
+القيمة الافتراضية خالية ولن يكون التوقيع الرقمي مختومًا بالوقت . عند تعيين هذه الخاصية على قيمة صالحة[`PdfDigitalSignatureTimestampSettings`](../../pdfdigitalsignaturetimestampsettings) الكائن ، ثم التوقيع الرقمي في مستند PDF سيكون مختومًا بالوقت.
 
 ### أمثلة
 

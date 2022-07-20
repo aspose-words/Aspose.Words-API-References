@@ -1,14 +1,14 @@
 ---
 title: ColorMode
 second_title: Aspose.Words لمراجع .NET API
-description: يحدد كيفية عرض الألوان ._ x000d_
+description: يحدد كيفية عرض الألوان .
 type: docs
 weight: 4600
 url: /ar/net/aspose.words.saving/colormode/
 ---
 ## ColorMode enumeration
 
-يحدد كيفية عرض الألوان ._ x000d_
+يحدد كيفية عرض الألوان .
 
 ```csharp
 public enum ColorMode

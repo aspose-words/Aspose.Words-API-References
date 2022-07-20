@@ -1,14 +1,14 @@
 ---
 title: ComparisonOperator
 second_title: Aspose.Words لمراجع .NET API
-description: يحصل على عامل المقارنة ._ x000d_
+description: يحصل على عامل المقارنة .
 type: docs
 weight: 10
 url: /ar/net/aspose.words.fields/comparisonexpression/comparisonoperator/
 ---
 ## ComparisonExpression.ComparisonOperator property
 
-يحصل على عامل المقارنة ._ x000d_
+يحصل على عامل المقارنة .
 
 ```csharp
 public string ComparisonOperator { get; }

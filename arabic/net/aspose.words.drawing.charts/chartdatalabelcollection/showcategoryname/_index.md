@@ -16,7 +16,7 @@ public bool ShowCategoryName { get; set; }
 
 ### ملاحظات
 
-يمكن تجاوز القيمة المحددة لهذه الخاصية لتسمية بيانات فردية باستخدام the [`ShowCategoryName`](../../chartdatalabel/showcategoryname) الملكية ._ x000d_
+يمكن تجاوز القيمة المحددة لهذه الخاصية لتسمية بيانات فردية باستخدام the [`ShowCategoryName`](../../chartdatalabel/showcategoryname) الملكية .
 
 ### أمثلة
 

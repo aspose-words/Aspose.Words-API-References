@@ -1,14 +1,14 @@
 ---
 title: Value
 second_title: Aspose.Words لمراجع .NET API
-description: القيمة ._ x000d_
+description: القيمة .
 type: docs
 weight: 30
 url: /ar/net/aspose.words.fields/mergefieldimagedimension/value/
 ---
 ## MergeFieldImageDimension.Value property
 
-القيمة ._ x000d_
+القيمة .
 
 ```csharp
 public double Value { get; set; }
@@ -16,7 +16,7 @@ public double Value { get; set; }
 
 ### ملاحظات
 
-يجب استخدام قيمة سالبة للإشارة إلى وجوب تطبيق القيمة الأصلية لأبعاد الصورة المقابلة_ x000d_ .
+يجب استخدام قيمة سالبة للإشارة إلى وجوب تطبيق القيمة الأصلية لأبعاد الصورة المقابلة .
 
 ### أمثلة
 

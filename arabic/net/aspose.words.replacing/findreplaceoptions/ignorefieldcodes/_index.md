@@ -1,14 +1,14 @@
 ---
 title: IgnoreFieldCodes
 second_title: Aspose.Words لمراجع .NET API
-description: الحصول على أو تعيين قيمة منطقية تشير إما إلى تجاهل النص داخل رموز الحقول ._ x000d_ القيمة الافتراضية هيخاطئة .
+description: الحصول على أو تعيين قيمة منطقية تشير إما إلى تجاهل النص داخل رموز الحقول . القيمة الافتراضية هيخاطئة .
 type: docs
 weight: 70
 url: /ar/net/aspose.words.replacing/findreplaceoptions/ignorefieldcodes/
 ---
 ## FindReplaceOptions.IgnoreFieldCodes property
 
-الحصول على أو تعيين قيمة منطقية تشير إما إلى تجاهل النص داخل رموز الحقول ._ x000d_ القيمة الافتراضية هي`خاطئة` .
+الحصول على أو تعيين قيمة منطقية تشير إما إلى تجاهل النص داخل رموز الحقول . القيمة الافتراضية هي`خاطئة` .
 
 ```csharp
 public bool IgnoreFieldCodes { get; set; }

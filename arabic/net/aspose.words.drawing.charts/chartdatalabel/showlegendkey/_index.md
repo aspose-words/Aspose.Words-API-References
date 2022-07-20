@@ -1,14 +1,14 @@
 ---
 title: ShowLegendKey
 second_title: Aspose.Words لمراجع .NET API
-description: يسمح بتحديد ما إذا كان سيتم عرض مفتاح وسيلة الإيضاح لتسميات البيانات على الرسم البياني. القيمة الافتراضية خاطئة ._ x000d_
+description: يسمح بتحديد ما إذا كان سيتم عرض مفتاح وسيلة الإيضاح لتسميات البيانات على الرسم البياني. القيمة الافتراضية خاطئة .
 type: docs
 weight: 100
 url: /ar/net/aspose.words.drawing.charts/chartdatalabel/showlegendkey/
 ---
 ## ChartDataLabel.ShowLegendKey property
 
-يسمح بتحديد ما إذا كان سيتم عرض مفتاح وسيلة الإيضاح لتسميات البيانات على الرسم البياني. القيمة الافتراضية خاطئة ._ x000d_
+يسمح بتحديد ما إذا كان سيتم عرض مفتاح وسيلة الإيضاح لتسميات البيانات على الرسم البياني. القيمة الافتراضية خاطئة .
 
 ```csharp
 public bool ShowLegendKey { get; set; }

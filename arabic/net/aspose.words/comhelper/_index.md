@@ -24,8 +24,8 @@ public class ComHelper
 
 | اسم | وصف |
 | --- | --- |
-| [Open](../../aspose.words/comhelper/open#open)(Stream) | يسمح بتحميل تطبيق COM[`Document`](../document) من تيار ._ x000d_ |
-| [Open](../../aspose.words/comhelper/open#open_1)(string) | يسمح لتطبيق COM بتحميل ملف[`Document`](../document) من ملف ._ x000d_ |
+| [Open](../../aspose.words/comhelper/open#open)(Stream) | يسمح بتحميل تطبيق COM[`Document`](../document) من تيار . |
+| [Open](../../aspose.words/comhelper/open#open_1)(string) | يسمح لتطبيق COM بتحميل ملف[`Document`](../document) من ملف . |
 | [OpenIStream](../../aspose.words/comhelper/openistream)(IStream) | يسمح لتطبيق COM بتحميل ملف[`Document`](../document) من كائن IStream . |
 
 ### ملاحظات

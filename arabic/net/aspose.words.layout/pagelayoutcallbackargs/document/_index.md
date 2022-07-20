@@ -1,14 +1,14 @@
 ---
 title: Document
 second_title: Aspose.Words لمراجع .NET API
-description: يحصل على المستند. _ x000d_
+description: يحصل على المستند.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.layout/pagelayoutcallbackargs/document/
 ---
 ## PageLayoutCallbackArgs.Document property
 
-يحصل على المستند. _ x000d_
+يحصل على المستند.
 
 ```csharp
 public Document Document { get; }

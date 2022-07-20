@@ -1,14 +1,14 @@
 ---
 title: GroupIndex
 second_title: Aspose.Words لمراجع .NET API
-description: يحدد  عن طريق الفهرس  مجموعة تم التقاطها في ملفMatchaspose.words.replacing/replacingargs/match الذي سيتم استبداله بامتدادReplacementaspose.words.replacing/replacingargs/replacement السلسلة ._ x000d_
+description: يحدد  عن طريق الفهرس  مجموعة تم التقاطها في ملفMatchaspose.words.replacing/replacingargs/match الذي سيتم استبداله بامتدادReplacementaspose.words.replacing/replacingargs/replacement السلسلة .
 type: docs
 weight: 10
 url: /ar/net/aspose.words.replacing/replacingargs/groupindex/
 ---
 ## ReplacingArgs.GroupIndex property
 
-يحدد ، عن طريق الفهرس ، مجموعة تم التقاطها في ملف[`Match`](../match) الذي سيتم استبداله بامتداد[`Replacement`](../replacement) السلسلة ._ x000d_
+يحدد ، عن طريق الفهرس ، مجموعة تم التقاطها في ملف[`Match`](../match) الذي سيتم استبداله بامتداد[`Replacement`](../replacement) السلسلة .
 
 ```csharp
 public int GroupIndex { get; set; }

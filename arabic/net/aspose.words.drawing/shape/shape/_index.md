@@ -1,14 +1,14 @@
 ---
 title: Shape
 second_title: Aspose.Words لمراجع .NET API
-description: إنشاء كائن شكل جديد ._ x000d_
+description: إنشاء كائن شكل جديد .
 type: docs
 weight: 10
 url: /ar/net/aspose.words.drawing/shape/shape/
 ---
 ## Shape constructor
 
-إنشاء كائن شكل جديد ._ x000d_
+إنشاء كائن شكل جديد .
 
 ```csharp
 public Shape(DocumentBase doc, ShapeType shapeType)

@@ -1,14 +1,14 @@
 ---
 title: Options
 second_title: Aspose.Words لمراجع .NET API
-description: الحصول على أو تعيين مجموعة من العلامات التي تتحكم في سلوك هذاReportingEngineaspose.words.reporting/reportingengine مثيل أثناء إنشاء تقرير ._ x000d_
+description: الحصول على أو تعيين مجموعة من العلامات التي تتحكم في سلوك هذاReportingEngineaspose.words.reporting/reportingengine مثيل أثناء إنشاء تقرير .
 type: docs
 weight: 30
 url: /ar/net/aspose.words.reporting/reportingengine/options/
 ---
 ## ReportingEngine.Options property
 
-الحصول على أو تعيين مجموعة من العلامات التي تتحكم في سلوك هذا[`ReportingEngine`](../../reportingengine) مثيل أثناء إنشاء تقرير ._ x000d_
+الحصول على أو تعيين مجموعة من العلامات التي تتحكم في سلوك هذا[`ReportingEngine`](../../reportingengine) مثيل أثناء إنشاء تقرير .
 
 ```csharp
 public ReportBuildOptions Options { get; set; }

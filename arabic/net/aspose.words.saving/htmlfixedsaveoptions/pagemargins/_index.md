@@ -1,14 +1,14 @@
 ---
 title: PageMargins
 second_title: Aspose.Words لمراجع .NET API
-description: يحدد الهوامش حول الصفحات في مستند HTML. تقاس قيمة الهوامش بالنقاط ويجب أن تكون مساوية لـ 0 أو أكبر منها ._ x000d_ القيمة الافتراضية هي 10 نقاط ._ x000d_
+description: يحدد الهوامش حول الصفحات في مستند HTML. تقاس قيمة الهوامش بالنقاط ويجب أن تكون مساوية لـ 0 أو أكبر منها . القيمة الافتراضية هي 10 نقاط .
 type: docs
 weight: 120
 url: /ar/net/aspose.words.saving/htmlfixedsaveoptions/pagemargins/
 ---
 ## HtmlFixedSaveOptions.PageMargins property
 
-يحدد الهوامش حول الصفحات في مستند HTML. تقاس قيمة الهوامش بالنقاط ويجب أن تكون مساوية لـ 0 أو أكبر منها ._ x000d_ القيمة الافتراضية هي 10 نقاط ._ x000d_
+يحدد الهوامش حول الصفحات في مستند HTML. تقاس قيمة الهوامش بالنقاط ويجب أن تكون مساوية لـ 0 أو أكبر منها . القيمة الافتراضية هي 10 نقاط .
 
 ```csharp
 public double PageMargins { get; set; }

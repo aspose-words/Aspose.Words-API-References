@@ -1,14 +1,14 @@
 ---
 title: Right
 second_title: Aspose.Words لمراجع .NET API
-description: يحصل على الحد الصحيح ._ x000d_
+description: يحصل على الحد الصحيح .
 type: docs
 weight: 100
 url: /ar/net/aspose.words/bordercollection/right/
 ---
 ## BorderCollection.Right property
 
-يحصل على الحد الصحيح ._ x000d_
+يحصل على الحد الصحيح .
 
 ```csharp
 public Border Right { get; }

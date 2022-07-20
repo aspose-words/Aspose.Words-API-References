@@ -1,14 +1,14 @@
 ---
 title: LineBreak
 second_title: Aspose.Words لمراجع .NET API
-description: حرف فاصل الأسطر  x000b أو  v ._ x000d_
+description: حرف فاصل الأسطر  x000b أو  v .
 type: docs
 weight: 120
 url: /ar/net/aspose.words/controlchar/linebreak/
 ---
 ## ControlChar.LineBreak field
 
-حرف فاصل الأسطر: "\ x000b" أو "\ v" ._ x000d_
+حرف فاصل الأسطر: "\ x000b" أو "\ v" .
 
 ```csharp
 public static readonly string LineBreak;

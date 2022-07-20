@@ -18,8 +18,8 @@ public abstract string LibId { get; }
 
 اعتمادًا على نوع المرجع ، يمكن أن تكون قيمة هذه الخاصية:
 
-* (أ) LibidReference المحدد في 2.1.1.8 LibidReference لـ [MS-OVBA]: _ x000d_ https://docs.microsoft.com/en-us/openspecs/office_file_formats/ms-ovba/3737ef6e-d819-4186-a5f2-6e258ddf66a5
-* a ProjectReference المحدد في 2.1.1.12 ProjectReference لـ [MS-OVBA]: _ x000d_ https://docs.microsoft.com/en-us/openspecs/office_file_formats/ms-ovba/9a45ac1a-f1ff-4ebd-958e-537701aa8131
+* (أ) LibidReference المحدد في 2.1.1.8 LibidReference لـ [MS-OVBA]: _ https://docs.microsoft.com/en-us/openspecs/office_file_formats/ms-ovba/3737ef6e-d819-4186-a5f2-6e258ddf66a5
+* a ProjectReference المحدد في 2.1.1.12 ProjectReference لـ [MS-OVBA]: _ https://docs.microsoft.com/en-us/openspecs/office_file_formats/ms-ovba/9a45ac1a-f1ff-4ebd-958e-537701aa8131
 
 ### أمثلة
 

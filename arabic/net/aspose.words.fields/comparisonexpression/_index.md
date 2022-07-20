@@ -1,14 +1,14 @@
 ---
 title: ComparisonExpression
 second_title: Aspose.Words لمراجع .NET API
-description: تعبير المقارنة ._ x000d_
+description: تعبير المقارنة .
 type: docs
 weight: 1340
 url: /ar/net/aspose.words.fields/comparisonexpression/
 ---
 ## ComparisonExpression class
 
-تعبير المقارنة ._ x000d_
+تعبير المقارنة .
 
 ```csharp
 public sealed class ComparisonExpression
@@ -18,9 +18,9 @@ public sealed class ComparisonExpression
 
 | اسم | وصف |
 | --- | --- |
-| [ComparisonOperator](../../aspose.words.fields/comparisonexpression/comparisonoperator) { get; } | يحصل على عامل المقارنة ._ x000d_ |
-| [LeftExpression](../../aspose.words.fields/comparisonexpression/leftexpression) { get; } | يحصل على التعبير الأيسر ._ x000d_ |
-| [RightExpression](../../aspose.words.fields/comparisonexpression/rightexpression) { get; } | الحصول على التعبير الصحيح ._ x000d_ |
+| [ComparisonOperator](../../aspose.words.fields/comparisonexpression/comparisonoperator) { get; } | يحصل على عامل المقارنة . |
+| [LeftExpression](../../aspose.words.fields/comparisonexpression/leftexpression) { get; } | يحصل على التعبير الأيسر . |
+| [RightExpression](../../aspose.words.fields/comparisonexpression/rightexpression) { get; } | الحصول على التعبير الصحيح . |
 
 ### أمثلة
 

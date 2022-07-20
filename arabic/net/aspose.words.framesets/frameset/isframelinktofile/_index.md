@@ -1,14 +1,14 @@
 ---
 title: IsFrameLinkToFile
 second_title: Aspose.Words لمراجع .NET API
-description: الحصول على أو تعيين قيمة تشير إلى ما إذا كانت صفحة الويب أو اسم ملف المستند المحدد في FrameDefaultUrlaspose.words.framesets/frameset/framedefaulturl الخاصية هي مورد خارجي يرتبط به الإطار ._ x000d_
+description: الحصول على أو تعيين قيمة تشير إلى ما إذا كانت صفحة الويب أو اسم ملف المستند المحدد في FrameDefaultUrlaspose.words.framesets/frameset/framedefaulturl الخاصية هي مورد خارجي يرتبط به الإطار .
 type: docs
 weight: 40
 url: /ar/net/aspose.words.framesets/frameset/isframelinktofile/
 ---
 ## Frameset.IsFrameLinkToFile property
 
-الحصول على أو تعيين قيمة تشير إلى ما إذا كانت صفحة الويب أو اسم ملف المستند المحدد في [`FrameDefaultUrl`](../framedefaulturl) الخاصية هي مورد خارجي يرتبط به الإطار ._ x000d_
+الحصول على أو تعيين قيمة تشير إلى ما إذا كانت صفحة الويب أو اسم ملف المستند المحدد في [`FrameDefaultUrl`](../framedefaulturl) الخاصية هي مورد خارجي يرتبط به الإطار .
 
 ```csharp
 public bool IsFrameLinkToFile { get; set; }

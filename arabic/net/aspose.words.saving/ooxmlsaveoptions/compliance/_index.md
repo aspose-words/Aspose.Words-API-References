@@ -1,14 +1,14 @@
 ---
 title: Compliance
 second_title: Aspose.Words لمراجع .NET API
-description: يحدد إصدار OOXML لمستند الإخراج ._ x000d_ القيمة الافتراضية هيEcma376_2006 .
+description: يحدد إصدار OOXML لمستند الإخراج . القيمة الافتراضية هيEcma376_2006 .
 type: docs
 weight: 20
 url: /ar/net/aspose.words.saving/ooxmlsaveoptions/compliance/
 ---
 ## OoxmlSaveOptions.Compliance property
 
-يحدد إصدار OOXML لمستند الإخراج ._ x000d_ القيمة الافتراضية هيEcma376_2006 .
+يحدد إصدار OOXML لمستند الإخراج . القيمة الافتراضية هيEcma376_2006 .
 
 ```csharp
 public OoxmlCompliance Compliance { get; set; }

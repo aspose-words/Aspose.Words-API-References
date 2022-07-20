@@ -1,14 +1,14 @@
 ---
 title: TableCollection
 second_title: Aspose.Words لمراجع .NET API
-description: يوفر وصولاً مكتوبًا إلى مجموعة منTable./table العقد ._ x000d_
+description: يوفر وصولاً مكتوبًا إلى مجموعة منTable./table العقد .
 type: docs
 weight: 6060
 url: /ar/net/aspose.words.tables/tablecollection/
 ---
 ## TableCollection class
 
-يوفر وصولاً مكتوبًا إلى مجموعة من[`Table`](../table) العقد ._ x000d_
+يوفر وصولاً مكتوبًا إلى مجموعة من[`Table`](../table) العقد .
 
 ```csharp
 public class TableCollection : NodeCollection

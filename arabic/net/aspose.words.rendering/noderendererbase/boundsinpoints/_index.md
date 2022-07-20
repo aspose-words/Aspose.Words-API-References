@@ -1,14 +1,14 @@
 ---
 title: BoundsInPoints
 second_title: Aspose.Words لمراجع .NET API
-description: يحصل على الحدود الفعلية للشكل بالنقاط ._ x000d_
+description: يحصل على الحدود الفعلية للشكل بالنقاط .
 type: docs
 weight: 10
 url: /ar/net/aspose.words.rendering/noderendererbase/boundsinpoints/
 ---
 ## NodeRendererBase.BoundsInPoints property
 
-يحصل على الحدود الفعلية للشكل بالنقاط ._ x000d_
+يحصل على الحدود الفعلية للشكل بالنقاط .
 
 ```csharp
 public RectangleF BoundsInPoints { get; }

@@ -1,14 +1,14 @@
 ---
 title: Frameset
 second_title: Aspose.Words لمراجع .NET API
-description: يمثل صفحة إطارات أو إطارًا واحدًا على صفحة إطارات ._ x000d_
+description: يمثل صفحة إطارات أو إطارًا واحدًا على صفحة إطارات .
 type: docs
 weight: 2900
 url: /ar/net/aspose.words.framesets/frameset/
 ---
 ## Frameset class
 
-يمثل صفحة إطارات أو إطارًا واحدًا على صفحة إطارات ._ x000d_
+يمثل صفحة إطارات أو إطارًا واحدًا على صفحة إطارات .
 
 ```csharp
 public class Frameset
@@ -26,7 +26,7 @@ public class Frameset
 | --- | --- |
 | [ChildFramesets](../../aspose.words.framesets/frameset/childframesets) { get; } | الحصول على مجموعة من الإطارات التابعة وصفحات الإطارات. |
 | [FrameDefaultUrl](../../aspose.words.framesets/frameset/framedefaulturl) { get; set; } | الحصول على أو تحديد عنوان URL لصفحة الويب أو اسم ملف المستند ليتم عرضه في هذا الإطار. |
-| [IsFrameLinkToFile](../../aspose.words.framesets/frameset/isframelinktofile) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كانت صفحة الويب أو اسم ملف المستند المحدد في [`FrameDefaultUrl`](./framedefaulturl) الخاصية هي مورد خارجي يرتبط به الإطار ._ x000d_ |
+| [IsFrameLinkToFile](../../aspose.words.framesets/frameset/isframelinktofile) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كانت صفحة الويب أو اسم ملف المستند المحدد في [`FrameDefaultUrl`](./framedefaulturl) الخاصية هي مورد خارجي يرتبط به الإطار . |
 
 ### ملاحظات
 

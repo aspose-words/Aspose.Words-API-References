@@ -1,14 +1,14 @@
 ---
 title: BookmarkStart
 second_title: Aspose.Words لمراجع .NET API
-description: يقوم بتهيئة مثيل جديد لملفBookmarkStartaspose.words/bookmarkstart فئة ._ x000d_
+description: يقوم بتهيئة مثيل جديد لملفBookmarkStartaspose.words/bookmarkstart فئة .
 type: docs
 weight: 10
 url: /ar/net/aspose.words/bookmarkstart/bookmarkstart/
 ---
 ## BookmarkStart constructor
 
-يقوم بتهيئة مثيل جديد لملف[`BookmarkStart`](../../bookmarkstart) فئة ._ x000d_
+يقوم بتهيئة مثيل جديد لملف[`BookmarkStart`](../../bookmarkstart) فئة .
 
 ```csharp
 public BookmarkStart(DocumentBase doc, string name)

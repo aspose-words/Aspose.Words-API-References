@@ -1,14 +1,14 @@
 ---
 title: BarcodeType
 second_title: Aspose.Words لمراجع .NET API
-description: نوع الرمز الشريطي ._ x000d_
+description: نوع الرمز الشريطي .
 type: docs
 weight: 40
 url: /ar/net/aspose.words.fields/barcodeparameters/barcodetype/
 ---
 ## BarcodeParameters.BarcodeType property
 
-نوع الرمز الشريطي ._ x000d_
+نوع الرمز الشريطي .
 
 ```csharp
 public string BarcodeType { get; set; }

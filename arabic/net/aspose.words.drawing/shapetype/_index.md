@@ -19,7 +19,7 @@ public enum ShapeType
 | اسم | قيمة | وصف |
 | --- | --- | --- |
 | Image | `75` | الشكل عبارة عن صورة. |
-| TextBox | `202` | الشكل عبارة عن مربع نص. لاحظ أن الأشكال من العديد من الأنواع الأخرى يمكن أن تحتوي أيضًا على نص بداخلها أيضًا ._ x000d_ لا يجب أن يحتوي الشكل على هذا النوع ليحتوي على نص. |
+| TextBox | `202` | الشكل عبارة عن مربع نص. لاحظ أن الأشكال من العديد من الأنواع الأخرى يمكن أن تحتوي أيضًا على نص بداخلها أيضًا . لا يجب أن يحتوي الشكل على هذا النوع ليحتوي على نص. |
 | Group | `-1` | الشكل عبارة عن شكل مجموعة. |
 | OleObject | `-2` | الشكل عبارة عن كائن OLE . |
 | OleControl | `201` | الشكل عبارة عن عنصر تحكم ActiveX. |
@@ -122,7 +122,7 @@ public enum ShapeType
 | VerticalScroll | `97` |  |
 | HorizontalScroll | `98` |  |
 | CircularArrow | `99` |  |
-| CustomShape | `100` | يبدو أن نوع الشكل هذا قد تم تعيينه للأشكال التي ليست جزءًا من المجموعة القياسية لـ_ x000d_ الأشكال التلقائية في Microsoft Word. على سبيل المثال ، إذا قمت بإدراج شكل تلقائي جديد من ClipArt. |
+| CustomShape | `100` | يبدو أن نوع الشكل هذا قد تم تعيينه للأشكال التي ليست جزءًا من المجموعة القياسية لـ_ الأشكال التلقائية في Microsoft Word. على سبيل المثال ، إذا قمت بإدراج شكل تلقائي جديد من ClipArt. |
 | UturnArrow | `101` |  |
 | CurvedRightArrow | `102` |  |
 | CurvedLeftArrow | `103` |  |
@@ -223,36 +223,36 @@ public enum ShapeType
 | ActionButtonDocument | `198` |  |
 | ActionButtonSound | `199` |  |
 | ActionButtonMovie | `200` |  |
-| SingleCornerSnipped | `203` | قص كائن مستطيل ذو زاوية واحدة ._ x000d_ |
+| SingleCornerSnipped | `203` | قص كائن مستطيل ذو زاوية واحدة . |
 | TopCornersSnipped | `204` | قص مستطيل زاوية الجانب نفسه. |
-| DiagonalCornersSnipped | `205` | مستطيل ذو زاوية قطرية قص ._ x000d_ |
-| TopCornersOneRoundedOneSnipped | `206` | مستطيل ذو زاوية واحدة مقتصة ودائرية ._ x000d_ |
+| DiagonalCornersSnipped | `205` | مستطيل ذو زاوية قطرية قص . |
+| TopCornersOneRoundedOneSnipped | `206` | مستطيل ذو زاوية واحدة مقتصة ودائرية . |
 | SingleCornerRounded | `207` | مستطيل ذو زاوية واحدة مستديرة . |
 | TopCornersRounded | `208` | مستطيل ذو زاوية جانبية مستديرة. |
-| DiagonalCornersRounded | `209` | مستطيل ذو زاوية قطرية دائرية ._ x000d_ |
+| DiagonalCornersRounded | `209` | مستطيل ذو زاوية قطرية دائرية . |
 | Heptagon | `210` | سباعي . |
 | Cloud | `211` | سحابة . |
 | Seal6 | `212` | نجمة سداسية . |
 | Seal7 | `213` | نجمة ذات سبع نقاط . |
 | Seal10 | `214` | نجمة ذات عشر نقاط . |
-| Seal12 | `215` | نجمة اثني عشر ._ x000d_ |
+| Seal12 | `215` | نجمة اثني عشر . |
 | SwooshArrow | `216` | سهم Swoosh . |
 | Teardrop | `217` | دمعة . |
-| SquareTabs | `218` | علامات تبويب مربعة. x000d_ |
-| PlaqueTabs | `219` | علامات تبويب البلاك. _ x000d_ |
+| SquareTabs | `218` | علامات تبويب مربعة. |
+| PlaqueTabs | `219` | علامات تبويب البلاك. |
 | Pie | `220` | فطيرة . |
-| WedgePie | `221` | فطيرة الوتد ._ x000d_ |
+| WedgePie | `221` | فطيرة الوتد . |
 | InverseLine | `222` | خط معكوس . |
 | MathPlus | `223` | الرياضيات زائد . |
 | MathMinus | `224` | رياضيات ناقص . |
 | MathMultiply | `225` | ضرب الرياضيات . |
-| MathDivide | `226` | قسم الرياضيات ._ x000d_ |
+| MathDivide | `226` | قسم الرياضيات . |
 | MathEqual | `227` | رياضيات متساوية . |
 | MathNotEqual | `228` | الرياضيات لا تساوي. |
 | NonIsoscelesTrapezoid | `229` | شبه منحرف غير متساوي الساقين. |
 | LeftRightCircularArrow | `230` | سهم دائري من اليسار إلى اليمين. |
-| LeftRightRibbon | `231` | شريط من اليسار إلى اليمين ._ x000d_ |
-| LeftCircularArrow | `232` | سهم دائري أيسر ._ x000d_ |
+| LeftRightRibbon | `231` | شريط من اليسار إلى اليمين . |
+| LeftCircularArrow | `232` | سهم دائري أيسر . |
 | Frame | `233` | إطار . |
 | HalfFrame | `234` | نصف إطار . |
 | Funnel | `235` | قمع . |
@@ -260,14 +260,14 @@ public enum ShapeType
 | Gear9 | `237` | معدات تسع أسنان . |
 | Decagon | `238` | عشري . |
 | Dodecagon | `239` | Dodecagon. |
-| DiagonalStripe | `240` | شريط قطري ._ x000d_ |
+| DiagonalStripe | `240` | شريط قطري . |
 | Corner | `241` | ركن . |
-| CornerTabs | `242` | علامات تبويب الزاوية. _ x000d_ |
-| Chord | `243` | وتر. _ x000d_ |
+| CornerTabs | `242` | علامات تبويب الزاوية. |
+| Chord | `243` | وتر. |
 | ChartPlus | `244` | مخطط زائد . |
-| ChartStar | `245` | نجمة المخطط ._ x000d_ |
+| ChartStar | `245` | نجمة المخطط . |
 | ChartX | `246` | الرسم البياني X. |
-| MinValue | `-2` | محجوزة لاستخدام النظام ._ x000d_ |
+| MinValue | `-2` | محجوزة لاستخدام النظام . |
 
 ### أمثلة
 

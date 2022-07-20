@@ -1,14 +1,14 @@
 ---
 title: BorderType
 second_title: Aspose.Words لمراجع .NET API
-description: تحديد جوانب الحد ._ x000d_
+description: تحديد جوانب الحد .
 type: docs
 weight: 90
 url: /ar/net/aspose.words/bordertype/
 ---
 ## BorderType enumeration
 
-تحديد جوانب الحد ._ x000d_
+تحديد جوانب الحد .
 
 ```csharp
 public enum BorderType
@@ -18,7 +18,7 @@ public enum BorderType
 
 | اسم | قيمة | وصف |
 | --- | --- | --- |
-| None | `-1` | القيمة الافتراضية ._ x000d_ |
+| None | `-1` | القيمة الافتراضية . |
 | Bottom | `0` | تحديد الحد السفلي للفقرة أو خلية الجدول. |
 | Left | `1` | تحديد الحد الأيسر للفقرة أو خلية الجدول. |
 | Right | `2` | تحديد الحد الأيمن للفقرة أو خلية الجدول. |

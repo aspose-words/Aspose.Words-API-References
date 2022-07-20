@@ -1,14 +1,14 @@
 ---
 title: ParentSection
 second_title: Aspose.Words لمراجع .NET API
-description: استرداد الأصلSectionaspose.words/section من الفقرة ._ x000d_
+description: استرداد الأصلSectionaspose.words/section من الفقرة .
 type: docs
 weight: 200
 url: /ar/net/aspose.words/paragraph/parentsection/
 ---
 ## Paragraph.ParentSection property
 
-استرداد الأصل[`Section`](../../section) من الفقرة ._ x000d_
+استرداد الأصل[`Section`](../../section) من الفقرة .
 
 ```csharp
 public Section ParentSection { get; }
