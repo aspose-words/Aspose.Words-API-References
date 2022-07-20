@@ -1,14 +1,14 @@
 ---
 title: Name
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置该部分在 OOXML 包或目标 URL 中的绝对名称
+description: 获取或设置此部分在 OOXML 包或目标 URL 中的绝对名称
 type: docs
 weight: 50
 url: /zh/net/aspose.words.markup/custompart/name/
 ---
 ## CustomPart.Name property
 
-获取或设置该部分在 OOXML 包或目标 URL 中的绝对名称。
+获取或设置此部分在 OOXML 包或目标 URL 中的绝对名称。
 
 ```csharp
 public string Name { get; set; }
@@ -16,13 +16,13 @@ public string Name { get; set; }
 
 ### 评论
 
-如果关系目标是内部的，则此属性是包内的绝对部件名称。 如果关系目标是外部的，那么这个属性就是目标 URL。
+如果关系目标是内部的，则此属性是包内的绝对部件名称。 如果关系目标是外部的，则此属性是目标 URL。
 
 默认值为空字符串。有效值必须是非空字符串。
 
 ### 例子
 
-显示如何访问文档的任意定制零件集合。
+显示如何访问文档的任意自定义部件集合。
 
 ```csharp
 Document doc = new Document(MyDir + "Custom parts OOXML package.docx");

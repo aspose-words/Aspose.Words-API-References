@@ -16,9 +16,9 @@ public bool Bidi { get; set; }
 
 ### 评论
 
-当 **true** 时，行中的单元格从右到左排列。
+什么时候 **真的**，行中的单元格从右到左排列。
 
-默认值为 **false** 。
+默认值为 **错误的**.
 
 ### 例子
 
@@ -53,7 +53,7 @@ tableStyle.VerticalAlignment = CellVerticalAlignment.Center;
 
 table.Style = tableStyle;
 
- // 设置表格的样式属性可能会影响表格本身的属性
+// 设置表格的样式属性可能会影响表格本身的属性。
 Assert.True(table.Bidi);
 Assert.AreEqual(5.0d, table.CellSpacing);
 Assert.AreEqual("MyTableStyle1", table.StyleName);

@@ -3,7 +3,7 @@ title: ShapeType
 second_title: Aspose.Words for .NET API 参考
 description: 指定 Microsoft Word 文档中的形状类型
 type: docs
-weight: 1120
+weight: 1140
 url: /zh/net/aspose.words.drawing/shapetype/
 ---
 ## ShapeType enumeration
@@ -23,7 +23,7 @@ public enum ShapeType
 | Group | `-1` | 形状是组形状。 |
 | OleObject | `-2` | 形状是一个 OLE 对象。 |
 | OleControl | `201` | 形状是一个 ActiveX 控件。 |
-| NonPrimitive | `0` | 由用户绘制并由多个段和/或顶点（曲线、自由形式或涂鸦）组成的形状。 |
+| NonPrimitive | `0` | 由用户绘制并由多个线段和/或顶点（曲线、自由形式或涂鸦）组成的形状。 |
 | Rectangle | `1` |  |
 | RoundRectangle | `2` |  |
 | Ellipse | `3` |  |
@@ -122,7 +122,7 @@ public enum ShapeType
 | VerticalScroll | `97` |  |
 | HorizontalScroll | `98` |  |
 | CircularArrow | `99` |  |
-| CustomShape | `100` | 此形状类型似乎是为不属于 Microsoft Word 中 自动形状的标准集的形状设置的。例如，如果您从剪贴画插入一个新的自动形状。 |
+| CustomShape | `100` | 此形状类型似乎是为不属于 Microsoft Word 中的 自动形状标准集的形状设置的。例如，如果您从 ClipArt. 插入一个新的自动形状 |
 | UturnArrow | `101` |  |
 | CurvedRightArrow | `102` |  |
 | CurvedLeftArrow | `103` |  |
@@ -223,88 +223,74 @@ public enum ShapeType
 | ActionButtonDocument | `198` |  |
 | ActionButtonSound | `199` |  |
 | ActionButtonMovie | `200` |  |
-| SingleCornerSnipped | `203` | 剪断单角矩形对象。 |
-| TopCornersSnipped | `204` | 剪断相同的边角矩形。 |
+| SingleCornerSnipped | `203` | 剪切单个角矩形对象。 |
+| TopCornersSnipped | `204` | 剪下相同的边角矩形。 |
 | DiagonalCornersSnipped | `205` | 剪断对角矩形。 |
-| TopCornersOneRoundedOneSnipped | `206` | 剪切和圆化单角矩形。 |
+| TopCornersOneRoundedOneSnipped | `206` | 剪切和圆角单角矩形。 |
 | SingleCornerRounded | `207` | 圆形单角矩形。 |
-| TopCornersRounded | `208` | 圆同边角矩形。 |
+| TopCornersRounded | `208` | 圆形同边角矩形。 |
 | DiagonalCornersRounded | `209` | 圆形对角矩形。 |
-| Heptagon | `210` | 七边形。 |
-| Cloud | `211` | 云。 |
+| Heptagon | `210` | 七边形. |
+| Cloud | `211` | 云. |
 | Seal6 | `212` | 六角星。 |
 | Seal7 | `213` | 七角星。 |
 | Seal10 | `214` | 十角星。 |
 | Seal12 | `215` | 十二角星。 |
 | SwooshArrow | `216` | 旋风箭头。 |
-| Teardrop | `217` | 泪珠。 |
+| Teardrop | `217` | 泪珠. |
 | SquareTabs | `218` | 方形制表符。 |
 | PlaqueTabs | `219` | 斑块标签。 |
-| Pie | `220` | 馅饼。 |
-| WedgePie | `221` | 楔形派。 |
+| Pie | `220` | 馅饼. |
+| WedgePie | `221` | 楔形馅饼。 |
 | InverseLine | `222` | 反转线。 |
 | MathPlus | `223` | 数学加。 |
 | MathMinus | `224` | 数学减号。 |
 | MathMultiply | `225` | 数学乘法。 |
 | MathDivide | `226` | 数学除法。 |
 | MathEqual | `227` | 数学相等。 |
-| MathNotEqual | `228` | 数学不相等。 |
-| NonIsoscelesTrapezoid | `229` | 非等腰梯形。 |
+| MathNotEqual | `228` | 数学不等。 |
+| NonIsoscelesTrapezoid | `229` | 非等腰梯形. |
 | LeftRightCircularArrow | `230` | 左右圆形箭头。 |
 | LeftRightRibbon | `231` | 左右色带。 |
 | LeftCircularArrow | `232` | 左圆形箭头。 |
-| Frame | `233` | 帧。 |
+| Frame | `233` | 帧. |
 | HalfFrame | `234` | 半帧。 |
-| Funnel | `235` | 漏斗。 |
-| Gear6 | `236` | 六齿齿轮。 |
-| Gear9 | `237` | 九齿齿轮。 |
-| Decagon | `238` | 十边形。 |
-| Dodecagon | `239` | 十二边形。 |
-| DiagonalStripe | `240` | 斜条纹。 |
-| Corner | `241` | 角。 |
+| Funnel | `235` | 漏斗. |
+| Gear6 | `236` | 六齿齿轮. |
+| Gear9 | `237` | 九齿齿轮. |
+| Decagon | `238` | 十边形. |
+| Dodecagon | `239` | 十二边形. |
+| DiagonalStripe | `240` | 斜条纹. |
+| Corner | `241` | 角落. |
 | CornerTabs | `242` | 角落标签。 |
-| Chord | `243` | 和弦。 |
-| ChartPlus | `244` | 图表加。 |
+| Chord | `243` | 和弦. |
+| ChartPlus | `244` | 图表加号。 |
 | ChartStar | `245` | 图表星。 |
 | ChartX | `246` | 图表 X. |
 | MinValue | `-2` | 保留给系统使用。 |
 
 ### 例子
 
-显示如何插入带有图像从本地文件系统转换为文档。
+演示如何将带有图像的形状从本地文件系统插入到文档中。
 
 ```csharp
 Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
 
-builder.InsertShape(ShapeType.Heptagon, RelativeHorizontalPosition.Page, 0,
-    RelativeVerticalPosition.Page, 0, 0, 0, WrapType.None);
+// “Shape”类的公共构造函数将创建一个带有“ShapeMarkupLanguage.Vml”标记类型的形状。
+// 如果需要创建非原始类型的形状，如 SingleCornerSnipped、TopCornersSnipped、DiagonalCornersSnipped、
+// TopCornersOneRoundedOneSnipped、SingleCornerRounded、TopCornersRounded 或 DiagonalCornersRounded,
+// 请使用 DocumentBuilder.InsertShape。
+Shape shape = new Shape(doc, ShapeType.Image);
+shape.ImageData.SetImage(ImageDir + "Windows MetaFile.wmf");
+shape.Width = 100;
+shape.Height = 100;
 
-builder.InsertShape(ShapeType.Cloud, RelativeHorizontalPosition.RightMargin, 0,
-    RelativeVerticalPosition.Page, 0, 0, 0, WrapType.None);
+doc.FirstSection.Body.FirstParagraph.AppendChild(shape);
 
-builder.InsertShape(ShapeType.MathPlus, RelativeHorizontalPosition.RightMargin, 0,
-    RelativeVerticalPosition.Page, 0, 0, 0, WrapType.None);
-
-// 要正确识别形状类型，您需要将形状用作 DML。
-OoxmlSaveOptions saveOptions = new OoxmlSaveOptions(SaveFormat.Docx)
-{
-    // “严格”或“过渡”合规性允许将形状保存为 DML。
-    Compliance = OoxmlCompliance.Iso29500_2008_Transitional
-};
-
-doc.Save(ArtifactsDir + "Shape.ShapeTypes.docx", saveOptions);
-doc = new Document(ArtifactsDir + "Shape.ShapeTypes.docx");
-
-Shape[] shapes = doc.GetChildNodes(NodeType.Shape, true).OfType<Shape>().ToArray();
-
-foreach (Shape shape in shapes)
-{
-    Console.WriteLine(shape.ShapeType);
-}
+doc.Save(ArtifactsDir + "Image.FromFile.docx");
 ```
 
-显示 Aspose.Words 如何识别形状。
+展示 Aspose.Words 如何识别形状。
 
 ```csharp
 Document doc = new Document();

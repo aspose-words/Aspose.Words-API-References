@@ -3,7 +3,7 @@ title: FieldMergeBarcode
 second_title: Справочник по API Aspose.Words для .NET
 description: Реализует поле MERGEBARCODE.
 type: docs
-weight: 1950
+weight: 1990
 url: /ru/net/aspose.words.fields/fieldmergebarcode/
 ---
 ## FieldMergeBarcode class
@@ -28,40 +28,40 @@ public class FieldMergeBarcode : Field
 | [BackgroundColor](../../aspose.words.fields/fieldmergebarcode/backgroundcolor) { get; set; } | Получает или задает цвет фона символа штрих-кода. Допустимые значения находятся в диапазоне [0, 0xFFFFFF] |
 | [BarcodeType](../../aspose.words.fields/fieldmergebarcode/barcodetype) { get; set; } | Получает или задает тип штрих-кода (QR и т. д.) |
 | [BarcodeValue](../../aspose.words.fields/fieldmergebarcode/barcodevalue) { get; set; } | Получает или задает значение штрих-кода. |
-| [CaseCodeStyle](../../aspose.words.fields/fieldmergebarcode/casecodestyle) { get; set; } | Получает или задает стиль Case Code для штрих-кода типа ITF14. Допустимые значения:[STD&#x7C;EXT&#x7C;ADD] |
+| [CaseCodeStyle](../../aspose.words.fields/fieldmergebarcode/casecodestyle) { get; set; } | Получает или задает стиль Case Code для штрих-кода типа ITF14. Допустимые значения: [STD&#x7C;EXT&#x7C;ADD] |
 | [DisplayResult](../../aspose.words.fields/field/displayresult) { get; } | Получает текст, представляющий результат отображаемого поля. |
 | [DisplayText](../../aspose.words.fields/fieldmergebarcode/displaytext) { get; set; } | Получает или задает, отображать ли данные штрих-кода (текст) вместе с изображением. |
 | [End](../../aspose.words.fields/field/end) { get; } | Получает узел, представляющий конец поля. |
-| [ErrorCorrectionLevel](../../aspose.words.fields/fieldmergebarcode/errorcorrectionlevel) { get; set; } | Получает или задает уровень исправления ошибок QR-кода. Допустимые значения:[0, 3]. |
-| [FixCheckDigit](../../aspose.words.fields/fieldmergebarcode/fixcheckdigit) { get; set; } | Получает или задает, следует ли исправлять контрольную цифру, если она недействительна. |
+| [ErrorCorrectionLevel](../../aspose.words.fields/fieldmergebarcode/errorcorrectionlevel) { get; set; } | Получает или задает уровень исправления ошибок QR-кода. Допустимые значения: [0, 3]. |
+| [FixCheckDigit](../../aspose.words.fields/fieldmergebarcode/fixcheckdigit) { get; set; } | Получает или задает, следует ли исправить контрольную цифру, если она недействительна. |
 | [ForegroundColor](../../aspose.words.fields/fieldmergebarcode/foregroundcolor) { get; set; } | Получает или задает основной цвет символа штрих-кода. Допустимые значения находятся в диапазоне [0, 0xFFFFFF] |
-| [Format](../../aspose.words.fields/field/format) { get; } | Получает объект[`FieldFormat`](../fieldformat), предоставляющий типизированный доступ к форматированию поля. |
-| [IsDirty](../../aspose.words.fields/field/isdirty) { get; set; } | Получает или устанавливает, является ли текущий результат поля более неправильным (устаревшим) из-за других изменений, внесенных в документ. |
-| [IsLocked](../../aspose.words.fields/field/islocked) { get; set; } | Получает или устанавливает, заблокировано ли поле (не должно пересчитывать его результат). |
+| [Format](../../aspose.words.fields/field/format) { get; } | Получает[`FieldFormat`](../fieldformat) объект, предоставляющий типизированный доступ к форматированию поля. |
+| [IsDirty](../../aspose.words.fields/field/isdirty) { get; set; } | Получает или устанавливает, является ли текущий результат поля более неверным (устаревшим) из-за других изменений, внесенных в документ. |
+| [IsLocked](../../aspose.words.fields/field/islocked) { get; set; } | Получает или задает, заблокировано ли поле (не следует пересчитывать его результат). |
 | [LocaleId](../../aspose.words.fields/field/localeid) { get; set; } | Получает или задает LCID поля. |
-| [PosCodeStyle](../../aspose.words.fields/fieldmergebarcode/poscodestyle) { get; set; } | Получает или задает стиль штрих-кода торговой точки (типы штрих-кода UPCA&#x7C;UPCE&#x7C;EAN13&#x7C;EAN8). Допустимые значения (без учета регистра):[STD&#x7C;SUP2&#x7C;SUP5&#x7C;CASE]. |
-| [Result](../../aspose.words.fields/field/result) { get; set; } | Получает или задает текст, который находится между разделителем полей и концом поля. |
-| [ScalingFactor](../../aspose.words.fields/fieldmergebarcode/scalingfactor) { get; set; } | Получает или задает масштабный коэффициент для символа. Значение указано в целых процентах, а допустимые значения:[10, 1000] |
+| [PosCodeStyle](../../aspose.words.fields/fieldmergebarcode/poscodestyle) { get; set; } | Получает или задает стиль штрих-кода торговой точки (типы штрих-кода UPCA&#x7C;UPCE&#x7C;EAN13&#x7C;EAN8). Допустимые значения (без учета регистра): [STD&#x7C;SUP2&#x7C;SUP5&#x7C;CASE]. |
+| [Result](../../aspose.words.fields/field/result) { get; set; } | Получает или задает текст, который находится между разделителем поля и концом поля. |
+| [ScalingFactor](../../aspose.words.fields/fieldmergebarcode/scalingfactor) { get; set; } | Получает или задает масштабный коэффициент для символа. Значение указано в целых процентах, допустимые значения: [10, 1000] . |
 | [Separator](../../aspose.words.fields/field/separator) { get; } | Получает узел, представляющий разделитель полей. Может быть нулевым. |
 | [Start](../../aspose.words.fields/field/start) { get; } | Получает узел, представляющий начало поля. |
 | [SymbolHeight](../../aspose.words.fields/fieldmergebarcode/symbolheight) { get; set; } | Получает или задает высоту символа. Единицы указаны в TWIPS (1/1440 дюйма). |
-| [SymbolRotation](../../aspose.words.fields/fieldmergebarcode/symbolrotation) { get; set; } | Получает или задает поворот символа штрих-кода. Допустимые значения:[0, 3] |
+| [SymbolRotation](../../aspose.words.fields/fieldmergebarcode/symbolrotation) { get; set; } | Получает или задает поворот символа штрих-кода. Допустимые значения: [0, 3] |
 | virtual [Type](../../aspose.words.fields/field/type) { get; } | Получает тип поля Microsoft Word. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode)() | Возвращает текст между началом поля и разделителем полей (или концом поля, если разделителя нет). Включены как код поля, так и результат дочерних полей. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode)() | Возвращает текст между началом поля и разделителем поля (или концом поля, если разделителя нет). Включены как код поля, так и результат поля дочерних полей. |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode)(bool) | Возвращает текст между началом поля и разделителем полей (или концом поля, если разделителя нет). |
-| [Remove](../../aspose.words.fields/field/remove)() | Удаляет поле из документа. Возвращает узел сразу после поля. Если конец поля является последним дочерним элементом его родительского узла, возвращает его родительский абзац. Если поле уже удалено, возвращает **null** . |
+| [Remove](../../aspose.words.fields/field/remove)() | Удаляет поле из документа. Возвращает узел сразу после поля. Если конец поля является последним child его родительского узла, возвращает его родительский абзац. Если поле уже удалено, возвращает **нулевой** . |
 | [Unlink](../../aspose.words.fields/field/unlink)() | Выполняет развязку поля. |
 | [Update](../../aspose.words.fields/field/update)() | Выполняет обновление поля. Выдает, если поле уже обновляется. |
 | [Update](../../aspose.words.fields/field/update)(bool) | Выполняет обновление поля. Выдает, если поле уже обновляется. |
 
 ### Примечания
 
-Слияние штрих-кода.
+Почтовое слияние штрих-кода.
 
 ### Примеры
 
@@ -72,42 +72,33 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Вставьте поле MERGEBARCODE, которое будет принимать значения из источника данных во время слияния.
-// Это поле преобразует все значения в столбце «MyQRCode» источника данных слияния в QR-коды.
+// Это поле преобразует все значения в столбце «MyITF14Barcode» источника данных слияния в штрих-коды ITF14.
 FieldMergeBarcode field = (FieldMergeBarcode)builder.InsertField(FieldType.FieldMergeBarcode, true);
-field.BarcodeType = "QR";
-field.BarcodeValue = "MyQRCode";
-
-// Применение пользовательских цветов и масштабирования.
-field.BackgroundColor = "0xF8BD69";
-field.ForegroundColor = "0xB5413B";
-field.ErrorCorrectionLevel = "3";
-field.ScalingFactor = "250";
-field.SymbolHeight = "1000";
-field.SymbolRotation = "0";
+field.BarcodeType = "ITF14";
+field.BarcodeValue = "MyITF14Barcode";
+field.CaseCodeStyle = "STD";
 
 Assert.AreEqual(FieldType.FieldMergeBarcode, field.Type);
-Assert.AreEqual(" MERGEBARCODE  MyQRCode QR \\b 0xF8BD69 \\f 0xB5413B \\q 3 \\s 250 \\h 1000 \\r 0",
-    field.GetFieldCode());
-builder.Writeln();
+Assert.AreEqual(" MERGEBARCODE  MyITF14Barcode ITF14 \\c STD", field.GetFieldCode());
 
 // Создайте DataTable со столбцом с тем же именем, что и BarcodeValue нашего поля MERGEBARCODE.
 // Слияние почты создаст новую страницу для каждой строки. Каждая страница будет содержать поле DISPLAYBARCODE,
-// который отобразит QR-код со значением из объединенной строки.
+// который отобразит штрих-код ITF14 со значением из объединенной строки.
 DataTable table = new DataTable("Barcodes");
-table.Columns.Add("MyQRCode");
-table.Rows.Add(new[] { "ABC123" });
-table.Rows.Add(new[] { "DEF456" });
+table.Columns.Add("MyITF14Barcode");
+table.Rows.Add(new[] { "09312345678907" });
+table.Rows.Add(new[] { "1234567891234" });
 
 doc.MailMerge.Execute(table);
 
 Assert.AreEqual(FieldType.FieldDisplayBarcode, doc.Range.Fields[0].Type);
-Assert.AreEqual("DISPLAYBARCODE \"ABC123\" QR \\q 3 \\s 250 \\h 1000 \\r 0 \\b 0xF8BD69 \\f 0xB5413B", 
+Assert.AreEqual("DISPLAYBARCODE \"09312345678907\" ITF14 \\c STD",
     doc.Range.Fields[0].GetFieldCode());
 Assert.AreEqual(FieldType.FieldDisplayBarcode, doc.Range.Fields[1].Type);
-Assert.AreEqual("DISPLAYBARCODE \"DEF456\" QR \\q 3 \\s 250 \\h 1000 \\r 0 \\b 0xF8BD69 \\f 0xB5413B",
+Assert.AreEqual("DISPLAYBARCODE \"1234567891234\" ITF14 \\c STD",
     doc.Range.Fields[1].GetFieldCode());
 
-doc.Save(ArtifactsDir + "Field.MERGEBARCODE.QR.docx");
+doc.Save(ArtifactsDir + "Field.MERGEBARCODE.ITF14.docx");
 ```
 
 Показывает, как выполнять слияние со штрих-кодами CODE39.
@@ -117,90 +108,80 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Вставьте поле MERGEBARCODE, которое будет принимать значения из источника данных во время слияния.
-// Это поле преобразует все значения в столбце «MyQRCode» источника данных слияния в QR-коды.
+// Это поле преобразует все значения в столбце «MyCODE39Barcode» источника данных слияния в штрих-коды CODE39.
 FieldMergeBarcode field = (FieldMergeBarcode)builder.InsertField(FieldType.FieldMergeBarcode, true);
-field.BarcodeType = "QR";
-field.BarcodeValue = "MyQRCode";
+field.BarcodeType = "CODE39";
+field.BarcodeValue = "MyCODE39Barcode";
 
-// Применение пользовательских цветов и масштабирования.
-field.BackgroundColor = "0xF8BD69";
-field.ForegroundColor = "0xB5413B";
-field.ErrorCorrectionLevel = "3";
-field.ScalingFactor = "250";
-field.SymbolHeight = "1000";
-field.SymbolRotation = "0";
+// Измените его внешний вид, чтобы отображались начальные/конечные символы.
+field.AddStartStopChar = true;
 
 Assert.AreEqual(FieldType.FieldMergeBarcode, field.Type);
-Assert.AreEqual(" MERGEBARCODE  MyQRCode QR \\b 0xF8BD69 \\f 0xB5413B \\q 3 \\s 250 \\h 1000 \\r 0",
-    field.GetFieldCode());
+Assert.AreEqual(" MERGEBARCODE  MyCODE39Barcode CODE39 \\d", field.GetFieldCode());
 builder.Writeln();
 
 // Создайте DataTable со столбцом с тем же именем, что и BarcodeValue нашего поля MERGEBARCODE.
 // Слияние почты создаст новую страницу для каждой строки. Каждая страница будет содержать поле DISPLAYBARCODE,
-// который отобразит QR-код со значением из объединенной строки.
+// который отобразит штрих-код CODE39 со значением из объединенной строки.
 DataTable table = new DataTable("Barcodes");
-table.Columns.Add("MyQRCode");
-table.Rows.Add(new[] { "ABC123" });
-table.Rows.Add(new[] { "DEF456" });
+table.Columns.Add("MyCODE39Barcode");
+table.Rows.Add(new[] { "12345ABCDE" });
+table.Rows.Add(new[] { "67890FGHIJ" });
 
 doc.MailMerge.Execute(table);
 
 Assert.AreEqual(FieldType.FieldDisplayBarcode, doc.Range.Fields[0].Type);
-Assert.AreEqual("DISPLAYBARCODE \"ABC123\" QR \\q 3 \\s 250 \\h 1000 \\r 0 \\b 0xF8BD69 \\f 0xB5413B", 
+Assert.AreEqual("DISPLAYBARCODE \"12345ABCDE\" CODE39 \\d",
     doc.Range.Fields[0].GetFieldCode());
 Assert.AreEqual(FieldType.FieldDisplayBarcode, doc.Range.Fields[1].Type);
-Assert.AreEqual("DISPLAYBARCODE \"DEF456\" QR \\q 3 \\s 250 \\h 1000 \\r 0 \\b 0xF8BD69 \\f 0xB5413B",
+Assert.AreEqual("DISPLAYBARCODE \"67890FGHIJ\" CODE39 \\d",
     doc.Range.Fields[1].GetFieldCode());
 
-doc.Save(ArtifactsDir + "Field.MERGEBARCODE.QR.docx");
+doc.Save(ArtifactsDir + "Field.MERGEBARCODE.CODE39.docx");
 ```
 
-Показывает, как выполнить слияние для штрих-кодов EAN13.
+Показывает, как выполнять слияние со штрих-кодами EAN13.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Вставьте поле MERGEBARCODE, которое будет принимать значения из источника данных во время слияния.
-// Это поле преобразует все значения в столбце «MyQRCode» источника данных слияния в QR-коды.
+// Это поле преобразует все значения в столбце «MyEAN13Barcode» источника данных слияния в штрих-коды EAN13.
 FieldMergeBarcode field = (FieldMergeBarcode)builder.InsertField(FieldType.FieldMergeBarcode, true);
-field.BarcodeType = "QR";
-field.BarcodeValue = "MyQRCode";
+field.BarcodeType = "EAN13";
+field.BarcodeValue = "MyEAN13Barcode";
 
-// Применение пользовательских цветов и масштабирования.
-field.BackgroundColor = "0xF8BD69";
-field.ForegroundColor = "0xB5413B";
-field.ErrorCorrectionLevel = "3";
-field.ScalingFactor = "250";
-field.SymbolHeight = "1000";
-field.SymbolRotation = "0";
+// Отображение числового значения штрих-кода под полосами.
+field.DisplayText = true;
+field.PosCodeStyle = "CASE";
+field.FixCheckDigit = true;
 
 Assert.AreEqual(FieldType.FieldMergeBarcode, field.Type);
-Assert.AreEqual(" MERGEBARCODE  MyQRCode QR \\b 0xF8BD69 \\f 0xB5413B \\q 3 \\s 250 \\h 1000 \\r 0",
-    field.GetFieldCode());
+Assert.AreEqual(" MERGEBARCODE  MyEAN13Barcode EAN13 \\t \\p CASE \\x", field.GetFieldCode());
 builder.Writeln();
 
 // Создайте DataTable со столбцом с тем же именем, что и BarcodeValue нашего поля MERGEBARCODE.
 // Слияние почты создаст новую страницу для каждой строки. Каждая страница будет содержать поле DISPLAYBARCODE,
-// который отобразит QR-код со значением из объединенной строки.
+// который отобразит штрих-код EAN13 со значением из объединенной строки.
 DataTable table = new DataTable("Barcodes");
-table.Columns.Add("MyQRCode");
-table.Rows.Add(new[] { "ABC123" });
-table.Rows.Add(new[] { "DEF456" });
+table.Columns.Add("MyEAN13Barcode");
+table.Rows.Add(new[] { "501234567890" });
+table.Rows.Add(new[] { "123456789012" });
 
 doc.MailMerge.Execute(table);
 
 Assert.AreEqual(FieldType.FieldDisplayBarcode, doc.Range.Fields[0].Type);
-Assert.AreEqual("DISPLAYBARCODE \"ABC123\" QR \\q 3 \\s 250 \\h 1000 \\r 0 \\b 0xF8BD69 \\f 0xB5413B", 
+Assert.AreEqual("DISPLAYBARCODE \"501234567890\" EAN13 \\t \\p CASE \\x",
     doc.Range.Fields[0].GetFieldCode());
 Assert.AreEqual(FieldType.FieldDisplayBarcode, doc.Range.Fields[1].Type);
-Assert.AreEqual("DISPLAYBARCODE \"DEF456\" QR \\q 3 \\s 250 \\h 1000 \\r 0 \\b 0xF8BD69 \\f 0xB5413B",
+Assert.AreEqual("DISPLAYBARCODE \"123456789012\" EAN13 \\t \\p CASE \\x",
     doc.Range.Fields[1].GetFieldCode());
 
-doc.Save(ArtifactsDir + "Field.MERGEBARCODE.QR.docx");
+doc.Save(ArtifactsDir + "Field.MERGEBARCODE.EAN13.docx");
 ```
 
-Показывает, как выполнить слияние почты со штрих-кодами QR.
+Показывает, как выполнять слияние со штрих-кодами QR.
 
 ```csharp
 Document doc = new Document();

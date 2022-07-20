@@ -1,14 +1,14 @@
 ---
 title: TableContentAlignment
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置一个值该值指定在导出到R5FAspose.Words 时如何对齐表 中的内容 SaveFormat.Markdown格式 默认值为Auto
+description: 获取或设置一个值该值指定导出到表时如何对齐表中的内容 Markdown format. 默认值为Auto.
 type: docs
 weight: 60
 url: /zh/net/aspose.words.saving/markdownsaveoptions/tablecontentalignment/
 ---
 ## MarkdownSaveOptions.TableContentAlignment property
 
-获取或设置一个值，该值指定在导出到:::R5:F:Aspose.Words 时如何对齐表 中的内容。 SaveFormat.Markdown:::格式。 默认值为Auto。
+获取或设置一个值，该值指定导出到表时如何对齐表中的内容 Markdown format. 默认值为Auto.
 
 ```csharp
 public TableContentAlignment TableContentAlignment { get; set; }

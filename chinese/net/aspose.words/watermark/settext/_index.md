@@ -22,7 +22,7 @@ public void SetText(string text)
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentOutOfRangeException | 当文本长度超出范围或文本仅包含空格。 |
+| ArgumentOutOfRangeException | 当文本长度超出范围或文本仅包含空格时抛出。 |
 | ArgumentNullException | 当文本为空时抛出。 |
 
 ### 评论
@@ -31,7 +31,7 @@ public void SetText(string text)
 
 ### 例子
 
-显示如何创建文本水印。
+演示如何创建文本水印。
 
 ```csharp
 Document doc = new Document();
@@ -82,18 +82,18 @@ public void SetText(string text, TextWatermarkOptions options)
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentOutOfRangeException | 当文本长度超出范围或文本仅包含空格。 |
+| ArgumentOutOfRangeException | 当文本长度超出范围或文本仅包含空格时抛出。 |
 | ArgumentNullException | 当文本为空时抛出。 |
 
 ### 评论
 
 文本长度必须在 1 到 200 的范围内。 文本不能为空或仅包含空格。
 
-如果[`TextWatermarkOptions`](../../textwatermarkoptions)为空，则将使用默认选项设置水印.
+如果[`TextWatermarkOptions`](../../textwatermarkoptions)为空，水印将使用默认选项设置。
 
 ### 例子
 
-显示如何创建文本水印。
+演示如何创建文本水印。
 
 ```csharp
 Document doc = new Document();

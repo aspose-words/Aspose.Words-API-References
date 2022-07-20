@@ -1,14 +1,14 @@
 ---
 title: PosCodeStyle
 second_title: Справочник по API Aspose.Words для .NET
-description: Получает или задает стиль штрих-кода торговой точки типы штрих-кода UPCAx7CUPCEx7CEAN13x7CEAN8. Допустимые значения без учета регистраSTDx7CSUP2x7CSUP5x7CCASE.
+description: Получает или задает стиль штрих-кода торговой точки типы штрих-кода UPCAx7CUPCEx7CEAN13x7CEAN8. Допустимые значения без учета регистра STDx7CSUP2x7CSUP5x7CCASE.
 type: docs
 weight: 110
 url: /ru/net/aspose.words.fields/fielddisplaybarcode/poscodestyle/
 ---
 ## FieldDisplayBarcode.PosCodeStyle property
 
-Получает или задает стиль штрих-кода торговой точки (типы штрих-кода UPCA&#x7C;UPCE&#x7C;EAN13&#x7C;EAN8). Допустимые значения (без учета регистра):[STD&#x7C;SUP2&#x7C;SUP5&#x7C;CASE].
+Получает или задает стиль штрих-кода торговой точки (типы штрих-кода UPCA&#x7C;UPCE&#x7C;EAN13&#x7C;EAN8). Допустимые значения (без учета регистра): [STD&#x7C;SUP2&#x7C;SUP5&#x7C;CASE].
 
 ```csharp
 public string PosCodeStyle { get; set; }
@@ -16,7 +16,7 @@ public string PosCodeStyle { get; set; }
 
 ### Примеры
 
-Показывает, как вставить поле DISPLAYBARCODE и установить его свойства.
+Показывает, как вставить поле DISPLAYBARCODE и задать его свойства.
 
 ```csharp
 Document doc = new Document();

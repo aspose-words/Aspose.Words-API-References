@@ -1,14 +1,14 @@
 ---
 title: Tag
 second_title: Справочник по API Aspose.Words для .NET
-description: Задает тег связанный с текущим узлом SDT. Не может быть нулевым.
+description: Указывает тег связанный с текущим узлом SDT. Не может быть нулевым.
 type: docs
 weight: 100
 url: /ru/net/aspose.words.markup/istructureddocumenttag/tag/
 ---
 ## IStructuredDocumentTag.Tag property
 
-Задает тег, связанный с текущим узлом SDT. Не может быть нулевым.
+Указывает тег, связанный с текущим узлом SDT. Не может быть нулевым.
 
 ```csharp
 public string Tag { get; set; }

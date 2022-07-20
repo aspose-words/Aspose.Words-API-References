@@ -1,14 +1,14 @@
 ---
 title: Frameset
 second_title: Справочник по API Aspose.Words для .NET
-description: Возвращает экземплярFramesetaspose.words/document/frameset если этот документ представляет страницу фреймов.
+description: ВозвращаетFramesetaspose.words/document/framesetinstance если этот документ представляет собой страницу фреймов.
 type: docs
 weight: 160
 url: /ru/net/aspose.words/document/frameset/
 ---
 ## Document.Frameset property
 
-Возвращает экземпляр`Frameset`, если этот документ представляет страницу фреймов.
+Возвращает`Frameset`instance, если этот документ представляет собой страницу фреймов.
 
 ```csharp
 public Frameset Frameset { get; }
@@ -16,11 +16,11 @@ public Frameset Frameset { get; }
 
 ### Примечания
 
-Если документ не оформлен, свойство имеет **null** значение.
+Если документ не оформлен, свойство имеет значение **нулевой** значение.
 
 ### Примеры
 
-Показывает, как получить доступ к кадрам на странице.
+Показывает, как получить доступ к фреймам на странице.
 
 ```csharp
 // Документ содержит несколько фреймов со ссылками на другие документы.

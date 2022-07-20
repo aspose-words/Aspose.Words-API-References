@@ -1,14 +1,14 @@
 ---
 title: IsInMegabytes
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置是否以兆字节为单位显示文件大小
+description: 获取或设置是否显示文件大小以兆字节为单位
 type: docs
 weight: 30
 url: /zh/net/aspose.words.fields/fieldfilesize/isinmegabytes/
 ---
 ## FieldFileSize.IsInMegabytes property
 
-获取或设置是否以兆字节为单位显示文件大小。
+获取或设置是否显示文件大小，以兆字节为单位。
 
 ```csharp
 public bool IsInMegabytes { get; set; }

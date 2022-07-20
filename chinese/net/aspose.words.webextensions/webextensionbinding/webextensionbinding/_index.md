@@ -18,7 +18,7 @@ public WebExtensionBinding(string id, WebExtensionBindingType bindingType, strin
 | --- | --- | --- |
 | id | String | 绑定标识符。 |
 | bindingType | WebExtensionBindingType | 绑定类型。 |
-| appRef | String | 绑定键，用于将此列表中的绑定条目与文档中的绑定数据进行映射。 |
+| appRef | String | 绑定键用于将此列表中的绑定条目与文档中的绑定数据进行映射。 |
 
 ### 例子
 

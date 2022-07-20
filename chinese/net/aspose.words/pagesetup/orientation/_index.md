@@ -16,7 +16,7 @@ public Orientation Orientation { get; set; }
 
 ### 评论
 
-改变 **方向** 交换[`PageWidth`](../pagewidth)和[`PageHeight`](../pageheight)。
+改变 **方向**掉期[`PageWidth`](../pagewidth)和[`PageHeight`](../pageheight).
 
 ### 例子
 
@@ -26,27 +26,18 @@ public Orientation Orientation { get; set; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 修改构建器当前部分的页面设置属性并添加文本。
+builder.PageSetup.PaperSize = PaperSize.Legal;
 builder.PageSetup.Orientation = Orientation.Landscape;
-builder.PageSetup.VerticalAlignment = PageVerticalAlignment.Center;
-builder.Writeln("This is the first section, which landscape oriented with vertically centered text.");
+builder.PageSetup.TopMargin = ConvertUtil.InchToPoint(1.0);
+builder.PageSetup.BottomMargin = ConvertUtil.InchToPoint(1.0);
+builder.PageSetup.LeftMargin = ConvertUtil.InchToPoint(1.5);
+builder.PageSetup.RightMargin = ConvertUtil.InchToPoint(1.5);
+builder.PageSetup.HeaderDistance = ConvertUtil.InchToPoint(0.2);
+builder.PageSetup.FooterDistance = ConvertUtil.InchToPoint(0.2);
 
-// 如果我们使用文档构建器开始一个新部分，
-// 它将继承构建器的当前页面设置属性。
-builder.InsertBreak(BreakType.SectionBreakNewPage);
+builder.Writeln("Hello world!");
 
-Assert.AreEqual(Orientation.Landscape, doc.Sections[1].PageSetup.Orientation);
-Assert.AreEqual(PageVerticalAlignment.Center, doc.Sections[1].PageSetup.VerticalAlignment);
-
-// 我们可以使用“ClearFormatting”方法将其页面设置属性恢复为默认值。
-builder.PageSetup.ClearFormatting();
-
-Assert.AreEqual(Orientation.Portrait, doc.Sections[1].PageSetup.Orientation);
-Assert.AreEqual(PageVerticalAlignment.Top, doc.Sections[1].PageSetup.VerticalAlignment);
-
-builder.Writeln("This is the second section, which is in default Letter paper size, portrait orientation and top alignment.");
-
-doc.Save(ArtifactsDir + "PageSetup.ClearFormatting.docx");
+doc.Save(ArtifactsDir + "PageSetup.PageMargins.docx");
 ```
 
 显示如何将页面设置设置应用和恢复到文档中的部分。

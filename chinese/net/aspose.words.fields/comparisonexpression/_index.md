@@ -3,7 +3,7 @@ title: ComparisonExpression
 second_title: Aspose.Words for .NET API 参考
 description: 比较表达式
 type: docs
-weight: 1320
+weight: 1340
 url: /zh/net/aspose.words.fields/comparisonexpression/
 ---
 ## ComparisonExpression class
@@ -19,12 +19,12 @@ public sealed class ComparisonExpression
 | 姓名 | 描述 |
 | --- | --- |
 | [ComparisonOperator](../../aspose.words.fields/comparisonexpression/comparisonoperator) { get; } | 获取比较运算符。 |
-| [LeftExpression](../../aspose.words.fields/comparisonexpression/leftexpression) { get; } | 获取左表达式。 |
+| [LeftExpression](../../aspose.words.fields/comparisonexpression/leftexpression) { get; } | 获取左侧表达式。 |
 | [RightExpression](../../aspose.words.fields/comparisonexpression/rightexpression) { get; } | 获取正确的表达式。 |
 
 ### 例子
 
-展示如何为 IF 和 COMPARE 字段实现自定义评估。
+显示如何为 IF 和 COMPARE 字段实施自定义评估。
 
 ```csharp
 public void ConditionEvaluationExtensionPoint(string fieldCode, sbyte comparisonResult, string comparisonError,

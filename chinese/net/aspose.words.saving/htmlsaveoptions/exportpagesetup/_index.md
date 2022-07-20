@@ -1,14 +1,14 @@
 ---
 title: ExportPageSetup
 second_title: Aspose.Words for .NET API 参考
-description: 指定页面设置是否导出为 HTMLMHTML 或 EPUB 默认为 false 
+description: 指定页面设置是否导出为 HTMLMHTML 或 EPUB 默认为错误的.
 type: docs
 weight: 230
 url: /zh/net/aspose.words.saving/htmlsaveoptions/exportpagesetup/
 ---
 ## HtmlSaveOptions.ExportPageSetup property
 
-指定页面设置是否导出为 HTML、MHTML 或 EPUB。 默认为` false` 。
+指定页面设置是否导出为 HTML、MHTML 或 EPUB。 默认为`错误的`.
 
 ```csharp
 public bool ExportPageSetup { get; set; }
@@ -16,9 +16,9 @@ public bool ExportPageSetup { get; set; }
 
 ### 评论
 
-每个[`Section`](../../../aspose.words/section)在 Aspose 中。 Words 文档模型通过[`PageSetup`](../../../aspose.words/pagesetup)类提供页面设置信息 。当您将文档导出为 HTML 格式时，您可能需要保留此信息 以供进一步使用。特别是，页面设置对于渲染到分页媒体（打印） 或随后转换为本地 Microsoft Word 文件格式（DOCX、DOC、RTF、WML）可能很重要。
+每个[`Section`](../../../aspose.words/section)在 Aspose.Words 文档模型中提供了页面设置信息 via[`PageSetup`](../../../aspose.words/pagesetup)班级。当您将文档导出为 HTML 格式时，您可能需要保留此信息 以供进一步使用。特别是，页面设置对于渲染到分页媒体（打印） 或随后转换为本机 Microsoft Word 文件格式（DOCX、DOC、RTF、WML）可能很重要。
 
-在大多数情况下，HTML 旨在用于在不执行分页的浏览器中查看。所以这个功能 默认是不活动的。
+在大多数情况下，HTML 旨在用于在不执行分页的浏览器中查看。所以这个 feature 默认是不活动的。
 
 ### 例子
 

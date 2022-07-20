@@ -1,14 +1,14 @@
 ---
 title: UpdateDirtyFields
 second_title: Справочник по API Aspose.Words для .NET
-description: Указывает обновлять ли поля с атрибутом dirty .
+description: Указывает обновлять ли поля сгрязный атрибут.
 type: docs
 weight: 160
 url: /ru/net/aspose.words.loading/loadoptions/updatedirtyfields/
 ---
 ## LoadOptions.UpdateDirtyFields property
 
-Указывает, обновлять ли поля с атрибутом` dirty` .
+Указывает, обновлять ли поля с`грязный` атрибут.
 
 ```csharp
 public bool UpdateDirtyFields { get; set; }

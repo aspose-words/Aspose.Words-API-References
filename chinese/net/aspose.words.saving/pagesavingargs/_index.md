@@ -1,14 +1,14 @@
 ---
 title: PageSavingArgs
 second_title: Aspose.Words for .NET API 参考
-description: 为PageSaving./ipagesavingcallback/pagesaving事件提供数据
+description: 为PageSaving./ipagesavingcallback/pagesaving事件.
 type: docs
-weight: 5050
+weight: 5100
 url: /zh/net/aspose.words.saving/pagesavingargs/
 ---
 ## PageSavingArgs class
 
-为[`PageSaving`](../ipagesavingcallback/pagesaving)事件提供数据。
+为[`PageSaving`](../ipagesavingcallback/pagesaving)事件.
 
 ```csharp
 public class PageSavingArgs
@@ -25,13 +25,13 @@ public class PageSavingArgs
 | 姓名 | 描述 |
 | --- | --- |
 | [KeepPageStreamOpen](../../aspose.words.saving/pagesavingargs/keeppagestreamopen) { get; set; } | 指定 Aspose.Words 应该在保存文档页面后保持流打开还是关闭它。 |
-| [PageFileName](../../aspose.words.saving/pagesavingargs/pagefilename) { get; set; } | 获取或设置文档页面将保存到的文件名。 |
+| [PageFileName](../../aspose.words.saving/pagesavingargs/pagefilename) { get; set; } | 获取或设置文档页面保存到的文件名。 |
 | [PageIndex](../../aspose.words.saving/pagesavingargs/pageindex) { get; } | 当前页面索引。 |
 | [PageStream](../../aspose.words.saving/pagesavingargs/pagestream) { get; set; } | 允许指定文档页面将保存到的流。 |
 
 ### 例子
 
-显示如何使用回调将文档逐页保存到 HTML。
+演示如何使用回调将文档逐页保存到 HTML。
 
 ```csharp
 public void PageFileNames()
@@ -46,12 +46,12 @@ public void PageFileNames()
     builder.InsertBreak(BreakType.PageBreak);
     builder.Writeln("Page 3.");
 
-     // 创建一个“HtmlFixedSaveOptions”对象，我们可以将它传递给文档的“Save”方法
-     // 修改我们如何将文档转换为 HTML.
+    // 创建一个“HtmlFixedSaveOptions”对象，我们可以将它传递给文档的“Save”方法
+    // 修改我们如何将文档转换为 HTML。
     HtmlFixedSaveOptions htmlFixedSaveOptions = new HtmlFixedSaveOptions();
 
-     // 我们会将本文档中的每一页保存到本地文件系统中的一个单独的 HTML 文件中。
-     // 设置允许我们命名每个输出 HTML 文档的回调。
+    // 我们会将本文档中的每一页保存到本地文件系统中的单独 HTML 文件中。
+    // 设置允许我们命名每个输出 HTML 文档的回调。
     htmlFixedSaveOptions.PageSavingCallback = new CustomFileNamePageSavingCallback();
 
     doc.Save(ArtifactsDir + "SavingCallback.PageFileNames.html", htmlFixedSaveOptions);
@@ -71,11 +71,11 @@ private class CustomFileNamePageSavingCallback : IPageSavingCallback
     {
         string outFileName = $"{ArtifactsDir}SavingCallback.PageFileNames.Page_{args.PageIndex}.html";
 
-         // 下面是指定 Aspose.Words 将文档的每一页保存在哪里的两种方式。
-         // 1 - 为输出页面文件设置文件名：
+        // 下面是指定 Aspose.Words 将文档的每一页保存在哪里的两种方法。
+        // 1 - 为输出页面文件设置文件名：
         args.PageFileName = outFileName;
 
-         // 2 - 为输出页面文件创建自定义流：
+        // 2 - 为输出页面文件创建自定义流：
         args.PageStream = new FileStream(outFileName, FileMode.Create);
 
         Assert.False(args.KeepPageStreamOpen);

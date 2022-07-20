@@ -1,14 +1,14 @@
 ---
 title: Insert
 second_title: Aspose.Words for .NET API 参考
-description: 将节点插入到集合中指定索引处
+description: 将一个节点插入到集合中指定索引处
 type: docs
 weight: 80
 url: /zh/net/aspose.words/nodecollection/insert/
 ---
 ## NodeCollection.Insert method
 
-将节点插入到集合中指定索引处。
+将一个节点插入到集合中指定索引处。
 
 ```csharp
 public void Insert(int index, Node node)
@@ -16,18 +16,18 @@ public void Insert(int index, Node node)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| index | Int32 | 节点从零开始的索引。 负索引是允许的，表示从列表后面访问。 例如 -1 表示最后一个节点，-2 表示倒数第二个，以此类推。 |
+| index | Int32 | 节点的从零开始的索引。 允许负索引，表示从列表后面访问。 例如-1 表示最后一个节点，-2 表示倒数第二个，依此类推。 |
 | node | Node | 要插入的节点。 |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| NotSupportedException | **NodeCollection** 是一个“深度”集合。 |
+| NotSupportedException | 这 **节点集合**是一个“深”的集合。 |
 
 ### 评论
 
-节点作为子节点插入到创建集合的节点对象中。
+该节点作为子节点插入到从中创建集合的节点对象中。
 
 如果索引等于或大于 Count，则将节点添加到集合的末尾。
 
@@ -35,7 +35,7 @@ public void Insert(int index, Node node)
 
 如果 newChild 已经在树中，则首先将其移除。
 
-如果要插入的节点是从另一个文档创建的，则应使用 ImportFormatMode)将节点导入当前文档。 然后可以将导入的节点插入到当前文档中。
+如果要插入的节点是从另一个文档创建的，则应使用 [`ImportNode`](../../documentbase/importnode)将节点导入当前文档。 然后可以将导入的节点插入到当前文档中。
 
 ### 例子
 

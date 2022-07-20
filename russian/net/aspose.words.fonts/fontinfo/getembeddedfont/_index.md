@@ -17,11 +17,11 @@ public byte[] GetEmbeddedFont(EmbeddedFontFormat format, EmbeddedFontStyle style
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | format | EmbeddedFontFormat | Задает формат шрифта для получения. |
-| style | EmbeddedFontStyle | Задает извлекаемый стиль шрифта. |
+| style | EmbeddedFontStyle | Задает стиль шрифта для получения. |
 
 ### Возвращаемое значение
 
-Возвращает` null` , если указанный шрифт не встроен.
+Возвращает`нулевой`если указанный шрифт не встроен.
 
 ### Примеры
 

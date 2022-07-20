@@ -1,14 +1,14 @@
 ---
 title: RenderToSize
 second_title: Aspose.Words for .NET API 参考
-description: 将形状渲染为Graphics 对象到指定大小
+description: 将形状渲染为Graphics 对象到指定的大小
 type: docs
 weight: 80
 url: /zh/net/aspose.words.rendering/noderendererbase/rendertosize/
 ---
 ## NodeRendererBase.RenderToSize method
 
-将形状渲染为Graphics 对象到指定大小。
+将形状渲染为Graphics 对象到指定的大小。
 
 ```csharp
 public float RenderToSize(Graphics graphics, float x, float y, float width, float height)

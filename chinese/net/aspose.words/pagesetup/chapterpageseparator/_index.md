@@ -16,7 +16,7 @@ public ChapterPageSeparator ChapterPageSeparator { get; set; }
 
 ### 评论
 
-在创建包含章节号的页码之前，文档标题必须有一个编号的大纲应用的格式。
+在创建包含章节编号的页码之前，文档标题必须应用编号大纲格式。
 
 ### 也可以看看
 

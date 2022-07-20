@@ -1,14 +1,14 @@
 ---
 title: FullDate
 second_title: Справочник по API Aspose.Words для .NET
-description: Указывает полную дату и время введенные в последний раз в этом SDT .
+description: Указывает полную дату и время введенные в последний раз в этом СДТ .
 type: docs
 weight: 130
 url: /ru/net/aspose.words.markup/structureddocumenttag/fulldate/
 ---
 ## StructuredDocumentTag.FullDate property
 
-Указывает полную дату и время, введенные в последний раз в этом **SDT** .
+Указывает полную дату и время, введенные в последний раз в этом **СДТ** .
 
 ```csharp
 public DateTime FullDate { get; set; }
@@ -16,9 +16,9 @@ public DateTime FullDate { get; set; }
 
 ### Примечания
 
-Доступ к этому свойству будет работать только дляDateТип SDT.
+Доступ к этому свойству будет работать только дляDate Тип SDT.
 
-Для всех остальных типов SDT возникнет исключение.
+Для всех других типов SDT будет иметь место исключение.
 
 ### Примеры
 

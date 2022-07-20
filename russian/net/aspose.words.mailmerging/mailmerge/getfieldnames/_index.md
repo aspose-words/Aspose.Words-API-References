@@ -18,9 +18,9 @@ public string[] GetFieldNames()
 
 Возвращает полные имена полей слияния, включая необязательный префикс. Не устраняет повторяющиеся имена полей.
 
-При каждом вызове создается новый массив string[].
+Новый массив string[] создается при каждом вызове.
 
-Включает имена полей "усы", если[`UseNonMergeFields`](../usenonmergefields)is **правда** .
+Включает имена полей «усы», если[`UseNonMergeFields`](../usenonmergefields) является **истинный**.
 
 ### Примеры
 
@@ -43,8 +43,8 @@ dataTable.Columns.Add("City");
 dataTable.Rows.Add(new object[] { "John", "Doe", "New York" });
 dataTable.Rows.Add(new object[] { "Joe", "Bloggs", "Washington" });
 
- // Для каждого имени MERGEFIELD в документе убедитесь, что таблица данных содержит столбец column
- // с тем же именем, а затем выполнить слияние почты. 
+// Для каждого имени MERGEFIELD в документе убедитесь, что таблица данных содержит столбец
+// с тем же именем, а затем выполнить слияние почты. 
 string[] fieldNames = doc.MailMerge.GetFieldNames();
 
 Assert.AreEqual(3, fieldNames.Length);

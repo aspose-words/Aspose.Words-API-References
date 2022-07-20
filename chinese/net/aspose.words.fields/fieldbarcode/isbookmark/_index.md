@@ -1,14 +1,14 @@
 ---
 title: IsBookmark
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置PostalAddressaspose.words.fields/fieldbarcode/postaladdress是否为书签的名称
+description: 获取或设置是否PostalAddressaspose.words.fields/fieldbarcode/postaladdress是书签的名称
 type: docs
 weight: 30
 url: /zh/net/aspose.words.fields/fieldbarcode/isbookmark/
 ---
 ## FieldBarcode.IsBookmark property
 
-获取或设置[`PostalAddress`](../postaladdress)是否为书签的名称。
+获取或设置是否[`PostalAddress`](../postaladdress)是书签的名称。
 
 ```csharp
 public bool IsBookmark { get; set; }
@@ -16,7 +16,7 @@ public bool IsBookmark { get; set; }
 
 ### 例子
 
-显示如何使用 BARCODE 字段以条形码的形式显示美国邮政编码。
+演示如何使用 BARCODE 字段以条形码的形式显示美国邮政编码。
 
 ```csharp
 Document doc = new Document();

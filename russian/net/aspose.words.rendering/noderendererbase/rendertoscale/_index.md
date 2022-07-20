@@ -1,14 +1,14 @@
 ---
 title: RenderToScale
 second_title: Справочник по API Aspose.Words для .NET
-description: Визуализирует фигуру в объектGraphics в указанном масштабе.
+description: Преобразует форму вGraphics объект в указанном масштабе.
 type: docs
 weight: 70
 url: /ru/net/aspose.words.rendering/noderendererbase/rendertoscale/
 ---
 ## NodeRendererBase.RenderToScale method
 
-Визуализирует фигуру в объектGraphics в указанном масштабе.
+Преобразует форму вGraphics объект в указанном масштабе.
 
 ```csharp
 public SizeF RenderToScale(Graphics graphics, float x, float y, float scale)
@@ -16,10 +16,10 @@ public SizeF RenderToScale(Graphics graphics, float x, float y, float scale)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| graphics | Graphics | Объект для рендеринга. |
-| x | Single | Координата X (в мировых единицах) верхнего левого угла отображаемой фигуры. |
+| graphics | Graphics | Объект, на который выполняется рендеринг. |
+| x | Single | Координата X (в мировых единицах измерения) верхнего левого угла отображаемой фигуры. |
 | y | Single | Координата Y (в мировых единицах измерения) верхнего левого угла отображаемой фигуры. |
-| scale | Single | Масштаб рендеринга формы (1.0 равно 100%). |
+| scale | Single | Масштаб рендеринга формы (1.0 — 100%). |
 
 ### Возвращаемое значение
 
@@ -27,7 +27,7 @@ public SizeF RenderToScale(Graphics graphics, float x, float y, float scale)
 
 ### Примеры
 
-Показывает, как визуализировать фигуру с помощью объекта Graphics и отображать ее с помощью Windows Form.
+Показывает, как визуализировать фигуру с помощью объекта Graphics и отображать ее с помощью формы Windows.
 
 ```csharp
 {

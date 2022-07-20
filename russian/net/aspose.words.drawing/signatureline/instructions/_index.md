@@ -1,14 +1,14 @@
 ---
 title: Instructions
 second_title: Справочник по API Aspose.Words для .NET
-description: Получает или задает инструкции для подписывающей стороны которые отображаются при подписании строки подписи. Это свойство игнорируется еслиDefaultInstructionsaspose.words.drawing/signatureline/defaultinstructionsустановлено. Значение по умолчанию для этого свойства пустая строка Empty.
+description: Получает или задает инструкции для подписывающей стороны которые отображаются при подписании строки подписи. Это свойство игнорируется еслиDefaultInstructionsaspose.words.drawing/signatureline/defaultinstructions установлено. Значение по умолчанию для этого свойства пустой строки Empty .
 type: docs
 weight: 50
 url: /ru/net/aspose.words.drawing/signatureline/instructions/
 ---
 ## SignatureLine.Instructions property
 
-Получает или задает инструкции для подписывающей стороны, которые отображаются при подписании строки подписи. Это свойство игнорируется, если[`DefaultInstructions`](../defaultinstructions)установлено. Значение по умолчанию для этого свойства: **пустая строка** (Empty).
+Получает или задает инструкции для подписывающей стороны, которые отображаются при подписании строки подписи. Это свойство игнорируется, если[`DefaultInstructions`](../defaultinstructions) установлено. Значение по умолчанию для этого свойства **пустой строки** (Empty ).
 
 ```csharp
 public string Instructions { get; set; }

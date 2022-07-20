@@ -17,7 +17,7 @@ public DocumentProperty AddLinkToContent(string name, string linkSource)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | name | String | Имя свойства. |
-| linkSource | String | Источник свойства. |
+| linkSource | String | Источник имущества. |
 
 ### Возвращаемое значение
 
@@ -35,8 +35,8 @@ builder.StartBookmark("MyBookmark");
 builder.Write("Hello world!");
 builder.EndBookmark("MyBookmark");
 
-// Связать новое пользовательское свойство с закладкой. Значение этого свойства
- // будет содержимым закладки, на которую он ссылается в элементе "LinkSource".
+// Связать новое пользовательское свойство с закладкой. Стоимость этого свойства
+// будет содержимым закладки, на которую он ссылается в элементе «LinkSource».
 CustomDocumentProperties customProperties = doc.CustomDocumentProperties;
 DocumentProperty customProperty = customProperties.AddLinkToContent("Bookmark", "MyBookmark");
 

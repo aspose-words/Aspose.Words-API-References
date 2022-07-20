@@ -1,14 +1,14 @@
 ---
 title: IgnoreHeaderFooter
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置一个布尔值指定忽略页眉/页脚内容的源格式 ifKeepSourceFormatting模式被使用 默认值为 true 
+description: 获取或设置一个布尔值该值指定忽略页眉/页脚内容的源格式 ifKeepSourceFormatting使用模式 默认值为真的.
 type: docs
 weight: 30
 url: /zh/net/aspose.words/importformatoptions/ignoreheaderfooter/
 ---
 ## ImportFormatOptions.IgnoreHeaderFooter property
 
-获取或设置一个布尔值，指定忽略页眉/页脚内容的源格式 ifKeepSourceFormatting模式被使用。 默认值为` true` 。
+获取或设置一个布尔值，该值指定忽略页眉/页脚内容的源格式 ifKeepSourceFormatting使用模式。 默认值为`真的`.
 
 ```csharp
 public bool IgnoreHeaderFooter { get; set; }

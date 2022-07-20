@@ -16,7 +16,7 @@ public bool HasSequenceName { get; }
 
 ### 例子
 
-显示如何通过组合 INDEX 和 SEQ 字段将文档拆分为多个部分。
+展示如何通过组合 INDEX 和 SEQ 字段将文档拆分为多个部分。
 
 ```csharp
 Document doc = new Document();

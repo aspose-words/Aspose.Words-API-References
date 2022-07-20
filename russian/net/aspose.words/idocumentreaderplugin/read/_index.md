@@ -1,14 +1,14 @@
 ---
 title: Read
 second_title: Справочник по API Aspose.Words для .NET
-description: Считывает данные из указанного потока в экземплярDocumentaspose.words/document.
+description: Считывает данные из указанного потока вDocumentaspose.words/document экземпляр.
 type: docs
 weight: 10
 url: /ru/net/aspose.words/idocumentreaderplugin/read/
 ---
 ## IDocumentReaderPlugin.Read method
 
-Считывает данные из указанного потока в экземпляр[`Document`](../../document).
+Считывает данные из указанного потока в[`Document`](../../document) экземпляр.
 
 ```csharp
 public void Read(Stream src, LoadOptions loadOptions, Document document)
@@ -18,7 +18,7 @@ public void Read(Stream src, LoadOptions loadOptions, Document document)
 | --- | --- | --- |
 | src | Stream | Исходный поток для чтения документа. |
 | loadOptions | LoadOptions | Дополнительные параметры загрузки для загрузки документа. |
-| document | Document | Экземпляр класса[`Document`](../../document)для чтения данных. Если экземпляр содержит некоторый контент, он будет переопределен данными из исходного потока |
+| document | Document | Экземпляр[`Document`](../../document) класс для чтения данных. Если экземпляр содержит некоторый контент, он будет переопределен данными из исходного потока |
 
 ### Смотрите также
 

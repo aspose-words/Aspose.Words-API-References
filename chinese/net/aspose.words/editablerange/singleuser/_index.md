@@ -16,15 +16,15 @@ public string SingleUser { get; set; }
 
 ### 评论
 
-此编辑器可以以下列形式之一存储:
+此编辑器可以以下列形式之一存储：
 
 DOMAIN\Username - 用于访问应使用当前用户的域凭据进行身份验证的用户。
 
 user@domain.com - 用于访问应使用用户的电子邮件地址作为凭据进行身份验证的用户。
 
-用户 - 用于应使用当前用户的机器凭据对其访问进行身份验证的用户。
+user - 用于访问应使用当前用户的机器凭据进行身份验证的用户。
 
-单个用户和编辑组不能同时设置特定的可编辑范围， 如果设置一个，另一个将被清除。
+具体可编辑范围不能同时设置单个用户和编辑组， 如果设置了一个，另一个会被清除。
 
 ### 例子
 
@@ -40,9 +40,9 @@ public void Visitor()
     builder.Writeln("Hello world! Since we have set the document's protection level to read-only," +
                     " we cannot edit this paragraph without the password.");
 
-     // 当我们对文档进行写保护时，可编辑范围允许我们选择用户可以编辑的特定区域。
-     // 有两种相互排斥的方式来缩小允许的编辑器列表。
-     // 1 - 指定用户：
+    // 当我们对文档进行写保护时，可编辑范围允许我们选择用户可以编辑的特定区域。
+    // 有两种相互排斥的方法可以缩小允许的编辑器列表。
+    // 1 - 指定用户：
     EditableRange editableRange = builder.StartEditableRange().EditableRange;
     editableRange.SingleUser = "john.doe@myoffice.com";
     builder.Writeln($"This paragraph is inside the first editable range, can only be edited by {editableRange.SingleUser}.");
@@ -50,7 +50,7 @@ public void Visitor()
 
     Assert.AreEqual(EditorType.Unspecified, editableRange.EditorGroup);
 
-     // 2 - 指定允许用户关联的组：
+    // 2 - 指定允许用户关联的组：
     editableRange = builder.StartEditableRange().EditableRange;
     editableRange.EditorGroup = EditorType.Administrators;
     builder.Writeln($"This paragraph is inside the first editable range, can only be edited by {editableRange.EditorGroup}.");
@@ -60,7 +60,7 @@ public void Visitor()
 
     builder.Writeln("This paragraph is outside the editable range, and cannot be edited by anybody.");
 
-     // 打印文档中每个可编辑范围的详细信息和内容。
+    // 打印文档中每个可编辑范围的详细信息和内容。
     EditableRangePrinter editableRangePrinter = new EditableRangePrinter();
 
     doc.Accept(editableRangePrinter);
@@ -69,7 +69,7 @@ public void Visitor()
 }
 
 /// <summary>
- /// 在字符串中收集访问过的可编辑范围的属性和内容。
+/// 在字符串中收集访问过的可编辑范围的属性和内容。
 /// </summary>
 public class EditableRangePrinter : DocumentVisitor
 {
@@ -90,7 +90,7 @@ public class EditableRangePrinter : DocumentVisitor
     }
 
     /// <summary>
-     /// 在文档中遇到 EditableRangeStart 节点时调用。
+    /// 在文档中遇到 EditableRangeStart 节点时调用。
     /// </summary>
     public override VisitorAction VisitEditableRangeStart(EditableRangeStart editableRangeStart)
     {
@@ -108,7 +108,7 @@ public class EditableRangePrinter : DocumentVisitor
     }
 
     /// <summary>
-     /// 在文档中遇到 EditableRangeEnd 节点时调用。
+    /// 在文档中遇到 EditableRangeEnd 节点时调用。
     /// </summary>
     public override VisitorAction VisitEditableRangeEnd(EditableRangeEnd editableRangeEnd)
     {
@@ -120,7 +120,7 @@ public class EditableRangePrinter : DocumentVisitor
     }
 
     /// <summary>
-     /// 在文档中遇到 Run 节点时调用。此访问者仅记录可编辑范围内的运行。
+    /// 在文档中遇到 Run 节点时调用。此访问者仅记录可编辑范围内的运行。
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {

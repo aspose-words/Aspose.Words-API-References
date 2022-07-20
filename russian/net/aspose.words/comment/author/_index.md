@@ -1,14 +1,14 @@
 ---
 title: Author
 second_title: Справочник по API Aspose.Words для .NET
-description: Возвращает или устанавливает имя автора комментария.
+description: Возвращает или задает имя автора комментария.
 type: docs
 weight: 30
 url: /ru/net/aspose.words/comment/author/
 ---
 ## Comment.Author property
 
-Возвращает или устанавливает имя автора комментария.
+Возвращает или задает имя автора комментария.
 
 ```csharp
 public string Author { get; set; }
@@ -29,8 +29,8 @@ Document doc = new Document(MyDir + "Comments.docx");
 
 NodeCollection comments = doc.GetChildNodes(NodeType.Comment, true);
 
- // Если у комментария нет предка, это комментарий "верхнего уровня", а не комментарий типа ответа.
- // Печатать все комментарии верхнего уровня вместе со всеми возможными ответами.
+// Если у комментария нет предка, это комментарий «верхнего уровня», а не комментарий типа ответа.
+// Печатать все комментарии верхнего уровня вместе с любыми ответами, которые они могут иметь.
 foreach (Comment comment in comments.OfType<Comment>().Where(c => c.Ancestor == null))
 {
     Console.WriteLine("Top-level comment:");

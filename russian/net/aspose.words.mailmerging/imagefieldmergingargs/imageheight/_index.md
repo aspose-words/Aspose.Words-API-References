@@ -16,13 +16,13 @@ public MergeFieldImageDimension ImageHeight { get; set; }
 
 ### Примечания
 
-Значение этого свойства исходно исходит из соответствующего кода MERGEFIELD , содержащийся в документе шаблона . Чтобы переопределить начальное значение, вы должны присвоить этому свойству экземпляр класса [`MergeFieldImageDimension`](../../../aspose.words.fields/mergefieldimagedimension)или установить свойства для экземпляра класса[`MergeFieldImageDimension`](../../../aspose.words.fields/mergefieldimagedimension), возвращаемого этим свойством.
+Значение этого свойства исходно исходит из соответствующего кода MERGEFIELD, содержащегося в документе шаблона . Чтобы переопределить начальное значение, вы должны назначить экземпляр [`MergeFieldImageDimension`](../../../aspose.words.fields/mergefieldimagedimension) class к этому свойству или установите свойства для instance из[`MergeFieldImageDimension`](../../../aspose.words.fields/mergefieldimagedimension) класс, возвращаемый этим свойством.
 
-Чтобы указать, что исходное значение высоты изображения должно быть применено, вы должны назначить **null** значение этого свойства или установите свойство[`Value`](../../../aspose.words.fields/mergefieldimagedimension/value)для экземпляр класса[`MergeFieldImageDimension`](../../../aspose.words.fields/mergefieldimagedimension)класса, возвращаемый этим свойством, в отрицательное значение.
+Чтобы указать, что исходное значение высоты изображения должно быть применено, вы должны назначить **нулевой** этому свойству или установите[`Value`](../../../aspose.words.fields/mergefieldimagedimension/value) свойство для instance из[`MergeFieldImageDimension`](../../../aspose.words.fields/mergefieldimagedimension) класс, возвращаемый этим свойством, к отрицательному значению.
 
 ### Примеры
 
-Показывает, как установить размеры изображений, поскольку MERGEFIELDS принимает их во время слияния почты.
+Показывает, как установить размеры изображений, поскольку MERGEFIELDS принимает их во время слияния.
 
 ```csharp
 {

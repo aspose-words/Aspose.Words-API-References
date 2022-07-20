@@ -1,14 +1,14 @@
 ---
 title: GroupIndex
 second_title: Aspose.Words for .NET API 参考
-description: 按索引标识Matchaspose.words.replacing/replacingargs/match中的捕获组将被替换为PAspose.Words.Replacing.ReplacingArgs.Replacement字符串
+description: 按索引标识在Matchaspose.words.replacing/replacingargs/match 被替换为Replacementaspose.words.replacing/replacingargs/replacement字符串.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.replacing/replacingargs/groupindex/
 ---
 ## ReplacingArgs.GroupIndex property
 
-按索引标识[`Match`](../match)中的捕获组:将被替换为PAspose.Words.Replacing.ReplacingArgs.Replacement字符串。
+按索引标识在[`Match`](../match) 被替换为[`Replacement`](../replacement)字符串.
 
 ```csharp
 public int GroupIndex { get; set; }
@@ -16,13 +16,13 @@ public int GroupIndex { get; set; }
 
 ### 评论
 
-`GroupIndex`仅当[`GroupName`](../groupname)为空时才有效。
+`GroupIndex`只有当[`GroupName`](../groupname)一片空白。
 
 默认为零。
 
 ### 例子
 
-显示如何通过 FindReplaceOptions 将不同的字体应用于新内容。
+展示如何通过 FindReplaceOptions 将不同的字体应用于新内容。
 
 ```csharp
 {

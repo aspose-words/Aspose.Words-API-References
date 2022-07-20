@@ -1,14 +1,14 @@
 ---
 title: Clone
 second_title: Aspose.Words for .NET API 参考
-description: 执行Documentaspose.words/document的深拷贝
+description: 对Documentaspose.words/document.
 type: docs
 weight: 530
 url: /zh/net/aspose.words/document/clone/
 ---
 ## Document.Clone method
 
-执行[`Document`](../../document)的深拷贝。
+对[`Document`](../../document).
 
 ```csharp
 public Document Clone()
@@ -20,7 +20,7 @@ public Document Clone()
 
 ### 例子
 
-显示如何深度克隆文档。
+演示如何深度克隆文档。
 
 ```csharp
 Document doc = new Document();

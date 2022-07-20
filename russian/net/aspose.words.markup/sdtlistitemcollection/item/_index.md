@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Справочник по API Aspose.Words для .NET
-description: Возвращает объектSdtListItemaspose.words.markup/sdtlistitemс учетом его индекса в коллекции начинающегося с нуля.
+description: ВозвращаетSdtListItemaspose.words.markup/sdtlistitem объект с отсчитываемым от нуля индексом в коллекции.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.markup/sdtlistitemcollection/item/
 ---
 ## SdtListItemCollection indexer
 
-Возвращает объект[`SdtListItem`](../../sdtlistitem)с учетом его индекса в коллекции, начинающегося с нуля.
+Возвращает[`SdtListItem`](../../sdtlistitem) объект с отсчитываемым от нуля индексом в коллекции.
 
 ```csharp
 public SdtListItem this[int index] { get; }
@@ -16,7 +16,7 @@ public SdtListItem this[int index] { get; }
 
 ### Примеры
 
-Показывает, как работать со структурированными тегами выпадающего списка.
+Показывает, как работать с тегами структурированного документа с раскрывающимся списком.
 
 ```csharp
 Document doc = new Document();

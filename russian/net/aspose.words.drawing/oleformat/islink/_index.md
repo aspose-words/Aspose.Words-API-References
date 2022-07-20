@@ -1,14 +1,14 @@
 ---
 title: IsLink
 second_title: Справочник по API Aspose.Words для .NET
-description: Возвращает true если объект OLE связан когда указаноSourceFullNameaspose.words.drawing/oleformat/sourcefullname.
+description: Возвращает значение true если объект OLE связан когдаSourceFullNameaspose.words.drawing/oleformat/sourcefullname указано.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.drawing/oleformat/islink/
 ---
 ## OleFormat.IsLink property
 
-Возвращает true, если объект OLE связан (когда указано[`SourceFullName`](../sourcefullname)).
+Возвращает значение true, если объект OLE связан (когда[`SourceFullName`](../sourcefullname) указано).
 
 ```csharp
 public bool IsLink { get; }

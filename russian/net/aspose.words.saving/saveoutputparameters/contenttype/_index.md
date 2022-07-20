@@ -1,14 +1,14 @@
 ---
 title: ContentType
 second_title: Справочник по API Aspose.Words для .NET
-description: Возвращает строку Content-Type Internet Media Type определяющую тип сохраненного документа.
+description: Возвращает строку Content-Type тип интернет-медиа которая определяет тип сохраненного документа.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.saving/saveoutputparameters/contenttype/
 ---
 ## SaveOutputParameters.ContentType property
 
-Возвращает строку Content-Type (Internet Media Type), определяющую тип сохраненного документа.
+Возвращает строку Content-Type (тип интернет-медиа), которая определяет тип сохраненного документа.
 
 ```csharp
 public string ContentType { get; }

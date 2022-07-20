@@ -3,7 +3,7 @@ title: CsvDataLoadOptions
 second_title: Aspose.Words for .NET API 参考
 description: 表示解析 CSV 数据的选项
 type: docs
-weight: 4350
+weight: 4400
 url: /zh/net/aspose.words.reporting/csvdataloadoptions/
 ---
 ## CsvDataLoadOptions class
@@ -19,7 +19,7 @@ public class CsvDataLoadOptions
 | 姓名 | 描述 |
 | --- | --- |
 | [CsvDataLoadOptions](csvdataloadoptions#constructor)() | 使用默认选项初始化此类的新实例。 |
-| [CsvDataLoadOptions](csvdataloadoptions#constructor_1)(bool) | 初始化此类的新实例，并指定 CSV 数据是否在第一行包含列名 。 |
+| [CsvDataLoadOptions](csvdataloadoptions#constructor_1)(bool) | 初始化此类的新实例，并在第一行指定 CSV 数据是否包含列名称 。 |
 
 ## 特性
 
@@ -32,7 +32,7 @@ public class CsvDataLoadOptions
 
 ### 评论
 
-可以将此类的实例传递给CsvDataSource。
+可以将此类的实例传递给[`CsvDataSource`](../csvdatasource).
 
 ### 也可以看看
 

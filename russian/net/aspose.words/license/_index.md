@@ -1,14 +1,14 @@
 ---
 title: License
 second_title: Справочник по API Aspose.Words для .NET
-description: Предоставляет методы для лицензирования компонента.
+description: Предоставляет методы лицензирования компонента.
 type: docs
-weight: 3170
+weight: 3220
 url: /ru/net/aspose.words/license/
 ---
 ## License class
 
-Предоставляет методы для лицензирования компонента.
+Предоставляет методы лицензирования компонента.
 
 ```csharp
 public class License

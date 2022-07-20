@@ -1,0 +1,124 @@
+---
+title: ChartDataLabel
+second_title: Aspose.Words per .NET API Reference
+description: Rappresenta letichetta dei dati su un punto del grafico o una linea di tendenza.
+type: docs
+weight: 630
+url: /it/net/aspose.words.drawing.charts/chartdatalabel/
+---
+## ChartDataLabel class
+
+Rappresenta l'etichetta dei dati su un punto del grafico o una linea di tendenza.
+
+```csharp
+public class ChartDataLabel
+```
+
+## Proprietà
+
+| Nome | Descrizione |
+| --- | --- |
+| [Index](../../aspose.words.drawing.charts/chartdatalabel/index) { get; } | Specifica l'indice dell'elemento contenitore. Questo indice determina a quale raccolta dei figli del genitore si applica questo elemento. Il valore predefinito è 0. |
+| [IsHidden](../../aspose.words.drawing.charts/chartdatalabel/ishidden) { get; set; } | Ottiene/imposta un flag che indica se questa etichetta è nascosta. Il valore predefinito è **falso** . |
+| [IsVisible](../../aspose.words.drawing.charts/chartdatalabel/isvisible) { get; } | Restituisce vero se questa etichetta dati ha qualcosa da visualizzare. |
+| [NumberFormat](../../aspose.words.drawing.charts/chartdatalabel/numberformat) { get; } | Restituisce il formato numerico dell'elemento padre. |
+| [Separator](../../aspose.words.drawing.charts/chartdatalabel/separator) { get; set; } | Ottiene o imposta il separatore di stringa utilizzato per le etichette dei dati su un grafico. L'impostazione predefinita è una virgola, ad eccezione dei grafici a torta che mostrano solo il nome della categoria e la percentuale, quando deve essere utilizzata un'interruzione di riga . |
+| [ShowBubbleSize](../../aspose.words.drawing.charts/chartdatalabel/showbubblesize) { get; set; } | Consente di specificare se la dimensione della bolla deve essere visualizzata per le etichette dei dati su un grafico. Si applica solo ai grafici a bolle. Il valore predefinito è false. |
+| [ShowCategoryName](../../aspose.words.drawing.charts/chartdatalabel/showcategoryname) { get; set; } | Consente di specificare se il nome della categoria deve essere visualizzato per le etichette dei dati su un grafico. Il valore predefinito è false. |
+| [ShowDataLabelsRange](../../aspose.words.drawing.charts/chartdatalabel/showdatalabelsrange) { get; set; } | Consente di specificare se i valori dell'intervallo di etichette dati devono essere visualizzati nelle etichette dati. Il valore predefinito è false. |
+| [ShowLeaderLines](../../aspose.words.drawing.charts/chartdatalabel/showleaderlines) { get; set; } | Consente di specificare se è necessario visualizzare le linee guida dell'etichetta dati. Il valore predefinito è false. |
+| [ShowLegendKey](../../aspose.words.drawing.charts/chartdatalabel/showlegendkey) { get; set; } | Consente di specificare se la chiave legenda deve essere visualizzata per le etichette dati su un grafico. Il valore predefinito è false. |
+| [ShowPercentage](../../aspose.words.drawing.charts/chartdatalabel/showpercentage) { get; set; } | Consente di specificare se il valore percentuale deve essere visualizzato per le etichette dati su un grafico. Il valore predefinito è false. |
+| [ShowSeriesName](../../aspose.words.drawing.charts/chartdatalabel/showseriesname) { get; set; } | Restituisce o imposta un valore booleano per indicare il comportamento di visualizzazione del nome della serie per le etichette dei dati su un grafico. True per mostrare il nome della serie. Falso da nascondere. Per impostazione predefinita false. |
+| [ShowValue](../../aspose.words.drawing.charts/chartdatalabel/showvalue) { get; set; } | Consente di specificare se i valori devono essere visualizzati nelle etichette dei dati. Il valore predefinito è false. |
+
+## Metodi
+
+| Nome | Descrizione |
+| --- | --- |
+| [ClearFormat](../../aspose.words.drawing.charts/chartdatalabel/clearformat)() | Cancella il formato di questa etichetta dati. Le proprietà sono impostate sui valori predefiniti definiti nella raccolta di etichette data padre. |
+
+### Osservazioni
+
+Su una serie, il[`ChartDataLabel`](../chartdatalabel) oggetto è un membro del[`ChartDataLabelCollection`](../chartdatalabelcollection) . Il[`ChartDataLabelCollection`](../chartdatalabelcollection) contiene un[`ChartDataLabel`](../chartdatalabel) oggetto per ogni punto.
+
+### Esempi
+
+Mostra come applicare etichette ai punti dati in un grafico a linee.
+
+```csharp
+{
+    Document doc = new Document();
+    DocumentBuilder builder = new DocumentBuilder(doc);
+
+    Shape chartShape = builder.InsertChart(ChartType.Line, 400, 300);
+    Chart chart = chartShape.Chart;
+
+    Assert.AreEqual(3, chart.Series.Count);
+    Assert.AreEqual("Series 1", chart.Series[0].Name);
+    Assert.AreEqual("Series 2", chart.Series[1].Name);
+    Assert.AreEqual("Series 3", chart.Series[2].Name);
+
+    // Applica etichette dati a ogni serie nel grafico.
+    // Queste etichette appariranno accanto a ciascun punto dati nel grafico e ne visualizzeranno il valore.
+    foreach (ChartSeries series in chart.Series)
+    {
+        ApplyDataLabels(series, 4, "000.0", ", ");
+        Assert.AreEqual(4, series.DataLabels.Count);
+    }
+
+    // Modifica la stringa di separazione per ogni etichetta di dati in una serie.
+    using (IEnumerator<ChartDataLabel> enumerator = chart.Series[0].DataLabels.GetEnumerator())
+    {
+        while (enumerator.MoveNext())
+        {
+            Assert.AreEqual(", ", enumerator.Current.Separator);
+            enumerator.Current.Separator = " & ";
+        }
+    }
+
+    // Per un grafico dall'aspetto più pulito, possiamo rimuovere le etichette dei dati individualmente.
+    chart.Series[1].DataLabels[2].ClearFormat();
+
+    // Possiamo anche rimuovere un'intera serie di etichette dati contemporaneamente.
+    chart.Series[2].DataLabels.ClearFormat();
+
+    doc.Save(ArtifactsDir + "Charts.DataLabels.docx");
+}
+
+/// <summary>
+/// Applica etichette dati con formato numerico personalizzato e separatore a più punti dati di una serie.
+/// </summary>
+private static void ApplyDataLabels(ChartSeries series, int labelsCount, string numberFormat, string separator)
+{
+    for (int i = 0; i < labelsCount; i++)
+    {
+        series.HasDataLabels = true;
+
+        Assert.False(series.DataLabels[i].IsVisible);
+
+        series.DataLabels[i].ShowCategoryName = true;
+        series.DataLabels[i].ShowSeriesName = true;
+        series.DataLabels[i].ShowValue = true;
+        series.DataLabels[i].ShowLeaderLines = true;
+        series.DataLabels[i].ShowLegendKey = true;
+        series.DataLabels[i].ShowPercentage = false;
+        series.DataLabels[i].IsHidden = false;
+        Assert.False(series.DataLabels[i].ShowDataLabelsRange);
+
+        series.DataLabels[i].NumberFormat.FormatCode = numberFormat;
+        series.DataLabels[i].Separator = separator;
+
+        Assert.False(series.DataLabels[i].ShowDataLabelsRange);
+        Assert.True(series.DataLabels[i].IsVisible);
+        Assert.False(series.DataLabels[i].IsHidden);
+    }
+}
+```
+
+### Guarda anche
+
+* spazio dei nomi [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts)
+* assemblea [Aspose.Words](../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

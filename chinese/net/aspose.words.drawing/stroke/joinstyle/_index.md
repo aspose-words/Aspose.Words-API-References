@@ -16,7 +16,7 @@ public JoinStyle JoinStyle { get; set; }
 
 ### 评论
 
-默认值为JoinStyle。圆形的。
+默认值为Round.
 
 ### 例子
 

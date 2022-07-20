@@ -1,14 +1,14 @@
 ---
 title: FieldIndexFormat
 second_title: Справочник по API Aspose.Words для .NET
-description: Задает форматирование полейFieldIndex./fieldindexв документе.
+description: Определяет форматированиеFieldIndex./fieldindex поля в документе.
 type: docs
-weight: 1880
+weight: 1920
 url: /ru/net/aspose.words.fields/fieldindexformat/
 ---
 ## FieldIndexFormat enumeration
 
-Задает форматирование полей[`FieldIndex`](../fieldindex)в документе.
+Определяет форматирование[`FieldIndex`](../fieldindex) поля в документе.
 
 ```csharp
 public enum FieldIndexFormat
@@ -20,11 +20,11 @@ public enum FieldIndexFormat
 | --- | --- | --- |
 | Template | `0` | Из шаблона. |
 | Classic | `1` | Классический. |
-| Fancy | `2` | Необычно. |
-| Modern | `3` | Модерн. |
-| Bulleted | `4` | Маркированный. |
+| Fancy | `2` | Изысканный. |
+| Modern | `3` | Современный. |
+| Bulleted | `4` | Пуля. |
 | Formal | `5` | Формальный. |
-| Simple | `6` | Просто. |
+| Simple | `6` | Простой. |
 
 ### Смотрите также
 

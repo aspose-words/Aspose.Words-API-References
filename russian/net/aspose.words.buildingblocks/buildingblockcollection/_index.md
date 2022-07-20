@@ -1,14 +1,14 @@
 ---
 title: BuildingBlockCollection
 second_title: Справочник по API Aspose.Words для .NET
-description: Набор объектовBuildingBlock./buildingblockв документе.
+description: КоллекцияBuildingBlock./buildingblock объекты в документе.
 type: docs
 weight: 140
 url: /ru/net/aspose.words.buildingblocks/buildingblockcollection/
 ---
 ## BuildingBlockCollection class
 
-Набор объектов[`BuildingBlock`](../buildingblock)в документе.
+Коллекция[`BuildingBlock`](../buildingblock) объекты в документе.
 
 ```csharp
 public class BuildingBlockCollection : NodeCollection
@@ -37,7 +37,7 @@ public class BuildingBlockCollection : NodeCollection
 
 ### Примечания
 
-Вы не создаете экземпляры этого класса напрямую. Чтобы получить доступ к коллекции строительных блоков, используйте свойство[`BuildingBlocks`](../glossarydocument/buildingblocks).
+Вы не создаете экземпляры этого класса напрямую. Чтобы получить доступ к коллекции строительных блоков, используйте[`BuildingBlocks`](../glossarydocument/buildingblocks) имущество.
 
 ### Примеры
 
@@ -59,33 +59,33 @@ public void GlossaryDocument()
 
     doc.GlossaryDocument = glossaryDoc;
 
-     // Существуют различные способы доступа к строительным блокам.
-     // 1 - Получить первый/последний строительные блоки в коллекции: 
+    // Существуют различные способы доступа к строительным блокам.
+    // 1 - Получить первый/последний строительные блоки в коллекции:
     Assert.AreEqual("Block 1", glossaryDoc.FirstBuildingBlock.Name);
     Assert.AreEqual("Block 5", glossaryDoc.LastBuildingBlock.Name);
 
-     // 2 - Получить строительный блок по индексу: 
+    // 2 - Получить строительный блок по индексу:
     Assert.AreEqual("Block 2", glossaryDoc.BuildingBlocks[1].Name);
     Assert.AreEqual("Block 3", glossaryDoc.BuildingBlocks.ToArray()[2].Name);
 
-     // 3 — Получить первый стандартный блок, соответствующий галерее, названию и категории: 
+    // 3 — Получить первый стандартный блок, соответствующий галерее, названию и категории:
     Assert.AreEqual("Block 4", 
         glossaryDoc.GetBuildingBlock(BuildingBlockGallery.All, "(Empty Category)", "Block 4").Name);
 
-     // Мы сделаем это с помощью пользовательского посетителя, 
-     // что даст каждому BuildingBlock в GlossaryDocument уникальный GUID
+    // Мы сделаем это с помощью пользовательского посетителя,
+    // что даст каждому BuildingBlock в GlossaryDocument уникальный GUID
     GlossaryDocVisitor visitor = new GlossaryDocVisitor();
     glossaryDoc.Accept(visitor);
 
     Console.WriteLine(visitor.GetText());
 
-     // В Microsoft Word мы можем получить доступ к строительным блокам через «Вставить» -> "Быстрые детали" -> «Организатор строительных блоков».
+    // В Microsoft Word мы можем получить доступ к строительным блокам через «Вставить» -> "Быстрые детали" -> «Организатор строительных блоков».
     doc.Save(ArtifactsDir + "BuildingBlocks.GlossaryDocument.dotx"); 
 }
 
 /// <summary>
 /// Присваивает каждому строительному блоку в посещенном документе глоссария уникальный идентификатор GUID.
- /// Сохраняет пары блоков GUID в словаре.
+/// Сохраняет пары блоков GUID в словаре.
 /// </summary>
 public class GlossaryDocVisitor : DocumentVisitor
 {

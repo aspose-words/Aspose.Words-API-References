@@ -1,14 +1,14 @@
 ---
 title: TimestampSettings
 second_title: Справочник по API Aspose.Words для .NET
-description: Получает или задает параметры метки времени цифровой подписи.
+description: Получает или задает параметры временной метки цифровой подписи.
 type: docs
 weight: 70
 url: /ru/net/aspose.words.saving/pdfdigitalsignaturedetails/timestampsettings/
 ---
 ## PdfDigitalSignatureDetails.TimestampSettings property
 
-Получает или задает параметры метки времени цифровой подписи.
+Получает или задает параметры временной метки цифровой подписи.
 
 ```csharp
 public PdfDigitalSignatureTimestampSettings TimestampSettings { get; set; }
@@ -16,7 +16,7 @@ public PdfDigitalSignatureTimestampSettings TimestampSettings { get; set; }
 
 ### Примечания
 
-Значение по умолчанию равно null, и цифровая подпись не будет иметь отметку времени. Когда для этого свойства задано допустимое значение[`PdfDigitalSignatureTimestampSettings`](../../pdfdigitalsignaturetimestampsettings)объект, тогда цифровая подпись в документе PDF будет иметь отметку времени.
+Значение по умолчанию равно null, и цифровая подпись не будет иметь отметку времени. Если для этого свойства задано допустимое значение[`PdfDigitalSignatureTimestampSettings`](../../pdfdigitalsignaturetimestampsettings) object, , то цифровая подпись в документе PDF будет иметь отметку времени.
 
 ### Примеры
 

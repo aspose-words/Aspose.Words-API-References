@@ -1,14 +1,14 @@
 ---
 title: DisplayHangulFixedWidth
 second_title: Aspose.Words for .NET API 参考
-description: 韩文字符始终使用固定宽度
+description: 始终为韩文字符使用固定宽度
 type: docs
 weight: 110
 url: /zh/net/aspose.words.settings/compatibilityoptions/displayhangulfixedwidth/
 ---
 ## CompatibilityOptions.DisplayHangulFixedWidth property
 
-韩文字符始终使用固定宽度。
+始终为韩文字符使用固定宽度。
 
 ```csharp
 public bool DisplayHangulFixedWidth { get; set; }

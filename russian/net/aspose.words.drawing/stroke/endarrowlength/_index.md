@@ -1,14 +1,14 @@
 ---
 title: EndArrowLength
 second_title: Справочник по API Aspose.Words для .NET
-description: Определяет длину наконечника стрелки для конца штриха.
+description: Определяет длину стрелки для конца штриха.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.drawing/stroke/endarrowlength/
 ---
 ## Stroke.EndArrowLength property
 
-Определяет длину наконечника стрелки для конца штриха.
+Определяет длину стрелки для конца штриха.
 
 ```csharp
 public ArrowLength EndArrowLength { get; set; }
@@ -16,19 +16,19 @@ public ArrowLength EndArrowLength { get; set; }
 
 ### Примечания
 
-Значение по умолчанию:Середина.
+Значение по умолчаниюMedium.
 
 ### Примеры
 
-Показывает создание различных форм.
+Показывает создание различных фигур.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
- // Ниже приведены четыре примера фигур, которые мы можем вставить в наши документы.
- // 1 - Пунктирная, горизонтальная, полупрозрачная красная линия
- // со стрелкой на левом конце и ромбом на правом конце:
+// Ниже приведены четыре примера фигур, которые мы можем вставить в наши документы.
+// 1 - Пунктирная, горизонтальная, полупрозрачная красная линия
+// со стрелкой на левом конце и ромбом на правом конце:
 Shape arrow = new Shape(doc, ShapeType.Line);
 arrow.Width = 200;
 arrow.Stroke.Color = Color.Red;
@@ -45,7 +45,7 @@ Assert.AreEqual(JoinStyle.Miter, arrow.Stroke.JoinStyle);
 
 builder.InsertNode(arrow);
 
- // 2 - Толстая черная диагональная линия с закругленными концами: 
+// 2 - Толстая черная диагональная линия с закругленными концами:
 Shape line = new Shape(doc, ShapeType.Line);
 line.Top = 40;
 line.Width = 200;
@@ -55,7 +55,7 @@ line.Stroke.EndCap = EndCap.Round;
 
 builder.InsertNode(line);
 
- // 3 - Стрелка с зеленой заливкой:
+// 3 - Стрелка с зеленой заливкой:
 Shape filledInArrow = new Shape(doc, ShapeType.Arrow);
 filledInArrow.Width = 200;
 filledInArrow.Height = 40;
@@ -65,7 +65,7 @@ filledInArrow.Fill.Visible = true;
 
 builder.InsertNode(filledInArrow);
 
- // 4 - Стрелка с перевернутой ориентацией, заполненная логотипом Aspose:
+// 4 - Стрелка с перевернутой ориентацией, заполненная логотипом Aspose:
 Shape filledInArrowImg = new Shape(doc, ShapeType.Arrow);
 filledInArrowImg.Width = 200;
 filledInArrowImg.Height = 40;
@@ -77,8 +77,8 @@ byte[] imageBytes = File.ReadAllBytes(ImageDir + "Logo.jpg");
 using (MemoryStream stream = new MemoryStream(imageBytes))
 {
     Image image = Image.FromStream(stream);
-     // Когда мы меняем ориентацию нашей стрелки, мы также меняем изображение, которое содержит стрелка.
-     // Переверните изображение другим способом, чтобы отменить это, прежде чем получить фигуру для его отображения.
+    // Когда мы меняем ориентацию нашей стрелки, мы также меняем изображение, которое содержит стрелка.
+    // Переверните изображение другим способом, чтобы отменить это, прежде чем получить форму для его отображения.
     image.RotateFlip(RotateFlipType.RotateNoneFlipXY);
 
     filledInArrowImg.ImageData.SetImage(image);

@@ -1,14 +1,14 @@
 ---
 title: FormatAddressOnCountryOrRegion
 second_title: Справочник по API Aspose.Words для .NET
-description: Получает или задает форматирование адреса в соответствии со страной/регионом получателя как определено POSTCODE Всемирный почтовый союз 2006 г. .
+description: Получает или задает форматирование адреса в соответствии со страной/регионом получателя  как определено POSTCODE Всемирный почтовый союз 2006.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.fields/fieldaddressblock/formataddressoncountryorregion/
 ---
 ## FieldAddressBlock.FormatAddressOnCountryOrRegion property
 
-Получает или задает форматирование адреса в соответствии со страной/регионом получателя как определено POST*CODE (Всемирный почтовый союз 2006 г.) ).
+Получает или задает форматирование адреса в соответствии со страной/регионом получателя , как определено POST*CODE (Всемирный почтовый союз 2006).
 
 ```csharp
 public bool FormatAddressOnCountryOrRegion { get; set; }

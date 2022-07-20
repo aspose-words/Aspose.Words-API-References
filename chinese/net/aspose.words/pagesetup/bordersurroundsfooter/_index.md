@@ -1,14 +1,14 @@
 ---
 title: BorderSurroundsFooter
 second_title: Aspose.Words for .NET API 参考
-description: 指定页面边框是否包含页脚
+description: 指定页面边框是包含还是不包含页脚
 type: docs
 weight: 60
 url: /zh/net/aspose.words/pagesetup/bordersurroundsfooter/
 ---
 ## PageSetup.BorderSurroundsFooter property
 
-指定页面边框是否包含页脚。
+指定页面边框是包含还是不包含页脚。
 
 ```csharp
 public bool BorderSurroundsFooter { get; set; }

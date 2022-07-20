@@ -1,14 +1,14 @@
 ---
 title: VerticalAlignment
 second_title: Aspose.Words for .NET API 参考
-description: 指定形状垂直放置的方式
+description: 指定形状如何垂直定位
 type: docs
-weight: 500
+weight: 510
 url: /zh/net/aspose.words.drawing/shapebase/verticalalignment/
 ---
 ## ShapeBase.VerticalAlignment property
 
-指定形状垂直放置的方式。
+指定形状如何垂直定位。
 
 ```csharp
 public VerticalAlignment VerticalAlignment { get; set; }
@@ -16,13 +16,13 @@ public VerticalAlignment VerticalAlignment { get; set; }
 
 ### 评论
 
-默认值为VerticalAlignment。没有任何。
+默认值为None.
 
 仅对顶级浮动形状有效。
 
 ### 例子
 
-显示如何将浮动图像插入页面中心。
+演示如何将浮动图像插入页面中心。
 
 ```csharp
 Document doc = new Document();

@@ -3,7 +3,7 @@ title: HeaderFooterType
 second_title: Aspose.Words for .NET API 参考
 description: 标识在 Word 文件中找到的页眉或页脚的类型
 type: docs
-weight: 2890
+weight: 2940
 url: /zh/net/aspose.words/headerfootertype/
 ---
 ## HeaderFooterType enumeration
@@ -21,13 +21,13 @@ public enum HeaderFooterType
 | HeaderEven | `0` | 偶数页的页眉。 |
 | HeaderPrimary | `1` | 主标题，也用于奇数页。 |
 | FooterEven | `2` | 偶数页的页脚。 |
-| FooterPrimary | `3` | 主页脚，也用于奇数页。 |
-| HeaderFirst | `4` | 该部分第一页的页眉。 |
+| FooterPrimary | `3` | 主要页脚，也用于奇数页。 |
+| HeaderFirst | `4` | 部分第一页的页眉。 |
 | FooterFirst | `5` | 该部分第一页的页脚。 |
 
 ### 例子
 
-展示如何使用 DocumentBuilder 在文档中创建页眉和页脚。
+演示如何使用 DocumentBuilder 在文档中创建页眉和页脚。
 
 ```csharp
 Document doc = new Document();

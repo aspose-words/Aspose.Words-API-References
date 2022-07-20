@@ -1,14 +1,14 @@
 ---
 title: GradientStyle
 second_title: Справочник по API Aspose.Words для .NET
-description: Получает стиль градиентаGradientStyleaspose.words.drawing/gradientstyleдля заливки.
+description: Получает стиль градиентаGradientStyleaspose.words.drawing/gradientstyle для заливки.
 type: docs
 weight: 60
 url: /ru/net/aspose.words.drawing/fill/gradientstyle/
 ---
 ## Fill.GradientStyle property
 
-Получает стиль градиента[`GradientStyle`](../../gradientstyle)для заливки.
+Получает стиль градиента[`GradientStyle`](../../gradientstyle) для заливки.
 
 ```csharp
 public GradientStyle GradientStyle { get; }
@@ -16,7 +16,7 @@ public GradientStyle GradientStyle { get; }
 
 ### Примеры
 
-Показывает, как заполнить форму градиентом.
+Показывает, как заполнить фигуру градиентами.
 
 ```csharp
 Document doc = new Document();

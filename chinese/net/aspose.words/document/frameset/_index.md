@@ -1,14 +1,14 @@
 ---
 title: Frameset
 second_title: Aspose.Words for .NET API 参考
-description: 如果此文档表示框架页面则返回Framesetaspose.words/document/frameset实例
+description: 返回一个Framesetaspose.words/document/frameset例如如果此文档表示一个框架页面
 type: docs
 weight: 160
 url: /zh/net/aspose.words/document/frameset/
 ---
 ## Document.Frameset property
 
-如果此文档表示框架页面，则返回`Frameset`实例。
+返回一个`Frameset`例如，如果此文档表示一个框架页面。
 
 ```csharp
 public Frameset Frameset { get; }
@@ -16,7 +16,7 @@ public Frameset Frameset { get; }
 
 ### 评论
 
-如果文档未加框，则属性具有 **null** 值。
+如果文档没有加框，则属性有 **无效的**值.
 
 ### 例子
 

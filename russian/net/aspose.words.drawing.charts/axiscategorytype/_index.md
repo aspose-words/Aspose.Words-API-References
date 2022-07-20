@@ -1,14 +1,14 @@
 ---
 title: AxisCategoryType
 second_title: Справочник по API Aspose.Words для .NET
-description: Указывает тип оси категорий.
+description: Определяет тип оси категорий.
 type: docs
 weight: 520
 url: /ru/net/aspose.words.drawing.charts/axiscategorytype/
 ---
 ## AxisCategoryType enumeration
 
-Указывает тип оси категорий.
+Определяет тип оси категорий.
 
 ```csharp
 public enum AxisCategoryType
@@ -19,7 +19,7 @@ public enum AxisCategoryType
 | Имя | Ценность | Описание |
 | --- | --- | --- |
 | Automatic | `0` | Указывает, что тип оси категорий определяется автоматически на основе данных. |
-| Category | `1` | Задает ось произвольного набора категорий. |
+| Category | `1` | Указывает ось произвольного набора категорий. |
 | Time | `2` | Задает ось категории времени. |
 
 ### Примеры

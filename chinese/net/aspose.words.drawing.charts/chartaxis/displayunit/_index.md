@@ -16,7 +16,7 @@ public AxisDisplayUnit DisplayUnit { get; }
 
 ### 评论
 
-该属性仅对值轴有效。
+该属性仅对数值轴有效。
 
 ### 例子
 

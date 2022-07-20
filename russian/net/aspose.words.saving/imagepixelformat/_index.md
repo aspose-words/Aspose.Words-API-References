@@ -3,7 +3,7 @@ title: ImagePixelFormat
 second_title: Справочник по API Aspose.Words для .NET
 description: Указывает формат пикселей для сгенерированных изображений страниц документа.
 type: docs
-weight: 4910
+weight: 4960
 url: /ru/net/aspose.words.saving/imagepixelformat/
 ---
 ## ImagePixelFormat enumeration
@@ -28,7 +28,7 @@ public enum ImagePixelFormat
 | Format48BppRgb | `7` | 48 бит на пиксель, RGB. |
 | Format64BppArgb | `8` | 64 бита на пиксель, ARGB. |
 | Format64BppPArgb | `9` | 64 бита на пиксель, ARGB, альфа-канал с предварительным умножением. |
-| Format1bppIndexed | `10` | 1 бит на пиксель, индексированный. |
+| Format1bppIndexed | `10` | 1 бит на пиксель, индексировано. |
 
 ### Примеры
 

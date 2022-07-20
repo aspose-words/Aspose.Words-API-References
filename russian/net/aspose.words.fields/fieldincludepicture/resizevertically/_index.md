@@ -1,14 +1,14 @@
 ---
 title: ResizeVertically
 second_title: Справочник по API Aspose.Words для .NET
-description: Получает или задает следует ли изменять размер изображения по вертикали от источника.
+description: Получает или задает следует ли изменять размер изображения по вертикали из источника.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.fields/fieldincludepicture/resizevertically/
 ---
 ## FieldIncludePicture.ResizeVertically property
 
-Получает или задает, следует ли изменять размер изображения по вертикали от источника.
+Получает или задает, следует ли изменять размер изображения по вертикали из источника.
 
 ```csharp
 public bool ResizeVertically { get; set; }

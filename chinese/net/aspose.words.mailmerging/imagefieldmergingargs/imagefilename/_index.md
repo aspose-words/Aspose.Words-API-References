@@ -1,14 +1,14 @@
 ---
 title: ImageFileName
 second_title: Aspose.Words for .NET API 参考
-description: 设置邮件合并引擎必须插入到文档中的图像文件名
+description: 设置邮件合并引擎必须插入到文档中的图像的文件名
 type: docs
 weight: 20
 url: /zh/net/aspose.words.mailmerging/imagefieldmergingargs/imagefilename/
 ---
 ## ImageFieldMergingArgs.ImageFileName property
 
-设置邮件合并引擎必须插入到文档中的图像文件名。
+设置邮件合并引擎必须插入到文档中的图像的文件名。
 
 ```csharp
 public string ImageFileName { get; set; }

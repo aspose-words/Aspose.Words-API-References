@@ -23,7 +23,7 @@ public Shape InsertOleObject(Stream stream, string progId, bool asIcon, Stream p
 
 ### Возвращаемое значение
 
-Узел формы, содержащий объект Ole и вставленный в текущую позицию Builder.
+Узел Shape, содержащий объект Ole и вставленный в текущую позицию Builder.
 
 ### Примеры
 
@@ -91,7 +91,7 @@ public Shape InsertOleObject(string fileName, bool isLinked, bool asIcon, Stream
 
 ### Возвращаемое значение
 
-Узел формы, содержащий объект Ole и вставленный в текущую позицию Builder.
+Узел Shape, содержащий объект Ole и вставленный в текущую позицию Builder.
 
 ### Примеры
 
@@ -154,7 +154,7 @@ public Shape InsertOleObject(string fileName, string progId, bool isLinked, bool
 
 ### Возвращаемое значение
 
-Узел формы, содержащий объект Ole и вставленный в текущую позицию Builder.
+Узел Shape, содержащий объект Ole и вставленный в текущую позицию Builder.
 
 ### Примеры
 

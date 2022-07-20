@@ -1,14 +1,14 @@
 ---
 title: IsUnicode
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置是否将字符代码解释为 Unicode 字符的值
+description: 获取或设置字符代码是否被解释为 Unicode 字符的值
 type: docs
 weight: 80
 url: /zh/net/aspose.words.fields/fieldsymbol/isunicode/
 ---
 ## FieldSymbol.IsUnicode property
 
-获取或设置是否将字符代码解释为 Unicode 字符的值。
+获取或设置字符代码是否被解释为 Unicode 字符的值。
 
 ```csharp
 public bool IsUnicode { get; set; }

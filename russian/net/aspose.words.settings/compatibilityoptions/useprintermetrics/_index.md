@@ -1,14 +1,14 @@
 ---
 title: UsePrinterMetrics
 second_title: Справочник по API Aspose.Words для .NET
-description: Используйте показатели принтера для отображения документов.
+description: Использование показателей принтера для отображения документов.
 type: docs
 weight: 640
 url: /ru/net/aspose.words.settings/compatibilityoptions/useprintermetrics/
 ---
 ## CompatibilityOptions.UsePrinterMetrics property
 
-Используйте показатели принтера для отображения документов.
+Использование показателей принтера для отображения документов.
 
 ```csharp
 public bool UsePrinterMetrics { get; set; }
@@ -16,7 +16,7 @@ public bool UsePrinterMetrics { get; set; }
 
 ### Примечания
 
-Показатели принтера могут различаться в зависимости от используемых драйверов. Например, Windows "Microsoft OpenXPS Class Driver 2" и "Microsoft Print to PDF" предоставляют немного разные показатели. Таким образом, итоговый макет документа может измениться, если эта опция включена.
+Метрики принтера могут различаться в зависимости от используемых драйверов. Например, Windows "Microsoft OpenXPS Class Driver 2" и "Microsoft Print to PDF" предоставляют немного разные метрики. Таким образом, окончательный макет документа может измениться, если этот параметр включен.
 
 ### Смотрите также
 

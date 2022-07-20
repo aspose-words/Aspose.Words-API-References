@@ -16,7 +16,7 @@ public string CaseCodeStyle { get; set; }
 
 ### 例子
 
-显示如何对 ITF14 条形码执行邮件合并。
+展示如何对 ITF14 条码执行邮件合并。
 
 ```csharp
 Document doc = new Document();

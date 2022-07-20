@@ -1,14 +1,14 @@
 ---
 title: FalseText
 second_title: Справочник по API Aspose.Words для .NET
-description: Получает или задает отображаемый текст если выражение сравнения ложно.
+description: Получает или задает отображаемый текст если выражение сравнения имеет значение false.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.fields/fieldif/falsetext/
 ---
 ## FieldIf.FalseText property
 
-Получает или задает отображаемый текст, если выражение сравнения ложно.
+Получает или задает отображаемый текст, если выражение сравнения имеет значение false.
 
 ```csharp
 public string FalseText { get; set; }

@@ -8,7 +8,7 @@ url: /zh/net/aspose.words/headerfooter/islinkedtoprevious/
 ---
 ## HeaderFooter.IsLinkedToPrevious property
 
-如果此页眉或页脚链接到上一节中的相应页眉或页脚 则为真。
+如果此页眉或页脚链接到上一节中的相应页眉或页脚 ，则为真。
 
 ```csharp
 public bool IsLinkedToPrevious { get; set; }
@@ -18,11 +18,11 @@ public bool IsLinkedToPrevious { get; set; }
 
 默认为真。
 
-注意，当您链接页眉或页脚时，其内容会被清除。
+请注意，当您链接页眉或页脚时，其内容会被清除。
 
 ### 例子
 
-显示如何在节之间链接页眉和页脚。
+显示如何在部分之间链接页眉和页脚。
 
 ```csharp
 Document doc = new Document();

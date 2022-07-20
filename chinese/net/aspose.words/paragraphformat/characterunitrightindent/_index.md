@@ -1,14 +1,14 @@
 ---
 title: CharacterUnitRightIndent
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置指定段落的正确缩进值以字符为单位
+description: 获取或设置指定段落的右缩进值以字符为单位
 type: docs
 weight: 80
 url: /zh/net/aspose.words/paragraphformat/characterunitrightindent/
 ---
 ## ParagraphFormat.CharacterUnitRightIndent property
 
-获取或设置指定段落的正确缩进值（以字符为单位）。
+获取或设置指定段落的右缩进值（以字符为单位）。
 
 ```csharp
 public double CharacterUnitRightIndent { get; set; }

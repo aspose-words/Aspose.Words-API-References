@@ -1,14 +1,14 @@
 ---
 title: MatchOffset
 second_title: Справочник по API Aspose.Words для .NET
-description: Получает отсчитываемую от нуля начальную позицию совпадения с начала узла содержащего начало совпадения.
+description: Получает отсчитываемую от нуля начальную позицию совпадения от начала узла содержащего начало совпадения.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.replacing/replacingargs/matchoffset/
 ---
 ## ReplacingArgs.MatchOffset property
 
-Получает отсчитываемую от нуля начальную позицию совпадения с начала узла, содержащего начало совпадения.
+Получает отсчитываемую от нуля начальную позицию совпадения от начала узла, содержащего начало совпадения.
 
 ```csharp
 public int MatchOffset { get; }

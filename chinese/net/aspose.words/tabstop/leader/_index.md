@@ -1,14 +1,14 @@
 ---
 title: Leader
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置制表符下显示的引导线类型
+description: 获取或设置制表符下显示的引导线的类型
 type: docs
 weight: 40
 url: /zh/net/aspose.words/tabstop/leader/
 ---
 ## TabStop.Leader property
 
-获取或设置制表符下显示的引导线类型。
+获取或设置制表符下显示的引导线的类型。
 
 ```csharp
 public TabLeader Leader { get; set; }
@@ -16,7 +16,7 @@ public TabLeader Leader { get; set; }
 
 ### 例子
 
-显示如何修改目录相关段落中右制表位的位置。
+显示如何修改 TOC 相关段落中右制表位的位置。
 
 ```csharp
 Document doc = new Document(MyDir + "Table of contents.docx");

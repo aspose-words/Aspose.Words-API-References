@@ -3,7 +3,7 @@ title: WatermarkLayout
 second_title: Справочник по API Aspose.Words для .NET
 description: Определяет расположение водяного знака относительно центра водяного знака.
 type: docs
-weight: 6320
+weight: 6370
 url: /ru/net/aspose.words/watermarklayout/
 ---
 ## WatermarkLayout enumeration

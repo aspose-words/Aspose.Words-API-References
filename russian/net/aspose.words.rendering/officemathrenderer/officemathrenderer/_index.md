@@ -50,7 +50,7 @@ bounds = renderer.GetBoundsInPixels(1.0f, 96.0f, 150.0f);
 Assert.AreEqual(159, bounds.Width);
 Assert.AreEqual(28, bounds.Height);
 
-// Границы непрозрачности здесь тоже могут быть разными.
+// Непрозрачные границы здесь тоже могут быть разными.
 bounds = renderer.GetOpaqueBoundsInPixels(1.0f, 96.0f);
 
 Assert.AreEqual(159, bounds.Width);

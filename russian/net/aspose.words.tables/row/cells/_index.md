@@ -1,14 +1,14 @@
 ---
 title: Cells
 second_title: Справочник по API Aspose.Words для .NET
-description: Предоставляет типизированный доступ к Cell дочерним узлам строки.
+description: Предоставляет типизированный доступ к Клетка дочерние узлы строки.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.tables/row/cells/
 ---
 ## Row.Cells property
 
-Предоставляет типизированный доступ к **Cell** дочерним узлам строки.
+Предоставляет типизированный доступ к **Клетка** дочерние узлы строки.
 
 ```csharp
 public CellCollection Cells { get; }
@@ -16,7 +16,7 @@ public CellCollection Cells { get; }
 
 ### Примеры
 
-Показывает, как перебирать все таблицы в документе и печатать содержимое каждой ячейки.
+Показывает, как выполнить итерацию по всем таблицам в документе и распечатать содержимое каждой ячейки.
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");
@@ -30,7 +30,7 @@ for (int i = 0; i < tables.Count; i++)
 
     RowCollection rows = tables[i].Rows;
 
-     // Мы можем использовать метод "ToArray" для набора строк, чтобы клонировать его в массив.
+    // Мы можем использовать метод "ToArray" для набора строк, чтобы клонировать его в массив.
     Assert.AreEqual(rows, rows.ToArray());
     Assert.AreNotSame(rows, rows.ToArray());
 
@@ -40,7 +40,7 @@ for (int i = 0; i < tables.Count; i++)
 
         CellCollection cells = rows[j].Cells;
 
-         // Мы можем использовать метод "ToArray" для набора ячеек, чтобы клонировать его в массив.
+        // Мы можем использовать метод "ToArray" для набора ячеек, чтобы клонировать его в массив.
         Assert.AreEqual(cells, cells.ToArray());
         Assert.AreNotSame(cells, cells.ToArray());
 

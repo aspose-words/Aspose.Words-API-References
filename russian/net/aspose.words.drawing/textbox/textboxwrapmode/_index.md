@@ -16,7 +16,7 @@ public TextBoxWrapMode TextBoxWrapMode { get; set; }
 
 ### Примечания
 
-Значение по умолчанию:Площадь.
+Значение по умолчаниюSquare.
 
 ### Примеры
 

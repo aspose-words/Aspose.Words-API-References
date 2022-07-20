@@ -20,7 +20,7 @@ public void SaveSearchCache(Stream outputStream)
 
 ### 评论
 
-参见[`SetFontsSources`](../setfontssources)方法描述以获取更多信息。
+看[`SetFontsSources`](../setfontssources)更多信息的方法描述。
 
 ### 例子
 

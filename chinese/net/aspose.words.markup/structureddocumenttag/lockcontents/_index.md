@@ -1,14 +1,14 @@
 ---
 title: LockContents
 second_title: Aspose.Words for .NET API 参考
-description: 当设置为 true 时此属性将禁止用户编辑此 SDT 的内容
+description: 当设置为 true 时此属性将禁止用户编辑此内容 SDT.
 type: docs
 weight: 200
 url: /zh/net/aspose.words.markup/structureddocumenttag/lockcontents/
 ---
 ## StructuredDocumentTag.LockContents property
 
-当设置为 true 时，此属性将禁止用户编辑此 **SDT** 的内容。
+当设置为 true 时，此属性将禁止用户编辑此内容 **SDT**.
 
 ```csharp
 public bool LockContents { get; set; }
@@ -16,7 +16,7 @@ public bool LockContents { get; set; }
 
 ### 例子
 
-显示如何将编辑限制应用于结构化文档标签。
+展示如何将编辑限制应用于结构化文档标签。
 
 ```csharp
 Document doc = new Document();

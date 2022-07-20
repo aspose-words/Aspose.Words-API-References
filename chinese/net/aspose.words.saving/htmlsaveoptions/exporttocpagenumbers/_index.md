@@ -1,14 +1,14 @@
 ---
 title: ExportTocPageNumbers
 second_title: Aspose.Words for .NET API 参考
-description: 指定在保存 HTMLMHTML 和 EPUB 时是否将页码写入目录 默认值为 false 
+description: 指定在保存 HTMLMHTML 和 EPUB 时是否将页码写入目录 默认值为错误的.
 type: docs
 weight: 280
 url: /zh/net/aspose.words.saving/htmlsaveoptions/exporttocpagenumbers/
 ---
 ## HtmlSaveOptions.ExportTocPageNumbers property
 
-指定在保存 HTML、MHTML 和 EPUB 时是否将页码写入目录。 默认值为` false` 。
+指定在保存 HTML、MHTML 和 EPUB 时是否将页码写入目录。 默认值为`错误的`.
 
 ```csharp
 public bool ExportTocPageNumbers { get; set; }

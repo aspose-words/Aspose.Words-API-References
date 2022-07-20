@@ -1,14 +1,14 @@
 ---
 title: LoadLinuxSettings
 second_title: Справочник по API Aspose.Words для .NET
-description: Загружает предопределенные настройки подстановки таблиц для платформы Linux.
+description: Загружает предопределенные параметры замены таблиц для платформы Linux.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.fonts/tablesubstitutionrule/loadlinuxsettings/
 ---
 ## TableSubstitutionRule.LoadLinuxSettings method
 
-Загружает предопределенные настройки подстановки таблиц для платформы Linux.
+Загружает предопределенные параметры замены таблиц для платформы Linux.
 
 ```csharp
 public void LoadLinuxSettings()

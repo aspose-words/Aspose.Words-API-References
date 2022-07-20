@@ -1,14 +1,14 @@
 ---
 title: HasMacros
 second_title: Справочник по API Aspose.Words для .NET
-description: Возвращает true  если документ имеет проект VBA макросы.
+description: Возвращает истинный если документ имеет проект VBA макросы.
 type: docs
 weight: 190
 url: /ru/net/aspose.words/document/hasmacros/
 ---
 ## Document.HasMacros property
 
-Возвращает **true** , если документ имеет проект VBA (макросы).
+Возвращает **истинный** если документ имеет проект VBA (макросы).
 
 ```csharp
 public bool HasMacros { get; }
@@ -16,7 +16,7 @@ public bool HasMacros { get; }
 
 ### Примеры
 
-Показывает, как использовать поля MACROBUTTON, чтобы позволить нам запускать макросы документа, щелкая мышью.
+Показывает, как использовать поля MACROBUTTON, чтобы позволить нам запускать макросы документа, щелкая.
 
 ```csharp
 Document doc = new Document(MyDir + "Macro.docm");

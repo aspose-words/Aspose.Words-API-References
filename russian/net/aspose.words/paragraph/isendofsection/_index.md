@@ -1,14 +1,14 @@
 ---
 title: IsEndOfSection
 second_title: Справочник по API Aspose.Words для .NET
-description: Истинно если этот абзац является последним абзацем в Body основной текст статьи Раздел  ложно в противном случае.
+description: Истинно если этот абзац является последним абзацем в Тело рассказ основного текста Раздел  false иначе.
 type: docs
 weight: 80
 url: /ru/net/aspose.words/paragraph/isendofsection/
 ---
 ## Paragraph.IsEndOfSection property
 
-Истинно, если этот абзац является последним абзацем в **Body** (основной текст) статьи **Раздел** ; ложно в противном случае.
+Истинно, если этот абзац является последним абзацем в **Тело** (рассказ основного текста) **Раздел** ; false иначе.
 
 ```csharp
 public bool IsEndOfSection { get; }
@@ -55,8 +55,8 @@ static void InsertDocument(Node insertionDestination, Document docToInsert)
         NodeImporter importer =
             new NodeImporter(docToInsert, insertionDestination.Document, ImportFormatMode.KeepSourceFormatting);
 
-         // Перебираем все узлы блочного уровня в теле раздела, 
-         // затем клонируем и вставляем каждый узел, который не является последним пустым абзацем раздела.
+        // Перебрать все узлы блочного уровня в теле раздела,
+        // затем клонируем и вставляем каждый узел, который не является последним пустым абзацем раздела.
         foreach (Section srcSection in docToInsert.Sections.OfType<Section>())
             foreach (Node srcNode in srcSection.Body)
             {

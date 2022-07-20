@@ -16,7 +16,7 @@ public PdfZoomBehavior ZoomBehavior { get; set; }
 
 ### 评论
 
-默认值为None，即没有应用拟合。
+默认值为None ，即没有应用拟合。
 
 ### 例子
 

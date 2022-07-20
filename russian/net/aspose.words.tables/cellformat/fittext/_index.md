@@ -1,14 +1,14 @@
 ---
 title: FitText
 second_title: Справочник по API Aspose.Words для .NET
-description: Если true текст помещается в ячейку сжимая каждый абзац до ширины ячейки.
+description: Если true текст помещается в ячейку каждый абзац сжимается до ширины ячейки.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.tables/cellformat/fittext/
 ---
 ## CellFormat.FitText property
 
-Если true, текст помещается в ячейку, сжимая каждый абзац до ширины ячейки.
+Если true, текст помещается в ячейку, каждый абзац сжимается до ширины ячейки.
 
 ```csharp
 public bool FitText { get; set; }

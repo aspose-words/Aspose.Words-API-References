@@ -1,14 +1,14 @@
 ---
 title: GetEnumerator
 second_title: Справочник по API Aspose.Words для .NET
-description: Возвращает перечислитель который может перебирать коллекцию.
+description: Возвращает перечислитель который может выполнять итерацию по коллекции.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.webextensions/basewebextensioncollection-1/getenumerator/
 ---
 ## BaseWebExtensionCollection&lt;T&gt;.GetEnumerator method
 
-Возвращает перечислитель, который может перебирать коллекцию.
+Возвращает перечислитель, который может выполнять итерацию по коллекции.
 
 ```csharp
 public IEnumerator<T> GetEnumerator()
@@ -16,7 +16,7 @@ public IEnumerator<T> GetEnumerator()
 
 ### Примеры
 
-Показывает, как работать с набором веб-расширений документа. .
+Показывает, как работать с коллекцией веб-расширений документа.
 
 ```csharp
 Document doc = new Document(MyDir + "Web extension.docx");

@@ -1,14 +1,14 @@
 ---
 title: EstimatedProgress
 second_title: Справочник по API Aspose.Words для .NET
-description: Общий предполагаемый прогресс в процентах.
+description: Общий расчетный процент прогресса.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.saving/documentsavingargs/estimatedprogress/
 ---
 ## DocumentSavingArgs.EstimatedProgress property
 
-Общий предполагаемый прогресс в процентах.
+Общий расчетный процент прогресса.
 
 ```csharp
 public double EstimatedProgress { get; }
@@ -23,19 +23,19 @@ public void ProgressCallback(SaveFormat saveFormat, string ext)
 {
     Document doc = new Document(MyDir + "Big document.docx");
 
-    // Поддерживаются следующие форматы: XamlFlow, XamlFlowPack.
-    XamlFlowSaveOptions saveOptions = new XamlFlowSaveOptions(saveFormat)
+    // Поддерживаются следующие форматы: Html, Mhtml, Epub.
+    HtmlSaveOptions saveOptions = new HtmlSaveOptions(saveFormat)
     {
         ProgressCallback = new SavingProgressCallback()
     };
 
     var exception = Assert.Throws<OperationCanceledException>(() =>
-        doc.Save(ArtifactsDir + $"XamlFlowSaveOptions.ProgressCallback.{ext}", saveOptions));
+        doc.Save(ArtifactsDir + $"HtmlSaveOptions.ProgressCallback.{ext}", saveOptions));
     Assert.True(exception?.Message.Contains("EstimatedProgress"));
 }
 
 /// <summary>
-/// Обратный вызов сохранения прогресса. Отменить сохранение документа после «MaxDuration» секунд.
+/// Обратный вызов сохранения прогресса. Отмените сохранение документа после «MaxDuration» секунд.
 /// </summary>
 public class SavingProgressCallback : IDocumentSavingCallback
 {
@@ -67,7 +67,7 @@ public class SavingProgressCallback : IDocumentSavingCallback
     /// <summary>
     /// Максимально допустимая продолжительность в сек.
     /// </summary>
-    private const double MaxDuration = 0.01d;
+    private const double MaxDuration = 0.1d;
 }
 ```
 
@@ -78,19 +78,19 @@ public void ProgressCallback(SaveFormat saveFormat, string ext)
 {
     Document doc = new Document(MyDir + "Big document.docx");
 
-    // Поддерживаются следующие форматы: XamlFlow, XamlFlowPack.
-    XamlFlowSaveOptions saveOptions = new XamlFlowSaveOptions(saveFormat)
+    // Поддерживаются следующие форматы: Docx, FlatOpc, Docm, Dotm, Dotx.
+    OoxmlSaveOptions saveOptions = new OoxmlSaveOptions(saveFormat)
     {
         ProgressCallback = new SavingProgressCallback()
     };
 
     var exception = Assert.Throws<OperationCanceledException>(() =>
-        doc.Save(ArtifactsDir + $"XamlFlowSaveOptions.ProgressCallback.{ext}", saveOptions));
+        doc.Save(ArtifactsDir + $"OoxmlSaveOptions.ProgressCallback.{ext}", saveOptions));
     Assert.True(exception?.Message.Contains("EstimatedProgress"));
 }
 
 /// <summary>
-/// Обратный вызов сохранения прогресса. Отменить сохранение документа после «MaxDuration» секунд.
+/// Обратный вызов сохранения прогресса. Отмените сохранение документа после «MaxDuration» секунд.
 /// </summary>
 public class SavingProgressCallback : IDocumentSavingCallback
 {
@@ -145,7 +145,7 @@ public void ProgressCallback(SaveFormat saveFormat, string ext)
 }
 
 /// <summary>
-/// Обратный вызов сохранения прогресса. Отменить сохранение документа после «MaxDuration» секунд.
+/// Обратный вызов сохранения прогресса. Отмените сохранение документа после «MaxDuration» секунд.
 /// </summary>
 public class SavingProgressCallback : IDocumentSavingCallback
 {

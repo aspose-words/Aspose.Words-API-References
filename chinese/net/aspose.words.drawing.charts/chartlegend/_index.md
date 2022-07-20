@@ -19,8 +19,8 @@ public class ChartLegend
 | 姓名 | 描述 |
 | --- | --- |
 | [LegendEntries](../../aspose.words.drawing.charts/chartlegend/legendentries) { get; } | 返回父图表的所有系列和趋势线的图例条目集合。 |
-| [Overlay](../../aspose.words.drawing.charts/chartlegend/overlay) { get; set; } | 确定是否允许其他图表元素与图例重叠。 默认值为假。 |
-| [Position](../../aspose.words.drawing.charts/chartlegend/position) { get; set; } | 指定图例在图表上的位置。 默认值为Right。 |
+| [Overlay](../../aspose.words.drawing.charts/chartlegend/overlay) { get; set; } | 确定是否应允许其他图表元素与图例重叠。 默认值为 false。 |
+| [Position](../../aspose.words.drawing.charts/chartlegend/position) { get; set; } | 指定图例在图表上的位置。 默认值为Right. |
 
 ### 例子
 

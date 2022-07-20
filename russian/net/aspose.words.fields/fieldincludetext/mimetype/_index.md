@@ -1,14 +1,14 @@
 ---
 title: MimeType
 second_title: Справочник по API Aspose.Words для .NET
-description: Получает или задает тип MIME файла на который указывает ссылка.
+description: Получает или задает MIME-тип файла на который указывает ссылка.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.fields/fieldincludetext/mimetype/
 ---
 ## FieldIncludeText.MimeType property
 
-Получает или задает тип MIME файла, на который указывает ссылка.
+Получает или задает MIME-тип файла, на который указывает ссылка.
 
 ```csharp
 public string MimeType { get; set; }
@@ -16,7 +16,7 @@ public string MimeType { get; set; }
 
 ### Примеры
 
-Показывает, как создать поле INCLUDETEXT и установить его свойства.
+Показывает, как создать поле INCLUDETEXT и задать его свойства.
 
 ```csharp
 public void FieldIncludeText()

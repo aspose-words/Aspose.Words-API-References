@@ -1,14 +1,14 @@
 ---
 title: AddPrinterFont
 second_title: Aspose.Words for .NET API 参考
-description: 添加由制造商上传到打印机的字体信息
+description: 添加有关由制造商上传到打印机的字体信息
 type: docs
 weight: 50
 url: /zh/net/aspose.words.saving/pclsaveoptions/addprinterfont/
 ---
 ## PclSaveOptions.AddPrinterFont method
 
-添加由制造商上传到打印机的字体信息。
+添加有关由制造商上传到打印机的字体信息。
 
 ```csharp
 public void AddPrinterFont(string fontFullName, string fontPclName)
@@ -25,7 +25,7 @@ public void AddPrinterFont(string fontFullName, string fontPclName)
 
 ### 例子
 
-显示如何让打印机用不同字体替换特定字体的所有实例。
+演示如何让打印机用不同的字体替换特定字体的所有实例。
 
 ```csharp
 Document doc = new Document();
@@ -37,8 +37,8 @@ builder.Write("Hello world!");
 PclSaveOptions saveOptions = new PclSaveOptions();
 saveOptions.AddPrinterFont("Courier New", "Courier");
 
- // 打印此文档时，打印机将使用“Courier New”字体
- // 访问我们的文档使用“Courier”字体的地方。
+// 打印此文档时，打印机将使用“Courier New”字体
+// 访问我们的文档使用“Courier”字体的地方。
 doc.Save(ArtifactsDir + "PclSaveOptions.AddPrinterFont.pcl", saveOptions);
 ```
 

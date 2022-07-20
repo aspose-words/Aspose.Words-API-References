@@ -10,7 +10,7 @@ url: /ru/net/aspose.words.drawing/signatureline/id/
 
 Получает или устанавливает идентификатор для этой строки подписи.
 
-Этот идентификатор может быть связан с цифровой подписью при подписании документа с использованием[`DigitalSignatureUtil`](../../../aspose.words.digitalsignatures/digitalsignatureutil). Это значение должно быть уникальным, и по умолчанию оно генерируется случайно новым Guid (NewGuid).
+Этот идентификатор может быть связан с цифровой подписью при подписании документа с использованием[`DigitalSignatureUtil`](../../../aspose.words.digitalsignatures/digitalsignatureutil). Это значение должно быть уникальным и по умолчанию оно генерируется случайным образом новым Guid (NewGuid).
 
 ```csharp
 public Guid Id { get; set; }

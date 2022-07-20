@@ -3,7 +3,7 @@ title: UserPromptRespondent
 second_title: Справочник по API Aspose.Words для .NET
 description: Получает или задает респондента на запросы пользователя во время обновления поля.
 type: docs
-weight: 190
+weight: 200
 url: /ru/net/aspose.words.fields/fieldoptions/userpromptrespondent/
 ---
 ## FieldOptions.UserPromptRespondent property
@@ -16,13 +16,13 @@ public IFieldUserPromptRespondent UserPromptRespondent { get; set; }
 
 ### Примечания
 
-Если значение этого свойства установлено в **null** , поля, которые требуют ответа пользователя при запросе (например,[`FieldAsk`](../../fieldask)или[`FieldFillIn`](../../fieldfillin)) не обновляются.
+Если значение этого свойства установлено в **нулевой** , поля, которые требуют ответа пользователя на prompting (например,[`FieldAsk`](../../fieldask) или же[`FieldFillIn`](../../fieldfillin)) не обновляются.
 
-Значение по умолчанию: **null** .
+Значение по умолчанию **нулевой**.
 
 ### Примеры
 
-Показывает, как создать поле ASK и установить его свойства.
+Показывает, как создать поле ASK и задать его свойства.
 
 ```csharp
 [Test]

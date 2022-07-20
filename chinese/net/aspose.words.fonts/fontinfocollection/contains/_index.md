@@ -16,7 +16,7 @@ public bool Contains(string name)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| name | String | 要定位的字体名称，不区分大小写。 |
+| name | String | 要查找的字体的不区分大小写的名称。 |
 
 ### 返回值
 

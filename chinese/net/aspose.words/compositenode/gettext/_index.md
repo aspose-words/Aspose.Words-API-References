@@ -16,7 +16,7 @@ public override string GetText()
 
 ### 评论
 
-返回的字符串包括T中描述的所有控制和特殊字符:Aspose.Words.ControlChar。
+返回的字符串包括所有控制和特殊字符，如[`ControlChar`](../../controlchar).
 
 ### 例子
 
@@ -24,27 +24,15 @@ public override string GetText()
 
 ```csharp
 Document doc = new Document();
+
 DocumentBuilder builder = new DocumentBuilder(doc);
+builder.InsertField("MERGEFIELD Field");
 
-builder.ListFormat.ApplyNumberDefault();
-builder.Writeln("Numbered list item 1");
-builder.Writeln("Numbered list item 2");
-builder.Writeln("Numbered list item 3");
-builder.ListFormat.RemoveNumbers();
+// GetText 将检索可见文本以及域代码和特殊字符。
+Assert.AreEqual("\u0013MERGEFIELD Field\u0014«Field»\u0015\u000c", doc.GetText());
 
-builder.ListFormat.ApplyBulletDefault();
-builder.Writeln("Bulleted list item 1");
-builder.Writeln("Bulleted list item 2");
-builder.Writeln("Bulleted list item 3");
-builder.ListFormat.RemoveNumbers();
-
-NodeCollection paras = doc.GetChildNodes(NodeType.Paragraph, true);
-
-foreach (Paragraph para in paras.OfType<Paragraph>().Where(p => p.ListFormat.IsListItem))
-{ 
-    Console.WriteLine($"This paragraph belongs to list ID# {para.ListFormat.List.ListId}, number style \"{para.ListFormat.ListLevel.NumberStyle}\"");
-    Console.WriteLine($"\t\"{para.GetText().Trim()}\"");
-}
+// 如果保存为传递的保存格式，ToString 将为我们提供文档的外观。
+Assert.AreEqual("«Field»\r\n", doc.ToString(SaveFormat.Text));
 ```
 
 显示如何输出文档中作为列表项的所有段落。

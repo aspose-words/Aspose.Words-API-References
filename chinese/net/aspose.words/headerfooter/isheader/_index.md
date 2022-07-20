@@ -1,14 +1,14 @@
 ---
 title: IsHeader
 second_title: Aspose.Words for .NET API 参考
-description: 如果此 HeaderFooter 对象是标头则为真
+description: 如果这个为真 页眉页脚对象是一个标题
 type: docs
 weight: 30
 url: /zh/net/aspose.words/headerfooter/isheader/
 ---
 ## HeaderFooter.IsHeader property
 
-如果此 **HeaderFooter** 对象是标头，则为真。
+如果这个为真 **页眉页脚**对象是一个标题。
 
 ```csharp
 public bool IsHeader { get; }

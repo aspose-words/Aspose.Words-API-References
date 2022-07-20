@@ -24,14 +24,14 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Write("Please select a fruit: ");
 
- // 插入一个组合框，允许用户从字符串集合中选择一个选项。
+// 插入一个组合框，允许用户从字符串集合中选择一个选项。
 FormField comboBox = builder.InsertComboBox("MyComboBox", new[] { "Apple", "Banana", "Cherry" }, 0);
 
 Assert.AreEqual("MyComboBox", comboBox.Name);
 Assert.AreEqual(FieldType.FieldFormDropDown, comboBox.Type);
 Assert.AreEqual("Apple", comboBox.Result);
 
- // 表单域会以“select”html标签的形式出现。
+// 表单域将以“select”html标签的形式出现。
 doc.Save(ArtifactsDir + "FormFields.Create.html");
 ```
 

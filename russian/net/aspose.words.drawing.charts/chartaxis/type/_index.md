@@ -16,7 +16,7 @@ public ChartAxisType Type { get; }
 
 ### Примеры
 
-Показывает, как создать соответствующий тип серии диаграмм для типа графика.
+Показывает, как создать подходящий тип серии диаграмм для типа графика.
 
 ```csharp
 {
@@ -88,7 +88,7 @@ public ChartAxisType Type { get; }
 }
 
 /// <summary>
-/// Вставьте диаграмму с помощью построителя документов указанного ChartType, ширины и высоты и удалите ее демонстрационные данные.
+/// Вставьте диаграмму с помощью построителя документов указанного типа ChartType, ширины и высоты и удалите ее демонстрационные данные.
 /// </summary>
 private static Chart AppendChart(DocumentBuilder builder, ChartType chartType, double width, double height)
 {

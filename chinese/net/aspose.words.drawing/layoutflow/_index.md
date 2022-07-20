@@ -22,12 +22,12 @@ public enum LayoutFlow
 | TopToBottomIdeographic | `1` | 表意文字垂直显示。 |
 | BottomToTop | `2` | 文本垂直显示。 |
 | TopToBottom | `3` | 文本垂直显示。 |
-| HorizontalIdeographic | `4` | 水平显示表意文字。 |
+| HorizontalIdeographic | `4` | 表意文字水平显示。 |
 | Vertical | `5` | 文本垂直显示。 |
 
 ### 例子
 
-显示如何将文本添加到文本框，并更改其方向
+演示如何将文本添加到文本框并更改其方向
 
 ```csharp
 Document doc = new Document();

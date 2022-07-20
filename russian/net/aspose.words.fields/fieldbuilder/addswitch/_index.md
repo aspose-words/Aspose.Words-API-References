@@ -16,7 +16,7 @@ public FieldBuilder AddSwitch(string switchName)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| switchName | String | Имя коммутатора. |
+| switchName | String | Имя переключателя. |
 
 ### Примечания
 
@@ -120,7 +120,7 @@ public FieldBuilder AddSwitch(string switchName, string switchArgument)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| switchName | String | Имя коммутатора. |
+| switchName | String | Имя переключателя. |
 | switchArgument | String | Значение переключателя. |
 
 ### Примеры
@@ -221,7 +221,7 @@ public FieldBuilder AddSwitch(string switchName, int switchArgument)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| switchName | String | Имя коммутатора. |
+| switchName | String | Имя переключателя. |
 | switchArgument | Int32 | Значение переключателя. |
 
 ### Примеры
@@ -322,7 +322,7 @@ public FieldBuilder AddSwitch(string switchName, double switchArgument)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| switchName | String | Имя коммутатора. |
+| switchName | String | Имя переключателя. |
 | switchArgument | Double | Значение переключателя. |
 
 ### Примеры

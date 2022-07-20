@@ -22,13 +22,13 @@ public double WidthPercent { get; set; }
 
 ### 评论
 
-有效值范围从1到100（含）。
+有效值范围从 1 到 100（含）。
 
 默认值为 100。
 
 ### 例子
 
-展示如何插入水平线形，并自定义其格式。
+显示如何插入水平线形，并自定义其格式。
 
 ```csharp
 Document doc = new Document();

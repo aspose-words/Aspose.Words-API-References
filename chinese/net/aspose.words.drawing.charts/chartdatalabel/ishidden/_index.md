@@ -1,14 +1,14 @@
 ---
 title: IsHidden
 second_title: Aspose.Words for .NET API 参考
-description: 获取/设置一个标志指示此标签是否隐藏 默认值为 false 
+description: 获取/设置一个标志指示此标签是否隐藏 默认值为 错误的.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.drawing.charts/chartdatalabel/ishidden/
 ---
 ## ChartDataLabel.IsHidden property
 
-获取/设置一个标志，指示此标签是否隐藏。 默认值为 **false** 。
+获取/设置一个标志，指示此标签是否隐藏。 默认值为 **错误的**.
 
 ```csharp
 public bool IsHidden { get; set; }

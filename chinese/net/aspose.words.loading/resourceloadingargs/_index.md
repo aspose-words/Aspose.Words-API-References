@@ -1,14 +1,14 @@
 ---
 title: ResourceLoadingArgs
 second_title: Aspose.Words for .NET API 参考
-description: 为ResourceLoading./iresourceloadingcallback/resourceloading方法提供数据
+description: 为ResourceLoading./iresourceloadingcallback/resourceloading方法.
 type: docs
-weight: 3440
+weight: 3490
 url: /zh/net/aspose.words.loading/resourceloadingargs/
 ---
 ## ResourceLoadingArgs class
 
-为[`ResourceLoading`](../iresourceloadingcallback/resourceloading)方法提供数据。
+为[`ResourceLoading`](../iresourceloadingcallback/resourceloading)方法.
 
 ```csharp
 public class ResourceLoadingArgs
@@ -20,17 +20,17 @@ public class ResourceLoadingArgs
 | --- | --- |
 | [OriginalUri](../../aspose.words.loading/resourceloadingargs/originaluri) { get; } | 导入文档中指定的资源的原始 URI。 |
 | [ResourceType](../../aspose.words.loading/resourceloadingargs/resourcetype) { get; } | 资源类型。 |
-| [Uri](../../aspose.words.loading/resourceloadingargs/uri) { get; set; } | 用于下载的资源的URI if[`ResourceLoading`](../iresourceloadingcallback/resourceloading) 返回Default。 |
+| [Uri](../../aspose.words.loading/resourceloadingargs/uri) { get; set; } | 用于下载的资源的 URI if[`ResourceLoading`](../iresourceloadingcallback/resourceloading) 返回Default. |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [SetData](../../aspose.words.loading/resourceloadingargs/setdata)(byte[]) | 设置所使用资源的用户提供数据 if[`ResourceLoading`](../iresourceloadingcallback/resourceloading) 返回UserProvided。 |
+| [SetData](../../aspose.words.loading/resourceloadingargs/setdata)(byte[]) | 设置所使用资源的用户提供数据 if[`ResourceLoading`](../iresourceloadingcallback/resourceloading) 返回UserProvided |
 
 ### 例子
 
-显示如何自定义将外部资源加载到文档中的过程。
+展示如何自定义将外部资源加载到文档中的过程。
 
 ```csharp
 {

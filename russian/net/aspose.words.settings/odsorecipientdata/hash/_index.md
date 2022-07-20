@@ -1,14 +1,14 @@
 ---
 title: Hash
 second_title: Справочник по API Aspose.Words для .NET
-description: Представляет хэш-код для этой записи. Иногда Microsoft Word используетHashaspose.words.settings/odsorecipientdata/hashцелой записи вместоUniqueTagaspose.words.settings/odsorecipientdata/uniquetagзначение. Значение по умолчанию  0.
+description: Представляет хэш-код для этой записи. Иногда Microsoft Word используетHashaspose.words.settings/odsorecipientdata/hash целой записи вместоUniqueTagaspose.words.settings/odsorecipientdata/uniquetag value. Значение по умолчанию 0.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.settings/odsorecipientdata/hash/
 ---
 ## OdsoRecipientData.Hash property
 
-Представляет хэш-код для этой записи. Иногда Microsoft Word использует`Hash`целой записи вместо[`UniqueTag`](../uniquetag)значение. Значение по умолчанию — 0.
+Представляет хэш-код для этой записи. Иногда Microsoft Word использует`Hash` целой записи вместо[`UniqueTag`](../uniquetag) value. Значение по умолчанию: 0.
 
 ```csharp
 public int Hash { get; set; }
@@ -16,7 +16,7 @@ public int Hash { get; set; }
 
 ### Примеры
 
-Показывает, как получить доступ к набору данных, указывающему, какой источник данных слияния записи, которые слияние почты исключит.
+Показывает, как получить доступ к набору данных, который указывает, какие записи источника данных слияния будут исключены при слиянии.
 
 ```csharp
 Document doc = new Document(MyDir + "Odso data.docx");
@@ -38,10 +38,10 @@ using (IEnumerator<OdsoRecipientData> enumerator = dataCollection.GetEnumerator(
     }
 }
 
- // Мы можем клонировать элементы этой коллекции.
+// Мы можем клонировать элементы этой коллекции.
 Assert.AreNotEqual(dataCollection[0], dataCollection[0].Clone());
 
- // Мы также можем удалить элементы по отдельности или очистить всю коллекцию сразу.
+// Мы также можем удалить элементы по отдельности или очистить всю коллекцию сразу.
 dataCollection.RemoveAt(0);
 
 Assert.AreEqual(69, dataCollection.Count);

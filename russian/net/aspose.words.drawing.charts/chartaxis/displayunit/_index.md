@@ -1,14 +1,14 @@
 ---
 title: DisplayUnit
 second_title: Справочник по API Aspose.Words для .NET
-description: Задает значение масштабирования отображаемых единиц для оси значений.
+description: Определяет значение масштабирования отображаемых единиц для оси значений.
 type: docs
 weight: 60
 url: /ru/net/aspose.words.drawing.charts/chartaxis/displayunit/
 ---
 ## ChartAxis.DisplayUnit property
 
-Задает значение масштабирования отображаемых единиц для оси значений.
+Определяет значение масштабирования отображаемых единиц для оси значений.
 
 ```csharp
 public AxisDisplayUnit DisplayUnit { get; }

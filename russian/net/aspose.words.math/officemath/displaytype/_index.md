@@ -1,14 +1,14 @@
 ---
 title: DisplayType
 second_title: Справочник по API Aspose.Words для .NET
-description: Получает/задает тип формата отображения Office Math который указывает отображается ли уравнение в тексте или отображается на отдельной строке.
+description: Получает/задает тип формата отображения Office Math который указывает отображается ли уравнение вместе с текстом или отображается на отдельной строке.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.math/officemath/displaytype/
 ---
 ## OfficeMath.DisplayType property
 
-Получает/задает тип формата отображения Office Math, который указывает, отображается ли уравнение в тексте или отображается на отдельной строке.
+Получает/задает тип формата отображения Office Math, который указывает, отображается ли уравнение вместе с текстом или отображается на отдельной строке.
 
 ```csharp
 public OfficeMathDisplayType DisplayType { get; set; }
@@ -18,7 +18,7 @@ public OfficeMathDisplayType DisplayType { get; set; }
 
 Тип формата отображения действует только для Office Math верхнего уровня.
 
-Возвращаемый тип формата отображения всегдаInlineдля вложенного Office Math.
+Тип возвращаемого формата отображения всегдаInline для вложенных Office Math.
 
 ### Примеры
 

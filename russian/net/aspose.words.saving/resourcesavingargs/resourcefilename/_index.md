@@ -16,17 +16,17 @@ public string ResourceFileName { get; set; }
 
 ### Примечания
 
-Это свойство позволяет переопределить способ генерации имен файлов ресурсов при экспорте в фиксированную страницу HTML или SVG.
+Это свойство позволяет вам переопределить, как генерируются имена файлов ресурсов во время экспорта в фиксированную страницу HTML или SVG.
 
-Когда событие запускается, это свойство содержит имя файла, созданного Aspose.Words. Вы можете изменить значение этого свойства, чтобы сохранить ресурс в другой файл. Обратите внимание, что имена файлов должны быть уникальными.
+Когда событие запускается, это свойство содержит имя файла, созданное Aspose.Words. Вы можете изменить значение этого свойства, чтобы сохранить ресурс в другом файле. Обратите внимание, что имена файлов должны быть уникальными.
 
 Aspose.Words автоматически генерирует уникальное имя файла для каждого ресурса при экспорте в формат фиксированной страницы HTML или SVG. Способ генерации имени файла ресурсов зависит от того, сохраняете ли вы документ в файл или в поток.
 
-При сохранении документа в файл сгенерированное имя файла ресурсов имеет вид  &lt;база документов имя файла&gt;.&lt;номер изображения&gt;.&lt;расширение&gt; .
+При сохранении документа в файл сгенерированное имя файла ресурсов выглядит как &lt;имя файла базы документов&gt;.&lt;номер изображения&gt;.&lt;расширение&gt;.
 
-При сохранении документа в поток сгенерированное имя файла ресурсов имеет вид  Aspose.Words. &lt;руководство по документу&gt;.&lt;номер изображения&gt;.&lt;расширение&gt; .
+При сохранении документа в поток сгенерированное имя файла ресурсов выглядит как Aspose.Words.&lt;guid документа&gt;.&lt;номер изображения&gt;.&lt;расширение&gt;.
 
-`ResourceFileName`должен содержать только имя файла без пути. Aspose.Words определяет путь для сохранения и значение атрибута` src` для записи на фиксированную страницу HTML или SVG, используя имя файла документа,[`ResourcesFolder`](../../htmlfixedsaveoptions/resourcesfolder) или[`ResourcesFolder`](../../svgsaveoptions/resourcesfolder)и[`ResourcesFolderAlias`](../../htmlfixedsaveoptions/resourcesfolderalias) или[`ResourcesFolderAlias`](../../svgsaveoptions/resourcesfolderalias)характеристики.
+`ResourceFileName` должен содержать только имя файла без пути. Aspose.Words определяет путь для сохранения и значение`источник` атрибут для записи на фиксированную страницу HTML или SVG с использованием имени файла документа,[`ResourcesFolder`](../../htmlfixedsaveoptions/resourcesfolder) или[`ResourcesFolder`](../../svgsaveoptions/resourcesfolder) а также[`ResourcesFolderAlias`](../../htmlfixedsaveoptions/resourcesfolderalias) или[`ResourcesFolderAlias`](../../svgsaveoptions/resourcesfolderalias) характеристики.
 
 [`ResourcesFolder`](../../htmlfixedsaveoptions/resourcesfolder)[`ResourcesFolder`](../../svgsaveoptions/resourcesfolder)[`ResourcesFolderAlias`](../../htmlfixedsaveoptions/resourcesfolderalias)[`ResourcesFolderAlias`](../../svgsaveoptions/resourcesfolderalias)
 
@@ -54,7 +54,7 @@ public void ResourceSavingCallback()
 private class FontSavingCallback : IResourceSavingCallback
 {
     /// <summary>
-     /// Вызывается, когда Aspose.Words сохраняет внешний ресурс на фиксированную страницу HTML или SVG.
+    /// Вызывается, когда Aspose.Words сохраняет внешний ресурс на фиксированной странице HTML или SVG.
     /// </summary>
     public void ResourceSaving(ResourceSavingArgs args)
     {

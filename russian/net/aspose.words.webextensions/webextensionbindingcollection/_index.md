@@ -3,7 +3,7 @@ title: WebExtensionBindingCollection
 second_title: Справочник по API Aspose.Words для .NET
 description: Задает список привязок веб-расширений.
 type: docs
-weight: 6400
+weight: 6450
 url: /ru/net/aspose.words.webextensions/webextensionbindingcollection/
 ---
 ## WebExtensionBindingCollection class
@@ -32,7 +32,7 @@ public class WebExtensionBindingCollection : BaseWebExtensionCollection<WebExten
 
 ### Примеры
 
-Показывает, как добавить веб-расширение к документу.
+Показывает, как добавить веб-расширение в документ.
 
 ```csharp
 Document doc = new Document();

@@ -16,7 +16,7 @@ public Guid SignatureLineId { get; set; }
 
 ### Примечания
 
-Когда установлено, связывает[`SignatureLine`](../../../aspose.words.drawing/signatureline)с соответствующим[`DigitalSignature`](../../digitalsignature).
+При установке связывает[`SignatureLine`](../../../aspose.words.drawing/signatureline) с соответствующим[`DigitalSignature`](../../digitalsignature) .
 
 ### Примеры
 

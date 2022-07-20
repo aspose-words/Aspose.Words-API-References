@@ -16,28 +16,28 @@ public override string ToString()
 
 ### Примечания
 
-Преобразует логическое свойство в "Y" или "N". Преобразует свойство даты в короткую строку даты. Для всех остальных типов преобразует свойство с помощью Object.ToString().
+Преобразует логическое свойство в "Y" или "N". Преобразует свойство даты в короткую строку даты. Для всех других типов преобразует свойство с помощью Object.ToString().
 
 ### Примеры
 
 Показывает различные методы преобразования типов пользовательских свойств документа.
 
 ```csharp
-Document doc = new Document(MyDir + "Properties.docx");
+Document doc = new Document();
+CustomDocumentProperties properties = doc.CustomDocumentProperties;
 
- // Каждый документ содержит набор настраиваемых свойств, которые, как и встроенные свойства, представляют собой пары ключ-значение.
- // Документ имеет фиксированный список встроенных свойств. Пользователь создает все настраиваемые свойства. 
-Assert.AreEqual("Value of custom document property", doc.CustomDocumentProperties["CustomProperty"].ToString());
+DateTime authDate = DateTime.Today;
+properties.Add("Authorized", true);
+properties.Add("Authorized By", "John Doe");
+properties.Add("Authorized Date", authDate);
+properties.Add("Authorized Revision", doc.BuiltInDocumentProperties.RevisionNumber);
+properties.Add("Authorized Amount", 123.45);
 
-doc.CustomDocumentProperties.Add("CustomProperty2", "Value of custom document property #2");
-
-Console.WriteLine("Custom Properties:");
-foreach (var customDocumentProperty in doc.CustomDocumentProperties)
-{
-    Console.WriteLine(customDocumentProperty.Name);
-    Console.WriteLine($"\tType:\t{customDocumentProperty.Type}");
-    Console.WriteLine($"\tValue:\t\"{customDocumentProperty.Value}\"");
-}
+Assert.AreEqual(true, properties["Authorized"].ToBool());
+Assert.AreEqual("John Doe", properties["Authorized By"].ToString());
+Assert.AreEqual(authDate, properties["Authorized Date"].ToDateTime());
+Assert.AreEqual(1, properties["Authorized Revision"].ToInt());
+Assert.AreEqual(123.45d, properties["Authorized Amount"].ToDouble());
 ```
 
 Показывает, как работать с пользовательскими свойствами документа.
@@ -45,8 +45,8 @@ foreach (var customDocumentProperty in doc.CustomDocumentProperties)
 ```csharp
 Document doc = new Document(MyDir + "Properties.docx");
 
- // Каждый документ содержит набор настраиваемых свойств, которые, как и встроенные свойства, представляют собой пары ключ-значение.
- // Документ имеет фиксированный список встроенных свойств. Пользователь создает все настраиваемые свойства. 
+// Каждый документ содержит набор настраиваемых свойств, которые, как и встроенные свойства, представляют собой пары ключ-значение.
+// Документ имеет фиксированный список встроенных свойств. Пользователь создает все настраиваемые свойства. 
 Assert.AreEqual("Value of custom document property", doc.CustomDocumentProperties["CustomProperty"].ToString());
 
 doc.CustomDocumentProperties.Add("CustomProperty2", "Value of custom document property #2");

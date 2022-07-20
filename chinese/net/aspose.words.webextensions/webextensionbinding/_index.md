@@ -3,7 +3,7 @@ title: WebExtensionBinding
 second_title: Aspose.Words for .NET API 参考
 description: 指定 Web 扩展和文档中的数据之间的绑定关系
 type: docs
-weight: 6390
+weight: 6440
 url: /zh/net/aspose.words.webextensions/webextensionbinding/
 ---
 ## WebExtensionBinding class

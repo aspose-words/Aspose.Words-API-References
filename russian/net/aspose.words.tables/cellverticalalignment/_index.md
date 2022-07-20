@@ -3,7 +3,7 @@ title: CellVerticalAlignment
 second_title: Справочник по API Aspose.Words для .NET
 description: Задает вертикальное выравнивание текста внутри ячейки таблицы.
 type: docs
-weight: 5930
+weight: 5980
 url: /ru/net/aspose.words.tables/cellverticalalignment/
 ---
 ## CellVerticalAlignment enumeration
@@ -24,7 +24,7 @@ public enum CellVerticalAlignment
 
 ### Примеры
 
-Показывает, как создать форматированную таблицу 2x2.
+Показывает, как построить отформатированную таблицу 2x2.
 
 ```csharp
 Document doc = new Document();

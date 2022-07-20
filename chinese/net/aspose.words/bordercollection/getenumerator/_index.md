@@ -16,13 +16,13 @@ public IEnumerator<Border> GetEnumerator()
 
 ### 例子
 
-显示如何迭代和编辑段落格式对象中的所有边框。
+演示如何迭代和编辑段落格式对象中的所有边框。
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
- // 配置构建器的段落格式设置，在四周创建绿色波浪边框。
+// 配置构建器的段落格式设置，在四周创建绿色波浪边框。
 BorderCollection borders = builder.ParagraphFormat.Borders;
 
 using (IEnumerator<Border> enumerator = borders.GetEnumerator())
@@ -36,7 +36,7 @@ using (IEnumerator<Border> enumerator = borders.GetEnumerator())
     }
 }
 
- // 插入一个段落。我们的边框设置将决定其边框的外观。
+// 插入一个段落。我们的边框设置将决定其边框的外观。
 builder.Writeln("Hello world!");
 
 doc.Save(ArtifactsDir + "BorderCollection.GetBordersEnumerator.docx");

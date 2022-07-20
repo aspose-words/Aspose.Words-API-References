@@ -8,7 +8,7 @@ url: /zh/net/aspose.words/documentbuilder/bold/
 ---
 ## DocumentBuilder.Bold property
 
-如果字体格式为粗体，则为真。
+如果字体格式为粗体则为真。
 
 ```csharp
 public bool Bold { get; set; }
@@ -16,7 +16,7 @@ public bool Bold { get; set; }
 
 ### 例子
 
-显示如何使用文档构建器而不是邮件合并来填充 MERGEFIELD。
+演示如何使用文档构建器而不是邮件合并来填充 MERGEFIELD。
 
 ```csharp
 Document doc = new Document();

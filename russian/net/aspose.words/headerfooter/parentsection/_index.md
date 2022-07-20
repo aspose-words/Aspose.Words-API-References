@@ -16,7 +16,7 @@ public Section ParentSection { get; }
 
 ### Примечания
 
-**ParentSection** эквивалентно в` (Раздел)ParentNode` .
+**Родительский раздел** эквивалентно`(Раздел)Родительский узел`.
 
 ### Примеры
 
@@ -47,7 +47,7 @@ builder.Write("This is the footer, which will be displayed in sections 1, 2 and 
 doc.Sections[1].HeadersFooters.LinkToPrevious(true);
 
 // Каждый раздел по-прежнему будет иметь свои собственные объекты верхнего/нижнего колонтитула. Когда мы связываем разделы,
-// раздел ссылки будет отображать верхний и нижний колонтитулы связанного раздела, сохраняя при этом свои собственные.
+// раздел ссылок будет отображать верхний и нижний колонтитулы связанного раздела, сохраняя при этом свои собственные.
 Assert.AreNotEqual(doc.Sections[0].HeadersFooters[0], doc.Sections[1].HeadersFooters[0]);
 Assert.AreNotEqual(doc.Sections[0].HeadersFooters[0].ParentSection, doc.Sections[1].HeadersFooters[0].ParentSection);
 

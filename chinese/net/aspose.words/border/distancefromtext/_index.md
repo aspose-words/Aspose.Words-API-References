@@ -16,11 +16,11 @@ public double DistanceFromText { get; set; }
 
 ### 评论
 
-无效，表格单元格边框将自动重置为零。
+没有影响，表格单元格的边框将自动重置为零。
 
 ### 例子
 
-显示如何在第一页的顶部创建一个宽的蓝色边框。
+展示如何在第一页的顶部创建一个宽的蓝色边框。
 
 ```csharp
 Document doc = new Document();

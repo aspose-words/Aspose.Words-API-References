@@ -1,14 +1,14 @@
 ---
 title: MacroName
 second_title: Справочник по API Aspose.Words для .NET
-description: Получает или задает имя макроса или команды для запуска.
+description: Получает или задает имя запускаемого макроса или команды.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.fields/fieldmacrobutton/macroname/
 ---
 ## FieldMacroButton.MacroName property
 
-Получает или задает имя макроса или команды для запуска.
+Получает или задает имя запускаемого макроса или команды.
 
 ```csharp
 public string MacroName { get; set; }
@@ -16,7 +16,7 @@ public string MacroName { get; set; }
 
 ### Примеры
 
-Показывает, как использовать поля MACROBUTTON, чтобы позволить нам запускать макросы документа щелчком мыши.
+Показывает, как использовать поля MACROBUTTON, чтобы позволить нам запускать макросы документа, щелкая.
 
 ```csharp
 Document doc = new Document(MyDir + "Macro.docm");

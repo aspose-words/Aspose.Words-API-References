@@ -1,14 +1,14 @@
 ---
 title: LineNumberRestartMode
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置行号的运行方式即它是在新的 页面或节的开头重新开始还是连续运行
+description: 获取或设置行编号的运行方式即是在新的 页面或部分的开头重新开始还是连续运行
 type: docs
 weight: 230
 url: /zh/net/aspose.words/pagesetup/linenumberrestartmode/
 ---
 ## PageSetup.LineNumberRestartMode property
 
-获取或设置行号的运行方式，即它是在新的 页面或节的开头重新开始还是连续运行。
+获取或设置行编号的运行方式，即是在新的 页面或部分的开头重新开始还是连续运行。
 
 ```csharp
 public LineNumberRestartMode LineNumberRestartMode { get; set; }
@@ -16,7 +16,7 @@ public LineNumberRestartMode LineNumberRestartMode { get; set; }
 
 ### 例子
 
-显示如何为节启用行编号。
+显示如何为部分启用行号。
 
 ```csharp
 Document doc = new Document();

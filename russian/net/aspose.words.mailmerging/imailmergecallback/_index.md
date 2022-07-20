@@ -3,7 +3,7 @@ title: IMailMergeCallback
 second_title: Справочник по API Aspose.Words для .NET
 description: Реализуйте этот интерфейс если хотите получать уведомления во время слияния почты.
 type: docs
-weight: 3530
+weight: 3580
 url: /ru/net/aspose.words.mailmerging/imailmergecallback/
 ---
 ## IMailMergeCallback interface
@@ -22,7 +22,7 @@ public interface IMailMergeCallback
 
 ### Примеры
 
-Показывает, как определить пользовательскую логику для обработки событий во время слияния почты.
+Показывает, как определить пользовательскую логику для обработки событий во время слияния.
 
 ```csharp
 public void Callback()
@@ -30,21 +30,21 @@ public void Callback()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-     // Вставляем два тега слияния, ссылающихся на два столбца в источнике данных.
+    // Вставьте два тега слияния, ссылающихся на два столбца в источнике данных.
     builder.Write("{{FirstName}}");
     builder.Write("{{LastName}}");
 
-     // Создайте источник данных, который содержит только один из столбцов, на которые ссылаются наши теги слияния.
+    // Создайте источник данных, который содержит только один из столбцов, на которые ссылаются наши теги слияния.
     DataTable table = new DataTable("Test");
     table.Columns.Add("FirstName");
     table.Rows.Add("John");
     table.Rows.Add("Jane");
 
-     // Настройте наше слияние для использования альтернативных тегов слияния.
+    // Настройте наше слияние для использования альтернативных тегов слияния.
     doc.MailMerge.UseNonMergeFields = true;
 
-     // Затем убедитесь, что слияние конвертирует теги, такие как наш тег «LastName», 
-     // в поля MERGEFIELD в документах слияния.
+    // Затем убедитесь, что слияние конвертирует теги, такие как наш тег "LastName",
+    // в поля MERGEFIELD в документах слияния.
     doc.MailMerge.PreserveUnusedTags = false;
 
     MailMergeTagReplacementCounter counter = new MailMergeTagReplacementCounter();
@@ -55,7 +55,7 @@ public void Callback()
 }
 
 /// <summary>
-/// Подсчитывает количество раз, когда слияние заменяет теги слияния, которые не могут быть заполнены данными с помощью MERGEFIELD.
+/// Подсчитывает количество раз, когда слияние заменяет теги слияния, которые не могут быть заполнены данными с помощью полей MERGEFIELD.
 /// </summary>
 private class MailMergeTagReplacementCounter : IMailMergeCallback
 {

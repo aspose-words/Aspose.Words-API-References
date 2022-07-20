@@ -24,14 +24,14 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Write("Please select a fruit: ");
 
- // Вставить поле со списком, которое позволит пользователю выбрать вариант из набора строк.
+// Вставьте поле со списком, которое позволит пользователю выбрать вариант из набора строк.
 FormField comboBox = builder.InsertComboBox("MyComboBox", new[] { "Apple", "Banana", "Cherry" }, 0);
 
 Assert.AreEqual("MyComboBox", comboBox.Name);
 Assert.AreEqual(FieldType.FieldFormDropDown, comboBox.Type);
 Assert.AreEqual("Apple", comboBox.Result);
 
- // Поле формы появится в виде HTML-тега select.
+// Поле формы появится в виде html-тега select.
 doc.Save(ArtifactsDir + "FormFields.Create.html");
 ```
 

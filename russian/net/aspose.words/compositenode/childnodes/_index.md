@@ -1,14 +1,14 @@
 ---
 title: ChildNodes
 second_title: Справочник по API Aspose.Words для .NET
-description: Получает все непосредственные дочерние узлы данного узла.
+description: Получает все непосредственные дочерние узлы этого узла.
 type: docs
 weight: 10
 url: /ru/net/aspose.words/compositenode/childnodes/
 ---
 ## CompositeNode.ChildNodes property
 
-Получает все непосредственные дочерние узлы данного узла.
+Получает все непосредственные дочерние узлы этого узла.
 
 ```csharp
 public NodeCollection ChildNodes { get; }
@@ -16,9 +16,9 @@ public NodeCollection ChildNodes { get; }
 
 ### Примечания
 
-Примечание,`ChildNodes`эквивалентно вызову` GetChildNodes(NodeType.Any, false)` и создает и возвращает новую коллекцию при каждом обращении к ней.
+Примечание,`ChildNodes` эквивалентно вызову`GetChildNodes(NodeType.Any, false)` и создает и возвращает новую коллекцию каждый раз, когда к ней обращаются.
 
-Если нет дочерних узлов, это свойство возвращает пустую коллекцию.
+Если дочерних узлов нет, это свойство возвращает пустую коллекцию.
 
 ### Примеры
 

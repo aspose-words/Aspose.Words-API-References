@@ -16,7 +16,7 @@ public string DisplayText { get; set; }
 
 ### Примеры
 
-Показывает, как использовать поля MACROBUTTON, чтобы позволить нам запускать макросы документа щелчком мыши.
+Показывает, как использовать поля MACROBUTTON, чтобы позволить нам запускать макросы документа, щелкая.
 
 ```csharp
 Document doc = new Document(MyDir + "Macro.docm");

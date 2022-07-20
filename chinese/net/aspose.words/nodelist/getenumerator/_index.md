@@ -16,7 +16,7 @@ public IEnumerator<Node> GetEnumerator()
 
 ### 返回值
 
-IEnumerator。
+一个 IEnumerator。
 
 ### 例子
 

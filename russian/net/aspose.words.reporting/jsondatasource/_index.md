@@ -3,7 +3,7 @@ title: JsonDataSource
 second_title: Справочник по API Aspose.Words для .NET
 description: Предоставляет доступ к данным файла или потока JSON для использования в отчете.
 type: docs
-weight: 4380
+weight: 4430
 url: /ru/net/aspose.words.reporting/jsondatasource/
 ---
 ## JsonDataSource class
@@ -25,9 +25,9 @@ public class JsonDataSource
 
 ### Примечания
 
-Для доступа к данным соответствующего файла или потока при создании report, передайте экземпляр этого класса как источник данных в одну из перегрузок[`ReportingEngine`](../reportingengine).BuildReport.
+Чтобы получить доступ к данным соответствующего файла или потока при создании отчета, передайте экземпляр этого класса как источник данных одному из[`ReportingEngine`](../reportingengine) Перегрузки .BuildReport.
 
-В шаблонных документах, если элемент JSON верхнего уровня является массивом, используется[`JsonDataSource`](../jsondatasource)instance должен обрабатываться так же, как если бы это былDataTable пример. Если элемент JSON верхнего уровня является объектом, экземпляр[`JsonDataSource`](../jsondatasource)должен обрабатываться так же, как если бы он был aDataRow экземпляр. Дополнительные сведения см. в справочнике по синтаксису шаблона (https://docs.aspose.com/display/wordsnet/Template+Syntax).
+В шаблонных документах, если элемент JSON верхнего уровня является массивом,[`JsonDataSource`](../jsondatasource) экземпляр должен быть обработан так же, как если бы он былDataTable экземпляр . Если элемент JSON верхнего уровня является объектом,[`JsonDataSource`](../jsondatasource) Экземпляр следует рассматривать так же, как если бы он был aDataRow экземпляр . Дополнительные сведения см. в справочнике по синтаксису шаблона (https://docs.aspose.com/display/wordsnet/Template+Syntax).
 
 В шаблонных документах можно работать с типизированными значениями элементов JSON. Для удобства движок заменяет набор простых типов JSON на следующий:
 
@@ -39,7 +39,7 @@ public class JsonDataSource
 
 Движок автоматически распознает значения дополнительных типов по их представлениям JSON.
 
-Чтобы переопределить поведение загрузки данных JSON по умолчанию, инициализируйте и передайте[`JsonDataLoadOptions`](../jsondataloadoptions)instance конструктору этого класса.
+Чтобы переопределить поведение загрузки данных JSON по умолчанию, инициализируйте и передайте[`JsonDataLoadOptions`](../jsondataloadoptions)instance в конструктор этого класса.
 
 ### Смотрите также
 

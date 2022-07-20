@@ -16,7 +16,7 @@ public string Text { get; }
 
 ### 例子
 
-显示如何打印有关文档中一组修订的信息。
+显示如何在文档中打印有关一组修订的信息。
 
 ```csharp
 Document doc = new Document(MyDir + "Revisions.docx");

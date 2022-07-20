@@ -1,14 +1,14 @@
 ---
 title: Color
 second_title: Справочник по API Aspose.Words для .NET
-description: Получает или устанавливает цвет шрифта. Значение по умолчанию  Color.Silver.
+description: Получает или устанавливает цвет шрифта. Значение по умолчанию  Color.Silver. .
 type: docs
 weight: 20
 url: /ru/net/aspose.words/textwatermarkoptions/color/
 ---
 ## TextWatermarkOptions.Color property
 
-Получает или устанавливает цвет шрифта. Значение по умолчанию — Color.Silver.
+Получает или устанавливает цвет шрифта. Значение по умолчанию — Color.Silver. .
 
 ```csharp
 public Color Color { get; set; }

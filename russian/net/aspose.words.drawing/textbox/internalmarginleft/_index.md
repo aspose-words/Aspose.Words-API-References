@@ -1,14 +1,14 @@
 ---
 title: InternalMarginLeft
 second_title: Справочник по API Aspose.Words для .NET
-description: Указывает внутреннее левое поле в пунктах для фигуры.
+description: Указывает внутреннее левое поле в точках для фигуры.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.drawing/textbox/internalmarginleft/
 ---
 ## TextBox.InternalMarginLeft property
 
-Указывает внутреннее левое поле в пунктах для фигуры.
+Указывает внутреннее левое поле в точках для фигуры.
 
 ```csharp
 public double InternalMarginLeft { get; set; }
@@ -16,7 +16,7 @@ public double InternalMarginLeft { get; set; }
 
 ### Примечания
 
-Значение по умолчанию - 1/10 дюйма.
+Значение по умолчанию — 1/10 дюйма.
 
 ### Примеры
 

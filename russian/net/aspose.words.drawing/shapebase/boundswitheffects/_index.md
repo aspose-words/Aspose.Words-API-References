@@ -55,7 +55,7 @@ Assert.AreEqual(200, rectangleFOut.Y);
 Assert.AreEqual(1000, rectangleFOut.Width);
 Assert.AreEqual(1000, rectangleFOut.Height);
 
-// Проверяем окончательный размер первой фигуры в пунктах.
+// Проверяем окончательный размер первой фигуры в точках.
 Assert.AreEqual(0, shape.BoundsWithEffects.X);
 Assert.AreEqual(0, shape.BoundsWithEffects.Y);
 Assert.AreEqual(147, shape.BoundsWithEffects.Width);

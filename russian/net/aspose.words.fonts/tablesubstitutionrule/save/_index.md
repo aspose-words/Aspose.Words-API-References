@@ -64,7 +64,7 @@ using (FileStream fileStream = new FileStream(ArtifactsDir + "FontSettings.Table
 
 ## Save(Stream) {#save}
 
-Сохраняет текущие настройки подстановки таблиц в поток.
+Сохраняет текущие настройки подстановки таблицы в поток.
 
 ```csharp
 public void Save(Stream outputStream)

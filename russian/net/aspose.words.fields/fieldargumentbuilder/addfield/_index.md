@@ -1,14 +1,14 @@
 ---
 title: AddField
 second_title: Справочник по API Aspose.Words для .NET
-description: Добавляет поле представленноеFieldBuilderaspose.words.fields/fieldbuilderк аргументу.
+description: Добавляет поле представленноеFieldBuilderaspose.words.fields/fieldbuilder к аргументу.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.fields/fieldargumentbuilder/addfield/
 ---
 ## FieldArgumentBuilder.AddField method
 
-Добавляет поле, представленное[`FieldBuilder`](../../fieldbuilder)к аргументу.
+Добавляет поле, представленное[`FieldBuilder`](../../fieldbuilder) к аргументу.
 
 ```csharp
 public FieldArgumentBuilder AddField(FieldBuilder fieldBuilder)

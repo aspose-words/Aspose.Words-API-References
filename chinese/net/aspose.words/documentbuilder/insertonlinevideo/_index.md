@@ -17,7 +17,7 @@ public Shape InsertOnlineVideo(string videoUrl, double width, double height)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | videoUrl | String | 视频的 URL。 |
-| width | Double | 图像的宽度，以磅为单位。可以是负值或零值以请求 100% 比例。 |
+| width | Double | 图像的宽度（以磅为单位）。可以是负值或零值以请求 100% 比例。 |
 | height | Double | 图像的高度（以磅为单位）。可以是负值或零值以请求 100% 比例。 |
 
 ### 返回值
@@ -26,20 +26,20 @@ public Shape InsertOnlineVideo(string videoUrl, double width, double height)
 
 ### 评论
 
-您可以使用 :::更改图像大小、位置、定位方法和其他设置R5:T:Aspose.Words.Drawing.Shape:::此方法返回的对象。
+您可以使用 更改图像大小、位置、定位方法和其他设置[`Shape`](../../../aspose.words.drawing/shape)此方法返回的对象。
 
-支持从以下资源插入在线视频:
+支持从以下资源插入在线视频：
 
 * https://www.youtube.com/
 * https://vimeo.com/
 
-如果您的在线视频未显示正确地，使用[`InsertOnlineVideo`](../insertonlinevideo)，它接受自定义嵌入的 html 代码.
+如果您的在线视频显示不正确，请使用[`InsertOnlineVideo`](../insertonlinevideo)，它接受自定义嵌入的 html 代码。
 
-嵌入视频的代码可能因供应商而异，详情请咨询您选择的相应供应商。
+嵌入视频的代码可能因提供商而异，详情请咨询您选择的相应提供商。
 
 ### 例子
 
-展示如何使用 URL 将在线视频插入到文档中。
+演示如何使用 URL 将在线视频插入到文档中。
 
 ```csharp
 Document doc = new Document();
@@ -72,11 +72,11 @@ public Shape InsertOnlineVideo(string videoUrl, RelativeHorizontalPosition horzP
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | videoUrl | String | 视频的 URL。 |
-| horzPos | RelativeHorizontalPosition | 指定从哪里测量到图像的距离。 |
+| horzPos | RelativeHorizontalPosition | 指定从何处测量到图像的距离。 |
 | left | Double | 从原点到图像左侧的距离（以点为单位）。 |
-| vertPos | RelativeVerticalPosition | 指定从哪里测量到图像的距离。 |
+| vertPos | RelativeVerticalPosition | 指定从何处测量到图像的距离。 |
 | top | Double | 从原点到图像顶部的距离（以点为单位）。 |
-| width | Double | 图像的宽度，以磅为单位。可以是负值或零值以请求 100% 比例。 |
+| width | Double | 图像的宽度（以磅为单位）。可以是负值或零值以请求 100% 比例。 |
 | height | Double | 图像的高度（以磅为单位）。可以是负值或零值以请求 100% 比例。 |
 | wrapType | WrapType | 指定如何在图像周围环绕文本。 |
 
@@ -86,20 +86,20 @@ public Shape InsertOnlineVideo(string videoUrl, RelativeHorizontalPosition horzP
 
 ### 评论
 
-您可以使用 :::更改图像大小、位置、定位方法和其他设置R5:T:Aspose.Words.Drawing.Shape:::此方法返回的对象。
+您可以使用 更改图像大小、位置、定位方法和其他设置[`Shape`](../../../aspose.words.drawing/shape)此方法返回的对象。
 
-支持从以下资源插入在线视频:
+支持从以下资源插入在线视频：
 
 * https://www.youtube.com/
 * https://vimeo.com/
 
-如果您的在线视频未显示正确地，使用[`InsertOnlineVideo`](../insertonlinevideo)，它接受自定义嵌入的 html 代码.
+如果您的在线视频显示不正确，请使用[`InsertOnlineVideo`](../insertonlinevideo)，它接受自定义嵌入的 html 代码。
 
-嵌入视频的代码可能因供应商而异，详情请咨询您选择的相应供应商。
+嵌入视频的代码可能因提供商而异，详情请咨询您选择的相应提供商。
 
 ### 例子
 
-显示如何将在线视频插入到文档中。
+演示如何将在线视频插入文档。
 
 ```csharp
 Document doc = new Document();
@@ -143,7 +143,7 @@ public Shape InsertOnlineVideo(string videoUrl, string videoEmbedCode, byte[] th
 | videoUrl | String | 视频的 URL。 |
 | videoEmbedCode | String | 视频的嵌入代码。 |
 | thumbnailImageBytes | Byte[] | 缩略图图像字节。 |
-| width | Double | 图像的宽度，以磅为单位。可以是负值或零值以请求 100% 比例。 |
+| width | Double | 图像的宽度（以磅为单位）。可以是负值或零值以请求 100% 比例。 |
 | height | Double | 图像的高度（以磅为单位）。可以是负值或零值以请求 100% 比例。 |
 
 ### 返回值
@@ -152,7 +152,7 @@ public Shape InsertOnlineVideo(string videoUrl, string videoEmbedCode, byte[] th
 
 ### 评论
 
-您可以使用 :::更改图像大小、位置、定位方法和其他设置R5:T:Aspose.Words.Drawing.Shape:::此方法返回的对象。
+您可以使用 更改图像大小、位置、定位方法和其他设置[`Shape`](../../../aspose.words.drawing/shape)此方法返回的对象。
 
 ### 例子
 
@@ -217,11 +217,11 @@ public Shape InsertOnlineVideo(string videoUrl, string videoEmbedCode, byte[] th
 | videoUrl | String | 视频的 URL。 |
 | videoEmbedCode | String | 视频的嵌入代码。 |
 | thumbnailImageBytes | Byte[] | 缩略图图像字节。 |
-| horzPos | RelativeHorizontalPosition | 指定从哪里测量到图像的距离。 |
+| horzPos | RelativeHorizontalPosition | 指定从何处测量到图像的距离。 |
 | left | Double | 从原点到图像左侧的距离（以点为单位）。 |
-| vertPos | RelativeVerticalPosition | 指定从哪里测量到图像的距离。 |
+| vertPos | RelativeVerticalPosition | 指定从何处测量到图像的距离。 |
 | top | Double | 从原点到图像顶部的距离（以点为单位）。 |
-| width | Double | 图像的宽度，以磅为单位。可以是负值或零值以请求 100% 比例。 |
+| width | Double | 图像的宽度（以磅为单位）。可以是负值或零值以请求 100% 比例。 |
 | height | Double | 图像的高度（以磅为单位）。可以是负值或零值以请求 100% 比例。 |
 | wrapType | WrapType | 指定如何在图像周围环绕文本。 |
 
@@ -231,7 +231,7 @@ public Shape InsertOnlineVideo(string videoUrl, string videoEmbedCode, byte[] th
 
 ### 评论
 
-您可以使用 :::更改图像大小、位置、定位方法和其他设置R5:T:Aspose.Words.Drawing.Shape:::此方法返回的对象。
+您可以使用 更改图像大小、位置、定位方法和其他设置[`Shape`](../../../aspose.words.drawing/shape)此方法返回的对象。
 
 ### 例子
 

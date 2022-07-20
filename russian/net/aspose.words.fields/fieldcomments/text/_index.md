@@ -16,13 +16,13 @@ public string Text { get; set; }
 
 ### Примеры
 
-Показывает, как использовать поле КОММЕНТАРИИ.
+Показывает, как использовать поле COMMENTS.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Установите значение для встроенного свойства документа "Комментарии".
+// Установите значение для встроенного свойства документа «Комментарии».
 doc.BuiltInDocumentProperties.Comments = "My comment.";
 
 // Создайте поле COMMENTS для отображения значения этого встроенного свойства.

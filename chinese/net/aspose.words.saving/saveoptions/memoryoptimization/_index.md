@@ -1,14 +1,14 @@
 ---
 title: MemoryOptimization
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置确定是否应在保存文档之前执行内存优化的值 此属性的默认值为 false 
+description: 获取或设置值确定是否应在保存文档之前执行内存优化 此属性的默认值为 错误的.
 type: docs
 weight: 110
 url: /zh/net/aspose.words.saving/saveoptions/memoryoptimization/
 ---
 ## SaveOptions.MemoryOptimization property
 
-获取或设置确定是否应在保存文档之前执行内存优化的值。 此属性的默认值为 **false** 。
+获取或设置值确定是否应在保存文档之前执行内存优化。 此属性的默认值为 **错误的**.
 
 ```csharp
 public bool MemoryOptimization { get; set; }
@@ -16,7 +16,7 @@ public bool MemoryOptimization { get; set; }
 
 ### 评论
 
-将此选项设置为 true 可以显着减少内存消耗，同时以较慢的速度为代价保存大型文档时间。
+将此选项设置为 true 可以显着减少内存消耗，同时以较慢的节省时间为代价保存大型文档。
 
 ### 例子
 

@@ -1,12 +1,12 @@
 ---
 title: Aspose.Words.Notes
 second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Notes 命名空间提供了使用 Microsoft Word 尾注和脚注的类
+description: 这 Aspose.Words.Notes命名空间提供了使用 Microsoft Word 尾注和脚注的类
 type: docs
 weight: 170
 url: /zh/net/aspose.words.notes/
 ---
-**Aspose.Words.Notes** 命名空间提供了使用 Microsoft Word 尾注和脚注的类。
+这 **Aspose.Words.Notes**命名空间提供了使用 Microsoft Word 尾注和脚注的类。
 
 ## 课程
 
@@ -14,7 +14,7 @@ url: /zh/net/aspose.words.notes/
 | --- | --- |
 | [EndnoteOptions](./endnoteoptions) | 表示文档或章节的尾注编号选项。 |
 | [Footnote](./footnote) | 表示脚注或尾注文本的容器。 |
-| [FootnoteOptions](./footnoteoptions) | 表示文档或章节的脚注编号选项。 |
+| [FootnoteOptions](./footnoteoptions) | 表示文档或部分的脚注编号选项。 |
 ## 枚举
 
 | 枚举 | 描述 |

@@ -1,14 +1,14 @@
 ---
 title: CustomNumberStyleFormat
 second_title: Справочник по API Aspose.Words для .NET
-description: Получает пользовательский формат числового стиля для этого уровня списка. Напримера ç ĝ....
+description: Получает пользовательский формат числового стиля для этого уровня списка. Например a ç ĝ ....
 type: docs
 weight: 20
 url: /ru/net/aspose.words.lists/listlevel/customnumberstyleformat/
 ---
 ## ListLevel.CustomNumberStyleFormat property
 
-Получает пользовательский формат числового стиля для этого уровня списка. Например:"а, ç, ĝ,...".
+Получает пользовательский формат числового стиля для этого уровня списка. Например: "a, ç, ĝ, ...".
 
 ```csharp
 public string CustomNumberStyleFormat { get; }
@@ -30,7 +30,7 @@ if (listLevel.NumberStyle == NumberStyle.Custom)
 
 Assert.AreEqual("001, 002, 003, ...", customNumberStyleFormat);
 
- // Мы можем получить значение для указанного индекса элемента списка.
+// Мы можем получить значение для указанного индекса элемента списка.
 Assert.AreEqual("iv", ListLevel.GetEffectiveValue(4, NumberStyle.LowercaseRoman, null));
 Assert.AreEqual("005", ListLevel.GetEffectiveValue(5, NumberStyle.Custom, customNumberStyleFormat));
 ```

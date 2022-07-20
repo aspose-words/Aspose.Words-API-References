@@ -1,14 +1,14 @@
 ---
 title: Placeholder
 second_title: Aspose.Words for .NET API 参考
-description: 获取BuildingBlockaspose.words.buildingblocks/buildingblock包含应在 时显示的占位符文本结构化文档标记运行内容为空关联映射的 XML 元素为空如指定 通过XmlMappingaspose.words.markup/structureddocumenttagrangestart/xmlmapping元素或IsShowingPlaceholderTextaspose.words.markup/structureddocumenttagrangestart/isshowingplaceholdertext元素为真
+description: 获取BuildingBlockaspose.words.buildingblocks/buildingblock包含当 此结构化文档标记运行内容为空时应显示的占位符文本关联的映射XML元素为空如指定 通过XmlMappingaspose.words.markup/structureddocumenttagrangestart/xmlmapping元素或IsShowingPlaceholderTextaspose.words.markup/structureddocumenttagrangestart/isshowingplaceholdertext元素为真
 type: docs
 weight: 110
 url: /zh/net/aspose.words.markup/structureddocumenttagrangestart/placeholder/
 ---
 ## StructuredDocumentTagRangeStart.Placeholder property
 
-获取[`BuildingBlock`](../../../aspose.words.buildingblocks/buildingblock)包含应在 时显示的占位符文本结构化文档标记运行内容为空，关联映射的 XML 元素为空，如指定 通过[`XmlMapping`](../xmlmapping)元素或[`IsShowingPlaceholderText`](../isshowingplaceholdertext)元素为真。
+获取[`BuildingBlock`](../../../aspose.words.buildingblocks/buildingblock)包含当 此结构化文档标记运行内容为空时应显示的占位符文本，关联的映射XML元素为空，如指定 通过[`XmlMapping`](../xmlmapping)元素或[`IsShowingPlaceholderText`](../isshowingplaceholdertext)元素为真。
 
 ```csharp
 public BuildingBlock Placeholder { get; }
@@ -16,7 +16,7 @@ public BuildingBlock Placeholder { get; }
 
 ### 评论
 
-可以为空，表示占位符不适用于此结构化文档标签。
+可以为 null，表示占位符不适用于此结构化文档标签。
 
 ### 也可以看看
 

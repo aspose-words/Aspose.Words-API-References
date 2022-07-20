@@ -37,7 +37,7 @@ public void FieldNoteRef()
     Assert.AreEqual(" NOTEREF  MyBookmark1 \\h \\p",
         InsertFieldNoteRef(builder, "MyBookmark1", true, true, false, "Bookmark1, with footnote number ").GetFieldCode());
 
-    // Bookmark2 находится под этим полем и содержит сноску номер 2, поэтому в поле будет отображаться «2 ниже».
+    // Закладка2 находится под этим полем и содержит сноску номер 2, поэтому в поле будет отображаться «2 ниже».
     // Флаг \f заставляет цифру 2 отображаться в том же формате, что и метка номера сноски в реальном тексте.
     Assert.AreEqual(" NOTEREF  MyBookmark2 \\h \\p \\f",
         InsertFieldNoteRef(builder, "MyBookmark2", true, true, true, "Bookmark2, with footnote number ").GetFieldCode());

@@ -1,14 +1,14 @@
 ---
 title: TickLabelPosition
 second_title: Справочник по API Aspose.Words для .NET
-description: Возвращает или задает положение галочек на оси.
+description: Возвращает или задает положение меток деления на оси.
 type: docs
 weight: 220
 url: /ru/net/aspose.words.drawing.charts/chartaxis/ticklabelposition/
 ---
 ## ChartAxis.TickLabelPosition property
 
-Возвращает или задает положение галочек на оси.
+Возвращает или задает положение меток деления на оси.
 
 ```csharp
 public AxisTickLabelPosition TickLabelPosition { get; set; }

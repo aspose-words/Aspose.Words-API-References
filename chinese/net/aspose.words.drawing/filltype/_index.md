@@ -22,7 +22,7 @@ public enum FillType
 | Patterned | `2` | 图案填充。 |
 | Gradient | `3` | 渐变填充。 |
 | Textured | `4` | 纹理填充。 |
-| Background | `5` | 填充与背景相同。 |
+| Background | `5` | 填充和背景一样 |
 | Picture | `6` | 图片填充。 |
 
 ### 也可以看看

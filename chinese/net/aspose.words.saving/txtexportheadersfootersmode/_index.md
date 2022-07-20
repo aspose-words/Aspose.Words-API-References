@@ -3,7 +3,7 @@ title: TxtExportHeadersFootersMode
 second_title: Aspose.Words for .NET API 参考
 description: 指定页眉和页脚导出为纯文本格式的方式
 type: docs
-weight: 5310
+weight: 5360
 url: /zh/net/aspose.words.saving/txtexportheadersfootersmode/
 ---
 ## TxtExportHeadersFootersMode enumeration
@@ -18,8 +18,8 @@ public enum TxtExportHeadersFootersMode
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| None | `0` | 不导出页眉和页脚。 |
-| PrimaryOnly | `1` | 在每个部分的开头和结尾只导出主要的页眉和页脚。 |
+| None | `0` | 没有导出页眉和页脚。 |
+| PrimaryOnly | `1` | 仅在每个部分的开头和结尾导出主要页眉和页脚。 |
 | AllAtEnd | `2` | 所有页眉和页脚都放在文档末尾的所有节正文之后。 |
 
 ### 例子
@@ -29,8 +29,8 @@ public enum TxtExportHeadersFootersMode
 ```csharp
 Document doc = new Document();
 
-// 将偶数和主页眉/页脚插入到文档中。
- // 主要页眉/页脚将覆盖偶数页眉/页脚.
+// 将偶数和主要页眉/页脚插入到文档中。
+// 主要页眉/页脚将覆盖偶数页眉/页脚。
 doc.FirstSection.HeadersFooters.Add(new HeaderFooter(doc, HeaderFooterType.HeaderEven));
 doc.FirstSection.HeadersFooters[HeaderFooterType.HeaderEven].AppendParagraph("Even header");
 doc.FirstSection.HeadersFooters.Add(new HeaderFooter(doc, HeaderFooterType.FooterEven));
@@ -40,7 +40,7 @@ doc.FirstSection.HeadersFooters[HeaderFooterType.HeaderPrimary].AppendParagraph(
 doc.FirstSection.HeadersFooters.Add(new HeaderFooter(doc, HeaderFooterType.FooterPrimary));
 doc.FirstSection.HeadersFooters[HeaderFooterType.FooterPrimary].AppendParagraph("Primary footer");
 
- // 插入页面以显示这些页眉和页脚。
+// 插入页面以显示这些页眉和页脚。
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Page 1");
 builder.InsertBreak(BreakType.PageBreak);
@@ -48,16 +48,16 @@ builder.Writeln("Page 2");
 builder.InsertBreak(BreakType.PageBreak); 
 builder.Write("Page 3");
 
- // 创建一个“TxtSaveOptions”对象，我们可以将它传递给文档的“Save”方法
- // 修改我们如何将文档保存为纯文本。
+// 创建一个“TxtSaveOptions”对象，我们可以将它传递给文档的“Save”方法
+// 修改我们如何将文档保存为纯文本。
 TxtSaveOptions saveOptions = new TxtSaveOptions();
 
- // 将“ExportHeadersFootersMode”属性设置为“TxtExportHeadersFootersMode.None”
- // 不导出任何页眉/页脚。
- // 将“ExportHeadersFootersMode”属性设置为“TxtExportHeadersFootersMode.PrimaryOnly”
- // 仅导出主要页眉/页脚.
- // 将“ExportHeadersFootersMode”属性设置为“TxtExportHeadersFootersMode.AllAtEnd”
- // 将所有节正文的所有页眉和页脚放在文档的末尾。
+// 将“ExportHeadersFootersMode”属性设置为“TxtExportHeadersFootersMode.None”
+// 不导出任何页眉/页脚。
+// 将“ExportHeadersFootersMode”属性设置为“TxtExportHeadersFootersMode.PrimaryOnly”
+// 仅导出主要页眉/页脚。
+// 将“ExportHeadersFootersMode”属性设置为“TxtExportHeadersFootersMode.AllAtEnd”
+// 将所有节正文的所有页眉和页脚放在文档的末尾。
 saveOptions.ExportHeadersFootersMode = txtExportHeadersFootersMode;
 
 doc.Save(ArtifactsDir + "TxtSaveOptions.ExportHeadersFooters.txt", saveOptions);

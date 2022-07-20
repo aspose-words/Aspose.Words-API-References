@@ -1,14 +1,14 @@
 ---
 title: FontSize
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置字段检索到的字符的字体大小以磅为单位
+description: 获取或设置字段检索到的字符的字体大小
 type: docs
 weight: 50
 url: /zh/net/aspose.words.fields/fieldsymbol/fontsize/
 ---
 ## FieldSymbol.FontSize property
 
-获取或设置字段检索到的字符的字体大小（以磅为单位）。
+获取或设置字段检索到的字符的字体大小。
 
 ```csharp
 public string FontSize { get; set; }

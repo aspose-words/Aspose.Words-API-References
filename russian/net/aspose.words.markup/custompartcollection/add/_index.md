@@ -16,7 +16,7 @@ public void Add(CustomPart part)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| part | CustomPart | Добавляемый элемент. |
+| part | CustomPart | Элемент для добавления. |
 
 ### Примеры
 

@@ -1,14 +1,14 @@
 ---
 title: FallbackSettings
 second_title: Справочник по API Aspose.Words для .NET
-description: Настройки связанные с механизмом отката шрифта.
+description: Настройки связанные с резервным механизмом шрифта.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.fonts/fontsettings/fallbacksettings/
 ---
 ## FontSettings.FallbackSettings property
 
-Настройки, связанные с механизмом отката шрифта.
+Настройки, связанные с резервным механизмом шрифта.
 
 ```csharp
 public FontFallbackSettings FallbackSettings { get; }
@@ -25,7 +25,7 @@ FontSettings fontSettings = new FontSettings();
 doc.FontSettings = fontSettings;
 FontFallbackSettings fontFallbackSettings = fontSettings.FallbackSettings;
 
-// Настройте наши настройки шрифта так, чтобы исходные шрифты были только из папки «MyFonts».
+// Настройте наши параметры шрифта так, чтобы исходные шрифты были только из папки «MyFonts».
 FolderFontSource folderFontSource = new FolderFontSource(FontsDir, false);
 fontSettings.SetFontsSources(new FontSourceBase[] {folderFontSource});
 

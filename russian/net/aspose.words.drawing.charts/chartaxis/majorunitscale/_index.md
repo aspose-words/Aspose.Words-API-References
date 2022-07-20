@@ -1,14 +1,14 @@
 ---
 title: MajorUnitScale
 second_title: Справочник по API Aspose.Words для .NET
-description: Возвращает или задает значение масштаба для основных делений на оси категорий времени.
+description: Возвращает или задает значение шкалы для основных делений на оси категорий времени.
 type: docs
 weight: 120
 url: /ru/net/aspose.words.drawing.charts/chartaxis/majorunitscale/
 ---
 ## ChartAxis.MajorUnitScale property
 
-Возвращает или задает значение масштаба для основных делений на оси категорий времени.
+Возвращает или задает значение шкалы для основных делений на оси категорий времени.
 
 ```csharp
 public AxisTimeUnit MajorUnitScale { get; set; }

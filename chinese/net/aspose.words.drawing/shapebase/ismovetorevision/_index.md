@@ -1,14 +1,14 @@
 ---
 title: IsMoveToRevision
 second_title: Aspose.Words for .NET API 参考
-description: 返回 true 如果此对象在 Microsoft Word 中被移动插入而启用更改跟踪
+description: 返回 真的如果启用更改跟踪时在 Microsoft Word 中移动插入此对象
 type: docs
 weight: 320
 url: /zh/net/aspose.words.drawing/shapebase/ismovetorevision/
 ---
 ## ShapeBase.IsMoveToRevision property
 
-返回 **true** 如果此对象在 Microsoft Word 中被移动（插入）而启用更改跟踪。
+返回 **真的**如果启用更改跟踪时在 Microsoft Word 中移动（插入）此对象。
 
 ```csharp
 public bool IsMoveToRevision { get; }

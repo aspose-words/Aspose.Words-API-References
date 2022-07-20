@@ -1,14 +1,14 @@
 ---
 title: LoadWindowsSettings
 second_title: Справочник по API Aspose.Words для .NET
-description: Загружает предопределенные настройки подстановки таблиц для платформы Windows.
+description: Загружает предопределенные параметры подстановки таблиц для платформы Windows.
 type: docs
 weight: 60
 url: /ru/net/aspose.words.fonts/tablesubstitutionrule/loadwindowssettings/
 ---
 ## TableSubstitutionRule.LoadWindowsSettings method
 
-Загружает предопределенные настройки подстановки таблиц для платформы Windows.
+Загружает предопределенные параметры подстановки таблиц для платформы Windows.
 
 ```csharp
 public void LoadWindowsSettings()

@@ -1,14 +1,14 @@
 ---
 title: ApplyBreakingRules
 second_title: Справочник по API Aspose.Words для .NET
-description: Используйте устаревшие правила разрыва строк для эфиопского и амхарского языков.
+description: Используйте устаревшие правила разбиения строк на эфиопском и амхарском языках.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.settings/compatibilityoptions/applybreakingrules/
 ---
 ## CompatibilityOptions.ApplyBreakingRules property
 
-Используйте устаревшие правила разрыва строк для эфиопского и амхарского языков.
+Используйте устаревшие правила разбиения строк на эфиопском и амхарском языках.
 
 ```csharp
 public bool ApplyBreakingRules { get; set; }

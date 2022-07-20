@@ -8,7 +8,7 @@ url: /zh/net/aspose.words.fields/fieldlink/progid/
 ---
 ## FieldLink.ProgId property
 
-获取或设置链接信息的应用类型。
+获取或设置链接信息的应用类型
 
 ```csharp
 public string ProgId { get; set; }
@@ -16,7 +16,7 @@ public string ProgId { get; set; }
 
 ### 例子
 
-演示如何使用各种字段类型链接到本地文件系统中的其他文档，并显示其内容。
+展示如何使用各种字段类型链接到本地文件系统中的其他文档，并显示其内容。
 
 ```csharp
 {

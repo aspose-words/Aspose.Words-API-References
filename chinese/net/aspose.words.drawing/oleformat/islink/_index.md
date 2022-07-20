@@ -1,14 +1,14 @@
 ---
 title: IsLink
 second_title: Aspose.Words for .NET API 参考
-description: 如果 OLE 对象已链接当指定SourceFullNameaspose.words.drawing/oleformat/sourcefullname时则返回 true
+description: 如果 OLE 对象已链接当SourceFullNameaspose.words.drawing/oleformat/sourcefullname已指定.
 type: docs
 weight: 40
 url: /zh/net/aspose.words.drawing/oleformat/islink/
 ---
 ## OleFormat.IsLink property
 
-如果 OLE 对象已链接（当指定[`SourceFullName`](../sourcefullname)时），则返回 true。
+如果 OLE 对象已链接（当[`SourceFullName`](../sourcefullname)已指定）.
 
 ```csharp
 public bool IsLink { get; }

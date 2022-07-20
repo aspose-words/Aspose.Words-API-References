@@ -1,14 +1,14 @@
 ---
 title: FieldMergingArgs
 second_title: Справочник по API Aspose.Words для .NET
-description: Предоставляет данные для события MergeField .
+description: Предоставляет данные для MergeField событие.
 type: docs
-weight: 3500
+weight: 3550
 url: /ru/net/aspose.words.mailmerging/fieldmergingargs/
 ---
 ## FieldMergingArgs class
 
-Предоставляет данные для события **MergeField** .
+Предоставляет данные для **MergeField** событие.
 
 ```csharp
 public class FieldMergingArgs : FieldMergingArgsBase
@@ -18,7 +18,7 @@ public class FieldMergingArgs : FieldMergingArgsBase
 
 | Имя | Описание |
 | --- | --- |
-| [Document](../../aspose.words.mailmerging/fieldmergingargsbase/document) { get; } | Возвращает объект[`Document`](../fieldmergingargsbase/document), для которого выполняется слияние. |
+| [Document](../../aspose.words.mailmerging/fieldmergingargsbase/document) { get; } | Возвращает[`Document`](../fieldmergingargsbase/document) объект, для которого выполняется слияние. |
 | [DocumentFieldName](../../aspose.words.mailmerging/fieldmergingargsbase/documentfieldname) { get; } | Получает имя поля слияния, как указано в документе. |
 | [Field](../../aspose.words.mailmerging/fieldmergingargsbase/field) { get; } | Получает объект, представляющий текущее поле слияния. |
 | [FieldName](../../aspose.words.mailmerging/fieldmergingargsbase/fieldname) { get; } | Получает имя поля слияния в источнике данных. |
@@ -29,14 +29,13 @@ public class FieldMergingArgs : FieldMergingArgsBase
 
 ### Примечания
 
-Событие **MergeField** происходит во время слияния, когда в документе встречается простое поле слияния . Вы можете отреагировать на это событие, чтобы вернуть текст для механизма слияния, который будет вставлен в документ.
+**MergeField** событие возникает во время слияния почты, когда в документе встречается простое поле слияния почты . Вы можете ответить на это событие, отправив текст return для механизма слияния, который будет вставлен в документ.
 
 ### Примеры
 
-Показывает, как выполнить слияние почты с настраиваемый обратный вызов, который обрабатывает данные слияния в виде HTML-документов.
+Показывает, как выполнить слияние почты с помощью пользовательского обратного вызова, который обрабатывает данные слияния в виде HTML-документов.
 
 ```csharp
-public void MergeHtml()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -66,32 +65,32 @@ public void MergeHtml()
 }
 
 /// <summary>
- /// Если слияние почты встречает MERGEFIELD, имя которого начинается с префикса "html_", 
- /// этот обратный вызов анализирует свои данные слияния как содержимое HTML и добавляет результат в расположение документа MERGEFIELD.
+/// Если слияние почты встречает MERGEFIELD, имя которого начинается с префикса "html_",
+/// этот обратный вызов анализирует свои данные слияния как содержимое HTML и добавляет результат в расположение документа MERGEFIELD.
 /// </summary>
 private class HandleMergeFieldInsertHtml : IFieldMergingCallback
 {
     /// <summary>
-     /// Вызывается, когда слияние почты объединяет данные в MERGEFIELD.
+    /// Вызывается, когда слияние почты объединяет данные в MERGEFIELD.
     /// </summary>
     void IFieldMergingCallback.FieldMerging(FieldMergingArgs args)
     {
         if (args.DocumentFieldName.StartsWith("html_") && args.Field.GetFieldCode().Contains("\\b"))
         {
-             // Добавляем проанализированные HTML-данные в тело документа.
+            // Добавляем проанализированные HTML-данные в тело документа.
             DocumentBuilder builder = new DocumentBuilder(args.Document);
             builder.MoveToMergeField(args.DocumentFieldName);
             builder.InsertHtml((string)args.FieldValue);
 
-             // Поскольку мы уже вставили объединенный контент вручную, 
-             // нам не нужно будет реагировать на это событие, возвращая содержимое через свойство «Текст». 
+            // Так как мы уже вставили объединенный контент вручную,
+             // нам не нужно будет реагировать на это событие, возвращая содержимое через свойство «Текст».
             args.Text = string.Empty;
         }
     }
 
     void IFieldMergingCallback.ImageFieldMerging(ImageFieldMergingArgs args)
     {
-         // Ничего не делать.
+        // Ничего не делать.
     }
 }
 ```

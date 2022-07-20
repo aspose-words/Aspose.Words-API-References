@@ -24,37 +24,31 @@ public Section this[int index] { get; }
 
 Отрицательные индексы разрешены и указывают на доступ из задней части коллекции. Например, -1 означает последний элемент, -2 означает предпоследний и так далее.
 
-Если индекс больше или равен количеству элементов в списке, возвращает нулевую ссылку.
+Если индекс больше или равен количеству элементов в списке, возвращается пустая ссылка.
 
-Если индекс отрицательный и его абсолютное значение больше, чем количество элементов в списке, возвращает нулевую ссылку.
+Если индекс отрицательный и его абсолютное значение больше, чем количество элементов в списке, возвращается пустая ссылка.
 
 ### Примеры
 
 Показывает, когда пересчитывать макет страницы документа.
 
 ```csharp
-Document doc = new Document();
+Document doc = new Document(MyDir + "Rendering.docx");
 
- // Пустой документ состоит из раздела, в котором есть тело, а у него, в свою очередь, есть абзац.
- // Мы можем добавить содержимое в этот документ, добавив в этот абзац такие элементы, как фрагменты текста, фигуры или таблицы.
-Assert.AreEqual(NodeType.Section, doc.GetChild(NodeType.Any, 0, true).NodeType);
-Assert.AreEqual(NodeType.Body, doc.Sections[0].GetChild(NodeType.Any, 0, true).NodeType);
-Assert.AreEqual(NodeType.Paragraph, doc.Sections[0].Body.GetChild(NodeType.Any, 0, true).NodeType);
+// Сохранение документа в PDF, изображение или печать в первый раз автоматически
+// кэшируем макет документа на его страницах.
+doc.Save(ArtifactsDir + "Document.UpdatePageLayout.1.pdf");
 
- // Если мы добавим новый раздел, подобный этому, у него не будет тела или каких-либо других дочерних узлов.
-doc.Sections.Add(new Section(doc));
+// Измените документ каким-либо образом.
+doc.Styles["Normal"].Font.Size = 6;
+doc.Sections[0].PageSetup.Orientation = Aspose.Words.Orientation.Landscape;
 
-Assert.AreEqual(0, doc.Sections[1].GetChildNodes(NodeType.Any, true).Count);
+ // В текущей версии Aspose.Words изменение документа не приводит к автоматическому перестроению
+// кешированный макет страницы. Если мы хотим кэшированный макет
+// чтобы оставаться в курсе, нам нужно будет обновить его вручную.
+doc.UpdatePageLayout();
 
- // Запустите метод "EnsureMinimum", чтобы добавить тело и абзац в этот раздел, чтобы начать его редактирование.
-doc.LastSection.EnsureMinimum();
-
-Assert.AreEqual(NodeType.Body, doc.Sections[1].GetChild(NodeType.Any, 0, true).NodeType);
-Assert.AreEqual(NodeType.Paragraph, doc.Sections[1].Body.GetChild(NodeType.Any, 0, true).NodeType);
-
-doc.Sections[0].Body.FirstParagraph.AppendChild(new Run(doc, "Hello world!"));
-
-Assert.AreEqual("Hello world!", doc.GetText().Trim());
+doc.Save(ArtifactsDir + "Document.UpdatePageLayout.2.pdf");
 ```
 
 Показывает, как подготовить новый узел раздела к редактированию.
@@ -62,18 +56,18 @@ Assert.AreEqual("Hello world!", doc.GetText().Trim());
 ```csharp
 Document doc = new Document();
 
- // Пустой документ состоит из раздела, в котором есть тело, а у него, в свою очередь, есть абзац.
- // Мы можем добавить содержимое в этот документ, добавив в этот абзац такие элементы, как фрагменты текста, фигуры или таблицы.
+// Пустой документ состоит из раздела, в котором есть тело, а в нем, в свою очередь, есть абзац.
+// Мы можем добавить содержимое в этот документ, добавив в этот абзац такие элементы, как текстовые фрагменты, фигуры или таблицы.
 Assert.AreEqual(NodeType.Section, doc.GetChild(NodeType.Any, 0, true).NodeType);
 Assert.AreEqual(NodeType.Body, doc.Sections[0].GetChild(NodeType.Any, 0, true).NodeType);
 Assert.AreEqual(NodeType.Paragraph, doc.Sections[0].Body.GetChild(NodeType.Any, 0, true).NodeType);
 
- // Если мы добавим новый раздел, подобный этому, у него не будет тела или каких-либо других дочерних узлов.
+// Если мы добавим новый раздел, подобный этому, у него не будет ни тела, ни каких-либо других дочерних узлов.
 doc.Sections.Add(new Section(doc));
 
 Assert.AreEqual(0, doc.Sections[1].GetChildNodes(NodeType.Any, true).Count);
 
- // Запустите метод "EnsureMinimum", чтобы добавить тело и абзац в этот раздел, чтобы начать его редактирование.
+// Запустите метод "EnsureMinimum", чтобы добавить текст и абзац в этот раздел, чтобы начать его редактирование.
 doc.LastSection.EnsureMinimum();
 
 Assert.AreEqual(NodeType.Body, doc.Sections[1].GetChild(NodeType.Any, 0, true).NodeType);

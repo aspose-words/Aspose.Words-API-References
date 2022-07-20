@@ -1,16 +1,16 @@
 ---
 title: PlaceholderName
 second_title: Справочник по API Aspose.Words для .NET
-description: Получает или задает имя элементаBuildingBlockaspose.words.buildingblocks/buildingblock содержащего замещающий текст.
+description: Получает или задает имяBuildingBlockaspose.words.buildingblocks/buildingblock содержащий текст-заполнитель.
 type: docs
 weight: 240
 url: /ru/net/aspose.words.markup/structureddocumenttag/placeholdername/
 ---
 ## StructuredDocumentTag.PlaceholderName property
 
-Получает или задает имя элемента[`BuildingBlock`](../../../aspose.words.buildingblocks/buildingblock), содержащего замещающий текст.
+Получает или задает имя[`BuildingBlock`](../../../aspose.words.buildingblocks/buildingblock) содержащий текст-заполнитель.
 
-BuildingBlock с этим именем[`Name`](../../../aspose.words.buildingblocks/buildingblock/name)должен присутствовать в[`GlossaryDocument`](../../../aspose.words/document/glossarydocument) иначеInvalidOperationExceptionпроизойдет.
+BuildingBlock с таким названием[`Name`](../../../aspose.words.buildingblocks/buildingblock/name) должен присутствовать в[`GlossaryDocument`](../../../aspose.words/document/glossarydocument) иначеInvalidOperationException произойдет.
 
 ```csharp
 public string PlaceholderName { get; set; }
@@ -18,7 +18,7 @@ public string PlaceholderName { get; set; }
 
 ### Примеры
 
-Показывает, как использовать содержимое стандартного блока в качестве пользовательского текста-заполнителя для тега структурированного документа.
+Показывает, как использовать содержимое стандартного блока в качестве настраиваемого текста-заполнителя для тега структурированного документа.
 
 ```csharp
 Document doc = new Document();

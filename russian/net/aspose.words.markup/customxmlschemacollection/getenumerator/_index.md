@@ -1,14 +1,14 @@
 ---
 title: GetEnumerator
 second_title: Справочник по API Aspose.Words для .NET
-description: Возвращает объект перечислителя который можно использовать для перебора всех элементов коллекции.
+description: Возвращает объект перечислителя который можно использовать для перебора всех элементов в коллекции.
 type: docs
 weight: 60
 url: /ru/net/aspose.words.markup/customxmlschemacollection/getenumerator/
 ---
 ## CustomXmlSchemaCollection.GetEnumerator method
 
-Возвращает объект перечислителя, который можно использовать для перебора всех элементов коллекции.
+Возвращает объект перечислителя, который можно использовать для перебора всех элементов в коллекции.
 
 ```csharp
 public IEnumerator<string> GetEnumerator()
@@ -28,7 +28,7 @@ CustomXmlPart xmlPart = doc.CustomXmlParts.Add(xmlPartId, xmlPartContent);
 // Добавляем ассоциацию XML-схемы.
 xmlPart.Schemas.Add("http://www.w3.org/2001/XMLSchema");
 
-// Клонируем коллекцию ассоциаций схемы XML пользовательской части XML,
+// Клонировать коллекцию ассоциаций схемы XML пользовательской части XML,
 // а затем добавить пару новых схем в клон.
 CustomXmlSchemaCollection schemas = xmlPart.Schemas.Clone();
 schemas.Add("http://www.w3.org/2001/XMLSchema-instance");

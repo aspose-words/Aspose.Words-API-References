@@ -16,11 +16,11 @@ public Section ParentSection { get; }
 
 ### 评论
 
-**ParentSection** 等价到` (Section)ParentNode` 。
+**家长节**相当于`(节)ParentNode`.
 
 ### 例子
 
-显示如何在节之间链接页眉和页脚。
+显示如何在部分之间链接页眉和页脚。
 
 ```csharp
 Document doc = new Document();

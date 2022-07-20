@@ -20,7 +20,7 @@ public void Load(string fileName)
 
 ### 例子
 
-显示如何使用自定义字体替换表。
+展示如何使用自定义字体替换表。
 
 ```csharp
 Document doc = new Document();
@@ -98,7 +98,7 @@ public void Load(Stream stream)
 
 ### 例子
 
-显示如何使用自定义字体替换表。
+展示如何使用自定义字体替换表。
 
 ```csharp
 Document doc = new Document();

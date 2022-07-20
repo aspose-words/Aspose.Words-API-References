@@ -1,14 +1,14 @@
 ---
 title: MappedName
 second_title: Aspose.Words for .NET API 参考
-description: 指定预定义的合并字段名称该名称应映射到R5PAspose.Words 指定的列号  Settings.OdsoFieldMapData.Column此字段映射中的属性 默认值为空字符串
+description: 指定预定义的合并字段名称该名称应映射到由 指定的列号Columnaspose.words.settings/odsofieldmapdata/column此字段映射中的属性 默认值为空字符串
 type: docs
 weight: 30
 url: /zh/net/aspose.words.settings/odsofieldmapdata/mappedname/
 ---
 ## OdsoFieldMapData.MappedName property
 
-指定预定义的合并字段名称，该名称应映射到:::R5:P:Aspose.Words 指定的列号 。 Settings.OdsoFieldMapData.Column:::此字段映射中的属性。 默认值为空字符串。
+指定预定义的合并字段名称，该名称应映射到由 指定的列号[`Column`](../column)此字段映射中的属性。 默认值为空字符串。
 
 ```csharp
 public string MappedName { get; set; }
@@ -16,13 +16,13 @@ public string MappedName { get; set; }
 
 ### 例子
 
-显示如何访问将数据源列映射到合并字段的数据集合。
+演示如何访问将数据源列映射到合并字段的数据集合。
 
 ```csharp
 Document doc = new Document(MyDir + "Odso data.docx");
 
- // 这个集合定义了邮件合并如何映射来自数据源的列
- // 到预定义的 MERGEFIELD、ADDRESSBLOCK 和 GREETINGLINE 字段。
+// 此集合定义邮件合并如何映射来自数据源的列
+// 到预定义的 MERGEFIELD、ADDRESSBLOCK 和 GREETINGLINE 字段。
 OdsoFieldMapDataCollection dataCollection = doc.MailMergeSettings.Odso.FieldMapDatas;
 Assert.AreEqual(30, dataCollection.Count);
 
@@ -40,15 +40,15 @@ using (IEnumerator<OdsoFieldMapData> enumerator = dataCollection.GetEnumerator()
     }
 }
 
- // 克隆这个集合中的元素。
+// 克隆此集合中的元素。
 Assert.AreNotEqual(dataCollection[0], dataCollection[0].Clone());
 
- // 按索引单独使用“RemoveAt”方法元素。
+// 按索引单独使用“RemoveAt”方法元素。
 dataCollection.RemoveAt(0);
 
 Assert.AreEqual(29, dataCollection.Count);
 
- // 使用“清除”方法一次清除整个集合。
+// 使用“Clear”方法一次清除整个集合。
 dataCollection.Clear();
 
 Assert.AreEqual(0, dataCollection.Count);

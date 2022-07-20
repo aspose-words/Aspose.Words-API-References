@@ -1,14 +1,14 @@
 ---
 title: NumeralFormat
 second_title: Aspose.Words for .NET API 参考
-description: 表示用于表示数字 的符号集同时呈现为固定页面格式
+description: 表示在呈现为固定页面格式时用于表示数字 的符号集
 type: docs
-weight: 4980
+weight: 5030
 url: /zh/net/aspose.words.saving/numeralformat/
 ---
 ## NumeralFormat enumeration
 
-表示用于表示数字 的符号集，同时呈现为固定页面格式。
+表示在呈现为固定页面格式时用于表示数字 的符号集。
 
 ```csharp
 public enum NumeralFormat
@@ -18,9 +18,9 @@ public enum NumeralFormat
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| European | `0` | 欧洲数字:0123456789. |
-| ArabicIndic | `1` | 阿拉伯语中使用的数字:٠١٢٣٤٥٦٧٨٩。 Unicode 范围 U+0660 - u+0669。 |
-| EasternArabicIndic | `2` | 波斯语和乌尔都语中使用的数字:۰۱۲۳۴۵۶۷۸۹。 Unicode 范围 U+06F0 - u+06F9。 |
+| European | `0` | 欧洲数字：0123456789. |
+| ArabicIndic | `1` | 阿拉伯语中使用的数字：٠١٢٣٤٥٦٧٨٩. Unicode 范围 U+0660 - u+0669. |
+| EasternArabicIndic | `2` | 波斯语和乌尔都语中使用的数字： 012334566778۹. Unicode 范围 U+06F0 - u+06F9. |
 | Context | `3` | 符号集由上下文（语言环境和 RTL 属性）决定。 |
 | System | `4` | 不支持此选项。 符号集由区域设置决定。 |
 

@@ -1,14 +1,14 @@
 ---
 title: FontSize
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置字体大小默认值为 0 - 自动
+description: 获取或设置字体大小默认值为 0 - auto.
 type: docs
 weight: 40
 url: /zh/net/aspose.words/textwatermarkoptions/fontsize/
 ---
 ## TextWatermarkOptions.FontSize property
 
-获取或设置字体大小。默认值为 0 - 自动。
+获取或设置字体大小。默认值为 0 - auto.
 
 ```csharp
 public float FontSize { get; set; }
@@ -28,7 +28,7 @@ public float FontSize { get; set; }
 
 ### 例子
 
-显示如何创建文本水印。
+演示如何创建文本水印。
 
 ```csharp
 Document doc = new Document();

@@ -1,14 +1,14 @@
 ---
 title: OdtSaveMeasureUnit
 second_title: Aspose.Words for .NET API 参考
-description: 指定的测量单位用于在保存期间应用于可测量的文档内容例如形状宽度等
+description: 指定的测量单位应用于保存期间可测量的文档内容例如形状宽度和其他
 type: docs
-weight: 4990
+weight: 5040
 url: /zh/net/aspose.words.saving/odtsavemeasureunit/
 ---
 ## OdtSaveMeasureUnit enumeration
 
-指定的测量单位，用于在保存期间应用于可测量的文档内容，例如形状、宽度等。
+指定的测量单位应用于保存期间可测量的文档内容，例如形状、宽度和其他。
 
 ```csharp
 public enum OdtSaveMeasureUnit
@@ -19,7 +19,7 @@ public enum OdtSaveMeasureUnit
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
 | Centimeters | `0` | 指定以厘米为单位保存文档内容。 |
-| Inches | `1` | 指定文档内容使用英寸保存。 |
+| Inches | `1` | 指定使用英寸保存文档内容。 |
 
 ### 例子
 
@@ -28,11 +28,11 @@ public enum OdtSaveMeasureUnit
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
- // 当我们将文档导出为 .odt 时，我们可以使用 OdtSaveOptions 对象来修改我们如何保存文档。
- // 我们可以将“MeasureUnit”属性设置为“OdtSaveMeasureUnit.Centimeters”
+// 当我们将文档导出为 .odt 时，我们可以使用 OdtSaveOptions 对象来修改我们保存文档的方式。
+// 我们可以将“MeasureUnit”属性设置为“OdtSaveMeasureUnit.Centimeters”
 // 使用 Open Office 使用的公制系统定义样式参数等内容。 
- // 我们可以将“MeasureUnit”属性设置为“OdtSaveMeasureUnit.Inches”
- // 使用 Microsoft Word 使用的英制系统定义样式参数等内容。
+// 我们可以将“MeasureUnit”属性设置为“OdtSaveMeasureUnit.Inches”
+// 使用 Microsoft Word 使用的英制系统定义样式参数等内容。
 OdtSaveOptions saveOptions = new OdtSaveOptions
 {
     MeasureUnit = odtSaveMeasureUnit

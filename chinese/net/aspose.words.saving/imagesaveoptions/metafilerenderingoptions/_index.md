@@ -16,17 +16,17 @@ public MetafileRenderingOptions MetafileRenderingOptions { get; }
 
 ### 评论
 
-当Vector被指定时，Aspose.Words 首先使用自己的元文件渲染引擎将 元文件渲染为矢量图形，然后将矢量 图形渲染为图像。
+什么时候Vector指定时，Aspose.Words 先使用自己的元文件渲染引擎将 元文件渲染为矢量图形，然后再将vector 图形渲染为图像。
 
-当Bitmap被指定时，Aspose.Words 渲染 使用 GDI+ 图元文件渲染引擎将图元文件直接添加到图像。
+什么时候Bitmap指定时，Aspose.Words 使用 GDI+ 图元文件渲染引擎直接将 图元文件渲染到图像。
 
-GDI+ 图元文件渲染引擎工作速度更快，支持几乎所有图元文件功能，但在低 分辨率下与矢量的其余部分相比可能会产生不一致的结果页面上的图形（尤其是文本） 。 Aspose.Words 元文件渲染引擎将产生更一致的结果，即使 在低分辨率下，但工作速度较慢并且可能不准确地渲染复杂的元文件。
+GDI+ 图元文件渲染引擎运行速度更快，支持几乎所有图元文件功能，但与页面上的其余矢量图形（尤其是文本） 相比，低 分辨率可能会产生不一致的结果。 Aspose.Words 元文件渲染引擎将在低分辨率下产生更一致的结果 even 但工作速度较慢并且可能不准确地渲染复杂的元文件。
 
-[`MetafileRenderingMode`](../../metafilerenderingmode)的默认值为Bitmap。
+默认值为[`MetafileRenderingMode`](../../metafilerenderingmode)是Bitmap.
 
 ### 例子
 
-展示了在将带有 Windows 图元文件图像的文档保存为其他图像格式时如何设置呈现模式。
+展示了在将带有 Windows Metafile 图像的文档保存为其他图像格式时如何设置呈现模式。
 
 ```csharp
 Document doc = new Document();

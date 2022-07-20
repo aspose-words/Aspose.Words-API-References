@@ -18,9 +18,9 @@ public ProtectionType ProtectionType { get; }
 
 此属性允许检索当前设置的文档保护类型。 要更改文档保护类型，请使用[`Protect`](../protect) 和[`Unprotect`](../unprotect)方法。
 
-当文档受到保护时，用户只能进行有限的更改， 例如添加注释、进行修订或填写表格。
+当文档受到保护时，用户只能进行有限的更改， ，例如添加注释、进行修订或填写表格。
 
-请注意，文档保护不同于写保护。 使用[`WriteProtection`](../writeprotection)
+请注意，文档保护不同于写保护。 写保护是使用[`WriteProtection`](../writeprotection)
 
 ### 例子
 

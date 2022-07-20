@@ -20,7 +20,7 @@ public string FallbackFontName { get; set; }
 
 ### 例子
 
-说明如何声明如果原始字体不可用，打印机将应用到打印文本的字体作为替代字体。
+演示如何声明一种字体，如果原始字体不可用，打印机将应用到打印文本作为替代字体。
 
 ```csharp
 Document doc = new Document();
@@ -32,8 +32,8 @@ builder.Write("Hello world!");
 PclSaveOptions saveOptions = new PclSaveOptions();
 saveOptions.FallbackFontName = "Times New Roman";
 
- // 此文档将指示打印机将“Times New Roman”应用于缺少字体的文本。
- // 如果“Times New Roman”也无法使用，打印机将默认使用“Arial”字体。
+// 此文档将指示打印机将“Times New Roman”应用于缺少字体的文本。
+// 如果“Times New Roman”也无法使用，打印机将默认使用“Arial”字体。
 doc.Save(ArtifactsDir + "PclSaveOptions.SetPrinterFont.pcl", saveOptions);
 ```
 

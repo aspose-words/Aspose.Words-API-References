@@ -1,14 +1,14 @@
 ---
 title: DateStorageFormat
 second_title: Aspose.Words for .NET API 参考
-description: 获取/设置在绑定 SDT 时存储日期 SDT 的日期格式到文档数据存储中的 XML 节点 默认值为DateTime
+description: 获取/设置日期 SDT 的日期存储格式当 SDT绑定到文档数据存储中的 XML 节点 默认值为DateTime
 type: docs
 weight: 110
 url: /zh/net/aspose.words.markup/structureddocumenttag/datestorageformat/
 ---
 ## StructuredDocumentTag.DateStorageFormat property
 
-获取/设置在绑定 **SDT** 时存储日期 SDT 的日期格式到文档数据存储中的 XML 节点。 默认值为DateTime
+获取/设置日期 SDT 的日期存储格式，当 **SDT**绑定到文档数据存储中的 XML 节点。 默认值为DateTime
 
 ```csharp
 public SdtDateStorageFormat DateStorageFormat { get; set; }
@@ -16,7 +16,7 @@ public SdtDateStorageFormat DateStorageFormat { get; set; }
 
 ### 评论
 
-访问此属性仅适用于DateSDT 类型。
+访问此属性仅适用于DateSDT 类型.
 
 对于所有其他 SDT 类型，将发生异常。
 

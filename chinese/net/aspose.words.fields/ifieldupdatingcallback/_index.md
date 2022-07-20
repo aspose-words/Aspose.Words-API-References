@@ -3,7 +3,7 @@ title: IFieldUpdatingCallback
 second_title: Aspose.Words for .NET API 参考
 description: 如果您想在字段更新期间调用自己的自定义方法请实现此接口
 type: docs
-weight: 2500
+weight: 2550
 url: /zh/net/aspose.words.fields/ifieldupdatingcallback/
 ---
 ## IFieldUpdatingCallback interface
@@ -23,7 +23,7 @@ public interface IFieldUpdatingCallback
 
 ### 例子
 
-显示如何在字段更新期间使用回调方法。
+展示如何在字段更新期间使用回调方法。
 
 ```csharp
 {

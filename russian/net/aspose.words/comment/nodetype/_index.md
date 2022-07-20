@@ -1,14 +1,14 @@
 ---
 title: NodeType
 second_title: Справочник по API Aspose.Words для .NET
-description: Возвращает NodeType.Comment .
+description: Возвращает NodeType.Комментарий .
 type: docs
 weight: 80
 url: /ru/net/aspose.words/comment/nodetype/
 ---
 ## Comment.NodeType property
 
-Возвращает **NodeType.Comment** .
+Возвращает **NodeType.Комментарий** .
 
 ```csharp
 public override NodeType NodeType { get; }

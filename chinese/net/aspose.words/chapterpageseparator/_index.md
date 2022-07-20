@@ -18,9 +18,9 @@ public enum ChapterPageSeparator
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| Hyphen | `0` | 冒号。 |
-| Period | `1` | 句号。 |
-| Colon | `2` | 冒号。 |
+| Hyphen | `0` | 一个冒号。 |
+| Period | `1` | 一个句号。 |
+| Colon | `2` | 一个冒号。 |
 | EmDash | `3` | 强调的破折号。 |
 | EnDash | `4` | 标准破折号。 |
 

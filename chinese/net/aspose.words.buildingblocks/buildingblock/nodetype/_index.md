@@ -1,14 +1,14 @@
 ---
 title: NodeType
 second_title: Aspose.Words for .NET API 参考
-description: 返回BuildingBlock值
+description: 返回BuildingBlock值.
 type: docs
 weight: 100
 url: /zh/net/aspose.words.buildingblocks/buildingblock/nodetype/
 ---
 ## BuildingBlock.NodeType property
 
-返回BuildingBlock值。
+返回BuildingBlock值.
 
 ```csharp
 public override NodeType NodeType { get; }

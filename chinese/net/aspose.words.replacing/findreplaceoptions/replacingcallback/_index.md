@@ -23,53 +23,37 @@ public IReplacingCallback ReplacingCallback { get; set; }
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    builder.Font.Name = "Arial";
-    builder.Writeln("Numbers that the find-and-replace operation will convert to hexadecimal and highlight:\n" +
-                    "123, 456, 789 and 17379.");
+    builder.Writeln("Our new location in New York City is opening tomorrow. " +
+                    "Hope to see all our NYC-based customers at the opening!");
 
     // 我们可以使用“FindReplaceOptions”对象来修改查找和替换过程。
     FindReplaceOptions options = new FindReplaceOptions();
 
-    // 将“HighlightColor”属性设置为我们想要应用于操作结果文本的背景颜色。
-    options.ApplyFont.HighlightColor = Color.LightGray;
+    // 设置一个回调来跟踪“替换”方法将进行的任何替换。
+    TextFindAndReplacementLogger logger = new TextFindAndReplacementLogger();
+    options.ReplacingCallback = logger;
 
-    NumberHexer numberHexer = new NumberHexer();
-    options.ReplacingCallback = numberHexer;
+    doc.Range.Replace(new Regex("New York City|NYC"), "Washington", options);
 
-    int replacementCount = doc.Range.Replace(new Regex("[0-9]+"), "", options);
+    Assert.AreEqual("Our new location in (Old value:\"New York City\") Washington is opening tomorrow. " +
+                    "Hope to see all our (Old value:\"NYC\") Washington-based customers at the opening!", doc.GetText().Trim());
 
-    Console.WriteLine(numberHexer.GetLog());
-
-    Assert.AreEqual(4, replacementCount);
-    Assert.AreEqual("Numbers that the find-and-replace operation will convert to hexadecimal and highlight:\r" +
-                    "0x7B, 0x1C8, 0x315 and 0x43E3.", doc.GetText().Trim());
-    Assert.AreEqual(4, doc.GetChildNodes(NodeType.Run, true).OfType<Run>()
-            .Count(r => r.Font.HighlightColor.ToArgb() == Color.LightGray.ToArgb()));
+    Assert.AreEqual("\"New York City\" converted to \"Washington\" 20 characters into a Run node.\r\n" +
+                    "\"NYC\" converted to \"Washington\" 42 characters into a Run node.", logger.GetLog().Trim());
 }
 
 /// <summary>
-/// 将数字查找和替换匹配替换为其十六进制等效项。
-/// 维护每次替换的日志。
+/// 维护由查找和替换操作完成的每个文本替换的日志
+/// 并注意原始匹配文本的值。
 /// </summary>
-private class NumberHexer : IReplacingCallback
+private class TextFindAndReplacementLogger : IReplacingCallback
 {
-    public ReplaceAction Replacing(ReplacingArgs args)
+    ReplaceAction IReplacingCallback.Replacing(ReplacingArgs args)
     {
-        mCurrentReplacementNumber++;
+        mLog.AppendLine($"\"{args.Match.Value}\" converted to \"{args.Replacement}\" " +
+                        $"{args.MatchOffset} characters into a {args.MatchNode.NodeType} node.");
 
-        int number = Convert.ToInt32(args.Match.Value);
-
-        args.Replacement = $"0x{number:X}";
-
-        mLog.AppendLine($"Match #{mCurrentReplacementNumber}");
-        mLog.AppendLine($"\tOriginal value:\t{args.Match.Value}");
-        mLog.AppendLine($"\tReplacement:\t{args.Replacement}");
-        mLog.AppendLine($"\tOffset in parent {args.MatchNode.NodeType} node:\t{args.MatchOffset}");
-
-        mLog.AppendLine(string.IsNullOrEmpty(args.GroupName)
-            ? $"\tGroup index:\t{args.GroupIndex}"
-            : $"\tGroup name:\t{args.GroupName}");
-
+        args.Replacement = $"(Old value:\"{args.Match.Value}\") {args.Replacement}";
         return ReplaceAction.Replace;
     }
 
@@ -78,12 +62,11 @@ private class NumberHexer : IReplacingCallback
         return mLog.ToString();
     }
 
-    private int mCurrentReplacementNumber;
     private readonly StringBuilder mLog = new StringBuilder();
 }
 ```
 
-显示如何通过 FindReplaceOptions 将不同的字体应用于新内容。
+展示如何通过 FindReplaceOptions 将不同的字体应用于新内容。
 
 ```csharp
 {

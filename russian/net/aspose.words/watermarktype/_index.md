@@ -3,7 +3,7 @@ title: WatermarkType
 second_title: Справочник по API Aspose.Words для .NET
 description: Указывает тип водяного знака.
 type: docs
-weight: 6330
+weight: 6380
 url: /ru/net/aspose.words/watermarktype/
 ---
 ## WatermarkType enumeration

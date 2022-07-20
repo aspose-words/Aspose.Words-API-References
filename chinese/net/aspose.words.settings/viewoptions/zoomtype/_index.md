@@ -23,15 +23,13 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world!");
 
- // 将“ZoomType”属性设置为“ZoomType.PageWidth”以获取Microsoft Word
- // 自动缩放文档以适应页面的宽度。
- // 将“ZoomType”属性设置为“ZoomType.FullPage”以获取 Microsoft Word
- // 自动缩放文档以使整个第一页可见。
- // 将“ZoomType”属性设置为“ZoomType.TextFit”以获取Microsoft Word
- // 自动缩放文档以适应第一页的内部文本边距。
-doc.ViewOptions.ZoomType = zoomType;
+doc.ViewOptions.ViewType = ViewType.PageLayout;
+doc.ViewOptions.ZoomPercent = 50;
 
-doc.Save(ArtifactsDir + "ViewOptions.SetZoomType.doc");
+Assert.AreEqual(ZoomType.Custom, doc.ViewOptions.ZoomType);
+Assert.AreEqual(ZoomType.None, doc.ViewOptions.ZoomType);
+
+doc.Save(ArtifactsDir + "ViewOptions.SetZoomPercentage.doc");
 ```
 
 显示如何设置自定义缩放类型，旧版本的 Microsoft Word 将在加载时应用于文档。
@@ -41,12 +39,12 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world!");
 
- // 将“ZoomType”属性设置为“ZoomType.PageWidth”以获取Microsoft Word
- // 自动缩放文档以适应页面的宽度。
- // 将“ZoomType”属性设置为“ZoomType.FullPage”以获取 Microsoft Word
- // 自动缩放文档以使整个第一页可见。
- // 将“ZoomType”属性设置为“ZoomType.TextFit”以获取Microsoft Word
- // 自动缩放文档以适应第一页的内部文本边距。
+// 将“ZoomType”属性设置为“ZoomType.PageWidth”以获取 Microsoft Word
+// 自动缩放文档以适应页面的宽度。
+// 将“ZoomType”属性设置为“ZoomType.FullPage”以获取 Microsoft Word
+// 自动缩放文档以使整个第一页可见。
+// 将“ZoomType”属性设置为“ZoomType.TextFit”以获取 Microsoft Word
+// 自动缩放文档以适应第一页的内部文本边距。
 doc.ViewOptions.ZoomType = zoomType;
 
 doc.Save(ArtifactsDir + "ViewOptions.SetZoomType.doc");

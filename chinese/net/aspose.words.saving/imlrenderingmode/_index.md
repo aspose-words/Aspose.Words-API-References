@@ -3,7 +3,7 @@ title: ImlRenderingMode
 second_title: Aspose.Words for .NET API 参考
 description: 指定如何将墨迹 InkML 对象呈现为固定页面格式
 type: docs
-weight: 4940
+weight: 4990
 url: /zh/net/aspose.words.saving/imlrenderingmode/
 ---
 ## ImlRenderingMode enumeration
@@ -18,12 +18,12 @@ public enum ImlRenderingMode
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| Fallback | `0` | 如果后备形状可用于墨水 (InkML) 对象，Aspose.Words 呈现后备形状而不是 InkML。 |
+| Fallback | `0` | 如果后备形状可用于墨水 (InkML) 对象，Aspose.Words 会呈现后备形状而不是 InkML。 |
 | InkML | `1` | Aspose.Words 忽略墨迹 (InkML) 对象的后备形状并呈现 InkML 本身。 这是默认模式。 |
 
 ### 例子
 
-显示如何渲染 Ink 对象。
+展示如何渲染 Ink 对象。
 
 ```csharp
 Document doc = new Document(MyDir + "Ink object.docx");

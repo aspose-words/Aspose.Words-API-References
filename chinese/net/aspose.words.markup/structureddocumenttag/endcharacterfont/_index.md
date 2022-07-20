@@ -1,14 +1,14 @@
 ---
 title: EndCharacterFont
 second_title: Aspose.Words for .NET API 参考
-description: 将应用于输入 SDT 的文本的最后一个字符的字体格式
+description: 将应用于输入文本的最后一个字符的字体格式 SDT.
 type: docs
 weight: 120
 url: /zh/net/aspose.words.markup/structureddocumenttag/endcharacterfont/
 ---
 ## StructuredDocumentTag.EndCharacterFont property
 
-将应用于输入 **SDT** 的文本的最后一个字符的字体格式。
+将应用于输入文本的最后一个字符的字体格式 **SDT**.
 
 ```csharp
 public Font EndCharacterFont { get; }

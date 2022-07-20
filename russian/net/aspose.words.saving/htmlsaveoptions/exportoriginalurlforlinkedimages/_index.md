@@ -1,14 +1,14 @@
 ---
 title: ExportOriginalUrlForLinkedImages
 second_title: Справочник по API Aspose.Words для .NET
-description: Указывает следует ли использовать исходный URL-адрес в качестве URL-адреса связанных изображений. Значение по умолчанию false .
+description: Указывает следует ли использовать исходный URL-адрес в качестве URL-адреса связанных изображений. Значение по умолчаниюЛОЖЬ .
 type: docs
 weight: 210
 url: /ru/net/aspose.words.saving/htmlsaveoptions/exportoriginalurlforlinkedimages/
 ---
 ## HtmlSaveOptions.ExportOriginalUrlForLinkedImages property
 
-Указывает, следует ли использовать исходный URL-адрес в качестве URL-адреса связанных изображений. Значение по умолчанию:` false` .
+Указывает, следует ли использовать исходный URL-адрес в качестве URL-адреса связанных изображений. Значение по умолчанию:`ЛОЖЬ` .
 
 ```csharp
 public bool ExportOriginalUrlForLinkedImages { get; set; }
@@ -16,13 +16,13 @@ public bool ExportOriginalUrlForLinkedImages { get; set; }
 
 ### Примечания
 
-Если установлено значение` true`[`SourceFullName`](../../../aspose.words.drawing/imagedata/sourcefullname)используется значение поскольку URL связанных изображений и связанных изображений не загружаются в папку документа или[`ImagesFolder`](../imagesfolder).
+Если установлено значение`истинный`[`SourceFullName`](../../../aspose.words.drawing/imagedata/sourcefullname) значение используется , поскольку URL связанных изображений и связанных изображений не загружаются в папку документа или[`ImagesFolder`](../imagesfolder).
 
-Если установлено значение` false` связанные изображения загружаются в папку документа или[`ImagesFolder`](../imagesfolder)и URL каждого связанного изображения создается в зависимости от папки документа,[`ImagesFolder`](../imagesfolder) и[`ImagesFolderAlias`](../imagesfolderalias)свойства.
+Если установлено значение`ЛОЖЬ` связанные изображения загружаются в папку документа или[`ImagesFolder`](../imagesfolder) и URL каждого связанного изображения создается в зависимости от папки документа,[`ImagesFolder`](../imagesfolder) и[`ImagesFolderAlias`](../imagesfolderalias) характеристики.
 
 ### Примеры
 
-Показывает, как установить папки и псевдонимы папок для внешних ресурсов, которые Aspose.Words создаст при сохранении документа в HTML.
+Показывает, как установить папки и псевдонимы папок для внешне сохраненных ресурсов, которые Aspose.Words создаст при сохранении документа в HTML.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");

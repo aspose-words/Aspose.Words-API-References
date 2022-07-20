@@ -16,7 +16,7 @@ public TextPathAlignment TextPathAlignment { get; set; }
 
 ### 评论
 
-默认值为TextPathAlignment。中心。
+默认值为Center.
 
 ### 例子
 

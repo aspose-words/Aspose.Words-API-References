@@ -1,14 +1,14 @@
 ---
 title: DistanceTop
 second_title: Справочник по API Aspose.Words для .NET
-description: Получает расстояние между столешницей и окружающим текстом в пунктах.
+description: Получает расстояние между верхней частью таблицы и окружающим текстом в пунктах.
 type: docs
 weight: 150
 url: /ru/net/aspose.words.tables/table/distancetop/
 ---
 ## Table.DistanceTop property
 
-Получает расстояние между столешницей и окружающим текстом в пунктах.
+Получает расстояние между верхней частью таблицы и окружающим текстом в пунктах.
 
 ```csharp
 public double DistanceTop { get; }

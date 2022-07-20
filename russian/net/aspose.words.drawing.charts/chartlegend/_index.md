@@ -20,11 +20,11 @@ public class ChartLegend
 | --- | --- |
 | [LegendEntries](../../aspose.words.drawing.charts/chartlegend/legendentries) { get; } | Возвращает набор записей легенды для всех рядов и линий тренда родительской диаграммы. |
 | [Overlay](../../aspose.words.drawing.charts/chartlegend/overlay) { get; set; } | Определяет, разрешено ли другим элементам диаграммы перекрывать легенду. Значение по умолчанию — false. |
-| [Position](../../aspose.words.drawing.charts/chartlegend/position) { get; set; } | Указывает положение легенды на диаграмме. Значение по умолчанию:Right. |
+| [Position](../../aspose.words.drawing.charts/chartlegend/position) { get; set; } | Указывает положение легенды на диаграмме. Значение по умолчанию:Right . |
 
 ### Примеры
 
-Показывает, как редактировать внешний вид легенды диаграммы.
+Показывает, как изменить внешний вид легенды диаграммы.
 
 ```csharp
 Document doc = new Document();

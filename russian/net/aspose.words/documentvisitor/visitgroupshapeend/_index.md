@@ -1,14 +1,14 @@
 ---
 title: VisitGroupShapeEnd
 second_title: Справочник по API Aspose.Words для .NET
-description: Вызывается когда закончилось перечисление формы группы.
+description: Вызывается после окончания перечисления формы группы.
 type: docs
 weight: 260
 url: /ru/net/aspose.words/documentvisitor/visitgroupshapeend/
 ---
 ## DocumentVisitor.VisitGroupShapeEnd method
 
-Вызывается, когда закончилось перечисление формы группы.
+Вызывается после окончания перечисления формы группы.
 
 ```csharp
 public virtual VisitorAction VisitGroupShapeEnd(GroupShape groupShape)
@@ -16,11 +16,11 @@ public virtual VisitorAction VisitGroupShapeEnd(GroupShape groupShape)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| groupShape | GroupShape | Посещаемый объект. |
+| groupShape | GroupShape | Объект, который посещается. |
 
 ### Возвращаемое значение
 
-A[`VisitorAction`](../../visitoraction)значение, указывающее, как продолжить перечисление.
+А[`VisitorAction`](../../visitoraction) значение, указывающее, как продолжить перечисление.
 
 ### Примеры
 
@@ -32,9 +32,9 @@ public void GroupOfShapes()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-     // Если вам нужно создать "непримитивные" фигуры, такие как SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped, 
-     // TopCornersOneRoundedOneSnipped, SingleCornerRounded, TopCornersRounded, DiagonalCornersRounded
-     // используйте методы DocumentBuilder.InsertShape.
+    // Если вам нужно создать "непримитивные" фигуры, такие как SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,
+    // TopCornersOneRoundedOneSnipped, SingleCornerRounded, TopCornersRounded, DiagonalCornersRounded
+    // используйте методы DocumentBuilder.InsertShape.
     Shape balloon = new Shape(doc, ShapeType.Balloon)
     {
         Width = 200, 
@@ -64,7 +64,7 @@ public void GroupOfShapes()
 }
 
 /// <summary>
- /// Выводит содержимое посещенной группы форм на консоль.
+/// Выводит содержимое посещенной группы форм на консоль.
 /// </summary>
 public class ShapeGroupPrinter : DocumentVisitor
 {

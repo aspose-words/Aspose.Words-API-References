@@ -1,14 +1,14 @@
 ---
 title: EnsureMinimum
 second_title: Aspose.Words for .NET API 参考
-description: 如果文档不包含任何节则创建一个节和一个段落
+description: 如果文档不包含任何部分则创建一个包含一个段落的部分
 type: docs
 weight: 560
 url: /zh/net/aspose.words/document/ensureminimum/
 ---
 ## Document.EnsureMinimum method
 
-如果文档不包含任何节，则创建一个节和一个段落。
+如果文档不包含任何部分，则创建一个包含一个段落的部分。
 
 ```csharp
 public void EnsureMinimum()
@@ -16,7 +16,7 @@ public void EnsureMinimum()
 
 ### 例子
 
-说明如何确保文档包含编辑其内容所需的最少节点集。
+展示如何确保文档包含编辑其内容所需的最少节点集。
 
 ```csharp
 // 一个新创建的文档包含一个子Section，其中包括一个子Body和一个子Paragraph。

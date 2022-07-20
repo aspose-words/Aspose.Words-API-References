@@ -16,7 +16,7 @@ public int IndexOfKey(string name)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| name | String | 不区分大小写的书签名称。 |
+| name | String | 书签的不区分大小写的名称。 |
 
 ### 返回值
 

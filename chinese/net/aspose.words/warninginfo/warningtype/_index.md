@@ -16,7 +16,7 @@ public WarningType WarningType { get; }
 
 ### 例子
 
-显示如何设置属性以从可用字体源中查找缺失字体的最接近匹配项。
+演示如何设置属性以从可用字体源中查找缺失字体的最接近匹配项。
 
 ```csharp
 [Test]

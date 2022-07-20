@@ -18,13 +18,13 @@ public sealed class ConditionalStyle
 
 | Имя | Описание |
 | --- | --- |
-| [Borders](../../aspose.words/conditionalstyle/borders) { get; } | Получает коллекцию границ ячеек по умолчанию для условного стиля. |
+| [Borders](../../aspose.words/conditionalstyle/borders) { get; } | Получает набор границ ячеек по умолчанию для условного стиля. |
 | [BottomPadding](../../aspose.words/conditionalstyle/bottompadding) { get; set; } | Получает или задает количество места (в пунктах) для добавления под содержимым ячеек таблицы. |
 | [Font](../../aspose.words/conditionalstyle/font) { get; } | Получает форматирование символов условного стиля. |
 | [LeftPadding](../../aspose.words/conditionalstyle/leftpadding) { get; set; } | Получает или задает количество места (в пунктах) для добавления слева от содержимого ячеек таблицы. |
 | [ParagraphFormat](../../aspose.words/conditionalstyle/paragraphformat) { get; } | Получает форматирование абзаца условного стиля. |
-| [RightPadding](../../aspose.words/conditionalstyle/rightpadding) { get; set; } | Получает или задает количество места (в пунктах), добавляемого справа от содержимого ячеек таблицы. |
-| [Shading](../../aspose.words/conditionalstyle/shading) { get; } | Получает объект[`Shading`](../shading), который ссылается на форматирование заливки для этого условного стиля. |
+| [RightPadding](../../aspose.words/conditionalstyle/rightpadding) { get; set; } | Получает или задает количество места (в пунктах), которое нужно добавить справа от содержимого ячеек таблицы. |
+| [Shading](../../aspose.words/conditionalstyle/shading) { get; } | Получает[`Shading`](../shading) объект, который ссылается на форматирование заливки для этого условного стиля. |
 | [TopPadding](../../aspose.words/conditionalstyle/toppadding) { get; set; } | Получает или задает количество места (в пунктах) для добавления над содержимым ячеек таблицы. |
 | [Type](../../aspose.words/conditionalstyle/type) { get; } | Получает область таблицы, к которой относится этот условный стиль. |
 
@@ -32,7 +32,7 @@ public sealed class ConditionalStyle
 
 | Имя | Описание |
 | --- | --- |
-| [ClearFormatting](../../aspose.words/conditionalstyle/clearformatting)() | Очищает форматирование этого условного стиля. |
+| [ClearFormatting](../../aspose.words/conditionalstyle/clearformatting)() | Удаляет форматирование этого условного стиля. |
 | override [Equals](../../aspose.words/conditionalstyle/equals)(object) |  |
 | override [GetHashCode](../../aspose.words/conditionalstyle/gethashcode)() | Вычисляет хеш-код для этого объекта. |
 
@@ -56,31 +56,31 @@ builder.InsertCell();
 builder.Write("Cell 4");
 builder.EndTable();
 
- // Создаем пользовательский стиль таблицы.
+// Создаем пользовательский стиль таблицы.
 TableStyle tableStyle = (TableStyle)doc.Styles.Add(StyleType.Table, "MyTableStyle1");
 
- // Условные стили — это изменения форматирования, которые влияют только на некоторые ячейки таблицы
- // на основе предиката, такого как ячейки, находящиеся в последней строке.
-// Ниже приведены три способа доступа к условным стилям табличного стиля из коллекции "ConditionalStyles".
- // 1 - По типу стиля:
+// Условные стили — это изменения форматирования, которые влияют только на некоторые ячейки таблицы
+// на основе предиката, такого как ячейки, находящиеся в последней строке.
+// Ниже приведены три способа доступа к условным стилям табличного стиля из коллекции «ConditionalStyles».
+// 1 - По типу стиля:
 tableStyle.ConditionalStyles[ConditionalStyleType.FirstRow].Shading.BackgroundPatternColor = Color.AliceBlue;
 
- // 2 - По индексу:
+// 2 - По индексу:
 tableStyle.ConditionalStyles[0].Borders.Color = Color.Black;
 tableStyle.ConditionalStyles[0].Borders.LineStyle = LineStyle.DotDash;
 Assert.AreEqual(ConditionalStyleType.FirstRow, tableStyle.ConditionalStyles[0].Type);
 
- // 3 - Как свойство:
+// 3 - Как свойство:
 tableStyle.ConditionalStyles.FirstRow.ParagraphFormat.Alignment = ParagraphAlignment.Center;
 
- // Применяем отступы и форматирование текста к условным стилям.
+// Применение отступов и форматирования текста к условным стилям.
 tableStyle.ConditionalStyles.LastRow.BottomPadding = 10;
 tableStyle.ConditionalStyles.LastRow.LeftPadding = 10;
 tableStyle.ConditionalStyles.LastRow.RightPadding = 10;
 tableStyle.ConditionalStyles.LastRow.TopPadding = 10;
 tableStyle.ConditionalStyles.LastColumn.Font.Bold = true;
 
- // Список всех возможных условий стиля.
+// Список всех возможных условий стиля.
 using (IEnumerator<ConditionalStyle> enumerator = tableStyle.ConditionalStyles.GetEnumerator())
 {
     while (enumerator.MoveNext())
@@ -90,14 +90,14 @@ using (IEnumerator<ConditionalStyle> enumerator = tableStyle.ConditionalStyles.G
     }
 }
 
- // Применяем пользовательский стиль, содержащий все условные стили, к таблице.
+// Применяем к таблице пользовательский стиль, содержащий все условные стили.
 table.Style = tableStyle;
 
- // Наш стиль по умолчанию применяет некоторые условные стили.
+// Наш стиль по умолчанию применяет некоторые условные стили.
 Assert.AreEqual(TableStyleOptions.FirstRow | TableStyleOptions.FirstColumn | TableStyleOptions.RowBands, 
     table.StyleOptions);
 
- // Нам нужно будет включить все остальные стили самостоятельно через свойство StyleOptions.
+// Нам нужно будет включить все остальные стили самостоятельно через свойство StyleOptions.
 table.StyleOptions = table.StyleOptions | TableStyleOptions.LastRow | TableStyleOptions.LastColumn;
 
 doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");

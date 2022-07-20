@@ -16,77 +16,61 @@ public ReplaceAction Replacing(ReplacingArgs args)
 
 ### 返回值
 
-A[`ReplaceAction`](../../replaceaction)值指定要对当前匹配采取的操作。
+一个[`ReplaceAction`](../../replaceaction)指定对当前匹配采取的操作的值。
 
 ### 例子
 
-显示如何用另一个字符串替换所有出现的正则表达式模式，同时跟踪所有此类替换。
+展示如何用另一个字符串替换所有出现的正则表达式模式，同时跟踪所有此类替换。
 
 ```csharp
 {
-    Document mainDoc = new Document(MyDir + "Document insertion destination.docx");
+    Document doc = new Document();
+    DocumentBuilder builder = new DocumentBuilder(doc);
+
+    builder.Writeln("Our new location in New York City is opening tomorrow. " +
+                    "Hope to see all our NYC-based customers at the opening!");
 
     // 我们可以使用“FindReplaceOptions”对象来修改查找和替换过程。
     FindReplaceOptions options = new FindReplaceOptions();
-    options.ReplacingCallback = new InsertDocumentAtReplaceHandler();
 
-    mainDoc.Range.Replace(new Regex("\\[MY_DOCUMENT\\]"), "", options);
-    mainDoc.Save(ArtifactsDir + "InsertDocument.InsertDocumentAtReplace.docx");
+    // 设置一个回调来跟踪“替换”方法将进行的任何替换。
+    TextFindAndReplacementLogger logger = new TextFindAndReplacementLogger();
+    options.ReplacingCallback = logger;
 
-private class InsertDocumentAtReplaceHandler : IReplacingCallback
-{
-    ReplaceAction IReplacingCallback.Replacing(ReplacingArgs args)
-    {
-        Document subDoc = new Document(MyDir + "Document.docx");
+    doc.Range.Replace(new Regex("New York City|NYC"), "Washington", options);
 
-        // 在包含匹配文本的段落之后插入一个文档。
-        Paragraph para = (Paragraph)args.MatchNode.ParentNode;
-        InsertDocument(para, subDoc);
+    Assert.AreEqual("Our new location in (Old value:\"New York City\") Washington is opening tomorrow. " +
+                    "Hope to see all our (Old value:\"NYC\") Washington-based customers at the opening!", doc.GetText().Trim());
 
-        // 删除匹配文本的段落。
-        para.Remove();
-
-        return ReplaceAction.Skip;
-    }
+    Assert.AreEqual("\"New York City\" converted to \"Washington\" 20 characters into a Run node.\r\n" +
+                    "\"NYC\" converted to \"Washington\" 42 characters into a Run node.", logger.GetLog().Trim());
 }
 
 /// <summary>
-/// 在段落或表格之后插入另一个文档的所有节点。
+/// 维护由查找和替换操作完成的每个文本替换的日志
+/// 并注意原始匹配文本的值。
 /// </summary>
-private static void InsertDocument(Node insertionDestination, Document docToInsert)
+private class TextFindAndReplacementLogger : IReplacingCallback
 {
-    if (insertionDestination.NodeType == NodeType.Paragraph || insertionDestination.NodeType == NodeType.Table)
+    ReplaceAction IReplacingCallback.Replacing(ReplacingArgs args)
     {
-        CompositeNode dstStory = insertionDestination.ParentNode;
+        mLog.AppendLine($"\"{args.Match.Value}\" converted to \"{args.Replacement}\" " +
+                        $"{args.MatchOffset} characters into a {args.MatchNode.NodeType} node.");
 
-        NodeImporter importer =
-            new NodeImporter(docToInsert, insertionDestination.Document, ImportFormatMode.KeepSourceFormatting);
-
-        foreach (Section srcSection in docToInsert.Sections.OfType<Section>())
-            foreach (Node srcNode in srcSection.Body)
-            {
-                // 如果节点是节中的最后一个空段落，则跳过该节点。
-                if (srcNode.NodeType == NodeType.Paragraph)
-                {
-                    Paragraph para = (Paragraph)srcNode;
-                    if (para.IsEndOfSection && !para.HasChildNodes)
-                        continue;
-                }
-
-                Node newNode = importer.ImportNode(srcNode, true);
-
-                dstStory.InsertAfter(newNode, insertionDestination);
-                insertionDestination = newNode;
-            }
+        args.Replacement = $"(Old value:\"{args.Match.Value}\") {args.Replacement}";
+        return ReplaceAction.Replace;
     }
-    else
+
+    public string GetLog()
     {
-        throw new ArgumentException("The destination node must be either a paragraph or table.");
+        return mLog.ToString();
     }
+
+    private readonly StringBuilder mLog = new StringBuilder();
 }
 ```
 
-显示如何插入整个文档的内容以替换查找和替换操作中的匹配项。
+演示如何在查找和替换操作中插入整个文档的内容以替换匹配项。
 
 ```csharp
 {

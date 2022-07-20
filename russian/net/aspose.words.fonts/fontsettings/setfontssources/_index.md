@@ -1,14 +1,14 @@
 ---
 title: SetFontsSources
 second_title: Справочник по API Aspose.Words для .NET
-description: Устанавливает источники в которых Aspose.Words ищет шрифты TrueType при рендеринге документов или внедрении шрифтов.
+description: Устанавливает источники в которых Aspose.Words ищет шрифты TrueType при отображении документов или внедрении шрифтов.
 type: docs
 weight: 100
 url: /ru/net/aspose.words.fonts/fontsettings/setfontssources/
 ---
 ## SetFontsSources(FontSourceBase[]) {#setfontssources}
 
-Устанавливает источники, в которых Aspose.Words ищет шрифты TrueType при рендеринге документов или внедрении шрифтов.
+Устанавливает источники, в которых Aspose.Words ищет шрифты TrueType при отображении документов или внедрении шрифтов.
 
 ```csharp
 public void SetFontsSources(FontSourceBase[] sources)
@@ -94,11 +94,11 @@ public void SetFontsSources(FontSourceBase[] sources, Stream cacheInputStream)
 
 ### Примечания
 
-Загрузка ранее сохраненного кэша поиска шрифтов ускорит процесс инициализации кэша шрифтов. Это особенно полезно, когда доступ к источникам шрифтов затруднен (например, когда шрифты загружаются по сети).
+Загрузка ранее сохраненного кеша поиска шрифтов ускорит процесс инициализации кеша шрифтов. Это особенно полезно, когда доступ к источникам шрифтов затруднен (например, когда шрифты загружаются по сети).
 
-При сохранении и загрузке кеша поиска шрифтов шрифты в предоставленных источниках идентифицируются по ключу кеша. Для шрифтов в[`SystemFontSource`](../../systemfontsource)и[`FolderFontSource`](../../folderfontsource)ключ кэша путь к файлу шрифта. Для[`MemoryFontSource`](../../memoryfontsource)и[`StreamFontSource`](../../streamfontsource)ключ кэша определяется в[`CacheKey`](../../memoryfontsource/cachekey)и[`CacheKey`](../../streamfontsource/cachekey)properties соответственно. Для[`FileFontSource`](../../filefontsource)ключ кэша является либо[`CacheKey`](../../filefontsource/cachekey) свойство или путь к файлу, если[`CacheKey`](../../filefontsource/cachekey)is **null** .
+При сохранении и загрузке кеша поиска шрифтов шрифты в предоставленных источниках идентифицируются по ключу кеша. Для шрифтов в[`SystemFontSource`](../../systemfontsource) а также[`FolderFontSource`](../../folderfontsource) Ключ кеша — это path к файлу шрифта. За[`MemoryFontSource`](../../memoryfontsource) а также[`StreamFontSource`](../../streamfontsource) ключ кэша определен в[`CacheKey`](../../memoryfontsource/cachekey) а также[`CacheKey`](../../streamfontsource/cachekey) properties соответственно. Для[`FileFontSource`](../../filefontsource) ключ кэша либо[`CacheKey`](../../filefontsource/cachekey) или путь к файлу, если[`CacheKey`](../../filefontsource/cachekey) является **нулевой**.
 
-Настоятельно рекомендуется предоставлять те же источники шрифтов при загрузке кеша, что и на момент сохранения кеша. Любые изменения в исходниках шрифтов (например, добавление новых шрифтов, перемещение файлов шрифтов или изменение ключа кеша) могут привести к тому, что Aspose.Words неточно определит шрифт.
+Настоятельно рекомендуется предоставлять те же источники шрифтов при загрузке кеша, что и на момент сохранения кеша. разрешение с помощью Aspose.Words.
 
 ### Примеры
 

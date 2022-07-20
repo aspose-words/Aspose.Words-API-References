@@ -20,7 +20,7 @@ public string Reason { get; set; }
 
 ### Примеры
 
-Показывает, как подписать сгенерированный документ PDF.
+Показывает, как подписать сгенерированный PDF-документ.
 
 ```csharp
 Document doc = new Document();

@@ -1,14 +1,14 @@
 ---
 title: KeepFontStreamOpen
 second_title: Aspose.Words for .NET API 参考
-description: 指定 Aspose.Words 应该在保存字体后保持流打开还是关闭它
+description: 指定 Aspose.Words 是在保存字体后保持流打开还是关闭它
 type: docs
 weight: 90
 url: /zh/net/aspose.words.saving/fontsavingargs/keepfontstreamopen/
 ---
 ## FontSavingArgs.KeepFontStreamOpen property
 
-指定 Aspose.Words 应该在保存字体后保持流打开还是关闭它。
+指定 Aspose.Words 是在保存字体后保持流打开还是关闭它。
 
 ```csharp
 public bool KeepFontStreamOpen { get; set; }
@@ -16,11 +16,11 @@ public bool KeepFontStreamOpen { get; set; }
 
 ### 评论
 
-默认为` false` Aspose.Words 将关闭您在[`FontStream`](../fontstream)属性中提供的 流，然后将字体写入其中。 指定` true` 以保持流打开。
+默认为`错误的` Aspose.Words 将关闭您在[`FontStream`](../fontstream)将字体写入其中后的属性。 指定`真的`保持流打开。
 
 ### 例子
 
-显示如何为保存为 HTML 时导出字体。
+展示如何定义自定义逻辑以在保存为 HTML 时导出字体。
 
 ```csharp
 {

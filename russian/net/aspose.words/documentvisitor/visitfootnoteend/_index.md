@@ -1,14 +1,14 @@
 ---
 title: VisitFootnoteEnd
 second_title: Справочник по API Aspose.Words для .NET
-description: Вызывается когда закончилось перечисление текста сноски или концевой сноски.
+description: Вызывается после окончания перечисления текста сноски или концевой сноски.
 type: docs
 weight: 210
 url: /ru/net/aspose.words/documentvisitor/visitfootnoteend/
 ---
 ## DocumentVisitor.VisitFootnoteEnd method
 
-Вызывается, когда закончилось перечисление текста сноски или концевой сноски.
+Вызывается после окончания перечисления текста сноски или концевой сноски.
 
 ```csharp
 public virtual VisitorAction VisitFootnoteEnd(Footnote footnote)
@@ -16,15 +16,15 @@ public virtual VisitorAction VisitFootnoteEnd(Footnote footnote)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| footnote | Footnote | Посещаемый объект. |
+| footnote | Footnote | Объект, который посещается. |
 
 ### Возвращаемое значение
 
-A[`VisitorAction`](../../visitoraction)значение, указывающее, как продолжить перечисление.
+А[`VisitorAction`](../../visitoraction) значение, указывающее, как продолжить перечисление.
 
 ### Примеры
 
-Показывает, как печатать структуру узлов каждой сноски в документе.
+Показывает, как напечатать структуру узла каждой сноски в документе.
 
 ```csharp
 public void FootnoteToText()
@@ -32,17 +32,17 @@ public void FootnoteToText()
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     FootnoteStructurePrinter visitor = new FootnoteStructurePrinter();
 
-     // Когда составной узел принимает посетителя документа, посетитель посещает принимающий узел, 
-     // а затем обходит все дочерние узлы в порядке глубины.
-     // Посетитель может читать и изменять каждый посещенный узел.
+    // Когда составной узел принимает посетителя документа, посетитель посещает принимающий узел,
+    // а затем обходит все дочерние элементы узла в порядке глубины.
+    // Посетитель может читать и изменять каждый посещаемый узел.
     doc.Accept(visitor);
 
     Console.WriteLine(visitor.GetText());
 }
 
 /// <summary>
- /// Обходит небинарное дерево дочерних узлов узла.
- /// Создает карту в виде строки всех встреченных узлов Footnote и их потомков.
+/// Обходит небинарное дерево дочерних узлов узла.
+/// Создает карту в виде строки всех встреченных узлов Footnote и их дочерних элементов.
 /// </summary>
 public class FootnoteStructurePrinter : DocumentVisitor
 {
@@ -53,7 +53,7 @@ public class FootnoteStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-     /// Получает простой текст документа, который накопил посетитель.
+    /// Получает обычный текст документа, который накопил посетитель.
     /// </summary>
     public string GetText()
     {
@@ -61,7 +61,7 @@ public class FootnoteStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-     /// Вызывается, когда в документе встречается узел Footnote.
+    /// Вызывается, когда в документе встречается узел Footnote.
     /// </summary>
     public override VisitorAction VisitFootnoteStart(Footnote footnote)
     {
@@ -73,7 +73,7 @@ public class FootnoteStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-     /// Вызывается после посещения всех дочерних узлов узла Footnote.
+    /// Вызывается после посещения всех дочерних узлов узла Footnote.
     /// </summary>
     public override VisitorAction VisitFootnoteEnd(Footnote footnote)
     {
@@ -85,7 +85,7 @@ public class FootnoteStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-     /// Вызывается, когда в документе встречается узел Run.
+    /// Вызывается, когда в документе встречается узел Run.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {
@@ -95,9 +95,9 @@ public class FootnoteStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-     /// Добавляем строку в StringBuilder и делаем отступ в зависимости от того, насколько глубоко посетитель находится в дереве документа.
+    /// Добавляем строку в StringBuilder и делаем отступ в зависимости от того, насколько глубоко посетитель находится в дереве документа.
     /// </summary>
-     /// <param name="text"></param>
+    /// <param name="text"></param>
     private void IndentAndAppendLine(string text)
     {
         for (int i = 0; i < mDocTraversalDepth; i++) mBuilder.Append("|  ");

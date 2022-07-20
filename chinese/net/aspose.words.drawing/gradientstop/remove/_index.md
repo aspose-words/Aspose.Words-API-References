@@ -1,14 +1,14 @@
 ---
 title: Remove
 second_title: Aspose.Words for .NET API 参考
-description: 从父级GradientStopCollectionaspose.words.drawing/gradientstopcollection移除渐变色标
+description: 从父级移除渐变色标GradientStopCollectionaspose.words.drawing/gradientstopcollection.
 type: docs
 weight: 50
 url: /zh/net/aspose.words.drawing/gradientstop/remove/
 ---
 ## GradientStop.Remove method
 
-从父级[`GradientStopCollection`](../../gradientstopcollection)移除渐变色标。
+从父级移除渐变色标[`GradientStopCollection`](../../gradientstopcollection).
 
 ```csharp
 public void Remove()

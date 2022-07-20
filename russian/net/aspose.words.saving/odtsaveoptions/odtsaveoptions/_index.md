@@ -1,14 +1,14 @@
 ---
 title: OdtSaveOptions
 second_title: Справочник по API Aspose.Words для .NET
-description: Инициализирует новый экземпляр этого класса который можно использовать для сохранения документа в форматеOdt.
+description: Инициализирует новый экземпляр этого класса который можно использовать для сохранения документа вOdt формат.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.saving/odtsaveoptions/odtsaveoptions/
 ---
 ## OdtSaveOptions() {#constructor}
 
-Инициализирует новый экземпляр этого класса, который можно использовать для сохранения документа в форматеOdt.
+Инициализирует новый экземпляр этого класса, который можно использовать для сохранения документа вOdt формат.
 
 ```csharp
 public OdtSaveOptions()
@@ -40,7 +40,7 @@ doc.Save(ArtifactsDir + "OdtSaveOptions.Odt11Schema.odt", saveOptions);
 
 ## OdtSaveOptions(string) {#constructor_2}
 
-Инициализирует новый экземпляр этого класса, который можно использовать для сохранения документа в форматеOdt зашифровано паролем.
+Инициализирует новый экземпляр этого класса, который можно использовать для сохранения документа вOdt format зашифровано паролем.
 
 ```csharp
 public OdtSaveOptions(string password)
@@ -56,7 +56,7 @@ public OdtSaveOptions(string password)
 
 ## OdtSaveOptions(SaveFormat) {#constructor_1}
 
-Инициализирует новый экземпляр этого класса, который можно использовать для сохранения документа вOdtили Ottформат.
+Инициализирует новый экземпляр этого класса, который можно использовать для сохранения документа вOdt или Ott формат.
 
 ```csharp
 public OdtSaveOptions(SaveFormat saveFormat)
@@ -64,7 +64,7 @@ public OdtSaveOptions(SaveFormat saveFormat)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| saveFormat | SaveFormat | Может бытьOdtилиOtt. |
+| saveFormat | SaveFormat | Может бытьOdt или жеOtt. |
 
 ### Примеры
 
@@ -75,23 +75,23 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world!");
 
- // Создать новый OdtSaveOptions и передать либо "SaveFormat.Odt",
- // или "SaveFormat.Ott" в качестве формата для сохранения документа. 
+// Создать новый OdtSaveOptions и передать либо "SaveFormat.Odt",
+// или "SaveFormat.Ott" в качестве формата для сохранения документа. 
 OdtSaveOptions saveOptions = new OdtSaveOptions(saveFormat);
 saveOptions.Password = "@sposeEncrypted_1145";
 
 string extensionString = FileFormatUtil.SaveFormatToExtension(saveFormat);
 
- // Если мы откроем этот документ в соответствующем редакторе, 
- // он запросит у нас пароль, который мы указали в объекте SaveOptions.
+// Если мы откроем этот документ в соответствующем редакторе,
+// он запросит у нас пароль, который мы указали в объекте SaveOptions.
 doc.Save(ArtifactsDir + "OdtSaveOptions.Encrypt" + extensionString, saveOptions);
 
 FileFormatInfo docInfo = FileFormatUtil.DetectFileFormat(ArtifactsDir + "OdtSaveOptions.Encrypt" + extensionString);
 
 Assert.IsTrue(docInfo.IsEncrypted);
 
- // Если мы хотим снова открыть или отредактировать этот документ, используя Aspose.Words, 
- // мы должны предоставить объект LoadOptions с правильным паролем для конструктора загрузки.
+// Если мы хотим снова открыть или отредактировать этот документ, используя Aspose.Words,
+// мы должны предоставить объект LoadOptions с правильным паролем конструктору загрузки.
 doc = new Document(ArtifactsDir + "OdtSaveOptions.Encrypt" + extensionString,
     new LoadOptions("@sposeEncrypted_1145"));
 

@@ -1,14 +1,14 @@
 ---
 title: NumericFormat
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置应用于数值字段结果的格式对应于  开关
+description: 获取或设置应用于数值字段结果的格式对应于 switch.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.fields/fieldformat/numericformat/
 ---
 ## FieldFormat.NumericFormat property
 
-获取或设置应用于数值字段结果的格式。对应于 \# 开关。
+获取或设置应用于数值字段结果的格式。对应于\# switch.
 
 ```csharp
 public string NumericFormat { get; set; }

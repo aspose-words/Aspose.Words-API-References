@@ -16,11 +16,11 @@ public string Id { get; set; }
 
 ### 评论
 
-ISO/IEC 29500 指定此值为 GUID，但允许使用旧版本的 Microsoft Word任何 字符串。 Aspose.Words 对 ECMA-376 格式执行相同的操作。但请注意，Microsoft Word Online 无法打开使用非 GUID 值创建的文档 。因此，GUID 是此属性的首选值。
+ISO/IEC 29500 指定此值为 GUID，但旧版本的 Microsoft Word 在此处允许使用 any 字符串。 Aspose.Words 对 ECMA-376 格式执行相同的操作。但请注意，Microsoft Word Online 无法 打开使用非 GUID 值创建的文档。因此，GUID 是此属性的首选值。
 
-有效值必须是在本文档的所有自定义 XML 数据部分中唯一的标识符。
+有效值必须是在此文档的所有自定义 XML 数据部分中唯一的标识符。
 
-默认值为空字符串。该值不能为` null` 。
+默认值为空字符串。该值不能`无效的`.
 
 ### 例子
 

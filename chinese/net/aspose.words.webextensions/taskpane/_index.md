@@ -3,7 +3,7 @@ title: TaskPane
 second_title: Aspose.Words for .NET API 参考
 description: 表示加载项任务窗格对象
 type: docs
-weight: 6350
+weight: 6400
 url: /zh/net/aspose.words.webextensions/taskpane/
 ---
 ## TaskPane class
@@ -26,9 +26,9 @@ public class TaskPane
 | --- | --- |
 | [DockState](../../aspose.words.webextensions/taskpane/dockstate) { get; set; } | 指定此任务窗格对象的最后停靠位置。 |
 | [IsLocked](../../aspose.words.webextensions/taskpane/islocked) { get; set; } | 指定任务窗格是否锁定到 UI 中的文档，并且用户不能关闭。 |
-| [IsVisible](../../aspose.words.webextensions/taskpane/isvisible) { get; set; } | 指定当文档打开时任务窗格是否默认显示为可见。 |
-| [Row](../../aspose.words.webextensions/taskpane/row) { get; set; } | 指定此任务窗格的索引，从外到内枚举，以及停靠在相同默认位置的其他持久 任务窗格。 |
-| [WebExtension](../../aspose.words.webextensions/taskpane/webextension) { get; } | 表示一个网络扩展对象。 |
+| [IsVisible](../../aspose.words.webextensions/taskpane/isvisible) { get; set; } | 指定文档打开时任务窗格是否默认显示为可见。 |
+| [Row](../../aspose.words.webextensions/taskpane/row) { get; set; } | 指定此任务窗格的索引，从外到内枚举，以及停靠在同一默认位置的其他persisted 任务窗格。 |
+| [WebExtension](../../aspose.words.webextensions/taskpane/webextension) { get; } | 表示一个 Web 扩展对象。 |
 | [Width](../../aspose.words.webextensions/taskpane/width) { get; set; } | 指定此任务窗格实例的默认宽度值。 |
 
 ### 例子

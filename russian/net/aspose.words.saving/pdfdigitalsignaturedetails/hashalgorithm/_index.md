@@ -16,11 +16,11 @@ public PdfDigitalSignatureHashAlgorithm HashAlgorithm { get; set; }
 
 ### Примечания
 
-Значением по умолчанию является алгоритм SHA-256.
+Значение по умолчанию — алгоритм SHA-256.
 
 ### Примеры
 
-Показывает, как подписать сгенерированный документ PDF.
+Показывает, как подписать сгенерированный PDF-документ.
 
 ```csharp
 Document doc = new Document();

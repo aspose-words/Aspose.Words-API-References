@@ -3,7 +3,7 @@ title: TextPathAlignment
 second_title: Aspose.Words for .NET API 参考
 description: 艺术字对齐
 type: docs
-weight: 1190
+weight: 1210
 url: /zh/net/aspose.words.drawing/textpathalignment/
 ---
 ## TextPathAlignment enumeration

@@ -1,14 +1,14 @@
 ---
 title: AutoColor
 second_title: Aspose.Words for .NET API 参考
-description: 返回当前计算的用于自动颜色的文本颜色黑色或白色 如果颜色不是 auto 则返回Coloraspose.words/font/color
+description: 返回用于自动颜色的文本的当前计算颜色黑色或白色 如果颜色不是自动则返回Coloraspose.words/font/color.
 type: docs
 weight: 20
 url: /zh/net/aspose.words/font/autocolor/
 ---
 ## Font.AutoColor property
 
-返回当前计算的用于“自动颜色”的文本颜色（黑色或白色）。 如果颜色不是 'auto' 则返回[`Color`](../color)。
+返回用于“自动颜色”的文本的当前计算颜色（黑色或白色）。 如果颜色不是“自动”，则返回[`Color`](../color).
 
 ```csharp
 public Color AutoColor { get; }
@@ -16,7 +16,7 @@ public Color AutoColor { get; }
 
 ### 评论
 
-当文本具有“自动颜色”时，实际颜色文本会自动计算 以便在背景颜色下可读。当您更改背景颜色时， 文本颜色将在 MS Word 中自动切换为黑色或白色，以最大限度地提高可读性。
+当文本具有“自动颜色”时，会自动计算文本的实际颜色 以便在背景颜色下可读。当您更改背景颜色时， 文本颜色将在 MS Word 中自动切换为黑色或白色，以最大限度地提高可读性。
 
 ### 例子
 

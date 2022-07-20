@@ -16,7 +16,7 @@ public Section LastSection { get; }
 
 ### 评论
 
-返回` null` 如果有没有部分。
+返回`无效的`如果没有部分。
 
 ### 例子
 
@@ -25,11 +25,11 @@ public Section LastSection { get; }
 ```csharp
 Document doc = new Document();
 
- // 空白文档默认包含一个section,
- // 其中包含我们可以编辑的子节点。
+// 一个空白文档默认包含一个部分，
+// 其中包含我们可以编辑的子节点。
 Assert.AreEqual(1, doc.Sections.Count);
 
- // 使用文档构建器将文本添加到第一部分。
+// 使用文档构建器将文本添加到第一部分。
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world!");
 
@@ -38,9 +38,9 @@ builder.InsertBreak(BreakType.SectionBreakNewPage);
 
 Assert.AreEqual(2, doc.Sections.Count);
 
- // 每个部分都有自己的页面设置设置。
- // 我们可以把第二部分的文字分成两列。
- // 这不会影响第一节的文字。
+// 每个部分都有自己的页面设置设置。
+// 我们可以将第二部分的文本分成两列。
+// 这不会影响第一部分的文本。
 doc.LastSection.PageSetup.TextColumns.SetCount(2);
 builder.Writeln("Column 1.");
 builder.InsertBreak(BreakType.ColumnBreak);

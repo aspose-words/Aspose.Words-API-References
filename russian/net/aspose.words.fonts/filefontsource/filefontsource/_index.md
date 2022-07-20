@@ -1,14 +1,14 @@
 ---
 title: FileFontSource
 second_title: Справочник по API Aspose.Words для .NET
-description: Ктор.
+description: Стор.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.fonts/filefontsource/filefontsource/
 ---
 ## FileFontSource(string) {#constructor}
 
-Ктор.
+Стор.
 
 ```csharp
 public FileFontSource(string filePath)
@@ -44,7 +44,7 @@ Assert.AreEqual(0, fileFontSource.Priority);
 
 ## FileFontSource(string, int) {#constructor_1}
 
-Ктор.
+Стор.
 
 ```csharp
 public FileFontSource(string filePath, int priority)
@@ -53,7 +53,7 @@ public FileFontSource(string filePath, int priority)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | filePath | String | Путь к файлу шрифта. |
-| priority | Int32 | Приоритет источника шрифта. См. описание свойства[`Priority`](../../fontsourcebase/priority)для получения дополнительной информации. |
+| priority | Int32 | Приоритет источника шрифта. См.[`Priority`](../../fontsourcebase/priority) описание свойства для получения дополнительной информации. |
 
 ### Примеры
 
@@ -81,7 +81,7 @@ Assert.AreEqual(0, fileFontSource.Priority);
 
 ## FileFontSource(string, int, string) {#constructor_2}
 
-Ктор.
+Стор.
 
 ```csharp
 public FileFontSource(string filePath, int priority, string cacheKey)
@@ -90,8 +90,8 @@ public FileFontSource(string filePath, int priority, string cacheKey)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | filePath | String | Путь к файлу шрифта. |
-| priority | Int32 | Приоритет источника шрифта. См. описание свойства[`Priority`](../../fontsourcebase/priority)для получения дополнительной информации. |
-| cacheKey | String | Ключ этого источника в кеше. См. описание свойства[`CacheKey`](../cachekey)для получения дополнительной информации. |
+| priority | Int32 | Приоритет источника шрифта. См.[`Priority`](../../fontsourcebase/priority) описание свойства для получения дополнительной информации. |
+| cacheKey | String | Ключ этого источника в кеше. Видеть[`CacheKey`](../cachekey) описание свойства для получения дополнительной информации. |
 
 ### Примеры
 

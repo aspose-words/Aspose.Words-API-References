@@ -3,7 +3,7 @@ title: MemoryFontSource
 second_title: Aspose.Words for .NET API 参考
 description: 表示存储在内存中的单个 TrueType 字体文件
 type: docs
-weight: 2790
+weight: 2840
 url: /zh/net/aspose.words.fonts/memoryfontsource/
 ---
 ## MemoryFontSource class
@@ -18,15 +18,15 @@ public class MemoryFontSource : FontSourceBase
 
 | 姓名 | 描述 |
 | --- | --- |
-| [MemoryFontSource](memoryfontsource#constructor)(byte[]) | 克托尔。 |
-| [MemoryFontSource](memoryfontsource#constructor_1)(byte[], int) | 克托尔。 |
-| [MemoryFontSource](memoryfontsource#constructor_2)(byte[], int, string) | 克托尔。 |
+| [MemoryFontSource](memoryfontsource#constructor)(byte[]) | 克托尔. |
+| [MemoryFontSource](memoryfontsource#constructor_1)(byte[], int) | 克托尔. |
+| [MemoryFontSource](memoryfontsource#constructor_2)(byte[], int, string) | 克托尔. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [CacheKey](../../aspose.words.fonts/memoryfontsource/cachekey) { get; } | 这个源在缓存中的键。 |
+| [CacheKey](../../aspose.words.fonts/memoryfontsource/cachekey) { get; } | 这个源在缓存中的key。 |
 | [FontData](../../aspose.words.fonts/memoryfontsource/fontdata) { get; } | 二进制字体数据。 |
 | [Priority](../../aspose.words.fonts/fontsourcebase/priority) { get; } | 返回字体源优先级。 |
 | override [Type](../../aspose.words.fonts/memoryfontsource/type) { get; } | 返回字体源的类型。 |
@@ -40,7 +40,7 @@ public class MemoryFontSource : FontSourceBase
 
 ### 例子
 
-显示如何使用字节数组和来自字体文件的数据作为字体源。
+演示如何将字节数组与字体文件中的数据一起用作字体源。
 
 ```csharp
 byte[] fontBytes = File.ReadAllBytes(MyDir + "Alte DIN 1451 Mittelschrift.ttf");

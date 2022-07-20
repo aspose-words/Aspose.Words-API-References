@@ -1,14 +1,14 @@
 ---
 title: ExportTextInputFormFieldAsText
 second_title: Aspose.Words for .NET API 参考
-description: 控制文本输入表单字段如何保存为 HTML 或 MHTML 默认值为 false 
+description: 控制文本输入表单字段如何保存为 HTML 或 MHTML 默认值为错误的.
 type: docs
 weight: 270
 url: /zh/net/aspose.words.saving/htmlsaveoptions/exporttextinputformfieldastext/
 ---
 ## HtmlSaveOptions.ExportTextInputFormFieldAsText property
 
-控制文本输入表单字段如何保存为 HTML 或 MHTML。 默认值为` false` 。
+控制文本输入表单字段如何保存为 HTML 或 MHTML。 默认值为`错误的`.
 
 ```csharp
 public bool ExportTextInputFormFieldAsText { get; set; }
@@ -16,7 +16,7 @@ public bool ExportTextInputFormFieldAsText { get; set; }
 
 ### 评论
 
-当设置为` true` ，将文本输入表单字段导出为普通文本。 当` false` 时，将 Word 文本输入表单字段导出为 HTML 中的 INPUT 元素。
+当设置为`真的` 将文本输入表单域导出为普通文本。 什么时候`错误的`，将 Word 文本输入表单字段导出为 HTML 中的 INPUT 元素。
 
 导出到 EPUB 时，文本输入表单字段始终保存为文本，因为 符合此格式的要求。
 

@@ -1,14 +1,14 @@
 ---
 title: Add
 second_title: Aspose.Words for .NET API 参考
-description: 将书签添加到集合中
+description: 为收藏添加书签
 type: docs
 weight: 40
 url: /zh/net/aspose.words.saving/bookmarksoutlinelevelcollection/add/
 ---
 ## BookmarksOutlineLevelCollection.Add method
 
-将书签添加到集合中。
+为收藏添加书签。
 
 ```csharp
 public void Add(string name, int outlineLevel)

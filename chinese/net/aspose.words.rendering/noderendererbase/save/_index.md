@@ -1,14 +1,14 @@
 ---
 title: Save
 second_title: Aspose.Words for .NET API 参考
-description: 将形状渲染为图像并保存到文件中
+description: 将形状渲染成图像并保存到文件中
 type: docs
 weight: 90
 url: /zh/net/aspose.words.rendering/noderendererbase/save/
 ---
 ## Save(string, ImageSaveOptions) {#save_1}
 
-将形状渲染为图像并保存到文件中。
+将形状渲染成图像并保存到文件中。
 
 ```csharp
 public void Save(string fileName, ImageSaveOptions saveOptions)
@@ -21,7 +21,7 @@ public void Save(string fileName, ImageSaveOptions saveOptions)
 
 ### 例子
 
-显示如何将 Office Math 对象呈现为本地文件系统中的图像文件。
+演示如何将 Office Math 对象呈现到本地文件系统中的图像文件中。
 
 ```csharp
 Document doc = new Document(MyDir + "Office math.docx");
@@ -49,7 +49,7 @@ math.GetMathRenderer().Save(ArtifactsDir + "Shape.RenderOfficeMath.png", saveOpt
 
 ## Save(Stream, ImageSaveOptions) {#save}
 
-将形状渲染为图像并保存到流中。
+将形状渲染成图像并保存到流中。
 
 ```csharp
 public void Save(Stream stream, ImageSaveOptions saveOptions)
@@ -58,11 +58,11 @@ public void Save(Stream stream, ImageSaveOptions saveOptions)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | stream | Stream | 保存形状图像的流。 |
-| saveOptions | ImageSaveOptions | 指定控制如何渲染和保存形状的选项。可以为空。 如果为 null，则图像将以 PNG 格式保存。 |
+| saveOptions | ImageSaveOptions | 指定控制如何渲染和保存形状的选项。可以为null。 如果为null，图像将保存为PNG格式。 |
 
 ### 例子
 
-展示如何使用形状渲染器将形状导出到本地文件系统中的文件。
+演示如何使用形状渲染器将形状导出到本地文件系统中的文件。
 
 ```csharp
 Document doc = new Document(MyDir + "Various shapes.docx");

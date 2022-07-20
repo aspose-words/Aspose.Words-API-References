@@ -18,8 +18,8 @@ public class ChartLegendEntry
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Font](../../aspose.words.drawing.charts/chartlegendentry/font) { get; } | 提供对该图例条目的字体格式的访问。 |
-| [IsHidden](../../aspose.words.drawing.charts/chartlegendentry/ishidden) { get; set; } | 获取或设置一个值，该值指示该条目是否隐藏在图表图例中。 默认值为 **false** 。 |
+| [Font](../../aspose.words.drawing.charts/chartlegendentry/font) { get; } | 提供对此图例条目的字体格式的访问。 |
+| [IsHidden](../../aspose.words.drawing.charts/chartlegendentry/ishidden) { get; set; } | 获取或设置一个值，指示该条目是否隐藏在图表图例中。 默认值为 **错误的**. |
 
 ### 评论
 

@@ -1,14 +1,14 @@
 ---
 title: FormatAttributes
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置格式的哪些属性将应用于表
+description: 获取或设置格式的哪些属性将应用于表格
 type: docs
 weight: 50
 url: /zh/net/aspose.words.fields/fielddatabase/formatattributes/
 ---
 ## FieldDatabase.FormatAttributes property
 
-获取或设置格式的哪些属性将应用于表。
+获取或设置格式的哪些属性将应用于表格。
 
 ```csharp
 public string FormatAttributes { get; set; }
@@ -16,7 +16,7 @@ public string FormatAttributes { get; set; }
 
 ### 例子
 
-展示如何从数据库中提取数据并将其作为字段插入到文档中。
+演示如何从数据库中提取数据并将其作为字段插入到文档中。
 
 ```csharp
 Document doc = new Document();

@@ -20,7 +20,7 @@ public virtual VisitorAction VisitHeaderFooterEnd(HeaderFooter headerFooter)
 
 ### 返回值
 
-A[`VisitorAction`](../../visitoraction)指定如何继续枚举的值。
+一个[`VisitorAction`](../../visitoraction)指定如何继续枚举的值。
 
 ### 例子
 
@@ -32,21 +32,21 @@ public void HeaderFooterToText()
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     HeaderFooterStructurePrinter visitor = new HeaderFooterStructurePrinter();
 
-     // 当我们得到一个复合节点接受一个文档访问者时，访问者访问接受节点，
-     // 然后以深度优先的方式遍历所有节点的孩子。
-     // 访问者可以读取和修改每个访问过的节点。
+    // 当我们得到一个复合节点来接受一个文档访问者时，访问者访问接受节点，
+    // 然后以深度优先的方式遍历所有节点的子节点。
+    // 访问者可以读取和修改每个访问的节点。
     doc.Accept(visitor);
 
     Console.WriteLine(visitor.GetText());
 
-     // 逐节访问文档页眉/页脚的另一种方法是访问集合。
+    // 逐节访问文档页眉/页脚的另一种方法是访问集合。
     HeaderFooter[] headerFooters = doc.FirstSection.HeadersFooters.ToArray();
     Assert.AreEqual(3, headerFooters.Length);
 }
 
 /// <summary>
- /// 遍历一个节点的子节点的非二叉树。
- /// 以所有遇到的 HeaderFooter 节点及其子节点的字符串形式创建映射。
+/// 遍历一个节点的子节点的非二叉树。
+/// 以所有遇到的 HeaderFooter 节点及其子节点的字符串形式创建映射。
 /// </summary>
 public class HeaderFooterStructurePrinter : DocumentVisitor
 {
@@ -62,7 +62,7 @@ public class HeaderFooterStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-     /// 在文档中遇到 Run 节点时调用。
+    /// 在文档中遇到 Run 节点时调用。
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {
@@ -72,7 +72,7 @@ public class HeaderFooterStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-     /// 在文档中遇到 HeaderFooter 节点时调用。
+    /// 在文档中遇到 HeaderFooter 节点时调用。
     /// </summary>
     public override VisitorAction VisitHeaderFooterStart(HeaderFooter headerFooter)
     {
@@ -84,7 +84,7 @@ public class HeaderFooterStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-     /// 在访问了 HeaderFooter 节点的所有子节点后调用。
+    /// 在访问了 HeaderFooter 节点的所有子节点后调用。
     /// </summary>
     public override VisitorAction VisitHeaderFooterEnd(HeaderFooter headerFooter)
     {
@@ -96,9 +96,9 @@ public class HeaderFooterStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-     /// 将一行添加到 StringBuilder，并根据访问者在文档树中的深度缩进。
+    /// 向 StringBuilder 添加一行，并根据访问者在文档树中的深度缩进。
     /// </summary>
-     /// <param name="text"></param>
+    /// <param name="text"></param>
     private void IndentAndAppendLine(string text)
     {
         for (int i = 0; i < mDocTraversalDepth; i++) mBuilder.Append("|  ");

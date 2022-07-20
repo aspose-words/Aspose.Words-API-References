@@ -3,7 +3,7 @@ title: Node
 second_title: Справочник по API Aspose.Words для .NET
 description: Базовый класс для всех узлов документа Word.
 type: docs
-weight: 3880
+weight: 3930
 url: /ru/net/aspose.words/node/
 ---
 ## Node class
@@ -19,13 +19,13 @@ public abstract class Node
 | Имя | Описание |
 | --- | --- |
 | [CustomNodeId](../../aspose.words/node/customnodeid) { get; set; } | Указывает идентификатор пользовательского узла. |
-| virtual [Document](../../aspose.words/node/document) { get; } | Получает документ, которому принадлежит данный узел. |
+| virtual [Document](../../aspose.words/node/document) { get; } | Получает документ, которому принадлежит этот узел. |
 | virtual [IsComposite](../../aspose.words/node/iscomposite) { get; } | Возвращает true, если этот узел может содержать другие узлы. |
 | [NextSibling](../../aspose.words/node/nextsibling) { get; } | Получает узел, следующий сразу за этим узлом. |
 | abstract [NodeType](../../aspose.words/node/nodetype) { get; } | Получает тип этого узла. |
 | [ParentNode](../../aspose.words/node/parentnode) { get; } | Получает непосредственного родителя этого узла. |
 | [PreviousSibling](../../aspose.words/node/previoussibling) { get; } | Получает узел, непосредственно предшествующий этому узлу. |
-| [Range](../../aspose.words/node/range) { get; } | Возвращает объект **Range** , представляющий часть документа, содержащуюся в этом узле. |
+| [Range](../../aspose.words/node/range) { get; } | Возвращает **Диапазон** объект, представляющий часть документа, содержащегося в этом узле. |
 
 ## Методы
 
@@ -33,9 +33,9 @@ public abstract class Node
 | --- | --- |
 | abstract [Accept](../../aspose.words/node/accept)(DocumentVisitor) | Принимает посетителя. |
 | [Clone](../../aspose.words/node/clone)(bool) | Создает дубликат узла. |
-| [GetAncestor](../../aspose.words/node/getancestor#getancestor)(NodeType) | Получает первого предка указанного[`NodeType`](../nodetype). |
+| [GetAncestor](../../aspose.words/node/getancestor#getancestor)(NodeType) | Получает первого предка указанного[`NodeType`](../nodetype) . |
 | [GetAncestor](../../aspose.words/node/getancestor#getancestor_1)(Type) | Получает первого предка указанного типа объекта. |
-| virtual [GetText](../../aspose.words/node/gettext)() | Получает текст этого узла и всех его потомков. |
+| virtual [GetText](../../aspose.words/node/gettext)() | Получает текст этого узла и всех его дочерних элементов. |
 | [NextPreOrder](../../aspose.words/node/nextpreorder)(Node) | Получает следующий узел в соответствии с алгоритмом обхода дерева предварительного порядка. |
 | [PreviousPreOrder](../../aspose.words/node/previouspreorder)(Node) | Получает предыдущий узел в соответствии с алгоритмом обхода дерева предварительного порядка. |
 | [Remove](../../aspose.words/node/remove)() | Удаляет себя из родителя. |
@@ -45,11 +45,11 @@ public abstract class Node
 
 ### Примечания
 
-Документ представляется в виде дерева узлов, аналогично DOM или XmlDocument.
+Документ представлен в виде дерева узлов, похожего на DOM или XmlDocument.
 
-Дополнительные сведения см. в шаблоне проектирования "Композит".
+Дополнительные сведения см. в шаблоне проектирования Composite.
 
-The[`Node`](../node)class:
+[`Node`](../node)учебный класс:
 
 * Определяет интерфейс дочернего узла.
 * Определяет интерфейс для посещения узлов.
@@ -62,79 +62,47 @@ The[`Node`](../node)class:
 Показывает, как удалить все дочерние узлы определенного типа из составного узла.
 
 ```csharp
-Document doc = new Document();
+Document doc = new Document(MyDir + "Tables.docx");
 
-// Добавьте два прогона и одну фигуру в качестве дочерних узлов в первый абзац этого документа.
-Paragraph paragraph = (Paragraph)doc.GetChild(NodeType.Paragraph, 0, true);
-paragraph.AppendChild(new Run(doc, "Hello world! "));
+Assert.AreEqual(2, doc.GetChildNodes(NodeType.Table, true).Count);
 
-Shape shape = new Shape(doc, ShapeType.Rectangle);
-shape.Width = 200;
-shape.Height = 200;
-// Обратите внимание, что 'CustomNodeId' не сохраняется в выходной файл и существует только во время жизни узла.
-shape.CustomNodeId = 100;
-shape.WrapType = WrapType.Inline;
-paragraph.AppendChild(shape);
+Node curNode = doc.FirstSection.Body.FirstChild;
 
-paragraph.AppendChild(new Run(doc, "Hello again!"));
+while (curNode != null)
+{
+    // Сохраняем следующий родственный узел как переменную на случай, если мы захотим перейти к нему после удаления этого узла.
+    Node nextNode = curNode.NextSibling;
 
-// Итерация по коллекции непосредственных дочерних элементов абзаца,
-// и печатаем любые прогоны или формы, которые мы находим внутри.
-NodeCollection children = paragraph.ChildNodes;
+    // Тело раздела может содержать узлы «Абзац» и «Таблица».
+    // Если узел является таблицей, удалите его из родителя.
+    if (curNode.NodeType == NodeType.Table)
+        curNode.Remove();
 
-Assert.AreEqual(3, paragraph.ChildNodes.Count);
+    curNode = nextNode;
+}
 
-foreach (Node child in children)
-    switch (child.NodeType)
-    {
-        case NodeType.Run:
-            Console.WriteLine("Run contents:");
-            Console.WriteLine($"\t\"{child.GetText().Trim()}\"");
-            break;
-        case NodeType.Shape:
-            Shape childShape = (Shape)child;
-            Console.WriteLine("Shape:");
-            Console.WriteLine($"\t{childShape.ShapeType}, {childShape.Width}x{childShape.Height}");
-    }
+Assert.AreEqual(0, doc.GetChildNodes(NodeType.Table, true).Count);
 ```
 
 Показывает, как клонировать составной узел.
 
 ```csharp
 Document doc = new Document();
+Paragraph para = doc.FirstSection.Body.FirstParagraph;
+para.AppendChild(new Run(doc, "Hello world!"));
 
-// Добавьте два прогона и одну фигуру в качестве дочерних узлов в первый абзац этого документа.
-Paragraph paragraph = (Paragraph)doc.GetChild(NodeType.Paragraph, 0, true);
-paragraph.AppendChild(new Run(doc, "Hello world! "));
+// Ниже приведены два способа клонирования составного узла.
+// 1 - Создать клон узла, а также создать клон каждого из его дочерних узлов.
+Node cloneWithChildren = para.Clone(true);
 
-Shape shape = new Shape(doc, ShapeType.Rectangle);
-shape.Width = 200;
-shape.Height = 200;
-// Обратите внимание, что 'CustomNodeId' не сохраняется в выходной файл и существует только во время жизни узла.
-shape.CustomNodeId = 100;
-shape.WrapType = WrapType.Inline;
-paragraph.AppendChild(shape);
+Assert.IsTrue(((CompositeNode)cloneWithChildren).HasChildNodes);
+Assert.AreEqual("Hello world!", cloneWithChildren.GetText().Trim());
 
-paragraph.AppendChild(new Run(doc, "Hello again!"));
+// 2 - Создать клон узла без дочерних элементов.
+Node cloneWithoutChildren = para.Clone(false);
 
-// Итерация по коллекции непосредственных дочерних элементов абзаца,
-// и печатаем любые прогоны или формы, которые мы находим внутри.
-NodeCollection children = paragraph.ChildNodes;
-
-Assert.AreEqual(3, paragraph.ChildNodes.Count);
-
-foreach (Node child in children)
-    switch (child.NodeType)
-    {
-        case NodeType.Run:
-            Console.WriteLine("Run contents:");
-            Console.WriteLine($"\t\"{child.GetText().Trim()}\"");
-            break;
-        case NodeType.Shape:
-            Shape childShape = (Shape)child;
-            Console.WriteLine("Shape:");
-            Console.WriteLine($"\t{childShape.ShapeType}, {childShape.Width}x{childShape.Height}");
-    }
+Assert.IsFalse(((CompositeNode)cloneWithoutChildren).HasChildNodes);
+Assert.AreEqual(string.Empty, cloneWithoutChildren.GetText().Trim());
 ```
 
 Показывает, как пройти через коллекцию дочерних узлов составного узла.

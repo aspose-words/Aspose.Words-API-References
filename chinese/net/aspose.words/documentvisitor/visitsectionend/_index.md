@@ -20,11 +20,11 @@ public virtual VisitorAction VisitSectionEnd(Section section)
 
 ### 返回值
 
-A[`VisitorAction`](../../visitoraction)指定如何继续枚举的值。
+一个[`VisitorAction`](../../visitoraction)指定如何继续枚举的值。
 
 ### 例子
 
-显示如何使用文档访问者打印文档的节点结构。
+展示如何使用文档访问者打印文档的节点结构。
 
 ```csharp
 public void DocStructureToText()
@@ -32,9 +32,9 @@ public void DocStructureToText()
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     DocStructurePrinter visitor = new DocStructurePrinter();
 
-     // 当我们得到一个复合节点接受一个文档访问者时，访问者访问接受节点，
-     // 然后以深度优先的方式遍历所有节点的孩子。
-     // 访问者可以读取和修改每个访问过的节点。
+    // 当我们得到一个复合节点来接受一个文档访问者时，访问者访问接受节点，
+    // 然后以深度优先的方式遍历所有节点的子节点。
+    // 访问者可以读取和修改每个访问的节点。
     doc.Accept(visitor);
 
     Console.WriteLine(visitor.GetText());
@@ -42,7 +42,7 @@ public void DocStructureToText()
 
 /// <summary>
 /// 遍历一个节点的子节点树。
- /// 以字符串的形式创建这棵树的映射。
+/// 以字符串的形式创建这棵树的映射。
 /// </summary>
 public class DocStructurePrinter : DocumentVisitor
 {
@@ -57,7 +57,7 @@ public class DocStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-     /// 遇到 Document 节点时调用。
+    /// 在遇到 Document 节点时调用。
     /// </summary>
     public override VisitorAction VisitDocumentStart(Document doc)
     {
@@ -66,12 +66,12 @@ public class DocStructurePrinter : DocumentVisitor
         IndentAndAppendLine("[Document start] Child nodes: " + childNodeCount);
         mDocTraversalDepth++;
 
-         // 允许访问者继续访问其他节点。
+        // 允许访问者继续访问其他节点。
         return VisitorAction.Continue;
     }
 
     /// <summary>
-     /// 在一个 Document 节点的所有子节点都被访问后调用。
+    /// 在访问完 Document 节点的所有子节点后调用。
     /// </summary>
     public override VisitorAction VisitDocumentEnd(Document doc)
     {
@@ -82,11 +82,11 @@ public class DocStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-     /// 在文档中遇到Section节点时调用。
+    /// 在文档中遇到 Section 节点时调用。
     /// </summary>
     public override VisitorAction VisitSectionStart(Section section)
     {
-         // 获取文档中我们部分的索引。
+        // 获取文档中我们部分的索引。
         NodeCollection docSections = section.Document.GetChildNodes(NodeType.Section, false);
         int sectionIndex = docSections.IndexOf(section);
 
@@ -97,7 +97,7 @@ public class DocStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-     /// 在一个Section节点的所有子节点都被访问后调用。
+    /// 在访问了 Section 节点的所有子节点后调用。
     /// </summary>
     public override VisitorAction VisitSectionEnd(Section section)
     {
@@ -108,7 +108,7 @@ public class DocStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-     /// 在文档中遇到 Body 节点时调用。
+    /// 在文档中遇到 Body 节点时调用。
     /// </summary>
     public override VisitorAction VisitBodyStart(Body body)
     {
@@ -120,7 +120,7 @@ public class DocStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-     /// 在访问完 Body 节点的所有子节点后调用。
+    /// 在访问完 Body 节点的所有子节点后调用。
     /// </summary>
     public override VisitorAction VisitBodyEnd(Body body)
     {
@@ -131,7 +131,7 @@ public class DocStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-     /// 在文档中遇到段落节点时调用。
+    /// 在文档中遇到段落节点时调用。
     /// </summary>
     public override VisitorAction VisitParagraphStart(Paragraph paragraph)
     {
@@ -142,7 +142,7 @@ public class DocStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-     /// 在访问完一个段落节点的所有子节点后调用。
+    /// 在访问完一个段落节点的所有子节点后调用。
     /// </summary>
     public override VisitorAction VisitParagraphEnd(Paragraph paragraph)
     {
@@ -153,7 +153,7 @@ public class DocStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-     /// 在文档中遇到 Run 节点时调用。
+    /// 在文档中遇到 Run 节点时调用。
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {
@@ -173,9 +173,9 @@ public class DocStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-     /// 将一行添加到 StringBuilder 并根据访问者在文档树中的深度缩进。
+    /// 将一行添加到 StringBuilder 并根据访问者在文档树中的深度缩进。
     /// </summary>
-     /// <param name="text"></param>
+    /// <param name="text"></param>
     private void IndentAndAppendLine(string text)
     {
         for (int i = 0; i < mDocTraversalDepth; i++) mAcceptingNodeChildTree.Append("|  ");

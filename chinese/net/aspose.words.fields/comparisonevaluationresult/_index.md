@@ -3,7 +3,7 @@ title: ComparisonEvaluationResult
 second_title: Aspose.Words for .NET API 参考
 description: 比较评估结果
 type: docs
-weight: 1310
+weight: 1330
 url: /zh/net/aspose.words.fields/comparisonevaluationresult/
 ---
 ## ComparisonEvaluationResult class
@@ -25,12 +25,12 @@ public sealed class ComparisonEvaluationResult
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ErrorMessage](../../aspose.words.fields/comparisonevaluationresult/errormessage) { get; } | 获取比较评估失败结果的错误信息。 |
+| [ErrorMessage](../../aspose.words.fields/comparisonevaluationresult/errormessage) { get; } | 获取比对评估结果失败的错误信息。 |
 | [Result](../../aspose.words.fields/comparisonevaluationresult/result) { get; } | 获取比较评估结果。 |
 
 ### 例子
 
-展示如何为 IF 和 COMPARE 字段实现自定义评估。
+显示如何为 IF 和 COMPARE 字段实施自定义评估。
 
 ```csharp
 public void ConditionEvaluationExtensionPoint(string fieldCode, sbyte comparisonResult, string comparisonError,

@@ -16,7 +16,7 @@ public bool AllowBreakAcrossPages { get; set; }
 
 ### Примечания
 
-Значение по умолчанию: **true** .
+Значение по умолчанию: **истинный** .
 
 ### Примеры
 
@@ -51,7 +51,7 @@ tableStyle.VerticalAlignment = CellVerticalAlignment.Center;
 
 table.Style = tableStyle;
 
- // Установка свойств стиля таблицы может повлиять на свойства самой таблицы.
+// Установка свойств стиля таблицы может повлиять на свойства самой таблицы.
 Assert.True(table.Bidi);
 Assert.AreEqual(5.0d, table.CellSpacing);
 Assert.AreEqual("MyTableStyle1", table.StyleName);

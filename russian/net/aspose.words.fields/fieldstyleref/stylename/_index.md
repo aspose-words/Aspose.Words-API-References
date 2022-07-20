@@ -1,14 +1,14 @@
 ---
 title: StyleName
 second_title: Справочник по API Aspose.Words для .NET
-description: Получает или задает имя стиля с помощью которого форматируется искомый текст.
+description: Получает или задает имя стиля по которому форматируется искомый текст.
 type: docs
 weight: 70
 url: /ru/net/aspose.words.fields/fieldstyleref/stylename/
 ---
 ## FieldStyleRef.StyleName property
 
-Получает или задает имя стиля, с помощью которого форматируется искомый текст.
+Получает или задает имя стиля, по которому форматируется искомый текст.
 
 ```csharp
 public string StyleName { get; set; }

@@ -3,7 +3,7 @@ title: HtmlOfficeMathOutputMode
 second_title: Aspose.Words for .NET API 参考
 description: 指定 Aspose.Words 如何将 OfficeMath 导出为 HTMLMHTML 和 EPUB
 type: docs
-weight: 4790
+weight: 4840
 url: /zh/net/aspose.words.saving/htmlofficemathoutputmode/
 ---
 ## HtmlOfficeMathOutputMode enumeration
@@ -18,13 +18,13 @@ public enum HtmlOfficeMathOutputMode
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| Image | `0` | OfficeMath 被转换为 HTML 作为 &lt;img&gt; 指定的图像标签。 |
+| Image | `0` | OfficeMath 转换为 HTML 作为 &lt;img&gt; 标记指定的图像。 |
 | MathML | `1` | OfficeMath 使用 MathML 转换为 HTML。 |
-| Text | `2` | OfficeMath 被转换为 HTML 作为 &lt;span&gt; 指定的运行序列。标签。 |
+| Text | `2` | OfficeMath 被转换为 HTML 作为由 &lt;span&gt; 标签指定的运行序列。 |
 
 ### 例子
 
-显示如何指定如何将 Microsoft OfficeMath 对象导出为 HTML。
+演示如何指定如何将 Microsoft OfficeMath 对象导出为 HTML。
 
 ```csharp
 Document doc = new Document(MyDir + "Office math.docx");

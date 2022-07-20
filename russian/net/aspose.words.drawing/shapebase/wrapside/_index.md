@@ -1,14 +1,14 @@
 ---
 title: WrapSide
 second_title: Справочник по API Aspose.Words для .NET
-description: Указывает как текст обтекает фигуру.
+description: Указывает как текст оборачивает фигуру.
 type: docs
-weight: 520
+weight: 530
 url: /ru/net/aspose.words.drawing/shapebase/wrapside/
 ---
 ## ShapeBase.WrapSide property
 
-Указывает, как текст обтекает фигуру.
+Указывает, как текст оборачивает фигуру.
 
 ```csharp
 public WrapSide WrapSide { get; set; }
@@ -16,13 +16,13 @@ public WrapSide WrapSide { get; set; }
 
 ### Примечания
 
-Значение по умолчанию:Оба.
+Значение по умолчаниюBoth.
 
-Действует только для фигур верхнего уровня.
+Имеет эффект только для фигур верхнего уровня.
 
 ### Примеры
 
-Показывает, как заменить все формы текстовых полей фигурами изображений.
+Показывает, как заменить все фигуры текстового поля фигурами изображения.
 
 ```csharp
 Document doc = new Document(MyDir + "Textboxes in drawing canvas.docx");

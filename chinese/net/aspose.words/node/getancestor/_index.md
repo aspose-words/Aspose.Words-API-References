@@ -24,7 +24,7 @@ public CompositeNode GetAncestor(Type ancestorType)
 
 ### 评论
 
-如果祖先类型等于祖先类型或派生自祖先类型，则匹配。
+如果祖先类型等于祖先类型或从祖先类型派生，则祖先类型匹配。
 
 ### 例子
 
@@ -40,11 +40,11 @@ public void CalculateDepthOfNestedTables()
     {
         Table table = (Table)tables[i];
 
-         // 找出表格中的任何单元格是否有其他表格作为孩子。
+        // 找出表格中的任何单元格是否有其他表格作为子表格。
         int count = GetChildTableCount(table);
         Console.WriteLine("Table #{0} has {1} tables directly within its cells", i, count);
 
-         // 找出该表是否嵌套在另一个表中，如果是，则嵌套在什么深度。
+        // 找出表是否嵌套在另一个表中，如果是，嵌套在什么深度。
         int tableDepth = GetNestedDepthOfTable(table);
 
         if (tableDepth > 0)
@@ -56,11 +56,11 @@ public void CalculateDepthOfNestedTables()
 }
 
 /// <summary>
- /// 计算一个表嵌套在其他表中的级别。
+/// 计算一个表嵌套在其他表中的级别。
 /// </summary>
- /// <返回>
- /// 一个整数，表示表的嵌套深度（父表节点数）.
-  /// </returns>
+/// <returns>
+/// 一个整数，表示表的嵌套深度（父表节点数）。
+/// </returns>
 private static int GetNestedDepthOfTable(Table table)
 {
     int depth = 0;
@@ -76,13 +76,13 @@ private static int GetNestedDepthOfTable(Table table)
 }
 
 /// <summary>
- /// 确定一个表是否在其单元格中包含任何直接子表。
- /// 不要递归遍历这些表来检查更多的表。
+/// 确定一个表是否在其单元格中包含任何直接子表。
+/// 不要递归遍历这些表来检查更多的表。
 /// </summary>
- /// <返回>
-/// 如果至少有一个子单元格包含一个表格，则返回 true。
- /// 如果表格中没有单元格包含表格，则返回 false。
-  /// </returns>
+/// <returns>
+/// 如果至少有一个子单元格包含表格，则返回 true。
+/// 如果表格中没有单元格包含表格，则返回 false。
+/// </returns>
 private static int GetChildTableCount(Table table)
 {
     int childTableCount = 0;
@@ -113,7 +113,7 @@ private static int GetChildTableCount(Table table)
 
 ## GetAncestor(NodeType) {#getancestor}
 
-获取指定[`NodeType`](../../nodetype)的第一个祖先。
+获取指定的第一个祖先[`NodeType`](../../nodetype).
 
 ```csharp
 public CompositeNode GetAncestor(NodeType ancestorType)
@@ -141,11 +141,11 @@ public void CalculateDepthOfNestedTables()
     {
         Table table = (Table)tables[i];
 
-         // 找出表格中的任何单元格是否有其他表格作为孩子。
+        // 找出表格中的任何单元格是否有其他表格作为子表格。
         int count = GetChildTableCount(table);
         Console.WriteLine("Table #{0} has {1} tables directly within its cells", i, count);
 
-         // 找出该表是否嵌套在另一个表中，如果是，则嵌套在什么深度。
+        // 找出表是否嵌套在另一个表中，如果是，嵌套在什么深度。
         int tableDepth = GetNestedDepthOfTable(table);
 
         if (tableDepth > 0)
@@ -157,11 +157,11 @@ public void CalculateDepthOfNestedTables()
 }
 
 /// <summary>
- /// 计算一个表嵌套在其他表中的级别。
+/// 计算一个表嵌套在其他表中的级别。
 /// </summary>
- /// <返回>
- /// 一个整数，表示表的嵌套深度（父表节点数）.
-  /// </returns>
+/// <returns>
+/// 一个整数，表示表的嵌套深度（父表节点数）。
+/// </returns>
 private static int GetNestedDepthOfTable(Table table)
 {
     int depth = 0;
@@ -177,13 +177,13 @@ private static int GetNestedDepthOfTable(Table table)
 }
 
 /// <summary>
- /// 确定一个表是否在其单元格中包含任何直接子表。
- /// 不要递归遍历这些表来检查更多的表。
+/// 确定一个表是否在其单元格中包含任何直接子表。
+/// 不要递归遍历这些表来检查更多的表。
 /// </summary>
- /// <返回>
-/// 如果至少有一个子单元格包含一个表格，则返回 true。
- /// 如果表格中没有单元格包含表格，则返回 false。
-  /// </returns>
+/// <returns>
+/// 如果至少有一个子单元格包含表格，则返回 true。
+/// 如果表格中没有单元格包含表格，则返回 false。
+/// </returns>
 private static int GetChildTableCount(Table table)
 {
     int childTableCount = 0;

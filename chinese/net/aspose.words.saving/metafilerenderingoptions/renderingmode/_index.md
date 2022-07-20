@@ -16,11 +16,11 @@ public MetafileRenderingMode RenderingMode { get; set; }
 
 ### 评论
 
-默认值取决于保存格式。对于图像，它是Bitmap。 对于其他格式，它是VectorWithFallback。
+默认值取决于保存格式。对于图像它是Bitmap 对于其他格式是VectorWithFallback.
 
 ### 例子
 
-显示添加了位图渲染的后备和更改有关不受支持的元文件记录的警告类型。
+Shows 添加了对位图渲染的回退，并更改了有关不受支持的元文件记录的警告类型。
 
 ```csharp
 {

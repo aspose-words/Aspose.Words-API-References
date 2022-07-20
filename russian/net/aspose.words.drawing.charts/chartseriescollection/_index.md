@@ -1,14 +1,14 @@
 ---
 title: ChartSeriesCollection
 second_title: Справочник по API Aspose.Words для .NET
-description: Представляет коллекциюChartSeries./chartseries.
+description: Представляет наборChartSeries./chartseries .
 type: docs
 weight: 740
 url: /ru/net/aspose.words.drawing.charts/chartseriescollection/
 ---
 ## ChartSeriesCollection class
 
-Представляет коллекцию[`ChartSeries`](../chartseries).
+Представляет набор[`ChartSeries`](../chartseries) .
 
 ```csharp
 public class ChartSeriesCollection : IEnumerable<ChartSeries>
@@ -18,24 +18,24 @@ public class ChartSeriesCollection : IEnumerable<ChartSeries>
 
 | Имя | Описание |
 | --- | --- |
-| [Count](../../aspose.words.drawing.charts/chartseriescollection/count) { get; } | Возвращает количество[`ChartSeries`](../chartseries)в этой коллекции. |
-| [Item](../../aspose.words.drawing.charts/chartseriescollection/item) { get; } | Возвращает[`ChartSeries`](../chartseries)по указанному индексу. |
+| [Count](../../aspose.words.drawing.charts/chartseriescollection/count) { get; } | Возвращает количество[`ChartSeries`](../chartseries) в этой коллекции. |
+| [Item](../../aspose.words.drawing.charts/chartseriescollection/item) { get; } | Возвращает[`ChartSeries`](../chartseries) по указанному индексу. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [Add](../../aspose.words.drawing.charts/chartseriescollection/add#add_2)(string, DateTime[], double[]) | Добавляет новый[`ChartSeries`](../chartseries)в эту коллекцию. Используйте этот метод для добавления рядов к любому типу площадных, радарных и биржевых диаграмм. |
-| [Add](../../aspose.words.drawing.charts/chartseriescollection/add#add)(string, double[], double[]) | Добавляет новый[`ChartSeries`](../chartseries)в эту коллекцию. Используйте этот метод для добавления рядов к любому типу точечных диаграмм. |
-| [Add](../../aspose.words.drawing.charts/chartseriescollection/add#add_3)(string, string[], double[]) | Добавляет новый[`ChartSeries`](../chartseries)в эту коллекцию. Используйте этот метод для добавления рядов к любым типам линейчатых, столбчатых, линейных и поверхностных диаграмм. |
-| [Add](../../aspose.words.drawing.charts/chartseriescollection/add#add_1)(string, double[], double[], double[]) | Добавляет новый[`ChartSeries`](../chartseries)в эту коллекцию. Используйте этот метод для добавления рядов в пузырьковые диаграммы любого типа. |
-| [Clear](../../aspose.words.drawing.charts/chartseriescollection/clear)() | Удаляет все[`ChartSeries`](../chartseries)из этой коллекции. |
+| [Add](../../aspose.words.drawing.charts/chartseriescollection/add#add_2)(string, DateTime[], double[]) | Добавляет новый[`ChartSeries`](../chartseries) в эту коллекцию. Используйте этот метод для добавления рядов к любому типу площадных, радарных и фондовых диаграмм. |
+| [Add](../../aspose.words.drawing.charts/chartseriescollection/add#add)(string, double[], double[]) | Добавляет новый[`ChartSeries`](../chartseries) в эту коллекцию. Используйте этот метод, чтобы добавить серии к любому типу точечных диаграмм. |
+| [Add](../../aspose.words.drawing.charts/chartseriescollection/add#add_3)(string, string[], double[]) | Добавляет новый[`ChartSeries`](../chartseries)в эту коллекцию. Используйте этот метод для добавления рядов к любым типам гистограмм, столбцов, линейных и поверхностных диаграмм. |
+| [Add](../../aspose.words.drawing.charts/chartseriescollection/add#add_1)(string, double[], double[], double[]) | Добавляет новый[`ChartSeries`](../chartseries) в эту коллекцию. Используйте этот метод для добавления рядов в пузырьковые диаграммы любого типа. |
+| [Clear](../../aspose.words.drawing.charts/chartseriescollection/clear)() | Удаляет все[`ChartSeries`](../chartseries) из этой коллекции. |
 | [GetEnumerator](../../aspose.words.drawing.charts/chartseriescollection/getenumerator)() | Возвращает объект перечислителя. |
-| [RemoveAt](../../aspose.words.drawing.charts/chartseriescollection/removeat)(int) | Удаляет[`ChartSeries`](../chartseries)по указанному индексу. |
+| [RemoveAt](../../aspose.words.drawing.charts/chartseriescollection/removeat)(int) | Удаляет[`ChartSeries`](../chartseries) по указанному индексу. |
 
 ### Примеры
 
-Показывает, как добавлять и удалять ряды данных в диаграмме.
+Показывает, как добавлять и удалять ряды данных на диаграмме.
 
 ```csharp
 Document doc = new Document();
@@ -73,7 +73,7 @@ chartData.RemoveAt(2);
 
 Assert.False(chartData.Any(s => s.Name == "Series 3"));
 
-// С помощью этого метода мы также можем сразу очистить все данные диаграммы.
+// С помощью этого метода мы также можем очистить все данные графика сразу.
 // При создании нового графика это способ стереть все демонстрационные данные
 // прежде чем мы сможем начать работу с пустой диаграммой.
 chartData.Clear();

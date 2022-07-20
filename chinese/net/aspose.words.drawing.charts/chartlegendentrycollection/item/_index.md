@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Aspose.Words for .NET API 参考
-description: 返回指定索引的ChartLegendEntryaspose.words.drawing.charts/chartlegendentry
+description: 返回ChartLegendEntryaspose.words.drawing.charts/chartlegendentry对于指定的索引
 type: docs
 weight: 20
 url: /zh/net/aspose.words.drawing.charts/chartlegendentrycollection/item/
 ---
 ## ChartLegendEntryCollection indexer
 
-返回指定索引的[`ChartLegendEntry`](../../chartlegendentry)。
+返回[`ChartLegendEntry`](../../chartlegendentry)对于指定的索引。
 
 ```csharp
 public ChartLegendEntry this[int index] { get; }

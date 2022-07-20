@@ -3,7 +3,7 @@ title: XmlDataLoadOptions
 second_title: Aspose.Words for .NET API 参考
 description: 表示 XML 数据加载的选项
 type: docs
-weight: 4430
+weight: 4480
 url: /zh/net/aspose.words.reporting/xmldataloadoptions/
 ---
 ## XmlDataLoadOptions class
@@ -28,7 +28,7 @@ public class XmlDataLoadOptions
 
 ### 评论
 
-可以将此类的实例传递给XmlDataSource。
+可以将此类的实例传递给[`XmlDataSource`](../xmldatasource).
 
 ### 也可以看看
 

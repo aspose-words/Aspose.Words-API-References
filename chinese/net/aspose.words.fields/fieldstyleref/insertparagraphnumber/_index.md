@@ -1,14 +1,14 @@
 ---
 title: InsertParagraphNumber
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置是否插入引用段落的段落号与文档中出现的完全相同
+description: 获取或设置是否插入被引用段落的段落编号与文档中出现的完全一样
 type: docs
 weight: 20
 url: /zh/net/aspose.words.fields/fieldstyleref/insertparagraphnumber/
 ---
 ## FieldStyleRef.InsertParagraphNumber property
 
-获取或设置是否插入引用段落的段落号，与文档中出现的完全相同。
+获取或设置是否插入被引用段落的段落编号，与文档中出现的完全一样。
 
 ```csharp
 public bool InsertParagraphNumber { get; set; }

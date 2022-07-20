@@ -36,8 +36,8 @@ Console.WriteLine($"UDL connection string:\n\t{odso.UdlConnectString}");
 Console.WriteLine($"Table:\n\t{odso.TableName}");
 Console.WriteLine($"Query:\n\t{doc.MailMergeSettings.Query}");
 
- // 我们可以通过清除它们来重置这些设置。一旦我们这样做并保存文档，
- // Microsoft Word 在我们使用它加载文档时将不再执行邮件合并。
+// 我们可以通过清除它们来重置这些设置。一旦我们这样做并保存文档，
+// 当我们使用它加载文档时，Microsoft Word 将不再执行邮件合并。
 settings.Clear();
 
 doc.Save(ArtifactsDir + "MailMerge.OdsoEmail.docx");

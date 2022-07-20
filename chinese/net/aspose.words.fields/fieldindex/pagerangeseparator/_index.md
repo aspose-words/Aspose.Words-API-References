@@ -16,7 +16,7 @@ public string PageRangeSeparator { get; set; }
 
 ### 例子
 
-显示如何将书签的跨页指定为 INDEX 字段条目的页范围。
+显示如何将书签的跨页指定为 INDEX 字段条目的页面范围。
 
 ```csharp
 Document doc = new Document();

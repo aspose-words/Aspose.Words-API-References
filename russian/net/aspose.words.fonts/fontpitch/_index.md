@@ -3,7 +3,7 @@ title: FontPitch
 second_title: Справочник по API Aspose.Words для .NET
 description: Представляет шаг шрифта.
 type: docs
-weight: 2730
+weight: 2780
 url: /ru/net/aspose.words.fonts/fontpitch/
 ---
 ## FontPitch enumeration
@@ -24,7 +24,7 @@ public enum FontPitch
 
 ### Примечания
 
-Шаг указывает, имеет ли шрифт фиксированный шаг, пропорциональный интервал или он зависит от настройки по умолчанию.
+Шаг указывает, является ли шрифт фиксированным шагом, пропорционально расположенным или зависит от настройки по умолчанию.
 
 ### Примеры
 

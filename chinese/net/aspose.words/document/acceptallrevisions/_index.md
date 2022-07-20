@@ -16,7 +16,7 @@ public void AcceptAllRevisions()
 
 ### 评论
 
-此方法是[`AcceptAll`](../../revisioncollection/acceptall)的快捷方式。
+这个方法是一个捷径[`AcceptAll`](../../revisioncollection/acceptall).
 
 ### 例子
 

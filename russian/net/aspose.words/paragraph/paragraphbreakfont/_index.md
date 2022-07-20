@@ -166,7 +166,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Вызывается при завершении посещения узла Таблица в документе.
+    /// Вызывается при завершении посещения узла Table в документе.
     /// </summary>
     public override VisitorAction VisitTableEnd(Table table)
     {

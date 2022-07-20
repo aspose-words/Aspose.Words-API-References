@@ -16,7 +16,7 @@ public void SetImage(Image image)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| image | Image | Изображение, отображаемое как водяной знак. |
+| image | Image | Изображение, которое отображается как водяной знак. |
 
 ### Исключения
 
@@ -42,7 +42,7 @@ public void SetImage(Image image, ImageWatermarkOptions options)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| image | Image | Изображение, отображаемое как водяной знак. |
+| image | Image | Изображение, которое отображается как водяной знак. |
 | options | ImageWatermarkOptions | Определяет дополнительные параметры водяного знака изображения. |
 
 ### Исключения
@@ -53,7 +53,7 @@ public void SetImage(Image image, ImageWatermarkOptions options)
 
 ### Примечания
 
-Если[`ImageWatermarkOptions`](../../imagewatermarkoptions)равно null, водяной знак будет установлен с параметрами по умолчанию .
+Если[`ImageWatermarkOptions`](../../imagewatermarkoptions) имеет значение null, водяной знак будет установлен с параметрами по умолчанию.
 
 ### Примеры
 
@@ -99,7 +99,7 @@ public void SetImage(string imagePath, ImageWatermarkOptions options)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| imagePath | String | Путь к файлу изображения, отображаемому в виде водяного знака. |
+| imagePath | String | Путь к файлу изображения, которое отображается в виде водяного знака. |
 | options | ImageWatermarkOptions | Определяет дополнительные параметры водяного знака изображения. |
 
 ### Исключения
@@ -110,7 +110,7 @@ public void SetImage(string imagePath, ImageWatermarkOptions options)
 
 ### Примечания
 
-Если[`ImageWatermarkOptions`](../../imagewatermarkoptions)равно null, водяной знак будет установлен с параметрами по умолчанию .
+Если[`ImageWatermarkOptions`](../../imagewatermarkoptions) имеет значение null, водяной знак будет установлен с параметрами по умолчанию.
 
 ### Смотрите также
 

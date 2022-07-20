@@ -16,16 +16,16 @@ public bool ExportEmbeddedCss { get; set; }
 
 ### 例子
 
-展示了在将文档导出为 Html 时如何确定 CSS 样式表的存储位置。
+展示在将文档导出为 Html 时如何确定 CSS 样式表的存储位置。
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
- // 当我们将文档导出为 html 时，Aspose.Words 还会创建一个 CSS 样式表来格式化文档。
- // 将“ExportEmbeddedCss”标志设置为“true”，将 CSS 样式表保存到 .css 文件中，
- // 并使用 <link> 从 html 文档链接到文件元素.
+// 当我们将文档导出为 html 时，Aspose.Words 还会创建一个 CSS 样式表来格式化文档。
+// 将“ExportEmbeddedCss”标志设置为“true”，将 CSS 样式表保存到 .css 文件中，
+// 并使用 <link> 从 html 文档链接到文件元素。
 // 将标志设置为“false”将在 Html 文档中嵌入 CSS 样式表，
- // 这将只创建一个文件而不是两个。
+// 这将只创建一个文件而不是两个。
 HtmlFixedSaveOptions htmlFixedSaveOptions = new HtmlFixedSaveOptions
 {
     ExportEmbeddedCss = exportEmbeddedCss

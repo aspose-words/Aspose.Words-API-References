@@ -1,16 +1,16 @@
 ---
 title: PlaceholderName
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置包含占位符文本的BuildingBlockaspose.words.buildingblocks/buildingblock的名称
+description: 获取或设置名称BuildingBlockaspose.words.buildingblocks/buildingblock包含占位符文本
 type: docs
 weight: 240
 url: /zh/net/aspose.words.markup/structureddocumenttag/placeholdername/
 ---
 ## StructuredDocumentTag.PlaceholderName property
 
-获取或设置包含占位符文本的[`BuildingBlock`](../../../aspose.words.buildingblocks/buildingblock)的名称。
+获取或设置名称[`BuildingBlock`](../../../aspose.words.buildingblocks/buildingblock)包含占位符文本。
 
-BuildingBlock 同名[`Name`](../../../aspose.words.buildingblocks/buildingblock/name)必须存在在[`GlossaryDocument`](../../../aspose.words/document/glossarydocument) 否则InvalidOperationException将发生。
+具有此名称的 BuildingBlock[`Name`](../../../aspose.words.buildingblocks/buildingblock/name)必须出现在[`GlossaryDocument`](../../../aspose.words/document/glossarydocument) 否则InvalidOperationException会发生。
 
 ```csharp
 public string PlaceholderName { get; set; }

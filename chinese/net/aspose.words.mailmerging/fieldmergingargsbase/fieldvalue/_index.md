@@ -16,19 +16,18 @@ public object FieldValue { get; set; }
 
 ### 评论
 
-此属性包含刚刚从您的数据源中选择的值 邮件合并引擎针对此字段。您还可以通过设置属性来替换该值。
+此属性包含邮件合并引擎刚刚从您的数据源 为该字段选择的值。您也可以通过设置属性来替换该值。
 
 ### 例子
 
 显示如何编辑 MERGEFIELD 在发生邮件合并时收到的值。
 
 ```csharp
-public void FieldFormats()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-     // 插入一些带有格式开关的 MERGEFIELD，它们将编辑它们在邮件合并期间将收到的值。
+    // 插入一些带有格式开关的 MERGEFIELD，它们将编辑它们在邮件合并期间将收到的值。
     builder.InsertField("MERGEFIELD text_Field1 \\* Caps", null);
     builder.Write(", ");
     builder.InsertField("MERGEFIELD text_Field2 \\* Upper", null);
@@ -45,14 +44,13 @@ public void FieldFormats()
 }
 
 /// <summary>
- /// 编辑 MERGEFIELD 在邮件合并期间收到的值。
- /// MERGEFIELD 的名称必须有一个前缀，此回调才能对其值生效。
+/// 编辑 MERGEFIELD 在邮件合并期间收到的值。
+/// MERGEFIELD 的名称必须有一个前缀，此回调才能对其值生效。
 /// </summary>
 private class FieldValueMergingCallback : IFieldMergingCallback
 {
     /// <summary>
-     /// 当邮件合并将数据合并到 MERGEFIELD.
- 时调用
+    /// 当邮件合并将数据合并到 MERGEFIELD 时调用。
     /// </summary>
     void IFieldMergingCallback.FieldMerging(FieldMergingArgs e)
     {
@@ -64,7 +62,7 @@ private class FieldValueMergingCallback : IFieldMergingCallback
 
     void IFieldMergingCallback.ImageFieldMerging(ImageFieldMergingArgs e)
     {
-         // 什么都不做。
+        // 没做什么。
     }
 }
 ```

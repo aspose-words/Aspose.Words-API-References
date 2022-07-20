@@ -1,14 +1,14 @@
 ---
 title: CreateNoteHyperlinks
 second_title: Aspose.Words for .NET API 参考
-description: 指定是否将正文故事中的脚注/尾注引用转换为活动超链接 当点击超链接时将指向相应的脚注/尾注 默认为 false 
+description: 指定是否将正文故事中的脚注/尾注引用转换为活动超链接 单击超链接时将指向相应的脚注/尾注 默认为错误的.
 type: docs
 weight: 40
 url: /zh/net/aspose.words.saving/pdfsaveoptions/createnotehyperlinks/
 ---
 ## PdfSaveOptions.CreateNoteHyperlinks property
 
-指定是否将正文故事中的脚注/尾注引用转换为活动超链接。 当点击超链接时，将指向相应的脚注/尾注。 默认为` false` 。
+指定是否将正文故事中的脚注/尾注引用转换为活动超链接。 单击超链接时，将指向相应的脚注/尾注。 默认为`错误的`.
 
 ```csharp
 public bool CreateNoteHyperlinks { get; set; }
@@ -16,7 +16,7 @@ public bool CreateNoteHyperlinks { get; set; }
 
 ### 例子
 
-显示如何使脚注和尾注充当超链接。
+演示如何使脚注和尾注充当超链接。
 
 ```csharp
 Document doc = new Document(MyDir + "Footnotes and endnotes.docx");

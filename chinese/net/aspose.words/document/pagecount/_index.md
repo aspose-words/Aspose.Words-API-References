@@ -1,14 +1,14 @@
 ---
 title: PageCount
 second_title: Aspose.Words for .NET API 参考
-description: 获取文档中的页数由最近的页面布局操作计算得出
+description: 获取由最近的页面布局操作计算的文档中的页数
 type: docs
 weight: 300
 url: /zh/net/aspose.words/document/pagecount/
 ---
 ## Document.PageCount property
 
-获取文档中的页数，由最近的页面布局操作计算得出。
+获取由最近的页面布局操作计算的文档中的页数。
 
 ```csharp
 public int PageCount { get; }
@@ -16,7 +16,7 @@ public int PageCount { get; }
 
 ### 例子
 
-文档。
+显示如何计算文档中的页数。
 
 ```csharp
 Document doc = new Document();

@@ -3,7 +3,7 @@ title: ImageColorMode
 second_title: Справочник по API Aspose.Words для .NET
 description: Задает цветовой режим для сгенерированных изображений страниц документа.
 type: docs
-weight: 4900
+weight: 4950
 url: /ru/net/aspose.words.saving/imagecolormode/
 ---
 ## ImageColorMode enumeration

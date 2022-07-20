@@ -3,7 +3,7 @@ title: DmlEffectsRenderingMode
 second_title: Справочник по API Aspose.Words для .NET
 description: Указывает как эффекты DrawingML визуализируются для фиксированных форматов страниц.
 type: docs
-weight: 4600
+weight: 4650
 url: /ru/net/aspose.words.saving/dmleffectsrenderingmode/
 ---
 ## DmlEffectsRenderingMode enumeration
@@ -18,9 +18,9 @@ public enum DmlEffectsRenderingMode
 
 | Имя | Ценность | Описание |
 | --- | --- | --- |
-| Simplified | `0` | Рендеринг эффектов DrawingML упрощен. |
+| Simplified | `0` | Упрощен рендеринг эффектов DrawingML. |
 | None | `1` | Эффекты DrawingML не визуализируются. |
-| Fine | `2` | Эффекты DrawingML визуализируются в точном режиме, который включает расширенную обработку. В этом режиме рендеринг эффектов дает лучшие результаты, но с более высокими затратами производительности, чем в режимеSimplified. |
+| Fine | `2` | Эффекты DrawingML визуализируются в точном режиме, который включает расширенную обработку. В этом режиме визуализация эффектов дает лучшие результаты, но требует более высокой производительности, чемSimplified режим. |
 
 ### Примеры
 

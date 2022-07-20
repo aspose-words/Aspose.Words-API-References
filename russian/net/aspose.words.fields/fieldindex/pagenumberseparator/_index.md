@@ -1,14 +1,14 @@
 ---
 title: PageNumberSeparator
 second_title: Справочник по API Aspose.Words для .NET
-description: Получает или задает последовательность символов которая используется для разделения записи указателя и ее номера страницы.
+description: Получает или задает последовательность символов используемую для разделения записи указателя и ее номера страницы.
 type: docs
 weight: 120
 url: /ru/net/aspose.words.fields/fieldindex/pagenumberseparator/
 ---
 ## FieldIndex.PageNumberSeparator property
 
-Получает или задает последовательность символов, которая используется для разделения записи указателя и ее номера страницы.
+Получает или задает последовательность символов, используемую для разделения записи указателя и ее номера страницы.
 
 ```csharp
 public string PageNumberSeparator { get; set; }
@@ -16,7 +16,7 @@ public string PageNumberSeparator { get; set; }
 
 ### Примеры
 
-Показывает, как редактировать разделитель номеров страниц в поле INDEX.
+Показывает, как редактировать разделитель номеров страниц в поле ИНДЕКС.
 
 ```csharp
 Document doc = new Document();

@@ -1,14 +1,14 @@
 ---
 title: CustomPropertiesExport
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置一个值确定CustomDocumentPropertiesaspose.words/document/customdocumentproperties导出到 PDF 文件的方式
+description: 获取或设置一个确定方式的值CustomDocumentPropertiesaspose.words/document/customdocumentproperties导出为 PDF 文件
 type: docs
 weight: 50
 url: /zh/net/aspose.words.saving/pdfsaveoptions/custompropertiesexport/
 ---
 ## PdfSaveOptions.CustomPropertiesExport property
 
-获取或设置一个值，确定[`CustomDocumentProperties`](../../../aspose.words/document/customdocumentproperties)导出到 PDF 文件的方式。
+获取或设置一个确定方式的值[`CustomDocumentProperties`](../../../aspose.words/document/customdocumentproperties)导出为 PDF 文件。
 
 ```csharp
 public PdfCustomPropertiesExport CustomPropertiesExport { get; set; }
@@ -16,11 +16,11 @@ public PdfCustomPropertiesExport CustomPropertiesExport { get; set; }
 
 ### 评论
 
-默认值为None。
+默认值为None.
 
-Metadata值在保存为 PDF/A 时不受支持。 Standard将用于 PDF/A-1 和 PDF/A-2 以及 None用于 PDF/A-4。
+Metadata保存为 PDF/A 时不支持该值。 Standard将用于 PDF/A-1 和 PDF/A-2 and None对于 PDF/A-4。
 
-Standard值在保存为 PDF 2.0 时不受支持。 Metadata将被使用。
+Standard保存为 PDF 2.0. 时不支持该值Metadata将被使用。
 
 ### 例子
 

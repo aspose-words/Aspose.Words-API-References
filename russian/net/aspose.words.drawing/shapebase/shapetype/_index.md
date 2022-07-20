@@ -3,7 +3,7 @@ title: ShapeType
 second_title: Справочник по API Aspose.Words для .NET
 description: Получает тип фигуры.
 type: docs
-weight: 450
+weight: 460
 url: /ru/net/aspose.words.drawing/shapebase/shapetype/
 ---
 ## ShapeBase.ShapeType property
@@ -24,9 +24,9 @@ public void GroupOfShapes()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-     // Если вам нужно создать "непримитивные" фигуры, такие как SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped, 
-     // TopCornersOneRoundedOneSnipped, SingleCornerRounded, TopCornersRounded, DiagonalCornersRounded
-     // используйте методы DocumentBuilder.InsertShape.
+    // Если вам нужно создать "непримитивные" фигуры, такие как SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,
+    // TopCornersOneRoundedOneSnipped, SingleCornerRounded, TopCornersRounded, DiagonalCornersRounded
+    // используйте методы DocumentBuilder.InsertShape.
     Shape balloon = new Shape(doc, ShapeType.Balloon)
     {
         Width = 200, 
@@ -56,7 +56,7 @@ public void GroupOfShapes()
 }
 
 /// <summary>
- /// Выводит содержимое посещенной группы форм на консоль.
+/// Выводит содержимое посещенной группы форм на консоль.
 /// </summary>
 public class ShapeGroupPrinter : DocumentVisitor
 {

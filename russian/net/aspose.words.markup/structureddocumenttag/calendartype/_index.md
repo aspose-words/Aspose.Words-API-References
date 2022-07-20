@@ -1,14 +1,14 @@
 ---
 title: CalendarType
 second_title: Справочник по API Aspose.Words для .NET
-description: Указывает тип календаря для этого SDT . По умолчаниюDefault
+description: Определяет тип календаря для этого СДТ . По умолчаниюDefault
 type: docs
 weight: 50
 url: /ru/net/aspose.words.markup/structureddocumenttag/calendartype/
 ---
 ## StructuredDocumentTag.CalendarType property
 
-Указывает тип календаря для этого **SDT** . По умолчанию:Default
+Определяет тип календаря для этого **СДТ** . По умолчаниюDefault
 
 ```csharp
 public SdtCalendarType CalendarType { get; set; }
@@ -16,9 +16,9 @@ public SdtCalendarType CalendarType { get; set; }
 
 ### Примечания
 
-Доступ к этому свойству будет работать только дляDateТип SDT.
+Доступ к этому свойству будет работать только дляDate Тип SDT.
 
-Для всех остальных типов SDT возникнет исключение.
+Для всех других типов SDT будет иметь место исключение.
 
 ### Примеры
 

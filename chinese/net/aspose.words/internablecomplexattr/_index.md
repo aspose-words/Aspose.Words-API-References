@@ -1,14 +1,14 @@
 ---
 title: InternableComplexAttr
 second_title: Aspose.Words for .NET API 参考
-description: 可内部复杂属性的基类 Internable complex 属性应该在要更改时通知父集合
+description: 可内部复杂属性的基类 可内部复杂属性在更改时应通知父集合
 type: docs
-weight: 3030
+weight: 3080
 url: /zh/net/aspose.words/internablecomplexattr/
 ---
 ## InternableComplexAttr class
 
-可内部复杂属性的基类。 Internable complex 属性应该在要更改时通知父集合。
+可内部复杂属性的基类。 可内部复杂属性在更改时应通知父集合。
 
 ```csharp
 public abstract class InternableComplexAttr

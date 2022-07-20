@@ -1,14 +1,14 @@
 ---
 title: Add
 second_title: Справочник по API Aspose.Words для .NET
-description: Добавляет новыйChartSeriesaspose.words.drawing.charts/chartseriesв эту коллекцию. Используйте этот метод для добавления рядов к любым типам линейчатых столбчатых линейных и поверхностных диаграмм.
+description: Добавляет новыйChartSeriesaspose.words.drawing.charts/chartseriesв эту коллекцию. Используйте этот метод для добавления рядов к любым типам гистограмм столбцов линейных и поверхностных диаграмм.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.drawing.charts/chartseriescollection/add/
 ---
 ## Add(string, string[], double[]) {#add_3}
 
-Добавляет новый[`ChartSeries`](../../chartseries)в эту коллекцию. Используйте этот метод для добавления рядов к любым типам линейчатых, столбчатых, линейных и поверхностных диаграмм.
+Добавляет новый[`ChartSeries`](../../chartseries)в эту коллекцию. Используйте этот метод для добавления рядов к любым типам гистограмм, столбцов, линейных и поверхностных диаграмм.
 
 ```csharp
 public ChartSeries Add(string seriesName, string[] categories, double[] values)
@@ -16,11 +16,11 @@ public ChartSeries Add(string seriesName, string[] categories, double[] values)
 
 ### Возвращаемое значение
 
-Недавно добавленные[`ChartSeries`](../../chartseries)объект.
+Недавно добавленный[`ChartSeries`](../../chartseries) объект.
 
 ### Примеры
 
-Показывает, как создать соответствующий тип серии диаграмм для типа графика.
+Показывает, как создать подходящий тип серии диаграмм для типа графика.
 
 ```csharp
 {
@@ -92,7 +92,7 @@ public ChartSeries Add(string seriesName, string[] categories, double[] values)
 }
 
 /// <summary>
-/// Вставьте диаграмму с помощью построителя документов указанного ChartType, ширины и высоты и удалите ее демонстрационные данные.
+/// Вставьте диаграмму с помощью построителя документов указанного типа ChartType, ширины и высоты и удалите ее демонстрационные данные.
 /// </summary>
 private static Chart AppendChart(DocumentBuilder builder, ChartType chartType, double width, double height)
 {
@@ -114,7 +114,7 @@ private static Chart AppendChart(DocumentBuilder builder, ChartType chartType, d
 
 ## Add(string, double[], double[]) {#add}
 
-Добавляет новый[`ChartSeries`](../../chartseries)в эту коллекцию. Используйте этот метод для добавления рядов к любому типу точечных диаграмм.
+Добавляет новый[`ChartSeries`](../../chartseries) в эту коллекцию. Используйте этот метод, чтобы добавить серии к любому типу точечных диаграмм.
 
 ```csharp
 public ChartSeries Add(string seriesName, double[] xValues, double[] yValues)
@@ -122,11 +122,11 @@ public ChartSeries Add(string seriesName, double[] xValues, double[] yValues)
 
 ### Возвращаемое значение
 
-Недавно добавленные[`ChartSeries`](../../chartseries)объект.
+Недавно добавленный[`ChartSeries`](../../chartseries) объект.
 
 ### Примеры
 
-Показывает, как создать соответствующий тип серии диаграмм для типа графика.
+Показывает, как создать подходящий тип серии диаграмм для типа графика.
 
 ```csharp
 {
@@ -198,7 +198,7 @@ public ChartSeries Add(string seriesName, double[] xValues, double[] yValues)
 }
 
 /// <summary>
-/// Вставьте диаграмму с помощью построителя документов указанного ChartType, ширины и высоты и удалите ее демонстрационные данные.
+/// Вставьте диаграмму с помощью построителя документов указанного типа ChartType, ширины и высоты и удалите ее демонстрационные данные.
 /// </summary>
 private static Chart AppendChart(DocumentBuilder builder, ChartType chartType, double width, double height)
 {
@@ -220,7 +220,7 @@ private static Chart AppendChart(DocumentBuilder builder, ChartType chartType, d
 
 ## Add(string, DateTime[], double[]) {#add_2}
 
-Добавляет новый[`ChartSeries`](../../chartseries)в эту коллекцию. Используйте этот метод для добавления рядов к любому типу площадных, радарных и биржевых диаграмм.
+Добавляет новый[`ChartSeries`](../../chartseries) в эту коллекцию. Используйте этот метод для добавления рядов к любому типу площадных, радарных и фондовых диаграмм.
 
 ```csharp
 public ChartSeries Add(string seriesName, DateTime[] dates, double[] values)
@@ -228,7 +228,7 @@ public ChartSeries Add(string seriesName, DateTime[] dates, double[] values)
 
 ### Примеры
 
-Показывает, как создать соответствующий тип серии диаграмм для типа графика.
+Показывает, как создать подходящий тип серии диаграмм для типа графика.
 
 ```csharp
 {
@@ -300,7 +300,7 @@ public ChartSeries Add(string seriesName, DateTime[] dates, double[] values)
 }
 
 /// <summary>
-/// Вставьте диаграмму с помощью построителя документов указанного ChartType, ширины и высоты и удалите ее демонстрационные данные.
+/// Вставьте диаграмму с помощью построителя документов указанного типа ChartType, ширины и высоты и удалите ее демонстрационные данные.
 /// </summary>
 private static Chart AppendChart(DocumentBuilder builder, ChartType chartType, double width, double height)
 {
@@ -322,7 +322,7 @@ private static Chart AppendChart(DocumentBuilder builder, ChartType chartType, d
 
 ## Add(string, double[], double[], double[]) {#add_1}
 
-Добавляет новый[`ChartSeries`](../../chartseries)в эту коллекцию. Используйте этот метод для добавления рядов в пузырьковые диаграммы любого типа.
+Добавляет новый[`ChartSeries`](../../chartseries) в эту коллекцию. Используйте этот метод для добавления рядов в пузырьковые диаграммы любого типа.
 
 ```csharp
 public ChartSeries Add(string seriesName, double[] xValues, double[] yValues, double[] bubbleSizes)
@@ -330,11 +330,11 @@ public ChartSeries Add(string seriesName, double[] xValues, double[] yValues, do
 
 ### Возвращаемое значение
 
-Недавно добавленные[`ChartSeries`](../../chartseries)object.
+Недавно добавленный[`ChartSeries`](../../chartseries) объект.
 
 ### Примеры
 
-Показывает, как создать соответствующий тип серии диаграмм для типа графика.
+Показывает, как создать подходящий тип серии диаграмм для типа графика.
 
 ```csharp
 {
@@ -406,7 +406,7 @@ public ChartSeries Add(string seriesName, double[] xValues, double[] yValues, do
 }
 
 /// <summary>
-/// Вставьте диаграмму с помощью построителя документов указанного ChartType, ширины и высоты и удалите ее демонстрационные данные.
+/// Вставьте диаграмму с помощью построителя документов указанного типа ChartType, ширины и высоты и удалите ее демонстрационные данные.
 /// </summary>
 private static Chart AppendChart(DocumentBuilder builder, ChartType chartType, double width, double height)
 {

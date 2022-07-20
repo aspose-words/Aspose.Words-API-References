@@ -64,7 +64,7 @@ using (FileStream fileStream = new FileStream(ArtifactsDir + "FontSettings.Table
 
 ## Save(Stream) {#save}
 
-将当前表替换设置保存到流。
+将当前表替换设置保存到流中。
 
 ```csharp
 public void Save(Stream outputStream)

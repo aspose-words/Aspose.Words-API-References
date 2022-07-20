@@ -1,14 +1,14 @@
 ---
 title: MajorUnitIsAuto
 second_title: Справочник по API Aspose.Words для .NET
-description: Получает или устанавливает флаг указывающий следует ли использовать расстояние по умолчанию между основными делениями.
+description: Получает или задает флаг указывающий следует ли использовать расстояние по умолчанию между основными делениями.
 type: docs
 weight: 110
 url: /ru/net/aspose.words.drawing.charts/chartaxis/majorunitisauto/
 ---
 ## ChartAxis.MajorUnitIsAuto property
 
-Получает или устанавливает флаг, указывающий, следует ли использовать расстояние по умолчанию между основными делениями.
+Получает или задает флаг, указывающий, следует ли использовать расстояние по умолчанию между основными делениями.
 
 ```csharp
 public bool MajorUnitIsAuto { get; set; }

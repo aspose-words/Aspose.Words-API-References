@@ -1,14 +1,14 @@
 ---
 title: Clone
 second_title: Aspose.Words for .NET API 参考
-description: 执行VbaModuleaspose.words.vba/vbamodule的副本
+description: 执行VbaModuleaspose.words.vba/vbamodule.
 type: docs
 weight: 50
 url: /zh/net/aspose.words.vba/vbamodule/clone/
 ---
 ## VbaModule.Clone method
 
-执行[`VbaModule`](../../vbamodule)的副本。
+执行[`VbaModule`](../../vbamodule).
 
 ```csharp
 public VbaModule Clone()
@@ -29,9 +29,8 @@ Document destDoc = new Document();
 VbaProject copyVbaProject = doc.VbaProject.Clone();
 destDoc.VbaProject = copyVbaProject;
 
- // 在目标文档中，我们已经有一个名为“Module1”
- 的模块
-// 因为我们将它与项目一起克隆。我们需要移除模块。
+// 在目标文档中，我们已经有一个名为“Module1”的模块
+// 因为我们将它与项目一起克隆。我们将需要删除该模块。
 VbaModule oldVbaModule = destDoc.VbaProject.Modules["Module1"];
 VbaModule copyVbaModule = doc.VbaProject.Modules["Module1"].Clone();
 destDoc.VbaProject.Modules.Remove(oldVbaModule);

@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Aspose.Words for .NET API 参考
-description: 在给定索引处检索 行 
+description: 检索一个 排在给定的索引处
 type: docs
 weight: 10
 url: /zh/net/aspose.words.tables/rowcollection/item/
 ---
 ## RowCollection indexer
 
-在给定索引处检索 **行** 。
+检索一个 **排**在给定的索引处。
 
 ```csharp
 public Row this[int index] { get; }
@@ -16,13 +16,13 @@ public Row this[int index] { get; }
 
 | 范围 | 描述 |
 | --- | --- |
-| index | 集合的索引。 |
+| index | 集合中的索引。 |
 
 ### 评论
 
-索引从零开始。
+该索引从零开始。
 
-负索引是允许的，表示从集合后面访问。 例如 -1 表示最后一项，-2 表示倒数第二个，依此类推。
+允许使用负索引并指示从集合的背面进行访问。 例如 -1 表示最后一项，-2 表示倒数第二个，依此类推。
 
 如果 index 大于或等于列表中的项目数，则返回空引用。
 
@@ -44,7 +44,7 @@ for (int i = 0; i < tables.Count; i++)
 
     RowCollection rows = tables[i].Rows;
 
-     // 我们可以在行集合上使用“ToArray”方法将其克隆到数组中。
+    // 我们可以在行集合上使用“ToArray”方法将其克隆到数组中。
     Assert.AreEqual(rows, rows.ToArray());
     Assert.AreNotSame(rows, rows.ToArray());
 
@@ -54,7 +54,7 @@ for (int i = 0; i < tables.Count; i++)
 
         CellCollection cells = rows[j].Cells;
 
-         // 我们可以在单元格集合上使用“ToArray”方法将其克隆到数组中。
+        // 我们可以在单元格集合上使用“ToArray”方法将其克隆到数组中。
         Assert.AreEqual(cells, cells.ToArray());
         Assert.AreNotSame(cells, cells.ToArray());
 

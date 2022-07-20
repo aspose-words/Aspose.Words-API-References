@@ -1,14 +1,14 @@
 ---
 title: Contains
 second_title: Aspose.Words for .NET API 参考
-description: 确定节点是否在集合中
+description: 确定一个节点是否在集合中
 type: docs
 weight: 50
 url: /zh/net/aspose.words/nodecollection/contains/
 ---
 ## NodeCollection.Contains method
 
-确定节点是否在集合中。
+确定一个节点是否在集合中。
 
 ```csharp
 public bool Contains(Node node)
@@ -24,7 +24,7 @@ public bool Contains(Node node)
 
 ### 评论
 
-此方法执行线性搜索；因此，平均执行时间与 Count 成正比。
+该方法执行线性搜索；因此，平均执行时间与 Count 成正比。
 
 ### 例子
 

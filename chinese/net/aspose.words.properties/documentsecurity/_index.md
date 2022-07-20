@@ -1,14 +1,14 @@
 ---
 title: DocumentSecurity
 second_title: Aspose.Words for .NET API 参考
-description: 用作Security./builtindocumentproperties/security属性的值 将文档的安全级别指定为数值
+description: 用作Security./builtindocumentproperties/securityproperty. 将文档的安全级别指定为数值
 type: docs
-weight: 4190
+weight: 4240
 url: /zh/net/aspose.words.properties/documentsecurity/
 ---
 ## DocumentSecurity enumeration
 
-用作[`Security`](../builtindocumentproperties/security)属性的值。 将文档的安全级别指定为数值。
+用作[`Security`](../builtindocumentproperties/security)property. 将文档的安全级别指定为数值。
 
 ```csharp
 [Flags]
@@ -20,14 +20,14 @@ public enum DocumentSecurity
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
 | None | `0` | 属性没有指定安全状态。 |
-| PasswordProtected | `1` | 文档受密码保护。 （到目前为止，从未在文档中看到过注释）。 |
-| ReadOnlyRecommended | `2` | 尽可能以只读方式打开的文档，但可以覆盖该设置。 |
+| PasswordProtected | `1` | 文档受密码保护。 （到目前为止从未在文档中看到过注释）. |
+| ReadOnlyRecommended | `2` | 尽可能以只读方式打开的文档，但可以覆盖设置。 |
 | ReadOnlyEnforced | `4` | 始终以只读方式打开的文档。 |
 | ReadOnlyExceptAnnotations | `8` | 始终以只读方式打开的文档，注释除外。 |
 
 ### 例子
 
-显示如何使用文档属性来显示文档的安全级别。
+演示如何使用文档属性来显示文档的安全级别。
 
 ```csharp
 Document doc = new Document();
@@ -41,7 +41,7 @@ doc.Save(ArtifactsDir + "DocumentProperties.Security.ReadOnlyRecommended.docx");
 Assert.AreEqual(DocumentSecurity.ReadOnlyRecommended, 
     new Document(ArtifactsDir + "DocumentProperties.Security.ReadOnlyRecommended.docx").BuiltInDocumentProperties.Security);
 
- // 对文档进行写保护，然后验证其安全级别。
+// 对文档进行写保护，然后验证其安全级别。
 doc = new Document();
 
 Assert.False(doc.WriteProtection.IsWriteProtected);
@@ -56,7 +56,7 @@ doc.Save(ArtifactsDir + "DocumentProperties.Security.ReadOnlyEnforced.docx");
 Assert.AreEqual(DocumentSecurity.ReadOnlyEnforced,
     new Document(ArtifactsDir + "DocumentProperties.Security.ReadOnlyEnforced.docx").BuiltInDocumentProperties.Security);
 
- // “安全”是一个描述性属性。我们可以手动编辑它的值。
+// “安全”是一个描述性属性。我们可以手动编辑它的值。
 doc = new Document();
 
 doc.Protect(ProtectionType.AllowOnlyComments, "MyPassword");

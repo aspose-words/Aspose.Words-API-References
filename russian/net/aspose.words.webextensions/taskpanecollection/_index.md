@@ -3,7 +3,7 @@ title: TaskPaneCollection
 second_title: Справочник по API Aspose.Words для .NET
 description: Указывает список сохраняемых объектов области задач.
 type: docs
-weight: 6360
+weight: 6410
 url: /ru/net/aspose.words.webextensions/taskpanecollection/
 ---
 ## TaskPaneCollection class
@@ -32,7 +32,7 @@ public class TaskPaneCollection : BaseWebExtensionCollection<TaskPane>
 
 ### Примеры
 
-Показывает, как добавить веб-расширение к документу.
+Показывает, как добавить веб-расширение в документ.
 
 ```csharp
 Document doc = new Document();

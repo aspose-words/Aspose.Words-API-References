@@ -16,21 +16,21 @@ public Section LastSection { get; }
 
 ### 评论
 
-返回` null` 如果有没有部分。
+返回`无效的`如果没有部分。
 
 ### 例子
 
-显示如何将自定义构建块添加到文档。
+演示如何将自定义构建块添加到文档。
 
 ```csharp
 public void CreateAndInsert()
 {
-     // 文档的词汇表文档存储构建块.
+    // 文档的词汇表文档存储构建块。
     Document doc = new Document();
     GlossaryDocument glossaryDoc = new GlossaryDocument();
     doc.GlossaryDocument = glossaryDoc;
 
-     // 创建一个积木，命名，然后将其添加到词汇表文档中。
+    // 创建一个构建块，为其命名，然后将其添加到词汇表文档中。
     BuildingBlock block = new BuildingBlock(glossaryDoc)
     {
         Name = "Custom Block"
@@ -38,20 +38,20 @@ public void CreateAndInsert()
 
     glossaryDoc.AppendChild(block);
 
-     // 所有新的构建块 GUID 默认都具有相同的零值，我们可以给它们一个新的唯一值。
+    // 所有新的构建块 GUID 默认都具有相同的零值，我们可以给它们一个新的唯一值。
     Assert.AreEqual("00000000-0000-0000-0000-000000000000", block.Guid.ToString());
 
     block.Guid = Guid.NewGuid();
 
-     // 以下属性对构建块进行分类
-     // 在菜单中，我们可以通过“插入”在 Microsoft Word 中访问 -> “快速零件”-> “积木组织者”.
+    // 以下属性对构建块进行分类
+    // 在菜单中，我们可以通过“插入”在 Microsoft Word 中访问 -> “快速零件”-> “积木组织者”。
     Assert.AreEqual("(Empty Category)", block.Category);
     Assert.AreEqual(BuildingBlockType.None, block.Type);
     Assert.AreEqual(BuildingBlockGallery.All, block.Gallery);
     Assert.AreEqual(BuildingBlockBehavior.Content, block.Behavior);
 
-     // 在我们可以将这个构建块添加到我们的文档之前，我们需要给它一些内容，
-     // 我们将使用文档访问者来完成。此访问者还将设置类别、画廊和行为。
+    // 在我们可以将这个构建块添加到我们的文档之前，我们需要给它一些内容，
+    // 我们将使用文档访问者来完成。此访问者还将设置类别、画廊和行为。
     BuildingBlockVisitor visitor = new BuildingBlockVisitor(glossaryDoc);
     block.Accept(visitor);
 
@@ -59,19 +59,19 @@ public void CreateAndInsert()
     BuildingBlock customBlock = glossaryDoc.GetBuildingBlock(BuildingBlockGallery.QuickParts,
         "My custom building blocks", "Custom Block");
 
-     // 块本身是一个包含文本的部分。
+    // 块本身是包含文本的部分。
     Assert.AreEqual($"Text inside {customBlock.Name}\f", customBlock.FirstSection.Body.FirstParagraph.GetText());
     Assert.AreEqual(customBlock.FirstSection, customBlock.LastSection);
 
-     // 现在，我们可以将它作为一个新部分插入到文档中。
+    // 现在，我们可以将它作为一个新部分插入到文档中。
     doc.AppendChild(doc.ImportNode(customBlock.FirstSection, true));
 
-     // 我们也可以在 Microsoft Word 的 Building Blocks Organizer 中找到并手动放置。
+    // 我们也可以在 Microsoft Word 的 Building Blocks Organizer 中找到并手动放置。
     doc.Save(ArtifactsDir + "BuildingBlocks.CreateAndInsert.dotx");
 }
 
 /// <summary>
- /// 设置一个已访问的构建块作为快速部件插入到文档中，并将文本添加到其内容中。
+/// 设置一个已访问的构建块作为快速部件插入到文档中，并在其内容中添加文本。
 /// </summary>
 public class BuildingBlockVisitor : DocumentVisitor
 {
@@ -83,16 +83,15 @@ public class BuildingBlockVisitor : DocumentVisitor
 
     public override VisitorAction VisitBuildingBlockStart(BuildingBlock block)
     {
-         // 将 Building Block 配置为快速部件，并添加 Building Blocks Organizer 使用的属性。
+        // 将 Building Block 配置为快速部件，并添加 Building Blocks Organizer 使用的属性。
         block.Behavior = BuildingBlockBehavior.Paragraph;
         block.Category = "My custom building blocks";
         block.Description =
             "Using this block in the Quick Parts section of word will place its contents at the cursor.";
         block.Gallery = BuildingBlockGallery.QuickParts;
 
-         // 添加一个带有文本的部分。
-         // 将块插入到文档中会在 location.
- 处附加该部分及其子节点
+        // 添加一个带文本的部分。
+        // 将块插入文档将在该位置附加该部分及其子节点。
         Section section = new Section(mGlossaryDoc);
         block.AppendChild(section);
         block.FirstSection.EnsureMinimum();

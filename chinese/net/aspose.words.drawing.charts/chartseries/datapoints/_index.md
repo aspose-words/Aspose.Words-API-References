@@ -1,14 +1,14 @@
 ---
 title: DataPoints
 second_title: Aspose.Words for .NET API 参考
-description: 返回此系列中所有数据点的格式化对象的集合
+description: 返回此系列中所有数据点的格式化对象集合
 type: docs
 weight: 30
 url: /zh/net/aspose.words.drawing.charts/chartseries/datapoints/
 ---
 ## ChartSeries.DataPoints property
 
-返回此系列中所有数据点的格式化对象的集合。
+返回此系列中所有数据点的格式化对象集合。
 
 ```csharp
 public ChartDataPointCollection DataPoints { get; }

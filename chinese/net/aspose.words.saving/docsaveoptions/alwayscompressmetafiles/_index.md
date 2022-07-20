@@ -1,14 +1,14 @@
 ---
 title: AlwaysCompressMetafiles
 second_title: Aspose.Words for .NET API 参考
-description: 当 false 时出于性能原因不会压缩小元文件 默认值为 true 所有元文件都被压缩无论其大小
+description: 什么时候错误的 出于性能原因不会压缩小元文件 默认值为 真的所有元文件都被压缩无论其大小
 type: docs
 weight: 20
 url: /zh/net/aspose.words.saving/docsaveoptions/alwayscompressmetafiles/
 ---
 ## DocSaveOptions.AlwaysCompressMetafiles property
 
-当` false` 时，出于性能原因，不会压缩小元文件。 默认值为 **true** ，所有元文件都被压缩，无论其大小。
+什么时候`错误的` 出于性能原因，不会压缩小元文件。 默认值为 **真的**，所有元文件都被压缩，无论其大小。
 
 ```csharp
 public bool AlwaysCompressMetafiles { get; set; }
@@ -19,12 +19,12 @@ public bool AlwaysCompressMetafiles { get; set; }
 显示如何在保存时更改文档中的元文件压缩。
 
 ```csharp
- // 打开一个包含 Microsoft Equation 3.0 公式的文档。
+// 打开一个包含 Microsoft Equation 3.0 公式的文档。
 Document doc = new Document(MyDir + "Microsoft equation object.docx");
 
- // 当我们保存文档时，出于性能原因，较小的元文件不会被压缩。
- // 我们可以在 SaveOptions 对象中设置一个标志，以便在保存时压缩每个图元文件。
- // LibreOffice 等一些编辑器无法读取未压缩的元文件。
+// 当我们保存文档时，出于性能原因，不会压缩较小的元文件。
+// 我们可以在 SaveOptions 对象中设置一个标志，以便在保存时压缩每个图元文件。
+// LibreOffice 等一些编辑器无法读取未压缩的元文件。
 DocSaveOptions saveOptions = new DocSaveOptions();
 saveOptions.AlwaysCompressMetafiles = compressAllMetafiles;
 

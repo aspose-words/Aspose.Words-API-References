@@ -22,7 +22,7 @@ public double DistanceRight { get; set; }
 
 ### 例子
 
-显示如何设置围绕形状的文本的环绕距离。
+演示如何为围绕形状的文本设置环绕距离。
 
 ```csharp
 Document doc = new Document();

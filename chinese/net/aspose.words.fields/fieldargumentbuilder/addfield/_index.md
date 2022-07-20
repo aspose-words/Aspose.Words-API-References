@@ -1,14 +1,14 @@
 ---
 title: AddField
 second_title: Aspose.Words for .NET API 参考
-description: 将由FieldBuilderaspose.words.fields/fieldbuilder表示的字段添加到参数
+description: 添加一个由 a 表示的字段FieldBuilderaspose.words.fields/fieldbuilder到论点.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.fields/fieldargumentbuilder/addfield/
 ---
 ## FieldArgumentBuilder.AddField method
 
-将由[`FieldBuilder`](../../fieldbuilder)表示的字段添加到参数。
+添加一个由 a 表示的字段[`FieldBuilder`](../../fieldbuilder)到论点.
 
 ```csharp
 public FieldArgumentBuilder AddField(FieldBuilder fieldBuilder)
@@ -16,7 +16,7 @@ public FieldArgumentBuilder AddField(FieldBuilder fieldBuilder)
 
 ### 例子
 
-展示如何使用字段构建器构造字段，然后将它们插入到文档中。
+演示如何使用字段构建器构造字段，然后将它们插入到文档中。
 
 ```csharp
 Document doc = new Document();

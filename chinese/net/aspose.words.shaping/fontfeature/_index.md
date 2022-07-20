@@ -3,7 +3,7 @@ title: FontFeature
 second_title: Aspose.Words for .NET API 参考
 description: 
 type: docs
-weight: 5680
+weight: 5730
 url: /zh/net/aspose.words.shaping/fontfeature/
 ---
 ## FontFeature enumeration

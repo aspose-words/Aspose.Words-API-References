@@ -1,14 +1,14 @@
 ---
 title: DataChecksum
 second_title: Aspose.Words for .NET API 参考
-description: 指定Dataaspose.words.markup/customxmlpart/data内容的循环冗余校验 CRC 校验和
+description: 指定循环冗余校验 CRC 校验和Dataaspose.words.markup/customxmlpart/data内容.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.markup/customxmlpart/datachecksum/
 ---
 ## CustomXmlPart.DataChecksum property
 
-指定[`Data`](../data)内容的循环冗余校验 (CRC) 校验和。
+指定循环冗余校验 (CRC) 校验和[`Data`](../data)内容.
 
 ```csharp
 public long DataChecksum { get; }

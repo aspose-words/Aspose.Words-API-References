@@ -1,14 +1,14 @@
 ---
 title: Insert
 second_title: Справочник по API Aspose.Words для .NET
-description: ВставляетGradientStopaspose.words.drawing/gradientstopв коллекцию по указанному индексу.
+description: ВставляетGradientStopaspose.words.drawing/gradientstop в коллекцию по указанному индексу.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.drawing/gradientstopcollection/insert/
 ---
 ## GradientStopCollection.Insert method
 
-Вставляет[`GradientStop`](../../gradientstop)в коллекцию по указанному индексу.
+Вставляет[`GradientStop`](../../gradientstop) в коллекцию по указанному индексу.
 
 ```csharp
 public GradientStop Insert(int index, GradientStop gradientStop)

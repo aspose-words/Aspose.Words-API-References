@@ -16,7 +16,7 @@ public FieldIfComparisonResult EvaluateCondition()
 
 ### Возвращаемое значение
 
-A[`FieldIfComparisonResult`](../../fieldifcomparisonresult)значение, которое представляет результат оценки условия.
+А[`FieldIfComparisonResult`](../../fieldifcomparisonresult) значение, представляющее результат оценки условия.
 
 ### Примеры
 

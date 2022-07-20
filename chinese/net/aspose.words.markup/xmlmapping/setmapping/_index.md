@@ -1,14 +1,14 @@
 ---
 title: SetMapping
 second_title: Aspose.Words for .NET API 参考
-description: 设置父结构化文档标签和自定义 XML 数据部分的 XML 节点之间的映射
+description: 设置父结构化文档标记和自定义 XML 数据部分的 XML 节点之间的映射
 type: docs
 weight: 70
 url: /zh/net/aspose.words.markup/xmlmapping/setmapping/
 ---
 ## XmlMapping.SetMapping method
 
-设置父结构化文档标签和自定义 XML 数据部分的 XML 节点之间的映射。
+设置父结构化文档标记和自定义 XML 数据部分的 XML 节点之间的映射。
 
 ```csharp
 public bool SetMapping(CustomXmlPart customXmlPart, string xPath, string prefixMapping)
@@ -18,11 +18,11 @@ public bool SetMapping(CustomXmlPart customXmlPart, string xPath, string prefixM
 | --- | --- | --- |
 | customXmlPart | CustomXmlPart | 要映射到的自定义 XML 数据部分。 |
 | xPath | String | 用于查找 XML 节点的 XPath 表达式。 |
-| prefixMapping | String | XML 命名空间前缀映射来评估 XPath。 |
+| prefixMapping | String | 用于评估 XPath 的 XML 命名空间前缀映射。 |
 
 ### 返回值
 
-指示父结构化文档标签是否成功映射到 XML 节点的标志。
+指示父结构化文档标记是否成功映射到 XML 节点的标志。
 
 ### 例子
 

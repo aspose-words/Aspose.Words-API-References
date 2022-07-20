@@ -1,14 +1,14 @@
 ---
 title: ComplexScript
 second_title: Aspose.Words for .NET API 参考
-description: 指定在确定本次运行的格式时无论 的 Unicode 字符值是否应将本次运行的内容视为复杂脚本文本
+description: 指定在确定此运行的格式时无论其 Unicode 字符值如何 是否应将此运行的内容视为复杂脚本文本
 type: docs
 weight: 80
 url: /zh/net/aspose.words/font/complexscript/
 ---
 ## Font.ComplexScript property
 
-指定在确定本次运行的格式时，无论 的 Unicode 字符值是否应将本次运行的内容视为复杂脚本文本。
+指定在确定此运行的格式时，无论其 Unicode 字符值如何 ，是否应将此运行的内容视为复杂脚本文本。
 
 ```csharp
 public bool ComplexScript { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: FieldArgumentBuilder
 second_title: Aspose.Words for .NET API 参考
-description: 初始化FieldArgumentBuilderaspose.words.fields/fieldargumentbuilder类的实例
+description: 初始化FieldArgumentBuilderaspose.words.fields/fieldargumentbuilder类.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.fields/fieldargumentbuilder/fieldargumentbuilder/
 ---
 ## FieldArgumentBuilder constructor
 
-初始化[`FieldArgumentBuilder`](../../fieldargumentbuilder)类的实例。
+初始化[`FieldArgumentBuilder`](../../fieldargumentbuilder)类.
 
 ```csharp
 public FieldArgumentBuilder()

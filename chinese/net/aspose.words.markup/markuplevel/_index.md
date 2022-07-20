@@ -1,14 +1,14 @@
 ---
 title: MarkupLevel
 second_title: Aspose.Words for .NET API 参考
-description: 指定文档树中特定StructuredDocumentTag./structureddocumenttag可能出现的级别
+description: 指定文档树中的特定级别StructuredDocumentTag./structureddocumenttag可能发生
 type: docs
-weight: 3690
+weight: 3740
 url: /zh/net/aspose.words.markup/markuplevel/
 ---
 ## MarkupLevel enumeration
 
-指定文档树中特定[`StructuredDocumentTag`](../structureddocumenttag)可能出现的级别。
+指定文档树中的特定级别[`StructuredDocumentTag`](../structureddocumenttag)可能发生。
 
 ```csharp
 public enum MarkupLevel
@@ -20,7 +20,7 @@ public enum MarkupLevel
 | --- | --- | --- |
 | Unknown | `0` | 指定未知或无效值。 |
 | Inline | `1` | 元素出现在内联级别（例如，作为文本运行）。 |
-| Block | `2` | 元素出现在块级别（例如在表格和段落之间）。 |
+| Block | `2` | 元素出现在块级（例如在表格和段落之间）。 |
 | Row | `3` | 元素出现在表中的行之间。 |
 | Cell | `4` | 元素出现在一行的单元格中。 |
 

@@ -16,7 +16,7 @@ public bool DownsampleImages { get; set; }
 
 ### 评论
 
-默认值为` true` 。
+默认值为`真的`.
 
 ### 例子
 

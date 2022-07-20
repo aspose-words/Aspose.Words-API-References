@@ -3,7 +3,7 @@ title: FieldCitation
 second_title: Aspose.Words for .NET API 参考
 description: 实现 CITATION 字段
 type: docs
-weight: 1510
+weight: 1530
 url: /zh/net/aspose.words.fields/fieldcitation/
 ---
 ## FieldCitation class
@@ -24,45 +24,45 @@ public class FieldCitation : Field
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AnotherSourceTag](../../aspose.words.fields/fieldcitation/anothersourcetag) { get; set; } | 获取或设置一个值，该值计算 **标签** 元素的值引用。 |
+| [AnotherSourceTag](../../aspose.words.fields/fieldcitation/anothersourcetag) { get; set; } | 获取或设置一个数学值 **标签**要包含在引用中的另一个来源的元素值。 |
 | [DisplayResult](../../aspose.words.fields/field/displayresult) { get; } | 获取表示显示字段结果的文本。 |
-| [End](../../aspose.words.fields/field/end) { get; } | 获取表示字段结束的节点。 |
-| [Format](../../aspose.words.fields/field/format) { get; } | 获取[`FieldFormat`](../fieldformat)对象，该对象提供对字段格式的类型化访问。 |
-| [FormatLanguageId](../../aspose.words.fields/fieldcitation/formatlanguageid) { get; set; } | 获取或设置与指定书目样式结合使用的语言 ID，以格式化文档中的引用 。 |
+| [End](../../aspose.words.fields/field/end) { get; } | 获取代表字段end的节点。 |
+| [Format](../../aspose.words.fields/field/format) { get; } | 得到一个[`FieldFormat`](../fieldformat)提供对字段格式的类型化访问的对象。 |
+| [FormatLanguageId](../../aspose.words.fields/fieldcitation/formatlanguageid) { get; set; } | 获取或设置与指定书目样式结合使用的语言 ID，以格式化文档中的 citation 。 |
 | [IsDirty](../../aspose.words.fields/field/isdirty) { get; set; } | 获取或设置字段的当前结果是否由于对文档的其他修改而不再正确（陈旧）。 |
 | [IsLocked](../../aspose.words.fields/field/islocked) { get; set; } | 获取或设置字段是否被锁定（不应重新计算其结果）。 |
-| [LocaleId](../../aspose.words.fields/field/localeid) { get; set; } | 获取或设置字段的 LCID。 |
-| [PageNumber](../../aspose.words.fields/fieldcitation/pagenumber) { get; set; } | 获取或设置与引文相关的页码。 |
-| [Prefix](../../aspose.words.fields/fieldcitation/prefix) { get; set; } | 获取或设置在引文前面的前缀。 |
+| [LocaleId](../../aspose.words.fields/field/localeid) { get; set; } | 获取或设置字段的LCID。 |
+| [PageNumber](../../aspose.words.fields/fieldcitation/pagenumber) { get; set; } | 获取或设置与引用关联的页码。 |
+| [Prefix](../../aspose.words.fields/fieldcitation/prefix) { get; set; } | 获取或设置附加到引文的前缀。 |
 | [Result](../../aspose.words.fields/field/result) { get; set; } | 获取或设置字段分隔符和字段结尾之间的文本。 |
 | [Separator](../../aspose.words.fields/field/separator) { get; } | 获取表示字段分隔符的节点。可以为空。 |
-| [SourceTag](../../aspose.words.fields/fieldcitation/sourcetag) { get; set; } | 获取或设置一个值，该值计算 **标签** 要插入的源元素的值。 |
+| [SourceTag](../../aspose.words.fields/fieldcitation/sourcetag) { get; set; } | 获取或设置一个数学值 **标签**要插入的源元素的值。 |
 | [Start](../../aspose.words.fields/field/start) { get; } | 获取表示字段开始的节点。 |
 | [Suffix](../../aspose.words.fields/fieldcitation/suffix) { get; set; } | 获取或设置附加到引文的后缀。 |
 | [SuppressAuthor](../../aspose.words.fields/fieldcitation/suppressauthor) { get; set; } | 获取或设置作者信息是否从引文中隐藏。 |
 | [SuppressTitle](../../aspose.words.fields/fieldcitation/suppresstitle) { get; set; } | 获取或设置是否从引文中抑制标题信息。 |
-| [SuppressYear](../../aspose.words.fields/fieldcitation/suppressyear) { get; set; } | 获取或设置是否从引文中抑制年份信息。 |
+| [SuppressYear](../../aspose.words.fields/fieldcitation/suppressyear) { get; set; } | 获取或设置是否从引用中抑制年份信息。 |
 | virtual [Type](../../aspose.words.fields/field/type) { get; } | 获取 Microsoft Word 字段类型。 |
-| [VolumeNumber](../../aspose.words.fields/fieldcitation/volumenumber) { get; set; } | 获取或设置与引文相关的卷号。 |
+| [VolumeNumber](../../aspose.words.fields/fieldcitation/volumenumber) { get; set; } | 获取或设置与引用关联的卷号。 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode)() | 返回字段开始和字段分隔符之间的文本（如果没有分隔符，则返回字段结束）。 包含子字段的字段代码和字段结果。 |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode)() | 返回字段开始和字段分隔符之间的文本（或字段结束，如果没有分隔符）。 包括子字段的字段代码和字段结果。 |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode)(bool) | 返回字段开始和字段分隔符之间的文本（如果没有分隔符，则返回字段结束）。 |
-| [Remove](../../aspose.words.fields/field/remove)() | 从文档中删除字段。在字段之后返回一个节点。如果字段的结尾是其父节点的最后一个子 ，则返回其父段落。如果该字段已被删除，则返回 **null** 。 |
+| [Remove](../../aspose.words.fields/field/remove)() | 从文档中删除字段。在字段之后返回一个节点。如果字段的结尾是其父节点的最后一个 child ，则返回其父段落。如果该字段已被删除，则返回 **无效的**. |
 | [Unlink](../../aspose.words.fields/field/unlink)() | 执行字段取消链接。 |
 | [Update](../../aspose.words.fields/field/update)() | 执行字段更新。如果该字段已被更新，则抛出。 |
 | [Update](../../aspose.words.fields/field/update)(bool) | 执行字段更新。如果该字段已被更新，则抛出。 |
 
 ### 评论
 
-插入 **Source**的内容 元素，具有指定的 **标签** 使用书目样式的元素。
+插入 **资源**具有指定的元素 **标签**使用书目样式的元素。
 
 ### 例子
 
-显示如何使用 CITATION 和 BIBLIOGRAPHY 字段。
+展示如何使用 CITATION 和 BIBLIOGRAPHY 字段。
 
 ```csharp
 // 打开一个包含我们可以在其中找到的书目来源的文档

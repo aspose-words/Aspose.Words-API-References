@@ -3,7 +3,7 @@ title: PageLayoutCallbackArgs
 second_title: Справочник по API Aspose.Words для .NET
 description: Аргумент переданный вNotify./ipagelayoutcallback/notify
 type: docs
-weight: 3110
+weight: 3160
 url: /ru/net/aspose.words.layout/pagelayoutcallbackargs/
 ---
 ## PageLayoutCallbackArgs class
@@ -20,7 +20,7 @@ public class PageLayoutCallbackArgs
 | --- | --- |
 | [Document](../../aspose.words.layout/pagelayoutcallbackargs/document) { get; } | Получает документ. |
 | [Event](../../aspose.words.layout/pagelayoutcallbackargs/event) { get; } | Получает событие. |
-| [PageIndex](../../aspose.words.layout/pagelayoutcallbackargs/pageindex) { get; } | Получает отсчитываемый от 0 индекс страницы в документе, к которому относится данное событие. Возвращает отрицательное значение, если нет связанной страницы или если страница была удалена во время перекомпоновки. |
+| [PageIndex](../../aspose.words.layout/pagelayoutcallbackargs/pageindex) { get; } | Получает отсчитываемый от 0 индекс страницы в документе, к которому относится это событие. Возвращает отрицательное значение, если связанной страницы нет или если страница была удалена во время перекомпоновки. |
 
 ### Смотрите также
 

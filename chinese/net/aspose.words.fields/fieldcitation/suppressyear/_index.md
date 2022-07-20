@@ -1,14 +1,14 @@
 ---
 title: SuppressYear
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置是否从引文中抑制年份信息
+description: 获取或设置是否从引用中抑制年份信息
 type: docs
 weight: 100
 url: /zh/net/aspose.words.fields/fieldcitation/suppressyear/
 ---
 ## FieldCitation.SuppressYear property
 
-获取或设置是否从引文中抑制年份信息。
+获取或设置是否从引用中抑制年份信息。
 
 ```csharp
 public bool SuppressYear { get; set; }
@@ -16,7 +16,7 @@ public bool SuppressYear { get; set; }
 
 ### 例子
 
-显示如何使用 CITATION 和 BIBLIOGRAPHY 字段。
+展示如何使用 CITATION 和 BIBLIOGRAPHY 字段。
 
 ```csharp
 // 打开一个包含我们可以在其中找到的书目来源的文档

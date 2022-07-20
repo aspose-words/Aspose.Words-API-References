@@ -3,7 +3,7 @@ title: SizeInPoints
 second_title: Справочник по API Aspose.Words для .NET
 description: Получает размер фигуры в точках.
 type: docs
-weight: 460
+weight: 470
 url: /ru/net/aspose.words.drawing/shapebase/sizeinpoints/
 ---
 ## ShapeBase.SizeInPoints property

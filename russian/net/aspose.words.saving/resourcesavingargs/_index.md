@@ -1,14 +1,14 @@
 ---
 title: ResourceSavingArgs
 second_title: Справочник по API Aspose.Words для .NET
-description: Предоставляет данные для событияResourceSaving./iresourcesavingcallback/resourcesaving.
+description: Предоставляет данные дляResourceSaving./iresourcesavingcallback/resourcesaving событие.
 type: docs
-weight: 5230
+weight: 5280
 url: /ru/net/aspose.words.saving/resourcesavingargs/
 ---
 ## ResourceSavingArgs class
 
-Предоставляет данные для события[`ResourceSaving`](../iresourcesavingcallback/resourcesaving).
+Предоставляет данные для[`ResourceSaving`](../iresourcesavingcallback/resourcesaving) событие.
 
 ```csharp
 public class ResourceSavingArgs
@@ -26,13 +26,13 @@ public class ResourceSavingArgs
 
 ### Примечания
 
-По умолчанию, когда Aspose.Words сохраняет документ на фиксированную страницу HTML или SVG, он сохраняет каждый ресурс в отдельный файл. Aspose.Words использует имя файла документа и уникальный номер для создания уникального имени файла для каждого ресурса, найденного в документе.
+По умолчанию, когда Aspose.Words сохраняет документ на фиксированную страницу HTML или SVG, он сохраняет каждый ресурс в отдельный файл. Aspose.Words использует имя файла документа и уникальный номер для создания уникального файла name для каждого ресурса, найденного в документе.
 
-[`ResourceSavingArgs`](../resourcesavingargs)позволяет переопределить способ генерации имен файлов ресурсов или полностью обойти сохранение ресурсов в файлы, предоставив свои собственные потоковые объекты.
+[`ResourceSavingArgs`](../resourcesavingargs) позволяет переопределить, как генерируются имена файлов ресурсов, или полностью обойти сохранение ресурсов в файлы, предоставив свои собственные потоковые объекты.
 
-Чтобы применить собственную логику для создания имен файлов ресурсов, используйте ИмяФайлаРесурсасвойство.
+Чтобы применить собственную логику для генерации имен файлов ресурсов, используйте [`ResourceFileName`](./resourcefilename) имущество.
 
-Для сохранения ресурсов в потоки вместо файлов используйте свойство[`ResourceStream`](./resourcestream).
+Чтобы сохранять ресурсы в потоки, а не в файлы, используйте[`ResourceStream`](./resourcestream) имущество.
 
 ### Примеры
 
@@ -58,7 +58,7 @@ public void ResourceSavingCallback()
 private class FontSavingCallback : IResourceSavingCallback
 {
     /// <summary>
-     /// Вызывается, когда Aspose.Words сохраняет внешний ресурс на фиксированную страницу HTML или SVG.
+    /// Вызывается, когда Aspose.Words сохраняет внешний ресурс на фиксированной странице HTML или SVG.
     /// </summary>
     public void ResourceSaving(ResourceSavingArgs args)
     {

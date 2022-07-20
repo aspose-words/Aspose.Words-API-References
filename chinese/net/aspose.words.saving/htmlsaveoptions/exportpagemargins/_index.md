@@ -1,14 +1,14 @@
 ---
 title: ExportPageMargins
 second_title: Aspose.Words for .NET API 参考
-description: 指定页边距是否导出为 HTMLMHTML 或 EPUB 默认为 false 
+description: 指定页边距是否导出为 HTMLMHTML 或 EPUB 默认为错误的.
 type: docs
 weight: 220
 url: /zh/net/aspose.words.saving/htmlsaveoptions/exportpagemargins/
 ---
 ## HtmlSaveOptions.ExportPageMargins property
 
-指定页边距是否导出为 HTML、MHTML 或 EPUB。 默认为` false` 。
+指定页边距是否导出为 HTML、MHTML 或 EPUB。 默认为`错误的`.
 
 ```csharp
 public bool ExportPageMargins { get; set; }
@@ -16,11 +16,11 @@ public bool ExportPageMargins { get; set; }
 
 ### 评论
 
-Aspose.Words 默认不显示页边距区域。 如果任何元素被文档边缘完全或部分裁剪，则可以使用 此选项扩展显示区域。
+Aspose.Words 默认不显示页边距区域。 如果任何元素被文档边缘完全或部分剪裁，则显示区域可以使用 这个选项扩展。
 
 ### 例子
 
-显示如何在输出 HTML 文档中显示越界对象。
+演示如何在输出 HTML 文档中显示越界对象。
 
 ```csharp
 Document doc = new Document();

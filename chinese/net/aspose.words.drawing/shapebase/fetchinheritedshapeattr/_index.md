@@ -1,14 +1,14 @@
 ---
 title: FetchInheritedShapeAttr
 second_title: Aspose.Words for .NET API 参考
-description: 保留供系统使用 IShapeAttrSource
+description: 保留供系统使用 IShapeAttrSource.
 type: docs
-weight: 560
+weight: 570
 url: /zh/net/aspose.words.drawing/shapebase/fetchinheritedshapeattr/
 ---
 ## ShapeBase.FetchInheritedShapeAttr method
 
-保留供系统使用。 IShapeAttrSource。
+保留供系统使用。 IShapeAttrSource.
 
 ```csharp
 [EditorBrowsable(EditorBrowsableState.Never)]

@@ -1,14 +1,14 @@
 ---
 title: DocumentSplitCriteria
 second_title: Aspose.Words for .NET API 参考
-description: 指定在保存到Html 或Epub格式 默认为None用于 HTML 和 HeadingParagraph用于 EPUB
+description: 指定文档在保存到时应如何拆分Html 或Epub格式 默认为None对于 HTML 和 HeadingParagraph对于 EPUB.
 type: docs
 weight: 80
 url: /zh/net/aspose.words.saving/htmlsaveoptions/documentsplitcriteria/
 ---
 ## HtmlSaveOptions.DocumentSplitCriteria property
 
-指定在保存到Html 或Epub格式。 默认为None用于 HTML 和 HeadingParagraph用于 EPUB。
+指定文档在保存到时应如何拆分Html 或Epub格式。 默认为None对于 HTML 和 HeadingParagraph对于 EPUB.
 
 ```csharp
 public DocumentSplitCriteria DocumentSplitCriteria { get; set; }
@@ -16,13 +16,13 @@ public DocumentSplitCriteria DocumentSplitCriteria { get; set; }
 
 ### 评论
 
-通常您希望将文档作为单个文件保存为 HTML。 但在某些情况下，最好将输出拆分为几个较小的 HTML 页面。 当保存为 HTML 格式时，这些页面将被输出到单独的文件或流中。 当保存为 EPUB 格式时，它们将被合并到相应的包中。
+通常，您希望将文档作为单个文件保存为 HTML。 但在某些情况下，最好将输出拆分为几个较小的 HTML 页面。 当保存为 HTML 格式时，这些页面将被输出到单独的文件或流中。 当保存为 EPUB 格式时，它们将被合并到相应的包中。
 
 以 MHTML 格式保存时无法拆分文档。
 
 ### 例子
 
-展示在将文档保存到 .epub 时如何使用特定编码。
+显示将文档保存到 .epub 时如何使用特定编码。
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");

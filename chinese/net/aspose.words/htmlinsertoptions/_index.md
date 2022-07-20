@@ -1,14 +1,14 @@
 ---
 title: HtmlInsertOptions
 second_title: Aspose.Words for .NET API 参考
-description: 指定InsertHtml./documentbuilder/inserthtml方法的选项
+description: 指定选项InsertHtml./documentbuilder/inserthtml方法.
 type: docs
-weight: 2910
+weight: 2960
 url: /zh/net/aspose.words/htmlinsertoptions/
 ---
 ## HtmlInsertOptions enumeration
 
-指定[`InsertHtml`](../documentbuilder/inserthtml)方法的选项。
+指定选项[`InsertHtml`](../documentbuilder/inserthtml)方法.
 
 ```csharp
 [Flags]
@@ -20,8 +20,9 @@ public enum HtmlInsertOptions
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
 | None | `0` | 插入 HTML 时使用默认选项。 |
-| UseBuilderFormatting | `1` | 使用[`DocumentBuilder`](../documentbuilder)中指定的字体和段落格式作为文本 插入的基本格式来自 HTML。 |
-| RemoveLastEmptyParagraph | `2` | 删除通常插入在以块级元素结尾的 HTML 之后的空段落。 |
+| UseBuilderFormatting | `1` | 使用中指定的字体和段落格式[`DocumentBuilder`](../documentbuilder)作为从 HTML. 插入的 text 的基本格式 |
+| RemoveLastEmptyParagraph | `2` | 删除通常插入到以块级元素结尾的 HTML 之后的空段落。 |
+| PreserveBlocks | `4` | 保留块级元素的属性。 |
 
 ### 也可以看看
 

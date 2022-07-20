@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Справочник по API Aspose.Words для .NET
-description: Извлекает объектConditionalStyleaspose.words/conditionalstyleпо условному тип стиля.
+description: ПолучаетConditionalStyleaspose.words/conditionalstyle объект по типу условного стиля.
 type: docs
 weight: 80
 url: /ru/net/aspose.words/conditionalstylecollection/item/
 ---
 ## ConditionalStyleCollection indexer (1 of 2)
 
-Извлекает объект[`ConditionalStyle`](../../conditionalstyle)по условному тип стиля.
+Получает[`ConditionalStyle`](../../conditionalstyle) объект по типу условного стиля.
 
 ```csharp
 public ConditionalStyle this[ConditionalStyleType conditionalStyleType] { get; }
@@ -34,31 +34,31 @@ builder.InsertCell();
 builder.Write("Cell 4");
 builder.EndTable();
 
- // Создаем пользовательский стиль таблицы.
+// Создаем пользовательский стиль таблицы.
 TableStyle tableStyle = (TableStyle)doc.Styles.Add(StyleType.Table, "MyTableStyle1");
 
- // Условные стили — это изменения форматирования, которые влияют только на некоторые ячейки таблицы
- // на основе предиката, такого как ячейки, находящиеся в последней строке.
-// Ниже приведены три способа доступа к условным стилям табличного стиля из коллекции "ConditionalStyles".
- // 1 - По типу стиля:
+// Условные стили — это изменения форматирования, которые влияют только на некоторые ячейки таблицы
+// на основе предиката, такого как ячейки, находящиеся в последней строке.
+// Ниже приведены три способа доступа к условным стилям табличного стиля из коллекции «ConditionalStyles».
+// 1 - По типу стиля:
 tableStyle.ConditionalStyles[ConditionalStyleType.FirstRow].Shading.BackgroundPatternColor = Color.AliceBlue;
 
- // 2 - По индексу:
+// 2 - По индексу:
 tableStyle.ConditionalStyles[0].Borders.Color = Color.Black;
 tableStyle.ConditionalStyles[0].Borders.LineStyle = LineStyle.DotDash;
 Assert.AreEqual(ConditionalStyleType.FirstRow, tableStyle.ConditionalStyles[0].Type);
 
- // 3 - Как свойство:
+// 3 - Как свойство:
 tableStyle.ConditionalStyles.FirstRow.ParagraphFormat.Alignment = ParagraphAlignment.Center;
 
- // Применяем отступы и форматирование текста к условным стилям.
+// Применение отступов и форматирования текста к условным стилям.
 tableStyle.ConditionalStyles.LastRow.BottomPadding = 10;
 tableStyle.ConditionalStyles.LastRow.LeftPadding = 10;
 tableStyle.ConditionalStyles.LastRow.RightPadding = 10;
 tableStyle.ConditionalStyles.LastRow.TopPadding = 10;
 tableStyle.ConditionalStyles.LastColumn.Font.Bold = true;
 
- // Список всех возможных условий стиля.
+// Список всех возможных условий стиля.
 using (IEnumerator<ConditionalStyle> enumerator = tableStyle.ConditionalStyles.GetEnumerator())
 {
     while (enumerator.MoveNext())
@@ -68,14 +68,14 @@ using (IEnumerator<ConditionalStyle> enumerator = tableStyle.ConditionalStyles.G
     }
 }
 
- // Применяем пользовательский стиль, содержащий все условные стили, к таблице.
+// Применяем к таблице пользовательский стиль, содержащий все условные стили.
 table.Style = tableStyle;
 
- // Наш стиль по умолчанию применяет некоторые условные стили.
+// Наш стиль по умолчанию применяет некоторые условные стили.
 Assert.AreEqual(TableStyleOptions.FirstRow | TableStyleOptions.FirstColumn | TableStyleOptions.RowBands, 
     table.StyleOptions);
 
- // Нам нужно будет включить все остальные стили самостоятельно через свойство StyleOptions.
+// Нам нужно будет включить все остальные стили самостоятельно через свойство StyleOptions.
 table.StyleOptions = table.StyleOptions | TableStyleOptions.LastRow | TableStyleOptions.LastColumn;
 
 doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
@@ -93,7 +93,7 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 
 ## ConditionalStyleCollection indexer (2 of 2)
 
-Извлекает объект[`ConditionalStyle`](../../conditionalstyle)по индексу.
+Получает[`ConditionalStyle`](../../conditionalstyle) объект по индексу.
 
 ```csharp
 public ConditionalStyle this[int index] { get; }
@@ -123,31 +123,31 @@ builder.InsertCell();
 builder.Write("Cell 4");
 builder.EndTable();
 
- // Создаем пользовательский стиль таблицы.
+// Создаем пользовательский стиль таблицы.
 TableStyle tableStyle = (TableStyle)doc.Styles.Add(StyleType.Table, "MyTableStyle1");
 
- // Условные стили — это изменения форматирования, которые влияют только на некоторые ячейки таблицы
- // на основе предиката, такого как ячейки, находящиеся в последней строке.
-// Ниже приведены три способа доступа к условным стилям табличного стиля из коллекции "ConditionalStyles".
- // 1 - По типу стиля:
+// Условные стили — это изменения форматирования, которые влияют только на некоторые ячейки таблицы
+// на основе предиката, такого как ячейки, находящиеся в последней строке.
+// Ниже приведены три способа доступа к условным стилям табличного стиля из коллекции «ConditionalStyles».
+// 1 - По типу стиля:
 tableStyle.ConditionalStyles[ConditionalStyleType.FirstRow].Shading.BackgroundPatternColor = Color.AliceBlue;
 
- // 2 - По индексу:
+// 2 - По индексу:
 tableStyle.ConditionalStyles[0].Borders.Color = Color.Black;
 tableStyle.ConditionalStyles[0].Borders.LineStyle = LineStyle.DotDash;
 Assert.AreEqual(ConditionalStyleType.FirstRow, tableStyle.ConditionalStyles[0].Type);
 
- // 3 - Как свойство:
+// 3 - Как свойство:
 tableStyle.ConditionalStyles.FirstRow.ParagraphFormat.Alignment = ParagraphAlignment.Center;
 
- // Применяем отступы и форматирование текста к условным стилям.
+// Применение отступов и форматирования текста к условным стилям.
 tableStyle.ConditionalStyles.LastRow.BottomPadding = 10;
 tableStyle.ConditionalStyles.LastRow.LeftPadding = 10;
 tableStyle.ConditionalStyles.LastRow.RightPadding = 10;
 tableStyle.ConditionalStyles.LastRow.TopPadding = 10;
 tableStyle.ConditionalStyles.LastColumn.Font.Bold = true;
 
- // Список всех возможных условий стиля.
+// Список всех возможных условий стиля.
 using (IEnumerator<ConditionalStyle> enumerator = tableStyle.ConditionalStyles.GetEnumerator())
 {
     while (enumerator.MoveNext())
@@ -157,14 +157,14 @@ using (IEnumerator<ConditionalStyle> enumerator = tableStyle.ConditionalStyles.G
     }
 }
 
- // Применяем пользовательский стиль, содержащий все условные стили, к таблице.
+// Применяем к таблице пользовательский стиль, содержащий все условные стили.
 table.Style = tableStyle;
 
- // Наш стиль по умолчанию применяет некоторые условные стили.
+// Наш стиль по умолчанию применяет некоторые условные стили.
 Assert.AreEqual(TableStyleOptions.FirstRow | TableStyleOptions.FirstColumn | TableStyleOptions.RowBands, 
     table.StyleOptions);
 
- // Нам нужно будет включить все остальные стили самостоятельно через свойство StyleOptions.
+// Нам нужно будет включить все остальные стили самостоятельно через свойство StyleOptions.
 table.StyleOptions = table.StyleOptions | TableStyleOptions.LastRow | TableStyleOptions.LastColumn;
 
 doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");

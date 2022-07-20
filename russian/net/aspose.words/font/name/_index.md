@@ -18,25 +18,23 @@ public string Name { get; set; }
 
 При получении возвращает[`NameAscii`](../nameascii).
 
-При установке устанавливает[`NameAscii`](../nameascii),[`NameBi`](../namebi),[`NameFarEast`](../namefareast) и[`NameOther`](../nameother)указанное значение.
+При настройке устанавливает[`NameAscii`](../nameascii) ,[`NameBi`](../namebi) ,[`NameFarEast`](../namefareast) и[`NameOther`](../nameother) к указанному значению.
 
 ### Примеры
 
-Показывает, как форматировать фрагмент текста, используя его свойство шрифта.
+Показывает, как отформатировать набор текста, используя его свойство шрифта.
 
 ```csharp
 Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
+Run run = new Run(doc, "Hello world!");
 
-// Задайте форматирование шрифта, затем добавьте текст.
-Aspose.Words.Font font = builder.Font;
-font.Size = 16;
-font.Bold = true;
-font.Color = Color.Blue;
+Aspose.Words.Font font = run.Font;
 font.Name = "Courier New";
-font.Underline = Underline.Dash;
+font.Size = 36;
+font.HighlightColor = Color.Yellow;
 
-builder.Write("Hello world!");
+doc.FirstSection.Body.FirstParagraph.AppendChild(run);
+doc.Save(ArtifactsDir + "Font.CreateFormattedRun.docx");
 ```
 
 Показывает, как вставлять форматированный текст с помощью DocumentBuilder.

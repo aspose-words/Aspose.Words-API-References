@@ -16,7 +16,7 @@ public void BuildAutomatic()
 
 ### Примечания
 
-Этот метод может привести к неоптимальным резервным настройкам. Шрифты проверяются[ Диапазон символов Юникода](https://docs.microsoft.com/en-us/typography/opentype/spec/os2#ur) полей, а не по фактическому наличию глифов. Также диапазоны Unicode проверяются индивидуально и несколько диапазонов, относящихся к одному языку/сценарию, могут использовать разные резервные шрифты.
+Этот метод может привести к неоптимальным резервным настройкам. Шрифты проверяются[ Диапазон символов Юникода](https://docs.microsoft.com/en-us/typography/opentype/spec/os2#ur) полей, а не по фактическому наличию глифов. Также диапазоны Unicode проверяются индивидуально , и несколько диапазонов, относящихся к одному языку/сценарию, могут использовать разные резервные шрифты.
 
 ### Примеры
 
@@ -29,7 +29,7 @@ FontSettings fontSettings = new FontSettings();
 doc.FontSettings = fontSettings;
 FontFallbackSettings fontFallbackSettings = fontSettings.FallbackSettings;
 
-// Настройте наши настройки шрифта так, чтобы исходные шрифты были только из папки «MyFonts».
+// Настройте наши параметры шрифта так, чтобы исходные шрифты были только из папки «MyFonts».
 FolderFontSource folderFontSource = new FolderFontSource(FontsDir, false);
 fontSettings.SetFontsSources(new FontSourceBase[] {folderFontSource});
 

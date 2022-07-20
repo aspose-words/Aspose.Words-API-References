@@ -19,28 +19,21 @@ public HeaderFooterCollection HeadersFooters { get; }
 显示如何替换文档页脚中的文本。
 
 ```csharp
-Document doc = new Document(MyDir + "Header and footer types.docx");
+Document doc = new Document(MyDir + "Footer.docx");
 
-// 遍历每个部分并删除各种页脚。
-foreach (Section section in doc.OfType<Section>())
+HeaderFooterCollection headersFooters = doc.FirstSection.HeadersFooters;
+HeaderFooter footer = headersFooters[HeaderFooterType.FooterPrimary];
+
+FindReplaceOptions options = new FindReplaceOptions
 {
-    // 共有三种页脚和页眉类型。
-    // 1 - “第一个”页眉/页脚，仅出现在部分的第一页上。
-    HeaderFooter footer = section.HeadersFooters[HeaderFooterType.FooterFirst];
-    footer?.Remove();
+    MatchCase = false,
+    FindWholeWordsOnly = false
+};
 
-    // 2 - “主要”页眉/页脚，出现在奇数页上。
-    footer = section.HeadersFooters[HeaderFooterType.FooterPrimary];
-    footer?.Remove();
+int currentYear = DateTime.Now.Year;
+footer.Range.Replace("(C) 2006 Aspose Pty Ltd.", $"Copyright (C) {currentYear} by Aspose Pty Ltd.", options);
 
-     // 3 - “偶数”页眉/页脚，出现在偶数页上。
-    footer = section.HeadersFooters[HeaderFooterType.FooterEven];
-    footer?.Remove();
-
-    Assert.AreEqual(0, section.HeadersFooters.Count(hf => !((HeaderFooter)hf).IsHeader));
-}
-
-doc.Save(ArtifactsDir + "HeaderFooter.RemoveFooters.docx");
+doc.Save(ArtifactsDir + "HeaderFooter.ReplaceText.docx");
 ```
 
 显示如何从文档中删除所有页脚。

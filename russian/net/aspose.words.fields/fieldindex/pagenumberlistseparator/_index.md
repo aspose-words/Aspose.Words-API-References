@@ -16,7 +16,7 @@ public string PageNumberListSeparator { get; set; }
 
 ### Примеры
 
-Показывает, как редактировать разделитель номеров страниц в поле INDEX.
+Показывает, как редактировать разделитель номеров страниц в поле ИНДЕКС.
 
 ```csharp
 Document doc = new Document();

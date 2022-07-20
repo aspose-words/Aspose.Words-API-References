@@ -1,14 +1,14 @@
 ---
 title: Hash
 second_title: Aspose.Words for .NET API 参考
-description: 表示这条记录的哈希码 有时 Microsoft Word 使用整条记录的Hashaspose.words.settings/odsorecipientdata/hash而不是UniqueTag值 默认值为 0
+description: 表示此记录的哈希码 有时 Microsoft Word 使用Hashaspose.words.settings/odsorecipientdata/hash整条记录而不是UniqueTagaspose.words.settings/odsorecipientdata/uniquetagvalue. 默认值为 0.
 type: docs
 weight: 40
 url: /zh/net/aspose.words.settings/odsorecipientdata/hash/
 ---
 ## OdsoRecipientData.Hash property
 
-表示这条记录的哈希码。 有时 Microsoft Word 使用整条记录的`Hash`而不是UniqueTag值。 默认值为 0。
+表示此记录的哈希码。 有时 Microsoft Word 使用`Hash`整条记录而不是[`UniqueTag`](../uniquetag)value. 默认值为 0.
 
 ```csharp
 public int Hash { get; set; }
@@ -16,7 +16,7 @@ public int Hash { get; set; }
 
 ### 例子
 
-显示如何访问指定合并数据源的数据集合邮件合并将排除的记录。
+显示如何访问指定邮件合并将排除的合并数据源记录的数据集合。
 
 ```csharp
 Document doc = new Document(MyDir + "Odso data.docx");
@@ -38,10 +38,10 @@ using (IEnumerator<OdsoRecipientData> enumerator = dataCollection.GetEnumerator(
     }
 }
 
- // 我们可以克隆这个集合中的元素。
+// 我们可以克隆这个集合中的元素。
 Assert.AreNotEqual(dataCollection[0], dataCollection[0].Clone());
 
- // 我们也可以单独删除元素，或者一次清除整个集合。
+// 我们也可以单独删除元素，或者一次清除整个集合。
 dataCollection.RemoveAt(0);
 
 Assert.AreEqual(69, dataCollection.Count);

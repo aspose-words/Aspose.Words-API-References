@@ -1,14 +1,14 @@
 ---
 title: VolumeNumber
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置与引文相关的卷号
+description: 获取或设置与引用关联的卷号
 type: docs
 weight: 110
 url: /zh/net/aspose.words.fields/fieldcitation/volumenumber/
 ---
 ## FieldCitation.VolumeNumber property
 
-获取或设置与引文相关的卷号。
+获取或设置与引用关联的卷号。
 
 ```csharp
 public string VolumeNumber { get; set; }
@@ -16,7 +16,7 @@ public string VolumeNumber { get; set; }
 
 ### 例子
 
-显示如何使用 CITATION 和 BIBLIOGRAPHY 字段。
+展示如何使用 CITATION 和 BIBLIOGRAPHY 字段。
 
 ```csharp
 // 打开一个包含我们可以在其中找到的书目来源的文档

@@ -16,7 +16,7 @@ public int Count { get; }
 
 ### 例子
 
-显示如何访问嵌入在文档中的 OLE 控件及其子控件。
+演示如何访问嵌入在文档中的 OLE 控件及其子控件。
 
 ```csharp
 Document doc = new Document(MyDir + "OLE ActiveX controls.docm");

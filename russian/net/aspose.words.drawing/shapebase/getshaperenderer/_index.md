@@ -3,7 +3,7 @@ title: GetShapeRenderer
 second_title: Справочник по API Aspose.Words для .NET
 description: Создает и возвращает объект который можно использовать для преобразования этой формы в изображение.
 type: docs
-weight: 590
+weight: 600
 url: /ru/net/aspose.words.drawing/shapebase/getshaperenderer/
 ---
 ## ShapeBase.GetShapeRenderer method
@@ -20,11 +20,11 @@ public ShapeRenderer GetShapeRenderer()
 
 ### Примечания
 
-Этот метод просто вызывает[`ShapeRenderer`](../../../aspose.words.rendering/shaperenderer)конструктор и передает этот объект в качестве параметра.
+Этот метод просто вызывает[`ShapeRenderer`](../../../aspose.words.rendering/shaperenderer) конструктор и передает этот объект в качестве параметра.
 
 ### Примеры
 
-Показывает, как использовать визуализатор форм для экспорта фигур в файлы в локальной файловой системе.
+Показывает, как использовать средство визуализации фигур для экспорта фигур в файлы в локальной файловой системе.
 
 ```csharp
 Document doc = new Document(MyDir + "Various shapes.docx");

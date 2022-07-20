@@ -1,14 +1,14 @@
 ---
 title: RevisionTextEffect
 second_title: Справочник по API Aspose.Words для .NET
-description: Позволяет задать эффект оформления для редакций текста документа.
+description: Позволяет указать эффект оформления для редакций текста документа.
 type: docs
-weight: 3150
+weight: 3200
 url: /ru/net/aspose.words.layout/revisiontexteffect/
 ---
 ## RevisionTextEffect enumeration
 
-Позволяет задать эффект оформления для редакций текста документа.
+Позволяет указать эффект оформления для редакций текста документа.
 
 ```csharp
 public enum RevisionTextEffect
@@ -18,61 +18,61 @@ public enum RevisionTextEffect
 
 | Имя | Ценность | Описание |
 | --- | --- | --- |
-| None | `0` | К переработанному контенту не применяются специальные эффекты. Это соответствуетNoHighlight. |
-| Color | `1` | Исправленное содержимое выделяется только цветом. |
+| None | `0` | В исправленном контенте не применяются специальные эффекты. Это соответствуетNoHighlight . |
+| Color | `1` | Измененный контент выделяется только цветом. |
 | Bold | `2` | Измененное содержимое выделено жирным шрифтом и окрашено. |
-| Italic | `3` | Исправленный контент выделяется курсивом и цветом. |
-| Underline | `4` | Исправленное содержимое подчеркнуто и окрашено. |
-| DoubleUnderline | `5` | Исправленное содержание выделено двойным подчеркиванием и цветом. |
-| StrikeThrough | `6` | Пересмотренное содержимое заштриховано и окрашено. |
-| DoubleStrikeThrough | `7` | Пересмотренное содержимое зачеркнуто двойным штрихом и окрашено. |
-| Hidden | `8` | Исправленный контент скрыт. |
+| Italic | `3` | Измененное содержимое выделено курсивом и окрашено. |
+| Underline | `4` | Измененное содержимое подчеркнуто и окрашено. |
+| DoubleUnderline | `5` | Измененное содержимое выделено двойным подчеркиванием и окрашено. |
+| StrikeThrough | `6` | Пересмотренный контент зачеркнут и окрашен. |
+| DoubleStrikeThrough | `7` | Измененный контент зачеркнут двойным штрихом и окрашен. |
+| Hidden | `8` | Измененное содержимое скрыто. |
 
 ### Примеры
 
-Показывает, как изменить внешний вид ревизий.
+Показывает, как изменить внешний вид редакций.
 
 ```csharp
 Document doc = new Document(MyDir + "Revisions.docx");
 
- // Получить объект RevisionOptions, управляющий внешним видом ревизий.
+// Получить объект RevisionOptions, управляющий внешним видом ревизий.
 RevisionOptions revisionOptions = doc.LayoutOptions.RevisionOptions;
 
- // Отображение ревизий вставки зеленым цветом и курсивом.
+// Отображение ревизий вставки зеленым цветом и курсивом.
 revisionOptions.InsertedTextColor = RevisionColor.Green;
 revisionOptions.InsertedTextEffect = RevisionTextEffect.Italic;
 
- // Отображаем ревизии удаления красным и полужирным шрифтом.
+// Отображение удаленных ревизий красным и полужирным шрифтом.
 revisionOptions.DeletedTextColor = RevisionColor.Red;
 revisionOptions.DeletedTextEffect = RevisionTextEffect.Bold;
 
- // Один и тот же текст появится дважды в версии механизма: 
- // один раз в пункте отправления и один раз в пункте прибытия.
- // Визуализировать текст перемещенной версии желтым цветом с двойным перечеркиванием через
- // и двойное подчеркивание синего цвета на перемещенной ревизии.
+// Один и тот же текст появится дважды в ревизии движения:
+// один раз в пункте отправления и один раз в пункте прибытия.
+// Визуализируем текст перемещенной версии желтым цветом с двойным перечеркиванием
+// и дважды подчеркнутый синим цветом ревизию, к которой был перемещен.
 revisionOptions.MovedFromTextColor = RevisionColor.Yellow;
 revisionOptions.MovedFromTextEffect = RevisionTextEffect.DoubleStrikeThrough;
 revisionOptions.MovedToTextColor = RevisionColor.Blue;
 revisionOptions.MovedFromTextEffect = RevisionTextEffect.DoubleUnderline;
 
-// Версии формата отображаются темно-красным и полужирным шрифтом.
+// Редактирование формата темно-красным и полужирным шрифтом.
 revisionOptions.RevisedPropertiesColor = RevisionColor.DarkRed;
 revisionOptions.RevisedPropertiesEffect = RevisionTextEffect.Bold;
 
- // Поместите толстую темно-синюю полосу в левой части страницы рядом со строками, затронутыми ревизиями.
+// Поместите толстую темно-синюю полосу в левой части страницы рядом со строками, затронутыми изменениями.
 revisionOptions.RevisionBarsColor = RevisionColor.DarkBlue;
 revisionOptions.RevisionBarsWidth = 15.0f;
 
- // Показать метки исправления и исходный текст.
+// Показать метки исправления и исходный текст.
 revisionOptions.ShowOriginalRevision = true;
 revisionOptions.ShowRevisionMarks = true;
 
- // Получение изменений перемещения, удаления, форматирования и комментариев для отображения зелеными выносками
- // в правой части страницы.
+// Получить перемещение, удаление, исправления форматирования и комментарии для отображения в зеленых выносках
+// в правой части страницы.
 revisionOptions.ShowInBalloons = ShowInBalloons.Format;
 revisionOptions.CommentColor = RevisionColor.BrightGreen;
 
- // Эти функции применимы только к таким форматам, как .pdf или .jpg.
+// Эти функции применимы только к таким форматам, как .pdf или .jpg.
 doc.Save(ArtifactsDir + "Revision.RevisionOptions.pdf");
 ```
 

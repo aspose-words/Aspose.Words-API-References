@@ -16,7 +16,7 @@ public NodeCollection ChildNodes { get; }
 
 ### 例子
 
-显示如何获取 StructuredDocumentTagRangeStart 的子节点。
+展示如何获取 StructuredDocumentTagRangeStart 的子节点。
 
 ```csharp
 Document doc = new Document(MyDir + "Multi-section structured document tags.docx");

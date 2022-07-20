@@ -1,14 +1,14 @@
 ---
 title: DeleteFields
 second_title: Aspose.Words for .NET API 参考
-description: 从文档中删除邮件合并相关字段
+description: 从文档中删除与邮件合并相关的字段
 type: docs
 weight: 170
 url: /zh/net/aspose.words.mailmerging/mailmerge/deletefields/
 ---
 ## MailMerge.DeleteFields method
 
-从文档中删除邮件合并相关字段。
+从文档中删除与邮件合并相关的字段。
 
 ```csharp
 public void DeleteFields()

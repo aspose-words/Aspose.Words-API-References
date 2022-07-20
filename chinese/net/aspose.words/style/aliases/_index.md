@@ -1,14 +1,14 @@
 ---
 title: Aliases
 second_title: Aspose.Words for .NET API 参考
-description: 获取该样式的所有别名如果 style 没有别名则返回空字符串数组
+description: 获取此样式的所有别名如果样式没有别名则返回空字符串数组
 type: docs
 weight: 10
 url: /zh/net/aspose.words/style/aliases/
 ---
 ## Style.Aliases property
 
-获取该样式的所有别名。如果 style 没有别名，则返回空字符串数组。
+获取此样式的所有别名。如果样式没有别名，则返回空字符串数组。
 
 ```csharp
 public string[] Aliases { get; }

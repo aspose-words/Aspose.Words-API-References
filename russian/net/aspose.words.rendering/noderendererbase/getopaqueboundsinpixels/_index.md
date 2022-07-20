@@ -25,7 +25,7 @@ public Rectangle GetOpaqueBoundsInPixels(float scale, float dpi)
 
 ### Примечания
 
-Этот метод преобразует[`OpaqueBoundsInPoints`](../opaqueboundsinpoints)в прямоугольник в пикселях, и это полезно когда вы хотите создать растровое изображение для рендеринга фигуры только с непрозрачной частью фигуры.
+Этот метод преобразует[`OpaqueBoundsInPoints`](../opaqueboundsinpoints) в прямоугольник в пикселях, и это полезно , когда вы хотите создать растровое изображение для рендеринга фигуры только с непрозрачной частью фигуры.
 
 ### Примеры
 
@@ -59,7 +59,7 @@ bounds = renderer.GetBoundsInPixels(1.0f, 96.0f, 150.0f);
 Assert.AreEqual(159, bounds.Width);
 Assert.AreEqual(28, bounds.Height);
 
-// Границы непрозрачности здесь тоже могут быть разными.
+// Непрозрачные границы здесь тоже могут быть разными.
 bounds = renderer.GetOpaqueBoundsInPixels(1.0f, 96.0f);
 
 Assert.AreEqual(159, bounds.Width);
@@ -99,7 +99,7 @@ public Rectangle GetOpaqueBoundsInPixels(float scale, float horizontalDpi, float
 
 ### Примечания
 
-Этот метод преобразует[`OpaqueBoundsInPoints`](../opaqueboundsinpoints)в прямоугольник в пикселях, и это полезно когда вы хотите создать растровое изображение для рендеринга фигуры только с непрозрачной частью фигуры.
+Этот метод преобразует[`OpaqueBoundsInPoints`](../opaqueboundsinpoints) в прямоугольник в пикселях, и это полезно , когда вы хотите создать растровое изображение для рендеринга фигуры только с непрозрачной частью фигуры.
 
 ### Примеры
 
@@ -133,7 +133,7 @@ bounds = renderer.GetBoundsInPixels(1.0f, 96.0f, 150.0f);
 Assert.AreEqual(159, bounds.Width);
 Assert.AreEqual(28, bounds.Height);
 
-// Границы непрозрачности здесь тоже могут быть разными.
+// Непрозрачные границы здесь тоже могут быть разными.
 bounds = renderer.GetOpaqueBoundsInPixels(1.0f, 96.0f);
 
 Assert.AreEqual(159, bounds.Width);

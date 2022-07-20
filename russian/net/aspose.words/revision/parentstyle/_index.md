@@ -1,14 +1,14 @@
 ---
 title: ParentStyle
 second_title: Справочник по API Aspose.Words для .NET
-description: Получает непосредственно родительский стиль владелец этой ревизии. Это свойство будет работать только для типа ревизииStyleDefinitionChange.
+description: Получает непосредственно родительский стиль владелец этой ревизии. Это свойство будет работать только дляStyleDefinitionChange тип ревизии.
 type: docs
 weight: 50
 url: /ru/net/aspose.words/revision/parentstyle/
 ---
 ## Revision.ParentStyle property
 
-Получает непосредственно родительский стиль (владелец) этой ревизии. Это свойство будет работать только для типа ревизииStyleDefinitionChange.
+Получает непосредственно родительский стиль (владелец) этой ревизии. Это свойство будет работать только дляStyleDefinitionChange тип ревизии.
 
 ```csharp
 public Style ParentStyle { get; }
@@ -16,7 +16,7 @@ public Style ParentStyle { get; }
 
 ### Примечания
 
-Если эта ревизия связана с изменениями в узлах документа, используйте[`ParentNode`](../parentnode)вместо этого.
+Если эта версия связана с изменениями в узлах документа, используйте[`ParentNode`](../parentnode) вместо этого.
 
 ### Примеры
 
@@ -26,11 +26,11 @@ public Style ParentStyle { get; }
 Document doc = new Document(MyDir + "Revisions.docx");
 RevisionCollection revisions = doc.Revisions;
 
- // Сама эта коллекция имеет коллекцию групп ревизий.
- // Каждая группа представляет собой последовательность смежных ревизий.
+// Сама эта коллекция имеет коллекцию групп ревизий.
+// Каждая группа представляет собой последовательность смежных ревизий.
 Console.WriteLine($"{revisions.Groups.Count} revision groups:");
 
- // Перебираем набор групп и печатаем текст, который касается ревизии.
+// Перебираем набор групп и печатаем текст, к которому относится ревизия.
 using (IEnumerator<RevisionGroup> e = revisions.Groups.GetEnumerator())
 {
     while (e.MoveNext())
@@ -40,18 +40,18 @@ using (IEnumerator<RevisionGroup> e = revisions.Groups.GetEnumerator())
     }
 }
 
- // Каждый запуск, на который влияет ревизия, получает соответствующий объект ревизии.
- // Коллекция ревизий значительно больше, чем сжатая форма, которую мы напечатали выше, 
- // в зависимости от того, на сколько прогонов мы сегментировали документ во время редактирования Microsoft Word.
+// Каждый запуск, на который влияет ревизия, получает соответствующий объект ревизии.
+// Коллекция ревизий значительно больше, чем сжатая форма, которую мы напечатали выше,
+// в зависимости от того, на сколько прогонов мы сегментировали документ во время редактирования Microsoft Word.
 Console.WriteLine($"\n{revisions.Count} revisions:");
 
 using (IEnumerator<Revision> e = revisions.GetEnumerator())
 {
     while (e.MoveNext())
     {
-        // StyleDefinitionChange строго влияет на стили, а не на узлы документа. Это означает, что "ParentStyle"
-         // свойство всегда будет использоваться, а ParentNode всегда будет null.
-         // Поскольку все остальные изменения влияют на узлы, ParentNode, наоборот, будет использоваться, а ParentStyle будет равен null.
+        // StyleDefinitionChange строго влияет на стили, а не на узлы документа. Это означает "ParentStyle"
+        // свойство всегда будет использоваться, а ParentNode всегда будет нулевым.
+        // Поскольку все остальные изменения влияют на узлы, ParentNode, наоборот, будет использоваться, а ParentStyle будет иметь значение null.
         if (e.Current.RevisionType == RevisionType.StyleDefinitionChange)
         {
             Console.WriteLine($"\tRevision type \"{e.Current.RevisionType}\", " +
@@ -65,7 +65,7 @@ using (IEnumerator<Revision> e = revisions.GetEnumerator())
     }
 }
 
- // Отклоняем все ревизии через коллекцию, возвращая документу его первоначальную форму.
+// Отклоняем все ревизии через коллекцию, возвращая документу его первоначальную форму.
 revisions.RejectAll();
 
 Assert.AreEqual(0, revisions.Count);

@@ -1,14 +1,14 @@
 ---
 title: StoryType
 second_title: Справочник по API Aspose.Words для .NET
-description: ВозвращаетTextbox.
+description: ВозвращаетTextbox .
 type: docs
 weight: 170
 url: /ru/net/aspose.words.drawing/shape/storytype/
 ---
 ## Shape.StoryType property
 
-ВозвращаетTextbox.
+ВозвращаетTextbox .
 
 ```csharp
 public StoryType StoryType { get; }

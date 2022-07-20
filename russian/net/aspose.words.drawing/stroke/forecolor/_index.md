@@ -16,7 +16,7 @@ public Color ForeColor { get; set; }
 
 ### Примечания
 
-Значение по умолчанию для[`Shape`](../../shape)is Black.
+Значение по умолчанию для[`Shape`](../../shape)Black.
 
 ### Примеры
 

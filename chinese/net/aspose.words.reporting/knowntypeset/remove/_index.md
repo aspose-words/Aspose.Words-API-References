@@ -1,14 +1,14 @@
 ---
 title: Remove
 second_title: Aspose.Words for .NET API 参考
-description: 从集合中移除指定的Type对象如果 type为空则抛出ArgumentException
+description: 删除指定的Type集合中的对象投掷ArgumentExceptionif type为空
 type: docs
 weight: 50
 url: /zh/net/aspose.words.reporting/knowntypeset/remove/
 ---
 ## KnownTypeSet.Remove method
 
-从集合中移除指定的Type对象。如果 *type*为空，则抛出ArgumentException。
+删除指定的Type集合中的对象。投掷ArgumentExceptionif *type*为空。
 
 ```csharp
 public void Remove(Type type)
@@ -16,7 +16,7 @@ public void Remove(Type type)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| type | Type | 要删除的Type对象。 |
+| type | Type | 一个Type要删除的对象。 |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: BookmarksOutlineLevelCollection
 second_title: Справочник по API Aspose.Words для .NET
-description: Коллекция отдельных уровней структуры закладок.
+description: Набор уровней структуры отдельных закладок.
 type: docs
-weight: 4540
+weight: 4590
 url: /ru/net/aspose.words.saving/bookmarksoutlinelevelcollection/
 ---
 ## BookmarksOutlineLevelCollection class
 
-Коллекция отдельных уровней структуры закладок.
+Набор уровней структуры отдельных закладок.
 
 ```csharp
 public class BookmarksOutlineLevelCollection : IEnumerable<KeyValuePair<string, int>>
@@ -25,7 +25,7 @@ public class BookmarksOutlineLevelCollection : IEnumerable<KeyValuePair<string, 
 | Имя | Описание |
 | --- | --- |
 | [Count](../../aspose.words.saving/bookmarksoutlinelevelcollection/count) { get; } | Получает количество элементов, содержащихся в коллекции. |
-| [Item](../../aspose.words.saving/bookmarksoutlinelevelcollection/item) { get; set; } | Получает или устанавливает уровень структуры закладки по имени закладки. (2 indexers) |
+| [Item](../../aspose.words.saving/bookmarksoutlinelevelcollection/item) { get; set; } | Получает или задает уровень структуры закладки по имени закладки. (2 indexers) |
 
 ## Методы
 
@@ -41,7 +41,7 @@ public class BookmarksOutlineLevelCollection : IEnumerable<KeyValuePair<string, 
 
 ### Примечания
 
-Ключ — строковое имя закладки без учета регистра. Значение представляет собой уровень структуры закладки int.
+Ключ — это строковое имя закладки без учета регистра. Значение представляет собой уровень структуры закладки int.
 
 Уровень структуры закладки может быть значением от 0 до 9. Укажите 0, и закладка Word не будет отображаться в структуре документа. Укажите 1, и закладка Word будет отображаться в структуре документа на уровне 1; 2 для уровня 2 и так далее.
 

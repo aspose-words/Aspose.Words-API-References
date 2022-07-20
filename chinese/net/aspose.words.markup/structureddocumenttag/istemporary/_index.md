@@ -1,14 +1,14 @@
 ---
 title: IsTemporary
 second_title: Aspose.Words for .NET API 参考
-description: 指定此 SDT 在其内容 时是否应从 WordProcessingML 文档中删除被修改
+description: 指定这是否 SDT当其 contents 被修改时应从 WordProcessingML 文档中删除
 type: docs
 weight: 160
 url: /zh/net/aspose.words.markup/structureddocumenttag/istemporary/
 ---
 ## StructuredDocumentTag.IsTemporary property
 
-指定此 **SDT** 在其内容 时是否应从 WordProcessingML 文档中删除被修改。
+指定这是否 **SDT**当其 contents 被修改时，应从 WordProcessingML 文档中删除。
 
 ```csharp
 public bool IsTemporary { get; set; }

@@ -24,14 +24,14 @@ public class AxisScaling
 
 | 姓名 | 描述 |
 | --- | --- |
-| [LogBase](../../aspose.words.drawing.charts/axisscaling/logbase) { get; set; } | 获取或设置对数轴的对数底。 |
-| [Maximum](../../aspose.words.drawing.charts/axisscaling/maximum) { get; set; } | 获取或设置轴的最大值。 |
+| [LogBase](../../aspose.words.drawing.charts/axisscaling/logbase) { get; set; } | 获取或设置对数轴的对数底数。 |
+| [Maximum](../../aspose.words.drawing.charts/axisscaling/maximum) { get; set; } | 获取或设置轴的最大值 |
 | [Minimum](../../aspose.words.drawing.charts/axisscaling/minimum) { get; set; } | 获取或设置轴的最小值。 |
 | [Type](../../aspose.words.drawing.charts/axisscaling/type) { get; set; } | 获取或设置轴的缩放类型。 |
 
 ### 例子
 
-显示如何对图表轴应用对数缩放。
+显示如何将对数缩放应用于图表轴。
 
 ```csharp
 Document doc = new Document();

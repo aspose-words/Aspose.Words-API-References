@@ -1,14 +1,14 @@
 ---
 title: IsLinked
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置是否通过不在文档中存储图形数据来减小文件大小
+description: 获取或设置是否通过不随文档存储图形数据来减小文件大小
 type: docs
 weight: 30
 url: /zh/net/aspose.words.fields/fieldimport/islinked/
 ---
 ## FieldImport.IsLinked property
 
-获取或设置是否通过不在文档中存储图形数据来减小文件大小。
+获取或设置是否通过不随文档存储图形数据来减小文件大小。
 
 ```csharp
 public bool IsLinked { get; set; }

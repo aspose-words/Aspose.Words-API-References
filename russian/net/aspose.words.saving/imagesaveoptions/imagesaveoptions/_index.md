@@ -1,14 +1,14 @@
 ---
 title: ImageSaveOptions
 second_title: Справочник по API Aspose.Words для .NET
-description: Инициализирует новый экземпляр этого класса который можно использовать для сохранения визуализированных изображений в файле TiffPngBmp EmfJpegилиSvgформат. PngBmpJpeg илиSvg.
+description: Инициализирует новый экземпляр этого класса который можно использовать для сохранения визуализированных изображений в файле .Tiff Png Bmp  Emf Jpeg или жеSvg формат. Png Bmp Jpeg илиSvg формат.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.saving/imagesaveoptions/imagesaveoptions/
 ---
 ## ImageSaveOptions constructor
 
-Инициализирует новый экземпляр этого класса, который можно использовать для сохранения визуализированных изображений в файле Tiff,Png,Bmp, Emf,JpegилиSvgформат. Png,Bmp,Jpeg илиSvg.
+Инициализирует новый экземпляр этого класса, который можно использовать для сохранения визуализированных изображений в файле .Tiff ,Png ,Bmp , Emf ,Jpeg или жеSvg формат. Png ,Bmp ,Jpeg илиSvg формат.
 
 ```csharp
 public ImageSaveOptions(SaveFormat saveFormat)
@@ -16,7 +16,7 @@ public ImageSaveOptions(SaveFormat saveFormat)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| saveFormat | SaveFormat | Может быть Tiff,Png,Bmp, Emf,JpegилиSvg. Png,Bmp,Jpeg илиSvg. |
+| saveFormat | SaveFormat | Может быть Tiff ,Png ,Bmp , Emf ,Jpeg или жеSvg . Png ,Bmp ,Jpeg илиSvg . |
 
 ### Примеры
 

@@ -1,14 +1,14 @@
 ---
 title: IsRestartAtEachSection
 second_title: Справочник по API Aspose.Words для .NET
-description: Указывает следует ли перезапускать список в каждом разделе. Значение по умолчанию false .
+description: Указывает следует ли перезапускать список в каждом разделе. Значение по умолчанию ЛОЖЬ .
 type: docs
 weight: 50
 url: /ru/net/aspose.words.lists/list/isrestartateachsection/
 ---
 ## List.IsRestartAtEachSection property
 
-Указывает, следует ли перезапускать список в каждом разделе. Значение по умолчанию: **false** .
+Указывает, следует ли перезапускать список в каждом разделе. Значение по умолчанию: **ЛОЖЬ** .
 
 ```csharp
 public bool IsRestartAtEachSection { get; set; }
@@ -18,7 +18,7 @@ public bool IsRestartAtEachSection { get; set; }
 
 Эта опция поддерживается только в форматах документов RTF, DOC и DOCX.
 
-Эта опция будет записана в DOCX, только если[`OoxmlCompliance`](../../../aspose.words.saving/ooxmlcompliance)выше, чемEcma376_2006.
+Эта опция будет записана в DOCX, только если[`OoxmlCompliance`](../../../aspose.words.saving/ooxmlcompliance) выше, чемEcma376_2006.
 
 ### Примеры
 

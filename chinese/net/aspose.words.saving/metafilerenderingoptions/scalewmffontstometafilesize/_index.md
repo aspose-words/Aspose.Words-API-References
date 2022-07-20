@@ -16,19 +16,19 @@ public bool ScaleWmfFontsToMetafileSize { get; set; }
 
 ### 评论
 
-当 WMF 图元文件在 MS Word 中显示时，字体可能会根据实际图元文件大小缩放这页纸。
+当 WMF 图元文件在 MS Word 中显示时，字体可能会根据页面上的实际图元文件大小进行缩放。
 
-当此值设置为` true` 时，Aspose.Words 根据元文件大小模拟字体缩放在页面上。
+当此值设置为`真的`, Aspose.Words 根据页面上的图元文件大小模拟字体缩放。
 
-当此值设置为` false` 时，Aspose.Words 在渲染图元文件时显示字体到它的默认大小。
+当此值设置为`错误的`, Aspose.Words 将字体显示为图元文件呈现为其默认大小。
 
 此选项仅在元文件呈现为矢量图形时使用。
 
-默认值为` true` 。
+默认值为`真的`.
 
 ### 例子
 
-显示如何根据页面上的元文件大小缩放 WMF 字体。
+显示如何根据页面上的图元文件大小缩放 WMF 字体。
 
 ```csharp
 Document doc = new Document(MyDir + "WMF with text.docx");

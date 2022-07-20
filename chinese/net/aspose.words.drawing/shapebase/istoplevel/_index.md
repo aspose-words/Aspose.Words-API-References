@@ -16,7 +16,7 @@ public bool IsTopLevel { get; }
 
 ### 例子
 
-显示如何判断一个形状是否是组形状的一部分。
+演示如何判断一个形状是否是组形状的一部分。
 
 ```csharp
 Document doc = new Document();

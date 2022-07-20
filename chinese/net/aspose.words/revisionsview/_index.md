@@ -3,7 +3,7 @@ title: RevisionsView
 second_title: Aspose.Words for .NET API 参考
 description: 允许指定是使用文档的原始版本还是修订版本
 type: docs
-weight: 4500
+weight: 4550
 url: /zh/net/aspose.words/revisionsview/
 ---
 ## RevisionsView enumeration

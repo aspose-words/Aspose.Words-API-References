@@ -3,7 +3,7 @@ title: WebExtensionStoreType
 second_title: Aspose.Words for .NET API 参考
 description: 枚举网络扩展商店的可用类型
 type: docs
-weight: 6460
+weight: 6510
 url: /zh/net/aspose.words.webextensions/webextensionstoretype/
 ---
 ## WebExtensionStoreType enumeration
@@ -19,7 +19,7 @@ public enum WebExtensionStoreType
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
 | SPCatalog | `0` | 指定商店类型是 SharePoint 公司目录。 |
-| OMEX | `1` | 指定商店类型是 Office.com。 |
+| OMEX | `1` | 指定商店类型为 Office.com。 |
 | SPApp | `2` | 指定商店类型是 SharePoint Web 应用程序。 |
 | Exchange | `3` | 指定存储类型是 Exchange 服务器。 |
 | FileSystem | `4` | 指定存储类型是文件系统共享。 |
@@ -29,7 +29,7 @@ public enum WebExtensionStoreType
 
 ### 例子
 
-显示如何向文档添加 Web 扩展。
+展示如何向文档添加 Web 扩展。
 
 ```csharp
 Document doc = new Document();

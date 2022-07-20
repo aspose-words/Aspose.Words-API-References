@@ -3,7 +3,7 @@ title: TableContentAlignment
 second_title: Справочник по API Aspose.Words для .NET
 description: Позволяет указать выравнивание содержимого таблицы которое будет использоваться при экспорте в формат Markdown.
 type: docs
-weight: 5290
+weight: 5340
 url: /ru/net/aspose.words.saving/tablecontentalignment/
 ---
 ## TableContentAlignment enumeration

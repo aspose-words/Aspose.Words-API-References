@@ -1,12 +1,12 @@
 ---
 title: Aspose.Words.Fields
 second_title: Справочник по API Aspose.Words для .NET
-description: Пространство имен Aspose.Words.Fields содержит классы которые представляют Поля Microsoft Word в документе.
+description: Aspose.Words.Fields namespace содержит классы которые представляют поля Microsoft Word в документе.
 type: docs
 weight: 80
 url: /ru/net/aspose.words.fields/
 ---
-Пространство имен **Aspose.Words.Fields** содержит классы, которые представляют Поля Microsoft Word в документе.
+**Aspose.Words.Fields** namespace содержит классы, которые представляют поля Microsoft Word в документе.
 
 ## Классы
 
@@ -27,19 +27,21 @@ url: /ru/net/aspose.words.fields/
 | [FieldAutoNumLgl](./fieldautonumlgl) | Реализует поле AUTONUMLGL. |
 | [FieldAutoNumOut](./fieldautonumout) | Реализует поле AUTONUMOUT. |
 | [FieldAutoText](./fieldautotext) | Реализует поле АВТОТЕКСТ. |
-| [FieldAutoTextList](./fieldautotextlist) | Реализует поле АВТОТЕКСТ. |
-| [FieldBarcode](./fieldbarcode) | Реализует поле ШТРИХКОД. |
+| [FieldAutoTextList](./fieldautotextlist) | Реализует поле AUTOTEXTLIST. |
+| [FieldBarcode](./fieldbarcode) | Реализует поле BARCODE. |
 | [FieldBibliography](./fieldbibliography) | Реализует поле БИБЛИОГРАФИЯ. |
 | [FieldBidiOutline](./fieldbidioutline) | Реализует поле BIDIOUTLINE. |
 | [FieldBuilder](./fieldbuilder) | Создает поле из токенов кода поля (аргументы и переключатели). |
 | [FieldChar](./fieldchar) | Базовый класс для узлов, представляющих символы поля в документе. |
 | [FieldCitation](./fieldcitation) | Реализует поле ЦИТАТА. |
-| [FieldCollection](./fieldcollection) | Набор объектов[`Field`](../aspose.words.fields/field), представляющих поля в указанном диапазоне. |
+| [FieldCollection](./fieldcollection) | Коллекция[`Field`](../aspose.words.fields/field) объекты, представляющие поля в указанном диапазоне. |
 | [FieldComments](./fieldcomments) | Реализует поле КОММЕНТАРИИ. |
 | [FieldCompare](./fieldcompare) | Реализует поле COMPARE. |
 | [FieldCreateDate](./fieldcreatedate) | Реализует поле CREATEDATE. |
 | [FieldData](./fielddata) | Реализует поле DATA. |
 | [FieldDatabase](./fielddatabase) | Реализует поле DATABASE. |
+| [FieldDatabaseDataRow](./fielddatabasedatarow) | Предоставляет данные для[`FieldDatabase`](../aspose.words.fields/fielddatabase) результат поля. |
+| [FieldDatabaseDataTable](./fielddatabasedatatable) | Предоставляет данные для[`FieldDatabase`](../aspose.words.fields/fielddatabase) результат поля. |
 | [FieldDate](./fielddate) | Реализует поле ДАТА. |
 | [FieldDde](./fielddde) | Реализует поле DDE. |
 | [FieldDdeAuto](./fieldddeauto) | Реализует поле DDEAUTO. |
@@ -54,7 +56,7 @@ url: /ru/net/aspose.words.fields/
 | [FieldFileSize](./fieldfilesize) | Реализует поле FILESIZE. |
 | [FieldFillIn](./fieldfillin) | Реализует поле FILLIN. |
 | [FieldFootnoteRef](./fieldfootnoteref) | Реализует поле FOOTNOTEREF. |
-| [FieldFormat](./fieldformat) | Предоставляет типизированный доступ к числовым полям, дате и времени и общему форматированию. |
+| [FieldFormat](./fieldformat) | Предоставляет типизированный доступ к числовым значениям поля, дате и времени, а также к общему форматированию. |
 | [FieldFormCheckBox](./fieldformcheckbox) | Реализует поле FORMCHECKBOX. |
 | [FieldFormDropDown](./fieldformdropdown) | Реализует поле FORMDROPDOWN. |
 | [FieldFormText](./fieldformtext) | Реализует поле FORMTEXT. |
@@ -72,7 +74,7 @@ url: /ru/net/aspose.words.fields/
 | [FieldInfo](./fieldinfo) | Реализует поле INFO. |
 | [FieldKeywords](./fieldkeywords) | Реализует поле KEYWORDS. |
 | [FieldLastSavedBy](./fieldlastsavedby) | Реализует поле LASTSAVEDBY. |
-| [FieldLink](./fieldlink) | Реализует поле LINK. |
+| [FieldLink](./fieldlink) | Реализует поле ССЫЛКА. |
 | [FieldListNum](./fieldlistnum) | Реализует поле LISTNUM. |
 | [FieldMacroButton](./fieldmacrobutton) | Реализует поле MACROBUTTON. |
 | [FieldMergeBarcode](./fieldmergebarcode) | Реализует поле MERGEBARCODE. |
@@ -91,8 +93,8 @@ url: /ru/net/aspose.words.fields/
 | [FieldPageRef](./fieldpageref) | Реализует поле PAGEREF. |
 | [FieldPrint](./fieldprint) | Реализует поле PRINT. |
 | [FieldPrintDate](./fieldprintdate) | Реализует поле PRINTDATE. |
-| [FieldPrivate](./fieldprivate) | Реализует поле PRIVATE. |
-| [FieldQuote](./fieldquote) | Реализует поле ЦИТАТА. |
+| [FieldPrivate](./fieldprivate) | Реализует PRIVATE поле. |
+| [FieldQuote](./fieldquote) | Реализует поле QUOTE. |
 | [FieldRD](./fieldrd) | Реализует поле RD. |
 | [FieldRef](./fieldref) | Реализует поле REF. |
 | [FieldRevNum](./fieldrevnum) | Реализует поле REVNUM. |
@@ -121,31 +123,32 @@ url: /ru/net/aspose.words.fields/
 | [FieldUserName](./fieldusername) | Реализует поле USERNAME. |
 | [FieldXE](./fieldxe) | Реализует поле XE. |
 | [FormField](./formfield) | Представляет одно поле формы. |
-| [FormFieldCollection](./formfieldcollection) | Набор объектов **FormField** , которые представляют все поля формы в диапазоне. |
+| [FormFieldCollection](./formfieldcollection) | Коллекция **FormField** объекты, представляющие все поля формы в диапазоне. |
 | [GeneralFormatCollection](./generalformatcollection) | Представляет типизированную коллекцию общих форматов. |
-| [MergeFieldImageDimension](./mergefieldimagedimension) | Представляет размер изображения (то есть ширину или высоту), используемый в процессе слияния. |
+| [MergeFieldImageDimension](./mergefieldimagedimension) | Представляет размер изображения (т.е. ширину или высоту), используемый в процессе слияния почты. |
 | [ToaCategories](./toacategories) | Представляет таблицу категорий полномочий. |
 | [UserInformation](./userinformation) | Указывает информацию о пользователе. |
 ## Интерфейсы
 
 | Интерфейс | Описание |
 | --- | --- |
-| [IBarcodeGenerator](./ibarcodegenerator) | Открытый интерфейс для пользовательского генератора штрих-кодов. Реализация должна быть предоставлена пользователем. |
-| [IComparisonExpressionEvaluator](./icomparisonexpressionevaluator) | При реализации позволяет переопределить оценку выражений сравнения по умолчанию для[`FieldIf`](../aspose.words.fields/fieldif)и[`FieldCompare`](../aspose.words.fields/fieldcompare)поля. |
+| [IBarcodeGenerator](./ibarcodegenerator) | Открытый интерфейс для пользовательского генератора штрих-кода. Реализация должна быть предоставлена пользователем. |
+| [IComparisonExpressionEvaluator](./icomparisonexpressionevaluator) | При реализации позволяет переопределить оценку выражений сравнения по умолчанию для[`FieldIf`](../aspose.words.fields/fieldif) а также[`FieldCompare`](../aspose.words.fields/fieldcompare) поля. |
+| [IFieldDatabaseProvider](./ifielddatabaseprovider) | Реализуйте этот интерфейс для предоставления данных для[`FieldDatabase`](../aspose.words.fields/fielddatabase) поле при обновлении. |
 | [IFieldResultFormatter](./ifieldresultformatter) | Реализуйте этот интерфейс, если хотите управлять форматированием результата поля. |
-| [IFieldUpdateCultureProvider](./ifieldupdatecultureprovider) | При реализации предоставляет объектCultureInfo, который следует использовать при обновлении определенного поля. |
-| [IFieldUpdatingCallback](./ifieldupdatingcallback) | Реализуйте этот интерфейс, если вы хотите, чтобы во время обновления поля вызывались ваши собственные методы. |
+| [IFieldUpdateCultureProvider](./ifieldupdatecultureprovider) | При реализации предоставляетCultureInfo объект, который следует использовать при обновлении определенного поля. |
+| [IFieldUpdatingCallback](./ifieldupdatingcallback) | Реализуйте этот интерфейс, если вы хотите, чтобы ваши собственные методы вызывались во время обновления поля. |
 | [IFieldUserPromptRespondent](./ifielduserpromptrespondent) | Представляет ответчика на запросы пользователя во время обновления поля. |
 ## перечисление
 
 | перечисление | Описание |
 | --- | --- |
-| [FieldIfComparisonResult](./fieldifcomparisonresult) | Указывает результат оценки условия поля IF. |
-| [FieldIndexFormat](./fieldindexformat) | Задает форматирование полей[`FieldIndex`](../aspose.words.fields/fieldindex)в документе. |
-| [FieldType](./fieldtype) | Задает типы полей Microsoft Word. |
+| [FieldIfComparisonResult](./fieldifcomparisonresult) | Определяет результат оценки условия поля IF. |
+| [FieldIndexFormat](./fieldindexformat) | Определяет форматирование[`FieldIndex`](../aspose.words.fields/fieldindex) поля в документе. |
+| [FieldType](./fieldtype) | Определяет типы полей Microsoft Word. |
 | [FieldUpdateCultureSource](./fieldupdateculturesource) | Указывает, какую культуру использовать при обновлении поля. |
-| [GeneralFormat](./generalformat) | Указывает общий формат, который применяется к числовому, текстовому или любому результату поля. Поле может иметь комбинацию общих форматов. |
-| [MergeFieldImageDimensionUnit](./mergefieldimagedimensionunit) | Задает единицу измерения изображения (т. е. ширину или высоту), используемую в процессе слияния почты. |
-| [TextFormFieldType](./textformfieldtype) | Задает тип поля текстовой формы. |
+| [GeneralFormat](./generalformat) | Определяет общий формат, который применяется к числовому, текстовому или любому результату поля. Поле может иметь комбинацию общих форматов. |
+| [MergeFieldImageDimensionUnit](./mergefieldimagedimensionunit) | Определяет единицу измерения изображения (т. е. ширину или высоту), используемую в процессе слияния. |
+| [TextFormFieldType](./textformfieldtype) | Определяет тип поля текстовой формы. |
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

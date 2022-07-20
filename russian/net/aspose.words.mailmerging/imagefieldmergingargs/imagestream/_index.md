@@ -16,11 +16,11 @@ public Stream ImageStream { get; set; }
 
 ### Примечания
 
-Aspose.Words закрывает этот поток после вставки изображения в документ.
+Aspose.Words закрывает этот поток после слияния изображения с документом.
 
 ### Примеры
 
-Показывает, как вставлять в отчет изображения, хранящиеся в поле BLOB базы данных.
+Показывает, как вставить изображения, хранящиеся в поле BLOB базы данных, в отчет.
 
 ```csharp
 public void ImageFromBlob()
@@ -36,7 +36,7 @@ public void ImageFromBlob()
     {
         conn.Open();
 
-         // Открыть средство чтения данных, которое должно быть в режиме чтения всех записей одновременно.
+        // Откройте средство чтения данных, которое должно быть в режиме чтения всех записей одновременно.
         OleDbCommand cmd = new OleDbCommand(query, conn);
         IDataReader dataReader = cmd.ExecuteReader();
 
@@ -44,17 +44,16 @@ public void ImageFromBlob()
     }
 
     doc.Save(ArtifactsDir + "MailMergeEvent.ImageFromBlob.docx");
-}
 
 private class HandleMergeImageFieldFromBlob : IFieldMergingCallback
 {
     void IFieldMergingCallback.FieldMerging(FieldMergingArgs args)
     {
-         // Ничего не делать.
+        // Ничего не делать.
     }
 
     /// <summary>
-     /// Это вызывается, когда слияние почты встречает MERGEFIELD в документе с тегом «Image:» в его имени.
+    /// Это вызывается, когда слияние встречает MERGEFIELD в документе с тегом «Image:» в его имени.
     /// </summary>
     void IFieldMergingCallback.ImageFieldMerging(ImageFieldMergingArgs e)
     {

@@ -16,7 +16,7 @@ public void RemoveAt(int index)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| index | Int32 | 集合的索引。 |
+| index | Int32 | 集合中的索引。 |
 
 ### 也可以看看
 

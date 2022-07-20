@@ -16,11 +16,11 @@ public void BuildAutomatic()
 
 ### 评论
 
-此方法可能会产生非最佳的后备设置。字体由[检查 Unicode 字符范围](https://docs.microsoft.com/en-us/typography/opentype/spec/os2#ur) 字段而不是实际字形的存在。 Unicode 范围也单独检查 并且与单一语言/脚本相关的几个范围可能使用不同的后备字体。
+此方法可能会产生非最佳的回退设置。字体由[ Unicode 字符范围](https://docs.microsoft.com/en-us/typography/opentype/spec/os2#ur)字段而不是实际字形的存在。此外，Unicode 范围会单独检查 ，与单一语言/脚本相关的几个范围可能使用不同的后备字体。
 
 ### 例子
 
-显示如何在 Unicode 字符代码范围内分配备用字体。
+展示如何在 Unicode 字符代码范围内分布备用字体。
 
 ```csharp
 Document doc = new Document();

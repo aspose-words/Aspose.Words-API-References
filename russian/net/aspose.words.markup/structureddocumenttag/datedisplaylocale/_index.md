@@ -1,14 +1,14 @@
 ---
 title: DateDisplayLocale
 second_title: Справочник по API Aspose.Words для .NET
-description: Позволяет установить/получить языковой формат для даты отображаемой в этом SDT .
+description: Позволяет установить/получить языковой формат для даты отображаемой в этом СДТ .
 type: docs
 weight: 100
 url: /ru/net/aspose.words.markup/structureddocumenttag/datedisplaylocale/
 ---
 ## StructuredDocumentTag.DateDisplayLocale property
 
-Позволяет установить/получить языковой формат для даты, отображаемой в этом **SDT** .
+Позволяет установить/получить языковой формат для даты, отображаемой в этом **СДТ** .
 
 ```csharp
 public int DateDisplayLocale { get; set; }
@@ -16,9 +16,9 @@ public int DateDisplayLocale { get; set; }
 
 ### Примечания
 
-Доступ к этому свойству будет работать только дляDateТип SDT.
+Доступ к этому свойству будет работать только дляDate Тип SDT.
 
-Для всех остальных типов SDT возникнет исключение.
+Для всех других типов SDT будет иметь место исключение.
 
 ### Примеры
 

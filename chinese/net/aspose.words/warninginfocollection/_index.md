@@ -1,14 +1,14 @@
 ---
 title: WarningInfoCollection
 second_title: Aspose.Words for .NET API 参考
-description: 表示WarningInfo./warninginfo对象的类型化集合
+description: 表示一个类型化的集合WarningInfo./warninginfo对象.
 type: docs
-weight: 6280
+weight: 6330
 url: /zh/net/aspose.words/warninginfocollection/
 ---
 ## WarningInfoCollection class
 
-表示[`WarningInfo`](../warninginfo)对象的类型化集合。
+表示一个类型化的集合[`WarningInfo`](../warninginfo)对象.
 
 ```csharp
 public class WarningInfoCollection : IEnumerable<WarningInfo>, IWarningCallback
@@ -24,7 +24,7 @@ public class WarningInfoCollection : IEnumerable<WarningInfo>, IWarningCallback
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Count](../../aspose.words/warninginfocollection/count) { get; } | 获取集合中包含的元素数量。 |
+| [Count](../../aspose.words/warninginfocollection/count) { get; } | 获取集合中包含的元素数。 |
 | [Item](../../aspose.words/warninginfocollection/item) { get; } | 获取指定索引处的项目。 |
 
 ## 方法
@@ -33,15 +33,15 @@ public class WarningInfoCollection : IEnumerable<WarningInfo>, IWarningCallback
 | --- | --- |
 | [Clear](../../aspose.words/warninginfocollection/clear)() | 从集合中删除所有元素。 |
 | [GetEnumerator](../../aspose.words/warninginfocollection/getenumerator)() | 返回一个可用于迭代集合中所有项目的枚举器对象。 |
-| [Warning](../../aspose.words/warninginfocollection/warning)(WarningInfo) | 实现[`IWarningCallback`](../iwarningcallback)接口。向此集合添加警告。 |
+| [Warning](../../aspose.words/warninginfocollection/warning)(WarningInfo) | 实现[`IWarningCallback`](../iwarningcallback)界面。向此集合添加警告。 |
 
 ### 评论
 
-您可以将此集合对象用作IWarningCallback实现收集 Aspose.Words 在加载或保存操作期间生成的所有警告。创建此类的一个实例并将其分配 给[`WarningCallback`](../../aspose.words.loading/loadoptions/warningcallback)或[`WarningCallback`](../documentbase/warningcallback)属性。
+您可以将此集合对象用作最简单的形式[`IWarningCallback`](../iwarningcallback)实现收集 Aspose.Words 在加载或保存操作期间生成的所有警告。创建该类的一个实例并将其分配给 [`WarningCallback`](../../aspose.words.loading/loadoptions/warningcallback)或者[`WarningCallback`](../documentbase/warningcallback)财产。
 
 ### 例子
 
-显示如何设置属性以从可用字体源中查找最接近的匹配缺失字体。
+演示如何设置属性以从可用字体源中查找缺失字体的最接近匹配项。
 
 ```csharp
 [Test]

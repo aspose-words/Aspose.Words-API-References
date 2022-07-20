@@ -16,7 +16,7 @@ public TextEffect TextEffect { get; set; }
 
 ### Примеры
 
-Показывает, как применить визуальный эффект к бегу.
+Показывает, как применить визуальный эффект к прогону.
 
 ```csharp
 Document doc = new Document();

@@ -1,14 +1,14 @@
 ---
 title: TextColumnCollection
 second_title: Aspose.Words for .NET API 参考
-description: TextColumn./textcolumn对象的集合这些对象表示文档部分中的所有文本列
+description: 集合TextColumn./textcolumn代表文档部分中所有文本列的对象
 type: docs
-weight: 6050
+weight: 6100
 url: /zh/net/aspose.words/textcolumncollection/
 ---
 ## TextColumnCollection class
 
-[`TextColumn`](../textcolumn)对象的集合，这些对象表示文档部分中的所有文本列。
+集合[`TextColumn`](../textcolumn)代表文档部分中所有文本列的对象。
 
 ```csharp
 public class TextColumnCollection
@@ -19,10 +19,10 @@ public class TextColumnCollection
 | 姓名 | 描述 |
 | --- | --- |
 | [Count](../../aspose.words/textcolumncollection/count) { get; } | 获取文档部分中的列数。 |
-| [EvenlySpaced](../../aspose.words/textcolumncollection/evenlyspaced) { get; set; } | **True** 如果文本列的宽度相等且间距均匀。 |
+| [EvenlySpaced](../../aspose.words/textcolumncollection/evenlyspaced) { get; set; } | **真的**如果文本列的宽度相等且间距均匀。 |
 | [Item](../../aspose.words/textcolumncollection/item) { get; } | 返回指定索引处的文本列。 |
-| [LineBetween](../../aspose.words/textcolumncollection/linebetween) { get; set; } | 当 **true** 时，在列之间添加一条垂直线。 |
-| [Spacing](../../aspose.words/textcolumncollection/spacing) { get; set; } | 当列均匀分布时，获取或设置每列之间的空间量（以磅为单位）。 |
+| [LineBetween](../../aspose.words/textcolumncollection/linebetween) { get; set; } | 什么时候 **真的** 在列之间添加一条垂直线。 |
+| [Spacing](../../aspose.words/textcolumncollection/spacing) { get; set; } | 当列均匀分布时，获取或设置每列之间的空间量，以点为单位。 |
 | [Width](../../aspose.words/textcolumncollection/width) { get; } | 当列均匀分布时，获取列的宽度。 |
 
 ## 方法
@@ -33,13 +33,13 @@ public class TextColumnCollection
 
 ### 评论
 
-使用[`SetCount`](./setcount)设置文本列数。
+利用[`SetCount`](./setcount)设置文本列的数量。
 
-要使所有列的宽度相等且间距均匀，请将[`EvenlySpaced`](./evenlyspaced)设置为 **true** 并在[`Spacing`](./spacing)中指定列之间的空间量。 MS Word 将 自动计算列宽。
+要使所有列的宽度相等且间距均匀，请设置[`EvenlySpaced`](./evenlyspaced)至 **真的** 并指定列之间的空间量[`Spacing`](./spacing)MS Word will 自动计算列宽。
 
-如果你有 **EvenlySpaced** 设置为 **false** ，您需要为每个 列单独指定宽度和间距。使用索引器访问单个[`TextColumn`](../textcolumn)对象。
+如果你有 **均匀分布的**调成 **错误的**，您需要分别为 each 列指定宽度和间距。使用索引器访问个人[`TextColumn`](../textcolumn)对象。
 
-使用自定义列宽时，确保所有列宽和它们之间的间距之和 等于页宽减去左右页边距.
+使用自定义列宽时，请确保所有列宽和它们之间的间距之和 等于页宽减去左右页边距。
 
 ### 例子
 

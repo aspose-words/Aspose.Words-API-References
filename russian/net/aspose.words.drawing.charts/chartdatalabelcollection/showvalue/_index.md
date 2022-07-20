@@ -1,14 +1,14 @@
 ---
 title: ShowValue
 second_title: Справочник по API Aspose.Words для .NET
-description: Позволяет указать должны ли значения отображаться в метках данных всего ряда. Значение по умолчанию false .
+description: Позволяет указать должны ли значения отображаться в метках данных всего ряда. Значение по умолчанию ЛОЖЬ .
 type: docs
 weight: 120
 url: /ru/net/aspose.words.drawing.charts/chartdatalabelcollection/showvalue/
 ---
 ## ChartDataLabelCollection.ShowValue property
 
-Позволяет указать, должны ли значения отображаться в метках данных всего ряда. Значение по умолчанию: **false** .
+Позволяет указать, должны ли значения отображаться в метках данных всего ряда. Значение по умолчанию: **ЛОЖЬ** .
 
 ```csharp
 public bool ShowValue { get; set; }
@@ -16,7 +16,7 @@ public bool ShowValue { get; set; }
 
 ### Примечания
 
-Значение, определенное для этого свойства, может быть переопределено для отдельной метки данных с помощью [`ShowValue`](../../chartdatalabel/showvalue)свойство.
+Значение, определенное для этого свойства, может быть переопределено для отдельной метки данных с помощью параметра [`ShowValue`](../../chartdatalabel/showvalue) свойство.
 
 ### Примеры
 

@@ -1,14 +1,14 @@
 ---
 title: Position
 second_title: Справочник по API Aspose.Words для .NET
-description: Получает позицию табулятора в пунктах.
+description: Получает позицию табуляции в пунктах.
 type: docs
 weight: 50
 url: /ru/net/aspose.words/tabstop/position/
 ---
 ## TabStop.Position property
 
-Получает позицию табулятора в пунктах.
+Получает позицию табуляции в пунктах.
 
 ```csharp
 public double Position { get; }

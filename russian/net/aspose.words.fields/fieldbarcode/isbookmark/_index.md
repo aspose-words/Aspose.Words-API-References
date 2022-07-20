@@ -1,14 +1,14 @@
 ---
 title: IsBookmark
 second_title: Справочник по API Aspose.Words для .NET
-description: Получает или устанавливает является лиPostalAddressaspose.words.fields/fieldbarcode/postaladdressименем закладки.
+description: Получает или устанавливаетPostalAddressaspose.words.fields/fieldbarcode/postaladdress имя закладки.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.fields/fieldbarcode/isbookmark/
 ---
 ## FieldBarcode.IsBookmark property
 
-Получает или устанавливает, является ли[`PostalAddress`](../postaladdress)именем закладки.
+Получает или устанавливает,[`PostalAddress`](../postaladdress) имя закладки.
 
 ```csharp
 public bool IsBookmark { get; set; }

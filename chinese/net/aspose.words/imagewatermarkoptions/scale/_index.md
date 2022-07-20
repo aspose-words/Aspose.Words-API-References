@@ -1,14 +1,14 @@
 ---
 title: Scale
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置以图像分数表示的比例因子默认值为 0 - 自动
+description: 获取或设置以图像分数表示的比例因子默认值为 0 - auto.
 type: docs
 weight: 30
 url: /zh/net/aspose.words/imagewatermarkoptions/scale/
 ---
 ## ImageWatermarkOptions.Scale property
 
-获取或设置以图像分数表示的比例因子。默认值为 0 - 自动。
+获取或设置以图像分数表示的比例因子。默认值为 0 - auto.
 
 ```csharp
 public double Scale { get; set; }
@@ -28,7 +28,7 @@ public double Scale { get; set; }
 
 ### 例子
 
-展示如何从本地文件系统中的图像创建水印。
+演示如何从本地文件系统中的图像创建水印。
 
 ```csharp
 Document doc = new Document();

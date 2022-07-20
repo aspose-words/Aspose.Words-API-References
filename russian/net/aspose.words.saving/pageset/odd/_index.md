@@ -1,14 +1,14 @@
 ---
 title: Odd
 second_title: Справочник по API Aspose.Words для .NET
-description: Получает набор со всеми нечетными страницами документа в их первоначальном порядке.
+description: Получает набор со всеми нечетными страницами документа в их исходном порядке.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.saving/pageset/odd/
 ---
 ## PageSet.Odd property
 
-Получает набор со всеми нечетными страницами документа в их первоначальном порядке.
+Получает набор со всеми нечетными страницами документа в их исходном порядке.
 
 ```csharp
 public static PageSet Odd { get; }

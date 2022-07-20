@@ -1,14 +1,14 @@
 ---
 title: UserPromptRespondent
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置字段更新期间对用户提示的响应
+description: 获取或设置字段更新期间对用户提示的响应者
 type: docs
-weight: 190
+weight: 200
 url: /zh/net/aspose.words.fields/fieldoptions/userpromptrespondent/
 ---
 ## FieldOptions.UserPromptRespondent property
 
-获取或设置字段更新期间对用户提示的响应。
+获取或设置字段更新期间对用户提示的响应者。
 
 ```csharp
 public IFieldUserPromptRespondent UserPromptRespondent { get; set; }
@@ -16,13 +16,13 @@ public IFieldUserPromptRespondent UserPromptRespondent { get; set; }
 
 ### 评论
 
-如果此属性的值设置为 **null** ，提示时需要用户响应的字段 （例如[`FieldAsk`](../../fieldask)或[`FieldFillIn`](../../fieldfillin)) 没有更新。
+如果此属性的值设置为 **无效的** 需要用户在 prompting 上响应的字段（例如[`FieldAsk`](../../fieldask)或者[`FieldFillIn`](../../fieldfillin)不更新。
 
-默认值为 **null** 。
+默认值为 **无效的**.
 
 ### 例子
 
-显示如何创建 ASK 字段并设置其属性。
+展示如何创建 ASK 字段并设置其属性。
 
 ```csharp
 [Test]

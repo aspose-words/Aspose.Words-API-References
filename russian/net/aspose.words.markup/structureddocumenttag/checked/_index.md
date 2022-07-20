@@ -1,14 +1,14 @@
 ---
 title: Checked
 second_title: Справочник по API Aspose.Words для .NET
-description: Получает/устанавливает текущее состояние флажка SDT . Значение по умолчанию для этого свойства  false.
+description: Получает/устанавливает текущее состояние флажка СДТ . Значение по умолчанию для этого свойства  false.
 type: docs
 weight: 60
 url: /ru/net/aspose.words.markup/structureddocumenttag/checked/
 ---
 ## StructuredDocumentTag.Checked property
 
-Получает/устанавливает текущее состояние флажка **SDT** . Значение по умолчанию для этого свойства — false.
+Получает/устанавливает текущее состояние флажка **СДТ** . Значение по умолчанию для этого свойства — false.
 
 ```csharp
 public bool Checked { get; set; }
@@ -18,7 +18,7 @@ public bool Checked { get; set; }
 
 Доступ к этому свойству будет работать только дляCheckbox Типы SDT.
 
-Для всех остальных типов SDT возникнет исключение.
+Для всех других типов SDT будет иметь место исключение.
 
 ### Примеры
 

@@ -16,7 +16,7 @@ public Story CurrentStory { get; }
 
 ### 例子
 
-显示如何使用文档构建器的当前故事。
+展示如何使用文档构建器的当前故事。
 
 ```csharp
 Document doc = new Document();

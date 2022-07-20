@@ -1,14 +1,14 @@
 ---
 title: GetEnumerator
 second_title: Справочник по API Aspose.Words для .NET
-description: Возвращает перечислитель который перебирает коллекцию.
+description: Возвращает перечислитель который выполняет итерацию по коллекции.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.drawing/gradientstopcollection/getenumerator/
 ---
 ## GradientStopCollection.GetEnumerator method
 
-Возвращает перечислитель, который перебирает коллекцию.
+Возвращает перечислитель, который выполняет итерацию по коллекции.
 
 ```csharp
 public IEnumerator<GradientStop> GetEnumerator()

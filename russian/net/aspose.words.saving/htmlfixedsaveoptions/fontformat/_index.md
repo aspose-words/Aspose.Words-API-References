@@ -1,14 +1,14 @@
 ---
 title: FontFormat
 second_title: Справочник по API Aspose.Words для .NET
-description: Получает или устанавливаетExportFontFormataspose.words.saving/exportfontformatиспользуется для экспорта шрифта. Значение по умолчаниюWoff.
+description: Получает или устанавливаетExportFontFormataspose.words.saving/exportfontformat используется для экспорта шрифта. Значение по умолчаниюWoff .
 type: docs
 weight: 90
 url: /ru/net/aspose.words.saving/htmlfixedsaveoptions/fontformat/
 ---
 ## HtmlFixedSaveOptions.FontFormat property
 
-Получает или устанавливает[`ExportFontFormat`](../../exportfontformat)используется для экспорта шрифта. Значение по умолчанию:Woff.
+Получает или устанавливает[`ExportFontFormat`](../../exportfontformat) используется для экспорта шрифта. Значение по умолчанию:Woff .
 
 ```csharp
 public ExportFontFormat FontFormat { get; set; }
@@ -16,7 +16,7 @@ public ExportFontFormat FontFormat { get; set; }
 
 ### Примеры
 
-Показывает, как использовать шрифты только с целевой машины при сохранении документа в HTML.
+Показывает, как использовать шрифты только с целевого компьютера при сохранении документа в формате HTML.
 
 ```csharp
 Document doc = new Document(MyDir + "Bullet points with alternative font.docx");

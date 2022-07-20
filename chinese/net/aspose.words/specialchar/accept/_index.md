@@ -1,14 +1,14 @@
 ---
 title: Accept
 second_title: Aspose.Words for .NET API 参考
-description: 接受访问者
+description: 接受访客
 type: docs
 weight: 20
 url: /zh/net/aspose.words/specialchar/accept/
 ---
 ## SpecialChar.Accept method
 
-接受访问者。
+接受访客。
 
 ```csharp
 public override bool Accept(DocumentVisitor visitor)
@@ -20,7 +20,7 @@ public override bool Accept(DocumentVisitor visitor)
 
 ### 返回值
 
-如果访问者请求停止枚举，则返回 False。
+如果访问者请求停止枚举，则为 False。
 
 ### 评论
 

@@ -1,14 +1,14 @@
 ---
 title: Warning
 second_title: Aspose.Words for .NET API 参考
-description: 实现IWarningCallbackaspose.words/iwarningcallback接口向此集合添加警告
+description: 实现IWarningCallbackaspose.words/iwarningcallback界面向此集合添加警告
 type: docs
 weight: 60
 url: /zh/net/aspose.words/warninginfocollection/warning/
 ---
 ## WarningInfoCollection.Warning method
 
-实现[`IWarningCallback`](../../iwarningcallback)接口。向此集合添加警告。
+实现[`IWarningCallback`](../../iwarningcallback)界面。向此集合添加警告。
 
 ```csharp
 public void Warning(WarningInfo info)
@@ -16,7 +16,7 @@ public void Warning(WarningInfo info)
 
 ### 例子
 
-显示如何设置属性以从可用字体源中查找缺失字体的最接近匹配项。
+演示如何设置属性以从可用字体源中查找缺失字体的最接近匹配项。
 
 ```csharp
 [Test]

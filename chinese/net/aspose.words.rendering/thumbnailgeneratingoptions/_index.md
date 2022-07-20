@@ -1,14 +1,14 @@
 ---
 title: ThumbnailGeneratingOptions
 second_title: Aspose.Words for .NET API 参考
-description: 可用于在为文档生成缩略图时指定附加选项
+description: 可用于在为文档生成缩略图时指定其他选项
 type: docs
-weight: 4290
+weight: 4340
 url: /zh/net/aspose.words.rendering/thumbnailgeneratingoptions/
 ---
 ## ThumbnailGeneratingOptions class
 
-可用于在为文档生成缩略图时指定附加选项。
+可用于在为文档生成缩略图时指定其他选项。
 
 ```csharp
 public class ThumbnailGeneratingOptions
@@ -25,11 +25,11 @@ public class ThumbnailGeneratingOptions
 | 姓名 | 描述 |
 | --- | --- |
 | [GenerateFromFirstPage](../../aspose.words.rendering/thumbnailgeneratingoptions/generatefromfirstpage) { get; set; } | 指定是从文档的第一页还是从第一张图像生成缩略图。 |
-| [ThumbnailSize](../../aspose.words.rendering/thumbnailgeneratingoptions/thumbnailsize) { get; set; } | 生成的缩略图的大小（以像素为单位）。 默认为 600x900。 |
+| [ThumbnailSize](../../aspose.words.rendering/thumbnailgeneratingoptions/thumbnailsize) { get; set; } | 生成的缩略图大小（以像素为单位）。 默认为 600x900。 |
 
 ### 评论
 
-用户可以调用方法[`UpdateThumbnail`](../../aspose.words/document/updatethumbnail)为文档生成 [`Thumbnail`](../../aspose.words.properties/builtindocumentproperties/thumbnail)。
+用户可以调用方法[`UpdateThumbnail`](../../aspose.words/document/updatethumbnail)生成 [`Thumbnail`](../../aspose.words.properties/builtindocumentproperties/thumbnail)对于文档.
 
 ### 例子
 

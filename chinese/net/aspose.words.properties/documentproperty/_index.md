@@ -3,7 +3,7 @@ title: DocumentProperty
 second_title: Aspose.Words for .NET API 参考
 description: 表示自定义或内置文档属性
 type: docs
-weight: 4170
+weight: 4220
 url: /zh/net/aspose.words.properties/documentproperty/
 ---
 ## DocumentProperty class
@@ -33,27 +33,27 @@ public class DocumentProperty
 | [ToDateTime](../../aspose.words.properties/documentproperty/todatetime)() | 以 UTC 格式将属性值返回为 DateTime。 |
 | [ToDouble](../../aspose.words.properties/documentproperty/todouble)() | 以 double 形式返回属性值。 |
 | [ToInt](../../aspose.words.properties/documentproperty/toint)() | 以整数形式返回属性值。 |
-| override [ToString](../../aspose.words.properties/documentproperty/tostring)() | 将属性值作为根据当前语言环境格式化的字符串返回。 |
+| override [ToString](../../aspose.words.properties/documentproperty/tostring)() | 以根据当前语言环境格式化的字符串形式返回属性值。 |
 
 ### 例子
 
-展示如何使用内置文档属性.
+显示如何使用内置文档属性。
 
 ```csharp
 Document doc = new Document(MyDir + "Properties.docx");
 
- // “文档”对象在其成员中包含它的一些元数据。
+// “文档”对象在其成员中包含一些元数据。
 Console.WriteLine($"Document filename:\n\t \"{doc.OriginalFileName}\"");
 
- // 文档还在其内置属性中存储元数据。
-// 每个内置属性都是文档的“BuiltInDocumentProperties”对象的成员。
+// 文档还在其内置属性中存储元数据。
+// 每个内置属性都是文档“BuiltInDocumentProperties”对象的成员。
 Console.WriteLine("Built-in Properties:");
 foreach (DocumentProperty docProperty in doc.BuiltInDocumentProperties)
 {
     Console.WriteLine(docProperty.Name);
     Console.WriteLine($"\tType:\t{docProperty.Type}");
 
-     // 某些属性可能存储多个值。
+    // 某些属性可能存储多个值。
     if (docProperty.Value is ICollection<object>)
     {
         foreach (object value in docProperty.Value as ICollection<object>)

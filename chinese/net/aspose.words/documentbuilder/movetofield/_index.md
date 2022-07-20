@@ -17,7 +17,7 @@ public void MoveToField(Field field, bool isAfter)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | field | Field | 要将光标移动到的字段。 |
-| isAfter | Boolean | 当为真时，将光标移动到字段结尾之后。 当为 false 时，将光标移动到字段开始之前。 |
+| isAfter | Boolean | 如果为 true，则将光标移动到字段结束之后。 如果为 false，将光标移动到字段开始之前。 |
 
 ### 例子
 

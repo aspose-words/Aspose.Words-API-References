@@ -37,7 +37,7 @@ public CsvDataSource(string csvPath, CsvDataLoadOptions options)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | csvPath | String | Путь к CSV-файлу, который будет использоваться в качестве источника данных. |
-| options | CsvDataLoadOptions | Опции для анализа данных CSV. |
+| options | CsvDataLoadOptions | Параметры для анализа данных CSV. |
 
 ### Смотрите также
 
@@ -79,7 +79,7 @@ public CsvDataSource(Stream csvStream, CsvDataLoadOptions options)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | csvStream | Stream | Поток данных CSV, который будет использоваться в качестве источника данных. |
-| options | CsvDataLoadOptions | Опции для анализа данных CSV. |
+| options | CsvDataLoadOptions | Параметры для анализа данных CSV. |
 
 ### Смотрите также
 

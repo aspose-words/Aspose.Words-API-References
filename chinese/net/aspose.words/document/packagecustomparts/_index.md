@@ -16,17 +16,17 @@ public CustomPartCollection PackageCustomParts { get; set; }
 
 ### 评论
 
-不要将这些自定义部分与自定义 XML 数据混淆。如果您需要访问自定义 XML 部件， 使用[`CustomXmlParts`](../customxmlparts)属性。
+不要将这些自定义部分与自定义 XML 数据混淆。如果您需要访问自定义 XML 部分， 使用[`CustomXmlParts`](../customxmlparts)财产。
 
-此集合包含 OOXML 部分，其父项是 OOXML 包，并且它们的目标是“未知关系”。 有关更多信息，请参阅[`CustomPart`](../../../aspose.words.markup/custompart)。
+此集合包含 OOXML 部件，其父部件是 OOXML 包，它们的目标是“未知关系”。 有关更多信息，请参阅[`CustomPart`](../../../aspose.words.markup/custompart).
 
-Aspose.Words 仅将自定义部件加载并保存到 OOXML 文档中。
+Aspose.Words 仅将自定义部件加载和保存到 OOXML 文档中。
 
-此属性不能为` null` 。
+该属性不能`无效的`.
 
 ### 例子
 
-显示如何访问文档的任意自定义部分收藏。
+显示如何访问文档的任意自定义部件集合。
 
 ```csharp
 Document doc = new Document(MyDir + "Custom parts OOXML package.docx");

@@ -3,7 +3,7 @@ title: FindReplaceDirection
 second_title: Aspose.Words for .NET API 参考
 description: 指定替换操作的方向
 type: docs
-weight: 4300
+weight: 4350
 url: /zh/net/aspose.words.replacing/findreplacedirection/
 ---
 ## FindReplaceDirection enumeration
@@ -18,12 +18,12 @@ public enum FindReplaceDirection
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| Forward | `0` | 匹配的项目从第一个到最后一个被替换。 |
-| Backward | `1` | 匹配的项目从最后一个替换回第一个。 |
+| Forward | `0` | 匹配的项目从第一个到最后一个替换。 |
+| Backward | `1` | 匹配的项目从最后一个替换为第一个。 |
 
 ### 例子
 
-显示如何确定查找和替换操作在哪个方向遍历文档。
+显示如何确定查找和替换操作遍历文档的方向。
 
 ```csharp
 public void Direction(FindReplaceDirection findReplaceDirection)

@@ -16,11 +16,11 @@ public Font DefaultFont { get; }
 
 ### 评论
 
-请注意，Microsoft Word 2007 中引入了文档范围的默认值，并且完全支持 OOXML 格式（Docx）仅限。 早期的文档格式对此功能的支持有限，只能存储字体名称。
+请注意，Microsoft Word 2007 中引入了文档范围的默认值，并且完全支持 OOXML 格式（Docx) only. 早期的文档格式对此功能的支持有限，只能存储字体名称。
 
 ### 例子
 
-显示如何将样式添加到文档的样式集合中。
+演示如何将样式添加到文档的样式集合。
 
 ```csharp
 Document doc = new Document();

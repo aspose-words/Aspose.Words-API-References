@@ -1,14 +1,14 @@
 ---
 title: InsertAsPicture
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置是否将链接对象作为图片插入
+description: 获取或设置是否将链接对象插入为图片
 type: docs
 weight: 50
 url: /zh/net/aspose.words.fields/fielddde/insertaspicture/
 ---
 ## FieldDde.InsertAsPicture property
 
-获取或设置是否将链接对象作为图片插入。
+获取或设置是否将链接对象插入为图片。
 
 ```csharp
 public bool InsertAsPicture { get; set; }
@@ -16,7 +16,7 @@ public bool InsertAsPicture { get; set; }
 
 ### 例子
 
-演示如何使用各种字段类型链接到本地文件系统中的其他文档，并显示其内容。
+展示如何使用各种字段类型链接到本地文件系统中的其他文档，并显示其内容。
 
 ```csharp
 {

@@ -16,14 +16,13 @@ public void DeleteHeaderFooterShapes()
 
 ### 例子
 
-展示如何从一个部分的所有页眉页脚中删除所有形状。
+演示如何从部分中的所有页眉页脚中删除所有形状。
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
- // 创建一个带有 shape.
- 的主标题
+// 创建一个带形状的主标题。
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
 builder.InsertShape(ShapeType.Rectangle, 100, 100);
 

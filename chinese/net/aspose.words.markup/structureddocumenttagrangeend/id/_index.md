@@ -1,14 +1,14 @@
 ---
 title: Id
 second_title: Aspose.Words for .NET API 参考
-description: 指定此 StructuredDocumentTagRange 节点的唯一只读持久数字 ID 对应的StructuredDocumentTagRangeStartaspose.words.markup/structureddocumenttagrangestart节点具有相同的Idaspose.words.markup/structureddocumenttagrangestart/id
+description: 为此指定一个唯一的只读持久数字 ID 结构化文档标签范围 node. 对应StructuredDocumentTagRangeStartaspose.words.markup/structureddocumenttagrangestart节点具有相同的Idaspose.words.markup/structureddocumenttagrangestart/id.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.markup/structureddocumenttagrangeend/id/
 ---
 ## StructuredDocumentTagRangeEnd.Id property
 
-指定此 **StructuredDocumentTagRange** 节点的唯一只读持久数字 ID。 对应的[`StructuredDocumentTagRangeStart`](../../structureddocumenttagrangestart)节点具有相同的[`Id`](../../structureddocumenttagrangestart/id)。
+为此指定一个唯一的只读持久数字 ID **结构化文档标签范围** node. 对应[`StructuredDocumentTagRangeStart`](../../structureddocumenttagrangestart)节点具有相同的[`Id`](../../structureddocumenttagrangestart/id).
 
 ```csharp
 public int Id { get; }

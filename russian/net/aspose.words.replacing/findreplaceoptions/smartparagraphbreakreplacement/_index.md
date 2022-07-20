@@ -1,16 +1,16 @@
 ---
 title: SmartParagraphBreakReplacement
 second_title: Справочник по API Aspose.Words для .NET
-description: Получает или задает логическое значение указывающее разрешено ли заменять разрыв абзаца при отсутствии следующего родственного абзаца.
+description: Получает или задает логическое значение указывающее разрешено ли заменять абзац break  если нет следующего одноуровневого абзаца.
 type: docs
 weight: 140
 url: /ru/net/aspose.words.replacing/findreplaceoptions/smartparagraphbreakreplacement/
 ---
 ## FindReplaceOptions.SmartParagraphBreakReplacement property
 
-Получает или задает логическое значение, указывающее, разрешено ли заменять разрыв абзаца при отсутствии следующего родственного абзаца.
+Получает или задает логическое значение, указывающее, разрешено ли заменять абзац break , если нет следующего одноуровневого абзаца.
 
-Значение по умолчанию:` false` .
+Значение по умолчанию`ЛОЖЬ`.
 
 ```csharp
 public bool SmartParagraphBreakReplacement { get; set; }
@@ -18,7 +18,7 @@ public bool SmartParagraphBreakReplacement { get; set; }
 
 ### Примечания
 
-Эта опция позволяет заменить разрыв абзаца, когда нет следующего родственного абзаца, к которому все дочерние узлы можно перемещать, находя любой (не обязательно родственный) следующий абзац после заменяемого абзаца.
+Эта опция позволяет заменить разрыв абзаца, когда нет следующего одноуровневого абзаца, в который можно переместить все узлы child , найдя любой (не обязательно одноуровневый) следующий абзац после заменяемого абзаца.
 
 ### Примеры
 
@@ -28,7 +28,7 @@ public bool SmartParagraphBreakReplacement { get; set; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
- // Создаем таблицу с абзацем и внутренней таблицей в первой ячейке.
+// Создаем таблицу с абзацем и внутренней таблицей в первой ячейке.
 builder.StartTable();
 builder.InsertCell();
 builder.Write("TEXT1");
@@ -39,9 +39,9 @@ builder.EndTable();
 builder.Writeln();
 
 FindReplaceOptions options = new FindReplaceOptions();
- // Когда для следующей опции установлено значение «true», Aspose.Words удалит текст абзаца text
- // полностью со знаком абзаца. В противном случае Aspose.Words будет имитировать Word и remove
- // только текст абзаца и оставляет знак абзаца нетронутым (когда за текстом следует таблица).
+// Когда для следующей опции установлено значение «true», Aspose.Words удалит текст абзаца
+// полностью со знаком абзаца. В противном случае Aspose.Words будет имитировать Word и удалять
+// только текст абзаца и оставляет знак абзаца нетронутым (когда за текстом следует таблица).
 options.SmartParagraphBreakReplacement = isSmartParagraphBreakReplacement;
 doc.Range.Replace(new Regex(@"TEXT1&p"), "", options);
 

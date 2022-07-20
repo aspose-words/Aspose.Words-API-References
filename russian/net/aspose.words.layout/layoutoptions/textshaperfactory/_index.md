@@ -1,14 +1,14 @@
 ---
 title: TextShaperFactory
 second_title: Справочник по API Aspose.Words для .NET
-description: Получает или задаетITextShaperFactoryaspose.words.shaping/itextshaperfactoryреализация используемая для функций рендеринга Advanced Typography.
+description: Получает или устанавливаетITextShaperFactoryaspose.words.shaping/itextshaperfactory реализация используемая для функций рендеринга Advanced Typography.
 type: docs
 weight: 90
 url: /ru/net/aspose.words.layout/layoutoptions/textshaperfactory/
 ---
 ## LayoutOptions.TextShaperFactory property
 
-Получает или задает[`ITextShaperFactory`](../../../aspose.words.shaping/itextshaperfactory)реализация, используемая для функций рендеринга Advanced Typography.
+Получает или устанавливает[`ITextShaperFactory`](../../../aspose.words.shaping/itextshaperfactory) реализация, используемая для функций рендеринга Advanced Typography.
 
 ```csharp
 public ITextShaperFactory TextShaperFactory { get; set; }

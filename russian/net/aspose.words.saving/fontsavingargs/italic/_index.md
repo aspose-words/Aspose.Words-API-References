@@ -1,14 +1,14 @@
 ---
 title: Italic
 second_title: Справочник по API Aspose.Words для .NET
-description: Указывает является ли текущий шрифт курсивным.
+description: Указывает является ли текущий шрифт курсивом.
 type: docs
 weight: 80
 url: /ru/net/aspose.words.saving/fontsavingargs/italic/
 ---
 ## FontSavingArgs.Italic property
 
-Указывает, является ли текущий шрифт курсивным.
+Указывает, является ли текущий шрифт курсивом.
 
 ```csharp
 public bool Italic { get; }

@@ -1,14 +1,14 @@
 ---
 title: DigitalSignature
 second_title: Справочник по API Aspose.Words для .NET
-description: Представляет цифровую подпись на документе и результат ее проверки.
+description: Представляет цифровую подпись документа и результат ее проверки.
 type: docs
 weight: 370
 url: /ru/net/aspose.words.digitalsignatures/digitalsignature/
 ---
 ## DigitalSignature class
 
-Представляет цифровую подпись на документе и результат ее проверки.
+Представляет цифровую подпись документа и результат ее проверки.
 
 ```csharp
 public class DigitalSignature
@@ -18,13 +18,13 @@ public class DigitalSignature
 
 | Имя | Описание |
 | --- | --- |
-| [CertificateHolder](../../aspose.words.digitalsignatures/digitalsignature/certificateholder) { get; } | Возвращает объект держателя сертификата, который содержит сертификат, использованный для подписи документа. |
+| [CertificateHolder](../../aspose.words.digitalsignatures/digitalsignature/certificateholder) { get; } | Возвращает объект держателя сертификата, содержащий сертификат, который использовался для подписи документа. |
 | [Comments](../../aspose.words.digitalsignatures/digitalsignature/comments) { get; } | Получает комментарий к цели подписания. |
-| [IssuerName](../../aspose.words.digitalsignatures/digitalsignature/issuername) { get; } | Возвращает различающееся имя субъекта издателя сертификата. |
+| [IssuerName](../../aspose.words.digitalsignatures/digitalsignature/issuername) { get; } | Возвращает различающееся имя субъекта сертификата isuuer. |
 | [IsValid](../../aspose.words.digitalsignatures/digitalsignature/isvalid) { get; } | Возвращает true, если эта цифровая подпись действительна и документ не был подделан. |
 | [SignatureType](../../aspose.words.digitalsignatures/digitalsignature/signaturetype) { get; } | Получает тип цифровой подписи. |
 | [SignTime](../../aspose.words.digitalsignatures/digitalsignature/signtime) { get; } | Получает время подписания документа. |
-| [SubjectName](../../aspose.words.digitalsignatures/digitalsignature/subjectname) { get; } | Возвращает отличительное имя субъекта сертификата, который использовался для подписи документа. |
+| [SubjectName](../../aspose.words.digitalsignatures/digitalsignature/subjectname) { get; } | Возвращает различающееся имя субъекта сертификата, который использовался для подписи документа. |
 
 ## Методы
 

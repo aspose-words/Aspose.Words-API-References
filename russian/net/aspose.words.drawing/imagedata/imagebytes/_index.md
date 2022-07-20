@@ -1,14 +1,14 @@
 ---
 title: ImageBytes
 second_title: Справочник по API Aspose.Words для .NET
-description: Получает или задает необработанные байты изображения хранящиеся в форме.
+description: Получает или задает необработанные байты изображения хранящегося в форме.
 type: docs
 weight: 120
 url: /ru/net/aspose.words.drawing/imagedata/imagebytes/
 ---
 ## ImageData.ImageBytes property
 
-Получает или задает необработанные байты изображения, хранящиеся в форме.
+Получает или задает необработанные байты изображения, хранящегося в форме.
 
 ```csharp
 public byte[] ImageBytes { get; set; }
@@ -16,9 +16,9 @@ public byte[] ImageBytes { get; set; }
 
 ### Примечания
 
-Установка значения` null` или пустой массив удалит изображение из формы.
+Установка значения`нулевой` или пустой массив удалит изображение из формы.
 
-Возвращает` null` , если изображение не сохранено в документе (например, изображение, вероятно, связано в таком случае).
+Возвращает`нулевой` если изображение не сохранено в документе (например, в этом случае изображение, вероятно, связано).
 
 ### Примеры
 
@@ -31,10 +31,10 @@ Shape imgShape = (Shape) imgSourceDoc.GetChild(NodeType.Shape, 0, true);
 
 Assert.True(imgShape.HasImage);
 
- // ToByteArray() возвращает массив, хранящийся в свойстве ImageBytes.
+// ToByteArray() возвращает массив, хранящийся в свойстве ImageBytes.
 Assert.AreEqual(imgShape.ImageData.ImageBytes, imgShape.ImageData.ToByteArray());
 
- // Сохраняем данные изображения фигуры в файл изображения в локальной файловой системе.
+// Сохраняем данные изображения фигуры в файл изображения в локальной файловой системе.
 using (Stream imgStream = imgShape.ImageData.ToStream())
 {
     using (FileStream outStream = new FileStream(ArtifactsDir + "Drawing.GetDataFromImage.png",

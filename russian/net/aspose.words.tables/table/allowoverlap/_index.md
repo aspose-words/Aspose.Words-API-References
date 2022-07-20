@@ -1,14 +1,14 @@
 ---
 title: AllowOverlap
 second_title: Справочник по API Aspose.Words для .NET
-description: Определяет должна ли плавающая таблица позволять другим плавающим объектам в документе перекрывать свои экстенты при отображении. Значение по умолчанию true .
+description: Определяет должна ли плавающая таблица позволять другим плавающим объектам в документе перекрывать свои экстенты при отображении. Значение по умолчаниюистинный .
 type: docs
 weight: 70
 url: /ru/net/aspose.words.tables/table/allowoverlap/
 ---
 ## Table.AllowOverlap property
 
-Определяет, должна ли плавающая таблица позволять другим плавающим объектам в документе перекрывать свои экстенты при отображении. Значение по умолчанию:` true` .
+Определяет, должна ли плавающая таблица позволять другим плавающим объектам в документе перекрывать свои экстенты при отображении. Значение по умолчанию:`истинный` .
 
 ```csharp
 public bool AllowOverlap { get; }
@@ -29,12 +29,12 @@ if (table.TextWrapping == TextWrapping.Around)
     Assert.AreEqual(RelativeVerticalPosition.Paragraph, table.VerticalAnchor);
     Assert.AreEqual(false, table.AllowOverlap);
 
-     // Только Margin, Page, Column доступны в RelativeHorizontalPosition для установки HorizontalAnchor.
-     // ArgumentException будет сгенерировано для любых других значений.
+    // Только Margin, Page, Column доступны в RelativeHorizontalPosition для установщика HorizontalAnchor.
+    // ArgumentException будет сгенерировано для любых других значений.
     table.HorizontalAnchor = RelativeHorizontalPosition.Column;
 
-     // Только Margin, Page, Paragraph доступны в RelativeVerticalPosition для установки VerticalAnchor.
-     // ArgumentException будет сгенерировано для любых других значений.
+    // Только Margin, Page, Paragraph доступны в RelativeVerticalPosition для установщика VerticalAnchor.
+    // ArgumentException будет сгенерировано для любых других значений.
     table.VerticalAnchor = RelativeVerticalPosition.Page;
 }
 ```

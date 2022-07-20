@@ -16,48 +16,27 @@ public DigitalSignatureCollection DigitalSignatures { get; }
 
 ### 评论
 
-此集合包含从原始文档加载的数字签名。 当您将此[`Document`](../../document)object 保存到文件或流中时，这些数字签名将不会被保存，因为保存或转换将生成与 original 不同的文档，并且原始数字签名将不再有效。
+此集合包含从原始文档加载的数字签名。 保存此文件时将不会保存这些数字签名[`Document`](../../document)object 到文件或流中，因为保存或转换将生成与原始的 不同的文档，并且原始数字签名将不再有效。
 
-这个集合永远不会为空。如果文档未签名，它将包含零个元素。
+此集合永远不会为空。如果文档未签名，它将包含零个元素。
 
 ### 例子
 
-显示如何验证和显示有关文档中每个签名的信息。
+演示如何验证和显示有关文档中每个签名的信息。
 
 ```csharp
-// 验证文档是否未签名。
-Assert.False(FileFormatUtil.DetectFileFormat(MyDir + "Document.docx").HasDigitalSignature);
+Document doc = new Document(MyDir + "Digitally signed.docx");
 
-// 从 PKCS12 文件创建一个 CertificateHolder 对象，我们将使用它来签署文档。
-CertificateHolder certificateHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "aw", null);
-
-// 将文档的签名副本保存到本地文件系统有两种方法：
-// 1 - 通过本地系统文件名指定一个文档，并将签名副本保存在另一个文件名指定的位置。
-DigitalSignatureUtil.Sign(MyDir + "Document.docx", ArtifactsDir + "Document.DigitalSignature.docx", 
-    certificateHolder, new SignOptions() { SignTime = DateTime.Now } );
-
-Assert.True(FileFormatUtil.DetectFileFormat(ArtifactsDir + "Document.DigitalSignature.docx").HasDigitalSignature);
-
-// 2 - 从流中获取文档并将签名副本保存到另一个流。
-using (FileStream inDoc = new FileStream(MyDir + "Document.docx", FileMode.Open))
+foreach (DigitalSignature signature in doc.DigitalSignatures)
 {
-    using (FileStream outDoc = new FileStream(ArtifactsDir + "Document.DigitalSignature.docx", FileMode.Create))
-    {
-        DigitalSignatureUtil.Sign(inDoc, outDoc, certificateHolder);
-    }
+    Console.WriteLine($"{(signature.IsValid ? "Valid" : "Invalid")} signature: ");
+    Console.WriteLine($"\tReason:\t{signature.Comments}"); 
+    Console.WriteLine($"\tType:\t{signature.SignatureType}");
+    Console.WriteLine($"\tSign time:\t{signature.SignTime}");
+    Console.WriteLine($"\tSubject name:\t{signature.CertificateHolder.Certificate.SubjectName}");
+    Console.WriteLine($"\tIssuer name:\t{signature.CertificateHolder.Certificate.IssuerName.Name}");
+    Console.WriteLine();
 }
-
-Assert.True(FileFormatUtil.DetectFileFormat(ArtifactsDir + "Document.DigitalSignature.docx").HasDigitalSignature);
-
-// 请验证文档的所有数字签名是否有效并检查其详细信息。
-Document signedDoc = new Document(ArtifactsDir + "Document.DigitalSignature.docx");
-DigitalSignatureCollection digitalSignatureCollection = signedDoc.DigitalSignatures;
-
-Assert.True(digitalSignatureCollection.IsValid);
-Assert.AreEqual(1, digitalSignatureCollection.Count);
-Assert.AreEqual(DigitalSignatureType.XmlDsig, digitalSignatureCollection[0].SignatureType);
-Assert.AreEqual("CN=Morzal.Me", signedDoc.DigitalSignatures[0].IssuerName);
-Assert.AreEqual("CN=Morzal.Me", signedDoc.DigitalSignatures[0].SubjectName);
 ```
 
 显示如何使用 X.509 证书签署文档。

@@ -16,7 +16,7 @@ public string PostalAddress { get; set; }
 
 ### 例子
 
-显示如何使用 BARCODE 字段以条形码的形式显示美国邮政编码。
+演示如何使用 BARCODE 字段以条形码的形式显示美国邮政编码。
 
 ```csharp
 Document doc = new Document();

@@ -1,14 +1,14 @@
 ---
 title: StyleCollection
 second_title: Aspose.Words for .NET API 参考
-description: Style 对象的集合表示文档中的内置样式和用户定义的样式
+description: Style 对象的集合代表文档中的内置样式和用户定义的样式
 type: docs
-weight: 5790
+weight: 5840
 url: /zh/net/aspose.words/stylecollection/
 ---
 ## StyleCollection class
 
-Style 对象的集合，表示文档中的内置样式和用户定义的样式。
+Style 对象的集合，代表文档中的内置样式和用户定义的样式。
 
 ```csharp
 public class StyleCollection : IEnumerable<Style>
@@ -28,14 +28,14 @@ public class StyleCollection : IEnumerable<Style>
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Add](../../aspose.words/stylecollection/add)(StyleType, string) | 创建新的用户定义样式并将其添加到集合中。 |
+| [Add](../../aspose.words/stylecollection/add)(StyleType, string) | 创建一个新的用户定义样式并将其添加到集合中。 |
 | [AddCopy](../../aspose.words/stylecollection/addcopy)(Style) | 将样式复制到此集合中。 |
 | [ClearQuickStyleGallery](../../aspose.words/stylecollection/clearquickstylegallery)() | 从“快速样式库”面板中删除所有样式。 |
 | [GetEnumerator](../../aspose.words/stylecollection/getenumerator)() | 获取一个枚举器对象，该对象将按名称的字母顺序枚举样式。 |
 
 ### 例子
 
-展示如何创建和使用带有列表格式的段落样式。
+展示如何使用列表格式创建和使用段落样式。
 
 ```csharp
 Document doc = new Document();

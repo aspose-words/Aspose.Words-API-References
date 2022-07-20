@@ -1,14 +1,14 @@
 ---
 title: VisitCommentRangeStart
 second_title: Справочник по API Aspose.Words для .NET
-description: Вызывается когда встречается начало прокомментированного диапазона текста.
+description: Вызывается когда встречается начало комментируемого диапазона текста.
 type: docs
 weight: 120
 url: /ru/net/aspose.words/documentvisitor/visitcommentrangestart/
 ---
 ## DocumentVisitor.VisitCommentRangeStart method
 
-Вызывается, когда встречается начало прокомментированного диапазона текста.
+Вызывается, когда встречается начало комментируемого диапазона текста.
 
 ```csharp
 public virtual VisitorAction VisitCommentRangeStart(CommentRangeStart commentRangeStart)
@@ -16,15 +16,15 @@ public virtual VisitorAction VisitCommentRangeStart(CommentRangeStart commentRan
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| commentRangeStart | CommentRangeStart | Посещаемый объект. |
+| commentRangeStart | CommentRangeStart | Объект, который посещается. |
 
 ### Возвращаемое значение
 
-A[`VisitorAction`](../../visitoraction)значение, указывающее, как продолжить перечисление.
+А[`VisitorAction`](../../visitoraction) значение, указывающее, как продолжить перечисление.
 
 ### Примеры
 
-Показывает, как распечатать структуру узлов каждого комментария и диапазона комментариев в документе.
+Показывает, как распечатать структуру узла каждого комментария и диапазона комментариев в документе.
 
 ```csharp
 public void CommentsToText()
@@ -32,17 +32,17 @@ public void CommentsToText()
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     CommentStructurePrinter visitor = new CommentStructurePrinter();
 
-     // Когда составной узел принимает посетителя документа, посетитель посещает принимающий узел, 
-     // а затем обходит все дочерние узлы в порядке глубины.
-     // Посетитель может читать и изменять каждый посещенный узел.
+    // Когда составной узел принимает посетителя документа, посетитель посещает принимающий узел,
+    // а затем обходит все дочерние элементы узла в порядке глубины.
+    // Посетитель может читать и изменять каждый посещаемый узел.
     doc.Accept(visitor);
 
     Console.WriteLine(visitor.GetText());
 }
 
 /// <summary>
- /// Обходит небинарное дерево дочерних узлов узла.
- /// Создает карту в виде строки всех встреченных узлов Comment/CommentRange и их потомков.
+/// Обходит небинарное дерево дочерних узлов узла.
+/// Создает карту в виде строки всех встреченных узлов Comment/CommentRange и их дочерних элементов.
 /// </summary>
 public class CommentStructurePrinter : DocumentVisitor
 {
@@ -58,8 +58,8 @@ public class CommentStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-     /// Вызывается, когда в документе встречается узел Run.
-     /// Запуск записывается, только если он является дочерним элементом узла Comment или CommentRange.
+    /// Вызывается, когда в документе встречается узел Run.
+    /// Запуск записывается только в том случае, если он является дочерним элементом узла Comment или CommentRange.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {
@@ -69,7 +69,7 @@ public class CommentStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-     /// Вызывается, когда в документе встречается узел CommentRangeStart.
+    /// Вызывается, когда в документе встречается узел CommentRangeStart.
     /// </summary>
     public override VisitorAction VisitCommentRangeStart(CommentRangeStart commentRangeStart)
     {
@@ -81,7 +81,7 @@ public class CommentStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-     /// Вызывается, когда в документе встречается узел CommentRangeEnd.
+    /// Вызывается, когда в документе встречается узел CommentRangeEnd.
     /// </summary>
     public override VisitorAction VisitCommentRangeEnd(CommentRangeEnd commentRangeEnd)
     {
@@ -93,7 +93,7 @@ public class CommentStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-     /// Вызывается, когда в документе встречается узел Comment.
+    /// Вызывается, когда в документе встречается узел комментариев.
     /// </summary>
     public override VisitorAction VisitCommentStart(Comment comment)
     {
@@ -106,7 +106,7 @@ public class CommentStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-     /// Вызывается после посещения всех дочерних узлов узла Comment.
+    /// Вызывается после посещения всех дочерних узлов узла Comment.
     /// </summary>
     public override VisitorAction VisitCommentEnd(Comment comment)
     {
@@ -118,10 +118,10 @@ public class CommentStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-     /// Добавляем строку в StringBuilder и делаем отступ в зависимости от того, насколько глубоко находится посетитель
-     /// в дерево дочерних узлов комментария/диапазона комментариев.
+    /// Добавляем строку в StringBuilder и делаем отступ в зависимости от того, насколько глубоко находится посетитель
+    /// в дерево дочерних узлов комментария/диапазона комментариев.
     /// </summary>
-     /// <param name="text"></param>
+    /// <param name="text"></param>
     private void IndentAndAppendLine(string text)
     {
         for (int i = 0; i < mDocTraversalDepth; i++)

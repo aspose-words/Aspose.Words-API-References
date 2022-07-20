@@ -18,11 +18,11 @@ public enum CalendarType
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| Gregorian | `0` | 公历。 |
-| Hijri | `1` | 回历农历。 |
-| Hebrew | `2` | 希伯来农历。 |
-| SakaEra | `3` | 萨卡时代日历。 |
-| UmAlQura | `4` | Um-al-Qura 日历。 |
+| Gregorian | `0` | 公历. |
+| Hijri | `1` | 回历农历. |
+| Hebrew | `2` | 希伯来农历. |
+| SakaEra | `3` | 坂纪元年历. |
+| UmAlQura | `4` | Um-al-Qura 日历. |
 
 ### 例子
 

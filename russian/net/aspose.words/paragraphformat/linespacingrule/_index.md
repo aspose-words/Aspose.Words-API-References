@@ -34,7 +34,7 @@ builder.Writeln("Minimum line spacing of 20.");
 builder.Writeln("Minimum line spacing of 20.");
 
 // 2 - Установить точный интервал.
-// Использование размера шрифта, слишком большого для интервала, приведет к обрезанию текста.
+// Использование размеров шрифта, которые слишком велики для интервала, приведет к обрезанию текста.
 builder.ParagraphFormat.LineSpacingRule = LineSpacingRule.Exactly;
 builder.ParagraphFormat.LineSpacing = 5;
 

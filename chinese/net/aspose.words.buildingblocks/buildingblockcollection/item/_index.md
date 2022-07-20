@@ -20,9 +20,9 @@ public BuildingBlock this[int index] { get; }
 
 ### 评论
 
-索引从零开始。
+该索引从零开始。
 
-负索引是允许的，表示从集合后面访问。 例如 -1 表示最后一项，-2 表示倒数第二个，依此类推。
+允许使用负索引并指示从集合的背面进行访问。 例如 -1 表示最后一项，-2 表示倒数第二个，依此类推。
 
 如果 index 大于或等于列表中的项目数，则返回空引用。
 
@@ -48,33 +48,33 @@ public void GlossaryDocument()
 
     doc.GlossaryDocument = glossaryDoc;
 
-     // 有多种访问构建块的方式。
-     // 1 - 获取集合中的第一个/最后一个构建块：
+    // 有多种访问构建块的方法。
+    // 1 - 获取集合中的第一个/最后一个构建块：
     Assert.AreEqual("Block 1", glossaryDoc.FirstBuildingBlock.Name);
     Assert.AreEqual("Block 5", glossaryDoc.LastBuildingBlock.Name);
 
-     // 2 - 通过索引获取构建块：
+    // 2 - 通过索引获取构建块：
     Assert.AreEqual("Block 2", glossaryDoc.BuildingBlocks[1].Name);
     Assert.AreEqual("Block 3", glossaryDoc.BuildingBlocks.ToArray()[2].Name);
 
-     // 3 - 获取与画廊、名称和类别匹配的第一个构建块：
+    // 3 - 获取与画廊、名称和类别匹配的第一个构建块：
     Assert.AreEqual("Block 4", 
         glossaryDoc.GetBuildingBlock(BuildingBlockGallery.All, "(Empty Category)", "Block 4").Name);
 
-     // 我们将使用自定义访问者来实现，
-     // 这将为 GlossaryDocument 中的每个 BuildingBlock 提供唯一的 GUID
+    // 我们将使用自定义访问者来做到这一点，
+    // 这将为 GlossaryDocument 中的每个 BuildingBlock 提供唯一的 GUID
     GlossaryDocVisitor visitor = new GlossaryDocVisitor();
     glossaryDoc.Accept(visitor);
 
     Console.WriteLine(visitor.GetText());
 
-     // 在 Microsoft Word 中，我们可以通过“插入”-> 访问构建块“快速零件”-> “积木组织者”.
+    // 在 Microsoft Word 中，我们可以通过“插入”-> 访问构建块“快速零件”-> “积木组织者”。
     doc.Save(ArtifactsDir + "BuildingBlocks.GlossaryDocument.dotx"); 
 }
 
 /// <summary>
-/// 给访问过的词汇表文档中的每个构建块一个唯一的 GUID.
- /// 将 GUID 构建块对存储在字典中。
+/// 为访问的词汇表文档中的每个构建块提供唯一的 GUID。
+/// 将 GUID 构建块对存储在字典中。
 /// </summary>
 public class GlossaryDocVisitor : DocumentVisitor
 {

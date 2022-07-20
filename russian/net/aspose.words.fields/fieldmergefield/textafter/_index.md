@@ -16,7 +16,7 @@ public string TextAfter { get; set; }
 
 ### Примеры
 
-Показывает, как использовать поля MERGEFIELD для выполнения слияния почты.
+Показывает, как использовать поля MERGEFIELD для выполнения слияния.
 
 ```csharp
 Document doc = new Document();

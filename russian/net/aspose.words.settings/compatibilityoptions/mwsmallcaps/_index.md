@@ -1,14 +1,14 @@
 ---
 title: MWSmallCaps
 second_title: Справочник по API Aspose.Words для .NET
-description: Эмулируйте Word 5.x для форматирования малых заглавных букв в Macintosh.
+description: Эмуляция Word 5.x для форматирования малых заглавных букв в Macintosh.
 type: docs
 weight: 320
 url: /ru/net/aspose.words.settings/compatibilityoptions/mwsmallcaps/
 ---
 ## CompatibilityOptions.MWSmallCaps property
 
-Эмулируйте Word 5.x для форматирования малых заглавных букв в Macintosh.
+Эмуляция Word 5.x для форматирования малых заглавных букв в Macintosh.
 
 ```csharp
 public bool MWSmallCaps { get; set; }

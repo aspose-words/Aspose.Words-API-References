@@ -20,7 +20,7 @@ Aspose.Words 在将图像合并到文档后关闭此流。
 
 ### 例子
 
-显示如何将存储在数据库 BLOB 字段中的图像插入到报告中。
+演示如何将存储在数据库 BLOB 字段中的图像插入到报表中。
 
 ```csharp
 public void ImageFromBlob()
@@ -36,7 +36,7 @@ public void ImageFromBlob()
     {
         conn.Open();
 
-        // 打开数据读取器，需要处于一次读取所有记录的模式
+        // 打开数据读取器，它需要处于一次读取所有记录的模式。
         OleDbCommand cmd = new OleDbCommand(query, conn);
         IDataReader dataReader = cmd.ExecuteReader();
 
@@ -44,17 +44,16 @@ public void ImageFromBlob()
     }
 
     doc.Save(ArtifactsDir + "MailMergeEvent.ImageFromBlob.docx");
-}
 
 private class HandleMergeImageFieldFromBlob : IFieldMergingCallback
 {
     void IFieldMergingCallback.FieldMerging(FieldMergingArgs args)
     {
-         // 什么都不做。
+        // 没做什么。
     }
 
     /// <summary>
-     /// 当邮件合并在文档中遇到名称中带有“Image:”标签的 MERGEFIELD 时调用。
+    /// 当邮件合并在文档中遇到名称中带有“Image:”标签的 MERGEFIELD 时调用。
     /// </summary>
     void IFieldMergingCallback.ImageFieldMerging(ImageFieldMergingArgs e)
     {

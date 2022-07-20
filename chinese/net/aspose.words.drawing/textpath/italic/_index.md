@@ -8,7 +8,7 @@ url: /zh/net/aspose.words.drawing/textpath/italic/
 ---
 ## TextPath.Italic property
 
-如果字体格式为斜体，则为真。
+如果字体格式为斜体则为真。
 
 ```csharp
 public bool Italic { get; set; }
@@ -16,7 +16,7 @@ public bool Italic { get; set; }
 
 ### 评论
 
-默认值为 **false** 。
+默认值为 **错误的**.
 
 ### 例子
 

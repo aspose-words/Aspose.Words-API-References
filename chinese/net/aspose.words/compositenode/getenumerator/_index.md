@@ -1,14 +1,14 @@
 ---
 title: GetEnumerator
 second_title: Aspose.Words for .NET API 参考
-description: 为在此节点的子节点上的每个样式迭代提供支持
+description: 为在该节点的子节点上的每个样式迭代提供支持
 type: docs
 weight: 110
 url: /zh/net/aspose.words/compositenode/getenumerator/
 ---
 ## CompositeNode.GetEnumerator method
 
-为在此节点的子节点上的每个样式迭代提供支持。
+为在该节点的子节点上的每个样式迭代提供支持。
 
 ```csharp
 public IEnumerator<Node> GetEnumerator()

@@ -16,13 +16,13 @@ public void OneColorGradient(GradientStyle style, GradientVariant variant, doubl
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| style | GradientStyle | 渐变样式[`GradientStyle`](../../gradientstyle) |
+| style | GradientStyle | 渐变风格[`GradientStyle`](../../gradientstyle) |
 | variant | GradientVariant | 渐变变体[`GradientVariant`](../../gradientvariant) |
 | degree | Double | 梯度度。可以是从 0.0（暗）到 1.0（亮）的值。 |
 
 ### 例子
 
-显示如何使用渐变填充形状。
+展示如何用渐变填充形状。
 
 ```csharp
 Document doc = new Document();
@@ -80,13 +80,13 @@ public void OneColorGradient(Color color, GradientStyle style, GradientVariant v
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | color | Color | 构建渐变的颜色。 |
-| style | GradientStyle | 渐变样式[`GradientStyle`](../../gradientstyle) |
+| style | GradientStyle | 渐变风格[`GradientStyle`](../../gradientstyle) |
 | variant | GradientVariant | 渐变变体[`GradientVariant`](../../gradientvariant) |
-| degree | Double | 渐变度数。可以是从 0.0（暗）到 1.0（亮）的值。 |
+| degree | Double | 梯度度。可以是从 0.0（暗）到 1.0（亮）的值。 |
 
 ### 例子
 
-显示如何使用渐变填充形状。
+展示如何用渐变填充形状。
 
 ```csharp
 Document doc = new Document();

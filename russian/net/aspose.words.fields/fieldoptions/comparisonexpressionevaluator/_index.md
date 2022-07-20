@@ -16,7 +16,7 @@ public IComparisonExpressionEvaluator ComparisonExpressionEvaluator { get; set; 
 
 ### Примеры
 
-Показывает, как реализовать пользовательскую оценку для IF и СРАВНИТЬ поля.
+Показывает, как реализовать пользовательскую оценку для полей ЕСЛИ и СРАВНИТЬ.
 
 ```csharp
 public void ConditionEvaluationExtensionPoint(string fieldCode, sbyte comparisonResult, string comparisonError,

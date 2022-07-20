@@ -1,14 +1,14 @@
 ---
 title: Separator
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置用于图表数据标签的字符串分隔符 默认为逗号但饼图仅显示类别名称和百分比除外此时应使用换行符 
+description: 获取或设置用于图表数据标签的字符串分隔符 默认为逗号除了仅显示类别名称和百分比的饼图外应使用换行符 
 type: docs
 weight: 50
 url: /zh/net/aspose.words.drawing.charts/chartdatalabel/separator/
 ---
 ## ChartDataLabel.Separator property
 
-获取或设置用于图表数据标签的字符串分隔符。 默认为逗号，但饼图仅显示类别名称和百分比除外，此时应使用换行符 。
+获取或设置用于图表数据标签的字符串分隔符。 默认为逗号，除了仅显示类别名称和百分比的饼图外，应使用换行符 。
 
 ```csharp
 public string Separator { get; set; }

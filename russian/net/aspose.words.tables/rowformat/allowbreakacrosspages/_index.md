@@ -22,10 +22,10 @@ public bool AllowBreakAcrossPages { get; set; }
 Document doc = new Document(MyDir + "Table spanning two pages.docx");
 Table table = doc.FirstSection.Body.Tables[0];
 
- // Установите для свойства «AllowBreakAcrossPages» значение «false», чтобы сохранить row
- // одним куском, если таблица занимает две страницы, которые разбиваются по этой строке.
- // Если строка слишком велика для размещения на одной странице, Microsoft Word переместит ее на следующую страницу.
- // Установите для свойства "AllowBreakAcrossPages" значение "true", чтобы разрешить разбиение строки на две страницы.
+// Установите для свойства «AllowBreakAcrossPages» значение «false», чтобы сохранить строку
+// одним куском, если таблица занимает две страницы, которые разбиваются по этой строке.
+// Если строка слишком велика для размещения на одной странице, Microsoft Word переместит ее на следующую страницу.
+// Установите для свойства "AllowBreakAcrossPages" значение "true", чтобы разрешить разбиение строки на две страницы.
 foreach (Row row in table.OfType<Row>())
     row.RowFormat.AllowBreakAcrossPages = allowBreakAcrossPages;
 

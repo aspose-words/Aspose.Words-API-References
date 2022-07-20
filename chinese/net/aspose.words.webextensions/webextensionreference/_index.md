@@ -1,14 +1,14 @@
 ---
 title: WebExtensionReference
 second_title: Aspose.Words for .NET API 参考
-description: 表示对 Web 扩展的引用该引用用于标识 扩展的提供者位置和版本
+description: 表示对 Web 扩展的引用该参考用于标识 扩展的提供者位置和版本
 type: docs
-weight: 6440
+weight: 6490
 url: /zh/net/aspose.words.webextensions/webextensionreference/
 ---
 ## WebExtensionReference class
 
-表示对 Web 扩展的引用。该引用用于标识 扩展的提供者位置和版本。
+表示对 Web 扩展的引用。该参考用于标识 扩展的提供者位置和版本。
 
 ```csharp
 public class WebExtensionReference
@@ -26,7 +26,7 @@ public class WebExtensionReference
 | --- | --- |
 | [Id](../../aspose.words.webextensions/webextensionreference/id) { get; set; } | 与目录提供程序中的 Web 扩展关联的标识符。 |
 | [Store](../../aspose.words.webextensions/webextensionreference/store) { get; set; } | 指定存储 Web 扩展的市场实例。 |
-| [StoreType](../../aspose.words.webextensions/webextensionreference/storetype) { get; set; } | 指定市场类型。 |
+| [StoreType](../../aspose.words.webextensions/webextensionreference/storetype) { get; set; } | 指定市场的类型。 |
 | [Version](../../aspose.words.webextensions/webextensionreference/version) { get; set; } | 指定 Web 扩展的版本。 |
 
 ### 也可以看看

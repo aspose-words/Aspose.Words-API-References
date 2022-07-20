@@ -16,7 +16,7 @@ public bool ReverseOrder { get; set; }
 
 ### 评论
 
-MS Office 2016 新图表不支持该属性。默认值为 **false** 。
+MS Office 2016 新图表不支持该属性。默认值为 **错误的**.
 
 ### 例子
 

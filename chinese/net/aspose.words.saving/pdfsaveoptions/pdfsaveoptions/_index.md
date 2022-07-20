@@ -1,14 +1,14 @@
 ---
 title: PdfSaveOptions
 second_title: Aspose.Words for .NET API 参考
-description: 初始化此类的新实例该实例可用于将文档保存在 Pdf格式
+description: 初始化此类的新实例该实例可用于将文档保存在 中Pdf格式.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.saving/pdfsaveoptions/pdfsaveoptions/
 ---
 ## PdfSaveOptions constructor
 
-初始化此类的新实例，该实例可用于将文档保存在 Pdf格式。
+初始化此类的新实例，该实例可用于将文档保存在 中Pdf格式.
 
 ```csharp
 public PdfSaveOptions()
@@ -16,7 +16,7 @@ public PdfSaveOptions()
 
 ### 例子
 
-显示如何在将文档呈现为 PDF 时嵌入字体时启用或禁用子集。
+演示如何在将文档呈现为 PDF 时嵌入字体时启用或禁用子集。
 
 ```csharp
 Document doc = new Document();

@@ -1,14 +1,14 @@
 ---
 title: Unprotect
 second_title: Aspose.Words for .NET API 参考
-description: 无论密码如何都会从文档中删除保护
+description: 无论密码如何都删除文档的保护
 type: docs
 weight: 720
 url: /zh/net/aspose.words/document/unprotect/
 ---
 ## Unprotect() {#unprotect_1}
 
-无论密码如何，都会从文档中删除保护。
+无论密码如何，都删除文档的保护。
 
 ```csharp
 public void Unprotect()
@@ -18,7 +18,7 @@ public void Unprotect()
 
 即使文档有保护密码，此方法也会取消对文档的保护。
 
-请注意，文档保护不同于写保护。 使用[`WriteProtection`](../writeprotection)指定写保护。
+请注意，文档保护不同于写保护。 写保护是使用[`WriteProtection`](../writeprotection).
 
 ### 例子
 
@@ -80,7 +80,7 @@ public bool Unprotect(string password)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| password | String | 用于解除文档保护的密码。 |
+| password | String | 用于取消保护文档的密码。 |
 
 ### 返回值
 
@@ -90,7 +90,7 @@ public bool Unprotect(string password)
 
 仅当指定了正确的密码时，此方法才会取消对文档的保护。
 
-请注意，文档保护不同于写保护。 使用[`WriteProtection`](../writeprotection)指定写保护。
+请注意，文档保护不同于写保护。 写保护是使用[`WriteProtection`](../writeprotection).
 
 ### 例子
 

@@ -21,13 +21,13 @@ public bool BuildReport(Document document, object dataSource)
 
 ### 返回值
 
-指示模板文档解析是否成功的标志。 仅当[`Options`](../options)属性的值包含 :::时，返回的标志才有意义。 R5:F:Aspose.Words.Reporting.ReportBuildOptions.InlineErrorMessages:::选项。
+指示模板文档解析是否成功的标志。 返回的标志只有在[`Options`](../options)属性包括 InlineErrorMessages选项。
 
 ### 评论
 
-使用此重载，您可以在模板文档，但不能 引用数据源对象本身。您应该使用[`BuildReport`](../buildreport) 重载来实现此目的。
+使用此重载，您可以在模板文档中引用数据源的成员，但不能 引用数据源对象本身。你应该使用[`BuildReport`](../buildreport) 重载来实现这个。
 
-数据源对象可以是以下类型之一:
+数据源对象可以是以下类型之一：
 
 * [`XmlDataSource`](../../xmldatasource)
 * [`JsonDataSource`](../../jsondatasource)
@@ -39,11 +39,9 @@ public bool BuildReport(Document document, object dataSource)
 * IDataRecord
 * DataView
 * DataRowView
-* 任意其他任意非动态和非匿名 .NET 类型
+* 任何其他任意非动态和非匿名 .NET 类型
 
-_ x000d_
-
-有关如何在模板文档中使用不同类型的数据源的信息，请参阅模板语法 参考 (https://docs. aspose.com/display/wordsnet/Template+Syntax）。
+有关如何在模板文档中使用不同类型的数据源的信息，请参阅模板语法 参考 (https://docs.aspose.com/display/wordsnet/Template+Syntax)。
 
 ### 也可以看看
 
@@ -70,13 +68,13 @@ public bool BuildReport(Document document, object dataSource, string dataSourceN
 
 ### 返回值
 
-指示模板文档解析是否成功的标志。 仅当[`Options`](../options)属性的值包含 :::时，返回的标志才有意义。 R5:F:Aspose.Words.Reporting.ReportBuildOptions.InlineErrorMessages:::选项。
+指示模板文档解析是否成功的标志。 返回的标志只有在[`Options`](../options)属性包括 InlineErrorMessages选项。
 
 ### 评论
 
-使用此重载，您可以引用数据源的成员和模板中的数据源对象本身。 如果您不打算引用数据源对象本身，则可以省略*dataSourceName* 传递 null 或使用[`BuildReport`](../buildreport)过载。
+使用此重载，您可以在模板中引用数据源的成员和数据源对象本身。 如果不打算引用数据源对象本身，可以省略*dataSourceName* 传递 null 或使用[`BuildReport`](../buildreport)过载.
 
-数据源对象可以是以下类型之一:
+数据源对象可以是以下类型之一：
 
 * [`XmlDataSource`](../../xmldatasource)
 * [`JsonDataSource`](../../jsondatasource)
@@ -88,11 +86,9 @@ public bool BuildReport(Document document, object dataSource, string dataSourceN
 * IDataRecord
 * DataView
 * DataRowView
-* 任意其他任意非动态和非匿名 .NET 类型
+* 任何其他任意非动态和非匿名 .NET 类型
 
-_ x000d_
-
-有关如何在模板文档中使用不同类型的数据源的信息，请参阅模板语法 参考 (https://docs. aspose.com/display/wordsnet/Template+Syntax）。
+有关如何在模板文档中使用不同类型的数据源的信息，请参阅模板语法 参考 (https://docs.aspose.com/display/wordsnet/Template+Syntax)。
 
 ### 也可以看看
 
@@ -114,20 +110,20 @@ public bool BuildReport(Document document, object[] dataSources, string[] dataSo
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | document | Document | 要填充数据的模板文档。 |
-| dataSources | Object[] | 数据源对象数组。 |
+| dataSources | Object[] | 一组数据源对象。 |
 | dataSourceNames | String[] | 引用模板中数据源对象的名称数组。 |
 
 ### 返回值
 
-指示模板文档解析是否成功的标志。 仅当[`Options`](../options)属性的值包含 :::时，返回的标志才有意义。 R5:F:Aspose.Words.Reporting.ReportBuildOptions.InlineErrorMessages:::选项。
+指示模板文档解析是否成功的标志。 返回的标志只有在[`Options`](../options)属性包括 InlineErrorMessages选项。
 
 ### 评论
 
-使用此重载，您可以引用多个数据源对象及其模板中的成员。 如果您要 引用数据源的成员而不是数据源对象本身，则可以省略第一个数据源的名称（即为空字符串或 null） .其他数据源的名称 必须指定且唯一。
+使用此重载，您可以在模板中引用多个数据源对象及其成员。 如果您要 引用数据源的成员而不是数据源对象本身，则可以省略第一个数据源的名称（即为空字符串或null）。其他数据源的名称 必须指定且唯一。
 
-如果要使用单个数据源，请考虑使用[`BuildReport`](../buildreport) 和[`BuildReport`](../buildreport)重载。
+如果要使用单个数据源，请考虑使用[`BuildReport`](../buildreport) 和[`BuildReport`](../buildreport)而是重载。
 
-数据源对象可以是以下类型之一:
+数据源对象可以是以下类型之一：
 
 * [`XmlDataSource`](../../xmldatasource)
 * [`JsonDataSource`](../../jsondatasource)
@@ -139,11 +135,9 @@ public bool BuildReport(Document document, object[] dataSources, string[] dataSo
 * IDataRecord
 * DataView
 * DataRowView
-* 任意其他任意非动态和非匿名 .NET 类型
+* 任何其他任意非动态和非匿名 .NET 类型
 
-_ x000d_
-
-有关如何在模板文档中使用不同类型的数据源的信息，请参阅模板语法 参考 (https://docs. aspose.com/display/wordsnet/Template+Syntax）。
+有关如何在模板文档中使用不同类型的数据源的信息，请参阅模板语法 参考 (https://docs.aspose.com/display/wordsnet/Template+Syntax)。
 
 ### 也可以看看
 

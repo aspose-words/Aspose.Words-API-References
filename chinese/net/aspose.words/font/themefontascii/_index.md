@@ -1,14 +1,14 @@
 ---
 title: ThemeFontAscii
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置用于拉丁文本的主题字体字符代码从 0零到 127 的字符 在应用的字体方案中与此 Font 对象相关联
+description: 获取或设置用于拉丁文本的主题字体字符代码从 0零到 127 的字符 在与此 Font 对象关联的应用字体方案中
 type: docs
 weight: 480
 url: /zh/net/aspose.words/font/themefontascii/
 ---
 ## Font.ThemeFontAscii property
 
-获取或设置用于拉丁文本的主题字体（字符代码从 0（零）到 127 的字符） 在应用的字体方案中与此 Font 对象相关联。
+获取或设置用于拉丁文本的主题字体（字符代码从 0（零）到 127 的字符） 在与此 Font 对象关联的应用字体方案中。
 
 ```csharp
 public ThemeFont ThemeFontAscii { get; set; }

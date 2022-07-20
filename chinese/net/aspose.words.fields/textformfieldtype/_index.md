@@ -1,14 +1,14 @@
 ---
 title: TextFormFieldType
 second_title: Aspose.Words for .NET API 参考
-description: 指定文本表单字段的类型
+description: 指定文本表单域的类型
 type: docs
-weight: 2540
+weight: 2590
 url: /zh/net/aspose.words.fields/textformfieldtype/
 ---
 ## TextFormFieldType enumeration
 
-指定文本表单字段的类型。
+指定文本表单域的类型。
 
 ```csharp
 public enum TextFormFieldType
@@ -19,11 +19,11 @@ public enum TextFormFieldType
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
 | Regular | `0` | 文本表单域可以包含任何文本。 |
-| Number | `1` | 文本表单域只能包含数字。 |
+| Number | `1` | 文本表单字段只能包含数字。 |
 | Date | `2` | 文本表单字段只能包含有效的日期值。 |
 | CurrentDate | `3` | 文本表单字段值是字段更新的当前日期。 |
 | CurrentTime | `4` | 文本表单字段值是字段更新的当前时间。 |
-| Calculated | `5` | 文本表单字段值根据 FormField中指定的表达式计算。TextInputDefault属性。 |
+| Calculated | `5` | 文本表单字段值是根据 中指定的表达式计算的[`TextInputDefault`](../formfield/textinputdefault)属性. |
 
 ### 例子
 

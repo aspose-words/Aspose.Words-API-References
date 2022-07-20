@@ -16,7 +16,7 @@ public string DisplayText { get; set; }
 
 ### Примеры
 
-Показывает, что необходимо вставить поле GOTOBUTTON.
+Показывает, чтобы вставить поле GOTOBUTTON.
 
 ```csharp
 Document doc = new Document();

@@ -1,14 +1,14 @@
 ---
 title: ChartSeriesCollection
 second_title: Aspose.Words for .NET API 参考
-description: 表示ChartSeries./chartseries的集合
+description: 代表一个集合ChartSeries./chartseries.
 type: docs
 weight: 740
 url: /zh/net/aspose.words.drawing.charts/chartseriescollection/
 ---
 ## ChartSeriesCollection class
 
-表示[`ChartSeries`](../chartseries)的集合。
+代表一个集合[`ChartSeries`](../chartseries).
 
 ```csharp
 public class ChartSeriesCollection : IEnumerable<ChartSeries>
@@ -18,20 +18,20 @@ public class ChartSeriesCollection : IEnumerable<ChartSeries>
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Count](../../aspose.words.drawing.charts/chartseriescollection/count) { get; } | 返回此集合中[`ChartSeries`](../chartseries)的数量。 |
-| [Item](../../aspose.words.drawing.charts/chartseriescollection/item) { get; } | 在指定索引处返回[`ChartSeries`](../chartseries)。 |
+| [Count](../../aspose.words.drawing.charts/chartseriescollection/count) { get; } | 返回数量[`ChartSeries`](../chartseries)在这个集合中。 |
+| [Item](../../aspose.words.drawing.charts/chartseriescollection/item) { get; } | 返回一个[`ChartSeries`](../chartseries)在指定的索引处。 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Add](../../aspose.words.drawing.charts/chartseriescollection/add#add_2)(string, DateTime[], double[]) | 添加新的[`ChartSeries`](../chartseries)到这个集合。 使用此方法将系列添加到任何类型的区域、雷达和股票图表。 |
-| [Add](../../aspose.words.drawing.charts/chartseriescollection/add#add)(string, double[], double[]) | 添加新的[`ChartSeries`](../chartseries)到这个集合。 使用此方法将系列添加到任何类型的散点图。 |
-| [Add](../../aspose.words.drawing.charts/chartseriescollection/add#add_3)(string, string[], double[]) | 添加新的[`ChartSeries`](../chartseries)到这个集合。 使用此方法将系列添加到任何类型的条形图、柱形图、折线图和曲面图。 |
-| [Add](../../aspose.words.drawing.charts/chartseriescollection/add#add_1)(string, double[], double[], double[]) | 添加新的[`ChartSeries`](../chartseries)到这个集合。 使用此方法将系列添加到任何类型的气泡图。 |
-| [Clear](../../aspose.words.drawing.charts/chartseriescollection/clear)() | 从此集合中删除所有[`ChartSeries`](../chartseries)。 |
+| [Add](../../aspose.words.drawing.charts/chartseriescollection/add#add_2)(string, DateTime[], double[]) | 添加新的[`ChartSeries`](../chartseries)到此集合。 使用此方法将系列添加到任何类型的区域、雷达和股票图表。 |
+| [Add](../../aspose.words.drawing.charts/chartseriescollection/add#add)(string, double[], double[]) | 添加新的[`ChartSeries`](../chartseries)到此集合。 使用此方法将系列添加到任何类型的散点图。 |
+| [Add](../../aspose.words.drawing.charts/chartseriescollection/add#add_3)(string, string[], double[]) | 添加新的[`ChartSeries`](../chartseries)到此集合。 使用此方法将系列添加到任何类型的条形图、柱形图、折线图和曲面图。 |
+| [Add](../../aspose.words.drawing.charts/chartseriescollection/add#add_1)(string, double[], double[], double[]) | 添加新的[`ChartSeries`](../chartseries)到此集合。 使用此方法将系列添加到任何类型的气泡图。 |
+| [Clear](../../aspose.words.drawing.charts/chartseriescollection/clear)() | 删除所有[`ChartSeries`](../chartseries)来自这个集合。 |
 | [GetEnumerator](../../aspose.words.drawing.charts/chartseriescollection/getenumerator)() | 返回一个枚举器对象。 |
-| [RemoveAt](../../aspose.words.drawing.charts/chartseriescollection/removeat)(int) | 删除指定索引处的[`ChartSeries`](../chartseries)。 |
+| [RemoveAt](../../aspose.words.drawing.charts/chartseriescollection/removeat)(int) | 删除一个[`ChartSeries`](../chartseries)在指定的索引处。 |
 
 ### 例子
 

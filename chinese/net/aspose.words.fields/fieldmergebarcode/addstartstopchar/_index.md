@@ -16,7 +16,7 @@ public bool AddStartStopChar { get; set; }
 
 ### 例子
 
-显示如何对 CODE39 条形码执行邮件合并。
+展示如何在 CODE39 条码上执行邮件合并。
 
 ```csharp
 Document doc = new Document();

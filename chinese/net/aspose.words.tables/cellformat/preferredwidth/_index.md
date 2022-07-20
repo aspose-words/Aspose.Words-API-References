@@ -16,15 +16,15 @@ public PreferredWidth PreferredWidth { get; set; }
 
 ### 评论
 
-首选宽度（连同表格的自动调整选项）确定实际 单元格的宽度由表格布局算法计算得出。表格布局可以由 Aspose.Words 在保存文档时执行，或在 Microsoft Word 显示文档时执行。
+首选宽度（连同表格的 Auto Fit 选项）决定了表格布局算法如何计算单元格的实际 宽度。表格布局可以在保存文档时由 Aspose.Words 执行，或在显示文档时由Microsoft Word 执行。
 
-首选宽度可以用磅或百分比指定。首选宽度 也可以指定为“auto”，这意味着没有指定首选宽度。
+首选宽度可以以磅或百分比指定。首选 width 也可以指定为“auto”，这意味着没有指定首选宽度。
 
-默认值为[`Auto`](../../preferredwidth/auto)。
+默认值为[`Auto`](../../preferredwidth/auto).
 
 ### 例子
 
-显示如何设置首选宽度对于表格单元格。
+显示如何为表格单元格设置首选宽度。
 
 ```csharp
 Document doc = new Document();

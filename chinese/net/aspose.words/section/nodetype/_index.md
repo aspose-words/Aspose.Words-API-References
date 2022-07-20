@@ -1,14 +1,14 @@
 ---
 title: NodeType
 second_title: Aspose.Words for .NET API 参考
-description: 返回 NodeType.Section 
+description: 返回 NodeType.Section.
 type: docs
 weight: 40
 url: /zh/net/aspose.words/section/nodetype/
 ---
 ## Section.NodeType property
 
-返回 **NodeType.Section** 。
+返回 **NodeType.Section**.
 
 ```csharp
 public override NodeType NodeType { get; }

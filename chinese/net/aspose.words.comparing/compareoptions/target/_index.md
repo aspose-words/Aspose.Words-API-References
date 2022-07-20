@@ -16,7 +16,7 @@ public ComparisonTargetType Target { get; set; }
 
 ### 例子
 
-显示在进行比较时如何过滤特定类型的文档元素。
+显示如何在进行比较时过滤特定类型的文档元素。
 
 ```csharp
 // 创建原始文档并用各种元素填充它。

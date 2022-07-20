@@ -1,14 +1,14 @@
 ---
 title: ToImage
 second_title: Справочник по API Aspose.Words для .NET
-description: Получает изображение хранящееся в форме как объектImage.
+description: Получает изображение хранящееся в форме какImage объект.
 type: docs
 weight: 220
 url: /ru/net/aspose.words.drawing/imagedata/toimage/
 ---
 ## ImageData.ToImage method
 
-Получает изображение, хранящееся в форме как объектImage.
+Получает изображение, хранящееся в форме, какImage объект.
 
 ```csharp
 public Image ToImage()
@@ -16,9 +16,9 @@ public Image ToImage()
 
 ### Примечания
 
-НовыйImageОбъект создается каждый раз при вызове этого метода.
+новыйImage объект создается каждый раз, когда вызывается этот метод.
 
-Ответственность за удаление объекта изображения лежит на вызывающем объекте.
+Вызывающий объект несет ответственность за удаление объекта изображения.
 
 ### Примеры
 
@@ -27,11 +27,11 @@ public Image ToImage()
 ```csharp
 Document imgSourceDoc = new Document(MyDir + "Images.docx");
 
-// Фигуры с установленным флагом "HasImage" сохраняют и отображают все изображения документа.
+// Формы с установленным флагом "HasImage" сохраняют и отображают все изображения документа.
 IEnumerable<Shape> shapesWithImages = 
     imgSourceDoc.GetChildNodes(NodeType.Shape, true).Cast<Shape>().Where(s => s.HasImage);
 
- // Проходим по каждой фигуре и сохраняем ее изображение.
+// Проходим по каждой фигуре и сохраняем ее изображение.
 ImageFormatConverter formatConverter = new ImageFormatConverter();
 
 using (IEnumerator<Shape> enumerator = shapesWithImages.GetEnumerator())

@@ -16,7 +16,7 @@ public PageBorderAppliesTo BorderAppliesTo { get; set; }
 
 ### 例子
 
-显示如何在第一页顶部创建宽蓝色边框。
+展示如何在第一页的顶部创建一个宽的蓝色边框。
 
 ```csharp
 Document doc = new Document();

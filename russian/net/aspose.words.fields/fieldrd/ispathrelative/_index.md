@@ -1,14 +1,14 @@
 ---
 title: IsPathRelative
 second_title: Справочник по API Aspose.Words для .NET
-description: Получает или задает указывает ли путь относительно текущего документа.
+description: Получает или задает является ли путь относительным к текущему документу.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.fields/fieldrd/ispathrelative/
 ---
 ## FieldRD.IsPathRelative property
 
-Получает или задает, указывает ли путь относительно текущего документа.
+Получает или задает, является ли путь относительным к текущему документу.
 
 ```csharp
 public bool IsPathRelative { get; set; }

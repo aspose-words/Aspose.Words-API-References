@@ -1,14 +1,14 @@
 ---
 title: ImageFileName
 second_title: Справочник по API Aspose.Words для .NET
-description: Задает имя файла изображения которое механизм слияния должен вставить в документ.
+description: Устанавливает имя файла изображения которое модуль слияния должен вставить в документ.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.mailmerging/imagefieldmergingargs/imagefilename/
 ---
 ## ImageFieldMergingArgs.ImageFileName property
 
-Задает имя файла изображения, которое механизм слияния должен вставить в документ.
+Устанавливает имя файла изображения, которое модуль слияния должен вставить в документ.
 
 ```csharp
 public string ImageFileName { get; set; }
@@ -16,7 +16,7 @@ public string ImageFileName { get; set; }
 
 ### Примеры
 
-Показывает, как установить размеры изображений, поскольку MERGEFIELDS принимает их во время слияния почты.
+Показывает, как установить размеры изображений, поскольку MERGEFIELDS принимает их во время слияния.
 
 ```csharp
 {

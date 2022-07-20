@@ -16,7 +16,7 @@ public Node RemoveChild(Node oldChild)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| oldChild | Node | Удаляемый узел. |
+| oldChild | Node | Узел для удаления. |
 
 ### Возвращаемое значение
 

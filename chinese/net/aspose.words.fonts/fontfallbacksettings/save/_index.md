@@ -1,14 +1,14 @@
 ---
 title: Save
 second_title: Aspose.Words for .NET API 参考
-description: 将当前的后备设置保存到流
+description: 将当前的后备设置保存到流中
 type: docs
 weight: 50
 url: /zh/net/aspose.words.fonts/fontfallbacksettings/save/
 ---
 ## Save(Stream) {#save}
 
-将当前的后备设置保存到流。
+将当前的后备设置保存到流中。
 
 ```csharp
 public void Save(Stream outputStream)
@@ -20,7 +20,7 @@ public void Save(Stream outputStream)
 
 ### 例子
 
-显示如何在流中加载和保存字体回退设置。
+展示如何在流中加载和保存字体回退设置。
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
@@ -66,7 +66,7 @@ public void Save(string fileName)
 
 ### 例子
 
-显示如何在本地文件系统中的 XML 文档中加载和保存字体回退设置。
+演示如何在本地文件系统中的 XML 文档中加载和保存字体回退设置。
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");

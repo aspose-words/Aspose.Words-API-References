@@ -16,7 +16,7 @@ public string Text { get; set; }
 
 ### 例子
 
-显示插入关键字字段。
+显示插入 KEYWORDS 字段。
 
 ```csharp
 Document doc = new Document();

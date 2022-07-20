@@ -16,11 +16,11 @@ public GroupShape(DocumentBase doc)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| doc | DocumentBase | 所有者文档。 |
+| doc | DocumentBase | 所有者文件。 |
 
 ### 评论
 
-默认情况下，形状是浮动的，具有默认位置和大小。
+默认情况下，形状是浮动的，并且具有默认位置和大小。
 
 您应该在创建形状后指定所需的形状属性。
 
@@ -34,9 +34,9 @@ public void GroupOfShapes()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-     // 如果需要创建“NonPrimitive”形状，如 SingleCornerSnipped、TopCornersSnipped、DiagonalCornersSnipped、
-     // TopCornersOneRoundedOneSnipped, SingleCornerRounded, TopCornersRounded, DiagonalCornersRounded
-     // 请使用 DocumentBuilder.InsertShape 方法。
+    // 如果需要创建“NonPrimitive”形状，例如 SingleCornerSnipped、TopCornersSnipped、DiagonalCornersSnipped，
+    // TopCornersOneRoundedOneSnipped, SingleCornerRounded, TopCornersRounded, DiagonalCornersRounded
+    // 请使用 DocumentBuilder.InsertShape 方法。
     Shape balloon = new Shape(doc, ShapeType.Balloon)
     {
         Width = 200, 
@@ -66,7 +66,7 @@ public void GroupOfShapes()
 }
 
 /// <summary>
- /// 将访问的形状组的内容打印到控制台。
+/// 将访问的形状组的内容打印到控制台。
 /// </summary>
 public class ShapeGroupPrinter : DocumentVisitor
 {

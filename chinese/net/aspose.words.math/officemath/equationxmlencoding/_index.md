@@ -1,14 +1,14 @@
 ---
 title: EquationXmlEncoding
 second_title: Aspose.Words for .NET API 参考
-description: 如果从 方程式 XML 读取此办公室数学对象则获取/设置用于对方程式 XML 进行编码的编码我们在保存文档时使用编码以与读取时相同的编码进行写入
+description: 获取/设置用于对等式 XML 进行编码的编码如果此办公数学对象是从 等式 XML 读取的我们在保存文档时使用编码以与读取时相同的编码写入
 type: docs
 weight: 20
 url: /zh/net/aspose.words.math/officemath/equationxmlencoding/
 ---
 ## OfficeMath.EquationXmlEncoding property
 
-如果从 方程式 XML 读取此办公室数学对象，则获取/设置用于对方程式 XML 进行编码的编码。我们在保存文档时使用编码以与读取时相同的编码进行写入。
+获取/设置用于对等式 XML 进行编码的编码，如果此办公数学对象是从 等式 XML 读取的。我们在保存文档时使用编码以与读取时相同的编码写入。
 
 ```csharp
 public Encoding EquationXmlEncoding { get; set; }
@@ -16,7 +16,7 @@ public Encoding EquationXmlEncoding { get; set; }
 
 ### 例子
 
-说明如何设置办公室数学显示格式。
+显示如何设置办公室数学显示格式。
 
 ```csharp
 Document doc = new Document(MyDir + "Office math.docx");

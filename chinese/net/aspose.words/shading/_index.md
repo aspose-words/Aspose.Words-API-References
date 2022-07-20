@@ -3,7 +3,7 @@ title: Shading
 second_title: Aspose.Words for .NET API 参考
 description: 包含对象的着色属性
 type: docs
-weight: 5640
+weight: 5690
 url: /zh/net/aspose.words/shading/
 ---
 ## Shading class
@@ -28,8 +28,8 @@ public class Shading : InternableComplexAttr
 | --- | --- |
 | [ClearFormatting](../../aspose.words/shading/clearformatting)() | 移除对象的阴影。 |
 | override [Equals](../../aspose.words/shading/equals#equals_1)(object) | 确定指定对象的值是否与当前对象相等。 |
-| [Equals](../../aspose.words/shading/equals#equals)(Shading) | 确定指定的 Shading 在值上是否与当前的 Shading 相等。 |
-| override [GetHashCode](../../aspose.words/shading/gethashcode)() | 用作此类型的哈希函数。 |
+| [Equals](../../aspose.words/shading/equals#equals)(Shading) | 确定指定 Shading 的值是否与当前 Shading 相等。 |
+| override [GetHashCode](../../aspose.words/shading/gethashcode)() | 用作此类型的散列函数。 |
 
 ### 例子
 
@@ -39,37 +39,23 @@ public class Shading : InternableComplexAttr
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 启动一个表格并为其边框设置默认颜色/厚度。
-Table table = builder.StartTable();
-table.SetBorders(LineStyle.Single, 2.0, Color.Black);
+BorderCollection borders = builder.ParagraphFormat.Borders;
+borders.DistanceFromText = 20;
+borders[BorderType.Left].LineStyle = LineStyle.Double;
+borders[BorderType.Right].LineStyle = LineStyle.Double;
+borders[BorderType.Top].LineStyle = LineStyle.Double;
+borders[BorderType.Bottom].LineStyle = LineStyle.Double;
 
-// 创建一个包含两个具有不同背景颜色的单元格的行。
-builder.InsertCell();
-builder.CellFormat.Shading.BackgroundPatternColor = Color.LightSkyBlue;
-builder.Writeln("Row 1, Cell 1.");
-builder.InsertCell();
-builder.CellFormat.Shading.BackgroundPatternColor = Color.Orange;
-builder.Writeln("Row 1, Cell 2.");
-builder.EndRow();
+Shading shading = builder.ParagraphFormat.Shading;
+shading.Texture = TextureIndex.TextureDiagonalCross;
+shading.BackgroundPatternColor = Color.LightCoral;
+shading.ForegroundPatternColor = Color.LightSalmon;
 
-// 重置单元格格式以禁用背景颜色
-// 为构建器创建的所有新单元格设置自定义边框粗细，
-// 然后构建第二行。
-builder.CellFormat.ClearFormatting();
-builder.CellFormat.Borders.Left.LineWidth = 4.0;
-builder.CellFormat.Borders.Right.LineWidth = 4.0;
-builder.CellFormat.Borders.Top.LineWidth = 4.0;
-builder.CellFormat.Borders.Bottom.LineWidth = 4.0;
-
-builder.InsertCell();
-builder.Writeln("Row 2, Cell 1.");
-builder.InsertCell();
-builder.Writeln("Row 2, Cell 2.");
-
-doc.Save(ArtifactsDir + "DocumentBuilder.TableBordersAndShading.docx");
+builder.Write("This paragraph is formatted with a double border and shading.");
+doc.Save(ArtifactsDir + "DocumentBuilder.ApplyBordersAndShading.docx");
 ```
 
-展示如何在构建表格时应用边框和阴影颜色。
+展示如何在构建表格时应用边框和底纹颜色。
 
 ```csharp
 Document doc = new Document();

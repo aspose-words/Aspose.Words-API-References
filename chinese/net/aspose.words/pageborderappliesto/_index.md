@@ -3,7 +3,7 @@ title: PageBorderAppliesTo
 second_title: Aspose.Words for .NET API 参考
 description: 指定打印页面边框的页面
 type: docs
-weight: 4050
+weight: 4100
 url: /zh/net/aspose.words/pageborderappliesto/
 ---
 ## PageBorderAppliesTo enumeration
@@ -24,7 +24,7 @@ public enum PageBorderAppliesTo
 
 ### 例子
 
-展示了如何在第一页的顶部创建一个宽的蓝色边框。
+展示如何在第一页的顶部创建一个宽的蓝色边框。
 
 ```csharp
 Document doc = new Document();

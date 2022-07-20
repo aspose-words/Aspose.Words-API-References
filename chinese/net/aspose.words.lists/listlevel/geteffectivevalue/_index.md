@@ -1,14 +1,14 @@
 ---
 title: GetEffectiveValue
 second_title: Aspose.Words for .NET API 参考
-description: 报告指定索引ListLevelaspose.words.lists/listlevel对象的字符串表示 的列表项参数指定NumberStyleaspose.words/numberstyle和一个可选的格式字符串 当Custom是指定的
+description: 报告ListLevelaspose.words.lists/listlevel列表项的指定 index 的对象参数指定NumberStyleaspose.words/numberstyle和一个可选的格式 string 使用时Custom已指定
 type: docs
 weight: 190
 url: /zh/net/aspose.words.lists/listlevel/geteffectivevalue/
 ---
 ## ListLevel.GetEffectiveValue method
 
-报告指定索引[`ListLevel`](../../listlevel)对象的字符串表示 的列表项。参数指定[`NumberStyle`](../../../aspose.words/numberstyle)和一个可选的格式字符串 当Custom是指定的。
+报告[`ListLevel`](../../listlevel)列表项的指定 index 的对象。参数指定[`NumberStyle`](../../../aspose.words/numberstyle)和一个可选的格式 string 使用时Custom已指定。
 
 ```csharp
 public static string GetEffectiveValue(int index, NumberStyle numberStyle, 
@@ -18,23 +18,23 @@ public static string GetEffectiveValue(int index, NumberStyle numberStyle,
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | index | Int32 | 列表项的索引（必须在 1 到 32767 的范围内）。 |
-| numberStyle | NumberStyle | [`NumberStyle`](../../../aspose.words/numberstyle)[`ListLevel`](../../listlevel)对象。 |
-| customNumberStyleFormat | String | Custom被指定（例如“a, ç, ĝ, ...”）。 在其他情况下，此参数必须为 null 或为空。 |
+| numberStyle | NumberStyle | 的[`NumberStyle`](../../../aspose.words/numberstyle)的[`ListLevel`](../../listlevel)对象. |
+| customNumberStyleFormat | String | 时使用的可选格式字符串Custom已指定（例如“a、ç、ĝ、...”）。 在其他情况下，此参数必须为 null 或为空。 |
 
 ### 返回值
 
-ListLevel的字符串表示对象，由 numberStyle 参数和 customNumberStyleFormat 参数描述，在列表项中由 index 参数确定的位置。
+的字符串表示[`ListLevel`](../../listlevel)对象，由 numberStyle 参数和 customNumberStyleFormat 参数描述，在列表项中由 index 参数确定的位置。
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentException | customNumberStyleFormat 为 null 或当 numberStyle 为自定义时为空。-或- customNumberStyleFormat 不为 null 或当 numberStyle 为非自定义时为空。- 或 - customNumberStyleFormat 无效。 |
+| ArgumentException | customNumberStyleFormat 为 null 或 numberStyle 为自定义时为空。-或- customNumberStyleFormat 不为 null 或 numberStyle 为非自定义时为空。-或- customNumberStyleFormat 无效。 |
 | ArgumentOutOfRangeException | 索引超出范围。 |
 
 ### 例子
 
-显示如何获取具有自定义数字样式的列表的格式。
+显示如何获取具有自定义编号样式的列表的格式。
 
 ```csharp
 Document doc = new Document(MyDir + "List with leading zero.docx");
@@ -48,7 +48,7 @@ if (listLevel.NumberStyle == NumberStyle.Custom)
 
 Assert.AreEqual("001, 002, 003, ...", customNumberStyleFormat);
 
- // 我们可以获取列表项的指定索引的值。
+// 我们可以获取列表项的指定索引的值。
 Assert.AreEqual("iv", ListLevel.GetEffectiveValue(4, NumberStyle.LowercaseRoman, null));
 Assert.AreEqual("005", ListLevel.GetEffectiveValue(5, NumberStyle.Custom, customNumberStyleFormat));
 ```

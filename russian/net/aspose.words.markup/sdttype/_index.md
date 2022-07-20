@@ -1,14 +1,14 @@
 ---
 title: SdtType
 second_title: Справочник по API Aspose.Words для .NET
-description: Задает тип узла тега структурированного документа SDT.
+description: Указывает тип узла тега структурированного документа SDT.
 type: docs
-weight: 3750
+weight: 3800
 url: /ru/net/aspose.words.markup/sdttype/
 ---
 ## SdtType enumeration
 
-Задает тип узла тега структурированного документа (SDT).
+Указывает тип узла тега структурированного документа (SDT).
 
 ```csharp
 public enum SdtType
@@ -18,13 +18,13 @@ public enum SdtType
 
 | Имя | Ценность | Описание |
 | --- | --- | --- |
-| None | `0` | SDT не назначен тип. |
+| None | `0` | Тип SDT не назначен. |
 | Bibliography | `1` | SDT представляет библиографическую запись. |
 | Citation | `2` | SDT представляет цитату. |
 | Equation | `3` | SDT представляет уравнение. |
 | DropDownList | `4` | SDT представляет собой раскрывающийся список при отображении в документе. |
 | ComboBox | `5` | SDT представляет собой поле со списком при отображении в документе. |
-| Date | `6` | SDT представляет собой средство выбора даты при отображении в документе. |
+| Date | `6` | SDT представляет средство выбора даты при отображении в документе. |
 | BuildingBlockGallery | `7` | SDT представляет тип галереи стандартных блоков. |
 | DocPartObj | `8` | SDT представляет тип части документа. |
 | Group | `9` | SDT представляет ограниченную группу при отображении в документе. |
@@ -34,7 +34,7 @@ public enum SdtType
 | Checkbox | `13` | SDT представляет собой флажок при отображении в документе. |
 | RepeatingSection | `14` | SDT представляет тип повторяющегося раздела при отображении в документе. |
 | RepeatingSectionItem | `15` | SDT представляет элемент повторяющегося раздела. |
-| EntityPicker | `16` | SDT представляет средство выбора объекта, которое позволяет пользователю выбрать экземпляр внешнего типа контента. |
+| EntityPicker | `16` | SDT представляет средство выбора объектов, которое позволяет пользователю выбирать экземпляр внешнего типа контента. |
 
 ### Примеры
 
@@ -44,59 +44,30 @@ public enum SdtType
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-CustomXmlPart xmlPart = doc.CustomXmlParts.Add("Books",
-    "<books>" +
-        "<book>" +
-            "<title>Everyday Italian</title>" +
-            "<author>Giada De Laurentiis</author>" +
-        "</book>" +
-        "<book>" +
-            "<title>The C Programming Language</title>" +
-            "<author>Brian W. Kernighan, Dennis M. Ritchie</author>" +
-        "</book>" +
-        "<book>" +
-            "<title>Learning XML</title>" +
-            "<author>Erik T. Ray</author>" +
-        "</book>" +
-    "</books>");
+// Ниже приведены два способа применения стиля из документа к тегу структурированного документа.
+// 1 - Применить объект стиля из коллекции стилей документа:
+Style quoteStyle = doc.Styles[StyleIdentifier.Quote];
+StructuredDocumentTag sdtPlainText =
+    new StructuredDocumentTag(doc, SdtType.PlainText, MarkupLevel.Inline) { Style = quoteStyle };
 
-// Создаем заголовки для данных из содержимого XML.
-Table table = builder.StartTable();
-builder.InsertCell();
-builder.Write("Title");
-builder.InsertCell();
-builder.Write("Author");
-builder.EndRow();
-builder.EndTable();
+// 2 - Ссылка на стиль в документе по имени:
+StructuredDocumentTag sdtRichText =
+    new StructuredDocumentTag(doc, SdtType.RichText, MarkupLevel.Inline) { StyleName = "Quote" };
 
-// Создаем таблицу с повторяющимся разделом внутри.
-StructuredDocumentTag repeatingSectionSdt =
-    new StructuredDocumentTag(doc, SdtType.RepeatingSection, MarkupLevel.Row);
-repeatingSectionSdt.XmlMapping.SetMapping(xmlPart, "/books[1]/book", string.Empty);
-table.AppendChild(repeatingSectionSdt);
+builder.InsertNode(sdtPlainText);
+builder.InsertNode(sdtRichText);
 
-// Добавляем элемент повторяющегося раздела внутри повторяющегося раздела и помечаем его как строку.
-// В этой таблице будет строка для каждого элемента, который мы можем найти в XML-документе
-// используя XPath "/books[1]/book", которых три.
-StructuredDocumentTag repeatingSectionItemSdt =
-    new StructuredDocumentTag(doc, SdtType.RepeatingSectionItem, MarkupLevel.Row);
-repeatingSectionSdt.AppendChild(repeatingSectionItemSdt);
+Assert.AreEqual(NodeType.StructuredDocumentTag, sdtPlainText.NodeType);
 
-Row row = new Row(doc);
-repeatingSectionItemSdt.AppendChild(row);
+NodeCollection tags = doc.GetChildNodes(NodeType.StructuredDocumentTag, true);
 
-// Сопоставить XML-данные с созданными ячейками таблицы для названия и автора каждой книги.
-StructuredDocumentTag titleSdt =
-    new StructuredDocumentTag(doc, SdtType.PlainText, MarkupLevel.Cell);
-titleSdt.XmlMapping.SetMapping(xmlPart, "/books[1]/book[1]/title[1]", string.Empty);
-row.AppendChild(titleSdt);
+foreach (Node node in tags)
+{
+    StructuredDocumentTag sdt = (StructuredDocumentTag)node;
 
-StructuredDocumentTag authorSdt =
-    new StructuredDocumentTag(doc, SdtType.PlainText, MarkupLevel.Cell);
-authorSdt.XmlMapping.SetMapping(xmlPart, "/books[1]/book[1]/author[1]", string.Empty);
-row.AppendChild(authorSdt);
-
-doc.Save(ArtifactsDir + "StructuredDocumentTag.RepeatingSectionItem.docx");
+    Assert.AreEqual(StyleIdentifier.Quote, sdt.Style.StyleIdentifier);
+    Assert.AreEqual("Quote", sdt.StyleName);
+}
 ```
 
 Показывает, как заполнить таблицу данными из части XML.

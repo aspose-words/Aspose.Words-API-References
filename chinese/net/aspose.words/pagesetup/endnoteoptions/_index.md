@@ -1,14 +1,14 @@
 ---
 title: EndnoteOptions
 second_title: Aspose.Words for .NET API 参考
-description: 提供控制本节尾注编号和位置的选项
+description: 提供控制本节尾注编号和定位的选项
 type: docs
 weight: 120
 url: /zh/net/aspose.words/pagesetup/endnoteoptions/
 ---
 ## PageSetup.EndnoteOptions property
 
-提供控制本节尾注编号和位置的选项。
+提供控制本节尾注编号和定位的选项。
 
 ```csharp
 public EndnoteOptions EndnoteOptions { get; }

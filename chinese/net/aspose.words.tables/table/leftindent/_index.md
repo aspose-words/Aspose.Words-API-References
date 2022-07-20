@@ -1,14 +1,14 @@
 ---
 title: LeftIndent
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置表示表格左缩进的值
+description: 获取或设置代表表格左缩进的值
 type: docs
 weight: 190
 url: /zh/net/aspose.words.tables/table/leftindent/
 ---
 ## Table.LeftIndent property
 
-获取或设置表示表格左缩进的值。
+获取或设置代表表格左缩进的值。
 
 ```csharp
 public double LeftIndent { get; set; }

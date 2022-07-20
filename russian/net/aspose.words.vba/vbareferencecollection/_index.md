@@ -1,14 +1,14 @@
 ---
 title: VbaReferenceCollection
 second_title: Справочник по API Aspose.Words для .NET
-description: Представляет набор объектовVbaReference./vbareference.
+description: Представляет наборVbaReference./vbareference объекты.
 type: docs
-weight: 6240
+weight: 6290
 url: /ru/net/aspose.words.vba/vbareferencecollection/
 ---
 ## VbaReferenceCollection class
 
-Представляет набор объектов[`VbaReference`](../vbareference).
+Представляет набор[`VbaReference`](../vbareference) объекты.
 
 ```csharp
 public sealed class VbaReferenceCollection : IEnumerable<VbaReference>
@@ -19,7 +19,7 @@ public sealed class VbaReferenceCollection : IEnumerable<VbaReference>
 | Имя | Описание |
 | --- | --- |
 | [Count](../../aspose.words.vba/vbareferencecollection/count) { get; } | Возвращает количество ссылок VBA в коллекции. |
-| [Item](../../aspose.words.vba/vbareferencecollection/item) { get; } | Получает объект[`VbaReference`](../vbareference)по указанному индексу. |
+| [Item](../../aspose.words.vba/vbareferencecollection/item) { get; } | получает[`VbaReference`](../vbareference) объект по указанному индексу. |
 
 ## Методы
 
@@ -59,7 +59,7 @@ public void RemoveVbaReference()
 }
 
 /// <summary>
- /// Возвращает строку, представляющую путь LibId указанной ссылки. 
+/// Возвращает строку, представляющую путь LibId указанной ссылки. 
 /// </summary>
 private static string GetLibIdPath(VbaReference reference)
 {
@@ -77,7 +77,7 @@ private static string GetLibIdPath(VbaReference reference)
 }
 
 /// <summary>
- /// Возвращает путь из указанного идентификатора библиотеки типов автоматизации.
+/// Возвращает путь из указанного идентификатора библиотеки типов автоматизации.
 /// </summary>
 private static string GetLibIdReferencePath(string libIdReference)
 {
@@ -92,7 +92,7 @@ private static string GetLibIdReferencePath(string libIdReference)
 }
 
 /// <summary>
- /// Возвращает путь из указанного идентификатора библиотеки типов автоматизации.
+/// Возвращает путь из указанного идентификатора библиотеки типов автоматизации.
 /// </summary>
 private static string GetLibIdProjectPath(string libIdProject)
 {

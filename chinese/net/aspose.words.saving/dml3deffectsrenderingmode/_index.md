@@ -3,7 +3,7 @@ title: Dml3DEffectsRenderingMode
 second_title: Aspose.Words for .NET API 参考
 description: 指定如何渲染 3D 形状效果
 type: docs
-weight: 4590
+weight: 4640
 url: /zh/net/aspose.words.saving/dml3deffectsrenderingmode/
 ---
 ## Dml3DEffectsRenderingMode enumeration
@@ -18,8 +18,8 @@ public enum Dml3DEffectsRenderingMode
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| Basic | `0` | 一种轻量级且稳定的渲染，基于内部引擎 但高级效果如光照、材质和其他附加效果 使用此模式时不显示。 有关详细信息，请参阅文档。 |
-| Advanced | `1` | 渲染扩展的特殊效果列表，包括高级 3D 效果 例如斜角、照明和材质。 |
+| Basic | `0` | 轻量级且稳定的渲染，基于内部引擎， 但使用此模式时不显示照明、材质和其他附加效果 等高级效果。 详情请参阅文档。 |
+| Advanced | `1` | 渲染扩展的特殊效果列表，包括高级 3D 效果 ，例如斜角、照明和材质。 |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: MinorUnit
 second_title: Aspose.Words for .NET API 参考
-description: 返回或设置次刻度线之间的距离
+description: 返回或设置小刻度线之间的距离
 type: docs
 weight: 140
 url: /zh/net/aspose.words.drawing.charts/chartaxis/minorunit/
 ---
 ## ChartAxis.MinorUnit property
 
-返回或设置次刻度线之间的距离。
+返回或设置小刻度线之间的距离。
 
 ```csharp
 public double MinorUnit { get; set; }
@@ -18,7 +18,7 @@ public double MinorUnit { get; set; }
 
 值的有效范围大于零。该属性对时间类别和 值轴有效。
 
-设置此属性会将[`MinorUnitIsAuto`](../minorunitisauto)属性设置为 **假** 。
+设置此属性会设置[`MinorUnitIsAuto`](../minorunitisauto)财产 **错误的**.
 
 ### 例子
 

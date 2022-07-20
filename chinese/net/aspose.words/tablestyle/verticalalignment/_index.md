@@ -16,11 +16,11 @@ public CellVerticalAlignment VerticalAlignment { get; set; }
 
 ### 评论
 
-默认值为Top。
+默认值为Top.
 
 ### 例子
 
-展示如何为表格创建自定义样式设置。
+显示如何为表格创建自定义样式设置。
 
 ```csharp
 Document doc = new Document();
@@ -51,7 +51,7 @@ tableStyle.VerticalAlignment = CellVerticalAlignment.Center;
 
 table.Style = tableStyle;
 
- // 设置表格的样式属性可能会影响表格本身的属性
+// 设置表格的样式属性可能会影响表格本身的属性。
 Assert.True(table.Bidi);
 Assert.AreEqual(5.0d, table.CellSpacing);
 Assert.AreEqual("MyTableStyle1", table.StyleName);

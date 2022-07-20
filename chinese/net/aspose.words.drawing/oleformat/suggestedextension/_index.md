@@ -16,7 +16,7 @@ public string SuggestedExtension { get; }
 
 ### 例子
 
-显示如何将嵌入的 OLE 对象提取到文件中。
+演示如何将嵌入的 OLE 对象提取到文件中。
 
 ```csharp
 Document doc = new Document(MyDir + "OLE spreadsheet.docm");

@@ -1,14 +1,14 @@
 ---
 title: Clear
 second_title: Aspose.Words for .NET API 参考
-description: 从此集合中删除所有元素
+description: 删除此集合中的所有元素
 type: docs
 weight: 50
 url: /zh/net/aspose.words.settings/odsorecipientdatacollection/clear/
 ---
 ## OdsoRecipientDataCollection.Clear method
 
-从此集合中删除所有元素。
+删除此集合中的所有元素。
 
 ```csharp
 public void Clear()
@@ -38,10 +38,10 @@ using (IEnumerator<OdsoRecipientData> enumerator = dataCollection.GetEnumerator(
     }
 }
 
- // 我们可以克隆这个集合中的元素。
+// 我们可以克隆这个集合中的元素。
 Assert.AreNotEqual(dataCollection[0], dataCollection[0].Clone());
 
- // 我们也可以单独删除元素，或者一次清除整个集合。
+// 我们也可以单独删除元素，或者一次清除整个集合。
 dataCollection.RemoveAt(0);
 
 Assert.AreEqual(69, dataCollection.Count);

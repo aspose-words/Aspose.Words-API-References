@@ -3,7 +3,7 @@ title: Footnote
 second_title: Справочник по API Aspose.Words для .NET
 description: Представляет контейнер для текста сноски или концевой сноски.
 type: docs
-weight: 3970
+weight: 4020
 url: /ru/net/aspose.words.notes/footnote/
 ---
 ## Footnote class
@@ -18,38 +18,38 @@ public class Footnote : InlineStory
 
 | Имя | Описание |
 | --- | --- |
-| [Footnote](footnote)(DocumentBase, FootnoteType) | Инициализирует экземпляр класса **Footnote** . |
+| [Footnote](footnote)(DocumentBase, FootnoteType) | Инициализирует экземпляр **Сноска** класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [ChildNodes](../../aspose.words/compositenode/childnodes) { get; } | Получает все непосредственные дочерние узлы данного узла. |
-| [Count](../../aspose.words/compositenode/count) { get; } | Получает количество непосредственных потомков этого узла. |
+| [ChildNodes](../../aspose.words/compositenode/childnodes) { get; } | Получает все непосредственные дочерние узлы этого узла. |
+| [Count](../../aspose.words/compositenode/count) { get; } | Получает количество непосредственных дочерних элементов этого узла. |
 | [CustomNodeId](../../aspose.words/node/customnodeid) { get; set; } | Указывает идентификатор пользовательского узла. |
-| virtual [Document](../../aspose.words/node/document) { get; } | Получает документ, которому принадлежит данный узел. |
-| [FirstChild](../../aspose.words/compositenode/firstchild) { get; } | Получает первый потомок узла. |
-| [FirstParagraph](../../aspose.words/inlinestory/firstparagraph) { get; } | Получает первый абзац истории. |
+| virtual [Document](../../aspose.words/node/document) { get; } | Получает документ, которому принадлежит этот узел. |
+| [FirstChild](../../aspose.words/compositenode/firstchild) { get; } | Получает первого потомка узла. |
+| [FirstParagraph](../../aspose.words/inlinestory/firstparagraph) { get; } | Получает первый абзац в истории. |
 | [Font](../../aspose.words/inlinestory/font) { get; } | Предоставляет доступ к форматированию шрифта символа привязки этого объекта. |
 | [FootnoteType](../../aspose.words.notes/footnote/footnotetype) { get; } | Возвращает значение, указывающее, является ли это сноской или концевой сноской. |
 | [HasChildNodes](../../aspose.words/compositenode/haschildnodes) { get; } | Возвращает true, если у этого узла есть дочерние узлы. |
 | [IsAuto](../../aspose.words.notes/footnote/isauto) { get; set; } | Содержит значение, указывающее, является ли это сноской с автоматической нумерацией или сноской с определяемой пользователем пользовательской отметкой. |
 | override [IsComposite](../../aspose.words/compositenode/iscomposite) { get; } | Возвращает true, так как этот узел может иметь дочерние узлы. |
-| [IsDeleteRevision](../../aspose.words/inlinestory/isdeleterevision) { get; } | Возвращает true, если этот объект был удален в Microsoft Word при включенном отслеживании изменений. |
-| [IsInsertRevision](../../aspose.words/inlinestory/isinsertrevision) { get; } | Возвращает true, если этот объект был вставлен в Microsoft Word при включенном отслеживании изменений. |
-| [IsMoveFromRevision](../../aspose.words/inlinestory/ismovefromrevision) { get; } | Возвращает **true** , если этот объект был перемещен (удален) в Microsoft Word при включенном отслеживании изменений. |
-| [IsMoveToRevision](../../aspose.words/inlinestory/ismovetorevision) { get; } | Возвращает **true** , если этот объект был перемещен (вставлен) в Microsoft Word при включенном отслеживании изменений. |
-| [LastChild](../../aspose.words/compositenode/lastchild) { get; } | Получает последний потомок узла. |
-| [LastParagraph](../../aspose.words/inlinestory/lastparagraph) { get; } | Получает последний абзац истории. |
+| [IsDeleteRevision](../../aspose.words/inlinestory/isdeleterevision) { get; } | Возвращает значение true, если этот объект был удален в Microsoft Word при включенном отслеживании изменений. |
+| [IsInsertRevision](../../aspose.words/inlinestory/isinsertrevision) { get; } | Возвращает значение true, если этот объект был вставлен в Microsoft Word при включенном отслеживании изменений. |
+| [IsMoveFromRevision](../../aspose.words/inlinestory/ismovefromrevision) { get; } | Возвращает **истинный** если этот объект был перемещен (удален) в Microsoft Word при включенном отслеживании изменений. |
+| [IsMoveToRevision](../../aspose.words/inlinestory/ismovetorevision) { get; } | Возвращает **истинный** если этот объект был перемещен (вставлен) в Microsoft Word при включенном отслеживании изменений. |
+| [LastChild](../../aspose.words/compositenode/lastchild) { get; } | Получает последний дочерний элемент узла. |
+| [LastParagraph](../../aspose.words/inlinestory/lastparagraph) { get; } | Получает последний абзац в истории. |
 | [NextSibling](../../aspose.words/node/nextsibling) { get; } | Получает узел, следующий сразу за этим узлом. |
 | override [NodeType](../../aspose.words.notes/footnote/nodetype) { get; } | Возвращает **NodeType.Footnote** . |
-| [Paragraphs](../../aspose.words/inlinestory/paragraphs) { get; } | Получает набор абзацев, которые являются непосредственными дочерними элементами истории. |
+| [Paragraphs](../../aspose.words/inlinestory/paragraphs) { get; } | Получает набор абзацев, которые являются непосредственными дочерними элементами статьи. |
 | [ParentNode](../../aspose.words/node/parentnode) { get; } | Получает непосредственного родителя этого узла. |
-| [ParentParagraph](../../aspose.words/inlinestory/parentparagraph) { get; } | Извлекает родителя[`Paragraph`](../../aspose.words/paragraph)этого узла. |
+| [ParentParagraph](../../aspose.words/inlinestory/parentparagraph) { get; } | Извлекает родителя[`Paragraph`](../../aspose.words/paragraph) этого узла. |
 | [PreviousSibling](../../aspose.words/node/previoussibling) { get; } | Получает узел, непосредственно предшествующий этому узлу. |
-| [Range](../../aspose.words/node/range) { get; } | Возвращает объект **Range** , представляющий часть документа, содержащуюся в этом узле. |
-| [ReferenceMark](../../aspose.words.notes/footnote/referencemark) { get; set; } | Получает/устанавливает пользовательскую контрольную метку, которая будет использоваться для этой сноски. Значение по умолчанию: **пустая строка** (Empty), что означает автонумерацию используются сноски. |
-| override [StoryType](../../aspose.words.notes/footnote/storytype) { get; } | Возвращает **StoryType.Footnotes** или **StoryType.Endnotes** . |
+| [Range](../../aspose.words/node/range) { get; } | Возвращает **Диапазон** объект, представляющий часть документа, содержащегося в этом узле. |
+| [ReferenceMark](../../aspose.words.notes/footnote/referencemark) { get; set; } | Получает/устанавливает пользовательскую контрольную метку, которая будет использоваться для этой сноски. Значение по умолчанию: **пустой строки** (Empty ), что означает использование сносок с автоматической нумерацией. |
+| override [StoryType](../../aspose.words.notes/footnote/storytype) { get; } | Возвращает **StoryType.Footnotes** или же **StoryType.Концевые сноски** . |
 | [Tables](../../aspose.words/inlinestory/tables) { get; } | Получает набор таблиц, которые являются непосредственными дочерними элементами истории. |
 
 ## Методы
@@ -60,15 +60,15 @@ public class Footnote : InlineStory
 | [AppendChild](../../aspose.words/compositenode/appendchild)(Node) | Добавляет указанный узел в конец списка дочерних узлов для этого узла. |
 | [Clone](../../aspose.words/node/clone)(bool) | Создает дубликат узла. |
 | [CreateNavigator](../../aspose.words/compositenode/createnavigator)() | Зарезервировано для системного использования. IXPathNavigable. |
-| [EnsureMinimum](../../aspose.words/inlinestory/ensureminimum)() | Если последний потомок не является абзацем, создает и добавляет один пустой абзац. |
-| [GetAncestor](../../aspose.words/node/getancestor)(NodeType) | Получает первого предка указанного[`NodeType`](../../aspose.words/nodetype). |
+| [EnsureMinimum](../../aspose.words/inlinestory/ensureminimum)() | Если последний дочерний элемент не является абзацем, создает и добавляет один пустой абзац. |
+| [GetAncestor](../../aspose.words/node/getancestor)(NodeType) | Получает первого предка указанного[`NodeType`](../../aspose.words/nodetype) . |
 | [GetAncestor](../../aspose.words/node/getancestor)(Type) | Получает первого предка указанного типа объекта. |
 | [GetChild](../../aspose.words/compositenode/getchild)(NodeType, int, bool) | Возвращает N-й дочерний узел, соответствующий указанному типу. |
 | [GetChildNodes](../../aspose.words/compositenode/getchildnodes)(NodeType, bool) | Возвращает динамическую коллекцию дочерних узлов, соответствующих указанному типу. |
 | [GetEnumerator](../../aspose.words/compositenode/getenumerator)() | Обеспечивает поддержку для каждой итерации стиля над дочерними узлами этого узла. |
-| override [GetText](../../aspose.words/compositenode/gettext)() | Получает текст этого узла и всех его потомков. |
+| override [GetText](../../aspose.words/compositenode/gettext)() | Получает текст этого узла и всех его дочерних элементов. |
 | [IndexOf](../../aspose.words/compositenode/indexof)(Node) | Возвращает индекс указанного дочернего узла в массиве дочерних узлов. |
-| [InsertAfter](../../aspose.words/compositenode/insertafter)(Node, Node) | Вставляет указанный узел сразу после указанного опорного узла. |
+| [InsertAfter](../../aspose.words/compositenode/insertafter)(Node, Node) | Вставляет указанный узел сразу после указанного ссылочного узла. |
 | [InsertBefore](../../aspose.words/compositenode/insertbefore)(Node, Node) | Вставляет указанный узел непосредственно перед указанным ссылочным узлом. |
 | [NextPreOrder](../../aspose.words/node/nextpreorder)(Node) | Получает следующий узел в соответствии с алгоритмом обхода дерева предварительного порядка. |
 | [PrependChild](../../aspose.words/compositenode/prependchild)(Node) | Добавляет указанный узел в начало списка дочерних узлов для этого узла. |
@@ -76,7 +76,7 @@ public class Footnote : InlineStory
 | [Remove](../../aspose.words/node/remove)() | Удаляет себя из родителя. |
 | [RemoveAllChildren](../../aspose.words/compositenode/removeallchildren)() | Удаляет все дочерние узлы текущего узла. |
 | [RemoveChild](../../aspose.words/compositenode/removechild)(Node) | Удаляет указанный дочерний узел. |
-| [RemoveSmartTags](../../aspose.words/compositenode/removesmarttags)() | Удаляет все[`SmartTag`](../../aspose.words.markup/smarttag)узлы-потомки текущего узла. |
+| [RemoveSmartTags](../../aspose.words/compositenode/removesmarttags)() | Удаляет все[`SmartTag`](../../aspose.words.markup/smarttag) узлы-потомки текущего узла. |
 | [SelectNodes](../../aspose.words/compositenode/selectnodes)(string) | Выбирает список узлов, соответствующих выражению XPath. |
 | [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode)(string) | Выбирает первый узел, соответствующий выражению XPath. |
 | [ToString](../../aspose.words/node/tostring)(SaveFormat) | Экспортирует содержимое узла в строку в указанном формате. |
@@ -84,11 +84,11 @@ public class Footnote : InlineStory
 
 ### Примечания
 
-Класс **Сноска** класс используется для представления как сносок, так и концевых сносок в документе Word.
+**Сноска** класс используется для представления как сносок, так и концевых сносок в документе Word.
 
-**Сноска** является узлом встроенного уровня и может быть только потомком **Абзац** .
+**Сноска** является узлом встроенного уровня и может быть только потомком **Параграф**.
 
-**Сноска** может содержать **Абзац** и **Таблица** дочерние узлы.
+**Сноска** может содержать **Параграф** а также **Стол** дочерние узлы.
 
 ### Примеры
 
@@ -98,19 +98,19 @@ public class Footnote : InlineStory
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
- // Добавляем текст и ссылаемся на него сноской. Эта сноска поместит небольшой верхний индекс reference
- // пометить после текста, на который он ссылается, и создать запись под основным текстом внизу страницы.
- // Эта запись будет содержать отметку сноски и текст ссылки, 
- // который мы передадим методу "InsertFootnote" конструктора документов.
+// Добавляем текст и ссылаемся на него сноской. Эта сноска поместит небольшую ссылку в верхнем индексе
+// отметить после текста, на который он ссылается, и создать запись под основным текстом в нижней части страницы.
+// Эта запись будет содержать отметку сноски и текст ссылки,
+// который мы передадим методу "InsertFootnote" конструктора документов.
 builder.Write("Main body text.");
 Footnote footnote = builder.InsertFootnote(FootnoteType.Footnote, "Footnote text.");
 
- // Если для этого свойства установлено значение "true", то ссылка на нашу сноску mark
- // будет его индексом среди всех сносок раздела.
- // Это первая сноска, поэтому отметка будет "1".
+// Если для этого свойства задано значение "true", то референтная метка нашей сноски
+// будет его индексом среди всех сносок раздела.
+// Это первая сноска, поэтому ссылочным знаком будет "1".
 Assert.True(footnote.IsAuto);
 
- // Мы можем переместить конструктор документа внутрь сноски, чтобы отредактировать его ссылочный текст. 
+// Мы можем переместить конструктор документа внутрь сноски, чтобы отредактировать его ссылочный текст. 
 builder.MoveTo(footnote.FirstParagraph);
 builder.Write(" More text added by a DocumentBuilder.");
 builder.MoveToDocumentEnd();
@@ -120,13 +120,13 @@ Assert.AreEqual("\u0002 Footnote text. More text added by a DocumentBuilder.", f
 builder.Write(" More main body text.");
 footnote = builder.InsertFootnote(FootnoteType.Footnote, "Footnote text.");
 
- // Мы можем установить пользовательскую отметку, которую сноска будет использовать вместо своего порядкового номера.
+// Мы можем установить пользовательскую отметку, которую сноска будет использовать вместо своего порядкового номера.
 footnote.ReferenceMark = "RefMark";
 
 Assert.False(footnote.IsAuto);
 
-// Закладка с флагом "IsAuto", установленным в true, по-прежнему будет показывать свой реальный index
- // даже если предыдущие закладки отображают пользовательские метки ссылок, метка этой закладки будет "3".
+// Закладка с флагом "IsAuto", установленным в true, по-прежнему будет показывать свой реальный индекс
+// даже если предыдущие закладки отображают пользовательские метки ссылок, метка этой закладки будет "3".
 builder.Write(" More main body text.");
 footnote = builder.InsertFootnote(FootnoteType.Footnote, "Footnote text.");
 

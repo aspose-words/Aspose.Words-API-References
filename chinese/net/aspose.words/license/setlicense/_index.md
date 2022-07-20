@@ -20,11 +20,11 @@ public void SetLicense(string licenseName)
 
 ### 评论
 
-尝试在以下位置查找许可证:
+尝试在以下位置查找许可证：
 
 1. 显式路径。
 
-2. 包含 Aspose 组件的文件夹。
+2. 包含 Aspose 组件程序集的文件夹。
 
 3. 包含客户端调用程序集的文件夹。
 
@@ -32,7 +32,7 @@ public void SetLicense(string licenseName)
 
 5. 客户端调用程序集中的嵌入资源。
 
-**注意:** 在 .NET Compact Framework 上，尝试仅在这些位置查找许可证
+**笔记：**在 .NET Compact Framework 上，尝试仅在以下位置查找许可证：
 
 1. 显式路径。
 
@@ -40,7 +40,7 @@ public void SetLicense(string licenseName)
 
 ### 例子
 
-显示如何使用本地文件系统中的许可证文件为 Aspose.Words 初始化许可证。
+展示如何使用本地文件系统中的许可证文件为 Aspose.Words 初始化许可证。
 
 ```csharp
 // 通过传递有效许可证文件的本地文件系统文件名，为我们的 Aspose.Words 产品设置许可证。
@@ -81,11 +81,11 @@ public void SetLicense(Stream stream)
 
 ### 评论
 
-使用此方法从流中加载许可证。
+使用此方法从流加载许可证。
 
 ### 例子
 
-显示如何从流中初始化 Aspose.Words 的许可证。
+展示如何从流中初始化 Aspose.Words 的许可证。
 
 ```csharp
 // 通过为我们的本地文件系统中的有效许可证文件传递一个流来为我们的 Aspose.Words 产品设置许可证。

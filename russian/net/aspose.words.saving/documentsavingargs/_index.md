@@ -1,14 +1,14 @@
 ---
 title: DocumentSavingArgs
 second_title: Справочник по API Aspose.Words для .NET
-description: Аргумент переданный вNotify./idocumentsavingcallback/notify.
+description: Аргумент переданный вNotify./idocumentsavingcallback/notify .
 type: docs
-weight: 4640
+weight: 4690
 url: /ru/net/aspose.words.saving/documentsavingargs/
 ---
 ## DocumentSavingArgs class
 
-Аргумент, переданный в[`Notify`](../idocumentsavingcallback/notify).
+Аргумент, переданный в[`Notify`](../idocumentsavingcallback/notify) .
 
 ```csharp
 public sealed class DocumentSavingArgs
@@ -18,7 +18,7 @@ public sealed class DocumentSavingArgs
 
 | Имя | Описание |
 | --- | --- |
-| [EstimatedProgress](../../aspose.words.saving/documentsavingargs/estimatedprogress) { get; } | Общий предполагаемый прогресс в процентах. |
+| [EstimatedProgress](../../aspose.words.saving/documentsavingargs/estimatedprogress) { get; } | Общий расчетный процент прогресса. |
 
 ### Смотрите также
 

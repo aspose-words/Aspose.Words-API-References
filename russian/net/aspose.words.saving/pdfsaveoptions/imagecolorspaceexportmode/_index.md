@@ -1,14 +1,14 @@
 ---
 title: ImageColorSpaceExportMode
 second_title: Справочник по API Aspose.Words для .NET
-description: Указывает способ выбора цветового пространства для изображений в документе PDF.
+description: Указывает как цветовое пространство будет выбрано для изображений в документе PDF.
 type: docs
 weight: 160
 url: /ru/net/aspose.words.saving/pdfsaveoptions/imagecolorspaceexportmode/
 ---
 ## PdfSaveOptions.ImageColorSpaceExportMode property
 
-Указывает способ выбора цветового пространства для изображений в документе PDF.
+Указывает, как цветовое пространство будет выбрано для изображений в документе PDF.
 
 ```csharp
 public PdfImageColorSpaceExportMode ImageColorSpaceExportMode { get; set; }
@@ -16,11 +16,11 @@ public PdfImageColorSpaceExportMode ImageColorSpaceExportMode { get; set; }
 
 ### Примечания
 
-Значение по умолчанию:Auto.
+Значение по умолчанию:Auto .
 
-IfSimpleCmykуказано значение, ImageCompressionопция игнорируется и используется сжатие Flate для всех изображений в документ.
+ЕслиSimpleCmyk указано значение, [`ImageCompression`](../imagecompression) опция игнорируется и Flate-сжатие используется для всех изображений в документе.
 
-SimpleCmykзначение не поддерживается при сохранении в PDF /А. Autoвместо этого будет использоваться значение.
+SimpleCmyk значение не поддерживается при сохранении в PDF/A. Auto вместо этого будет использоваться значение.
 
 ### Примеры
 

@@ -22,17 +22,18 @@ public SectionLayoutMode LayoutMode { get; set; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 启用pitching，然后用它来设置本节每页的行数。
-// 足够大的字体大小会将一些行向下推到下一页以避免字符重叠。
-builder.PageSetup.LayoutMode = SectionLayoutMode.LineGrid;
-builder.PageSetup.LinesPerPage = 15;
+// 启用间距，然后使用它来设置本节中每行的字符数。
+builder.PageSetup.LayoutMode = SectionLayoutMode.Grid;
+builder.PageSetup.CharactersPerLine = 10;
 
-builder.ParagraphFormat.SnapToGrid = true;
+// 字符数还取决于字体的大小。
+doc.Styles["Normal"].Font.Size = 20;
 
-for (int i = 0; i < 30; i++)
-    builder.Write("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ");
+Assert.AreEqual(8, doc.FirstSection.PageSetup.CharactersPerLine);
 
-doc.Save(ArtifactsDir + "PageSetup.LinesPerPage.docx");
+builder.Writeln("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.");
+
+doc.Save(ArtifactsDir + "PageSetup.CharactersPerLine.docx");
 ```
 
 显示如何指定每页可能具有的行数限制。

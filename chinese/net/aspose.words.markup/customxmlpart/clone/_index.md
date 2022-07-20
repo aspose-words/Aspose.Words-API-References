@@ -1,14 +1,14 @@
 ---
 title: Clone
 second_title: Aspose.Words for .NET API 参考
-description: 制作对象的足够深的副本 不复制Dataaspose.words.markup/customxmlpart/data值的字节
+description: 制作对象的足够深的副本 不复制Dataaspose.words.markup/customxmlpart/data值.
 type: docs
 weight: 60
 url: /zh/net/aspose.words.markup/customxmlpart/clone/
 ---
 ## CustomXmlPart.Clone method
 
-制作对象的“足够深”的副本。 不复制[`Data`](../data)值的字节。
+制作对象的“足够深”的副本。 不复制[`Data`](../data)值.
 
 ```csharp
 public CustomXmlPart Clone()

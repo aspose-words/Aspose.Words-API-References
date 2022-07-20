@@ -25,7 +25,7 @@ Document imgSourceDoc = new Document(MyDir + "Images.docx");
 IEnumerable<Shape> shapesWithImages = 
     imgSourceDoc.GetChildNodes(NodeType.Shape, true).Cast<Shape>().Where(s => s.HasImage);
 
- // 遍历每个形状并保存它的图像。
+//遍历每个形状并保存其图像。
 ImageFormatConverter formatConverter = new ImageFormatConverter();
 
 using (IEnumerator<Shape> enumerator = shapesWithImages.GetEnumerator())

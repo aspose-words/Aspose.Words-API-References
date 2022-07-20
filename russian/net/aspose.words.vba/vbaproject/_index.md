@@ -3,7 +3,7 @@ title: VbaProject
 second_title: Справочник по API Aspose.Words для .NET
 description: Предоставляет доступ к информации о проекте VBA. Проект VBA внутри документа определяется как набор модулей VBA.
 type: docs
-weight: 6220
+weight: 6270
 url: /ru/net/aspose.words.vba/vbaproject/
 ---
 ## VbaProject class
@@ -34,7 +34,7 @@ public class VbaProject
 
 | Имя | Описание |
 | --- | --- |
-| [Clone](../../aspose.words.vba/vbaproject/clone)() | Выполняет копирование[`VbaProject`](../vbaproject). |
+| [Clone](../../aspose.words.vba/vbaproject/clone)() | Выполняет копирование[`VbaProject`](../vbaproject) . |
 
 ### Примеры
 

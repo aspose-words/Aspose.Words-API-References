@@ -1,14 +1,14 @@
 ---
 title: PdfCustomPropertiesExport
 second_title: Справочник по API Aspose.Words для .NET
-description: Указывает способ экспортаCustomDocumentProperties../aspose.words/document/customdocumentpropertiesв файл PDF.
+description: Указывает путьCustomDocumentProperties../aspose.words/document/customdocumentproperties экспортируются в файл PDF.
 type: docs
-weight: 5090
+weight: 5140
 url: /ru/net/aspose.words.saving/pdfcustompropertiesexport/
 ---
 ## PdfCustomPropertiesExport enumeration
 
-Указывает способ экспорта[`CustomDocumentProperties`](../../aspose.words/document/customdocumentproperties)в файл PDF.
+Указывает путь[`CustomDocumentProperties`](../../aspose.words/document/customdocumentproperties) экспортируются в файл PDF.
 
 ```csharp
 public enum PdfCustomPropertiesExport

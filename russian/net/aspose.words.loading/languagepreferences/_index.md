@@ -3,7 +3,7 @@ title: LanguagePreferences
 second_title: Справочник по API Aspose.Words для .NET
 description: Позволяет настроить языковые настройки.
 type: docs
-weight: 3400
+weight: 3450
 url: /ru/net/aspose.words.loading/languagepreferences/
 ---
 ## LanguagePreferences class
@@ -24,7 +24,7 @@ public class LanguagePreferences
 
 | Имя | Описание |
 | --- | --- |
-| [DefaultEditingLanguage](../../aspose.words.loading/languagepreferences/defaulteditinglanguage) { get; set; } | Получает или устанавливает язык редактирования по умолчанию. |
+| [DefaultEditingLanguage](../../aspose.words.loading/languagepreferences/defaulteditinglanguage) { get; set; } | Получает или задает язык редактирования по умолчанию. |
 
 ## Методы
 
@@ -35,7 +35,7 @@ public class LanguagePreferences
 
 ### Примечания
 
-Реализует диалоговое окно «Установка языковых настроек Office» в Word.
+Реализует диалоговое окно «Установка языковых предпочтений Office» в Word.
 
 ### Примеры
 

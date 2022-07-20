@@ -3,7 +3,7 @@ title: IHyphenationCallback
 second_title: Aspose.Words for .NET API 参考
 description: 由可以注册连字字典的类实现
 type: docs
-weight: 2940
+weight: 2990
 url: /zh/net/aspose.words/ihyphenationcallback/
 ---
 ## IHyphenationCallback interface

@@ -1,14 +1,14 @@
 ---
 title: BackColor
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置表示填充背景颜色的 Color 对象
+description: 获取或设置一个 Color 对象表示填充的背景色
 type: docs
 weight: 10
 url: /zh/net/aspose.words.drawing/fill/backcolor/
 ---
 ## Fill.BackColor property
 
-获取或设置表示填充背景颜色的 Color 对象。
+获取或设置一个 Color 对象，表示填充的背景色。
 
 ```csharp
 public Color BackColor { get; set; }

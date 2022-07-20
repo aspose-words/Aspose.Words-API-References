@@ -16,7 +16,7 @@ public DateTime DateTime { get; set; }
 
 ### 评论
 
-默认为MinValue。
+默认为MinValue.
 
 ### 例子
 
@@ -36,14 +36,14 @@ public void CreateCommentsAndPrintAllInfo()
 
     newComment.SetText("Comment regarding text.");
 
-     // 向文档中添加文本，在评论范围内对其进行变形，然后添加您的评论。
+    // 向文档中添加文本，在评论范围内对其进行变形，然后添加您的评论。
     Paragraph para = doc.FirstSection.Body.FirstParagraph;
     para.AppendChild(new CommentRangeStart(doc, newComment.Id));
     para.AppendChild(new Run(doc, "Commented text."));
     para.AppendChild(new CommentRangeEnd(doc, newComment.Id));
     para.AppendChild(newComment); 
 
-     // 在评论中添加两个回复。
+    // 在评论中添加两个回复。
     newComment.AddReply("John Doe", "JD", DateTime.Now, "New reply.");
     newComment.AddReply("John Doe", "JD", DateTime.Now, "Another reply.");
 
@@ -51,7 +51,7 @@ public void CreateCommentsAndPrintAllInfo()
 }
 
 /// <summary>
- /// 遍历每个顶级评论并打印其评论范围、内容和回复。
+/// 遍历每个顶级评论并打印其评论范围、内容和回复。
 /// </summary>
 private static void PrintAllCommentInfo(NodeCollection comments)
 {
@@ -60,17 +60,17 @@ private static void PrintAllCommentInfo(NodeCollection comments)
     // 遍历所有顶级注释。与回复类型的评论不同，顶级评论没有祖先。
     foreach (Comment comment in comments.Where(c => ((Comment)c).Ancestor == null))
     {
-         // 首先，访问评论范围的开头。
+        // 首先，访问评论范围的开头。
         CommentRangeStart commentRangeStart = (CommentRangeStart)comment.PreviousSibling.PreviousSibling.PreviousSibling;
         commentRangeStart.Accept(commentVisitor);
 
-         // 然后，访问评论，以及它可能有的任何回复。
+        // 然后，访问评论，以及它可能有的任何回复。
         comment.Accept(commentVisitor);
 
         foreach (Comment reply in comment.Replies)
             reply.Accept(commentVisitor);
 
-         // 最后访问评论范围的末尾，然后打印访问者的文本内容。
+        // 最后，访问评论范围的末尾，然后打印访问者的文本内容。
         CommentRangeEnd commentRangeEnd = (CommentRangeEnd)comment.PreviousSibling;
         commentRangeEnd.Accept(commentVisitor);
 
@@ -79,7 +79,7 @@ private static void PrintAllCommentInfo(NodeCollection comments)
 }
 
 /// <summary>
- /// 打印文档中遇到的所有评论和评论范围的信息和内容。
+/// 打印文档中遇到的所有评论和评论范围的信息和内容。
 /// </summary>
 public class CommentInfoPrinter : DocumentVisitor
 {
@@ -90,7 +90,7 @@ public class CommentInfoPrinter : DocumentVisitor
     }
 
     /// <summary>
-     /// 获取访问者积累的文档的纯文本。
+    /// 获取访问者积累的文档的纯文本。
     /// </summary>
     public string GetText()
     {
@@ -98,7 +98,7 @@ public class CommentInfoPrinter : DocumentVisitor
     }
 
     /// <summary>
-     /// 在文档中遇到 Run 节点时调用。
+    /// 在文档中遇到 Run 节点时调用。
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {
@@ -108,7 +108,7 @@ public class CommentInfoPrinter : DocumentVisitor
     }
 
     /// <summary>
-     /// 在文档中遇到 CommentRangeStart 节点时调用。
+    /// 在文档中遇到 CommentRangeStart 节点时调用。
     /// </summary>
     public override VisitorAction VisitCommentRangeStart(CommentRangeStart commentRangeStart)
     {
@@ -120,7 +120,7 @@ public class CommentInfoPrinter : DocumentVisitor
     }
 
     /// <summary>
-     /// 在文档中遇到 CommentRangeEnd 节点时调用。
+    /// 在文档中遇到 CommentRangeEnd 节点时调用。
     /// </summary>
     public override VisitorAction VisitCommentRangeEnd(CommentRangeEnd commentRangeEnd)
     {
@@ -132,7 +132,7 @@ public class CommentInfoPrinter : DocumentVisitor
     }
 
     /// <summary>
-     /// 在文档中遇到评论节点时调用。
+    /// 在文档中遇到评论节点时调用。
     /// </summary>
     public override VisitorAction VisitCommentStart(Comment comment)
     {
@@ -145,7 +145,7 @@ public class CommentInfoPrinter : DocumentVisitor
     }
 
     /// <summary>
-     /// 在文档中结束对Comment节点的访问时调用。
+    /// 在文档中结束对 Comment 节点的访问时调用。
     /// </summary>
     public override VisitorAction VisitCommentEnd(Comment comment)
     {
@@ -157,9 +157,9 @@ public class CommentInfoPrinter : DocumentVisitor
     }
 
     /// <summary>
-     /// 将一行添加到 StringBuilder 并根据访问者在文档树中的深度缩进。
+    /// 将一行添加到 StringBuilder 并根据访问者在文档树中的深度缩进。
     /// </summary>
-     /// <param name="text"></param>
+    /// <param name="text"></param>
     private void IndentAndAppendLine(string text)
     {
         for (int i = 0; i < mDocTraversalDepth; i++)

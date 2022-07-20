@@ -1,14 +1,14 @@
 ---
 title: CommentCollection
 second_title: Справочник по API Aspose.Words для .NET
-description: Предоставляет типизированный доступ к набору узловComment./comment.
+description: Предоставляет типизированный доступ к коллекцииComment./comment узлы.
 type: docs
 weight: 230
 url: /ru/net/aspose.words/commentcollection/
 ---
 ## CommentCollection class
 
-Предоставляет типизированный доступ к набору узлов[`Comment`](../comment).
+Предоставляет типизированный доступ к коллекции[`Comment`](../comment) узлы.
 
 ```csharp
 public class CommentCollection : NodeCollection
@@ -19,7 +19,7 @@ public class CommentCollection : NodeCollection
 | Имя | Описание |
 | --- | --- |
 | [Count](../../aspose.words/nodecollection/count) { get; } | Получает количество узлов в коллекции. |
-| [Item](../../aspose.words/commentcollection/item) { get; } | Получает комментарий по заданному индексу. (2 indexers) |
+| [Item](../../aspose.words/commentcollection/item) { get; } | Получает **Комментарий** по данному индексу. (2 indexers) |
 
 ## Методы
 
@@ -37,28 +37,28 @@ public class CommentCollection : NodeCollection
 
 ### Примеры
 
-Показывает, как пометить комментарий как выполненный.
+Показывает, как пометить комментарий как «готовый».
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Helo world!");
 
- // Вставляем комментарий, чтобы указать на ошибку. 
+// Вставляем комментарий, чтобы указать на ошибку. 
 Comment comment = new Comment(doc, "John Doe", "J.D.", DateTime.Now);
 comment.SetText("Fix the spelling error!");
 doc.FirstSection.Body.FirstParagraph.AppendChild(comment);
 
- // Комментарии имеют флаг «Готово», который по умолчанию установлен на «ложь». 
- // Если в комментарии предлагается внести изменения в документ, 
- // мы можем применить изменение, а затем также установить флаг «Готово», чтобы указать на исправление.
+// Комментарии имеют флаг «Готово», который по умолчанию установлен на «ложь». 
+// Если в комментарии предлагается внести изменения в документ,
+// мы можем применить изменение, а затем также установить флаг «Готово», чтобы указать на исправление.
 Assert.False(comment.Done);
 
 doc.FirstSection.Body.FirstParagraph.Runs[0].Text = "Hello world!";
 comment.Done = true;
 
- // Комментарии, которые «готовы», будут отличаться друг от друга
- // из тех, которые не "готовы" с блеклым цветом текста.
+// Комментарии, которые «готовы», будут отличаться друг от друга
+// из тех, которые не "готовы" с блеклым цветом текста.
 comment = new Comment(doc, "John Doe", "J.D.", DateTime.Now);
 comment.SetText("Add text to this paragraph.");
 builder.CurrentParagraph.AppendChild(comment);

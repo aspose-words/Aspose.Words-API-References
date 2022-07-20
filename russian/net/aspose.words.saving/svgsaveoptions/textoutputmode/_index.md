@@ -16,9 +16,9 @@ public SvgTextOutputMode TextOutputMode { get; set; }
 
 ### Примечания
 
-Используйте это свойство, чтобы получить или установить способ отображения текста внутри документа при сохранении в формате SVG.
+Используйте это свойство, чтобы получить или установить режим рендеринга текста внутри документа при сохранении в формате SVG.
 
-Значение по умолчанию:UseTargetMachineFonts.
+Значение по умолчаниюUseTargetMachineFonts.
 
 ### Примеры
 
@@ -27,7 +27,7 @@ public SvgTextOutputMode TextOutputMode { get; set; }
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");
 
- // Настройте объект SvgSaveOptions для сохранения без границ страницы или выбираемого текста.
+// Настройте объект SvgSaveOptions для сохранения без границ страницы или выбираемого текста.
 SvgSaveOptions options = new SvgSaveOptions
 {
     FitToViewPort = true,

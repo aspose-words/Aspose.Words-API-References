@@ -16,7 +16,7 @@ public string EntryName { get; set; }
 
 ### 例子
 
-显示如何使用自动文本和词汇表字段显示构建块。
+演示如何显示带有 AUTOTEXT 和 GLOSSARY 字段的构建块。
 
 ```csharp
 Document doc = new Document();

@@ -16,7 +16,7 @@ public bool UseUmAlQuraCalendar { get; set; }
 
 ### 例子
 
-显示如何使用 SAVEDATE 字段显示使用 Microsoft Word 执行的文档最近一次保存操作的日期/时间。
+说明如何使用 SAVEDATE 字段来显示文档最近使用 Microsoft Word 执行的保存操作的日期/时间。
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");

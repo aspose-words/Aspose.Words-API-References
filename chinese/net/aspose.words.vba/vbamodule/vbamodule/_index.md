@@ -16,23 +16,23 @@ public VbaModule()
 
 ### 例子
 
-展示如何使用宏创建 VBA 项目。
+演示如何使用宏创建 VBA 项目。
 
 ```csharp
 Document doc = new Document();
 
- // 创建一个新的 VBA 项目。
+// 创建一个新的 VBA 项目。
 VbaProject project = new VbaProject();
 project.Name = "Aspose.Project";
 doc.VbaProject = project;
 
- // 创建一个新模块并指定一个宏源代码.
+// 创建一个新模块并指定一个宏源代码。
 VbaModule module = new VbaModule();
 module.Name = "Aspose.Module";
 module.Type = VbaModuleType.ProceduralModule;
 module.SourceCode = "New source code";
 
- // 将模块添加到 VBA 项目中。
+// 将模块添加到 VBA 项目。
 doc.VbaProject.Modules.Add(module);
 
 doc.Save(ArtifactsDir + "VbaProject.CreateVBAMacros.docm");

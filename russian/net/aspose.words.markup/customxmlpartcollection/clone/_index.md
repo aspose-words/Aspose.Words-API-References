@@ -1,14 +1,14 @@
 ---
 title: Clone
 second_title: Справочник по API Aspose.Words для .NET
-description: Делает полную копию этой коллекции и ее элементов.
+description: Создает полную копию этой коллекции и ее элементов.
 type: docs
 weight: 60
 url: /ru/net/aspose.words.markup/customxmlpartcollection/clone/
 ---
 ## CustomXmlPartCollection.Clone method
 
-Делает полную копию этой коллекции и ее элементов.
+Создает полную копию этой коллекции и ее элементов.
 
 ```csharp
 public CustomXmlPartCollection Clone()

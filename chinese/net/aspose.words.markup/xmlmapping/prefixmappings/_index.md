@@ -1,14 +1,14 @@
 ---
 title: PrefixMappings
 second_title: Aspose.Words for .NET API 参考
-description: 返回 XML 命名空间前缀映射以评估XPathaspose.words.markup/xmlmapping/xpath
+description: 返回 XML 命名空间前缀映射以评估XPathaspose.words.markup/xmlmapping/xpath.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.markup/xmlmapping/prefixmappings/
 ---
 ## XmlMapping.PrefixMappings property
 
-返回 XML 命名空间前缀映射以评估[`XPath`](../xpath)。
+返回 XML 命名空间前缀映射以评估[`XPath`](../xpath).
 
 ```csharp
 public string PrefixMappings { get; }
@@ -16,11 +16,11 @@ public string PrefixMappings { get; }
 
 ### 评论
 
-指定前缀映射集，用于解释 XPath 表达式 当针对文档中的自定义 XML 数据部分评估 XPath 表达式时。
+指定前缀映射集，当针对文档中的自定义 XML 数据部分评估 XPath 表达式时，应使用它来解释 XPath 表达式 。
 
 ### 例子
 
-显示如何为自定义 XML 部件设置 XML 映射。
+展示如何为自定义 XML 部件设置 XML 映射。
 
 ```csharp
 Document doc = new Document();

@@ -19,30 +19,30 @@ public class ChartAxis
 | Имя | Описание |
 | --- | --- |
 | [AxisBetweenCategories](../../aspose.words.drawing.charts/chartaxis/axisbetweencategories) { get; set; } | Получает или задает флаг, указывающий, пересекает ли ось значений ось категорий между категориями. |
-| [BaseTimeUnit](../../aspose.words.drawing.charts/chartaxis/basetimeunit) { get; set; } | Возвращает или задает наименьшую единицу времени, представленную на оси категорий времени. |
+| [BaseTimeUnit](../../aspose.words.drawing.charts/chartaxis/basetimeunit) { get; set; } | Возвращает или задает наименьшую единицу времени, представленную на оси категории времени. |
 | [CategoryType](../../aspose.words.drawing.charts/chartaxis/categorytype) { get; set; } | Получает или задает тип оси категорий. |
 | [Crosses](../../aspose.words.drawing.charts/chartaxis/crosses) { get; set; } | Указывает, как эта ось пересекает перпендикулярную ось. |
-| [CrossesAt](../../aspose.words.drawing.charts/chartaxis/crossesat) { get; set; } | Указывает, где на перпендикулярной оси пересекается ось. |
-| [DisplayUnit](../../aspose.words.drawing.charts/chartaxis/displayunit) { get; } | Задает значение масштабирования отображаемых единиц для оси значений. |
+| [CrossesAt](../../aspose.words.drawing.charts/chartaxis/crossesat) { get; set; } | Указывает место пересечения оси на перпендикулярной оси. |
+| [DisplayUnit](../../aspose.words.drawing.charts/chartaxis/displayunit) { get; } | Определяет значение масштабирования отображаемых единиц для оси значений. |
 | [Document](../../aspose.words.drawing.charts/chartaxis/document) { get; } | Возвращает документ, принадлежащий владельцу титула. |
 | [Hidden](../../aspose.words.drawing.charts/chartaxis/hidden) { get; set; } | Получает или устанавливает флаг, указывающий, скрыта эта ось или нет. |
-| [MajorTickMark](../../aspose.words.drawing.charts/chartaxis/majortickmark) { get; set; } | Возвращает или устанавливает основные деления. |
+| [MajorTickMark](../../aspose.words.drawing.charts/chartaxis/majortickmark) { get; set; } | Возвращает или задает основные деления. |
 | [MajorUnit](../../aspose.words.drawing.charts/chartaxis/majorunit) { get; set; } | Возвращает или задает расстояние между основными делениями. |
-| [MajorUnitIsAuto](../../aspose.words.drawing.charts/chartaxis/majorunitisauto) { get; set; } | Получает или устанавливает флаг, указывающий, следует ли использовать расстояние по умолчанию между основными делениями. |
-| [MajorUnitScale](../../aspose.words.drawing.charts/chartaxis/majorunitscale) { get; set; } | Возвращает или задает значение масштаба для основных делений на оси категорий времени. |
-| [MinorTickMark](../../aspose.words.drawing.charts/chartaxis/minortickmark) { get; set; } | Возвращает или устанавливает второстепенные деления для оси. |
+| [MajorUnitIsAuto](../../aspose.words.drawing.charts/chartaxis/majorunitisauto) { get; set; } | Получает или задает флаг, указывающий, следует ли использовать расстояние по умолчанию между основными делениями. |
+| [MajorUnitScale](../../aspose.words.drawing.charts/chartaxis/majorunitscale) { get; set; } | Возвращает или задает значение шкалы для основных делений на оси категорий времени. |
+| [MinorTickMark](../../aspose.words.drawing.charts/chartaxis/minortickmark) { get; set; } | Возвращает или задает второстепенные деления для оси. |
 | [MinorUnit](../../aspose.words.drawing.charts/chartaxis/minorunit) { get; set; } | Возвращает или задает расстояние между второстепенными делениями. |
-| [MinorUnitIsAuto](../../aspose.words.drawing.charts/chartaxis/minorunitisauto) { get; set; } | Получает или устанавливает флаг, указывающий, следует ли использовать расстояние по умолчанию между второстепенными делениями. |
+| [MinorUnitIsAuto](../../aspose.words.drawing.charts/chartaxis/minorunitisauto) { get; set; } | Получает или задает флаг, указывающий, следует ли использовать расстояние по умолчанию между второстепенными делениями. |
 | [MinorUnitScale](../../aspose.words.drawing.charts/chartaxis/minorunitscale) { get; set; } | Возвращает или задает значение шкалы для второстепенных делений на оси категории времени. |
-| [NumberFormat](../../aspose.words.drawing.charts/chartaxis/numberformat) { get; } | Возвращает объект[`ChartNumberFormat`](../chartnumberformat), позволяющий определять числовые форматы для оси. |
-| [ReverseOrder](../../aspose.words.drawing.charts/chartaxis/reverseorder) { get; set; } | Возвращает или устанавливает флаг, указывающий, должны ли значения оси отображаться в обратном порядке, т.е. от максимального к минимальному. |
-| [Scaling](../../aspose.words.drawing.charts/chartaxis/scaling) { get; } | Обеспечивает доступ к параметрам масштабирования оси. |
+| [NumberFormat](../../aspose.words.drawing.charts/chartaxis/numberformat) { get; } | Возвращает[`ChartNumberFormat`](../chartnumberformat) объект, который позволяет определять числовые форматы для оси. |
+| [ReverseOrder](../../aspose.words.drawing.charts/chartaxis/reverseorder) { get; set; } | Возвращает или устанавливает флаг, указывающий, должны ли значения оси отображаться в обратном порядке, т.е. от максимального до минимального. |
+| [Scaling](../../aspose.words.drawing.charts/chartaxis/scaling) { get; } | Предоставляет доступ к параметрам масштабирования оси. |
 | [TickLabelAlignment](../../aspose.words.drawing.charts/chartaxis/ticklabelalignment) { get; set; } | Получает или задает выравнивание текста меток деления оси. |
 | [TickLabelOffset](../../aspose.words.drawing.charts/chartaxis/ticklabeloffset) { get; set; } | Получает или задает расстояние меток от оси. |
-| [TickLabelPosition](../../aspose.words.drawing.charts/chartaxis/ticklabelposition) { get; set; } | Возвращает или задает положение галочек на оси. |
-| [TickLabelSpacing](../../aspose.words.drawing.charts/chartaxis/ticklabelspacing) { get; set; } | Получает или задает интервал, с которым рисуются метки деления. |
+| [TickLabelPosition](../../aspose.words.drawing.charts/chartaxis/ticklabelposition) { get; set; } | Возвращает или задает положение меток деления на оси. |
+| [TickLabelSpacing](../../aspose.words.drawing.charts/chartaxis/ticklabelspacing) { get; set; } | Получает или задает интервал, с которым рисуются метки делений. |
 | [TickLabelSpacingIsAuto](../../aspose.words.drawing.charts/chartaxis/ticklabelspacingisauto) { get; set; } | Получает или устанавливает флаг, указывающий, следует ли использовать автоматический интервал отрисовки тиковых меток. |
-| [TickMarkSpacing](../../aspose.words.drawing.charts/chartaxis/tickmarkspacing) { get; set; } | Получает или задает интервал, через который рисуются деления. |
+| [TickMarkSpacing](../../aspose.words.drawing.charts/chartaxis/tickmarkspacing) { get; set; } | Получает или задает интервал, с которым рисуются деления. |
 | [Type](../../aspose.words.drawing.charts/chartaxis/type) { get; } | Возвращает тип оси. |
 
 ### Примеры

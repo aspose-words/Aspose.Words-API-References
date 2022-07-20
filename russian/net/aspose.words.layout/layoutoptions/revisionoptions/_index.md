@@ -1,14 +1,14 @@
 ---
 title: RevisionOptions
 second_title: Справочник по API Aspose.Words для .NET
-description: Получает параметры ревизии.
+description: Получает параметры версии.
 type: docs
 weight: 60
 url: /ru/net/aspose.words.layout/layoutoptions/revisionoptions/
 ---
 ## LayoutOptions.RevisionOptions property
 
-Получает параметры ревизии.
+Получает параметры версии.
 
 ```csharp
 public RevisionOptions RevisionOptions { get; }
@@ -16,7 +16,7 @@ public RevisionOptions RevisionOptions { get; }
 
 ### Примеры
 
-Показывает, как изменить внешний вид редакций в готовом выходном документе.
+Показывает, как изменить внешний вид редакций в подготовленном к просмотру выходном документе.
 
 ```csharp
 Document doc = new Document();

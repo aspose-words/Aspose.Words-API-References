@@ -1,14 +1,14 @@
 ---
 title: SaveFormat
 second_title: Справочник по API Aspose.Words для .NET
-description: Указывает формат в котором будет сохранен документ если используется этот объект параметров сохранения. Может быть толькоPcl.
+description: Определяет формат в котором документ будет сохранен если используется этот объект параметров сохранения.Pcl .
 type: docs
 weight: 40
 url: /ru/net/aspose.words.saving/pclsaveoptions/saveformat/
 ---
 ## PclSaveOptions.SaveFormat property
 
-Указывает формат, в котором будет сохранен документ, если используется этот объект параметров сохранения. Может быть толькоPcl.
+Определяет формат, в котором документ будет сохранен, если используется этот объект параметров сохранения.Pcl .
 
 ```csharp
 public override SaveFormat SaveFormat { get; set; }

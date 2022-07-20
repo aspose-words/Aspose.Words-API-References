@@ -20,7 +20,7 @@ public void SetCount(int newCount)
 
 ### 评论
 
-当[`EvenlySpaced`](../evenlyspaced)是 **false** 并增加列数 new[`TextColumn`](../../textcolumn)对象是以零宽度和间距创建。 您需要为新列设置宽度和间距。
+什么时候[`EvenlySpaced`](../evenlyspaced)是 **错误的**你增加列数， new[`TextColumn`](../../textcolumn)创建的对象的宽度和间距为零。 您需要为新列设置宽度和间距。
 
 ### 例子
 

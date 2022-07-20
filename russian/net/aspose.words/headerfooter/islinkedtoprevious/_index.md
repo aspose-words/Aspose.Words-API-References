@@ -16,9 +16,9 @@ public bool IsLinkedToPrevious { get; set; }
 
 ### Примечания
 
-Значение по умолчанию — true.
+Значение по умолчанию верно.
 
-Обратите внимание, когда вы ссылаетесь на верхний или нижний колонтитул, его содержимое очищается.
+Обратите внимание, когда ваша ссылка находится в верхнем или нижнем колонтитуле, ее содержимое очищается.
 
 ### Примеры
 
@@ -49,7 +49,7 @@ builder.Write("This is the footer, which will be displayed in sections 1, 2 and 
 doc.Sections[1].HeadersFooters.LinkToPrevious(true);
 
 // Каждый раздел по-прежнему будет иметь свои собственные объекты верхнего/нижнего колонтитула. Когда мы связываем разделы,
-// раздел ссылки будет отображать верхний и нижний колонтитулы связанного раздела, сохраняя при этом свои собственные.
+// раздел ссылок будет отображать верхний и нижний колонтитулы связанного раздела, сохраняя при этом свои собственные.
 Assert.AreNotEqual(doc.Sections[0].HeadersFooters[0], doc.Sections[1].HeadersFooters[0]);
 Assert.AreNotEqual(doc.Sections[0].HeadersFooters[0].ParentSection, doc.Sections[1].HeadersFooters[0].ParentSection);
 

@@ -1,14 +1,14 @@
 ---
 title: IFontSavingCallback
 second_title: Справочник по API Aspose.Words для .NET
-description: Реализуйте этот интерфейс если вы хотите получать уведомления и управлять тем как Aspose.Words сохраняет шрифты при экспорте документа в формат HTML.
+description: Реализуйте этот интерфейс если хотите получать уведомления и контролировать как Aspose.Words сохраняет шрифты при экспорте документа в формат HTML.
 type: docs
-weight: 4850
+weight: 4900
 url: /ru/net/aspose.words.saving/ifontsavingcallback/
 ---
 ## IFontSavingCallback interface
 
-Реализуйте этот интерфейс, если вы хотите получать уведомления и управлять тем, как Aspose.Words сохраняет шрифты при экспорте документа в формат HTML.
+Реализуйте этот интерфейс, если хотите получать уведомления и контролировать, как Aspose.Words сохраняет шрифты при экспорте документа в формат HTML.
 
 ```csharp
 public interface IFontSavingCallback

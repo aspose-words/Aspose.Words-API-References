@@ -1,14 +1,14 @@
 ---
 title: EmbeddedFontFormat
 second_title: Справочник по API Aspose.Words для .NET
-description: Задает формат определенного встроенного шрифта внутри объектаFontInfo./fontinfo.
+description: Определяет формат конкретного встроенного шрифта внутриFontInfo./fontinfo объект.
 type: docs
-weight: 2620
+weight: 2670
 url: /ru/net/aspose.words.fonts/embeddedfontformat/
 ---
 ## EmbeddedFontFormat enumeration
 
-Задает формат определенного встроенного шрифта внутри объекта[`FontInfo`](../fontinfo).
+Определяет формат конкретного встроенного шрифта внутри[`FontInfo`](../fontinfo) объект.
 
 При сохранении документа в файл записываются только встроенные шрифты соответствующего формата.
 
@@ -20,8 +20,8 @@ public enum EmbeddedFontFormat
 
 | Имя | Ценность | Описание |
 | --- | --- | --- |
-| EmbeddedOpenType | `0` | Определяет формат файла Embedded OpenType (EOT). |
-| OpenType | `1` | Определяет шрифт, внедренный как обычная копия файла шрифта OpenType (TrueType). |
+| EmbeddedOpenType | `0` | Указывает встроенный формат файла OpenType (EOT). |
+| OpenType | `1` | Определяет шрифт, встроенный как обычная копия файла шрифта OpenType (TrueType). |
 
 ### Примеры
 

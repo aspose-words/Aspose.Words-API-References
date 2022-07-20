@@ -1,14 +1,14 @@
 ---
 title: GroupName
 second_title: Справочник по API Aspose.Words для .NET
-description: Идентифицирует по имени захваченную группу вMatchaspose.words.replacing/replacingargs/match который необходимо заменить на строкуReplacementaspose.words.replacing/replacingargs/replacement.
+description: Идентифицирует по имени захваченную группу вMatchaspose.words.replacing/replacingargs/match  который необходимо заменить наReplacementaspose.words.replacing/replacingargs/replacement строка.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.replacing/replacingargs/groupname/
 ---
 ## ReplacingArgs.GroupName property
 
-Идентифицирует по имени захваченную группу в[`Match`](../match) который необходимо заменить на строку[`Replacement`](../replacement).
+Идентифицирует по имени захваченную группу в[`Match`](../match) , который необходимо заменить на[`Replacement`](../replacement) строка.
 
 ```csharp
 public string GroupName { get; set; }
@@ -16,9 +16,9 @@ public string GroupName { get; set; }
 
 ### Примечания
 
-Когда имя группы равно null,[`GroupIndex`](../groupindex)используется для идентификации группы.
+Когда имя группы равно null,[`GroupIndex`](../groupindex) используется для идентификации группы.
 
-Значение по умолчанию — null.
+Значение по умолчанию равно нулю.
 
 ### Примеры
 

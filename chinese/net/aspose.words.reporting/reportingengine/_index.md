@@ -1,14 +1,14 @@
 ---
 title: ReportingEngine
 second_title: Aspose.Words for .NET API 参考
-description: 提供用数据填充模板文档的例程和一组控制这些例程的设置
+description: 提供用数据和一组设置填充模板文档的例程来控制这些例程
 type: docs
-weight: 4420
+weight: 4470
 url: /zh/net/aspose.words.reporting/reportingengine/
 ---
 ## ReportingEngine class
 
-提供用数据填充模板文档的例程和一组控制这些例程的设置。
+提供用数据和一组设置填充模板文档的例程来控制这些例程。
 
 ```csharp
 public class ReportingEngine
@@ -18,15 +18,15 @@ public class ReportingEngine
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ReportingEngine](reportingengine)() | 初始化此类的新实例。 |
+| [ReportingEngine](reportingengine)() | 初始化这个类的一个新实例。 |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [KnownTypes](../../aspose.words.reporting/reportingengine/knowntypes) { get; } | 获取包含Type对象 的无序集（即唯一项的集合）完全或部分限定名称可以在此引擎处理的报告模板中使用 实例来调用相应类型的静态成员、执行类型转换等。 |
-| [Options](../../aspose.words.reporting/reportingengine/options) { get; set; } | 获取或设置一组标志控制此[`ReportingEngine`](../reportingengine)实例的行为在构建报告时。 |
-| static [UseReflectionOptimization](../../aspose.words.reporting/reportingengine/usereflectionoptimization) { get; set; } | 获取或设置一个值，该值指示通过反射 API 执行的自定义类型成员的调用是否为 使用动态类生成优化。默认值是true。 |
+| [KnownTypes](../../aspose.words.reporting/reportingengine/knowntypes) { get; } | 获取一个无序集合（即唯一项的集合），其中包含Type对象 可以在此 engine 实例处理的报告模板中使用完全或部分限定名称来调用相应类型的静态成员、执行类型转换等。 |
+| [Options](../../aspose.words.reporting/reportingengine/options) { get; set; } | 获取或设置一组控制此行为的标志[`ReportingEngine`](../reportingengine)在构建报告时实例 。 |
+| static [UseReflectionOptimization](../../aspose.words.reporting/reportingengine/usereflectionoptimization) { get; set; } | 获取或设置一个值，该值指示通过反射 API 执行的自定义类型成员的调用是否使用动态类生成进行了 优化。默认值为真。 |
 
 ## 方法
 

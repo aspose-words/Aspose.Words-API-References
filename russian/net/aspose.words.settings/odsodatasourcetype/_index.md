@@ -3,7 +3,7 @@ title: OdsoDataSourceType
 second_title: Справочник по API Aspose.Words для .NET
 description: Указывает тип внешнего источника данных к которому необходимо подключиться как часть информации о соединении ODSO.
 type: docs
-weight: 5540
+weight: 5590
 url: /ru/net/aspose.words.settings/odsodatasourcetype/
 ---
 ## OdsoDataSourceType enumeration
@@ -20,15 +20,15 @@ public enum OdsoDataSourceType
 | --- | --- | --- |
 | Text | `0` | Указывает, что данный документ был подключен к текстовому файлу. Возможно, wdMergeSubTypeOther. |
 | Database | `1` | Указывает, что данный документ был подключен к базе данных. Возможно, wdMergeSubTypeAccess. |
-| AddressBook | `2` | Указывает, что данный документ был подключен к адресной книге контактов. Возможно, wdMergeSubTypeOAL. |
-| Document1 | `3` | Указывает, что данный документ был связан с другим форматом документа, поддерживаемым создающим приложением. Возможно, wdMergeSubTypeOLEDBWord. |
-| Document2 | `4` | Указывает, что данный документ был связан с другим форматом документа, поддерживаемым создающим приложением. Возможно, wdMergeSubTypeWorks. |
-| Native | `5` | Указывает, что данный документ был связан с другим форматом документа, присущим производящему приложению. Возможно wdMergeSubTypeOLEDBText |
+| AddressBook | `2` | Указывает, что данный документ был подключен к адресной книге контактов. Возможно wdMergeSubTypeOAL. |
+| Document1 | `3` | Указывает, что данный документ был связан с другим форматом документа, поддерживаемым приложением-производителем. Возможно, wdMergeSubTypeOLEDBWord. |
+| Document2 | `4` | Указывает, что данный документ был связан с другим форматом документа, поддерживаемым приложением-производителем. Возможно, wdMergeSubTypeWorks. |
+| Native | `5` | Указывает, что данный документ был связан с другим форматом документа, родным для создающего приложения. Возможно, wdMergeSubTypeOLEDBText |
 | Email | `6` | Указывает, что данный документ был подключен к приложению электронной почты. Возможно, wdMergeSubTypeOutlook. |
-| None | `7` | Тип внешнего источника данных не указан. Возможно, wdMergeSubTypeWord. |
-| Legacy | `8` | Указывает, что данный документ был подключен к устаревшему формату документа, поддерживаемому создающим приложением Возможно, wdMergeSubTypeWord2000. |
+| None | `7` | Не указан тип внешнего источника данных. Возможно wdMergeSubTypeWord. |
+| Legacy | `8` | Указывает, что данный документ был подключен к устаревшему формату документа, поддерживаемому создающим приложением. Возможно, wdMergeSubTypeWord2000. |
 | Master | `9` | Указывает, что данный документ был подключен к источнику данных, который объединяет другие источники данных. |
-| Default | `7` | РавенNone. |
+| Default | `7` | равноNone . |
 
 ### Примечания
 
@@ -49,9 +49,9 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 builder.Writeln(": ");
 builder.InsertField("MERGEFIELD Message", "<Message>");
 
- // Создаем источник данных в виде ASCII-файла с символом "|" характер
-// действует как разделитель, разделяющий столбцы. Первая строка содержит имена трех столбцов, 
- // и каждая последующая строка представляет собой строку с соответствующими значениями.
+// Создаем источник данных в виде ASCII-файла с символом "|" персонаж
+// действует как разделитель, разделяющий столбцы. Первая строка содержит имена трех столбцов,
+// и каждая последующая строка представляет собой строку с соответствующими значениями.
 string[] lines = { "FirstName|LastName|Message",
     "John|Doe|Hello! This message was created with Aspose Words mail merge." };
 string dataSrcFilename = ArtifactsDir + "MailMerge.MailMergeSettings.DataSource.txt";
@@ -79,7 +79,7 @@ odso.FirstRowContainsColumnNames = true;
 Assert.AreNotSame(odso, odso.Clone());
 Assert.AreNotSame(settings, settings.Clone());
 
- // Открытие этого документа в Microsoft Word приведет к выполнению слияния перед отображением содержимого. 
+// Открытие этого документа в Microsoft Word приведет к выполнению слияния перед отображением содержимого. 
 doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ```
 

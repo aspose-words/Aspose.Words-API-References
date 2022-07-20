@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Справочник по API Aspose.Words для .NET
-description: ВозвращаетChartLegendEntryaspose.words.drawing.charts/chartlegendentryдля указанного индекса.
+description: ВозвращаетChartLegendEntryaspose.words.drawing.charts/chartlegendentry для указанного индекса.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.drawing.charts/chartlegendentrycollection/item/
 ---
 ## ChartLegendEntryCollection indexer
 
-Возвращает[`ChartLegendEntry`](../../chartlegendentry)для указанного индекса.
+Возвращает[`ChartLegendEntry`](../../chartlegendentry) для указанного индекса.
 
 ```csharp
 public ChartLegendEntry this[int index] { get; }

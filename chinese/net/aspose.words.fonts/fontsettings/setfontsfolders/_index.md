@@ -21,7 +21,7 @@ public void SetFontsFolders(string[] fontsFolders, bool recursive)
 
 ### 评论
 
-默认情况下，Aspose.Words 会查找安装到系统的字体。
+默认情况下，Aspose.Words 会查找安装到系统中的字体。
 
 设置此属性会重置所有先前加载的字体的缓存。
 

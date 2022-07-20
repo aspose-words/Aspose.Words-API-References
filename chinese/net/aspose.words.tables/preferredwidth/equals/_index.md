@@ -16,7 +16,7 @@ public bool Equals(PreferredWidth other)
 
 ### 例子
 
-显示如何设置表格单元格的首选宽度。
+显示如何为表格单元格设置首选宽度。
 
 ```csharp
 Document doc = new Document();
@@ -69,7 +69,7 @@ public override bool Equals(object obj)
 
 ### 例子
 
-显示如何设置表格单元格的首选宽度。
+显示如何为表格单元格设置首选宽度。
 
 ```csharp
 Document doc = new Document();

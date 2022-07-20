@@ -1,14 +1,14 @@
 ---
 title: ContentsFont
 second_title: Aspose.Words for .NET API 参考
-description: 将应用于输入到 SDT 的文本的字体格式
+description: 将应用于输入文本的字体格式 SDT.
 type: docs
 weight: 80
 url: /zh/net/aspose.words.markup/structureddocumenttag/contentsfont/
 ---
 ## StructuredDocumentTag.ContentsFont property
 
-将应用于输入到 **SDT** 的文本的字体格式。
+将应用于输入文本的字体格式 **SDT**.
 
 ```csharp
 public Font ContentsFont { get; }

@@ -1,14 +1,14 @@
 ---
 title: Password
 second_title: Справочник по API Aspose.Words для .NET
-description: Получает/устанавливает пароль для шифрования документа методом шифрования RC4.
+description: Получает/устанавливает пароль для шифрования документа с использованием метода шифрования RC4.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.saving/docsaveoptions/password/
 ---
 ## DocSaveOptions.Password property
 
-Получает/устанавливает пароль для шифрования документа методом шифрования RC4.
+Получает/устанавливает пароль для шифрования документа с использованием метода шифрования RC4.
 
 ```csharp
 public string Password { get; set; }
@@ -16,7 +16,7 @@ public string Password { get; set; }
 
 ### Примечания
 
-Чтобы сохранить документ без шифрования, это свойство должно быть нулевым или пустой строкой.
+Чтобы сохранить документ без шифрования, это свойство должно иметь значение null или пустую строку.
 
 ### Примеры
 
@@ -29,17 +29,17 @@ builder.Write("Hello world!");
 
 DocSaveOptions options = new DocSaveOptions(SaveFormat.Doc);
 
- // Установите пароль, который защитит загрузку документа Microsoft Word или Aspose.Words.
- // Обратите внимание, что это никоим образом не шифрует содержимое документа.
+// Установите пароль, который защитит загрузку документа Microsoft Word или Aspose.Words.
+// Обратите внимание, что это никоим образом не шифрует содержимое документа.
 options.Password = "MyPassword";
 
- // Если документ содержит маршрутный лист, мы можем сохранить его при сохранении, установив для этого флага значение true.
+// Если документ содержит маршрутный лист, мы можем сохранить его при сохранении, установив для этого флага значение true.
 options.SaveRoutingSlip = true;
 
 doc.Save(ArtifactsDir + "DocSaveOptions.SaveAsDoc.doc", options);
 
-// Чтобы иметь возможность загрузить документ, 
- // нам нужно будет применить пароль, который мы указали в объекте DocSaveOptions, в объекте LoadOptions.
+// Чтобы иметь возможность загрузить документ,
+// нам нужно будет применить пароль, который мы указали в объекте DocSaveOptions, в объекте LoadOptions.
 Assert.Throws<IncorrectPasswordException>(() => doc = new Document(ArtifactsDir + "DocSaveOptions.SaveAsDoc.doc"));
 
 LoadOptions loadOptions = new LoadOptions("MyPassword");

@@ -1,14 +1,14 @@
 ---
 title: HtmlControlType
 second_title: Справочник по API Aspose.Words для .NET
-description: Тип узлов документа представляющих ltinputgt и ltвыбратьgt элементы импортированные из HTML.
+description: Тип узлов документа которые представляют элементы ltinputgt и ltselectgt импортированные из HTML.
 type: docs
-weight: 3360
+weight: 3410
 url: /ru/net/aspose.words.loading/htmlcontroltype/
 ---
 ## HtmlControlType enumeration
 
-Тип узлов документа, представляющих &lt;input&gt; и &lt;выбрать&gt; элементы, импортированные из HTML.
+Тип узлов документа, которые представляют элементы &lt;input&gt; и &lt;select&gt;, импортированные из HTML.
 
 ```csharp
 public enum HtmlControlType

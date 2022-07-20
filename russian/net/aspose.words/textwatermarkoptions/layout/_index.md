@@ -1,14 +1,14 @@
 ---
 title: Layout
 second_title: Справочник по API Aspose.Words для .NET
-description: Получает или задает макет водяного знака. Значение по умолчаниюDiagonal.
+description: Получает или задает макет водяного знака. Значение по умолчаниюDiagonal .
 type: docs
 weight: 60
 url: /ru/net/aspose.words/textwatermarkoptions/layout/
 ---
 ## TextWatermarkOptions.Layout property
 
-Получает или задает макет водяного знака. Значение по умолчанию:Diagonal.
+Получает или задает макет водяного знака. Значение по умолчаниюDiagonal .
 
 ```csharp
 public WatermarkLayout Layout { get; set; }

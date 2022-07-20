@@ -1,14 +1,14 @@
 ---
 title: HorizontalPosition
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置字段后面的文本应从列左边缘水平移动的点数 或文本框
+description: 获取或设置字段后面的文本应从列框架或文本框的左边缘水平移动的点数 
 type: docs
 weight: 30
 url: /zh/net/aspose.words.fields/fieldadvance/horizontalposition/
 ---
 ## FieldAdvance.HorizontalPosition property
 
-获取或设置字段后面的文本应从列左边缘水平移动的点数 ，或文本框。
+获取或设置字段后面的文本应从列、框架或文本框的左边缘水平移动的点数 。
 
 ```csharp
 public string HorizontalPosition { get; set; }

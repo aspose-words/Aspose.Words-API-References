@@ -1,14 +1,14 @@
 ---
 title: OoxmlSaveOptions
 second_title: Справочник по API Aspose.Words для .NET
-description: Инициализирует новый экземпляр этого класса который можно использовать для сохранения документа в форматеDocx.
+description: Инициализирует новый экземпляр этого класса который можно использовать для сохранения документа вDocx формат.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.saving/ooxmlsaveoptions/ooxmlsaveoptions/
 ---
 ## OoxmlSaveOptions() {#constructor}
 
-Инициализирует новый экземпляр этого класса, который можно использовать для сохранения документа в форматеDocx.
+Инициализирует новый экземпляр этого класса, который можно использовать для сохранения документа вDocx формат.
 
 ```csharp
 public OoxmlSaveOptions()
@@ -56,7 +56,7 @@ Assert.AreEqual(ShapeMarkupLanguage.Dml, ((Shape)doc.GetChild(NodeType.Shape, 0,
 
 ## OoxmlSaveOptions(SaveFormat) {#constructor_1}
 
-Инициализирует новый экземпляр этого класса, который можно использовать для сохранения документа вDocx, Docm,Dotx,Dotmили FlatOpc.
+Инициализирует новый экземпляр этого класса, который можно использовать для сохранения документа вDocx , Docm ,Dotx ,Dotm или FlatOpc формат.
 
 ```csharp
 public OoxmlSaveOptions(SaveFormat saveFormat)
@@ -64,7 +64,7 @@ public OoxmlSaveOptions(SaveFormat saveFormat)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| saveFormat | SaveFormat | Может бытьDocx,Docm, Dotx,DotmилиFlatOpc. |
+| saveFormat | SaveFormat | Может бытьDocx ,Docm , Dotx ,Dotm или жеFlatOpc . |
 
 ### Примеры
 

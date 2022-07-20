@@ -1,14 +1,14 @@
 ---
 title: Position
 second_title: Справочник по API Aspose.Words для .NET
-description: Указывает положение легенды на диаграмме. Значение по умолчаниюRight.
+description: Указывает положение легенды на диаграмме. Значение по умолчаниюRight .
 type: docs
 weight: 30
 url: /ru/net/aspose.words.drawing.charts/chartlegend/position/
 ---
 ## ChartLegend.Position property
 
-Указывает положение легенды на диаграмме. Значение по умолчанию:Right.
+Указывает положение легенды на диаграмме. Значение по умолчанию:Right .
 
 ```csharp
 public LegendPosition Position { get; set; }
@@ -16,7 +16,7 @@ public LegendPosition Position { get; set; }
 
 ### Примеры
 
-Показывает, как редактировать внешний вид легенды диаграммы.
+Показывает, как изменить внешний вид легенды диаграммы.
 
 ```csharp
 Document doc = new Document();

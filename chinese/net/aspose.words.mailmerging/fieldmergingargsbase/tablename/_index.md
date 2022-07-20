@@ -1,14 +1,14 @@
 ---
 title: TableName
 second_title: Aspose.Words for .NET API 参考
-description: 获取当前合并操作的数据表名称如果名称不可用则为空字符串
+description: 获取当前合并操作的数据表的名称如果名称不可用则为空字符串
 type: docs
 weight: 70
 url: /zh/net/aspose.words.mailmerging/fieldmergingargsbase/tablename/
 ---
 ## FieldMergingArgsBase.TableName property
 
-获取当前合并操作的数据表名称，如果名称不可用，则为空字符串。
+获取当前合并操作的数据表的名称，如果名称不可用，则为空字符串。
 
 ```csharp
 public string TableName { get; }
@@ -16,16 +16,15 @@ public string TableName { get; }
 
 ### 例子
 
-显示如何在邮件合并期间将复选框表单字段作为合并数据插入 MERGEFIELD。
+演示如何在邮件合并期间将复选框表单字段作为合并数据插入 MERGEFIELD。
 
 ```csharp
-public void InsertCheckBox()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-     // 使用带有“TableStart”/“TableEnd”标签的 MERGEFIELD 来定义邮件合并 region
-     // 它属于名为“StudentCourse”的数据源，并有一个 MERGEFIELD，它接受来自名为“CourseName”的列的数据。
+    // 使用带有“TableStart”/“TableEnd”标签的 MERGEFIELD 来定义邮件合并区域
+    // 它属于名为“StudentCourse”的数据源，并且有一个 MERGEFIELD，它接受来自名为“CourseName”的列的数据。
     builder.StartTable();
     builder.InsertCell();
     builder.InsertField(" MERGEFIELD  TableStart:StudentCourse ");
@@ -41,16 +40,14 @@ public void InsertCheckBox()
 
     doc.MailMerge.ExecuteWithRegions(dataTable);
     doc.Save(ArtifactsDir + "MailMergeEvent.InsertCheckBox.docx");
-}
 
 /// <summary>
- /// 在遇到具有特定名称的 MERGEFIELD 时，插入复选框表单字段而不是合并数据文本。
+/// 在遇到具有特定名称的 MERGEFIELD 时，插入复选框表单字段而不是合并数据文本。
 /// </summary>
 private class HandleMergeFieldInsertCheckBox : IFieldMergingCallback
 {
     /// <summary>
-     /// 当邮件合并将数据合并到 MERGEFIELD.
- 时调用
+    /// 当邮件合并将数据合并到 MERGEFIELD 时调用。
     /// </summary>
     void IFieldMergingCallback.FieldMerging(FieldMergingArgs args)
     {
@@ -64,7 +61,7 @@ private class HandleMergeFieldInsertCheckBox : IFieldMergingCallback
 
             string fieldValue = args.FieldValue.ToString();
 
-            // 在这种情况下，对于每个记录索引'n'，对应的字段值为“Course n”.
+            // 在这种情况下，对于每个记录索引'n'，对应的字段值为“Course n”。
             Assert.AreEqual(char.GetNumericValue(fieldValue[7]), args.RecordIndex);
 
             builder.Write(fieldValue);
@@ -74,14 +71,14 @@ private class HandleMergeFieldInsertCheckBox : IFieldMergingCallback
 
     void IFieldMergingCallback.ImageFieldMerging(ImageFieldMergingArgs args)
     {
-         // 什么都不做。
+        // 没做什么。
     }
 
     private int mCheckBoxCount;
 }
 
 /// <summary>
- /// 创建一个邮件合并数据源。
+/// 创建邮件合并数据源。
 /// </summary>
 private static DataTable GetStudentCourseDataTable()
 {

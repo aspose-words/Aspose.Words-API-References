@@ -16,7 +16,7 @@ public WarningInfo this[int index] { get; }
 
 | 范围 | 描述 |
 | --- | --- |
-| index | 从零开始的项目索引。 |
+| index | 项目的从零开始的索引。 |
 
 ### 也可以看看
 

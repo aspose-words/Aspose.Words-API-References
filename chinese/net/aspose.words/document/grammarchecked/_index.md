@@ -1,14 +1,14 @@
 ---
 title: GrammarChecked
 second_title: Aspose.Words for .NET API 参考
-description: 返回 true 如果文档已检查语法
+description: 返回 真的如果文档已检查语法
 type: docs
 weight: 180
 url: /zh/net/aspose.words/document/grammarchecked/
 ---
 ## Document.GrammarChecked property
 
-返回 **true** 如果文档已检查语法。
+返回 **真的**如果文档已检查语法。
 
 ```csharp
 public bool GrammarChecked { get; set; }
@@ -16,7 +16,7 @@ public bool GrammarChecked { get; set; }
 
 ### 评论
 
-要重新检查文档中的语法，请将此属性设置为 **假** 。
+要重新检查文档中的语法，请将此属性设置为 **错误的**.
 
 ### 例子
 

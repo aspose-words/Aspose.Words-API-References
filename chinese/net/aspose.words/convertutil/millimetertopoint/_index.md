@@ -16,11 +16,11 @@ public static double MillimeterToPoint(double millimeters)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| mmimeters | Double | 要转换的值。 |
+| millimeters | Double | 要转换的值。 |
 
 ### 评论
 
-1 英寸等于 25.4 毫米。 1 英寸等于 72 分。
+1 英寸等于 25.4 毫米。 1 英寸等于 72 磅。
 
 ### 例子
 
@@ -30,19 +30,19 @@ public static double MillimeterToPoint(double millimeters)
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 一个部分的“页面设置”以磅为单位定义了页边距的大小。
- // 我们也可以使用“ConvertUtil”类来使用更熟悉的度量单位，
- // 定义边界时比如毫米。
+// 一个部分的“页面设置”定义了页边距的大小，以磅为单位。
+// 我们也可以使用“ConvertUtil”类来使用更熟悉的度量单位，
+// 例如定义边界时的毫米。
 PageSetup pageSetup = builder.PageSetup;
 pageSetup.TopMargin = ConvertUtil.MillimeterToPoint(30);
 pageSetup.BottomMargin = ConvertUtil.MillimeterToPoint(50);
 pageSetup.LeftMargin = ConvertUtil.MillimeterToPoint(80);
 pageSetup.RightMargin = ConvertUtil.MillimeterToPoint(40);
 
- // 一厘米大约是 28.3 点。
+// 一厘米大约是 28.3 磅。
 Assert.AreEqual(28.34d, ConvertUtil.MillimeterToPoint(10), 0.01d);
 
- // 添加内容以演示新的边距。
+// 添加内容以演示新的边距。
 builder.Writeln($"This Text is {pageSetup.LeftMargin} points from the left, " +
                 $"{pageSetup.RightMargin} points from the right, " +
                 $"{pageSetup.TopMargin} points from the top, " +

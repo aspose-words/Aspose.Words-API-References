@@ -1,14 +1,14 @@
 ---
 title: SmallCaps
 second_title: Aspose.Words for .NET API 参考
-description: 如果字体格式为小写大写字母则为真
+description: 如果字体格式为小写字母则为真
 type: docs
 weight: 360
 url: /zh/net/aspose.words/font/smallcaps/
 ---
 ## Font.SmallCaps property
 
-如果字体格式为小写大写字母，则为真。
+如果字体格式为小写字母，则为真。
 
 ```csharp
 public bool SmallCaps { get; set; }

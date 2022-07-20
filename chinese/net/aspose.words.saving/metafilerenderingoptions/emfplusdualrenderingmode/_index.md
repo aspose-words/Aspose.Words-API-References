@@ -1,14 +1,14 @@
 ---
 title: EmfPlusDualRenderingMode
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置一个值确定应如何呈现 EMF Dual 图元文件
+description: 获取或设置一个值确定应如何呈现 EMF 双元文件
 type: docs
 weight: 20
 url: /zh/net/aspose.words.saving/metafilerenderingoptions/emfplusdualrenderingmode/
 ---
 ## MetafileRenderingOptions.EmfPlusDualRenderingMode property
 
-获取或设置一个值，确定应如何呈现 EMF+ Dual 图元文件。
+获取或设置一个值，确定应如何呈现 EMF+ 双元文件。
 
 ```csharp
 public EmfPlusDualRenderingMode EmfPlusDualRenderingMode { get; set; }
@@ -16,11 +16,11 @@ public EmfPlusDualRenderingMode EmfPlusDualRenderingMode { get; set; }
 
 ### 评论
 
-EMF+ 双元文件包含 EMF+ 和 EMF 部分。 MS Word 和 GDI+ 总是呈现 EMF+ 部分。 Aspose.Words 目前并不完全支持所有 EMF+ 记录，在某些情况下 EMF 部分的渲染结果看起来比 EMF+ 部分的渲染结果更好。
+EMF+ 双元文件包含 EMF+ 和 EMF 部分。 MS Word 和 GDI+ 总是渲染 EMF+ 部分。 Aspose.Words 目前并不完全支持所有 EMF+ 记录，在某些情况下， EMF 部分的渲染结果看起来比 EMF+ 部分的渲染结果更好。
 
-仅当元文件呈现为矢量图形时才使用此选项。当元文件呈现 到位图时，总是使用 EMF+ 部分。
+此选项仅在元文件呈现为矢量图形时使用。当元文件render 到位图时，总是使用EMF+ 部分。
 
-默认值为EmfPlusWithFallback。
+默认值为EmfPlusWithFallback.
 
 ### 例子
 

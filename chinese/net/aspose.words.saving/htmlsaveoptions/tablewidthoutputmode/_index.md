@@ -1,14 +1,14 @@
 ---
 title: TableWidthOutputMode
 second_title: Aspose.Words for .NET API 参考
-description: 控制如何将表格行和单元格宽度导出为 HTMLMHTML 或 EPUB 默认值为All
+description: 控制如何将表格行和单元格宽度导出为 HTMLMHTML 或 EPUB 默认值为All.
 type: docs
 weight: 460
 url: /zh/net/aspose.words.saving/htmlsaveoptions/tablewidthoutputmode/
 ---
 ## HtmlSaveOptions.TableWidthOutputMode property
 
-控制如何将表格、行和单元格宽度导出为 HTML、MHTML 或 EPUB。 默认值为All。
+控制如何将表格、行和单元格宽度导出为 HTML、MHTML 或 EPUB。 默认值为All.
 
 ```csharp
 public HtmlElementSizeOutputMode TableWidthOutputMode { get; set; }
@@ -16,11 +16,11 @@ public HtmlElementSizeOutputMode TableWidthOutputMode { get; set; }
 
 ### 评论
 
-在 HTML 格式中，表格、行和单元格元素 ( **&lt;table&gt;** , **&lt;tr&gt;** , **&lt;th&gt;** , **&lt;td&gt;** ) 可以在相对 (百分比）或绝对单位。 在 Aspose.Words 的文档中，表格、行和单元格的宽度可以指定 使用相对单位或绝对单位。
+在 HTML 格式中，表格、行和单元格元素 ( **&lt;表格&gt;**, **&lt;tr&gt;**, **&lt;th&gt;**, **&lt;td&gt;**) 可以以相对（百分比）或绝对单位指定其宽度。 在 Aspose.Words 中的文档中，表格、行和单元格也可以使用相对或绝对单位指定其宽度 。
 
-当您使用 Aspose.Words 将文档转换为 HTML 时，您可能想要控制 表格、行和单元格宽度如何导出到影响结果文档如何在可视代理（例如浏览器或查看器）中显示 。
+当您使用 Aspose.Words 将文档转换为 HTML 时，您可能希望控制如何导出 表格、行和单元格宽度，以影响结果文档在可视代理（例如浏览器或查看器）中的显示方式 。
 
-使用此属性作为过滤器来指定将哪些表格宽度值导出到目标文档中。 例如，如果您要将文档转换为 EPUB 并打算在移动阅读设备上查看文档， 那么您可能希望避免导出绝对宽度值。为此，您需要指定 输出模式RelativeOnly或None 因此移动设备上的查看器可以布置表格以尽可能适合屏幕的宽度。
+使用此属性作为过滤器来指定将哪些表格宽度值导出到目标文档中。 例如，如果您将文档转换为 EPUB 并打算在移动阅读设备上查看文档， 那么您可能希望避免导出绝对宽度值。为此，您需要指定 输出模式RelativeOnly或者None 以便移动设备上的查看器可以布置表格以尽可能适合屏幕的宽度。
 
 ### 例子
 

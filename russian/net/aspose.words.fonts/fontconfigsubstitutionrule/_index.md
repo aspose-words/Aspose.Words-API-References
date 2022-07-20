@@ -3,7 +3,7 @@ title: FontConfigSubstitutionRule
 second_title: Справочник по API Aspose.Words для .NET
 description: Правило подстановки конфигурации шрифта.
 type: docs
-weight: 2660
+weight: 2710
 url: /ru/net/aspose.words.fonts/fontconfigsubstitutionrule/
 ---
 ## FontConfigSubstitutionRule class
@@ -18,7 +18,7 @@ public class FontConfigSubstitutionRule : FontSubstitutionRule
 
 | Имя | Описание |
 | --- | --- |
-| override [Enabled](../../aspose.words.fonts/fontconfigsubstitutionrule/enabled) { set; } | Указывает, включено ли правило или нет. |
+| override [Enabled](../../aspose.words.fonts/fontconfigsubstitutionrule/enabled) { set; } | Указывает, включено ли правило. |
 
 ## Методы
 
@@ -29,13 +29,13 @@ public class FontConfigSubstitutionRule : FontSubstitutionRule
 
 ### Примечания
 
-Это правило использует утилиту fontconfig в Linux (и других Unix- как) платформы, чтобы получить замену если исходный шрифт недоступен.
+Это правило использует утилиту fontconfig на платформах Linux (и других Unix-подобных) для получения замены , если исходный шрифт недоступен.
 
-Если утилита fontconfig недоступна, то это правило будет игнорироваться.
+Если утилита fontconfig недоступна, это правило будет проигнорировано.
 
 ### Примеры
 
-Показывает подстановку конфигурации шрифта, зависящую от операционной системы.
+Показывает подстановку конфигурации шрифта в зависимости от операционной системы.
 
 ```csharp
 FontSettings fontSettings = new FontSettings();

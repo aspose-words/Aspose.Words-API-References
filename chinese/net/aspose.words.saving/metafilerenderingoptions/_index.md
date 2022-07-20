@@ -3,7 +3,7 @@ title: MetafileRenderingOptions
 second_title: Aspose.Words for .NET API 参考
 description: 允许指定额外的元文件渲染选项
 type: docs
-weight: 4970
+weight: 5020
 url: /zh/net/aspose.words.saving/metafilerenderingoptions/
 ---
 ## MetafileRenderingOptions class
@@ -24,15 +24,15 @@ public class MetafileRenderingOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [EmfPlusDualRenderingMode](../../aspose.words.saving/metafilerenderingoptions/emfplusdualrenderingmode) { get; set; } | 获取或设置一个值，确定应如何呈现 EMF+ Dual 图元文件。 |
-| [EmulateRasterOperations](../../aspose.words.saving/metafilerenderingoptions/emulaterasteroperations) { get; set; } | 获取或设置确定是否应模拟光栅操作的值。 |
+| [EmfPlusDualRenderingMode](../../aspose.words.saving/metafilerenderingoptions/emfplusdualrenderingmode) { get; set; } | 获取或设置一个值，确定应如何呈现 EMF+ 双元文件。 |
+| [EmulateRasterOperations](../../aspose.words.saving/metafilerenderingoptions/emulaterasteroperations) { get; set; } | 获取或设置一个确定是否应模拟光栅操作的值。 |
 | [RenderingMode](../../aspose.words.saving/metafilerenderingoptions/renderingmode) { get; set; } | 获取或设置一个值，确定应如何呈现元文件图像。 |
 | [ScaleWmfFontsToMetafileSize](../../aspose.words.saving/metafilerenderingoptions/scalewmffontstometafilesize) { get; set; } | 获取或设置一个值，该值确定是否根据页面上的图元文件大小来缩放 WMF 图元文件中的字体。 |
-| [UseEmfEmbeddedToWmf](../../aspose.words.saving/metafilerenderingoptions/useemfembeddedtowmf) { get; set; } | 获取或设置一个值，该值确定应如何呈现具有嵌入式 EMF 图元文件的 WMF 图元文件。 |
+| [UseEmfEmbeddedToWmf](../../aspose.words.saving/metafilerenderingoptions/useemfembeddedtowmf) { get; set; } | 获取或设置一个值，该值确定应如何呈现具有嵌入式 EMF 元文件的 WMF 元文件。 |
 
 ### 例子
 
-显示添加了位图渲染的后备和更改有关不受支持的元文件记录的警告类型。
+Shows 添加了对位图渲染的回退，并更改了有关不受支持的元文件记录的警告类型。
 
 ```csharp
 {

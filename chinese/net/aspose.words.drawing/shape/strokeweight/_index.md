@@ -16,13 +16,13 @@ public double StrokeWeight { get; set; }
 
 ### 评论
 
-这是Weight属性。
+这是一个快捷方式[`Weight`](../../stroke/weight)财产。
 
 默认值为 0.75。
 
 ### 例子
 
-显示如何迭代文档中的所有形状。
+演示如何遍历文档中的所有形状。
 
 ```csharp
 {

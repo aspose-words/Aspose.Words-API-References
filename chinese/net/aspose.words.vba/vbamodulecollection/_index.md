@@ -1,14 +1,14 @@
 ---
 title: VbaModuleCollection
 second_title: Aspose.Words for .NET API 参考
-description: 表示VbaModule./vbamodule对象的集合
+description: 代表一个集合VbaModule./vbamodule对象.
 type: docs
-weight: 6200
+weight: 6250
 url: /zh/net/aspose.words.vba/vbamodulecollection/
 ---
 ## VbaModuleCollection class
 
-表示[`VbaModule`](../vbamodule)对象的集合。
+代表一个集合[`VbaModule`](../vbamodule)对象.
 
 ```csharp
 public sealed class VbaModuleCollection : IEnumerable<VbaModule>
@@ -19,7 +19,7 @@ public sealed class VbaModuleCollection : IEnumerable<VbaModule>
 | 姓名 | 描述 |
 | --- | --- |
 | [Count](../../aspose.words.vba/vbamodulecollection/count) { get; } | 返回集合中 VBA 模块的数量。 |
-| [Item](../../aspose.words.vba/vbamodulecollection/item) { get; } | 按索引检索[`VbaModule`](../vbamodule)对象。 (2 indexers) |
+| [Item](../../aspose.words.vba/vbamodulecollection/item) { get; } | 检索一个[`VbaModule`](../vbamodule)按索引的对象. (2 indexers) |
 
 ## 方法
 

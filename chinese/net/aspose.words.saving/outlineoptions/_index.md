@@ -3,7 +3,7 @@ title: OutlineOptions
 second_title: Aspose.Words for .NET API 参考
 description: 允许指定大纲选项
 type: docs
-weight: 5030
+weight: 5080
 url: /zh/net/aspose.words.saving/outlineoptions/
 ---
 ## OutlineOptions class
@@ -25,11 +25,11 @@ public class OutlineOptions
 | 姓名 | 描述 |
 | --- | --- |
 | [BookmarksOutlineLevels](../../aspose.words.saving/outlineoptions/bookmarksoutlinelevels) { get; } | 允许指定单个书签大纲级别。 |
-| [CreateMissingOutlineLevels](../../aspose.words.saving/outlineoptions/createmissingoutlinelevels) { get; set; } | 获取或设置一个值，用于确定当文档为 导出时是否创建缺失的大纲级别。 |
+| [CreateMissingOutlineLevels](../../aspose.words.saving/outlineoptions/createmissingoutlinelevels) { get; set; } | 获取或设置一个值，该值确定在 导出文档时是否创建缺少的大纲级别。 |
 | [CreateOutlinesForHeadingsInTables](../../aspose.words.saving/outlineoptions/createoutlinesforheadingsintables) { get; set; } | 指定是否为表格内的标题（以标题样式格式化的段落）创建大纲。 |
 | [DefaultBookmarksOutlineLevel](../../aspose.words.saving/outlineoptions/defaultbookmarksoutlinelevel) { get; set; } | 指定文档大纲中显示 Word 书签的默认级别。 |
-| [ExpandedOutlineLevels](../../aspose.words.saving/outlineoptions/expandedoutlinelevels) { get; set; } | 指定查看文件时显示展开的文档大纲的多少级。 |
-| [HeadingsOutlineLevels](../../aspose.words.saving/outlineoptions/headingsoutlinelevels) { get; set; } | 指定在 文档大纲中包含多少级别的标题（以标题样式格式化的段落）。 |
+| [ExpandedOutlineLevels](../../aspose.words.saving/outlineoptions/expandedoutlinelevels) { get; set; } | 指定查看文件时文档大纲中显示展开的级别。 |
+| [HeadingsOutlineLevels](../../aspose.words.saving/outlineoptions/headingsoutlinelevels) { get; set; } | 指定要包含在 文档大纲中的标题级别（以标题样式格式化的段落）。 |
 
 ### 例子
 

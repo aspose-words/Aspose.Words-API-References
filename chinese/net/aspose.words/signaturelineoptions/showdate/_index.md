@@ -1,14 +1,14 @@
 ---
 title: ShowDate
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置一个值指示签名日期显示在签名行中 此属性的默认值为 true 
+description: 获取或设置一个值指示签名日期显示在签名行中 此属性的默认值为 真的.
 type: docs
 weight: 60
 url: /zh/net/aspose.words/signaturelineoptions/showdate/
 ---
 ## SignatureLineOptions.ShowDate property
 
-获取或设置一个值，指示签名日期显示在签名行中。 此属性的默认值为 **true** 。
+获取或设置一个值，指示签名日期显示在签名行中。 此属性的默认值为 **真的**.
 
 ```csharp
 public bool ShowDate { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: Shading
 second_title: Справочник по API Aspose.Words для .NET
-description: Получает объектShadingaspose.words/shading который ссылается на форматирование затенения ячеек таблицы.
+description: ПолучаетShadingaspose.words/shading объект который ссылается на форматирование затенения для ячеек таблицы.
 type: docs
 weight: 130
 url: /ru/net/aspose.words/tablestyle/shading/
 ---
 ## TableStyle.Shading property
 
-Получает объект[`Shading`](../../shading), который ссылается на форматирование затенения ячеек таблицы.
+Получает[`Shading`](../../shading) объект, который ссылается на форматирование затенения для ячеек таблицы.
 
 ```csharp
 public Shading Shading { get; }
@@ -47,7 +47,7 @@ tableStyle.VerticalAlignment = CellVerticalAlignment.Center;
 
 table.Style = tableStyle;
 
- // Установка свойств стиля таблицы может повлиять на свойства самой таблицы.
+// Установка свойств стиля таблицы может повлиять на свойства самой таблицы.
 Assert.True(table.Bidi);
 Assert.AreEqual(5.0d, table.CellSpacing);
 Assert.AreEqual("MyTableStyle1", table.StyleName);

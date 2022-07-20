@@ -3,7 +3,7 @@ title: ReplaceAction
 second_title: Aspose.Words for .NET API 参考
 description: 允许用户指定在替换操作期间当前匹配发生的情况
 type: docs
-weight: 4330
+weight: 4380
 url: /zh/net/aspose.words.replacing/replaceaction/
 ---
 ## ReplaceAction enumeration
@@ -19,12 +19,12 @@ public enum ReplaceAction
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
 | Replace | `0` | 替换当前匹配。 |
-| Skip | `1` | 跳过当前匹配。 |
+| Skip | `1` | 跳过当前比赛。 |
 | Stop | `2` | 终止替换操作。 |
 
 ### 例子
 
-显示如何插入整个文档的内容作为替换查找和替换操作中的匹配项。
+演示如何在查找和替换操作中插入整个文档的内容以替换匹配项。
 
 ```csharp
 {

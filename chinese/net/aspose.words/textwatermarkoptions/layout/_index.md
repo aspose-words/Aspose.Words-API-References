@@ -1,14 +1,14 @@
 ---
 title: Layout
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置水印的布局默认值为Diagonal
+description: 获取或设置水印的布局默认值为Diagonal.
 type: docs
 weight: 60
 url: /zh/net/aspose.words/textwatermarkoptions/layout/
 ---
 ## TextWatermarkOptions.Layout property
 
-获取或设置水印的布局。默认值为Diagonal。
+获取或设置水印的布局。默认值为Diagonal.
 
 ```csharp
 public WatermarkLayout Layout { get; set; }
@@ -16,7 +16,7 @@ public WatermarkLayout Layout { get; set; }
 
 ### 例子
 
-显示如何创建文本水印。
+演示如何创建文本水印。
 
 ```csharp
 Document doc = new Document();

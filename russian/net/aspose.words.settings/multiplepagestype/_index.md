@@ -1,14 +1,14 @@
 ---
 title: MultiplePagesType
 second_title: Справочник по API Aspose.Words для .NET
-description: Указывает способ печати документа.
+description: Указывает как распечатывается документ.
 type: docs
-weight: 5520
+weight: 5570
 url: /ru/net/aspose.words.settings/multiplepagestype/
 ---
 ## MultiplePagesType enumeration
 
-Указывает способ печати документа.
+Указывает, как распечатывается документ.
 
 ```csharp
 public enum MultiplePagesType
@@ -20,7 +20,7 @@ public enum MultiplePagesType
 | --- | --- | --- |
 | Normal | `0` | Обычная печать, не указано несколько страниц. |
 | MirrorMargins | `1` | Меняет местами левое и правое поля на противоположных страницах. |
-| TwoPagesPerSheet | `2` | Печатает две страницы на листе. |
+| TwoPagesPerSheet | `2` | Печать двух страниц на листе. |
 | BookFoldPrinting | `3` | Указывает, следует ли печатать документ в виде книжки. |
 | BookFoldPrintingReverse | `4` | Указывает, следует ли печатать документ в перевернутом виде. |
 | Default | `0` | Значение по умолчанию:Normal |

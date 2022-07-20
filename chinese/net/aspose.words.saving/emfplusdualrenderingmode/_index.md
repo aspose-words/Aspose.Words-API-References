@@ -1,14 +1,14 @@
 ---
 title: EmfPlusDualRenderingMode
 second_title: Aspose.Words for .NET API 参考
-description: 指定 Aspose.Words 应如何呈现 EMF Dual 元文件
+description: 指定 Aspose.Words 应如何呈现 EMF 双元文件
 type: docs
-weight: 4670
+weight: 4720
 url: /zh/net/aspose.words.saving/emfplusdualrenderingmode/
 ---
 ## EmfPlusDualRenderingMode enumeration
 
-指定 Aspose.Words 应如何呈现 EMF+ Dual 元文件。
+指定 Aspose.Words 应如何呈现 EMF+ 双元文件。
 
 ```csharp
 public enum EmfPlusDualRenderingMode
@@ -18,13 +18,13 @@ public enum EmfPlusDualRenderingMode
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| EmfPlusWithFallback | `0` | Aspose.Words 尝试渲染 EMF+ 双元文件的 EMF+ 部分。如果不支持某些 EMF+ 记录 则 Aspose.Words 呈现 EMF+ Dual 图元文件的 EMF 部分。 |
-| EmfPlus | `1` | Aspose.Words 呈现 EMF+ 双元文件的 EMF+ 部分。 |
-| Emf | `2` | Aspose.Words 呈现 EMF+ Dual 元文件的 EMF 部分。 |
+| EmfPlusWithFallback | `0` | Aspose.Words 尝试渲染 EMF+ 双元文件的 EMF+ 部分。如果不支持某些 EMF+ 记录 ，则 Aspose.Words 呈现 EMF+ 双元文件的 EMF 部分。 |
+| EmfPlus | `1` | Aspose.Words 呈现 EMF+ 部分 EMF+ 双元文件。 |
+| Emf | `2` | Aspose.Words 呈现 EMF+ 双元文件的 EMF 部分。 |
 
 ### 例子
 
-显示如何在保存为 PDF 时配置增强的 Windows 图元文件相关的呈现选项。
+显示保存为 PDF 时如何配置增强的 Windows 图元文件相关的呈现选项。
 
 ```csharp
 Document doc = new Document(MyDir + "EMF.docx");

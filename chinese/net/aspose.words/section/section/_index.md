@@ -16,11 +16,11 @@ public Section(DocumentBase doc)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| doc | DocumentBase | 所有者文档。 |
+| doc | DocumentBase | 所有者文件。 |
 
 ### 评论
 
-节创建时属于指定文档，但不是 文档的一部分和 **ParentNode** 为空。
+创建该部分时，它属于指定的文档，但不是 还不是文档的一部分，并且 **父节点**一片空白。
 
 要将 Section 包含到文档中，请使用 Document.InsertAfter、Document.InsertBefore 或 Sections.Add 和 Section.Insert 方法。
 
@@ -31,27 +31,27 @@ public Section(DocumentBase doc)
 ```csharp
 Document doc = new Document();
 
- // 一个空白文档包含一个部分、一个正文和一个段落。
- // 调用“RemoveAllChildren”方法删除所有节点，
- // 最终得到一个没有子节点的文档节点。
+// 一个空白文档包含一个部分、一个正文和一个段落。
+// 调用“RemoveAllChildren”方法来移除所有这些节点，
+// 最后得到一个没有子节点的文档节点。
 doc.RemoveAllChildren();
 
- // 这个文档现在没有我们可以添加内容的复合子节点。
+// 这个文档现在没有我们可以添加内容的复合子节点。
 // 如果我们想编辑它，我们需要重新填充它的节点集合。
- // 首先，创建一个新节，然后将其作为子节点附加到根文档节点。
+// 首先，创建一个新部分，然后将其作为子节点附加到根文档节点。
 Section section = new Section(doc);
 doc.AppendChild(section);
 
- // 为部分设置一些页面设置属性。
+// 为该部分设置一些页面设置属性。
 section.PageSetup.SectionStart = SectionStart.NewPage;
 section.PageSetup.PaperSize = PaperSize.Letter;
 
- // 一个部分需要一个主体，它将包含并显示其所有内容
- // 在节的页眉和页脚之间的页面上。
+// 一个section需要一个body，它将包含并显示它的所有内容
+// 在节的页眉和页脚之间的页面上。
 Body body = new Body(doc);
 section.AppendChild(body);
 
- // 创建一个段落，设置一些格式属性，然后将其作为子项附加到 body.
+// 创建一个段落，设置一些格式属性，然后将其作为子项附加到正文中。
 Paragraph para = new Paragraph(doc);
 
 para.ParagraphFormat.StyleName = "Heading 1";
@@ -59,8 +59,8 @@ para.ParagraphFormat.Alignment = ParagraphAlignment.Center;
 
 body.AppendChild(para);
 
- // 最后，添加一些内容来做文档。创建一个运行，
- // 设置其外观和内容，然后将其作为子项附加到段落中。
+// 最后，添加一些内容来做文档。创建运行，
+// 设置其外观和内容，然后将其作为子项附加到段落中。
 Run run = new Run(doc);
 run.Text = "Hello World!";
 run.Font.Color = Color.Red;

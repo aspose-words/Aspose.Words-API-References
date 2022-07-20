@@ -1,14 +1,14 @@
 ---
 title: PrefixMappings
 second_title: Справочник по API Aspose.Words для .NET
-description: Возвращает сопоставления префиксов пространств имен XML для оценкиXPathaspose.words.markup/xmlmapping/xpath.
+description: Возвращает сопоставления префиксов пространств имен XML для оценкиXPathaspose.words.markup/xmlmapping/xpath .
 type: docs
 weight: 30
 url: /ru/net/aspose.words.markup/xmlmapping/prefixmappings/
 ---
 ## XmlMapping.PrefixMappings property
 
-Возвращает сопоставления префиксов пространств имен XML для оценки[`XPath`](../xpath).
+Возвращает сопоставления префиксов пространств имен XML для оценки[`XPath`](../xpath) .
 
 ```csharp
 public string PrefixMappings { get; }
@@ -16,7 +16,7 @@ public string PrefixMappings { get; }
 
 ### Примечания
 
-Указывает набор сопоставлений префиксов, которые должны использоваться для интерпретации выражения XPath когда выражение XPath сопоставляется с пользовательскими частями данных XML в документе.
+Указывает набор сопоставлений префиксов, которые должны использоваться для интерпретации выражения XPath , когда выражение XPath оценивается по сравнению с пользовательскими частями данных XML в документе.
 
 ### Примеры
 

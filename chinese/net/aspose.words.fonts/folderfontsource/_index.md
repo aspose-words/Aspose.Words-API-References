@@ -3,7 +3,7 @@ title: FolderFontSource
 second_title: Aspose.Words for .NET API 参考
 description: 表示包含 TrueType 字体文件的文件夹
 type: docs
-weight: 2650
+weight: 2700
 url: /zh/net/aspose.words.fonts/folderfontsource/
 ---
 ## FolderFontSource class
@@ -18,8 +18,8 @@ public class FolderFontSource : FontSourceBase
 
 | 姓名 | 描述 |
 | --- | --- |
-| [FolderFontSource](folderfontsource#constructor)(string, bool) | 克托尔。 |
-| [FolderFontSource](folderfontsource#constructor_1)(string, bool, int) | 克托尔。 |
+| [FolderFontSource](folderfontsource#constructor)(string, bool) | 克托尔. |
+| [FolderFontSource](folderfontsource#constructor_1)(string, bool, int) | 克托尔. |
 
 ## 特性
 
@@ -39,7 +39,7 @@ public class FolderFontSource : FontSourceBase
 
 ### 例子
 
-显示如何使用包含字体的本地系统文件夹作为字体源。
+展示如何使用包含字体的本地系统文件夹作为字体源。
 
 ```csharp
 // 从包含字体文件的文件夹创建字体源。

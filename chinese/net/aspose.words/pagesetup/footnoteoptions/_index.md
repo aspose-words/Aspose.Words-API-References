@@ -1,14 +1,14 @@
 ---
 title: FootnoteOptions
 second_title: Aspose.Words for .NET API 参考
-description: 提供控制本节中脚注编号和位置的选项
+description: 提供控制本节脚注编号和位置的选项
 type: docs
 weight: 150
 url: /zh/net/aspose.words/pagesetup/footnoteoptions/
 ---
 ## PageSetup.FootnoteOptions property
 
-提供控制本节中脚注编号和位置的选项。
+提供控制本节脚注编号和位置的选项。
 
 ```csharp
 public FootnoteOptions FootnoteOptions { get; }

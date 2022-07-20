@@ -21,11 +21,11 @@ public bool ExportEmbeddedCss { get; set; }
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
- // Когда мы экспортируем документ в html, Aspose.Words также создаст таблицу стилей CSS для форматирования документа с помощью .
- // Установка флага «ExportEmbeddedCss» в значение «true» сохраняет таблицу стилей CSS в файл .css, 
- // и ссылка на файл из html-документа с помощью тега <link> элемент.
-// Установка флага в "false" приведет к внедрению таблицы стилей CSS в HTML-документ, 
- // что создаст только один файл вместо двух.
+// Когда мы экспортируем документ в html, Aspose.Words также создаст таблицу стилей CSS для форматирования документа.
+// Установка флага "ExportEmbeddedCss" в "true" сохраняет таблицу стилей CSS в файл .css,
+// и ссылка на файл из html-документа с помощью тега <link> элемент.
+// Установка флага в "false" приведет к внедрению таблицы стилей CSS в HTML-документ,
+// который создаст только один файл вместо двух.
 HtmlFixedSaveOptions htmlFixedSaveOptions = new HtmlFixedSaveOptions
 {
     ExportEmbeddedCss = exportEmbeddedCss

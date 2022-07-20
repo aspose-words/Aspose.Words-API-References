@@ -16,7 +16,7 @@ public PdfTextCompression TextCompression { get; set; }
 
 ### Примечания
 
-По умолчанию:Flate.
+По умолчаниюFlate.
 
 Значительно увеличивает размер вывода при сохранении документа без сжатия.
 

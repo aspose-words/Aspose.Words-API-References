@@ -1,14 +1,14 @@
 ---
 title: GetText
 second_title: Справочник по API Aspose.Words для .NET
-description: Получает текст этого узла и всех его потомков.
+description: Получает текст этого узла и всех его дочерних элементов.
 type: docs
 weight: 120
 url: /ru/net/aspose.words/compositenode/gettext/
 ---
 ## CompositeNode.GetText method
 
-Получает текст этого узла и всех его потомков.
+Получает текст этого узла и всех его дочерних элементов.
 
 ```csharp
 public override string GetText()
@@ -24,27 +24,15 @@ public override string GetText()
 
 ```csharp
 Document doc = new Document();
+
 DocumentBuilder builder = new DocumentBuilder(doc);
+builder.InsertField("MERGEFIELD Field");
 
-builder.ListFormat.ApplyNumberDefault();
-builder.Writeln("Numbered list item 1");
-builder.Writeln("Numbered list item 2");
-builder.Writeln("Numbered list item 3");
-builder.ListFormat.RemoveNumbers();
+// GetText извлечет видимый текст, а также коды полей и специальные символы.
+Assert.AreEqual("\u0013MERGEFIELD Field\u0014«Field»\u0015\u000c", doc.GetText());
 
-builder.ListFormat.ApplyBulletDefault();
-builder.Writeln("Bulleted list item 1");
-builder.Writeln("Bulleted list item 2");
-builder.Writeln("Bulleted list item 3");
-builder.ListFormat.RemoveNumbers();
-
-NodeCollection paras = doc.GetChildNodes(NodeType.Paragraph, true);
-
-foreach (Paragraph para in paras.OfType<Paragraph>().Where(p => p.ListFormat.IsListItem))
-{ 
-    Console.WriteLine($"This paragraph belongs to list ID# {para.ListFormat.List.ListId}, number style \"{para.ListFormat.ListLevel.NumberStyle}\"");
-    Console.WriteLine($"\t\"{para.GetText().Trim()}\"");
-}
+// ToString даст нам внешний вид документа, если он будет сохранен в переданном формате сохранения.
+Assert.AreEqual("«Field»\r\n", doc.ToString(SaveFormat.Text));
 ```
 
 Показывает, как вывести все абзацы в документе, которые являются элементами списка.

@@ -3,7 +3,7 @@ title: TextureAlignment
 second_title: Aspose.Words for .NET API 参考
 description: 指定纹理填充平铺的对齐方式
 type: docs
-weight: 1200
+weight: 1220
 url: /zh/net/aspose.words.drawing/texturealignment/
 ---
 ## TextureAlignment enumeration
@@ -31,7 +31,7 @@ public enum TextureAlignment
 
 ### 例子
 
-显示如何在形状内填充和平铺纹理。
+显示如何填充和平铺形状内的纹理。
 
 ```csharp
 Document doc = new Document();

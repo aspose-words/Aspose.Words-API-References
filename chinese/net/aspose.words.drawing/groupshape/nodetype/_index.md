@@ -1,14 +1,14 @@
 ---
 title: NodeType
 second_title: Aspose.Words for .NET API 参考
-description: 返回GroupShape
+description: 返回GroupShape.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.drawing/groupshape/nodetype/
 ---
 ## GroupShape.NodeType property
 
-返回GroupShape。
+返回GroupShape.
 
 ```csharp
 public override NodeType NodeType { get; }

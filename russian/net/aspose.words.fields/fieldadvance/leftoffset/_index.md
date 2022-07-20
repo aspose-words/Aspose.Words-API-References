@@ -1,14 +1,14 @@
 ---
 title: LeftOffset
 second_title: Справочник по API Aspose.Words для .NET
-description: Получает или задает число точек на которое следует сдвинуть влево текст следующий за полем.
+description: Получает или задает количество пунктов на которое следует сдвинуть текст следующий за полем влево.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.fields/fieldadvance/leftoffset/
 ---
 ## FieldAdvance.LeftOffset property
 
-Получает или задает число точек, на которое следует сдвинуть влево текст, следующий за полем.
+Получает или задает количество пунктов, на которое следует сдвинуть текст, следующий за полем, влево.
 
 ```csharp
 public string LeftOffset { get; set; }

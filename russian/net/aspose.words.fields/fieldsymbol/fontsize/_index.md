@@ -1,14 +1,14 @@
 ---
 title: FontSize
 second_title: Справочник по API Aspose.Words для .NET
-description: Получает или задает размер в пунктах шрифта символа извлеченного полем.
+description: Получает или задает размер в пунктах шрифта символа полученного полем.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.fields/fieldsymbol/fontsize/
 ---
 ## FieldSymbol.FontSize property
 
-Получает или задает размер в пунктах шрифта символа, извлеченного полем.
+Получает или задает размер в пунктах шрифта символа, полученного полем.
 
 ```csharp
 public string FontSize { get; set; }

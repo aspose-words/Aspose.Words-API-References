@@ -3,7 +3,7 @@ title: FieldNextIf
 second_title: Aspose.Words for .NET API 参考
 description: 实现 NEXTIF 字段
 type: docs
-weight: 2000
+weight: 2040
 url: /zh/net/aspose.words.fields/fieldnextif/
 ---
 ## FieldNextIf class
@@ -26,14 +26,14 @@ public class FieldNextIf : Field
 | --- | --- |
 | [ComparisonOperator](../../aspose.words.fields/fieldnextif/comparisonoperator) { get; set; } | 获取或设置比较运算符。 |
 | [DisplayResult](../../aspose.words.fields/field/displayresult) { get; } | 获取表示显示字段结果的文本。 |
-| [End](../../aspose.words.fields/field/end) { get; } | 获取表示字段结束的节点。 |
-| [Format](../../aspose.words.fields/field/format) { get; } | 获取[`FieldFormat`](../fieldformat)对象，该对象提供对字段格式的类型化访问。 |
+| [End](../../aspose.words.fields/field/end) { get; } | 获取代表字段end的节点。 |
+| [Format](../../aspose.words.fields/field/format) { get; } | 得到一个[`FieldFormat`](../fieldformat)提供对字段格式的类型化访问的对象。 |
 | [IsDirty](../../aspose.words.fields/field/isdirty) { get; set; } | 获取或设置字段的当前结果是否由于对文档的其他修改而不再正确（陈旧）。 |
 | [IsLocked](../../aspose.words.fields/field/islocked) { get; set; } | 获取或设置字段是否被锁定（不应重新计算其结果）。 |
 | [LeftExpression](../../aspose.words.fields/fieldnextif/leftexpression) { get; set; } | 获取或设置比较表达式的左边部分。 |
-| [LocaleId](../../aspose.words.fields/field/localeid) { get; set; } | 获取或设置字段的 LCID。 |
+| [LocaleId](../../aspose.words.fields/field/localeid) { get; set; } | 获取或设置字段的LCID。 |
 | [Result](../../aspose.words.fields/field/result) { get; set; } | 获取或设置字段分隔符和字段结尾之间的文本。 |
-| [RightExpression](../../aspose.words.fields/fieldnextif/rightexpression) { get; set; } | 获取或设置比较表达式的右侧部分。 |
+| [RightExpression](../../aspose.words.fields/fieldnextif/rightexpression) { get; set; } | 获取或设置比较表达式的右边部分。 |
 | [Separator](../../aspose.words.fields/field/separator) { get; } | 获取表示字段分隔符的节点。可以为空。 |
 | [Start](../../aspose.words.fields/field/start) { get; } | 获取表示字段开始的节点。 |
 | virtual [Type](../../aspose.words.fields/field/type) { get; } | 获取 Microsoft Word 字段类型。 |
@@ -42,20 +42,20 @@ public class FieldNextIf : Field
 
 | 姓名 | 描述 |
 | --- | --- |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode)() | 返回字段开始和字段分隔符之间的文本（如果没有分隔符，则返回字段结束）。 包含子字段的字段代码和字段结果。 |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode)() | 返回字段开始和字段分隔符之间的文本（或字段结束，如果没有分隔符）。 包括子字段的字段代码和字段结果。 |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode)(bool) | 返回字段开始和字段分隔符之间的文本（如果没有分隔符，则返回字段结束）。 |
-| [Remove](../../aspose.words.fields/field/remove)() | 从文档中删除字段。在字段之后返回一个节点。如果字段的结尾是其父节点的最后一个子 ，则返回其父段落。如果该字段已被删除，则返回 **null** 。 |
+| [Remove](../../aspose.words.fields/field/remove)() | 从文档中删除字段。在字段之后返回一个节点。如果字段的结尾是其父节点的最后一个 child ，则返回其父段落。如果该字段已被删除，则返回 **无效的**. |
 | [Unlink](../../aspose.words.fields/field/unlink)() | 执行字段取消链接。 |
 | [Update](../../aspose.words.fields/field/update)() | 执行字段更新。如果该字段已被更新，则抛出。 |
 | [Update](../../aspose.words.fields/field/update)(bool) | 执行字段更新。如果该字段已被更新，则抛出。 |
 
 ### 评论
 
-比较表达式LeftExpression和[`RightExpression`](./rightexpression) 比较使用由ComparisonOperator。如果比较为真， 将下一条数据记录合并到当前合并文档中。 （主 文档中 NEXTIF 之后的合并字段将替换为来自下一个数据记录而不是当前数据记录的值。） 如果比较为假，则下一个数据记录被合并到一个新的合并文档中。
+比较表达式指定的值[`LeftExpression`](./leftexpression)和[`RightExpression`](./rightexpression) 使用指定的运算符进行比较[`ComparisonOperator`](./comparisonoperator) .如果比较为真， 下一条数据记录被合并到当前合并文档中。 （main 文档中NEXTIF后面的合并字段被替换为下一个数据记录的值，而不是当前数据记录。） 如果比较为假，则将下一个数据记录合并到一个新的合并文档中。
 
 ### 例子
 
-显示如何在邮件合并过程中使用 NEXT/NEXTIF 字段将多行合并到一个页面中。
+演示如何在邮件合并期间使用 NEXT/NEXTIF 字段将多行合并到一页中。
 
 ```csharp
 {

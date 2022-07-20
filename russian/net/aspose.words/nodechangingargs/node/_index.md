@@ -8,7 +8,7 @@ url: /ru/net/aspose.words/nodechangingargs/node/
 ---
 ## NodeChangingArgs.Node property
 
-Получает`Node`, который добавляется или удаляется.
+Получает`Node` который добавляется или удаляется.
 
 ```csharp
 public Node Node { get; }

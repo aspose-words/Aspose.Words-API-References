@@ -16,7 +16,7 @@ public bool UnconditionalMergeFieldsAndRegions { get; set; }
 
 ### 评论
 
-默认值为 **false** 。
+默认值为 **错误的**.
 
 ### 例子
 
@@ -26,18 +26,17 @@ public bool UnconditionalMergeFieldsAndRegions { get; set; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
- // 插入嵌套在 IF 字段中的 MERGEFIELD。
- // 由于IF字段语句为false，所以不会显示MERGEFIELD.
-的结果
+// 插入嵌套在 IF 字段中的 MERGEFIELD。
+// 由于IF字段语句为false，所以不会显示MERGEFIELD的结果。
 // MERGEFIELD 在邮件合并期间也不会收到任何数据。
 FieldIf fieldIf = (FieldIf)builder.InsertField(" IF 1 = 2 ");
 builder.MoveTo(fieldIf.Separator);
 builder.InsertField(" MERGEFIELD  FullName ");
 
- // 如果我们将“UnconditionalMergeFieldsAndRegions”标志设置为“true”，
- // 我们的邮件合并会将数据插入到未显示的字段中，例如我们的 MERGEFIELD 以及所有其他字段。
+// 如果我们将“UnconditionalMergeFieldsAndRegions”标志设置为“true”，
+// 我们的邮件合并会将数据插入到未显示的字段中，例如我们的 MERGEFIELD 以及所有其他字段。
 // 如果我们将“UnconditionalMergeFieldsAndRegions”标志设置为“false”，
- // 我们的邮件合并不会将数据插入到被带有错误语句的 IF 字段隐藏的 MERGEFIELD 中。
+// 我们的邮件合并不会将数据插入到被带有错误语句的 IF 字段隐藏的 MERGEFIELD 中。
 doc.MailMerge.UnconditionalMergeFieldsAndRegions = countAllMergeFields;
 
 DataTable dataTable = new DataTable();

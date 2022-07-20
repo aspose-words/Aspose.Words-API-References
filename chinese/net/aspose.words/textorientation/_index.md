@@ -1,14 +1,14 @@
 ---
 title: TextOrientation
 second_title: Aspose.Words for .NET API 参考
-description: 指定页面表格单元格或文本框架中的文本方向
+description: 指定页面表格单元格或文本框架中文本的方向
 type: docs
-weight: 6080
+weight: 6130
 url: /zh/net/aspose.words/textorientation/
 ---
 ## TextOrientation enumeration
 
-指定页面、表格单元格或文本框架中的文本方向。
+指定页面、表格单元格或文本框架中文本的方向。
 
 ```csharp
 public enum TextOrientation
@@ -21,13 +21,13 @@ public enum TextOrientation
 | Horizontal | `0` | 文本水平排列（lr-tb）。 |
 | Downward | `1` | 文本向右旋转 90 度以从上到下显示 (tb-rl)。 |
 | Upward | `3` | 文本向左旋转 90 度以从下到上显示 (bt-lr)。 |
-| HorizontalRotatedFarEast | `4` | 文本水平排列，但远东字符向左旋转 90 度 (lr-tb-v)。 |
-| VerticalFarEast | `5` | 远东字符垂直显示，其他文本旋转 90 度 向右显示从上到下 (tb-rl-v) . |
-| VerticalRotatedFarEast | `7` | 远东字符垂直显示，其他文本旋转 90 度 向右旋转从上到下垂直显示，然后从左到右水平显示（待定-lr-v）。 |
+| HorizontalRotatedFarEast | `4` | 文字水平排列，但远东字符向左旋转90度（lr-tb-v）。 |
+| VerticalFarEast | `5` | 远东字符垂直显示，其他文本向右旋转 90 度 从上到下显示 (tb-rl-v)。 |
+| VerticalRotatedFarEast | `7` | 远东字符垂直显示，其他文本向右旋转 90 度 从上到下垂直显示，然后从左到右水平显示 (tb-lr-v)。 |
 
 ### 例子
 
-显示如何构建格式化的 2x2 表。
+展示如何构建格式化的 2x2 表格。
 
 ```csharp
 Document doc = new Document();

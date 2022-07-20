@@ -16,11 +16,11 @@ public int LocaleIdBi { get; set; }
 
 ### 评论
 
-有关区域设置标识符的列表，请参见 https://msdn.microsoft.com/en-us /library/cc233965.aspx
+有关区域设置标识符的列表，请参阅 https://msdn.microsoft.com/en-us/library/cc233965.aspx
 
 ### 例子
 
-显示如何为从右到左和从右到-定义单独的字体设置集左文字。
+演示如何为从右到左和从右到左的文本定义单独的字体设置集。
 
 ```csharp
 Document doc = new Document();

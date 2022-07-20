@@ -1,14 +1,14 @@
 ---
 title: IHyphenationCallback
 second_title: Справочник по API Aspose.Words для .NET
-description: Реализуется классами которые могут регистрировать словари переносов.
+description: Реализован классами которые могут регистрировать словари переносов.
 type: docs
-weight: 2940
+weight: 2990
 url: /ru/net/aspose.words/ihyphenationcallback/
 ---
 ## IHyphenationCallback interface
 
-Реализуется классами, которые могут регистрировать словари переносов.
+Реализован классами, которые могут регистрировать словари переносов.
 
 ```csharp
 public interface IHyphenationCallback

@@ -3,7 +3,7 @@ title: TextBoxAnchor
 second_title: Aspose.Words for .NET API 参考
 description: 指定用于形状文本垂直对齐的值
 type: docs
-weight: 1160
+weight: 1180
 url: /zh/net/aspose.words.drawing/textboxanchor/
 ---
 ## TextBoxAnchor enumeration

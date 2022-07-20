@@ -3,7 +3,7 @@ title: WarningType
 second_title: Aspose.Words for .NET API 参考
 description: 指定 Aspose.Words 在文档加载或保存期间发出的警告类型
 type: docs
-weight: 6300
+weight: 6350
 url: /zh/net/aspose.words/warningtype/
 ---
 ## WarningType enumeration
@@ -19,21 +19,21 @@ public enum WarningType
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| DataLossCategory | `FF` | 加载后的文档树、 或保存后创建的文档中将丢失一些文本/字符/图像或其他数据。 |
+| DataLossCategory | `FF` | 加载后的文档树 或保存后创建的文档中将丢失一些文本/字符/图像或其他数据。 |
 | DataLoss | `1` | 通用数据丢失，没有具体代码。 |
-| MajorFormattingLossCategory | `FF00` | 与原始文档相比，生成的文档或其中的特定位置可能看起来大不相同 。 |
-| MajorFormattingLoss | `100` | 通用主要格式丢失，没有特定代码。 |
-| MinorFormattingLossCategory | `FF0000` | 与原始文档相比 生成的文档或其中的特定位置可能看起来有些不同。 |
+| MajorFormattingLossCategory | `FF00` | 生成的文档或其中的特定位置可能看起来与原始文档有很大不同 。 |
+| MajorFormattingLoss | `100` | 通用主要格式丢失，没有具体代码。 |
+| MinorFormattingLossCategory | `FF0000` | 与原始文档相比， 生成的文档或其中的特定位置可能看起来有些不同。 |
 | MinorFormattingLoss | `10000` | 通用次要格式丢失，没有特定代码。 |
 | FontSubstitution | `20000` | 字体已被替换。 |
 | FontEmbedding | `40000` | 文档保存期间嵌入的字体信息丢失。 |
-| UnexpectedContentCategory | `F000000` | 源文档中的某些内容无法识别（即不受支持），这可能会或可能不会 导致问题或导致数据/格式化丢失。 |
-| UnexpectedContent | `1000000` | 通用意外内容，没有特定代码。 |
-| Hint | `10000000` | 建议潜在问题或建议改进。 |
+| UnexpectedContentCategory | `F000000` | 源文档中的某些内容无法识别（即不受支持），这可能会或可能不会 导致问题或导致数据/格式丢失。 |
+| UnexpectedContent | `1000000` | 通用的意外内容，没有特定代码。 |
+| Hint | `10000000` | 就潜在问题提出建议或提出改进建议。 |
 
 ### 例子
 
-显示如何设置属性以从可用字体源中查找缺失字体的最接近匹配项。
+演示如何设置属性以从可用字体源中查找缺失字体的最接近匹配项。
 
 ```csharp
 [Test]

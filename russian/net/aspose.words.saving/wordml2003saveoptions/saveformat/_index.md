@@ -1,14 +1,14 @@
 ---
 title: SaveFormat
 second_title: Справочник по API Aspose.Words для .NET
-description: Указывает формат в котором будет сохранен документ если используется этот объект параметров сохранения. Может быть толькоWordML.
+description: Определяет формат в котором документ будет сохранен если используется этот объект параметров сохранения.WordML .
 type: docs
 weight: 20
 url: /ru/net/aspose.words.saving/wordml2003saveoptions/saveformat/
 ---
 ## WordML2003SaveOptions.SaveFormat property
 
-Указывает формат, в котором будет сохранен документ, если используется этот объект параметров сохранения. Может быть толькоWordML.
+Определяет формат, в котором документ будет сохранен, если используется этот объект параметров сохранения.WordML .
 
 ```csharp
 public override SaveFormat SaveFormat { get; set; }
@@ -23,15 +23,15 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world!");
 
- // Создаем объект «WordML2003SaveOptions» для передачи в документ «Сохранить» method
- // чтобы изменить способ сохранения документа в формате сохранения WordML.
+// Создаем объект "WordML2003SaveOptions" для передачи в метод "Сохранить" документа
+// чтобы изменить способ сохранения документа в формате сохранения WordML.
 WordML2003SaveOptions options = new WordML2003SaveOptions();
 
 Assert.AreEqual(SaveFormat.WordML, options.SaveFormat);
 
- // Установите для свойства "PrettyFormat" значение "true", чтобы применить отступ символа табуляции and
- // символы новой строки для облегчения чтения необработанного содержимого выходного документа.
- // Установите для свойства "PrettyFormat" значение "false", чтобы сохранить необработанное содержимое документа в одном непрерывном теле текста.
+// Установите для свойства "PrettyFormat" значение "true", чтобы применить отступ символа табуляции и
+// новые строки, чтобы облегчить чтение необработанного содержимого выходного документа.
+// Установите для свойства "PrettyFormat" значение "false", чтобы сохранить необработанное содержимое документа в одном непрерывном теле текста.
 options.PrettyFormat = prettyFormat;
 
 doc.Save(ArtifactsDir + "WordML2003SaveOptions.PrettyFormat.xml", options);

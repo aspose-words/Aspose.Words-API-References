@@ -1,14 +1,14 @@
 ---
 title: XPath
 second_title: Справочник по API Aspose.Words для .NET
-description: Получает или задает XPath для нужной части XML-файла.
+description: Получает или задает XPath для нужной части файла XML.
 type: docs
 weight: 90
 url: /ru/net/aspose.words.fields/fieldincludetext/xpath/
 ---
 ## FieldIncludeText.XPath property
 
-Получает или задает XPath для нужной части XML-файла.
+Получает или задает XPath для нужной части файла XML.
 
 ```csharp
 public string XPath { get; set; }
@@ -16,7 +16,7 @@ public string XPath { get; set; }
 
 ### Примеры
 
-Показывает, как создать поле INCLUDETEXT и установить его свойства.
+Показывает, как создать поле INCLUDETEXT и задать его свойства.
 
 ```csharp
 public void FieldIncludeText()

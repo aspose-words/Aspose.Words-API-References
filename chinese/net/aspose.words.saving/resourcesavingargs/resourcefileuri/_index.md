@@ -18,9 +18,9 @@ public string ResourceFileUri { get; set; }
 
 此属性允许您更改导出到固定页面 HTML 或 SVG 文档的资源文件的 URI。
 
-Aspose.Words 在导出到固定页面 HTML 或 SVG 格式期间自动为每个资源文件生成一个 URI。生成的 URI 引用 Aspose.Words 保存的资源文件。但是，如果要将资源文件移动到其他位置或将资源文件保存到流中，则 URI 可能为 不正确。 此属性允许在这些情况下更正 URI。
+Aspose.Words 在导出到固定页面 HTML 或 SVG 格式期间自动为每个资源文件生成一个 URI。生成的 URI 引用 Aspose.Words 保存的资源文件。但是，如果要将资源文件移动到其他位置或将资源文件保存到流中，则 URI 可能 不正确。 此属性允许在这些情况下更正 URI。
 
-触发事件时，此属性包含由 Aspose.Words 生成 的 URI。您可以更改此属性的值以提供资源文件的自定义 URI。
+触发事件时，此属性包含由 Aspose.Words 生成的 URI。您可以更改此属性的值以提供资源文件的自定义 URI。
 
 [`ResourcesFolder`](../../htmlfixedsaveoptions/resourcesfolder)[`ResourcesFolder`](../../svgsaveoptions/resourcesfolder)[`ResourcesFolderAlias`](../../htmlfixedsaveoptions/resourcesfolderalias)[`ResourcesFolderAlias`](../../svgsaveoptions/resourcesfolderalias)
 
@@ -48,7 +48,7 @@ public void ResourceSavingCallback()
 private class FontSavingCallback : IResourceSavingCallback
 {
     /// <summary>
-     /// 当 Aspose.Words 将外部资源保存到固定页面 HTML 或 SVG 时调用。
+    /// 当 Aspose.Words 将外部资源保存到固定页面 HTML 或 SVG 时调用。
     /// </summary>
     public void ResourceSaving(ResourceSavingArgs args)
     {

@@ -1,14 +1,14 @@
 ---
 title: ShowValue
 second_title: Aspose.Words for .NET API 参考
-description: 允许指定值是否显示在整个系列的数据标签中 默认值为 false 
+description: 允许指定是否在整个系列的数据标签中显示值 默认值为 错误的.
 type: docs
 weight: 120
 url: /zh/net/aspose.words.drawing.charts/chartdatalabelcollection/showvalue/
 ---
 ## ChartDataLabelCollection.ShowValue property
 
-允许指定值是否显示在整个系列的数据标签中。 默认值为 **false** 。
+允许指定是否在整个系列的数据标签中显示值。 默认值为 **错误的**.
 
 ```csharp
 public bool ShowValue { get; set; }
@@ -16,11 +16,11 @@ public bool ShowValue { get; set; }
 
 ### 评论
 
-可以使用 为单个数据标签覆盖为此属性定义的值[`ShowValue`](../../chartdatalabel/showvalue)属性。
+可以使用 为单个数据标签覆盖为此属性定义的值[`ShowValue`](../../chartdatalabel/showvalue)属性.
 
 ### 例子
 
-显示如何使用饼图的数据标签。
+展示如何使用饼图的数据标签。
 
 ```csharp
 Document doc = new Document();

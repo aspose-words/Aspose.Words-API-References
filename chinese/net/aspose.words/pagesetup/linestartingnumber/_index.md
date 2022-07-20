@@ -16,7 +16,7 @@ public int LineStartingNumber { get; set; }
 
 ### 例子
 
-显示如何为节启用行编号。
+显示如何为部分启用行号。
 
 ```csharp
 Document doc = new Document();

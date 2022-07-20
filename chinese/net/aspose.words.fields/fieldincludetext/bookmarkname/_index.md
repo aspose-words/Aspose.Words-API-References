@@ -1,14 +1,14 @@
 ---
 title: BookmarkName
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置文档中要包含的书签的名称
+description: 获取或设置要包含的文档中书签的名称
 type: docs
 weight: 20
 url: /zh/net/aspose.words.fields/fieldincludetext/bookmarkname/
 ---
 ## FieldIncludeText.BookmarkName property
 
-获取或设置文档中要包含的书签的名称。
+获取或设置要包含的文档中书签的名称。
 
 ```csharp
 public string BookmarkName { get; set; }

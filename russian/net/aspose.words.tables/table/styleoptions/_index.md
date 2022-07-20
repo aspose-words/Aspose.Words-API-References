@@ -16,7 +16,7 @@ public TableStyleOptions StyleOptions { get; set; }
 
 ### Примеры
 
-Показывает, как построить новую таблицу при применении стиля.
+Показывает, как создать новую таблицу при применении стиля.
 
 ```csharp
 Document doc = new Document();

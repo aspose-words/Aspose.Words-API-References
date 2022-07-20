@@ -18,7 +18,7 @@ public ImageColorMode ImageColorMode { get; set; }
 
 此属性仅在保存为光栅图像格式时有效。
 
-默认值为None。
+默认值为None.
 
 ### 例子
 

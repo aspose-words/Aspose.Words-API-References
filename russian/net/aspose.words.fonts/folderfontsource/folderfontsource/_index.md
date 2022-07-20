@@ -1,14 +1,14 @@
 ---
 title: FolderFontSource
 second_title: Справочник по API Aspose.Words для .NET
-description: Ктор.
+description: Стор.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.fonts/folderfontsource/folderfontsource/
 ---
 ## FolderFontSource(string, bool) {#constructor}
 
-Ктор.
+Стор.
 
 ```csharp
 public FolderFontSource(string folderPath, bool scanSubfolders)
@@ -17,7 +17,7 @@ public FolderFontSource(string folderPath, bool scanSubfolders)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | folderPath | String | Путь к папке. |
-| scanSubfolders | Boolean | Определяет, сканировать ли подпапки. |
+| scanSubfolders | Boolean | Определяет, сканировать ли вложенные папки. |
 
 ### Примеры
 
@@ -47,7 +47,7 @@ Assert.AreEqual(1, folderFontSource.Priority);
 
 ## FolderFontSource(string, bool, int) {#constructor_1}
 
-Ктор.
+Стор.
 
 ```csharp
 public FolderFontSource(string folderPath, bool scanSubfolders, int priority)
@@ -56,8 +56,8 @@ public FolderFontSource(string folderPath, bool scanSubfolders, int priority)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | folderPath | String | Путь к папке. |
-| scanSubfolders | Boolean | Определяет, сканировать ли подпапки. |
-| priority | Int32 | Приоритет источника шрифта. См. описание свойства[`Priority`](../../fontsourcebase/priority)для получения дополнительной информации. |
+| scanSubfolders | Boolean | Определяет, сканировать ли вложенные папки. |
+| priority | Int32 | Приоритет источника шрифта. См.[`Priority`](../../fontsourcebase/priority) описание свойства для получения дополнительной информации. |
 
 ### Примеры
 

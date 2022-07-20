@@ -1,14 +1,14 @@
 ---
 title: ExportShapesAsSvg
 second_title: Справочник по API Aspose.Words для .NET
-description: Контролирует будут ли узлыShapeaspose.words.drawing/shapeпреобразовываться в изображения SVG при сохранении в HTML MHTML или EPUB. Значение по умолчанию false .
+description: Управляет темShapeaspose.words.drawing/shape узлы преобразуются в изображения SVG при сохранении в HTML MHTML или EPUB. Значение по умолчаниюЛОЖЬ .
 type: docs
 weight: 260
 url: /ru/net/aspose.words.saving/htmlsaveoptions/exportshapesassvg/
 ---
 ## HtmlSaveOptions.ExportShapesAsSvg property
 
-Контролирует, будут ли узлы[`Shape`](../../../aspose.words.drawing/shape)преобразовываться в изображения SVG при сохранении в HTML, MHTML или EPUB. Значение по умолчанию:` false` .
+Управляет тем,[`Shape`](../../../aspose.words.drawing/shape) узлы преобразуются в изображения SVG при сохранении в HTML, MHTML или EPUB. Значение по умолчанию:`ЛОЖЬ` .
 
 ```csharp
 public bool ExportShapesAsSvg { get; set; }
@@ -16,9 +16,9 @@ public bool ExportShapesAsSvg { get; set; }
 
 ### Примечания
 
-Если для этой опции установлено значение` true` ,[`Shape`](../../../aspose.words.drawing/shape)узлы экспортируются как &lt;svg&gt; элементы. В противном случае они преобразуются в растровые изображения и экспортируются как &lt;img&gt; элементы.
+Если для этого параметра установлено значение`истинный` ,[`Shape`](../../../aspose.words.drawing/shape) узлы экспортируются как элементы &lt;svg&gt;. В противном случае они преобразуются в растровые изображения и экспортируются как элементы &lt;img&gt;.
 
-Обратите внимание, что эта опция также влияет на текстовые поля, потому что они представлены[`Shape`](../../../aspose.words.drawing/shape)узлы. В результате, если для этой опции установлено значение` true` , она переопределяетExportTextBoxAsSvgсвойство значение и вызывает преобразование текстовых полей в SVG.
+Обратите внимание, что этот параметр также влияет на текстовые поля, поскольку они представлены[`Shape`](../../../aspose.words.drawing/shape) nodes. В результате, если для этой опции установлено значение`истинный` , он переопределяетExportTextBoxAsSvgзначение property и вызывает преобразование текстовых полей в SVG.
 
 ### Примеры
 

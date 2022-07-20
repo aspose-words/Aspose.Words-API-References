@@ -16,7 +16,7 @@ public string Comments { get; }
 
 ### 例子
 
-显示如何验证和显示有关文档中每个签名的信息。
+演示如何验证和显示有关文档中每个签名的信息。
 
 ```csharp
 Document doc = new Document(MyDir + "Digitally signed.docx");

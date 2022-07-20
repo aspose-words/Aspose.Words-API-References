@@ -1,14 +1,14 @@
 ---
 title: ExcludedCountryOrRegionName
 second_title: Справочник по API Aspose.Words для .NET
-description: Получает или задает имя исключенной страны/региона.
+description: Получает или задает название исключенной страны/региона.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.fields/fieldaddressblock/excludedcountryorregionname/
 ---
 ## FieldAddressBlock.ExcludedCountryOrRegionName property
 
-Получает или задает имя исключенной страны/региона.
+Получает или задает название исключенной страны/региона.
 
 ```csharp
 public string ExcludedCountryOrRegionName { get; set; }

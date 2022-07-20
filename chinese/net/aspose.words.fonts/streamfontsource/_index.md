@@ -3,7 +3,7 @@ title: StreamFontSource
 second_title: Aspose.Words for .NET API 参考
 description: 用户定义流字体源的基类
 type: docs
-weight: 2810
+weight: 2860
 url: /zh/net/aspose.words.fonts/streamfontsource/
 ---
 ## StreamFontSource class
@@ -18,7 +18,7 @@ public abstract class StreamFontSource : FontSourceBase
 
 | 姓名 | 描述 |
 | --- | --- |
-| [CacheKey](../../aspose.words.fonts/streamfontsource/cachekey) { get; } | 这个源在缓存中的键。 |
+| [CacheKey](../../aspose.words.fonts/streamfontsource/cachekey) { get; } | 这个源在缓存中的key。 |
 | [Priority](../../aspose.words.fonts/fontsourcebase/priority) { get; } | 返回字体源优先级。 |
 | [Type](../../aspose.words.fonts/streamfontsource/type) { get; } | 返回字体源的类型。 |
 | [WarningCallback](../../aspose.words.fonts/fontsourcebase/warningcallback) { get; set; } | 当检测到可能导致格式保真度丢失的问题时，在处理字体源期间调用。 |
@@ -32,11 +32,11 @@ public abstract class StreamFontSource : FontSourceBase
 
 ### 评论
 
-为了使用流字体源，您应该从:::创建一个派生类R5:T:Aspose.Words.Fonts.StreamFontSource::: 并提供[`OpenFontDataStream`](./openfontdatastream)方法的实现。
+为了使用流字体源，您应该从[`StreamFontSource`](../streamfontsource) 并提供[`OpenFontDataStream`](./openfontdatastream)方法。
 
-[`OpenFontDataStream`](./openfontdatastream)方法可以被多次调用。当 Aspose.Words 扫描提供的字体源以获取可用字体列表时，它将第一次调用 。如果在文档中使用 字体来解析字体数据并将字体数据嵌入到某些输出格式中，则稍后可能会调用它。
+[`OpenFontDataStream`](./openfontdatastream)方法可以多次调用。当 Aspose.Words 扫描提供的字体源以获取可用字体列表时，它将第一次调用 。稍后，如果在文档中使用了 字体来解析字体数据并将字体数据嵌入到某些输出格式中，则可能会调用它。
 
-[`StreamFontSource`](../streamfontsource)可能很有用，因为它允许仅在需要时加载字体数据 并且不在内存中存储[`FontSettings`](../fontsettings)生命周期。
+[`StreamFontSource`](../streamfontsource)可能很有用，因为它只允许在需要时加载字体数据 ，而不是将其存储在内存中[`FontSettings`](../fontsettings)寿命。
 
 ### 例子
 

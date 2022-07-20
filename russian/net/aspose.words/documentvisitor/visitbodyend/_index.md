@@ -16,11 +16,11 @@ public virtual VisitorAction VisitBodyEnd(Body body)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| body | Body | Посещаемый объект. |
+| body | Body | Объект, который посещается. |
 
 ### Возвращаемое значение
 
-A[`VisitorAction`](../../visitoraction)значение, указывающее, как продолжить перечисление.
+А[`VisitorAction`](../../visitoraction) значение, указывающее, как продолжить перечисление.
 
 ### Примеры
 
@@ -32,9 +32,9 @@ public void DocStructureToText()
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     DocStructurePrinter visitor = new DocStructurePrinter();
 
-     // Когда составной узел принимает посетителя документа, посетитель посещает принимающий узел, 
-     // а затем обходит все дочерние узлы в порядке глубины.
-     // Посетитель может читать и изменять каждый посещенный узел.
+    // Когда составной узел принимает посетителя документа, посетитель посещает принимающий узел,
+    // а затем обходит все дочерние элементы узла в порядке глубины.
+    // Посетитель может читать и изменять каждый посещаемый узел.
     doc.Accept(visitor);
 
     Console.WriteLine(visitor.GetText());
@@ -42,7 +42,7 @@ public void DocStructureToText()
 
 /// <summary>
 /// Обходит дерево дочерних узлов узла.
- /// Создает карту этого дерева в виде строки.
+/// Создает карту этого дерева в виде строки.
 /// </summary>
 public class DocStructurePrinter : DocumentVisitor
 {
@@ -57,7 +57,7 @@ public class DocStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-     /// Вызывается при обнаружении узла Document.
+    /// Вызывается при обнаружении узла Document.
     /// </summary>
     public override VisitorAction VisitDocumentStart(Document doc)
     {
@@ -66,12 +66,12 @@ public class DocStructurePrinter : DocumentVisitor
         IndentAndAppendLine("[Document start] Child nodes: " + childNodeCount);
         mDocTraversalDepth++;
 
-         // Разрешить посетителю продолжить посещение других узлов.
+        // Разрешить посетителю продолжить посещение других узлов.
         return VisitorAction.Continue;
     }
 
     /// <summary>
-     /// Вызывается после посещения всех дочерних узлов узла Document.
+    /// Вызывается после посещения всех дочерних узлов узла Document.
     /// </summary>
     public override VisitorAction VisitDocumentEnd(Document doc)
     {
@@ -82,11 +82,11 @@ public class DocStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-     /// Вызывается, когда в документе встречается узел Section.
+    /// Вызывается, когда в документе встречается узел Section.
     /// </summary>
     public override VisitorAction VisitSectionStart(Section section)
     {
-         // Получаем индекс нашего раздела внутри документа.
+        // Получаем индекс нашего раздела в документе.
         NodeCollection docSections = section.Document.GetChildNodes(NodeType.Section, false);
         int sectionIndex = docSections.IndexOf(section);
 
@@ -97,7 +97,7 @@ public class DocStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-     /// Вызывается после посещения всех дочерних узлов узла Section.
+    /// Вызывается после посещения всех дочерних узлов узла Section.
     /// </summary>
     public override VisitorAction VisitSectionEnd(Section section)
     {
@@ -108,7 +108,7 @@ public class DocStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-     /// Вызывается, когда в документе встречается узел Body.
+    /// Вызывается, когда в документе встречается узел Body.
     /// </summary>
     public override VisitorAction VisitBodyStart(Body body)
     {
@@ -120,7 +120,7 @@ public class DocStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-     /// Вызывается после посещения всех дочерних узлов узла Body.
+    /// Вызывается после посещения всех дочерних узлов узла Body.
     /// </summary>
     public override VisitorAction VisitBodyEnd(Body body)
     {
@@ -131,7 +131,7 @@ public class DocStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-     /// Вызывается, когда в документе встречается узел Paragraph.
+    /// Вызывается, когда в документе встречается узел Paragraph.
     /// </summary>
     public override VisitorAction VisitParagraphStart(Paragraph paragraph)
     {
@@ -142,7 +142,7 @@ public class DocStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-     /// Вызывается после посещения всех дочерних узлов узла Paragraph.
+    /// Вызывается после посещения всех дочерних узлов узла Paragraph.
     /// </summary>
     public override VisitorAction VisitParagraphEnd(Paragraph paragraph)
     {
@@ -153,7 +153,7 @@ public class DocStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-     /// Вызывается, когда в документе встречается узел Run.
+    /// Вызывается, когда в документе встречается узел Run.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {
@@ -173,9 +173,9 @@ public class DocStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-     /// Добавляем строку в StringBuilder и делаем отступ в зависимости от того, насколько глубоко посетитель находится в дереве документа.
+    /// Добавляем строку в StringBuilder и делаем отступ в зависимости от того, насколько глубоко посетитель находится в дереве документа.
     /// </summary>
-     /// <param name="text"></param>
+    /// <param name="text"></param>
     private void IndentAndAppendLine(string text)
     {
         for (int i = 0; i < mDocTraversalDepth; i++) mAcceptingNodeChildTree.Append("|  ");

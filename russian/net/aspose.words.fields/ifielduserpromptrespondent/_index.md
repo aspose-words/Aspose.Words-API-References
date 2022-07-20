@@ -3,7 +3,7 @@ title: IFieldUserPromptRespondent
 second_title: Справочник по API Aspose.Words для .NET
 description: Представляет ответчика на запросы пользователя во время обновления поля.
 type: docs
-weight: 2510
+weight: 2560
 url: /ru/net/aspose.words.fields/ifielduserpromptrespondent/
 ---
 ## IFieldUserPromptRespondent interface
@@ -18,15 +18,15 @@ public interface IFieldUserPromptRespondent
 
 | Имя | Описание |
 | --- | --- |
-| [Respond](../../aspose.words.fields/ifielduserpromptrespondent/respond)(string, string) | При реализации возвращает ответ пользователя на запрос. Ваша реализация должна возвращать **null** , чтобы указать, что пользователь не ответил на приглашение (т.е. нажал кнопку «Отмена» в окне подсказки). |
+| [Respond](../../aspose.words.fields/ifielduserpromptrespondent/respond)(string, string) | При реализации возвращает ответ пользователя при запросе. Ваша реализация должна возвращать **нулевой** чтобы указать, что пользователь не ответил на приглашение (т. е. пользователь нажал кнопку «Отмена» в окне приглашения). |
 
 ### Примечания
 
-Поля ASK и FILLIN являются примерами полей, запрашивающих у пользователя некоторый ответ. Реализуйте этот интерфейс и назначьте его свойству[`UserPromptRespondent`](../fieldoptions/userpromptrespondent)для установления взаимодействия между обновлением поля и пользователь.
+Поля ASK и FILLIN являются примерами полей, которые запрашивают у пользователя некоторый ответ. Реализуйте этот интерфейс и назначьте его[`UserPromptRespondent`](../fieldoptions/userpromptrespondent) свойство для установления взаимодействия между полем update и пользователем.
 
 ### Примеры
 
-Показывает, как создать поле ASK и установить его свойства.
+Показывает, как создать поле ASK и задать его свойства.
 
 ```csharp
 [Test]

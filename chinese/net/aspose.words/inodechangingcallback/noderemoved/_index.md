@@ -1,14 +1,14 @@
 ---
 title: NodeRemoved
 second_title: Aspose.Words for .NET API 参考
-description: 当属于该文档的节点从其父节点中移除时调用
+description: 当属于该文档的节点从其父节点中删除时调用
 type: docs
 weight: 30
 url: /zh/net/aspose.words/inodechangingcallback/noderemoved/
 ---
 ## INodeChangingCallback.NodeRemoved method
 
-当属于该文档的节点从其父节点中移除时调用。
+当属于该文档的节点从其父节点中删除时调用。
 
 ```csharp
 public void NodeRemoved(NodeChangingArgs args)

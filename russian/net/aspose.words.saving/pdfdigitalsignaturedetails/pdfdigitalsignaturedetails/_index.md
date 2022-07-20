@@ -16,7 +16,7 @@ public PdfDigitalSignatureDetails()
 
 ### Примеры
 
-Показывает, как подписать сгенерированный документ PDF.
+Показывает, как подписать сгенерированный PDF-документ.
 
 ```csharp
 Document doc = new Document();
@@ -63,13 +63,13 @@ public PdfDigitalSignatureDetails(CertificateHolder certificateHolder, string re
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | certificateHolder | CertificateHolder | Держатель сертификата, который содержит сам сертификат. |
-| причина | String | Причина подписания. |
+| reason | String | Причина подписания. |
 | location | String | Место подписания. |
 | signatureDate | DateTime | Дата и время подписания. |
 
 ### Примеры
 
-Показывает, как подписать сгенерированный документ PDF.
+Показывает, как подписать сгенерированный PDF-документ.
 
 ```csharp
 Document doc = new Document();

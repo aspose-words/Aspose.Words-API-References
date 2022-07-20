@@ -1,14 +1,14 @@
 ---
 title: ChapterPageSeparator
 second_title: Справочник по API Aspose.Words для .NET
-description: Определяет символ-разделитель который появляется между номером главы и страницы.
+description: Определяет символ-разделитель который появляется между главой и номером страницы.
 type: docs
 weight: 190
 url: /ru/net/aspose.words/chapterpageseparator/
 ---
 ## ChapterPageSeparator enumeration
 
-Определяет символ-разделитель, который появляется между номером главы и страницы.
+Определяет символ-разделитель, который появляется между главой и номером страницы.
 
 ```csharp
 public enum ChapterPageSeparator

@@ -1,14 +1,14 @@
 ---
 title: Style
 second_title: Справочник по API Aspose.Words для .NET
-description: Представляет один встроенный или определяемый пользователем стиль.
+description: Представляет отдельный встроенный или определяемый пользователем стиль.
 type: docs
-weight: 5780
+weight: 5830
 url: /ru/net/aspose.words/style/
 ---
 ## Style class
 
-Представляет один встроенный или определяемый пользователем стиль.
+Представляет отдельный встроенный или определяемый пользователем стиль.
 
 ```csharp
 public class Style
@@ -23,7 +23,7 @@ public class Style
 | [BuiltIn](../../aspose.words/style/builtin) { get; } | Истинно, если этот стиль является одним из встроенных стилей в MS Word. |
 | [Document](../../aspose.words/style/document) { get; } | Получает документ владельца. |
 | [Font](../../aspose.words/style/font) { get; } | Получает форматирование символов стиля. |
-| [IsHeading](../../aspose.words/style/isheading) { get; } | True, если стиль является одним из встроенных стилей заголовков. |
+| [IsHeading](../../aspose.words/style/isheading) { get; } | Истинно, если стиль является одним из встроенных стилей заголовков. |
 | [IsQuickStyle](../../aspose.words/style/isquickstyle) { get; set; } | Указывает, отображается ли этот стиль в галерее экспресс-стилей в пользовательском интерфейсе MS Word. |
 | [LinkedStyleName](../../aspose.words/style/linkedstylename) { get; } | Получает имя стиля, связанного с этим стилем. Возвращает пустую строку, если стили не связаны. |
 | [List](../../aspose.words/style/list) { get; } | Получает список, определяющий форматирование этого стиля списка. |
@@ -39,7 +39,7 @@ public class Style
 
 | Имя | Описание |
 | --- | --- |
-| [Equals](../../aspose.words/style/equals#equals)(Style) | Сравнивает с указанным стилем. Стили Istds сравниваются только для встроенных стилей. Стили по умолчанию не включены в сравнение. Рекурсивно сравниваются базовый стиль, связанный стиль и стиль следующего абзаца. |
+| [Equals](../../aspose.words/style/equals#equals)(Style) | Сравнивается с указанным стилем. Стандартные стили сравниваются только для встроенных стилей. Стили по умолчанию не учитываются при сравнении. Базовый стиль, связанный стиль и стиль следующего абзаца сравниваются рекурсивно. |
 | [Remove](../../aspose.words/style/remove)() | Удаляет указанный стиль из документа. |
 
 ### Примеры
@@ -48,32 +48,27 @@ public class Style
 
 ```csharp
 Document doc = new Document();
-
-Style style = doc.Styles.Add(StyleType.Paragraph, "MyStyle");
-style.Font.Name = "Times New Roman";
-style.Font.Size = 16;
-style.Font.Color = Color.Navy;
-
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Применяем один из стилей из документа к абзацу, который создает конструктор документов.
-builder.ParagraphFormat.Style = doc.Styles["MyStyle"];
-builder.Writeln("Hello world!");
+// Создать собственный стиль абзаца.
+Style style = doc.Styles.Add(StyleType.Paragraph, "MyStyle1");
+style.Font.Size = 24;
+style.Font.Name = "Verdana";
+style.ParagraphFormat.SpaceAfter = 12;
 
-Style firstParagraphStyle = doc.FirstSection.Body.FirstParagraph.ParagraphFormat.Style;
+// Создайте список и убедитесь, что абзацы, использующие этот стиль, будут использовать этот список.
+style.ListFormat.List = doc.Lists.Add(ListTemplate.BulletDefault);
+style.ListFormat.ListLevelNumber = 0;
 
-Assert.AreEqual(style, firstParagraphStyle);
+// Применяем стиль абзаца к текущему абзацу конструктора документов, а затем добавляем текст.
+builder.ParagraphFormat.Style = style;
+builder.Writeln("Hello World: MyStyle1, bulleted list.");
 
-// Удаляем наш пользовательский стиль из коллекции стилей документа.
-doc.Styles["MyStyle"].Remove();
+// Измените стиль построителя документа на стиль без форматирования списка и напишите еще один абзац.
+builder.ParagraphFormat.Style = doc.Styles["Normal"];
+builder.Writeln("Hello World: Normal.");
 
-firstParagraphStyle = doc.FirstSection.Body.FirstParagraph.ParagraphFormat.Style;
-
-// Любой текст, в котором использовался удаленный стиль, возвращается к форматированию по умолчанию.
-Assert.False(doc.Styles.Any(s => s.Name == "MyStyle"));
-Assert.AreEqual("Times New Roman", firstParagraphStyle.Font.Name);
-Assert.AreEqual(12.0d, firstParagraphStyle.Font.Size);
-Assert.AreEqual(Color.Empty.ToArgb(), firstParagraphStyle.Font.Color.ToArgb());
+builder.Document.Save(ArtifactsDir + "Styles.ParagraphStyleBulletedList.docx");
 ```
 
 Показывает, как создать и применить пользовательский стиль.

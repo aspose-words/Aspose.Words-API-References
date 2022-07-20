@@ -3,7 +3,7 @@ title: Direction
 second_title: Aspose.Words for .NET API 参考
 description: 
 type: docs
-weight: 5670
+weight: 5720
 url: /zh/net/aspose.words.shaping/direction/
 ---
 ## Direction enumeration

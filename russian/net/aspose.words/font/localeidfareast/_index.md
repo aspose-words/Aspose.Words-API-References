@@ -16,7 +16,7 @@ public int LocaleIdFarEast { get; set; }
 
 ### Примечания
 
-Список идентификаторов локалей см. на странице https://msdn.microsoft.com/en-us /library/cc233965.aspx
+Список идентификаторов локалей см. на странице https://msdn.microsoft.com/en-us/library/cc233965.aspx .
 
 ### Примеры
 

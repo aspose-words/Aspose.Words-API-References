@@ -3,7 +3,7 @@ title: FontSubstitutionRule
 second_title: Aspose.Words for .NET API 参考
 description: 这是字体替换规则的抽象基类
 type: docs
-weight: 2770
+weight: 2820
 url: /zh/net/aspose.words.fonts/fontsubstitutionrule/
 ---
 ## FontSubstitutionRule class
@@ -22,7 +22,7 @@ public abstract class FontSubstitutionRule
 
 ### 例子
 
-显示操作系统相关的字体配置替换。
+显示与操作系统相关的字体配置替换。
 
 ```csharp
 FontSettings fontSettings = new FontSettings();

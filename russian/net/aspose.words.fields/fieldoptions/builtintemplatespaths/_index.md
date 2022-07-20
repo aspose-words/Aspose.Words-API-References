@@ -16,9 +16,9 @@ public string[] BuiltInTemplatesPaths { get; set; }
 
 ### Примечания
 
-Это свойство используется[`FieldAutoText`](../../fieldautotext)и[`FieldGlossary`](../../fieldglossary), если указанная запись автотекста не найдена в[`AttachedTemplate`](../../../aspose.words/document/attachedtemplate)шаблон.
+Это свойство используется[`FieldAutoText`](../../fieldautotext) а также[`FieldGlossary`](../../fieldglossary) полей, если указанная запись автотекста не найдена в[`AttachedTemplate`](../../../aspose.words/document/attachedtemplate) шаблон.
 
-По умолчанию MS Word хранит встроенные шаблоны в папке c:\Users\&lt;имя пользователя&gt;\AppData\Roaming\Microsoft\Document Building Blocks\1033\16\ Встроенные строительные блоки.dotx и файлы C:\Users\&lt;username&gt;\AppData\Roaming\Microsoft\Templates\Normal.dotm.
+По умолчанию MS Word хранит встроенные шаблоны в папке c:\Users\&lt;username&gt;\AppData\Roaming\Microsoft\Document Building Blocks\1033\16\Built-In Building Blocks.dotx and C:\Users\&lt;username&gt;\ Файлы AppData\Roaming\Microsoft\Templates\Normal.dotm.
 
 ### Примеры
 

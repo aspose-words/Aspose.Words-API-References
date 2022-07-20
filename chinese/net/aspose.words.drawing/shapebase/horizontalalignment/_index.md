@@ -16,13 +16,13 @@ public HorizontalAlignment HorizontalAlignment { get; set; }
 
 ### 评论
 
-默认值为HorizontalAlignment。没有任何。
+默认值为None.
 
 仅对顶级浮动形状有效。
 
 ### 例子
 
-显示如何将浮动图像插入页面中心。
+演示如何将浮动图像插入页面中心。
 
 ```csharp
 Document doc = new Document();

@@ -21,8 +21,8 @@ public int Count { get; }
 ```csharp
 Document doc = new Document(MyDir + "Properties.docx");
 
- // Каждый документ содержит набор настраиваемых свойств, которые, как и встроенные свойства, представляют собой пары ключ-значение.
- // Документ имеет фиксированный список встроенных свойств. Пользователь создает все настраиваемые свойства. 
+// Каждый документ содержит набор настраиваемых свойств, которые, как и встроенные свойства, представляют собой пары ключ-значение.
+// Документ имеет фиксированный список встроенных свойств. Пользователь создает все настраиваемые свойства. 
 Assert.AreEqual("Value of custom document property", doc.CustomDocumentProperties["CustomProperty"].ToString());
 
 doc.CustomDocumentProperties.Add("CustomProperty2", "Value of custom document property #2");

@@ -1,14 +1,14 @@
 ---
 title: OpenIStream
 second_title: Справочник по API Aspose.Words для .NET
-description: Позволяет приложению COM загружатьDocumentaspose.words/documentиз объекта IStream.
+description: Позволяет приложению COM загружатьDocumentaspose.words/document из объекта IStream.
 type: docs
 weight: 30
 url: /ru/net/aspose.words/comhelper/openistream/
 ---
 ## ComHelper.OpenIStream method
 
-Позволяет приложению COM загружать[`Document`](../../document)из объекта IStream.
+Позволяет приложению COM загружать[`Document`](../../document) из объекта IStream.
 
 ```csharp
 public Document OpenIStream(IStream stream)
@@ -20,7 +20,7 @@ public Document OpenIStream(IStream stream)
 
 ### Возвращаемое значение
 
-A[`Document`](../../document)объект, представляющий документ Word.
+А[`Document`](../../document) объект, представляющий документ Word.
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: LockContentControl
 second_title: Справочник по API Aspose.Words для .NET
-description: Если установлено значение true это свойство запрещает пользователю удалять это SDT .
+description: Если установлено значение true это свойство запрещает пользователю удалять это СДТ .
 type: docs
 weight: 190
 url: /ru/net/aspose.words.markup/structureddocumenttag/lockcontentcontrol/
 ---
 ## StructuredDocumentTag.LockContentControl property
 
-Если установлено значение true, это свойство запрещает пользователю удалять это **SDT** .
+Если установлено значение true, это свойство запрещает пользователю удалять это **СДТ** .
 
 ```csharp
 public bool LockContentControl { get; set; }

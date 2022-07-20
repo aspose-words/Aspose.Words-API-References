@@ -1,14 +1,14 @@
 ---
 title: GetBarcodeImage
 second_title: Aspose.Words for .NET API 参考
-description: 使用参数集生成条形码图像对于 DisplayBarcode 字段
+description: 使用参数集生成条形码图像用于 DisplayBarcode 字段
 type: docs
 weight: 10
 url: /zh/net/aspose.words.fields/ibarcodegenerator/getbarcodeimage/
 ---
 ## IBarcodeGenerator.GetBarcodeImage method
 
-使用参数集生成条形码图像（对于 DisplayBarcode 字段）。
+使用参数集生成条形码图像（用于 DisplayBarcode 字段）。
 
 ```csharp
 public Image GetBarcodeImage(BarcodeParameters parameters)
@@ -24,20 +24,20 @@ public Image GetBarcodeImage(BarcodeParameters parameters)
 
 ### 例子
 
-显示如何使用条形码生成器。
+展示如何使用条形码生成器。
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
- // 我们可以使用自定义的 IBarcodeGenerator 实现来生成条形码，
- // 然后将它们作为图像插入到文档中。
+// 我们可以使用自定义的 IBarcodeGenerator 实现来生成条形码，
+// 然后将它们作为图像插入到文档中。
 doc.FieldOptions.BarcodeGenerator = new CustomBarcodeGenerator();
 
- // 下面是我们可以使用生成器创建的不同条形码类型的四个示例。
- // 对于每个条码，我们指定一组新的条码参数，然后生成图像。
-// 之后我们可以将图片插入到文档中，或者保存到本地文件系统
- // 1 - 二维码：
+// 下面是我们可以使用生成器创建的不同条形码类型的四个示例。
+// 对于每个条码，我们指定一组新的条码参数，然后生成图像。
+// 之后，我们可以将图片插入到文档中，或者保存到本地文件系统中。
+// 1 - 二维码：
 BarcodeParameters barcodeParameters = new BarcodeParameters
 {
     BarcodeType = "QR",
@@ -55,7 +55,7 @@ img.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.QR.jpg");
 
 builder.InsertImage(img);
 
- // 2 - EAN13 条形码：
+// 2 - EAN13 条形码：
 barcodeParameters = new BarcodeParameters
 {
     BarcodeType = "EAN13",
@@ -69,7 +69,7 @@ img = doc.FieldOptions.BarcodeGenerator.GetBarcodeImage(barcodeParameters);
 img.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.EAN13.jpg");
 builder.InsertImage(img);
 
- // 3 - CODE39 条形码：
+// 3 - CODE39 条形码：
 barcodeParameters = new BarcodeParameters
 {
     BarcodeType = "CODE39",
@@ -81,7 +81,7 @@ img = doc.FieldOptions.BarcodeGenerator.GetBarcodeImage(barcodeParameters);
 img.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.CODE39.jpg");
 builder.InsertImage(img);
 
- // 4 - ITF14 条形码：
+// 4 - ITF14 条形码：
 barcodeParameters = new BarcodeParameters
 {
     BarcodeType = "ITF14",

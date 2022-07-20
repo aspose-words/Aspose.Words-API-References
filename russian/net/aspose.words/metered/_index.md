@@ -3,7 +3,7 @@ title: Metered
 second_title: Справочник по API Aspose.Words для .NET
 description: Предоставляет методы для установки измеренного ключа.
 type: docs
-weight: 3870
+weight: 3920
 url: /ru/net/aspose.words/metered/
 ---
 ## Metered class
@@ -24,50 +24,43 @@ public class Metered
 
 | Имя | Описание |
 | --- | --- |
-| [SetMeteredKey](../../aspose.words/metered/setmeteredkey)(string, string) | Устанавливает измеренные открытый и закрытый ключи. Если вы покупаете лимитную лицензию, при запуске приложения должен вызываться этот API, обычно этого достаточно. Однако, если всегда не удается загрузить данные о потреблении и превышает 24 часа, лицензия будет установлена в ознакомительный статус, чтобы избежать этого, вы должны регулярно проверять статус лицензии, если это статус оценки, снова вызовите этот API. |
-| static [GetConsumptionCredit](../../aspose.words/metered/getconsumptioncredit)() | Получает кредит потребления |
+| [SetMeteredKey](../../aspose.words/metered/setmeteredkey)(string, string) | Устанавливает лимитный открытый и закрытый ключ. Если вы покупаете лимитную лицензию, при запуске приложения должен вызываться этот API, обычно этого достаточно. Однако, если всегда не удается загрузить данные о потреблении и время превышает 24 часа, лицензия будет установлена в ознакомительный статус, чтобы избежать этого, вы должны регулярно проверять статус лицензии, если это ознакомительный статус, снова вызывать этот API. |
+| static [GetConsumptionCredit](../../aspose.words/metered/getconsumptioncredit)() | Получает потребительский кредит |
 | static [GetConsumptionQuantity](../../aspose.words/metered/getconsumptionquantity)() | Получает размер файла потребления |
 
 ### Примеры
 
-В этом примере будет предпринята попытка установить дозированные открытый и закрытый ключ
+В этом примере будет предпринята попытка установить лимитированный открытый и закрытый ключ
 
 ```csharp
- // Создать новую лицензию Metered, а затем распечатать статистику ее использования.
-Metered metered = new Metered();
-metered.SetMeteredKey("MyPublicKey", "MyPrivateKey");
+[C#]
 
-Console.WriteLine($"Credit before operation: {Metered.GetConsumptionCredit()}");
-Console.WriteLine($"Consumption quantity before operation: {Metered.GetConsumptionQuantity()}");
+Metered matered = new Metered();
+matered.SetMeteredKey("PublicKey", "PrivateKey");
 
- // Работаем с Aspose.Words, а затем снова распечатываем нашу измеренную статистику, чтобы увидеть, сколько мы потратили.
-Document doc = new Document(MyDir + "Document.docx");
-doc.Save(ArtifactsDir + "Metered.Usage.pdf");
 
- // Механизм Aspose Metered Licensing не отправляет данные об использовании на сервер покупки каждый раз, 
- // вам нужно использовать ожидание.
-System.Threading.Thread.Sleep(10000);
+[Visual Basic]
 
-Console.WriteLine($"Credit after operation: {Metered.GetConsumptionCredit()}");
-Console.WriteLine($"Consumption quantity after operation: {Metered.GetConsumptionQuantity()}");
+Dim matered As Metered = New Metered
+matered.SetMeteredKey("PublicKey", "PrivateKey")
 ```
 
 Показывает, как активировать лицензию Metered и отслеживать кредит/потребление.
 
 ```csharp
- // Создать новую лицензию Metered, а затем распечатать статистику ее использования.
+// Создайте новую лицензию Metered, а затем распечатайте статистику ее использования.
 Metered metered = new Metered();
 metered.SetMeteredKey("MyPublicKey", "MyPrivateKey");
 
 Console.WriteLine($"Credit before operation: {Metered.GetConsumptionCredit()}");
 Console.WriteLine($"Consumption quantity before operation: {Metered.GetConsumptionQuantity()}");
 
- // Работаем с Aspose.Words, а затем снова распечатываем нашу измеренную статистику, чтобы увидеть, сколько мы потратили.
+// Работайте с Aspose.Words, а затем снова распечатайте нашу измеренную статистику, чтобы увидеть, сколько мы потратили.
 Document doc = new Document(MyDir + "Document.docx");
 doc.Save(ArtifactsDir + "Metered.Usage.pdf");
 
- // Механизм Aspose Metered Licensing не отправляет данные об использовании на сервер покупки каждый раз, 
- // вам нужно использовать ожидание.
+// Механизм Aspose Metered Licensing не отправляет данные об использовании на сервер покупки каждый раз,
+// вам нужно использовать ожидание.
 System.Threading.Thread.Sleep(10000);
 
 Console.WriteLine($"Credit after operation: {Metered.GetConsumptionCredit()}");

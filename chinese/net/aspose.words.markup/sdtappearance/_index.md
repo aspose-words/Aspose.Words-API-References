@@ -3,7 +3,7 @@ title: SdtAppearance
 second_title: Aspose.Words for .NET API 参考
 description: 指定结构化文档标签的外观
 type: docs
-weight: 3700
+weight: 3750
 url: /zh/net/aspose.words.markup/sdtappearance/
 ---
 ## SdtAppearance enumeration
@@ -18,10 +18,10 @@ public enum SdtAppearance
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| BoundingBox | `0` | 表示结构化文档标记，显示为阴影矩形或边界框。 |
+| BoundingBox | `0` | 表示显示为阴影矩形或边界框的结构化文档标签。 |
 | Tags | `1` | 表示显示为开始和结束标记的结构化文档标签。 |
 | Hidden | `2` | 表示未显示的结构化文档标签。 |
-| Default | `0` | 默认为BoundingBox。 |
+| Default | `0` | 默认为BoundingBox. |
 
 ### 也可以看看
 

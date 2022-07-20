@@ -1,14 +1,14 @@
 ---
 title: NodeType
 second_title: Aspose.Words for .NET API 参考
-description: 返回FieldEnd
+description: 返回FieldEnd.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.fields/fieldend/nodetype/
 ---
 ## FieldEnd.NodeType property
 
-返回FieldEnd。
+返回FieldEnd.
 
 ```csharp
 public override NodeType NodeType { get; }

@@ -1,14 +1,14 @@
 ---
 title: DownOffset
 second_title: Справочник по API Aspose.Words для .NET
-description: Получает или задает число пунктов на которое текст следующий за полем должен быть перемещен вниз.
+description: Получает или задает количество пунктов на которое текст следующий за полем должен быть перемещен вниз.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.fields/fieldadvance/downoffset/
 ---
 ## FieldAdvance.DownOffset property
 
-Получает или задает число пунктов, на которое текст, следующий за полем, должен быть перемещен вниз.
+Получает или задает количество пунктов, на которое текст, следующий за полем, должен быть перемещен вниз.
 
 ```csharp
 public string DownOffset { get; set; }

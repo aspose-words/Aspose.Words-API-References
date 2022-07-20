@@ -1,14 +1,14 @@
 ---
 title: RecipientDatas
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置指定邮件合并中单个记录的包含/排除的对象集合 这个对象永远不会为空
+description: 获取或设置指定邮件合并中包含/排除单个记录的对象集合 此对象永远不会为空
 type: docs
 weight: 70
 url: /zh/net/aspose.words.settings/odso/recipientdatas/
 ---
 ## Odso.RecipientDatas property
 
-获取或设置指定邮件合并中单个记录的包含/排除的对象集合。 这个对象永远不会为空。
+获取或设置指定邮件合并中包含/排除单个记录的对象集合。 此对象永远不会为空。
 
 ```csharp
 public OdsoRecipientDataCollection RecipientDatas { get; set; }
@@ -38,10 +38,10 @@ using (IEnumerator<OdsoRecipientData> enumerator = dataCollection.GetEnumerator(
     }
 }
 
- // 我们可以克隆这个集合中的元素。
+// 我们可以克隆这个集合中的元素。
 Assert.AreNotEqual(dataCollection[0], dataCollection[0].Clone());
 
- // 我们也可以单独删除元素，或者一次清除整个集合。
+// 我们也可以单独删除元素，或者一次清除整个集合。
 dataCollection.RemoveAt(0);
 
 Assert.AreEqual(69, dataCollection.Count);

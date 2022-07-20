@@ -1,14 +1,14 @@
 ---
 title: Overlay
 second_title: Aspose.Words for .NET API 参考
-description: 确定是否允许其他图表元素与标题重叠 默认情况下覆盖是假的
+description: 确定是否允许其他图表元素重叠 title. 默认情况下覆盖为 false
 type: docs
 weight: 10
 url: /zh/net/aspose.words.drawing.charts/charttitle/overlay/
 ---
 ## ChartTitle.Overlay property
 
-确定是否允许其他图表元素与标题重叠。 默认情况下，覆盖是假的。
+确定是否允许其他图表元素重叠 title. 默认情况下覆盖为 false。
 
 ```csharp
 public bool Overlay { get; set; }
@@ -16,7 +16,7 @@ public bool Overlay { get; set; }
 
 ### 例子
 
-显示如何插入图表并设置标题。
+显示如何插入图表和设置标题。
 
 ```csharp
 Document doc = new Document();

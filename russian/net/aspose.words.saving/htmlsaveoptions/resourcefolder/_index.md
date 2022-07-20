@@ -16,15 +16,15 @@ public string ResourceFolder { get; set; }
 
 ### Примечания
 
-`ResourceFolder`это самый простой способ указать папку, в которую должны быть записаны все ресурсы. Другой способ - использовать отдельные свойства[`FontsFolder`](../fontsfolder),[`ImagesFolder`](../imagesfolder), и[`CssStyleSheetFileName`](../cssstylesheetfilename).
+`ResourceFolder` — самый простой способ указать папку, в которую должны быть записаны все ресурсы. Другой способ — использовать отдельные свойства[`FontsFolder`](../fontsfolder) ,[`ImagesFolder`](../imagesfolder) , и[`CssStyleSheetFileName`](../cssstylesheetfilename).
 
-`ResourceFolder`имеет более низкий приоритет, чем папки, указанные через[`FontsFolder`](../fontsfolder), [`ImagesFolder`](../imagesfolder)и[`CssStyleSheetFileName`](../cssstylesheetfilename). Например, если оба `ResourceFolder`и[`FontsFolder`](../fontsfolder)шрифты будут сохранены в[`FontsFolder`](../fontsfolder), а изображения и CSS будут сохранены в`ResourceFolder`.
+`ResourceFolder` имеет более низкий приоритет, чем папки, указанные через[`FontsFolder`](../fontsfolder) , [`ImagesFolder`](../imagesfolder) , а также[`CssStyleSheetFileName`](../cssstylesheetfilename) . Например, если оба `ResourceFolder` а также[`FontsFolder`](../fontsfolder)указаны, шрифты будут сохранены в[`FontsFolder`](../fontsfolder) , а изображения и CSS будут сохранены в`ResourceFolder`.
 
-Если папка, указанная`ResourceFolder`, не существует, она будет создана автоматически .
+Если папка, указанная`ResourceFolder` не существует, он будет создан автоматически.
 
 ### Примеры
 
-Показывает, как устанавливать папки и псевдонимы папок для внешне сохраненных ресурсов который Aspose.Words создаст при сохранении документа в HTML.
+Показывает, как установить папки и псевдонимы папок для внешне сохраненных ресурсов, которые Aspose.Words создаст при сохранении документа в HTML.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");

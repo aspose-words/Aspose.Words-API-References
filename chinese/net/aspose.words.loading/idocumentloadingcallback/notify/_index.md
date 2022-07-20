@@ -1,14 +1,14 @@
 ---
 title: Notify
 second_title: Aspose.Words for .NET API 参考
-description: 调用它来通知文档加载进度
+description: 调用此函数以通知文档加载进度
 type: docs
 weight: 10
 url: /zh/net/aspose.words.loading/idocumentloadingcallback/notify/
 ---
 ## IDocumentLoadingCallback.Notify method
 
-调用它来通知文档加载进度。
+调用此函数以通知文档加载进度。
 
 ```csharp
 public void Notify(DocumentLoadingArgs args)
@@ -16,7 +16,7 @@ public void Notify(DocumentLoadingArgs args)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| args | DocumentLoadingArgs | 事件的参数。 |
+| args | DocumentLoadingArgs | 事件的论据。 |
 
 ### 评论
 
@@ -26,7 +26,7 @@ public void Notify(DocumentLoadingArgs args)
 
 ### 例子
 
-显示如何通知用户文档加载超出预期加载时间。
+显示如何在文档加载超出预期加载时间时通知用户。
 
 ```csharp
 [Test]

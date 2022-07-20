@@ -1,14 +1,14 @@
 ---
 title: Password
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置打开加密文档的密码 可以是 null 或空字符串默认为空
+description: 获取或设置打开加密文档的密码 可以是空字符串或空字符串默认为空
 type: docs
 weight: 110
 url: /zh/net/aspose.words.loading/loadoptions/password/
 ---
 ## LoadOptions.Password property
 
-获取或设置打开加密文档的密码。 可以是 null 或空字符串。默认为空。
+获取或设置打开加密文档的密码。 可以是空字符串或空字符串。默认为空。
 
 ```csharp
 public string Password { get; set; }
@@ -20,13 +20,13 @@ public string Password { get; set; }
 
 ### 例子
 
-显示如何签署加密文档文件。
+显示如何签署加密的文档文件。
 
 ```csharp
- // 从 PKCS#12 存储创建 X.509 证书，其中应包含私钥。
+// 从 PKCS#12 存储创建 X.509 证书，其中应包含私钥。
 CertificateHolder certificateHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "aw");
 
- // 创建一个评论、日期和解密密码，这些密码将与我们的新数字签名一起应用。
+// 创建一个评论、日期和解密密码，这些密码将与我们的新数字签名一起应用。
 SignOptions signOptions = new SignOptions
 {
     Comments = "Comment",
@@ -34,7 +34,7 @@ SignOptions signOptions = new SignOptions
     DecryptionPassword = "docPassword"
 };
 
- // 为未签名的输入文档设置本地系统文件名，为其新的数字签名副本设置输出文件名。
+// 为未签名的输入文档设置本地系统文件名，为其新的数字签名副本设置输出文件名。
 string inputFileName = MyDir + "Encrypted.docx";
 string outputFileName = ArtifactsDir + "DigitalSignatureUtil.DecryptionPassword.docx";
 

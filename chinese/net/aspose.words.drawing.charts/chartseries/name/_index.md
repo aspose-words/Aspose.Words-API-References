@@ -1,14 +1,14 @@
 ---
 title: Name
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置系列的名称如果未明确设置名称则使用索引生成 默认情况下返回 Series 加一个基于索引的索引
+description: 获取或设置系列的名称如果未明确设置名称则使用索引生成 默认情况下返回系列加一个基于索引
 type: docs
 weight: 100
 url: /zh/net/aspose.words.drawing.charts/chartseries/name/
 ---
 ## ChartSeries.Name property
 
-获取或设置系列的名称，如果未明确设置名称，则使用索引生成。 默认情况下返回 Series 加一个基于索引的索引。
+获取或设置系列的名称，如果未明确设置名称，则使用索引生成。 默认情况下返回系列加一个基于索引。
 
 ```csharp
 public string Name { get; set; }

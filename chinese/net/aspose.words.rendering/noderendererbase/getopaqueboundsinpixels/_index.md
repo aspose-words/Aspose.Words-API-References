@@ -1,14 +1,14 @@
 ---
 title: GetOpaqueBoundsInPixels
 second_title: Aspose.Words for .NET API 参考
-description: 为指定的缩放因子和分辨率计算形状的不透明边界以像素为单位
+description: 计算指定缩放因子和分辨率下形状的不透明边界以像素为单位
 type: docs
 weight: 50
 url: /zh/net/aspose.words.rendering/noderendererbase/getopaqueboundsinpixels/
 ---
 ## GetOpaqueBoundsInPixels(float, float) {#getopaqueboundsinpixels}
 
-为指定的缩放因子和分辨率计算形状的不透明边界（以像素为单位）。
+计算指定缩放因子和分辨率下形状的不透明边界（以像素为单位）。
 
 ```csharp
 public Rectangle GetOpaqueBoundsInPixels(float scale, float dpi)
@@ -17,15 +17,15 @@ public Rectangle GetOpaqueBoundsInPixels(float scale, float dpi)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | scale | Single | 缩放系数（1.0 为 100%）。 |
-| dpi | Single | 从点转换为像素的分辨率（每英寸点数）。 |
+| dpi | Single | 从点转换为像素（每英寸点数）的分辨率。 |
 
 ### 返回值
 
-形状的不透明矩形，以像素为单位。
+形状的不透明矩形（以像素为单位）。
 
 ### 评论
 
-此方法转换[`OpaqueBoundsInPoints`](../opaqueboundsinpoints)转换为以像素为单位的矩形，当您想要创建位图以仅使用形状的不透明部分渲染形状时，它很有用 。
+该方法转换[`OpaqueBoundsInPoints`](../opaqueboundsinpoints)以像素为单位的矩形，当你想创建一个位图来渲染只有形状不透明部分的形状时，它是有用的 。
 
 ### 例子
 
@@ -81,7 +81,7 @@ Assert.AreEqual(30, bounds.Height);
 
 ## GetOpaqueBoundsInPixels(float, float, float) {#getopaqueboundsinpixels_1}
 
-为指定的缩放因子和分辨率计算形状的不透明边界（以像素为单位）。
+计算指定缩放因子和分辨率下形状的不透明边界（以像素为单位）。
 
 ```csharp
 public Rectangle GetOpaqueBoundsInPixels(float scale, float horizontalDpi, float verticalDpi)
@@ -95,11 +95,11 @@ public Rectangle GetOpaqueBoundsInPixels(float scale, float horizontalDpi, float
 
 ### 返回值
 
-形状的不透明矩形，以像素为单位。
+形状的不透明矩形（以像素为单位）。
 
 ### 评论
 
-此方法转换[`OpaqueBoundsInPoints`](../opaqueboundsinpoints)转换为以像素为单位的矩形，当您想要创建位图以仅使用形状的不透明部分渲染形状时，它很有用 。
+该方法转换[`OpaqueBoundsInPoints`](../opaqueboundsinpoints)以像素为单位的矩形，当你想创建一个位图来渲染只有形状不透明部分的形状时，它是有用的 。
 
 ### 例子
 

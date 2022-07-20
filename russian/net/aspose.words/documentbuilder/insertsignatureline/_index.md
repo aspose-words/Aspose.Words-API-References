@@ -95,9 +95,9 @@ public Shape InsertSignatureLine(SignatureLineOptions signatureLineOptions,
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | signatureLineOptions | SignatureLineOptions | Объект, в котором хранятся параметры создания строки подписи. |
-| horzPos | RelativeHorizontalPosition | Указывает, откуда отсчитывается расстояние до линии подписи. |
+| horzPos | RelativeHorizontalPosition | Указывает, где отсчитывается расстояние до линии подписи. |
 | left | Double | Расстояние в пунктах от начала координат до левой стороны линии подписи. |
-| vertPos | RelativeVerticalPosition | Указывает, откуда измеряется расстояние до линии подписи. |
+| vertPos | RelativeVerticalPosition | Указывает, где измеряется расстояние до линии подписи. |
 | top | Double | Расстояние в пунктах от начала координат до верхней стороны линии подписи. |
 | wrapType | WrapType | Указывает, как обтекать текст вокруг строки подписи. |
 
@@ -107,7 +107,7 @@ public Shape InsertSignatureLine(SignatureLineOptions signatureLineOptions,
 
 ### Примечания
 
-Вы можете изменить размер изображения, местоположение, метод позиционирования и другие настройки с помощью [`Shape`](../../../aspose.words.drawing/shape)объект, возвращаемый этим методом.
+Вы можете изменить размер изображения, местоположение, метод позиционирования и другие настройки с помощью [`Shape`](../../../aspose.words.drawing/shape) объект, возвращаемый этим методом.
 
 ### Примеры
 

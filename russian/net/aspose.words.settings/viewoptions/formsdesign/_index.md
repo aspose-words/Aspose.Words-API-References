@@ -27,8 +27,8 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world!");
 
- // Установите для свойства "FormsDesign" значение "false", чтобы оставить режим дизайна форм отключенным.
- // Установите для свойства "FormsDesign" значение "true", чтобы включить режим дизайна форм.
+// Установите для свойства "FormsDesign" значение "false", чтобы оставить режим дизайна форм отключенным.
+// Установите для свойства "FormsDesign" значение "true", чтобы включить режим дизайна форм.
 doc.ViewOptions.FormsDesign = useFormsDesign;
 
 doc.Save(ArtifactsDir + "ViewOptions.FormsDesign.xml");

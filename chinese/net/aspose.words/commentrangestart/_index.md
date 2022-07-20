@@ -1,14 +1,14 @@
 ---
 title: CommentRangeStart
 second_title: Aspose.Words for .NET API 参考
-description: 表示具有相关注释的文本区域的开始
+description: 表示具有关联注释的文本区域的开始
 type: docs
 weight: 250
 url: /zh/net/aspose.words/commentrangestart/
 ---
 ## CommentRangeStart class
 
-表示具有相关注释的文本区域的开始。
+表示具有关联注释的文本区域的开始。
 
 ```csharp
 public sealed class CommentRangeStart : Node
@@ -18,7 +18,7 @@ public sealed class CommentRangeStart : Node
 
 | 姓名 | 描述 |
 | --- | --- |
-| [CommentRangeStart](commentrangestart)(DocumentBase, int) | 初始化此类的新实例。 |
+| [CommentRangeStart](commentrangestart)(DocumentBase, int) | 初始化这个类的一个新实例。 |
 
 ## 特性
 
@@ -28,19 +28,19 @@ public sealed class CommentRangeStart : Node
 | virtual [Document](../../aspose.words/node/document) { get; } | 获取该节点所属的文档。 |
 | [Id](../../aspose.words/commentrangestart/id) { get; set; } | 指定该区域链接到的注释的标识符。 |
 | virtual [IsComposite](../../aspose.words/node/iscomposite) { get; } | 如果此节点可以包含其他节点，则返回 true。 |
-| [NextSibling](../../aspose.words/node/nextsibling) { get; } | 获取紧跟该节点的节点。 |
-| override [NodeType](../../aspose.words/commentrangestart/nodetype) { get; } | 返回CommentRangeStart。 |
+| [NextSibling](../../aspose.words/node/nextsibling) { get; } | 获取紧跟此节点的节点。 |
+| override [NodeType](../../aspose.words/commentrangestart/nodetype) { get; } | 返回CommentRangeStart. |
 | [ParentNode](../../aspose.words/node/parentnode) { get; } | 获取此节点的直接父节点。 |
 | [PreviousSibling](../../aspose.words/node/previoussibling) { get; } | 获取紧接在此节点之前的节点。 |
-| [Range](../../aspose.words/node/range) { get; } | 返回 **Range** 对象，该对象表示包含在此节点中的文档部分。 |
+| [Range](../../aspose.words/node/range) { get; } | 返回一个 **范围**表示此节点中包含的文档部分的对象。 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [Accept](../../aspose.words/commentrangestart/accept)(DocumentVisitor) | 接受访问者。 |
+| override [Accept](../../aspose.words/commentrangestart/accept)(DocumentVisitor) | 接受访客。 |
 | [Clone](../../aspose.words/node/clone)(bool) | 创建节点的副本。 |
-| [GetAncestor](../../aspose.words/node/getancestor)(NodeType) | 获取指定[`NodeType`](../nodetype)的第一个祖先。 |
+| [GetAncestor](../../aspose.words/node/getancestor)(NodeType) | 获取指定的第一个祖先[`NodeType`](../nodetype). |
 | [GetAncestor](../../aspose.words/node/getancestor)(Type) | 获取指定对象类型的第一个祖先。 |
 | virtual [GetText](../../aspose.words/node/gettext)() | 获取该节点及其所有子节点的文本。 |
 | [NextPreOrder](../../aspose.words/node/nextpreorder)(Node) | 根据前序树遍历算法获取下一个节点。 |
@@ -51,9 +51,9 @@ public sealed class CommentRangeStart : Node
 
 ### 评论
 
-要创建锚定到文本区域的注释，您需要创建[`Comment`](../comment)和 然后创建[`CommentRangeStart`](../commentrangestart)和[`CommentRangeEnd`](../commentrangeend)并将它们的标识符 设置为相同的[`Id`](../comment/id)值。
+要创建锚定到文本区域的注释，您需要创建一个[`Comment`](../comment)and 然后创建[`CommentRangeStart`](../commentrangestart)和[`CommentRangeEnd`](../commentrangeend)并将它们的标识符 设置为相同[`Id`](../comment/id)价值。
 
-[`CommentRangeStart`](../commentrangestart)是内联级节点，只能是T的子节点:Aspose.Words.Paragraph。
+[`CommentRangeStart`](../commentrangestart)是一个内联级节点，只能是[`Paragraph`](../paragraph).
 
 ### 例子
 
@@ -73,14 +73,14 @@ public void CreateCommentsAndPrintAllInfo()
 
     newComment.SetText("Comment regarding text.");
 
-     // 向文档中添加文本，在评论范围内对其进行变形，然后添加您的评论。
+    // 向文档中添加文本，在评论范围内对其进行变形，然后添加您的评论。
     Paragraph para = doc.FirstSection.Body.FirstParagraph;
     para.AppendChild(new CommentRangeStart(doc, newComment.Id));
     para.AppendChild(new Run(doc, "Commented text."));
     para.AppendChild(new CommentRangeEnd(doc, newComment.Id));
     para.AppendChild(newComment); 
 
-     // 在评论中添加两个回复。
+    // 在评论中添加两个回复。
     newComment.AddReply("John Doe", "JD", DateTime.Now, "New reply.");
     newComment.AddReply("John Doe", "JD", DateTime.Now, "Another reply.");
 
@@ -88,7 +88,7 @@ public void CreateCommentsAndPrintAllInfo()
 }
 
 /// <summary>
- /// 遍历每个顶级评论并打印其评论范围、内容和回复。
+/// 遍历每个顶级评论并打印其评论范围、内容和回复。
 /// </summary>
 private static void PrintAllCommentInfo(NodeCollection comments)
 {
@@ -97,17 +97,17 @@ private static void PrintAllCommentInfo(NodeCollection comments)
     // 遍历所有顶级注释。与回复类型的评论不同，顶级评论没有祖先。
     foreach (Comment comment in comments.Where(c => ((Comment)c).Ancestor == null))
     {
-         // 首先，访问评论范围的开头。
+        // 首先，访问评论范围的开头。
         CommentRangeStart commentRangeStart = (CommentRangeStart)comment.PreviousSibling.PreviousSibling.PreviousSibling;
         commentRangeStart.Accept(commentVisitor);
 
-         // 然后，访问评论，以及它可能有的任何回复。
+        // 然后，访问评论，以及它可能有的任何回复。
         comment.Accept(commentVisitor);
 
         foreach (Comment reply in comment.Replies)
             reply.Accept(commentVisitor);
 
-         // 最后访问评论范围的末尾，然后打印访问者的文本内容。
+        // 最后，访问评论范围的末尾，然后打印访问者的文本内容。
         CommentRangeEnd commentRangeEnd = (CommentRangeEnd)comment.PreviousSibling;
         commentRangeEnd.Accept(commentVisitor);
 
@@ -116,7 +116,7 @@ private static void PrintAllCommentInfo(NodeCollection comments)
 }
 
 /// <summary>
- /// 打印文档中遇到的所有评论和评论范围的信息和内容。
+/// 打印文档中遇到的所有评论和评论范围的信息和内容。
 /// </summary>
 public class CommentInfoPrinter : DocumentVisitor
 {
@@ -127,7 +127,7 @@ public class CommentInfoPrinter : DocumentVisitor
     }
 
     /// <summary>
-     /// 获取访问者积累的文档的纯文本。
+    /// 获取访问者积累的文档的纯文本。
     /// </summary>
     public string GetText()
     {
@@ -135,7 +135,7 @@ public class CommentInfoPrinter : DocumentVisitor
     }
 
     /// <summary>
-     /// 在文档中遇到 Run 节点时调用。
+    /// 在文档中遇到 Run 节点时调用。
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {
@@ -145,7 +145,7 @@ public class CommentInfoPrinter : DocumentVisitor
     }
 
     /// <summary>
-     /// 在文档中遇到 CommentRangeStart 节点时调用。
+    /// 在文档中遇到 CommentRangeStart 节点时调用。
     /// </summary>
     public override VisitorAction VisitCommentRangeStart(CommentRangeStart commentRangeStart)
     {
@@ -157,7 +157,7 @@ public class CommentInfoPrinter : DocumentVisitor
     }
 
     /// <summary>
-     /// 在文档中遇到 CommentRangeEnd 节点时调用。
+    /// 在文档中遇到 CommentRangeEnd 节点时调用。
     /// </summary>
     public override VisitorAction VisitCommentRangeEnd(CommentRangeEnd commentRangeEnd)
     {
@@ -169,7 +169,7 @@ public class CommentInfoPrinter : DocumentVisitor
     }
 
     /// <summary>
-     /// 在文档中遇到评论节点时调用。
+    /// 在文档中遇到评论节点时调用。
     /// </summary>
     public override VisitorAction VisitCommentStart(Comment comment)
     {
@@ -182,7 +182,7 @@ public class CommentInfoPrinter : DocumentVisitor
     }
 
     /// <summary>
-     /// 在文档中结束对Comment节点的访问时调用。
+    /// 在文档中结束对 Comment 节点的访问时调用。
     /// </summary>
     public override VisitorAction VisitCommentEnd(Comment comment)
     {
@@ -194,9 +194,9 @@ public class CommentInfoPrinter : DocumentVisitor
     }
 
     /// <summary>
-     /// 将一行添加到 StringBuilder 并根据访问者在文档树中的深度缩进。
+    /// 将一行添加到 StringBuilder 并根据访问者在文档树中的深度缩进。
     /// </summary>
-     /// <param name="text"></param>
+    /// <param name="text"></param>
     private void IndentAndAppendLine(string text)
     {
         for (int i = 0; i < mDocTraversalDepth; i++)

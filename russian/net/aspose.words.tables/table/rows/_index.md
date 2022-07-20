@@ -20,44 +20,25 @@ public RowCollection Rows { get; }
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");
-TableCollection tables = doc.FirstSection.Body.Tables;
 
-Assert.AreEqual(2, tables.ToArray().Length);
+// Ниже приведены два способа получения таблицы из документа.
+// 1 - Из коллекции "Таблицы" узла Body:
+Table firstTable = doc.FirstSection.Body.Tables[0];
 
-for (int i = 0; i < tables.Count; i++)
-{
-    Console.WriteLine($"Start of Table {i}");
+// 2 - Используя метод "GetChild":
+Table secondTable = (Table)doc.GetChild(NodeType.Table, 1, true);
 
-    RowCollection rows = tables[i].Rows;
+// Добавляем все строки из текущей таблицы в следующую.
+while (secondTable.HasChildNodes)
+    firstTable.Rows.Add(secondTable.FirstRow);
 
-     // Мы можем использовать метод "ToArray" для набора строк, чтобы клонировать его в массив.
-    Assert.AreEqual(rows, rows.ToArray());
-    Assert.AreNotSame(rows, rows.ToArray());
+// Удалить пустой контейнер таблицы.
+secondTable.Remove();
 
-    for (int j = 0; j < rows.Count; j++)
-    {
-        Console.WriteLine($"\tStart of Row {j}");
-
-        CellCollection cells = rows[j].Cells;
-
-         // Мы можем использовать метод "ToArray" для набора ячеек, чтобы клонировать его в массив.
-        Assert.AreEqual(cells, cells.ToArray());
-        Assert.AreNotSame(cells, cells.ToArray());
-
-        for (int k = 0; k < cells.Count; k++)
-        {
-            string cellText = cells[k].ToString(SaveFormat.Text).Trim();
-            Console.WriteLine($"\t\tContents of Cell:{k} = \"{cellText}\"");
-        }
-
-        Console.WriteLine($"\tEnd of Row {j}");
-    }
-
-    Console.WriteLine($"End of Table {i}\n");
-}
+doc.Save(ArtifactsDir + "Table.CombineTables.docx");
 ```
 
-Показывает, как перебирать все таблицы в документе и печатать содержимое каждой ячейки.
+Показывает, как выполнить итерацию по всем таблицам в документе и распечатать содержимое каждой ячейки.
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");
@@ -71,7 +52,7 @@ for (int i = 0; i < tables.Count; i++)
 
     RowCollection rows = tables[i].Rows;
 
-     // Мы можем использовать метод "ToArray" для набора строк, чтобы клонировать его в массив.
+    // Мы можем использовать метод "ToArray" для набора строк, чтобы клонировать его в массив.
     Assert.AreEqual(rows, rows.ToArray());
     Assert.AreNotSame(rows, rows.ToArray());
 
@@ -81,7 +62,7 @@ for (int i = 0; i < tables.Count; i++)
 
         CellCollection cells = rows[j].Cells;
 
-         // Мы можем использовать метод "ToArray" для набора ячеек, чтобы клонировать его в массив.
+        // Мы можем использовать метод "ToArray" для набора ячеек, чтобы клонировать его в массив.
         Assert.AreEqual(cells, cells.ToArray());
         Assert.AreNotSame(cells, cells.ToArray());
 

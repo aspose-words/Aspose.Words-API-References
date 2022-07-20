@@ -1,14 +1,14 @@
 ---
 title: LinkToPrevious
 second_title: Aspose.Words for .NET API 参考
-description: 将所有页眉和页脚链接或取消链接到上一节中相应的 页眉和页脚
+description: 将所有页眉和页脚链接或取消链接到上一节中对应的 页眉和页脚
 type: docs
 weight: 20
 url: /zh/net/aspose.words/headerfootercollection/linktoprevious/
 ---
 ## LinkToPrevious(bool) {#linktoprevious_1}
 
-将所有页眉和页脚链接或取消链接到上一节中相应的 页眉和页脚。
+将所有页眉和页脚链接或取消链接到上一节中对应的 页眉和页脚。
 
 ```csharp
 public void LinkToPrevious(bool isLinkToPrevious)
@@ -24,7 +24,7 @@ public void LinkToPrevious(bool isLinkToPrevious)
 
 ### 例子
 
-显示如何在节之间链接页眉和页脚。
+显示如何在部分之间链接页眉和页脚。
 
 ```csharp
 Document doc = new Document();
@@ -94,7 +94,7 @@ doc.Save(ArtifactsDir + "HeaderFooter.Link.docx");
 
 ## LinkToPrevious(HeaderFooterType, bool) {#linktoprevious}
 
-将指定的页眉或页脚链接或取消链接到上一节中相应的 页眉或页脚。
+将指定的页眉或页脚链接或取消链接到上一节中对应的 页眉或页脚。
 
 ```csharp
 public void LinkToPrevious(HeaderFooterType headerFooterType, bool isLinkToPrevious)
@@ -102,7 +102,7 @@ public void LinkToPrevious(HeaderFooterType headerFooterType, bool isLinkToPrevi
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| headerFooterType | HeaderFooterType | A[`HeaderFooterType`](../../headerfootertype)值 指定要链接/取消链接的页眉或页脚。 |
+| headerFooterType | HeaderFooterType | 一个[`HeaderFooterType`](../../headerfootertype) value 指定要链接/取消链接的页眉或页脚。 |
 | isLinkToPrevious | Boolean | True 将页眉或页脚链接到上一节； false 取消链接。 |
 
 ### 评论
@@ -111,7 +111,7 @@ public void LinkToPrevious(HeaderFooterType headerFooterType, bool isLinkToPrevi
 
 ### 例子
 
-显示如何在节之间链接页眉和页脚。
+显示如何在部分之间链接页眉和页脚。
 
 ```csharp
 Document doc = new Document();

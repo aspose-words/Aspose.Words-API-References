@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置集合中的GradientStopaspose.words.drawing/gradientstop对象
+description: 获取或设置一个GradientStopaspose.words.drawing/gradientstop集合中的对象
 type: docs
 weight: 20
 url: /zh/net/aspose.words.drawing/gradientstopcollection/item/
 ---
 ## GradientStopCollection indexer
 
-获取或设置集合中的[`GradientStop`](../../gradientstop)对象。
+获取或设置一个[`GradientStop`](../../gradientstop)集合中的对象。
 
 ```csharp
 public GradientStop this[int index] { get; set; }

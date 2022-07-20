@@ -1,14 +1,14 @@
 ---
 title: CustomXmlPart
 second_title: Справочник по API Aspose.Words для .NET
-description: Представляет пользовательскую часть хранения данных XML пользовательские данные XML в пакете.
+description: Представляет пользовательскую часть хранилища данных XML пользовательские данные XML в пакете.
 type: docs
-weight: 3630
+weight: 3680
 url: /ru/net/aspose.words.markup/customxmlpart/
 ---
 ## CustomXmlPart class
 
-Представляет пользовательскую часть хранения данных XML (пользовательские данные XML в пакете).
+Представляет пользовательскую часть хранилища данных XML (пользовательские данные XML в пакете).
 
 ```csharp
 public class CustomXmlPart
@@ -25,19 +25,19 @@ public class CustomXmlPart
 | Имя | Описание |
 | --- | --- |
 | [Data](../../aspose.words.markup/customxmlpart/data) { get; set; } | Получает или задает XML-содержимое этой пользовательской части хранилища данных XML. |
-| [DataChecksum](../../aspose.words.markup/customxmlpart/datachecksum) { get; } | Указывает контрольную сумму циклической проверки избыточности (CRC) содержимого[`Data`](./data). |
+| [DataChecksum](../../aspose.words.markup/customxmlpart/datachecksum) { get; } | Определяет контрольную сумму проверки циклическим избыточным кодом (CRC)[`Data`](./data) содержание. |
 | [Id](../../aspose.words.markup/customxmlpart/id) { get; set; } | Получает или задает строку, идентифицирующую эту пользовательскую часть XML в документе OOXML. |
-| [Schemas](../../aspose.words.markup/customxmlpart/schemas) { get; } | Задает набор XML-схем, связанных с этой настраиваемой частью XML. |
+| [Schemas](../../aspose.words.markup/customxmlpart/schemas) { get; } | Указывает набор схем XML, связанных с этой настраиваемой частью XML. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [Clone](../../aspose.words.markup/customxmlpart/clone)() | Делает "достаточно глубокую" копию объекта. Не дублирует байты значения[`Data`](./data). |
+| [Clone](../../aspose.words.markup/customxmlpart/clone)() | Создает «достаточно глубокую» копию объекта. Не дублирует байты[`Data`](./data) значение. |
 
 ### Примечания
 
-Документ DOCX или DOC может содержать одну или несколько частей Custom XML Data Storage. Aspose.Words сохраняет и позволяет создавать и извлекать пользовательские XML-данные через коллекцию[`CustomXmlParts`](../../aspose.words/document/customxmlparts).
+Документ DOCX или DOC может содержать одну или несколько частей Custom XML Data Storage. Aspose.Words сохраняет, а позволяет создавать и извлекать пользовательские XML-данные через[`CustomXmlParts`](../../aspose.words/document/customxmlparts) коллекция.
 
 ### Примеры
 

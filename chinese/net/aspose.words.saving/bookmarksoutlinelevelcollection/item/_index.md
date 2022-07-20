@@ -95,7 +95,7 @@ public int this[int index] { get; set; }
 
 | 范围 | 描述 |
 | --- | --- |
-| index | 从零开始的书签索引。 |
+| index | 书签的从零开始的索引。 |
 
 ### 返回值
 

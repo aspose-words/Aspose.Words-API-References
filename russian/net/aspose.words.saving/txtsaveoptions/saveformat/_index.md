@@ -1,14 +1,14 @@
 ---
 title: SaveFormat
 second_title: Справочник по API Aspose.Words для .NET
-description: Указывает формат в котором будет сохранен документ если используется этот объект параметров сохранения. Может быть толькоText.
+description: Определяет формат в котором документ будет сохранен если используется этот объект параметров сохранения.Text .
 type: docs
 weight: 60
 url: /ru/net/aspose.words.saving/txtsaveoptions/saveformat/
 ---
 ## TxtSaveOptions.SaveFormat property
 
-Указывает формат, в котором будет сохранен документ, если используется этот объект параметров сохранения. Может быть толькоText.
+Определяет формат, в котором документ будет сохранен, если используется этот объект параметров сохранения.Text .
 
 ```csharp
 public override SaveFormat SaveFormat { get; set; }
@@ -16,7 +16,7 @@ public override SaveFormat SaveFormat { get; set; }
 
 ### Примеры
 
-Показывает, как сохранить документ .txt с произвольным разрывом абзаца.
+Показывает, как сохранить документ .txt с настраиваемым разрывом абзаца.
 
 ```csharp
 Document doc = new Document();
@@ -26,13 +26,13 @@ builder.Writeln("Paragraph 1.");
 builder.Writeln("Paragraph 2.");
 builder.Write("Paragraph 3.");
 
- // Создаем объект «TxtSaveOptions», который мы можем передать в документ «Сохранить» method
- // чтобы изменить способ сохранения документа в виде открытого текста.
+// Создаем объект "TxtSaveOptions", который мы можем передать в метод "Сохранить" документа
+// чтобы изменить способ сохранения документа в виде открытого текста.
 TxtSaveOptions txtSaveOptions = new TxtSaveOptions();
 
 Assert.AreEqual(SaveFormat.Text, txtSaveOptions.SaveFormat);
 
- // Установите для «ParagraphBreak» пользовательское значение, которое мы хотим поместить в конце каждого абзаца.
+// Установите для «ParagraphBreak» пользовательское значение, которое мы хотим поместить в конце каждого абзаца.
 txtSaveOptions.ParagraphBreak = " End of paragraph.\n\n\t";
 
 doc.Save(ArtifactsDir + "TxtSaveOptions.ParagraphBreak.txt", txtSaveOptions);

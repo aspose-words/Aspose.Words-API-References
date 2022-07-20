@@ -1,14 +1,14 @@
 ---
 title: Smooth
 second_title: Справочник по API Aspose.Words для .NET
-description: Позволяет указать будет ли линия соединяющая точки на графике сглаживаться с помощью сплайнов Катмулла-Рома.
+description: Позволяет указать будет ли линия соединяющая точки на графике сглаживаться с помощью сплайнов Catmull-Rom.
 type: docs
 weight: 110
 url: /ru/net/aspose.words.drawing.charts/chartseries/smooth/
 ---
 ## ChartSeries.Smooth property
 
-Позволяет указать, будет ли линия, соединяющая точки на графике, сглаживаться с помощью сплайнов Катмулла-Рома.
+Позволяет указать, будет ли линия, соединяющая точки на графике, сглаживаться с помощью сплайнов Catmull-Rom.
 
 ```csharp
 public bool Smooth { get; set; }

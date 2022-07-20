@@ -1,14 +1,14 @@
 ---
 title: PrinterInstructions
 second_title: Справочник по API Aspose.Words для .NET
-description: Получает или задает характерные для принтера символы управляющего кода или инструкции PostScript.
+description: Получает или задает характерные для принтера символы кода управления или инструкции PostScript.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.fields/fieldprint/printerinstructions/
 ---
 ## FieldPrint.PrinterInstructions property
 
-Получает или задает характерные для принтера символы управляющего кода или инструкции PostScript.
+Получает или задает характерные для принтера символы кода управления или инструкции PostScript.
 
 ```csharp
 public string PrinterInstructions { get; set; }
@@ -16,7 +16,7 @@ public string PrinterInstructions { get; set; }
 
 ### Примеры
 
-Показывает для вставки поля PRINT.
+Показывает, чтобы вставить поле PRINT.
 
 ```csharp
 Document doc = new Document();

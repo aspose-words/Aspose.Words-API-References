@@ -1,14 +1,14 @@
 ---
 title: ImageSavingCallback
 second_title: Aspose.Words for .NET API 参考
-description: 允许控制在将文档保存到 XAML 时如何保存图像
+description: 允许控制将文档保存到 XAML 时如何保存图像
 type: docs
 weight: 20
 url: /zh/net/aspose.words.saving/xamlflowsaveoptions/imagesavingcallback/
 ---
 ## XamlFlowSaveOptions.ImageSavingCallback property
 
-允许控制在将文档保存到 XAML 时如何保存图像。
+允许控制将文档保存到 XAML 时如何保存图像。
 
 ```csharp
 public IImageSavingCallback ImageSavingCallback { get; set; }
@@ -16,7 +16,7 @@ public IImageSavingCallback ImageSavingCallback { get; set; }
 
 ### 例子
 
-显示如何打印在将文档转换为流格式 .xaml 时创建的链接图像的文件名。
+演示如何打印在将文档转换为流格式 .xaml 时创建的链接图像的文件名。
 
 ```csharp
 {

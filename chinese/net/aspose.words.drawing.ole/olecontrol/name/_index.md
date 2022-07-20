@@ -16,7 +16,7 @@ public string Name { get; }
 
 ### 例子
 
-显示如何验证 ActiveX 控件的属性。
+演示如何验证 ActiveX 控件的属性。
 
 ```csharp
 Document doc = new Document(MyDir + "ActiveX controls.docx");

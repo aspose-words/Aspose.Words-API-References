@@ -1,14 +1,14 @@
 ---
 title: TextWrapping
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置TextWrappingaspose.words.tables/table/textwrapping用于表
+description: 获取或设置TextWrappingaspose.words.tables/table/textwrapping对于表.
 type: docs
 weight: 310
 url: /zh/net/aspose.words.tables/table/textwrapping/
 ---
 ## Table.TextWrapping property
 
-获取或设置`TextWrapping`用于表。
+获取或设置`TextWrapping`对于表.
 
 ```csharp
 public TextWrapping TextWrapping { get; set; }
@@ -16,7 +16,7 @@ public TextWrapping TextWrapping { get; set; }
 
 ### 例子
 
-显示如何使用表格文本换行。
+展示如何使用表格文本换行。
 
 ```csharp
 Document doc = new Document();
@@ -33,9 +33,8 @@ table.PreferredWidth = PreferredWidth.FromPoints(300);
 builder.Font.Size = 16;
 builder.Writeln("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.");
 
- // 将 "TextWrapping" 属性设置为 "TextWrapping.Around" 以使表格环绕它的文本，
- // 并通过设置 position.
- 将其推入下面的段落
+// 将 "TextWrapping" 属性设置为 "TextWrapping.Around" 以使表格环绕它的文本，
+// 并通过设置位置将其推入下面的段落。
 table.TextWrapping = TextWrapping.Around;
 table.AbsoluteHorizontalDistance = 100;
 table.AbsoluteVerticalDistance = 20;

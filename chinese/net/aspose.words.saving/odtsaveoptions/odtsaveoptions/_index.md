@@ -1,14 +1,14 @@
 ---
 title: OdtSaveOptions
 second_title: Aspose.Words for .NET API 参考
-description: 初始化此类的新实例该实例可用于以Odt格式保存文档.
+description: 初始化此类的新实例该实例可用于将文档保存在Odt格式.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.saving/odtsaveoptions/odtsaveoptions/
 ---
 ## OdtSaveOptions() {#constructor}
 
-初始化此类的新实例，该实例可用于以Odt格式保存文档.
+初始化此类的新实例，该实例可用于将文档保存在Odt格式.
 
 ```csharp
 public OdtSaveOptions()
@@ -16,7 +16,7 @@ public OdtSaveOptions()
 
 ### 例子
 
-显示如何使保存的文档符合旧的 ODT 模式。
+展示如何使保存的文档符合旧的 ODT 模式。
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
@@ -40,7 +40,7 @@ doc.Save(ArtifactsDir + "OdtSaveOptions.Odt11Schema.odt", saveOptions);
 
 ## OdtSaveOptions(string) {#constructor_2}
 
-初始化此类的新实例，该实例可用于以Odt格式保存文档 用密码加密。
+初始化此类的新实例，该实例可用于将文档保存在Odt format 使用密码加密。
 
 ```csharp
 public OdtSaveOptions(string password)
@@ -56,7 +56,7 @@ public OdtSaveOptions(string password)
 
 ## OdtSaveOptions(SaveFormat) {#constructor_1}
 
-初始化此类的新实例，该实例可用于将文档保存在Odt或 Ott格式。
+初始化此类的新实例，该实例可用于将文档保存在Odtor Ott格式.
 
 ```csharp
 public OdtSaveOptions(SaveFormat saveFormat)
@@ -64,7 +64,7 @@ public OdtSaveOptions(SaveFormat saveFormat)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| saveFormat | SaveFormat | 可以是Odt或Ott。 |
+| saveFormat | SaveFormat | 可Odt或者Ott. |
 
 ### 例子
 
@@ -75,23 +75,23 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world!");
 
-// 创建一个新的 OdtSaveOptions，并传递“SaveFormat.Odt”,
- // 或“SaveFormat.Ott”作为保存文档的格式。
+// 创建一个新的 OdtSaveOptions，并传递“SaveFormat.Odt”，
+// 或“SaveFormat.Ott”作为保存文档的格式。 
 OdtSaveOptions saveOptions = new OdtSaveOptions(saveFormat);
 saveOptions.Password = "@sposeEncrypted_1145";
 
 string extensionString = FileFormatUtil.SaveFormatToExtension(saveFormat);
 
- // 如果我们用合适的编辑器打开这个文档，
- // 它会提示我们输入我们在 SaveOptions 对象中指定的密码。
+// 如果我们用合适的编辑器打开这个文档，
+// 它将提示我们输入在 SaveOptions 对象中指定的密码。
 doc.Save(ArtifactsDir + "OdtSaveOptions.Encrypt" + extensionString, saveOptions);
 
 FileFormatInfo docInfo = FileFormatUtil.DetectFileFormat(ArtifactsDir + "OdtSaveOptions.Encrypt" + extensionString);
 
 Assert.IsTrue(docInfo.IsEncrypted);
 
- // 如果我们希望再次使用 Aspose.Words 打开或编辑此文档，
- // 我们必须为加载构造函数提供一个带有正确密码的 LoadOptions 对象。
+// 如果我们希望再次使用 Aspose.Words 打开或编辑此文档，
+// 我们必须为加载构造函数提供一个带有正确密码的 LoadOptions 对象。
 doc = new Document(ArtifactsDir + "OdtSaveOptions.Encrypt" + extensionString,
     new LoadOptions("@sposeEncrypted_1145"));
 

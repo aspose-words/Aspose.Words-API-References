@@ -1,14 +1,14 @@
 ---
 title: SetData
 second_title: Справочник по API Aspose.Words для .NET
-description: Устанавливает предоставленные пользователем данные об используемом ресурсе ifResourceLoadingaspose.words.loading/iresourceloadingcallback/resourceloading возвращаетUserProvided.
+description: Устанавливает предоставленные пользователем данные ресурса который используется  еслиResourceLoadingaspose.words.loading/iresourceloadingcallback/resourceloading возвращаетUserProvided .
 type: docs
 weight: 40
 url: /ru/net/aspose.words.loading/resourceloadingargs/setdata/
 ---
 ## ResourceLoadingArgs.SetData method
 
-Устанавливает предоставленные пользователем данные об используемом ресурсе if[`ResourceLoading`](../../iresourceloadingcallback/resourceloading) возвращаетUserProvided.
+Устанавливает предоставленные пользователем данные ресурса, который используется , если[`ResourceLoading`](../../iresourceloadingcallback/resourceloading) возвращаетUserProvided .
 
 ```csharp
 public void SetData(byte[] data)

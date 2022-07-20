@@ -1,14 +1,14 @@
 ---
 title: FieldNameNoPrefix
 second_title: Aspose.Words for .NET API 参考
-description: 仅返回数据字段的名称任何前缀都被剥离到前缀属性
+description: 仅返回数据字段的名称任何前缀都被剥离到前缀属性.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.fields/fieldmergefield/fieldnamenoprefix/
 ---
 ## FieldMergeField.FieldNameNoPrefix property
 
-仅返回数据字段的名称。任何前缀都被剥离到前缀属性。
+仅返回数据字段的名称。任何前缀都被剥离到前缀属性.
 
 ```csharp
 public string FieldNameNoPrefix { get; }
@@ -16,7 +16,7 @@ public string FieldNameNoPrefix { get; }
 
 ### 例子
 
-显示如何使用 MERGEFIELD 字段来执行邮件合并。
+展示如何使用 MERGEFIELD 字段来执行邮件合并。
 
 ```csharp
 Document doc = new Document();

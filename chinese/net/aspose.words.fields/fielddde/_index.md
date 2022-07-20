@@ -3,7 +3,7 @@ title: FieldDde
 second_title: Aspose.Words for .NET API 参考
 description: 实现 DDE 字段
 type: docs
-weight: 1590
+weight: 1630
 url: /zh/net/aspose.words.fields/fielddde/
 ---
 ## FieldDde class
@@ -24,21 +24,21 @@ public class FieldDde : Field
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AutoUpdate](../../aspose.words.fields/fielddde/autoupdate) { get; set; } | 获取或设置是否自动更新该字段。 |
+| [AutoUpdate](../../aspose.words.fields/fielddde/autoupdate) { get; set; } | 获取或设置是否自动更新该字段 |
 | [DisplayResult](../../aspose.words.fields/field/displayresult) { get; } | 获取表示显示字段结果的文本。 |
-| [End](../../aspose.words.fields/field/end) { get; } | 获取表示字段结束的节点。 |
-| [Format](../../aspose.words.fields/field/format) { get; } | 获取[`FieldFormat`](../fieldformat)对象，该对象提供对字段格式的类型化访问。 |
+| [End](../../aspose.words.fields/field/end) { get; } | 获取代表字段end的节点。 |
+| [Format](../../aspose.words.fields/field/format) { get; } | 得到一个[`FieldFormat`](../fieldformat)提供对字段格式的类型化访问的对象。 |
 | [InsertAsBitmap](../../aspose.words.fields/fielddde/insertasbitmap) { get; set; } | 获取或设置是否将链接对象作为位图插入。 |
-| [InsertAsHtml](../../aspose.words.fields/fielddde/insertashtml) { get; set; } | 获取或设置是否将链接对象作为 HTML 格式文本插入。 |
-| [InsertAsPicture](../../aspose.words.fields/fielddde/insertaspicture) { get; set; } | 获取或设置是否将链接对象作为图片插入。 |
+| [InsertAsHtml](../../aspose.words.fields/fielddde/insertashtml) { get; set; } | 获取或设置是否将链接对象作为HTML格式文本插入。 |
+| [InsertAsPicture](../../aspose.words.fields/fielddde/insertaspicture) { get; set; } | 获取或设置是否将链接对象插入为图片。 |
 | [InsertAsRtf](../../aspose.words.fields/fielddde/insertasrtf) { get; set; } | 获取或设置是否以 RTF 格式插入链接对象。 |
 | [InsertAsText](../../aspose.words.fields/fielddde/insertastext) { get; set; } | 获取或设置是否以纯文本格式插入链接对象。 |
-| [InsertAsUnicode](../../aspose.words.fields/fielddde/insertasunicode) { get; set; } | 获取或设置是否将链接对象作为 Unicode 文本插入。 |
+| [InsertAsUnicode](../../aspose.words.fields/fielddde/insertasunicode) { get; set; } | 获取或设置是否将链接对象作为Unicode文本插入。 |
 | [IsDirty](../../aspose.words.fields/field/isdirty) { get; set; } | 获取或设置字段的当前结果是否由于对文档的其他修改而不再正确（陈旧）。 |
-| [IsLinked](../../aspose.words.fields/fielddde/islinked) { get; set; } | 获取或设置是否通过不在文档中存储图形数据来减小文件大小。 |
+| [IsLinked](../../aspose.words.fields/fielddde/islinked) { get; set; } | 获取或设置是否通过不随文档存储图形数据来减小文件大小。 |
 | [IsLocked](../../aspose.words.fields/field/islocked) { get; set; } | 获取或设置字段是否被锁定（不应重新计算其结果）。 |
-| [LocaleId](../../aspose.words.fields/field/localeid) { get; set; } | 获取或设置字段的 LCID。 |
-| [ProgId](../../aspose.words.fields/fielddde/progid) { get; set; } | 获取或设置链接信息的应用类型。 |
+| [LocaleId](../../aspose.words.fields/field/localeid) { get; set; } | 获取或设置字段的LCID。 |
+| [ProgId](../../aspose.words.fields/fielddde/progid) { get; set; } | 获取或设置链接信息的应用类型 |
 | [Result](../../aspose.words.fields/field/result) { get; set; } | 获取或设置字段分隔符和字段结尾之间的文本。 |
 | [Separator](../../aspose.words.fields/field/separator) { get; } | 获取表示字段分隔符的节点。可以为空。 |
 | [SourceFullName](../../aspose.words.fields/fielddde/sourcefullname) { get; set; } | 获取或设置源文件的名称和位置。 |
@@ -50,9 +50,9 @@ public class FieldDde : Field
 
 | 姓名 | 描述 |
 | --- | --- |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode)() | 返回字段开始和字段分隔符之间的文本（如果没有分隔符，则返回字段结束）。 包含子字段的字段代码和字段结果。 |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode)() | 返回字段开始和字段分隔符之间的文本（或字段结束，如果没有分隔符）。 包括子字段的字段代码和字段结果。 |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode)(bool) | 返回字段开始和字段分隔符之间的文本（如果没有分隔符，则返回字段结束）。 |
-| [Remove](../../aspose.words.fields/field/remove)() | 从文档中删除字段。在字段之后返回一个节点。如果字段的结尾是其父节点的最后一个子 ，则返回其父段落。如果该字段已被删除，则返回 **null** 。 |
+| [Remove](../../aspose.words.fields/field/remove)() | 从文档中删除字段。在字段之后返回一个节点。如果字段的结尾是其父节点的最后一个 child ，则返回其父段落。如果该字段已被删除，则返回 **无效的**. |
 | [Unlink](../../aspose.words.fields/field/unlink)() | 执行字段取消链接。 |
 | [Update](../../aspose.words.fields/field/update)() | 执行字段更新。如果该字段已被更新，则抛出。 |
 | [Update](../../aspose.words.fields/field/update)(bool) | 执行字段更新。如果该字段已被更新，则抛出。 |
@@ -63,7 +63,7 @@ public class FieldDde : Field
 
 ### 例子
 
-演示如何使用各种字段类型链接到本地文件系统中的其他文档，并显示其内容。
+展示如何使用各种字段类型链接到本地文件系统中的其他文档，并显示其内容。
 
 ```csharp
 {

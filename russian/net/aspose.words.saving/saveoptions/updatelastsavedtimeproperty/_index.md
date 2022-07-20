@@ -1,14 +1,14 @@
 ---
 title: UpdateLastSavedTimeProperty
 second_title: Справочник по API Aspose.Words для .NET
-description: Получает или задает значение определяющее обновляется ли свойствоLastSavedTimeaspose.words.properties/builtindocumentproperties/lastsavedtimeперед сохранением.
+description: Получает или задает значение определяющееLastSavedTimeaspose.words.properties/builtindocumentproperties/lastsavedtime свойство обновляется перед сохранением.
 type: docs
 weight: 190
 url: /ru/net/aspose.words.saving/saveoptions/updatelastsavedtimeproperty/
 ---
 ## SaveOptions.UpdateLastSavedTimeProperty property
 
-Получает или задает значение, определяющее, обновляется ли свойство[`LastSavedTime`](../../../aspose.words.properties/builtindocumentproperties/lastsavedtime)перед сохранением.
+Получает или задает значение, определяющее,[`LastSavedTime`](../../../aspose.words.properties/builtindocumentproperties/lastsavedtime) свойство обновляется перед сохранением.
 
 ```csharp
 public bool UpdateLastSavedTimeProperty { get; set; }

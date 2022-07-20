@@ -1,14 +1,14 @@
 ---
 title: ScanSubfolders
 second_title: Справочник по API Aspose.Words для .NET
-description: Определяет сканировать ли вложенные папки.
+description: Определяет сканировать ли подпапки.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.fonts/folderfontsource/scansubfolders/
 ---
 ## FolderFontSource.ScanSubfolders property
 
-Определяет, сканировать ли вложенные папки.
+Определяет, сканировать ли подпапки.
 
 ```csharp
 public bool ScanSubfolders { get; }

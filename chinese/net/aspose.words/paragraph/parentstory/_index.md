@@ -1,14 +1,14 @@
 ---
 title: ParentStory
 second_title: Aspose.Words for .NET API 参考
-description: 检索可以是Bodyaspose.words/body或HeaderFooter
+description: 检索父节级故事可以Bodyaspose.words/body或者HeaderFooteraspose.words/headerfooter.
 type: docs
 weight: 210
 url: /zh/net/aspose.words/paragraph/parentstory/
 ---
 ## Paragraph.ParentStory property
 
-检索可以是[`Body`](../../body)或HeaderFooter。
+检索父节级故事，可以[`Body`](../../body)或者[`HeaderFooter`](../../headerfooter).
 
 ```csharp
 public Story ParentStory { get; }

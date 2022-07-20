@@ -1,14 +1,14 @@
 ---
 title: DisplayText
 second_title: Справочник по API Aspose.Words для .NET
-description: Получает текст для отображения в содержимом запуска вместо содержимого атрибутаValueaspose.words.markup/sdtlistitem/valueдля этот элемент списка.
+description: Получает текст для отображения в содержимом выполнения вместоValueaspose.words.markup/sdtlistitem/value содержимое атрибута для этого элемента списка.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.markup/sdtlistitem/displaytext/
 ---
 ## SdtListItem.DisplayText property
 
-Получает текст для отображения в содержимом запуска вместо содержимого атрибута[`Value`](../value)для этот элемент списка.
+Получает текст для отображения в содержимом выполнения вместо[`Value`](../value) содержимое атрибута для этого элемента списка.
 
 ```csharp
 public string DisplayText { get; }
@@ -20,7 +20,7 @@ public string DisplayText { get; }
 
 ### Примеры
 
-Показывает, как работать со структурированными тегами выпадающего списка.
+Показывает, как работать с тегами структурированного документа с раскрывающимся списком.
 
 ```csharp
 Document doc = new Document();

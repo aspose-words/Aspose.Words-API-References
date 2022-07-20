@@ -1,14 +1,14 @@
 ---
 title: DocumentDirection
 second_title: Справочник по API Aspose.Words для .NET
-description: Позволяет указать направление потока текста в документе.
+description: Позволяет указать направление текста в документе.
 type: docs
-weight: 3330
+weight: 3380
 url: /ru/net/aspose.words.loading/documentdirection/
 ---
 ## DocumentDirection enumeration
 
-Позволяет указать направление потока текста в документе.
+Позволяет указать направление текста в документе.
 
 ```csharp
 public enum DocumentDirection

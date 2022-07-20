@@ -1,14 +1,14 @@
 ---
 title: IsExportNeeded
 second_title: Справочник по API Aspose.Words для .NET
-description: Позволяет указать будет ли текущий шрифт экспортироваться как ресурс шрифта. Значение по умолчанию true .
+description: Позволяет указать будет ли текущий шрифт экспортироваться как ресурс шрифта. По умолчаниюистинный .
 type: docs
 weight: 60
 url: /ru/net/aspose.words.saving/fontsavingargs/isexportneeded/
 ---
 ## FontSavingArgs.IsExportNeeded property
 
-Позволяет указать, будет ли текущий шрифт экспортироваться как ресурс шрифта. Значение по умолчанию:` true` .
+Позволяет указать, будет ли текущий шрифт экспортироваться как ресурс шрифта. По умолчанию`истинный` .
 
 ```csharp
 public bool IsExportNeeded { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: AlternateText
 second_title: Справочник по API Aspose.Words для .NET
-description: Получает или задает текст для включения в поле если имя пустое.
+description: Получает или задает текст для включения в поле если имя пусто.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.fields/fieldgreetingline/alternatetext/
 ---
 ## FieldGreetingLine.AlternateText property
 
-Получает или задает текст для включения в поле, если имя пустое.
+Получает или задает текст для включения в поле, если имя пусто.
 
 ```csharp
 public string AlternateText { get; set; }

@@ -20,7 +20,7 @@ public float Resolution { set; }
 
 ### 例子
 
-显示如何在将文档呈现为 PNG 时指定分辨率。
+演示如何在将文档呈现为 PNG 时指定分辨率。
 
 ```csharp
 Document doc = new Document();

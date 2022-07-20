@@ -18,7 +18,7 @@ public string SourceItem { get; set; }
 
 默认值为空字符串。
 
-例如，如果源文件是 Microsoft Excel 工作簿，则`SourceItem`:如果 OLE 对象仅包含 工作表中的几个单元格，属性可能会返回“Workbook1!R3C1:R4C2”。
+例如，如果源文件是 Microsoft Excel 工作簿，则`SourceItem`如果 OLE 对象仅包含 工作表中的几个单元格， 属性可能会返回“Workbook1!R3C1:R4C2”。
 
 ### 例子
 

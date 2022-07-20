@@ -3,7 +3,7 @@ title: PdfTextCompression
 second_title: Aspose.Words for .NET API 参考
 description: 指定应用于 PDF 文件中除图像之外的所有内容的压缩类型
 type: docs
-weight: 5200
+weight: 5250
 url: /zh/net/aspose.words.saving/pdftextcompression/
 ---
 ## PdfTextCompression enumeration
@@ -23,7 +23,7 @@ public enum PdfTextCompression
 
 ### 例子
 
-显示将文档保存为 PDF 时如何应用文本压缩。
+显示在将文档保存为 PDF 时如何应用文本压缩。
 
 ```csharp
 Document doc = new Document();

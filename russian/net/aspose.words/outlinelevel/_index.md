@@ -3,7 +3,7 @@ title: OutlineLevel
 second_title: Справочник по API Aspose.Words для .NET
 description: Указывает уровень структуры абзаца в документе.
 type: docs
-weight: 4040
+weight: 4090
 url: /ru/net/aspose.words/outlinelevel/
 ---
 ## OutlineLevel enumeration

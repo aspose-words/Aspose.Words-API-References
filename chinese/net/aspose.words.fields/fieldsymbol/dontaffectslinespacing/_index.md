@@ -8,7 +8,7 @@ url: /zh/net/aspose.words.fields/fieldsymbol/dontaffectslinespacing/
 ---
 ## FieldSymbol.DontAffectsLineSpacing property
 
-获取或设置字段检索到的字符是否影响段落的行距。
+获取或设置字段检索到的字符是否影响段落的行距
 
 ```csharp
 public bool DontAffectsLineSpacing { get; set; }

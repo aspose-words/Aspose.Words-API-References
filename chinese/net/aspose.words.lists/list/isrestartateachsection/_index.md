@@ -1,14 +1,14 @@
 ---
 title: IsRestartAtEachSection
 second_title: Aspose.Words for .NET API 参考
-description: 指定列表是否应在每个部分重新启动 默认值为 false 
+description: 指定是否应在每个部分重新启动列表 默认值为 错误的.
 type: docs
 weight: 50
 url: /zh/net/aspose.words.lists/list/isrestartateachsection/
 ---
 ## List.IsRestartAtEachSection property
 
-指定列表是否应在每个部分重新启动。 默认值为 **false** 。
+指定是否应在每个部分重新启动列表。 默认值为 **错误的**.
 
 ```csharp
 public bool IsRestartAtEachSection { get; set; }
@@ -18,7 +18,7 @@ public bool IsRestartAtEachSection { get; set; }
 
 此选项仅在 RTF、DOC 和 DOCX 文档格式中受支持。
 
-仅当[`OoxmlCompliance`](../../../aspose.words.saving/ooxmlcompliance)高于:::R5 时，此选项才会写入 DOCX:F:Aspose.Words.Saving.OoxmlCompliance.Ecma376_2006:::。
+只有在以下情况下，此选项才会写入 DOCX[`OoxmlCompliance`](../../../aspose.words.saving/ooxmlcompliance)高于Ecma376_2006.
 
 ### 例子
 

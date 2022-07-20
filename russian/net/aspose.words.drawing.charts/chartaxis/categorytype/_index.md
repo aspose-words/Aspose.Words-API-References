@@ -16,7 +16,7 @@ public AxisCategoryType CategoryType { get; set; }
 
 ### Примечания
 
-Только текстовые категории (Category) разрешены в новых диаграммах MS Office 2016.
+Только текстовые категории (Category ) разрешены в новых диаграммах MS Office 2016.
 
 ### Примеры
 

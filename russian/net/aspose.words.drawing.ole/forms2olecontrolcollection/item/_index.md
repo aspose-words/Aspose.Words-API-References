@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Справочник по API Aspose.Words для .NET
-description: Получает объектForms2OleControlaspose.words.drawing.ole/forms2olecontrolпо указанному индексу.
+description: получаетForms2OleControlaspose.words.drawing.ole/forms2olecontrolобъект по указанному индексу.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.drawing.ole/forms2olecontrolcollection/item/
 ---
 ## Forms2OleControlCollection indexer
 
-Получает объект[`Forms2OleControl`](../../forms2olecontrol)по указанному индексу.
+получает[`Forms2OleControl`](../../forms2olecontrol)объект по указанному индексу.
 
 ```csharp
 public Forms2OleControl this[int index] { get; }

@@ -1,14 +1,14 @@
 ---
 title: Add
 second_title: Aspose.Words for .NET API 参考
-description: 将项目添加到集合中
+description: 将一个项目添加到集合中
 type: docs
 weight: 40
 url: /zh/net/aspose.words.markup/customxmlpartcollection/add/
 ---
 ## Add(CustomXmlPart) {#add_1}
 
-将项目添加到集合中。
+将一个项目添加到集合中。
 
 ```csharp
 public void Add(CustomXmlPart part)
@@ -101,12 +101,12 @@ public CustomXmlPart Add(string id, string xml)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| id | String | 新自定义 XML 部件的标识符。 |
+| id | String | 新的自定义 XML 部件的标识符。 |
 | xml | String | 零件的 XML 数据。 |
 
 ### 返回值
 
-创建自定义 XML 部件。
+创建自定义 XML 部分。
 
 ### 例子
 

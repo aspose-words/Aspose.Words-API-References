@@ -1,14 +1,14 @@
 ---
 title: TableContentAlignment
 second_title: Справочник по API Aspose.Words для .NET
-description: Получает или задает значение указывающее как выравнивать содержимое в таблицах при экспорте вMarkdown. Значение по умолчаниюAuto.
+description: Получает или задает значение указывающее как выравнивать содержимое в таблицах при экспорте вMarkdown format. Значение по умолчаниюAuto .
 type: docs
 weight: 60
 url: /ru/net/aspose.words.saving/markdownsaveoptions/tablecontentalignment/
 ---
 ## MarkdownSaveOptions.TableContentAlignment property
 
-Получает или задает значение, указывающее, как выравнивать содержимое в таблицах при экспорте вMarkdown. Значение по умолчанию:Auto.
+Получает или задает значение, указывающее, как выравнивать содержимое в таблицах при экспорте вMarkdown format. Значение по умолчанию:Auto .
 
 ```csharp
 public TableContentAlignment TableContentAlignment { get; set; }

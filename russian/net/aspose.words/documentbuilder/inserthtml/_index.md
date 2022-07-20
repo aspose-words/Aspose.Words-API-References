@@ -27,70 +27,38 @@ public void InsertHtml(string html)
 Показывает, как использовать конструктор документов для вставки содержимого HTML в документ.
 
 ```csharp
-public void MergeHtml()
-{
-    Document doc = new Document();
-    DocumentBuilder builder = new DocumentBuilder(doc);
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
 
-    builder.InsertField(@"MERGEFIELD  html_Title  \b Content");
-    builder.InsertField(@"MERGEFIELD  html_Body  \b Content");
+const string html = "<p align='right'>Paragraph right</p>" + 
+                    "<b>Implicit paragraph left</b>" +
+                    "<div align='center'>Div center</div>" + 
+                    "<h1 align='left'>Heading 1 left.</h1>";
 
-    object[] mergeData =
-    {
-        "<html>" +
-            "<h1>" +
-                "<span style=\"color: #0000ff; font-family: Arial;\">Hello World!</span>" +
-            "</h1>" +
-        "</html>", 
+builder.InsertHtml(html);
 
-        "<html>" +
-            "<blockquote>" +
-                "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>" +
-            "</blockquote>" +
-        "</html>"
-    };
+// При вставке HTML-кода форматирование каждого элемента преобразуется в эквивалентное форматирование текста документа.
+ParagraphCollection paragraphs = doc.FirstSection.Body.Paragraphs;
 
-    doc.MailMerge.FieldMergingCallback = new HandleMergeFieldInsertHtml();
-    doc.MailMerge.Execute(new[] { "html_Title", "html_Body" }, mergeData);
+Assert.AreEqual("Paragraph right", paragraphs[0].GetText().Trim());
+Assert.AreEqual(ParagraphAlignment.Right, paragraphs[0].ParagraphFormat.Alignment);
 
-    doc.Save(ArtifactsDir + "MailMergeEvent.MergeHtml.docx");
-}
+Assert.AreEqual("Implicit paragraph left", paragraphs[1].GetText().Trim());
+Assert.AreEqual(ParagraphAlignment.Left, paragraphs[1].ParagraphFormat.Alignment);
+Assert.True(paragraphs[1].Runs[0].Font.Bold);
 
-/// <summary>
- /// Если слияние почты встречает MERGEFIELD, имя которого начинается с префикса "html_", 
- /// этот обратный вызов анализирует свои данные слияния как содержимое HTML и добавляет результат в расположение документа MERGEFIELD.
-/// </summary>
-private class HandleMergeFieldInsertHtml : IFieldMergingCallback
-{
-    /// <summary>
-     /// Вызывается, когда слияние почты объединяет данные в MERGEFIELD.
-    /// </summary>
-    void IFieldMergingCallback.FieldMerging(FieldMergingArgs args)
-    {
-        if (args.DocumentFieldName.StartsWith("html_") && args.Field.GetFieldCode().Contains("\\b"))
-        {
-             // Добавляем проанализированные HTML-данные в тело документа.
-            DocumentBuilder builder = new DocumentBuilder(args.Document);
-            builder.MoveToMergeField(args.DocumentFieldName);
-            builder.InsertHtml((string)args.FieldValue);
+Assert.AreEqual("Div center", paragraphs[2].GetText().Trim());
+Assert.AreEqual(ParagraphAlignment.Center, paragraphs[2].ParagraphFormat.Alignment);
 
-             // Поскольку мы уже вставили объединенный контент вручную, 
-             // нам не нужно будет реагировать на это событие, возвращая содержимое через свойство «Текст». 
-            args.Text = string.Empty;
-        }
-    }
+Assert.AreEqual("Heading 1 left.", paragraphs[3].GetText().Trim());
+Assert.AreEqual("Heading 1", paragraphs[3].ParagraphFormat.Style.Name);
 
-    void IFieldMergingCallback.ImageFieldMerging(ImageFieldMergingArgs args)
-    {
-         // Ничего не делать.
-    }
-}
+doc.Save(ArtifactsDir + "DocumentBuilder.InsertHtml.docx");
 ```
 
-Показывает, как выполнить слияние почты с настраиваемым обратным вызовом, который обрабатывает данные слияния в виде HTML-документов.
+Показывает, как выполнить слияние почты с помощью пользовательского обратного вызова, который обрабатывает данные слияния в виде HTML-документов.
 
 ```csharp
-public void MergeHtml()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -120,32 +88,32 @@ public void MergeHtml()
 }
 
 /// <summary>
- /// Если слияние почты встречает MERGEFIELD, имя которого начинается с префикса "html_", 
- /// этот обратный вызов анализирует свои данные слияния как содержимое HTML и добавляет результат в расположение документа MERGEFIELD.
+/// Если слияние почты встречает MERGEFIELD, имя которого начинается с префикса "html_",
+/// этот обратный вызов анализирует свои данные слияния как содержимое HTML и добавляет результат в расположение документа MERGEFIELD.
 /// </summary>
 private class HandleMergeFieldInsertHtml : IFieldMergingCallback
 {
     /// <summary>
-     /// Вызывается, когда слияние почты объединяет данные в MERGEFIELD.
+    /// Вызывается, когда слияние почты объединяет данные в MERGEFIELD.
     /// </summary>
     void IFieldMergingCallback.FieldMerging(FieldMergingArgs args)
     {
         if (args.DocumentFieldName.StartsWith("html_") && args.Field.GetFieldCode().Contains("\\b"))
         {
-             // Добавляем проанализированные HTML-данные в тело документа.
+            // Добавляем проанализированные HTML-данные в тело документа.
             DocumentBuilder builder = new DocumentBuilder(args.Document);
             builder.MoveToMergeField(args.DocumentFieldName);
             builder.InsertHtml((string)args.FieldValue);
 
-             // Поскольку мы уже вставили объединенный контент вручную, 
-             // нам не нужно будет реагировать на это событие, возвращая содержимое через свойство «Текст». 
+            // Так как мы уже вставили объединенный контент вручную,
+             // нам не нужно будет реагировать на это событие, возвращая содержимое через свойство «Текст».
             args.Text = string.Empty;
         }
     }
 
     void IFieldMergingCallback.ImageFieldMerging(ImageFieldMergingArgs args)
     {
-         // Ничего не делать.
+        // Ничего не делать.
     }
 }
 ```
@@ -173,11 +141,11 @@ public void InsertHtml(string html, bool useBuilderFormatting)
 
 ### Примечания
 
-Этот метод можно использовать для вставки фрагмента HTML или всего HTML-документ.
+Этот метод можно использовать для вставки фрагмента HTML или всего документа HTML.
 
-Когда*useBuilderFormatting*is` false` , [`DocumentBuilder`](../../documentbuilder)форматирование игнорируется и форматирование вставляемого текста основано на умолчанию HTML-форматирование. В результате текст выглядит так, как он отображается в браузерах.
+Когда*useBuilderFormatting* является`ЛОЖЬ` , [`DocumentBuilder`](../../documentbuilder) форматирование игнорируется, а форматирование вставленного text основано на форматировании HTML по умолчанию. В результате текст выглядит так, как он отображается в браузерах.
 
-Когда*useBuilderFormatting*is` true` , форматирование вставленного текста основано на[`DocumentBuilder`](../../documentbuilder)форматирование, и текст выглядит так, как будто он был вставлен с помощью[`Write`](../write).
+Когда*useBuilderFormatting* является`истинный` , форматирование вставляемого текста основано на[`DocumentBuilder`](../../documentbuilder) форматирование, и текст выглядит так, как будто он был вставлен с[`Write`](../write) .
 
 ### Примеры
 
@@ -247,10 +215,10 @@ builder.InsertParagraph();
 builder.InsertField(" MERGEFIELD EMAIL ");
 builder.InsertParagraph();
 
- // По умолчанию "DocumentBuilder.InsertHtml" вставляет HTML-фрагмент, который заканчивается HTML-элементом блочного уровня, 
- // обычно он закрывает этот блочный элемент и вставляет разрыв абзаца.
- // В результате после вставленного документа появляется новый пустой абзац.
- // Если мы укажем "HtmlInsertOptions.RemoveLastEmptyParagraph", эти лишние пустые абзацы будут удалены.
+// По умолчанию "DocumentBuilder.InsertHtml" вставляет HTML-фрагмент, который заканчивается HTML-элементом блочного уровня,
+// обычно он закрывает этот блочный элемент и вставляет разрыв абзаца.
+// В результате после вставленного документа появляется новый пустой абзац.
+// Если мы укажем "HtmlInsertOptions.RemoveLastEmptyParagraph", эти лишние пустые абзацы будут удалены.
 builder.MoveToMergeField("NAME");
 builder.InsertHtml("<p>John Smith</p>", HtmlInsertOptions.UseBuilderFormatting | HtmlInsertOptions.RemoveLastEmptyParagraph);
 builder.MoveToMergeField("EMAIL");

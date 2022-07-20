@@ -1,14 +1,14 @@
 ---
 title: DocumentReaderPluginLoadException
 second_title: Справочник по API Aspose.Words для .NET
-description: Выбрасывается во время загрузки документа когда плагин необходимый для чтения формата документа не может быть загружен.
+description: Выдается при загрузке документа когда не удается загрузить плагин необходимый для чтения формата документа.
 type: docs
 weight: 450
 url: /ru/net/aspose.words/documentreaderpluginloadexception/
 ---
 ## DocumentReaderPluginLoadException class
 
-Выбрасывается во время загрузки документа, когда плагин, необходимый для чтения формата документа, не может быть загружен.
+Выдается при загрузке документа, когда не удается загрузить плагин, необходимый для чтения формата документа.
 
 ```csharp
 public class DocumentReaderPluginLoadException : Exception

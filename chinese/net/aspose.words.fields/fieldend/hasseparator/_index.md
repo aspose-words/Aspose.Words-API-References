@@ -1,14 +1,14 @@
 ---
 title: HasSeparator
 second_title: Aspose.Words for .NET API 参考
-description: 返回 true 如果此字段有分隔符
+description: 返回 真的如果此字段有分隔符
 type: docs
 weight: 10
 url: /zh/net/aspose.words.fields/fieldend/hasseparator/
 ---
 ## FieldEnd.HasSeparator property
 
-返回 **true** 如果此字段有分隔符。
+返回 **真的**如果此字段有分隔符。
 
 ```csharp
 public bool HasSeparator { get; }

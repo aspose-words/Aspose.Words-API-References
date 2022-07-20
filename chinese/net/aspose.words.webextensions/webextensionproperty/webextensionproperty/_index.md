@@ -17,7 +17,7 @@ public WebExtensionProperty(string name, string value)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | name | String | 属性名称。 |
-| value | String | 属性值。 |
+| value | String | 适当的价值。 |
 
 ### 例子
 

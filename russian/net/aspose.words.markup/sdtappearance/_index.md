@@ -3,7 +3,7 @@ title: SdtAppearance
 second_title: Справочник по API Aspose.Words для .NET
 description: Задает внешний вид тега структурированного документа.
 type: docs
-weight: 3700
+weight: 3750
 url: /ru/net/aspose.words.markup/sdtappearance/
 ---
 ## SdtAppearance enumeration
@@ -21,7 +21,7 @@ public enum SdtAppearance
 | BoundingBox | `0` | Представляет тег структурированного документа, отображаемый в виде заштрихованного прямоугольника или ограничивающей рамки. |
 | Tags | `1` | Представляет тег структурированного документа, отображаемый в виде начального и конечного маркеров. |
 | Hidden | `2` | Представляет тег структурированного документа, который не отображается. |
-| Default | `0` | По умолчаниюBoundingBox. |
+| Default | `0` | По умолчаниюBoundingBox . |
 
 ### Смотрите также
 

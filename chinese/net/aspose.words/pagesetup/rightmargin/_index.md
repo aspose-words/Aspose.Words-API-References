@@ -1,14 +1,14 @@
 ---
 title: RightMargin
 second_title: Aspose.Words for .NET API 参考
-description: 返回或设置页面右边缘与正文右边界之间的距离以磅为单位
+description: 返回或设置页面右边缘和正文右边界之间的距离以磅为单位
 type: docs
 weight: 360
 url: /zh/net/aspose.words/pagesetup/rightmargin/
 ---
 ## PageSetup.RightMargin property
 
-返回或设置页面右边缘与正文右边界之间的距离（以磅为单位）。
+返回或设置页面右边缘和正文右边界之间的距离（以磅为单位）。
 
 ```csharp
 public double RightMargin { get; set; }

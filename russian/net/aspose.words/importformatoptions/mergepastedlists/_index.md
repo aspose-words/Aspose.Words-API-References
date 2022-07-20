@@ -1,14 +1,14 @@
 ---
 title: MergePastedLists
 second_title: Справочник по API Aspose.Words для .NET
-description: Получает или задает логическое значение указывающее будут ли вставленные списки объединяться с окружающими списками. Значение по умолчанию false .
+description: Получает или задает логическое значение указывающее будут ли вставленные списки объединяться с окружающими списками. Значение по умолчаниюЛОЖЬ .
 type: docs
 weight: 60
 url: /ru/net/aspose.words/importformatoptions/mergepastedlists/
 ---
 ## ImportFormatOptions.MergePastedLists property
 
-Получает или задает логическое значение, указывающее, будут ли вставленные списки объединяться с окружающими списками. Значение по умолчанию:` false` .
+Получает или задает логическое значение, указывающее, будут ли вставленные списки объединяться с окружающими списками. Значение по умолчанию:`ЛОЖЬ` .
 
 ```csharp
 public bool MergePastedLists { get; set; }
@@ -16,7 +16,7 @@ public bool MergePastedLists { get; set; }
 
 ### Примеры
 
-Показывает, как объединять списки из документов.
+Показывает, как объединить списки из документов.
 
 ```csharp
 Document srcDoc = new Document(MyDir + "List item.docx");

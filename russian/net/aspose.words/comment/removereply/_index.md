@@ -24,7 +24,7 @@ public void RemoveReply(Comment reply)
 
 ### Примеры
 
-Показывает, как удалять ответы на комментарии.
+Показывает, как удалить ответы на комментарии.
 
 ```csharp
 Document doc = new Document();
@@ -39,13 +39,13 @@ comment.AddReply("Joe Bloggs", "J.B.", DateTime.Now, "Another reply");
 
 Assert.AreEqual(2, comment.Replies.Count()); 
 
- // Ниже приведены два способа удаления ответов из комментария.
- // 1 - Используйте метод "RemoveReply", чтобы удалить ответы из комментария по отдельности:
+// Ниже приведены два способа удаления ответов из комментария.
+// 1 - Используйте метод "RemoveReply", чтобы удалить ответы из комментария по отдельности:
 comment.RemoveReply(comment.Replies[0]);
 
 Assert.AreEqual(1, comment.Replies.Count());
 
- // 2 - Используйте метод "RemoveAllReplies", чтобы сразу удалить все ответы из комментария:
+// 2 - Используйте метод "RemoveAllReplies", чтобы сразу удалить все ответы из комментария:
 comment.RemoveAllReplies();
 
 Assert.AreEqual(0, comment.Replies.Count());

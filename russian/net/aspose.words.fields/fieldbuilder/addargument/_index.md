@@ -308,7 +308,7 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 
 ## AddArgument(FieldBuilder) {#addargument_1}
 
-Добавляет дочернее поле, представленное другим[`FieldBuilder`](../../fieldbuilder)в код поля.
+Добавляет дочернее поле, представленное другим[`FieldBuilder`](../../fieldbuilder) к коду поля.
 
 ```csharp
 public FieldBuilder AddArgument(FieldBuilder argument)
@@ -408,7 +408,7 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 
 ## AddArgument(FieldArgumentBuilder) {#addargument}
 
-Добавляет аргумент поля, представленный[`FieldArgumentBuilder`](../../fieldargumentbuilder)к коду поля.
+Добавляет аргумент поля, представленный[`FieldArgumentBuilder`](../../fieldargumentbuilder) к коду поля.
 
 ```csharp
 public FieldBuilder AddArgument(FieldArgumentBuilder argument)

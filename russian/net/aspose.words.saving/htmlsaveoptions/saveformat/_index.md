@@ -1,14 +1,14 @@
 ---
 title: SaveFormat
 second_title: Справочник по API Aspose.Words для .NET
-description: Указывает формат в котором будет сохранен документ если используется этот объект параметров сохранения. Может бытьHtmlMhtml илиEpub.
+description: Указывает формат в котором документ будет сохранен если используется этот объект параметров сохранения. Может бытьHtml Mhtml илиEpub .
 type: docs
 weight: 440
 url: /ru/net/aspose.words.saving/htmlsaveoptions/saveformat/
 ---
 ## HtmlSaveOptions.SaveFormat property
 
-Указывает формат, в котором будет сохранен документ, если используется этот объект параметров сохранения. Может бытьHtml,Mhtml илиEpub.
+Указывает формат, в котором документ будет сохранен, если используется этот объект параметров сохранения. Может бытьHtml ,Mhtml илиEpub .
 
 ```csharp
 public override SaveFormat SaveFormat { get; set; }

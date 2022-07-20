@@ -1,14 +1,14 @@
 ---
 title: Width
 second_title: Aspose.Words for .NET API 参考
-description: 获取单元格的宽度以磅为单位
+description: 以点为单位获取单元格的宽度
 type: docs
 weight: 130
 url: /zh/net/aspose.words.tables/cellformat/width/
 ---
 ## CellFormat.Width property
 
-获取单元格的宽度（以磅为单位）。
+以点为单位获取单元格的宽度。
 
 ```csharp
 public double Width { get; set; }
@@ -16,9 +16,9 @@ public double Width { get; set; }
 
 ### 评论
 
-宽度由 Aspose.Words 在文档加载和保存。 目前，并非所有表格、单元格和文档属性的组合都受支持。 对于某些文档，返回的值可能不准确。 在 MS Word 中打开文档时，它可能与 MS Word 计算的单元格宽度不完全匹配。
+宽度由Aspose.Words在文档加载和保存时计算。 目前，并非所有表格、单元格和文档属性的组合都受支持。 某些文档的返回值可能不准确。 可能不完全匹配在 MS Word 中打开文档时由 MS Word 计算的单元格宽度。
 
-不建议设置此属性。 不能保证单元格实际上具有设置的宽度。 可以调整宽度以适应自动适应表格布局中的单元格内容。 其他行中的单元格可能有冲突的宽度设置。 表格可以调整大小以适应容器或满足表格宽度设置。 考虑使用[`PreferredWidth`](../preferredwidth)来设置单元格宽度。 设置此属性设置[`PreferredWidth`](../preferredwidth)自 15.8 版以来隐式设置。
+不建议设置此属性。 无法保证单元格实际上具有设置的宽度。 可以调整宽度以适应自动适应表格布局中的单元格内容。 其他行中的单元格可能具有冲突的宽度settings. 可以调整表格的大小以适应容器或满足表格宽度设置。 考虑使用[`PreferredWidth`](../preferredwidth)用于设置单元格宽度。 设置此属性集[`PreferredWidth`](../preferredwidth)从 15.8. 版本开始隐含
 
 ### 例子
 
@@ -28,62 +28,43 @@ public double Width { get; set; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-builder.StartTable();
-
-// 为文档构建器设置表格格式选项
-// 将它们应用于我们添加的每一行和单元格。
-builder.ParagraphFormat.Alignment = ParagraphAlignment.Center;
-
-builder.CellFormat.ClearFormatting();
-builder.CellFormat.Width = 150;
-builder.CellFormat.VerticalAlignment = CellVerticalAlignment.Center;
-builder.CellFormat.Shading.BackgroundPatternColor = Color.GreenYellow;
-builder.CellFormat.WrapText = false;
-builder.CellFormat.FitText = true;
-
-builder.RowFormat.ClearFormatting();
-builder.RowFormat.HeightRule = HeightRule.Exactly;
-builder.RowFormat.Height = 50;
-builder.RowFormat.Borders.LineStyle = LineStyle.Engrave3D;
-builder.RowFormat.Borders.Color = Color.Orange;
-
+Table table = builder.StartTable();
 builder.InsertCell();
-builder.Write("Row 1, Col 1");
+builder.Write("Row 1, cell 1.");
 
+// 插入第二个单元格，然后配置单元格文本填充选项。
+// 构建器将在其当前单元格中应用这些设置，然后创建任何新单元格。
 builder.InsertCell();
-builder.Write("Row 1, Col 2");
-builder.EndRow();
 
-// 更改格式会将其应用到当前单元格，
-// 以及我们之后使用构建器创建的任何新单元格。
-// 这不会影响我们之前添加的单元格。
-builder.CellFormat.Shading.ClearFormatting();
+CellFormat cellFormat = builder.CellFormat;
+cellFormat.Width = 250;
+cellFormat.LeftPadding = 30;
+cellFormat.RightPadding = 30;
+cellFormat.TopPadding = 30;
+cellFormat.BottomPadding = 30;
 
-builder.InsertCell();
-builder.Write("Row 2, Col 1");
-
-builder.InsertCell();
-builder.Write("Row 2, Col 2");
-
-builder.EndRow();
-
-// 增加行高以适应垂直文本。
-builder.InsertCell();
-builder.RowFormat.Height = 150;
-builder.CellFormat.Orientation = TextOrientation.Upward;
-builder.Write("Row 3, Col 1");
-
-builder.InsertCell();
-builder.CellFormat.Orientation = TextOrientation.Downward;
-builder.Write("Row 3, Col 2");
-
+builder.Write("Row 1, cell 2.");
 builder.EndRow();
 builder.EndTable();
 
-doc.Save(ArtifactsDir + "DocumentBuilder.InsertTable.docx");
+// 第一个单元格不受填充重新配置的影响，仍然保持默认值。
+Assert.AreEqual(0.0d, table.FirstRow.Cells[0].CellFormat.Width);
+Assert.AreEqual(5.4d, table.FirstRow.Cells[0].CellFormat.LeftPadding);
+Assert.AreEqual(5.4d, table.FirstRow.Cells[0].CellFormat.RightPadding);
+Assert.AreEqual(0.0d, table.FirstRow.Cells[0].CellFormat.TopPadding);
+Assert.AreEqual(0.0d, table.FirstRow.Cells[0].CellFormat.BottomPadding);
+
+Assert.AreEqual(250.0d, table.FirstRow.Cells[1].CellFormat.Width);
+Assert.AreEqual(30.0d, table.FirstRow.Cells[1].CellFormat.LeftPadding);
+Assert.AreEqual(30.0d, table.FirstRow.Cells[1].CellFormat.RightPadding);
+Assert.AreEqual(30.0d, table.FirstRow.Cells[1].CellFormat.TopPadding);
+Assert.AreEqual(30.0d, table.FirstRow.Cells[1].CellFormat.BottomPadding);
+
+// 第一个单元格仍将在输出文档中增长以匹配其相邻单元格的大小。
+doc.Save(ArtifactsDir + "DocumentBuilder.SetCellFormatting.docx");
 ```
 
-显示如何构建具有自定义边框的表格。
+演示如何构建具有自定义边框的表格。
 
 ```csharp
 Document doc = new Document();

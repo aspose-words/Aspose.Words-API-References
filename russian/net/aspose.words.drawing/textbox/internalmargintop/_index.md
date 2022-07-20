@@ -1,14 +1,14 @@
 ---
 title: InternalMarginTop
 second_title: Справочник по API Aspose.Words для .NET
-description: Задает внутреннее верхнее поле в точках для фигуры.
+description: Указывает внутреннее верхнее поле в пунктах для фигуры.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.drawing/textbox/internalmargintop/
 ---
 ## TextBox.InternalMarginTop property
 
-Задает внутреннее верхнее поле в точках для фигуры.
+Указывает внутреннее верхнее поле в пунктах для фигуры.
 
 ```csharp
 public double InternalMarginTop { get; set; }
@@ -16,7 +16,7 @@ public double InternalMarginTop { get; set; }
 
 ### Примечания
 
-Значение по умолчанию 1/20 дюйма.
+Значение по умолчанию — 1/20 дюйма.
 
 ### Примеры
 

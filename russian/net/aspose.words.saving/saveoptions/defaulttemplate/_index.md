@@ -1,14 +1,14 @@
 ---
 title: DefaultTemplate
 second_title: Справочник по API Aspose.Words для .NET
-description: Получает или задает путь к шаблону по умолчанию включая имя файла. Значение по умолчанию для этого свойства пустая строка Empty.
+description: Получает или задает путь к шаблону по умолчанию включая имя файла. Значение по умолчанию для этого свойства пустой строки Empty .
 type: docs
 weight: 40
 url: /ru/net/aspose.words.saving/saveoptions/defaulttemplate/
 ---
 ## SaveOptions.DefaultTemplate property
 
-Получает или задает путь к шаблону по умолчанию (включая имя файла). Значение по умолчанию для этого свойства: **пустая строка** (Empty).
+Получает или задает путь к шаблону по умолчанию (включая имя файла). Значение по умолчанию для этого свойства: **пустой строки** (Empty ).
 
 ```csharp
 public string DefaultTemplate { get; set; }
@@ -16,11 +16,11 @@ public string DefaultTemplate { get; set; }
 
 ### Примечания
 
-Если указано, этот путь используется для загрузки шаблона, когда[`AutomaticallyUpdateStyles`](../../../aspose.words/document/automaticallyupdatestyles)верно, но[`AttachedTemplate`](../../../aspose.words/document/attachedtemplate)пуст.
+Если указано, этот путь используется для загрузки шаблона, когда[`AutomaticallyUpdateStyles`](../../../aspose.words/document/automaticallyupdatestyles) верно, но[`AttachedTemplate`](../../../aspose.words/document/attachedtemplate) пустой.
 
 ### Примеры
 
-Показывает, как установить шаблон по умолчанию для документов, к которым нет прикрепленных шаблонов.
+Показывает, как задать шаблон по умолчанию для документов, к которым нет прикрепленных шаблонов.
 
 ```csharp
 Document doc = new Document();

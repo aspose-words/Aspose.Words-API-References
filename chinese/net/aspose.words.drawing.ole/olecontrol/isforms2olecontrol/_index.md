@@ -1,14 +1,14 @@
 ---
 title: IsForms2OleControl
 second_title: Aspose.Words for .NET API 参考
-description: 如果控件是Forms2OleControlaspose.words.drawing.ole/forms2olecontrol则返回 true
+description: 如果控件是Forms2OleControlaspose.words.drawing.ole/forms2olecontrol.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.drawing.ole/olecontrol/isforms2olecontrol/
 ---
 ## OleControl.IsForms2OleControl property
 
-如果控件是[`Forms2OleControl`](../../forms2olecontrol)则返回 true。
+如果控件是[`Forms2OleControl`](../../forms2olecontrol).
 
 ```csharp
 public virtual bool IsForms2OleControl { get; }
@@ -16,7 +16,7 @@ public virtual bool IsForms2OleControl { get; }
 
 ### 例子
 
-显示如何验证 ActiveX 控件的属性。
+演示如何验证 ActiveX 控件的属性。
 
 ```csharp
 Document doc = new Document(MyDir + "ActiveX controls.docx");

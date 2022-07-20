@@ -1,14 +1,14 @@
 ---
 title: OdsoRecipientDataCollection
 second_title: Aspose.Words for .NET API 参考
-description: OdsoRecipientData./odsorecipientdata
+description: 的类型化集合OdsoRecipientData./odsorecipientdata
 type: docs
-weight: 5590
+weight: 5640
 url: /zh/net/aspose.words.settings/odsorecipientdatacollection/
 ---
 ## OdsoRecipientDataCollection class
 
-[`OdsoRecipientData`](../odsorecipientdata)
+的类型化集合[`OdsoRecipientData`](../odsorecipientdata)
 
 ```csharp
 public class OdsoRecipientDataCollection : IEnumerable<OdsoRecipientData>
@@ -24,21 +24,17 @@ public class OdsoRecipientDataCollection : IEnumerable<OdsoRecipientData>
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Count](../../aspose.words.settings/odsorecipientdatacollection/count) { get; } | 获取集合中包含的元素数量。 |
+| [Count](../../aspose.words.settings/odsorecipientdatacollection/count) { get; } | 获取集合中包含的元素数。 |
 | [Item](../../aspose.words.settings/odsorecipientdatacollection/item) { get; set; } | 获取或设置此集合中的项目。 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Add](../../aspose.words.settings/odsorecipientdatacollection/add)(OdsoRecipientData) | 将对象添加到此集合的末尾。 |
-| [Clear](../../aspose.words.settings/odsorecipientdatacollection/clear)() | 从此集合中删除所有元素。 |
+| [Add](../../aspose.words.settings/odsorecipientdatacollection/add)(OdsoRecipientData) | 将一个对象添加到此集合的末尾。 |
+| [Clear](../../aspose.words.settings/odsorecipientdatacollection/clear)() | 删除此集合中的所有元素。 |
 | [GetEnumerator](../../aspose.words.settings/odsorecipientdatacollection/getenumerator)() | 返回一个可用于迭代集合中所有项目的枚举器对象。 |
 | [RemoveAt](../../aspose.words.settings/odsorecipientdatacollection/removeat)(int) | 删除指定索引处的元素。 |
-
-### 评论
-
-的类型化集合
 
 ### 例子
 
@@ -64,10 +60,10 @@ using (IEnumerator<OdsoRecipientData> enumerator = dataCollection.GetEnumerator(
     }
 }
 
- // 我们可以克隆这个集合中的元素。
+// 我们可以克隆这个集合中的元素。
 Assert.AreNotEqual(dataCollection[0], dataCollection[0].Clone());
 
- // 我们也可以单独删除元素，或者一次清除整个集合。
+// 我们也可以单独删除元素，或者一次清除整个集合。
 dataCollection.RemoveAt(0);
 
 Assert.AreEqual(69, dataCollection.Count);

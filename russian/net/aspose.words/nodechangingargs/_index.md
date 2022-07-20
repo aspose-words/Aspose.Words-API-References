@@ -1,14 +1,14 @@
 ---
 title: NodeChangingArgs
 second_title: Справочник по API Aspose.Words для .NET
-description: Предоставляет данные для методов интерфейсаINodeChangingCallback./inodechangingcallback.
+description: Предоставляет данные для методовINodeChangingCallback./inodechangingcallback интерфейс.
 type: docs
-weight: 3900
+weight: 3950
 url: /ru/net/aspose.words/nodechangingargs/
 ---
 ## NodeChangingArgs class
 
-Предоставляет данные для методов интерфейса[`INodeChangingCallback`](../inodechangingcallback).
+Предоставляет данные для методов[`INodeChangingCallback`](../inodechangingcallback) интерфейс.
 
 ```csharp
 public class NodeChangingArgs
@@ -20,7 +20,7 @@ public class NodeChangingArgs
 | --- | --- |
 | [Action](../../aspose.words/nodechangingargs/action) { get; } | Получает значение, указывающее, какой тип события изменения узла происходит. |
 | [NewParent](../../aspose.words/nodechangingargs/newparent) { get; } | Получает родителя узла, который будет установлен после завершения операции. |
-| [Node](../../aspose.words/nodechangingargs/node) { get; } | Получает[`Node`](./node), который добавляется или удаляется. |
+| [Node](../../aspose.words/nodechangingargs/node) { get; } | Получает[`Node`](./node) который добавляется или удаляется. |
 | [OldParent](../../aspose.words/nodechangingargs/oldparent) { get; } | Получает родителя узла до начала операции. |
 
 ### Примеры

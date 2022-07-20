@@ -1,14 +1,14 @@
 ---
 title: BookmarkName
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置标记用于构建表的文档部分的书签的名称
+description: 获取或设置书签的名称该书签标记了用于构建表格的文档部分
 type: docs
 weight: 20
 url: /zh/net/aspose.words.fields/fieldtoc/bookmarkname/
 ---
 ## FieldToc.BookmarkName property
 
-获取或设置标记用于构建表的文档部分的书签的名称。
+获取或设置书签的名称，该书签标记了用于构建表格的文档部分。
 
 ```csharp
 public string BookmarkName { get; set; }

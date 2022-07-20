@@ -3,7 +3,7 @@ title: BuiltInDocumentProperties
 second_title: Справочник по API Aspose.Words для .NET
 description: Набор встроенных свойств документа.
 type: docs
-weight: 4150
+weight: 4200
 url: /ru/net/aspose.words.properties/builtindocumentproperties/
 ---
 ## BuiltInDocumentProperties class
@@ -29,14 +29,14 @@ public class BuiltInDocumentProperties : DocumentPropertyCollection
 | [ContentType](../../aspose.words.properties/builtindocumentproperties/contenttype) { get; set; } | Получает или задает ContentStatus документа. |
 | [Count](../../aspose.words.properties/documentpropertycollection/count) { get; } | Получает количество элементов в коллекции. |
 | [CreatedTime](../../aspose.words.properties/builtindocumentproperties/createdtime) { get; set; } | Получает или устанавливает дату создания документа в формате UTC. |
-| [HeadingPairs](../../aspose.words.properties/builtindocumentproperties/headingpairs) { get; set; } | Указывает заголовки документов и их имена. |
+| [HeadingPairs](../../aspose.words.properties/builtindocumentproperties/headingpairs) { get; set; } | Определяет заголовки документов и их имена. |
 | [HyperlinkBase](../../aspose.words.properties/builtindocumentproperties/hyperlinkbase) { get; set; } | Указывает базовую строку, используемую для оценки относительных гиперссылок в этом документе. |
-| [Item](../../aspose.words.properties/documentpropertycollection/item) { get; } | Возвращает объект[`DocumentProperty`](../documentproperty)по индексу. |
-| override [Item](../../aspose.words.properties/builtindocumentproperties/item) { get; } | Возвращает объект[`DocumentProperty`](../documentproperty)по имени свойства. |
+| [Item](../../aspose.words.properties/documentpropertycollection/item) { get; } | Возвращает[`DocumentProperty`](../documentproperty) объект по индексу. |
+| override [Item](../../aspose.words.properties/builtindocumentproperties/item) { get; } | Возвращает[`DocumentProperty`](../documentproperty) объект по имени свойства. |
 | [Keywords](../../aspose.words.properties/builtindocumentproperties/keywords) { get; set; } | Получает или задает ключевые слова документа. |
 | [LastPrinted](../../aspose.words.properties/builtindocumentproperties/lastprinted) { get; set; } | Получает или задает дату последней печати документа в формате UTC. |
 | [LastSavedBy](../../aspose.words.properties/builtindocumentproperties/lastsavedby) { get; set; } | Получает или задает имя последнего автора. |
-| [LastSavedTime](../../aspose.words.properties/builtindocumentproperties/lastsavedtime) { get; set; } | Получает или устанавливает время последнего сохранения в формате UTC. |
+| [LastSavedTime](../../aspose.words.properties/builtindocumentproperties/lastsavedtime) { get; set; } | Получает или задает время последнего сохранения в формате UTC. |
 | [Lines](../../aspose.words.properties/builtindocumentproperties/lines) { get; set; } | Представляет оценку количества строк в документе. |
 | [LinksUpToDate](../../aspose.words.properties/builtindocumentproperties/linksuptodate) { get; set; } | Указывает, являются ли гиперссылки в документе актуальными. |
 | [Manager](../../aspose.words.properties/builtindocumentproperties/manager) { get; set; } | Получает или задает свойство менеджера. |
@@ -59,15 +59,15 @@ public class BuiltInDocumentProperties : DocumentPropertyCollection
 | Имя | Описание |
 | --- | --- |
 | [Clear](../../aspose.words.properties/documentpropertycollection/clear)() | Удаляет все свойства из коллекции. |
-| [Contains](../../aspose.words.properties/documentpropertycollection/contains)(string) | Возвращает true, если свойство с указанным именем существует в коллекции. |
-| [GetEnumerator](../../aspose.words.properties/documentpropertycollection/getenumerator)() | Возвращает объект перечислителя, который можно использовать для перебора всех элементов коллекции. |
+| [Contains](../../aspose.words.properties/documentpropertycollection/contains)(string) | Возвращает значение true, если свойство с указанным именем существует в коллекции. |
+| [GetEnumerator](../../aspose.words.properties/documentpropertycollection/getenumerator)() | Возвращает объект перечислителя, который можно использовать для перебора всех элементов в коллекции. |
 | [IndexOf](../../aspose.words.properties/documentpropertycollection/indexof)(string) | Получает индекс свойства по имени. |
 | [Remove](../../aspose.words.properties/documentpropertycollection/remove)(string) | Удаляет свойство с указанным именем из коллекции. |
 | [RemoveAt](../../aspose.words.properties/documentpropertycollection/removeat)(int) | Удаляет свойство по указанному индексу. |
 
 ### Примечания
 
-Предоставляет доступ к[`DocumentProperty`](../documentproperty)объекты по их именам (с помощью индексатора) и через набор типизированных свойств, которые возвращают значения соответствующих типов.
+Обеспечивает доступ к[`DocumentProperty`](../documentproperty) объекты по их именам (с помощью индексатора) и через набор типизированных свойств, которые возвращают значения соответствующих типов.
 
 Имена свойств нечувствительны к регистру.
 
@@ -80,18 +80,18 @@ public class BuiltInDocumentProperties : DocumentPropertyCollection
 ```csharp
 Document doc = new Document(MyDir + "Properties.docx");
 
- // Объект "Документ" содержит некоторые метаданные в своих членах.
+// Объект «Документ» содержит некоторые метаданные в своих членах.
 Console.WriteLine($"Document filename:\n\t \"{doc.OriginalFileName}\"");
 
- // Документ также хранит метаданные в своих встроенных свойствах.
-// Каждое встроенное свойство является членом объекта "BuiltInDocumentProperties" документа.
+// Документ также хранит метаданные в своих встроенных свойствах.
+// Каждое встроенное свойство является членом объекта «BuiltInDocumentProperties» документа.
 Console.WriteLine("Built-in Properties:");
 foreach (DocumentProperty docProperty in doc.BuiltInDocumentProperties)
 {
     Console.WriteLine(docProperty.Name);
     Console.WriteLine($"\tType:\t{docProperty.Type}");
 
-     // Некоторые свойства могут хранить несколько значений.
+    // Некоторые свойства могут хранить несколько значений.
     if (docProperty.Value is ICollection<object>)
     {
         foreach (object value in docProperty.Value as ICollection<object>)

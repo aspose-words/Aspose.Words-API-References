@@ -22,11 +22,11 @@ public void DeleteHeaderFooterShapes()
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
- // Создаем основной заголовок с формой.
+// Создаем основной заголовок с фигурой.
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
 builder.InsertShape(ShapeType.Rectangle, 100, 100);
 
- // Создаем основной нижний колонтитул с изображением.
+// Создаем основной нижний колонтитул с изображением.
 builder.MoveToHeaderFooter(HeaderFooterType.FooterPrimary);
 builder.InsertImage(ImageDir + "Logo Icon.ico");
 

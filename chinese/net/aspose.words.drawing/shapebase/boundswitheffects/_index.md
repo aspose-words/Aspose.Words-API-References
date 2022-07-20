@@ -16,7 +16,7 @@ public RectangleF BoundsWithEffects { get; }
 
 ### 例子
 
-显示如何检查形状的边界如何受到形状效果的影响。
+显示如何检查形状的边界如何受形状效果的影响。
 
 ```csharp
 Document doc = new Document(MyDir + "Shape shadow effect.docx");

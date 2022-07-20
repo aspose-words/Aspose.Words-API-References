@@ -1,14 +1,14 @@
 ---
 title: RemoveAt
 second_title: Aspose.Words for .NET API 参考
-description: 从指定索引处的集合中删除GradientStopaspose.words.drawing/gradientstop
+description: 删除一个GradientStopaspose.words.drawing/gradientstop来自指定索引处的集合
 type: docs
 weight: 70
 url: /zh/net/aspose.words.drawing/gradientstopcollection/removeat/
 ---
 ## GradientStopCollection.RemoveAt method
 
-从指定索引处的集合中删除[`GradientStop`](../../gradientstop)。
+删除一个[`GradientStop`](../../gradientstop)来自指定索引处的集合。
 
 ```csharp
 public GradientStop RemoveAt(int index)
@@ -16,7 +16,7 @@ public GradientStop RemoveAt(int index)
 
 ### 返回值
 
-删除[`GradientStop`](../../gradientstop)。
+已移除[`GradientStop`](../../gradientstop).
 
 ### 例子
 

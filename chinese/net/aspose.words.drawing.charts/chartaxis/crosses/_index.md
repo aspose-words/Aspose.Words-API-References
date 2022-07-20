@@ -16,7 +16,7 @@ public AxisCrosses Crosses { get; set; }
 
 ### 评论
 
-默认值为AxisCrosses。自动的。
+默认值为Automatic.
 
 MS Office 2016 新图表不支持该属性。
 

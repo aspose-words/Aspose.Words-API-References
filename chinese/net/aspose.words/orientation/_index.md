@@ -3,7 +3,7 @@ title: Orientation
 second_title: Aspose.Words for .NET API 参考
 description: 指定页面方向
 type: docs
-weight: 4030
+weight: 4080
 url: /zh/net/aspose.words/orientation/
 ---
 ## Orientation enumeration

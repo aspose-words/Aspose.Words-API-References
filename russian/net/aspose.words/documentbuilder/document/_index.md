@@ -1,14 +1,14 @@
 ---
 title: Document
 second_title: Справочник по API Aspose.Words для .NET
-description: Получает или задает объектDocumentaspose.words/documentbuilder/document к которому присоединен этот объект.
+description: Получает или задаетDocumentaspose.words/documentbuilder/document объект к которому прикреплен этот объект.
 type: docs
 weight: 80
 url: /ru/net/aspose.words/documentbuilder/document/
 ---
 ## DocumentBuilder.Document property
 
-Получает или задает объект`Document`, к которому присоединен этот объект.
+Получает или задает`Document` объект, к которому прикреплен этот объект.
 
 ```csharp
 public Document Document { get; set; }
@@ -16,7 +16,7 @@ public Document Document { get; set; }
 
 ### Примеры
 
-Показывает, как применить и отменить настройки параметров страницы для разделов документа.
+Показывает, как применять и возвращать параметры настройки страницы к разделам документа.
 
 ```csharp
 Document doc = new Document();

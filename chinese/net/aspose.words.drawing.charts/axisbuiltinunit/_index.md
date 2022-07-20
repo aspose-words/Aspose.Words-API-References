@@ -29,7 +29,7 @@ public enum AxisBuiltInUnit
 | TenThousands | `8` | 指定图表上的值应除以 10,000。 |
 | Thousands | `9` | 指定图表上的值应除以 1,000。 |
 | Trillions | `10` | 指定图表上的值应除以 1,000,000,000,0000。 |
-| Percentage | `11` | 指定图表上的值应除以 0.01。此值仅受 MS Office 2016 的新图表 类型支持。 |
+| Percentage | `11` | 指定图表上的值应除以 0.01。此值仅受 MS Office 2016 的新 chart 类型支持。 |
 
 ### 例子
 

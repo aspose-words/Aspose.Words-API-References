@@ -17,7 +17,7 @@ public void SetUncheckedSymbol(int characterCode, string fontName)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | characterCode | Int32 | 指定符号的字符代码。 |
-| fontName | String | 包含符号的字体名称。 |
+| fontName | String | 包含符号的字体的名称。 |
 
 ### 评论
 

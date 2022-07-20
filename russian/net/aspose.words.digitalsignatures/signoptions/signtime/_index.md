@@ -1,14 +1,14 @@
 ---
 title: SignTime
 second_title: Справочник по API Aspose.Words для .NET
-description: Дата подписания. Значение по умолчанию текущее время Now.
+description: Дата подписания. Значение по умолчанию Текущее время Now .
 type: docs
 weight: 70
 url: /ru/net/aspose.words.digitalsignatures/signoptions/signtime/
 ---
 ## SignOptions.SignTime property
 
-Дата подписания. Значение по умолчанию: **текущее время** (Now).
+Дата подписания. Значение по умолчанию: **Текущее время** (Now ).
 
 ```csharp
 public DateTime SignTime { get; set; }
@@ -19,18 +19,18 @@ public DateTime SignTime { get; set; }
 Показывает, как подписывать документы цифровой подписью.
 
 ```csharp
- // Создаем сертификат X.509 из хранилища PKCS#12, который должен содержать закрытый ключ.
+// Создайте сертификат X.509 из хранилища PKCS#12, который должен содержать закрытый ключ.
 CertificateHolder certificateHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "aw");
 
- // Создайте комментарий и дату, которые будут применяться с нашей новой цифровой подписью.
+// Создайте комментарий и дату, которые будут применяться с нашей новой цифровой подписью.
 SignOptions signOptions = new SignOptions
 {
     Comments = "My comment", 
     SignTime = DateTime.Now
 };
 
- // Берём неподписанный документ из локальной файловой системы через файловый поток,
- // затем создайте его подписанную копию, определяемую именем файла выходного файла stream.
+// Берём неподписанный документ из локальной файловой системы через файловый поток,
+// затем создайте его подписанную копию, определяемую именем файла выходного файлового потока.
 using (Stream streamIn = new FileStream(MyDir + "Document.docx", FileMode.Open))
 {
     using (Stream streamOut = new FileStream(ArtifactsDir + "DigitalSignatureUtil.SignDocument.docx", FileMode.OpenOrCreate))

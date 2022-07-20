@@ -1,14 +1,14 @@
 ---
 title: NoProofing
 second_title: Справочник по API Aspose.Words для .NET
-description: Истинно если отформатированные символы не требуют проверки орфографии.
+description: Истина если отформатированные символы не должны проверяться на орфографию.
 type: docs
 weight: 280
 url: /ru/net/aspose.words/font/noproofing/
 ---
 ## Font.NoProofing property
 
-Истинно, если отформатированные символы не требуют проверки орфографии.
+Истина, если отформатированные символы не должны проверяться на орфографию.
 
 ```csharp
 public bool NoProofing { get; set; }

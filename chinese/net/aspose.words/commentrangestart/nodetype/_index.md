@@ -1,14 +1,14 @@
 ---
 title: NodeType
 second_title: Aspose.Words for .NET API 参考
-description: 返回CommentRangeStart
+description: 返回CommentRangeStart.
 type: docs
 weight: 30
 url: /zh/net/aspose.words/commentrangestart/nodetype/
 ---
 ## CommentRangeStart.NodeType property
 
-返回CommentRangeStart。
+返回CommentRangeStart.
 
 ```csharp
 public override NodeType NodeType { get; }

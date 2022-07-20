@@ -26,7 +26,7 @@ public OutlineOptions OutlineOptions { get; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
- // Вставляем заголовки, которые могут служить элементами оглавления уровней 1, 2 и затем 3.
+// Вставляем заголовки, которые могут служить элементами оглавления уровней 1, 2, а затем 3.
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading1;
 
 Assert.True(builder.ParagraphFormat.IsHeading);
@@ -43,16 +43,16 @@ builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading3;
 builder.Writeln("Heading 1.2.1");
 builder.Writeln("Heading 1.2.2");
 
- // Создадим объект "XpsSaveOptions", который мы можем передать в документ "Сохранить" method
- // для изменения того, как этот метод преобразует документ в .XPS.
+// Создаем объект "XpsSaveOptions", который мы можем передать в метод "Сохранить" документа
+// для изменения того, как этот метод преобразует документ в .XPS.
 XpsSaveOptions saveOptions = new XpsSaveOptions();
 
 Assert.AreEqual(SaveFormat.Xps, saveOptions.SaveFormat);
 
 // Выходной документ XPS будет содержать структуру, оглавление, в котором перечислены заголовки в теле документа.
- // Нажав на запись в этой схеме, мы перейдем к расположению соответствующего заголовка.
- // Установите для свойства "HeadingsOutlineLevels" значение "2", чтобы исключить из схемы все заголовки, уровни которых выше 2.
- // Последние два заголовка, которые мы вставили выше, не появятся.
+// Нажав на запись в этой схеме, мы перейдем к расположению соответствующего заголовка.
+// Установите для свойства "HeadingsOutlineLevels" значение "2", чтобы исключить из структуры все заголовки, уровни которых выше 2.
+// Последние два заголовка, которые мы вставили выше, не появятся.
 saveOptions.OutlineOptions.HeadingsOutlineLevels = 2;
 
 doc.Save(ArtifactsDir + "XpsSaveOptions.OutlineLevels.xps", saveOptions);

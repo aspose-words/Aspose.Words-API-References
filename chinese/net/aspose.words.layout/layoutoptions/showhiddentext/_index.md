@@ -1,14 +1,14 @@
 ---
 title: ShowHiddenText
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置是否呈现文档中隐藏文本的指示 默认为假
+description: 获取或设置是否呈现文档中的隐藏文本的指示 默认为 False
 type: docs
 weight: 70
 url: /zh/net/aspose.words.layout/layoutoptions/showhiddentext/
 ---
 ## LayoutOptions.ShowHiddenText property
 
-获取或设置是否呈现文档中隐藏文本的指示。 默认为假。
+获取或设置是否呈现文档中的隐藏文本的指示。 默认为 False。
 
 ```csharp
 public bool ShowHiddenText { get; set; }

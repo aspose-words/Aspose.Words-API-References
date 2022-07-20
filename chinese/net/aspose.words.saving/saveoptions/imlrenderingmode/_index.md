@@ -16,13 +16,13 @@ public ImlRenderingMode ImlRenderingMode { get; set; }
 
 ### 评论
 
-默认值为InkML。
+默认值为InkML.
 
 当文档导出为固定页面格式时使用此属性。
 
 ### 例子
 
-显示如何渲染 Ink 对象。
+展示如何渲染 Ink 对象。
 
 ```csharp
 Document doc = new Document(MyDir + "Ink object.docx");

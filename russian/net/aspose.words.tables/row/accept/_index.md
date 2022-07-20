@@ -16,19 +16,19 @@ public override bool Accept(DocumentVisitor visitor)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| visitor | DocumentVisitor | Посетитель, который посетит узлы. |
+| visitor | DocumentVisitor | Посетитель, который будет посещать узлы. |
 
 ### Возвращаемое значение
 
-Истинно, если были посещены все узлы; false, если DocumentVisitor остановил операцию перед посещением всех узлов.
+Истинно, если все узлы были посещены; false, если DocumentVisitor остановил операцию перед посещением всех узлов.
 
 ### Примечания
 
 Перечисляет этот узел и все его дочерние элементы. Каждый узел вызывает соответствующий метод в DocumentVisitor.
 
-Для получения дополнительной информации см. шаблон проектирования Посетитель.
+Дополнительные сведения см. в шаблоне проектирования «Посетитель».
 
-Вызывает DocumentVisitor.VisitRowStart, затем вызывает Accept для всех дочерних узлов секции и вызывает DocumentVisitor.VisitRowEnd в конце.
+Вызывает DocumentVisitor.VisitRowStart, затем вызывает Accept для всех дочерних узлов section и вызывает DocumentVisitor.VisitRowEnd в конце.
 
 ### Примеры
 
@@ -40,17 +40,17 @@ public void TableToText()
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     TableStructurePrinter visitor = new TableStructurePrinter();
 
-     // Когда составной узел принимает посетителя документа, посетитель посещает принимающий узел, 
-     // а затем обходит все дочерние узлы в порядке глубины.
-     // Посетитель может читать и изменять каждый посещенный узел.
+    // Когда составной узел принимает посетителя документа, посетитель посещает принимающий узел,
+    // а затем обходит все дочерние элементы узла в порядке глубины.
+    // Посетитель может читать и изменять каждый посещаемый узел.
     doc.Accept(visitor);
 
     Console.WriteLine(visitor.GetText());
 }
 
 /// <summary>
- /// Обходит небинарное дерево дочерних узлов узла.
- /// Создает карту в виде строки всех встреченных узлов Table и их дочерних элементов.
+/// Обходит небинарное дерево дочерних узлов узла.
+/// Создает карту в виде строки всех встреченных узлов таблицы и их дочерних элементов.
 /// </summary>
 public class TableStructurePrinter : DocumentVisitor
 {
@@ -66,8 +66,8 @@ public class TableStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-     /// Вызывается, когда в документе встречается узел Run.
-     /// Прогоны вне таблиц не записываются.
+    /// Вызывается, когда в документе встречается узел Run.
+    /// Прогоны вне таблиц не записываются.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {
@@ -98,7 +98,7 @@ public class TableStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-     /// Вызывается после посещения всех дочерних узлов узла Table.
+    /// Вызывается после посещения всех дочерних узлов узла Table.
     /// </summary>
     public override VisitorAction VisitTableEnd(Table table)
     {
@@ -110,7 +110,7 @@ public class TableStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-     /// Вызывается, когда в документе встречается узел Row.
+    /// Вызывается, когда в документе встречается узел Row.
     /// </summary>
     public override VisitorAction VisitRowStart(Row row)
     {
@@ -130,7 +130,7 @@ public class TableStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-     /// Вызывается после посещения всех дочерних узлов узла Row.
+    /// Вызывается после посещения всех дочерних узлов узла Row.
     /// </summary>
     public override VisitorAction VisitRowEnd(Row row)
     {
@@ -141,7 +141,7 @@ public class TableStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-     /// Вызывается, когда в документе встречается узел Cell.
+    /// Вызывается, когда в документе встречается узел Cell.
     /// </summary>
     public override VisitorAction VisitCellStart(Cell cell)
     {
@@ -160,7 +160,7 @@ public class TableStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-     /// Вызывается после посещения всех дочерних узлов узла Cell.
+    /// Вызывается после посещения всех дочерних узлов узла Cell.
     /// </summary>
     public override VisitorAction VisitCellEnd(Cell cell)
     {
@@ -170,10 +170,10 @@ public class TableStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-     /// Добавляем строку в StringBuilder и делаем отступ в зависимости от того, насколько глубоко находится посетитель
-     /// в дерево дочерних узлов текущей таблицы.
+    /// Добавляем строку в StringBuilder и делаем отступ в зависимости от того, насколько глубоко находится посетитель
+    /// в дерево дочерних узлов текущей таблицы.
     /// </summary>
-     /// <param name="text"></param>
+    /// <param name="text"></param>
     private void IndentAndAppendLine(string text)
     {
         for (int i = 0; i < mDocTraversalDepth; i++)

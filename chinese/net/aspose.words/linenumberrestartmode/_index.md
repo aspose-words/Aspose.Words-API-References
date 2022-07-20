@@ -3,7 +3,7 @@ title: LineNumberRestartMode
 second_title: Aspose.Words for .NET API 参考
 description: 确定何时重新开始自动行编号
 type: docs
-weight: 3180
+weight: 3230
 url: /zh/net/aspose.words/linenumberrestartmode/
 ---
 ## LineNumberRestartMode enumeration

@@ -1,14 +1,14 @@
 ---
 title: IsLayoutInCell
 second_title: Справочник по API Aspose.Words для .NET
-description: Получает или задает флаг указывающий отображается ли фигура внутри таблицы или вне ее.
+description: Получает или задает флаг указывающий отображается ли фигура внутри таблицы или за ее пределами.
 type: docs
 weight: 300
 url: /ru/net/aspose.words.drawing/shapebase/islayoutincell/
 ---
 ## ShapeBase.IsLayoutInCell property
 
-Получает или задает флаг, указывающий, отображается ли фигура внутри таблицы или вне ее.
+Получает или задает флаг, указывающий, отображается ли фигура внутри таблицы или за ее пределами.
 
 ```csharp
 public bool IsLayoutInCell { get; set; }
@@ -16,9 +16,9 @@ public bool IsLayoutInCell { get; set; }
 
 ### Примечания
 
-Значение по умолчанию: **true** .
+Значение по умолчанию **истинный**.
 
-Действует только для фигур верхнего уровня, свойство[`WrapType`](../wraptype)которых установлено в значение отличное от[`Inline`](../../../aspose.words/inline).
+Действует только для фигур верхнего уровня, свойство[`WrapType`](../wraptype) из которых установлено значение , отличное от[`Inline`](../../../aspose.words/inline).
 
 ### Примеры
 

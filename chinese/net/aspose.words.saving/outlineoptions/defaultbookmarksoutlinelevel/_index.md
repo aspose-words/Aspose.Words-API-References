@@ -16,11 +16,11 @@ public int DefaultBookmarksOutlineLevel { get; set; }
 
 ### 评论
 
-可以使用BookmarksOutlineLevels属性。
+可以使用指定单个书签级别[`BookmarksOutlineLevels`](../bookmarksoutlinelevels)财产。
 
-指定 0 并且 Word 书签将不会显示在文档大纲中。 指定1，Word书签将显示在文档大纲的第1级； 2 表示 2 级，依此类推。
+指定 0，Word 书签将不显示在文档大纲中。 指定 1，Word 书签将显示在文档大纲第 1 级； 2 表示 2 级，依此类推。
 
-默认为 0。有效范围为 0 到 9。
+默认值为 0。有效范围为 0 到 9。
 
 ### 例子
 

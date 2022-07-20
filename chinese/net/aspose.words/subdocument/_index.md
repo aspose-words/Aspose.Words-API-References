@@ -1,14 +1,14 @@
 ---
 title: SubDocument
 second_title: Aspose.Words for .NET API 参考
-description: 表示 SubDocument - 它是对外部存储文档的引用
+description: 代表一个 子文档 这是对外部存储文档的引用
 type: docs
-weight: 5820
+weight: 5870
 url: /zh/net/aspose.words/subdocument/
 ---
 ## SubDocument class
 
-表示 **SubDocument** - 它是对外部存储文档的引用。
+代表一个 **子文档** 这是对外部存储文档的引用。
 
 ```csharp
 public class SubDocument : Node
@@ -21,19 +21,19 @@ public class SubDocument : Node
 | [CustomNodeId](../../aspose.words/node/customnodeid) { get; set; } | 指定自定义节点标识符。 |
 | virtual [Document](../../aspose.words/node/document) { get; } | 获取该节点所属的文档。 |
 | virtual [IsComposite](../../aspose.words/node/iscomposite) { get; } | 如果此节点可以包含其他节点，则返回 true。 |
-| [NextSibling](../../aspose.words/node/nextsibling) { get; } | 获取紧跟该节点的节点。 |
-| override [NodeType](../../aspose.words/subdocument/nodetype) { get; } | 返回 **NodeType.SubDocument** |
+| [NextSibling](../../aspose.words/node/nextsibling) { get; } | 获取紧跟此节点的节点。 |
+| override [NodeType](../../aspose.words/subdocument/nodetype) { get; } | 返回 **节点类型.子文档** |
 | [ParentNode](../../aspose.words/node/parentnode) { get; } | 获取此节点的直接父节点。 |
 | [PreviousSibling](../../aspose.words/node/previoussibling) { get; } | 获取紧接在此节点之前的节点。 |
-| [Range](../../aspose.words/node/range) { get; } | 返回 **Range** 对象，该对象表示包含在此节点中的文档部分。 |
+| [Range](../../aspose.words/node/range) { get; } | 返回一个 **范围**表示此节点中包含的文档部分的对象。 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [Accept](../../aspose.words/subdocument/accept)(DocumentVisitor) | 接受访问者。 |
+| override [Accept](../../aspose.words/subdocument/accept)(DocumentVisitor) | 接受访客。 |
 | [Clone](../../aspose.words/node/clone)(bool) | 创建节点的副本。 |
-| [GetAncestor](../../aspose.words/node/getancestor)(NodeType) | 获取指定[`NodeType`](../nodetype)的第一个祖先。 |
+| [GetAncestor](../../aspose.words/node/getancestor)(NodeType) | 获取指定的第一个祖先[`NodeType`](../nodetype). |
 | [GetAncestor](../../aspose.words/node/getancestor)(Type) | 获取指定对象类型的第一个祖先。 |
 | virtual [GetText](../../aspose.words/node/gettext)() | 获取该节点及其所有子节点的文本。 |
 | [NextPreOrder](../../aspose.words/node/nextpreorder)(Node) | 根据前序树遍历算法获取下一个节点。 |
@@ -44,13 +44,13 @@ public class SubDocument : Node
 
 ### 评论
 
-在这个版本的 Aspose.Words 中，Words。SubDocument节点不提供公共方法 和属性来创建或修改子文档。在此版本中，您无法实例化 SubDocument 节点或修改现有节点，除非删除它们。
+在这个版本的 Aspose.Words 中，[`SubDocument`](../subdocument)节点不提供公共方法 和属性来创建或修改子文档。在此版本中，您无法实例化 SubDocument 节点或修改现有节点，除非删除它们。
 
-[`SubDocument`](../subdocument)只能是Paragraph的子级.
+[`SubDocument`](../subdocument)只能是[`Paragraph`](../paragraph).
 
 ### 例子
 
-显示如何访问主文档的子文档。
+显示如何访问主控文档的子文档。
 
 ```csharp
 Document doc = new Document(MyDir + "Master document.docx");

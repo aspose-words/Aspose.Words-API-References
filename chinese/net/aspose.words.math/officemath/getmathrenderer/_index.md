@@ -20,11 +20,11 @@ public OfficeMathRenderer GetMathRenderer()
 
 ### 评论
 
-这个方法只调用[`OfficeMathRenderer`](../../../aspose.words.rendering/officemathrenderer)构造函数并传递 这个对象作为参数。
+这个方法只是调用[`OfficeMathRenderer`](../../../aspose.words.rendering/officemathrenderer)构造函数并将 这个对象作为参数传递。
 
 ### 例子
 
-显示如何将 Office Math 对象呈现为本地文件系统中的图像文件。
+演示如何将 Office Math 对象呈现到本地文件系统中的图像文件中。
 
 ```csharp
 Document doc = new Document(MyDir + "Office math.docx");

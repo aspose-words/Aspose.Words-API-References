@@ -3,7 +3,7 @@ title: Underline
 second_title: Aspose.Words for .NET API 参考
 description: 表示应用于字体的下划线类型
 type: docs
-weight: 6160
+weight: 6210
 url: /zh/net/aspose.words/underline/
 ---
 ## Underline enumeration

@@ -26,7 +26,7 @@ public void Save(Stream stream)
 
 ### Примечания
 
-Ответственность за удаление потока лежит на вызывающем.
+Ответственность за удаление потока лежит на вызывающем объекте.
 
 ### Примеры
 
@@ -70,7 +70,7 @@ oleFormat.Save(ArtifactsDir + "OLE spreadsheet saved directly" + oleFormat.Sugge
 
 ## Save(string) {#save_1}
 
-Сохраняет данные встроенного объекта в файл с указанным именем.
+Сохраняет данные внедренного объекта в файл с указанным именем.
 
 ```csharp
 public void Save(string fileName)

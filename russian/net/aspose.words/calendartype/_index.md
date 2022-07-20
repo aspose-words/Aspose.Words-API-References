@@ -1,14 +1,14 @@
 ---
 title: CalendarType
 second_title: Справочник по API Aspose.Words для .NET
-description: Задает тип календаря.
+description: Определяет тип календаря.
 type: docs
 weight: 180
 url: /ru/net/aspose.words/calendartype/
 ---
 ## CalendarType enumeration
 
-Задает тип календаря.
+Определяет тип календаря.
 
 ```csharp
 public enum CalendarType

@@ -1,14 +1,14 @@
 ---
 title: KeepImageStreamOpen
 second_title: Aspose.Words for .NET API 参考
-description: 指定 Aspose.Words 应该在保存图像后保持流打开还是关闭它
+description: 指定 Aspose.Words 是否应在保存图像后保持流打开或关闭
 type: docs
 weight: 60
 url: /zh/net/aspose.words.saving/imagesavingargs/keepimagestreamopen/
 ---
 ## ImageSavingArgs.KeepImageStreamOpen property
 
-指定 Aspose.Words 应该在保存图像后保持流打开还是关闭它。
+指定 Aspose.Words 是否应在保存图像后保持流打开或关闭。
 
 ```csharp
 public bool KeepImageStreamOpen { get; set; }
@@ -16,11 +16,11 @@ public bool KeepImageStreamOpen { get; set; }
 
 ### 评论
 
-默认为` false` 并且 Aspose.Words 将关闭您在[`ImageStream`](../imagestream)属性中提供的 流，然后将图像写入其中。 指定` true` 以保持流打开。
+默认为`错误的` Aspose.Words 将关闭您在[`ImageStream`](../imagestream)将图像写入其中后的属性。 指定`真的`保持流打开。
 
 ### 例子
 
-显示如何参与图像保存HTML 转换过程中的回调。
+展示如何在 HTML 转换过程中涉及图像保存回调。
 
 ```csharp
 {

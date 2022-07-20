@@ -1,14 +1,14 @@
 ---
 title: FindReplaceDirection
 second_title: Справочник по API Aspose.Words для .NET
-description: Задает направление для операций замены.
+description: Указывает направление операций замены.
 type: docs
-weight: 4300
+weight: 4350
 url: /ru/net/aspose.words.replacing/findreplacedirection/
 ---
 ## FindReplaceDirection enumeration
 
-Задает направление для операций замены.
+Указывает направление операций замены.
 
 ```csharp
 public enum FindReplaceDirection
@@ -18,12 +18,12 @@ public enum FindReplaceDirection
 
 | Имя | Ценность | Описание |
 | --- | --- | --- |
-| Forward | `0` | Совпадающие элементы заменяются от первого до последнего. |
-| Backward | `1` | Совпадающие элементы заменяются от последнего к первому. |
+| Forward | `0` | Совпадающие элементы заменяются от первого к последнему. |
+| Backward | `1` | Совпадающие элементы заменяются с последнего на первый. |
 
 ### Примеры
 
-Показывает, как определить, в каком направлении операция поиска и замены перемещает документ.
+Показывает, как определить, в каком направлении операция поиска и замены проходит по документу.
 
 ```csharp
 public void Direction(FindReplaceDirection findReplaceDirection)

@@ -1,14 +1,14 @@
 ---
 title: PrinterSettingsContainer
 second_title: Справочник по API Aspose.Words для .NET
-description: Создает контейнер дляPrinterSettings.
+description: Создает контейнер дляPrinterSettings .
 type: docs
 weight: 10
 url: /ru/net/aspose.words.rendering/printersettingscontainer/printersettingscontainer/
 ---
 ## PrinterSettingsContainer constructor
 
-Создает контейнер дляPrinterSettings.
+Создает контейнер дляPrinterSettings .
 
 ```csharp
 public PrinterSettingsContainer(PrinterSettings settings)
@@ -19,8 +19,8 @@ public PrinterSettingsContainer(PrinterSettings settings)
 Показывает, как получить доступ к источникам и размерам бумаги вашего принтера и составить список.
 
 ```csharp
- // Контейнер PrinterSettingsContainer содержит объект PrinterSettings, 
- // который содержит уникальные данные для разных драйверов принтера.
+// Контейнер PrinterSettingsContainer содержит объект PrinterSettings,
+// который содержит уникальные данные для разных драйверов принтеров.
 PrinterSettingsContainer container = new PrinterSettingsContainer(new PrinterSettings());
 
 Console.WriteLine($"This printer contains {container.PaperSources.Count} printer paper sources:");
@@ -31,12 +31,12 @@ foreach (PaperSource paperSource in container.PaperSources)
                       $"RawKind: {paperSource.RawKind} {(isDefault ? "(Default)" : "")}");
 }
 
- // Свойство PaperSizes содержит список размеров бумаги, которые принтер должен использовать.
-// И PrinterSource, и PrinterSize содержат свойство "RawKind", 
- // что соответствует типу бумаги, указанному в перечислении PaperSourceKind.
- // Если есть источник бумаги с тем же значением "RawKind", что и у печатаемой страницы, 
- // принтер распечатает страницу, используя предоставленный источник бумаги и размер.
- // В противном случае принтер по умолчанию будет использовать источник, указанный в свойстве "DefaultPageSettingsPaperSource".
+// Свойство "PaperSizes" содержит список размеров бумаги, которые принтер должен использовать.
+// И PrinterSource, и PrinterSize содержат свойство "RawKind",
+// что соответствует типу бумаги, указанному в перечислении PaperSourceKind.
+// Если есть источник бумаги с тем же значением "RawKind", что и у печатной страницы,
+// принтер распечатает страницу, используя предоставленный источник бумаги и размер.
+// В противном случае принтер по умолчанию будет использовать источник, указанный в свойстве "DefaultPageSettingsPaperSource".
 Console.WriteLine($"{container.PaperSizes.Count} paper sizes:");
 foreach (System.Drawing.Printing.PaperSize paperSize in container.PaperSizes)
 {

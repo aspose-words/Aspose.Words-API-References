@@ -17,7 +17,7 @@ public FormField InsertCheckBox(string name, bool checkedValue, int size)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | name | String | Имя поля формы. Может быть пустой строкой. Значение длиннее 20 символов будет обрезано. |
-| checkedValue | Boolean | Проверен статус поля формы флажка. |
+| checkedValue | Boolean | Проверено состояние поля формы флажка. |
 | size | Int32 | Указывает размер флажка в пунктах. Укажите 0 для MS Word для автоматического расчета размера флажка. |
 
 ### Возвращаемое значение
@@ -26,7 +26,7 @@ public FormField InsertCheckBox(string name, bool checkedValue, int size)
 
 ### Примечания
 
-Если указать имя поля формы, то автоматически создается закладка с таким же имя.
+Если указать имя для поля формы, то автоматически создается закладка с тем же именем.
 
 ### Примеры
 
@@ -36,7 +36,7 @@ public FormField InsertCheckBox(string name, bool checkedValue, int size)
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Вставляем флажки разного размера и со статусами по умолчанию.
+// Вставляем чекбоксы разных размеров и со статусами по умолчанию.
 builder.Write("Unchecked check box of a default size: ");
 builder.InsertCheckBox(string.Empty, false, false, 0);
 builder.InsertParagraph();
@@ -85,7 +85,7 @@ public FormField InsertCheckBox(string name, bool defaultValue, bool checkedValu
 
 ### Примечания
 
-Если указать имя поля формы, то автоматически создается закладка с таким же имя.
+Если указать имя для поля формы, то автоматически создается закладка с тем же именем.
 
 ### Примеры
 
@@ -95,7 +95,7 @@ public FormField InsertCheckBox(string name, bool defaultValue, bool checkedValu
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Вставляем флажки разного размера и со статусами по умолчанию.
+// Вставляем чекбоксы разных размеров и со статусами по умолчанию.
 builder.Write("Unchecked check box of a default size: ");
 builder.InsertCheckBox(string.Empty, false, false, 0);
 builder.InsertParagraph();

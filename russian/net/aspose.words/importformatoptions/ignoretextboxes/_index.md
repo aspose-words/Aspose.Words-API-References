@@ -1,14 +1,14 @@
 ---
 title: IgnoreTextBoxes
 second_title: Справочник по API Aspose.Words для .NET
-description: Получает или задает логическое значение указывающее что исходное форматирование содержимого текстовых полей игнорируется ifKeepSourceFormatting. Значение по умолчанию true .
+description: Получает или задает логическое значение указывающее что исходное форматирование содержимого текстовых полей игнорируется  еслиKeepSourceFormatting используется режим. Значение по умолчаниюистинный .
 type: docs
 weight: 40
 url: /ru/net/aspose.words/importformatoptions/ignoretextboxes/
 ---
 ## ImportFormatOptions.IgnoreTextBoxes property
 
-Получает или задает логическое значение, указывающее, что исходное форматирование содержимого текстовых полей игнорируется ifKeepSourceFormatting. Значение по умолчанию:` true` .
+Получает или задает логическое значение, указывающее, что исходное форматирование содержимого текстовых полей игнорируется , еслиKeepSourceFormatting используется режим. Значение по умолчанию:`истинный` .
 
 ```csharp
 public bool IgnoreTextBoxes { get; set; }

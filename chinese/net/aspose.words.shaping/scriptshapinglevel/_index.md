@@ -3,7 +3,7 @@ title: ScriptShapingLevel
 second_title: Aspose.Words for .NET API 参考
 description: 
 type: docs
-weight: 5720
+weight: 5770
 url: /zh/net/aspose.words.shaping/scriptshapinglevel/
 ---
 ## ScriptShapingLevel enumeration

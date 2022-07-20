@@ -1,14 +1,14 @@
 ---
 title: SubstitutionSettings
 second_title: Aspose.Words for .NET API 参考
-description: 字体替换机制相关设置
+description: 与字体替换机制相关的设置
 type: docs
 weight: 40
 url: /zh/net/aspose.words.fonts/fontsettings/substitutionsettings/
 ---
 ## FontSettings.SubstitutionSettings property
 
-字体替换机制相关设置。
+与字体替换机制相关的设置。
 
 ```csharp
 public FontSubstitutionSettings SubstitutionSettings { get; }
@@ -16,7 +16,7 @@ public FontSubstitutionSettings SubstitutionSettings { get; }
 
 ### 例子
 
-显示如何访问文档的系统字体源并设置字体替换。
+显示如何访问文档的系统字体源和设置字体替换。
 
 ```csharp
 Document doc = new Document();

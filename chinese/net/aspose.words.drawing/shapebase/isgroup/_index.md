@@ -24,9 +24,9 @@ public void GroupOfShapes()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-     // 如果需要创建“NonPrimitive”形状，如 SingleCornerSnipped、TopCornersSnipped、DiagonalCornersSnipped、
-     // TopCornersOneRoundedOneSnipped, SingleCornerRounded, TopCornersRounded, DiagonalCornersRounded
-     // 请使用 DocumentBuilder.InsertShape 方法。
+    // 如果需要创建“NonPrimitive”形状，例如 SingleCornerSnipped、TopCornersSnipped、DiagonalCornersSnipped，
+    // TopCornersOneRoundedOneSnipped, SingleCornerRounded, TopCornersRounded, DiagonalCornersRounded
+    // 请使用 DocumentBuilder.InsertShape 方法。
     Shape balloon = new Shape(doc, ShapeType.Balloon)
     {
         Width = 200, 
@@ -56,7 +56,7 @@ public void GroupOfShapes()
 }
 
 /// <summary>
- /// 将访问的形状组的内容打印到控制台。
+/// 将访问的形状组的内容打印到控制台。
 /// </summary>
 public class ShapeGroupPrinter : DocumentVisitor
 {

@@ -1,14 +1,14 @@
 ---
 title: InsertedTextColor
 second_title: Aspose.Words for .NET API 参考
-description: 允许指定用于插入内容的颜色Insertion 默认值为ByAuthor
+description: 允许指定用于插入内容的颜色Insertion. 默认值为ByAuthor.
 type: docs
 weight: 40
 url: /zh/net/aspose.words.layout/revisionoptions/insertedtextcolor/
 ---
 ## RevisionOptions.InsertedTextColor property
 
-允许指定用于插入内容的颜色Insertion。 默认值为ByAuthor。
+允许指定用于插入内容的颜色Insertion. 默认值为ByAuthor.
 
 ```csharp
 public RevisionColor InsertedTextColor { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: Vertical
 second_title: Справочник по API Aspose.Words для .NET
-description: Получает вертикальную границу используемую между ячейками.
+description: Получает вертикальную границу которая используется между ячейками.
 type: docs
 weight: 130
 url: /ru/net/aspose.words/bordercollection/vertical/
 ---
 ## BorderCollection.Vertical property
 
-Получает вертикальную границу, используемую между ячейками.
+Получает вертикальную границу, которая используется между ячейками.
 
 ```csharp
 public Border Vertical { get; }
@@ -16,7 +16,7 @@ public Border Vertical { get; }
 
 ### Примеры
 
-Показывает, как применить настройки вертикальных границ к формату строки таблицы.
+Показывает, как применить параметры вертикальных границ к формату строки таблицы.
 
 ```csharp
 Document doc = new Document();
@@ -35,18 +35,18 @@ for (int i = 0; i < 3; i++)
     Row row = builder.EndRow();
     BorderCollection borders = row.RowFormat.Borders;
 
-     // Настройка внешнего вида границ, которые будут появляться между строками.
+    // Настройка внешнего вида границ, которые будут появляться между строками.
     borders.Horizontal.Color = Color.Red;
     borders.Horizontal.LineStyle = LineStyle.Dot;
     borders.Horizontal.LineWidth = 2.0d;
 
-     // Настройка внешнего вида границ, которые будут появляться между ячейками.
+    // Настройка внешнего вида границ, которые будут появляться между ячейками.
     borders.Vertical.Color = Color.Blue;
     borders.Vertical.LineStyle = LineStyle.Dot;
     borders.Vertical.LineWidth = 2.0d;
 }
 
- // Формат строки и внутренний абзац ячейки используют разные настройки границ.
+// Формат строки и внутренний абзац ячейки используют разные настройки границ.
 Border border = table.FirstRow.FirstCell.LastParagraph.ParagraphFormat.Borders.Vertical;
 
 Assert.AreEqual(Color.Empty.ToArgb(), border.Color.ToArgb());

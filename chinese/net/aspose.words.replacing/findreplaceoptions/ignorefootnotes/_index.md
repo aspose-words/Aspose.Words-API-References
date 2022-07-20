@@ -1,14 +1,14 @@
 ---
 title: IgnoreFootnotes
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置一个布尔值指示忽略脚注 默认值为 false 
+description: 获取或设置一个布尔值指示忽略脚注 默认值为错误的.
 type: docs
 weight: 90
 url: /zh/net/aspose.words.replacing/findreplaceoptions/ignorefootnotes/
 ---
 ## FindReplaceOptions.IgnoreFootnotes property
 
-获取或设置一个布尔值，指示忽略脚注。 默认值为` false` 。
+获取或设置一个布尔值，指示忽略脚注。 默认值为`错误的`.
 
 ```csharp
 public bool IgnoreFootnotes { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: WordOpenXML
 second_title: Справочник по API Aspose.Words для .NET
-description: Получает строку представляющую XML содержащийся в узле в форматеFlatOpc.
+description: Получает строку представляющую XML содержащийся в узле вFlatOpc формат.
 type: docs
 weight: 120
 url: /ru/net/aspose.words.markup/istructureddocumenttag/wordopenxml/
 ---
 ## IStructuredDocumentTag.WordOpenXML property
 
-Получает строку, представляющую XML, содержащийся в узле, в форматеFlatOpc.
+Получает строку, представляющую XML, содержащийся в узле вFlatOpc формат.
 
 ```csharp
 public string WordOpenXML { get; }

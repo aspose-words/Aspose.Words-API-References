@@ -1,14 +1,14 @@
 ---
 title: Accept
 second_title: Aspose.Words for .NET API 参考
-description: 接受访问者
+description: 接受访客
 type: docs
 weight: 30
 url: /zh/net/aspose.words.fields/fieldend/accept/
 ---
 ## FieldEnd.Accept method
 
-接受访问者。
+接受访客。
 
 ```csharp
 public override bool Accept(DocumentVisitor visitor)
@@ -20,17 +20,17 @@ public override bool Accept(DocumentVisitor visitor)
 
 ### 返回值
 
-**False** 如果访问者请求停止枚举。
+**错误的**如果访问者请求枚举停止。
 
 ### 评论
 
-调用[`VisitFieldEnd`](../../../aspose.words/documentvisitor/visitfieldend)。
+来电[`VisitFieldEnd`](../../../aspose.words/documentvisitor/visitfieldend).
 
 有关更多信息，请参阅访问者设计模式。
 
 ### 例子
 
-显示如何使用字段集合。
+展示如何使用字段集合。
 
 ```csharp
 {

@@ -20,23 +20,14 @@ public Paragraph[] ToArray()
 
 ### 例子
 
-展示如何从 NodeCollection 创建数组。
+演示如何从 NodeCollection 创建数组。
 
 ```csharp
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
+Document doc = new Document(MyDir + "Paragraphs.docx");
 
-builder.Writeln("The first paragraph");
-builder.Writeln("The second paragraph");
-builder.Writeln("The third paragraph");
-builder.Writeln("The fourth paragraph");
+Paragraph[] paras = doc.FirstSection.Body.Paragraphs.ToArray();
 
-// 在枚举中间从集合中删除一个节点。
-foreach (Paragraph para in doc.FirstSection.Body.Paragraphs.ToArray())
-    if (para.Range.Text.Contains("third"))
-        para.Remove();
-
-Assert.False(doc.GetText().Contains("The third paragraph"));
+Assert.AreEqual(22, paras.Length);
 ```
 
 展示如何在枚举期间使用“热移除”移除节点。

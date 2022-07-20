@@ -16,7 +16,7 @@ public RevisionGroup this[int index] { get; }
 
 ### Примеры
 
-Показывает, как получить группу правок в документе.
+Показывает, как получить группу редакций в документе.
 
 ```csharp
 Document doc = new Document(MyDir + "Revisions.docx");

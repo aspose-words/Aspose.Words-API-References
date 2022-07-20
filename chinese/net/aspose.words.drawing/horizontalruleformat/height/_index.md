@@ -1,14 +1,14 @@
 ---
 title: Height
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置水平线的高度
+description: 获取或设置水平尺的高度
 type: docs
 weight: 30
 url: /zh/net/aspose.words.drawing/horizontalruleformat/height/
 ---
 ## HorizontalRuleFormat.Height property
 
-获取或设置水平线的高度。
+获取或设置水平尺的高度。
 
 ```csharp
 public double Height { get; set; }
@@ -22,15 +22,15 @@ public double Height { get; set; }
 
 ### 评论
 
-这是Height属性。
+这是一个快捷方式[`Height`](../../shapebase/height)财产。
 
-有效值范围从0到1584（含）。
+有效值范围从 0 到 1584（含）。
 
 默认值为 1.5。
 
 ### 例子
 
-展示如何插入水平线形，并自定义其格式。
+显示如何插入水平线形，并自定义其格式。
 
 ```csharp
 Document doc = new Document();

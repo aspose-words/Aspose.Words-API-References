@@ -16,7 +16,7 @@ public Border Vertical { get; }
 
 ### 例子
 
-显示如何将设置应用于表格行格式的垂直边框。
+展示如何将垂直边框设置应用到表格行的格式。
 
 ```csharp
 Document doc = new Document();
@@ -35,18 +35,18 @@ for (int i = 0; i < 3; i++)
     Row row = builder.EndRow();
     BorderCollection borders = row.RowFormat.Borders;
 
-     // 调整将出现在行之间的边框的外观。
+    // 调整将出现在行之间的边框的外观。
     borders.Horizontal.Color = Color.Red;
     borders.Horizontal.LineStyle = LineStyle.Dot;
     borders.Horizontal.LineWidth = 2.0d;
 
-     // 调整将出现在单元格之间的边框的外观。
+    // 调整将出现在单元格之间的边框的外观。
     borders.Vertical.Color = Color.Blue;
     borders.Vertical.LineStyle = LineStyle.Dot;
     borders.Vertical.LineWidth = 2.0d;
 }
 
- // 一种行格式，和一个单元格的内段使用不同的边框设置。
+// 行格式和单元格的内部段落使用不同的边框设置。
 Border border = table.FirstRow.FirstCell.LastParagraph.ParagraphFormat.Borders.Vertical;
 
 Assert.AreEqual(Color.Empty.ToArgb(), border.Color.ToArgb());

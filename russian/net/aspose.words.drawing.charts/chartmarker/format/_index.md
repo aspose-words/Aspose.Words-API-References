@@ -1,14 +1,14 @@
 ---
 title: Format
 second_title: Справочник по API Aspose.Words для .NET
-description: Предоставляет доступ к заливке и форматированию строки этого маркера.
+description: Предоставляет доступ к заполнению и форматированию линии этого маркера.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.drawing.charts/chartmarker/format/
 ---
 ## ChartMarker.Format property
 
-Предоставляет доступ к заливке и форматированию строки этого маркера.
+Предоставляет доступ к заполнению и форматированию линии этого маркера.
 
 ```csharp
 public ChartFormat Format { get; }

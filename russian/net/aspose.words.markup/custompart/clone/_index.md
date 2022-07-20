@@ -1,14 +1,14 @@
 ---
 title: Clone
 second_title: Справочник по API Aspose.Words для .NET
-description: Делает достаточно глубокую копию объекта. Не дублирует байты значенияDataaspose.words.markup/custompart/data.
+description: Создает достаточно глубокую копию объекта. Не дублирует байтыDataaspose.words.markup/custompart/data значение.
 type: docs
 weight: 70
 url: /ru/net/aspose.words.markup/custompart/clone/
 ---
 ## CustomPart.Clone method
 
-Делает "достаточно глубокую" копию объекта. Не дублирует байты значения[`Data`](../data).
+Создает «достаточно глубокую» копию объекта. Не дублирует байты[`Data`](../data) значение.
 
 ```csharp
 public CustomPart Clone()

@@ -1,14 +1,14 @@
 ---
 title: NodeInserted
 second_title: Aspose.Words for .NET API 参考
-description: 当属于该文档的节点已插入另一个节点时调用
+description: 当属于此文档的节点已插入另一个节点时调用
 type: docs
 weight: 10
 url: /zh/net/aspose.words/inodechangingcallback/nodeinserted/
 ---
 ## INodeChangingCallback.NodeInserted method
 
-当属于该文档的节点已插入另一个节点时调用。
+当属于此文档的节点已插入另一个节点时调用。
 
 ```csharp
 public void NodeInserted(NodeChangingArgs args)

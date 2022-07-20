@@ -1,26 +1,26 @@
 ---
 title: Aspose.Words.Drawing.Charts
 second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Drawing.Charts 命名空间提供允许访问 Microsoft 中的图表的类Word 文档
+description: 这 Aspose.Words.Drawing.Charts命名空间提供允许访问 Microsoft Word 文档中的图表的类
 type: docs
 weight: 60
 url: /zh/net/aspose.words.drawing.charts/
 ---
-**Aspose.Words.Drawing.Charts** 命名空间提供允许访问 Microsoft 中的图表的类Word 文档。
+这 **Aspose.Words.Drawing.Charts**命名空间提供允许访问 Microsoft Word 文档中的图表的类。
 
 ## 课程
 
 | 班级 | 描述 |
 | --- | --- |
 | [AxisBound](./axisbound) | 表示轴值的最小或最大界限。 |
-| [AxisDisplayUnit](./axisdisplayunit) | 提供对数值轴显示单位的缩放选项的访问。 |
+| [AxisDisplayUnit](./axisdisplayunit) | 提供对数值轴显示单位缩放选项的访问。 |
 | [AxisScaling](./axisscaling) | 表示轴的缩放选项。 |
 | [Chart](./chart) | 提供对图表形状属性的访问。 |
 | [ChartAxis](./chartaxis) | 表示图表的轴选项。 |
 | [ChartDataLabel](./chartdatalabel) | 表示图表点或趋势线上的数据标签。 |
-| [ChartDataLabelCollection](./chartdatalabelcollection) | 表示[`ChartDataLabel`](../aspose.words.drawing.charts/chartdatalabel)的集合。 |
+| [ChartDataLabelCollection](./chartdatalabelcollection) | 代表一个集合[`ChartDataLabel`](../aspose.words.drawing.charts/chartdatalabel). |
 | [ChartDataPoint](./chartdatapoint) | 允许指定图表上单个数据点的格式。 |
-| [ChartDataPointCollection](./chartdatapointcollection) | 表示[`ChartDataPoint`](../aspose.words.drawing.charts/chartdatapoint)的集合。 |
+| [ChartDataPointCollection](./chartdatapointcollection) | 代表一个集合[`ChartDataPoint`](../aspose.words.drawing.charts/chartdatapoint). |
 | [ChartFormat](./chartformat) | 表示图表元素的格式。 |
 | [ChartLegend](./chartlegend) | 表示图表图例属性。 |
 | [ChartLegendEntry](./chartlegendentry) | 表示图表图例条目。 |
@@ -28,7 +28,7 @@ url: /zh/net/aspose.words.drawing.charts/
 | [ChartMarker](./chartmarker) | 表示图表数据标记。 |
 | [ChartNumberFormat](./chartnumberformat) | 表示父元素的数字格式。 |
 | [ChartSeries](./chartseries) | 表示图表系列属性。 |
-| [ChartSeriesCollection](./chartseriescollection) | 表示[`ChartSeries`](../aspose.words.drawing.charts/chartseries)的集合。 |
+| [ChartSeriesCollection](./chartseriescollection) | 代表一个集合[`ChartSeries`](../aspose.words.drawing.charts/chartseries). |
 | [ChartTitle](./charttitle) | 提供对图表标题属性的访问。 |
 ## 接口
 

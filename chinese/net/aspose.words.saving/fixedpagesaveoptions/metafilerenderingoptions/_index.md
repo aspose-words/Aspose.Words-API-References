@@ -16,7 +16,7 @@ public MetafileRenderingOptions MetafileRenderingOptions { get; set; }
 
 ### 例子
 
-显示添加了位图渲染的后备和更改有关不受支持的元文件记录的警告类型。
+Shows 添加了对位图渲染的回退，并更改了有关不受支持的元文件记录的警告类型。
 
 ```csharp
 {

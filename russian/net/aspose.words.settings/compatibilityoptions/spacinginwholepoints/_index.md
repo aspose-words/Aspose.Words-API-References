@@ -1,14 +1,14 @@
 ---
 title: SpacingInWholePoints
 second_title: Справочник по API Aspose.Words для .NET
-description: Расширять/уплотнять текст только целыми точками.
+description: Расширить/сжать текст только целыми точками.
 type: docs
 weight: 450
 url: /ru/net/aspose.words.settings/compatibilityoptions/spacinginwholepoints/
 ---
 ## CompatibilityOptions.SpacingInWholePoints property
 
-Расширять/уплотнять текст только целыми точками.
+Расширить/сжать текст только целыми точками.
 
 ```csharp
 public bool SpacingInWholePoints { get; set; }

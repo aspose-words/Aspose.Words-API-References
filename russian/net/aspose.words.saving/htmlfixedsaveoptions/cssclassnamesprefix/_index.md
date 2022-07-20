@@ -1,14 +1,14 @@
 ---
 title: CssClassNamesPrefix
 second_title: Справочник по API Aspose.Words для .NET
-description: Указывает префикс который добавляется ко всем именам классов в файле style.css. Значение по умолчанию aw .
+description: Указывает префикс который добавляется ко всем именам классов в файле style.css. Значение по умолчаниюоу .
 type: docs
 weight: 20
 url: /ru/net/aspose.words.saving/htmlfixedsaveoptions/cssclassnamesprefix/
 ---
 ## HtmlFixedSaveOptions.CssClassNamesPrefix property
 
-Указывает префикс, который добавляется ко всем именам классов в файле style.css. Значение по умолчанию:` "aw"` .
+Указывает префикс, который добавляется ко всем именам классов в файле style.css. Значение по умолчанию:`"оу"` .
 
 ```csharp
 public string CssClassNamesPrefix { get; set; }
@@ -16,7 +16,7 @@ public string CssClassNamesPrefix { get; set; }
 
 ### Примеры
 
-Показывает, как поместить CSS в отдельный файл и добавить префикс ко всем именам классов CSS.
+Показывает, как поместить CSS в отдельный файл и добавить префикс ко всем именам его классов CSS.
 
 ```csharp
 Document doc = new Document(MyDir + "Bookmarks.docx");

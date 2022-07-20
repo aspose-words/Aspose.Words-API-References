@@ -16,7 +16,7 @@ public double GradientAngle { get; set; }
 
 ### Примеры
 
-Показывает, как заполнить форму градиентом.
+Показывает, как заполнить фигуру градиентами.
 
 ```csharp
 Document doc = new Document();

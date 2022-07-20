@@ -1,14 +1,14 @@
 ---
 title: KnownTypeSet
 second_title: Aspose.Words for .NET API 参考
-description: 表示包含Typeobjects 的无序集即唯一项的集合可以在报告模板中使用完全或部分限定名称来调用相应的 类型的静态成员执行类型转换等
+description: 表示一个无序集即唯一项的集合包含Type对象 可以在报告模板中使用完全或部分限定名称来调用相应的 类型的静态成员执行类型转换等
 type: docs
-weight: 4400
+weight: 4450
 url: /zh/net/aspose.words.reporting/knowntypeset/
 ---
 ## KnownTypeSet class
 
-表示包含Typeobjects 的无序集（即唯一项的集合）可以在报告模板中使用完全或部分限定名称来调用相应的 类型的静态成员、执行类型转换等。
+表示一个无序集（即唯一项的集合），包含Type对象 可以在报告模板中使用完全或部分限定名称来调用相应的 类型的静态成员、执行类型转换等。
 
 ```csharp
 public class KnownTypeSet : IEnumerable<Type>
@@ -24,10 +24,10 @@ public class KnownTypeSet : IEnumerable<Type>
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Add](../../aspose.words.reporting/knowntypeset/add)(Type) | 将指定的Type对象添加到集合中。在 中抛出ArgumentException以下情况: |
-| [Clear](../../aspose.words.reporting/knowntypeset/clear)() | 从集合中删除所有项目。 |
-| [GetEnumerator](../../aspose.words.reporting/knowntypeset/getenumerator)() | 返回一个IEnumerator对象以迭代集合中的项目。 |
-| [Remove](../../aspose.words.reporting/knowntypeset/remove)(Type) | 从集合中移除指定的Type对象。如果 *type*为空，则抛出ArgumentException。 |
+| [Add](../../aspose.words.reporting/knowntypeset/add)(Type) | 添加指定的Type反对集合。投掷ArgumentException在 以下情况： |
+| [Clear](../../aspose.words.reporting/knowntypeset/clear)() | 从集合中移除所有项目。 |
+| [GetEnumerator](../../aspose.words.reporting/knowntypeset/getenumerator)() | 返回一个IEnumerator对象迭代集合中的项目。 |
+| [Remove](../../aspose.words.reporting/knowntypeset/remove)(Type) | 删除指定的Type集合中的对象。投掷ArgumentExceptionif *type*为空。 |
 
 ### 也可以看看
 

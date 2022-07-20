@@ -1,14 +1,14 @@
 ---
 title: ExportLanguageInformation
 second_title: Aspose.Words for .NET API 参考
-description: 指定语言信息是否导出为 HTMLMHTML 或 EPUB 默认为 false 
+description: 指定语言信息是否导出为 HTMLMHTML 或 EPUB 默认为错误的.
 type: docs
 weight: 190
 url: /zh/net/aspose.words.saving/htmlsaveoptions/exportlanguageinformation/
 ---
 ## HtmlSaveOptions.ExportLanguageInformation property
 
-指定语言信息是否导出为 HTML、MHTML 或 EPUB。 默认为` false` 。
+指定语言信息是否导出为 HTML、MHTML 或 EPUB。 默认为`错误的`.
 
 ```csharp
 public bool ExportLanguageInformation { get; set; }
@@ -16,7 +16,7 @@ public bool ExportLanguageInformation { get; set; }
 
 ### 评论
 
-当此属性设置为` true` Aspose.Words 输出 **lang** 文档上的 HTML 属性 指定语言的元素。这可能需要保留与语言相关的语义。
+当此属性设置为`真的`Aspose.Words 输出 **郎**指定语言的 document 元素上的 HTML 属性。这可能需要保留与语言相关的语义。
 
 ### 例子
 

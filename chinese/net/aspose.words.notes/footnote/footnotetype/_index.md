@@ -22,17 +22,17 @@ public FootnoteType FootnoteType { get; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
- // 下面是两种将编号引用附加到文本的方法。这两个引用都将添加 a
- // 我们插入它们的位置的小上标参考标记。
- // 引用标记，默认为文档中所有引用中引用的索引号
- // 每个引用还会创建一个条目，该条目将具有与正文中相同的引用标记 text
- // 和参考文本，我们将把它传递给文档构建器的“InsertFootnote”方法。
+// 下面是两种将编号引用附加到文本的方法。这两个参考将添加一个
+// 我们插入它们的位置的小上标参考标记。
+// 引用标记，默认是文档中所有引用中引用的索引号。
+// 每个引用也将创建一个条目，该条目将具有与正文中相同的引用标记
+// 和参考文本，我们将把它传递给文档构建器的“InsertFootnote”方法。
 // 1 - 脚注，其条目将与其引用的文本出现在同一页面上：
 builder.Write("Footnote referenced main body text.");
 Footnote footnote = builder.InsertFootnote(FootnoteType.Footnote, 
     "Footnote text, will appear at the bottom of the page that contains the referenced text.");
 
- // 2 - 尾注，其条目将出现在文档的末尾：
+// 2 - 一个尾注，其条目将出现在文档的末尾：
 builder.Write("Endnote referenced main body text.");
 Footnote endnote = builder.InsertFootnote(FootnoteType.Endnote, 
     "Endnote text, will appear at the very end of the document.");

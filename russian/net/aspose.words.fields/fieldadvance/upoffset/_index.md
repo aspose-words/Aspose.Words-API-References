@@ -1,14 +1,14 @@
 ---
 title: UpOffset
 second_title: Справочник по API Aspose.Words для .NET
-description: Получает или задает число пунктов на которое текст следующий за полем должен быть перемещен вверх.
+description: Получает или задает количество пунктов на которое текст следующий за полем должен быть перемещен вверх.
 type: docs
 weight: 60
 url: /ru/net/aspose.words.fields/fieldadvance/upoffset/
 ---
 ## FieldAdvance.UpOffset property
 
-Получает или задает число пунктов, на которое текст, следующий за полем, должен быть перемещен вверх.
+Получает или задает количество пунктов, на которое текст, следующий за полем, должен быть перемещен вверх.
 
 ```csharp
 public string UpOffset { get; set; }

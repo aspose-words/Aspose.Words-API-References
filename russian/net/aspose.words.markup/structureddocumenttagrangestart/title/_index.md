@@ -1,14 +1,14 @@
 ---
 title: Title
 second_title: Справочник по API Aspose.Words для .NET
-description: Задает понятное имя связанное с этим тегом структурированного документа. Не может быть нулевым.
+description: Указывает понятное имя связанное с этим тегом структурированного документа. Не может быть нулевым.
 type: docs
 weight: 160
 url: /ru/net/aspose.words.markup/structureddocumenttagrangestart/title/
 ---
 ## StructuredDocumentTagRangeStart.Title property
 
-Задает понятное имя, связанное с этим тегом структурированного документа. Не может быть нулевым.
+Указывает понятное имя, связанное с этим тегом структурированного документа. Не может быть нулевым.
 
 ```csharp
 public string Title { get; set; }

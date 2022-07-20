@@ -1,14 +1,14 @@
 ---
 title: NodeCollection
 second_title: Aspose.Words for .NET API 参考
-description: 表示特定类型的节点的集合
+description: 表示特定类型的节点集合
 type: docs
-weight: 3910
+weight: 3960
 url: /zh/net/aspose.words/nodecollection/
 ---
 ## NodeCollection class
 
-表示特定类型的节点的集合。
+表示特定类型的节点集合。
 
 ```csharp
 public class NodeCollection : IEnumerable<Node>
@@ -25,31 +25,31 @@ public class NodeCollection : IEnumerable<Node>
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Add](../../aspose.words/nodecollection/add)(Node) | 将节点添加到集合的末尾。 |
+| [Add](../../aspose.words/nodecollection/add)(Node) | 将一个节点添加到集合的末尾。 |
 | [Clear](../../aspose.words/nodecollection/clear)() | 从此集合和文档中删除所有节点。 |
-| [Contains](../../aspose.words/nodecollection/contains)(Node) | 确定节点是否在集合中。 |
+| [Contains](../../aspose.words/nodecollection/contains)(Node) | 确定一个节点是否在集合中。 |
 | [GetEnumerator](../../aspose.words/nodecollection/getenumerator)() | 在节点集合上提供简单的“foreach”样式迭代。 |
 | [IndexOf](../../aspose.words/nodecollection/indexof)(Node) | 返回指定节点的从零开始的索引。 |
-| [Insert](../../aspose.words/nodecollection/insert)(int, Node) | 将节点插入到集合中指定索引处。 |
+| [Insert](../../aspose.words/nodecollection/insert)(int, Node) | 将一个节点插入到集合中指定索引处。 |
 | [Remove](../../aspose.words/nodecollection/remove)(Node) | 从集合和文档中删除节点。 |
 | [RemoveAt](../../aspose.words/nodecollection/removeat)(int) | 从集合和文档中删除指定索引处的节点。 |
 | [ToArray](../../aspose.words/nodecollection/toarray)() | 将集合中的所有节点复制到新的节点数组中。 |
 
 ### 评论
 
-**NodeCollection** 没有相反，拥有它包含的节点只是指定类型的节点 的选择，但节点存储在其各自父节点下的树中。
+**节点集合**不拥有它包含的节点，而只是指定类型的nodes 的选择，但节点存储在它们各自父节点下的树中。
 
-**NodeCollection** 支持索引访问、迭代并提供添加和删除方法。
+**节点集合**支持索引访问、迭代并提供添加和删除方法。
 
-**NodeCollection** 集合是“实时的”，即更改节点对象的子对象创建它的立即反映在 **NodeCollection** 属性和方法返回的节点中。
+这 **节点集合**集合是“实时的”，即对创建它的节点 object 的子节点所做的更改会立即反映在由 **节点集合** 属性和方法。
 
-**NodeCollection** 由Boolean) 并且还用作类型化节点集合的基类，例如[`SectionCollection`](../sectioncollection)， [`ParagraphCollection`](../paragraphcollection)等
+**节点集合**由返回[`GetChildNodes`](../compositenode/getchildnodes) 并且还用作类型化节点集合的基类，例如[`SectionCollection`](../sectioncollection), [`ParagraphCollection`](../paragraphcollection)等等
 
-**NodeCollection** 可以是“平面”并且仅包含创建它的节点的直接子节点 来自，或者它可以是“深”并且包含所有后代子节点。
+**节点集合**可以是“平面的”并且只包含创建它的节点的直接子节点 ，或者它可以是“深的”并且包含所有后代子节点。
 
 ### 例子
 
-显示如何用图像形状替换所有文本框形状。
+演示如何用图像形状替换所有文本框形状。
 
 ```csharp
 Document doc = new Document(MyDir + "Textboxes in drawing canvas.docx");

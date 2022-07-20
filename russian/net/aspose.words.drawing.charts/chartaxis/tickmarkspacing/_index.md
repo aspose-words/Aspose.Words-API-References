@@ -1,14 +1,14 @@
 ---
 title: TickMarkSpacing
 second_title: Справочник по API Aspose.Words для .NET
-description: Получает или задает интервал через который рисуются деления.
+description: Получает или задает интервал с которым рисуются деления.
 type: docs
 weight: 250
 url: /ru/net/aspose.words.drawing.charts/chartaxis/tickmarkspacing/
 ---
 ## ChartAxis.TickMarkSpacing property
 
-Получает или задает интервал, через который рисуются деления.
+Получает или задает интервал, с которым рисуются деления.
 
 ```csharp
 public int TickMarkSpacing { get; set; }
@@ -16,9 +16,9 @@ public int TickMarkSpacing { get; set; }
 
 ### Примечания
 
-Свойство действует для осей текстовой категории и ряда. Не поддерживается MS Office 2016 новые графики.
+Свойство действует для текстовых категорий и осей серий. Не поддерживается новыми диаграммами MS Office 2016 .
 
-Допустимый диапазон значений больше или равен 1.
+Допустимый диапазон значения больше или равен 1.
 
 ### Примеры
 

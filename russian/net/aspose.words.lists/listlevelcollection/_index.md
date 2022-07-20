@@ -3,7 +3,7 @@ title: ListLevelCollection
 second_title: Справочник по API Aspose.Words для .NET
 description: Коллекция форматирования списка для каждого уровня в списке.
 type: docs
-weight: 3270
+weight: 3320
 url: /ru/net/aspose.words.lists/listlevelcollection/
 ---
 ## ListLevelCollection class
@@ -35,64 +35,66 @@ public class ListLevelCollection : IEnumerable<ListLevel>
 Document doc = new Document();
 
 // Список позволяет нам организовывать и оформлять наборы абзацев префиксными символами и отступами.
- // Мы можем создавать вложенные списки, увеличивая уровень отступа. 
- // Мы можем начать и закончить список, используя свойство "ListFormat" конструктора документов. 
- // Каждый абзац, который мы добавляем между началом и концом списка, станет элементом списка.
- // Создайте список из шаблона Microsoft Word и настройте первые два уровня списка.
-List list = doc.Lists.Add(ListTemplate.NumberDefault);
+// Мы можем создавать вложенные списки, увеличивая уровень отступа. 
+// Мы можем начать и закончить список, используя свойство "ListFormat" конструктора документов. 
+// Каждый абзац, который мы добавляем между началом и концом списка, станет элементом списка.
+// Мы можем содержать весь объект List в стиле.
+Style listStyle = doc.Styles.Add(StyleType.List, "MyListStyle");
 
-ListLevel listLevel = list.ListLevels[0];
-listLevel.Font.Color = Color.Red;
-listLevel.Font.Size = 24;
-listLevel.NumberStyle = NumberStyle.OrdinalText;
-listLevel.StartAt = 21;
-listLevel.NumberFormat = "\x0000";
+List list1 = listStyle.List;
 
-listLevel.NumberPosition = -36;
-listLevel.TextPosition = 144;
-listLevel.TabPosition = 144;
+Assert.True(list1.IsListStyleDefinition);
+Assert.False(list1.IsListStyleReference);
+Assert.True(list1.IsMultiLevel);
+Assert.AreEqual(listStyle, list1.Style);
 
-listLevel = list.ListLevels[1];
-listLevel.Alignment = ListLevelAlignment.Right;
-listLevel.NumberStyle = NumberStyle.Bullet;
-listLevel.Font.Name = "Wingdings";
-listLevel.Font.Color = Color.Blue;
-listLevel.Font.Size = 24;
+// Изменяем внешний вид всех уровней списка в нашем списке.
+foreach (ListLevel level in list1.ListLevels)
+{
+    level.Font.Name = "Verdana";
+    level.Font.Color = Color.Blue;
+    level.Font.Bold = true;
+}
 
- // Это значение NumberFormat создаст символы маркированного списка в форме звезды.
-listLevel.NumberFormat = "\xf0af";
-listLevel.TrailingCharacter = ListTrailingCharacter.Space;
-listLevel.NumberPosition = 144;
-
- // Создаем абзацы и применяем к ним оба уровня списка нашего пользовательского форматирования списка.
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-builder.ListFormat.List = list;
-builder.Writeln("The quick brown fox...");
-builder.Writeln("The quick brown fox...");
+builder.Writeln("Using list style first time:");
 
-builder.ListFormat.ListIndent();
-builder.Writeln("jumped over the lazy dog.");
-builder.Writeln("jumped over the lazy dog.");
+// Создать другой список из списка в стиле.
+List list2 = doc.Lists.Add(listStyle);
 
-builder.ListFormat.ListOutdent();
-builder.Writeln("The quick brown fox...");
+Assert.False(list2.IsListStyleDefinition);
+Assert.True(list2.IsListStyleReference);
+Assert.AreEqual(listStyle, list2.Style);
 
+// Добавляем несколько элементов списка, которые будут отформатированы в нашем списке.
+builder.ListFormat.List = list2;
+builder.Writeln("Item 1");
+builder.Writeln("Item 2");
 builder.ListFormat.RemoveNumbers();
 
-builder.Document.Save(ArtifactsDir + "Lists.CreateCustomList.docx");
+builder.Writeln("Using list style second time:");
+
+// Создать и применить другой список на основе стиля списка.
+List list3 = doc.Lists.Add(listStyle);
+builder.ListFormat.List = list3;
+builder.Writeln("Item 1");
+builder.Writeln("Item 2");
+builder.ListFormat.RemoveNumbers();
+
+builder.Document.Save(ArtifactsDir + "Lists.CreateAndUseListStyle.docx");
 ```
 
-Показывает, как применять форматирование пользовательского списка к абзацам при использовании DocumentBuilder.
+Показывает, как применить форматирование пользовательского списка к абзацам при использовании DocumentBuilder.
 
 ```csharp
 Document doc = new Document();
 
 // Список позволяет нам организовывать и оформлять наборы абзацев префиксными символами и отступами.
- // Мы можем создавать вложенные списки, увеличивая уровень отступа. 
- // Мы можем начать и закончить список, используя свойство "ListFormat" конструктора документов. 
- // Каждый абзац, который мы добавляем между началом и концом списка, станет элементом списка.
- // Создайте список из шаблона Microsoft Word и настройте первые два уровня списка.
+// Мы можем создавать вложенные списки, увеличивая уровень отступа. 
+// Мы можем начать и закончить список, используя свойство "ListFormat" конструктора документов. 
+// Каждый абзац, который мы добавляем между началом и концом списка, станет элементом списка.
+// Создайте список из шаблона Microsoft Word и настройте первые два уровня списка.
 List list = doc.Lists.Add(ListTemplate.NumberDefault);
 
 ListLevel listLevel = list.ListLevels[0];
@@ -113,12 +115,12 @@ listLevel.Font.Name = "Wingdings";
 listLevel.Font.Color = Color.Blue;
 listLevel.Font.Size = 24;
 
- // Это значение NumberFormat создаст символы маркированного списка в форме звезды.
+// Это значение NumberFormat создаст символы маркированного списка в форме звезды.
 listLevel.NumberFormat = "\xf0af";
 listLevel.TrailingCharacter = ListTrailingCharacter.Space;
 listLevel.NumberPosition = 144;
 
- // Создаем абзацы и применяем к ним оба уровня списка нашего пользовательского форматирования списка.
+// Создаем абзацы и применяем к ним оба уровня списка нашего пользовательского форматирования списка.
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.ListFormat.List = list;

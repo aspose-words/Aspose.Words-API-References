@@ -1,14 +1,14 @@
 ---
 title: ExportFontFormat
 second_title: Справочник по API Aspose.Words для .NET
-description: Указывает формат который используется для экспорта шрифтов при отображении в фиксированный формат HTML.
+description: Указывает формат используемый для экспорта шрифтов при отображении в фиксированный формат HTML.
 type: docs
-weight: 4680
+weight: 4730
 url: /ru/net/aspose.words.saving/exportfontformat/
 ---
 ## ExportFontFormat enumeration
 
-Указывает формат, который используется для экспорта шрифтов при отображении в фиксированный формат HTML.
+Указывает формат, используемый для экспорта шрифтов при отображении в фиксированный формат HTML.
 
 ```csharp
 public enum ExportFontFormat
@@ -18,12 +18,12 @@ public enum ExportFontFormat
 
 | Имя | Ценность | Описание |
 | --- | --- | --- |
-| Woff | `0` | WOFF (формат веб-открытого шрифта). |
+| Woff | `0` | WOFF (формат открытого веб-шрифта). |
 | Ttf | `1` | TTF (формат шрифта TrueType). |
 
 ### Примеры
 
-Показывает, как использовать шрифты только из целевого машине при сохранении документа в HTML.
+Показывает, как использовать шрифты только с целевого компьютера при сохранении документа в формате HTML.
 
 ```csharp
 Document doc = new Document(MyDir + "Bullet points with alternative font.docx");

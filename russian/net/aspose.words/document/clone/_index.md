@@ -1,14 +1,14 @@
 ---
 title: Clone
 second_title: Справочник по API Aspose.Words для .NET
-description: Выполняет глубокую копиюDocumentaspose.words/document.
+description: Выполняет глубокую копиюDocumentaspose.words/document .
 type: docs
 weight: 530
 url: /ru/net/aspose.words/document/clone/
 ---
 ## Document.Clone method
 
-Выполняет глубокую копию[`Document`](../../document).
+Выполняет глубокую копию[`Document`](../../document) .
 
 ```csharp
 public Document Clone()

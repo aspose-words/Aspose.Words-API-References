@@ -16,7 +16,7 @@ public PdfEncryptionDetails(string userPassword, string ownerPassword)
 
 ### 例子
 
-显示如何设置已保存 PDF 文档的权限。
+展示如何对已保存的 PDF 文档设置权限。
 
 ```csharp
 Document doc = new Document();

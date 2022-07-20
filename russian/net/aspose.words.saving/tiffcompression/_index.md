@@ -3,7 +3,7 @@ title: TiffCompression
 second_title: Справочник по API Aspose.Words для .NET
 description: Указывает какой тип сжатия следует применять при сохранении изображений страниц в файл TIFF.
 type: docs
-weight: 5300
+weight: 5350
 url: /ru/net/aspose.words.saving/tiffcompression/
 ---
 ## TiffCompression enumeration
@@ -20,7 +20,7 @@ public enum TiffCompression
 | --- | --- | --- |
 | None | `0` | Указывает отсутствие сжатия. |
 | Rle | `1` | Указывает схему сжатия RLE. |
-| Lzw | `2` | Указывает схему сжатия LZW. В Java эмулируется сжатием Deflate (Zip). |
+| Lzw | `2` | Определяет схему сжатия LZW. В Java, эмулируемом сжатием Deflate (Zip). |
 | Ccitt3 | `3` | Указывает схему сжатия CCITT3. |
 | Ccitt4 | `4` | Указывает схему сжатия CCITT4. |
 

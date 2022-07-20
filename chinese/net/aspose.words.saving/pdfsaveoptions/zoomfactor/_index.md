@@ -1,14 +1,14 @@
 ---
 title: ZoomFactor
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置确定文档缩放因子以百分比为单位的值
+description: 获取或设置确定文档缩放系数百分比的值
 type: docs
 weight: 300
 url: /zh/net/aspose.words.saving/pdfsaveoptions/zoomfactor/
 ---
 ## PdfSaveOptions.ZoomFactor property
 
-获取或设置确定文档缩放因子（以百分比为单位）的值。
+获取或设置确定文档缩放系数（百分比）的值。
 
 ```csharp
 public int ZoomFactor { get; set; }
@@ -16,7 +16,7 @@ public int ZoomFactor { get; set; }
 
 ### 评论
 
-此值仅在ZoomBehavior设置为ZoomFactor。
+此值仅在以下情况下使用[`ZoomBehavior`](../zoombehavior)被设定为ZoomFactor.
 
 ### 例子
 

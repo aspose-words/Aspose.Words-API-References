@@ -1,14 +1,14 @@
 ---
 title: IgnoreHeaderFooter
 second_title: Справочник по API Aspose.Words для .NET
-description: Получает или задает логическое значение указывающее что исходное форматирование содержимого верхних и нижних колонтитулов игнорируется ifKeepSourceFormatting. Значение по умолчанию true .
+description: Получает или задает логическое значение указывающее что исходное форматирование содержимого верхних и нижних колонтитулов игнорируется  еслиKeepSourceFormatting используется режим. Значение по умолчаниюистинный .
 type: docs
 weight: 30
 url: /ru/net/aspose.words/importformatoptions/ignoreheaderfooter/
 ---
 ## ImportFormatOptions.IgnoreHeaderFooter property
 
-Получает или задает логическое значение, указывающее, что исходное форматирование содержимого верхних и нижних колонтитулов игнорируется ifKeepSourceFormatting. Значение по умолчанию:` true` .
+Получает или задает логическое значение, указывающее, что исходное форматирование содержимого верхних и нижних колонтитулов игнорируется , еслиKeepSourceFormatting используется режим. Значение по умолчанию:`истинный` .
 
 ```csharp
 public bool IgnoreHeaderFooter { get; set; }

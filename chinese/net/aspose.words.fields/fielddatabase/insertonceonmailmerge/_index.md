@@ -16,7 +16,7 @@ public bool InsertOnceOnMailMerge { get; set; }
 
 ### 例子
 
-展示如何从数据库中提取数据并将其作为字段插入到文档中。
+演示如何从数据库中提取数据并将其作为字段插入到文档中。
 
 ```csharp
 Document doc = new Document();

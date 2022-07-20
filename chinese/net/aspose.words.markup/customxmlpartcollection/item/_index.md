@@ -16,7 +16,7 @@ public CustomXmlPart this[int index] { get; set; }
 
 | 范围 | 描述 |
 | --- | --- |
-| index | 从零开始的项目索引。 |
+| index | 项目的从零开始的索引。 |
 
 ### 例子
 

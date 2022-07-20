@@ -24,15 +24,15 @@ public enum ChartType
 | Area3D | `3` | 3D 面积图。 |
 | Area3DStacked | `4` | 3D 堆积面积图。 |
 | Area3DPercentStacked | `5` | 3D 100% 堆积面积图。 |
-| Bar | `6` | 条形图。 |
+| Bar | `6` | 条形图. |
 | BarStacked | `7` | 堆积条形图。 |
 | BarPercentStacked | `8` | 100% 堆积条形图。 |
 | Bar3D | `9` | 3D 条形图。 |
 | Bar3DStacked | `10` | 3D 堆积条形图。 |
 | Bar3DPercentStacked | `11` | 3D 100% 堆积条形图。 |
-| Bubble | `12` | 气泡图。 |
+| Bubble | `12` | 气泡图. |
 | Bubble3D | `13` | 3D 气泡图。 |
-| Column | `14` | 柱形图。 |
+| Column | `14` | 柱形图. |
 | ColumnStacked | `15` | 堆积柱形图。 |
 | ColumnPercentStacked | `16` | 100% 堆积柱形图。 |
 | Column3D | `17` | 3D 柱形图。 |
@@ -49,9 +49,9 @@ public enum ChartType
 | PieOfBar | `28` | 条形图饼图。 |
 | PieOfPie | `29` | 饼图。 |
 | Radar | `30` | 雷达图。 |
-| Scatter | `31` | 散点图。 |
-| Stock | `32` | 股票图表。 |
-| Surface | `33` | 曲面图。 |
+| Scatter | `31` | 散点图. |
+| Stock | `32` | 股票图表. |
+| Surface | `33` | 曲面图. |
 | Surface3D | `34` | 3D 曲面图。 |
 
 ### 例子

@@ -16,7 +16,7 @@ public string NameAscii { get; set; }
 
 ### Примеры
 
-Показывает, как Microsoft Word может комбинировать два разных шрифта в один забег.
+Показывает, как Microsoft Word может комбинировать два разных шрифта за один запуск.
 
 ```csharp
 Document doc = new Document();

@@ -1,14 +1,14 @@
 ---
 title: MWSmallCaps
 second_title: Aspose.Words for .NET API 参考
-description: 模拟 Macintosh Small Caps 格式的 Word 5.x
+description: 为 Macintosh Small Caps Formatting 模拟 Word 5.x
 type: docs
 weight: 320
 url: /zh/net/aspose.words.settings/compatibilityoptions/mwsmallcaps/
 ---
 ## CompatibilityOptions.MWSmallCaps property
 
-模拟 Macintosh Small Caps 格式的 Word 5.x。
+为 Macintosh Small Caps Formatting 模拟 Word 5.x。
 
 ```csharp
 public bool MWSmallCaps { get; set; }

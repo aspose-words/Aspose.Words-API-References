@@ -1,14 +1,14 @@
 ---
 title: InsertHeadings
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置是否将数据库中的字段名称作为列标题插入到 结果表中
+description: 获取或设置是否将数据库中的字段名称作为列标题插入 结果表中
 type: docs
 weight: 60
 url: /zh/net/aspose.words.fields/fielddatabase/insertheadings/
 ---
 ## FieldDatabase.InsertHeadings property
 
-获取或设置是否将数据库中的字段名称作为列标题插入到 结果表中。
+获取或设置是否将数据库中的字段名称作为列标题插入 结果表中。
 
 ```csharp
 public bool InsertHeadings { get; set; }
@@ -16,7 +16,7 @@ public bool InsertHeadings { get; set; }
 
 ### 例子
 
-展示如何从数据库中提取数据并将其作为字段插入到文档中。
+演示如何从数据库中提取数据并将其作为字段插入到文档中。
 
 ```csharp
 Document doc = new Document();

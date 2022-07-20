@@ -16,11 +16,11 @@ public GeneralFormat this[int index] { get; }
 
 | 范围 | 描述 |
 | --- | --- |
-| index | 通用格式的索引。 |
+| index | 一般格式的索引。 |
 
 ### 返回值
 
-通用格式。
+一种通用格式。
 
 ### 例子
 

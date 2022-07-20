@@ -1,14 +1,14 @@
 ---
 title: Format
 second_title: Aspose.Words for .NET API 参考
-description: 提供对此标记的填充和行格式的访问
+description: 提供对此标记的填充和线条格式的访问
 type: docs
 weight: 10
 url: /zh/net/aspose.words.drawing.charts/chartmarker/format/
 ---
 ## ChartMarker.Format property
 
-提供对此标记的填充和行格式的访问。
+提供对此标记的填充和线条格式的访问。
 
 ```csharp
 public ChartFormat Format { get; }
@@ -16,7 +16,7 @@ public ChartFormat Format { get; }
 
 ### 例子
 
-显示如何设置标记格式。
+展示如何设置标记格式。
 
 ```csharp
 Document doc = new Document();

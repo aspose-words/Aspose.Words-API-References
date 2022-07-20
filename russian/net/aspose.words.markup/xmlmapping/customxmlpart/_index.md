@@ -1,14 +1,14 @@
 ---
 title: CustomXmlPart
 second_title: Справочник по API Aspose.Words для .NET
-description: Возвращает пользовательскую часть данных XML с которой сопоставляется тег родительского структурированного документа.
+description: Возвращает пользовательскую часть данных XML с которой сопоставлен тег родительского структурированного документа.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.markup/xmlmapping/customxmlpart/
 ---
 ## XmlMapping.CustomXmlPart property
 
-Возвращает пользовательскую часть данных XML, с которой сопоставляется тег родительского структурированного документа.
+Возвращает пользовательскую часть данных XML, с которой сопоставлен тег родительского структурированного документа.
 
 ```csharp
 public CustomXmlPart CustomXmlPart { get; }

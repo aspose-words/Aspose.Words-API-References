@@ -20,18 +20,18 @@ Aspose.Words не обновляет это свойство.
 
 ### Примеры
 
-Показывает взаимосвязь между "HeadingPairs" и свойства «TitlesOfParts».
+Показывает взаимосвязь между свойствами "HeadingPairs" и "TitlesOfParts".
 
 ```csharp
 Document doc = new Document(MyDir + "Heading pairs and titles of parts.docx");
 
- // Мы можем найти объединенные значения этих коллекций via
- // "Файл" -> "Свойства" -> "Дополнительные свойства" -> Вкладка «Содержание».
-// Свойство HeadingPairs представляет собой набор <string, int> пары that
- // определяет, сколько частей документа охватывает заголовок.
+// Мы можем найти объединенные значения этих коллекций через
+// "Файл" -> "Свойства" -> "Дополнительные свойства" -> Вкладка «Содержание».
+// Свойство HeadingPairs представляет собой набор <string, int> пары, которые
+// определяет, сколько частей документа охватывает заголовок.
 object[] headingPairs = doc.BuiltInDocumentProperties.HeadingPairs;
 
- // Свойство TitlesOfParts содержит имена частей, принадлежащих вышеуказанным заголовкам.
+// Свойство TitlesOfParts содержит имена частей, принадлежащих вышеуказанным заголовкам.
 string[] titlesOfParts = doc.BuiltInDocumentProperties.TitlesOfParts;
 
 int headingPairsIndex = 0;

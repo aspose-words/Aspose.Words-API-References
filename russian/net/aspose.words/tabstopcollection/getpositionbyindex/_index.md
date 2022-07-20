@@ -16,15 +16,15 @@ public double GetPositionByIndex(int index)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | Int32 | Индекс в коллекции позиций табуляции. |
+| index | Int32 | Указатель в коллекции позиций табуляции. |
 
 ### Возвращаемое значение
 
-Положение позиции табуляции.
+Положение табуляции.
 
 ### Примеры
 
-Показывает, как найти вкладку, остановиться по ее индексу и проверить ее позицию.
+Показывает, как найти вкладку, остановиться по ее индексу и проверить ее положение.
 
 ```csharp
 Document doc = new Document();
@@ -33,7 +33,7 @@ TabStopCollection tabStops = doc.FirstSection.Body.Paragraphs[0].ParagraphFormat
 tabStops.Add(ConvertUtil.MillimeterToPoint(30), TabAlignment.Left, TabLeader.Dashes);
 tabStops.Add(ConvertUtil.MillimeterToPoint(60), TabAlignment.Left, TabLeader.Dashes);
 
- // Проверяем положение второй позиции табуляции в коллекции.
+// Проверяем положение второй позиции табуляции в коллекции.
 Assert.AreEqual(ConvertUtil.MillimeterToPoint(60), tabStops.GetPositionByIndex(1), 0.1d);
 ```
 

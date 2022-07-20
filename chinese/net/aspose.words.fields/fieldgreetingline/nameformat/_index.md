@@ -1,14 +1,14 @@
 ---
 title: NameFormat
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置字段中包含的名称的格式
+description: 获取或设置包含在字段中的名称的格式
 type: docs
 weight: 40
 url: /zh/net/aspose.words.fields/fieldgreetingline/nameformat/
 ---
 ## FieldGreetingLine.NameFormat property
 
-获取或设置字段中包含的名称的格式。
+获取或设置包含在字段中的名称的格式。
 
 ```csharp
 public string NameFormat { get; set; }

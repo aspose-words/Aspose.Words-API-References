@@ -1,14 +1,14 @@
 ---
 title: UseBookFoldPrintingSettings
 second_title: Справочник по API Aspose.Words для .NET
-description: Получает или задает логическое значение указывающее следует ли сохранять документ с использованием макета печати буклета если он указан черезMultiplePagesaspose.words/pagesetup/multiplepages.
+description: Получает или задает логическое значение указывающее следует ли сохранять документ с использованием макета печати брошюры  если он указан черезMultiplePagesaspose.words/pagesetup/multiplepages .
 type: docs
 weight: 270
 url: /ru/net/aspose.words.saving/pdfsaveoptions/usebookfoldprintingsettings/
 ---
 ## PdfSaveOptions.UseBookFoldPrintingSettings property
 
-Получает или задает логическое значение, указывающее, следует ли сохранять документ с использованием макета печати буклета, если он указан через[`MultiplePages`](../../../aspose.words/pagesetup/multiplepages).
+Получает или задает логическое значение, указывающее, следует ли сохранять документ с использованием макета печати брошюры, , если он указан через[`MultiplePages`](../../../aspose.words/pagesetup/multiplepages) .
 
 ```csharp
 public bool UseBookFoldPrintingSettings { get; set; }
@@ -16,7 +16,7 @@ public bool UseBookFoldPrintingSettings { get; set; }
 
 ### Примечания
 
-Если указана эта опция,[`PageSet`](../../fixedpagesaveoptions/pageset)игнорируется при сохранении. Это поведение соответствует MS Word. Если в параметрах страницы не указаны параметры печати сгибом книги, этот параметр не будет действовать.
+Если указан этот параметр,[`PageSet`](../../fixedpagesaveoptions/pageset) игнорируется при сохранении. Это поведение соответствует MS Word. Если в параметрах страницы не указаны параметры печати сгибом книги, этот параметр не будет действовать.
 
 ### Примеры
 

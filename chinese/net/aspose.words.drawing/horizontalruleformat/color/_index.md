@@ -16,9 +16,9 @@ public Color Color { get; set; }
 
 ### 评论
 
-这是Color属性。
+这是一个快捷方式Color财产。
 
-默认值为 Gray。
+默认值为 Gray.
 
 ### 例子
 

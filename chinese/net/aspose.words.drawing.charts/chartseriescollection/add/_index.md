@@ -1,14 +1,14 @@
 ---
 title: Add
 second_title: Aspose.Words for .NET API 参考
-description: 添加新的ChartSeriesaspose.words.drawing.charts/chartseries到这个集合 使用此方法将系列添加到任何类型的条形图柱形图折线图和曲面图
+description: 添加新的ChartSeriesaspose.words.drawing.charts/chartseries到此集合 使用此方法将系列添加到任何类型的条形图柱形图折线图和曲面图
 type: docs
 weight: 30
 url: /zh/net/aspose.words.drawing.charts/chartseriescollection/add/
 ---
 ## Add(string, string[], double[]) {#add_3}
 
-添加新的[`ChartSeries`](../../chartseries)到这个集合。 使用此方法将系列添加到任何类型的条形图、柱形图、折线图和曲面图。
+添加新的[`ChartSeries`](../../chartseries)到此集合。 使用此方法将系列添加到任何类型的条形图、柱形图、折线图和曲面图。
 
 ```csharp
 public ChartSeries Add(string seriesName, string[] categories, double[] values)
@@ -16,11 +16,11 @@ public ChartSeries Add(string seriesName, string[] categories, double[] values)
 
 ### 返回值
 
-最近添加[`ChartSeries`](../../chartseries)对象。
+最近添加的[`ChartSeries`](../../chartseries)目的。
 
 ### 例子
 
-显示如何为图表类型创建适当类型的图表系列。
+展示如何为图表类型创建适当类型的图表系列。
 
 ```csharp
 {
@@ -114,7 +114,7 @@ private static Chart AppendChart(DocumentBuilder builder, ChartType chartType, d
 
 ## Add(string, double[], double[]) {#add}
 
-添加新的[`ChartSeries`](../../chartseries)到这个集合。 使用此方法将系列添加到任何类型的散点图。
+添加新的[`ChartSeries`](../../chartseries)到此集合。 使用此方法将系列添加到任何类型的散点图。
 
 ```csharp
 public ChartSeries Add(string seriesName, double[] xValues, double[] yValues)
@@ -122,11 +122,11 @@ public ChartSeries Add(string seriesName, double[] xValues, double[] yValues)
 
 ### 返回值
 
-最近添加[`ChartSeries`](../../chartseries)对象。
+最近添加的[`ChartSeries`](../../chartseries)目的。
 
 ### 例子
 
-显示如何为图表类型创建适当类型的图表系列。
+展示如何为图表类型创建适当类型的图表系列。
 
 ```csharp
 {
@@ -220,7 +220,7 @@ private static Chart AppendChart(DocumentBuilder builder, ChartType chartType, d
 
 ## Add(string, DateTime[], double[]) {#add_2}
 
-添加新的[`ChartSeries`](../../chartseries)到这个集合。 使用此方法将系列添加到任何类型的区域、雷达和股票图表。
+添加新的[`ChartSeries`](../../chartseries)到此集合。 使用此方法将系列添加到任何类型的区域、雷达和股票图表。
 
 ```csharp
 public ChartSeries Add(string seriesName, DateTime[] dates, double[] values)
@@ -322,7 +322,7 @@ private static Chart AppendChart(DocumentBuilder builder, ChartType chartType, d
 
 ## Add(string, double[], double[], double[]) {#add_1}
 
-添加新的[`ChartSeries`](../../chartseries)到这个集合。 使用此方法将系列添加到任何类型的气泡图。
+添加新的[`ChartSeries`](../../chartseries)到此集合。 使用此方法将系列添加到任何类型的气泡图。
 
 ```csharp
 public ChartSeries Add(string seriesName, double[] xValues, double[] yValues, double[] bubbleSizes)
@@ -330,11 +330,11 @@ public ChartSeries Add(string seriesName, double[] xValues, double[] yValues, do
 
 ### 返回值
 
-最近添加[`ChartSeries`](../../chartseries)对象。
+最近添加的[`ChartSeries`](../../chartseries)目的。
 
 ### 例子
 
-显示如何为图表类型创建适当类型的图表系列。
+展示如何为图表类型创建适当类型的图表系列。
 
 ```csharp
 {

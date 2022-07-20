@@ -1,14 +1,14 @@
 ---
 title: TiffBinarizationMethod
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置在将图像转换为 1 bpp 格式 时使用的方法ImageSaveOptionsSaveFormat是 SaveFormat.Tiff 和 TiffCompressionaspose.words.saving/imagesaveoptions/tiffcompression等于 TiffCompression.Ccitt3 或 TiffCompression.Ccitt4
+description: 获取或设置将图像转换为 1 bpp 格式时使用的方法 whenSaveFormataspose.words.saving/imagesaveoptions/saveformat是 SaveFormat.Tiff 和 TiffCompressionaspose.words.saving/imagesaveoptions/tiffcompression等于 TiffCompression.Ccitt3 或 TiffCompression.Ccitt4.
 type: docs
 weight: 160
 url: /zh/net/aspose.words.saving/imagesaveoptions/tiffbinarizationmethod/
 ---
 ## ImageSaveOptions.TiffBinarizationMethod property
 
-获取或设置在将图像转换为 1 bpp 格式 时使用的方法ImageSaveOptions。SaveFormat是 SaveFormat.Tiff 和 [`TiffCompression`](../tiffcompression)等于 TiffCompression.Ccitt3 或 TiffCompression.Ccitt4。
+获取或设置将图像转换为 1 bpp 格式时使用的方法 when[`SaveFormat`](../saveformat)是 SaveFormat.Tiff 和 [`TiffCompression`](../tiffcompression)等于 TiffCompression.Ccitt3 或 TiffCompression.Ccitt4.
 
 ```csharp
 public ImageBinarizationMethod TiffBinarizationMethod { get; set; }
@@ -20,7 +20,7 @@ public ImageBinarizationMethod TiffBinarizationMethod { get; set; }
 
 ### 例子
 
-显示使用 Floyd-Steinberg 方法渲染 TIFF 图像时如何设置 TIFF 二值化错误阈值。
+演示在使用 Floyd-Steinberg 方法渲染 TIFF 图像时如何设置 TIFF 二值化错误阈值。
 
 ```csharp
 Document doc = new Document();

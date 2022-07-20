@@ -16,7 +16,7 @@ public double Weight { get; set; }
 
 ### 评论
 
-Shape的默认值是 0.75。
+的默认值[`Shape`](../../shape)为 0.75。
 
 ### 例子
 

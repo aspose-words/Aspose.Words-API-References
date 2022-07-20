@@ -1,14 +1,14 @@
 ---
 title: StoryType
 second_title: Aspose.Words for .NET API 参考
-description: 返回Textbox
+description: 返回Textbox.
 type: docs
 weight: 170
 url: /zh/net/aspose.words.drawing/shape/storytype/
 ---
 ## Shape.StoryType property
 
-返回Textbox。
+返回Textbox.
 
 ```csharp
 public StoryType StoryType { get; }
@@ -16,7 +16,7 @@ public StoryType StoryType { get; }
 
 ### 例子
 
-显示如何迭代文档中的所有形状。
+演示如何遍历文档中的所有形状。
 
 ```csharp
 {

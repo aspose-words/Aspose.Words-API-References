@@ -16,7 +16,7 @@ public Border Bottom { get; }
 
 ### 例子
 
-展示如何在构建表格时应用边框和阴影颜色。
+展示如何在构建表格时应用边框和底纹颜色。
 
 ```csharp
 Document doc = new Document();

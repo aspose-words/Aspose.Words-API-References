@@ -1,14 +1,14 @@
 ---
 title: UpdateSdtContent
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置确定StructuredDocumentTagaspose.words.markup/structureddocumenttag的内容是否在保存前更新的值
+description: 获取或设置值确定内容是否StructuredDocumentTagaspose.words.markup/structureddocumenttag在保存之前更新
 type: docs
 weight: 200
 url: /zh/net/aspose.words.saving/saveoptions/updatesdtcontent/
 ---
 ## SaveOptions.UpdateSdtContent property
 
-获取或设置确定[`StructuredDocumentTag`](../../../aspose.words.markup/structureddocumenttag)的内容是否在保存前更新的值。
+获取或设置值确定内容是否[`StructuredDocumentTag`](../../../aspose.words.markup/structureddocumenttag)在保存之前更新。
 
 ```csharp
 public bool UpdateSdtContent { get; set; }
@@ -16,11 +16,11 @@ public bool UpdateSdtContent { get; set; }
 
 ### 评论
 
-默认值为` true` 。
+默认值为`真的`.
 
 ### 例子
 
-显示如何在将文档保存为 PDF 时更新结构化文档标签。
+展示如何在将文档保存为 PDF 时更新结构化文档标签。
 
 ```csharp
 Document doc = new Document();

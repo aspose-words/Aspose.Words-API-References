@@ -16,7 +16,7 @@ public void FieldUpdating(Field field)
 
 ### 例子
 
-显示如何在字段更新期间使用回调方法。
+展示如何在字段更新期间使用回调方法。
 
 ```csharp
 {

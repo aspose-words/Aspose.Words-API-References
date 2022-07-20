@@ -16,7 +16,7 @@ public bool IsVerticalFormatting { get; set; }
 
 ### 例子
 
-显示如何使用 MERGEFIELD 字段来执行邮件合并。
+展示如何使用 MERGEFIELD 字段来执行邮件合并。
 
 ```csharp
 Document doc = new Document();

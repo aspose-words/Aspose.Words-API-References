@@ -1,14 +1,14 @@
 ---
 title: TickLabelOffset
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置标签与轴的距离
+description: 获取或设置标签到轴的距离
 type: docs
 weight: 210
 url: /zh/net/aspose.words.drawing.charts/chartaxis/ticklabeloffset/
 ---
 ## ChartAxis.TickLabelOffset property
 
-获取或设置标签与轴的距离。
+获取或设置标签到轴的距离。
 
 ```csharp
 public int TickLabelOffset { get; set; }

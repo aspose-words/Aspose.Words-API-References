@@ -16,7 +16,7 @@ public IEnumerator<DigitalSignature> GetEnumerator()
 
 ### 例子
 
-显示如何打印已签名文档的所有数字签名。
+演示如何打印已签名文档的所有数字签名。
 
 ```csharp
 DigitalSignatureCollection digitalSignatures =

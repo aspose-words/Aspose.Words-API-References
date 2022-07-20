@@ -1,14 +1,14 @@
 ---
 title: VisitStructuredDocumentTagEnd
 second_title: Справочник по API Aspose.Words для .NET
-description: Вызывается когда закончилось перечисление тега структурированного документа.
+description: Вызывается после завершения перечисления тега структурированного документа.
 type: docs
 weight: 440
 url: /ru/net/aspose.words/documentvisitor/visitstructureddocumenttagend/
 ---
 ## DocumentVisitor.VisitStructuredDocumentTagEnd method
 
-Вызывается, когда закончилось перечисление тега структурированного документа.
+Вызывается после завершения перечисления тега структурированного документа.
 
 ```csharp
 public virtual VisitorAction VisitStructuredDocumentTagEnd(StructuredDocumentTag sdt)
@@ -16,11 +16,11 @@ public virtual VisitorAction VisitStructuredDocumentTagEnd(StructuredDocumentTag
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| sdt | StructuredDocumentTag | Посещаемый объект. |
+| sdt | StructuredDocumentTag | Объект, который посещается. |
 
 ### Возвращаемое значение
 
-A[`VisitorAction`](../../visitoraction)значение, указывающее, как продолжить перечисление.
+А[`VisitorAction`](../../visitoraction) значение, указывающее, как продолжить перечисление.
 
 ### Примеры
 
@@ -32,17 +32,17 @@ public void StructuredDocumentTagToText()
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     StructuredDocumentTagNodePrinter visitor = new StructuredDocumentTagNodePrinter();
 
-     // Когда составной узел принимает посетителя документа, посетитель посещает принимающий узел, 
-     // а затем обходит все дочерние узлы в порядке глубины.
-     // Посетитель может читать и изменять каждый посещенный узел.
+    // Когда составной узел принимает посетителя документа, посетитель посещает принимающий узел,
+    // а затем обходит все дочерние элементы узла в порядке глубины.
+    // Посетитель может читать и изменять каждый посещаемый узел.
     doc.Accept(visitor);
 
     Console.WriteLine(visitor.GetText());
 }
 
 /// <summary>
- /// Обходит небинарное дерево дочерних узлов узла.
- /// Создает карту в виде строки всех встреченных узлов StructuredDocumentTag и их потомков.
+/// Обходит небинарное дерево дочерних узлов узла.
+/// Создает карту в виде строки всех встреченных узлов StructuredDocumentTag и их потомков.
 /// </summary>
 public class StructuredDocumentTagNodePrinter : DocumentVisitor
 {
@@ -53,7 +53,7 @@ public class StructuredDocumentTagNodePrinter : DocumentVisitor
     }
 
     /// <summary>
-     /// Получает простой текст документа, который накопил посетитель.
+    /// Получает обычный текст документа, который накопил посетитель.
     /// </summary>
     public string GetText()
     {
@@ -61,7 +61,7 @@ public class StructuredDocumentTagNodePrinter : DocumentVisitor
     }
 
     /// <summary>
-     /// Вызывается, когда в документе встречается узел Run.
+    /// Вызывается, когда в документе встречается узел Run.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {
@@ -71,7 +71,7 @@ public class StructuredDocumentTagNodePrinter : DocumentVisitor
     }
 
     /// <summary>
-     /// Вызывается, когда в документе встречается узел StructuredDocumentTag.
+    /// Вызывается, когда в документе встречается узел StructuredDocumentTag.
     /// </summary>
     public override VisitorAction VisitStructuredDocumentTagStart(StructuredDocumentTag sdt)
     {
@@ -82,7 +82,7 @@ public class StructuredDocumentTagNodePrinter : DocumentVisitor
     }
 
     /// <summary>
-     /// Вызывается после посещения всех дочерних узлов узла StructuredDocumentTag.
+    /// Вызывается после посещения всех дочерних узлов узла StructuredDocumentTag.
     /// </summary>
     public override VisitorAction VisitStructuredDocumentTagEnd(StructuredDocumentTag sdt)
     {
@@ -93,9 +93,9 @@ public class StructuredDocumentTagNodePrinter : DocumentVisitor
     }
 
     /// <summary>
-     /// Добавляем строку в StringBuilder и делаем отступ в зависимости от того, насколько глубоко посетитель находится в дереве документа.
+    /// Добавляем строку в StringBuilder и делаем отступ в зависимости от того, насколько глубоко посетитель находится в дереве документа.
     /// </summary>
-     /// <param name="text"></param>
+    /// <param name="text"></param>
     private void IndentAndAppendLine(string text)
     {
         for (int i = 0; i < mDocTraversalDepth; i++) mBuilder.Append("|  ");

@@ -1,14 +1,14 @@
 ---
 title: NodeType
 second_title: Справочник по API Aspose.Words для .NET
-description: ВозвращаетFieldSeparator.
+description: ВозвращаетFieldSeparator .
 type: docs
 weight: 10
 url: /ru/net/aspose.words.fields/fieldseparator/nodetype/
 ---
 ## FieldSeparator.NodeType property
 
-ВозвращаетFieldSeparator.
+ВозвращаетFieldSeparator .
 
 ```csharp
 public override NodeType NodeType { get; }

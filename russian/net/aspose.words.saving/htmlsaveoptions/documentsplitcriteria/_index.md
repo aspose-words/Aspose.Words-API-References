@@ -1,14 +1,14 @@
 ---
 title: DocumentSplitCriteria
 second_title: Справочник по API Aspose.Words для .NET
-description: Указывает как документ должен быть разделен при сохранении вHtml илиEpubформат. По умолчаниюNoneдля HTML и HeadingParagraphдля EPUB.
+description: Указывает как документ должен быть разделен при сохранении вHtml илиEpub формат. По умолчаниюNone для HTML и HeadingParagraph для EPUB.
 type: docs
 weight: 80
 url: /ru/net/aspose.words.saving/htmlsaveoptions/documentsplitcriteria/
 ---
 ## HtmlSaveOptions.DocumentSplitCriteria property
 
-Указывает, как документ должен быть разделен при сохранении вHtml илиEpubформат. По умолчанию:Noneдля HTML и HeadingParagraphдля EPUB.
+Указывает, как документ должен быть разделен при сохранении вHtml илиEpub формат. По умолчаниюNone для HTML и HeadingParagraph для EPUB.
 
 ```csharp
 public DocumentSplitCriteria DocumentSplitCriteria { get; set; }
@@ -16,7 +16,7 @@ public DocumentSplitCriteria DocumentSplitCriteria { get; set; }
 
 ### Примечания
 
-Обычно документ сохраняется в формате HTML как один файл. Но в некоторых случаях предпочтительнее разбить вывод на несколько меньших HTML-страниц. При сохранении в формате HTML эти страницы будут выводиться в отдельные файлы или потоки. При сохранении в формате EPUB они будут объединены в соответствующие пакеты.
+Обычно вы хотите, чтобы документ был сохранен в HTML как один файл. Но в некоторых случаях предпочтительнее разбить вывод на несколько меньших HTML-страниц. При сохранении в формате HTML эти страницы будут выводиться в отдельные файлы или потоки. При сохранении в формате EPUB они будут включены в соответствующие пакеты.
 
 Документ нельзя разделить при сохранении в формате MHTML.
 

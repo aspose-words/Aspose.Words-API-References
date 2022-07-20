@@ -3,7 +3,7 @@ title: TextBoxWrapMode
 second_title: Aspose.Words for .NET API 参考
 description: 指定文本在形状内的换行方式
 type: docs
-weight: 1170
+weight: 1190
 url: /zh/net/aspose.words.drawing/textboxwrapmode/
 ---
 ## TextBoxWrapMode enumeration
@@ -23,7 +23,7 @@ public enum TextBoxWrapMode
 
 ### 例子
 
-显示如何为文本框的内容设置环绕模式。
+演示如何为文本框的内容设置换行模式。
 
 ```csharp
 Document doc = new Document();

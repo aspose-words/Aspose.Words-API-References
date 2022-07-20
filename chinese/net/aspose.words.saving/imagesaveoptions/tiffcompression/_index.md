@@ -18,11 +18,11 @@ public TiffCompression TiffCompression { get; set; }
 
 仅在保存到 TIFF 时有效。
 
-默认值为Lzw。
+默认值为Lzw.
 
 ### 例子
 
-显示如何选择压缩方案以应用于我们转换为 TIFF 图像的文档。
+展示如何选择压缩方案以应用于我们转换为 TIFF 图像的文档。
 
 ```csharp
 Document doc = new Document();

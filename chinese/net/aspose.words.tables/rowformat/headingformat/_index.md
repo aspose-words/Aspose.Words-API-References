@@ -1,14 +1,14 @@
 ---
 title: HeadingFormat
 second_title: Aspose.Words for .NET API 参考
-description: 当表格跨越多页时如果该行作为表格标题在每一页上重复则为真
+description: 当表格跨度超过一页时如果该行作为表格标题在每一页上重复则为真
 type: docs
 weight: 30
 url: /zh/net/aspose.words.tables/rowformat/headingformat/
 ---
 ## RowFormat.HeadingFormat property
 
-当表格跨越多页时，如果该行作为表格标题在每一页上重复，则为真。
+当表格跨度超过一页时，如果该行作为表格标题在每一页上重复，则为真。
 
 ```csharp
 public bool HeadingFormat { get; set; }
@@ -16,7 +16,7 @@ public bool HeadingFormat { get; set; }
 
 ### 例子
 
-展示如何构建一个表，其中的行在每一页上都重复。
+展示如何构建一个表，其中包含在每一页上重复的行。
 
 ```csharp
 Document doc = new Document();

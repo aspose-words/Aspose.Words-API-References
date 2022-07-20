@@ -1,14 +1,14 @@
 ---
 title: ExportDocumentProperties
 second_title: Справочник по API Aspose.Words для .NET
-description: Указывает экспортировать ли встроенные и пользовательские свойства документа в HTML MHTML или EPUB. Значение по умолчанию false .
+description: Указывает экспортировать ли встроенные и настраиваемые свойства документа в HTML MHTML или EPUB. Значение по умолчаниюЛОЖЬ .
 type: docs
 weight: 130
 url: /ru/net/aspose.words.saving/htmlsaveoptions/exportdocumentproperties/
 ---
 ## HtmlSaveOptions.ExportDocumentProperties property
 
-Указывает, экспортировать ли встроенные и пользовательские свойства документа в HTML, MHTML или EPUB. Значение по умолчанию:` false` .
+Указывает, экспортировать ли встроенные и настраиваемые свойства документа в HTML, MHTML или EPUB. Значение по умолчанию:`ЛОЖЬ` .
 
 ```csharp
 public bool ExportDocumentProperties { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: UsePassim
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置是否将五个或更多不同的页面引用替换为相同的 权限为passim用于指示一个单词或段落经常出现在被引用的作品中 
+description: 获取或设置是否将五个或多个不同的页面引用替换为相同的 权限为passim用于表示一个单词或段落在被引用的作品中经常出现 
 type: docs
 weight: 110
 url: /zh/net/aspose.words.fields/fieldtoa/usepassim/
 ---
 ## FieldToa.UsePassim property
 
-获取或设置是否将五个或更多不同的页面引用替换为相同的 权限为“passim”，用于指示一个单词或段落经常出现在被引用的作品中 。
+获取或设置是否将五个或多个不同的页面引用替换为相同的 权限为“passim”，用于表示一个单词或段落在被引用的作品中经常出现 。
 
 ```csharp
 public bool UsePassim { get; set; }

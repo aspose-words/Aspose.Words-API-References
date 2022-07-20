@@ -1,14 +1,14 @@
 ---
 title: DisplayType
 second_title: Aspose.Words for .NET API 参考
-description: 获取/设置 Office Math 显示格式类型表示公式是与文本 内联显示还是单独显示
+description: 获取/设置 Office Math 显示格式类型表示公式是与文本 内联显示还是单独显示在一行中
 type: docs
 weight: 10
 url: /zh/net/aspose.words.math/officemath/displaytype/
 ---
 ## OfficeMath.DisplayType property
 
-获取/设置 Office Math 显示格式类型，表示公式是与文本 内联显示还是单独显示。
+获取/设置 Office Math 显示格式类型，表示公式是与文本 内联显示还是单独显示在一行中。
 
 ```csharp
 public OfficeMathDisplayType DisplayType { get; set; }
@@ -18,7 +18,7 @@ public OfficeMathDisplayType DisplayType { get; set; }
 
 显示格式类型仅对顶级 Office Math 有效。
 
-返回的显示格式类型始终为Inline用于嵌套的 Office Math。
+返回的显示格式类型始终为Inline用于嵌套 Office Math。
 
 ### 例子
 

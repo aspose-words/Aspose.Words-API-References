@@ -28,12 +28,12 @@ builder.Write("Section 2");
 
 Assert.AreEqual("Section 1\x000cSection 2", doc.GetText().Trim());
 
- // 从文档中删除第一部分。
+// 从文档中删除第一部分。
 doc.Sections.RemoveAt(0);
 
 Assert.AreEqual("Section 2", doc.GetText().Trim());
 
- // 将现在第一部分的副本附加到文档的末尾。
+// 将现在第一部分的副本附加到文档的末尾。
 int lastSectionIdx = doc.Sections.Count - 1;
 Section newSection = doc.Sections[lastSectionIdx].Clone();
 doc.Sections.Add(newSection);

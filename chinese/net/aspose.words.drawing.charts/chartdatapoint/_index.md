@@ -20,8 +20,8 @@ public class ChartDataPoint : IChartDataPoint
 | --- | --- |
 | [Bubble3D](../../aspose.words.drawing.charts/chartdatapoint/bubble3d) { get; set; } |  |
 | [Explosion](../../aspose.words.drawing.charts/chartdatapoint/explosion) { get; set; } |  |
-| [Format](../../aspose.words.drawing.charts/chartdatapoint/format) { get; } | 提供对此数据点的填充和行格式的访问。 |
-| [Index](../../aspose.words.drawing.charts/chartdatapoint/index) { get; } | 此对象应用格式的数据点的索引。 |
+| [Format](../../aspose.words.drawing.charts/chartdatapoint/format) { get; } | 提供对此数据点的填充和线条格式的访问。 |
+| [Index](../../aspose.words.drawing.charts/chartdatapoint/index) { get; } | 此对象应用格式设置的数据点的索引。 |
 | [InvertIfNegative](../../aspose.words.drawing.charts/chartdatapoint/invertifnegative) { get; set; } |  |
 | [Marker](../../aspose.words.drawing.charts/chartdatapoint/marker) { get; } |  |
 
@@ -29,11 +29,11 @@ public class ChartDataPoint : IChartDataPoint
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ClearFormat](../../aspose.words.drawing.charts/chartdatapoint/clearformat)() | 清除该数据点的格式。属性设置为父系列中定义的默认值。 |
+| [ClearFormat](../../aspose.words.drawing.charts/chartdatapoint/clearformat)() | 清除此数据点的格式。属性设置为父系列中定义的默认值。 |
 
 ### 评论
 
-在系列中，Charts。ChartDataPoint对象是[`ChartDataPointCollection`](../chartdatapointcollection)的成员。 [`ChartDataPointCollection`](../chartdatapointcollection)包含一个[`ChartDataPoint`](../chartdatapoint)对象每个点。
+在一个系列中，[`ChartDataPoint`](../chartdatapoint)对象是[`ChartDataPointCollection`](../chartdatapointcollection) 的[`ChartDataPointCollection`](../chartdatapointcollection)包含一个[`ChartDataPoint`](../chartdatapoint)每个点的对象。
 
 ### 例子
 

@@ -27,8 +27,8 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world!");
 
- // 将“FormsDesign”属性设置为“false”以保持禁用表单设计模式。
- // 将“FormsDesign”属性设置为“true”以启用表单设计模式。
+// 将“FormsDesign”属性设置为“false”以禁用表单设计模式。
+// 将“FormsDesign”属性设置为“true”以启用表单设计模式。
 doc.ViewOptions.FormsDesign = useFormsDesign;
 
 doc.Save(ArtifactsDir + "ViewOptions.FormsDesign.xml");

@@ -1,14 +1,14 @@
 ---
 title: IsImage
 second_title: Справочник по API Aspose.Words для .NET
-description: Возвращает true если эта фигура является формой изображения.
+description: Возвращает true если эта форма является фигурой изображения.
 type: docs
 weight: 270
 url: /ru/net/aspose.words.drawing/shapebase/isimage/
 ---
 ## ShapeBase.IsImage property
 
-Возвращает true, если эта фигура является формой изображения.
+Возвращает true, если эта форма является фигурой изображения.
 
 ```csharp
 public bool IsImage { get; }

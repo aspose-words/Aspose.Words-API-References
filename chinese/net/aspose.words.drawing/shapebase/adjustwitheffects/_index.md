@@ -3,7 +3,7 @@ title: AdjustWithEffects
 second_title: Aspose.Words for .NET API 参考
 description: 添加到效果范围的源矩形值并返回最终矩形
 type: docs
-weight: 550
+weight: 560
 url: /zh/net/aspose.words.drawing/shapebase/adjustwitheffects/
 ---
 ## ShapeBase.AdjustWithEffects method
@@ -16,7 +16,7 @@ public RectangleF AdjustWithEffects(RectangleF source)
 
 ### 例子
 
-显示如何检查形状的边界如何受到形状效果的影响。
+显示如何检查形状的边界如何受形状效果的影响。
 
 ```csharp
 Document doc = new Document(MyDir + "Shape shadow effect.docx");

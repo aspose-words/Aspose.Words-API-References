@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Aspose.Words for .NET API 参考
-description: 给定集合中从零开始的索引返回SdtListItemaspose.words.markup/sdtlistitem对象
+description: 返回一个SdtListItemaspose.words.markup/sdtlistitem给定集合中从零开始的索引的对象
 type: docs
 weight: 20
 url: /zh/net/aspose.words.markup/sdtlistitemcollection/item/
 ---
 ## SdtListItemCollection indexer
 
-给定集合中从零开始的索引，返回[`SdtListItem`](../../sdtlistitem)对象。
+返回一个[`SdtListItem`](../../sdtlistitem)给定集合中从零开始的索引的对象。
 
 ```csharp
 public SdtListItem this[int index] { get; }
@@ -16,7 +16,7 @@ public SdtListItem this[int index] { get; }
 
 ### 例子
 
-显示如何使用下拉列表结构化文档标签。
+展示如何使用下拉列表结构化文档标签。
 
 ```csharp
 Document doc = new Document();

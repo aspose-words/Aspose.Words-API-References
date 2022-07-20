@@ -1,14 +1,14 @@
 ---
 title: SignOptions
 second_title: Справочник по API Aspose.Words для .NET
-description: Позволяет указать параметры подписи документа.
+description: Позволяет указать параметры подписания документа.
 type: docs
 weight: 410
 url: /ru/net/aspose.words.digitalsignatures/signoptions/
 ---
 ## SignOptions class
 
-Позволяет указать параметры подписи документа.
+Позволяет указать параметры подписания документа.
 
 ```csharp
 public class SignOptions
@@ -24,12 +24,12 @@ public class SignOptions
 
 | Имя | Описание |
 | --- | --- |
-| [Comments](../../aspose.words.digitalsignatures/signoptions/comments) { get; set; } | Задает комментарии к цифровой подписи. Значение по умолчанию: **пустая строка** (Empty). |
-| [DecryptionPassword](../../aspose.words.digitalsignatures/signoptions/decryptionpassword) { get; set; } | Пароль для расшифровки исходного документа. Значение по умолчанию: **пустая строка** (Empty). |
+| [Comments](../../aspose.words.digitalsignatures/signoptions/comments) { get; set; } | Задает комментарии к цифровой подписи. Значение по умолчанию: **пустой строки** (Empty ). |
+| [DecryptionPassword](../../aspose.words.digitalsignatures/signoptions/decryptionpassword) { get; set; } | Пароль для расшифровки исходного документа. Значение по умолчанию: **пустой строки** (Empty ). |
 | [ProviderId](../../aspose.words.digitalsignatures/signoptions/providerid) { get; set; } | Указывает идентификатор класса поставщика подписи. Значение по умолчанию: **Пусто (все нули) Guid** . |
 | [SignatureLineId](../../aspose.words.digitalsignatures/signoptions/signaturelineid) { get; set; } | Идентификатор строки подписи. Значение по умолчанию: **Пусто (все нули) Guid** . |
-| [SignatureLineImage](../../aspose.words.digitalsignatures/signoptions/signaturelineimage) { get; set; } | Изображение, которое будет отображаться в связанной[`SignatureLine`](../../aspose.words.drawing/signatureline). Значение по умолчанию:` null` . |
-| [SignTime](../../aspose.words.digitalsignatures/signoptions/signtime) { get; set; } | Дата подписания. Значение по умолчанию: **текущее время** (Now). |
+| [SignatureLineImage](../../aspose.words.digitalsignatures/signoptions/signaturelineimage) { get; set; } | Изображение, которое будет отображаться в связанных[`SignatureLine`](../../aspose.words.drawing/signatureline) . Значение по умолчанию:`нулевой` . |
+| [SignTime](../../aspose.words.digitalsignatures/signoptions/signtime) { get; set; } | Дата подписания. Значение по умолчанию: **Текущее время** (Now ). |
 
 ### Смотрите также
 

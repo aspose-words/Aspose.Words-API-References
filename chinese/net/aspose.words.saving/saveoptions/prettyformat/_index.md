@@ -1,14 +1,14 @@
 ---
 title: PrettyFormat
 second_title: Aspose.Words for .NET API 参考
-description: 当 true 时在适用的情况下输出漂亮的格式 默认值为 false 
+description: 什么时候真的  在适用的情况下输出漂亮的格式 默认值为 错误的.
 type: docs
 weight: 120
 url: /zh/net/aspose.words.saving/saveoptions/prettyformat/
 ---
 ## SaveOptions.PrettyFormat property
 
-当` true` 时，在适用的情况下输出漂亮的格式。 默认值为 **false** 。
+什么时候`真的` , 在适用的情况下输出漂亮的格式。 默认值为 **错误的**.
 
 ```csharp
 public bool PrettyFormat { get; set; }
@@ -16,11 +16,11 @@ public bool PrettyFormat { get; set; }
 
 ### 评论
 
-设置为 **true** 使 HTML、MHTML、EPUB、WordML、RTF、DOCX 和 ODT 输出具有人类可读性。 用于测试或调试。
+调成 **真的**使 HTML、MHTML、EPUB、WordML、RTF、DOCX 和 ODT 输出具有人类可读性。 用于测试或调试。
 
 ### 例子
 
-显示如何增强已保存 .html 文档的原始代码的可读性。
+展示如何增强已保存 .html 文档的原始代码的可读性。
 
 ```csharp
 Document doc = new Document();

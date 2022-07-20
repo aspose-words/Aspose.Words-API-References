@@ -16,7 +16,7 @@ public bool HasSmartArt { get; }
 
 ### 例子
 
-显示如何计算带有 SmartArt 对象的文档中的形状数量。
+演示如何使用 SmartArt 对象计算文档中形状的数量。
 
 ```csharp
 Document doc = new Document(MyDir + "SmartArt.docx");

@@ -3,7 +3,7 @@ title: TextPathAlignment
 second_title: Справочник по API Aspose.Words для .NET
 description: Выравнивание WordArt.
 type: docs
-weight: 1190
+weight: 1210
 url: /ru/net/aspose.words.drawing/textpathalignment/
 ---
 ## TextPathAlignment enumeration
@@ -20,10 +20,10 @@ public enum TextPathAlignment
 | --- | --- | --- |
 | Stretch | `0` | Растянуть каждую строку текста по ширине. |
 | Center | `1` | Центрировать текст по ширине. |
-| Left | `2` | Выравнивание по левому краю. |
-| Right | `3` | Выравнивание по правому краю. |
+| Left | `2` | Выровнять по левому краю. |
+| Right | `3` | Выровнять по правому краю. |
 | LetterJustify | `4` | Растяните буквы по ширине. |
-| WordJustify | `5` | Распределите слова по ширине. |
+| WordJustify | `5` | Растянуть слова по ширине. |
 
 ### Примеры
 

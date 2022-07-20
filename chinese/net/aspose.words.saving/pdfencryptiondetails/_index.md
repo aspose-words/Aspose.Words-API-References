@@ -3,7 +3,7 @@ title: PdfEncryptionDetails
 second_title: Aspose.Words for .NET API 参考
 description: 包含 PDF 文档的加密和访问权限的详细信息
 type: docs
-weight: 5130
+weight: 5180
 url: /zh/net/aspose.words.saving/pdfencryptiondetails/
 ---
 ## PdfEncryptionDetails class
@@ -25,12 +25,12 @@ public class PdfEncryptionDetails
 | 姓名 | 描述 |
 | --- | --- |
 | [OwnerPassword](../../aspose.words.saving/pdfencryptiondetails/ownerpassword) { get; set; } | 指定加密 PDF 文档的所有者密码。 |
-| [Permissions](../../aspose.words.saving/pdfencryptiondetails/permissions) { get; set; } | 指定允许用户对加密 PDF 文档进行的操作。 默认值为DisallowAll。 |
+| [Permissions](../../aspose.words.saving/pdfencryptiondetails/permissions) { get; set; } | 指定允许用户对加密的 PDF 文档进行的操作。 默认值为DisallowAll. |
 | [UserPassword](../../aspose.words.saving/pdfencryptiondetails/userpassword) { get; set; } | 指定打开加密 PDF 文档所需的用户密码。 |
 
 ### 例子
 
-显示如何设置已保存 PDF 文档的权限。
+展示如何对已保存的 PDF 文档设置权限。
 
 ```csharp
 Document doc = new Document();

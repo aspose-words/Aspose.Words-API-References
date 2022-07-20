@@ -1,14 +1,14 @@
 ---
 title: WarningCallback
 second_title: Aspose.Words for .NET API 参考
-description: 在加载断字模式期间调用当检测到可能导致格式保真度丢失的问题时
+description: 在加载断字模式期间调用当检测到可能导致格式保真度丢失的问题时调用
 type: docs
 weight: 20
 url: /zh/net/aspose.words/hyphenation/warningcallback/
 ---
 ## Hyphenation.WarningCallback property
 
-在加载断字模式期间调用，当检测到可能导致格式保真度丢失的问题时。
+在加载断字模式期间调用，当检测到可能导致格式保真度丢失的问题时调用。
 
 ```csharp
 public static IWarningCallback WarningCallback { get; set; }

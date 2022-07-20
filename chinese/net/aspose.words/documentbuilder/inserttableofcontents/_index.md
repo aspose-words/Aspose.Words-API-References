@@ -20,23 +20,23 @@ public Field InsertTableOfContents(string switches)
 
 ### 评论
 
-此方法在 处将 TOC（目录）字段插入到文档中当前位置。
+此方法将 TOC（目录）字段插入到文档 at 当前位置。
 
 Word 文档中的目录可以通过多种方式构建 并使用各种选项进行格式化。 Microsoft Word 的表格构建方式和 显示方式由字段开关控制。
 
-指定开关的最简单方法是使用 Insert-&gt;Reference 将 内容表插入并配置到 Word 文档中-&gt; 索引和表格菜单， 然后打开域代码的显示以查看开关。您可以在 Microsoft Word 中按 Alt+F9 来打开或关闭域代码的显示。
+指定开关的最简单方法是使用插入-&gt;参考-&gt;索引和表格菜单将 内容表插入并配置到Word文档中， 然后打开域代码显示以查看开关。您可以在 Microsoft Word 中按 Alt+F9 打开或关闭域代码的显示。
 
-例如，创建目录后，在文档中插入以下字段 : **{目录 \o "1-3" \h \z \u }** 。 您可以复制 **\o "1-3" \h \z \u** 并将其用作开关参数。
+例如，创建目录后，将以下字段插入到文档中： **{目录 \o "1-3" \h \z \u }** . 你可以复制 **\o "1-3" \h \z \u**并将其用作开关参数。
 
-注意 **InsertTableOfContents** 只会插入 TOC 字段，但 实际上不会构建目录。更新字段时，目录由 Microsoft Word 构建。
+注意 **InsertTableOfContents**只会插入一个 TOC 字段，但 不会实际构建目录。更新字段时，目录由 Microsoft Word 构建。
 
-如果使用此方法插入目录，然后在 Microsoft Word 中打开文件 ，您将看不到目录因为 TOC 字段 尚未更新。
+如果您使用此方法插入目录，然后在 Microsoft Word 中打开 file ，您将看不到目录，因为 TOC 字段 尚未更新。
 
-在 Microsoft Word 中，打开文档时不会自动更新字段 但您可以随时更新文档中的字段按 F9。
+在 Microsoft Word 中，打开文档时字段不会自动更新， 但您可以随时按 F9 更新文档中的字段。
 
 ### 例子
 
-显示如何使用标题样式作为条目将目录 (TOC) 插入到文档中。
+演示如何使用标题样式作为条目将目录 (TOC) 插入到文档中。
 
 ```csharp
 Document doc = new Document();

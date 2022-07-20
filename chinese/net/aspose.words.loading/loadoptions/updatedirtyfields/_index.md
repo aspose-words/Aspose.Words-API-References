@@ -1,14 +1,14 @@
 ---
 title: UpdateDirtyFields
 second_title: Aspose.Words for .NET API 参考
-description: 指定是否更新具有 脏 属性的字段
+description: 指定是否使用肮脏的属性.
 type: docs
 weight: 160
 url: /zh/net/aspose.words.loading/loadoptions/updatedirtyfields/
 ---
 ## LoadOptions.UpdateDirtyFields property
 
-指定是否更新具有` 脏` 属性的字段。
+指定是否使用`肮脏的`属性.
 
 ```csharp
 public bool UpdateDirtyFields { get; set; }
@@ -16,7 +16,7 @@ public bool UpdateDirtyFields { get; set; }
 
 ### 例子
 
-显示如何使用特殊属性来更新字段结果。
+展示如何使用特殊属性来更新字段结果。
 
 ```csharp
 Document doc = new Document();

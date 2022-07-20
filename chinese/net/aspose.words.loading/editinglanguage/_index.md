@@ -3,7 +3,7 @@ title: EditingLanguage
 second_title: Aspose.Words for .NET API 参考
 description: 指定编辑语言
 type: docs
-weight: 3350
+weight: 3400
 url: /zh/net/aspose.words.loading/editinglanguage/
 ---
 ## EditingLanguage enumeration

@@ -3,7 +3,7 @@ title: DownsampleOptions
 second_title: Справочник по API Aspose.Words для .NET
 description: Позволяет указать параметры понижающей дискретизации.
 type: docs
-weight: 4660
+weight: 4710
 url: /ru/net/aspose.words.saving/downsampleoptions/
 ---
 ## DownsampleOptions class
@@ -24,9 +24,9 @@ public class DownsampleOptions
 
 | Имя | Описание |
 | --- | --- |
-| [DownsampleImages](../../aspose.words.saving/downsampleoptions/downsampleimages) { get; set; } | Указывает, следует ли понижать разрешение изображений. |
-| [Resolution](../../aspose.words.saving/downsampleoptions/resolution) { get; set; } | Указывает разрешение в пикселях на дюйм, до которого изображения должны быть уменьшены. |
-| [ResolutionThreshold](../../aspose.words.saving/downsampleoptions/resolutionthreshold) { get; set; } | Указывает пороговое разрешение в пикселях на дюйм. Если разрешение изображения в документе меньше порогового значения, алгоритм понижения разрешения применяться не будет. Значение 0 означает, что проверка порога не используется, и все изображения, которые можно уменьшить в размере, подвергаются субдискретизации. |
+| [DownsampleImages](../../aspose.words.saving/downsampleoptions/downsampleimages) { get; set; } | Указывает, следует ли уменьшать разрешение изображений. |
+| [Resolution](../../aspose.words.saving/downsampleoptions/resolution) { get; set; } | Определяет разрешение в пикселях на дюйм, до которого изображения должны быть уменьшены. |
+| [ResolutionThreshold](../../aspose.words.saving/downsampleoptions/resolutionthreshold) { get; set; } | Указывает пороговое разрешение в пикселях на дюйм. Если разрешение изображения в документе меньше порогового значения, алгоритм понижения разрешения не будет применяться. Значение 0 означает, что проверка порога не используется и все изображения, могут быть уменьшены в размере. |
 
 ### Примеры
 

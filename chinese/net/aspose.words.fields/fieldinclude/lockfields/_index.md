@@ -1,14 +1,14 @@
 ---
 title: LockFields
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置是否阻止更新包含文档中的字段
+description: 获取或设置是否禁止更新包含文档中的字段
 type: docs
 weight: 30
 url: /zh/net/aspose.words.fields/fieldinclude/lockfields/
 ---
 ## FieldInclude.LockFields property
 
-获取或设置是否阻止更新包含文档中的字段。
+获取或设置是否禁止更新包含文档中的字段
 
 ```csharp
 public bool LockFields { get; set; }
@@ -16,7 +16,7 @@ public bool LockFields { get; set; }
 
 ### 例子
 
-显示如何创建 INCLUDE 字段并设置其属性。
+演示如何创建 INCLUDE 字段并设置其属性。
 
 ```csharp
 Document doc = new Document();

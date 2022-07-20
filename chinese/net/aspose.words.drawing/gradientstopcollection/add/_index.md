@@ -1,14 +1,14 @@
 ---
 title: Add
 second_title: Aspose.Words for .NET API 参考
-description: 将指定的GradientStopaspose.words.drawing/gradientstop添加到渐变
+description: 添加一个指定的GradientStopaspose.words.drawing/gradientstop到一个渐变.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.drawing/gradientstopcollection/add/
 ---
 ## GradientStopCollection.Add method
 
-将指定的[`GradientStop`](../../gradientstop)添加到渐变。
+添加一个指定的[`GradientStop`](../../gradientstop)到一个渐变.
 
 ```csharp
 public GradientStop Add(GradientStop gradientStop)

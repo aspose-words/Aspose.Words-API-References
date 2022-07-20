@@ -3,7 +3,7 @@ title: ExportHeadersFootersMode
 second_title: Справочник по API Aspose.Words для .NET
 description: Указывает как верхние и нижние колонтитулы экспортируются в HTML MHTML или EPUB.
 type: docs
-weight: 4690
+weight: 4740
 url: /ru/net/aspose.words.saving/exportheadersfootersmode/
 ---
 ## ExportHeadersFootersMode enumeration
@@ -25,7 +25,7 @@ public enum ExportHeadersFootersMode
 
 ### Примеры
 
-Показывает, как опустить верхние/нижние колонтитулы, когда сохранение документа в HTML.
+Показывает, как опускать верхние и нижние колонтитулы при сохранении документа в формате HTML.
 
 ```csharp
 Document doc = new Document(MyDir + "Header and footer types.docx");

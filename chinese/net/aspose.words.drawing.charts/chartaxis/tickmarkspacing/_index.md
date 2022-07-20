@@ -1,14 +1,14 @@
 ---
 title: TickMarkSpacing
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置绘制刻度线的间隔
+description: 获取或设置绘制刻度线的时间间隔
 type: docs
 weight: 250
 url: /zh/net/aspose.words.drawing.charts/chartaxis/tickmarkspacing/
 ---
 ## ChartAxis.TickMarkSpacing property
 
-获取或设置绘制刻度线的间隔。
+获取或设置绘制刻度线的时间间隔。
 
 ```csharp
 public int TickMarkSpacing { get; set; }

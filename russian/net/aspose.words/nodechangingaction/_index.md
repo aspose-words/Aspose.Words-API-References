@@ -1,14 +1,14 @@
 ---
 title: NodeChangingAction
 second_title: Справочник по API Aspose.Words для .NET
-description: Указывает тип изменения узла.
+description: Определяет тип изменения узла.
 type: docs
-weight: 3890
+weight: 3940
 url: /ru/net/aspose.words/nodechangingaction/
 ---
 ## NodeChangingAction enumeration
 
-Указывает тип изменения узла.
+Определяет тип изменения узла.
 
 ```csharp
 public enum NodeChangingAction

@@ -23,8 +23,8 @@ Document doc = new Document(MyDir + "Comments.docx");
 
 NodeCollection comments = doc.GetChildNodes(NodeType.Comment, true);
 
- // Если у комментария нет предка, это комментарий "верхнего уровня", а не комментарий типа ответа.
- // Печатать все комментарии верхнего уровня вместе со всеми возможными ответами.
+// Если у комментария нет предка, это комментарий «верхнего уровня», а не комментарий типа ответа.
+// Печатать все комментарии верхнего уровня вместе с любыми ответами, которые они могут иметь.
 foreach (Comment comment in comments.OfType<Comment>().Where(c => c.Ancestor == null))
 {
     Console.WriteLine("Top-level comment:");

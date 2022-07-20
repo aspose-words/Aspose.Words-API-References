@@ -20,26 +20,19 @@ public List this[int index] { get; }
 
 ```csharp
 Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
 
-builder.Writeln("Paragraph 1");
-builder.Writeln("Paragraph 2");
-builder.Write("Paragraph 3");
+ListCollection lists = doc.Lists;
 
-NodeCollection paras = doc.GetChildNodes(NodeType.Paragraph, true);
+Assert.AreEqual(doc, lists.Document);
 
-Assert.AreEqual(0, paras.Count(n => (n as Paragraph).ListFormat.IsListItem));
+List list = lists.Add(ListTemplate.BulletDefault);
 
-doc.Lists.Add(ListTemplate.NumberDefault);
-List list = doc.Lists[0];
+Assert.AreEqual(doc, list.Document);
 
-foreach (Paragraph paragraph in paras.OfType<Paragraph>())
-{
-    paragraph.ListFormat.List = list;
-    paragraph.ListFormat.ListLevelNumber = 2;
-}
-
-Assert.AreEqual(3, paras.Count(n => (n as Paragraph).ListFormat.IsListItem));
+Console.WriteLine("Current list count: " + lists.Count);
+Console.WriteLine("Is the first document list: " + (lists[0].Equals(list)));
+Console.WriteLine("ListId: " + list.ListId);
+Console.WriteLine("List is the same by ListId: " + (lists.GetListByListId(1).Equals(list)));
 ```
 
 Показывает, как применить форматирование существующего списка к набору абзацев.

@@ -1,14 +1,14 @@
 ---
 title: InsertRelativePosition
 second_title: Справочник по API Aspose.Words для .NET
-description: Получает или задает следует ли вставлять относительную позицию абзаца с закладкой.
+description: Получает или задает следует ли вставлять относительное положение отмеченного закладкой абзаца.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.fields/fieldpageref/insertrelativeposition/
 ---
 ## FieldPageRef.InsertRelativePosition property
 
-Получает или задает, следует ли вставлять относительную позицию абзаца с закладкой.
+Получает или задает, следует ли вставлять относительное положение отмеченного закладкой абзаца.
 
 ```csharp
 public bool InsertRelativePosition { get; set; }
@@ -16,7 +16,7 @@ public bool InsertRelativePosition { get; set; }
 
 ### Примеры
 
-Показывает вставку полей PAGEREF для отображения относительного расположения закладок.
+Показывает, как вставить поля PAGEREF для отображения относительного расположения закладок.
 
 ```csharp
 public void FieldPageRef()

@@ -16,7 +16,7 @@ public string NamespaceMappings { get; set; }
 
 ### Примеры
 
-Показывает, как создать поле INCLUDETEXT и установить его свойства.
+Показывает, как создать поле INCLUDETEXT и задать его свойства.
 
 ```csharp
 public void FieldIncludeText()

@@ -3,7 +3,7 @@ title: HtmlMetafileFormat
 second_title: Справочник по API Aspose.Words для .NET
 description: Указывает формат в котором метафайлы сохраняются в документах HTML.
 type: docs
-weight: 4780
+weight: 4830
 url: /ru/net/aspose.words.saving/htmlmetafileformat/
 ---
 ## HtmlMetafileFormat enumeration
@@ -20,7 +20,7 @@ public enum HtmlMetafileFormat
 | --- | --- | --- |
 | Png | `0` | Метафайлы преобразуются в растровые изображения PNG. |
 | Svg | `1` | Метафайлы конвертируются в векторные изображения SVG. |
-| EmfOrWmf | `2` | Метафайлы сохраняются как есть, без конвертации. |
+| EmfOrWmf | `2` | Метафайлы сохраняются как есть, без преобразования. |
 
 ### Примеры
 
@@ -42,7 +42,7 @@ HtmlLoadOptions loadOptions = new HtmlLoadOptions { ConvertSvgToEmf = true };
 
 Document doc = new Document(new MemoryStream(Encoding.UTF8.GetBytes(html)), loadOptions);
 
-// Этот документ содержит тег <svg> элемент в виде текста.
+// Этот документ содержит <svg> элемент в виде текста.
 // Когда мы сохраняем документ в HTML, мы можем передать объект SaveOptions
 // чтобы определить, как операция сохранения обрабатывает этот объект.
 // Установка для свойства "MetafileFormat" значения "HtmlMetafileFormat.Png", чтобы преобразовать его в изображение PNG.

@@ -21,8 +21,8 @@ public int Count { get; }
 ```csharp
 Document doc = new Document(MyDir + "Properties.docx");
 
- // 每个文档都包含一个自定义属性的集合，这些属性和内置属性一样，是键值对。
- // 文档有一个固定的内置属性列表。用户创建所有自定义属性。 
+// 每个文档都包含一个自定义属性的集合，这些属性和内置属性一样，是键值对。
+// 文档有一个固定的内置属性列表。用户创建所有自定义属性。 
 Assert.AreEqual("Value of custom document property", doc.CustomDocumentProperties["CustomProperty"].ToString());
 
 doc.CustomDocumentProperties.Add("CustomProperty2", "Value of custom document property #2");

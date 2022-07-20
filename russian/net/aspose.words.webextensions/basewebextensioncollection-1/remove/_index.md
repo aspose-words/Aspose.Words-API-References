@@ -1,14 +1,14 @@
 ---
 title: Remove
 second_title: Справочник по API Aspose.Words для .NET
-description: Удаляет элемент по указанному индексу из коллекции.
+description: Удаляет элемент с указанным индексом из коллекции.
 type: docs
 weight: 60
 url: /ru/net/aspose.words.webextensions/basewebextensioncollection-1/remove/
 ---
 ## BaseWebExtensionCollection&lt;T&gt;.Remove method
 
-Удаляет элемент по указанному индексу из коллекции.
+Удаляет элемент с указанным индексом из коллекции.
 
 ```csharp
 public void Remove(int index)

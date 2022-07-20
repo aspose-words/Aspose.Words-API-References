@@ -1,14 +1,14 @@
 ---
 title: VisitShapeEnd
 second_title: Aspose.Words for .NET API 参考
-description: 形状枚举结束时调用
+description: 当形状的枚举结束时调用
 type: docs
 weight: 390
 url: /zh/net/aspose.words/documentvisitor/visitshapeend/
 ---
 ## DocumentVisitor.VisitShapeEnd method
 
-形状枚举结束时调用。
+当形状的枚举结束时调用。
 
 ```csharp
 public virtual VisitorAction VisitShapeEnd(Shape shape)
@@ -20,11 +20,11 @@ public virtual VisitorAction VisitShapeEnd(Shape shape)
 
 ### 返回值
 
-A[`VisitorAction`](../../visitoraction)指定如何继续枚举的值。
+一个[`VisitorAction`](../../visitoraction)指定如何继续枚举的值。
 
 ### 例子
 
-展示如何创建一组形状，并使用文档访问者打印其内容。
+演示如何创建一组形状，并使用文档访问者打印其内容。
 
 ```csharp
 public void GroupOfShapes()
@@ -32,9 +32,9 @@ public void GroupOfShapes()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-     // 如果需要创建“NonPrimitive”形状，如 SingleCornerSnipped、TopCornersSnipped、DiagonalCornersSnipped、
-     // TopCornersOneRoundedOneSnipped, SingleCornerRounded, TopCornersRounded, DiagonalCornersRounded
-     // 请使用 DocumentBuilder.InsertShape 方法。
+    // 如果需要创建“NonPrimitive”形状，例如 SingleCornerSnipped、TopCornersSnipped、DiagonalCornersSnipped，
+    // TopCornersOneRoundedOneSnipped, SingleCornerRounded, TopCornersRounded, DiagonalCornersRounded
+    // 请使用 DocumentBuilder.InsertShape 方法。
     Shape balloon = new Shape(doc, ShapeType.Balloon)
     {
         Width = 200, 
@@ -64,7 +64,7 @@ public void GroupOfShapes()
 }
 
 /// <summary>
- /// 将访问的形状组的内容打印到控制台。
+/// 将访问的形状组的内容打印到控制台。
 /// </summary>
 public class ShapeGroupPrinter : DocumentVisitor
 {

@@ -16,11 +16,11 @@ public Field BuildAndInsert(Inline refNode)
 
 ### 返回值
 
-代表插入字段的[`Field`](../../field)对象。
+一个[`Field`](../../field)表示插入字段的对象。
 
 ### 例子
 
-显示如何使用字段构建器创建和插入字段。
+展示如何使用字段构建器创建和插入字段。
 
 ```csharp
 Document doc = new Document();
@@ -63,11 +63,11 @@ public Field BuildAndInsert(Paragraph refNode)
 
 ### 返回值
 
-代表插入字段的[`Field`](../../field)对象。
+一个[`Field`](../../field)表示插入字段的对象。
 
 ### 例子
 
-展示如何使用字段构建器构造字段，然后将它们插入到文档中。
+演示如何使用字段构建器构造字段，然后将它们插入到文档中。
 
 ```csharp
 Document doc = new Document();

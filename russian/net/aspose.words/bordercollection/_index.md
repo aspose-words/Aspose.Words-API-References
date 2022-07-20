@@ -23,14 +23,14 @@ public sealed class BorderCollection : IEnumerable<Border>
 | [Count](../../aspose.words/bordercollection/count) { get; } | Получает количество границ в коллекции. |
 | [DistanceFromText](../../aspose.words/bordercollection/distancefromtext) { get; set; } | Получает или задает расстояние границы от текста в пунктах. |
 | [Horizontal](../../aspose.words/bordercollection/horizontal) { get; } | Получает горизонтальную границу, которая используется между ячейками или соответствующими абзацами. |
-| [Item](../../aspose.words/bordercollection/item) { get; } | Извлекает объект Border по типу границы. (2 indexers) |
+| [Item](../../aspose.words/bordercollection/item) { get; } | Извлекает объект границы по типу границы. (2 indexers) |
 | [Left](../../aspose.words/bordercollection/left) { get; } | Получает левую границу. |
 | [LineStyle](../../aspose.words/bordercollection/linestyle) { get; set; } | Получает или задает стиль границы. |
 | [LineWidth](../../aspose.words/bordercollection/linewidth) { get; set; } | Получает или задает ширину границы в пунктах. |
 | [Right](../../aspose.words/bordercollection/right) { get; } | Получает правильную границу. |
-| [Shadow](../../aspose.words/bordercollection/shadow) { get; set; } | Получает или задает значение, указывающее, есть ли тень у границы. |
+| [Shadow](../../aspose.words/bordercollection/shadow) { get; set; } | Получает или задает значение, указывающее, есть ли у границы тень. |
 | [Top](../../aspose.words/bordercollection/top) { get; } | Получает верхнюю границу. |
-| [Vertical](../../aspose.words/bordercollection/vertical) { get; } | Получает вертикальную границу, используемую между ячейками. |
+| [Vertical](../../aspose.words/bordercollection/vertical) { get; } | Получает вертикальную границу, которая используется между ячейками. |
 
 ## Методы
 
@@ -42,7 +42,7 @@ public sealed class BorderCollection : IEnumerable<Border>
 
 ### Примечания
 
-Различные элементы документа имеют разные границы. Например, ParagraphFormat имеет нижнюю, левую, правую и верхнюю границы. Вы можете задать отдельное форматирование для каждой границы или перебрать все границы и применить одинаковое форматирование.
+Различные элементы документа имеют разные границы. Например, ParagraphFormat имеет нижнюю, левую, правую и верхнюю границы. Вы можете указать разное форматирование для каждой границы независимо или перечислить все границы и применить одинаковое форматирование.
 
 ### Примеры
 

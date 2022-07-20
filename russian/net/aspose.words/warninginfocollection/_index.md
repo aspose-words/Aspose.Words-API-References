@@ -1,14 +1,14 @@
 ---
 title: WarningInfoCollection
 second_title: Справочник по API Aspose.Words для .NET
-description: Представляет типизированную коллекцию объектовWarningInfo./warninginfo.
+description: Представляет типизированную коллекциюWarningInfo./warninginfo объекты.
 type: docs
-weight: 6280
+weight: 6330
 url: /ru/net/aspose.words/warninginfocollection/
 ---
 ## WarningInfoCollection class
 
-Представляет типизированную коллекцию объектов[`WarningInfo`](../warninginfo).
+Представляет типизированную коллекцию[`WarningInfo`](../warninginfo) объекты.
 
 ```csharp
 public class WarningInfoCollection : IEnumerable<WarningInfo>, IWarningCallback
@@ -32,16 +32,16 @@ public class WarningInfoCollection : IEnumerable<WarningInfo>, IWarningCallback
 | Имя | Описание |
 | --- | --- |
 | [Clear](../../aspose.words/warninginfocollection/clear)() | Удаляет все элементы из коллекции. |
-| [GetEnumerator](../../aspose.words/warninginfocollection/getenumerator)() | Возвращает объект перечислителя, который можно использовать для перебора всех элементов коллекции. |
-| [Warning](../../aspose.words/warninginfocollection/warning)(WarningInfo) | Реализует интерфейс[`IWarningCallback`](../iwarningcallback). Добавляет предупреждение в эту коллекцию. |
+| [GetEnumerator](../../aspose.words/warninginfocollection/getenumerator)() | Возвращает объект перечислителя, который можно использовать для перебора всех элементов в коллекции. |
+| [Warning](../../aspose.words/warninginfocollection/warning)(WarningInfo) | Реализует[`IWarningCallback`](../iwarningcallback) интерфейс. Добавляет предупреждение в эту коллекцию. |
 
 ### Примечания
 
-Вы можете использовать этот объект коллекции как простейшую форму[`IWarningCallback`](../iwarningcallback)реализация для сбора всех предупреждений, которые Aspose.Words генерирует во время операции загрузки или сохранения. Создайте экземпляр этого класса и назначьте его объекту[`WarningCallback`](../../aspose.words.loading/loadoptions/warningcallback)илиDocumentBaseсвойство.
+Вы можете использовать этот объект коллекции как простейшую форму[`IWarningCallback`](../iwarningcallback)реализация для сбора всех предупреждений, которые Aspose.Words генерирует во время операции загрузки или сохранения. Создайте экземпляр этого класса и назначьте его для[`WarningCallback`](../../aspose.words.loading/loadoptions/warningcallback) или же[`WarningCallback`](../documentbase/warningcallback) имущество.
 
 ### Примеры
 
-Показывает, как установить свойство для поиска ближайшего соответствия отсутствующему шрифту из доступных источников шрифтов.
+Показывает, как задать свойство для поиска ближайшего соответствия отсутствующему шрифту из доступных источников шрифтов.
 
 ```csharp
 [Test]

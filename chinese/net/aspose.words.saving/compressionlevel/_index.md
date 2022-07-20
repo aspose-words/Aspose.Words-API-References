@@ -3,16 +3,16 @@ title: CompressionLevel
 second_title: Aspose.Words for .NET API 参考
 description: OOXML 文件的压缩级别
 type: docs
-weight: 4560
+weight: 4610
 url: /zh/net/aspose.words.saving/compressionlevel/
 ---
 ## CompressionLevel enumeration
 
 OOXML 文件的压缩级别。
 
-（DOCX 和 DOTX 文件在内部是 ZIP 存档，此属性控制存档的压缩级别。
+（DOCX 和 DOTX 文件在内部是一个 ZIP 存档，此属性控制存档的压缩级别。
 
-注意，FlatOpc 文件不是 ZIP 压缩文件，因此，此属性不会影响 FlatOpc 文件。）
+请注意，FlatOpc 文件不是 ZIP 存档，因此，此属性不会影响 FlatOpc 文件。）
 
 ```csharp
 public enum CompressionLevel
@@ -22,7 +22,7 @@ public enum CompressionLevel
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| Normal | `0` | 正常压缩级别。 Aspose.Words 使用的默认压缩级别。 |
+| Normal | `0` | 正常压缩级别。 Aspose.Words. 使用的默认压缩级别 |
 | Maximum | `1` | 最大压缩级别。 |
 | Fast | `2` | 快速压缩级别。 |
 | SuperFast | `3` | 超快速压缩级别。 Microsoft Word 使用此压缩级别。 |

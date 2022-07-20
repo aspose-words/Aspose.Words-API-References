@@ -16,7 +16,7 @@ public bool AspectRatioLocked { get; set; }
 
 ### 评论
 
-默认值取决于ShapeType，对于 ShapeType.Image 它是 **true** 但对于其他形状类型它是 **假** 。
+默认值取决于[`ShapeType`](../shapetype) 对于 ShapeType.Image 它是 **真的** 但对于其他形状类型是 **错误的**.
 
 仅对顶级形状有效。
 

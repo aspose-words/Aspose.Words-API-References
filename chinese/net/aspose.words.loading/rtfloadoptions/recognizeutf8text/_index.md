@@ -1,14 +1,14 @@
 ---
 title: RecognizeUtf8Text
 second_title: Aspose.Words for .NET API 参考
-description: 当设置为 true 时CharsetDetector将尝试检测 UTF8 字符 它们将在导入期间保留
+description: 当设置为真时CharsetDetector将尝试检测 UTF8 字符 它们将在导入期间保留
 type: docs
 weight: 20
 url: /zh/net/aspose.words.loading/rtfloadoptions/recognizeutf8text/
 ---
 ## RtfLoadOptions.RecognizeUtf8Text property
 
-当设置为 true 时，CharsetDetector将尝试检测 UTF8 字符 它们将在导入期间保留。
+当设置为真时，CharsetDetector将尝试检测 UTF8 字符， 它们将在导入期间保留。
 
 默认值为假。
 
@@ -18,15 +18,15 @@ public bool RecognizeUtf8Text { get; set; }
 
 ### 例子
 
-显示如何在加载 RTF 文档时检测 UTF-8 字符。
+展示如何在加载 RTF 文档时检测 UTF-8 字符。
 
 ```csharp
- // 创建一个“RtfLoadOptions”对象来修改我们如何加载一个 RTF 文档。
+// 创建一个“RtfLoadOptions”对象来修改我们加载 RTF 文档的方式。
 RtfLoadOptions loadOptions = new RtfLoadOptions();
 
- // 将“RecognizeUtf8Text”属性设置为“false”以假定文档使用 ISO 8859-1 charset
- // 并加载文档中的每个字符。
-// 将“RecognizeUtf8Text”属性设置为“true”以解析文本中可能出现的任何变长字符。
+// 将“RecognizeUtf8Text”属性设置为“false”以假定文档使用 ISO 8859-1 字符集
+// 并加载文档中的每个字符。
+// 将“RecognizeUtf8Text”属性设置为“true”以解析文本中可能出现的任何可变长度字符。
 loadOptions.RecognizeUtf8Text = recognizeUtf8Text;
 
 Document doc = new Document(MyDir + "UTF-8 characters.rtf", loadOptions);

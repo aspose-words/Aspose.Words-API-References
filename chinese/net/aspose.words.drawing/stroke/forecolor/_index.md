@@ -16,7 +16,7 @@ public Color ForeColor { get; set; }
 
 ### 评论
 
-Shape的默认值是 Black。
+的默认值[`Shape`](../../shape)是 Black.
 
 ### 例子
 

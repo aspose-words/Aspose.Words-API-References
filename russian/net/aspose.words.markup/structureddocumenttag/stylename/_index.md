@@ -1,14 +1,14 @@
 ---
 title: StyleName
 second_title: Справочник по API Aspose.Words для .NET
-description: Получает или задает имя стиля примененного к тегу структурированного документа.
+description: Получает или задает имя стиля применяемого к тегу структурированного документа.
 type: docs
 weight: 270
 url: /ru/net/aspose.words.markup/structureddocumenttag/stylename/
 ---
 ## StructuredDocumentTag.StyleName property
 
-Получает или задает имя стиля, примененного к тегу структурированного документа.
+Получает или задает имя стиля, применяемого к тегу структурированного документа.
 
 ```csharp
 public string StyleName { get; set; }

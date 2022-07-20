@@ -1,14 +1,14 @@
 ---
 title: StoreType
 second_title: Aspose.Words for .NET API 参考
-description: 指定市场类型
+description: 指定市场的类型
 type: docs
 weight: 40
 url: /zh/net/aspose.words.webextensions/webextensionreference/storetype/
 ---
 ## WebExtensionReference.StoreType property
 
-指定市场类型。
+指定市场的类型。
 
 ```csharp
 public WebExtensionStoreType StoreType { get; set; }
@@ -16,7 +16,7 @@ public WebExtensionStoreType StoreType { get; set; }
 
 ### 例子
 
-显示如何向文档添加 Web 扩展。
+展示如何向文档添加 Web 扩展。
 
 ```csharp
 Document doc = new Document();

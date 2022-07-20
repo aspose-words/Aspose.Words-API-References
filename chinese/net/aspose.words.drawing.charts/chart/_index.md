@@ -28,7 +28,7 @@ public class Chart
 
 ### 例子
 
-显示如何插入图表并设置标题。
+显示如何插入图表和设置标题。
 
 ```csharp
 Document doc = new Document();

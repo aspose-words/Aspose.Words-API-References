@@ -1,14 +1,14 @@
 ---
 title: Equals
 second_title: Aspose.Words for .NET API 参考
-description: 确定指定的 Shading 在值上是否与当前的 Shading 相等
+description: 确定指定 Shading 的值是否与当前 Shading 相等
 type: docs
 weight: 50
 url: /zh/net/aspose.words/shading/equals/
 ---
 ## Equals(Shading) {#equals}
 
-确定指定的 Shading 在值上是否与当前的 Shading 相等。
+确定指定 Shading 的值是否与当前 Shading 相等。
 
 ```csharp
 public bool Equals(Shading rhs)

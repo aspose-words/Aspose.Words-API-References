@@ -16,7 +16,7 @@ public IEnumerator<T> GetEnumerator()
 
 ### 例子
 
-展示如何使用文档的 Web 扩展集合.
+展示如何使用文档的 Web 扩展集合。
 
 ```csharp
 Document doc = new Document(MyDir + "Web extension.docx");

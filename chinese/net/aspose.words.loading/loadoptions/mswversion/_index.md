@@ -16,11 +16,11 @@ public MsWordVersion MswVersion { get; set; }
 
 ### 评论
 
-不同的 Word 版本在加载过程中处理文档内容和格式的某些方面可能略有不同 在加载过程中，这可能会导致文档对象模型的细微差异。
+不同的Word版本在加载过程中处理文档内容和格式的某些方面可能略有不同 ，这可能会导致文档对象模型略有不同。
 
 ### 例子
 
-显示如何在文档加载期间模拟特定 Microsoft Word 版本的加载过程。
+演示如何在文档加载期间模拟特定 Microsoft Word 版本的加载过程。
 
 ```csharp
 // 默认情况下，Aspose.Words 根据 Microsoft Word 2019 规范加载文档。

@@ -1,14 +1,14 @@
 ---
 title: FontResourcesSubsettingSizeThreshold
 second_title: Aspose.Words for .NET API 参考
-description: 控制保存为 HTMLMHTML 或 EPUB 时需要子集的字体资源 默认为 0 
+description: 控制保存为 HTMLMHTML 或 EPUB 时需要子集的字体资源 默认为0.
 type: docs
 weight: 300
 url: /zh/net/aspose.words.saving/htmlsaveoptions/fontresourcessubsettingsizethreshold/
 ---
 ## HtmlSaveOptions.FontResourcesSubsettingSizeThreshold property
 
-控制保存为 HTML、MHTML 或 EPUB 时需要子集的字体资源。 默认为` 0` 。
+控制保存为 HTML、MHTML 或 EPUB 时需要子集的字体资源。 默认为`0`.
 
 ```csharp
 public int FontResourcesSubsettingSizeThreshold { get; set; }
@@ -16,15 +16,15 @@ public int FontResourcesSubsettingSizeThreshold { get; set; }
 
 ### 评论
 
-[`ExportFontResources`](../exportfontresources)允许将字体导出为辅助文件或作为输出 包的一部分。如果文档使用许多字体，尤其是使用大量字形，则输出大小会显着增长 。字体子集通过过滤掉当前文档不使用 的字形来减小导出字体资源的大小。
+[`ExportFontResources`](../exportfontresources)允许将字体导出为辅助文件或 output 包的一部分。如果文档使用多种字体，尤其是使用大量字形，则输出大小会显着增长 。字体子集通过过滤掉当前文档未使用的 字形来减小导出字体资源的大小。
 
-字体子集的工作方式如下:
+字体子集的工作方式如下：
 
-* 默认情况下，所有导出的字体都被子集化。
-* 设置`FontResourcesSubsettingSizeThreshold`为正值 指示 Aspose。文件大小大于指定值的子集字体的字。
-* 将属性设置为MaxValue 会抑制字体子集。
+* 默认情况下，所有导出的字体都是子集。
+* 环境`FontResourcesSubsettingSizeThreshold`为正值 指示 Aspose.Words 对文件大小大于指定值的字体进行子集化。
+* 将属性设置为MaxValue 抑制字体子集。
 
-**重要！** 导出字体资源时，应考虑字体许可问题。希望通过可下载的 字体机制使用特定字体的作者必须始终仔细验证其预期用途是否在字体许可的范围内。许多商业字体目前不允许 允许以任何形式从网络下载其字体。涵盖某些字体的许可协议特别指出，不允许在 CSS 样式表中通过 **@font-face** 规则 使用。字体子集也可能违反许可条款。
+**重要的！**导出字体资源时，应考虑字体许可问题。希望通过可下载 字体机制使用特定字体的作者必须始终仔细验证其预期用途是否在字体许可范围内。许多商业字体目前不 允许以任何形式从网络下载他们的字体。涵盖某些字体的许可协议特别指出，使用 **@字体脸**不允许在 CSS 样式表中使用 rules 。字体子集也可能违反许可条款。
 
 ### 例子
 

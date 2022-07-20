@@ -3,7 +3,7 @@ title: CustomXmlPart
 second_title: Aspose.Words for .NET API 参考
 description: 表示自定义 XML 数据存储部分包中的自定义 XML 数据
 type: docs
-weight: 3630
+weight: 3680
 url: /zh/net/aspose.words.markup/customxmlpart/
 ---
 ## CustomXmlPart class
@@ -24,8 +24,8 @@ public class CustomXmlPart
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Data](../../aspose.words.markup/customxmlpart/data) { get; set; } | 获取或设置此自定义 XML 数据存储部件的 XML 内容。 |
-| [DataChecksum](../../aspose.words.markup/customxmlpart/datachecksum) { get; } | 指定[`Data`](./data)内容的循环冗余校验 (CRC) 校验和。 |
+| [Data](../../aspose.words.markup/customxmlpart/data) { get; set; } | 获取或设置此自定义 XML 数据存储部分的 XML 内容。 |
+| [DataChecksum](../../aspose.words.markup/customxmlpart/datachecksum) { get; } | 指定循环冗余校验 (CRC) 校验和[`Data`](./data)内容. |
 | [Id](../../aspose.words.markup/customxmlpart/id) { get; set; } | 获取或设置在 OOXML 文档中标识此自定义 XML 部件的字符串。 |
 | [Schemas](../../aspose.words.markup/customxmlpart/schemas) { get; } | 指定与此自定义 XML 部件关联的 XML 模式集。 |
 
@@ -33,11 +33,11 @@ public class CustomXmlPart
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Clone](../../aspose.words.markup/customxmlpart/clone)() | 制作对象的“足够深”的副本。 不复制[`Data`](./data)值的字节。 |
+| [Clone](../../aspose.words.markup/customxmlpart/clone)() | 制作对象的“足够深”的副本。 不复制[`Data`](./data)值. |
 
 ### 评论
 
-DOCX 或 DOC 文档可以包含一个或多个自定义 XML 数据存储部分。 Aspose.Words 保留和 允许通过[`CustomXmlParts`](../../aspose.words/document/customxmlparts)集合创建和提取自定义 XML 数据。
+DOCX 或 DOC 文档可以包含一个或多个自定义 XML 数据存储部分。 Aspose.Words 保留和 允许通过[`CustomXmlParts`](../../aspose.words/document/customxmlparts)收藏。
 
 ### 例子
 

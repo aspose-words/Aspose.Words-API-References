@@ -1,14 +1,14 @@
 ---
 title: VisitSmartTagEnd
 second_title: Справочник по API Aspose.Words для .NET
-description: Вызывается когда закончилось перечисление смарт-тега.
+description: Вызывается после окончания перечисления смарт-тега.
 type: docs
 weight: 410
 url: /ru/net/aspose.words/documentvisitor/visitsmarttagend/
 ---
 ## DocumentVisitor.VisitSmartTagEnd method
 
-Вызывается, когда закончилось перечисление смарт-тега.
+Вызывается после окончания перечисления смарт-тега.
 
 ```csharp
 public virtual VisitorAction VisitSmartTagEnd(SmartTag smartTag)
@@ -16,11 +16,11 @@ public virtual VisitorAction VisitSmartTagEnd(SmartTag smartTag)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| smartTag | SmartTag | Посещаемый объект. |
+| smartTag | SmartTag | Объект, который посещается. |
 
 ### Возвращаемое значение
 
-A[`VisitorAction`](../../visitoraction)значение, указывающее, как продолжить перечисление.
+А[`VisitorAction`](../../visitoraction) значение, указывающее, как продолжить перечисление.
 
 ### Примеры
 
@@ -32,17 +32,17 @@ public void SmartTagToText()
     Document doc = new Document(MyDir + "Smart tags.doc");
     SmartTagStructurePrinter visitor = new SmartTagStructurePrinter();
 
-     // Когда составной узел принимает посетителя документа, посетитель посещает принимающий узел, 
-     // а затем обходит все дочерние узлы в порядке глубины.
-     // Посетитель может читать и изменять каждый посещенный узел.
+    // Когда составной узел принимает посетителя документа, посетитель посещает принимающий узел,
+    // а затем обходит все дочерние элементы узла в порядке глубины.
+    // Посетитель может читать и изменять каждый посещаемый узел.
     doc.Accept(visitor);
 
     Console.WriteLine(visitor.GetText());
 }
 
 /// <summary>
- /// Обходит небинарное дерево дочерних узлов узла.
- /// Создает карту в виде строки всех встреченных узлов SmartTag и их дочерних элементов.
+/// Обходит небинарное дерево дочерних узлов узла.
+/// Создает карту в виде строки всех встреченных узлов SmartTag и их дочерних элементов.
 /// </summary>
 public class SmartTagStructurePrinter : DocumentVisitor
 {
@@ -53,7 +53,7 @@ public class SmartTagStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-     /// Получает простой текст документа, который накопил посетитель.
+    /// Получает обычный текст документа, который накопил посетитель.
     /// </summary>
     public string GetText()
     {
@@ -61,7 +61,7 @@ public class SmartTagStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-     /// Вызывается, когда в документе встречается узел Run.
+    /// Вызывается, когда в документе встречается узел Run.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {
@@ -71,7 +71,7 @@ public class SmartTagStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-     /// Вызывается, когда в документе встречается узел SmartTag.
+    /// Вызывается, когда в документе встречается узел SmartTag.
     /// </summary>
     public override VisitorAction VisitSmartTagStart(SmartTag smartTag)
     {
@@ -95,9 +95,9 @@ public class SmartTagStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-     /// Добавляем строку в StringBuilder и делаем отступ в зависимости от того, насколько глубоко посетитель находится в дереве документа.
+    /// Добавляем строку в StringBuilder и делаем отступ в зависимости от того, насколько глубоко посетитель находится в дереве документа.
     /// </summary>
-     /// <param name="text"></param>
+    /// <param name="text"></param>
     private void IndentAndAppendLine(string text)
     {
         for (int i = 0; i < mDocTraversalDepth; i++) mBuilder.Append("|  ");

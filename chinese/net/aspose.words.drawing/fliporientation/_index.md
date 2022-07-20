@@ -26,7 +26,7 @@ public enum FlipOrientation
 
 ### 例子
 
-显示如何在轴。
+显示如何在轴上翻转形状。
 
 ```csharp
 Document doc = new Document();

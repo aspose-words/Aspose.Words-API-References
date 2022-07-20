@@ -16,13 +16,13 @@ public bool UseHighQualityRendering { get; set; }
 
 ### 评论
 
-默认值为` false` 。
+默认值为`错误的`.
 
-当文档导出为图像格式时使用此属性: Tiff,Png,Bmp, Jpeg,Emf。
+当文档导出为图像格式时使用此属性： Tiff,Png,BmpJpeg,Emf.
 
 ### 例子
 
-展示如何使用 SaveOptions 提高呈现文档的质量。
+演示如何使用 SaveOptions 提高呈现文档的质量。
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");

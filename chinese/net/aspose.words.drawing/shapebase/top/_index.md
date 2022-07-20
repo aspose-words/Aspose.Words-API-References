@@ -3,7 +3,7 @@ title: Top
 second_title: Aspose.Words for .NET API 参考
 description: 获取或设置形状包含块的上边缘的位置
 type: docs
-weight: 490
+weight: 500
 url: /zh/net/aspose.words.drawing/shapebase/top/
 ---
 ## ShapeBase.Top property
@@ -16,9 +16,9 @@ public double Top { get; set; }
 
 ### 评论
 
-对于顶级形状，该值以点为单位并相对于形状锚点。
+对于顶级形状，该值以点为单位并且相对于形状锚点。
 
-对于组中的形状，该值在父组的坐标空间和单位中。
+对于组中的形状，该值位于父组的坐标空间和单位中。
 
 默认值为 0。
 

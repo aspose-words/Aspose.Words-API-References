@@ -1,14 +1,14 @@
 ---
 title: CalendarType
 second_title: Aspose.Words for .NET API 参考
-description: 指定此 SDT 的日历类型 默认为Default
+description: 为此指定日历的类型 SDT. 默认为Default
 type: docs
 weight: 50
 url: /zh/net/aspose.words.markup/structureddocumenttag/calendartype/
 ---
 ## StructuredDocumentTag.CalendarType property
 
-指定此 **SDT** 的日历类型。 默认为Default
+为此指定日历的类型 **SDT**. 默认为Default
 
 ```csharp
 public SdtCalendarType CalendarType { get; set; }
@@ -16,7 +16,7 @@ public SdtCalendarType CalendarType { get; set; }
 
 ### 评论
 
-访问此属性仅适用于DateSDT 类型。
+访问此属性仅适用于DateSDT 类型.
 
 对于所有其他 SDT 类型，将发生异常。
 

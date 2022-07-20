@@ -1,14 +1,14 @@
 ---
 title: IsDirty
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置字段的当前结果是否由于对文档的其他修改 而不再正确陈旧
+description: 获取或设置字段的当前结果是否由于对文档进行的其他修改 而不再正确陈旧
 type: docs
 weight: 20
 url: /zh/net/aspose.words.fields/fieldchar/isdirty/
 ---
 ## FieldChar.IsDirty property
 
-获取或设置字段的当前结果是否由于对文档的其他修改 而不再正确（陈旧）。
+获取或设置字段的当前结果是否由于对文档进行的其他修改 而不再正确（陈旧）。
 
 ```csharp
 public bool IsDirty { get; set; }

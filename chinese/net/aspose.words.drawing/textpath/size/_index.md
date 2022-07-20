@@ -1,14 +1,14 @@
 ---
 title: Size
 second_title: Aspose.Words for .NET API 参考
-description: 以磅为单位定义字体的大小
+description: 以磅为单位定义字体大小
 type: docs
 weight: 120
 url: /zh/net/aspose.words.drawing/textpath/size/
 ---
 ## TextPath.Size property
 
-以磅为单位定义字体的大小。
+以磅为单位定义字体大小。
 
 ```csharp
 public double Size { get; set; }

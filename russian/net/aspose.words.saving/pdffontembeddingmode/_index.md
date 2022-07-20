@@ -3,7 +3,7 @@ title: PdfFontEmbeddingMode
 second_title: Справочник по API Aspose.Words для .NET
 description: Указывает как Aspose.Words должен встраивать шрифты.
 type: docs
-weight: 5140
+weight: 5190
 url: /ru/net/aspose.words.saving/pdffontembeddingmode/
 ---
 ## PdfFontEmbeddingMode enumeration
@@ -20,7 +20,7 @@ public enum PdfFontEmbeddingMode
 | --- | --- | --- |
 | EmbedAll | `0` | Aspose.Words встраивает все шрифты. |
 | EmbedNonstandard | `1` | Aspose.Words встраивает все шрифты, кроме стандартных шрифтов Windows Arial и Times New Roman. В этом режиме затрагиваются только шрифты Arial и Times New Roman, поскольку MS Word не встраивает только эти шрифты при сохранении документа в PDF. |
-| EmbedNone | `2` | Aspose.Words не встраивает никаких шрифтов. |
+| EmbedNone | `2` | Aspose.Words не встраивает шрифты. |
 
 ### Примеры
 

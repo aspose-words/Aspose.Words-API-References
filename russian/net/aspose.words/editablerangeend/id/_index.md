@@ -1,14 +1,14 @@
 ---
 title: Id
 second_title: Справочник по API Aspose.Words для .NET
-description: Указывает идентификатор редактируемого диапазона.
+description: Задает идентификатор редактируемого диапазона.
 type: docs
 weight: 20
 url: /ru/net/aspose.words/editablerangeend/id/
 ---
 ## EditableRangeEnd.Id property
 
-Указывает идентификатор редактируемого диапазона.
+Задает идентификатор редактируемого диапазона.
 
 ```csharp
 public int Id { get; set; }
@@ -31,21 +31,21 @@ EditableRangeStart editableRangeStart = builder.StartEditableRange();
 builder.Writeln("This paragraph is inside an editable range, and can be edited.");
 EditableRangeEnd editableRangeEnd = builder.EndEditableRange();
 
- // Правильно сформированный редактируемый диапазон имеет начальный узел и конечный узел.
- // Эти узлы имеют совпадающие идентификаторы и охватывают редактируемые узлы.
+// Правильно сформированный редактируемый диапазон имеет начальный узел и конечный узел.
+// Эти узлы имеют совпадающие идентификаторы и охватывают редактируемые узлы.
 EditableRange editableRange = editableRangeStart.EditableRange;
 
 Assert.AreEqual(editableRangeStart.Id, editableRange.Id);
 Assert.AreEqual(editableRangeEnd.Id, editableRange.Id);
 
- // Различные части редактируемого диапазона ссылаются друг на друга.
+// Различные части редактируемого диапазона связаны друг с другом.
 Assert.AreEqual(editableRangeStart.Id, editableRange.EditableRangeStart.Id);
 Assert.AreEqual(editableRangeStart.Id, editableRangeEnd.EditableRangeStart.Id);
 Assert.AreEqual(editableRange.Id, editableRangeStart.EditableRange.Id);
 Assert.AreEqual(editableRangeEnd.Id, editableRange.EditableRangeEnd.Id);
 
- // Мы можем получить доступ к типам узлов каждой части следующим образом. Редактируемый диапазон сам по себе не является узлом, 
- // но объект, состоящий из начала, конца и заключенного в них содержимого.
+// Мы можем получить доступ к типам узлов каждой части следующим образом. Редактируемый диапазон сам по себе не является узлом,
+// но объект, который состоит из начала, конца и заключенного в них содержимого.
 Assert.AreEqual(NodeType.EditableRangeStart, editableRangeStart.NodeType);
 Assert.AreEqual(NodeType.EditableRangeEnd, editableRangeEnd.NodeType);
 
@@ -53,7 +53,7 @@ builder.Writeln("This paragraph is outside the editable range, and cannot be edi
 
 doc.Save(ArtifactsDir + "EditableRange.CreateAndRemove.docx");
 
- // Удалить редактируемый диапазон. Все узлы, которые находились внутри диапазона, останутся нетронутыми.
+// Удалить редактируемый диапазон. Все узлы, которые были внутри диапазона, останутся нетронутыми.
 editableRange.Remove();
 ```
 

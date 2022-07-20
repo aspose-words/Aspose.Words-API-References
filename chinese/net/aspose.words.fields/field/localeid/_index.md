@@ -1,14 +1,14 @@
 ---
 title: LocaleId
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置字段的 LCID
+description: 获取或设置字段的LCID
 type: docs
 weight: 60
 url: /zh/net/aspose.words.fields/field/localeid/
 ---
 ## Field.LocaleId property
 
-获取或设置字段的 LCID。
+获取或设置字段的LCID。
 
 ```csharp
 public int LocaleId { get; set; }
@@ -16,7 +16,7 @@ public int LocaleId { get; set; }
 
 ### 例子
 
-显示如何插入字段并工作与它的语言环境。
+显示如何插入字段并使用其语言环境。
 
 ```csharp
 Document doc = new Document();

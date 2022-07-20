@@ -1,14 +1,14 @@
 ---
 title: TableSubstitutionRule
 second_title: Справочник по API Aspose.Words для .NET
-description: Правило подстановки табличного шрифта.
+description: Правило подстановки шрифта таблицы.
 type: docs
-weight: 2830
+weight: 2880
 url: /ru/net/aspose.words.fonts/tablesubstitutionrule/
 ---
 ## TableSubstitutionRule class
 
-Правило подстановки табличного шрифта.
+Правило подстановки шрифта таблицы.
 
 ```csharp
 public class TableSubstitutionRule : FontSubstitutionRule
@@ -18,26 +18,26 @@ public class TableSubstitutionRule : FontSubstitutionRule
 
 | Имя | Описание |
 | --- | --- |
-| virtual [Enabled](../../aspose.words.fonts/fontsubstitutionrule/enabled) { get; set; } | Указывает, включено ли правило или нет. |
+| virtual [Enabled](../../aspose.words.fonts/fontsubstitutionrule/enabled) { get; set; } | Указывает, включено ли правило. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [AddSubstitutes](../../aspose.words.fonts/tablesubstitutionrule/addsubstitutes)(string, params string[]) | Добавляет замещающие имена шрифтов для данного исходного имени шрифта. |
+| [AddSubstitutes](../../aspose.words.fonts/tablesubstitutionrule/addsubstitutes)(string, params string[]) | Добавляет замещающие имена шрифтов для заданного исходного имени шрифта. |
 | [GetSubstitutes](../../aspose.words.fonts/tablesubstitutionrule/getsubstitutes)(string) | Возвращает массив, содержащий замещающие имена шрифтов для указанного исходного имени шрифта. |
-| [Load](../../aspose.words.fonts/tablesubstitutionrule/load#load)(Stream) | Загружает настройки подстановки таблиц из XML-потока. |
+| [Load](../../aspose.words.fonts/tablesubstitutionrule/load#load)(Stream) | Загружает настройки подстановки таблиц из потока XML. |
 | [Load](../../aspose.words.fonts/tablesubstitutionrule/load#load_1)(string) | Загружает настройки подстановки таблиц из файла XML. |
-| [LoadAndroidSettings](../../aspose.words.fonts/tablesubstitutionrule/loadandroidsettings)() | Загружает предопределенные настройки подстановки таблиц для платформы Linux. |
-| [LoadLinuxSettings](../../aspose.words.fonts/tablesubstitutionrule/loadlinuxsettings)() | Загружает предопределенные настройки подстановки таблиц для платформы Linux. |
-| [LoadWindowsSettings](../../aspose.words.fonts/tablesubstitutionrule/loadwindowssettings)() | Загружает предопределенные настройки подстановки таблиц для платформы Windows. |
-| [Save](../../aspose.words.fonts/tablesubstitutionrule/save#save)(Stream) | Сохраняет текущие настройки подстановки таблиц в поток. |
+| [LoadAndroidSettings](../../aspose.words.fonts/tablesubstitutionrule/loadandroidsettings)() | Загружает предопределенные параметры замены таблиц для платформы Linux. |
+| [LoadLinuxSettings](../../aspose.words.fonts/tablesubstitutionrule/loadlinuxsettings)() | Загружает предопределенные параметры замены таблиц для платформы Linux. |
+| [LoadWindowsSettings](../../aspose.words.fonts/tablesubstitutionrule/loadwindowssettings)() | Загружает предопределенные параметры подстановки таблиц для платформы Windows. |
+| [Save](../../aspose.words.fonts/tablesubstitutionrule/save#save)(Stream) | Сохраняет текущие настройки подстановки таблицы в поток. |
 | [Save](../../aspose.words.fonts/tablesubstitutionrule/save#save_1)(string) | Сохраняет текущие настройки подстановки таблиц в файл. |
-| [SetSubstitutes](../../aspose.words.fonts/tablesubstitutionrule/setsubstitutes)(string, params string[]) | Переопределить замещающие имена шрифтов для данного оригинального имени шрифта. |
+| [SetSubstitutes](../../aspose.words.fonts/tablesubstitutionrule/setsubstitutes)(string, params string[]) | Переопределить замещающие имена шрифтов для заданного исходного имени шрифта. |
 
 ### Примечания
 
-Это правило определяет список замещающих имен шрифтов, которые будут использоваться, если исходный шрифт недоступен. Заменители будут проверены для имени шрифта и[`AltName`](../fontinfo/altname)(если есть).
+Это правило определяет список имен шрифтов-заменителей, которые будут использоваться, если исходный шрифт недоступен.[`AltName`](../fontinfo/altname) (если есть).
 
 ### Примеры
 

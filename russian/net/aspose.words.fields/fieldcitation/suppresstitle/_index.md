@@ -1,14 +1,14 @@
 ---
 title: SuppressTitle
 second_title: Справочник по API Aspose.Words для .NET
-description: Получает или задает будет ли информация о заголовке скрыта от цитирования.
+description: Получает или задает скрыта ли информация о заголовке из цитирования.
 type: docs
 weight: 90
 url: /ru/net/aspose.words.fields/fieldcitation/suppresstitle/
 ---
 ## FieldCitation.SuppressTitle property
 
-Получает или задает, будет ли информация о заголовке скрыта от цитирования.
+Получает или задает, скрыта ли информация о заголовке из цитирования.
 
 ```csharp
 public bool SuppressTitle { get; set; }
@@ -16,7 +16,7 @@ public bool SuppressTitle { get; set; }
 
 ### Примеры
 
-Показывает, как работать с полями ЦИТАТА и БИБЛИОГРАФИЯ.
+Показывает, как работать с полями ЦИТАЦИЯ и БИБЛИОГРАФИЯ.
 
 ```csharp
 // Открываем документ, содержащий библиографические источники, которые мы можем найти в

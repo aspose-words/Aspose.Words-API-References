@@ -1,14 +1,14 @@
 ---
 title: UpdateLastSavedTimeProperty
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置一个值该值确定LastSavedTimeaspose.words.properties/builtindocumentproperties/lastsavedtime属性是否在保存前更新
+description: 获取或设置一个值确定是否LastSavedTimeaspose.words.properties/builtindocumentproperties/lastsavedtime属性在保存之前更新
 type: docs
 weight: 190
 url: /zh/net/aspose.words.saving/saveoptions/updatelastsavedtimeproperty/
 ---
 ## SaveOptions.UpdateLastSavedTimeProperty property
 
-获取或设置一个值，该值确定[`LastSavedTime`](../../../aspose.words.properties/builtindocumentproperties/lastsavedtime)属性是否在保存前更新。
+获取或设置一个值，确定是否[`LastSavedTime`](../../../aspose.words.properties/builtindocumentproperties/lastsavedtime)属性在保存之前更新。
 
 ```csharp
 public bool UpdateLastSavedTimeProperty { get; set; }

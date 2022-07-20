@@ -3,7 +3,7 @@ title: FolderFontSource
 second_title: Справочник по API Aspose.Words для .NET
 description: Представляет папку содержащую файлы шрифтов TrueType.
 type: docs
-weight: 2650
+weight: 2700
 url: /ru/net/aspose.words.fonts/folderfontsource/
 ---
 ## FolderFontSource class
@@ -18,8 +18,8 @@ public class FolderFontSource : FontSourceBase
 
 | Имя | Описание |
 | --- | --- |
-| [FolderFontSource](folderfontsource#constructor)(string, bool) | Ктор. |
-| [FolderFontSource](folderfontsource#constructor_1)(string, bool, int) | Ктор. |
+| [FolderFontSource](folderfontsource#constructor)(string, bool) | Стор. |
+| [FolderFontSource](folderfontsource#constructor_1)(string, bool, int) | Стор. |
 
 ## Характеристики
 
@@ -27,7 +27,7 @@ public class FolderFontSource : FontSourceBase
 | --- | --- |
 | [FolderPath](../../aspose.words.fonts/folderfontsource/folderpath) { get; } | Путь к папке. |
 | [Priority](../../aspose.words.fonts/fontsourcebase/priority) { get; } | Возвращает приоритет источника шрифта. |
-| [ScanSubfolders](../../aspose.words.fonts/folderfontsource/scansubfolders) { get; } | Определяет, сканировать ли вложенные папки. |
+| [ScanSubfolders](../../aspose.words.fonts/folderfontsource/scansubfolders) { get; } | Определяет, сканировать ли подпапки. |
 | override [Type](../../aspose.words.fonts/folderfontsource/type) { get; } | Возвращает тип источника шрифта. |
 | [WarningCallback](../../aspose.words.fonts/fontsourcebase/warningcallback) { get; set; } | Вызывается во время обработки источника шрифта при обнаружении проблемы, которая может привести к потере точности форматирования. |
 

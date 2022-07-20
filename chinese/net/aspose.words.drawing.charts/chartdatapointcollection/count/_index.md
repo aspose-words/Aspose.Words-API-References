@@ -1,14 +1,14 @@
 ---
 title: Count
 second_title: Aspose.Words for .NET API 参考
-description: 返回此集合中ChartDataPointaspose.words.drawing.charts/chartdatapoint的数量
+description: 返回数量ChartDataPointaspose.words.drawing.charts/chartdatapoint在这个集合中
 type: docs
 weight: 10
 url: /zh/net/aspose.words.drawing.charts/chartdatapointcollection/count/
 ---
 ## ChartDataPointCollection.Count property
 
-返回此集合中[`ChartDataPoint`](../../chartdatapoint)的数量。
+返回数量[`ChartDataPoint`](../../chartdatapoint)在这个集合中。
 
 ```csharp
 public int Count { get; }

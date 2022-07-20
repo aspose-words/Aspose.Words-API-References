@@ -31,12 +31,12 @@ public void PageFileNames()
     builder.InsertBreak(BreakType.PageBreak);
     builder.Writeln("Page 3.");
 
-     // Создаем объект «HtmlFixedSaveOptions», который мы можем передать в метод «Сохранить» документа method
-     // чтобы изменить способ преобразования документа в HTML.
+    // Создаем объект "HtmlFixedSaveOptions", который мы можем передать в метод документа "Сохранить"
+    // чтобы изменить способ преобразования документа в HTML.
     HtmlFixedSaveOptions htmlFixedSaveOptions = new HtmlFixedSaveOptions();
 
-     // Мы сохраним каждую страницу этого документа в отдельный файл HTML в локальной файловой системе.
-     // Устанавливаем обратный вызов, который позволяет нам называть каждый выходной HTML-документ.
+    // Мы сохраним каждую страницу этого документа в отдельный файл HTML в локальной файловой системе.
+    // Установите обратный вызов, который позволит нам назвать каждый выходной HTML-документ.
     htmlFixedSaveOptions.PageSavingCallback = new CustomFileNamePageSavingCallback();
 
     doc.Save(ArtifactsDir + "SavingCallback.PageFileNames.html", htmlFixedSaveOptions);
@@ -48,7 +48,7 @@ public void PageFileNames()
 }
 
 /// <summary>
-/// Сохраняет все страницы в файл и каталог, указанные в пределах .
+/// Сохраняет все страницы в файл и каталог, указанные внутри.
 /// </summary>
 private class CustomFileNamePageSavingCallback : IPageSavingCallback
 {
@@ -56,11 +56,11 @@ private class CustomFileNamePageSavingCallback : IPageSavingCallback
     {
         string outFileName = $"{ArtifactsDir}SavingCallback.PageFileNames.Page_{args.PageIndex}.html";
 
-         // Ниже приведены два способа указать, где Aspose.Words будет сохранять каждую страницу документа.
-         // 1 - Установить имя файла для выходного файла страницы: 
+        // Ниже приведены два способа указать, где Aspose.Words будет сохранять каждую страницу документа.
+        // 1 - Установить имя файла для выходного файла страницы:
         args.PageFileName = outFileName;
 
-         // 2 - Создать пользовательский поток для выходного файла страницы: 
+        // 2 - Создайте собственный поток для выходного файла страницы:
         args.PageStream = new FileStream(outFileName, FileMode.Create);
 
         Assert.False(args.KeepPageStreamOpen);

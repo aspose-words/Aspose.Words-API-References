@@ -1,14 +1,14 @@
 ---
 title: Respond
 second_title: Aspose.Words for .NET API 参考
-description: 实施时在提示时返回用户的响应 你的实现应该返回 null 表示用户没有响应提示 即用户已按下提示窗口中的取消按钮
+description: 实施时在提示时返回用户的响应 您的实施应返回 无效的表示用户没有响应提示 即用户在提示窗口中按下了取消按钮
 type: docs
 weight: 10
 url: /zh/net/aspose.words.fields/ifielduserpromptrespondent/respond/
 ---
 ## IFieldUserPromptRespondent.Respond method
 
-实施时，在提示时返回用户的响应。 你的实现应该返回 **null** 表示用户没有响应提示 （即用户已按下提示窗口中的取消按钮）。
+实施时，在提示时返回用户的响应。 您的实施应返回 **无效的**表示用户没有响应提示 （即用户在提示窗口中按下了取消按钮）。
 
 ```csharp
 public string Respond(string promptText, string defaultResponse)
@@ -25,7 +25,7 @@ public string Respond(string promptText, string defaultResponse)
 
 ### 例子
 
-显示如何创建 ASK 字段并设置其属性。
+展示如何创建 ASK 字段并设置其属性。
 
 ```csharp
 [Test]

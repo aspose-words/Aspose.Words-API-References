@@ -1,14 +1,14 @@
 ---
 title: ExportFontResources
 second_title: Aspose.Words for .NET API 参考
-description: 指定字体资源是否应导出为 HTMLMHTML 或 EPUB 默认为 false 
+description: 指定字体资源是否应导出为 HTMLMHTML 或 EPUB 默认为错误的.
 type: docs
 weight: 150
 url: /zh/net/aspose.words.saving/htmlsaveoptions/exportfontresources/
 ---
 ## HtmlSaveOptions.ExportFontResources property
 
-指定字体资源是否应导出为 HTML、MHTML 或 EPUB。 默认为` false` 。
+指定字体资源是否应导出为 HTML、MHTML 或 EPUB。 默认为`错误的`.
 
 ```csharp
 public bool ExportFontResources { get; set; }
@@ -16,13 +16,13 @@ public bool ExportFontResources { get; set; }
 
 ### 评论
 
-导出字体资源允许独立于可用字体的一致文档渲染 在给定用户的环境中。
+导出字体资源允许独立于给定用户环境中可用字体的一致文档渲染。
 
-如果`ExportFontResources`设置为` true` ，主 HTML 文档将通过 CSS 3 **@font-face** at-rule 和字体将作为单独的文件输出。当导出为 IDPF EPUB 或 MHTML 格式时，字体将与其他附属文件一起嵌入到相应的包中。
+如果`ExportFontResources`被设定为`真的` , 主 HTML 文档将通过 CSS 3 引用每种字体 **@字体脸**at-rule 和 fonts 将作为单独的文件输出。导出为 IDPF EPUB 或 MHTML 格式时，字体将与其他附属文件一起嵌入到相应的包中。
 
-如果[`ExportFontsAsBase64`](../exportfontsasbase64)设置为` true` ，字体不会保存到单独的文件中。 相反，它们将嵌入到 Base64 编码中的 **@font-face** at-rules 中。
+如果[`ExportFontsAsBase64`](../exportfontsasbase64)被设定为`真的` 字体不会被保存到单独的文件中。 而是嵌入到 **@字体脸**Base64 编码中的 at 规则。
 
-**重要！** 导出字体资源时，应考虑字体许可问题。希望通过可下载的 字体机制使用特定字体的作者必须始终仔细验证其预期用途是否在字体许可的范围内。许多商业字体目前不允许 允许以任何形式从网络下载其字体。涵盖某些字体的许可协议特别指出，不允许在 CSS 样式表中通过 **@font-face** 规则 使用。字体子集也可能违反许可条款。
+**重要的！**导出字体资源时，应考虑字体许可问题。希望通过可下载 字体机制使用特定字体的作者必须始终仔细验证其预期用途是否在字体许可范围内。许多商业字体目前不 允许以任何形式从网络下载他们的字体。涵盖某些字体的许可协议特别指出，使用 **@字体脸**不允许在 CSS 样式表中使用 rules 。字体子集也可能违反许可条款。
 
 ### 例子
 

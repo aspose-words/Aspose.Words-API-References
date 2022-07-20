@@ -1,14 +1,14 @@
 ---
 title: Count
 second_title: Aspose.Words for .NET API 参考
-description: 获取集合中包含的元素数量
+description: 获取集合中包含的元素数
 type: docs
 weight: 20
 url: /zh/net/aspose.words.settings/odsofieldmapdatacollection/count/
 ---
 ## OdsoFieldMapDataCollection.Count property
 
-获取集合中包含的元素数量。
+获取集合中包含的元素数。
 
 ```csharp
 public int Count { get; }
@@ -16,13 +16,13 @@ public int Count { get; }
 
 ### 例子
 
-显示如何访问将数据源列映射到合并字段的数据集合。
+演示如何访问将数据源列映射到合并字段的数据集合。
 
 ```csharp
 Document doc = new Document(MyDir + "Odso data.docx");
 
- // 这个集合定义了邮件合并如何映射来自数据源的列
- // 到预定义的 MERGEFIELD、ADDRESSBLOCK 和 GREETINGLINE 字段。
+// 此集合定义邮件合并如何映射来自数据源的列
+// 到预定义的 MERGEFIELD、ADDRESSBLOCK 和 GREETINGLINE 字段。
 OdsoFieldMapDataCollection dataCollection = doc.MailMergeSettings.Odso.FieldMapDatas;
 Assert.AreEqual(30, dataCollection.Count);
 
@@ -40,15 +40,15 @@ using (IEnumerator<OdsoFieldMapData> enumerator = dataCollection.GetEnumerator()
     }
 }
 
- // 克隆这个集合中的元素。
+// 克隆此集合中的元素。
 Assert.AreNotEqual(dataCollection[0], dataCollection[0].Clone());
 
- // 按索引单独使用“RemoveAt”方法元素。
+// 按索引单独使用“RemoveAt”方法元素。
 dataCollection.RemoveAt(0);
 
 Assert.AreEqual(29, dataCollection.Count);
 
- // 使用“清除”方法一次清除整个集合。
+// 使用“Clear”方法一次清除整个集合。
 dataCollection.Clear();
 
 Assert.AreEqual(0, dataCollection.Count);

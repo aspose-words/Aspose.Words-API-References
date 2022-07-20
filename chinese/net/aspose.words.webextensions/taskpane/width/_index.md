@@ -16,7 +16,7 @@ public double Width { get; set; }
 
 ### 例子
 
-显示如何向文档添加 Web 扩展。
+展示如何向文档添加 Web 扩展。
 
 ```csharp
 Document doc = new Document();

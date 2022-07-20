@@ -1,14 +1,14 @@
 ---
 title: ShadeFormData
 second_title: Справочник по API Aspose.Words для .NET
-description: Указывает включать ли заливку серым цветом полей формы.
+description: Указывает следует ли включать серое затенение полей формы.
 type: docs
 weight: 360
 url: /ru/net/aspose.words/document/shadeformdata/
 ---
 ## Document.ShadeFormData property
 
-Указывает, включать ли заливку серым цветом полей формы.
+Указывает, следует ли включать серое затенение полей формы.
 
 ```csharp
 public bool ShadeFormData { get; set; }
@@ -16,7 +16,7 @@ public bool ShadeFormData { get; set; }
 
 ### Примеры
 
-Показывает, как применить заливку серым цветом к полям формы.
+Показывает, как применить затенение серого к полям формы.
 
 ```csharp
 Document doc = new Document();

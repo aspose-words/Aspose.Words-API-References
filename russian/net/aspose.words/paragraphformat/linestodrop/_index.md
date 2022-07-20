@@ -28,7 +28,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.ParagraphFormat.LinesToDrop = 4;
 builder.Writeln("H");
 
-// Сбросьте свойство "LinesToDrop" в 0, чтобы превратить следующий абзац в обычный абзац.
+// Сбросьте свойство LinesToDrop в 0, чтобы превратить следующий абзац в обычный абзац.
 // Текст в этом абзаце будет обтекать буквицу.
 builder.ParagraphFormat.LinesToDrop = 0;
 builder.Writeln("ello world!");

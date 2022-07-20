@@ -1,14 +1,14 @@
 ---
 title: SaveFontFaceCssSeparately
 second_title: Aspose.Words for .NET API 参考
-description: 标志指示是否应将font-face CSS 规则放入单独的文件fontFaces.css 当文档正在使用外部样式表保存即当ExportEmbeddedCssaspose.words.saving/htmlfixedsaveoptions/exportembeddedcss 为 false  默认值为 false 所有 CSS 规则都写入单个文件styles.css
+description: 标志指示当使用外部样式表保存文档时即当ExportEmbeddedCssaspose.words.saving/htmlfixedsaveoptions/exportembeddedcss 是错误的. 默认值为错误的所有CSS规则都写入单个文件styles.css.
 type: docs
 weight: 160
 url: /zh/net/aspose.words.saving/htmlfixedsaveoptions/savefontfacecssseparately/
 ---
 ## HtmlFixedSaveOptions.SaveFontFaceCssSeparately property
 
-标志指示是否应将“@font-face” CSS 规则放入单独的文件“fontFaces.css” 当文档正在使用外部样式表保存（即，当[`ExportEmbeddedCss`](../exportembeddedcss) 为` false` ）。 默认值为` false` ，所有 CSS 规则都写入单个文件“styles.css”。
+标志指示当使用外部样式表保存文档时（即，当[`ExportEmbeddedCss`](../exportembeddedcss) 是`错误的`). 默认值为`错误的`，所有CSS规则都写入单个文件“styles.css”.
 
 ```csharp
 public bool SaveFontFaceCssSeparately { get; set; }
@@ -16,11 +16,11 @@ public bool SaveFontFaceCssSeparately { get; set; }
 
 ### 评论
 
-将此属性设置为` true` 恢复旧行为（单独的文件）以与旧代码兼容。
+将此属性设置为`真的`恢复旧行为（单独的文件）以与旧代码兼容。
 
 ### 例子
 
-展示了如何将 CSS 放入一个单独的文件并为其所有 CSS 类名添加前缀。
+展示了如何将 CSS 放入一个单独的文件中，并为它的所有 CSS 类名添加一个前缀。
 
 ```csharp
 Document doc = new Document(MyDir + "Bookmarks.docx");

@@ -3,7 +3,7 @@ title: TextureAlignment
 second_title: Справочник по API Aspose.Words для .NET
 description: Задает выравнивание для мозаичного заполнения текстурной заливкой.
 type: docs
-weight: 1200
+weight: 1220
 url: /ru/net/aspose.words.drawing/texturealignment/
 ---
 ## TextureAlignment enumeration
@@ -18,7 +18,7 @@ public enum TextureAlignment
 
 | Имя | Ценность | Описание |
 | --- | --- | --- |
-| TopLeft | `0` | Выравнивание текстуры по верхнему левому краю. |
+| TopLeft | `0` | Выравнивание текстуры по левому верхнему углу. |
 | Top | `1` | Верхнее выравнивание текстуры. |
 | TopRight | `2` | Выравнивание текстуры вверху справа. |
 | Left | `3` | Выравнивание текстуры по левому краю. |
@@ -31,7 +31,7 @@ public enum TextureAlignment
 
 ### Примеры
 
-Показывает, как заполнить и замостить текстуру внутри фигуры.
+Показывает, как заполнять и размещать текстуру внутри фигуры.
 
 ```csharp
 Document doc = new Document();

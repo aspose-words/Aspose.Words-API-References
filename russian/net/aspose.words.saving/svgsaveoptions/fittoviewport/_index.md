@@ -1,16 +1,16 @@
 ---
 title: FitToViewPort
 second_title: Справочник по API Aspose.Words для .NET
-description: Указывает должен ли выходной SVG заполнять доступную область просмотра окно браузера или контейнер. Когда установлено значение true ширина и высота выходного SVG устанавливаются на 100.
+description: Указывает должен ли выходной SVG заполнять доступную область просмотра окно браузера или контейнер. Если установлено значение true ширина и высота выходного SVG устанавливаются равными 100.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.saving/svgsaveoptions/fittoviewport/
 ---
 ## SvgSaveOptions.FitToViewPort property
 
-Указывает, должен ли выходной SVG заполнять доступную область просмотра (окно браузера или контейнер). Когда установлено значение true, ширина и высота выходного SVG устанавливаются на 100%.
+Указывает, должен ли выходной SVG заполнять доступную область просмотра (окно браузера или контейнер). Если установлено значение true, ширина и высота выходного SVG устанавливаются равными 100%.
 
-Значение по умолчанию — false.
+Значение по умолчанию неверно.
 
 ```csharp
 public bool FitToViewPort { get; set; }
@@ -23,7 +23,7 @@ public bool FitToViewPort { get; set; }
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");
 
- // Настройте объект SvgSaveOptions для сохранения без границ страницы или выбираемого текста.
+// Настройте объект SvgSaveOptions для сохранения без границ страницы или выбираемого текста.
 SvgSaveOptions options = new SvgSaveOptions
 {
     FitToViewPort = true,

@@ -16,11 +16,11 @@ public int LocaleIdFarEast { get; set; }
 
 ### 评论
 
-有关区域设置标识符的列表，请参见 https://msdn.microsoft.com/en-us /library/cc233965.aspx
+有关区域设置标识符的列表，请参阅 https://msdn.microsoft.com/en-us/library/cc233965.aspx
 
 ### 例子
 
-显示如何以远东语言插入和格式化文本。
+展示如何以远东语言插入和格式化文本。
 
 ```csharp
 Document doc = new Document();

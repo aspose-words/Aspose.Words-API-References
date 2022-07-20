@@ -1,14 +1,14 @@
 ---
 title: SystemFontSource
 second_title: Справочник по API Aspose.Words для .NET
-description: Ктор.
+description: Стор.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.fonts/systemfontsource/systemfontsource/
 ---
 ## SystemFontSource() {#constructor}
 
-Ктор.
+Стор.
 
 ```csharp
 public SystemFontSource()
@@ -77,7 +77,7 @@ Assert.AreEqual(1,
 
 ## SystemFontSource(int) {#constructor_1}
 
-Ктор.
+Стор.
 
 ```csharp
 public SystemFontSource(int priority)
@@ -85,7 +85,7 @@ public SystemFontSource(int priority)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| priority | Int32 | Приоритет источника шрифта. См. описание свойства[`Priority`](../../fontsourcebase/priority)для получения дополнительной информации. |
+| priority | Int32 | Приоритет источника шрифта. См.[`Priority`](../../fontsourcebase/priority) описание свойства для получения дополнительной информации. |
 
 ### Примеры
 

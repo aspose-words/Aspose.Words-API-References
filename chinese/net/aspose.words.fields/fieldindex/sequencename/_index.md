@@ -1,14 +1,14 @@
 ---
 title: SequenceName
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置其编号包含在页码中的序列的名称
+description: 获取或设置一个序列的名称其编号包含在页码中
 type: docs
 weight: 150
 url: /zh/net/aspose.words.fields/fieldindex/sequencename/
 ---
 ## FieldIndex.SequenceName property
 
-获取或设置其编号包含在页码中的序列的名称。
+获取或设置一个序列的名称，其编号包含在页码中。
 
 ```csharp
 public string SequenceName { get; set; }
@@ -16,7 +16,7 @@ public string SequenceName { get; set; }
 
 ### 例子
 
-显示如何通过组合 INDEX 和 SEQ 字段将文档拆分为多个部分。
+展示如何通过组合 INDEX 和 SEQ 字段将文档拆分为多个部分。
 
 ```csharp
 Document doc = new Document();

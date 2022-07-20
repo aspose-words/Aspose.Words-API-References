@@ -1,14 +1,14 @@
 ---
 title: FullDate
 second_title: Aspose.Words for .NET API 参考
-description: 指定上次输入此 SDT 的完整日期和时间
+description: 指定上次输入的完整日期和时间 SDT.
 type: docs
 weight: 130
 url: /zh/net/aspose.words.markup/structureddocumenttag/fulldate/
 ---
 ## StructuredDocumentTag.FullDate property
 
-指定上次输入此 **SDT** 的完整日期和时间。
+指定上次输入的完整日期和时间 **SDT**.
 
 ```csharp
 public DateTime FullDate { get; set; }
@@ -16,7 +16,7 @@ public DateTime FullDate { get; set; }
 
 ### 评论
 
-访问此属性仅适用于DateSDT 类型。
+访问此属性仅适用于DateSDT 类型.
 
 对于所有其他 SDT 类型，将发生异常。
 

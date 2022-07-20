@@ -20,17 +20,17 @@ public void SetImage(Image image)
 
 ### 例子
 
-显示如何在文档中显示来自本地文件系统的图像。
+演示如何在文档中显示来自本地文件系统的图像。
 
 ```csharp
 Document doc = new Document();
 
- // 要在文档中显示图像，我们需要创建一个 shape
- // 这将包含一个图像，然后将其附加到文档的主体。
+// 要在文档中显示图像，我们需要创建一个形状
+// 它将包含一个图像，然后将其附加到文档的正文中。
 Shape imgShape;
 
- // 下面是从本地文件系统的文件中获取图片的两种方式
- // 1 - 从图像文件创建图像对象：
+// 下面是从本地文件系统的文件中获取图片的两种方式。
+// 1 - 从图像文件创建图像对象：
 using (Image srcImage = Image.FromFile(ImageDir + "Logo.jpg"))
 {
     imgShape = new Shape(doc, ShapeType.Image);
@@ -38,7 +38,7 @@ using (Image srcImage = Image.FromFile(ImageDir + "Logo.jpg"))
     imgShape.ImageData.SetImage(srcImage);
 }
 
- // 2 - 使用流从本地文件系统打开图像文件：
+// 2 - 使用流从本地文件系统打开图像文件：
 using (Stream stream = new FileStream(ImageDir + "Logo.jpg", FileMode.Open, FileAccess.Read))
 {
     imgShape = new Shape(doc, ShapeType.Image);
@@ -72,17 +72,17 @@ public void SetImage(Stream stream)
 
 ### 例子
 
-显示如何在文档中显示来自本地文件系统的图像。
+演示如何在文档中显示来自本地文件系统的图像。
 
 ```csharp
 Document doc = new Document();
 
- // 要在文档中显示图像，我们需要创建一个 shape
- // 这将包含一个图像，然后将其附加到文档的主体。
+// 要在文档中显示图像，我们需要创建一个形状
+// 它将包含一个图像，然后将其附加到文档的正文中。
 Shape imgShape;
 
- // 下面是从本地文件系统的文件中获取图片的两种方式
- // 1 - 从图像文件创建图像对象：
+// 下面是从本地文件系统的文件中获取图片的两种方式。
+// 1 - 从图像文件创建图像对象：
 using (Image srcImage = Image.FromFile(ImageDir + "Logo.jpg"))
 {
     imgShape = new Shape(doc, ShapeType.Image);
@@ -90,7 +90,7 @@ using (Image srcImage = Image.FromFile(ImageDir + "Logo.jpg"))
     imgShape.ImageData.SetImage(srcImage);
 }
 
- // 2 - 使用流从本地文件系统打开图像文件：
+// 2 - 使用流从本地文件系统打开图像文件：
 using (Stream stream = new FileStream(ImageDir + "Logo.jpg", FileMode.Open, FileAccess.Read))
 {
     imgShape = new Shape(doc, ShapeType.Image);
@@ -124,7 +124,7 @@ public void SetImage(string fileName)
 
 ### 例子
 
-显示如何将链接图像插入到文档中。
+演示如何将链接图像插入到文档中。
 
 ```csharp
 Document doc = new Document();

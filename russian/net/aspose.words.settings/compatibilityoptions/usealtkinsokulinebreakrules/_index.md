@@ -1,14 +1,14 @@
 ---
 title: UseAltKinsokuLineBreakRules
 second_title: Справочник по API Aspose.Words для .NET
-description: Использовать альтернативный набор восточноазиатских правил разрыва строки.
+description: Использовать альтернативный набор восточноазиатских правил разрыва строк.
 type: docs
 weight: 600
 url: /ru/net/aspose.words.settings/compatibilityoptions/usealtkinsokulinebreakrules/
 ---
 ## CompatibilityOptions.UseAltKinsokuLineBreakRules property
 
-Использовать альтернативный набор восточноазиатских правил разрыва строки.
+Использовать альтернативный набор восточноазиатских правил разрыва строк.
 
 ```csharp
 public bool UseAltKinsokuLineBreakRules { get; set; }

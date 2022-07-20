@@ -1,14 +1,14 @@
 ---
 title: VbaProject
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置VbaProjectaspose.words/document/vbaproject
+description: 获取或设置一个VbaProjectaspose.words/document/vbaproject.
 type: docs
 weight: 430
 url: /zh/net/aspose.words/document/vbaproject/
 ---
 ## Document.VbaProject property
 
-获取或设置`VbaProject`。
+获取或设置一个`VbaProject`.
 
 ```csharp
 public VbaProject VbaProject { get; set; }

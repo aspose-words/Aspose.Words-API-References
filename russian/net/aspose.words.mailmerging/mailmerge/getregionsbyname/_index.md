@@ -1,14 +1,14 @@
 ---
 title: GetRegionsByName
 second_title: Справочник по API Aspose.Words для .NET
-description: Возвращает набор регионов слияния с указанным именем.
+description: Возвращает коллекцию областей слияния с указанным именем.
 type: docs
 weight: 240
 url: /ru/net/aspose.words.mailmerging/mailmerge/getregionsbyname/
 ---
 ## MailMerge.GetRegionsByName method
 
-Возвращает набор регионов слияния с указанным именем.
+Возвращает коллекцию областей слияния с указанным именем.
 
 ```csharp
 public IList<MailMergeRegionInfo> GetRegionsByName(string regionName)
@@ -16,7 +16,7 @@ public IList<MailMergeRegionInfo> GetRegionsByName(string regionName)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| regionName | String | Имя региона (без учета регистра). |
+| regionName | String | Название региона (без учета регистра). |
 
 ### Возвращаемое значение
 
@@ -30,13 +30,13 @@ public IList<MailMergeRegionInfo> GetRegionsByName(string regionName)
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
- // Теги "TableStart" и "TableEnd", которые находятся внутри MERGEFIELD, 
- // обозначают строки, обозначающие начало и конец областей слияния.
+// Теги "TableStart" и "TableEnd", которые находятся внутри полей MERGEFIELD,
+// обозначают строки, обозначающие начало и конец областей слияния.
 Assert.AreEqual("TableStart", doc.MailMerge.RegionStartTag);
 Assert.AreEqual("TableEnd", doc.MailMerge.RegionEndTag);
 
- // Используйте эти теги для начала и окончания области слияния с именем «MailMergeRegion1», 
- // который будет содержать поля MERGEFIELD для двух столбцов.
+// Используйте эти теги, чтобы начать и закончить область слияния с именем "MailMergeRegion1",
+// который будет содержать поля MERGEFIELD для двух столбцов.
 builder.InsertField(" MERGEFIELD TableStart:MailMergeRegion1");
 builder.InsertField(" MERGEFIELD Column1");
 builder.Write(", ");
@@ -54,19 +54,19 @@ string[] mergeFieldNames = doc.MailMerge.GetFieldNamesForRegion("MailMergeRegion
 Assert.AreEqual("Column1", mergeFieldNames[0]);
 Assert.AreEqual("Column2", mergeFieldNames[1]);
 
- // Вставляем регион с таким же именем внутрь существующего региона, что сделает его родительским.
- // Теперь поле "Столбец2" будет внутри нового региона.
+// Вставить регион с таким же именем внутрь существующего региона, что сделает его родительским.
+// Теперь поле "Столбец2" будет внутри нового региона.
 builder.MoveToField(regions[0].Fields[1], false); 
 builder.InsertField(" MERGEFIELD TableStart:MailMergeRegion1");
 builder.MoveToField(regions[0].Fields[1], true);
 builder.InsertField(" MERGEFIELD TableEnd:MailMergeRegion1");
 
- // Если мы ищем название повторяющихся регионов с помощью метода "GetRegionsByName", 
- // он вернет все такие регионы в коллекции.
+// Если мы ищем название повторяющихся регионов с помощью метода "GetRegionsByName",
+// он вернет все такие регионы в коллекции.
 regions = doc.MailMerge.GetRegionsByName("MailMergeRegion1");
 
 Assert.AreEqual(2, regions.Count);
- // Проверяем, что у второго региона теперь есть родительский регион.
+// Проверяем, что второй регион теперь имеет родительский регион.
 Assert.AreEqual("MailMergeRegion1", regions[1].ParentRegion.Name);
 
 mergeFieldNames = doc.MailMerge.GetFieldNamesForRegion("MailMergeRegion1", 1);

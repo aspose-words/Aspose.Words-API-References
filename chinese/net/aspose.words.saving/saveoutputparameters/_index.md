@@ -1,14 +1,14 @@
 ---
 title: SaveOutputParameters
 second_title: Aspose.Words for .NET API 参考
-description: 此对象在保存文档后返回给调用者并包含在保存操作期间生成或计算 的附加信息调用者可以使用或忽略此对象
+description: 该对象在保存文档后返回给调用者并包含在保存操作期间生成或计算的 的附加信息调用者可以使用或忽略这个对象
 type: docs
-weight: 5260
+weight: 5310
 url: /zh/net/aspose.words.saving/saveoutputparameters/
 ---
 ## SaveOutputParameters class
 
-此对象在保存文档后返回给调用者，并包含在保存操作期间生成或计算 的附加信息。调用者可以使用或忽略此对象。
+该对象在保存文档后返回给调用者，并包含在保存操作期间生成或计算的 的附加信息。调用者可以使用或忽略这个对象。
 
 ```csharp
 public class SaveOutputParameters

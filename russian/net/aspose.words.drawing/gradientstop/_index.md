@@ -18,22 +18,22 @@ public class GradientStop
 
 | Имя | Описание |
 | --- | --- |
-| [GradientStop](gradientstop#constructor)(Color, double) | Инициализирует новый экземпляр класса[`GradientStop`](../gradientstop). |
-| [GradientStop](gradientstop#constructor_1)(Color, double, double) | Инициализирует новый экземпляр класса[`GradientStop`](../gradientstop). |
+| [GradientStop](gradientstop#constructor)(Color, double) | Инициализирует новый экземпляр[`GradientStop`](../gradientstop) класс. |
+| [GradientStop](gradientstop#constructor_1)(Color, double, double) | Инициализирует новый экземпляр[`GradientStop`](../gradientstop) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
 | [Color](../../aspose.words.drawing/gradientstop/color) { get; set; } | Получает или задает значение, представляющее цвет точки градиента. |
-| [Position](../../aspose.words.drawing/gradientstop/position) { get; set; } | Получает или задает значение, представляющее положение остановки в пределах градиента , выраженное в процентах в диапазоне от 0,0 до 1,0. |
-| [Transparency](../../aspose.words.drawing/gradientstop/transparency) { get; set; } | Получает или задает значение, представляющее прозрачность градиентной заливки , выраженную в процентах в диапазоне от 0,0 до 1,0. |
+| [Position](../../aspose.words.drawing/gradientstop/position) { get; set; } | Получает или задает значение, представляющее положение остановки в градиенте , выраженное в процентах в диапазоне от 0,0 до 1,0. |
+| [Transparency](../../aspose.words.drawing/gradientstop/transparency) { get; set; } | Получает или задает значение, представляющее прозрачность градиента fill , выраженную в процентах в диапазоне от 0,0 до 1,0. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [Remove](../../aspose.words.drawing/gradientstop/remove)() | Удаляет точку градиента из родителя[`GradientStopCollection`](../gradientstopcollection). |
+| [Remove](../../aspose.words.drawing/gradientstop/remove)() | Удаляет остановку градиента из родителя[`GradientStopCollection`](../gradientstopcollection) . |
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: ToDateTime
 second_title: Справочник по API Aspose.Words для .NET
-description: Возвращает значение свойства как DateTime в формате UTC.
+description: Возвращает значение свойства в формате DateTime в формате UTC.
 type: docs
 weight: 80
 url: /ru/net/aspose.words.properties/documentproperty/todatetime/
 ---
 ## DocumentProperty.ToDateTime method
 
-Возвращает значение свойства как DateTime в формате UTC.
+Возвращает значение свойства в формате DateTime в формате UTC.
 
 ```csharp
 public DateTime ToDateTime()
@@ -18,7 +18,7 @@ public DateTime ToDateTime()
 
 Выдает исключение, если тип свойства неDateTime.
 
-Microsoft Word хранит только часть даты (без времени) для пользовательских свойств даты.
+Microsoft Word хранит только часть даты (без времени) для настраиваемых свойств даты.
 
 ### Примеры
 
@@ -26,20 +26,10 @@ Microsoft Word хранит только часть даты (без време�
 
 ```csharp
 Document doc = new Document();
-CustomDocumentProperties properties = doc.CustomDocumentProperties;
 
-DateTime authDate = DateTime.Today;
-properties.Add("Authorized", true);
-properties.Add("Authorized By", "John Doe");
-properties.Add("Authorized Date", authDate);
-properties.Add("Authorized Revision", doc.BuiltInDocumentProperties.RevisionNumber);
-properties.Add("Authorized Amount", 123.45);
+doc.CustomDocumentProperties.Add("AuthorizationDate", DateTime.Now);
 
-Assert.AreEqual(true, properties["Authorized"].ToBool());
-Assert.AreEqual("John Doe", properties["Authorized By"].ToString());
-Assert.AreEqual(authDate, properties["Authorized Date"].ToDateTime());
-Assert.AreEqual(1, properties["Authorized Revision"].ToInt());
-Assert.AreEqual(123.45d, properties["Authorized Amount"].ToDouble());
+Console.WriteLine($"Document authorized on {doc.CustomDocumentProperties["AuthorizationDate"].ToDateTime()}");
 ```
 
 Показывает различные методы преобразования типов пользовательских свойств документа.

@@ -16,11 +16,11 @@ public Shape BackgroundShape { get; set; }
 
 ### Примечания
 
-Microsoft Word допускает только фигуру, которая имеет[`ShapeType`](../../../aspose.words.drawing/shapebase/shapetype)свойство равно toRectangleдля использования в качестве фоновой формы для документа.
+Microsoft Word допускает только ту форму, которая имеет свою[`ShapeType`](../../../aspose.words.drawing/shapebase/shapetype) свойство, равное Rectangle для использования в качестве фоновой формы для документа.
 
-Microsoft Word поддерживает только свойства заливки фоновой формы. Все остальные свойства игнорируются.
+Microsoft Word поддерживает только свойства заливки фоновой фигуры. Все остальные свойства игнорируются.
 
-Установка для этого свойства ненулевого значения также установит для[`DisplayBackgroundShape`](../../../aspose.words.settings/viewoptions/displaybackgroundshape)значение true .
+Установка для этого свойства ненулевого значения также установит[`DisplayBackgroundShape`](../../../aspose.words.settings/viewoptions/displaybackgroundshape) к истине.
 
 ### Примеры
 

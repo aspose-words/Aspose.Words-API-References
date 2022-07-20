@@ -1,14 +1,14 @@
 ---
 title: FieldMapDatas
 second_title: Справочник по API Aspose.Words для .NET
-description: Получает или задает набор объектов указывающих как столбцы из внешнего источника данных сопоставляются с предопределенными именами полей слияния в документе. Этот объект никогда не бывает нулевым.
+description: Получает или задает набор объектов указывающих как столбцы из внешнего источника данных сопоставляются с предопределенными именами полей слияния в документе. Этот объект никогда не имеет значение null.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.settings/odso/fieldmapdatas/
 ---
 ## Odso.FieldMapDatas property
 
-Получает или задает набор объектов, указывающих, как столбцы из внешнего источника данных сопоставляются с предопределенными именами полей слияния в документе. Этот объект никогда не бывает нулевым.
+Получает или задает набор объектов, указывающих, как столбцы из внешнего источника данных сопоставляются с предопределенными именами полей слияния в документе. Этот объект никогда не имеет значение null.
 
 ```csharp
 public OdsoFieldMapDataCollection FieldMapDatas { get; set; }
@@ -21,8 +21,8 @@ public OdsoFieldMapDataCollection FieldMapDatas { get; set; }
 ```csharp
 Document doc = new Document(MyDir + "Odso data.docx");
 
- // Эта коллекция определяет, как слияние будет отображать столбцы из источника данных
- // в предопределенные поля MERGEFIELD, ADDRESSBLOCK и GREETINGLINE.
+// Эта коллекция определяет, как слияние почты будет отображать столбцы из источника данных
+// в предопределенные поля MERGEFIELD, ADDRESSBLOCK и GREETINGLINE.
 OdsoFieldMapDataCollection dataCollection = doc.MailMergeSettings.Odso.FieldMapDatas;
 Assert.AreEqual(30, dataCollection.Count);
 
@@ -40,15 +40,15 @@ using (IEnumerator<OdsoFieldMapData> enumerator = dataCollection.GetEnumerator()
     }
 }
 
- // Клонируем элементы этой коллекции.
+// Клонируем элементы этой коллекции.
 Assert.AreNotEqual(dataCollection[0], dataCollection[0].Clone());
 
- // Использовать элементы метода "RemoveAt" по отдельности по index.
+// Использовать элементы метода "RemoveAt" по отдельности по индексу.
 dataCollection.RemoveAt(0);
 
 Assert.AreEqual(29, dataCollection.Count);
 
- // Используйте метод «Очистить», чтобы сразу очистить всю коллекцию.
+// Используйте метод «Очистить», чтобы сразу очистить всю коллекцию.
 dataCollection.Clear();
 
 Assert.AreEqual(0, dataCollection.Count);

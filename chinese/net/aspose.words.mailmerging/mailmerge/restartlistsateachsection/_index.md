@@ -1,14 +1,14 @@
 ---
 title: RestartListsAtEachSection
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置一个值该值指示在执行邮件合并后是否在每个部分重新启动列表
+description: 获取或设置一个值该值指示是否在执行邮件合并后在每个部分重新启动列表
 type: docs
 weight: 110
 url: /zh/net/aspose.words.mailmerging/mailmerge/restartlistsateachsection/
 ---
 ## MailMerge.RestartListsAtEachSection property
 
-获取或设置一个值，该值指示在执行邮件合并后是否在每个部分重新启动列表。
+获取或设置一个值，该值指示是否在执行邮件合并后在每个部分重新启动列表。
 
 ```csharp
 public bool RestartListsAtEachSection { get; set; }
@@ -16,11 +16,11 @@ public bool RestartListsAtEachSection { get; set; }
 
 ### 评论
 
-默认值为 **true** 。
+默认值为 **真的**.
 
 ### 例子
 
-显示在执行邮件合并时如何控制是否在每个部分重新开始列表编号。
+显示在执行邮件合并时如何控制是否在每个部分重新启动列表编号。
 
 ```csharp
 Document doc = new Document(MyDir + "Section breaks with numbering.docx");

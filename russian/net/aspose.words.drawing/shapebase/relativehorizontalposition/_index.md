@@ -1,14 +1,14 @@
 ---
 title: RelativeHorizontalPosition
 second_title: Справочник по API Aspose.Words для .NET
-description: Указывает относительно чего фигура расположена горизонтально.
+description: Определяет относительное положение фигуры по горизонтали.
 type: docs
 weight: 400
 url: /ru/net/aspose.words.drawing/shapebase/relativehorizontalposition/
 ---
 ## ShapeBase.RelativeHorizontalPosition property
 
-Указывает, относительно чего фигура расположена горизонтально.
+Определяет относительное положение фигуры по горизонтали.
 
 ```csharp
 public RelativeHorizontalPosition RelativeHorizontalPosition { get; set; }
@@ -16,7 +16,7 @@ public RelativeHorizontalPosition RelativeHorizontalPosition { get; set; }
 
 ### Примечания
 
-Значение по умолчанию:Столбец.
+Значение по умолчаниюColumn.
 
 Имеет эффект только для плавающих фигур верхнего уровня.
 

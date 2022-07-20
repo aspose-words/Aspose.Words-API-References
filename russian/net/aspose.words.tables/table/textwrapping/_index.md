@@ -1,14 +1,14 @@
 ---
 title: TextWrapping
 second_title: Справочник по API Aspose.Words для .NET
-description: Получает или устанавливаетTextWrappingaspose.words.tables/table/textwrappingдля таблицы.
+description: Получает или устанавливаетTextWrappingaspose.words.tables/table/textwrapping для таблицы.
 type: docs
 weight: 310
 url: /ru/net/aspose.words.tables/table/textwrapping/
 ---
 ## Table.TextWrapping property
 
-Получает или устанавливает`TextWrapping`для таблицы.
+Получает или устанавливает`TextWrapping` для таблицы.
 
 ```csharp
 public TextWrapping TextWrapping { get; set; }
@@ -33,8 +33,8 @@ table.PreferredWidth = PreferredWidth.FromPoints(300);
 builder.Font.Size = 16;
 builder.Writeln("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.");
 
- // Установите для свойства TextWrapping значение TextWrapping.Around, чтобы таблица оборачивала текст вокруг себя, 
- // и вставьте его в абзац ниже, установив position.
+// Установите для свойства "TextWrapping" значение "TextWrapping.Around", чтобы таблица оборачивала текст вокруг себя,
+// и вставьте его в абзац ниже, установив позицию.
 table.TextWrapping = TextWrapping.Around;
 table.AbsoluteHorizontalDistance = 100;
 table.AbsoluteVerticalDistance = 20;

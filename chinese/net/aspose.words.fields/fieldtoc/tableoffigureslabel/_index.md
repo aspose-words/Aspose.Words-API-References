@@ -1,14 +1,14 @@
 ---
 title: TableOfFiguresLabel
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置构建图表时使用的序列标识符的名称
+description: 获取或设置在构建图形表时使用的序列标识符的名称
 type: docs
 weight: 160
 url: /zh/net/aspose.words.fields/fieldtoc/tableoffigureslabel/
 ---
 ## FieldToc.TableOfFiguresLabel property
 
-获取或设置构建图表时使用的序列标识符的名称。
+获取或设置在构建图形表时使用的序列标识符的名称。
 
 ```csharp
 public string TableOfFiguresLabel { get; set; }

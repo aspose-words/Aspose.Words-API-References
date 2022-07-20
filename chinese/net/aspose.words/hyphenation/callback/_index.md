@@ -1,14 +1,14 @@
 ---
 title: Callback
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置文档页面布局构建时用于请求字典的回调接口 这允许延迟加载字典这在处理多种语言的文档时可能很有用
+description: 获取或设置用于在构建文档的页面布局时请求字典的回调接口 这允许延迟加载字典这在处理多种语言的文档时可能很有用
 type: docs
 weight: 10
 url: /zh/net/aspose.words/hyphenation/callback/
 ---
 ## Hyphenation.Callback property
 
-获取或设置文档页面布局构建时用于请求字典的回调接口。 这允许延迟加载字典，这在处理多种语言的文档时可能很有用。
+获取或设置用于在构建文档的页面布局时请求字典的回调接口。 这允许延迟加载字典，这在处理多种语言的文档时可能很有用。
 
 ```csharp
 public static IHyphenationCallback Callback { get; set; }

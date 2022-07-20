@@ -1,14 +1,14 @@
 ---
 title: IsUSPostalAddress
 second_title: Справочник по API Aspose.Words для .NET
-description: Получает или задает является лиPostalAddressaspose.words.fields/fieldbarcode/postaladdressпочтовым адресом в США.
+description: Получает или устанавливаетPostalAddressaspose.words.fields/fieldbarcode/postaladdress почтовый адрес в США.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.fields/fieldbarcode/isuspostaladdress/
 ---
 ## FieldBarcode.IsUSPostalAddress property
 
-Получает или задает, является ли[`PostalAddress`](../postaladdress)почтовым адресом в США.
+Получает или устанавливает,[`PostalAddress`](../postaladdress) почтовый адрес в США.
 
 ```csharp
 public bool IsUSPostalAddress { get; set; }

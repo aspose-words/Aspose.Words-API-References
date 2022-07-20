@@ -1,14 +1,14 @@
 ---
 title: IgnoreDmlUniqueId
 second_title: Aspose.Words for .NET API 参考
-description: 指定是否忽略 DrawingML 唯一 ID 中的差异 默认值为 false 
+description: 指定是否忽略 DrawingML 唯一 ID 中的差异 默认值为 错误的.
 type: docs
 weight: 50
 url: /zh/net/aspose.words.comparing/compareoptions/ignoredmluniqueid/
 ---
 ## CompareOptions.IgnoreDmlUniqueId property
 
-指定是否忽略 DrawingML 唯一 ID 中的差异。 默认值为 **false** 。
+指定是否忽略 DrawingML 唯一 ID 中的差异。 默认值为 **错误的**.
 
 ```csharp
 public bool IgnoreDmlUniqueId { get; set; }
@@ -16,7 +16,7 @@ public bool IgnoreDmlUniqueId { get; set; }
 
 ### 例子
 
-显示如何比较忽略 DML 唯一 ID 的文档。
+展示如何比较忽略 DML 唯一 ID 的文档。
 
 ```csharp
 Document docA = new Document(MyDir + "DML unique ID original.docx");

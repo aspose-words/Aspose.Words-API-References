@@ -16,16 +16,16 @@ public bool AllowBreakAcrossPages { get; set; }
 
 ### 例子
 
-显示如何禁用表中每一行的跨页行。
+演示如何禁用表中每一行的跨页行中断。
 
 ```csharp
 Document doc = new Document(MyDir + "Table spanning two pages.docx");
 Table table = doc.FirstSection.Body.Tables[0];
 
- // 将“AllowBreakAcrossPages”属性设置为“false”以保留 row
- // 如果一个表跨越两页，则在一块中，它们沿该行分解。
- // 如果行太大而无法放入一页，Microsoft Word 会将其下推到下一页。
- // 将“AllowBreakAcrossPages”属性设置为“true”以允许该行跨越两个页面。
+// 将“AllowBreakAcrossPages”属性设置为“false”以保留该行
+// 如果一个表跨越两页，则沿着该行分开。
+// 如果行太大而无法放入一页，Microsoft Word 会将其下推到下一页。
+// 将“AllowBreakAcrossPages”属性设置为“true”以允许该行跨越两个页面。
 foreach (Row row in table.OfType<Row>())
     row.RowFormat.AllowBreakAcrossPages = allowBreakAcrossPages;
 

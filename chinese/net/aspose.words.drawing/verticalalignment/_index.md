@@ -3,7 +3,7 @@ title: VerticalAlignment
 second_title: Aspose.Words for .NET API 参考
 description: 指定浮动形状文本框或浮动表格的垂直对齐方式
 type: docs
-weight: 1210
+weight: 1230
 url: /zh/net/aspose.words.drawing/verticalalignment/
 ---
 ## VerticalAlignment enumeration
@@ -18,18 +18,18 @@ public enum VerticalAlignment
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| None | `0` | 对象被显式定位，通常使用它的 **Top** 属性。 |
+| None | `0` | 对象被显式定位，通常使用它的 **最佳**属性. |
 | Top | `1` | 指定对象应位于垂直对齐基础的顶部。 |
 | Center | `2` | 指定对象应相对于垂直对齐基准居中。 |
 | Bottom | `3` | 指定对象应位于垂直对齐基准的底部。 |
 | Inside | `4` | 指定对象应位于水平对齐基础内。 |
 | Outside | `5` | 指定对象应在垂直对齐基准之外。 |
 | Inline | `-1` | 未记录。似乎是浮动段落和表格的可能值。 |
-| Default | `0` | 与None相同。 |
+| Default | `0` | 同None. |
 
 ### 例子
 
-显示如何将浮动图像插入页面中心。
+演示如何将浮动图像插入页面中心。
 
 ```csharp
 Document doc = new Document();

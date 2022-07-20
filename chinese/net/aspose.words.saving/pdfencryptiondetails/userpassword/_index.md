@@ -16,13 +16,13 @@ public string UserPassword { get; set; }
 
 ### 评论
 
-需要用户密码才能打开加密的 PDF 文档进行查看。 [`Permissions`](../permissions)中指定的权限将由阅读器软件强制执行。
+需要用户密码才能打开加密的 PDF 文档进行查看。 中指定的权限[`Permissions`](../permissions)将由阅读器软件强制执行。
 
-用户密码可以为空或空字符串，此时 打开 PDF 文档时无需用户输入密码。用户密码不能与所有者密码相同。
+用户密码可以是空字符串或空字符串，在这种情况下， 打开 PDF 文档时用户不需要输入密码。用户密码不能与所有者密码相同。
 
 ### 例子
 
-显示如何设置已保存 PDF 文档的权限。
+展示如何对已保存的 PDF 文档设置权限。
 
 ```csharp
 Document doc = new Document();

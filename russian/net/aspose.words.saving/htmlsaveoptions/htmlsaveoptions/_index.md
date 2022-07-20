@@ -1,14 +1,14 @@
 ---
 title: HtmlSaveOptions
 second_title: Справочник по API Aspose.Words для .NET
-description: Инициализирует новый экземпляр этого класса который можно использовать для сохранения документа в файлеHtml.
+description: Инициализирует новый экземпляр этого класса который можно использовать для сохранения документа вHtml формат.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.saving/htmlsaveoptions/htmlsaveoptions/
 ---
 ## HtmlSaveOptions() {#constructor}
 
-Инициализирует новый экземпляр этого класса, который можно использовать для сохранения документа в файлеHtml.
+Инициализирует новый экземпляр этого класса, который можно использовать для сохранения документа вHtml формат.
 
 ```csharp
 public HtmlSaveOptions()
@@ -48,7 +48,7 @@ doc.Save(ArtifactsDir + "HtmlSaveOptions.Doc2EpubSaveOptions.epub", saveOptions)
 
 ## HtmlSaveOptions(SaveFormat) {#constructor_1}
 
-Инициализирует новый экземпляр этого класса, который можно использовать для сохранения документа в файлеHtml,Mhtml илиEpubформат .
+Инициализирует новый экземпляр этого класса, который можно использовать для сохранения документа вHtml ,Mhtml илиEpub формат.
 
 ```csharp
 public HtmlSaveOptions(SaveFormat saveFormat)
@@ -56,7 +56,7 @@ public HtmlSaveOptions(SaveFormat saveFormat)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| saveFormat | SaveFormat | Может бытьHtml,Mhtml илиEpub. |
+| saveFormat | SaveFormat | Может бытьHtml ,Mhtml илиEpub. |
 
 ### Примеры
 

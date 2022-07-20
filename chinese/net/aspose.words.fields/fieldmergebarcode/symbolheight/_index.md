@@ -16,7 +16,7 @@ public string SymbolHeight { get; set; }
 
 ### 例子
 
-显示如何在 QR 条形码上执行邮件合并。
+展示如何在 QR 条码上执行邮件合并。
 
 ```csharp
 Document doc = new Document();

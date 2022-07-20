@@ -16,7 +16,7 @@ public static int PixelToNewDpi(double pixels, double oldDpi, double newDpi)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| пиксели | Double | Значение для преобразования. |
+| pixels | Double | Значение для преобразования. |
 | oldDpi | Double | Текущее разрешение dpi (точек на дюйм). |
 | newDpi | Double | Новое разрешение dpi (точек на дюйм). |
 
@@ -28,7 +28,7 @@ public static int PixelToNewDpi(double pixels, double oldDpi, double newDpi)
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
- // Определяем размер верхнего поля этого раздела в пикселях в соответствии с пользовательским DPI.
+// Определить размер верхнего поля этого раздела в пикселях в соответствии с пользовательским значением DPI.
 const double myDpi = 192;
 
 PageSetup pageSetup = builder.PageSetup;
@@ -36,13 +36,13 @@ pageSetup.TopMargin = ConvertUtil.PixelToPoint(100, myDpi);
 
 Assert.AreEqual(37.5d, pageSetup.TopMargin, 0.01d);
 
- // При значении DPI по умолчанию, равном 96, пиксель равен 0,75 точки.
+// При значении DPI по умолчанию, равном 96, пиксель равен 0,75 точки.
 Assert.AreEqual(0.75d, ConvertUtil.PixelToPoint(1));
 
 builder.Writeln($"This Text is {pageSetup.TopMargin} points/{ConvertUtil.PointToPixel(pageSetup.TopMargin, myDpi)} " +
                 $"pixels (at a DPI of {myDpi}) from the top of the page.");
 
- // Установите новый DPI и соответствующим образом отрегулируйте значение верхнего поля.
+// Установите новый DPI и соответствующим образом отрегулируйте значение верхнего поля.
 const double newDpi = 300;
 pageSetup.TopMargin = ConvertUtil.PixelToNewDpi(pageSetup.TopMargin, myDpi, newDpi);
 Assert.AreEqual(59.0d, pageSetup.TopMargin, 0.01d);

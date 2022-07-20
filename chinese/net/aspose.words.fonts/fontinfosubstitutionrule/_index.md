@@ -3,7 +3,7 @@ title: FontInfoSubstitutionRule
 second_title: Aspose.Words for .NET API 参考
 description: 字体信息替换规则
 type: docs
-weight: 2710
+weight: 2760
 url: /zh/net/aspose.words.fonts/fontinfosubstitutionrule/
 ---
 ## FontInfoSubstitutionRule class
@@ -22,11 +22,11 @@ public class FontInfoSubstitutionRule : FontSubstitutionRule
 
 ### 评论
 
-根据此规则 Aspose.Words 评估T中的所有相关字段:Aspose.Words.Fonts.FontInfo(Panose, Sig etc) for 丢失的字体并在可用字体源中找到最接近的匹配。如果[`FontInfo`](../fontinfo)不是 可用于丢失的字体，则不会执行任何操作。
+根据这条规则，Aspose.Words 评估所有相关字段[`FontInfo`](../fontinfo)（Panose、Sig 等）for 丢失的字体并在可用字体源中找到最接近的匹配项。如果[`FontInfo`](../fontinfo)is not 可用于缺少的字体，那么什么都不会做。
 
 ### 例子
 
-显示如何设置属性以从可用字体源中查找缺失字体的最接近匹配。
+演示如何设置属性以从可用字体源中查找缺失字体的最接近匹配项。
 
 ```csharp
 [Test]

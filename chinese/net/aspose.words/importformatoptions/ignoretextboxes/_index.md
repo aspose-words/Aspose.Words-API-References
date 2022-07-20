@@ -1,14 +1,14 @@
 ---
 title: IgnoreTextBoxes
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置一个布尔值该值指定忽略文本框内容的源格式 ifKeepSourceFormatting模式被使用 默认值为 true 
+description: 获取或设置一个布尔值该值指定文本框内容的源格式被忽略 ifKeepSourceFormatting使用模式 默认值为真的.
 type: docs
 weight: 40
 url: /zh/net/aspose.words/importformatoptions/ignoretextboxes/
 ---
 ## ImportFormatOptions.IgnoreTextBoxes property
 
-获取或设置一个布尔值，该值指定忽略文本框内容的源格式 ifKeepSourceFormatting模式被使用。 默认值为` true` 。
+获取或设置一个布尔值，该值指定文本框内容的源格式被忽略 ifKeepSourceFormatting使用模式。 默认值为`真的`.
 
 ```csharp
 public bool IgnoreTextBoxes { get; set; }
@@ -16,7 +16,7 @@ public bool IgnoreTextBoxes { get; set; }
 
 ### 例子
 
-显示如何在附加文档时管理文本框格式。
+演示如何在附加文档时管理文本框格式。
 
 ```csharp
 // 创建一个文档，该文档将插入另一个文档的节点。

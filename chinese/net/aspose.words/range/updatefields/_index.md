@@ -16,15 +16,15 @@ public void UpdateFields()
 
 ### 评论
 
-当您打开、修改然后保存文档时，Aspose.Words 不会自动更新字段，它使它们保持完整。 因此，如果您以编程方式修改了文档 并希望确保正确的（计算的）字段值出现在保存的文档中，您通常希望在保存之前调用此方法.
+当您打开、修改和保存文档时，Aspose.Words 不会自动更新字段，它会保持原样。 因此，如果您以编程方式修改了 document ，通常需要在保存之前调用此方法并确保正确的（计算的）字段值出现在保存的文档中。
 
-执行邮件合并后不需要更新字段，因为邮件合并是一种字段更新 并自动更新所有字段文件。
+执行邮件合并后不需要更新字段，因为邮件合并是一种字段 update 并自动更新文档中的所有字段。
 
 此方法不会更新所有字段类型。有关支持的字段类型的详细列表，请参阅程序员指南。
 
-此方法不会更新与页面布局算法相关的字段（例如 PAGE、PAGES、PAGEREF）。 渲染文档或调用[`UpdatePageLayout`](../../document/updatepagelayout)时会更新页面布局相关字段。
+此方法不会更新与页面布局算法相关的字段（例如 PAGE、PAGES、PAGEREF）。 渲染文档或调用时更新与页面布局相关的字段[`UpdatePageLayout`](../../document/updatepagelayout).
 
-要更新整个文档中的字段，请使用[`UpdateFields`](../../document/updatefields)。
+要更新整个文档中的字段，请使用[`UpdateFields`](../../document/updatefields).
 
 ### 例子
 

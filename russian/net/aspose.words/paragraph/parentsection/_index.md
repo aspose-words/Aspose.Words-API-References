@@ -1,14 +1,14 @@
 ---
 title: ParentSection
 second_title: Справочник по API Aspose.Words для .NET
-description: Извлекает родителяSectionaspose.words/sectionабзаца.
+description: Извлекает родителяSectionaspose.words/section абзаца.
 type: docs
 weight: 200
 url: /ru/net/aspose.words/paragraph/parentsection/
 ---
 ## Paragraph.ParentSection property
 
-Извлекает родителя[`Section`](../../section)абзаца.
+Извлекает родителя[`Section`](../../section) абзаца.
 
 ```csharp
 public Section ParentSection { get; }

@@ -1,14 +1,14 @@
 ---
 title: DigitalSignatureType
 second_title: Справочник по API Aspose.Words для .NET
-description: Задает тип цифровой подписи.
+description: Указывает тип цифровой подписи.
 type: docs
 weight: 390
 url: /ru/net/aspose.words.digitalsignatures/digitalsignaturetype/
 ---
 ## DigitalSignatureType enumeration
 
-Задает тип цифровой подписи.
+Указывает тип цифровой подписи.
 
 ```csharp
 public enum DigitalSignatureType

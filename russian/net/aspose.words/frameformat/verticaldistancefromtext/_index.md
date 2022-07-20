@@ -1,14 +1,14 @@
 ---
 title: VerticalDistanceFromText
 second_title: Справочник по API Aspose.Words для .NET
-description: Задает расстояние по вертикали в пунктах между фреймом и окружающим текстом.
+description: Определяет расстояние по вертикали в пунктах между фреймом и окружающим текстом.
 type: docs
 weight: 100
 url: /ru/net/aspose.words/frameformat/verticaldistancefromtext/
 ---
 ## FrameFormat.VerticalDistanceFromText property
 
-Задает расстояние по вертикали (в пунктах) между фреймом и окружающим текстом.
+Определяет расстояние по вертикали (в пунктах) между фреймом и окружающим текстом.
 
 ```csharp
 public double VerticalDistanceFromText { get; }

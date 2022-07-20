@@ -1,14 +1,14 @@
 ---
 title: UseTargetMachineFonts
 second_title: Справочник по API Aspose.Words для .NET
-description: Флаг указывает должны ли шрифты с целевой машины использоваться для отображения документа. Если для этого флага установлено значение trueFontFormataspose.words.saving/htmlfixedsaveoptions/fontformatиСвойстваExportEmbeddedFontsне действуют такжеResourceSavingCallbackaspose.words.saving/htmlfixedsaveoptions/resourcesavingcallbackне запускается для шрифтов. По умолчанию false.
+description: Флаг указывает должны ли шрифты с целевой машины использоваться для отображения документа. Если для этого флага установлено значение trueFontFormataspose.words.saving/htmlfixedsaveoptions/fontformat а такжеExportEmbeddedFontsaspose.words.saving/htmlfixedsaveoptions/exportembeddedfontsсвойства не действуют такжеResourceSavingCallbackaspose.words.saving/htmlfixedsaveoptions/resourcesavingcallback не срабатывает для шрифтов. Значение по умолчанию  false.
 type: docs
 weight: 190
 url: /ru/net/aspose.words.saving/htmlfixedsaveoptions/usetargetmachinefonts/
 ---
 ## HtmlFixedSaveOptions.UseTargetMachineFonts property
 
-Флаг указывает, должны ли шрифты с целевой машины использоваться для отображения документа. Если для этого флага установлено значение true,[`FontFormat`](../fontformat)иСвойстваExportEmbeddedFontsне действуют, также[`ResourceSavingCallback`](../resourcesavingcallback)не запускается для шрифтов. По умолчанию false.
+Флаг указывает, должны ли шрифты с целевой машины использоваться для отображения документа. Если для этого флага установлено значение true,[`FontFormat`](../fontformat) а также[`ExportEmbeddedFonts`](../exportembeddedfonts)свойства не действуют, также[`ResourceSavingCallback`](../resourcesavingcallback) не срабатывает для шрифтов. Значение по умолчанию — false.
 
 ```csharp
 public bool UseTargetMachineFonts { get; set; }
@@ -16,7 +16,7 @@ public bool UseTargetMachineFonts { get; set; }
 
 ### Примеры
 
-Показывает, как использовать шрифты только с целевой машины при сохранении документа в HTML.
+Показывает, как использовать шрифты только с целевого компьютера при сохранении документа в формате HTML.
 
 ```csharp
 Document doc = new Document(MyDir + "Bullet points with alternative font.docx");

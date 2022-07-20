@@ -1,14 +1,14 @@
 ---
 title: SaveSearchCache
 second_title: Справочник по API Aspose.Words для .NET
-description: Сохраняет кэш поиска шрифтов в поток.
+description: Сохраняет кеш поиска шрифтов в поток.
 type: docs
 weight: 70
 url: /ru/net/aspose.words.fonts/fontsettings/savesearchcache/
 ---
 ## FontSettings.SaveSearchCache method
 
-Сохраняет кэш поиска шрифтов в поток.
+Сохраняет кеш поиска шрифтов в поток.
 
 ```csharp
 public void SaveSearchCache(Stream outputStream)
@@ -20,7 +20,7 @@ public void SaveSearchCache(Stream outputStream)
 
 ### Примечания
 
-См.[`SetFontsSources`](../setfontssources)описание метода для получения дополнительной информации.
+Видеть[`SetFontsSources`](../setfontssources) описание метода для получения дополнительной информации.
 
 ### Примеры
 

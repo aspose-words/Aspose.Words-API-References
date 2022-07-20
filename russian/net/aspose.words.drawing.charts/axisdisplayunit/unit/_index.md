@@ -16,7 +16,7 @@ public AxisBuiltInUnit Unit { get; set; }
 
 ### Примечания
 
-Значение по умолчанию:Никто.Customи Percentageзначения недоступны в некоторых типах диаграмм; см. [`AxisBuiltInUnit`](../../axisbuiltinunit)для получения дополнительной информации.
+Значение по умолчанию:None .Custom и Percentage значения недоступны в некоторых типах диаграмм; см. [`AxisBuiltInUnit`](../../axisbuiltinunit) для получения дополнительной информации.
 
 ### Примеры
 

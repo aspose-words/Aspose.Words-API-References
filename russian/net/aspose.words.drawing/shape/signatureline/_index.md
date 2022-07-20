@@ -1,14 +1,14 @@
 ---
 title: SignatureLine
 second_title: Справочник по API Aspose.Words для .NET
-description: Получает объектSignatureLineaspose.words.drawing/shape/signatureline если фигура является линией подписи. Возвращает null в противном случае.
+description: получаетSignatureLineaspose.words.drawing/shape/signatureline объект если фигура является линией подписи. Возвращает нулевой иначе.
 type: docs
 weight: 160
 url: /ru/net/aspose.words.drawing/shape/signatureline/
 ---
 ## Shape.SignatureLine property
 
-Получает объект`SignatureLine`, если фигура является линией подписи. Возвращает **null** в противном случае.
+получает`SignatureLine` объект, если фигура является линией подписи. Возвращает **нулевой** иначе.
 
 ```csharp
 public SignatureLine SignatureLine { get; }
@@ -16,7 +16,7 @@ public SignatureLine SignatureLine { get; }
 
 ### Примечания
 
-Вы можете вставить новые строки подписи в документ, используя[`InsertSignatureLine`](../../../aspose.words/documentbuilder/insertsignatureline)и
+Вы можете вставить новые строки подписи в документ, используя[`InsertSignatureLine`](../../../aspose.words/documentbuilder/insertsignatureline) и
 
 ### Примеры
 

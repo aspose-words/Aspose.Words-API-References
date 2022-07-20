@@ -1,14 +1,14 @@
 ---
 title: CurrentShape
 second_title: Справочник по API Aspose.Words для .NET
-description: ПолучаетShapeBaseaspose.words.drawing/shapebaseобъект соответствующий фигуре или групповой фигуре этой собирается спастись.
+description: ПолучаетShapeBaseaspose.words.drawing/shapebase объект соответствующий фигуре или групповой фигуре  которую нужно сохранить.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.saving/imagesavingargs/currentshape/
 ---
 ## ImageSavingArgs.CurrentShape property
 
-Получает[`ShapeBase`](../../../aspose.words.drawing/shapebase)объект, соответствующий фигуре или групповой фигуре этой собирается спастись.
+Получает[`ShapeBase`](../../../aspose.words.drawing/shapebase) объект, соответствующий фигуре или групповой фигуре , которую нужно сохранить.
 
 ```csharp
 public ShapeBase CurrentShape { get; }
@@ -16,11 +16,11 @@ public ShapeBase CurrentShape { get; }
 
 ### Примечания
 
-[`IImageSavingCallback`](../../iimagesavingcallback)может быть срабатывает при сохранении формы или формы группы. Вот почему свойство имеет тип[`ShapeBase`](../../../aspose.words.drawing/shapebase). Вы можете проверить, является ли это групповой формой, сравнивая [`ShapeType`](../../../aspose.words.drawing/shapebase/shapetype)сGroupили приведя его к одному из производных классов: [`Shape`](../../../aspose.words.drawing/shape)или[`GroupShape`](../../../aspose.words.drawing/groupshape).
+[`IImageSavingCallback`](../../iimagesavingcallback) может быть запущен при сохранении формы или формы группы. Вот почему свойство[`ShapeBase`](../../../aspose.words.drawing/shapebase) тип. Вы можете проверить, является ли это формой группы, сравнивая [`ShapeType`](../../../aspose.words.drawing/shapebase/shapetype) сGroup или приведя его к одному из производных классов: [`Shape`](../../../aspose.words.drawing/shape) или же[`GroupShape`](../../../aspose.words.drawing/groupshape).
 
-Aspose.Words использует имя файла документа и уникальный номер для создания уникального имени файла для каждого изображения, найденного в документе. Вы можете использовать свойство`CurrentShape`для создания "лучшего" имени файла, изучив свойства формы, такие как[`Title`](../../../aspose.words.drawing/imagedata/title) (только фигура),[`SourceFullName`](../../../aspose.words.drawing/imagedata/sourcefullname)(только фигура) и[`Name`](../../../aspose.words.drawing/shapebase/name). Конечно, вы можете создавать имена файлов, используя любые другие свойства или критерии , но обратите внимание, что имена дочерних файлов должны быть уникальными в рамках операции экспорта.
+Aspose.Words использует имя файла документа и уникальный номер для создания уникального имени файла для каждого изображения, найденного в документе. Вы можете использовать`CurrentShape` свойство для создания «лучшего» имени файла путем изучения свойств формы, таких как[`Title`](../../../aspose.words.drawing/imagedata/title) (только форма),[`SourceFullName`](../../../aspose.words.drawing/imagedata/sourcefullname) (только форма) и[`Name`](../../../aspose.words.drawing/shapebase/name)Конечно, вы можете создавать имена файлов, используя любые другие свойства или критерии , но обратите внимание, что имена дочерних файлов должны быть уникальными в рамках операции экспорта.
 
-Некоторые изображения в документе могут быть недоступны. Чтобы проверить доступность изображения используйте свойство[`IsImageAvailable`](../isimageavailable).
+Некоторые изображения в документе могут быть недоступны. Чтобы проверить доступность образа , используйте[`IsImageAvailable`](../isimageavailable) имущество.
 
 ### Примеры
 
@@ -39,7 +39,7 @@ Aspose.Words использует имя файла документа и уни
 }
 
 /// <summary>
-/// Печатает свойства каждого изображения, поскольку процесс сохранения сохраняет его в файл изображения в локальной файловой системе
+/// Выводит свойства каждого изображения по мере того, как процесс сохранения сохраняет его в файл изображения в локальной файловой системе
 /// при экспорте документа в HTML.
 /// </summary>
 private class ImageShapePrinter : IImageSavingCallback

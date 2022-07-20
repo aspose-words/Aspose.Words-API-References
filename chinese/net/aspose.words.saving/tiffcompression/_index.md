@@ -3,7 +3,7 @@ title: TiffCompression
 second_title: Aspose.Words for .NET API 参考
 description: 指定将页面图像保存到 TIFF 文件时应用的压缩类型
 type: docs
-weight: 5300
+weight: 5350
 url: /zh/net/aspose.words.saving/tiffcompression/
 ---
 ## TiffCompression enumeration
@@ -26,7 +26,7 @@ public enum TiffCompression
 
 ### 例子
 
-显示如何选择压缩方案以应用于我们转换为 TIFF 图像的文档。
+展示如何选择压缩方案以应用于我们转换为 TIFF 图像的文档。
 
 ```csharp
 Document doc = new Document();

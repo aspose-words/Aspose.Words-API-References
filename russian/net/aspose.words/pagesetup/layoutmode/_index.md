@@ -22,20 +22,21 @@ public SectionLayoutMode LayoutMode { get; set; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Включите питчинг, а затем используйте его, чтобы установить количество строк на странице в этом разделе.
-// Достаточно большой размер шрифта переместит несколько строк на следующую страницу, чтобы избежать перекрытия символов.
-builder.PageSetup.LayoutMode = SectionLayoutMode.LineGrid;
-builder.PageSetup.LinesPerPage = 15;
+// Включите питчинг, а затем используйте его, чтобы установить количество символов в строке в этом разделе.
+builder.PageSetup.LayoutMode = SectionLayoutMode.Grid;
+builder.PageSetup.CharactersPerLine = 10;
 
-builder.ParagraphFormat.SnapToGrid = true;
+// Количество символов также зависит от размера шрифта.
+doc.Styles["Normal"].Font.Size = 20;
 
-for (int i = 0; i < 30; i++)
-    builder.Write("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ");
+Assert.AreEqual(8, doc.FirstSection.PageSetup.CharactersPerLine);
 
-doc.Save(ArtifactsDir + "PageSetup.LinesPerPage.docx");
+builder.Writeln("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.");
+
+doc.Save(ArtifactsDir + "PageSetup.CharactersPerLine.docx");
 ```
 
-Показывает, как указать ограничение на количество строк, которое может иметь каждая страница.
+Показывает, как указать ограничение на количество строк, которые может иметь каждая страница.
 
 ```csharp
 Document doc = new Document();

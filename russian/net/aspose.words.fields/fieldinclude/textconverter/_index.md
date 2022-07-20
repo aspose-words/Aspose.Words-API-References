@@ -1,14 +1,14 @@
 ---
 title: TextConverter
 second_title: Справочник по API Aspose.Words для .NET
-description: Получает или задает имя преобразователя текста для формата включаемого файла.
+description: Получает или задает имя текстового преобразователя для формата включаемого файла.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.fields/fieldinclude/textconverter/
 ---
 ## FieldInclude.TextConverter property
 
-Получает или задает имя преобразователя текста для формата включаемого файла.
+Получает или задает имя текстового преобразователя для формата включаемого файла.
 
 ```csharp
 public string TextConverter { get; set; }
@@ -16,7 +16,7 @@ public string TextConverter { get; set; }
 
 ### Примеры
 
-Показывает, как создать поле INCLUDE и установить его свойства.
+Показывает, как создать поле INCLUDE и задать его свойства.
 
 ```csharp
 Document doc = new Document();

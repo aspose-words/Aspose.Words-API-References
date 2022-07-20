@@ -10,9 +10,9 @@ url: /zh/net/aspose.words/ihyphenationcallback/requestdictionary/
 
 通知应用程序未找到指定语言的断字字典，可能需要注册。
 
-实现应该找到一个字典并使用Stream)注册它方法。
+实现应该找到一个字典并使用它注册它[`RegisterDictionary`](../../hyphenation/registerdictionary)方法。
 
-如果字典对指定的语言不可用，实现可以选择退出对同一语言的进一步调用 使用[`RegisterDictionary`](../../hyphenation/registerdictionary)具有空值。
+如果字典对于指定的语言实现不可用，可以选择退出对相同语言的进一步调用 使用[`RegisterDictionary`](../../hyphenation/registerdictionary)具有空值。
 
 ```csharp
 public void RequestDictionary(string language)

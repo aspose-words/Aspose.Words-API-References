@@ -3,7 +3,7 @@ title: ImageColorMode
 second_title: Aspose.Words for .NET API 参考
 description: 指定文档页面生成图像的颜色模式
 type: docs
-weight: 4900
+weight: 4950
 url: /zh/net/aspose.words.saving/imagecolormode/
 ---
 ## ImageColorMode enumeration

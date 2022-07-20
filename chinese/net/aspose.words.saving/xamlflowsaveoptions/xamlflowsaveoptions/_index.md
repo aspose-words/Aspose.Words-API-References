@@ -1,14 +1,14 @@
 ---
 title: XamlFlowSaveOptions
 second_title: Aspose.Words for .NET API 参考
-description: 初始化此类的新实例该实例可用于以XamlFlow格式保存文档.
+description: 初始化此类的新实例该实例可用于将文档保存在XamlFlow格式.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.saving/xamlflowsaveoptions/xamlflowsaveoptions/
 ---
 ## XamlFlowSaveOptions() {#constructor}
 
-初始化此类的新实例，该实例可用于以XamlFlow格式保存文档.
+初始化此类的新实例，该实例可用于将文档保存在XamlFlow格式.
 
 ```csharp
 public XamlFlowSaveOptions()
@@ -16,7 +16,7 @@ public XamlFlowSaveOptions()
 
 ### 例子
 
-显示如何打印在将文档转换为流格式 .xaml 时创建的链接图像的文件名。
+演示如何打印在将文档转换为流格式 .xaml 时创建的链接图像的文件名。
 
 ```csharp
 {
@@ -85,7 +85,7 @@ private class ImageUriPrinter : IImageSavingCallback
 
 ## XamlFlowSaveOptions(SaveFormat) {#constructor_1}
 
-初始化此类的新实例，该实例可用于将文档保存在XamlFlow中 或XamlFlowPack格式。
+初始化此类的新实例，该实例可用于将文档保存在XamlFlow 或XamlFlowPack格式.
 
 ```csharp
 public XamlFlowSaveOptions(SaveFormat saveFormat)
@@ -93,11 +93,11 @@ public XamlFlowSaveOptions(SaveFormat saveFormat)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| saveFormat | SaveFormat | 可以是XamlFlow或XamlFlowPack。 |
+| saveFormat | SaveFormat | 可XamlFlow或者XamlFlowPack. |
 
 ### 例子
 
-显示如何打印在将文档转换为流格式 .xaml 时创建的链接图像的文件名。
+演示如何打印在将文档转换为流格式 .xaml 时创建的链接图像的文件名。
 
 ```csharp
 {

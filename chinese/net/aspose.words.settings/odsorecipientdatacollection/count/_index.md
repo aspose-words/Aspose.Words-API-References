@@ -1,14 +1,14 @@
 ---
 title: Count
 second_title: Aspose.Words for .NET API 参考
-description: 获取集合中包含的元素数量
+description: 获取集合中包含的元素数
 type: docs
 weight: 20
 url: /zh/net/aspose.words.settings/odsorecipientdatacollection/count/
 ---
 ## OdsoRecipientDataCollection.Count property
 
-获取集合中包含的元素数量。
+获取集合中包含的元素数。
 
 ```csharp
 public int Count { get; }
@@ -38,10 +38,10 @@ using (IEnumerator<OdsoRecipientData> enumerator = dataCollection.GetEnumerator(
     }
 }
 
- // 我们可以克隆这个集合中的元素。
+// 我们可以克隆这个集合中的元素。
 Assert.AreNotEqual(dataCollection[0], dataCollection[0].Clone());
 
- // 我们也可以单独删除元素，或者一次清除整个集合。
+// 我们也可以单独删除元素，或者一次清除整个集合。
 dataCollection.RemoveAt(0);
 
 Assert.AreEqual(69, dataCollection.Count);

@@ -16,7 +16,7 @@ public bool OpenInNewWindow { get; set; }
 
 ### 例子
 
-显示如何使用 HYPERLINK 字段链接到本地文件系统中的文档。
+展示如何使用 HYPERLINK 字段链接到本地文件系统中的文档。
 
 ```csharp
 Document doc = new Document();

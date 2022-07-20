@@ -1,14 +1,14 @@
 ---
 title: ShowLegendKey
 second_title: Aspose.Words for .NET API 参考
-description: 允许指定是否要为图表上的数据标签显示图例键 默认值为假
+description: 允许指定是否为图表上的数据标签显示图例键 默认值为假
 type: docs
 weight: 100
 url: /zh/net/aspose.words.drawing.charts/chartdatalabel/showlegendkey/
 ---
 ## ChartDataLabel.ShowLegendKey property
 
-允许指定是否要为图表上的数据标签显示图例键。 默认值为假。
+允许指定是否为图表上的数据标签显示图例键。 默认值为假。
 
 ```csharp
 public bool ShowLegendKey { get; set; }

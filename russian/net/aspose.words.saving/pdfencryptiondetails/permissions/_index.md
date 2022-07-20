@@ -1,14 +1,14 @@
 ---
 title: Permissions
 second_title: Справочник по API Aspose.Words для .NET
-description: Определяет операции разрешенные пользователю для зашифрованного PDF-документа. Значение по умолчаниюDisallowAll.
+description: Определяет операции разрешенные пользователю с зашифрованным PDF-документом. Значение по умолчаниюDisallowAll .
 type: docs
 weight: 30
 url: /ru/net/aspose.words.saving/pdfencryptiondetails/permissions/
 ---
 ## PdfEncryptionDetails.Permissions property
 
-Определяет операции, разрешенные пользователю для зашифрованного PDF-документа. Значение по умолчанию:DisallowAll.
+Определяет операции, разрешенные пользователю с зашифрованным PDF-документом. Значение по умолчанию:DisallowAll .
 
 ```csharp
 public PdfPermissions Permissions { get; set; }

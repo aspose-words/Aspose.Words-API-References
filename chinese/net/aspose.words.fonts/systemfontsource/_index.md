@@ -3,7 +3,7 @@ title: SystemFontSource
 second_title: Aspose.Words for .NET API 参考
 description: 表示安装到系统中的所有 TrueType 字体
 type: docs
-weight: 2820
+weight: 2870
 url: /zh/net/aspose.words.fonts/systemfontsource/
 ---
 ## SystemFontSource class
@@ -18,8 +18,8 @@ public class SystemFontSource : FontSourceBase
 
 | 姓名 | 描述 |
 | --- | --- |
-| [SystemFontSource](systemfontsource#constructor)() | 克托尔。 |
-| [SystemFontSource](systemfontsource#constructor_1)(int) | 克托尔。 |
+| [SystemFontSource](systemfontsource#constructor)() | 克托尔. |
+| [SystemFontSource](systemfontsource#constructor_1)(int) | 克托尔. |
 
 ## 特性
 
@@ -38,7 +38,7 @@ public class SystemFontSource : FontSourceBase
 
 ### 例子
 
-显示如何访问文档的系统字体源并设置字体替换。
+显示如何访问文档的系统字体源和设置字体替换。
 
 ```csharp
 Document doc = new Document();

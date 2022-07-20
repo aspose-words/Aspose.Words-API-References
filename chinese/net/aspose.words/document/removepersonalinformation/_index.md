@@ -1,14 +1,14 @@
 ---
 title: RemovePersonalInformation
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置一个标志指示 Microsoft Word 将在保存文档时从注释修订和 文档属性中删除所有用户信息
+description: 获取或设置一个标志表明 Microsoft Word 将在保存文档时从注释修订和 文档属性中删除所有用户信息
 type: docs
 weight: 320
 url: /zh/net/aspose.words/document/removepersonalinformation/
 ---
 ## Document.RemovePersonalInformation property
 
-获取或设置一个标志，指示 Microsoft Word 将在保存文档时从注释、修订和 文档属性中删除所有用户信息。
+获取或设置一个标志，表明 Microsoft Word 将在保存文档时从注释、修订和 文档属性中删除所有用户信息。
 
 ```csharp
 public bool RemovePersonalInformation { get; set; }

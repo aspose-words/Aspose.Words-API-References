@@ -1,14 +1,14 @@
 ---
 title: CustomTocStyleSeparator
 second_title: Справочник по API Aspose.Words для .NET
-description: Получает или устанавливает разделитель пользовательского стиля для переключателя t в полеFieldTocaspose.words.fields/fieldtoc.
+description: Получает или задает разделитель пользовательского стиля для переключателя t вFieldTocaspose.words.fields/fieldtoc поле.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.fields/fieldoptions/customtocstyleseparator/
 ---
 ## FieldOptions.CustomTocStyleSeparator property
 
-Получает или устанавливает разделитель пользовательского стиля для переключателя \t в поле[`FieldToc`](../../fieldtoc).
+Получает или задает разделитель пользовательского стиля для переключателя \t в[`FieldToc`](../../fieldtoc) поле.
 
 ```csharp
 public string CustomTocStyleSeparator { get; set; }
@@ -16,7 +16,7 @@ public string CustomTocStyleSeparator { get; set; }
 
 ### Примечания
 
-По умолчанию пользовательские стили, определяемые переключателем \t вFieldTocразделены разделителем, взятым из текущего языка и региональных параметров. Это свойство переопределяет это поведение, указывая определяемый пользователем разделитель.
+По умолчанию пользовательские стили, определяемые переключателем \t в[`FieldToc`](../../fieldtoc) поля разделены разделителем, взятым из текущей культуры. Это свойство переопределяет это поведение, указывая определенный пользователем разделитель.
 
 ### Примеры
 

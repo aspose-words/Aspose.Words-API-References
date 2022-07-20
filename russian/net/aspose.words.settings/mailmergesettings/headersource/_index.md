@@ -32,8 +32,8 @@ builder.EndTable();
 
 doc.Save(ArtifactsDir + "MailMerge.MailingLabelMerge.Header.docx");
 
- // Создаем файл данных слияния почтовых ярлыков, состоящий из таблицы с одним row
- // и то же количество столбцов, что и таблица документа заголовка. 
+// Создаем файл данных слияния почтовых ярлыков, состоящий из таблицы с одной строкой
+// и то же количество столбцов, что и таблица документа заголовка. 
 doc = new Document();
 builder = new DocumentBuilder(doc);
 
@@ -46,8 +46,8 @@ builder.EndTable();
 
 doc.Save(ArtifactsDir + "MailMerge.MailingLabelMerge.Data.docx");
 
- // Создать целевой документ слияния с MERGEFIELDS с именами that
- // соответствие именам столбцов в заголовочном файле слияния table.
+// Создать целевой документ слияния с MERGEFIELDS с именами, которые
+// соответствуют именам столбцов в таблице файла заголовков слияния.
 doc = new Document();
 builder = new DocumentBuilder(doc);
 
@@ -58,15 +58,15 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 
 MailMergeSettings settings = doc.MailMergeSettings;
 
- // Создайте источник данных для нашего слияния, указав два имени файла документа.
- // Источник заголовка будет называть столбцы таблицы источника данных.
+// Создайте источник данных для нашего слияния, указав два имени файла документа.
+// Источник заголовка будет называть столбцы таблицы источника данных.
 settings.HeaderSource = ArtifactsDir + "MailMerge.MailingLabelMerge.Header.docx";
 
- // Источник данных предоставит строки данных для всех столбцов в таблице документа заголовка.
+// Источник данных предоставит строки данных для всех столбцов в таблице документа заголовка.
 settings.DataSource = ArtifactsDir + "MailMerge.MailingLabelMerge.Data.docx";
 
- // Настройте слияние типа почтовой метки, которое Microsoft Word будет выполнять
- // как только мы используем его для загрузки выходного документа.
+// Настройте слияние почты типа почтовой метки, которое будет выполнять Microsoft Word
+// как только мы используем его для загрузки выходного документа.
 settings.Query = "SELECT * FROM " + settings.DataSource;
 settings.MainDocumentType = MailMergeMainDocumentType.MailingLabels;
 settings.DataType = MailMergeDataType.TextFile;

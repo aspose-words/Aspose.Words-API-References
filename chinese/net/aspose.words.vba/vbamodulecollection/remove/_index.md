@@ -16,7 +16,7 @@ public void Remove(VbaModule module)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| module | VbaModule | 要删除的模块。 |
+| module | VbaModule | 要移除的模块。 |
 
 ### 例子
 

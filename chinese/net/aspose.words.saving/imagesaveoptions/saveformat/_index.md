@@ -1,14 +1,14 @@
 ---
 title: SaveFormat
 second_title: Aspose.Words for .NET API 参考
-description: 如果使用此保存选项对象则指定保存呈现的文档页面或形状的格式 可以是光栅 TiffPngBmp Jpeg或矢量EmfSvg
+description: 如果使用此保存选项对象则指定保存呈现的文档页面或形状的格式 可以是光栅 TiffPngBmp  Jpeg或矢量EmfSvg.
 type: docs
 weight: 130
 url: /zh/net/aspose.words.saving/imagesaveoptions/saveformat/
 ---
 ## ImageSaveOptions.SaveFormat property
 
-如果使用此保存选项对象，则指定保存呈现的文档页面或形状的格式。 可以是光栅 Tiff,Png,Bmp, Jpeg或矢量Emf,Svg。
+如果使用此保存选项对象，则指定保存呈现的文档页面或形状的格式。 可以是光栅 Tiff,Png,Bmp , Jpeg或矢量Emf,Svg.
 
 ```csharp
 public override SaveFormat SaveFormat { get; set; }
@@ -18,11 +18,11 @@ public override SaveFormat SaveFormat { get; set; }
 
 在不同的平台上，支持的格式可能不同。其他选项的数量取决于所选格式。
 
-此外，可以通过 ImageSaveOptions 和[`SvgSaveOptions`](../../svgsaveoptions)保存到 SVG。
+此外，可以通过 ImageSaveOptions 和通过[`SvgSaveOptions`](../../svgsaveoptions).
 
 ### 例子
 
-展示如何在 Aspose.Words 将文档转换为一个时编辑图像。
+展示如何在 Aspose.Words 将文档转换为文档时编辑图像。
 
 ```csharp
 Document doc = new Document();

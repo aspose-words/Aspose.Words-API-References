@@ -3,7 +3,7 @@ title: PdfZoomBehavior
 second_title: Aspose.Words for .NET API 参考
 description: 指定在 PDF 查看器中打开 PDF 文档时应用的缩放类型
 type: docs
-weight: 5210
+weight: 5260
 url: /zh/net/aspose.words.saving/pdfzoombehavior/
 ---
 ## PdfZoomBehavior enumeration
@@ -18,7 +18,7 @@ public enum PdfZoomBehavior
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| None | `0` | 文档的显示方式留给 PDF 查看器。通常，查看器会显示文档以适合页面宽度。 |
+| None | `0` | 文档的显示方式留给 PDF 查看器。通常查看器会显示文档以适应页面宽度。 |
 | ZoomFactor | `1` | 使用指定的缩放系数显示页面。 |
 | FitPage | `2` | 显示页面，使其完全可见。 |
 | FitWidth | `3` | 适合页面的宽度。 |

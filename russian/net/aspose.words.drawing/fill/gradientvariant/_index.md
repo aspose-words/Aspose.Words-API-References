@@ -1,14 +1,14 @@
 ---
 title: GradientVariant
 second_title: Справочник по API Aspose.Words для .NET
-description: Получает вариант градиентаGradientVariantaspose.words.drawing/gradientvariantдля заливки.
+description: Получает вариант градиентаGradientVariantaspose.words.drawing/gradientvariant для заливки.
 type: docs
 weight: 70
 url: /ru/net/aspose.words.drawing/fill/gradientvariant/
 ---
 ## Fill.GradientVariant property
 
-Получает вариант градиента[`GradientVariant`](../../gradientvariant)для заливки.
+Получает вариант градиента[`GradientVariant`](../../gradientvariant) для заливки.
 
 ```csharp
 public GradientVariant GradientVariant { get; }
@@ -16,7 +16,7 @@ public GradientVariant GradientVariant { get; }
 
 ### Примеры
 
-Показывает, как заполнить форму градиентом.
+Показывает, как заполнить фигуру градиентами.
 
 ```csharp
 Document doc = new Document();

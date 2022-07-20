@@ -16,9 +16,9 @@ public void ClearHeadersFooters()
 
 ### Примечания
 
-Текст всех верхних и нижних колонтитулов очищается, ноHeaderFooterне удаляются.
+Текст всех верхних и нижних колонтитулов очищается, но[`HeaderFooter`](../../headerfooter) сами объекты не удаляются.
 
-Это связывает верхние и нижние колонтитулы этого раздела с верхними и нижними колонтитулами предыдущего раздела.
+Это делает верхние и нижние колонтитулы этого раздела связанными с верхними и нижними колонтитулами предыдущего раздела.
 
 ### Примеры
 
@@ -41,8 +41,8 @@ Assert.AreEqual(2, doc.FirstSection.HeadersFooters.Count);
 Assert.AreEqual("This is the primary header.", doc.FirstSection.HeadersFooters[HeaderFooterType.HeaderPrimary].GetText().Trim());
 Assert.AreEqual("This is the primary footer.", doc.FirstSection.HeadersFooters[HeaderFooterType.FooterPrimary].GetText().Trim());
 
- // Очистить все верхние и нижние колонтитулы в этом разделе от всего их содержимого.
- // Верхние и нижние колонтитулы по-прежнему будут присутствовать, но отображать их будет нечего.
+// Очистить все верхние и нижние колонтитулы в этом разделе от всего их содержимого.
+// Верхние и нижние колонтитулы по-прежнему будут присутствовать, но отображать их будет нечего.
 doc.FirstSection.ClearHeadersFooters();
 
 Assert.AreEqual(2, doc.FirstSection.HeadersFooters.Count);

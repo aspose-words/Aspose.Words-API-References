@@ -1,14 +1,14 @@
 ---
 title: Match
 second_title: Справочник по API Aspose.Words для .NET
-description: Matchв результате совпадения одного регулярного выражения во время Заменить .
+description: Match в результате совпадения одного выражения Regular во время Заменять .
 type: docs
 weight: 30
 url: /ru/net/aspose.words.replacing/replacingargs/match/
 ---
 ## ReplacingArgs.Match property
 
-Matchв результате совпадения одного регулярного выражения во время **Заменить** .
+Match в результате совпадения одного выражения Regular во время **Заменять** .
 
 ```csharp
 public Match Match { get; }
@@ -16,7 +16,7 @@ public Match Match { get; }
 
 ### Примечания
 
-**Match.Index"** получает отсчитываемую от нуля начальную позицию совпадения с начала диапазона поиска и замены.
+**Match.Index"** получает отсчитываемую от нуля позицию start совпадения от начала диапазона поиска и замены.
 
 ### Примеры
 

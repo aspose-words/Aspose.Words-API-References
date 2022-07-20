@@ -16,9 +16,9 @@ public HeaderFooterBookmarksExportMode HeaderFooterBookmarksExportMode { get; se
 
 ### 评论
 
-默认值为HeaderFooterBookmarksExportMode。全部。
+默认值为All.
 
-此属性与[`OutlineOptions`](../outlineoptions)选项一起使用。
+此属性与[`OutlineOptions`](../outlineoptions)选项。
 
 ### 例子
 

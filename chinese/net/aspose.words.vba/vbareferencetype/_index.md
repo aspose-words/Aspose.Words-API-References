@@ -1,14 +1,14 @@
 ---
 title: VbaReferenceType
 second_title: Aspose.Words for .NET API 参考
-description: 允许指定VbaReference./vbareference对象的类型
+description: 允许指定类型VbaReference./vbareference对象.
 type: docs
-weight: 6250
+weight: 6300
 url: /zh/net/aspose.words.vba/vbareferencetype/
 ---
 ## VbaReferenceType enumeration
 
-允许指定[`VbaReference`](../vbareference)对象的类型。
+允许指定类型[`VbaReference`](../vbareference)对象.
 
 ```csharp
 public enum VbaReferenceType
@@ -54,7 +54,7 @@ public void RemoveVbaReference()
 }
 
 /// <summary>
- /// 返回表示指定引用的 LibId 路径的字符串。 
+/// 返回表示指定引用的 LibId 路径的字符串。 
 /// </summary>
 private static string GetLibIdPath(VbaReference reference)
 {
@@ -72,7 +72,7 @@ private static string GetLibIdPath(VbaReference reference)
 }
 
 /// <summary>
- /// 从自动化类型库的指定标识符返回路径。
+/// 从自动化类型库的指定标识符返回路径。
 /// </summary>
 private static string GetLibIdReferencePath(string libIdReference)
 {
@@ -87,7 +87,7 @@ private static string GetLibIdReferencePath(string libIdReference)
 }
 
 /// <summary>
- /// 从自动化类型库的指定标识符返回路径。
+/// 从自动化类型库的指定标识符返回路径。
 /// </summary>
 private static string GetLibIdProjectPath(string libIdProject)
 {

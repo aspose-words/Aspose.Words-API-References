@@ -1,14 +1,14 @@
 ---
 title: SignatureLine
 second_title: Aspose.Words for .NET API 参考
-description: 如果形状是签名线则获取SignatureLineaspose.words.drawing/shape/signatureline对象返回 null 否则
+description: 获取SignatureLineaspose.words.drawing/shape/signatureline如果形状是签名线则对象退货 无效的否则
 type: docs
 weight: 160
 url: /zh/net/aspose.words.drawing/shape/signatureline/
 ---
 ## Shape.SignatureLine property
 
-如果形状是签名线，则获取`SignatureLine`对象。返回 **null** 否则。
+获取`SignatureLine`如果形状是签名线，则对象。退货 **无效的**否则。
 
 ```csharp
 public SignatureLine SignatureLine { get; }
@@ -16,11 +16,11 @@ public SignatureLine SignatureLine { get; }
 
 ### 评论
 
-您可以使用[`InsertSignatureLine`](../../../aspose.words/documentbuilder/insertsignatureline)和
+您可以使用将新的 SignatureLines 插入到文档中[`InsertSignatureLine`](../../../aspose.words/documentbuilder/insertsignatureline)和
 
 ### 例子
 
-显示如何为签名创建一条线并将其插入到文档。
+演示如何为签名创建一行并将其插入到文档中。
 
 ```csharp
 Document doc = new Document();

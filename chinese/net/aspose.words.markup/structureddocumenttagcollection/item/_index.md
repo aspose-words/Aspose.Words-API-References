@@ -16,7 +16,7 @@ public IStructuredDocumentTag this[int index] { get; }
 
 | 范围 | 描述 |
 | --- | --- |
-| index | 集合的索引。 |
+| index | 集合中的索引。 |
 
 ### 也可以看看
 

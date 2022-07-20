@@ -1,14 +1,14 @@
 ---
 title: UseTargetMachineFonts
 second_title: Aspose.Words for .NET API 参考
-description: 标志指示是否必须使用来自目标机器的字体来显示文档 如果此标志设置为 true则FontFormataspose.words.saving/htmlfixedsaveoptions/fontformat和HtmlFixedSaveOptionsExportEmbeddedFonts属性无效 也ResourceSavingCallbackaspose.words.saving/htmlfixedsaveoptions/resourcesavingcallback不会为字体触发 默认为假
+description: 标志指示是否必须使用来自目标机器的字体来显示文档 如果此标志设置为 trueFontFormataspose.words.saving/htmlfixedsaveoptions/fontformat和ExportEmbeddedFontsaspose.words.saving/htmlfixedsaveoptions/exportembeddedfonts属性没有效果 也ResourceSavingCallbackaspose.words.saving/htmlfixedsaveoptions/resourcesavingcallback不会为字体触发 默认为 false
 type: docs
 weight: 190
 url: /zh/net/aspose.words.saving/htmlfixedsaveoptions/usetargetmachinefonts/
 ---
 ## HtmlFixedSaveOptions.UseTargetMachineFonts property
 
-标志指示是否必须使用来自目标机器的字体来显示文档。 如果此标志设置为 true，则[`FontFormat`](../fontformat)和HtmlFixedSaveOptions。ExportEmbeddedFonts属性无效， 也[`ResourceSavingCallback`](../resourcesavingcallback)不会为字体触发。 默认为假。
+标志指示是否必须使用来自目标机器的字体来显示文档。 如果此标志设置为 true，[`FontFormat`](../fontformat)和[`ExportEmbeddedFonts`](../exportembeddedfonts)属性没有效果， 也[`ResourceSavingCallback`](../resourcesavingcallback)不会为字体触发。 默认为 false。
 
 ```csharp
 public bool UseTargetMachineFonts { get; set; }
@@ -16,7 +16,7 @@ public bool UseTargetMachineFonts { get; set; }
 
 ### 例子
 
-显示在将文档保存为 HTML 时如何仅使用目标计算机中的字体。
+显示将文档保存为 HTML 时如何仅使用目标计算机中的字体。
 
 ```csharp
 Document doc = new Document(MyDir + "Bullet points with alternative font.docx");

@@ -18,11 +18,11 @@ public string AttachedTemplate { get; set; }
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | 抛出如果您尝试设置为空值。 |
+| ArgumentNullException | 如果您尝试设置为空值，则抛出。 |
 
 ### 评论
 
-空字符串表示文档附加到普通模板。
+空字符串表示文档附加到 Normal 模板。
 
 ### 例子
 

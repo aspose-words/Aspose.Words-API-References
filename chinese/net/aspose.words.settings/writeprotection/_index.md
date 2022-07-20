@@ -3,7 +3,7 @@ title: WriteProtection
 second_title: Aspose.Words for .NET API 参考
 description: 指定文档的写保护设置
 type: docs
-weight: 5620
+weight: 5670
 url: /zh/net/aspose.words.settings/writeprotection/
 ---
 ## WriteProtection class
@@ -30,11 +30,11 @@ public class WriteProtection
 
 ### 评论
 
-写保护指定作者是否建议 文档是以只读方式打开和/或需要密码才能修改文档。
+写保护指定作者是否建议 以只读方式打开文档和/或需要密码才能修改文档。
 
-写保护不同于文档保护。在“另存为”对话框的选项中的 Microsoft Word 中指定了写保护。
+写保护不同于文档保护。写保护在另存为对话框的选项中的 Microsoft Word 中指定。
 
-您不要直接创建此类的实例。您可以通过[`WriteProtection`](../../aspose.words/document/writeprotection)属性访问文档保护设置 。
+您不直接创建此类的实例。您可以通过以下方式访问文档保护 settings [`WriteProtection`](../../aspose.words/document/writeprotection)财产。
 
 ### 例子
 

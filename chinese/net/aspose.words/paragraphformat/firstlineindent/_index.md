@@ -10,7 +10,7 @@ url: /zh/net/aspose.words/paragraphformat/firstlineindent/
 
 获取或设置第一行或悬挂缩进的值（以磅为单位）。
 
-正值设置首行缩进，负值设置悬挂缩进。
+使用正值设置首行缩进，使用负值设置悬挂缩进。
 
 ```csharp
 public double FirstLineIndent { get; set; }
@@ -18,7 +18,7 @@ public double FirstLineIndent { get; set; }
 
 ### 例子
 
-显示如何在文档中插入段落。
+演示如何在文档中插入段落。
 
 ```csharp
 Document doc = new Document();
@@ -38,8 +38,7 @@ paragraphFormat.AddSpaceBetweenFarEastAndAlpha = true;
 paragraphFormat.AddSpaceBetweenFarEastAndDigit = true;
 paragraphFormat.KeepTogether = true;
 
- // "Writeln" 方法在追加 text
- 后结束段落
+// “Writeln”方法在追加文本后结束段落
 // 然后开始一个新行，添加一个新段落。
 builder.Writeln("Hello world!");
 

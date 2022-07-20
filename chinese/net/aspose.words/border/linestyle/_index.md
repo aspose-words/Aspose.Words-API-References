@@ -8,7 +8,7 @@ url: /zh/net/aspose.words/border/linestyle/
 ---
 ## Border.LineStyle property
 
-获取或设置边框样式。
+获取或设置边框样式
 
 ```csharp
 public LineStyle LineStyle { get; set; }
@@ -20,7 +20,7 @@ public LineStyle LineStyle { get; set; }
 
 ### 例子
 
-显示如何将由边框包围的字符串插入到文档中。
+演示如何将由边框包围的字符串插入到文档中。
 
 ```csharp
 Document doc = new Document();

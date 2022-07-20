@@ -1,14 +1,14 @@
 ---
 title: IsUSPostalAddress
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置PostalAddressaspose.words.fields/fieldbarcode/postaladdress是否为美国邮政地址
+description: 获取或设置是否PostalAddressaspose.words.fields/fieldbarcode/postaladdress是美国邮政地址
 type: docs
 weight: 40
 url: /zh/net/aspose.words.fields/fieldbarcode/isuspostaladdress/
 ---
 ## FieldBarcode.IsUSPostalAddress property
 
-获取或设置[`PostalAddress`](../postaladdress)是否为美国邮政地址。
+获取或设置是否[`PostalAddress`](../postaladdress)是美国邮政地址。
 
 ```csharp
 public bool IsUSPostalAddress { get; set; }
@@ -16,7 +16,7 @@ public bool IsUSPostalAddress { get; set; }
 
 ### 例子
 
-显示如何使用 BARCODE 字段以条形码的形式显示美国邮政编码。
+演示如何使用 BARCODE 字段以条形码的形式显示美国邮政编码。
 
 ```csharp
 Document doc = new Document();

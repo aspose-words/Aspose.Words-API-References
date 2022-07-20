@@ -1,14 +1,14 @@
 ---
 title: InsertField
 second_title: Aspose.Words for .NET API 参考
-description: 将 Word 字段插入文档并可选择更新字段结果
+description: 将 Word 字段插入到文档中并可选择更新字段结果
 type: docs
 weight: 300
 url: /zh/net/aspose.words/documentbuilder/insertfield/
 ---
 ## InsertField(FieldType, bool) {#insertfield}
 
-将 Word 字段插入文档并可选择更新字段结果。
+将 Word 字段插入到文档中，并可选择更新字段结果。
 
 ```csharp
 public Field InsertField(FieldType fieldType, bool updateField)
@@ -16,20 +16,20 @@ public Field InsertField(FieldType fieldType, bool updateField)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| fieldType | FieldType | 要附加的字段的类型. |
+| fieldType | FieldType | 要附加的字段的类型。 |
 | updateField | Boolean | 指定是否立即更新字段。 |
 
 ### 返回值
 
-A[`Field`](../../../aspose.words.fields/field)表示插入字段的对象。
+一个[`Field`](../../../aspose.words.fields/field)表示插入字段的对象。
 
 ### 评论
 
-此方法将字段插入到文档中。 Aspose.Words 可以更新大多数类型的字段，但不是全部。有关更多详细信息，请参阅 [`InsertField`](../insertfield)重载。
+此方法将字段插入到文档中。 Aspose.Words 可以更新大多数类型的字段，但不是全部。有关详细信息，请参阅 [`InsertField`](../insertfield)超载。
 
 ### 例子
 
-展示如何使用 FieldType 将字段插入到文档中。
+演示如何使用 FieldType 将字段插入到文档中。
 
 ```csharp
 Document doc = new Document();
@@ -89,40 +89,31 @@ public Field InsertField(string fieldCode)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| fieldCode | String | 要插入的字段代码（没有大括号）。 |
+| fieldCode | String | 要插入的域代码（不带花括号）。 |
 
 ### 返回值
 
-A[`Field`](../../../aspose.words.fields/field)表示插入字段的对象。
+一个[`Field`](../../../aspose.words.fields/field)表示插入字段的对象。
 
 ### 评论
 
-此方法将字段插入文档并立即更新字段结果。 Aspose.Words 可以更新大多数类型的字段，但不是全部。有关更多详细信息，请参阅 [`InsertField`](../insertfield)重载。
+此方法将字段插入文档并立即更新字段结果。 Aspose.Words 可以更新大多数类型的字段，但不是全部。有关详细信息，请参阅 [`InsertField`](../insertfield)超载。
 
 ### 例子
 
-显示如何使用域代码将域插入到文档中。
+演示如何使用域代码将域插入到文档中。
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
-builder.InsertField(@"MERGEFIELD MyMergeField1 \* MERGEFORMAT");
-builder.InsertField(@"MERGEFIELD MyMergeField2 \* MERGEFORMAT");
 
-// 将光标移动到第一个 MERGEFIELD。
-builder.MoveToMergeField("MyMergeField1", true, false);
+Field field = builder.InsertField("DATE \\@ \"dddd, MMMM dd, yyyy\"");
 
-// 请注意，光标位于第一个 MERGEFIELD 之后，第二个之前。
-Assert.AreEqual(doc.Range.Fields[1].Start, builder.CurrentNode);
-Assert.AreEqual(doc.Range.Fields[0].End, builder.CurrentNode.PreviousSibling);
+Assert.AreEqual(FieldType.FieldDate, field.Type);
+Assert.AreEqual("DATE \\@ \"dddd, MMMM dd, yyyy\"", field.GetFieldCode());
 
-// 如果我们希望使用构建器编辑字段的字段代码或内容，
-// 它的光标需要在一个字段内。
-// 要将其放置在字段中，我们需要调用文档构建器的 MoveTo 方法
-// 并将字段的开始或分隔节点作为参数传递。
-builder.Write(" Text between our merge fields. ");
-
-doc.Save(ArtifactsDir + "DocumentBuilder.MergeFields.docx");
+// InsertField 方法的这个重载会自动更新插入的字段。
+Assert.That(DateTime.Parse(field.Result), Is.EqualTo(DateTime.Today).Within(1).Days);
 ```
 
 显示如何插入字段，并将文档构建器的光标移动到它们。
@@ -168,26 +159,26 @@ public Field InsertField(string fieldCode, string fieldValue)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| fieldCode | String | 要插入的字段代码（没有大括号）。 |
+| fieldCode | String | 要插入的域代码（不带花括号）。 |
 | fieldValue | String | 要插入的字段值。为没有值的字段传递 null。 |
 
 ### 返回值
 
-A[`Field`](../../../aspose.words.fields/field)表示插入字段的对象。
+一个[`Field`](../../../aspose.words.fields/field)表示插入字段的对象。
 
 ### 评论
 
-Microsoft Word 文档中的字段由字段代码和字段结果组成。 字段代码类似于公式，字段结果类似于 公式生成的值。域代码还可能包含域开关 类似于执行特定操作的附加指令。
+Microsoft Word 文档中的字段由字段代码和字段结果组成。 字段代码就像一个公式，字段结果就像 公式产生的值。字段代码还可能包含字段switchs ，类似于执行特定操作的附加指令。
 
-您可以使用键盘快捷键 Alt+F9 在 Microsoft Word 中的文档中显示域代码和结果之间切换。字段代码出现在大括号 ( { } ) 之间。
+您可以使用键盘快捷键 Alt+F9 在文档 in Microsoft Word 中显示域代码和结果之间切换。字段代码出现在大括号 ( { } ) 之间。
 
-要创建字段，您需要指定字段类型、字段代码和“占位符”字段值。 如果您不确定特定的域代码语法，请先在 Microsoft Word 中创建该域 并切换到查看其域代码。
+要创建字段，您需要指定字段类型、字段代码和“占位符”字段值。 如果您不确定特定的字段代码语法，请先在 Microsoft Word 中创建字段 并切换以查看其字段代码.
 
-Aspose.Words 可以计算大部分字段类型的字段结果，但是这种方法 不会自动更新字段结果。因为字段结果不是自动计算的，所以 您应该传递一些将插入到字段结果中的字符串值（甚至是空字符串）。 此值将作为占位符保留在字段结果中，直到字段更新。 要更新字段结果，您可以在向您返回 的字段对象上调用[`Update`](../../../aspose.words.fields/field/update)或[`UpdateFields`](../../document/updatefields)更新整个文档中的字段。
+Aspose.Words可以计算大部分字段类型的字段结果，但是这个方法 不会自动更新字段结果。因为字段结果不是自动计算的， 你应该传递一些字符串值（甚至是一个空字符串），这些值将被插入到字段结果中。 这个值将作为占位符保留在字段结果中，直到字段被updated. 要更新字段结果，您可以调用[`Update`](../../../aspose.words.fields/field/update)在字段对象上返回 给您或[`UpdateFields`](../../document/updatefields)更新整个文档中的字段。
 
 ### 例子
 
-显示如何在节中设置页码。
+显示如何在部分中设置页码。
 
 ```csharp
 Document doc = new Document();

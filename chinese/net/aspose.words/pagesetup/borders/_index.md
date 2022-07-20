@@ -16,7 +16,7 @@ public BorderCollection Borders { get; }
 
 ### 例子
 
-展示如何创建带有阴影的绿色波浪页面边框。
+演示如何创建带有阴影的绿色波浪页面边框。
 
 ```csharp
 Document doc = new Document();

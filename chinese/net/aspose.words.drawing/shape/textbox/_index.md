@@ -16,7 +16,7 @@ public TextBox TextBox { get; }
 
 ### 例子
 
-显示如何设置文本框内的文本方向。
+演示如何设置文本框内的文本方向。
 
 ```csharp
 Document doc = new Document();

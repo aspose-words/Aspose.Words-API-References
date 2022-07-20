@@ -3,7 +3,7 @@ title: WebExtensionProperty
 second_title: Aspose.Words for .NET API 参考
 description: 指定 Web 扩展自定义属性
 type: docs
-weight: 6420
+weight: 6470
 url: /zh/net/aspose.words.webextensions/webextensionproperty/
 ---
 ## WebExtensionProperty class

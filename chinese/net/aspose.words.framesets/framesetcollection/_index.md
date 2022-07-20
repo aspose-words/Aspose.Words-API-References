@@ -1,14 +1,14 @@
 ---
 title: FramesetCollection
 second_title: Aspose.Words for .NET API 参考
-description: 表示Frameset./frameset类的实例集合
+description: 表示实例的集合Frameset./frameset类.
 type: docs
-weight: 2860
+weight: 2910
 url: /zh/net/aspose.words.framesets/framesetcollection/
 ---
 ## FramesetCollection class
 
-表示[`Frameset`](../frameset)类的实例集合。
+表示实例的集合[`Frameset`](../frameset)类.
 
 ```csharp
 public class FramesetCollection : IEnumerable<Frameset>

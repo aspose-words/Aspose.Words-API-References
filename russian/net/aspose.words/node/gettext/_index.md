@@ -1,14 +1,14 @@
 ---
 title: GetText
 second_title: Справочник по API Aspose.Words для .NET
-description: Получает текст этого узла и всех его потомков.
+description: Получает текст этого узла и всех его дочерних элементов.
 type: docs
 weight: 120
 url: /ru/net/aspose.words/node/gettext/
 ---
 ## Node.GetText method
 
-Получает текст этого узла и всех его потомков.
+Получает текст этого узла и всех его дочерних элементов.
 
 ```csharp
 public virtual string GetText()
@@ -24,45 +24,22 @@ public virtual string GetText()
 
 ```csharp
 Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
 
- // Пустой документ содержит один раздел, одно тело и один абзац.
- // Вызовите метод "RemoveAllChildren", чтобы удалить все эти узлы, 
- // и получаем узел документа без дочерних элементов.
-doc.RemoveAllChildren();
+// Вставляем абзацы с текстом с помощью DocumentBuilder.
+builder.Writeln("Hello world!");
+builder.Writeln("Hello again!");
 
- // У этого документа теперь нет составных дочерних узлов, к которым мы можем добавить содержимое.
-// Если мы хотим отредактировать его, нам нужно будет повторно заполнить его коллекцию узлов.
- // Сначала создайте новый раздел, а затем добавьте его как дочерний к корневому узлу документа.
-Section section = new Section(doc);
-doc.AppendChild(section);
+// Преобразование документа в текстовую форму показывает, что управляющие символы
+// представляют некоторые структурные элементы документа, такие как разрывы страниц.
+Assert.AreEqual($"Hello world!{ControlChar.Cr}" +
+                $"Hello again!{ControlChar.Cr}" +
+                ControlChar.PageBreak, doc.GetText());
 
- // Установите некоторые свойства настройки страницы для раздела.
-section.PageSetup.SectionStart = SectionStart.NewPage;
-section.PageSetup.PaperSize = PaperSize.Letter;
-
- // Разделу нужно тело, которое будет содержать и отображать все его содержимое
- // на странице между шапкой и нижним колонтитулом раздела.
-Body body = new Body(doc);
-section.AppendChild(body);
-
- // Создаем абзац, устанавливаем некоторые свойства форматирования, а затем добавляем его как дочерний элемент к телу.
-Paragraph para = new Paragraph(doc);
-
-para.ParagraphFormat.StyleName = "Heading 1";
-para.ParagraphFormat.Alignment = ParagraphAlignment.Center;
-
-body.AppendChild(para);
-
- // Наконец, добавьте содержимое для создания документа. Создайте прогон, 
- // установить его внешний вид и содержимое, а затем добавить его как дочерний элемент к абзацу.
-Run run = new Run(doc);
-run.Text = "Hello World!";
-run.Font.Color = Color.Red;
-para.AppendChild(run);
-
-Assert.AreEqual("Hello World!", doc.GetText().Trim());
-
-doc.Save(ArtifactsDir + "Section.CreateManually.docx");
+// При преобразовании документа в строковую форму
+// мы можем опустить некоторые управляющие символы с помощью метода Trim.
+Assert.AreEqual($"Hello world!{ControlChar.Cr}" +
+                "Hello again!", doc.GetText().Trim());
 ```
 
 Показывает, как создать документ Aspose.Words вручную.
@@ -70,27 +47,27 @@ doc.Save(ArtifactsDir + "Section.CreateManually.docx");
 ```csharp
 Document doc = new Document();
 
- // Пустой документ содержит один раздел, одно тело и один абзац.
- // Вызовите метод "RemoveAllChildren", чтобы удалить все эти узлы, 
- // и получаем узел документа без дочерних элементов.
+// Пустой документ содержит один раздел, одно тело и один абзац.
+// Вызовите метод "RemoveAllChildren", чтобы удалить все эти узлы,
+// и получаем узел документа без дочерних элементов.
 doc.RemoveAllChildren();
 
- // У этого документа теперь нет составных дочерних узлов, к которым мы можем добавить содержимое.
+// Этот документ теперь не имеет составных дочерних узлов, к которым мы можем добавить содержимое.
 // Если мы хотим отредактировать его, нам нужно будет повторно заполнить его коллекцию узлов.
- // Сначала создайте новый раздел, а затем добавьте его как дочерний к корневому узлу документа.
+// Сначала создайте новый раздел, а затем добавьте его как дочерний к корневому узлу документа.
 Section section = new Section(doc);
 doc.AppendChild(section);
 
- // Установите некоторые свойства настройки страницы для раздела.
+// Установите некоторые свойства настройки страницы для раздела.
 section.PageSetup.SectionStart = SectionStart.NewPage;
 section.PageSetup.PaperSize = PaperSize.Letter;
 
- // Разделу нужно тело, которое будет содержать и отображать все его содержимое
- // на странице между шапкой и нижним колонтитулом раздела.
+// Разделу нужно тело, которое будет содержать и отображать все его содержимое
+// на странице между шапкой и нижним колонтитулом раздела.
 Body body = new Body(doc);
 section.AppendChild(body);
 
- // Создаем абзац, устанавливаем некоторые свойства форматирования, а затем добавляем его как дочерний элемент к телу.
+// Создать абзац, установить некоторые свойства форматирования, а затем добавить его в тело как дочерний элемент.
 Paragraph para = new Paragraph(doc);
 
 para.ParagraphFormat.StyleName = "Heading 1";
@@ -98,8 +75,8 @@ para.ParagraphFormat.Alignment = ParagraphAlignment.Center;
 
 body.AppendChild(para);
 
- // Наконец, добавьте содержимое для создания документа. Создайте прогон, 
- // установить его внешний вид и содержимое, а затем добавить его как дочерний элемент к абзацу.
+// Наконец, добавьте содержимое для создания документа. Создать прогон,
+// установить его внешний вид и содержимое, а затем добавить его как дочерний элемент к абзацу.
 Run run = new Run(doc);
 run.Text = "Hello World!";
 run.Font.Color = Color.Red;

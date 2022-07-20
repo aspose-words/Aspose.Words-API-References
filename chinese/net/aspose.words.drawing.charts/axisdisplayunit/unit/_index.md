@@ -1,14 +1,14 @@
 ---
 title: Unit
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置显示单位的缩放值作为预定义值之一
+description: 获取或设置显示单元的缩放值作为预定义值之一
 type: docs
 weight: 40
 url: /zh/net/aspose.words.drawing.charts/axisdisplayunit/unit/
 ---
 ## AxisDisplayUnit.Unit property
 
-获取或设置显示单位的缩放值作为预定义值之一。
+获取或设置显示单元的缩放值作为预定义值之一。
 
 ```csharp
 public AxisBuiltInUnit Unit { get; set; }
@@ -16,7 +16,7 @@ public AxisBuiltInUnit Unit { get; set; }
 
 ### 评论
 
-默认值为AxisBuiltInUnit。没有任何。Custom和 Percentage值在某些图表类型中不可用；请参阅 [`AxisBuiltInUnit`](../../axisbuiltinunit)了解更多信息。
+默认值为None .这Custom和 Percentage值在某些图表类型中不可用；见 [`AxisBuiltInUnit`](../../axisbuiltinunit)了解更多信息。
 
 ### 例子
 

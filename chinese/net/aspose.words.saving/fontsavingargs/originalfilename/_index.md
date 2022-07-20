@@ -20,7 +20,7 @@ public string OriginalFileName { get; }
 
 ### 例子
 
-显示如何为保存为 HTML 时导出字体。
+展示如何定义自定义逻辑以在保存为 HTML 时导出字体。
 
 ```csharp
 {

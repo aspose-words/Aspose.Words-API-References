@@ -1,14 +1,14 @@
 ---
 title: LastRow
 second_title: Aspose.Words for .NET API 参考
-description: 返回表中的最后一个 行 节点
+description: 返回最后一个 排表中的节点
 type: docs
 weight: 180
 url: /zh/net/aspose.words.tables/table/lastrow/
 ---
 ## Table.LastRow property
 
-返回表中的最后一个 **行** 节点。
+返回最后一个 **排**表中的节点。
 
 ```csharp
 public Row LastRow { get; }
@@ -16,7 +16,7 @@ public Row LastRow { get; }
 
 ### 例子
 
-显示如何删除文档中所有表的第一行和最后一行。
+演示如何删除文档中所有表格的第一行和最后一行。
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");

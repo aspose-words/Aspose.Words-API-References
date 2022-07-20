@@ -1,14 +1,14 @@
 ---
 title: ExportListLabels
 second_title: Aspose.Words for .NET API 参考
-description: 指定列表标签如何导出为 HTMLMHTML 和 EPUB
+description: 指定如何将列表标签导出为 HTMLMHTML 和 EPUB
 type: docs
-weight: 4700
+weight: 4750
 url: /zh/net/aspose.words.saving/exportlistlabels/
 ---
 ## ExportListLabels enumeration
 
-指定列表标签如何导出为 HTML、MHTML 和 EPUB。
+指定如何将列表标签导出为 HTML、MHTML 和 EPUB。
 
 ```csharp
 public enum ExportListLabels
@@ -19,12 +19,12 @@ public enum ExportListLabels
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
 | Auto | `0` | 在自动模式下输出列表标签。尽可能使用 HTML 原生元素。 |
-| AsInlineText | `1` | 将所有列表标签作为内联文本输出。 |
-| ByHtmlTags | `2` | 将所有列表标签作为 HTML 原生元素输出。 |
+| AsInlineText | `1` | 将所有列表标签输出为内联文本。 |
+| ByHtmlTags | `2` | 将所有列表标签输出为 HTML 原生元素。 |
 
 ### 例子
 
-显示如何配置列表导出到 HTML .
+显示如何配置列表导出到 HTML。
 
 ```csharp
 Document doc = new Document();

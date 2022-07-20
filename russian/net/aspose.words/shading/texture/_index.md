@@ -16,7 +16,7 @@ public TextureIndex Texture { get; set; }
 
 ### Примеры
 
-Показывает, как украсить текст рамками и штриховкой.
+Показывает, как украсить текст рамками и заливкой.
 
 ```csharp
 Document doc = new Document();

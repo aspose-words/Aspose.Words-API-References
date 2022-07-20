@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Справочник по API Aspose.Words для .NET
-description: Возвращает объектDocumentPropertyaspose.words.properties/documentpropertyпо имени свойства.
+description: ВозвращаетDocumentPropertyaspose.words.properties/documentproperty объект по имени свойства.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.properties/documentpropertycollection/item/
 ---
 ## DocumentPropertyCollection indexer (1 of 2)
 
-Возвращает объект[`DocumentProperty`](../../documentproperty)по имени свойства.
+Возвращает[`DocumentProperty`](../../documentproperty) объект по имени свойства.
 
 ```csharp
 public virtual DocumentProperty this[string name] { get; }
@@ -45,7 +45,7 @@ Console.WriteLine($"Document authorized on {doc.CustomDocumentProperties["Author
 
 ## DocumentPropertyCollection indexer (2 of 2)
 
-Возвращает объект[`DocumentProperty`](../../documentproperty)по индексу.
+Возвращает[`DocumentProperty`](../../documentproperty) объект по индексу.
 
 ```csharp
 public DocumentProperty this[int index] { get; }
@@ -53,7 +53,7 @@ public DocumentProperty this[int index] { get; }
 
 | Параметр | Описание |
 | --- | --- |
-| index | Отсчитываемый от нуля индекс свойства[`DocumentProperty`](../../documentproperty)для получения . |
+| index | Отсчитываемый от нуля индекс[`DocumentProperty`](../../documentproperty) получить. |
 
 ### Примеры
 
@@ -62,8 +62,8 @@ public DocumentProperty this[int index] { get; }
 ```csharp
 Document doc = new Document(MyDir + "Properties.docx");
 
- // Каждый документ содержит набор настраиваемых свойств, которые, как и встроенные свойства, представляют собой пары ключ-значение.
- // Документ имеет фиксированный список встроенных свойств. Пользователь создает все настраиваемые свойства. 
+// Каждый документ содержит набор настраиваемых свойств, которые, как и встроенные свойства, представляют собой пары ключ-значение.
+// Документ имеет фиксированный список встроенных свойств. Пользователь создает все настраиваемые свойства. 
 Assert.AreEqual("Value of custom document property", doc.CustomDocumentProperties["CustomProperty"].ToString());
 
 doc.CustomDocumentProperties.Add("CustomProperty2", "Value of custom document property #2");

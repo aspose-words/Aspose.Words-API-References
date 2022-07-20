@@ -1,14 +1,14 @@
 ---
 title: Encoding
 second_title: Aspose.Words for .NET API 参考
-description: 指定导出到 HTMLMHTML 或 EPUB 时使用的编码 默认值为 new UTF8Encodingfalse UTF-8 无 BOM
+description: 指定导出到 HTMLMHTML 或 EPUB 时使用的编码 默认值为新的 UTF8 编码假没有 BOM 的 UTF-8.
 type: docs
 weight: 100
 url: /zh/net/aspose.words.saving/htmlsaveoptions/encoding/
 ---
 ## HtmlSaveOptions.Encoding property
 
-指定导出到 HTML、MHTML 或 EPUB 时使用的编码。 默认值为` new UTF8Encoding(false)` （UTF-8 无 BOM）。
+指定导出到 HTML、MHTML 或 EPUB 时使用的编码。 默认值为`新的 UTF8 编码（假）`（没有 BOM 的 UTF-8）.
 
 ```csharp
 public Encoding Encoding { get; set; }
@@ -16,7 +16,7 @@ public Encoding Encoding { get; set; }
 
 ### 例子
 
-显示如何在保存文档时使用特定编码到.epub。
+显示将文档保存到 .epub 时如何使用特定编码。
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");

@@ -1,14 +1,14 @@
 ---
 title: GradientStop
 second_title: Aspose.Words for .NET API 参考
-description: 代表一个梯度停止
+description: 代表一个梯度停止点
 type: docs
 weight: 850
 url: /zh/net/aspose.words.drawing/gradientstop/
 ---
 ## GradientStop class
 
-代表一个梯度停止。
+代表一个梯度停止点。
 
 ```csharp
 public class GradientStop
@@ -18,22 +18,22 @@ public class GradientStop
 
 | 姓名 | 描述 |
 | --- | --- |
-| [GradientStop](gradientstop#constructor)(Color, double) | 初始化[`GradientStop`](../gradientstop)类的新实例。 |
-| [GradientStop](gradientstop#constructor_1)(Color, double, double) | 初始化[`GradientStop`](../gradientstop)类的新实例。 |
+| [GradientStop](gradientstop#constructor)(Color, double) | 初始化[`GradientStop`](../gradientstop)类. |
+| [GradientStop](gradientstop#constructor_1)(Color, double, double) | 初始化[`GradientStop`](../gradientstop)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
 | [Color](../../aspose.words.drawing/gradientstop/color) { get; set; } | 获取或设置一个表示渐变色标的值。 |
-| [Position](../../aspose.words.drawing/gradientstop/position) { get; set; } | 获取或设置一个值，该值表示渐变中停靠点的位置 以百分比表示，范围为 0.0 到 1.0。 |
-| [Transparency](../../aspose.words.drawing/gradientstop/transparency) { get; set; } | 获取或设置一个表示渐变填充透明度的值 表示为 0.0 到 1.0 范围内的百分比。 |
+| [Position](../../aspose.words.drawing/gradientstop/position) { get; set; } | 获取或设置一个值，该值表示梯度 内的停止位置，以百分比表示，范围为 0.0 到 1.0. |
+| [Transparency](../../aspose.words.drawing/gradientstop/transparency) { get; set; } | 获取或设置一个表示渐变的透明度的值 fill 表示为 0.0 到 1.0 范围内的百分比。 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Remove](../../aspose.words.drawing/gradientstop/remove)() | 从父级[`GradientStopCollection`](../gradientstopcollection)移除渐变色标。 |
+| [Remove](../../aspose.words.drawing/gradientstop/remove)() | 从父级移除渐变色标[`GradientStopCollection`](../gradientstopcollection). |
 
 ### 也可以看看
 

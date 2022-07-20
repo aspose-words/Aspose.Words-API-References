@@ -16,7 +16,7 @@ public bool FixCheckDigit { get; set; }
 
 ### 例子
 
-显示如何对 EAN13 条形码执行邮件合并。
+展示如何对 EAN13 条码执行邮件合并。
 
 ```csharp
 Document doc = new Document();

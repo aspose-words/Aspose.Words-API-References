@@ -16,11 +16,11 @@ public void UpdateWordCount()
 
 ### Примечания
 
-**UpdateWordCount** пересчитывает и обновляет свойства символов, слов и абзацев в коллекции[`BuiltInDocumentProperties`](../builtindocumentproperties)коллекции документа .
+**Упдейвордкаунт** пересчитывает и обновляет свойства символов, слов и абзацев в[`BuiltInDocumentProperties`](../builtindocumentproperties) коллекция **Документ**.
 
-Обратите внимание, что **UpdateWordCount** не обновляет количество строк и свойства страниц. Для этого используйте перегрузку`UpdateWordCount`и передайте значение True в качестве параметра.
+Обратите внимание, что **Упдейвордкаунт** не обновляет количество строк и свойства страниц. Используйте`UpdateWordCount` перегрузите и передайте значение True в качестве параметра для этого.
 
-При использовании ознакомительной версии водяной знак ознакомительной версии также будет включен в подсчет слов.
+Когда вы используете ознакомительную версию, водяной знак ознакомительной версии также будет включен в количество слов.
 
 ### Примеры
 
@@ -66,7 +66,7 @@ Assert.AreEqual(4, doc.BuiltInDocumentProperties.Lines);
 
 ## UpdateWordCount(bool) {#updatewordcount_1}
 
-Обновляет свойства количества слов в документе, дополнительно обновляет[`Lines`](../../../aspose.words.properties/builtindocumentproperties/lines)свойство.
+Обновляет свойства количества слов в документе, опционально обновляет[`Lines`](../../../aspose.words.properties/builtindocumentproperties/lines) свойство.
 
 ```csharp
 public void UpdateWordCount(bool updateLinesCount)
@@ -74,7 +74,7 @@ public void UpdateWordCount(bool updateLinesCount)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| updateLinesCount | Boolean | Истинно, если необходимо подсчитать количество строк в документе. |
+| updateLinesCount | Boolean | Истинно, если количество строк в документе должно быть рассчитано. |
 
 ### Примечания
 

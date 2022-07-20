@@ -1,14 +1,14 @@
 ---
 title: IsLinkedToSource
 second_title: Aspose.Words for .NET API 参考
-description: 指定格式代码是否链接到源单元格 默认为真
+description: 指定格式代码是否链接到源单元格 默认为 true
 type: docs
 weight: 20
 url: /zh/net/aspose.words.drawing.charts/chartnumberformat/islinkedtosource/
 ---
 ## ChartNumberFormat.IsLinkedToSource property
 
-指定格式代码是否链接到源单元格。 默认为真。
+指定格式代码是否链接到源单元格。 默认为 true。
 
 ```csharp
 public bool IsLinkedToSource { get; set; }
@@ -16,7 +16,7 @@ public bool IsLinkedToSource { get; set; }
 
 ### 评论
 
-如果格式代码链接到源，则 NumberFormat 将重置为通用格式。
+如果格式代码链接到源，NumberFormat 将被重置为一般。
 
 ### 例子
 

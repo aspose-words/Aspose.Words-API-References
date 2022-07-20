@@ -21,9 +21,8 @@ public bool IsFormatRevision { get; }
 ```csharp
 Document doc = new Document(MyDir + "Format revision.docx");
 
- // 这一段是“格式”修订，当我们改变现有 text
- 的格式时发生
- // 同时通过“审阅”跟踪 Microsoft Word 中的修订 -> “跟踪更改”.
+// 这一段是“格式”修订，当我们改变现有文本的格式时发生
+// 同时通过“审阅”跟踪 Microsoft Word 中的修订 -> “跟踪变化”。
 Assert.True(doc.FirstSection.Body.FirstParagraph.IsFormatRevision);
 ```
 

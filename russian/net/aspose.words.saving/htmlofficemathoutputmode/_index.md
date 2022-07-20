@@ -3,7 +3,7 @@ title: HtmlOfficeMathOutputMode
 second_title: Справочник по API Aspose.Words для .NET
 description: Указывает как Aspose.Words экспортирует OfficeMath в HTML MHTML и EPUB.
 type: docs
-weight: 4790
+weight: 4840
 url: /ru/net/aspose.words.saving/htmlofficemathoutputmode/
 ---
 ## HtmlOfficeMathOutputMode enumeration
@@ -18,9 +18,9 @@ public enum HtmlOfficeMathOutputMode
 
 | Имя | Ценность | Описание |
 | --- | --- | --- |
-| Image | `0` | OfficeMath преобразуется в HTML как изображение, указанное &lt;img&gt; ярлык. |
+| Image | `0` | OfficeMath преобразуется в HTML как изображение, указанное тегом &lt;img&gt;. |
 | MathML | `1` | OfficeMath преобразуется в HTML с помощью MathML. |
-| Text | `2` | OfficeMath преобразуется в HTML как последовательность запусков, указанная &lt;span&gt; теги. |
+| Text | `2` | OfficeMath преобразуется в HTML как последовательность запусков, указанная тегами &lt;span&gt;. |
 
 ### Примеры
 

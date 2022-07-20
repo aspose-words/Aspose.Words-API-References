@@ -1,14 +1,14 @@
 ---
 title: OptimizeOutput
 second_title: Справочник по API Aspose.Words для .NET
-description: Флаг указывает требуется ли оптимизация вывода. Если этот флаг установлен лишние вложенные холсты и пустые холсты удаляются также конкатенируются соседние глифы с одинаковым форматированием. Примечание. Точность отображения содержимого может быть снижена если для этого свойства задано значение true. Значение по умолчанию  true.
+description: Флаг указывает требуется ли оптимизация вывода. этому свойству присвоено значение true. Значение по умолчанию  true.
 type: docs
 weight: 100
 url: /ru/net/aspose.words.saving/htmlfixedsaveoptions/optimizeoutput/
 ---
 ## HtmlFixedSaveOptions.OptimizeOutput property
 
-Флаг указывает, требуется ли оптимизация вывода. Если этот флаг установлен, лишние вложенные холсты и пустые холсты удаляются, также конкатенируются соседние глифы с одинаковым форматированием. Примечание. Точность отображения содержимого может быть снижена, если для этого свойства задано значение true. Значение по умолчанию — true.
+Флаг указывает, требуется ли оптимизация вывода. этому свойству присвоено значение true. Значение по умолчанию — true.
 
 ```csharp
 public override bool OptimizeOutput { get; set; }
@@ -25,7 +25,7 @@ HtmlFixedSaveOptions saveOptions = new HtmlFixedSaveOptions { OptimizeOutput = o
 
 doc.Save(ArtifactsDir + "HtmlFixedSaveOptions.OptimizeGraphicsOutput.html", saveOptions);
 
- // Размер оптимизированной версии документа составляет почти треть размера неоптимизированного документа.
+// Размер оптимизированной версии документа составляет почти треть размера неоптимизированного документа.
 Assert.AreEqual(optimizeOutput ? 62521 : 191770,
     new FileInfo(ArtifactsDir + "HtmlFixedSaveOptions.OptimizeGraphicsOutput.html").Length, 200);
 ```

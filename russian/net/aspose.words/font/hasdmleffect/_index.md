@@ -20,11 +20,11 @@ public bool HasDmlEffect(TextDmlEffect dmlEffectType)
 
 ### Возвращаемое значение
 
-Истинно, если применяется определенный текстовый эффект DrawingML.
+Значение true, если применяется определенный текстовый эффект DrawingML.
 
 ### Примеры
 
-Показывает, как проверить, отображает ли выполнение текстовый эффект DrawingML.
+Показывает, как проверить, отображает ли запуск текстовый эффект DrawingML.
 
 ```csharp
 Document doc = new Document(MyDir + "DrawingML text effects.docx");

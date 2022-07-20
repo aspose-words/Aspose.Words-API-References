@@ -1,14 +1,14 @@
 ---
 title: Orientation
 second_title: Справочник по API Aspose.Words для .NET
-description: Задает ориентацию страницы.
+description: Указывает ориентацию страницы.
 type: docs
-weight: 4030
+weight: 4080
 url: /ru/net/aspose.words/orientation/
 ---
 ## Orientation enumeration
 
-Задает ориентацию страницы.
+Указывает ориентацию страницы.
 
 ```csharp
 public enum Orientation
@@ -23,7 +23,7 @@ public enum Orientation
 
 ### Примеры
 
-Показывает, как применить и отменить настройки параметров страницы для разделов документа.
+Показывает, как применять и возвращать параметры настройки страницы к разделам документа.
 
 ```csharp
 Document doc = new Document();

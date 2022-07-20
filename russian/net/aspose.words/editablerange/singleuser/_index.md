@@ -1,14 +1,14 @@
 ---
 title: SingleUser
 second_title: Справочник по API Aspose.Words для .NET
-description: Возвращает или устанавливает одного пользователя для редактируемого диапазона.
+description: Возвращает или задает одного пользователя для редактируемого диапазона.
 type: docs
 weight: 50
 url: /ru/net/aspose.words/editablerange/singleuser/
 ---
 ## EditableRange.SingleUser property
 
-Возвращает или устанавливает одного пользователя для редактируемого диапазона.
+Возвращает или задает одного пользователя для редактируемого диапазона.
 
 ```csharp
 public string SingleUser { get; set; }
@@ -22,9 +22,9 @@ public string SingleUser { get; set; }
 
 user@domain.com - для пользователей, доступ которых должен быть аутентифицирован с использованием адреса электронной почты пользователя в качестве учетных данных.
 
-пользователь - для пользователей, доступ которых должен быть аутентифицирован с использованием учетных данных компьютера текущего пользователя.
+user - для пользователей, чей доступ должен быть аутентифицирован с использованием учетных данных компьютера текущего пользователя.
 
-Отдельный пользователь и группа редакторов не могут быть установлены одновременно для определенного редактируемого диапазона, если установлен один, другой будет очищен.
+Один пользователь и группа редакторов не могут быть установлены одновременно для определенного редактируемого диапазона, , если один установлен, другой будет очищен.
 
 ### Примеры
 
@@ -40,9 +40,9 @@ public void Visitor()
     builder.Writeln("Hello world! Since we have set the document's protection level to read-only," +
                     " we cannot edit this paragraph without the password.");
 
-     // Когда мы защищаем документы от записи, редактируемые диапазоны позволяют нам выбирать определенные области, которые могут редактировать пользователи.
-     // Есть два взаимоисключающих способа сузить список разрешенных редакторов.
-     // 1 - Указываем пользователя:
+    // Когда мы защищаем документы от записи, редактируемые диапазоны позволяют нам выбирать определенные области, которые могут редактировать пользователи.
+    // Есть два взаимоисключающих способа сузить список разрешенных редакторов.
+    // 1 - Указываем пользователя:
     EditableRange editableRange = builder.StartEditableRange().EditableRange;
     editableRange.SingleUser = "john.doe@myoffice.com";
     builder.Writeln($"This paragraph is inside the first editable range, can only be edited by {editableRange.SingleUser}.");
@@ -50,7 +50,7 @@ public void Visitor()
 
     Assert.AreEqual(EditorType.Unspecified, editableRange.EditorGroup);
 
-     // 2 - Укажите группу, с которой связаны разрешенные пользователи: 
+    // 2 - Указываем группу, с которой связаны разрешенные пользователи:
     editableRange = builder.StartEditableRange().EditableRange;
     editableRange.EditorGroup = EditorType.Administrators;
     builder.Writeln($"This paragraph is inside the first editable range, can only be edited by {editableRange.EditorGroup}.");
@@ -60,7 +60,7 @@ public void Visitor()
 
     builder.Writeln("This paragraph is outside the editable range, and cannot be edited by anybody.");
 
-     // Печатаем детали и содержимое каждого редактируемого диапазона в документе.
+    // Печатаем детали и содержимое каждого редактируемого диапазона в документе.
     EditableRangePrinter editableRangePrinter = new EditableRangePrinter();
 
     doc.Accept(editableRangePrinter);
@@ -69,7 +69,7 @@ public void Visitor()
 }
 
 /// <summary>
- /// Собирает свойства и содержимое посещенных редактируемых диапазонов в строку.
+/// Собирает свойства и содержимое посещенных редактируемых диапазонов в строку.
 /// </summary>
 public class EditableRangePrinter : DocumentVisitor
 {
@@ -90,7 +90,7 @@ public class EditableRangePrinter : DocumentVisitor
     }
 
     /// <summary>
-     /// Вызывается, когда в документе встречается узел EditableRangeStart.
+    /// Вызывается, когда в документе встречается узел EditableRangeStart.
     /// </summary>
     public override VisitorAction VisitEditableRangeStart(EditableRangeStart editableRangeStart)
     {
@@ -108,7 +108,7 @@ public class EditableRangePrinter : DocumentVisitor
     }
 
     /// <summary>
-     /// Вызывается, когда в документе встречается узел EditableRangeEnd.
+    /// Вызывается, когда в документе встречается узел EditableRangeEnd.
     /// </summary>
     public override VisitorAction VisitEditableRangeEnd(EditableRangeEnd editableRangeEnd)
     {
@@ -120,7 +120,7 @@ public class EditableRangePrinter : DocumentVisitor
     }
 
     /// <summary>
-     /// Вызывается, когда в документе встречается узел Run. Этот посетитель записывает только те пробеги, которые находятся в редактируемых диапазонах.
+    /// Вызывается, когда в документе встречается узел Run. Этот посетитель записывает только те пробеги, которые находятся в редактируемых диапазонах.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {

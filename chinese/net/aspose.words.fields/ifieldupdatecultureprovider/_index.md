@@ -1,14 +1,14 @@
 ---
 title: IFieldUpdateCultureProvider
 second_title: Aspose.Words for .NET API 参考
-description: 实现时提供CultureInfo对象该对象应在特定字段的更新期间使用
+description: 实施时提供一个CultureInfo在更新特定字段期间应使用的对象
 type: docs
-weight: 2490
+weight: 2540
 url: /zh/net/aspose.words.fields/ifieldupdatecultureprovider/
 ---
 ## IFieldUpdateCultureProvider interface
 
-实现时，提供CultureInfo对象，该对象应在特定字段的更新期间使用。
+实施时，提供一个CultureInfo在更新特定字段期间应使用的对象。
 
 ```csharp
 public interface IFieldUpdateCultureProvider
@@ -18,11 +18,11 @@ public interface IFieldUpdateCultureProvider
 
 | 姓名 | 描述 |
 | --- | --- |
-| [GetCulture](../../aspose.words.fields/ifieldupdatecultureprovider/getculture)(string, Field) | 返回要在字段更新期间使用的CultureInfo对象。 |
+| [GetCulture](../../aspose.words.fields/ifieldupdatecultureprovider/getculture)(string, Field) | 返回一个CultureInfo在字段更新期间使用的对象。 |
 
 ### 例子
 
-显示如何指定一种文化，以解析每个字段的日期/时间格式。
+演示如何指定一种文化，以解析每个字段的日期/时间格式。
 
 ```csharp
 [Test]
@@ -35,7 +35,7 @@ public void DefineDateTimeFormatting()
 
     doc.FieldOptions.FieldUpdateCultureSource = FieldUpdateCultureSource.FieldCode;
 
-     // 设置一个提供者，它返回一个特定于每个字段的文化对象。
+    // 设置一个提供程序，该提供程序返回特定于每个字段的文化对象。
     doc.FieldOptions.FieldUpdateCultureProvider = new FieldUpdateCultureProvider();
 
     FieldTime fieldDate = (FieldTime)doc.Range.Fields[0];
@@ -46,12 +46,12 @@ public void DefineDateTimeFormatting()
 }
 
 /// <summary>
- /// 提供一个 CultureInfo 对象，应该在更新字段时使用。
+/// 提供在更新字段期间应使用的 CultureInfo 对象。
 /// </summary>
 private class FieldUpdateCultureProvider : IFieldUpdateCultureProvider
 {
     /// <summary>
-     /// 返回要在字段更新期间使用的 CultureInfo 对象。
+    /// 返回要在字段更新期间使用的 CultureInfo 对象。
     /// </summary>
     public CultureInfo GetCulture(string name, Field field)
     {

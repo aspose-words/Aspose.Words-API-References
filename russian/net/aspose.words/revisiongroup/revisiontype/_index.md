@@ -16,7 +16,7 @@ public RevisionType RevisionType { get; }
 
 ### Примеры
 
-Показывает, как распечатать информацию о группе правок в документе.
+Показывает, как распечатать информацию о группе редакций в документе.
 
 ```csharp
 Document doc = new Document(MyDir + "Revisions.docx");

@@ -1,14 +1,14 @@
 ---
 title: LinkedStyleName
 second_title: Aspose.Words for .NET API 参考
-description: 获取链接到这个样式的名称如果没有链接样式则返回空字符串
+description: 获取与该样式链接的样式的名称如果没有链接样式则返回空字符串
 type: docs
 weight: 80
 url: /zh/net/aspose.words/style/linkedstylename/
 ---
 ## Style.LinkedStyleName property
 
-获取链接到这个样式的名称。如果没有链接样式，则返回空字符串。
+获取与该样式链接的样式的名称。如果没有链接样式，则返回空字符串。
 
 ```csharp
 public string LinkedStyleName { get; }

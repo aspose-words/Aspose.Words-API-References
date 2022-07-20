@@ -1,14 +1,14 @@
 ---
 title: ChartDataLabelCollection
 second_title: Aspose.Words for .NET API 参考
-description: 表示ChartDataLabel./chartdatalabel的集合
+description: 代表一个集合ChartDataLabel./chartdatalabel.
 type: docs
 weight: 640
 url: /zh/net/aspose.words.drawing.charts/chartdatalabelcollection/
 ---
 ## ChartDataLabelCollection class
 
-表示[`ChartDataLabel`](../chartdatalabel)的集合。
+代表一个集合[`ChartDataLabel`](../chartdatalabel).
 
 ```csharp
 public class ChartDataLabelCollection : IEnumerable<ChartDataLabel>
@@ -18,24 +18,24 @@ public class ChartDataLabelCollection : IEnumerable<ChartDataLabel>
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Count](../../aspose.words.drawing.charts/chartdatalabelcollection/count) { get; } | 返回此集合中[`ChartDataLabel`](../chartdatalabel)的数量。 |
-| [Item](../../aspose.words.drawing.charts/chartdatalabelcollection/item) { get; } | 返回指定索引的[`ChartDataLabel`](../chartdatalabel)。 |
-| [NumberFormat](../../aspose.words.drawing.charts/chartdatalabelcollection/numberformat) { get; } | 获取[`ChartNumberFormat`](../chartnumberformat)实例，允许为的数据标签设置数字格式整个系列。 |
-| [Separator](../../aspose.words.drawing.charts/chartdatalabelcollection/separator) { get; set; } | 获取或设置用于整个系列数据标签的字符串分隔符。 默认为逗号，但饼图仅显示类别名称和百分比除外，此时应使用换行符 。 |
-| [ShowBubbleSize](../../aspose.words.drawing.charts/chartdatalabelcollection/showbubblesize) { get; set; } | 允许指定是否为整个系列的数据标签显示气泡大小。 仅适用于气泡图。 默认值为 **false** 。 |
-| [ShowCategoryName](../../aspose.words.drawing.charts/chartdatalabelcollection/showcategoryname) { get; set; } | 允许指定是否为整个系列的数据标签显示类别名称。 默认值为 **false** 。 |
-| [ShowDataLabelsRange](../../aspose.words.drawing.charts/chartdatalabelcollection/showdatalabelsrange) { get; set; } | 允许指定数据标签范围内的值是否显示在整个系列的数据标签中。 默认值为 **false** 。 |
-| [ShowLeaderLines](../../aspose.words.drawing.charts/chartdatalabelcollection/showleaderlines) { get; set; } | 允许指定是否需要为整个系列的数据标签显示数据标签引出线。 默认值为 **false** 。 |
-| [ShowLegendKey](../../aspose.words.drawing.charts/chartdatalabelcollection/showlegendkey) { get; set; } | 允许指定是否为整个系列的数据标签显示图例键。 默认值为 **false** 。 |
-| [ShowPercentage](../../aspose.words.drawing.charts/chartdatalabelcollection/showpercentage) { get; set; } | 允许指定是否为整个系列的数据标签显示百分比值。 默认值为 **false** 。仅适用于饼图。 |
-| [ShowSeriesName](../../aspose.words.drawing.charts/chartdatalabelcollection/showseriesname) { get; set; } | 返回或设置一个布尔值，表示整个系列数据标签的系列名称显示行为。  **True** 显示系列名称。 **False** 隐藏。默认情况下 **false** 。 |
-| [ShowValue](../../aspose.words.drawing.charts/chartdatalabelcollection/showvalue) { get; set; } | 允许指定值是否显示在整个系列的数据标签中。 默认值为 **false** 。 |
+| [Count](../../aspose.words.drawing.charts/chartdatalabelcollection/count) { get; } | 返回数量[`ChartDataLabel`](../chartdatalabel)在这个集合中。 |
+| [Item](../../aspose.words.drawing.charts/chartdatalabelcollection/item) { get; } | 返回[`ChartDataLabel`](../chartdatalabel)对于指定的索引。 |
+| [NumberFormat](../../aspose.words.drawing.charts/chartdatalabelcollection/numberformat) { get; } | 得到一个[`ChartNumberFormat`](../chartnumberformat)允许为 the 整个系列的数据标签设置数字格式的实例。 |
+| [Separator](../../aspose.words.drawing.charts/chartdatalabelcollection/separator) { get; set; } | 获取或设置用于整个系列数据标签的字符串分隔符。 默认为逗号，除了仅显示类别名称和百分比的饼图外，应使用换行符 。 |
+| [ShowBubbleSize](../../aspose.words.drawing.charts/chartdatalabelcollection/showbubblesize) { get; set; } | 允许指定是否为整个系列的数据标签显示气泡大小。 仅适用于气泡图。 默认值为 **错误的**. |
+| [ShowCategoryName](../../aspose.words.drawing.charts/chartdatalabelcollection/showcategoryname) { get; set; } | 允许指定是否为整个系列的数据标签显示类别名称。 默认值为 **错误的**. |
+| [ShowDataLabelsRange](../../aspose.words.drawing.charts/chartdatalabelcollection/showdatalabelsrange) { get; set; } | 允许指定数据标签范围内的值是否显示在整个系列的数据标签中。 默认值为 **错误的**. |
+| [ShowLeaderLines](../../aspose.words.drawing.charts/chartdatalabelcollection/showleaderlines) { get; set; } | 允许指定是否需要为整个系列的数据标签显示数据标签引出线。 默认值为 **错误的**. |
+| [ShowLegendKey](../../aspose.words.drawing.charts/chartdatalabelcollection/showlegendkey) { get; set; } | 允许指定是否为整个系列的数据标签显示图例键。 默认值为 **错误的**. |
+| [ShowPercentage](../../aspose.words.drawing.charts/chartdatalabelcollection/showpercentage) { get; set; } | 允许指定是否为整个系列的数据标签显示百分比值。 默认值为 **错误的**.仅适用于饼图。 |
+| [ShowSeriesName](../../aspose.words.drawing.charts/chartdatalabelcollection/showseriesname) { get; set; } | 返回或设置一个布尔值，表示整个系列的数据标签的系列名称显示行为。  **真的**显示系列名称。 **错误的**隐藏。默认 **错误的**. |
+| [ShowValue](../../aspose.words.drawing.charts/chartdatalabelcollection/showvalue) { get; set; } | 允许指定是否在整个系列的数据标签中显示值。 默认值为 **错误的**. |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ClearFormat](../../aspose.words.drawing.charts/chartdatalabelcollection/clearformat)() | 清除此集合中所有[`ChartDataLabel`](../chartdatalabel)的格式。 |
+| [ClearFormat](../../aspose.words.drawing.charts/chartdatalabelcollection/clearformat)() | 清除所有格式[`ChartDataLabel`](../chartdatalabel)在这个集合中。 |
 | [GetEnumerator](../../aspose.words.drawing.charts/chartdatalabelcollection/getenumerator)() | 返回一个枚举器对象。 |
 
 ### 例子

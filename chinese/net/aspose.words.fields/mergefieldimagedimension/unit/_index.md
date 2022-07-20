@@ -1,14 +1,14 @@
 ---
 title: Unit
 second_title: Aspose.Words for .NET API 参考
-description: 单位
+description: 单位.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.fields/mergefieldimagedimension/unit/
 ---
 ## MergeFieldImageDimension.Unit property
 
-单位。
+单位.
 
 ```csharp
 public MergeFieldImageDimensionUnit Unit { get; set; }

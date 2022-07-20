@@ -16,7 +16,7 @@ public ViewType ViewType { get; set; }
 
 ### 评论
 
-虽然 Aspose.Words 可以读写这个选项，但它的用法是特定于应用程序的. 例如 MS Word 2013 不尊重此选项的值。
+虽然 Aspose.Words 能够读写这个选项，但它的使用是特定于应用程序的。 例如 MS Word 2013 不尊重此选项的值。
 
 ### 例子
 

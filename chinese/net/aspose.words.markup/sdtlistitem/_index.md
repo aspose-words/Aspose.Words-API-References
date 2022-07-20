@@ -1,14 +1,14 @@
 ---
 title: SdtListItem
 second_title: Aspose.Words for .NET API 参考
-description: 此元素指定父ComboBox或R5 中的单个列表项FAspose.Words.Markup.SdtType.DropDownList结构化文档标签
+description: 此元素指定父项中的单个列表项ComboBox或者DropDownList结构化文档标签
 type: docs
-weight: 3730
+weight: 3780
 url: /zh/net/aspose.words.markup/sdtlistitem/
 ---
 ## SdtListItem class
 
-此元素指定父ComboBox或:::R5 中的单个列表项:F:Aspose.Words.Markup.SdtType.DropDownList:::结构化文档标签。
+此元素指定父项中的单个列表项ComboBox或者DropDownList结构化文档标签。
 
 ```csharp
 public class SdtListItem
@@ -18,19 +18,19 @@ public class SdtListItem
 
 | 姓名 | 描述 |
 | --- | --- |
-| [SdtListItem](sdtlistitem#constructor)(string) | 初始化此类的新实例。 |
-| [SdtListItem](sdtlistitem#constructor_1)(string, string) | 初始化此类的新实例。 |
+| [SdtListItem](sdtlistitem#constructor)(string) | 初始化这个类的一个新实例。 |
+| [SdtListItem](sdtlistitem#constructor_1)(string, string) | 初始化这个类的一个新实例。 |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [DisplayText](../../aspose.words.markup/sdtlistitem/displaytext) { get; } | 获取要在运行内容中显示的文本以代替[`Value`](./value)属性内容此列表项。 |
+| [DisplayText](../../aspose.words.markup/sdtlistitem/displaytext) { get; } | 获取要在运行内容中显示的文本，以代替[`Value`](./value)此列表项的属性内容。 |
 | [Value](../../aspose.words.markup/sdtlistitem/value) { get; } | 获取此列表项的值。 |
 
 ### 例子
 
-显示如何使用下拉列表结构化文档标签。
+展示如何使用下拉列表结构化文档标签。
 
 ```csharp
 Document doc = new Document();

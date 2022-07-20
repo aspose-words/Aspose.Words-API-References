@@ -1,14 +1,14 @@
 ---
 title: CssClassNamesPrefix
 second_title: Aspose.Words for .NET API 参考
-description: 指定添加到 style.css 文件中所有类名的前缀 默认值为 aw 
+description: 指定添加到 style.css 文件中所有类名的前缀 默认值为啊.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.saving/htmlfixedsaveoptions/cssclassnamesprefix/
 ---
 ## HtmlFixedSaveOptions.CssClassNamesPrefix property
 
-指定添加到 style.css 文件中所有类名的前缀。 默认值为` "aw"` 。
+指定添加到 style.css 文件中所有类名的前缀。 默认值为`“啊”`.
 
 ```csharp
 public string CssClassNamesPrefix { get; set; }
@@ -16,7 +16,7 @@ public string CssClassNamesPrefix { get; set; }
 
 ### 例子
 
-展示了如何将 CSS 放入一个单独的文件并为其所有 CSS 类名添加前缀。
+展示了如何将 CSS 放入一个单独的文件中，并为它的所有 CSS 类名添加一个前缀。
 
 ```csharp
 Document doc = new Document(MyDir + "Bookmarks.docx");

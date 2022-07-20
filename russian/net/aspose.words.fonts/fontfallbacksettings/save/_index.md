@@ -1,14 +1,14 @@
 ---
 title: Save
 second_title: Справочник по API Aspose.Words для .NET
-description: Сохраняет текущие резервные настройки в поток.
+description: Сохраняет текущие резервные настройки в потоке.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.fonts/fontfallbacksettings/save/
 ---
 ## Save(Stream) {#save}
 
-Сохраняет текущие резервные настройки в поток.
+Сохраняет текущие резервные настройки в потоке.
 
 ```csharp
 public void Save(Stream outputStream)

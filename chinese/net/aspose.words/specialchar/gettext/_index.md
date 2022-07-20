@@ -1,14 +1,14 @@
 ---
 title: GetText
 second_title: Aspose.Words for .NET API 参考
-description: 获取此节点表示的特殊字符
+description: 获取此节点代表的特殊字符
 type: docs
 weight: 30
 url: /zh/net/aspose.words/specialchar/gettext/
 ---
 ## SpecialChar.GetText method
 
-获取此节点表示的特殊字符。
+获取此节点代表的特殊字符。
 
 ```csharp
 public override string GetText()

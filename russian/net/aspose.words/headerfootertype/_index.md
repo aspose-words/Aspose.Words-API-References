@@ -3,7 +3,7 @@ title: HeaderFooterType
 second_title: Справочник по API Aspose.Words для .NET
 description: Определяет тип верхнего или нижнего колонтитула в файле Word.
 type: docs
-weight: 2890
+weight: 2940
 url: /ru/net/aspose.words/headerfootertype/
 ---
 ## HeaderFooterType enumeration
@@ -22,7 +22,7 @@ public enum HeaderFooterType
 | HeaderPrimary | `1` | Основной заголовок, также используемый для страниц с нечетными номерами. |
 | FooterEven | `2` | Нижний колонтитул для четных страниц. |
 | FooterPrimary | `3` | Основной нижний колонтитул, также используемый для страниц с нечетными номерами. |
-| HeaderFirst | `4` | Заголовок первой страницы раздела. |
+| HeaderFirst | `4` | Заголовок для первой страницы раздела. |
 | FooterFirst | `5` | Нижний колонтитул для первой страницы раздела. |
 
 ### Примеры

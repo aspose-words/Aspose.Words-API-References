@@ -1,14 +1,14 @@
 ---
 title: FormatAddressOnCountryOrRegion
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置是否根据收件人的国家/地区格式化地址 定义为 POSTCODEUniversal Postal Union 2006 
+description: 获取或设置是否根据收件人的国家/地区格式化地址 由 POSTCODE Universal Postal Union 2006 定义
 type: docs
 weight: 30
 url: /zh/net/aspose.words.fields/fieldaddressblock/formataddressoncountryorregion/
 ---
 ## FieldAddressBlock.FormatAddressOnCountryOrRegion property
 
-获取或设置是否根据收件人的国家/地区格式化地址 定义为 POST*CODE（Universal Postal Union 2006 ）。
+获取或设置是否根据收件人的国家/地区格式化地址 由 POST*CODE (Universal Postal Union 2006) 定义。
 
 ```csharp
 public bool FormatAddressOnCountryOrRegion { get; set; }

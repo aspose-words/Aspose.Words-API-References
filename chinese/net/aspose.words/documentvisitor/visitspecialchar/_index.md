@@ -1,14 +1,14 @@
 ---
 title: VisitSpecialChar
 second_title: Aspose.Words for .NET API 参考
-description: 在文档中遇到SpecialCharaspose.words/specialchar节点时调用
+description: 当一个SpecialCharaspose.words/specialchar在文档中遇到节点
 type: docs
 weight: 430
 url: /zh/net/aspose.words/documentvisitor/visitspecialchar/
 ---
 ## DocumentVisitor.VisitSpecialChar method
 
-在文档中遇到[`SpecialChar`](../../specialchar)节点时调用。
+当一个[`SpecialChar`](../../specialchar)在文档中遇到节点。
 
 ```csharp
 public virtual VisitorAction VisitSpecialChar(SpecialChar specialChar)
@@ -20,15 +20,15 @@ public virtual VisitorAction VisitSpecialChar(SpecialChar specialChar)
 
 ### 返回值
 
-A[`VisitorAction`](../../visitoraction)指定如何继续枚举的值。
+一个[`VisitorAction`](../../visitoraction)指定如何继续枚举的值。
 
 ### 评论
 
-通用控制字符不调用此方法（参见[`ControlChar`](../../controlchar)) 可以出现在文档中。
+对于通用控制字符不调用此方法（请参阅[`ControlChar`](../../controlchar) 可以出现在文档中。
 
 ### 例子
 
-展示如何使用 DocumentVisitor 实现从文档中删除所有隐藏内容。
+演示如何使用 DocumentVisitor 实现从文档中删除所有隐藏内容。
 
 ```csharp
 {

@@ -8,7 +8,7 @@ url: /zh/net/aspose.words.reporting/jsondatasource/jsondatasource/
 ---
 ## JsonDataSource(string) {#constructor_2}
 
-使用解析 JSON 数据的默认选项使用来自 JSON 文件的数据创建新数据源。
+使用解析 JSON 数据的默认选项，使用来自 JSON 文件的数据创建新数据源。
 
 ```csharp
 public JsonDataSource(string jsonPath)
@@ -48,7 +48,7 @@ public JsonDataSource(Stream jsonStream)
 
 ## JsonDataSource(string, JsonDataLoadOptions) {#constructor_3}
 
-使用用于解析 JSON 数据的指定选项使用来自 JSON 文件的数据创建新数据源。
+使用用于解析 JSON 数据的指定选项，使用来自 JSON 文件的数据创建新数据源。
 
 ```csharp
 public JsonDataSource(string jsonPath, JsonDataLoadOptions options)
@@ -70,7 +70,7 @@ public JsonDataSource(string jsonPath, JsonDataLoadOptions options)
 
 ## JsonDataSource(Stream, JsonDataLoadOptions) {#constructor_1}
 
-使用用于解析 JSON 数据的指定选项使用来自 JSON 流的数据创建新数据源。
+使用用于解析 JSON 数据的指定选项，使用来自 JSON 流的数据创建新数据源。
 
 ```csharp
 public JsonDataSource(Stream jsonStream, JsonDataLoadOptions options)

@@ -16,7 +16,7 @@ public FlipOrientation FlipOrientation { get; set; }
 
 ### Примечания
 
-Значение по умолчанию:Никто.
+Значение по умолчаниюNone.
 
 ### Примеры
 
@@ -38,7 +38,7 @@ shape = builder.InsertShape(ShapeType.Rectangle, RelativeHorizontalPosition.Left
 shape.ImageData.SetImage(ImageDir + "Logo.jpg");
 
 // Установите для свойства "FlipOrientation" значение "FlipOrientation.Horizontal", чтобы отразить вторую фигуру по оси Y,
-// превращаем его в горизонтальное зеркальное отображение первой фигуры.
+// превращаем его в горизонтальное зеркальное отображение первой формы.
 shape.FlipOrientation = FlipOrientation.Horizontal;
 
 shape = builder.InsertShape(ShapeType.Rectangle, RelativeHorizontalPosition.LeftMargin, 100,
@@ -54,7 +54,7 @@ shape = builder.InsertShape(ShapeType.Rectangle, RelativeHorizontalPosition.Left
 shape.ImageData.SetImage(ImageDir + "Logo.jpg");
 
 // Установите для свойства "FlipOrientation" значение "FlipOrientation.Horizontal", чтобы отразить четвертую фигуру по обеим осям x и y,
-// превращаем его в горизонтальное и вертикальное зеркальное отображение первой формы.
+// превращаем его в горизонтальное и вертикальное зеркальное отображение первой фигуры.
 shape.FlipOrientation = FlipOrientation.Both;
 
 doc.Save(ArtifactsDir + "Shape.FlipShapeOrientation.docx");

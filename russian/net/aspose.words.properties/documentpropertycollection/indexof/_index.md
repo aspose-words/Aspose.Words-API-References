@@ -16,11 +16,11 @@ public int IndexOf(string name)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| name | String | Имя свойства без учета регистра. |
+| name | String | Нечувствительное к регистру имя свойства. |
 
 ### Возвращаемое значение
 
-Индекс, начинающийся с нуля. Отрицательное значение, если не найдено.
+Индекс с отсчетом от нуля. Отрицательное значение, если не найдено.
 
 ### Примеры
 
@@ -32,48 +32,48 @@ CustomDocumentProperties properties = doc.CustomDocumentProperties;
 
 Assert.AreEqual(0, properties.Count);
 
- // Пользовательские свойства документа — это пары ключ-значение, которые мы можем добавить в документ.
+// Пользовательские свойства документа — это пары ключ-значение, которые мы можем добавить в документ.
 properties.Add("Authorized", true);
 properties.Add("Authorized By", "John Doe");
 properties.Add("Authorized Date", DateTime.Today);
 properties.Add("Authorized Revision", doc.BuiltInDocumentProperties.RevisionNumber);
 properties.Add("Authorized Amount", 123.45);
 
- // Коллекция сортирует пользовательские свойства в алфавитном порядке.
+// Коллекция сортирует пользовательские свойства в алфавитном порядке.
 Assert.AreEqual(1, properties.IndexOf("Authorized Amount"));
 Assert.AreEqual(5, properties.Count);
 
- // Печать каждого пользовательского свойства в документе.
+// Распечатать каждое пользовательское свойство в документе.
 using (IEnumerator<DocumentProperty> enumerator = properties.GetEnumerator())
 {
     while (enumerator.MoveNext())
         Console.WriteLine($"Name: \"{enumerator.Current.Name}\"\n\tType: \"{enumerator.Current.Type}\"\n\tValue: \"{enumerator.Current.Value}\"");
 }
 
- // Отображение значения пользовательского свойства с помощью поля DOCPROPERTY.
+// Отображение значения пользовательского свойства с использованием поля DOCPROPERTY.
 DocumentBuilder builder = new DocumentBuilder(doc);
 FieldDocProperty field = (FieldDocProperty)builder.InsertField(" DOCPROPERTY \"Authorized By\"");
 field.Update();
 
 Assert.AreEqual("John Doe", field.Result);
 
- // Мы можем найти эти пользовательские свойства в Microsoft Word через «Файл» -> "Свойства" > "Дополнительные свойства" > "Пользовательский".
+// Мы можем найти эти пользовательские свойства в Microsoft Word через «Файл» -> "Свойства" > "Дополнительные свойства" > "Обычай".
 doc.Save(ArtifactsDir + "DocumentProperties.DocumentPropertyCollection.docx");
 
- // Ниже приведены три способа удаления пользовательских свойств из документа.
- // 1 - Удалить по индексу:
+// Ниже приведены три способа удаления пользовательских свойств из документа.
+// 1 - Удалить по индексу:
 properties.RemoveAt(1);
 
 Assert.False(properties.Contains("Authorized Amount"));
 Assert.AreEqual(4, properties.Count);
 
- // 2 - Удалить по имени:
+// 2 - Удалить по имени:
 properties.Remove("Authorized Revision");
 
 Assert.False(properties.Contains("Authorized Revision"));
 Assert.AreEqual(3, properties.Count);
 
- // 3 - Очистить всю коллекцию сразу:
+// 3 - Очистить всю коллекцию сразу:
 properties.Clear();
 
 Assert.AreEqual(0, properties.Count);

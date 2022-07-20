@@ -1,14 +1,14 @@
 ---
 title: IsAtStartOfParagraph
 second_title: Aspose.Words for .NET API 参考
-description: 如果光标位于当前段落的开头光标前没有文本则返回 true
+description: 如果光标位于当前段落的开头光标之前没有文本则返回 true
 type: docs
 weight: 110
 url: /zh/net/aspose.words/documentbuilder/isatstartofparagraph/
 ---
 ## DocumentBuilder.IsAtStartOfParagraph property
 
-如果光标位于当前段落的开头（光标前没有文本），则返回 true。
+如果光标位于当前段落的开头（光标之前没有文本），则返回 true。
 
 ```csharp
 public bool IsAtStartOfParagraph { get; }

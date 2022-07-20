@@ -1,14 +1,14 @@
 ---
 title: DuplicateStyle
 second_title: Справочник по API Aspose.Words для .NET
-description: Получает/устанавливает флаг указывающий следует ли удалять повторяющиеся стили из документа. Значение по умолчанию false .
+description: Получает/устанавливает флаг указывающий следует ли удалять повторяющиеся стили из документа. Значение по умолчанию ЛОЖЬ .
 type: docs
 weight: 20
 url: /ru/net/aspose.words/cleanupoptions/duplicatestyle/
 ---
 ## CleanupOptions.DuplicateStyle property
 
-Получает/устанавливает флаг, указывающий, следует ли удалять повторяющиеся стили из документа. Значение по умолчанию: **false** .
+Получает/устанавливает флаг, указывающий, следует ли удалять повторяющиеся стили из документа. Значение по умолчанию: **ЛОЖЬ** .
 
 ```csharp
 public bool DuplicateStyle { get; set; }
@@ -21,8 +21,8 @@ public bool DuplicateStyle { get; set; }
 ```csharp
 Document doc = new Document();
 
- // Добавляем в документ два стиля с одинаковыми свойствами,
- // но разные имена. Второй стиль считается дубликатом первого.
+// Добавляем в документ два стиля с одинаковыми свойствами,
+// но разные имена. Второй стиль считается дубликатом первого.
 Style myStyle = doc.Styles.Add(StyleType.Paragraph, "MyStyle1");
 myStyle.Font.Size = 14;
 myStyle.Font.Name = "Courier New";
@@ -35,7 +35,7 @@ duplicateStyle.Font.Color = Color.Blue;
 
 Assert.AreEqual(6, doc.Styles.Count);
 
- // Применяем оба стиля к разным абзацам документа.
+// Применяем оба стиля к разным абзацам документа.
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.ParagraphFormat.StyleName = myStyle.Name;
 builder.Writeln("Hello world!");
@@ -48,8 +48,8 @@ ParagraphCollection paragraphs = doc.FirstSection.Body.Paragraphs;
 Assert.AreEqual(myStyle, paragraphs[0].ParagraphFormat.Style);
 Assert.AreEqual(duplicateStyle, paragraphs[1].ParagraphFormat.Style);
 
- // Настройте объект CleanOptions, затем вызовите метод Cleanup для замены всех повторяющихся стилей
- // с оригиналом и удалить дубликаты из документа.
+// Настройте объект CleanOptions, затем вызовите метод Cleanup, чтобы заменить все повторяющиеся стили
+// с оригиналом и удалить дубликаты из документа.
 CleanupOptions cleanupOptions = new CleanupOptions { DuplicateStyle = true };
 
 doc.Cleanup(cleanupOptions);

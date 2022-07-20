@@ -1,14 +1,14 @@
 ---
 title: ConnectString
 second_title: Справочник по API Aspose.Words для .NET
-description: Задает строку подключения используемую для подключения к внешнему источнику данных. Значение по умолчанию  пустая строка.
+description: Указывает строку подключения используемую для подключения к внешнему источнику данных. Значение по умолчанию  пустая строка.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.settings/mailmergesettings/connectstring/
 ---
 ## MailMergeSettings.ConnectString property
 
-Задает строку подключения, используемую для подключения к внешнему источнику данных. Значение по умолчанию — пустая строка.
+Указывает строку подключения, используемую для подключения к внешнему источнику данных. Значение по умолчанию — пустая строка.
 
 ```csharp
 public string ConnectString { get; set; }
@@ -36,8 +36,8 @@ Console.WriteLine($"UDL connection string:\n\t{odso.UdlConnectString}");
 Console.WriteLine($"Table:\n\t{odso.TableName}");
 Console.WriteLine($"Query:\n\t{doc.MailMergeSettings.Query}");
 
- // Мы можем сбросить эти настройки, очистив их. Как только мы это сделаем и сохраним документ, 
- // Microsoft Word больше не будет выполнять слияние почты, когда мы используем его для загрузки документа.
+// Мы можем сбросить эти настройки, очистив их. Как только мы это сделаем и сохраним документ,
+// Microsoft Word больше не будет выполнять слияние, когда мы используем его для загрузки документа.
 settings.Clear();
 
 doc.Save(ArtifactsDir + "MailMerge.OdsoEmail.docx");

@@ -1,14 +1,14 @@
 ---
 title: OfficeMathDisplayType
 second_title: Aspose.Words for .NET API 参考
-description: 指定公式的显示格式类型
+description: 指定方程的显示格式类型
 type: docs
-weight: 3840
+weight: 3890
 url: /zh/net/aspose.words.math/officemathdisplaytype/
 ---
 ## OfficeMathDisplayType enumeration
 
-指定公式的显示格式类型。
+指定方程的显示格式类型。
 
 ```csharp
 public enum OfficeMathDisplayType
@@ -18,12 +18,12 @@ public enum OfficeMathDisplayType
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| Display | `0` | Office Math 显示在单独的行上。 |
-| Inline | `1` | Office Math 与文本内嵌显示。 |
+| Display | `0` | Office Math 显示在单独的行中。 |
+| Inline | `1` | Office Math 与文本内联显示。 |
 
 ### 例子
 
-说明如何设置办公室数学显示格式。
+显示如何设置办公室数学显示格式。
 
 ```csharp
 Document doc = new Document(MyDir + "Office math.docx");

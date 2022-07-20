@@ -16,7 +16,7 @@ public bool CanHaveImage { get; }
 
 ### 评论
 
-虽然 Microsoft Word 具有特殊的图像形状类型，但似乎在 Microsoft Word 文档中shape 除了组形状可以有图像，因此该属性对除[`GroupShape`](../../groupshape)之外的所有形状返回 true。
+尽管 Microsoft Word 有一种特殊的图像形状类型，但似乎在 Microsoft Word 文档中，除了组形状之外的任何 shape 都可以有图像，因此该属性对所有形状返回 true，除了[`GroupShape`](../../groupshape).
 
 ### 例子
 

@@ -1,14 +1,14 @@
 ---
 title: Bidi
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置这是一个从右到左的表
+description: 获取或设置这是否是一个从右到左的表
 type: docs
 weight: 80
 url: /zh/net/aspose.words.tables/table/bidi/
 ---
 ## Table.Bidi property
 
-获取或设置这是一个从右到左的表。
+获取或设置这是否是一个从右到左的表。
 
 ```csharp
 public bool Bidi { get; set; }
@@ -16,9 +16,9 @@ public bool Bidi { get; set; }
 
 ### 评论
 
-当` true` 时，此行中的单元格从右到左排列。
+什么时候`真的`，此行中的单元格从右到左排列。
 
-默认值为` false` 。
+默认值为`错误的`.
 
 ### 例子
 
@@ -53,7 +53,7 @@ tableStyle.VerticalAlignment = CellVerticalAlignment.Center;
 
 table.Style = tableStyle;
 
- // 设置表格的样式属性可能会影响表格本身的属性
+// 设置表格的样式属性可能会影响表格本身的属性。
 Assert.True(table.Bidi);
 Assert.AreEqual(5.0d, table.CellSpacing);
 Assert.AreEqual("MyTableStyle1", table.StyleName);

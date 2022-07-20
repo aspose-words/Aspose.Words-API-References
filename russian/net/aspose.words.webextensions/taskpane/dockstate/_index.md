@@ -1,14 +1,14 @@
 ---
 title: DockState
 second_title: Справочник по API Aspose.Words для .NET
-description: Определяет последнее пристыкованное расположение этого объекта панели задач.
+description: Определяет последнее пристыкованное расположение этого объекта области задач.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.webextensions/taskpane/dockstate/
 ---
 ## TaskPane.DockState property
 
-Определяет последнее пристыкованное расположение этого объекта панели задач.
+Определяет последнее пристыкованное расположение этого объекта области задач.
 
 ```csharp
 public TaskPaneDockState DockState { get; set; }

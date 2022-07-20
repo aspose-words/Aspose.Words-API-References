@@ -1,14 +1,14 @@
 ---
 title: ViewType
 second_title: Aspose.Words for .NET API 参考
-description: Microsoft Word 中查看模式的可能值
+description: Microsoft Word 中视图模式的可能值
 type: docs
-weight: 5610
+weight: 5660
 url: /zh/net/aspose.words.settings/viewtype/
 ---
 ## ViewType enumeration
 
-Microsoft Word 中查看模式的可能值。
+Microsoft Word 中视图模式的可能值。
 
 ```csharp
 public enum ViewType
@@ -23,7 +23,7 @@ public enum ViewType
 | PageLayout | `1` | 文档应在一个视图中打开，该视图显示文档将被打印。 |
 | Outline | `3` | 文档应在为概述或创建长文档而优化的视图中呈现。 |
 | Normal | `4` | 文档应在为概述或创建长文档而优化的视图中呈现。 |
-| Web | `5` | 该文档应在一个类似于该文档在网页中的显示方式 的视图中呈现。 |
+| Web | `5` | 该文档应在一个视图中呈现，该视图模仿该文档在网页中 的显示方式。 |
 
 ### 例子
 

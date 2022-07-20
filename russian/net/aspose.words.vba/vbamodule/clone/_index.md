@@ -1,14 +1,14 @@
 ---
 title: Clone
 second_title: Справочник по API Aspose.Words для .NET
-description: Выполняет копиюVbaModuleaspose.words.vba/vbamodule.
+description: Выполняет копированиеVbaModuleaspose.words.vba/vbamodule .
 type: docs
 weight: 50
 url: /ru/net/aspose.words.vba/vbamodule/clone/
 ---
 ## VbaModule.Clone method
 
-Выполняет копию[`VbaModule`](../../vbamodule).
+Выполняет копирование[`VbaModule`](../../vbamodule) .
 
 ```csharp
 public VbaModule Clone()
@@ -16,7 +16,7 @@ public VbaModule Clone()
 
 ### Возвращаемое значение
 
-Клонированный модуль VbaModule.
+Клонированный VbaModule.
 
 ### Примеры
 
@@ -29,8 +29,8 @@ Document destDoc = new Document();
 VbaProject copyVbaProject = doc.VbaProject.Clone();
 destDoc.VbaProject = copyVbaProject;
 
- // В целевом документе у нас уже есть модуль с именем "Module1"
- // потому что мы его клонировали вместе с проектом. Нам нужно будет удалить модуль.
+// В целевом документе у нас уже есть модуль с именем "Module1"
+// потому что мы его клонировали вместе с проектом. Нам нужно будет удалить модуль.
 VbaModule oldVbaModule = destDoc.VbaProject.Modules["Module1"];
 VbaModule copyVbaModule = doc.VbaProject.Modules["Module1"].Clone();
 destDoc.VbaProject.Modules.Remove(oldVbaModule);

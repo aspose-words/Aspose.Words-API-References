@@ -16,7 +16,7 @@ public RelativeVerticalPosition RelativeVerticalPosition { get; set; }
 
 ### Примечания
 
-Значение по умолчанию:Параграф.
+Значение по умолчаниюParagraph.
 
 Имеет эффект только для плавающих фигур верхнего уровня.
 

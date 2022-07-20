@@ -1,16 +1,16 @@
 ---
 title: CreateMissingOutlineLevels
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置一个值用于确定当文档为 导出时是否创建缺失的大纲级别
+description: 获取或设置一个值该值确定在 导出文档时是否创建缺少的大纲级别
 type: docs
 weight: 30
 url: /zh/net/aspose.words.saving/outlineoptions/createmissingoutlinelevels/
 ---
 ## OutlineOptions.CreateMissingOutlineLevels property
 
-获取或设置一个值，用于确定当文档为 导出时是否创建缺失的大纲级别。
+获取或设置一个值，该值确定在 导出文档时是否创建缺少的大纲级别。
 
-此属性的默认值为 **false** 。
+此属性的默认值为 **错误的**.
 
 ```csharp
 public bool CreateMissingOutlineLevels { get; set; }
@@ -18,7 +18,7 @@ public bool CreateMissingOutlineLevels { get; set; }
 
 ### 例子
 
-显示在保存 PDF 文档时如何使用不包含任何相应标题的大纲级别。
+演示如何在保存 PDF 文档时使用不包含任何相应标题的大纲级别。
 
 ```csharp
 Document doc = new Document();

@@ -1,14 +1,14 @@
 ---
 title: NodeType
 second_title: Aspose.Words for .NET API 参考
-description: 返回 NodeType.Run 
+description: 返回 节点类型运行.
 type: docs
 weight: 20
 url: /zh/net/aspose.words/run/nodetype/
 ---
 ## Run.NodeType property
 
-返回 **NodeType.Run** 。
+返回 **节点类型运行**.
 
 ```csharp
 public override NodeType NodeType { get; }

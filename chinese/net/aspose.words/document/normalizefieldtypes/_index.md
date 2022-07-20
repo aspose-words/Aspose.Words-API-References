@@ -1,14 +1,14 @@
 ---
 title: NormalizeFieldTypes
 second_title: Aspose.Words for .NET API 参考
-description: 更改字段类型值FieldTypeaspose.words.fields/fieldchar/fieldtypeofFieldStartFieldSeparatoraspose.words.fields/fieldseparatorFieldEndaspose.words.fields/fieldend in整个文档以便它们对应于域代码中包含的域类型
+description: 更改字段类型值FieldTypeaspose.words.fields/fieldchar/fieldtype的FieldStartaspose.words.fields/fieldstartFieldSeparatoraspose.words.fields/fieldseparatorFieldEndaspose.words.fields/fieldend 在整个文档中以便它们对应于字段代码中包含的字段类型
 type: docs
 weight: 610
 url: /zh/net/aspose.words/document/normalizefieldtypes/
 ---
 ## Document.NormalizeFieldTypes method
 
-更改字段类型值[`FieldType`](../../../aspose.words.fields/fieldchar/fieldtype)ofFieldStart,[`FieldSeparator`](../../../aspose.words.fields/fieldseparator),[`FieldEnd`](../../../aspose.words.fields/fieldend) in整个文档，以便它们对应于域代码中包含的域类型。
+更改字段类型值[`FieldType`](../../../aspose.words.fields/fieldchar/fieldtype)的[`FieldStart`](../../../aspose.words.fields/fieldstart),[`FieldSeparator`](../../../aspose.words.fields/fieldseparator),[`FieldEnd`](../../../aspose.words.fields/fieldend) 在整个文档中，以便它们对应于字段代码中包含的字段类型。
 
 ```csharp
 public void NormalizeFieldTypes()
@@ -18,7 +18,7 @@ public void NormalizeFieldTypes()
 
 在影响字段类型的文档更改后使用此方法。
 
-要更改文档特定部分中的字段类型值，请使用[`NormalizeFieldTypes`](../../range/normalizefieldtypes)。
+要更改文档特定部分中的字段类型值，请使用[`NormalizeFieldTypes`](../../range/normalizefieldtypes).
 
 ### 例子
 

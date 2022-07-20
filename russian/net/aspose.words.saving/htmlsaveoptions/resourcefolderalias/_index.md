@@ -1,14 +1,14 @@
 ---
 title: ResourceFolderAlias
 second_title: Справочник по API Aspose.Words для .NET
-description: Указывает имя папки используемой для построения URI всех ресурсов записываемых в документ HTML. По умолчанию пустая строка.
+description: Указывает имя папки используемой для построения URI всех ресурсов записываемых в документ HTML. По умолчанию  пустая строка.
 type: docs
 weight: 430
 url: /ru/net/aspose.words.saving/htmlsaveoptions/resourcefolderalias/
 ---
 ## HtmlSaveOptions.ResourceFolderAlias property
 
-Указывает имя папки, используемой для построения URI всех ресурсов, записываемых в документ HTML. По умолчанию пустая строка.
+Указывает имя папки, используемой для построения URI всех ресурсов, записываемых в документ HTML. По умолчанию — пустая строка.
 
 ```csharp
 public string ResourceFolderAlias { get; set; }
@@ -16,17 +16,17 @@ public string ResourceFolderAlias { get; set; }
 
 ### Примечания
 
-`ResourceFolderAlias`это самый простой способ указать, как должны быть созданы URI для всех файлов ресурсов . Одинаковая информация может быть указана для изображений и шрифтов отдельно через[`ImagesFolderAlias`](../imagesfolderalias) и[`FontsFolderAlias`](../fontsfolderalias)свойства соответственно. Однако для CSS нет отдельного свойства.
+`ResourceFolderAlias` это самый простой способ указать, как должны быть созданы URI для всех файлов ресурсов. Та же информация может быть указана для изображений и шрифтов отдельно через[`ImagesFolderAlias`](../imagesfolderalias) и[`FontsFolderAlias`](../fontsfolderalias) свойства соответственно. Однако для CSS нет отдельного свойства.
 
-`ResourceFolderAlias`имеет более низкий приоритет, чем[`FontsFolderAlias`](../fontsfolderalias) и[`ImagesFolderAlias`](../imagesfolderalias). Например, если оба`ResourceFolderAlias` и[`FontsFolderAlias`](../fontsfolderalias)URI шрифтов будут создаваться с использованием [`FontsFolderAlias`](../fontsfolderalias), а URI изображений и CSS будут создаваться с использованием `ResourceFolderAlias`.
+`ResourceFolderAlias` имеет более низкий приоритет, чем[`FontsFolderAlias`](../fontsfolderalias) и[`ImagesFolderAlias`](../imagesfolderalias) . Например, если оба`ResourceFolderAlias` и[`FontsFolderAlias`](../fontsfolderalias) указаны, URI шрифтов будут построены с использованием [`FontsFolderAlias`](../fontsfolderalias) , а URI изображений и CSS будут создаваться с использованием `ResourceFolderAlias`.
 
-Если`ResourceFolderAlias`пусто,ResourceFolderбудет использоваться для построения URI ресурсов.
+Если`ResourceFolderAlias` пусто, т.[`ResourceFolder`](../resourcefolder)значение свойства будет использоваться для создания URI ресурсов.
 
-Если`ResourceFolderAlias`имеет значение '.' (точка), URI ресурсов будут содержать только имена файлов, без пути .
+Если`ResourceFolderAlias` установлен в '.' (точка), URI ресурсов будут содержать только имена файлов, без пути.
 
 ### Примеры
 
-Показывает, как установить папки и псевдонимы папок для внешних ресурсов, которые Aspose.Words создаст, когда сохранение документа в HTML.
+Показывает, как установить папки и псевдонимы папок для внешне сохраненных ресурсов, которые Aspose.Words создаст при сохранении документа в HTML.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");

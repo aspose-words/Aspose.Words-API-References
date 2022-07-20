@@ -1,14 +1,14 @@
 ---
 title: PreserveTabs
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置是否在表格条目中保留制表符条目
+description: 获取或设置是否在表条目中保留选项卡条目
 type: docs
 weight: 140
 url: /zh/net/aspose.words.fields/fieldtoc/preservetabs/
 ---
 ## FieldToc.PreserveTabs property
 
-获取或设置是否在表格条目中保留制表符条目。
+获取或设置是否在表条目中保留选项卡条目。
 
 ```csharp
 public bool PreserveTabs { get; set; }

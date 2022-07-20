@@ -1,14 +1,14 @@
 ---
 title: UseSakaEraCalendar
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置是否使用 Saka Era 日历
+description: 获取或设置是否使用Saka Era日历
 type: docs
 weight: 30
 url: /zh/net/aspose.words.fields/fieldsavedate/usesakaeracalendar/
 ---
 ## FieldSaveDate.UseSakaEraCalendar property
 
-获取或设置是否使用 Saka Era 日历。
+获取或设置是否使用Saka Era日历。
 
 ```csharp
 public bool UseSakaEraCalendar { get; set; }
@@ -16,7 +16,7 @@ public bool UseSakaEraCalendar { get; set; }
 
 ### 例子
 
-显示如何使用 SAVEDATE 字段显示使用 Microsoft Word 执行的文档最近一次保存操作的日期/时间。
+说明如何使用 SAVEDATE 字段来显示文档最近使用 Microsoft Word 执行的保存操作的日期/时间。
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");

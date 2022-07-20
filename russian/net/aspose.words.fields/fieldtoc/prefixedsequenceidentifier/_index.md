@@ -1,14 +1,14 @@
 ---
 title: PrefixedSequenceIdentifier
 second_title: Справочник по API Aspose.Words для .NET
-description: Получает или задает идентификатор последовательности для которой к номеру страницы записи следует добавить префикс.
+description: Получает или задает идентификатор последовательности для которой следует добавить префикс к номеру страницы записи.
 type: docs
 weight: 120
 url: /ru/net/aspose.words.fields/fieldtoc/prefixedsequenceidentifier/
 ---
 ## FieldToc.PrefixedSequenceIdentifier property
 
-Получает или задает идентификатор последовательности, для которой к номеру страницы записи следует добавить префикс.
+Получает или задает идентификатор последовательности, для которой следует добавить префикс к номеру страницы записи.
 
 ```csharp
 public string PrefixedSequenceIdentifier { get; set; }

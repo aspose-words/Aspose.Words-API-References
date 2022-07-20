@@ -1,14 +1,14 @@
 ---
 title: BorderSurroundsHeader
 second_title: Aspose.Words for .NET API 参考
-description: 指定页面边框是否包含页眉
+description: 指定页面边框是包含还是不包含页眉
 type: docs
 weight: 70
 url: /zh/net/aspose.words/pagesetup/bordersurroundsheader/
 ---
 ## PageSetup.BorderSurroundsHeader property
 
-指定页面边框是否包含页眉。
+指定页面边框是包含还是不包含页眉。
 
 ```csharp
 public bool BorderSurroundsHeader { get; set; }

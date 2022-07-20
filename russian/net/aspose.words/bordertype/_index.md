@@ -1,14 +1,14 @@
 ---
 title: BorderType
 second_title: Справочник по API Aspose.Words для .NET
-description: Указывает стороны границы.
+description: Определяет стороны границы.
 type: docs
 weight: 90
 url: /ru/net/aspose.words/bordertype/
 ---
 ## BorderType enumeration
 
-Указывает стороны границы.
+Определяет стороны границы.
 
 ```csharp
 public enum BorderType

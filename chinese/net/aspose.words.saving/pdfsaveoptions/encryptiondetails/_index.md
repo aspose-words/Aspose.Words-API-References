@@ -16,19 +16,19 @@ public PdfEncryptionDetails EncryptionDetails { get; set; }
 
 ### 评论
 
-默认值为空，输出文档不会被加密。 当此属性设置为有效的[`PdfEncryptionDetails`](../../pdfencryptiondetails)对象时， 则输出 PDF 文档将被加密。
+默认值为 null 并且输出文档不会被加密。 当此属性设置为有效时[`PdfEncryptionDetails`](../../pdfencryptiondetails)object, 则输出的 PDF 文档将被加密。
 
 保存到基于 PDF 1.7 的合规性（包括 PDF/UA-1）时使用 AES-128 加密算法。 保存到基于 PDF 2.0 的合规性时使用 AES-256 加密算法。
 
 PDF/A 合规性禁止加密。保存为 PDF/A 时将忽略此选项。
 
-ContentCopyForAccessibilityPDF/UA 合规性需要权限 如果输出文档是加密的。保存到 PDF/UA 时将自动使用此权限。
+ContentCopyForAccessibility如果输出文档是加密的，PDF/UA compliance 需要权限。保存到 PDF/UA 时将自动使用此权限。
 
-ContentCopyForAccessibility权限在 PDF 2.0 格式中已弃用。 保存到 PDF 2.0 时将忽略此权限。
+ContentCopyForAccessibility PDF 2.0 格式不推荐使用权限。 保存到 PDF 2.0 时将忽略此权限。
 
 ### 例子
 
-显示如何设置已保存 PDF 文档的权限。
+展示如何对已保存的 PDF 文档设置权限。
 
 ```csharp
 Document doc = new Document();

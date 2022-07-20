@@ -1,14 +1,14 @@
 ---
 title: Remove
 second_title: Справочник по API Aspose.Words для .NET
-description: Удаляет указанныйGradientStopaspose.words.drawing/gradientstopиз коллекции.
+description: Удаляет указанныйGradientStopaspose.words.drawing/gradientstop из коллекции.
 type: docs
 weight: 60
 url: /ru/net/aspose.words.drawing/gradientstopcollection/remove/
 ---
 ## GradientStopCollection.Remove method
 
-Удаляет указанный[`GradientStop`](../../gradientstop)из коллекции.
+Удаляет указанный[`GradientStop`](../../gradientstop) из коллекции.
 
 ```csharp
 public bool Remove(GradientStop gradientStop)
@@ -16,7 +16,7 @@ public bool Remove(GradientStop gradientStop)
 
 ### Возвращаемое значение
 
-Истина, если остановка градиента была успешно удалена, иначе ложь.
+Истина, если остановка градиента была успешно удалена, в противном случае — ложь.
 
 ### Примеры
 

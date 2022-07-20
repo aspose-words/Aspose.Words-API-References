@@ -1,14 +1,14 @@
 ---
 title: GradientStops
 second_title: Справочник по API Aspose.Words для .NET
-description: Получает коллекцию объектовGradientStopaspose.words.drawing/gradientstopдля заливки.
+description: Получает коллекциюGradientStopaspose.words.drawing/gradientstop объекты для заливки.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.drawing/fill/gradientstops/
 ---
 ## Fill.GradientStops property
 
-Получает коллекцию объектов[`GradientStop`](../../gradientstop)для заливки.
+Получает коллекцию[`GradientStop`](../../gradientstop) объекты для заливки.
 
 ```csharp
 public GradientStopCollection GradientStops { get; }

@@ -8,7 +8,7 @@ url: /zh/net/aspose.words.drawing.charts/axisscaling/maximum/
 ---
 ## AxisScaling.Maximum property
 
-获取或设置轴的最大值。
+获取或设置轴的最大值
 
 ```csharp
 public AxisBound Maximum { get; set; }

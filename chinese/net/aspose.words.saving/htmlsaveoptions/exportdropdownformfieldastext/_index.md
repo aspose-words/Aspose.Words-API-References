@@ -1,14 +1,14 @@
 ---
 title: ExportDropDownFormFieldAsText
 second_title: Aspose.Words for .NET API 参考
-description: 控制下拉表单字段如何保存为 HTML 或 MHTML 默认值为 false 
+description: 控制下拉表单字段如何保存为 HTML 或 MHTML 默认值为错误的.
 type: docs
 weight: 140
 url: /zh/net/aspose.words.saving/htmlsaveoptions/exportdropdownformfieldastext/
 ---
 ## HtmlSaveOptions.ExportDropDownFormFieldAsText property
 
-控制下拉表单字段如何保存为 HTML 或 MHTML。 默认值为` false` 。
+控制下拉表单字段如何保存为 HTML 或 MHTML。 默认值为`错误的`.
 
 ```csharp
 public bool ExportDropDownFormFieldAsText { get; set; }
@@ -16,13 +16,13 @@ public bool ExportDropDownFormFieldAsText { get; set; }
 
 ### 评论
 
-当设置为` true` ，将下拉表单字段导出为普通文本。 当` false` 时，将下拉表单字段导出为 HTML 中的 SELECT 元素。
+当设置为`真的` 将下拉表单字段导出为普通文本。 当`错误的`将下拉表单字段导出为 HTML 中的 SELECT 元素。
 
 导出到 EPUB 时，文本下拉表单字段始终保存为文本，因为 符合此格式的要求。
 
 ### 例子
 
-显示如何在保存为 html 时让下拉组合框表单字段与段落文本混合。
+演示如何在保存为 html 时获取下拉组合框表单字段以与段落文本混合。
 
 ```csharp
 Document doc = new Document();

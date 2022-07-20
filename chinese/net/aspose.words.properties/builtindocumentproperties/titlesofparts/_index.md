@@ -20,19 +20,18 @@ Aspose.Words 不会更新此属性。
 
 ### 例子
 
-显示“HeadingPairs”之间的关系和“TitlesOfParts”属性。
+显示“HeadingPairs”和“TitlesOfParts”属性之间的关系。
 
 ```csharp
 Document doc = new Document(MyDir + "Heading pairs and titles of parts.docx");
 
- // 我们可以通过
-找到这些集合的组合值
-//“文件”-> “属性”-> “高级属性”-> “内容”选项卡.
-// HeadingPairs 属性是 <string, int> 的集合对that
- // 确定一个标题跨越多少个文档部分。
+// 我们可以通过以下方式找到这些集合的组合值
+//“文件”-> “属性”-> “高级属性”-> “内容”选项卡。
+// HeadingPairs 属性是 <string, int> 的集合配对
+// 确定一个标题跨越多少个文档部分。
 object[] headingPairs = doc.BuiltInDocumentProperties.HeadingPairs;
 
- // TitlesOfParts 属性包含属于上述标题的部分的名称。
+// TitlesOfParts 属性包含属于上述标题的部分的名称。
 string[] titlesOfParts = doc.BuiltInDocumentProperties.TitlesOfParts;
 
 int headingPairsIndex = 0;

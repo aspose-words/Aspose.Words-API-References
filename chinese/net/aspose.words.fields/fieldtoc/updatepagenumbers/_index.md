@@ -16,7 +16,7 @@ public bool UpdatePageNumbers()
 
 ### 返回值
 
-如果操作成功，则为真。如果删除了任何相关的 TOC 书签，则将返回 false。
+如果操作成功则为真。如果删除了任何相关的 TOC 书签，将返回 false。
 
 ### 例子
 

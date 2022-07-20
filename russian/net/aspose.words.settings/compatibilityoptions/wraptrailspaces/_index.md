@@ -1,14 +1,14 @@
 ---
 title: WrapTrailSpaces
 second_title: Справочник по API Aspose.Words для .NET
-description: Конечные пробелы переноса строки.
+description: Завершающие пробелы переноса строки.
 type: docs
 weight: 710
 url: /ru/net/aspose.words.settings/compatibilityoptions/wraptrailspaces/
 ---
 ## CompatibilityOptions.WrapTrailSpaces property
 
-Конечные пробелы переноса строки.
+Завершающие пробелы переноса строки.
 
 ```csharp
 public bool WrapTrailSpaces { get; set; }

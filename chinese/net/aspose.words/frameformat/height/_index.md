@@ -1,14 +1,14 @@
 ---
 title: Height
 second_title: Aspose.Words for .NET API 参考
-description: 获取指定帧的高度
+description: 获取指定框架的高度
 type: docs
 weight: 10
 url: /zh/net/aspose.words/frameformat/height/
 ---
 ## FrameFormat.Height property
 
-获取指定帧的高度。
+获取指定框架的高度。
 
 ```csharp
 public double Height { get; }

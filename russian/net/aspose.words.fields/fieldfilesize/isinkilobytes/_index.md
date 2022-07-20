@@ -1,14 +1,14 @@
 ---
 title: IsInKilobytes
 second_title: Справочник по API Aspose.Words для .NET
-description: Получает или задает следует ли отображать размер файла в килобайтах.
+description: Получает или задает отображать ли размер файла в килобайтах.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.fields/fieldfilesize/isinkilobytes/
 ---
 ## FieldFileSize.IsInKilobytes property
 
-Получает или задает, следует ли отображать размер файла в килобайтах.
+Получает или задает, отображать ли размер файла в килобайтах.
 
 ```csharp
 public bool IsInKilobytes { get; set; }

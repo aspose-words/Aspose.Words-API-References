@@ -1,14 +1,14 @@
 ---
 title: SourceTag
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置一个值该值计算 标签 要插入的源元素的值
+description: 获取或设置一个数学值 标签要插入的源元素的值
 type: docs
 weight: 60
 url: /zh/net/aspose.words.fields/fieldcitation/sourcetag/
 ---
 ## FieldCitation.SourceTag property
 
-获取或设置一个值，该值计算 **标签** 要插入的源元素的值。
+获取或设置一个数学值 **标签**要插入的源元素的值。
 
 ```csharp
 public string SourceTag { get; set; }
@@ -16,7 +16,7 @@ public string SourceTag { get; set; }
 
 ### 例子
 
-显示如何使用 CITATION 和 BIBLIOGRAPHY 字段。
+展示如何使用 CITATION 和 BIBLIOGRAPHY 字段。
 
 ```csharp
 // 打开一个包含我们可以在其中找到的书目来源的文档

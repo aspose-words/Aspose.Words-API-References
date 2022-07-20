@@ -95,10 +95,10 @@ public Shape InsertSignatureLine(SignatureLineOptions signatureLineOptions,
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | signatureLineOptions | SignatureLineOptions | 存储创建签名行参数的对象。 |
-| horzPos | RelativeHorizontalPosition | 指定到签名行的距离的测量起点。 |
+| horzPos | RelativeHorizontalPosition | 指定从何处测量到签名线的距离。 |
 | left | Double | 从原点到签名线左侧的距离（以点为单位）。 |
 | vertPos | RelativeVerticalPosition | 指定从何处测量到签名线的距离。 |
-| top | Double | 从原点到签名行顶部的距离（以点为单位）。 |
+| top | Double | 从原点到签名线顶部的距离（以点为单位）。 |
 | wrapType | WrapType | 指定如何在签名行周围环绕文本。 |
 
 ### 返回值
@@ -107,7 +107,7 @@ public Shape InsertSignatureLine(SignatureLineOptions signatureLineOptions,
 
 ### 评论
 
-您可以使用 :::更改图像大小、位置、定位方法和其他设置R5:T:Aspose.Words.Drawing.Shape:::此方法返回的对象。
+您可以使用 更改图像大小、位置、定位方法和其他设置[`Shape`](../../../aspose.words.drawing/shape)此方法返回的对象。
 
 ### 例子
 

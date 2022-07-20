@@ -22,7 +22,7 @@ public void Save(Stream stream)
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| InvalidOperationException | 如果您尝试保存链接对象，则抛出。 |
+| InvalidOperationException | 如果您尝试保存链接的对象，则会引发。 |
 
 ### 评论
 
@@ -30,7 +30,7 @@ public void Save(Stream stream)
 
 ### 例子
 
-显示如何将嵌入的 OLE 对象提取到文件中。
+演示如何将嵌入的 OLE 对象提取到文件中。
 
 ```csharp
 Document doc = new Document(MyDir + "OLE spreadsheet.docm");
@@ -70,7 +70,7 @@ oleFormat.Save(ArtifactsDir + "OLE spreadsheet saved directly" + oleFormat.Sugge
 
 ## Save(string) {#save_1}
 
-将嵌入对象的数据保存到指定名称的文件中。
+将嵌入对象的数据保存到具有指定名称的文件中。
 
 ```csharp
 public void Save(string fileName)
@@ -78,17 +78,17 @@ public void Save(string fileName)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| fileName | String | 保存 OLE 对象数据的文件名。 |
+| fileName | String | 保存 OLE 对象数据的文件的名称。 |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| InvalidOperationException | 如果您尝试保存链接对象，则抛出。 |
+| InvalidOperationException | 如果您尝试保存链接的对象，则会引发。 |
 
 ### 例子
 
-显示如何将嵌入的 OLE 对象提取到文件中。
+演示如何将嵌入的 OLE 对象提取到文件中。
 
 ```csharp
 Document doc = new Document(MyDir + "OLE spreadsheet.docm");

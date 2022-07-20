@@ -30,33 +30,26 @@ public Style AddCopy(Style style)
 
 Этот метод не копирует базовые стили.
 
-Если коллекция уже содержит стиль с таким же именем, то новое имя генерируется автоматически путем добавления суффикса "_number", начиная с 0, например "Обычный_0", "Заголовок 1_1" и т.д. Используйте[`Name`](../../style/name)сеттер для изменения имени импортируемого стиля.
+Если коллекция уже содержит стиль с таким именем, то новое имя создается автоматически путем добавления суффикса «_number», начиная с 0, например, «Обычный_0», «Заголовок 1_1» и т. д. Использовать[`Name`](../../style/name) setter для изменения имени импортированного стиля.
 
 ### Примеры
 
 Показывает, как импортировать стиль из одного документа в другой документ.
 
 ```csharp
-Document doc = new Document();
+Document srcDoc = new Document();
 
-// Метод AddCopy создает копию указанного стиля и
-// автоматически генерирует новое имя для стиля, например "Заголовок 1_0".
-Style newStyle = doc.Styles.AddCopy(doc.Styles["Heading 1"]);
+// Создаем собственный стиль для исходного документа.
+Style srcStyle = srcDoc.Styles.Add(StyleType.Paragraph, "MyStyle");
+srcStyle.Font.Color = Color.Red;
 
-// Используйте свойство «Имя» стиля, чтобы изменить идентифицирующее имя стиля.
-newStyle.Name = "My Heading 1";
+// Импорт пользовательского стиля исходного документа в целевой документ.
+Document dstDoc = new Document();
+Style newStyle = dstDoc.Styles.AddCopy(srcStyle);
 
-// Наш документ теперь имеет два идентичных стиля с разными именами.
-// Изменение настроек одного из стилей не влияет на другой.
-newStyle.Font.Color = Color.Red;
-
-Assert.AreEqual("My Heading 1", newStyle.Name);
-Assert.AreEqual("Heading 1", doc.Styles["Heading 1"].Name);
-
-Assert.AreEqual(doc.Styles["Heading 1"].Type, newStyle.Type);
-Assert.AreEqual(doc.Styles["Heading 1"].Font.Name, newStyle.Font.Name);
-Assert.AreEqual(doc.Styles["Heading 1"].Font.Size, newStyle.Font.Size);
-Assert.AreNotEqual(doc.Styles["Heading 1"].Font.Color, newStyle.Font.Color);
+// Внешний вид импортированного стиля идентичен исходному стилю.
+Assert.AreEqual("MyStyle", newStyle.Name);
+Assert.AreEqual(Color.Red.ToArgb(), newStyle.Font.Color.ToArgb());
 ```
 
 Показывает, как клонировать стиль документа.

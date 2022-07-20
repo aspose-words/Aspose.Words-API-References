@@ -1,14 +1,14 @@
 ---
 title: PresetTexture
 second_title: Справочник по API Aspose.Words для .NET
-description: ПолучаетPresetTextureaspose.words.drawing/presettextureдля заливки.
+description: ПолучаетPresetTextureaspose.words.drawing/presettexture для заливки.
 type: docs
 weight: 110
 url: /ru/net/aspose.words.drawing/fill/presettexture/
 ---
 ## Fill.PresetTexture property
 
-Получает[`PresetTexture`](../../presettexture)для заливки.
+Получает[`PresetTexture`](../../presettexture) для заливки.
 
 ```csharp
 public PresetTexture PresetTexture { get; }

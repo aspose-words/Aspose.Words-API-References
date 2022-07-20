@@ -1,14 +1,14 @@
 ---
 title: Data
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置此自定义 XML 数据存储部件的 XML 内容
+description: 获取或设置此自定义 XML 数据存储部分的 XML 内容
 type: docs
 weight: 20
 url: /zh/net/aspose.words.markup/customxmlpart/data/
 ---
 ## CustomXmlPart.Data property
 
-获取或设置此自定义 XML 数据存储部件的 XML 内容。
+获取或设置此自定义 XML 数据存储部分的 XML 内容。
 
 ```csharp
 public byte[] Data { get; set; }
@@ -16,7 +16,7 @@ public byte[] Data { get; set; }
 
 ### 评论
 
-默认值为空字节数组。该值不能为` null` 。
+默认值为空字节数组。该值不能`无效的`.
 
 ### 例子
 

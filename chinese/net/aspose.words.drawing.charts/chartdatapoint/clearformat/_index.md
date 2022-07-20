@@ -1,14 +1,14 @@
 ---
 title: ClearFormat
 second_title: Aspose.Words for .NET API 参考
-description: 清除该数据点的格式属性设置为父系列中定义的默认值
+description: 清除此数据点的格式属性设置为父系列中定义的默认值
 type: docs
 weight: 70
 url: /zh/net/aspose.words.drawing.charts/chartdatapoint/clearformat/
 ---
 ## ChartDataPoint.ClearFormat method
 
-清除该数据点的格式。属性设置为父系列中定义的默认值。
+清除此数据点的格式。属性设置为父系列中定义的默认值。
 
 ```csharp
 public void ClearFormat()

@@ -16,7 +16,7 @@ public void Remove(Node node)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| node | Node | 要删除的节点。 |
+| node | Node | 要移除的节点。 |
 
 ### 例子
 

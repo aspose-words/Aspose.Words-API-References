@@ -1,14 +1,14 @@
 ---
 title: FontSaving
 second_title: Aspose.Words for .NET API 参考
-description: 当 Aspose.Words 即将保存字体资源时调用
+description: 在 Aspose.Words 即将保存字体资源时调用
 type: docs
 weight: 10
 url: /zh/net/aspose.words.saving/ifontsavingcallback/fontsaving/
 ---
 ## IFontSavingCallback.FontSaving method
 
-当 Aspose.Words 即将保存字体资源时调用。
+在 Aspose.Words 即将保存字体资源时调用。
 
 ```csharp
 public void FontSaving(FontSavingArgs args)
@@ -16,7 +16,7 @@ public void FontSaving(FontSavingArgs args)
 
 ### 例子
 
-显示如何定义自定义逻辑以在保存为 HTML 时导出字体。
+展示如何定义自定义逻辑以在保存为 HTML 时导出字体。
 
 ```csharp
 {

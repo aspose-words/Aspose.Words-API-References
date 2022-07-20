@@ -1,14 +1,14 @@
 ---
 title: Filled
 second_title: Aspose.Words for .NET API 参考
-description: 确定是否填充形状的闭合路径
+description: 确定形状的闭合路径是否会被填充
 type: docs
 weight: 50
 url: /zh/net/aspose.words.drawing/shape/filled/
 ---
 ## Shape.Filled property
 
-确定是否填充形状的闭合路径。
+确定形状的闭合路径是否会被填充。
 
 ```csharp
 public bool Filled { get; set; }
@@ -16,13 +16,13 @@ public bool Filled { get; set; }
 
 ### 评论
 
-这是On属性。
+这是一个快捷方式On财产。
 
-默认值为 **true** 。
+默认值为 **真的**.
 
 ### 例子
 
-显示如何迭代文档中的所有形状。
+演示如何遍历文档中的所有形状。
 
 ```csharp
 {

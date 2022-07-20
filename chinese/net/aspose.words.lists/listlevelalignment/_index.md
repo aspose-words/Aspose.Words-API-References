@@ -3,7 +3,7 @@ title: ListLevelAlignment
 second_title: Aspose.Words for .NET API 参考
 description: 指定列表编号或项目符号的对齐方式
 type: docs
-weight: 3260
+weight: 3310
 url: /zh/net/aspose.words.lists/listlevelalignment/
 ---
 ## ListLevelAlignment enumeration
@@ -18,13 +18,13 @@ public enum ListLevelAlignment
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| Left | `0` | 列表标签对齐到数字位置的左侧。 |
+| Left | `0` | 列表标签对齐数字位置的左侧。 |
 | Center | `1` | 列表标签以数字位置为中心。 |
-| Right | `2` | 此列表标签与数字位置的右侧对齐。 |
+| Right | `2` | 这个列表标签对齐到数字位置的右边。 |
 
 ### 评论
 
-用作Alignment属性。
+用作[`Alignment`](../listlevel/alignment)财产。
 
 ### 例子
 
@@ -34,10 +34,10 @@ public enum ListLevelAlignment
 Document doc = new Document();
 
 // 列表允许我们用前缀符号和缩进组织和装饰段落集。
- // 我们可以通过增加缩进级别来创建嵌套列表。 
- // 我们可以使用文档构建器的“ListFormat”属性来开始和结束一个列表。 
- // 我们在列表开头和结尾之间添加的每个段落都将成为列表中的一个项目。
- // 从 Microsoft Word 模板创建一个列表，并自定义其前两个列表级别。
+// 我们可以通过增加缩进级别来创建嵌套列表。 
+// 我们可以使用文档构建器的“ListFormat”属性来开始和结束一个列表。 
+// 我们在列表的开头和结尾之间添加的每个段落都将成为列表中的一个项目。
+// 从 Microsoft Word 模板创建一个列表，并自定义其前两个列表级别。
 List list = doc.Lists.Add(ListTemplate.NumberDefault);
 
 ListLevel listLevel = list.ListLevels[0];
@@ -58,12 +58,12 @@ listLevel.Font.Name = "Wingdings";
 listLevel.Font.Color = Color.Blue;
 listLevel.Font.Size = 24;
 
- // 此 NumberFormat 值将创建星形项目符号列表符号。
+// 此 NumberFormat 值将创建星形项目符号列表符号。
 listLevel.NumberFormat = "\xf0af";
 listLevel.TrailingCharacter = ListTrailingCharacter.Space;
 listLevel.NumberPosition = 144;
 
- // 创建段落并将我们自定义列表格式的两个列表级别应用到它们。
+// 创建段落并将自定义列表格式的两个列表级别应用于它们。
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.ListFormat.List = list;

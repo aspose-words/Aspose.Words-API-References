@@ -1,14 +1,14 @@
 ---
 title: GetFieldCode
 second_title: Aspose.Words for .NET API 参考
-description: 返回字段开始和字段分隔符之间的文本如果没有分隔符则返回字段结束 包含子字段的字段代码和字段结果
+description: 返回字段开始和字段分隔符之间的文本或字段结束如果没有分隔符 包括子字段的字段代码和字段结果
 type: docs
 weight: 110
 url: /zh/net/aspose.words.fields/field/getfieldcode/
 ---
 ## GetFieldCode() {#getfieldcode}
 
-返回字段开始和字段分隔符之间的文本（如果没有分隔符，则返回字段结束）。 包含子字段的字段代码和字段结果。
+返回字段开始和字段分隔符之间的文本（或字段结束，如果没有分隔符）。 包括子字段的字段代码和字段结果。
 
 ```csharp
 public string GetFieldCode()
@@ -16,26 +16,22 @@ public string GetFieldCode()
 
 ### 例子
 
-显示如何使用域代码将域插入到文档中。
+演示如何使用域代码将域插入到文档中。
 
 ```csharp
-// 打开一个在 IF 字段中包含 MERGEFIELD 的文档。
-Document doc = new Document(MyDir + "Nested fields.docx");
-FieldIf fieldIf = (FieldIf)doc.Range.Fields[0];
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 获取字段的字段码有两种方式：
-// 1 - 省略其内部字段：
-Assert.AreEqual(" IF  > 0 \" (surplus of ) \" \"\" ", fieldIf.GetFieldCode(false));
+Field field = builder.InsertField("DATE \\@ \"dddd, MMMM dd, yyyy\"");
 
-// 2 - 包括其内部字段：
-Assert.AreEqual($" IF \u0013 MERGEFIELD NetIncome \u0014\u0015 > 0 \" (surplus of \u0013 MERGEFIELD  NetIncome \\f $ \u0014\u0015) \" \"\" ",
-    fieldIf.GetFieldCode(true));
+Assert.AreEqual(FieldType.FieldDate, field.Type);
+Assert.AreEqual("DATE \\@ \"dddd, MMMM dd, yyyy\"", field.GetFieldCode());
 
-// 默认情况下，GetFieldCode 方法显示内部字段。
-Assert.AreEqual(fieldIf.GetFieldCode(), fieldIf.GetFieldCode(true));
+// InsertField 方法的这个重载会自动更新插入的字段。
+Assert.That(DateTime.Parse(field.Result), Is.EqualTo(DateTime.Today).Within(1).Days);
 ```
 
-显示如何获取字段的字段代码。
+显示如何获取字段的域代码。
 
 ```csharp
 // 打开一个在 IF 字段中包含 MERGEFIELD 的文档。
@@ -72,11 +68,11 @@ public string GetFieldCode(bool includeChildFieldCodes)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| includeChildFieldCodes | Boolean | ` True` 如果应包含子字段代码。 |
+| includeChildFieldCodes | Boolean | `真的`是否应包含子域代码。 |
 
 ### 例子
 
-显示如何获取字段的字段代码。
+显示如何获取字段的域代码。
 
 ```csharp
 // 打开一个在 IF 字段中包含 MERGEFIELD 的文档。

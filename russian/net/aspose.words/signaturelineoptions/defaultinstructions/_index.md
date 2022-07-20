@@ -1,14 +1,14 @@
 ---
 title: DefaultInstructions
 second_title: Справочник по API Aspose.Words для .NET
-description: Получает или задает значение указывающее что инструкции по умолчанию отображаются в диалоговом окне Sign. Значение по умолчанию для этого свойства true .
+description: Получает или задает значение указывающее что инструкции по умолчанию отображаются в диалоговом окне Sign. Значение по умолчанию для этого свойства истинный .
 type: docs
 weight: 30
 url: /ru/net/aspose.words/signaturelineoptions/defaultinstructions/
 ---
 ## SignatureLineOptions.DefaultInstructions property
 
-Получает или задает значение, указывающее, что инструкции по умолчанию отображаются в диалоговом окне Sign. Значение по умолчанию для этого свойства: **true** .
+Получает или задает значение, указывающее, что инструкции по умолчанию отображаются в диалоговом окне Sign. Значение по умолчанию для этого свойства: **истинный** .
 
 ```csharp
 public bool DefaultInstructions { get; set; }

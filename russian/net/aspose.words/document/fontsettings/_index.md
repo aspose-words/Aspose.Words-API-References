@@ -16,9 +16,9 @@ public FontSettings FontSettings { get; set; }
 
 ### Примечания
 
-Это свойство позволяет указать настройки шрифта для каждого документа. Если установлено значение null, будут использоваться настройки статического шрифта по умолчанию [`DefaultInstance`](../../../aspose.words.fonts/fontsettings/defaultinstance).
+Это свойство позволяет указать настройки шрифта для каждого документа. Если установлено значение null, статический шрифт по умолчанию settings [`DefaultInstance`](../../../aspose.words.fonts/fontsettings/defaultinstance) будет использован.
 
-Значение по умолчанию равно null.
+Значение по умолчанию равно нулю.
 
 ### Примеры
 
@@ -50,7 +50,7 @@ doc.FontSettings = new FontSettings();
 doc.FontSettings.SubstitutionSettings.TableSubstitution.SetSubstitutes(
     "Amethysta", new[] {"Arvo", "Courier New"});
 
-// "Amethysta" недоступен, а правило замены гласит, что первым шрифтом для замены является "Arvo".
+ // «Amethysta» недоступен, а правило замены гласит, что первым шрифтом для замены является «Arvo».
 Assert.False(fontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Arvo"));
 
  // "Арво" тоже нет в наличии, а "Курьер Новый" есть.

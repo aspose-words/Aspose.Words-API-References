@@ -8,7 +8,7 @@ url: /zh/net/aspose.words/controlchar/tab/
 ---
 ## ControlChar.Tab field
 
-制表符:“\x0009”或“\t”。
+制表符：“\x0009”或“\t”。
 
 ```csharp
 public static readonly string Tab;

@@ -1,14 +1,14 @@
 ---
 title: Width
 second_title: Справочник по API Aspose.Words для .NET
-description: Указывает значение ширины по умолчанию для этого экземпляра панели задач.
+description: Указывает значение ширины по умолчанию для этого экземпляра области задач.
 type: docs
 weight: 70
 url: /ru/net/aspose.words.webextensions/taskpane/width/
 ---
 ## TaskPane.Width property
 
-Указывает значение ширины по умолчанию для этого экземпляра панели задач.
+Указывает значение ширины по умолчанию для этого экземпляра области задач.
 
 ```csharp
 public double Width { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: Column
 second_title: Справочник по API Aspose.Words для .NET
-description: Задает отсчитываемый от нуля индекс столбца во внешнем источнике данных который должен быть сопоставлен с локальным именем определенного поля MERGEFIELD. Значение по умолчанию  0.
+description: Указывает отсчитываемый от нуля индекс столбца во внешнем источнике данных который должен быть сопоставлен с локальным именем определенного поля MERGEFIELD. Значение по умолчанию 0.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.settings/odsofieldmapdata/column/
 ---
 ## OdsoFieldMapData.Column property
 
-Задает отсчитываемый от нуля индекс столбца во внешнем источнике данных, который должен быть сопоставлен с локальным именем определенного поля MERGEFIELD. Значение по умолчанию — 0.
+Указывает отсчитываемый от нуля индекс столбца во внешнем источнике данных, который должен быть сопоставлен с локальным именем определенного поля MERGEFIELD. Значение по умолчанию: 0.
 
 ```csharp
 public int Column { get; set; }
@@ -16,13 +16,13 @@ public int Column { get; set; }
 
 ### Примеры
 
-Показывает, как получить доступ к набору данных, который сопоставляет столбцы источника данных с объединить поля.
+Показывает, как получить доступ к коллекции данных, которая сопоставляет столбцы источника данных с полями слияния.
 
 ```csharp
 Document doc = new Document(MyDir + "Odso data.docx");
 
- // Эта коллекция определяет, как слияние будет отображать столбцы из источника данных
- // в предопределенные поля MERGEFIELD, ADDRESSBLOCK и GREETINGLINE.
+// Эта коллекция определяет, как слияние почты будет отображать столбцы из источника данных
+// в предопределенные поля MERGEFIELD, ADDRESSBLOCK и GREETINGLINE.
 OdsoFieldMapDataCollection dataCollection = doc.MailMergeSettings.Odso.FieldMapDatas;
 Assert.AreEqual(30, dataCollection.Count);
 
@@ -40,15 +40,15 @@ using (IEnumerator<OdsoFieldMapData> enumerator = dataCollection.GetEnumerator()
     }
 }
 
- // Клонируем элементы этой коллекции.
+// Клонируем элементы этой коллекции.
 Assert.AreNotEqual(dataCollection[0], dataCollection[0].Clone());
 
- // Использовать элементы метода "RemoveAt" по отдельности по index.
+// Использовать элементы метода "RemoveAt" по отдельности по индексу.
 dataCollection.RemoveAt(0);
 
 Assert.AreEqual(29, dataCollection.Count);
 
- // Используйте метод «Очистить», чтобы сразу очистить всю коллекцию.
+// Используйте метод «Очистить», чтобы сразу очистить всю коллекцию.
 dataCollection.Clear();
 
 Assert.AreEqual(0, dataCollection.Count);

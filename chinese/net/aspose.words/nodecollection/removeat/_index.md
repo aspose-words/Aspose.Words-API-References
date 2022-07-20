@@ -16,7 +16,7 @@ public void RemoveAt(int index)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| index | Int32 | 节点从零开始的索引。 负索引是允许的，表示从列表后面访问。 例如 -1 表示最后一个节点，-2 表示倒数第二个，以此类推。 |
+| index | Int32 | 节点的从零开始的索引。 允许负索引，表示从列表后面访问。 例如-1 表示最后一个节点，-2 表示倒数第二个，依此类推。 |
 
 ### 例子
 
@@ -32,12 +32,12 @@ builder.Write("Section 2");
 
 Assert.AreEqual("Section 1\x000cSection 2", doc.GetText().Trim());
 
- // 从文档中删除第一部分。
+// 从文档中删除第一部分。
 doc.Sections.RemoveAt(0);
 
 Assert.AreEqual("Section 2", doc.GetText().Trim());
 
- // 将现在第一部分的副本附加到文档的末尾。
+// 将现在第一部分的副本附加到文档的末尾。
 int lastSectionIdx = doc.Sections.Count - 1;
 Section newSection = doc.Sections[lastSectionIdx].Clone();
 doc.Sections.Add(newSection);

@@ -3,7 +3,7 @@ title: LocalToParent
 second_title: Справочник по API Aspose.Words для .NET
 description: Преобразует значение из локального координатного пространства в координатное пространство родительской фигуры.
 type: docs
-weight: 600
+weight: 610
 url: /ru/net/aspose.words.drawing/shapebase/localtoparent/
 ---
 ## ShapeBase.LocalToParent method
@@ -16,7 +16,7 @@ public PointF LocalToParent(PointF value)
 
 ### Примеры
 
-Показывает, как преобразовать положение координат x и y на координатной плоскости фигуры в положение на координатной плоскости родительской фигуры.
+Показывает, как преобразовать расположение координат x и y на координатной плоскости фигуры в положение на координатной плоскости родительской фигуры.
 
 ```csharp
 Document doc = new Document();

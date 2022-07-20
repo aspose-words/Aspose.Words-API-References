@@ -1,14 +1,14 @@
 ---
 title: PrintColBlack
 second_title: Справочник по API Aspose.Words для .NET
-description: Печать цветов как черно-белых без дизеринга.
+description: Печать цветов как черно-белых без сглаживания.
 type: docs
 weight: 400
 url: /ru/net/aspose.words.settings/compatibilityoptions/printcolblack/
 ---
 ## CompatibilityOptions.PrintColBlack property
 
-Печать цветов как черно-белых без дизеринга.
+Печать цветов как черно-белых без сглаживания.
 
 ```csharp
 public bool PrintColBlack { get; set; }

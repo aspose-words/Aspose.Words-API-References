@@ -1,14 +1,14 @@
 ---
 title: ExportShapesAsSvg
 second_title: Aspose.Words for .NET API 参考
-description: 控制在保存为 HTMLMHTML 或 EPUB 时是否将Shapeaspose.words.drawing/shape节点转换为 SVG 图像 默认值为 false 
+description: 控制是否Shapeaspose.words.drawing/shape节点在保存为 HTMLMHTML 或 EPUB 时会转换为 SVG 图像 默认值为错误的.
 type: docs
 weight: 260
 url: /zh/net/aspose.words.saving/htmlsaveoptions/exportshapesassvg/
 ---
 ## HtmlSaveOptions.ExportShapesAsSvg property
 
-控制在保存为 HTML、MHTML 或 EPUB 时是否将[`Shape`](../../../aspose.words.drawing/shape)节点转换为 SVG 图像。 默认值为` false` 。
+控制是否[`Shape`](../../../aspose.words.drawing/shape)节点在保存为 HTML、MHTML 或 EPUB 时会转换为 SVG 图像。 默认值为`错误的`.
 
 ```csharp
 public bool ExportShapesAsSvg { get; set; }
@@ -16,13 +16,13 @@ public bool ExportShapesAsSvg { get; set; }
 
 ### 评论
 
-如果此选项设置为` true` ,[`Shape`](../../../aspose.words.drawing/shape)节点导出为 &lt;svg&gt;元素。 否则，它们将被渲染为位图并导出为 &lt;img&gt;元素。
+如果此选项设置为`真的`,[`Shape`](../../../aspose.words.drawing/shape)节点被导出为 &lt;svg&gt; 元素。 否则，它们被渲染为位图并被导出为 &lt;img&gt; 元素。
 
-请注意，此选项也会影响文本框，因为它们由T表示:Aspose.Words.Drawing.Shape节点。 因此，如果此选项设置为` true` ，它将覆盖ExportTextBoxAsSvgproperty value 并导致文本框转换为 SVG。
+请注意，此选项也会影响文本框，因为它们由[`Shape`](../../../aspose.words.drawing/shape)nodes. 因此，如果此选项设置为`真的`，它覆盖ExportTextBoxAsSvgproperty 值并导致文本框转换为 SVG。
 
 ### 例子
 
-显示如何将形状导出为可缩放矢量图形。
+展示如何将形状导出为可缩放矢量图形。
 
 ```csharp
 Document doc = new Document();

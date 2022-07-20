@@ -1,14 +1,14 @@
 ---
 title: SystemFontSource
 second_title: Aspose.Words for .NET API 参考
-description: 克托尔
+description: 克托尔.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.fonts/systemfontsource/systemfontsource/
 ---
 ## SystemFontSource() {#constructor}
 
-克托尔。
+克托尔.
 
 ```csharp
 public SystemFontSource()
@@ -16,7 +16,7 @@ public SystemFontSource()
 
 ### 例子
 
-显示如何访问文档的系统字体源并设置字体替换。
+显示如何访问文档的系统字体源和设置字体替换。
 
 ```csharp
 Document doc = new Document();
@@ -77,7 +77,7 @@ Assert.AreEqual(1,
 
 ## SystemFontSource(int) {#constructor_1}
 
-克托尔。
+克托尔.
 
 ```csharp
 public SystemFontSource(int priority)
@@ -85,11 +85,11 @@ public SystemFontSource(int priority)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| priority | Int32 | 字体源优先级。有关详细信息，请参阅[`Priority`](../../fontsourcebase/priority)属性说明。 |
+| priority | Int32 | 字体来源优先。见[`Priority`](../../fontsourcebase/priority)属性描述以获取更多信息。 |
 
 ### 例子
 
-显示如何访问文档的系统字体源并设置字体替换。
+显示如何访问文档的系统字体源和设置字体替换。
 
 ```csharp
 Document doc = new Document();

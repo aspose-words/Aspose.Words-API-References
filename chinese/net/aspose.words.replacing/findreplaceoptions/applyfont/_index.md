@@ -16,7 +16,7 @@ public Font ApplyFont { get; }
 
 ### 例子
 
-显示如何通过 FindReplaceOptions 将不同的字体应用于新内容。
+展示如何通过 FindReplaceOptions 将不同的字体应用于新内容。
 
 ```csharp
 {

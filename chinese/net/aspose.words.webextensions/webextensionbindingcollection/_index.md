@@ -3,7 +3,7 @@ title: WebExtensionBindingCollection
 second_title: Aspose.Words for .NET API 参考
 description: 指定 Web 扩展绑定列表
 type: docs
-weight: 6400
+weight: 6450
 url: /zh/net/aspose.words.webextensions/webextensionbindingcollection/
 ---
 ## WebExtensionBindingCollection class
@@ -32,7 +32,7 @@ public class WebExtensionBindingCollection : BaseWebExtensionCollection<WebExten
 
 ### 例子
 
-显示如何添加 Web 扩展到一个文件。
+展示如何向文档添加 Web 扩展。
 
 ```csharp
 Document doc = new Document();

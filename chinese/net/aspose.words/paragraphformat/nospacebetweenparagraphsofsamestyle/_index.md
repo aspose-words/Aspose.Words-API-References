@@ -1,14 +1,14 @@
 ---
 title: NoSpaceBetweenParagraphsOfSameStyle
 second_title: Aspose.Words for .NET API 参考
-description: 当为真时SpaceBeforeaspose.words/paragraphformat/spacebefore和SpaceAfteraspose.words/paragraphformat/spaceafter将被忽略 相同样式的段落之间
+description: 为真时SpaceBeforeaspose.words/paragraphformat/spacebefore和SpaceAfteraspose.words/paragraphformat/spaceafter将在相同样式的段落之间忽略 
 type: docs
 weight: 230
 url: /zh/net/aspose.words/paragraphformat/nospacebetweenparagraphsofsamestyle/
 ---
 ## ParagraphFormat.NoSpaceBetweenParagraphsOfSameStyle property
 
-当为真时，[`SpaceBefore`](../spacebefore)和[`SpaceAfter`](../spaceafter)将被忽略 相同样式的段落之间。
+为真时，[`SpaceBefore`](../spacebefore)和[`SpaceAfter`](../spaceafter)将在相同样式的段落之间忽略 。
 
 ```csharp
 public bool NoSpaceBetweenParagraphsOfSameStyle { get; set; }
@@ -16,11 +16,11 @@ public bool NoSpaceBetweenParagraphsOfSameStyle { get; set; }
 
 ### 评论
 
-此设置仅在应用于段落样式时生效。如果直接应用于 段落，则没有效果。
+此设置仅在应用于段落样式时生效。如果直接应用于 一个段落，是没有效果的。
 
 ### 例子
 
-显示如何在具有相同样式的段落之间应用无间距。
+演示如何在具有相同样式的段落之间应用无间距。
 
 ```csharp
 Document doc = new Document();

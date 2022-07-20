@@ -1,14 +1,14 @@
 ---
 title: PrinterSettingsContainer
 second_title: Aspose.Words for .NET API 参考
-description: 表示PrinterSettings对象的一些参数的存储
+description: 表示一些参数的存储PrinterSettings对象.
 type: docs
-weight: 4270
+weight: 4320
 url: /zh/net/aspose.words.rendering/printersettingscontainer/
 ---
 ## PrinterSettingsContainer class
 
-表示PrinterSettings对象的一些参数的存储。
+表示一些参数的存储PrinterSettings对象.
 
 ```csharp
 public class PrinterSettingsContainer
@@ -18,27 +18,27 @@ public class PrinterSettingsContainer
 
 | 姓名 | 描述 |
 | --- | --- |
-| [PrinterSettingsContainer](printersettingscontainer)(PrinterSettings) | 为PrinterSettings创建一个容器。 |
+| [PrinterSettingsContainer](printersettingscontainer)(PrinterSettings) | 创建一个容器PrinterSettings. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [DefaultPageSettingsPaperSource](../../aspose.words.rendering/printersettingscontainer/defaultpagesettingspapersource) { get; } | 参见PaperSourceofDefaultPageSettings。 |
-| [PaperSizes](../../aspose.words.rendering/printersettingscontainer/papersizes) { get; } | 参见PaperSizes。 |
-| [PaperSources](../../aspose.words.rendering/printersettingscontainer/papersources) { get; } | 参见PaperSources。 |
+| [DefaultPageSettingsPaperSource](../../aspose.words.rendering/printersettingscontainer/defaultpagesettingspapersource) { get; } | 见PaperSource的DefaultPageSettings. |
+| [PaperSizes](../../aspose.words.rendering/printersettingscontainer/papersizes) { get; } | 见PaperSizes. |
+| [PaperSources](../../aspose.words.rendering/printersettingscontainer/papersources) { get; } | 见PaperSources. |
 
 ### 评论
 
-访问:::R5:T:System.Drawing.Printing.PrinterSettings::的数据:需要很长时间。 [`PrinterSettingsContainer`](../printersettingscontainer)缓存来自PrinterSettings,的参数所以打印速度更快。
+访问数据PrinterSettings需要很长时间。 [`PrinterSettingsContainer`](../printersettingscontainer)缓存参数PrinterSettings, 所以打印速度更快。
 
 ### 例子
 
 显示如何访问和列出打印机的纸张来源和尺寸。
 
 ```csharp
- // “PrinterSettingsContainer”包含一个“PrinterSettings”对象，
- // 其中包含不同打印机驱动程序的唯一数据。
+// “PrinterSettingsContainer”包含一个“PrinterSettings”对象，
+// 其中包含不同打印机驱动程序的唯一数据。
 PrinterSettingsContainer container = new PrinterSettingsContainer(new PrinterSettings());
 
 Console.WriteLine($"This printer contains {container.PaperSources.Count} printer paper sources:");
@@ -49,12 +49,12 @@ foreach (PaperSource paperSource in container.PaperSources)
                       $"RawKind: {paperSource.RawKind} {(isDefault ? "(Default)" : "")}");
 }
 
- // “PaperSizes”属性包含指示打印机使用的纸张尺寸列表。
+// “PaperSizes”属性包含指示打印机使用的纸张尺寸列表。
 // PrinterSource 和 PrinterSize 都包含一个“RawKind”属性，
- // 这相当于 PaperSourceKind 枚举中列出的纸张类型。
- // 如果存在与打印页相同“RawKind”值的纸源，
- // 打印机将使用提供的纸张来源和尺寸打印页面。
- // 否则，打印机将默认使用“DefaultPageSettingsPaperSource”属性指定的来源。
+// 这相当于 PaperSourceKind 枚举中列出的纸张类型。
+// 如果存在与打印页相同“RawKind”值的纸源，
+// 打印机将使用提供的纸张来源和尺寸打印页面。
+// 否则，打印机将默认使用“DefaultPageSettingsPaperSource”属性指定的来源。
 Console.WriteLine($"{container.PaperSizes.Count} paper sizes:");
 foreach (System.Drawing.Printing.PaperSize paperSize in container.PaperSizes)
 {

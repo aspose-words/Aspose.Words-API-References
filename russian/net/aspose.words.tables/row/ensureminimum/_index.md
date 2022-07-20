@@ -1,14 +1,14 @@
 ---
 title: EnsureMinimum
 second_title: Справочник по API Aspose.Words для .NET
-description: Если в строке нет ячеек создается и добавляется одна Ячейка .
+description: Если Строка не имеет ячеек создает и добавляет одну Клетка .
 type: docs
 weight: 110
 url: /ru/net/aspose.words.tables/row/ensureminimum/
 ---
 ## Row.EnsureMinimum method
 
-Если в строке нет ячеек, создается и добавляется одна **Ячейка** .
+Если **Строка** не имеет ячеек, создает и добавляет одну **Клетка** .
 
 ```csharp
 public void EnsureMinimum()
@@ -25,11 +25,11 @@ doc.FirstSection.Body.AppendChild(table);
 Row row = new Row(doc);
 table.AppendChild(row);
 
- // Строки содержат ячейки, содержащие абзацы с типичными элементами, такими как прогоны, фигуры и даже другие таблицы.
- // В нашей новой строке нет ни одного из этих узлов, и мы не можем добавить к нему содержимое, пока оно не появится.
+// Строки содержат ячейки, содержащие абзацы с типичными элементами, такими как прогоны, фигуры и даже другие таблицы.
+// В нашей новой строке нет ни одного из этих узлов, и мы не можем добавить к нему содержимое, пока оно не появится.
 Assert.AreEqual(0, row.GetChildNodes(NodeType.Any, true).Count);
 
- // Вызов метода "EnsureMinimum" для таблицы гарантирует, что
+// Вызов метода "EnsureMinimum" для таблицы гарантирует, что
 // в таблице есть хотя бы одна ячейка с пустым абзацем.
 row.EnsureMinimum();
 row.FirstCell.FirstParagraph.AppendChild(new Run(doc, "Hello world!"));

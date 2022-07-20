@@ -1,14 +1,14 @@
 ---
 title: LayoutRawTableWidth
 second_title: Aspose.Words for .NET API 参考
-description: 在决定表是否应该包裹浮动对象时忽略表前的空格
+description: 在决定表是否应该包装浮动对象时忽略表前的空格
 type: docs
 weight: 290
 url: /zh/net/aspose.words.settings/compatibilityoptions/layoutrawtablewidth/
 ---
 ## CompatibilityOptions.LayoutRawTableWidth property
 
-在决定表是否应该包裹浮动对象时忽略表前的空格。
+在决定表是否应该包装浮动对象时忽略表前的空格。
 
 ```csharp
 public bool LayoutRawTableWidth { get; set; }

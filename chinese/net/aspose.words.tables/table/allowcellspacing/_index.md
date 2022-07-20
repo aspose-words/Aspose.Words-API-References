@@ -36,11 +36,10 @@ builder.EndTable();
 
 table.CellSpacing = 3;
 
- // 将“AllowCellSpacing”属性设置为“true”以启用cells
-之间的间距
-// 大小等于“CellSpacing”属性的值，以点为单位。
- // 将“AllowCellSpacing”属性设置为“false”以禁用单元格间距
- // 并忽略“CellSpacing”属性的值。
+// 将“AllowCellSpacing”属性设置为“true”以启用单元格之间的间距
+// 大小等于“CellSpacing”属性的值，以磅为单位。
+// 将“AllowCellSpacing”属性设置为“false”以禁用单元格间距
+// 并忽略“CellSpacing”属性的值。
 table.AllowCellSpacing = allowCellSpacing;
 
 doc.Save(ArtifactsDir + "Table.AllowCellSpacing.html");

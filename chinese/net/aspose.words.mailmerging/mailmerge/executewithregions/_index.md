@@ -1,14 +1,14 @@
 ---
 title: ExecuteWithRegions
 second_title: Aspose.Words for .NET API 参考
-description: 从具有邮件合并区域的自定义数据源执行邮件合并
+description: 使用邮件合并区域从自定义数据源执行邮件合并
 type: docs
 weight: 200
 url: /zh/net/aspose.words.mailmerging/mailmerge/executewithregions/
 ---
 ## ExecuteWithRegions(IMailMergeDataSource) {#executewithregions}
 
-从具有邮件合并区域的自定义数据源执行邮件合并。
+使用邮件合并区域从自定义数据源执行邮件合并。
 
 ```csharp
 public void ExecuteWithRegions(IMailMergeDataSource dataSource)
@@ -20,9 +20,9 @@ public void ExecuteWithRegions(IMailMergeDataSource dataSource)
 
 ### 评论
 
-使用此方法在文档中使用来自 的值填充邮件合并字段任何自定义数据源，例如 XML 文件或业务对象集合。您需要编写自己的 类来实现[`IMailMergeDataSource`](../../imailmergedatasource)接口。
+使用此方法可使用 from 任何自定义数据源（例如 XML 文件或业务对象集合）的值填充文档中的邮件合并字段。您需要编写 your 自己的类来实现[`IMailMergeDataSource`](../../imailmergedatasource)界面。
 
-只有在[`IsBidiTextSupportedOnUpdate`](../../../aspose.words.fields/fieldoptions/isbiditextsupportedonupdate)为 false 时才可以使用此方法， 那就是你不需要从右到左的语言（如阿拉伯语或希伯来语）兼容性。
+您只能在以下情况下使用此方法[`IsBidiTextSupportedOnUpdate`](../../../aspose.words.fields/fieldoptions/isbiditextsupportedonupdate)为假， 即您不需要从右到左的语言（如阿拉伯语或希伯来语）兼容性。
 
 ### 例子
 
@@ -35,20 +35,20 @@ public void CustomDataSource()
     DocumentBuilder builder = new DocumentBuilder(doc);
 
     // 通常，MERGEFIELD 包含邮件合并数据源的列名。
-     // 相反，我们可以使用“TableStart:”和“TableEnd:”前缀来开始/结束邮件合并区域。
-     // 每个区域将属于一个表，其名称与前缀冒号后紧跟的字符串匹配。
+    // 相反，我们可以使用“TableStart:”和“TableEnd:”前缀来开始/结束邮件合并区域。
+    // 每个区域都属于一个表，其名称与前缀冒号后紧跟的字符串匹配。
     builder.InsertField(" MERGEFIELD TableStart:Customers");
 
-     // 这些 MERGEFIELD 位于“客户”表的邮件合并区域内。
-     // 当我们执行邮件合并时，该字段将从名为“Customers”的数据源中的行接收数据。
+    // 这些 MERGEFIELD 位于“客户”表的邮件合并区域内。
+    // 当我们执行邮件合并时，该字段将从名为“客户”的数据源中的行接收数据。
     builder.Write("Full name:\t");
     builder.InsertField(" MERGEFIELD FullName ");
     builder.Write("\nAddress:\t");
     builder.InsertField(" MERGEFIELD Address ");
     builder.Write("\nOrders:\n");
 
-     // 在外部区域内为名为“Orders”的数据源创建第二个邮件合并区域。
-     // “订单”数据条目与“客户”数据源是多对一的关系。
+    // 在外部区域内为名为“Orders”的数据源创建第二个邮件合并区域。
+    // “订单”数据条目与“客户”数据源具有多对一的关系。
     builder.InsertField(" MERGEFIELD TableStart:Orders");
 
     builder.Write("\tItem name:\t");
@@ -60,7 +60,7 @@ public void CustomDataSource()
     builder.InsertField(" MERGEFIELD TableEnd:Orders");
     builder.InsertField(" MERGEFIELD TableEnd:Customers");
 
-     // 创建名称与我们的邮件合并区域匹配的相关数据。
+    // 创建名称与我们的邮件合并区域匹配的相关数据。
     CustomerList customers = new CustomerList();
     customers.Add(new Customer("Thomas Hardy", "120 Hanover Sq., London"));
     customers.Add(new Customer("Paolo Accorti", "Via Monte Bianco 34, Torino"));
@@ -78,7 +78,7 @@ public void CustomDataSource()
 }
 
 /// <summary>
- /// 应用程序中“数据实体”类的示例。
+/// 应用程序中“数据实体”类的示例。
 /// </summary>
 public class Customer
 {
@@ -95,7 +95,7 @@ public class Customer
 }
 
 /// <summary>
- /// 包含“数据”对象的类型化集合示例。
+/// 包含“数据”对象的类型化集合示例。
 /// </summary>
 public class CustomerList : ArrayList
 {
@@ -107,7 +107,7 @@ public class CustomerList : ArrayList
 }
 
 /// <summary>
- /// 应用程序中的子“数据实体”类示例。
+/// 应用程序中的子“数据实体”类的示例。
 /// </summary>
 public class Order
 {
@@ -122,8 +122,8 @@ public class Order
 }
 
 /// <summary>
- /// 您实现的自定义邮件合并数据源以允许 Aspose.Words 
-/// 将客户对象中的合并数据邮寄到 Microsoft Word 文档中。
+/// 您实现的自定义邮件合并数据源以允许 Aspose.Words 
+/// 将您的客户对象中的合并数据邮寄到 Microsoft Word 文档中。
 /// </summary>
 public class CustomerMailMergeDataSource : IMailMergeDataSource
 {
@@ -131,12 +131,12 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
     {
         mCustomers = customers;
 
-         // 当我们初始化数据源时，它的位置必须在第一条记录之前。
+        // 当我们初始化数据源时，它的位置必须在第一条记录之前。
         mRecordIndex = -1;
     }
 
     /// <summary>
-     /// 数据源的名称。仅在使用可重复区域执行邮件合并时由 Aspose.Words 使用。
+    /// 数据源的名称。仅在使用可重复区域执行邮件合并时由 Aspose.Words 使用。
     /// </summary>
     public string TableName
     {
@@ -144,7 +144,7 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
     }
 
     /// <summary>
-     /// Aspose.Words 调用此方法为每个数据字段获取一个值。
+    /// Aspose.Words 调用此方法来获取每个数据字段的值。
     /// </summary>
     public bool GetValue(string fieldName, out object fieldValue)
     {
@@ -160,15 +160,15 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
                 fieldValue = mCustomers[mRecordIndex].Orders;
                 return true;
             default:
-                 // 将“false”返回到 Aspose.Words 邮件合并引擎到 signify
-                 // 我们找不到具有此名称的字段。
+                // 向 Aspose.Words 邮件合并引擎返回“false”以表示
+                // 我们找不到具有此名称的字段。
                 fieldValue = null;
                 return false;
         }
     }
 
     /// <summary>
-     /// 移动到集合中下一条记录的标准实现。
+    /// 移动到集合中的下一条记录的标准实现。
     /// </summary>
     public bool MoveNext()
     {
@@ -182,7 +182,7 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
     {
         switch (tableName)
         {
-             // 获取子数据源，其名称与使用其列的邮件合并区域匹配。
+            // 获取子数据源，其名称与使用其列的邮件合并区域匹配。
             case "Orders":
                 return new OrderMailMergeDataSource(mCustomers[mRecordIndex].Orders);
             default:
@@ -205,12 +205,12 @@ public class OrderMailMergeDataSource : IMailMergeDataSource
     {
         mOrders = orders;
 
-         // 当我们初始化数据源时，它的位置必须在第一条记录之前。
+        // 当我们初始化数据源时，它的位置必须在第一条记录之前。
         mRecordIndex = -1;
     }
 
     /// <summary>
-     /// 数据源的名称。仅在使用可重复区域执行邮件合并时由 Aspose.Words 使用。
+    /// 数据源的名称。仅在使用可重复区域执行邮件合并时由 Aspose.Words 使用。
     /// </summary>
     public string TableName
     {
@@ -218,7 +218,7 @@ public class OrderMailMergeDataSource : IMailMergeDataSource
     }
 
     /// <summary>
-     /// Aspose.Words 调用此方法为每个数据字段获取一个值。
+    /// Aspose.Words 调用此方法来获取每个数据字段的值。
     /// </summary>
     public bool GetValue(string fieldName, out object fieldValue)
     {
@@ -231,15 +231,15 @@ public class OrderMailMergeDataSource : IMailMergeDataSource
                 fieldValue = mOrders[mRecordIndex].Quantity;
                 return true;
             default:
-                 // 将“false”返回到 Aspose.Words 邮件合并引擎到 signify
-                 // 我们找不到具有此名称的字段。
+                // 向 Aspose.Words 邮件合并引擎返回“false”以表示
+                // 我们找不到具有此名称的字段。
                 fieldValue = null;
                 return false;
         }
     }
 
     /// <summary>
-     /// 移动到集合中下一条记录的标准实现。
+    /// 移动到集合中的下一条记录的标准实现。
     /// </summary>
     public bool MoveNext()
     {
@@ -250,7 +250,7 @@ public class OrderMailMergeDataSource : IMailMergeDataSource
     }
 
     /// <summary>
-     /// 返回 null 因为我们没有此类对象的任何子元素。
+    /// 返回 null 因为我们没有此类对象的任何子元素。
     /// </summary>
     public IMailMergeDataSource GetChildDataSource(string tableName)
     {
@@ -278,7 +278,7 @@ public class OrderMailMergeDataSource : IMailMergeDataSource
 
 ## ExecuteWithRegions(IMailMergeDataSourceRoot) {#executewithregions_1}
 
-从具有邮件合并区域的自定义数据源执行邮件合并。
+使用邮件合并区域从自定义数据源执行邮件合并。
 
 ```csharp
 public void ExecuteWithRegions(IMailMergeDataSourceRoot dataSourceRoot)
@@ -290,9 +290,9 @@ public void ExecuteWithRegions(IMailMergeDataSourceRoot dataSourceRoot)
 
 ### 评论
 
-使用此方法在文档中使用来自 的值填充邮件合并字段任何自定义数据源，例如 XML 文件或业务对象集合。您需要编写自己的类 来实现[`IMailMergeDataSourceRoot`](../../imailmergedatasourceroot)和[`IMailMergeDataSource`](../../imailmergedatasource)接口。
+使用此方法可使用 from 任何自定义数据源（例如 XML 文件或业务对象集合）的值填充文档中的邮件合并字段。您需要编写自己的 classes 来实现[`IMailMergeDataSourceRoot`](../../imailmergedatasourceroot)和[`IMailMergeDataSource`](../../imailmergedatasource)接口。
 
-只有在[`IsBidiTextSupportedOnUpdate`](../../../aspose.words.fields/fieldoptions/isbiditextsupportedonupdate)为 false 时才可以使用此方法， 那就是你不需要从右到左的语言（如阿拉伯语或希伯来语）兼容性。
+您只能在以下情况下使用此方法[`IsBidiTextSupportedOnUpdate`](../../../aspose.words.fields/fieldoptions/isbiditextsupportedonupdate)为假， 即您不需要从右到左的语言（如阿拉伯语或希伯来语）兼容性。
 
 ### 例子
 
@@ -301,11 +301,11 @@ public void ExecuteWithRegions(IMailMergeDataSourceRoot dataSourceRoot)
 ```csharp
 public void CustomDataSourceRoot()
 {
-     // 创建一个包含两个名为“Washington”和“Seattle”的邮件合并区域的文档。
+    // 创建一个包含两个名为“Washington”和“Seattle”的邮件合并区域的文档。
     string[] mailMergeRegions = { "Vancouver", "Seattle" };
     Document doc = CreateSourceDocumentWithMailMergeRegions(mailMergeRegions);
 
-     // 为邮件合并创建两个数据源。
+    // 为邮件合并创建两个数据源。
     EmployeeList employeesWashingtonBranch = new EmployeeList();
     employeesWashingtonBranch.Add(new Employee("John Doe", "Sales"));
     employeesWashingtonBranch.Add(new Employee("Jane Doe", "Management"));
@@ -314,25 +314,24 @@ public void CustomDataSourceRoot()
     employeesSeattleBranch.Add(new Employee("John Cardholder", "Management"));
     employeesSeattleBranch.Add(new Employee("Joe Bloggs", "Sales"));
 
-     // 在数据源 root.
- 中按名称注册我们的数据源
+    // 在数据源根目录中按名称注册我们的数据源。
     // 如果我们要在与区域的邮件合并中使用此数据源根目录，
-     // 每个源的注册名称必须与邮件合并源文档中现有邮件合并区域的名称匹配。
+    // 每个源的注册名称必须与邮件合并源文档中现有邮件合并区域的名称匹配。
     DataSourceRoot sourceRoot = new DataSourceRoot();
     sourceRoot.RegisterSource(mailMergeRegions[0], new EmployeeListMailMergeSource(employeesWashingtonBranch));
     sourceRoot.RegisterSource(mailMergeRegions[1], new EmployeeListMailMergeSource(employeesSeattleBranch));
 
-     // 由于我们有连续的邮件合并区域，我们通常必须执行两个邮件合并。
-     // 但是一个数据根的邮件合并源可以填写多个region
-     // 如果根目录包含具有相应名称/列名的表。
+    // 由于我们有连续的邮件合并区域，我们通常必须执行两个邮件合并。
+    // 但是，一个带有数据根的邮件合并源可以填充多个区域
+    // 如果根目录包含具有相应名称/列名的表。
     doc.MailMerge.ExecuteWithRegions(sourceRoot);
 
     doc.Save(ArtifactsDir + "MailMergeCustom.CustomDataSourceRoot.docx");
 }
 
 /// <summary>
- /// 创建一个包含连续邮件合并区域的文档，名称由输入数组指定，
- /// 对于员工数据表.
+/// 创建一个包含连续邮件合并区域的文档，名称由输入数组指定，
+/// 用于员工数据表。
 /// </summary>
 private static Document CreateSourceDocumentWithMailMergeRegions(string[] regions)
 {
@@ -353,7 +352,7 @@ private static Document CreateSourceDocumentWithMailMergeRegions(string[] region
 }
 
 /// <summary>
- /// 应用程序中“数据实体”类的示例。
+/// 应用程序中“数据实体”类的示例。
 /// </summary>
 private class Employee
 {
@@ -368,7 +367,7 @@ private class Employee
 }
 
 /// <summary>
- /// 包含“数据”对象的类型化集合示例。
+/// 包含“数据”对象的类型化集合示例。
 /// </summary>
 private class EmployeeList : ArrayList
 {
@@ -380,9 +379,8 @@ private class EmployeeList : ArrayList
 }
 
 /// <summary>
- /// 可以直接传递到邮件合并中的数据源根，可以注册并包含许多子数据源。
-/// 这些源都必须实现IMailMergeDataSource，并且通过一个name
-注册和区分
+/// 可以直接传递到邮件合并中的数据源根，该邮件合并可以注册并包含许多子数据源。
+/// 这些源都必须实现IMailMergeDataSource，并通过名称注册和区分
 /// 对应于将读取相应数据的邮件合并区域。
 /// </summary>
 private class DataSourceRoot : IMailMergeDataSourceRoot
@@ -403,7 +401,7 @@ private class DataSourceRoot : IMailMergeDataSourceRoot
 }
 
 /// <summary>
- /// 自定义邮件合并数据源.
+/// 自定义邮件合并数据源。
 /// </summary>
 private class EmployeeListMailMergeSource : IMailMergeDataSource
 {
@@ -414,7 +412,7 @@ private class EmployeeListMailMergeSource : IMailMergeDataSource
     }
 
     /// <summary>
-     /// 移动到集合中下一条记录的标准实现。
+    /// 移动到集合中的下一条记录的标准实现。
     /// </summary>
     public bool MoveNext()
     {
@@ -435,7 +433,7 @@ private class EmployeeListMailMergeSource : IMailMergeDataSource
     }
 
     /// <summary>
-     /// 数据源的名称。仅在使用可重复区域执行邮件合并时由 Aspose.Words 使用。
+    /// 数据源的名称。仅在使用可重复区域执行邮件合并时由 Aspose.Words 使用。
     /// </summary>
     public string TableName
     {
@@ -443,7 +441,7 @@ private class EmployeeListMailMergeSource : IMailMergeDataSource
     }
 
     /// <summary>
-     /// Aspose.Words 调用此方法为每个数据字段获取一个值。
+    /// Aspose.Words 调用此方法来获取每个数据字段的值。
     /// </summary>
     public bool GetValue(string fieldName, out object fieldValue)
     {
@@ -456,15 +454,15 @@ private class EmployeeListMailMergeSource : IMailMergeDataSource
                 fieldValue = mEmployees[mRecordIndex].Department;
                 return true;
             default:
-                 // 将“false”返回到 Aspose.Words 邮件合并引擎到 signify
-                 // 我们找不到具有此名称的字段。
+                // 向 Aspose.Words 邮件合并引擎返回“false”以表示
+                // 我们找不到具有此名称的字段。
                 fieldValue = null;
                 return false;
         }
     }
 
     /// <summary>
-     /// 子数据源用于嵌套邮件合并。
+    /// 子数据源用于嵌套邮件合并。
     /// </summary>
     public IMailMergeDataSource GetChildDataSource(string tableName)
     {
@@ -499,31 +497,31 @@ public void ExecuteWithRegions(DataSet dataSet)
 
 ### 评论
 
-使用此方法将邮件从一个或多个表合并为可重复邮件 合并文档中的区域。文档内的邮件合并区域将动态增长 以容纳相应表中的记录。
+使用此方法将邮件从一个或多个表合并到文档中可重复的 mail 合并区域。文档内的邮件合并区域将动态 增长以容纳相应表中的记录。
 
 DataSet 中的每个表都必须有一个名称。
 
-文档必须具有定义的邮件合并区域，其名称引用数据集中的表 。
+文档必须具有定义的邮件合并区域，其名称引用数据集中的 tables 。
 
-要在文档中指定邮件合并区域，您需要插入两个邮件合并字段 来标记邮件合并区域的开始和结束.
+要在文档中指定邮件合并区域，您需要插入两个邮件合并字段 来标记邮件合并区域的开始和结束。
 
 包含在邮件合并区域内的所有文档内容将自动为 DataTable 中的每条记录重复 。
 
-要标记邮件合并区域的开始，请插入名称为 TableStart:MyTable, 的 MERGEFIELD，其中 MyTable 对应于你的数据集。
+要标记邮件合并区域的开始，请插入一个名为 TableStart:MyTable, 的 MERGEFIELD，其中 MyTable 对应于 DataSet 中的表名之一。
 
-要标记邮件合并区域的结尾，请插入另一个名称为 TableEnd:MyTable 的 MERGEFIELD。
+要标记邮件合并区域的结束，请插入另一个名称为 TableEnd:MyTable 的 MERGEFIELD。
 
-要在 Word 中插入 MERGEFIELD，请使用 Insert/Field 命令并选择 MergeField，然后键入 字段名称。
+要在 Word 中插入 MERGEFIELD，请使用 Insert/Field 命令并选择 MergeField，然后键入字段的 名称。
 
 TableStart 和 TableEnd 字段必须在文档的同一部分内。
 
-如果在表内使用，TableStart 和 TableEnd 必须在表的同一行内。
+如果在表格内使用，TableStart 和 TableEnd 必须在表格的同一行内。
 
-文档中的邮件合并区域应该是格式正确的（总是需要一对匹配的 TableStart 和 TableEnd 合并字段与相同的表名）。
+文档中的邮件合并区域应该格式正确（总是需要有一对匹配 TableStart 和 TableEnd 合并字段具有相同的表名）。
 
 ### 例子
 
-显示如何使用两个合并区域和两个数据表执行嵌套邮件合并。
+展示如何使用两个合并区域和两个数据表执行嵌套邮件合并。
 
 ```csharp
 [Test]
@@ -533,17 +531,17 @@ public void ExecuteWithRegionsNested()
     DocumentBuilder builder = new DocumentBuilder(doc);
 
     // 通常，MERGEFIELD 包含邮件合并数据源的列名。
-     // 相反，我们可以使用“TableStart:”和“TableEnd:”前缀来开始/结束邮件合并区域。
-     // 每个区域将属于一个表，其名称与前缀冒号后紧跟的字符串匹配。
+    // 相反，我们可以使用“TableStart:”和“TableEnd:”前缀来开始/结束邮件合并区域。
+    // 每个区域都属于一个表，其名称与前缀冒号后紧跟的字符串匹配。
     builder.InsertField(" MERGEFIELD TableStart:Customers");
 
-     // 此 MERGEFIELD 位于“客户”表的邮件合并区域内。
-     // 当我们执行邮件合并时，该字段将从名为“Customers”的数据源中的行接收数据。
+    // 此 MERGEFIELD 位于“客户”表的邮件合并区域内。
+    // 当我们执行邮件合并时，该字段将从名为“客户”的数据源中的行接收数据。
     builder.Write("Orders for ");
     builder.InsertField(" MERGEFIELD CustomerName");
     builder.Write(":");
 
-     // 为将包含来自第二个内部区域的值的表创建列标题。
+    // 为将包含来自第二个内部区域的值的表创建列标题。
     builder.StartTable();
     builder.InsertCell();
     builder.Write("Item");
@@ -551,24 +549,24 @@ public void ExecuteWithRegionsNested()
     builder.Write("Quantity");
     builder.EndRow();
 
-     // 在外部区域内为名为“Orders”的表创建第二个邮件合并区域。
-     // “Orders”表与“CustomerID”列上的“Customers”表是多对一的关系。
+    // 在外部区域内为名为“Orders”的表创建第二个邮件合并区域。
+    // “Orders”表与“CustomerID”列上的“Customers”表是多对一的关系。
     builder.InsertCell();
     builder.InsertField(" MERGEFIELD TableStart:Orders");
     builder.InsertField(" MERGEFIELD ItemName");
     builder.InsertCell();
     builder.InsertField(" MERGEFIELD Quantity");
 
-     // 结束内部区域，然后结束外部区域。邮件合并区域的打开和关闭 must
+    // 结束内部区域，然后结束外部区域。邮件合并区域的打开和关闭必须
     // 发生在表的同一行。
     builder.InsertField(" MERGEFIELD TableEnd:Orders");
     builder.EndTable();
 
     builder.InsertField(" MERGEFIELD TableEnd:Customers");
 
-     // 创建一个数据集，其中包含具有所需名称和关系的两个表。
-     // 外部合并区域的“客户”表的每一行的每个合并文档都会在“订单”表上执行其邮件合并。
-     // 每个合并文档都会显示后一个表中“CustomerID”列值与当前“Customers”表行匹配的所有行。
+    // 创建一个数据集，其中包含具有所需名称和关系的两个表。
+    // 外部合并区域的“Customers”表的每一行的每个合并文档都会在“Orders”表上执行其邮件合并。
+    // 每个合并文档都会显示后一个表中“CustomerID”列值与当前“Customers”表行匹配的所有行。
     DataSet customersAndOrders = CreateDataSet();
     doc.MailMerge.ExecuteWithRegions(customersAndOrders);
 
@@ -576,7 +574,7 @@ public void ExecuteWithRegionsNested()
 }
 
 /// <summary>
- /// 生成一个数据集，包含两个名为“Customers”和“Orders”的数据表，在“CustomerID”列上具有一对多关系。
+/// 生成一个数据集，其中包含两个名为“Customers”和“Orders”的数据表，在“CustomerID”列上具有一对多关系。
 /// </summary>
 private static DataSet CreateDataSet()
 {
@@ -621,101 +619,19 @@ public void ExecuteWithRegions(DataTable dataTable)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| dataTable | DataTable | 邮件合并操作的数据源。表必须 具有其 **TableName** 属性集。 |
+| dataTable | DataTable | 邮件合并操作的数据源。表 must 有它的 **表名**属性集。 |
 
 ### 评论
 
-文档必须具有定义的邮件合并区域，其名称与匹配 **DataTable.TableName** 。
+该文档必须具有定义的邮件合并区域，其名称为matches  **数据表.表名**.
 
-如果文档中定义了其他邮件合并区域，则它们保持不变。 这允许执行多个邮件合并操作。
+如果文档中定义了其他邮件合并区域，它们将保持不变。 这允许执行多个邮件合并操作。
 
 ### 例子
-
-展示如何使用区域在一个文档中执行两个单独的邮件合并。
-
-```csharp
-public void AlternatingRows()
-{
-    Document doc = new Document(MyDir + "Mail merge destination - Northwind suppliers.docx");
-
-    doc.MailMerge.FieldMergingCallback = new HandleMergeFieldAlternatingRows();
-
-    DataTable dataTable = GetSuppliersDataTable();
-    doc.MailMerge.ExecuteWithRegions(dataTable);
-
-    doc.Save(ArtifactsDir + "MailMergeEvent.AlternatingRows.docx");
-}
-
-/// <summary>
- /// 格式化表格行作为邮件合并发生在奇数/偶数行的两种颜色之间交替。
-/// </summary>
-private class HandleMergeFieldAlternatingRows : IFieldMergingCallback
-{
-    /// <summary>
-     /// 当邮件合并将数据合并到 MERGEFIELD.
- 时调用
-    /// </summary>
-    void IFieldMergingCallback.FieldMerging(FieldMergingArgs args)
-    {
-        if (mBuilder == null)
-            mBuilder = new DocumentBuilder(args.Document);
-
-         // 这是真的，我们在第一列，这意味着我们已经移动到一个新行。
-        if (args.FieldName == "CompanyName")
-        {
-            Color rowColor = IsOdd(mRowIdx) ? Color.FromArgb(213, 227, 235) : Color.FromArgb(242, 242, 242);
-
-            for (int colIdx = 0; colIdx < 4; colIdx++)
-            {
-                mBuilder.MoveToCell(0, mRowIdx, colIdx, 0);
-                mBuilder.CellFormat.Shading.BackgroundPatternColor = rowColor;
-            }
-
-            mRowIdx++;
-        }
-    }
-
-    void IFieldMergingCallback.ImageFieldMerging(ImageFieldMergingArgs args)
-    {
-         // 什么都不做。
-    }
-
-    private DocumentBuilder mBuilder;
-    private int mRowIdx;
-}
-
-/// <summary>
- /// Visual Basic 自动移植所需的函数，该函数返回所传递数字的奇偶校验。
-/// </summary>
-private static bool IsOdd(int value)
-{
-    return (value / 2 * 2).Equals(value);
-}
-
-/// <summary>
- /// 创建一个邮件合并数据源。
-/// </summary>
-private static DataTable GetSuppliersDataTable()
-{
-    DataTable dataTable = new DataTable("Suppliers");
-    dataTable.Columns.Add("CompanyName");
-    dataTable.Columns.Add("ContactName");
-    for (int i = 0; i < 10; i++)
-    {
-        DataRow datarow = dataTable.NewRow();
-        dataTable.Rows.Add(datarow);
-        datarow[0] = "Company " + i;
-        datarow[1] = "Contact " + i;
-    }
-
-    return dataTable;
-}
-```
 
 演示如何在邮件合并期间格式化单元格。
 
 ```csharp
-public void AlternatingRows()
 {
     Document doc = new Document(MyDir + "Mail merge destination - Northwind suppliers.docx");
 
@@ -725,23 +641,21 @@ public void AlternatingRows()
     doc.MailMerge.ExecuteWithRegions(dataTable);
 
     doc.Save(ArtifactsDir + "MailMergeEvent.AlternatingRows.docx");
-}
 
 /// <summary>
- /// 格式化表格行作为邮件合并发生在奇数/偶数行的两种颜色之间交替。
+/// 格式化表格行，因为邮件合并发生在奇数/偶数行的两种颜色之间交替。
 /// </summary>
 private class HandleMergeFieldAlternatingRows : IFieldMergingCallback
 {
     /// <summary>
-     /// 当邮件合并将数据合并到 MERGEFIELD.
- 时调用
+    /// 当邮件合并将数据合并到 MERGEFIELD 时调用。
     /// </summary>
     void IFieldMergingCallback.FieldMerging(FieldMergingArgs args)
     {
         if (mBuilder == null)
             mBuilder = new DocumentBuilder(args.Document);
 
-         // 这是真的，我们在第一列，这意味着我们已经移动到一个新行。
+        // 这是真的，我们在第一列，这意味着我们已经移动到新行。
         if (args.FieldName == "CompanyName")
         {
             Color rowColor = IsOdd(mRowIdx) ? Color.FromArgb(213, 227, 235) : Color.FromArgb(242, 242, 242);
@@ -758,7 +672,7 @@ private class HandleMergeFieldAlternatingRows : IFieldMergingCallback
 
     void IFieldMergingCallback.ImageFieldMerging(ImageFieldMergingArgs args)
     {
-         // 什么都不做。
+        // 没做什么。
     }
 
     private DocumentBuilder mBuilder;
@@ -766,7 +680,7 @@ private class HandleMergeFieldAlternatingRows : IFieldMergingCallback
 }
 
 /// <summary>
- /// Visual Basic 自动移植所需的函数，该函数返回所传递数字的奇偶校验。
+/// Visual Basic 自动移植所需的函数，该函数返回所传递数字的奇偶校验。
 /// </summary>
 private static bool IsOdd(int value)
 {
@@ -774,7 +688,7 @@ private static bool IsOdd(int value)
 }
 
 /// <summary>
- /// 创建一个邮件合并数据源。
+/// 创建邮件合并数据源。
 /// </summary>
 private static DataTable GetSuppliersDataTable()
 {
@@ -792,36 +706,6 @@ private static DataTable GetSuppliersDataTable()
     return dataTable;
 }
 ```
-
-### 也可以看看
-
-* class [MailMerge](../../mailmerge)
-* 命名空间 [Aspose.Words.MailMerging](../../mailmerge)
-* 部件 [Aspose.Words](../../../)
-
----
-
-## ExecuteWithRegions(DataView) {#executewithregions_4}
-
-执行从 DataView 到具有邮件合并区域的文档的邮件合并。
-
-```csharp
-public void ExecuteWithRegions(DataView dataView)
-```
-
-| 范围 | 类型 | 描述 |
-| --- | --- | --- |
-| dataView | DataView | 邮件合并操作的数据源。 **DataView** 的源表 必须有其 **TableName** 属性放。 |
-
-### 评论
-
-如果您将数据检索到 **DataTable 中，此方法很有用** 但 需要在邮件合并之前应用过滤器或排序。
-
-文档必须定义一个邮件合并区域，其名称与  **DataView.Table.TableName 匹配** 。
-
-如果文档中定义了其他邮件合并区域，则它们保持不变。 这允许执行多个邮件合并操作。
-
-### 例子
 
 展示如何使用区域在一个文档中执行两个单独的邮件合并。
 
@@ -829,25 +713,25 @@ public void ExecuteWithRegions(DataView dataView)
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
- // 如果我们想在一个文档上执行两个连续的邮件合并，同时从两个表中获取数据
- // 以任何方式相互关联，我们可以将邮件合并与区域分开。
+// 如果我们想在一个文档上执行两个连续的邮件合并，同时从两个表中获取数据
+// 以任何方式相互关联，我们可以将邮件合并与区域分开。
 // 通常，MERGEFIELD 包含邮件合并数据源的列名。
- // 相反，我们可以使用“TableStart:”和“TableEnd:”前缀来开始/结束邮件合并区域。
- // 每个区域将属于一个表，其名称与前缀冒号后紧跟的字符串匹配。
- // 这些区域对于不相关的数据是分开的，而对于分层数据可以嵌套。
+// 相反，我们可以使用“TableStart:”和“TableEnd:”前缀来开始/结束邮件合并区域。
+// 每个区域都属于一个表，其名称与前缀冒号后紧跟的字符串匹配。
+// 这些区域对于不相关的数据是分开的，而对于分层数据，它们可以嵌套。
 builder.Writeln("\tCities: ");
 builder.InsertField(" MERGEFIELD TableStart:Cities");
 builder.InsertField(" MERGEFIELD Name");
 builder.InsertField(" MERGEFIELD TableEnd:Cities");
 builder.InsertParagraph();
 
- // 两个 MERGEFIELD 引用相同的列名，但每个的值将来自不同的数据表。
+// 两个 MERGEFIELD 引用相同的列名，但每个的值将来自不同的数据表。
 builder.Writeln("\tFruit: ");
 builder.InsertField(" MERGEFIELD TableStart:Fruit");
 builder.InsertField(" MERGEFIELD Name");
 builder.InsertField(" MERGEFIELD TableEnd:Fruit");
 
- // 创建两个不相关的数据表.
+// 创建两个不相关的数据表。
 DataTable tableCities = new DataTable("Cities");
 tableCities.Columns.Add("Name");
 tableCities.Rows.Add(new object[] { "Washington" });
@@ -861,13 +745,93 @@ tableFruit.Rows.Add(new object[] { "Apple" });
 tableFruit.Rows.Add(new object[] { "Watermelon" });
 tableFruit.Rows.Add(new object[] { "Banana" });
 
- // 我们需要为每个表运行一个邮件合并。第一个邮件合并将填充 MERGEFIELDs
-// 在“城市”范围内，而“水果”范围内的字段未填充。
+// 我们需要为每个表运行一个邮件合并。第一个邮件合并将填充 MERGEFIELD
+// 在“城市”范围内，而“水果”范围内的字段未填写。
 doc.MailMerge.ExecuteWithRegions(tableCities);
 
- // 为“Fruit”表运行第二次合并，同时使用数据 view
- // 在merge.
-之前对“Name”列上的行进行升序排序
+// 为“Fruit”表运行第二次合并，同时使用数据视图
+// 在合并之前对“名称”列上的行进行升序排序。
+DataView dv = new DataView(tableFruit);
+dv.Sort = "Name ASC";
+doc.MailMerge.ExecuteWithRegions(dv);
+
+doc.Save(ArtifactsDir + "MailMerge.ExecuteWithRegionsConcurrent.docx");
+```
+
+### 也可以看看
+
+* class [MailMerge](../../mailmerge)
+* 命名空间 [Aspose.Words.MailMerging](../../mailmerge)
+* 部件 [Aspose.Words](../../../)
+
+---
+
+## ExecuteWithRegions(DataView) {#executewithregions_4}
+
+将数据视图中的邮件合并到带有邮件合并区域的文档中。
+
+```csharp
+public void ExecuteWithRegions(DataView dataView)
+```
+
+| 范围 | 类型 | 描述 |
+| --- | --- | --- |
+| dataView | DataView | 邮件合并操作的数据源。的源表  **数据视图**必须有它的 **表名**属性集。 |
+
+### 评论
+
+如果您将数据检索到 **数据表**但是 then 需要在邮件合并之前应用过滤器或排序。
+
+该文档必须具有定义的邮件合并区域，其名称为matches  **DataView.Table.TableName**.
+
+如果文档中定义了其他邮件合并区域，它们将保持不变。 这允许执行多个邮件合并操作。
+
+### 例子
+
+展示如何使用区域在一个文档中执行两个单独的邮件合并。
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+// 如果我们想在一个文档上执行两个连续的邮件合并，同时从两个表中获取数据
+// 以任何方式相互关联，我们可以将邮件合并与区域分开。
+// 通常，MERGEFIELD 包含邮件合并数据源的列名。
+// 相反，我们可以使用“TableStart:”和“TableEnd:”前缀来开始/结束邮件合并区域。
+// 每个区域都属于一个表，其名称与前缀冒号后紧跟的字符串匹配。
+// 这些区域对于不相关的数据是分开的，而对于分层数据，它们可以嵌套。
+builder.Writeln("\tCities: ");
+builder.InsertField(" MERGEFIELD TableStart:Cities");
+builder.InsertField(" MERGEFIELD Name");
+builder.InsertField(" MERGEFIELD TableEnd:Cities");
+builder.InsertParagraph();
+
+// 两个 MERGEFIELD 引用相同的列名，但每个的值将来自不同的数据表。
+builder.Writeln("\tFruit: ");
+builder.InsertField(" MERGEFIELD TableStart:Fruit");
+builder.InsertField(" MERGEFIELD Name");
+builder.InsertField(" MERGEFIELD TableEnd:Fruit");
+
+// 创建两个不相关的数据表。
+DataTable tableCities = new DataTable("Cities");
+tableCities.Columns.Add("Name");
+tableCities.Rows.Add(new object[] { "Washington" });
+tableCities.Rows.Add(new object[] { "London" });
+tableCities.Rows.Add(new object[] { "New York" });
+
+DataTable tableFruit = new DataTable("Fruit");
+tableFruit.Columns.Add("Name");
+tableFruit.Rows.Add(new object[] { "Cherry" });
+tableFruit.Rows.Add(new object[] { "Apple" });
+tableFruit.Rows.Add(new object[] { "Watermelon" });
+tableFruit.Rows.Add(new object[] { "Banana" });
+
+// 我们需要为每个表运行一个邮件合并。第一个邮件合并将填充 MERGEFIELD
+// 在“城市”范围内，而“水果”范围内的字段未填写。
+doc.MailMerge.ExecuteWithRegions(tableCities);
+
+// 为“Fruit”表运行第二次合并，同时使用数据视图
+// 在合并之前对“名称”列上的行进行升序排序。
 DataView dv = new DataView(tableFruit);
 dv.Sort = "Name ASC";
 doc.MailMerge.ExecuteWithRegions(dv);
@@ -894,15 +858,15 @@ public void ExecuteWithRegions(IDataReader dataReader, string tableName)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | dataReader | IDataReader | 邮件合并的数据记录来源，例如 OleDbDataReader 或 SqlDataReader。 |
-| tableName | String | 文档中要填充的邮件合并区域的名称。 |
+| tableName | String | 要填充的文档中邮件合并区域的名称。 |
 
 ### 评论
 
-可以通过 **SqlDataReader** 或 **OleDbDataReader** 对象作为参数放入此 方法中，因为它们都实现了 **IDataReader** 接口。
+你可以通过 **SqlDataReader**或者 **OleDbDataReader**对象作为参数放入 this 方法中，因为它们都实现了 **数据读取器**界面。
 
 ### 例子
 
-显示如何将存储在数据库 BLOB 字段中的图像插入到报告中。
+演示如何将存储在数据库 BLOB 字段中的图像插入到报表中。
 
 ```csharp
 public void ImageFromBlob()
@@ -918,7 +882,7 @@ public void ImageFromBlob()
     {
         conn.Open();
 
-        // 打开数据读取器，需要处于一次读取所有记录的模式
+        // 打开数据读取器，它需要处于一次读取所有记录的模式。
         OleDbCommand cmd = new OleDbCommand(query, conn);
         IDataReader dataReader = cmd.ExecuteReader();
 
@@ -926,17 +890,16 @@ public void ImageFromBlob()
     }
 
     doc.Save(ArtifactsDir + "MailMergeEvent.ImageFromBlob.docx");
-}
 
 private class HandleMergeImageFieldFromBlob : IFieldMergingCallback
 {
     void IFieldMergingCallback.FieldMerging(FieldMergingArgs args)
     {
-         // 什么都不做。
+        // 没做什么。
     }
 
     /// <summary>
-     /// 当邮件合并在文档中遇到名称中带有“Image:”标签的 MERGEFIELD 时调用。
+    /// 当邮件合并在文档中遇到名称中带有“Image:”标签的 MERGEFIELD 时调用。
     /// </summary>
     void IFieldMergingCallback.ImageFieldMerging(ImageFieldMergingArgs e)
     {

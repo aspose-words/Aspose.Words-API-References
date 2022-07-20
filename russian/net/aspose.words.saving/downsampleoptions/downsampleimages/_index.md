@@ -1,14 +1,14 @@
 ---
 title: DownsampleImages
 second_title: Справочник по API Aspose.Words для .NET
-description: Указывает следует ли понижать разрешение изображений.
+description: Указывает следует ли уменьшать разрешение изображений.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.saving/downsampleoptions/downsampleimages/
 ---
 ## DownsampleOptions.DownsampleImages property
 
-Указывает, следует ли понижать разрешение изображений.
+Указывает, следует ли уменьшать разрешение изображений.
 
 ```csharp
 public bool DownsampleImages { get; set; }
@@ -16,7 +16,7 @@ public bool DownsampleImages { get; set; }
 
 ### Примечания
 
-Значение по умолчанию:` true` .
+Значение по умолчанию:`истинный` .
 
 ### Примеры
 

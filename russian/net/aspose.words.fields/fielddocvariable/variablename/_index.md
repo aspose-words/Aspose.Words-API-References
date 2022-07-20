@@ -1,14 +1,14 @@
 ---
 title: VariableName
 second_title: Справочник по API Aspose.Words для .NET
-description: Получает или задает имя извлекаемой переменной документа.
+description: Получает или задает имя переменной документа для извлечения.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.fields/fielddocvariable/variablename/
 ---
 ## FieldDocVariable.VariableName property
 
-Получает или задает имя извлекаемой переменной документа.
+Получает или задает имя переменной документа для извлечения.
 
 ```csharp
 public string VariableName { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: DefaultFontSubstitutionRule
 second_title: Справочник по API Aspose.Words для .NET
-description: Правило подстановки шрифта по умолчанию.
+description: Правило замены шрифта по умолчанию.
 type: docs
-weight: 2610
+weight: 2660
 url: /ru/net/aspose.words.fonts/defaultfontsubstitutionrule/
 ---
 ## DefaultFontSubstitutionRule class
 
-Правило подстановки шрифта по умолчанию.
+Правило замены шрифта по умолчанию.
 
 ```csharp
 public class DefaultFontSubstitutionRule : FontSubstitutionRule
@@ -19,7 +19,7 @@ public class DefaultFontSubstitutionRule : FontSubstitutionRule
 | Имя | Описание |
 | --- | --- |
 | [DefaultFontName](../../aspose.words.fonts/defaultfontsubstitutionrule/defaultfontname) { get; set; } | Получает или задает имя шрифта по умолчанию. |
-| virtual [Enabled](../../aspose.words.fonts/fontsubstitutionrule/enabled) { get; set; } | Указывает, включено ли правило или нет. |
+| virtual [Enabled](../../aspose.words.fonts/fontsubstitutionrule/enabled) { get; set; } | Указывает, включено ли правило. |
 
 ### Примечания
 

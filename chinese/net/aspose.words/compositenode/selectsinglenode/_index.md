@@ -20,11 +20,11 @@ public Node SelectSingleNode(string xpath)
 
 ### 返回值
 
-匹配 XPath 查询的第一个节点，如果没有找到匹配节点，则返回 null。
+与 XPath 查询匹配的第一个节点，如果未找到匹配节点，则为 null。
 
 ### 评论
 
-目前仅支持带有元素名称的表达式。不支持使用属性名称的表达式 。
+目前仅支持带有元素名称的表达式。不支持使用属性名称的 Expressions 。
 
 ### 例子
 

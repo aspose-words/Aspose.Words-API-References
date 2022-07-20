@@ -1,14 +1,14 @@
 ---
 title: NodeType
 second_title: Aspose.Words for .NET API 参考
-description: 返回 NodeType.OfficeMath 
+description: 返回 节点类型.OfficeMath.
 type: docs
 weight: 50
 url: /zh/net/aspose.words.math/officemath/nodetype/
 ---
 ## OfficeMath.NodeType property
 
-返回 **NodeType.OfficeMath** 。
+返回 **节点类型.OfficeMath**.
 
 ```csharp
 public override NodeType NodeType { get; }
@@ -16,7 +16,7 @@ public override NodeType NodeType { get; }
 
 ### 例子
 
-说明如何设置办公室数学显示格式。
+显示如何设置办公室数学显示格式。
 
 ```csharp
 Document doc = new Document(MyDir + "Office math.docx");

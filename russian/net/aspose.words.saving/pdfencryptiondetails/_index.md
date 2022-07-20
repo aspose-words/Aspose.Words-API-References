@@ -3,7 +3,7 @@ title: PdfEncryptionDetails
 second_title: Справочник по API Aspose.Words для .NET
 description: Содержит сведения о шифровании и разрешениях на доступ к PDF-документу.
 type: docs
-weight: 5130
+weight: 5180
 url: /ru/net/aspose.words.saving/pdfencryptiondetails/
 ---
 ## PdfEncryptionDetails class
@@ -25,7 +25,7 @@ public class PdfEncryptionDetails
 | Имя | Описание |
 | --- | --- |
 | [OwnerPassword](../../aspose.words.saving/pdfencryptiondetails/ownerpassword) { get; set; } | Указывает пароль владельца для зашифрованного PDF-документа. |
-| [Permissions](../../aspose.words.saving/pdfencryptiondetails/permissions) { get; set; } | Определяет операции, разрешенные пользователю для зашифрованного PDF-документа. Значение по умолчанию:DisallowAll. |
+| [Permissions](../../aspose.words.saving/pdfencryptiondetails/permissions) { get; set; } | Определяет операции, разрешенные пользователю с зашифрованным PDF-документом. Значение по умолчанию:DisallowAll . |
 | [UserPassword](../../aspose.words.saving/pdfencryptiondetails/userpassword) { get; set; } | Указывает пароль пользователя, необходимый для открытия зашифрованного PDF-документа. |
 
 ### Примеры

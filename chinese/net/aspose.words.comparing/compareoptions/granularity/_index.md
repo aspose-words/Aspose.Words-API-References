@@ -1,14 +1,14 @@
 ---
 title: Granularity
 second_title: Aspose.Words for .NET API 参考
-description: 指定是按字符还是按单词跟踪更改 默认值为WordLevel
+description: 指定是按字符还是按单词跟踪更改 默认值为WordLevel.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.comparing/compareoptions/granularity/
 ---
 ## CompareOptions.Granularity property
 
-指定是按字符还是按单词跟踪更改。 默认值为WordLevel。
+指定是按字符还是按单词跟踪更改。 默认值为WordLevel.
 
 ```csharp
 public Granularity Granularity { get; set; }
@@ -16,7 +16,7 @@ public Granularity Granularity { get; set; }
 
 ### 例子
 
-显示在比较文档时指定粒度。
+显示以在比较文档时指定粒度。
 
 ```csharp
 Document docA = new Document();

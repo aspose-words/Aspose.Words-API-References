@@ -3,7 +3,7 @@ title: OutlineOptions
 second_title: Справочник по API Aspose.Words для .NET
 description: Позволяет указать параметры контура.
 type: docs
-weight: 5030
+weight: 5080
 url: /ru/net/aspose.words.saving/outlineoptions/
 ---
 ## OutlineOptions class
@@ -24,16 +24,16 @@ public class OutlineOptions
 
 | Имя | Описание |
 | --- | --- |
-| [BookmarksOutlineLevels](../../aspose.words.saving/outlineoptions/bookmarksoutlinelevels) { get; } | Позволяет указать уровень контура отдельных закладок. |
+| [BookmarksOutlineLevels](../../aspose.words.saving/outlineoptions/bookmarksoutlinelevels) { get; } | Позволяет указать уровень структуры отдельных закладок. |
 | [CreateMissingOutlineLevels](../../aspose.words.saving/outlineoptions/createmissingoutlinelevels) { get; set; } | Получает или задает значение, определяющее, создавать ли отсутствующие уровни структуры при экспорте документа . |
 | [CreateOutlinesForHeadingsInTables](../../aspose.words.saving/outlineoptions/createoutlinesforheadingsintables) { get; set; } | Указывает, создавать ли контуры для заголовков (абзацев, отформатированных с помощью стилей заголовков) внутри таблиц. |
 | [DefaultBookmarksOutlineLevel](../../aspose.words.saving/outlineoptions/defaultbookmarksoutlinelevel) { get; set; } | Указывает уровень по умолчанию в структуре документа, на котором должны отображаться закладки Word. |
-| [ExpandedOutlineLevels](../../aspose.words.saving/outlineoptions/expandedoutlinelevels) { get; set; } | Указывает, сколько уровней в структуре документа должно отображаться развернутым при просмотре файла. |
-| [HeadingsOutlineLevels](../../aspose.words.saving/outlineoptions/headingsoutlinelevels) { get; set; } | Указывает, сколько уровней заголовков (абзацев, отформатированных с помощью стилей заголовков) включать в структуру документа . |
+| [ExpandedOutlineLevels](../../aspose.words.saving/outlineoptions/expandedoutlinelevels) { get; set; } | Указывает, сколько уровней в структуре документа должно отображаться в расширенном виде при просмотре файла. |
+| [HeadingsOutlineLevels](../../aspose.words.saving/outlineoptions/headingsoutlinelevels) { get; set; } | Указывает, сколько уровней заголовков (абзацев, отформатированных с помощью стилей заголовков) включить в структуру документа . |
 
 ### Примеры
 
-Показывает, как обрабатывать закладки в верхних/нижних колонтитулах в документе, который мы конвертируем в PDF.
+Показывает, как обрабатывать закладки в верхних/нижних колонтитулах в документе, который мы преобразуем в PDF.
 
 ```csharp
 Document doc = new Document(MyDir + "Bookmarks in headers and footers.docx");

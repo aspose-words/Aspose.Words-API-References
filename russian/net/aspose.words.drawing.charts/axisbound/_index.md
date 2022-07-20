@@ -18,7 +18,7 @@ public sealed class AxisBound
 
 | Имя | Описание |
 | --- | --- |
-| [AxisBound](axisbound#constructor)() | Создает новый экземпляр, указывающий, что привязка оси должна определяться автоматически текстовым редактором приложением. |
+| [AxisBound](axisbound#constructor)() | Создает новый экземпляр, указывающий, что привязка оси должна определяться автоматически приложением обработки текста . |
 | [AxisBound](axisbound#constructor_2)(DateTime) | Создает привязку оси, представленную как значение даты и времени. |
 | [AxisBound](axisbound#constructor_1)(double) | Создает границу оси, представленную в виде числа. |
 
@@ -26,7 +26,7 @@ public sealed class AxisBound
 
 | Имя | Описание |
 | --- | --- |
-| [IsAuto](../../aspose.words.drawing.charts/axisbound/isauto) { get; } | Возвращает флаг, указывающий, что граница оси должна определяться автоматически. |
+| [IsAuto](../../aspose.words.drawing.charts/axisbound/isauto) { get; } | Возвращает флаг, указывающий, что привязка оси должна быть определена автоматически. |
 | [Value](../../aspose.words.drawing.charts/axisbound/value) { get; } | Возвращает числовое значение связанной оси. |
 | [ValueAsDate](../../aspose.words.drawing.charts/axisbound/valueasdate) { get; } | Возвращает значение привязки оси, представленное как datetime. |
 
@@ -35,12 +35,12 @@ public sealed class AxisBound
 | Имя | Описание |
 | --- | --- |
 | override [Equals](../../aspose.words.drawing.charts/axisbound/equals)(object) | Определяет, равен ли указанный объект по значению текущему объекту. |
-| override [GetHashCode](../../aspose.words.drawing.charts/axisbound/gethashcode)() | Служит хеш-функцией для этого типа. |
+| override [GetHashCode](../../aspose.words.drawing.charts/axisbound/gethashcode)() | Служит хэш-функцией для этого типа. |
 | override [ToString](../../aspose.words.drawing.charts/axisbound/tostring)() | Возвращает удобную для пользователя строку, отображающую значение этого объекта. |
 
 ### Примечания
 
-Граница может быть указана как числовое значение, дата-время или специальное значение "auto".
+Привязка может быть указана как числовое значение, дата-время или специальное значение "auto".
 
 Экземпляры этого класса неизменяемы.
 

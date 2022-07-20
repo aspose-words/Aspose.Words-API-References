@@ -16,7 +16,7 @@ public void LinkToPrevious(bool isLinkToPrevious)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| isLinkToPrevious | Boolean | Значение true, чтобы связать верхние и нижние колонтитулы с предыдущим разделом; false, чтобы разъединить их. |
+| isLinkToPrevious | Boolean | Значение true, чтобы связать верхние и нижние колонтитулы с предыдущим разделом; false, чтобы отменить их связь. |
 
 ### Примечания
 
@@ -51,7 +51,7 @@ builder.Write("This is the footer, which will be displayed in sections 1, 2 and 
 doc.Sections[1].HeadersFooters.LinkToPrevious(true);
 
 // Каждый раздел по-прежнему будет иметь свои собственные объекты верхнего/нижнего колонтитула. Когда мы связываем разделы,
-// раздел ссылки будет отображать верхний и нижний колонтитулы связанного раздела, сохраняя при этом свои собственные.
+// раздел ссылок будет отображать верхний и нижний колонтитулы связанного раздела, сохраняя при этом свои собственные.
 Assert.AreNotEqual(doc.Sections[0].HeadersFooters[0], doc.Sections[1].HeadersFooters[0]);
 Assert.AreNotEqual(doc.Sections[0].HeadersFooters[0].ParentSection, doc.Sections[1].HeadersFooters[0].ParentSection);
 
@@ -94,7 +94,7 @@ doc.Save(ArtifactsDir + "HeaderFooter.Link.docx");
 
 ## LinkToPrevious(HeaderFooterType, bool) {#linktoprevious}
 
-Связывает или отменяет связь указанного верхнего или нижнего колонтитула с соответствующим верхним или нижним колонтитулом в предыдущем разделе.
+Связывает или разъединяет указанный верхний или нижний колонтитул с соответствующим верхним или нижним колонтитулом в предыдущем разделе.
 
 ```csharp
 public void LinkToPrevious(HeaderFooterType headerFooterType, bool isLinkToPrevious)
@@ -102,12 +102,12 @@ public void LinkToPrevious(HeaderFooterType headerFooterType, bool isLinkToPrevi
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| headerFooterType | HeaderFooterType | A[`HeaderFooterType`](../../headerfootertype)значение который указывает верхний или нижний колонтитул для связывания/отключения. |
-| isLinkToPrevious | Boolean | Истинно, чтобы связать верхний или нижний колонтитул с предыдущим разделом; false, чтобы отменить связь. |
+| headerFooterType | HeaderFooterType | А[`HeaderFooterType`](../../headerfootertype) value , указывающий верхний или нижний колонтитул для связывания/отсоединения. |
+| isLinkToPrevious | Boolean | Значение true, чтобы связать верхний или нижний колонтитул с предыдущим разделом; значение false, чтобы отменить связь. |
 
 ### Примечания
 
-Если верхний или нижний колонтитул указанного типа не существует, создает его автоматически.
+Если верхний или нижний колонтитул указанного типа не существует, он создается автоматически.
 
 ### Примеры
 
@@ -138,7 +138,7 @@ builder.Write("This is the footer, which will be displayed in sections 1, 2 and 
 doc.Sections[1].HeadersFooters.LinkToPrevious(true);
 
 // Каждый раздел по-прежнему будет иметь свои собственные объекты верхнего/нижнего колонтитула. Когда мы связываем разделы,
-// раздел ссылки будет отображать верхний и нижний колонтитулы связанного раздела, сохраняя при этом свои собственные.
+// раздел ссылок будет отображать верхний и нижний колонтитулы связанного раздела, сохраняя при этом свои собственные.
 Assert.AreNotEqual(doc.Sections[0].HeadersFooters[0], doc.Sections[1].HeadersFooters[0]);
 Assert.AreNotEqual(doc.Sections[0].HeadersFooters[0].ParentSection, doc.Sections[1].HeadersFooters[0].ParentSection);
 

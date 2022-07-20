@@ -1,14 +1,14 @@
 ---
 title: UseBookFoldPrintingSettings
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置一个布尔值指示是否应使用小册子打印布局保存文档如果是通过R5 指定的 PAspose.Words.PageSetup.MultiplePages
+description: 获取或设置一个布尔值指示是否应使用小册子打印布局保存文档 如果通过以下方式指定MultiplePagesaspose.words/pagesetup/multiplepages.
 type: docs
 weight: 270
 url: /zh/net/aspose.words.saving/pdfsaveoptions/usebookfoldprintingsettings/
 ---
 ## PdfSaveOptions.UseBookFoldPrintingSettings property
 
-获取或设置一个布尔值，指示是否应使用小册子打印布局保存文档，如果是通过:::R5 指定的 :P:Aspose.Words.PageSetup.MultiplePages:::。
+获取或设置一个布尔值，指示是否应使用小册子打印布局保存文档， 如果通过以下方式指定[`MultiplePages`](../../../aspose.words/pagesetup/multiplepages).
 
 ```csharp
 public bool UseBookFoldPrintingSettings { get; set; }
@@ -16,11 +16,11 @@ public bool UseBookFoldPrintingSettings { get; set; }
 
 ### 评论
 
-如果指定此选项，[`PageSet`](../../fixedpagesaveoptions/pageset)在保存时被忽略。 此行为与 MS Word 匹配。 如果页面设置中没有指定折页打印设置，则此选项无效。
+如果指定了这个选项，[`PageSet`](../../fixedpagesaveoptions/pageset)保存时被忽略。 此行为与 MS Word 匹配。 如果在页面设置中未指定书本折叠打印设置，此选项将无效。
 
 ### 例子
 
-显示如何以折页形式将文档保存为 PDF 格式。
+展示如何以折页的形式将文档保存为 PDF 格式。
 
 ```csharp
 Document doc = new Document(MyDir + "Paragraphs.docx");

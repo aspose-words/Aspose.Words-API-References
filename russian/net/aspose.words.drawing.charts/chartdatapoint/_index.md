@@ -1,14 +1,14 @@
 ---
 title: ChartDataPoint
 second_title: Справочник по API Aspose.Words для .NET
-description: Позволяет задать форматирование одной точки данных на графике.
+description: Позволяет задать форматирование одной точки данных на диаграмме.
 type: docs
 weight: 650
 url: /ru/net/aspose.words.drawing.charts/chartdatapoint/
 ---
 ## ChartDataPoint class
 
-Позволяет задать форматирование одной точки данных на графике.
+Позволяет задать форматирование одной точки данных на диаграмме.
 
 ```csharp
 public class ChartDataPoint : IChartDataPoint
@@ -29,11 +29,11 @@ public class ChartDataPoint : IChartDataPoint
 
 | Имя | Описание |
 | --- | --- |
-| [ClearFormat](../../aspose.words.drawing.charts/chartdatapoint/clearformat)() | Очищает формат этой точки данных. Для свойств устанавливаются значения по умолчанию, определенные в родительском ряду. |
+| [ClearFormat](../../aspose.words.drawing.charts/chartdatapoint/clearformat)() | Очищает формат этой точки данных. Для свойств установлены значения по умолчанию, определенные в родительской серии. |
 
 ### Примечания
 
-В серииОбъектChartDataPointявляется членом коллекции[`ChartDataPointCollection`](../chartdatapointcollection). Коллекция[`ChartDataPointCollection`](../chartdatapointcollection)содержит объект[`ChartDataPoint`](../chartdatapoint)для каждая точка.
+В сериале[`ChartDataPoint`](../chartdatapoint) объект является членом[`ChartDataPointCollection`](../chartdatapointcollection) . [`ChartDataPointCollection`](../chartdatapointcollection) содержит[`ChartDataPoint`](../chartdatapoint) объект для каждой точки.
 
 ### Примеры
 

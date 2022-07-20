@@ -1,14 +1,14 @@
 ---
 title: TabChar
 second_title: Aspose.Words for .NET API 参考
-description: 制表符char9 或 t
+description: 制表符char9 或 t.
 type: docs
 weight: 280
 url: /zh/net/aspose.words/controlchar/tabchar/
 ---
 ## ControlChar.TabChar field
 
-制表符:(char)9 或 "\t"。
+制表符：(char)9 或 "\t".
 
 ```csharp
 public const char TabChar;

@@ -3,7 +3,7 @@ title: PdfDigitalSignatureTimestampSettings
 second_title: Aspose.Words for .NET API 参考
 description: 包含数字签名时间戳的设置
 type: docs
-weight: 5120
+weight: 5170
 url: /zh/net/aspose.words.saving/pdfdigitalsignaturetimestampsettings/
 ---
 ## PdfDigitalSignatureTimestampSettings class
@@ -33,7 +33,7 @@ public class PdfDigitalSignatureTimestampSettings
 
 ### 例子
 
-显示如何对保存的 PDF 文档进行数字签名并为其添加时间戳。
+展示如何以数字方式签署已保存的 PDF 文档并为其添加时间戳。
 
 ```csharp
 Document doc = new Document();

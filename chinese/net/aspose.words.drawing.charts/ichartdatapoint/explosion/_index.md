@@ -1,14 +1,14 @@
 ---
 title: Explosion
 second_title: Aspose.Words for .NET API 参考
-description: 指定数据点应从饼图中心移动的量 可以为负数负数表示未设置属性不应应用爆炸 仅适用于饼图
+description: 指定数据点应从饼图中心移动的量 可以为负数负数表示未设置属性且不应应用爆炸 仅适用于饼图
 type: docs
 weight: 20
 url: /zh/net/aspose.words.drawing.charts/ichartdatapoint/explosion/
 ---
 ## IChartDataPoint.Explosion property
 
-指定数据点应从饼图中心移动的量。 可以为负数，负数表示未设置属性，不应应用爆炸。 仅适用于饼图。
+指定数据点应从饼图中心移动的量。 可以为负数，负数表示未设置属性且不应应用爆炸。 仅适用于饼图。
 
 ```csharp
 public int Explosion { get; set; }

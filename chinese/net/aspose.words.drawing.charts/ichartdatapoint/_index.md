@@ -19,9 +19,9 @@ public interface IChartDataPoint
 | 姓名 | 描述 |
 | --- | --- |
 | [Bubble3D](../../aspose.words.drawing.charts/ichartdatapoint/bubble3d) { get; set; } | 指定气泡图中的气泡是否应应用 3-D 效果。 |
-| [Explosion](../../aspose.words.drawing.charts/ichartdatapoint/explosion) { get; set; } | 指定数据点应从饼图中心移动的量。 可以为负数，负数表示未设置属性，不应应用爆炸。 仅适用于饼图。 |
+| [Explosion](../../aspose.words.drawing.charts/ichartdatapoint/explosion) { get; set; } | 指定数据点应从饼图中心移动的量。 可以为负数，负数表示未设置属性且不应应用爆炸。 仅适用于饼图。 |
 | [InvertIfNegative](../../aspose.words.drawing.charts/ichartdatapoint/invertifnegative) { get; set; } | 指定如果值为负数，父元素是否应反转其颜色。 |
-| [Marker](../../aspose.words.drawing.charts/ichartdatapoint/marker) { get; } | 指定数据标记。请求时会自动创建标记。 |
+| [Marker](../../aspose.words.drawing.charts/ichartdatapoint/marker) { get; } | 指定数据标记。请求时自动创建标记。 |
 
 ### 例子
 

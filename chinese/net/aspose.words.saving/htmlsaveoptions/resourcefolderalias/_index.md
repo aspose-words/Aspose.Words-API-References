@@ -16,17 +16,17 @@ public string ResourceFolderAlias { get; set; }
 
 ### 评论
 
-`ResourceFolderAlias`是指定所有资源文件的 URI 应如何构造 的最简单方法。可以通过[`ImagesFolderAlias`](../imagesfolderalias) 和FontsFolderAlias属性，分别。但是，CSS 没有单独的属性。
+`ResourceFolderAlias`是指定所有资源文件的 URI 应如何 构造的最简单方法。可以通过分别为图像和字体指定相同的信息[`ImagesFolderAlias`](../imagesfolderalias) 和[`FontsFolderAlias`](../fontsfolderalias)属性，分别。但是，CSS. 没有单独的属性
 
-`ResourceFolderAlias`优先级低于[`FontsFolderAlias`](../fontsfolderalias) 和[`ImagesFolderAlias`](../imagesfolderalias)。例如，如果`ResourceFolderAlias` 和[`FontsFolderAlias`](../fontsfolderalias)指定，字体的 URI 将使用 [`FontsFolderAlias`](../fontsfolderalias)构造，而图像和 CSS 的 URI 将使用构造`ResourceFolderAlias`。
+`ResourceFolderAlias`优先级低于[`FontsFolderAlias`](../fontsfolderalias) 和[`ImagesFolderAlias`](../imagesfolderalias).例如，如果两者`ResourceFolderAlias` 和[`FontsFolderAlias`](../fontsfolderalias)已指定，字体的 URI 将使用 构造[`FontsFolderAlias`](../fontsfolderalias) 而图像和 CSS 的 URI 将使用 构建`ResourceFolderAlias`.
 
 如果`ResourceFolderAlias`为空，则[`ResourceFolder`](../resourcefolder)属性值将用于 来构造资源 URI。
 
-如果`ResourceFolderAlias`设置为“。” （点），资源 URI 将仅包含文件名，不包含 任何路径。
+如果`ResourceFolderAlias`被设定为 '。' （点），资源 URI 将只包含文件名，没有 任何路径。
 
 ### 例子
 
-显示如何为 Aspose.Words 将在何时创建的外部保存资源设置文件夹和文件夹别名将文档保存为 HTML。
+展示如何为 Aspose.Words 在将文档保存为 HTML 时创建的外部保存资源设置文件夹和文件夹别名。
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");

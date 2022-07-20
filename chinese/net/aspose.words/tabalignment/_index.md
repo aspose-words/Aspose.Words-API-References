@@ -3,7 +3,7 @@ title: TabAlignment
 second_title: Aspose.Words for .NET API 参考
 description: 指定制表位的对齐方式/类型
 type: docs
-weight: 5830
+weight: 5880
 url: /zh/net/aspose.words/tabalignment/
 ---
 ## TabAlignment enumeration
@@ -20,7 +20,7 @@ public enum TabAlignment
 | --- | --- | --- |
 | Left | `0` | 将制表位后的文本左对齐。 |
 | Center | `1` | 使文本围绕制表位居中。 |
-| Right | `2` | 右对齐制表位处的文本。 |
+| Right | `2` | 在制表位处右对齐文本。 |
 | Decimal | `3` | 在小数点处对齐文本。 |
 | Bar | `4` | 在制表位位置绘制竖线。 |
 | List | `6` | 制表符是列表项中数字/项目符号和文本之间的分隔符。 |

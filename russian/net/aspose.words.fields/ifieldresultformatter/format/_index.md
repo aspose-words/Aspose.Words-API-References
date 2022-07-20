@@ -16,7 +16,7 @@ public string Format(string value, GeneralFormat format)
 
 ### Примечания
 
-Реализация должна вернуть **null** , чтобы указать, что следует применять форматирование по умолчанию.
+Реализация должна вернуть **нулевой** чтобы указать, что следует применять форматирование по умолчанию.
 
 ### Примеры
 
@@ -162,7 +162,7 @@ private class FieldResultFormatter : IFieldResultFormatter
 
 ## Format(double, GeneralFormat) {#format}
 
-Вызывается, когда Aspose.Words применяет переключатель числового формата, т.е. \* Порядковый номер.
+Вызывается, когда Aspose.Words применяет переключатель числового формата, т.е. \* Ordinal.
 
 ```csharp
 public string Format(double value, GeneralFormat format)
@@ -170,7 +170,7 @@ public string Format(double value, GeneralFormat format)
 
 ### Примечания
 
-Реализация должна вернуть **null** , чтобы указать, что следует применять форматирование по умолчанию.
+Реализация должна вернуть **нулевой** чтобы указать, что следует применять форматирование по умолчанию.
 
 ### Примеры
 

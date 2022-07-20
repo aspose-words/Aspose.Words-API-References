@@ -16,7 +16,7 @@ public JoinStyle JoinStyle { get; set; }
 
 ### Примечания
 
-Значение по умолчанию:Круглый.
+Значение по умолчаниюRound.
 
 ### Примеры
 
@@ -34,7 +34,7 @@ Shape shape = builder.InsertShape(ShapeType.Rectangle, RelativeHorizontalPositio
 shape.Fill.ForeColor = Color.White;
 
 // 2 - Обводка, обозначающая контур фигуры:
-// Измените различные свойства обводки этой фигуры.
+// Изменяем различные свойства обводки этой фигуры.
 Stroke stroke = shape.Stroke;
 stroke.On = true;
 stroke.Weight = 5;

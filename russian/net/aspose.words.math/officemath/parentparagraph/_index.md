@@ -1,14 +1,14 @@
 ---
 title: ParentParagraph
 second_title: Справочник по API Aspose.Words для .NET
-description: Извлекает родителяParagraphaspose.words/paragraphэтого узла.
+description: Извлекает родителяParagraphaspose.words/paragraph этого узла.
 type: docs
 weight: 60
 url: /ru/net/aspose.words.math/officemath/parentparagraph/
 ---
 ## OfficeMath.ParentParagraph property
 
-Извлекает родителя[`Paragraph`](../../../aspose.words/paragraph)этого узла.
+Извлекает родителя[`Paragraph`](../../../aspose.words/paragraph) этого узла.
 
 ```csharp
 public Paragraph ParentParagraph { get; }

@@ -1,14 +1,14 @@
 ---
 title: Borders
 second_title: Aspose.Words for .NET API 参考
-description: 获取样式的默认单元格边框的集合
+description: 获取样式的默认单元格边框集合
 type: docs
 weight: 40
 url: /zh/net/aspose.words/tablestyle/borders/
 ---
 ## TableStyle.Borders property
 
-获取样式的默认单元格边框的集合。
+获取样式的默认单元格边框集合。
 
 ```csharp
 public BorderCollection Borders { get; }
@@ -47,7 +47,7 @@ tableStyle.VerticalAlignment = CellVerticalAlignment.Center;
 
 table.Style = tableStyle;
 
- // 设置表格的样式属性可能会影响表格本身的属性
+// 设置表格的样式属性可能会影响表格本身的属性。
 Assert.True(table.Bidi);
 Assert.AreEqual(5.0d, table.CellSpacing);
 Assert.AreEqual("MyTableStyle1", table.StyleName);

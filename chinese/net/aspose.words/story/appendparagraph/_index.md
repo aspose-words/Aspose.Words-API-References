@@ -1,14 +1,14 @@
 ---
 title: AppendParagraph
 second_title: Aspose.Words for .NET API 参考
-description: 创建带有可选文本的Paragraphaspose.words/paragraph对象并将其附加到该对象末尾的快捷方法
+description: 创建一个快捷方式Paragraphaspose.words/paragraph带有可选文本的对象并将其附加到此对象的末尾
 type: docs
 weight: 60
 url: /zh/net/aspose.words/story/appendparagraph/
 ---
 ## Story.AppendParagraph method
 
-创建带有可选文本的[`Paragraph`](../../paragraph)对象并将其附加到该对象末尾的快捷方法。
+创建一个快捷方式[`Paragraph`](../../paragraph)带有可选文本的对象并将其附加到此对象的末尾。
 
 ```csharp
 public Paragraph AppendParagraph(string text)

@@ -1,14 +1,14 @@
 ---
 title: IsLink
 second_title: Справочник по API Aspose.Words для .NET
-description: Возвращает true если изображение связано с фигурой когда указаноSourceFullNameaspose.words.drawing/imagedata/sourcefullname.
+description: Возвращает true если изображение связано с фигурой когдаSourceFullNameaspose.words.drawing/imagedata/sourcefullname указано.
 type: docs
 weight: 150
 url: /ru/net/aspose.words.drawing/imagedata/islink/
 ---
 ## ImageData.IsLink property
 
-Возвращает true, если изображение связано с фигурой (когда указано[`SourceFullName`](../sourcefullname)).
+Возвращает true, если изображение связано с фигурой (когда[`SourceFullName`](../sourcefullname) указано).
 
 ```csharp
 public bool IsLink { get; }
@@ -16,7 +16,7 @@ public bool IsLink { get; }
 
 ### Примеры
 
-Показывает, как редактировать данные изображения формы.
+Показывает, как редактировать данные изображения фигуры.
 
 ```csharp
 Document imgSourceDoc = new Document(MyDir + "Images.docx");
@@ -24,31 +24,31 @@ Shape sourceShape = (Shape)imgSourceDoc.GetChildNodes(NodeType.Shape, true)[0];
 
 Document dstDoc = new Document();
 
- // Импортируем фигуру из исходного документа и добавляем ее к первому абзацу.
+// Импорт фигуры из исходного документа и добавление ее к первому абзацу.
 Shape importedShape = (Shape)dstDoc.ImportNode(sourceShape, true);
 dstDoc.FirstSection.Body.FirstParagraph.AppendChild(importedShape);
 
- // Импортированная фигура содержит изображение. Мы можем получить доступ к свойствам изображения и необработанным данным через объект ImageData.
+// Импортированная фигура содержит изображение. Мы можем получить доступ к свойствам изображения и необработанным данным через объект ImageData.
 ImageData imageData = importedShape.ImageData;
 imageData.Title = "Imported Image";
 
 Assert.True(imageData.HasImage);
 
- // Если изображение не имеет границ, его объект ImageData определит цвет границы как пустой.
+// Если изображение не имеет границ, его объект ImageData определит цвет границы как пустой.
 Assert.AreEqual(4, imageData.Borders.Count);
 Assert.AreEqual(Color.Empty, imageData.Borders[0].Color);
 
- // Это изображение не связано с другим файлом фигуры или изображения в локальной файловой системе.
+// Это изображение не связано с другим файлом фигуры или изображения в локальной файловой системе.
 Assert.False(imageData.IsLink);
 Assert.False(imageData.IsLinkOnly);
 
- // Свойства "Яркость" и "Контрастность" определяют яркость и контрастность изображения
- // по шкале от 0 до 1 со значением по умолчанию 0,5.
+// Свойства "Яркость" и "Контрастность" определяют яркость и контрастность изображения
+// по шкале от 0 до 1 со значением по умолчанию 0,5.
 imageData.Brightness = 0.8;
 imageData.Contrast = 1.0;
 
- // Указанные выше значения яркости и контрастности создали изображение с большим количеством белого.
- // Мы можем выбрать цвет со свойством ChromaKey для замены на прозрачность, например, белый.
+// Указанные выше значения яркости и контрастности создали изображение с большим количеством белого.
+// Мы можем выбрать цвет с помощью свойства ChromaKey, чтобы заменить его прозрачностью, например, белым.
 imageData.ChromaKey = Color.White;
 
 // Снова импортируем исходную форму и делаем изображение монохромным.
@@ -57,15 +57,15 @@ dstDoc.FirstSection.Body.FirstParagraph.AppendChild(importedShape);
 
 importedShape.ImageData.GrayScale = true;
 
- // Снова импортируем исходную форму, чтобы создать третье изображение, и установим для него значение BiLevel.
- // BiLevel устанавливает для каждого пикселя черный или белый цвет, в зависимости от того, какой из них ближе к исходному цвету.
+// Снова импортируйте исходную форму, чтобы создать третье изображение, и установите для него значение BiLevel.
+// BiLevel устанавливает для каждого пикселя черный или белый цвет, в зависимости от того, какой из них ближе к исходному цвету.
 importedShape = (Shape)dstDoc.ImportNode(sourceShape, true);
 dstDoc.FirstSection.Body.FirstParagraph.AppendChild(importedShape);
 
 importedShape.ImageData.BiLevel = true;
 
- // Обрезка определяется по шкале 0-1. Обрезка стороны на 0.3
- // обрежет 30% изображения по обрезанной стороне.
+// Обрезка определяется по шкале 0-1. Обрезка стороны на 0,3
+// обрезает 30% изображения с обрезанной стороны.
 importedShape.ImageData.CropBottom = 0.3;
 importedShape.ImageData.CropLeft = 0.3;
 importedShape.ImageData.CropTop = 0.3;

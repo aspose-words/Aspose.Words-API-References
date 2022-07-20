@@ -28,20 +28,20 @@ public void SetShading(TextureIndex texture, Color foregroundColor, Color backgr
 Document doc = new Document(MyDir + "Tables.docx");
 Table table = doc.FirstSection.Body.Tables[0];
 
- // 将表格与页面中心对齐
+// 将表格与页面中心对齐。
 table.Alignment = TableAlignment.Center;
 
- // 清除表格中任何现有的边框和阴影。
+// 清除表格中任何现有的边框和阴影。
 table.ClearBorders();
 table.ClearShading();
 
- // 为表格的轮廓添加绿色边框。
+// 为表格的轮廓添加绿色边框。
 table.SetBorder(BorderType.Left, LineStyle.Single, 1.5, Color.Green, true);
 table.SetBorder(BorderType.Right, LineStyle.Single, 1.5, Color.Green, true);
 table.SetBorder(BorderType.Top, LineStyle.Single, 1.5, Color.Green, true);
 table.SetBorder(BorderType.Bottom, LineStyle.Single, 1.5, Color.Green, true);
 
- // 用浅绿色纯色填充单元格。
+// 用浅绿色纯色填充单元格。
 table.SetShading(TextureIndex.TextureSolid, Color.LightGreen, Color.Empty);
 
 doc.Save(ArtifactsDir + "Table.SetOutlineBorders.docx");

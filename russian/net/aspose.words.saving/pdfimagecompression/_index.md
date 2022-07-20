@@ -3,7 +3,7 @@ title: PdfImageCompression
 second_title: Справочник по API Aspose.Words для .NET
 description: Указывает тип сжатия применяемый к изображениям в файле PDF.
 type: docs
-weight: 5160
+weight: 5210
 url: /ru/net/aspose.words.saving/pdfimagecompression/
 ---
 ## PdfImageCompression enumeration

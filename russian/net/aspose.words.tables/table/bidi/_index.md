@@ -16,9 +16,9 @@ public bool Bidi { get; set; }
 
 ### Примечания
 
-Когда` true` , ячейки в этом ряду располагаются справа налево.
+Когда`истинный`, ячейки в этом ряду располагаются справа налево.
 
-Значение по умолчанию:` false` .
+Значение по умолчанию`ЛОЖЬ`.
 
 ### Примеры
 
@@ -53,7 +53,7 @@ tableStyle.VerticalAlignment = CellVerticalAlignment.Center;
 
 table.Style = tableStyle;
 
- // Установка свойств стиля таблицы может повлиять на свойства самой таблицы.
+// Установка свойств стиля таблицы может повлиять на свойства самой таблицы.
 Assert.True(table.Bidi);
 Assert.AreEqual(5.0d, table.CellSpacing);
 Assert.AreEqual("MyTableStyle1", table.StyleName);

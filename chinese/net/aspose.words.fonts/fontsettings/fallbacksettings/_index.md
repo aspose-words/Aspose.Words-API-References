@@ -16,7 +16,7 @@ public FontFallbackSettings FallbackSettings { get; }
 
 ### 例子
 
-显示如何在 Unicode 字符代码范围内分布备用字体。
+展示如何在 Unicode 字符代码范围内分布备用字体。
 
 ```csharp
 Document doc = new Document();

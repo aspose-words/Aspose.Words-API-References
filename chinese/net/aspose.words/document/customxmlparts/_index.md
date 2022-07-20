@@ -16,13 +16,13 @@ public CustomXmlPartCollection CustomXmlParts { get; set; }
 
 ### 评论
 
-Aspose.Words 仅将自定义 XML 部件加载并保存到 OOXML 和 DOC 文档中。
+Aspose.Words 仅将自定义 XML 部件加载和保存到 OOXML 和 DOC 文档中。
 
-此属性不能为` null` 。
+该属性不能`无效的`.
 
 ### 例子
 
-展示如何使用自定义 XML 数据。
+展示如何使用自定义 XML 数据创建结构化文档标签。
 
 ```csharp
 Document doc = new Document();

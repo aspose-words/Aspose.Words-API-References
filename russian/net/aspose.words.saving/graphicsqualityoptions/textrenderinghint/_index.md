@@ -1,14 +1,14 @@
 ---
 title: TextRenderingHint
 second_title: Справочник по API Aspose.Words для .NET
-description: Получает или задает режим рендеринга для текста связанного с этим объектом Graphics.
+description: Получает или задает режим рендеринга для текста связанного с этой графикой.
 type: docs
 weight: 70
 url: /ru/net/aspose.words.saving/graphicsqualityoptions/textrenderinghint/
 ---
 ## GraphicsQualityOptions.TextRenderingHint property
 
-Получает или задает режим рендеринга для текста, связанного с этим объектом Graphics.
+Получает или задает режим рендеринга для текста, связанного с этой графикой.
 
 ```csharp
 public TextRenderingHint? TextRenderingHint { get; set; }

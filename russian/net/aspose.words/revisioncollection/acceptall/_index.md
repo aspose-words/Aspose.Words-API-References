@@ -1,14 +1,14 @@
 ---
 title: AcceptAll
 second_title: Справочник по API Aspose.Words для .NET
-description: Принимает все ревизии в этой коллекции.
+description: Принимает все версии в этой коллекции.
 type: docs
 weight: 40
 url: /ru/net/aspose.words/revisioncollection/acceptall/
 ---
 ## RevisionCollection.AcceptAll method
 
-Принимает все ревизии в этой коллекции.
+Принимает все версии в этой коллекции.
 
 ```csharp
 public void AcceptAll()

@@ -1,16 +1,16 @@
 ---
 title: EmbedSystemFonts
 second_title: Aspose.Words for .NET API 参考
-description: 指定是否将系统字体嵌入到文档中 此属性的默认值为 false 
+description: 指定是否将系统字体嵌入到文档中 此属性的默认值为 错误的.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.fonts/fontinfocollection/embedsystemfonts/
 ---
 ## FontInfoCollection.EmbedSystemFonts property
 
-指定是否将系统字体嵌入到文档中。 此属性的默认值为 **false** 。
+指定是否将系统字体嵌入到文档中。 此属性的默认值为 **错误的**.
 
-此选项仅在[`EmbedTrueTypeFonts`](../embedtruetypefonts)选项设置为 **时有效 真** 。
+此选项仅在以下情况下有效[`EmbedTrueTypeFonts`](../embedtruetypefonts)选项设置为 **真的**.
 
 ```csharp
 public bool EmbedSystemFonts { get; set; }
@@ -18,7 +18,7 @@ public bool EmbedSystemFonts { get; set; }
 
 ### 评论
 
-将此属性设置为` True` 很有用，如果用户在东亚系统 上并且想要创建一个其他人可以阅读的文档，而其他人没有该字体 他们系统上的语言。例如，日文系统上的用户可以选择在文档中嵌入 字体，以便日文文档在所有系统上都可读。
+将此属性设置为`真的`如果用户在东亚系统 上并且想要创建一个文档，该文档可供在其系统上没有该 语言字体的其他人可读，这将非常有用。例如，日文系统上的用户可以选择在文档中嵌入 the 字体，以便日文文档在所有系统上都可读。
 
 此选项仅适用于 DOC、DOCX 和 RTF 格式。
 

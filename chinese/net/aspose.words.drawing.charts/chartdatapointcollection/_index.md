@@ -1,14 +1,14 @@
 ---
 title: ChartDataPointCollection
 second_title: Aspose.Words for .NET API 参考
-description: 表示ChartDataPoint./chartdatapoint的集合
+description: 代表一个集合ChartDataPoint./chartdatapoint.
 type: docs
 weight: 660
 url: /zh/net/aspose.words.drawing.charts/chartdatapointcollection/
 ---
 ## ChartDataPointCollection class
 
-表示[`ChartDataPoint`](../chartdatapoint)的集合。
+代表一个集合[`ChartDataPoint`](../chartdatapoint).
 
 ```csharp
 public class ChartDataPointCollection : IEnumerable<ChartDataPoint>
@@ -18,14 +18,14 @@ public class ChartDataPointCollection : IEnumerable<ChartDataPoint>
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Count](../../aspose.words.drawing.charts/chartdatapointcollection/count) { get; } | 返回此集合中[`ChartDataPoint`](../chartdatapoint)的数量。 |
-| [Item](../../aspose.words.drawing.charts/chartdatapointcollection/item) { get; } | 返回指定索引的[`ChartDataPoint`](../chartdatapoint)。 |
+| [Count](../../aspose.words.drawing.charts/chartdatapointcollection/count) { get; } | 返回数量[`ChartDataPoint`](../chartdatapoint)在这个集合中。 |
+| [Item](../../aspose.words.drawing.charts/chartdatapointcollection/item) { get; } | 返回[`ChartDataPoint`](../chartdatapoint)对于指定的索引。 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ClearFormat](../../aspose.words.drawing.charts/chartdatapointcollection/clearformat)() | 清除此集合中所有[`ChartDataPoint`](../chartdatapoint)的格式。 |
+| [ClearFormat](../../aspose.words.drawing.charts/chartdatapointcollection/clearformat)() | 清除所有格式[`ChartDataPoint`](../chartdatapoint)在这个集合中。 |
 | [GetEnumerator](../../aspose.words.drawing.charts/chartdatapointcollection/getenumerator)() | 返回一个枚举器对象。 |
 
 ### 例子

@@ -21,35 +21,29 @@ public MultiplePagesType MultiplePages { get; set; }
 ```csharp
 Document doc = new Document();
 
-// Вставляем текст, занимающий несколько страниц.
+// Вставить текст, занимающий 16 страниц.
 DocumentBuilder builder = new DocumentBuilder(doc);
-for (int i = 0; i < 6; i++)
+builder.Writeln("My Booklet:");
+
+for (int i = 0; i < 15; i++)
 {
-    builder.Write("Lorem ipsum dolor sit amet, consectetur adipiscing elit, " +
-                  "sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.");
     builder.InsertBreak(BreakType.PageBreak);
+    builder.Write($"Booklet face #{i}");
 }
 
-// Желоб добавляет пробелы к левому или правому полю страницы,
-// что компенсирует сгибание страниц по центру в книге, вторгающееся в макет страницы.
+// Настройте свойство «PageSetup» первого раздела для печати документа в виде книжной складки.
+// Когда мы печатаем этот документ с обеих сторон, мы можем взять страницы, чтобы сложить их
+// и складываем их все сразу посередине. Содержимое документа выровняется в книжную складку.
 PageSetup pageSetup = doc.Sections[0].PageSetup;
+pageSetup.MultiplePages = MultiplePagesType.BookFoldPrinting;
 
- // Определяем, сколько места на наших страницах есть для текста на полях, а затем добавляем количество для заполнения поля.
-Assert.AreEqual(470.30d, pageSetup.PageWidth - pageSetup.LeftMargin - pageSetup.RightMargin, 0.01d);
+// Мы можем указать только количество листов, кратное 4.
+pageSetup.SheetsPerBooklet = 4;
 
-pageSetup.Gutter = 100.0d;
-
-// Установите для свойства "RtlGutter" значение "true", чтобы поместить поле в более подходящее положение для текста, написанного справа налево.
-pageSetup.RtlGutter = true;
-
-// Установите для свойства "MultiplePages" значение "MultiplePagesType.MirrorMargins" для чередования
-// положение полей слева/справа на каждой странице.
-pageSetup.MultiplePages = MultiplePagesType.MirrorMargins;
-
-doc.Save(ArtifactsDir + "PageSetup.Gutter.docx");
+doc.Save(ArtifactsDir + "PageSetup.Booklet.docx");
 ```
 
-Показывает, как установить поля переплета.
+Показывает, как установить поля желоба.
 
 ```csharp
 Document doc = new Document();

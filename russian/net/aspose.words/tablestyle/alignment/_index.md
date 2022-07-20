@@ -1,14 +1,14 @@
 ---
 title: Alignment
 second_title: Справочник по API Aspose.Words для .NET
-description: Задает выравнивание для стиля таблицы.
+description: Определяет выравнивание для стиля таблицы.
 type: docs
 weight: 10
 url: /ru/net/aspose.words/tablestyle/alignment/
 ---
 ## TableStyle.Alignment property
 
-Задает выравнивание для стиля таблицы.
+Определяет выравнивание для стиля таблицы.
 
 ```csharp
 public TableAlignment Alignment { get; set; }
@@ -16,7 +16,7 @@ public TableAlignment Alignment { get; set; }
 
 ### Примечания
 
-Значение по умолчанию:Left.
+Значение по умолчанию:Left .
 
 ### Примеры
 
@@ -27,13 +27,13 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Ниже приведены два способа выравнивания таблицы по горизонтали.
- // 1 — Используйте свойство «Выравнивание», чтобы выровнять его по месту на странице, например по центру:
+// 1 — Используйте свойство «Выравнивание», чтобы выровнять его по месту на странице, например по центру:
 TableStyle tableStyle = (TableStyle)doc.Styles.Add(StyleType.Table, "MyTableStyle1");
 tableStyle.Alignment = TableAlignment.Center;
 tableStyle.Borders.Color = Color.Blue;
 tableStyle.Borders.LineStyle = LineStyle.Single;
 
- // Вставляем таблицу и применяем к ней созданный нами стиль.
+// Вставляем таблицу и применяем к ней созданный нами стиль.
 Table table = builder.StartTable();
 builder.InsertCell();
 builder.Write("Aligned to the center of the page");
@@ -42,7 +42,7 @@ table.PreferredWidth = PreferredWidth.FromPoints(300);
 
 table.Style = tableStyle;
 
- // 2 - Используйте "LeftIndent", чтобы указать отступ от левого поля страницы: 
+// 2 - Используйте "LeftIndent", чтобы указать отступ от левого поля страницы:
 tableStyle = (TableStyle)doc.Styles.Add(StyleType.Table, "MyTableStyle2");
 tableStyle.LeftIndent = 55;
 tableStyle.Borders.Color = Color.Green;

@@ -16,11 +16,11 @@ public bool AnchorLocked { get; set; }
 
 ### 评论
 
-默认值为 **false** 。
+默认值为 **错误的**.
 
 仅对顶级形状有效。
 
-此属性会影响 Microsoft Word 中形状锚点的行为。 当锚点未锁定时，在 Microsoft Word 中移动形状可以移动 形状的锚点。
+此属性会影响 Microsoft Word 中形状锚点的行为。 当锚点未锁定时，在 Microsoft Word 中移动形状也可以移动 形状的锚点。
 
 ### 例子
 

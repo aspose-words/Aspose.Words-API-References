@@ -1,14 +1,14 @@
 ---
 title: OleControl
 second_title: Aspose.Words for .NET API 参考
-description: 如果此 OLE 对象是 ActiveX 控件则获取OleControlaspose.words.drawing/oleformat/olecontrol对象否则此属性为空
+description: 获取OleControlaspose.words.drawing/oleformat/olecontrol如果此 OLE 对象是 ActiveX 控件则为对象否则此属性为空
 type: docs
 weight: 60
 url: /zh/net/aspose.words.drawing/oleformat/olecontrol/
 ---
 ## OleFormat.OleControl property
 
-如果此 OLE 对象是 ActiveX 控件，则获取`OleControl`对象。否则此属性为空。
+获取`OleControl`如果此 OLE 对象是 ActiveX 控件，则为对象。否则此属性为空。
 
 ```csharp
 public OleControl OleControl { get; }
@@ -16,7 +16,7 @@ public OleControl OleControl { get; }
 
 ### 例子
 
-显示如何验证 ActiveX 控件的属性。
+演示如何验证 ActiveX 控件的属性。
 
 ```csharp
 Document doc = new Document(MyDir + "ActiveX controls.docx");

@@ -16,7 +16,7 @@ public string RightExpression { get; set; }
 
 ### Примеры
 
-Показывает, как сравнивать выражения с использованием поля COMPARE.
+Показывает, как сравнивать выражения с помощью поля COMPARE.
 
 ```csharp
 Document doc = new Document();
@@ -41,7 +41,7 @@ field.ComparisonOperator = "=";
 field.RightExpression = "2 + 3";
 field.Update();
 
-// В этом поле отображается «1», так как утверждение истинно.
+// В этом поле отображается «1», так как утверждение верно.
 Assert.AreEqual(" COMPARE  5 = \"2 + 3\"", field.GetFieldCode());
 Assert.AreEqual("1", field.Result);
 

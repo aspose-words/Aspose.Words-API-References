@@ -1,14 +1,14 @@
 ---
 title: IgnoreCaseChanges
 second_title: Справочник по API Aspose.Words для .NET
-description: True указывает что сравнение документов нечувствительно к регистру. По умолчанию сравнение чувствительно к регистру.
+description: True указывает что сравнение документов не зависит от регистра. По умолчанию сравнение чувствительно к регистру.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.comparing/compareoptions/ignorecasechanges/
 ---
 ## CompareOptions.IgnoreCaseChanges property
 
-True указывает, что сравнение документов нечувствительно к регистру. По умолчанию сравнение чувствительно к регистру.
+True указывает, что сравнение документов не зависит от регистра. По умолчанию сравнение чувствительно к регистру.
 
 ```csharp
 public bool IgnoreCaseChanges { get; set; }

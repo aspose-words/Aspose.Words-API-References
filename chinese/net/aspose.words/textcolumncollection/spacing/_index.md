@@ -1,14 +1,14 @@
 ---
 title: Spacing
 second_title: Aspose.Words for .NET API 参考
-description: 当列均匀分布时获取或设置每列之间的空间量以磅为单位
+description: 当列均匀分布时获取或设置每列之间的空间量以点为单位
 type: docs
 weight: 50
 url: /zh/net/aspose.words/textcolumncollection/spacing/
 ---
 ## TextColumnCollection.Spacing property
 
-当列均匀分布时，获取或设置每列之间的空间量（以磅为单位）。
+当列均匀分布时，获取或设置每列之间的空间量，以点为单位。
 
 ```csharp
 public double Spacing { get; set; }
@@ -16,7 +16,7 @@ public double Spacing { get; set; }
 
 ### 评论
 
-仅在:::R5:P:Aspose.Words.TextColumnCollection.EvenlySpaced::时有效:设置为 **true** 。
+只有在[`EvenlySpaced`](../evenlyspaced)被设定为 **真的**.
 
 ### 例子
 

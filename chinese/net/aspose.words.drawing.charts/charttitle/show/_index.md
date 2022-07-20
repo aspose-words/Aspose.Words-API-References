@@ -1,14 +1,14 @@
 ---
 title: Show
 second_title: Aspose.Words for .NET API 参考
-description: 确定是否应为此图表显示标题 默认值为真
+description: 确定是否应为此图表显示标题 默认值为 true
 type: docs
 weight: 20
 url: /zh/net/aspose.words.drawing.charts/charttitle/show/
 ---
 ## ChartTitle.Show property
 
-确定是否应为此图表显示标题。 默认值为真。
+确定是否应为此图表显示标题。 默认值为 true。
 
 ```csharp
 public bool Show { get; set; }
@@ -16,7 +16,7 @@ public bool Show { get; set; }
 
 ### 例子
 
-显示如何插入图表并设置标题。
+显示如何插入图表和设置标题。
 
 ```csharp
 Document doc = new Document();

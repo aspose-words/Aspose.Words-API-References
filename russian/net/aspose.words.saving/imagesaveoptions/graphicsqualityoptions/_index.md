@@ -1,14 +1,14 @@
 ---
 title: GraphicsQualityOptions
 second_title: Справочник по API Aspose.Words для .NET
-description: Позволяет указать режим и качество рендеринга для объектаGraphics.
+description: Позволяет указать режим и качество рендеринга дляGraphics объект.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.saving/imagesaveoptions/graphicsqualityoptions/
 ---
 ## ImageSaveOptions.GraphicsQualityOptions property
 
-Позволяет указать режим и качество рендеринга для объектаGraphics.
+Позволяет указать режим и качество рендеринга дляGraphics объект.
 
 ```csharp
 public GraphicsQualityOptions GraphicsQualityOptions { get; set; }

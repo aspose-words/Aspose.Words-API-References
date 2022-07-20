@@ -1,14 +1,14 @@
 ---
 title: SkipPdfImages
 second_title: Справочник по API Aspose.Words для .NET
-description: Получает или устанавливает флаг указывающий должны ли изображения пропускаться при загрузке PDF-документа. По умолчанию  Ложь.
+description: Получает или задает флаг указывающий следует ли пропускать изображения при загрузке документа PDF. По умолчанию  Ложь.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.loading/pdfloadoptions/skippdfimages/
 ---
 ## PdfLoadOptions.SkipPdfImages property
 
-Получает или устанавливает флаг, указывающий, должны ли изображения пропускаться при загрузке PDF-документа. По умолчанию — Ложь.
+Получает или задает флаг, указывающий, следует ли пропускать изображения при загрузке документа PDF. По умолчанию — Ложь.
 
 ```csharp
 public bool SkipPdfImages { get; set; }

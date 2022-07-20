@@ -1,14 +1,14 @@
 ---
 title: SaveFormat
 second_title: Aspose.Words for .NET API 参考
-description: 如果使用此保存选项对象则指定保存文档的格式 只能是Pdf
+description: 指定使用此保存选项对象时文档将保存的格式 只能是Pdf.
 type: docs
 weight: 250
 url: /zh/net/aspose.words.saving/pdfsaveoptions/saveformat/
 ---
 ## PdfSaveOptions.SaveFormat property
 
-如果使用此保存选项对象，则指定保存文档的格式。 只能是Pdf。
+指定使用此保存选项对象时文档将保存的格式。 只能是Pdf.
 
 ```csharp
 public override SaveFormat SaveFormat { get; set; }

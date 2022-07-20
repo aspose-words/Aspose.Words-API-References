@@ -22,7 +22,7 @@ public IEnumerator<Border> GetEnumerator()
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
- // Настройте параметры формата абзаца компоновщика, чтобы создать зеленую волнистую границу со всех сторон.
+// Настройте параметры формата абзаца компоновщика, чтобы создать зеленую волнистую границу со всех сторон.
 BorderCollection borders = builder.ParagraphFormat.Borders;
 
 using (IEnumerator<Border> enumerator = borders.GetEnumerator())
@@ -36,7 +36,7 @@ using (IEnumerator<Border> enumerator = borders.GetEnumerator())
     }
 }
 
- // Вставить абзац. Наши настройки границы будут определять внешний вид его границы.
+// Вставить абзац. Наши настройки границы будут определять внешний вид ее границы.
 builder.Writeln("Hello world!");
 
 doc.Save(ArtifactsDir + "BorderCollection.GetBordersEnumerator.docx");

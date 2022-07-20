@@ -1,14 +1,14 @@
 ---
 title: Save
 second_title: Справочник по API Aspose.Words для .NET
-description: Визуализирует форму в изображение и сохраняет в файл.
+description: Преобразует фигуру в изображение и сохраняет в файл.
 type: docs
 weight: 90
 url: /ru/net/aspose.words.rendering/noderendererbase/save/
 ---
 ## Save(string, ImageSaveOptions) {#save_1}
 
-Визуализирует форму в изображение и сохраняет в файл.
+Преобразует фигуру в изображение и сохраняет в файл.
 
 ```csharp
 public void Save(string fileName, ImageSaveOptions saveOptions)
@@ -49,7 +49,7 @@ math.GetMathRenderer().Save(ArtifactsDir + "Shape.RenderOfficeMath.png", saveOpt
 
 ## Save(Stream, ImageSaveOptions) {#save}
 
-Визуализирует форму в изображение и сохраняет в поток.
+Преобразует форму в изображение и сохраняет в поток.
 
 ```csharp
 public void Save(Stream stream, ImageSaveOptions saveOptions)
@@ -57,12 +57,12 @@ public void Save(Stream stream, ImageSaveOptions saveOptions)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| stream | Stream | Поток, в котором сохраняется изображение фигуры. |
-| saveOptions | ImageSaveOptions | Указывает параметры, управляющие визуализацией и сохранением фигуры. Может быть нулевым. Если это значение равно null, изображение будет сохранено в формате PNG. |
+| stream | Stream | Поток, в котором нужно сохранить изображение фигуры. |
+| saveOptions | ImageSaveOptions | Указывает параметры, управляющие визуализацией и сохранением фигуры. Может быть null. Если это значение null, изображение будет сохранено в формате PNG. |
 
 ### Примеры
 
-Показывает, как использовать визуализатор форм для экспорта фигур в файлы в локальной файловой системе.
+Показывает, как использовать средство визуализации фигур для экспорта фигур в файлы в локальной файловой системе.
 
 ```csharp
 Document doc = new Document(MyDir + "Various shapes.docx");

@@ -1,14 +1,14 @@
 ---
 title: ColorMode
 second_title: Aspose.Words for .NET API 参考
-description: 指定如何呈现颜色
+description: 指定颜色的渲染方式
 type: docs
-weight: 4550
+weight: 4600
 url: /zh/net/aspose.words.saving/colormode/
 ---
 ## ColorMode enumeration
 
-指定如何呈现颜色。
+指定颜色的渲染方式。
 
 ```csharp
 public enum ColorMode
@@ -19,7 +19,7 @@ public enum ColorMode
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
 | Normal | `0` | 使用未修改的颜色进行渲染。 |
-| Grayscale | `1` | 使用从白色到黑色的一系列灰色阴影进行渲染。 |
+| Grayscale | `1` | 使用从白色到黑色的灰色阴影范围内的颜色进行渲染。 |
 
 ### 例子
 

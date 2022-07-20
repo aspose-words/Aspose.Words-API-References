@@ -22,9 +22,9 @@ public double SpaceAfter { get; set; }
 
 ### 评论
 
-在SpaceAfterAuto时无效是真的。
+什么时候没有效果[`SpaceAfterAuto`](../spaceafterauto)是真的。
 
-有效值范围从0到1584（含）。
+有效值范围从 0 到 1584（含）。
 
 ### 例子
 
@@ -38,27 +38,20 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.ParagraphFormat.SpaceBefore = 24;
 builder.ParagraphFormat.SpaceAfter = 24;
 
-// 将“NoSpaceBetweenParagraphsOfSameStyle”标志设置为“true”以应用
-// 相同样式的段落之间没有间距，这会将相似的段落分组。
-// 将“NoSpaceBetweenParagraphsOfSameStyle”标志保留为“false”
-// 将间距均匀地应用于每个段落。
-builder.ParagraphFormat.NoSpaceBetweenParagraphsOfSameStyle = noSpaceBetweenParagraphsOfSameStyle;
+// 将这些标志设置为“true”以应用自动间距，
+// 有效地忽略了我们在上面设置的属性中的间距。
+// 将它们保留为“false”将应用我们的自定义段落间距。
+builder.ParagraphFormat.SpaceAfterAuto = autoSpacing;
+builder.ParagraphFormat.SpaceBeforeAuto = autoSpacing;
 
-builder.ParagraphFormat.Style = doc.Styles["Normal"];
-builder.Writeln($"Paragraph in the \"{builder.ParagraphFormat.Style.Name}\" style.");
-builder.Writeln($"Paragraph in the \"{builder.ParagraphFormat.Style.Name}\" style.");
-builder.Writeln($"Paragraph in the \"{builder.ParagraphFormat.Style.Name}\" style.");
-builder.ParagraphFormat.Style = doc.Styles["Quote"];
-builder.Writeln($"Paragraph in the \"{builder.ParagraphFormat.Style.Name}\" style.");
-builder.Writeln($"Paragraph in the \"{builder.ParagraphFormat.Style.Name}\" style.");
-builder.ParagraphFormat.Style = doc.Styles["Normal"];
-builder.Writeln($"Paragraph in the \"{builder.ParagraphFormat.Style.Name}\" style.");
-builder.Writeln($"Paragraph in the \"{builder.ParagraphFormat.Style.Name}\" style.");
+// 插入两个在其上方和下方有间距的段落并保存文档。
+builder.Writeln("Paragraph 1.");
+builder.Writeln("Paragraph 2.");
 
-doc.Save(ArtifactsDir + "ParagraphFormat.ParagraphSpacingSameStyle.docx");
+doc.Save(ArtifactsDir + "ParagraphFormat.ParagraphSpacingAuto.docx");
 ```
 
-显示如何在具有相同样式的段落之间应用无间距。
+演示如何在具有相同样式的段落之间应用无间距。
 
 ```csharp
 Document doc = new Document();

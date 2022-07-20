@@ -16,13 +16,13 @@ public ImageType ImageType { get; }
 
 ### 例子
 
-显示如何从文档中提取图像并保存它们作为单独的文件保存到本地文件系统。
+演示如何从文档中提取图像，并将它们作为单独的文件保存到本地文件系统。
 
 ```csharp
 Document doc = new Document(MyDir + "Images.docx");
 
- // 从文档中获取形状的集合，
- // 并将每个形状的图像数据与图像一起作为文件保存到本地文件系统。
+// 从文档中获取形状的集合，
+// 并将每个形状的图像数据与图像一起作为文件保存到本地文件系统。
 NodeCollection shapes = doc.GetChildNodes(NodeType.Shape, true);
 
 Assert.AreEqual(9, shapes.Count(s => ((Shape)s).HasImage));
@@ -32,8 +32,8 @@ foreach (Shape shape in shapes.OfType<Shape>())
 {
     if (shape.HasImage)
     {
-         // 形状的图像数据可能包含多种可能的图像格式的图像。 
-         // 我们可以根据格式自动确定每个图像的文件扩展名。
+        // 形状的图像数据可能包含多种可能的图像格式的图像。 
+        // 我们可以根据图像的格式自动确定每个图像的文件扩展名。
         string imageFileName =
             $"File.ExtractImages.{imageIndex}{FileFormatUtil.ImageTypeToExtension(shape.ImageData.ImageType)}";
         shape.ImageData.Save(ArtifactsDir + imageFileName);

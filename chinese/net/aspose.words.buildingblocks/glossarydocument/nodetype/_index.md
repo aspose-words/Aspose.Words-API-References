@@ -1,14 +1,14 @@
 ---
 title: NodeType
 second_title: Aspose.Words for .NET API 参考
-description: 返回GlossaryDocument值
+description: 返回GlossaryDocument值.
 type: docs
 weight: 50
 url: /zh/net/aspose.words.buildingblocks/glossarydocument/nodetype/
 ---
 ## GlossaryDocument.NodeType property
 
-返回GlossaryDocument值。
+返回GlossaryDocument值.
 
 ```csharp
 public override NodeType NodeType { get; }

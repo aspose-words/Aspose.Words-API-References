@@ -1,14 +1,14 @@
 ---
 title: GradientStop
 second_title: Справочник по API Aspose.Words для .NET
-description: Инициализирует новый экземпляр классаGradientStopaspose.words.drawing/gradientstop.
+description: Инициализирует новый экземплярGradientStopaspose.words.drawing/gradientstop класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.drawing/gradientstop/gradientstop/
 ---
 ## GradientStop(Color, double) {#constructor}
 
-Инициализирует новый экземпляр класса[`GradientStop`](../../gradientstop).
+Инициализирует новый экземпляр[`GradientStop`](../../gradientstop) класс.
 
 ```csharp
 public GradientStop(Color color, double position)
@@ -16,8 +16,8 @@ public GradientStop(Color color, double position)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| color | Color | Представляет цвет точки градиента. |
-| position | Double | Представляет позицию остановки в пределах градиента, выраженного в процентах в диапазоне от 0,0 до 1,0. |
+| color | Color | Представляет цвет остановки градиента. |
+| position | Double | Представляет положение остановки в пределах градиента, выраженного в процентах в диапазоне от 0,0 до 1,0. |
 
 ### Примеры
 
@@ -78,7 +78,7 @@ doc.Save(ArtifactsDir + "Shape.GradientStops.docx", saveOptions);
 
 ## GradientStop(Color, double, double) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`GradientStop`](../../gradientstop).
+Инициализирует новый экземпляр[`GradientStop`](../../gradientstop) класс.
 
 ```csharp
 public GradientStop(Color color, double position, double transparency)
@@ -86,9 +86,9 @@ public GradientStop(Color color, double position, double transparency)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| color | Color | Представляет цвет точки градиента. |
-| position | Double | Представляет позицию остановки в пределах градиента, выраженного в процентах в диапазоне от 0,0 до 1,0. |
-| transparency | Double | Представляет прозрачность стопа в пределах градиента, выраженного в процентах в диапазоне от 0,0 до 1,0. |
+| color | Color | Представляет цвет остановки градиента. |
+| position | Double | Представляет положение остановки в пределах градиента, выраженного в процентах в диапазоне от 0,0 до 1,0. |
+| transparency | Double | Представляет прозрачность остановки в пределах градиента, выраженного в процентах в диапазоне от 0,0 до 1,0. |
 
 ### Примеры
 

@@ -16,7 +16,7 @@ public void Delete()
 
 ### 例子
 
-显示如何为自定义 XML 部件设置 XML 映射。
+展示如何为自定义 XML 部件设置 XML 映射。
 
 ```csharp
 Document doc = new Document();

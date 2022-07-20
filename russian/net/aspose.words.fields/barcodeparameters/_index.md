@@ -3,7 +3,7 @@ title: BarcodeParameters
 second_title: Справочник по API Aspose.Words для .NET
 description: Класс-контейнер для параметров штрих-кода для передачи в BarcodeGenerator.
 type: docs
-weight: 1300
+weight: 1320
 url: /ru/net/aspose.words.fields/barcodeparameters/
 ---
 ## BarcodeParameters class
@@ -28,23 +28,23 @@ public class BarcodeParameters
 | [BackgroundColor](../../aspose.words.fields/barcodeparameters/backgroundcolor) { get; set; } | Цвет фона штрих-кода (0x000000 - 0xFFFFFF) |
 | [BarcodeType](../../aspose.words.fields/barcodeparameters/barcodetype) { get; set; } | Тип штрих-кода. |
 | [BarcodeValue](../../aspose.words.fields/barcodeparameters/barcodevalue) { get; set; } | Данные для кодирования. |
-| [CaseCodeStyle](../../aspose.words.fields/barcodeparameters/casecodestyle) { get; set; } | Стиль кода случая для штрих-кода типа ITF14. Допустимые значения:[STD&#x7C;EXT&#x7C;ADD] |
+| [CaseCodeStyle](../../aspose.words.fields/barcodeparameters/casecodestyle) { get; set; } | Стиль кода случая для штрих-кода типа ITF14. Допустимые значения: [STD&#x7C;EXT&#x7C;ADD] |
 | [DisplayText](../../aspose.words.fields/barcodeparameters/displaytext) { get; set; } | Отображать ли данные штрих-кода (текст) вместе с изображением. |
-| [ErrorCorrectionLevel](../../aspose.words.fields/barcodeparameters/errorcorrectionlevel) { get; set; } | Уровень исправления ошибок QR-кода. Допустимые значения:[0, 3]. |
-| [FacingIdentificationMark](../../aspose.words.fields/barcodeparameters/facingidentificationmark) { get; set; } | Тип знака идентификации лицевой стороны (FIM). |
-| [FixCheckDigit](../../aspose.words.fields/barcodeparameters/fixcheckdigit) { get; set; } | Исправлять ли контрольную цифру, если она недействительна. |
+| [ErrorCorrectionLevel](../../aspose.words.fields/barcodeparameters/errorcorrectionlevel) { get; set; } | Уровень исправления ошибок QR-кода. Допустимые значения: [0, 3]. |
+| [FacingIdentificationMark](../../aspose.words.fields/barcodeparameters/facingidentificationmark) { get; set; } | Тип маркировки лицевой стороны (FIM). |
+| [FixCheckDigit](../../aspose.words.fields/barcodeparameters/fixcheckdigit) { get; set; } | Нужно ли исправлять контрольную цифру, если она недействительна. |
 | [ForegroundColor](../../aspose.words.fields/barcodeparameters/foregroundcolor) { get; set; } | Основной цвет штрих-кода (0x000000 - 0xFFFFFF) |
-| [IsBookmark](../../aspose.words.fields/barcodeparameters/isbookmark) { get; set; } | Является ли[`PostalAddress`](./postaladdress)именем закладки. |
-| [IsUSPostalAddress](../../aspose.words.fields/barcodeparameters/isuspostaladdress) { get; set; } | Является ли[`PostalAddress`](./postaladdress)почтовым адресом в США. |
-| [PosCodeStyle](../../aspose.words.fields/barcodeparameters/poscodestyle) { get; set; } | Стиль штрих-кода торговой точки (типы штрих-кода UPCA&#x7C;UPCE&#x7C;EAN13&#x7C;EAN8). Допустимые значения (без учета регистра):[STD&#x7C;SUP2&#x7C;SUP5&#x7C;CASE]. |
+| [IsBookmark](../../aspose.words.fields/barcodeparameters/isbookmark) { get; set; } | Будь то[`PostalAddress`](./postaladdress) имя закладки. |
+| [IsUSPostalAddress](../../aspose.words.fields/barcodeparameters/isuspostaladdress) { get; set; } | Будь то[`PostalAddress`](./postaladdress) почтовый адрес в США. |
+| [PosCodeStyle](../../aspose.words.fields/barcodeparameters/poscodestyle) { get; set; } | Стиль штрих-кода торговой точки (типы штрих-кода UPCA&#x7C;UPCE&#x7C;EAN13&#x7C;EAN8). Допустимые значения (без учета регистра): [STD&#x7C;SUP2&#x7C;SUP5&#x7C;CASE]. |
 | [PostalAddress](../../aspose.words.fields/barcodeparameters/postaladdress) { get; set; } | Почтовый адрес со штрих-кодом. |
-| [ScalingFactor](../../aspose.words.fields/barcodeparameters/scalingfactor) { get; set; } | Коэффициент масштабирования символа. Значение указано в целых процентах, допустимые значения:[10, 1000]. |
+| [ScalingFactor](../../aspose.words.fields/barcodeparameters/scalingfactor) { get; set; } | Коэффициент масштабирования символа. Значение указано в целых процентах, допустимые значения: [10, 1000]. |
 | [SymbolHeight](../../aspose.words.fields/barcodeparameters/symbolheight) { get; set; } | Высота изображения штрих-кода (в твипах - 1/1440 дюйма) |
-| [SymbolRotation](../../aspose.words.fields/barcodeparameters/symbolrotation) { get; set; } | Вращение символа штрих-кода. Допустимые значения:[0, 3]. |
+| [SymbolRotation](../../aspose.words.fields/barcodeparameters/symbolrotation) { get; set; } | Вращение символа штрих-кода. Допустимые значения: [0, 3]. |
 
 ### Примечания
 
-Набор параметров соответствует параметрам поля DISPLAYBARCODE. См. точный список на[https://msdn.microsoft.com/en-us/library/hh745901(v=office.12).aspx](https://msdn.microsoft.com/en-us/library/hh745901(v=office.12).aspx)
+Набор параметров соответствует параметрам поля DISPLAYBARCODE. Точный список см. на[https://msdn.microsoft.com/en-us/library/hh745901(v=office.12).aspx](https://msdn.microsoft.com/en-us/library/hh745901(v=office.12).aspx)
 
 ### Примеры
 
@@ -54,14 +54,14 @@ public class BarcodeParameters
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
- // Мы можем использовать собственную реализацию IBarcodeGenerator для генерации штрих-кодов, 
- // и затем вставляем их в документ как изображения.
+// Мы можем использовать собственную реализацию IBarcodeGenerator для генерации штрих-кодов,
+// и затем вставляем их в документ как изображения.
 doc.FieldOptions.BarcodeGenerator = new CustomBarcodeGenerator();
 
- // Ниже приведены четыре примера различных типов штрих-кодов, которые мы можем создать с помощью нашего генератора.
- // Для каждого штрих-кода мы указываем новый набор параметров штрих-кода, а затем генерируем изображение.
+// Ниже приведены четыре примера различных типов штрих-кодов, которые мы можем создать с помощью нашего генератора.
+// Для каждого штрих-кода мы указываем новый набор параметров штрих-кода, а затем генерируем изображение.
 // После этого мы можем вставить изображение в документ или сохранить его в локальной файловой системе.
- // 1 - QR-код: 
+// 1 - QR-код:
 BarcodeParameters barcodeParameters = new BarcodeParameters
 {
     BarcodeType = "QR",
@@ -79,7 +79,7 @@ img.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.QR.jpg");
 
 builder.InsertImage(img);
 
- // 2 - штрих-код EAN13: 
+// 2 - штрих-код EAN13:
 barcodeParameters = new BarcodeParameters
 {
     BarcodeType = "EAN13",
@@ -93,7 +93,7 @@ img = doc.FieldOptions.BarcodeGenerator.GetBarcodeImage(barcodeParameters);
 img.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.EAN13.jpg");
 builder.InsertImage(img);
 
- // 3 - Штрих-код CODE39: 
+// 3 - штрих-код CODE39:
 barcodeParameters = new BarcodeParameters
 {
     BarcodeType = "CODE39",
@@ -105,7 +105,7 @@ img = doc.FieldOptions.BarcodeGenerator.GetBarcodeImage(barcodeParameters);
 img.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.CODE39.jpg");
 builder.InsertImage(img);
 
- // 4 - штрих-код ITF14: 
+// 4 - штрих-код ITF14:
 barcodeParameters = new BarcodeParameters
 {
     BarcodeType = "ITF14",

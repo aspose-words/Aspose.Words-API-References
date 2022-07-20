@@ -1,14 +1,14 @@
 ---
 title: FileCorruptedException
 second_title: Aspose.Words for .NET API 参考
-description: 在文档加载期间当文档似乎已损坏且无法加载时抛出
+description: 在文档加载期间抛出当文档似乎已损坏且无法加载时
 type: docs
-weight: 2570
+weight: 2620
 url: /zh/net/aspose.words/filecorruptedexception/
 ---
 ## FileCorruptedException class
 
-在文档加载期间，当文档似乎已损坏且无法加载时抛出。
+在文档加载期间抛出，当文档似乎已损坏且无法加载时。
 
 ```csharp
 public class FileCorruptedException : Exception
@@ -16,14 +16,13 @@ public class FileCorruptedException : Exception
 
 ### 例子
 
-显示如何捕获 FileCorruptedException。
+演示如何捕获 FileCorruptedException。
 
 ```csharp
 try
 {
-     // 如果我们在尝试使用 Microsoft Word 打开文档时收到“不可读的内容”错误消息，
-     // 尝试使用 Aspose.Words.
- 加载该文档时，我们可能会抛出异常
+    // 如果我们在尝试使用 Microsoft Word 打开文档时收到“不可读的内容”错误消息，
+    // 尝试使用 Aspose.Words 加载该文档时，我们可能会抛出异常。
     Document doc = new Document(MyDir + "Corrupted document.docx");
 }
 catch (FileCorruptedException e)

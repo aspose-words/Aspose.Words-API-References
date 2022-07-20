@@ -1,14 +1,14 @@
 ---
 title: GetEnumerator
 second_title: Справочник по API Aspose.Words для .NET
-description: Возвращает объектIEnumeratorдля перебора элементов набора.
+description: ВозвращаетIEnumerator объект для перебора элементов набора.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.reporting/knowntypeset/getenumerator/
 ---
 ## KnownTypeSet.GetEnumerator method
 
-Возвращает объектIEnumeratorдля перебора элементов набора.
+ВозвращаетIEnumerator объект для перебора элементов набора.
 
 ```csharp
 public IEnumerator<Type> GetEnumerator()
@@ -16,7 +16,7 @@ public IEnumerator<Type> GetEnumerator()
 
 ### Возвращаемое значение
 
-ОбъектIEnumeratorдля перебора элементов набора.
+АнIEnumerator объект для перебора элементов набора.
 
 ### Смотрите также
 

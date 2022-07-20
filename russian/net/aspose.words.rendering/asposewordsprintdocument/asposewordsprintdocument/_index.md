@@ -27,10 +27,10 @@ Document doc = new Document(MyDir + "Rendering.docx");
 
 PrintPreviewDialog previewDlg = new PrintPreviewDialog();
 
- // Вызовите метод "Show", чтобы форма предварительного просмотра печати отображалась сверху.
+// Вызовите метод "Show", чтобы форма предварительного просмотра печати отображалась сверху.
 previewDlg.Show();
 
- // Инициализируем диалог печати количеством страниц в документе.
+// Инициализируем диалог печати количеством страниц в документе.
 PrintDialog printDlg = new PrintDialog();
 printDlg.AllowSomePages = true;
 printDlg.PrinterSettings.MinimumPage = 1;
@@ -41,19 +41,19 @@ printDlg.PrinterSettings.ToPage = doc.PageCount;
 if (printDlg.ShowDialog() != DialogResult.OK)
     return;
 
- // Создаем реализацию "Aspose.Words" документа печати .NET,
- // и затем передаем настройки принтера из диалога.
+// Создаем реализацию "Aspose.Words" документа печати .NET,
+// и затем передать настройки принтера из диалогового окна.
 AsposeWordsPrintDocument awPrintDoc = new AsposeWordsPrintDocument(doc);
 awPrintDoc.PrinterSettings = printDlg.PrinterSettings;
 
- // Используем метод "CachePrinterSettings" для уменьшения времени первого вызова метода "Печать".
+// Используйте метод "CachePrinterSettings", чтобы сократить время первого вызова метода "Печать".
 awPrintDoc.CachePrinterSettings();
 
- // Вызываем метод «Скрыть», а затем метод «InvalidatePreview», чтобы предварительный просмотр печати отображался сверху.
+// Вызываем метод «Скрыть», а затем метод «InvalidatePreview», чтобы предварительный просмотр отображался сверху.
 previewDlg.Hide();
 previewDlg.PrintPreviewControl.InvalidatePreview();
 
-// Передаем документ печати "Aspose.Words" в диалоговое окно предварительного просмотра печати .NET.
+// Передайте документ печати "Aspose.Words" в диалоговое окно .NET Print Preview.
 previewDlg.Document = awPrintDoc;
 
 previewDlg.ShowDialog();

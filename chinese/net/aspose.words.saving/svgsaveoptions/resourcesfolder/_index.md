@@ -1,14 +1,14 @@
 ---
 title: ResourcesFolder
 second_title: Aspose.Words for .NET API 参考
-description: 指定将文档导出为 Svg 格式时保存资源图像的物理文件夹 默认为 null 
+description: 指定将文档导出为 Svg 格式时保存资源图像的物理文件夹 默认为无效的.
 type: docs
 weight: 50
 url: /zh/net/aspose.words.saving/svgsaveoptions/resourcesfolder/
 ---
 ## SvgSaveOptions.ResourcesFolder property
 
-指定将文档导出为 Svg 格式时保存资源（图像）的物理文件夹。 默认为` null` 。
+指定将文档导出为 Svg 格式时保存资源（图像）的物理文件夹。 默认为`无效的`.
 
 ```csharp
 public string ResourcesFolder { get; set; }
@@ -16,19 +16,17 @@ public string ResourcesFolder { get; set; }
 
 ### 评论
 
-仅在SvgSaveOptions时有效。ExportEmbeddedImages属性为假。
+仅在以下情况下有效[`ExportEmbeddedImages`](../exportembeddedimages)属性为假。
 
-当您以 SVG 格式保存[`Document`](../../../aspose.words/document)时，Aspose.Words 需要保存所有 作为独立文件嵌入文档中的图像。`ResourcesFolder` 允许您指定图像的保存位置和ResourcesFolderAlias 允许指定如何构建图像 URI。
+当你保存一个[`Document`](../../../aspose.words/document)在 SVG 格式中，Aspose.Words 需要将文档中嵌入的所有 图像保存为独立文件。`ResourcesFolder` 允许您指定图像的保存位置和[`ResourcesFolderAlias`](../resourcesfolderalias) 允许指定如何构建图像 URI。
 
-如果将文档保存到文件中并提供文件名，Aspose.Words 默认情况下会将 图像保存在同一个文件中保存文档文件的文件夹。使用`ResourcesFolder` 覆盖此行为。
+如果您将文档保存到文件中并提供文件名，Aspose.Words 默认将 图像保存在保存文档文件的同一文件夹中。利用`ResourcesFolder` 覆盖此行为。
 
-如果将文档保存到流中，Aspose.Words 没有保存图像的文件夹 但仍需要将图像保存在某处。在这种情况下，您需要在`ResourcesFolder`属性
-
-::中指定可访问文件夹 :R7:P:Aspose.Words.Saving.SvgSaveOptions.ResourcesFolderAlias:::
+如果您将文档保存到流中，Aspose.Words 没有用于保存图像的文件夹 ，但仍需要将图像保存在某处。在这种情况下，您需要在`ResourcesFolder`财产
 
 ### 例子
 
-显示如何操作和打印在将文档转换为.svg。
+演示如何操作和打印在将文档转换为 .svg 时创建的链接资源的 URI。
 
 ```csharp
 public void SvgResourceFolder()
@@ -52,8 +50,7 @@ public void SvgResourceFolder()
 }
 
 /// <summary>
-/// 在转换为 .svg.
- 时计算并打印包含的资源的 URI
+/// 在转换为 .svg 时计算并打印包含的资源的 URI。
 /// </summary>
 private class ResourceUriPrinter : IResourceSavingCallback
 {

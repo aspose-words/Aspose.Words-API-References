@@ -1,14 +1,14 @@
 ---
 title: IsLayoutInCell
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置一个标志指示形状是显示在表格内部还是表格外部
+description: 获取或设置一个标志指示形状是显示在表格内还是表格外
 type: docs
 weight: 300
 url: /zh/net/aspose.words.drawing/shapebase/islayoutincell/
 ---
 ## ShapeBase.IsLayoutInCell property
 
-获取或设置一个标志，指示形状是显示在表格内部还是表格外部。
+获取或设置一个标志，指示形状是显示在表格内还是表格外。
 
 ```csharp
 public bool IsLayoutInCell { get; set; }
@@ -16,13 +16,13 @@ public bool IsLayoutInCell { get; set; }
 
 ### 评论
 
-默认值为 **true** 。
+默认值为 **真的**.
 
-仅对顶级形状有效，其属性[`WrapType`](../wraptype)设置为值 不是[`Inline`](../../../aspose.words/inline)。
+仅对顶层形状有效，属性[`WrapType`](../wraptype)其中设置为 value 以外[`Inline`](../../../aspose.words/inline).
 
 ### 例子
 
-说明如何确定如何在表格单元格中显示形状。
+演示如何确定如何在表格单元格中显示形状。
 
 ```csharp
 Document doc = new Document();

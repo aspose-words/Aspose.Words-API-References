@@ -1,14 +1,14 @@
 ---
 title: ScaleImageToShapeSize
 second_title: Aspose.Words for .NET API 参考
-description: 指定在导出到 HTMLMHTML 或 EPUB 时Aspose.Words 是否将图像缩放到边界形状大小 默认值为 true 
+description: 指定在导出为 HTMLMHTML 或 EPUB 时图像是否由 Aspose.Words 缩放到边界形状大小 默认值为真的.
 type: docs
 weight: 450
 url: /zh/net/aspose.words.saving/htmlsaveoptions/scaleimagetoshapesize/
 ---
 ## HtmlSaveOptions.ScaleImageToShapeSize property
 
-指定在导出到 HTML、MHTML 或 EPUB 时，Aspose.Words 是否将图像缩放到边界形状大小。 默认值为` true` 。
+指定在导出为 HTML、MHTML 或 EPUB 时，图像是否由 Aspose.Words 缩放到边界形状大小。 默认值为`真的`.
 
 ```csharp
 public bool ScaleImageToShapeSize { get; set; }
@@ -16,17 +16,17 @@ public bool ScaleImageToShapeSize { get; set; }
 
 ### 评论
 
-Microsoft Word 文档中的图像是一种形状。形状有大小，图像 有自己的大小。尺寸没有直接联系。例如，图像可以是 1024x786 像素， 但显示该图像的形状可以是 400x300 点。
+Microsoft Word 文档中的图像是一种形状。形状有大小，而 image 有自己的大小。尺寸没有直接联系。例如，图像可以是 1024x786 像素， ，但显示此图像的形状可以是 400x300 点。
 
-为了在浏览器中显示图像，必须将其缩放到形状大小。 `ScaleImageToShapeSize`属性控制图像缩放 发生的位置:在 Aspose.Words 中显示文档时导出为 HTML 或在浏览器中。
+为了在浏览器中显示图像，必须将其缩放到形状大小。 `ScaleImageToShapeSize`属性控制 image 发生缩放的位置：在导出到 HTML 期间在 Aspose.Words 中或在显示文档时在浏览器中。
 
-当`ScaleImageToShapeSize`为` true` ，图像由 Aspose.Words 在导出到 HTML 期间使用高质量缩放进行缩放。当`ScaleImageToShapeSize` 为` false` 时，输出图像以其原始大小，浏览器必须对其进行缩放。
+什么时候`ScaleImageToShapeSize`是`真的` ，图像由 Aspose.Words 在导出到 HTML 期间使用高质量缩放进行缩放。什么时候`ScaleImageToShapeSize` 是`错误的`，图像以其原始大小输出，浏览器必须对其进行缩放。
 
-通常，浏览器进行快速且质量较差的缩放。因此，当`ScaleImageToShapeSize`为`时，您通常会在浏览器中获得更好的 显示质量和更小的文件大小 true` , 但当`ScaleImageToShapeSize`为` 假` 。
+通常，浏览器会进行快速且质量较差的缩放。因此，您通常会在浏览器中获得更好的 显示质量和更小的文件大小`ScaleImageToShapeSize`是`真的` 但更好的打印质量和更快的转换时`ScaleImageToShapeSize`是`错误的`.
 
 ### 例子
 
-显示如何禁用缩放保存为 .html 时，将图像转换为其父形状尺寸。
+演示如何在保存为 .html 时禁用将图像缩放到其父形状尺寸。
 
 ```csharp
 Document doc = new Document();

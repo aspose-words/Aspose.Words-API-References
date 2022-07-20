@@ -1,14 +1,14 @@
 ---
 title: PromptOnceOnMailMerge
 second_title: Справочник по API Aspose.Words для .NET
-description: Получает или задает должен ли ответ пользователя быть получен один раз на операцию слияния почты.
+description: Получает или задает должен ли ответ пользователя быть получен один раз за операцию слияния.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.fields/fieldfillin/promptonceonmailmerge/
 ---
 ## FieldFillIn.PromptOnceOnMailMerge property
 
-Получает или задает, должен ли ответ пользователя быть получен один раз на операцию слияния почты.
+Получает или задает, должен ли ответ пользователя быть получен один раз за операцию слияния.
 
 ```csharp
 public bool PromptOnceOnMailMerge { get; set; }

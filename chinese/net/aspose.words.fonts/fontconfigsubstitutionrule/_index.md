@@ -3,7 +3,7 @@ title: FontConfigSubstitutionRule
 second_title: Aspose.Words for .NET API 参考
 description: 字体配置替换规则
 type: docs
-weight: 2660
+weight: 2710
 url: /zh/net/aspose.words.fonts/fontconfigsubstitutionrule/
 ---
 ## FontConfigSubstitutionRule class
@@ -29,13 +29,13 @@ public class FontConfigSubstitutionRule : FontSubstitutionRule
 
 ### 评论
 
-此规则在 Linux（和其他 Unix- like) 平台获取替换 如果原始字体不可用。
+如果原始字体不可用，此规则使用 Linux（和其他类 Unix）平台上的 fontconfig 实用程序来获取替换 。
 
 如果 fontconfig 实用程序不可用，则此规则将被忽略。
 
 ### 例子
 
-显示操作系统相关的字体配置替换。
+显示与操作系统相关的字体配置替换。
 
 ```csharp
 FontSettings fontSettings = new FontSettings();

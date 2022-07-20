@@ -16,7 +16,7 @@ public double Opacity { get; set; }
 
 ### 评论
 
-此属性与属性[`Transparency`](../transparency)相反。
+此属性与属性相反[`Transparency`](../transparency).
 
 ### 例子
 

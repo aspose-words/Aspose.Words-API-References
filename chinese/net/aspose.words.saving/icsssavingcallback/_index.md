@@ -3,7 +3,7 @@ title: ICssSavingCallback
 second_title: Aspose.Words for .NET API 参考
 description: 如果您想控制 Aspose.Words 在 将文档保存为 HTML 时如何保存 CSS层叠样式表请实现此接口
 type: docs
-weight: 4820
+weight: 4870
 url: /zh/net/aspose.words.saving/icsssavingcallback/
 ---
 ## ICssSavingCallback interface
@@ -18,7 +18,7 @@ public interface ICssSavingCallback
 
 | 姓名 | 描述 |
 | --- | --- |
-| [CssSaving](../../aspose.words.saving/icsssavingcallback/csssaving)(CssSavingArgs) | 当 Aspose.Words 保存 CSS（层叠样式表）时调用。 |
+| [CssSaving](../../aspose.words.saving/icsssavingcallback/csssaving)(CssSavingArgs) | 在 Aspose.Words 保存 CSS（层叠样式表）时调用。 |
 
 ### 例子
 
@@ -29,19 +29,19 @@ public void ExternalCssFilenames()
 {
     Document doc = new Document(MyDir + "Rendering.docx");
 
-     // 创建一个“HtmlFixedSaveOptions”对象，我们可以将它传递给文档的“Save”方法
-     // 修改我们如何将文档转换为 HTML.
+    // 创建一个“HtmlFixedSaveOptions”对象，我们可以将它传递给文档的“Save”方法
+    // 修改我们如何将文档转换为 HTML。
     HtmlSaveOptions options = new HtmlSaveOptions();
 
-     // 将“CssStylesheetType”属性设置为“CssStyleSheetType.External” to
-     // 将保存的 HTML 文档与外部 CSS 样式表文件一起保存。
+    // 将“CssStylesheetType”属性设置为“CssStyleSheetType.External”以
+    // 将保存的 HTML 文档与外部 CSS 样式表文件一起保存。
     options.CssStyleSheetType = CssStyleSheetType.External;
 
-     // 下面是为输出 CSS 样式表指定目录和文件名的两种方式。
+    // 下面是为输出 CSS 样式表指定目录和文件名的两种方法。
     // 1 - 使用“CssStyleSheetFileName”属性为我们的样式表分配一个文件名：
     options.CssStyleSheetFileName = ArtifactsDir + "SavingCallback.ExternalCssFilenames.css";
 
-     // 2 - 使用自定义回调来命名我们的样式表：
+    // 2 - 使用自定义回调来命名我们的样式表：
     options.CssSavingCallback =
         new CustomCssSavingCallback(ArtifactsDir + "SavingCallback.ExternalCssFilenames.css", true, false);
 
@@ -49,7 +49,7 @@ public void ExternalCssFilenames()
 }
 
 /// <summary>
- /// 设置自定义文件名，以及外部 CSS 样式表的其他参数。
+/// 设置自定义文件名以及外部 CSS 样式表的其他参数。
 /// </summary>
 private class CustomCssSavingCallback : ICssSavingCallback
 {
@@ -62,7 +62,7 @@ private class CustomCssSavingCallback : ICssSavingCallback
 
     public void CssSaving(CssSavingArgs args)
     {
-         // 我们可以通过“Document”属性访问整个源文档。
+        // 我们可以通过“Document”属性访问整个源文档。
         Assert.True(args.Document.OriginalFileName.EndsWith("Rendering.docx"));
 
         args.CssStream = new FileStream(mCssTextFileName, FileMode.Create);

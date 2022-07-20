@@ -16,11 +16,11 @@ public MergeFieldImageDimension(double value)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | Double | 值。 |
+| value | Double | 价值。 |
 
 ### 评论
 
-应使用负值表示对应图像尺寸的原始值 应该应用。
+你应该使用负值表示应该应用对应图像维度 的原始值。
 
 ### 例子
 
@@ -97,7 +97,7 @@ private class MergedImageResizer : IFieldMergingCallback
 
 ## MergeFieldImageDimension(double, MergeFieldImageDimensionUnit) {#constructor_1}
 
-创建具有给定值和给定单位的图像尺寸实例。
+使用给定值和给定单位创建图像维度实例。
 
 ```csharp
 public MergeFieldImageDimension(double value, MergeFieldImageDimensionUnit unit)
@@ -105,12 +105,12 @@ public MergeFieldImageDimension(double value, MergeFieldImageDimensionUnit unit)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | Double | 值。 |
-| unit | MergeFieldImageDimensionUnit | 单位。 |
+| value | Double | 价值。 |
+| unit | MergeFieldImageDimensionUnit | 那个单位。 |
 
 ### 评论
 
-应使用负值表示对应图像尺寸的原始值 应该应用。
+你应该使用负值表示应该应用对应图像维度 的原始值。
 
 ### 例子
 

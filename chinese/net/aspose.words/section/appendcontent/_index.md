@@ -20,7 +20,7 @@ public void AppendContent(Section sourceSection)
 
 ### 评论
 
-仅:::R5:P:Aspose.Words.Section.Body::的内容:的源部分被复制，页面设置， 页眉和页脚不被复制。
+只有内容[`Body`](../body)复制源部分的内容，不复制页面设置、 页眉和页脚。
 
 如果源部分属于不同的文档，则会自动导入节点。
 
@@ -28,7 +28,7 @@ public void AppendContent(Section sourceSection)
 
 ### 例子
 
-显示如何将一个节的内容附加到另一个节。
+显示如何将一个部分的内容附加到另一个部分。
 
 ```csharp
 Document doc = new Document();
@@ -44,15 +44,15 @@ Section section = doc.Sections[2];
 
 Assert.AreEqual("Section 3" + ControlChar.SectionBreak, section.GetText());
 
- // 将第一节的内容插入到第三节的开头。
+// 将第一节的内容插入到第三节的开头。
 Section sectionToPrepend = doc.Sections[0];
 section.PrependContent(sectionToPrepend);
 
- // 将第二节的内容插入到第三节的末尾。
+// 将第二节的内容插入到第三节的末尾。
 Section sectionToAppend = doc.Sections[1];
 section.AppendContent(sectionToAppend);
 
- // “PrependContent”和“AppendContent”方法没有创建任何新的sections.
+// “PrependContent”和“AppendContent”方法没有创建任何新的部分。
 Assert.AreEqual(3, doc.Sections.Count);
 Assert.AreEqual("Section 1" + ControlChar.ParagraphBreak +
                 "Section 3" + ControlChar.ParagraphBreak +

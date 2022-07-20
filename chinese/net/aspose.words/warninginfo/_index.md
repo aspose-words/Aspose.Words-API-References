@@ -3,7 +3,7 @@ title: WarningInfo
 second_title: Aspose.Words for .NET API 参考
 description: 包含有关 Aspose.Words 在文档加载或保存期间发出的警告的信息
 type: docs
-weight: 6270
+weight: 6320
 url: /zh/net/aspose.words/warninginfo/
 ---
 ## WarningInfo class
@@ -24,11 +24,11 @@ public class WarningInfo
 
 ### 评论
 
-您不要创建此类的实例。此类的对象被创建 并由 Aspose.Words 传递给[`Warning`](../iwarningcallback/warning)方法。
+您不创建此类的实例。此类的对象是 created 并由 Aspose.Words 传递给[`Warning`](../iwarningcallback/warning)方法。
 
 ### 例子
 
-显示如何设置属性以查找最接近的匹配对于可用字体源中缺少的字体。
+演示如何设置属性以从可用字体源中查找缺失字体的最接近匹配项。
 
 ```csharp
 [Test]

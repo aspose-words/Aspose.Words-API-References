@@ -16,7 +16,7 @@ public void ResetCache()
 
 ### 例子
 
-显示操作系统相关的字体配置替换。
+显示与操作系统相关的字体配置替换。
 
 ```csharp
 FontSettings fontSettings = new FontSettings();

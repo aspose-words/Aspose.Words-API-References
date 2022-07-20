@@ -3,7 +3,7 @@ title: InternableComplexAttr
 second_title: Справочник по API Aspose.Words для .NET
 description: Базовый класс для внутреннего сложного атрибута. Внутренний сложный атрибут должен уведомлять родительскую коллекцию когда он будет изменен.
 type: docs
-weight: 3030
+weight: 3080
 url: /ru/net/aspose.words/internablecomplexattr/
 ---
 ## InternableComplexAttr class

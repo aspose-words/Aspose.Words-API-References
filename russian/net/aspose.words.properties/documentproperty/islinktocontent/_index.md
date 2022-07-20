@@ -1,14 +1,14 @@
 ---
 title: IsLinkToContent
 second_title: Справочник по API Aspose.Words для .NET
-description: Показывает связано ли это свойство с содержимым или нет.
+description: Показывает связано ли это свойство с контентом или нет.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.properties/documentproperty/islinktocontent/
 ---
 ## DocumentProperty.IsLinkToContent property
 
-Показывает, связано ли это свойство с содержимым или нет.
+Показывает, связано ли это свойство с контентом или нет.
 
 ```csharp
 public bool IsLinkToContent { get; }
@@ -26,8 +26,8 @@ builder.StartBookmark("MyBookmark");
 builder.Write("Hello world!");
 builder.EndBookmark("MyBookmark");
 
-// Связать новое пользовательское свойство с закладкой. Значение этого свойства
- // будет содержимым закладки, на которую он ссылается в элементе "LinkSource".
+// Связать новое пользовательское свойство с закладкой. Стоимость этого свойства
+// будет содержимым закладки, на которую он ссылается в элементе «LinkSource».
 CustomDocumentProperties customProperties = doc.CustomDocumentProperties;
 DocumentProperty customProperty = customProperties.AddLinkToContent("Bookmark", "MyBookmark");
 

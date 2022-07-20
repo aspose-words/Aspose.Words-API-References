@@ -1,14 +1,14 @@
 ---
 title: Options
 second_title: Справочник по API Aspose.Words для .NET
-description: Получает или устанавливает набор флагов управляющих поведением этогоReportingEngineaspose.words.reporting/reportingengineinstance при построении отчета.
+description: Получает или устанавливает набор флагов управляющих поведением этогоReportingEngineaspose.words.reporting/reportingengine экземпляр при построении отчета.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.reporting/reportingengine/options/
 ---
 ## ReportingEngine.Options property
 
-Получает или устанавливает набор флагов, управляющих поведением этого[`ReportingEngine`](../../reportingengine)instance при построении отчета.
+Получает или устанавливает набор флагов, управляющих поведением этого[`ReportingEngine`](../../reportingengine) экземпляр при построении отчета.
 
 ```csharp
 public ReportBuildOptions Options { get; set; }

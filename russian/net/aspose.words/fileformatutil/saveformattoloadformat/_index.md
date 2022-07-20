@@ -1,14 +1,14 @@
 ---
 title: SaveFormatToLoadFormat
 second_title: Справочник по API Aspose.Words для .NET
-description: Преобразует значениеSaveFormataspose.words/saveformatв значениеLoadFormataspose.words/loadformatзначение если это возможно.
+description: ПреобразуетSaveFormataspose.words/saveformat значение дляLoadFormataspose.words/loadformat значение если возможно.
 type: docs
 weight: 90
 url: /ru/net/aspose.words/fileformatutil/saveformattoloadformat/
 ---
 ## FileFormatUtil.SaveFormatToLoadFormat method
 
-Преобразует значение[`SaveFormat`](../../saveformat)в значение[`LoadFormat`](../../loadformat)значение, если это возможно.
+Преобразует[`SaveFormat`](../../saveformat) значение для[`LoadFormat`](../../loadformat) значение, если возможно.
 
 ```csharp
 public static LoadFormat SaveFormatToLoadFormat(SaveFormat saveFormat)
@@ -18,7 +18,7 @@ public static LoadFormat SaveFormatToLoadFormat(SaveFormat saveFormat)
 
 | исключение | условие |
 | --- | --- |
-| ArgumentException | Выдает, когда не удается преобразовать. |
+| ArgumentException | Выбрасывает, когда не может преобразовать. |
 
 ### Примеры
 
@@ -27,8 +27,8 @@ public static LoadFormat SaveFormatToLoadFormat(SaveFormat saveFormat)
 ```csharp
 Assert.AreEqual(LoadFormat.Html, FileFormatUtil.SaveFormatToLoadFormat(SaveFormat.Html));
 
- // Некоторые типы файлов могут иметь документы, сохраненные, но не загруженные с помощью Aspose.Words.
- // Если мы попытаемся преобразовать формат сохранения такого типа в формат загрузки, будет выдано исключение.
+// Некоторые типы файлов могут иметь документы, сохраненные, но не загруженные с помощью Aspose.Words.
+// Если мы попытаемся преобразовать формат сохранения такого типа в формат загрузки, будет выдано исключение.
 Assert.Throws<ArgumentException>(() => FileFormatUtil.SaveFormatToLoadFormat(SaveFormat.Jpeg));
 ```
 

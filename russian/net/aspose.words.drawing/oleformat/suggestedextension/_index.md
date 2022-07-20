@@ -1,14 +1,14 @@
 ---
 title: SuggestedExtension
 second_title: Справочник по API Aspose.Words для .NET
-description: Получает расширение файла предложенное для текущего встроенного объекта если вы хотите сохранить его в файл.
+description: Получает расширение файла предложенное для текущего внедренного объекта если вы хотите сохранить его в файл.
 type: docs
 weight: 120
 url: /ru/net/aspose.words.drawing/oleformat/suggestedextension/
 ---
 ## OleFormat.SuggestedExtension property
 
-Получает расширение файла, предложенное для текущего встроенного объекта, если вы хотите сохранить его в файл.
+Получает расширение файла, предложенное для текущего внедренного объекта, если вы хотите сохранить его в файл.
 
 ```csharp
 public string SuggestedExtension { get; }

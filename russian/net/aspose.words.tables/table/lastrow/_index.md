@@ -1,14 +1,14 @@
 ---
 title: LastRow
 second_title: Справочник по API Aspose.Words для .NET
-description: Возвращает последний узел строки в таблице.
+description: Возвращает последний Строка узел в таблице.
 type: docs
 weight: 180
 url: /ru/net/aspose.words.tables/table/lastrow/
 ---
 ## Table.LastRow property
 
-Возвращает последний узел **строки** в таблице.
+Возвращает последний **Строка** узел в таблице.
 
 ```csharp
 public Row LastRow { get; }

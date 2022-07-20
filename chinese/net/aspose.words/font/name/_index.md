@@ -16,9 +16,9 @@ public string Name { get; set; }
 
 ### 评论
 
-获取时，返回[`NameAscii`](../nameascii).
+获取时返回[`NameAscii`](../nameascii).
 
-设置时，设置[`NameAscii`](../nameascii),[`NameBi`](../namebi),[`NameFarEast`](../namefareast) 和[`NameOther`](../nameother)到指定值。
+设置时，设置[`NameAscii`](../nameascii),[`NameBi`](../namebi),[`NameFarEast`](../namefareast) 和[`NameOther`](../nameother)到指定的值。
 
 ### 例子
 
@@ -26,20 +26,18 @@ public string Name { get; set; }
 
 ```csharp
 Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
+Run run = new Run(doc, "Hello world!");
 
-// 指定字体格式，然后添加文本。
-Aspose.Words.Font font = builder.Font;
-font.Size = 16;
-font.Bold = true;
-font.Color = Color.Blue;
+Aspose.Words.Font font = run.Font;
 font.Name = "Courier New";
-font.Underline = Underline.Dash;
+font.Size = 36;
+font.HighlightColor = Color.Yellow;
 
-builder.Write("Hello world!");
+doc.FirstSection.Body.FirstParagraph.AppendChild(run);
+doc.Save(ArtifactsDir + "Font.CreateFormattedRun.docx");
 ```
 
-展示如何使用 DocumentBuilder 插入格式化文本。
+演示如何使用 DocumentBuilder 插入格式化文本。
 
 ```csharp
 Document doc = new Document();

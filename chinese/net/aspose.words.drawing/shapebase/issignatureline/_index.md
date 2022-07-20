@@ -1,14 +1,14 @@
 ---
 title: IsSignatureLine
 second_title: Aspose.Words for .NET API 参考
-description: 表示 shape 是 SignatureLine
+description: 表示形状是 SignatureLine.
 type: docs
 weight: 330
 url: /zh/net/aspose.words.drawing/shapebase/issignatureline/
 ---
 ## ShapeBase.IsSignatureLine property
 
-表示 shape 是 SignatureLine。
+表示形状是 SignatureLine.
 
 ```csharp
 public bool IsSignatureLine { get; }

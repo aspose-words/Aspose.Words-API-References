@@ -1,14 +1,14 @@
 ---
 title: Text
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置图表标题的文本 如果指定 null 或空值将显示自动生成的标题
+description: 获取或设置图表标题的文本 如果指定null或空值将显示自动生成的标题
 type: docs
 weight: 30
 url: /zh/net/aspose.words.drawing.charts/charttitle/text/
 ---
 ## ChartTitle.Text property
 
-获取或设置图表标题的文本。 如果指定 null 或空值，将显示自动生成的标题。
+获取或设置图表标题的文本。 如果指定null或空值，将显示自动生成的标题。
 
 ```csharp
 public string Text { get; set; }
@@ -16,11 +16,11 @@ public string Text { get; set; }
 
 ### 评论
 
-如果需要，请使用[`Show`](../show)选项隐藏标题。
+利用[`Show`](../show)如果您需要隐藏标题，请选择此选项。
 
 ### 例子
 
-显示如何插入图表并设置标题。
+显示如何插入图表和设置标题。
 
 ```csharp
 Document doc = new Document();

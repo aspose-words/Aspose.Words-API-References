@@ -3,7 +3,7 @@ title: HeightRule
 second_title: Aspose.Words for .NET API 参考
 description: 指定确定对象高度的规则
 type: docs
-weight: 2900
+weight: 2950
 url: /zh/net/aspose.words/heightrule/
 ---
 ## HeightRule enumeration
@@ -18,13 +18,13 @@ public enum HeightRule
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| AtLeast | `0` | 高度至少为指定的高度（以磅为单位）。如果需要，它将增长 以容纳对象内的所有文本。 |
-| Exactly | `1` | 高度以磅为单位精确指定。请注意，如果文本不能 适合此高度的对象，它将被截断。 |
-| Auto | `2` | 高度将自动增长以容纳对象内的所有文本。 |
+| AtLeast | `0` | 高度至少为指定的高度（以磅为单位）。如果需要，它将增长， 以容纳对象内的所有文本。 |
+| Exactly | `1` | 高度以磅为单位精确指定。请注意，如果文本不能 适合此高度的对象，则会出现截断。 |
+| Auto | `2` | 高度将自动增加以容纳对象内的所有文本。 |
 
 ### 例子
 
-显示如何使用文档生成器格式化行。
+显示如何使用文档构建器格式化行。
 
 ```csharp
 Document doc = new Document();

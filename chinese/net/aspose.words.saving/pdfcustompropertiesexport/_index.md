@@ -1,14 +1,14 @@
 ---
 title: PdfCustomPropertiesExport
 second_title: Aspose.Words for .NET API 参考
-description: 指定CustomDocumentProperties../aspose.words/document/customdocumentproperties导出到 PDF 文件的方式
+description: 指定方式CustomDocumentProperties../aspose.words/document/customdocumentproperties导出为 PDF 文件
 type: docs
-weight: 5090
+weight: 5140
 url: /zh/net/aspose.words.saving/pdfcustompropertiesexport/
 ---
 ## PdfCustomPropertiesExport enumeration
 
-指定[`CustomDocumentProperties`](../../aspose.words/document/customdocumentproperties)导出到 PDF 文件的方式。
+指定方式[`CustomDocumentProperties`](../../aspose.words/document/customdocumentproperties)导出为 PDF 文件。
 
 ```csharp
 public enum PdfCustomPropertiesExport
@@ -18,7 +18,7 @@ public enum PdfCustomPropertiesExport
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| None | `0` | 没有自定义属性被导出。 |
+| None | `0` | 没有导出自定义属性。 |
 | Standard | `1` | 自定义属性导出为 /Info 字典中的条目。 |
 | Metadata | `2` | 自定义属性是元数据。 |
 

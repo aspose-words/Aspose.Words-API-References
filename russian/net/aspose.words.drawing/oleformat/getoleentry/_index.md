@@ -16,7 +16,7 @@ public MemoryStream GetOleEntry(string oleEntryName)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| oleEntryName | String | Имя потока данных OLE с учетом регистра. |
+| oleEntryName | String | Регистрозависимое имя потока данных OLE. |
 
 ### Возвращаемое значение
 

@@ -16,11 +16,11 @@ public string ParagraphBreak { get; set; }
 
 ### Примечания
 
-Значение по умолчанию:[`CrLf`](../../../aspose.words/controlchar/crlf).
+Значение по умолчанию[`CrLf`](../../../aspose.words/controlchar/crlf).
 
 ### Примеры
 
-Показывает, как сохранить документ .txt с произвольным разрывом абзаца.
+Показывает, как сохранить документ .txt с настраиваемым разрывом абзаца.
 
 ```csharp
 Document doc = new Document();
@@ -30,13 +30,13 @@ builder.Writeln("Paragraph 1.");
 builder.Writeln("Paragraph 2.");
 builder.Write("Paragraph 3.");
 
- // Создаем объект «TxtSaveOptions», который мы можем передать в документ «Сохранить» method
- // чтобы изменить способ сохранения документа в виде открытого текста.
+// Создаем объект "TxtSaveOptions", который мы можем передать в метод "Сохранить" документа
+// чтобы изменить способ сохранения документа в виде открытого текста.
 TxtSaveOptions txtSaveOptions = new TxtSaveOptions();
 
 Assert.AreEqual(SaveFormat.Text, txtSaveOptions.SaveFormat);
 
- // Установите для «ParagraphBreak» пользовательское значение, которое мы хотим поместить в конце каждого абзаца.
+// Установите для «ParagraphBreak» пользовательское значение, которое мы хотим поместить в конце каждого абзаца.
 txtSaveOptions.ParagraphBreak = " End of paragraph.\n\n\t";
 
 doc.Save(ArtifactsDir + "TxtSaveOptions.ParagraphBreak.txt", txtSaveOptions);

@@ -16,7 +16,7 @@ public IResourceSavingCallback ResourceSavingCallback { get; set; }
 
 ### 例子
 
-显示如何操作和打印在将文档转换为 .svg 时创建的链接资源的 URI。
+演示如何操作和打印在将文档转换为 .svg 时创建的链接资源的 URI。
 
 ```csharp
 public void SvgResourceFolder()
@@ -40,8 +40,7 @@ public void SvgResourceFolder()
 }
 
 /// <summary>
-/// 在转换为 .svg.
- 时计算并打印包含的资源的 URI
+/// 在转换为 .svg 时计算并打印包含的资源的 URI。
 /// </summary>
 private class ResourceUriPrinter : IResourceSavingCallback
 {

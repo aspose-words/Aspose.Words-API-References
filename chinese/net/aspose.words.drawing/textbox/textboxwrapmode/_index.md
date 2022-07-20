@@ -16,11 +16,11 @@ public TextBoxWrapMode TextBoxWrapMode { get; set; }
 
 ### 评论
 
-默认值为TextBoxWrapMode。正方形。
+默认值为Square.
 
 ### 例子
 
-显示如何为文本框的内容设置换行模式。
+演示如何为文本框的内容设置换行模式。
 
 ```csharp
 Document doc = new Document();

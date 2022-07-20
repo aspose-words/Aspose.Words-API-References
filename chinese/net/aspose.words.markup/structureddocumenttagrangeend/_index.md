@@ -1,14 +1,14 @@
 ---
 title: StructuredDocumentTagRangeEnd
 second_title: Aspose.Words for .NET API 参考
-description: 表示 ranged 结构化文档标签的结尾它接受多节内容 另见StructuredDocumentTagRangeStart./structureddocumenttagrangestart节点
+description: 代表结束 远程接受多部分内容的结构化文档标签 另请参阅StructuredDocumentTagRangeStart./structureddocumenttagrangestart节点.
 type: docs
-weight: 3790
+weight: 3840
 url: /zh/net/aspose.words.markup/structureddocumenttagrangeend/
 ---
 ## StructuredDocumentTagRangeEnd class
 
-表示 **ranged** 结构化文档标签的结尾，它接受多节内容。 另见[`StructuredDocumentTagRangeStart`](../structureddocumenttagrangestart)节点。
+代表结束 **远程**接受多部分内容的结构化文档标签。 另请参阅[`StructuredDocumentTagRangeStart`](../structureddocumenttagrangestart)节点.
 
 ```csharp
 public class StructuredDocumentTagRangeEnd : Node
@@ -18,7 +18,7 @@ public class StructuredDocumentTagRangeEnd : Node
 
 | 姓名 | 描述 |
 | --- | --- |
-| [StructuredDocumentTagRangeEnd](structureddocumenttagrangeend)(DocumentBase, int) | 初始化 **结构化文档标签范围 end** 类的新实例。 |
+| [StructuredDocumentTagRangeEnd](structureddocumenttagrangeend)(DocumentBase, int) | 初始化 **结构化文档标签范围结束**类. |
 
 ## 特性
 
@@ -26,13 +26,13 @@ public class StructuredDocumentTagRangeEnd : Node
 | --- | --- |
 | [CustomNodeId](../../aspose.words/node/customnodeid) { get; set; } | 指定自定义节点标识符。 |
 | virtual [Document](../../aspose.words/node/document) { get; } | 获取该节点所属的文档。 |
-| [Id](../../aspose.words.markup/structureddocumenttagrangeend/id) { get; } | 指定此 **StructuredDocumentTagRange** 节点的唯一只读持久数字 ID。 对应的[`StructuredDocumentTagRangeStart`](../structureddocumenttagrangestart)节点具有相同的[`Id`](../structureddocumenttagrangestart/id)。 |
+| [Id](../../aspose.words.markup/structureddocumenttagrangeend/id) { get; } | 为此指定一个唯一的只读持久数字 ID **结构化文档标签范围** node. 对应[`StructuredDocumentTagRangeStart`](../structureddocumenttagrangestart)节点具有相同的[`Id`](../structureddocumenttagrangestart/id). |
 | virtual [IsComposite](../../aspose.words/node/iscomposite) { get; } | 如果此节点可以包含其他节点，则返回 true。 |
-| [NextSibling](../../aspose.words/node/nextsibling) { get; } | 获取紧跟该节点的节点。 |
+| [NextSibling](../../aspose.words/node/nextsibling) { get; } | 获取紧跟此节点的节点。 |
 | override [NodeType](../../aspose.words.markup/structureddocumenttagrangeend/nodetype) { get; } |  |
 | [ParentNode](../../aspose.words/node/parentnode) { get; } | 获取此节点的直接父节点。 |
 | [PreviousSibling](../../aspose.words/node/previoussibling) { get; } | 获取紧接在此节点之前的节点。 |
-| [Range](../../aspose.words/node/range) { get; } | 返回 **Range** 对象，该对象表示包含在此节点中的文档部分。 |
+| [Range](../../aspose.words/node/range) { get; } | 返回一个 **范围**表示此节点中包含的文档部分的对象。 |
 
 ## 方法
 
@@ -40,7 +40,7 @@ public class StructuredDocumentTagRangeEnd : Node
 | --- | --- |
 | override [Accept](../../aspose.words.markup/structureddocumenttagrangeend/accept)(DocumentVisitor) |  |
 | [Clone](../../aspose.words/node/clone)(bool) | 创建节点的副本。 |
-| [GetAncestor](../../aspose.words/node/getancestor)(NodeType) | 获取指定[`NodeType`](../../aspose.words/nodetype)的第一个祖先。 |
+| [GetAncestor](../../aspose.words/node/getancestor)(NodeType) | 获取指定的第一个祖先[`NodeType`](../../aspose.words/nodetype). |
 | [GetAncestor](../../aspose.words/node/getancestor)(Type) | 获取指定对象类型的第一个祖先。 |
 | virtual [GetText](../../aspose.words/node/gettext)() | 获取该节点及其所有子节点的文本。 |
 | [NextPreOrder](../../aspose.words/node/nextpreorder)(Node) | 根据前序树遍历算法获取下一个节点。 |
@@ -51,7 +51,7 @@ public class StructuredDocumentTagRangeEnd : Node
 
 ### 评论
 
-可以是[`Body`](../../aspose.words/body)的直接子代仅节点 。
+可以是[`Body`](../../aspose.words/body)节点 **只要**.
 
 ### 例子
 

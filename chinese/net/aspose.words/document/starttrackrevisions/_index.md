@@ -21,13 +21,13 @@ public void StartTrackRevisions(string author, DateTime dateTime)
 
 ### 评论
 
-如果调用此方法，然后以编程方式对文档进行一些更改，则 保存文档并稍后在 MS Word 中打开文档，您将看到这些更改作为修订。
+如果您调用此方法，然后以编程方式对文档进行一些更改， 保存文档并稍后在 MS Word 中打开文档，您将看到这些更改作为修订。
 
-目前 Aspose.Words 仅支持跟踪节点插入和删除。格式更改不是 记录为修订。
+目前 Aspose.Words 仅支持跟踪节点插入和删除。格式更改不会 记录为修订。
 
-通过节点操作 修改此文档以及使用DocumentBuilder
+通过节点操作 修改此文档以及使用时都支持自动跟踪更改[`DocumentBuilder`](../../documentbuilder)
 
-此方法不会更改[`TrackRevisions`](../trackrevisions)选项并且不会使用它的值 用于修订跟踪。
+这种方法不会改变[`TrackRevisions`](../trackrevisions)选项并且不将其 value 用于修订跟踪。
 
 ### 例子
 
@@ -97,13 +97,13 @@ public void StartTrackRevisions(string author)
 
 ### 评论
 
-如果调用此方法，然后以编程方式对文档进行一些更改，则 保存文档并稍后在 MS Word 中打开文档，您将看到这些更改作为修订。
+如果您调用此方法，然后以编程方式对文档进行一些更改， 保存文档并稍后在 MS Word 中打开文档，您将看到这些更改作为修订。
 
-目前 Aspose.Words 仅支持跟踪节点插入和删除。格式更改不是 记录为修订。
+目前 Aspose.Words 仅支持跟踪节点插入和删除。格式更改不会 记录为修订。
 
-通过节点操作 修改此文档以及使用DocumentBuilder
+通过节点操作 修改此文档以及使用时都支持自动跟踪更改[`DocumentBuilder`](../../documentbuilder)
 
-此方法不会更改[`TrackRevisions`](../trackrevisions)选项并且不会使用它的值 用于修订跟踪。
+这种方法不会改变[`TrackRevisions`](../trackrevisions)选项并且不将其 value 用于修订跟踪。
 
 ### 例子
 

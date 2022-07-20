@@ -3,7 +3,7 @@ title: TextDmlEffect
 second_title: Aspose.Words for .NET API 参考
 description: 文本运行的 Dml 文本效果
 type: docs
-weight: 6060
+weight: 6110
 url: /zh/net/aspose.words/textdmleffect/
 ---
 ## TextDmlEffect enumeration

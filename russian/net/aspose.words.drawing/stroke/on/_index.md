@@ -1,14 +1,14 @@
 ---
 title: On
 second_title: Справочник по API Aspose.Words для .NET
-description: Определяет будет ли обведен путь.
+description: Определяет будет ли обведен контур.
 type: docs
 weight: 130
 url: /ru/net/aspose.words.drawing/stroke/on/
 ---
 ## Stroke.On property
 
-Определяет, будет ли обведен путь.
+Определяет, будет ли обведен контур.
 
 ```csharp
 public bool On { get; set; }
@@ -16,7 +16,7 @@ public bool On { get; set; }
 
 ### Примечания
 
-Значение по умолчанию для[`Shape`](../../shape)is **true** .
+Значение по умолчанию для[`Shape`](../../shape) является **истинный**.
 
 ### Примеры
 
@@ -34,7 +34,7 @@ Shape shape = builder.InsertShape(ShapeType.Rectangle, RelativeHorizontalPositio
 shape.Fill.ForeColor = Color.White;
 
 // 2 - Обводка, обозначающая контур фигуры:
-// Измените различные свойства обводки этой фигуры.
+// Изменяем различные свойства обводки этой фигуры.
 Stroke stroke = shape.Stroke;
 stroke.On = true;
 stroke.Weight = 5;

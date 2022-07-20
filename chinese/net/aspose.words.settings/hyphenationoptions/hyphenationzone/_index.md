@@ -1,14 +1,14 @@
 ---
 title: HyphenationZone
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置距离右边距不希望 连字的点的 1/20 距离 此属性的默认值为 3600.25 英寸
+description: 获取或设置距离右边距不希望连字的点的 1/20 的距离 此属性的默认值为 3600.25 英寸
 type: docs
 weight: 50
 url: /zh/net/aspose.words.settings/hyphenationoptions/hyphenationzone/
 ---
 ## HyphenationOptions.HyphenationZone property
 
-获取或设置距离右边距不希望 连字的点的 1/20 距离。 此属性的默认值为 360（0.25 英寸）。
+获取或设置距离右边距不希望连字的点的 1/20 的距离。 此属性的默认值为 360（0.25 英寸）。
 
 ```csharp
 public int HyphenationZone { get; set; }

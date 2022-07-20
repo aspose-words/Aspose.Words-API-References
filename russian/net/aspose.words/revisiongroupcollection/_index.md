@@ -1,14 +1,14 @@
 ---
 title: RevisionGroupCollection
 second_title: Справочник по API Aspose.Words для .NET
-description: Набор объектовRevisionGroup./revisiongroup представляющих группы ревизий в документе.
+description: КоллекцияRevisionGroup./revisiongroup объекты представляющие группы ревизий в документе.
 type: docs
-weight: 4480
+weight: 4530
 url: /ru/net/aspose.words/revisiongroupcollection/
 ---
 ## RevisionGroupCollection class
 
-Набор объектов[`RevisionGroup`](../revisiongroup), представляющих группы ревизий в документе.
+Коллекция[`RevisionGroup`](../revisiongroup) объекты, представляющие группы ревизий в документе.
 
 ```csharp
 public sealed class RevisionGroupCollection : IEnumerable<RevisionGroup>
@@ -29,25 +29,19 @@ public sealed class RevisionGroupCollection : IEnumerable<RevisionGroup>
 
 ### Примечания
 
-Вы не создаете экземпляры этого класса напрямую. Используйте свойство[`Groups`](../revisioncollection/groups) для получения групп редакций, присутствующих в документе.
+Вы не создаете экземпляры этого класса напрямую. Использовать[`Groups`](../revisioncollection/groups) , чтобы группы ревизий присутствовали в документе.
 
 ### Примеры
 
-Показывает, как получить группу правок в документе.
+Показывает, как получить группу редакций в документе.
 
 ```csharp
 Document doc = new Document(MyDir + "Revisions.docx");
 
-Assert.AreEqual(7, doc.Revisions.Groups.Count);
-
-foreach (RevisionGroup group in doc.Revisions.Groups)
-{
-    Console.WriteLine(
-        $"Revision author: {group.Author}; Revision type: {group.RevisionType} \n\tRevision text: {group.Text}");
-}
+RevisionGroup revisionGroup = doc.Revisions.Groups[0];
 ```
 
-Показывает, как распечатать информацию о группе правок в документе.
+Показывает, как распечатать информацию о группе редакций в документе.
 
 ```csharp
 Document doc = new Document(MyDir + "Revisions.docx");

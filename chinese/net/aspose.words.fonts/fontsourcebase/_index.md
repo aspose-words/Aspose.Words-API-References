@@ -3,7 +3,7 @@ title: FontSourceBase
 second_title: Aspose.Words for .NET API 参考
 description: 这是允许用户指定各种字体源的类的抽象基类
 type: docs
-weight: 2750
+weight: 2800
 url: /zh/net/aspose.words.fonts/fontsourcebase/
 ---
 ## FontSourceBase class

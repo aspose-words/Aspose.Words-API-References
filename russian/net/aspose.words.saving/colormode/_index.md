@@ -3,7 +3,7 @@ title: ColorMode
 second_title: Справочник по API Aspose.Words для .NET
 description: Указывает способ отображения цветов.
 type: docs
-weight: 4550
+weight: 4600
 url: /ru/net/aspose.words.saving/colormode/
 ---
 ## ColorMode enumeration

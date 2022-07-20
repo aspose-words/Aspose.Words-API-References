@@ -16,9 +16,9 @@ public byte[] Thumbnail { get; set; }
 
 ### Примечания
 
-Пока это свойство используется только при экспорте документа в ePub, он не читается и не записывается в документы других форматов.
+На данный момент это свойство используется только при экспорте документа в ePub, он не читается и не записывается в документы других форматов.
 
-В это свойство можно установить изображение произвольного формата, но формат проверяется при экспорте. InvalidOperationExceptionвыдается, если изображение недопустимо или его формат не поддерживается для конкретного формата документа.
+В это свойство можно установить изображение произвольного формата, но формат проверяется при экспорте. InvalidOperationException выдается, если изображение недействительно или его формат не поддерживается для определенного формата документа .
 
 Для публикации ePub можно использовать только изображения в формате gif, jpeg и png.
 
@@ -31,8 +31,8 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world!");
 
- // Если мы сохраним документ, чье свойство "Thumbnail" содержит данные изображения, которые мы добавили, как Epub,
- // читатель, открывший этот документ, может отобразить изображение перед первой страницей.
+// Если мы сохраним документ, свойство "Thumbnail" которого содержит данные изображения, которые мы добавили, как Epub,
+// читатель, открывший этот документ, может отобразить изображение перед первой страницей.
 BuiltInDocumentProperties properties = doc.BuiltInDocumentProperties;
 
 byte[] thumbnailBytes = File.ReadAllBytes(ImageDir + "Logo.jpg");
@@ -40,7 +40,7 @@ properties.Thumbnail = thumbnailBytes;
 
 doc.Save(ArtifactsDir + "DocumentProperties.Thumbnail.epub");
 
- // Мы можем извлечь эскиз документа и сохранить его в локальной файловой системе.
+// Мы можем извлечь эскиз документа и сохранить его в локальной файловой системе.
 DocumentProperty thumbnail = doc.BuiltInDocumentProperties["Thumbnail"];
 File.WriteAllBytes(ArtifactsDir + "DocumentProperties.Thumbnail.gif", thumbnail.ToByteArray());
 ```

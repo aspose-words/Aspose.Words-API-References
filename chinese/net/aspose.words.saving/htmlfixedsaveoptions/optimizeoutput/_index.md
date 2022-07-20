@@ -1,14 +1,14 @@
 ---
 title: OptimizeOutput
 second_title: Aspose.Words for .NET API 参考
-description: Flag 表示是否需要优化输出 如果设置了此标志则多余的嵌套画布和空画布被删除 也将连接具有相同格式的相邻字形 注意如果该属性设置为true可能会影响内容显示的准确性 默认为真
+description: 标志表示是否需要优化输出 如果设置了这个标志多余的嵌套画布和空的画布被删除 也会连接具有相同格式的相邻字形 注意内容显示的准确性可能会受到影响如果此属性设置为 true 默认为 true
 type: docs
 weight: 100
 url: /zh/net/aspose.words.saving/htmlfixedsaveoptions/optimizeoutput/
 ---
 ## HtmlFixedSaveOptions.OptimizeOutput property
 
-Flag 表示是否需要优化输出。 如果设置了此标志，则多余的嵌套画布和空画布被删除， 也将连接具有相同格式的相邻字形。 注意:如果该属性设置为true，可能会影响内容显示的准确性。 默认为真。
+标志表示是否需要优化输出。 如果设置了这个标志，多余的嵌套画布和空的画布被删除， 也会连接具有相同格式的相邻字形。 注意：内容显示的准确性可能会受到影响，如果此属性设置为 true。 默认为 true。
 
 ```csharp
 public override bool OptimizeOutput { get; set; }
@@ -16,7 +16,7 @@ public override bool OptimizeOutput { get; set; }
 
 ### 例子
 
-展示了如何在将文档保存为 HTML 时通过删除各种冗余对象来简化文档。
+展示如何在将文档保存为 HTML 时通过删除各种冗余对象来简化文档。
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
@@ -25,7 +25,7 @@ HtmlFixedSaveOptions saveOptions = new HtmlFixedSaveOptions { OptimizeOutput = o
 
 doc.Save(ArtifactsDir + "HtmlFixedSaveOptions.OptimizeGraphicsOutput.html", saveOptions);
 
- // 优化后的文档大小几乎是未优化文档大小的三分之一。
+// 优化后的文档大小几乎是未优化文档大小的三分之一。
 Assert.AreEqual(optimizeOutput ? 62521 : 191770,
     new FileInfo(ArtifactsDir + "HtmlFixedSaveOptions.OptimizeGraphicsOutput.html").Length, 200);
 ```

@@ -1,14 +1,14 @@
 ---
 title: SignatureLineImage
 second_title: Справочник по API Aspose.Words для .NET
-description: Изображение которое будет отображаться в связаннойSignatureLineaspose.words.drawing/signatureline. Значение по умолчанию null .
+description: Изображение которое будет отображаться в связанныхSignatureLineaspose.words.drawing/signatureline . Значение по умолчаниюнулевой .
 type: docs
 weight: 60
 url: /ru/net/aspose.words.digitalsignatures/signoptions/signaturelineimage/
 ---
 ## SignOptions.SignatureLineImage property
 
-Изображение, которое будет отображаться в связанной[`SignatureLine`](../../../aspose.words.drawing/signatureline). Значение по умолчанию:` null` .
+Изображение, которое будет отображаться в связанных[`SignatureLine`](../../../aspose.words.drawing/signatureline) . Значение по умолчанию:`нулевой` .
 
 ```csharp
 public byte[] SignatureLineImage { get; set; }

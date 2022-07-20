@@ -1,14 +1,14 @@
 ---
 title: BorderCollection
 second_title: Aspose.Words for .NET API 参考
-description: Border 对象的集合
+description: 边框对象的集合
 type: docs
 weight: 80
 url: /zh/net/aspose.words/bordercollection/
 ---
 ## BorderCollection class
 
-Border 对象的集合。
+边框对象的集合。
 
 ```csharp
 public sealed class BorderCollection : IEnumerable<Border>
@@ -21,14 +21,14 @@ public sealed class BorderCollection : IEnumerable<Border>
 | [Bottom](../../aspose.words/bordercollection/bottom) { get; } | 获取底部边框。 |
 | [Color](../../aspose.words/bordercollection/color) { get; set; } | 获取或设置边框颜色。 |
 | [Count](../../aspose.words/bordercollection/count) { get; } | 获取集合中的边框数。 |
-| [DistanceFromText](../../aspose.words/bordercollection/distancefromtext) { get; set; } | 获取或设置边框与文本的距离（以磅为单位）。 |
+| [DistanceFromText](../../aspose.words/bordercollection/distancefromtext) { get; set; } | 获取或设置边框与文本的距离，以点为单位。 |
 | [Horizontal](../../aspose.words/bordercollection/horizontal) { get; } | 获取单元格或符合段落之间使用的水平边框。 |
 | [Item](../../aspose.words/bordercollection/item) { get; } | 按边框类型检索边框对象。 (2 indexers) |
 | [Left](../../aspose.words/bordercollection/left) { get; } | 获取左边框。 |
-| [LineStyle](../../aspose.words/bordercollection/linestyle) { get; set; } | 获取或设置边框样式。 |
-| [LineWidth](../../aspose.words/bordercollection/linewidth) { get; set; } | 获取或设置边框宽度（以磅为单位）。 |
+| [LineStyle](../../aspose.words/bordercollection/linestyle) { get; set; } | 获取或设置边框样式 |
+| [LineWidth](../../aspose.words/bordercollection/linewidth) { get; set; } | 获取或设置以点为单位的边框宽度。 |
 | [Right](../../aspose.words/bordercollection/right) { get; } | 获取右边框。 |
-| [Shadow](../../aspose.words/bordercollection/shadow) { get; set; } | 获取或设置一个值，指示边框是否有阴影。 |
+| [Shadow](../../aspose.words/bordercollection/shadow) { get; set; } | 获取或设置边框是否有阴影的值。 |
 | [Top](../../aspose.words/bordercollection/top) { get; } | 获取上边框。 |
 | [Vertical](../../aspose.words/bordercollection/vertical) { get; } | 获取单元格之间使用的垂直边框。 |
 
@@ -42,11 +42,11 @@ public sealed class BorderCollection : IEnumerable<Border>
 
 ### 评论
 
-不同的文档元素有不同的边框。 例如，ParagraphFormat 具有底部、左侧、右侧和顶部边框。 您可以为每个边框单独指定不同的格式，或者 枚举所有边框并应用相同的格式。
+不同的文档元素有不同的边框。 例如，ParagraphFormat 有下、左、右和上边框。 可以为每个边框单独指定不同的格式或 枚举所有边框并应用相同的格式。
 
 ### 例子
 
-显示如何插入带有上边框的段落。
+演示如何插入带有上边框的段落。
 
 ```csharp
 Document doc = new Document();

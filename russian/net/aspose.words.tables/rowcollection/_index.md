@@ -1,14 +1,14 @@
 ---
 title: RowCollection
 second_title: Справочник по API Aspose.Words для .NET
-description: Предоставляет типизированный доступ к набору узловRow./row.
+description: Предоставляет типизированный доступ к коллекцииRow./row узлы.
 type: docs
-weight: 5970
+weight: 6020
 url: /ru/net/aspose.words.tables/rowcollection/
 ---
 ## RowCollection class
 
-Предоставляет типизированный доступ к набору узлов[`Row`](../row).
+Предоставляет типизированный доступ к коллекции[`Row`](../row) узлы.
 
 ```csharp
 public class RowCollection : NodeCollection
@@ -19,7 +19,7 @@ public class RowCollection : NodeCollection
 | Имя | Описание |
 | --- | --- |
 | [Count](../../aspose.words/nodecollection/count) { get; } | Получает количество узлов в коллекции. |
-| [Item](../../aspose.words.tables/rowcollection/item) { get; } | Извлекает строку по заданному индексу. (2 indexers) |
+| [Item](../../aspose.words.tables/rowcollection/item) { get; } | Получает **Строка** по данному индексу. (2 indexers) |
 
 ## Методы
 
@@ -37,7 +37,7 @@ public class RowCollection : NodeCollection
 
 ### Примеры
 
-Показывает, как перебирать все таблицы в документе и печатать содержимое каждой ячейки.
+Показывает, как выполнить итерацию по всем таблицам в документе и распечатать содержимое каждой ячейки.
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");
@@ -51,7 +51,7 @@ for (int i = 0; i < tables.Count; i++)
 
     RowCollection rows = tables[i].Rows;
 
-     // Мы можем использовать метод "ToArray" для набора строк, чтобы клонировать его в массив.
+    // Мы можем использовать метод "ToArray" для набора строк, чтобы клонировать его в массив.
     Assert.AreEqual(rows, rows.ToArray());
     Assert.AreNotSame(rows, rows.ToArray());
 
@@ -61,7 +61,7 @@ for (int i = 0; i < tables.Count; i++)
 
         CellCollection cells = rows[j].Cells;
 
-         // Мы можем использовать метод "ToArray" для набора ячеек, чтобы клонировать его в массив.
+        // Мы можем использовать метод "ToArray" для набора ячеек, чтобы клонировать его в массив.
         Assert.AreEqual(cells, cells.ToArray());
         Assert.AreNotSame(cells, cells.ToArray());
 

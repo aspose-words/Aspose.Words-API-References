@@ -1,14 +1,14 @@
 ---
 title: MappedDataFields
 second_title: Справочник по API Aspose.Words для .NET
-description: Возвращает коллекцию представляющую сопоставленные поля данных для операции слияния.
+description: Возвращает коллекцию которая представляет сопоставленные поля данных для операции слияния почты.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.mailmerging/mailmerge/mappeddatafields/
 ---
 ## MailMerge.MappedDataFields property
 
-Возвращает коллекцию, представляющую сопоставленные поля данных для операции слияния.
+Возвращает коллекцию, которая представляет сопоставленные поля данных для операции слияния почты.
 
 ```csharp
 public MappedDataFieldCollection MappedDataFields { get; }
@@ -16,11 +16,11 @@ public MappedDataFieldCollection MappedDataFields { get; }
 
 ### Примечания
 
-Сопоставленные поля данных позволяют автоматически сопоставлять имена полей в ваш источник данных и имена полей слияния в документе.
+Сопоставленные поля данных позволяют автоматически сопоставлять имена полей в источнике данных и имена полей слияния в документе.
 
 ### Примеры
 
-Показывает, как сопоставлять столбцы данных и поля MERGEFIELD с разными именами, чтобы данные передавались между ними во время слияние почты.
+Показывает, как сопоставлять столбцы данных и поля MERGEFIELD с разными именами, чтобы данные передавались между ними во время слияния.
 
 ```csharp
 public void MappedDataFieldCollection()
@@ -28,24 +28,24 @@ public void MappedDataFieldCollection()
     Document doc = CreateSourceDocMappedDataFields();
     DataTable dataTable = CreateSourceTableMappedDataFields();
 
-     // В таблице есть столбец с именем "Column2", но нет полей MERGEFIELD с таким именем.
-     // Кроме того, у нас есть поле MERGEFIELD с именем "Column3", но в источнике данных нет столбца с таким именем.
-     // Если данные из "Столбца2" подходят для "Столбца3" MERGEFIELD,
-     // мы можем сопоставить имя этого столбца с MERGEFIELD в паре ключ/значение MappedDataFields.
+    // В таблице есть столбец с именем "Column2", но нет полей MERGEFIELD с таким именем.
+    // Кроме того, у нас есть поле MERGEFIELD с именем "Column3", но в источнике данных нет столбца с таким именем.
+    // Если данные из "Column2" подходят для поля MERGEFIELD "Column3",
+    // мы можем сопоставить имя этого столбца с MERGEFIELD в паре ключ/значение MappedDataFields.
     MappedDataFieldCollection mappedDataFields = doc.MailMerge.MappedDataFields;
 
-     // Мы можем связать имя столбца источника данных с именем MERGEFIELD следующим образом.
+    // Мы можем связать имя столбца источника данных с именем MERGEFIELD следующим образом.
     mappedDataFields.Add("MergeFieldName", "DataSourceColumnName");
 
-     // Свяжите столбец источника данных с именем "Column2" с MERGEFIELD с именем "Column3".
+    // Свяжите столбец источника данных с именем «Столбец2» с MERGEFIELD с именем «Столбец3».
     mappedDataFields.Add("Column3", "Column2");
 
-     // Имя MERGEFIELD является «ключом» к соответствующему имени столбца источника данных «value».
+    // Имя MERGEFIELD является «ключом» к соответствующему имени столбца источника данных «значение».
     Assert.AreEqual("DataSourceColumnName", mappedDataFields["MergeFieldName"]);
     Assert.True(mappedDataFields.ContainsKey("MergeFieldName"));
     Assert.True(mappedDataFields.ContainsValue("DataSourceColumnName"));
 
-     // Теперь, если мы запустим это слияние почты, поля MERGEFIELD "Column3" будут брать данные из "Column2" таблицы.
+    // Теперь, если мы запустим это слияние почты, поля MERGEFIELD "Column3" будут брать данные из "Column2" таблицы.
     doc.MailMerge.Execute(dataTable);
 
     doc.Save(ArtifactsDir + "MailMerge.MappedDataFieldCollection.docx");
@@ -58,7 +58,7 @@ public void MappedDataFieldCollection()
             Console.WriteLine(
                 $"Column named {enumerator.Current.Value} is mapped to MERGEFIELDs named {enumerator.Current.Key}");
 
-     // Мы также можем удалить элементы из коллекции.
+    // Мы также можем удалить элементы из коллекции.
     mappedDataFields.Remove("MergeFieldName");
 
     Assert.False(mappedDataFields.ContainsKey("MergeFieldName"));
@@ -70,8 +70,8 @@ public void MappedDataFieldCollection()
 }
 
 /// <summary>
- /// Создаем документ с 2 MERGEFIELD, в одном из которых нет a
- /// соответствующий столбец в таблице данных из метода ниже.
+/// Создадим документ с двумя MERGEFIELD, один из которых не имеет
+/// соответствующий столбец в таблице данных из метода ниже.
 /// </summary>
 private static Document CreateSourceDocMappedDataFields()
 {
@@ -86,8 +86,8 @@ private static Document CreateSourceDocMappedDataFields()
 }
 
 /// <summary>
- /// Создаем таблицу данных с 2 столбцами, один из которых не имеет a
- /// соответствующий MERGEFIELD в исходном документе из метода выше.
+/// Создаем таблицу данных с 2 столбцами, один из которых не имеет
+/// соответствующий MERGEFIELD в исходном документе из метода выше.
 /// </summary>
 private static DataTable CreateSourceTableMappedDataFields()
 {

@@ -3,7 +3,7 @@ title: VbaModule
 second_title: Aspose.Words for .NET API 参考
 description: 提供对 VBA 项目模块的访问
 type: docs
-weight: 6190
+weight: 6240
 url: /zh/net/aspose.words.vba/vbamodule/
 ---
 ## VbaModule class
@@ -25,14 +25,14 @@ public class VbaModule
 | 姓名 | 描述 |
 | --- | --- |
 | [Name](../../aspose.words.vba/vbamodule/name) { get; set; } | 获取或设置 VBA 项目模块名称。 |
-| [SourceCode](../../aspose.words.vba/vbamodule/sourcecode) { get; set; } | 获取或设置 VBA 工程模块源代码。 |
+| [SourceCode](../../aspose.words.vba/vbamodule/sourcecode) { get; set; } | 获取或设置VBA工程模块源代码。 |
 | [Type](../../aspose.words.vba/vbamodule/type) { get; set; } | 指定模块是过程模块、文档模块、类模块还是设计器模块。 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Clone](../../aspose.words.vba/vbamodule/clone)() | 执行[`VbaModule`](../vbamodule)的副本。 |
+| [Clone](../../aspose.words.vba/vbamodule/clone)() | 执行[`VbaModule`](../vbamodule). |
 
 ### 例子
 

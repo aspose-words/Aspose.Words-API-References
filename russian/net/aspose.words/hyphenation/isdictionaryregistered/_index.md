@@ -1,14 +1,14 @@
 ---
 title: IsDictionaryRegistered
 second_title: Справочник по API Aspose.Words для .NET
-description: Возвращает False если для указанного языка нет зарегистрированного словаря или зарегистрированный словарь Null в противном случае True.
+description: Возвращает False если для указанного языка не зарегистрирован словарь или зарегистрирован пустой словарь в противном случае True.
 type: docs
 weight: 30
 url: /ru/net/aspose.words/hyphenation/isdictionaryregistered/
 ---
 ## Hyphenation.IsDictionaryRegistered method
 
-Возвращает False, если для указанного языка нет зарегистрированного словаря или зарегистрированный словарь Null, в противном случае True.
+Возвращает False, если для указанного языка не зарегистрирован словарь или зарегистрирован пустой словарь, в противном случае True.
 
 ```csharp
 public static bool IsDictionaryRegistered(string language)

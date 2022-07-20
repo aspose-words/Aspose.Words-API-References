@@ -1,14 +1,14 @@
 ---
 title: TickLabelSpacing
 second_title: Справочник по API Aspose.Words для .NET
-description: Получает или задает интервал с которым рисуются метки деления.
+description: Получает или задает интервал с которым рисуются метки делений.
 type: docs
 weight: 230
 url: /ru/net/aspose.words.drawing.charts/chartaxis/ticklabelspacing/
 ---
 ## ChartAxis.TickLabelSpacing property
 
-Получает или задает интервал, с которым рисуются метки деления.
+Получает или задает интервал, с которым рисуются метки делений.
 
 ```csharp
 public int TickLabelSpacing { get; set; }
@@ -16,9 +16,9 @@ public int TickLabelSpacing { get; set; }
 
 ### Примечания
 
-Свойство действует для осей текстовой категории и ряда. Не поддерживается MS Office 2016 новые графики. Допустимый диапазон значений больше или равен 1.
+Свойство действует для текстовых категорий и осей серий. Не поддерживается новыми диаграммами MS Office 2016 . Допустимый диапазон значения больше или равен 1.
 
-Установка этого свойства устанавливает[`TickLabelSpacingIsAuto`](../ticklabelspacingisauto)свойство для **false** .
+Установка этого свойства устанавливает[`TickLabelSpacingIsAuto`](../ticklabelspacingisauto) собственность на **ЛОЖЬ**.
 
 ### Примеры
 

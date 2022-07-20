@@ -24,29 +24,29 @@ public void DocumentPartsFileNames()
     Document doc = new Document(MyDir + "Rendering.docx");
     string outFileName = "SavingCallback.DocumentPartsFileNames.html";
 
-     // Создаем объект «HtmlFixedSaveOptions», который мы можем передать в метод «Сохранить» документа method
-     // чтобы изменить способ преобразования документа в HTML.
+    // Создаем объект "HtmlFixedSaveOptions", который мы можем передать в метод документа "Сохранить"
+    // чтобы изменить способ преобразования документа в HTML.
     HtmlSaveOptions options = new HtmlSaveOptions();
 
-     // Если мы сохраним документ нормально, будет один вывод HTML
-     // документ со всем содержимым исходного документа.
-    // Установите для свойства "DocumentSplitCriteria" значение "DocumentSplitCriteria.SectionBreak" to
-     // сохраняем наш документ в несколько файлов HTML: по одному на каждый раздел.
+    // Если мы сохраним документ нормально, будет один выходной HTML
+    // документ со всем содержимым исходного документа.
+    // Установите для свойства "DocumentSplitCriteria" значение "DocumentSplitCriteria.SectionBreak", чтобы
+    // сохраняем наш документ в несколько файлов HTML: по одному на каждый раздел.
     options.DocumentSplitCriteria = DocumentSplitCriteria.SectionBreak;
 
-     // Назначаем пользовательский обратный вызов свойству «DocumentPartSavingCallback», чтобы изменить логику сохранения части документа.
+    // Назначаем пользовательский обратный вызов свойству «DocumentPartSavingCallback», чтобы изменить логику сохранения части документа.
     options.DocumentPartSavingCallback = new SavedDocumentPartRename(outFileName, options.DocumentSplitCriteria);
 
-     // Если мы преобразуем документ, содержащий изображения, в html, мы получим один html-файл, который ссылается на несколько изображений.
-     // Каждое изображение будет в виде файла в локальной файловой системе.
-     // Существует также обратный вызов, который может настроить имя и местоположение файловой системы для каждого изображения.
+    // Если мы преобразуем документ, содержащий изображения, в html, мы получим один html-файл, который ссылается на несколько изображений.
+    // Каждое изображение будет в виде файла в локальной файловой системе.
+    // Существует также обратный вызов, который может настроить имя и местоположение в файловой системе каждого изображения.
     options.ImageSavingCallback = new SavedImageRename(outFileName);
 
     doc.Save(ArtifactsDir + outFileName, options);
 }
 
 /// <summary>
- /// Задает пользовательские имена файлов для выходных документов, на которые операция сохранения разбивает документ.
+/// Задает пользовательские имена файлов для выходных документов, на которые операция сохранения разбивает документ.
 /// </summary>
 private class SavedDocumentPartRename : IDocumentPartSavingCallback
 {
@@ -58,7 +58,7 @@ private class SavedDocumentPartRename : IDocumentPartSavingCallback
 
     void IDocumentPartSavingCallback.DocumentPartSaving(DocumentPartSavingArgs args)
     {
-         // Мы можем получить доступ ко всему исходному документу через свойство "Документ".
+        // Мы можем получить доступ ко всему исходному документу через свойство «Документ».
         Assert.True(args.Document.OriginalFileName.EndsWith("Rendering.docx"));
 
         string partType = string.Empty;
@@ -81,11 +81,11 @@ private class SavedDocumentPartRename : IDocumentPartSavingCallback
 
         string partFileName = $"{mOutFileName} part {++mCount}, of type {partType}{Path.GetExtension(args.DocumentPartFileName)}";
 
-         // Ниже приведены два способа указать, где Aspose.Words будет сохранять каждую часть документа.
-         // 1 - Установить имя файла для выходного файла части: 
+        // Ниже приведены два способа указать, где Aspose.Words будет сохранять каждую часть документа.
+        // 1 - Установить имя файла для выходного файла детали:
         args.DocumentPartFileName = partFileName;
 
-         // 2 - Создать пользовательский поток для файла выходной части: 
+        // 2 - Создайте пользовательский поток для файла выходной части:
         args.DocumentPartStream = new FileStream(ArtifactsDir + partFileName, FileMode.Create);
 
         Assert.True(args.DocumentPartStream.CanWrite);
@@ -111,11 +111,11 @@ public class SavedImageRename : IImageSavingCallback
     {
         string imageFileName = $"{mOutFileName} shape {++mCount}, of type {args.CurrentShape.ShapeType}{Path.GetExtension(args.ImageFileName)}";
 
-         // Ниже приведены два способа указать, где Aspose.Words будет сохранять каждую часть документа.
-         // 1 - Установить имя файла выходного изображения: 
+        // Ниже приведены два способа указать, где Aspose.Words будет сохранять каждую часть документа.
+        // 1 - Установить имя файла выходного изображения:
         args.ImageFileName = imageFileName;
 
-         // 2 - Создать пользовательский поток для выходного файла изображения: 
+        // 2 - Создайте пользовательский поток для выходного файла изображения:
         args.ImageStream = new FileStream(ArtifactsDir + imageFileName, FileMode.Create);
 
         Assert.True(args.ImageStream.CanWrite);

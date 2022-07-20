@@ -1,14 +1,14 @@
 ---
 title: HasChart
 second_title: Aspose.Words for .NET API 参考
-description: 如果此 Shape 有Chartaspose.words.drawing/shape/chart则返回 true
+description: 如果此 Shape 有一个Chartaspose.words.drawing/shape/chart.
 type: docs
 weight: 70
 url: /zh/net/aspose.words.drawing/shape/haschart/
 ---
 ## Shape.HasChart property
 
-如果此 Shape 有[`Chart`](../chart)则返回 true。
+如果此 Shape 有一个[`Chart`](../chart).
 
 ```csharp
 public bool HasChart { get; }
@@ -16,7 +16,7 @@ public bool HasChart { get; }
 
 ### 例子
 
-显示如何迭代文档中的所有形状。
+演示如何遍历文档中的所有形状。
 
 ```csharp
 {

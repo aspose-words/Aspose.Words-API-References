@@ -1,14 +1,14 @@
 ---
 title: Outline
 second_title: Справочник по API Aspose.Words для .NET
-description: Истинно если шрифт отформатирован как контур.
+description: Истинно если шрифт отформатирован как контурный.
 type: docs
 weight: 290
 url: /ru/net/aspose.words/font/outline/
 ---
 ## Font.Outline property
 
-Истинно, если шрифт отформатирован как контур.
+Истинно, если шрифт отформатирован как контурный.
 
 ```csharp
 public bool Outline { get; set; }
@@ -16,7 +16,7 @@ public bool Outline { get; set; }
 
 ### Примеры
 
-Показывает, как создать фрагмент текста, отформатированный как контур.
+Показывает, как создать набор текста в формате структуры.
 
 ```csharp
 Document doc = new Document();

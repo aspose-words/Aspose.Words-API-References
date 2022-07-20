@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Справочник по API Aspose.Words для .NET
-description: Получает объектVbaReferenceaspose.words.vba/vbareferenceпо указанному индексу.
+description: получаетVbaReferenceaspose.words.vba/vbareference объект по указанному индексу.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.vba/vbareferencecollection/item/
 ---
 ## VbaReferenceCollection indexer
 
-Получает объект[`VbaReference`](../../vbareference)по указанному индексу.
+получает[`VbaReference`](../../vbareference) объект по указанному индексу.
 
 ```csharp
 public VbaReference this[int index] { get; }
@@ -16,7 +16,7 @@ public VbaReference this[int index] { get; }
 
 | Параметр | Описание |
 | --- | --- |
-| index | Отсчитываемый от нуля индекс ссылки для получения. |
+| index | Отсчитываемый от нуля индекс ссылки, которую требуется получить. |
 
 ### Смотрите также
 

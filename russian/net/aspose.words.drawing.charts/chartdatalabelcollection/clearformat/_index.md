@@ -1,14 +1,14 @@
 ---
 title: ClearFormat
 second_title: Справочник по API Aspose.Words для .NET
-description: Очищает формат всегоChartDataLabelaspose.words.drawing.charts/chartdatalabelв этой коллекции.
+description: Очищает формат всехChartDataLabelaspose.words.drawing.charts/chartdatalabel в этой коллекции.
 type: docs
 weight: 130
 url: /ru/net/aspose.words.drawing.charts/chartdatalabelcollection/clearformat/
 ---
 ## ChartDataLabelCollection.ClearFormat method
 
-Очищает формат всего[`ChartDataLabel`](../../chartdatalabel)в этой коллекции.
+Очищает формат всех[`ChartDataLabel`](../../chartdatalabel) в этой коллекции.
 
 ```csharp
 public void ClearFormat()

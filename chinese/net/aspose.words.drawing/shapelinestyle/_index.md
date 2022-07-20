@@ -1,14 +1,14 @@
 ---
 title: ShapeLineStyle
 second_title: Aspose.Words for .NET API 参考
-description: 指定Shape./shape的复合线型
+description: 指定复合线型Shape./shape.
 type: docs
-weight: 1100
+weight: 1120
 url: /zh/net/aspose.words.drawing/shapelinestyle/
 ---
 ## ShapeLineStyle enumeration
 
-指定[`Shape`](../shape)的复合线型。
+指定复合线型[`Shape`](../shape).
 
 ```csharp
 public enum ShapeLineStyle
@@ -19,11 +19,11 @@ public enum ShapeLineStyle
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
 | Single | `0` | 单行。 |
-| Double | `1` | 等宽的双线。 |
-| ThickThin | `2` | 双线，一粗，一细。 |
+| Double | `1` | 等宽双线。 |
+| ThickThin | `2` | 双线，一粗，一细 |
 | ThinThick | `3` | 双线，一细一粗。 |
-| Triple | `4` | 三行，细、粗、细。 |
-| Default | `0` | 默认值为Single。 |
+| Triple | `4` | 三条线，细、粗、细。 |
+| Default | `0` | 默认值为Single. |
 
 ### 例子
 

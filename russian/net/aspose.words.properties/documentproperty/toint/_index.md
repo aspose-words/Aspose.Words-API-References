@@ -1,14 +1,14 @@
 ---
 title: ToInt
 second_title: Справочник по API Aspose.Words для .NET
-description: Возвращает значение свойства как целое число.
+description: Возвращает значение свойства в виде целого числа.
 type: docs
 weight: 100
 url: /ru/net/aspose.words.properties/documentproperty/toint/
 ---
 ## DocumentProperty.ToInt method
 
-Возвращает значение свойства как целое число.
+Возвращает значение свойства в виде целого числа.
 
 ```csharp
 public int ToInt()
@@ -16,7 +16,7 @@ public int ToInt()
 
 ### Примечания
 
-Выдает исключение, если тип свойства неЧисло.
+Выдает исключение, если тип свойства неNumber .
 
 ### Примеры
 

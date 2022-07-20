@@ -16,7 +16,7 @@ public DigitalSignature this[int index] { get; }
 
 | 范围 | 描述 |
 | --- | --- |
-| index | 从零开始的签名索引。 |
+| index | 签名的从零开始的索引。 |
 
 ### 例子
 

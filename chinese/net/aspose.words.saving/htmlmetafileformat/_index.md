@@ -1,14 +1,14 @@
 ---
 title: HtmlMetafileFormat
 second_title: Aspose.Words for .NET API 参考
-description: 指示元文件保存到 HTML 文档的格式
+description: 表示元文件保存到 HTML 文档的格式
 type: docs
-weight: 4780
+weight: 4830
 url: /zh/net/aspose.words.saving/htmlmetafileformat/
 ---
 ## HtmlMetafileFormat enumeration
 
-指示元文件保存到 HTML 文档的格式。
+表示元文件保存到 HTML 文档的格式。
 
 ```csharp
 public enum HtmlMetafileFormat
@@ -20,11 +20,11 @@ public enum HtmlMetafileFormat
 | --- | --- | --- |
 | Png | `0` | 元文件被渲染为光栅 PNG 图像。 |
 | Svg | `1` | 元文件转换为矢量 SVG 图像。 |
-| EmfOrWmf | `2` | 元文件按原样保存，不进行转换。 |
+| EmfOrWmf | `2` | 元文件按原样保存，无需转换。 |
 
 ### 例子
 
-显示如何在保存 HTML 文档时将 SVG 对象转换为不同的格式。
+展示如何在保存 HTML 文档时将 SVG 对象转换为不同的格式。
 
 ```csharp
 string html = 

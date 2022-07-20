@@ -63,7 +63,7 @@ Assert.AreEqual(4, doc.Styles.Count);
 
 ## Cleanup(CleanupOptions) {#cleanup_1}
 
-Удаляет из документа неиспользуемые стили и списки в зависимости от заданного[`CleanupOptions`](../../cleanupoptions).
+Удаляет из документа неиспользуемые стили и списки в зависимости от заданного[`CleanupOptions`](../../cleanupoptions) .
 
 ```csharp
 public void Cleanup(CleanupOptions options)
@@ -81,12 +81,12 @@ doc.Styles.Add(StyleType.List, "MyListStyle2");
 doc.Styles.Add(StyleType.Character, "MyParagraphStyle1");
 doc.Styles.Add(StyleType.Character, "MyParagraphStyle2");
 
- // В сочетании со встроенными стилями документ теперь имеет восемь стилей.
- // Пользовательский стиль помечается как «используемый», если в документе есть какой-либо текст
- // отформатировано в этом стиле. Это означает, что 4 добавленных нами стиля в настоящее время не используются.
+// В сочетании со встроенными стилями документ теперь имеет восемь стилей.
+// Пользовательский стиль помечается как «используемый», пока в документе есть какой-либо текст
+// отформатировано в этом стиле. Это означает, что 4 добавленных нами стиля в настоящее время не используются.
 Assert.AreEqual(8, doc.Styles.Count);
 
- // Применение пользовательского стиля символов, а затем пользовательского стиля списка. При этом они будут помечены как "использованные".
+// Применение пользовательского стиля символов, а затем пользовательского стиля списка. При этом они будут помечены как «использованные».
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Font.Style = doc.Styles["MyParagraphStyle1"];
 builder.Writeln("Hello world!");
@@ -96,8 +96,8 @@ builder.ListFormat.List = list;
 builder.Writeln("Item 1");
 builder.Writeln("Item 2");
 
- // Теперь есть один неиспользуемый стиль символов и один неиспользуемый стиль списка.
-// Метод Cleanup(), сконфигурированный с объектом CleanupOptions, может выбирать неиспользуемые стили и удалять их.
+// Теперь есть один неиспользуемый стиль символов и один неиспользуемый стиль списка.
+// Метод Cleanup(), сконфигурированный с объектом CleanupOptions, может нацеливаться на неиспользуемые стили и удалять их.
 CleanupOptions cleanupOptions = new CleanupOptions
 {
     UnusedLists = true, UnusedStyles = true, UnusedBuiltinStyles = true
@@ -107,8 +107,8 @@ doc.Cleanup(cleanupOptions);
 
 Assert.AreEqual(4, doc.Styles.Count);
 
- // Удаление каждого узла, к которому применен пользовательский стиль, снова помечает его как «неиспользуемый». 
- // Повторно запустим метод Cleanup, чтобы удалить их.
+// Удаление каждого узла, к которому применен пользовательский стиль, снова помечает его как «неиспользуемый». 
+// Повторно запустите метод Cleanup, чтобы удалить их.
 doc.FirstSection.Body.RemoveAllChildren();
 doc.Cleanup(cleanupOptions);
 

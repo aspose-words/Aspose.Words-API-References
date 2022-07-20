@@ -3,7 +3,7 @@ title: License
 second_title: Aspose.Words for .NET API 参考
 description: 提供许可组件的方法
 type: docs
-weight: 3170
+weight: 3220
 url: /zh/net/aspose.words/license/
 ---
 ## License class
@@ -18,7 +18,7 @@ public class License
 
 | 姓名 | 描述 |
 | --- | --- |
-| [License](license)() | 初始化此类的新实例。 |
+| [License](license)() | 初始化这个类的一个新实例。 |
 
 ## 方法
 
@@ -29,7 +29,7 @@ public class License
 
 ### 例子
 
-显示如何使用本地文件系统中的许可证文件初始化 Aspose.Words 的许可证。
+展示如何使用本地文件系统中的许可证文件为 Aspose.Words 初始化许可证。
 
 ```csharp
 // 通过传递有效许可证文件的本地文件系统文件名，为我们的 Aspose.Words 产品设置许可证。

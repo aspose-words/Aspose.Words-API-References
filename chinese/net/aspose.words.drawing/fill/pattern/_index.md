@@ -1,14 +1,14 @@
 ---
 title: Pattern
 second_title: Aspose.Words for .NET API 参考
-description: 为填充获取PatternTypeaspose.words.drawing/patterntype
+description: 得到一个PatternTypeaspose.words.drawing/patterntype用于填充
 type: docs
 weight: 100
 url: /zh/net/aspose.words.drawing/fill/pattern/
 ---
 ## Fill.Pattern property
 
-为填充获取[`PatternType`](../../patterntype)。
+得到一个[`PatternType`](../../patterntype)用于填充。
 
 ```csharp
 public PatternType Pattern { get; }

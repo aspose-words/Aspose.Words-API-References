@@ -1,14 +1,14 @@
 ---
 title: UpdateCreatedTimeProperty
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置一个值该值确定CreatedTimeaspose.words.properties/builtindocumentproperties/createdtime属性是否在保存之前更新 默认值为假
+description: 获取或设置一个值确定是否CreatedTimeaspose.words.properties/builtindocumentproperties/createdtime属性在保存前更新 默认值为 false
 type: docs
 weight: 160
 url: /zh/net/aspose.words.saving/saveoptions/updatecreatedtimeproperty/
 ---
 ## SaveOptions.UpdateCreatedTimeProperty property
 
-获取或设置一个值，该值确定[`CreatedTime`](../../../aspose.words.properties/builtindocumentproperties/createdtime)属性是否在保存之前更新。 默认值为假；
+获取或设置一个值，确定是否[`CreatedTime`](../../../aspose.words.properties/builtindocumentproperties/createdtime)属性在保存前更新。 默认值为 false；
 
 ```csharp
 public bool UpdateCreatedTimeProperty { get; set; }

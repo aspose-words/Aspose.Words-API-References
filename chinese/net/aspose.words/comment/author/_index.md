@@ -29,8 +29,8 @@ Document doc = new Document(MyDir + "Comments.docx");
 
 NodeCollection comments = doc.GetChildNodes(NodeType.Comment, true);
 
- // 如果评论没有祖先，则它是“顶级”评论，而不是回复类型的评论。
- // 打印所有顶级评论以及他们可能拥有的任何回复。
+// 如果评论没有祖先，则它是“顶级”评论，而不是回复类型的评论。
+// 打印所有顶级评论以及他们可能拥有的任何回复。
 foreach (Comment comment in comments.OfType<Comment>().Where(c => c.Ancestor == null))
 {
     Console.WriteLine("Top-level comment:");

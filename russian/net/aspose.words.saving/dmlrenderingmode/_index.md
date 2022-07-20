@@ -1,14 +1,14 @@
 ---
 title: DmlRenderingMode
 second_title: Справочник по API Aspose.Words для .NET
-description: Указывает как фигуры DrawingML отображаются в фиксированных форматах страниц.
+description: Указывает как фигуры DrawingML визуализируются для фиксированных форматов страниц.
 type: docs
-weight: 4610
+weight: 4660
 url: /ru/net/aspose.words.saving/dmlrenderingmode/
 ---
 ## DmlRenderingMode enumeration
 
-Указывает, как фигуры DrawingML отображаются в фиксированных форматах страниц.
+Указывает, как фигуры DrawingML визуализируются для фиксированных форматов страниц.
 
 ```csharp
 public enum DmlRenderingMode
@@ -23,25 +23,22 @@ public enum DmlRenderingMode
 
 ### Примеры
 
-Показывает, как визуализировать резервные формы при сохранении в PDF.
+Показывает, как визуализировать резервные фигуры при сохранении в PDF.
 
 ```csharp
-Document doc = new Document(MyDir + "DrawingML shape effects.docx");
+Document doc = new Document(MyDir + "DrawingML shape fallbacks.docx");
 
 // Создаем объект "PdfSaveOptions", который мы можем передать в метод "Сохранить" документа
 // для изменения того, как этот метод преобразует документ в .PDF.
 PdfSaveOptions options = new PdfSaveOptions();
 
-// Установите для свойства "DmlEffectsRenderingMode" значение "DmlEffectsRenderingMode.None", чтобы отменить все эффекты DrawingML.
-// Установите для свойства "DmlEffectsRenderingMode" значение "DmlEffectsRenderingMode.Simplified"
-// для визуализации упрощенной версии эффектов DrawingML.
-// Установите для свойства "DmlEffectsRenderingMode" значение "DmlEffectsRenderingMode.Fine", чтобы
-// визуализировать эффекты DrawingML с большей точностью, а также с большей стоимостью обработки.
-options.DmlEffectsRenderingMode = effectsRenderingMode;
+// Установите для свойства "DmlRenderingMode" значение "DmlRenderingMode.Fallback"
+// для замены форм DML их резервными формами.
+// Установите для свойства "DmlRenderingMode" значение "DmlRenderingMode.DrawingML"
+// для рендеринга самих форм DML.
+options.DmlRenderingMode = dmlRenderingMode;
 
-Assert.AreEqual(DmlRenderingMode.DrawingML, options.DmlRenderingMode);
-
-doc.Save(ArtifactsDir + "PdfSaveOptions.DrawingMLEffects.pdf", options);
+doc.Save(ArtifactsDir + "PdfSaveOptions.DrawingMLFallback.pdf", options);
 ```
 
 Показывает, как настроить качество рендеринга эффектов DrawingML в документе при его сохранении в формате PDF.

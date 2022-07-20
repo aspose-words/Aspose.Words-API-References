@@ -16,7 +16,7 @@ public StyleType Type { get; }
 
 ### 例子
 
-显示如何访问文档的样式集合。
+展示如何访问文档的样式集合。
 
 ```csharp
 Document doc = new Document();

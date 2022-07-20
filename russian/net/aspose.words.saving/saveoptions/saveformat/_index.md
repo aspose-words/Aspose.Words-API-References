@@ -1,14 +1,14 @@
 ---
 title: SaveFormat
 second_title: Справочник по API Aspose.Words для .NET
-description: Указывает формат в котором будет сохранен документ если используется этот объект параметров сохранения.
+description: Указывает формат в котором документ будет сохранен если используется этот объект параметров сохранения.
 type: docs
 weight: 140
 url: /ru/net/aspose.words.saving/saveoptions/saveformat/
 ---
 ## SaveOptions.SaveFormat property
 
-Указывает формат, в котором будет сохранен документ, если используется этот объект параметров сохранения.
+Указывает формат, в котором документ будет сохранен, если используется этот объект параметров сохранения.
 
 ```csharp
 public abstract SaveFormat SaveFormat { get; set; }

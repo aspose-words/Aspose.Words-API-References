@@ -1,14 +1,14 @@
 ---
 title: DisplayDocTitle
 second_title: Aspose.Words for .NET API 参考
-description: 一个标志指定窗口的标题栏是否应显示取自文档信息字典的标题条目 的文档标题
+description: 一个标志指定窗口的标题栏是否应显示取自 文档信息字典的标题条目的文档标题
 type: docs
 weight: 70
 url: /zh/net/aspose.words.saving/pdfsaveoptions/displaydoctitle/
 ---
 ## PdfSaveOptions.DisplayDocTitle property
 
-一个标志，指定窗口的标题栏是否应显示取自文档信息字典的标题条目 的文档标题。
+一个标志，指定窗口的标题栏是否应显示取自 文档信息字典的标题条目的文档标题。
 
 ```csharp
 public bool DisplayDocTitle { get; set; }
@@ -16,11 +16,11 @@ public bool DisplayDocTitle { get; set; }
 
 ### 评论
 
-如果` false` ,标题栏应改为显示包含该文档的 PDF 文件的名称。
+如果`错误的`，标题栏应改为显示包含该文档的 PDF 文件的名称。
 
-PDF/UA 合规性需要此标志。` true` 值将在保存 到 PDF/UA 时自动使用。
+PDF/UA 合规性需要此标志。`真的`将 保存到 PDF/UA 时将自动使用该值。
 
-默认值为` false` 。
+默认值为`错误的`.
 
 ### 例子
 

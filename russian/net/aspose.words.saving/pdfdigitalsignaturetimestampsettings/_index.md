@@ -3,7 +3,7 @@ title: PdfDigitalSignatureTimestampSettings
 second_title: Справочник по API Aspose.Words для .NET
 description: Содержит настройки временной метки цифровой подписи.
 type: docs
-weight: 5120
+weight: 5170
 url: /ru/net/aspose.words.saving/pdfdigitalsignaturetimestampsettings/
 ---
 ## PdfDigitalSignatureTimestampSettings class
@@ -26,10 +26,10 @@ public class PdfDigitalSignatureTimestampSettings
 
 | Имя | Описание |
 | --- | --- |
-| [Password](../../aspose.words.saving/pdfdigitalsignaturetimestampsettings/password) { get; set; } | Отметка времени пароля сервера. |
+| [Password](../../aspose.words.saving/pdfdigitalsignaturetimestampsettings/password) { get; set; } | Пароль сервера временной метки. |
 | [ServerUrl](../../aspose.words.saving/pdfdigitalsignaturetimestampsettings/serverurl) { get; set; } | URL-адрес сервера меток времени. |
 | [Timeout](../../aspose.words.saving/pdfdigitalsignaturetimestampsettings/timeout) { get; set; } | Значение времени ожидания для доступа к серверу меток времени. |
-| [UserName](../../aspose.words.saving/pdfdigitalsignaturetimestampsettings/username) { get; set; } | Имя пользователя сервера временной метки. |
+| [UserName](../../aspose.words.saving/pdfdigitalsignaturetimestampsettings/username) { get; set; } | Имя пользователя сервера меток времени. |
 
 ### Примеры
 

@@ -24,14 +24,14 @@ public PlainTextDocument(string fileName)
 | --- | --- |
 | [UnsupportedFileFormatException](../../unsupportedfileformatexception) | Формат документа не распознан или не поддерживается. |
 | [FileCorruptedException](../../filecorruptedexception) | Документ поврежден и не может быть загружен. |
-| Exception | С документом возникла проблема, о которой необходимо сообщить разработчикам Aspose.Words. |
-| IOException | Исключение ввода/вывода. |
-| [IncorrectPasswordException](../../incorrectpasswordexception) | Документ зашифрован, и для его открытия требуется пароль, но вы указали неправильный пароль. |
+| Exception | Возникла проблема с документом, о ней следует сообщить разработчикам Aspose.Words. |
+| IOException | Существует исключение ввода/вывода. |
+| [IncorrectPasswordException](../../incorrectpasswordexception) | Документ зашифрован, и для его открытия требуется пароль, но вы указали неверный пароль. |
 | ArgumentException | Имя файла не может быть нулевым или пустой строкой. |
 
 ### Примеры
 
-Показывает, как загрузить содержимое документа Microsoft Word в виде открытого текста.
+Показывает, как загрузить содержимое документа Microsoft Word в виде обычного текста.
 
 ```csharp
 Document doc = new Document(); 
@@ -63,7 +63,7 @@ public PlainTextDocument(string fileName, LoadOptions loadOptions)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| fileName | String | Имя файла, из которого нужно извлечь текст . |
+| fileName | String | Имя файла, из которого нужно извлечь текст. |
 | loadOptions | LoadOptions | Дополнительные параметры для использования при загрузке документа. Может быть нулевым. |
 
 ### Исключения
@@ -72,9 +72,9 @@ public PlainTextDocument(string fileName, LoadOptions loadOptions)
 | --- | --- |
 | [UnsupportedFileFormatException](../../unsupportedfileformatexception) | Формат документа не распознан или не поддерживается. |
 | [FileCorruptedException](../../filecorruptedexception) | Документ поврежден и не может быть загружен. |
-| Exception | С документом возникла проблема, о которой необходимо сообщить разработчикам Aspose.Words. |
-| IOException | Исключение ввода/вывода. |
-| [IncorrectPasswordException](../../incorrectpasswordexception) | Документ зашифрован, и для его открытия требуется пароль, но вы указали неправильный пароль. |
+| Exception | Возникла проблема с документом, о ней следует сообщить разработчикам Aspose.Words. |
+| IOException | Существует исключение ввода/вывода. |
+| [IncorrectPasswordException](../../incorrectpasswordexception) | Документ зашифрован, и для его открытия требуется пароль, но вы указали неверный пароль. |
 | ArgumentException | Имя файла не может быть нулевым или пустой строкой. |
 
 ### Примеры
@@ -118,7 +118,7 @@ public PlainTextDocument(Stream stream)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| stream | Stream | Поток, из которого извлекается текст. |
+| stream | Stream | Поток, из которого извлекать текст. |
 
 ### Исключения
 
@@ -126,12 +126,12 @@ public PlainTextDocument(Stream stream)
 | --- | --- |
 | [UnsupportedFileFormatException](../../unsupportedfileformatexception) | Формат документа не распознан или не поддерживается. |
 | [FileCorruptedException](../../filecorruptedexception) | Документ поврежден и не может быть загружен. |
-| Exception | С документом возникла проблема, о которой необходимо сообщить разработчикам Aspose.Words. |
-| IOException | Исключение ввода/вывода. |
-| [IncorrectPasswordException](../../incorrectpasswordexception) | Документ зашифрован, и для его открытия требуется пароль, но вы указали неправильный пароль. |
+| Exception | Возникла проблема с документом, о ней следует сообщить разработчикам Aspose.Words. |
+| IOException | Существует исключение ввода/вывода. |
+| [IncorrectPasswordException](../../incorrectpasswordexception) | Документ зашифрован, и для его открытия требуется пароль, но вы указали неверный пароль. |
 | ArgumentNullException | Поток не может быть нулевым. |
 | NotSupportedException | Поток не поддерживает чтение или поиск. |
-| ObjectDisposedException | Поток является удаляемым объектом. |
+| ObjectDisposedException | Поток — это удаленный объект. |
 
 ### Примечания
 
@@ -139,7 +139,7 @@ public PlainTextDocument(Stream stream)
 
 ### Примеры
 
-Показывает, как загрузить содержимое документа Microsoft Word в виде открытого текста с использованием потока.
+Показывает, как загрузить содержимое документа Microsoft Word в виде обычного текста с помощью потока.
 
 ```csharp
 Document doc = new Document();
@@ -174,7 +174,7 @@ public PlainTextDocument(Stream stream, LoadOptions loadOptions)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| stream | Stream | Поток, из которого извлекается текст. |
+| stream | Stream | Поток, из которого извлекать текст. |
 | loadOptions | LoadOptions | Дополнительные параметры для использования при загрузке документа. Может быть нулевым. |
 
 ### Исключения
@@ -183,12 +183,12 @@ public PlainTextDocument(Stream stream, LoadOptions loadOptions)
 | --- | --- |
 | [UnsupportedFileFormatException](../../unsupportedfileformatexception) | Формат документа не распознан или не поддерживается. |
 | [FileCorruptedException](../../filecorruptedexception) | Документ поврежден и не может быть загружен. |
-| Exception | С документом возникла проблема, о которой необходимо сообщить разработчикам Aspose.Words. |
-| IOException | Исключение ввода/вывода. |
-| [IncorrectPasswordException](../../incorrectpasswordexception) | Документ зашифрован, и для его открытия требуется пароль, но вы указали неправильный пароль. |
+| Exception | Возникла проблема с документом, о ней следует сообщить разработчикам Aspose.Words. |
+| IOException | Существует исключение ввода/вывода. |
+| [IncorrectPasswordException](../../incorrectpasswordexception) | Документ зашифрован, и для его открытия требуется пароль, но вы указали неверный пароль. |
 | ArgumentNullException | Поток не может быть нулевым. |
 | NotSupportedException | Поток не поддерживает чтение или поиск. |
-| ObjectDisposedException | Поток является удаляемым объектом. |
+| ObjectDisposedException | Поток — это удаленный объект. |
 
 ### Примечания
 
@@ -196,7 +196,7 @@ public PlainTextDocument(Stream stream, LoadOptions loadOptions)
 
 ### Примеры
 
-Показывает, как с помощью потока загрузить содержимое зашифрованного документа Microsoft Word в виде открытого текста.
+Показывает, как загрузить содержимое зашифрованного документа Microsoft Word в виде открытого текста с помощью потока.
 
 ```csharp
 Document doc = new Document();

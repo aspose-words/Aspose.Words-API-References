@@ -16,7 +16,7 @@ public OdtSaveMeasureUnit MeasureUnit { get; set; }
 
 ### 评论
 
-Open Office 在指定长度、宽度和其他可测量的格式时使用厘米，在文档中使用 内容属性，而 MS Office 使用英寸。
+Open Office 在指定文档中的长度、宽度和其他可测量的格式和 内容属性时使用厘米，而 MS Office 使用英寸。
 
 ### 例子
 
@@ -25,11 +25,11 @@ Open Office 在指定长度、宽度和其他可测量的格式时使用厘米�
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
- // 当我们将文档导出为 .odt 时，我们可以使用 OdtSaveOptions 对象来修改我们如何保存文档。
- // 我们可以将“MeasureUnit”属性设置为“OdtSaveMeasureUnit.Centimeters”
+// 当我们将文档导出为 .odt 时，我们可以使用 OdtSaveOptions 对象来修改我们保存文档的方式。
+// 我们可以将“MeasureUnit”属性设置为“OdtSaveMeasureUnit.Centimeters”
 // 使用 Open Office 使用的公制系统定义样式参数等内容。 
- // 我们可以将“MeasureUnit”属性设置为“OdtSaveMeasureUnit.Inches”
- // 使用 Microsoft Word 使用的英制系统定义样式参数等内容。
+// 我们可以将“MeasureUnit”属性设置为“OdtSaveMeasureUnit.Inches”
+// 使用 Microsoft Word 使用的英制系统定义样式参数等内容。
 OdtSaveOptions saveOptions = new OdtSaveOptions
 {
     MeasureUnit = odtSaveMeasureUnit

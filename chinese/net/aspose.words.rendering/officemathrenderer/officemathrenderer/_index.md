@@ -1,14 +1,14 @@
 ---
 title: OfficeMathRenderer
 second_title: Aspose.Words for .NET API 参考
-description: 初始化此类的新实例
+description: 初始化这个类的一个新实例
 type: docs
 weight: 10
 url: /zh/net/aspose.words.rendering/officemathrenderer/officemathrenderer/
 ---
 ## OfficeMathRenderer constructor
 
-初始化此类的新实例。
+初始化这个类的一个新实例。
 
 ```csharp
 public OfficeMathRenderer(OfficeMath math)
@@ -16,7 +16,7 @@ public OfficeMathRenderer(OfficeMath math)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| math | OfficeMath | 要渲染的 OfficeMath 对象。 |
+| math | OfficeMath | 要呈现的 OfficeMath 对象。 |
 
 ### 例子
 

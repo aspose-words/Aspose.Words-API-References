@@ -16,8 +16,8 @@ public Shape InsertShape(ShapeType shapeType, double width, double height)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| shapeType | ShapeType | 要插入文档的形状类型。 |
-| width | Double | 形状的宽度，以磅为单位。 |
+| shapeType | ShapeType | 要插入到文档中的形状类型。 |
+| width | Double | 形状的宽度（以磅为单位）。 |
 | height | Double | 形状的高度（以磅为单位）。 |
 
 ### 返回值
@@ -26,7 +26,7 @@ public Shape InsertShape(ShapeType shapeType, double width, double height)
 
 ### 例子
 
-显示如何将 DML 形状插入到文档中。
+演示如何将 DML 形状插入到文档中。
 
 ```csharp
 Document doc = new Document();
@@ -72,11 +72,11 @@ public Shape InsertShape(ShapeType shapeType, RelativeHorizontalPosition horzPos
 | --- | --- | --- |
 | shapeType | ShapeType | 要插入文档的形状类型 |
 | horzPos | RelativeHorizontalPosition | 指定从何处测量到形状的水平距离。 |
-| left | Double | 从原点到形状左侧的距离。 |
+| left | Double | 从原点到形状左侧的距离（以点为单位）。 |
 | vertPos | RelativeVerticalPosition | 指定从何处测量到形状的垂直距离。 |
 | top | Double | 从原点到形状顶部的距离（以点为单位）。 |
-| width | Double | 形状的宽度，以磅为单位。 |
-| height | Double | 形状的宽度，以磅为单位。 |
+| width | Double | 形状的宽度（以磅为单位）。 |
+| height | Double | 形状的宽度（以磅为单位）。 |
 | wrapType | WrapType | 指定如何在形状周围环绕文本。 |
 
 ### 返回值
@@ -85,7 +85,7 @@ public Shape InsertShape(ShapeType shapeType, RelativeHorizontalPosition horzPos
 
 ### 例子
 
-显示如何将 DML 形状插入到文档中。
+演示如何将 DML 形状插入到文档中。
 
 ```csharp
 Document doc = new Document();

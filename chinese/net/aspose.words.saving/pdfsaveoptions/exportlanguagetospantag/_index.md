@@ -16,11 +16,11 @@ public bool ExportLanguageToSpanTag { get; set; }
 
 ### 评论
 
-默认值为` false` 和“Lang”属性附加到页面内容流中的标记内容序列。
+默认值为`错误的`“Lang”属性附加到页面内容流中的标记内容序列。
 
-当值为` true` 为非默认文本创建“跨度”标签语言 和“Lang”属性附加到此标签。
+当值为`真的`为具有非默认语言 的文本创建“Span”标签，并将“Lang”属性附加到此标签。
 
-当[`ExportDocumentStructure`](../exportdocumentstructure)为` false 时忽略此值` 。
+该值被忽略时[`ExportDocumentStructure`](../exportdocumentstructure)是`错误的`.
 
 ### 例子
 

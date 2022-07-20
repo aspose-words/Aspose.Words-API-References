@@ -18,29 +18,29 @@ public class ChartDataLabel
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Index](../../aspose.words.drawing.charts/chartdatalabel/index) { get; } | 指定包含元素的索引。 此索引应确定此元素适用于哪个父子集合。 默认值为 0。 |
-| [IsHidden](../../aspose.words.drawing.charts/chartdatalabel/ishidden) { get; set; } | 获取/设置一个标志，指示此标签是否隐藏。 默认值为 **false** 。 |
+| [Index](../../aspose.words.drawing.charts/chartdatalabel/index) { get; } | 指定包含元素的索引。 此索引应确定此元素适用于哪个父子集合。 默认值为 0. |
+| [IsHidden](../../aspose.words.drawing.charts/chartdatalabel/ishidden) { get; set; } | 获取/设置一个标志，指示此标签是否隐藏。 默认值为 **错误的**. |
 | [IsVisible](../../aspose.words.drawing.charts/chartdatalabel/isvisible) { get; } | 如果此数据标签有要显示的内容，则返回 true。 |
 | [NumberFormat](../../aspose.words.drawing.charts/chartdatalabel/numberformat) { get; } | 返回父元素的数字格式。 |
-| [Separator](../../aspose.words.drawing.charts/chartdatalabel/separator) { get; set; } | 获取或设置用于图表数据标签的字符串分隔符。 默认为逗号，但饼图仅显示类别名称和百分比除外，此时应使用换行符 。 |
-| [ShowBubbleSize](../../aspose.words.drawing.charts/chartdatalabel/showbubblesize) { get; set; } | 允许指定是否为图表上的数据标签显示气泡大小。 仅适用于气泡图。 默认值为假。 |
+| [Separator](../../aspose.words.drawing.charts/chartdatalabel/separator) { get; set; } | 获取或设置用于图表数据标签的字符串分隔符。 默认为逗号，除了仅显示类别名称和百分比的饼图外，应使用换行符 。 |
+| [ShowBubbleSize](../../aspose.words.drawing.charts/chartdatalabel/showbubblesize) { get; set; } | 允许指定是否要为图表上的数据标签显示气泡大小。 仅适用于气泡图。 默认值为假。 |
 | [ShowCategoryName](../../aspose.words.drawing.charts/chartdatalabel/showcategoryname) { get; set; } | 允许指定是否为图表上的数据标签显示类别名称。 默认值为假。 |
 | [ShowDataLabelsRange](../../aspose.words.drawing.charts/chartdatalabel/showdatalabelsrange) { get; set; } | 允许指定数据标签范围内的值是否显示在数据标签中。 默认值为假。 |
 | [ShowLeaderLines](../../aspose.words.drawing.charts/chartdatalabel/showleaderlines) { get; set; } | 允许指定是否需要显示数据标签引导线。 默认值为假。 |
-| [ShowLegendKey](../../aspose.words.drawing.charts/chartdatalabel/showlegendkey) { get; set; } | 允许指定是否要为图表上的数据标签显示图例键。 默认值为假。 |
+| [ShowLegendKey](../../aspose.words.drawing.charts/chartdatalabel/showlegendkey) { get; set; } | 允许指定是否为图表上的数据标签显示图例键。 默认值为假。 |
 | [ShowPercentage](../../aspose.words.drawing.charts/chartdatalabel/showpercentage) { get; set; } | 允许指定是否为图表上的数据标签显示百分比值。 默认值为假。 |
-| [ShowSeriesName](../../aspose.words.drawing.charts/chartdatalabel/showseriesname) { get; set; } | 返回或设置一个布尔值以指示图表上数据标签的系列名称显示行为。 True 显示系列名称。虚假隐藏。默认为假。 |
+| [ShowSeriesName](../../aspose.words.drawing.charts/chartdatalabel/showseriesname) { get; set; } | 返回或设置一个布尔值以指示图表上数据标签的系列名称显示行为。 True 显示系列名称。虚假隐藏。默认为 false. |
 | [ShowValue](../../aspose.words.drawing.charts/chartdatalabel/showvalue) { get; set; } | 允许指定值是否显示在数据标签中。 默认值为假。 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ClearFormat](../../aspose.words.drawing.charts/chartdatalabel/clearformat)() | 清除此数据标签的格式。属性设置为父数据 标签集合中定义的默认值。 |
+| [ClearFormat](../../aspose.words.drawing.charts/chartdatalabel/clearformat)() | 清除此数据标签的格式。属性设置为父 data 标签集合中定义的默认值。 |
 
 ### 评论
 
-在系列中，Charts。ChartDataLabel对象是[`ChartDataLabelCollection`](../chartdatalabelcollection)的成员。 [`ChartDataLabelCollection`](../chartdatalabelcollection)包含一个[`ChartDataLabel`](../chartdatalabel)对象每个点。
+在一个系列中，[`ChartDataLabel`](../chartdatalabel)对象是[`ChartDataLabelCollection`](../chartdatalabelcollection) 的[`ChartDataLabelCollection`](../chartdatalabelcollection)包含一个[`ChartDataLabel`](../chartdatalabel)每个点的对象。
 
 ### 例子
 

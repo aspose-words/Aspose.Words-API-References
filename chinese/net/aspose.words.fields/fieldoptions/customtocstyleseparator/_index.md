@@ -1,14 +1,14 @@
 ---
 title: CustomTocStyleSeparator
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置FieldTocaspose.words.fields/fieldtoc字段中 t 开关的自定义样式分隔符
+description: 获取或设置 t 开关的自定义样式分隔符FieldTocaspose.words.fields/fieldtoc字段.
 type: docs
 weight: 50
 url: /zh/net/aspose.words.fields/fieldoptions/customtocstyleseparator/
 ---
 ## FieldOptions.CustomTocStyleSeparator property
 
-获取或设置[`FieldToc`](../../fieldtoc)字段中 \t 开关的自定义样式分隔符。
+获取或设置 \t 开关的自定义样式分隔符[`FieldToc`](../../fieldtoc)字段.
 
 ```csharp
 public string CustomTocStyleSeparator { get; set; }
@@ -16,7 +16,7 @@ public string CustomTocStyleSeparator { get; set; }
 
 ### 评论
 
-默认情况下，自定义样式由T中的\t开关定义:Aspose.Words.Fields.FieldToc字段由取自当前区域性的分隔符分隔。 此属性通过指定用户定义的分隔符来覆盖该行为。
+默认情况下，由 \t 开关定义的自定义样式[`FieldToc`](../../fieldtoc)字段由取自当前区域性的分隔符分隔。 此属性通过指定用户定义的分隔符来覆盖该行为。
 
 ### 例子
 

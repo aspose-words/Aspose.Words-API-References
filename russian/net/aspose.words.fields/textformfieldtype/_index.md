@@ -1,14 +1,14 @@
 ---
 title: TextFormFieldType
 second_title: Справочник по API Aspose.Words для .NET
-description: Задает тип поля текстовой формы.
+description: Определяет тип поля текстовой формы.
 type: docs
-weight: 2540
+weight: 2590
 url: /ru/net/aspose.words.fields/textformfieldtype/
 ---
 ## TextFormFieldType enumeration
 
-Задает тип поля текстовой формы.
+Определяет тип поля текстовой формы.
 
 ```csharp
 public enum TextFormFieldType
@@ -20,10 +20,10 @@ public enum TextFormFieldType
 | --- | --- | --- |
 | Regular | `0` | Поле текстовой формы может содержать любой текст. |
 | Number | `1` | Поле текстовой формы может содержать только числа. |
-| Date | `2` | Поле текстовой формы может содержать только допустимое значение даты. |
+| Date | `2` | Поле текстовой формы может содержать только действительное значение даты. |
 | CurrentDate | `3` | Значением поля текстовой формы является текущая дата обновления поля. |
 | CurrentTime | `4` | Значением поля текстовой формы является текущее время, когда поле обновляется. |
-| Calculated | `5` | Значение поля текстовой формы вычисляется из выражения, указанного в поле[`TextInputDefault`](../formfield/textinputdefault)свойство. |
+| Calculated | `5` | Значение поля текстовой формы вычисляется из выражения, указанного в [`TextInputDefault`](../formfield/textinputdefault) свойство. |
 
 ### Примеры
 

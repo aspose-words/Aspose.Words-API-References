@@ -73,7 +73,7 @@ public Footnote InsertFootnote(FootnoteType footnoteType, string footnoteText, s
 | --- | --- | --- |
 | footnoteType | FootnoteType | 指定是插入脚注还是尾注。 |
 | footnoteText | String | 指定脚注的文本。 |
-| referenceMark | String | 指定脚注的自定义参考标记。 |
+| referenceMark | String | 指定脚注的自定义引用标记。 |
 
 ### 返回值
 

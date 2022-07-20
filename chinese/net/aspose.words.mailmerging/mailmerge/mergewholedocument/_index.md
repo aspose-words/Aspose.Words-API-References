@@ -16,7 +16,7 @@ public bool MergeWholeDocument { get; set; }
 
 ### 评论
 
-默认值为 **false** 。
+默认值为 **错误的**.
 
 ### 例子
 
@@ -28,15 +28,15 @@ public void MergeWholeDocument(bool mergeWholeDocument)
     Document doc = CreateSourceDocMergeWholeDocument();
     DataTable dataTable = CreateSourceTableMergeWholeDocument();
 
-     // 如果我们将“MergeWholeDocument”标志设置为“true”，
-     // 与区域的邮件合并将更新文档中的每个字段。
-     // 如果我们将“MergeWholeDocument”标志设置为“false”，邮件合并只会更新fields
-     // 在名称与数据源表名称匹配的邮件合并区域内。
+    // 如果我们将“MergeWholeDocument”标志设置为“true”，
+    // 与区域的邮件合并将更新文档中的每个字段。
+    // 如果我们将“MergeWholeDocument”标志设置为“false”，邮件合并只会更新字段
+    // 在名称与数据源表名称匹配的邮件合并区域内。
     doc.MailMerge.MergeWholeDocument = mergeWholeDocument;
     doc.MailMerge.ExecuteWithRegions(dataTable);
 
-     // 邮件合并只会更新邮件合并区域外的QUOTE字段
-     // 如果我们将“MergeWholeDocument”标志设置为“true”.
+    // 邮件合并只会更新邮件合并区域外的QUOTE字段
+    // 如果我们将“MergeWholeDocument”标志设置为“true”。
     doc.Save(ArtifactsDir + "MailMerge.MergeWholeDocument.docx");
 
     Assert.True(doc.GetText().Contains("This QUOTE field is inside the \"MyTable\" merge region."));
@@ -46,7 +46,7 @@ public void MergeWholeDocument(bool mergeWholeDocument)
 
 /// <summary>
 /// 创建一个包含属于名为“MyTable”的数据源的邮件合并区域的文档。
- /// 在该区域内插入一个 QUOTE 字段，在其外插入一个。
+/// 在该区域内插入一个 QUOTE 字段，在区域外再插入一个。
 /// </summary>
 private static Document CreateSourceDocMergeWholeDocument()
 {
@@ -70,7 +70,7 @@ private static Document CreateSourceDocMergeWholeDocument()
 }
 
 /// <summary>
- /// 创建一个将在邮件合并中使用的数据表。
+/// 创建将在邮件合并中使用的数据表。
 /// </summary>
 private static DataTable CreateSourceTableMergeWholeDocument()
 {

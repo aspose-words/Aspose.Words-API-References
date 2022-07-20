@@ -1,14 +1,14 @@
 ---
 title: HyphenateCaps
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置值确定是否用大写字母书写的单词是否连字符 此属性的默认值为 true 
+description: 获取或设置确定所有大写字母的单词是否连字符的值 此属性的默认值为 真的.
 type: docs
 weight: 40
 url: /zh/net/aspose.words.settings/hyphenationoptions/hyphenatecaps/
 ---
 ## HyphenationOptions.HyphenateCaps property
 
-获取或设置值，确定是否用大写字母书写的单词是否连字符。 此属性的默认值为 **true** 。
+获取或设置确定所有大写字母的单词是否连字符的值。 此属性的默认值为 **真的**.
 
 ```csharp
 public bool HyphenateCaps { get; set; }

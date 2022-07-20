@@ -1,14 +1,14 @@
 ---
 title: TextColumns
 second_title: Aspose.Words for .NET API 参考
-description: 返回代表文本列集的集合
+description: 返回一个表示文本列集的集合
 type: docs
 weight: 410
 url: /zh/net/aspose.words/pagesetup/textcolumns/
 ---
 ## PageSetup.TextColumns property
 
-返回代表文本列集的集合。
+返回一个表示文本列集的集合。
 
 ```csharp
 public TextColumnCollection TextColumns { get; }

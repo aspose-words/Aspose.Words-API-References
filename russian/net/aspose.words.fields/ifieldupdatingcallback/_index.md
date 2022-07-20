@@ -1,14 +1,14 @@
 ---
 title: IFieldUpdatingCallback
 second_title: Справочник по API Aspose.Words для .NET
-description: Реализуйте этот интерфейс если вы хотите чтобы во время обновления поля вызывались ваши собственные методы.
+description: Реализуйте этот интерфейс если вы хотите чтобы ваши собственные методы вызывались во время обновления поля.
 type: docs
-weight: 2500
+weight: 2550
 url: /ru/net/aspose.words.fields/ifieldupdatingcallback/
 ---
 ## IFieldUpdatingCallback interface
 
-Реализуйте этот интерфейс, если вы хотите, чтобы во время обновления поля вызывались ваши собственные методы.
+Реализуйте этот интерфейс, если вы хотите, чтобы ваши собственные методы вызывались во время обновления поля.
 
 ```csharp
 public interface IFieldUpdatingCallback
@@ -18,8 +18,8 @@ public interface IFieldUpdatingCallback
 
 | Имя | Описание |
 | --- | --- |
-| [FieldUpdated](../../aspose.words.fields/ifieldupdatingcallback/fieldupdated)(Field) | Определяемый пользователем метод, который вызывается сразу после обновления поля. |
-| [FieldUpdating](../../aspose.words.fields/ifieldupdatingcallback/fieldupdating)(Field) | Определяемый пользователем метод, который вызывается непосредственно перед обновлением поля. |
+| [FieldUpdated](../../aspose.words.fields/ifieldupdatingcallback/fieldupdated)(Field) | Определенный пользователем метод, который вызывается сразу после обновления поля. |
+| [FieldUpdating](../../aspose.words.fields/ifieldupdatingcallback/fieldupdating)(Field) | Определенный пользователем метод, который вызывается непосредственно перед обновлением поля. |
 
 ### Примеры
 
@@ -68,7 +68,7 @@ public class FieldUpdatingCallback : IFieldUpdatingCallback
     }
 
     /// <summary>
-    /// Определяемый пользователем метод, который вызывается сразу после обновления поля.
+    /// Определенный пользователем метод, который вызывается сразу после обновления поля.
     /// </summary>
     void IFieldUpdatingCallback.FieldUpdated(Field field)
     {

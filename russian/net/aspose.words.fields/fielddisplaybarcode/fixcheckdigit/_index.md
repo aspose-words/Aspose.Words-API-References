@@ -1,14 +1,14 @@
 ---
 title: FixCheckDigit
 second_title: Справочник по API Aspose.Words для .NET
-description: Получает или задает следует ли исправлять контрольную цифру если она недействительна.
+description: Получает или задает следует ли исправить контрольную цифру если она недействительна.
 type: docs
 weight: 90
 url: /ru/net/aspose.words.fields/fielddisplaybarcode/fixcheckdigit/
 ---
 ## FieldDisplayBarcode.FixCheckDigit property
 
-Получает или задает, следует ли исправлять контрольную цифру, если она недействительна.
+Получает или задает, следует ли исправить контрольную цифру, если она недействительна.
 
 ```csharp
 public bool FixCheckDigit { get; set; }
@@ -16,7 +16,7 @@ public bool FixCheckDigit { get; set; }
 
 ### Примеры
 
-Показывает, как вставить поле DISPLAYBARCODE и установить его свойства.
+Показывает, как вставить поле DISPLAYBARCODE и задать его свойства.
 
 ```csharp
 Document doc = new Document();

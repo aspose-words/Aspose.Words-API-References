@@ -20,7 +20,7 @@ public bool IsDecorative { get; set; }
 
 ### 例子
 
-显示如何设置形状为装饰性的。
+显示如何设置形状是装饰性的。
 
 ```csharp
 Document doc = new Document(MyDir + "Decorative shapes.docx");

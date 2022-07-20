@@ -1,14 +1,14 @@
 ---
 title: Certificate
 second_title: Aspose.Words for .NET API 参考
-description: 返回 X509Certificate2 的实例其中包含私钥公钥和证书链
+description: 返回的实例 X509证书2它拥有私钥公钥和证书链
 type: docs
 weight: 20
 url: /zh/net/aspose.words.digitalsignatures/certificateholder/certificate/
 ---
 ## CertificateHolder.Certificate property
 
-返回 **X509Certificate2** 的实例，其中包含私钥、公钥和证书链。
+返回的实例 **X509证书2**它拥有私钥、公钥和证书链。
 
 ```csharp
 public X509Certificate2 Certificate { get; }
@@ -20,7 +20,7 @@ X509Certificate2实例
 
 ### 例子
 
-显示如何验证和显示有关文档中每个签名的信息。
+演示如何验证和显示有关文档中每个签名的信息。
 
 ```csharp
 Document doc = new Document(MyDir + "Digitally signed.docx");

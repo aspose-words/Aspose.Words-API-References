@@ -1,14 +1,14 @@
 ---
 title: SuppressSpBfAfterPgBrk
 second_title: Aspose.Words for .NET API 参考
-description: 不要在分页后的第一行之前使用空格
+description: 分页后第一行前不要使用空格
 type: docs
 weight: 500
 url: /zh/net/aspose.words.settings/compatibilityoptions/suppressspbfafterpgbrk/
 ---
 ## CompatibilityOptions.SuppressSpBfAfterPgBrk property
 
-不要在分页后的第一行之前使用空格。
+分页后第一行前不要使用空格。
 
 ```csharp
 public bool SuppressSpBfAfterPgBrk { get; set; }

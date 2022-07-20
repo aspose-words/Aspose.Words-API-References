@@ -3,7 +3,7 @@ title: ShapeMarkupLanguage
 second_title: Aspose.Words for .NET API 参考
 description: 指定用于形状的标记语言
 type: docs
-weight: 1110
+weight: 1130
 url: /zh/net/aspose.words.drawing/shapemarkuplanguage/
 ---
 ## ShapeMarkupLanguage enumeration
@@ -23,7 +23,7 @@ public enum ShapeMarkupLanguage : byte
 
 ### 例子
 
-显示如何为保存的文档设置 OOXML 合规性规范以遵守。
+演示如何设置要遵守的已保存文档的 OOXML 合规性规范。
 
 ```csharp
 Document doc = new Document();

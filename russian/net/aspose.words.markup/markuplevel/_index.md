@@ -1,14 +1,14 @@
 ---
 title: MarkupLevel
 second_title: Справочник по API Aspose.Words для .NET
-description: Указывает уровень в дереве документов на котором может встречаться определенныйStructuredDocumentTag./structureddocumenttag.
+description: Указывает уровень в дереве документов на которомStructuredDocumentTag./structureddocumenttag может произойти.
 type: docs
-weight: 3690
+weight: 3740
 url: /ru/net/aspose.words.markup/markuplevel/
 ---
 ## MarkupLevel enumeration
 
-Указывает уровень в дереве документов, на котором может встречаться определенный[`StructuredDocumentTag`](../structureddocumenttag).
+Указывает уровень в дереве документов, на котором[`StructuredDocumentTag`](../structureddocumenttag) может произойти.
 
 ```csharp
 public enum MarkupLevel
@@ -18,8 +18,8 @@ public enum MarkupLevel
 
 | Имя | Ценность | Описание |
 | --- | --- | --- |
-| Unknown | `0` | Задает неизвестное или недопустимое значение. |
-| Inline | `1` | Элемент находится на встроенном уровне (например, среди фрагментов текста). |
+| Unknown | `0` | Указывает неизвестное или недопустимое значение. |
+| Inline | `1` | Элемент встречается на встроенном уровне (например, среди фрагментов текста). |
 | Block | `2` | Элемент встречается на уровне блоков (например, среди таблиц и абзацев). |
 | Row | `3` | Элемент находится среди строк в таблице. |
 | Cell | `4` | Элемент встречается среди ячеек в строке. |

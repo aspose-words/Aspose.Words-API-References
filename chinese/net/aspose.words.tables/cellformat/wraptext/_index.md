@@ -16,7 +16,7 @@ public bool WrapText { get; set; }
 
 ### 例子
 
-显示如何构建具有自定义边框的表格。
+演示如何构建具有自定义边框的表格。
 
 ```csharp
 Document doc = new Document();

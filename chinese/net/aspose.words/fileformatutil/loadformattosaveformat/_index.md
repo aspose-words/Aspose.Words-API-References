@@ -1,14 +1,14 @@
 ---
 title: LoadFormatToSaveFormat
 second_title: Aspose.Words for .NET API 参考
-description: 将LoadFormataspose.words/loadformat值转换为SaveFormataspose.words/saveformat如果可能的话
+description: 转换一个LoadFormataspose.words/loadformat价值SaveFormataspose.words/saveformat如果可能的话价值
 type: docs
 weight: 70
 url: /zh/net/aspose.words/fileformatutil/loadformattosaveformat/
 ---
 ## FileFormatUtil.LoadFormatToSaveFormat method
 
-将[`LoadFormat`](../../loadformat)值转换为[`SaveFormat`](../../saveformat)如果可能的话。
+转换一个[`LoadFormat`](../../loadformat)价值[`SaveFormat`](../../saveformat)如果可能的话，价值。
 
 ```csharp
 public static SaveFormat LoadFormatToSaveFormat(LoadFormat loadFormat)
@@ -22,10 +22,10 @@ public static SaveFormat LoadFormatToSaveFormat(LoadFormat loadFormat)
 
 ### 例子
 
-展示如何使用 FileFormatUtil 方法来检测文档的格式。
+演示如何使用 FileFormatUtil 方法来检测文档的格式。
 
 ```csharp
- // 从缺少文件扩展名的文件中加载文档，然后检测其文件格式。
+// 从缺少文件扩展名的文件中加载文档，然后检测其文件格式。
 using (FileStream docStream = File.OpenRead(MyDir + "Word document with missing file extension"))
 {
     FileFormatInfo info = FileFormatUtil.DetectFileFormat(docStream);
@@ -33,16 +33,15 @@ using (FileStream docStream = File.OpenRead(MyDir + "Word document with missing 
 
     Assert.AreEqual(LoadFormat.Doc, loadFormat);
 
-     // 下面是两种将 LoadFormat 转换为其对应的 SaveFormat.
- 的方法
-    // 1 - 获取 LoadFormat 的文件扩展名字符串，然后从该字符串中获取相应的 SaveFormat:
+    // 下面是两种将 LoadFormat 转换为对应的 SaveFormat 的方法。
+    // 1 - 获取 LoadFormat 的文件扩展名字符串，然后从该字符串中获取相应的 SaveFormat：
     string fileExtension = FileFormatUtil.LoadFormatToExtension(loadFormat);
     SaveFormat saveFormat = FileFormatUtil.ExtensionToSaveFormat(fileExtension);
 
-     // 2 - 将 LoadFormat 直接转换为其 SaveFormat:
+    // 2 - 将 LoadFormat 直接转换为其 SaveFormat：
     saveFormat = FileFormatUtil.LoadFormatToSaveFormat(loadFormat);
 
-     // 从流中加载一个文档，然后保存到自动检测到的文件扩展名.
+    // 从流中加载一个文档，然后将其保存到自动检测到的文件扩展名。
     Document doc = new Document(docStream);
 
     Assert.AreEqual(".doc", FileFormatUtil.SaveFormatToExtension(saveFormat));

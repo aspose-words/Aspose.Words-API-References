@@ -1,14 +1,14 @@
 ---
 title: IComparisonExpressionEvaluator
 second_title: Справочник по API Aspose.Words для .NET
-description: При реализации позволяет переопределить оценку выражений сравнения по умолчанию дляFieldIf./fieldifиFieldCompare./fieldcompareполя.
+description: При реализации позволяет переопределить оценку выражений сравнения по умолчанию дляFieldIf./fieldif а такжеFieldCompare./fieldcompare поля.
 type: docs
-weight: 2470
+weight: 2510
 url: /ru/net/aspose.words.fields/icomparisonexpressionevaluator/
 ---
 ## IComparisonExpressionEvaluator interface
 
-При реализации позволяет переопределить оценку выражений сравнения по умолчанию для[`FieldIf`](../fieldif)и[`FieldCompare`](../fieldcompare)поля.
+При реализации позволяет переопределить оценку выражений сравнения по умолчанию для[`FieldIf`](../fieldif) а также[`FieldCompare`](../fieldcompare) поля.
 
 ```csharp
 public interface IComparisonExpressionEvaluator

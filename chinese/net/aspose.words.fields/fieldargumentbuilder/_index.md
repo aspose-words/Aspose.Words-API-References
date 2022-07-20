@@ -3,7 +3,7 @@ title: FieldArgumentBuilder
 second_title: Aspose.Words for .NET API 参考
 description: 构建一个由字段节点和纯文本组成的复杂字段参数
 type: docs
-weight: 1380
+weight: 1400
 url: /zh/net/aspose.words.fields/fieldargumentbuilder/
 ---
 ## FieldArgumentBuilder class
@@ -18,19 +18,19 @@ public class FieldArgumentBuilder
 
 | 姓名 | 描述 |
 | --- | --- |
-| [FieldArgumentBuilder](fieldargumentbuilder)() | 初始化[`FieldArgumentBuilder`](../fieldargumentbuilder)类的实例。 |
+| [FieldArgumentBuilder](fieldargumentbuilder)() | 初始化[`FieldArgumentBuilder`](../fieldargumentbuilder)类. |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AddField](../../aspose.words.fields/fieldargumentbuilder/addfield)(FieldBuilder) | 将由[`FieldBuilder`](../fieldbuilder)表示的字段添加到参数。 |
+| [AddField](../../aspose.words.fields/fieldargumentbuilder/addfield)(FieldBuilder) | 添加一个由 a 表示的字段[`FieldBuilder`](../fieldbuilder)到论点. |
 | [AddNode](../../aspose.words.fields/fieldargumentbuilder/addnode)(Inline) | 向参数添加一个节点。 |
-| [AddText](../../aspose.words.fields/fieldargumentbuilder/addtext)(string) | 将纯文本添加到参数中。 |
+| [AddText](../../aspose.words.fields/fieldargumentbuilder/addtext)(string) | 向参数添加纯文本。 |
 
 ### 例子
 
-展示如何使用字段构建器构造字段，然后将它们插入到文档中。
+演示如何使用字段构建器构造字段，然后将它们插入到文档中。
 
 ```csharp
 Document doc = new Document();

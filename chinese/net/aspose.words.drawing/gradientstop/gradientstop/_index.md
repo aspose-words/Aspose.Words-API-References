@@ -1,14 +1,14 @@
 ---
 title: GradientStop
 second_title: Aspose.Words for .NET API 参考
-description: 初始化GradientStopaspose.words.drawing/gradientstop类的新实例
+description: 初始化GradientStopaspose.words.drawing/gradientstop类.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.drawing/gradientstop/gradientstop/
 ---
 ## GradientStop(Color, double) {#constructor}
 
-初始化[`GradientStop`](../../gradientstop)类的新实例。
+初始化[`GradientStop`](../../gradientstop)类.
 
 ```csharp
 public GradientStop(Color color, double position)
@@ -17,7 +17,7 @@ public GradientStop(Color color, double position)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | color | Color | 表示渐变色标的颜色。 |
-| position | Double | 表示在 中的停止位置，以百分比表示，范围为 0.0 到 1.0。 |
+| position | Double | 表示停止在 内的位置，以百分比表示，范围为 0.0 到 1.0。 |
 
 ### 例子
 
@@ -78,7 +78,7 @@ doc.Save(ArtifactsDir + "Shape.GradientStops.docx", saveOptions);
 
 ## GradientStop(Color, double, double) {#constructor_1}
 
-初始化[`GradientStop`](../../gradientstop)类的新实例。
+初始化[`GradientStop`](../../gradientstop)类.
 
 ```csharp
 public GradientStop(Color color, double position, double transparency)
@@ -87,8 +87,8 @@ public GradientStop(Color color, double position, double transparency)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | color | Color | 表示渐变色标的颜色。 |
-| position | Double | 表示在 中的停止位置，以百分比表示，范围为 0.0 到 1.0。 |
-| transparency | Double | 表示在 范围内以百分比表示的渐变的透明度，范围为 0.0 到 1.0。 |
+| position | Double | 表示停止在 内的位置，以百分比表示，范围为 0.0 到 1.0。 |
+| transparency | Double | 表示在 0.0 到 1.0 范围内以百分比表示的梯度范围内的停靠点的透明度 。 |
 
 ### 例子
 

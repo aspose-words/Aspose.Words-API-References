@@ -1,14 +1,14 @@
 ---
 title: PreserveIncludePictureField
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置读取 Microsoft Word 格式时是否保留 INCLUDEPICTURE 字段 默认值为假
+description: 获取或设置读取Microsoft Word格式时是否保留INCLUDEPICTURE字段 默认值为false
 type: docs
 weight: 120
 url: /zh/net/aspose.words.loading/loadoptions/preserveincludepicturefield/
 ---
 ## LoadOptions.PreserveIncludePictureField property
 
-获取或设置读取 Microsoft Word 格式时是否保留 INCLUDEPICTURE 字段。 默认值为假。
+获取或设置读取Microsoft Word格式时是否保留INCLUDEPICTURE字段。 默认值为false。
 
 ```csharp
 public bool PreserveIncludePictureField { get; set; }
@@ -16,9 +16,9 @@ public bool PreserveIncludePictureField { get; set; }
 
 ### 评论
 
-默认情况下，INCLUDEPICTURE 字段转换为形状对象。如果您需要 要保留的字段，您可以覆盖它，例如，如果您希望以编程方式更新它。但是请注意，这种 方法对于 Aspose.Words 并不常见。自行承担使用风险。
+默认情况下，INCLUDEPICTURE 字段转换为形状对象。如果您需要 要保留的字段，您可以覆盖它，例如，如果您希望以编程方式更新它。但是请注意，this 方法对于 Aspose.Words 并不常见。自行承担使用风险。
 
-可能的用例之一可能是使用 MERGEFIELD 作为子字段来动态更改图片的源路径 。在这种情况下，您需要将 INCLUDEPICTURE 保留在模型中。
+一种可能的用例可能是使用 MERGEFIELD 作为子字段来动态更改图片的源 path 。在这种情况下，您需要将 INCLUDEPICTURE 保留在模型中。
 
 ### 例子
 

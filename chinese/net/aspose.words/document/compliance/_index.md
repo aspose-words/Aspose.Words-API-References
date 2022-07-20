@@ -16,7 +16,7 @@ public OoxmlCompliance Compliance { get; }
 
 ### 评论
 
-如果您创建了新的空白文档或加载非 OOXML 文档 返回Ecma376_2006值。
+如果您创建了一个新的空白文档或加载非 OOXML document 返回Ecma376_2006价值。
 
 ### 例子
 

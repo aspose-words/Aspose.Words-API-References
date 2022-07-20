@@ -1,14 +1,14 @@
 ---
 title: StructuredDocumentTag
 second_title: Aspose.Words for .NET API 参考
-description: 初始化 结构化文档标签 类的新实例
+description: 初始化 结构化文档标签类.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.markup/structureddocumenttag/structureddocumenttag/
 ---
 ## StructuredDocumentTag constructor
 
-初始化 **结构化文档标签** 类的新实例。
+初始化 **结构化文档标签**类.
 
 ```csharp
 public StructuredDocumentTag(DocumentBase doc, SdtType type, MarkupLevel level)
@@ -22,7 +22,7 @@ public StructuredDocumentTag(DocumentBase doc, SdtType type, MarkupLevel level)
 
 ### 评论
 
-可以创建以下类型的 SDT:
+可以创建以下类型的 SDT：
 
 * Checkbox
 * DropDownList

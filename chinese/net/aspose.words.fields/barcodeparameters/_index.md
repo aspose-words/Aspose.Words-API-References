@@ -1,14 +1,14 @@
 ---
 title: BarcodeParameters
 second_title: Aspose.Words for .NET API 参考
-description: 条码参数传递给 BarcodeGenerator 的容器类
+description: 条码参数的容器类传递给 BarcodeGenerator.
 type: docs
-weight: 1300
+weight: 1320
 url: /zh/net/aspose.words.fields/barcodeparameters/
 ---
 ## BarcodeParameters class
 
-条码参数传递给 BarcodeGenerator 的容器类。
+条码参数的容器类传递给 BarcodeGenerator.
 
 ```csharp
 public class BarcodeParameters
@@ -24,44 +24,44 @@ public class BarcodeParameters
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AddStartStopChar](../../aspose.words.fields/barcodeparameters/addstartstopchar) { get; set; } | 是否为 NW7 和 CODE39 类型的条码添加开始/结束字符。 |
+| [AddStartStopChar](../../aspose.words.fields/barcodeparameters/addstartstopchar) { get; set; } | 是否为条形码类型 NW7 和 CODE39 添加开始/停止字符。 |
 | [BackgroundColor](../../aspose.words.fields/barcodeparameters/backgroundcolor) { get; set; } | 条码背景颜色 (0x000000 - 0xFFFFFF) |
-| [BarcodeType](../../aspose.words.fields/barcodeparameters/barcodetype) { get; set; } | 条码类型。 |
+| [BarcodeType](../../aspose.words.fields/barcodeparameters/barcodetype) { get; set; } | 条码类型. |
 | [BarcodeValue](../../aspose.words.fields/barcodeparameters/barcodevalue) { get; set; } | 要编码的数据。 |
 | [CaseCodeStyle](../../aspose.words.fields/barcodeparameters/casecodestyle) { get; set; } | 条码类型 ITF14 的案例代码样式。有效值为 [STD&#x7C;EXT&#x7C;ADD] |
 | [DisplayText](../../aspose.words.fields/barcodeparameters/displaytext) { get; set; } | 是否与图像一起显示条形码数据（文本）。 |
-| [ErrorCorrectionLevel](../../aspose.words.fields/barcodeparameters/errorcorrectionlevel) { get; set; } | 二维码的纠错级别。有效值为 [0, 3]。 |
+| [ErrorCorrectionLevel](../../aspose.words.fields/barcodeparameters/errorcorrectionlevel) { get; set; } | QR 码的纠错级别。有效值为 [0, 3]. |
 | [FacingIdentificationMark](../../aspose.words.fields/barcodeparameters/facingidentificationmark) { get; set; } | 正面识别标记 (FIM) 的类型。 |
-| [FixCheckDigit](../../aspose.words.fields/barcodeparameters/fixcheckdigit) { get; set; } | 校验位无效时是否修复。 |
-| [ForegroundColor](../../aspose.words.fields/barcodeparameters/foregroundcolor) { get; set; } | 条形码前景色 (0x000000 - 0xFFFFFF) |
-| [IsBookmark](../../aspose.words.fields/barcodeparameters/isbookmark) { get; set; } | [`PostalAddress`](./postaladdress)是否为书签名称。 |
-| [IsUSPostalAddress](../../aspose.words.fields/barcodeparameters/isuspostaladdress) { get; set; } | [`PostalAddress`](./postaladdress)是否为美国邮政地址。 |
-| [PosCodeStyle](../../aspose.words.fields/barcodeparameters/poscodestyle) { get; set; } | 销售点条形码的样式（条形码类型 UPCA&#x7C;UPCE&#x7C;EAN13&#x7C;EAN8）。有效值（不区分大小写）为 [STD&#x7C;SUP2&#x7C;SUP5&#x7C;CASE]。 |
+| [FixCheckDigit](../../aspose.words.fields/barcodeparameters/fixcheckdigit) { get; set; } | 校验位无效时是否修复 |
+| [ForegroundColor](../../aspose.words.fields/barcodeparameters/foregroundcolor) { get; set; } | 条码前景色 (0x000000 - 0xFFFFFF) |
+| [IsBookmark](../../aspose.words.fields/barcodeparameters/isbookmark) { get; set; } | 是否[`PostalAddress`](./postaladdress)是书签的名称。 |
+| [IsUSPostalAddress](../../aspose.words.fields/barcodeparameters/isuspostaladdress) { get; set; } | 是否[`PostalAddress`](./postaladdress)是美国邮政地址。 |
+| [PosCodeStyle](../../aspose.words.fields/barcodeparameters/poscodestyle) { get; set; } | POS 条码样式（条码类型 UPCA&#x7C;UPCE&#x7C;EAN13&#x7C;EAN8）。有效值（不区分大小写）为 [STD&#x7C;SUP2&#x7C;SUP5&#x7C;CASE]. |
 | [PostalAddress](../../aspose.words.fields/barcodeparameters/postaladdress) { get; set; } | 条形码邮政地址。 |
-| [ScalingFactor](../../aspose.words.fields/barcodeparameters/scalingfactor) { get; set; } | 符号的比例因子。该值以整数个百分点表示，有效值为 [10, 1000]。 |
-| [SymbolHeight](../../aspose.words.fields/barcodeparameters/symbolheight) { get; set; } | 条码图像高度（以缇为单位 - 1/1440 英寸） |
-| [SymbolRotation](../../aspose.words.fields/barcodeparameters/symbolrotation) { get; set; } | 条码符号的旋转。有效值为 [0, 3]。 |
+| [ScalingFactor](../../aspose.words.fields/barcodeparameters/scalingfactor) { get; set; } | 符号的比例因子。该值以整数为单位，有效值为 [10, 1000]. |
+| [SymbolHeight](../../aspose.words.fields/barcodeparameters/symbolheight) { get; set; } | 条码图像高度（缇 - 1/1440 英寸） |
+| [SymbolRotation](../../aspose.words.fields/barcodeparameters/symbolrotation) { get; set; } | 条码符号的旋转。有效值为 [0, 3]. |
 
 ### 评论
 
-参数集根据 DISPLAYBARCODE 字段选项。 请参阅:::R10 的确切列表:https://msdn.microsoft.com/en-us/library/hh745901(v=office.12).aspx:::
+参数集根据 DISPLAYBARCODE 字段选项而定。 详细列表见[https://msdn.microsoft.com/en-us/library/hh745901(v=office.12).aspx](https://msdn.microsoft.com/en-us/library/hh745901(v=office.12).aspx)
 
 ### 例子
 
-显示如何使用条形码生成器。
+展示如何使用条形码生成器。
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
- // 我们可以使用自定义的 IBarcodeGenerator 实现来生成条形码，
- // 然后将它们作为图像插入到文档中。
+// 我们可以使用自定义的 IBarcodeGenerator 实现来生成条形码，
+// 然后将它们作为图像插入到文档中。
 doc.FieldOptions.BarcodeGenerator = new CustomBarcodeGenerator();
 
- // 下面是我们可以使用生成器创建的不同条形码类型的四个示例。
- // 对于每个条码，我们指定一组新的条码参数，然后生成图像。
-// 之后我们可以将图片插入到文档中，或者保存到本地文件系统
- // 1 - 二维码：
+// 下面是我们可以使用生成器创建的不同条形码类型的四个示例。
+// 对于每个条码，我们指定一组新的条码参数，然后生成图像。
+// 之后，我们可以将图片插入到文档中，或者保存到本地文件系统中。
+// 1 - 二维码：
 BarcodeParameters barcodeParameters = new BarcodeParameters
 {
     BarcodeType = "QR",
@@ -79,7 +79,7 @@ img.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.QR.jpg");
 
 builder.InsertImage(img);
 
- // 2 - EAN13 条形码：
+// 2 - EAN13 条形码：
 barcodeParameters = new BarcodeParameters
 {
     BarcodeType = "EAN13",
@@ -93,7 +93,7 @@ img = doc.FieldOptions.BarcodeGenerator.GetBarcodeImage(barcodeParameters);
 img.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.EAN13.jpg");
 builder.InsertImage(img);
 
- // 3 - CODE39 条形码：
+// 3 - CODE39 条形码：
 barcodeParameters = new BarcodeParameters
 {
     BarcodeType = "CODE39",
@@ -105,7 +105,7 @@ img = doc.FieldOptions.BarcodeGenerator.GetBarcodeImage(barcodeParameters);
 img.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.CODE39.jpg");
 builder.InsertImage(img);
 
- // 4 - ITF14 条形码：
+// 4 - ITF14 条形码：
 barcodeParameters = new BarcodeParameters
 {
     BarcodeType = "ITF14",

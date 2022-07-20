@@ -16,7 +16,7 @@ public string PostScriptGroup { get; set; }
 
 ### Примеры
 
-Показывает для вставки поля PRINT.
+Показывает, чтобы вставить поле PRINT.
 
 ```csharp
 Document doc = new Document();

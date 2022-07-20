@@ -1,14 +1,14 @@
 ---
 title: MarkdownSaveOptions
 second_title: Справочник по API Aspose.Words для .NET
-description: Инициализирует новый экземпляр этого класса который можно использовать для сохранения документа в файлеMarkdown.
+description: Инициализирует новый экземпляр этого класса который можно использовать для сохранения документа вMarkdown формат.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.saving/markdownsaveoptions/markdownsaveoptions/
 ---
 ## MarkdownSaveOptions constructor
 
-Инициализирует новый экземпляр этого класса, который можно использовать для сохранения документа в файлеMarkdown.
+Инициализирует новый экземпляр этого класса, который можно использовать для сохранения документа вMarkdown формат.
 
 ```csharp
 public MarkdownSaveOptions()

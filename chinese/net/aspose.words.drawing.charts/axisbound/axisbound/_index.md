@@ -144,7 +144,7 @@ doc.Save(ArtifactsDir + "Charts.DateTimeValues.docx");
 
 ## AxisBound(DateTime) {#constructor_2}
 
-创建一个表示为日期时间值的轴边界。
+创建表示为日期时间值的轴边界。
 
 ```csharp
 public AxisBound(DateTime datetime)

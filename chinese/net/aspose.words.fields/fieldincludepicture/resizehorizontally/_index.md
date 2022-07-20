@@ -1,14 +1,14 @@
 ---
 title: ResizeHorizontally
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置是否从源横向调整图片大小
+description: 获取或设置是否从源中横向调整图片大小
 type: docs
 weight: 40
 url: /zh/net/aspose.words.fields/fieldincludepicture/resizehorizontally/
 ---
 ## FieldIncludePicture.ResizeHorizontally property
 
-获取或设置是否从源横向调整图片大小。
+获取或设置是否从源中横向调整图片大小。
 
 ```csharp
 public bool ResizeHorizontally { get; set; }

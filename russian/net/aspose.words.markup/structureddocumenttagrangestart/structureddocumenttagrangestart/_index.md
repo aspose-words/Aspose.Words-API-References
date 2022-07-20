@@ -1,14 +1,14 @@
 ---
 title: StructuredDocumentTagRangeStart
 second_title: Справочник по API Aspose.Words для .NET
-description: Инициализирует новый экземпляр класса Начало диапазона тегов структурированного документа .
+description: Инициализирует новый экземпляр Начало диапазона тегов структурированного документа класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.markup/structureddocumenttagrangestart/structureddocumenttagrangestart/
 ---
 ## StructuredDocumentTagRangeStart constructor
 
-Инициализирует новый экземпляр класса **Начало диапазона тегов структурированного документа** .
+Инициализирует новый экземпляр **Начало диапазона тегов структурированного документа** класс.
 
 ```csharp
 public StructuredDocumentTagRangeStart(DocumentBase doc, SdtType type)
@@ -16,34 +16,26 @@ public StructuredDocumentTagRangeStart(DocumentBase doc, SdtType type)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| doc | DocumentBase | документ владельца. |
+| doc | DocumentBase | Документ владельца. |
 | type | SdtType | Тип узла SDT. |
 
 ### Примечания
 
 Могут быть созданы следующие типы SDT:
 
-Checkbox
-
-DropDownList
-
-ComboBox
-
-Date
-
-BuildingBlockGallery
-
-Group
-
-Picture
-
-RichText
-
-PlainText
+* Checkbox
+* DropDownList
+* ComboBox
+* Date
+* BuildingBlockGallery
+* Group
+* Picture
+* RichText
+* PlainText
 
 ### Примеры
 
-Показывает, как создать/удалить тег структурированного документа и его содержимое.
+Показывает, как создать/удалить структурированный тег документа и его содержимое.
 
 ```csharp
 {

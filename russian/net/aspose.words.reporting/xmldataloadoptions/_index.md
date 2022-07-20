@@ -1,14 +1,14 @@
 ---
 title: XmlDataLoadOptions
 second_title: Справочник по API Aspose.Words для .NET
-description: Представляет параметры загрузки XML-данных.
+description: Представляет параметры для загрузки данных XML.
 type: docs
-weight: 4430
+weight: 4480
 url: /ru/net/aspose.words.reporting/xmldataloadoptions/
 ---
 ## XmlDataLoadOptions class
 
-Представляет параметры загрузки XML-данных.
+Представляет параметры для загрузки данных XML.
 
 ```csharp
 public class XmlDataLoadOptions
@@ -24,11 +24,11 @@ public class XmlDataLoadOptions
 
 | Имя | Описание |
 | --- | --- |
-| [AlwaysGenerateRootObject](../../aspose.words.reporting/xmldataloadoptions/alwaysgeneraterootobject) { get; set; } | Получает или задает флаг, указывающий, всегда ли сгенерированный источник данных будет содержать объект для корневого элемента XML . Если корневой элемент XML не имеет атрибутов и все его дочерние элементы имеют одинаковые имена, такой объект по умолчанию не создается. |
+| [AlwaysGenerateRootObject](../../aspose.words.reporting/xmldataloadoptions/alwaysgeneraterootobject) { get; set; } | Получает или задает флаг, указывающий, будет ли сгенерированный источник данных всегда содержать объект для корневого элемента XML . Если корневой элемент XML не имеет атрибутов и все его дочерние элементы имеют одинаковые имена, такой объект по умолчанию не создается. |
 
 ### Примечания
 
-Экземпляр этого класса может быть передан в конструкторы[`XmlDataSource`](../xmldatasource).
+Экземпляр этого класса может быть передан в конструкторы[`XmlDataSource`](../xmldatasource) .
 
 ### Смотрите также
 

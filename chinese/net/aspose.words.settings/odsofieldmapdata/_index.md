@@ -3,7 +3,7 @@ title: OdsoFieldMapData
 second_title: Aspose.Words for .NET API 参考
 description: 指定如何将外部数据源中的列映射到文档中的预定义合并字段
 type: docs
-weight: 5550
+weight: 5600
 url: /zh/net/aspose.words.settings/odsofieldmapdata/
 ---
 ## OdsoFieldMapData class
@@ -24,10 +24,10 @@ public class OdsoFieldMapData
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Column](../../aspose.words.settings/odsofieldmapdata/column) { get; set; } | 指定外部数据源中列的从零开始的索引，该索引应为 映射到特定 MERGEFIELD 字段的本地名称。 默认值为 0。 |
-| [MappedName](../../aspose.words.settings/odsofieldmapdata/mappedname) { get; set; } | 指定预定义的合并字段名称，该名称应映射到:::R5:P:Aspose.Words 指定的列号 。 Settings.OdsoFieldMapData.Column:::此字段映射中的属性。 默认值为空字符串。 |
-| [Name](../../aspose.words.settings/odsofieldmapdata/name) { get; set; } | 指定外部数据源中的列名，该列的 索引由Column属性。 默认值为空字符串。 |
-| [Type](../../aspose.words.settings/odsofieldmapdata/type) { get; set; } | 指定给定邮件合并字段是否已映射到给定外部数据源中的列。 默认值为Default。 |
+| [Column](../../aspose.words.settings/odsofieldmapdata/column) { get; set; } | 指定外部数据源中列的从零开始的索引，该索引应 映射到特定 MERGEFIELD 字段的本地名称。 默认值为 0。 |
+| [MappedName](../../aspose.words.settings/odsofieldmapdata/mappedname) { get; set; } | 指定预定义的合并字段名称，该名称应映射到由 指定的列号[`Column`](./column)此字段映射中的属性。 默认值为空字符串。 |
+| [Name](../../aspose.words.settings/odsofieldmapdata/name) { get; set; } | 指定外部数据源中 索引由[`Column`](./column)property. 默认值为空字符串。 |
+| [Type](../../aspose.words.settings/odsofieldmapdata/type) { get; set; } | 指定给定的邮件合并字段是否已映射到给定外部数据源中的列。 默认值为Default. |
 
 ## 方法
 
@@ -37,17 +37,17 @@ public class OdsoFieldMapData
 
 ### 评论
 
-Microsoft Word 提供了一些预定义的合并字段名称，它允许以 MERGEFIELD 或 在 ADDRESSBLOCK 或 GREETINGLINE 字段中使用。[`OdsoFieldMapData`](../odsofieldmapdata) 中指定的信息允许将外部数据源中的一列映射到单个预定义的合并字段。
+Microsoft Word 提供了一些预定义的合并字段名称，它允许将其插入到文档中，作为 ADDRESSBLOCK 或 GREETINGLINE 字段中的 MERGEFIELD 或 使用。中指定的信息[`OdsoFieldMapData`](../odsofieldmapdata) 允许将外部数据源中的一列映射到单个预定义的合并字段。
 
 ### 例子
 
-显示如何访问将数据源列映射到合并字段的数据集合。
+演示如何访问将数据源列映射到合并字段的数据集合。
 
 ```csharp
 Document doc = new Document(MyDir + "Odso data.docx");
 
- // 这个集合定义了邮件合并如何映射来自数据源的列
- // 到预定义的 MERGEFIELD、ADDRESSBLOCK 和 GREETINGLINE 字段。
+// 此集合定义邮件合并如何映射来自数据源的列
+// 到预定义的 MERGEFIELD、ADDRESSBLOCK 和 GREETINGLINE 字段。
 OdsoFieldMapDataCollection dataCollection = doc.MailMergeSettings.Odso.FieldMapDatas;
 Assert.AreEqual(30, dataCollection.Count);
 
@@ -65,15 +65,15 @@ using (IEnumerator<OdsoFieldMapData> enumerator = dataCollection.GetEnumerator()
     }
 }
 
- // 克隆这个集合中的元素。
+// 克隆此集合中的元素。
 Assert.AreNotEqual(dataCollection[0], dataCollection[0].Clone());
 
- // 按索引单独使用“RemoveAt”方法元素。
+// 按索引单独使用“RemoveAt”方法元素。
 dataCollection.RemoveAt(0);
 
 Assert.AreEqual(29, dataCollection.Count);
 
- // 使用“清除”方法一次清除整个集合。
+// 使用“Clear”方法一次清除整个集合。
 dataCollection.Clear();
 
 Assert.AreEqual(0, dataCollection.Count);

@@ -16,7 +16,7 @@ public Document Document { get; }
 
 ### 例子
 
-展示如何在 HTML 转换过程中包含图像保存回调。
+展示如何在 HTML 转换过程中涉及图像保存回调。
 
 ```csharp
 {

@@ -1,14 +1,14 @@
 ---
 title: Value
 second_title: Справочник по API Aspose.Words для .NET
-description: Получает предпочтительное значение ширины. Единица измерения указывается в свойствеTypeaspose.words.tables/preferredwidth/type.
+description: Получает предпочтительное значение ширины. Единица измерения указана вTypeaspose.words.tables/preferredwidth/type свойство.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.tables/preferredwidth/value/
 ---
 ## PreferredWidth.Value property
 
-Получает предпочтительное значение ширины. Единица измерения указывается в свойстве[`Type`](../type).
+Получает предпочтительное значение ширины. Единица измерения указана в[`Type`](../type) свойство.
 
 ```csharp
 public double Value { get; }

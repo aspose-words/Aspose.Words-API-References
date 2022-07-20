@@ -16,7 +16,7 @@ public bool SaveImagesAsWmf { get; set; }
 
 ### Примечания
 
-Эта опция может помочь избежать появления предупреждающих сообщений WordPad.
+Этот параметр может помочь избежать появления предупреждающих сообщений WordPad.
 
 ### Примеры
 
@@ -37,13 +37,13 @@ imageShape = builder.InsertImage(ImageDir + "Transparent background logo.png");
 
 Assert.AreEqual(ImageType.Png, imageShape.ImageData.ImageType);
 
- // Создайте объект «RtfSaveOptions», чтобы передать его методу «Сохранить» документа, чтобы изменить способ его сохранения в RTF.
+// Создайте объект «RtfSaveOptions», чтобы передать его методу «Сохранить» документа, чтобы изменить способ его сохранения в формате RTF.
 RtfSaveOptions rtfSaveOptions = new RtfSaveOptions();
 
- // Установите для свойства «SaveImagesAsWmf» значение «true», чтобы преобразовать все изображения в документе в WMF при сохранении в RTF.
- // Это поможет читателям, таким как WordPad, прочитать наш документ.
-// Установите для свойства SaveImagesAsWmf значение false, чтобы сохранить исходный формат всех изображений в document
- // когда мы сохраняем его в RTF. Это позволит сохранить качество изображений за счет совместимости со старыми ридерами RTF.
+// Установите для свойства «SaveImagesAsWmf» значение «true», чтобы преобразовать все изображения в документе в WMF при сохранении в RTF.
+// Это поможет читателям, таким как WordPad, прочитать наш документ.
+// Установите для свойства "SaveImagesAsWmf" значение "false", чтобы сохранить исходный формат всех изображений в документе
+// когда мы сохраняем его в RTF. Это позволит сохранить качество изображений за счет совместимости со старыми ридерами RTF.
 rtfSaveOptions.SaveImagesAsWmf = saveImagesAsWmf;
 
 doc.Save(ArtifactsDir + "RtfSaveOptions.SaveImagesAsWmf.rtf", rtfSaveOptions);

@@ -20,44 +20,25 @@ public RowCollection Rows { get; }
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");
-TableCollection tables = doc.FirstSection.Body.Tables;
 
-Assert.AreEqual(2, tables.ToArray().Length);
+// 下面是从文档中获取表格的两种方法。
+// 1 - 来自 Body 节点的“Tables”集合：
+Table firstTable = doc.FirstSection.Body.Tables[0];
 
-for (int i = 0; i < tables.Count; i++)
-{
-    Console.WriteLine($"Start of Table {i}");
+// 2 - 使用“GetChild”方法：
+Table secondTable = (Table)doc.GetChild(NodeType.Table, 1, true);
 
-    RowCollection rows = tables[i].Rows;
+// 将当前表中的所有行追加到下一个表中。
+while (secondTable.HasChildNodes)
+    firstTable.Rows.Add(secondTable.FirstRow);
 
-     // 我们可以在行集合上使用“ToArray”方法将其克隆到数组中。
-    Assert.AreEqual(rows, rows.ToArray());
-    Assert.AreNotSame(rows, rows.ToArray());
+// 删除空表容器。
+secondTable.Remove();
 
-    for (int j = 0; j < rows.Count; j++)
-    {
-        Console.WriteLine($"\tStart of Row {j}");
-
-        CellCollection cells = rows[j].Cells;
-
-         // 我们可以在单元格集合上使用“ToArray”方法将其克隆到数组中。
-        Assert.AreEqual(cells, cells.ToArray());
-        Assert.AreNotSame(cells, cells.ToArray());
-
-        for (int k = 0; k < cells.Count; k++)
-        {
-            string cellText = cells[k].ToString(SaveFormat.Text).Trim();
-            Console.WriteLine($"\t\tContents of Cell:{k} = \"{cellText}\"");
-        }
-
-        Console.WriteLine($"\tEnd of Row {j}");
-    }
-
-    Console.WriteLine($"End of Table {i}\n");
-}
+doc.Save(ArtifactsDir + "Table.CombineTables.docx");
 ```
 
-显示如何遍历文档中的所有表格并打印每个单元格的内容。
+展示如何遍历文档中的所有表格并打印每个单元格的内容。
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");
@@ -71,7 +52,7 @@ for (int i = 0; i < tables.Count; i++)
 
     RowCollection rows = tables[i].Rows;
 
-     // 我们可以在行集合上使用“ToArray”方法将其克隆到数组中。
+    // 我们可以在行集合上使用“ToArray”方法将其克隆到数组中。
     Assert.AreEqual(rows, rows.ToArray());
     Assert.AreNotSame(rows, rows.ToArray());
 
@@ -81,7 +62,7 @@ for (int i = 0; i < tables.Count; i++)
 
         CellCollection cells = rows[j].Cells;
 
-         // 我们可以在单元格集合上使用“ToArray”方法将其克隆到数组中。
+        // 我们可以在单元格集合上使用“ToArray”方法将其克隆到数组中。
         Assert.AreEqual(cells, cells.ToArray());
         Assert.AreNotSame(cells, cells.ToArray());
 

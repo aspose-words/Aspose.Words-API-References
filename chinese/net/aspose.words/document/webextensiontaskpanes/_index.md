@@ -1,14 +1,14 @@
 ---
 title: WebExtensionTaskPanes
 second_title: Aspose.Words for .NET API 参考
-description: 返回一个表示任务窗格加载项列表的集合
+description: 返回表示任务窗格加载项列表的集合
 type: docs
 weight: 470
 url: /zh/net/aspose.words/document/webextensiontaskpanes/
 ---
 ## Document.WebExtensionTaskPanes property
 
-返回一个表示任务窗格加载项列表的集合。
+返回表示任务窗格加载项列表的集合。
 
 ```csharp
 public TaskPaneCollection WebExtensionTaskPanes { get; }

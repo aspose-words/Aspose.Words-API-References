@@ -16,7 +16,7 @@ public bool DoubleStrikeThrough { get; set; }
 
 ### 例子
 
-显示如何在文本中添加删除线。
+演示如何在文本中添加删除线。
 
 ```csharp
 Document doc = new Document();

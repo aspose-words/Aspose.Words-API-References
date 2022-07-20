@@ -1,14 +1,14 @@
 ---
 title: BehindText
 second_title: Справочник по API Aspose.Words для .NET
-description: Указывает находится ли фигура под или над текстом.
+description: Указывает находится ли фигура ниже или выше текста.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.drawing/shapebase/behindtext/
 ---
 ## ShapeBase.BehindText property
 
-Указывает, находится ли фигура под или над текстом.
+Указывает, находится ли фигура ниже или выше текста.
 
 ```csharp
 public bool BehindText { get; set; }
@@ -16,13 +16,13 @@ public bool BehindText { get; set; }
 
 ### Примечания
 
-Действует только для фигур верхнего уровня.
+Имеет эффект только для фигур верхнего уровня.
 
-Значение по умолчанию: **false** .
+Значение по умолчанию **ЛОЖЬ**.
 
 ### Примеры
 
-Показывает, как вставить плавающее изображение к центру страницы.
+Показывает, как вставить плавающее изображение в центр страницы.
 
 ```csharp
 Document doc = new Document();

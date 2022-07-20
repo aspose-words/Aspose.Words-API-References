@@ -16,7 +16,7 @@ public bool ToBool()
 
 ### 评论
 
-如果属性类型不是Boolean。
+如果属性类型不是，则引发异常Boolean.
 
 ### 例子
 

@@ -1,14 +1,14 @@
 ---
 title: ViewMergedData
 second_title: Aspose.Words for .NET API 参考
-description: 指定 Microsoft Word 应显示来自已插入合并字段 的指定外部数据源的数据例如预览合并数据默认值为 false 
+description: 指定 Microsoft Word 应显示来自已插入合并字段 的指定外部数据源的数据例如预览合并数据默认值为错误的.
 type: docs
 weight: 170
 url: /zh/net/aspose.words.settings/mailmergesettings/viewmergeddata/
 ---
 ## MailMergeSettings.ViewMergedData property
 
-指定 Microsoft Word 应显示来自已插入合并字段 的指定外部数据源的数据（例如预览合并数据）。默认值为` false` 。
+指定 Microsoft Word 应显示来自已插入合并字段 的指定外部数据源的数据（例如预览合并数据）。默认值为`错误的`.
 
 ```csharp
 public bool ViewMergedData { get; set; }
@@ -16,7 +16,7 @@ public bool ViewMergedData { get; set; }
 
 ### 例子
 
-显示如何使用 Office 数据源对象中的数据执行邮件合并。
+演示如何使用 Office 数据源对象中的数据执行邮件合并。
 
 ```csharp
 Document doc = new Document();
@@ -29,9 +29,9 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 builder.Writeln(": ");
 builder.InsertField("MERGEFIELD Message", "<Message>");
 
- // 创建一个ASCII文件形式的数据源，用“|”字符
+// 创建一个ASCII文件形式的数据源，用“|”特点
 // 充当分隔列的分隔符。第一行包含三列的名称，
- // 后面的每一行都是具有各自值的行。
+// 之后的每一行都是具有各自值的行。
 string[] lines = { "FirstName|LastName|Message",
     "John|Doe|Hello! This message was created with Aspose Words mail merge." };
 string dataSrcFilename = ArtifactsDir + "MailMerge.MailMergeSettings.DataSource.txt";
@@ -59,7 +59,7 @@ odso.FirstRowContainsColumnNames = true;
 Assert.AreNotSame(odso, odso.Clone());
 Assert.AreNotSame(settings, settings.Clone());
 
- // 在 Microsoft Word 中打开此文档将在显示内容之前执行邮件合并。 
+// 在 Microsoft Word 中打开此文档将在显示内容之前执行邮件合并。 
 doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ```
 

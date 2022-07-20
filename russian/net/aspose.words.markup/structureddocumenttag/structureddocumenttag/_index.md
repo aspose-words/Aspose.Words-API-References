@@ -1,14 +1,14 @@
 ---
 title: StructuredDocumentTag
 second_title: Справочник по API Aspose.Words для .NET
-description: Инициализирует новый экземпляр тега структурированного документа класса.
+description: Инициализирует новый экземпляр Тег структурированного документа класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.markup/structureddocumenttag/structureddocumenttag/
 ---
 ## StructuredDocumentTag constructor
 
-Инициализирует новый экземпляр тега структурированного документа класса.
+Инициализирует новый экземпляр **Тег структурированного документа** класс.
 
 ```csharp
 public StructuredDocumentTag(DocumentBase doc, SdtType type, MarkupLevel level)
@@ -16,7 +16,7 @@ public StructuredDocumentTag(DocumentBase doc, SdtType type, MarkupLevel level)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| doc | DocumentBase | документ владельца. |
+| doc | DocumentBase | Документ владельца. |
 | type | SdtType | Тип узла SDT. |
 | level | MarkupLevel | Уровень узла SDT в документе. |
 
@@ -24,23 +24,15 @@ public StructuredDocumentTag(DocumentBase doc, SdtType type, MarkupLevel level)
 
 Могут быть созданы следующие типы SDT:
 
-Checkbox
-
-DropDownList
-
-ComboBox
-
-Date
-
-BuildingBlockGallery
-
-Group
-
-Picture
-
-RichText
-
-PlainText
+* Checkbox
+* DropDownList
+* ComboBox
+* Date
+* BuildingBlockGallery
+* Group
+* Picture
+* RichText
+* PlainText
 
 ### Примеры
 

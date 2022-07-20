@@ -1,14 +1,14 @@
 ---
 title: Instructions
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置在签名行签名时显示的签名者指令 此属性的默认值为 空字符串 Empty
+description: 获取或设置在签署签名行时显示的签名者说明 此属性的默认值为 空字符串Empty .
 type: docs
 weight: 50
 url: /zh/net/aspose.words/signaturelineoptions/instructions/
 ---
 ## SignatureLineOptions.Instructions property
 
-获取或设置在签名行签名时显示的签名者指令。 此属性的默认值为 **空字符串** (Empty)。
+获取或设置在签署签名行时显示的签名者说明。 此属性的默认值为 **空字符串**(Empty ).
 
 ```csharp
 public string Instructions { get; set; }

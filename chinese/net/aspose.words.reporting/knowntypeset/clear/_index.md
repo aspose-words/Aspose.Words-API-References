@@ -1,14 +1,14 @@
 ---
 title: Clear
 second_title: Aspose.Words for .NET API 参考
-description: 从集合中删除所有项目
+description: 从集合中移除所有项目
 type: docs
 weight: 30
 url: /zh/net/aspose.words.reporting/knowntypeset/clear/
 ---
 ## KnownTypeSet.Clear method
 
-从集合中删除所有项目。
+从集合中移除所有项目。
 
 ```csharp
 public void Clear()

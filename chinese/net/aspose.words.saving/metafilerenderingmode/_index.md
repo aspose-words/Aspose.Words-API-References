@@ -3,7 +3,7 @@ title: MetafileRenderingMode
 second_title: Aspose.Words for .NET API 参考
 description: 指定 Aspose.Words 应如何呈现 WMF 和 EMF 元文件
 type: docs
-weight: 4960
+weight: 5010
 url: /zh/net/aspose.words.saving/metafilerenderingmode/
 ---
 ## MetafileRenderingMode enumeration
@@ -18,13 +18,13 @@ public enum MetafileRenderingMode
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| VectorWithFallback | `0` | Aspose.Words 尝试将元文件呈现为矢量图形。如果 Aspose.Words 无法正确地将部分 元文件记录呈现为矢量图形，则 Aspose.Words 将此元文件呈现为位图。 |
+| VectorWithFallback | `0` | Aspose.Words 尝试将元文件呈现为矢量图形。如果 Aspose.Words 无法正确地将元文件记录的某些 呈现为矢量图形，则 Aspose.Words 将此元文件呈现为位图。 |
 | Vector | `1` | Aspose.Words 将元文件呈现为矢量图形。 |
-| Bitmap | `2` | Aspose.Words 调用 GDI+ 将元文件呈现为位图，然后将位图保存到输出文档。 |
+| Bitmap | `2` | Aspose.Words 调用 GDI+ 将元文件渲染为位图，然后将位图保存到输出文档。 |
 
 ### 例子
 
-显示添加了位图渲染的后备和更改有关不受支持的元文件记录的警告类型。
+Shows 添加了对位图渲染的回退，并更改了有关不受支持的元文件记录的警告类型。
 
 ```csharp
 {

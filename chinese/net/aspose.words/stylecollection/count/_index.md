@@ -16,7 +16,7 @@ public int Count { get; }
 
 ### 例子
 
-显示如何将样式添加到文档的样式集合中。
+演示如何将样式添加到文档的样式集合。
 
 ```csharp
 Document doc = new Document();

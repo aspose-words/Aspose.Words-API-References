@@ -1,14 +1,14 @@
 ---
 title: ProviderId
 second_title: Aspose.Words for .NET API 参考
-description: 指定签名提供者的类 ID 默认值为 空全零 Guid 
+description: 指定签名提供者的类 ID 默认值为 空全零Guid.
 type: docs
 weight: 40
 url: /zh/net/aspose.words.digitalsignatures/signoptions/providerid/
 ---
 ## SignOptions.ProviderId property
 
-指定签名提供者的类 ID。 默认值为 **空（全零） Guid** 。
+指定签名提供者的类 ID。 默认值为 **空（全零）Guid**.
 
 ```csharp
 public Guid ProviderId { get; set; }
@@ -16,11 +16,11 @@ public Guid ProviderId { get; set; }
 
 ### 评论
 
-加密服务提供者 (CSP) 是一个独立的软件模块，实际执行 用于身份验证、编码和加密的密码算法。 MS Office 为其默认签名提供程序保留 {00000000-0000-0000-0000-000000000000} 的值 。
+加密服务提供者 (CSP) 是一个独立的软件模块，它实际上执行 加密算法以进行身份验证、编码和加密。 MS Office 为其默认签名提供程序保留 {00000000-0000-0000-0000-000000000000} 的 value 。
 
 额外安装的提供程序的 GUID 应从提供程序随附的文档中获取。
 
-此外，所有已安装的加密提供程序都在 Windows 注册表中枚举。 可以在以下路径中找到:HKLM\SOFTWARE\Microsoft\Cryptography\Defaults\Provider。 有一个密钥名称“CP Service UUID”，它对应于签名提供者的 GUID。
+另外，windows注册表中列举了所有安装的加密提供程序。 可以在以下路径找到：HKLM\SOFTWARE\Microsoft\Cryptography\Defaults\Provider. 有一个键名“CP Service UUID”对应签名提供者的 GUID。
 
 ### 例子
 

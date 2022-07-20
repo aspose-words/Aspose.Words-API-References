@@ -1,14 +1,14 @@
 ---
 title: RunSubentriesOnSameLine
 second_title: Справочник по API Aspose.Words для .NET
-description: Получает или задает запускать ли подзаписи в ту же строку что и основную запись.
+description: Получает или задает следует ли запускать подзаписи в той же строке что и основная запись.
 type: docs
 weight: 140
 url: /ru/net/aspose.words.fields/fieldindex/runsubentriesonsameline/
 ---
 ## FieldIndex.RunSubentriesOnSameLine property
 
-Получает или задает, запускать ли подзаписи в ту же строку, что и основную запись.
+Получает или задает, следует ли запускать подзаписи в той же строке, что и основная запись.
 
 ```csharp
 public bool RunSubentriesOnSameLine { get; set; }
@@ -16,7 +16,7 @@ public bool RunSubentriesOnSameLine { get; set; }
 
 ### Примеры
 
-Показывает, как работать с подзаписями в поле INDEX.
+Показывает, как работать с подзаписями в поле ИНДЕКС.
 
 ```csharp
 Document doc = new Document();

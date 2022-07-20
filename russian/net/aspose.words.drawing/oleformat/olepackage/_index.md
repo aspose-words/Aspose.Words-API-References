@@ -1,14 +1,14 @@
 ---
 title: OlePackage
 second_title: Справочник по API Aspose.Words для .NET
-description: Предоставляет доступ кOlePackageaspose.words.drawing/olepackageесли объект OLE является пакетом OLE. В противном случае возвращает null.
+description: Предоставить доступ кOlePackageaspose.words.drawing/olepackage если объект OLE является пакетом OLE. В противном случае возвращает null.
 type: docs
 weight: 80
 url: /ru/net/aspose.words.drawing/oleformat/olepackage/
 ---
 ## OleFormat.OlePackage property
 
-Предоставляет доступ к[`OlePackage`](../../olepackage)если объект OLE является пакетом OLE. В противном случае возвращает null.
+Предоставить доступ к[`OlePackage`](../../olepackage) если объект OLE является пакетом OLE. В противном случае возвращает null.
 
 ```csharp
 public OlePackage OlePackage { get; }
@@ -16,7 +16,7 @@ public OlePackage OlePackage { get; }
 
 ### Примечания
 
-OLE Package — это устаревшая технология, которая позволяет обернуть любой формат файла, отсутствующий в реестре OLE система Windows в общий пакет, позволяющий встраивать в документ почти все что угодно. См.[`OlePackage`](../../olepackage)type для получения дополнительной информации.
+OLE Package — это устаревшая технология, позволяющая оборачивать любой формат файла, отсутствующий в реестре OLE системы Windows, в универсальный пакет, позволяющий встраивать в документ практически все, что угодно. См.[`OlePackage`](../../olepackage)введите для получения дополнительной информации.
 
 ### Примеры
 

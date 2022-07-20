@@ -1,14 +1,14 @@
 ---
 title: TopPadding
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置要添加到单元格内容上方的空间量以磅为单位
+description: 获取或设置要添加到单元格内容之上的空间量以磅为单位
 type: docs
 weight: 330
 url: /zh/net/aspose.words.tables/table/toppadding/
 ---
 ## Table.TopPadding property
 
-获取或设置要添加到单元格内容上方的空间量（以磅为单位）。
+获取或设置要添加到单元格内容之上的空间量（以磅为单位）。
 
 ```csharp
 public double TopPadding { get; set; }
@@ -29,8 +29,8 @@ builder.InsertCell();
 builder.Write("Row 1, cell 2.");
 builder.EndTable();
 
- // 对于表格中的每个单元格，设置其内容与每个边框之间的距离。 
- // 此表将通过换行文本来保持最小填充距离。
+// 对于表格中的每个单元格，设置其内容与每个边框之间的距离。 
+// 此表将通过环绕文本来保持最小填充距离。
 table.LeftPadding = 30;
 table.RightPadding = 60;
 table.TopPadding = 10;

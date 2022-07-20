@@ -1,14 +1,14 @@
 ---
 title: Justification
 second_title: Aspose.Words for .NET API 参考
-description: 获取/设置 Office Math 对齐
+description: 获取/设置 Office Math 对齐方式
 type: docs
 weight: 30
 url: /zh/net/aspose.words.math/officemath/justification/
 ---
 ## OfficeMath.Justification property
 
-获取/设置 Office Math 对齐。
+获取/设置 Office Math 对齐方式。
 
 ```csharp
 public OfficeMathJustification Justification { get; set; }
@@ -16,11 +16,11 @@ public OfficeMathJustification Justification { get; set; }
 
 ### 评论
 
-不能将对齐设置为显示格式类型为Inline。
+无法将对齐方式设置为具有显示格式类型的 Office MathInline.
 
-内联对齐不能设置为具有显示格式类型Display的 Office Math。
+内联对正不能设置为具有显示格式类型的 Office MathDisplay.
 
-对应的[`DisplayType`](../displaytype)必须在设置 Office Math 对齐之前设置。
+相应的[`DisplayType`](../displaytype)必须在设置 Office Math 对齐之前设置。
 
 ### 例子
 

@@ -3,7 +3,7 @@ title: ThumbnailGeneratingOptions
 second_title: Справочник по API Aspose.Words для .NET
 description: Может использоваться для указания дополнительных параметров при создании миниатюры для документа.
 type: docs
-weight: 4290
+weight: 4340
 url: /ru/net/aspose.words.rendering/thumbnailgeneratingoptions/
 ---
 ## ThumbnailGeneratingOptions class
@@ -24,12 +24,12 @@ public class ThumbnailGeneratingOptions
 
 | Имя | Описание |
 | --- | --- |
-| [GenerateFromFirstPage](../../aspose.words.rendering/thumbnailgeneratingoptions/generatefromfirstpage) { get; set; } | Указывает, генерировать ли миниатюру из первой страницы документа или из первого изображения. |
+| [GenerateFromFirstPage](../../aspose.words.rendering/thumbnailgeneratingoptions/generatefromfirstpage) { get; set; } | Указывает, следует ли создавать миниатюру из первой страницы документа или первого изображения. |
 | [ThumbnailSize](../../aspose.words.rendering/thumbnailgeneratingoptions/thumbnailsize) { get; set; } | Размер сгенерированного эскиза в пикселях. По умолчанию 600x900. |
 
 ### Примечания
 
-Пользователь может вызывать метод[`UpdateThumbnail`](../../aspose.words/document/updatethumbnail)для создания [`Thumbnail`](../../aspose.words.properties/builtindocumentproperties/thumbnail)для документа.
+Пользователь может вызывать метод[`UpdateThumbnail`](../../aspose.words/document/updatethumbnail) для создания [`Thumbnail`](../../aspose.words.properties/builtindocumentproperties/thumbnail) для документа.
 
 ### Примеры
 

@@ -1,14 +1,14 @@
 ---
 title: Accept
 second_title: Aspose.Words for .NET API 参考
-description: 接受访问者
+description: 接受访客
 type: docs
 weight: 50
 url: /zh/net/aspose.words/bookmarkstart/accept/
 ---
 ## BookmarkStart.Accept method
 
-接受访问者。
+接受访客。
 
 ```csharp
 public override bool Accept(DocumentVisitor visitor)
@@ -20,37 +20,37 @@ public override bool Accept(DocumentVisitor visitor)
 
 ### 返回值
 
-如果访问者请求停止枚举，则返回 False。
+如果访问者请求停止枚举，则为 False。
 
 ### 评论
 
-调用[`VisitBookmarkStart`](../../documentvisitor/visitbookmarkstart)。
+来电[`VisitBookmarkStart`](../../documentvisitor/visitbookmarkstart).
 
 有关更多信息，请参阅访问者设计模式。
 
 ### 例子
 
-显示如何添加书签和更新其内容。
+展示如何添加书签和更新其内容。
 
 ```csharp
 public void CreateUpdateAndPrintBookmarks()
 {
-     // 创建一个包含三个书签的文档，然后使用自定义文档访问者实现来打印它们的内容。
+    // 创建一个包含三个书签的文档，然后使用自定义文档访问者实现来打印其内容。
     Document doc = CreateDocumentWithBookmarks(3);
     BookmarkCollection bookmarks = doc.Range.Bookmarks;
 
     PrintAllBookmarkInfo(bookmarks);
 
-     // 书签集合中可以通过索引或名称访问书签，并且可以更新它们的名称。
+    // 书签集合中可以通过索引或名称访问书签，并且可以更新它们的名称。
     bookmarks[0].Name = $"{bookmarks[0].Name}_NewName";
     bookmarks["MyBookmark_2"].Text = $"Updated text contents of {bookmarks[1].Name}";
 
-     // 再次打印所有书签以查看更新的值。
+    // 再次打印所有书签以查看更新的值。
     PrintAllBookmarkInfo(bookmarks);
 }
 
 /// <summary>
- /// 创建具有给定数量书签的文档。
+/// 创建一个具有给定数量书签的文档。
 /// </summary>
 private static Document CreateDocumentWithBookmarks(int numberOfBookmarks)
 {
@@ -72,7 +72,7 @@ private static Document CreateDocumentWithBookmarks(int numberOfBookmarks)
 }
 
 /// <summary>
- /// 使用迭代器和访问者打印集合中每个书签的信息。
+/// 使用迭代器和访问者打印集合中每个书签的信息。
 /// </summary>
 private static void PrintAllBookmarkInfo(BookmarkCollection bookmarks)
 {
@@ -97,7 +97,7 @@ private static void PrintAllBookmarkInfo(BookmarkCollection bookmarks)
 }
 
 /// <summary>
- /// 将每个访问过的书签的内容打印到控制台。
+/// 将每个访问过的书签的内容打印到控制台。
 /// </summary>
 public class BookmarkInfoPrinter : DocumentVisitor
 {

@@ -1,14 +1,14 @@
 ---
 title: StructuredDocumentTagCollection
 second_title: Справочник по API Aspose.Words для .NET
-description: Набор экземпляровIStructuredDocumentTag./istructureddocumenttag представляющих теги структурированного документа в указанном диапазоне.
+description: КоллекцияIStructuredDocumentTag./istructureddocumenttag экземпляры представляющие теги структурированного документа в указанном диапазоне.
 type: docs
-weight: 3780
+weight: 3830
 url: /ru/net/aspose.words.markup/structureddocumenttagcollection/
 ---
 ## StructuredDocumentTagCollection class
 
-Набор экземпляров[`IStructuredDocumentTag`](../istructureddocumenttag), представляющих теги структурированного документа в указанном диапазоне.
+Коллекция[`IStructuredDocumentTag`](../istructureddocumenttag) экземпляры, представляющие теги структурированного документа в указанном диапазоне.
 
 ```csharp
 public class StructuredDocumentTagCollection : IEnumerable<IStructuredDocumentTag>
@@ -27,7 +27,7 @@ public class StructuredDocumentTagCollection : IEnumerable<IStructuredDocumentTa
 | --- | --- |
 | [GetById](../../aspose.words.markup/structureddocumenttagcollection/getbyid)(int) | Возвращает тег структурированного документа по идентификатору. |
 | [GetByTag](../../aspose.words.markup/structureddocumenttagcollection/getbytag)(string) | Возвращает первый тег структурированного документа, обнаруженный в коллекции с указанным тегом. |
-| [GetByTitle](../../aspose.words.markup/structureddocumenttagcollection/getbytitle)(string) | Возвращает первый тег структурированного документа, встречающийся в коллекции с указанным заголовком. |
+| [GetByTitle](../../aspose.words.markup/structureddocumenttagcollection/getbytitle)(string) | Возвращает первый тег структурированного документа, обнаруженный в коллекции с указанным заголовком. |
 | [GetEnumerator](../../aspose.words.markup/structureddocumenttagcollection/getenumerator)() | Возвращает объект перечислителя. |
 | [Remove](../../aspose.words.markup/structureddocumenttagcollection/remove)(int) | Удаляет тег структурированного документа с указанным идентификатором. |
 | [RemoveAt](../../aspose.words.markup/structureddocumenttagcollection/removeat)(int) | Удаляет тег структурированного документа по указанному индексу. |

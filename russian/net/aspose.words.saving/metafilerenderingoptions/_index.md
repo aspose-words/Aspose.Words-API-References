@@ -3,7 +3,7 @@ title: MetafileRenderingOptions
 second_title: Справочник по API Aspose.Words для .NET
 description: Позволяет указать дополнительные параметры рендеринга метафайла.
 type: docs
-weight: 4970
+weight: 5020
 url: /ru/net/aspose.words.saving/metafilerenderingoptions/
 ---
 ## MetafileRenderingOptions class
@@ -32,7 +32,7 @@ public class MetafileRenderingOptions
 
 ### Примеры
 
-Показывает добавленный запасной вариант для растрового рендеринга и изменения типа предупреждений о неподдерживаемых записях метафайла.
+В шоу добавлен резервный вариант рендеринга растровых изображений и изменен тип предупреждений о неподдерживаемых записях метафайлов.
 
 ```csharp
 {

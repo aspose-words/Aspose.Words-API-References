@@ -1,14 +1,14 @@
 ---
 title: VbaModuleCollection
 second_title: Справочник по API Aspose.Words для .NET
-description: Представляет набор объектовVbaModule./vbamodule.
+description: Представляет наборVbaModule./vbamodule объекты.
 type: docs
-weight: 6200
+weight: 6250
 url: /ru/net/aspose.words.vba/vbamodulecollection/
 ---
 ## VbaModuleCollection class
 
-Представляет набор объектов[`VbaModule`](../vbamodule).
+Представляет набор[`VbaModule`](../vbamodule) объекты.
 
 ```csharp
 public sealed class VbaModuleCollection : IEnumerable<VbaModule>
@@ -19,7 +19,7 @@ public sealed class VbaModuleCollection : IEnumerable<VbaModule>
 | Имя | Описание |
 | --- | --- |
 | [Count](../../aspose.words.vba/vbamodulecollection/count) { get; } | Возвращает количество модулей VBA в коллекции. |
-| [Item](../../aspose.words.vba/vbamodulecollection/item) { get; } | Извлекает объект[`VbaModule`](../vbamodule)по индексу. (2 indexers) |
+| [Item](../../aspose.words.vba/vbamodulecollection/item) { get; } | Получает[`VbaModule`](../vbamodule) объект по индексу. (2 indexers) |
 
 ## Методы
 

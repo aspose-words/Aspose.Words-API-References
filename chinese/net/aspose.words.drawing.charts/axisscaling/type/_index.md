@@ -16,11 +16,11 @@ public AxisScaleType Type { get; set; }
 
 ### 评论
 
-Linearvalue 是 MS Office 2016 新图表中唯一允许的值。
+的Linear值是 MS Office 2016 新图表中唯一允许的值。
 
 ### 例子
 
-显示如何对图表轴应用对数缩放。
+显示如何将对数缩放应用于图表轴。
 
 ```csharp
 Document doc = new Document();

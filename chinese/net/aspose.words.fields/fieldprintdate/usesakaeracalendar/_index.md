@@ -1,14 +1,14 @@
 ---
 title: UseSakaEraCalendar
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置是否使用 Saka Era 日历
+description: 获取或设置是否使用Saka Era日历
 type: docs
 weight: 30
 url: /zh/net/aspose.words.fields/fieldprintdate/usesakaeracalendar/
 ---
 ## FieldPrintDate.UseSakaEraCalendar property
 
-获取或设置是否使用 Saka Era 日历。
+获取或设置是否使用Saka Era日历。
 
 ```csharp
 public bool UseSakaEraCalendar { get; set; }

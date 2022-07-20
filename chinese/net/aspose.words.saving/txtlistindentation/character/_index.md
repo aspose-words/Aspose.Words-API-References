@@ -16,13 +16,13 @@ public char Character { get; set; }
 
 ### 例子
 
-显示将文档保存为纯文本时如何配置列表缩进。
+显示在将文档保存为纯文本时如何配置列表缩进。
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
- // 创建一个具有三级缩进的列表。
+// 创建一个具有三个缩进级别的列表。
 builder.ListFormat.ApplyNumberDefault();
 builder.Writeln("Item 1");
 builder.ListFormat.ListIndent();
@@ -30,16 +30,16 @@ builder.Writeln("Item 2");
 builder.ListFormat.ListIndent(); 
 builder.Write("Item 3");
 
- // 创建一个“TxtSaveOptions”对象，我们可以将它传递给文档的“Save”方法
- // 修改我们如何将文档保存为纯文本。
+// 创建一个“TxtSaveOptions”对象，我们可以将它传递给文档的“Save”方法
+// 修改我们如何将文档保存为纯文本。
 TxtSaveOptions txtSaveOptions = new TxtSaveOptions();
 
- // 设置“Character”属性来分配一个字符给use
- // 用于模拟明文列表缩进的填充。
+// 设置“Character”属性以分配要使用的字符
+// 用于模拟明文列表缩进的填充。
 txtSaveOptions.ListIndentation.Character = ' ';
 
- // 设置“Count”属性指定次数
- // 放置每个列表缩进级别的填充字符。
+// 设置“Count”属性指定次数
+// 为每个列表缩进级别放置填充字符。
 txtSaveOptions.ListIndentation.Count = 3;
 
 doc.Save(ArtifactsDir + "TxtSaveOptions.TxtListIndentation.txt", txtSaveOptions);

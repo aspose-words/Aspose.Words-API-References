@@ -17,7 +17,7 @@ public static CertificateHolder Create(byte[] certBytes, SecureString password)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | certBytes | Byte[] | Массив байтов, содержащий данные из сертификата X.509. |
-| пароль | SecureString | Пароль, необходимый для доступа к данным сертификата X.509. |
+| password | SecureString | Пароль, необходимый для доступа к данным сертификата X.509. |
 
 ### Возвращаемое значение
 
@@ -27,27 +27,27 @@ public static CertificateHolder Create(byte[] certBytes, SecureString password)
 
 | исключение | условие |
 | --- | --- |
-| InvalidParameterException | Брошен, если **certBytes** равно null |
-| InvalidParameterException | Выброшено, если **password** is null |
-| SecurityException | Генерируется, если хранилище PKCS12 не содержит псевдонимов |
-| IOException | Генерируется при неправильном пароле или поврежденном файле. |
+| InvalidParameterException | Брошен, если **certBytes** нулевой |
+| InvalidParameterException | Брошен, если **пароль** нулевой |
+| SecurityException | Брошен, если хранилище PKCS12 не содержит псевдонимов |
+| IOException | Брошен, если есть неправильный пароль или поврежденный файл. |
 
 ### Примеры
 
 Показывает, как создавать объекты CertificateHolder.
 
 ```csharp
- // Ниже приведены четыре способа создания объектов CertificateHolder.
- // 1 - Загрузить файл PKCS #12 в массив байтов и применить его пароль: 
+// Ниже приведены четыре способа создания объектов CertificateHolder.
+// 1 - Загрузить файл PKCS #12 в массив байтов и применить его пароль:
 byte[] certBytes = File.ReadAllBytes(MyDir + "morzal.pfx");
 CertificateHolder.Create(certBytes, "aw");
 
- // 2 - Загрузите файл PKCS #12 в массив байтов и примените безопасный пароль: 
+// 2 - Загрузите файл PKCS #12 в массив байтов и примените безопасный пароль:
 SecureString password = new NetworkCredential("", "aw").SecurePassword;
 CertificateHolder.Create(certBytes, password);
 
- // Если сертификат имеет закрытые ключи, соответствующие псевдонимам, 
- // мы можем использовать псевдонимы для получения соответствующих ключей. Во-первых, мы проверим действительные псевдонимы.
+// Если в сертификате есть закрытые ключи, соответствующие псевдонимам,
+// мы можем использовать псевдонимы для получения соответствующих ключей. Во-первых, мы проверим действительные псевдонимы.
 using (FileStream certStream = new FileStream(MyDir + "morzal.pfx", FileMode.Open))
 {
     Pkcs12Store pkcs12Store = new Pkcs12Store(certStream, "aw".ToCharArray());
@@ -66,10 +66,10 @@ using (FileStream certStream = new FileStream(MyDir + "morzal.pfx", FileMode.Ope
     }
 }
 
- // 3 - Использовать допустимый псевдоним: 
+// 3 - Используйте допустимый псевдоним:
 CertificateHolder.Create(MyDir + "morzal.pfx", "aw", "c20be521-11ea-4976-81ed-865fbbfc9f24");
 
-// 4 - Передайте "null" в качестве псевдонима, чтобы использовать первый доступный псевдоним, который возвращает закрытый ключ: 
+// 4 - Передайте "null" в качестве псевдонима, чтобы использовать первый доступный псевдоним, который возвращает закрытый ключ:
 CertificateHolder.Create(MyDir + "morzal.pfx", "aw", null);
 ```
 
@@ -92,7 +92,7 @@ public static CertificateHolder Create(byte[] certBytes, string password)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | certBytes | Byte[] | Массив байтов, содержащий данные из сертификата X.509. |
-| пароль | String | Пароль, необходимый для доступа к данным сертификата X.509. |
+| password | String | Пароль, необходимый для доступа к данным сертификата X.509. |
 
 ### Возвращаемое значение
 
@@ -102,27 +102,27 @@ public static CertificateHolder Create(byte[] certBytes, string password)
 
 | исключение | условие |
 | --- | --- |
-| InvalidParameterException | Брошен, если **certBytes** равно null |
-| InvalidParameterException | Выброшено, если **password** is null |
-| SecurityException | Генерируется, если хранилище PKCS12 не содержит псевдонимов |
-| IOException | Генерируется при неправильном пароле или поврежденном файле. |
+| InvalidParameterException | Брошен, если **certBytes** нулевой |
+| InvalidParameterException | Брошен, если **пароль** нулевой |
+| SecurityException | Брошен, если хранилище PKCS12 не содержит псевдонимов |
+| IOException | Брошен, если есть неправильный пароль или поврежденный файл. |
 
 ### Примеры
 
 Показывает, как создавать объекты CertificateHolder.
 
 ```csharp
- // Ниже приведены четыре способа создания объектов CertificateHolder.
- // 1 - Загрузить файл PKCS #12 в массив байтов и применить его пароль: 
+// Ниже приведены четыре способа создания объектов CertificateHolder.
+// 1 - Загрузить файл PKCS #12 в массив байтов и применить его пароль:
 byte[] certBytes = File.ReadAllBytes(MyDir + "morzal.pfx");
 CertificateHolder.Create(certBytes, "aw");
 
- // 2 - Загрузите файл PKCS #12 в массив байтов и примените безопасный пароль: 
+// 2 - Загрузите файл PKCS #12 в массив байтов и примените безопасный пароль:
 SecureString password = new NetworkCredential("", "aw").SecurePassword;
 CertificateHolder.Create(certBytes, password);
 
- // Если сертификат имеет закрытые ключи, соответствующие псевдонимам, 
- // мы можем использовать псевдонимы для получения соответствующих ключей. Во-первых, мы проверим действительные псевдонимы.
+// Если в сертификате есть закрытые ключи, соответствующие псевдонимам,
+// мы можем использовать псевдонимы для получения соответствующих ключей. Во-первых, мы проверим действительные псевдонимы.
 using (FileStream certStream = new FileStream(MyDir + "morzal.pfx", FileMode.Open))
 {
     Pkcs12Store pkcs12Store = new Pkcs12Store(certStream, "aw".ToCharArray());
@@ -141,10 +141,10 @@ using (FileStream certStream = new FileStream(MyDir + "morzal.pfx", FileMode.Ope
     }
 }
 
- // 3 - Использовать допустимый псевдоним: 
+// 3 - Используйте допустимый псевдоним:
 CertificateHolder.Create(MyDir + "morzal.pfx", "aw", "c20be521-11ea-4976-81ed-865fbbfc9f24");
 
-// 4 - Передайте "null" в качестве псевдонима, чтобы использовать первый доступный псевдоним, который возвращает закрытый ключ: 
+// 4 - Передайте "null" в качестве псевдонима, чтобы использовать первый доступный псевдоним, который возвращает закрытый ключ:
 CertificateHolder.Create(MyDir + "morzal.pfx", "aw", null);
 ```
 
@@ -167,7 +167,7 @@ public static CertificateHolder Create(string fileName, string password)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | fileName | String | Имя файла сертификата. |
-| пароль | String | Пароль, необходимый для доступа к данным сертификата X.509. |
+| password | String | Пароль, необходимый для доступа к данным сертификата X.509. |
 
 ### Возвращаемое значение
 
@@ -177,28 +177,28 @@ public static CertificateHolder Create(string fileName, string password)
 
 | исключение | условие |
 | --- | --- |
-| InvalidParameterException | Брошен, если **fileName** is null |
-| InvalidParameterException | Брошен, если **password** is null |
-| SecurityException | Генерируется, если хранилище PKCS12 не содержит псевдонимов |
-| IOException | Генерируется при неправильном пароле или поврежденном файле. |
+| InvalidParameterException | Брошен, если **имя файла** нулевой |
+| InvalidParameterException | Брошен, если **пароль** нулевой |
+| SecurityException | Брошен, если хранилище PKCS12 не содержит псевдонимов |
+| IOException | Брошен, если есть неправильный пароль или поврежденный файл. |
 
 ### Примеры
 
 Показывает, как подписывать документы цифровой подписью.
 
 ```csharp
- // Создаем сертификат X.509 из хранилища PKCS#12, который должен содержать закрытый ключ.
+// Создайте сертификат X.509 из хранилища PKCS#12, который должен содержать закрытый ключ.
 CertificateHolder certificateHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "aw");
 
- // Создайте комментарий и дату, которые будут применяться с нашей новой цифровой подписью.
+// Создайте комментарий и дату, которые будут применяться с нашей новой цифровой подписью.
 SignOptions signOptions = new SignOptions
 {
     Comments = "My comment", 
     SignTime = DateTime.Now
 };
 
- // Берём неподписанный документ из локальной файловой системы через файловый поток,
- // затем создайте его подписанную копию, определяемую именем файла выходного файла stream.
+// Берём неподписанный документ из локальной файловой системы через файловый поток,
+// затем создайте его подписанную копию, определяемую именем файла выходного файлового потока.
 using (Stream streamIn = new FileStream(MyDir + "Document.docx", FileMode.Open))
 {
     using (Stream streamOut = new FileStream(ArtifactsDir + "DigitalSignatureUtil.SignDocument.docx", FileMode.OpenOrCreate))
@@ -218,7 +218,7 @@ using (Stream streamIn = new FileStream(MyDir + "Document.docx", FileMode.Open))
 
 ## Create(string, string, string) {#create_3}
 
-Создает объект CertificateHolder, используя путь к хранилищу PKCS12, его пароль и псевдоним, по которому будут найдены закрытый ключ и сертификат.
+Создает объект CertificateHolder, используя путь к хранилищу PKCS12, его пароль и псевдоним, с помощью которого будут найдены закрытый ключ и сертификат.
 
 ```csharp
 public static CertificateHolder Create(string fileName, string password, string alias)
@@ -227,8 +227,8 @@ public static CertificateHolder Create(string fileName, string password, string 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | fileName | String | Имя файла сертификата. |
-| пароль | String | Пароль, необходимый для доступа к данным сертификата X.509. |
-| alias | String | Связанный псевдоним для сертификата и его закрытого ключа |
+| password | String | Пароль, необходимый для доступа к данным сертификата X.509. |
+| alias | String | Связанный псевдоним для сертификата и его закрытый ключ |
 
 ### Возвращаемое значение
 
@@ -238,28 +238,28 @@ public static CertificateHolder Create(string fileName, string password, string 
 
 | исключение | условие |
 | --- | --- |
-| InvalidParameterException | Брошен, если **имя_файла** равно null |
-| InvalidParameterException | Брошен, если **пароль** равен нулю |
-| SecurityException | Выброшено, если хранилище PKCS12 не содержит псевдонимов |
-| IOException | Выброшено, если есть неправильный пароль или поврежденный файл. |
-| SecurityException | Вызывается, если нет закрытого ключа с данным псевдонимом |
+| InvalidParameterException | Брошен, если **имя файла** нулевой |
+| InvalidParameterException | Брошен, если **пароль** нулевой |
+| SecurityException | Брошен, если хранилище PKCS12 не содержит псевдонимов |
+| IOException | Брошен, если есть неправильный пароль или поврежденный файл. |
+| SecurityException | Брошен, если нет закрытого ключа с данным псевдонимом |
 
 ### Примеры
 
 Показывает, как создавать объекты CertificateHolder.
 
 ```csharp
- // Ниже приведены четыре способа создания объектов CertificateHolder.
- // 1 - Загрузить файл PKCS #12 в массив байтов и применить его пароль: 
+// Ниже приведены четыре способа создания объектов CertificateHolder.
+// 1 - Загрузить файл PKCS #12 в массив байтов и применить его пароль:
 byte[] certBytes = File.ReadAllBytes(MyDir + "morzal.pfx");
 CertificateHolder.Create(certBytes, "aw");
 
- // 2 - Загрузите файл PKCS #12 в массив байтов и примените безопасный пароль: 
+// 2 - Загрузите файл PKCS #12 в массив байтов и примените безопасный пароль:
 SecureString password = new NetworkCredential("", "aw").SecurePassword;
 CertificateHolder.Create(certBytes, password);
 
- // Если сертификат имеет закрытые ключи, соответствующие псевдонимам, 
- // мы можем использовать псевдонимы для получения соответствующих ключей. Во-первых, мы проверим действительные псевдонимы.
+// Если в сертификате есть закрытые ключи, соответствующие псевдонимам,
+// мы можем использовать псевдонимы для получения соответствующих ключей. Во-первых, мы проверим действительные псевдонимы.
 using (FileStream certStream = new FileStream(MyDir + "morzal.pfx", FileMode.Open))
 {
     Pkcs12Store pkcs12Store = new Pkcs12Store(certStream, "aw".ToCharArray());
@@ -278,10 +278,10 @@ using (FileStream certStream = new FileStream(MyDir + "morzal.pfx", FileMode.Ope
     }
 }
 
- // 3 - Использовать допустимый псевдоним: 
+// 3 - Используйте допустимый псевдоним:
 CertificateHolder.Create(MyDir + "morzal.pfx", "aw", "c20be521-11ea-4976-81ed-865fbbfc9f24");
 
-// 4 - Передайте "null" в качестве псевдонима, чтобы использовать первый доступный псевдоним, который возвращает закрытый ключ: 
+// 4 - Передайте "null" в качестве псевдонима, чтобы использовать первый доступный псевдоним, который возвращает закрытый ключ:
 CertificateHolder.Create(MyDir + "morzal.pfx", "aw", null);
 ```
 

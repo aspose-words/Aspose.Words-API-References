@@ -1,14 +1,14 @@
 ---
 title: HideInWebLayout
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置是否在 Web 布局视图中隐藏制表符前导和页码
+description: 获取或设置是否在 Web 布局视图中隐藏选项卡前导和页码
 type: docs
 weight: 90
 url: /zh/net/aspose.words.fields/fieldtoc/hideinweblayout/
 ---
 ## FieldToc.HideInWebLayout property
 
-获取或设置是否在 Web 布局视图中隐藏制表符前导和页码。
+获取或设置是否在 Web 布局视图中隐藏选项卡前导和页码。
 
 ```csharp
 public bool HideInWebLayout { get; set; }

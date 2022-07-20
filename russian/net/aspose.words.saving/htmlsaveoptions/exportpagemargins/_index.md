@@ -1,14 +1,14 @@
 ---
 title: ExportPageMargins
 second_title: Справочник по API Aspose.Words для .NET
-description: Указывает экспортируются ли поля страницы в HTML MHTML или EPUB. По умолчанию false .
+description: Указывает экспортируются ли поля страницы в HTML MHTML или EPUB. Значение по умолчаниюЛОЖЬ .
 type: docs
 weight: 220
 url: /ru/net/aspose.words.saving/htmlsaveoptions/exportpagemargins/
 ---
 ## HtmlSaveOptions.ExportPageMargins property
 
-Указывает, экспортируются ли поля страницы в HTML, MHTML или EPUB. По умолчанию:` false` .
+Указывает, экспортируются ли поля страницы в HTML, MHTML или EPUB. Значение по умолчанию:`ЛОЖЬ` .
 
 ```csharp
 public bool ExportPageMargins { get; set; }
@@ -20,7 +20,7 @@ Aspose.Words по умолчанию не показывает область п
 
 ### Примеры
 
-Показывает, как отображать объекты за пределами границ в выходных документах HTML.
+Показывает, как отображать объекты, находящиеся за пределами границ, в выходных HTML-документах.
 
 ```csharp
 Document doc = new Document();

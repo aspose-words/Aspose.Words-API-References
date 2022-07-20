@@ -3,7 +3,7 @@ title: FieldBibliography
 second_title: Aspose.Words for .NET API 参考
 description: 实现 BIBLIOGRAPHY 字段
 type: docs
-weight: 1470
+weight: 1490
 url: /zh/net/aspose.words.fields/fieldbibliography/
 ---
 ## FieldBibliography class
@@ -25,12 +25,12 @@ public class FieldBibliography : Field
 | 姓名 | 描述 |
 | --- | --- |
 | [DisplayResult](../../aspose.words.fields/field/displayresult) { get; } | 获取表示显示字段结果的文本。 |
-| [End](../../aspose.words.fields/field/end) { get; } | 获取表示字段结束的节点。 |
-| [Format](../../aspose.words.fields/field/format) { get; } | 获取[`FieldFormat`](../fieldformat)对象，该对象提供对字段格式的类型化访问。 |
+| [End](../../aspose.words.fields/field/end) { get; } | 获取代表字段end的节点。 |
+| [Format](../../aspose.words.fields/field/format) { get; } | 得到一个[`FieldFormat`](../fieldformat)提供对字段格式的类型化访问的对象。 |
 | [FormatLanguageId](../../aspose.words.fields/fieldbibliography/formatlanguageid) { get; set; } | 获取或设置用于格式化文档中的书目来源的语言 ID。 |
 | [IsDirty](../../aspose.words.fields/field/isdirty) { get; set; } | 获取或设置字段的当前结果是否由于对文档的其他修改而不再正确（陈旧）。 |
 | [IsLocked](../../aspose.words.fields/field/islocked) { get; set; } | 获取或设置字段是否被锁定（不应重新计算其结果）。 |
-| [LocaleId](../../aspose.words.fields/field/localeid) { get; set; } | 获取或设置字段的 LCID。 |
+| [LocaleId](../../aspose.words.fields/field/localeid) { get; set; } | 获取或设置字段的LCID。 |
 | [Result](../../aspose.words.fields/field/result) { get; set; } | 获取或设置字段分隔符和字段结尾之间的文本。 |
 | [Separator](../../aspose.words.fields/field/separator) { get; } | 获取表示字段分隔符的节点。可以为空。 |
 | [Start](../../aspose.words.fields/field/start) { get; } | 获取表示字段开始的节点。 |
@@ -40,20 +40,20 @@ public class FieldBibliography : Field
 
 | 姓名 | 描述 |
 | --- | --- |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode)() | 返回字段开始和字段分隔符之间的文本（如果没有分隔符，则返回字段结束）。 包含子字段的字段代码和字段结果。 |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode)() | 返回字段开始和字段分隔符之间的文本（或字段结束，如果没有分隔符）。 包括子字段的字段代码和字段结果。 |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode)(bool) | 返回字段开始和字段分隔符之间的文本（如果没有分隔符，则返回字段结束）。 |
-| [Remove](../../aspose.words.fields/field/remove)() | 从文档中删除字段。在字段之后返回一个节点。如果字段的结尾是其父节点的最后一个子 ，则返回其父段落。如果该字段已被删除，则返回 **null** 。 |
+| [Remove](../../aspose.words.fields/field/remove)() | 从文档中删除字段。在字段之后返回一个节点。如果字段的结尾是其父节点的最后一个 child ，则返回其父段落。如果该字段已被删除，则返回 **无效的**. |
 | [Unlink](../../aspose.words.fields/field/unlink)() | 执行字段取消链接。 |
 | [Update](../../aspose.words.fields/field/update)() | 执行字段更新。如果该字段已被更新，则抛出。 |
 | [Update](../../aspose.words.fields/field/update)(bool) | 执行字段更新。如果该字段已被更新，则抛出。 |
 
 ### 评论
 
-以书目样式插入文档书目部分的内容。
+以书目样式插入文档的书目部分的内容。
 
 ### 例子
 
-显示如何使用 CITATION 和 BIBLIOGRAPHY 字段。
+展示如何使用 CITATION 和 BIBLIOGRAPHY 字段。
 
 ```csharp
 // 打开一个包含我们可以在其中找到的书目来源的文档

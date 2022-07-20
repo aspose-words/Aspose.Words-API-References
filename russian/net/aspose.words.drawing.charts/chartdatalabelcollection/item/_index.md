@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Справочник по API Aspose.Words для .NET
-description: ВозвращаетChartDataLabelaspose.words.drawing.charts/chartdatalabelдля указанного индекса.
+description: ВозвращаетChartDataLabelaspose.words.drawing.charts/chartdatalabel для указанного индекса.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.drawing.charts/chartdatalabelcollection/item/
 ---
 ## ChartDataLabelCollection indexer
 
-Возвращает[`ChartDataLabel`](../../chartdatalabel)для указанного индекса.
+Возвращает[`ChartDataLabel`](../../chartdatalabel) для указанного индекса.
 
 ```csharp
 public ChartDataLabel this[int index] { get; }

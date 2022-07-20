@@ -1,14 +1,14 @@
 ---
 title: Result
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置表示此表单字段结果的字符串
+description: 获取或设置表示此表单域结果的字符串
 type: docs
 weight: 170
 url: /zh/net/aspose.words.fields/formfield/result/
 ---
 ## FormField.Result property
 
-获取或设置表示此表单字段结果的字符串。
+获取或设置表示此表单域结果的字符串。
 
 ```csharp
 public string Result { get; set; }
@@ -22,9 +22,9 @@ public string Result { get; set; }
 
 对于下拉表单字段，结果是在下拉列表中选择的字符串。
 
-设置`Result`对于文本表单字段不应用文本格式 在[`TextInputFormat`](../textinputformat)中指定。如果要设置值并应用 格式，请使用[`SetTextInputValue`](../settextinputvalue)方法。
+环境`Result`对于文本表单字段，不应用中指定的文本 format [`TextInputFormat`](../textinputformat) .如果要设置值并应用 格式，请使用[`SetTextInputValue`](../settextinputvalue)方法。
 
-对于文本表单字段，应用[`TextInputDefault`](../textinputdefault)值 如果*value*是` null` 。
+对于文本表单字段[`TextInputDefault`](../textinputdefault)值已应用 if*value*是`无效的`.
 
 ### 例子
 
@@ -36,14 +36,14 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Write("Please select a fruit: ");
 
- // 插入一个组合框，允许用户从字符串集合中选择一个选项。
+// 插入一个组合框，允许用户从字符串集合中选择一个选项。
 FormField comboBox = builder.InsertComboBox("MyComboBox", new[] { "Apple", "Banana", "Cherry" }, 0);
 
 Assert.AreEqual("MyComboBox", comboBox.Name);
 Assert.AreEqual(FieldType.FieldFormDropDown, comboBox.Type);
 Assert.AreEqual("Apple", comboBox.Result);
 
- // 表单域会以“select”html标签的形式出现。
+// 表单域将以“select”html标签的形式出现。
 doc.Save(ArtifactsDir + "FormFields.Create.html");
 ```
 

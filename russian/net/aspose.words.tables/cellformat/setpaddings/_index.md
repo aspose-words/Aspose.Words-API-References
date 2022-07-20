@@ -23,11 +23,11 @@ public void SetPaddings(double leftPadding, double topPadding, double rightPaddi
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
- // Установить отступ (в пунктах) между границей и текстомcontents
- // каждой ячейки таблицы, которую мы создаем с помощью конструктора документов. 
+// Устанавливаем отступ (в пунктах) между границей и текстовым содержимым
+// каждой ячейки таблицы, которую мы создаем с помощью конструктора документов. 
 builder.CellFormat.SetPaddings(5, 10, 40, 50);
 
- // Создаем таблицу с одной ячейкой, содержимое которой будет заполнено пробелами.
+// Создаем таблицу с одной ячейкой, содержимое которой будет заполнено пробелами.
 builder.StartTable();
 builder.InsertCell();
 builder.Write("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. " +

@@ -1,14 +1,14 @@
 ---
 title: FormatDateTime
 second_title: Aspose.Words for .NET API 参考
-description: 当 Aspose.Words 应用日期/时间格式切换时调用即  dd.MM.yyyy
+description: 当 Aspose.Words 应用日期/时间格式切换时调用即  dd.MM.yyyy.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.fields/ifieldresultformatter/formatdatetime/
 ---
 ## IFieldResultFormatter.FormatDateTime method
 
-当 Aspose.Words 应用日期/时间格式切换时调用，即 \@ "dd.MM.yyyy"。
+当 Aspose.Words 应用日期/时间格式切换时调用，即 \@ "dd.MM.yyyy".
 
 ```csharp
 public string FormatDateTime(DateTime value, string format, CalendarType calendarType)
@@ -16,7 +16,7 @@ public string FormatDateTime(DateTime value, string format, CalendarType calenda
 
 ### 评论
 
-实现应该返回 **null** 表示应应用默认格式。
+实现应该返回 **无效的**表示应应用默认格式。
 
 ### 例子
 

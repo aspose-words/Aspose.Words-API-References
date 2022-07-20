@@ -1,14 +1,14 @@
 ---
 title: CompatibilityOptions
 second_title: Справочник по API Aspose.Words для .NET
-description: Предоставляет доступ к параметрам совместимости документов то есть к пользовательским настройкам введенным на странице Совместимость вкладку Параметры в Word.
+description: Предоставляет доступ к параметрам совместимости документов то есть к настройкам пользователя введенным на Совместимость вкладка Опции диалоговое окно в Word.
 type: docs
 weight: 50
 url: /ru/net/aspose.words/document/compatibilityoptions/
 ---
 ## Document.CompatibilityOptions property
 
-Предоставляет доступ к параметрам совместимости документов (то есть к пользовательским настройкам, введенным на странице **Совместимость** вкладку **Параметры** в Word).
+Предоставляет доступ к параметрам совместимости документов (то есть к настройкам пользователя, введенным на **Совместимость** вкладка **Опции** диалоговое окно в Word).
 
 ```csharp
 public CompatibilityOptions CompatibilityOptions { get; }
@@ -23,18 +23,18 @@ public void OptimizeFor()
 {
     Document doc = new Document();
 
-     // Этот объект содержит обширный список флагов, уникальных для каждого document
-     // это позволяет нам обеспечить обратную совместимость со старыми версиями Microsoft Word.
+    // Этот объект содержит обширный список флагов, уникальных для каждого документа
+    // которые позволяют нам обеспечить обратную совместимость со старыми версиями Microsoft Word.
     CompatibilityOptions options = doc.CompatibilityOptions;
 
-     // Печать настроек по умолчанию для пустого документа.
+    // Печать настроек по умолчанию для пустого документа.
     Console.WriteLine("\nDefault optimization settings:");
     PrintCompatibilityOptions(options);
 
-     // Мы можем получить доступ к этим настройкам в Microsoft Word через «Файл» -> "Опции" -> «Дополнительно» -> "Параметры совместимости для...".
+    // Мы можем получить доступ к этим настройкам в Microsoft Word через «Файл» -> "Опции" -> «Дополнительно» -> "Параметры совместимости для...".
     doc.Save(ArtifactsDir + "CompatibilityOptions.OptimizeFor.DefaultSettings.docx");
 
-     // Мы можем использовать метод OptimizeFor для обеспечения оптимальной совместимости с определенной версией Microsoft Word.
+    // Мы можем использовать метод OptimizeFor, чтобы обеспечить оптимальную совместимость с определенной версией Microsoft Word.
     doc.CompatibilityOptions.OptimizeFor(MsWordVersion.Word2010);
     Console.WriteLine("\nOptimized for Word 2010:");
     PrintCompatibilityOptions(options);
@@ -45,7 +45,7 @@ public void OptimizeFor()
 }
 
 /// <summary>
- /// Группирует все флаги в объекте параметров совместимости документа по состоянию, затем печатает каждую группу.
+/// Группирует все флаги в объекте параметров совместимости документа по состоянию, а затем печатает каждую группу.
 /// </summary>
 private static void PrintCompatibilityOptions(CompatibilityOptions options)
 {

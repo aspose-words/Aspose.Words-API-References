@@ -3,7 +3,7 @@ title: IMailMergeDataSourceRoot
 second_title: Справочник по API Aspose.Words для .NET
 description: Реализуйте этот интерфейс чтобы разрешить слияние почты из пользовательского источника данных с основными и подробными данными.
 type: docs
-weight: 3550
+weight: 3600
 url: /ru/net/aspose.words.mailmerging/imailmergedatasourceroot/
 ---
 ## IMailMergeDataSourceRoot interface
@@ -27,11 +27,11 @@ public interface IMailMergeDataSourceRoot
 ```csharp
 public void CustomDataSourceRoot()
 {
-     // Создайте документ с двумя регионами слияния с именами «Вашингтон» и «Сиэтл».
+    // Создайте документ с двумя областями слияния с именами «Вашингтон» и «Сиэтл».
     string[] mailMergeRegions = { "Vancouver", "Seattle" };
     Document doc = CreateSourceDocumentWithMailMergeRegions(mailMergeRegions);
 
-     // Создадим два источника данных для слияния.
+    // Создадим два источника данных для слияния.
     EmployeeList employeesWashingtonBranch = new EmployeeList();
     employeesWashingtonBranch.Add(new Employee("John Doe", "Sales"));
     employeesWashingtonBranch.Add(new Employee("Jane Doe", "Management"));
@@ -40,24 +40,24 @@ public void CustomDataSourceRoot()
     employeesSeattleBranch.Add(new Employee("John Cardholder", "Management"));
     employeesSeattleBranch.Add(new Employee("Joe Bloggs", "Sales"));
 
-     // Регистрируем наши источники данных по имени в корне источника данных.
-    // Если мы собираемся использовать этот корень источника данных в слиянии почты с регионами, 
-     // зарегистрированное имя каждого источника должно соответствовать имени существующей области слияния в исходном документе слияния.
+    // Регистрируем наши источники данных по имени в корне источника данных.
+    // Если мы собираемся использовать этот корень источника данных в почтовом слиянии с регионами,
+    // зарегистрированное имя каждого источника должно совпадать с именем существующей области слияния в исходном документе слияния.
     DataSourceRoot sourceRoot = new DataSourceRoot();
     sourceRoot.RegisterSource(mailMergeRegions[0], new EmployeeListMailMergeSource(employeesWashingtonBranch));
     sourceRoot.RegisterSource(mailMergeRegions[1], new EmployeeListMailMergeSource(employeesSeattleBranch));
 
-     // Поскольку у нас есть последовательные регионы слияния, обычно нам приходится выполнять два слияния.
-     // Однако один источник слияния с корнем данных может заполнить несколько регионов
-     // если в корне есть таблицы с соответствующими именами/именами столбцов.
+    // Так как у нас есть последовательные регионы слияния, обычно нам приходится выполнять два слияния.
+    // Однако один источник слияния с корнем данных может заполнять несколько регионов
+    // если в корне есть таблицы с соответствующими именами/именами столбцов.
     doc.MailMerge.ExecuteWithRegions(sourceRoot);
 
     doc.Save(ArtifactsDir + "MailMergeCustom.CustomDataSourceRoot.docx");
 }
 
 /// <summary>
- /// Создать документ, содержащий последовательные области слияния с именами, указанными во входном массиве, 
- /// для таблицы данных сотрудников.
+/// Создать документ, содержащий последовательные области слияния с именами, указанными во входном массиве,
+/// для таблицы данных сотрудников.
 /// </summary>
 private static Document CreateSourceDocumentWithMailMergeRegions(string[] regions)
 {
@@ -78,7 +78,7 @@ private static Document CreateSourceDocumentWithMailMergeRegions(string[] region
 }
 
 /// <summary>
- /// Пример класса "объект данных" в вашем приложении.
+/// Пример класса "объект данных" в вашем приложении.
 /// </summary>
 private class Employee
 {
@@ -93,7 +93,7 @@ private class Employee
 }
 
 /// <summary>
- /// Пример типизированной коллекции, содержащей ваши объекты "данные".
+/// Пример типизированной коллекции, содержащей ваши объекты "данные".
 /// </summary>
 private class EmployeeList : ArrayList
 {
@@ -105,9 +105,9 @@ private class EmployeeList : ArrayList
 }
 
 /// <summary>
- /// Корень источника данных, который можно передать непосредственно в слияние, которое может регистрироваться и содержать множество дочерних источников данных.
-/// Все эти источники должны реализовывать IMailMergeDataSource, они зарегистрированы и отличаются именем
- /// что соответствует области слияния почты, которая будет считывать соответствующие данные.
+/// Корень источника данных, который можно передать непосредственно в слияние, которое может регистрироваться и содержать множество дочерних источников данных.
+/// Все эти источники должны реализовывать IMailMergeDataSource, они зарегистрированы и различаются по имени
+/// что соответствует области слияния почты, которая будет считывать соответствующие данные.
 /// </summary>
 private class DataSourceRoot : IMailMergeDataSourceRoot
 {
@@ -127,7 +127,7 @@ private class DataSourceRoot : IMailMergeDataSourceRoot
 }
 
 /// <summary>
- /// Пользовательский источник данных слияния почты.
+/// Пользовательский источник данных слияния почты.
 /// </summary>
 private class EmployeeListMailMergeSource : IMailMergeDataSource
 {
@@ -138,7 +138,7 @@ private class EmployeeListMailMergeSource : IMailMergeDataSource
     }
 
     /// <summary>
-     /// Стандартная реализация перехода к следующей записи в коллекции.
+    /// Стандартная реализация перехода к следующей записи в коллекции.
     /// </summary>
     public bool MoveNext()
     {
@@ -159,7 +159,7 @@ private class EmployeeListMailMergeSource : IMailMergeDataSource
     }
 
     /// <summary>
-     /// Имя источника данных. Используется Aspose.Words только при выполнении слияния почты с повторяемыми регионами.
+    /// Имя источника данных. Используется Aspose.Words только при выполнении слияния почты с повторяемыми областями.
     /// </summary>
     public string TableName
     {
@@ -167,7 +167,7 @@ private class EmployeeListMailMergeSource : IMailMergeDataSource
     }
 
     /// <summary>
-     /// Aspose.Words вызывает этот метод, чтобы получить значение для каждого поля данных.
+    /// Aspose.Words вызывает этот метод, чтобы получить значение для каждого поля данных.
     /// </summary>
     public bool GetValue(string fieldName, out object fieldValue)
     {
@@ -180,15 +180,15 @@ private class EmployeeListMailMergeSource : IMailMergeDataSource
                 fieldValue = mEmployees[mRecordIndex].Department;
                 return true;
             default:
-                 // Возвращаем "false" механизму слияния почты Aspose.Words для signify
-                 // что мы не смогли найти поле с таким именем.
+                // Возвращаем "false" механизму слияния почты Aspose.Words, чтобы обозначить
+                // что мы не смогли найти поле с таким именем.
                 fieldValue = null;
                 return false;
         }
     }
 
     /// <summary>
-     /// Дочерние источники данных предназначены для вложенных слияний почты.
+    /// Дочерние источники данных предназначены для вложенных слияний почты.
     /// </summary>
     public IMailMergeDataSource GetChildDataSource(string tableName)
     {

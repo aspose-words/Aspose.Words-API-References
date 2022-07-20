@@ -1,14 +1,14 @@
 ---
 title: LogBase
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置对数轴的对数底
+description: 获取或设置对数轴的对数底数
 type: docs
 weight: 20
 url: /zh/net/aspose.words.drawing.charts/axisscaling/logbase/
 ---
 ## AxisScaling.LogBase property
 
-获取或设置对数轴的对数底。
+获取或设置对数轴的对数底数。
 
 ```csharp
 public double LogBase { get; set; }
@@ -18,13 +18,13 @@ public double LogBase { get; set; }
 
 MS Office 2016 新图表不支持该属性。
 
-浮点值的有效范围大于或等于 2 且小于或 等于 1000。该属性仅有效如果[`Type`](../type)设置为 Logarithmic。
+浮点值的有效范围大于或等于 2 且小于或 等于 1000。该属性仅在以下情况下有效[`Type`](../type)设置为 Logarithmic.
 
-设置此属性会将[`Type`](../type)属性设置为Logarithmic。
+设置此属性会设置[`Type`](../type)财产Logarithmic.
 
 ### 例子
 
-显示如何对图表轴应用对数缩放。
+显示如何将对数缩放应用于图表轴。
 
 ```csharp
 Document doc = new Document();

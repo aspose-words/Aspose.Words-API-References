@@ -1,14 +1,14 @@
 ---
 title: Forms2OleControlCollection
 second_title: Aspose.Words for .NET API 参考
-description: 表示Forms2OleControl./forms2olecontrol对象的集合
+description: 代表集合Forms2OleControl./forms2olecontrol对象.
 type: docs
 weight: 990
 url: /zh/net/aspose.words.drawing.ole/forms2olecontrolcollection/
 ---
 ## Forms2OleControlCollection class
 
-表示[`Forms2OleControl`](../forms2olecontrol)对象的集合。
+代表集合[`Forms2OleControl`](../forms2olecontrol)对象.
 
 ```csharp
 public class Forms2OleControlCollection
@@ -29,7 +29,7 @@ public class Forms2OleControlCollection
 
 ### 例子
 
-显示如何访问嵌入在文档中的 OLE 控件及其子控件。
+演示如何访问嵌入在文档中的 OLE 控件及其子控件。
 
 ```csharp
 Document doc = new Document(MyDir + "OLE ActiveX controls.docm");

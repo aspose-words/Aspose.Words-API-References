@@ -25,8 +25,8 @@ public void ClearFormatting()
 ```csharp
 Document doc = new Document(MyDir + "Borders.docx");
 
- // Каждый абзац имеет индивидуальный набор границ.
- // Мы можем получить доступ к настройкам внешнего вида этих границ через объект формата абзаца.
+// Каждый абзац имеет индивидуальный набор границ.
+// Мы можем получить доступ к настройкам внешнего вида этих границ через объект формата абзаца.
 BorderCollection borders = doc.FirstSection.Body.FirstParagraph.ParagraphFormat.Borders;
 
 Assert.AreEqual(Color.Red.ToArgb(), borders[0].Color.ToArgb());
@@ -34,8 +34,8 @@ Assert.AreEqual(3.0d, borders[0].LineWidth);
 Assert.AreEqual(LineStyle.Single, borders[0].LineStyle);
 Assert.True(borders[0].IsVisible);
 
- // Мы можем сразу удалить границу, запустив метод ClearFormatting. 
- // Выполнение этого метода на каждой границе абзаца удалит все его границы.
+// Мы можем сразу удалить границу, запустив метод ClearFormatting. 
+// Выполнение этого метода на каждой границе абзаца удалит все его границы.
 foreach (Border border in borders)
     border.ClearFormatting();
 

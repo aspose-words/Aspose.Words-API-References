@@ -1,14 +1,14 @@
 ---
 title: OleFormat
 second_title: Aspose.Words for .NET API 参考
-description: 提供对 OLE 对象或 ActiveX 控件的数据的访问
+description: 提供对 OLE 对象或 ActiveX 控件数据的访问
 type: docs
 weight: 1020
 url: /zh/net/aspose.words.drawing/oleformat/
 ---
 ## OleFormat class
 
-提供对 OLE 对象或 ActiveX 控件的数据的访问。
+提供对 OLE 对象或 ActiveX 控件数据的访问。
 
 ```csharp
 public class OleFormat
@@ -21,11 +21,11 @@ public class OleFormat
 | [AutoUpdate](../../aspose.words.drawing/oleformat/autoupdate) { get; set; } | 指定指向 OLE 对象的链接是否在 Microsoft Word 中自动更新。 |
 | [Clsid](../../aspose.words.drawing/oleformat/clsid) { get; } | 获取 OLE 对象的 CLSID。 |
 | [IconCaption](../../aspose.words.drawing/oleformat/iconcaption) { get; } | 获取 OLE 对象的图标标题。 |
-| [IsLink](../../aspose.words.drawing/oleformat/islink) { get; } | 如果 OLE 对象已链接（当指定[`SourceFullName`](./sourcefullname)时），则返回 true。 |
+| [IsLink](../../aspose.words.drawing/oleformat/islink) { get; } | 如果 OLE 对象已链接（当[`SourceFullName`](./sourcefullname)已指定）. |
 | [IsLocked](../../aspose.words.drawing/oleformat/islocked) { get; set; } | 指定到 OLE 对象的链接是否被锁定以防更新。 |
-| [OleControl](../../aspose.words.drawing/oleformat/olecontrol) { get; } | 如果此 OLE 对象是 ActiveX 控件，则获取[`OleControl`](./olecontrol)对象。否则此属性为空。 |
-| [OleIcon](../../aspose.words.drawing/oleformat/oleicon) { get; } | 获取 OLE 对象的绘图方面。当 **true** 时，OLE 对象显示为图标。 当 **false** 时，OLE 对象显示为内容。 |
-| [OlePackage](../../aspose.words.drawing/oleformat/olepackage) { get; } | 如果 OLE 对象是 OLE 包，则提供对[`OlePackage`](../olepackage)的访问。 否则返回 null。 |
+| [OleControl](../../aspose.words.drawing/oleformat/olecontrol) { get; } | 获取[`OleControl`](./olecontrol)如果此 OLE 对象是 ActiveX 控件，则为对象。否则此属性为空。 |
+| [OleIcon](../../aspose.words.drawing/oleformat/oleicon) { get; } | 获取 OLE 对象的绘图方面。什么时候 **真的**，OLE 对象显示为图标。 什么时候 **错误的** OLE 对象显示为 content. |
+| [OlePackage](../../aspose.words.drawing/oleformat/olepackage) { get; } | 提供访问权限[`OlePackage`](../olepackage)如果 OLE 对象是 OLE 包。 否则返回 null。 |
 | [ProgId](../../aspose.words.drawing/oleformat/progid) { get; set; } | 获取或设置 OLE 对象的 ProgID。 |
 | [SourceFullName](../../aspose.words.drawing/oleformat/sourcefullname) { get; set; } | 获取或设置链接的 OLE 对象的源文件的路径和名称。 |
 | [SourceItem](../../aspose.words.drawing/oleformat/sourceitem) { get; set; } | 获取或设置用于标识正在链接的源文件部分的字符串。 |
@@ -39,15 +39,15 @@ public class OleFormat
 | [GetOleEntry](../../aspose.words.drawing/oleformat/getoleentry)(string) | 获取 OLE 对象数据条目。 |
 | [GetRawData](../../aspose.words.drawing/oleformat/getrawdata)() | 获取 OLE 对象原始数据。 |
 | [Save](../../aspose.words.drawing/oleformat/save#save)(Stream) | 将嵌入对象的数据保存到指定的流中。 |
-| [Save](../../aspose.words.drawing/oleformat/save#save_1)(string) | 将嵌入对象的数据保存到指定名称的文件中。 |
+| [Save](../../aspose.words.drawing/oleformat/save#save_1)(string) | 将嵌入对象的数据保存到具有指定名称的文件中。 |
 
 ### 评论
 
-使用[`OleFormat`](../shape/oleformat)属性来访问 OLE 对象的数据。 您不会直接创建[`OleFormat`](../oleformat)类的实例。
+使用[`OleFormat`](../shape/oleformat)属性来访问 OLE 对象的数据。 您不创建[`OleFormat`](../oleformat)直接上课。
 
 ### 例子
 
-显示如何提取嵌入的 OLE 对象到文件中。
+演示如何将嵌入的 OLE 对象提取到文件中。
 
 ```csharp
 Document doc = new Document(MyDir + "OLE spreadsheet.docm");

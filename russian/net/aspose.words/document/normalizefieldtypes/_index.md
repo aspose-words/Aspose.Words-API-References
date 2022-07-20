@@ -1,14 +1,14 @@
 ---
 title: NormalizeFieldTypes
 second_title: Справочник по API Aspose.Words для .NET
-description: Изменяет значения типа поляFieldTypeaspose.words.fields/fieldchar/fieldtypeofFieldStartaspose.words.fields/fieldstartFieldSeparatoraspose.words.fields/fieldseparatorFieldEndaspose.words.fields/fieldend in весь документ чтобы они соответствовали типам полей содержащимся в кодах полей.
+description: Изменяет значения типа поляFieldTypeaspose.words.fields/fieldchar/fieldtype изFieldStartaspose.words.fields/fieldstart FieldSeparatoraspose.words.fields/fieldseparator FieldEndaspose.words.fields/fieldend во всем документе чтобы они соответствовали типам полей содержащимся в кодах полей.
 type: docs
 weight: 610
 url: /ru/net/aspose.words/document/normalizefieldtypes/
 ---
 ## Document.NormalizeFieldTypes method
 
-Изменяет значения типа поля[`FieldType`](../../../aspose.words.fields/fieldchar/fieldtype)of[`FieldStart`](../../../aspose.words.fields/fieldstart),[`FieldSeparator`](../../../aspose.words.fields/fieldseparator),[`FieldEnd`](../../../aspose.words.fields/fieldend) in весь документ, чтобы они соответствовали типам полей, содержащимся в кодах полей.
+Изменяет значения типа поля[`FieldType`](../../../aspose.words.fields/fieldchar/fieldtype) из[`FieldStart`](../../../aspose.words.fields/fieldstart) ,[`FieldSeparator`](../../../aspose.words.fields/fieldseparator) ,[`FieldEnd`](../../../aspose.words.fields/fieldend) во всем документе, чтобы они соответствовали типам полей, содержащимся в кодах полей.
 
 ```csharp
 public void NormalizeFieldTypes()

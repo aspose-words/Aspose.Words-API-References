@@ -16,11 +16,11 @@ public Node LastChild { get; }
 
 ### 评论
 
-如果没有最后一个子节点，则返回 null。
+如果没有最后一个子节点，则返回null。
 
 ### 例子
 
-演示如何使用 Node 和 CompositeNode 的方法删除文档中最后一节之前的一节。
+演示如何使用 Node 和 CompositeNode 的方法来删除文档中最后一个部分之前的部分。
 
 ```csharp
 Document doc = new Document();

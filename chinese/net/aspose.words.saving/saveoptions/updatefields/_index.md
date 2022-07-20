@@ -1,14 +1,14 @@
 ---
 title: UpdateFields
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置一个值该值确定在将文档保存为固定页面格式之前是否应更新某些类型的字段 此属性的默认值为 true 
+description: 获取或设置一个值该值确定在将文档保存为固定页面格式之前是否应更新某些类型的字段 此属性的默认值为 真的.
 type: docs
 weight: 170
 url: /zh/net/aspose.words.saving/saveoptions/updatefields/
 ---
 ## SaveOptions.UpdateFields property
 
-获取或设置一个值，该值确定在将文档保存为固定页面格式之前是否应更新某些类型的字段。 此属性的默认值为 **true** 。
+获取或设置一个值，该值确定在将文档保存为固定页面格式之前是否应更新某些类型的字段。 此属性的默认值为 **真的**.
 
 ```csharp
 public bool UpdateFields { get; set; }
@@ -16,7 +16,7 @@ public bool UpdateFields { get; set; }
 
 ### 评论
 
-允许指定是否模仿 MS Word 行为。
+允许指定是否模仿 MS Word 的行为。
 
 ### 例子
 

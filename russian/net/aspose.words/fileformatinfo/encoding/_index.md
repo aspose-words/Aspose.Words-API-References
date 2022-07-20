@@ -16,14 +16,14 @@ public Encoding Encoding { get; }
 
 ### Примеры
 
-Показывает, как определить кодировку в файле html.
+Показывает, как определить кодировку в html-файле.
 
 ```csharp
 FileFormatInfo info = FileFormatUtil.DetectFileFormat(MyDir + "Document.html");
 
 Assert.AreEqual(LoadFormat.Html, info.LoadFormat);
 
- // Свойство Encoding используется только при создании объекта FileFormatInfo для html-документа.
+// Свойство Encoding используется только при создании объекта FileFormatInfo для html-документа.
 Assert.AreEqual("Western European (Windows)", info.Encoding.EncodingName);
 Assert.AreEqual(1252, info.Encoding.CodePage);
 ```

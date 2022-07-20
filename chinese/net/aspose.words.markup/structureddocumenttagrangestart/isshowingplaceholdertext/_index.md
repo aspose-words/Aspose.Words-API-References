@@ -1,14 +1,14 @@
 ---
 title: IsShowingPlaceholderText
 second_title: Aspose.Words for .NET API 参考
-description: 指定此结构化文档标签的内容是否应被解释为包含 占位符文本而不是结构化文档标签中的常规文本内容
+description: 指定此结构化文档标记的内容是否应解释为包含 占位符文本与结构化文档标记中的常规文本内容相反
 type: docs
 weight: 50
 url: /zh/net/aspose.words.markup/structureddocumenttagrangestart/isshowingplaceholdertext/
 ---
 ## StructuredDocumentTagRangeStart.IsShowingPlaceholderText property
 
-指定此结构化文档标签的内容是否应被解释为包含 占位符文本（而不是结构化文档标签中的常规文本内容）。
+指定此结构化文档标记的内容是否应解释为包含 占位符文本（与结构化文档标记中的常规文本内容相反）。
 
 如果设置为 true，则在打开此文档时应恢复此状态（显示占位符文本）。
 

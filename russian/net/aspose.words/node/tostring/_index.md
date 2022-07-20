@@ -23,61 +23,38 @@ public string ToString(SaveFormat saveFormat)
 Показывает разницу между вызовом методов GetText и ToString на узле.
 
 ```csharp
-Document doc = new Document(MyDir + "Rendering.docx");
-doc.UpdateListLabels();
+Document doc = new Document();
 
-NodeCollection paras = doc.GetChildNodes(NodeType.Paragraph, true);
+DocumentBuilder builder = new DocumentBuilder(doc);
+builder.InsertField("MERGEFIELD Field");
 
- // Определяем, есть ли у нас список абзацев. В нашем документе в нашем списке используются простые арабские цифры, 
- // которые начинаются с трех и заканчиваются на шести.
-foreach (Paragraph paragraph in paras.OfType<Paragraph>().Where(p => p.ListFormat.IsListItem))
-{
-    Console.WriteLine($"List item paragraph #{paras.IndexOf(paragraph)}");
+// GetText извлечет видимый текст, а также коды полей и специальные символы.
+Assert.AreEqual("\u0013MERGEFIELD Field\u0014«Field»\u0015\u000c", doc.GetText());
 
-     // Это текст, который мы получаем при получении, когда мы выводим этот узел в текстовый формат.
-     // В этом текстовом выводе метки списка будут пропущены. Обрежьте все символы форматирования абзаца. 
-    string paragraphText = paragraph.ToString(SaveFormat.Text).Trim();
-    Console.WriteLine($"\tExported Text: {paragraphText}");
-
-    ListLabel label = paragraph.ListLabel;
-
-     // Получаем позицию абзаца на текущем уровне списка. Если у нас есть список с несколькими уровнями, 
-     // это скажет нам, какая позиция находится на этом уровне.
-    Console.WriteLine($"\tNumerical Id: {label.LabelValue}");
-
-     // Объединяем их вместе, чтобы включить метку списка с текстом в вывод.
-    Console.WriteLine($"\tList label combined with text: {label.LabelString} {paragraphText}");
-}
+// ToString даст нам внешний вид документа, если он будет сохранен в переданном формате сохранения.
+Assert.AreEqual("«Field»\r\n", doc.ToString(SaveFormat.Text));
 ```
 
 Экспортирует содержимое узла в строку в формате HTML.
 
 ```csharp
-Document doc = new Document(MyDir + "Rendering.docx");
-doc.UpdateListLabels();
+Document doc = new Document(MyDir + "Document.docx");
 
-NodeCollection paras = doc.GetChildNodes(NodeType.Paragraph, true);
+Node node = doc.LastSection.Body.LastParagraph;
 
- // Определяем, есть ли у нас список абзацев. В нашем документе в нашем списке используются простые арабские цифры, 
- // которые начинаются с трех и заканчиваются на шести.
-foreach (Paragraph paragraph in paras.OfType<Paragraph>().Where(p => p.ListFormat.IsListItem))
-{
-    Console.WriteLine($"List item paragraph #{paras.IndexOf(paragraph)}");
+// Когда мы вызываем метод ToString, используя перегрузку html SaveFormat,
+// он преобразует содержимое узла в их необработанное html-представление.
+Assert.AreEqual("<p style=\"margin-top:0pt; margin-bottom:8pt; line-height:108%; font-size:12pt\">" +
+                "<span style=\"font-family:'Times New Roman'\">Hello World!</span>" +
+                "</p>", node.ToString(SaveFormat.Html));
 
-     // Это текст, который мы получаем при получении, когда мы выводим этот узел в текстовый формат.
-     // В этом текстовом выводе метки списка будут пропущены. Обрежьте все символы форматирования абзаца. 
-    string paragraphText = paragraph.ToString(SaveFormat.Text).Trim();
-    Console.WriteLine($"\tExported Text: {paragraphText}");
+// Мы также можем изменить результат этого преобразования, используя объект SaveOptions.
+HtmlSaveOptions saveOptions = new HtmlSaveOptions();
+saveOptions.ExportRelativeFontSize = true;
 
-    ListLabel label = paragraph.ListLabel;
-
-     // Получаем позицию абзаца на текущем уровне списка. Если у нас есть список с несколькими уровнями, 
-     // это скажет нам, какая позиция находится на этом уровне.
-    Console.WriteLine($"\tNumerical Id: {label.LabelValue}");
-
-     // Объединяем их вместе, чтобы включить метку списка с текстом в вывод.
-    Console.WriteLine($"\tList label combined with text: {label.LabelString} {paragraphText}");
-}
+Assert.AreEqual("<p style=\"margin-top:0pt; margin-bottom:8pt; line-height:108%\">" +
+                "<span style=\"font-family:'Times New Roman'\">Hello World!</span>" +
+                "</p>", node.ToString(saveOptions));
 ```
 
 Показывает, как извлечь метки списка всех абзацев, являющихся элементами списка.
@@ -88,24 +65,24 @@ doc.UpdateListLabels();
 
 NodeCollection paras = doc.GetChildNodes(NodeType.Paragraph, true);
 
- // Определяем, есть ли у нас список абзацев. В нашем документе в нашем списке используются простые арабские цифры, 
- // которые начинаются с трех и заканчиваются на шести.
+// Определяем, есть ли у нас список абзацев. В нашем документе в нашем списке используются простые арабские цифры,
+// которые начинаются с трех и заканчиваются на шести.
 foreach (Paragraph paragraph in paras.OfType<Paragraph>().Where(p => p.ListFormat.IsListItem))
 {
     Console.WriteLine($"List item paragraph #{paras.IndexOf(paragraph)}");
 
-     // Это текст, который мы получаем при получении, когда мы выводим этот узел в текстовый формат.
-     // В этом текстовом выводе метки списка будут пропущены. Обрежьте все символы форматирования абзаца. 
+    // Это текст, который мы получаем при получении, когда мы выводим этот узел в текстовый формат.
+    // В этом текстовом выводе метки списка будут пропущены. Обрежьте все символы форматирования абзаца. 
     string paragraphText = paragraph.ToString(SaveFormat.Text).Trim();
     Console.WriteLine($"\tExported Text: {paragraphText}");
 
     ListLabel label = paragraph.ListLabel;
 
-     // Получаем позицию абзаца на текущем уровне списка. Если у нас есть список с несколькими уровнями, 
-     // это скажет нам, какая позиция находится на этом уровне.
+    // Получаем позицию абзаца на текущем уровне списка. Если у нас есть список с несколькими уровнями,
+    // это скажет нам, какая позиция находится на этом уровне.
     Console.WriteLine($"\tNumerical Id: {label.LabelValue}");
 
-     // Объединяем их вместе, чтобы включить метку списка с текстом в вывод.
+    // Объедините их вместе, чтобы включить в вывод метку списка с текстом.
     Console.WriteLine($"\tList label combined with text: {label.LabelString} {paragraphText}");
 }
 ```

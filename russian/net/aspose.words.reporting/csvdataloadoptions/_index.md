@@ -3,7 +3,7 @@ title: CsvDataLoadOptions
 second_title: Справочник по API Aspose.Words для .NET
 description: Представляет параметры анализа данных CSV.
 type: docs
-weight: 4350
+weight: 4400
 url: /ru/net/aspose.words.reporting/csvdataloadoptions/
 ---
 ## CsvDataLoadOptions class
@@ -26,13 +26,13 @@ public class CsvDataLoadOptions
 | Имя | Описание |
 | --- | --- |
 | [CommentChar](../../aspose.words.reporting/csvdataloadoptions/commentchar) { get; set; } | Получает или задает символ, используемый для комментирования строк данных CSV. |
-| [Delimiter](../../aspose.words.reporting/csvdataloadoptions/delimiter) { get; set; } | Получает или задает символ, который будет использоваться в качестве разделителя столбцов. |
+| [Delimiter](../../aspose.words.reporting/csvdataloadoptions/delimiter) { get; set; } | Получает или задает символ, который будет использоваться в качестве разделителя столбца. |
 | [HasHeaders](../../aspose.words.reporting/csvdataloadoptions/hasheaders) { get; set; } | Получает или задает значение, указывающее, содержит ли первая запись данных CSV имена столбцов. |
 | [QuoteChar](../../aspose.words.reporting/csvdataloadoptions/quotechar) { get; set; } | Получает или задает символ, который используется для кавычек значений поля. |
 
 ### Примечания
 
-Экземпляр этого класса может быть передан в конструкторы[`CsvDataSource`](../csvdatasource).
+Экземпляр этого класса может быть передан в конструкторы[`CsvDataSource`](../csvdatasource) .
 
 ### Смотрите также
 

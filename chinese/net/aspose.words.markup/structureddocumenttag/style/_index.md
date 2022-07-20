@@ -16,7 +16,7 @@ public Style Style { get; set; }
 
 ### 评论
 
-仅Character样式或Paragraph可以设置带有链接字符样式的样式。
+只有Character风格或Paragraph可以设置链接字符样式的样式。
 
 ### 例子
 

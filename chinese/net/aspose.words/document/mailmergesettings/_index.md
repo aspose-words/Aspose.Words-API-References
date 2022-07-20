@@ -1,14 +1,14 @@
 ---
 title: MailMergeSettings
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置包含文档所有邮件合并信息的对象
+description: 获取或设置包含文档的所有邮件合并信息的对象
 type: docs
 weight: 250
 url: /zh/net/aspose.words/document/mailmergesettings/
 ---
 ## Document.MailMergeSettings property
 
-获取或设置包含文档所有邮件合并信息的对象。
+获取或设置包含文档的所有邮件合并信息的对象。
 
 ```csharp
 public MailMergeSettings MailMergeSettings { get; set; }
@@ -16,13 +16,13 @@ public MailMergeSettings MailMergeSettings { get; set; }
 
 ### 评论
 
-您可以使用此对象为文档和此信息指定邮件合并数据源 （连同可用的数据字段）将在用户打开此文档时出现在 Microsoft Word 中。 或者您可以使用此对象查询用户在 Microsoft Word 中为此文档指定的邮件合并设置。
+您可以使用此对象为文档指定邮件合并数据源，当用户打开此文档时，此信息 （以及可用的数据字段）将出现在 Microsoft Word 中。 或者您可以使用此对象查询邮件合并设置用户已在 Microsoft Word 中为此文档指定。
 
-这个对象永远不会为空。
+该对象永远不会为空。
 
 ### 例子
 
-显示如何使用 Office 数据源对象中的数据执行邮件合并。
+演示如何使用 Office 数据源对象中的数据执行邮件合并。
 
 ```csharp
 Document doc = new Document();
@@ -35,9 +35,9 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 builder.Writeln(": ");
 builder.InsertField("MERGEFIELD Message", "<Message>");
 
- // 创建一个ASCII文件形式的数据源，用“|”字符
+// 创建一个ASCII文件形式的数据源，用“|”特点
 // 充当分隔列的分隔符。第一行包含三列的名称，
- // 后面的每一行都是具有各自值的行。
+// 之后的每一行都是具有各自值的行。
 string[] lines = { "FirstName|LastName|Message",
     "John|Doe|Hello! This message was created with Aspose Words mail merge." };
 string dataSrcFilename = ArtifactsDir + "MailMerge.MailMergeSettings.DataSource.txt";
@@ -65,7 +65,7 @@ odso.FirstRowContainsColumnNames = true;
 Assert.AreNotSame(odso, odso.Clone());
 Assert.AreNotSame(settings, settings.Clone());
 
- // 在 Microsoft Word 中打开此文档将在显示内容之前执行邮件合并。 
+// 在 Microsoft Word 中打开此文档将在显示内容之前执行邮件合并。 
 doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ```
 

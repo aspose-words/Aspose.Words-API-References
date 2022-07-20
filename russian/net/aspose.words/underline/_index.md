@@ -3,7 +3,7 @@ title: Underline
 second_title: Справочник по API Aspose.Words для .NET
 description: Указывает тип подчеркивания примененного к шрифту.
 type: docs
-weight: 6160
+weight: 6210
 url: /ru/net/aspose.words/underline/
 ---
 ## Underline enumeration

@@ -18,12 +18,12 @@ public class OleControl
 
 | 姓名 | 描述 |
 | --- | --- |
-| virtual [IsForms2OleControl](../../aspose.words.drawing.ole/olecontrol/isforms2olecontrol) { get; } | 如果控件是[`Forms2OleControl`](../forms2olecontrol)则返回 true。 |
+| virtual [IsForms2OleControl](../../aspose.words.drawing.ole/olecontrol/isforms2olecontrol) { get; } | 如果控件是[`Forms2OleControl`](../forms2olecontrol). |
 | [Name](../../aspose.words.drawing.ole/olecontrol/name) { get; } | 获取 ActiveX 控件的名称。 |
 
 ### 例子
 
-显示如何验证 ActiveX 控件的属性。
+演示如何验证 ActiveX 控件的属性。
 
 ```csharp
 Document doc = new Document(MyDir + "ActiveX controls.docx");

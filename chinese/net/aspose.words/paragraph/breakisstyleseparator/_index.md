@@ -16,7 +16,7 @@ public bool BreakIsStyleSeparator { get; }
 
 ### 例子
 
-显示如何将文本写入与 TOC 标题相同的行并使其不显示在 TOC 中。
+显示如何将文本写入与 TOC 标题相同的行，并使其不显示在 TOC 中。
 
 ```csharp
 Document doc = new Document();
@@ -25,16 +25,15 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.InsertTableOfContents("\\o \\h \\z \\u");
 builder.InsertBreak(BreakType.PageBreak);
 
- // 插入带有 TOC 将作为条目选取的样式的段落。
+// 插入带有 TOC 将作为条目选取的样式的段落。
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading1;
 
- // 这两个字符串都在同一个段落中，因此将显示在同一个目录条目中。
+// 这两个字符串都在同一个段落中，因此将显示在同一个 TOC 条目中。
 builder.Write("Heading 1. ");
 builder.Write("Will appear in the TOC. ");
 
- // 如果我们插入一个样式分隔符，我们可以在同一个段落中写更多的文本
- // 并使用不同的样式而不出现在 TOC.
- 中
+// 如果我们插入一个样式分隔符，我们可以在同一段落中写更多的文本
+// 并使用不同的样式而不显示在目录中。
 // 如果我们在分隔符后使用标题类型样式，我们可以从一个文档文本行中绘制多个 TOC 条目。
 builder.InsertStyleSeparator();
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Quote;

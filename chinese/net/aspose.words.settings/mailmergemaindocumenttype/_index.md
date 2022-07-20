@@ -3,7 +3,7 @@ title: MailMergeMainDocumentType
 second_title: Aspose.Words for .NET API 参考
 description: 指定邮件合并源文档的可能类型
 type: docs
-weight: 5490
+weight: 5540
 url: /zh/net/aspose.words.settings/mailmergemaindocumenttype/
 ---
 ## MailMergeMainDocumentType enumeration
@@ -20,16 +20,16 @@ public enum MailMergeMainDocumentType
 | --- | --- | --- |
 | NotAMergeDocument | `0` | 此文档不是邮件合并文档。 |
 | FormLetters | `1` | 指定邮件合并源文档是套用信函类型。 |
-| MailingLabels | `2` | 指定邮件合并源文档是邮件标签类型。 |
+| MailingLabels | `2` | 指定邮件合并源文档属于邮寄标签类型。 |
 | Envelopes | `4` | 指定邮件合并源文档是信封类型。 |
 | Catalog | `8` | 指定邮件合并源文档是目录类型。 |
 | Email | `16` | 指定邮件合并源文档是电子邮件消息类型。 |
-| Fax | `32` | 指定邮件合并源文档为传真类型。 |
+| Fax | `32` | 指定邮件合并源文档是传真类型的。 |
 | Default | `0` | 等于NotAMergeDocument |
 
 ### 例子
 
-显示如何使用 Office 数据源对象中的数据执行邮件合并。
+演示如何使用 Office 数据源对象中的数据执行邮件合并。
 
 ```csharp
 Document doc = new Document();
@@ -42,9 +42,9 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 builder.Writeln(": ");
 builder.InsertField("MERGEFIELD Message", "<Message>");
 
- // 创建一个ASCII文件形式的数据源，用“|”字符
+// 创建一个ASCII文件形式的数据源，用“|”特点
 // 充当分隔列的分隔符。第一行包含三列的名称，
- // 后面的每一行都是具有各自值的行。
+// 之后的每一行都是具有各自值的行。
 string[] lines = { "FirstName|LastName|Message",
     "John|Doe|Hello! This message was created with Aspose Words mail merge." };
 string dataSrcFilename = ArtifactsDir + "MailMerge.MailMergeSettings.DataSource.txt";
@@ -72,7 +72,7 @@ odso.FirstRowContainsColumnNames = true;
 Assert.AreNotSame(odso, odso.Clone());
 Assert.AreNotSame(settings, settings.Clone());
 
- // 在 Microsoft Word 中打开此文档将在显示内容之前执行邮件合并。 
+// 在 Microsoft Word 中打开此文档将在显示内容之前执行邮件合并。 
 doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ```
 

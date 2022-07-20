@@ -25,14 +25,14 @@ public sealed class CommentRangeEnd : Node
 | Имя | Описание |
 | --- | --- |
 | [CustomNodeId](../../aspose.words/node/customnodeid) { get; set; } | Указывает идентификатор пользовательского узла. |
-| virtual [Document](../../aspose.words/node/document) { get; } | Получает документ, которому принадлежит данный узел. |
-| [Id](../../aspose.words/commentrangeend/id) { get; set; } | Указывает идентификатор комментария, с которым связана эта область. |
+| virtual [Document](../../aspose.words/node/document) { get; } | Получает документ, которому принадлежит этот узел. |
+| [Id](../../aspose.words/commentrangeend/id) { get; set; } | Указывает идентификатор комментария, с которым связан этот регион. |
 | virtual [IsComposite](../../aspose.words/node/iscomposite) { get; } | Возвращает true, если этот узел может содержать другие узлы. |
 | [NextSibling](../../aspose.words/node/nextsibling) { get; } | Получает узел, следующий сразу за этим узлом. |
-| override [NodeType](../../aspose.words/commentrangeend/nodetype) { get; } | ВозвращаетCommentRangeEnd. |
+| override [NodeType](../../aspose.words/commentrangeend/nodetype) { get; } | ВозвращаетCommentRangeEnd . |
 | [ParentNode](../../aspose.words/node/parentnode) { get; } | Получает непосредственного родителя этого узла. |
 | [PreviousSibling](../../aspose.words/node/previoussibling) { get; } | Получает узел, непосредственно предшествующий этому узлу. |
-| [Range](../../aspose.words/node/range) { get; } | Возвращает объект **Range** , представляющий часть документа, содержащуюся в этом узле. |
+| [Range](../../aspose.words/node/range) { get; } | Возвращает **Диапазон** объект, представляющий часть документа, содержащегося в этом узле. |
 
 ## Методы
 
@@ -40,9 +40,9 @@ public sealed class CommentRangeEnd : Node
 | --- | --- |
 | override [Accept](../../aspose.words/commentrangeend/accept)(DocumentVisitor) | Принимает посетителя. |
 | [Clone](../../aspose.words/node/clone)(bool) | Создает дубликат узла. |
-| [GetAncestor](../../aspose.words/node/getancestor)(NodeType) | Получает первого предка указанного[`NodeType`](../nodetype). |
+| [GetAncestor](../../aspose.words/node/getancestor)(NodeType) | Получает первого предка указанного[`NodeType`](../nodetype) . |
 | [GetAncestor](../../aspose.words/node/getancestor)(Type) | Получает первого предка указанного типа объекта. |
-| virtual [GetText](../../aspose.words/node/gettext)() | Получает текст этого узла и всех его потомков. |
+| virtual [GetText](../../aspose.words/node/gettext)() | Получает текст этого узла и всех его дочерних элементов. |
 | [NextPreOrder](../../aspose.words/node/nextpreorder)(Node) | Получает следующий узел в соответствии с алгоритмом обхода дерева предварительного порядка. |
 | [PreviousPreOrder](../../aspose.words/node/previouspreorder)(Node) | Получает предыдущий узел в соответствии с алгоритмом обхода дерева предварительного порядка. |
 | [Remove](../../aspose.words/node/remove)() | Удаляет себя из родителя. |
@@ -51,13 +51,13 @@ public sealed class CommentRangeEnd : Node
 
 ### Примечания
 
-Чтобы создать комментарий, привязанный к области текста, необходимо создать[`Comment`](../comment)и затем создайте[`CommentRangeStart`](../commentrangestart)и[`CommentRangeEnd`](../commentrangeend)и установите их идентификаторы в одно и то же[`Id`](../comment/id)значение.
+Чтобы создать комментарий, привязанный к области текста, необходимо создать[`Comment`](../comment) and затем создайте[`CommentRangeStart`](../commentrangestart) а также[`CommentRangeEnd`](../commentrangeend)и установите их идентификаторы одинаковыми[`Id`](../comment/id) ценность.
 
-[`CommentRangeEnd`](../commentrangeend)является узлом встроенного уровня и может быть только потомком[`Paragraph`](../paragraph).
+[`CommentRangeEnd`](../commentrangeend) является узлом встроенного уровня и может быть только потомком[`Paragraph`](../paragraph).
 
 ### Примеры
 
-Показывает, как распечатать содержимое всех комментариев и диапазоны их комментариев с помощью посетителя документа.
+Показывает, как распечатать содержимое всех комментариев и их диапазоны комментариев с помощью посетителя документа.
 
 ```csharp
 public void CreateCommentsAndPrintAllInfo()
@@ -73,14 +73,14 @@ public void CreateCommentsAndPrintAllInfo()
 
     newComment.SetText("Comment regarding text.");
 
-     // Добавьте текст в документ, деформируйте его в диапазоне комментариев, а затем добавьте свой комментарий.
+    // Добавьте текст в документ, деформируйте его в диапазоне комментариев, а затем добавьте свой комментарий.
     Paragraph para = doc.FirstSection.Body.FirstParagraph;
     para.AppendChild(new CommentRangeStart(doc, newComment.Id));
     para.AppendChild(new Run(doc, "Commented text."));
     para.AppendChild(new CommentRangeEnd(doc, newComment.Id));
     para.AppendChild(newComment); 
 
-     // Добавляем два ответа на комментарий.
+    // Добавляем два ответа на комментарий.
     newComment.AddReply("John Doe", "JD", DateTime.Now, "New reply.");
     newComment.AddReply("John Doe", "JD", DateTime.Now, "Another reply.");
 
@@ -88,7 +88,7 @@ public void CreateCommentsAndPrintAllInfo()
 }
 
 /// <summary>
- /// Перебирает каждый комментарий верхнего уровня и печатает его диапазон комментариев, содержимое и ответы.
+/// Перебирает каждый комментарий верхнего уровня и печатает его диапазон комментариев, содержимое и ответы.
 /// </summary>
 private static void PrintAllCommentInfo(NodeCollection comments)
 {
@@ -97,17 +97,17 @@ private static void PrintAllCommentInfo(NodeCollection comments)
     // Перебираем все комментарии верхнего уровня. В отличие от комментариев типа ответа, комментарии верхнего уровня не имеют предка.
     foreach (Comment comment in comments.Where(c => ((Comment)c).Ancestor == null))
     {
-         // Сначала заходим в начало диапазона комментариев.
+        // Во-первых, посетите начало диапазона комментариев.
         CommentRangeStart commentRangeStart = (CommentRangeStart)comment.PreviousSibling.PreviousSibling.PreviousSibling;
         commentRangeStart.Accept(commentVisitor);
 
-         // Затем перейдите к комментарию и любым возможным ответам.
+        // Затем перейдите к комментарию и любым возможным ответам на него.
         comment.Accept(commentVisitor);
 
         foreach (Comment reply in comment.Replies)
             reply.Accept(commentVisitor);
 
-         // Наконец, переходим к концу диапазона комментариев, а затем печатаем текстовое содержимое посетителя.
+        // Наконец, перейдите в конец диапазона комментариев, а затем распечатайте текстовое содержимое посетителя.
         CommentRangeEnd commentRangeEnd = (CommentRangeEnd)comment.PreviousSibling;
         commentRangeEnd.Accept(commentVisitor);
 
@@ -116,7 +116,7 @@ private static void PrintAllCommentInfo(NodeCollection comments)
 }
 
 /// <summary>
- /// Выводит информацию и содержимое всех комментариев и диапазонов комментариев, встречающихся в документе.
+/// Выводит информацию и содержимое всех комментариев и диапазонов комментариев, встречающихся в документе.
 /// </summary>
 public class CommentInfoPrinter : DocumentVisitor
 {
@@ -127,7 +127,7 @@ public class CommentInfoPrinter : DocumentVisitor
     }
 
     /// <summary>
-     /// Получает простой текст документа, который накопил посетитель.
+    /// Получает обычный текст документа, который накопил посетитель.
     /// </summary>
     public string GetText()
     {
@@ -135,7 +135,7 @@ public class CommentInfoPrinter : DocumentVisitor
     }
 
     /// <summary>
-     /// Вызывается, когда в документе встречается узел Run.
+    /// Вызывается, когда в документе встречается узел Run.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {
@@ -145,7 +145,7 @@ public class CommentInfoPrinter : DocumentVisitor
     }
 
     /// <summary>
-     /// Вызывается, когда в документе встречается узел CommentRangeStart.
+    /// Вызывается, когда в документе встречается узел CommentRangeStart.
     /// </summary>
     public override VisitorAction VisitCommentRangeStart(CommentRangeStart commentRangeStart)
     {
@@ -157,7 +157,7 @@ public class CommentInfoPrinter : DocumentVisitor
     }
 
     /// <summary>
-     /// Вызывается, когда в документе встречается узел CommentRangeEnd.
+    /// Вызывается, когда в документе встречается узел CommentRangeEnd.
     /// </summary>
     public override VisitorAction VisitCommentRangeEnd(CommentRangeEnd commentRangeEnd)
     {
@@ -169,7 +169,7 @@ public class CommentInfoPrinter : DocumentVisitor
     }
 
     /// <summary>
-     /// Вызывается, когда в документе встречается узел Comment.
+    /// Вызывается, когда в документе встречается узел комментариев.
     /// </summary>
     public override VisitorAction VisitCommentStart(Comment comment)
     {
@@ -182,7 +182,7 @@ public class CommentInfoPrinter : DocumentVisitor
     }
 
     /// <summary>
-     /// Вызывается, когда в документе заканчивается посещение узла Comment.
+    /// Вызывается, когда в документе заканчивается посещение узла комментариев.
     /// </summary>
     public override VisitorAction VisitCommentEnd(Comment comment)
     {
@@ -194,9 +194,9 @@ public class CommentInfoPrinter : DocumentVisitor
     }
 
     /// <summary>
-     /// Добавляем строку в StringBuilder и делаем отступ в зависимости от того, насколько глубоко посетитель находится в дереве документа.
+    /// Добавляем строку в StringBuilder и делаем отступ в зависимости от того, насколько глубоко посетитель находится в дереве документа.
     /// </summary>
-     /// <param name="text"></param>
+    /// <param name="text"></param>
     private void IndentAndAppendLine(string text)
     {
         for (int i = 0; i < mDocTraversalDepth; i++)

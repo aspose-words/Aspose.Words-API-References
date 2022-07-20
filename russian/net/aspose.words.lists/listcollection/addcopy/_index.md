@@ -1,14 +1,14 @@
 ---
 title: AddCopy
 second_title: Справочник по API Aspose.Words для .NET
-description: Создает новый список копируя указанный список и добавляя его к коллекции списков в документе.
+description: Создает новый список копируя указанный список и добавляя его в коллекцию списков в документе.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.lists/listcollection/addcopy/
 ---
 ## ListCollection.AddCopy method
 
-Создает новый список, копируя указанный список и добавляя его к коллекции списков в документе.
+Создает новый список, копируя указанный список и добавляя его в коллекцию списков в документе.
 
 ```csharp
 public List AddCopy(List srcList)
@@ -16,57 +16,52 @@ public List AddCopy(List srcList)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| srcList | List | Исходный список для копирования. |
+| srcList | List | Список источников для копирования. |
 
 ### Возвращаемое значение
 
-Недавно созданный список.
+Только что созданный список.
 
 ### Примечания
 
 Список источников может быть из любого документа. Если исходный список принадлежит другому документу, копия списка создается и добавляется в текущий документ.
 
-Если исходный список является ссылкой или определением стиля списка, вновь созданный список не связан с исходным списком стиль.
+Если исходный список является ссылкой или определением стиля списка, вновь созданный список не связан с исходным стилем списка.
 
 ### Примеры
 
 Показывает, как создать документ с образцом всех списков из другого документа.
 
 ```csharp
-Document doc = new Document();
+public void PrintOutAllLists()
+{
+    Document srcDoc = new Document(MyDir + "Rendering.docx");
 
-// Список позволяет нам организовывать и оформлять наборы абзацев префиксными символами и отступами.
- // Мы можем создавать вложенные списки, увеличивая уровень отступа. 
- // Мы можем начать и закончить список, используя свойство "ListFormat" конструктора документов. 
- // Каждый абзац, который мы добавляем между началом и концом списка, станет элементом списка.
- // Создайте список из шаблона Microsoft Word и настройте его первый уровень списка.
-List list1 = doc.Lists.Add(ListTemplate.NumberArabicParenthesis);
-list1.ListLevels[0].Font.Color = Color.Red;
-list1.ListLevels[0].Alignment = ListLevelAlignment.Right;
+    Document dstDoc = new Document();
+    DocumentBuilder builder = new DocumentBuilder(dstDoc);
 
- // Применяем наш список к некоторым абзацам.
-DocumentBuilder builder = new DocumentBuilder(doc);
+    foreach (List srcList in srcDoc.Lists)
+    {
+        List dstList = dstDoc.Lists.AddCopy(srcList);
+        AddListSample(builder, dstList);
+    }
 
-builder.Writeln("List 1 starts below:");
-builder.ListFormat.List = list1;
-builder.Writeln("Item 1");
-builder.Writeln("Item 2");
-builder.ListFormat.RemoveNumbers();
+    dstDoc.Save(ArtifactsDir + "Lists.PrintOutAllLists.docx");
+}
 
- // Мы можем добавить копию существующего списка в список документа collection
- // для создания аналогичного списка без внесения изменений в исходный.
-List list2 = doc.Lists.AddCopy(list1);
-list2.ListLevels[0].Font.Color = Color.Blue;
-list2.ListLevels[0].StartAt = 10;
+private static void AddListSample(DocumentBuilder builder, List list)
+{
+    builder.Writeln("Sample formatting of list with ListId:" + list.ListId);
+    builder.ListFormat.List = list;
+    for (int i = 0; i < list.ListLevels.Count; i++)
+    {
+        builder.ListFormat.ListLevelNumber = i;
+        builder.Writeln("Level " + i);
+    }
 
- // Применяем второй список к новым абзацам.
-builder.Writeln("List 2 starts below:");
-builder.ListFormat.List = list2;
-builder.Writeln("Item 1");
-builder.Writeln("Item 2");
-builder.ListFormat.RemoveNumbers();
-
-doc.Save(ArtifactsDir + "Lists.RestartNumberingUsingListCopy.docx");
+    builder.ListFormat.RemoveNumbers();
+    builder.Writeln();
+}
 ```
 
 Показывает, как перезапустить нумерацию в списке путем копирования списка.
@@ -75,15 +70,15 @@ doc.Save(ArtifactsDir + "Lists.RestartNumberingUsingListCopy.docx");
 Document doc = new Document();
 
 // Список позволяет нам организовывать и оформлять наборы абзацев префиксными символами и отступами.
- // Мы можем создавать вложенные списки, увеличивая уровень отступа. 
- // Мы можем начать и закончить список, используя свойство "ListFormat" конструктора документов. 
- // Каждый абзац, который мы добавляем между началом и концом списка, станет элементом списка.
- // Создайте список из шаблона Microsoft Word и настройте его первый уровень списка.
+// Мы можем создавать вложенные списки, увеличивая уровень отступа. 
+// Мы можем начать и закончить список, используя свойство "ListFormat" конструктора документов. 
+// Каждый абзац, который мы добавляем между началом и концом списка, станет элементом списка.
+// Создайте список из шаблона Microsoft Word и настройте его первый уровень списка.
 List list1 = doc.Lists.Add(ListTemplate.NumberArabicParenthesis);
 list1.ListLevels[0].Font.Color = Color.Red;
 list1.ListLevels[0].Alignment = ListLevelAlignment.Right;
 
- // Применяем наш список к некоторым абзацам.
+// Применяем наш список к некоторым абзацам.
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Writeln("List 1 starts below:");
@@ -92,13 +87,13 @@ builder.Writeln("Item 1");
 builder.Writeln("Item 2");
 builder.ListFormat.RemoveNumbers();
 
- // Мы можем добавить копию существующего списка в список документа collection
- // для создания аналогичного списка без внесения изменений в исходный.
+// Мы можем добавить копию существующего списка в коллекцию списков документа
+// для создания аналогичного списка без внесения изменений в исходный.
 List list2 = doc.Lists.AddCopy(list1);
 list2.ListLevels[0].Font.Color = Color.Blue;
 list2.ListLevels[0].StartAt = 10;
 
- // Применяем второй список к новым абзацам.
+// Применяем второй список к новым абзацам.
 builder.Writeln("List 2 starts below:");
 builder.ListFormat.List = list2;
 builder.Writeln("Item 1");

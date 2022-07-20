@@ -1,14 +1,14 @@
 ---
 title: BookmarkStart
 second_title: Aspose.Words for .NET API 参考
-description: 初始化BookmarkStartaspose.words/bookmarkstart类的新实例
+description: 初始化BookmarkStartaspose.words/bookmarkstart类.
 type: docs
 weight: 10
 url: /zh/net/aspose.words/bookmarkstart/bookmarkstart/
 ---
 ## BookmarkStart constructor
 
-初始化[`BookmarkStart`](../../bookmarkstart)类的新实例。
+初始化[`BookmarkStart`](../../bookmarkstart)类.
 
 ```csharp
 public BookmarkStart(DocumentBase doc, string name)
@@ -16,32 +16,32 @@ public BookmarkStart(DocumentBase doc, string name)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| doc | DocumentBase | 所有者文档。 |
+| doc | DocumentBase | 所有者文件。 |
 | name | String | 书签的名称。不能为空。 |
 
 ### 例子
 
-显示如何添加书签和更新其内容。
+展示如何添加书签和更新其内容。
 
 ```csharp
 public void CreateUpdateAndPrintBookmarks()
 {
-     // 创建一个包含三个书签的文档，然后使用自定义文档访问者实现来打印它们的内容。
+    // 创建一个包含三个书签的文档，然后使用自定义文档访问者实现来打印其内容。
     Document doc = CreateDocumentWithBookmarks(3);
     BookmarkCollection bookmarks = doc.Range.Bookmarks;
 
     PrintAllBookmarkInfo(bookmarks);
 
-     // 书签集合中可以通过索引或名称访问书签，并且可以更新它们的名称。
+    // 书签集合中可以通过索引或名称访问书签，并且可以更新它们的名称。
     bookmarks[0].Name = $"{bookmarks[0].Name}_NewName";
     bookmarks["MyBookmark_2"].Text = $"Updated text contents of {bookmarks[1].Name}";
 
-     // 再次打印所有书签以查看更新的值。
+    // 再次打印所有书签以查看更新的值。
     PrintAllBookmarkInfo(bookmarks);
 }
 
 /// <summary>
- /// 创建具有给定数量书签的文档。
+/// 创建一个具有给定数量书签的文档。
 /// </summary>
 private static Document CreateDocumentWithBookmarks(int numberOfBookmarks)
 {
@@ -63,7 +63,7 @@ private static Document CreateDocumentWithBookmarks(int numberOfBookmarks)
 }
 
 /// <summary>
- /// 使用迭代器和访问者打印集合中每个书签的信息。
+/// 使用迭代器和访问者打印集合中每个书签的信息。
 /// </summary>
 private static void PrintAllBookmarkInfo(BookmarkCollection bookmarks)
 {
@@ -88,7 +88,7 @@ private static void PrintAllBookmarkInfo(BookmarkCollection bookmarks)
 }
 
 /// <summary>
- /// 将每个访问过的书签的内容打印到控制台。
+/// 将每个访问过的书签的内容打印到控制台。
 /// </summary>
 public class BookmarkInfoPrinter : DocumentVisitor
 {

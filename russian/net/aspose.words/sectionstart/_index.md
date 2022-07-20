@@ -3,7 +3,7 @@ title: SectionStart
 second_title: Справочник по API Aspose.Words для .NET
 description: Тип разрыва в начале раздела.
 type: docs
-weight: 5420
+weight: 5470
 url: /ru/net/aspose.words/sectionstart/
 ---
 ## SectionStart enumeration
@@ -30,45 +30,45 @@ public enum SectionStart
 
 ```csharp
 Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-builder.Writeln("This text is in section 1.");
 
-// Типы разрыва раздела определяют, как новый раздел отделяется от предыдущего раздела.
-// Ниже приведены пять типов разрывов разделов.
-// 1 - Начинает следующий раздел на новой странице:
-builder.InsertBreak(BreakType.SectionBreakNewPage);
-builder.Writeln("This text is in section 2.");
+// Пустой документ содержит один раздел, одно тело и один абзац.
+// Вызовите метод "RemoveAllChildren", чтобы удалить все эти узлы,
+// и получаем узел документа без дочерних элементов.
+doc.RemoveAllChildren();
 
-Assert.AreEqual(SectionStart.NewPage, doc.Sections[1].PageSetup.SectionStart);
+// Этот документ теперь не имеет составных дочерних узлов, к которым мы можем добавить содержимое.
+// Если мы хотим отредактировать его, нам нужно будет повторно заполнить его коллекцию узлов.
+// Сначала создайте новый раздел, а затем добавьте его как дочерний к корневому узлу документа.
+Section section = new Section(doc);
+doc.AppendChild(section);
 
-// 2 - Начинает следующий раздел на текущей странице:
-builder.InsertBreak(BreakType.SectionBreakContinuous);
-builder.Writeln("This text is in section 3.");
+// Установите некоторые свойства настройки страницы для раздела.
+section.PageSetup.SectionStart = SectionStart.NewPage;
+section.PageSetup.PaperSize = PaperSize.Letter;
 
-Assert.AreEqual(SectionStart.Continuous, doc.Sections[2].PageSetup.SectionStart);
+// Разделу нужно тело, которое будет содержать и отображать все его содержимое
+// на странице между шапкой и нижним колонтитулом раздела.
+Body body = new Body(doc);
+section.AppendChild(body);
 
-// 3 - Начинает следующий раздел на новой четной странице:
-builder.InsertBreak(BreakType.SectionBreakEvenPage);
-builder.Writeln("This text is in section 4.");
+// Создать абзац, установить некоторые свойства форматирования, а затем добавить его в тело как дочерний элемент.
+Paragraph para = new Paragraph(doc);
 
-Assert.AreEqual(SectionStart.EvenPage, doc.Sections[3].PageSetup.SectionStart);
+para.ParagraphFormat.StyleName = "Heading 1";
+para.ParagraphFormat.Alignment = ParagraphAlignment.Center;
 
-// 4 - Начинает следующий раздел на новой нечетной странице:
-builder.InsertBreak(BreakType.SectionBreakOddPage);
-builder.Writeln("This text is in section 5.");
+body.AppendChild(para);
 
-Assert.AreEqual(SectionStart.OddPage, doc.Sections[4].PageSetup.SectionStart);
+// Наконец, добавьте содержимое для создания документа. Создать прогон,
+// установить его внешний вид и содержимое, а затем добавить его как дочерний элемент к абзацу.
+Run run = new Run(doc);
+run.Text = "Hello World!";
+run.Font.Color = Color.Red;
+para.AppendChild(run);
 
-// 5 - Начинает следующий раздел в новом столбце:
-TextColumnCollection columns = builder.PageSetup.TextColumns;
-columns.SetCount(2);
+Assert.AreEqual("Hello World!", doc.GetText().Trim());
 
-builder.InsertBreak(BreakType.SectionBreakNewColumn);
-builder.Writeln("This text is in section 6.");
-
-Assert.AreEqual(SectionStart.NewColumn, doc.Sections[5].PageSetup.SectionStart);
-
-doc.Save(ArtifactsDir + "PageSetup.SetSectionStart.docx");
+doc.Save(ArtifactsDir + "Section.CreateManually.docx");
 ```
 
 Показывает, как указать, как новый раздел отделяется от предыдущего.

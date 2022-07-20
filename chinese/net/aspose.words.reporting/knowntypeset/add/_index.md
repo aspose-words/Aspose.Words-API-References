@@ -1,26 +1,26 @@
 ---
 title: Add
 second_title: Aspose.Words for .NET API 参考
-description: 将指定的Type对象添加到集合中在 中抛出ArgumentException以下情况
+description: 添加指定的Type反对集合投掷ArgumentException在 以下情况
 type: docs
 weight: 20
 url: /zh/net/aspose.words.reporting/knowntypeset/add/
 ---
 ## KnownTypeSet.Add method
 
-将指定的Type对象添加到集合中。在 中抛出ArgumentException以下情况:
+添加指定的Type反对集合。投掷ArgumentException在 以下情况：
 
 -*type*一片空白。
 
--*type*表示 void 类型。
+-*type*表示空类型。
 
--*type*表示不可见类型，即非公共类型或公共嵌套类型 有一个非公共的外部类型。
+-*type*表示不可见类型，即非公共类型或具有非公共外部类型的公共嵌套类型 。
 
 -*type*表示泛型类型。
 
 -*type*表示数组类型。
 
--*type*已添加到集合中。
+-*type*已经添加到集合中。
 
 ```csharp
 public void Add(Type type)
@@ -28,7 +28,7 @@ public void Add(Type type)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| type | Type | AType要添加的对象。 |
+| type | Type | 一个Type要添加的对象。 |
 
 ### 也可以看看
 

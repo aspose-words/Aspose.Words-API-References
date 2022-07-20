@@ -3,7 +3,7 @@ title: FieldEQ
 second_title: Справочник по API Aspose.Words для .NET
 description: Реализует поле EQ.
 type: docs
-weight: 1640
+weight: 1680
 url: /ru/net/aspose.words.fields/fieldeq/
 ---
 ## FieldEQ class
@@ -26,11 +26,11 @@ public class FieldEQ : Field
 | --- | --- |
 | [DisplayResult](../../aspose.words.fields/field/displayresult) { get; } | Получает текст, представляющий результат отображаемого поля. |
 | [End](../../aspose.words.fields/field/end) { get; } | Получает узел, представляющий конец поля. |
-| [Format](../../aspose.words.fields/field/format) { get; } | Получает объект[`FieldFormat`](../fieldformat), предоставляющий типизированный доступ к форматированию поля. |
-| [IsDirty](../../aspose.words.fields/field/isdirty) { get; set; } | Получает или устанавливает, является ли текущий результат поля более неправильным (устаревшим) из-за других изменений, внесенных в документ. |
-| [IsLocked](../../aspose.words.fields/field/islocked) { get; set; } | Получает или устанавливает, заблокировано ли поле (не должно пересчитывать его результат). |
+| [Format](../../aspose.words.fields/field/format) { get; } | Получает[`FieldFormat`](../fieldformat) объект, предоставляющий типизированный доступ к форматированию поля. |
+| [IsDirty](../../aspose.words.fields/field/isdirty) { get; set; } | Получает или устанавливает, является ли текущий результат поля более неверным (устаревшим) из-за других изменений, внесенных в документ. |
+| [IsLocked](../../aspose.words.fields/field/islocked) { get; set; } | Получает или задает, заблокировано ли поле (не следует пересчитывать его результат). |
 | [LocaleId](../../aspose.words.fields/field/localeid) { get; set; } | Получает или задает LCID поля. |
-| [Result](../../aspose.words.fields/field/result) { get; set; } | Получает или задает текст, который находится между разделителем полей и концом поля. |
+| [Result](../../aspose.words.fields/field/result) { get; set; } | Получает или задает текст, который находится между разделителем поля и концом поля. |
 | [Separator](../../aspose.words.fields/field/separator) { get; } | Получает узел, представляющий разделитель полей. Может быть нулевым. |
 | [Start](../../aspose.words.fields/field/start) { get; } | Получает узел, представляющий начало поля. |
 | virtual [Type](../../aspose.words.fields/field/type) { get; } | Получает тип поля Microsoft Word. |
@@ -39,9 +39,9 @@ public class FieldEQ : Field
 
 | Имя | Описание |
 | --- | --- |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode)() | Возвращает текст между началом поля и разделителем полей (или концом поля, если разделителя нет). Включены как код поля, так и результат дочерних полей. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode)() | Возвращает текст между началом поля и разделителем поля (или концом поля, если разделителя нет). Включены как код поля, так и результат поля дочерних полей. |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode)(bool) | Возвращает текст между началом поля и разделителем полей (или концом поля, если разделителя нет). |
-| [Remove](../../aspose.words.fields/field/remove)() | Удаляет поле из документа. Возвращает узел сразу после поля. Если конец поля является последним дочерним элементом его родительского узла, возвращает его родительский абзац. Если поле уже удалено, возвращает **null** . |
+| [Remove](../../aspose.words.fields/field/remove)() | Удаляет поле из документа. Возвращает узел сразу после поля. Если конец поля является последним child его родительского узла, возвращает его родительский абзац. Если поле уже удалено, возвращает **нулевой** . |
 | [Unlink](../../aspose.words.fields/field/unlink)() | Выполняет развязку поля. |
 | [Update](../../aspose.words.fields/field/update)() | Выполняет обновление поля. Выдает, если поле уже обновляется. |
 | [Update](../../aspose.words.fields/field/update)(bool) | Выполняет обновление поля. Выдает, если поле уже обновляется. |
@@ -62,7 +62,7 @@ public class FieldEQ : Field
 
     // Здесь мы используем конструктор документов для вставки поля эквалайзера с переключателем "\f", который соответствует "Дробь".
     // Мы будем передавать значения 1 и 4 в качестве аргументов и не будем использовать никаких опций.
-    // В этом поле будет отображаться дробь с 1 в качестве числителя и 4 в качестве знаменателя.
+    // В этом поле будет отображаться дробь с 1 в числителе и 4 в знаменателе.
     FieldEQ field = InsertFieldEQ(builder, @"\f(1,4)");
 
     Assert.AreEqual(@" EQ \f(1,4)", field.GetFieldCode());
@@ -99,7 +99,7 @@ public class FieldEQ : Field
     // 8 - Переключатель нижнего/верхнего индекса "/s", сначала как верхний индекс, а затем как нижний индекс:
     InsertFieldEQ(builder, @"\s \up8(Superscript) Text \s \do8(Subscript)");
 
-    // 9 - Переключатель поля "\x", с линиями сверху, снизу, слева и справа от входа:
+    // 9 - Переключатель поля "\x", с линиями сверху, снизу, слева и справа от ввода:
     InsertFieldEQ(builder, @"\x \to \bo \le \ri(5)");
 
     // Еще несколько сложных комбинаций.

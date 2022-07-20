@@ -1,14 +1,14 @@
 ---
 title: LineBetween
 second_title: Справочник по API Aspose.Words для .NET
-description: Когда true добавляет вертикальную линию между столбцами.
+description: Когда истинный  добавляет вертикальную линию между столбцами.
 type: docs
 weight: 40
 url: /ru/net/aspose.words/textcolumncollection/linebetween/
 ---
 ## TextColumnCollection.LineBetween property
 
-Когда **true** добавляет вертикальную линию между столбцами.
+Когда **истинный** , добавляет вертикальную линию между столбцами.
 
 ```csharp
 public bool LineBetween { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: PageLayoutCallbackArgs
 second_title: Aspose.Words for .NET API 参考
-description: 传入Notify./ipagelayoutcallback/notify 的参数
+description: 传入的参数Notify./ipagelayoutcallback/notify
 type: docs
-weight: 3110
+weight: 3160
 url: /zh/net/aspose.words.layout/pagelayoutcallbackargs/
 ---
 ## PageLayoutCallbackArgs class
 
-传入[`Notify`](../ipagelayoutcallback/notify) 的参数
+传入的参数[`Notify`](../ipagelayoutcallback/notify)
 
 ```csharp
 public class PageLayoutCallbackArgs

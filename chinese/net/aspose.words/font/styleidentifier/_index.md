@@ -1,14 +1,14 @@
 ---
 title: StyleIdentifier
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置应用于此格式的字符样式的与区域无关的样式标识符
+description: 获取或设置应用于此格式的字符样式的区域设置独立样式标识符
 type: docs
 weight: 410
 url: /zh/net/aspose.words/font/styleidentifier/
 ---
 ## Font.StyleIdentifier property
 
-获取或设置应用于此格式的字符样式的与区域无关的样式标识符。
+获取或设置应用于此格式的字符样式的区域设置独立样式标识符。
 
 ```csharp
 public StyleIdentifier StyleIdentifier { get; set; }

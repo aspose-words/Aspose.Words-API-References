@@ -1,14 +1,14 @@
 ---
 title: Image
 second_title: Справочник по API Aspose.Words для .NET
-description: Указывает изображение которое модуль слияния должен вставить в документ.
+description: Указывает изображение которое механизм слияния должен вставить в документ.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.mailmerging/imagefieldmergingargs/image/
 ---
 ## ImageFieldMergingArgs.Image property
 
-Указывает изображение, которое модуль слияния должен вставить в документ.
+Указывает изображение, которое механизм слияния должен вставить в документ.
 
 ```csharp
 public Image Image { get; set; }

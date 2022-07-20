@@ -3,7 +3,7 @@ title: ImageBinarizationMethod
 second_title: Aspose.Words for .NET API 参考
 description: 指定用于二值化图像的方法
 type: docs
-weight: 4890
+weight: 4940
 url: /zh/net/aspose.words.saving/imagebinarizationmethod/
 ---
 ## ImageBinarizationMethod enumeration
@@ -23,7 +23,7 @@ public enum ImageBinarizationMethod
 
 ### 例子
 
-显示使用 Floyd-Steinberg 方法渲染 TIFF 图像时如何设置 TIFF 二值化错误阈值。
+演示在使用 Floyd-Steinberg 方法渲染 TIFF 图像时如何设置 TIFF 二值化错误阈值。
 
 ```csharp
 Document doc = new Document();

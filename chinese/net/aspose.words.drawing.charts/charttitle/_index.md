@@ -18,13 +18,13 @@ public class ChartTitle
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Overlay](../../aspose.words.drawing.charts/charttitle/overlay) { get; set; } | 确定是否允许其他图表元素与标题重叠。 默认情况下，覆盖是假的。 |
-| [Show](../../aspose.words.drawing.charts/charttitle/show) { get; set; } | 确定是否应为此图表显示标题。 默认值为真。 |
-| [Text](../../aspose.words.drawing.charts/charttitle/text) { get; set; } | 获取或设置图表标题的文本。 如果指定 null 或空值，将显示自动生成的标题。 |
+| [Overlay](../../aspose.words.drawing.charts/charttitle/overlay) { get; set; } | 确定是否允许其他图表元素重叠 title. 默认情况下覆盖为 false。 |
+| [Show](../../aspose.words.drawing.charts/charttitle/show) { get; set; } | 确定是否应为此图表显示标题。 默认值为 true。 |
+| [Text](../../aspose.words.drawing.charts/charttitle/text) { get; set; } | 获取或设置图表标题的文本。 如果指定null或空值，将显示自动生成的标题。 |
 
 ### 例子
 
-显示如何插入图表并设置标题。
+显示如何插入图表和设置标题。
 
 ```csharp
 Document doc = new Document();

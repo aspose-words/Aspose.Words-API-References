@@ -16,7 +16,7 @@ public Color BackColor { get; set; }
 
 ### Примечания
 
-Значение по умолчанию для[`Shape`](../../shape)is White.
+Значение по умолчанию для[`Shape`](../../shape)White.
 
 ### Примеры
 

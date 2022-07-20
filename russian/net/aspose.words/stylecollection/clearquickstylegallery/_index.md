@@ -1,14 +1,14 @@
 ---
 title: ClearQuickStyleGallery
 second_title: Справочник по API Aspose.Words для .NET
-description: Удаляет все стили из панели быстрой галереи стилей.
+description: Удаляет все стили из панели галереи быстрых стилей.
 type: docs
 weight: 80
 url: /ru/net/aspose.words/stylecollection/clearquickstylegallery/
 ---
 ## StyleCollection.ClearQuickStyleGallery method
 
-Удаляет все стили из панели быстрой галереи стилей.
+Удаляет все стили из панели галереи быстрых стилей.
 
 ```csharp
 public void ClearQuickStyleGallery()
@@ -16,7 +16,7 @@ public void ClearQuickStyleGallery()
 
 ### Примеры
 
-Показывает, как удалять стили из панели "Галерея стилей".
+Показывает, как удалять стили с панели «Галерея стилей».
 
 ```csharp
 Document doc = new Document();

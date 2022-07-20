@@ -21,7 +21,7 @@ public class Bookmark
 | [BookmarkEnd](../../aspose.words/bookmark/bookmarkend) { get; } | Получает узел, представляющий конец закладки. |
 | [BookmarkStart](../../aspose.words/bookmark/bookmarkstart) { get; } | Получает узел, представляющий начало закладки. |
 | [FirstColumn](../../aspose.words/bookmark/firstcolumn) { get; } | Получает отсчитываемый от нуля индекс первого столбца диапазона столбцов таблицы, связанного с закладкой. |
-| [IsColumn](../../aspose.words/bookmark/iscolumn) { get; } | Возвращает **true** , если эта закладка является закладкой столбца таблицы. |
+| [IsColumn](../../aspose.words/bookmark/iscolumn) { get; } | Возвращает **истинный** если эта закладка является закладкой столбца таблицы. |
 | [LastColumn](../../aspose.words/bookmark/lastcolumn) { get; } | Получает отсчитываемый от нуля индекс последнего столбца диапазона столбцов таблицы, связанного с закладкой. |
 | [Name](../../aspose.words/bookmark/name) { get; set; } | Получает или задает имя закладки. |
 | [Text](../../aspose.words/bookmark/text) { get; set; } | Получает или задает текст, заключенный в закладку. |
@@ -34,7 +34,7 @@ public class Bookmark
 
 ### Примечания
 
-[`Bookmark`](../bookmark)является "фасадом " объект, который инкапсулирует два узла[`BookmarkStart`](./bookmarkstart) и[`BookmarkEnd`](./bookmarkend)в дерева документов и позволяет работать с закладкой как с единым объектом.
+[`Bookmark`](../bookmark) это объект «фасад», который инкапсулирует два узла[`BookmarkStart`](./bookmarkstart) и[`BookmarkEnd`](./bookmarkend) в дереве документа и позволяет работать с закладкой как с единым объектом.
 
 ### Примеры
 
@@ -43,22 +43,22 @@ public class Bookmark
 ```csharp
 public void CreateUpdateAndPrintBookmarks()
 {
-     // Создайте документ с тремя закладками, затем используйте пользовательскую реализацию посетителя документа для печати их содержимого.
+    // Создайте документ с тремя закладками, затем используйте пользовательскую реализацию посетителя документа для печати их содержимого.
     Document doc = CreateDocumentWithBookmarks(3);
     BookmarkCollection bookmarks = doc.Range.Bookmarks;
 
     PrintAllBookmarkInfo(bookmarks);
 
-     // Доступ к закладкам в коллекции закладок можно получить по индексу или имени, а их имена можно обновить.
+    // Доступ к закладкам в коллекции закладок можно получить по индексу или имени, и их имена можно обновить.
     bookmarks[0].Name = $"{bookmarks[0].Name}_NewName";
     bookmarks["MyBookmark_2"].Text = $"Updated text contents of {bookmarks[1].Name}";
 
-     // Печатаем все закладки еще раз, чтобы увидеть обновленные значения.
+    // Печатаем все закладки еще раз, чтобы увидеть обновленные значения.
     PrintAllBookmarkInfo(bookmarks);
 }
 
 /// <summary>
- /// Создаем документ с заданным количеством закладок.
+/// Создать документ с заданным количеством закладок.
 /// </summary>
 private static Document CreateDocumentWithBookmarks(int numberOfBookmarks)
 {
@@ -80,7 +80,7 @@ private static Document CreateDocumentWithBookmarks(int numberOfBookmarks)
 }
 
 /// <summary>
- /// Используйте итератор и посетитель для вывода информации о каждой закладке в коллекции.
+/// Используйте итератор и посетитель для вывода информации о каждой закладке в коллекции.
 /// </summary>
 private static void PrintAllBookmarkInfo(BookmarkCollection bookmarks)
 {
@@ -105,7 +105,7 @@ private static void PrintAllBookmarkInfo(BookmarkCollection bookmarks)
 }
 
 /// <summary>
- /// Выводит содержимое каждой посещенной закладки на консоль.
+/// Выводит содержимое каждой посещенной закладки на консоль.
 /// </summary>
 public class BookmarkInfoPrinter : DocumentVisitor
 {

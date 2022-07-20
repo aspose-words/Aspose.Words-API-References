@@ -1,14 +1,14 @@
 ---
 title: AsposeWordsPrintDocument
 second_title: Справочник по API Aspose.Words для .NET
-description: Обеспечивает реализацию по умолчанию для печатиDocument../aspose.words/documentв рамках печати .NET рамки.
+description: Обеспечивает реализацию по умолчанию для печатиDocument../aspose.words/document в среде печати .NET.
 type: docs
-weight: 4230
+weight: 4280
 url: /ru/net/aspose.words.rendering/asposewordsprintdocument/
 ---
 ## AsposeWordsPrintDocument class
 
-Обеспечивает реализацию по умолчанию для печати[`Document`](../../aspose.words/document)в рамках печати .NET рамки.
+Обеспечивает реализацию по умолчанию для печати[`Document`](../../aspose.words/document) в среде печати .NET.
 
 ```csharp
 public class AsposeWordsPrintDocument : PrintDocument
@@ -28,11 +28,11 @@ public class AsposeWordsPrintDocument : PrintDocument
 
 ### Примечания
 
-[`AsposeWordsPrintDocument`](../asposewordsprintdocument)переопределяетPrintEventArgs) для печати диапазона страниц, указанного вPrinterSettings.
+[`AsposeWordsPrintDocument`](../asposewordsprintdocument) отменяетPrintEventArgs) для печати диапазона страниц, указанного вPrinterSettings.
 
-Один документ Word может состоять из нескольких разделов, в которых указываются страницы разного размера, ориентация и лотки для бумаги.[`AsposeWordsPrintDocument`](../asposewordsprintdocument)переопределяет QueryPageSettingsEventArgs)для правильного выбора размера бумаги, ориентации и источника бумаги при печати документа Word.
+Один документ Word может состоять из нескольких разделов, в которых указаны страницы разных размеров, ориентации и лотков для бумаги.[`AsposeWordsPrintDocument`](../asposewordsprintdocument) переопределяет QueryPageSettingsEventArgs) чтобы правильно выбрать размер бумаги, ориентацию и источник бумаги при печати документа Word.
 
-Microsoft Word хранит значения для лотков для бумаги в документе Word и, следовательно, печатает только на той же модели принтера, что и был выбран, когда пользователь указал лотки для бумаги , что приведет к печати из правильных лотков. Если вы печатаете документ на другом принтере, то, скорее всего, будет использоваться лоток для бумаги по умолчанию, а не лотки, указанные в документе.
+Microsoft Word хранит значения лотков для бумаги, специфичные для принтера, в документе Word, и поэтому только для печати на той же модели принтера, которая была выбрана, когда пользователь указал лотки для бумаги , что приведет к печати из правильных лотков. Если вы печатаете документ на другом принтере, то скорее всего будет использоваться лоток для бумаги по умолчанию, а не лотки, указанные в документе.
 
 ### Смотрите также
 

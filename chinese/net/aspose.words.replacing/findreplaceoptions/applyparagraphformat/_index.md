@@ -16,7 +16,7 @@ public ParagraphFormat ApplyParagraphFormat { get; }
 
 ### 例子
 
-显示如何为查找和替换操作找到匹配项的段落添加格式。
+演示如何为查找和替换操作找到匹配项的段落添加格式。
 
 ```csharp
 Document doc = new Document();

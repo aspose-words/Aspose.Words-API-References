@@ -3,7 +3,7 @@ title: EmfPlusDualRenderingMode
 second_title: Справочник по API Aspose.Words для .NET
 description: Указывает как Aspose.Words должен отображать метафайлы EMF Dual.
 type: docs
-weight: 4670
+weight: 4720
 url: /ru/net/aspose.words.saving/emfplusdualrenderingmode/
 ---
 ## EmfPlusDualRenderingMode enumeration
@@ -18,7 +18,7 @@ public enum EmfPlusDualRenderingMode
 
 | Имя | Ценность | Описание |
 | --- | --- | --- |
-| EmfPlusWithFallback | `0` | Aspose.Words пытается визуализировать EMF+ часть метафайла EMF+ Dual. Если некоторые из записей EMF+ не поддерживаются , то Aspose.Words отображает EMF как часть метафайла EMF+ Dual. |
+| EmfPlusWithFallback | `0` | Aspose.Words пытается визуализировать EMF+ часть метафайла EMF+ Dual. Если некоторые записи EMF+ не поддерживаются , Aspose.Words отображает EMF как часть метафайла EMF+ Dual. |
 | EmfPlus | `1` | Aspose.Words визуализирует EMF+ часть метафайла EMF+ Dual. |
 | Emf | `2` | Aspose.Words визуализирует EMF как часть метафайла EMF+ Dual. |
 

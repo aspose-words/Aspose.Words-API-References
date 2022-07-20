@@ -1,14 +1,14 @@
 ---
 title: ListItems
 second_title: Aspose.Words for .NET API 参考
-description: 获取SdtListItemCollectionaspose.words.markup/sdtlistitemcollection与此关联 SDT 
+description: 获取SdtListItemCollectionaspose.words.markup/sdtlistitemcollection与此相关 SDT
 type: docs
 weight: 180
 url: /zh/net/aspose.words.markup/structureddocumenttag/listitems/
 ---
 ## StructuredDocumentTag.ListItems property
 
-获取[`SdtListItemCollection`](../../sdtlistitemcollection)与此关联 **SDT** 。
+获取[`SdtListItemCollection`](../../sdtlistitemcollection)与此相关 **SDT**
 
 ```csharp
 public SdtListItemCollection ListItems { get; }
@@ -16,13 +16,13 @@ public SdtListItemCollection ListItems { get; }
 
 ### 评论
 
-访问此属性仅适用于ComboBox或DropDownList SDT 类型。
+访问此属性仅适用于ComboBox或者DropDownList SDT 类型。
 
 对于所有其他 SDT 类型，将发生异常。
 
 ### 例子
 
-显示如何使用下拉列表结构化文档标签。
+展示如何使用下拉列表结构化文档标签。
 
 ```csharp
 Document doc = new Document();

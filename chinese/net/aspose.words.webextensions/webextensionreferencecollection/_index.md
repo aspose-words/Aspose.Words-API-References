@@ -1,14 +1,14 @@
 ---
 title: WebExtensionReferenceCollection
 second_title: Aspose.Words for .NET API 参考
-description: 指定 Web 扩展引用的列表
+description: 指定 Web 扩展引用列表
 type: docs
-weight: 6450
+weight: 6500
 url: /zh/net/aspose.words.webextensions/webextensionreferencecollection/
 ---
 ## WebExtensionReferenceCollection class
 
-指定 Web 扩展引用的列表。
+指定 Web 扩展引用列表。
 
 ```csharp
 public class WebExtensionReferenceCollection : BaseWebExtensionCollection<WebExtensionReference>

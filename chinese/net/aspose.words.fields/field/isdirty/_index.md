@@ -16,7 +16,7 @@ public bool IsDirty { get; set; }
 
 ### 例子
 
-显示如何使用特殊属性来更新字段结果。
+展示如何使用特殊属性来更新字段结果。
 
 ```csharp
 Document doc = new Document();

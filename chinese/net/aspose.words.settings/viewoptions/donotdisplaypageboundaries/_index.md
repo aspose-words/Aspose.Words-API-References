@@ -22,24 +22,24 @@ public bool DoNotDisplayPageBoundaries { get; set; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
- // 插入跨越 3 页的内容。
+// 插入跨越 3 页的内容。
 builder.Writeln("Paragraph 1, Page 1.");
 builder.InsertBreak(BreakType.PageBreak);
 builder.Writeln("Paragraph 2, Page 2.");
 builder.InsertBreak(BreakType.PageBreak);
 builder.Writeln("Paragraph 3, Page 3.");
 
- // 插入页眉和页脚。
+// 插入页眉和页脚。
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
 builder.Writeln("This is the header.");
 builder.MoveToHeaderFooter(HeaderFooterType.FooterPrimary);
 builder.Writeln("This is the footer.");
 
-// 此文档包含少量内容，占用了几页完整的空间。
- // 将“DoNotDisplayPageBoundaries”标志设置为“true”以使旧版本的 Microsoft Word 省略标题，
- // 显示文档时的页脚和大部分垂直空白。
- // 将“DoNotDisplayPageBoundaries”标志设置为“false”以获取旧版本的 Microsoft Word
- // 正常显示我们的文档。
+// 此文档包含少量内容，占用了整整几页的空间。
+// 将“DoNotDisplayPageBoundaries”标志设置为“true”以使旧版本的 Microsoft Word 省略标题，
+// 页脚，以及显示文档时的大部分垂直空白。
+// 将“DoNotDisplayPageBoundaries”标志设置为“false”以获取旧版本的 Microsoft Word
+// 正常显示我们的文档。
 doc.ViewOptions.DoNotDisplayPageBoundaries = doNotDisplayPageBoundaries;
 
 doc.Save(ArtifactsDir + "ViewOptions.DisplayPageBoundaries.doc");

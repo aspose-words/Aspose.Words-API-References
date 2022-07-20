@@ -1,14 +1,14 @@
 ---
 title: Add
 second_title: Справочник по API Aspose.Words для .NET
-description: Добавляет указанныйGradientStopaspose.words.drawing/gradientstopк градиенту.
+description: Добавляет указанныйGradientStopaspose.words.drawing/gradientstop к градиенту.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.drawing/gradientstopcollection/add/
 ---
 ## GradientStopCollection.Add method
 
-Добавляет указанный[`GradientStop`](../../gradientstop)к градиенту.
+Добавляет указанный[`GradientStop`](../../gradientstop) к градиенту.
 
 ```csharp
 public GradientStop Add(GradientStop gradientStop)

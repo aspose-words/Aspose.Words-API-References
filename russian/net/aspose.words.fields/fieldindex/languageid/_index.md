@@ -43,7 +43,7 @@ index.LetterRange = "a-c";
 Assert.AreEqual(" INDEX  \\z 1033 \\h A \\c 2 \\p a-c", index.GetFieldCode());
 
 // Следующие два поля XE будут отображаться под заголовком «A»,
-// с их соответствующими стилями текста, также примененными к их номерам страниц.
+// с их соответствующими стилями текста, которые также применяются к их номерам страниц.
 builder.InsertBreak(BreakType.PageBreak);
 FieldXE indexEntry = (FieldXE)builder.InsertField(FieldType.FieldIndexEntry, true);
 indexEntry.Text = "Apple";

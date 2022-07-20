@@ -1,14 +1,14 @@
 ---
 title: PageStartingNumber
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置节的起始页码
+description: 获取或设置section的起始页码
 type: docs
 weight: 320
 url: /zh/net/aspose.words/pagesetup/pagestartingnumber/
 ---
 ## PageSetup.PageStartingNumber property
 
-获取或设置节的起始页码。
+获取或设置section的起始页码
 
 ```csharp
 public int PageStartingNumber { get; set; }
@@ -16,11 +16,11 @@ public int PageStartingNumber { get; set; }
 
 ### 评论
 
-[`RestartPageNumbering`](../restartpagenumbering)属性，如果设置为 **false** ，将覆盖  **PageStartingNumber** 属性所以页码可以从上一节继续。
+的[`RestartPageNumbering`](../restartpagenumbering)属性，如果设置为 **错误的** 将覆盖 the  **起始页码**属性，以便页码可以从上一节继续。
 
 ### 例子
 
-显示如何在节中设置页码。
+显示如何在部分中设置页码。
 
 ```csharp
 Document doc = new Document();

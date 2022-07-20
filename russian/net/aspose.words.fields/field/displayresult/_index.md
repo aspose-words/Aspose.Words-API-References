@@ -16,7 +16,7 @@ public string DisplayResult { get; }
 
 ### Примечания
 
-Метод[`UpdateListLabels`](../../../aspose.words/document/updatelistlabels)должен вызываться для получения правильного значения для [`FieldListNum`](../../fieldlistnum),[`FieldAutoNum`](../../fieldautonum),[`FieldAutoNumOut`](../../fieldautonumout)и[`FieldAutoNumLgl`](../../fieldautonumlgl)поля.
+[`UpdateListLabels`](../../../aspose.words/document/updatelistlabels) необходимо вызвать метод, чтобы получить правильное значение для the [`FieldListNum`](../../fieldlistnum) ,[`FieldAutoNum`](../../fieldautonum) ,[`FieldAutoNumOut`](../../fieldautonumout) а также[`FieldAutoNumLgl`](../../fieldautonumlgl) поля.
 
 ### Примеры
 

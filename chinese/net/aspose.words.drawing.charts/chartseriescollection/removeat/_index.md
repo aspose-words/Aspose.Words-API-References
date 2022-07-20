@@ -1,14 +1,14 @@
 ---
 title: RemoveAt
 second_title: Aspose.Words for .NET API 参考
-description: 删除指定索引处的ChartSeriesaspose.words.drawing.charts/chartseries
+description: 删除一个ChartSeriesaspose.words.drawing.charts/chartseries在指定的索引处
 type: docs
 weight: 60
 url: /zh/net/aspose.words.drawing.charts/chartseriescollection/removeat/
 ---
 ## ChartSeriesCollection.RemoveAt method
 
-删除指定索引处的[`ChartSeries`](../../chartseries)。
+删除一个[`ChartSeries`](../../chartseries)在指定的索引处。
 
 ```csharp
 public void RemoveAt(int index)

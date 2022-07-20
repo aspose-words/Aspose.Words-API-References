@@ -3,7 +3,7 @@ title: TextWrapping
 second_title: Справочник по API Aspose.Words для .NET
 description: Указывает как текст обтекает таблицу.
 type: docs
-weight: 6030
+weight: 6080
 url: /ru/net/aspose.words.tables/textwrapping/
 ---
 ## TextWrapping enumeration
@@ -41,8 +41,8 @@ table.PreferredWidth = PreferredWidth.FromPoints(300);
 builder.Font.Size = 16;
 builder.Writeln("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.");
 
- // Установите для свойства TextWrapping значение TextWrapping.Around, чтобы таблица оборачивала текст вокруг себя, 
- // и вставьте его в абзац ниже, установив position.
+// Установите для свойства "TextWrapping" значение "TextWrapping.Around", чтобы таблица оборачивала текст вокруг себя,
+// и вставьте его в абзац ниже, установив позицию.
 table.TextWrapping = TextWrapping.Around;
 table.AbsoluteHorizontalDistance = 100;
 table.AbsoluteVerticalDistance = 20;

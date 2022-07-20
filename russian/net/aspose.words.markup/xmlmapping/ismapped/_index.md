@@ -1,14 +1,14 @@
 ---
 title: IsMapped
 second_title: Справочник по API Aspose.Words для .NET
-description: Возвращает true  если тег родительского структурированного документа успешно сопоставлен с данными XML.
+description: Возвращает истинный если тег родительского структурированного документа успешно сопоставлен с данными XML.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.markup/xmlmapping/ismapped/
 ---
 ## XmlMapping.IsMapped property
 
-Возвращает **true** , если тег родительского структурированного документа успешно сопоставлен с данными XML.
+Возвращает **истинный** если тег родительского структурированного документа успешно сопоставлен с данными XML.
 
 ```csharp
 public bool IsMapped { get; }

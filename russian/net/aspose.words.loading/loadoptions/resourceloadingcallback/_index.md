@@ -16,7 +16,7 @@ public IResourceLoadingCallback ResourceLoadingCallback { get; set; }
 
 ### Примеры
 
-Показывает, как обрабатывать внешние ресурсы при загрузке HTML-документов.
+Показывает, как обращаться с внешними ресурсами при загрузке HTML-документов.
 
 ```csharp
 {

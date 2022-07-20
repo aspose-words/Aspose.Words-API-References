@@ -31,7 +31,7 @@ tabStops.Add(ConvertUtil.MillimeterToPoint(60), TabAlignment.Left, TabLeader.Das
 
 Assert.AreEqual(2, tabStops.Count);
 
- // 删除第一个制表位。
+// 删除第一个制表位。
 tabStops.RemoveByIndex(0);
 
 Assert.AreEqual(1, tabStops.Count);

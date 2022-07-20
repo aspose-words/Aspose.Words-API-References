@@ -16,7 +16,7 @@ public int SheetsPerBooklet { get; set; }
 
 ### 例子
 
-显示如何配置可作为折页打印的文档。
+显示如何配置可以作为折页打印的文档。
 
 ```csharp
 Document doc = new Document();

@@ -16,7 +16,7 @@ public virtual FieldType Type { get; }
 
 ### 例子
 
-显示如何使用域代码将域插入到文档中。
+演示如何使用域代码将域插入到文档中。
 
 ```csharp
 Document doc = new Document();

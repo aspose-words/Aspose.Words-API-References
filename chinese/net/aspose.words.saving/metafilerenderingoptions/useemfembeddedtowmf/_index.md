@@ -1,14 +1,14 @@
 ---
 title: UseEmfEmbeddedToWmf
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置一个值该值确定应如何呈现具有嵌入式 EMF 图元文件的 WMF 图元文件
+description: 获取或设置一个值该值确定应如何呈现具有嵌入式 EMF 元文件的 WMF 元文件
 type: docs
 weight: 60
 url: /zh/net/aspose.words.saving/metafilerenderingoptions/useemfembeddedtowmf/
 ---
 ## MetafileRenderingOptions.UseEmfEmbeddedToWmf property
 
-获取或设置一个值，该值确定应如何呈现具有嵌入式 EMF 图元文件的 WMF 图元文件。
+获取或设置一个值，该值确定应如何呈现具有嵌入式 EMF 元文件的 WMF 元文件。
 
 ```csharp
 public bool UseEmfEmbeddedToWmf { get; set; }
@@ -16,15 +16,15 @@ public bool UseEmfEmbeddedToWmf { get; set; }
 
 ### 评论
 
-WMF 元文件可能包含嵌入的 EMF 数据。 MS Word 在大多数情况下使用嵌入的 EMF 数据。 GDI+ 始终使用 WMF 数据。
+WMF 元文件可以包含嵌入的 EMF 数据。 MS Word 在大多数情况下使用嵌入的 EMF 数据。 GDI+ 始终使用 WMF 数据。
 
-当此值设置为` true` 时，Aspose.Words 在渲染时使用嵌入的 EMF 数据。
+当此值设置为`真的`Aspose.Words 在渲染时使用嵌入的 EMF 数据。
 
-当此值设置为` false` 时，Aspose.Words 在渲染时使用 WMF 数据。
+当此值设置为`错误的`, Aspose.Words 在渲染时使用 WMF 数据。
 
-此选项仅在元文件呈现为矢量图形时使用。当元文件呈现 到位图时，总是使用 WMF 数据。
+此选项仅在元文件呈现为矢量图形时使用。当元文件render 到位图时，总是使用WMF 数据。
 
-默认值为` true` 。
+默认值为`真的`.
 
 ### 例子
 
