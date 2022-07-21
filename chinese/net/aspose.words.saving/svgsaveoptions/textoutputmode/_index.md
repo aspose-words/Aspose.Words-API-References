@@ -1,14 +1,14 @@
 ---
 title: TextOutputMode
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置一个值确定文本在 SVG 中的呈现方式
+description: 获取或设置一个值确定在 SVG 中应如何呈现文本
 type: docs
 weight: 90
 url: /zh/net/aspose.words.saving/svgsaveoptions/textoutputmode/
 ---
 ## SvgSaveOptions.TextOutputMode property
 
-获取或设置一个值，确定文本在 SVG 中的呈现方式。
+获取或设置一个值，确定在 SVG 中应如何呈现文本。
 
 ```csharp
 public SvgTextOutputMode TextOutputMode { get; set; }
@@ -16,18 +16,18 @@ public SvgTextOutputMode TextOutputMode { get; set; }
 
 ### 评论
 
-使用此属性获取或设置文档中文本的呈现方式 以 SVG 格式保存时。
+使用此属性获取或设置在以 SVG 格式保存时文档中的文本应如何呈现 的模式。
 
-默认值为UseTargetMachineFonts。
+默认值为UseTargetMachineFonts.
 
 ### 例子
 
-展示如何在将 .docx 文档转换为 .svg 时模拟图像的属性。
+演示如何在将 .docx 文档转换为 .svg 时模拟图像的属性。
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");
 
- // 将 SvgSaveOptions 对象配置为没有页面边框或可选文本的保存。
+// 将 SvgSaveOptions 对象配置为没有页面边框或可选文本的保存。
 SvgSaveOptions options = new SvgSaveOptions
 {
     FitToViewPort = true,

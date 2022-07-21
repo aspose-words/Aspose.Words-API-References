@@ -3,7 +3,7 @@ title: PhysicalFontInfo
 second_title: Справочник по API Aspose.Words для .NET
 description: Указывает информацию о физическом шрифте доступном для шрифтового движка Aspose.Words.
 type: docs
-weight: 2800
+weight: 2850
 url: /ru/net/aspose.words.fonts/physicalfontinfo/
 ---
 ## PhysicalFontInfo class
@@ -20,7 +20,7 @@ public class PhysicalFontInfo
 | --- | --- |
 | [FilePath](../../aspose.words.fonts/physicalfontinfo/filepath) { get; } | Путь к файлу шрифта, если он есть. |
 | [FontFamilyName](../../aspose.words.fonts/physicalfontinfo/fontfamilyname) { get; } | Семейство шрифта. |
-| [FullFontName](../../aspose.words.fonts/physicalfontinfo/fullfontname) { get; } | Полное имя шрифта. |
+| [FullFontName](../../aspose.words.fonts/physicalfontinfo/fullfontname) { get; } | Полное название шрифта. |
 | [Version](../../aspose.words.fonts/physicalfontinfo/version) { get; } | Строка версии шрифта. |
 
 ### Примеры

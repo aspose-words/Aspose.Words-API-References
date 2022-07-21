@@ -1,14 +1,14 @@
 ---
 title: RelativeVerticalPosition
 second_title: Aspose.Words for .NET API 参考
-description: 指定相对于垂直放置的形状
+description: 指定相对于形状垂直定位的位置
 type: docs
 weight: 410
 url: /zh/net/aspose.words.drawing/shapebase/relativeverticalposition/
 ---
 ## ShapeBase.RelativeVerticalPosition property
 
-指定相对于垂直放置的形状。
+指定相对于形状垂直定位的位置。
 
 ```csharp
 public RelativeVerticalPosition RelativeVerticalPosition { get; set; }
@@ -16,13 +16,13 @@ public RelativeVerticalPosition RelativeVerticalPosition { get; set; }
 
 ### 评论
 
-默认值为RelativeVerticalPosition。段落。
+默认值为Paragraph.
 
 仅对顶级浮动形状有效。
 
 ### 例子
 
-显示如何将浮动图像插入页面中心。
+演示如何将浮动图像插入页面中心。
 
 ```csharp
 Document doc = new Document();

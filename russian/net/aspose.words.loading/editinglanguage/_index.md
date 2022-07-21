@@ -3,7 +3,7 @@ title: EditingLanguage
 second_title: Справочник по API Aspose.Words для .NET
 description: Указывает язык редактирования.
 type: docs
-weight: 3350
+weight: 3400
 url: /ru/net/aspose.words.loading/editinglanguage/
 ---
 ## EditingLanguage enumeration

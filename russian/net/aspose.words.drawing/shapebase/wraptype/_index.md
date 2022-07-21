@@ -3,7 +3,7 @@ title: WrapType
 second_title: Справочник по API Aspose.Words для .NET
 description: Определяет является ли фигура встроенной или плавающей. Для плавающих фигур определяет режим обтекания текста вокруг фигуры.
 type: docs
-weight: 530
+weight: 540
 url: /ru/net/aspose.words.drawing/shapebase/wraptype/
 ---
 ## ShapeBase.WrapType property
@@ -16,9 +16,9 @@ public WrapType WrapType { get; set; }
 
 ### Примечания
 
-Значение по умолчанию:Никто.
+Значение по умолчаниюNone.
 
-Действует только для фигур верхнего уровня.
+Имеет эффект только для фигур верхнего уровня.
 
 ### Примеры
 
@@ -26,28 +26,18 @@ public WrapType WrapType { get; set; }
 
 ```csharp
 Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Создаем плавающее текстовое поле.
-Shape textBox = new Shape(doc, ShapeType.TextBox);
-textBox.WrapType = WrapType.None;
-textBox.Height = 50;
-textBox.Width = 200;
+// Вставьте плавающее изображение, которое будет отображаться за перекрывающимся текстом, и выровняйте его по центру страницы.
+Shape shape = builder.InsertImage(ImageDir + "Logo.jpg");
+shape.WrapType = WrapType.None;
+shape.BehindText = true;
+shape.RelativeHorizontalPosition = RelativeHorizontalPosition.Page;
+shape.RelativeVerticalPosition = RelativeVerticalPosition.Page;
+shape.HorizontalAlignment = HorizontalAlignment.Center;
+shape.VerticalAlignment = VerticalAlignment.Center;
 
-// Установить горизонтальное и вертикальное выравнивание текста внутри фигуры.
-textBox.HorizontalAlignment = HorizontalAlignment.Center;
-textBox.VerticalAlignment = VerticalAlignment.Top;
-
-// Добавьте абзац в текстовое поле и добавьте фрагмент текста, который будет отображаться в текстовом поле.
-textBox.AppendChild(new Paragraph(doc));
-Paragraph para = textBox.FirstParagraph;
-para.ParagraphFormat.Alignment = ParagraphAlignment.Center;
-Run run = new Run(doc);
-run.Text = "Hello world!";
-para.AppendChild(run);
-
-doc.FirstSection.Body.FirstParagraph.AppendChild(textBox);
-
-doc.Save(ArtifactsDir + "Shape.CreateTextBox.docx");
+doc.Save(ArtifactsDir + "Image.CreateFloatingPageCenter.docx");
 ```
 
 Показывает, как создать и отформатировать текстовое поле.

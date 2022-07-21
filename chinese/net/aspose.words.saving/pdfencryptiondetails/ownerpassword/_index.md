@@ -16,13 +16,13 @@ public string OwnerPassword { get; set; }
 
 ### 评论
 
-所有者密码允许用户在没有任何访问限制的情况下打开加密的 PDF 文档 在[`Permissions`](../permissions)中指定。
+所有者密码允许用户打开一个加密的 PDF 文档，没有任何访问限制 [`Permissions`](../permissions).
 
 所有者密码不能与用户密码相同。
 
 ### 例子
 
-显示如何设置已保存 PDF 文档的权限。
+展示如何对已保存的 PDF 文档设置权限。
 
 ```csharp
 Document doc = new Document();

@@ -1,14 +1,14 @@
 ---
 title: ErrorCorrectionLevel
 second_title: Справочник по API Aspose.Words для .NET
-description: Получает или задает уровень исправления ошибок QR-кода. Допустимые значения0 3.
+description: Получает или задает уровень исправления ошибок QR-кода. Допустимые значения 0 3.
 type: docs
 weight: 80
 url: /ru/net/aspose.words.fields/fieldmergebarcode/errorcorrectionlevel/
 ---
 ## FieldMergeBarcode.ErrorCorrectionLevel property
 
-Получает или задает уровень исправления ошибок QR-кода. Допустимые значения:[0, 3].
+Получает или задает уровень исправления ошибок QR-кода. Допустимые значения: [0, 3].
 
 ```csharp
 public string ErrorCorrectionLevel { get; set; }
@@ -16,7 +16,7 @@ public string ErrorCorrectionLevel { get; set; }
 
 ### Примеры
 
-Показывает, как выполнить слияние почты со штрих-кодами QR.
+Показывает, как выполнять слияние со штрих-кодами QR.
 
 ```csharp
 Document doc = new Document();

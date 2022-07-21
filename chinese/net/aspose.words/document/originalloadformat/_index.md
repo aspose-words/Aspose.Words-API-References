@@ -16,7 +16,7 @@ public LoadFormat OriginalLoadFormat { get; }
 
 ### 评论
 
-如果您创建了一个新的空白文档，则返回Doc值。
+如果您创建了一个新的空白文档，则返回Doc价值。
 
 ### 例子
 

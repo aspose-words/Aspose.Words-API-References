@@ -1,14 +1,14 @@
 ---
 title: Column
 second_title: Aspose.Words for .NET API 参考
-description: 指定数据源中包含当前记录唯一数据的列 默认值为 0
+description: 指定数据源中包含当前记录的唯一数据的列 默认值为 0
 type: docs
 weight: 30
 url: /zh/net/aspose.words.settings/odsorecipientdata/column/
 ---
 ## OdsoRecipientData.Column property
 
-指定数据源中包含当前记录唯一数据的列。 默认值为 0。
+指定数据源中包含当前记录的唯一数据的列。 默认值为 0。
 
 ```csharp
 public int Column { get; set; }
@@ -16,7 +16,7 @@ public int Column { get; set; }
 
 ### 例子
 
-显示如何访问指定合并数据源的数据集合邮件合并将排除的记录。
+显示如何访问指定邮件合并将排除的合并数据源记录的数据集合。
 
 ```csharp
 Document doc = new Document(MyDir + "Odso data.docx");
@@ -38,10 +38,10 @@ using (IEnumerator<OdsoRecipientData> enumerator = dataCollection.GetEnumerator(
     }
 }
 
- // 我们可以克隆这个集合中的元素。
+// 我们可以克隆这个集合中的元素。
 Assert.AreNotEqual(dataCollection[0], dataCollection[0].Clone());
 
- // 我们也可以单独删除元素，或者一次清除整个集合。
+// 我们也可以单独删除元素，或者一次清除整个集合。
 dataCollection.RemoveAt(0);
 
 Assert.AreEqual(69, dataCollection.Count);

@@ -22,57 +22,38 @@ public void Update()
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 使用文档构建器插入一个显示未应用格式的结果的字段。
-Field field = builder.InsertField("= 2 + 3");
+// 插入两个字段，同时传递一个标志，该标志确定是否在构建器插入它们时更新它们。
+// 在某些情况下，更新字段的计算成本可能很高，推迟更新可能是个好主意。
+doc.BuiltInDocumentProperties.Author = "John Doe";
+builder.Write("This document was written by ");
+builder.InsertField(FieldType.FieldAuthor, updateInsertedFieldsImmediately);
 
-Assert.AreEqual("= 2 + 3", field.GetFieldCode());
-Assert.AreEqual("5", field.Result);
+builder.InsertParagraph();
+builder.Write("\nThis is page ");
+builder.InsertField(FieldType.FieldPage, updateInsertedFieldsImmediately);
 
-// 我们可以使用字段的属性将格式应用于字段的结果。
-// 下面是我们可以应用于字段结果的三种格式。
-// 1 - 数字格式：
-FieldFormat format = field.Format;
-format.NumericFormat = "$###.00";
-field.Update();
+Assert.AreEqual(" AUTHOR ", doc.Range.Fields[0].GetFieldCode());
+Assert.AreEqual(" PAGE ", doc.Range.Fields[1].GetFieldCode());
 
-Assert.AreEqual("= 2 + 3 \\# $###.00", field.GetFieldCode());
-Assert.AreEqual("$  5.00", field.Result);
+if (updateInsertedFieldsImmediately)
+{
+    Assert.AreEqual("John Doe", doc.Range.Fields[0].Result);
+    Assert.AreEqual("1", doc.Range.Fields[1].Result);
+}
+else
+{
+    Assert.AreEqual(string.Empty, doc.Range.Fields[0].Result);
+    Assert.AreEqual(string.Empty, doc.Range.Fields[1].Result);
 
-// 2 - 日期/时间格式：
-field = builder.InsertField("DATE");
-format = field.Format;
-format.DateTimeFormat = "dddd, MMMM dd, yyyy";
-field.Update();
+    // 我们需要手动使用更新方法更新这些字段。
+    doc.Range.Fields[0].Update();
 
-Assert.AreEqual("DATE \\@ \"dddd, MMMM dd, yyyy\"", field.GetFieldCode());
-Console.WriteLine($"Today's date, in {format.DateTimeFormat} format:\n\t{field.Result}");
+    Assert.AreEqual("John Doe", doc.Range.Fields[0].Result);
 
-// 3 - 一般格式：
-field = builder.InsertField("= 25 + 33");
-format = field.Format;
-format.GeneralFormats.Add(GeneralFormat.LowercaseRoman);
-format.GeneralFormats.Add(GeneralFormat.Upper);
-field.Update();
+    doc.UpdateFields();
 
-int index = 0;
-using (IEnumerator<GeneralFormat> generalFormatEnumerator = format.GeneralFormats.GetEnumerator())
-    while (generalFormatEnumerator.MoveNext())
-        Console.WriteLine($"General format index {index++}: {generalFormatEnumerator.Current}");
-
-Assert.AreEqual("= 25 + 33 \\* roman \\* Upper", field.GetFieldCode());
-Assert.AreEqual("LVIII", field.Result);
-Assert.AreEqual(2, format.GeneralFormats.Count);
-Assert.AreEqual(GeneralFormat.LowercaseRoman, format.GeneralFormats[0]);
-
-// 我们可以删除格式以将字段的结果恢复为原始形式。
-format.GeneralFormats.Remove(GeneralFormat.LowercaseRoman);
-format.GeneralFormats.RemoveAt(0);
-Assert.AreEqual(0, format.GeneralFormats.Count);
-field.Update();
-
-Assert.AreEqual("= 25 + 33  ", field.GetFieldCode());
-Assert.AreEqual("58", field.Result);
-Assert.AreEqual(0, format.GeneralFormats.Count);
+    Assert.AreEqual("1", doc.Range.Fields[1].Result);
+}
 ```
 
 显示如何格式化字段结果。
@@ -152,11 +133,11 @@ public void Update(bool ignoreMergeFormat)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| ignoreMergeFormat | Boolean | If` true` 然后放弃直接字段结果格式化，不管 MERGEFORMAT 开关如何，否则执行正常更新。 |
+| ignoreMergeFormat | Boolean | 如果`真的`然后放弃直接字段结果格式化，不管MERGEFORMAT开关，否则正常更新。 |
 
 ### 例子
 
-显示加载文档时如何保留或丢弃 INCLUDEPICTURE 字段。
+显示在加载文档时如何保留或丢弃 INCLUDEPICTURE 字段。
 
 ```csharp
 Document doc = new Document();

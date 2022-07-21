@@ -1,14 +1,14 @@
 ---
 title: FitShapeToText
 second_title: Справочник по API Aspose.Words для .NET
-description: Определяет будет ли Microsoft Word увеличивать фигуру чтобы она соответствовала тексту.
+description: Определяет будет ли Microsoft Word увеличивать фигуру до размера текста.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.drawing/textbox/fitshapetotext/
 ---
 ## TextBox.FitShapeToText property
 
-Определяет, будет ли Microsoft Word увеличивать фигуру, чтобы она соответствовала тексту.
+Определяет, будет ли Microsoft Word увеличивать фигуру до размера текста.
 
 ```csharp
 public bool FitShapeToText { get; set; }
@@ -16,11 +16,11 @@ public bool FitShapeToText { get; set; }
 
 ### Примечания
 
-Значение по умолчанию: **false** .
+Значение по умолчанию **ЛОЖЬ**.
 
 ### Примеры
 
-Показывает, как изменить размер текстового поля, чтобы оно точно соответствовало его содержимому.
+Показывает, как заставить текстовое поле изменить свой размер, чтобы точно соответствовать его содержимому.
 
 ```csharp
 Document doc = new Document();

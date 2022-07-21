@@ -19,15 +19,15 @@ public ComHelper()
 Показывает, как открывать документы с помощью класса ComHelper.
 
 ```csharp
- // Класс ComHelper позволяет нам загружать документы из COM-клиентов.
+// Класс ComHelper позволяет нам загружать документы из COM-клиентов.
 ComHelper comHelper = new ComHelper();
 
- // 1 - Использование локального системного имени файла: 
+// 1 - Использование локального системного имени файла:
 Document doc = comHelper.Open(MyDir + "Document.docx");
 
 Assert.AreEqual("Hello World!\r\rHello Word!\r\r\rHello World!", doc.GetText().Trim());
 
- // 2 - Из потока:
+// 2 - Из потока:
 using (FileStream stream = new FileStream(MyDir + "Document.docx", FileMode.Open))
 {
     doc = comHelper.Open(stream);

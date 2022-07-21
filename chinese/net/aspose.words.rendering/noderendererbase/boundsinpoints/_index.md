@@ -16,11 +16,11 @@ public RectangleF BoundsInPoints { get; }
 
 ### 评论
 
-此属性返回形状的实际（在页面上呈现）边界框。 边界考虑了形状旋转（如果有的话）。
+此属性返回形状的实际（在页面上呈现）边界框。 边界考虑了形状旋转（如果有）。
 
 ### 例子
 
-显示如何测量和缩放形状。
+展示如何测量和缩放形状。
 
 ```csharp
 Document doc = new Document(MyDir + "Office math.docx");

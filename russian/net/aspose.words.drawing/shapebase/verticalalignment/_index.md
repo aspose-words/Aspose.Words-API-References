@@ -3,7 +3,7 @@ title: VerticalAlignment
 second_title: Справочник по API Aspose.Words для .NET
 description: Определяет вертикальное расположение фигуры.
 type: docs
-weight: 500
+weight: 510
 url: /ru/net/aspose.words.drawing/shapebase/verticalalignment/
 ---
 ## ShapeBase.VerticalAlignment property
@@ -16,7 +16,7 @@ public VerticalAlignment VerticalAlignment { get; set; }
 
 ### Примечания
 
-Значение по умолчанию:Никто.
+Значение по умолчаниюNone.
 
 Имеет эффект только для плавающих фигур верхнего уровня.
 

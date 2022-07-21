@@ -3,7 +3,7 @@ title: FontInfo
 second_title: Aspose.Words for .NET API 参考
 description: 指定文档中使用的字体信息
 type: docs
-weight: 2690
+weight: 2740
 url: /zh/net/aspose.words.fonts/fontinfo/
 ---
 ## FontInfo class
@@ -21,7 +21,7 @@ public class FontInfo
 | [AltName](../../aspose.words.fonts/fontinfo/altname) { get; set; } | 获取或设置字体的备用名称。 |
 | [Charset](../../aspose.words.fonts/fontinfo/charset) { get; set; } | 获取或设置字体的字符集。 |
 | [Family](../../aspose.words.fonts/fontinfo/family) { get; set; } | 获取或设置该字体所属的字体系列。 |
-| [IsTrueType](../../aspose.words.fonts/fontinfo/istruetype) { get; set; } | 表示此字体是 TrueType 或 OpenType 字体，而不是光栅或矢量字体。 默认为真。 |
+| [IsTrueType](../../aspose.words.fonts/fontinfo/istruetype) { get; set; } | 表示此字体是 TrueType 或 OpenType 字体，而不是光栅或矢量字体。 默认为 true。 |
 | [Name](../../aspose.words.fonts/fontinfo/name) { get; } | 获取字体名称。 |
 | [Panose](../../aspose.words.fonts/fontinfo/panose) { get; set; } | 获取或设置 PANOSE 字体分类号。 |
 | [Pitch](../../aspose.words.fonts/fontinfo/pitch) { get; set; } | 间距指示字体是固定间距、按比例间隔还是依赖于默认设置。 |
@@ -31,11 +31,11 @@ public class FontInfo
 | 姓名 | 描述 |
 | --- | --- |
 | [GetEmbeddedFont](../../aspose.words.fonts/fontinfo/getembeddedfont)(EmbeddedFontFormat, EmbeddedFontStyle) | 获取特定的嵌入字体文件。 |
-| [GetEmbeddedFontAsOpenType](../../aspose.words.fonts/fontinfo/getembeddedfontasopentype)(EmbeddedFontStyle) | 获取 OpenType 格式的嵌入字体文件。 Embedded OpenType 格式的字体将转换为 OpenType。 |
+| [GetEmbeddedFontAsOpenType](../../aspose.words.fonts/fontinfo/getembeddedfontasopentype)(EmbeddedFontStyle) | 获取 OpenType 格式的嵌入字体文件。 Embedded OpenType 格式的字体转换为 OpenType. |
 
 ### 评论
 
-您不要直接创建此类的实例。 使用[`FontInfos`](../../aspose.words/documentbase/fontinfos)属性访问文档中定义的字体集合 。
+您不直接创建此类的实例。 使用[`FontInfos`](../../aspose.words/documentbase/fontinfos)属性来访问文档中定义的字体集合 。
 
 ### 例子
 

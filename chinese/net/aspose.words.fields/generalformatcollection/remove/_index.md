@@ -16,7 +16,7 @@ public void Remove(GeneralFormat item)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| item | GeneralFormat | 通用格式。 |
+| item | GeneralFormat | 一种通用格式。 |
 
 ### 例子
 

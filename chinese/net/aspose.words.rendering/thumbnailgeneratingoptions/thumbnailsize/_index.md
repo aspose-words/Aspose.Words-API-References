@@ -1,14 +1,14 @@
 ---
 title: ThumbnailSize
 second_title: Aspose.Words for .NET API 参考
-description: 生成的缩略图的大小以像素为单位 默认为 600x900
+description: 生成的缩略图大小以像素为单位 默认为 600x900
 type: docs
 weight: 30
 url: /zh/net/aspose.words.rendering/thumbnailgeneratingoptions/thumbnailsize/
 ---
 ## ThumbnailGeneratingOptions.ThumbnailSize property
 
-生成的缩略图的大小（以像素为单位）。 默认为 600x900。
+生成的缩略图大小（以像素为单位）。 默认为 600x900。
 
 ```csharp
 public Size ThumbnailSize { get; set; }

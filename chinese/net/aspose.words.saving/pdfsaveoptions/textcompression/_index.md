@@ -18,11 +18,11 @@ public PdfTextCompression TextCompression { get; set; }
 
 默认为Flate.
 
-在不压缩的情况下保存文档时显着增加输出大小。
+保存未压缩的文档时显着增加输出大小。
 
 ### 例子
 
-显示如何在将文档保存为 PDF 时应用文本压缩。
+显示在将文档保存为 PDF 时如何应用文本压缩。
 
 ```csharp
 Document doc = new Document();

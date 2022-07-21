@@ -1,14 +1,14 @@
 ---
 title: NodeType
 second_title: Справочник по API Aspose.Words для .NET
-description: ВозвращаетShape.
+description: ВозвращаетShape .
 type: docs
 weight: 130
 url: /ru/net/aspose.words.drawing/shape/nodetype/
 ---
 ## Shape.NodeType property
 
-ВозвращаетShape.
+ВозвращаетShape .
 
 ```csharp
 public override NodeType NodeType { get; }

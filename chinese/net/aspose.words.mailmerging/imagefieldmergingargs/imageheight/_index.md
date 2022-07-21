@@ -16,9 +16,9 @@ public MergeFieldImageDimension ImageHeight { get; set; }
 
 ### 评论
 
-这个属性的值最初来自对应的MERGEFIELD的代码，包含在 模板文档中。要覆盖初始值，您应该将 [`MergeFieldImageDimension`](../../../aspose.words.fields/mergefieldimagedimension)类的实例分配给此属性或设置实例的属性 属于[`MergeFieldImageDimension`](../../../aspose.words.fields/mergefieldimagedimension)类，由该属性返回。
+这个属性的值最初来自相应的MERGEFIELD 的代码，包含在 模板文档中。要覆盖初始值，您应该分配一个实例 of [`MergeFieldImageDimension`](../../../aspose.words.fields/mergefieldimagedimension)类到这个属性或为 instance 设置属性[`MergeFieldImageDimension`](../../../aspose.words.fields/mergefieldimagedimension)类，由此属性返回。
 
-为了表示应该应用图像高度的原始值，您应该分配 **null** 值或设置[`Value`](../../../aspose.words.fields/mergefieldimagedimension/value)属性为由该属性返回的[`MergeFieldImageDimension`](../../../aspose.words.fields/mergefieldimagedimension)类的实例 为负值。
+表示应该应用图像高度的原始值，您应该分配 **无效的** 值到此属性或设置[`Value`](../../../aspose.words.fields/mergefieldimagedimension/value)instance 的属性[`MergeFieldImageDimension`](../../../aspose.words.fields/mergefieldimagedimension)此属性返回的类为负值。
 
 ### 例子
 

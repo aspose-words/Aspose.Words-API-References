@@ -1,14 +1,14 @@
 ---
 title: OleFormat
 second_title: Aspose.Words for .NET API 参考
-description: 提供对形状的 OLE 数据的访问对于不是 OLE 对象或 ActiveX 控件的形状返回 null
+description: 提供对形状的 OLE 数据的访问对于不是 OLE 对象或 ActiveX 控件的形状返回 null.
 type: docs
 weight: 140
 url: /zh/net/aspose.words.drawing/shape/oleformat/
 ---
 ## Shape.OleFormat property
 
-提供对形状的 OLE 数据的访问。对于不是 OLE 对象或 ActiveX 控件的形状，返回 null。
+提供对形状的 OLE 数据的访问。对于不是 OLE 对象或 ActiveX 控件的形状，返回 null.
 
 ```csharp
 public OleFormat OleFormat { get; }
@@ -16,7 +16,7 @@ public OleFormat OleFormat { get; }
 
 ### 例子
 
-显示如何迭代文档中的所有形状。
+演示如何遍历文档中的所有形状。
 
 ```csharp
 {

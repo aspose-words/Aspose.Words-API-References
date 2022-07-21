@@ -1,14 +1,14 @@
 ---
 title: GetFieldCode
 second_title: Справочник по API Aspose.Words для .NET
-description: Возвращает текст между началом поля и разделителем полей или концом поля если разделителя нет. Включены как код поля так и результат дочерних полей.
+description: Возвращает текст между началом поля и разделителем поля или концом поля если разделителя нет. Включены как код поля так и результат поля дочерних полей.
 type: docs
 weight: 110
 url: /ru/net/aspose.words.fields/field/getfieldcode/
 ---
 ## GetFieldCode() {#getfieldcode}
 
-Возвращает текст между началом поля и разделителем полей (или концом поля, если разделителя нет). Включены как код поля, так и результат дочерних полей.
+Возвращает текст между началом поля и разделителем поля (или концом поля, если разделителя нет). Включены как код поля, так и результат поля дочерних полей.
 
 ```csharp
 public string GetFieldCode()
@@ -19,20 +19,16 @@ public string GetFieldCode()
 Показывает, как вставить поле в документ, используя код поля.
 
 ```csharp
-// Открытие документа, который содержит MERGEFIELD внутри поля IF.
-Document doc = new Document(MyDir + "Nested fields.docx");
-FieldIf fieldIf = (FieldIf)doc.Range.Fields[0];
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Есть два способа получить код поля поля:
-// 1 - Опустить его внутренние поля:
-Assert.AreEqual(" IF  > 0 \" (surplus of ) \" \"\" ", fieldIf.GetFieldCode(false));
+Field field = builder.InsertField("DATE \\@ \"dddd, MMMM dd, yyyy\"");
 
-// 2 - Включить его внутренние поля:
-Assert.AreEqual($" IF \u0013 MERGEFIELD NetIncome \u0014\u0015 > 0 \" (surplus of \u0013 MERGEFIELD  NetIncome \\f $ \u0014\u0015) \" \"\" ",
-    fieldIf.GetFieldCode(true));
+Assert.AreEqual(FieldType.FieldDate, field.Type);
+Assert.AreEqual("DATE \\@ \"dddd, MMMM dd, yyyy\"", field.GetFieldCode());
 
-// По умолчанию метод GetFieldCode отображает внутренние поля.
-Assert.AreEqual(fieldIf.GetFieldCode(), fieldIf.GetFieldCode(true));
+// Эта перегрузка метода InsertField автоматически обновляет вставленные поля.
+Assert.That(DateTime.Parse(field.Result), Is.EqualTo(DateTime.Today).Within(1).Days);
 ```
 
 Показывает, как получить код поля поля.
@@ -72,7 +68,7 @@ public string GetFieldCode(bool includeChildFieldCodes)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| includeChildFieldCodes | Boolean | ` True` , если должны быть включены коды дочерних полей. |
+| includeChildFieldCodes | Boolean | `Истинный` если должны быть включены коды дочерних полей. |
 
 ### Примеры
 

@@ -16,7 +16,7 @@ public Color Color { get; set; }
 
 ### 例子
 
-演示如何将一个由边框包围的字符串插入到文档中。
+演示如何将由边框包围的字符串插入到文档中。
 
 ```csharp
 Document doc = new Document();

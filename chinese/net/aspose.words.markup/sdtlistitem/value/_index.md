@@ -16,11 +16,11 @@ public string Value { get; }
 
 ### 评论
 
-不能为空，也不能为空字符串。
+不能为 null，也不能为空字符串。
 
 ### 例子
 
-显示如何使用下拉列表结构化文档标签。
+展示如何使用下拉列表结构化文档标签。
 
 ```csharp
 Document doc = new Document();

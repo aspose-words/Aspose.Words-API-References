@@ -16,201 +16,97 @@ public virtual VisitorAction VisitGroupShapeStart(GroupShape groupShape)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| groupShape | GroupShape | Посещаемый объект. |
+| groupShape | GroupShape | Объект, который посещается. |
 
 ### Возвращаемое значение
 
-A[`VisitorAction`](../../visitoraction)значение, указывающее, как продолжить перечисление.
+А[`VisitorAction`](../../visitoraction) значение, указывающее, как продолжить перечисление.
 
 ### Примеры
 
 Показывает, как создать группу фигур и распечатать ее содержимое с помощью посетителя документа.
 
 ```csharp
+public void GroupOfShapes()
 {
-    Document doc = new Document(MyDir + "Hidden content.docx");
+    Document doc = new Document();
+    DocumentBuilder builder = new DocumentBuilder(doc);
 
-    RemoveHiddenContentVisitor hiddenContentRemover = new RemoveHiddenContentVisitor();
+    // Если вам нужно создать "непримитивные" фигуры, такие как SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,
+    // TopCornersOneRoundedOneSnipped, SingleCornerRounded, TopCornersRounded, DiagonalCornersRounded
+    // используйте методы DocumentBuilder.InsertShape.
+    Shape balloon = new Shape(doc, ShapeType.Balloon)
+    {
+        Width = 200, 
+        Height = 200,
+        Stroke = { Color = Color.Red }
+    };
 
-    // Ниже приведены три типа полей, которые могут принять посетителя документа,
-    // что позволит ему посетить принимающий узел, а затем пройти его дочерние узлы в порядке глубины.
-    // 1 - Узел абзаца:
-    Paragraph para = (Paragraph) doc.GetChild(NodeType.Paragraph, 4, true);
-    para.Accept(hiddenContentRemover);
+    Shape cube = new Shape(doc, ShapeType.Cube)
+    {
+        Width = 100, 
+        Height = 100,
+        Stroke = { Color = Color.Blue }
+    };
 
-    // 2 - Узел таблицы:
-    Table table = doc.FirstSection.Body.Tables[0];
-    table.Accept(hiddenContentRemover);
+    GroupShape group = new GroupShape(doc);
+    group.AppendChild(balloon);
+    group.AppendChild(cube);
 
-    // 3 - Узел документа:
-    doc.Accept(hiddenContentRemover);
+    Assert.True(group.IsGroup);
 
-    doc.Save(ArtifactsDir + "Font.RemoveHiddenContentFromDocument.docx");
+    builder.InsertNode(group);
+
+    ShapeGroupPrinter printer = new ShapeGroupPrinter();
+    group.Accept(printer);
+
+    Console.WriteLine(printer.GetText());
+}
 
 /// <summary>
-/// Удаляет все посещенные узлы, помеченные как "скрытый контент".
+/// Выводит содержимое посещенной группы форм на консоль.
 /// </summary>
-public class RemoveHiddenContentVisitor : DocumentVisitor
+public class ShapeGroupPrinter : DocumentVisitor
 {
-    /// <summary>
-    /// Вызывается, когда в документе встречается узел FieldStart.
-    /// </summary>
-    public override VisitorAction VisitFieldStart(FieldStart fieldStart)
+    public ShapeGroupPrinter()
     {
-        if (fieldStart.Font.Hidden)
-            fieldStart.Remove();
-
-        return VisitorAction.Continue;
+        mBuilder = new StringBuilder();
     }
 
-    /// <summary>
-    /// Вызывается, когда в документе встречается узел FieldEnd.
-    /// </summary>
-    public override VisitorAction VisitFieldEnd(FieldEnd fieldEnd)
+    public string GetText()
     {
-        if (fieldEnd.Font.Hidden)
-            fieldEnd.Remove();
-
-        return VisitorAction.Continue;
+        return mBuilder.ToString();
     }
 
-    /// <summary>
-    /// Вызывается, когда в документе встречается узел FieldSeparator.
-    /// </summary>
-    public override VisitorAction VisitFieldSeparator(FieldSeparator fieldSeparator)
-    {
-        if (fieldSeparator.Font.Hidden)
-            fieldSeparator.Remove();
-
-        return VisitorAction.Continue;
-    }
-
-    /// <summary>
-    /// Вызывается, когда в документе встречается узел Run.
-    /// </summary>
-    public override VisitorAction VisitRun(Run run)
-    {
-        if (run.Font.Hidden)
-            run.Remove();
-
-        return VisitorAction.Continue;
-    }
-
-    /// <summary>
-    /// Вызывается, когда в документе встречается узел Paragraph.
-    /// </summary>
-    public override VisitorAction VisitParagraphStart(Paragraph paragraph)
-    {
-        if (paragraph.ParagraphBreakFont.Hidden)
-            paragraph.Remove();
-
-        return VisitorAction.Continue;
-    }
-
-    /// <summary>
-    /// Вызывается, когда в документе встречается FormField.
-    /// </summary>
-    public override VisitorAction VisitFormField(FormField formField)
-    {
-        if (formField.Font.Hidden)
-            formField.Remove();
-
-        return VisitorAction.Continue;
-    }
-
-    /// <summary>
-    /// Вызывается, когда в документе встречается GroupShape.
-    /// </summary>
     public override VisitorAction VisitGroupShapeStart(GroupShape groupShape)
     {
-        if (groupShape.Font.Hidden)
-            groupShape.Remove();
-
+        mBuilder.AppendLine("Shape group started:");
         return VisitorAction.Continue;
     }
 
-    /// <summary>
-    /// Вызывается, когда в документе встречается фигура.
-    /// </summary>
+    public override VisitorAction VisitGroupShapeEnd(GroupShape groupShape)
+    {
+        mBuilder.AppendLine("End of shape group");
+        return VisitorAction.Continue;
+    }
+
     public override VisitorAction VisitShapeStart(Shape shape)
     {
-        if (shape.Font.Hidden)
-            shape.Remove();
-
+        mBuilder.AppendLine("\tShape - " + shape.ShapeType + ":");
+        mBuilder.AppendLine("\t\tWidth: " + shape.Width);
+        mBuilder.AppendLine("\t\tHeight: " + shape.Height);
+        mBuilder.AppendLine("\t\tStroke color: " + shape.Stroke.Color);
+        mBuilder.AppendLine("\t\tFill color: " + shape.Fill.ForeColor);
         return VisitorAction.Continue;
     }
 
-    /// <summary>
-    /// Вызывается, когда в документе встречается комментарий.
-    /// </summary>
-    public override VisitorAction VisitCommentStart(Comment comment)
+    public override VisitorAction VisitShapeEnd(Shape shape)
     {
-        if (comment.Font.Hidden)
-            comment.Remove();
-
+        mBuilder.AppendLine("\tEnd of shape");
         return VisitorAction.Continue;
     }
 
-    /// <summary>
-    /// Вызывается, когда в документе встречается сноска.
-    /// </summary>
-    public override VisitorAction VisitFootnoteStart(Footnote footnote)
-    {
-        if (footnote.Font.Hidden)
-            footnote.Remove();
-
-        return VisitorAction.Continue;
-    }
-
-    /// <summary>
-    /// Вызывается, когда в документе встречается SpecialCharacter.
-    /// </summary>
-    public override VisitorAction VisitSpecialChar(SpecialChar specialChar)
-    {
-        if (specialChar.Font.Hidden)
-            specialChar.Remove();
-
-        return VisitorAction.Continue;
-    }
-
-    /// <summary>
-    /// Вызывается при завершении посещения узла Таблица в документе.
-    /// </summary>
-    public override VisitorAction VisitTableEnd(Table table)
-    {
-        // Содержимое внутри ячеек таблицы может иметь флаг скрытого содержимого, но не сами таблицы.
-        // Если бы в этой таблице не было ничего, кроме скрытого содержимого, этот посетитель удалил бы все это,
-        // и не осталось бы дочерних узлов.
-        // Таким образом, мы также можем рассматривать саму таблицу как скрытое содержимое и удалять ее.
-        // Таблицы, которые пусты, но не имеют скрытого содержимого, будут иметь ячейки с пустыми абзацами внутри,
-        // который этот посетитель не удалит.
-        if (!table.HasChildNodes)
-            table.Remove();
-
-        return VisitorAction.Continue;
-    }
-
-    /// <summary>
-    /// Вызывается при завершении посещения узла Cell в документе.
-    /// </summary>
-    public override VisitorAction VisitCellEnd(Cell cell)
-    {
-        if (!cell.HasChildNodes && cell.ParentNode != null)
-            cell.Remove();
-
-        return VisitorAction.Continue;
-    }
-
-    /// <summary>
-    /// Вызывается при завершении посещения узла Row в документе.
-    /// </summary>
-    public override VisitorAction VisitRowEnd(Row row)
-    {
-        if (!row.HasChildNodes && row.ParentNode != null)
-            row.Remove();
-
-        return VisitorAction.Continue;
-    }
+    private readonly StringBuilder mBuilder;
 }
 ```
 
@@ -364,7 +260,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Вызывается при завершении посещения узла Таблица в документе.
+    /// Вызывается при завершении посещения узла Table в документе.
     /// </summary>
     public override VisitorAction VisitTableEnd(Table table)
     {

@@ -20,7 +20,7 @@ public virtual VisitorAction VisitEditableRangeStart(EditableRangeStart editable
 
 ### 返回值
 
-A[`VisitorAction`](../../visitoraction)指定如何继续枚举的值。
+一个[`VisitorAction`](../../visitoraction)指定如何继续枚举的值。
 
 ### 例子
 
@@ -32,17 +32,17 @@ public void EditableRangeToText()
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     EditableRangeStructurePrinter visitor = new EditableRangeStructurePrinter();
 
-     // 当我们得到一个复合节点接受一个文档访问者时，访问者访问接受节点，
-     // 然后以深度优先的方式遍历所有节点的孩子。
-     // 访问者可以读取和修改每个访问过的节点。
+    // 当我们得到一个复合节点来接受一个文档访问者时，访问者访问接受节点，
+    // 然后以深度优先的方式遍历所有节点的子节点。
+    // 访问者可以读取和修改每个访问的节点。
     doc.Accept(visitor);
 
     Console.WriteLine(visitor.GetText());
 }
 
 /// <summary>
- /// 遍历一个节点的子节点的非二叉树。
- /// 以所有遇到的 EditableRange 节点及其子节点的字符串形式创建映射。
+/// 遍历一个节点的子节点的非二叉树。
+/// 以所有遇到的 EditableRange 节点及其子节点的字符串形式创建映射。
 /// </summary>
 public class EditableRangeStructurePrinter : DocumentVisitor
 {
@@ -53,7 +53,7 @@ public class EditableRangeStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-     /// 获取访问者积累的文档的纯文本。
+    /// 获取访问者积累的文档的纯文本。
     /// </summary>
     public string GetText()
     {
@@ -61,12 +61,11 @@ public class EditableRangeStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-     /// 在文档中遇到 Run 节点时调用。
+    /// 在文档中遇到 Run 节点时调用。
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {
-         // 我们想要打印运行的内容，但前提是它们在形状内，就像在文本框
- 的情况下一样
+        // 我们想打印运行的内容，但前提是它们在形状内，就像在文本框的情况下一样
         if (mVisitorIsInsideEditableRange) IndentAndAppendLine("[Run] \"" + run.GetText() + "\"");
 
         return VisitorAction.Continue;
@@ -86,7 +85,7 @@ public class EditableRangeStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-     /// EditableRange节点访问结束时调用.
+    /// EditableRange节点访问结束时调用。
     /// </summary>
     public override VisitorAction VisitEditableRangeEnd(EditableRangeEnd editableRangeEnd)
     {
@@ -98,9 +97,9 @@ public class EditableRangeStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-     /// 将一行添加到 StringBuilder 并根据访问者在文档树中的深度缩进。
+    /// 将一行添加到 StringBuilder 并根据访问者在文档树中的深度缩进。
     /// </summary>
-     /// <param name="text"></param>
+    /// <param name="text"></param>
     private void IndentAndAppendLine(string text)
     {
         for (int i = 0; i < mDocTraversalDepth; i++) mBuilder.Append("|  ");

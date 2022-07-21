@@ -3,7 +3,7 @@ title: DocumentProperty
 second_title: Справочник по API Aspose.Words для .NET
 description: Представляет пользовательское или встроенное свойство документа.
 type: docs
-weight: 4170
+weight: 4220
 url: /ru/net/aspose.words.properties/documentproperty/
 ---
 ## DocumentProperty class
@@ -18,7 +18,7 @@ public class DocumentProperty
 
 | Имя | Описание |
 | --- | --- |
-| [IsLinkToContent](../../aspose.words.properties/documentproperty/islinktocontent) { get; } | Показывает, связано ли это свойство с содержимым или нет. |
+| [IsLinkToContent](../../aspose.words.properties/documentproperty/islinktocontent) { get; } | Показывает, связано ли это свойство с контентом или нет. |
 | [LinkSource](../../aspose.words.properties/documentproperty/linksource) { get; } | Получает источник связанного пользовательского свойства документа. |
 | [Name](../../aspose.words.properties/documentproperty/name) { get; } | Возвращает имя свойства. |
 | [Type](../../aspose.words.properties/documentproperty/type) { get; } | Получает тип данных свойства. |
@@ -30,30 +30,30 @@ public class DocumentProperty
 | --- | --- |
 | [ToBool](../../aspose.words.properties/documentproperty/tobool)() | Возвращает значение свойства как bool. |
 | [ToByteArray](../../aspose.words.properties/documentproperty/tobytearray)() | Возвращает значение свойства в виде массива байтов. |
-| [ToDateTime](../../aspose.words.properties/documentproperty/todatetime)() | Возвращает значение свойства как DateTime в формате UTC. |
+| [ToDateTime](../../aspose.words.properties/documentproperty/todatetime)() | Возвращает значение свойства в формате DateTime в формате UTC. |
 | [ToDouble](../../aspose.words.properties/documentproperty/todouble)() | Возвращает значение свойства как двойное. |
-| [ToInt](../../aspose.words.properties/documentproperty/toint)() | Возвращает значение свойства как целое число. |
+| [ToInt](../../aspose.words.properties/documentproperty/toint)() | Возвращает значение свойства в виде целого числа. |
 | override [ToString](../../aspose.words.properties/documentproperty/tostring)() | Возвращает значение свойства в виде строки, отформатированной в соответствии с текущей локалью. |
 
 ### Примеры
 
-Показывает, как работать со встроенными свойствами документа .
+Показывает, как работать со встроенными свойствами документа.
 
 ```csharp
 Document doc = new Document(MyDir + "Properties.docx");
 
- // Объект "Документ" содержит некоторые метаданные в своих членах.
+// Объект «Документ» содержит некоторые метаданные в своих членах.
 Console.WriteLine($"Document filename:\n\t \"{doc.OriginalFileName}\"");
 
- // Документ также хранит метаданные в своих встроенных свойствах.
-// Каждое встроенное свойство является членом объекта "BuiltInDocumentProperties" документа.
+// Документ также хранит метаданные в своих встроенных свойствах.
+// Каждое встроенное свойство является членом объекта «BuiltInDocumentProperties» документа.
 Console.WriteLine("Built-in Properties:");
 foreach (DocumentProperty docProperty in doc.BuiltInDocumentProperties)
 {
     Console.WriteLine(docProperty.Name);
     Console.WriteLine($"\tType:\t{docProperty.Type}");
 
-     // Некоторые свойства могут хранить несколько значений.
+    // Некоторые свойства могут хранить несколько значений.
     if (docProperty.Value is ICollection<object>)
     {
         foreach (object value in docProperty.Value as ICollection<object>)

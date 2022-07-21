@@ -1,14 +1,14 @@
 ---
 title: NodeType
 second_title: Aspose.Words for .NET API 参考
-description: 返回 NodeType.Footnote 
+description: 返回 节点类型脚注.
 type: docs
 weight: 40
 url: /zh/net/aspose.words.notes/footnote/nodetype/
 ---
 ## Footnote.NodeType property
 
-返回 **NodeType.Footnote** 。
+返回 **节点类型脚注**.
 
 ```csharp
 public override NodeType NodeType { get; }

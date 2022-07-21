@@ -1,14 +1,14 @@
 ---
 title: UserInitials
 second_title: Справочник по API Aspose.Words для .NET
-description: Получает или устанавливает инициалы текущего пользователя.
+description: Получает или задает инициалы текущего пользователя.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.fields/fielduserinitials/userinitials/
 ---
 ## FieldUserInitials.UserInitials property
 
-Получает или устанавливает инициалы текущего пользователя.
+Получает или задает инициалы текущего пользователя.
 
 ```csharp
 public string UserInitials { get; set; }
@@ -35,7 +35,7 @@ Assert.AreEqual(userInformation.Initials, fieldUserInitials.Result);
 Assert.AreEqual(" USERINITIALS ", fieldUserInitials.GetFieldCode());
 Assert.AreEqual("J. D.", fieldUserInitials.Result);
 
- // Мы можем установить это свойство, чтобы наше поле переопределило значение, хранящееся в настоящее время в объекте UserInformation.
+ // Мы можем установить это свойство, чтобы наше поле переопределяло значение, хранящееся в настоящее время в объекте UserInformation.
 fieldUserInitials.UserInitials = "J. C.";
 fieldUserInitials.Update();
 

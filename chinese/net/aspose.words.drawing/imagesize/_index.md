@@ -18,7 +18,7 @@ public class ImageSize
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ImageSize](imagesize#constructor)(int, int) | 将宽度和高度初始化为给定的像素值。将分辨率初始化为 96 dpi。 |
+| [ImageSize](imagesize#constructor)(int, int) | 将宽度和高度初始化为给定的像素值。将分辨率初始化为 96 dpi. |
 | [ImageSize](imagesize#constructor_1)(int, int, double, double) | 将宽度、高度和分辨率初始化为给定值。 |
 
 ## 特性
@@ -27,14 +27,14 @@ public class ImageSize
 | --- | --- |
 | [HeightPixels](../../aspose.words.drawing/imagesize/heightpixels) { get; } | 获取图像的高度（以像素为单位）。 |
 | [HeightPoints](../../aspose.words.drawing/imagesize/heightpoints) { get; } | 获取图像的高度（以磅为单位）。 1 点是 1/72 英寸。 |
-| [HorizontalResolution](../../aspose.words.drawing/imagesize/horizontalresolution) { get; } | 获取以 DPI 为单位的水平分辨率。 |
+| [HorizontalResolution](../../aspose.words.drawing/imagesize/horizontalresolution) { get; } | 获取 DPI 中的水平分辨率。 |
 | [VerticalResolution](../../aspose.words.drawing/imagesize/verticalresolution) { get; } | 获取 DPI 中的垂直分辨率。 |
 | [WidthPixels](../../aspose.words.drawing/imagesize/widthpixels) { get; } | 获取图像的宽度（以像素为单位）。 |
 | [WidthPoints](../../aspose.words.drawing/imagesize/widthpoints) { get; } | 获取图像的宽度（以磅为单位）。 1 点是 1/72 英寸。 |
 
 ### 例子
 
-显示如何使用图片。
+显示如何使用图像调整形状的大小。
 
 ```csharp
 #if NET48 || JAVA

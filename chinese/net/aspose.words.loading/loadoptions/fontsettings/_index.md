@@ -18,7 +18,7 @@ public FontSettings FontSettings { get; set; }
 
 加载某些格式时，Aspose.Words 可能需要解析字体。例如，在加载 HTML 文档时，Aspose.Words 可能会解析字体以执行字体回退。
 
-如果设置为 null，则将使用默认静态字体设置[`DefaultInstance`](../../../aspose.words.fonts/fontsettings/defaultinstance)。
+如果设置为 null，则默认静态字体设置[`DefaultInstance`](../../../aspose.words.fonts/fontsettings/defaultinstance)将会被使用。
 
 默认值为空。
 
@@ -27,23 +27,20 @@ public FontSettings FontSettings { get; set; }
 显示如何在加载文档时应用字体替换设置。
 
 ```csharp
+// 创建一个将替换“Times New Roman”字体的 FontSettings 对象
+// 使用“MyFonts”文件夹中的字体“Arvo”。
+FontSettings fontSettings = new FontSettings();
+fontSettings.SetFontsFolder(FontsDir, false);
+fontSettings.SubstitutionSettings.TableSubstitution.AddSubstitutes("Times New Roman", "Arvo");
+
+// 将该 FontSettings 对象设置为新创建的 LoadOptions 对象的属性。
 LoadOptions loadOptions = new LoadOptions();
-loadOptions.FontSettings = new FontSettings();
+loadOptions.FontSettings = fontSettings;
 
-// 为 LoadOptions 对象设置字体替换规则。
-// 如果我们正在加载的文档使用了我们没有的字体，
-// 此规则会将不可用的字体替换为确实存在的字体。
-// 在这种情况下，“MissingFont”的所有使用都将转换为“Comic Sans MS”。
-TableSubstitutionRule substitutionRule = loadOptions.FontSettings.SubstitutionSettings.TableSubstitution;
-substitutionRule.AddSubstitutes("MissingFont", new[] {"Comic Sans MS"});
+// 加载文档，然后使用字体替换将其呈现为 PDF。
+Document doc = new Document(MyDir + "Document.docx", loadOptions);
 
-Document doc = new Document(MyDir + "Missing font.html", loadOptions);
-
-// 此时，此类文本仍将位于“MissingFont”中。
-// 字体替换将在我们渲染文档时发生。
-Assert.AreEqual("MissingFont", doc.FirstSection.Body.FirstParagraph.Runs[0].Font.Name);
-
-doc.Save(ArtifactsDir + "FontSettings.ResolveFontsBeforeLoadingDocument.pdf");
+doc.Save(ArtifactsDir + "LoadOptions.FontSettings.pdf");
 ```
 
 显示如何在加载期间指定字体替换。

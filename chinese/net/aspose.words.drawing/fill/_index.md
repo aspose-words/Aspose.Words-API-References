@@ -18,21 +18,21 @@ public class Fill
 
 | 姓名 | 描述 |
 | --- | --- |
-| [BackColor](../../aspose.words.drawing/fill/backcolor) { get; set; } | 获取或设置表示填充背景颜色的 Color 对象。 |
+| [BackColor](../../aspose.words.drawing/fill/backcolor) { get; set; } | 获取或设置一个 Color 对象，表示填充的背景色。 |
 | [FillType](../../aspose.words.drawing/fill/filltype) { get; } | 获取填充类型。 |
 | [ForeColor](../../aspose.words.drawing/fill/forecolor) { get; set; } | 获取或设置表示填充前景色的 Color 对象。 |
 | [GradientAngle](../../aspose.words.drawing/fill/gradientangle) { get; set; } | 获取或设置渐变填充的角度。 |
-| [GradientStops](../../aspose.words.drawing/fill/gradientstops) { get; } | 获取用于填充的[`GradientStop`](../gradientstop)对象的集合。 |
+| [GradientStops](../../aspose.words.drawing/fill/gradientstops) { get; } | 获取一个集合[`GradientStop`](../gradientstop)填充对象。 |
 | [GradientStyle](../../aspose.words.drawing/fill/gradientstyle) { get; } | 获取渐变样式[`GradientStyle`](../gradientstyle)用于填充。 |
 | [GradientVariant](../../aspose.words.drawing/fill/gradientvariant) { get; } | 获取渐变变体[`GradientVariant`](../gradientvariant)用于填充。 |
 | [ImageBytes](../../aspose.words.drawing/fill/imagebytes) { get; } | 获取填充纹理或图案的原始字节。 |
 | [Opacity](../../aspose.words.drawing/fill/opacity) { get; set; } | 获取或设置指定填充的不透明度为 0.0（透明）和 1.0（不透明）之间的值。 |
-| [Pattern](../../aspose.words.drawing/fill/pattern) { get; } | 为填充获取[`PatternType`](../patterntype)。 |
-| [PresetTexture](../../aspose.words.drawing/fill/presettexture) { get; } | 为填充获取[`PresetTexture`](../presettexture)。 |
-| [RotateWithObject](../../aspose.words.drawing/fill/rotatewithobject) { get; set; } | 获取或设置填充是否随指定对象旋转。 |
+| [Pattern](../../aspose.words.drawing/fill/pattern) { get; } | 得到一个[`PatternType`](../patterntype)用于填充。 |
+| [PresetTexture](../../aspose.words.drawing/fill/presettexture) { get; } | 得到一个[`PresetTexture`](../presettexture)用于填充。 |
+| [RotateWithObject](../../aspose.words.drawing/fill/rotatewithobject) { get; set; } | 获取或设置填充是否随指定对象旋转 |
 | [TextureAlignment](../../aspose.words.drawing/fill/texturealignment) { get; set; } | 获取或设置平铺纹理填充的对齐方式。 |
-| [Transparency](../../aspose.words.drawing/fill/transparency) { get; set; } | 获取或设置指定填充的透明度，其值介于 0.0（不透明）和 1.0（透明）之间。 |
-| [Visible](../../aspose.words.drawing/fill/visible) { get; set; } | 获取或设置值为` true` 如果应用于此实例的格式可见。 |
+| [Transparency](../../aspose.words.drawing/fill/transparency) { get; set; } | 获取或设置指定填充的透明度为 0.0（不透明）和 1.0（透明）之间的值。 |
+| [Visible](../../aspose.words.drawing/fill/visible) { get; set; } | 获取或设置值为`真的`如果应用于此实例的格式是可见的。 |
 
 ## 方法
 
@@ -53,7 +53,7 @@ public class Fill
 
 ### 评论
 
-使用[`Fill`](../shapebase/fill)或[`Fill`](../../aspose.words/font/fill)属性以访问对象的填充属性。 您不会直接创建[`Fill`](../fill)类的实例。
+使用[`Fill`](../shapebase/fill)或者[`Fill`](../../aspose.words/font/fill)属性来访问对象的填充属性。 您不创建的实例[`Fill`](../fill)直接上课。
 
 ### 例子
 

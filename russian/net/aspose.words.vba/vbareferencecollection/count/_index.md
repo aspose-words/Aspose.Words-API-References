@@ -45,7 +45,7 @@ public void RemoveVbaReference()
 }
 
 /// <summary>
- /// Возвращает строку, представляющую путь LibId указанной ссылки. 
+/// Возвращает строку, представляющую путь LibId указанной ссылки. 
 /// </summary>
 private static string GetLibIdPath(VbaReference reference)
 {
@@ -63,7 +63,7 @@ private static string GetLibIdPath(VbaReference reference)
 }
 
 /// <summary>
- /// Возвращает путь из указанного идентификатора библиотеки типов автоматизации.
+/// Возвращает путь из указанного идентификатора библиотеки типов автоматизации.
 /// </summary>
 private static string GetLibIdReferencePath(string libIdReference)
 {
@@ -78,7 +78,7 @@ private static string GetLibIdReferencePath(string libIdReference)
 }
 
 /// <summary>
- /// Возвращает путь из указанного идентификатора библиотеки типов автоматизации.
+/// Возвращает путь из указанного идентификатора библиотеки типов автоматизации.
 /// </summary>
 private static string GetLibIdProjectPath(string libIdProject)
 {

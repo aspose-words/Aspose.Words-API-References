@@ -1,14 +1,14 @@
 ---
 title: Transparency
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置一个介于 0.0不透明和 1.0透明之间的值表示笔画的透明度 
+description: 获取或设置一个介于 0.0不透明和 1.0透明之间的值表示描边的透明度 
 type: docs
 weight: 180
 url: /zh/net/aspose.words.drawing/stroke/transparency/
 ---
 ## Stroke.Transparency property
 
-获取或设置一个介于 0.0（不透明）和 1.0（透明）之间的值，表示笔画的透明度 。
+获取或设置一个介于 0.0（不透明）和 1.0（透明）之间的值，表示描边的透明度 。
 
 ```csharp
 public double Transparency { get; set; }
@@ -16,7 +16,7 @@ public double Transparency { get; set; }
 
 ### 评论
 
-默认值为 0。
+默认值为 0.
 
 ### 例子
 

@@ -1,14 +1,14 @@
 ---
 title: FormatLanguageId
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置与指定书目样式结合使用的语言 ID以格式化文档中的引用 
+description: 获取或设置与指定书目样式结合使用的语言 ID以格式化文档中的 citation 
 type: docs
 weight: 30
 url: /zh/net/aspose.words.fields/fieldcitation/formatlanguageid/
 ---
 ## FieldCitation.FormatLanguageId property
 
-获取或设置与指定书目样式结合使用的语言 ID，以格式化文档中的引用 。
+获取或设置与指定书目样式结合使用的语言 ID，以格式化文档中的 citation 。
 
 ```csharp
 public string FormatLanguageId { get; set; }
@@ -16,7 +16,7 @@ public string FormatLanguageId { get; set; }
 
 ### 例子
 
-显示如何使用 CITATION 和 BIBLIOGRAPHY 字段。
+展示如何使用 CITATION 和 BIBLIOGRAPHY 字段。
 
 ```csharp
 // 打开一个包含我们可以在其中找到的书目来源的文档

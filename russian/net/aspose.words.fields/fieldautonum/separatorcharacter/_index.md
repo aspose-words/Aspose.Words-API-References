@@ -16,7 +16,7 @@ public string SeparatorCharacter { get; set; }
 
 ### Примеры
 
-Показывает, как нумеровать абзацы, используя поля autonum.
+Показывает, как нумеровать абзацы с помощью полей autonum.
 
 ```csharp
 Document doc = new Document();

@@ -1,16 +1,16 @@
 ---
 title: SaveSubsetFonts
 second_title: Aspose.Words for .NET API 参考
-description: 指定是否将嵌入的 TrueType 字体的子集与文档一起保存 此属性的默认值为 false 
+description: 指定是否将嵌入的 TrueType 字体的子集与文档一起保存 此属性的默认值为 错误的.
 type: docs
 weight: 50
 url: /zh/net/aspose.words.fonts/fontinfocollection/savesubsetfonts/
 ---
 ## FontInfoCollection.SaveSubsetFonts property
 
-指定是否将嵌入的 TrueType 字体的子集与文档一起保存。 此属性的默认值为 **false** 。
+指定是否将嵌入的 TrueType 字体的子集与文档一起保存。 此属性的默认值为 **错误的**.
 
-此选项仅在[`EmbedTrueTypeFonts`](../embedtruetypefonts)属性设置为 **时有效 真** 。
+此选项仅在以下情况下有效[`EmbedTrueTypeFonts`](../embedtruetypefonts)属性设置为 **真的**.
 
 ```csharp
 public bool SaveSubsetFonts { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: IComparisonExpressionEvaluator
 second_title: Aspose.Words for .NET API 参考
-description: 实施时允许覆盖FieldIf./fieldif和R5 的默认比较表达式评估TAspose.Words.Fields.FieldCompare字段
+description: 实现时允许覆盖默认比较表达式评估FieldIf./fieldif和FieldCompare./fieldcompare字段.
 type: docs
-weight: 2470
+weight: 2510
 url: /zh/net/aspose.words.fields/icomparisonexpressionevaluator/
 ---
 ## IComparisonExpressionEvaluator interface
 
-实施时，允许覆盖[`FieldIf`](../fieldif)和:::R5 的默认比较表达式评估:T:Aspose.Words.Fields.FieldCompare:::字段。
+实现时，允许覆盖默认比较表达式评估[`FieldIf`](../fieldif)和[`FieldCompare`](../fieldcompare)字段.
 
 ```csharp
 public interface IComparisonExpressionEvaluator
@@ -18,7 +18,7 @@ public interface IComparisonExpressionEvaluator
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Evaluate](../../aspose.words.fields/icomparisonexpressionevaluator/evaluate)(Field, ComparisonExpression) | 计算比较表达式。 |
+| [Evaluate](../../aspose.words.fields/icomparisonexpressionevaluator/evaluate)(Field, ComparisonExpression) | 评估比较表达式。 |
 
 ### 也可以看看
 

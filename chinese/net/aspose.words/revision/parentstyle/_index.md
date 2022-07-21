@@ -1,14 +1,14 @@
 ---
 title: ParentStyle
 second_title: Aspose.Words for .NET API 参考
-description: 获取此修订的直接父样式所有者 此属性仅适用于StyleDefinitionChange修订类型
+description: 获取此修订的直接父样式所有者 此属性仅适用于StyleDefinitionChange修订类型.
 type: docs
 weight: 50
 url: /zh/net/aspose.words/revision/parentstyle/
 ---
 ## Revision.ParentStyle property
 
-获取此修订的直接父样式（所有者）。 此属性仅适用于StyleDefinitionChange修订类型。
+获取此修订的直接父样式（所有者）。 此属性仅适用于StyleDefinitionChange修订类型.
 
 ```csharp
 public Style ParentStyle { get; }
@@ -16,21 +16,21 @@ public Style ParentStyle { get; }
 
 ### 评论
 
-如果此修订涉及文档节点上的更改，请使用ParentNode代替。
+如果此修订涉及文档节点上的更改，请使用[`ParentNode`](../parentnode)
 
 ### 例子
 
-显示如何使用文档的修订集合。
+展示如何使用文档的修订集合。
 
 ```csharp
 Document doc = new Document(MyDir + "Revisions.docx");
 RevisionCollection revisions = doc.Revisions;
 
- // 这个集合本身有一个修订组集合。
- // 每组是相邻修订的序列。
+// 这个集合本身有一个修订组的集合。
+// 每组是相邻修订的序列。
 Console.WriteLine($"{revisions.Groups.Count} revision groups:");
 
- // 遍历组的集合并打印修订所关注的文本。
+// 遍历组的集合并打印修订所涉及的文本。
 using (IEnumerator<RevisionGroup> e = revisions.Groups.GetEnumerator())
 {
     while (e.MoveNext())
@@ -40,9 +40,9 @@ using (IEnumerator<RevisionGroup> e = revisions.Groups.GetEnumerator())
     }
 }
 
- // 修订影响的每个运行都会获得一个相应的修订对象。
- // 修订版的集合比我们上面打印的压缩形式大得多，
- // 取决于我们在 Microsoft Word 编辑期间将文档分割成多少次运行。
+// 修订影响的每个运行都会获得一个相应的修订对象。
+// 修订版的集合比我们上面打印的压缩形式大得多，
+// 取决于我们在 Microsoft Word 编辑期间将文档分割成多少次运行。
 Console.WriteLine($"\n{revisions.Count} revisions:");
 
 using (IEnumerator<Revision> e = revisions.GetEnumerator())
@@ -50,8 +50,8 @@ using (IEnumerator<Revision> e = revisions.GetEnumerator())
     while (e.MoveNext())
     {
         // StyleDefinitionChange 严格影响样式而不是文档节点。这意味着“父母风格”
-         // 属性将始终处于使用状态，而 ParentNode 将始终为 null.
-         // 由于所有其他更改都会影响节点，因此 ParentNode 会反过来被使用，ParentStyle 将为 null.
+        // 属性将始终处于使用状态，而 ParentNode 将始终为空。
+        // 由于所有其他更改都会影响节点，因此 ParentNode 将反过来被使用，并且 ParentStyle 将为 null。
         if (e.Current.RevisionType == RevisionType.StyleDefinitionChange)
         {
             Console.WriteLine($"\tRevision type \"{e.Current.RevisionType}\", " +
@@ -65,7 +65,7 @@ using (IEnumerator<Revision> e = revisions.GetEnumerator())
     }
 }
 
- // 通过集合拒绝所有修订，将文档恢复为原始形式。
+// 通过集合拒绝所有修订，将文档恢复为原始形式。
 revisions.RejectAll();
 
 Assert.AreEqual(0, revisions.Count);

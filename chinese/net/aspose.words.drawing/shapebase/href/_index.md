@@ -18,19 +18,19 @@ public string HRef { get; set; }
 
 默认值为空字符串。
 
-以下是此属性的有效值示例:
+以下是此属性的有效值示例：
 
-完整 URI:` https://www.aspose.com/` 。
+完整的 URI：`https://www.aspose.com/`.
 
-完整文件名:` C:\\My Documents\\SalesReport.doc` 。
+完整文件名：`C:\\我的文档\\SalesReport.doc`.
 
-相对 URI:` ../../../resource.txt`
+相对 URI：`../../../resource.txt`
 
-相对文件名:` ..\\My Documents\\SalesReport.doc` 。
+相对文件名：`..\\我的文档\\SalesReport.doc`.
 
-在另一个文档中添加书签:` https://www.aspose.com/Products/Default.aspx#Suites`
+另一个文档中的书签：`https://www.aspose.com/Products/Default.aspx#Suites`
 
-本文档内的书签:` #BookmakName` 。
+本文档中的书签：`#BookmakName`.
 
 ### 例子
 

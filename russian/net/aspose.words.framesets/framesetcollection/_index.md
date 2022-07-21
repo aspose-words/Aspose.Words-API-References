@@ -1,14 +1,14 @@
 ---
 title: FramesetCollection
 second_title: Справочник по API Aspose.Words для .NET
-description: Представляет коллекцию экземпляров классаFrameset./frameset.
+description: Представляет набор экземпляровFrameset./frameset класс.
 type: docs
-weight: 2860
+weight: 2910
 url: /ru/net/aspose.words.framesets/framesetcollection/
 ---
 ## FramesetCollection class
 
-Представляет коллекцию экземпляров класса[`Frameset`](../frameset).
+Представляет набор экземпляров[`Frameset`](../frameset) класс.
 
 ```csharp
 public class FramesetCollection : IEnumerable<Frameset>

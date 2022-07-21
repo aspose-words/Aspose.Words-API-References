@@ -16,7 +16,7 @@ public string NameFarEast { get; set; }
 
 ### 例子
 
-显示如何在 Far 中插入和格式化文本东方语言。
+展示如何以远东语言插入和格式化文本。
 
 ```csharp
 Document doc = new Document();

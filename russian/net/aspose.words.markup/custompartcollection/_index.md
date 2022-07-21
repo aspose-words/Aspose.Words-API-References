@@ -1,14 +1,14 @@
 ---
 title: CustomPartCollection
 second_title: Справочник по API Aspose.Words для .NET
-description: Представляет набор объектовCustomPart./custompart.
+description: Представляет наборCustomPart./custompart объекты.
 type: docs
-weight: 3620
+weight: 3670
 url: /ru/net/aspose.words.markup/custompartcollection/
 ---
 ## CustomPartCollection class
 
-Представляет набор объектов[`CustomPart`](../custompart).
+Представляет набор[`CustomPart`](../custompart) объекты.
 
 ```csharp
 public class CustomPartCollection : IEnumerable<CustomPart>
@@ -33,13 +33,13 @@ public class CustomPartCollection : IEnumerable<CustomPart>
 | --- | --- |
 | [Add](../../aspose.words.markup/custompartcollection/add)(CustomPart) | Добавляет элемент в коллекцию. |
 | [Clear](../../aspose.words.markup/custompartcollection/clear)() | Удаляет все элементы из коллекции. |
-| [Clone](../../aspose.words.markup/custompartcollection/clone)() | Делает полную копию этой коллекции и ее элементов. |
-| [GetEnumerator](../../aspose.words.markup/custompartcollection/getenumerator)() | Возвращает объект перечислителя, который можно использовать для перебора всех элементов коллекции. |
+| [Clone](../../aspose.words.markup/custompartcollection/clone)() | Создает полную копию этой коллекции и ее элементов. |
+| [GetEnumerator](../../aspose.words.markup/custompartcollection/getenumerator)() | Возвращает объект перечислителя, который можно использовать для перебора всех элементов в коллекции. |
 | [RemoveAt](../../aspose.words.markup/custompartcollection/removeat)(int) | Удаляет элемент по указанному индексу. |
 
 ### Примечания
 
-Обычно экземпляры этого класса создавать не требуется. Вы получаете доступ к пользовательским частям , связанным с пакетом OOXML, через свойство[`PackageCustomParts`](../../aspose.words/document/packagecustomparts).
+Обычно вам не нужно создавать экземпляры этого класса. Вы получаете доступ к пользовательским частям , связанным с пакетом OOXML, через[`PackageCustomParts`](../../aspose.words/document/packagecustomparts) имущество.
 
 ### Примеры
 

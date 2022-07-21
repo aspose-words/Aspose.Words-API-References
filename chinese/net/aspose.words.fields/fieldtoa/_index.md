@@ -3,7 +3,7 @@ title: FieldToa
 second_title: Aspose.Words for .NET API 参考
 description: 实现 TOA 字段
 type: docs
-weight: 2330
+weight: 2370
 url: /zh/net/aspose.words.fields/fieldtoa/
 ---
 ## FieldToa class
@@ -24,41 +24,41 @@ public class FieldToa : Field
 
 | 姓名 | 描述 |
 | --- | --- |
-| [BookmarkName](../../aspose.words.fields/fieldtoa/bookmarkname) { get; set; } | 获取或设置标记用于构建表的文档部分的书签的名称。 |
+| [BookmarkName](../../aspose.words.fields/fieldtoa/bookmarkname) { get; set; } | 获取或设置书签的名称，该书签标记了用于构建表格的文档部分。 |
 | [DisplayResult](../../aspose.words.fields/field/displayresult) { get; } | 获取表示显示字段结果的文本。 |
-| [End](../../aspose.words.fields/field/end) { get; } | 获取表示字段结束的节点。 |
+| [End](../../aspose.words.fields/field/end) { get; } | 获取代表字段end的节点。 |
 | [EntryCategory](../../aspose.words.fields/fieldtoa/entrycategory) { get; set; } | 获取或设置表中包含的条目的整数类别。 |
 | [EntrySeparator](../../aspose.words.fields/fieldtoa/entryseparator) { get; set; } | 获取或设置用于分隔权限表条目及其页码的字符序列。 |
-| [Format](../../aspose.words.fields/field/format) { get; } | 获取[`FieldFormat`](../fieldformat)对象，该对象提供对字段格式的类型化访问。 |
+| [Format](../../aspose.words.fields/field/format) { get; } | 得到一个[`FieldFormat`](../fieldformat)提供对字段格式的类型化访问的对象。 |
 | [IsDirty](../../aspose.words.fields/field/isdirty) { get; set; } | 获取或设置字段的当前结果是否由于对文档的其他修改而不再正确（陈旧）。 |
 | [IsLocked](../../aspose.words.fields/field/islocked) { get; set; } | 获取或设置字段是否被锁定（不应重新计算其结果）。 |
-| [LocaleId](../../aspose.words.fields/field/localeid) { get; set; } | 获取或设置字段的 LCID。 |
+| [LocaleId](../../aspose.words.fields/field/localeid) { get; set; } | 获取或设置字段的LCID。 |
 | [PageNumberListSeparator](../../aspose.words.fields/fieldtoa/pagenumberlistseparator) { get; set; } | 获取或设置用于分隔页码列表中两个页码的字符序列。 |
 | [PageRangeSeparator](../../aspose.words.fields/fieldtoa/pagerangeseparator) { get; set; } | 获取或设置用于分隔页面范围的开始和结束的字符序列。 |
 | [RemoveEntryFormatting](../../aspose.words.fields/fieldtoa/removeentryformatting) { get; set; } | 获取或设置是否从权限表中的 条目中删除文档中条目文本的格式。 |
 | [Result](../../aspose.words.fields/field/result) { get; set; } | 获取或设置字段分隔符和字段结尾之间的文本。 |
 | [Separator](../../aspose.words.fields/field/separator) { get; } | 获取表示字段分隔符的节点。可以为空。 |
-| [SequenceName](../../aspose.words.fields/fieldtoa/sequencename) { get; set; } | 获取或设置其编号包含在页码中的序列的名称。 |
+| [SequenceName](../../aspose.words.fields/fieldtoa/sequencename) { get; set; } | 获取或设置一个序列的名称，其编号包含在页码中。 |
 | [SequenceSeparator](../../aspose.words.fields/fieldtoa/sequenceseparator) { get; set; } | 获取或设置用于分隔序号和页码的字符序列。 |
 | [Start](../../aspose.words.fields/field/start) { get; } | 获取表示字段开始的节点。 |
 | virtual [Type](../../aspose.words.fields/field/type) { get; } | 获取 Microsoft Word 字段类型。 |
 | [UseHeading](../../aspose.words.fields/fieldtoa/useheading) { get; set; } | 获取或设置是否在权限表中包含条目的类别标题。 |
-| [UsePassim](../../aspose.words.fields/fieldtoa/usepassim) { get; set; } | 获取或设置是否将五个或更多不同的页面引用替换为相同的 权限为“passim”，用于指示一个单词或段落经常出现在被引用的作品中 。 |
+| [UsePassim](../../aspose.words.fields/fieldtoa/usepassim) { get; set; } | 获取或设置是否将五个或多个不同的页面引用替换为相同的 权限为“passim”，用于表示一个单词或段落在被引用的作品中经常出现 。 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode)() | 返回字段开始和字段分隔符之间的文本（如果没有分隔符，则返回字段结束）。 包含子字段的字段代码和字段结果。 |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode)() | 返回字段开始和字段分隔符之间的文本（或字段结束，如果没有分隔符）。 包括子字段的字段代码和字段结果。 |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode)(bool) | 返回字段开始和字段分隔符之间的文本（如果没有分隔符，则返回字段结束）。 |
-| [Remove](../../aspose.words.fields/field/remove)() | 从文档中删除字段。在字段之后返回一个节点。如果字段的结尾是其父节点的最后一个子 ，则返回其父段落。如果该字段已被删除，则返回 **null** 。 |
+| [Remove](../../aspose.words.fields/field/remove)() | 从文档中删除字段。在字段之后返回一个节点。如果字段的结尾是其父节点的最后一个 child ，则返回其父段落。如果该字段已被删除，则返回 **无效的**. |
 | [Unlink](../../aspose.words.fields/field/unlink)() | 执行字段取消链接。 |
 | [Update](../../aspose.words.fields/field/update)() | 执行字段更新。如果该字段已被更新，则抛出。 |
 | [Update](../../aspose.words.fields/field/update)(bool) | 执行字段更新。如果该字段已被更新，则抛出。 |
 
 ### 评论
 
-建立权限表（即法律文件中的引用列表，例如使用 TA 字段指定的条目作为参考 到案例、法规和规则，以及出现参考的页码）。
+使用 TA 指定的 条目构建权限表（即法律文件中的引用列表，例如对案例、法规和规则的引用 ，以及引用出现的页码）字段.
 
 ### 例子
 

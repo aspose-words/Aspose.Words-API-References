@@ -1,14 +1,14 @@
 ---
 title: FontSourceType
 second_title: Справочник по API Aspose.Words для .NET
-description: Указывает тип источника шрифта.
+description: Определяет тип источника шрифта.
 type: docs
-weight: 2760
+weight: 2810
 url: /ru/net/aspose.words.fonts/fontsourcetype/
 ---
 ## FontSourceType enumeration
 
-Указывает тип источника шрифта.
+Определяет тип источника шрифта.
 
 ```csharp
 public enum FontSourceType
@@ -18,11 +18,11 @@ public enum FontSourceType
 
 | Имя | Ценность | Описание |
 | --- | --- | --- |
-| FontFile | `0` | A[`FileFontSource`](../filefontsource)объект, который представляет один файл шрифта. |
-| FontsFolder | `1` | A[`FolderFontSource`](../folderfontsource)объект, представляющий папку с файлами шрифтов. |
-| MemoryFont | `2` | A[`MemoryFontSource`](../memoryfontsource)объект, который представляет один шрифт в памяти. |
-| SystemFonts | `3` | Объект[`SystemFontSource`](../systemfontsource), представляющий все шрифты, установленные в системе. |
-| FontStream | `4` | Объект[`StreamFontSource`](../streamfontsource), представляющий поток данных шрифта. |
+| FontFile | `0` | А[`FileFontSource`](../filefontsource) объект, представляющий один файл шрифта. |
+| FontsFolder | `1` | А[`FolderFontSource`](../folderfontsource) объект, представляющий папку с файлами шрифтов. |
+| MemoryFont | `2` | А[`MemoryFontSource`](../memoryfontsource) объект, представляющий один шрифт в памяти. |
+| SystemFonts | `3` | А[`SystemFontSource`](../systemfontsource) объект, представляющий все шрифты, установленные в системе. |
+| FontStream | `4` | А[`StreamFontSource`](../streamfontsource) объект, представляющий поток с данными шрифта. |
 
 ### Примеры
 

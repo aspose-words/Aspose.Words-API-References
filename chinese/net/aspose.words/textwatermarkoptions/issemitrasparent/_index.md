@@ -1,14 +1,14 @@
 ---
 title: IsSemitrasparent
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置负责水印不透明度的布尔值 默认值为 True
+description: 获取或设置一个布尔值它负责水印的不透明度 默认值为 True
 type: docs
 weight: 50
 url: /zh/net/aspose.words/textwatermarkoptions/issemitrasparent/
 ---
 ## TextWatermarkOptions.IsSemitrasparent property
 
-获取或设置负责水印不透明度的布尔值。 默认值为 True。
+获取或设置一个布尔值，它负责水印的不透明度。 默认值为 True。
 
 ```csharp
 public bool IsSemitrasparent { get; set; }
@@ -16,7 +16,7 @@ public bool IsSemitrasparent { get; set; }
 
 ### 例子
 
-显示如何创建文本水印。
+演示如何创建文本水印。
 
 ```csharp
 Document doc = new Document();

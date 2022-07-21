@@ -3,7 +3,7 @@ title: PdfDigitalSignatureDetails
 second_title: Справочник по API Aspose.Words для .NET
 description: Содержит сведения о подписании документа PDF цифровой подписью.
 type: docs
-weight: 5100
+weight: 5150
 url: /ru/net/aspose.words.saving/pdfdigitalsignaturedetails/
 ---
 ## PdfDigitalSignatureDetails class
@@ -25,24 +25,24 @@ public class PdfDigitalSignatureDetails
 
 | Имя | Описание |
 | --- | --- |
-| [CertificateHolder](../../aspose.words.saving/pdfdigitalsignaturedetails/certificateholder) { get; set; } | Возвращает объект держателя сертификата, который содержит сертификат, использованный для подписи документа. |
+| [CertificateHolder](../../aspose.words.saving/pdfdigitalsignaturedetails/certificateholder) { get; set; } | Возвращает объект держателя сертификата, содержащий сертификат, который использовался для подписи документа. |
 | [HashAlgorithm](../../aspose.words.saving/pdfdigitalsignaturedetails/hashalgorithm) { get; set; } | Получает или задает алгоритм хеширования. |
 | [Location](../../aspose.words.saving/pdfdigitalsignaturedetails/location) { get; set; } | Получает или задает расположение подписи. |
 | [Reason](../../aspose.words.saving/pdfdigitalsignaturedetails/reason) { get; set; } | Получает или задает причину подписания. |
 | [SignatureDate](../../aspose.words.saving/pdfdigitalsignaturedetails/signaturedate) { get; set; } | Получает или задает дату подписания. |
-| [TimestampSettings](../../aspose.words.saving/pdfdigitalsignaturedetails/timestampsettings) { get; set; } | Получает или задает параметры метки времени цифровой подписи. |
+| [TimestampSettings](../../aspose.words.saving/pdfdigitalsignaturedetails/timestampsettings) { get; set; } | Получает или задает параметры временной метки цифровой подписи. |
 
 ### Примечания
 
-На данный момент цифровая подпись PDF-документов доступна только в .NET 2.0 или выше.
+В настоящее время цифровая подпись PDF-документов доступна только в .NET 2.0 или более поздней версии.
 
-Для цифровой подписи PDF-документа при его создании с помощью Aspose.Words установите:::R5:P:Aspose.Words.Saving.PdfSaveOptions.DigitalSignatureDetails:: в допустимый[`PdfDigitalSignatureDetails`](../pdfdigitalsignaturedetails)объект, а затем сохраните документ в формате PDF, передав [`PdfSaveOptions`](../pdfsaveoptions)в качестве параметра в[`Save`](../../aspose.words/document/save)метод.
+Чтобы подписать PDF-документ цифровой подписью при его создании с помощью Aspose.Words, установите[`DigitalSignatureDetails`](../pdfsaveoptions/digitalsignaturedetails) на допустимое[`PdfDigitalSignatureDetails`](../pdfdigitalsignaturedetails) объект, а затем сохраните документ в формате PDF, передав [`PdfSaveOptions`](../pdfsaveoptions)как параметр в[`Save`](../../aspose.words/document/save) метод.
 
-Aspose.Words создает подпись PKCS#7 для всего документа PDF и использует фильтр "Adobe.PPKMS" и "adbe. подфильтр pkcs7.sha1" при создании цифровой подписи.
+Aspose.Words создает подпись PKCS#7 для всего документа PDF и использует фильтр «Adobe.PPKMS» и подфильтр «adbe.pkcs7.sha1» при создании цифровой подписи.
 
 ### Примеры
 
-Показывает, как подписать сгенерированный PDF документ.
+Показывает, как подписать сгенерированный PDF-документ.
 
 ```csharp
 Document doc = new Document();

@@ -21,18 +21,18 @@ public VbaModuleType Type { get; set; }
 ```csharp
 Document doc = new Document();
 
- // Создаем новый проект VBA.
+// Создаем новый проект VBA.
 VbaProject project = new VbaProject();
 project.Name = "Aspose.Project";
 doc.VbaProject = project;
 
- // Создаем новый модуль и указываем исходный код макроса.
+// Создаем новый модуль и указываем исходный код макроса.
 VbaModule module = new VbaModule();
 module.Name = "Aspose.Module";
 module.Type = VbaModuleType.ProceduralModule;
 module.SourceCode = "New source code";
 
- // Добавляем модуль в проект VBA.
+// Добавляем модуль в проект VBA.
 doc.VbaProject.Modules.Add(module);
 
 doc.Save(ArtifactsDir + "VbaProject.CreateVBAMacros.docm");

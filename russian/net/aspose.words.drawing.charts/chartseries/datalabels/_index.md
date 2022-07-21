@@ -1,14 +1,14 @@
 ---
 title: DataLabels
 second_title: Справочник по API Aspose.Words для .NET
-description: Задает настройки меток данных для всего ряда.
+description: Задает настройки меток данных для всей серии.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.drawing.charts/chartseries/datalabels/
 ---
 ## ChartSeries.DataLabels property
 
-Задает настройки меток данных для всего ряда.
+Задает настройки меток данных для всей серии.
 
 ```csharp
 public ChartDataLabelCollection DataLabels { get; }

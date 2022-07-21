@@ -16,8 +16,8 @@ public FormField InsertCheckBox(string name, bool checkedValue, int size)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| name | String | 表单字段的名称。可以是空字符串。超过 20 个字符的值将被截断。 |
-| checkedValue | Boolean | 复选框表单字段的检查状态。 |
+| name | String | 表单域的名称。可以是空字符串。超过 20 个字符的值将被截断。 |
+| checkedValue | Boolean | 检查复选框表单字段的状态。 |
 | size | Int32 | 以磅为单位指定复选框的大小。为 MS Word 指定 0 以自动计算复选框的大小。 |
 
 ### 返回值
@@ -26,7 +26,7 @@ public FormField InsertCheckBox(string name, bool checkedValue, int size)
 
 ### 评论
 
-如果为表单字段指定名称，则会自动创建具有相同名称的书签姓名。
+如果您为表单域指定名称，则会自动创建具有相同名称的书签。
 
 ### 例子
 
@@ -74,7 +74,7 @@ public FormField InsertCheckBox(string name, bool defaultValue, bool checkedValu
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| name | String | 表单字段的名称。可以是空字符串。超过 20 个字符的值将被截断。 |
+| name | String | 表单域的名称。可以是空字符串。超过 20 个字符的值将被截断。 |
 | defaultValue | Boolean | 复选框表单字段的默认值。 |
 | checkedValue | Boolean | 复选框表单字段的当前选中状态。 |
 | size | Int32 | 以磅为单位指定复选框的大小。为 MS Word 指定 0 以自动计算复选框的大小。 |
@@ -85,7 +85,7 @@ public FormField InsertCheckBox(string name, bool defaultValue, bool checkedValu
 
 ### 评论
 
-如果为表单字段指定名称，则会自动创建具有相同名称的书签姓名。
+如果您为表单域指定名称，则会自动创建具有相同名称的书签。
 
 ### 例子
 

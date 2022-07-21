@@ -1,14 +1,14 @@
 ---
 title: TextOrientation
 second_title: Справочник по API Aspose.Words для .NET
-description: Позволяет указатьTextOrientationaspose.words/pagesetup/textorientationдля всей страницы. Значение по умолчаниюHorizontal
+description: Позволяет указатьTextOrientationaspose.words/pagesetup/textorientation для всей страницы. Значение по умолчаниюHorizontal
 type: docs
 weight: 420
 url: /ru/net/aspose.words/pagesetup/textorientation/
 ---
 ## PageSetup.TextOrientation property
 
-Позволяет указать`TextOrientation`для всей страницы. Значение по умолчанию:Horizontal
+Позволяет указать`TextOrientation` для всей страницы. Значение по умолчанию:Horizontal
 
 ```csharp
 public TextOrientation TextOrientation { get; set; }
@@ -16,7 +16,7 @@ public TextOrientation TextOrientation { get; set; }
 
 ### Примечания
 
-Это свойство поддерживается только для MS Собственные форматы Word DOCX, WML, RTF и DOC.
+Это свойство поддерживается только для родных форматов MS Word DOCX, WML, RTF и DOC.
 
 ### Примеры
 

@@ -1,14 +1,14 @@
 ---
 title: Format
 second_title: Aspose.Words for .NET API 参考
-description: 提供对此数据点的填充和行格式的访问
+description: 提供对此数据点的填充和线条格式的访问
 type: docs
 weight: 30
 url: /zh/net/aspose.words.drawing.charts/chartdatapoint/format/
 ---
 ## ChartDataPoint.Format property
 
-提供对此数据点的填充和行格式的访问。
+提供对此数据点的填充和线条格式的访问。
 
 ```csharp
 public ChartFormat Format { get; }

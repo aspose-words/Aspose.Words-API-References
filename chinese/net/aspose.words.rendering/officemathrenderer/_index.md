@@ -1,14 +1,14 @@
 ---
 title: OfficeMathRenderer
 second_title: Aspose.Words for .NET API 参考
-description: 提供将单个OfficeMath../aspose.words.math/officemath 渲染为栅格或矢量的方法图像或图形对象
+description: 提供渲染个体的方法OfficeMath../aspose.words.math/officemath 到光栅或矢量图像或图形对象
 type: docs
-weight: 4250
+weight: 4300
 url: /zh/net/aspose.words.rendering/officemathrenderer/
 ---
 ## OfficeMathRenderer class
 
-提供将单个[`OfficeMath`](../../aspose.words.math/officemath) 渲染为栅格或矢量的方法图像或图形对象。
+提供渲染个体的方法[`OfficeMath`](../../aspose.words.math/officemath) 到光栅或矢量图像或图形对象。
 
 ```csharp
 public class OfficeMathRenderer : NodeRendererBase
@@ -18,7 +18,7 @@ public class OfficeMathRenderer : NodeRendererBase
 
 | 姓名 | 描述 |
 | --- | --- |
-| [OfficeMathRenderer](officemathrenderer)(OfficeMath) | 初始化此类的新实例。 |
+| [OfficeMathRenderer](officemathrenderer)(OfficeMath) | 初始化这个类的一个新实例。 |
 
 ## 特性
 
@@ -26,7 +26,7 @@ public class OfficeMathRenderer : NodeRendererBase
 | --- | --- |
 | [BoundsInPoints](../../aspose.words.rendering/noderendererbase/boundsinpoints) { get; } | 以点为单位获取形状的实际边界。 |
 | [OpaqueBoundsInPoints](../../aspose.words.rendering/noderendererbase/opaqueboundsinpoints) { get; } | 以点为单位获取形状的不透明边界。 |
-| [SizeInPoints](../../aspose.words.rendering/noderendererbase/sizeinpoints) { get; } | 获取形状的实际大小（以磅为单位）。 |
+| [SizeInPoints](../../aspose.words.rendering/noderendererbase/sizeinpoints) { get; } | 以点为单位获取形状的实际大小。 |
 
 ## 方法
 
@@ -34,14 +34,14 @@ public class OfficeMathRenderer : NodeRendererBase
 | --- | --- |
 | [GetBoundsInPixels](../../aspose.words.rendering/noderendererbase/getboundsinpixels)(float, float) | 计算指定缩放因子和分辨率的形状边界（以像素为单位）。 |
 | [GetBoundsInPixels](../../aspose.words.rendering/noderendererbase/getboundsinpixels)(float, float, float) | 计算指定缩放因子和分辨率的形状边界（以像素为单位）。 |
-| [GetOpaqueBoundsInPixels](../../aspose.words.rendering/noderendererbase/getopaqueboundsinpixels)(float, float) | 为指定的缩放因子和分辨率计算形状的不透明边界（以像素为单位）。 |
-| [GetOpaqueBoundsInPixels](../../aspose.words.rendering/noderendererbase/getopaqueboundsinpixels)(float, float, float) | 为指定的缩放因子和分辨率计算形状的不透明边界（以像素为单位）。 |
+| [GetOpaqueBoundsInPixels](../../aspose.words.rendering/noderendererbase/getopaqueboundsinpixels)(float, float) | 计算指定缩放因子和分辨率下形状的不透明边界（以像素为单位）。 |
+| [GetOpaqueBoundsInPixels](../../aspose.words.rendering/noderendererbase/getopaqueboundsinpixels)(float, float, float) | 计算指定缩放因子和分辨率下形状的不透明边界（以像素为单位）。 |
 | [GetSizeInPixels](../../aspose.words.rendering/noderendererbase/getsizeinpixels)(float, float) | 计算指定缩放因子和分辨率的形状大小（以像素为单位）。 |
 | [GetSizeInPixels](../../aspose.words.rendering/noderendererbase/getsizeinpixels)(float, float, float) | 计算指定缩放因子和分辨率的形状大小（以像素为单位）。 |
-| [RenderToScale](../../aspose.words.rendering/noderendererbase/rendertoscale)(Graphics, float, float, float) | 将形状渲染为Graphics 对象到指定比例。 |
-| [RenderToSize](../../aspose.words.rendering/noderendererbase/rendertosize)(Graphics, float, float, float, float) | 将形状渲染为Graphics 对象到指定大小。 |
-| [Save](../../aspose.words.rendering/noderendererbase/save)(Stream, ImageSaveOptions) | 将形状渲染为图像并保存到流中。 |
-| [Save](../../aspose.words.rendering/noderendererbase/save)(string, ImageSaveOptions) | 将形状渲染为图像并保存到文件中。 |
+| [RenderToScale](../../aspose.words.rendering/noderendererbase/rendertoscale)(Graphics, float, float, float) | 将形状渲染为Graphics 对象到指定的比例。 |
+| [RenderToSize](../../aspose.words.rendering/noderendererbase/rendertosize)(Graphics, float, float, float, float) | 将形状渲染为Graphics 对象到指定的大小。 |
+| [Save](../../aspose.words.rendering/noderendererbase/save)(Stream, ImageSaveOptions) | 将形状渲染成图像并保存到流中。 |
+| [Save](../../aspose.words.rendering/noderendererbase/save)(string, ImageSaveOptions) | 将形状渲染成图像并保存到文件中。 |
 
 ### 例子
 

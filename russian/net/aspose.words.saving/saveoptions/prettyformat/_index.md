@@ -1,14 +1,14 @@
 ---
 title: PrettyFormat
 second_title: Справочник по API Aspose.Words для .NET
-description: Когда true  вывод форматируется где это применимо. Значение по умолчанию false .
+description: Когдаистинный  красивые форматы вывода где это применимо. Значение по умолчанию ЛОЖЬ .
 type: docs
 weight: 120
 url: /ru/net/aspose.words.saving/saveoptions/prettyformat/
 ---
 ## SaveOptions.PrettyFormat property
 
-Когда` true` , вывод форматируется, где это применимо. Значение по умолчанию: **false** .
+Когда`истинный` , красивые форматы вывода, где это применимо. Значение по умолчанию: **ЛОЖЬ** .
 
 ```csharp
 public bool PrettyFormat { get; set; }
@@ -16,7 +16,7 @@ public bool PrettyFormat { get; set; }
 
 ### Примечания
 
-Установить на **true** чтобы сделать вывод HTML, MHTML, EPUB, WordML, RTF, DOCX и ODT удобочитаемым для человека. Полезно для тестирования или отладки.
+Установлен в **истинный** чтобы сделать вывод HTML, MHTML, EPUB, WordML, RTF, DOCX и ODT удобочитаемым для человека. Полезно для тестирования или отладки.
 
 ### Примеры
 

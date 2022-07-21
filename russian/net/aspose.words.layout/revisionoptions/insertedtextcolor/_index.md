@@ -1,14 +1,14 @@
 ---
 title: InsertedTextColor
 second_title: Справочник по API Aspose.Words для .NET
-description: Позволяет указать цвет который будет использоваться для вставленного содержимогоInsertion. Значение по умолчаниюByAuthor.
+description: Позволяет указать цвет который будет использоваться для вставленного контентаInsertion . Значение по умолчаниюByAuthor .
 type: docs
 weight: 40
 url: /ru/net/aspose.words.layout/revisionoptions/insertedtextcolor/
 ---
 ## RevisionOptions.InsertedTextColor property
 
-Позволяет указать цвет, который будет использоваться для вставленного содержимогоInsertion. Значение по умолчанию:ByAuthor.
+Позволяет указать цвет, который будет использоваться для вставленного контентаInsertion . Значение по умолчанию:ByAuthor .
 
 ```csharp
 public RevisionColor InsertedTextColor { get; set; }
@@ -16,7 +16,7 @@ public RevisionColor InsertedTextColor { get; set; }
 
 ### Примеры
 
-Показывает, как изменить внешний вид редакций в готовом выходном документе.
+Показывает, как изменить внешний вид редакций в подготовленном к просмотру выходном документе.
 
 ```csharp
 Document doc = new Document();

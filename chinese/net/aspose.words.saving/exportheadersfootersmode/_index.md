@@ -3,7 +3,7 @@ title: ExportHeadersFootersMode
 second_title: Aspose.Words for .NET API 参考
 description: 指定页眉和页脚如何导出为 HTMLMHTML 或 EPUB
 type: docs
-weight: 4690
+weight: 4740
 url: /zh/net/aspose.words.saving/exportheadersfootersmode/
 ---
 ## ExportHeadersFootersMode enumeration
@@ -20,12 +20,12 @@ public enum ExportHeadersFootersMode
 | --- | --- | --- |
 | None | `0` | 不导出页眉和页脚。 |
 | PerSection | `1` | 主要页眉和页脚在每个部分的开头和结尾导出。 |
-| FirstSectionHeaderLastSectionFooter | `2` | 第一部分的主页眉在文档开头导出，主页脚在末尾。 |
-| FirstPageHeaderFooterPerSection | `3` | 在每个部分的开头和结尾处导出首页页眉和页脚。 |
+| FirstSectionHeaderLastSectionFooter | `2` | 第一节的主要页眉在文档开头导出，主要页脚在末尾。 |
+| FirstPageHeaderFooterPerSection | `3` | 首页页眉和页脚在每节的开头和结尾导出。 |
 
 ### 例子
 
-将文档保存为 HTML。
+演示如何在将文档保存为 HTML 时省略页眉/页脚。
 
 ```csharp
 Document doc = new Document(MyDir + "Header and footer types.docx");

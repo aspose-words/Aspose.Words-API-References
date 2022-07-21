@@ -16,11 +16,11 @@ public IDocumentLoadingCallback ProgressCallback { get; set; }
 
 ### 评论
 
-Docx,FlatOpc,Docm,Dotm,Dotx,Markdown,Rtf,WordML,Doc,Dot,Odt,Ott格式支持。
+Docx,FlatOpc,Docm,Dotm,Dotx,Markdown,Rtf,WordML,Doc,Dot,Odt,Ott支持的格式。
 
 ### 例子
 
-显示文档加载超过预期加载时间时如何通知用户。
+显示如何在文档加载超出预期加载时间时通知用户。
 
 ```csharp
 [Test]

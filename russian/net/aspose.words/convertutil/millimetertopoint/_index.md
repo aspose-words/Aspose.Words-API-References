@@ -16,7 +16,7 @@ public static double MillimeterToPoint(double millimeters)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| миллиметры | Double | Значение для преобразования. |
+| millimeters | Double | Значение для преобразования. |
 
 ### Примечания
 
@@ -31,18 +31,18 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Параметр «Параметры страницы» раздела определяет размер полей страницы в пунктах.
- // Мы также можем использовать класс «ConvertUtil», чтобы использовать более привычную единицу измерения, 
- // например миллиметры при определении границ.
+// Мы также можем использовать класс «ConvertUtil», чтобы использовать более привычную единицу измерения,
+// например миллиметры при определении границ.
 PageSetup pageSetup = builder.PageSetup;
 pageSetup.TopMargin = ConvertUtil.MillimeterToPoint(30);
 pageSetup.BottomMargin = ConvertUtil.MillimeterToPoint(50);
 pageSetup.LeftMargin = ConvertUtil.MillimeterToPoint(80);
 pageSetup.RightMargin = ConvertUtil.MillimeterToPoint(40);
 
- // Сантиметр примерно равен 28,3 пункта.
+// Сантиметр примерно равен 28,3 пункта.
 Assert.AreEqual(28.34d, ConvertUtil.MillimeterToPoint(10), 0.01d);
 
- // Добавляем содержимое для демонстрации новых полей.
+// Добавьте содержимое, чтобы продемонстрировать новые поля.
 builder.Writeln($"This Text is {pageSetup.LeftMargin} points from the left, " +
                 $"{pageSetup.RightMargin} points from the right, " +
                 $"{pageSetup.TopMargin} points from the top, " +

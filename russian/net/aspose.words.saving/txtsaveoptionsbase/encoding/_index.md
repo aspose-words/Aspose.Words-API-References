@@ -1,14 +1,14 @@
 ---
 title: Encoding
 second_title: Справочник по API Aspose.Words для .NET
-description: Указывает кодировку используемую при экспорте в текстовые форматы. Значение по умолчанию Encoding.UTF8 .
+description: Указывает кодировку используемую при экспорте в текстовые форматы. Значение по умолчанию Кодировка.UTF8 .
 type: docs
 weight: 10
 url: /ru/net/aspose.words.saving/txtsaveoptionsbase/encoding/
 ---
 ## TxtSaveOptionsBase.Encoding property
 
-Указывает кодировку, используемую при экспорте в текстовые форматы. Значение по умолчанию: **Encoding.UTF8** .
+Указывает кодировку, используемую при экспорте в текстовые форматы. Значение по умолчанию: **Кодировка.UTF8** .
 
 ```csharp
 public Encoding Encoding { get; set; }
@@ -22,14 +22,14 @@ public Encoding Encoding { get; set; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
- // Добавляем текст с символами вне набора символов ASCII.
+// Добавляем текст с символами вне набора символов ASCII.
 builder.Write("À È Ì Ò Ù.");
 
- // Создаем объект «TxtSaveOptions», который мы можем передать в документ «Сохранить» method
- // чтобы изменить способ сохранения документа в виде открытого текста.
+// Создаем объект "TxtSaveOptions", который мы можем передать в метод "Сохранить" документа
+// чтобы изменить способ сохранения документа в виде открытого текста.
 TxtSaveOptions txtSaveOptions = new TxtSaveOptions();
 
- // Проверяем, что свойство "Кодировка" содержит соответствующую кодировку для содержимого нашего документа.
+// Проверяем, что свойство "Кодировка" содержит соответствующую кодировку для содержимого нашего документа.
 Assert.AreEqual(System.Text.Encoding.UTF8, txtSaveOptions.Encoding);
 
 doc.Save(ArtifactsDir + "TxtSaveOptions.Encoding.UTF8.txt", txtSaveOptions);
@@ -38,7 +38,7 @@ string docText = System.Text.Encoding.UTF8.GetString(File.ReadAllBytes(Artifacts
 
 Assert.AreEqual("\uFEFFÀ È Ì Ò Ù.\r\n", docText);
 
- // Использование неподходящей кодировки может привести к потере содержимого документа.
+// Использование неподходящей кодировки может привести к потере содержимого документа.
 txtSaveOptions.Encoding = System.Text.Encoding.ASCII;
 doc.Save(ArtifactsDir + "TxtSaveOptions.Encoding.ASCII.txt", txtSaveOptions);
 docText = System.Text.Encoding.ASCII.GetString(File.ReadAllBytes(ArtifactsDir + "TxtSaveOptions.Encoding.ASCII.txt"));

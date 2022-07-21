@@ -3,7 +3,7 @@ title: SaveFormat
 second_title: Aspose.Words for .NET API 参考
 description: 表示文档保存的格式
 type: docs
-weight: 4530
+weight: 4580
 url: /zh/net/aspose.words/saveformat/
 ---
 ## SaveFormat enumeration
@@ -33,31 +33,31 @@ public enum SaveFormat
 | WordML | `31` | 以 Microsoft Word 2003 WordprocessingML 格式保存文档。 |
 | Pdf | `40` | 将文档另存为 PDF（Adobe 便携式文档）格式。 |
 | Xps | `41` | 以 XPS（XML 纸张规范）格式保存文档。 |
-| XamlFixed | `42` | 将可扩展应用程序标记语言 (XAML) 格式的文档保存为固定文档。 |
+| XamlFixed | `42` | 以可扩展应用程序标记语言 (XAML) 格式将文档另存为固定文档。 |
 | Svg | `44` | 以 Svg（可缩放矢量图形）格式保存文档。 |
-| HtmlFixed | `45` | 使用绝对定位元素以 HTML 格式保存文档 |
+| HtmlFixed | `45` | 使用绝对定位的元素以 HTML 格式保存文档 |
 | OpenXps | `46` | 以 OpenXPS (Ecma-388) 格式保存文档。 |
-| Ps | `47` | 以 PS (PostScript) 格式保存文档。 |
+| Ps | `47` | 以 PS（PostScript）格式保存文档。 |
 | Pcl | `48` | 以 PCL（打印机控制语言）格式保存文档。 |
 | Html | `50` | 以 HTML 格式保存文档。 |
 | Mhtml | `51` | 以 MHTML（Web 存档）格式保存文档。 |
 | Epub | `52` | 以 EPUB 格式保存文档。 |
-| Odt | `60` | 将文档保存为 ODF 文本文档。 |
-| Ott | `61` | 将文档保存为 ODF 文本文档模板。 |
+| Odt | `60` | 将文档另存为 ODF 文本文档。 |
+| Ott | `61` | 将文档另存为 ODF 文本文档模板。 |
 | Text | `70` | 以纯文本格式保存文档。 |
-| XamlFlow | `71` | **测试版。** 以可扩展应用程序标记语言 (XAML) 格式将文档保存为流文档。 |
-| XamlFlowPack | `72` | **测试版。** 以可扩展应用程序标记语言 (XAML) 包格式将文档保存为流文档。 |
+| XamlFlow | `71` | **贝塔。**将可扩展应用程序标记语言 (XAML) 格式的文档保存为流文档。 |
+| XamlFlowPack | `72` | **贝塔。**将可扩展应用程序标记语言 (XAML) 包格式的文档另存为流文档。 |
 | Markdown | `73` | 以 Markdown 格式保存文档。 |
-| Tiff | `100` | 渲染文档的一页或多页并将它们保存到单页或多页 TIFF 文件中。 |
+| Tiff | `100` | 呈现文档的一页或多页并将它们保存到单页或多页 TIFF 文件中。 |
 | Png | `101` | 渲染文档页面并将其保存为 PNG 文件。 |
-| Bmp | `102` | 渲染文档页面并将其保存为 BMP 文件。 |
-| Emf | `103` | 渲染文档页面并将其保存为矢量 EMF（增强元文件）文件。 |
-| Jpeg | `104` | 渲染文档页面并将其保存为 JPEG 文件。 |
+| Bmp | `102` | 渲染文档的一页并将其保存为 BMP 文件。 |
+| Emf | `103` | 渲染文档的一页并将其保存为矢量 EMF（增强元文件）文件。 |
+| Jpeg | `104` | 渲染文档的一页并将其保存为 JPEG 文件。 |
 | Gif | `105` | 渲染文档页面并将其保存为 GIF 文件。 |
 
 ### 例子
 
-显示如何从 DOCX 转换为 HTML 格式。
+展示如何从 DOCX 转换为 HTML 格式。
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");

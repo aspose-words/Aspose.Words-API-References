@@ -1,14 +1,14 @@
 ---
 title: IssuerName
 second_title: Справочник по API Aspose.Words для .NET
-description: Возвращает различающееся имя субъекта издателя сертификата.
+description: Возвращает различающееся имя субъекта сертификата isuuer.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.digitalsignatures/digitalsignature/issuername/
 ---
 ## DigitalSignature.IssuerName property
 
-Возвращает различающееся имя субъекта издателя сертификата.
+Возвращает различающееся имя субъекта сертификата isuuer.
 
 ```csharp
 public string IssuerName { get; }

@@ -16,11 +16,11 @@ public bool TrimWhitespaces { get; set; }
 
 ### 评论
 
-默认值为 **true** 。
+默认值为 **真的**.
 
 ### 例子
 
-显示如何在执行邮件合并时从数据源的值中修剪空格。
+演示如何在执行邮件合并时从数据源的值中修剪空格。
 
 ```csharp
 Document doc = new Document();

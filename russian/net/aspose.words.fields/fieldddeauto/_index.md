@@ -3,7 +3,7 @@ title: FieldDdeAuto
 second_title: Справочник по API Aspose.Words для .NET
 description: Реализует поле DDEAUTO.
 type: docs
-weight: 1600
+weight: 1640
 url: /ru/net/aspose.words.fields/fieldddeauto/
 ---
 ## FieldDdeAuto class
@@ -26,19 +26,19 @@ public class FieldDdeAuto : Field
 | --- | --- |
 | [DisplayResult](../../aspose.words.fields/field/displayresult) { get; } | Получает текст, представляющий результат отображаемого поля. |
 | [End](../../aspose.words.fields/field/end) { get; } | Получает узел, представляющий конец поля. |
-| [Format](../../aspose.words.fields/field/format) { get; } | Получает объект[`FieldFormat`](../fieldformat), предоставляющий типизированный доступ к форматированию поля. |
+| [Format](../../aspose.words.fields/field/format) { get; } | Получает[`FieldFormat`](../fieldformat) объект, предоставляющий типизированный доступ к форматированию поля. |
 | [InsertAsBitmap](../../aspose.words.fields/fieldddeauto/insertasbitmap) { get; set; } | Получает или задает, следует ли вставлять связанный объект в виде растрового изображения. |
 | [InsertAsHtml](../../aspose.words.fields/fieldddeauto/insertashtml) { get; set; } | Получает или задает, следует ли вставлять связанный объект как текст в формате HTML. |
 | [InsertAsPicture](../../aspose.words.fields/fieldddeauto/insertaspicture) { get; set; } | Получает или задает, следует ли вставлять связанный объект в виде изображения. |
 | [InsertAsRtf](../../aspose.words.fields/fieldddeauto/insertasrtf) { get; set; } | Получает или задает, следует ли вставлять связанный объект в формате RTF. |
 | [InsertAsText](../../aspose.words.fields/fieldddeauto/insertastext) { get; set; } | Получает или задает, следует ли вставлять связанный объект в текстовом формате. |
 | [InsertAsUnicode](../../aspose.words.fields/fieldddeauto/insertasunicode) { get; set; } | Получает или задает, следует ли вставлять связанный объект как текст Unicode. |
-| [IsDirty](../../aspose.words.fields/field/isdirty) { get; set; } | Получает или устанавливает, является ли текущий результат поля более неправильным (устаревшим) из-за других изменений, внесенных в документ. |
+| [IsDirty](../../aspose.words.fields/field/isdirty) { get; set; } | Получает или устанавливает, является ли текущий результат поля более неверным (устаревшим) из-за других изменений, внесенных в документ. |
 | [IsLinked](../../aspose.words.fields/fieldddeauto/islinked) { get; set; } | Получает или задает, следует ли уменьшать размер файла, не сохраняя графические данные вместе с документом. |
-| [IsLocked](../../aspose.words.fields/field/islocked) { get; set; } | Получает или устанавливает, заблокировано ли поле (не должно пересчитывать его результат). |
+| [IsLocked](../../aspose.words.fields/field/islocked) { get; set; } | Получает или задает, заблокировано ли поле (не следует пересчитывать его результат). |
 | [LocaleId](../../aspose.words.fields/field/localeid) { get; set; } | Получает или задает LCID поля. |
 | [ProgId](../../aspose.words.fields/fieldddeauto/progid) { get; set; } | Получает или задает тип приложения информации о ссылке. |
-| [Result](../../aspose.words.fields/field/result) { get; set; } | Получает или задает текст, который находится между разделителем полей и концом поля. |
+| [Result](../../aspose.words.fields/field/result) { get; set; } | Получает или задает текст, который находится между разделителем поля и концом поля. |
 | [Separator](../../aspose.words.fields/field/separator) { get; } | Получает узел, представляющий разделитель полей. Может быть нулевым. |
 | [SourceFullName](../../aspose.words.fields/fieldddeauto/sourcefullname) { get; set; } | Получает или задает имя и расположение исходного файла. |
 | [SourceItem](../../aspose.words.fields/fieldddeauto/sourceitem) { get; set; } | Получает или задает связываемую часть исходного файла. |
@@ -49,9 +49,9 @@ public class FieldDdeAuto : Field
 
 | Имя | Описание |
 | --- | --- |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode)() | Возвращает текст между началом поля и разделителем полей (или концом поля, если разделителя нет). Включены как код поля, так и результат дочерних полей. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode)() | Возвращает текст между началом поля и разделителем поля (или концом поля, если разделителя нет). Включены как код поля, так и результат поля дочерних полей. |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode)(bool) | Возвращает текст между началом поля и разделителем полей (или концом поля, если разделителя нет). |
-| [Remove](../../aspose.words.fields/field/remove)() | Удаляет поле из документа. Возвращает узел сразу после поля. Если конец поля является последним дочерним элементом его родительского узла, возвращает его родительский абзац. Если поле уже удалено, возвращает **null** . |
+| [Remove](../../aspose.words.fields/field/remove)() | Удаляет поле из документа. Возвращает узел сразу после поля. Если конец поля является последним child его родительского узла, возвращает его родительский абзац. Если поле уже удалено, возвращает **нулевой** . |
 | [Unlink](../../aspose.words.fields/field/unlink)() | Выполняет развязку поля. |
 | [Update](../../aspose.words.fields/field/update)() | Выполняет обновление поля. Выдает, если поле уже обновляется. |
 | [Update](../../aspose.words.fields/field/update)(bool) | Выполняет обновление поля. Выдает, если поле уже обновляется. |

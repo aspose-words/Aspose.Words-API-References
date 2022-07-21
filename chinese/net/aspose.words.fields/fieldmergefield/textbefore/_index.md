@@ -1,14 +1,14 @@
 ---
 title: TextBefore
 second_title: Aspose.Words for .NET API 参考
-description: 如果字段不为空则获取或设置要在字段前插入的文本
+description: 获取或设置字段不为空时要在字段前插入的文本
 type: docs
 weight: 60
 url: /zh/net/aspose.words.fields/fieldmergefield/textbefore/
 ---
 ## FieldMergeField.TextBefore property
 
-如果字段不为空，则获取或设置要在字段前插入的文本。
+获取或设置字段不为空时要在字段前插入的文本。
 
 ```csharp
 public string TextBefore { get; set; }
@@ -16,7 +16,7 @@ public string TextBefore { get; set; }
 
 ### 例子
 
-显示如何使用 MERGEFIELD 字段来执行邮件合并。
+展示如何使用 MERGEFIELD 字段来执行邮件合并。
 
 ```csharp
 Document doc = new Document();

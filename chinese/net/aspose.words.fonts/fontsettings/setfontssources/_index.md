@@ -20,13 +20,13 @@ public void SetFontsSources(FontSourceBase[] sources)
 
 ### 评论
 
-默认情况下，Aspose.Words 会查找安装到系统的字体。
+默认情况下，Aspose.Words 会查找安装到系统中的字体。
 
 设置此属性会重置所有先前加载的字体的缓存。
 
 ### 例子
 
-展示如何将字体源添加到我们现有的字体源中。
+展示如何将字体源添加到我们现有的字体源。
 
 ```csharp
 Document doc = new Document();
@@ -81,7 +81,7 @@ FontSettings.DefaultInstance.SetFontsSources(originalFontSources);
 
 ## SetFontsSources(FontSourceBase[], Stream) {#setfontssources_1}
 
-设置 Aspose.Words 查找 TrueType 字体的来源，并额外加载之前保存的 字体搜索缓存。
+设置 Aspose.Words 查找 TrueType 字体并额外加载之前保存的源 字体搜索缓存。
 
 ```csharp
 public void SetFontsSources(FontSourceBase[] sources, Stream cacheInputStream)
@@ -90,15 +90,15 @@ public void SetFontsSources(FontSourceBase[] sources, Stream cacheInputStream)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | sources | FontSourceBase[] | 包含 TrueType 字体的源数组。 |
-| cacheInputStream | Stream | 保存字体搜索缓存的输入流。 |
+| cacheInputStream | Stream | 具有已保存字体搜索缓存的输入流。 |
 
 ### 评论
 
-加载之前保存的字体搜索缓存将加快字体缓存初始化过程。它是 当访问字体源很复杂时（例如通过网络加载字体时）特别有用。
+加载以前保存的字体搜索缓存将加快字体缓存初始化过程。 is 在访问字体源很复杂时（例如通过网络加载字体时）特别有用。
 
-保存和加载字体搜索缓存时，提供的源中的字体通过缓存键标识。 对于[`SystemFontSource`](../../systemfontsource)和[`FolderFontSource`](../../folderfontsource)缓存键中的字体是字体文件的路径 。对于[`MemoryFontSource`](../../memoryfontsource)和[`StreamFontSource`](../../streamfontsource)缓存键在 中定义[`CacheKey`](../../memoryfontsource/cachekey)和[`CacheKey`](../../streamfontsource/cachekey)属性 分别。对于[`FileFontSource`](../../filefontsource)缓存键是[`CacheKey`](../../filefontsource/cachekey) 属性或文件路径，如果[`CacheKey`](../../filefontsource/cachekey)是 **null** 。
+保存和加载字体搜索缓存时，提供的源中的字体通过缓存键标识。 对于[`SystemFontSource`](../../systemfontsource)和[`FolderFontSource`](../../folderfontsource)缓存键是字体文件的 path 。为了[`MemoryFontSource`](../../memoryfontsource)和[`StreamFontSource`](../../streamfontsource)缓存键在 中定义[`CacheKey`](../../memoryfontsource/cachekey)和[`CacheKey`](../../streamfontsource/cachekey)properties 分别。为了[`FileFontSource`](../../filefontsource)缓存键是[`CacheKey`](../../filefontsource/cachekey) 属性或文件路径，如果[`CacheKey`](../../filefontsource/cachekey)是 **无效的**.
 
-强烈建议在加载缓存时提供与保存缓存时相同的字体源。 字体源中的任何更改（例如添加新字体、移动字体文件或更改缓存键）都可能导致 Aspose.Words 解析不准确的字体。
+强烈建议在加载缓存时提供与保存缓存时相同的字体源。 字体源中的任何更改（例如添加新字体、移动字体文件或更改缓存键）都可能导致 字体不准确由 Aspose.Words 解决。
 
 ### 例子
 

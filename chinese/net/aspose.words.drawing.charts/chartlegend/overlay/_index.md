@@ -1,14 +1,14 @@
 ---
 title: Overlay
 second_title: Aspose.Words for .NET API 参考
-description: 确定是否允许其他图表元素与图例重叠 默认值为假
+description: 确定是否应允许其他图表元素与图例重叠 默认值为 false
 type: docs
 weight: 20
 url: /zh/net/aspose.words.drawing.charts/chartlegend/overlay/
 ---
 ## ChartLegend.Overlay property
 
-确定是否允许其他图表元素与图例重叠。 默认值为假。
+确定是否应允许其他图表元素与图例重叠。 默认值为 false。
 
 ```csharp
 public bool Overlay { get; set; }

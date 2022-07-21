@@ -16,7 +16,7 @@ public void BreakForwardLink()
 
 ### 评论
 
-BreakForwardLink() 不会破坏当前形状序列中的所有其他链接。 例如:1-2-3-4 序列和第二个文本框中的 BreakForwardLink 将创建 两个序列 1-2、3-4。
+BreakForwardLink() 不会断开当前形状序列中的所有其他链接。 例如：1-2-3-4 序列和第二个文本框的 BreakForwardLink 将创建 两个序列 1-2、3-4。
 
 ### 例子
 

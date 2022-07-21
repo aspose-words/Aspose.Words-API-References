@@ -1,14 +1,14 @@
 ---
 title: NodeType
 second_title: Справочник по API Aspose.Words для .NET
-description: ВозвращаетCommentRangeEnd.
+description: ВозвращаетCommentRangeEnd .
 type: docs
 weight: 30
 url: /ru/net/aspose.words/commentrangeend/nodetype/
 ---
 ## CommentRangeEnd.NodeType property
 
-ВозвращаетCommentRangeEnd.
+ВозвращаетCommentRangeEnd .
 
 ```csharp
 public override NodeType NodeType { get; }

@@ -1,14 +1,14 @@
 ---
 title: HorizontalPosition
 second_title: Aspose.Words for .NET API 参考
-description: 获取框架边缘与RelativeHorizontalPositionaspose.words/frameformat/relativehorizontalposition属性指定的项目之间的水平距离
+description: 获取框架边缘与由RelativeHorizontalPositionaspose.words/frameformat/relativehorizontalposition属性.
 type: docs
 weight: 50
 url: /zh/net/aspose.words/frameformat/horizontalposition/
 ---
 ## FrameFormat.HorizontalPosition property
 
-获取框架边缘与[`RelativeHorizontalPosition`](../relativehorizontalposition)属性指定的项目之间的水平距离。
+获取框架边缘与由[`RelativeHorizontalPosition`](../relativehorizontalposition)属性.
 
 ```csharp
 public double HorizontalPosition { get; }

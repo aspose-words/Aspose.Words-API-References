@@ -1,14 +1,14 @@
 ---
 title: InterpolationMode
 second_title: Справочник по API Aspose.Words для .NET
-description: Получает или задает режим интерполяции связанный с этим объектом Graphics.
+description: Получает или задает режим интерполяции связанный с этой графикой.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.saving/graphicsqualityoptions/interpolationmode/
 ---
 ## GraphicsQualityOptions.InterpolationMode property
 
-Получает или задает режим интерполяции, связанный с этим объектом Graphics.
+Получает или задает режим интерполяции, связанный с этой графикой.
 
 ```csharp
 public InterpolationMode? InterpolationMode { get; set; }

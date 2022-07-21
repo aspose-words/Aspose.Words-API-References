@@ -3,7 +3,7 @@ title: MailMergeDataType
 second_title: Справочник по API Aspose.Words для .NET
 description: Указывает тип внешнего источника данных слияния.
 type: docs
-weight: 5470
+weight: 5520
 url: /ru/net/aspose.words.settings/mailmergedatatype/
 ---
 ## MailMergeDataType enumeration
@@ -25,7 +25,7 @@ public enum MailMergeDataType
 | Query | `3` | Указывает, что данный документ был подключен к внешнему источнику данных с помощью внешнего инструмента запросов. |
 | Odbc | `4` | Указывает, что данный документ был подключен к внешнему источнику данных через интерфейс Open Database Connectivity. |
 | Native | `5` | Указывает, что данный документ был подключен к внешнему источнику данных через интерфейс объекта источника данных Office (ODSO). |
-| Default | `-1` | РавенNone. |
+| Default | `-1` | равноNone . |
 
 ### Примеры
 
@@ -42,9 +42,9 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 builder.Writeln(": ");
 builder.InsertField("MERGEFIELD Message", "<Message>");
 
- // Создаем источник данных в виде ASCII-файла с символом "|" характер
-// действует как разделитель, разделяющий столбцы. Первая строка содержит имена трех столбцов, 
- // и каждая последующая строка представляет собой строку с соответствующими значениями.
+// Создаем источник данных в виде ASCII-файла с символом "|" персонаж
+// действует как разделитель, разделяющий столбцы. Первая строка содержит имена трех столбцов,
+// и каждая последующая строка представляет собой строку с соответствующими значениями.
 string[] lines = { "FirstName|LastName|Message",
     "John|Doe|Hello! This message was created with Aspose Words mail merge." };
 string dataSrcFilename = ArtifactsDir + "MailMerge.MailMergeSettings.DataSource.txt";
@@ -72,7 +72,7 @@ odso.FirstRowContainsColumnNames = true;
 Assert.AreNotSame(odso, odso.Clone());
 Assert.AreNotSame(settings, settings.Clone());
 
- // Открытие этого документа в Microsoft Word приведет к выполнению слияния перед отображением содержимого. 
+// Открытие этого документа в Microsoft Word приведет к выполнению слияния перед отображением содержимого. 
 doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ```
 

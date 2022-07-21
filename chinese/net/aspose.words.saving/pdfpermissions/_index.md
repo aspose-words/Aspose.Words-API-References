@@ -1,14 +1,14 @@
 ---
 title: PdfPermissions
 second_title: Aspose.Words for .NET API 参考
-description: 指定允许用户对加密 PDF 文档进行的操作
+description: 指定允许用户对加密的 PDF 文档进行的操作
 type: docs
-weight: 5180
+weight: 5230
 url: /zh/net/aspose.words.saving/pdfpermissions/
 ---
 ## PdfPermissions enumeration
 
-指定允许用户对加密 PDF 文档进行的操作。
+指定允许用户对加密的 PDF 文档进行的操作。
 
 ```csharp
 [Flags]
@@ -21,18 +21,18 @@ public enum PdfPermissions
 | --- | --- | --- |
 | DisallowAll | `0` | 禁止对 PDF 文档进行所有操作。 这是默认值。 |
 | AllowAll | `FFFF` | 允许对 PDF 文档进行所有操作。 |
-| ContentCopy | `10` | 通过:::R5:F:Aspose.Words 控制的 以外的操作从文档中复制或提取文本和图形。 Saving.PdfPermissions.ContentCopyForAccessibility:::。 |
+| ContentCopy | `10` | 通过非受控的操作从文档中复制或提取文本和图形 byContentCopyForAccessibility. |
 | ContentCopyForAccessibility | `200` | 提取文本和图形（以支持残障用户的可访问性或用于其他目的）。 |
-| ModifyContents | `8` | 通过 PdfPermissions控制的操作以外的操作修改文档的内容。ModifyAnnotations,FillIn和DocumentAssembly。 |
-| ModifyAnnotations | `20` | 添加或修改文本注释，填写交互式表单字段，如果ModifyContents是 还设置、创建或修改交互式表单字段（包括签名字段）。 |
-| FillIn | `100` | 填写现有的交互式表单字段（包括签名字段），即使ModifyContents 很清楚。 |
+| ModifyContents | `8` | 通过 控制以外的操作修改文档内容ModifyAnnotations,FillIn， 和DocumentAssembly. |
+| ModifyAnnotations | `20` | 添加或修改文本注释，填写交互式表单字段，如果ModifyContentsis 还设置、创建或修改交互式表单字段（包括签名字段）。 |
+| FillIn | `100` | 填写现有的交互式表单域（包括签名域），即使ModifyContents 很清楚。 |
 | DocumentAssembly | `400` | 组装文档（插入、旋转或删除页面并创建文档大纲项目或缩略图 图像），即使ModifyContents很清楚。 |
-| Printing | `4` | 打印文档（可能不是最高质量级别，取决于是否为 HighResolutionPrinting也已设置）。 |
-| HighResolutionPrinting | `804` | 将文档打印为一种表示形式，根据实现相关的算法，可以从中生成 PDF 内容的忠实数字副本 。当此标志被清除（并且 Printing已设置）时，打印应限于外观的低级表示, 可能质量下降。 |
+| Printing | `4` | 打印文档（可能不是最高质量级别，取决于是否 HighResolutionPrinting也设置）. |
+| HighResolutionPrinting | `804` | 将文档打印为一种表示形式，根据实现相关的算法，可以 从中生成 PDF 内容的忠实数字副本。当这个标志被清除时（和 Printing已设置），打印应限于外观的低级表示， 可能质量下降。 |
 
 ### 例子
 
-显示如何设置已保存 PDF 文档的权限。
+展示如何对已保存的 PDF 文档设置权限。
 
 ```csharp
 Document doc = new Document();

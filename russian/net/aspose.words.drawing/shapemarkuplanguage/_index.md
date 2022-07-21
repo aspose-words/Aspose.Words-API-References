@@ -3,7 +3,7 @@ title: ShapeMarkupLanguage
 second_title: Справочник по API Aspose.Words для .NET
 description: Указывает язык разметки используемый для фигуры.
 type: docs
-weight: 1110
+weight: 1130
 url: /ru/net/aspose.words.drawing/shapemarkuplanguage/
 ---
 ## ShapeMarkupLanguage enumeration
@@ -18,7 +18,7 @@ public enum ShapeMarkupLanguage : byte
 
 | Имя | Ценность | Описание |
 | --- | --- | --- |
-| Dml | `0` | Язык разметки чертежей используется для определения формы. |
+| Dml | `0` | Язык разметки чертежа используется для определения формы. |
 | Vml | `1` | Язык векторной разметки используется для определения формы. |
 
 ### Примеры

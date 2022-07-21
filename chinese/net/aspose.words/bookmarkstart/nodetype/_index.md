@@ -1,14 +1,14 @@
 ---
 title: NodeType
 second_title: Aspose.Words for .NET API 参考
-description: 返回BookmarkStart
+description: 返回BookmarkStart.
 type: docs
 weight: 40
 url: /zh/net/aspose.words/bookmarkstart/nodetype/
 ---
 ## BookmarkStart.NodeType property
 
-返回BookmarkStart。
+返回BookmarkStart.
 
 ```csharp
 public override NodeType NodeType { get; }

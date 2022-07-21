@@ -3,7 +3,7 @@ title: PageBorderAppliesTo
 second_title: Справочник по API Aspose.Words для .NET
 description: Указывает на каких страницах печатается граница страницы.
 type: docs
-weight: 4050
+weight: 4100
 url: /ru/net/aspose.words/pageborderappliesto/
 ---
 ## PageBorderAppliesTo enumeration

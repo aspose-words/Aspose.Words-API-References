@@ -1,14 +1,14 @@
 ---
 title: SaveFormat
 second_title: Справочник по API Aspose.Words для .NET
-description: Указывает формат в котором будет сохранен документ если используется этот объект параметров сохранения. Может бытьDocxDocm DotxDotmилиFlatOpc.
+description: Указывает формат в котором документ будет сохранен если используется этот объект параметров сохранения. Может бытьDocx Docm  Dotx Dotm или жеFlatOpc .
 type: docs
 weight: 60
 url: /ru/net/aspose.words.saving/ooxmlsaveoptions/saveformat/
 ---
 ## OoxmlSaveOptions.SaveFormat property
 
-Указывает формат, в котором будет сохранен документ, если используется этот объект параметров сохранения. Может бытьDocx,Docm, Dotx,DotmилиFlatOpc.
+Указывает формат, в котором документ будет сохранен, если используется этот объект параметров сохранения. Может бытьDocx ,Docm , Dotx ,Dotm или жеFlatOpc .
 
 ```csharp
 public override SaveFormat SaveFormat { get; set; }

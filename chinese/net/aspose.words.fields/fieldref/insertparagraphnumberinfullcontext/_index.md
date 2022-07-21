@@ -1,14 +1,14 @@
 ---
 title: InsertParagraphNumberInFullContext
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置是否在完整上下文中插入引用段落的段落编号
+description: 获取或设置是否在完整上下文中插入被引用段落的段落编号
 type: docs
 weight: 60
 url: /zh/net/aspose.words.fields/fieldref/insertparagraphnumberinfullcontext/
 ---
 ## FieldRef.InsertParagraphNumberInFullContext property
 
-获取或设置是否在完整上下文中插入引用段落的段落编号。
+获取或设置是否在完整上下文中插入被引用段落的段落编号。
 
 ```csharp
 public bool InsertParagraphNumberInFullContext { get; set; }

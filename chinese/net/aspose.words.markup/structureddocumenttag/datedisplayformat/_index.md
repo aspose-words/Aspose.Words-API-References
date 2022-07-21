@@ -1,14 +1,14 @@
 ---
 title: DateDisplayFormat
 second_title: Aspose.Words for .NET API 参考
-description: 表示日期显示格式的字符串 不能为空  英语美国的日期是mm/dd/yyyy
+description: 表示日期显示格式的字符串 不能为空 英语美国的日期是mm/dd/yyyy
 type: docs
 weight: 90
 url: /zh/net/aspose.words.markup/structureddocumenttag/datedisplayformat/
 ---
 ## StructuredDocumentTag.DateDisplayFormat property
 
-表示日期显示格式的字符串。 不能为空。  英语（美国）的日期是“mm/dd/yyyy”
+表示日期显示格式的字符串。 不能为空。 英语（美国）的日期是“mm/dd/yyyy”
 
 ```csharp
 public string DateDisplayFormat { get; set; }
@@ -16,7 +16,7 @@ public string DateDisplayFormat { get; set; }
 
 ### 评论
 
-访问此属性仅适用于DateSDT 类型。
+访问此属性仅适用于DateSDT 类型.
 
 对于所有其他 SDT 类型，将发生异常。
 

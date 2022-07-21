@@ -1,14 +1,14 @@
 ---
 title: XamlFlowSaveOptions
 second_title: Справочник по API Aspose.Words для .NET
-description: Инициализирует новый экземпляр этого класса который можно использовать для сохранения документа в форматеXamlFlow.
+description: Инициализирует новый экземпляр этого класса который можно использовать для сохранения документа вXamlFlow формат.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.saving/xamlflowsaveoptions/xamlflowsaveoptions/
 ---
 ## XamlFlowSaveOptions() {#constructor}
 
-Инициализирует новый экземпляр этого класса, который можно использовать для сохранения документа в форматеXamlFlow.
+Инициализирует новый экземпляр этого класса, который можно использовать для сохранения документа вXamlFlow формат.
 
 ```csharp
 public XamlFlowSaveOptions()
@@ -16,7 +16,7 @@ public XamlFlowSaveOptions()
 
 ### Примеры
 
-Показывает, как печатать имена файлов связанных изображений, созданных при преобразовании документа в потоковую форму .xaml.
+Показывает, как распечатать имена файлов связанных изображений, созданных при преобразовании документа в потоковую форму .xaml.
 
 ```csharp
 {
@@ -85,7 +85,7 @@ private class ImageUriPrinter : IImageSavingCallback
 
 ## XamlFlowSaveOptions(SaveFormat) {#constructor_1}
 
-Инициализирует новый экземпляр этого класса, который можно использовать для сохранения документа вXamlFlow илиXamlFlowPackформат.
+Инициализирует новый экземпляр этого класса, который можно использовать для сохранения документа вXamlFlow илиXamlFlowPack формат.
 
 ```csharp
 public XamlFlowSaveOptions(SaveFormat saveFormat)
@@ -93,11 +93,11 @@ public XamlFlowSaveOptions(SaveFormat saveFormat)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| saveFormat | SaveFormat | Может бытьXamlFlowилиXamlFlowPack. |
+| saveFormat | SaveFormat | Может бытьXamlFlow или жеXamlFlowPack. |
 
 ### Примеры
 
-Показывает, как печатать имена файлов связанных изображений, созданных при преобразовании документа в потоковую форму .xaml.
+Показывает, как распечатать имена файлов связанных изображений, созданных при преобразовании документа в потоковую форму .xaml.
 
 ```csharp
 {

@@ -16,7 +16,7 @@ public Row ParentRow { get; }
 
 ### 评论
 
-等价于` (Row)FirstNonMarkupParentNode` 。
+相当于`（行）FirstNonMarkupParentNode`.
 
 ### 例子
 
@@ -26,8 +26,8 @@ public Row ParentRow { get; }
 Document doc = new Document(MyDir + "Table spanning two pages.docx");
 Table table = doc.FirstSection.Body.Tables[0];
 
- // 为表格中的每个段落启用 KeepWithNext，除了 the
- // 最后一行中的最后一个将防止表拆分为多个页面。
+// 为表格中的每个段落启用 KeepWithNext，除了
+// 最后一行中的最后一个将防止表拆分为多个页面。
 foreach (Cell cell in table.GetChildNodes(NodeType.Cell, true).OfType<Cell>())
     foreach (Paragraph para in cell.Paragraphs.OfType<Paragraph>())
     {

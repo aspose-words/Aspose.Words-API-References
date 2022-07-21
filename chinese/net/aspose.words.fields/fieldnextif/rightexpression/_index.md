@@ -1,14 +1,14 @@
 ---
 title: RightExpression
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置比较表达式的右侧部分
+description: 获取或设置比较表达式的右边部分
 type: docs
 weight: 40
 url: /zh/net/aspose.words.fields/fieldnextif/rightexpression/
 ---
 ## FieldNextIf.RightExpression property
 
-获取或设置比较表达式的右侧部分。
+获取或设置比较表达式的右边部分。
 
 ```csharp
 public string RightExpression { get; set; }
@@ -16,7 +16,7 @@ public string RightExpression { get; set; }
 
 ### 例子
 
-展示如何在邮件合并过程中使用 NEXT/NEXTIF 字段将多行合并到一个页面中。
+演示如何在邮件合并期间使用 NEXT/NEXTIF 字段将多行合并到一页中。
 
 ```csharp
 {

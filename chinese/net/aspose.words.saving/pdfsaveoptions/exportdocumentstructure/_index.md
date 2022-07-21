@@ -1,14 +1,14 @@
 ---
 title: ExportDocumentStructure
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置确定是否导出文档结构的值
+description: 获取或设置一个值决定是否导出文档结构
 type: docs
 weight: 120
 url: /zh/net/aspose.words.saving/pdfsaveoptions/exportdocumentstructure/
 ---
 ## PdfSaveOptions.ExportDocumentStructure property
 
-获取或设置确定是否导出文档结构的值。
+获取或设置一个值，决定是否导出文档结构。
 
 ```csharp
 public bool ExportDocumentStructure { get; set; }
@@ -16,9 +16,9 @@ public bool ExportDocumentStructure { get; set; }
 
 ### 评论
 
-保存到 PDF/A-1a 时忽略此值、PDF/A-2a 和 PDF/UA-1，因为此合规性需要文档结构。
+保存为 PDF/A-1a、PDF/A-2a 和 PDF/UA-1 时忽略此值，因为此合规性需要文档结构。
 
-注意导出文档结构会显着增加内存消耗，尤其是 对于大文件。
+请注意，导出文档结构会显着增加内存消耗，尤其是大型文档的 。
 
 ### 例子
 

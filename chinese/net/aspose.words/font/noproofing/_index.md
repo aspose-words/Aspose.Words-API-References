@@ -16,7 +16,7 @@ public bool NoProofing { get; set; }
 
 ### 例子
 
-显示如何防止 Microsoft Word 对文本进行拼写检查。
+演示如何防止 Microsoft Word 对文本进行拼写检查。
 
 ```csharp
 Document doc = new Document();

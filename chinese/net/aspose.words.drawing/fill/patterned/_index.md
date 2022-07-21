@@ -65,7 +65,7 @@ public void Patterned(PatternType patternType, Color foreColor, Color backColor)
 
 ### 例子
 
-显示如何设置形状的图案。
+显示如何为形状设置图案。
 
 ```csharp
 Document doc = new Document(MyDir + "Shape stroke pattern border.docx");

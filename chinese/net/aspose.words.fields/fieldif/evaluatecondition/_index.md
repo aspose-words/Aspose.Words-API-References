@@ -16,7 +16,7 @@ public FieldIfComparisonResult EvaluateCondition()
 
 ### 返回值
 
-A[`FieldIfComparisonResult`](../../fieldifcomparisonresult)值表示条件评估的结果。
+一个[`FieldIfComparisonResult`](../../fieldifcomparisonresult)表示条件评估结果的值。
 
 ### 例子
 

@@ -1,14 +1,14 @@
 ---
 title: ImportFormatOptions
 second_title: Aspose.Words for .NET API 参考
-description: 允许指定各种导入选项以格式化输出
+description: 允许指定各种导入选项来格式化输出
 type: docs
-weight: 2990
+weight: 3040
 url: /zh/net/aspose.words/importformatoptions/
 ---
 ## ImportFormatOptions class
 
-允许指定各种导入选项以格式化输出。
+允许指定各种导入选项来格式化输出。
 
 ```csharp
 public class ImportFormatOptions
@@ -24,16 +24,16 @@ public class ImportFormatOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ForceCopyStyles](../../aspose.words/importformatoptions/forcecopystyles) { get; set; } | 获取或设置一个布尔值，指示是否复制:::R5:F:Aspose.Words.ImportFormatMode.KeepSourceFormatting 中的冲突样式 ::模式。 默认值为` false` 。 |
-| [IgnoreHeaderFooter](../../aspose.words/importformatoptions/ignoreheaderfooter) { get; set; } | 获取或设置一个布尔值，指定忽略页眉/页脚内容的源格式 ifKeepSourceFormatting模式被使用。 默认值为` true` 。 |
-| [IgnoreTextBoxes](../../aspose.words/importformatoptions/ignoretextboxes) { get; set; } | 获取或设置一个布尔值，该值指定忽略文本框内容的源格式 ifKeepSourceFormatting模式被使用。 默认值为` true` 。 |
-| [KeepSourceNumbering](../../aspose.words/importformatoptions/keepsourcenumbering) { get; set; } | 获取或设置一个布尔值，该值指定编号在源文档和 目标文档中发生冲突时如何导入。 默认值为` false` 。 |
-| [MergePastedLists](../../aspose.words/importformatoptions/mergepastedlists) { get; set; } | 获取或设置一个布尔值，指定是否将粘贴的列表与周围的列表合并。 默认值为` false` 。 |
-| [SmartStyleBehavior](../../aspose.words/importformatoptions/smartstylebehavior) { get; set; } | 获取或设置一个布尔值，该值指定样式在源文档和目标文档中具有相同名称时如何导入 。 默认值为` false` 。 |
+| [ForceCopyStyles](../../aspose.words/importformatoptions/forcecopystyles) { get; set; } | 获取或设置一个布尔值，指示复制冲突的样式 KeepSourceFormatting mode. 默认值为`错误的`. |
+| [IgnoreHeaderFooter](../../aspose.words/importformatoptions/ignoreheaderfooter) { get; set; } | 获取或设置一个布尔值，该值指定忽略页眉/页脚内容的源格式 ifKeepSourceFormatting使用模式。 默认值为`真的`. |
+| [IgnoreTextBoxes](../../aspose.words/importformatoptions/ignoretextboxes) { get; set; } | 获取或设置一个布尔值，该值指定文本框内容的源格式被忽略 ifKeepSourceFormatting使用模式。 默认值为`真的`. |
+| [KeepSourceNumbering](../../aspose.words/importformatoptions/keepsourcenumbering) { get; set; } | 获取或设置一个布尔值，该值指定编号在源文档和 目标文档中冲突时如何导入。 默认值为`错误的`. |
+| [MergePastedLists](../../aspose.words/importformatoptions/mergepastedlists) { get; set; } | 获取或设置一个布尔值，指定是否将粘贴的列表与周围的列表合并。 默认值为`错误的`. |
+| [SmartStyleBehavior](../../aspose.words/importformatoptions/smartstylebehavior) { get; set; } | 获取或设置一个布尔值，用于指定样式在源文档和目标文档中具有相同名称时的导入方式 。 默认值为`错误的`. |
 
 ### 例子
 
-显示如何在插入文档时解决重复样式。
+展示如何在插入文档时解决重复的样式。
 
 ```csharp
 Document dstDoc = new Document();

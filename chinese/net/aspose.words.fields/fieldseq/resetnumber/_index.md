@@ -16,7 +16,7 @@ public string ResetNumber { get; set; }
 
 ### 例子
 
-使用 SEQ 字段显示创建编号。
+显示使用 SEQ 字段创建编号。
 
 ```csharp
 Document doc = new Document();

@@ -1,14 +1,14 @@
 ---
 title: HtmlControlType
 second_title: Aspose.Words for .NET API 参考
-description: 代表ltinputgt的文档节点类型和 lt选择gt从 HTML 导入的元素
+description: 表示从 HTML 导入的 ltinputgt 和 ltselectgt 元素的文档节点类型
 type: docs
-weight: 3360
+weight: 3410
 url: /zh/net/aspose.words.loading/htmlcontroltype/
 ---
 ## HtmlControlType enumeration
 
-代表&lt;input&gt;的文档节点类型和 &lt;选择&gt;从 HTML 导入的元素。
+表示从 HTML 导入的 &lt;input&gt; 和 &lt;select&gt; 元素的文档节点类型。
 
 ```csharp
 public enum HtmlControlType

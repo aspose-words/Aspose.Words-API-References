@@ -19,7 +19,7 @@ public class ChartNumberFormat
 | 姓名 | 描述 |
 | --- | --- |
 | [FormatCode](../../aspose.words.drawing.charts/chartnumberformat/formatcode) { get; set; } | 获取或设置应用于数据标签的格式代码。 |
-| [IsLinkedToSource](../../aspose.words.drawing.charts/chartnumberformat/islinkedtosource) { get; set; } | 指定格式代码是否链接到源单元格。 默认为真。 |
+| [IsLinkedToSource](../../aspose.words.drawing.charts/chartnumberformat/islinkedtosource) { get; set; } | 指定格式代码是否链接到源单元格。 默认为 true。 |
 
 ### 例子
 

@@ -1,14 +1,14 @@
 ---
 title: Type
 second_title: Aspose.Words for .NET API 参考
-description: 获取用于此首选宽度值的度量单位
+description: 获取用于此首选宽度值的测量单位
 type: docs
 weight: 40
 url: /zh/net/aspose.words.tables/preferredwidth/type/
 ---
 ## PreferredWidth.Type property
 
-获取用于此首选宽度值的度量单位。
+获取用于此首选宽度值的测量单位。
 
 ```csharp
 public PreferredWidthType Type { get; }

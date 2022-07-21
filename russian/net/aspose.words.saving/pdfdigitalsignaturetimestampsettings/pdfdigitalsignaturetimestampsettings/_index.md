@@ -69,9 +69,9 @@ public PdfDigitalSignatureTimestampSettings(string serverUrl, string userName, s
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| serverUrl | String | Отметка времени URL сервера. |
-| userName | String | Отметка времени имя пользователя сервера. |
-| пароль | String | Отметка времени Пароль сервера. |
+| serverUrl | String | URL-адрес сервера меток времени. |
+| userName | String | Имя пользователя сервера меток времени. |
+| password | String | Пароль сервера временной метки. |
 
 ### Примеры
 
@@ -129,10 +129,10 @@ public PdfDigitalSignatureTimestampSettings(string serverUrl, string userName, s
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| serverUrl | String | Отметка времени URL сервера. |
-| userName | String | Отметка времени имя пользователя сервера. |
-| пароль | String | Отметка времени Пароль сервера. |
-| timeout | TimeSpan | Значение времени ожидания для доступа к серверу меток времени. |
+| serverUrl | String | URL-адрес сервера меток времени. |
+| userName | String | Имя пользователя сервера меток времени. |
+| password | String | Пароль сервера временной метки. |
+| timeout | TimeSpan | Значение тайм-аута для доступа к серверу меток времени. |
 
 ### Примеры
 

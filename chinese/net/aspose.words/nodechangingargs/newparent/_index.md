@@ -1,14 +1,14 @@
 ---
 title: NewParent
 second_title: Aspose.Words for .NET API 参考
-description: 获取将在操作完成后设置的节点的父节点
+description: 获取操作完成后将设置的节点的父节点
 type: docs
 weight: 20
 url: /zh/net/aspose.words/nodechangingargs/newparent/
 ---
 ## NodeChangingArgs.NewParent property
 
-获取将在操作完成后设置的节点的父节点。
+获取操作完成后将设置的节点的父节点。
 
 ```csharp
 public Node NewParent { get; }

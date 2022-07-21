@@ -1,14 +1,14 @@
 ---
 title: Accept
 second_title: Aspose.Words for .NET API 参考
-description: 接受访问者
+description: 接受访客
 type: docs
 weight: 10
 url: /zh/net/aspose.words/absolutepositiontab/accept/
 ---
 ## AbsolutePositionTab.Accept method
 
-接受访问者。
+接受访客。
 
 ```csharp
 public override bool Accept(DocumentVisitor visitor)
@@ -20,7 +20,7 @@ public override bool Accept(DocumentVisitor visitor)
 
 ### 返回值
 
-如果访问者请求停止枚举，则返回 False。
+如果访问者请求停止枚举，则为 False。
 
 ### 评论
 
@@ -41,10 +41,10 @@ public void DocumentToTxt()
     DocTextExtractor myDocTextExtractor = new DocTextExtractor();
     doc.FirstSection.Body.Accept(myDocTextExtractor);
 
-     // 绝对位置制表符，在字符串形式中没有等价物，已显式转换为制表符。
+    // 绝对位置制表符，在字符串形式中没有等价物，已显式转换为制表符。
     Assert.AreEqual("Before AbsolutePositionTab\tAfter AbsolutePositionTab", myDocTextExtractor.GetText());
 
-     // AbsolutePositionTab 本身也可以接受 DocumentVisitor。
+    // AbsolutePositionTab 本身也可以接受 DocumentVisitor。
     AbsolutePositionTab absPositionTab = (AbsolutePositionTab)doc.FirstSection.Body.FirstParagraph.GetChild(NodeType.SpecialChar, 0, true);
 
     myDocTextExtractor = new DocTextExtractor();
@@ -54,7 +54,7 @@ public void DocumentToTxt()
 }
 
 /// <summary>
- /// 收集访问文档中所有运行的文本内容。用普通制表符替换所有绝对制表符。
+/// 收集访问文档中所有运行的文本内容。用普通制表符替换所有绝对制表符。
 /// </summary>
 public class DocTextExtractor : DocumentVisitor
 {
@@ -64,7 +64,7 @@ public class DocTextExtractor : DocumentVisitor
     }
 
     /// <summary>
-     /// 在文档中遇到 Run 节点时调用。
+    /// 在文档中遇到 Run 节点时调用。
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {
@@ -73,7 +73,7 @@ public class DocTextExtractor : DocumentVisitor
     }
 
     /// <summary>
-     /// 在文档中遇到 AbsolutePositionTab 节点时调用。
+    /// 在文档中遇到 AbsolutePositionTab 节点时调用。
     /// </summary>
     public override VisitorAction VisitAbsolutePositionTab(AbsolutePositionTab tab)
     {
@@ -82,7 +82,7 @@ public class DocTextExtractor : DocumentVisitor
     }
 
     /// <summary>
-     /// 将文本添加到当前输出。尊重启用/禁用输出标志。
+    /// 将文本添加到当前输出。尊重启用/禁用的输出标志。
     /// </summary>
     private void AppendText(string text)
     {
@@ -90,7 +90,7 @@ public class DocTextExtractor : DocumentVisitor
     }
 
     /// <summary>
-     /// 访问者积累的文档的纯文本。
+    /// 访问者积累的文档的纯文本。
     /// </summary>
     public string GetText()
     {

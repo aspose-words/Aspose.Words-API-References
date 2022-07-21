@@ -16,12 +16,12 @@ public void AddPrinterFont(string fontFullName, string fontPclName)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| fontFullName | String | Полное имя шрифта (например, "Times New Roman Bold Italic"). |
+| fontFullName | String | Полное название шрифта (например, «Times New Roman Bold Italic»). |
 | fontPclName | String | Имя шрифта, используемого в документе Pcl. |
 
 ### Примечания
 
-Существует 52 шрифта, которые должны быть встроены в любой принтер в соответствии со спецификацией Pcl. Однако производители могут добавлять в свои устройства и другие шрифты.
+Существует 52 шрифта, которые должны быть встроены в любой принтер в соответствии со спецификацией Pcl. Однако производители могут добавлять в свои устройства некоторые другие шрифты.
 
 ### Примеры
 
@@ -37,8 +37,8 @@ builder.Write("Hello world!");
 PclSaveOptions saveOptions = new PclSaveOptions();
 saveOptions.AddPrinterFont("Courier New", "Courier");
 
- // При печати этого документа принтер будет использовать шрифт "Courier New" font
- // для доступа к местам, где в нашем документе использовался шрифт "Courier".
+// При печати этого документа принтер будет использовать шрифт "Courier New"
+// для доступа к местам, где в нашем документе использовался шрифт "Courier".
 doc.Save(ArtifactsDir + "PclSaveOptions.AddPrinterFont.pcl", saveOptions);
 ```
 

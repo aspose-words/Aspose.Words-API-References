@@ -1,14 +1,14 @@
 ---
 title: NodeType
 second_title: Aspose.Words for .NET API 参考
-description: 返回 NodeType.StructuredDocumentTag 
+description: 返回 NodeType.StructuredDocumentTag.
 type: docs
 weight: 220
 url: /zh/net/aspose.words.markup/structureddocumenttag/nodetype/
 ---
 ## StructuredDocumentTag.NodeType property
 
-返回 **NodeType.StructuredDocumentTag** 。
+返回 **NodeType.StructuredDocumentTag**.
 
 ```csharp
 public override NodeType NodeType { get; }

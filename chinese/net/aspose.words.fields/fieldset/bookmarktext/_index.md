@@ -16,7 +16,7 @@ public string BookmarkText { get; set; }
 
 ### 例子
 
-演示如何使用 SET 字段创建书签文本，然后使用 REF 字段将其显示在文档中。
+演示如何使用 SET 字段创建带有书签的文本，然后使用 REF 字段将其显示在文档中。
 
 ```csharp
 Document doc = new Document();

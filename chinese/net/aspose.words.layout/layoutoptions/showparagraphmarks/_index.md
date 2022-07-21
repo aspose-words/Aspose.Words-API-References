@@ -1,14 +1,14 @@
 ---
 title: ShowParagraphMarks
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置是否呈现段落标记的指示 默认为假
+description: 获取或设置是否呈现段落标记的指示 默认为 False
 type: docs
 weight: 80
 url: /zh/net/aspose.words.layout/layoutoptions/showparagraphmarks/
 ---
 ## LayoutOptions.ShowParagraphMarks property
 
-获取或设置是否呈现段落标记的指示。 默认为假。
+获取或设置是否呈现段落标记的指示。 默认为 False。
 
 ```csharp
 public bool ShowParagraphMarks { get; set; }

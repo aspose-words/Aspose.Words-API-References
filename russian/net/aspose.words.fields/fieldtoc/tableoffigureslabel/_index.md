@@ -1,14 +1,14 @@
 ---
 title: TableOfFiguresLabel
 second_title: Справочник по API Aspose.Words для .NET
-description: Получает или задает имя идентификатора последовательности используемого при построении таблицы рисунков.
+description: Получает или задает имя идентификатора последовательности используемого при построении таблицы фигур.
 type: docs
 weight: 160
 url: /ru/net/aspose.words.fields/fieldtoc/tableoffigureslabel/
 ---
 ## FieldToc.TableOfFiguresLabel property
 
-Получает или задает имя идентификатора последовательности, используемого при построении таблицы рисунков.
+Получает или задает имя идентификатора последовательности, используемого при построении таблицы фигур.
 
 ```csharp
 public string TableOfFiguresLabel { get; set; }

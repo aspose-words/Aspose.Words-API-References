@@ -16,9 +16,9 @@ public byte[] Data { get; set; }
 
 ### 评论
 
-此属性仅适用于IsExternal是` false` 。
+此属性仅适用于[`IsExternal`](../isexternal)是`错误的`.
 
-默认值为空字节数组。该值不能为` null` 。
+默认值为空字节数组。该值不能`无效的`.
 
 ### 例子
 

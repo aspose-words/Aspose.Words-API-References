@@ -1,14 +1,14 @@
 ---
 title: BackgroundPatternColor
 second_title: Справочник по API Aspose.Words для .NET
-description: Получает или задает цвет применяемый к фону объекта Shading.
+description: Получает или задает цвет фона объекта Shading.
 type: docs
 weight: 10
 url: /ru/net/aspose.words/shading/backgroundpatterncolor/
 ---
 ## Shading.BackgroundPatternColor property
 
-Получает или задает цвет, применяемый к фону объекта Shading.
+Получает или задает цвет фона объекта Shading.
 
 ```csharp
 public Color BackgroundPatternColor { get; set; }
@@ -16,7 +16,7 @@ public Color BackgroundPatternColor { get; set; }
 
 ### Примеры
 
-Показывает, как украсить текст рамками и штриховкой.
+Показывает, как украсить текст рамками и заливкой.
 
 ```csharp
 Document doc = new Document();

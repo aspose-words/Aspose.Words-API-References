@@ -1,14 +1,14 @@
 ---
 title: SignerTitle
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置建议的签名者的头衔例如经理 此属性的默认值为 空字符串 Empty
+description: 获取或设置建议签名者的头衔例如经理 此属性的默认值为 空字符串Empty .
 type: docs
 weight: 110
 url: /zh/net/aspose.words.drawing/signatureline/signertitle/
 ---
 ## SignatureLine.SignerTitle property
 
-获取或设置建议的签名者的头衔（例如，经理）。 此属性的默认值为 **空字符串** (Empty)。
+获取或设置建议签名者的头衔（例如，经理）。 此属性的默认值为 **空字符串**(Empty ).
 
 ```csharp
 public string SignerTitle { get; set; }

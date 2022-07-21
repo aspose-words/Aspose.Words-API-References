@@ -16,7 +16,7 @@ public bool DisplayText { get; set; }
 
 ### Примеры
 
-Показывает, как вставить поле DISPLAYBARCODE и установить его свойства.
+Показывает, как вставить поле DISPLAYBARCODE и задать его свойства.
 
 ```csharp
 Document doc = new Document();

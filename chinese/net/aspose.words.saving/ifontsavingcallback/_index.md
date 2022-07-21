@@ -1,14 +1,14 @@
 ---
 title: IFontSavingCallback
 second_title: Aspose.Words for .NET API 参考
-description: 如果您想接收通知并控制 Aspose.Words 在将文档导出为 HTML 格式时如何保存字体请实现此接口
+description: 如果您想接收通知并控制如何接收通知请实现此接口 Aspose.Words 在将文档导出为 HTML 格式时保存字体
 type: docs
-weight: 4850
+weight: 4900
 url: /zh/net/aspose.words.saving/ifontsavingcallback/
 ---
 ## IFontSavingCallback interface
 
-如果您想接收通知并控制 Aspose.Words 在将文档导出为 HTML 格式时如何保存字体，请实现此接口。
+如果您想接收通知并控制如何接收通知，请实现此接口 Aspose.Words 在将文档导出为 HTML 格式时保存字体。
 
 ```csharp
 public interface IFontSavingCallback
@@ -18,11 +18,11 @@ public interface IFontSavingCallback
 
 | 姓名 | 描述 |
 | --- | --- |
-| [FontSaving](../../aspose.words.saving/ifontsavingcallback/fontsaving)(FontSavingArgs) | 当 Aspose.Words 即将保存字体资源时调用。 |
+| [FontSaving](../../aspose.words.saving/ifontsavingcallback/fontsaving)(FontSavingArgs) | 在 Aspose.Words 即将保存字体资源时调用。 |
 
 ### 例子
 
-显示如何定义自定义逻辑以在保存为 HTML 时导出字体。
+展示如何定义自定义逻辑以在保存为 HTML 时导出字体。
 
 ```csharp
 {

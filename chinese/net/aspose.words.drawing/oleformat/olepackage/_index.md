@@ -1,14 +1,14 @@
 ---
 title: OlePackage
 second_title: Aspose.Words for .NET API 参考
-description: 如果 OLE 对象是 OLE 包则提供对OlePackageaspose.words.drawing/olepackage的访问 否则返回 null
+description: 提供访问权限OlePackageaspose.words.drawing/olepackage如果 OLE 对象是 OLE 包 否则返回 null
 type: docs
 weight: 80
 url: /zh/net/aspose.words.drawing/oleformat/olepackage/
 ---
 ## OleFormat.OlePackage property
 
-如果 OLE 对象是 OLE 包，则提供对[`OlePackage`](../../olepackage)的访问。 否则返回 null。
+提供访问权限[`OlePackage`](../../olepackage)如果 OLE 对象是 OLE 包。 否则返回 null。
 
 ```csharp
 public OlePackage OlePackage { get; }
@@ -16,7 +16,7 @@ public OlePackage OlePackage { get; }
 
 ### 评论
 
-OLE 包是一种遗留技术，允许包装任何不在 OLE 注册表中的文件格式 一个 Windows 系统到一个通用包中，允许将几乎任何东西嵌入到文档中。 有关详细信息，请参阅[`OlePackage`](../../olepackage)类型。
+OLE 包是一项遗留技术，它允许将 Windows 系统的 OLE 注册表中不存在的任何文件格式包装到通用包中，从而允许将几乎任何内容嵌入到文档中。 见[`OlePackage`](../../olepackage)键入以获取更多信息。
 
 ### 例子
 

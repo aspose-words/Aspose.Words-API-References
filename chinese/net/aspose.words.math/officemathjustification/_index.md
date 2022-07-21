@@ -1,14 +1,14 @@
 ---
 title: OfficeMathJustification
 second_title: Aspose.Words for .NET API 参考
-description: 指定等式的对齐方式
+description: 指定等式的理由
 type: docs
-weight: 3850
+weight: 3900
 url: /zh/net/aspose.words.math/officemathjustification/
 ---
 ## OfficeMathJustification enumeration
 
-指定等式的对齐方式。
+指定等式的理由。
 
 ```csharp
 public enum OfficeMathJustification
@@ -18,16 +18,16 @@ public enum OfficeMathJustification
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| CenterGroup | `1` | 将数学文本的实例相对于左侧对齐，并使数学组 文本（数学段落）居中到页面。 |
+| CenterGroup | `1` | 将数学文本的实例相对于彼此向左对齐，并使 math 文本组（数学段落）相对于页面居中。 |
 | Center | `2` | 将每个数学文本实例分别相对于边距居中。 |
 | Left | `3` | 数学段落的左对齐。 |
-| Right | `4` | 数学段落右对齐。 |
-| Inline | `7` | Math 的内联位置。 |
-| Default | `1` | 默认值CenterGroup。 |
+| Right | `4` | 数学段落的右对齐。 |
+| Inline | `7` | Math. 的内联位置 |
+| Default | `1` | 默认值CenterGroup. |
 
 ### 例子
 
-说明如何设置办公室数学显示格式。
+显示如何设置办公室数学显示格式。
 
 ```csharp
 Document doc = new Document(MyDir + "Office math.docx");

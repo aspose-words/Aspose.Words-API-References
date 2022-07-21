@@ -1,14 +1,14 @@
 ---
 title: MinorTickMark
 second_title: Справочник по API Aspose.Words для .NET
-description: Возвращает или устанавливает второстепенные деления для оси.
+description: Возвращает или задает второстепенные деления для оси.
 type: docs
 weight: 130
 url: /ru/net/aspose.words.drawing.charts/chartaxis/minortickmark/
 ---
 ## ChartAxis.MinorTickMark property
 
-Возвращает или устанавливает второстепенные деления для оси.
+Возвращает или задает второстепенные деления для оси.
 
 ```csharp
 public AxisTickMark MinorTickMark { get; set; }

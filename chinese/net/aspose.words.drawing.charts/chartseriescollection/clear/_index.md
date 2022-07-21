@@ -1,14 +1,14 @@
 ---
 title: Clear
 second_title: Aspose.Words for .NET API 参考
-description: 从此集合中删除所有ChartSeriesaspose.words.drawing.charts/chartseries
+description: 删除所有ChartSeriesaspose.words.drawing.charts/chartseries来自这个集合
 type: docs
 weight: 40
 url: /zh/net/aspose.words.drawing.charts/chartseriescollection/clear/
 ---
 ## ChartSeriesCollection.Clear method
 
-从此集合中删除所有[`ChartSeries`](../../chartseries)。
+删除所有[`ChartSeries`](../../chartseries)来自这个集合。
 
 ```csharp
 public void Clear()

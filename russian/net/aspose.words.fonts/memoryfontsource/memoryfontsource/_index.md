@@ -1,14 +1,14 @@
 ---
 title: MemoryFontSource
 second_title: Справочник по API Aspose.Words для .NET
-description: Ктор.
+description: Стор.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.fonts/memoryfontsource/memoryfontsource/
 ---
 ## MemoryFontSource(byte[]) {#constructor}
 
-Ктор.
+Стор.
 
 ```csharp
 public MemoryFontSource(byte[] fontData)
@@ -16,7 +16,7 @@ public MemoryFontSource(byte[] fontData)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| fontData | Byte[] | Двоичные данные шрифта. |
+| fontData | Byte[] | Данные двоичного шрифта. |
 
 ### Примеры
 
@@ -44,7 +44,7 @@ Assert.AreEqual(0, memoryFontSource.Priority);
 
 ## MemoryFontSource(byte[], int) {#constructor_1}
 
-Ктор.
+Стор.
 
 ```csharp
 public MemoryFontSource(byte[] fontData, int priority)
@@ -52,8 +52,8 @@ public MemoryFontSource(byte[] fontData, int priority)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| fontData | Byte[] | Двоичные данные шрифта. |
-| priority | Int32 | Приоритет источника шрифта. См. описание свойства[`Priority`](../../fontsourcebase/priority)для получения дополнительной информации. |
+| fontData | Byte[] | Данные двоичного шрифта. |
+| priority | Int32 | Приоритет источника шрифта. См.[`Priority`](../../fontsourcebase/priority) описание свойства для получения дополнительной информации. |
 
 ### Примеры
 
@@ -81,7 +81,7 @@ Assert.AreEqual(0, memoryFontSource.Priority);
 
 ## MemoryFontSource(byte[], int, string) {#constructor_2}
 
-Ктор.
+Стор.
 
 ```csharp
 public MemoryFontSource(byte[] fontData, int priority, string cacheKey)
@@ -89,9 +89,9 @@ public MemoryFontSource(byte[] fontData, int priority, string cacheKey)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| fontData | Byte[] | Двоичные данные шрифта. |
-| priority | Int32 | Приоритет источника шрифта. См. описание свойства[`Priority`](../../fontsourcebase/priority)для получения дополнительной информации. |
-| cacheKey | String | Ключ этого источника в кеше. См. описание свойства[`CacheKey`](../cachekey)для получения дополнительной информации. |
+| fontData | Byte[] | Данные двоичного шрифта. |
+| priority | Int32 | Приоритет источника шрифта. См.[`Priority`](../../fontsourcebase/priority) описание свойства для получения дополнительной информации. |
+| cacheKey | String | Ключ этого источника в кеше. Видеть[`CacheKey`](../cachekey) описание свойства для получения дополнительной информации. |
 
 ### Примеры
 

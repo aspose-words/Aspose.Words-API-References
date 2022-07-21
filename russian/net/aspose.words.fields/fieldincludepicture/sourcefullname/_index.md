@@ -1,14 +1,14 @@
 ---
 title: SourceFullName
 second_title: Справочник по API Aspose.Words для .NET
-description: Получает или задает расположение изображения с помощью IRI.
+description: Получает или задает местоположение изображения с помощью IRI.
 type: docs
 weight: 60
 url: /ru/net/aspose.words.fields/fieldincludepicture/sourcefullname/
 ---
 ## FieldIncludePicture.SourceFullName property
 
-Получает или задает расположение изображения с помощью IRI.
+Получает или задает местоположение изображения с помощью IRI.
 
 ```csharp
 public string SourceFullName { get; set; }

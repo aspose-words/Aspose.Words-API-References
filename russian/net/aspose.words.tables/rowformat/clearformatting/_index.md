@@ -1,14 +1,14 @@
 ---
 title: ClearFormatting
 second_title: Справочник по API Aspose.Words для .NET
-description: Восстанавливает форматирование строк по умолчанию.
+description: Восстанавливает форматирование строки по умолчанию.
 type: docs
 weight: 60
 url: /ru/net/aspose.words.tables/rowformat/clearformatting/
 ---
 ## RowFormat.ClearFormatting method
 
-Восстанавливает форматирование строк по умолчанию.
+Восстанавливает форматирование строки по умолчанию.
 
 ```csharp
 public void ClearFormatting()

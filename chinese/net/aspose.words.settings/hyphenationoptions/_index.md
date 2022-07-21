@@ -3,7 +3,7 @@ title: HyphenationOptions
 second_title: Aspose.Words for .NET API 参考
 description: 允许配置文档断字选项
 type: docs
-weight: 5450
+weight: 5500
 url: /zh/net/aspose.words.settings/hyphenationoptions/
 ---
 ## HyphenationOptions class
@@ -24,10 +24,10 @@ public class HyphenationOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AutoHyphenation](../../aspose.words.settings/hyphenationoptions/autohyphenation) { get; set; } | 获取或设置确定是否为文档打开自动断字的值。 此属性的默认值为 **false** 。 |
+| [AutoHyphenation](../../aspose.words.settings/hyphenationoptions/autohyphenation) { get; set; } | 获取或设置确定是否为文档打开自动断字的值。 此属性的默认值为 **错误的**. |
 | [ConsecutiveHyphenLimit](../../aspose.words.settings/hyphenationoptions/consecutivehyphenlimit) { get; set; } | 获取或设置可以以连字符结尾的最大连续行数。 此属性的默认值为 0。 |
-| [HyphenateCaps](../../aspose.words.settings/hyphenationoptions/hyphenatecaps) { get; set; } | 获取或设置值，确定是否用大写字母书写的单词是否连字符。 此属性的默认值为 **true** 。 |
-| [HyphenationZone](../../aspose.words.settings/hyphenationoptions/hyphenationzone) { get; set; } | 获取或设置距离右边距不希望 连字的点的 1/20 距离。 此属性的默认值为 360（0.25 英寸）。 |
+| [HyphenateCaps](../../aspose.words.settings/hyphenationoptions/hyphenatecaps) { get; set; } | 获取或设置确定所有大写字母的单词是否连字符的值。 此属性的默认值为 **真的**. |
+| [HyphenationZone](../../aspose.words.settings/hyphenationoptions/hyphenationzone) { get; set; } | 获取或设置距离右边距不希望连字的点的 1/20 的距离。 此属性的默认值为 360（0.25 英寸）。 |
 
 ### 例子
 

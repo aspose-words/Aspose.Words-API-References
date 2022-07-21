@@ -1,14 +1,14 @@
 ---
 title: PageIndex
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置要读取的第一页的从 0 开始的索引默认值为 0
+description: 获取或设置要读取的第一页的从 0 开始的索引默认为 0.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.loading/pdfloadoptions/pageindex/
 ---
 ## PdfLoadOptions.PageIndex property
 
-获取或设置要读取的第一页的从 0 开始的索引。默认值为 0。
+获取或设置要读取的第一页的从 0 开始的索引。默认为 0.
 
 ```csharp
 public int PageIndex { get; set; }

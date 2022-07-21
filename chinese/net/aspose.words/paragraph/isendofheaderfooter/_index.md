@@ -1,14 +1,14 @@
 ---
 title: IsEndOfHeaderFooter
 second_title: Aspose.Words for .NET API 参考
-description: 如果此段落是 HeaderFooter 正文故事中的最后一段则为真 部分 否则为假
+description: 如果本段是最后一段则为真 页眉页脚正文故事 部分否则为假
 type: docs
 weight: 70
 url: /zh/net/aspose.words/paragraph/isendofheaderfooter/
 ---
 ## Paragraph.IsEndOfHeaderFooter property
 
-如果此段落是 **HeaderFooter** （正文故事）中的最后一段，则为真 **部分** ;否则为假。
+如果本段是最后一段，则为真 **页眉页脚**（正文故事） **部分**;否则为假。
 
 ```csharp
 public bool IsEndOfHeaderFooter { get; }

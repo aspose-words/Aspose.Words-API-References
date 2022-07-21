@@ -16,7 +16,7 @@ public string ProgId { get; set; }
 
 ### 评论
 
-ProgID 属性并不总是存在于 Microsoft Word 文档中并且不能依赖。
+ProgID 属性并不总是存在于 Microsoft Word 文档中，因此不能依赖。
 
 不能为空。
 
@@ -24,7 +24,7 @@ ProgID 属性并不总是存在于 Microsoft Word 文档中并且不能依赖。
 
 ### 例子
 
-显示如何将嵌入的 OLE 对象提取到文件中。
+演示如何将嵌入的 OLE 对象提取到文件中。
 
 ```csharp
 Document doc = new Document(MyDir + "OLE spreadsheet.docm");

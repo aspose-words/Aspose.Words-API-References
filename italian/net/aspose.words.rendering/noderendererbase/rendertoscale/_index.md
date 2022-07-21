@@ -1,0 +1,139 @@
+---
+title: RenderToScale
+second_title: Aspose.Words per .NET API Reference
+description: Rende la forma in aGraphics oggetto su una scala specificata.
+type: docs
+weight: 70
+url: /it/net/aspose.words.rendering/noderendererbase/rendertoscale/
+---
+## NodeRendererBase.RenderToScale method
+
+Rende la forma in aGraphics oggetto su una scala specificata.
+
+```csharp
+public SizeF RenderToScale(Graphics graphics, float x, float y, float scale)
+```
+
+| Parametro | Tipo | Descrizione |
+| --- | --- | --- |
+| graphics | Graphics | L'oggetto su cui eseguire il rendering. |
+| x | Single | La coordinata X (in unità mondiali) dell'angolo in alto a sinistra della forma renderizzata. |
+| y | Single | La coordinata Y (in unità mondiali) dell'angolo in alto a sinistra della forma renderizzata. |
+| scale | Single | La scala per il rendering della forma (1,0 è 100%). |
+
+### Valore di ritorno
+
+La larghezza e l'altezza (in unità mondiali) della forma renderizzata.
+
+### Esempi
+
+Mostra come eseguire il rendering di una forma con un oggetto Graphics e visualizzarla utilizzando un Windows Form.
+
+```csharp
+{
+    Document doc = new Document();
+    DocumentBuilder builder = new DocumentBuilder(doc);
+
+    ShapeForm shapeForm = new ShapeForm(new Size(1017, 840));
+
+    // Di seguito sono riportati due modi per utilizzare la classe "ShapeRenderer" per eseguire il rendering di una forma in un oggetto Graphics.
+    // 1 - Crea una forma con un grafico e rendila su una scala specifica.
+    Chart chart = builder.InsertChart(ChartType.Pie, 500, 400).Chart;
+    chart.Series.Clear();
+    chart.Series.Add("Desktop Browser Market Share (Oct. 2020)",
+        new[] { "Google Chrome", "Apple Safari", "Mozilla Firefox", "Microsoft Edge", "Other" },
+        new[] { 70.33, 8.87, 7.69, 5.83, 7.28 });
+
+    Shape chartShape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
+
+    shapeForm.AddShapeToRenderToScale(chartShape, 0, 0, 1.5f);
+
+    // 2 - Crea un gruppo di forme e rendilo a una dimensione specifica.
+    GroupShape group = new GroupShape(doc);
+    group.Bounds = new RectangleF(0, 0, 100, 100);
+    group.CoordSize = new Size(500, 500);
+
+    Shape subShape = new Shape(doc, ShapeType.Rectangle);
+    subShape.Width = 500;
+    subShape.Height = 500;
+    subShape.Left = 0;
+    subShape.Top = 0;
+    subShape.FillColor = Color.RoyalBlue;
+    group.AppendChild(subShape);
+
+    subShape = new Shape(doc, ShapeType.Image);
+    subShape.Width = 450;
+    subShape.Height = 450;
+    subShape.Left = 25;
+    subShape.Top = 25;
+    subShape.ImageData.SetImage(ImageDir + "Logo.jpg");
+    group.AppendChild(subShape);
+
+    builder.InsertNode(group);
+
+    GroupShape groupShape = (GroupShape)doc.GetChild(NodeType.GroupShape, 0, true);
+    shapeForm.AddShapeToRenderToSize(groupShape, 880, 680, 100, 100);
+
+    shapeForm.ShowDialog();
+}
+
+/// <summary>
+/// Rendering e visualizzazione di un elenco di forme.
+/// </summary>
+private class ShapeForm : Form
+{
+    public ShapeForm(Size size)
+    {
+        Size = size;
+        mShapesToRender = new List<KeyValuePair<ShapeBase, float[]>>();
+    }
+
+    public void AddShapeToRenderToScale(ShapeBase shape, float x, float y, float scale)
+    {
+        mShapesToRender.Add(new KeyValuePair<ShapeBase, float[]>(shape, new[] {x, y, scale}));
+    }
+
+    public void AddShapeToRenderToSize(ShapeBase shape, float x, float y, float width, float height)
+    {
+        mShapesToRender.Add(new KeyValuePair<ShapeBase, float[]>(shape, new[] {x, y, width, height}));
+    }
+
+    protected override void OnPaint(PaintEventArgs e)
+    {
+        foreach (KeyValuePair<ShapeBase, float[]> renderingArgs in mShapesToRender)
+            if (renderingArgs.Value.Length == 3)
+                RenderShapeToScale(renderingArgs.Key, renderingArgs.Value[0], renderingArgs.Value[1],
+                    renderingArgs.Value[2]);
+            else if (renderingArgs.Value.Length == 4)
+                RenderShapeToSize(renderingArgs.Key, renderingArgs.Value[0], renderingArgs.Value[1],
+                    renderingArgs.Value[2], renderingArgs.Value[3]);
+    }
+
+    private void RenderShapeToScale(ShapeBase shape, float x, float y, float scale)
+    {
+        ShapeRenderer renderer = new ShapeRenderer(shape);
+        using (Graphics formGraphics = CreateGraphics())
+        {
+            renderer.RenderToScale(formGraphics, x, y, scale);
+        }
+    }
+
+    private void RenderShapeToSize(ShapeBase shape, float x, float y, float width, float height)
+    {
+        ShapeRenderer renderer = new ShapeRenderer(shape);
+        using (Graphics formGraphics = CreateGraphics())
+        {
+            renderer.RenderToSize(formGraphics, x, y, width, height);
+        }
+    }
+
+}
+```
+
+### Guarda anche
+
+* class [NodeRendererBase](../../noderendererbase)
+* spazio dei nomi [Aspose.Words.Rendering](../../noderendererbase)
+* assemblea [Aspose.Words](../../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

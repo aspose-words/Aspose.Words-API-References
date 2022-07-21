@@ -16,7 +16,7 @@ public string ComparisonOperator { get; set; }
 
 ### 例子
 
-展示如何在邮件合并过程中使用 NEXT/NEXTIF 字段将多行合并到一个页面中。
+演示如何在邮件合并期间使用 NEXT/NEXTIF 字段将多行合并到一页中。
 
 ```csharp
 {

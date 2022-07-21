@@ -1,14 +1,14 @@
 ---
 title: NodeType
 second_title: Aspose.Words for .NET API 参考
-description: 返回 NodeType.SmartTag 
+description: 返回 NodeType.SmartTag.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.markup/smarttag/nodetype/
 ---
 ## SmartTag.NodeType property
 
-返回 **NodeType.SmartTag** 。
+返回 **NodeType.SmartTag**.
 
 ```csharp
 public override NodeType NodeType { get; }

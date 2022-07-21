@@ -1,14 +1,14 @@
 ---
 title: Type
 second_title: Aspose.Words for .NET API 参考
-description: 获取VbaReferenceTypeaspose.words.vba/vbareferencetype对象该对象指示 VbaReference 对象表示的引用类型
+description: 获取VbaReferenceTypeaspose.words.vba/vbareferencetype指示 VbaReference 对象表示的引用类型的对象
 type: docs
 weight: 20
 url: /zh/net/aspose.words.vba/vbareference/type/
 ---
 ## VbaReference.Type property
 
-获取[`VbaReferenceType`](../../vbareferencetype)对象，该对象指示 VbaReference 对象表示的引用类型。
+获取[`VbaReferenceType`](../../vbareferencetype)指示 VbaReference 对象表示的引用类型的对象。
 
 ```csharp
 public abstract VbaReferenceType Type { get; }

@@ -1,14 +1,14 @@
 ---
 title: UseGdiEmfRenderer
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置一个值用于确定在保存到 EMF 时是使用 GDI 还是 Aspose.Words 图元文件渲染器
+description: 获取或设置一个值确定在保存到 EMF 时是使用 GDI 还是 Aspose.Words 图元文件渲染器
 type: docs
 weight: 180
 url: /zh/net/aspose.words.saving/imagesaveoptions/usegdiemfrenderer/
 ---
 ## ImageSaveOptions.UseGdiEmfRenderer property
 
-获取或设置一个值，用于确定在保存到 EMF 时是使用 GDI+ 还是 Aspose.Words 图元文件渲染器。
+获取或设置一个值，确定在保存到 EMF 时是使用 GDI+ 还是 Aspose.Words 图元文件渲染器。
 
 ```csharp
 public bool UseGdiEmfRenderer { get; set; }
@@ -16,19 +16,19 @@ public bool UseGdiEmfRenderer { get; set; }
 
 ### 评论
 
-如果设置为` true` 使用 GDI+ 图元文件渲染器。即内容被写入 GDI+ 图形 对象并保存到元文件。
+如果设置为`真的`使用 GDI+ 图元文件渲染器。即内容写入 GDI+ graphics 对象并保存到元文件。
 
-如果设置为` false` 使用 Aspose.Words 元文件渲染器。即内容直接用Aspose.Words 将写入元文件格式。
+如果设置为`错误的`使用 Aspose.Words 元文件渲染器。即内容直接用Aspose.Words写入 元文件格式。
 
 仅在保存到 EMF 时有效。
 
 GDI+ 保存仅适用于 .NET。
 
-默认值为` true` 。
+默认值为`真的`.
 
 ### 例子
 
-显示将文档转换为 .emf 时如何选择渲染器。
+显示在将文档转换为 .emf 时如何选择渲染器。
 
 ```csharp
 Document doc = new Document();

@@ -1,14 +1,14 @@
 ---
 title: GetEntity
 second_title: Справочник по API Aspose.Words для .NET
-description: Возвращает непрозрачную позициюLayoutEnumeratoraspose.words.layout/layoutenumerator которая соответствует указанному узлу. Вы можете использовать возвращаемое значение в качестве аргумента дляCurrentaspose.words.layout/layoutenumerator/currentучитывая что документ перечисляется и документ узла одинаковы.
+description: Возвращает непрозрачную позициюLayoutEnumeratoraspose.words.layout/layoutenumerator который соответствует указанному узлу. Вы можете использовать возвращаемое значение в качестве аргумента дляCurrentaspose.words.layout/layoutenumerator/current учитывая что перечисляемый документ be и документ узла совпадают.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.layout/layoutcollector/getentity/
 ---
 ## LayoutCollector.GetEntity method
 
-Возвращает непрозрачную позицию[`LayoutEnumerator`](../../layoutenumerator), которая соответствует указанному узлу. Вы можете использовать возвращаемое значение в качестве аргумента для[`Current`](../../layoutenumerator/current)учитывая, что документ перечисляется и документ узла одинаковы.
+Возвращает непрозрачную позицию[`LayoutEnumerator`](../../layoutenumerator) который соответствует указанному узлу. Вы можете использовать возвращаемое значение в качестве аргумента для[`Current`](../../layoutenumerator/current) учитывая, что перечисляемый документ be и документ узла совпадают.
 
 ```csharp
 public object GetEntity(Node node)
@@ -16,13 +16,13 @@ public object GetEntity(Node node)
 
 ### Примечания
 
-Этот метод работает только для[`Paragraph`](../../../aspose.words/paragraph)узлы, а также неделимые встроенные узлы, например,[`BookmarkStart`](../../../aspose.words/bookmarkstart)или[`Shape`](../../../aspose.words.drawing/shape). Это не работает для[`Run`](../../../aspose.words/run),[`Cell`](../../../aspose.words.tables/cell)[`Row`](../../../aspose.words.tables/row)или[`Table`](../../../aspose.words.tables/table)узлы и узлы в верхнем/нижнем колонтитуле.
+Этот метод работает только для[`Paragraph`](../../../aspose.words/paragraph) узлы, а также неделимые встроенные узлы, например[`BookmarkStart`](../../../aspose.words/bookmarkstart) или же[`Shape`](../../../aspose.words.drawing/shape) Это не работает для[`Run`](../../../aspose.words/run) ,[`Cell`](../../../aspose.words.tables/cell)[`Row`](../../../aspose.words.tables/row) или же[`Table`](../../../aspose.words.tables/table) узлы и узлы в верхнем/нижнем колонтитуле.
 
-Обратите внимание, что объект, возвращаемый для узла[`Paragraph`](../../../aspose.words/paragraph), представляет собой диапазон разрыва абзаца. Используйте соответствующий метод, чтобы подняться на родительскую строку
+Обратите внимание, что объект вернулся для[`Paragraph`](../../../aspose.words/paragraph) узел является диапазоном разрыва абзаца. Используйте соответствующий метод, чтобы подняться на родительскую линию
 
-Если вам нужно перейти к[`Run`](../../../aspose.words/run)текста то вы можете вставить закладку прямо перед ней и вместо этого перейти к закладке.
+Если вам нужно перейти к[`Run`](../../../aspose.words/run) текста, вы можете вставить закладку прямо перед it , а затем вместо этого перейти к закладке.
 
-Если вам нужно перейти к узлу[`Cell`](../../../aspose.words.tables/cell), вы можете перейти к узлу[`Paragraph`](../../../aspose.words/paragraph) узел в этой ячейке, а затем восхождение к родительскому объекту. Тот же подход можно использовать для узлов[`Row`](../../../aspose.words.tables/row) и[`Table`](../../../aspose.words.tables/table).
+Если вам нужно перейти к[`Cell`](../../../aspose.words.tables/cell) node, затем вы можете перейти к[`Paragraph`](../../../aspose.words/paragraph) в этой ячейке, а затем подняться к родительскому объекту. Тот же подход можно использовать для[`Row`](../../../aspose.words.tables/row) и[`Table`](../../../aspose.words.tables/table) узлы.
 
 ### Примеры
 
@@ -32,12 +32,12 @@ public object GetEntity(Node node)
 Document doc = new Document();
 LayoutCollector layoutCollector = new LayoutCollector(doc);
 
- // Вызовите метод "GetNumPagesSpanned", чтобы подсчитать, сколько страниц занимает содержимое нашего документа.
- // Поскольку документ пуст, это количество страниц в настоящее время равно нулю.
+// Вызовите метод «GetNumPagesSpanned», чтобы подсчитать, сколько страниц занимает содержимое нашего документа.
+// Поскольку документ пуст, это количество страниц в настоящее время равно нулю.
 Assert.AreEqual(doc, layoutCollector.Document);
 Assert.AreEqual(0, layoutCollector.GetNumPagesSpanned(doc));
 
- // Заполнить документ 5 страницами содержимого.
+// Заполнить документ 5 страницами содержимого.
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Write("Section 1");
 builder.InsertBreak(BreakType.PageBreak);
@@ -47,8 +47,8 @@ builder.Write("Section 2");
 builder.InsertBreak(BreakType.PageBreak);
 builder.InsertBreak(BreakType.PageBreak);
 
- // Перед сборщиком макетов нам нужно вызвать метод «UpdatePageLayout», чтобы получить us
- // точная цифра для любой метрики, связанной с макетом, такой как количество страниц.
+// Перед сборщиком макетов нам нужно вызвать метод «UpdatePageLayout», чтобы получить
+// точная цифра для любой метрики, связанной с макетом, например, для количества страниц.
 Assert.AreEqual(0, layoutCollector.GetNumPagesSpanned(doc));
 
 layoutCollector.Clear();
@@ -56,7 +56,7 @@ doc.UpdatePageLayout();
 
 Assert.AreEqual(5, layoutCollector.GetNumPagesSpanned(doc));
 
- // Мы можем видеть номера начальной и конечной страниц любого узла и их общий диапазон страниц.
+// Мы можем видеть номера начальной и конечной страниц любого узла и их общий диапазон страниц.
 NodeCollection nodes = doc.GetChildNodes(NodeType.Any, true);
 foreach (Node node in nodes)
 {
@@ -66,13 +66,13 @@ foreach (Node node in nodes)
         $" spanning {layoutCollector.GetNumPagesSpanned(node)} pages.");
 }
 
- // Мы можем перебирать объекты макета, используя LayoutEnumerator.
+// Мы можем перебирать объекты макета с помощью LayoutEnumerator.
 LayoutEnumerator layoutEnumerator = new LayoutEnumerator(doc);
 
 Assert.AreEqual(LayoutEntityType.Page, layoutEnumerator.Type);
 
- // LayoutEnumerator может перемещаться по коллекции сущностей макета, например, по дереву.
- // Мы также можем применить его к соответствующему объекту макета любого узла.
+// LayoutEnumerator может перемещаться по коллекции сущностей макета, как по дереву.
+// Мы также можем применить его к соответствующему объекту макета любого узла.
 layoutEnumerator.Current = layoutCollector.GetEntity(doc.GetChild(NodeType.Paragraph, 1, true));
 
 Assert.AreEqual(LayoutEntityType.Span, layoutEnumerator.Type);

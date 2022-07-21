@@ -3,7 +3,7 @@ title: FieldFormat
 second_title: Aspose.Words for .NET API 参考
 description: 提供对字段的数字日期和时间以及一般格式的键入访问
 type: docs
-weight: 1750
+weight: 1790
 url: /zh/net/aspose.words.fields/fieldformat/
 ---
 ## FieldFormat class
@@ -20,7 +20,7 @@ public class FieldFormat
 | --- | --- |
 | [DateTimeFormat](../../aspose.words.fields/fieldformat/datetimeformat) { get; set; } | 获取或设置应用于日期和时间字段结果的格式。对应于 \@ 开关。 |
 | [GeneralFormats](../../aspose.words.fields/fieldformat/generalformats) { get; } | 获取应用于数字、文本或任何字段结果的通用格式的集合。 对应于 \* 开关。 |
-| [NumericFormat](../../aspose.words.fields/fieldformat/numericformat) { get; set; } | 获取或设置应用于数值字段结果的格式。对应于 \# 开关。 |
+| [NumericFormat](../../aspose.words.fields/fieldformat/numericformat) { get; set; } | 获取或设置应用于数值字段结果的格式。对应于\# switch. |
 
 ### 例子
 

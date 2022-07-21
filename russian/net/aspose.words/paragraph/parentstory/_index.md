@@ -1,14 +1,14 @@
 ---
 title: ParentStory
 second_title: Справочник по API Aspose.Words для .NET
-description: Извлекает историю уровня родительского раздела которая может бытьBodyaspose.words/bodyилиHeaderFooteraspose.words/headerfooter.
+description: Извлекает историю на уровне родительского раздела которую можноBodyaspose.words/body или жеHeaderFooteraspose.words/headerfooter .
 type: docs
 weight: 210
 url: /ru/net/aspose.words/paragraph/parentstory/
 ---
 ## Paragraph.ParentStory property
 
-Извлекает историю уровня родительского раздела, которая может быть[`Body`](../../body)или[`HeaderFooter`](../../headerfooter).
+Извлекает историю на уровне родительского раздела, которую можно[`Body`](../../body) или же[`HeaderFooter`](../../headerfooter) .
 
 ```csharp
 public Story ParentStory { get; }

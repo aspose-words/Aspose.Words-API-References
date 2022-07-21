@@ -1,14 +1,14 @@
 ---
 title: BuildingBlockGallery
 second_title: Aspose.Words for .NET API 参考
-description: 指定此 SDT 的构建块类型 不能为空
+description: 为此指定构建块的类型 SDT 不能为空
 type: docs
 weight: 40
 url: /zh/net/aspose.words.markup/structureddocumenttag/buildingblockgallery/
 ---
 ## StructuredDocumentTag.BuildingBlockGallery property
 
-指定此 **SDT** 的构建块类型。 不能为空。
+为此指定构建块的类型 **SDT** 不能为空。
 
 ```csharp
 public string BuildingBlockGallery { get; set; }
@@ -16,7 +16,7 @@ public string BuildingBlockGallery { get; set; }
 
 ### 评论
 
-访问此属性仅适用于BuildingBlockGallery和 DocPartObjSDT 类型。它对于文档部件类型的 **SDT** 是只读的。
+访问此属性仅适用于BuildingBlockGallery和 DocPartObj SDT 类型。它是只读的 **SDT**文档部分类型的.
 
 对于所有其他 SDT 类型，将发生异常。
 

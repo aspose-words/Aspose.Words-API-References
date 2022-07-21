@@ -1,14 +1,14 @@
 ---
 title: Alignment
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置此制表位处的文本对齐方式
+description: 获取或设置此制表位的文本对齐方式
 type: docs
 weight: 20
 url: /zh/net/aspose.words/tabstop/alignment/
 ---
 ## TabStop.Alignment property
 
-获取或设置此制表位处的文本对齐方式。
+获取或设置此制表位的文本对齐方式。
 
 ```csharp
 public TabAlignment Alignment { get; set; }
@@ -16,7 +16,7 @@ public TabAlignment Alignment { get; set; }
 
 ### 例子
 
-显示如何修改目录相关段落中右制表位的位置。
+显示如何修改 TOC 相关段落中右制表位的位置。
 
 ```csharp
 Document doc = new Document(MyDir + "Table of contents.docx");

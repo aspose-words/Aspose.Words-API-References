@@ -1,14 +1,14 @@
 ---
 title: Frameset
 second_title: Справочник по API Aspose.Words для .NET
-description: Представляет страницу фреймов или один фрейм на странице фреймов.
+description: Представляет страницу кадров или отдельный кадр на странице кадров.
 type: docs
-weight: 2850
+weight: 2900
 url: /ru/net/aspose.words.framesets/frameset/
 ---
 ## Frameset class
 
-Представляет страницу фреймов или один фрейм на странице фреймов.
+Представляет страницу кадров или отдельный кадр на странице кадров.
 
 ```csharp
 public class Frameset
@@ -26,11 +26,11 @@ public class Frameset
 | --- | --- |
 | [ChildFramesets](../../aspose.words.framesets/frameset/childframesets) { get; } | Получает коллекцию дочерних фреймов и страниц фреймов. |
 | [FrameDefaultUrl](../../aspose.words.framesets/frameset/framedefaulturl) { get; set; } | Получает или задает URL-адрес веб-страницы или имя файла документа для отображения в этом фрейме. |
-| [IsFrameLinkToFile](../../aspose.words.framesets/frameset/isframelinktofile) { get; set; } | Получает или задает значение, указывающее, указано ли имя файла веб-страницы или документа в FrameDefaultUrlявляется внешним ресурсом, с которым связан фрейм. |
+| [IsFrameLinkToFile](../../aspose.words.framesets/frameset/isframelinktofile) { get; set; } | Получает или задает значение, указывающее, является ли имя файла веб-страницы или документа указанным в параметре .[`FrameDefaultUrl`](./framedefaulturl) свойство — это внешний ресурс, с которым связан фрейм. |
 
 ### Примечания
 
-Если[`ChildFramesets`](./childframesets)свойство содержит элементы, этот экземпляр является страницей фреймов, в противном случае это одиночный фрейм.
+Если[`ChildFramesets`](./childframesets) содержит элементы, этот экземпляр является страницей фреймов, в противном случае это один фрейм.
 
 ### Примеры
 

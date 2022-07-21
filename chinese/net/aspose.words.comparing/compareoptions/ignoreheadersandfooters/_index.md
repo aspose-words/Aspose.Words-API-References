@@ -1,14 +1,14 @@
 ---
 title: IgnoreHeadersAndFooters
 second_title: Aspose.Words for .NET API 参考
-description: True 表示页眉和页脚内容被忽略 默认情况下不忽略页眉和页脚
+description: True 表示忽略页眉和页脚内容 默认情况下不忽略页眉和页脚
 type: docs
 weight: 90
 url: /zh/net/aspose.words.comparing/compareoptions/ignoreheadersandfooters/
 ---
 ## CompareOptions.IgnoreHeadersAndFooters property
 
-True 表示页眉和页脚内容被忽略。 默认情况下不忽略页眉和页脚。
+True 表示忽略页眉和页脚内容。 默认情况下不忽略页眉和页脚。
 
 ```csharp
 public bool IgnoreHeadersAndFooters { get; set; }
@@ -16,7 +16,7 @@ public bool IgnoreHeadersAndFooters { get; set; }
 
 ### 例子
 
-显示在进行比较时如何过滤特定类型的文档元素。
+显示如何在进行比较时过滤特定类型的文档元素。
 
 ```csharp
 // 创建原始文档并用各种元素填充它。

@@ -24,11 +24,11 @@ public BookmarkStart StartColumnBookmark(string bookmarkName)
 
 ### 评论
 
-列书签涵盖一系列行中的一个或多个列。要创建一个有效的书签，您 需要同时调用`StartColumnBookmark`和[`EndColumnBookmark`](../endcolumnbookmark)具有相同的  **bookmarkName** 参数。
+列书签涵盖一系列行中的一个或多个列。要创建有效的书签 you 需要同时调用`StartColumnBookmark`和[`EndColumnBookmark`](../endcolumnbookmark)与相同  **书签名称**范围。
 
 保存文档时将忽略格式错误的书签或具有重复名称的书签。
 
-插入的[`BookmarkStart`](../../bookmarkstart)节点的实际位置可能与当前文档不同建造者位置。
+插入的实际位置[`BookmarkStart`](../../bookmarkstart)节点可能与当前的 document builder 位置不同。
 
 ### 例子
 

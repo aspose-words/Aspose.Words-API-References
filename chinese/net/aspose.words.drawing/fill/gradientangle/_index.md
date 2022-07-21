@@ -16,7 +16,7 @@ public double GradientAngle { get; set; }
 
 ### 例子
 
-显示如何使用渐变填充形状。
+展示如何用渐变填充形状。
 
 ```csharp
 Document doc = new Document();

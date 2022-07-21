@@ -1,14 +1,14 @@
 ---
 title: ConvMailMergeEsc
 second_title: Справочник по API Aspose.Words для .NET
-description: Рассматривать разделитель кавычек с обратной косой чертой как две кавычки.
+description: Рассматривать ограничитель обратной косой черты как две кавычки.
 type: docs
 weight: 90
 url: /ru/net/aspose.words.settings/compatibilityoptions/convmailmergeesc/
 ---
 ## CompatibilityOptions.ConvMailMergeEsc property
 
-Рассматривать разделитель кавычек с обратной косой чертой как две кавычки.
+Рассматривать ограничитель обратной косой черты как две кавычки.
 
 ```csharp
 public bool ConvMailMergeEsc { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: IgnoreTextboxes
 second_title: Aspose.Words for .NET API 参考
-description: 指定是否比较文本框中包含的数据的差异 默认文本框不会被忽略
+description: 指定是否比较文本框中包含的数据的差异 默认情况下不会忽略文本框
 type: docs
 weight: 110
 url: /zh/net/aspose.words.comparing/compareoptions/ignoretextboxes/
 ---
 ## CompareOptions.IgnoreTextboxes property
 
-指定是否比较文本框中包含的数据的差异。 默认文本框不会被忽略。
+指定是否比较文本框中包含的数据的差异。 默认情况下不会忽略文本框。
 
 ```csharp
 public bool IgnoreTextboxes { get; set; }
@@ -16,7 +16,7 @@ public bool IgnoreTextboxes { get; set; }
 
 ### 例子
 
-显示在进行比较时如何过滤特定类型的文档元素。
+显示如何在进行比较时过滤特定类型的文档元素。
 
 ```csharp
 // 创建原始文档并用各种元素填充它。

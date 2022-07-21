@@ -16,9 +16,9 @@ public override string GetText()
 
 ### 评论
 
-返回以行尾字符结尾的所有子节点的串联文本ControlChar.Cell 附加在末尾。
+返回以行字符 结尾的所有子节点的连接文本[`控制字符单元`](../../../aspose.words/controlchar/cell)附在最后。
 
-返回的字符串包括所有控制和特殊字符，如[`ControlChar`](../../../aspose.words/controlchar)中所述。
+返回的字符串包括所有控制和特殊字符，如[`ControlChar`](../../../aspose.words/controlchar).
 
 ### 例子
 
@@ -30,17 +30,17 @@ public void TableToText()
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     TableStructurePrinter visitor = new TableStructurePrinter();
 
-     // 当我们得到一个复合节点接受一个文档访问者时，访问者访问接受节点，
-     // 然后以深度优先的方式遍历所有节点的孩子。
-     // 访问者可以读取和修改每个访问过的节点。
+    // 当我们得到一个复合节点来接受一个文档访问者时，访问者访问接受节点，
+    // 然后以深度优先的方式遍历所有节点的子节点。
+    // 访问者可以读取和修改每个访问的节点。
     doc.Accept(visitor);
 
     Console.WriteLine(visitor.GetText());
 }
 
 /// <summary>
- /// 遍历一个节点的子节点的非二叉树。
- /// 创建所有遇到的表节点及其子节点的字符串形式的映射。
+/// 遍历一个节点的子节点的非二叉树。
+/// 以所有遇到的 Table 节点及其子节点的字符串形式创建一个映射。
 /// </summary>
 public class TableStructurePrinter : DocumentVisitor
 {
@@ -56,8 +56,8 @@ public class TableStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-     /// 在文档中遇到 Run 节点时调用。
-     /// 不在表内的运行不会被记录。
+    /// 在文档中遇到 Run 节点时调用。
+    /// 不在表内的运行不会被记录。
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {
@@ -67,7 +67,7 @@ public class TableStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// 在文档中遇到 Table 时调用。
+    /// 在文档中遇到表格时调用。
     /// </summary>
     public override VisitorAction VisitTableStart(Table table)
     {
@@ -88,7 +88,7 @@ public class TableStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-     /// 访问完一个Table节点的所有子节点后调用.
+    /// 在访问完一个 Table 节点的所有子节点后调用。
     /// </summary>
     public override VisitorAction VisitTableEnd(Table table)
     {
@@ -100,7 +100,7 @@ public class TableStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-     /// 在文档中遇到 Row 节点时调用。
+    /// 在文档中遇到 Row 节点时调用。
     /// </summary>
     public override VisitorAction VisitRowStart(Row row)
     {
@@ -120,7 +120,7 @@ public class TableStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-     /// 在一个 Row 节点的所有子节点都被访问后调用。
+    /// 在访问了 Row 节点的所有子节点后调用。
     /// </summary>
     public override VisitorAction VisitRowEnd(Row row)
     {
@@ -131,7 +131,7 @@ public class TableStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-     /// 在文档中遇到 Cell 节点时调用。
+    /// 在文档中遇到 Cell 节点时调用。
     /// </summary>
     public override VisitorAction VisitCellStart(Cell cell)
     {
@@ -150,7 +150,7 @@ public class TableStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-     /// 在访问完一个Cell节点的所有子节点后调用。
+    /// 在访问完 Cell 节点的所有子节点后调用。
     /// </summary>
     public override VisitorAction VisitCellEnd(Cell cell)
     {
@@ -160,10 +160,10 @@ public class TableStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-     /// 在StringBuilder中追加一行，根据访问者的深度缩进
-     /// 进入当前表的子节点树.
+    /// 将一行添加到 StringBuilder，并根据访问者的深度缩进
+    /// 进入当前表的子节点树。
     /// </summary>
-     /// <param name="text"></param>
+    /// <param name="text"></param>
     private void IndentAndAppendLine(string text)
     {
         for (int i = 0; i < mDocTraversalDepth; i++)

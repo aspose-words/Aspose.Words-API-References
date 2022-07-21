@@ -3,7 +3,7 @@ title: PageRange
 second_title: Aspose.Words for .NET API 参考
 description: 表示页面的连续范围
 type: docs
-weight: 5040
+weight: 5090
 url: /zh/net/aspose.words.saving/pagerange/
 ---
 ## PageRange class

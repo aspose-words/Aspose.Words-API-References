@@ -16,11 +16,11 @@ public Forms2OleControlCollection ChildNodes { get; }
 
 ### 评论
 
-返回 **null** 如果此控件不能有子控件。
+退货 **无效的**如果这个控件不能有孩子。
 
 ### 例子
 
-显示如何验证 ActiveX 控件的属性。
+演示如何验证 ActiveX 控件的属性。
 
 ```csharp
 Document doc = new Document(MyDir + "ActiveX controls.docx");

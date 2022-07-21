@@ -21,12 +21,12 @@ public void Clear()
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");
 
- // 此文档有一个部分，其中包含并显示所有文档的内容。
+// 此文档有一个部分，其中包含并显示所有文档的内容的几个子节点。
 Assert.AreEqual(1, doc.Sections.Count);
 Assert.AreEqual(17, doc.Sections[0].GetChildNodes(NodeType.Any, true).Count);
 Assert.AreEqual("Hello World!\r\rHello Word!\r\r\rHello World!", doc.GetText().Trim());
 
- // 清除部分的集合，这将删除文档的所有子项。
+// 清除部分的集合，这将删除文档的所有子项。
 doc.Sections.Clear();
 
 Assert.AreEqual(0, doc.GetChildNodes(NodeType.Any, true).Count);

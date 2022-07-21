@@ -16,13 +16,13 @@ public Bookmark this[int index] { get; }
 
 | 范围 | 描述 |
 | --- | --- |
-| index | 集合的索引。 |
+| index | 集合中的索引。 |
 
 ### 评论
 
-索引从零开始。
+该索引从零开始。
 
-负索引是允许的，表示从集合后面访问。 例如 -1 表示最后一项，-2 表示倒数第二个，依此类推。
+允许使用负索引并指示从集合的背面进行访问。 例如 -1 表示最后一项，-2 表示倒数第二个，依此类推。
 
 如果 index 大于或等于列表中的项目数，则返回空引用。
 
@@ -30,27 +30,27 @@ public Bookmark this[int index] { get; }
 
 ### 例子
 
-显示如何添加书签和更新其内容。
+展示如何添加书签和更新其内容。
 
 ```csharp
 public void CreateUpdateAndPrintBookmarks()
 {
-     // 创建一个包含三个书签的文档，然后使用自定义文档访问者实现来打印它们的内容。
+    // 创建一个包含三个书签的文档，然后使用自定义文档访问者实现来打印其内容。
     Document doc = CreateDocumentWithBookmarks(3);
     BookmarkCollection bookmarks = doc.Range.Bookmarks;
 
     PrintAllBookmarkInfo(bookmarks);
 
-     // 书签集合中可以通过索引或名称访问书签，并且可以更新它们的名称。
+    // 书签集合中可以通过索引或名称访问书签，并且可以更新它们的名称。
     bookmarks[0].Name = $"{bookmarks[0].Name}_NewName";
     bookmarks["MyBookmark_2"].Text = $"Updated text contents of {bookmarks[1].Name}";
 
-     // 再次打印所有书签以查看更新的值。
+    // 再次打印所有书签以查看更新的值。
     PrintAllBookmarkInfo(bookmarks);
 }
 
 /// <summary>
- /// 创建具有给定数量书签的文档。
+/// 创建一个具有给定数量书签的文档。
 /// </summary>
 private static Document CreateDocumentWithBookmarks(int numberOfBookmarks)
 {
@@ -72,7 +72,7 @@ private static Document CreateDocumentWithBookmarks(int numberOfBookmarks)
 }
 
 /// <summary>
- /// 使用迭代器和访问者打印集合中每个书签的信息。
+/// 使用迭代器和访问者打印集合中每个书签的信息。
 /// </summary>
 private static void PrintAllBookmarkInfo(BookmarkCollection bookmarks)
 {
@@ -97,7 +97,7 @@ private static void PrintAllBookmarkInfo(BookmarkCollection bookmarks)
 }
 
 /// <summary>
- /// 将每个访问过的书签的内容打印到控制台。
+/// 将每个访问过的书签的内容打印到控制台。
 /// </summary>
 public class BookmarkInfoPrinter : DocumentVisitor
 {
@@ -142,27 +142,27 @@ public Bookmark this[string bookmarkName] { get; }
 
 ### 例子
 
-显示如何添加书签和更新其内容。
+展示如何添加书签和更新其内容。
 
 ```csharp
 public void CreateUpdateAndPrintBookmarks()
 {
-     // 创建一个包含三个书签的文档，然后使用自定义文档访问者实现来打印它们的内容。
+    // 创建一个包含三个书签的文档，然后使用自定义文档访问者实现来打印其内容。
     Document doc = CreateDocumentWithBookmarks(3);
     BookmarkCollection bookmarks = doc.Range.Bookmarks;
 
     PrintAllBookmarkInfo(bookmarks);
 
-     // 书签集合中可以通过索引或名称访问书签，并且可以更新它们的名称。
+    // 书签集合中可以通过索引或名称访问书签，并且可以更新它们的名称。
     bookmarks[0].Name = $"{bookmarks[0].Name}_NewName";
     bookmarks["MyBookmark_2"].Text = $"Updated text contents of {bookmarks[1].Name}";
 
-     // 再次打印所有书签以查看更新的值。
+    // 再次打印所有书签以查看更新的值。
     PrintAllBookmarkInfo(bookmarks);
 }
 
 /// <summary>
- /// 创建具有给定数量书签的文档。
+/// 创建一个具有给定数量书签的文档。
 /// </summary>
 private static Document CreateDocumentWithBookmarks(int numberOfBookmarks)
 {
@@ -184,7 +184,7 @@ private static Document CreateDocumentWithBookmarks(int numberOfBookmarks)
 }
 
 /// <summary>
- /// 使用迭代器和访问者打印集合中每个书签的信息。
+/// 使用迭代器和访问者打印集合中每个书签的信息。
 /// </summary>
 private static void PrintAllBookmarkInfo(BookmarkCollection bookmarks)
 {
@@ -209,7 +209,7 @@ private static void PrintAllBookmarkInfo(BookmarkCollection bookmarks)
 }
 
 /// <summary>
- /// 将每个访问过的书签的内容打印到控制台。
+/// 将每个访问过的书签的内容打印到控制台。
 /// </summary>
 public class BookmarkInfoPrinter : DocumentVisitor
 {

@@ -17,8 +17,8 @@ public Node GetChild(NodeType nodeType, int index, bool isDeep)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | nodeType | NodeType | Указывает тип дочернего узла. |
-| index | Int32 | Отсчитываемый от нуля индекс дочернего узла для выбора. Отрицательные индексы также разрешены и указывают на доступ с конца, то есть -1 означает последний узел. |
-| isDeep | Boolean | True для рекурсивного выбора из всех дочерних узлов. False для выбора только среди непосредственных дочерних элементов. См. комментарии для получения дополнительной информации. |
+| index | Int32 | Отсчитываемый от нуля индекс дочернего узла для выбора. Отрицательные индексы также разрешены и указывают на доступ с конца, , то есть -1 означает последний узел. |
+| isDeep | Boolean | True для рекурсивного выбора из всех дочерних узлов. False для выбора только среди непосредственных дочерних узлов. См. комментарии для получения дополнительной информации. |
 
 ### Возвращаемое значение
 
@@ -26,9 +26,9 @@ public Node GetChild(NodeType nodeType, int index, bool isDeep)
 
 ### Примечания
 
-Если индекс вне допустимого диапазона, возвращается нуль.
+Если индекс выходит за пределы допустимого диапазона, возвращается нуль.
 
-Обратите внимание, что узлы разметки (StructuredDocumentTagиSmartTag) просматриваются, даже если isDeep = false и GetChild вызывается для типа узла без разметки. Например, если первый запуск в параграфе заключен в StructuredDocumentTag, он все равно будет возвращен GetChild(NodeType.Run, 0, false).
+Обратите внимание, что узлы разметки (StructuredDocumentTag а такжеSmartTag) просматриваются, даже если isDeep = false и GetChild вызывается для типа узла без разметки. Например, если первый запуск в параграфе заключен в StructuredDocumentTag, он все равно будет возвращен GetChild(NodeType.Run, 0, false).
 
 ### Примеры
 
@@ -36,39 +36,26 @@ public Node GetChild(NodeType nodeType, int index, bool isDeep)
 
 ```csharp
 Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Добавьте два прогона и одну фигуру в качестве дочерних узлов в первый абзац этого документа.
-Paragraph paragraph = (Paragraph)doc.GetChild(NodeType.Paragraph, 0, true);
-paragraph.AppendChild(new Run(doc, "Hello world! "));
+Table table = builder.StartTable();
+builder.InsertCell();
+builder.Write("Hello world!");
+builder.EndTable();
 
-Shape shape = new Shape(doc, ShapeType.Rectangle);
-shape.Width = 200;
-shape.Height = 200;
-// Обратите внимание, что 'CustomNodeId' не сохраняется в выходной файл и существует только во время жизни узла.
-shape.CustomNodeId = 100;
-shape.WrapType = WrapType.Inline;
-paragraph.AppendChild(shape);
+TableStyle tableStyle = (TableStyle)doc.Styles.Add(StyleType.Table, "MyTableStyle1");
+tableStyle.RowStripe = 3;
+tableStyle.CellSpacing = 5;
+tableStyle.Shading.BackgroundPatternColor = Color.AntiqueWhite;
+tableStyle.Borders.Color = Color.Blue;
+tableStyle.Borders.LineStyle = LineStyle.DotDash;
 
-paragraph.AppendChild(new Run(doc, "Hello again!"));
+table.Style = tableStyle;
 
-// Итерация по коллекции непосредственных дочерних элементов абзаца,
-// и печатаем любые прогоны или формы, которые мы находим внутри.
-NodeCollection children = paragraph.ChildNodes;
+// Этот метод относится к свойствам стиля таблицы, таким как те, которые мы установили выше.
+doc.ExpandTableStylesToDirectFormatting();
 
-Assert.AreEqual(3, paragraph.ChildNodes.Count);
-
-foreach (Node child in children)
-    switch (child.NodeType)
-    {
-        case NodeType.Run:
-            Console.WriteLine("Run contents:");
-            Console.WriteLine($"\t\"{child.GetText().Trim()}\"");
-            break;
-        case NodeType.Shape:
-            Shape childShape = (Shape)child;
-            Console.WriteLine("Shape:");
-            Console.WriteLine($"\t{childShape.ShapeType}, {childShape.Width}x{childShape.Height}");
-    }
+doc.Save(ArtifactsDir + "Document.TableStyleToDirectFormatting.docx");
 ```
 
 Показывает, как пройти через коллекцию дочерних узлов составного узла.

@@ -1,14 +1,14 @@
 ---
 title: ParentSection
 second_title: Aspose.Words for .NET API 参考
-description: 检索段落的父Sectionaspose.words/section
+description: 检索父级Sectionaspose.words/section段落的.
 type: docs
 weight: 200
 url: /zh/net/aspose.words/paragraph/parentsection/
 ---
 ## Paragraph.ParentSection property
 
-检索段落的父[`Section`](../../section)。
+检索父级[`Section`](../../section)段落的.
 
 ```csharp
 public Section ParentSection { get; }

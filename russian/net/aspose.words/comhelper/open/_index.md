@@ -1,14 +1,14 @@
 ---
 title: Open
 second_title: Справочник по API Aspose.Words для .NET
-description: Позволяет приложению COM загружатьDocumentaspose.words/documentиз файла.
+description: Позволяет приложению COM загружатьDocumentaspose.words/document из файла .
 type: docs
 weight: 20
 url: /ru/net/aspose.words/comhelper/open/
 ---
 ## Open(string) {#open_1}
 
-Позволяет приложению COM загружать[`Document`](../../document)из файла.
+Позволяет приложению COM загружать[`Document`](../../document) из файла .
 
 ```csharp
 public Document Open(string fileName)
@@ -16,48 +16,40 @@ public Document Open(string fileName)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| fileName | String | Имя файла загружаемого документа. |
+| fileName | String | Имя файла документа для загрузки. |
 
 ### Возвращаемое значение
 
-A[`Document`](../../document)объект, представляющий документ Word.
+А[`Document`](../../document) объект, представляющий документ Word.
 
 ### Примечания
 
-Этот метод аналогичен вызову[`Document`](../../document)конструктор с параметром имени файла.
+Этот метод аналогичен вызову[`Document`](../../document) конструктор с параметром имени файла.
 
 ### Примеры
 
 ```csharp
- // Класс ComHelper позволяет нам загружать документы из COM-клиентов.
-ComHelper comHelper = new ComHelper();
+[VBScript]
 
- // 1 - Использование локального системного имени файла: 
-Document doc = comHelper.Open(MyDir + "Document.docx");
+Dim helper
+Set helper = CreateObject("Aspose.Words.ComHelper")
 
-Assert.AreEqual("Hello World!\r\rHello Word!\r\r\rHello World!", doc.GetText().Trim());
-
- // 2 - Из потока:
-using (FileStream stream = new FileStream(MyDir + "Document.docx", FileMode.Open))
-{
-    doc = comHelper.Open(stream);
-
-    Assert.AreEqual("Hello World!\r\rHello Word!\r\r\rHello World!", doc.GetText().Trim());
-}
+Dim doc
+Set doc = helper.Open(fileName)
 ```
 
 Показывает, как открывать документы с помощью класса ComHelper.
 
 ```csharp
- // Класс ComHelper позволяет нам загружать документы из COM-клиентов.
+// Класс ComHelper позволяет нам загружать документы из COM-клиентов.
 ComHelper comHelper = new ComHelper();
 
- // 1 - Использование локального системного имени файла: 
+// 1 - Использование локального системного имени файла:
 Document doc = comHelper.Open(MyDir + "Document.docx");
 
 Assert.AreEqual("Hello World!\r\rHello Word!\r\r\rHello World!", doc.GetText().Trim());
 
- // 2 - Из потока:
+// 2 - Из потока:
 using (FileStream stream = new FileStream(MyDir + "Document.docx", FileMode.Open))
 {
     doc = comHelper.Open(stream);
@@ -77,7 +69,7 @@ using (FileStream stream = new FileStream(MyDir + "Document.docx", FileMode.Open
 
 ## Open(Stream) {#open}
 
-Позволяет приложению COM загружать[`Document`](../../document)из потока.
+Разрешает загрузку приложения COM[`Document`](../../document) из потока.
 
 ```csharp
 public Document Open(Stream stream)
@@ -85,30 +77,30 @@ public Document Open(Stream stream)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| stream | Stream | Потоковый объект .NET, содержащий загружаемый документ. |
+| stream | Stream | Объект потока .NET, содержащий загружаемый документ. |
 
 ### Возвращаемое значение
 
-A[`Document`](../../document)объект, представляющий документ Word.
+А[`Document`](../../document) объект, представляющий документ Word.
 
 ### Примечания
 
-Этот метод аналогичен вызову[`Document`](../../document)конструктор с параметром потока.
+Этот метод аналогичен вызову[`Document`](../../document) конструктор с параметром потока.
 
 ### Примеры
 
 Показывает, как открывать документы с помощью класса ComHelper.
 
 ```csharp
- // Класс ComHelper позволяет нам загружать документы из COM-клиентов.
+// Класс ComHelper позволяет нам загружать документы из COM-клиентов.
 ComHelper comHelper = new ComHelper();
 
- // 1 - Использование локального системного имени файла: 
+// 1 - Использование локального системного имени файла:
 Document doc = comHelper.Open(MyDir + "Document.docx");
 
 Assert.AreEqual("Hello World!\r\rHello Word!\r\r\rHello World!", doc.GetText().Trim());
 
- // 2 - Из потока:
+// 2 - Из потока:
 using (FileStream stream = new FileStream(MyDir + "Document.docx", FileMode.Open))
 {
     doc = comHelper.Open(stream);

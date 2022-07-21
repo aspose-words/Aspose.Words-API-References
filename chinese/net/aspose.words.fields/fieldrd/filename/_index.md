@@ -16,7 +16,7 @@ public string FileName { get; set; }
 
 ### 例子
 
-显示使用 RD 字段从其他文档的标题创建目录条目。
+显示使用 RD 字段从其他文档中的标题创建目录条目。
 
 ```csharp
 Document doc = new Document();

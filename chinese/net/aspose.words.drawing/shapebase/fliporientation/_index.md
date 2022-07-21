@@ -16,7 +16,7 @@ public FlipOrientation FlipOrientation { get; set; }
 
 ### 评论
 
-默认值为FlipOrientation。没有任何。
+默认值为None.
 
 ### 例子
 

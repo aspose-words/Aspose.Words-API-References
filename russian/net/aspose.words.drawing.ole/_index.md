@@ -13,7 +13,7 @@ url: /ru/net/aspose.words.drawing.ole/
 | Учебный класс | Описание |
 | --- | --- |
 | [Forms2OleControl](./forms2olecontrol) | Представляет элемент управления Microsoft Forms 2.0 OLE. |
-| [Forms2OleControlCollection](./forms2olecontrolcollection) | Представляет набор объектов[`Forms2OleControl`](../aspose.words.drawing.ole/forms2olecontrol). |
+| [Forms2OleControlCollection](./forms2olecontrolcollection) | Представляет набор[`Forms2OleControl`](../aspose.words.drawing.ole/forms2olecontrol) объекты. |
 | [OleControl](./olecontrol) | Представляет элемент управления OLE ActiveX. |
 ## перечисление
 

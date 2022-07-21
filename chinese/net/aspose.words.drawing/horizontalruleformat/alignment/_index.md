@@ -16,7 +16,7 @@ public HorizontalRuleAlignment Alignment { get; set; }
 
 ### 评论
 
-默认值为HorizontalRuleAlignment。剩下。
+默认值为Left.
 
 ### 例子
 

@@ -45,15 +45,15 @@ public void Solid(Color color)
 ```csharp
 Document doc = new Document(MyDir + "Two color gradient.docx");
 
- // Получить объект Fill для шрифта первого запуска.
+// Получить объект Fill для шрифта первого запуска.
 Fill fill = doc.FirstSection.Body.Paragraphs[0].Runs[0].Font.Fill;
 
- // Проверяем свойства заливки шрифта.
+// Проверяем свойства заливки шрифта.
 Console.WriteLine("The type of the fill is: {0}", fill.FillType);
 Console.WriteLine("The foreground color of the fill is: {0}", fill.ForeColor);
 Console.WriteLine("The fill is transparent at {0}%", fill.Transparency * 100);
 
- // Изменяем тип заливки на Solid однородным зеленым цветом.
+// Изменить тип заливки на сплошную с равномерным зеленым цветом.
 fill.Solid(Color.Green);
 Console.WriteLine("\nThe fill is changed:");
 Console.WriteLine("The type of the fill is: {0}", fill.FillType);

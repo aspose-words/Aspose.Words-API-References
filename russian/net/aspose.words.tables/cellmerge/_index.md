@@ -3,7 +3,7 @@ title: CellMerge
 second_title: Справочник по API Aspose.Words для .NET
 description: Указывает как ячейка в таблице объединяется с другими ячейками.
 type: docs
-weight: 5920
+weight: 5970
 url: /ru/net/aspose.words.tables/cellmerge/
 ---
 ## CellMerge enumeration
@@ -20,76 +20,67 @@ public enum CellMerge
 | --- | --- | --- |
 | None | `0` | Ячейка не объединена. |
 | First | `1` | Ячейка является первой ячейкой в диапазоне объединенных ячеек. |
-| Previous | `2` | Ячейка объединяется с предыдущей ячейкой по горизонтали или по вертикали. |
+| Previous | `2` | Ячейка объединяется с предыдущей ячейкой по горизонтали или вертикали. |
 
 ### Примеры
 
-Показывает, как объединять ячейки таблицы по горизонтали.
+Показывает, как объединить ячейки таблицы по горизонтали.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
- // Вставляем ячейку в первый столбец первой строки.
- // Эта ячейка будет первой в диапазоне вертикально объединенных ячеек.
+// Вставляем ячейку в первый столбец первой строки.
+// Эта ячейка будет первой в диапазоне горизонтально объединенных ячеек.
 builder.InsertCell();
-builder.CellFormat.VerticalMerge = CellMerge.First;
+builder.CellFormat.HorizontalMerge = CellMerge.First;
 builder.Write("Text in merged cells.");
 
-// Вставляем ячейку во второй столбец первой строки, затем заканчиваем строку.
- // Также настройте конструктор на отключение вертикального слияния в созданных ячейках.
+// Вставляем ячейку во второй столбец первой строки. Вместо добавления текстового содержимого,
+// мы объединим эту ячейку с первой ячейкой, которую мы добавили слева.
 builder.InsertCell();
-builder.CellFormat.VerticalMerge = CellMerge.None;
-builder.Write("Text in unmerged cell.");
+builder.CellFormat.HorizontalMerge = CellMerge.Previous;
 builder.EndRow();
 
- // Вставляем ячейку в первый столбец второй строки. 
- // Вместо добавления текстового содержимого мы объединим эту ячейку с первой ячейкой, которую мы добавили непосредственно выше.
+// Вставляем еще две необъединенные ячейки во вторую строку.
+builder.CellFormat.HorizontalMerge = CellMerge.None;
 builder.InsertCell();
-builder.CellFormat.VerticalMerge = CellMerge.Previous;
-
- // Вставляем еще одну независимую ячейку во второй столбец второй строки.
+builder.Write("Text in unmerged cell.");
 builder.InsertCell();
-builder.CellFormat.VerticalMerge = CellMerge.None;
 builder.Write("Text in unmerged cell.");
 builder.EndRow();
 builder.EndTable();
 
-doc.Save(ArtifactsDir + "CellFormat.VerticalMerge.docx");
+doc.Save(ArtifactsDir + "CellFormat.HorizontalMerge.docx");
 ```
 
-Печатает горизонтальный и вертикальный тип слияния ячейки.
+Печатает тип горизонтального и вертикального слияния ячейки.
 
 ```csharp
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
+public void CheckCellsMerged()
+{
+    Document doc = new Document(MyDir + "Table with merged cells.docx");
+    Table table = doc.FirstSection.Body.Tables[0];
 
- // Вставляем ячейку в первый столбец первой строки.
- // Эта ячейка будет первой в диапазоне вертикально объединенных ячеек.
-builder.InsertCell();
-builder.CellFormat.VerticalMerge = CellMerge.First;
-builder.Write("Text in merged cells.");
+    foreach (Row row in table.Rows.OfType<Row>())
+        foreach (Cell cell in row.Cells.OfType<Cell>())
+            Console.WriteLine(PrintCellMergeType(cell));
+}
 
-// Вставляем ячейку во второй столбец первой строки, затем заканчиваем строку.
- // Также настройте конструктор на отключение вертикального слияния в созданных ячейках.
-builder.InsertCell();
-builder.CellFormat.VerticalMerge = CellMerge.None;
-builder.Write("Text in unmerged cell.");
-builder.EndRow();
+public string PrintCellMergeType(Cell cell)
+{
+    bool isHorizontallyMerged = cell.CellFormat.HorizontalMerge != CellMerge.None;
+    bool isVerticallyMerged = cell.CellFormat.VerticalMerge != CellMerge.None;
+    string cellLocation =
+        $"R{cell.ParentRow.ParentTable.IndexOf(cell.ParentRow) + 1}, C{cell.ParentRow.IndexOf(cell) + 1}";
 
- // Вставляем ячейку в первый столбец второй строки. 
- // Вместо добавления текстового содержимого мы объединим эту ячейку с первой ячейкой, которую мы добавили непосредственно выше.
-builder.InsertCell();
-builder.CellFormat.VerticalMerge = CellMerge.Previous;
+    if (isHorizontallyMerged && isVerticallyMerged)
+        return $"The cell at {cellLocation} is both horizontally and vertically merged";
+    if (isHorizontallyMerged)
+        return $"The cell at {cellLocation} is horizontally merged.";
 
- // Вставляем еще одну независимую ячейку во второй столбец второй строки.
-builder.InsertCell();
-builder.CellFormat.VerticalMerge = CellMerge.None;
-builder.Write("Text in unmerged cell.");
-builder.EndRow();
-builder.EndTable();
-
-doc.Save(ArtifactsDir + "CellFormat.VerticalMerge.docx");
+    return isVerticallyMerged ? $"The cell at {cellLocation} is vertically merged" : $"The cell at {cellLocation} is not merged";
+}
 ```
 
 Показывает, как объединить ячейки таблицы по вертикали.
@@ -98,25 +89,25 @@ doc.Save(ArtifactsDir + "CellFormat.VerticalMerge.docx");
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
- // Вставляем ячейку в первый столбец первой строки.
- // Эта ячейка будет первой в диапазоне вертикально объединенных ячеек.
+// Вставляем ячейку в первый столбец первой строки.
+// Эта ячейка будет первой в диапазоне вертикально объединенных ячеек.
 builder.InsertCell();
 builder.CellFormat.VerticalMerge = CellMerge.First;
 builder.Write("Text in merged cells.");
 
 // Вставляем ячейку во второй столбец первой строки, затем заканчиваем строку.
- // Также настройте конструктор на отключение вертикального слияния в созданных ячейках.
+// Также настройте конструктор на отключение вертикального слияния в созданных ячейках.
 builder.InsertCell();
 builder.CellFormat.VerticalMerge = CellMerge.None;
 builder.Write("Text in unmerged cell.");
 builder.EndRow();
 
- // Вставляем ячейку в первый столбец второй строки. 
- // Вместо добавления текстового содержимого мы объединим эту ячейку с первой ячейкой, которую мы добавили непосредственно выше.
+// Вставляем ячейку в первый столбец второй строки. 
+// Вместо того, чтобы добавлять текстовое содержимое, мы объединим эту ячейку с первой ячейкой, которую мы добавили непосредственно выше.
 builder.InsertCell();
 builder.CellFormat.VerticalMerge = CellMerge.Previous;
 
- // Вставляем еще одну независимую ячейку во второй столбец второй строки.
+// Вставить еще одну независимую ячейку во второй столбец второй строки.
 builder.InsertCell();
 builder.CellFormat.VerticalMerge = CellMerge.None;
 builder.Write("Text in unmerged cell.");

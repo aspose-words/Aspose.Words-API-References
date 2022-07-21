@@ -30,7 +30,7 @@ public enum BorderType
 
 ### 例子
 
-显示如何插入带有上边框的段落。
+演示如何插入带有上边框的段落。
 
 ```csharp
 Document doc = new Document();

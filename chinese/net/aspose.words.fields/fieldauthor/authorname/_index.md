@@ -1,14 +1,14 @@
 ---
 title: AuthorName
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置文档作者的姓名
+description: 获取或设置文档作者姓名
 type: docs
 weight: 20
 url: /zh/net/aspose.words.fields/fieldauthor/authorname/
 ---
 ## FieldAuthor.AuthorName property
 
-获取或设置文档作者的姓名。
+获取或设置文档作者姓名。
 
 ```csharp
 public string AuthorName { get; set; }
@@ -16,7 +16,7 @@ public string AuthorName { get; set; }
 
 ### 例子
 
-显示如何使用 AUTHOR 字段来显示文档创建者的姓名。
+演示如何使用 AUTHOR 字段来显示文档创建者的姓名。
 
 ```csharp
 Document doc = new Document();

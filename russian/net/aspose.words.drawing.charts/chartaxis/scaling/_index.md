@@ -1,14 +1,14 @@
 ---
 title: Scaling
 second_title: Справочник по API Aspose.Words для .NET
-description: Обеспечивает доступ к параметрам масштабирования оси.
+description: Предоставляет доступ к параметрам масштабирования оси.
 type: docs
 weight: 190
 url: /ru/net/aspose.words.drawing.charts/chartaxis/scaling/
 ---
 ## ChartAxis.Scaling property
 
-Обеспечивает доступ к параметрам масштабирования оси.
+Предоставляет доступ к параметрам масштабирования оси.
 
 ```csharp
 public AxisScaling Scaling { get; }

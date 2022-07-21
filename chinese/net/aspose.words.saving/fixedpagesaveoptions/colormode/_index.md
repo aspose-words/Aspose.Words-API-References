@@ -16,7 +16,7 @@ public ColorMode ColorMode { get; set; }
 
 ### 评论
 
-默认值为Normal。
+默认值为Normal.
 
 ### 例子
 

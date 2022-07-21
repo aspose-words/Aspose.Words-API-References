@@ -1,14 +1,14 @@
 ---
 title: CaseCodeStyle
 second_title: Справочник по API Aspose.Words для .NET
-description: Получает или задает стиль Case Code для штрих-кода типа ITF14. Допустимые значенияSTDx7CEXTx7CADD
+description: Получает или задает стиль Case Code для штрих-кода типа ITF14. Допустимые значения STDx7CEXTx7CADD
 type: docs
 weight: 60
 url: /ru/net/aspose.words.fields/fieldmergebarcode/casecodestyle/
 ---
 ## FieldMergeBarcode.CaseCodeStyle property
 
-Получает или задает стиль Case Code для штрих-кода типа ITF14. Допустимые значения:[STD&#x7C;EXT&#x7C;ADD]
+Получает или задает стиль Case Code для штрих-кода типа ITF14. Допустимые значения: [STD&#x7C;EXT&#x7C;ADD]
 
 ```csharp
 public string CaseCodeStyle { get; set; }

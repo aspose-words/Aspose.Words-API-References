@@ -1,14 +1,14 @@
 ---
 title: SubDocument
 second_title: Справочник по API Aspose.Words для .NET
-description: Представляет вложенный документ  который является ссылкой на внешне сохраненный документ.
+description: Представляет Поддокумент - который является ссылкой на внешне сохраненный документ.
 type: docs
-weight: 5820
+weight: 5870
 url: /ru/net/aspose.words/subdocument/
 ---
 ## SubDocument class
 
-Представляет вложенный документ , который является ссылкой на внешне сохраненный документ.
+Представляет **Поддокумент** - который является ссылкой на внешне сохраненный документ.
 
 ```csharp
 public class SubDocument : Node
@@ -19,13 +19,13 @@ public class SubDocument : Node
 | Имя | Описание |
 | --- | --- |
 | [CustomNodeId](../../aspose.words/node/customnodeid) { get; set; } | Указывает идентификатор пользовательского узла. |
-| virtual [Document](../../aspose.words/node/document) { get; } | Получает документ, которому принадлежит данный узел. |
+| virtual [Document](../../aspose.words/node/document) { get; } | Получает документ, которому принадлежит этот узел. |
 | virtual [IsComposite](../../aspose.words/node/iscomposite) { get; } | Возвращает true, если этот узел может содержать другие узлы. |
 | [NextSibling](../../aspose.words/node/nextsibling) { get; } | Получает узел, следующий сразу за этим узлом. |
 | override [NodeType](../../aspose.words/subdocument/nodetype) { get; } | Возвращает **NodeType.SubDocument** |
 | [ParentNode](../../aspose.words/node/parentnode) { get; } | Получает непосредственного родителя этого узла. |
 | [PreviousSibling](../../aspose.words/node/previoussibling) { get; } | Получает узел, непосредственно предшествующий этому узлу. |
-| [Range](../../aspose.words/node/range) { get; } | Возвращает объект **Range** , представляющий часть документа, содержащуюся в этом узле. |
+| [Range](../../aspose.words/node/range) { get; } | Возвращает **Диапазон** объект, представляющий часть документа, содержащегося в этом узле. |
 
 ## Методы
 
@@ -33,9 +33,9 @@ public class SubDocument : Node
 | --- | --- |
 | override [Accept](../../aspose.words/subdocument/accept)(DocumentVisitor) | Принимает посетителя. |
 | [Clone](../../aspose.words/node/clone)(bool) | Создает дубликат узла. |
-| [GetAncestor](../../aspose.words/node/getancestor)(NodeType) | Получает первого предка указанного[`NodeType`](../nodetype). |
+| [GetAncestor](../../aspose.words/node/getancestor)(NodeType) | Получает первого предка указанного[`NodeType`](../nodetype) . |
 | [GetAncestor](../../aspose.words/node/getancestor)(Type) | Получает первого предка указанного типа объекта. |
-| virtual [GetText](../../aspose.words/node/gettext)() | Получает текст этого узла и всех его потомков. |
+| virtual [GetText](../../aspose.words/node/gettext)() | Получает текст этого узла и всех его дочерних элементов. |
 | [NextPreOrder](../../aspose.words/node/nextpreorder)(Node) | Получает следующий узел в соответствии с алгоритмом обхода дерева предварительного порядка. |
 | [PreviousPreOrder](../../aspose.words/node/previouspreorder)(Node) | Получает предыдущий узел в соответствии с алгоритмом обхода дерева предварительного порядка. |
 | [Remove](../../aspose.words/node/remove)() | Удаляет себя из родителя. |
@@ -44,9 +44,9 @@ public class SubDocument : Node
 
 ### Примечания
 
-В этой версии Aspose.Words,УзлыSubDocumentне предоставляют общедоступных методов и свойств для создания или изменения вложенного документа. В этой версии вы не можете создавать экземпляры узлов SubDocument или изменять существующие, за исключением их удаления.
+В этой версии Aspose.Words[`SubDocument`](../subdocument) узлы не предоставляют общедоступные методы и свойства для создания или изменения вложенного документа. В этой версии вы не можете создавать узлы instance SubDocument или изменять существующие, кроме их удаления.
 
-[`SubDocument`](../subdocument)может быть только потомком[`Paragraph`](../paragraph).
+[`SubDocument`](../subdocument) может быть только ребенком[`Paragraph`](../paragraph).
 
 ### Примеры
 

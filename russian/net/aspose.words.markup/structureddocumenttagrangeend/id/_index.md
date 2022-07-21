@@ -1,14 +1,14 @@
 ---
 title: Id
 second_title: Справочник по API Aspose.Words для .NET
-description: Указывает уникальный постоянный числовой идентификатор доступный только для чтения для этого узла StructuredDocumentTagRange . Соответствующий узелStructuredDocumentTagRangeStartaspose.words.markup/structureddocumenttagrangestartимеет тот жеIdaspose.words.markup/structureddocumenttagrangestart/id.
+description: Указывает уникальный постоянный числовой идентификатор только для чтения для этого СтруктурированныйДокументтегдиапазон node. СоответствующийStructuredDocumentTagRangeStartaspose.words.markup/structureddocumenttagrangestart узел такой жеIdaspose.words.markup/structureddocumenttagrangestart/id .
 type: docs
 weight: 20
 url: /ru/net/aspose.words.markup/structureddocumenttagrangeend/id/
 ---
 ## StructuredDocumentTagRangeEnd.Id property
 
-Указывает уникальный постоянный числовой идентификатор, доступный только для чтения, для этого узла **StructuredDocumentTagRange** . Соответствующий узел[`StructuredDocumentTagRangeStart`](../../structureddocumenttagrangestart)имеет тот же[`Id`](../../structureddocumenttagrangestart/id).
+Указывает уникальный постоянный числовой идентификатор только для чтения для этого **СтруктурированныйДокументтегдиапазон** node. Соответствующий[`StructuredDocumentTagRangeStart`](../../structureddocumenttagrangestart) узел такой же[`Id`](../../structureddocumenttagrangestart/id) .
 
 ```csharp
 public int Id { get; }

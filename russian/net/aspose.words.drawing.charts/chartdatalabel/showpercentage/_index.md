@@ -1,14 +1,14 @@
 ---
 title: ShowPercentage
 second_title: Справочник по API Aspose.Words для .NET
-description: Позволяет указать следует ли отображать процентное значение для меток данных на графике. Значение по умолчанию  false.
+description: Позволяет указать будет ли отображаться процентное значение для меток данных на диаграмме. Значение по умолчанию  false.
 type: docs
 weight: 110
 url: /ru/net/aspose.words.drawing.charts/chartdatalabel/showpercentage/
 ---
 ## ChartDataLabel.ShowPercentage property
 
-Позволяет указать, следует ли отображать процентное значение для меток данных на графике. Значение по умолчанию — false.
+Позволяет указать, будет ли отображаться процентное значение для меток данных на диаграмме. Значение по умолчанию — false.
 
 ```csharp
 public bool ShowPercentage { get; set; }

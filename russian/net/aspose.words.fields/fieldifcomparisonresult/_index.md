@@ -1,14 +1,14 @@
 ---
 title: FieldIfComparisonResult
 second_title: Справочник по API Aspose.Words для .NET
-description: Указывает результат оценки условия поля IF.
+description: Определяет результат оценки условия поля IF.
 type: docs
-weight: 1820
+weight: 1860
 url: /ru/net/aspose.words.fields/fieldifcomparisonresult/
 ---
 ## FieldIfComparisonResult enumeration
 
-Указывает результат оценки условия поля IF.
+Определяет результат оценки условия поля IF.
 
 ```csharp
 public enum FieldIfComparisonResult
@@ -19,8 +19,8 @@ public enum FieldIfComparisonResult
 | Имя | Ценность | Описание |
 | --- | --- | --- |
 | Error | `0` | Ошибка в условии. |
-| True | `1` | Условие` true` . |
-| False | `2` | Условие:` false` . |
+| True | `1` | Состояние`истинный` . |
+| False | `2` | Состояние`ЛОЖЬ` . |
 
 ### Примеры
 

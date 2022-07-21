@@ -16,7 +16,7 @@ public double RightPadding { get; set; }
 
 ### 例子
 
-显示如何使用文档生成器格式化单元格。
+显示如何使用文档构建器格式化单元格。
 
 ```csharp
 Document doc = new Document();

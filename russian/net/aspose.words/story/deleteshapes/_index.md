@@ -22,13 +22,13 @@ public void DeleteShapes()
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
- // Используйте DocumentBuilder для вставки фигуры. Это встроенная форма, 
- // у которого есть родительский абзац, который является дочерним узлом тела первого раздела.
+// Используйте DocumentBuilder для вставки фигуры. Это встроенная форма,
+// у которого есть родительский абзац, который является дочерним узлом тела первого раздела.
 builder.InsertShape(ShapeType.Cube, 100.0, 100.0);
 
 Assert.AreEqual(1, doc.GetChildNodes(NodeType.Shape, true).Count);
 
- // Мы можем удалить все фигуры из дочерних абзацев этого тела.
+// Мы можем удалить все фигуры из дочерних абзацев этого тела.
 Assert.AreEqual(StoryType.MainText, doc.FirstSection.Body.StoryType);
 doc.FirstSection.Body.DeleteShapes();
 

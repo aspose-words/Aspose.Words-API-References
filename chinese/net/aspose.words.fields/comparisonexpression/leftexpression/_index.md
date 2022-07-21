@@ -1,14 +1,14 @@
 ---
 title: LeftExpression
 second_title: Aspose.Words for .NET API 参考
-description: 获取左表达式
+description: 获取左侧表达式
 type: docs
 weight: 20
 url: /zh/net/aspose.words.fields/comparisonexpression/leftexpression/
 ---
 ## ComparisonExpression.LeftExpression property
 
-获取左表达式。
+获取左侧表达式。
 
 ```csharp
 public string LeftExpression { get; }
@@ -16,7 +16,7 @@ public string LeftExpression { get; }
 
 ### 例子
 
-展示如何为 IF 和 COMPARE 字段实现自定义评估。
+显示如何为 IF 和 COMPARE 字段实施自定义评估。
 
 ```csharp
 public void ConditionEvaluationExtensionPoint(string fieldCode, sbyte comparisonResult, string comparisonError,

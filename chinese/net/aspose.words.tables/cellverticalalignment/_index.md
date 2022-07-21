@@ -3,7 +3,7 @@ title: CellVerticalAlignment
 second_title: Aspose.Words for .NET API 参考
 description: 指定表格单元格内文本的垂直对齐方式
 type: docs
-weight: 5930
+weight: 5980
 url: /zh/net/aspose.words.tables/cellverticalalignment/
 ---
 ## CellVerticalAlignment enumeration
@@ -19,12 +19,12 @@ public enum CellVerticalAlignment
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
 | Top | `0` | 文本在单元格顶部对齐。 |
-| Center | `1` | 文本在单元格中间对齐。 |
+| Center | `1` | 文本在单元格的中间对齐。 |
 | Bottom | `2` | 文本在单元格底部对齐。 |
 
 ### 例子
 
-显示如何构建格式化的 2x2 表。
+展示如何构建格式化的 2x2 表格。
 
 ```csharp
 Document doc = new Document();

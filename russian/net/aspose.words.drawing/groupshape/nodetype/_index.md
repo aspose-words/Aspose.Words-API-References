@@ -1,14 +1,14 @@
 ---
 title: NodeType
 second_title: Справочник по API Aspose.Words для .NET
-description: ВозвращаетGroupShape.
+description: ВозвращаетGroupShape .
 type: docs
 weight: 20
 url: /ru/net/aspose.words.drawing/groupshape/nodetype/
 ---
 ## GroupShape.NodeType property
 
-ВозвращаетGroupShape.
+ВозвращаетGroupShape .
 
 ```csharp
 public override NodeType NodeType { get; }

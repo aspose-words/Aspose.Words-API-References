@@ -1,14 +1,14 @@
 ---
 title: PrinterSettingsContainer
 second_title: Справочник по API Aspose.Words для .NET
-description: Представляет собой хранилище для некоторых параметров объектаPrinterSettings.
+description: Представляет собой хранилище для некоторых параметровPrinterSettings объект.
 type: docs
-weight: 4270
+weight: 4320
 url: /ru/net/aspose.words.rendering/printersettingscontainer/
 ---
 ## PrinterSettingsContainer class
 
-Представляет собой хранилище для некоторых параметров объектаPrinterSettings.
+Представляет собой хранилище для некоторых параметровPrinterSettings объект.
 
 ```csharp
 public class PrinterSettingsContainer
@@ -18,27 +18,27 @@ public class PrinterSettingsContainer
 
 | Имя | Описание |
 | --- | --- |
-| [PrinterSettingsContainer](printersettingscontainer)(PrinterSettings) | Создает контейнер дляPrinterSettings. |
+| [PrinterSettingsContainer](printersettingscontainer)(PrinterSettings) | Создает контейнер дляPrinterSettings . |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [DefaultPageSettingsPaperSource](../../aspose.words.rendering/printersettingscontainer/defaultpagesettingspapersource) { get; } | См.PaperSourceofDefaultPageSettings. |
-| [PaperSizes](../../aspose.words.rendering/printersettingscontainer/papersizes) { get; } | См.PaperSizes. |
-| [PaperSources](../../aspose.words.rendering/printersettingscontainer/papersources) { get; } | См.PaperSources. |
+| [DefaultPageSettingsPaperSource](../../aspose.words.rendering/printersettingscontainer/defaultpagesettingspapersource) { get; } | См.PaperSource изDefaultPageSettings . |
+| [PaperSizes](../../aspose.words.rendering/printersettingscontainer/papersizes) { get; } | См.PaperSizes . |
+| [PaperSources](../../aspose.words.rendering/printersettingscontainer/papersources) { get; } | См.PaperSources . |
 
 ### Примечания
 
-Доступ к даннымPrinterSettingsзанимает много времени. [`PrinterSettingsContainer`](../printersettingscontainer)кэширует параметры изPrinterSettings, так печать работает быстрее.
+Доступ к даннымPrinterSettings занимает много времени. [`PrinterSettingsContainer`](../printersettingscontainer) кэширует параметры изPrinterSettings , , чтобы печать работала быстрее.
 
 ### Примеры
 
 Показывает, как получить доступ к источникам и размерам бумаги вашего принтера и составить список.
 
 ```csharp
- // Контейнер PrinterSettingsContainer содержит объект PrinterSettings, 
- // который содержит уникальные данные для разных драйверов принтера.
+// Контейнер PrinterSettingsContainer содержит объект PrinterSettings,
+// который содержит уникальные данные для разных драйверов принтеров.
 PrinterSettingsContainer container = new PrinterSettingsContainer(new PrinterSettings());
 
 Console.WriteLine($"This printer contains {container.PaperSources.Count} printer paper sources:");
@@ -49,12 +49,12 @@ foreach (PaperSource paperSource in container.PaperSources)
                       $"RawKind: {paperSource.RawKind} {(isDefault ? "(Default)" : "")}");
 }
 
- // Свойство PaperSizes содержит список размеров бумаги, которые принтер должен использовать.
-// И PrinterSource, и PrinterSize содержат свойство "RawKind", 
- // что соответствует типу бумаги, указанному в перечислении PaperSourceKind.
- // Если есть источник бумаги с тем же значением "RawKind", что и у печатаемой страницы, 
- // принтер распечатает страницу, используя предоставленный источник бумаги и размер.
- // В противном случае принтер по умолчанию будет использовать источник, указанный в свойстве "DefaultPageSettingsPaperSource".
+// Свойство "PaperSizes" содержит список размеров бумаги, которые принтер должен использовать.
+// И PrinterSource, и PrinterSize содержат свойство "RawKind",
+// что соответствует типу бумаги, указанному в перечислении PaperSourceKind.
+// Если есть источник бумаги с тем же значением "RawKind", что и у печатной страницы,
+// принтер распечатает страницу, используя предоставленный источник бумаги и размер.
+// В противном случае принтер по умолчанию будет использовать источник, указанный в свойстве "DefaultPageSettingsPaperSource".
 Console.WriteLine($"{container.PaperSizes.Count} paper sizes:");
 foreach (System.Drawing.Printing.PaperSize paperSize in container.PaperSizes)
 {

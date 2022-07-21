@@ -3,7 +3,7 @@ title: UnicodeScript
 second_title: Aspose.Words for .NET API 参考
 description: 
 type: docs
-weight: 5730
+weight: 5780
 url: /zh/net/aspose.words.shaping/unicodescript/
 ---
 ## UnicodeScript enumeration

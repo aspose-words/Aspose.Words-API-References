@@ -1,14 +1,14 @@
 ---
 title: HasSeparator
 second_title: Справочник по API Aspose.Words для .NET
-description: Возвращает true  если это поле имеет разделитель.
+description: Возвращает истинный если в этом поле есть разделитель.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.fields/fieldend/hasseparator/
 ---
 ## FieldEnd.HasSeparator property
 
-Возвращает **true** , если это поле имеет разделитель.
+Возвращает **истинный** если в этом поле есть разделитель.
 
 ```csharp
 public bool HasSeparator { get; }

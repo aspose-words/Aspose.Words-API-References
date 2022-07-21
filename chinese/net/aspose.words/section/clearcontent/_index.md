@@ -1,14 +1,14 @@
 ---
 title: ClearContent
 second_title: Aspose.Words for .NET API 参考
-description: 清除该部分
+description: 清除部分
 type: docs
 weight: 90
 url: /zh/net/aspose.words/section/clearcontent/
 ---
 ## Section.ClearContent method
 
-清除该部分。
+清除部分。
 
 ```csharp
 public void ClearContent()
@@ -16,9 +16,9 @@ public void ClearContent()
 
 ### 评论
 
-:::R5:P:Aspose.Words.Section.Body::的文本:被清除，只剩下一个代表分节符的空段落。
+的文本[`Body`](../body)被清除，只剩下一个代表分节符的空段落。
 
-清除所有页眉和页脚的文本，但[`HeaderFooter`](../../headerfooter)对象本身不会被删除。
+所有页眉和页脚的文本都被清除，但[`HeaderFooter`](../../headerfooter)对象本身不会被移除。
 
 ### 例子
 
@@ -33,8 +33,8 @@ builder.Write("Hello world!");
 Assert.AreEqual("Hello world!", doc.GetText().Trim());
 Assert.AreEqual(1, doc.FirstSection.Body.Paragraphs.Count);
 
- // 运行“ClearContent”方法将删除所有部分内容
- // 但留下一个空白段落以再次添加内容。
+// 运行“ClearContent”方法将删除所有部分内容
+// 但留下一个空白段落以再次添加内容。
 doc.FirstSection.ClearContent();
 
 Assert.AreEqual(string.Empty, doc.GetText().Trim());

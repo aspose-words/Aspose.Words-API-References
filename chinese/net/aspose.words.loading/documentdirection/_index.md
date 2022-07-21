@@ -3,7 +3,7 @@ title: DocumentDirection
 second_title: Aspose.Words for .NET API 参考
 description: 允许指定文档中文本的流动方向
 type: docs
-weight: 3330
+weight: 3380
 url: /zh/net/aspose.words.loading/documentdirection/
 ---
 ## DocumentDirection enumeration

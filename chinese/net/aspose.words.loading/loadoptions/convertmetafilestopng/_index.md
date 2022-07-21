@@ -1,14 +1,14 @@
 ---
 title: ConvertMetafilesToPng
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置是否转换元文件WmforEmf 图像转换为Png图像格式
+description: 获取或设置是否转换元文件Wmf或者Emf  图像到Png图像格式.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.loading/loadoptions/convertmetafilestopng/
 ---
 ## LoadOptions.ConvertMetafilesToPng property
 
-获取或设置是否转换元文件（WmforEmf) 图像转换为Png图像格式。
+获取或设置是否转换元文件（Wmf或者Emf ) 图像到Png图像格式.
 
 ```csharp
 public bool ConvertMetafilesToPng { get; set; }
@@ -16,7 +16,7 @@ public bool ConvertMetafilesToPng { get; set; }
 
 ### 评论
 
-元文件（Wmf或Emf) 是一种未压缩的图像格式，有时需要大量 RAM 来保存和处理文档。 此选项允许在文档加载时将所有元文件图像转换为Png。 请注意 - 将矢量图形转换为光栅会降低图像质量。
+元文件 (Wmf或者Emf ) 是一种未压缩的图像格式，有时需要大量 RAM 来保存和处理文档。 此选项允许将所有元文件图像转换为Png在文档加载时。 请注意 - 将矢量图形转换为光栅会降低图像的质量。
 
 ### 例子
 

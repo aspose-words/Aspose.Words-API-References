@@ -1,14 +1,14 @@
 ---
 title: Index
 second_title: Aspose.Words for .NET API 参考
-description: 此对象应用格式的数据点的索引
+description: 此对象应用格式设置的数据点的索引
 type: docs
 weight: 40
 url: /zh/net/aspose.words.drawing.charts/chartdatapoint/index/
 ---
 ## ChartDataPoint.Index property
 
-此对象应用格式的数据点的索引。
+此对象应用格式设置的数据点的索引。
 
 ```csharp
 public int Index { get; }

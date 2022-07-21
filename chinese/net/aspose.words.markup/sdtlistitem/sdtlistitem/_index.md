@@ -1,14 +1,14 @@
 ---
 title: SdtListItem
 second_title: Aspose.Words for .NET API 参考
-description: 初始化此类的新实例
+description: 初始化这个类的一个新实例
 type: docs
 weight: 10
 url: /zh/net/aspose.words.markup/sdtlistitem/sdtlistitem/
 ---
 ## SdtListItem(string, string) {#constructor_1}
 
-初始化此类的新实例。
+初始化这个类的一个新实例。
 
 ```csharp
 public SdtListItem(string displayText, string value)
@@ -16,7 +16,7 @@ public SdtListItem(string displayText, string value)
 
 ### 例子
 
-显示如何使用下拉列表结构化文档标签。
+展示如何使用下拉列表结构化文档标签。
 
 ```csharp
 Document doc = new Document();
@@ -78,7 +78,7 @@ Assert.AreEqual(0, listItems.Count);
 
 ## SdtListItem(string) {#constructor}
 
-初始化此类的新实例。
+初始化这个类的一个新实例。
 
 ```csharp
 public SdtListItem(string value)
@@ -86,7 +86,7 @@ public SdtListItem(string value)
 
 ### 例子
 
-显示如何使用下拉列表结构化文档标签。
+展示如何使用下拉列表结构化文档标签。
 
 ```csharp
 Document doc = new Document();

@@ -27,36 +27,32 @@ public static DigitalSignatureCollection LoadSignatures(string fileName)
 Показывает, как загружать подписи из документа с цифровой подписью.
 
 ```csharp
- // Существует два способа использования класса DigitalSignatureUtil для удаления цифровых подписей
- // из подписанного документа, сохранив его неподписанную копию где-то еще в локальной файловой системе.
- // 1 - Определить расположение как подписанного документа, так и неподписанной копии по строкам имени файла: 
-DigitalSignatureUtil.RemoveAllSignatures(MyDir + "Digitally signed.docx",
-    ArtifactsDir + "DigitalSignatureUtil.LoadAndRemove.FromString.docx");
+// Существует два способа загрузки коллекции цифровых подписей подписанного документа с использованием класса DigitalSignatureUtil.
+// 1 - Загрузить из документа из локальной файловой системы имя файла:
+DigitalSignatureCollection digitalSignatures = 
+    DigitalSignatureUtil.LoadSignatures(MyDir + "Digitally signed.docx");
 
- // 2 - Определить расположение как подписанного документа, так и неподписанной копии по файловым потокам:
-using (Stream streamIn = new FileStream(MyDir + "Digitally signed.docx", FileMode.Open))
+// Если эта коллекция не пуста, то мы можем проверить, что документ имеет цифровую подпись.
+Assert.AreEqual(1, digitalSignatures.Count);
+
+// 2 - Загрузить из документа из FileStream:
+using (Stream stream = new FileStream(MyDir + "Digitally signed.docx", FileMode.Open))
 {
-    using (Stream streamOut = new FileStream(ArtifactsDir + "DigitalSignatureUtil.LoadAndRemove.FromStream.docx", FileMode.Create))
-    {
-        DigitalSignatureUtil.RemoveAllSignatures(streamIn, streamOut);
-    }
+    digitalSignatures = DigitalSignatureUtil.LoadSignatures(stream);
+    Assert.AreEqual(1, digitalSignatures.Count);
 }
-
- // Проверяем, что оба наших выходных документа не имеют цифровых подписей.
-Assert.That(DigitalSignatureUtil.LoadSignatures(ArtifactsDir + "DigitalSignatureUtil.LoadAndRemove.FromString.docx"), Is.Empty);
-Assert.That(DigitalSignatureUtil.LoadSignatures(ArtifactsDir + "DigitalSignatureUtil.LoadAndRemove.FromStream.docx"), Is.Empty);
 ```
 
 Показывает, как удалить цифровые подписи из документа с цифровой подписью.
 
 ```csharp
- // Существует два способа использования класса DigitalSignatureUtil для удаления цифровых подписей
- // из подписанного документа, сохранив его неподписанную копию где-то еще в локальной файловой системе.
- // 1 - Определить расположение как подписанного документа, так и неподписанной копии по строкам имени файла: 
+// Существует два способа использования класса DigitalSignatureUtil для удаления цифровых подписей
+// из подписанного документа, сохранив его неподписанную копию где-нибудь еще в локальной файловой системе.
+// 1 - Определить расположение как подписанного документа, так и неподписанной копии по строкам имени файла:
 DigitalSignatureUtil.RemoveAllSignatures(MyDir + "Digitally signed.docx",
     ArtifactsDir + "DigitalSignatureUtil.LoadAndRemove.FromString.docx");
 
- // 2 - Определить расположение как подписанного документа, так и неподписанной копии по файловым потокам:
+// 2 - Определить расположение как подписанного документа, так и неподписанной копии по файловым потокам:
 using (Stream streamIn = new FileStream(MyDir + "Digitally signed.docx", FileMode.Open))
 {
     using (Stream streamOut = new FileStream(ArtifactsDir + "DigitalSignatureUtil.LoadAndRemove.FromStream.docx", FileMode.Create))
@@ -65,7 +61,7 @@ using (Stream streamIn = new FileStream(MyDir + "Digitally signed.docx", FileMod
     }
 }
 
- // Проверяем, что оба наших выходных документа не имеют цифровых подписей.
+// Убедитесь, что оба наших выходных документа не имеют цифровых подписей.
 Assert.That(DigitalSignatureUtil.LoadSignatures(ArtifactsDir + "DigitalSignatureUtil.LoadAndRemove.FromString.docx"), Is.Empty);
 Assert.That(DigitalSignatureUtil.LoadSignatures(ArtifactsDir + "DigitalSignatureUtil.LoadAndRemove.FromStream.docx"), Is.Empty);
 ```
@@ -81,7 +77,7 @@ Assert.That(DigitalSignatureUtil.LoadSignatures(ArtifactsDir + "DigitalSignature
 
 ## LoadSignatures(Stream) {#loadsignatures}
 
-Загружает цифровые подписи из документа, используя поток.
+Загружает цифровые подписи из документа с использованием потока.
 
 ```csharp
 public static DigitalSignatureCollection LoadSignatures(Stream stream)
@@ -100,12 +96,12 @@ public static DigitalSignatureCollection LoadSignatures(Stream stream)
 Показывает, как загружать подписи из документа с цифровой подписью.
 
 ```csharp
- // Существует два способа загрузки коллекции цифровых подписей подписанного документа с использованием класса DigitalSignatureUtil.
- // 1 - Загрузить из документа из локальной файловой системы имя файла:
+// Существует два способа загрузки коллекции цифровых подписей подписанного документа с использованием класса DigitalSignatureUtil.
+// 1 - Загрузить из документа из локальной файловой системы имя файла:
 DigitalSignatureCollection digitalSignatures = 
     DigitalSignatureUtil.LoadSignatures(MyDir + "Digitally signed.docx");
 
- // Если эта коллекция не пуста, то мы можем проверить, что документ имеет цифровую подпись.
+// Если эта коллекция не пуста, то мы можем проверить, что документ имеет цифровую подпись.
 Assert.AreEqual(1, digitalSignatures.Count);
 
 // 2 - Загрузить из документа из FileStream:

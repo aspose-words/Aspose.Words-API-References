@@ -1,14 +1,14 @@
 ---
 title: IsForms2OleControl
 second_title: Справочник по API Aspose.Words для .NET
-description: Возвращает true если элемент управления являетсяForms2OleControlaspose.words.drawing.ole/forms2olecontrol.
+description: Возвращает true если элемент управления являетсяForms2OleControlaspose.words.drawing.ole/forms2olecontrol .
 type: docs
 weight: 10
 url: /ru/net/aspose.words.drawing.ole/olecontrol/isforms2olecontrol/
 ---
 ## OleControl.IsForms2OleControl property
 
-Возвращает true, если элемент управления является[`Forms2OleControl`](../../forms2olecontrol).
+Возвращает true, если элемент управления является[`Forms2OleControl`](../../forms2olecontrol) .
 
 ```csharp
 public virtual bool IsForms2OleControl { get; }

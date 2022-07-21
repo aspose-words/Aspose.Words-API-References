@@ -1,0 +1,311 @@
+---
+title: VisitGroupShapeStart
+second_title: Aspose.Words لمراجع .NET API
+description: يتم استدعاؤها عند بدء تعداد شكل مجموعة .
+type: docs
+weight: 270
+url: /ar/net/aspose.words/documentvisitor/visitgroupshapestart/
+---
+## DocumentVisitor.VisitGroupShapeStart method
+
+يتم استدعاؤها عند بدء تعداد شكل مجموعة .
+
+```csharp
+public virtual VisitorAction VisitGroupShapeStart(GroupShape groupShape)
+```
+
+| معامل | يكتب | وصف |
+| --- | --- | --- |
+| groupShape | GroupShape | الكائن الذي تتم زيارته. |
+
+### قيمة الإرجاع
+
+أ[`VisitorAction`](../../visitoraction) القيمة التي تحدد كيفية متابعة التعداد.
+
+### أمثلة
+
+يوضح كيفية إنشاء مجموعة من الأشكال وطباعة محتوياتها باستخدام زائر المستند.
+
+```csharp
+public void GroupOfShapes()
+{
+    Document doc = new Document();
+    DocumentBuilder builder = new DocumentBuilder(doc);
+
+    // إذا كنت تريد إنشاء أشكال "غير أساسية" ، مثل SingleCornerSnipped و TopCornersSnipped و DiagonalCornersSnipped ،
+    // TopCornersOneRoundedOneSnipped، SingleCornerRounded، TopCornersRounded، DiagonalCornersRounded
+    // الرجاء استخدام أساليب DocumentBuilder.InsertShape.
+    Shape balloon = new Shape(doc, ShapeType.Balloon)
+    {
+        Width = 200, 
+        Height = 200,
+        Stroke = { Color = Color.Red }
+    };
+
+    Shape cube = new Shape(doc, ShapeType.Cube)
+    {
+        Width = 100, 
+        Height = 100,
+        Stroke = { Color = Color.Blue }
+    };
+
+    GroupShape group = new GroupShape(doc);
+    group.AppendChild(balloon);
+    group.AppendChild(cube);
+
+    Assert.True(group.IsGroup);
+
+    builder.InsertNode(group);
+
+    ShapeGroupPrinter printer = new ShapeGroupPrinter();
+    group.Accept(printer);
+
+    Console.WriteLine(printer.GetText());
+}
+
+/// <summary>
+/// يطبع محتويات مجموعة شكل تمت زيارتها على وحدة التحكم.
+/// </summary>
+public class ShapeGroupPrinter : DocumentVisitor
+{
+    public ShapeGroupPrinter()
+    {
+        mBuilder = new StringBuilder();
+    }
+
+    public string GetText()
+    {
+        return mBuilder.ToString();
+    }
+
+    public override VisitorAction VisitGroupShapeStart(GroupShape groupShape)
+    {
+        mBuilder.AppendLine("Shape group started:");
+        return VisitorAction.Continue;
+    }
+
+    public override VisitorAction VisitGroupShapeEnd(GroupShape groupShape)
+    {
+        mBuilder.AppendLine("End of shape group");
+        return VisitorAction.Continue;
+    }
+
+    public override VisitorAction VisitShapeStart(Shape shape)
+    {
+        mBuilder.AppendLine("\tShape - " + shape.ShapeType + ":");
+        mBuilder.AppendLine("\t\tWidth: " + shape.Width);
+        mBuilder.AppendLine("\t\tHeight: " + shape.Height);
+        mBuilder.AppendLine("\t\tStroke color: " + shape.Stroke.Color);
+        mBuilder.AppendLine("\t\tFill color: " + shape.Fill.ForeColor);
+        return VisitorAction.Continue;
+    }
+
+    public override VisitorAction VisitShapeEnd(Shape shape)
+    {
+        mBuilder.AppendLine("\tEnd of shape");
+        return VisitorAction.Continue;
+    }
+
+    private readonly StringBuilder mBuilder;
+}
+```
+
+يوضح كيفية استخدام تطبيق DocumentVisitor لإزالة كل المحتوى المخفي من المستند.
+
+```csharp
+{
+    Document doc = new Document(MyDir + "Hidden content.docx");
+
+    RemoveHiddenContentVisitor hiddenContentRemover = new RemoveHiddenContentVisitor();
+
+    // فيما يلي ثلاثة أنواع من الحقول التي يمكن أن تقبل زائر المستند ،
+    // مما سيسمح له بزيارة عقدة القبول ، ثم اجتياز العقد الفرعية بطريقة العمق أولاً.
+    // 1 - عقدة فقرة:
+    Paragraph para = (Paragraph) doc.GetChild(NodeType.Paragraph, 4, true);
+    para.Accept(hiddenContentRemover);
+
+    // 2 - عقدة الجدول:
+    Table table = doc.FirstSection.Body.Tables[0];
+    table.Accept(hiddenContentRemover);
+
+    // 3 - عقدة المستند:
+    doc.Accept(hiddenContentRemover);
+
+    doc.Save(ArtifactsDir + "Font.RemoveHiddenContentFromDocument.docx");
+
+/// <summary>
+/// يزيل جميع العقد التي تمت زيارتها والتي تم وضع علامة عليها على أنها "محتوى مخفي".
+/// </summary>
+public class RemoveHiddenContentVisitor : DocumentVisitor
+{
+    /// <summary>
+    /// يتم الاستدعاء عند مواجهة عقدة FieldStart في المستند.
+    /// </summary>
+    public override VisitorAction VisitFieldStart(FieldStart fieldStart)
+    {
+        if (fieldStart.Font.Hidden)
+            fieldStart.Remove();
+
+        return VisitorAction.Continue;
+    }
+
+    /// <summary>
+    /// يتم الاستدعاء عند مواجهة عقدة FieldEnd في المستند.
+    /// </summary>
+    public override VisitorAction VisitFieldEnd(FieldEnd fieldEnd)
+    {
+        if (fieldEnd.Font.Hidden)
+            fieldEnd.Remove();
+
+        return VisitorAction.Continue;
+    }
+
+    /// <summary>
+    /// يتم الاستدعاء عند مواجهة عقدة FieldSeparator في المستند.
+    /// </summary>
+    public override VisitorAction VisitFieldSeparator(FieldSeparator fieldSeparator)
+    {
+        if (fieldSeparator.Font.Hidden)
+            fieldSeparator.Remove();
+
+        return VisitorAction.Continue;
+    }
+
+    /// <summary>
+    /// يتم الاستدعاء عند مواجهة عقدة تشغيل في المستند.
+    /// </summary>
+    public override VisitorAction VisitRun(Run run)
+    {
+        if (run.Font.Hidden)
+            run.Remove();
+
+        return VisitorAction.Continue;
+    }
+
+    /// <summary>
+    /// يتم استدعاؤها عند مواجهة عقدة فقرة في المستند.
+    /// </summary>
+    public override VisitorAction VisitParagraphStart(Paragraph paragraph)
+    {
+        if (paragraph.ParagraphBreakFont.Hidden)
+            paragraph.Remove();
+
+        return VisitorAction.Continue;
+    }
+
+    /// <summary>
+    /// يتم الاستدعاء عند مواجهة FormField في المستند.
+    /// </summary>
+    public override VisitorAction VisitFormField(FormField formField)
+    {
+        if (formField.Font.Hidden)
+            formField.Remove();
+
+        return VisitorAction.Continue;
+    }
+
+    /// <summary>
+    /// يتم استدعاؤه عند مواجهة GroupShape في المستند.
+    /// </summary>
+    public override VisitorAction VisitGroupShapeStart(GroupShape groupShape)
+    {
+        if (groupShape.Font.Hidden)
+            groupShape.Remove();
+
+        return VisitorAction.Continue;
+    }
+
+    /// <summary>
+    /// يتم استدعاؤه عند مواجهة شكل في المستند.
+    /// </summary>
+    public override VisitorAction VisitShapeStart(Shape shape)
+    {
+        if (shape.Font.Hidden)
+            shape.Remove();
+
+        return VisitorAction.Continue;
+    }
+
+    /// <summary>
+    /// يتم استدعاؤه عند مواجهة أحد التعليقات في المستند.
+    /// </summary>
+    public override VisitorAction VisitCommentStart(Comment comment)
+    {
+        if (comment.Font.Hidden)
+            comment.Remove();
+
+        return VisitorAction.Continue;
+    }
+
+    /// <summary>
+    /// يتم استدعاؤها عند مواجهة حاشية سفلية في المستند.
+    /// </summary>
+    public override VisitorAction VisitFootnoteStart(Footnote footnote)
+    {
+        if (footnote.Font.Hidden)
+            footnote.Remove();
+
+        return VisitorAction.Continue;
+    }
+
+    /// <summary>
+    /// يتم استدعاؤها عند مواجهة حرف خاص في المستند.
+    /// </summary>
+    public override VisitorAction VisitSpecialChar(SpecialChar specialChar)
+    {
+        if (specialChar.Font.Hidden)
+            specialChar.Remove();
+
+        return VisitorAction.Continue;
+    }
+
+    /// <summary>
+    /// يتم استدعاؤها عند زيارة عقدة جدول تنتهي في المستند.
+    /// </summary>
+    public override VisitorAction VisitTableEnd(Table table)
+    {
+        // قد يحتوي المحتوى الموجود داخل خلايا الجدول على علامة المحتوى المخفية ، ولكن لا يمكن للجداول نفسها.
+        // إذا كان هذا الجدول لا يحتوي إلا على محتوى مخفي ، لكان هذا الزائر قد أزاله بالكامل ،
+        // ولن تكون هناك عقد فرعية متبقية.
+        // وبالتالي ، يمكننا أيضًا التعامل مع الجدول نفسه كمحتوى مخفي وإزالته.
+        // ستحتوي الجداول الفارغة ولكن ليس بها محتوى مخفي على خلايا بها فقرات فارغة بداخلها ،
+        // التي لن يزيلها هذا الزائر.
+        if (!table.HasChildNodes)
+            table.Remove();
+
+        return VisitorAction.Continue;
+    }
+
+    /// <summary>
+    /// يتم الاستدعاء عند زيارة عقدة خلية في المستند.
+    /// </summary>
+    public override VisitorAction VisitCellEnd(Cell cell)
+    {
+        if (!cell.HasChildNodes && cell.ParentNode != null)
+            cell.Remove();
+
+        return VisitorAction.Continue;
+    }
+
+    /// <summary>
+    /// يتم استدعاؤها عند زيارة عقدة صف منتهية في المستند.
+    /// </summary>
+    public override VisitorAction VisitRowEnd(Row row)
+    {
+        if (!row.HasChildNodes && row.ParentNode != null)
+            row.Remove();
+
+        return VisitorAction.Continue;
+    }
+}
+```
+
+### أنظر أيضا
+
+* enum [VisitorAction](../../visitoraction)
+* class [GroupShape](../../../aspose.words.drawing/groupshape)
+* class [DocumentVisitor](../../documentvisitor)
+* مساحة الاسم [Aspose.Words](../../documentvisitor)
+* المجسم [Aspose.Words](../../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

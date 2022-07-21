@@ -3,7 +3,7 @@ title: TableSubstitutionRule
 second_title: Aspose.Words for .NET API 参考
 description: 表格字体替换规则
 type: docs
-weight: 2830
+weight: 2880
 url: /zh/net/aspose.words.fonts/tablesubstitutionrule/
 ---
 ## TableSubstitutionRule class
@@ -31,13 +31,13 @@ public class TableSubstitutionRule : FontSubstitutionRule
 | [LoadAndroidSettings](../../aspose.words.fonts/tablesubstitutionrule/loadandroidsettings)() | 为 Linux 平台加载预定义的表替换设置。 |
 | [LoadLinuxSettings](../../aspose.words.fonts/tablesubstitutionrule/loadlinuxsettings)() | 为 Linux 平台加载预定义的表替换设置。 |
 | [LoadWindowsSettings](../../aspose.words.fonts/tablesubstitutionrule/loadwindowssettings)() | 为 Windows 平台加载预定义的表替换设置。 |
-| [Save](../../aspose.words.fonts/tablesubstitutionrule/save#save)(Stream) | 将当前表替换设置保存到流。 |
+| [Save](../../aspose.words.fonts/tablesubstitutionrule/save#save)(Stream) | 将当前表替换设置保存到流中。 |
 | [Save](../../aspose.words.fonts/tablesubstitutionrule/save#save_1)(string) | 将当前表替换设置保存到文件。 |
 | [SetSubstitutes](../../aspose.words.fonts/tablesubstitutionrule/setsubstitutes)(string, params string[]) | 覆盖给定原始字体名称的替代字体名称。 |
 
 ### 评论
 
-此规则定义了在原始字体不可用时要使用的替代字体名称列表。 将检查替代字体名称和[`AltName`](../fontinfo/altname)（如果有）。
+此规则定义了在原始字体不可用时要使用的替代字体名称列表。 将检查替代字体名称和[`AltName`](../fontinfo/altname)（如果有的话）.
 
 ### 例子
 

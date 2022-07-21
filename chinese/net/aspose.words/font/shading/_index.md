@@ -16,7 +16,7 @@ public Shading Shading { get; }
 
 ### 例子
 
-展示如何对文档生成器创建的文本应用阴影。
+展示如何将底纹应用到由文档构建器创建的文本。
 
 ```csharp
 Document doc = new Document();

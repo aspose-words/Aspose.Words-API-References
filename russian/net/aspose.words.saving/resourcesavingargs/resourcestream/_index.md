@@ -18,9 +18,9 @@ public Stream ResourceStream { get; set; }
 
 Это свойство позволяет сохранять ресурсы в потоки, а не в файлы.
 
-Значение по умолчанию:` null` . Когда это свойство равно` null` , ресурс будет сохранен в файл, указанный вWordsсвойство.
+Значение по умолчанию`нулевой` . Когда это свойство`нулевой` , ресурс будет сохранен в файл, указанный в[`ResourceFileName`](../resourcefilename) имущество.
 
-Используя[`IResourceSavingCallback`](../../iresourcesavingcallback)вы не можете заменить один ресурс другим. Он предназначен только для контроля за местом сохранения ресурсов.
+С использованием[`IResourceSavingCallback`](../../iresourcesavingcallback) нельзя подменять один ресурс другим. Он предназначен только для контроля за местом сохранения ресурсов.
 
 ### Примеры
 
@@ -43,8 +43,8 @@ public void HtmlFixedResourceFolder()
         ResourceSavingCallback = callback
     };
 
-     // Папка, указанная в ResourcesFolderAlias, будет содержать ресурсы вместо ResourcesFolder.
-     // Мы должны убедиться, что папка существует, прежде чем потоки смогут поместить в нее свои ресурсы.
+    // Папка, указанная в ResourcesFolderAlias, будет содержать ресурсы вместо ResourcesFolder.
+    // Мы должны убедиться, что папка существует, прежде чем потоки смогут поместить в нее свои ресурсы.
     Directory.CreateDirectory(options.ResourcesFolderAlias);
 
     doc.Save(ArtifactsDir + "HtmlFixedSaveOptions.HtmlFixedResourceFolder.html", options);
@@ -58,13 +58,13 @@ public void HtmlFixedResourceFolder()
 }
 
 /// <summary>
- /// Подсчитывает и печатает URI ресурсов, содержащихся в по мере их преобразования в фиксированный HTML.
+/// Подсчитывает и печатает URI ресурсов, содержащихся в по мере их преобразования в фиксированный HTML.
 /// </summary>
 private class ResourceUriPrinter : IResourceSavingCallback
 {
     void IResourceSavingCallback.ResourceSaving(ResourceSavingArgs args)
     {
-         // Если мы зададим псевдоним папки в объекте SaveOptions, мы сможем распечатать его отсюда.
+        // Если мы зададим псевдоним папки в объекте SaveOptions, мы сможем распечатать его отсюда.
         mText.AppendLine($"Resource #{++mSavedResourceCount} \"{args.ResourceFileName}\"");
 
         string extension = Path.GetExtension(args.ResourceFileName);
@@ -73,8 +73,8 @@ private class ResourceUriPrinter : IResourceSavingCallback
             case ".ttf":
             case ".woff":
             {
-                 // По умолчанию 'ResourceFileUri' использует системную папку для шрифтов.
-                // Во избежание проблем на других платформах необходимо явно указать путь к шрифтам.
+                // По умолчанию 'ResourceFileUri' использует системную папку для шрифтов.
+                // Чтобы избежать проблем на других платформах, вы должны явно указать путь к шрифтам.
                 args.ResourceFileUri = ArtifactsDir + Path.DirectorySeparatorChar + args.ResourceFileName;
                 break;
             }
@@ -82,8 +82,8 @@ private class ResourceUriPrinter : IResourceSavingCallback
 
         mText.AppendLine("\t" + args.ResourceFileUri);
 
-         // Если мы указали папку в свойстве ResourcesFolderAlias, 
-         // нам также нужно будет перенаправить каждый поток, чтобы поместить его ресурс в эту папку.
+        // Если мы указали папку в свойстве ResourcesFolderAlias,
+        // нам также нужно будет перенаправить каждый поток, чтобы поместить его ресурс в эту папку.
         args.ResourceStream = new FileStream(args.ResourceFileUri, FileMode.Create);
         args.KeepResourceStreamOpen = false;
     }

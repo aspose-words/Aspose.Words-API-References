@@ -1,14 +1,14 @@
 ---
 title: LineBetween
 second_title: Aspose.Words for .NET API 参考
-description: 当 true 时在列之间添加一条垂直线
+description: 什么时候 真的 在列之间添加一条垂直线
 type: docs
 weight: 40
 url: /zh/net/aspose.words/textcolumncollection/linebetween/
 ---
 ## TextColumnCollection.LineBetween property
 
-当 **true** 时，在列之间添加一条垂直线。
+什么时候 **真的** 在列之间添加一条垂直线。
 
 ```csharp
 public bool LineBetween { get; set; }

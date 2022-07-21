@@ -30,23 +30,23 @@ public static double PixelToPoint(double pixels)
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 一个部分的“页面设置”以磅为单位定义了页边距的大小。
- // 我们也可以使用“ConvertUtil”类来使用不同的测量单位，
- // 比如定义边界时的像素.
+// 一个部分的“页面设置”定义了页边距的大小，以磅为单位。
+// 我们也可以使用“ConvertUtil”类来使用不同的测量单位，
+// 比如定义边界时的像素。
 PageSetup pageSetup = builder.PageSetup;
 pageSetup.TopMargin = ConvertUtil.PixelToPoint(100);
 pageSetup.BottomMargin = ConvertUtil.PixelToPoint(200);
 pageSetup.LeftMargin = ConvertUtil.PixelToPoint(225);
 pageSetup.RightMargin = ConvertUtil.PixelToPoint(125);
 
- // 一个像素是 0.75 点。
+// 一个像素是 0.75 点。
 Assert.AreEqual(0.75d, ConvertUtil.PixelToPoint(1));
 Assert.AreEqual(1.0d, ConvertUtil.PointToPixel(0.75));
 
- // 使用的默认 DPI 值为 96.
+// 使用的默认 DPI 值为 96。
 Assert.AreEqual(0.75d, ConvertUtil.PixelToPoint(1, 96));
 
- // 添加内容以演示新的边距。
+// 添加内容以演示新的边距。
 builder.Writeln($"This Text is {pageSetup.LeftMargin} points/{ConvertUtil.PointToPixel(pageSetup.LeftMargin)} pixels from the left, " +
                 $"{pageSetup.RightMargin} points/{ConvertUtil.PointToPixel(pageSetup.RightMargin)} pixels from the right, " +
                 $"{pageSetup.TopMargin} points/{ConvertUtil.PointToPixel(pageSetup.TopMargin)} pixels from the top, " +
@@ -82,14 +82,13 @@ public static double PixelToPoint(double pixels, double resolution)
 
 ### 例子
 
-显示如何使用将点转换为具有默认和自定义分辨率的像素。
+展示如何使用默认和自定义分辨率将点转换为像素。
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
- // 根据自定义的 DPI.
- 以像素为单位定义此部分的上边距的大小
+// 根据自定义 DPI 定义此部分上边距的大小（以像素为单位）。
 const double myDpi = 192;
 
 PageSetup pageSetup = builder.PageSetup;
@@ -103,7 +102,7 @@ Assert.AreEqual(0.75d, ConvertUtil.PixelToPoint(1));
 builder.Writeln($"This Text is {pageSetup.TopMargin} points/{ConvertUtil.PointToPixel(pageSetup.TopMargin, myDpi)} " +
                 $"pixels (at a DPI of {myDpi}) from the top of the page.");
 
- // 设置新的 DPI 并相应调整上边距值。
+// 设置一个新的 DPI 并相应地调整上边距值。
 const double newDpi = 300;
 pageSetup.TopMargin = ConvertUtil.PixelToNewDpi(pageSetup.TopMargin, myDpi, newDpi);
 Assert.AreEqual(59.0d, pageSetup.TopMargin, 0.01d);

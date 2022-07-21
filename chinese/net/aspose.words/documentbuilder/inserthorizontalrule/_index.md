@@ -1,14 +1,14 @@
 ---
 title: InsertHorizontalRule
 second_title: Aspose.Words for .NET API 参考
-description: 将水平线形插入文档
+description: 在文档中插入水平线形状
 type: docs
 weight: 320
 url: /zh/net/aspose.words/documentbuilder/inserthorizontalrule/
 ---
 ## DocumentBuilder.InsertHorizontalRule method
 
-将水平线形插入文档。
+在文档中插入水平线形状。
 
 ```csharp
 public Shape InsertHorizontalRule()
@@ -16,7 +16,7 @@ public Shape InsertHorizontalRule()
 
 ### 返回值
 
-水平线的形状。
+即为水平尺的形状。
 
 ### 例子
 

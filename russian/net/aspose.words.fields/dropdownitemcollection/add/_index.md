@@ -24,15 +24,15 @@ public int Add(string value)
 
 ### Примеры
 
-Показывает, как вставить поле со списком и редактировать элементы в его коллекции элементов.
+Показывает, как вставить поле со списком и изменить элементы в его коллекции элементов.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
- // Вставьте поле со списком, а затем проверьте его набор раскрывающихся элементов.
- // В Microsoft Word пользователь щелкнет поле со списком, 
- // а затем выберите один из элементов текста в коллекции для отображения.
+// Вставьте поле со списком, а затем проверьте его набор раскрывающихся элементов.
+// В Microsoft Word пользователь щелкнет поле со списком,
+// а затем выберите один из элементов текста в коллекции для отображения.
 string[] items = { "One", "Two", "Three" };
 FormField comboBoxField = builder.InsertComboBox("DropDown", items, 0);
 DropDownItemCollection dropDownItems = comboBoxField.DropDownItems;
@@ -42,25 +42,25 @@ Assert.AreEqual("One", dropDownItems[0]);
 Assert.AreEqual(1, dropDownItems.IndexOf("Two"));
 Assert.IsTrue(dropDownItems.Contains("Three"));
 
- // Есть два способа добавить новый элемент в существующую коллекцию элементов раскрывающегося списка.
- // 1 - Добавить элемент в конец коллекции: 
+// Есть два способа добавления нового элемента в существующую коллекцию элементов раскрывающегося списка.
+// 1 - Добавить элемент в конец коллекции:
 dropDownItems.Add("Four");
 
- // 2 - Вставить элемент перед другим элементом по указанному индексу: 
+// 2 - Вставить элемент перед другим элементом по указанному индексу:
 dropDownItems.Insert(3, "Three and a half");
 
 Assert.AreEqual(5, dropDownItems.Count);
 
- // Перебираем коллекцию и печатаем каждый элемент.
+// Перебираем коллекцию и печатаем каждый элемент.
 using (IEnumerator<string> dropDownCollectionEnumerator = dropDownItems.GetEnumerator())
     while (dropDownCollectionEnumerator.MoveNext())
         Console.WriteLine(dropDownCollectionEnumerator.Current);
 
- // Существует два способа удаления элементов из набора раскрывающихся элементов.
- // 1 - Удалить элемент с содержимым, равным переданной строке: 
+// Существует два способа удаления элементов из набора раскрывающихся элементов.
+// 1 - Удалить элемент с содержимым, равным переданной строке:
 dropDownItems.Remove("Four");
 
-// 2 - Удалить элемент по индексу: 
+// 2 - Удалить элемент по индексу:
 dropDownItems.RemoveAt(3);
 
 Assert.AreEqual(3, dropDownItems.Count);
@@ -69,7 +69,7 @@ Assert.IsFalse(dropDownItems.Contains("Four"));
 
 doc.Save(ArtifactsDir + "FormFields.DropDownItemCollection.html");
 
- // Очистить всю коллекцию выпадающих элементов.
+// Очистить всю коллекцию раскрывающихся элементов.
 dropDownItems.Clear();
 ```
 

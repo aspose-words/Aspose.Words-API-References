@@ -1,14 +1,14 @@
 ---
 title: SuppressLineNumbers
 second_title: Aspose.Words for .NET API 参考
-description: 指定当前段落的行是否应免除行号 应用于父节
+description: 指定当前段落的行是否应免除行编号 这在父节中应用
 type: docs
 weight: 370
 url: /zh/net/aspose.words/paragraphformat/suppresslinenumbers/
 ---
 ## ParagraphFormat.SuppressLineNumbers property
 
-指定当前段落的行是否应免除行号 应用于父节。
+指定当前段落的行是否应免除行编号 这在父节中应用。
 
 ```csharp
 public bool SuppressLineNumbers { get; set; }
@@ -16,7 +16,7 @@ public bool SuppressLineNumbers { get; set; }
 
 ### 例子
 
-显示如何为节启用行编号。
+显示如何为部分启用行号。
 
 ```csharp
 Document doc = new Document();

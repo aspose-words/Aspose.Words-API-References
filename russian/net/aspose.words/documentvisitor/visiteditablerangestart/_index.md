@@ -16,15 +16,15 @@ public virtual VisitorAction VisitEditableRangeStart(EditableRangeStart editable
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| editableRangeStart | EditableRangeStart | Посещаемый объект. |
+| editableRangeStart | EditableRangeStart | Объект, который посещается. |
 
 ### Возвращаемое значение
 
-A[`VisitorAction`](../../visitoraction)значение, указывающее, как продолжить перечисление.
+А[`VisitorAction`](../../visitoraction) значение, указывающее, как продолжить перечисление.
 
 ### Примеры
 
-Показывает, как напечатать структуру узлов каждого редактируемого диапазона в документе.
+Показывает, как распечатать структуру узлов каждого редактируемого диапазона в документе.
 
 ```csharp
 public void EditableRangeToText()
@@ -32,17 +32,17 @@ public void EditableRangeToText()
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     EditableRangeStructurePrinter visitor = new EditableRangeStructurePrinter();
 
-     // Когда составной узел принимает посетителя документа, посетитель посещает принимающий узел, 
-     // а затем обходит все дочерние узлы в порядке глубины.
-     // Посетитель может читать и изменять каждый посещенный узел.
+    // Когда составной узел принимает посетителя документа, посетитель посещает принимающий узел,
+    // а затем обходит все дочерние элементы узла в порядке глубины.
+    // Посетитель может читать и изменять каждый посещаемый узел.
     doc.Accept(visitor);
 
     Console.WriteLine(visitor.GetText());
 }
 
 /// <summary>
- /// Обходит небинарное дерево дочерних узлов узла.
- /// Создает карту в виде строки всех встреченных узлов EditableRange и их потомков.
+/// Обходит небинарное дерево дочерних узлов узла.
+/// Создает карту в виде строки всех встреченных узлов EditableRange и их дочерних элементов.
 /// </summary>
 public class EditableRangeStructurePrinter : DocumentVisitor
 {
@@ -53,7 +53,7 @@ public class EditableRangeStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-     /// Получает простой текст документа, который накопил посетитель.
+    /// Получает обычный текст документа, который накопил посетитель.
     /// </summary>
     public string GetText()
     {
@@ -61,11 +61,11 @@ public class EditableRangeStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-     /// Вызывается, когда в документе встречается узел Run.
+    /// Вызывается, когда в документе встречается узел Run.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {
-         // Мы хотим напечатать содержимое прогонов, но только если они находятся внутри фигур, как это было бы в случае текстовых полей
+        // Мы хотим напечатать содержимое прогонов, но только если они находятся внутри фигур, как это было бы в случае текстовых полей
         if (mVisitorIsInsideEditableRange) IndentAndAppendLine("[Run] \"" + run.GetText() + "\"");
 
         return VisitorAction.Continue;
@@ -85,7 +85,7 @@ public class EditableRangeStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-     /// Вызывается, когда посещение узла EditableRange завершено.
+    /// Вызывается, когда посещение узла EditableRange завершено.
     /// </summary>
     public override VisitorAction VisitEditableRangeEnd(EditableRangeEnd editableRangeEnd)
     {
@@ -97,9 +97,9 @@ public class EditableRangeStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-     /// Добавляем строку в StringBuilder и делаем отступ в зависимости от того, насколько глубоко посетитель находится в дереве документа.
+    /// Добавляем строку в StringBuilder и делаем отступ в зависимости от того, насколько глубоко посетитель находится в дереве документа.
     /// </summary>
-     /// <param name="text"></param>
+    /// <param name="text"></param>
     private void IndentAndAppendLine(string text)
     {
         for (int i = 0; i < mDocTraversalDepth; i++) mBuilder.Append("|  ");

@@ -1,14 +1,14 @@
 ---
 title: WordOpenXML
 second_title: Aspose.Words for .NET API 参考
-description: 获取一个字符串该字符串表示包含在FlatOpc格式的节点中的 XML
+description: 获取一个字符串该字符串表示包含在FlatOpc格式.
 type: docs
 weight: 120
 url: /zh/net/aspose.words.markup/istructureddocumenttag/wordopenxml/
 ---
 ## IStructuredDocumentTag.WordOpenXML property
 
-获取一个字符串，该字符串表示包含在FlatOpc格式的节点中的 XML。
+获取一个字符串，该字符串表示包含在FlatOpc格式.
 
 ```csharp
 public string WordOpenXML { get; }

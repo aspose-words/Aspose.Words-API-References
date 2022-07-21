@@ -23,23 +23,14 @@ public Paragraph[] ToArray()
 Показывает, как создать массив из NodeCollection.
 
 ```csharp
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
+Document doc = new Document(MyDir + "Paragraphs.docx");
 
-builder.Writeln("The first paragraph");
-builder.Writeln("The second paragraph");
-builder.Writeln("The third paragraph");
-builder.Writeln("The fourth paragraph");
+Paragraph[] paras = doc.FirstSection.Body.Paragraphs.ToArray();
 
-// Удалить узел из коллекции в середине перечисления.
-foreach (Paragraph para in doc.FirstSection.Body.Paragraphs.ToArray())
-    if (para.Range.Text.Contains("third"))
-        para.Remove();
-
-Assert.False(doc.GetText().Contains("The third paragraph"));
+Assert.AreEqual(22, paras.Length);
 ```
 
-Показывает, как использовать "горячее удаление" для удаления узла во время перечисления.
+Показывает, как использовать «горячее удаление» для удаления узла во время перечисления.
 
 ```csharp
 Document doc = new Document();

@@ -1,22 +1,22 @@
 ---
 title: Aspose.Words.DigitalSignatures
 second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.DigitalSignatures 命名空间提供类来签署文档和验证签名
+description: 这 Aspose.Words.DigitalSignatures命名空间提供类来签署文档和验证签名
 type: docs
 weight: 40
 url: /zh/net/aspose.words.digitalsignatures/
 ---
-**Aspose.Words.DigitalSignatures** 命名空间提供类来签署文档和验证签名。
+这 **Aspose.Words.DigitalSignatures**命名空间提供类来签署文档和验证签名。
 
 ## 课程
 
 | 班级 | 描述 |
 | --- | --- |
-| [CertificateHolder](./certificateholder) | 表示 **X509Certificate2** 实例的持有者。 |
+| [CertificateHolder](./certificateholder) | 代表持有人 **X509证书2**实例。 |
 | [DigitalSignature](./digitalsignature) | 表示文档上的数字签名及其验证结果。 |
 | [DigitalSignatureCollection](./digitalsignaturecollection) | 提供附加到文档的数字签名的只读集合。 |
 | [DigitalSignatureUtil](./digitalsignatureutil) | 提供签署文件的方法。 |
-| [SignOptions](./signoptions) | 允许指定文档签名的选项。 |
+| [SignOptions](./signoptions) | 允许为文档签名指定选项。 |
 ## 枚举
 
 | 枚举 | 描述 |

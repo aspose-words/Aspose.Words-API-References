@@ -3,7 +3,7 @@ title: DownsampleOptions
 second_title: Aspose.Words for .NET API 参考
 description: 允许指定下采样选项
 type: docs
-weight: 4660
+weight: 4710
 url: /zh/net/aspose.words.saving/downsampleoptions/
 ---
 ## DownsampleOptions class
@@ -26,7 +26,7 @@ public class DownsampleOptions
 | --- | --- |
 | [DownsampleImages](../../aspose.words.saving/downsampleoptions/downsampleimages) { get; set; } | 指定是否应该对图像进行下采样。 |
 | [Resolution](../../aspose.words.saving/downsampleoptions/resolution) { get; set; } | 指定图像应该被下采样到的分辨率（以每英寸像素为单位）。 |
-| [ResolutionThreshold](../../aspose.words.saving/downsampleoptions/resolutionthreshold) { get; set; } | 以每英寸像素为单位指定阈值分辨率。 如果文档中图像的分辨率小于阈值， 将不应用下采样算法。 值为 0 表示不使用阈值检查，所有可以缩小尺寸的图像都被下采样。 |
+| [ResolutionThreshold](../../aspose.words.saving/downsampleoptions/resolutionthreshold) { get; set; } | 以每英寸像素为单位指定阈值分辨率。 如果文档中图像的分辨率小于阈值， 将不应用下采样算法。 值 0 表示不使用阈值检查，所有图像可以缩小尺寸被下采样。 |
 
 ### 例子
 

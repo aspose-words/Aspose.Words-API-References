@@ -8,7 +8,7 @@ url: /zh/net/aspose.words/bordercollection/linestyle/
 ---
 ## BorderCollection.LineStyle property
 
-获取或设置边框样式。
+获取或设置边框样式
 
 ```csharp
 public LineStyle LineStyle { get; set; }
@@ -22,7 +22,7 @@ public LineStyle LineStyle { get; set; }
 
 ### 例子
 
-展示如何创建带有阴影的绿色波浪页面边框。
+演示如何创建带有阴影的绿色波浪页面边框。
 
 ```csharp
 Document doc = new Document();

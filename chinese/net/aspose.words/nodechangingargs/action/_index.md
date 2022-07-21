@@ -1,14 +1,14 @@
 ---
 title: Action
 second_title: Aspose.Words for .NET API 参考
-description: 获取一个值该值指示正在发生的节点更改事件的类型
+description: 获取一个值指示正在发生什么类型的节点更改事件
 type: docs
 weight: 10
 url: /zh/net/aspose.words/nodechangingargs/action/
 ---
 ## NodeChangingArgs.Action property
 
-获取一个值，该值指示正在发生的节点更改事件的类型。
+获取一个值，指示正在发生什么类型的节点更改事件。
 
 ```csharp
 public NodeChangingAction Action { get; }

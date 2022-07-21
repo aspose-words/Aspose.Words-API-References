@@ -1,14 +1,14 @@
 ---
 title: UnsupportedFileFormatException
 second_title: Справочник по API Aspose.Words для .NET
-description: Выбрасывается во время загрузки документа когда формат документа не распознается или не поддерживается Aspose.Words.
+description: Выдается при загрузке документа когда формат документа не распознается или не поддерживается Aspose.Words.
 type: docs
-weight: 6170
+weight: 6220
 url: /ru/net/aspose.words/unsupportedfileformatexception/
 ---
 ## UnsupportedFileFormatException class
 
-Выбрасывается во время загрузки документа, когда формат документа не распознается или не поддерживается Aspose.Words.
+Выдается при загрузке документа, когда формат документа не распознается или не поддерживается Aspose.Words.
 
 ```csharp
 public class UnsupportedFileFormatException : Exception

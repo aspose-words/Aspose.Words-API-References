@@ -1,14 +1,14 @@
 ---
 title: Borders
 second_title: Справочник по API Aspose.Words для .NET
-description: Получает коллекцию границ ячеек по умолчанию для строки.
+description: Получает набор границ ячеек по умолчанию для строки.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.tables/rowformat/borders/
 ---
 ## RowFormat.Borders property
 
-Получает коллекцию границ ячеек по умолчанию для строки.
+Получает набор границ ячеек по умолчанию для строки.
 
 ```csharp
 public BorderCollection Borders { get; }

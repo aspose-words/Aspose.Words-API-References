@@ -1,14 +1,14 @@
 ---
 title: ShowLeaderLines
 second_title: Aspose.Words for .NET API 参考
-description: 允许指定是否需要为整个系列的数据标签显示数据标签引出线 默认值为 false 
+description: 允许指定是否需要为整个系列的数据标签显示数据标签引出线 默认值为 错误的.
 type: docs
 weight: 80
 url: /zh/net/aspose.words.drawing.charts/chartdatalabelcollection/showleaderlines/
 ---
 ## ChartDataLabelCollection.ShowLeaderLines property
 
-允许指定是否需要为整个系列的数据标签显示数据标签引出线。 默认值为 **false** 。
+允许指定是否需要为整个系列的数据标签显示数据标签引出线。 默认值为 **错误的**.
 
 ```csharp
 public bool ShowLeaderLines { get; set; }
@@ -18,11 +18,11 @@ public bool ShowLeaderLines { get; set; }
 
 仅适用于饼图。 引导线在数据标签与其对应的数据点之间创建视觉连接。
 
-可以使用 ShowLeaderLines属性。
+可以使用 the 为单个数据标签覆盖为此属性定义的值[`ShowLeaderLines`](../../chartdatalabel/showleaderlines)财产。
 
 ### 例子
 
-显示如何使用饼图的数据标签。
+展示如何使用饼图的数据标签。
 
 ```csharp
 Document doc = new Document();

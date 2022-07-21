@@ -1,14 +1,14 @@
 ---
 title: TabStop
 second_title: Aspose.Words for .NET API 参考
-description: 表示单个自定义制表位 TabStop 对象是 TabStopCollection./tabstopcollection集合的成员
+description: 表示单个自定义制表位这 制表位对象是 the 的成员TabStopCollection./tabstopcollection集合.
 type: docs
-weight: 5850
+weight: 5900
 url: /zh/net/aspose.words/tabstop/
 ---
 ## TabStop class
 
-表示单个自定义制表位。 **TabStop** 对象是 [`TabStopCollection`](../tabstopcollection)集合的成员。
+表示单个自定义制表位。这 **制表位**对象是 the 的成员[`TabStopCollection`](../tabstopcollection)集合.
 
 ```csharp
 public sealed class TabStop
@@ -18,30 +18,30 @@ public sealed class TabStop
 
 | 姓名 | 描述 |
 | --- | --- |
-| [TabStop](tabstop#constructor)(double) | 初始化此类的新实例。 |
-| [TabStop](tabstop#constructor_1)(double, TabAlignment, TabLeader) | 初始化此类的新实例。 |
+| [TabStop](tabstop#constructor)(double) | 初始化这个类的一个新实例。 |
+| [TabStop](tabstop#constructor_1)(double, TabAlignment, TabLeader) | 初始化这个类的一个新实例。 |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Alignment](../../aspose.words/tabstop/alignment) { get; set; } | 获取或设置此制表位处的文本对齐方式。 |
+| [Alignment](../../aspose.words/tabstop/alignment) { get; set; } | 获取或设置此制表位的文本对齐方式。 |
 | [IsClear](../../aspose.words/tabstop/isclear) { get; } | 如果此制表位清除此位置的任何现有制表位，则返回 true。 |
-| [Leader](../../aspose.words/tabstop/leader) { get; set; } | 获取或设置制表符下显示的引导线类型。 |
-| [Position](../../aspose.words/tabstop/position) { get; } | 获取制表位的位置（以磅为单位）。 |
+| [Leader](../../aspose.words/tabstop/leader) { get; set; } | 获取或设置制表符下显示的引导线的类型。 |
+| [Position](../../aspose.words/tabstop/position) { get; } | 以点为单位获取制表位的位置。 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Equals](../../aspose.words/tabstop/equals#equals)(TabStop) | 与指定的 TabStop 进行比较。 |
+| [Equals](../../aspose.words/tabstop/equals#equals)(TabStop) | 与指定的 TabStop 比较。 |
 | override [GetHashCode](../../aspose.words/tabstop/gethashcode)() | 计算此对象的哈希码。 |
 
 ### 评论
 
-通常，制表位指定存在制表位的位置。但是因为 制表位可以从父样式继承，所以子对象 可能需要明确定义在给定位置没有制表位。要清除 在给定位置继承的制表位，请创建 **TabStop** 对象并设置 [`Alignment`](./alignment)到` TabAlignment.Clear` 。
+通常，制表位指定制表位存在的位置。但是因为 制表位可以从父样式继承，所以子对象 可能需要明确定义在给定位置没有制表位。要在给定位置清除 继承的制表位，请创建一个 **制表位**对象和 set [`Alignment`](./alignment)至`TabAlignment.Clear`.
 
-有关详细信息，请参阅[`TabStopCollection`](../tabstopcollection)。
+有关更多信息，请参阅[`TabStopCollection`](../tabstopcollection).
 
 ### 例子
 

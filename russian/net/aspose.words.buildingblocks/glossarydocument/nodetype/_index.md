@@ -1,14 +1,14 @@
 ---
 title: NodeType
 second_title: Справочник по API Aspose.Words для .NET
-description: Возвращает значениеGlossaryDocument.
+description: ВозвращаетGlossaryDocument значение.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.buildingblocks/glossarydocument/nodetype/
 ---
 ## GlossaryDocument.NodeType property
 
-Возвращает значениеGlossaryDocument.
+ВозвращаетGlossaryDocument значение.
 
 ```csharp
 public override NodeType NodeType { get; }

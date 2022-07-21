@@ -18,8 +18,8 @@ public enum ContentDisposition
 
 | Имя | Ценность | Описание |
 | --- | --- | --- |
-| Attachment | `0` | Отправить документ в браузер и предоставить возможность сохранить документ на диск или открыть в приложении связанном с расширением документа. |
-| Inline | `1` | Отправить документ в браузер и предоставляет возможность сохранить документ на диск или открыть в браузере. |
+| Attachment | `0` | Отправить документ в браузер и предоставить возможность сохранить документ на диск или открыть в приложении , связанном с расширением документа. |
+| Inline | `1` | Отправить документ в браузер и предоставить возможность сохранить документ на диск или открыть в браузере. |
 
 ### Примечания
 
@@ -27,7 +27,7 @@ public enum ContentDisposition
 
 ### Примеры
 
-Показывает, как выполнить слияние почты и затем сохранить документ в браузере клиента.
+Показывает, как выполнить слияние почты, а затем сохранить документ в браузере клиента.
 
 ```csharp
 Document doc = new Document();
@@ -44,9 +44,9 @@ builder.InsertField(" MERGEFIELD City ");
 doc.MailMerge.Execute(new string[] { "FullName", "Company", "Address", "City" },
     new object[] { "James Bond", "MI5 Headquarters", "Milbank", "London" });
 
- // Отправляем документ в клиентский браузер.
+// Отправляем документ в клиентский браузер.
 Assert.That(() => doc.Save(response, "Artifacts/MailMerge.ExecuteArray.docx", ContentDisposition.Inline, null),
-    Throws.TypeOf<ArgumentNullException>());  // Выброшено, потому что HttpResponse имеет значение null в тесте.
+    Throws.TypeOf<ArgumentNullException>()); // Выброшено, потому что HttpResponse имеет значение null в тесте.
 
 // Нам нужно будет закрыть этот ответ вручную, чтобы гарантировать, что мы не добавим лишний контент в документ после сохранения.
 Assert.That(() => response.End(), Throws.TypeOf<NullReferenceException>());

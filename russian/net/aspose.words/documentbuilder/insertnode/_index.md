@@ -47,7 +47,7 @@ shape.ImageData.SourceFullName = imageFileName;
 builder.InsertNode(shape);
 doc.Save(ArtifactsDir + "Image.CreateLinkedImage.Linked.docx");
 
-// Ссылка на изображения сэкономит место и приведет к уменьшению размера документа.
+// Связывание с изображениями сэкономит место и приведет к уменьшению размера документа.
 // Однако документ может правильно отображать изображение только тогда, когда
 // файл изображения находится в месте, на которое указывает свойство SourceFullName фигуры.
 Assert.True(10000 > new FileInfo(ArtifactsDir + "Image.CreateLinkedImage.Linked.docx").Length);

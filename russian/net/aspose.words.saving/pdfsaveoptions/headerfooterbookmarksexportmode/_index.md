@@ -16,9 +16,9 @@ public HeaderFooterBookmarksExportMode HeaderFooterBookmarksExportMode { get; se
 
 ### Примечания
 
-Значение по умолчанию:Все.
+Значение по умолчаниюAll.
 
-Это свойство используется вместе с параметром[`OutlineOptions`](../outlineoptions).
+Это свойство используется совместно с[`OutlineOptions`](../outlineoptions) вариант.
 
 ### Примеры
 

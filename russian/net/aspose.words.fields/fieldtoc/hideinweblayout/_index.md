@@ -1,14 +1,14 @@
 ---
 title: HideInWebLayout
 second_title: Справочник по API Aspose.Words для .NET
-description: Получает или задает следует ли скрывать закладку и номера страниц в представлении веб-макета.
+description: Получает или задает следует ли скрывать заглавную вкладку и номера страниц в представлении веб-макета.
 type: docs
 weight: 90
 url: /ru/net/aspose.words.fields/fieldtoc/hideinweblayout/
 ---
 ## FieldToc.HideInWebLayout property
 
-Получает или задает, следует ли скрывать закладку и номера страниц в представлении веб-макета.
+Получает или задает, следует ли скрывать заглавную вкладку и номера страниц в представлении веб-макета.
 
 ```csharp
 public bool HideInWebLayout { get; set; }

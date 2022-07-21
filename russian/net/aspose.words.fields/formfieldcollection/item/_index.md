@@ -24,9 +24,9 @@ public FormField this[int index] { get; }
 
 Отрицательные индексы разрешены и указывают на доступ из задней части коллекции. Например, -1 означает последний элемент, -2 означает предпоследний и так далее.
 
-Если индекс больше или равен количеству элементов в списке, возвращает нулевую ссылку.
+Если индекс больше или равен количеству элементов в списке, возвращается пустая ссылка.
 
-Если индекс отрицательный и его абсолютное значение больше, чем количество элементов в списке, возвращает нулевую ссылку.
+Если индекс отрицательный и его абсолютное значение больше, чем количество элементов в списке, возвращается пустая ссылка.
 
 ### Примеры
 
@@ -38,7 +38,7 @@ public void Visitor()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-     // Используйте конструктор документов, чтобы вставить поле со списком.
+    // Используйте конструктор документов, чтобы вставить поле со списком.
     builder.Write("Choose a value from this combo box: ");
     FormField comboBox = builder.InsertComboBox("MyComboBox", new[] { "One", "Two", "Three" }, 0);
     comboBox.CalculateOnExit = true;
@@ -48,7 +48,7 @@ public void Visitor()
 
     builder.InsertBreak(BreakType.ParagraphBreak);
 
-     // Используйте конструктор документов, чтобы вставить флажок.
+    // Используйте конструктор документов, чтобы вставить флажок.
     builder.Write("Click this check box to tick/untick it: ");
     FormField checkBox = builder.InsertCheckBox("MyCheckBox", false, 50);
     checkBox.IsCheckBoxExactSize = true;
@@ -62,7 +62,7 @@ public void Visitor()
 
     builder.InsertBreak(BreakType.ParagraphBreak);
 
-     // Используйте конструктор документов для вставки поля формы ввода текста.
+    // Используйте конструктор документов для вставки поля формы ввода текста.
     builder.Write("Enter text here: ");
     FormField textInput = builder.InsertTextInput("MyTextInput", TextFormFieldType.Regular, "", "Placeholder text", 50);
     textInput.EntryMacro = "EntryMacro";
@@ -73,19 +73,19 @@ public void Visitor()
     Assert.AreEqual(TextFormFieldType.Regular, textInput.TextInputType);
     Assert.AreEqual(50, textInput.MaxLength);
 
-     // Эта коллекция содержит все поля нашей формы.
+    // Эта коллекция содержит все поля нашей формы.
     FormFieldCollection formFields = doc.Range.FormFields;
     Assert.AreEqual(3, formFields.Count);
 
-     // Поля отображают поля нашей формы. Мы можем увидеть их коды полей, открыв этот документ
-     // в Microsoft и нажав Alt+F9. В этих полях нет переключателей,
-     // и члены объекта FormField полностью управляют содержимым своих полей формы.
+    // Поля отображают поля нашей формы. Мы можем увидеть их коды полей, открыв этот документ
+    // в Microsoft и нажав Alt+F9. Эти поля не имеют переключателей,
+    // и члены объекта FormField полностью управляют содержимым своих полей формы.
     Assert.AreEqual(3, doc.Range.Fields.Count);
     Assert.AreEqual(" FORMDROPDOWN \u0001", doc.Range.Fields[0].GetFieldCode());
     Assert.AreEqual(" FORMCHECKBOX \u0001", doc.Range.Fields[1].GetFieldCode());
     Assert.AreEqual(" FORMTEXT \u0001", doc.Range.Fields[2].GetFieldCode());
 
-     // Разрешить каждому полю формы принимать посетителя документа.
+    // Разрешить каждому полю формы принимать посетителя документа.
     FormFieldVisitor formFieldVisitor = new FormFieldVisitor();
 
     using (IEnumerator<FormField> fieldEnumerator = formFields.GetEnumerator())
@@ -109,7 +109,7 @@ public class FormFieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-     /// Вызывается, когда в документе встречается узел FormField.
+    /// Вызывается, когда в документе встречается узел FormField.
     /// </summary>
     public override VisitorAction VisitFormField(FormField formField)
     {
@@ -135,12 +135,12 @@ public class FormFieldVisitor : DocumentVisitor
                 break;
         }
 
-         // Разрешить посетителю продолжить посещение других узлов.
+        // Разрешить посетителю продолжить посещение других узлов.
         return VisitorAction.Continue;
     }
 
     /// <summary>
-     /// Добавляет текст, заканчивающийся символом новой строки, к текущему выводу.
+    /// Добавляет текст, заканчивающийся символом новой строки, к текущему выводу.
     /// </summary>
     private void AppendLine(string text)
     {
@@ -148,7 +148,7 @@ public class FormFieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-     /// Получает простой текст документа, который накопил посетитель.
+    /// Получает обычный текст документа, который накопил посетитель.
     /// </summary>
     public string GetText()
     {
@@ -182,7 +182,7 @@ public FormField this[string bookmarkName] { get; }
 
 ### Примечания
 
-Возвращает null, если не удается найти поле формы с указанным именем закладки.
+Возвращает null, если поле формы с указанным именем закладки не может быть найдено.
 
 ### Примеры
 
@@ -194,7 +194,7 @@ public void Visitor()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-     // Используйте конструктор документов, чтобы вставить поле со списком.
+    // Используйте конструктор документов, чтобы вставить поле со списком.
     builder.Write("Choose a value from this combo box: ");
     FormField comboBox = builder.InsertComboBox("MyComboBox", new[] { "One", "Two", "Three" }, 0);
     comboBox.CalculateOnExit = true;
@@ -204,7 +204,7 @@ public void Visitor()
 
     builder.InsertBreak(BreakType.ParagraphBreak);
 
-     // Используйте конструктор документов, чтобы вставить флажок.
+    // Используйте конструктор документов, чтобы вставить флажок.
     builder.Write("Click this check box to tick/untick it: ");
     FormField checkBox = builder.InsertCheckBox("MyCheckBox", false, 50);
     checkBox.IsCheckBoxExactSize = true;
@@ -218,7 +218,7 @@ public void Visitor()
 
     builder.InsertBreak(BreakType.ParagraphBreak);
 
-     // Используйте конструктор документов для вставки поля формы ввода текста.
+    // Используйте конструктор документов для вставки поля формы ввода текста.
     builder.Write("Enter text here: ");
     FormField textInput = builder.InsertTextInput("MyTextInput", TextFormFieldType.Regular, "", "Placeholder text", 50);
     textInput.EntryMacro = "EntryMacro";
@@ -229,19 +229,19 @@ public void Visitor()
     Assert.AreEqual(TextFormFieldType.Regular, textInput.TextInputType);
     Assert.AreEqual(50, textInput.MaxLength);
 
-     // Эта коллекция содержит все поля нашей формы.
+    // Эта коллекция содержит все поля нашей формы.
     FormFieldCollection formFields = doc.Range.FormFields;
     Assert.AreEqual(3, formFields.Count);
 
-     // Поля отображают поля нашей формы. Мы можем увидеть их коды полей, открыв этот документ
-     // в Microsoft и нажав Alt+F9. В этих полях нет переключателей,
-     // и члены объекта FormField полностью управляют содержимым своих полей формы.
+    // Поля отображают поля нашей формы. Мы можем увидеть их коды полей, открыв этот документ
+    // в Microsoft и нажав Alt+F9. Эти поля не имеют переключателей,
+    // и члены объекта FormField полностью управляют содержимым своих полей формы.
     Assert.AreEqual(3, doc.Range.Fields.Count);
     Assert.AreEqual(" FORMDROPDOWN \u0001", doc.Range.Fields[0].GetFieldCode());
     Assert.AreEqual(" FORMCHECKBOX \u0001", doc.Range.Fields[1].GetFieldCode());
     Assert.AreEqual(" FORMTEXT \u0001", doc.Range.Fields[2].GetFieldCode());
 
-     // Разрешить каждому полю формы принимать посетителя документа.
+    // Разрешить каждому полю формы принимать посетителя документа.
     FormFieldVisitor formFieldVisitor = new FormFieldVisitor();
 
     using (IEnumerator<FormField> fieldEnumerator = formFields.GetEnumerator())
@@ -265,7 +265,7 @@ public class FormFieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-     /// Вызывается, когда в документе встречается узел FormField.
+    /// Вызывается, когда в документе встречается узел FormField.
     /// </summary>
     public override VisitorAction VisitFormField(FormField formField)
     {
@@ -291,12 +291,12 @@ public class FormFieldVisitor : DocumentVisitor
                 break;
         }
 
-         // Разрешить посетителю продолжить посещение других узлов.
+        // Разрешить посетителю продолжить посещение других узлов.
         return VisitorAction.Continue;
     }
 
     /// <summary>
-     /// Добавляет текст, заканчивающийся символом новой строки, к текущему выводу.
+    /// Добавляет текст, заканчивающийся символом новой строки, к текущему выводу.
     /// </summary>
     private void AppendLine(string text)
     {
@@ -304,7 +304,7 @@ public class FormFieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-     /// Получает простой текст документа, который накопил посетитель.
+    /// Получает обычный текст документа, который накопил посетитель.
     /// </summary>
     public string GetText()
     {

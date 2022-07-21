@@ -16,7 +16,7 @@ public string DefaultResponse { get; set; }
 
 ### 例子
 
-显示如何创建 ASK 字段并设置其属性。
+展示如何创建 ASK 字段并设置其属性。
 
 ```csharp
 [Test]

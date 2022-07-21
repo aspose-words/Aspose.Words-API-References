@@ -3,7 +3,7 @@ title: GeneralFormatCollection
 second_title: Aspose.Words for .NET API 参考
 description: 表示一般格式的类型化集合
 type: docs
-weight: 2450
+weight: 2490
 url: /zh/net/aspose.words.fields/generalformatcollection/
 ---
 ## GeneralFormatCollection class

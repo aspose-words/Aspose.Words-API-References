@@ -1,14 +1,14 @@
 ---
 title: DocumentPropertyCollection
 second_title: Aspose.Words for .NET API 参考
-description: BuiltInDocumentProperties./builtindocumentproperties和CustomDocumentProperties的基类收藏
+description: 基类BuiltInDocumentProperties./builtindocumentproperties和CustomDocumentProperties./customdocumentproperties集合.
 type: docs
-weight: 4180
+weight: 4230
 url: /zh/net/aspose.words.properties/documentpropertycollection/
 ---
 ## DocumentPropertyCollection class
 
-[`BuiltInDocumentProperties`](../builtindocumentproperties)和CustomDocumentProperties的基类收藏。
+基类[`BuiltInDocumentProperties`](../builtindocumentproperties)和[`CustomDocumentProperties`](../customdocumentproperties)集合.
 
 ```csharp
 public abstract class DocumentPropertyCollection : IEnumerable<DocumentProperty>
@@ -19,8 +19,8 @@ public abstract class DocumentPropertyCollection : IEnumerable<DocumentProperty>
 | 姓名 | 描述 |
 | --- | --- |
 | [Count](../../aspose.words.properties/documentpropertycollection/count) { get; } | 获取集合中的项目数。 |
-| [Item](../../aspose.words.properties/documentpropertycollection/item) { get; } | 按索引返回[`DocumentProperty`](../documentproperty)对象。 |
-| virtual [Item](../../aspose.words.properties/documentpropertycollection/item) { get; } | 按属性名称返回[`DocumentProperty`](../documentproperty)对象。 |
+| [Item](../../aspose.words.properties/documentpropertycollection/item) { get; } | 返回一个[`DocumentProperty`](../documentproperty)按索引的对象. |
+| virtual [Item](../../aspose.words.properties/documentpropertycollection/item) { get; } | 返回一个[`DocumentProperty`](../documentproperty)按属性名称的对象。 |
 
 ## 方法
 
@@ -41,7 +41,7 @@ public abstract class DocumentPropertyCollection : IEnumerable<DocumentProperty>
 
 ### 例子
 
-显示如何使用文档的自定义属性。
+展示如何使用文档的自定义属性。
 
 ```csharp
 Document doc = new Document();
@@ -49,48 +49,48 @@ CustomDocumentProperties properties = doc.CustomDocumentProperties;
 
 Assert.AreEqual(0, properties.Count);
 
- // 自定义文档属性是我们可以添加到文档中的键值对。
+// 自定义文档属性是我们可以添加到文档中的键值对。
 properties.Add("Authorized", true);
 properties.Add("Authorized By", "John Doe");
 properties.Add("Authorized Date", DateTime.Today);
 properties.Add("Authorized Revision", doc.BuiltInDocumentProperties.RevisionNumber);
 properties.Add("Authorized Amount", 123.45);
 
- // 集合按字母顺序对自定义属性进行排序。
+// 集合按字母顺序对自定义属性进行排序。
 Assert.AreEqual(1, properties.IndexOf("Authorized Amount"));
 Assert.AreEqual(5, properties.Count);
 
- // 打印文档中的每个自定义属性。
+// 打印文档中的每个自定义属性。
 using (IEnumerator<DocumentProperty> enumerator = properties.GetEnumerator())
 {
     while (enumerator.MoveNext())
         Console.WriteLine($"Name: \"{enumerator.Current.Name}\"\n\tType: \"{enumerator.Current.Type}\"\n\tValue: \"{enumerator.Current.Value}\"");
 }
 
- // 使用 DOCPROPERTY 字段显示自定义属性的值。
+// 使用 DOCPROPERTY 字段显示自定义属性的值。
 DocumentBuilder builder = new DocumentBuilder(doc);
 FieldDocProperty field = (FieldDocProperty)builder.InsertField(" DOCPROPERTY \"Authorized By\"");
 field.Update();
 
 Assert.AreEqual("John Doe", field.Result);
 
- // 我们可以通过“文件”在 Microsoft Word 中找到这些自定义属性 -> “属性” > “高级属性”> “自定义”.
+// 我们可以通过“文件”在 Microsoft Word 中找到这些自定义属性 -> “属性” > “高级属性”> “风俗”。
 doc.Save(ArtifactsDir + "DocumentProperties.DocumentPropertyCollection.docx");
 
- // 下面是三种方法或从文档中删除自定义属性。
- // 1 - 按索引删除：
+// 以下是从文档中删除自定义属性的三种方法。
+// 1 - 按索引删除：
 properties.RemoveAt(1);
 
 Assert.False(properties.Contains("Authorized Amount"));
 Assert.AreEqual(4, properties.Count);
 
- // 2 - 按名称删除：
+// 2 - 按名称删除：
 properties.Remove("Authorized Revision");
 
 Assert.False(properties.Contains("Authorized Revision"));
 Assert.AreEqual(3, properties.Count);
 
- // 3 - 一次清空整个集合：
+// 3 - 一次清空整个集合：
 properties.Clear();
 
 Assert.AreEqual(0, properties.Count);

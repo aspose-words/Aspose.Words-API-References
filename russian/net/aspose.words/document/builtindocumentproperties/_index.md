@@ -21,18 +21,18 @@ public BuiltInDocumentProperties BuiltInDocumentProperties { get; }
 ```csharp
 Document doc = new Document(MyDir + "Properties.docx");
 
- // Объект "Документ" содержит некоторые метаданные в своих членах.
+// Объект «Документ» содержит некоторые метаданные в своих членах.
 Console.WriteLine($"Document filename:\n\t \"{doc.OriginalFileName}\"");
 
- // Документ также хранит метаданные в своих встроенных свойствах.
-// Каждое встроенное свойство является членом объекта "BuiltInDocumentProperties" документа.
+// Документ также хранит метаданные в своих встроенных свойствах.
+// Каждое встроенное свойство является членом объекта «BuiltInDocumentProperties» документа.
 Console.WriteLine("Built-in Properties:");
 foreach (DocumentProperty docProperty in doc.BuiltInDocumentProperties)
 {
     Console.WriteLine(docProperty.Name);
     Console.WriteLine($"\tType:\t{docProperty.Type}");
 
-     // Некоторые свойства могут хранить несколько значений.
+    // Некоторые свойства могут хранить несколько значений.
     if (docProperty.Value is ICollection<object>)
     {
         foreach (object value in docProperty.Value as ICollection<object>)

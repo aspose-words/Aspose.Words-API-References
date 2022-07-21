@@ -3,7 +3,7 @@ title: IFieldResultFormatter
 second_title: Aspose.Words for .NET API 参考
 description: 如果要控制字段结果的格式请实现此接口
 type: docs
-weight: 2480
+weight: 2530
 url: /zh/net/aspose.words.fields/ifieldresultformatter/
 ---
 ## IFieldResultFormatter interface
@@ -18,10 +18,10 @@ public interface IFieldResultFormatter
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Format](../../aspose.words.fields/ifieldresultformatter/format#format)(double, GeneralFormat) | 当 Aspose.Words 应用数字格式开关时调用，即 \* Ordinal。 |
-| [Format](../../aspose.words.fields/ifieldresultformatter/format#format_1)(string, GeneralFormat) | 当 Aspose.Words 应用大写格式开关时调用，即 \* Upper。 |
-| [FormatDateTime](../../aspose.words.fields/ifieldresultformatter/formatdatetime)(DateTime, string, CalendarType) | 当 Aspose.Words 应用日期/时间格式切换时调用，即 \@ "dd.MM.yyyy"。 |
-| [FormatNumeric](../../aspose.words.fields/ifieldresultformatter/formatnumeric)(double, string) | 当 Aspose.Words 应用数字格式开关时调用，即 \# "#.##"。 |
+| [Format](../../aspose.words.fields/ifieldresultformatter/format#format)(double, GeneralFormat) | 当 Aspose.Words 应用数字格式开关时调用，即 \* Ordinal. |
+| [Format](../../aspose.words.fields/ifieldresultformatter/format#format_1)(string, GeneralFormat) | 当 Aspose.Words 应用大小写格式开关时调用，即 \* Upper. |
+| [FormatDateTime](../../aspose.words.fields/ifieldresultformatter/formatdatetime)(DateTime, string, CalendarType) | 当 Aspose.Words 应用日期/时间格式切换时调用，即 \@ "dd.MM.yyyy". |
+| [FormatNumeric](../../aspose.words.fields/ifieldresultformatter/formatnumeric)(double, string) | 当 Aspose.Words 应用数字格式开关时调用，即 \# "#.##". |
 
 ### 例子
 

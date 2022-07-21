@@ -1,14 +1,14 @@
 ---
 title: ShowSeriesName
 second_title: Aspose.Words for .NET API 参考
-description: 返回或设置一个布尔值以指示图表上数据标签的系列名称显示行为 True 显示系列名称虚假隐藏默认为假
+description: 返回或设置一个布尔值以指示图表上数据标签的系列名称显示行为 True 显示系列名称虚假隐藏默认为 false.
 type: docs
 weight: 120
 url: /zh/net/aspose.words.drawing.charts/chartdatalabel/showseriesname/
 ---
 ## ChartDataLabel.ShowSeriesName property
 
-返回或设置一个布尔值以指示图表上数据标签的系列名称显示行为。 True 显示系列名称。虚假隐藏。默认为假。
+返回或设置一个布尔值以指示图表上数据标签的系列名称显示行为。 True 显示系列名称。虚假隐藏。默认为 false.
 
 ```csharp
 public bool ShowSeriesName { get; set; }

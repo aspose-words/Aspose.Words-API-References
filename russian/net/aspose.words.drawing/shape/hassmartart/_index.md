@@ -1,14 +1,14 @@
 ---
 title: HasSmartArt
 second_title: Справочник по API Aspose.Words для .NET
-description: Возвращает true если эта фигура имеет объект SmartArt.
+description: Возвращает true если у этой формы есть объект SmartArt.
 type: docs
 weight: 90
 url: /ru/net/aspose.words.drawing/shape/hassmartart/
 ---
 ## Shape.HasSmartArt property
 
-Возвращает true, если эта фигура имеет объект SmartArt.
+Возвращает true, если у этой формы есть объект SmartArt.
 
 ```csharp
 public bool HasSmartArt { get; }

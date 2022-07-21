@@ -16,7 +16,7 @@ public int ListId { get; }
 
 ### 评论
 
-通常不需要使用此属性。但是如果你使用它，你通常会这样做 结合[`GetListByListId`](../../listcollection/getlistbylistid)方法来查找 按其标识符列出。
+您通常不需要使用此属性。但是如果你使用它，你通常会做 so 与[`GetListByListId`](../../listcollection/getlistbylistid)通过标识符查找 a 列表的方法。
 
 ### 例子
 
@@ -24,27 +24,19 @@ public int ListId { get; }
 
 ```csharp
 Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
 
-builder.ListFormat.ApplyNumberDefault();
-builder.Writeln("Numbered list item 1");
-builder.Writeln("Numbered list item 2");
-builder.Writeln("Numbered list item 3");
-builder.ListFormat.RemoveNumbers();
+ListCollection lists = doc.Lists;
 
-builder.ListFormat.ApplyBulletDefault();
-builder.Writeln("Bulleted list item 1");
-builder.Writeln("Bulleted list item 2");
-builder.Writeln("Bulleted list item 3");
-builder.ListFormat.RemoveNumbers();
+Assert.AreEqual(doc, lists.Document);
 
-NodeCollection paras = doc.GetChildNodes(NodeType.Paragraph, true);
+List list = lists.Add(ListTemplate.BulletDefault);
 
-foreach (Paragraph para in paras.OfType<Paragraph>().Where(p => p.ListFormat.IsListItem))
-{ 
-    Console.WriteLine($"This paragraph belongs to list ID# {para.ListFormat.List.ListId}, number style \"{para.ListFormat.ListLevel.NumberStyle}\"");
-    Console.WriteLine($"\t\"{para.GetText().Trim()}\"");
-}
+Assert.AreEqual(doc, list.Document);
+
+Console.WriteLine("Current list count: " + lists.Count);
+Console.WriteLine("Is the first document list: " + (lists[0].Equals(list)));
+Console.WriteLine("ListId: " + list.ListId);
+Console.WriteLine("List is the same by ListId: " + (lists.GetListByListId(1).Equals(list)));
 ```
 
 显示如何输出文档中作为列表项的所有段落。

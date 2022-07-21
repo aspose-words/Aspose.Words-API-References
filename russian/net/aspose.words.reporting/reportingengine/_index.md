@@ -3,7 +3,7 @@ title: ReportingEngine
 second_title: Справочник по API Aspose.Words для .NET
 description: Предоставляет подпрограммы для заполнения шаблонных документов данными и набор настроек для управления этими подпрограммами.
 type: docs
-weight: 4420
+weight: 4470
 url: /ru/net/aspose.words.reporting/reportingengine/
 ---
 ## ReportingEngine class
@@ -24,9 +24,9 @@ public class ReportingEngine
 
 | Имя | Описание |
 | --- | --- |
-| [KnownTypes](../../aspose.words.reporting/reportingengine/knowntypes) { get; } | Получает неупорядоченный набор (т.е. набор уникальных элементов), содержащийTypeобъекты которые полностью или частично определенные имена могут использоваться в шаблонах отчетов, обрабатываемых этим движком экземпляр для вызова статических членов соответствующих типов, выполнения приведения типов и т. д. |
-| [Options](../../aspose.words.reporting/reportingengine/options) { get; set; } | Получает или устанавливает набор флагов, управляющих поведением этого[`ReportingEngine`](../reportingengine)instance при построении отчета. |
-| static [UseReflectionOptimization](../../aspose.words.reporting/reportingengine/usereflectionoptimization) { get; set; } | Получает или задает значение, указывающее, оптимизированы ли вызовы членов пользовательского типа, выполняемые через API отражения, с использованием динамического создания классов или нет. Значение по умолчанию верно. |
+| [KnownTypes](../../aspose.words.reporting/reportingengine/knowntypes) { get; } | Получает неупорядоченный набор (т. е. набор уникальных элементов), содержащийTypeобъекты , полные или частичные имена которых могут использоваться в шаблонах отчетов, обрабатываемых этим экземпляром engine , для вызова статических элементов соответствующих типов, выполнения приведения типов и т. д. |
+| [Options](../../aspose.words.reporting/reportingengine/options) { get; set; } | Получает или устанавливает набор флагов, управляющих поведением этого[`ReportingEngine`](../reportingengine) экземпляр при построении отчета. |
+| static [UseReflectionOptimization](../../aspose.words.reporting/reportingengine/usereflectionoptimization) { get; set; } | Получает или задает значение, указывающее, являются ли вызовы членов пользовательского типа, выполняемые через API отражения, оптимизированными с использованием динамического создания классов или нет. Значение по умолчанию — true. |
 
 ## Методы
 

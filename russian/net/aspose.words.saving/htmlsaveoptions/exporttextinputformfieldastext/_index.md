@@ -1,14 +1,14 @@
 ---
 title: ExportTextInputFormFieldAsText
 second_title: Справочник по API Aspose.Words для .NET
-description: Управляет тем как поля формы ввода текста сохраняются в HTML или MHTML. Значение по умолчанию false .
+description: Управляет сохранением полей формы ввода текста в формате HTML или MHTML. Значение по умолчаниюЛОЖЬ .
 type: docs
 weight: 270
 url: /ru/net/aspose.words.saving/htmlsaveoptions/exporttextinputformfieldastext/
 ---
 ## HtmlSaveOptions.ExportTextInputFormFieldAsText property
 
-Управляет тем, как поля формы ввода текста сохраняются в HTML или MHTML. Значение по умолчанию:` false` .
+Управляет сохранением полей формы ввода текста в формате HTML или MHTML. Значение по умолчанию:`ЛОЖЬ` .
 
 ```csharp
 public bool ExportTextInputFormFieldAsText { get; set; }
@@ -16,9 +16,9 @@ public bool ExportTextInputFormFieldAsText { get; set; }
 
 ### Примечания
 
-При значении` true` экспортирует поля формы ввода текста как обычный текст. Когда` false` , экспортирует поля формы ввода текста Word как элементы INPUT в HTML.
+При установке на`истинный` , экспортирует поля формы ввода текста как обычный текст. Когда`ЛОЖЬ`, экспортирует поля формы ввода текста Word как элементы INPUT в HTML.
 
-При экспорте в EPUB поля формы ввода текста всегда сохраняются как текстовые в соответствии с требованиями этого формата.
+При экспорте в EPUB поля формы ввода текста всегда сохраняются как текст из-за требований этого формата.
 
 ### Примеры
 

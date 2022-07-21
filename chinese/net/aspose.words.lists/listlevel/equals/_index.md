@@ -1,14 +1,14 @@
 ---
 title: Equals
 second_title: Aspose.Words for .NET API 参考
-description: 与指定的 ListLevel 进行比较
+description: 与指定的 ListLevel 比较
 type: docs
 weight: 170
 url: /zh/net/aspose.words.lists/listlevel/equals/
 ---
 ## ListLevel.Equals method
 
-与指定的 ListLevel 进行比较。
+与指定的 ListLevel 比较。
 
 ```csharp
 public bool Equals(ListLevel level)

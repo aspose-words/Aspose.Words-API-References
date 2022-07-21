@@ -3,7 +3,7 @@ title: Watermark
 second_title: Справочник по API Aspose.Words для .NET
 description: Представляет класс для работы с водяным знаком документа.
 type: docs
-weight: 6310
+weight: 6360
 url: /ru/net/aspose.words/watermark/
 ---
 ## Watermark class

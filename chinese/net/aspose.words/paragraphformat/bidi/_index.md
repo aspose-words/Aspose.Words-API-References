@@ -16,42 +16,34 @@ public bool Bidi { get; set; }
 
 ### 评论
 
-当为真时，本段中的运行和其他内联对象 从右到左排列。
+如果为 true，则此段落 中的运行和其他内联对象从右到左排列。
 
 ### 例子
 
 显示如何检测纯文本文档的文本方向。
 
 ```csharp
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
+// 创建一个“TxtLoadOptions”对象，我们可以将它传递给文档的构造函数
+// 修改我们加载纯文本文档的方式。
+TxtLoadOptions loadOptions = new TxtLoadOptions();
 
-// BIDIOUTLINE 字段编号段落，如 AUTONUM/LISTNUM 字段，
-// 但仅在启用从右到左的编辑语言时可见，例如希伯来语或阿拉伯语。
-// 以下字段将显示“.1”，即列表编号“1.”的 RTL 等效项。
-FieldBidiOutline field = (FieldBidiOutline)builder.InsertField(FieldType.FieldBidiOutline, true);
-builder.Writeln("שלום");
+// 将“DocumentDirection”属性设置为“DocumentDirection.Auto”自动检测
+// Aspose.Words 从纯文本加载的每一段文本的方向。
+// 每个段落的“Bidi”属性都会存储它的方向。
+loadOptions.DocumentDirection = DocumentDirection.Auto;
 
-Assert.AreEqual(" BIDIOUTLINE ", field.GetFieldCode());
+// 检测从右到左的希伯来语文本。
+Document doc = new Document(MyDir + "Hebrew text.txt", loadOptions);
 
-// 添加另外两个 BIDIOUTLINE 字段，将显示“.2”和“.3”。
-builder.InsertField(FieldType.FieldBidiOutline, true);
-builder.Writeln("שלום");
-builder.InsertField(FieldType.FieldBidiOutline, true);
-builder.Writeln("שלום");
+Assert.True(doc.FirstSection.Body.FirstParagraph.ParagraphFormat.Bidi);
 
-// 将文档中每个段落的水平文本对齐方式设置为 RTL。
-foreach (Paragraph para in doc.GetChildNodes(NodeType.Paragraph, true))
-{
-    para.ParagraphFormat.Bidi = true;
-}
+// 将英文文本检测为从右到左。
+doc = new Document(MyDir + "English text.txt", loadOptions);
 
-// 如果我们在 Microsoft Word 中启用从右到左的编辑语言，我们的字段将显示数字。
-// 否则，它们将显示“###”。
-doc.Save(ArtifactsDir + "Field.BIDIOUTLINE.docx");
+Assert.False(doc.FirstSection.Body.FirstParagraph.ParagraphFormat.Bidi);
 ```
 
-显示如何使用 BIDIOUTLINE 字段创建从右到左的语言兼容列表。
+展示如何使用 BIDIOUTLINE 字段创建从右到左的语言兼容列表。
 
 ```csharp
 Document doc = new Document();

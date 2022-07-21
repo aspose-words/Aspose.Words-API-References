@@ -3,7 +3,7 @@ title: BlockImportMode
 second_title: Aspose.Words for .NET API 参考
 description: 指定如何从基于 HTML 的文档中导入块级元素的属性
 type: docs
-weight: 3310
+weight: 3360
 url: /zh/net/aspose.words.loading/blockimportmode/
 ---
 ## BlockImportMode enumeration
@@ -18,7 +18,7 @@ public enum BlockImportMode
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| Merge | `0` | 父块的属性被合并并存储在子元素（即段落或表格）中。 |
+| Merge | `0` | 父块的属性被合并并存储在子元素（即段落或表格）上。 |
 | Preserve | `1` | 父块的属性被导入到一个特殊的逻辑结构中，并与 文档节点分开存储。 |
 
 ### 也可以看看

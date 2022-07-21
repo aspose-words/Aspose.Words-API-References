@@ -23,9 +23,9 @@ public void MoveToCell(int tableIndex, int rowIndex, int columnIndex, int charac
 
 ### 评论
 
-在当前部分的当前故事中执行导航。
+导航在当前部分的当前故事内执行。
 
-对于索引参数，当 index 大于等于 0 时，指定从 开始的索引，0 为第一个元素。当 index 小于 0 时，它从 开始指定一个索引， -1 是最后一个元素。
+对于索引参数，当index大于等于0时，指定从 开始的索引，0为第一个元素。当 index 小于 0 时，它指定一个 index from 结尾， -1 是最后一个元素。
 
 ### 例子
 

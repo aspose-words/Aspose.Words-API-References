@@ -1,14 +1,14 @@
 ---
 title: Encoding
 second_title: Справочник по API Aspose.Words для .NET
-description: Указывает кодировку используемую при экспорте в HTML MHTML или EPUB. Значение по умолчанию new UTF8Encodingfalse UTF-8 без спецификации.
+description: Указывает кодировку используемую при экспорте в HTML MHTML или EPUB. Значение по умолчаниюновое кодирование UTF8 ложь UTF-8 без спецификации.
 type: docs
 weight: 100
 url: /ru/net/aspose.words.saving/htmlsaveoptions/encoding/
 ---
 ## HtmlSaveOptions.Encoding property
 
-Указывает кодировку, используемую при экспорте в HTML, MHTML или EPUB. Значение по умолчанию:` new UTF8Encoding(false)` (UTF-8 без спецификации).
+Указывает кодировку, используемую при экспорте в HTML, MHTML или EPUB. Значение по умолчанию:`новое кодирование UTF8 (ложь)` (UTF-8 без спецификации).
 
 ```csharp
 public Encoding Encoding { get; set; }
@@ -16,7 +16,7 @@ public Encoding Encoding { get; set; }
 
 ### Примеры
 
-Показывает, как использовать определенную кодировку при сохранении документа в .epub.
+Показывает, как использовать определенную кодировку при сохранении документа в формате .epub.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");

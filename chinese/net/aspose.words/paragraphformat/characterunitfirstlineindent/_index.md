@@ -10,7 +10,7 @@ url: /zh/net/aspose.words/paragraphformat/characterunitfirstlineindent/
 
 获取或设置第一行或悬挂缩进的值（以字符为单位）。
 
-正值设置首行缩进，负值设置悬挂缩进。
+使用正值设置首行缩进，使用负值设置悬挂缩进。
 
 ```csharp
 public double CharacterUnitFirstLineIndent { get; set; }

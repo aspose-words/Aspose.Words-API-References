@@ -1,14 +1,14 @@
 ---
 title: StructuredDocumentTags
 second_title: Aspose.Words for .NET API 参考
-description: 返回一个StructuredDocumentTagsaspose.words/range/structureddocumenttags集合表示范围内的所有结构化文档标签
+description: 返回一个StructuredDocumentTagsaspose.words/range/structureddocumenttags表示范围内所有结构化文档标签的集合
 type: docs
 weight: 40
 url: /zh/net/aspose.words/range/structureddocumenttags/
 ---
 ## Range.StructuredDocumentTags property
 
-返回一个`StructuredDocumentTags`集合，表示范围内的所有结构化文档标签。
+返回一个`StructuredDocumentTags`表示范围内所有结构化文档标签的集合。
 
 ```csharp
 public StructuredDocumentTagCollection StructuredDocumentTags { get; }

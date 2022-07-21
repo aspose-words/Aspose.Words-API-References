@@ -1,14 +1,14 @@
 ---
 title: OfficeMathRenderer
 second_title: Справочник по API Aspose.Words для .NET
-description: Предоставляет методы для рендеринга отдельногоOfficeMath../aspose.words.math/officemath в растр или вектор изображение или объект Graphics.
+description: Предоставляет методы для рендеринга отдельногоOfficeMath../aspose.words.math/officemath в растровое или векторное изображение или в объект Graphics.
 type: docs
-weight: 4250
+weight: 4300
 url: /ru/net/aspose.words.rendering/officemathrenderer/
 ---
 ## OfficeMathRenderer class
 
-Предоставляет методы для рендеринга отдельного[`OfficeMath`](../../aspose.words.math/officemath) в растр или вектор изображение или объект Graphics.
+Предоставляет методы для рендеринга отдельного[`OfficeMath`](../../aspose.words.math/officemath) в растровое или векторное изображение или в объект Graphics.
 
 ```csharp
 public class OfficeMathRenderer : NodeRendererBase
@@ -38,10 +38,10 @@ public class OfficeMathRenderer : NodeRendererBase
 | [GetOpaqueBoundsInPixels](../../aspose.words.rendering/noderendererbase/getopaqueboundsinpixels)(float, float, float) | Вычисляет непрозрачные границы фигуры в пикселях для указанного коэффициента масштабирования и разрешения. |
 | [GetSizeInPixels](../../aspose.words.rendering/noderendererbase/getsizeinpixels)(float, float) | Вычисляет размер фигуры в пикселях для указанного коэффициента масштабирования и разрешения. |
 | [GetSizeInPixels](../../aspose.words.rendering/noderendererbase/getsizeinpixels)(float, float, float) | Вычисляет размер фигуры в пикселях для указанного коэффициента масштабирования и разрешения. |
-| [RenderToScale](../../aspose.words.rendering/noderendererbase/rendertoscale)(Graphics, float, float, float) | Визуализирует фигуру в объектGraphics в указанном масштабе. |
-| [RenderToSize](../../aspose.words.rendering/noderendererbase/rendertosize)(Graphics, float, float, float, float) | Визуализирует фигуру в объектGraphics указанного размера. |
-| [Save](../../aspose.words.rendering/noderendererbase/save)(Stream, ImageSaveOptions) | Визуализирует форму в изображение и сохраняет в поток. |
-| [Save](../../aspose.words.rendering/noderendererbase/save)(string, ImageSaveOptions) | Визуализирует форму в изображение и сохраняет в файл. |
+| [RenderToScale](../../aspose.words.rendering/noderendererbase/rendertoscale)(Graphics, float, float, float) | Преобразует форму вGraphics объект в указанном масштабе. |
+| [RenderToSize](../../aspose.words.rendering/noderendererbase/rendertosize)(Graphics, float, float, float, float) | Преобразует форму вGraphics объекта указанного размера. |
+| [Save](../../aspose.words.rendering/noderendererbase/save)(Stream, ImageSaveOptions) | Преобразует форму в изображение и сохраняет в поток. |
+| [Save](../../aspose.words.rendering/noderendererbase/save)(string, ImageSaveOptions) | Преобразует фигуру в изображение и сохраняет в файл. |
 
 ### Примеры
 
@@ -75,7 +75,7 @@ bounds = renderer.GetBoundsInPixels(1.0f, 96.0f, 150.0f);
 Assert.AreEqual(159, bounds.Width);
 Assert.AreEqual(28, bounds.Height);
 
-// Границы непрозрачности здесь тоже могут быть разными.
+// Непрозрачные границы здесь тоже могут быть разными.
 bounds = renderer.GetOpaqueBoundsInPixels(1.0f, 96.0f);
 
 Assert.AreEqual(159, bounds.Width);

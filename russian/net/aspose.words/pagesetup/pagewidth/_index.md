@@ -22,30 +22,20 @@ public double PageWidth { get; set; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-Shape shape = builder.InsertImage(ImageDir + "Logo.jpg");
+// Вставляем изображение в шапку, чтобы оно было видно на каждой странице.
+Image image = Image.FromFile(ImageDir + "Transparent background logo.png");
+builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
+Shape shape = builder.InsertImage(image);
 shape.WrapType = WrapType.None;
+shape.BehindText = true;
 
-// Настройте свойство "RelativeHorizontalPosition" фигуры для обработки значения свойства "Left"
- // как горизонтальное расстояние фигуры в пунктах от левой стороны страницы.
+// Поместите изображение в центр страницы.
 shape.RelativeHorizontalPosition = RelativeHorizontalPosition.Page;
-
-// Установить горизонтальное расстояние фигуры от левой стороны страницы до 100.
-shape.Left = 100;
-
-// Аналогичным образом используйте свойство «RelativeVerticalPosition», чтобы расположить фигуру на 80 пунктов ниже верхнего края страницы.
 shape.RelativeVerticalPosition = RelativeVerticalPosition.Page;
-shape.Top = 80;
+shape.Left = (builder.PageSetup.PageWidth - shape.Width) / 2;
+shape.Top = (builder.PageSetup.PageHeight - shape.Height) / 2;
 
-// Установите высоту фигуры, которая автоматически масштабирует ширину для сохранения размеров.
-shape.Height = 125;
-
-Assert.AreEqual(125.0d, shape.Width);
-
-// Свойства "Нижний" и "Правый" содержат нижний и правый края изображения.
-Assert.AreEqual(shape.Top + shape.Height, shape.Bottom);
-Assert.AreEqual(shape.Left + shape.Width, shape.Right);
-
-doc.Save(ArtifactsDir + "Image.CreateFloatingPositionSize.docx");
+doc.Save(ArtifactsDir + "DocumentBuilder.InsertWatermark.docx");
 ```
 
 Показывает, как вставить изображение и использовать его в качестве водяного знака (.NetStandard 2.0).
@@ -54,30 +44,24 @@ doc.Save(ArtifactsDir + "Image.CreateFloatingPositionSize.docx");
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-Shape shape = builder.InsertImage(ImageDir + "Logo.jpg");
-shape.WrapType = WrapType.None;
+// Вставляем изображение в шапку, чтобы оно было видно на каждой странице.
+builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
 
-// Настройте свойство "RelativeHorizontalPosition" фигуры для обработки значения свойства "Left"
- // как горизонтальное расстояние фигуры в пунктах от левой стороны страницы.
-shape.RelativeHorizontalPosition = RelativeHorizontalPosition.Page;
+using (SKBitmap image = SKBitmap.Decode(ImageDir + "Transparent background logo.png"))
+{
+    builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
+    Shape shape = builder.InsertImage(image);
+    shape.WrapType = WrapType.None;
+    shape.BehindText = true;
 
-// Установить горизонтальное расстояние фигуры от левой стороны страницы до 100.
-shape.Left = 100;
+    // Поместите изображение в центр страницы.
+    shape.RelativeHorizontalPosition = RelativeHorizontalPosition.Page;
+    shape.RelativeVerticalPosition = RelativeVerticalPosition.Page;
+    shape.Left = (builder.PageSetup.PageWidth - shape.Width) / 2;
+    shape.Top = (builder.PageSetup.PageHeight - shape.Height) / 2;
+}
 
-// Аналогичным образом используйте свойство «RelativeVerticalPosition», чтобы расположить фигуру на 80 пунктов ниже верхнего края страницы.
-shape.RelativeVerticalPosition = RelativeVerticalPosition.Page;
-shape.Top = 80;
-
-// Установите высоту фигуры, которая автоматически масштабирует ширину для сохранения размеров.
-shape.Height = 125;
-
-Assert.AreEqual(125.0d, shape.Width);
-
-// Свойства "Нижний" и "Правый" содержат нижний и правый края изображения.
-Assert.AreEqual(shape.Top + shape.Height, shape.Bottom);
-Assert.AreEqual(shape.Left + shape.Width, shape.Right);
-
-doc.Save(ArtifactsDir + "Image.CreateFloatingPositionSize.docx");
+doc.Save(ArtifactsDir + "DocumentBuilder.InsertWatermarkNetStandard2.docx");
 ```
 
 Показывает, как вставить плавающее изображение и указать его положение и размер.

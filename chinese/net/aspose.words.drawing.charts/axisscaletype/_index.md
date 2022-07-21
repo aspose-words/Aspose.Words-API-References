@@ -23,7 +23,7 @@ public enum AxisScaleType
 
 ### 例子
 
-显示如何对图表轴应用对数缩放。
+显示如何将对数缩放应用于图表轴。
 
 ```csharp
 Document doc = new Document();

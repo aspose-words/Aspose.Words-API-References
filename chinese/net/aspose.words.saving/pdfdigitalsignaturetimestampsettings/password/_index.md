@@ -20,7 +20,7 @@ public string Password { get; set; }
 
 ### 例子
 
-显示如何对保存的 PDF 文档进行数字签名并为其添加时间戳。
+展示如何以数字方式签署已保存的 PDF 文档并为其添加时间戳。
 
 ```csharp
 Document doc = new Document();

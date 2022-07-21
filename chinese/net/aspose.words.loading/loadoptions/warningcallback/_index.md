@@ -1,14 +1,14 @@
 ---
 title: WarningCallback
 second_title: Aspose.Words for .NET API 参考
-description: 在加载操作期间调用当检测到可能导致数据或格式保真度丢失的问题时
+description: 在加载操作期间调用当检测到可能导致数据或格式保真度丢失的问题时调用
 type: docs
 weight: 170
 url: /zh/net/aspose.words.loading/loadoptions/warningcallback/
 ---
 ## LoadOptions.WarningCallback property
 
-在加载操作期间调用，当检测到可能导致数据或格式保真度丢失的问题时。
+在加载操作期间调用，当检测到可能导致数据或格式保真度丢失的问题时调用。
 
 ```csharp
 public IWarningCallback WarningCallback { get; set; }
@@ -16,7 +16,7 @@ public IWarningCallback WarningCallback { get; set; }
 
 ### 例子
 
-显示如何打印和存储文档加载期间出现的警告。
+显示如何打印和存储文档加载过程中出现的警告。
 
 ```csharp
 {

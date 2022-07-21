@@ -16,7 +16,7 @@ public ColorMode ColorMode { get; set; }
 
 ### Примечания
 
-Значение по умолчанию:Normal.
+Значение по умолчаниюNormal .
 
 ### Примеры
 

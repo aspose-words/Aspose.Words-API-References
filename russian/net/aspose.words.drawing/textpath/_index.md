@@ -3,7 +3,7 @@ title: TextPath
 second_title: Справочник по API Aspose.Words для .NET
 description: Определяет текст и форматирование пути к тексту объекта WordArt.
 type: docs
-weight: 1180
+weight: 1200
 url: /ru/net/aspose.words.drawing/textpath/
 ---
 ## TextPath class
@@ -21,11 +21,11 @@ public class TextPath
 | [Bold](../../aspose.words.drawing/textpath/bold) { get; set; } | Истинно, если шрифт отформатирован как полужирный. |
 | [FitPath](../../aspose.words.drawing/textpath/fitpath) { get; set; } | Определяет, соответствует ли текст контуру фигуры. |
 | [FitShape](../../aspose.words.drawing/textpath/fitshape) { get; set; } | Определяет, соответствует ли текст ограничивающей рамке фигуры. |
-| [FontFamily](../../aspose.words.drawing/textpath/fontfamily) { get; set; } | Определяет семейство шрифтов текстового пути. |
+| [FontFamily](../../aspose.words.drawing/textpath/fontfamily) { get; set; } | Определяет семейство шрифтов textpath. |
 | [Italic](../../aspose.words.drawing/textpath/italic) { get; set; } | Истинно, если шрифт отформатирован как курсив. |
 | [Kerning](../../aspose.words.drawing/textpath/kerning) { get; set; } | Определяет, включен ли кернинг. |
 | [On](../../aspose.words.drawing/textpath/on) { get; set; } | Определяет, будет ли отображаться текст. |
-| [ReverseRows](../../aspose.words.drawing/textpath/reverserows) { get; set; } | Определяет, будет ли обратный порядок расположения строк. |
+| [ReverseRows](../../aspose.words.drawing/textpath/reverserows) { get; set; } | Определяет, является ли порядок расположения строк обратным. |
 | [RotateLetters](../../aspose.words.drawing/textpath/rotateletters) { get; set; } | Определяет, повернуты ли буквы текста. |
 | [SameLetterHeights](../../aspose.words.drawing/textpath/sameletterheights) { get; set; } | Определяет, будут ли все буквы одинаковой высоты независимо от начального регистра. |
 | [Shadow](../../aspose.words.drawing/textpath/shadow) { get; set; } | Определяет, применяется ли тень к тексту на текстовом пути. |
@@ -37,11 +37,11 @@ public class TextPath
 | [TextPathAlignment](../../aspose.words.drawing/textpath/textpathalignment) { get; set; } | Определяет выравнивание текста. |
 | [Trim](../../aspose.words.drawing/textpath/trim) { get; set; } | Определяет, удаляется ли лишнее пространство над и под текстом. |
 | [Underline](../../aspose.words.drawing/textpath/underline) { get; set; } | Истинно, если шрифт подчеркнут. |
-| [XScale](../../aspose.words.drawing/textpath/xscale) { get; set; } | Определяет, будет ли использоваться прямой текстовый путь вместо контура фигуры. |
+| [XScale](../../aspose.words.drawing/textpath/xscale) { get; set; } | Определяет, будет ли использоваться прямой текстовый путь вместо контура формы. |
 
 ### Примечания
 
-Используйте[`TextPath`](../shape/textpath)свойство для доступа к свойствам WordArt фигуры. Вы не создаете экземпляры класса[`TextPath`](../textpath)напрямую.
+Использовать[`TextPath`](../shape/textpath) для доступа к свойствам WordArt фигуры. Вы не создаете экземпляры[`TextPath`](../textpath) класс напрямую.
 
 ### Примеры
 

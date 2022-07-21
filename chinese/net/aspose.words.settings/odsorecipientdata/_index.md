@@ -3,7 +3,7 @@ title: OdsoRecipientData
 second_title: Aspose.Words for .NET API 参考
 description: 表示有关要从邮件合并中排除的外部数据源中的单个记录的信息
 type: docs
-weight: 5580
+weight: 5630
 url: /zh/net/aspose.words.settings/odsorecipientdata/
 ---
 ## OdsoRecipientData class
@@ -24,10 +24,10 @@ public class OdsoRecipientData
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Active](../../aspose.words.settings/odsorecipientdata/active) { get; set; } | 指定在执行邮件合并时是否将来自数据源的记录导入到文档中。 默认值为` true` 。 |
-| [Column](../../aspose.words.settings/odsorecipientdata/column) { get; set; } | 指定数据源中包含当前记录唯一数据的列。 默认值为 0。 |
-| [Hash](../../aspose.words.settings/odsorecipientdata/hash) { get; set; } | 表示这条记录的哈希码。 有时 Microsoft Word 使用整条记录的[`Hash`](./hash)而不是UniqueTag值。 默认值为 0。 |
-| [UniqueTag](../../aspose.words.settings/odsorecipientdata/uniquetag) { get; set; } | 指定包含唯一数据的列中给定记录的内容。 默认值为` null` 。 |
+| [Active](../../aspose.words.settings/odsorecipientdata/active) { get; set; } | 指定在进行邮件合并时是否将来自数据源的记录导入到文档中。 默认值为`真的`. |
+| [Column](../../aspose.words.settings/odsorecipientdata/column) { get; set; } | 指定数据源中包含当前记录的唯一数据的列。 默认值为 0。 |
+| [Hash](../../aspose.words.settings/odsorecipientdata/hash) { get; set; } | 表示此记录的哈希码。 有时 Microsoft Word 使用[`Hash`](./hash)整条记录而不是[`UniqueTag`](./uniquetag)value. 默认值为 0. |
+| [UniqueTag](../../aspose.words.settings/odsorecipientdata/uniquetag) { get; set; } | 指定包含唯一数据的列中给定记录的内容。 默认值为`无效的`. |
 
 ## 方法
 
@@ -37,7 +37,7 @@ public class OdsoRecipientData
 
 ### 评论
 
-如果将一条记录合并到一个合并文档中，则不需要关于该记录的信息. 但是，如果给定记录不应合并到合并文档中，则该记录的唯一键 的值应存储在P中:Aspose.Words.Settings.OdsoRecipientData.UniqueTag此对象的属性以指示此排除。
+如果将记录合并到合并文档中，则不需要有关该记录的信息。 但是，如果给定记录不应合并到合并文档中，则该记录的唯一键 的值应存储在[`UniqueTag`](./uniquetag)此对象的属性以指示此排除。
 
 ### 例子
 
@@ -63,10 +63,10 @@ using (IEnumerator<OdsoRecipientData> enumerator = dataCollection.GetEnumerator(
     }
 }
 
- // 我们可以克隆这个集合中的元素。
+// 我们可以克隆这个集合中的元素。
 Assert.AreNotEqual(dataCollection[0], dataCollection[0].Clone());
 
- // 我们也可以单独删除元素，或者一次清除整个集合。
+// 我们也可以单独删除元素，或者一次清除整个集合。
 dataCollection.RemoveAt(0);
 
 Assert.AreEqual(69, dataCollection.Count);

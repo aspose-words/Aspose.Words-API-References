@@ -1,14 +1,14 @@
 ---
 title: DataChecksum
 second_title: Справочник по API Aspose.Words для .NET
-description: Указывает контрольную сумму циклической проверки избыточности CRC содержимогоDataaspose.words.markup/customxmlpart/data.
+description: Определяет контрольную сумму проверки циклическим избыточным кодом CRCDataaspose.words.markup/customxmlpart/data содержание.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.markup/customxmlpart/datachecksum/
 ---
 ## CustomXmlPart.DataChecksum property
 
-Указывает контрольную сумму циклической проверки избыточности (CRC) содержимого[`Data`](../data).
+Определяет контрольную сумму проверки циклическим избыточным кодом (CRC)[`Data`](../data) содержание.
 
 ```csharp
 public long DataChecksum { get; }

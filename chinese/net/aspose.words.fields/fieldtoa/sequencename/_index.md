@@ -1,14 +1,14 @@
 ---
 title: SequenceName
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置其编号包含在页码中的序列的名称
+description: 获取或设置一个序列的名称其编号包含在页码中
 type: docs
 weight: 80
 url: /zh/net/aspose.words.fields/fieldtoa/sequencename/
 ---
 ## FieldToa.SequenceName property
 
-获取或设置其编号包含在页码中的序列的名称。
+获取或设置一个序列的名称，其编号包含在页码中。
 
 ```csharp
 public string SequenceName { get; set; }

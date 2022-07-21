@@ -1,14 +1,14 @@
 ---
 title: NodeType
 second_title: Справочник по API Aspose.Words для .NET
-description: ВозвращаетFieldEnd.
+description: ВозвращаетFieldEnd .
 type: docs
 weight: 20
 url: /ru/net/aspose.words.fields/fieldend/nodetype/
 ---
 ## FieldEnd.NodeType property
 
-ВозвращаетFieldEnd.
+ВозвращаетFieldEnd .
 
 ```csharp
 public override NodeType NodeType { get; }

@@ -1,14 +1,14 @@
 ---
 title: Value
 second_title: Aspose.Words for .NET API 参考
-description: 获取首选宽度值度量单位在Typeaspose.words.tables/preferredwidth/type属性中指定
+description: 获取首选宽度值计量单位在Typeaspose.words.tables/preferredwidth/type属性.
 type: docs
 weight: 50
 url: /zh/net/aspose.words.tables/preferredwidth/value/
 ---
 ## PreferredWidth.Value property
 
-获取首选宽度值。度量单位在[`Type`](../type)属性中指定。
+获取首选宽度值。计量单位在[`Type`](../type)属性.
 
 ```csharp
 public double Value { get; }

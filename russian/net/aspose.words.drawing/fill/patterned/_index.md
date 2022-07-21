@@ -20,7 +20,7 @@ public void Patterned(PatternType patternType)
 
 ### Примеры
 
-Показывает, как установить шаблон для фигуры.
+Показывает, как задать шаблон для фигуры.
 
 ```csharp
 Document doc = new Document(MyDir + "Shape stroke pattern border.docx");
@@ -65,7 +65,7 @@ public void Patterned(PatternType patternType, Color foreColor, Color backColor)
 
 ### Примеры
 
-Показывает, как установить шаблон для формы.
+Показывает, как задать шаблон для фигуры.
 
 ```csharp
 Document doc = new Document(MyDir + "Shape stroke pattern border.docx");

@@ -3,7 +3,7 @@ title: FieldAutoTextList
 second_title: Aspose.Words for .NET API 参考
 description: 实现 AUTOTEXTLIST 字段
 type: docs
-weight: 1450
+weight: 1470
 url: /zh/net/aspose.words.fields/fieldautotextlist/
 ---
 ## FieldAutoTextList class
@@ -25,13 +25,13 @@ public class FieldAutoTextList : Field
 | 姓名 | 描述 |
 | --- | --- |
 | [DisplayResult](../../aspose.words.fields/field/displayresult) { get; } | 获取表示显示字段结果的文本。 |
-| [End](../../aspose.words.fields/field/end) { get; } | 获取表示字段结束的节点。 |
+| [End](../../aspose.words.fields/field/end) { get; } | 获取代表字段end的节点。 |
 | [EntryName](../../aspose.words.fields/fieldautotextlist/entryname) { get; set; } | 获取或设置自动图文集条目的名称。 |
-| [Format](../../aspose.words.fields/field/format) { get; } | 获取[`FieldFormat`](../fieldformat)对象，该对象提供对字段格式的类型化访问。 |
+| [Format](../../aspose.words.fields/field/format) { get; } | 得到一个[`FieldFormat`](../fieldformat)提供对字段格式的类型化访问的对象。 |
 | [IsDirty](../../aspose.words.fields/field/isdirty) { get; set; } | 获取或设置字段的当前结果是否由于对文档的其他修改而不再正确（陈旧）。 |
 | [IsLocked](../../aspose.words.fields/field/islocked) { get; set; } | 获取或设置字段是否被锁定（不应重新计算其结果）。 |
 | [ListStyle](../../aspose.words.fields/fieldautotextlist/liststyle) { get; set; } | 获取或设置要包含条目的列表所基于的样式的名称。 |
-| [LocaleId](../../aspose.words.fields/field/localeid) { get; set; } | 获取或设置字段的 LCID。 |
+| [LocaleId](../../aspose.words.fields/field/localeid) { get; set; } | 获取或设置字段的LCID。 |
 | [Result](../../aspose.words.fields/field/result) { get; set; } | 获取或设置字段分隔符和字段结尾之间的文本。 |
 | [ScreenTip](../../aspose.words.fields/fieldautotextlist/screentip) { get; set; } | 获取或设置要显示的屏幕提示文本。 |
 | [Separator](../../aspose.words.fields/field/separator) { get; } | 获取表示字段分隔符的节点。可以为空。 |
@@ -42,20 +42,20 @@ public class FieldAutoTextList : Field
 
 | 姓名 | 描述 |
 | --- | --- |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode)() | 返回字段开始和字段分隔符之间的文本（如果没有分隔符，则返回字段结束）。 包含子字段的字段代码和字段结果。 |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode)() | 返回字段开始和字段分隔符之间的文本（或字段结束，如果没有分隔符）。 包括子字段的字段代码和字段结果。 |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode)(bool) | 返回字段开始和字段分隔符之间的文本（如果没有分隔符，则返回字段结束）。 |
-| [Remove](../../aspose.words.fields/field/remove)() | 从文档中删除字段。在字段之后返回一个节点。如果字段的结尾是其父节点的最后一个子 ，则返回其父段落。如果该字段已被删除，则返回 **null** 。 |
+| [Remove](../../aspose.words.fields/field/remove)() | 从文档中删除字段。在字段之后返回一个节点。如果字段的结尾是其父节点的最后一个 child ，则返回其父段落。如果该字段已被删除，则返回 **无效的**. |
 | [Unlink](../../aspose.words.fields/field/unlink)() | 执行字段取消链接。 |
 | [Update](../../aspose.words.fields/field/update)() | 执行字段更新。如果该字段已被更新，则抛出。 |
 | [Update](../../aspose.words.fields/field/update)(bool) | 执行字段更新。如果该字段已被更新，则抛出。 |
 
 ### 评论
 
-基于活动模板中的自动图文集条目创建快捷菜单。
+根据活动模板中的自动图文集条目创建快捷菜单。
 
 ### 例子
 
-显示如何使用自动文本列表字段从自动图文集条目列表中进行选择。
+显示如何使用 AUTOTEXTLIST 字段从自动图文集条目列表中进行选择。
 
 ```csharp
 {

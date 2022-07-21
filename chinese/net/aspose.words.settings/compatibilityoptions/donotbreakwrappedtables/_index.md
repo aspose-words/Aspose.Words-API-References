@@ -1,14 +1,14 @@
 ---
 title: DoNotBreakWrappedTables
 second_title: Aspose.Words for .NET API 参考
-description: 不允许浮动表跨越页面
+description: 不允许浮动表跨页中断
 type: docs
 weight: 140
 url: /zh/net/aspose.words.settings/compatibilityoptions/donotbreakwrappedtables/
 ---
 ## CompatibilityOptions.DoNotBreakWrappedTables property
 
-不允许浮动表跨越页面。
+不允许浮动表跨页中断。
 
 ```csharp
 public bool DoNotBreakWrappedTables { get; set; }

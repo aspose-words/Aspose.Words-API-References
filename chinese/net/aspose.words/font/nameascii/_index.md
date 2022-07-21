@@ -16,7 +16,7 @@ public string NameAscii { get; set; }
 
 ### 例子
 
-显示 Microsoft Word 如何在一跑。
+展示 Microsoft Word 如何在一次运行中组合两种不同的字体。
 
 ```csharp
 Document doc = new Document();

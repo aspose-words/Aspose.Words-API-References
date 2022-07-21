@@ -1,14 +1,14 @@
 ---
 title: MatchNode
 second_title: Aspose.Words for .NET API 参考
-description: 获取包含匹配开始的节点
+description: 获取包含匹配开头的节点
 type: docs
 weight: 40
 url: /zh/net/aspose.words.replacing/replacingargs/matchnode/
 ---
 ## ReplacingArgs.MatchNode property
 
-获取包含匹配开始的节点。
+获取包含匹配开头的节点。
 
 ```csharp
 public Node MatchNode { get; }
@@ -16,7 +16,7 @@ public Node MatchNode { get; }
 
 ### 例子
 
-显示如何插入整个文档的内容以替换查找和替换操作中的匹配项。
+演示如何在查找和替换操作中插入整个文档的内容以替换匹配项。
 
 ```csharp
 {

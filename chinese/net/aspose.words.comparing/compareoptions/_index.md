@@ -1,14 +1,14 @@
 ---
 title: CompareOptions
 second_title: Aspose.Words for .NET API 参考
-description: 允许选择文档比较操作的高级选项
+description: 允许为文档比较操作选择高级选项
 type: docs
 weight: 260
 url: /zh/net/aspose.words.comparing/compareoptions/
 ---
 ## CompareOptions class
 
-允许选择文档比较操作的高级选项。
+允许为文档比较操作选择高级选项。
 
 ```csharp
 public class CompareOptions
@@ -24,21 +24,21 @@ public class CompareOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Granularity](../../aspose.words.comparing/compareoptions/granularity) { get; set; } | 指定是按字符还是按单词跟踪更改。 默认值为WordLevel。 |
+| [Granularity](../../aspose.words.comparing/compareoptions/granularity) { get; set; } | 指定是按字符还是按单词跟踪更改。 默认值为WordLevel. |
 | [IgnoreCaseChanges](../../aspose.words.comparing/compareoptions/ignorecasechanges) { get; set; } | True 表示文档比较不区分大小写。 默认比较区分大小写。 |
 | [IgnoreComments](../../aspose.words.comparing/compareoptions/ignorecomments) { get; set; } | 指定是否比较注释中的差异。 默认情况下不会忽略注释。 |
-| [IgnoreDmlUniqueId](../../aspose.words.comparing/compareoptions/ignoredmluniqueid) { get; set; } | 指定是否忽略 DrawingML 唯一 ID 中的差异。 默认值为 **false** 。 |
-| [IgnoreFields](../../aspose.words.comparing/compareoptions/ignorefields) { get; set; } | 指定是否比较字段差异。 默认情况下不会忽略字段。 |
+| [IgnoreDmlUniqueId](../../aspose.words.comparing/compareoptions/ignoredmluniqueid) { get; set; } | 指定是否忽略 DrawingML 唯一 ID 中的差异。 默认值为 **错误的**. |
+| [IgnoreFields](../../aspose.words.comparing/compareoptions/ignorefields) { get; set; } | 指定是否比较字段的差异。 默认情况下不会忽略字段。 |
 | [IgnoreFootnotes](../../aspose.words.comparing/compareoptions/ignorefootnotes) { get; set; } | 指定是否比较脚注和尾注的差异。 默认不忽略脚注。 |
 | [IgnoreFormatting](../../aspose.words.comparing/compareoptions/ignoreformatting) { get; set; } | True 表示忽略格式化。 默认情况下不忽略文档格式。 |
-| [IgnoreHeadersAndFooters](../../aspose.words.comparing/compareoptions/ignoreheadersandfooters) { get; set; } | True 表示页眉和页脚内容被忽略。 默认情况下不忽略页眉和页脚。 |
-| [IgnoreTables](../../aspose.words.comparing/compareoptions/ignoretables) { get; set; } | 指定是否比较表中包含的数据的差异。 默认情况下不忽略表。 |
-| [IgnoreTextboxes](../../aspose.words.comparing/compareoptions/ignoretextboxes) { get; set; } | 指定是否比较文本框中包含的数据的差异。 默认文本框不会被忽略。 |
+| [IgnoreHeadersAndFooters](../../aspose.words.comparing/compareoptions/ignoreheadersandfooters) { get; set; } | True 表示忽略页眉和页脚内容。 默认情况下不忽略页眉和页脚。 |
+| [IgnoreTables](../../aspose.words.comparing/compareoptions/ignoretables) { get; set; } | 指定是否比较表中包含的数据的差异。 默认情况下不会忽略表。 |
+| [IgnoreTextboxes](../../aspose.words.comparing/compareoptions/ignoretextboxes) { get; set; } | 指定是否比较文本框中包含的数据的差异。 默认情况下不会忽略文本框。 |
 | [Target](../../aspose.words.comparing/compareoptions/target) { get; set; } | 指定在比较期间应将哪个文档用作目标。 |
 
 ### 例子
 
-显示在进行比较时如何过滤特定类型的文档元素。
+显示如何在进行比较时过滤特定类型的文档元素。
 
 ```csharp
 // 创建原始文档并用各种元素填充它。

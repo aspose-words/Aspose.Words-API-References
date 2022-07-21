@@ -29,19 +29,17 @@ builder.Write("Hello world!");
 
 DocSaveOptions options = new DocSaveOptions(SaveFormat.Doc);
 
- // 设置密码以保护 Microsoft Word 或 Aspose.Words.
- 加载文档
+// 设置密码以保护 Microsoft Word 或 Aspose.Words 加载文档。
 // 请注意，这不会以任何方式加密文档的内容。
 options.Password = "MyPassword";
 
- // 如果文档包含路由单，我们可以通过将此标志设置为 true.
- 在保存时保留它
+// 如果文档包含路由单，我们可以通过将此标志设置为 true 来在保存时保留它。
 options.SaveRoutingSlip = true;
 
 doc.Save(ArtifactsDir + "DocSaveOptions.SaveAsDoc.doc", options);
 
 // 为了能够加载文档，
- // 我们需要将我们在 DocSaveOptions 对象中指定的密码应用到 LoadOptions 对象中。
+// 我们需要将我们在 DocSaveOptions 对象中指定的密码应用到 LoadOptions 对象中。
 Assert.Throws<IncorrectPasswordException>(() => doc = new Document(ArtifactsDir + "DocSaveOptions.SaveAsDoc.doc"));
 
 LoadOptions loadOptions = new LoadOptions("MyPassword");

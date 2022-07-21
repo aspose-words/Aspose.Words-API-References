@@ -3,7 +3,7 @@ title: IDocumentReaderPlugin
 second_title: Aspose.Words for .NET API 参考
 description: 为可以将文件读入文档的外部阅读器插件定义接口
 type: docs
-weight: 2930
+weight: 2980
 url: /zh/net/aspose.words/idocumentreaderplugin/
 ---
 ## IDocumentReaderPlugin interface
@@ -18,7 +18,7 @@ public interface IDocumentReaderPlugin
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Read](../../aspose.words/idocumentreaderplugin/read)(Stream, LoadOptions, Document) | 将指定流中的数据读入[`Document`](../document)实例。 |
+| [Read](../../aspose.words/idocumentreaderplugin/read)(Stream, LoadOptions, Document) | 将指定流中的数据读入[`Document`](../document)实例. |
 
 ### 也可以看看
 

@@ -24,10 +24,10 @@ public class CompareOptions
 
 | Имя | Описание |
 | --- | --- |
-| [Granularity](../../aspose.words.comparing/compareoptions/granularity) { get; set; } | Указывает, отслеживаются ли изменения по символам или по словам. Значение по умолчанию:WordLevel. |
-| [IgnoreCaseChanges](../../aspose.words.comparing/compareoptions/ignorecasechanges) { get; set; } | True указывает, что сравнение документов нечувствительно к регистру. По умолчанию сравнение чувствительно к регистру. |
+| [Granularity](../../aspose.words.comparing/compareoptions/granularity) { get; set; } | Указывает, отслеживаются ли изменения по символам или по словам. Значение по умолчанию:WordLevel . |
+| [IgnoreCaseChanges](../../aspose.words.comparing/compareoptions/ignorecasechanges) { get; set; } | True указывает, что сравнение документов не зависит от регистра. По умолчанию сравнение чувствительно к регистру. |
 | [IgnoreComments](../../aspose.words.comparing/compareoptions/ignorecomments) { get; set; } | Указывает, следует ли сравнивать различия в комментариях. По умолчанию комментарии не игнорируются. |
-| [IgnoreDmlUniqueId](../../aspose.words.comparing/compareoptions/ignoredmluniqueid) { get; set; } | Указывает, следует ли игнорировать разницу в уникальном идентификаторе DrawingML. Значение по умолчанию: **false** . |
+| [IgnoreDmlUniqueId](../../aspose.words.comparing/compareoptions/ignoredmluniqueid) { get; set; } | Указывает, следует ли игнорировать разницу в уникальном идентификаторе DrawingML. Значение по умолчанию: **ЛОЖЬ** . |
 | [IgnoreFields](../../aspose.words.comparing/compareoptions/ignorefields) { get; set; } | Указывает, следует ли сравнивать различия в полях. По умолчанию поля не игнорируются. |
 | [IgnoreFootnotes](../../aspose.words.comparing/compareoptions/ignorefootnotes) { get; set; } | Указывает, следует ли сравнивать различия в сносках и концевых сносках. По умолчанию сноски не игнорируются. |
 | [IgnoreFormatting](../../aspose.words.comparing/compareoptions/ignoreformatting) { get; set; } | True указывает, что форматирование игнорируется. По умолчанию форматирование документа не игнорируется. |

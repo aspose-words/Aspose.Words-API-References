@@ -16,7 +16,7 @@ public bool Equals(Border rhs)
 
 ### Примеры
 
-Показывает, как коллекции границ могут использовать общие элементы.
+Показывает, как коллекции границ могут совместно использовать элементы.
 
 ```csharp
 Document doc = new Document();
@@ -25,8 +25,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Paragraph 1.");
 builder.Write("Paragraph 2.");
 
- // Поскольку мы использовали ту же конфигурацию границы при создании
- // эти абзацы, их наборы границ имеют одни и те же элементы.
+// Так как мы использовали ту же конфигурацию границы при создании
+// эти абзацы, их наборы границ имеют одни и те же элементы.
 BorderCollection firstParagraphBorders = doc.FirstSection.Body.FirstParagraph.ParagraphFormat.Borders;
 BorderCollection secondParagraphBorders = builder.CurrentParagraph.ParagraphFormat.Borders;
 
@@ -40,14 +40,14 @@ for (int i = 0; i < firstParagraphBorders.Count; i++)
 foreach (Border border in secondParagraphBorders)
     border.LineStyle = LineStyle.DotDash;
 
-// После изменения стиля линий границ только во втором абзаце, 
- // коллекции границ больше не используют одни и те же элементы.
+// После изменения стиля линий границ только во втором абзаце,
+// коллекции границ больше не содержат одни и те же элементы.
 for (int i = 0; i < firstParagraphBorders.Count; i++)
 {
     Assert.IsFalse(firstParagraphBorders[i].Equals(secondParagraphBorders[i]));
     Assert.AreNotEqual(firstParagraphBorders[i].GetHashCode(), secondParagraphBorders[i].GetHashCode());
 
-     // Изменение внешнего вида пустой границы делает ее видимой.
+    // Изменение внешнего вида пустой границы делает ее видимой.
     Assert.True(secondParagraphBorders[i].IsVisible);
 }
 
@@ -72,7 +72,7 @@ public override bool Equals(object obj)
 
 ### Примеры
 
-Показывает, как коллекции границ могут использовать общие элементы.
+Показывает, как коллекции границ могут совместно использовать элементы.
 
 ```csharp
 Document doc = new Document();
@@ -81,8 +81,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Paragraph 1.");
 builder.Write("Paragraph 2.");
 
- // Поскольку мы использовали ту же конфигурацию границы при создании
- // эти абзацы, их наборы границ имеют одни и те же элементы.
+// Так как мы использовали ту же конфигурацию границы при создании
+// эти абзацы, их наборы границ имеют одни и те же элементы.
 BorderCollection firstParagraphBorders = doc.FirstSection.Body.FirstParagraph.ParagraphFormat.Borders;
 BorderCollection secondParagraphBorders = builder.CurrentParagraph.ParagraphFormat.Borders;
 
@@ -96,14 +96,14 @@ for (int i = 0; i < firstParagraphBorders.Count; i++)
 foreach (Border border in secondParagraphBorders)
     border.LineStyle = LineStyle.DotDash;
 
-// После изменения стиля линий границ только во втором абзаце, 
- // коллекции границ больше не используют одни и те же элементы.
+// После изменения стиля линий границ только во втором абзаце,
+// коллекции границ больше не содержат одни и те же элементы.
 for (int i = 0; i < firstParagraphBorders.Count; i++)
 {
     Assert.IsFalse(firstParagraphBorders[i].Equals(secondParagraphBorders[i]));
     Assert.AreNotEqual(firstParagraphBorders[i].GetHashCode(), secondParagraphBorders[i].GetHashCode());
 
-     // Изменение внешнего вида пустой границы делает ее видимой.
+    // Изменение внешнего вида пустой границы делает ее видимой.
     Assert.True(secondParagraphBorders[i].IsVisible);
 }
 

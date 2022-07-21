@@ -1,14 +1,14 @@
 ---
 title: IgnoreFields
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置一个布尔值指示忽略字段内的文本 默认值为 false 
+description: 获取或设置一个布尔值指示忽略字段内的文本 默认值为错误的.
 type: docs
 weight: 80
 url: /zh/net/aspose.words.replacing/findreplaceoptions/ignorefields/
 ---
 ## FindReplaceOptions.IgnoreFields property
 
-获取或设置一个布尔值，指示忽略字段内的文本。 默认值为` false` 。
+获取或设置一个布尔值，指示忽略字段内的文本。 默认值为`错误的`.
 
 ```csharp
 public bool IgnoreFields { get; set; }
@@ -16,9 +16,9 @@ public bool IgnoreFields { get; set; }
 
 ### 评论
 
-此选项影响整个字段（ :::之间的所有节点R5:F:Aspose.Words.NodeType.FieldStart:::和FieldEnd）。
+此选项影响整个字段（ 之间的所有节点FieldStart和FieldEnd）。
 
-要仅忽略字段代码，请使用相应的选项[`IgnoreFieldCodes`](../ignorefieldcodes)。
+要仅忽略域代码，请使用相应的选项[`IgnoreFieldCodes`](../ignorefieldcodes).
 
 ### 例子
 

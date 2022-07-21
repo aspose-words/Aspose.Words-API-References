@@ -1,14 +1,14 @@
 ---
 title: SaveFormat
 second_title: Aspose.Words for .NET API 参考
-description: 如果使用此保存选项对象则指定保存文档的格式 只能是Svg
+description: 指定使用此保存选项对象时文档将保存的格式 只能是Svg.
 type: docs
 weight: 70
 url: /zh/net/aspose.words.saving/svgsaveoptions/saveformat/
 ---
 ## SvgSaveOptions.SaveFormat property
 
-如果使用此保存选项对象，则指定保存文档的格式。 只能是Svg。
+指定使用此保存选项对象时文档将保存的格式。 只能是Svg.
 
 ```csharp
 public override SaveFormat SaveFormat { get; set; }
@@ -16,7 +16,7 @@ public override SaveFormat SaveFormat { get; set; }
 
 ### 例子
 
-显示如何操作和打印在将文档转换为 .svg 时创建的链接资源的 URI。
+演示如何操作和打印在将文档转换为 .svg 时创建的链接资源的 URI。
 
 ```csharp
 public void SvgResourceFolder()
@@ -40,8 +40,7 @@ public void SvgResourceFolder()
 }
 
 /// <summary>
-/// 在转换为 .svg.
- 时计算并打印包含的资源的 URI
+/// 在转换为 .svg 时计算并打印包含的资源的 URI。
 /// </summary>
 private class ResourceUriPrinter : IResourceSavingCallback
 {

@@ -3,7 +3,7 @@ title: NodeType
 second_title: Aspose.Words for .NET API 参考
 description: 指定 Word 文档节点的类型
 type: docs
-weight: 3940
+weight: 3990
 url: /zh/net/aspose.words/nodetype/
 ---
 ## NodeType enumeration
@@ -19,16 +19,16 @@ public enum NodeType
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
 | Any | `0` | 表示所有节点类型。允许选择所有孩子。 |
-| Document | `1` | A[`Document`](../document)对象，作为文档树的根， 提供对整个 Word 文档的访问。 |
-| Section | `2` | A[`Section`](../section)对象，对应于 Word 文档中的一个部分。 |
-| Body | `3` | A[`Body`](../body)包含部分正文（正文故事）的对象。 |
-| HeaderFooter | `4` | A[`HeaderFooter`](../headerfooter)对象，其中包含节内特定页眉或页脚的文本。 |
-| Table | `5` | A[`Table`](../../aspose.words.tables/table)对象，表示 Word 文档中的表格。 |
-| Row | `6` | 表格的一行。 |
+| Document | `1` | 一个[`Document`](../document)对象，作为文档树的根， 提供对整个 Word 文档的访问。 |
+| Section | `2` | 一个[`Section`](../section)对应于 Word 文档中的一个部分的对象。 |
+| Body | `3` | 一个[`Body`](../body)包含部分正文（正文故事）的对象。 |
+| HeaderFooter | `4` | 一个[`HeaderFooter`](../headerfooter)包含节内特定页眉或页脚文本的对象。 |
+| Table | `5` | 一个[`Table`](../../aspose.words.tables/table)表示 Word 文档中的表格的对象。 |
+| Row | `6` | 一排桌子。 |
 | Cell | `7` | 表格行的单元格。 |
 | Paragraph | `8` | 一段文字。 |
-| BookmarkStart | `9` | 书签标记的开始。 |
-| BookmarkEnd | `10` | 书签标记的结尾。 |
+| BookmarkStart | `9` | 书签标记的开头。 |
+| BookmarkEnd | `10` | 书签标记的结束。 |
 | EditableRangeStart | `11` | 可编辑范围的开始。 |
 | EditableRangeEnd | `12` | 可编辑范围的结束。 |
 | MoveFromRangeStart | `13` | MoveFrom 范围的开始。 |
@@ -41,19 +41,19 @@ public enum NodeType
 | Footnote | `20` | Word 文档中的脚注或尾注。 |
 | Run | `21` | 一段文字。 |
 | FieldStart | `22` | 一个特殊字符，用于指定 Word 字段的开头。 |
-| FieldSeparator | `23` | 将字段代码与字段结果分开的特殊字符。 |
+| FieldSeparator | `23` | 将域代码与域结果分开的特殊字符。 |
 | FieldEnd | `24` | 一个特殊字符，用于指定 Word 字段的结尾。 |
-| FormField | `25` | 表单域。 |
+| FormField | `25` | 一个表单域。 |
 | SpecialChar | `26` | 不是更具体的特殊字符类型之一的特殊字符。 |
-| SmartTag | `27` | 在段落中围绕一个或多个内联结构（运行、图像、字段等）的智能标记 |
+| SmartTag | `27` | 围绕段落中一个或多个内联结构（运行、图像、字段等）的智能标记 |
 | StructuredDocumentTag | `28` | 允许定义客户特定的信息及其呈现方式。 |
-| StructuredDocumentTagRangeStart | `29` | **范围的开始** 结构化文档标签，它接受多节内容。 |
-| StructuredDocumentTagRangeEnd | `30` | **范围的结尾** 结构化文档标签，它接受多节内容。 |
+| StructuredDocumentTagRangeStart | `29` | 一个开始 **远程**接受多节内容的结构化文档标签。 |
+| StructuredDocumentTagRangeEnd | `30` | 一个结束 **远程**接受多节内容的结构化文档标签。 |
 | GlossaryDocument | `31` | 主文档中的词汇表文档。 |
 | BuildingBlock | `32` | 词汇表文档中的构建块（例如词汇表文档条目）。 |
 | CommentRangeStart | `33` | 表示注释范围开始的标记节点。 |
 | CommentRangeEnd | `34` | 表示注释范围结束的标记节点。 |
-| OfficeMath | `35` | Office Math 对象。可以是方程、函数、矩阵或其他数学对象之一。 可以是数学对象的集合，也可以包含一些非数学对象，例如文本。 |
+| OfficeMath | `35` | 一个 Office Math 对象。可以是方程、函数、矩阵或其他数学对象之一。 可以是数学对象的集合，也可以包含一些非数学对象，例如文本。 |
 | SubDocument | `36` | 一个子文档节点，它是指向另一个文档的链接。 |
 | System | `37` | 保留供 Aspose.Words 内部使用。 |
 | Null | `38` | 保留供 Aspose.Words 内部使用。 |

@@ -3,7 +3,7 @@ title: TextureIndex
 second_title: Aspose.Words for .NET API 参考
 description: 指定着色纹理
 type: docs
-weight: 6100
+weight: 6150
 url: /zh/net/aspose.words/textureindex/
 ---
 ## TextureIndex enumeration
@@ -71,33 +71,30 @@ public enum TextureIndex
 | TextureNone | `0` |  |
 | TextureSolid | `1` |  |
 | TextureVertical | `21` |  |
-| TextureNil | `65535` | 指定当前阴影区域不得使用图案 （即图案应为背景颜色的完整填充）。 |
+| TextureNil | `65535` | 指定当前阴影区域 上不应使用任何图案（即图案应为背景颜色的完整填充）。 |
 
 ### 例子
 
-展示如何用边框和阴影装饰文本。
+展示如何用边框和底纹装饰文本。
 
 ```csharp
-Document doc = new Document(MyDir + "Tables.docx");
-Table table = doc.FirstSection.Body.Tables[0];
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
 
- // 将表格与页面中心对齐
-table.Alignment = TableAlignment.Center;
+BorderCollection borders = builder.ParagraphFormat.Borders;
+borders.DistanceFromText = 20;
+borders[BorderType.Left].LineStyle = LineStyle.Double;
+borders[BorderType.Right].LineStyle = LineStyle.Double;
+borders[BorderType.Top].LineStyle = LineStyle.Double;
+borders[BorderType.Bottom].LineStyle = LineStyle.Double;
 
- // 清除表格中任何现有的边框和阴影。
-table.ClearBorders();
-table.ClearShading();
+Shading shading = builder.ParagraphFormat.Shading;
+shading.Texture = TextureIndex.TextureDiagonalCross;
+shading.BackgroundPatternColor = Color.LightCoral;
+shading.ForegroundPatternColor = Color.LightSalmon;
 
- // 为表格的轮廓添加绿色边框。
-table.SetBorder(BorderType.Left, LineStyle.Single, 1.5, Color.Green, true);
-table.SetBorder(BorderType.Right, LineStyle.Single, 1.5, Color.Green, true);
-table.SetBorder(BorderType.Top, LineStyle.Single, 1.5, Color.Green, true);
-table.SetBorder(BorderType.Bottom, LineStyle.Single, 1.5, Color.Green, true);
-
- // 用浅绿色纯色填充单元格。
-table.SetShading(TextureIndex.TextureSolid, Color.LightGreen, Color.Empty);
-
-doc.Save(ArtifactsDir + "Table.SetOutlineBorders.docx");
+builder.Write("This paragraph is formatted with a double border and shading.");
+doc.Save(ArtifactsDir + "DocumentBuilder.ApplyBordersAndShading.docx");
 ```
 
 显示如何将轮廓边框应用于表格。
@@ -106,20 +103,20 @@ doc.Save(ArtifactsDir + "Table.SetOutlineBorders.docx");
 Document doc = new Document(MyDir + "Tables.docx");
 Table table = doc.FirstSection.Body.Tables[0];
 
- // 将表格与页面中心对齐
+// 将表格与页面中心对齐。
 table.Alignment = TableAlignment.Center;
 
- // 清除表格中任何现有的边框和阴影。
+// 清除表格中任何现有的边框和阴影。
 table.ClearBorders();
 table.ClearShading();
 
- // 为表格的轮廓添加绿色边框。
+// 为表格的轮廓添加绿色边框。
 table.SetBorder(BorderType.Left, LineStyle.Single, 1.5, Color.Green, true);
 table.SetBorder(BorderType.Right, LineStyle.Single, 1.5, Color.Green, true);
 table.SetBorder(BorderType.Top, LineStyle.Single, 1.5, Color.Green, true);
 table.SetBorder(BorderType.Bottom, LineStyle.Single, 1.5, Color.Green, true);
 
- // 用浅绿色纯色填充单元格。
+// 用浅绿色纯色填充单元格。
 table.SetShading(TextureIndex.TextureSolid, Color.LightGreen, Color.Empty);
 
 doc.Save(ArtifactsDir + "Table.SetOutlineBorders.docx");

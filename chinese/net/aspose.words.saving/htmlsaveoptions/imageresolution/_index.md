@@ -1,14 +1,14 @@
 ---
 title: ImageResolution
 second_title: Aspose.Words for .NET API 参考
-description: 指定导出为 HTMLMHTML 或 EPUB 时图像的输出分辨率 默认为 96 dpi 
+description: 指定导出为 HTMLMHTML 或 EPUB 时图像的输出分辨率 默认为96 dpi.
 type: docs
 weight: 350
 url: /zh/net/aspose.words.saving/htmlsaveoptions/imageresolution/
 ---
 ## HtmlSaveOptions.ImageResolution property
 
-指定导出为 HTML、MHTML 或 EPUB 时图像的输出分辨率。 默认为` 96 dpi` 。
+指定导出为 HTML、MHTML 或 EPUB 时图像的输出分辨率。 默认为`96 dpi`.
 
 ```csharp
 public int ImageResolution { get; set; }
@@ -16,11 +16,11 @@ public int ImageResolution { get; set; }
 
 ### 评论
 
-此属性在ScaleImageToShapeSize is` true` 和效果图元文件导出为光栅图像。某些图像属性（例如裁剪 或旋转）需要保存转换后的图像，在这种情况下，转换后的图像以给定的 分辨率创建。
+此属性会在以下情况下影响光栅图像[`ScaleImageToShapeSize`](../scaleimagetoshapesize) 是`真的`和效果图元文件导出为光栅图像。某些图像属性（例如cropping 或旋转）需要保存转换后的图像，在这种情况下，转换后的图像以 given 分辨率创建。
 
 ### 例子
 
-显示如何设置文件夹和文件夹Aspose.Words 在将文档保存为 HTML 时将创建的外部保存资源的别名。
+展示如何为 Aspose.Words 在将文档保存为 HTML 时创建的外部保存资源设置文件夹和文件夹别名。
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");

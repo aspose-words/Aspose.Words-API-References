@@ -1,14 +1,14 @@
 ---
 title: Hidden
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置一个标志指示此轴是否隐藏
+description: 获取或设置一个标志指示该轴是否隐藏
 type: docs
 weight: 80
 url: /zh/net/aspose.words.drawing.charts/chartaxis/hidden/
 ---
 ## ChartAxis.Hidden property
 
-获取或设置一个标志，指示此轴是否隐藏。
+获取或设置一个标志，指示该轴是否隐藏。
 
 ```csharp
 public bool Hidden { get; set; }
@@ -16,7 +16,7 @@ public bool Hidden { get; set; }
 
 ### 评论
 
-默认值为 **false** .
+默认值为 **错误的**.
 
 ### 例子
 
@@ -37,7 +37,7 @@ chart.Series.Add("AW Series 1",
     new[] { "Item 1", "Item 2", "Item 3", "Item 4", "Item 5" },
     new[] { 1.2, 0.3, 2.1, 2.9, 4.2 });
 
-// 隐藏图表轴以简化图表的外观。
+ // 隐藏图表轴以简化图表的外观。
 chart.AxisX.Hidden = true;
 chart.AxisY.Hidden = true;
 

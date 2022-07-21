@@ -3,7 +3,7 @@ title: FieldBibliography
 second_title: Справочник по API Aspose.Words для .NET
 description: Реализует поле БИБЛИОГРАФИЯ.
 type: docs
-weight: 1470
+weight: 1490
 url: /ru/net/aspose.words.fields/fieldbibliography/
 ---
 ## FieldBibliography class
@@ -26,12 +26,12 @@ public class FieldBibliography : Field
 | --- | --- |
 | [DisplayResult](../../aspose.words.fields/field/displayresult) { get; } | Получает текст, представляющий результат отображаемого поля. |
 | [End](../../aspose.words.fields/field/end) { get; } | Получает узел, представляющий конец поля. |
-| [Format](../../aspose.words.fields/field/format) { get; } | Получает объект[`FieldFormat`](../fieldformat), предоставляющий типизированный доступ к форматированию поля. |
-| [FormatLanguageId](../../aspose.words.fields/fieldbibliography/formatlanguageid) { get; set; } | Получает или задает идентификатор языка, используемый для форматирования библиографических источников в документе. |
-| [IsDirty](../../aspose.words.fields/field/isdirty) { get; set; } | Получает или устанавливает, является ли текущий результат поля более неправильным (устаревшим) из-за других изменений, внесенных в документ. |
-| [IsLocked](../../aspose.words.fields/field/islocked) { get; set; } | Получает или устанавливает, заблокировано ли поле (не должно пересчитывать его результат). |
+| [Format](../../aspose.words.fields/field/format) { get; } | Получает[`FieldFormat`](../fieldformat) объект, предоставляющий типизированный доступ к форматированию поля. |
+| [FormatLanguageId](../../aspose.words.fields/fieldbibliography/formatlanguageid) { get; set; } | Получает или задает идентификатор языка, который используется для форматирования библиографических источников в документе. |
+| [IsDirty](../../aspose.words.fields/field/isdirty) { get; set; } | Получает или устанавливает, является ли текущий результат поля более неверным (устаревшим) из-за других изменений, внесенных в документ. |
+| [IsLocked](../../aspose.words.fields/field/islocked) { get; set; } | Получает или задает, заблокировано ли поле (не следует пересчитывать его результат). |
 | [LocaleId](../../aspose.words.fields/field/localeid) { get; set; } | Получает или задает LCID поля. |
-| [Result](../../aspose.words.fields/field/result) { get; set; } | Получает или задает текст, который находится между разделителем полей и концом поля. |
+| [Result](../../aspose.words.fields/field/result) { get; set; } | Получает или задает текст, который находится между разделителем поля и концом поля. |
 | [Separator](../../aspose.words.fields/field/separator) { get; } | Получает узел, представляющий разделитель полей. Может быть нулевым. |
 | [Start](../../aspose.words.fields/field/start) { get; } | Получает узел, представляющий начало поля. |
 | virtual [Type](../../aspose.words.fields/field/type) { get; } | Получает тип поля Microsoft Word. |
@@ -40,20 +40,20 @@ public class FieldBibliography : Field
 
 | Имя | Описание |
 | --- | --- |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode)() | Возвращает текст между началом поля и разделителем полей (или концом поля, если разделителя нет). Включены как код поля, так и результат дочерних полей. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode)() | Возвращает текст между началом поля и разделителем поля (или концом поля, если разделителя нет). Включены как код поля, так и результат поля дочерних полей. |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode)(bool) | Возвращает текст между началом поля и разделителем полей (или концом поля, если разделителя нет). |
-| [Remove](../../aspose.words.fields/field/remove)() | Удаляет поле из документа. Возвращает узел сразу после поля. Если конец поля является последним дочерним элементом его родительского узла, возвращает его родительский абзац. Если поле уже удалено, возвращает **null** . |
+| [Remove](../../aspose.words.fields/field/remove)() | Удаляет поле из документа. Возвращает узел сразу после поля. Если конец поля является последним child его родительского узла, возвращает его родительский абзац. Если поле уже удалено, возвращает **нулевой** . |
 | [Unlink](../../aspose.words.fields/field/unlink)() | Выполняет развязку поля. |
 | [Update](../../aspose.words.fields/field/update)() | Выполняет обновление поля. Выдает, если поле уже обновляется. |
 | [Update](../../aspose.words.fields/field/update)(bool) | Выполняет обновление поля. Выдает, если поле уже обновляется. |
 
 ### Примечания
 
-Вставляет содержимое библиографической части документа в библиографическом стиле.
+Вставляет содержимое части библиографии документа в библиографическом стиле.
 
 ### Примеры
 
-Показывает, как работать с полями ЦИТАТА и БИБЛИОГРАФИЯ.
+Показывает, как работать с полями ЦИТАЦИЯ и БИБЛИОГРАФИЯ.
 
 ```csharp
 // Открываем документ, содержащий библиографические источники, которые мы можем найти в

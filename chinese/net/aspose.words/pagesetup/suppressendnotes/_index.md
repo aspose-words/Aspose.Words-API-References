@@ -1,14 +1,14 @@
 ---
 title: SuppressEndnotes
 second_title: Aspose.Words for .NET API 参考
-description: True 如果尾注打印在下一个不抑制尾注的部分的末尾 被抑制的尾注打印在该部分的尾注之前
+description: 真的如果尾注打印在下一个不禁止尾注的部分的末尾 禁止的尾注在该部分的尾注之前打印
 type: docs
 weight: 400
 url: /zh/net/aspose.words/pagesetup/suppressendnotes/
 ---
 ## PageSetup.SuppressEndnotes property
 
-**True** 如果尾注打印在下一个不抑制尾注的部分的末尾。 被抑制的尾注打印在该部分的尾注之前。
+**真的**如果尾注打印在下一个不禁止尾注的部分的末尾。 禁止的尾注在该部分的尾注之前打印。
 
 ```csharp
 public bool SuppressEndnotes { get; set; }

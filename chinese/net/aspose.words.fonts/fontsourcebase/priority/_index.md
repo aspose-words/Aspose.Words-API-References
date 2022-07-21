@@ -16,13 +16,13 @@ public int Priority { get; }
 
 ### 评论
 
-不同字体源中存在同族名称和样式的字体时使用此值. 在这种情况下，Aspose.Words 从源中选择具有较高优先级值的字体。
+当不同字体源中存在具有相同系列名称和样式的字体时使用此值。 在这种情况下，Aspose.Words 从具有较高优先级值的源中选择字体。
 
 默认值为 0。
 
 ### 例子
 
-显示如何使用本地文件系统中的字体文件作为字体源。
+展示如何使用本地文件系统中的字体文件作为字体源。
 
 ```csharp
 FileFontSource fileFontSource = new FileFontSource(MyDir + "Alte DIN 1451 Mittelschrift.ttf", 0);

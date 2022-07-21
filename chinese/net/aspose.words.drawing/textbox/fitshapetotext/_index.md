@@ -16,11 +16,11 @@ public bool FitShapeToText { get; set; }
 
 ### 评论
 
-默认值为 **false** 。
+默认值为 **错误的**.
 
 ### 例子
 
-显示如何让文本框调整自身大小以紧密适应其内容。
+演示如何让文本框调整自身大小以紧密适应其内容。
 
 ```csharp
 Document doc = new Document();

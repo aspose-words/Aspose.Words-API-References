@@ -17,7 +17,7 @@ public Shape InsertShape(ShapeType shapeType, double width, double height)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | shapeType | ShapeType | Тип фигуры для вставки в документ. |
-| width | Double | Ширина фигуры в пунктах. |
+| width | Double | Ширина фигуры в точках. |
 | height | Double | Высота фигуры в пунктах. |
 
 ### Возвращаемое значение
@@ -70,13 +70,13 @@ public Shape InsertShape(ShapeType shapeType, RelativeHorizontalPosition horzPos
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| shapeType | ShapeType | Тип формы для вставки в документ |
+| shapeType | ShapeType | Тип фигуры для вставки в документ |
 | horzPos | RelativeHorizontalPosition | Указывает, где отсчитывается горизонтальное расстояние до фигуры. |
 | left | Double | Расстояние в пунктах от начала координат до левой стороны фигуры. |
-| vertPos | RelativeVerticalPosition | Указывает, откуда отсчитывается вертикальное расстояние до фигуры. |
+| vertPos | RelativeVerticalPosition | Указывает, где отсчитывается вертикальное расстояние до фигуры. |
 | top | Double | Расстояние в пунктах от начала координат до верхней стороны фигуры. |
-| width | Double | Ширина фигуры в пунктах. |
-| height | Double | Ширина фигуры в пунктах. |
+| width | Double | Ширина фигуры в точках. |
+| height | Double | Ширина фигуры в точках. |
 | wrapType | WrapType | Указывает, как обтекать фигуру текстом. |
 
 ### Возвращаемое значение

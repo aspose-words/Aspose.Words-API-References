@@ -1,14 +1,14 @@
 ---
 title: CertificateHolder
 second_title: Справочник по API Aspose.Words для .NET
-description: Возвращает объект держателя сертификата который содержит сертификат использованный для подписи документа.
+description: Возвращает объект держателя сертификата содержащий сертификат который использовался для подписи документа.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.digitalsignatures/digitalsignature/certificateholder/
 ---
 ## DigitalSignature.CertificateHolder property
 
-Возвращает объект держателя сертификата, который содержит сертификат, использованный для подписи документа.
+Возвращает объект держателя сертификата, содержащий сертификат, который использовался для подписи документа.
 
 ```csharp
 public CertificateHolder CertificateHolder { get; }

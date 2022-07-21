@@ -1,14 +1,14 @@
 ---
 title: PageBreakBefore
 second_title: Aspose.Words for .NET API 参考
-description: 如果在段落之前强制分页符则为真
+description: 如果在段落之前强制分页则为真
 type: docs
 weight: 250
 url: /zh/net/aspose.words/paragraphformat/pagebreakbefore/
 ---
 ## ParagraphFormat.PageBreakBefore property
 
-如果在段落之前强制分页符，则为真。
+如果在段落之前强制分页，则为真。
 
 ```csharp
 public bool PageBreakBefore { get; set; }
@@ -16,7 +16,7 @@ public bool PageBreakBefore { get; set; }
 
 ### 例子
 
-显示如何创建开头带有分页符的段落。
+演示如何创建开头带有分页符的段落。
 
 ```csharp
 Document doc = new Document();

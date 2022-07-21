@@ -1,14 +1,14 @@
 ---
 title: RemoveShapeAttr
 second_title: Aspose.Words for .NET API 参考
-description: 保留供系统使用 IShapeAttrSource
+description: 保留供系统使用 IShapeAttrSource.
 type: docs
-weight: 610
+weight: 620
 url: /zh/net/aspose.words.drawing/shapebase/removeshapeattr/
 ---
 ## ShapeBase.RemoveShapeAttr method
 
-保留供系统使用。 IShapeAttrSource。
+保留供系统使用。 IShapeAttrSource.
 
 ```csharp
 [EditorBrowsable(EditorBrowsableState.Never)]

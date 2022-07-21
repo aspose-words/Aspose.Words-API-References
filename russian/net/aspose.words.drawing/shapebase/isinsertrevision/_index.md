@@ -1,14 +1,14 @@
 ---
 title: IsInsertRevision
 second_title: Справочник по API Aspose.Words для .NET
-description: Возвращает true если этот объект был вставлен в Microsoft Word при включенном отслеживании изменений.
+description: Возвращает значение true если этот объект был вставлен в Microsoft Word при включенном отслеживании изменений.
 type: docs
 weight: 290
 url: /ru/net/aspose.words.drawing/shapebase/isinsertrevision/
 ---
 ## ShapeBase.IsInsertRevision property
 
-Возвращает true, если этот объект был вставлен в Microsoft Word при включенном отслеживании изменений.
+Возвращает значение true, если этот объект был вставлен в Microsoft Word при включенном отслеживании изменений.
 
 ```csharp
 public bool IsInsertRevision { get; }

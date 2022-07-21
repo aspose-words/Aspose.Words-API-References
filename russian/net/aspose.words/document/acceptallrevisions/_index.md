@@ -16,7 +16,7 @@ public void AcceptAllRevisions()
 
 ### Примечания
 
-Этот метод является ярлыком для[`AcceptAll`](../../revisioncollection/acceptall).
+Этот метод является кратчайшим путем[`AcceptAll`](../../revisioncollection/acceptall).
 
 ### Примеры
 

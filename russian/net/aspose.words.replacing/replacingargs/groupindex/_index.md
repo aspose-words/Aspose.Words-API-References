@@ -1,14 +1,14 @@
 ---
 title: GroupIndex
 second_title: Справочник по API Aspose.Words для .NET
-description: Идентифицирует по индексу захваченную группу вMatchaspose.words.replacing/replacingargs/match который необходимо заменить на строкуReplacementaspose.words.replacing/replacingargs/replacement.
+description: Идентифицирует по индексу захваченную группу вMatchaspose.words.replacing/replacingargs/match  который необходимо заменить наReplacementaspose.words.replacing/replacingargs/replacement строка.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.replacing/replacingargs/groupindex/
 ---
 ## ReplacingArgs.GroupIndex property
 
-Идентифицирует по индексу захваченную группу в[`Match`](../match) который необходимо заменить на строку[`Replacement`](../replacement).
+Идентифицирует по индексу захваченную группу в[`Match`](../match) , который необходимо заменить на[`Replacement`](../replacement) строка.
 
 ```csharp
 public int GroupIndex { get; set; }
@@ -16,9 +16,9 @@ public int GroupIndex { get; set; }
 
 ### Примечания
 
-`GroupIndex`действует только тогда, когда[`GroupName`](../groupname)имеет значение null.
+`GroupIndex` действует только тогда, когда[`GroupName`](../groupname) нулевой.
 
-По умолчанию - ноль.
+По умолчанию ноль.
 
 ### Примеры
 

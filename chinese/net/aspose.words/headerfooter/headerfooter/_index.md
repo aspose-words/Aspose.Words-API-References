@@ -16,14 +16,14 @@ public HeaderFooter(DocumentBase doc, HeaderFooterType headerFooterType)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| doc | DocumentBase | 所有者文档。 |
-| headerFooterType | HeaderFooterType | A[`HeaderFooterType`](../headerfootertype)value 指定类型页眉或页脚。 |
+| doc | DocumentBase | 所有者文件。 |
+| headerFooterType | HeaderFooterType | 一个[`HeaderFooterType`](../headerfootertype)value 指定页眉或页脚的类型。 |
 
 ### 评论
 
-当 **HeaderFooter** 是创建后，它属于指定的文档，但不是 文档的一部分，并且 **ParentNode** 为空。
+什么时候 **页眉页脚**被创建，它属于指定的文档，但不是 还不是文档的一部分，并且 **父节点**一片空白。
 
-追加 **HeaderFooter** 到 **Section** 使用 Section.InsertAfter、Section.InsertBefore、 HeadersFooters.Add 或 HeadersFooters.Insert。
+追加 **页眉页脚**到一个 **部分**使用 Section.InsertAfter、Section.InsertBefore、 HeadersFooters.Add 或 HeadersFooters.Insert。
 
 ### 例子
 

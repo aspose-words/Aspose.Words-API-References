@@ -16,7 +16,7 @@ public EditableRangeEnd EditableRangeEnd { get; }
 
 ### 例子
 
-显示如何使用可编辑范围。
+展示如何使用可编辑范围。
 
 ```csharp
 Document doc = new Document();
@@ -31,21 +31,21 @@ EditableRangeStart editableRangeStart = builder.StartEditableRange();
 builder.Writeln("This paragraph is inside an editable range, and can be edited.");
 EditableRangeEnd editableRangeEnd = builder.EndEditableRange();
 
- // 一个格式良好的可编辑范围有一个开始节点和结束节点。
- // 这些节点具有匹配的 ID 并包含可编辑的节点。
+// 一个格式良好的可编辑范围有一个开始节点和结束节点。
+// 这些节点具有匹配的 ID 并包含可编辑节点。
 EditableRange editableRange = editableRangeStart.EditableRange;
 
 Assert.AreEqual(editableRangeStart.Id, editableRange.Id);
 Assert.AreEqual(editableRangeEnd.Id, editableRange.Id);
 
- // 可编辑范围的不同部分相互链接。
+// 可编辑范围的不同部分相互链接。
 Assert.AreEqual(editableRangeStart.Id, editableRange.EditableRangeStart.Id);
 Assert.AreEqual(editableRangeStart.Id, editableRangeEnd.EditableRangeStart.Id);
 Assert.AreEqual(editableRange.Id, editableRangeStart.EditableRange.Id);
 Assert.AreEqual(editableRangeEnd.Id, editableRange.EditableRangeEnd.Id);
 
- // 我们可以像这样访问每个部分的节点类型。可编辑范围本身不是节点，
- // 而是一个由开始、结束和它们所包含的内容组成的实体。
+// 我们可以像这样访问每个部分的节点类型。可编辑范围本身不是节点，
+// 而是一个由开始、结束和它们所包含的内容组成的实体。
 Assert.AreEqual(NodeType.EditableRangeStart, editableRangeStart.NodeType);
 Assert.AreEqual(NodeType.EditableRangeEnd, editableRangeEnd.NodeType);
 
@@ -53,7 +53,7 @@ builder.Writeln("This paragraph is outside the editable range, and cannot be edi
 
 doc.Save(ArtifactsDir + "EditableRange.CreateAndRemove.docx");
 
- // 删除一个可编辑的范围。范围内的所有节点都将保持不变。
+// 删除一个可编辑的范围。范围内的所有节点都将保持不变。
 editableRange.Remove();
 ```
 

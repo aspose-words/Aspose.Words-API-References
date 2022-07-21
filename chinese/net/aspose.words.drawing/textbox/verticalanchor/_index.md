@@ -16,7 +16,7 @@ public TextBoxAnchor VerticalAnchor { get; set; }
 
 ### 评论
 
-默认值为TextBoxAnchor。最佳。
+默认值为Top.
 
 ### 例子
 

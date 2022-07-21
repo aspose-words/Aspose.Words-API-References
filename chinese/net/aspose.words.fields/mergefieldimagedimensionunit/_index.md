@@ -1,14 +1,14 @@
 ---
 title: MergeFieldImageDimensionUnit
 second_title: Aspose.Words for .NET API 参考
-description: 指定在邮件合并过程中使用的图像尺寸单位即宽度或高度
+description: 指定邮件合并过程中使用的图像尺寸单位即宽度或高度
 type: docs
-weight: 2530
+weight: 2580
 url: /zh/net/aspose.words.fields/mergefieldimagedimensionunit/
 ---
 ## MergeFieldImageDimensionUnit enumeration
 
-指定在邮件合并过程中使用的图像尺寸单位（即宽度或高度）。
+指定邮件合并过程中使用的图像尺寸单位（即宽度或高度）。
 
 ```csharp
 public enum MergeFieldImageDimensionUnit

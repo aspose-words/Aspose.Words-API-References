@@ -1,14 +1,14 @@
 ---
 title: Remove
 second_title: Справочник по API Aspose.Words для .NET
-description: Удаляет указанный объектTypeиз набора. ВыдаетArgumentExceptionесли typeравно null.
+description: Удаляет указанныйTypeобъект из набора. БроскиArgumentException если type равно нулю.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.reporting/knowntypeset/remove/
 ---
 ## KnownTypeSet.Remove method
 
-Удаляет указанный объектTypeиз набора. ВыдаетArgumentExceptionесли *type*равно null.
+Удаляет указанныйTypeобъект из набора. БроскиArgumentException если *type* равно нулю.
 
 ```csharp
 public void Remove(Type type)
@@ -16,7 +16,7 @@ public void Remove(Type type)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| type | Type | ATypeобъект для удаления. |
+| type | Type | АType объект для удаления. |
 
 ### Смотрите также
 

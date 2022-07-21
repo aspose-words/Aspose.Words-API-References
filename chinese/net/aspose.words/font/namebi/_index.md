@@ -16,7 +16,7 @@ public string NameBi { get; set; }
 
 ### 例子
 
-显示如何为从右到左和从右到左的文本。
+演示如何为从右到左和从右到左的文本定义单独的字体设置集。
 
 ```csharp
 Document doc = new Document();

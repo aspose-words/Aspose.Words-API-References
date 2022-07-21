@@ -1,14 +1,14 @@
 ---
 title: SubAddress
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置此超链接跳转的文件中的位置例如书签
+description: 获取或设置文件中的位置例如书签此超链接跳转的位置
 type: docs
 weight: 60
 url: /zh/net/aspose.words.fields/fieldhyperlink/subaddress/
 ---
 ## FieldHyperlink.SubAddress property
 
-获取或设置此超链接跳转的文件中的位置，例如书签。
+获取或设置文件中的位置，例如书签，此超链接跳转的位置。
 
 ```csharp
 public string SubAddress { get; set; }
@@ -16,7 +16,7 @@ public string SubAddress { get; set; }
 
 ### 例子
 
-显示如何使用 HYPERLINK 字段链接到本地文件系统中的文档。
+展示如何使用 HYPERLINK 字段链接到本地文件系统中的文档。
 
 ```csharp
 Document doc = new Document();

@@ -1,14 +1,14 @@
 ---
 title: IReplacingCallback
 second_title: Aspose.Words for .NET API 参考
-description: 如果您想在查找和替换操作期间调用您自己的自定义方法请实现此接口
+description: 如果您想在查找和替换操作期间调用自己的自定义方法请实现此接口
 type: docs
-weight: 4320
+weight: 4370
 url: /zh/net/aspose.words.replacing/ireplacingcallback/
 ---
 ## IReplacingCallback interface
 
-如果您想在查找和替换操作期间调用您自己的自定义方法，请实现此接口。
+如果您想在查找和替换操作期间调用自己的自定义方法，请实现此接口。
 
 ```csharp
 public interface IReplacingCallback
@@ -26,135 +26,103 @@ public interface IReplacingCallback
 
 ```csharp
 {
-    Document mainDoc = new Document(MyDir + "Document insertion destination.docx");
+    Document doc = new Document();
+    DocumentBuilder builder = new DocumentBuilder(doc);
+
+    builder.Writeln("Our new location in New York City is opening tomorrow. " +
+                    "Hope to see all our NYC-based customers at the opening!");
 
     // 我们可以使用“FindReplaceOptions”对象来修改查找和替换过程。
     FindReplaceOptions options = new FindReplaceOptions();
-    options.ReplacingCallback = new InsertDocumentAtReplaceHandler();
 
-    mainDoc.Range.Replace(new Regex("\\[MY_DOCUMENT\\]"), "", options);
-    mainDoc.Save(ArtifactsDir + "InsertDocument.InsertDocumentAtReplace.docx");
+    // 设置一个回调来跟踪“替换”方法将进行的任何替换。
+    TextFindAndReplacementLogger logger = new TextFindAndReplacementLogger();
+    options.ReplacingCallback = logger;
 
-private class InsertDocumentAtReplaceHandler : IReplacingCallback
-{
-    ReplaceAction IReplacingCallback.Replacing(ReplacingArgs args)
-    {
-        Document subDoc = new Document(MyDir + "Document.docx");
+    doc.Range.Replace(new Regex("New York City|NYC"), "Washington", options);
 
-        // 在包含匹配文本的段落之后插入一个文档。
-        Paragraph para = (Paragraph)args.MatchNode.ParentNode;
-        InsertDocument(para, subDoc);
+    Assert.AreEqual("Our new location in (Old value:\"New York City\") Washington is opening tomorrow. " +
+                    "Hope to see all our (Old value:\"NYC\") Washington-based customers at the opening!", doc.GetText().Trim());
 
-        // 删除匹配文本的段落。
-        para.Remove();
-
-        return ReplaceAction.Skip;
-    }
+    Assert.AreEqual("\"New York City\" converted to \"Washington\" 20 characters into a Run node.\r\n" +
+                    "\"NYC\" converted to \"Washington\" 42 characters into a Run node.", logger.GetLog().Trim());
 }
 
 /// <summary>
-/// 在段落或表格之后插入另一个文档的所有节点。
+/// 维护由查找和替换操作完成的每个文本替换的日志
+/// 并注意原始匹配文本的值。
 /// </summary>
-private static void InsertDocument(Node insertionDestination, Document docToInsert)
+private class TextFindAndReplacementLogger : IReplacingCallback
 {
-    if (insertionDestination.NodeType == NodeType.Paragraph || insertionDestination.NodeType == NodeType.Table)
+    ReplaceAction IReplacingCallback.Replacing(ReplacingArgs args)
     {
-        CompositeNode dstStory = insertionDestination.ParentNode;
+        mLog.AppendLine($"\"{args.Match.Value}\" converted to \"{args.Replacement}\" " +
+                        $"{args.MatchOffset} characters into a {args.MatchNode.NodeType} node.");
 
-        NodeImporter importer =
-            new NodeImporter(docToInsert, insertionDestination.Document, ImportFormatMode.KeepSourceFormatting);
-
-        foreach (Section srcSection in docToInsert.Sections.OfType<Section>())
-            foreach (Node srcNode in srcSection.Body)
-            {
-                // 如果节点是节中的最后一个空段落，则跳过该节点。
-                if (srcNode.NodeType == NodeType.Paragraph)
-                {
-                    Paragraph para = (Paragraph)srcNode;
-                    if (para.IsEndOfSection && !para.HasChildNodes)
-                        continue;
-                }
-
-                Node newNode = importer.ImportNode(srcNode, true);
-
-                dstStory.InsertAfter(newNode, insertionDestination);
-                insertionDestination = newNode;
-            }
+        args.Replacement = $"(Old value:\"{args.Match.Value}\") {args.Replacement}";
+        return ReplaceAction.Replace;
     }
-    else
+
+    public string GetLog()
     {
-        throw new ArgumentException("The destination node must be either a paragraph or table.");
+        return mLog.ToString();
     }
+
+    private readonly StringBuilder mLog = new StringBuilder();
 }
 ```
 
 显示如何跟踪文本替换操作遍历节点的顺序。
 
 ```csharp
-{
-    Document mainDoc = new Document(MyDir + "Document insertion destination.docx");
+public void Order(bool differentFirstPageHeaderFooter)
+        {
+            Document doc = new Document(MyDir + "Header and footer types.docx");
 
-    // 我们可以使用“FindReplaceOptions”对象来修改查找和替换过程。
-    FindReplaceOptions options = new FindReplaceOptions();
-    options.ReplacingCallback = new InsertDocumentAtReplaceHandler();
+            Section firstPageSection = doc.FirstSection;
 
-    mainDoc.Range.Replace(new Regex("\\[MY_DOCUMENT\\]"), "", options);
-    mainDoc.Save(ArtifactsDir + "InsertDocument.InsertDocumentAtReplace.docx");
+            ReplaceLog logger = new ReplaceLog();
+            FindReplaceOptions options = new FindReplaceOptions { ReplacingCallback = logger };
 
-private class InsertDocumentAtReplaceHandler : IReplacingCallback
-{
-    ReplaceAction IReplacingCallback.Replacing(ReplacingArgs args)
-    {
-        Document subDoc = new Document(MyDir + "Document.docx");
+            // 第一页使用不同的页眉/页脚会影响搜索顺序。
+            firstPageSection.PageSetup.DifferentFirstPageHeaderFooter = differentFirstPageHeaderFooter;
+            doc.Range.Replace(new Regex("(header|footer)"), "", options);
 
-        // 在包含匹配文本的段落之后插入一个文档。
-        Paragraph para = (Paragraph)args.MatchNode.ParentNode;
-        InsertDocument(para, subDoc);
+#if NET48 || NET5_0_OR_GREATER || JAVA
+            if (differentFirstPageHeaderFooter)
+                Assert.AreEqual("First header\nFirst footer\nSecond header\nSecond footer\nThird header\nThird footer\n", 
+                    logger.Text.Replace("\r", ""));
+            else
+                Assert.AreEqual("Third header\nFirst header\nThird footer\nFirst footer\nSecond header\nSecond footer\n", 
+                    logger.Text.Replace("\r", ""));
+#elif __MOBILE__
+            if (differentFirstPageHeaderFooter)
+                Assert.AreEqual("First header\nFirst footer\nSecond header\nSecond footer\nThird header\nThird footer\n", logger.Text);
+            else
+                Assert.AreEqual("Third header\nFirst header\nThird footer\nFirst footer\nSecond header\nSecond footer\n", logger.Text);
+#endif
+        }
 
-        // 删除匹配文本的段落。
-        para.Remove();
-
-        return ReplaceAction.Skip;
-    }
-}
-
-/// <summary>
-/// 在段落或表格之后插入另一个文档的所有节点。
-/// </summary>
-private static void InsertDocument(Node insertionDestination, Document docToInsert)
-{
-    if (insertionDestination.NodeType == NodeType.Paragraph || insertionDestination.NodeType == NodeType.Table)
-    {
-        CompositeNode dstStory = insertionDestination.ParentNode;
-
-        NodeImporter importer =
-            new NodeImporter(docToInsert, insertionDestination.Document, ImportFormatMode.KeepSourceFormatting);
-
-        foreach (Section srcSection in docToInsert.Sections.OfType<Section>())
-            foreach (Node srcNode in srcSection.Body)
+        /// <summary>
+        /// 在查找和替换操作期间，记录具有操作“找到”的文本的每个节点的内容，
+        /// 在替换发生之前的状态。
+        /// 这将显示文本替换操作遍历节点的顺序。
+        /// </summary>
+        private class ReplaceLog : IReplacingCallback
+        {
+            public ReplaceAction Replacing(ReplacingArgs args)
             {
-                // 如果节点是节中的最后一个空段落，则跳过该节点。
-                if (srcNode.NodeType == NodeType.Paragraph)
-                {
-                    Paragraph para = (Paragraph)srcNode;
-                    if (para.IsEndOfSection && !para.HasChildNodes)
-                        continue;
-                }
-
-                Node newNode = importer.ImportNode(srcNode, true);
-
-                dstStory.InsertAfter(newNode, insertionDestination);
-                insertionDestination = newNode;
+                mTextBuilder.AppendLine(args.MatchNode.GetText());
+                return ReplaceAction.Skip;
             }
-    }
-    else
-    {
-        throw new ArgumentException("The destination node must be either a paragraph or table.");
-    }
-}
+
+            internal string Text => mTextBuilder.ToString();
+
+            private readonly StringBuilder mTextBuilder = new StringBuilder();
+        }
 ```
 
-显示如何插入整个文档的内容以替换查找和替换操作中的匹配项。
+演示如何在查找和替换操作中插入整个文档的内容以替换匹配项。
 
 ```csharp
 {

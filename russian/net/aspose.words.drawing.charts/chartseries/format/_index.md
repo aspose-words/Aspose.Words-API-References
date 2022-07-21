@@ -1,14 +1,14 @@
 ---
 title: Format
 second_title: Справочник по API Aspose.Words для .NET
-description: Предоставляет доступ к заливке и форматированию строк серии.
+description: Предоставляет доступ к заполнению и форматированию строк серии.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.drawing.charts/chartseries/format/
 ---
 ## ChartSeries.Format property
 
-Предоставляет доступ к заливке и форматированию строк серии.
+Предоставляет доступ к заполнению и форматированию строк серии.
 
 ```csharp
 public ChartFormat Format { get; }
@@ -16,7 +16,7 @@ public ChartFormat Format { get; }
 
 ### Примеры
 
-Показывает, как установить цвет серии.
+Посев, как установить цвет серии.
 
 ```csharp
 Document doc = new Document();

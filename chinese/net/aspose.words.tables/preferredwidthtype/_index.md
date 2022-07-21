@@ -3,7 +3,7 @@ title: PreferredWidthType
 second_title: Aspose.Words for .NET API 参考
 description: 指定表格或单元格的首选宽度的度量单位
 type: docs
-weight: 5950
+weight: 6000
 url: /zh/net/aspose.words.tables/preferredwidthtype/
 ---
 ## PreferredWidthType enumeration
@@ -20,11 +20,11 @@ public enum PreferredWidthType
 | --- | --- | --- |
 | Auto | `1` | 未指定首选宽度。表格或单元格的实际宽度要么使用显式宽度指定，要么 将在表格显示时由表格布局算法自动确定，具体取决于表格自动调整设置。 |
 | Percent | `2` | 使用指定百分比测量当前项目宽度。 |
-| Points | `3` | 使用指定的点数（1/72 英寸）测量当前项目的宽度。 |
+| Points | `3` | 使用指定的点数（1/72 英寸）测量当前项目宽度。 |
 
 ### 例子
 
-显示如何验证首选宽度类型和值的表格单元格。
+显示如何验证表格单元格的首选宽度类型和值。
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");

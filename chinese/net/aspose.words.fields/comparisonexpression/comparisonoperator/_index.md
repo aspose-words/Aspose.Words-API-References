@@ -16,7 +16,7 @@ public string ComparisonOperator { get; }
 
 ### 例子
 
-展示如何为 IF 和 COMPARE 字段实现自定义评估。
+显示如何为 IF 和 COMPARE 字段实施自定义评估。
 
 ```csharp
 public void ConditionEvaluationExtensionPoint(string fieldCode, sbyte comparisonResult, string comparisonError,

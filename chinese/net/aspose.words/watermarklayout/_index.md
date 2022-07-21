@@ -3,7 +3,7 @@ title: WatermarkLayout
 second_title: Aspose.Words for .NET API 参考
 description: 定义水印相对于水印中心的布局
 type: docs
-weight: 6320
+weight: 6370
 url: /zh/net/aspose.words/watermarklayout/
 ---
 ## WatermarkLayout enumeration
@@ -18,12 +18,12 @@ public enum WatermarkLayout
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| Horizontal | `0` | 水平水印布局。对应于 0 度的旋转。 |
+| Horizontal | `0` | 水平水印布局。对应0度旋转。 |
 | Diagonal | `315` | 对角线水印布局。对应315度旋转。 |
 
 ### 例子
 
-显示如何创建文本水印。
+演示如何创建文本水印。
 
 ```csharp
 Document doc = new Document();

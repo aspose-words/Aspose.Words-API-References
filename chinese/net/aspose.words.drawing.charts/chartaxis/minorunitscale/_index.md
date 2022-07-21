@@ -1,14 +1,14 @@
 ---
 title: MinorUnitScale
 second_title: Aspose.Words for .NET API 参考
-description: 返回或设置时间类别轴上次刻度线的刻度值
+description: 返回或设置时间类别轴上小刻度线的刻度值
 type: docs
 weight: 160
 url: /zh/net/aspose.words.drawing.charts/chartaxis/minorunitscale/
 ---
 ## ChartAxis.MinorUnitScale property
 
-返回或设置时间类别轴上次刻度线的刻度值。
+返回或设置时间类别轴上小刻度线的刻度值。
 
 ```csharp
 public AxisTimeUnit MinorUnitScale { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: ExportCidUrlsForMhtmlResources
 second_title: Aspose.Words for .NET API 参考
-description: 指定是否使用 CID Content-ID URL 来引用 MHTML 文档中包含的资源图像字体CSS默认值为 false 
+description: 指定是否使用 CID Content-ID URL 来引用 MHTML 文档中包含的资源图像字体CSS默认值为错误的.
 type: docs
 weight: 120
 url: /zh/net/aspose.words.saving/htmlsaveoptions/exportcidurlsformhtmlresources/
 ---
 ## HtmlSaveOptions.ExportCidUrlsForMhtmlResources property
 
-指定是否使用 CID (Content-ID) URL 来引用 MHTML 文档中包含的资源（图像、字体、CSS）。默认值为` false` 。
+指定是否使用 CID (Content-ID) URL 来引用 MHTML 文档中包含的资源（图像、字体、CSS）。默认值为`错误的`.
 
 ```csharp
 public bool ExportCidUrlsForMhtmlResources { get; set; }
@@ -16,17 +16,17 @@ public bool ExportCidUrlsForMhtmlResources { get; set; }
 
 ### 评论
 
-此选项仅影响保存到 MHTML 的文档。
+此选项仅影响保存为 MHTML 的文档。
 
-默认情况下，MHTML 文档中的资源由文件名引用（例如，“image.png”），与 匹配MIME 部分的“Content-Location”标头。
+默认情况下，MHTML 文档中的资源由文件名（例如，“image.png”）引用，which 与 MIME 部分的“Content-Location”标题匹配。
 
-此选项启用另一种方法，其中对资源文件的引用写为 CID (Content-ID) URL（例如，“ cid:image.png") 并与“Content-ID”标头匹配。
+此选项启用另一种方法，其中对资源文件的引用被写入 CID (Content-ID) URL（例如，“cid:image.png”）并与“Content-ID”标头匹配。
 
-从理论上讲，这两种引用方法之间应该没有区别，并且它们中的任何一种都应该在任何浏览器或邮件代理中工作 正常。然而，在实践中，一些代理无法通过文件名获取资源。如果您的 浏览器或邮件代理拒绝加载 MTHML 文档中包含的资源（不显示图像或不加载 CSS 样式），请尝试使用 CID 导出文档网址。
+理论上，这两种引用方法之间应该没有区别，并且它们中的任何一种都应该在任何浏览器或邮件代理中都可以正常工作。然而，在实践中，一些代理无法通过文件名获取资源。如果 your 浏览器或邮件代理拒绝加载 MTHML 文档中包含的资源（不显示图像或不加载 CSS 样式），请尝试使用 CID URL 导出文档。
 
 ### 例子
 
-显示如何为输出 MHTML 文档启用内容 ID。
+展示如何为输出 MHTML 文档启用内容 ID。
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");

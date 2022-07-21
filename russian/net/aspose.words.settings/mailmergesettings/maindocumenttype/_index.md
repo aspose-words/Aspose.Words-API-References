@@ -1,14 +1,14 @@
 ---
 title: MainDocumentType
 second_title: Справочник по API Aspose.Words для .NET
-description: Указывает тип основного документа для слияния. Значение по умолчаниюDefault.
+description: Указывает тип основного документа для слияния. Значение по умолчаниюDefault .
 type: docs
 weight: 140
 url: /ru/net/aspose.words.settings/mailmergesettings/maindocumenttype/
 ---
 ## MailMergeSettings.MainDocumentType property
 
-Указывает тип основного документа для слияния. Значение по умолчанию:Default.
+Указывает тип основного документа для слияния. Значение по умолчанию:Default .
 
 ```csharp
 public MailMergeMainDocumentType MainDocumentType { get; set; }
@@ -16,11 +16,11 @@ public MailMergeMainDocumentType MainDocumentType { get; set; }
 
 ### Примечания
 
-Основным документом является документ, содержащий информацию, одинаковую для каждой версии объединенного документ.
+Основной документ — это документ, содержащий информацию, одинаковую для каждой версии объединенного документа.
 
 ### Примеры
 
-Показывает, как выполнять слияние почты с данными из объекта источника данных Office.
+Показывает, как выполнить слияние почты с данными из объекта источника данных Office.
 
 ```csharp
 Document doc = new Document();
@@ -33,9 +33,9 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 builder.Writeln(": ");
 builder.InsertField("MERGEFIELD Message", "<Message>");
 
- // Создаем источник данных в виде ASCII-файла с символом "|" характер
-// действует как разделитель, разделяющий столбцы. Первая строка содержит имена трех столбцов, 
- // и каждая последующая строка представляет собой строку с соответствующими значениями.
+// Создаем источник данных в виде ASCII-файла с символом "|" персонаж
+// действует как разделитель, разделяющий столбцы. Первая строка содержит имена трех столбцов,
+// и каждая последующая строка представляет собой строку с соответствующими значениями.
 string[] lines = { "FirstName|LastName|Message",
     "John|Doe|Hello! This message was created with Aspose Words mail merge." };
 string dataSrcFilename = ArtifactsDir + "MailMerge.MailMergeSettings.DataSource.txt";
@@ -63,7 +63,7 @@ odso.FirstRowContainsColumnNames = true;
 Assert.AreNotSame(odso, odso.Clone());
 Assert.AreNotSame(settings, settings.Clone());
 
- // Открытие этого документа в Microsoft Word приведет к выполнению слияния перед отображением содержимого. 
+// Открытие этого документа в Microsoft Word приведет к выполнению слияния перед отображением содержимого. 
 doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ```
 

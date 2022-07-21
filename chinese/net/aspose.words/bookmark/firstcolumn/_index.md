@@ -16,7 +16,7 @@ public int FirstColumn { get; }
 
 ### 评论
 
-返回 **-1** 如果此书签不是表格列书签。
+返回 **-1**如果此书签不是表格列书签。
 
 ### 例子
 
@@ -27,14 +27,14 @@ Document doc = new Document(MyDir + "Table column bookmarks.doc");
 
 foreach (Bookmark bookmark in doc.Range.Bookmarks)
 {
-     // 如果书签包含表格的列，则它是表格列书签，并且其 IsColumn 标志设置为 true.
+    // 如果书签包含表格的列，则它是表格列书签，并且其 IsColumn 标志设置为 true。
     Console.WriteLine($"Bookmark: {bookmark.Name}{(bookmark.IsColumn ? " (Column)" : "")}");
     if (bookmark.IsColumn)
     {
         if (bookmark.BookmarkStart.GetAncestor(NodeType.Row) is Row row &&
             bookmark.FirstColumn < row.Cells.Count)
         {
-             // 打印被书签包围的第一列和最后一列的内容。
+            // 打印被书签包围的第一列和最后一列的内容。
             Console.WriteLine(row.Cells[bookmark.FirstColumn].GetText().TrimEnd(ControlChar.CellChar));
             Console.WriteLine(row.Cells[bookmark.LastColumn].GetText().TrimEnd(ControlChar.CellChar));
         }

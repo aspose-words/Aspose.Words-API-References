@@ -1,14 +1,14 @@
 ---
 title: StyleIdentifier
 second_title: Справочник по API Aspose.Words для .NET
-description: Получает или задает независимый от языкового стандарта идентификатор стиля абзаца примененного к данному форматированию.
+description: Получает или задает независимый от языкового стандарта идентификатор стиля абзаца применяемого к данному форматированию.
 type: docs
 weight: 340
 url: /ru/net/aspose.words/paragraphformat/styleidentifier/
 ---
 ## ParagraphFormat.StyleIdentifier property
 
-Получает или задает независимый от языкового стандарта идентификатор стиля абзаца, примененного к данному форматированию.
+Получает или задает независимый от языкового стандарта идентификатор стиля абзаца, применяемого к данному форматированию.
 
 ```csharp
 public StyleIdentifier StyleIdentifier { get; set; }

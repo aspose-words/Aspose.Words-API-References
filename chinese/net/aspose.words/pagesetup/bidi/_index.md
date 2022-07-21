@@ -20,7 +20,7 @@ public bool Bidi { get; set; }
 
 ### 例子
 
-显示如何设置节中文本列的顺序。
+显示如何设置部分中文本列的顺序。
 
 ```csharp
 Document doc = new Document();

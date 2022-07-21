@@ -1,14 +1,14 @@
 ---
 title: MarkdownSaveOptions
 second_title: Aspose.Words for .NET API 参考
-description: 初始化此类的新实例该实例可用于在R5FAspose.Words 中保存文档  SaveFormat.Markdown格式
+description: 初始化此类的新实例该实例可用于将文档 保存在Markdown格式.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.saving/markdownsaveoptions/markdownsaveoptions/
 ---
 ## MarkdownSaveOptions constructor
 
-初始化此类的新实例，该实例可用于在:::R5:F:Aspose.Words 中保存文档 。 SaveFormat.Markdown:::格式。
+初始化此类的新实例，该实例可用于将文档 保存在Markdown格式.
 
 ```csharp
 public MarkdownSaveOptions()

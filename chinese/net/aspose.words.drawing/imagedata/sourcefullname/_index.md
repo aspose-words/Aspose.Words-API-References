@@ -18,11 +18,11 @@ public string SourceFullName { get; set; }
 
 默认值为空字符串。
 
-如果`SourceFullName`不是空字符串，则图像已链接。
+如果`SourceFullName`不是空字符串，图像是链接的。
 
 ### 例子
 
-显示如何将链接图像插入到文档中。
+演示如何将链接图像插入到文档中。
 
 ```csharp
 Document doc = new Document();

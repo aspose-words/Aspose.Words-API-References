@@ -18,7 +18,7 @@ public ParagraphAlignment TickLabelAlignment { get; set; }
 
 Это свойство действует только для многострочных меток.
 
-Значение по умолчанию:Center.
+Значение по умолчаниюCenter.
 
 .
 

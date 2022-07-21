@@ -16,9 +16,9 @@ public string CacheKey { get; }
 
 ### Примечания
 
-Этот ключ используется для идентификации элемента кэша при сохранении/загрузке кэша поиска шрифтов с [`SaveSearchCache`](../../fontsettings/savesearchcache)и [`SetFontsSources`](../../fontsettings/setfontssources)методы.
+Этот ключ используется для идентификации элемента кеша при сохранении/загрузке кеша поиска шрифтов с [`SaveSearchCache`](../../fontsettings/savesearchcache) и [`SetFontsSources`](../../fontsettings/setfontssources)методы.
 
-Если ключ не указан, то в качестве ключа будет использоваться[`FilePath`](../filepath).
+Если ключ не указан, то[`FilePath`](../filepath) вместо этого будет использоваться в качестве ключа.
 
 ### Смотрите также
 

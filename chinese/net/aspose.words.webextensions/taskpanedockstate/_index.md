@@ -3,7 +3,7 @@ title: TaskPaneDockState
 second_title: Aspose.Words for .NET API 参考
 description: 枚举任务窗格对象的可用位置
 type: docs
-weight: 6370
+weight: 6420
 url: /zh/net/aspose.words.webextensions/taskpanedockstate/
 ---
 ## TaskPaneDockState enumeration

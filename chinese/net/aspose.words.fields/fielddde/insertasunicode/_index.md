@@ -1,14 +1,14 @@
 ---
 title: InsertAsUnicode
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置是否将链接对象作为 Unicode 文本插入
+description: 获取或设置是否将链接对象作为Unicode文本插入
 type: docs
 weight: 80
 url: /zh/net/aspose.words.fields/fielddde/insertasunicode/
 ---
 ## FieldDde.InsertAsUnicode property
 
-获取或设置是否将链接对象作为 Unicode 文本插入。
+获取或设置是否将链接对象作为Unicode文本插入。
 
 ```csharp
 public bool InsertAsUnicode { get; set; }
@@ -16,7 +16,7 @@ public bool InsertAsUnicode { get; set; }
 
 ### 例子
 
-演示如何使用各种字段类型链接到本地文件系统中的其他文档，并显示其内容。
+展示如何使用各种字段类型链接到本地文件系统中的其他文档，并显示其内容。
 
 ```csharp
 {

@@ -1,14 +1,14 @@
 ---
 title: ExportHeadersFootersMode
 second_title: Справочник по API Aspose.Words для .NET
-description: Указывает как верхние и нижние колонтитулы выводятся в HTML MHTML или EPUB. Значение по умолчаниюPerSectionдля HTML/MHTML иNoneдля EPUB.
+description: Указывает как верхние и нижние колонтитулы выводятся в HTML MHTML или EPUB. Значение по умолчаниюPerSection для HTML/MHTML иNone для EPUB.
 type: docs
 weight: 170
 url: /ru/net/aspose.words.saving/htmlsaveoptions/exportheadersfootersmode/
 ---
 ## HtmlSaveOptions.ExportHeadersFootersMode property
 
-Указывает, как верхние и нижние колонтитулы выводятся в HTML, MHTML или EPUB. Значение по умолчанию:PerSectionдля HTML/MHTML иNoneдля EPUB.
+Указывает, как верхние и нижние колонтитулы выводятся в HTML, MHTML или EPUB. Значение по умолчанию:PerSection для HTML/MHTML иNone для EPUB.
 
 ```csharp
 public ExportHeadersFootersMode ExportHeadersFootersMode { get; set; }
@@ -16,11 +16,11 @@ public ExportHeadersFootersMode ExportHeadersFootersMode { get; set; }
 
 ### Примечания
 
-Трудно осмысленно вывести верхние и нижние колонтитулы в HTML, потому что HTML не разбит на страницы.
+Трудно осмысленно выводить верхние и нижние колонтитулы в HTML, потому что HTML не разбит на страницы.
 
-Когда это свойство равноPerSection, Aspose.Words экспортирует только основные верхние и нижние колонтитулы в начале и в конце каждого раздела.
+Когда это свойствоPerSection, Aspose.Words экспортирует только основные верхние и нижние колонтитулы в начале и в конце каждого раздела.
 
-Когда этоFirstSectionHeaderLastSectionFooter только первый основной заголовок и экспортируется последний основной нижний колонтитул (в том числе связанный с предыдущим).
+Когда он являетсяFirstSectionHeaderLastSectionFooter экспортируются только первый основной заголовок и последний основной нижний колонтитул (включая ссылку на предыдущий).
 
 Вы можете полностью отключить экспорт верхних и нижних колонтитулов, установив для этого свойства значениеNone.
 

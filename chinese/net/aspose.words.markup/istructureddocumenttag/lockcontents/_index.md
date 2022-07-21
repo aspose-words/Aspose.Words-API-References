@@ -1,14 +1,14 @@
 ---
 title: LockContents
 second_title: Aspose.Words for .NET API 参考
-description: 当设置为 true 时此属性将禁止用户编辑此 SDT 的内容
+description: 当设置为 true 时此属性将禁止用户编辑此内容 SDT.
 type: docs
 weight: 60
 url: /zh/net/aspose.words.markup/istructureddocumenttag/lockcontents/
 ---
 ## IStructuredDocumentTag.LockContents property
 
-当设置为 true 时，此属性将禁止用户编辑此 **SDT** 的内容。
+当设置为 true 时，此属性将禁止用户编辑此内容 **SDT**.
 
 ```csharp
 public bool LockContents { get; set; }

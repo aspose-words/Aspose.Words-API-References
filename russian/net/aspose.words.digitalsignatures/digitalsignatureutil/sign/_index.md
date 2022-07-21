@@ -1,18 +1,18 @@
 ---
 title: Sign
 second_title: Справочник по API Aspose.Words для .NET
-description: Подписывает исходный документ используя данныеCertificateHolderaspose.words.digitalsignatures/certificateholderиSignOptionsaspose.words.digitalsignatures/signoptions с цифровой подписью и записывает подписанный документ в поток назначения.
+description: Подписывает исходный документ используя данныеCertificateHolderaspose.words.digitalsignatures/certificateholder а такжеSignOptionsaspose.words.digitalsignatures/signoptions с цифровой подписью и записывает подписанный документ в поток назначения.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.digitalsignatures/digitalsignatureutil/sign/
 ---
 ## Sign(Stream, Stream, CertificateHolder, SignOptions) {#sign_1}
 
-Подписывает исходный документ, используя данные[`CertificateHolder`](../../certificateholder)и[`SignOptions`](../../signoptions) с цифровой подписью и записывает подписанный документ в поток назначения.
+Подписывает исходный документ, используя данные[`CertificateHolder`](../../certificateholder) а также[`SignOptions`](../../signoptions) с цифровой подписью и записывает подписанный документ в поток назначения.
 
-Документ должен быть либоDoc, либоДок.
+Документ должен быть либоDoc или жеDocx.
 
-**Вывод будет записан в начало потока, а размер потока будет обновлен с длиной содержимого.**
+**Вывод будет записан в начало потока, а размер потока будет обновляться в зависимости от длины содержимого.**
 
 ```csharp
 public static void Sign(Stream srcStream, Stream dstStream, CertificateHolder certHolder, 
@@ -21,28 +21,28 @@ public static void Sign(Stream srcStream, Stream dstStream, CertificateHolder ce
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| srcStream | Stream | Поток, содержащий подписываемый документ. |
+| srcStream | Stream | Поток, содержащий документ для подписи. |
 | dstStream | Stream | Поток, в который будет записан подписанный документ. |
-| certHolder | CertificateHolder | [`CertificateHolder`](../../certificateholder)объект с сертификатом, которым был подписан файл. Сертификат в держателе ДОЛЖЕН содержать закрытые ключи и иметь установленный флаг X509KeyStorageFlags.Exportable. |
-| signOptions | SignOptions | [`SignOptions`](../../signoptions)объект с различными вариантами подписи. |
+| certHolder | CertificateHolder | [`CertificateHolder`](../../certificateholder) объект с сертификатом, который использовался для подписи файла. Сертификат в держателе ДОЛЖЕН содержать закрытые ключи и иметь установленный флаг X509KeyStorageFlags.Exportable. |
+| signOptions | SignOptions | [`SignOptions`](../../signoptions) объект с различными вариантами подписи. |
 
 ### Примеры
 
 Показывает, как подписывать документы цифровой подписью.
 
 ```csharp
- // Создаем сертификат X.509 из хранилища PKCS#12, который должен содержать закрытый ключ.
+// Создайте сертификат X.509 из хранилища PKCS#12, который должен содержать закрытый ключ.
 CertificateHolder certificateHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "aw");
 
- // Создайте комментарий и дату, которые будут применяться с нашей новой цифровой подписью.
+// Создайте комментарий и дату, которые будут применяться с нашей новой цифровой подписью.
 SignOptions signOptions = new SignOptions
 {
     Comments = "My comment", 
     SignTime = DateTime.Now
 };
 
- // Берём неподписанный документ из локальной файловой системы через файловый поток,
- // затем создайте его подписанную копию, определяемую именем файла выходного файла stream.
+// Берём неподписанный документ из локальной файловой системы через файловый поток,
+// затем создайте его подписанную копию, определяемую именем файла выходного файлового потока.
 using (Stream streamIn = new FileStream(MyDir + "Document.docx", FileMode.Open))
 {
     using (Stream streamOut = new FileStream(ArtifactsDir + "DigitalSignatureUtil.SignDocument.docx", FileMode.OpenOrCreate))
@@ -64,9 +64,9 @@ using (Stream streamIn = new FileStream(MyDir + "Document.docx", FileMode.Open))
 
 ## Sign(string, string, CertificateHolder, SignOptions) {#sign_3}
 
-Подписывает исходный документ, используя данные[`CertificateHolder`](../../certificateholder)и[`SignOptions`](../../signoptions) с цифровой подписью и записывает подписанный документ в файл назначения.
+Подписывает исходный документ, используя данные[`CertificateHolder`](../../certificateholder) а также[`SignOptions`](../../signoptions) с цифровой подписью и записывает подписанный документ в файл назначения.
 
-Документ должен быть либоDoc, либоДок.
+Документ должен быть либоDoc или жеDocx.
 
 ```csharp
 public static void Sign(string srcFileName, string dstFileName, CertificateHolder certHolder, 
@@ -75,10 +75,10 @@ public static void Sign(string srcFileName, string dstFileName, CertificateHolde
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| srcFileName | String | Имя файла подписываемого документа. |
+| srcFileName | String | Имя файла документа для подписи. |
 | dstFileName | String | Имя файла вывода подписанного документа. |
-| certHolder | CertificateHolder | [`CertificateHolder`](../../certificateholder)объект с сертификатом, которым был подписан файл. Сертификат в держателе ДОЛЖЕН содержать закрытые ключи и иметь установленный флаг X509KeyStorageFlags.Exportable. |
-| signOptions | SignOptions | [`SignOptions`](../../signoptions)объект с различными вариантами подписи. |
+| certHolder | CertificateHolder | [`CertificateHolder`](../../certificateholder) объект с сертификатом, который использовался для подписи файла. Сертификат в держателе ДОЛЖЕН содержать закрытые ключи и иметь установленный флаг X509KeyStorageFlags.Exportable. |
+| signOptions | SignOptions | [`SignOptions`](../../signoptions) объект с различными вариантами подписи. |
 
 ### Примеры
 
@@ -204,11 +204,11 @@ public static void Sign()
 
 ## Sign(Stream, Stream, CertificateHolder) {#sign}
 
-Подписывает исходный документ с использованием данного[`CertificateHolder`](../../certificateholder)цифровой подписью и записывает подписанный документ в поток назначения.
+Подписывает исходный документ, используя данные[`CertificateHolder`](../../certificateholder)с цифровой подписью и записывает подписанный документ в поток назначения.
 
-Документ должен быть либоDoc, либоДок.
+Документ должен быть либоDoc или жеDocx.
 
-**Вывод будет записан в начало потока, а размер потока будет обновлен с длиной содержимого.**
+**Вывод будет записан в начало потока, а размер потока будет обновляться в зависимости от длины содержимого.**
 
 ```csharp
 public static void Sign(Stream srcStream, Stream dstStream, CertificateHolder certHolder)
@@ -216,9 +216,9 @@ public static void Sign(Stream srcStream, Stream dstStream, CertificateHolder ce
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| srcStream | Stream | Поток, содержащий подписываемый документ. |
+| srcStream | Stream | Поток, содержащий документ для подписи. |
 | dstStream | Stream | Поток, в который будет записан подписанный документ. |
-| certHolder | CertificateHolder | [`CertificateHolder`](../../certificateholder)объект с сертификатом, которым был подписан файл. Сертификат в держателе ДОЛЖЕН содержать закрытые ключи и иметь установленный флаг X509KeyStorageFlags.Exportable. |
+| certHolder | CertificateHolder | [`CertificateHolder`](../../certificateholder) объект с сертификатом, который использовался для подписи файла. Сертификат в держателе ДОЛЖЕН содержать закрытые ключи и иметь установленный флаг X509KeyStorageFlags.Exportable. |
 
 ### Примеры
 
@@ -271,9 +271,9 @@ Assert.AreEqual("CN=Morzal.Me", signedDoc.DigitalSignatures[0].SubjectName);
 
 ## Sign(string, string, CertificateHolder) {#sign_2}
 
-Подписывает исходный документ с использованием данного[`CertificateHolder`](../../certificateholder)цифровой подписью и записывает подписанный документ в файл назначения.
+Подписывает исходный документ, используя данные[`CertificateHolder`](../../certificateholder) с цифровой подписью и записывает подписанный документ в файл назначения.
 
-Документ должен быть либоDoc, либоДок.
+Документ должен быть либоDoc или жеDocx.
 
 ```csharp
 public static void Sign(string srcFileName, string dstFileName, CertificateHolder certHolder)
@@ -281,9 +281,9 @@ public static void Sign(string srcFileName, string dstFileName, CertificateHolde
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| srcFileName | String | Имя файла подписываемого документа. |
+| srcFileName | String | Имя файла документа для подписи. |
 | dstFileName | String | Имя файла вывода подписанного документа. |
-| certHolder | CertificateHolder | [`CertificateHolder`](../../certificateholder)объект с сертификатом, которым был подписан файл. Сертификат в держателе ДОЛЖЕН содержать закрытые ключи и иметь установленный флаг X509KeyStorageFlags.Exportable. |
+| certHolder | CertificateHolder | [`CertificateHolder`](../../certificateholder) объект с сертификатом, который использовался для подписи файла. Сертификат в держателе ДОЛЖЕН содержать закрытые ключи и иметь установленный флаг X509KeyStorageFlags.Exportable. |
 
 ### Примеры
 

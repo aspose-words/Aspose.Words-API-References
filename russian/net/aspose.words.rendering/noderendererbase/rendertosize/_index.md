@@ -1,14 +1,14 @@
 ---
 title: RenderToSize
 second_title: Справочник по API Aspose.Words для .NET
-description: Визуализирует фигуру в объектGraphics указанного размера.
+description: Преобразует форму вGraphics объекта указанного размера.
 type: docs
 weight: 80
 url: /ru/net/aspose.words.rendering/noderendererbase/rendertosize/
 ---
 ## NodeRendererBase.RenderToSize method
 
-Визуализирует фигуру в объектGraphics указанного размера.
+Преобразует форму вGraphics объекта указанного размера.
 
 ```csharp
 public float RenderToSize(Graphics graphics, float x, float y, float width, float height)
@@ -16,10 +16,10 @@ public float RenderToSize(Graphics graphics, float x, float y, float width, floa
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| graphics | Graphics | Объект для рендеринга. |
-| x | Single | Координата X (в мировых единицах) верхнего левого угла отображаемой фигуры. |
+| graphics | Graphics | Объект, на который выполняется рендеринг. |
+| x | Single | Координата X (в мировых единицах измерения) верхнего левого угла отображаемой фигуры. |
 | y | Single | Координата Y (в мировых единицах измерения) верхнего левого угла отображаемой фигуры. |
-| width | Single | Максимальная ширина (в мировых единицах), которую может занимать отображаемая форма. |
+| width | Single | Максимальная ширина (в мировых единицах), которую может занимать отображаемая фигура. |
 | height | Single | Максимальная высота (в мировых единицах), которую может занимать отображаемая фигура. |
 
 ### Возвращаемое значение
@@ -28,7 +28,7 @@ public float RenderToSize(Graphics graphics, float x, float y, float width, floa
 
 ### Примеры
 
-Показывает, как визуализировать фигуру с помощью объекта Graphics и отображать ее с помощью Windows Form.
+Показывает, как визуализировать фигуру с помощью объекта Graphics и отображать ее с помощью формы Windows.
 
 ```csharp
 {

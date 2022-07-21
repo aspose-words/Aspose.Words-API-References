@@ -1,14 +1,14 @@
 ---
 title: ForceCopyStyles
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置一个布尔值指示是否复制R5FAspose.Words.ImportFormatMode.KeepSourceFormatting 中的冲突样式 模式 默认值为 false 
+description: 获取或设置一个布尔值指示复制冲突的样式 KeepSourceFormatting mode. 默认值为错误的.
 type: docs
 weight: 20
 url: /zh/net/aspose.words/importformatoptions/forcecopystyles/
 ---
 ## ImportFormatOptions.ForceCopyStyles property
 
-获取或设置一个布尔值，指示是否复制:::R5:F:Aspose.Words.ImportFormatMode.KeepSourceFormatting 中的冲突样式 ::模式。 默认值为` false` 。
+获取或设置一个布尔值，指示复制冲突的样式 KeepSourceFormatting mode. 默认值为`错误的`.
 
 ```csharp
 public bool ForceCopyStyles { get; set; }
@@ -16,11 +16,11 @@ public bool ForceCopyStyles { get; set; }
 
 ### 评论
 
-默认情况下，如果目标文档中已存在匹配样式，则源样式格式为 扩展为直接节点属性，并且该节点的样式重置为默认值。
+默认情况下，如果目标文档中已经存在匹配的样式，则源样式formatting 被扩展为直接节点属性，并且该节点的样式被重置为默认值。
 
-当此选项设置为` true` 时，将强制复制源样式 进入具有唯一名称的目标文档并应用于导入的节点。
+当此选项设置为`真的`，源样式将被强制复制 到具有唯一名称的目标文档中，并应用于导入的节点。
 
-注意，在这种情况下，不能保证目标文档 中导入节点的格式将被保留。
+请注意，在这种情况下，不保证会保留目标 document 中导入节点的格式。
 
 ### 例子
 

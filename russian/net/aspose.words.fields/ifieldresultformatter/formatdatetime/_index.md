@@ -1,14 +1,14 @@
 ---
 title: FormatDateTime
 second_title: Справочник по API Aspose.Words для .NET
-description: Вызывается когда Aspose.Words применяет переключатель формата даты/времени т.е.  dd.MM.yyyy.
+description: Вызывается когда Aspose.Words применяет переключатель формата даты/времени например  dd.MM.yyyy.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.fields/ifieldresultformatter/formatdatetime/
 ---
 ## IFieldResultFormatter.FormatDateTime method
 
-Вызывается, когда Aspose.Words применяет переключатель формата даты/времени, т.е. \@ "dd.MM.yyyy".
+Вызывается, когда Aspose.Words применяет переключатель формата даты/времени, например \@ "dd.MM.yyyy".
 
 ```csharp
 public string FormatDateTime(DateTime value, string format, CalendarType calendarType)
@@ -16,7 +16,7 @@ public string FormatDateTime(DateTime value, string format, CalendarType calenda
 
 ### Примечания
 
-Реализация должна вернуть **null** , чтобы указать, что следует применять форматирование по умолчанию.
+Реализация должна вернуть **нулевой** чтобы указать, что следует применять форматирование по умолчанию.
 
 ### Примеры
 

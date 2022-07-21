@@ -16,15 +16,15 @@ public RtfLoadOptions()
 
 ### 例子
 
-显示如何在加载 RTF 文档时检测 UTF-8 字符。
+展示如何在加载 RTF 文档时检测 UTF-8 字符。
 
 ```csharp
- // 创建一个“RtfLoadOptions”对象来修改我们如何加载一个 RTF 文档。
+// 创建一个“RtfLoadOptions”对象来修改我们加载 RTF 文档的方式。
 RtfLoadOptions loadOptions = new RtfLoadOptions();
 
- // 将“RecognizeUtf8Text”属性设置为“false”以假定文档使用 ISO 8859-1 charset
- // 并加载文档中的每个字符。
-// 将“RecognizeUtf8Text”属性设置为“true”以解析文本中可能出现的任何变长字符。
+// 将“RecognizeUtf8Text”属性设置为“false”以假定文档使用 ISO 8859-1 字符集
+// 并加载文档中的每个字符。
+// 将“RecognizeUtf8Text”属性设置为“true”以解析文本中可能出现的任何可变长度字符。
 loadOptions.RecognizeUtf8Text = recognizeUtf8Text;
 
 Document doc = new Document(MyDir + "UTF-8 characters.rtf", loadOptions);

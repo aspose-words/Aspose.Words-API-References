@@ -1,14 +1,14 @@
 ---
 title: Direction
 second_title: Справочник по API Aspose.Words для .NET
-description: Выбирает направление замены. Значение по умолчаниюForward.
+description: Выбирает направление замены. Значение по умолчаниюForward .
 type: docs
 weight: 40
 url: /ru/net/aspose.words.replacing/findreplaceoptions/direction/
 ---
 ## FindReplaceOptions.Direction property
 
-Выбирает направление замены. Значение по умолчанию:Forward.
+Выбирает направление замены. Значение по умолчаниюForward .
 
 ```csharp
 public FindReplaceDirection Direction { get; set; }
@@ -16,7 +16,7 @@ public FindReplaceDirection Direction { get; set; }
 
 ### Примеры
 
-Показывает, как определить, в каком направлении операция поиска и замены перемещает документ.
+Показывает, как определить, в каком направлении операция поиска и замены проходит по документу.
 
 ```csharp
 public void Direction(FindReplaceDirection findReplaceDirection)

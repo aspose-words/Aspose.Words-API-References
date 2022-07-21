@@ -1,14 +1,14 @@
 ---
 title: AddArgument
 second_title: Aspose.Words for .NET API 参考
-description: 添加字段的参数
+description: 添加一个字段的参数
 type: docs
 weight: 20
 url: /zh/net/aspose.words.fields/fieldbuilder/addargument/
 ---
 ## AddArgument(string) {#addargument_4}
 
-添加字段的参数。
+添加一个字段的参数。
 
 ```csharp
 public FieldBuilder AddArgument(string argument)
@@ -20,7 +20,7 @@ public FieldBuilder AddArgument(string argument)
 
 ### 例子
 
-显示如何使用字段构建器构造字段，然后将它们插入到文档中。
+演示如何使用字段构建器构造字段，然后将它们插入到文档中。
 
 ```csharp
 Document doc = new Document();
@@ -108,7 +108,7 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 
 ## AddArgument(int) {#addargument_3}
 
-添加字段的参数。
+添加一个字段的参数。
 
 ```csharp
 public FieldBuilder AddArgument(int argument)
@@ -120,7 +120,7 @@ public FieldBuilder AddArgument(int argument)
 
 ### 例子
 
-显示如何使用字段构建器构造字段，然后将它们插入到文档中。
+演示如何使用字段构建器构造字段，然后将它们插入到文档中。
 
 ```csharp
 Document doc = new Document();
@@ -208,7 +208,7 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 
 ## AddArgument(double) {#addargument_2}
 
-添加字段的参数。
+添加一个字段的参数。
 
 ```csharp
 public FieldBuilder AddArgument(double argument)
@@ -220,7 +220,7 @@ public FieldBuilder AddArgument(double argument)
 
 ### 例子
 
-显示如何使用字段构建器构造字段，然后将它们插入到文档中。
+演示如何使用字段构建器构造字段，然后将它们插入到文档中。
 
 ```csharp
 Document doc = new Document();
@@ -308,7 +308,7 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 
 ## AddArgument(FieldBuilder) {#addargument_1}
 
-将由另一个[`FieldBuilder`](../../fieldbuilder)表示的子字段添加到字段的代码中。
+添加另一个表示的子字段[`FieldBuilder`](../../fieldbuilder)到字段的代码。
 
 ```csharp
 public FieldBuilder AddArgument(FieldBuilder argument)
@@ -320,7 +320,7 @@ public FieldBuilder AddArgument(FieldBuilder argument)
 
 ### 例子
 
-显示如何使用字段构建器构造字段，然后将它们插入到文档中。
+演示如何使用字段构建器构造字段，然后将它们插入到文档中。
 
 ```csharp
 Document doc = new Document();
@@ -408,7 +408,7 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 
 ## AddArgument(FieldArgumentBuilder) {#addargument}
 
-将[`FieldArgumentBuilder`](../../fieldargumentbuilder)表示的字段参数添加到字段代码中。
+添加一个字段的参数，由[`FieldArgumentBuilder`](../../fieldargumentbuilder)到字段的代码。
 
 ```csharp
 public FieldBuilder AddArgument(FieldArgumentBuilder argument)
@@ -416,11 +416,11 @@ public FieldBuilder AddArgument(FieldArgumentBuilder argument)
 
 ### 评论
 
-当参数由不同部分（例如子字段、节点）的混合组成时使用此重载, 和纯文本。
+当参数包含不同部分（例如子字段、节点和纯文本）的混合时，使用此重载。
 
 ### 例子
 
-显示如何使用字段构建器构造字段，然后将它们插入到文档中。
+演示如何使用字段构建器构造字段，然后将它们插入到文档中。
 
 ```csharp
 Document doc = new Document();

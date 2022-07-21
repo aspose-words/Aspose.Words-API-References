@@ -1,14 +1,14 @@
 ---
 title: ChartAxisType
 second_title: Справочник по API Aspose.Words для .NET
-description: Указывает тип оси диаграммы.
+description: Определяет тип оси диаграммы.
 type: docs
 weight: 620
 url: /ru/net/aspose.words.drawing.charts/chartaxistype/
 ---
 ## ChartAxisType enumeration
 
-Указывает тип оси диаграммы.
+Определяет тип оси диаграммы.
 
 ```csharp
 public enum ChartAxisType
@@ -19,12 +19,12 @@ public enum ChartAxisType
 | Имя | Ценность | Описание |
 | --- | --- | --- |
 | Category | `0` | Ось категорий диаграммы. |
-| Series | `1` | Серийная ось графика. |
+| Series | `1` | Серия оси диаграммы. |
 | Value | `2` | Ось значений диаграммы. |
 
 ### Примеры
 
-Показывает, как создать соответствующий тип серии диаграмм для типа графика.
+Показывает, как создать подходящий тип серии диаграмм для типа графика.
 
 ```csharp
 {
@@ -96,7 +96,7 @@ public enum ChartAxisType
 }
 
 /// <summary>
-/// Вставьте диаграмму с помощью построителя документов указанного ChartType, ширины и высоты и удалите ее демонстрационные данные.
+/// Вставьте диаграмму с помощью построителя документов указанного типа ChartType, ширины и высоты и удалите ее демонстрационные данные.
 /// </summary>
 private static Chart AppendChart(DocumentBuilder builder, ChartType chartType, double width, double height)
 {

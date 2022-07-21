@@ -45,7 +45,7 @@ public void RemoveVbaReference()
 }
 
 /// <summary>
- /// 返回表示指定引用的 LibId 路径的字符串。 
+/// 返回表示指定引用的 LibId 路径的字符串。 
 /// </summary>
 private static string GetLibIdPath(VbaReference reference)
 {
@@ -63,7 +63,7 @@ private static string GetLibIdPath(VbaReference reference)
 }
 
 /// <summary>
- /// 从自动化类型库的指定标识符返回路径。
+/// 从自动化类型库的指定标识符返回路径。
 /// </summary>
 private static string GetLibIdReferencePath(string libIdReference)
 {
@@ -78,7 +78,7 @@ private static string GetLibIdReferencePath(string libIdReference)
 }
 
 /// <summary>
- /// 从自动化类型库的指定标识符返回路径。
+/// 从自动化类型库的指定标识符返回路径。
 /// </summary>
 private static string GetLibIdProjectPath(string libIdProject)
 {

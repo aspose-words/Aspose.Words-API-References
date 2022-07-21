@@ -1,14 +1,14 @@
 ---
 title: ResolveFontNames
 second_title: Справочник по API Aspose.Words для .NET
-description: Указывает разрешаются ли имена семейств шрифтов используемые в документе и заменяются в соответствии с FontSettingsaspose.words/document/fontsettingsпри записи в HTML-форматы.
+description: Указывает разрешаются ли имена семейств шрифтов используемые в документе и заменяются ли они в соответствии с FontSettingsaspose.words/document/fontsettings при записи в форматы на основе HTML.
 type: docs
 weight: 410
 url: /ru/net/aspose.words.saving/htmlsaveoptions/resolvefontnames/
 ---
 ## HtmlSaveOptions.ResolveFontNames property
 
-Указывает, разрешаются ли имена семейств шрифтов, используемые в документе, и заменяются в соответствии с [`FontSettings`](../../../aspose.words/document/fontsettings)при записи в HTML-форматы.
+Указывает, разрешаются ли имена семейств шрифтов, используемые в документе, и заменяются ли они в соответствии с [`FontSettings`](../../../aspose.words/document/fontsettings) при записи в форматы на основе HTML.
 
 ```csharp
 public bool ResolveFontNames { get; set; }
@@ -16,9 +16,9 @@ public bool ResolveFontNames { get; set; }
 
 ### Примечания
 
-По умолчанию для этой опции установлено значение` false` и имена семейств шрифтов записываются в HTML, как указано в исходных документах. То есть[`FontSettings`](../../../aspose.words/document/fontsettings)игнорируются, и не выполняется разрешение или замена имен семейств шрифтов.
+По умолчанию этот параметр установлен на`ЛОЖЬ`а имена семейств шрифтов записываются в HTML как заданные в исходных документах. То есть,[`FontSettings`](../../../aspose.words/document/fontsettings) игнорируются, и не выполняется разрешение или замена имен семейств шрифтов.
 
-Если для этой опции установлено значение` true` , Aspose.Words использует[`FontSettings`](../../../aspose.words/document/fontsettings)для разрешения каждого имени семейства шрифтов, указанного в исходном документе, в имя доступного семейства шрифтов, выполняя замену шрифта по мере необходимости .
+Если этот параметр установлен на`истинный` , Aspose.Words использует[`FontSettings`](../../../aspose.words/document/fontsettings) преобразовывать каждое имя семейства шрифтов, указанное в исходном документе, в имя доступного семейства шрифтов, выполняя при необходимости подстановку шрифтов.
 
 ### Примеры
 

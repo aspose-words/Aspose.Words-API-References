@@ -3,7 +3,7 @@ title: MemoryFontSource
 second_title: Справочник по API Aspose.Words для .NET
 description: Представляет один файл шрифта TrueType хранящийся в памяти.
 type: docs
-weight: 2790
+weight: 2840
 url: /ru/net/aspose.words.fonts/memoryfontsource/
 ---
 ## MemoryFontSource class
@@ -18,16 +18,16 @@ public class MemoryFontSource : FontSourceBase
 
 | Имя | Описание |
 | --- | --- |
-| [MemoryFontSource](memoryfontsource#constructor)(byte[]) | Ктор. |
-| [MemoryFontSource](memoryfontsource#constructor_1)(byte[], int) | Ктор. |
-| [MemoryFontSource](memoryfontsource#constructor_2)(byte[], int, string) | Ктор. |
+| [MemoryFontSource](memoryfontsource#constructor)(byte[]) | Стор. |
+| [MemoryFontSource](memoryfontsource#constructor_1)(byte[], int) | Стор. |
+| [MemoryFontSource](memoryfontsource#constructor_2)(byte[], int, string) | Стор. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
 | [CacheKey](../../aspose.words.fonts/memoryfontsource/cachekey) { get; } | Ключ этого источника в кеше. |
-| [FontData](../../aspose.words.fonts/memoryfontsource/fontdata) { get; } | Двоичные данные шрифта. |
+| [FontData](../../aspose.words.fonts/memoryfontsource/fontdata) { get; } | Данные двоичного шрифта. |
 | [Priority](../../aspose.words.fonts/fontsourcebase/priority) { get; } | Возвращает приоритет источника шрифта. |
 | override [Type](../../aspose.words.fonts/memoryfontsource/type) { get; } | Возвращает тип источника шрифта. |
 | [WarningCallback](../../aspose.words.fonts/fontsourcebase/warningcallback) { get; set; } | Вызывается во время обработки источника шрифта при обнаружении проблемы, которая может привести к потере точности форматирования. |

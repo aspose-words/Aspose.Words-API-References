@@ -1,14 +1,14 @@
 ---
 title: Hyphenation
 second_title: Aspose.Words for .NET API 参考
-description: 提供使用连字字典的方法这些字典规定了特定语言的单词可以在何处连字
+description: 提供使用连字字典的方法这些词典规定了特定语言的单词在哪里可以连字
 type: docs
-weight: 2920
+weight: 2970
 url: /zh/net/aspose.words/hyphenation/
 ---
 ## Hyphenation class
 
-提供使用连字字典的方法。这些字典规定了特定语言的单词可以在何处连字。
+提供使用连字字典的方法。这些词典规定了特定语言的单词在哪里可以连字。
 
 ```csharp
 public static class Hyphenation
@@ -18,14 +18,14 @@ public static class Hyphenation
 
 | 姓名 | 描述 |
 | --- | --- |
-| static [Callback](../../aspose.words/hyphenation/callback) { get; set; } | 获取或设置文档页面布局构建时用于请求字典的回调接口。 这允许延迟加载字典，这在处理多种语言的文档时可能很有用。 |
-| static [WarningCallback](../../aspose.words/hyphenation/warningcallback) { get; set; } | 在加载断字模式期间调用，当检测到可能导致格式保真度丢失的问题时。 |
+| static [Callback](../../aspose.words/hyphenation/callback) { get; set; } | 获取或设置用于在构建文档的页面布局时请求字典的回调接口。 这允许延迟加载字典，这在处理多种语言的文档时可能很有用。 |
+| static [WarningCallback](../../aspose.words/hyphenation/warningcallback) { get; set; } | 在加载断字模式期间调用，当检测到可能导致格式保真度丢失的问题时调用。 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| static [IsDictionaryRegistered](../../aspose.words/hyphenation/isdictionaryregistered)(string) | 如果指定的语言没有注册字典或注册为 Null 字典，则返回 False，否则返回 True。 |
+| static [IsDictionaryRegistered](../../aspose.words/hyphenation/isdictionaryregistered)(string) | 如果指定的语言没有注册字典或者注册的是空字典，则返回 False，否则返回 True。 |
 | static [RegisterDictionary](../../aspose.words/hyphenation/registerdictionary#registerdictionary)(string, Stream) | 从流中注册并加载指定语言的断字字典。如果字典无法读取或格式无效，则抛出。 |
 | static [RegisterDictionary](../../aspose.words/hyphenation/registerdictionary#registerdictionary_1)(string, string) | 从文件中注册并加载指定语言的断字字典。如果字典无法读取或格式无效，则抛出。 |
 | static [UnregisterDictionary](../../aspose.words/hyphenation/unregisterdictionary)(string) | 取消注册指定语言的断字字典。 |

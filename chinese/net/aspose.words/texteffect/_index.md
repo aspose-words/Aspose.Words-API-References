@@ -3,7 +3,7 @@ title: TextEffect
 second_title: Aspose.Words for .NET API 参考
 description: 文本运行的动画效果
 type: docs
-weight: 6070
+weight: 6120
 url: /zh/net/aspose.words/texteffect/
 ---
 ## TextEffect enumeration

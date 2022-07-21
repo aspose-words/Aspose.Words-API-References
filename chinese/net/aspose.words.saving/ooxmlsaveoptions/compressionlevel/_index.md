@@ -1,14 +1,14 @@
 ---
 title: CompressionLevel
 second_title: Aspose.Words for .NET API 参考
-description: 指定用于保存文档的压缩级别 默认值为Normal
+description: 指定用于保存文档的压缩级别 默认值为Normal.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.saving/ooxmlsaveoptions/compressionlevel/
 ---
 ## OoxmlSaveOptions.CompressionLevel property
 
-指定用于保存文档的压缩级别。 默认值为Normal。
+指定用于保存文档的压缩级别。 默认值为Normal.
 
 ```csharp
 public CompressionLevel CompressionLevel { get; set; }

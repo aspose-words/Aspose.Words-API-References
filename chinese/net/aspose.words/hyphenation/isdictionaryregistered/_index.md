@@ -1,14 +1,14 @@
 ---
 title: IsDictionaryRegistered
 second_title: Aspose.Words for .NET API 参考
-description: 如果指定的语言没有注册字典或注册为 Null 字典则返回 False否则返回 True
+description: 如果指定的语言没有注册字典或者注册的是空字典则返回 False否则返回 True
 type: docs
 weight: 30
 url: /zh/net/aspose.words/hyphenation/isdictionaryregistered/
 ---
 ## Hyphenation.IsDictionaryRegistered method
 
-如果指定的语言没有注册字典或注册为 Null 字典，则返回 False，否则返回 True。
+如果指定的语言没有注册字典或者注册的是空字典，则返回 False，否则返回 True。
 
 ```csharp
 public static bool IsDictionaryRegistered(string language)

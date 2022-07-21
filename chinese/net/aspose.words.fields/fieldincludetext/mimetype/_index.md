@@ -1,14 +1,14 @@
 ---
 title: MimeType
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置引用文件的 MIME 类型
+description: 获取或设置被引用文件的 MIME 类型
 type: docs
 weight: 50
 url: /zh/net/aspose.words.fields/fieldincludetext/mimetype/
 ---
 ## FieldIncludeText.MimeType property
 
-获取或设置引用文件的 MIME 类型。
+获取或设置被引用文件的 MIME 类型。
 
 ```csharp
 public string MimeType { get; set; }

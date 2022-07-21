@@ -1,14 +1,14 @@
 ---
 title: RelativeHorizontalPosition
 second_title: Aspose.Words for .NET API 参考
-description: 指定相对于水平放置的形状
+description: 指定相对于水平位置的形状
 type: docs
 weight: 400
 url: /zh/net/aspose.words.drawing/shapebase/relativehorizontalposition/
 ---
 ## ShapeBase.RelativeHorizontalPosition property
 
-指定相对于水平放置的形状。
+指定相对于水平位置的形状。
 
 ```csharp
 public RelativeHorizontalPosition RelativeHorizontalPosition { get; set; }
@@ -16,13 +16,13 @@ public RelativeHorizontalPosition RelativeHorizontalPosition { get; set; }
 
 ### 评论
 
-默认值为RelativeHorizontalPosition。柱子。
+默认值为Column.
 
 仅对顶级浮动形状有效。
 
 ### 例子
 
-显示如何将浮动图像插入页面中心。
+演示如何将浮动图像插入页面中心。
 
 ```csharp
 Document doc = new Document();

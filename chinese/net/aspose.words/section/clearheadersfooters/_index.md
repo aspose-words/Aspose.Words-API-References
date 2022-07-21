@@ -16,7 +16,7 @@ public void ClearHeadersFooters()
 
 ### 评论
 
-清除所有页眉和页脚的文本，但[`HeaderFooter`](../../headerfooter)对象本身不会被删除。
+所有页眉和页脚的文本都被清除，但[`HeaderFooter`](../../headerfooter)对象本身不会被移除。
 
 这使得本节的页眉和页脚链接到上一节的页眉和页脚。
 
@@ -41,8 +41,8 @@ Assert.AreEqual(2, doc.FirstSection.HeadersFooters.Count);
 Assert.AreEqual("This is the primary header.", doc.FirstSection.HeadersFooters[HeaderFooterType.HeaderPrimary].GetText().Trim());
 Assert.AreEqual("This is the primary footer.", doc.FirstSection.HeadersFooters[HeaderFooterType.FooterPrimary].GetText().Trim());
 
- // 清空本节所有页眉和页脚的所有内容。
- // 页眉和页脚本身仍然存在，但没有可显示的内容。
+// 清空本节所有页眉和页脚的所有内容。
+// 页眉和页脚本身仍然存在，但没有可显示的内容。
 doc.FirstSection.ClearHeadersFooters();
 
 Assert.AreEqual(2, doc.FirstSection.HeadersFooters.Count);

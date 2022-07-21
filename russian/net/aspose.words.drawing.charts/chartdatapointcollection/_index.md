@@ -1,14 +1,14 @@
 ---
 title: ChartDataPointCollection
 second_title: Справочник по API Aspose.Words для .NET
-description: Представляет коллекциюChartDataPoint./chartdatapoint.
+description: Представляет наборChartDataPoint./chartdatapoint .
 type: docs
 weight: 660
 url: /ru/net/aspose.words.drawing.charts/chartdatapointcollection/
 ---
 ## ChartDataPointCollection class
 
-Представляет коллекцию[`ChartDataPoint`](../chartdatapoint).
+Представляет набор[`ChartDataPoint`](../chartdatapoint) .
 
 ```csharp
 public class ChartDataPointCollection : IEnumerable<ChartDataPoint>
@@ -18,14 +18,14 @@ public class ChartDataPointCollection : IEnumerable<ChartDataPoint>
 
 | Имя | Описание |
 | --- | --- |
-| [Count](../../aspose.words.drawing.charts/chartdatapointcollection/count) { get; } | Возвращает количество[`ChartDataPoint`](../chartdatapoint)в этой коллекции. |
-| [Item](../../aspose.words.drawing.charts/chartdatapointcollection/item) { get; } | Возвращает[`ChartDataPoint`](../chartdatapoint)для указанного индекса. |
+| [Count](../../aspose.words.drawing.charts/chartdatapointcollection/count) { get; } | Возвращает количество[`ChartDataPoint`](../chartdatapoint) в этой коллекции. |
+| [Item](../../aspose.words.drawing.charts/chartdatapointcollection/item) { get; } | Возвращает[`ChartDataPoint`](../chartdatapoint) для указанного индекса. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [ClearFormat](../../aspose.words.drawing.charts/chartdatapointcollection/clearformat)() | Очищает формат всего[`ChartDataPoint`](../chartdatapoint)в этой коллекции. |
+| [ClearFormat](../../aspose.words.drawing.charts/chartdatapointcollection/clearformat)() | Очищает формат всех[`ChartDataPoint`](../chartdatapoint) в этой коллекции. |
 | [GetEnumerator](../../aspose.words.drawing.charts/chartdatapointcollection/getenumerator)() | Возвращает объект перечислителя. |
 
 ### Примеры

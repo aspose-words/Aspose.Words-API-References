@@ -1,14 +1,14 @@
 ---
 title: OleIcon
 second_title: Aspose.Words for .NET API 参考
-description: 获取 OLE 对象的绘图方面当 true 时OLE 对象显示为图标 当 false 时OLE 对象显示为内容
+description: 获取 OLE 对象的绘图方面什么时候 真的OLE 对象显示为图标 什么时候 错误的 OLE 对象显示为 content.
 type: docs
 weight: 70
 url: /zh/net/aspose.words.drawing/oleformat/oleicon/
 ---
 ## OleFormat.OleIcon property
 
-获取 OLE 对象的绘图方面。当 **true** 时，OLE 对象显示为图标。 当 **false** 时，OLE 对象显示为内容。
+获取 OLE 对象的绘图方面。什么时候 **真的**，OLE 对象显示为图标。 什么时候 **错误的** OLE 对象显示为 content.
 
 ```csharp
 public bool OleIcon { get; }
@@ -16,7 +16,7 @@ public bool OleIcon { get; }
 
 ### 评论
 
-Aspose.Words 不允许设置此属性以避免混淆。如果您能够更改 Aspose.Words 中的绘图方面，Microsoft Word 仍会以其原始 绘图方面显示 OLE 对象，直到您在其中编辑或更新 OLE 对象微软Word。
+Aspose.Words 不允许设置此属性以避免混淆。如果您能够在 Aspose.Words 中更改 绘图方面，Microsoft Word 仍会以其原始 绘图方面显示 OLE 对象，直到您在 Microsoft Word 中编辑或更新 OLE 对象。
 
 ### 例子
 

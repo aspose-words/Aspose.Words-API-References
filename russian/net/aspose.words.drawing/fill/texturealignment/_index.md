@@ -1,14 +1,14 @@
 ---
 title: TextureAlignment
 second_title: Справочник по API Aspose.Words для .NET
-description: Получает или задает выравнивание для заливки текстурой плитки.
+description: Получает или задает выравнивание для заливки текстурой тайла.
 type: docs
 weight: 130
 url: /ru/net/aspose.words.drawing/fill/texturealignment/
 ---
 ## Fill.TextureAlignment property
 
-Получает или задает выравнивание для заливки текстурой плитки.
+Получает или задает выравнивание для заливки текстурой тайла.
 
 ```csharp
 public TextureAlignment TextureAlignment { get; set; }
@@ -16,7 +16,7 @@ public TextureAlignment TextureAlignment { get; set; }
 
 ### Примеры
 
-Показывает, как заполнить и замостить текстуру внутри формы.
+Показывает, как заполнять и размещать текстуру внутри фигуры.
 
 ```csharp
 Document doc = new Document();

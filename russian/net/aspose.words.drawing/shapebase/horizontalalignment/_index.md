@@ -1,14 +1,14 @@
 ---
 title: HorizontalAlignment
 second_title: Справочник по API Aspose.Words для .NET
-description: Указывает как фигура располагается по горизонтали.
+description: Определяет горизонтальное расположение фигуры.
 type: docs
 weight: 210
 url: /ru/net/aspose.words.drawing/shapebase/horizontalalignment/
 ---
 ## ShapeBase.HorizontalAlignment property
 
-Указывает, как фигура располагается по горизонтали.
+Определяет горизонтальное расположение фигуры.
 
 ```csharp
 public HorizontalAlignment HorizontalAlignment { get; set; }
@@ -16,7 +16,7 @@ public HorizontalAlignment HorizontalAlignment { get; set; }
 
 ### Примечания
 
-Значение по умолчанию:Никто.
+Значение по умолчаниюNone.
 
 Имеет эффект только для плавающих фигур верхнего уровня.
 

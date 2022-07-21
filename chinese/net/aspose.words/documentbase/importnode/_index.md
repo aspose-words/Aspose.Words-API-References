@@ -25,13 +25,13 @@ public Node ImportNode(Node srcNode, bool isImportChildren)
 
 ### 评论
 
-此方法使用UseDestinationStyles解析格式的选项。
+该方法使用UseDestinationStyles解决格式的选项。
 
 导入节点会创建属于导入文档的源节点的副本。 返回的节点没有父节点。源节点不会从原始文档中更改或删除。
 
-在将另一个文档中的节点插入该文档之前，必须先导入该节点。 在导入期间，文档特定的属性（例如对样式和列表的引用）将 从原始文档转换为导入文档。导入节点后，可以使用[`InsertBefore`](../../compositenode/insertbefore)或 [`InsertAfter`](../../compositenode/insertafter)。
+在将另一个文档中的节点插入此文档之前，必须先导入它。 在导入期间，文档特定的属性（例如对样式和列表的引用）会从原始文档翻译 到导入文档。节点导入后，可以使用 insert 插入到文档中的适当位置[`InsertBefore`](../../compositenode/insertbefore)或 [`InsertAfter`](../../compositenode/insertafter).
 
-如果源节点已经属于目标文档，则简单地创建源节点的深度克隆 。
+如果源节点已经属于目标文档，则只需创建源节点的深层 clone 。
 
 ### 例子
 
@@ -85,11 +85,11 @@ public Node ImportNode(Node srcNode, bool isImportChildren, ImportFormatMode imp
 | --- | --- | --- |
 | srcNode | Node | 要导入的节点。 |
 | isImportChildren | Boolean | True 递归导入所有子节点；否则为假。 |
-| importFormatMode | ImportFormatMode | 指定如何合并冲突的样式格式。 |
+| importFormatMode | ImportFormatMode | 指定如何合并有冲突的样式格式。 |
 
 ### 返回值
 
-克隆的导入节点。该节点属于目标文档，但没有父节点。
+克隆的、导入的节点。该节点属于目标文档，但没有父节点。
 
 ### 评论
 
@@ -97,9 +97,9 @@ public Node ImportNode(Node srcNode, bool isImportChildren, ImportFormatMode imp
 
 导入节点会创建属于导入文档的源节点的副本。 返回的节点没有父节点。源节点不会从原始文档中更改或删除。
 
-在将另一个文档中的节点插入该文档之前，必须先导入该节点。 在导入期间，文档特定的属性（例如对样式和列表的引用）将 从原始文档转换为导入文档。导入节点后，可以使用[`InsertBefore`](../../compositenode/insertbefore)或 [`InsertAfter`](../../compositenode/insertafter)。
+在将另一个文档中的节点插入此文档之前，必须先导入它。 在导入期间，文档特定的属性（例如对样式和列表的引用）会从原始文档翻译 到导入文档。节点导入后，可以使用 insert 插入到文档中的适当位置[`InsertBefore`](../../compositenode/insertbefore)或 [`InsertAfter`](../../compositenode/insertafter).
 
-如果源节点已经属于目标文档，则简单地创建源节点的深度克隆 。
+如果源节点已经属于目标文档，则只需创建源节点的深层 clone 。
 
 ### 例子
 

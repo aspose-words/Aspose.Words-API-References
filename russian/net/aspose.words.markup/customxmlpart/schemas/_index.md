@@ -1,14 +1,14 @@
 ---
 title: Schemas
 second_title: Справочник по API Aspose.Words для .NET
-description: Задает набор XML-схем связанных с этой настраиваемой частью XML.
+description: Указывает набор схем XML связанных с этой настраиваемой частью XML.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.markup/customxmlpart/schemas/
 ---
 ## CustomXmlPart.Schemas property
 
-Задает набор XML-схем, связанных с этой настраиваемой частью XML.
+Указывает набор схем XML, связанных с этой настраиваемой частью XML.
 
 ```csharp
 public CustomXmlSchemaCollection Schemas { get; }

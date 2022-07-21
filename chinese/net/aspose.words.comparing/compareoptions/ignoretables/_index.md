@@ -1,14 +1,14 @@
 ---
 title: IgnoreTables
 second_title: Aspose.Words for .NET API 参考
-description: 指定是否比较表中包含的数据的差异 默认情况下不忽略表
+description: 指定是否比较表中包含的数据的差异 默认情况下不会忽略表
 type: docs
 weight: 100
 url: /zh/net/aspose.words.comparing/compareoptions/ignoretables/
 ---
 ## CompareOptions.IgnoreTables property
 
-指定是否比较表中包含的数据的差异。 默认情况下不忽略表。
+指定是否比较表中包含的数据的差异。 默认情况下不会忽略表。
 
 ```csharp
 public bool IgnoreTables { get; set; }
@@ -16,7 +16,7 @@ public bool IgnoreTables { get; set; }
 
 ### 例子
 
-显示在进行比较时如何过滤特定类型的文档元素。
+显示如何在进行比较时过滤特定类型的文档元素。
 
 ```csharp
 // 创建原始文档并用各种元素填充它。

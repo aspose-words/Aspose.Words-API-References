@@ -1,14 +1,14 @@
 ---
 title: PosCodeStyle
 second_title: Справочник по API Aspose.Words для .NET
-description: Стиль штрих-кода торговой точки типы штрих-кода UPCAx7CUPCEx7CEAN13x7CEAN8. Допустимые значения без учета регистраSTDx7CSUP2x7CSUP5x7CCASE.
+description: Стиль штрих-кода торговой точки типы штрих-кода UPCAx7CUPCEx7CEAN13x7CEAN8. Допустимые значения без учета регистра STDx7CSUP2x7CSUP5x7CCASE.
 type: docs
 weight: 140
 url: /ru/net/aspose.words.fields/barcodeparameters/poscodestyle/
 ---
 ## BarcodeParameters.PosCodeStyle property
 
-Стиль штрих-кода торговой точки (типы штрих-кода UPCA&#x7C;UPCE&#x7C;EAN13&#x7C;EAN8). Допустимые значения (без учета регистра):[STD&#x7C;SUP2&#x7C;SUP5&#x7C;CASE].
+Стиль штрих-кода торговой точки (типы штрих-кода UPCA&#x7C;UPCE&#x7C;EAN13&#x7C;EAN8). Допустимые значения (без учета регистра): [STD&#x7C;SUP2&#x7C;SUP5&#x7C;CASE].
 
 ```csharp
 public string PosCodeStyle { get; set; }
@@ -22,14 +22,14 @@ public string PosCodeStyle { get; set; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
- // Мы можем использовать собственную реализацию IBarcodeGenerator для генерации штрих-кодов, 
- // и затем вставляем их в документ как изображения.
+// Мы можем использовать собственную реализацию IBarcodeGenerator для генерации штрих-кодов,
+// и затем вставляем их в документ как изображения.
 doc.FieldOptions.BarcodeGenerator = new CustomBarcodeGenerator();
 
- // Ниже приведены четыре примера различных типов штрих-кодов, которые мы можем создать с помощью нашего генератора.
- // Для каждого штрих-кода мы указываем новый набор параметров штрих-кода, а затем генерируем изображение.
+// Ниже приведены четыре примера различных типов штрих-кодов, которые мы можем создать с помощью нашего генератора.
+// Для каждого штрих-кода мы указываем новый набор параметров штрих-кода, а затем генерируем изображение.
 // После этого мы можем вставить изображение в документ или сохранить его в локальной файловой системе.
- // 1 - QR-код: 
+// 1 - QR-код:
 BarcodeParameters barcodeParameters = new BarcodeParameters
 {
     BarcodeType = "QR",
@@ -47,7 +47,7 @@ img.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.QR.jpg");
 
 builder.InsertImage(img);
 
- // 2 - штрих-код EAN13: 
+// 2 - штрих-код EAN13:
 barcodeParameters = new BarcodeParameters
 {
     BarcodeType = "EAN13",
@@ -61,7 +61,7 @@ img = doc.FieldOptions.BarcodeGenerator.GetBarcodeImage(barcodeParameters);
 img.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.EAN13.jpg");
 builder.InsertImage(img);
 
- // 3 - Штрих-код CODE39: 
+// 3 - штрих-код CODE39:
 barcodeParameters = new BarcodeParameters
 {
     BarcodeType = "CODE39",
@@ -73,7 +73,7 @@ img = doc.FieldOptions.BarcodeGenerator.GetBarcodeImage(barcodeParameters);
 img.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.CODE39.jpg");
 builder.InsertImage(img);
 
- // 4 - штрих-код ITF14: 
+// 4 - штрих-код ITF14:
 barcodeParameters = new BarcodeParameters
 {
     BarcodeType = "ITF14",

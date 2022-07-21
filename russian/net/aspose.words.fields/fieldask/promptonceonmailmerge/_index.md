@@ -1,14 +1,14 @@
 ---
 title: PromptOnceOnMailMerge
 second_title: Справочник по API Aspose.Words для .NET
-description: Получает или задает должен ли ответ пользователя быть получен один раз на операцию слияния почты.
+description: Получает или задает должен ли ответ пользователя быть получен один раз за операцию слияния.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.fields/fieldask/promptonceonmailmerge/
 ---
 ## FieldAsk.PromptOnceOnMailMerge property
 
-Получает или задает, должен ли ответ пользователя быть получен один раз на операцию слияния почты.
+Получает или задает, должен ли ответ пользователя быть получен один раз за операцию слияния.
 
 ```csharp
 public bool PromptOnceOnMailMerge { get; set; }
@@ -16,7 +16,7 @@ public bool PromptOnceOnMailMerge { get; set; }
 
 ### Примеры
 
-Показывает, как создать поле ASK и установить его свойства.
+Показывает, как создать поле ASK и задать его свойства.
 
 ```csharp
 [Test]

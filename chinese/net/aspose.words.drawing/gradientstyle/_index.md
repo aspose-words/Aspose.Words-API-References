@@ -18,9 +18,9 @@ public enum GradientStyle
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| None | `-1` | 无渐变。 |
+| None | `-1` | 没有渐变。 |
 | Horizontal | `1` | 在对象上水平运行的渐变。 |
-| Vertical | `2` | 垂直向下延伸的渐变对象。 |
+| Vertical | `2` | 沿对象垂直向下的渐变。 |
 | DiagonalUp | `3` | 从底角向上移动到对角的对角梯度。 |
 | DiagonalDown | `4` | 从顶角向下移动到对角的对角梯度。 |
 | FromCorner | `5` | 从一个角到其他三个角的渐变。 |
@@ -28,7 +28,7 @@ public enum GradientStyle
 
 ### 例子
 
-显示如何使用渐变填充形状。
+展示如何用渐变填充形状。
 
 ```csharp
 Document doc = new Document();

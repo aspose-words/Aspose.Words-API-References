@@ -1,14 +1,14 @@
 ---
 title: Fill
 second_title: Справочник по API Aspose.Words для .NET
-description: Получает форматирование заливки для фигуры.
+description: Получает формат заливки для фигуры.
 type: docs
 weight: 170
 url: /ru/net/aspose.words.drawing/shapebase/fill/
 ---
 ## ShapeBase.Fill property
 
-Получает форматирование заливки для фигуры.
+Получает формат заливки для фигуры.
 
 ```csharp
 public Fill Fill { get; }

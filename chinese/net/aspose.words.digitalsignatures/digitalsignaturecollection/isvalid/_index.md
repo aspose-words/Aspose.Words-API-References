@@ -1,14 +1,14 @@
 ---
 title: IsValid
 second_title: Aspose.Words for .NET API 参考
-description: 返回 true 如果此集合中的所有数字签名均有效且文档未被篡改 如果没有数字签名也会返回 true  如果至少一个数字签名无效则返回 false 
+description: 返回真的如果这个集合中的所有数字签名都有效并且文档没有被篡改 也返回真的如果没有数字签名 返回错误的如果至少一个数字签名无效
 type: docs
 weight: 30
 url: /zh/net/aspose.words.digitalsignatures/digitalsignaturecollection/isvalid/
 ---
 ## DigitalSignatureCollection.IsValid property
 
-返回` true` 如果此集合中的所有数字签名均有效且文档未被篡改 如果没有数字签名，也会返回` true` 。 如果至少一个数字签名无效，则返回` false` 。
+返回`真的`如果这个集合中的所有数字签名都有效并且文档没有被篡改 也返回`真的`如果没有数字签名。 返回`错误的`如果至少一个数字签名无效。
 
 ```csharp
 public bool IsValid { get; }

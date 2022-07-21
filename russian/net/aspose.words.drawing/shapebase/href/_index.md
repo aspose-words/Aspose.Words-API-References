@@ -18,19 +18,19 @@ public string HRef { get; set; }
 
 Значение по умолчанию — пустая строка.
 
-Ниже приведены примеры допустимых значений для этого свойства:
+Ниже приведены примеры допустимых значений этого свойства:
 
-Полный URI:` https://www.aspose.com/` .
+Полный URI:`https://www.aspose.com/`.
 
-Полное имя файла:` C:\\Мои документы\\SalesReport.doc` .
+Полное имя файла:`C:\\Мои документы\\SalesReport.doc`.
 
-Относительный URI:` ../../../resource.txt`
+Относительный URI:`../../../resource.txt`
 
-Относительное имя файла:` ..\\Мои документы\\SalesReport.doc` .
+Относительное имя файла:`..\\Мои документы\\SalesReport.doc`.
 
-Закладка в другом документе:` https://www.aspose.com/Products/Default.aspx#Suites`
+Закладка в другом документе:`https://www.aspose.com/Products/Default.aspx#Suites`
 
-Закладка в этом документе:` #BookmakName` .
+Закладка в этом документе:`#BookmakName`.
 
 ### Примеры
 

@@ -1,14 +1,14 @@
 ---
 title: Location
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置书签的名称页码或其他要跳转的项目
+description: 获取或设置书签的名称页码或其他要跳转到的项目
 type: docs
 weight: 30
 url: /zh/net/aspose.words.fields/fieldgotobutton/location/
 ---
 ## FieldGoToButton.Location property
 
-获取或设置书签的名称、页码或其他要跳转的项目。
+获取或设置书签的名称、页码或其他要跳转到的项目。
 
 ```csharp
 public string Location { get; set; }

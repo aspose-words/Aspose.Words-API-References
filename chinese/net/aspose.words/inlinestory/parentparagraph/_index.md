@@ -1,14 +1,14 @@
 ---
 title: ParentParagraph
 second_title: Aspose.Words for .NET API 参考
-description: 检索此节点的父Paragraphaspose.words/paragraph
+description: 检索父级Paragraphaspose.words/paragraph这个节点的.
 type: docs
 weight: 90
 url: /zh/net/aspose.words/inlinestory/parentparagraph/
 ---
 ## InlineStory.ParentParagraph property
 
-检索此节点的父[`Paragraph`](../../paragraph)。
+检索父级[`Paragraph`](../../paragraph)这个节点的.
 
 ```csharp
 public Paragraph ParentParagraph { get; }
@@ -23,40 +23,40 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 Footnote footnote = builder.InsertFootnote(FootnoteType.Footnote, null);
 
- // 表格节点有一个“EnsureMinimum()”方法，确保表格至少有一个单元格。
+// 表格节点有一个“EnsureMinimum()”方法，可以确保表格至少有一个单元格。
 Table table = new Table(doc);
 table.EnsureMinimum();
 
- // 我们可以在脚注中放置一个表格，这将使它出现在引用页面的页脚处。
+// 我们可以在脚注中放置一个表格，这将使它出现在引用页面的页脚处。
 Assert.That(footnote.Tables, Is.Empty);
 footnote.AppendChild(table);
 Assert.AreEqual(1, footnote.Tables.Count);
 Assert.AreEqual(NodeType.Table, footnote.LastChild.NodeType);
 
-// InlineStory 也有一个“EnsureMinimum()”方法，但在这种情况下，
- // 它确保节点的最后一个子节点是一个段落，
- // 让我们能够在 Microsoft Word 中轻松单击和书写文本。
+// InlineStory 也有一个“EnsureMinimum()”方法，但是在这种情况下，
+// 它确保节点的最后一个子节点是一个段落，
+// 让我们能够在 Microsoft Word 中轻松单击和书写文本。
 footnote.EnsureMinimum();
 Assert.AreEqual(NodeType.Paragraph, footnote.LastChild.NodeType);
 
- // 编辑anchor的外观，也就是小上标数字
- // 在指向脚注的正文中。
+// 编辑anchor的外观，也就是小上标数字
+// 在指向脚注的正文中。
 footnote.Font.Name = "Arial";
 footnote.Font.Color = Color.Green;
 
- // 所有内联故事节点都有各自的故事类型。
+// 所有内联故事节点都有各自的故事类型。
 Assert.AreEqual(StoryType.Footnotes, footnote.StoryType);
 
- // 评论是另一种类型的内联故事。
+// 评论是另一种类型的内联故事。
 Comment comment = (Comment)builder.CurrentParagraph.AppendChild(new Comment(doc, "John Doe", "J. D.", DateTime.Now));
 
- // 内联故事节点的父段落将是来自主文档主体的段落。
+// 内联故事节点的父段落将来自主文档正文。
 Assert.AreEqual(doc.FirstSection.Body.FirstParagraph, comment.ParentParagraph);
 
- // 但是，最后一段是来自评论文本内容的那一段，
- // 它将位于主文档正文之外的对话气泡中。
- // 注释默认不会有子节点,
- // 所以我们也可以应用 EnsureMinimum() 方法在这里放置一个段落。
+// 但是，最后一段是评论文本内容中的一段，
+// 它将位于主文档正文之外的对话气泡中。
+// 默认情况下，评论不会有任何子节点，
+// 所以我们也可以应用 EnsureMinimum() 方法在这里放置一个段落。
 Assert.Null(comment.LastParagraph);
 comment.EnsureMinimum();
 Assert.AreEqual(NodeType.Paragraph, comment.LastChild.NodeType);

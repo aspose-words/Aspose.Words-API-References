@@ -1,14 +1,14 @@
 ---
 title: BuildingBlockGallery
 second_title: Aspose.Words for .NET API 参考
-description: 指定将构建块分类到的预定义图库
+description: 指定将构建块分类到的预定义库
 type: docs
 weight: 150
 url: /zh/net/aspose.words.buildingblocks/buildingblockgallery/
 ---
 ## BuildingBlockGallery enumeration
 
-指定将构建块分类到的预定义图库。
+指定将构建块分类到的预定义库。
 
 ```csharp
 public enum BuildingBlockGallery
@@ -56,15 +56,15 @@ public enum BuildingBlockGallery
 | Tables | `35` |  |
 | TextBox | `36` |  |
 | Watermarks | `37` |  |
-| Default | `0` | 与All相同。 |
+| Default | `0` | 同All. |
 
 ### 评论
 
-对应于 **ST_DocPartGallery** 输入 OOXML。
+对应于 **ST_DocPartGallery**输入 OOXML。
 
 ### 例子
 
-词汇表文件。
+显示访问词汇表文档中构建块的方法。
 
 ```csharp
 public void GlossaryDocument()
@@ -82,33 +82,33 @@ public void GlossaryDocument()
 
     doc.GlossaryDocument = glossaryDoc;
 
-     // 有多种访问构建块的方式。
-     // 1 - 获取集合中的第一个/最后一个构建块：
+    // 有多种访问构建块的方法。
+    // 1 - 获取集合中的第一个/最后一个构建块：
     Assert.AreEqual("Block 1", glossaryDoc.FirstBuildingBlock.Name);
     Assert.AreEqual("Block 5", glossaryDoc.LastBuildingBlock.Name);
 
-     // 2 - 通过索引获取构建块：
+    // 2 - 通过索引获取构建块：
     Assert.AreEqual("Block 2", glossaryDoc.BuildingBlocks[1].Name);
     Assert.AreEqual("Block 3", glossaryDoc.BuildingBlocks.ToArray()[2].Name);
 
-     // 3 - 获取与画廊、名称和类别匹配的第一个构建块：
+    // 3 - 获取与画廊、名称和类别匹配的第一个构建块：
     Assert.AreEqual("Block 4", 
         glossaryDoc.GetBuildingBlock(BuildingBlockGallery.All, "(Empty Category)", "Block 4").Name);
 
-     // 我们将使用自定义访问者来实现，
-     // 这将为 GlossaryDocument 中的每个 BuildingBlock 提供唯一的 GUID
+    // 我们将使用自定义访问者来做到这一点，
+    // 这将为 GlossaryDocument 中的每个 BuildingBlock 提供唯一的 GUID
     GlossaryDocVisitor visitor = new GlossaryDocVisitor();
     glossaryDoc.Accept(visitor);
 
     Console.WriteLine(visitor.GetText());
 
-     // 在 Microsoft Word 中，我们可以通过“插入”-> 访问构建块“快速零件”-> “积木组织者”.
+    // 在 Microsoft Word 中，我们可以通过“插入”-> 访问构建块“快速零件”-> “积木组织者”。
     doc.Save(ArtifactsDir + "BuildingBlocks.GlossaryDocument.dotx"); 
 }
 
 /// <summary>
-/// 给访问过的词汇表文档中的每个构建块一个唯一的 GUID.
- /// 将 GUID 构建块对存储在字典中。
+/// 为访问的词汇表文档中的每个构建块提供唯一的 GUID。
+/// 将 GUID 构建块对存储在字典中。
 /// </summary>
 public class GlossaryDocVisitor : DocumentVisitor
 {

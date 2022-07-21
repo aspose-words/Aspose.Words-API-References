@@ -1,14 +1,14 @@
 ---
 title: ExportHeadersFootersMode
 second_title: Aspose.Words for .NET API 参考
-description: 指定页眉和页脚如何输出到 HTMLMHTML 或 EPUB 默认值为PerSection对于 HTML/MHTML 和None用于 EPUB
+description: 指定页眉和页脚如何输出到 HTMLMHTML 或 EPUB 默认值为PerSection对于 HTML/MHTML 和None对于 EPUB.
 type: docs
 weight: 170
 url: /zh/net/aspose.words.saving/htmlsaveoptions/exportheadersfootersmode/
 ---
 ## HtmlSaveOptions.ExportHeadersFootersMode property
 
-指定页眉和页脚如何输出到 HTML、MHTML 或 EPUB。 默认值为PerSection对于 HTML/MHTML 和None用于 EPUB。
+指定页眉和页脚如何输出到 HTML、MHTML 或 EPUB。 默认值为PerSection对于 HTML/MHTML 和None对于 EPUB.
 
 ```csharp
 public ExportHeadersFootersMode ExportHeadersFootersMode { get; set; }
@@ -18,15 +18,15 @@ public ExportHeadersFootersMode ExportHeadersFootersMode { get; set; }
 
 很难将页眉和页脚有意义地输出到 HTML，因为 HTML 没有分页。
 
-当此属性为PerSection时，Aspose.Words 导出 仅在每个部分的开头和结尾处的主要页眉和页脚。
+当这个属性是PerSectionAspose.Words exports 仅在每个部分的开头和结尾处的主要页眉和页脚。
 
-当它是FirstSectionHeaderLastSectionFooter 只有第一个主标题和最后一个主页脚（包括链接到上一个页脚）被导出。
+几时FirstSectionHeaderLastSectionFooter 仅导出第一个主页眉和最后一个主页脚（包括链接到上一个）。
 
-您可以通过将此属性 设置为None。
+您可以通过将此 property 设置为来完全禁用页眉和页脚的导出None.
 
 ### 例子
 
-显示如何在将文档保存为 HTML 时省略页眉/页脚。
+演示如何在将文档保存为 HTML 时省略页眉/页脚。
 
 ```csharp
 Document doc = new Document(MyDir + "Header and footer types.docx");

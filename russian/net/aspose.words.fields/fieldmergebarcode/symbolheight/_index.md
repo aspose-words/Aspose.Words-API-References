@@ -16,7 +16,7 @@ public string SymbolHeight { get; set; }
 
 ### Примеры
 
-Показывает, как выполнить слияние почты со штрих-кодами QR.
+Показывает, как выполнять слияние со штрих-кодами QR.
 
 ```csharp
 Document doc = new Document();

@@ -10,7 +10,7 @@ url: /ru/net/aspose.words.loading/rtfloadoptions/recognizeutf8text/
 
 Если установлено значение true,CharsetDetectorпопытается обнаружить символы UTF8, они будут сохранены при импорте.
 
-Значение по умолчанию - false.
+Значение по умолчанию — false.
 
 ```csharp
 public bool RecognizeUtf8Text { get; set; }
@@ -21,11 +21,11 @@ public bool RecognizeUtf8Text { get; set; }
 Показывает, как обнаруживать символы UTF-8 при загрузке документа RTF.
 
 ```csharp
- // Создайте объект «RtfLoadOptions», чтобы изменить способ загрузки документа RTF.
+// Создайте объект «RtfLoadOptions», чтобы изменить способ загрузки RTF-документа.
 RtfLoadOptions loadOptions = new RtfLoadOptions();
 
- // Установите для свойства "RecognizeUtf8Text" значение "false", чтобы предположить, что документ использует ISO 8859-1 charset
- // и загружает каждый символ в документе.
+// Установите для свойства "RecognizeUtf8Text" значение "false", чтобы предположить, что документ использует кодировку ISO 8859-1
+// и загружает каждый символ в документе.
 // Установите для свойства "RecognizeUtf8Text" значение "true", чтобы анализировать любые символы переменной длины, которые могут встречаться в тексте.
 loadOptions.RecognizeUtf8Text = recognizeUtf8Text;
 

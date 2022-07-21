@@ -16,7 +16,7 @@ public string SymbolHeight { get; set; }
 
 ### 例子
 
-显示如何插入 DISPLAYBARCODE 字段并设置其属性。
+演示如何插入 DISPLAYBARCODE 字段并设置其属性。
 
 ```csharp
 Document doc = new Document();

@@ -1,14 +1,14 @@
 ---
 title: RevisionGroup
 second_title: Справочник по API Aspose.Words для .NET
-description: Представляет группу последовательныхRevision./revisionобъектов.
+description: Представляет группу последовательныхRevision./revision объекты.
 type: docs
-weight: 4470
+weight: 4520
 url: /ru/net/aspose.words/revisiongroup/
 ---
 ## RevisionGroup class
 
-Представляет группу последовательных[`Revision`](../revision)объектов.
+Представляет группу последовательных[`Revision`](../revision) объекты.
 
 ```csharp
 public class RevisionGroup
@@ -24,7 +24,7 @@ public class RevisionGroup
 
 ### Примеры
 
-Показывает, как распечатать информацию о группе правок в документе.
+Показывает, как распечатать информацию о группе редакций в документе.
 
 ```csharp
 Document doc = new Document(MyDir + "Revisions.docx");

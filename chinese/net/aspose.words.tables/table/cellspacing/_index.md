@@ -24,35 +24,30 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 Table table = builder.StartTable();
 builder.InsertCell();
-builder.Write("Name");
+builder.Write("Animal");
 builder.InsertCell();
-builder.Write("مرحبًا");
+builder.Write("Class");
 builder.EndRow();
 builder.InsertCell();
+builder.Write("Dog");
 builder.InsertCell();
+builder.Write("Mammal");
 builder.EndTable();
 
-TableStyle tableStyle = (TableStyle)doc.Styles.Add(StyleType.Table, "MyTableStyle1");
-tableStyle.AllowBreakAcrossPages = true;
-tableStyle.Bidi = true;
-tableStyle.CellSpacing = 5;
-tableStyle.BottomPadding = 20;
-tableStyle.LeftPadding = 5;
-tableStyle.RightPadding = 10;
-tableStyle.TopPadding = 20;
-tableStyle.Shading.BackgroundPatternColor = Color.AntiqueWhite;
-tableStyle.Borders.Color = Color.Blue;
-tableStyle.Borders.LineStyle = LineStyle.DotDash;
-tableStyle.VerticalAlignment = CellVerticalAlignment.Center;
+table.CellSpacing = 3;
 
-table.Style = tableStyle;
+// 将“AllowCellSpacing”属性设置为“true”以启用单元格之间的间距
+// 大小等于“CellSpacing”属性的值，以磅为单位。
+// 将“AllowCellSpacing”属性设置为“false”以禁用单元格间距
+// 并忽略“CellSpacing”属性的值。
+table.AllowCellSpacing = allowCellSpacing;
 
- // 设置表格的样式属性可能会影响表格本身的属性
-Assert.True(table.Bidi);
-Assert.AreEqual(5.0d, table.CellSpacing);
-Assert.AreEqual("MyTableStyle1", table.StyleName);
+doc.Save(ArtifactsDir + "Table.AllowCellSpacing.html");
 
-doc.Save(ArtifactsDir + "Table.TableStyleCreation.docx");
+// 调整“CellSpacing”属性将自动启用单元格间距。
+table.CellSpacing = 5;
+
+Assert.True(table.AllowCellSpacing);
 ```
 
 显示如何为表格创建自定义样式设置。
@@ -86,7 +81,7 @@ tableStyle.VerticalAlignment = CellVerticalAlignment.Center;
 
 table.Style = tableStyle;
 
- // 设置表格的样式属性可能会影响表格本身的属性
+// 设置表格的样式属性可能会影响表格本身的属性。
 Assert.True(table.Bidi);
 Assert.AreEqual(5.0d, table.CellSpacing);
 Assert.AreEqual("MyTableStyle1", table.StyleName);

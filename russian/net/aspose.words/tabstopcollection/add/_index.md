@@ -16,7 +16,7 @@ public void Add(TabStop tabStop)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| tabStop | TabStop | Добавляемый объект табуляции. |
+| tabStop | TabStop | Объект табуляции для добавления. |
 
 ### Примечания
 
@@ -24,29 +24,29 @@ public void Add(TabStop tabStop)
 
 ### Примеры
 
-Показывает, как добавить в документ пользовательские позиции табуляции.
+Показывает, как добавить пользовательские позиции табуляции в документ.
 
 ```csharp
 Document doc = new Document();
 Paragraph paragraph = (Paragraph)doc.GetChild(NodeType.Paragraph, 0, true);
 
- // Ниже приведены два способа добавления позиций табуляции в коллекцию позиций табуляции абзаца с помощью свойства «ParagraphFormat». 
- // 1 - Создать объект "TabStop", а затем добавить его в коллекцию:
+// Ниже приведены два способа добавления позиций табуляции в коллекцию позиций табуляции абзаца с помощью свойства «ParagraphFormat».
+// 1 - Создадим объект "TabStop", а затем добавим его в коллекцию:
 TabStop tabStop = new TabStop(ConvertUtil.InchToPoint(3), TabAlignment.Left, TabLeader.Dashes);
 paragraph.ParagraphFormat.TabStops.Add(tabStop);
 
- // 2 - Передать значения свойств новой табуляции в метод "Добавить":
+// 2 - Передаем значения свойств новой табуляции в метод "Добавить":
 paragraph.ParagraphFormat.TabStops.Add(ConvertUtil.MillimeterToPoint(100), TabAlignment.Left,
     TabLeader.Dashes);
 
- // Добавляем позиции табуляции на расстоянии 5 см ко всем абзацам.
+// Добавляем позиции табуляции на расстоянии 5 см ко всем абзацам.
 foreach (Paragraph para in doc.GetChildNodes(NodeType.Paragraph, true).OfType<Paragraph>())
 {
     para.ParagraphFormat.TabStops.Add(ConvertUtil.MillimeterToPoint(50), TabAlignment.Left,
         TabLeader.Dashes);
 }
 
- // Каждый символ табуляции переводит курсор конструктора в положение следующей позиции табуляции.
+// Каждый символ табуляции переводит курсор конструктора в положение следующей позиции табуляции.
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Start\tTab 1\tTab 2\tTab 3\tTab 4");
 
@@ -72,9 +72,9 @@ public void Add(double position, TabAlignment alignment, TabLeader leader)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| position | Double | Позиция (в пунктах), куда добавить позицию табуляции. |
-| alignment | TabAlignment | A[`TabAlignment`](../../tabalignment)значение, которое определяет выравнивание текста по табуляция. |
-| leader | TabLeader | A[`TabLeader`](../../tableader)значение, которое определяет тип линии выноски отображается под символом табуляции. |
+| position | Double | Позиция (в пунктах), где добавить позицию табуляции. |
+| alignment | TabAlignment | А[`TabAlignment`](../../tabalignment)значение that определяет выравнивание текста по позиции табуляции. |
+| leader | TabLeader | А[`TabLeader`](../../tableader) значение that определяет тип линии выноски, отображаемой под символом табуляции. |
 
 ### Примечания
 
@@ -82,29 +82,29 @@ public void Add(double position, TabAlignment alignment, TabLeader leader)
 
 ### Примеры
 
-Показывает, как добавить в документ пользовательские позиции табуляции.
+Показывает, как добавить пользовательские позиции табуляции в документ.
 
 ```csharp
 Document doc = new Document();
 Paragraph paragraph = (Paragraph)doc.GetChild(NodeType.Paragraph, 0, true);
 
- // Ниже приведены два способа добавления позиций табуляции в коллекцию позиций табуляции абзаца с помощью свойства «ParagraphFormat». 
- // 1 - Создать объект "TabStop", а затем добавить его в коллекцию:
+// Ниже приведены два способа добавления позиций табуляции в коллекцию позиций табуляции абзаца с помощью свойства «ParagraphFormat».
+// 1 - Создадим объект "TabStop", а затем добавим его в коллекцию:
 TabStop tabStop = new TabStop(ConvertUtil.InchToPoint(3), TabAlignment.Left, TabLeader.Dashes);
 paragraph.ParagraphFormat.TabStops.Add(tabStop);
 
- // 2 - Передать значения свойств новой табуляции в метод "Добавить":
+// 2 - Передаем значения свойств новой табуляции в метод "Добавить":
 paragraph.ParagraphFormat.TabStops.Add(ConvertUtil.MillimeterToPoint(100), TabAlignment.Left,
     TabLeader.Dashes);
 
- // Добавляем позиции табуляции на расстоянии 5 см ко всем абзацам.
+// Добавляем позиции табуляции на расстоянии 5 см ко всем абзацам.
 foreach (Paragraph para in doc.GetChildNodes(NodeType.Paragraph, true).OfType<Paragraph>())
 {
     para.ParagraphFormat.TabStops.Add(ConvertUtil.MillimeterToPoint(50), TabAlignment.Left,
         TabLeader.Dashes);
 }
 
- // Каждый символ табуляции переводит курсор конструктора в положение следующей позиции табуляции.
+// Каждый символ табуляции переводит курсор конструктора в положение следующей позиции табуляции.
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Start\tTab 1\tTab 2\tTab 3\tTab 4");
 

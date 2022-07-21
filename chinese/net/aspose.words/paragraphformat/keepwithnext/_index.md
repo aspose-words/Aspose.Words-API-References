@@ -1,14 +1,14 @@
 ---
 title: KeepWithNext
 second_title: Aspose.Words for .NET API 参考
-description: 如果段落要与后面的段落保持在同一页上则为真
+description: 如果段落要与其后面的段落保持在同一页上则为真
 type: docs
 weight: 160
 url: /zh/net/aspose.words/paragraphformat/keepwithnext/
 ---
 ## ParagraphFormat.KeepWithNext property
 
-如果段落要与后面的段落保持在同一页上，则为真。
+如果段落要与其后面的段落保持在同一页上，则为真。
 
 ```csharp
 public bool KeepWithNext { get; set; }
@@ -22,8 +22,8 @@ public bool KeepWithNext { get; set; }
 Document doc = new Document(MyDir + "Table spanning two pages.docx");
 Table table = doc.FirstSection.Body.Tables[0];
 
- // 为表格中的每个段落启用 KeepWithNext，除了 the
- // 最后一行中的最后一个将防止表拆分为多个页面。
+// 为表格中的每个段落启用 KeepWithNext，除了
+// 最后一行中的最后一个将防止表拆分为多个页面。
 foreach (Cell cell in table.GetChildNodes(NodeType.Cell, true).OfType<Cell>())
     foreach (Paragraph para in cell.Paragraphs.OfType<Paragraph>())
     {

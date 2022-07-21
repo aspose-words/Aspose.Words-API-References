@@ -1,14 +1,14 @@
 ---
 title: Paragraphs
 second_title: Aspose.Words for .NET API 参考
-description: 获取作为单元格直接子级的段落的集合
+description: 获取作为单元格直接子级的段落集合
 type: docs
 weight: 80
 url: /zh/net/aspose.words.tables/cell/paragraphs/
 ---
 ## Cell.Paragraphs property
 
-获取作为单元格直接子级的段落的集合。
+获取作为单元格直接子级的段落集合。
 
 ```csharp
 public ParagraphCollection Paragraphs { get; }
@@ -22,8 +22,8 @@ public ParagraphCollection Paragraphs { get; }
 Document doc = new Document(MyDir + "Table spanning two pages.docx");
 Table table = doc.FirstSection.Body.Tables[0];
 
- // 为表格中的每个段落启用 KeepWithNext，除了 the
- // 最后一行中的最后一个将防止表拆分为多个页面。
+// 为表格中的每个段落启用 KeepWithNext，除了
+// 最后一行中的最后一个将防止表拆分为多个页面。
 foreach (Cell cell in table.GetChildNodes(NodeType.Cell, true).OfType<Cell>())
     foreach (Paragraph para in cell.Paragraphs.OfType<Paragraph>())
     {

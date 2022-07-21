@@ -1,14 +1,14 @@
 ---
 title: ShowLegendKey
 second_title: Справочник по API Aspose.Words для .NET
-description: Позволяет указать должен ли отображаться ключ легенды для меток данных на графике. Значение по умолчанию  false.
+description: Позволяет указать должен ли отображаться ключ легенды для меток данных на диаграмме. Значение по умолчанию  false.
 type: docs
 weight: 100
 url: /ru/net/aspose.words.drawing.charts/chartdatalabel/showlegendkey/
 ---
 ## ChartDataLabel.ShowLegendKey property
 
-Позволяет указать, должен ли отображаться ключ легенды для меток данных на графике. Значение по умолчанию — false.
+Позволяет указать, должен ли отображаться ключ легенды для меток данных на диаграмме. Значение по умолчанию — false.
 
 ```csharp
 public bool ShowLegendKey { get; set; }

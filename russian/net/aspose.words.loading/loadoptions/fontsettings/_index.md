@@ -1,14 +1,14 @@
 ---
 title: FontSettings
 second_title: Справочник по API Aspose.Words для .NET
-description: Позволяет задать настройки шрифта документа.
+description: Позволяет указать настройки шрифта документа.
 type: docs
 weight: 70
 url: /ru/net/aspose.words.loading/loadoptions/fontsettings/
 ---
 ## LoadOptions.FontSettings property
 
-Позволяет задать настройки шрифта документа.
+Позволяет указать настройки шрифта документа.
 
 ```csharp
 public FontSettings FontSettings { get; set; }
@@ -16,34 +16,31 @@ public FontSettings FontSettings { get; set; }
 
 ### Примечания
 
-При загрузке некоторых форматов Aspose.Words может потребовать разрешения шрифтов. Например, при загрузке HTML-документов Aspose.Words может разрешать шрифты для выполнения отката шрифта.
+При загрузке некоторых форматов Aspose.Words может потребовать разрешения шрифтов. Например, при загрузке HTML-документов Aspose.Words может разрешать шрифты для выполнения резервного шрифта.
 
-Если установлено значение null, будут использоваться настройки статического шрифта по умолчанию[`DefaultInstance`](../../../aspose.words.fonts/fontsettings/defaultinstance).
+Если установлено значение null, настройки статического шрифта по умолчанию[`DefaultInstance`](../../../aspose.words.fonts/fontsettings/defaultinstance) будет использован.
 
-Значение по умолчанию равно null.
+Значение по умолчанию равно нулю.
 
 ### Примеры
 
-Показывает, как применить параметры замены шрифта при загрузке документа.
+Показывает, как применять параметры замены шрифта при загрузке документа.
 
 ```csharp
+// Создадим объект FontSettings, который заменит шрифт "Times New Roman"
+// со шрифтом "Arvo" из нашей папки "MyFonts".
+FontSettings fontSettings = new FontSettings();
+fontSettings.SetFontsFolder(FontsDir, false);
+fontSettings.SubstitutionSettings.TableSubstitution.AddSubstitutes("Times New Roman", "Arvo");
+
+// Установить этот объект FontSettings как свойство только что созданного объекта LoadOptions.
 LoadOptions loadOptions = new LoadOptions();
-loadOptions.FontSettings = new FontSettings();
+loadOptions.FontSettings = fontSettings;
 
-// Установить правило замены шрифта для объекта LoadOptions.
-// Если загружаемый документ использует шрифт, которого у нас нет,
-// это правило заменит недоступный шрифт существующим.
-// В этом случае все варианты использования «MissingFont» будут преобразованы в «Comic Sans MS».
-TableSubstitutionRule substitutionRule = loadOptions.FontSettings.SubstitutionSettings.TableSubstitution;
-substitutionRule.AddSubstitutes("MissingFont", new[] {"Comic Sans MS"});
+// Загрузите документ, затем визуализируйте его как PDF с заменой шрифта.
+Document doc = new Document(MyDir + "Document.docx", loadOptions);
 
-Document doc = new Document(MyDir + "Missing font.html", loadOptions);
-
-// В этот момент такой текст все еще будет в "MissingFont".
-// Подстановка шрифта произойдет при рендеринге документа.
-Assert.AreEqual("MissingFont", doc.FirstSection.Body.FirstParagraph.Runs[0].Font.Name);
-
-doc.Save(ArtifactsDir + "FontSettings.ResolveFontsBeforeLoadingDocument.pdf");
+doc.Save(ArtifactsDir + "LoadOptions.FontSettings.pdf");
 ```
 
 Показывает, как назначать заменители шрифта во время загрузки.

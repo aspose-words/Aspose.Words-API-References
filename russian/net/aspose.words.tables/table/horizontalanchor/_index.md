@@ -1,14 +1,14 @@
 ---
 title: HorizontalAnchor
 second_title: Справочник по API Aspose.Words для .NET
-description: Получает базовый объект из которого должно быть рассчитано горизонтальное позиционирование плавающей таблицы. Значение по умолчаниюColumn.
+description: Получает базовый объект из которого должно быть рассчитано горизонтальное позиционирование плавающей таблицы. Значение по умолчаниюColumn .
 type: docs
 weight: 170
 url: /ru/net/aspose.words.tables/table/horizontalanchor/
 ---
 ## Table.HorizontalAnchor property
 
-Получает базовый объект, из которого должно быть рассчитано горизонтальное позиционирование плавающей таблицы. Значение по умолчанию:Column.
+Получает базовый объект, из которого должно быть рассчитано горизонтальное позиционирование плавающей таблицы. Значение по умолчанию:Column .
 
 ```csharp
 public RelativeHorizontalPosition HorizontalAnchor { get; set; }
@@ -29,12 +29,12 @@ if (table.TextWrapping == TextWrapping.Around)
     Assert.AreEqual(RelativeVerticalPosition.Paragraph, table.VerticalAnchor);
     Assert.AreEqual(false, table.AllowOverlap);
 
-     // Только Margin, Page, Column доступны в RelativeHorizontalPosition для установки HorizontalAnchor.
-     // ArgumentException будет сгенерировано для любых других значений.
+    // Только Margin, Page, Column доступны в RelativeHorizontalPosition для установщика HorizontalAnchor.
+    // ArgumentException будет сгенерировано для любых других значений.
     table.HorizontalAnchor = RelativeHorizontalPosition.Column;
 
-     // Только Margin, Page, Paragraph доступны в RelativeVerticalPosition для установки VerticalAnchor.
-     // ArgumentException будет сгенерировано для любых других значений.
+    // Только Margin, Page, Paragraph доступны в RelativeVerticalPosition для установщика VerticalAnchor.
+    // ArgumentException будет сгенерировано для любых других значений.
     table.VerticalAnchor = RelativeVerticalPosition.Page;
 }
 ```

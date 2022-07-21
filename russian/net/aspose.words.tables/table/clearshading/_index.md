@@ -22,20 +22,20 @@ public void ClearShading()
 Document doc = new Document(MyDir + "Tables.docx");
 Table table = doc.FirstSection.Body.Tables[0];
 
- // Выравниваем таблицу по центру страницы.
+// Выравниваем таблицу по центру страницы.
 table.Alignment = TableAlignment.Center;
 
- // Очистить все существующие границы и затенение таблицы.
+// Очистить все существующие границы и затенение из таблицы.
 table.ClearBorders();
 table.ClearShading();
 
- // Добавляем зеленые рамки к контуру таблицы.
+// Добавляем зеленые рамки к контуру таблицы.
 table.SetBorder(BorderType.Left, LineStyle.Single, 1.5, Color.Green, true);
 table.SetBorder(BorderType.Right, LineStyle.Single, 1.5, Color.Green, true);
 table.SetBorder(BorderType.Top, LineStyle.Single, 1.5, Color.Green, true);
 table.SetBorder(BorderType.Bottom, LineStyle.Single, 1.5, Color.Green, true);
 
- // Заливаем ячейки светло-зеленым сплошным цветом.
+// Заливаем ячейки светло-зеленым сплошным цветом.
 table.SetShading(TextureIndex.TextureSolid, Color.LightGreen, Color.Empty);
 
 doc.Save(ArtifactsDir + "Table.SetOutlineBorders.docx");

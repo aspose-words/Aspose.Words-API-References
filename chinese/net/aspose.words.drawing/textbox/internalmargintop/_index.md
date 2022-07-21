@@ -1,14 +1,14 @@
 ---
 title: InternalMarginTop
 second_title: Aspose.Words for .NET API 参考
-description: 以磅为单位指定形状的内部上边距
+description: 指定形状的内部上边距以磅为单位
 type: docs
 weight: 50
 url: /zh/net/aspose.words.drawing/textbox/internalmargintop/
 ---
 ## TextBox.InternalMarginTop property
 
-以磅为单位指定形状的内部上边距。
+指定形状的内部上边距（以磅为单位）。
 
 ```csharp
 public double InternalMarginTop { get; set; }

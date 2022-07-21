@@ -1,14 +1,14 @@
 ---
 title: Kerning
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置字距调整开始的字体大小
+description: 获取或设置字距调整开始时的字体大小
 type: docs
 weight: 180
 url: /zh/net/aspose.words/font/kerning/
 ---
 ## Font.Kerning property
 
-获取或设置字距调整开始的字体大小。
+获取或设置字距调整开始时的字体大小。
 
 ```csharp
 public double Kerning { get; set; }

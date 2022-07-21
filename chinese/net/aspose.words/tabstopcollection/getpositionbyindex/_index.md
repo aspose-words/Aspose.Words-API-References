@@ -24,7 +24,7 @@ public double GetPositionByIndex(int index)
 
 ### 例子
 
-显示如何查找选项卡、停止其索引并验证其位置。
+显示如何查找选项卡、按其索引停止并验证其位置。
 
 ```csharp
 Document doc = new Document();
@@ -33,7 +33,7 @@ TabStopCollection tabStops = doc.FirstSection.Body.Paragraphs[0].ParagraphFormat
 tabStops.Add(ConvertUtil.MillimeterToPoint(30), TabAlignment.Left, TabLeader.Dashes);
 tabStops.Add(ConvertUtil.MillimeterToPoint(60), TabAlignment.Left, TabLeader.Dashes);
 
- // 验证集合中第二个制表位的位置。
+// 验证集合中第二个制表位的位置。
 Assert.AreEqual(ConvertUtil.MillimeterToPoint(60), tabStops.GetPositionByIndex(1), 0.1d);
 ```
 

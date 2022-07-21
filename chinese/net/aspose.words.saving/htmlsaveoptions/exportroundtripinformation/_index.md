@@ -1,14 +1,14 @@
 ---
 title: ExportRoundtripInformation
 second_title: Aspose.Words for .NET API 参考
-description: 指定保存为 HTMLMHTML 或 EPUB 时是否写入往返信息 默认值为 true 对于 HTML 和 false 对于 MHTML 和电子版
+description: 指定保存为 HTMLMHTML 或 EPUB 时是否写入往返信息 默认值为真的对于 HTML 和错误的对于 MHTML 和 EPUB.
 type: docs
 weight: 250
 url: /zh/net/aspose.words.saving/htmlsaveoptions/exportroundtripinformation/
 ---
 ## HtmlSaveOptions.ExportRoundtripInformation property
 
-指定保存为 HTML、MHTML 或 EPUB 时是否写入往返信息。 默认值为` true` 对于 HTML 和` false` 对于 MHTML 和电子版。
+指定保存为 HTML、MHTML 或 EPUB 时是否写入往返信息。 默认值为`真的`对于 HTML 和`错误的`对于 MHTML 和 EPUB.
 
 ```csharp
 public bool ExportRoundtripInformation { get; set; }
@@ -16,15 +16,15 @@ public bool ExportRoundtripInformation { get; set; }
 
 ### 评论
 
-保存往返信息允许恢复文档属性，例如制表位、 HTML 文档加载回[`Document`](../../../aspose.words/document)对象期间的注释、页眉和页脚。
+保存往返信息允许在 HTML 文档加载回[`Document`](../../../aspose.words/document)目的。
 
-当` true` 时，往返信息导出为 -aw-* CSS 属性 的相应 HTML 元素。
+什么时候`真的`，往返信息导出为相应 HTML 元素的 -aw-* CSS properties 。
 
-当` false` 时，不会将往返信息输出到生成的文件中。
+什么时候`错误的`, 导致没有往返信息输出到生成的文件中。
 
 ### 例子
 
-显示在转换为 .html 时如何保留隐藏元素。
+展示了在转换为 .html 时如何保留隐藏元素。
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");

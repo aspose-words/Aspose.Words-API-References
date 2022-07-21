@@ -1,14 +1,14 @@
 ---
 title: ExportDropDownFormFieldAsText
 second_title: Справочник по API Aspose.Words для .NET
-description: Управляет способом сохранения полей раскрывающихся форм в HTML или MHTML. Значение по умолчанию false .
+description: Управляет тем как поля раскрывающихся форм сохраняются в формате HTML или MHTML. Значение по умолчаниюЛОЖЬ .
 type: docs
 weight: 140
 url: /ru/net/aspose.words.saving/htmlsaveoptions/exportdropdownformfieldastext/
 ---
 ## HtmlSaveOptions.ExportDropDownFormFieldAsText property
 
-Управляет способом сохранения полей раскрывающихся форм в HTML или MHTML. Значение по умолчанию:` false` .
+Управляет тем, как поля раскрывающихся форм сохраняются в формате HTML или MHTML. Значение по умолчанию:`ЛОЖЬ` .
 
 ```csharp
 public bool ExportDropDownFormFieldAsText { get; set; }
@@ -16,9 +16,9 @@ public bool ExportDropDownFormFieldAsText { get; set; }
 
 ### Примечания
 
-При значении` true` экспортирует раскрывающиеся поля формы как обычный текст. Когда` false` , экспортирует поля раскрывающейся формы как элемент SELECT в HTML.
+При установке на`истинный` , экспортирует раскрывающиеся поля формы как обычный текст. Когда`ЛОЖЬ`, экспортирует раскрывающиеся поля формы как элемент SELECT в HTML.
 
-При экспорте в EPUB текстовые выпадающие поля формы всегда сохраняются как текстовые в соответствии с требованиями этого формата.
+При экспорте в EPUB текстовые поля выпадающей формы всегда сохраняются как текст из-за требований этого формата.
 
 ### Примеры
 

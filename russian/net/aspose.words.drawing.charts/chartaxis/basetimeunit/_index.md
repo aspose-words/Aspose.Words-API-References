@@ -1,14 +1,14 @@
 ---
 title: BaseTimeUnit
 second_title: Справочник по API Aspose.Words для .NET
-description: Возвращает или задает наименьшую единицу времени представленную на оси категорий времени.
+description: Возвращает или задает наименьшую единицу времени представленную на оси категории времени.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.drawing.charts/chartaxis/basetimeunit/
 ---
 ## ChartAxis.BaseTimeUnit property
 
-Возвращает или задает наименьшую единицу времени, представленную на оси категорий времени.
+Возвращает или задает наименьшую единицу времени, представленную на оси категории времени.
 
 ```csharp
 public AxisTimeUnit BaseTimeUnit { get; set; }
@@ -16,7 +16,7 @@ public AxisTimeUnit BaseTimeUnit { get; set; }
 
 ### Примечания
 
-Свойство действует только для осей категории времени.
+Свойство действует только для осей категорий времени.
 
 ### Примеры
 

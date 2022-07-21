@@ -1,14 +1,14 @@
 ---
 title: ContentDisposition
 second_title: Aspose.Words for .NET API 参考
-description: 枚举在客户端浏览器上呈现文档的不同方式
+description: 枚举在客户端浏览器中呈现文档的不同方式
 type: docs
 weight: 330
 url: /zh/net/aspose.words/contentdisposition/
 ---
 ## ContentDisposition enumeration
 
-枚举在客户端浏览器上呈现文档的不同方式。
+枚举在客户端浏览器中呈现文档的不同方式。
 
 ```csharp
 public enum ContentDisposition
@@ -27,7 +27,7 @@ public enum ContentDisposition
 
 ### 例子
 
-显示如何执行邮件合并，然后将文档保存到客户端浏览器。
+演示如何执行邮件合并，然后将文档保存到客户端浏览器。
 
 ```csharp
 Document doc = new Document();
@@ -44,11 +44,11 @@ builder.InsertField(" MERGEFIELD City ");
 doc.MailMerge.Execute(new string[] { "FullName", "Company", "Address", "City" },
     new object[] { "James Bond", "MI5 Headquarters", "Milbank", "London" });
 
- // 将文档发送到客户端浏览器。
+// 将文档发送到客户端浏览器。
 Assert.That(() => doc.Save(response, "Artifacts/MailMerge.ExecuteArray.docx", ContentDisposition.Inline, null),
-    Throws.TypeOf<ArgumentNullException>());  //因为HttpResponse在测试中为空而抛出。
+    Throws.TypeOf<ArgumentNullException>()); //因为HttpResponse在测试中为null而抛出。
 
-// 我们将需要手动关闭此响应，以确保我们不会在保存后向文档添加任何多余的内容。
+// 我们将需要手动关闭这个响应，以确保我们不会在保存后向文档添加任何多余的内容。
 Assert.That(() => response.End(), Throws.TypeOf<NullReferenceException>());
 ```
 

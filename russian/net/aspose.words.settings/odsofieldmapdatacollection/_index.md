@@ -1,14 +1,14 @@
 ---
 title: OdsoFieldMapDataCollection
 second_title: Справочник по API Aspose.Words для .NET
-description: Типизированная коллекция объектовOdsoFieldMapData./odsofieldmapdata.
+description: Типизированная коллекцияOdsoFieldMapData./odsofieldmapdata объекты.
 type: docs
-weight: 5560
+weight: 5610
 url: /ru/net/aspose.words.settings/odsofieldmapdatacollection/
 ---
 ## OdsoFieldMapDataCollection class
 
-Типизированная коллекция объектов[`OdsoFieldMapData`](../odsofieldmapdata).
+Типизированная коллекция[`OdsoFieldMapData`](../odsofieldmapdata) объекты.
 
 ```csharp
 public class OdsoFieldMapDataCollection : IEnumerable<OdsoFieldMapData>
@@ -33,7 +33,7 @@ public class OdsoFieldMapDataCollection : IEnumerable<OdsoFieldMapData>
 | --- | --- |
 | [Add](../../aspose.words.settings/odsofieldmapdatacollection/add)(OdsoFieldMapData) | Добавляет объект в конец этой коллекции. |
 | [Clear](../../aspose.words.settings/odsofieldmapdatacollection/clear)() | Удаляет все элементы из этой коллекции. |
-| [GetEnumerator](../../aspose.words.settings/odsofieldmapdatacollection/getenumerator)() | Возвращает объект перечислителя, который можно использовать для перебора всех элементов коллекции. |
+| [GetEnumerator](../../aspose.words.settings/odsofieldmapdatacollection/getenumerator)() | Возвращает объект перечислителя, который можно использовать для перебора всех элементов в коллекции. |
 | [RemoveAt](../../aspose.words.settings/odsofieldmapdatacollection/removeat)(int) | Удаляет элемент по указанному индексу. |
 
 ### Примеры
@@ -43,8 +43,8 @@ public class OdsoFieldMapDataCollection : IEnumerable<OdsoFieldMapData>
 ```csharp
 Document doc = new Document(MyDir + "Odso data.docx");
 
- // Эта коллекция определяет, как слияние будет отображать столбцы из источника данных
- // в предопределенные поля MERGEFIELD, ADDRESSBLOCK и GREETINGLINE.
+// Эта коллекция определяет, как слияние почты будет отображать столбцы из источника данных
+// в предопределенные поля MERGEFIELD, ADDRESSBLOCK и GREETINGLINE.
 OdsoFieldMapDataCollection dataCollection = doc.MailMergeSettings.Odso.FieldMapDatas;
 Assert.AreEqual(30, dataCollection.Count);
 
@@ -62,15 +62,15 @@ using (IEnumerator<OdsoFieldMapData> enumerator = dataCollection.GetEnumerator()
     }
 }
 
- // Клонируем элементы этой коллекции.
+// Клонируем элементы этой коллекции.
 Assert.AreNotEqual(dataCollection[0], dataCollection[0].Clone());
 
- // Использовать элементы метода "RemoveAt" по отдельности по index.
+// Использовать элементы метода "RemoveAt" по отдельности по индексу.
 dataCollection.RemoveAt(0);
 
 Assert.AreEqual(29, dataCollection.Count);
 
- // Используйте метод «Очистить», чтобы сразу очистить всю коллекцию.
+// Используйте метод «Очистить», чтобы сразу очистить всю коллекцию.
 dataCollection.Clear();
 
 Assert.AreEqual(0, dataCollection.Count);

@@ -1,14 +1,14 @@
 ---
 title: ResourceLoadingArgs
 second_title: Справочник по API Aspose.Words для .NET
-description: Предоставляет данные для методаResourceLoading./iresourceloadingcallback/resourceloading.
+description: Предоставляет данные дляResourceLoading./iresourceloadingcallback/resourceloading метод.
 type: docs
-weight: 3440
+weight: 3490
 url: /ru/net/aspose.words.loading/resourceloadingargs/
 ---
 ## ResourceLoadingArgs class
 
-Предоставляет данные для метода[`ResourceLoading`](../iresourceloadingcallback/resourceloading).
+Предоставляет данные для[`ResourceLoading`](../iresourceloadingcallback/resourceloading) метод.
 
 ```csharp
 public class ResourceLoadingArgs
@@ -20,13 +20,13 @@ public class ResourceLoadingArgs
 | --- | --- |
 | [OriginalUri](../../aspose.words.loading/resourceloadingargs/originaluri) { get; } | Исходный URI ресурса, указанный в импортированном документе. |
 | [ResourceType](../../aspose.words.loading/resourceloadingargs/resourcetype) { get; } | Тип ресурса. |
-| [Uri](../../aspose.words.loading/resourceloadingargs/uri) { get; set; } | URI ресурса, который используется для скачивания if[`ResourceLoading`](../iresourceloadingcallback/resourceloading) возвращаетDefault. |
+| [Uri](../../aspose.words.loading/resourceloadingargs/uri) { get; set; } | URI ресурса, который используется для скачивания , если[`ResourceLoading`](../iresourceloadingcallback/resourceloading) возвращаетDefault. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [SetData](../../aspose.words.loading/resourceloadingargs/setdata)(byte[]) | Устанавливает предоставленные пользователем данные об используемом ресурсе if[`ResourceLoading`](../iresourceloadingcallback/resourceloading) возвращаетUserProvided. |
+| [SetData](../../aspose.words.loading/resourceloadingargs/setdata)(byte[]) | Устанавливает предоставленные пользователем данные ресурса, который используется , если[`ResourceLoading`](../iresourceloadingcallback/resourceloading) возвращаетUserProvided . |
 
 ### Примеры
 

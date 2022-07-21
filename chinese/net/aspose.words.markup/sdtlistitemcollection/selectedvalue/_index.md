@@ -1,14 +1,14 @@
 ---
 title: SelectedValue
 second_title: Aspose.Words for .NET API 参考
-description: 指定此列表中当前选定的值 Null 值允许这意味着当前选择的条目没有与此列表项集合相关联
+description: 指定此列表中当前选定的值 允许空值这意味着当前选定的条目与此列表项集合没有关联
 type: docs
 weight: 30
 url: /zh/net/aspose.words.markup/sdtlistitemcollection/selectedvalue/
 ---
 ## SdtListItemCollection.SelectedValue property
 
-指定此列表中当前选定的值。 Null 值允许，这意味着当前选择的条目没有与此列表项集合相关联。
+指定此列表中当前选定的值。 允许空值，这意味着当前选定的条目与此列表项集合没有关联。
 
 ```csharp
 public SdtListItem SelectedValue { get; set; }
@@ -16,7 +16,7 @@ public SdtListItem SelectedValue { get; set; }
 
 ### 例子
 
-显示如何使用下拉列表结构化文档标签。
+展示如何使用下拉列表结构化文档标签。
 
 ```csharp
 Document doc = new Document();

@@ -1,14 +1,14 @@
 ---
 title: BackgroundColor
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置条码符号的背景颜色有效值范围为 0 0xFFFFFF
+description: 获取或设置条码符号的背景颜色有效值在 0 0xFFFFFF 范围内
 type: docs
 weight: 30
 url: /zh/net/aspose.words.fields/fielddisplaybarcode/backgroundcolor/
 ---
 ## FieldDisplayBarcode.BackgroundColor property
 
-获取或设置条码符号的背景颜色。有效值范围为 [0, 0xFFFFFF]
+获取或设置条码符号的背景颜色。有效值在 [0, 0xFFFFFF] 范围内
 
 ```csharp
 public string BackgroundColor { get; set; }
@@ -16,7 +16,7 @@ public string BackgroundColor { get; set; }
 
 ### 例子
 
-显示如何插入 DISPLAYBARCODE 字段并设置其属性。
+演示如何插入 DISPLAYBARCODE 字段并设置其属性。
 
 ```csharp
 Document doc = new Document();

@@ -1,14 +1,14 @@
 ---
 title: FontSubstitutionRule
 second_title: Справочник по API Aspose.Words для .NET
-description: Это абстрактный базовый класс для правила подстановки шрифта.
+description: Это абстрактный базовый класс для правила подстановки шрифтов.
 type: docs
-weight: 2770
+weight: 2820
 url: /ru/net/aspose.words.fonts/fontsubstitutionrule/
 ---
 ## FontSubstitutionRule class
 
-Это абстрактный базовый класс для правила подстановки шрифта.
+Это абстрактный базовый класс для правила подстановки шрифтов.
 
 ```csharp
 public abstract class FontSubstitutionRule
@@ -18,11 +18,11 @@ public abstract class FontSubstitutionRule
 
 | Имя | Описание |
 | --- | --- |
-| virtual [Enabled](../../aspose.words.fonts/fontsubstitutionrule/enabled) { get; set; } | Указывает, включено ли правило или нет. |
+| virtual [Enabled](../../aspose.words.fonts/fontsubstitutionrule/enabled) { get; set; } | Указывает, включено ли правило. |
 
 ### Примеры
 
-Показывает подстановку конфигурации шрифта, зависящую от операционной системы.
+Показывает подстановку конфигурации шрифта в зависимости от операционной системы.
 
 ```csharp
 FontSettings fontSettings = new FontSettings();

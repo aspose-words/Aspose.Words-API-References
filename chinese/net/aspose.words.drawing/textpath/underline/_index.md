@@ -8,7 +8,7 @@ url: /zh/net/aspose.words.drawing/textpath/underline/
 ---
 ## TextPath.Underline property
 
-如果字体有下划线，则为真。
+如果字体有下划线则为真。
 
 ```csharp
 public bool Underline { get; set; }
@@ -16,7 +16,7 @@ public bool Underline { get; set; }
 
 ### 评论
 
-默认值为 **false** 。
+默认值为 **错误的**.
 
 ### 例子
 

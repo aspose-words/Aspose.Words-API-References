@@ -16,19 +16,19 @@ public override bool Accept(DocumentVisitor visitor)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| visitor | DocumentVisitor | Посетитель, который посетит узлы. |
+| visitor | DocumentVisitor | Посетитель, который будет посещать узлы. |
 
 ### Возвращаемое значение
 
-Истинно, если были посещены все узлы; false, если DocumentVisitor остановил операцию перед посещением всех узлов.
+Истинно, если все узлы были посещены; false, если DocumentVisitor остановил операцию перед посещением всех узлов.
 
 ### Примечания
 
 Перечисляет этот узел и все его дочерние элементы. Каждый узел вызывает соответствующий метод в DocumentVisitor.
 
-Для получения дополнительной информации см. шаблон проектирования Посетитель.
+Дополнительные сведения см. в шаблоне проектирования «Посетитель».
 
-Вызовы[`VisitGroupShapeStart`](../../../aspose.words/documentvisitor/visitgroupshapestart), затем вызывает[`Accept`](../../../aspose.words/node/accept)для всех дочерних форм этой групповой формы и вызывает[`VisitGroupShapeEnd`](../../../aspose.words/documentvisitor/visitgroupshapeend)в конце.
+звонки[`VisitGroupShapeStart`](../../../aspose.words/documentvisitor/visitgroupshapestart) , затем звонит[`Accept`](../../../aspose.words/node/accept) для всех дочерних форм этой групповой формы и вызовов[`VisitGroupShapeEnd`](../../../aspose.words/documentvisitor/visitgroupshapeend) в конце.
 
 ### Примеры
 
@@ -40,9 +40,9 @@ public void GroupOfShapes()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-     // Если вам нужно создать "непримитивные" фигуры, такие как SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped, 
-     // TopCornersOneRoundedOneSnipped, SingleCornerRounded, TopCornersRounded, DiagonalCornersRounded
-     // используйте методы DocumentBuilder.InsertShape.
+    // Если вам нужно создать "непримитивные" фигуры, такие как SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,
+    // TopCornersOneRoundedOneSnipped, SingleCornerRounded, TopCornersRounded, DiagonalCornersRounded
+    // используйте методы DocumentBuilder.InsertShape.
     Shape balloon = new Shape(doc, ShapeType.Balloon)
     {
         Width = 200, 
@@ -72,7 +72,7 @@ public void GroupOfShapes()
 }
 
 /// <summary>
- /// Выводит содержимое посещенной группы форм на консоль.
+/// Выводит содержимое посещенной группы форм на консоль.
 /// </summary>
 public class ShapeGroupPrinter : DocumentVisitor
 {

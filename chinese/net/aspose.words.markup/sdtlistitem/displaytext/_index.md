@@ -1,14 +1,14 @@
 ---
 title: DisplayText
 second_title: Aspose.Words for .NET API 参考
-description: 获取要在运行内容中显示的文本以代替Valueaspose.words.markup/sdtlistitem/value属性内容此列表项
+description: 获取要在运行内容中显示的文本以代替Valueaspose.words.markup/sdtlistitem/value此列表项的属性内容
 type: docs
 weight: 20
 url: /zh/net/aspose.words.markup/sdtlistitem/displaytext/
 ---
 ## SdtListItem.DisplayText property
 
-获取要在运行内容中显示的文本以代替[`Value`](../value)属性内容此列表项。
+获取要在运行内容中显示的文本，以代替[`Value`](../value)此列表项的属性内容。
 
 ```csharp
 public string DisplayText { get; }
@@ -16,11 +16,11 @@ public string DisplayText { get; }
 
 ### 评论
 
-不能为空，也不能为空字符串。
+不能为 null，也不能为空字符串。
 
 ### 例子
 
-显示如何使用下拉列表结构化文档标签。
+展示如何使用下拉列表结构化文档标签。
 
 ```csharp
 Document doc = new Document();

@@ -18,11 +18,11 @@ public Stream FontStream { get; set; }
 
 此属性允许您在 HTML 导出期间将字体保存到流而不是文件。
 
-默认值为` null` 。当此属性为` null` 时，字体 将保存到FontFileName属性。
+默认值为`无效的` .当这个属性是`无效的` , 字体 将被保存到指定的文件中[`FontFileName`](../fontfilename)财产。
 
 ### 例子
 
-显示如何定义自定义逻辑以在保存为 HTML 时导出字体。
+展示如何定义自定义逻辑以在保存为 HTML 时导出字体。
 
 ```csharp
 {

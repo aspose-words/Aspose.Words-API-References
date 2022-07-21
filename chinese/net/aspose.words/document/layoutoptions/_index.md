@@ -1,14 +1,14 @@
 ---
 title: LayoutOptions
 second_title: Aspose.Words for .NET API 参考
-description: 获取 LayoutOptions 对象该对象表示用于控制此文档的布局过程的选项
+description: 得到一个 布局选项表示用于控制此文档的布局过程的选项的对象
 type: docs
 weight: 230
 url: /zh/net/aspose.words/document/layoutoptions/
 ---
 ## Document.LayoutOptions property
 
-获取 **LayoutOptions** 对象，该对象表示用于控制此文档的布局过程的选项。
+得到一个 **布局选项**表示用于控制此文档的布局过程的选项的对象。
 
 ```csharp
 public LayoutOptions LayoutOptions { get; }
@@ -21,19 +21,14 @@ public LayoutOptions LayoutOptions { get; }
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
+// 插入隐藏文本，然后指定我们是否希望从呈现的文档中忽略它。
+builder.Writeln("This text is not hidden.");
+builder.Font.Hidden = true;
+builder.Writeln("This text is hidden.");
 
-// 插入修订，然后将所有修订的颜色更改为绿色。
-builder.Writeln("This is not a revision.");
-doc.StartTrackRevisions("John Doe", DateTime.Now);
-builder.Writeln("This is a revision.");
-doc.StopTrackRevisions();
-builder.Writeln("This is not a revision.");
+doc.LayoutOptions.ShowHiddenText = showHiddenText;
 
-// 删除出现在每条修改行左侧的栏。
-doc.LayoutOptions.RevisionOptions.InsertedTextColor = RevisionColor.BrightGreen;
-doc.LayoutOptions.RevisionOptions.ShowRevisionBars = false;
-
-doc.Save(ArtifactsDir + "Document.LayoutOptionsRevisions.pdf");
+doc.Save(ArtifactsDir + "Document.LayoutOptionsHiddenText.pdf");
 ```
 
 显示如何在呈现的输出文档中显示段落标记。
@@ -41,19 +36,14 @@ doc.Save(ArtifactsDir + "Document.LayoutOptionsRevisions.pdf");
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
+// 添加一些段落，然后启用段落标记以显示段落的结尾
+// 渲染文档时使用 pilcrow (¶) 符号。
+builder.Writeln("Hello world!");
+builder.Writeln("Hello again!");
 
-// 插入修订，然后将所有修订的颜色更改为绿色。
-builder.Writeln("This is not a revision.");
-doc.StartTrackRevisions("John Doe", DateTime.Now);
-builder.Writeln("This is a revision.");
-doc.StopTrackRevisions();
-builder.Writeln("This is not a revision.");
+doc.LayoutOptions.ShowParagraphMarks = showParagraphMarks;
 
-// 删除出现在每条修改行左侧的栏。
-doc.LayoutOptions.RevisionOptions.InsertedTextColor = RevisionColor.BrightGreen;
-doc.LayoutOptions.RevisionOptions.ShowRevisionBars = false;
-
-doc.Save(ArtifactsDir + "Document.LayoutOptionsRevisions.pdf");
+doc.Save(ArtifactsDir + "Document.LayoutOptionsParagraphMarks.pdf");
 ```
 
 显示如何在呈现的输出文档中更改修订的外观。

@@ -1,14 +1,14 @@
 ---
 title: IsEndOfHeaderFooter
 second_title: Справочник по API Aspose.Words для .NET
-description: Истинно если этот абзац является последним абзацем в HeaderFooter основной текст статьи Раздел  ложно в противном случае.
+description: Истинно если этот абзац является последним абзацем в Верхний колонтитул рассказ основного текста Раздел  false иначе.
 type: docs
 weight: 70
 url: /ru/net/aspose.words/paragraph/isendofheaderfooter/
 ---
 ## Paragraph.IsEndOfHeaderFooter property
 
-Истинно, если этот абзац является последним абзацем в **HeaderFooter** (основной текст) статьи **Раздел** ; ложно в противном случае.
+Истинно, если этот абзац является последним абзацем в **Верхний колонтитул** (рассказ основного текста) **Раздел** ; false иначе.
 
 ```csharp
 public bool IsEndOfHeaderFooter { get; }

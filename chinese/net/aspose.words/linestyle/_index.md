@@ -1,14 +1,14 @@
 ---
 title: LineStyle
 second_title: Aspose.Words for .NET API 参考
-description: 指定Border./border的线条样式
+description: 指定 a 的线型Border./border.
 type: docs
-weight: 3200
+weight: 3250
 url: /zh/net/aspose.words/linestyle/
 ---
 ## LineStyle enumeration
 
-指定[`Border`](../border)的线条样式。
+指定 a 的线型[`Border`](../border).
 
 ```csharp
 public enum LineStyle
@@ -48,7 +48,7 @@ public enum LineStyle
 
 ### 例子
 
-演示如何将一个由边框包围的字符串插入到文档中。
+演示如何将由边框包围的字符串插入到文档中。
 
 ```csharp
 Document doc = new Document();

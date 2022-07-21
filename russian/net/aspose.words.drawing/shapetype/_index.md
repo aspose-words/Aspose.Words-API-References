@@ -1,14 +1,14 @@
 ---
 title: ShapeType
 second_title: Справочник по API Aspose.Words для .NET
-description: Указывает тип фигуры в документе Microsoft Word.
+description: Определяет тип фигуры в документе Microsoft Word.
 type: docs
-weight: 1120
+weight: 1140
 url: /ru/net/aspose.words.drawing/shapetype/
 ---
 ## ShapeType enumeration
 
-Указывает тип фигуры в документе Microsoft Word.
+Определяет тип фигуры в документе Microsoft Word.
 
 ```csharp
 public enum ShapeType
@@ -18,11 +18,11 @@ public enum ShapeType
 
 | Имя | Ценность | Описание |
 | --- | --- | --- |
-| Image | `75` | Форма - это изображение. |
+| Image | `75` | Форма — это изображение. |
 | TextBox | `202` | Форма представляет собой текстовое поле. Обратите внимание, что фигуры многих других типов также могут содержать текст внутри себя. Фигура не обязательно должна иметь этот тип, чтобы содержать текст. |
 | Group | `-1` | Форма представляет собой групповую форму. |
 | OleObject | `-2` | Фигура является объектом OLE. |
-| OleControl | `201` | Форма представляет собой элемент управления ActiveX. |
+| OleControl | `201` | Фигура представляет собой элемент управления ActiveX. |
 | NonPrimitive | `0` | Фигура, нарисованная пользователем и состоящая из нескольких сегментов и/или вершин (кривая, произвольная форма или каракули). |
 | Rectangle | `1` |  |
 | RoundRectangle | `2` |  |
@@ -122,7 +122,7 @@ public enum ShapeType
 | VerticalScroll | `97` |  |
 | HorizontalScroll | `98` |  |
 | CircularArrow | `99` |  |
-| CustomShape | `100` | Этот тип фигуры, по-видимому, установлен для фигур, которые не являются частью стандартного набора автоматических фигур в Microsoft Word. Например, если вы вставите новую автофигуру из ClipArt. |
+| CustomShape | `100` | Этот тип фигуры, по-видимому, установлен для фигур, которые не являются частью стандартного набора автоматических фигур в Microsoft Word. Например, если вы вставите новую автоматическую фигуру из ClipArt. |
 | UturnArrow | `101` |  |
 | CurvedRightArrow | `102` |  |
 | CurvedLeftArrow | `103` |  |
@@ -224,13 +224,13 @@ public enum ShapeType
 | ActionButtonSound | `199` |  |
 | ActionButtonMovie | `200` |  |
 | SingleCornerSnipped | `203` | Вырезать прямоугольный объект с одним углом. |
-| TopCornersSnipped | `204` | Обрежьте прямоугольник с одинаковым углом. |
-| DiagonalCornersSnipped | `205` | Обрежьте прямоугольник по диагонали. |
-| TopCornersOneRoundedOneSnipped | `206` | Отрежьте и закруглите прямоугольник с одним углом. |
-| SingleCornerRounded | `207` | Прямоугольник со скругленными углами. |
-| TopCornersRounded | `208` | Прямоугольник со скругленными углами. |
+| TopCornersSnipped | `204` | Обрезать прямоугольник с той же стороной. |
+| DiagonalCornersSnipped | `205` | Обрезать диагональный угол прямоугольника. |
+| TopCornersOneRoundedOneSnipped | `206` | Отрезать и скруглить прямоугольник с одним углом. |
+| SingleCornerRounded | `207` | Скругленный прямоугольник с одним углом. |
+| TopCornersRounded | `208` | Скруглить прямоугольник с одинаковым боковым углом. |
 | DiagonalCornersRounded | `209` | Прямоугольник с круглым диагональным углом. |
-| Heptagon | `210` | Семиугольник. |
+| Heptagon | `210` | Гептагон. |
 | Cloud | `211` | Облако. |
 | Seal6 | `212` | Шестиконечная звезда. |
 | Seal7 | `213` | Семиконечная звезда. |
@@ -239,9 +239,9 @@ public enum ShapeType
 | SwooshArrow | `216` | Стрелка-галочка. |
 | Teardrop | `217` | Слеза. |
 | SquareTabs | `218` | Квадратные вкладки. |
-| PlaqueTabs | `219` | Пластинчатые вкладки. |
+| PlaqueTabs | `219` | Вкладки налета. |
 | Pie | `220` | Пирог. |
-| WedgePie | `221` | Пирог на танкетке. |
+| WedgePie | `221` | Пирог с клиньями. |
 | InverseLine | `222` | Обратная линия. |
 | MathPlus | `223` | Математика плюс. |
 | MathMinus | `224` | Математика минус. |
@@ -251,13 +251,13 @@ public enum ShapeType
 | MathNotEqual | `228` | Математика не равна. |
 | NonIsoscelesTrapezoid | `229` | Неравнобедренная трапеция. |
 | LeftRightCircularArrow | `230` | Круговая стрелка влево-вправо. |
-| LeftRightRibbon | `231` | Левая-правая лента. |
+| LeftRightRibbon | `231` | Лента слева направо. |
 | LeftCircularArrow | `232` | Круговая стрелка влево. |
 | Frame | `233` | Кадр. |
 | HalfFrame | `234` | Половина кадра. |
 | Funnel | `235` | Воронка. |
 | Gear6 | `236` | Шестизубая шестерня. |
-| Gear9 | `237` | Шестерня девятизубая. |
+| Gear9 | `237` | Шестерня с девятью зубьями. |
 | Decagon | `238` | Десятиугольник. |
 | Dodecagon | `239` | Додекагон. |
 | DiagonalStripe | `240` | Диагональная полоса. |
@@ -266,42 +266,28 @@ public enum ShapeType
 | Chord | `243` | Аккорд. |
 | ChartPlus | `244` | Диаграмма плюс. |
 | ChartStar | `245` | Звезда диаграммы. |
-| ChartX | `246` | Таблица X. |
+| ChartX | `246` | Диаграмма X. |
 | MinValue | `-2` | Зарезервировано для системного использования. |
 
 ### Примеры
 
-Показывает, как вставить фигуру с изображение из локальной файловой системы в документ.
+Показывает, как вставить фигуру с изображением из локальной файловой системы в документ.
 
 ```csharp
 Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
 
-builder.InsertShape(ShapeType.Heptagon, RelativeHorizontalPosition.Page, 0,
-    RelativeVerticalPosition.Page, 0, 0, 0, WrapType.None);
+// Открытый конструктор класса "Shape" создаст фигуру с типом разметки "ShapeMarkupLanguage.Vml".
+// Если вам нужно создать фигуру не примитивного типа, например SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,
+// TopCornersOneRoundedOneSnipped, SingleCornerRounded, TopCornersRounded или DiagonalCornersRounded,
+// используйте DocumentBuilder.InsertShape.
+Shape shape = new Shape(doc, ShapeType.Image);
+shape.ImageData.SetImage(ImageDir + "Windows MetaFile.wmf");
+shape.Width = 100;
+shape.Height = 100;
 
-builder.InsertShape(ShapeType.Cloud, RelativeHorizontalPosition.RightMargin, 0,
-    RelativeVerticalPosition.Page, 0, 0, 0, WrapType.None);
+doc.FirstSection.Body.FirstParagraph.AppendChild(shape);
 
-builder.InsertShape(ShapeType.MathPlus, RelativeHorizontalPosition.RightMargin, 0,
-    RelativeVerticalPosition.Page, 0, 0, 0, WrapType.None);
-
-// Чтобы правильно идентифицировать типы фигур, вам нужно работать с фигурами как с DML.
-OoxmlSaveOptions saveOptions = new OoxmlSaveOptions(SaveFormat.Docx)
-{
-    // "Строгое" или "Переходное" соответствие позволяет сохранять форму как DML.
-    Compliance = OoxmlCompliance.Iso29500_2008_Transitional
-};
-
-doc.Save(ArtifactsDir + "Shape.ShapeTypes.docx", saveOptions);
-doc = new Document(ArtifactsDir + "Shape.ShapeTypes.docx");
-
-Shape[] shapes = doc.GetChildNodes(NodeType.Shape, true).OfType<Shape>().ToArray();
-
-foreach (Shape shape in shapes)
-{
-    Console.WriteLine(shape.ShapeType);
-}
+doc.Save(ArtifactsDir + "Image.FromFile.docx");
 ```
 
 Показывает, как Aspose.Words идентифицирует фигуры.

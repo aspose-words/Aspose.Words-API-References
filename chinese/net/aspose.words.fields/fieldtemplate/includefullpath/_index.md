@@ -16,7 +16,7 @@ public bool IncludeFullPath { get; set; }
 
 ### 例子
 
-显示如何使用 TEMPLATE 字段来显示文档模板的本地文件系统位置。
+演示如何使用 TEMPLATE 字段来显示文档模板的本地文件系统位置。
 
 ```csharp
 Document doc = new Document();

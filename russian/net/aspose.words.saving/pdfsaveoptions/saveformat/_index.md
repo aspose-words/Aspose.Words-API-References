@@ -1,14 +1,14 @@
 ---
 title: SaveFormat
 second_title: Справочник по API Aspose.Words для .NET
-description: Указывает формат в котором будет сохранен документ если используется этот объект параметров сохранения. Может быть толькоPdf.
+description: Определяет формат в котором документ будет сохранен если используется этот объект параметров сохранения.Pdf .
 type: docs
 weight: 250
 url: /ru/net/aspose.words.saving/pdfsaveoptions/saveformat/
 ---
 ## PdfSaveOptions.SaveFormat property
 
-Указывает формат, в котором будет сохранен документ, если используется этот объект параметров сохранения. Может быть толькоPdf.
+Определяет формат, в котором документ будет сохранен, если используется этот объект параметров сохранения.Pdf .
 
 ```csharp
 public override SaveFormat SaveFormat { get; set; }

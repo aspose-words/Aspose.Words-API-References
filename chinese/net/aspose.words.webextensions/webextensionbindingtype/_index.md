@@ -3,7 +3,7 @@ title: WebExtensionBindingType
 second_title: Aspose.Words for .NET API 参考
 description: 枚举 Web 扩展和文档中数据之间可用的绑定类型
 type: docs
-weight: 6410
+weight: 6460
 url: /zh/net/aspose.words.webextensions/webextensionbindingtype/
 ---
 ## WebExtensionBindingType enumeration
@@ -25,7 +25,7 @@ public enum WebExtensionBindingType
 
 ### 例子
 
-显示如何向文档添加 Web 扩展。
+展示如何向文档添加 Web 扩展。
 
 ```csharp
 Document doc = new Document();

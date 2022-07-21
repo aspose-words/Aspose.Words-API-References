@@ -1,14 +1,14 @@
 ---
 title: NoSpaceRaiseLower
 second_title: Aspose.Words for .NET API 参考
-description: 不要增加凸起/降低文本的行高
+description: 不要增加升高/降低文本的行高
 type: docs
 weight: 360
 url: /zh/net/aspose.words.settings/compatibilityoptions/nospaceraiselower/
 ---
 ## CompatibilityOptions.NoSpaceRaiseLower property
 
-不要增加凸起/降低文本的行高。
+不要增加升高/降低文本的行高。
 
 ```csharp
 public bool NoSpaceRaiseLower { get; set; }

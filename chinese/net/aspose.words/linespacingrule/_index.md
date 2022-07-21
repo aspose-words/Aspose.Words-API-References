@@ -3,7 +3,7 @@ title: LineSpacingRule
 second_title: Aspose.Words for .NET API 参考
 description: 指定段落的行距值
 type: docs
-weight: 3190
+weight: 3240
 url: /zh/net/aspose.words/linespacingrule/
 ---
 ## LineSpacingRule enumeration
@@ -18,9 +18,9 @@ public enum LineSpacingRule
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| AtLeast | `0` | 行距可以大于或等于但不能小于 P中指定的值:Aspose.Words.ParagraphFormat.LineSpacing属性。 |
-| Exactly | `1` | 行距不会从 [`LineSpacing`](../paragraphformat/linespacing)中指定的值改变属性, 即使段落中使用了较大的字体。 |
-| Multiple | `2` | 行间距在[`LineSpacing`](../paragraphformat/linespacing) 属性中指定为数字的行。一条线等于 12 个点。 |
+| AtLeast | `0` | 行距可以大于或等于，但不能小于， 中指定的值[`LineSpacing`](../paragraphformat/linespacing)属性. |
+| Exactly | `1` | 行距从不改变 中指定的值[`LineSpacing`](../paragraphformat/linespacing)属性， 即使段落中使用了较大的字体。 |
+| Multiple | `2` | 行距在[`LineSpacing`](../paragraphformat/linespacing) 属性为行数。一条线等于 12 个点。 |
 
 ### 也可以看看
 

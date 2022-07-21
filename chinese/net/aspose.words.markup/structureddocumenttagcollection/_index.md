@@ -1,14 +1,14 @@
 ---
 title: StructuredDocumentTagCollection
 second_title: Aspose.Words for .NET API 参考
-description: IStructuredDocumentTag./istructureddocumenttag实例的集合表示指定范围内的结构化文档标签
+description: 集合IStructuredDocumentTag./istructureddocumenttag表示指定范围内的结构化文档标签的实例
 type: docs
-weight: 3780
+weight: 3830
 url: /zh/net/aspose.words.markup/structureddocumenttagcollection/
 ---
 ## StructuredDocumentTagCollection class
 
-[`IStructuredDocumentTag`](../istructureddocumenttag)实例的集合，表示指定范围内的结构化文档标签。
+集合[`IStructuredDocumentTag`](../istructureddocumenttag)表示指定范围内的结构化文档标签的实例。
 
 ```csharp
 public class StructuredDocumentTagCollection : IEnumerable<IStructuredDocumentTag>

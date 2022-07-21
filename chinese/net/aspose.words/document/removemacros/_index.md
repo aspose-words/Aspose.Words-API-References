@@ -20,7 +20,7 @@ public void RemoveMacros()
 
 ### 例子
 
-显示如何从文档中删除所有宏。
+演示如何从文档中删除所有宏。
 
 ```csharp
 Document doc = new Document(MyDir + "Macro.docm");

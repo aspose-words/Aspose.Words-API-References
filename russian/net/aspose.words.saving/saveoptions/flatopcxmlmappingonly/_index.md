@@ -1,14 +1,14 @@
 ---
 title: FlatOpcXmlMappingOnly
 second_title: Справочник по API Aspose.Words для .NET
-description: Получает или задает значение определяющее какие форматы документов разрешено отображать с помощьюXmlMappingaspose.words.markup/structureddocumenttag/xmlmapping. По умолчанию только формат документаFlatOpcразрешен для сопоставления.
+description: Получает или задает значение определяющее какие форматы документов разрешено отображатьXmlMappingaspose.words.markup/structureddocumenttag/xmlmapping . Только по умолчаниюFlatOpc формат документа разрешен для сопоставления.
 type: docs
 weight: 90
 url: /ru/net/aspose.words.saving/saveoptions/flatopcxmlmappingonly/
 ---
 ## SaveOptions.FlatOpcXmlMappingOnly property
 
-Получает или задает значение, определяющее, какие форматы документов разрешено отображать с помощью[`XmlMapping`](../../../aspose.words.markup/structureddocumenttag/xmlmapping). По умолчанию только формат документаFlatOpcразрешен для сопоставления.
+Получает или задает значение, определяющее, какие форматы документов разрешено отображать[`XmlMapping`](../../../aspose.words.markup/structureddocumenttag/xmlmapping) . Только по умолчаниюFlatOpc формат документа разрешен для сопоставления.
 
 ```csharp
 public bool FlatOpcXmlMappingOnly { get; set; }
@@ -16,7 +16,7 @@ public bool FlatOpcXmlMappingOnly { get; set; }
 
 ### Примечания
 
-Этот параметр работает в паре с[`FlatOpcXmlMappingOnly`](../../../aspose.words.loading/loadoptions/flatopcxmlmappingonly). Обычно вам нужно установить оба значения в false, чтобы разрешить сопоставление произвольного формата документа.
+Эта опция сочетается с[`FlatOpcXmlMappingOnly`](../../../aspose.words.loading/loadoptions/flatopcxmlmappingonly) . Обычно вам нужно установить для них обоих значение false, чтобы разрешить сопоставление произвольного формата документа.
 
 ### Примеры
 

@@ -1,14 +1,14 @@
 ---
 title: ThemeFontOther
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置与此 Font 对象关联的应用字体方案中字符代码为 128 到 255 的字符使用的主题字体.
+description: 获取或设置与此 Font 对象关联的应用字体方案中字符代码从 128 到 255 的字符使用的主题字体
 type: docs
 weight: 510
 url: /zh/net/aspose.words/font/themefontother/
 ---
 ## Font.ThemeFontOther property
 
-获取或设置与此 Font 对象关联的应用字体方案中字符代码为 128 到 255 的字符使用的主题字体.
+获取或设置与此 Font 对象关联的应用字体方案中字符代码从 128 到 255 的字符使用的主题字体。
 
 ```csharp
 public ThemeFont ThemeFontOther { get; set; }

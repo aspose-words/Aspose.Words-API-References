@@ -1,14 +1,14 @@
 ---
 title: FootnoteLayoutLikeWW8
 second_title: Справочник по API Aspose.Words для .NET
-description: Эмулировать Word 6.x/95/97 Размещение сноски.
+description: Эмулировать размещение сносок Word 6.x/95/97.
 type: docs
 weight: 260
 url: /ru/net/aspose.words.settings/compatibilityoptions/footnotelayoutlikeww8/
 ---
 ## CompatibilityOptions.FootnoteLayoutLikeWW8 property
 
-Эмулировать Word 6.x/95/97 Размещение сноски.
+Эмулировать размещение сносок Word 6.x/95/97.
 
 ```csharp
 public bool FootnoteLayoutLikeWW8 { get; set; }

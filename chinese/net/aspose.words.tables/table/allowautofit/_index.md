@@ -16,7 +16,7 @@ public bool AllowAutoFit { get; set; }
 
 ### 评论
 
-默认值为` true` 。
+默认值为`真的`.
 
 ### 例子
 
@@ -39,10 +39,10 @@ builder.Write("Lorem ipsum dolor sit amet, consectetur adipiscing elit, " +
 builder.EndRow();
 builder.EndTable();
 
-// 将“AllowAutoFit”属性设置为“false”，让表格保持维度
- // 所有行和单元格，如果内容太大而无法容纳，则截断内容。
- // 将“AllowAutoFit”属性设置为“true”以允许表格改变其单元格的宽度和高度
- // 容纳它们的内容。
+// 将“AllowAutoFit”属性设置为“false”以获取表格保持尺寸
+// 它的所有行和单元格，如果内容太大而无法容纳，则截断内容。
+// 将“AllowAutoFit”属性设置为“true”以允许表格更改其单元格的宽度和高度
+// 容纳它们的内容。
 table.AllowAutoFit = allowAutoFit;
 
 doc.Save(ArtifactsDir + "Table.AllowAutoFitOnTable.html");

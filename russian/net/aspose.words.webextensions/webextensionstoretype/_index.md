@@ -3,7 +3,7 @@ title: WebExtensionStoreType
 second_title: Справочник по API Aspose.Words для .NET
 description: Перечисляет доступные типы магазина веб-расширений.
 type: docs
-weight: 6460
+weight: 6510
 url: /ru/net/aspose.words.webextensions/webextensionstoretype/
 ---
 ## WebExtensionStoreType enumeration
@@ -22,7 +22,7 @@ public enum WebExtensionStoreType
 | OMEX | `1` | Указывает, что тип магазина — Office.com. |
 | SPApp | `2` | Указывает, что тип хранилища — веб-приложение SharePoint. |
 | Exchange | `3` | Указывает, что тип хранилища — сервер Exchange. |
-| FileSystem | `4` | Указывает, что типом хранилища является общий ресурс файловой системы. |
+| FileSystem | `4` | Указывает, что тип хранилища — общий ресурс файловой системы. |
 | Registry | `5` | Указывает, что типом хранилища является системный реестр. |
 | ExCatalog | `6` | Указывает, что тип хранилища — Централизованное развертывание через Exchange. |
 | Default | `0` | Значение по умолчанию. |

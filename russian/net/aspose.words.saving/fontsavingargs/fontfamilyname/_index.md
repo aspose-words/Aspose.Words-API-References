@@ -1,14 +1,14 @@
 ---
 title: FontFamilyName
 second_title: Справочник по API Aspose.Words для .NET
-description: Указывает текущее имя семейства шрифтов.
+description: Указывает имя текущего семейства шрифтов.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.saving/fontsavingargs/fontfamilyname/
 ---
 ## FontSavingArgs.FontFamilyName property
 
-Указывает текущее имя семейства шрифтов.
+Указывает имя текущего семейства шрифтов.
 
 ```csharp
 public string FontFamilyName { get; }

@@ -1,14 +1,14 @@
 ---
 title: Granularity
 second_title: Справочник по API Aspose.Words для .NET
-description: Указывает отслеживаются ли изменения по символам или по словам. Значение по умолчаниюWordLevel.
+description: Указывает отслеживаются ли изменения по символам или по словам. Значение по умолчаниюWordLevel .
 type: docs
 weight: 20
 url: /ru/net/aspose.words.comparing/compareoptions/granularity/
 ---
 ## CompareOptions.Granularity property
 
-Указывает, отслеживаются ли изменения по символам или по словам. Значение по умолчанию:WordLevel.
+Указывает, отслеживаются ли изменения по символам или по словам. Значение по умолчанию:WordLevel .
 
 ```csharp
 public Granularity Granularity { get; set; }

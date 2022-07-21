@@ -1,14 +1,14 @@
 ---
 title: InternalMarginRight
 second_title: Aspose.Words for .NET API 参考
-description: 以磅为单位指定形状的内部右边距
+description: 以磅为单位指定形状的内右边距
 type: docs
 weight: 40
 url: /zh/net/aspose.words.drawing/textbox/internalmarginright/
 ---
 ## TextBox.InternalMarginRight property
 
-以磅为单位指定形状的内部右边距。
+以磅为单位指定形状的内右边距。
 
 ```csharp
 public double InternalMarginRight { get; set; }

@@ -16,11 +16,11 @@ public string DisplayResult { get; }
 
 ### 评论
 
-[`UpdateListLabels`](../../../aspose.words/document/updatelistlabels)方法必须被调用以获得正确的值 [`FieldListNum`](../../fieldlistnum),[`FieldAutoNum`](../../fieldautonum),[`FieldAutoNumOut`](../../fieldautonumout)和[`FieldAutoNumLgl`](../../fieldautonumlgl)字段。
+的[`UpdateListLabels`](../../../aspose.words/document/updatelistlabels)必须调用方法以获得 the 的正确值[`FieldListNum`](../../fieldlistnum),[`FieldAutoNum`](../../fieldautonum),[`FieldAutoNumOut`](../../fieldautonumout)和[`FieldAutoNumLgl`](../../fieldautonumlgl)字段.
 
 ### 例子
 
-显示如何获取字段在文档中显示的真实文本。
+演示如何获取字段在文档中显示的真实文本。
 
 ```csharp
 Document doc = new Document();

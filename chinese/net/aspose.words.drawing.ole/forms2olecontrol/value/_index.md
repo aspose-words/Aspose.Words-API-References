@@ -1,14 +1,14 @@
 ---
 title: Value
 second_title: Aspose.Words for .NET API 参考
-description: 获取通常表示控件状态的底层 Value 属性 例如选中的选项按钮的值为1而未选中的选项按钮的值为0 默认值为空字符串
+description: 获取通常表示控件状态的底层 Value 属性 例如选中的选项按钮具有1值而未选中的具有0 默认值为空字符串
 type: docs
 weight: 60
 url: /zh/net/aspose.words.drawing.ole/forms2olecontrol/value/
 ---
 ## Forms2OleControl.Value property
 
-获取通常表示控件状态的底层 Value 属性。 例如，选中的选项按钮的值为“1”，而未选中的选项按钮的值为“0”。 默认值为空字符串。
+获取通常表示控件状态的底层 Value 属性。 例如，选中的选项按钮具有“1”值，而未选中的具有“0”。 默认值为空字符串。
 
 ```csharp
 public string Value { get; }
@@ -16,7 +16,7 @@ public string Value { get; }
 
 ### 例子
 
-显示如何验证 ActiveX 控件的属性。
+演示如何验证 ActiveX 控件的属性。
 
 ```csharp
 Document doc = new Document(MyDir + "ActiveX controls.docx");

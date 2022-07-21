@@ -16,7 +16,7 @@ public string Text { get; set; }
 
 ### Примеры
 
-Показывает, что необходимо вставить поле KEYWORDS.
+Показывает, чтобы вставить поле KEYWORDS.
 
 ```csharp
 Document doc = new Document();

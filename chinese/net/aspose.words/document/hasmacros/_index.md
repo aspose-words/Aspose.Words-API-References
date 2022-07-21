@@ -1,14 +1,14 @@
 ---
 title: HasMacros
 second_title: Aspose.Words for .NET API 参考
-description: 返回 true 如果文档有 VBA 项目宏
+description: 返回 真的如果文档有 VBA 项目宏
 type: docs
 weight: 190
 url: /zh/net/aspose.words/document/hasmacros/
 ---
 ## Document.HasMacros property
 
-返回 **true** 如果文档有 VBA 项目（宏）。
+返回 **真的**如果文档有 VBA 项目（宏）。
 
 ```csharp
 public bool HasMacros { get; }
@@ -16,7 +16,7 @@ public bool HasMacros { get; }
 
 ### 例子
 
-展示如何使用 MACROBUTTON 字段来允许我们通过单击运行文档的宏。
+展示如何使用 MACROBUTTON 字段来允许我们通过单击来运行文档的宏。
 
 ```csharp
 Document doc = new Document(MyDir + "Macro.docm");

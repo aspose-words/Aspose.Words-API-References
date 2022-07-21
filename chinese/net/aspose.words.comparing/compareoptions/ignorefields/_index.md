@@ -1,14 +1,14 @@
 ---
 title: IgnoreFields
 second_title: Aspose.Words for .NET API 参考
-description: 指定是否比较字段差异 默认情况下不会忽略字段
+description: 指定是否比较字段的差异 默认情况下不会忽略字段
 type: docs
 weight: 60
 url: /zh/net/aspose.words.comparing/compareoptions/ignorefields/
 ---
 ## CompareOptions.IgnoreFields property
 
-指定是否比较字段差异。 默认情况下不会忽略字段。
+指定是否比较字段的差异。 默认情况下不会忽略字段。
 
 ```csharp
 public bool IgnoreFields { get; set; }
@@ -16,7 +16,7 @@ public bool IgnoreFields { get; set; }
 
 ### 例子
 
-显示在进行比较时如何过滤特定类型的文档元素。
+显示如何在进行比较时过滤特定类型的文档元素。
 
 ```csharp
 // 创建原始文档并用各种元素填充它。

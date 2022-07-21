@@ -3,7 +3,7 @@ title: SaveFormat
 second_title: Справочник по API Aspose.Words для .NET
 description: Указывает формат в котором сохранен документ.
 type: docs
-weight: 4530
+weight: 4580
 url: /ru/net/aspose.words/saveformat/
 ---
 ## SaveFormat enumeration
@@ -28,7 +28,7 @@ public enum SaveFormat
 | FlatOpc | `24` | Сохраняет документ в формате Office Open XML WordprocessingML, хранящемся в простом XML-файле, а не в ZIP-архиве. |
 | FlatOpcMacroEnabled | `25` | Сохраняет документ как документ Office Open XML WordprocessingML с поддержкой макросов, хранящийся в простом XML-файле, а не в ZIP-архиве. |
 | FlatOpcTemplate | `26` | Сохраняет документ как шаблон Office Open XML WordprocessingML (без макросов), хранящийся в плоском XML-файле, а не в ZIP-архиве. |
-| FlatOpcTemplateMacroEnabled | `27` | Сохраняет документ как шаблон Office Open XML WordprocessingML с поддержкой макросов, хранящийся в простом XML-файле, а не в ZIP-пакете. |
+| FlatOpcTemplateMacroEnabled | `27` | Сохраняет документ как шаблон Office Open XML WordprocessingML с поддержкой макросов, хранящийся в простом XML-файле, а не в ZIP-архиве. |
 | Rtf | `30` | Сохраняет документ в формате RTF. Все символы старше 7 бит экранируются как шестнадцатеричные символы или символы Unicode. |
 | WordML | `31` | Сохраняет документ в формате Microsoft Word 2003 WordprocessingML. |
 | Pdf | `40` | Сохраняет документ в формате PDF (Adobe Portable Document). |
@@ -45,19 +45,19 @@ public enum SaveFormat
 | Odt | `60` | Сохраняет документ как текстовый документ ODF. |
 | Ott | `61` | Сохраняет документ как шаблон текстового документа ODF. |
 | Text | `70` | Сохраняет документ в текстовом формате. |
-| XamlFlow | `71` | **Бета.** Сохраняет документ в формате Extensible Application Markup Language (XAML) в виде потокового документа. |
+| XamlFlow | `71` | **Бета.**Сохраняет документ в формате Extensible Application Markup Language (XAML) в виде потокового документа. |
 | XamlFlowPack | `72` | **Бета.** Сохраняет документ в формате пакета Extensible Application Markup Language (XAML) в виде потокового документа. |
 | Markdown | `73` | Сохраняет документ в формате Markdown. |
-| Tiff | `100` | Визуализирует страницу или страницы документа и сохраняет их в один или многостраничный файл TIFF. |
-| Png | `101` | Визуализирует страницу документа и сохраняет ее как файл PNG. |
+| Tiff | `100` | Визуализирует страницу или страницы документа и сохраняет их в одностраничный или многостраничный файл TIFF. |
+| Png | `101` | Визуализирует страницу документа и сохраняет ее в виде файла PNG. |
 | Bmp | `102` | Визуализирует страницу документа и сохраняет ее как файл BMP. |
-| Emf | `103` | Визуализирует страницу документа и сохраняет ее как векторный файл EMF (Enhanced Meta File). |
+| Emf | `103` | Визуализирует страницу документа и сохраняет ее как векторный файл EMF (расширенный метафайл). |
 | Jpeg | `104` | Визуализирует страницу документа и сохраняет ее как файл JPEG. |
 | Gif | `105` | Визуализирует страницу документа и сохраняет ее как файл GIF. |
 
 ### Примеры
 
-Показывает, как преобразовать формат DOCX в формат HTML.
+Показывает, как конвертировать из формата DOCX в формат HTML.
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");

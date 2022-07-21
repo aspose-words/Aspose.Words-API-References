@@ -3,7 +3,7 @@ title: ResourceLoadingAction
 second_title: Справочник по API Aspose.Words для .NET
 description: Задает режим загрузки ресурсов.
 type: docs
-weight: 3430
+weight: 3480
 url: /ru/net/aspose.words.loading/resourceloadingaction/
 ---
 ## ResourceLoadingAction enumeration
@@ -19,8 +19,8 @@ public enum ResourceLoadingAction
 | Имя | Ценность | Описание |
 | --- | --- | --- |
 | Default | `0` | Aspose.Words загрузит этот ресурс как обычно. |
-| Skip | `1` | Aspose.Words пропустит загрузку этого ресурса. Для изображения будет храниться только ссылка без данных, таблица стилей CSS будет игнорироваться для формата HTML. |
-| UserProvided | `2` | Aspose.Words будет использовать массив байтов, предоставленный пользователем в[`SetData`](../resourceloadingargs/setdata)как данные о ресурсах. |
+| Skip | `1` | Aspose.Words пропустит загрузку этого ресурса. Для изображения будет сохранена только ссылка без данных, таблица стилей CSS будет проигнорирована для формата HTML. |
+| UserProvided | `2` | Aspose.Words будет использовать массив байтов, предоставленный пользователем в[`SetData`](../resourceloadingargs/setdata) как данные ресурса. |
 
 ### Примеры
 

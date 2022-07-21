@@ -16,7 +16,7 @@ public ImageData ImageData { get; }
 
 ### 评论
 
-如果这个级别没有定义图片子弹返回null。 在为非图片子弹形状设置新图像之前，请先使用[`CreatePictureBullet`](../createpicturebullet)方法。
+如果这个级别没有定义图片子弹返回null。 在为非图片子弹形状设置新图像之前，请使用[`CreatePictureBullet`](../createpicturebullet)方法第一。
 
 ### 也可以看看
 

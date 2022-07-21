@@ -1,14 +1,14 @@
 ---
 title: LastParagraph
 second_title: Справочник по API Aspose.Words для .NET
-description: Получает последний абзац истории.
+description: Получает последний абзац в истории.
 type: docs
 weight: 20
 url: /ru/net/aspose.words/story/lastparagraph/
 ---
 ## Story.LastParagraph property
 
-Получает последний абзац истории.
+Получает последний абзац в истории.
 
 ```csharp
 public Paragraph LastParagraph { get; }

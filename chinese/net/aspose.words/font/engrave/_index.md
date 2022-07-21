@@ -1,14 +1,14 @@
 ---
 title: Engrave
 second_title: Aspose.Words for .NET API 参考
-description: 如果字体格式为雕刻则为真
+description: 如果字体格式为刻字则为真
 type: docs
 weight: 120
 url: /zh/net/aspose.words/font/engrave/
 ---
 ## Font.Engrave property
 
-如果字体格式为雕刻，则为真。
+如果字体格式为刻字则为真。
 
 ```csharp
 public bool Engrave { get; set; }
@@ -16,7 +16,7 @@ public bool Engrave { get; set; }
 
 ### 例子
 
-显示如何将雕刻/压纹效果应用于文本。
+展示如何对文本应用雕刻/浮雕效果。
 
 ```csharp
 Document doc = new Document();

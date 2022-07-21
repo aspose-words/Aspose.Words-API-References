@@ -1,14 +1,14 @@
 ---
 title: InsertChart
 second_title: Aspose.Words for .NET API 参考
-description: 将图表对象插入文档并将其缩放到指定大小
+description: 在文档中插入一个图表对象并将其缩放到指定的大小
 type: docs
 weight: 260
 url: /zh/net/aspose.words/documentbuilder/insertchart/
 ---
 ## InsertChart(ChartType, double, double) {#insertchart_1}
 
-将图表对象插入文档并将其缩放到指定大小。
+在文档中插入一个图表对象并将其缩放到指定的大小。
 
 ```csharp
 public Shape InsertChart(ChartType chartType, double width, double height)
@@ -17,7 +17,7 @@ public Shape InsertChart(ChartType chartType, double width, double height)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | chartType | ChartType | 要插入到文档中的图表类型。 |
-| width | Double | 图像的宽度，以磅为单位。可以是负值或零值以请求 100% 比例。 |
+| width | Double | 图像的宽度（以磅为单位）。可以是负值或零值以请求 100% 比例。 |
 | height | Double | 图像的高度（以磅为单位）。可以是负值或零值以请求 100% 比例。 |
 
 ### 返回值
@@ -26,7 +26,7 @@ public Shape InsertChart(ChartType chartType, double width, double height)
 
 ### 评论
 
-您可以使用 :::更改图像大小、位置、定位方法和其他设置R5:T:Aspose.Words.Drawing.Shape:::此方法返回的对象。
+您可以使用 更改图像大小、位置、定位方法和其他设置[`Shape`](../../../aspose.words.drawing/shape)此方法返回的对象。
 
 ### 例子
 
@@ -57,7 +57,7 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertPieChart.docx");
 
 ## InsertChart(ChartType, RelativeHorizontalPosition, double, RelativeVerticalPosition, double, double, double, WrapType) {#insertchart}
 
-将图表对象插入文档并将其缩放到指定大小。
+在文档中插入一个图表对象并将其缩放到指定的大小。
 
 ```csharp
 public Shape InsertChart(ChartType chartType, RelativeHorizontalPosition horzPos, double left, 
@@ -67,11 +67,11 @@ public Shape InsertChart(ChartType chartType, RelativeHorizontalPosition horzPos
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | chartType | ChartType | 要插入到文档中的图表类型。 |
-| horzPos | RelativeHorizontalPosition | 指定从哪里测量到图像的距离。 |
+| horzPos | RelativeHorizontalPosition | 指定从何处测量到图像的距离。 |
 | left | Double | 从原点到图像左侧的距离（以点为单位）。 |
-| vertPos | RelativeVerticalPosition | 指定从哪里测量到图像的距离。 |
+| vertPos | RelativeVerticalPosition | 指定从何处测量到图像的距离。 |
 | top | Double | 从原点到图像顶部的距离（以点为单位）。 |
-| width | Double | 图像的宽度，以磅为单位。可以是负值或零值以请求 100% 比例。 |
+| width | Double | 图像的宽度（以磅为单位）。可以是负值或零值以请求 100% 比例。 |
 | height | Double | 图像的高度（以磅为单位）。可以是负值或零值以请求 100% 比例。 |
 | wrapType | WrapType | 指定如何在图像周围环绕文本。 |
 
@@ -81,7 +81,7 @@ public Shape InsertChart(ChartType chartType, RelativeHorizontalPosition horzPos
 
 ### 评论
 
-您可以使用 :::更改图像大小、位置、定位方法和其他设置R5:T:Aspose.Words.Drawing.Shape:::此方法返回的对象。
+您可以使用 更改图像大小、位置、定位方法和其他设置[`Shape`](../../../aspose.words.drawing/shape)此方法返回的对象。
 
 ### 例子
 

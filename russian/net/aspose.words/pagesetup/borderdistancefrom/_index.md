@@ -16,7 +16,7 @@ public PageBorderDistanceFrom BorderDistanceFrom { get; set; }
 
 ### Примеры
 
-Показывает, как создать широкую синюю полосу в верхней части первой страницы.
+Показывает, как создать широкую синюю рамку в верхней части первой страницы.
 
 ```csharp
 Document doc = new Document();

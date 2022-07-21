@@ -16,7 +16,7 @@ public ImageSaveOptions Clone()
 
 ### 例子
 
-显示如何选择将文档呈现为图像的每像素比特率。
+演示如何选择将文档呈现为图像的每像素比特率。
 
 ```csharp
 Document doc = new Document();

@@ -18,7 +18,7 @@ public class ChartMarker
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Format](../../aspose.words.drawing.charts/chartmarker/format) { get; } | 提供对此标记的填充和行格式的访问。 |
+| [Format](../../aspose.words.drawing.charts/chartmarker/format) { get; } | 提供对此标记的填充和线条格式的访问。 |
 | [Size](../../aspose.words.drawing.charts/chartmarker/size) { get; set; } | 获取或设置图表标记大小。 默认值为 7。 |
 | [Symbol](../../aspose.words.drawing.charts/chartmarker/symbol) { get; set; } | 获取或设置图表标记符号。 |
 

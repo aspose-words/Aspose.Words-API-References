@@ -1,14 +1,14 @@
 ---
 title: XmlMapping
 second_title: Aspose.Words for .NET API 参考
-description: 指定用于在父 结构化文档标记和存储在自定义 XML 数据部分中的 XML 元素之间建立映射的信息文件
+description: 指定用于在 parent 结构化文档标记和存储在文档的自定义 XML 数据部分中的 XML 元素之间建立映射的信息
 type: docs
-weight: 3810
+weight: 3860
 url: /zh/net/aspose.words.markup/xmlmapping/
 ---
 ## XmlMapping class
 
-指定用于在父 结构化文档标记和存储在自定义 XML 数据部分中的 XML 元素之间建立映射的信息文件。
+指定用于在 parent 结构化文档标记和存储在文档的自定义 XML 数据部分中的 XML 元素之间建立映射的信息。
 
 ```csharp
 public class XmlMapping
@@ -19,9 +19,9 @@ public class XmlMapping
 | 姓名 | 描述 |
 | --- | --- |
 | [CustomXmlPart](../../aspose.words.markup/xmlmapping/customxmlpart) { get; } | 返回父结构化文档标记映射到的自定义 XML 数据部分。 |
-| [IsMapped](../../aspose.words.markup/xmlmapping/ismapped) { get; } | 如果父结构化文档标记成功映射到 XML 数据，则返回 **true** 。 |
-| [PrefixMappings](../../aspose.words.markup/xmlmapping/prefixmappings) { get; } | 返回 XML 命名空间前缀映射以评估[`XPath`](./xpath)。 |
-| [StoreItemId](../../aspose.words.markup/xmlmapping/storeitemid) { get; } | 为自定义 XML 数据部分指定自定义 XML 数据标识符，其中 应用于评估XPath表达式。 |
+| [IsMapped](../../aspose.words.markup/xmlmapping/ismapped) { get; } | 返回 **真的**如果父结构化文档标记成功映射到 XML 数据。 |
+| [PrefixMappings](../../aspose.words.markup/xmlmapping/prefixmappings) { get; } | 返回 XML 命名空间前缀映射以评估[`XPath`](./xpath). |
+| [StoreItemId](../../aspose.words.markup/xmlmapping/storeitemid) { get; } | 为自定义 XML 数据部分指定自定义 XML 数据标识符， 将用于评估[`XPath`](./xpath)表达式. |
 | [XPath](../../aspose.words.markup/xmlmapping/xpath) { get; } | 返回 XPath 表达式，计算该表达式以找到映射到父结构化文档标记的自定义 XML 节点 。 |
 
 ## 方法
@@ -29,11 +29,11 @@ public class XmlMapping
 | 姓名 | 描述 |
 | --- | --- |
 | [Delete](../../aspose.words.markup/xmlmapping/delete)() | 删除父结构化文档到 XML 数据的映射。 |
-| [SetMapping](../../aspose.words.markup/xmlmapping/setmapping)(CustomXmlPart, string, string) | 设置父结构化文档标签和自定义 XML 数据部分的 XML 节点之间的映射。 |
+| [SetMapping](../../aspose.words.markup/xmlmapping/setmapping)(CustomXmlPart, string, string) | 设置父结构化文档标记和自定义 XML 数据部分的 XML 节点之间的映射。 |
 
 ### 例子
 
-显示如何为自定义 XML 部件设置 XML 映射。
+展示如何为自定义 XML 部件设置 XML 映射。
 
 ```csharp
 Document doc = new Document();

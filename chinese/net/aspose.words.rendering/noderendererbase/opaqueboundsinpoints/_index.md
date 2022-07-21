@@ -16,11 +16,11 @@ public RectangleF OpaqueBoundsInPoints { get; }
 
 ### 评论
 
-此属性返回不透明（即忽略形状的透明部分）边界框形状。 边界考虑了形状旋转。
+此属性返回形状的不透明（即忽略形状的透明部分）边界框。 边界将形状旋转考虑在内。
 
 ### 例子
 
-显示如何测量和缩放形状。
+展示如何测量和缩放形状。
 
 ```csharp
 Document doc = new Document(MyDir + "Office math.docx");

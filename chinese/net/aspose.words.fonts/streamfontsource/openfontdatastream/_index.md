@@ -20,7 +20,7 @@ public abstract Stream OpenFontDataStream()
 
 ### 评论
 
-读取后将关闭流。无需明确关闭它。
+读取后将关闭流。无需显式关闭它。
 
 ### 例子
 

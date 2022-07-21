@@ -16,11 +16,11 @@ public string Text { get; }
 
 ### 评论
 
-返回的字符串包括T中描述的所有控制和特殊字符:Aspose.Words.ControlChar。
+返回的字符串包括所有控制和特殊字符，如[`ControlChar`](../../controlchar).
 
 ### 例子
 
-显示如何获取范围覆盖的所有节点的文本内容。
+显示如何获取范围涵盖的所有节点的文本内容。
 
 ```csharp
 Document doc = new Document();

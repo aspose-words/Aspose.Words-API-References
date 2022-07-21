@@ -16,7 +16,7 @@ public double Width { get; }
 
 ### 评论
 
-仅在EvenlySpaced时有效设置为 **true** 。
+仅在以下情况下生效[`EvenlySpaced`](../evenlyspaced)被设定为 **真的**.
 
 ### 也可以看看
 

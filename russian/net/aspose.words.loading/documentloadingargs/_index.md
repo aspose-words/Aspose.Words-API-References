@@ -1,14 +1,14 @@
 ---
 title: DocumentLoadingArgs
 second_title: Справочник по API Aspose.Words для .NET
-description: Аргумент переданный вNotify./idocumentloadingcallback/notify.
+description: Аргумент переданный вNotify./idocumentloadingcallback/notify .
 type: docs
-weight: 3340
+weight: 3390
 url: /ru/net/aspose.words.loading/documentloadingargs/
 ---
 ## DocumentLoadingArgs class
 
-Аргумент, переданный в[`Notify`](../idocumentloadingcallback/notify).
+Аргумент, переданный в[`Notify`](../idocumentloadingcallback/notify) .
 
 ```csharp
 public sealed class DocumentLoadingArgs
@@ -18,7 +18,7 @@ public sealed class DocumentLoadingArgs
 
 | Имя | Описание |
 | --- | --- |
-| [EstimatedProgress](../../aspose.words.loading/documentloadingargs/estimatedprogress) { get; } | Общий предполагаемый прогресс в процентах. |
+| [EstimatedProgress](../../aspose.words.loading/documentloadingargs/estimatedprogress) { get; } | Общий расчетный процент прогресса. |
 
 ### Смотрите также
 

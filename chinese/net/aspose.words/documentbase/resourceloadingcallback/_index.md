@@ -1,14 +1,14 @@
 ---
 title: ResourceLoadingCallback
 second_title: Aspose.Words for .NET API 参考
-description: 允许控制外部资源的加载方式
+description: 允许控制如何加载外部资源
 type: docs
 weight: 70
 url: /zh/net/aspose.words/documentbase/resourceloadingcallback/
 ---
 ## DocumentBase.ResourceLoadingCallback property
 
-允许控制外部资源的加载方式。
+允许控制如何加载外部资源。
 
 ```csharp
 public IResourceLoadingCallback ResourceLoadingCallback { get; set; }
@@ -16,7 +16,7 @@ public IResourceLoadingCallback ResourceLoadingCallback { get; set; }
 
 ### 例子
 
-显示如何自定义将外部资源加载到文档中的过程。
+展示如何自定义将外部资源加载到文档中的过程。
 
 ```csharp
 {

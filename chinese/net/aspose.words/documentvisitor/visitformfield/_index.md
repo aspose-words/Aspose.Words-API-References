@@ -20,11 +20,11 @@ public virtual VisitorAction VisitFormField(FormField formField)
 
 ### 返回值
 
-A[`VisitorAction`](../../visitoraction)指定如何继续枚举的值。
+一个[`VisitorAction`](../../visitoraction)指定如何继续枚举的值。
 
 ### 例子
 
-展示如何使用 DocumentVisitor 实现从文档中删除所有隐藏内容。
+演示如何使用 DocumentVisitor 实现从文档中删除所有隐藏内容。
 
 ```csharp
 {

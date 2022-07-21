@@ -1,14 +1,14 @@
 ---
 title: Text
 second_title: Справочник по API Aspose.Words для .NET
-description: Получает текстовое содержимое документа объединенное в виде строки.
+description: Получает текстовое содержимое документа объединенного в виде строки.
 type: docs
 weight: 40
 url: /ru/net/aspose.words/plaintextdocument/text/
 ---
 ## PlainTextDocument.Text property
 
-Получает текстовое содержимое документа, объединенное в виде строки.
+Получает текстовое содержимое документа, объединенного в виде строки.
 
 ```csharp
 public string Text { get; }
@@ -16,7 +16,7 @@ public string Text { get; }
 
 ### Примеры
 
-Показывает, как загрузить содержимое документа Microsoft Word в виде открытого текста.
+Показывает, как загрузить содержимое документа Microsoft Word в виде обычного текста.
 
 ```csharp
 Document doc = new Document(); 

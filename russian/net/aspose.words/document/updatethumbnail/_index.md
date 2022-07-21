@@ -1,14 +1,14 @@
 ---
 title: UpdateThumbnail
 second_title: Справочник по API Aspose.Words для .NET
-description: ОбновленияThumbnailaspose.words.properties/builtindocumentproperties/thumbnailдокумента в соответствии с указанными параметрами.
+description: ОбновленияThumbnailaspose.words.properties/builtindocumentproperties/thumbnail документа по заданным параметрам.
 type: docs
 weight: 760
 url: /ru/net/aspose.words/document/updatethumbnail/
 ---
 ## UpdateThumbnail(ThumbnailGeneratingOptions) {#updatethumbnail_1}
 
-Обновления[`Thumbnail`](../../../aspose.words.properties/builtindocumentproperties/thumbnail)документа в соответствии с указанными параметрами.
+Обновления[`Thumbnail`](../../../aspose.words.properties/builtindocumentproperties/thumbnail) документа по заданным параметрам.
 
 ```csharp
 public void UpdateThumbnail(ThumbnailGeneratingOptions options)
@@ -20,7 +20,7 @@ public void UpdateThumbnail(ThumbnailGeneratingOptions options)
 
 ### Примечания
 
-The[`ThumbnailGeneratingOptions`](../../../aspose.words.rendering/thumbnailgeneratingoptions)позволяет вам чтобы указать источник эскиза, размер и другие параметры. Если попытка создать миниатюру не удалась, не изменяет ее.
+[`ThumbnailGeneratingOptions`](../../../aspose.words.rendering/thumbnailgeneratingoptions) позволяет указать источник миниатюры, размер и другие параметры. Если попытка создать миниатюру не удалась, не изменяет ее.
 
 ### Примеры
 
@@ -58,7 +58,7 @@ doc.Save(ArtifactsDir + "Document.UpdateThumbnail.FirstImage.epub");
 
 ## UpdateThumbnail() {#updatethumbnail}
 
-Обновления[`Thumbnail`](../../../aspose.words.properties/builtindocumentproperties/thumbnail)документа с параметрами по умолчанию.
+Обновления[`Thumbnail`](../../../aspose.words.properties/builtindocumentproperties/thumbnail) документа с параметрами по умолчанию.
 
 ```csharp
 public void UpdateThumbnail()

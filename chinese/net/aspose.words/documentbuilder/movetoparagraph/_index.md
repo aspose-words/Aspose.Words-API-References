@@ -21,9 +21,9 @@ public void MoveToParagraph(int paragraphIndex, int characterIndex)
 
 ### 评论
 
-在当前部分的当前故事中执行导航。 即，如果您将光标移动到第一节的主标题 那么paragraphIndex 指定该标题内的段落索引 那个部分。
+导航是在当前节的当前故事中执行的。 也就是说，如果您将光标移动到第一节的主标题， ，则段落索引指定该节的该标题 内的段落索引。
 
-当paragraphIndex 大于等于0 时，它指定从 开始的索引，0 为第一段。当paragraphIndex 小于0 时， 它指定从节末尾开始的索引，-1 是最后一个段落。
+当paragraphIndex 大于或等于0 时，它指定一个从 开始的索引，0 是第一个段落。当paragraphIndex 小于0 时， 它指定从该节末尾开始的索引，-1 是最后一个段落。
 
 ### 例子
 

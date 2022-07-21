@@ -18,7 +18,7 @@ public int VersionsCount { get; }
 
 Microsoft Word 中的版本可通过文件/版本菜单访问。 Microsoft Word 仅支持 DOC 文件的 版本。
 
-此属性允许检测在 Aspose.Words 中打开该文档 之前是否存储了文档版本。 Aspose.Words 不为文档版本提供其他支持。 如果您使用 Aspose.Words 保存此文档，则该文档将被保存而没有版本。
+此属性允许检测在 Aspose.Words 中打开此 document 之前是否存储了文档版本。 Aspose.Words 不提供对文档版本的其他支持。 如果您使用 Aspose.Words 保存此文档，则保存的文档将不包含版本。
 
 ### 例子
 

@@ -1,14 +1,14 @@
 ---
 title: IsHeading
 second_title: Справочник по API Aspose.Words для .NET
-description: True если стиль является одним из встроенных стилей заголовков.
+description: Истинно если стиль является одним из встроенных стилей заголовков.
 type: docs
 weight: 60
 url: /ru/net/aspose.words/style/isheading/
 ---
 ## Style.IsHeading property
 
-True, если стиль является одним из встроенных стилей заголовков.
+Истинно, если стиль является одним из встроенных стилей заголовков.
 
 ```csharp
 public bool IsHeading { get; }

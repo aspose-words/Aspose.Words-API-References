@@ -20,7 +20,7 @@ public ParagraphFormat ParagraphFormat { get; }
 
 ### 例子
 
-展示如何创建和使用带有列表格式的段落样式。
+展示如何使用列表格式创建和使用段落样式。
 
 ```csharp
 Document doc = new Document();

@@ -16,7 +16,7 @@ public bool FarEastLineBreakControl { get; set; }
 
 ### Примеры
 
-Показывает, как установить специальные свойства для азиатской типографики.
+Показывает, как задать специальные свойства для азиатской типографики.
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");

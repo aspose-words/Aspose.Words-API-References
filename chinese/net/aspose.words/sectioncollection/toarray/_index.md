@@ -16,7 +16,7 @@ public Section[] ToArray()
 
 ### 返回值
 
-部分数组。
+一组部分。
 
 ### 也可以看看
 

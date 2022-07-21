@@ -3,7 +3,7 @@ title: ListLevel
 second_title: Aspose.Words for .NET API 参考
 description: 定义列表级别的格式
 type: docs
-weight: 3250
+weight: 3300
 url: /zh/net/aspose.words.lists/listlevel/
 ---
 ## ListLevel class
@@ -19,10 +19,10 @@ public class ListLevel
 | 姓名 | 描述 |
 | --- | --- |
 | [Alignment](../../aspose.words.lists/listlevel/alignment) { get; set; } | 获取或设置列表项实际数量的对齐方式。 |
-| [CustomNumberStyleFormat](../../aspose.words.lists/listlevel/customnumberstyleformat) { get; } | 获取此列表级别的自定义数字样式格式。例如:“a, ç, ĝ, ...”。 |
+| [CustomNumberStyleFormat](../../aspose.words.lists/listlevel/customnumberstyleformat) { get; } | 获取此列表级别的自定义数字样式格式。例如：“a, ç, ĝ, ...”. |
 | [Font](../../aspose.words.lists/listlevel/font) { get; } | 指定用于列表标签的字符格式。 |
 | [ImageData](../../aspose.words.lists/listlevel/imagedata) { get; } | 返回当前列表级别的图片子弹形状的图像数据。 |
-| [IsLegal](../../aspose.words.lists/listlevel/islegal) { get; set; } | 如果关卡将所有继承的数字转换为阿拉伯语，则为真，如果保留它们的数字样式，则为假。 |
+| [IsLegal](../../aspose.words.lists/listlevel/islegal) { get; set; } | 如果关卡将所有继承的数字转换为阿拉伯数字，则为真，如果保留它们的数字样式，则为假。 |
 | [LinkedStyle](../../aspose.words.lists/listlevel/linkedstyle) { get; set; } | 获取或设置链接到此列表级别的段落样式。 |
 | [NumberFormat](../../aspose.words.lists/listlevel/numberformat) { get; set; } | 返回或设置列表级别的数字格式。 |
 | [NumberPosition](../../aspose.words.lists/listlevel/numberposition) { get; set; } | 返回或设置列表级别的数字或项目符号的位置（以磅为单位）。 |
@@ -39,28 +39,28 @@ public class ListLevel
 | --- | --- |
 | [CreatePictureBullet](../../aspose.words.lists/listlevel/createpicturebullet)() | 为当前列表级别创建图片子弹形状。 |
 | [DeletePictureBullet](../../aspose.words.lists/listlevel/deletepicturebullet)() | 删除当前列表级别的图片项目符号。 |
-| [Equals](../../aspose.words.lists/listlevel/equals#equals)(ListLevel) | 与指定的 ListLevel 进行比较。 |
+| [Equals](../../aspose.words.lists/listlevel/equals#equals)(ListLevel) | 与指定的 ListLevel 比较。 |
 | override [GetHashCode](../../aspose.words.lists/listlevel/gethashcode)() | 计算此对象的哈希码。 |
-| static [GetEffectiveValue](../../aspose.words.lists/listlevel/geteffectivevalue)(int, NumberStyle, string) | 报告指定索引[`ListLevel`](../listlevel)对象的字符串表示 的列表项。参数指定[`NumberStyle`](../../aspose.words/numberstyle)和一个可选的格式字符串 当Custom是指定的。 |
+| static [GetEffectiveValue](../../aspose.words.lists/listlevel/geteffectivevalue)(int, NumberStyle, string) | 报告[`ListLevel`](../listlevel)列表项的指定 index 的对象。参数指定[`NumberStyle`](../../aspose.words/numberstyle)和一个可选的格式 string 使用时Custom已指定。 |
 
 ### 评论
 
-您不要创建此类的对象。列表级对象在创建列表时自动创建 。您可以通过 [`ListLevelCollection`](../listlevelcollection)集合访问[`ListLevel`](../listlevel)对象。
+您不创建此类的对象。创建列表时会自动创建列表级对象 。您访问[`ListLevel`](../listlevel)对象通过 [`ListLevelCollection`](../listlevelcollection)收藏。
 
-使用[`ListLevel`](../listlevel)的属性为个人指定列表格式 列出级别。
+使用的属性[`ListLevel`](../listlevel)为各个列表级别指定列表格式设置 。
 
 ### 例子
 
-显示使用 DocumentBuilder 时如何将自定义列表格式应用于段落。
+演示如何在使用 DocumentBuilder 时将自定义列表格式应用于段落。
 
 ```csharp
 Document doc = new Document();
 
 // 列表允许我们用前缀符号和缩进组织和装饰段落集。
- // 我们可以通过增加缩进级别来创建嵌套列表。 
- // 我们可以使用文档构建器的“ListFormat”属性来开始和结束一个列表。 
- // 我们在列表开头和结尾之间添加的每个段落都将成为列表中的一个项目。
- // 从 Microsoft Word 模板创建一个列表，并自定义其前两个列表级别。
+// 我们可以通过增加缩进级别来创建嵌套列表。 
+// 我们可以使用文档构建器的“ListFormat”属性来开始和结束一个列表。 
+// 我们在列表的开头和结尾之间添加的每个段落都将成为列表中的一个项目。
+// 从 Microsoft Word 模板创建一个列表，并自定义其前两个列表级别。
 List list = doc.Lists.Add(ListTemplate.NumberDefault);
 
 ListLevel listLevel = list.ListLevels[0];
@@ -81,12 +81,12 @@ listLevel.Font.Name = "Wingdings";
 listLevel.Font.Color = Color.Blue;
 listLevel.Font.Size = 24;
 
- // 此 NumberFormat 值将创建星形项目符号列表符号。
+// 此 NumberFormat 值将创建星形项目符号列表符号。
 listLevel.NumberFormat = "\xf0af";
 listLevel.TrailingCharacter = ListTrailingCharacter.Space;
 listLevel.NumberPosition = 144;
 
- // 创建段落并将我们自定义列表格式的两个列表级别应用到它们。
+// 创建段落并将自定义列表格式的两个列表级别应用于它们。
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.ListFormat.List = list;

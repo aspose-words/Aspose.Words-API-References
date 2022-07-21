@@ -3,7 +3,7 @@ title: LineNumberRestartMode
 second_title: Справочник по API Aspose.Words для .NET
 description: Определяет когда перезапускается автоматическая нумерация строк.
 type: docs
-weight: 3180
+weight: 3230
 url: /ru/net/aspose.words/linenumberrestartmode/
 ---
 ## LineNumberRestartMode enumeration
@@ -19,7 +19,7 @@ public enum LineNumberRestartMode
 | Имя | Ценность | Описание |
 | --- | --- | --- |
 | RestartPage | `0` | Нумерация строк начинается заново в начале каждой страницы. |
-| RestartSection | `1` | Нумерация строк начинается с начала раздела. |
+| RestartSection | `1` | Нумерация строк возобновляется с начала раздела. |
 | Continuous | `2` | Нумерация строк продолжается с предыдущего раздела. |
 
 ### Примеры

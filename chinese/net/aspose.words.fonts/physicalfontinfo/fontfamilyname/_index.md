@@ -1,14 +1,14 @@
 ---
 title: FontFamilyName
 second_title: Aspose.Words for .NET API 参考
-description: 字体的系列名称
+description: 字体的家族名称
 type: docs
 weight: 20
 url: /zh/net/aspose.words.fonts/physicalfontinfo/fontfamilyname/
 ---
 ## PhysicalFontInfo.FontFamilyName property
 
-字体的系列名称。
+字体的家族名称。
 
 ```csharp
 public string FontFamilyName { get; }

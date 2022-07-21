@@ -1,14 +1,14 @@
 ---
 title: Version
 second_title: Справочник по API Aspose.Words для .NET
-description: Получает версию продукта.
+description: Получить версию продукта.
 type: docs
 weight: 20
 url: /ru/net/aspose.words/buildversioninfo/version/
 ---
 ## BuildVersionInfo.Version property
 
-Получает версию продукта.
+Получить версию продукта.
 
 ```csharp
 public static string Version { get; }
@@ -16,7 +16,7 @@ public static string Version { get; }
 
 ### Примечания
 
-Версия продукта имеет формат "Major.Minor.Hotfix.0".
+Версия продукта имеет формат «Major.Minor.Hotfix.0».
 
 ### Примеры
 

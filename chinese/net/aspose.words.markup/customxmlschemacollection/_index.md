@@ -3,7 +3,7 @@ title: CustomXmlSchemaCollection
 second_title: Aspose.Words for .NET API 参考
 description: 表示与自定义 XML 部件关联的 XML 模式的字符串集合
 type: docs
-weight: 3670
+weight: 3720
 url: /zh/net/aspose.words.markup/customxmlschemacollection/
 ---
 ## CustomXmlSchemaCollection class
@@ -18,14 +18,14 @@ public class CustomXmlSchemaCollection : IEnumerable<string>
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Count](../../aspose.words.markup/customxmlschemacollection/count) { get; } | 获取集合中包含的元素数量。 |
+| [Count](../../aspose.words.markup/customxmlschemacollection/count) { get; } | 获取集合中包含的元素数。 |
 | [Item](../../aspose.words.markup/customxmlschemacollection/item) { get; set; } | 获取或设置指定索引处的元素。 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Add](../../aspose.words.markup/customxmlschemacollection/add)(string) | 将项目添加到集合中。 |
+| [Add](../../aspose.words.markup/customxmlschemacollection/add)(string) | 将一个项目添加到集合中。 |
 | [Clear](../../aspose.words.markup/customxmlschemacollection/clear)() | 从集合中删除所有元素。 |
 | [Clone](../../aspose.words.markup/customxmlschemacollection/clone)() | 对该对象进行深度克隆。 |
 | [GetEnumerator](../../aspose.words.markup/customxmlschemacollection/getenumerator)() | 返回一个可用于迭代集合中所有项目的枚举器对象。 |
@@ -35,7 +35,7 @@ public class CustomXmlSchemaCollection : IEnumerable<string>
 
 ### 评论
 
-您不要创建此类的实例。您可以通过[`Schemas`](../customxmlpart/schemas)属性访问自定义 XML 部件 的 XML 模式集合。
+您不创建此类的实例。您可以通过以下方式访问自定义 XML part 的 XML 模式集合[`Schemas`](../customxmlpart/schemas)财产。
 
 ### 例子
 

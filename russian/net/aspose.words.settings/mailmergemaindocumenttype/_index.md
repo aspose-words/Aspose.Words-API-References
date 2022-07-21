@@ -1,14 +1,14 @@
 ---
 title: MailMergeMainDocumentType
 second_title: Справочник по API Aspose.Words для .NET
-description: Задает возможные типы исходного документа слияния.
+description: Определяет возможные типы исходного документа слияния.
 type: docs
-weight: 5490
+weight: 5540
 url: /ru/net/aspose.words.settings/mailmergemaindocumenttype/
 ---
 ## MailMergeMainDocumentType enumeration
 
-Задает возможные типы исходного документа слияния.
+Определяет возможные типы исходного документа слияния.
 
 ```csharp
 public enum MailMergeMainDocumentType
@@ -19,13 +19,13 @@ public enum MailMergeMainDocumentType
 | Имя | Ценность | Описание |
 | --- | --- | --- |
 | NotAMergeDocument | `0` | Этот документ не является документом слияния. |
-| FormLetters | `1` | Указывает, что исходный документ слияния имеет тип бланка письма. |
+| FormLetters | `1` | Указывает, что исходный документ слияния имеет форму письма. |
 | MailingLabels | `2` | Указывает, что исходный документ слияния относится к типу почтовой этикетки. |
 | Envelopes | `4` | Указывает, что исходный документ слияния имеет тип конверта. |
 | Catalog | `8` | Указывает, что исходный документ слияния относится к типу каталога. |
 | Email | `16` | Указывает, что исходный документ слияния относится к типу сообщения электронной почты. |
-| Fax | `32` | Указывает, что исходный документ слияния имеет тип факса. |
-| Default | `0` | РавноNotAMergeDocument |
+| Fax | `32` | Указывает, что исходный документ слияния относится к типу факса. |
+| Default | `0` | равноNotAMergeDocument |
 
 ### Примеры
 
@@ -42,9 +42,9 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 builder.Writeln(": ");
 builder.InsertField("MERGEFIELD Message", "<Message>");
 
- // Создаем источник данных в виде ASCII-файла с символом "|" характер
-// действует как разделитель, разделяющий столбцы. Первая строка содержит имена трех столбцов, 
- // и каждая последующая строка представляет собой строку с соответствующими значениями.
+// Создаем источник данных в виде ASCII-файла с символом "|" персонаж
+// действует как разделитель, разделяющий столбцы. Первая строка содержит имена трех столбцов,
+// и каждая последующая строка представляет собой строку с соответствующими значениями.
 string[] lines = { "FirstName|LastName|Message",
     "John|Doe|Hello! This message was created with Aspose Words mail merge." };
 string dataSrcFilename = ArtifactsDir + "MailMerge.MailMergeSettings.DataSource.txt";
@@ -72,7 +72,7 @@ odso.FirstRowContainsColumnNames = true;
 Assert.AreNotSame(odso, odso.Clone());
 Assert.AreNotSame(settings, settings.Clone());
 
- // Открытие этого документа в Microsoft Word приведет к выполнению слияния перед отображением содержимого. 
+// Открытие этого документа в Microsoft Word приведет к выполнению слияния перед отображением содержимого. 
 doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ```
 

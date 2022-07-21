@@ -3,7 +3,7 @@ title: SdtDateStorageFormat
 second_title: Справочник по API Aspose.Words для .NET
 description: Указывает как дата для SDT даты сохраняется/извлекается когда SDT привязан к узлу XML в хранилище данных документа.
 type: docs
-weight: 3720
+weight: 3770
 url: /ru/net/aspose.words.markup/sdtdatestorageformat/
 ---
 ## SdtDateStorageFormat enumeration
@@ -20,7 +20,7 @@ public enum SdtDateStorageFormat
 | --- | --- | --- |
 | Date | `0` | Значение даты для SDT даты хранится как дата в стандартном формате даты схемы XML. |
 | DateTime | `1` | Значение даты для SDT даты хранится как дата в стандартном формате XML Schema DateTime. |
-| Text | `2` | Значение даты для SDT даты хранится в виде текста. |
+| Text | `2` | Значение даты для SDT даты сохраняется в виде текста. |
 | Default | `1` | По умолчаниюDateTime |
 
 ### Смотрите также

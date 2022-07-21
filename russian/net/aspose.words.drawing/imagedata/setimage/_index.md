@@ -1,14 +1,14 @@
 ---
 title: SetImage
 second_title: Справочник по API Aspose.Words для .NET
-description: Устанавливает изображение отображаемое фигурой.
+description: Задает изображение отображаемое фигурой.
 type: docs
 weight: 200
 url: /ru/net/aspose.words.drawing/imagedata/setimage/
 ---
 ## SetImage(Image) {#setimage}
 
-Устанавливает изображение, отображаемое фигурой.
+Задает изображение, отображаемое фигурой.
 
 ```csharp
 public void SetImage(Image image)
@@ -25,12 +25,12 @@ public void SetImage(Image image)
 ```csharp
 Document doc = new Document();
 
- // Чтобы отобразить изображение в документе, нам нужно создать shape
- // который будет содержать изображение, а затем добавить его в тело документа.
+// Чтобы отобразить изображение в документе, нам нужно создать фигуру
+// который будет содержать изображение, а затем добавить его к телу документа.
 Shape imgShape;
 
- // Ниже приведены два способа получения изображения из файла в локальной файловой системе.
- // 1 - Создать объект изображения из файла изображения: 
+// Ниже приведены два способа получения изображения из файла в локальной файловой системе.
+// 1 - Создать объект изображения из файла изображения:
 using (Image srcImage = Image.FromFile(ImageDir + "Logo.jpg"))
 {
     imgShape = new Shape(doc, ShapeType.Image);
@@ -38,7 +38,7 @@ using (Image srcImage = Image.FromFile(ImageDir + "Logo.jpg"))
     imgShape.ImageData.SetImage(srcImage);
 }
 
- // 2 - Открыть файл изображения из локальной файловой системы с помощью потока: 
+// 2 - Открыть файл изображения из локальной файловой системы с помощью потока:
 using (Stream stream = new FileStream(ImageDir + "Logo.jpg", FileMode.Open, FileAccess.Read))
 {
     imgShape = new Shape(doc, ShapeType.Image);
@@ -60,7 +60,7 @@ doc.Save(ArtifactsDir + "Drawing.ImportImage.docx");
 
 ## SetImage(Stream) {#setimage_1}
 
-Устанавливает изображение, отображаемое фигурой.
+Задает изображение, отображаемое фигурой.
 
 ```csharp
 public void SetImage(Stream stream)
@@ -77,12 +77,12 @@ public void SetImage(Stream stream)
 ```csharp
 Document doc = new Document();
 
- // Чтобы отобразить изображение в документе, нам нужно создать shape
- // который будет содержать изображение, а затем добавить его в тело документа.
+// Чтобы отобразить изображение в документе, нам нужно создать фигуру
+// который будет содержать изображение, а затем добавить его к телу документа.
 Shape imgShape;
 
- // Ниже приведены два способа получения изображения из файла в локальной файловой системе.
- // 1 - Создать объект изображения из файла изображения: 
+// Ниже приведены два способа получения изображения из файла в локальной файловой системе.
+// 1 - Создать объект изображения из файла изображения:
 using (Image srcImage = Image.FromFile(ImageDir + "Logo.jpg"))
 {
     imgShape = new Shape(doc, ShapeType.Image);
@@ -90,7 +90,7 @@ using (Image srcImage = Image.FromFile(ImageDir + "Logo.jpg"))
     imgShape.ImageData.SetImage(srcImage);
 }
 
- // 2 - Открыть файл изображения из локальной файловой системы с помощью потока: 
+// 2 - Открыть файл изображения из локальной файловой системы с помощью потока:
 using (Stream stream = new FileStream(ImageDir + "Logo.jpg", FileMode.Open, FileAccess.Read))
 {
     imgShape = new Shape(doc, ShapeType.Image);
@@ -112,7 +112,7 @@ doc.Save(ArtifactsDir + "Drawing.ImportImage.docx");
 
 ## SetImage(string) {#setimage_2}
 
-Устанавливает изображение, отображаемое фигурой.
+Задает изображение, отображаемое фигурой.
 
 ```csharp
 public void SetImage(string fileName)
@@ -155,7 +155,7 @@ shape.ImageData.SourceFullName = imageFileName;
 builder.InsertNode(shape);
 doc.Save(ArtifactsDir + "Image.CreateLinkedImage.Linked.docx");
 
-// Ссылка на изображения сэкономит место и приведет к уменьшению размера документа.
+// Связывание с изображениями сэкономит место и приведет к уменьшению размера документа.
 // Однако документ может правильно отображать изображение только тогда, когда
 // файл изображения находится в месте, на которое указывает свойство SourceFullName фигуры.
 Assert.True(10000 > new FileInfo(ArtifactsDir + "Image.CreateLinkedImage.Linked.docx").Length);

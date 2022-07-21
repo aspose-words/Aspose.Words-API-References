@@ -3,7 +3,7 @@ title: PageRange
 second_title: Справочник по API Aspose.Words для .NET
 description: Представляет непрерывный диапазон страниц.
 type: docs
-weight: 5040
+weight: 5090
 url: /ru/net/aspose.words.saving/pagerange/
 ---
 ## PageRange class

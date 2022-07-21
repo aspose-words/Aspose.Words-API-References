@@ -1,14 +1,14 @@
 ---
 title: RightPadding
 second_title: Справочник по API Aspose.Words для .NET
-description: Возвращает или задает количество места в пунктах для добавления справа от содержимого ячейки.
+description: Возвращает или задает количество места в пунктах которое нужно добавить справа от содержимого ячейки.
 type: docs
 weight: 80
 url: /ru/net/aspose.words.tables/cellformat/rightpadding/
 ---
 ## CellFormat.RightPadding property
 
-Возвращает или задает количество места (в пунктах) для добавления справа от содержимого ячейки.
+Возвращает или задает количество места (в пунктах), которое нужно добавить справа от содержимого ячейки.
 
 ```csharp
 public double RightPadding { get; set; }

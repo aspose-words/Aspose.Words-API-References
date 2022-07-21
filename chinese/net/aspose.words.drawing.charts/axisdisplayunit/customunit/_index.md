@@ -1,14 +1,14 @@
 ---
 title: CustomUnit
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置用户定义的除数以缩放值轴上的显示单位
+description: 获取或设置一个用户定义的除数来缩放值轴上的显示单位
 type: docs
 weight: 20
 url: /zh/net/aspose.words.drawing.charts/axisdisplayunit/customunit/
 ---
 ## AxisDisplayUnit.CustomUnit property
 
-获取或设置用户定义的除数以缩放值轴上的显示单位。
+获取或设置一个用户定义的除数来缩放值轴上的显示单位。
 
 ```csharp
 public double CustomUnit { get; set; }
@@ -18,11 +18,11 @@ public double CustomUnit { get; set; }
 
 MS Office 2016 新图表不支持该属性。默认值为 1。
 
-设置此属性会将[`Unit`](../unit)属性设置为 Custom。
+设置此属性会设置[`Unit`](../unit) 的财产Custom.
 
 ### 例子
 
-显示如何操作图表轴的刻度线和显示值。
+显示如何操作刻度线和图表轴的显示值。
 
 ```csharp
 Document doc = new Document();

@@ -16,7 +16,7 @@ public void Notify(PageLayoutCallbackArgs args)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| args | PageLayoutCallbackArgs | 事件的参数。 |
+| args | PageLayoutCallbackArgs | 事件的论据。 |
 
 ### 评论
 
@@ -24,7 +24,7 @@ public void Notify(PageLayoutCallbackArgs args)
 
 ### 例子
 
-显示如何使用布局回调跟踪布局更改。
+展示如何使用布局回调跟踪布局更改。
 
 ```csharp
 [Test]
@@ -43,8 +43,8 @@ public void PageLayoutCallback()
 }
 
 /// <summary>
- /// 当我们将文档保存到固定页面时通知我们 format
- /// 并渲染一个页面，我们在本地文件系统中的图像上执行页面回流。
+/// 当我们将文档保存为固定页面格式时通知我们
+/// 并渲染一个页面，我们在本地文件系统中的图像上执行页面回流。
 /// </summary>
 private class RenderPageLayoutCallback : IPageLayoutCallback
 {

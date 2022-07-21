@@ -1,14 +1,14 @@
 ---
 title: UpdateSdtContent
 second_title: Справочник по API Aspose.Words для .NET
-description: Получает или задает значение определяющее будет ли содержимоеStructuredDocumentTagaspose.words.markup/structureddocumenttagобновляться перед сохранением.
+description: Получает или задает значение определяющее будет ли содержимоеStructuredDocumentTagaspose.words.markup/structureddocumenttag обновляется перед сохранением.
 type: docs
 weight: 200
 url: /ru/net/aspose.words.saving/saveoptions/updatesdtcontent/
 ---
 ## SaveOptions.UpdateSdtContent property
 
-Получает или задает значение, определяющее, будет ли содержимое[`StructuredDocumentTag`](../../../aspose.words.markup/structureddocumenttag)обновляться перед сохранением.
+Получает или задает значение, определяющее, будет ли содержимое[`StructuredDocumentTag`](../../../aspose.words.markup/structureddocumenttag) обновляется перед сохранением.
 
 ```csharp
 public bool UpdateSdtContent { get; set; }
@@ -16,7 +16,7 @@ public bool UpdateSdtContent { get; set; }
 
 ### Примечания
 
-Значение по умолчанию:` true` .
+Значение по умолчанию:`истинный` .
 
 ### Примеры
 

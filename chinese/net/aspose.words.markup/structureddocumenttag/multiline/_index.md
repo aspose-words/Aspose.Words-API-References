@@ -1,14 +1,14 @@
 ---
 title: Multiline
 second_title: Aspose.Words for .NET API 参考
-description: 指定此 SDT 是否允许多行文本
+description: 指定这是否 SDT允许多行文本
 type: docs
 weight: 210
 url: /zh/net/aspose.words.markup/structureddocumenttag/multiline/
 ---
 ## StructuredDocumentTag.Multiline property
 
-指定此 **SDT** 是否允许多行文本。
+指定这是否 **SDT**允许多行文本。
 
 ```csharp
 public bool Multiline { get; set; }
@@ -16,7 +16,7 @@ public bool Multiline { get; set; }
 
 ### 评论
 
-访问此属性仅适用于RichText和PlainTextSDT 类型。
+访问此属性仅适用于RichText和PlainTextSDT 类型.
 
 对于所有其他 SDT 类型，将发生异常。
 

@@ -10,7 +10,7 @@ url: /zh/net/aspose.words.saving/imagesaveoptions/papercolor/
 
 获取或设置生成图像的背景（纸张）颜色。
 
-默认值为White。
+默认值为White.
 
 ```csharp
 public Color PaperColor { get; set; }
@@ -18,7 +18,7 @@ public Color PaperColor { get; set; }
 
 ### 评论
 
-渲染指定其自身背景颜色的文档页面时， 然后文档背景颜色将覆盖此属性指定的颜色。
+当呈现指定其自己的背景颜色的文档页面时， 文档背景颜色将覆盖此属性指定的颜色。
 
 ### 例子
 

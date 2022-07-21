@@ -1,14 +1,14 @@
 ---
 title: LastRecord
 second_title: Справочник по API Aspose.Words для .NET
-description: Получает или задает целочисленный номер последней вставляемой записи данных.
+description: Получает или задает целочисленный номер последней записи данных для вставки.
 type: docs
 weight: 80
 url: /ru/net/aspose.words.fields/fielddatabase/lastrecord/
 ---
 ## FieldDatabase.LastRecord property
 
-Получает или задает целочисленный номер последней вставляемой записи данных.
+Получает или задает целочисленный номер последней записи данных для вставки.
 
 ```csharp
 public string LastRecord { get; set; }

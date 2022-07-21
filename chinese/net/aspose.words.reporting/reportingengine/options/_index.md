@@ -1,14 +1,14 @@
 ---
 title: Options
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置一组标志控制此ReportingEngineaspose.words.reporting/reportingengine实例的行为在构建报告时
+description: 获取或设置一组控制此行为的标志ReportingEngineaspose.words.reporting/reportingengine在构建报告时实例 
 type: docs
 weight: 30
 url: /zh/net/aspose.words.reporting/reportingengine/options/
 ---
 ## ReportingEngine.Options property
 
-获取或设置一组标志控制此[`ReportingEngine`](../../reportingengine)实例的行为在构建报告时。
+获取或设置一组控制此行为的标志[`ReportingEngine`](../../reportingengine)在构建报告时实例 。
 
 ```csharp
 public ReportBuildOptions Options { get; set; }

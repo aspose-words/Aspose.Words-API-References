@@ -1,14 +1,14 @@
 ---
 title: MatchCase
 second_title: Aspose.Words for .NET API 参考
-description: True 表示区分大小写比较false 表示不区分大小写比较
+description: true表示区分大小写比较false表示不区分大小写比较
 type: docs
 weight: 120
 url: /zh/net/aspose.words.replacing/findreplaceoptions/matchcase/
 ---
 ## FindReplaceOptions.MatchCase property
 
-True 表示区分大小写比较，false 表示不区分大小写比较。
+true表示区分大小写比较，false表示不区分大小写比较。
 
 ```csharp
 public bool MatchCase { get; set; }

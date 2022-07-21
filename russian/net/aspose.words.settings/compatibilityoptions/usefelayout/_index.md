@@ -1,14 +1,14 @@
 ---
 title: UseFELayout
 second_title: Справочник по API Aspose.Words для .NET
-description: Не обходить восточноазиатский/сложный код макета сценария.
+description: Не обходить код макета восточноазиатского/сложного сценария.
 type: docs
 weight: 620
 url: /ru/net/aspose.words.settings/compatibilityoptions/usefelayout/
 ---
 ## CompatibilityOptions.UseFELayout property
 
-Не обходить восточноазиатский/сложный код макета сценария.
+Не обходить код макета восточноазиатского/сложного сценария.
 
 ```csharp
 public bool UseFELayout { get; set; }

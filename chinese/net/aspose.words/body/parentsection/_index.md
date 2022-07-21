@@ -16,7 +16,7 @@ public Section ParentSection { get; }
 
 ### 评论
 
-**ParentSection** 等价到` (Section)ParentNode` 。
+**家长节**相当于`(节)ParentNode`.
 
 ### 例子
 

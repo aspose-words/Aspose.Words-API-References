@@ -1,14 +1,14 @@
 ---
 title: Password
 second_title: Справочник по API Aspose.Words для .NET
-description: Отметка времени пароля сервера.
+description: Пароль сервера временной метки.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.saving/pdfdigitalsignaturetimestampsettings/password/
 ---
 ## PdfDigitalSignatureTimestampSettings.Password property
 
-Отметка времени пароля сервера.
+Пароль сервера временной метки.
 
 ```csharp
 public string Password { get; set; }

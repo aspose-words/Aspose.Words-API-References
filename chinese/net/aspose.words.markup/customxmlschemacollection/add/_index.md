@@ -1,14 +1,14 @@
 ---
 title: Add
 second_title: Aspose.Words for .NET API 参考
-description: 将项目添加到集合中
+description: 将一个项目添加到集合中
 type: docs
 weight: 30
 url: /zh/net/aspose.words.markup/customxmlschemacollection/add/
 ---
 ## CustomXmlSchemaCollection.Add method
 
-将项目添加到集合中。
+将一个项目添加到集合中。
 
 ```csharp
 public void Add(string value)

@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Справочник по API Aspose.Words для .NET
-description: Извлекает HeaderFooter по заданному индексу.
+description: Получает Верхний колонтитул по данному индексу.
 type: docs
 weight: 10
 url: /ru/net/aspose.words/headerfootercollection/item/
 ---
 ## HeaderFooterCollection indexer (1 of 2)
 
-Извлекает **HeaderFooter** по заданному индексу.
+Получает **Верхний колонтитул** по данному индексу.
 
 ```csharp
 public HeaderFooter this[int index] { get; }
@@ -24,9 +24,9 @@ public HeaderFooter this[int index] { get; }
 
 Отрицательные индексы разрешены и указывают на доступ из задней части коллекции. Например, -1 означает последний элемент, -2 означает предпоследний и так далее.
 
-Если индекс больше или равен количеству элементов в списке, возвращает нулевую ссылку.
+Если индекс больше или равен количеству элементов в списке, возвращается пустая ссылка.
 
-Если индекс отрицательный и его абсолютное значение больше, чем количество элементов в списке, возвращает нулевую ссылку.
+Если индекс отрицательный и его абсолютное значение больше, чем количество элементов в списке, возвращается пустая ссылка.
 
 ### Примеры
 
@@ -57,7 +57,7 @@ builder.Write("This is the footer, which will be displayed in sections 1, 2 and 
 doc.Sections[1].HeadersFooters.LinkToPrevious(true);
 
 // Каждый раздел по-прежнему будет иметь свои собственные объекты верхнего/нижнего колонтитула. Когда мы связываем разделы,
-// раздел ссылки будет отображать верхний и нижний колонтитулы связанного раздела, сохраняя при этом свои собственные.
+// раздел ссылок будет отображать верхний и нижний колонтитулы связанного раздела, сохраняя при этом свои собственные.
 Assert.AreNotEqual(doc.Sections[0].HeadersFooters[0], doc.Sections[1].HeadersFooters[0]);
 Assert.AreNotEqual(doc.Sections[0].HeadersFooters[0].ParentSection, doc.Sections[1].HeadersFooters[0].ParentSection);
 
@@ -101,7 +101,7 @@ doc.Save(ArtifactsDir + "HeaderFooter.Link.docx");
 
 ## HeaderFooterCollection indexer (2 of 2)
 
-Извлекает **HeaderFooter** указанного типа.
+Получает **Верхний колонтитул** указанного типа.
 
 ```csharp
 public HeaderFooter this[HeaderFooterType headerFooterType] { get; }
@@ -109,39 +109,32 @@ public HeaderFooter this[HeaderFooterType headerFooterType] { get; }
 
 | Параметр | Описание |
 | --- | --- |
-| headerFooterType | A[`HeaderFooterType`](../../headerfootertype)значение что указывает тип верхнего/нижнего колонтитула для извлечения. |
+| headerFooterType | А[`HeaderFooterType`](../../headerfootertype) value , указывающий тип извлекаемого верхнего/нижнего колонтитула. |
 
 ### Примечания
 
-Возвращает null, если заголовок/нижний колонтитул указанного типа не найден.
+Возвращает null, если верхний/нижний колонтитул указанного типа не найден.
 
 ### Примеры
 
 Показывает, как заменить текст в нижнем колонтитуле документа.
 
 ```csharp
-Document doc = new Document(MyDir + "Header and footer types.docx");
+Document doc = new Document(MyDir + "Footer.docx");
 
-// Перебираем каждый раздел и удаляем нижние колонтитулы всех видов.
-foreach (Section section in doc.OfType<Section>())
+HeaderFooterCollection headersFooters = doc.FirstSection.HeadersFooters;
+HeaderFooter footer = headersFooters[HeaderFooterType.FooterPrimary];
+
+FindReplaceOptions options = new FindReplaceOptions
 {
-    // Существует три типа нижнего и верхнего колонтитула.
-    // 1 - «Первый» верхний/нижний колонтитул, который появляется только на первой странице раздела.
-    HeaderFooter footer = section.HeadersFooters[HeaderFooterType.FooterFirst];
-    footer?.Remove();
+    MatchCase = false,
+    FindWholeWordsOnly = false
+};
 
-    // 2 - «Основной» верхний/нижний колонтитул, который появляется на нечетных страницах.
-    footer = section.HeadersFooters[HeaderFooterType.FooterPrimary];
-    footer?.Remove();
+int currentYear = DateTime.Now.Year;
+footer.Range.Replace("(C) 2006 Aspose Pty Ltd.", $"Copyright (C) {currentYear} by Aspose Pty Ltd.", options);
 
-     // 3 - "Четный" верхний/нижний колонтитул, который появляется на четных страницах.
-    footer = section.HeadersFooters[HeaderFooterType.FooterEven];
-    footer?.Remove();
-
-    Assert.AreEqual(0, section.HeadersFooters.Count(hf => !((HeaderFooter)hf).IsHeader));
-}
-
-doc.Save(ArtifactsDir + "HeaderFooter.RemoveFooters.docx");
+doc.Save(ArtifactsDir + "HeaderFooter.ReplaceText.docx");
 ```
 
 Показывает, как удалить все нижние колонтитулы из документа.

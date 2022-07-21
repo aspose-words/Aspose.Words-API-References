@@ -3,7 +3,7 @@ title: FieldBuilder
 second_title: Справочник по API Aspose.Words для .NET
 description: Создает поле из токенов кода поля аргументы и переключатели.
 type: docs
-weight: 1490
+weight: 1510
 url: /ru/net/aspose.words.fields/fieldbuilder/
 ---
 ## FieldBuilder class
@@ -18,15 +18,15 @@ public class FieldBuilder
 
 | Имя | Описание |
 | --- | --- |
-| [FieldBuilder](fieldbuilder)(FieldType) | Инициализирует экземпляр класса[`FieldBuilder`](../fieldbuilder). |
+| [FieldBuilder](fieldbuilder)(FieldType) | Инициализирует экземпляр[`FieldBuilder`](../fieldbuilder) класс. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
 | [AddArgument](../../aspose.words.fields/fieldbuilder/addargument#addargument_2)(double) | Добавляет аргумент поля. |
-| [AddArgument](../../aspose.words.fields/fieldbuilder/addargument#addargument)(FieldArgumentBuilder) | Добавляет аргумент поля, представленный[`FieldArgumentBuilder`](../fieldargumentbuilder)к коду поля. |
-| [AddArgument](../../aspose.words.fields/fieldbuilder/addargument#addargument_1)(FieldBuilder) | Добавляет дочернее поле, представленное другим[`FieldBuilder`](../fieldbuilder)в код поля. |
+| [AddArgument](../../aspose.words.fields/fieldbuilder/addargument#addargument)(FieldArgumentBuilder) | Добавляет аргумент поля, представленный[`FieldArgumentBuilder`](../fieldargumentbuilder) к коду поля. |
+| [AddArgument](../../aspose.words.fields/fieldbuilder/addargument#addargument_1)(FieldBuilder) | Добавляет дочернее поле, представленное другим[`FieldBuilder`](../fieldbuilder) к коду поля. |
 | [AddArgument](../../aspose.words.fields/fieldbuilder/addargument#addargument_3)(int) | Добавляет аргумент поля. |
 | [AddArgument](../../aspose.words.fields/fieldbuilder/addargument#addargument_4)(string) | Добавляет аргумент поля. |
 | [AddSwitch](../../aspose.words.fields/fieldbuilder/addswitch#addswitch)(string) | Добавляет переключатель поля. |

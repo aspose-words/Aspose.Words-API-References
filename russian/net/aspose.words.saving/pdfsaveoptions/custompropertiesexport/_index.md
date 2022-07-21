@@ -1,14 +1,14 @@
 ---
 title: CustomPropertiesExport
 second_title: Справочник по API Aspose.Words для .NET
-description: Получает или задает значение определяющее способ экспортаCustomDocumentPropertiesaspose.words/document/customdocumentpropertiesв файл PDF.
+description: Получает или задает значение определяющее способCustomDocumentPropertiesaspose.words/document/customdocumentproperties экспортируются в файл PDF.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.saving/pdfsaveoptions/custompropertiesexport/
 ---
 ## PdfSaveOptions.CustomPropertiesExport property
 
-Получает или задает значение, определяющее способ экспорта[`CustomDocumentProperties`](../../../aspose.words/document/customdocumentproperties)в файл PDF.
+Получает или задает значение, определяющее способ[`CustomDocumentProperties`](../../../aspose.words/document/customdocumentproperties) экспортируются в файл PDF.
 
 ```csharp
 public PdfCustomPropertiesExport CustomPropertiesExport { get; set; }
@@ -16,11 +16,11 @@ public PdfCustomPropertiesExport CustomPropertiesExport { get; set; }
 
 ### Примечания
 
-Значение по умолчанию:None.
+Значение по умолчаниюNone.
 
-Metadataзначение не поддерживается при сохранении в PDF/A. Standardвместо этого будет использоваться для PDF/A-1 и PDF/A-2 и Noneдля PDF/A-4.
+Metadata значение не поддерживается при сохранении в PDF/A. Standard вместо этого будет использоваться для PDF/A-1 и PDF/A-2 and None для PDF/A-4.
 
-Standardзначение не поддерживается при сохранении в PDF 2.0. Metadataбудет использоваться вместо этого.
+Standard значение не поддерживается при сохранении в PDF 2.0. Metadata вместо этого будет использоваться.
 
 ### Примеры
 

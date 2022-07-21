@@ -1,14 +1,14 @@
 ---
 title: ClearFormatting
 second_title: Справочник по API Aspose.Words для .NET
-description: Очищает все условные стили стиля таблицы.
+description: Очищает все условные стили таблицы style.
 type: docs
 weight: 150
 url: /ru/net/aspose.words/conditionalstylecollection/clearformatting/
 ---
 ## ConditionalStyleCollection.ClearFormatting method
 
-Очищает все условные стили стиля таблицы.
+Очищает все условные стили таблицы style.
 
 ```csharp
 public void ClearFormatting()
@@ -16,7 +16,7 @@ public void ClearFormatting()
 
 ### Примеры
 
-Показывает, как сбросить условные стили таблицы.
+Показывает, как сбросить условные стили таблиц.
 
 ```csharp
 Document doc = new Document();
@@ -33,14 +33,14 @@ builder.EndTable();
 TableStyle tableStyle = (TableStyle)doc.Styles.Add(StyleType.Table, "MyTableStyle1");
 table.Style = tableStyle;
 
- // Устанавливаем стиль таблицы для окрашивания границ первой строки таблицы в красный цвет.
+// Установите стиль таблицы, чтобы покрасить границы первой строки таблицы в красный цвет.
 tableStyle.ConditionalStyles.FirstRow.Borders.Color = Color.Red;
 
- // Устанавливаем стиль таблицы для окрашивания границ последней строки таблицы в синий цвет.
+// Установите стиль таблицы, чтобы покрасить границы последней строки таблицы в синий цвет.
 tableStyle.ConditionalStyles.LastRow.Borders.Color = Color.Blue;
 
- // Ниже приведены два способа использования метода ClearFormatting для очистки условных стилей.
- // 1 - Очистить условные стили для определенной части таблицы: 
+// Ниже приведены два способа использования метода ClearFormatting для очистки условных стилей.
+// 1 - Очистить условные стили для определенной части таблицы:
 tableStyle.ConditionalStyles[0].ClearFormatting();
 
 Assert.AreEqual(Color.Empty, tableStyle.ConditionalStyles.FirstRow.Borders.Color);

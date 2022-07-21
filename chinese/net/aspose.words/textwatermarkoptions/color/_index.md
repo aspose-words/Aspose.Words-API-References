@@ -1,14 +1,14 @@
 ---
 title: Color
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置字体颜色默认值为 Color.Silver
+description: 获取或设置字体颜色默认值为 Color.Silver.
 type: docs
 weight: 20
 url: /zh/net/aspose.words/textwatermarkoptions/color/
 ---
 ## TextWatermarkOptions.Color property
 
-获取或设置字体颜色。默认值为 Color.Silver。
+获取或设置字体颜色。默认值为 Color.Silver.
 
 ```csharp
 public Color Color { get; set; }
@@ -16,7 +16,7 @@ public Color Color { get; set; }
 
 ### 例子
 
-显示如何创建文本水印。
+演示如何创建文本水印。
 
 ```csharp
 Document doc = new Document();

@@ -3,7 +3,7 @@ title: VbaReference
 second_title: Справочник по API Aspose.Words для .NET
 description: Реализует ссылку на библиотеку типов автоматизации или проект VBA.
 type: docs
-weight: 6230
+weight: 6280
 url: /ru/net/aspose.words.vba/vbareference/
 ---
 ## VbaReference class
@@ -19,7 +19,7 @@ public abstract class VbaReference
 | Имя | Описание |
 | --- | --- |
 | abstract [LibId](../../aspose.words.vba/vbareference/libid) { get; } | Получает строковое значение, содержащее идентификатор библиотеки типов автоматизации. |
-| abstract [Type](../../aspose.words.vba/vbareference/type) { get; } | Получает[`VbaReferenceType`](../vbareferencetype)объект, указывающий тип ссылки, которую представляет объект VbaReference. |
+| abstract [Type](../../aspose.words.vba/vbareference/type) { get; } | получает[`VbaReferenceType`](../vbareferencetype)объект, указывающий тип ссылки, которую представляет объект VbaReference. |
 
 ### Примеры
 
@@ -52,7 +52,7 @@ public void RemoveVbaReference()
 }
 
 /// <summary>
- /// Возвращает строку, представляющую путь LibId указанной ссылки. 
+/// Возвращает строку, представляющую путь LibId указанной ссылки. 
 /// </summary>
 private static string GetLibIdPath(VbaReference reference)
 {
@@ -70,7 +70,7 @@ private static string GetLibIdPath(VbaReference reference)
 }
 
 /// <summary>
- /// Возвращает путь из указанного идентификатора библиотеки типов автоматизации.
+/// Возвращает путь из указанного идентификатора библиотеки типов автоматизации.
 /// </summary>
 private static string GetLibIdReferencePath(string libIdReference)
 {
@@ -85,7 +85,7 @@ private static string GetLibIdReferencePath(string libIdReference)
 }
 
 /// <summary>
- /// Возвращает путь из указанного идентификатора библиотеки типов автоматизации.
+/// Возвращает путь из указанного идентификатора библиотеки типов автоматизации.
 /// </summary>
 private static string GetLibIdProjectPath(string libIdProject)
 {

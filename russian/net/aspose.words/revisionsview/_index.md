@@ -1,14 +1,14 @@
 ---
 title: RevisionsView
 second_title: Справочник по API Aspose.Words для .NET
-description: Позволяет указать работать ли с оригинальной или исправленной версией документа.
+description: Позволяет указать следует ли работать с исходной или исправленной версией документа.
 type: docs
-weight: 4500
+weight: 4550
 url: /ru/net/aspose.words/revisionsview/
 ---
 ## RevisionsView enumeration
 
-Позволяет указать, работать ли с оригинальной или исправленной версией документа.
+Позволяет указать, следует ли работать с исходной или исправленной версией документа.
 
 ```csharp
 public enum RevisionsView

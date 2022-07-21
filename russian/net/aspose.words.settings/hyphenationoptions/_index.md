@@ -3,7 +3,7 @@ title: HyphenationOptions
 second_title: Справочник по API Aspose.Words для .NET
 description: Позволяет настроить параметры переноса документа.
 type: docs
-weight: 5450
+weight: 5500
 url: /ru/net/aspose.words.settings/hyphenationoptions/
 ---
 ## HyphenationOptions class
@@ -24,9 +24,9 @@ public class HyphenationOptions
 
 | Имя | Описание |
 | --- | --- |
-| [AutoHyphenation](../../aspose.words.settings/hyphenationoptions/autohyphenation) { get; set; } | Получает или задает значение, определяющее, включена ли для документа автоматическая расстановка переносов. Значение по умолчанию для этого свойства: **false** . |
-| [ConsecutiveHyphenLimit](../../aspose.words.settings/hyphenationoptions/consecutivehyphenlimit) { get; set; } | Получает или задает максимальное количество последовательных строк, которые могут заканчиваться дефисами. Значение по умолчанию для этого свойства равно 0. |
-| [HyphenateCaps](../../aspose.words.settings/hyphenationoptions/hyphenatecaps) { get; set; } | Получает или задает значение, определяющее, переносятся ли слова, написанные заглавными буквами. Значение по умолчанию для этого свойства: **true** . |
+| [AutoHyphenation](../../aspose.words.settings/hyphenationoptions/autohyphenation) { get; set; } | Получает или задает значение, определяющее, включен ли автоматический перенос переносов для документа. Значение по умолчанию для этого свойства: **ЛОЖЬ** . |
+| [ConsecutiveHyphenLimit](../../aspose.words.settings/hyphenationoptions/consecutivehyphenlimit) { get; set; } | Получает или задает максимальное количество последовательных строк, которые могут заканчиваться дефисами. Значение по умолчанию для этого свойства: 0. |
+| [HyphenateCaps](../../aspose.words.settings/hyphenationoptions/hyphenatecaps) { get; set; } | Получает или задает значение, определяющее, переносятся ли слова, написанные заглавными буквами. Значение по умолчанию для этого свойства: **истинный** . |
 | [HyphenationZone](../../aspose.words.settings/hyphenationoptions/hyphenationzone) { get; set; } | Получает или задает расстояние в 1/20 пункта от правого поля, в пределах которого вы не хотите переносить слова. Значение по умолчанию для этого свойства — 360 (0,25 дюйма). |
 
 ### Примеры

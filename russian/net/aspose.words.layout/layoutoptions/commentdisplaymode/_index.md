@@ -1,14 +1,14 @@
 ---
 title: CommentDisplayMode
 second_title: Справочник по API Aspose.Words для .NET
-description: Получает или задает способ отображения комментариев. Значение по умолчаниюShowInBalloons.
+description: Получает или задает способ отображения комментариев. Значение по умолчаниюShowInBalloons .
 type: docs
 weight: 30
 url: /ru/net/aspose.words.layout/layoutoptions/commentdisplaymode/
 ---
 ## LayoutOptions.CommentDisplayMode property
 
-Получает или задает способ отображения комментариев. Значение по умолчанию:ShowInBalloons.
+Получает или задает способ отображения комментариев. Значение по умолчанию:ShowInBalloons .
 
 ```csharp
 public CommentDisplayMode CommentDisplayMode { get; set; }
@@ -16,11 +16,11 @@ public CommentDisplayMode CommentDisplayMode { get; set; }
 
 ### Примечания
 
-Обратите внимание, что исправления не отображаются в выносках дляShowInAnnotations.
+Обратите внимание, что ревизии не отображаются во всплывающих подсказках дляShowInAnnotations .
 
 ### Примеры
 
-Показывает, как отображать комментарии при сохранении документа в формате визуализации.
+Показывает, как отображать комментарии при сохранении документа в подготовленном формате.
 
 ```csharp
 Document doc = new Document();

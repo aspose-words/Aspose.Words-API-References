@@ -16,7 +16,7 @@ public string FontFamily { get; set; }
 
 ### 例子
 
-显示如何创建文本水印。
+演示如何创建文本水印。
 
 ```csharp
 Document doc = new Document();

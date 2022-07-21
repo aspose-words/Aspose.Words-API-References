@@ -1,14 +1,14 @@
 ---
 title: ShapeLayoutLikeWW8
 second_title: Справочник по API Aspose.Words для .NET
-description: Эмуляция переноса текста Word 97 вокруг плавающих объектов.
+description: Эмулировать перенос текста Word 97 вокруг плавающих объектов.
 type: docs
 weight: 420
 url: /ru/net/aspose.words.settings/compatibilityoptions/shapelayoutlikeww8/
 ---
 ## CompatibilityOptions.ShapeLayoutLikeWW8 property
 
-Эмуляция переноса текста Word 97 вокруг плавающих объектов.
+Эмулировать перенос текста Word 97 вокруг плавающих объектов.
 
 ```csharp
 public bool ShapeLayoutLikeWW8 { get; set; }

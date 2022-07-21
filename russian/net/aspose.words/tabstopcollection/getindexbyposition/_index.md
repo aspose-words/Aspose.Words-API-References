@@ -22,15 +22,15 @@ public int GetIndexByPosition(double position)
 Document doc = new Document();
 TabStopCollection tabStops = doc.FirstSection.Body.Paragraphs[0].ParagraphFormat.TabStops;
 
- // Добавляем позицию табуляции в позиции 30 мм.
+// Добавляем позицию табуляции на расстоянии 30 мм.
 tabStops.Add(ConvertUtil.MillimeterToPoint(30), TabAlignment.Left, TabLeader.Dashes);
 
-// Результат "0", возвращенный "GetIndexByPosition", подтверждает, что вкладка stop
- // на 30 мм существует в этой коллекции и имеет индекс 0.
+// Результат "0", возвращенный "GetIndexByPosition", подтверждает, что табуляция
+// в 30 мм существует в этой коллекции и имеет индекс 0.
 Assert.AreEqual(0, tabStops.GetIndexByPosition(ConvertUtil.MillimeterToPoint(30)));
 
- // "-1", возвращаемый "GetIndexByPosition", подтверждает, что
- // в этой коллекции нет табулятора с позицией 60мм.
+// "-1", возвращаемый "GetIndexByPosition", подтверждает, что
+// в этой коллекции нет позиции табуляции с позицией 60 мм.
 Assert.AreEqual(-1, tabStops.GetIndexByPosition(ConvertUtil.MillimeterToPoint(60)));
 ```
 

@@ -1,14 +1,14 @@
 ---
 title: Signer
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置签名行的建议签名者 此属性的默认值为 空字符串 Empty
+description: 获取或设置签名行的建议签名者 此属性的默认值为 空字符串Empty .
 type: docs
 weight: 100
 url: /zh/net/aspose.words.drawing/signatureline/signer/
 ---
 ## SignatureLine.Signer property
 
-获取或设置签名行的建议签名者。 此属性的默认值为 **空字符串** (Empty)。
+获取或设置签名行的建议签名者。 此属性的默认值为 **空字符串**(Empty ).
 
 ```csharp
 public string Signer { get; set; }

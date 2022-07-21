@@ -1,14 +1,14 @@
 ---
 title: Shading
 second_title: Aspose.Words for .NET API 参考
-description: 获取一个Shadingaspose.words/shading对象该对象引用表格单元格的着色格式
+description: 得到一个Shadingaspose.words/shading引用表格单元格的阴影格式的对象
 type: docs
 weight: 130
 url: /zh/net/aspose.words/tablestyle/shading/
 ---
 ## TableStyle.Shading property
 
-获取一个[`Shading`](../../shading)对象，该对象引用表格单元格的着色格式。
+得到一个[`Shading`](../../shading)引用表格单元格的阴影格式的对象。
 
 ```csharp
 public Shading Shading { get; }
@@ -47,7 +47,7 @@ tableStyle.VerticalAlignment = CellVerticalAlignment.Center;
 
 table.Style = tableStyle;
 
- // 设置表格的样式属性可能会影响表格本身的属性
+// 设置表格的样式属性可能会影响表格本身的属性。
 Assert.True(table.Bidi);
 Assert.AreEqual(5.0d, table.CellSpacing);
 Assert.AreEqual("MyTableStyle1", table.StyleName);

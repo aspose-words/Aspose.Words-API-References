@@ -1,14 +1,14 @@
 ---
 title: TextColumn
 second_title: Справочник по API Aspose.Words для .NET
-description: Представляет один текстовый столбец. TextColumn является членом коллекцииTextColumnCollection./textcolumncollection. Коллекция TextColumns включает все столбцы в разделе документа.
+description: Представляет один текстовый столбец. Текстовая колонка является членомTextColumnCollection./textcolumncollection коллекция.  Текстовые столбцы коллекция включает все столбцы в разделе документа.
 type: docs
-weight: 6040
+weight: 6090
 url: /ru/net/aspose.words/textcolumn/
 ---
 ## TextColumn class
 
-Представляет один текстовый столбец. **TextColumn** является членом коллекции[`TextColumnCollection`](../textcolumncollection). Коллекция **TextColumns** включает все столбцы в разделе документа.
+Представляет один текстовый столбец. **Текстовая колонка** является членом[`TextColumnCollection`](../textcolumncollection) коллекция.  **Текстовые столбцы** коллекция включает все столбцы в разделе документа.
 
 ```csharp
 public class TextColumn
@@ -23,9 +23,9 @@ public class TextColumn
 
 ### Примечания
 
-**TextColumn** объекты используется только для указания столбцов с пользовательской шириной и интервалом. Если вы хотите, чтобы столбцы в документе имели одинаковую ширину, установите TextColumns.[`EvenlySpaced`](../textcolumncollection/evenlyspaced)to **true** .
+**Текстовая колонка** объекты используются только для указания столбцов с пользовательской шириной и интервалом. Если вы хотите, чтобы столбцы в документе имели одинаковую ширину, установите TextColumns.[`EvenlySpaced`](../textcolumncollection/evenlyspaced) к **истинный**.
 
-Когда создается новый **TextColumn** , его ширина и интервал устанавливаются равными нулю.
+Когда новый **Текстовая колонка** создается, его ширина и интервал равны нулю.
 
 ### Примеры
 

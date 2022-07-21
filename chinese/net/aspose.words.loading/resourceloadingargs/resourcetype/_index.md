@@ -16,7 +16,7 @@ public ResourceType ResourceType { get; }
 
 ### 例子
 
-显示如何自定义将外部资源加载到文档中的过程。
+展示如何自定义将外部资源加载到文档中的过程。
 
 ```csharp
 {

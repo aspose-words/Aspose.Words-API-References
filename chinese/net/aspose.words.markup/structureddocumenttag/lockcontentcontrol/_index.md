@@ -1,14 +1,14 @@
 ---
 title: LockContentControl
 second_title: Aspose.Words for .NET API 参考
-description: 设置为 true 时此属性将禁止用户删除此 SDT 
+description: 当设置为 true 时此属性将禁止用户删除此 SDT.
 type: docs
 weight: 190
 url: /zh/net/aspose.words.markup/structureddocumenttag/lockcontentcontrol/
 ---
 ## StructuredDocumentTag.LockContentControl property
 
-设置为 true 时，此属性将禁止用户删除此 **SDT** 。
+当设置为 true 时，此属性将禁止用户删除此 **SDT**.
 
 ```csharp
 public bool LockContentControl { get; set; }
@@ -16,7 +16,7 @@ public bool LockContentControl { get; set; }
 
 ### 例子
 
-显示如何将编辑限制应用于结构化文档标签。
+展示如何将编辑限制应用于结构化文档标签。
 
 ```csharp
 Document doc = new Document();

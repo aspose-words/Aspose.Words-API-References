@@ -1,14 +1,14 @@
 ---
 title: Accept
 second_title: Aspose.Words for .NET API 参考
-description: 接受访问者
+description: 接受访客
 type: docs
 weight: 70
 url: /zh/net/aspose.words.notes/footnote/accept/
 ---
 ## Footnote.Accept method
 
-接受访问者。
+接受访客。
 
 ```csharp
 public override bool Accept(DocumentVisitor visitor)
@@ -20,7 +20,7 @@ public override bool Accept(DocumentVisitor visitor)
 
 ### 返回值
 
-如果所有节点都被访问，则为真；如果 DocumentVisitor 在访问所有节点之前停止操作，则返回 false。
+如果访问了所有节点，则为真；如果 DocumentVisitor 在访问所有节点之前停止操作，则返回 false。
 
 ### 评论
 
@@ -28,7 +28,7 @@ public override bool Accept(DocumentVisitor visitor)
 
 有关更多信息，请参阅访问者设计模式。
 
-调用 DocumentVisitor.VisitFootnoteStart，然后为脚注的所有子节点调用 Accept 并调用 DocumentVisitor.VisitFootnoteEnd在最后。
+调用 DocumentVisitor.VisitFootnoteStart，然后为 footnote 的所有子节点调用 Accept，最后调用 DocumentVisitor.VisitFootnoteEnd。
 
 ### 例子
 
@@ -40,17 +40,17 @@ public void FootnoteToText()
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     FootnoteStructurePrinter visitor = new FootnoteStructurePrinter();
 
-     // 当我们得到一个复合节点接受一个文档访问者时，访问者访问接受节点，
-     // 然后以深度优先的方式遍历所有节点的孩子。
-     // 访问者可以读取和修改每个访问过的节点。
+    // 当我们得到一个复合节点来接受一个文档访问者时，访问者访问接受节点，
+    // 然后以深度优先的方式遍历所有节点的子节点。
+    // 访问者可以读取和修改每个访问的节点。
     doc.Accept(visitor);
 
     Console.WriteLine(visitor.GetText());
 }
 
 /// <summary>
- /// 遍历一个节点的子节点的非二叉树。
- /// 以所有遇到的脚注节点及其子节点的字符串形式创建一个映射。
+/// 遍历一个节点的子节点的非二叉树。
+/// 以所有遇到的脚注节点及其子节点的字符串形式创建一个映射。
 /// </summary>
 public class FootnoteStructurePrinter : DocumentVisitor
 {
@@ -61,7 +61,7 @@ public class FootnoteStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-     /// 获取访问者积累的文档的纯文本。
+    /// 获取访问者积累的文档的纯文本。
     /// </summary>
     public string GetText()
     {
@@ -69,7 +69,7 @@ public class FootnoteStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-     /// 在文档中遇到脚注节点时调用。
+    /// 在文档中遇到脚注节点时调用。
     /// </summary>
     public override VisitorAction VisitFootnoteStart(Footnote footnote)
     {
@@ -81,7 +81,7 @@ public class FootnoteStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-     /// 在访问脚注节点的所有子节点后调用。
+    /// 在访问脚注节点的所有子节点后调用。
     /// </summary>
     public override VisitorAction VisitFootnoteEnd(Footnote footnote)
     {
@@ -93,7 +93,7 @@ public class FootnoteStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-     /// 在文档中遇到 Run 节点时调用。
+    /// 在文档中遇到 Run 节点时调用。
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {
@@ -103,9 +103,9 @@ public class FootnoteStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-     /// 将一行添加到 StringBuilder 并根据访问者在文档树中的深度缩进。
+    /// 将一行添加到 StringBuilder 并根据访问者在文档树中的深度缩进。
     /// </summary>
-     /// <param name="text"></param>
+    /// <param name="text"></param>
     private void IndentAndAppendLine(string text)
     {
         for (int i = 0; i < mDocTraversalDepth; i++) mBuilder.Append("|  ");

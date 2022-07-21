@@ -16,7 +16,7 @@ public string PageNumberReplacement { get; set; }
 
 ### Примеры
 
-Показывает, как определить перекрестные ссылки в поле INDEX.
+Показывает, как определить перекрестные ссылки в поле ИНДЕКС.
 
 ```csharp
 Document doc = new Document();

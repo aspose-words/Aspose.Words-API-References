@@ -1,14 +1,14 @@
 ---
 title: MinorUnitIsAuto
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置一个标志指示是否应使用次刻度线之间的默认距离
+description: 获取或设置一个标志指示是否应使用小刻度线之间的默认距离
 type: docs
 weight: 150
 url: /zh/net/aspose.words.drawing.charts/chartaxis/minorunitisauto/
 ---
 ## ChartAxis.MinorUnitIsAuto property
 
-获取或设置一个标志，指示是否应使用次刻度线之间的默认距离。
+获取或设置一个标志，指示是否应使用小刻度线之间的默认距离。
 
 ```csharp
 public bool MinorUnitIsAuto { get; set; }
@@ -16,7 +16,7 @@ public bool MinorUnitIsAuto { get; set; }
 
 ### 评论
 
-该属性对时间类别和值轴有效。
+该属性对时间类别和值轴有影响。
 
 ### 例子
 

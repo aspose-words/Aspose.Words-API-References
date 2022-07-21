@@ -3,7 +3,7 @@ title: TabLeader
 second_title: Aspose.Words for .NET API 参考
 description: 指定制表符下显示的引导线类型
 type: docs
-weight: 5840
+weight: 5890
 url: /zh/net/aspose.words/tableader/
 ---
 ## TabLeader enumeration
@@ -18,7 +18,7 @@ public enum TabLeader
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| None | `0` | 不显示引导线。 |
+| None | `0` | 没有显示引导线。 |
 | Dots | `1` | 引导线由点组成。 |
 | Dashes | `2` | 引导线由破折号组成。 |
 | Line | `3` | 引导线是单线。 |

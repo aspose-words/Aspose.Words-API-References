@@ -1,14 +1,14 @@
 ---
 title: PdfImageColorSpaceExportMode
 second_title: Справочник по API Aspose.Words для .NET
-description: Указывает способ выбора цветового пространства для изображений в документе PDF.
+description: Указывает как цветовое пространство будет выбрано для изображений в документе PDF.
 type: docs
-weight: 5150
+weight: 5200
 url: /ru/net/aspose.words.saving/pdfimagecolorspaceexportmode/
 ---
 ## PdfImageColorSpaceExportMode enumeration
 
-Указывает способ выбора цветового пространства для изображений в документе PDF.
+Указывает, как цветовое пространство будет выбрано для изображений в документе PDF.
 
 ```csharp
 public enum PdfImageColorSpaceExportMode
@@ -23,7 +23,7 @@ public enum PdfImageColorSpaceExportMode
 
 ### Примеры
 
-Показывает, как задать другое цветовое пространство для изображений в документе при его экспорте в PDF.
+Показывает, как установить другое цветовое пространство для изображений в документе, когда мы экспортируем его в PDF.
 
 ```csharp
 Document doc = new Document();

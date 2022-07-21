@@ -1,14 +1,14 @@
 ---
 title: Shadow
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置一个值指示边框是否有阴影
+description: 获取或设置边框是否有阴影的值
 type: docs
 weight: 60
 url: /zh/net/aspose.words/border/shadow/
 ---
 ## Border.Shadow property
 
-获取或设置一个值，指示边框是否有阴影。
+获取或设置边框是否有阴影的值。
 
 ```csharp
 public bool Shadow { get; set; }
@@ -16,11 +16,11 @@ public bool Shadow { get; set; }
 
 ### 评论
 
-在 Microsoft Word 中，要使边框有阴影，所有四个边上的边框 （左、上、右和下）应具有相同的类型、宽度、颜色，并且都应将 Shadow 属性设置为 true。
+在 Microsoft Word 中，要使边框具有阴影，所有四个边 （左、上、右和下）的边框都应具有相同的类型、宽度、颜色，并且都应将 Shadow 属性设置为 true。
 
 ### 例子
 
-展示如何创建带有阴影的绿色波浪页面边框。
+演示如何创建带有阴影的绿色波浪页面边框。
 
 ```csharp
 Document doc = new Document();

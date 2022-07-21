@@ -18,7 +18,7 @@ public class BookmarkStart : Node
 
 | Имя | Описание |
 | --- | --- |
-| [BookmarkStart](bookmarkstart)(DocumentBase, string) | Инициализирует новый экземпляр класса[`BookmarkStart`](../bookmarkstart). |
+| [BookmarkStart](bookmarkstart)(DocumentBase, string) | Инициализирует новый экземпляр[`BookmarkStart`](../bookmarkstart) класс. |
 
 ## Характеристики
 
@@ -26,14 +26,14 @@ public class BookmarkStart : Node
 | --- | --- |
 | [Bookmark](../../aspose.words/bookmarkstart/bookmark) { get; } | Получает объект фасада, который инкапсулирует начало и конец этой закладки. |
 | [CustomNodeId](../../aspose.words/node/customnodeid) { get; set; } | Указывает идентификатор пользовательского узла. |
-| virtual [Document](../../aspose.words/node/document) { get; } | Получает документ, которому принадлежит данный узел. |
+| virtual [Document](../../aspose.words/node/document) { get; } | Получает документ, которому принадлежит этот узел. |
 | virtual [IsComposite](../../aspose.words/node/iscomposite) { get; } | Возвращает true, если этот узел может содержать другие узлы. |
 | [Name](../../aspose.words/bookmarkstart/name) { get; set; } | Получает или задает имя закладки. |
 | [NextSibling](../../aspose.words/node/nextsibling) { get; } | Получает узел, следующий сразу за этим узлом. |
-| override [NodeType](../../aspose.words/bookmarkstart/nodetype) { get; } | ВозвращаетBookmarkStart. |
+| override [NodeType](../../aspose.words/bookmarkstart/nodetype) { get; } | ВозвращаетBookmarkStart . |
 | [ParentNode](../../aspose.words/node/parentnode) { get; } | Получает непосредственного родителя этого узла. |
 | [PreviousSibling](../../aspose.words/node/previoussibling) { get; } | Получает узел, непосредственно предшествующий этому узлу. |
-| [Range](../../aspose.words/node/range) { get; } | Возвращает объект **Range** , представляющий часть документа, содержащуюся в этом узле. |
+| [Range](../../aspose.words/node/range) { get; } | Возвращает **Диапазон** объект, представляющий часть документа, содержащегося в этом узле. |
 
 ## Методы
 
@@ -41,7 +41,7 @@ public class BookmarkStart : Node
 | --- | --- |
 | override [Accept](../../aspose.words/bookmarkstart/accept)(DocumentVisitor) | Принимает посетителя. |
 | [Clone](../../aspose.words/node/clone)(bool) | Создает дубликат узла. |
-| [GetAncestor](../../aspose.words/node/getancestor)(NodeType) | Получает первого предка указанного[`NodeType`](../nodetype). |
+| [GetAncestor](../../aspose.words/node/getancestor)(NodeType) | Получает первого предка указанного[`NodeType`](../nodetype) . |
 | [GetAncestor](../../aspose.words/node/getancestor)(Type) | Получает первого предка указанного типа объекта. |
 | override [GetText](../../aspose.words/bookmarkstart/gettext)() | Возвращает пустую строку. |
 | [NextPreOrder](../../aspose.words/node/nextpreorder)(Node) | Получает следующий узел в соответствии с алгоритмом обхода дерева предварительного порядка. |
@@ -52,11 +52,11 @@ public class BookmarkStart : Node
 
 ### Примечания
 
-Полная закладка в документе Word состоит из[`BookmarkStart`](../bookmarkstart) и соответствующий[`BookmarkEnd`](../bookmarkend)с тем же именем закладки.
+Полная закладка в документе Word состоит из[`BookmarkStart`](../bookmarkstart) и соответствующий[`BookmarkEnd`](../bookmarkend) с тем же названием закладки.
 
-[`BookmarkStart`](../bookmarkstart)и[`BookmarkEnd`](../bookmarkend)являются просто маркерами внутри документа которые указывают, где закладка начинается и заканчивается.
+[`BookmarkStart`](../bookmarkstart) а также[`BookmarkEnd`](../bookmarkend) являются просто маркерами внутри document , которые указывают, где закладка начинается и заканчивается.
 
-Используйте класс[`Bookmark`](./bookmark)как "фасад" для работы с закладкой как единый объект.
+Использовать[`Bookmark`](./bookmark) class как «фасад» для работы с bookmark как с единым объектом.
 
 ### Примеры
 
@@ -65,22 +65,22 @@ public class BookmarkStart : Node
 ```csharp
 public void CreateUpdateAndPrintBookmarks()
 {
-     // Создайте документ с тремя закладками, затем используйте пользовательскую реализацию посетителя документа для печати их содержимого.
+    // Создайте документ с тремя закладками, затем используйте пользовательскую реализацию посетителя документа для печати их содержимого.
     Document doc = CreateDocumentWithBookmarks(3);
     BookmarkCollection bookmarks = doc.Range.Bookmarks;
 
     PrintAllBookmarkInfo(bookmarks);
 
-     // Доступ к закладкам в коллекции закладок можно получить по индексу или имени, а их имена можно обновить.
+    // Доступ к закладкам в коллекции закладок можно получить по индексу или имени, и их имена можно обновить.
     bookmarks[0].Name = $"{bookmarks[0].Name}_NewName";
     bookmarks["MyBookmark_2"].Text = $"Updated text contents of {bookmarks[1].Name}";
 
-     // Печатаем все закладки еще раз, чтобы увидеть обновленные значения.
+    // Печатаем все закладки еще раз, чтобы увидеть обновленные значения.
     PrintAllBookmarkInfo(bookmarks);
 }
 
 /// <summary>
- /// Создаем документ с заданным количеством закладок.
+/// Создать документ с заданным количеством закладок.
 /// </summary>
 private static Document CreateDocumentWithBookmarks(int numberOfBookmarks)
 {
@@ -102,7 +102,7 @@ private static Document CreateDocumentWithBookmarks(int numberOfBookmarks)
 }
 
 /// <summary>
- /// Используйте итератор и посетитель для вывода информации о каждой закладке в коллекции.
+/// Используйте итератор и посетитель для вывода информации о каждой закладке в коллекции.
 /// </summary>
 private static void PrintAllBookmarkInfo(BookmarkCollection bookmarks)
 {
@@ -127,7 +127,7 @@ private static void PrintAllBookmarkInfo(BookmarkCollection bookmarks)
 }
 
 /// <summary>
- /// Выводит содержимое каждой посещенной закладки на консоль.
+/// Выводит содержимое каждой посещенной закладки на консоль.
 /// </summary>
 public class BookmarkInfoPrinter : DocumentVisitor
 {

@@ -1,14 +1,14 @@
 ---
 title: PrintColBlack
 second_title: Aspose.Words for .NET API 参考
-description: 将颜色打印为黑白而不抖动
+description: 将颜色打印为无抖动的黑白
 type: docs
 weight: 400
 url: /zh/net/aspose.words.settings/compatibilityoptions/printcolblack/
 ---
 ## CompatibilityOptions.PrintColBlack property
 
-将颜色打印为黑白而不抖动。
+将颜色打印为无抖动的黑白。
 
 ```csharp
 public bool PrintColBlack { get; set; }

@@ -3,7 +3,7 @@ title: FieldSeparator
 second_title: Справочник по API Aspose.Words для .NET
 description: Представляет разделитель полей Word который отделяет код поля от результата поля.
 type: docs
-weight: 2190
+weight: 2230
 url: /ru/net/aspose.words.fields/fieldseparator/
 ---
 ## FieldSeparator class
@@ -19,23 +19,23 @@ public class FieldSeparator : FieldChar
 | Имя | Описание |
 | --- | --- |
 | [CustomNodeId](../../aspose.words/node/customnodeid) { get; set; } | Указывает идентификатор пользовательского узла. |
-| virtual [Document](../../aspose.words/node/document) { get; } | Получает документ, которому принадлежит данный узел. |
+| virtual [Document](../../aspose.words/node/document) { get; } | Получает документ, которому принадлежит этот узел. |
 | [FieldType](../../aspose.words.fields/fieldchar/fieldtype) { get; } | Возвращает тип поля. |
 | [Font](../../aspose.words/inline/font) { get; } | Предоставляет доступ к форматированию шрифта этого объекта. |
 | virtual [IsComposite](../../aspose.words/node/iscomposite) { get; } | Возвращает true, если этот узел может содержать другие узлы. |
-| [IsDeleteRevision](../../aspose.words/inline/isdeleterevision) { get; } | Возвращает true, если этот объект был удален в Microsoft Word при включенном отслеживании изменений. |
+| [IsDeleteRevision](../../aspose.words/inline/isdeleterevision) { get; } | Возвращает значение true, если этот объект был удален в Microsoft Word при включенном отслеживании изменений. |
 | [IsDirty](../../aspose.words.fields/fieldchar/isdirty) { get; set; } | Получает или устанавливает, является ли текущий результат поля более неправильным (устаревшим) из-за других изменений , внесенных в документ. |
-| [IsFormatRevision](../../aspose.words/inline/isformatrevision) { get; } | Возвращает true, если форматирование объекта было изменено в Microsoft Word при включенном отслеживании изменений. |
-| [IsInsertRevision](../../aspose.words/inline/isinsertrevision) { get; } | Возвращает true, если этот объект был вставлен в Microsoft Word при включенном отслеживании изменений. |
-| [IsLocked](../../aspose.words.fields/fieldchar/islocked) { get; set; } | Получает или устанавливает, заблокировано ли родительское поле (не должно пересчитывать его результат). |
-| [IsMoveFromRevision](../../aspose.words/inline/ismovefromrevision) { get; } | Возвращает **true** , если этот объект был перемещен (удален) в Microsoft Word при включенном отслеживании изменений. |
-| [IsMoveToRevision](../../aspose.words/inline/ismovetorevision) { get; } | Возвращает **true** , если этот объект был перемещен (вставлен) в Microsoft Word при включенном отслеживании изменений. |
+| [IsFormatRevision](../../aspose.words/inline/isformatrevision) { get; } | Возвращает значение true, если форматирование объекта было изменено в Microsoft Word при включенном отслеживании изменений. |
+| [IsInsertRevision](../../aspose.words/inline/isinsertrevision) { get; } | Возвращает значение true, если этот объект был вставлен в Microsoft Word при включенном отслеживании изменений. |
+| [IsLocked](../../aspose.words.fields/fieldchar/islocked) { get; set; } | Получает или задает, заблокировано ли родительское поле (не следует пересчитывать его результат). |
+| [IsMoveFromRevision](../../aspose.words/inline/ismovefromrevision) { get; } | Возвращает **истинный** если этот объект был перемещен (удален) в Microsoft Word при включенном отслеживании изменений. |
+| [IsMoveToRevision](../../aspose.words/inline/ismovetorevision) { get; } | Возвращает **истинный** если этот объект был перемещен (вставлен) в Microsoft Word при включенном отслеживании изменений. |
 | [NextSibling](../../aspose.words/node/nextsibling) { get; } | Получает узел, следующий сразу за этим узлом. |
-| override [NodeType](../../aspose.words.fields/fieldseparator/nodetype) { get; } | ВозвращаетFieldSeparator. |
+| override [NodeType](../../aspose.words.fields/fieldseparator/nodetype) { get; } | ВозвращаетFieldSeparator . |
 | [ParentNode](../../aspose.words/node/parentnode) { get; } | Получает непосредственного родителя этого узла. |
-| [ParentParagraph](../../aspose.words/inline/parentparagraph) { get; } | Извлекает родителя[`Paragraph`](../../aspose.words/paragraph)этого узла. |
+| [ParentParagraph](../../aspose.words/inline/parentparagraph) { get; } | Извлекает родителя[`Paragraph`](../../aspose.words/paragraph) этого узла. |
 | [PreviousSibling](../../aspose.words/node/previoussibling) { get; } | Получает узел, непосредственно предшествующий этому узлу. |
-| [Range](../../aspose.words/node/range) { get; } | Возвращает объект **Range** , представляющий часть документа, содержащуюся в этом узле. |
+| [Range](../../aspose.words/node/range) { get; } | Возвращает **Диапазон** объект, представляющий часть документа, содержащегося в этом узле. |
 
 ## Методы
 
@@ -43,7 +43,7 @@ public class FieldSeparator : FieldChar
 | --- | --- |
 | override [Accept](../../aspose.words.fields/fieldseparator/accept)(DocumentVisitor) | Принимает посетителя. |
 | [Clone](../../aspose.words/node/clone)(bool) | Создает дубликат узла. |
-| [GetAncestor](../../aspose.words/node/getancestor)(NodeType) | Получает первого предка указанного[`NodeType`](../../aspose.words/nodetype). |
+| [GetAncestor](../../aspose.words/node/getancestor)(NodeType) | Получает первого предка указанного[`NodeType`](../../aspose.words/nodetype) . |
 | [GetAncestor](../../aspose.words/node/getancestor)(Type) | Получает первого предка указанного типа объекта. |
 | [GetField](../../aspose.words.fields/fieldchar/getfield)() | Возвращает поле для поля char. |
 | override [GetText](../../aspose.words/specialchar/gettext)() | Получает специальный символ, который представляет этот узел. |
@@ -55,11 +55,11 @@ public class FieldSeparator : FieldChar
 
 ### Примечания
 
-[`FieldSeparator`](../fieldseparator)является узел встроенного уровня и представлен управляющим символом[`FieldSeparatorChar`](../../aspose.words/controlchar/fieldseparatorchar)в документе.
+[`FieldSeparator`](../fieldseparator) является узлом встроенного уровня и представлен [`FieldSeparatorChar`](../../aspose.words/controlchar/fieldseparatorchar) управляющий символ в документе.
 
-[`FieldSeparator`](../fieldseparator)может быть только потомкомПараграф.
+[`FieldSeparator`](../fieldseparator) может быть только ребенком[`Paragraph`](../../aspose.words/paragraph).
 
-Полное поле в документе Microsoft Word представляет собой сложную структуру, состоящую из начального символа поля, кода поля, символа-разделителя поля, поля результат и символ конца поля. Некоторые поля имеют только начало поля, код поля и конец поля.
+Полное поле в документе Microsoft Word представляет собой сложную структуру, состоящую из начального символа поля, кода поля, символа-разделителя поля, результата поля и конечного символа поля. Некоторые поля имеют только начало поля, код поля и конец поля.
 
 Чтобы легко вставить новое поле в документ, используйте[`InsertField`](../../aspose.words/documentbuilder/insertfield) метод.
 

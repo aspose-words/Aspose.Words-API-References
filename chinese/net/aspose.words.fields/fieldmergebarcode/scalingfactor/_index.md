@@ -1,14 +1,14 @@
 ---
 title: ScalingFactor
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置符号的比例因子该值以整数为单位有效值为 10 1000
+description: 获取或设置符号的比例因子该值以整数个百分点表示有效值为 10 1000
 type: docs
 weight: 120
 url: /zh/net/aspose.words.fields/fieldmergebarcode/scalingfactor/
 ---
 ## FieldMergeBarcode.ScalingFactor property
 
-获取或设置符号的比例因子。该值以整数为单位，有效值为 [10, 1000]
+获取或设置符号的比例因子。该值以整数个百分点表示，有效值为 [10, 1000]
 
 ```csharp
 public string ScalingFactor { get; set; }
@@ -16,7 +16,7 @@ public string ScalingFactor { get; set; }
 
 ### 例子
 
-显示如何对 QR 条码执行邮件合并.
+展示如何在 QR 条码上执行邮件合并。
 
 ```csharp
 Document doc = new Document();

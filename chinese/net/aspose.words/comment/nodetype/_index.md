@@ -1,14 +1,14 @@
 ---
 title: NodeType
 second_title: Aspose.Words for .NET API 参考
-description: 返回 NodeType.Comment 
+description: 返回 NodeType.Comment.
 type: docs
 weight: 80
 url: /zh/net/aspose.words/comment/nodetype/
 ---
 ## Comment.NodeType property
 
-返回 **NodeType.Comment** 。
+返回 **NodeType.Comment**.
 
 ```csharp
 public override NodeType NodeType { get; }

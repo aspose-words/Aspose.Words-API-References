@@ -1,14 +1,14 @@
 ---
 title: FirstParagraph
 second_title: Справочник по API Aspose.Words для .NET
-description: Получает первый абзац истории.
+description: Получает первый абзац в истории.
 type: docs
 weight: 10
 url: /ru/net/aspose.words/story/firstparagraph/
 ---
 ## Story.FirstParagraph property
 
-Получает первый абзац истории.
+Получает первый абзац в истории.
 
 ```csharp
 public Paragraph FirstParagraph { get; }
@@ -16,32 +16,19 @@ public Paragraph FirstParagraph { get; }
 
 ### Примеры
 
-Показывает, как форматировать текст, используя его свойство шрифта.
+Показывает, как отформатировать набор текста, используя его свойство шрифта.
 
 ```csharp
 Document doc = new Document();
+Run run = new Run(doc, "Hello world!");
 
-// Создаем плавающее текстовое поле.
-Shape textBox = new Shape(doc, ShapeType.TextBox);
-textBox.WrapType = WrapType.None;
-textBox.Height = 50;
-textBox.Width = 200;
+Aspose.Words.Font font = run.Font;
+font.Name = "Courier New";
+font.Size = 36;
+font.HighlightColor = Color.Yellow;
 
-// Установить горизонтальное и вертикальное выравнивание текста внутри фигуры.
-textBox.HorizontalAlignment = HorizontalAlignment.Center;
-textBox.VerticalAlignment = VerticalAlignment.Top;
-
-// Добавьте абзац в текстовое поле и добавьте фрагмент текста, который будет отображаться в текстовом поле.
-textBox.AppendChild(new Paragraph(doc));
-Paragraph para = textBox.FirstParagraph;
-para.ParagraphFormat.Alignment = ParagraphAlignment.Center;
-Run run = new Run(doc);
-run.Text = "Hello world!";
-para.AppendChild(run);
-
-doc.FirstSection.Body.FirstParagraph.AppendChild(textBox);
-
-doc.Save(ArtifactsDir + "Shape.CreateTextBox.docx");
+doc.FirstSection.Body.FirstParagraph.AppendChild(run);
+doc.Save(ArtifactsDir + "Font.CreateFormattedRun.docx");
 ```
 
 Показывает, как создать и отформатировать текстовое поле.

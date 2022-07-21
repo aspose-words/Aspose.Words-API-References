@@ -3,7 +3,7 @@ title: PdfDigitalSignatureHashAlgorithm
 second_title: Aspose.Words for .NET API 参考
 description: 指定数字签名使用的数字哈希算法
 type: docs
-weight: 5110
+weight: 5160
 url: /zh/net/aspose.words.saving/pdfdigitalsignaturehashalgorithm/
 ---
 ## PdfDigitalSignatureHashAlgorithm enumeration

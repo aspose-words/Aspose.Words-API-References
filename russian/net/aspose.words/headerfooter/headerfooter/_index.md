@@ -16,14 +16,14 @@ public HeaderFooter(DocumentBase doc, HeaderFooterType headerFooterType)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| doc | DocumentBase | Документ-владелец. |
-| headerFooterType | HeaderFooterType | A[`HeaderFooterType`](../headerfootertype)значение которое определяет тип верхний или нижний колонтитул. |
+| doc | DocumentBase | Документ владельца. |
+| headerFooterType | HeaderFooterType | А[`HeaderFooterType`](../headerfootertype)value , указывающий тип верхнего или нижнего колонтитула. |
 
 ### Примечания
 
-Когда **HeaderFooter** есть создан, он принадлежит указанному документу, но не является частью документа и **ParentNode** имеет значение null.
+Когда **Верхний колонтитул** создан, он принадлежит указанному документу, но не является частью документа и **Родительский узел** нулевой.
 
-Чтобы добавить **HeaderFooter** к разделу используйте Section.InsertAfter, Section.InsertBefore, HeadersFooters.Add или HeadersFooters.Insert.
+Чтобы добавить **Верхний колонтитул** к **Раздел** используйте Section.InsertAfter, Section.InsertBefore, HeadersFooters.Add или HeadersFooters.Insert.
 
 ### Примеры
 

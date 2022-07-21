@@ -1,14 +1,14 @@
 ---
 title: PosCodeStyle
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置销售点条形码的样式条形码类型 UPCAx7CUPCEx7CEAN13x7CEAN8有效值不区分大小写为 STDx7CSUP2x7CSUP5x7CCASE
+description: 获取或设置销售点条形码的样式条形码类型 UPCAx7CUPCEx7CEAN13x7CEAN8有效值不区分大小写为 STDx7CSUP2x7CSUP5x7CCASE.
 type: docs
 weight: 110
 url: /zh/net/aspose.words.fields/fieldmergebarcode/poscodestyle/
 ---
 ## FieldMergeBarcode.PosCodeStyle property
 
-获取或设置销售点条形码的样式（条形码类型 UPCA&#x7C;UPCE&#x7C;EAN13&#x7C;EAN8）。有效值（不区分大小写）为 [STD&#x7C;SUP2&#x7C;SUP5&#x7C;CASE]。
+获取或设置销售点条形码的样式（条形码类型 UPCA&#x7C;UPCE&#x7C;EAN13&#x7C;EAN8）。有效值（不区分大小写）为 [STD&#x7C;SUP2&#x7C;SUP5&#x7C;CASE].
 
 ```csharp
 public string PosCodeStyle { get; set; }
@@ -16,7 +16,7 @@ public string PosCodeStyle { get; set; }
 
 ### 例子
 
-显示如何对 EAN13 条形码执行邮件合并。
+展示如何对 EAN13 条码执行邮件合并。
 
 ```csharp
 Document doc = new Document();

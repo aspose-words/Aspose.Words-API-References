@@ -3,7 +3,7 @@ title: PhysicalFontInfo
 second_title: Aspose.Words for .NET API 参考
 description: 指定 Aspose.Words 字体引擎可用的物理字体信息
 type: docs
-weight: 2800
+weight: 2850
 url: /zh/net/aspose.words.fonts/physicalfontinfo/
 ---
 ## PhysicalFontInfo class
@@ -19,7 +19,7 @@ public class PhysicalFontInfo
 | 姓名 | 描述 |
 | --- | --- |
 | [FilePath](../../aspose.words.fonts/physicalfontinfo/filepath) { get; } | 字体文件的路径（如果有）。 |
-| [FontFamilyName](../../aspose.words.fonts/physicalfontinfo/fontfamilyname) { get; } | 字体的系列名称。 |
+| [FontFamilyName](../../aspose.words.fonts/physicalfontinfo/fontfamilyname) { get; } | 字体的家族名称。 |
 | [FullFontName](../../aspose.words.fonts/physicalfontinfo/fullfontname) { get; } | 字体的全名。 |
 | [Version](../../aspose.words.fonts/physicalfontinfo/version) { get; } | 字体的版本字符串。 |
 

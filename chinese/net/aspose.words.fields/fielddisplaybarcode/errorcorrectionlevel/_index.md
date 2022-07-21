@@ -1,14 +1,14 @@
 ---
 title: ErrorCorrectionLevel
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置二维码的纠错级别有效值为 0 3
+description: 获取或设置二维码的纠错级别有效值为 0 3.
 type: docs
 weight: 80
 url: /zh/net/aspose.words.fields/fielddisplaybarcode/errorcorrectionlevel/
 ---
 ## FieldDisplayBarcode.ErrorCorrectionLevel property
 
-获取或设置二维码的纠错级别。有效值为 [0, 3]。
+获取或设置二维码的纠错级别。有效值为 [0, 3].
 
 ```csharp
 public string ErrorCorrectionLevel { get; set; }
@@ -16,7 +16,7 @@ public string ErrorCorrectionLevel { get; set; }
 
 ### 例子
 
-显示如何插入 DISPLAYBARCODE 字段并设置其属性。
+演示如何插入 DISPLAYBARCODE 字段并设置其属性。
 
 ```csharp
 Document doc = new Document();

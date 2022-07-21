@@ -16,7 +16,7 @@ public byte[] ToByteArray()
 
 ### 评论
 
-如果属性类型不是ByteArray。
+如果属性类型不是，则引发异常ByteArray.
 
 ### 例子
 
@@ -27,8 +27,8 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world!");
 
- // 如果我们保存一个文档，其“缩略图”属性包含我们添加的图像数据，作为 Epub,
- // 打开该文档的阅读器可能会在第一页之前显示图像。
+// 如果我们保存一个文档，其“缩略图”属性包含我们添加的图像数据，作为 Epub，
+// 打开该文档的阅读器可能会在第一页之前显示图像。
 BuiltInDocumentProperties properties = doc.BuiltInDocumentProperties;
 
 byte[] thumbnailBytes = File.ReadAllBytes(ImageDir + "Logo.jpg");
@@ -36,7 +36,7 @@ properties.Thumbnail = thumbnailBytes;
 
 doc.Save(ArtifactsDir + "DocumentProperties.Thumbnail.epub");
 
- // 我们可以提取文档的缩略图并保存到本地文件系统。
+// 我们可以提取文档的缩略图并将其保存到本地文件系统。
 DocumentProperty thumbnail = doc.BuiltInDocumentProperties["Thumbnail"];
 File.WriteAllBytes(ArtifactsDir + "DocumentProperties.Thumbnail.gif", thumbnail.ToByteArray());
 ```

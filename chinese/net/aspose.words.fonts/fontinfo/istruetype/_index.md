@@ -1,14 +1,14 @@
 ---
 title: IsTrueType
 second_title: Aspose.Words for .NET API 参考
-description: 表示此字体是 TrueType 或 OpenType 字体而不是光栅或矢量字体 默认为真
+description: 表示此字体是 TrueType 或 OpenType 字体而不是光栅或矢量字体 默认为 true
 type: docs
 weight: 40
 url: /zh/net/aspose.words.fonts/fontinfo/istruetype/
 ---
 ## FontInfo.IsTrueType property
 
-表示此字体是 TrueType 或 OpenType 字体，而不是光栅或矢量字体。 默认为真。
+表示此字体是 TrueType 或 OpenType 字体，而不是光栅或矢量字体。 默认为 true。
 
 ```csharp
 public bool IsTrueType { get; set; }

@@ -16,11 +16,11 @@ public int LocaleId { get; set; }
 
 ### 评论
 
-有关区域设置标识符的列表，请参见 https://msdn.microsoft.com/en-us /library/cc233965.aspx
+有关区域设置标识符的列表，请参阅 https://msdn.microsoft.com/en-us/library/cc233965.aspx
 
 ### 例子
 
-显示如何设置我们使用文档构建器添加的文本的区域设置。
+展示如何设置我们使用文档构建器添加的文本的语言环境。
 
 ```csharp
 Document doc = new Document();

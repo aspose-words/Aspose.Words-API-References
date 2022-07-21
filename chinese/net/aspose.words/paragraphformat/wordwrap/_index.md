@@ -1,14 +1,14 @@
 ---
 title: WordWrap
 second_title: Aspose.Words for .NET API 参考
-description: 如果此属性为 false 则单词中间的拉丁文本可以换行为 当前段落否则拉丁文本会被整个单词包裹
+description: 如果这个属性是 错误的 单词中间的拉丁文字可以换成 当前段落否则拉丁文字会被整个单词包裹起来
 type: docs
 weight: 400
 url: /zh/net/aspose.words/paragraphformat/wordwrap/
 ---
 ## ParagraphFormat.WordWrap property
 
-如果此属性为 **false** ，则单词中间的拉丁文本可以换行为 当前段落。否则，拉丁文本会被整个单词包裹。
+如果这个属性是 **错误的** 单词中间的拉丁文字可以换成 当前段落。否则拉丁文字会被整个单词包裹起来。
 
 ```csharp
 public bool WordWrap { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: SuppressLineNumbers
 second_title: Справочник по API Aspose.Words для .NET
-description: Указывает следует ли освобождать строки текущего абзаца от нумерации строк  которая применяется в родительском разделе.
+description: Указывает следует ли исключить строки текущего абзаца из нумерации строк  которая применяется в родительском разделе.
 type: docs
 weight: 370
 url: /ru/net/aspose.words/paragraphformat/suppresslinenumbers/
 ---
 ## ParagraphFormat.SuppressLineNumbers property
 
-Указывает, следует ли освобождать строки текущего абзаца от нумерации строк , которая применяется в родительском разделе.
+Указывает, следует ли исключить строки текущего абзаца из нумерации строк , которая применяется в родительском разделе.
 
 ```csharp
 public bool SuppressLineNumbers { get; set; }

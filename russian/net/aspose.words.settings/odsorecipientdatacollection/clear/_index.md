@@ -38,10 +38,10 @@ using (IEnumerator<OdsoRecipientData> enumerator = dataCollection.GetEnumerator(
     }
 }
 
- // Мы можем клонировать элементы этой коллекции.
+// Мы можем клонировать элементы этой коллекции.
 Assert.AreNotEqual(dataCollection[0], dataCollection[0].Clone());
 
- // Мы также можем удалить элементы по отдельности или очистить всю коллекцию сразу.
+// Мы также можем удалить элементы по отдельности или очистить всю коллекцию сразу.
 dataCollection.RemoveAt(0);
 
 Assert.AreEqual(69, dataCollection.Count);

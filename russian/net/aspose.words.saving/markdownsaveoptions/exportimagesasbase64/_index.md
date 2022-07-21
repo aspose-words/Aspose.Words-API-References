@@ -1,14 +1,14 @@
 ---
 title: ExportImagesAsBase64
 second_title: Справочник по API Aspose.Words для .NET
-description: Указывает сохраняются ли изображения в формате Base64 в выходной файл. По умолчанию false .
+description: Указывает сохраняются ли изображения в формате Base64 в выходной файл. Значение по умолчаниюЛОЖЬ .
 type: docs
 weight: 20
 url: /ru/net/aspose.words.saving/markdownsaveoptions/exportimagesasbase64/
 ---
 ## MarkdownSaveOptions.ExportImagesAsBase64 property
 
-Указывает, сохраняются ли изображения в формате Base64 в выходной файл. По умолчанию:` false` .
+Указывает, сохраняются ли изображения в формате Base64 в выходной файл. Значение по умолчанию:`ЛОЖЬ` .
 
 ```csharp
 public bool ExportImagesAsBase64 { get; set; }
@@ -16,7 +16,7 @@ public bool ExportImagesAsBase64 { get; set; }
 
 ### Примечания
 
-Когда для этого свойства установлено значение` true` images данные экспортируются непосредственно в элементы **img** и отдельные файлы не создаются.
+Когда это свойство установлено в`истинный`данные изображений экспортируются непосредственно в **изображение** элементы и отдельные файлы не создаются.
 
 ### Примеры
 

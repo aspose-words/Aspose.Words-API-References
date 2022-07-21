@@ -1,14 +1,14 @@
 ---
 title: DefaultTemplate
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置默认模板的路径包括文件名 此属性的默认值为 空字符串 Empty
+description: 获取或设置默认模板的路径包括文件名 此属性的默认值为 空字符串Empty .
 type: docs
 weight: 40
 url: /zh/net/aspose.words.saving/saveoptions/defaulttemplate/
 ---
 ## SaveOptions.DefaultTemplate property
 
-获取或设置默认模板的路径（包括文件名）。 此属性的默认值为 **空字符串** (Empty)。
+获取或设置默认模板的路径（包括文件名）。 此属性的默认值为 **空字符串**(Empty ).
 
 ```csharp
 public string DefaultTemplate { get; set; }
@@ -16,7 +16,7 @@ public string DefaultTemplate { get; set; }
 
 ### 评论
 
-如果指定，此路径用于在:::R5:P:Aspose.Words.Document.AutomaticallyUpdateStyles::时加载模板::是真的， 但是[`AttachedTemplate`](../../../aspose.words/document/attachedtemplate)是空的。
+如果指定，此路径用于加载模板时[`AutomaticallyUpdateStyles`](../../../aspose.words/document/automaticallyupdatestyles)是真的， 但是[`AttachedTemplate`](../../../aspose.words/document/attachedtemplate)是空的。
 
 ### 例子
 

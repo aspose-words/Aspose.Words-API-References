@@ -16,7 +16,7 @@ public TextEffect TextEffect { get; set; }
 
 ### 例子
 
-显示如何将视觉效果应用于跑步。
+展示如何将视觉效果应用于跑步。
 
 ```csharp
 Document doc = new Document();

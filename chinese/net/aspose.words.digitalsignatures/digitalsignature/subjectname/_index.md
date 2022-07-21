@@ -1,14 +1,14 @@
 ---
 title: SubjectName
 second_title: Aspose.Words for .NET API 参考
-description: 返回用于签署文档的证书的主题可分辨名称
+description: 返回用于签署文档的证书的主题专有名称
 type: docs
 weight: 70
 url: /zh/net/aspose.words.digitalsignatures/digitalsignature/subjectname/
 ---
 ## DigitalSignature.SubjectName property
 
-返回用于签署文档的证书的主题可分辨名称。
+返回用于签署文档的证书的主题专有名称。
 
 ```csharp
 public string SubjectName { get; }

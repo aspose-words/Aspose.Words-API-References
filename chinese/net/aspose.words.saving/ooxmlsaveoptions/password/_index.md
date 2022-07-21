@@ -20,7 +20,7 @@ public string Password { get; set; }
 
 ### 例子
 
-显示如何创建密码加密的 Office Open XML 文档。
+演示如何创建密码加密的 Office Open XML 文档。
 
 ```csharp
 Document doc = new Document();

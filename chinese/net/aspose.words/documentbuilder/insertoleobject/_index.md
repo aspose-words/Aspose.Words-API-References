@@ -17,8 +17,8 @@ public Shape InsertOleObject(Stream stream, string progId, bool asIcon, Stream p
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | stream | Stream | 包含应用程序数据的流。 |
-| progId | String | OLE 对象的程序标识符。 |
-| asIcon | Boolean | 指定要插入的 OLE 对象的图标或正常模式。 |
+| progId | String | OLE 对象的编程标识符。 |
+| asIcon | Boolean | 指定要插入的 OLE 对象的图标模式或正常模式。 |
 | presentation | Stream | OLE 对象的图像表示。如果值为 null Aspose.Words 将使用预定义的图像之一。 |
 
 ### 返回值
@@ -27,7 +27,7 @@ public Shape InsertOleObject(Stream stream, string progId, bool asIcon, Stream p
 
 ### 例子
 
-显示如何使用文档生成器将 OLE 对象嵌入到文档中。
+演示如何使用文档生成器将 OLE 对象嵌入到文档中。
 
 ```csharp
 Document doc = new Document();
@@ -86,7 +86,7 @@ public Shape InsertOleObject(string fileName, bool isLinked, bool asIcon, Stream
 | --- | --- | --- |
 | fileName | String | 文件的完整路径。 |
 | isLinked | Boolean | 如果为真，则插入链接的 OLE 对象，否则插入嵌入的 OLE 对象。 |
-| asIcon | Boolean | 指定要插入的 OLE 对象的图标或正常模式。 |
+| asIcon | Boolean | 指定要插入的 OLE 对象的图标模式或正常模式。 |
 | presentation | Stream | OLE 对象的图像表示。如果值为 null Aspose.Words 将使用预定义的图像之一。 |
 
 ### 返回值
@@ -95,7 +95,7 @@ public Shape InsertOleObject(string fileName, bool isLinked, bool asIcon, Stream
 
 ### 例子
 
-显示如何将 OLE 对象插入到文档中。
+演示如何将 OLE 对象插入到文档中。
 
 ```csharp
 Document doc = new Document();
@@ -149,7 +149,7 @@ public Shape InsertOleObject(string fileName, string progId, bool isLinked, bool
 | fileName | String | 文件的完整路径。 |
 | progId | String | OLE 对象的 ProgId。 |
 | isLinked | Boolean | 如果为真，则插入链接的 OLE 对象，否则插入嵌入的 OLE 对象。 |
-| asIcon | Boolean | 指定要插入的 OLE 对象的图标或正常模式。 |
+| asIcon | Boolean | 指定要插入的 OLE 对象的图标模式或正常模式。 |
 | presentation | Stream | OLE 对象的图像表示。如果值为 null Aspose.Words 将使用预定义的图像之一。 |
 
 ### 返回值
@@ -158,7 +158,7 @@ public Shape InsertOleObject(string fileName, string progId, bool isLinked, bool
 
 ### 例子
 
-显示如何将 OLE 对象插入到文档中。
+演示如何将 OLE 对象插入到文档中。
 
 ```csharp
 Document doc = new Document();

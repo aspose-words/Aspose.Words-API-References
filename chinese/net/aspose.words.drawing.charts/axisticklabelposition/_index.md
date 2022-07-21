@@ -20,7 +20,7 @@ public enum AxisTickLabelPosition
 | --- | --- | --- |
 | High | `0` | 指定轴标签应位于垂直轴的高端。 |
 | Low | `1` | 指定轴标签应位于垂直轴的低端。 |
-| NextToAxis | `2` | 指定轴标签应位于轴旁边。 |
+| NextToAxis | `2` | 指定轴标签应在轴旁边。 |
 | None | `3` | 指定不绘制轴标签。 |
 | Default | `2` | 指定刻度标签位置的默认值。 |
 

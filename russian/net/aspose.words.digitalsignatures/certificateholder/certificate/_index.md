@@ -1,14 +1,14 @@
 ---
 title: Certificate
 second_title: Справочник по API Aspose.Words для .NET
-description: Возвращает экземпляр X509Certificate2  который содержит закрытый открытый ключи и цепочку сертификатов.
+description: Возвращает экземпляр X509Сертификат2 который содержит закрытые открытые ключи и цепочку сертификатов.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.digitalsignatures/certificateholder/certificate/
 ---
 ## CertificateHolder.Certificate property
 
-Возвращает экземпляр **X509Certificate2** , который содержит закрытый, открытый ключи и цепочку сертификатов.
+Возвращает экземпляр **X509Сертификат2** который содержит закрытые, открытые ключи и цепочку сертификатов.
 
 ```csharp
 public X509Certificate2 Certificate { get; }
@@ -16,7 +16,7 @@ public X509Certificate2 Certificate { get; }
 
 ### Возвращаемое значение
 
-X509Certificate2экземпляр
+X509Certificate2 пример
 
 ### Примеры
 

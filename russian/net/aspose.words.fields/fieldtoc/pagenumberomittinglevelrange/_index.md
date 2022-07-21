@@ -1,14 +1,14 @@
 ---
 title: PageNumberOmittingLevelRange
 second_title: Справочник по API Aspose.Words для .NET
-description: Получает или задает диапазон уровней записей оглавления из которых исключаются номера страниц.
+description: Получает или задает диапазон уровней записей оглавления из которых следует исключить номера страниц.
 type: docs
 weight: 110
 url: /ru/net/aspose.words.fields/fieldtoc/pagenumberomittinglevelrange/
 ---
 ## FieldToc.PageNumberOmittingLevelRange property
 
-Получает или задает диапазон уровней записей оглавления, из которых исключаются номера страниц.
+Получает или задает диапазон уровней записей оглавления, из которых следует исключить номера страниц.
 
 ```csharp
 public string PageNumberOmittingLevelRange { get; set; }

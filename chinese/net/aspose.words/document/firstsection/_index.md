@@ -1,14 +1,14 @@
 ---
 title: FirstSection
 second_title: Aspose.Words for .NET API 参考
-description: 获取文档的第一部分
+description: 获取文档中的第一部分
 type: docs
 weight: 130
 url: /zh/net/aspose.words/document/firstsection/
 ---
 ## Document.FirstSection property
 
-获取文档的第一部分。
+获取文档中的第一部分。
 
 ```csharp
 public Section FirstSection { get; }
@@ -16,99 +16,63 @@ public Section FirstSection { get; }
 
 ### 评论
 
-返回` null` 如果有没有部分。
+返回`无效的`如果没有部分。
 
 ### 例子
 
 显示如何替换文档页脚中的文本。
 
 ```csharp
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
+Document doc = new Document(MyDir + "Footer.docx");
 
-builder.Write("Section 1");
-builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
-builder.Write("Primary header");
-builder.MoveToHeaderFooter(HeaderFooterType.FooterPrimary);
-builder.Write("Primary footer");
+HeaderFooterCollection headersFooters = doc.FirstSection.HeadersFooters;
+HeaderFooter footer = headersFooters[HeaderFooterType.FooterPrimary];
 
-Section section = doc.FirstSection;
-
- // 一个Section是一个复合节点，可以包含子节点，
- // 但前提是这些子节点是“Body”或“HeaderFooter”节点类型。
-foreach (Node node in section)
+FindReplaceOptions options = new FindReplaceOptions
 {
-    switch (node.NodeType)
-    {
-        case NodeType.Body:
-        {
-            Body body = (Body)node;
+    MatchCase = false,
+    FindWholeWordsOnly = false
+};
 
-            Console.WriteLine("Body:");
-            Console.WriteLine($"\t\"{body.GetText().Trim()}\"");
-            break;
-        }
-        case NodeType.HeaderFooter:
-        {
-            HeaderFooter headerFooter = (HeaderFooter)node;
+int currentYear = DateTime.Now.Year;
+footer.Range.Replace("(C) 2006 Aspose Pty Ltd.", $"Copyright (C) {currentYear} by Aspose Pty Ltd.", options);
 
-            Console.WriteLine($"HeaderFooter type: {headerFooter.HeaderFooterType}:");
-            Console.WriteLine($"\t\"{headerFooter.GetText().Trim()}\"");
-            break;
-        }
-        default:
-        {
-            throw new Exception("Unexpected node type in a section.");
-        }
-    }
-}
+doc.Save(ArtifactsDir + "HeaderFooter.ReplaceText.docx");
 ```
 
 显示如何使用文档构建器创建新部分。
 
 ```csharp
 Document doc = new Document();
+
+// 一个空白文档默认包含一个部分，
+// 其中包含我们可以编辑的子节点。
+Assert.AreEqual(1, doc.Sections.Count);
+
+// 使用文档构建器将文本添加到第一部分。
 DocumentBuilder builder = new DocumentBuilder(doc);
+builder.Writeln("Hello world!");
 
-builder.Write("Section 1");
-builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
-builder.Write("Primary header");
-builder.MoveToHeaderFooter(HeaderFooterType.FooterPrimary);
-builder.Write("Primary footer");
+// 通过插入分节符创建第二个节。
+builder.InsertBreak(BreakType.SectionBreakNewPage);
 
-Section section = doc.FirstSection;
+Assert.AreEqual(2, doc.Sections.Count);
 
- // 一个Section是一个复合节点，可以包含子节点，
- // 但前提是这些子节点是“Body”或“HeaderFooter”节点类型。
-foreach (Node node in section)
-{
-    switch (node.NodeType)
-    {
-        case NodeType.Body:
-        {
-            Body body = (Body)node;
+// 每个部分都有自己的页面设置设置。
+// 我们可以将第二部分的文本分成两列。
+// 这不会影响第一部分的文本。
+doc.LastSection.PageSetup.TextColumns.SetCount(2);
+builder.Writeln("Column 1.");
+builder.InsertBreak(BreakType.ColumnBreak);
+builder.Writeln("Column 2.");
 
-            Console.WriteLine("Body:");
-            Console.WriteLine($"\t\"{body.GetText().Trim()}\"");
-            break;
-        }
-        case NodeType.HeaderFooter:
-        {
-            HeaderFooter headerFooter = (HeaderFooter)node;
+Assert.AreEqual(1, doc.FirstSection.PageSetup.TextColumns.Count);
+Assert.AreEqual(2, doc.LastSection.PageSetup.TextColumns.Count);
 
-            Console.WriteLine($"HeaderFooter type: {headerFooter.HeaderFooterType}:");
-            Console.WriteLine($"\t\"{headerFooter.GetText().Trim()}\"");
-            break;
-        }
-        default:
-        {
-            throw new Exception("Unexpected node type in a section.");
-        }
-    }
-}
+doc.Save(ArtifactsDir + "Section.Create.docx");
 ```
 
-显示如何遍历复合节点的子节点。
+展示如何遍历复合节点的子节点。
 
 ```csharp
 Document doc = new Document();
@@ -122,8 +86,8 @@ builder.Write("Primary footer");
 
 Section section = doc.FirstSection;
 
- // 一个Section是一个复合节点，可以包含子节点，
- // 但前提是这些子节点是“Body”或“HeaderFooter”节点类型。
+// 一个Section是一个复合节点，可以包含子节点，
+// 但前提是这些子节点是“Body”或“HeaderFooter”节点类型。
 foreach (Node node in section)
 {
     switch (node.NodeType)

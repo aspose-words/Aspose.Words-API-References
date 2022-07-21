@@ -1,14 +1,14 @@
 ---
 title: ResourcesFolderAlias
 second_title: Справочник по API Aspose.Words для .NET
-description: Указывает имя папки используемой для создания URI изображений записываемых в документ SVG. По умолчанию null .
+description: Указывает имя папки используемой для создания URI изображений записанных в документ SVG. По умолчаниюнулевой .
 type: docs
 weight: 60
 url: /ru/net/aspose.words.saving/svgsaveoptions/resourcesfolderalias/
 ---
 ## SvgSaveOptions.ResourcesFolderAlias property
 
-Указывает имя папки, используемой для создания URI изображений, записываемых в документ SVG. По умолчанию:` null` .
+Указывает имя папки, используемой для создания URI изображений, записанных в документ SVG. По умолчанию:`нулевой` .
 
 ```csharp
 public string ResourcesFolderAlias { get; set; }
@@ -16,11 +16,11 @@ public string ResourcesFolderAlias { get; set; }
 
 ### Примечания
 
-При сохранении[`Document`](../../../aspose.words/document)в формате SVG Aspose.Words должен сохранять все изображения , встроенные в документ, как отдельные файлы.[`ResourcesFolder`](../resourcesfolder) позволяет указать, куда будут сохраняться изображения и`ResourcesFolderAlias` позволяет указать, как будут создаваться URI изображения.
+Когда вы сохраняете[`Document`](../../../aspose.words/document)в формате SVG Aspose.Words необходимо сохранить все изображения , встроенные в документ, как отдельные файлы.[`ResourcesFolder`](../resourcesfolder) позволяет указать, где изображения будут сохранены и`ResourcesFolderAlias` позволяет указать, как будут создаваться URI изображения.
 
 ### Примеры
 
-Показывает, как манипулировать и печатать URI связанных ресурсов, созданных при преобразовании документа в .svg.
+Показывает, как управлять и печатать URI связанных ресурсов, созданных при преобразовании документа в .svg.
 
 ```csharp
 public void SvgResourceFolder()
@@ -44,7 +44,7 @@ public void SvgResourceFolder()
 }
 
 /// <summary>
-/// Подсчитывает и печатает URI ресурсов, содержащихся в по мере их преобразования в .svg.
+/// Подсчитывает и печатает URI ресурсов, содержащихся в, когда они преобразуются в .svg.
 /// </summary>
 private class ResourceUriPrinter : IResourceSavingCallback
 {

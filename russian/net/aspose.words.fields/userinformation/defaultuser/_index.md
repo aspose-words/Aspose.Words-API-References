@@ -16,17 +16,17 @@ public static UserInformation DefaultUser { get; }
 
 ### Примечания
 
-Используйте[`CurrentUser`](../../fieldoptions/currentuser)свойство для указания информации о пользователе для отдельного документа.
+Используйте[`CurrentUser`](../../fieldoptions/currentuser)свойство для указания информации о пользователе для одного документа.
 
 ### Примеры
 
-Показывает, как установить данные пользователя и отобразить их с помощью полей.
+Показывает, как установить сведения о пользователе и отобразить их с помощью полей.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Создаем объект UserInformation и устанавливаем его в качестве источника данных для полей, отображающих информацию о пользователе.
+// Создайте объект UserInformation и установите его в качестве источника данных для полей, отображающих информацию о пользователе.
 UserInformation userInformation = new UserInformation
 {
     Name = "John Doe",
@@ -35,13 +35,13 @@ UserInformation userInformation = new UserInformation
 };
 doc.FieldOptions.CurrentUser = userInformation;
 
- // Вставляем поля USERNAME, USERINITIALS и USERADDRESS, которые отображают значения 
- // соответствующие свойства объекта UserInformation, который мы создали выше. 
+// Вставляем поля USERNAME, USERINITIALS и USERADDRESS, которые отображают значения
+// соответствующие свойства объекта UserInformation, который мы создали выше. 
 Assert.AreEqual(userInformation.Name, builder.InsertField(" USERNAME ").Result);
 Assert.AreEqual(userInformation.Initials, builder.InsertField(" USERINITIALS ").Result);
 Assert.AreEqual(userInformation.Address, builder.InsertField(" USERADDRESS ").Result);
 
- // Объект параметров поля также имеет статического пользователя по умолчанию, на которого могут ссылаться поля из всех документов.
+// Объект параметров поля также имеет статического пользователя по умолчанию, на которого могут ссылаться поля из всех документов.
 UserInformation.DefaultUser.Name = "Default User";
 UserInformation.DefaultUser.Initials = "D. U.";
 UserInformation.DefaultUser.Address = "One Microsoft Way";

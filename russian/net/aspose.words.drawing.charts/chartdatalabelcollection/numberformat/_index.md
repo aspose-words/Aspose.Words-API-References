@@ -1,14 +1,14 @@
 ---
 title: NumberFormat
 second_title: Справочник по API Aspose.Words для .NET
-description: Получает экземплярChartNumberFormataspose.words.drawing.charts/chartnumberformat позволяющий установить числовой формат для меток данных вся серия.
+description: ПолучаетChartNumberFormataspose.words.drawing.charts/chartnumberformat экземпляр позволяющий установить числовой формат для меток данных всей серии .
 type: docs
 weight: 30
 url: /ru/net/aspose.words.drawing.charts/chartdatalabelcollection/numberformat/
 ---
 ## ChartDataLabelCollection.NumberFormat property
 
-Получает экземпляр[`ChartNumberFormat`](../../chartnumberformat), позволяющий установить числовой формат для меток данных вся серия.
+Получает[`ChartNumberFormat`](../../chartnumberformat) экземпляр, позволяющий установить числовой формат для меток данных всей серии .
 
 ```csharp
 public ChartNumberFormat NumberFormat { get; }

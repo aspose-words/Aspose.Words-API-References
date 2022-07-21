@@ -1,14 +1,14 @@
 ---
 title: Title
 second_title: Aspose.Words for .NET API 参考
-description: 指定与此 SDT 关联的友好名称 不能为空
+description: 指定与此关联的友好名称 SDT. 不能为空
 type: docs
 weight: 290
 url: /zh/net/aspose.words.markup/structureddocumenttag/title/
 ---
 ## StructuredDocumentTag.Title property
 
-指定与此 **SDT** 关联的友好名称。 不能为空。
+指定与此关联的友好名称 **SDT**. 不能为空。
 
 ```csharp
 public string Title { get; set; }

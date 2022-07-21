@@ -1,14 +1,14 @@
 ---
 title: SelectFldWithFirstOrLastChar
 second_title: Aspose.Words for .NET API 参考
-description: 选择第一个或最后一个字符时的字段
+description: 选择第一个或最后一个字符时选择字段
 type: docs
 weight: 410
 url: /zh/net/aspose.words.settings/compatibilityoptions/selectfldwithfirstorlastchar/
 ---
 ## CompatibilityOptions.SelectFldWithFirstOrLastChar property
 
-选择第一个或最后一个字符时的字段。
+选择第一个或最后一个字符时选择字段。
 
 ```csharp
 public bool SelectFldWithFirstOrLastChar { get; set; }

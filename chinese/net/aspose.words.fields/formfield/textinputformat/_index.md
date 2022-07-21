@@ -16,15 +16,15 @@ public string TextInputFormat { get; set; }
 
 ### 评论
 
-如果文本表单字段包含常规文本，则有效格式字符串为 ""、“大写”、“小写”、“首字母大写”和“标题大写”。字符串 不区分大小写。
+如果文本表单字段包含常规文本，则有效的格式字符串为 “”、“大写”、“小写”、“首字母大写”和“标题大写”。 strings 不区分大小写。
 
-如果文本表单字段包含数字或日期/时间值，则有效的 格式字符串是数字或日期和时间格式字符串.
+如果文本表单字段包含数字或日期/时间值，则 valid 格式字符串是数字或日期和时间格式字符串。
 
 Microsoft Word 允许最多包含 64 个字符的字符串。
 
 ### 例子
 
-展示了如何将不同类型的表单字段插入到文档中，并使用文档访问者实现来处理它们。
+展示了如何将不同类型的表单域插入到文档中，并使用文档访问者实现来处理它们。
 
 ```csharp
 public void Visitor()
@@ -32,7 +32,7 @@ public void Visitor()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-     // 使用文档构建器插入组合框。
+    // 使用文档构建器插入组合框。
     builder.Write("Choose a value from this combo box: ");
     FormField comboBox = builder.InsertComboBox("MyComboBox", new[] { "One", "Two", "Three" }, 0);
     comboBox.CalculateOnExit = true;
@@ -42,7 +42,7 @@ public void Visitor()
 
     builder.InsertBreak(BreakType.ParagraphBreak);
 
-     // 使用文档生成器插入复选框。
+    // 使用文档生成器插入复选框。
     builder.Write("Click this check box to tick/untick it: ");
     FormField checkBox = builder.InsertCheckBox("MyCheckBox", false, 50);
     checkBox.IsCheckBoxExactSize = true;
@@ -56,7 +56,7 @@ public void Visitor()
 
     builder.InsertBreak(BreakType.ParagraphBreak);
 
-     // 使用文档构建器插入文本输入表单 field.
+    // 使用文档构建器插入文本输入表单字段。
     builder.Write("Enter text here: ");
     FormField textInput = builder.InsertTextInput("MyTextInput", TextFormFieldType.Regular, "", "Placeholder text", 50);
     textInput.EntryMacro = "EntryMacro";
@@ -67,20 +67,19 @@ public void Visitor()
     Assert.AreEqual(TextFormFieldType.Regular, textInput.TextInputType);
     Assert.AreEqual(50, textInput.MaxLength);
 
-     // 这个集合包含我们所有的表单域。
+    // 这个集合包含我们所有的表单字段。
     FormFieldCollection formFields = doc.Range.FormFields;
     Assert.AreEqual(3, formFields.Count);
 
-     // 字段显示我们的表单字段。我们可以打开这个document
-看到他们的域代码
+    // 字段显示我们的表单字段。我们可以通过打开这个文档看到他们的域代码
     // 在 Microsoft 中并按 Alt + F9。这些字段没有开关，
-     // 并且 FormField 对象的成员完全控制其表单字段的内容。
+    // 并且 FormField 对象的成员完全控制其表单字段的内容。
     Assert.AreEqual(3, doc.Range.Fields.Count);
     Assert.AreEqual(" FORMDROPDOWN \u0001", doc.Range.Fields[0].GetFieldCode());
     Assert.AreEqual(" FORMCHECKBOX \u0001", doc.Range.Fields[1].GetFieldCode());
     Assert.AreEqual(" FORMTEXT \u0001", doc.Range.Fields[2].GetFieldCode());
 
-     // 允许每个表单域接受一个文档访问者。
+    // 允许每个表单域接受一个文档访问者。
     FormFieldVisitor formFieldVisitor = new FormFieldVisitor();
 
     using (IEnumerator<FormField> fieldEnumerator = formFields.GetEnumerator())
@@ -104,7 +103,7 @@ public class FormFieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-     /// 在文档中遇到 FormField 节点时调用。
+    /// 在文档中遇到 FormField 节点时调用。
     /// </summary>
     public override VisitorAction VisitFormField(FormField formField)
     {
@@ -130,12 +129,12 @@ public class FormFieldVisitor : DocumentVisitor
                 break;
         }
 
-         // 让访问者继续访问其他节点。
+        // 让访问者继续访问其他节点。
         return VisitorAction.Continue;
     }
 
     /// <summary>
-     /// 将换行符终止的文本添加到当前输出。
+    /// 将换行符终止的文本添加到当前输出。
     /// </summary>
     private void AppendLine(string text)
     {
@@ -143,7 +142,7 @@ public class FormFieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-     /// 获取访问者积累的文档的纯文本。
+    /// 获取访问者积累的文档的纯文本。
     /// </summary>
     public string GetText()
     {

@@ -3,7 +3,7 @@ title: OdsoFieldMapData
 second_title: Справочник по API Aspose.Words для .NET
 description: Указывает как столбец во внешнем источнике данных должен быть сопоставлен с предопределенными полями слияния в документе.
 type: docs
-weight: 5550
+weight: 5600
 url: /ru/net/aspose.words.settings/odsofieldmapdata/
 ---
 ## OdsoFieldMapData class
@@ -24,10 +24,10 @@ public class OdsoFieldMapData
 
 | Имя | Описание |
 | --- | --- |
-| [Column](../../aspose.words.settings/odsofieldmapdata/column) { get; set; } | Задает отсчитываемый от нуля индекс столбца во внешнем источнике данных, который должен быть сопоставлен с локальным именем определенного поля MERGEFIELD. Значение по умолчанию — 0. |
-| [MappedName](../../aspose.words.settings/odsofieldmapdata/mappedname) { get; set; } | Указывает предопределенное имя поля слияния, которое должно быть сопоставлено с номером столбца , указаннымColumnв этом сопоставлении полей. Значение по умолчанию — пустая строка. |
-| [Name](../../aspose.words.settings/odsofieldmapdata/name) { get; set; } | Задает имя столбца во внешнем источнике данных для столбца, индекс которого указан с помощьюWordsсвойство. Значение по умолчанию — пустая строка. |
-| [Type](../../aspose.words.settings/odsofieldmapdata/type) { get; set; } | Указывает, сопоставлено ли данное поле слияния со столбцом в данном внешнем источнике данных или нет. Значение по умолчанию:Default. |
+| [Column](../../aspose.words.settings/odsofieldmapdata/column) { get; set; } | Указывает отсчитываемый от нуля индекс столбца во внешнем источнике данных, который должен быть сопоставлен с локальным именем определенного поля MERGEFIELD. Значение по умолчанию: 0. |
+| [MappedName](../../aspose.words.settings/odsofieldmapdata/mappedname) { get; set; } | Указывает предопределенное имя поля слияния, которое должно быть сопоставлено с номером столбца , указанным[`Column`](./column) свойство в этом сопоставлении полей. Значение по умолчанию — пустая строка. |
+| [Name](../../aspose.words.settings/odsofieldmapdata/name) { get; set; } | Указывает имя столбца во внешнем источнике данных для столбца, индекс которого указан параметром[`Column`](./column) property. Значение по умолчанию — пустая строка. |
+| [Type](../../aspose.words.settings/odsofieldmapdata/type) { get; set; } | Указывает, сопоставлено ли данное поле слияния со столбцом в данном внешнем источнике данных или нет. Значение по умолчанию:Default . |
 
 ## Методы
 
@@ -37,17 +37,17 @@ public class OdsoFieldMapData
 
 ### Примечания
 
-Microsoft Word предоставляет некоторые предопределенные имена полей слияния, которые он позволяет вставлять в документ как MERGEFIELD или используйте в полях ADDRESSBLOCK или GREETINGLINE. Информация, указанная в[`OdsoFieldMapData`](../odsofieldmapdata) , позволяет сопоставить один столбец внешнего источника данных с одним предопределенным полем слияния.
+Microsoft Word предоставляет некоторые предопределенные имена полей слияния, которые он позволяет вставлять в документ как MERGEFIELD или использовать в полях ADDRESSBLOCK или GREETINGLINE. Информация, указанная в[`OdsoFieldMapData`](../odsofieldmapdata) позволяет сопоставить один столбец внешнего источника данных с одним предопределенным полем слияния.
 
 ### Примеры
 
-Показывает, как получить доступ к набору данных, который сопоставляет столбцы источника данных с полями слияния.
+Показывает, как получить доступ к коллекции данных, которая сопоставляет столбцы источника данных с полями слияния.
 
 ```csharp
 Document doc = new Document(MyDir + "Odso data.docx");
 
- // Эта коллекция определяет, как слияние будет отображать столбцы из источника данных
- // в предопределенные поля MERGEFIELD, ADDRESSBLOCK и GREETINGLINE.
+// Эта коллекция определяет, как слияние почты будет отображать столбцы из источника данных
+// в предопределенные поля MERGEFIELD, ADDRESSBLOCK и GREETINGLINE.
 OdsoFieldMapDataCollection dataCollection = doc.MailMergeSettings.Odso.FieldMapDatas;
 Assert.AreEqual(30, dataCollection.Count);
 
@@ -65,15 +65,15 @@ using (IEnumerator<OdsoFieldMapData> enumerator = dataCollection.GetEnumerator()
     }
 }
 
- // Клонируем элементы этой коллекции.
+// Клонируем элементы этой коллекции.
 Assert.AreNotEqual(dataCollection[0], dataCollection[0].Clone());
 
- // Использовать элементы метода "RemoveAt" по отдельности по index.
+// Использовать элементы метода "RemoveAt" по отдельности по индексу.
 dataCollection.RemoveAt(0);
 
 Assert.AreEqual(29, dataCollection.Count);
 
- // Используйте метод «Очистить», чтобы сразу очистить всю коллекцию.
+// Используйте метод «Очистить», чтобы сразу очистить всю коллекцию.
 dataCollection.Clear();
 
 Assert.AreEqual(0, dataCollection.Count);

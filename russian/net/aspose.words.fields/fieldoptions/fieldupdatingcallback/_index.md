@@ -1,14 +1,14 @@
 ---
 title: FieldUpdatingCallback
 second_title: Справочник по API Aspose.Words для .NET
-description: Получает или устанавливаетIFieldUpdatingCallbackaspose.words.fields/ifieldupdatingcallbackреализация
+description: Получает или устанавливаетIFieldUpdatingCallbackaspose.words.fields/ifieldupdatingcallback реализация
 type: docs
-weight: 100
+weight: 110
 url: /ru/net/aspose.words.fields/fieldoptions/fieldupdatingcallback/
 ---
 ## FieldOptions.FieldUpdatingCallback property
 
-Получает или устанавливает[`IFieldUpdatingCallback`](../../ifieldupdatingcallback)реализация
+Получает или устанавливает[`IFieldUpdatingCallback`](../../ifieldupdatingcallback) реализация
 
 ```csharp
 public IFieldUpdatingCallback FieldUpdatingCallback { get; set; }

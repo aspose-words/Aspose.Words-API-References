@@ -1,14 +1,14 @@
 ---
 title: IsMoveToRevision
 second_title: Справочник по API Aspose.Words для .NET
-description: Возвращает true  если этот объект был перемещен вставлен в Microsoft Word при включенном отслеживании изменений.
+description: Возвращает истинный если этот объект был перемещен вставлен в Microsoft Word при включенном отслеживании изменений.
 type: docs
 weight: 320
 url: /ru/net/aspose.words.drawing/shapebase/ismovetorevision/
 ---
 ## ShapeBase.IsMoveToRevision property
 
-Возвращает **true** , если этот объект был перемещен (вставлен) в Microsoft Word при включенном отслеживании изменений.
+Возвращает **истинный** если этот объект был перемещен (вставлен) в Microsoft Word при включенном отслеживании изменений.
 
 ```csharp
 public bool IsMoveToRevision { get; }

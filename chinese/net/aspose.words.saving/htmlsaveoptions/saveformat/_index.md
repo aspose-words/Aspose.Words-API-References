@@ -1,14 +1,14 @@
 ---
 title: SaveFormat
 second_title: Aspose.Words for .NET API 参考
-description: 如果使用此保存选项对象则指定保存文档的格式 可以是HtmlMhtml 或Epub
+description: 指定使用此保存选项对象时将保存文档的格式 可以是HtmlMhtml 或Epub.
 type: docs
 weight: 440
 url: /zh/net/aspose.words.saving/htmlsaveoptions/saveformat/
 ---
 ## HtmlSaveOptions.SaveFormat property
 
-如果使用此保存选项对象，则指定保存文档的格式。 可以是Html,Mhtml 或Epub。
+指定使用此保存选项对象时将保存文档的格式。 可以是Html,Mhtml 或Epub.
 
 ```csharp
 public override SaveFormat SaveFormat { get; set; }
@@ -16,7 +16,7 @@ public override SaveFormat SaveFormat { get; set; }
 
 ### 例子
 
-显示在将文档保存到 .epub 时如何使用特定编码。
+显示将文档保存到 .epub 时如何使用特定编码。
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");

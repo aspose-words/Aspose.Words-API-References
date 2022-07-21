@@ -28,7 +28,7 @@ CustomXmlPart xmlPart = doc.CustomXmlParts.Add(xmlPartId, xmlPartContent);
 // Добавляем ассоциацию XML-схемы.
 xmlPart.Schemas.Add("http://www.w3.org/2001/XMLSchema");
 
-// Клонируем коллекцию ассоциаций схемы XML пользовательской части XML,
+// Клонировать коллекцию ассоциаций схемы XML пользовательской части XML,
 // а затем добавить пару новых схем в клон.
 CustomXmlSchemaCollection schemas = xmlPart.Schemas.Clone();
 schemas.Add("http://www.w3.org/2001/XMLSchema-instance");

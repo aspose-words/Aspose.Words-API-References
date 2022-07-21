@@ -16,11 +16,11 @@ public int IndexOf(string value)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | String | Значение для поиска с учетом регистра. |
+| value | String | Значение с учетом регистра для поиска. |
 
 ### Возвращаемое значение
 
-Индекс, начинающийся с нуля. Отрицательное значение, если не найдено.
+Индекс с отсчетом от нуля. Отрицательное значение, если не найдено.
 
 ### Примеры
 
@@ -36,7 +36,7 @@ CustomXmlPart xmlPart = doc.CustomXmlParts.Add(xmlPartId, xmlPartContent);
 // Добавляем ассоциацию XML-схемы.
 xmlPart.Schemas.Add("http://www.w3.org/2001/XMLSchema");
 
-// Клонируем коллекцию ассоциаций схемы XML пользовательской части XML,
+// Клонировать коллекцию ассоциаций схемы XML пользовательской части XML,
 // а затем добавить пару новых схем в клон.
 CustomXmlSchemaCollection schemas = xmlPart.Schemas.Clone();
 schemas.Add("http://www.w3.org/2001/XMLSchema-instance");

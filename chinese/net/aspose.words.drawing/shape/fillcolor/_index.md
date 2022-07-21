@@ -16,9 +16,9 @@ public Color FillColor { get; set; }
 
 ### 评论
 
-这是Color属性。
+这是一个快捷方式Color财产。
 
-默认值为 White。
+默认值为 White.
 
 ### 例子
 

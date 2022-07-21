@@ -1,14 +1,14 @@
 ---
 title: ExportGeneratorName
 second_title: Справочник по API Aspose.Words для .NET
-description: При значении true имя и версия Aspose.Words встраиваются в создаваемые файлы. Значение по умолчанию true .
+description: При значении true имя и версия Aspose.Words встраиваются в создаваемые файлы. Значение по умолчанию истинный .
 type: docs
 weight: 80
 url: /ru/net/aspose.words.saving/saveoptions/exportgeneratorname/
 ---
 ## SaveOptions.ExportGeneratorName property
 
-При значении true имя и версия Aspose.Words встраиваются в создаваемые файлы. Значение по умолчанию: **true** .
+При значении true имя и версия Aspose.Words встраиваются в создаваемые файлы. Значение по умолчанию: **истинный** .
 
 ```csharp
 public bool ExportGeneratorName { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: TiffBinarizationMethod
 second_title: Справочник по API Aspose.Words для .NET
-description: Получает или задает метод используемый при преобразовании изображений в формат 1 бит на пиксель когдаSaveFormataspose.words.saving/imagesaveoptions/saveformatравно SaveFormat.Tiff и TiffCompressionaspose.words.saving/imagesaveoptions/tiffcompressionравно TiffCompression.Ccitt3 или TiffCompression.Ccitt4.
+description: Получает или задает метод используемый при преобразовании изображений в формат 1 бит/пиксель  когдаSaveFormataspose.words.saving/imagesaveoptions/saveformat это SaveFormat.Tiff и TiffCompressionaspose.words.saving/imagesaveoptions/tiffcompression равно TiffCompression.Ccitt3 или TiffCompression.Ccitt4.
 type: docs
 weight: 160
 url: /ru/net/aspose.words.saving/imagesaveoptions/tiffbinarizationmethod/
 ---
 ## ImageSaveOptions.TiffBinarizationMethod property
 
-Получает или задает метод, используемый при преобразовании изображений в формат 1 бит на пиксель когда[`SaveFormat`](../saveformat)равно SaveFormat.Tiff и [`TiffCompression`](../tiffcompression)равно TiffCompression.Ccitt3 или TiffCompression.Ccitt4.
+Получает или задает метод, используемый при преобразовании изображений в формат 1 бит/пиксель , когда[`SaveFormat`](../saveformat) это SaveFormat.Tiff и [`TiffCompression`](../tiffcompression) равно TiffCompression.Ccitt3 или TiffCompression.Ccitt4.
 
 ```csharp
 public ImageBinarizationMethod TiffBinarizationMethod { get; set; }

@@ -8,7 +8,7 @@ url: /zh/net/aspose.words.drawing/textpath/bold/
 ---
 ## TextPath.Bold property
 
-如果字体格式为粗体，则为真。
+如果字体格式为粗体则为真。
 
 ```csharp
 public bool Bold { get; set; }
@@ -16,7 +16,7 @@ public bool Bold { get; set; }
 
 ### 评论
 
-默认值为 **false** 。
+默认值为 **错误的**.
 
 ### 例子
 

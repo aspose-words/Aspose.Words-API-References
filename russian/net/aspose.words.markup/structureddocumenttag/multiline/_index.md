@@ -1,14 +1,14 @@
 ---
 title: Multiline
 second_title: Справочник по API Aspose.Words для .NET
-description: Указывает допускает ли это SDT несколько строк текста.
+description: Указывает является ли это СДТ позволяет использовать несколько строк текста.
 type: docs
 weight: 210
 url: /ru/net/aspose.words.markup/structureddocumenttag/multiline/
 ---
 ## StructuredDocumentTag.Multiline property
 
-Указывает, допускает ли это **SDT** несколько строк текста.
+Указывает, является ли это **СДТ** позволяет использовать несколько строк текста.
 
 ```csharp
 public bool Multiline { get; set; }
@@ -16,9 +16,9 @@ public bool Multiline { get; set; }
 
 ### Примечания
 
-Доступ к этому свойству будет работать только дляRichTextиPlainTextТип SDT.
+Доступ к этому свойству будет работать только дляRichText а такжеPlainText Тип SDT.
 
-Для всех остальных типов SDT возникнет исключение.
+Для всех других типов SDT будет иметь место исключение.
 
 ### Примеры
 
@@ -35,7 +35,7 @@ tag.Title = "My plain text";
 tag.Color = Color.Magenta;
 
 // Установить тег для этого тега структурированного документа, который можно получить
-// как элемент XML с именем "tag", со строкой ниже в атрибуте "@val".
+// как XML-элемент с именем "tag", со строкой ниже в его атрибуте "@val".
 tag.Tag = "MyPlainTextSDT";
 
 // Каждый тег структурированного документа имеет случайный уникальный идентификатор.
@@ -68,7 +68,7 @@ StructuredDocumentTag tagClone = (StructuredDocumentTag)tag.Clone(true);
 builder.InsertParagraph();
 builder.InsertNode(tagClone);
 
-// Используйте метод "RemoveSelfOnly", чтобы удалить структурированный тег документа, сохраняя при этом его содержимое в документе.
+// Используйте метод "RemoveSelfOnly", чтобы удалить тег структурированного документа, сохраняя при этом его содержимое в документе.
 tagClone.RemoveSelfOnly();
 
 doc.Save(ArtifactsDir + "StructuredDocumentTag.PlainText.docx");

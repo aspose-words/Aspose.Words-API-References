@@ -3,7 +3,7 @@ title: Title
 second_title: Aspose.Words for .NET API 参考
 description: 获取或设置当前形状对象的标题标题
 type: docs
-weight: 480
+weight: 490
 url: /zh/net/aspose.words.drawing/shapebase/title/
 ---
 ## ShapeBase.Title property
@@ -18,7 +18,7 @@ public string Title { get; set; }
 
 默认为空字符串。
 
-不能为空，但可以为空字符串。
+不能为空，但可以是空字符串。
 
 ### 例子
 

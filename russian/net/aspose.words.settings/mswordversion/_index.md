@@ -3,7 +3,7 @@ title: MsWordVersion
 second_title: Справочник по API Aspose.Words для .NET
 description: Позволяет Aspose.Wods имитировать поведение приложения в зависимости от версии MS Word.
 type: docs
-weight: 5510
+weight: 5560
 url: /ru/net/aspose.words.settings/mswordversion/
 ---
 ## MsWordVersion enumeration
@@ -18,14 +18,14 @@ public enum MsWordVersion
 
 | Имя | Ценность | Описание |
 | --- | --- | --- |
-| Word2000 | `0` | Оптимизировано поведение Aspose.Words, чтобы оно соответствовало версии MS Word 2000. |
-| Word2002 | `1` | Оптимизировано поведение Aspose.Words, чтобы оно соответствовало версии MS Word 2002. |
-| Word2003 | `2` | Оптимизировано поведение Aspose.Words, чтобы оно соответствовало версии MS Word 2003. |
-| Word2007 | `3` | Оптимизировано поведение Aspose.Words, чтобы оно соответствовало версии MS Word 2007. |
-| Word2010 | `4` | Оптимизировано поведение Aspose.Words, чтобы оно соответствовало версии MS Word 2010. |
-| Word2013 | `5` | Оптимизировано поведение Aspose.Words, чтобы оно соответствовало версии MS Word 2013. |
-| Word2016 | `6` | Оптимизировано поведение Aspose.Words, чтобы оно соответствовало версии MS Word 2016. |
-| Word2019 | `7` | Оптимизировано поведение Aspose.Words, чтобы оно соответствовало версии MS Word 2019. |
+| Word2000 | `0` | Оптимизация поведения Aspose.Words в соответствии с версией MS Word 2000. |
+| Word2002 | `1` | Оптимизация поведения Aspose.Words в соответствии с версией MS Word 2002. |
+| Word2003 | `2` | Оптимизация поведения Aspose.Words в соответствии с версией MS Word 2003. |
+| Word2007 | `3` | Оптимизация поведения Aspose.Words в соответствии с версией MS Word 2007. |
+| Word2010 | `4` | Оптимизация поведения Aspose.Words в соответствии с версией MS Word 2010. |
+| Word2013 | `5` | Оптимизация поведения Aspose.Words в соответствии с версией MS Word 2013. |
+| Word2016 | `6` | Оптимизация поведения Aspose.Words в соответствии с версией MS Word 2016. |
+| Word2019 | `7` | Оптимизировать поведение Aspose.Words, чтобы оно соответствовало версии MS Word 2019. |
 
 ### Примеры
 
@@ -36,18 +36,18 @@ public void OptimizeFor()
 {
     Document doc = new Document();
 
-     // Этот объект содержит обширный список флагов, уникальных для каждого document
-     // это позволяет нам обеспечить обратную совместимость со старыми версиями Microsoft Word.
+    // Этот объект содержит обширный список флагов, уникальных для каждого документа
+    // которые позволяют нам обеспечить обратную совместимость со старыми версиями Microsoft Word.
     CompatibilityOptions options = doc.CompatibilityOptions;
 
-     // Печать настроек по умолчанию для пустого документа.
+    // Печать настроек по умолчанию для пустого документа.
     Console.WriteLine("\nDefault optimization settings:");
     PrintCompatibilityOptions(options);
 
-     // Мы можем получить доступ к этим настройкам в Microsoft Word через «Файл» -> "Опции" -> «Дополнительно» -> "Параметры совместимости для...".
+    // Мы можем получить доступ к этим настройкам в Microsoft Word через «Файл» -> "Опции" -> «Дополнительно» -> "Параметры совместимости для...".
     doc.Save(ArtifactsDir + "CompatibilityOptions.OptimizeFor.DefaultSettings.docx");
 
-     // Мы можем использовать метод OptimizeFor для обеспечения оптимальной совместимости с определенной версией Microsoft Word.
+    // Мы можем использовать метод OptimizeFor, чтобы обеспечить оптимальную совместимость с определенной версией Microsoft Word.
     doc.CompatibilityOptions.OptimizeFor(MsWordVersion.Word2010);
     Console.WriteLine("\nOptimized for Word 2010:");
     PrintCompatibilityOptions(options);
@@ -58,7 +58,7 @@ public void OptimizeFor()
 }
 
 /// <summary>
- /// Группирует все флаги в объекте параметров совместимости документа по состоянию, затем печатает каждую группу.
+/// Группирует все флаги в объекте параметров совместимости документа по состоянию, а затем печатает каждую группу.
 /// </summary>
 private static void PrintCompatibilityOptions(CompatibilityOptions options)
 {

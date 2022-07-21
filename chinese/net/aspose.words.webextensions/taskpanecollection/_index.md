@@ -3,7 +3,7 @@ title: TaskPaneCollection
 second_title: Aspose.Words for .NET API 参考
 description: 指定持久任务窗格对象的列表
 type: docs
-weight: 6360
+weight: 6410
 url: /zh/net/aspose.words.webextensions/taskpanecollection/
 ---
 ## TaskPaneCollection class
@@ -32,7 +32,7 @@ public class TaskPaneCollection : BaseWebExtensionCollection<TaskPane>
 
 ### 例子
 
-显示如何添加 Web 扩展到一个文件。
+展示如何向文档添加 Web 扩展。
 
 ```csharp
 Document doc = new Document();

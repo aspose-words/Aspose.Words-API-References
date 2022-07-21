@@ -16,7 +16,7 @@ public string Name { get; }
 
 ### 评论
 
-不能为空，也不能为空字符串。
+不能为 null，也不能为空字符串。
 
 ### 例子
 
@@ -25,18 +25,18 @@ public string Name { get; }
 ```csharp
 Document doc = new Document(MyDir + "Properties.docx");
 
- // “文档”对象在其成员中包含它的一些元数据。
+// “文档”对象在其成员中包含一些元数据。
 Console.WriteLine($"Document filename:\n\t \"{doc.OriginalFileName}\"");
 
- // 文档还在其内置属性中存储元数据。
-// 每个内置属性都是文档的“BuiltInDocumentProperties”对象的成员。
+// 文档还在其内置属性中存储元数据。
+// 每个内置属性都是文档“BuiltInDocumentProperties”对象的成员。
 Console.WriteLine("Built-in Properties:");
 foreach (DocumentProperty docProperty in doc.BuiltInDocumentProperties)
 {
     Console.WriteLine(docProperty.Name);
     Console.WriteLine($"\tType:\t{docProperty.Type}");
 
-     // 某些属性可能存储多个值。
+    // 某些属性可能存储多个值。
     if (docProperty.Value is ICollection<object>)
     {
         foreach (object value in docProperty.Value as ICollection<object>)

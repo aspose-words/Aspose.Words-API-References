@@ -3,7 +3,7 @@ title: BookmarksOutlineLevelCollection
 second_title: Aspose.Words for .NET API 参考
 description: 单个书签大纲级别的集合
 type: docs
-weight: 4540
+weight: 4590
 url: /zh/net/aspose.words.saving/bookmarksoutlinelevelcollection/
 ---
 ## BookmarksOutlineLevelCollection class
@@ -24,14 +24,14 @@ public class BookmarksOutlineLevelCollection : IEnumerable<KeyValuePair<string, 
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Count](../../aspose.words.saving/bookmarksoutlinelevelcollection/count) { get; } | 获取集合中包含的元素数量。 |
+| [Count](../../aspose.words.saving/bookmarksoutlinelevelcollection/count) { get; } | 获取集合中包含的元素数。 |
 | [Item](../../aspose.words.saving/bookmarksoutlinelevelcollection/item) { get; set; } | 通过书签名称获取或设置书签大纲级别。 (2 indexers) |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Add](../../aspose.words.saving/bookmarksoutlinelevelcollection/add)(string, int) | 将书签添加到集合中。 |
+| [Add](../../aspose.words.saving/bookmarksoutlinelevelcollection/add)(string, int) | 为收藏添加书签。 |
 | [Clear](../../aspose.words.saving/bookmarksoutlinelevelcollection/clear)() | 从集合中删除所有元素。 |
 | [Contains](../../aspose.words.saving/bookmarksoutlinelevelcollection/contains)(string) | 确定集合是否包含具有给定名称的书签。 |
 | [GetEnumerator](../../aspose.words.saving/bookmarksoutlinelevelcollection/getenumerator)() |  |
@@ -41,9 +41,9 @@ public class BookmarksOutlineLevelCollection : IEnumerable<KeyValuePair<string, 
 
 ### 评论
 
-键是不区分大小写的字符串书签名称。值是一个 int 书签大纲级别。
+Key 是不区分大小写的字符串书签名称。值是一个 int 书签大纲级别。
 
-书签大纲级别可以是 0 到 9 之间的值。指定 0 并且 Word 书签将不会显示在文档大纲中。 指定1，Word书签将显示在文档大纲的第1级； 2 表示 2 级，依此类推。
+书签大纲级别可以是 0 到 9 之间的值。指定 0，Word 书签将不会显示在文档大纲中。 指定 1，Word 书签将显示在文档大纲的第 1 级； 2 表示 2 级，依此类推。
 
 ### 例子
 

@@ -1,14 +1,14 @@
 ---
 title: Bidi
 second_title: Справочник по API Aspose.Words для .NET
-description: Получает или задает является ли это стилем для таблицы с письмом справа налево.
+description: Получает или задает стиль для таблицы с письмом справа налево.
 type: docs
 weight: 30
 url: /ru/net/aspose.words/tablestyle/bidi/
 ---
 ## TableStyle.Bidi property
 
-Получает или задает, является ли это стилем для таблицы с письмом справа налево.
+Получает или задает стиль для таблицы с письмом справа налево.
 
 ```csharp
 public bool Bidi { get; set; }
@@ -16,9 +16,9 @@ public bool Bidi { get; set; }
 
 ### Примечания
 
-Когда **true** , ячейки в строках располагаются справа налево.
+Когда **истинный**, ячейки в строках располагаются справа налево.
 
-Значение по умолчанию: **false** .
+Значение по умолчанию **ЛОЖЬ**.
 
 ### Примеры
 
@@ -53,7 +53,7 @@ tableStyle.VerticalAlignment = CellVerticalAlignment.Center;
 
 table.Style = tableStyle;
 
- // Установка свойств стиля таблицы может повлиять на свойства самой таблицы.
+// Установка свойств стиля таблицы может повлиять на свойства самой таблицы.
 Assert.True(table.Bidi);
 Assert.AreEqual(5.0d, table.CellSpacing);
 Assert.AreEqual("MyTableStyle1", table.StyleName);

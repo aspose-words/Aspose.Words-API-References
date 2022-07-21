@@ -1,14 +1,14 @@
 ---
 title: Checked
 second_title: Aspose.Words for .NET API 参考
-description: 获取/设置复选框 SDT 的当前状态 此属性的默认值为 false
+description: 获取/设置复选框的当前状态 SDT. 此属性的默认值为 false
 type: docs
 weight: 60
 url: /zh/net/aspose.words.markup/structureddocumenttag/checked/
 ---
 ## StructuredDocumentTag.Checked property
 
-获取/设置复选框 **SDT** 的当前状态。 此属性的默认值为 false。
+获取/设置复选框的当前状态 **SDT**. 此属性的默认值为 false。
 
 ```csharp
 public bool Checked { get; set; }

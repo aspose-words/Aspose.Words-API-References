@@ -16,15 +16,15 @@ public PdfFontEmbeddingMode FontEmbeddingMode { get; set; }
 
 ### 评论
 
-默认值为PdfFontEmbeddingMode。嵌入所有。
+默认值为EmbedAll.
 
 此设置仅适用于 ANSI (Windows-1252) 编码的文本。如果文档包含 非 ANSI 文本，则无论此设置如何，都将嵌入相应的字体。
 
-PDF/A 和 PDF/UA 合规性要求嵌入所有字体。 EmbedAll值将在保存到 PDF/A 和 PDF/UA 时自动使用。
+PDF/A 和 PDF/UA 合规性要求嵌入所有字体。 EmbedAll保存到 PDF/A 和 PDF/UA 时将自动使用该值。
 
 ### 例子
 
-显示如何设置 Aspose.Words 以跳过将 Arial 和 Times New Roman 字体嵌入 PDF 文档。
+展示如何设置 Aspose.Words 以跳过将 Arial 和 Times New Roman 字体嵌入 PDF 文档。
 
 ```csharp
 Document doc = new Document();

@@ -16,15 +16,15 @@ public Shape BackgroundShape { get; set; }
 
 ### 评论
 
-Microsoft Word 仅允许具有ShapeType属性等于 到Rectangle用作文档的背景形状。
+Microsoft Word 只允许具有其[`ShapeType`](../../../aspose.words.drawing/shapebase/shapetype)属性等于 Rectangle用作文档的背景形状。
 
-Microsoft Word 仅支持背景形状的填充属性。所有其他属性 被忽略。
+Microsoft Word 仅支持背景形状的填充属性。所有其他 properties 都被忽略。
 
-将此属性设置为非空值也会将[`DisplayBackgroundShape`](../../../aspose.words.settings/viewoptions/displaybackgroundshape)设置为 true .
+将此属性设置为非空值也将设置[`DisplayBackgroundShape`](../../../aspose.words.settings/viewoptions/displaybackgroundshape)为真。
 
 ### 例子
 
-显示如何为文档的每一页设置背景形状。
+演示如何为文档的每一页设置背景形状。
 
 ```csharp
 Document doc = new Document();

@@ -16,15 +16,15 @@ public void AutoFit(AutoFitBehavior behavior)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| behavior | AutoFitBehavior | 指定如何自动适应表格。 |
+| behavior | AutoFitBehavior | 指定如何自动调整表格。 |
 
 ### 评论
 
-此方法模拟 Microsoft Word 中表格的自动调整菜单中可用的命令。 可用的命令是“自动适应内容”、“自动适应窗口”和“固定列宽”。在 Microsoft Word 中，这些命令设置相关的表格属性，然后更新表格布局，Aspose.Words 为您做同样的事情。
+此方法模仿 Microsoft Word 中表格的自动调整菜单中可用的命令。 可用的命令是“自动调整到内容”、“自动调整到窗口”和“固定列宽”。在 Microsoft Word 中，这些命令设置相关的表格属性，然后更新表格布局，Aspose.Words 为您做同样的事情。
 
 ### 例子
 
-显示如何在应用样式时构建新表。
+展示如何在应用样式时构建新表格。
 
 ```csharp
 Document doc = new Document();

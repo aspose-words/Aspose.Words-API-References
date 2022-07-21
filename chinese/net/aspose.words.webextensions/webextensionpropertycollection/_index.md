@@ -3,7 +3,7 @@ title: WebExtensionPropertyCollection
 second_title: Aspose.Words for .NET API 参考
 description: 指定一组 Web 扩展自定义属性
 type: docs
-weight: 6430
+weight: 6480
 url: /zh/net/aspose.words.webextensions/webextensionpropertycollection/
 ---
 ## WebExtensionPropertyCollection class
@@ -32,7 +32,7 @@ public class WebExtensionPropertyCollection : BaseWebExtensionCollection<WebExte
 
 ### 例子
 
-显示如何添加 Web 扩展到一个文件。
+展示如何向文档添加 Web 扩展。
 
 ```csharp
 Document doc = new Document();

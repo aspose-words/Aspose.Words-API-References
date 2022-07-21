@@ -3,7 +3,7 @@ title: Watermark
 second_title: Aspose.Words for .NET API 参考
 description: 表示使用文档水印的类
 type: docs
-weight: 6310
+weight: 6360
 url: /zh/net/aspose.words/watermark/
 ---
 ## Watermark class

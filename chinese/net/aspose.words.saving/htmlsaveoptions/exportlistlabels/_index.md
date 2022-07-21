@@ -1,14 +1,14 @@
 ---
 title: ExportListLabels
 second_title: Aspose.Words for .NET API 参考
-description: 控制列表标签如何输出到 HTMLMHTML 或 EPUB 默认值为Auto
+description: 控制列表标签如何输出到 HTMLMHTML 或 EPUB 默认值为Auto.
 type: docs
 weight: 200
 url: /zh/net/aspose.words.saving/htmlsaveoptions/exportlistlabels/
 ---
 ## HtmlSaveOptions.ExportListLabels property
 
-控制列表标签如何输出到 HTML、MHTML 或 EPUB。 默认值为Auto。
+控制列表标签如何输出到 HTML、MHTML 或 EPUB。 默认值为Auto.
 
 ```csharp
 public ExportListLabels ExportListLabels { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: ResourceLoading
 second_title: Aspose.Words for .NET API 参考
-description: 当 Aspose.Words 加载任何外部资源时调用
+description: 在 Aspose.Words 加载任何外部资源时调用
 type: docs
 weight: 10
 url: /zh/net/aspose.words.loading/iresourceloadingcallback/resourceloading/
 ---
 ## IResourceLoadingCallback.ResourceLoading method
 
-当 Aspose.Words 加载任何外部资源时调用。
+在 Aspose.Words 加载任何外部资源时调用。
 
 ```csharp
 public ResourceLoadingAction ResourceLoading(ResourceLoadingArgs args)
@@ -16,7 +16,7 @@ public ResourceLoadingAction ResourceLoading(ResourceLoadingArgs args)
 
 ### 例子
 
-显示如何自定义将外部资源加载到文档中的过程。
+展示如何自定义将外部资源加载到文档中的过程。
 
 ```csharp
 {

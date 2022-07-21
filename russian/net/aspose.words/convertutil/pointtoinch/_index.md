@@ -1,14 +1,14 @@
 ---
 title: PointToInch
 second_title: Справочник по API Aspose.Words для .NET
-description: Преобразует точки в дюймы.
+description: Преобразует пункты в дюймы.
 type: docs
 weight: 50
 url: /ru/net/aspose.words/convertutil/pointtoinch/
 ---
 ## ConvertUtil.PointToInch method
 
-Преобразует точки в дюймы.
+Преобразует пункты в дюймы.
 
 ```csharp
 public static double PointToInch(double points)
@@ -31,19 +31,19 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Параметр «Параметры страницы» раздела определяет размер полей страницы в пунктах.
- // Мы также можем использовать класс «ConvertUtil», чтобы использовать более привычную единицу измерения, 
- // например дюймы при определении границ.
+// Мы также можем использовать класс «ConvertUtil», чтобы использовать более привычную единицу измерения,
+// например дюймы при определении границ.
 PageSetup pageSetup = builder.PageSetup;
 pageSetup.TopMargin = ConvertUtil.InchToPoint(1.0);
 pageSetup.BottomMargin = ConvertUtil.InchToPoint(2.0);
 pageSetup.LeftMargin = ConvertUtil.InchToPoint(2.5);
 pageSetup.RightMargin = ConvertUtil.InchToPoint(1.5);
 
- // В дюйме 72 точки.
+// Дюйм равен 72 точкам.
 Assert.AreEqual(72.0d, ConvertUtil.InchToPoint(1));
 Assert.AreEqual(1.0d, ConvertUtil.PointToInch(72));
 
- // Добавляем содержимое для демонстрации новых полей.
+// Добавьте содержимое, чтобы продемонстрировать новые поля.
 builder.Writeln($"This Text is {pageSetup.LeftMargin} points/{ConvertUtil.PointToInch(pageSetup.LeftMargin)} inches from the left, " +
                 $"{pageSetup.RightMargin} points/{ConvertUtil.PointToInch(pageSetup.RightMargin)} inches from the right, " +
                 $"{pageSetup.TopMargin} points/{ConvertUtil.PointToInch(pageSetup.TopMargin)} inches from the top, " +

@@ -1,14 +1,14 @@
 ---
 title: GetEnumerator
 second_title: Справочник по API Aspose.Words для .NET
-description: Возвращает объект перечислителя который можно использовать для перебора всех элементов коллекции.
+description: Возвращает объект перечислителя который можно использовать для перебора всех элементов в коллекции.
 type: docs
 weight: 60
 url: /ru/net/aspose.words.markup/sdtlistitemcollection/getenumerator/
 ---
 ## SdtListItemCollection.GetEnumerator method
 
-Возвращает объект перечислителя, который можно использовать для перебора всех элементов коллекции.
+Возвращает объект перечислителя, который можно использовать для перебора всех элементов в коллекции.
 
 ```csharp
 public IEnumerator<SdtListItem> GetEnumerator()
@@ -16,7 +16,7 @@ public IEnumerator<SdtListItem> GetEnumerator()
 
 ### Примеры
 
-Показывает, как работать со структурированными тегами выпадающего списка.
+Показывает, как работать с тегами структурированного документа с раскрывающимся списком.
 
 ```csharp
 Document doc = new Document();

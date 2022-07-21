@@ -1,14 +1,14 @@
 ---
 title: FontConfigSubstitution
 second_title: Aspose.Words for .NET API 参考
-description: 字体配置替换规则相关设置
+description: 与字体配置替换规则相关的设置
 type: docs
 weight: 20
 url: /zh/net/aspose.words.fonts/fontsubstitutionsettings/fontconfigsubstitution/
 ---
 ## FontSubstitutionSettings.FontConfigSubstitution property
 
-字体配置替换规则相关设置。
+与字体配置替换规则相关的设置。
 
 ```csharp
 public FontConfigSubstitutionRule FontConfigSubstitution { get; }
@@ -16,7 +16,7 @@ public FontConfigSubstitutionRule FontConfigSubstitution { get; }
 
 ### 例子
 
-显示操作系统相关的字体配置替换。
+显示与操作系统相关的字体配置替换。
 
 ```csharp
 FontSettings fontSettings = new FontSettings();

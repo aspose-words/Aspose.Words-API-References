@@ -16,7 +16,7 @@ public PdfDigitalSignatureDetails DigitalSignatureDetails { get; set; }
 
 ### 评论
 
-默认值为空，输出文档不会被签名。 当此属性设置为有效的[`PdfDigitalSignatureDetails`](../../pdfdigitalsignaturedetails)对象时， 则输出 PDF 文档将被数字签名.
+默认值为 null 并且不会对输出文档进行签名。 当此属性设置为有效时[`PdfDigitalSignatureDetails`](../../pdfdigitalsignaturedetails)object, 则输出的 PDF 文档将被数字签名。
 
 ### 例子
 

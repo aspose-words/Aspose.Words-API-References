@@ -1,14 +1,14 @@
 ---
 title: DocumentSavingArgs
 second_title: Aspose.Words for .NET API 参考
-description: 传递给Notify./idocumentsavingcallback/notify的参数
+description: 传入的参数Notify./idocumentsavingcallback/notify.
 type: docs
-weight: 4640
+weight: 4690
 url: /zh/net/aspose.words.saving/documentsavingargs/
 ---
 ## DocumentSavingArgs class
 
-传递给[`Notify`](../idocumentsavingcallback/notify)的参数。
+传入的参数[`Notify`](../idocumentsavingcallback/notify).
 
 ```csharp
 public sealed class DocumentSavingArgs

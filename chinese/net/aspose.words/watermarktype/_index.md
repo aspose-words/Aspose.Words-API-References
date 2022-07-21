@@ -3,7 +3,7 @@ title: WatermarkType
 second_title: Aspose.Words for .NET API 参考
 description: 指定水印类型
 type: docs
-weight: 6330
+weight: 6380
 url: /zh/net/aspose.words/watermarktype/
 ---
 ## WatermarkType enumeration
@@ -19,12 +19,12 @@ public enum WatermarkType
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
 | Text | `0` | 表示将文本用作水印。 |
-| Image | `1` | 表示图像将用作水印。 |
+| Image | `1` | 表示图片将用作水印。 |
 | None | `2` | 表示未设置水印。 |
 
 ### 例子
 
-显示如何创建文本水印。
+演示如何创建文本水印。
 
 ```csharp
 Document doc = new Document();

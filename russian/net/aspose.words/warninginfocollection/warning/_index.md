@@ -1,14 +1,14 @@
 ---
 title: Warning
 second_title: Справочник по API Aspose.Words для .NET
-description: Реализует интерфейсIWarningCallbackaspose.words/iwarningcallback. Добавляет предупреждение в эту коллекцию.
+description: РеализуетIWarningCallbackaspose.words/iwarningcallback интерфейс. Добавляет предупреждение в эту коллекцию.
 type: docs
 weight: 60
 url: /ru/net/aspose.words/warninginfocollection/warning/
 ---
 ## WarningInfoCollection.Warning method
 
-Реализует интерфейс[`IWarningCallback`](../../iwarningcallback). Добавляет предупреждение в эту коллекцию.
+Реализует[`IWarningCallback`](../../iwarningcallback) интерфейс. Добавляет предупреждение в эту коллекцию.
 
 ```csharp
 public void Warning(WarningInfo info)
@@ -16,7 +16,7 @@ public void Warning(WarningInfo info)
 
 ### Примеры
 
-Показывает, как установить свойство для поиска ближайшего соответствия отсутствующему шрифту из доступных источников шрифтов.
+Показывает, как задать свойство для поиска ближайшего соответствия отсутствующему шрифту из доступных источников шрифтов.
 
 ```csharp
 [Test]

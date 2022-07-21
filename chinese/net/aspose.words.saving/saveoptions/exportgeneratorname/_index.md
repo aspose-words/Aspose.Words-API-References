@@ -1,14 +1,14 @@
 ---
 title: ExportGeneratorName
 second_title: Aspose.Words for .NET API 参考
-description: 如果为真则将 Aspose.Words 的名称和版本嵌入到生成的文件中 默认值为 true 
+description: 如果为真则将 Aspose.Words 的名称和版本嵌入到生成的文件中 默认值为 真的.
 type: docs
 weight: 80
 url: /zh/net/aspose.words.saving/saveoptions/exportgeneratorname/
 ---
 ## SaveOptions.ExportGeneratorName property
 
-如果为真，则将 Aspose.Words 的名称和版本嵌入到生成的文件中。 默认值为 **true** 。
+如果为真，则将 Aspose.Words 的名称和版本嵌入到生成的文件中。 默认值为 **真的**.
 
 ```csharp
 public bool ExportGeneratorName { get; set; }
@@ -16,7 +16,7 @@ public bool ExportGeneratorName { get; set; }
 
 ### 例子
 
-显示如何禁用将 Aspose.Words 的名称和版本添加到生成的文件中。
+展示如何禁用将 Aspose.Words 的名称和版本添加到生成的文件中。
 
 ```csharp
 Document doc = new Document();

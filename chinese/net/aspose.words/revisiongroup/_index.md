@@ -1,14 +1,14 @@
 ---
 title: RevisionGroup
 second_title: Aspose.Words for .NET API 参考
-description: 表示一组连续的Revision./revision对象
+description: 代表一组顺序Revision./revision对象.
 type: docs
-weight: 4470
+weight: 4520
 url: /zh/net/aspose.words/revisiongroup/
 ---
 ## RevisionGroup class
 
-表示一组连续的[`Revision`](../revision)对象。
+代表一组顺序[`Revision`](../revision)对象.
 
 ```csharp
 public class RevisionGroup
@@ -24,7 +24,7 @@ public class RevisionGroup
 
 ### 例子
 
-显示如何打印有关文档中一组修订的信息。
+显示如何在文档中打印有关一组修订的信息。
 
 ```csharp
 Document doc = new Document(MyDir + "Revisions.docx");

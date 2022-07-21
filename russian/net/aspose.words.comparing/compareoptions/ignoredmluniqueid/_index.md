@@ -1,14 +1,14 @@
 ---
 title: IgnoreDmlUniqueId
 second_title: Справочник по API Aspose.Words для .NET
-description: Указывает следует ли игнорировать разницу в уникальном идентификаторе DrawingML. Значение по умолчанию false .
+description: Указывает следует ли игнорировать разницу в уникальном идентификаторе DrawingML. Значение по умолчанию ЛОЖЬ .
 type: docs
 weight: 50
 url: /ru/net/aspose.words.comparing/compareoptions/ignoredmluniqueid/
 ---
 ## CompareOptions.IgnoreDmlUniqueId property
 
-Указывает, следует ли игнорировать разницу в уникальном идентификаторе DrawingML. Значение по умолчанию: **false** .
+Указывает, следует ли игнорировать разницу в уникальном идентификаторе DrawingML. Значение по умолчанию: **ЛОЖЬ** .
 
 ```csharp
 public bool IgnoreDmlUniqueId { get; set; }

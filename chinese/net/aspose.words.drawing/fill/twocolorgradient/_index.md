@@ -16,12 +16,12 @@ public void TwoColorGradient(GradientStyle style, GradientVariant variant)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| style | GradientStyle | 渐变样式[`GradientStyle`](../../gradientstyle)。 |
+| style | GradientStyle | 渐变风格[`GradientStyle`](../../gradientstyle). |
 | variant | GradientVariant | 渐变变体[`GradientVariant`](../../gradientvariant) |
 
 ### 例子
 
-显示如何用渐变填充形状。
+展示如何用渐变填充形状。
 
 ```csharp
 Document doc = new Document();
@@ -78,14 +78,14 @@ public void TwoColorGradient(Color color1, Color color2, GradientStyle style,
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| color1 | Color | 构建渐变的第一个颜色。 |
+| color1 | Color | 建立渐变的第一种颜色。 |
 | color2 | Color | 构建渐变的第二种颜色。 |
-| style | GradientStyle | 渐变样式[`GradientStyle`](../../gradientstyle)。 |
+| style | GradientStyle | 渐变风格[`GradientStyle`](../../gradientstyle). |
 | variant | GradientVariant | 渐变变体[`GradientVariant`](../../gradientvariant) |
 
 ### 例子
 
-显示如何用渐变填充形状。
+展示如何用渐变填充形状。
 
 ```csharp
 Document doc = new Document();

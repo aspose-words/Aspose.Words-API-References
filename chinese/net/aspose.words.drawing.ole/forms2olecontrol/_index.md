@@ -24,11 +24,11 @@ public abstract class Forms2OleControl : OleControl
 | override [IsForms2OleControl](../../aspose.words.drawing.ole/forms2olecontrol/isforms2olecontrol) { get; } |  |
 | [Name](../../aspose.words.drawing.ole/olecontrol/name) { get; } | 获取 ActiveX 控件的名称。 |
 | [Type](../../aspose.words.drawing.ole/forms2olecontrol/type) { get; } | 获取 Forms 2.0 控件的类型。 |
-| [Value](../../aspose.words.drawing.ole/forms2olecontrol/value) { get; } | 获取通常表示控件状态的底层 Value 属性。 例如，选中的选项按钮的值为“1”，而未选中的选项按钮的值为“0”。 默认值为空字符串。 |
+| [Value](../../aspose.words.drawing.ole/forms2olecontrol/value) { get; } | 获取通常表示控件状态的底层 Value 属性。 例如，选中的选项按钮具有“1”值，而未选中的具有“0”。 默认值为空字符串。 |
 
 ### 例子
 
-显示如何验证 ActiveX 控件的属性。
+演示如何验证 ActiveX 控件的属性。
 
 ```csharp
 Document doc = new Document(MyDir + "ActiveX controls.docx");

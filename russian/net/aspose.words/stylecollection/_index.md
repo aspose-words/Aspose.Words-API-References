@@ -3,7 +3,7 @@ title: StyleCollection
 second_title: Справочник по API Aspose.Words для .NET
 description: Коллекция объектов Style представляющих как встроенные так и определяемые пользователем стили в документе.
 type: docs
-weight: 5790
+weight: 5840
 url: /ru/net/aspose.words/stylecollection/
 ---
 ## StyleCollection class
@@ -30,7 +30,7 @@ public class StyleCollection : IEnumerable<Style>
 | --- | --- |
 | [Add](../../aspose.words/stylecollection/add)(StyleType, string) | Создает новый пользовательский стиль и добавляет его в коллекцию. |
 | [AddCopy](../../aspose.words/stylecollection/addcopy)(Style) | Копирует стиль в эту коллекцию. |
-| [ClearQuickStyleGallery](../../aspose.words/stylecollection/clearquickstylegallery)() | Удаляет все стили из панели быстрой галереи стилей. |
+| [ClearQuickStyleGallery](../../aspose.words/stylecollection/clearquickstylegallery)() | Удаляет все стили из панели галереи быстрых стилей. |
 | [GetEnumerator](../../aspose.words/stylecollection/getenumerator)() | Получает объект перечислителя, который будет перечислять стили в алфавитном порядке их имен. |
 
 ### Примеры

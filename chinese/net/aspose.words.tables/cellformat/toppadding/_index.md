@@ -1,14 +1,14 @@
 ---
 title: TopPadding
 second_title: Aspose.Words for .NET API 参考
-description: 返回或设置要添加到单元格内容上方的空间量以磅为单位
+description: 返回或设置要添加到单元格内容之上的空间量以磅为单位
 type: docs
 weight: 100
 url: /zh/net/aspose.words.tables/cellformat/toppadding/
 ---
 ## CellFormat.TopPadding property
 
-返回或设置要添加到单元格内容上方的空间量（以磅为单位）。
+返回或设置要添加到单元格内容之上的空间量（以磅为单位）。
 
 ```csharp
 public double TopPadding { get; set; }
@@ -16,7 +16,7 @@ public double TopPadding { get; set; }
 
 ### 例子
 
-显示如何使用文档生成器格式化单元格。
+显示如何使用文档构建器格式化单元格。
 
 ```csharp
 Document doc = new Document();

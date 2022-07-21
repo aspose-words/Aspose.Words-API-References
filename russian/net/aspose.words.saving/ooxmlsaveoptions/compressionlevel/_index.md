@@ -1,14 +1,14 @@
 ---
 title: CompressionLevel
 second_title: Справочник по API Aspose.Words для .NET
-description: Указывает уровень сжатия используемый для сохранения документа. Значение по умолчаниюNormal.
+description: Указывает уровень сжатия используемый для сохранения документа. Значение по умолчаниюNormal .
 type: docs
 weight: 30
 url: /ru/net/aspose.words.saving/ooxmlsaveoptions/compressionlevel/
 ---
 ## OoxmlSaveOptions.CompressionLevel property
 
-Указывает уровень сжатия, используемый для сохранения документа. Значение по умолчанию:Normal.
+Указывает уровень сжатия, используемый для сохранения документа. Значение по умолчанию:Normal .
 
 ```csharp
 public CompressionLevel CompressionLevel { get; set; }

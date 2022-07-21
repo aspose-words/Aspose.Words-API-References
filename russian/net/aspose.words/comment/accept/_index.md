@@ -16,23 +16,23 @@ public override bool Accept(DocumentVisitor visitor)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| visitor | DocumentVisitor | Посетитель, который посетит узлы. |
+| visitor | DocumentVisitor | Посетитель, который будет посещать узлы. |
 
 ### Возвращаемое значение
 
-Истинно, если были посещены все узлы; false, если DocumentVisitor остановил операцию перед посещением всех узлов.
+Истинно, если все узлы были посещены; false, если DocumentVisitor остановил операцию перед посещением всех узлов.
 
 ### Примечания
 
-Перечисляет этот узел и все его дочерние узлы. Каждый узел вызывает соответствующий метод в DocumentVisitor.
+Перечисляет этот узел и все его дочерние элементы. Каждый узел вызывает соответствующий метод в DocumentVisitor.
 
-Для получения дополнительной информации см. шаблон проектирования Посетитель.
+Дополнительные сведения см. в шаблоне проектирования «Посетитель».
 
-Вызывает[`VisitCommentStart`](../../documentvisitor/visitcommentstart), затем вызовы[`Accept`](../../node/accept)для всех дочерних узлов комментария и вызовы[`VisitCommentEnd`](../../documentvisitor/visitcommentend)в конце.
+звонки[`VisitCommentStart`](../../documentvisitor/visitcommentstart) , затем звонит[`Accept`](../../node/accept) для all дочерних узлов комментария и вызовов[`VisitCommentEnd`](../../documentvisitor/visitcommentend) в конце.
 
 ### Примеры
 
-Показывает, как распечатать содержимое всех комментариев и диапазоны их комментариев с помощью посетителя документа.
+Показывает, как распечатать содержимое всех комментариев и их диапазоны комментариев с помощью посетителя документа.
 
 ```csharp
 public void CreateCommentsAndPrintAllInfo()
@@ -48,14 +48,14 @@ public void CreateCommentsAndPrintAllInfo()
 
     newComment.SetText("Comment regarding text.");
 
-     // Добавьте текст в документ, деформируйте его в диапазоне комментариев, а затем добавьте свой комментарий.
+    // Добавьте текст в документ, деформируйте его в диапазоне комментариев, а затем добавьте свой комментарий.
     Paragraph para = doc.FirstSection.Body.FirstParagraph;
     para.AppendChild(new CommentRangeStart(doc, newComment.Id));
     para.AppendChild(new Run(doc, "Commented text."));
     para.AppendChild(new CommentRangeEnd(doc, newComment.Id));
     para.AppendChild(newComment); 
 
-     // Добавляем два ответа на комментарий.
+    // Добавляем два ответа на комментарий.
     newComment.AddReply("John Doe", "JD", DateTime.Now, "New reply.");
     newComment.AddReply("John Doe", "JD", DateTime.Now, "Another reply.");
 
@@ -63,7 +63,7 @@ public void CreateCommentsAndPrintAllInfo()
 }
 
 /// <summary>
- /// Перебирает каждый комментарий верхнего уровня и печатает его диапазон комментариев, содержимое и ответы.
+/// Перебирает каждый комментарий верхнего уровня и печатает его диапазон комментариев, содержимое и ответы.
 /// </summary>
 private static void PrintAllCommentInfo(NodeCollection comments)
 {
@@ -72,17 +72,17 @@ private static void PrintAllCommentInfo(NodeCollection comments)
     // Перебираем все комментарии верхнего уровня. В отличие от комментариев типа ответа, комментарии верхнего уровня не имеют предка.
     foreach (Comment comment in comments.Where(c => ((Comment)c).Ancestor == null))
     {
-         // Сначала заходим в начало диапазона комментариев.
+        // Во-первых, посетите начало диапазона комментариев.
         CommentRangeStart commentRangeStart = (CommentRangeStart)comment.PreviousSibling.PreviousSibling.PreviousSibling;
         commentRangeStart.Accept(commentVisitor);
 
-         // Затем перейдите к комментарию и любым возможным ответам.
+        // Затем перейдите к комментарию и любым возможным ответам на него.
         comment.Accept(commentVisitor);
 
         foreach (Comment reply in comment.Replies)
             reply.Accept(commentVisitor);
 
-         // Наконец, переходим к концу диапазона комментариев, а затем печатаем текстовое содержимое посетителя.
+        // Наконец, перейдите в конец диапазона комментариев, а затем распечатайте текстовое содержимое посетителя.
         CommentRangeEnd commentRangeEnd = (CommentRangeEnd)comment.PreviousSibling;
         commentRangeEnd.Accept(commentVisitor);
 
@@ -91,7 +91,7 @@ private static void PrintAllCommentInfo(NodeCollection comments)
 }
 
 /// <summary>
- /// Выводит информацию и содержимое всех комментариев и диапазонов комментариев, встречающихся в документе.
+/// Выводит информацию и содержимое всех комментариев и диапазонов комментариев, встречающихся в документе.
 /// </summary>
 public class CommentInfoPrinter : DocumentVisitor
 {
@@ -102,7 +102,7 @@ public class CommentInfoPrinter : DocumentVisitor
     }
 
     /// <summary>
-     /// Получает простой текст документа, который накопил посетитель.
+    /// Получает обычный текст документа, который накопил посетитель.
     /// </summary>
     public string GetText()
     {
@@ -110,7 +110,7 @@ public class CommentInfoPrinter : DocumentVisitor
     }
 
     /// <summary>
-     /// Вызывается, когда в документе встречается узел Run.
+    /// Вызывается, когда в документе встречается узел Run.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {
@@ -120,7 +120,7 @@ public class CommentInfoPrinter : DocumentVisitor
     }
 
     /// <summary>
-     /// Вызывается, когда в документе встречается узел CommentRangeStart.
+    /// Вызывается, когда в документе встречается узел CommentRangeStart.
     /// </summary>
     public override VisitorAction VisitCommentRangeStart(CommentRangeStart commentRangeStart)
     {
@@ -132,7 +132,7 @@ public class CommentInfoPrinter : DocumentVisitor
     }
 
     /// <summary>
-     /// Вызывается, когда в документе встречается узел CommentRangeEnd.
+    /// Вызывается, когда в документе встречается узел CommentRangeEnd.
     /// </summary>
     public override VisitorAction VisitCommentRangeEnd(CommentRangeEnd commentRangeEnd)
     {
@@ -144,7 +144,7 @@ public class CommentInfoPrinter : DocumentVisitor
     }
 
     /// <summary>
-     /// Вызывается, когда в документе встречается узел Comment.
+    /// Вызывается, когда в документе встречается узел комментариев.
     /// </summary>
     public override VisitorAction VisitCommentStart(Comment comment)
     {
@@ -157,7 +157,7 @@ public class CommentInfoPrinter : DocumentVisitor
     }
 
     /// <summary>
-     /// Вызывается, когда в документе заканчивается посещение узла Comment.
+    /// Вызывается, когда в документе заканчивается посещение узла комментариев.
     /// </summary>
     public override VisitorAction VisitCommentEnd(Comment comment)
     {
@@ -169,9 +169,9 @@ public class CommentInfoPrinter : DocumentVisitor
     }
 
     /// <summary>
-     /// Добавляем строку в StringBuilder и делаем отступ в зависимости от того, насколько глубоко посетитель находится в дереве документа.
+    /// Добавляем строку в StringBuilder и делаем отступ в зависимости от того, насколько глубоко посетитель находится в дереве документа.
     /// </summary>
-     /// <param name="text"></param>
+    /// <param name="text"></param>
     private void IndentAndAppendLine(string text)
     {
         for (int i = 0; i < mDocTraversalDepth; i++)

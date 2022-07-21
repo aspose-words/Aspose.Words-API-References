@@ -1,14 +1,14 @@
 ---
 title: UniqueTag
 second_title: Справочник по API Aspose.Words для .NET
-description: Указывает содержимое заданной записи в столбце содержащем уникальные данные. Значение по умолчанию null .
+description: Указывает содержимое данной записи в столбце содержащем уникальные данные. Значение по умолчаниюнулевой .
 type: docs
 weight: 50
 url: /ru/net/aspose.words.settings/odsorecipientdata/uniquetag/
 ---
 ## OdsoRecipientData.UniqueTag property
 
-Указывает содержимое заданной записи в столбце, содержащем уникальные данные. Значение по умолчанию:` null` .
+Указывает содержимое данной записи в столбце, содержащем уникальные данные. Значение по умолчанию:`нулевой` .
 
 ```csharp
 public byte[] UniqueTag { get; set; }
@@ -38,10 +38,10 @@ using (IEnumerator<OdsoRecipientData> enumerator = dataCollection.GetEnumerator(
     }
 }
 
- // Мы можем клонировать элементы этой коллекции.
+// Мы можем клонировать элементы этой коллекции.
 Assert.AreNotEqual(dataCollection[0], dataCollection[0].Clone());
 
- // Мы также можем удалить элементы по отдельности или очистить всю коллекцию сразу.
+// Мы также можем удалить элементы по отдельности или очистить всю коллекцию сразу.
 dataCollection.RemoveAt(0);
 
 Assert.AreEqual(69, dataCollection.Count);

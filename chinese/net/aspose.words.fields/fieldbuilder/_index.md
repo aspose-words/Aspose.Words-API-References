@@ -3,7 +3,7 @@ title: FieldBuilder
 second_title: Aspose.Words for .NET API 参考
 description: 从域代码标记参数和开关构建一个域
 type: docs
-weight: 1490
+weight: 1510
 url: /zh/net/aspose.words.fields/fieldbuilder/
 ---
 ## FieldBuilder class
@@ -18,27 +18,27 @@ public class FieldBuilder
 
 | 姓名 | 描述 |
 | --- | --- |
-| [FieldBuilder](fieldbuilder)(FieldType) | 初始化[`FieldBuilder`](../fieldbuilder)类的实例。 |
+| [FieldBuilder](fieldbuilder)(FieldType) | 初始化[`FieldBuilder`](../fieldbuilder)类. |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AddArgument](../../aspose.words.fields/fieldbuilder/addargument#addargument_2)(double) | 添加字段的参数。 |
-| [AddArgument](../../aspose.words.fields/fieldbuilder/addargument#addargument)(FieldArgumentBuilder) | 将[`FieldArgumentBuilder`](../fieldargumentbuilder)表示的字段参数添加到字段代码中。 |
-| [AddArgument](../../aspose.words.fields/fieldbuilder/addargument#addargument_1)(FieldBuilder) | 将由另一个[`FieldBuilder`](../fieldbuilder)表示的子字段添加到字段的代码中。 |
-| [AddArgument](../../aspose.words.fields/fieldbuilder/addargument#addargument_3)(int) | 添加字段的参数。 |
-| [AddArgument](../../aspose.words.fields/fieldbuilder/addargument#addargument_4)(string) | 添加字段的参数。 |
-| [AddSwitch](../../aspose.words.fields/fieldbuilder/addswitch#addswitch)(string) | 添加字段的开关。 |
-| [AddSwitch](../../aspose.words.fields/fieldbuilder/addswitch#addswitch_1)(string, double) | 添加字段的开关。 |
-| [AddSwitch](../../aspose.words.fields/fieldbuilder/addswitch#addswitch_2)(string, int) | 添加字段的开关。 |
-| [AddSwitch](../../aspose.words.fields/fieldbuilder/addswitch#addswitch_3)(string, string) | 添加字段的开关。 |
+| [AddArgument](../../aspose.words.fields/fieldbuilder/addargument#addargument_2)(double) | 添加一个字段的参数。 |
+| [AddArgument](../../aspose.words.fields/fieldbuilder/addargument#addargument)(FieldArgumentBuilder) | 添加一个字段的参数，由[`FieldArgumentBuilder`](../fieldargumentbuilder)到字段的代码。 |
+| [AddArgument](../../aspose.words.fields/fieldbuilder/addargument#addargument_1)(FieldBuilder) | 添加另一个表示的子字段[`FieldBuilder`](../fieldbuilder)到字段的代码。 |
+| [AddArgument](../../aspose.words.fields/fieldbuilder/addargument#addargument_3)(int) | 添加一个字段的参数。 |
+| [AddArgument](../../aspose.words.fields/fieldbuilder/addargument#addargument_4)(string) | 添加一个字段的参数。 |
+| [AddSwitch](../../aspose.words.fields/fieldbuilder/addswitch#addswitch)(string) | 添加一个字段的开关。 |
+| [AddSwitch](../../aspose.words.fields/fieldbuilder/addswitch#addswitch_1)(string, double) | 添加一个字段的开关。 |
+| [AddSwitch](../../aspose.words.fields/fieldbuilder/addswitch#addswitch_2)(string, int) | 添加一个字段的开关。 |
+| [AddSwitch](../../aspose.words.fields/fieldbuilder/addswitch#addswitch_3)(string, string) | 添加一个字段的开关。 |
 | [BuildAndInsert](../../aspose.words.fields/fieldbuilder/buildandinsert#buildandinsert)(Inline) | 在指定的内联节点之前构建并插入一个字段到文档中。 |
 | [BuildAndInsert](../../aspose.words.fields/fieldbuilder/buildandinsert#buildandinsert_1)(Paragraph) | 在文档中构建并插入一个字段到指定段落的末尾。 |
 
 ### 例子
 
-展示如何使用字段构建器构造字段，然后将它们插入到文档中。
+演示如何使用字段构建器构造字段，然后将它们插入到文档中。
 
 ```csharp
 Document doc = new Document();

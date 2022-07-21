@@ -1,14 +1,14 @@
 ---
 title: RestartPageNumbering
 second_title: Aspose.Words for .NET API 参考
-description: True 如果页码在节的开头重新开始
+description: 真的如果页码在节的开头重新开始
 type: docs
 weight: 350
 url: /zh/net/aspose.words/pagesetup/restartpagenumbering/
 ---
 ## PageSetup.RestartPageNumbering property
 
-**True** 如果页码在节的开头重新开始。
+**真的**如果页码在节的开头重新开始。
 
 ```csharp
 public bool RestartPageNumbering { get; set; }
@@ -16,11 +16,11 @@ public bool RestartPageNumbering { get; set; }
 
 ### 评论
 
-如果设置为 **false** , **RestartPageNumbering** 属性将覆盖 [`PageStartingNumber`](../pagestartingnumber)属性，以便页码可以从上一节继续。
+如果设置为 **错误的**， 这 **重新开始页面编号**属性将覆盖 the [`PageStartingNumber`](../pagestartingnumber)属性，以便页码可以从上一节继续。
 
 ### 例子
 
-显示如何在节中设置页码。
+显示如何在部分中设置页码。
 
 ```csharp
 Document doc = new Document();

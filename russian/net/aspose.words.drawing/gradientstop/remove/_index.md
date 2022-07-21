@@ -1,14 +1,14 @@
 ---
 title: Remove
 second_title: Справочник по API Aspose.Words для .NET
-description: Удаляет точку градиента из родителяGradientStopCollectionaspose.words.drawing/gradientstopcollection.
+description: Удаляет остановку градиента из родителяGradientStopCollectionaspose.words.drawing/gradientstopcollection .
 type: docs
 weight: 50
 url: /ru/net/aspose.words.drawing/gradientstop/remove/
 ---
 ## GradientStop.Remove method
 
-Удаляет точку градиента из родителя[`GradientStopCollection`](../../gradientstopcollection).
+Удаляет остановку градиента из родителя[`GradientStopCollection`](../../gradientstopcollection) .
 
 ```csharp
 public void Remove()

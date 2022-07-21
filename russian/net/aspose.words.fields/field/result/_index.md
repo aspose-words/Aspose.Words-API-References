@@ -1,14 +1,14 @@
 ---
 title: Result
 second_title: Справочник по API Aspose.Words для .NET
-description: Получает или задает текст который находится между разделителем полей и концом поля.
+description: Получает или задает текст который находится между разделителем поля и концом поля.
 type: docs
 weight: 70
 url: /ru/net/aspose.words.fields/field/result/
 ---
 ## Field.Result property
 
-Получает или задает текст, который находится между разделителем полей и концом поля.
+Получает или задает текст, который находится между разделителем поля и концом поля.
 
 ```csharp
 public string Result { get; set; }

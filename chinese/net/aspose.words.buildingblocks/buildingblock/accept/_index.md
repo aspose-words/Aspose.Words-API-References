@@ -1,14 +1,14 @@
 ---
 title: Accept
 second_title: Aspose.Words for .NET API 参考
-description: 接受访问者
+description: 接受访客
 type: docs
 weight: 130
 url: /zh/net/aspose.words.buildingblocks/buildingblock/accept/
 ---
 ## BuildingBlock.Accept method
 
-接受访问者。
+接受访客。
 
 ```csharp
 public override bool Accept(DocumentVisitor visitor)
@@ -20,7 +20,7 @@ public override bool Accept(DocumentVisitor visitor)
 
 ### 返回值
 
-如果所有节点都被访问，则为真；如果 DocumentVisitor 在访问所有节点之前停止操作，则返回 false。
+如果访问了所有节点，则为真；如果 DocumentVisitor 在访问所有节点之前停止操作，则返回 false。
 
 ### 评论
 
@@ -28,23 +28,23 @@ public override bool Accept(DocumentVisitor visitor)
 
 有关更多信息，请参阅访问者设计模式。
 
-调用[`VisitBuildingBlockStart`](../../../aspose.words/documentvisitor/visitbuildingblockstart)，然后调用 [`Accept`](../../../aspose.words/node/accept)用于此构建块的所有子节点，然后调用 [`VisitBuildingBlockEnd`](../../../aspose.words/documentvisitor/visitbuildingblockend)。
+来电[`VisitBuildingBlockStart`](../../../aspose.words/documentvisitor/visitbuildingblockstart) , 然后调用 [`Accept`](../../../aspose.words/node/accept)对于这个积木的所有子节点，然后调用 [`VisitBuildingBlockEnd`](../../../aspose.words/documentvisitor/visitbuildingblockend).
 
-注意:构建块节点及其子节点不是当您通过[`Document`](../../../aspose.words/document)执行 访问者时访问过。如果要通过 构建块执行访问者，则需要通过[`GlossaryDocument`](../../glossarydocument)或执行访问者:调用MAspose.Words.BuildingBlocks.BuildingBlock.Accept(Aspose.Words.DocumentVisitor)。
+注意：当你执行 a Visitor over a 时，不会访问构建块节点及其子节点[`Document`](../../../aspose.words/document).如果要通过 a 构建块执行访问者，则需要执行访问者[`GlossaryDocument`](../../glossarydocument)or 调用`Accept`.
 
 ### 例子
 
-显示如何将自定义构建块添加到文档。
+演示如何将自定义构建块添加到文档。
 
 ```csharp
 public void CreateAndInsert()
 {
-     // 文档的词汇表文档存储构建块.
+    // 文档的词汇表文档存储构建块。
     Document doc = new Document();
     GlossaryDocument glossaryDoc = new GlossaryDocument();
     doc.GlossaryDocument = glossaryDoc;
 
-     // 创建一个积木，命名，然后将其添加到词汇表文档中。
+    // 创建一个构建块，为其命名，然后将其添加到词汇表文档中。
     BuildingBlock block = new BuildingBlock(glossaryDoc)
     {
         Name = "Custom Block"
@@ -52,20 +52,20 @@ public void CreateAndInsert()
 
     glossaryDoc.AppendChild(block);
 
-     // 所有新的构建块 GUID 默认都具有相同的零值，我们可以给它们一个新的唯一值。
+    // 所有新的构建块 GUID 默认都具有相同的零值，我们可以给它们一个新的唯一值。
     Assert.AreEqual("00000000-0000-0000-0000-000000000000", block.Guid.ToString());
 
     block.Guid = Guid.NewGuid();
 
-     // 以下属性对构建块进行分类
-     // 在菜单中，我们可以通过“插入”在 Microsoft Word 中访问 -> “快速零件”-> “积木组织者”.
+    // 以下属性对构建块进行分类
+    // 在菜单中，我们可以通过“插入”在 Microsoft Word 中访问 -> “快速零件”-> “积木组织者”。
     Assert.AreEqual("(Empty Category)", block.Category);
     Assert.AreEqual(BuildingBlockType.None, block.Type);
     Assert.AreEqual(BuildingBlockGallery.All, block.Gallery);
     Assert.AreEqual(BuildingBlockBehavior.Content, block.Behavior);
 
-     // 在我们可以将这个构建块添加到我们的文档之前，我们需要给它一些内容，
-     // 我们将使用文档访问者来完成。此访问者还将设置类别、画廊和行为。
+    // 在我们可以将这个构建块添加到我们的文档之前，我们需要给它一些内容，
+    // 我们将使用文档访问者来完成。此访问者还将设置类别、画廊和行为。
     BuildingBlockVisitor visitor = new BuildingBlockVisitor(glossaryDoc);
     block.Accept(visitor);
 
@@ -73,19 +73,19 @@ public void CreateAndInsert()
     BuildingBlock customBlock = glossaryDoc.GetBuildingBlock(BuildingBlockGallery.QuickParts,
         "My custom building blocks", "Custom Block");
 
-     // 块本身是一个包含文本的部分。
+    // 块本身是包含文本的部分。
     Assert.AreEqual($"Text inside {customBlock.Name}\f", customBlock.FirstSection.Body.FirstParagraph.GetText());
     Assert.AreEqual(customBlock.FirstSection, customBlock.LastSection);
 
-     // 现在，我们可以将它作为一个新部分插入到文档中。
+    // 现在，我们可以将它作为一个新部分插入到文档中。
     doc.AppendChild(doc.ImportNode(customBlock.FirstSection, true));
 
-     // 我们也可以在 Microsoft Word 的 Building Blocks Organizer 中找到并手动放置。
+    // 我们也可以在 Microsoft Word 的 Building Blocks Organizer 中找到并手动放置。
     doc.Save(ArtifactsDir + "BuildingBlocks.CreateAndInsert.dotx");
 }
 
 /// <summary>
- /// 设置一个已访问的构建块作为快速部件插入到文档中，并将文本添加到其内容中。
+/// 设置一个已访问的构建块作为快速部件插入到文档中，并在其内容中添加文本。
 /// </summary>
 public class BuildingBlockVisitor : DocumentVisitor
 {
@@ -97,16 +97,15 @@ public class BuildingBlockVisitor : DocumentVisitor
 
     public override VisitorAction VisitBuildingBlockStart(BuildingBlock block)
     {
-         // 将 Building Block 配置为快速部件，并添加 Building Blocks Organizer 使用的属性。
+        // 将 Building Block 配置为快速部件，并添加 Building Blocks Organizer 使用的属性。
         block.Behavior = BuildingBlockBehavior.Paragraph;
         block.Category = "My custom building blocks";
         block.Description =
             "Using this block in the Quick Parts section of word will place its contents at the cursor.";
         block.Gallery = BuildingBlockGallery.QuickParts;
 
-         // 添加一个带有文本的部分。
-         // 将块插入到文档中会在 location.
- 处附加该部分及其子节点
+        // 添加一个带文本的部分。
+        // 将块插入文档将在该位置附加该部分及其子节点。
         Section section = new Section(mGlossaryDoc);
         block.AppendChild(section);
         block.FirstSection.EnsureMinimum();

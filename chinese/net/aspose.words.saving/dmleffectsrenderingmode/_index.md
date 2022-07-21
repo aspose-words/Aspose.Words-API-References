@@ -3,7 +3,7 @@ title: DmlEffectsRenderingMode
 second_title: Aspose.Words for .NET API 参考
 description: 指定如何将 DrawingML 效果呈现为固定页面格式
 type: docs
-weight: 4600
+weight: 4650
 url: /zh/net/aspose.words.saving/dmleffectsrenderingmode/
 ---
 ## DmlEffectsRenderingMode enumeration
@@ -18,13 +18,13 @@ public enum DmlEffectsRenderingMode
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| Simplified | `0` | DrawingML 效果的渲染得到简化。 |
+| Simplified | `0` | DrawingML 效果的渲染被简化。 |
 | None | `1` | 不渲染 DrawingML 效果。 |
-| Fine | `2` | DrawingML 效果以精细模式呈现，涉及高级处理。 在这种模式下，效果渲染提供了更好的结果，但性能成本高于Simplified模式。 |
+| Fine | `2` | DrawingML 效果以精细模式呈现，涉及高级处理。 在这种模式下，效果呈现效果更好，但性能成本高于Simplified模式. |
 
 ### 例子
 
-展示了在将文档保存为 PDF 时如何配置文档中 DrawingML 效果的渲染质量。
+展示了当我们将文档保存为 PDF 时如何在文档中配置 DrawingML 效果的渲染质量。
 
 ```csharp
 Document doc = new Document(MyDir + "DrawingML shape effects.docx");

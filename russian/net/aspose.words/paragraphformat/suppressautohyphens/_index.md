@@ -16,7 +16,7 @@ public bool SuppressAutoHyphens { get; set; }
 
 ### Примеры
 
-Показывает, как убрать переносы в абзаце.
+Показывает, как подавить переносы для абзаца.
 
 ```csharp
 Hyphenation.RegisterDictionary("de-CH", MyDir + "hyph_de_CH.dic");

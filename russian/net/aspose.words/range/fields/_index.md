@@ -1,14 +1,14 @@
 ---
 title: Fields
 second_title: Справочник по API Aspose.Words для .NET
-description: Возвращает коллекциюFieldsaspose.words/range/fields которая представляет все поля в диапазоне.
+description: ВозвращаетFieldsaspose.words/range/fields коллекция представляющая все поля в диапазоне.
 type: docs
 weight: 20
 url: /ru/net/aspose.words/range/fields/
 ---
 ## Range.Fields property
 
-Возвращает коллекцию`Fields`, которая представляет все поля в диапазоне.
+Возвращает`Fields` коллекция, представляющая все поля в диапазоне.
 
 ```csharp
 public FieldCollection Fields { get; }

@@ -1,14 +1,14 @@
 ---
 title: MergeFieldImageDimensionUnit
 second_title: Справочник по API Aspose.Words для .NET
-description: Задает единицу измерения изображения т. е. ширину или высоту используемую в процессе слияния почты.
+description: Определяет единицу измерения изображения т. е. ширину или высоту используемую в процессе слияния.
 type: docs
-weight: 2530
+weight: 2580
 url: /ru/net/aspose.words.fields/mergefieldimagedimensionunit/
 ---
 ## MergeFieldImageDimensionUnit enumeration
 
-Задает единицу измерения изображения (т. е. ширину или высоту), используемую в процессе слияния почты.
+Определяет единицу измерения изображения (т. е. ширину или высоту), используемую в процессе слияния.
 
 ```csharp
 public enum MergeFieldImageDimensionUnit
@@ -23,7 +23,7 @@ public enum MergeFieldImageDimensionUnit
 
 ### Примеры
 
-Показывает, как установить размеры изображений, поскольку MERGEFIELDS принимает их во время слияния почты.
+Показывает, как установить размеры изображений, поскольку MERGEFIELDS принимает их во время слияния.
 
 ```csharp
 {

@@ -16,7 +16,7 @@ public bool On { get; set; }
 
 ### 评论
 
-Shape的默认值是 **真** 。
+的默认值[`Shape`](../../shape)是 **真的**.
 
 ### 例子
 

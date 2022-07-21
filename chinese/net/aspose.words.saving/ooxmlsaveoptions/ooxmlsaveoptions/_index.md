@@ -1,14 +1,14 @@
 ---
 title: OoxmlSaveOptions
 second_title: Aspose.Words for .NET API 参考
-description: 初始化此类的新实例该实例可用于以Docx格式保存文档.
+description: 初始化此类的新实例该实例可用于将文档保存在Docx格式.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.saving/ooxmlsaveoptions/ooxmlsaveoptions/
 ---
 ## OoxmlSaveOptions() {#constructor}
 
-初始化此类的新实例，该实例可用于以Docx格式保存文档.
+初始化此类的新实例，该实例可用于将文档保存在Docx格式.
 
 ```csharp
 public OoxmlSaveOptions()
@@ -16,7 +16,7 @@ public OoxmlSaveOptions()
 
 ### 例子
 
-显示如何为保存的文档设置 OOXML 合规性规范以遵守。
+演示如何设置要遵守的已保存文档的 OOXML 合规性规范。
 
 ```csharp
 Document doc = new Document();
@@ -56,7 +56,7 @@ Assert.AreEqual(ShapeMarkupLanguage.Dml, ((Shape)doc.GetChild(NodeType.Shape, 0,
 
 ## OoxmlSaveOptions(SaveFormat) {#constructor_1}
 
-初始化此类的新实例，该实例可用于将文档保存在Docx中， Docm,Dotx,Dotm或 FlatOpc格式。
+初始化此类的新实例，该实例可用于将文档保存在Docx , Docm,Dotx,Dotmor FlatOpc格式.
 
 ```csharp
 public OoxmlSaveOptions(SaveFormat saveFormat)
@@ -64,7 +64,7 @@ public OoxmlSaveOptions(SaveFormat saveFormat)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| saveFormat | SaveFormat | 可以是Docx,Docm, Dotx,Dotm或FlatOpc。 |
+| saveFormat | SaveFormat | 可Docx,Docm , Dotx,Dotm或者FlatOpc. |
 
 ### 例子
 

@@ -1,14 +1,14 @@
 ---
 title: DoNotWrapTextWithPunct
 second_title: Справочник по API Aspose.Words для .NET
-description: Не разрешать висячие знаки препинания с сеткой символов.
+description: Не разрешать висячую пунктуацию с сеткой символов.
 type: docs
 weight: 250
 url: /ru/net/aspose.words.settings/compatibilityoptions/donotwraptextwithpunct/
 ---
 ## CompatibilityOptions.DoNotWrapTextWithPunct property
 
-Не разрешать висячие знаки препинания с сеткой символов.
+Не разрешать висячую пунктуацию с сеткой символов.
 
 ```csharp
 public bool DoNotWrapTextWithPunct { get; set; }

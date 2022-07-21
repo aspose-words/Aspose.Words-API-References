@@ -1,14 +1,14 @@
 ---
 title: LayoutFlow
 second_title: Справочник по API Aspose.Words для .NET
-description: Определяет поток размещения текста в фигуре.
+description: Определяет поток текстового макета в фигуре.
 type: docs
 weight: 60
 url: /ru/net/aspose.words.drawing/textbox/layoutflow/
 ---
 ## TextBox.LayoutFlow property
 
-Определяет поток размещения текста в фигуре.
+Определяет поток текстового макета в фигуре.
 
 ```csharp
 public LayoutFlow LayoutFlow { get; set; }
@@ -16,7 +16,7 @@ public LayoutFlow LayoutFlow { get; set; }
 
 ### Примечания
 
-Значение по умолчанию:Горизонтально.
+Значение по умолчаниюHorizontal.
 
 ### Примеры
 

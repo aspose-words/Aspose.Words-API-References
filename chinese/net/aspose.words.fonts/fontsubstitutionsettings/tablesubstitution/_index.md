@@ -1,14 +1,14 @@
 ---
 title: TableSubstitution
 second_title: Aspose.Words for .NET API 参考
-description: 表替换规则相关设置
+description: 与表替换规则相关的设置
 type: docs
 weight: 50
 url: /zh/net/aspose.words.fonts/fontsubstitutionsettings/tablesubstitution/
 ---
 ## FontSubstitutionSettings.TableSubstitution property
 
-表替换规则相关设置。
+与表替换规则相关的设置。
 
 ```csharp
 public TableSubstitutionRule TableSubstitution { get; }
@@ -16,7 +16,7 @@ public TableSubstitutionRule TableSubstitution { get; }
 
 ### 例子
 
-显示如何使用自定义字体替换表。
+展示如何使用自定义字体替换表。
 
 ```csharp
 Document doc = new Document();

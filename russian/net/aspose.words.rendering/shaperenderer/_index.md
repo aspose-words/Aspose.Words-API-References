@@ -1,14 +1,14 @@
 ---
 title: ShapeRenderer
 second_title: Справочник по API Aspose.Words для .NET
-description: Предоставляет методы для визуализации отдельногоShape../aspose.words.drawing/shapeилиGroupShape../aspose.words.drawing/groupshape в растровое или векторное изображение или в объект Graphics.
+description: Предоставляет методы для рендеринга отдельногоShape../aspose.words.drawing/shape или жеGroupShape../aspose.words.drawing/groupshape в растровое или векторное изображение или в объект Graphics.
 type: docs
-weight: 4280
+weight: 4330
 url: /ru/net/aspose.words.rendering/shaperenderer/
 ---
 ## ShapeRenderer class
 
-Предоставляет методы для визуализации отдельного[`Shape`](../../aspose.words.drawing/shape)или[`GroupShape`](../../aspose.words.drawing/groupshape) в растровое или векторное изображение или в объект Graphics.
+Предоставляет методы для рендеринга отдельного[`Shape`](../../aspose.words.drawing/shape) или же[`GroupShape`](../../aspose.words.drawing/groupshape) в растровое или векторное изображение или в объект Graphics.
 
 ```csharp
 public class ShapeRenderer : NodeRendererBase
@@ -38,14 +38,14 @@ public class ShapeRenderer : NodeRendererBase
 | [GetOpaqueBoundsInPixels](../../aspose.words.rendering/noderendererbase/getopaqueboundsinpixels)(float, float, float) | Вычисляет непрозрачные границы фигуры в пикселях для указанного коэффициента масштабирования и разрешения. |
 | [GetSizeInPixels](../../aspose.words.rendering/noderendererbase/getsizeinpixels)(float, float) | Вычисляет размер фигуры в пикселях для указанного коэффициента масштабирования и разрешения. |
 | [GetSizeInPixels](../../aspose.words.rendering/noderendererbase/getsizeinpixels)(float, float, float) | Вычисляет размер фигуры в пикселях для указанного коэффициента масштабирования и разрешения. |
-| [RenderToScale](../../aspose.words.rendering/noderendererbase/rendertoscale)(Graphics, float, float, float) | Визуализирует фигуру в объектGraphics в указанном масштабе. |
-| [RenderToSize](../../aspose.words.rendering/noderendererbase/rendertosize)(Graphics, float, float, float, float) | Визуализирует фигуру в объектGraphics указанного размера. |
-| [Save](../../aspose.words.rendering/noderendererbase/save)(Stream, ImageSaveOptions) | Визуализирует форму в изображение и сохраняет в поток. |
-| [Save](../../aspose.words.rendering/noderendererbase/save)(string, ImageSaveOptions) | Визуализирует форму в изображение и сохраняет в файл. |
+| [RenderToScale](../../aspose.words.rendering/noderendererbase/rendertoscale)(Graphics, float, float, float) | Преобразует форму вGraphics объект в указанном масштабе. |
+| [RenderToSize](../../aspose.words.rendering/noderendererbase/rendertosize)(Graphics, float, float, float, float) | Преобразует форму вGraphics объекта указанного размера. |
+| [Save](../../aspose.words.rendering/noderendererbase/save)(Stream, ImageSaveOptions) | Преобразует форму в изображение и сохраняет в поток. |
+| [Save](../../aspose.words.rendering/noderendererbase/save)(string, ImageSaveOptions) | Преобразует фигуру в изображение и сохраняет в файл. |
 
 ### Примеры
 
-Показывает, как визуализировать фигуру с помощью объекта Graphics и отображать ее с помощью формы Windows Form.
+Показывает, как визуализировать фигуру с помощью объекта Graphics и отображать ее с помощью формы Windows.
 
 ```csharp
 {

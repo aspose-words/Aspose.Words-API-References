@@ -24,13 +24,13 @@ public bool MoveToBookmark(string bookmarkName)
 
 ### 评论
 
-用 将光标移动到书签开始之后的位置指定名称。
+将光标移动到带有指定名称的 书签开始之后的位置。
 
-比较不区分大小写。如果未找到书签，则返回 false 并且不移动光标。
+比较不区分大小写。如果未找到书签，则返回 false is 并且不移动光标。
 
 插入新文本不会替换书签的现有文本。
 
-请注意，文档中的某些书签已分配给表单字段。 移动到这样的书签并在其中插入文本会将文本插入 表单域代码。虽然这不会使表单域无效，但插入的 文本将不可见，因为它成为域代码的一部分。
+请注意，文档中的某些书签已分配给表单域。 移动到此类书签并在其中插入文本会将文本插入到 表单域代码中。尽管这不会使表单域无效，但inserted 文本将不可见，因为它成为域代码的一部分。
 
 ### 例子
 
@@ -102,8 +102,8 @@ public bool MoveToBookmark(string bookmarkName, bool isStart, bool isAfter)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | bookmarkName | String | 要将光标移动到的书签的名称。 |
-| isStart | Boolean | 当为真时，将光标移动到书签的开头。 如果为 false，则将光标移动到书签的末尾。 |
-| isAfter | Boolean | 当为真时，将光标移动到书签 开始或结束位置之后。如果为 false，则将光标移动到书签 开始或结束位置之前。 |
+| isStart | Boolean | 如果为 true，则将光标移动到书签的开头。 如果为 false，则将光标移动到书签的末尾。 |
+| isAfter | Boolean | 如果为 true，则将光标移动到 bookmark 开始或结束位置之后。如果为 false，则将光标移动到 bookmark 开始或结束位置之前。 |
 
 ### 返回值
 
@@ -115,7 +115,7 @@ public bool MoveToBookmark(string bookmarkName, bool isStart, bool isAfter)
 
 如果所需位置不在行内级别，则移至下一段。
 
-比较不区分大小写。如果未找到书签，则返回 false 并且不移动光标。
+比较不区分大小写。如果未找到书签，则返回 false is 并且不移动光标。
 
 ### 例子
 

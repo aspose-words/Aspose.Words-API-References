@@ -16,11 +16,11 @@ public PdfDigitalSignatureDetails DigitalSignatureDetails { get; set; }
 
 ### Примечания
 
-Значение по умолчанию равно null, и выходной документ не будет подписан. Когда для этого свойства задано допустимое значение[`PdfDigitalSignatureDetails`](../../pdfdigitalsignaturedetails)object, выходной PDF-документ будет иметь цифровую подпись .
+Значение по умолчанию равно null, и выходной документ не будет подписан. Если для этого свойства задано допустимое значение[`PdfDigitalSignatureDetails`](../../pdfdigitalsignaturedetails) object, , то выходной PDF-документ будет иметь цифровую подпись.
 
 ### Примеры
 
-Показывает, как подписать сгенерированный документ PDF.
+Показывает, как подписать сгенерированный PDF-документ.
 
 ```csharp
 Document doc = new Document();

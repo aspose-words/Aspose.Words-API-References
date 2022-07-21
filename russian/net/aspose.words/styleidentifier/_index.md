@@ -3,7 +3,7 @@ title: StyleIdentifier
 second_title: Справочник по API Aspose.Words для .NET
 description: Идентификатор стиля не зависящий от локали.
 type: docs
-weight: 5800
+weight: 5850
 url: /ru/net/aspose.words/styleidentifier/
 ---
 ## StyleIdentifier enumeration
@@ -19,7 +19,7 @@ public enum StyleIdentifier
 | Имя | Ценность | Описание |
 | --- | --- | --- |
 | BookTitle | `264` |  |
-| CommentReference | `39` | Аннотации (Комментарии) Справочный стиль. |
+| CommentReference | `39` | Справочный стиль аннотации (комментария). |
 | DefaultParagraphFont | `65` | Стиль шрифта абзаца по умолчанию. |
 | Emphasis | `88` |  |
 | EndnoteReference | `42` | Стиль ссылки на концевую сноску. |
@@ -54,7 +54,7 @@ public enum StyleIdentifier
 | BodyTextInd3 | `83` |  |
 | Closing | `63` |  |
 | CommentSubject | `106` |  |
-| CommentText | `30` | Стиль текста Annotation (Comment). |
+| CommentText | `30` | Стиль текста аннотации (комментария). |
 | Date | `76` |  |
 | DocumentMap | `89` |  |
 | EmailSignature | `91` |  |
@@ -62,7 +62,7 @@ public enum StyleIdentifier
 | Footer | `32` | Стиль нижнего колонтитула. |
 | FootnoteText | `29` | Стиль текста сноски. |
 | Header | `31` | Стиль заголовка. |
-| Heading1 | `1` | Стиль Заголовок 1. |
+| Heading1 | `1` | Стиль заголовка 1. |
 | Heading2 | `2` | Стиль заголовка 2. |
 | Heading3 | `3` | Стиль заголовка 3. |
 | Heading4 | `4` | Стиль заголовка 4. |
@@ -105,7 +105,7 @@ public enum StyleIdentifier
 | List3 | `51` |  |
 | List4 | `52` |  |
 | List5 | `53` |  |
-| ListBullet | `48` | Стиль списка. |
+| ListBullet | `48` | Стиль маркированного списка. |
 | ListBullet2 | `54` |  |
 | ListBullet3 | `55` |  |
 | ListBullet4 | `56` |  |
@@ -115,7 +115,7 @@ public enum StyleIdentifier
 | ListContinue3 | `70` |  |
 | ListContinue4 | `71` |  |
 | ListContinue5 | `72` |  |
-| ListNumber | `49` | Стиль номеров списка. |
+| ListNumber | `49` | Стиль списка номеров. |
 | ListNumber2 | `58` |  |
 | ListNumber3 | `59` |  |
 | ListNumber4 | `60` |  |
@@ -124,7 +124,7 @@ public enum StyleIdentifier
 | NoSpacing | `157` |  |
 | Normal | `0` | Обычный стиль. |
 | NormalWeb | `94` |  |
-| NormalIndent | `28` | Нормальный стиль отступа. |
+| NormalIndent | `28` | Стиль обычного отступа. |
 | TableOfAuthorities | `44` |  |
 | TableOfFigures | `35` | Стиль таблицы рисунков. |
 | ToaHeading | `46` |  |
@@ -140,7 +140,7 @@ public enum StyleIdentifier
 | TocHeading | `266` |  |
 | Revision | `178` |  |
 | OutlineList1 | `108` | Стиль 1/a/i. |
-| OutlineList2 | `109` | Стиль 1/1.1/1.1.1. |
+| OutlineList2 | `109` | Стиль 1 / 1.1 / 1.1.1. |
 | OutlineList3 | `110` | Стиль статьи/раздела. |
 | NoList | `107` |  |
 | ColorfulGrid | `171` |  |
@@ -291,115 +291,115 @@ public enum StyleIdentifier
 | PlainTable3 | `269` | Обычная таблица 3 |
 | PlainTable4 | `270` | Обычная таблица 4 |
 | PlainTable5 | `271` | Обычная таблица 5 |
-| TableGridLight | `272` | Настольная сетка Light |
-| GridTable1Light | `273` | Сетка Таблица 1 Свет |
+| TableGridLight | `272` | Световая сетка стола |
+| GridTable1Light | `273` | Таблица сетки 1 Light |
 | GridTable2 | `274` | Таблица сетки 2 |
 | GridTable3 | `275` | Таблица сетки 3 |
-| GridTable4 | `276` | Сетка Таблица 4 |
-| GridTable5Dark | `277` | Сетка Таблица 5 Темный |
-| GridTable6Colorful | `278` | Сетка Таблица 6 Красочная |
-| GridTable7Colorful | `279` | Сетка Таблица 7 Красочная |
+| GridTable4 | `276` | Таблица сетки 4 |
+| GridTable5Dark | `277` | Таблица сетки 5 Dark |
+| GridTable6Colorful | `278` | Таблица сетки 6 Colorful |
+| GridTable7Colorful | `279` | Таблица сетки 7 Colorful |
 | GridTable1LightAccent1 | `280` | Сетка Таблица 1 Свет - Акцент 1 |
-| GridTable2Accent1 | `281` | Таблица сетки 2 - Акцент 1 |
-| GridTable3Accent1 | `282` | Таблица сетки 3 - Акцент 1 |
-| GridTable4Accent1 | `283` | Сетка Таблица 4 - Акцент 1 |
+| GridTable2Accent1 | `281` | Таблица сетки 2 — Акцент 1 |
+| GridTable3Accent1 | `282` | Таблица сетки 3 — Акцент 1 |
+| GridTable4Accent1 | `283` | Таблица сетки 4 — Акцент 1 |
 | GridTable5DarkAccent1 | `284` | Сетка Таблица 5 Темный - Акцент 1 |
-| GridTable6ColorfulAccent1 | `285` | Сетка Таблица 6 Цветной - Акцент 1 |
-| GridTable7ColorfulAccent1 | `286` | Сетка Таблица 7 Цветной - Акцент 1 |
+| GridTable6ColorfulAccent1 | `285` | Сетка Таблица 6 Цветная - Акцент 1 |
+| GridTable7ColorfulAccent1 | `286` | Сетка Таблица 7 Цветная - Акцент 1 |
 | GridTable1LightAccent2 | `287` | Сетка Таблица 1 Свет - Акцент 2 |
-| GridTable2Accent2 | `288` | Таблица сетки 2 - Акцент 2 |
-| GridTable3Accent2 | `289` | Таблица сетки 3 - Акцент 2 |
-| GridTable4Accent2 | `290` | Сетка Таблица 4 - Акцент 2 |
+| GridTable2Accent2 | `288` | Таблица сетки 2 — Акцент 2 |
+| GridTable3Accent2 | `289` | Таблица сетки 3 — Акцент 2 |
+| GridTable4Accent2 | `290` | Таблица сетки 4 — Акцент 2 |
 | GridTable5DarkAccent2 | `291` | Сетка Таблица 5 Темный - Акцент 2 |
-| GridTable6ColorfulAccent2 | `292` | Сетка Таблица 6 Цветной - Акцент 2 |
-| GridTable7ColorfulAccent2 | `293` | Сетка Таблица 7 Цветной - Акцент 2 |
+| GridTable6ColorfulAccent2 | `292` | Сетка Таблица 6 Цветная - Акцент 2 |
+| GridTable7ColorfulAccent2 | `293` | Сетка Таблица 7 Цветная - Акцент 2 |
 | GridTable1LightAccent3 | `294` | Сетка Таблица 1 Свет - Акцент 3 |
-| GridTable2Accent3 | `295` | Таблица сетки 2 - Акцент 3 |
-| GridTable3Accent3 | `296` | Таблица сетки 3 - Акцент 3 |
-| GridTable4Accent3 | `297` | Сетка Таблица 4 - Акцент 3 |
+| GridTable2Accent3 | `295` | Таблица сетки 2 — Акцент 3 |
+| GridTable3Accent3 | `296` | Таблица сетки 3 — Акцент 3 |
+| GridTable4Accent3 | `297` | Таблица сетки 4 — Акцент 3 |
 | GridTable5DarkAccent3 | `298` | Сетка Таблица 5 Темный - Акцент 3 |
-| GridTable6ColorfulAccent3 | `299` | Сетка Таблица 6 Цветной - Акцент 3 |
-| GridTable7ColorfulAccent3 | `300` | Сетка Таблица 7 Цветной - Акцент 3 |
+| GridTable6ColorfulAccent3 | `299` | Сетка Таблица 6 Цветная - Акцент 3 |
+| GridTable7ColorfulAccent3 | `300` | Сетка Таблица 7 Цветная - Акцент 3 |
 | GridTable1LightAccent4 | `301` | Сетка Таблица 1 Свет - Акцент 4 |
-| GridTable2Accent4 | `302` | Таблица сетки 2 - Акцент 4 |
-| GridTable3Accent4 | `303` | Таблица сетки 3 - Акцент 4 |
-| GridTable4Accent4 | `304` | Таблица сетки 4 - Акцент 4 |
+| GridTable2Accent4 | `302` | Таблица сетки 2 — Акцент 4 |
+| GridTable3Accent4 | `303` | Таблица сетки 3 — Акцент 4 |
+| GridTable4Accent4 | `304` | Таблица сетки 4 — Акцент 4 |
 | GridTable5DarkAccent4 | `305` | Сетка Таблица 5 Темный - Акцент 4 |
-| GridTable6ColorfulAccent4 | `306` | Сетка Таблица 6 Цветной - Акцент 4 |
-| GridTable7ColorfulAccent4 | `307` | Сетка Таблица 7 Цветной - Акцент 4 |
+| GridTable6ColorfulAccent4 | `306` | Сетка Таблица 6 Цветная - Акцент 4 |
+| GridTable7ColorfulAccent4 | `307` | Сетка Таблица 7 Цветная - Акцент 4 |
 | GridTable1LightAccent5 | `308` | Сетка Таблица 1 Свет - Акцент 5 |
-| GridTable2Accent5 | `309` | Таблица сетки 2 - Акцент 5 |
-| GridTable3Accent5 | `310` | Таблица сетки 3 - Акцент 5 |
-| GridTable4Accent5 | `311` | Сетка Таблица 4 - Акцент 5 |
+| GridTable2Accent5 | `309` | Таблица сетки 2 — Акцент 5 |
+| GridTable3Accent5 | `310` | Таблица сетки 3 — Акцент 5 |
+| GridTable4Accent5 | `311` | Таблица сетки 4 — Акцент 5 |
 | GridTable5DarkAccent5 | `312` | Сетка Таблица 5 Темный - Акцент 5 |
-| GridTable6ColorfulAccent5 | `313` | Сетка Таблица 6 Цветной - Акцент 5 |
-| GridTable7ColorfulAccent5 | `314` | Сетка Таблица 7 Цветной - Акцент 5 |
+| GridTable6ColorfulAccent5 | `313` | Сетка Таблица 6 Цветная - Акцент 5 |
+| GridTable7ColorfulAccent5 | `314` | Сетка Таблица 7 Цветная - Акцент 5 |
 | GridTable1LightAccent6 | `315` | Сетка Таблица 1 Свет - Акцент 6 |
-| GridTable2Accent6 | `316` | Сетка Таблица 2 - Акцент 6 |
-| GridTable3Accent6 | `317` | Таблица сетки 3 - Акцент 6 |
-| GridTable4Accent6 | `318` | Таблица сетки 4 - Акцент 6 |
+| GridTable2Accent6 | `316` | Таблица сетки 2 — Акцент 6 |
+| GridTable3Accent6 | `317` | Таблица сетки 3 — Акцент 6 |
+| GridTable4Accent6 | `318` | Таблица сетки 4 — Акцент 6 |
 | GridTable5DarkAccent6 | `319` | Сетка Таблица 5 Темный - Акцент 6 |
-| GridTable6ColorfulAccent6 | `320` | Сетка Таблица 6 Цветной - Акцент 6 |
-| GridTable7ColorfulAccent6 | `321` | Сетка Таблица 7 Цветной - Акцент 6 |
-| ListTable1Light | `322` | Таблица списка 1 Свет |
+| GridTable6ColorfulAccent6 | `320` | Сетка Таблица 6 Цветная - Акцент 6 |
+| GridTable7ColorfulAccent6 | `321` | Сетка Таблица 7 Цветная - Акцент 6 |
+| ListTable1Light | `322` | Таблица списка 1 Light |
 | ListTable2 | `323` | Таблица списка 2 |
 | ListTable3 | `324` | Таблица списка 3 |
 | ListTable4 | `325` | Таблица списка 4 |
 | ListTable5Dark | `326` | Таблица списка 5 Dark |
-| ListTable6Colorful | `327` | Список Таблица 6 Красочный |
-| ListTable7Colorful | `328` | Список Таблица 7 Красочный |
-| ListTable1LightAccent1 | `329` | Таблица списка 1 Свет - Акцент 1 |
-| ListTable2Accent1 | `330` | Таблица списка 2 - Акцент 1 |
-| ListTable3Accent1 | `331` | Таблица списка 3 - Акцент 1 |
-| ListTable4Accent1 | `332` | Таблица списка 4 - Акцент 1 |
-| ListTable5DarkAccent1 | `333` | Список Таблица 5 Темный - Акцент 1 |
-| ListTable6ColorfulAccent1 | `334` | Список Таблица 6 Цветной - Акцент 1 |
-| ListTable7ColorfulAccent1 | `335` | Список Таблица 7 Цветной - Акцент 1 |
-| ListTable1LightAccent2 | `336` | Таблица списка 1 Свет - Акцент 2 |
-| ListTable2Accent2 | `337` | Таблица списка 2 - Акцент 2 |
-| ListTable3Accent2 | `338` | Таблица списка 3 - Акцент 2 |
-| ListTable4Accent2 | `339` | Таблица списка 4 - Акцент 2 |
+| ListTable6Colorful | `327` | Таблица списка 6 Colorful |
+| ListTable7Colorful | `328` | Таблица списка 7 Colorful |
+| ListTable1LightAccent1 | `329` | Список Таблица 1 Свет - Акцент 1 |
+| ListTable2Accent1 | `330` | Таблица списка 2 — Акцент 1 |
+| ListTable3Accent1 | `331` | Таблица списка 3 — Акцент 1 |
+| ListTable4Accent1 | `332` | Таблица списка 4 — Акцент 1 |
+| ListTable5DarkAccent1 | `333` | Список Таблица 5 Темный — Акцент 1 |
+| ListTable6ColorfulAccent1 | `334` | Список Таблица 6 Цветной — Акцент 1 |
+| ListTable7ColorfulAccent1 | `335` | Список Таблица 7 Цветной — Акцент 1 |
+| ListTable1LightAccent2 | `336` | Список Таблица 1 Свет - Акцент 2 |
+| ListTable2Accent2 | `337` | Таблица списка 2 — Акцент 2 |
+| ListTable3Accent2 | `338` | Таблица списка 3 — Акцент 2 |
+| ListTable4Accent2 | `339` | Таблица списка 4 — Акцент 2 |
 | ListTable5DarkAccent2 | `340` | Список Таблица 5 Темный - Акцент 2 |
 | ListTable6ColorfulAccent2 | `341` | Список Таблица 6 Цветной - Акцент 2 |
-| ListTable7ColorfulAccent2 | `342` | Список Таблица 7 Цветной - Акцент 2 |
+| ListTable7ColorfulAccent2 | `342` | Список Таблица 7 Цветной — Акцент 2 |
 | ListTable1LightAccent3 | `343` | Список Таблица 1 Свет - Акцент 3 |
-| ListTable2Accent3 | `344` | Таблица списка 2 - Акцент 3 |
-| ListTable3Accent3 | `345` | Таблица списка 3 - Акцент 3 |
-| ListTable4Accent3 | `346` | Таблица списка 4 - Акцент 3 |
+| ListTable2Accent3 | `344` | Таблица списка 2 — Акцент 3 |
+| ListTable3Accent3 | `345` | Таблица списка 3 — Акцент 3 |
+| ListTable4Accent3 | `346` | Таблица списка 4 — Акцент 3 |
 | ListTable5DarkAccent3 | `347` | Список Таблица 5 Темный - Акцент 3 |
-| ListTable6ColorfulAccent3 | `348` | Список Таблица 6 Красочный - Акцент 3 |
-| ListTable7ColorfulAccent3 | `349` | Список Таблица 7 Красочный - Акцент 3 |
+| ListTable6ColorfulAccent3 | `348` | Список Таблица 6 Цветной - Акцент 3 |
+| ListTable7ColorfulAccent3 | `349` | Список Таблица 7 Цветной - Акцент 3 |
 | ListTable1LightAccent4 | `350` | Список Таблица 1 Свет - Акцент 4 |
-| ListTable2Accent4 | `351` | Таблица списка 2 - Акцент 4 |
-| ListTable3Accent4 | `352` | Таблица списка 3 - Акцент 4 |
-| ListTable4Accent4 | `353` | Таблица списка 4 - Акцент 4 |
+| ListTable2Accent4 | `351` | Таблица списка 2 — Акцент 4 |
+| ListTable3Accent4 | `352` | Список Таблица 3 - Акцент 4 |
+| ListTable4Accent4 | `353` | Таблица списка 4 — Акцент 4 |
 | ListTable5DarkAccent4 | `354` | Список Таблица 5 Темный - Акцент 4 |
 | ListTable6ColorfulAccent4 | `355` | Список Таблица 6 Цветной - Акцент 4 |
-| ListTable7ColorfulAccent4 | `356` | Список Таблица 7 Красочный - Акцент 4 |
+| ListTable7ColorfulAccent4 | `356` | Список Таблица 7 Цветной - Акцент 4 |
 | ListTable1LightAccent5 | `357` | Список Таблица 1 Свет - Акцент 5 |
-| ListTable2Accent5 | `358` | Таблица списка 2 - Акцент 5 |
-| ListTable3Accent5 | `359` | Таблица списка 3 - Акцент 5 |
-| ListTable4Accent5 | `360` | Таблица списка 4 - Акцент 5 |
+| ListTable2Accent5 | `358` | Список Таблица 2 — Акцент 5 |
+| ListTable3Accent5 | `359` | Список Таблица 3 - Акцент 5 |
+| ListTable4Accent5 | `360` | Таблица списка 4 — Акцент 5 |
 | ListTable5DarkAccent5 | `361` | Список Таблица 5 Темный - Акцент 5 |
 | ListTable6ColorfulAccent5 | `362` | Список Таблица 6 Цветной - Акцент 5 |
 | ListTable7ColorfulAccent5 | `363` | Список Таблица 7 Цветной - Акцент 5 |
 | ListTable1LightAccent6 | `364` | Список Таблица 1 Свет - Акцент 6 |
-| ListTable2Accent6 | `365` | Таблица списка 2 - Акцент 6 |
-| ListTable3Accent6 | `366` | Таблица списка 3 - Акцент 6 |
-| ListTable4Accent6 | `367` | Таблица списка 4 - Акцент 6 |
+| ListTable2Accent6 | `365` | Таблица списка 2 — Акцент 6 |
+| ListTable3Accent6 | `366` | Список Таблица 3 - Акцент 6 |
+| ListTable4Accent6 | `367` | Таблица списка 4 — Акцент 6 |
 | ListTable5DarkAccent6 | `368` | Список Таблица 5 Темный - Акцент 6 |
 | ListTable6ColorfulAccent6 | `369` | Список Таблица 6 Цветной - Акцент 6 |
-| ListTable7ColorfulAccent6 | `370` | Список Таблица 7 Красочный - Акцент 6 |
-| Mention | `372` | Стиль упоминаний. |
+| ListTable7ColorfulAccent6 | `370` | Список Таблица 7 Цветной - Акцент 6 |
+| Mention | `372` | Стиль упоминания. |
 | SmartHyperlink | `373` | Стиль SmartHyperlink. |
-| Hashtag | `374` | Стиль хэштегов. |
-| UnresolvedMention | `375` | Стиль UnresolvedMention. |
+| Hashtag | `374` | Стиль хэштега. |
+| UnresolvedMention | `375` | Стиль неразрешенного упоминания. |
 | User | `4094` | Пользовательский стиль. |
 | Nil | `12287` | Зарезервировано для внутреннего использования. |
 
 ### Примечания
 
-Названия встроенных стилей в MS Word локализованы для разных языков. Используя идентификатор стиля, вы можете найти правильный стиль независимо от языка документа.
+Названия встроенных стилей в MS Word локализованы для разных языков. С помощью идентификатора стиля можно найти правильный стиль вне зависимости от языка документа.
 
 Всем пользовательским стилям присваивается значение StyleIdentifier.User.
 

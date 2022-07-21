@@ -1,14 +1,14 @@
 ---
 title: UseCoreFonts
 second_title: Справочник по API Aspose.Words для .NET
-description: Получает или задает значение определяющее следует ли заменять шрифты TrueType Arial Times New Roman Courier New и Symbol с основным PDF Type 1 шрифты.
+description: Получает или задает значение определяющее следует ли заменять шрифты TrueType Arial Times New Roman Courier New и Symbol базовыми шрифтами PDF Type 1.
 type: docs
 weight: 280
 url: /ru/net/aspose.words.saving/pdfsaveoptions/usecorefonts/
 ---
 ## PdfSaveOptions.UseCoreFonts property
 
-Получает или задает значение, определяющее, следует ли заменять шрифты TrueType Arial, Times New Roman, Courier New и Symbol с основным PDF Type 1 шрифты.
+Получает или задает значение, определяющее, следует ли заменять шрифты TrueType Arial, Times New Roman, Courier New и Symbol базовыми шрифтами PDF Type 1.
 
 ```csharp
 public bool UseCoreFonts { get; set; }
@@ -16,17 +16,17 @@ public bool UseCoreFonts { get; set; }
 
 ### Примечания
 
-Значение по умолчанию:` false` . Когда для этого значения установлено значение` true` Arial, Times New Roman, шрифты Courier New и Symbol заменяются в документе PDF соответствующим основным типом 1 шрифт.
+Значение по умолчанию`ЛОЖЬ` . Когда это значение установлено на`истинный` Шрифты Arial, Times New Roman, Courier New и Symbol заменяются в документе PDF соответствующим базовым шрифтом Type 1.
 
 Основные шрифты PDF или их метрики шрифтов и подходящие замещающие шрифты должны быть доступны для любого приложения для просмотра PDF.
 
-Этот параметр работает только для текста в кодировке ANSI (Windows-1252). Текст, отличный от ANSI, будет написан встроенным шрифтом TrueType независимо от этой настройки.
+Этот параметр работает только для текста в кодировке ANSI (Windows-1252). Текст, отличный от ANSI, будет написан встроенным шрифтом TrueType независимо от этого параметра.
 
-Соответствие PDF/A и PDF/UA требует внедрения всех шрифтов.` false` значение будет использоваться автоматически при сохранении в PDF/A и PDF/UA.
+Соответствие форматам PDF/A и PDF/UA требует внедрения всех шрифтов.`ЛОЖЬ` значение будет использоваться автоматически при сохранении в PDF/A и PDF/UA.
 
-Основные шрифты не поддерживаются при сохранении в формате PDF 2.0.` false`Значение будет использоваться автоматически при сохранении в PDF 2.0.
+Основные шрифты не поддерживаются при сохранении в формате PDF 2.0.`ЛОЖЬ`значение будет использоваться автоматически при сохранении в PDF 2.0.
 
-Этот параметр имеет более высокий приоритет, чем параметр[`FontEmbeddingMode`](../fontembeddingmode).
+Эта опция имеет более высокий приоритет, чем[`FontEmbeddingMode`](../fontembeddingmode) вариант.
 
 ### Примеры
 
@@ -46,7 +46,7 @@ builder.Writeln("The quick brown fox jumps over the lazy dog.");
 PdfSaveOptions options = new PdfSaveOptions();
 
 // Установите для свойства "UseCoreFonts" значение "true", чтобы заменить некоторые шрифты,
-// включая два шрифта в наш документ с их эквивалентами PDF Type 1.
+// включение двух шрифтов в наш документ с их эквивалентами PDF Type 1.
 // Установите для свойства «UseCoreFonts» значение «false», чтобы не применять шрифты PDF Type 1.
 options.UseCoreFonts = useCoreFonts;
 

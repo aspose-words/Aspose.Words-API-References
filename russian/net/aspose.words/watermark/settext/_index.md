@@ -16,7 +16,7 @@ public void SetText(string text)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| text | String | Текст, который отображается как водяной знак. |
+| text | String | Текст, отображаемый в виде водяного знака. |
 
 ### Исключения
 
@@ -75,7 +75,7 @@ public void SetText(string text, TextWatermarkOptions options)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| text | String | Текст, который отображается как водяной знак. |
+| text | String | Текст, отображаемый в виде водяного знака. |
 | options | TextWatermarkOptions | Определяет дополнительные параметры текстового водяного знака. |
 
 ### Исключения
@@ -89,7 +89,7 @@ public void SetText(string text, TextWatermarkOptions options)
 
 Длина текста должна быть в диапазоне от 1 до 200 включительно. Текст не может быть нулевым или содержать только пробелы.
 
-Если[`TextWatermarkOptions`](../../textwatermarkoptions)равно null, водяной знак будет установлен с параметрами по умолчанию .
+Если[`TextWatermarkOptions`](../../textwatermarkoptions) имеет значение null, водяной знак будет установлен с параметрами по умолчанию.
 
 ### Примеры
 

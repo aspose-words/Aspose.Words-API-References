@@ -1,14 +1,14 @@
 ---
 title: MajorTickMark
 second_title: Справочник по API Aspose.Words для .NET
-description: Возвращает или устанавливает основные деления.
+description: Возвращает или задает основные деления.
 type: docs
 weight: 90
 url: /ru/net/aspose.words.drawing.charts/chartaxis/majortickmark/
 ---
 ## ChartAxis.MajorTickMark property
 
-Возвращает или устанавливает основные деления.
+Возвращает или задает основные деления.
 
 ```csharp
 public AxisTickMark MajorTickMark { get; set; }

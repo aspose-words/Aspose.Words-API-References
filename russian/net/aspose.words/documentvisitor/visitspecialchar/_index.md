@@ -1,14 +1,14 @@
 ---
 title: VisitSpecialChar
 second_title: Справочник по API Aspose.Words для .NET
-description: Вызывается когда в документе встречается узелSpecialCharaspose.words/specialchar.
+description: Вызывается когдаSpecialCharaspose.words/specialchar узел встречается в документе.
 type: docs
 weight: 430
 url: /ru/net/aspose.words/documentvisitor/visitspecialchar/
 ---
 ## DocumentVisitor.VisitSpecialChar method
 
-Вызывается, когда в документе встречается узел[`SpecialChar`](../../specialchar).
+Вызывается, когда[`SpecialChar`](../../specialchar) узел встречается в документе.
 
 ```csharp
 public virtual VisitorAction VisitSpecialChar(SpecialChar specialChar)
@@ -16,15 +16,15 @@ public virtual VisitorAction VisitSpecialChar(SpecialChar specialChar)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| specialChar | SpecialChar | Посещаемый объект. |
+| specialChar | SpecialChar | Объект, который посещается. |
 
 ### Возвращаемое значение
 
-A[`VisitorAction`](../../visitoraction)значение, указывающее, как продолжить перечисление.
+А[`VisitorAction`](../../visitoraction) значение, указывающее, как продолжить перечисление.
 
 ### Примечания
 
-Этот метод не вызывается для общих управляющих символов (см.[`ControlChar`](../../controlchar)), которые могут присутствовать в документе.
+Этот метод не вызывается для общих управляющих символов (см.[`ControlChar`](../../controlchar) ), которые могут присутствовать в документе.
 
 ### Примеры
 
@@ -178,7 +178,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Вызывается при завершении посещения узла Таблица в документе.
+    /// Вызывается при завершении посещения узла Table в документе.
     /// </summary>
     public override VisitorAction VisitTableEnd(Table table)
     {

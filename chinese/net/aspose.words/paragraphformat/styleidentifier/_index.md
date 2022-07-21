@@ -16,7 +16,7 @@ public StyleIdentifier StyleIdentifier { get; set; }
 
 ### 例子
 
-展示如何使用标题样式作为条目将目录 (TOC) 插入到文档中。
+演示如何使用标题样式作为条目将目录 (TOC) 插入到文档中。
 
 ```csharp
 Document doc = new Document();

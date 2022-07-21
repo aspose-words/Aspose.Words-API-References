@@ -23,7 +23,7 @@ public class OlePackage
 
 ### 评论
 
-如果 OLE 处理程序未知，OLE 包是一种传统且“未记录”的方式来存储嵌入对象。 早期的 Windows 版本，如 Windows 3.1、95 和 98 都有 Packager.exe 应用程序，可用于将任何类型的数据嵌入到文档中。 现在此应用程序已从 Windows 中排除，但如果 OLE 处理程序丢失或未知，MS Word 和其他应用程序仍使用它来嵌入数据。
+如果 OLE 处理程序未知，OLE 包是一种传统且“未记录”的方式来存储嵌入对象。 早期 Windows 版本（如 Windows 3.1、95 和 98）具有 Packager.exe 应用程序，可用于将任何类型的数据嵌入到文档中. 现在此应用程序已从 Windows 中排除，但如果 OLE 处理程序丢失或未知，MS Word 和其他应用程序仍使用它来嵌入数据。
 
 ### 例子
 

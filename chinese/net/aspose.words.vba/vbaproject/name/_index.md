@@ -16,29 +16,26 @@ public string Name { get; set; }
 
 ### 例子
 
-展示如何使用宏创建 VBA 项目。
+演示如何使用宏创建 VBA 项目。
 
 ```csharp
-Document doc = new Document(MyDir + "VBA project.docm");
+Document doc = new Document();
 
-// VBA 项目包含 VBA 模块的集合。
-VbaProject vbaProject = doc.VbaProject;
-    ? $"Project name: {vbaProject.Name} signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n"
-    : $"Project name: {vbaProject.Name} not signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n");
+// 创建一个新的 VBA 项目。
+VbaProject project = new VbaProject();
+project.Name = "Aspose.Project";
+doc.VbaProject = project;
 
-VbaModuleCollection vbaModules = doc.VbaProject.Modules; 
+// 创建一个新模块并指定一个宏源代码。
+VbaModule module = new VbaModule();
+module.Name = "Aspose.Module";
+module.Type = VbaModuleType.ProceduralModule;
+module.SourceCode = "New source code";
 
-Assert.AreEqual(vbaModules.Count(), 3);
+// 将模块添加到 VBA 项目。
+doc.VbaProject.Modules.Add(module);
 
-foreach (VbaModule module in vbaModules)
-    Console.WriteLine($"Module name: {module.Name};\nModule code:\n{module.SourceCode}\n");
-
-// 为 VBA 模块设置新的源代码。您可以通过索引或名称访问集合中的 VBA 模块。
-vbaModules[0].SourceCode = "Your VBA code...";
-vbaModules["Module1"].SourceCode = "Your VBA code...";
-
-// 从集合中移除一个模块。
-vbaModules.Remove(vbaModules[2]);
+doc.Save(ArtifactsDir + "VbaProject.CreateVBAMacros.docm");
 ```
 
 显示如何访问文档的 VBA 项目信息。

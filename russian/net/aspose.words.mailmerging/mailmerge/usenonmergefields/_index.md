@@ -1,14 +1,14 @@
 ---
 title: UseNonMergeFields
 second_title: Справочник по API Aspose.Words для .NET
-description: При значении true указывает что в дополнение к полям MERGEFIELD слияние выполняется с некоторыми другими типами полей и также с fieldName  теги.
+description: При значении true указывает что в дополнение к полям MERGEFIELD слияние выполняется с некоторыми другими типами полей и также с тегами fieldName.
 type: docs
 weight: 150
 url: /ru/net/aspose.words.mailmerging/mailmerge/usenonmergefields/
 ---
 ## MailMerge.UseNonMergeFields property
 
-При значении true указывает, что в дополнение к полям MERGEFIELD слияние выполняется с некоторыми другими типами полей и также с "{{fieldName }}" теги.
+При значении true указывает, что в дополнение к полям MERGEFIELD слияние выполняется с некоторыми другими типами полей и также с тегами "{{fieldName}}".
 
 ```csharp
 public bool UseNonMergeFields { get; set; }
@@ -16,19 +16,17 @@ public bool UseNonMergeFields { get; set; }
 
 ### Примечания
 
-Обычно слияние выполняется только в поля MERGEFIELD, но у нескольких клиентов были свои отчеты построен с использованием других полей, и многие документы были созданы таким образом. Для упрощения миграции (а также потому, что этот подход независимо использовался несколькими клиентами) была введена возможность слияния почты с другими полями.
+Обычно слияние почты выполняется только в полях MERGEFIELD, но несколько клиентов создали свои report с использованием других полей и таким образом создали множество документов. Для упрощения миграции (и поскольку этот подход использовался несколькими клиентами независимо друг от друга) была введена возможность слияния почты с другими полями.
 
-Когда **UseNonMergeFields** установлено в true, Aspose.Words выполнит слияние почты в следующие поля:
+Когда **Усенонмержефиелдс** установлено значение true, Aspose.Words будет выполнять слияние почты в следующие поля:
 
-:
+MERGEFIELD имя поля
 
-MERGEFIELD FieldName
+MACROBUTTON NOMACRO Имя поля
 
-MACROBUTTON NOMACRO FieldName
+ЕСЛИ 0 = 0 "{ИмяПоля}" ""
 
-IF 0 = 0 "{FieldName}" ""
-
-Также, когда **UserNonMergeFields**Если для параметра задано значение true, Aspose.Words будет выполнять слияние почты в текстовые теги "{{fieldName}}". Это не поля, а просто текстовые теги.
+Кроме того, когда **UserNonMergeFields** установлено значение true, Aspose.Words будет выполнять слияние почты в текстовые теги tags "{{fieldName}}". Это не поля, а просто текстовые теги.
 
 ### Примеры
 
@@ -40,19 +38,19 @@ public void PreserveUnusedTags(bool preserveUnusedTags)
     Document doc = CreateSourceDocWithAlternativeMergeFields();
     DataTable dataTable = CreateSourceTablePreserveUnusedTags();
 
-     // По умолчанию слияние помещает данные из каждой строки таблицы в поля MERGEFIELD, которые именуют столбцы в этой таблице. 
-     // В нашем документе нет таких полей, но есть теги открытого текста, заключенные в фигурные скобки.
-     // Если мы установим для флага "PreserveUnusedTags" значение "true", мы сможем рассматривать эти теги как MERGEFIELDs
-     // чтобы позволить нашему слиянию вставлять данные из источника данных в эти теги.
-    // Если мы установим флаг "PreserveUnusedTags" в "false", 
-     // слияние конвертирует эти теги в MERGEFIELD и оставляет их незаполненными.
+    // По умолчанию слияние помещает данные из каждой строки таблицы в поля MERGEFIELD, которые именуют столбцы в этой таблице. 
+    // В нашем документе нет таких полей, но есть теги открытого текста, заключенные в фигурные скобки.
+    // Если мы установим для флага "PreserveUnusedTags" значение "true", мы сможем рассматривать эти теги как MERGEFIELD
+    // чтобы позволить нашему слиянию почты вставлять данные из источника данных в эти теги.
+    // Если мы установим флаг "PreserveUnusedTags" в "false",
+    // слияние конвертирует эти теги в поля MERGEFIELD и оставляет их незаполненными.
     doc.MailMerge.PreserveUnusedTags = preserveUnusedTags;
     doc.MailMerge.Execute(dataTable);
 
     doc.Save(ArtifactsDir + "MailMerge.PreserveUnusedTags.docx");
 
-     // В нашем документе есть тег для столбца с именем "Column2", которого нет в таблице.
-     // Если мы установим флаг "PreserveUnusedTags" в "false", то слияние конвертирует этот тег в MERGEFIELD.
+    // В нашем документе есть тег для столбца с именем "Column2", которого нет в таблице.
+    // Если мы установим флаг "PreserveUnusedTags" в "false", then the mail merge will convert this tag into a MERGEFIELD.
     Assert.AreEqual(doc.GetText().Contains("{{ Column2 }}"), preserveUnusedTags);
 
     if (preserveUnusedTags)
@@ -62,7 +60,7 @@ public void PreserveUnusedTags(bool preserveUnusedTags)
 }
 
 /// <summary>
- /// Создайте документ и добавьте два текстовых тега, которые могут действовать как поля MERGEFIELD во время слияния.
+/// Создайте документ и добавьте два тега открытого текста, которые могут действовать как поля MERGEFIELD во время слияния.
 /// </summary>
 private static Document CreateSourceDocWithAlternativeMergeFields()
 {
@@ -72,14 +70,14 @@ private static Document CreateSourceDocWithAlternativeMergeFields()
     builder.Writeln("{{ Column1 }}");
     builder.Writeln("{{ Column2 }}");
 
-     // Наши теги будут регистрироваться как места назначения для данных слияния, только если мы установим для этого параметра значение true.
+    // Наши теги будут регистрироваться как места назначения для данных слияния почты, только если мы установим для этого параметра значение true.
     doc.MailMerge.UseNonMergeFields = true;
 
     return doc;
 }
 
 /// <summary>
- /// Создаем простую таблицу данных с одним столбцом.
+/// Создаем простую таблицу данных с одним столбцом.
 /// </summary>
 private static DataTable CreateSourceTablePreserveUnusedTags()
 {

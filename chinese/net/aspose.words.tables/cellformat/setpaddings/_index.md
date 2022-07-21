@@ -17,17 +17,17 @@ public void SetPaddings(double leftPadding, double topPadding, double rightPaddi
 
 ### 例子
 
-显示如何用空格填充单元格的内容。
+演示如何用空格填充单元格的内容。
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
- // 设置边框和文本之间的填充距离（以磅为单位） contents
- // 我们使用文档构建器创建的每个表格单元格。 
+// 设置边框和文本内容之间的填充距离（以磅为单位）
+// 我们使用文档构建器创建的每个表格单元格。 
 builder.CellFormat.SetPaddings(5, 10, 40, 50);
 
- // 创建一个包含一个单元格的表格，其内容将有空白填充。
+// 创建一个包含一个单元格的表格，其内容将有空白填充。
 builder.StartTable();
 builder.InsertCell();
 builder.Write("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. " +

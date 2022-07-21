@@ -16,21 +16,21 @@ public override bool Accept(DocumentVisitor visitor)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| visitor | DocumentVisitor | Посетитель, который посетит узлы. |
+| visitor | DocumentVisitor | Посетитель, который будет посещать узлы. |
 
 ### Возвращаемое значение
 
-Истинно, если были посещены все узлы; false, если DocumentVisitor остановил операцию перед посещением всех узлов.
+Истинно, если все узлы были посещены; false, если DocumentVisitor остановил операцию перед посещением всех узлов.
 
 ### Примечания
 
-Перечисляет этот узел и все его дочерние узлы. Каждый узел вызывает соответствующий метод в DocumentVisitor.
+Перечисляет этот узел и все его дочерние элементы. Каждый узел вызывает соответствующий метод в DocumentVisitor.
 
-Для получения дополнительной информации см. шаблон проектирования Посетитель.
+Дополнительные сведения см. в шаблоне проектирования «Посетитель».
 
-Вызовы[`VisitGlossaryDocumentStart`](../../../aspose.words/documentvisitor/visitglossarydocumentstart), затем вызывает[`Accept`](../../../aspose.words/node/accept) для всех дочерних узлов этого узла и затем вызывает[`VisitGlossaryDocumentEnd`](../../../aspose.words/documentvisitor/visitglossarydocumentend) в конце.
+Звонки[`VisitGlossaryDocumentStart`](../../../aspose.words/documentvisitor/visitglossarydocumentstart) , затем звонит[`Accept`](../../../aspose.words/node/accept) для всех дочерних узлов этого узла, а затем вызывает[`VisitGlossaryDocumentEnd`](../../../aspose.words/documentvisitor/visitglossarydocumentend) в конце.
 
-Примечание. Узел документа глоссария и его дочерние элементы не посещено, когда вы выполняете Посетитель поверх[`Document`](../../../aspose.words/document). Если вы хотите выполнить посетителя над документом глоссария , вам нужно вызвать`Accept`.
+Примечание. Узел документа глоссария и его дочерние элементы не посещаются, когда вы выполняете a Visitor над[`Document`](../../../aspose.words/document) . Если вы хотите выполнить посетителя над документом глоссария a , вам нужно вызвать`Accept` .
 
 ### Примеры
 
@@ -52,33 +52,33 @@ public void GlossaryDocument()
 
     doc.GlossaryDocument = glossaryDoc;
 
-     // Существуют различные способы доступа к строительным блокам.
-     // 1 - Получить первый/последний строительные блоки в коллекции: 
+    // Существуют различные способы доступа к строительным блокам.
+    // 1 - Получить первый/последний строительные блоки в коллекции:
     Assert.AreEqual("Block 1", glossaryDoc.FirstBuildingBlock.Name);
     Assert.AreEqual("Block 5", glossaryDoc.LastBuildingBlock.Name);
 
-     // 2 - Получить строительный блок по индексу: 
+    // 2 - Получить строительный блок по индексу:
     Assert.AreEqual("Block 2", glossaryDoc.BuildingBlocks[1].Name);
     Assert.AreEqual("Block 3", glossaryDoc.BuildingBlocks.ToArray()[2].Name);
 
-     // 3 — Получить первый стандартный блок, соответствующий галерее, названию и категории: 
+    // 3 — Получить первый стандартный блок, соответствующий галерее, названию и категории:
     Assert.AreEqual("Block 4", 
         glossaryDoc.GetBuildingBlock(BuildingBlockGallery.All, "(Empty Category)", "Block 4").Name);
 
-     // Мы сделаем это с помощью пользовательского посетителя, 
-     // что даст каждому BuildingBlock в GlossaryDocument уникальный GUID
+    // Мы сделаем это с помощью пользовательского посетителя,
+    // что даст каждому BuildingBlock в GlossaryDocument уникальный GUID
     GlossaryDocVisitor visitor = new GlossaryDocVisitor();
     glossaryDoc.Accept(visitor);
 
     Console.WriteLine(visitor.GetText());
 
-     // В Microsoft Word мы можем получить доступ к строительным блокам через «Вставить» -> "Быстрые детали" -> «Организатор строительных блоков».
+    // В Microsoft Word мы можем получить доступ к строительным блокам через «Вставить» -> "Быстрые детали" -> «Организатор строительных блоков».
     doc.Save(ArtifactsDir + "BuildingBlocks.GlossaryDocument.dotx"); 
 }
 
 /// <summary>
 /// Присваивает каждому строительному блоку в посещенном документе глоссария уникальный идентификатор GUID.
- /// Сохраняет пары блоков GUID в словаре.
+/// Сохраняет пары блоков GUID в словаре.
 /// </summary>
 public class GlossaryDocVisitor : DocumentVisitor
 {

@@ -24,7 +24,7 @@ public abstract class Forms2OleControl : OleControl
 | override [IsForms2OleControl](../../aspose.words.drawing.ole/forms2olecontrol/isforms2olecontrol) { get; } |  |
 | [Name](../../aspose.words.drawing.ole/olecontrol/name) { get; } | Получает имя элемента управления ActiveX. |
 | [Type](../../aspose.words.drawing.ole/forms2olecontrol/type) { get; } | Получает тип элемента управления Forms 2.0. |
-| [Value](../../aspose.words.drawing.ole/forms2olecontrol/value) { get; } | Получает базовое свойство Value, которое часто представляет состояние элемента управления. Например, выбранная опция имеет значение «1», а непроверенная — «0». Значение по умолчанию — пустая строка. |
+| [Value](../../aspose.words.drawing.ole/forms2olecontrol/value) { get; } | Получает базовое свойство Value, которое часто представляет состояние элемента управления. Например, отмеченная кнопка имеет значение «1», а неотмеченная — «0». Значение по умолчанию — пустая строка. |
 
 ### Примеры
 

@@ -1,14 +1,14 @@
 ---
 title: TypeIdentifier
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置此字段的类型标识符通常是字母
+description: 获取或设置该字段的类型标识符通常是字母
 type: docs
 weight: 50
 url: /zh/net/aspose.words.fields/fieldtc/typeidentifier/
 ---
 ## FieldTC.TypeIdentifier property
 
-获取或设置此字段的类型标识符（通常是字母）。
+获取或设置该字段的类型标识符（通常是字母）。
 
 ```csharp
 public string TypeIdentifier { get; set; }
@@ -16,7 +16,7 @@ public string TypeIdentifier { get; set; }
 
 ### 例子
 
-显示如何插入 TOC 字段，并过滤哪些 TC 字段最终作为条目。
+展示如何插入一个 TOC 字段，并过滤哪些 TC 字段最终成为条目。
 
 ```csharp
 {

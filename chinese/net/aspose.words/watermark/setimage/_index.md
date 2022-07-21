@@ -53,11 +53,11 @@ public void SetImage(Image image, ImageWatermarkOptions options)
 
 ### 评论
 
-如果[`ImageWatermarkOptions`](../../imagewatermarkoptions)为空，则将使用默认选项设置水印.
+如果[`ImageWatermarkOptions`](../../imagewatermarkoptions)为空，水印将使用默认选项设置。
 
 ### 例子
 
-展示如何从本地文件系统中的图像创建水印。
+演示如何从本地文件系统中的图像创建水印。
 
 ```csharp
 Document doc = new Document();
@@ -110,7 +110,7 @@ public void SetImage(string imagePath, ImageWatermarkOptions options)
 
 ### 评论
 
-如果[`ImageWatermarkOptions`](../../imagewatermarkoptions)为空，则将使用默认选项设置水印.
+如果[`ImageWatermarkOptions`](../../imagewatermarkoptions)为空，水印将使用默认选项设置。
 
 ### 也可以看看
 

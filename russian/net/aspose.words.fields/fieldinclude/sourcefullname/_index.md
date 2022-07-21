@@ -16,7 +16,7 @@ public string SourceFullName { get; set; }
 
 ### Примеры
 
-Показывает, как создать поле INCLUDE и установить его свойства.
+Показывает, как создать поле INCLUDE и задать его свойства.
 
 ```csharp
 Document doc = new Document();

@@ -1,14 +1,14 @@
 ---
 title: BalanceSingleByteDoubleByteWidth
 second_title: Справочник по API Aspose.Words для .NET
-description: Сбалансируйте однобайтовые и двухбайтовые символы.
+description: Баланс однобайтовых и двухбайтовых символов.
 type: docs
 weight: 70
 url: /ru/net/aspose.words.settings/compatibilityoptions/balancesinglebytedoublebytewidth/
 ---
 ## CompatibilityOptions.BalanceSingleByteDoubleByteWidth property
 
-Сбалансируйте однобайтовые и двухбайтовые символы.
+Баланс однобайтовых и двухбайтовых символов.
 
 ```csharp
 public bool BalanceSingleByteDoubleByteWidth { get; set; }

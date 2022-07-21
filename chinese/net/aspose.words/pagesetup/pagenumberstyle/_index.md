@@ -16,7 +16,7 @@ public NumberStyle PageNumberStyle { get; set; }
 
 ### 例子
 
-显示如何在节中设置页码。
+显示如何在部分中设置页码。
 
 ```csharp
 Document doc = new Document();

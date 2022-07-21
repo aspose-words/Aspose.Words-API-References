@@ -1,14 +1,14 @@
 ---
 title: LeftPadding
 second_title: Справочник по API Aspose.Words для .NET
-description: Возвращает или задает количество места в пунктах для добавления слева от содержимого ячейки.
+description: Возвращает или задает количество места в пунктах которое нужно добавить слева от содержимого ячейки.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.tables/cellformat/leftpadding/
 ---
 ## CellFormat.LeftPadding property
 
-Возвращает или задает количество места (в пунктах) для добавления слева от содержимого ячейки.
+Возвращает или задает количество места (в пунктах), которое нужно добавить слева от содержимого ячейки.
 
 ```csharp
 public double LeftPadding { get; set; }

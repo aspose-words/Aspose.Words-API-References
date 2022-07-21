@@ -16,82 +16,116 @@ public virtual VisitorAction VisitParagraphStart(Paragraph paragraph)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| paragraph | Paragraph | Посещаемый объект. |
+| paragraph | Paragraph | Объект, который посещается. |
 
 ### Возвращаемое значение
 
-A[`VisitorAction`](../../visitoraction)значение, указывающее, как продолжить перечисление.
+А[`VisitorAction`](../../visitoraction) значение, указывающее, как продолжить перечисление.
 
 ### Примеры
 
 Показывает, как использовать посетитель документа для печати структуры узла документа.
 
 ```csharp
+public void DocStructureToText()
 {
-    Document doc = new Document(MyDir + "Hidden content.docx");
+    Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
+    DocStructurePrinter visitor = new DocStructurePrinter();
 
-    RemoveHiddenContentVisitor hiddenContentRemover = new RemoveHiddenContentVisitor();
+    // Когда составной узел принимает посетителя документа, посетитель посещает принимающий узел,
+    // а затем обходит все дочерние элементы узла в порядке глубины.
+    // Посетитель может читать и изменять каждый посещаемый узел.
+    doc.Accept(visitor);
 
-    // Ниже приведены три типа полей, которые могут принять посетителя документа,
-    // что позволит ему посетить принимающий узел, а затем пройти его дочерние узлы в порядке глубины.
-    // 1 - Узел абзаца:
-    Paragraph para = (Paragraph) doc.GetChild(NodeType.Paragraph, 4, true);
-    para.Accept(hiddenContentRemover);
-
-    // 2 - Узел таблицы:
-    Table table = doc.FirstSection.Body.Tables[0];
-    table.Accept(hiddenContentRemover);
-
-    // 3 - Узел документа:
-    doc.Accept(hiddenContentRemover);
-
-    doc.Save(ArtifactsDir + "Font.RemoveHiddenContentFromDocument.docx");
+    Console.WriteLine(visitor.GetText());
+}
 
 /// <summary>
-/// Удаляет все посещенные узлы, помеченные как "скрытый контент".
+/// Обходит дерево дочерних узлов узла.
+/// Создает карту этого дерева в виде строки.
 /// </summary>
-public class RemoveHiddenContentVisitor : DocumentVisitor
+public class DocStructurePrinter : DocumentVisitor
 {
-    /// <summary>
-    /// Вызывается, когда в документе встречается узел FieldStart.
-    /// </summary>
-    public override VisitorAction VisitFieldStart(FieldStart fieldStart)
+    public DocStructurePrinter()
     {
-        if (fieldStart.Font.Hidden)
-            fieldStart.Remove();
+        mAcceptingNodeChildTree = new StringBuilder();
+    }
+
+    public string GetText()
+    {
+        return mAcceptingNodeChildTree.ToString();
+    }
+
+    /// <summary>
+    /// Вызывается при обнаружении узла Document.
+    /// </summary>
+    public override VisitorAction VisitDocumentStart(Document doc)
+    {
+        int childNodeCount = doc.GetChildNodes(NodeType.Any, true).Count;
+
+        IndentAndAppendLine("[Document start] Child nodes: " + childNodeCount);
+        mDocTraversalDepth++;
+
+        // Разрешить посетителю продолжить посещение других узлов.
+        return VisitorAction.Continue;
+    }
+
+    /// <summary>
+    /// Вызывается после посещения всех дочерних узлов узла Document.
+    /// </summary>
+    public override VisitorAction VisitDocumentEnd(Document doc)
+    {
+        mDocTraversalDepth--;
+        IndentAndAppendLine("[Document end]");
 
         return VisitorAction.Continue;
     }
 
     /// <summary>
-    /// Вызывается, когда в документе встречается узел FieldEnd.
+    /// Вызывается, когда в документе встречается узел Section.
     /// </summary>
-    public override VisitorAction VisitFieldEnd(FieldEnd fieldEnd)
+    public override VisitorAction VisitSectionStart(Section section)
     {
-        if (fieldEnd.Font.Hidden)
-            fieldEnd.Remove();
+        // Получаем индекс нашего раздела в документе.
+        NodeCollection docSections = section.Document.GetChildNodes(NodeType.Section, false);
+        int sectionIndex = docSections.IndexOf(section);
+
+        IndentAndAppendLine("[Section start] Section index: " + sectionIndex);
+        mDocTraversalDepth++;
 
         return VisitorAction.Continue;
     }
 
     /// <summary>
-    /// Вызывается, когда в документе встречается узел FieldSeparator.
+    /// Вызывается после посещения всех дочерних узлов узла Section.
     /// </summary>
-    public override VisitorAction VisitFieldSeparator(FieldSeparator fieldSeparator)
+    public override VisitorAction VisitSectionEnd(Section section)
     {
-        if (fieldSeparator.Font.Hidden)
-            fieldSeparator.Remove();
+        mDocTraversalDepth--;
+        IndentAndAppendLine("[Section end]");
 
         return VisitorAction.Continue;
     }
 
     /// <summary>
-    /// Вызывается, когда в документе встречается узел Run.
+    /// Вызывается, когда в документе встречается узел Body.
     /// </summary>
-    public override VisitorAction VisitRun(Run run)
+    public override VisitorAction VisitBodyStart(Body body)
     {
-        if (run.Font.Hidden)
-            run.Remove();
+        int paragraphCount = body.Paragraphs.Count;
+        IndentAndAppendLine("[Body start] Paragraphs: " + paragraphCount);
+        mDocTraversalDepth++;
+
+        return VisitorAction.Continue;
+    }
+
+    /// <summary>
+    /// Вызывается после посещения всех дочерних узлов узла Body.
+    /// </summary>
+    public override VisitorAction VisitBodyEnd(Body body)
+    {
+        mDocTraversalDepth--;
+        IndentAndAppendLine("[Body end]");
 
         return VisitorAction.Continue;
     }
@@ -101,116 +135,56 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     /// </summary>
     public override VisitorAction VisitParagraphStart(Paragraph paragraph)
     {
-        if (paragraph.ParagraphBreakFont.Hidden)
-            paragraph.Remove();
+        IndentAndAppendLine("[Paragraph start]");
+        mDocTraversalDepth++;
 
         return VisitorAction.Continue;
     }
 
     /// <summary>
-    /// Вызывается, когда в документе встречается FormField.
+    /// Вызывается после посещения всех дочерних узлов узла Paragraph.
     /// </summary>
-    public override VisitorAction VisitFormField(FormField formField)
+    public override VisitorAction VisitParagraphEnd(Paragraph paragraph)
     {
-        if (formField.Font.Hidden)
-            formField.Remove();
+        mDocTraversalDepth--;
+        IndentAndAppendLine("[Paragraph end]");
 
         return VisitorAction.Continue;
     }
 
     /// <summary>
-    /// Вызывается, когда в документе встречается GroupShape.
+    /// Вызывается, когда в документе встречается узел Run.
     /// </summary>
-    public override VisitorAction VisitGroupShapeStart(GroupShape groupShape)
+    public override VisitorAction VisitRun(Run run)
     {
-        if (groupShape.Font.Hidden)
-            groupShape.Remove();
+        IndentAndAppendLine("[Run] \"" + run.GetText() + "\"");
 
         return VisitorAction.Continue;
     }
 
     /// <summary>
-    /// Вызывается, когда в документе встречается фигура.
+    /// Вызывается, когда в документе встречается узел SubDocument.
     /// </summary>
-    public override VisitorAction VisitShapeStart(Shape shape)
+    public override VisitorAction VisitSubDocument(SubDocument subDocument)
     {
-        if (shape.Font.Hidden)
-            shape.Remove();
+        IndentAndAppendLine("[SubDocument]");
 
         return VisitorAction.Continue;
     }
 
     /// <summary>
-    /// Вызывается, когда в документе встречается комментарий.
+    /// Добавляем строку в StringBuilder и делаем отступ в зависимости от того, насколько глубоко посетитель находится в дереве документа.
     /// </summary>
-    public override VisitorAction VisitCommentStart(Comment comment)
+    /// <param name="text"></param>
+    private void IndentAndAppendLine(string text)
     {
-        if (comment.Font.Hidden)
-            comment.Remove();
+        for (int i = 0; i < mDocTraversalDepth; i++) mAcceptingNodeChildTree.Append("|  ");
 
-        return VisitorAction.Continue;
+        mAcceptingNodeChildTree.AppendLine(text);
     }
 
-    /// <summary>
-    /// Вызывается, когда в документе встречается сноска.
-    /// </summary>
-    public override VisitorAction VisitFootnoteStart(Footnote footnote)
-    {
-        if (footnote.Font.Hidden)
-            footnote.Remove();
-
-        return VisitorAction.Continue;
-    }
-
-    /// <summary>
-    /// Вызывается, когда в документе встречается SpecialCharacter.
-    /// </summary>
-    public override VisitorAction VisitSpecialChar(SpecialChar specialChar)
-    {
-        if (specialChar.Font.Hidden)
-            specialChar.Remove();
-
-        return VisitorAction.Continue;
-    }
-
-    /// <summary>
-    /// Вызывается при завершении посещения узла Таблица в документе.
-    /// </summary>
-    public override VisitorAction VisitTableEnd(Table table)
-    {
-        // Содержимое внутри ячеек таблицы может иметь флаг скрытого содержимого, но не сами таблицы.
-        // Если бы в этой таблице не было ничего, кроме скрытого содержимого, этот посетитель удалил бы все это,
-        // и не осталось бы дочерних узлов.
-        // Таким образом, мы также можем рассматривать саму таблицу как скрытое содержимое и удалять ее.
-        // Таблицы, которые пусты, но не имеют скрытого содержимого, будут иметь ячейки с пустыми абзацами внутри,
-        // который этот посетитель не удалит.
-        if (!table.HasChildNodes)
-            table.Remove();
-
-        return VisitorAction.Continue;
-    }
-
-    /// <summary>
-    /// Вызывается при завершении посещения узла Cell в документе.
-    /// </summary>
-    public override VisitorAction VisitCellEnd(Cell cell)
-    {
-        if (!cell.HasChildNodes && cell.ParentNode != null)
-            cell.Remove();
-
-        return VisitorAction.Continue;
-    }
-
-    /// <summary>
-    /// Вызывается при завершении посещения узла Row в документе.
-    /// </summary>
-    public override VisitorAction VisitRowEnd(Row row)
-    {
-        if (!row.HasChildNodes && row.ParentNode != null)
-            row.Remove();
-
-        return VisitorAction.Continue;
-    }
+    private int mDocTraversalDepth;
+    private readonly StringBuilder mAcceptingNodeChildTree;
 }
 ```
 
@@ -364,7 +338,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Вызывается при завершении посещения узла Таблица в документе.
+    /// Вызывается при завершении посещения узла Table в документе.
     /// </summary>
     public override VisitorAction VisitTableEnd(Table table)
     {

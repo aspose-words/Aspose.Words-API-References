@@ -1,14 +1,14 @@
 ---
 title: SdtListItem
 second_title: Справочник по API Aspose.Words для .NET
-description: Этот элемент указывает один элемент списка внутри родительского элементаComboBoxилиDropDownListтег структурированного документа.
+description: Этот элемент определяет один элемент списка в родительском элементе.ComboBox или жеDropDownList тег структурированного документа.
 type: docs
-weight: 3730
+weight: 3780
 url: /ru/net/aspose.words.markup/sdtlistitem/
 ---
 ## SdtListItem class
 
-Этот элемент указывает один элемент списка внутри родительского элементаComboBoxилиDropDownListтег структурированного документа.
+Этот элемент определяет один элемент списка в родительском элементе.ComboBox или жеDropDownList тег структурированного документа.
 
 ```csharp
 public class SdtListItem
@@ -25,12 +25,12 @@ public class SdtListItem
 
 | Имя | Описание |
 | --- | --- |
-| [DisplayText](../../aspose.words.markup/sdtlistitem/displaytext) { get; } | Получает текст для отображения в содержимом запуска вместо содержимого атрибута[`Value`](./value)для этот элемент списка. |
+| [DisplayText](../../aspose.words.markup/sdtlistitem/displaytext) { get; } | Получает текст для отображения в содержимом выполнения вместо[`Value`](./value) содержимое атрибута для этого элемента списка. |
 | [Value](../../aspose.words.markup/sdtlistitem/value) { get; } | Получает значение этого элемента списка. |
 
 ### Примеры
 
-Показывает, как работать со структурированными тегами выпадающего списка.
+Показывает, как работать с тегами структурированного документа с раскрывающимся списком.
 
 ```csharp
 Document doc = new Document();

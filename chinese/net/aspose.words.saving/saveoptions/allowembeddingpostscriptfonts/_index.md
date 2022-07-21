@@ -1,14 +1,14 @@
 ---
 title: AllowEmbeddingPostScriptFonts
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置一个布尔值指示是否允许在保存文档时嵌入带有 PostScript 轮廓的字体  默认值为 false 
+description: 获取或设置一个布尔值该值指示是否允许在保存文档中嵌入 TrueType 字体时使用 PostScript 轮廓嵌入字体  默认值为 错误的.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.saving/saveoptions/allowembeddingpostscriptfonts/
 ---
 ## SaveOptions.AllowEmbeddingPostScriptFonts property
 
-获取或设置一个布尔值，指示是否允许在保存文档时嵌入带有 PostScript 轮廓的字体 。 默认值为 **false** 。
+获取或设置一个布尔值，该值指示是否允许在保存文档中嵌入 TrueType 字体时使用 PostScript 轮廓嵌入字体 。 默认值为 **错误的**.
 
 ```csharp
 public bool AllowEmbeddingPostScriptFonts { get; set; }
@@ -16,9 +16,9 @@ public bool AllowEmbeddingPostScriptFonts { get; set; }
 
 ### 评论
 
-注意，Word 不嵌入 PostScript 字体，但可以打开带有此类嵌入字体的文档.
+请注意，Word 不嵌入 PostScript 字体，但可以打开嵌入了这种类型字体的文档。
 
-此选项仅在[`EmbedTrueTypeFonts`](../../../aspose.words.fonts/fontinfocollection/embedtruetypefonts)的 时有效[`FontInfos`](../../../aspose.words/documentbase/fontinfos)属性设置为` true` 。
+此选项仅在以下情况下有效[`EmbedTrueTypeFonts`](../../../aspose.words.fonts/fontinfocollection/embedtruetypefonts)的 [`FontInfos`](../../../aspose.words/documentbase/fontinfos)属性设置为`真的`.
 
 ### 例子
 

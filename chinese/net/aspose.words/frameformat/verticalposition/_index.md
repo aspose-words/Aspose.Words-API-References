@@ -1,14 +1,14 @@
 ---
 title: VerticalPosition
 second_title: Aspose.Words for .NET API 参考
-description: 获取框架边缘与RelativeVerticalPositionaspose.words/frameformat/relativeverticalposition属性指定的项目之间的垂直距离
+description: 获取框架边缘和由RelativeVerticalPositionaspose.words/frameformat/relativeverticalposition属性.
 type: docs
 weight: 110
 url: /zh/net/aspose.words/frameformat/verticalposition/
 ---
 ## FrameFormat.VerticalPosition property
 
-获取框架边缘与[`RelativeVerticalPosition`](../relativeverticalposition)属性指定的项目之间的垂直距离。
+获取框架边缘和由[`RelativeVerticalPosition`](../relativeverticalposition)属性.
 
 ```csharp
 public double VerticalPosition { get; }

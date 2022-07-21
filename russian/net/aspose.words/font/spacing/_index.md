@@ -1,14 +1,14 @@
 ---
 title: Spacing
 second_title: Справочник по API Aspose.Words для .NET
-description: Возвращает или задает интервал в пунктах между символами.
+description: Возвращает или задает интервал в пунктах между символами .
 type: docs
 weight: 380
 url: /ru/net/aspose.words/font/spacing/
 ---
 ## Font.Spacing property
 
-Возвращает или задает интервал (в пунктах) между символами.
+Возвращает или задает интервал (в пунктах) между символами .
 
 ```csharp
 public double Spacing { get; set; }
@@ -16,7 +16,7 @@ public double Spacing { get; set; }
 
 ### Примеры
 
-Показывает, как установить горизонтальное масштабирование и расстояние между символами.
+Показывает, как установить горизонтальное масштабирование и интервал между символами.
 
 ```csharp
 Document doc = new Document();

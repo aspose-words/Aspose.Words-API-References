@@ -1,16 +1,16 @@
 ---
 title: SaveSubsetFonts
 second_title: Справочник по API Aspose.Words для .NET
-description: Указывает следует ли сохранять вместе с документом подмножество встроенных шрифтов TrueType. Значение по умолчанию для этого свойства false .
+description: Указывает следует ли сохранять вместе с документом подмножество встроенных шрифтов TrueType. Значение по умолчанию для этого свойства ЛОЖЬ.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.fonts/fontinfocollection/savesubsetfonts/
 ---
 ## FontInfoCollection.SaveSubsetFonts property
 
-Указывает, следует ли сохранять вместе с документом подмножество встроенных шрифтов TrueType. Значение по умолчанию для этого свойства: **false** .
+Указывает, следует ли сохранять вместе с документом подмножество встроенных шрифтов TrueType. Значение по умолчанию для этого свойства: **ЛОЖЬ**.
 
-Эта опция работает, только когда свойство[`EmbedTrueTypeFonts`](../embedtruetypefonts)установлено в **true** .
+Этот вариант работает только тогда, когда[`EmbedTrueTypeFonts`](../embedtruetypefonts) свойство установлено на **истинный**.
 
 ```csharp
 public bool SaveSubsetFonts { get; set; }

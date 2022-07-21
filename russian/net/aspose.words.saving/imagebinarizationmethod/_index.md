@@ -1,14 +1,14 @@
 ---
 title: ImageBinarizationMethod
 second_title: Справочник по API Aspose.Words для .NET
-description: Указывает метод используемый для бинаризации изображения.
+description: Определяет метод используемый для бинаризации изображения.
 type: docs
-weight: 4890
+weight: 4940
 url: /ru/net/aspose.words.saving/imagebinarizationmethod/
 ---
 ## ImageBinarizationMethod enumeration
 
-Указывает метод, используемый для бинаризации изображения.
+Определяет метод, используемый для бинаризации изображения.
 
 ```csharp
 public enum ImageBinarizationMethod
@@ -18,8 +18,8 @@ public enum ImageBinarizationMethod
 
 | Имя | Ценность | Описание |
 | --- | --- | --- |
-| Threshold | `0` | Указывает пороговый метод. |
-| FloydSteinbergDithering | `1` | Задает дизеринг с использованием метода распространения ошибок Флойда-Стейнберга. |
+| Threshold | `0` | Задает пороговый метод. |
+| FloydSteinbergDithering | `1` | Задает сглаживание с использованием метода распространения ошибок Флойда-Стейнберга. |
 
 ### Примеры
 

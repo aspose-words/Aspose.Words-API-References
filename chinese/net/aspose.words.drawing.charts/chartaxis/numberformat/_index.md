@@ -1,14 +1,14 @@
 ---
 title: NumberFormat
 second_title: Aspose.Words for .NET API 参考
-description: 返回一个ChartNumberFormataspose.words.drawing.charts/chartnumberformat对象该对象允许为轴定义数字格式
+description: 返回一个ChartNumberFormataspose.words.drawing.charts/chartnumberformat允许为轴定义数字格式的对象
 type: docs
 weight: 170
 url: /zh/net/aspose.words.drawing.charts/chartaxis/numberformat/
 ---
 ## ChartAxis.NumberFormat property
 
-返回一个[`ChartNumberFormat`](../../chartnumberformat)对象，该对象允许为轴定义数字格式。
+返回一个[`ChartNumberFormat`](../../chartnumberformat)允许为轴定义数字格式的对象。
 
 ```csharp
 public ChartNumberFormat NumberFormat { get; }

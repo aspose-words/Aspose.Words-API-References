@@ -16,9 +16,9 @@ public NodeCollection ChildNodes { get; }
 
 ### 评论
 
-注意，`ChildNodes`相当于调用` GetChildNodes(NodeType.Any, false)` 每次访问都会创建并返回一个新集合。
+笔记，`ChildNodes`相当于调用`GetChildNodes(NodeType.Any, false)` 并在每次访问时创建并返回一个新集合。
 
-如果没有子节点，此属性返回一个空集合。
+如果没有子节点，则此属性返回一个空集合。
 
 ### 例子
 

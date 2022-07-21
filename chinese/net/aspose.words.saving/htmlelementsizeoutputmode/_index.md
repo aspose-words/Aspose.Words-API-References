@@ -3,7 +3,7 @@ title: HtmlElementSizeOutputMode
 second_title: Aspose.Words for .NET API 参考
 description: 指定 Aspose.Words 如何将元素宽度和高度导出到 HTMLMHTML 和 EPUB
 type: docs
-weight: 4750
+weight: 4800
 url: /zh/net/aspose.words.saving/htmlelementsizeoutputmode/
 ---
 ## HtmlElementSizeOutputMode enumeration
@@ -19,12 +19,12 @@ public enum HtmlElementSizeOutputMode
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
 | All | `0` | 导出文档中指定的所有元素大小，包括绝对单位和相对单位。 |
-| RelativeOnly | `1` | 元素大小仅在文档中以相对单位指定时才会导出。 在此模式下不导出固定尺寸。视觉代理将计算缺失的大小以使 文档布局更自然。 |
+| RelativeOnly | `1` | 只有在文档中以相对单位指定元素大小时，才会导出元素大小。 在此模式下不导出固定尺寸。视觉代理将计算缺失的大小以使 文档布局更自然。 |
 | None | `2` | 不导出元素大小。视觉代理会根据元素之间的关系自动构建布局。 |
 
 ### 例子
 
-显示如何在输出.html。
+显示如何在输出 .html 中保留负缩进。
 
 ```csharp
 Document doc = new Document();

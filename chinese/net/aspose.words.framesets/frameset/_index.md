@@ -1,14 +1,14 @@
 ---
 title: Frameset
 second_title: Aspose.Words for .NET API 参考
-description: 表示框架页面或框架页面上的单个框架
+description: 表示一个框架页面或框架页面上的单个框架
 type: docs
-weight: 2850
+weight: 2900
 url: /zh/net/aspose.words.framesets/frameset/
 ---
 ## Frameset class
 
-表示框架页面或框架页面上的单个框架。
+表示一个框架页面或框架页面上的单个框架。
 
 ```csharp
 public class Frameset
@@ -26,7 +26,7 @@ public class Frameset
 | --- | --- |
 | [ChildFramesets](../../aspose.words.framesets/frameset/childframesets) { get; } | 获取子框架和框架页面的集合。 |
 | [FrameDefaultUrl](../../aspose.words.framesets/frameset/framedefaulturl) { get; set; } | 获取或设置要在此框架中显示的网页 URL 或文档文件名。 |
-| [IsFrameLinkToFile](../../aspose.words.framesets/frameset/isframelinktofile) { get; set; } | 获取或设置一个值，该值指示是否在 FrameDefaultUrl属性是与框架链接的外部资源。 |
+| [IsFrameLinkToFile](../../aspose.words.framesets/frameset/isframelinktofile) { get; set; } | 获取或设置一个值，该值指示是否在 中指定的网页或文档文件名[`FrameDefaultUrl`](./framedefaulturl)属性是框架链接的外部资源。 |
 
 ### 评论
 

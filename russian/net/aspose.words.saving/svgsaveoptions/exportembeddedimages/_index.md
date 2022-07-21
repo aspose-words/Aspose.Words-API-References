@@ -40,7 +40,7 @@ public void SvgResourceFolder()
 }
 
 /// <summary>
-/// Подсчитывает и печатает URI ресурсов, содержащихся в по мере их преобразования в .svg.
+/// Подсчитывает и печатает URI ресурсов, содержащихся в, когда они преобразуются в .svg.
 /// </summary>
 private class ResourceUriPrinter : IResourceSavingCallback
 {

@@ -1,14 +1,14 @@
 ---
 title: EmbeddedFontStyle
 second_title: Справочник по API Aspose.Words для .NET
-description: Определяет стиль встроенного шрифта внутри объектаFontInfo./fontinfo.
+description: Определяет стиль встроенного шрифта внутриFontInfo./fontinfo объект.
 type: docs
-weight: 2630
+weight: 2680
 url: /ru/net/aspose.words.fonts/embeddedfontstyle/
 ---
 ## EmbeddedFontStyle enumeration
 
-Определяет стиль встроенного шрифта внутри объекта[`FontInfo`](../fontinfo).
+Определяет стиль встроенного шрифта внутри[`FontInfo`](../fontinfo) объект.
 
 ```csharp
 [Flags]
@@ -19,8 +19,8 @@ public enum EmbeddedFontStyle
 
 | Имя | Ценность | Описание |
 | --- | --- | --- |
-| Regular | `0` | Определяет встроенный шрифт Regular. |
-| Bold | `1` | Определяет полужирный встроенный шрифт. |
+| Regular | `0` | Определяет обычный встроенный шрифт. |
+| Bold | `1` | Задает полужирный встроенный шрифт. |
 | Italic | `2` | Определяет встроенный курсивный шрифт. |
 | BoldItalic | `3` | Определяет встроенный шрифт Bold-Italic. |
 

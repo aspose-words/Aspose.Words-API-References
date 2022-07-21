@@ -1,14 +1,14 @@
 ---
 title: ImageStream
 second_title: Aspose.Words for .NET API 参考
-description: 允许指定图像将保存到的流
+description: 允许指定将图像保存到的流
 type: docs
 weight: 40
 url: /zh/net/aspose.words.saving/imagesavingargs/imagestream/
 ---
 ## ImageSavingArgs.ImageStream property
 
-允许指定图像将保存到的流。
+允许指定将图像保存到的流。
 
 ```csharp
 public Stream ImageStream { get; set; }
@@ -18,13 +18,13 @@ public Stream ImageStream { get; set; }
 
 此属性允许您在 HTML 期间将图像保存到流而不是文件。
 
-默认值为` null` 。当此属性为` null` 时，图像 将保存到ImageFileName属性。
+默认值为`无效的` .当这个属性是`无效的` ，图像 将保存到指定的文件中[`ImageFileName`](../imagefilename)财产。
 
-使用[`IImageSavingCallback`](../../iimagesavingcallback)不能用 替换一个图像。它仅用于控制保存图像的位置。
+使用[`IImageSavingCallback`](../../iimagesavingcallback)您不能用 另一个图像替换一个图像。它仅用于控制保存图像的位置。
 
 ### 例子
 
-显示如何在 HTML 转换过程中包含图像保存回调。
+展示如何在 HTML 转换过程中涉及图像保存回调。
 
 ```csharp
 {

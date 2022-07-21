@@ -1,14 +1,14 @@
 ---
 title: Equals
 second_title: Aspose.Words for .NET API 参考
-description: 与指定样式比较 样式 Istd 仅针对内置样式进行比较 样式默认值不包括在比较中 递归比较基本样式链接样式和下一段样式
+description: 与指定的样式进行比较 样式 Istds 仅针对内置样式进行比较 样式默认值不包括在比较中 基本样式链接样式和下一段样式进行递归比较
 type: docs
 weight: 170
 url: /zh/net/aspose.words/style/equals/
 ---
 ## Style.Equals method
 
-与指定样式比较。 样式 Istd 仅针对内置样式进行比较。 样式默认值不包括在比较中。 递归比较基本样式、链接样式和下一段样式。
+与指定的样式进行比较。 样式 Istds 仅针对内置样式进行比较。 样式默认值不包括在比较中。 基本样式、链接样式和下一段样式进行递归比较。
 
 ```csharp
 public bool Equals(Style style)

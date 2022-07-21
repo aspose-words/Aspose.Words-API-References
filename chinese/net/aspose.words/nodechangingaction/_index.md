@@ -3,7 +3,7 @@ title: NodeChangingAction
 second_title: Aspose.Words for .NET API 参考
 description: 指定节点更改的类型
 type: docs
-weight: 3890
+weight: 3940
 url: /zh/net/aspose.words/nodechangingaction/
 ---
 ## NodeChangingAction enumeration
@@ -18,12 +18,12 @@ public enum NodeChangingAction
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| Insert | `0` | 一个节点被插入到树中。 |
+| Insert | `0` | 正在向树中插入一个节点。 |
 | Remove | `1` | 正在从树中删除一个节点。 |
 
 ### 例子
 
-展示了如何使用 NodeChangingCallback 在我们编辑文档树时实时监控文档树的更改。
+展示如何使用 NodeChangingCallback 在我们编辑文档树时实时监控文档树的更改。
 
 ```csharp
 {

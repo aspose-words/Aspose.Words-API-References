@@ -16,7 +16,7 @@ public bool DisplayText { get; set; }
 
 ### Примеры
 
-Показывает, как выполнить слияние со штрих-кодами EAN13.
+Показывает, как выполнять слияние со штрих-кодами EAN13.
 
 ```csharp
 Document doc = new Document();

@@ -1,14 +1,14 @@
 ---
 title: NodeType
 second_title: Справочник по API Aspose.Words для .NET
-description: Возвращает NodeType.Paragraph .
+description: Возвращает NodeType.Параграф .
 type: docs
 weight: 170
 url: /ru/net/aspose.words/paragraph/nodetype/
 ---
 ## Paragraph.NodeType property
 
-Возвращает **NodeType.Paragraph** .
+Возвращает **NodeType.Параграф** .
 
 ```csharp
 public override NodeType NodeType { get; }

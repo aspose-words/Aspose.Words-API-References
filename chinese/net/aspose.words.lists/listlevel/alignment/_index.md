@@ -16,7 +16,7 @@ public ListLevelAlignment Alignment { get; set; }
 
 ### 评论
 
-列表标签相对于NumberPosition属性。
+列表标签相对于[`NumberPosition`](../numberposition)财产。
 
 ### 例子
 
@@ -26,10 +26,10 @@ public ListLevelAlignment Alignment { get; set; }
 Document doc = new Document();
 
 // 列表允许我们用前缀符号和缩进组织和装饰段落集。
- // 我们可以通过增加缩进级别来创建嵌套列表。 
- // 我们可以使用文档构建器的“ListFormat”属性来开始和结束一个列表。 
- // 我们在列表开头和结尾之间添加的每个段落都将成为列表中的一个项目。
- // 从 Microsoft Word 模板创建一个列表，并自定义其前两个列表级别。
+// 我们可以通过增加缩进级别来创建嵌套列表。 
+// 我们可以使用文档构建器的“ListFormat”属性来开始和结束一个列表。 
+// 我们在列表的开头和结尾之间添加的每个段落都将成为列表中的一个项目。
+// 从 Microsoft Word 模板创建一个列表，并自定义其前两个列表级别。
 List list = doc.Lists.Add(ListTemplate.NumberDefault);
 
 ListLevel listLevel = list.ListLevels[0];
@@ -50,12 +50,12 @@ listLevel.Font.Name = "Wingdings";
 listLevel.Font.Color = Color.Blue;
 listLevel.Font.Size = 24;
 
- // 此 NumberFormat 值将创建星形项目符号列表符号。
+// 此 NumberFormat 值将创建星形项目符号列表符号。
 listLevel.NumberFormat = "\xf0af";
 listLevel.TrailingCharacter = ListTrailingCharacter.Space;
 listLevel.NumberPosition = 144;
 
- // 创建段落并将我们自定义列表格式的两个列表级别应用到它们。
+// 创建段落并将自定义列表格式的两个列表级别应用于它们。
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.ListFormat.List = list;

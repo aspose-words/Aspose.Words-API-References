@@ -16,7 +16,7 @@ public void Add(CustomXmlPart part)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| part | CustomXmlPart | Пользовательская часть XML для добавления. |
+| part | CustomXmlPart | Настраиваемая часть XML для добавления. |
 
 ### Примеры
 

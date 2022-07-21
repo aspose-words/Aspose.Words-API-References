@@ -1,14 +1,14 @@
 ---
 title: DateStorageFormat
 second_title: Справочник по API Aspose.Words для .NET
-description: Получает/задает формат в котором дата для SDT даты хранится когда привязывается SDT в узел XML в хранилище данных документа. Значение по умолчаниюDateTime
+description: Получает/устанавливает формат в котором дата для SDT даты сохраняется когда СДТ привязан к узлу XML в хранилище данных документа. Значение по умолчаниюDateTime
 type: docs
 weight: 110
 url: /ru/net/aspose.words.markup/structureddocumenttag/datestorageformat/
 ---
 ## StructuredDocumentTag.DateStorageFormat property
 
-Получает/задает формат, в котором дата для SDT даты хранится, когда привязывается **SDT** в узел XML в хранилище данных документа. Значение по умолчанию:DateTime
+Получает/устанавливает формат, в котором дата для SDT даты сохраняется, когда **СДТ** привязан к узлу XML в хранилище данных документа. Значение по умолчанию:DateTime
 
 ```csharp
 public SdtDateStorageFormat DateStorageFormat { get; set; }
@@ -16,9 +16,9 @@ public SdtDateStorageFormat DateStorageFormat { get; set; }
 
 ### Примечания
 
-Доступ к этому свойству будет работать только дляDateТип SDT.
+Доступ к этому свойству будет работать только дляDate Тип SDT.
 
-Для всех остальных типов SDT возникнет исключение.
+Для всех других типов SDT будет иметь место исключение.
 
 ### Примеры
 

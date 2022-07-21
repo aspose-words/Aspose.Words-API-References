@@ -1,14 +1,14 @@
 ---
 title: DataLabels
 second_title: Aspose.Words for .NET API 参考
-description: 指定整个系列的数据标签的设置
+description: 指定整个系列的数据标签设置
 type: docs
 weight: 20
 url: /zh/net/aspose.words.drawing.charts/chartseries/datalabels/
 ---
 ## ChartSeries.DataLabels property
 
-指定整个系列的数据标签的设置。
+指定整个系列的数据标签设置。
 
 ```csharp
 public ChartDataLabelCollection DataLabels { get; }

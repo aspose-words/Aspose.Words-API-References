@@ -3,7 +3,7 @@ title: FieldMergeField
 second_title: Справочник по API Aspose.Words для .NET
 description: Реализует поле MERGEFIELD.
 type: docs
-weight: 1960
+weight: 2000
 url: /ru/net/aspose.words.fields/fieldmergefield/
 ---
 ## FieldMergeField class
@@ -21,14 +21,14 @@ public class FieldMergeField : Field
 | [DisplayResult](../../aspose.words.fields/field/displayresult) { get; } | Получает текст, представляющий результат отображаемого поля. |
 | [End](../../aspose.words.fields/field/end) { get; } | Получает узел, представляющий конец поля. |
 | [FieldName](../../aspose.words.fields/fieldmergefield/fieldname) { get; set; } | Получает или задает имя поля данных. |
-| [FieldNameNoPrefix](../../aspose.words.fields/fieldmergefield/fieldnamenoprefix) { get; } | Возвращает только имя поля данных. Любой префикс удаляется до свойства префикса. |
-| [Format](../../aspose.words.fields/field/format) { get; } | Получает объект[`FieldFormat`](../fieldformat), предоставляющий типизированный доступ к форматированию поля. |
-| [IsDirty](../../aspose.words.fields/field/isdirty) { get; set; } | Получает или устанавливает, является ли текущий результат поля более неправильным (устаревшим) из-за других изменений, внесенных в документ. |
-| [IsLocked](../../aspose.words.fields/field/islocked) { get; set; } | Получает или устанавливает, заблокировано ли поле (не должно пересчитывать его результат). |
+| [FieldNameNoPrefix](../../aspose.words.fields/fieldmergefield/fieldnamenoprefix) { get; } | Возвращает только имя поля данных. Любой префикс разделяется на свойство префикса. |
+| [Format](../../aspose.words.fields/field/format) { get; } | Получает[`FieldFormat`](../fieldformat) объект, предоставляющий типизированный доступ к форматированию поля. |
+| [IsDirty](../../aspose.words.fields/field/isdirty) { get; set; } | Получает или устанавливает, является ли текущий результат поля более неверным (устаревшим) из-за других изменений, внесенных в документ. |
+| [IsLocked](../../aspose.words.fields/field/islocked) { get; set; } | Получает или задает, заблокировано ли поле (не следует пересчитывать его результат). |
 | [IsMapped](../../aspose.words.fields/fieldmergefield/ismapped) { get; set; } | Получает или задает, является ли это поле сопоставленным полем. |
 | [IsVerticalFormatting](../../aspose.words.fields/fieldmergefield/isverticalformatting) { get; set; } | Получает или задает, следует ли включить преобразование символов для вертикального форматирования. |
 | [LocaleId](../../aspose.words.fields/field/localeid) { get; set; } | Получает или задает LCID поля. |
-| [Result](../../aspose.words.fields/field/result) { get; set; } | Получает или задает текст, который находится между разделителем полей и концом поля. |
+| [Result](../../aspose.words.fields/field/result) { get; set; } | Получает или задает текст, который находится между разделителем поля и концом поля. |
 | [Separator](../../aspose.words.fields/field/separator) { get; } | Получает узел, представляющий разделитель полей. Может быть нулевым. |
 | [Start](../../aspose.words.fields/field/start) { get; } | Получает узел, представляющий начало поля. |
 | [TextAfter](../../aspose.words.fields/fieldmergefield/textafter) { get; set; } | Получает или задает текст, который будет вставлен после поля, если поле не пустое. |
@@ -39,9 +39,9 @@ public class FieldMergeField : Field
 
 | Имя | Описание |
 | --- | --- |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode)() | Возвращает текст между началом поля и разделителем полей (или концом поля, если разделителя нет). Включены как код поля, так и результат дочерних полей. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode)() | Возвращает текст между началом поля и разделителем поля (или концом поля, если разделителя нет). Включены как код поля, так и результат поля дочерних полей. |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode)(bool) | Возвращает текст между началом поля и разделителем полей (или концом поля, если разделителя нет). |
-| [Remove](../../aspose.words.fields/field/remove)() | Удаляет поле из документа. Возвращает узел сразу после поля. Если конец поля является последним дочерним элементом его родительского узла, возвращает его родительский абзац. Если поле уже удалено, возвращает **null** . |
+| [Remove](../../aspose.words.fields/field/remove)() | Удаляет поле из документа. Возвращает узел сразу после поля. Если конец поля является последним child его родительского узла, возвращает его родительский абзац. Если поле уже удалено, возвращает **нулевой** . |
 | [Unlink](../../aspose.words.fields/field/unlink)() | Выполняет развязку поля. |
 | [Update](../../aspose.words.fields/field/update)() | Выполняет обновление поля. Выдает, если поле уже обновляется. |
 | [Update](../../aspose.words.fields/field/update)(bool) | Выполняет обновление поля. Выдает, если поле уже обновляется. |
@@ -52,7 +52,7 @@ public class FieldMergeField : Field
 
 ### Примеры
 
-Показывает, как использовать поля MERGEFIELD для выполнения слияния почты.
+Показывает, как использовать поля MERGEFIELD для выполнения слияния.
 
 ```csharp
 Document doc = new Document();

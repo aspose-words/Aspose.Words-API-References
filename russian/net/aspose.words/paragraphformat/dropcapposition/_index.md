@@ -1,14 +1,14 @@
 ---
 title: DropCapPosition
 second_title: Справочник по API Aspose.Words для .NET
-description: Получает или задает позицию для текста буквицы.
+description: Получает или задает положение текста буквицы.
 type: docs
 weight: 90
 url: /ru/net/aspose.words/paragraphformat/dropcapposition/
 ---
 ## ParagraphFormat.DropCapPosition property
 
-Получает или задает позицию для текста буквицы.
+Получает или задает положение текста буквицы.
 
 ```csharp
 public DropCapPosition DropCapPosition { get; set; }
@@ -23,26 +23,26 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Список позволяет нам организовывать и оформлять наборы абзацев префиксными символами и отступами.
- // Мы можем создавать вложенные списки, увеличивая уровень отступа. 
- // Мы можем начать и закончить список, используя свойство "ListFormat" конструктора документов. 
- // Каждый абзац, который мы добавляем между началом и концом списка, станет элементом списка.
- // Создаем список структуры для заголовков.
+// Мы можем создавать вложенные списки, увеличивая уровень отступа. 
+// Мы можем начать и закончить список, используя свойство "ListFormat" конструктора документов. 
+// Каждый абзац, который мы добавляем между началом и концом списка, станет элементом списка.
+// Создаем список структуры для заголовков.
 List outlineList = doc.Lists.Add(ListTemplate.OutlineNumbers);
 builder.ListFormat.List = outlineList;
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading1;
 builder.Writeln("This is my Chapter 1");
 
- // Создаем нумерованный список.
+// Создаем нумерованный список.
 List numberedList = doc.Lists.Add(ListTemplate.NumberDefault);
 builder.ListFormat.List = numberedList;
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Normal;
 builder.Writeln("Numbered list item 1.");
 
- // Каждый абзац, содержащий список, будет иметь этот флаг.
+// Каждый абзац, содержащий список, будет иметь этот флаг.
 Assert.True(builder.CurrentParagraph.IsListItem);
 Assert.True(builder.ParagraphFormat.IsListItem);
 
- // Создать маркированный список.
+// Создаем маркированный список.
 List bulletedList = doc.Lists.Add(ListTemplate.BulletDefault);
 builder.ListFormat.List = bulletedList;
 builder.ParagraphFormat.LeftIndent = 72;
@@ -55,7 +55,7 @@ builder.ListFormat.List = numberedList;
 builder.Writeln("Numbered list item 2.");
 builder.Writeln("Numbered list item 3.");
 
- // Возврат к списку структуры.
+// Возврат к списку контуров.
 builder.ListFormat.List = outlineList;
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading1;
 builder.Writeln("This is my Chapter 2");

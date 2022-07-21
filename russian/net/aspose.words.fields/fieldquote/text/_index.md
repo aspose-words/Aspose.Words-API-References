@@ -16,7 +16,7 @@ public string Text { get; set; }
 
 ### Примеры
 
-Показывает использование поля QUOTE.
+Показывает использование поля ЦИТАТА.
 
 ```csharp
 Document doc = new Document();
@@ -30,7 +30,7 @@ Assert.AreEqual(" QUOTE  \"\\\"Quoted text\\\"\"", field.GetFieldCode());
 
 // Вставляем поле ЦИТАТА и вкладываем в него поле ДАТА.
 // Поля ДАТА обновляют свое значение до текущей даты каждый раз, когда мы открываем документ с помощью Microsoft Word.
-// Вложение поля DATE внутрь поля QUOTE таким образом заморозит его значение
+// Такое вложение поля DATE внутрь поля QUOTE заморозит его значение
 // до даты создания документа.
 builder.Write("\nDocument creation date: ");
 field = (FieldQuote)builder.InsertField(FieldType.FieldQuote, true);

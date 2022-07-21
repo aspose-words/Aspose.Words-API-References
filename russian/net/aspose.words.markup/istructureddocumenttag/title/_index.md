@@ -1,14 +1,14 @@
 ---
 title: Title
 second_title: Справочник по API Aspose.Words для .NET
-description: Указывает понятное имя связанное с этим SDT . Не может быть нулевым.
+description: Указывает понятное имя связанное с этим СДТ . Не может быть нулевым.
 type: docs
 weight: 110
 url: /ru/net/aspose.words.markup/istructureddocumenttag/title/
 ---
 ## IStructuredDocumentTag.Title property
 
-Указывает понятное имя, связанное с этим **SDT** . Не может быть нулевым.
+Указывает понятное имя, связанное с этим **СДТ** . Не может быть нулевым.
 
 ```csharp
 public string Title { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: ImageWatermarkOptions
 second_title: Aspose.Words for .NET API 参考
-description: 包含在添加图像水印时可以指定的选项
+description: 包含在使用图像添加水印时可以指定的选项
 type: docs
-weight: 2970
+weight: 3020
 url: /zh/net/aspose.words/imagewatermarkoptions/
 ---
 ## ImageWatermarkOptions class
 
-包含在添加图像水印时可以指定的选项。
+包含在使用图像添加水印时可以指定的选项。
 
 ```csharp
 public class ImageWatermarkOptions
@@ -24,8 +24,8 @@ public class ImageWatermarkOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [IsWashout](../../aspose.words/imagewatermarkoptions/iswashout) { get; set; } | 获取或设置一个布尔值，负责水印的冲洗效果。 默认值为 True。 |
-| [Scale](../../aspose.words/imagewatermarkoptions/scale) { get; set; } | 获取或设置以图像分数表示的比例因子。默认值为 0 - 自动。 |
+| [IsWashout](../../aspose.words/imagewatermarkoptions/iswashout) { get; set; } | 获取或设置一个布尔值，负责水印的冲刷效果。 默认值为True。 |
+| [Scale](../../aspose.words/imagewatermarkoptions/scale) { get; set; } | 获取或设置以图像分数表示的比例因子。默认值为 0 - auto. |
 
 ### 也可以看看
 

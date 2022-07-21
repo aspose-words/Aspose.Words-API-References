@@ -1,14 +1,14 @@
 ---
 title: ShowBubbleSize
 second_title: Aspose.Words for .NET API 参考
-description: 允许指定是否为整个系列的数据标签显示气泡大小 仅适用于气泡图 默认值为 false 
+description: 允许指定是否为整个系列的数据标签显示气泡大小 仅适用于气泡图 默认值为 错误的.
 type: docs
 weight: 50
 url: /zh/net/aspose.words.drawing.charts/chartdatalabelcollection/showbubblesize/
 ---
 ## ChartDataLabelCollection.ShowBubbleSize property
 
-允许指定是否为整个系列的数据标签显示气泡大小。 仅适用于气泡图。 默认值为 **false** 。
+允许指定是否为整个系列的数据标签显示气泡大小。 仅适用于气泡图。 默认值为 **错误的**.
 
 ```csharp
 public bool ShowBubbleSize { get; set; }
@@ -16,7 +16,7 @@ public bool ShowBubbleSize { get; set; }
 
 ### 评论
 
-可以使用 为单个数据标签覆盖为此属性定义的值[`ShowBubbleSize`](../../chartdatalabel/showbubblesize)属性。
+可以使用 为单个数据标签覆盖为此属性定义的值[`ShowBubbleSize`](../../chartdatalabel/showbubblesize)属性.
 
 ### 例子
 

@@ -16,7 +16,7 @@ public Paragraph FirstParagraph { get; }
 
 ### 例子
 
-显示如何创建和格式化文本框。
+演示如何创建和格式化文本框。
 
 ```csharp
 Document doc = new Document();

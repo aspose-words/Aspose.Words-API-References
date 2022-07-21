@@ -1,14 +1,14 @@
 ---
 title: ScalingFactor
 second_title: Справочник по API Aspose.Words для .NET
-description: Получает или задает масштабный коэффициент для символа. Значение указано в целых процентах и действительные значения10 1000
+description: Получает или задает масштабный коэффициент для символа. Значение указано в целых процентах допустимые значения 10 1000 .
 type: docs
 weight: 120
 url: /ru/net/aspose.words.fields/fielddisplaybarcode/scalingfactor/
 ---
 ## FieldDisplayBarcode.ScalingFactor property
 
-Получает или задает масштабный коэффициент для символа. Значение указано в целых процентах, и действительные значения:[10, 1000]
+Получает или задает масштабный коэффициент для символа. Значение указано в целых процентах, допустимые значения: [10, 1000] .
 
 ```csharp
 public string ScalingFactor { get; set; }
@@ -16,7 +16,7 @@ public string ScalingFactor { get; set; }
 
 ### Примеры
 
-Показывает, как вставить поле DISPLAYBARCODE и установить его свойства.
+Показывает, как вставить поле DISPLAYBARCODE и задать его свойства.
 
 ```csharp
 Document doc = new Document();

@@ -18,7 +18,7 @@ public class ChartTitle
 
 | Имя | Описание |
 | --- | --- |
-| [Overlay](../../aspose.words.drawing.charts/charttitle/overlay) { get; set; } | Определяет, разрешено ли другим элементам диаграммы перекрывать заголовок. По умолчанию оверлей имеет значение false. |
+| [Overlay](../../aspose.words.drawing.charts/charttitle/overlay) { get; set; } | Определяет, разрешено ли другим элементам диаграммы перекрывать заголовок. По умолчанию наложение равно false. |
 | [Show](../../aspose.words.drawing.charts/charttitle/show) { get; set; } | Определяет, будет ли отображаться заголовок для этой диаграммы. Значение по умолчанию — true. |
 | [Text](../../aspose.words.drawing.charts/charttitle/text) { get; set; } | Получает или задает текст заголовка диаграммы. Если указано нулевое или пустое значение, будет показан автоматически сгенерированный заголовок. |
 

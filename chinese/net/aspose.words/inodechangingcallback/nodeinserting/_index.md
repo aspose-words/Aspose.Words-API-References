@@ -1,14 +1,14 @@
 ---
 title: NodeInserting
 second_title: Aspose.Words for .NET API 参考
-description: 在属于该文档的节点即将插入另一个节点之前调用
+description: 在属于本文档的节点即将插入另一个节点之前调用
 type: docs
 weight: 20
 url: /zh/net/aspose.words/inodechangingcallback/nodeinserting/
 ---
 ## INodeChangingCallback.NodeInserting method
 
-在属于该文档的节点即将插入另一个节点之前调用。
+在属于本文档的节点即将插入另一个节点之前调用。
 
 ```csharp
 public void NodeInserting(NodeChangingArgs args)

@@ -1,14 +1,14 @@
 ---
 title: ParentParagraph
 second_title: Aspose.Words for .NET API 参考
-description: 检索此节点的父Paragraphaspose.words/paragraph
+description: 检索父级Paragraphaspose.words/paragraph这个节点的.
 type: docs
 weight: 60
 url: /zh/net/aspose.words.math/officemath/parentparagraph/
 ---
 ## OfficeMath.ParentParagraph property
 
-检索此节点的父[`Paragraph`](../../../aspose.words/paragraph)。
+检索父级[`Paragraph`](../../../aspose.words/paragraph)这个节点的.
 
 ```csharp
 public Paragraph ParentParagraph { get; }
@@ -16,7 +16,7 @@ public Paragraph ParentParagraph { get; }
 
 ### 例子
 
-说明如何设置办公室数学显示格式。
+显示如何设置办公室数学显示格式。
 
 ```csharp
 Document doc = new Document(MyDir + "Office math.docx");

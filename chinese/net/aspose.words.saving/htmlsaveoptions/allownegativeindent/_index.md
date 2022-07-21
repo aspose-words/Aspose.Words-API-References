@@ -1,14 +1,14 @@
 ---
 title: AllowNegativeIndent
 second_title: Aspose.Words for .NET API 参考
-description: 指定在保存为 HTMLMHTML 或 EPUB 时是否规范段落的负左缩进和右缩进 默认值为 false 
+description: 指定在保存为 HTMLMHTML 或 EPUB 时是否对段落的负左缩进和右缩进进行规范化 默认值为错误的.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.saving/htmlsaveoptions/allownegativeindent/
 ---
 ## HtmlSaveOptions.AllowNegativeIndent property
 
-指定在保存为 HTML、MHTML 或 EPUB 时是否规范段落的负左缩进和右缩进 。默认值为` false` 。
+指定在保存为 HTML、MHTML 或 EPUB 时是否对段落的负左缩进和右缩进进行规范化 。默认值为`错误的`.
 
 ```csharp
 public bool AllowNegativeIndent { get; set; }
@@ -16,7 +16,7 @@ public bool AllowNegativeIndent { get; set; }
 
 ### 评论
 
-当不允许负缩进时，它作为零边距导出到 HTML。 当允许负缩进时，段落可能会部分出现在 浏览器窗口之外。
+当不允许负缩进时，它将作为零边距导出到 HTML。 当允许负缩进时，段落可能会部分出现在 浏览器窗口之外。
 
 ### 例子
 

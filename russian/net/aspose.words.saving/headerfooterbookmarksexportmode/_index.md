@@ -3,7 +3,7 @@ title: HeaderFooterBookmarksExportMode
 second_title: Справочник по API Aspose.Words для .NET
 description: Указывает как экспортируются закладки в верхних/нижних колонтитулах.
 type: docs
-weight: 4740
+weight: 4790
 url: /ru/net/aspose.words.saving/headerfooterbookmarksexportmode/
 ---
 ## HeaderFooterBookmarksExportMode enumeration
@@ -24,7 +24,7 @@ public enum HeaderFooterBookmarksExportMode
 
 ### Примеры
 
-Показывает, как обрабатывать закладки в верхних/нижних колонтитулах в документе, который мы конвертируем в PDF.
+Показывает, как обрабатывать закладки в верхних/нижних колонтитулах в документе, который мы преобразуем в PDF.
 
 ```csharp
 Document doc = new Document(MyDir + "Bookmarks in headers and footers.docx");

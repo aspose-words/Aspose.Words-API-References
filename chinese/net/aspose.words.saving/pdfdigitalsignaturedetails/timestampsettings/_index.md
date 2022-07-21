@@ -16,11 +16,11 @@ public PdfDigitalSignatureTimestampSettings TimestampSettings { get; set; }
 
 ### 评论
 
-默认值为空，数字签名不会加时间戳。 当此属性设置为有效的[`PdfDigitalSignatureTimestampSettings`](../../pdfdigitalsignaturetimestampsettings)object, 时，PDF 文档中的数字签名将有时间戳。
+默认值为空，数字签名不会加时间戳。 当此属性设置为有效时[`PdfDigitalSignatureTimestampSettings`](../../pdfdigitalsignaturetimestampsettings)object, 则 PDF 文档中的数字签名将被加盖时间戳。
 
 ### 例子
 
-显示如何对保存的 PDF 文档进行数字签名并为其添加时间戳。
+展示如何以数字方式签署已保存的 PDF 文档并为其添加时间戳。
 
 ```csharp
 Document doc = new Document();

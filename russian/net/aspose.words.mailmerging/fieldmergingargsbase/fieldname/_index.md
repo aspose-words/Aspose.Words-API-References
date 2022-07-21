@@ -16,22 +16,21 @@ public string FieldName { get; }
 
 ### Примечания
 
-Если у вас есть сопоставление имени поля документа с другим именем поля источника данных, то это имя сопоставленного поля.
+Если у вас есть сопоставление имени поля документа с другим именем поля источника данных, , то это имя сопоставленного поля.
 
-Если вы указали в документе префикс имени поля, например "Image:MyFieldName", то **FieldName** возвращает имя поля без префикса, то есть "MyFieldName".
+Если вы указали в документе префикс имени поля, например «Image:MyFieldName», , то **Имя поля** возвращает имя поля без префикса, то есть "MyFieldName".
 
 ### Примеры
 
 Показывает, как вставлять поля формы флажка в поля MERGEFIELD в качестве данных слияния во время слияния почты.
 
 ```csharp
-public void InsertCheckBox()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-     // Используйте MERGEFIELD с тегами "TableStart"/"TableEnd", чтобы определить слияние region
-     // который принадлежит источнику данных с именем "StudentCourse" и имеет поле MERGEFIELD, которое принимает данные из столбца с именем "CourseName".
+    // Используйте MERGEFIELD с тегами "TableStart"/"TableEnd" для определения области слияния почты
+    // который принадлежит источнику данных с именем "StudentCourse" и имеет поле MERGEFIELD, которое принимает данные из столбца с именем "CourseName".
     builder.StartTable();
     builder.InsertCell();
     builder.InsertField(" MERGEFIELD  TableStart:StudentCourse ");
@@ -47,15 +46,14 @@ public void InsertCheckBox()
 
     doc.MailMerge.ExecuteWithRegions(dataTable);
     doc.Save(ArtifactsDir + "MailMergeEvent.InsertCheckBox.docx");
-}
 
 /// <summary>
- /// При обнаружении MERGEFIELD с определенным именем вставляет поле формы флажка вместо текста данных слияния.
+/// При обнаружении MERGEFIELD с определенным именем вставляет поле формы флажка вместо текста данных слияния.
 /// </summary>
 private class HandleMergeFieldInsertCheckBox : IFieldMergingCallback
 {
     /// <summary>
-     /// Вызывается, когда слияние почты объединяет данные в MERGEFIELD.
+    /// Вызывается, когда слияние почты объединяет данные в MERGEFIELD.
     /// </summary>
     void IFieldMergingCallback.FieldMerging(FieldMergingArgs args)
     {
@@ -69,7 +67,7 @@ private class HandleMergeFieldInsertCheckBox : IFieldMergingCallback
 
             string fieldValue = args.FieldValue.ToString();
 
-             // В этом случае для каждой записи с индексом 'n' соответствующее значение поля равно "Курс n".
+            // В этом случае для каждой записи с индексом 'n' соответствующее значение поля равно "Курс n".
             Assert.AreEqual(char.GetNumericValue(fieldValue[7]), args.RecordIndex);
 
             builder.Write(fieldValue);
@@ -79,14 +77,14 @@ private class HandleMergeFieldInsertCheckBox : IFieldMergingCallback
 
     void IFieldMergingCallback.ImageFieldMerging(ImageFieldMergingArgs args)
     {
-         // Ничего не делать.
+        // Ничего не делать.
     }
 
     private int mCheckBoxCount;
 }
 
 /// <summary>
- /// Создает источник данных слияния почты.
+/// Создает источник данных слияния почты.
 /// </summary>
 private static DataTable GetStudentCourseDataTable()
 {

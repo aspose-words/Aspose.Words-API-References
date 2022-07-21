@@ -20,7 +20,7 @@ public void SetPassword(string password)
 
 ### 评论
 
-如果设置了密码，Microsoft Word 将要求用户输入密码或打开 文档为只读。
+如果设置了密码，Microsoft Word 将要求用户输入密码或以只读方式打开 文档。
 
 ### 例子
 

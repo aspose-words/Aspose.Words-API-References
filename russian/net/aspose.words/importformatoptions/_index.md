@@ -3,7 +3,7 @@ title: ImportFormatOptions
 second_title: Справочник по API Aspose.Words для .NET
 description: Позволяет указать различные параметры импорта для форматирования вывода.
 type: docs
-weight: 2990
+weight: 3040
 url: /ru/net/aspose.words/importformatoptions/
 ---
 ## ImportFormatOptions class
@@ -24,12 +24,12 @@ public class ImportFormatOptions
 
 | Имя | Описание |
 | --- | --- |
-| [ForceCopyStyles](../../aspose.words/importformatoptions/forcecopystyles) { get; set; } | Получает или задает логическое значение, указывающее либо копировать конфликтующие стили вKeepSourceFormattingРежим. Значение по умолчанию:` false` . |
-| [IgnoreHeaderFooter](../../aspose.words/importformatoptions/ignoreheaderfooter) { get; set; } | Получает или задает логическое значение, указывающее, что исходное форматирование содержимого верхних и нижних колонтитулов игнорируется ifKeepSourceFormatting. Значение по умолчанию:` true` . |
-| [IgnoreTextBoxes](../../aspose.words/importformatoptions/ignoretextboxes) { get; set; } | Получает или задает логическое значение, указывающее, что исходное форматирование содержимого текстовых полей игнорируется ifKeepSourceFormatting. Значение по умолчанию:` true` . |
-| [KeepSourceNumbering](../../aspose.words/importformatoptions/keepsourcenumbering) { get; set; } | Получает или задает логическое значение, указывающее, как будет импортироваться нумерация, если она конфликтует в исходном и целевом документах. Значение по умолчанию:` false` . |
-| [MergePastedLists](../../aspose.words/importformatoptions/mergepastedlists) { get; set; } | Получает или задает логическое значение, указывающее, будут ли вставленные списки объединяться с окружающими списками. Значение по умолчанию:` false` . |
-| [SmartStyleBehavior](../../aspose.words/importformatoptions/smartstylebehavior) { get; set; } | Получает или задает логическое значение, указывающее, как будут импортироваться стили , когда они имеют одинаковые имена в исходном и целевом документах. Значение по умолчанию:` false` . |
+| [ForceCopyStyles](../../aspose.words/importformatoptions/forcecopystyles) { get; set; } | Получает или задает логическое значение, указывающее либо на копирование конфликтующих стилей вKeepSourceFormatting mode. Значение по умолчанию:`ЛОЖЬ` . |
+| [IgnoreHeaderFooter](../../aspose.words/importformatoptions/ignoreheaderfooter) { get; set; } | Получает или задает логическое значение, указывающее, что исходное форматирование содержимого верхних и нижних колонтитулов игнорируется , еслиKeepSourceFormatting используется режим. Значение по умолчанию:`истинный` . |
+| [IgnoreTextBoxes](../../aspose.words/importformatoptions/ignoretextboxes) { get; set; } | Получает или задает логическое значение, указывающее, что исходное форматирование содержимого текстовых полей игнорируется , еслиKeepSourceFormatting используется режим. Значение по умолчанию:`истинный` . |
+| [KeepSourceNumbering](../../aspose.words/importformatoptions/keepsourcenumbering) { get; set; } | Получает или задает логическое значение, указывающее, как будет импортироваться нумерация, если она конфликтует в исходном и целевом документах. Значение по умолчанию:`ЛОЖЬ` . |
+| [MergePastedLists](../../aspose.words/importformatoptions/mergepastedlists) { get; set; } | Получает или задает логическое значение, указывающее, будут ли вставленные списки объединяться с окружающими списками. Значение по умолчанию:`ЛОЖЬ` . |
+| [SmartStyleBehavior](../../aspose.words/importformatoptions/smartstylebehavior) { get; set; } | Получает или задает логическое значение, указывающее, как будут импортироваться стили , если они имеют одинаковые имена в исходном и целевом документах. Значение по умолчанию:`ЛОЖЬ` . |
 
 ### Примеры
 

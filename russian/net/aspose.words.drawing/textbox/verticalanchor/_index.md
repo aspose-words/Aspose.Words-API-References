@@ -16,7 +16,7 @@ public TextBoxAnchor VerticalAnchor { get; set; }
 
 ### Примечания
 
-Значение по умолчанию:Верхний.
+Значение по умолчаниюTop.
 
 ### Примеры
 

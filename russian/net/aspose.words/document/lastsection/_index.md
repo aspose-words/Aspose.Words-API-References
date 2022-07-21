@@ -16,7 +16,7 @@ public Section LastSection { get; }
 
 ### Примечания
 
-Возвращает` null` , если есть нет разделов.
+Возвращает`нулевой` если разделов нет.
 
 ### Примеры
 
@@ -25,11 +25,11 @@ public Section LastSection { get; }
 ```csharp
 Document doc = new Document();
 
- // Пустой документ по умолчанию содержит один раздел, 
- // который содержит дочерние узлы, которые мы можем редактировать.
+// Пустой документ по умолчанию содержит один раздел,
+// который содержит дочерние узлы, которые мы можем редактировать.
 Assert.AreEqual(1, doc.Sections.Count);
 
- // Используйте конструктор документов, чтобы добавить текст в первый раздел.
+// Используйте конструктор документов, чтобы добавить текст в первый раздел.
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world!");
 
@@ -38,9 +38,9 @@ builder.InsertBreak(BreakType.SectionBreakNewPage);
 
 Assert.AreEqual(2, doc.Sections.Count);
 
- // Каждый раздел имеет свои настройки настройки страницы.
- // Мы можем разделить текст во втором разделе на две колонки.
- // Это не повлияет на текст в первом разделе.
+// Каждый раздел имеет свои настройки настройки страницы.
+// Мы можем разделить текст во втором разделе на две колонки.
+// Это не повлияет на текст в первом разделе.
 doc.LastSection.PageSetup.TextColumns.SetCount(2);
 builder.Writeln("Column 1.");
 builder.InsertBreak(BreakType.ColumnBreak);

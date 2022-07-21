@@ -24,11 +24,11 @@ public int IndexOf(Node node)
 
 ### 评论
 
-此方法执行线性搜索；因此，平均执行时间与 Count 成正比。
+该方法执行线性搜索；因此，平均执行时间与 Count 成正比。
 
 ### 例子
 
-显示如何获取集合中节点的索引。
+演示如何获取集合中节点的索引。
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");

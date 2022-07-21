@@ -1,14 +1,14 @@
 ---
 title: BarcodeValue
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置条形码值
+description: 获取或设置条码值
 type: docs
 weight: 50
 url: /zh/net/aspose.words.fields/fielddisplaybarcode/barcodevalue/
 ---
 ## FieldDisplayBarcode.BarcodeValue property
 
-获取或设置条形码值。
+获取或设置条码值。
 
 ```csharp
 public string BarcodeValue { get; set; }
@@ -16,7 +16,7 @@ public string BarcodeValue { get; set; }
 
 ### 例子
 
-显示如何插入 DISPLAYBARCODE 字段并设置其属性。
+演示如何插入 DISPLAYBARCODE 字段并设置其属性。
 
 ```csharp
 Document doc = new Document();

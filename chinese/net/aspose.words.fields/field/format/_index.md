@@ -1,14 +1,14 @@
 ---
 title: Format
 second_title: Aspose.Words for .NET API 参考
-description: 获取FieldFormataspose.words.fields/fieldformat对象该对象提供对字段格式的类型化访问
+description: 得到一个FieldFormataspose.words.fields/fieldformat提供对字段格式的类型化访问的对象
 type: docs
 weight: 30
 url: /zh/net/aspose.words.fields/field/format/
 ---
 ## Field.Format property
 
-获取[`FieldFormat`](../../fieldformat)对象，该对象提供对字段格式的类型化访问。
+得到一个[`FieldFormat`](../../fieldformat)提供对字段格式的类型化访问的对象。
 
 ```csharp
 public FieldFormat Format { get; }

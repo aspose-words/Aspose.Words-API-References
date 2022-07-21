@@ -3,7 +3,7 @@ title: IPageLayoutCallback
 second_title: Aspose.Words for .NET API 参考
 description: 如果您想在页面布局模型的构建和渲染过程中调用自己的自定义方法请实现此接口
 type: docs
-weight: 3060
+weight: 3110
 url: /zh/net/aspose.words.layout/ipagelayoutcallback/
 ---
 ## IPageLayoutCallback interface
@@ -24,7 +24,7 @@ public interface IPageLayoutCallback
 
 此接口的主要用途是允许应用程序代码中止构建过程。
 
-可以在文档开始时仅为几页构建页面布局模型，然后中止进程并仅渲染已经构建的内容。
+可以在文档开始时仅为几页构建页面布局模型，然后中止进程并仅呈现已经构建的内容。
 
 但是请注意，如果进程完成，渲染结果可能与每个页面的渲染结果不匹配。
 
@@ -32,7 +32,7 @@ public interface IPageLayoutCallback
 
 ### 例子
 
-显示如何使用布局回调。
+展示如何使用布局回调跟踪布局更改。
 
 ```csharp
 [Test]
@@ -51,8 +51,8 @@ public void PageLayoutCallback()
 }
 
 /// <summary>
- /// 当我们将文档保存到固定页面时通知我们 format
- /// 并渲染一个页面，我们在本地文件系统中的图像上执行页面回流。
+/// 当我们将文档保存为固定页面格式时通知我们
+/// 并渲染一个页面，我们在本地文件系统中的图像上执行页面回流。
 /// </summary>
 private class RenderPageLayoutCallback : IPageLayoutCallback
 {

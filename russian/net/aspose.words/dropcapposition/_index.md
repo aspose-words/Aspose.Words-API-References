@@ -1,14 +1,14 @@
 ---
 title: DropCapPosition
 second_title: Справочник по API Aspose.Words для .NET
-description: Задает положение текста буквицы.
+description: Определяет положение текста буквицы.
 type: docs
-weight: 1240
+weight: 1260
 url: /ru/net/aspose.words/dropcapposition/
 ---
 ## DropCapPosition enumeration
 
-Задает положение текста буквицы.
+Определяет положение текста буквицы.
 
 ```csharp
 public enum DropCapPosition
@@ -19,8 +19,8 @@ public enum DropCapPosition
 | Имя | Ценность | Описание |
 | --- | --- | --- |
 | None | `0` | Абзац не имеет буквицы. |
-| Normal | `1` | Буквица располагается внутри поля текста в абзаце привязки. |
-| Margin | `2` | Буквица располагается за пределами поля текста в абзаце привязки. |
+| Normal | `1` | Буквица расположена внутри текстового поля анкорного абзаца. |
+| Margin | `2` | Буквица расположена за пределами поля текста в абзаце привязки. |
 
 ### Примеры
 

@@ -1,14 +1,14 @@
 ---
 title: ExportDocumentProperties
 second_title: Aspose.Words for .NET API 参考
-description: 指定是否将内置和自定义文档属性导出为 HTMLMHTML 或 EPUB 默认值为 false 
+description: 指定是否将内置和自定义文档属性导出为 HTMLMHTML 或 EPUB 默认值为错误的.
 type: docs
 weight: 130
 url: /zh/net/aspose.words.saving/htmlsaveoptions/exportdocumentproperties/
 ---
 ## HtmlSaveOptions.ExportDocumentProperties property
 
-指定是否将内置和自定义文档属性导出为 HTML、MHTML 或 EPUB。 默认值为` false` 。
+指定是否将内置和自定义文档属性导出为 HTML、MHTML 或 EPUB。 默认值为`错误的`.
 
 ```csharp
 public bool ExportDocumentProperties { get; set; }
@@ -16,7 +16,7 @@ public bool ExportDocumentProperties { get; set; }
 
 ### 例子
 
-显示在将文档保存到 .epub 时如何使用特定编码。
+显示将文档保存到 .epub 时如何使用特定编码。
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");

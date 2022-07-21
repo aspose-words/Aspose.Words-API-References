@@ -16,9 +16,9 @@ public double TintAndShade { get; set; }
 
 ### 评论
 
-允许的值在 -1（最暗）到 1（最亮）的范围内财产。 零 (0) 是中性的。尝试将此属性设置为小于 -1 或大于 1 的值会导致ArgumentOutOfRangeException。
+此属性的允许值范围为 -1（最暗）到 1（最亮）。 零 (0) 表示中性。尝试将此属性设置为小于 -1 或大于 1 的值会导致ArgumentOutOfRangeException.
 
-为具有非主题颜色的字体对象设置此属性 会导致InvalidOperationException.
+为具有非主题颜色 的字体对象设置此属性会导致InvalidOperationException.
 
 ### 例子
 

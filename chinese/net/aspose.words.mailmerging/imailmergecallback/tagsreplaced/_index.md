@@ -1,14 +1,14 @@
 ---
 title: TagsReplaced
 second_title: Aspose.Words for .NET API 参考
-description: 当mustache文本标签被 MERGEFIELD 字段替换时调用
+description: 当mustache文本标签替换为 MERGEFIELD 字段时调用
 type: docs
 weight: 10
 url: /zh/net/aspose.words.mailmerging/imailmergecallback/tagsreplaced/
 ---
 ## IMailMergeCallback.TagsReplaced method
 
-当“mustache”文本标签被 MERGEFIELD 字段替换时调用。
+当“mustache”文本标签替换为 MERGEFIELD 字段时调用。
 
 ```csharp
 public void TagsReplaced()
@@ -16,7 +16,7 @@ public void TagsReplaced()
 
 ### 例子
 
-显示如何定义自定义处理逻辑邮件合并期间的事件。
+展示如何定义自定义逻辑以在邮件合并期间处理事件。
 
 ```csharp
 public void Callback()
@@ -24,21 +24,21 @@ public void Callback()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-     // 插入引用数据源中两列的两个邮件合并标签。
+    // 在数据源中插入两个引用两列的邮件合并标签。
     builder.Write("{{FirstName}}");
     builder.Write("{{LastName}}");
 
-     // 创建一个仅包含我们的合并标签引用的列之一的数据源。
+    // 创建一个只包含我们的合并标签引用的列之一的数据源。
     DataTable table = new DataTable("Test");
     table.Columns.Add("FirstName");
     table.Rows.Add("John");
     table.Rows.Add("Jane");
 
-     // 配置我们的邮件合并以使用替代邮件合并标签。
+    // 配置我们的邮件合并以使用替代邮件合并标签。
     doc.MailMerge.UseNonMergeFields = true;
 
-     // 然后，确保邮件合并会转换标签，比如我们的“LastName”标签，
-     // 进入合并文档中的 MERGEFIELDs.
+    // 然后，确保邮件合并会转换标签，比如我们的“LastName”标签，
+    // 进入合并文档中的 MERGEFIELD。
     doc.MailMerge.PreserveUnusedTags = false;
 
     MailMergeTagReplacementCounter counter = new MailMergeTagReplacementCounter();
@@ -49,8 +49,7 @@ public void Callback()
 }
 
 /// <summary>
-/// 计算邮件合并用 MERGEFIELDs.
- 替换无法用数据填充的邮件合并标签的次数
+/// 计算邮件合并替换无法使用 MERGEFIELD 数据填充的邮件合并标记的次数。
 /// </summary>
 private class MailMergeTagReplacementCounter : IMailMergeCallback
 {

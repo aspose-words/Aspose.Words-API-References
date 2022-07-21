@@ -3,7 +3,7 @@ title: CustomPart
 second_title: Aspose.Words for .NET API 参考
 description: 表示 ISO/IEC 29500 标准未定义的自定义任意内容部分
 type: docs
-weight: 3610
+weight: 3660
 url: /zh/net/aspose.words.markup/custompart/
 ---
 ## CustomPart class
@@ -26,25 +26,25 @@ public class CustomPart
 | --- | --- |
 | [ContentType](../../aspose.words.markup/custompart/contenttype) { get; set; } | 指定此自定义部件的内容类型。 |
 | [Data](../../aspose.words.markup/custompart/data) { get; set; } | 包含此自定义零件的数据。 |
-| [IsExternal](../../aspose.words.markup/custompart/isexternal) { get; set; } | ` False` 如果此自定义部件存储在 OOXML 包中。` True` 如果此自定义部件是外部目标。 |
-| [Name](../../aspose.words.markup/custompart/name) { get; set; } | 获取或设置该部分在 OOXML 包或目标 URL 中的绝对名称。 |
+| [IsExternal](../../aspose.words.markup/custompart/isexternal) { get; set; } | `错误的`如果此自定义部件存储在 OOXML 包中。`真的`如果此自定义部件是外部目标。 |
+| [Name](../../aspose.words.markup/custompart/name) { get; set; } | 获取或设置此部分在 OOXML 包或目标 URL 中的绝对名称。 |
 | [RelationshipType](../../aspose.words.markup/custompart/relationshiptype) { get; set; } | 获取或设置从父部件到此自定义部件的关系类型。 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Clone](../../aspose.words.markup/custompart/clone)() | 制作对象的“足够深”的副本。 不复制[`Data`](./data)值的字节。 |
+| [Clone](../../aspose.words.markup/custompart/clone)() | 制作对象的“足够深”的副本。 不复制[`Data`](./data)值. |
 
 ### 评论
 
-此类表示作为“未知关系”目标的 OOXML 部分。 ISO/IEC 29500 中未定义的所有关系都被视为“未知关系”。 Office Open XML 文档中允许存在未知关系，前提是它们 符合关系标记准则。
+此类表示作为“未知关系”目标的 OOXML 部分。 未在 ISO/IEC 29500 中定义的所有关系都被视为“未知关系”。 Office Open XML 文档中允许存在未知关系，前提是它们 符合关系标记指南。
 
-Microsoft Word 在打开/保存循环期间保留自定义部件。可以在此处找到一些其他信息 http://blogs.msdn.com/dmahugh/archive/2006/11/25/arbitrary-content-in-an-opc-package.aspx
+Microsoft Word 在打开/保存周期中保留自定义部分。一些额外的信息可以在这里找到 http://blogs.msdn.com/dmahugh/archive/2006/11/25/arbitrary-content-in-an-opc-package.aspx
 
-Aspose.Words 还可以往返自定义部件，此外，还允许通过:::R5:T:Aspose.Words 以编程方式访问 此类部件。 Markup.CustomPart:::和[`CustomPartCollection`](../custompartcollection)对象。
+Aspose.Words 还往返自定义部件，此外，允许通过编程访问 这样的部件[`CustomPart`](../custompart)和[`CustomPartCollection`](../custompartcollection)对象。
 
-不要将自定义部件与自定义 XML 数据混淆。使用[`CustomXmlPart`](../customxmlpart)如果您需要 来访问自定义 XML 数据。
+不要将自定义部件与自定义 XML 数据混淆。利用[`CustomXmlPart`](../customxmlpart)如果您需要 来访问自定义 XML 数据。
 
 ### 例子
 

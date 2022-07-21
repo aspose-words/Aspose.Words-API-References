@@ -3,7 +3,7 @@ title: ResourceLoadingAction
 second_title: Aspose.Words for .NET API 参考
 description: 指定资源加载的模式
 type: docs
-weight: 3430
+weight: 3480
 url: /zh/net/aspose.words.loading/resourceloadingaction/
 ---
 ## ResourceLoadingAction enumeration
@@ -19,12 +19,12 @@ public enum ResourceLoadingAction
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
 | Default | `0` | Aspose.Words 将照常加载此资源。 |
-| Skip | `1` | Aspose.Words 将跳过加载此资源。 图片只存储没有数据的链接，HTML 格式的 CSS 样式表将被忽略。 |
-| UserProvided | `2` | Aspose.Words 将使用用户在Byte[])中提供的字节数组作为资源数据。 |
+| Skip | `1` | Aspose.Words 将跳过加载此资源。 只为图像存储没有数据的链接，HTML 格式将忽略 CSS 样式表。 |
+| UserProvided | `2` | Aspose.Words 将使用用户提供的字节数组[`SetData`](../resourceloadingargs/setdata)作为资源数据。 |
 
 ### 例子
 
-显示如何自定义将外部资源加载到文档中的过程。
+展示如何自定义将外部资源加载到文档中的过程。
 
 ```csharp
 {

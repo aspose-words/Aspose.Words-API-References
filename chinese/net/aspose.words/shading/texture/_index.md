@@ -16,7 +16,7 @@ public TextureIndex Texture { get; set; }
 
 ### 例子
 
-展示如何用边框和阴影装饰文本。
+展示如何用边框和底纹装饰文本。
 
 ```csharp
 Document doc = new Document();

@@ -20,7 +20,7 @@ public bool MoveNext()
 
 ### Примеры
 
-Показывает, как выполнить слияние почты с источником данных в виде пользовательского объекта.
+Показывает, как выполнить слияние с источником данных в виде пользовательского объекта.
 
 ```csharp
 public void CustomDataSource()
@@ -35,7 +35,7 @@ public void CustomDataSource()
     customers.Add(new Customer("Thomas Hardy", "120 Hanover Sq., London"));
     customers.Add(new Customer("Paolo Accorti", "Via Monte Bianco 34, Torino"));
 
-     // Чтобы использовать пользовательский объект в качестве источника данных, он должен реализовать интерфейс IMailMergeDataSource. 
+    // Чтобы использовать пользовательский объект в качестве источника данных, он должен реализовать интерфейс IMailMergeDataSource. 
     CustomerMailMergeDataSource dataSource = new CustomerMailMergeDataSource(customers);
 
     doc.MailMerge.Execute(dataSource);
@@ -44,7 +44,7 @@ public void CustomDataSource()
 }
 
 /// <summary>
- /// Пример класса "объект данных" в вашем приложении.
+/// Пример класса "объект данных" в вашем приложении.
 /// </summary>
 public class Customer
 {
@@ -59,7 +59,7 @@ public class Customer
 }
 
 /// <summary>
- /// Пользовательский источник данных слияния, который вы реализуете, чтобы разрешить Aspose.Words 
+/// Пользовательский источник данных слияния, который вы реализуете, чтобы позволить Aspose.Words 
 /// для отправки данных слияния из ваших объектов Customer в документы Microsoft Word.
 /// </summary>
 public class CustomerMailMergeDataSource : IMailMergeDataSource
@@ -68,12 +68,12 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
     {
         mCustomers = customers;
 
-         // Когда мы инициализируем источник данных, его позиция должна быть перед первой записью.
+        // Когда мы инициализируем источник данных, его позиция должна быть перед первой записью.
         mRecordIndex = -1;
     }
 
     /// <summary>
-     /// Имя источника данных. Используется Aspose.Words только при выполнении слияния почты с повторяемыми регионами.
+    /// Имя источника данных. Используется Aspose.Words только при выполнении слияния почты с повторяемыми областями.
     /// </summary>
     public string TableName
     {
@@ -81,7 +81,7 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
     }
 
     /// <summary>
-     /// Aspose.Words вызывает этот метод, чтобы получить значение для каждого поля данных.
+    /// Aspose.Words вызывает этот метод, чтобы получить значение для каждого поля данных.
     /// </summary>
     public bool GetValue(string fieldName, out object fieldValue)
     {
@@ -94,15 +94,15 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
                 fieldValue = mCustomers[mRecordIndex].Address;
                 return true;
             default:
-                 // Возвращаем "false" механизму слияния почты Aspose.Words для signify
-                 // что мы не смогли найти поле с таким именем.
+                // Возвращаем "false" механизму слияния почты Aspose.Words, чтобы обозначить
+                // что мы не смогли найти поле с таким именем.
                 fieldValue = null;
                 return false;
         }
     }
 
     /// <summary>
-     /// Стандартная реализация перехода к следующей записи в коллекции.
+    /// Стандартная реализация перехода к следующей записи в коллекции.
     /// </summary>
     public bool MoveNext()
     {

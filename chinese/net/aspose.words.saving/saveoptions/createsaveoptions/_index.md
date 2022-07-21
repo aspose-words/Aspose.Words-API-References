@@ -16,11 +16,11 @@ public static SaveOptions CreateSaveOptions(SaveFormat saveFormat)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| saveFormat | SaveFormat | 为其创建保存选项对象的保存格式。 |
+| saveFormat | SaveFormat | 要为其创建保存选项对象的保存格式。 |
 
 ### 返回值
 
-派生自[`SaveOptions`](../../saveoptions)的类的对象。
+派生自的类的对象[`SaveOptions`](../../saveoptions).
 
 ### 例子
 
@@ -60,11 +60,11 @@ public static SaveOptions CreateSaveOptions(string fileName)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| fileName | String | 此文件名的扩展名决定了要创建的保存选项对象的类。 |
+| fileName | String | 此文件名的扩展名确定要创建的保存选项对象的类。 |
 
 ### 返回值
 
-派生自[`SaveOptions`](../../saveoptions)的类的对象。
+派生自的类的对象[`SaveOptions`](../../saveoptions).
 
 ### 例子
 

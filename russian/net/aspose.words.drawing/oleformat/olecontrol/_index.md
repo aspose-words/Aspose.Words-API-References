@@ -1,14 +1,14 @@
 ---
 title: OleControl
 second_title: Справочник по API Aspose.Words для .NET
-description: Получает объектыOleControlaspose.words.drawing/oleformat/olecontrol если этот объект OLE является элементом управления ActiveX. В противном случае это свойство равно null.
+description: получаетOleControlaspose.words.drawing/oleformat/olecontrol объекты если этот объект OLE является элементом управления ActiveX. В противном случае это свойство равно null.
 type: docs
 weight: 60
 url: /ru/net/aspose.words.drawing/oleformat/olecontrol/
 ---
 ## OleFormat.OleControl property
 
-Получает объекты`OleControl`, если этот объект OLE является элементом управления ActiveX. В противном случае это свойство равно null.
+получает`OleControl` объекты, если этот объект OLE является элементом управления ActiveX. В противном случае это свойство равно null.
 
 ```csharp
 public OleControl OleControl { get; }

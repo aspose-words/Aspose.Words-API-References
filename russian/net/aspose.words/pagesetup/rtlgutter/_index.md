@@ -16,7 +16,7 @@ public bool RtlGutter { get; set; }
 
 ### Примеры
 
-Показывает, как установить поля переплета.
+Показывает, как установить поля желоба.
 
 ```csharp
 Document doc = new Document();

@@ -1,14 +1,14 @@
 ---
 title: TransparentMetafiles
 second_title: Aspose.Words for .NET API 参考
-description: 指定不空白图元文件图片后面的区域
+description: 指定不将元文件图片后面的区域空白
 type: docs
 weight: 550
 url: /zh/net/aspose.words.settings/compatibilityoptions/transparentmetafiles/
 ---
 ## CompatibilityOptions.TransparentMetafiles property
 
-指定不空白图元文件图片后面的区域。
+指定不将元文件图片后面的区域空白。
 
 ```csharp
 public bool TransparentMetafiles { get; set; }

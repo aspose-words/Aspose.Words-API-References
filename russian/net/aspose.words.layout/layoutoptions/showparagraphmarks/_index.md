@@ -1,14 +1,14 @@
 ---
 title: ShowParagraphMarks
 second_title: Справочник по API Aspose.Words для .NET
-description: Получает или задает индикацию того отображаются ли знаки абзаца. По умолчанию - False.
+description: Получает или задает индикацию того отображаются ли знаки абзаца. Значение по умолчанию  False.
 type: docs
 weight: 80
 url: /ru/net/aspose.words.layout/layoutoptions/showparagraphmarks/
 ---
 ## LayoutOptions.ShowParagraphMarks property
 
-Получает или задает индикацию того, отображаются ли знаки абзаца. По умолчанию - False.
+Получает или задает индикацию того, отображаются ли знаки абзаца. Значение по умолчанию — False.
 
 ```csharp
 public bool ShowParagraphMarks { get; set; }
@@ -16,7 +16,7 @@ public bool ShowParagraphMarks { get; set; }
 
 ### Примеры
 
-Показывает, как отображать метки абзаца в готовом выходном документе.
+Показывает, как отображать метки абзаца в визуализируемом выходном документе.
 
 ```csharp
 Document doc = new Document();

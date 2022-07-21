@@ -1,14 +1,14 @@
 ---
 title: TextOrientation
 second_title: Aspose.Words for .NET API 参考
-description: 允许为整个页面指定TextOrientationaspose.words/pagesetup/textorientation 默认值为Horizontal
+description: 允许指定TextOrientationaspose.words/pagesetup/textorientation对于整个页面 默认值为Horizontal
 type: docs
 weight: 420
 url: /zh/net/aspose.words/pagesetup/textorientation/
 ---
 ## PageSetup.TextOrientation property
 
-允许为整个页面指定`TextOrientation`。 默认值为Horizontal
+允许指定`TextOrientation`对于整个页面。 默认值为Horizontal
 
 ```csharp
 public TextOrientation TextOrientation { get; set; }
@@ -16,7 +16,7 @@ public TextOrientation TextOrientation { get; set; }
 
 ### 评论
 
-此属性仅支持 MS Word 原生格式 DOCX、WML、RTF 和 DOC。
+此属性仅支持 MS Word 本机格式 DOCX、WML、RTF 和 DOC。
 
 ### 例子
 

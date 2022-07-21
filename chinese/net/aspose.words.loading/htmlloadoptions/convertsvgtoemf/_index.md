@@ -1,14 +1,14 @@
 ---
 title: ConvertSvgToEmf
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置一个值该值指示是否将加载的 SVG 图像转换为 EMF 格式 默认值为 false 并且如果可能加载的 SVG 图像将按原样存储而无需转换
+description: 获取或设置一个值该值指示是否将加载的 SVG 图像转换为 EMF 格式 默认值为错误的并且如果可能的话加载的 SVG 图像会按原样存储而无需转换
 type: docs
 weight: 30
 url: /zh/net/aspose.words.loading/htmlloadoptions/convertsvgtoemf/
 ---
 ## HtmlLoadOptions.ConvertSvgToEmf property
 
-获取或设置一个值，该值指示是否将加载的 SVG 图像转换为 EMF 格式。 默认值为` false` 并且如果可能，加载的 SVG 图像将按原样存储而无需转换。
+获取或设置一个值，该值指示是否将加载的 SVG 图像转换为 EMF 格式。 默认值为`错误的`并且，如果可能的话，加载的 SVG 图像会按原样存储而无需转换。
 
 ```csharp
 public bool ConvertSvgToEmf { get; set; }
@@ -16,13 +16,13 @@ public bool ConvertSvgToEmf { get; set; }
 
 ### 评论
 
-MS Word 的较新版本本机支持 SVG 图像。如果加载选项中指定的 MS Word 版本支持 SVG，Aspose.Words 将按原样存储 SVG 图像而不进行转换。如果不支持 SVG，加载的 SVG 图像将被 转换为 EMF 格式。
+较新版本的 MS Word 原生支持 SVG 图像。如果加载选项中指定的 MS Word 版本支持 SVG，Aspose.Words 将按原样存储 SVG 图像而不进行转换。如果不支持 SVG，加载的 SVG 图像将 转换为 EMF 格式。
 
-但是，如果此选项设置为` true` ，即使指定版本的 MS Word 支持 SVG 图像，Aspose.Words 也会将加载的 SVG 图像转换为 EMF。
+但是，如果此选项设置为`真的` 即使指定版本的 MS Word. 支持 SVG 图像，Aspose.Words 也会将加载的 SVG 图像转换为 EMF
 
 ### 例子
 
-显示如何在保存 HTML 文档时将 SVG 对象转换为不同的格式。
+展示如何在保存 HTML 文档时将 SVG 对象转换为不同的格式。
 
 ```csharp
 string html = 

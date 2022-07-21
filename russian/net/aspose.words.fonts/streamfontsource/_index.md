@@ -3,7 +3,7 @@ title: StreamFontSource
 second_title: Справочник по API Aspose.Words для .NET
 description: Базовый класс для определяемого пользователем источника потокового шрифта.
 type: docs
-weight: 2810
+weight: 2860
 url: /ru/net/aspose.words.fonts/streamfontsource/
 ---
 ## StreamFontSource class
@@ -32,11 +32,11 @@ public abstract class StreamFontSource : FontSourceBase
 
 ### Примечания
 
-Чтобы использовать источник шрифта потока, вы должны создать производный класс от[`StreamFontSource`](../streamfontsource) и обеспечить реализацию метода[`OpenFontDataStream`](./openfontdatastream).
+Чтобы использовать источник шрифта потока, вы должны создать производный класс от[`StreamFontSource`](../streamfontsource) и обеспечить реализацию[`OpenFontDataStream`](./openfontdatastream) метод.
 
-[`OpenFontDataStream`](./openfontdatastream)метод мог вызываться несколько раз. Впервые он будет называться , когда Aspose.Words просканирует предоставленные источники шрифтов, чтобы получить список доступных шрифтов. Позже он может быть вызван, если шрифт используется в документе для разбора данных шрифта и встраивания данных шрифта в некоторые форматы вывода.
+[`OpenFontDataStream`](./openfontdatastream)метод может вызываться несколько раз. Впервые он будет называться , когда Aspose.Words просканирует предоставленные источники шрифтов, чтобы получить список доступных шрифтов. Позже он может быть вызван, если шрифт используется в документе для анализа данных шрифта и внедрения данных шрифта в некоторые форматы вывода.
 
-[`StreamFontSource`](../streamfontsource)может быть полезен, поскольку позволяет загружать данные шрифта только тогда, когда это требуется и не хранить его в памяти на время жизни[`FontSettings`](../fontsettings).
+[`StreamFontSource`](../streamfontsource) может быть полезным, поскольку позволяет загружать данные шрифта только тогда, когда это требуется , а не хранить их в памяти для[`FontSettings`](../fontsettings) продолжительность жизни.
 
 ### Примеры
 

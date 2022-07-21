@@ -1,14 +1,14 @@
 ---
 title: Enabled
 second_title: Справочник по API Aspose.Words для .NET
-description: Указывает включено ли правило или нет.
+description: Указывает включено ли правило.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.fonts/fontconfigsubstitutionrule/enabled/
 ---
 ## FontConfigSubstitutionRule.Enabled property
 
-Указывает, включено ли правило или нет.
+Указывает, включено ли правило.
 
 ```csharp
 public override bool Enabled { set; }
@@ -16,7 +16,7 @@ public override bool Enabled { set; }
 
 ### Примеры
 
-Показывает подстановку конфигурации шрифта, зависящую от операционной системы.
+Показывает подстановку конфигурации шрифта в зависимости от операционной системы.
 
 ```csharp
 FontSettings fontSettings = new FontSettings();

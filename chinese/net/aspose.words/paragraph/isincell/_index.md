@@ -1,14 +1,14 @@
 ---
 title: IsInCell
 second_title: Aspose.Words for .NET API 参考
-description: 如果此段落是Cellaspose.words.tables/cell的直接子级则为真否则为假
+description: 如果此段落是Cellaspose.words.tables/cell否则为假
 type: docs
 weight: 100
 url: /zh/net/aspose.words/paragraph/isincell/
 ---
 ## Paragraph.IsInCell property
 
-如果此段落是[`Cell`](../../../aspose.words.tables/cell)的直接子级，则为真；否则为假。
+如果此段落是[`Cell`](../../../aspose.words.tables/cell);否则为假。
 
 ```csharp
 public bool IsInCell { get; }
@@ -22,8 +22,8 @@ public bool IsInCell { get; }
 Document doc = new Document(MyDir + "Table spanning two pages.docx");
 Table table = doc.FirstSection.Body.Tables[0];
 
- // 为表格中的每个段落启用 KeepWithNext，除了 the
- // 最后一行中的最后一个将防止表拆分为多个页面。
+// 为表格中的每个段落启用 KeepWithNext，除了
+// 最后一行中的最后一个将防止表拆分为多个页面。
 foreach (Cell cell in table.GetChildNodes(NodeType.Cell, true).OfType<Cell>())
     foreach (Paragraph para in cell.Paragraphs.OfType<Paragraph>())
     {

@@ -12,7 +12,7 @@ url: /ru/net/aspose.words/ihyphenationcallback/requestdictionary/
 
 Реализация должна найти словарь и зарегистрировать его с помощью[`RegisterDictionary`](../../hyphenation/registerdictionary)методы.
 
-Если словарь недоступен для указанного языка, реализация может отказаться от дальнейших вызовов для того же языка с помощью[`RegisterDictionary`](../../hyphenation/registerdictionary)с нулевым значением.
+Если словарь недоступен для указанной реализации языка, можно отказаться от дальнейших вызовов для того же языка с помощью[`RegisterDictionary`](../../hyphenation/registerdictionary) с нулевым значением.
 
 ```csharp
 public void RequestDictionary(string language)
@@ -20,7 +20,7 @@ public void RequestDictionary(string language)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| language | String | Имя языка, например, "en-US". См. документацию .NET для «имени культуры» и RFC 4646 для получения подробной информации. |
+| language | String | Название языка, например "en-US". См. документацию .NET для «имени культуры» и RFC 4646 для получения подробной информации. |
 
 ### Примечания
 

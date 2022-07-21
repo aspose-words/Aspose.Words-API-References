@@ -16,7 +16,7 @@ public void RemoveByIndex(int index)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | Int32 | Индекс в коллекции позиций табуляции. |
+| index | Int32 | Указатель в коллекции позиций табуляции. |
 
 ### Примеры
 
@@ -31,7 +31,7 @@ tabStops.Add(ConvertUtil.MillimeterToPoint(60), TabAlignment.Left, TabLeader.Das
 
 Assert.AreEqual(2, tabStops.Count);
 
- // Удалить первую позицию табуляции.
+// Удалить первую позицию табуляции.
 tabStops.RemoveByIndex(0);
 
 Assert.AreEqual(1, tabStops.Count);

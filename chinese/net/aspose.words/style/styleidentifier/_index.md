@@ -16,11 +16,11 @@ public StyleIdentifier StyleIdentifier { get; }
 
 ### 评论
 
-对于用户定义的（自定义）样式，此属性返回User。
+对于用户定义（自定义）样式，此属性返回User.
 
 ### 例子
 
-显示如何修改右侧的位置TOC 相关段落中的制表位。
+显示如何修改 TOC 相关段落中右制表位的位置。
 
 ```csharp
 Document doc = new Document(MyDir + "Table of contents.docx");

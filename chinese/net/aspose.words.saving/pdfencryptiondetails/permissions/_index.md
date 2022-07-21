@@ -1,14 +1,14 @@
 ---
 title: Permissions
 second_title: Aspose.Words for .NET API 参考
-description: 指定允许用户对加密 PDF 文档进行的操作 默认值为DisallowAll
+description: 指定允许用户对加密的 PDF 文档进行的操作 默认值为DisallowAll.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.saving/pdfencryptiondetails/permissions/
 ---
 ## PdfEncryptionDetails.Permissions property
 
-指定允许用户对加密 PDF 文档进行的操作。 默认值为DisallowAll。
+指定允许用户对加密的 PDF 文档进行的操作。 默认值为DisallowAll.
 
 ```csharp
 public PdfPermissions Permissions { get; set; }
@@ -16,7 +16,7 @@ public PdfPermissions Permissions { get; set; }
 
 ### 例子
 
-显示如何设置已保存 PDF 文档的权限。
+展示如何对已保存的 PDF 文档设置权限。
 
 ```csharp
 Document doc = new Document();

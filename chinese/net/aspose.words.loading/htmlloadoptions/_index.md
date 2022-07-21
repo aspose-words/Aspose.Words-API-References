@@ -1,14 +1,14 @@
 ---
 title: HtmlLoadOptions
 second_title: Aspose.Words for .NET API 参考
-description: 允许在将 HTML 文档加载到Document../aspose.words/document对象时指定其他选项
+description: 允许在将 HTML 文档加载到Document../aspose.words/document对象.
 type: docs
-weight: 3370
+weight: 3420
 url: /zh/net/aspose.words.loading/htmlloadoptions/
 ---
 ## HtmlLoadOptions class
 
-允许在将 HTML 文档加载到[`Document`](../../aspose.words/document)对象时指定其他选项。
+允许在将 HTML 文档加载到[`Document`](../../aspose.words/document)对象.
 
 ```csharp
 public class HtmlLoadOptions : LoadOptions
@@ -26,28 +26,28 @@ public class HtmlLoadOptions : LoadOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [BaseUri](../../aspose.words.loading/loadoptions/baseuri) { get; set; } | 获取或设置用于在需要时将文档中的相对 URI 解析为绝对 URI 的字符串。 可以是 null 或空字符串。默认为空。 |
-| [BlockImportMode](../../aspose.words.loading/htmlloadoptions/blockimportmode) { get; set; } | 获取或设置一个值，该值指定如何导入块级元素的属性。 默认值为Merge。 |
-| [ConvertMetafilesToPng](../../aspose.words.loading/loadoptions/convertmetafilestopng) { get; set; } | 获取或设置是否转换元文件（WmforEmf) 图像转换为Png图像格式。 |
+| [BaseUri](../../aspose.words.loading/loadoptions/baseuri) { get; set; } | 获取或设置将用于在需要时将在文档中找到的相对 URI 解析为绝对 URI 的字符串。 可以是 null 或空字符串。默认为空。 |
+| [BlockImportMode](../../aspose.words.loading/htmlloadoptions/blockimportmode) { get; set; } | 获取或设置一个值，该值指定如何导入块级元素的属性。 默认值为Merge. |
+| [ConvertMetafilesToPng](../../aspose.words.loading/loadoptions/convertmetafilestopng) { get; set; } | 获取或设置是否转换元文件（Wmf或者Emf ) 图像到Png图像格式. |
 | [ConvertShapeToOfficeMath](../../aspose.words.loading/loadoptions/convertshapetoofficemath) { get; set; } | 获取或设置是否将带有 EquationXML 的形状转换为 Office Math 对象。 |
-| [ConvertSvgToEmf](../../aspose.words.loading/htmlloadoptions/convertsvgtoemf) { get; set; } | 获取或设置一个值，该值指示是否将加载的 SVG 图像转换为 EMF 格式。 默认值为` false` 并且如果可能，加载的 SVG 图像将按原样存储而无需转换。 |
-| [Encoding](../../aspose.words.loading/loadoptions/encoding) { get; set; } | 获取或设置将用于加载 HTML、TXT 或 CHM 文档的编码（如果未指定编码） 在文档中. 可以为空。默认为空。 |
-| [FlatOpcXmlMappingOnly](../../aspose.words.loading/loadoptions/flatopcxmlmappingonly) { get; set; } | 获取或设置值，确定允许通过[`XmlMapping`](../../aspose.words.markup/structureddocumenttag/xmlmapping)映射哪些文档格式。 默认只允许映射FlatOpc文档格式。 |
+| [ConvertSvgToEmf](../../aspose.words.loading/htmlloadoptions/convertsvgtoemf) { get; set; } | 获取或设置一个值，该值指示是否将加载的 SVG 图像转换为 EMF 格式。 默认值为`错误的`并且，如果可能的话，加载的 SVG 图像会按原样存储而无需转换。 |
+| [Encoding](../../aspose.words.loading/loadoptions/encoding) { get; set; } | 获取或设置将用于加载 HTML、TXT 或 CHM 文档的编码（如果未在文档中指定编码） 。 可以为空。默认为空。 |
+| [FlatOpcXmlMappingOnly](../../aspose.words.loading/loadoptions/flatopcxmlmappingonly) { get; set; } | 获取或设置值，确定允许映射哪些文档格式[`XmlMapping`](../../aspose.words.markup/structureddocumenttag/xmlmapping). 仅默认FlatOpc允许映射文档格式。 |
 | [FontSettings](../../aspose.words.loading/loadoptions/fontsettings) { get; set; } | 允许指定文档字体设置。 |
-| [IgnoreNoscriptElements](../../aspose.words.loading/htmlloadoptions/ignorenoscriptelements) { get; set; } | 获取或设置是否忽略&lt;noscript&gt;的值HTML 元素。 默认值为` false` 。 |
+| [IgnoreNoscriptElements](../../aspose.words.loading/htmlloadoptions/ignorenoscriptelements) { get; set; } | 获取或设置一个值，指示是否忽略 &lt;noscript&gt; HTML 元素。 默认值为`错误的`. |
 | [LanguagePreferences](../../aspose.words.loading/loadoptions/languagepreferences) { get; } | 获取加载文档时将使用的语言首选项。 |
-| [LoadFormat](../../aspose.words.loading/loadoptions/loadformat) { get; set; } | 指定要加载的文档的格式。 默认为Auto。 |
+| [LoadFormat](../../aspose.words.loading/loadoptions/loadformat) { get; set; } | 指定要加载的文档的格式。 默认为Auto. |
 | [MswVersion](../../aspose.words.loading/loadoptions/mswversion) { get; set; } | 允许指定文档加载过程应匹配特定的 MS Word 版本。 默认值为Word2019 |
-| [Password](../../aspose.words.loading/loadoptions/password) { get; set; } | 获取或设置打开加密文档的密码。 可以是 null 或空字符串。默认为空。 |
-| [PreferredControlType](../../aspose.words.loading/htmlloadoptions/preferredcontroltype) { get; set; } | 获取或设置将表示导入的 &lt;input&gt; 的文档节点的首选类型和 &lt;选择&gt;元素。 默认值为FormField。 |
-| [PreserveIncludePictureField](../../aspose.words.loading/loadoptions/preserveincludepicturefield) { get; set; } | 获取或设置读取 Microsoft Word 格式时是否保留 INCLUDEPICTURE 字段。 默认值为假。 |
+| [Password](../../aspose.words.loading/loadoptions/password) { get; set; } | 获取或设置打开加密文档的密码。 可以是空字符串或空字符串。默认为空。 |
+| [PreferredControlType](../../aspose.words.loading/htmlloadoptions/preferredcontroltype) { get; set; } | 获取或设置将表示导入的 &lt;input&gt; 和 &lt;select&gt; 元素的首选文档节点类型。 默认值为FormField. |
+| [PreserveIncludePictureField](../../aspose.words.loading/loadoptions/preserveincludepicturefield) { get; set; } | 获取或设置读取Microsoft Word格式时是否保留INCLUDEPICTURE字段。 默认值为false。 |
 | [ProgressCallback](../../aspose.words.loading/loadoptions/progresscallback) { get; set; } | 在加载文档期间调用并接受有关加载进度的数据。 |
 | [ResourceLoadingCallback](../../aspose.words.loading/loadoptions/resourceloadingcallback) { get; set; } | 允许控制从 HTML、MHTML 导入文档时如何加载外部资源（图像、样式表）。 |
 | [SupportVml](../../aspose.words.loading/htmlloadoptions/supportvml) { get; set; } | 获取或设置是否支持VML图像的值。 |
-| [TempFolder](../../aspose.words.loading/loadoptions/tempfolder) { get; set; } | 读取文档时允许使用临时文件。 默认情况下，此属性为` null` 并且不使用临时文件。 |
-| [UpdateDirtyFields](../../aspose.words.loading/loadoptions/updatedirtyfields) { get; set; } | 指定是否更新具有` 脏` 属性的字段。 |
-| [WarningCallback](../../aspose.words.loading/loadoptions/warningcallback) { get; set; } | 在加载操作期间调用，当检测到可能导致数据或格式保真度丢失的问题时。 |
-| [WebRequestTimeout](../../aspose.words.loading/htmlloadoptions/webrequesttimeout) { get; set; } | Web 请求超时前等待的毫秒数。默认值为 100000 毫秒 (100 秒)。 |
+| [TempFolder](../../aspose.words.loading/loadoptions/tempfolder) { get; set; } | 允许在读取文档时使用临时文件。 默认情况下，此属性为`无效的`并且没有使用临时文件。 |
+| [UpdateDirtyFields](../../aspose.words.loading/loadoptions/updatedirtyfields) { get; set; } | 指定是否使用`肮脏的`属性. |
+| [WarningCallback](../../aspose.words.loading/loadoptions/warningcallback) { get; set; } | 在加载操作期间调用，当检测到可能导致数据或格式保真度丢失的问题时调用。 |
+| [WebRequestTimeout](../../aspose.words.loading/htmlloadoptions/webrequesttimeout) { get; set; } | 在 Web 请求超时之前等待的毫秒数。默认值为 100000 毫秒 （100 秒）。 |
 
 ### 也可以看看
 

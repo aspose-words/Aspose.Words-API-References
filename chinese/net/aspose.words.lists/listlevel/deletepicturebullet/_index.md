@@ -27,8 +27,8 @@ Document doc = new Document();
 
 List list = doc.Lists.Add(ListTemplate.BulletCircle);
 
- // 为当前列表级别创建图片项目符号，并从本地文件系统中设置图片
- // 作为此列表级别的项目符号将显示的图标。
+// 为当前列表级别创建图片项目符号，并从本地文件系统中设置图片
+// 作为此列表级别的项目符号将显示的图标。
 list.ListLevels[0].CreatePictureBullet();
 list.ListLevels[0].ImageData.SetImage(ImageDir + "Logo icon.ico");
 

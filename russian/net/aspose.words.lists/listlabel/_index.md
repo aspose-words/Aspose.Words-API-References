@@ -1,14 +1,14 @@
 ---
 title: ListLabel
 second_title: Справочник по API Aspose.Words для .NET
-description: Определяет свойства характерные для метки списка.
+description: Определяет свойства специфичные для метки списка.
 type: docs
-weight: 3240
+weight: 3290
 url: /ru/net/aspose.words.lists/listlabel/
 ---
 ## ListLabel class
 
-Определяет свойства, характерные для метки списка.
+Определяет свойства, специфичные для метки списка.
 
 ```csharp
 public class ListLabel
@@ -32,24 +32,24 @@ doc.UpdateListLabels();
 
 NodeCollection paras = doc.GetChildNodes(NodeType.Paragraph, true);
 
- // Определяем, есть ли у нас список абзацев. В нашем документе в нашем списке используются простые арабские цифры, 
- // которые начинаются с трех и заканчиваются на шести.
+// Определяем, есть ли у нас список абзацев. В нашем документе в нашем списке используются простые арабские цифры,
+// которые начинаются с трех и заканчиваются на шести.
 foreach (Paragraph paragraph in paras.OfType<Paragraph>().Where(p => p.ListFormat.IsListItem))
 {
     Console.WriteLine($"List item paragraph #{paras.IndexOf(paragraph)}");
 
-     // Это текст, который мы получаем при получении, когда мы выводим этот узел в текстовый формат.
-     // В этом текстовом выводе метки списка будут пропущены. Обрежьте все символы форматирования абзаца. 
+    // Это текст, который мы получаем при получении, когда мы выводим этот узел в текстовый формат.
+    // В этом текстовом выводе метки списка будут пропущены. Обрежьте все символы форматирования абзаца. 
     string paragraphText = paragraph.ToString(SaveFormat.Text).Trim();
     Console.WriteLine($"\tExported Text: {paragraphText}");
 
     ListLabel label = paragraph.ListLabel;
 
-     // Получаем позицию абзаца на текущем уровне списка. Если у нас есть список с несколькими уровнями, 
-     // это скажет нам, какая позиция находится на этом уровне.
+    // Получаем позицию абзаца на текущем уровне списка. Если у нас есть список с несколькими уровнями,
+    // это скажет нам, какая позиция находится на этом уровне.
     Console.WriteLine($"\tNumerical Id: {label.LabelValue}");
 
-     // Объединяем их вместе, чтобы включить метку списка с текстом в вывод.
+    // Объедините их вместе, чтобы включить в вывод метку списка с текстом.
     Console.WriteLine($"\tList label combined with text: {label.LabelString} {paragraphText}");
 }
 ```

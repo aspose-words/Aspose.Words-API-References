@@ -1,14 +1,14 @@
 ---
 title: Text
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置评论文本
+description: 获取或设置评论的文本
 type: docs
 weight: 20
 url: /zh/net/aspose.words.fields/fieldcomments/text/
 ---
 ## FieldComments.Text property
 
-获取或设置评论文本。
+获取或设置评论的文本。
 
 ```csharp
 public string Text { get; set; }

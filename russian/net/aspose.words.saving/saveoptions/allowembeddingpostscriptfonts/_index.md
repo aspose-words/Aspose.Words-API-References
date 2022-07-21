@@ -1,14 +1,14 @@
 ---
 title: AllowEmbeddingPostScriptFonts
 second_title: Справочник по API Aspose.Words для .NET
-description: Получает или задает логическое значение указывающее разрешить ли встраивание шрифтов с контурами PostScript при встраивании шрифтов TrueType в документ после его сохранения. Значение по умолчанию false .
+description: Возвращает или задает логическое значение указывающее разрешать ли встраивание шрифтов с помощью PostScript layouts при встраивании шрифтов TrueType в документ после его сохранения. Значение по умолчанию ЛОЖЬ .
 type: docs
 weight: 20
 url: /ru/net/aspose.words.saving/saveoptions/allowembeddingpostscriptfonts/
 ---
 ## SaveOptions.AllowEmbeddingPostScriptFonts property
 
-Получает или задает логическое значение, указывающее, разрешить ли встраивание шрифтов с контурами PostScript при встраивании шрифтов TrueType в документ после его сохранения. Значение по умолчанию: **false** .
+Возвращает или задает логическое значение, указывающее, разрешать ли встраивание шрифтов с помощью PostScript layouts при встраивании шрифтов TrueType в документ после его сохранения. Значение по умолчанию: **ЛОЖЬ** .
 
 ```csharp
 public bool AllowEmbeddingPostScriptFonts { get; set; }
@@ -16,9 +16,9 @@ public bool AllowEmbeddingPostScriptFonts { get; set; }
 
 ### Примечания
 
-Примечание. Word не встраивает шрифты PostScript, но может открывать документы со встроенными шрифтами этого типа .
+Обратите внимание: Word не встраивает шрифты PostScript, но может открывать документы со встроенными шрифтами этого типа.
 
-Эта опция работает, только когда[`EmbedTrueTypeFonts`](../../../aspose.words.fonts/fontinfocollection/embedtruetypefonts)из [`FontInfos`](../../../aspose.words/documentbase/fontinfos)свойство имеет значение` true` .
+Этот вариант работает только тогда, когда[`EmbedTrueTypeFonts`](../../../aspose.words.fonts/fontinfocollection/embedtruetypefonts) из [`FontInfos`](../../../aspose.words/documentbase/fontinfos) свойство установлено на`истинный`.
 
 ### Примеры
 

@@ -1,14 +1,14 @@
 ---
 title: Accept
 second_title: Aspose.Words for .NET API 参考
-description: 接受访问者
+description: 接受访客
 type: docs
 weight: 240
 url: /zh/net/aspose.words.drawing/shape/accept/
 ---
 ## Shape.Accept method
 
-接受访问者。
+接受访客。
 
 ```csharp
 public override bool Accept(DocumentVisitor visitor)
@@ -20,7 +20,7 @@ public override bool Accept(DocumentVisitor visitor)
 
 ### 返回值
 
-如果所有节点都被访问，则为真；如果 DocumentVisitor 在访问所有节点之前停止操作，则返回 false。
+如果访问了所有节点，则为真；如果 DocumentVisitor 在访问所有节点之前停止操作，则返回 false。
 
 ### 评论
 
@@ -28,11 +28,11 @@ public override bool Accept(DocumentVisitor visitor)
 
 有关更多信息，请参阅访问者设计模式。
 
-调用[`VisitShapeStart`](../../../aspose.words/documentvisitor/visitshapestart), 然后为形状的所有子节点调用[`Accept`](../../../aspose.words/node/accept) 并调用[`VisitShapeEnd`](../../../aspose.words/documentvisitor/visitshapeend)最后。
+来电[`VisitShapeStart`](../../../aspose.words/documentvisitor/visitshapestart)，然后调用[`Accept`](../../../aspose.words/node/accept) 用于形状的所有子节点并调用[`VisitShapeEnd`](../../../aspose.words/documentvisitor/visitshapeend)最后.
 
 ### 例子
 
-显示如何迭代文档中的所有形状。
+演示如何遍历文档中的所有形状。
 
 ```csharp
 {

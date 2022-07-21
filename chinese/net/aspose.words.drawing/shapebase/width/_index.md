@@ -3,7 +3,7 @@ title: Width
 second_title: Aspose.Words for .NET API 参考
 description: 获取或设置形状包含块的宽度
 type: docs
-weight: 510
+weight: 520
 url: /zh/net/aspose.words.drawing/shapebase/width/
 ---
 ## ShapeBase.Width property
@@ -18,7 +18,7 @@ public double Width { get; set; }
 
 对于顶级形状，该值以磅为单位。
 
-对于组中的形状，该值在父组的坐标空间和单位中。
+对于组中的形状，该值位于父组的坐标空间和单位中。
 
 默认值为 0。
 
@@ -27,53 +27,33 @@ public double Width { get; set; }
 显示如何插入浮动图像，并指定其位置和大小。
 
 ```csharp
-#if NET48 || JAVA
-            Image image = Image.FromFile(ImageDir + "Logo.jpg");
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
 
-            Assert.AreEqual(400, image.Size.Width);
-            Assert.AreEqual(400, image.Size.Height);
-#elif NET5_0_OR_GREATER
-            SKBitmap image = SKBitmap.Decode(ImageDir + "Logo.jpg");
+Shape shape = builder.InsertImage(ImageDir + "Logo.jpg");
+shape.WrapType = WrapType.None;
 
-            Assert.AreEqual(400, image.Width);
-            Assert.AreEqual(400, image.Height);
-#endif
+// 配置形状的“RelativeHorizontalPosition”属性来处理“Left”属性的值
+// 作为形状从页面左侧的水平距离，以磅为单位。
+shape.RelativeHorizontalPosition = RelativeHorizontalPosition.Page;
 
-            // 当我们使用“InsertImage”方法插入图像时，构建器会缩放显示图像的形状，以便，
-            // 当我们在 Microsoft Word 中使用 100% 缩放查看文档时，形状会以其实际大小显示图像。
-            Document doc = new Document();
-            DocumentBuilder builder = new DocumentBuilder(doc);
-            Shape shape = builder.InsertImage(ImageDir + "Logo.jpg");
+// 设置形状到页面左侧的水平距离为 100。
+shape.Left = 100;
 
-            // 一个 400x400 的图像将创建一个图像大小为 300x300pt 的 ImageData 对象。
-            ImageSize imageSize = shape.ImageData.ImageSize;
+// 以类似的方式使用“RelativeVerticalPosition”属性将形状定位在页面顶部下方 80pt 处。
+shape.RelativeVerticalPosition = RelativeVerticalPosition.Page;
+shape.Top = 80;
 
-            Assert.AreEqual(300.0d, imageSize.WidthPoints);
-            Assert.AreEqual(300.0d, imageSize.HeightPoints);
+// 设置形状的高度，它将自动缩放宽度以保留尺寸。
+shape.Height = 125;
 
-            // 如果形状的尺寸与图像数据的尺寸匹配，
-            // 然后形状会以其原始大小显示图像。
-            Assert.AreEqual(300.0d, shape.Width);
-            Assert.AreEqual(300.0d, shape.Height);
+Assert.AreEqual(125.0d, shape.Width);
 
-             // 将形状的整体尺寸减小 50%。
-            shape.Width *= 0.5;
+// "Bottom" 和 "Right" 属性包含图像的底部和右侧边缘。
+Assert.AreEqual(shape.Top + shape.Height, shape.Bottom);
+Assert.AreEqual(shape.Left + shape.Width, shape.Right);
 
-             // 缩放因子同时应用于宽度和高度，以保持形状的比例。
-            Assert.AreEqual(150.0d, shape.Width);
-            Assert.AreEqual(150.0d, shape.Height);
-
-            // 当我们调整形状大小时，图像数据的大小保持不变。
-            Assert.AreEqual(300.0d, imageSize.WidthPoints);
-            Assert.AreEqual(300.0d, imageSize.HeightPoints);
-
-            // 我们可以参考图像数据尺寸来根据图像大小应用缩放。
-            shape.Width = imageSize.WidthPoints * 1.1;
-
-            Assert.AreEqual(330.0d, shape.Width);
-            Assert.AreEqual(330.0d, shape.Height);
-
-            doc.Save(ArtifactsDir + "Image.ScaleImage.docx");
+doc.Save(ArtifactsDir + "Image.CreateFloatingPositionSize.docx");
 ```
 
 显示如何使用图像调整形状的大小。

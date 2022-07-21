@@ -3,7 +3,7 @@ title: TemplateName
 second_title: Aspose.Words for .NET API 参考
 description: 获取或设置文档使用的模板的文件名
 type: docs
-weight: 160
+weight: 170
 url: /zh/net/aspose.words.fields/fieldoptions/templatename/
 ---
 ## FieldOptions.TemplateName property
@@ -16,13 +16,13 @@ public string TemplateName { get; set; }
 
 ### 评论
 
-此属性由Fields使用。如果R5:P:Aspose.Words.Document.AttachedTemplate:::属性为空，则 FieldTemplate:::字段。
+该属性由[`FieldTemplate`](../../fieldtemplate)字段如果[`AttachedTemplate`](../../../aspose.words/document/attachedtemplate)属性为空。
 
-如果此属性为空，则使用默认模板文件名` Normal.dotm` 。
+如果该属性为空，则默认模板文件名`正常.dotm`用来。
 
 ### 例子
 
-显示如何使用 TEMPLATE 字段来显示文档模板的本地文件系统位置。
+演示如何使用 TEMPLATE 字段来显示文档模板的本地文件系统位置。
 
 ```csharp
 Document doc = new Document();

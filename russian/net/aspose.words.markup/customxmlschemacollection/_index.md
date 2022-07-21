@@ -3,7 +3,7 @@ title: CustomXmlSchemaCollection
 second_title: Справочник по API Aspose.Words для .NET
 description: Набор строк представляющих схемы XML связанные с пользовательской частью XML.
 type: docs
-weight: 3670
+weight: 3720
 url: /ru/net/aspose.words.markup/customxmlschemacollection/
 ---
 ## CustomXmlSchemaCollection class
@@ -28,14 +28,14 @@ public class CustomXmlSchemaCollection : IEnumerable<string>
 | [Add](../../aspose.words.markup/customxmlschemacollection/add)(string) | Добавляет элемент в коллекцию. |
 | [Clear](../../aspose.words.markup/customxmlschemacollection/clear)() | Удаляет все элементы из коллекции. |
 | [Clone](../../aspose.words.markup/customxmlschemacollection/clone)() | Делает глубокий клон этого объекта. |
-| [GetEnumerator](../../aspose.words.markup/customxmlschemacollection/getenumerator)() | Возвращает объект перечислителя, который можно использовать для перебора всех элементов коллекции. |
+| [GetEnumerator](../../aspose.words.markup/customxmlschemacollection/getenumerator)() | Возвращает объект перечислителя, который можно использовать для перебора всех элементов в коллекции. |
 | [IndexOf](../../aspose.words.markup/customxmlschemacollection/indexof)(string) | Возвращает отсчитываемый от нуля индекс указанного значения в коллекции. |
 | [Remove](../../aspose.words.markup/customxmlschemacollection/remove)(string) | Удаляет указанное значение из коллекции. |
 | [RemoveAt](../../aspose.words.markup/customxmlschemacollection/removeat)(int) | Удаляет значение по указанному индексу. |
 
 ### Примечания
 
-Экземпляры этого класса не создаются. Вы получаете доступ к коллекции схем XML пользовательской части XML через свойство[`Schemas`](../customxmlpart/schemas).
+Вы не создаете экземпляры этого класса. Вы получаете доступ к набору XML-схем пользовательского XML part через[`Schemas`](../customxmlpart/schemas) имущество.
 
 ### Примеры
 
@@ -51,7 +51,7 @@ CustomXmlPart xmlPart = doc.CustomXmlParts.Add(xmlPartId, xmlPartContent);
 // Добавляем ассоциацию XML-схемы.
 xmlPart.Schemas.Add("http://www.w3.org/2001/XMLSchema");
 
-// Клонируем коллекцию ассоциаций схемы XML пользовательской части XML,
+// Клонировать коллекцию ассоциаций схемы XML пользовательской части XML,
 // а затем добавить пару новых схем в клон.
 CustomXmlSchemaCollection schemas = xmlPart.Schemas.Clone();
 schemas.Add("http://www.w3.org/2001/XMLSchema-instance");

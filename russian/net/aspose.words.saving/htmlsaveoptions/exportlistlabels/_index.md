@@ -1,14 +1,14 @@
 ---
 title: ExportListLabels
 second_title: Справочник по API Aspose.Words для .NET
-description: Управляет выводом меток списков в HTML MHTML или EPUB. Значение по умолчаниюAuto.
+description: Управляет выводом меток списков в HTML MHTML или EPUB. Значение по умолчаниюAuto .
 type: docs
 weight: 200
 url: /ru/net/aspose.words.saving/htmlsaveoptions/exportlistlabels/
 ---
 ## HtmlSaveOptions.ExportListLabels property
 
-Управляет выводом меток списков в HTML, MHTML или EPUB. Значение по умолчанию:Auto.
+Управляет выводом меток списков в HTML, MHTML или EPUB. Значение по умолчанию:Auto .
 
 ```csharp
 public ExportListLabels ExportListLabels { get; set; }

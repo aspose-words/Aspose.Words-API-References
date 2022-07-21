@@ -21,11 +21,11 @@ public byte[] GetEmbeddedFont(EmbeddedFontFormat format, EmbeddedFontStyle style
 
 ### 返回值
 
-如果未嵌入指定的字体，则返回` null` 。
+退货`无效的`如果未嵌入指定的字体。
 
 ### 例子
 
-展示如何从文档中提取嵌入字体，并将其保存到本地文件系统。
+演示如何从文档中提取嵌入字体，并将其保存到本地文件系统。
 
 ```csharp
 Document doc = new Document(MyDir + "Embedded font.docx");

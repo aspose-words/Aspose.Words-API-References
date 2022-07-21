@@ -1,14 +1,14 @@
 ---
 title: UserName
 second_title: Справочник по API Aspose.Words для .NET
-description: Имя пользователя сервера временной метки.
+description: Имя пользователя сервера меток времени.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.saving/pdfdigitalsignaturetimestampsettings/username/
 ---
 ## PdfDigitalSignatureTimestampSettings.UserName property
 
-Имя пользователя сервера временной метки.
+Имя пользователя сервера меток времени.
 
 ```csharp
 public string UserName { get; set; }

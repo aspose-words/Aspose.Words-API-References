@@ -8,7 +8,7 @@ url: /zh/net/aspose.words/font/italic/
 ---
 ## Font.Italic property
 
-如果字体格式为斜体，则为真。
+如果字体格式为斜体则为真。
 
 ```csharp
 public bool Italic { get; set; }
@@ -16,7 +16,7 @@ public bool Italic { get; set; }
 
 ### 例子
 
-显示如何使用文档生成器编写斜体文本。
+展示如何使用文档生成器编写斜体文本。
 
 ```csharp
 Document doc = new Document();

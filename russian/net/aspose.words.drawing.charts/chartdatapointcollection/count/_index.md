@@ -1,14 +1,14 @@
 ---
 title: Count
 second_title: Справочник по API Aspose.Words для .NET
-description: Возвращает количествоChartDataPointaspose.words.drawing.charts/chartdatapointв этой коллекции.
+description: Возвращает количествоChartDataPointaspose.words.drawing.charts/chartdatapoint в этой коллекции.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.drawing.charts/chartdatapointcollection/count/
 ---
 ## ChartDataPointCollection.Count property
 
-Возвращает количество[`ChartDataPoint`](../../chartdatapoint)в этой коллекции.
+Возвращает количество[`ChartDataPoint`](../../chartdatapoint) в этой коллекции.
 
 ```csharp
 public int Count { get; }

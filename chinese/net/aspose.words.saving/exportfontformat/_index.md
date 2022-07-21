@@ -3,7 +3,7 @@ title: ExportFontFormat
 second_title: Aspose.Words for .NET API 参考
 description: 表示在呈现为 HTML 固定格式时用于导出字体的格式
 type: docs
-weight: 4680
+weight: 4730
 url: /zh/net/aspose.words.saving/exportfontformat/
 ---
 ## ExportFontFormat enumeration
@@ -23,7 +23,7 @@ public enum ExportFontFormat
 
 ### 例子
 
-显示如何仅使用来自目标的字体将文档保存为 HTML 时的机器。
+显示将文档保存为 HTML 时如何仅使用目标计算机中的字体。
 
 ```csharp
 Document doc = new Document(MyDir + "Bullet points with alternative font.docx");

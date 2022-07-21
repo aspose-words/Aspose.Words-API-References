@@ -3,7 +3,7 @@ title: MergeFieldImageDimension
 second_title: Aspose.Words for .NET API 参考
 description: 表示在邮件合并过程中使用的图像尺寸即宽度或高度
 type: docs
-weight: 2520
+weight: 2570
 url: /zh/net/aspose.words.fields/mergefieldimagedimension/
 ---
 ## MergeFieldImageDimension class
@@ -19,22 +19,22 @@ public class MergeFieldImageDimension
 | 姓名 | 描述 |
 | --- | --- |
 | [MergeFieldImageDimension](mergefieldimagedimension#constructor)(double) | 使用给定的点值创建图像维度实例。 |
-| [MergeFieldImageDimension](mergefieldimagedimension#constructor_1)(double, MergeFieldImageDimensionUnit) | 创建具有给定值和给定单位的图像尺寸实例。 |
+| [MergeFieldImageDimension](mergefieldimagedimension#constructor_1)(double, MergeFieldImageDimensionUnit) | 使用给定值和给定单位创建图像维度实例。 |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Unit](../../aspose.words.fields/mergefieldimagedimension/unit) { get; set; } | 单位。 |
+| [Unit](../../aspose.words.fields/mergefieldimagedimension/unit) { get; set; } | 单位. |
 | [Value](../../aspose.words.fields/mergefieldimagedimension/value) { get; set; } | 值。 |
 
 ### 评论
 
-表示在邮件合并期间应以其原始尺寸插入图像， 你应该为[`Value`](./value)属性分配一个负值。
+要指示在邮件合并期间应使用其原始尺寸插入图像， 您应该为[`Value`](./value)属性.
 
 ### 例子
 
-显示如何将图像的尺寸设置为 MERGEFIELDS在邮件合并期间接受它们。
+显示如何设置图像的尺寸，因为 MERGEFIELDS 在邮件合并期间接受它们。
 
 ```csharp
 {

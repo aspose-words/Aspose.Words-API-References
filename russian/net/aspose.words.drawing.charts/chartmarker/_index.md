@@ -18,8 +18,8 @@ public class ChartMarker
 
 | Имя | Описание |
 | --- | --- |
-| [Format](../../aspose.words.drawing.charts/chartmarker/format) { get; } | Предоставляет доступ к заливке и форматированию строки этого маркера. |
-| [Size](../../aspose.words.drawing.charts/chartmarker/size) { get; set; } | Получает или задает размер маркера диаграммы. Значение по умолчанию — 7. |
+| [Format](../../aspose.words.drawing.charts/chartmarker/format) { get; } | Предоставляет доступ к заполнению и форматированию линии этого маркера. |
+| [Size](../../aspose.words.drawing.charts/chartmarker/size) { get; set; } | Получает или задает размер маркера диаграммы. Значение по умолчанию: 7. |
 | [Symbol](../../aspose.words.drawing.charts/chartmarker/symbol) { get; set; } | Получает или задает символ маркера диаграммы. |
 
 ### Примеры

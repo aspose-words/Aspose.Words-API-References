@@ -1,14 +1,14 @@
 ---
 title: ShowCategoryName
 second_title: Aspose.Words for .NET API 参考
-description: 允许指定是否为整个系列的数据标签显示类别名称 默认值为 false 
+description: 允许指定是否为整个系列的数据标签显示类别名称 默认值为 错误的.
 type: docs
 weight: 60
 url: /zh/net/aspose.words.drawing.charts/chartdatalabelcollection/showcategoryname/
 ---
 ## ChartDataLabelCollection.ShowCategoryName property
 
-允许指定是否为整个系列的数据标签显示类别名称。 默认值为 **false** 。
+允许指定是否为整个系列的数据标签显示类别名称。 默认值为 **错误的**.
 
 ```csharp
 public bool ShowCategoryName { get; set; }
@@ -16,7 +16,7 @@ public bool ShowCategoryName { get; set; }
 
 ### 评论
 
-可以使用 为单个数据标签覆盖为此属性定义的值[`ShowCategoryName`](../../chartdatalabel/showcategoryname)属性。
+可以使用 为单个数据标签覆盖为此属性定义的值[`ShowCategoryName`](../../chartdatalabel/showcategoryname)属性.
 
 ### 例子
 

@@ -3,7 +3,7 @@ title: PdfImageCompression
 second_title: Aspose.Words for .NET API 参考
 description: 指定应用于 PDF 文件中图像的压缩类型
 type: docs
-weight: 5160
+weight: 5210
 url: /zh/net/aspose.words.saving/pdfimagecompression/
 ---
 ## PdfImageCompression enumeration
@@ -18,12 +18,12 @@ public enum PdfImageCompression
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| Auto | `0` | 自动为每个图像选择最合适的压缩。 |
+| Auto | `0` | 自动为每张图像选择最合适的压缩方式。 |
 | Jpeg | `1` | Jpeg 压缩。 不支持透明度。 |
 
 ### 例子
 
-显示如何为我们要转换为 PDF 的文档中的所有图像指定压缩类型。
+演示如何为我们要转换为 PDF 的文档中的所有图像指定压缩类型。
 
 ```csharp
 Document doc = new Document();

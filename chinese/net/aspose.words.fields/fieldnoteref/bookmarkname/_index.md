@@ -16,7 +16,7 @@ public string BookmarkName { get; set; }
 
 ### 例子
 
-显示插入 NOTEREF 字段，并修改其外观。
+显示插入 NOTEREF 字段并修改其外观。
 
 ```csharp
 public void FieldNoteRef()

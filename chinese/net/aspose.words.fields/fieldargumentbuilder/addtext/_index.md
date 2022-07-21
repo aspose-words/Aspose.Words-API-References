@@ -1,14 +1,14 @@
 ---
 title: AddText
 second_title: Aspose.Words for .NET API 参考
-description: 将纯文本添加到参数中
+description: 向参数添加纯文本
 type: docs
 weight: 40
 url: /zh/net/aspose.words.fields/fieldargumentbuilder/addtext/
 ---
 ## FieldArgumentBuilder.AddText method
 
-将纯文本添加到参数中。
+向参数添加纯文本。
 
 ```csharp
 public FieldArgumentBuilder AddText(string text)
@@ -16,7 +16,7 @@ public FieldArgumentBuilder AddText(string text)
 
 ### 例子
 
-展示如何使用字段构建器构造字段，然后将它们插入到文档中。
+演示如何使用字段构建器构造字段，然后将它们插入到文档中。
 
 ```csharp
 Document doc = new Document();

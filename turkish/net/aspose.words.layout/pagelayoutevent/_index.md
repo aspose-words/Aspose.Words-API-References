@@ -1,0 +1,107 @@
+---
+title: PageLayoutEvent
+second_title: Aspose.Words for .NET API Referansı
+description: Sayfa düzeni modeli oluşturma ve oluşturma sırasında ortaya çıkan bir olay kodu.
+type: docs
+weight: 3170
+url: /tr/net/aspose.words.layout/pagelayoutevent/
+---
+## PageLayoutEvent enumeration
+
+Sayfa düzeni modeli oluşturma ve oluşturma sırasında ortaya çıkan bir olay kodu.
+
+Sayfa düzeni modeli iki adımda oluşturulur. Birincisi, "dönüşüm adımı", bu, sayfa düzeninin belge içeriğini çektiği ve nesne grafiği oluşturduğu zamandır. İkinci, "yeniden akış adımı", yapıların ayrıldığı, birleştirildiği ve düzenlendiği zamandır. sayfalara.
+
+Oluşturmayı tetikleyen işleme bağlı olarak, sayfa düzeni modeli daha sonra sabit sayfa biçiminde oluşturulabilir veya oluşturulmayabilir. Örneğin, belgedeki sayfa sayısını hesaplamak veya alanları güncellemek işleme gerektirmezken, Pdf'ye dışa aktarma gerektirir.
+
+```csharp
+public enum PageLayoutEvent
+```
+
+### değerler
+
+| İsim | Değer | Tanım |
+| --- | --- | --- |
+| None | `0` | Varsayılan değer |
+| WatchDog | `1` | Sıkça ziyaret edilen ve işlemi iptal etmeye uygun olan koddaki bir kontrol noktasına karşılık gelir. |
+| BuildStarted | `2` | Sayfa düzeninin oluşturulması başladı. Bir kez tetiklendi. Bu, aşağıdaki durumlarda meydana gelen ilk olaydır.[`UpdatePageLayout`](../../aspose.words/document/updatepagelayout) denir. |
+| BuildFinished | `3` | Sayfa düzeninin oluşturulması tamamlandı. Bir kez ateşlendi. Bu, aşağıdaki durumlarda meydana gelen son olaydır.[`UpdatePageLayout`](../../aspose.words/document/updatepagelayout) denir. |
+| ConversionStarted | `4` | Belge modelinin sayfa düzenine dönüştürülmesi başladı. Bir kez tetiklendi. Bu, yerleşim modeli belge içeriğini çekmeye başladığında gerçekleşir. |
+| ConversionFinished | `5` | Belge modelinin sayfa düzenine dönüştürülmesi tamamlandı. Bir kez tetiklendi. Bu, düzen modeli belge içeriğini çekmeyi bıraktığında meydana gelir. |
+| ReflowStarted | `6` | Sayfa düzeninin yeniden akışı başladı. Bir kez tetiklendi. Bu, yerleşim modeli belge içeriğini yeniden akıtmaya başladığında meydana gelir. |
+| ReflowFinished | `7` | Sayfa düzeninin yeniden akışı tamamlandı. Bir kez tetiklendi. Bu, düzen modeli belge içeriğinin yeniden akışını durdurduğunda meydana gelir. |
+| PartReflowStarted | `8` | Sayfanın yeniden akışı başladı. Sayfanın birden çok kez yeniden düzenlenebileceğini ve bu yeniden akışın tamamlanmadan önce yeniden başlayabileceğini unutmayın. |
+| PartReflowFinished | `9` | Sayfanın yeniden akışı tamamlandı. Sayfanın birden çok kez yeniden akışının olabileceğini ve bu yeniden akışın tamamlanmadan önce yeniden başlayabileceğini unutmayın. |
+| PartRenderingStarted | `10` | Sayfanın oluşturulması başladı. Bu, sayfa başına bir kez tetiklenir. |
+| PartRenderingFinished | `11` | Sayfanın işlenmesi tamamlandı. Bu, sayfa başına bir kez tetiklenir. |
+
+### Örnekler
+
+Bir düzen geri çağırma ile düzen değişikliklerinin nasıl izleneceğini gösterir.
+
+```csharp
+[Test]
+public void PageLayoutCallback()
+{
+    Document doc = new Document();
+    doc.BuiltInDocumentProperties.Title = "My Document";
+
+    DocumentBuilder builder = new DocumentBuilder(doc);
+    builder.Writeln("Hello world!");
+
+    doc.LayoutOptions.Callback = new RenderPageLayoutCallback();
+    doc.UpdatePageLayout();
+
+    doc.Save(ArtifactsDir + "Layout.PageLayoutCallback.pdf");
+}
+
+/// <summary>
+/// Belgeyi sabit bir sayfa biçiminde kaydettiğimizde bize haber verir
+/// ve yerel dosya sistemindeki bir görüntüye sayfa yeniden akışı gerçekleştirdiğimiz bir sayfayı oluşturur.
+/// </summary>
+private class RenderPageLayoutCallback : IPageLayoutCallback
+{
+    public void Notify(PageLayoutCallbackArgs a)
+    {
+        switch (a.Event)
+        {
+            case PageLayoutEvent.PartReflowFinished:
+                NotifyPartFinished(a);
+                break;
+            case PageLayoutEvent.ConversionFinished:
+                NotifyConversionFinished(a);
+                break;
+        }
+    }
+
+    private void NotifyPartFinished(PageLayoutCallbackArgs a)
+    {
+        Console.WriteLine($"Part at page {a.PageIndex + 1} reflow.");
+        RenderPage(a, a.PageIndex);
+    }
+
+    private void NotifyConversionFinished(PageLayoutCallbackArgs a)
+    {
+        Console.WriteLine($"Document \"{a.Document.BuiltInDocumentProperties.Title}\" converted to page format.");
+    }
+
+    private void RenderPage(PageLayoutCallbackArgs a, int pageIndex)
+    {
+        ImageSaveOptions saveOptions = new ImageSaveOptions(SaveFormat.Png) { PageSet = new PageSet(pageIndex) };
+
+        using (FileStream stream =
+            new FileStream(ArtifactsDir + $@"PageLayoutCallback.page-{pageIndex + 1} {++mNum}.png",
+                FileMode.Create))
+            a.Document.Save(stream, saveOptions);
+    }
+
+    private int mNum;
+}
+```
+
+### Ayrıca bakınız
+
+* ad alanı [Aspose.Words.Layout](../../aspose.words.layout)
+* toplantı [Aspose.Words](../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

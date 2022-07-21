@@ -16,7 +16,7 @@ public virtual DmlEffectsRenderingMode DmlEffectsRenderingMode { get; set; }
 
 ### 评论
 
-默认值为Simplified。
+默认值为Simplified.
 
 当文档导出为固定页面格式时使用此属性。
 

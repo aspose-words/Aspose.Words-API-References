@@ -16,13 +16,13 @@ public string[] BuiltInTemplatesPaths { get; set; }
 
 ### 评论
 
-此属性由Fields使用。FieldAutoText和[`FieldGlossary`](../../fieldglossary)字段，如果在:::R5:P:Aspose.Words.Document.AttachedTemplate::中找不到引用的自动文本条目:模板。
+该属性由[`FieldAutoText`](../../fieldautotext)和[`FieldGlossary`](../../fieldglossary)字段，如果在[`AttachedTemplate`](../../../aspose.words/document/attachedtemplate)模板。
 
-默认情况下，MS Word 将内置模板存储在 c:\Users\&lt;用户名&gt;\AppData\Roaming\Microsoft\Document Building Blocks\1033\16\内置 Building Blocks.dotx 和 C:\Users\&lt;用户名&gt;\AppData\Roaming\Microsoft\Templates\Normal.dotm 文件。
+默认情况下，MS Word 将内置模板存储在 c:\Users\&lt;username&gt;\AppData\Roaming\Microsoft\Document Building Blocks\1033\16\Built-In Building Blocks.dotx and C:\Users\&lt;username&gt;\ AppData\Roaming\Microsoft\Templates\Normal.dotm 文件。
 
 ### 例子
 
-显示如何使用自动文本和词汇表字段显示构建块。
+演示如何显示带有 AUTOTEXT 和 GLOSSARY 字段的构建块。
 
 ```csharp
 Document doc = new Document();

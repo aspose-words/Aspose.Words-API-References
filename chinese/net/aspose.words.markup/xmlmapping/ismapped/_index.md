@@ -1,14 +1,14 @@
 ---
 title: IsMapped
 second_title: Aspose.Words for .NET API 参考
-description: 如果父结构化文档标记成功映射到 XML 数据则返回 true 
+description: 返回 真的如果父结构化文档标记成功映射到 XML 数据
 type: docs
 weight: 20
 url: /zh/net/aspose.words.markup/xmlmapping/ismapped/
 ---
 ## XmlMapping.IsMapped property
 
-如果父结构化文档标记成功映射到 XML 数据，则返回 **true** 。
+返回 **真的**如果父结构化文档标记成功映射到 XML 数据。
 
 ```csharp
 public bool IsMapped { get; }
@@ -16,7 +16,7 @@ public bool IsMapped { get; }
 
 ### 例子
 
-显示如何为自定义 XML 部件设置 XML 映射。
+展示如何为自定义 XML 部件设置 XML 映射。
 
 ```csharp
 Document doc = new Document();

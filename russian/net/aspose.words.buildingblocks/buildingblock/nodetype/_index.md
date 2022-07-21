@@ -1,14 +1,14 @@
 ---
 title: NodeType
 second_title: Справочник по API Aspose.Words для .NET
-description: Возвращает значениеBuildingBlock.
+description: ВозвращаетBuildingBlock значение.
 type: docs
 weight: 100
 url: /ru/net/aspose.words.buildingblocks/buildingblock/nodetype/
 ---
 ## BuildingBlock.NodeType property
 
-Возвращает значениеBuildingBlock.
+ВозвращаетBuildingBlock значение.
 
 ```csharp
 public override NodeType NodeType { get; }

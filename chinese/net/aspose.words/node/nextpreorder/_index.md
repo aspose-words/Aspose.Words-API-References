@@ -20,11 +20,11 @@ public Node NextPreOrder(Node rootNode)
 
 ### 返回值
 
-预购顺序中的下一个节点。如果到达 rootNode，则为 Null。
+预购订单中的下一个节点。如果到达 rootNode，则为 Null。
 
 ### 例子
 
-显示如何使用前序遍历算法遍历文档的节点树，并删除任何遇到的带有图像的形状。
+展示如何使用前序遍历算法遍历文档的节点树，并使用图像删除任何遇到的形状。
 
 ```csharp
 Document doc = new Document(MyDir + "Images.docx");

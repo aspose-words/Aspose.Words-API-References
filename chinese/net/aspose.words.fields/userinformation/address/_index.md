@@ -31,13 +31,13 @@ UserInformation userInformation = new UserInformation
 };
 doc.FieldOptions.CurrentUser = userInformation;
 
- // 插入 USERNAME、USERINITIALS 和 USERADDRESS 字段，显示值 of
- // 我们在上面创建的 UserInformation 对象的各个属性。 
+// 插入 USERNAME、USERINITIALS 和 USERADDRESS 字段，它们显示的值
+// 我们在上面创建的 UserInformation 对象的各个属性。 
 Assert.AreEqual(userInformation.Name, builder.InsertField(" USERNAME ").Result);
 Assert.AreEqual(userInformation.Initials, builder.InsertField(" USERINITIALS ").Result);
 Assert.AreEqual(userInformation.Address, builder.InsertField(" USERADDRESS ").Result);
 
- // 字段选项对象还有一个静态默认用户，所有文档中的字段都可以引用。
+// 字段选项对象还有一个静态默认用户，所有文档的字段都可以引用。
 UserInformation.DefaultUser.Name = "Default User";
 UserInformation.DefaultUser.Initials = "D. U.";
 UserInformation.DefaultUser.Address = "One Microsoft Way";

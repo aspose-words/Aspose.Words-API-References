@@ -1,14 +1,14 @@
 ---
 title: FontEmbeddingMode
 second_title: Справочник по API Aspose.Words для .NET
-description: Задает режим внедрения шрифта.
+description: Определяет режим внедрения шрифта.
 type: docs
 weight: 140
 url: /ru/net/aspose.words.saving/pdfsaveoptions/fontembeddingmode/
 ---
 ## PdfSaveOptions.FontEmbeddingMode property
 
-Задает режим внедрения шрифта.
+Определяет режим внедрения шрифта.
 
 ```csharp
 public PdfFontEmbeddingMode FontEmbeddingMode { get; set; }
@@ -16,11 +16,11 @@ public PdfFontEmbeddingMode FontEmbeddingMode { get; set; }
 
 ### Примечания
 
-Значение по умолчанию:Встроитьвсе.
+Значение по умолчаниюEmbedAll.
 
-Этот параметр работает только для текста в кодировке ANSI (Windows-1252). Если документ содержит текст, отличный от ANSI, то соответствующие шрифты будут встроены вне зависимости от этой настройки.
+Этот параметр работает только для текста в кодировке ANSI (Windows-1252). Если документ содержит текст, отличный от ANSI, соответствующие шрифты будут внедрены независимо от этого параметра.
 
-Соответствие PDF/A и PDF/UA требует внедрения всех шрифтов. EmbedAllзначение будет использоваться автоматически при сохранении в PDF/A и PDF/UA.
+Соответствие PDF/A и PDF/UA требует, чтобы все шрифты были встроены. EmbedAll значение будет использоваться автоматически при сохранении в PDF/A и PDF/UA.
 
 ### Примеры
 

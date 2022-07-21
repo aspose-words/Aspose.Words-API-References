@@ -16,21 +16,21 @@ public string FontFileName { get; set; }
 
 ### 评论
 
-此属性允许您重新定义字体文件名的生成方式 在导出到 HTML 期间。
+此属性允许您重新定义在导出到 HTML 期间如何生成字体文件名 。
 
-触发事件时，此属性包含由 Aspose.Words 生成 的文件名。您可以更改此属性的值以将字体保存到 不同的文件中。请注意，文件名必须是唯一的。
+触发事件时，此属性包含由 Aspose.Words 生成的 文件名。您可以更改此属性的值以将字体保存到 不同的文件中。请注意，文件名必须是唯一的。
 
-Aspose.Words 在 导出为 HTML 格式时自动为每个嵌入字体生成一个唯一的文件名。如何生成字体文件名 取决于您是将文档保存到文件还是流中。
+当 导出为 HTML 格式时，Aspose.Words 会自动为每个嵌入字体生成一个唯一的文件名。字体文件名的生成方式 取决于您是将文档保存到文件还是流中。
 
-将文档保存到文件时，生成的字体文件名类似于  &lt;文档库文件名&gt;.&lt;原始文件名&gt;&lt;可选后缀&gt;.&lt;扩展名&gt; 。
+将文档保存到文件时，生成的字体文件名看起来像 &lt;文档基本文件名&gt;.&lt;原始文件名&gt;&lt;可选后缀&gt;.&lt;扩展名&gt;.
 
-将文档保存到流时，生成的字体文件名类似于  Aspose.Words。 &lt;文档 guid&gt;.&lt;原始文件名&gt;&lt;可选后缀&gt;.&lt;扩展名&gt; 。
+将文档保存到流时，生成的字体文件名看起来像 Aspose.Words.&lt;文档 guid&gt;.&lt;原始文件名&gt;&lt;可选后缀&gt;.&lt;扩展名&gt;.
 
-`FontFileName`必须只包含文件名而不包含路径。 Aspose.Words 使用文档文件名确定保存路径， [`FontsFolder`](../../htmlsaveoptions/fontsfolder)和 [`FontsFolderAlias`](../../htmlsaveoptions/fontsfolderalias)属性。
+`FontFileName`必须只包含文件名而不包含路径。 Aspose.Words 使用文档文件名确定保存路径， [`FontsFolder`](../../htmlsaveoptions/fontsfolder)和 [`FontsFolderAlias`](../../htmlsaveoptions/fontsfolderalias)特性。
 
 ### 例子
 
-显示如何定义自定义逻辑以在保存到 HTML 时导出字体。
+展示如何定义自定义逻辑以在保存为 HTML 时导出字体。
 
 ```csharp
 {

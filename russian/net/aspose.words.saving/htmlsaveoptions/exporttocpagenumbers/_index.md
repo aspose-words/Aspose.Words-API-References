@@ -1,14 +1,14 @@
 ---
 title: ExportTocPageNumbers
 second_title: Справочник по API Aspose.Words для .NET
-description: Указывает записывать ли номера страниц в оглавление при сохранении HTML MHTML и EPUB. Значение по умолчанию false .
+description: Указывает записывать ли номера страниц в оглавление при сохранении HTML MHTML и EPUB. Значение по умолчаниюЛОЖЬ .
 type: docs
 weight: 280
 url: /ru/net/aspose.words.saving/htmlsaveoptions/exporttocpagenumbers/
 ---
 ## HtmlSaveOptions.ExportTocPageNumbers property
 
-Указывает, записывать ли номера страниц в оглавление при сохранении HTML, MHTML и EPUB. Значение по умолчанию:` false` .
+Указывает, записывать ли номера страниц в оглавление при сохранении HTML, MHTML и EPUB. Значение по умолчанию:`ЛОЖЬ` .
 
 ```csharp
 public bool ExportTocPageNumbers { get; set; }

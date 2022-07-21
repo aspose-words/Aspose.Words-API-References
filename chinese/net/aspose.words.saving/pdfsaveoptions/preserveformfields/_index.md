@@ -1,14 +1,14 @@
 ---
 title: PreserveFormFields
 second_title: Aspose.Words for .NET API 参考
-description: 指定是否将 Microsoft Word 表单域保留为 PDF 中的表单域或将其转换为文本 默认为 false 
+description: 指定是否将 Microsoft Word 表单域保留为 PDF 中的表单域或将其转换为文本 默认为错误的.
 type: docs
 weight: 240
 url: /zh/net/aspose.words.saving/pdfsaveoptions/preserveformfields/
 ---
 ## PdfSaveOptions.PreserveFormFields property
 
-指定是否将 Microsoft Word 表单域保留为 PDF 中的表单域或将其转换为文本。 默认为` false` 。
+指定是否将 Microsoft Word 表单域保留为 PDF 中的表单域或将其转换为文本。 默认为`错误的`.
 
 ```csharp
 public bool PreserveFormFields { get; set; }
@@ -16,21 +16,21 @@ public bool PreserveFormFields { get; set; }
 
 ### 评论
 
-Microsoft Word 表单字段包括文本输入、下拉和复选框控件。
+Microsoft Word 表单域包括文本输入、下拉和复选框控件。
 
-当设置为` false` 时，这些字段将作为文本导出为 PDF。当设置为` true` , 这些字段将导出为 PDF 表单字段。
+当设置为`错误的` ，这些字段将作为文本导出为 PDF。当设置为`真的`, 这些字段将导出为 PDF 表单字段。
 
-将表单域作为表单域导出为 PDF 时，可能会出现一些格式丢失，因为 PDF 表单 域不支持 Microsoft Word 的所有功能表单字段。
+将表单域作为表单域导出为 PDF 时，可能会出现一些格式丢失，因为 PDF form fields 不支持 Microsoft Word 表单域的所有功能。
 
 此外，输出大小取决于内容大小，因为 Microsoft Word 中的可编辑表单是 内联对象。
 
-PDF/A 合规性禁止可编辑表单。` false` 值将在保存到 PDF/A 时自动使用 。
+PDF/A 合规性禁止可编辑表单。`错误的`保存到 PDF/A 时将自动使用值 。
 
-保存到 PDF/UA 时不支持表单字段。` false` 值将被自动使用。
+保存为 PDF/UA 时不支持表单域。`错误的`值将被自动使用。
 
 ### 例子
 
-显示如何使用 Save 方法和 PdfSaveOptions 类将文档保存为 PDF 格式。
+演示如何使用 Save 方法和 PdfSaveOptions 类将文档保存为 PDF 格式。
 
 ```csharp
 Document doc = new Document();

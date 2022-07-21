@@ -1,14 +1,14 @@
 ---
 title: SaveFormat
 second_title: Aspose.Words for .NET API 参考
-description: 如果使用此保存选项对象则指定保存文档的格式 可以是DocxDocm DotxDotm或FlatOpc
+description: 指定使用此保存选项对象时将保存文档的格式 可以是DocxDocm  DotxDotm或者FlatOpc.
 type: docs
 weight: 60
 url: /zh/net/aspose.words.saving/ooxmlsaveoptions/saveformat/
 ---
 ## OoxmlSaveOptions.SaveFormat property
 
-如果使用此保存选项对象，则指定保存文档的格式。 可以是Docx,Docm, Dotx,Dotm或FlatOpc。
+指定使用此保存选项对象时将保存文档的格式。 可以是Docx,Docm , Dotx,Dotm或者FlatOpc.
 
 ```csharp
 public override SaveFormat SaveFormat { get; set; }
@@ -16,7 +16,7 @@ public override SaveFormat SaveFormat { get; set; }
 
 ### 例子
 
-显示如何为保存的文档设置 OOXML 合规性规范以遵守。
+演示如何设置要遵守的已保存文档的 OOXML 合规性规范。
 
 ```csharp
 Document doc = new Document();

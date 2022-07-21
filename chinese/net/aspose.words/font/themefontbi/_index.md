@@ -1,14 +1,14 @@
 ---
 title: ThemeFontBi
 second_title: Aspose.Words for .NET API 参考
-description: 在从右到左的语言文档中获取或设置与此 Font 对象 关联的应用字体方案中的主题字体
+description: 在从右到左的语言文档中获取或设置与此 Font object 关联的应用字体方案中的主题字体
 type: docs
 weight: 490
 url: /zh/net/aspose.words/font/themefontbi/
 ---
 ## Font.ThemeFontBi property
 
-在从右到左的语言文档中获取或设置与此 Font 对象 关联的应用字体方案中的主题字体。
+在从右到左的语言文档中获取或设置与此 Font object 关联的应用字体方案中的主题字体。
 
 ```csharp
 public ThemeFont ThemeFontBi { get; set; }

@@ -16,7 +16,7 @@ public string VariableName { get; set; }
 
 ### 例子
 
-显示如何使用 DOCPROPERTY 字段来显示文档属性和变量。
+演示如何使用 DOCPROPERTY 字段来显示文档属性和变量。
 
 ```csharp
 Document doc = new Document();

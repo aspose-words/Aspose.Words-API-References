@@ -3,14 +3,14 @@ title: CompressionLevel
 second_title: Справочник по API Aspose.Words для .NET
 description: Уровень сжатия для файлов OOXML.
 type: docs
-weight: 4560
+weight: 4610
 url: /ru/net/aspose.words.saving/compressionlevel/
 ---
 ## CompressionLevel enumeration
 
 Уровень сжатия для файлов OOXML.
 
-(Файлы DOCX и DOTX внутренне являются ZIP-архивом, это свойство управляет степенью сжатия архива.
+(файлы DOCX и DOTX внутри являются ZIP-архивом, это свойство управляет степенью сжатия архива.
 
 Обратите внимание, что файл FlatOpc не является ZIP-архивом, поэтому это свойство не влияет на файлы FlatOpc.)
 
@@ -24,7 +24,7 @@ public enum CompressionLevel
 | --- | --- | --- |
 | Normal | `0` | Нормальный уровень сжатия. Уровень сжатия по умолчанию, используемый Aspose.Words. |
 | Maximum | `1` | Максимальный уровень сжатия. |
-| Fast | `2` | Быстрый уровень сжатия. |
+| Fast | `2` | Уровень быстрого сжатия. |
 | SuperFast | `3` | Сверхбыстрый уровень сжатия. Microsoft Word использует этот уровень сжатия. |
 
 ### Примеры

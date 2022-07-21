@@ -18,9 +18,9 @@ public bool PreblendImages { get; set; }
 
 Предварительное наложение изображений может улучшить внешний вид документа PDF в Adobe Reader и удалить артефакты сглаживания.
 
-Для корректного отображения предварительно смешанных изображений приложение для просмотра PDF должно поддерживать запись /Matte в словаре изображений программной маски. Кроме того, предварительное смешивание изображений может снизить производительность рендеринга PDF.
+Для правильного отображения предварительно смешанных изображений приложение для просмотра PDF должно поддерживать запись /Matte в словаре изображений программной маски. Кроме того, предварительное смешение изображений может снизить производительность рендеринга PDF.
 
-Значение по умолчанию:` false` .
+Значение по умолчанию`ЛОЖЬ`.
 
 ### Примеры
 
@@ -30,8 +30,8 @@ public bool PreblendImages { get; set; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-using (Image image = Image.Decode(ImageDir + "Transparent background logo.png"))
-    builder.InsertImage(image);
+Image img = Image.FromFile(ImageDir + "Transparent background logo.png");
+builder.InsertImage(img);
 
 // Создаем объект "PdfSaveOptions", который мы можем передать в метод "Сохранить" документа
 // для изменения того, как этот метод преобразует документ в .PDF.
@@ -42,10 +42,10 @@ PdfSaveOptions options = new PdfSaveOptions();
 // Установите для свойства "PreblendImages" значение "false", чтобы нормально отображать прозрачные изображения.
 options.PreblendImages = preblendImages;
 
-doc.Save(ArtifactsDir + "PdfSaveOptions.PreblendImagesNetStandard2.pdf", options);
+doc.Save(ArtifactsDir + "PdfSaveOptions.PreblendImages.pdf", options);
 ```
 
-Показывает, как выполнить предварительное наложение изображений с прозрачным фоном (.NetStandard 2.0).
+Показывает, как предварительно смешивать изображения с прозрачным фоном (.NetStandard 2.0).
 
 ```csharp
 Document doc = new Document();

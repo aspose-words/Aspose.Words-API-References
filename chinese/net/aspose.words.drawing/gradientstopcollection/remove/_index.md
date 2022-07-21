@@ -1,14 +1,14 @@
 ---
 title: Remove
 second_title: Aspose.Words for .NET API 参考
-description: 从集合中删除指定的GradientStopaspose.words.drawing/gradientstop
+description: 删除指定的GradientStopaspose.words.drawing/gradientstop来自集合.
 type: docs
 weight: 60
 url: /zh/net/aspose.words.drawing/gradientstopcollection/remove/
 ---
 ## GradientStopCollection.Remove method
 
-从集合中删除指定的[`GradientStop`](../../gradientstop)。
+删除指定的[`GradientStop`](../../gradientstop)来自集合.
 
 ```csharp
 public bool Remove(GradientStop gradientStop)

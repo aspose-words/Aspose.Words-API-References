@@ -1,14 +1,14 @@
 ---
 title: ShapeLineStyle
 second_title: Справочник по API Aspose.Words для .NET
-description: Задает стиль составной линии дляShape./shape.
+description: Определяет стиль составной линииShape./shape .
 type: docs
-weight: 1100
+weight: 1120
 url: /ru/net/aspose.words.drawing/shapelinestyle/
 ---
 ## ShapeLineStyle enumeration
 
-Задает стиль составной линии для[`Shape`](../shape).
+Определяет стиль составной линии[`Shape`](../shape) .
 
 ```csharp
 public enum ShapeLineStyle
@@ -21,9 +21,9 @@ public enum ShapeLineStyle
 | Single | `0` | Одна строка. |
 | Double | `1` | Двойные линии одинаковой ширины. |
 | ThickThin | `2` | Двойные линии, одна толстая, другая тонкая. |
-| ThinThick | `3` | Двойные линии, одна тонкая, одна толстая. |
+| ThinThick | `3` | Двойные линии, одна тонкая, другая толстая. |
 | Triple | `4` | Три линии, тонкая, толстая, тонкая. |
-| Default | `0` | Значение по умолчанию:Single. |
+| Default | `0` | Значение по умолчанию:Single . |
 
 ### Примеры
 
@@ -41,7 +41,7 @@ Shape shape = builder.InsertShape(ShapeType.Rectangle, RelativeHorizontalPositio
 shape.Fill.ForeColor = Color.White;
 
 // 2 - Обводка, обозначающая контур фигуры:
-// Измените различные свойства обводки этой фигуры.
+// Изменяем различные свойства обводки этой фигуры.
 Stroke stroke = shape.Stroke;
 stroke.On = true;
 stroke.Weight = 5;

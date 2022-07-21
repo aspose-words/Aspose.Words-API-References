@@ -1,14 +1,14 @@
 ---
 title: CustomDocumentProperties
 second_title: Справочник по API Aspose.Words для .NET
-description: ПолучаетCustomDocumentPropertiesaspose.words/plaintextdocument/customdocumentpropertiesдокумента.
+description: получаетCustomDocumentPropertiesaspose.words/plaintextdocument/customdocumentproperties документа.
 type: docs
 weight: 30
 url: /ru/net/aspose.words/plaintextdocument/customdocumentproperties/
 ---
 ## PlainTextDocument.CustomDocumentProperties property
 
-Получает`CustomDocumentProperties`документа.
+получает`CustomDocumentProperties` документа.
 
 ```csharp
 public CustomDocumentProperties CustomDocumentProperties { get; }
@@ -16,7 +16,7 @@ public CustomDocumentProperties CustomDocumentProperties { get; }
 
 ### Примеры
 
-Показывает, как загрузить содержимое документа Microsoft Word в виде открытого текста, а затем получить доступ к пользовательским свойствам исходного документа.
+Показывает, как загрузить содержимое документа Microsoft Word в виде обычного текста, а затем получить доступ к пользовательским свойствам исходного документа.
 
 ```csharp
 Document doc = new Document();

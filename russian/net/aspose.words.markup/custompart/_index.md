@@ -3,7 +3,7 @@ title: CustomPart
 second_title: Справочник по API Aspose.Words для .NET
 description: Представляет пользовательскую часть произвольное содержимое которая не определена стандартом ISO/IEC 29500.
 type: docs
-weight: 3610
+weight: 3660
 url: /ru/net/aspose.words.markup/custompart/
 ---
 ## CustomPart class
@@ -24,27 +24,27 @@ public class CustomPart
 
 | Имя | Описание |
 | --- | --- |
-| [ContentType](../../aspose.words.markup/custompart/contenttype) { get; set; } | Указывает тип содержимого этой пользовательской части. |
-| [Data](../../aspose.words.markup/custompart/data) { get; set; } | Содержит данные этой пользовательской детали. |
-| [IsExternal](../../aspose.words.markup/custompart/isexternal) { get; set; } | ` False` , если эта пользовательская часть хранится внутри пакета OOXML.` True` , если эта пользовательская часть является внешней целью. |
-| [Name](../../aspose.words.markup/custompart/name) { get; set; } | Получает или задает абсолютное имя этой части в пакете OOXML или целевой URL-адрес. |
-| [RelationshipType](../../aspose.words.markup/custompart/relationshiptype) { get; set; } | Получает или задает тип отношения родительской части к этой пользовательской части. |
+| [ContentType](../../aspose.words.markup/custompart/contenttype) { get; set; } | Определяет тип содержимого этой пользовательской части. |
+| [Data](../../aspose.words.markup/custompart/data) { get; set; } | Содержит данные этой пользовательской части. |
+| [IsExternal](../../aspose.words.markup/custompart/isexternal) { get; set; } | `ЛОЖЬ` если эта пользовательская часть хранится внутри пакета OOXML.`Истинный` если эта пользовательская часть является внешней целью. |
+| [Name](../../aspose.words.markup/custompart/name) { get; set; } | Получает или задает абсолютное имя этой части в пакете OOXML или целевой URL. |
+| [RelationshipType](../../aspose.words.markup/custompart/relationshiptype) { get; set; } | Получает или задает тип отношения между родительской частью и этой пользовательской частью. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [Clone](../../aspose.words.markup/custompart/clone)() | Делает "достаточно глубокую" копию объекта. Не дублирует байты значения[`Data`](./data). |
+| [Clone](../../aspose.words.markup/custompart/clone)() | Создает «достаточно глубокую» копию объекта. Не дублирует байты[`Data`](./data) значение. |
 
 ### Примечания
 
-Этот класс представляет часть OOXML, которая является целью "неизвестной связи". Все отношения, не определенные в ISO/IEC 29500, считаются "неизвестными отношениями". Неизвестные отношения разрешены в документе Office Open XML при условии, что они соответствуют рекомендациям по разметке отношений.
+Этот класс представляет часть OOXML, которая является целью «неизвестной связи». Все связи, не определенные в ISO/IEC 29500, считаются «неизвестными связями». Неизвестные связи разрешены в документе Office Open XML при условии, что они соответствуют к правилам разметки отношений.
 
 Microsoft Word сохраняет пользовательские части во время циклов открытия/сохранения. Некоторую дополнительную информацию можно найти здесь http://blogs.msdn.com/dmahugh/archive/2006/11/25/arbitrary-content-in-an-opc-package.aspx
 
-Aspose.Words также поддерживает пользовательские части и, кроме того, позволяет программно обращаться к таким частям черезCustomPartи[`CustomPartCollection`](../custompartcollection).
+Aspose.Words также передает пользовательские части и, кроме того, позволяет программно получить доступ к таким частям через[`CustomPart`](../custompart) а также[`CustomPartCollection`](../custompartcollection) объекты.
 
-Не путайте пользовательские части с пользовательскими XML-данными. Используйте[`CustomXmlPart`](../customxmlpart)если вам нужно для доступа к пользовательским XML-данным.
+Не путайте пользовательские части с пользовательскими XML-данными. Использовать[`CustomXmlPart`](../customxmlpart) если вам нужно для доступа к пользовательским XML-данным.
 
 ### Примеры
 

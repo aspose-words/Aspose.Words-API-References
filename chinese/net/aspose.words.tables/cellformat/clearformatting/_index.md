@@ -21,18 +21,18 @@ public void ClearFormatting()
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");
 
-// 下面是从文档中获取表格的两种方式。
- // 1 - 来自 Body 节点的“Tables”集合：
+// 下面是从文档中获取表格的两种方法。
+// 1 - 来自 Body 节点的“Tables”集合：
 Table firstTable = doc.FirstSection.Body.Tables[0];
 
- // 2 - 使用“GetChild”方法：
+// 2 - 使用“GetChild”方法：
 Table secondTable = (Table)doc.GetChild(NodeType.Table, 1, true);
 
- // 将当前表中的所有行追加到下一个.
+// 将当前表中的所有行追加到下一个表中。
 while (secondTable.HasChildNodes)
     firstTable.Rows.Add(secondTable.FirstRow);
 
- // 移除空表容器.
+// 删除空表容器。
 secondTable.Remove();
 
 doc.Save(ArtifactsDir + "Table.CombineTables.docx");

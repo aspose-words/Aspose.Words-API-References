@@ -3,7 +3,7 @@ title: PageBorderDistanceFrom
 second_title: Aspose.Words for .NET API 参考
 description: 指定页面边框相对于页边距的位置
 type: docs
-weight: 4060
+weight: 4110
 url: /zh/net/aspose.words/pageborderdistancefrom/
 ---
 ## PageBorderDistanceFrom enumeration
@@ -23,7 +23,7 @@ public enum PageBorderDistanceFrom
 
 ### 例子
 
-展示了如何在第一页的顶部创建一个宽的蓝色边框。
+展示如何在第一页的顶部创建一个宽的蓝色边框。
 
 ```csharp
 Document doc = new Document();

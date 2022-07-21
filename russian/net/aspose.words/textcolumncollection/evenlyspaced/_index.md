@@ -1,14 +1,14 @@
 ---
 title: EvenlySpaced
 second_title: Справочник по API Aspose.Words для .NET
-description: Истинно  если текстовые столбцы имеют одинаковую ширину и равномерно распределены.
+description: Истинный если текстовые столбцы имеют одинаковую ширину и равномерно распределены.
 type: docs
 weight: 20
 url: /ru/net/aspose.words/textcolumncollection/evenlyspaced/
 ---
 ## TextColumnCollection.EvenlySpaced property
 
-**Истинно** , если текстовые столбцы имеют одинаковую ширину и равномерно распределены.
+**Истинный** если текстовые столбцы имеют одинаковую ширину и равномерно распределены.
 
 ```csharp
 public bool EvenlySpaced { get; set; }

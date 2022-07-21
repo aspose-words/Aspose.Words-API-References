@@ -26,31 +26,22 @@ public FormField InsertComboBox(string name, string[] items, int selectedIndex)
 
 ### Примечания
 
-Если указать имя поля формы, то автоматически создается закладка с таким же имя.
+Если указать имя для поля формы, то автоматически создается закладка с тем же именем.
 
 ### Примеры
 
-Показывает, как вставить поле формы со списком в документ.
+Показывает, как вставить поле формы поля со списком в документ.
 
 ```csharp
-DocumentBuilder builder = new DocumentBuilder();
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Поля формы — это объекты в документе, с которыми пользователь может взаимодействовать, получая запрос на ввод значений.
-// Мы можем создать их с помощью конструктора документов, и ниже приведены два способа сделать это.
-// 1 - Основной ввод текста:
-builder.InsertTextInput("My text input", TextFormFieldType.Regular, 
-    "", "Enter your name here", 30);
+// Вставить форму, предлагающую пользователю выбрать один из пунктов меню.
+builder.Write("Pick a fruit: ");
+string[] items = { "Apple", "Banana", "Cherry" };
+builder.InsertComboBox("DropDown", items, 0);
 
-// 2 - Поле со списком с текстом подсказки и диапазоном возможных значений:
-string[] items =
-{
-    "-- Select your favorite footwear --", "Sneakers", "Oxfords", "Flip-flops", "Other"
-};
-
-builder.InsertParagraph();
-builder.InsertComboBox("My combo box", items, 0);
-
-builder.Document.Save(ArtifactsDir + "DocumentBuilder.CreateForm.docx");
+doc.Save(ArtifactsDir + "DocumentBuilder.InsertComboBox.docx");
 ```
 
 Показывает, как создавать поля формы.

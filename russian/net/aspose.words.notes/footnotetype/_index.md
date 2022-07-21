@@ -3,7 +3,7 @@ title: FootnoteType
 second_title: Справочник по API Aspose.Words для .NET
 description: Указывает является ли это сноской или концевой сноской.
 type: docs
-weight: 4010
+weight: 4060
 url: /ru/net/aspose.words.notes/footnotetype/
 ---
 ## FootnoteType enumeration
@@ -23,51 +23,34 @@ public enum FootnoteType
 
 ### Примечания
 
-Как обычные, так и концевые сноски представлены объектами с помощьюFootnote class. Используйте[`FootnoteType`](../footnote/footnotetype), чтобы различать сноски и концевые сноски.
+И сноски, и концевые сноски представлены объектами с помощьюFootnote класс. Использовать[`FootnoteType`](../footnote/footnotetype) различать сноски и концевые сноски.
 
 ### Примеры
 
-Показывает, как ссылаться на текст с помощью сноску и концевую сноску.
+Показывает, как ссылаться на текст со сноской и концевой сноской.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
- // Добавляем текст и ссылаемся на него сноской. Эта сноска поместит небольшой верхний индекс reference
- // пометить после текста, на который он ссылается, и создать запись под основным текстом внизу страницы.
- // Эта запись будет содержать отметку сноски и текст ссылки, 
- // который мы передадим методу "InsertFootnote" конструктора документов.
-builder.Write("Main body text.");
-Footnote footnote = builder.InsertFootnote(FootnoteType.Footnote, "Footnote text.");
+// Вставляем некоторый текст и помечаем его сноской со свойством IsAuto, для которого по умолчанию установлено значение «true»,
+// поэтому маркер, видимый в основном тексте, будет автоматически пронумерован как «1»,
+// и сноска появится внизу страницы.
+builder.Write("This text will be referenced by a footnote.");
+builder.InsertFootnote(FootnoteType.Footnote, "Footnote comment regarding referenced text.");
 
- // Если для этого свойства установлено значение "true", то ссылка на нашу сноску mark
- // будет его индексом среди всех сносок раздела.
- // Это первая сноска, поэтому отметка будет "1".
-Assert.True(footnote.IsAuto);
+// Вставьте дополнительный текст и отметьте его концевой сноской с пользовательской контрольной меткой,
+// который будет использоваться вместо числа "2" и установить для "IsAuto" значение false.
+builder.Write("This text will be referenced by an endnote.");
+builder.InsertFootnote(FootnoteType.Endnote, "Endnote comment regarding referenced text.", "CustomMark");
 
- // Мы можем переместить конструктор документа внутрь сноски, чтобы отредактировать его ссылочный текст. 
-builder.MoveTo(footnote.FirstParagraph);
-builder.Write(" More text added by a DocumentBuilder.");
-builder.MoveToDocumentEnd();
+// Сноски всегда появляются внизу текста, на который они ссылаются,
+// поэтому этот разрыв страницы не повлияет на сноску.
+// С другой стороны, концевые сноски всегда находятся в конце документа
+// чтобы этот разрыв страницы переместил концевую сноску на следующую страницу.
+builder.InsertBreak(BreakType.PageBreak);
 
-Assert.AreEqual("\u0002 Footnote text. More text added by a DocumentBuilder.", footnote.GetText().Trim());
-
-builder.Write(" More main body text.");
-footnote = builder.InsertFootnote(FootnoteType.Footnote, "Footnote text.");
-
- // Мы можем установить пользовательскую отметку, которую сноска будет использовать вместо своего порядкового номера.
-footnote.ReferenceMark = "RefMark";
-
-Assert.False(footnote.IsAuto);
-
-// Закладка с флагом "IsAuto", установленным в true, по-прежнему будет показывать свой реальный index
- // даже если предыдущие закладки отображают пользовательские метки ссылок, метка этой закладки будет "3".
-builder.Write(" More main body text.");
-footnote = builder.InsertFootnote(FootnoteType.Footnote, "Footnote text.");
-
-Assert.True(footnote.IsAuto);
-
-doc.Save(ArtifactsDir + "InlineStory.AddFootnote.docx");
+doc.Save(ArtifactsDir + "DocumentBuilder.InsertFootnote.docx");
 ```
 
 Показывает, как вставлять и настраивать сноски.
@@ -76,19 +59,19 @@ doc.Save(ArtifactsDir + "InlineStory.AddFootnote.docx");
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
- // Добавляем текст и ссылаемся на него сноской. Эта сноска поместит небольшой верхний индекс reference
- // пометить после текста, на который он ссылается, и создать запись под основным текстом внизу страницы.
- // Эта запись будет содержать отметку сноски и текст ссылки, 
- // который мы передадим методу "InsertFootnote" конструктора документов.
+// Добавляем текст и ссылаемся на него сноской. Эта сноска поместит небольшую ссылку в верхнем индексе
+// отметить после текста, на который он ссылается, и создать запись под основным текстом в нижней части страницы.
+// Эта запись будет содержать отметку сноски и текст ссылки,
+// который мы передадим методу "InsertFootnote" конструктора документов.
 builder.Write("Main body text.");
 Footnote footnote = builder.InsertFootnote(FootnoteType.Footnote, "Footnote text.");
 
- // Если для этого свойства установлено значение "true", то ссылка на нашу сноску mark
- // будет его индексом среди всех сносок раздела.
- // Это первая сноска, поэтому отметка будет "1".
+// Если для этого свойства задано значение "true", то референтная метка нашей сноски
+// будет его индексом среди всех сносок раздела.
+// Это первая сноска, поэтому ссылочным знаком будет "1".
 Assert.True(footnote.IsAuto);
 
- // Мы можем переместить конструктор документа внутрь сноски, чтобы отредактировать его ссылочный текст. 
+// Мы можем переместить конструктор документа внутрь сноски, чтобы отредактировать его ссылочный текст. 
 builder.MoveTo(footnote.FirstParagraph);
 builder.Write(" More text added by a DocumentBuilder.");
 builder.MoveToDocumentEnd();
@@ -98,13 +81,13 @@ Assert.AreEqual("\u0002 Footnote text. More text added by a DocumentBuilder.", f
 builder.Write(" More main body text.");
 footnote = builder.InsertFootnote(FootnoteType.Footnote, "Footnote text.");
 
- // Мы можем установить пользовательскую отметку, которую сноска будет использовать вместо своего порядкового номера.
+// Мы можем установить пользовательскую отметку, которую сноска будет использовать вместо своего порядкового номера.
 footnote.ReferenceMark = "RefMark";
 
 Assert.False(footnote.IsAuto);
 
-// Закладка с флагом "IsAuto", установленным в true, по-прежнему будет показывать свой реальный index
- // даже если предыдущие закладки отображают пользовательские метки ссылок, метка этой закладки будет "3".
+// Закладка с флагом "IsAuto", установленным в true, по-прежнему будет показывать свой реальный индекс
+// даже если предыдущие закладки отображают пользовательские метки ссылок, метка этой закладки будет "3".
 builder.Write(" More main body text.");
 footnote = builder.InsertFootnote(FootnoteType.Footnote, "Footnote text.");
 

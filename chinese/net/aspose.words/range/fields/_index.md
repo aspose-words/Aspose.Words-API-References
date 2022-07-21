@@ -1,14 +1,14 @@
 ---
 title: Fields
 second_title: Aspose.Words for .NET API 参考
-description: 返回代表范围内所有字段的Fieldsaspose.words/range/fields集合
+description: 返回一个Fieldsaspose.words/range/fields代表范围内所有字段的集合
 type: docs
 weight: 20
 url: /zh/net/aspose.words/range/fields/
 ---
 ## Range.Fields property
 
-返回代表范围内所有字段的`Fields`集合。
+返回一个`Fields`代表范围内所有字段的集合。
 
 ```csharp
 public FieldCollection Fields { get; }

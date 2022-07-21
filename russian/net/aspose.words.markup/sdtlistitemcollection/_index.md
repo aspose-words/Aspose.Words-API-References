@@ -1,14 +1,14 @@
 ---
 title: SdtListItemCollection
 second_title: Справочник по API Aspose.Words для .NET
-description: Предоставляет доступ к элементамSdtListItem./sdtlistitemтега структурированного документа.
+description: Предоставляет доступ кSdtListItem./sdtlistitemэлементы тега структурированного документа.
 type: docs
-weight: 3740
+weight: 3790
 url: /ru/net/aspose.words.markup/sdtlistitemcollection/
 ---
 ## SdtListItemCollection class
 
-Предоставляет доступ к элементам[`SdtListItem`](../sdtlistitem)тега структурированного документа.
+Предоставляет доступ к[`SdtListItem`](../sdtlistitem)элементы тега структурированного документа.
 
 ```csharp
 public class SdtListItemCollection : IEnumerable<SdtListItem>
@@ -19,8 +19,8 @@ public class SdtListItemCollection : IEnumerable<SdtListItem>
 | Имя | Описание |
 | --- | --- |
 | [Count](../../aspose.words.markup/sdtlistitemcollection/count) { get; } | Получает количество элементов в коллекции. |
-| [Item](../../aspose.words.markup/sdtlistitemcollection/item) { get; } | Возвращает объект[`SdtListItem`](../sdtlistitem)с учетом его индекса в коллекции, начинающегося с нуля. |
-| [SelectedValue](../../aspose.words.markup/sdtlistitemcollection/selectedvalue) { get; set; } | Указывает текущее выбранное значение в этом списке. Допустимо нулевое значение, означающее, что ни одна выбранная в данный момент запись не связана с этой коллекцией элементов списка. |
+| [Item](../../aspose.words.markup/sdtlistitemcollection/item) { get; } | Возвращает[`SdtListItem`](../sdtlistitem) объект с отсчитываемым от нуля индексом в коллекции. |
+| [SelectedValue](../../aspose.words.markup/sdtlistitemcollection/selectedvalue) { get; set; } | Определяет текущее выбранное значение в этом списке. Допустимо нулевое значение, означающее, что никакая выбранная в данный момент запись не связана с этой коллекцией элементов списка. |
 
 ## Методы
 
@@ -28,12 +28,12 @@ public class SdtListItemCollection : IEnumerable<SdtListItem>
 | --- | --- |
 | [Add](../../aspose.words.markup/sdtlistitemcollection/add)(SdtListItem) | Добавляет элемент в эту коллекцию. |
 | [Clear](../../aspose.words.markup/sdtlistitemcollection/clear)() | Удаляет все элементы из этой коллекции. |
-| [GetEnumerator](../../aspose.words.markup/sdtlistitemcollection/getenumerator)() | Возвращает объект перечислителя, который можно использовать для перебора всех элементов коллекции. |
+| [GetEnumerator](../../aspose.words.markup/sdtlistitemcollection/getenumerator)() | Возвращает объект перечислителя, который можно использовать для перебора всех элементов в коллекции. |
 | [RemoveAt](../../aspose.words.markup/sdtlistitemcollection/removeat)(int) | Удаляет элемент списка по указанному индексу. |
 
 ### Примеры
 
-Показывает, как работать со структурированными тегами выпадающего списка.
+Показывает, как работать с тегами структурированного документа с раскрывающимся списком.
 
 ```csharp
 Document doc = new Document();

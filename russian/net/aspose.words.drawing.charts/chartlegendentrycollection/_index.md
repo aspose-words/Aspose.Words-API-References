@@ -18,8 +18,8 @@ public class ChartLegendEntryCollection : IEnumerable<ChartLegendEntry>
 
 | Имя | Описание |
 | --- | --- |
-| [Count](../../aspose.words.drawing.charts/chartlegendentrycollection/count) { get; } | Возвращает количество[`ChartLegendEntry`](../chartlegendentry)в этой коллекции. |
-| [Item](../../aspose.words.drawing.charts/chartlegendentrycollection/item) { get; } | Возвращает[`ChartLegendEntry`](../chartlegendentry)для указанного индекса. |
+| [Count](../../aspose.words.drawing.charts/chartlegendentrycollection/count) { get; } | Возвращает количество[`ChartLegendEntry`](../chartlegendentry) в этой коллекции. |
+| [Item](../../aspose.words.drawing.charts/chartlegendentrycollection/item) { get; } | Возвращает[`ChartLegendEntry`](../chartlegendentry) для указанного индекса. |
 
 ## Методы
 

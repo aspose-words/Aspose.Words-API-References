@@ -24,7 +24,7 @@ public class DigitalSignature
 | [IsValid](../../aspose.words.digitalsignatures/digitalsignature/isvalid) { get; } | 如果此数字签名有效且文档未被篡改，则返回 true。 |
 | [SignatureType](../../aspose.words.digitalsignatures/digitalsignature/signaturetype) { get; } | 获取数字签名的类型。 |
 | [SignTime](../../aspose.words.digitalsignatures/digitalsignature/signtime) { get; } | 获取文档签署的时间。 |
-| [SubjectName](../../aspose.words.digitalsignatures/digitalsignature/subjectname) { get; } | 返回用于签署文档的证书的主题可分辨名称。 |
+| [SubjectName](../../aspose.words.digitalsignatures/digitalsignature/subjectname) { get; } | 返回用于签署文档的证书的主题专有名称。 |
 
 ## 方法
 
@@ -34,7 +34,7 @@ public class DigitalSignature
 
 ### 例子
 
-显示如何验证和显示有关文档中每个签名的信息。
+演示如何验证和显示有关文档中每个签名的信息。
 
 ```csharp
 Document doc = new Document(MyDir + "Digitally signed.docx");

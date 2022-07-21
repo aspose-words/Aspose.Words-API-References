@@ -1,14 +1,14 @@
 ---
 title: Direction
 second_title: Aspose.Words for .NET API 参考
-description: 选择替换方向默认值为Forward
+description: 选择替换方向默认值为Forward.
 type: docs
 weight: 40
 url: /zh/net/aspose.words.replacing/findreplaceoptions/direction/
 ---
 ## FindReplaceOptions.Direction property
 
-选择替换方向。默认值为Forward。
+选择替换方向。默认值为Forward.
 
 ```csharp
 public FindReplaceDirection Direction { get; set; }
@@ -16,7 +16,7 @@ public FindReplaceDirection Direction { get; set; }
 
 ### 例子
 
-显示如何确定查找和替换操作在哪个方向遍历文档。
+显示如何确定查找和替换操作遍历文档的方向。
 
 ```csharp
 public void Direction(FindReplaceDirection findReplaceDirection)

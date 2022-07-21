@@ -1,14 +1,14 @@
 ---
 title: Add
 second_title: Справочник по API Aspose.Words для .NET
-description: Добавляет в коллекцию переменную документа.
+description: Добавляет переменную документа в коллекцию.
 type: docs
 weight: 30
 url: /ru/net/aspose.words/variablecollection/add/
 ---
 ## VariableCollection.Add method
 
-Добавляет в коллекцию переменную документа.
+Добавляет переменную документа в коллекцию.
 
 ```csharp
 public void Add(string name, string value)
@@ -21,20 +21,20 @@ public void Add(string name, string value)
 
 ### Примеры
 
-Показывает, как работать с набором переменных документа.
+Показывает, как работать с коллекцией переменных документа.
 
 ```csharp
 Document doc = new Document();
 VariableCollection variables = doc.Variables;
 
- // В каждом документе есть набор переменных пары ключ/значение, к которым мы можем добавлять элементы.
+// В каждом документе есть набор парных переменных ключ/значение, к которым мы можем добавлять элементы.
 variables.Add("Home address", "123 Main St.");
 variables.Add("City", "London");
 variables.Add("Bedrooms", "3");
 
 Assert.AreEqual(3, variables.Count);
 
- // Мы можем отображать значения переменных в теле документа, используя поля DOCVARIABLE.
+// Мы можем отображать значения переменных в теле документа, используя поля DOCVARIABLE.
 DocumentBuilder builder = new DocumentBuilder(doc);
 FieldDocVariable field = (FieldDocVariable)builder.InsertField(FieldType.FieldDocVariable, true);
 field.VariableName = "Home address";
@@ -42,21 +42,21 @@ field.Update();
 
 Assert.AreEqual("123 Main St.", field.Result);
 
- // Присвоение значений существующим ключам приведет к их обновлению.
+// Присвоение значений существующим ключам приведет к их обновлению.
 variables.Add("Home address", "456 Queen St.");
 
- // Затем нам нужно будет обновить поля DOCVARIABLE, чтобы убедиться, что они отображают актуальное значение.
+// Затем нам нужно будет обновить поля DOCVARIABLE, чтобы убедиться, что они отображают актуальное значение.
 Assert.AreEqual("123 Main St.", field.Result);
 
 field.Update();
 
 Assert.AreEqual("456 Queen St.", field.Result);
 
- // Проверяем, что переменные документа с определенным именем или значением существуют.
+// Проверяем, существуют ли переменные документа с определенным именем или значением.
 Assert.True(variables.Contains("City"));
 Assert.True(variables.Any(v => v.Value == "London"));
 
- // Коллекция переменных автоматически сортирует переменные в алфавитном порядке по имени.
+// Коллекция переменных автоматически сортирует переменные в алфавитном порядке по имени.
 Assert.AreEqual(0, variables.IndexOfKey("Bedrooms"));
 Assert.AreEqual(1, variables.IndexOfKey("City"));
 Assert.AreEqual(2, variables.IndexOfKey("Home address"));
@@ -66,18 +66,18 @@ using (IEnumerator<KeyValuePair<string, string>> enumerator = doc.Variables.GetE
     while (enumerator.MoveNext())
         Console.WriteLine($"Name: {enumerator.Current.Key}, Value: {enumerator.Current.Value}");
 
- // Ниже приведены три способа удаления переменных документа из коллекции.
- // 1 - По имени:
+// Ниже приведены три способа удаления переменных документа из коллекции.
+// 1 - По имени:
 variables.Remove("City");
 
 Assert.False(variables.Contains("City"));
 
- // 2 - По индексу:
+// 2 - По индексу:
 variables.RemoveAt(1);
 
 Assert.False(variables.Contains("Home address"));
 
- // 3 - Очистить сразу всю коллекцию:
+// 3 - Очистить всю коллекцию сразу:
 variables.Clear();
 
 Assert.That(variables, Is.Empty);

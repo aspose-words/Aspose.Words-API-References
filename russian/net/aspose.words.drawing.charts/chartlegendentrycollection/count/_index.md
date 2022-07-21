@@ -1,14 +1,14 @@
 ---
 title: Count
 second_title: Справочник по API Aspose.Words для .NET
-description: Возвращает количествоChartLegendEntryaspose.words.drawing.charts/chartlegendentryв этой коллекции.
+description: Возвращает количествоChartLegendEntryaspose.words.drawing.charts/chartlegendentry в этой коллекции.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.drawing.charts/chartlegendentrycollection/count/
 ---
 ## ChartLegendEntryCollection.Count property
 
-Возвращает количество[`ChartLegendEntry`](../../chartlegendentry)в этой коллекции.
+Возвращает количество[`ChartLegendEntry`](../../chartlegendentry) в этой коллекции.
 
 ```csharp
 public int Count { get; }

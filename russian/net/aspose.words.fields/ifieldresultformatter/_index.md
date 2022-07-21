@@ -3,7 +3,7 @@ title: IFieldResultFormatter
 second_title: Справочник по API Aspose.Words для .NET
 description: Реализуйте этот интерфейс если хотите управлять форматированием результата поля.
 type: docs
-weight: 2480
+weight: 2530
 url: /ru/net/aspose.words.fields/ifieldresultformatter/
 ---
 ## IFieldResultFormatter interface
@@ -18,9 +18,9 @@ public interface IFieldResultFormatter
 
 | Имя | Описание |
 | --- | --- |
-| [Format](../../aspose.words.fields/ifieldresultformatter/format#format)(double, GeneralFormat) | Вызывается, когда Aspose.Words применяет переключатель числового формата, т.е. \* Порядковый номер. |
+| [Format](../../aspose.words.fields/ifieldresultformatter/format#format)(double, GeneralFormat) | Вызывается, когда Aspose.Words применяет переключатель числового формата, т.е. \* Ordinal. |
 | [Format](../../aspose.words.fields/ifieldresultformatter/format#format_1)(string, GeneralFormat) | Вызывается, когда Aspose.Words применяет переключатель формата заглавных букв, т.е. \* Upper. |
-| [FormatDateTime](../../aspose.words.fields/ifieldresultformatter/formatdatetime)(DateTime, string, CalendarType) | Вызывается, когда Aspose.Words применяет переключатель формата даты/времени, т.е. \@ "dd.MM.yyyy". |
+| [FormatDateTime](../../aspose.words.fields/ifieldresultformatter/formatdatetime)(DateTime, string, CalendarType) | Вызывается, когда Aspose.Words применяет переключатель формата даты/времени, например \@ "dd.MM.yyyy". |
 | [FormatNumeric](../../aspose.words.fields/ifieldresultformatter/formatnumeric)(double, string) | Вызывается, когда Aspose.Words применяет переключатель числового формата, т.е. \# "#.##". |
 
 ### Примеры

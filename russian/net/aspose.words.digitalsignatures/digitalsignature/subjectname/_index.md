@@ -1,14 +1,14 @@
 ---
 title: SubjectName
 second_title: Справочник по API Aspose.Words для .NET
-description: Возвращает отличительное имя субъекта сертификата который использовался для подписи документа.
+description: Возвращает различающееся имя субъекта сертификата который использовался для подписи документа.
 type: docs
 weight: 70
 url: /ru/net/aspose.words.digitalsignatures/digitalsignature/subjectname/
 ---
 ## DigitalSignature.SubjectName property
 
-Возвращает отличительное имя субъекта сертификата, который использовался для подписи документа.
+Возвращает различающееся имя субъекта сертификата, который использовался для подписи документа.
 
 ```csharp
 public string SubjectName { get; }

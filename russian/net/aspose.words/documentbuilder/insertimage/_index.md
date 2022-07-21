@@ -1,14 +1,14 @@
 ---
 title: InsertImage
 second_title: Справочник по API Aspose.Words для .NET
-description: Вставляет изображение из .NETImage объект в документ. Изображение вставляется в строку и в масштабе 100.
+description: Вставляет изображение из .NETImage в документ. Изображение вставляется в строку и в масштабе 100.
 type: docs
 weight: 350
 url: /ru/net/aspose.words/documentbuilder/insertimage/
 ---
 ## InsertImage(Image) {#insertimage_3}
 
-Вставляет изображение из .NETImage объект в документ. Изображение вставляется в строку и в масштабе 100%.
+Вставляет изображение из .NETImage в документ. Изображение вставляется в строку и в масштабе 100%.
 
 ```csharp
 public Shape InsertImage(Image image)
@@ -24,7 +24,7 @@ public Shape InsertImage(Image image)
 
 ### Примечания
 
-Вы можете изменить размер изображения, местоположение, метод позиционирования и другие настройки с помощью [`Shape`](../../../aspose.words.drawing/shape)объект, возвращаемый этим методом.
+Вы можете изменить размер изображения, местоположение, метод позиционирования и другие настройки с помощью [`Shape`](../../../aspose.words.drawing/shape) объект, возвращаемый этим методом.
 
 ### Примеры
 
@@ -81,35 +81,25 @@ public Shape InsertImage(string fileName)
 
 ### Примечания
 
-Эта перегрузка автоматически загружает изображение перед вставкой в документ если вы укажете удаленный URI.
+Эта перегрузка автоматически загрузит изображение перед вставкой в document , если вы укажете удаленный URI.
 
-Вы можете изменить размер изображения, местоположение, метод позиционирования и другие настройки с помощью [`Shape`](../../../aspose.words.drawing/shape)объект, возвращаемый этим методом.
+Вы можете изменить размер изображения, местоположение, метод позиционирования и другие настройки с помощью [`Shape`](../../../aspose.words.drawing/shape) объект, возвращаемый этим методом.
 
 ### Примеры
 
 Показывает, как вставить gif-изображение в документ.
 
 ```csharp
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
+DocumentBuilder builder = new DocumentBuilder();
 
-// Ниже приведены три способа вставки изображения из имени файла локальной системы.
-// 1 — встроенная фигура с размером по умолчанию, основанным на исходных размерах изображения:
-builder.InsertImage(ImageDir + "Logo.jpg");
+// Мы можем вставить gif-изображение, используя путь или массив байтов.
+// Это работает, только если DocumentBuilder оптимизирован для Word версии 2010 или выше.
+// Обратите внимание, что доступ к байтам изображения вызывает преобразование Gif в Png.
+Shape gifImage = builder.InsertImage(ImageDir + "Graphics Interchange Format.gif");
 
-builder.InsertBreak(BreakType.PageBreak);
+gifImage = builder.InsertImage(File.ReadAllBytes(ImageDir + "Graphics Interchange Format.gif"));
 
-// 2 - Встроенная форма с пользовательскими размерами:
-builder.InsertImage(ImageDir + "Transparent background logo.png", ConvertUtil.PixelToPoint(250),
-    ConvertUtil.PixelToPoint(144));
-
-builder.InsertBreak(BreakType.PageBreak);
-
-// 3 - Плавающая форма с пользовательскими размерами:
-builder.InsertImage(ImageDir + "Windows MetaFile.wmf", RelativeHorizontalPosition.Margin, 100, 
-    RelativeVerticalPosition.Margin, 100, 200, 100, WrapType.Square);
-
-doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromFilename.docx");
+builder.Document.Save(ArtifactsDir + "InsertGif.docx");
 ```
 
 Показывает, как вставить фигуру с изображением в документ.
@@ -118,23 +108,19 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromFilename.docx");
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Ниже приведены три способа вставки изображения из имени файла локальной системы.
-// 1 — встроенная фигура с размером по умолчанию, основанным на исходных размерах изображения:
+// Ниже приведены два места, где метод "InsertShape" построителя документа
+// можно получить изображение, которое будет отображаться в форме.
+// 1 - Передать имя файла изображения в локальной файловой системе:
+builder.Write("Image from local file: ");
 builder.InsertImage(ImageDir + "Logo.jpg");
+builder.Writeln();
 
-builder.InsertBreak(BreakType.PageBreak);
+// 2 - Передайте URL, который указывает на изображение.
+builder.Write("Image from a URL: ");
+builder.InsertImage(ImageUrl);
+builder.Writeln();
 
-// 2 - Встроенная форма с пользовательскими размерами:
-builder.InsertImage(ImageDir + "Transparent background logo.png", ConvertUtil.PixelToPoint(250),
-    ConvertUtil.PixelToPoint(144));
-
-builder.InsertBreak(BreakType.PageBreak);
-
-// 3 - Плавающая форма с пользовательскими размерами:
-builder.InsertImage(ImageDir + "Windows MetaFile.wmf", RelativeHorizontalPosition.Margin, 100, 
-    RelativeVerticalPosition.Margin, 100, 200, 100, WrapType.Square);
-
-doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromFilename.docx");
+doc.Save(ArtifactsDir + "Image.FromUrl.docx");
 ```
 
 Показывает, как вставить плавающее изображение в центр страницы.
@@ -143,23 +129,16 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromFilename.docx");
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Ниже приведены три способа вставки изображения из имени файла локальной системы.
-// 1 — встроенная фигура с размером по умолчанию, основанным на исходных размерах изображения:
-builder.InsertImage(ImageDir + "Logo.jpg");
+// Вставьте плавающее изображение, которое будет отображаться за перекрывающимся текстом, и выровняйте его по центру страницы.
+Shape shape = builder.InsertImage(ImageDir + "Logo.jpg");
+shape.WrapType = WrapType.None;
+shape.BehindText = true;
+shape.RelativeHorizontalPosition = RelativeHorizontalPosition.Page;
+shape.RelativeVerticalPosition = RelativeVerticalPosition.Page;
+shape.HorizontalAlignment = HorizontalAlignment.Center;
+shape.VerticalAlignment = VerticalAlignment.Center;
 
-builder.InsertBreak(BreakType.PageBreak);
-
-// 2 - Встроенная форма с пользовательскими размерами:
-builder.InsertImage(ImageDir + "Transparent background logo.png", ConvertUtil.PixelToPoint(250),
-    ConvertUtil.PixelToPoint(144));
-
-builder.InsertBreak(BreakType.PageBreak);
-
-// 3 - Плавающая форма с пользовательскими размерами:
-builder.InsertImage(ImageDir + "Windows MetaFile.wmf", RelativeHorizontalPosition.Margin, 100, 
-    RelativeVerticalPosition.Margin, 100, 200, 100, WrapType.Square);
-
-doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromFilename.docx");
+doc.Save(ArtifactsDir + "Image.CreateFloatingPageCenter.docx");
 ```
 
 Показывает, как определить, какое изображение будет вставлено.
@@ -168,23 +147,19 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromFilename.docx");
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Ниже приведены три способа вставки изображения из имени файла локальной системы.
-// 1 — встроенная фигура с размером по умолчанию, основанным на исходных размерах изображения:
-builder.InsertImage(ImageDir + "Logo.jpg");
+builder.InsertImage(ImageDir + "Scalable Vector Graphics.svg");
 
-builder.InsertBreak(BreakType.PageBreak);
+// Aspose.Words вставляет SVG-изображение в документ в формате PNG с расширением svgBlip
+// который содержит исходное представление векторного изображения SVG.
+doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertSvgImage.SvgWithSvgBlip.docx");
 
-// 2 - Встроенная форма с пользовательскими размерами:
-builder.InsertImage(ImageDir + "Transparent background logo.png", ConvertUtil.PixelToPoint(250),
-    ConvertUtil.PixelToPoint(144));
+// Aspose.Words вставляет SVG-изображение в документ в формате PNG, точно так же, как это делает Microsoft Word для старого формата.
+doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertSvgImage.Svg.doc");
 
-builder.InsertBreak(BreakType.PageBreak);
+doc.CompatibilityOptions.OptimizeFor(MsWordVersion.Word2003);
 
-// 3 - Плавающая форма с пользовательскими размерами:
-builder.InsertImage(ImageDir + "Windows MetaFile.wmf", RelativeHorizontalPosition.Margin, 100, 
-    RelativeVerticalPosition.Margin, 100, 200, 100, WrapType.Square);
-
-doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromFilename.docx");
+// Aspose.Words вставляет изображение SVG в документ как метафайл EMF, чтобы сохранить изображение в векторном представлении.
+doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertSvgImage.Emf.docx");
 ```
 
 Показывает, как вставить изображение из локальной файловой системы в документ.
@@ -239,7 +214,7 @@ public Shape InsertImage(Stream stream)
 
 ### Примечания
 
-Вы можете изменить размер изображения, местоположение, метод позиционирования и другие настройки с помощью [`Shape`](../../../aspose.words.drawing/shape)объект, возвращаемый этим методом.
+Вы можете изменить размер изображения, местоположение, метод позиционирования и другие настройки с помощью [`Shape`](../../../aspose.words.drawing/shape) объект, возвращаемый этим методом.
 
 ### Примеры
 
@@ -251,23 +226,11 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 using (Stream stream = File.OpenRead(ImageDir + "Logo.jpg"))
 {
-    // Ниже приведены три способа вставки изображения из потока.
-    // 1 — встроенная фигура с размером по умолчанию, основанным на исходных размерах изображения:
+    builder.Write("Image from stream: ");
     builder.InsertImage(stream);
-
-    builder.InsertBreak(BreakType.PageBreak);
-
-    // 2 - Встроенная форма с пользовательскими размерами:
-    builder.InsertImage(stream, ConvertUtil.PixelToPoint(250), ConvertUtil.PixelToPoint(144));
-
-    builder.InsertBreak(BreakType.PageBreak);
-
-    // 3 - Плавающая форма с пользовательскими размерами:
-    builder.InsertImage(stream, RelativeHorizontalPosition.Margin, 100, RelativeVerticalPosition.Margin,
-        100, 200, 100, WrapType.Square);
 }
 
-doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromStream.docx");
+doc.Save(ArtifactsDir + "Image.FromStream.docx");
 ```
 
 Показывает, как вставить изображение из потока в документ.
@@ -324,47 +287,43 @@ public Shape InsertImage(byte[] imageBytes)
 
 ### Примечания
 
-Вы можете изменить размер изображения, местоположение, метод позиционирования и другие настройки с помощью [`Shape`](../../../aspose.words.drawing/shape)объект, возвращаемый этим методом.
+Вы можете изменить размер изображения, местоположение, метод позиционирования и другие настройки с помощью [`Shape`](../../../aspose.words.drawing/shape) объект, возвращаемый этим методом.
 
 ### Примеры
 
-Показывает, как вставить изображение из байтового массива в документ.
+Показывает, как вставить изображение из массива байтов в документ.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Декодирование изображения преобразует его в формат .png.
-using (SKBitmap bitmap = SKBitmap.Decode(ImageDir + "Logo.jpg"))
+Image image = Image.FromFile(ImageDir + "Logo.jpg");
+
+using (MemoryStream ms = new MemoryStream())
 {
-    using (SKImage image = SKImage.FromBitmap(bitmap))
-    {
-        using (SKData data = image.Encode())
-        {
-            byte[] imageByteArray = data.ToArray();
+    image.Save(ms, ImageFormat.Png);
+    byte[] imageByteArray = ms.ToArray();
 
-            // Ниже приведены три способа вставки изображения из массива байтов.
-            // 1 — встроенная фигура с размером по умолчанию, основанным на исходных размерах изображения:
-            builder.InsertImage(imageByteArray);
+    // Ниже приведены три способа вставки изображения из массива байтов.
+    // 1 — встроенная фигура с размером по умолчанию, основанным на исходных размерах изображения:
+    builder.InsertImage(imageByteArray);
 
-            builder.InsertBreak(BreakType.PageBreak);
+    builder.InsertBreak(BreakType.PageBreak);
 
-            // 2 - Встроенная форма с пользовательскими размерами:
-            builder.InsertImage(imageByteArray, ConvertUtil.PixelToPoint(250), ConvertUtil.PixelToPoint(144));
+    // 2 - Встроенная форма с пользовательскими размерами:
+    builder.InsertImage(imageByteArray, ConvertUtil.PixelToPoint(250), ConvertUtil.PixelToPoint(144));
 
-            builder.InsertBreak(BreakType.PageBreak);
+    builder.InsertBreak(BreakType.PageBreak);
 
-            // 3 - Плавающая форма с пользовательскими размерами:
-            builder.InsertImage(imageByteArray, RelativeHorizontalPosition.Margin, 100, RelativeVerticalPosition.Margin,
-                100, 200, 100, WrapType.Square);
-        }
-    }
+    // 3 - Плавающая форма с пользовательскими размерами:
+    builder.InsertImage(imageByteArray, RelativeHorizontalPosition.Margin, 100, RelativeVerticalPosition.Margin, 
+    100, 200, 100, WrapType.Square);
 }
 
-doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromByteArrayNetStandard2.docx");
+doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromByteArray.docx");
 ```
 
-Показывает, как вставить изображение из байтового массива в документ (.NetStandard 2.0).
+Показывает, как вставить изображение из массива байтов в документ (.NetStandard 2.0).
 
 ```csharp
 Document doc = new Document();
@@ -411,7 +370,7 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromByteArrayNetStanda
 
 ## InsertImage(Image, double, double) {#insertimage_5}
 
-Вставляет встроенное изображение из объекта .NETImage в документ и масштабирует его до указанного размера.
+Вставляет встроенное изображение из .NETImage объект в документ и масштабирует его до указанного размера.
 
 ```csharp
 public Shape InsertImage(Image image, double width, double height)
@@ -421,7 +380,7 @@ public Shape InsertImage(Image image, double width, double height)
 | --- | --- | --- |
 | image | Image | Изображение для вставки в документ. |
 | width | Double | Ширина изображения в точках. Может быть отрицательным или нулевым значением для запроса масштаба 100%. |
-| height | Double | Высота изображения в точках. Может быть отрицательным или нулевым значением для запроса масштаба 100%. |
+| height | Double | Высота изображения в пунктах. Может быть отрицательным или нулевым значением для запроса масштаба 100%. |
 
 ### Возвращаемое значение
 
@@ -429,7 +388,7 @@ public Shape InsertImage(Image image, double width, double height)
 
 ### Примечания
 
-Вы можете изменить размер изображения, местоположение, метод позиционирования и другие настройки с помощью [`Shape`](../../../aspose.words.drawing/shape)объект, возвращаемый этим методом.
+Вы можете изменить размер изображения, местоположение, метод позиционирования и другие настройки с помощью [`Shape`](../../../aspose.words.drawing/shape) объект, возвращаемый этим методом.
 
 ### Примеры
 
@@ -439,26 +398,24 @@ public Shape InsertImage(Image image, double width, double height)
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Декодирование изображения преобразует его в формат .png.
-using (SKBitmap bitmap = SKBitmap.Decode(ImageDir + "Logo.jpg"))
-{
-    // Ниже приведены три способа вставки изображения из экземпляра объекта Image.
-    // 1 — встроенная фигура с размером по умолчанию, основанным на исходных размерах изображения:
-    builder.InsertImage(bitmap);
+Image image = Image.FromFile(ImageDir + "Logo.jpg");
 
-    builder.InsertBreak(BreakType.PageBreak);
+// Ниже приведены три способа вставки изображения из экземпляра объекта Image.
+// 1 — встроенная фигура с размером по умолчанию, основанным на исходных размерах изображения:
+builder.InsertImage(image);
 
-    // 2 - Встроенная форма с пользовательскими размерами:
-    builder.InsertImage(bitmap, ConvertUtil.PixelToPoint(250), ConvertUtil.PixelToPoint(144));
+builder.InsertBreak(BreakType.PageBreak);
 
-    builder.InsertBreak(BreakType.PageBreak);
+// 2 - Встроенная форма с пользовательскими размерами:
+builder.InsertImage(image, ConvertUtil.PixelToPoint(250), ConvertUtil.PixelToPoint(144));
 
-    // 3 - Плавающая форма с пользовательскими размерами:
-    builder.InsertImage(bitmap, RelativeHorizontalPosition.Margin, 100, RelativeVerticalPosition.Margin,
-        100, 200, 100, WrapType.Square);
-}
+builder.InsertBreak(BreakType.PageBreak);
 
-doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromImageObjectNetStandard2.docx");
+// 3 - Плавающая форма с пользовательскими размерами:
+builder.InsertImage(image, RelativeHorizontalPosition.Margin, 100, RelativeVerticalPosition.Margin,
+100, 200, 100, WrapType.Square);
+
+doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromImageObject.docx");
 ```
 
 Показывает, как вставить изображение из объекта в документ (.NetStandard 2.0).
@@ -510,7 +467,7 @@ public Shape InsertImage(string fileName, double width, double height)
 | --- | --- | --- |
 | fileName | String | Файл, содержащий изображение. |
 | width | Double | Ширина изображения в точках. Может быть отрицательным или нулевым значением для запроса масштаба 100%. |
-| height | Double | Высота изображения в точках. Может быть отрицательным или нулевым значением для запроса масштаба 100%. |
+| height | Double | Высота изображения в пунктах. Может быть отрицательным или нулевым значением для запроса масштаба 100%. |
 
 ### Возвращаемое значение
 
@@ -518,7 +475,7 @@ public Shape InsertImage(string fileName, double width, double height)
 
 ### Примечания
 
-Вы можете изменить размер изображения, местоположение, метод позиционирования и другие настройки с помощью [`Shape`](../../../aspose.words.drawing/shape)объект, возвращаемый этим методом.
+Вы можете изменить размер изображения, местоположение, метод позиционирования и другие настройки с помощью [`Shape`](../../../aspose.words.drawing/shape) объект, возвращаемый этим методом.
 
 ### Примеры
 
@@ -568,7 +525,7 @@ public Shape InsertImage(Stream stream, double width, double height)
 | --- | --- | --- |
 | stream | Stream | Поток, содержащий изображение. |
 | width | Double | Ширина изображения в точках. Может быть отрицательным или нулевым значением для запроса масштаба 100%. |
-| height | Double | Высота изображения в точках. Может быть отрицательным или нулевым значением для запроса масштаба 100%. |
+| height | Double | Высота изображения в пунктах. Может быть отрицательным или нулевым значением для запроса масштаба 100%. |
 
 ### Возвращаемое значение
 
@@ -576,7 +533,7 @@ public Shape InsertImage(Stream stream, double width, double height)
 
 ### Примечания
 
-Вы можете изменить размер изображения, местоположение, метод позиционирования и другие настройки с помощью [`Shape`](../../../aspose.words.drawing/shape)объект, возвращаемый этим методом.
+Вы можете изменить размер изображения, местоположение, метод позиционирования и другие настройки с помощью [`Shape`](../../../aspose.words.drawing/shape) объект, возвращаемый этим методом.
 
 ### Примеры
 
@@ -618,7 +575,7 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromStream.docx");
 
 ## InsertImage(byte[], double, double) {#insertimage_2}
 
-Вставляет встроенное изображение из байтового массива в документ и масштабирует его до указанного размера.
+Вставляет встроенное изображение из массива байтов в документ и масштабирует его до указанного размера.
 
 ```csharp
 public Shape InsertImage(byte[] imageBytes, double width, double height)
@@ -628,7 +585,7 @@ public Shape InsertImage(byte[] imageBytes, double width, double height)
 | --- | --- | --- |
 | imageBytes | Byte[] | Массив байтов, содержащий изображение. |
 | width | Double | Ширина изображения в точках. Может быть отрицательным или нулевым значением для запроса масштаба 100%. |
-| height | Double | Высота изображения в точках. Может быть отрицательным или нулевым значением для запроса масштаба 100%. |
+| height | Double | Высота изображения в пунктах. Может быть отрицательным или нулевым значением для запроса масштаба 100%. |
 
 ### Возвращаемое значение
 
@@ -636,47 +593,43 @@ public Shape InsertImage(byte[] imageBytes, double width, double height)
 
 ### Примечания
 
-Вы можете изменить размер изображения, местоположение, метод позиционирования и другие настройки с помощью [`Shape`](../../../aspose.words.drawing/shape)объект, возвращаемый этим методом.
+Вы можете изменить размер изображения, местоположение, метод позиционирования и другие настройки с помощью [`Shape`](../../../aspose.words.drawing/shape) объект, возвращаемый этим методом.
 
 ### Примеры
 
-Показывает, как вставить изображение из байтового массива в документ.
+Показывает, как вставить изображение из массива байтов в документ.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Декодирование изображения преобразует его в формат .png.
-using (SKBitmap bitmap = SKBitmap.Decode(ImageDir + "Logo.jpg"))
+Image image = Image.FromFile(ImageDir + "Logo.jpg");
+
+using (MemoryStream ms = new MemoryStream())
 {
-    using (SKImage image = SKImage.FromBitmap(bitmap))
-    {
-        using (SKData data = image.Encode())
-        {
-            byte[] imageByteArray = data.ToArray();
+    image.Save(ms, ImageFormat.Png);
+    byte[] imageByteArray = ms.ToArray();
 
-            // Ниже приведены три способа вставки изображения из массива байтов.
-            // 1 — встроенная фигура с размером по умолчанию, основанным на исходных размерах изображения:
-            builder.InsertImage(imageByteArray);
+    // Ниже приведены три способа вставки изображения из массива байтов.
+    // 1 — встроенная фигура с размером по умолчанию, основанным на исходных размерах изображения:
+    builder.InsertImage(imageByteArray);
 
-            builder.InsertBreak(BreakType.PageBreak);
+    builder.InsertBreak(BreakType.PageBreak);
 
-            // 2 - Встроенная форма с пользовательскими размерами:
-            builder.InsertImage(imageByteArray, ConvertUtil.PixelToPoint(250), ConvertUtil.PixelToPoint(144));
+    // 2 - Встроенная форма с пользовательскими размерами:
+    builder.InsertImage(imageByteArray, ConvertUtil.PixelToPoint(250), ConvertUtil.PixelToPoint(144));
 
-            builder.InsertBreak(BreakType.PageBreak);
+    builder.InsertBreak(BreakType.PageBreak);
 
-            // 3 - Плавающая форма с пользовательскими размерами:
-            builder.InsertImage(imageByteArray, RelativeHorizontalPosition.Margin, 100, RelativeVerticalPosition.Margin,
-                100, 200, 100, WrapType.Square);
-        }
-    }
+    // 3 - Плавающая форма с пользовательскими размерами:
+    builder.InsertImage(imageByteArray, RelativeHorizontalPosition.Margin, 100, RelativeVerticalPosition.Margin, 
+    100, 200, 100, WrapType.Square);
 }
 
-doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromByteArrayNetStandard2.docx");
+doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromByteArray.docx");
 ```
 
-Показывает, как вставить изображение из байтового массива в документ (.NetStandard 2.0).
+Показывает, как вставить изображение из массива байтов в документ (.NetStandard 2.0).
 
 ```csharp
 Document doc = new Document();
@@ -723,7 +676,7 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromByteArrayNetStanda
 
 ## InsertImage(Image, RelativeHorizontalPosition, double, RelativeVerticalPosition, double, double, double, WrapType) {#insertimage_4}
 
-Вставляет изображение из объекта .NETImage в указанную позицию и размер.
+Вставляет изображение из .NETImage объект в указанной позиции и размере.
 
 ```csharp
 public Shape InsertImage(Image image, RelativeHorizontalPosition horzPos, double left, 
@@ -734,11 +687,11 @@ public Shape InsertImage(Image image, RelativeHorizontalPosition horzPos, double
 | --- | --- | --- |
 | image | Image | Изображение для вставки в документ. |
 | horzPos | RelativeHorizontalPosition | Указывает, откуда измеряется расстояние до изображения. |
-| left | Double | Расстояние в пунктах от начала координат до левой стороны изображения. |
+| left | Double | Расстояние в пунктах от начала координат до левого края изображения. |
 | vertPos | RelativeVerticalPosition | Указывает, откуда измеряется расстояние до изображения. |
 | top | Double | Расстояние в пунктах от начала координат до верхней стороны изображения. |
 | width | Double | Ширина изображения в точках. Может быть отрицательным или нулевым значением для запроса масштаба 100%. |
-| height | Double | Высота изображения в точках. Может быть отрицательным или нулевым значением для запроса масштаба 100%. |
+| height | Double | Высота изображения в пунктах. Может быть отрицательным или нулевым значением для запроса масштаба 100%. |
 | wrapType | WrapType | Указывает, как обтекать изображение текстом. |
 
 ### Возвращаемое значение
@@ -747,7 +700,7 @@ public Shape InsertImage(Image image, RelativeHorizontalPosition horzPos, double
 
 ### Примечания
 
-Вы можете изменить размер изображения, местоположение, метод позиционирования и другие настройки с помощью [`Shape`](../../../aspose.words.drawing/shape)объект, возвращаемый этим методом.
+Вы можете изменить размер изображения, местоположение, метод позиционирования и другие настройки с помощью [`Shape`](../../../aspose.words.drawing/shape) объект, возвращаемый этим методом.
 
 ### Примеры
 
@@ -757,26 +710,24 @@ public Shape InsertImage(Image image, RelativeHorizontalPosition horzPos, double
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Декодирование изображения преобразует его в формат .png.
-using (SKBitmap bitmap = SKBitmap.Decode(ImageDir + "Logo.jpg"))
-{
-    // Ниже приведены три способа вставки изображения из экземпляра объекта Image.
-    // 1 — встроенная фигура с размером по умолчанию, основанным на исходных размерах изображения:
-    builder.InsertImage(bitmap);
+Image image = Image.FromFile(ImageDir + "Logo.jpg");
 
-    builder.InsertBreak(BreakType.PageBreak);
+// Ниже приведены три способа вставки изображения из экземпляра объекта Image.
+// 1 — встроенная фигура с размером по умолчанию, основанным на исходных размерах изображения:
+builder.InsertImage(image);
 
-    // 2 - Встроенная форма с пользовательскими размерами:
-    builder.InsertImage(bitmap, ConvertUtil.PixelToPoint(250), ConvertUtil.PixelToPoint(144));
+builder.InsertBreak(BreakType.PageBreak);
 
-    builder.InsertBreak(BreakType.PageBreak);
+// 2 - Встроенная форма с пользовательскими размерами:
+builder.InsertImage(image, ConvertUtil.PixelToPoint(250), ConvertUtil.PixelToPoint(144));
 
-    // 3 - Плавающая форма с пользовательскими размерами:
-    builder.InsertImage(bitmap, RelativeHorizontalPosition.Margin, 100, RelativeVerticalPosition.Margin,
-        100, 200, 100, WrapType.Square);
-}
+builder.InsertBreak(BreakType.PageBreak);
 
-doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromImageObjectNetStandard2.docx");
+// 3 - Плавающая форма с пользовательскими размерами:
+builder.InsertImage(image, RelativeHorizontalPosition.Margin, 100, RelativeVerticalPosition.Margin,
+100, 200, 100, WrapType.Square);
+
+doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromImageObject.docx");
 ```
 
 Показывает, как вставить изображение из объекта в документ (.NetStandard 2.0).
@@ -832,11 +783,11 @@ public Shape InsertImage(string fileName, RelativeHorizontalPosition horzPos, do
 | --- | --- | --- |
 | fileName | String | Файл, содержащий изображение. |
 | horzPos | RelativeHorizontalPosition | Указывает, откуда измеряется расстояние до изображения. |
-| left | Double | Расстояние в пунктах от начала координат до левой стороны изображения. |
+| left | Double | Расстояние в пунктах от начала координат до левого края изображения. |
 | vertPos | RelativeVerticalPosition | Указывает, откуда измеряется расстояние до изображения. |
 | top | Double | Расстояние в пунктах от начала координат до верхней стороны изображения. |
 | width | Double | Ширина изображения в точках. Может быть отрицательным или нулевым значением для запроса масштаба 100%. |
-| height | Double | Высота изображения в точках. Может быть отрицательным или нулевым значением для запроса масштаба 100%. |
+| height | Double | Высота изображения в пунктах. Может быть отрицательным или нулевым значением для запроса масштаба 100%. |
 | wrapType | WrapType | Указывает, как обтекать изображение текстом. |
 
 ### Возвращаемое значение
@@ -845,7 +796,7 @@ public Shape InsertImage(string fileName, RelativeHorizontalPosition horzPos, do
 
 ### Примечания
 
-Вы можете изменить размер изображения, местоположение, метод позиционирования и другие настройки с помощью [`Shape`](../../../aspose.words.drawing/shape)объект, возвращаемый этим методом.
+Вы можете изменить размер изображения, местоположение, метод позиционирования и другие настройки с помощью [`Shape`](../../../aspose.words.drawing/shape) объект, возвращаемый этим методом.
 
 ### Примеры
 
@@ -855,23 +806,16 @@ public Shape InsertImage(string fileName, RelativeHorizontalPosition horzPos, do
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Ниже приведены три способа вставки изображения из имени файла локальной системы.
-// 1 — встроенная фигура с размером по умолчанию, основанным на исходных размерах изображения:
-builder.InsertImage(ImageDir + "Logo.jpg");
+// Есть два способа использования конструктора документов для получения изображения и его последующей вставки в виде плавающей формы.
+// 1 - Из файла в локальной файловой системе:
+builder.InsertImage(ImageDir + "Transparent background logo.png", RelativeHorizontalPosition.Margin, 100,
+    RelativeVerticalPosition.Margin, 0, 200, 200, WrapType.Square);
 
-builder.InsertBreak(BreakType.PageBreak);
+// 2 - Из URL:
+builder.InsertImage(ImageUrl, RelativeHorizontalPosition.Margin, 100,
+    RelativeVerticalPosition.Margin, 250, 200, 200, WrapType.Square);
 
-// 2 - Встроенная форма с пользовательскими размерами:
-builder.InsertImage(ImageDir + "Transparent background logo.png", ConvertUtil.PixelToPoint(250),
-    ConvertUtil.PixelToPoint(144));
-
-builder.InsertBreak(BreakType.PageBreak);
-
-// 3 - Плавающая форма с пользовательскими размерами:
-builder.InsertImage(ImageDir + "Windows MetaFile.wmf", RelativeHorizontalPosition.Margin, 100, 
-    RelativeVerticalPosition.Margin, 100, 200, 100, WrapType.Square);
-
-doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromFilename.docx");
+doc.Save(ArtifactsDir + "DocumentBuilder.InsertFloatingImage.docx");
 ```
 
 Показывает, как вставить изображение из локальной файловой системы в документ с сохранением его размеров.
@@ -880,23 +824,17 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromFilename.docx");
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Ниже приведены три способа вставки изображения из имени файла локальной системы.
-// 1 — встроенная фигура с размером по умолчанию, основанным на исходных размерах изображения:
-builder.InsertImage(ImageDir + "Logo.jpg");
+// Метод InsertImage создает плавающую фигуру с переданным изображением в данных изображения.
+// Мы можем указать размеры фигуры, передав их этому методу.
+Shape imageShape = builder.InsertImage(ImageDir + "Logo.jpg", RelativeHorizontalPosition.Margin, 0,
+    RelativeVerticalPosition.Margin, 0, -1, -1, WrapType.Square);
 
-builder.InsertBreak(BreakType.PageBreak);
+// Передача отрицательных значений в качестве предполагаемых размеров автоматически определит
+// размеры фигуры на основе размеров ее изображения.
+Assert.AreEqual(300.0d, imageShape.Width);
+Assert.AreEqual(300.0d, imageShape.Height);
 
-// 2 - Встроенная форма с пользовательскими размерами:
-builder.InsertImage(ImageDir + "Transparent background logo.png", ConvertUtil.PixelToPoint(250),
-    ConvertUtil.PixelToPoint(144));
-
-builder.InsertBreak(BreakType.PageBreak);
-
-// 3 - Плавающая форма с пользовательскими размерами:
-builder.InsertImage(ImageDir + "Windows MetaFile.wmf", RelativeHorizontalPosition.Margin, 100, 
-    RelativeVerticalPosition.Margin, 100, 200, 100, WrapType.Square);
-
-doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromFilename.docx");
+doc.Save(ArtifactsDir + "DocumentBuilder.InsertImageOriginalSize.docx");
 ```
 
 Показывает, как вставить изображение из локальной файловой системы в документ.
@@ -949,11 +887,11 @@ public Shape InsertImage(Stream stream, RelativeHorizontalPosition horzPos, doub
 | --- | --- | --- |
 | stream | Stream | Поток, содержащий изображение. |
 | horzPos | RelativeHorizontalPosition | Указывает, откуда измеряется расстояние до изображения. |
-| left | Double | Расстояние в пунктах от начала координат до левой стороны изображения. |
+| left | Double | Расстояние в пунктах от начала координат до левого края изображения. |
 | vertPos | RelativeVerticalPosition | Указывает, откуда измеряется расстояние до изображения. |
 | top | Double | Расстояние в пунктах от начала координат до верхней стороны изображения. |
 | width | Double | Ширина изображения в точках. Может быть отрицательным или нулевым значением для запроса масштаба 100%. |
-| height | Double | Высота изображения в точках. Может быть отрицательным или нулевым значением для запроса масштаба 100%. |
+| height | Double | Высота изображения в пунктах. Может быть отрицательным или нулевым значением для запроса масштаба 100%. |
 | wrapType | WrapType | Указывает, как обтекать изображение текстом. |
 
 ### Возвращаемое значение
@@ -962,7 +900,7 @@ public Shape InsertImage(Stream stream, RelativeHorizontalPosition horzPos, doub
 
 ### Примечания
 
-Вы можете изменить размер изображения, местоположение, метод позиционирования и другие настройки с помощью [`Shape`](../../../aspose.words.drawing/shape)объект, возвращаемый этим методом.
+Вы можете изменить размер изображения, местоположение, метод позиционирования и другие настройки с помощью [`Shape`](../../../aspose.words.drawing/shape) объект, возвращаемый этим методом.
 
 ### Примеры
 
@@ -1007,7 +945,7 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromStream.docx");
 
 ## InsertImage(byte[], RelativeHorizontalPosition, double, RelativeVerticalPosition, double, double, double, WrapType) {#insertimage_1}
 
-Вставляет изображение из байтового массива в указанной позиции и размера.
+Вставляет изображение из массива байтов в указанной позиции и размере.
 
 ```csharp
 public Shape InsertImage(byte[] imageBytes, RelativeHorizontalPosition horzPos, double left, 
@@ -1018,11 +956,11 @@ public Shape InsertImage(byte[] imageBytes, RelativeHorizontalPosition horzPos, 
 | --- | --- | --- |
 | imageBytes | Byte[] | Массив байтов, содержащий изображение. |
 | horzPos | RelativeHorizontalPosition | Указывает, откуда измеряется расстояние до изображения. |
-| left | Double | Расстояние в пунктах от начала координат до левой стороны изображения. |
+| left | Double | Расстояние в пунктах от начала координат до левого края изображения. |
 | vertPos | RelativeVerticalPosition | Указывает, откуда измеряется расстояние до изображения. |
 | top | Double | Расстояние в пунктах от начала координат до верхней стороны изображения. |
 | width | Double | Ширина изображения в точках. Может быть отрицательным или нулевым значением для запроса масштаба 100%. |
-| height | Double | Высота изображения в точках. Может быть отрицательным или нулевым значением для запроса масштаба 100%. |
+| height | Double | Высота изображения в пунктах. Может быть отрицательным или нулевым значением для запроса масштаба 100%. |
 | wrapType | WrapType | Указывает, как обтекать изображение текстом. |
 
 ### Возвращаемое значение
@@ -1031,47 +969,43 @@ public Shape InsertImage(byte[] imageBytes, RelativeHorizontalPosition horzPos, 
 
 ### Примечания
 
-Вы можете изменить размер изображения, местоположение, метод позиционирования и другие настройки с помощью [`Shape`](../../../aspose.words.drawing/shape)объект, возвращаемый этим методом.
+Вы можете изменить размер изображения, местоположение, метод позиционирования и другие настройки с помощью [`Shape`](../../../aspose.words.drawing/shape) объект, возвращаемый этим методом.
 
 ### Примеры
 
-Показывает, как вставить изображение из байтового массива в документ.
+Показывает, как вставить изображение из массива байтов в документ.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Декодирование изображения преобразует его в формат .png.
-using (SKBitmap bitmap = SKBitmap.Decode(ImageDir + "Logo.jpg"))
+Image image = Image.FromFile(ImageDir + "Logo.jpg");
+
+using (MemoryStream ms = new MemoryStream())
 {
-    using (SKImage image = SKImage.FromBitmap(bitmap))
-    {
-        using (SKData data = image.Encode())
-        {
-            byte[] imageByteArray = data.ToArray();
+    image.Save(ms, ImageFormat.Png);
+    byte[] imageByteArray = ms.ToArray();
 
-            // Ниже приведены три способа вставки изображения из массива байтов.
-            // 1 — встроенная фигура с размером по умолчанию, основанным на исходных размерах изображения:
-            builder.InsertImage(imageByteArray);
+    // Ниже приведены три способа вставки изображения из массива байтов.
+    // 1 — встроенная фигура с размером по умолчанию, основанным на исходных размерах изображения:
+    builder.InsertImage(imageByteArray);
 
-            builder.InsertBreak(BreakType.PageBreak);
+    builder.InsertBreak(BreakType.PageBreak);
 
-            // 2 - Встроенная форма с пользовательскими размерами:
-            builder.InsertImage(imageByteArray, ConvertUtil.PixelToPoint(250), ConvertUtil.PixelToPoint(144));
+    // 2 - Встроенная форма с пользовательскими размерами:
+    builder.InsertImage(imageByteArray, ConvertUtil.PixelToPoint(250), ConvertUtil.PixelToPoint(144));
 
-            builder.InsertBreak(BreakType.PageBreak);
+    builder.InsertBreak(BreakType.PageBreak);
 
-            // 3 - Плавающая форма с пользовательскими размерами:
-            builder.InsertImage(imageByteArray, RelativeHorizontalPosition.Margin, 100, RelativeVerticalPosition.Margin,
-                100, 200, 100, WrapType.Square);
-        }
-    }
+    // 3 - Плавающая форма с пользовательскими размерами:
+    builder.InsertImage(imageByteArray, RelativeHorizontalPosition.Margin, 100, RelativeVerticalPosition.Margin, 
+    100, 200, 100, WrapType.Square);
 }
 
-doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromByteArrayNetStandard2.docx");
+doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromByteArray.docx");
 ```
 
-Показывает, как вставить изображение из байтового массива в документ (.NetStandard 2.0).
+Показывает, как вставить изображение из массива байтов в документ (.NetStandard 2.0).
 
 ```csharp
 Document doc = new Document();

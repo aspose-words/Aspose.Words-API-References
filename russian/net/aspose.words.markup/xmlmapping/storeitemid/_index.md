@@ -1,14 +1,14 @@
 ---
 title: StoreItemId
 second_title: Справочник по API Aspose.Words для .NET
-description: Задает идентификатор пользовательских данных XML для пользовательской части данных XML которая должна использоваться для оценкиXPathaspose.words.markup/xmlmapping/xpathвыражение.
+description: Указывает идентификатор пользовательских данных XML для пользовательской части данных XML которая должна использоваться для оценкиXPathaspose.words.markup/xmlmapping/xpath выражение.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.markup/xmlmapping/storeitemid/
 ---
 ## XmlMapping.StoreItemId property
 
-Задает идентификатор пользовательских данных XML для пользовательской части данных XML, которая должна использоваться для оценки[`XPath`](../xpath)выражение.
+Указывает идентификатор пользовательских данных XML для пользовательской части данных XML, которая должна использоваться для оценки[`XPath`](../xpath) выражение.
 
 ```csharp
 public string StoreItemId { get; }

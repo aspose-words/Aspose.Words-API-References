@@ -1,14 +1,14 @@
 ---
 title: SignatureLineId
 second_title: Aspose.Words for .NET API 参考
-description: 签名行标识符 默认值为 空全零 Guid 
+description: 签名行标识符 默认值为 空全零Guid.
 type: docs
 weight: 50
 url: /zh/net/aspose.words.digitalsignatures/signoptions/signaturelineid/
 ---
 ## SignOptions.SignatureLineId property
 
-签名行标识符。 默认值为 **空（全零） Guid** 。
+签名行标识符。 默认值为 **空（全零）Guid**.
 
 ```csharp
 public Guid SignatureLineId { get; set; }
@@ -16,7 +16,7 @@ public Guid SignatureLineId { get; set; }
 
 ### 评论
 
-设置时，它关联[`SignatureLine`](../../../aspose.words.drawing/signatureline)对应的[`DigitalSignature`](../../digitalsignature)。
+设置时，它关联[`SignatureLine`](../../../aspose.words.drawing/signatureline)与相应的[`DigitalSignature`](../../digitalsignature).
 
 ### 例子
 

@@ -20,8 +20,8 @@ public enum EndCap
 | --- | --- | --- |
 | Round | `0` | 圆角末端。 |
 | Square | `1` | 正方形突出半线宽。 |
-| Flat | `2` | 行结束于端点。 |
-| Default | `2` | 默认值为Flat。 |
+| Flat | `2` | 线在终点结束。 |
+| Default | `2` | 默认值为Flat. |
 
 ### 例子
 
@@ -31,9 +31,9 @@ public enum EndCap
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
- // 下面是我们可以插入到文档中的四个形状示例。
- // 1 - 虚线、水平、半透明红线
- // 左端有一个箭头，右端有一个菱形：
+// 下面是我们可以插入到文档中的四个形状示例。
+// 1 - 虚线、水平、半透明红线
+// 左端有一个箭头，右端有一个菱形：
 Shape arrow = new Shape(doc, ShapeType.Line);
 arrow.Width = 200;
 arrow.Stroke.Color = Color.Red;
@@ -50,7 +50,7 @@ Assert.AreEqual(JoinStyle.Miter, arrow.Stroke.JoinStyle);
 
 builder.InsertNode(arrow);
 
- // 2 - 带有圆形末端的粗黑色对角线：
+// 2 - 带有圆形末端的粗黑色对角线：
 Shape line = new Shape(doc, ShapeType.Line);
 line.Top = 40;
 line.Width = 200;
@@ -60,7 +60,7 @@ line.Stroke.EndCap = EndCap.Round;
 
 builder.InsertNode(line);
 
- // 3 - 带绿色填充的箭头：
+// 3 - 带绿色填充的箭头：
 Shape filledInArrow = new Shape(doc, ShapeType.Arrow);
 filledInArrow.Width = 200;
 filledInArrow.Height = 40;
@@ -70,7 +70,7 @@ filledInArrow.Fill.Visible = true;
 
 builder.InsertNode(filledInArrow);
 
- // 4 - 用 Aspose 标志填充的翻转方向箭头：
+// 4 - 用 Aspose 标志填充的翻转方向的箭头：
 Shape filledInArrowImg = new Shape(doc, ShapeType.Arrow);
 filledInArrowImg.Width = 200;
 filledInArrowImg.Height = 40;
@@ -82,8 +82,8 @@ byte[] imageBytes = File.ReadAllBytes(ImageDir + "Logo.jpg");
 using (MemoryStream stream = new MemoryStream(imageBytes))
 {
     Image image = Image.FromStream(stream);
-     // 当我们翻转箭头的方向时，我们也翻转了箭头包含的图像。
-     // 以另一种方式翻转图像以取消它，然后再让形状显示它。
+    // 当我们翻转箭头的方向时，我们也翻转了箭头包含的图像。
+    // 在让形状显示它之前，以另一种方式翻转图像以取消它。
     image.RotateFlip(RotateFlipType.RotateNoneFlipXY);
 
     filledInArrowImg.ImageData.SetImage(image);

@@ -1,14 +1,14 @@
 ---
 title: SubstitutionSettings
 second_title: Справочник по API Aspose.Words для .NET
-description: Настройки связанные с механизмом подстановки шрифтов.
+description: Настройки связанные с механизмом замены шрифта.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.fonts/fontsettings/substitutionsettings/
 ---
 ## FontSettings.SubstitutionSettings property
 
-Настройки, связанные с механизмом подстановки шрифтов.
+Настройки, связанные с механизмом замены шрифта.
 
 ```csharp
 public FontSubstitutionSettings SubstitutionSettings { get; }

@@ -1,14 +1,14 @@
 ---
 title: RangeEnd
 second_title: Aspose.Words for .NET API 参考
-description: 如果 StructuredDocumentTag 是范围结构化文档标记则指定范围结束 否则返回 null
+description: 如果 StructuredDocumentTag 是范围结构化文档标记则指定范围结束 否则返回null
 type: docs
 weight: 130
 url: /zh/net/aspose.words.markup/structureddocumenttagrangestart/rangeend/
 ---
 ## StructuredDocumentTagRangeStart.RangeEnd property
 
-如果 StructuredDocumentTag 是范围结构化文档标记，则指定范围结束。 否则返回 null。
+如果 StructuredDocumentTag 是范围结构化文档标记，则指定范围结束。 否则返回null。
 
 ```csharp
 public StructuredDocumentTagRangeEnd RangeEnd { get; }

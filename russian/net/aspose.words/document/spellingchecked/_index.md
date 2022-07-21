@@ -1,14 +1,14 @@
 ---
 title: SpellingChecked
 second_title: Справочник по API Aspose.Words для .NET
-description: Возвращает true  если документ проверен на орфографию.
+description: Возвращает истинный если документ проверен на орфографию.
 type: docs
 weight: 390
 url: /ru/net/aspose.words/document/spellingchecked/
 ---
 ## Document.SpellingChecked property
 
-Возвращает **true** , если документ проверен на орфографию.
+Возвращает **истинный** если документ проверен на орфографию.
 
 ```csharp
 public bool SpellingChecked { get; set; }
@@ -16,7 +16,7 @@ public bool SpellingChecked { get; set; }
 
 ### Примечания
 
-Чтобы перепроверить правописание в документе, установите для этого свойства значение **ложь** .
+Чтобы перепроверить орфографию в документе, установите для этого свойства значение **ЛОЖЬ** .
 
 ### Примеры
 

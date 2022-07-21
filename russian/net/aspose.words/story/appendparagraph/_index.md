@@ -1,14 +1,14 @@
 ---
 title: AppendParagraph
 second_title: Справочник по API Aspose.Words для .NET
-description: Быстрый метод который создает объектParagraphaspose.words/paragraphс необязательным текстом и добавляет его в конец этого объекта.
+description: Быстрый метод создающийParagraphaspose.words/paragraph объект с необязательным текстом и добавляет его в конец этого объекта.
 type: docs
 weight: 60
 url: /ru/net/aspose.words/story/appendparagraph/
 ---
 ## Story.AppendParagraph method
 
-Быстрый метод, который создает объект[`Paragraph`](../../paragraph)с необязательным текстом и добавляет его в конец этого объекта.
+Быстрый метод, создающий[`Paragraph`](../../paragraph) объект с необязательным текстом и добавляет его в конец этого объекта.
 
 ```csharp
 public Paragraph AppendParagraph(string text)
@@ -16,11 +16,11 @@ public Paragraph AppendParagraph(string text)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| text | String | Текст абзаца. Может быть нулевой или пустой строкой. |
+| text | String | Текст для абзаца. Может быть нулевой или пустой строкой. |
 
 ### Возвращаемое значение
 
-Недавно созданный и добавленный абзац.
+Вновь созданный и добавленный абзац.
 
 ### Примеры
 

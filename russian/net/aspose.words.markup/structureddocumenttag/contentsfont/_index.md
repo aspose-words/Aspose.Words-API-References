@@ -1,14 +1,14 @@
 ---
 title: ContentsFont
 second_title: Справочник по API Aspose.Words для .NET
-description: Форматирование шрифта которое будет применяться к тексту введенному в SDT .
+description: Форматирование шрифта которое будет применяться к тексту введенному в СДТ .
 type: docs
 weight: 80
 url: /ru/net/aspose.words.markup/structureddocumenttag/contentsfont/
 ---
 ## StructuredDocumentTag.ContentsFont property
 
-Форматирование шрифта, которое будет применяться к тексту, введенному в **SDT** .
+Форматирование шрифта, которое будет применяться к тексту, введенному в **СДТ** .
 
 ```csharp
 public Font ContentsFont { get; }
@@ -29,7 +29,7 @@ tag.Title = "My plain text";
 tag.Color = Color.Magenta;
 
 // Установить тег для этого тега структурированного документа, который можно получить
-// как элемент XML с именем "tag", со строкой ниже в атрибуте "@val".
+// как XML-элемент с именем "tag", со строкой ниже в его атрибуте "@val".
 tag.Tag = "MyPlainTextSDT";
 
 // Каждый тег структурированного документа имеет случайный уникальный идентификатор.
@@ -62,7 +62,7 @@ StructuredDocumentTag tagClone = (StructuredDocumentTag)tag.Clone(true);
 builder.InsertParagraph();
 builder.InsertNode(tagClone);
 
-// Используйте метод "RemoveSelfOnly", чтобы удалить структурированный тег документа, сохраняя при этом его содержимое в документе.
+// Используйте метод "RemoveSelfOnly", чтобы удалить тег структурированного документа, сохраняя при этом его содержимое в документе.
 tagClone.RemoveSelfOnly();
 
 doc.Save(ArtifactsDir + "StructuredDocumentTag.PlainText.docx");

@@ -3,7 +3,7 @@ title: FontNameSubstitutionRule
 second_title: Aspose.Words for .NET API 参考
 description: 处理字体名称的字体替换规则
 type: docs
-weight: 2720
+weight: 2770
 url: /zh/net/aspose.words.fonts/fontnamesubstitutionrule/
 ---
 ## FontNameSubstitutionRule class
@@ -22,7 +22,7 @@ public class FontNameSubstitutionRule : FontSubstitutionRule
 
 ### 评论
 
-根据此规则 Aspose.Words 尝试处理字体名称以获取替换。特别是 Aspose.Words 尝试像 MS Word 一样删除带有“-”和“,”分隔符的后缀。
+根据此规则，Aspose.Words 尝试处理字体名称以获取替换。特别是 Aspose.Words 尝试删除带有“-”和“,”分隔符的后缀，就像 MS Word 一样。
 
 ### 也可以看看
 

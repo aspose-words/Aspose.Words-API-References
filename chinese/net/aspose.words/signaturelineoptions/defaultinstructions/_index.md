@@ -1,14 +1,14 @@
 ---
 title: DefaultInstructions
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置一个值指示默认指令显示在签名对话框中 此属性的默认值为 true 
+description: 获取或设置一个值指示默认指令显示在签名对话框中 此属性的默认值为 真的.
 type: docs
 weight: 30
 url: /zh/net/aspose.words/signaturelineoptions/defaultinstructions/
 ---
 ## SignatureLineOptions.DefaultInstructions property
 
-获取或设置一个值，指示默认指令显示在“签名”对话框中。 此属性的默认值为 **true** 。
+获取或设置一个值，指示默认指令显示在签名对话框中。 此属性的默认值为 **真的**.
 
 ```csharp
 public bool DefaultInstructions { get; set; }

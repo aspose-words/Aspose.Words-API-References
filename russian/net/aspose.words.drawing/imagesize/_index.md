@@ -27,14 +27,14 @@ public class ImageSize
 | --- | --- |
 | [HeightPixels](../../aspose.words.drawing/imagesize/heightpixels) { get; } | Получает высоту изображения в пикселях. |
 | [HeightPoints](../../aspose.words.drawing/imagesize/heightpoints) { get; } | Получает высоту изображения в точках. 1 пункт равен 1/72 дюйма. |
-| [HorizontalResolution](../../aspose.words.drawing/imagesize/horizontalresolution) { get; } | Получает горизонтальное разрешение в DPI. |
+| [HorizontalResolution](../../aspose.words.drawing/imagesize/horizontalresolution) { get; } | Получает разрешение по горизонтали в DPI. |
 | [VerticalResolution](../../aspose.words.drawing/imagesize/verticalresolution) { get; } | Получает вертикальное разрешение в DPI. |
 | [WidthPixels](../../aspose.words.drawing/imagesize/widthpixels) { get; } | Получает ширину изображения в пикселях. |
 | [WidthPoints](../../aspose.words.drawing/imagesize/widthpoints) { get; } | Получает ширину изображения в пунктах. 1 пункт равен 1/72 дюйма. |
 
 ### Примеры
 
-Показывает, как изменить размер фигуры с помощью изображение.
+Показывает, как изменить размер фигуры с изображением.
 
 ```csharp
 #if NET48 || JAVA

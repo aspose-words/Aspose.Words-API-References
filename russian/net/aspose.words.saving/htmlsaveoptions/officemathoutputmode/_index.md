@@ -1,14 +1,14 @@
 ---
 title: OfficeMathOutputMode
 second_title: Справочник по API Aspose.Words для .NET
-description: Управляет экспортом объектов OfficeMath в HTML MHTML или EPUB. Значение по умолчанию HtmlOfficeMathOutputMode.Image .
+description: Управляет экспортом объектов OfficeMath в HTML MHTML или EPUB. Значение по умолчаниюHtmlOfficeMathOutputMode.Image .
 type: docs
 weight: 400
 url: /ru/net/aspose.words.saving/htmlsaveoptions/officemathoutputmode/
 ---
 ## HtmlSaveOptions.OfficeMathOutputMode property
 
-Управляет экспортом объектов OfficeMath в HTML, MHTML или EPUB. Значение по умолчанию:` HtmlOfficeMathOutputMode.Image` .
+Управляет экспортом объектов OfficeMath в HTML, MHTML или EPUB. Значение по умолчанию:`HtmlOfficeMathOutputMode.Image` .
 
 ```csharp
 public HtmlOfficeMathOutputMode OfficeMathOutputMode { get; set; }

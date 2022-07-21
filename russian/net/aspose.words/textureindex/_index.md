@@ -1,14 +1,14 @@
 ---
 title: TextureIndex
 second_title: Справочник по API Aspose.Words для .NET
-description: Задает текстуру затенения.
+description: Определяет текстуру затенения.
 type: docs
-weight: 6100
+weight: 6150
 url: /ru/net/aspose.words/textureindex/
 ---
 ## TextureIndex enumeration
 
-Задает текстуру затенения.
+Определяет текстуру затенения.
 
 ```csharp
 public enum TextureIndex
@@ -71,33 +71,30 @@ public enum TextureIndex
 | TextureNone | `0` |  |
 | TextureSolid | `1` |  |
 | TextureVertical | `21` |  |
-| TextureNil | `65535` | Указывает, что в текущей заштрихованной области не должно использоваться никакого шаблона (т.е. шаблон должен быть полностью заполнен фоновым цветом). |
+| TextureNil | `65535` | Указывает, что в текущей заштрихованной области не должно быть шаблона (т.е. шаблон должен быть полностью заполнен фоновым цветом). |
 
 ### Примеры
 
-Показывает, как украсить текст рамками и штриховкой.
+Показывает, как украсить текст рамками и заливкой.
 
 ```csharp
-Document doc = new Document(MyDir + "Tables.docx");
-Table table = doc.FirstSection.Body.Tables[0];
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
 
- // Выравниваем таблицу по центру страницы.
-table.Alignment = TableAlignment.Center;
+BorderCollection borders = builder.ParagraphFormat.Borders;
+borders.DistanceFromText = 20;
+borders[BorderType.Left].LineStyle = LineStyle.Double;
+borders[BorderType.Right].LineStyle = LineStyle.Double;
+borders[BorderType.Top].LineStyle = LineStyle.Double;
+borders[BorderType.Bottom].LineStyle = LineStyle.Double;
 
- // Очистить все существующие границы и затенение таблицы.
-table.ClearBorders();
-table.ClearShading();
+Shading shading = builder.ParagraphFormat.Shading;
+shading.Texture = TextureIndex.TextureDiagonalCross;
+shading.BackgroundPatternColor = Color.LightCoral;
+shading.ForegroundPatternColor = Color.LightSalmon;
 
- // Добавляем зеленые рамки к контуру таблицы.
-table.SetBorder(BorderType.Left, LineStyle.Single, 1.5, Color.Green, true);
-table.SetBorder(BorderType.Right, LineStyle.Single, 1.5, Color.Green, true);
-table.SetBorder(BorderType.Top, LineStyle.Single, 1.5, Color.Green, true);
-table.SetBorder(BorderType.Bottom, LineStyle.Single, 1.5, Color.Green, true);
-
- // Заливаем ячейки светло-зеленым сплошным цветом.
-table.SetShading(TextureIndex.TextureSolid, Color.LightGreen, Color.Empty);
-
-doc.Save(ArtifactsDir + "Table.SetOutlineBorders.docx");
+builder.Write("This paragraph is formatted with a double border and shading.");
+doc.Save(ArtifactsDir + "DocumentBuilder.ApplyBordersAndShading.docx");
 ```
 
 Показывает, как применить границу контура к таблице.
@@ -106,20 +103,20 @@ doc.Save(ArtifactsDir + "Table.SetOutlineBorders.docx");
 Document doc = new Document(MyDir + "Tables.docx");
 Table table = doc.FirstSection.Body.Tables[0];
 
- // Выравниваем таблицу по центру страницы.
+// Выравниваем таблицу по центру страницы.
 table.Alignment = TableAlignment.Center;
 
- // Очистить все существующие границы и затенение таблицы.
+// Очистить все существующие границы и затенение из таблицы.
 table.ClearBorders();
 table.ClearShading();
 
- // Добавляем зеленые рамки к контуру таблицы.
+// Добавляем зеленые рамки к контуру таблицы.
 table.SetBorder(BorderType.Left, LineStyle.Single, 1.5, Color.Green, true);
 table.SetBorder(BorderType.Right, LineStyle.Single, 1.5, Color.Green, true);
 table.SetBorder(BorderType.Top, LineStyle.Single, 1.5, Color.Green, true);
 table.SetBorder(BorderType.Bottom, LineStyle.Single, 1.5, Color.Green, true);
 
- // Заливаем ячейки светло-зеленым сплошным цветом.
+// Заливаем ячейки светло-зеленым сплошным цветом.
 table.SetShading(TextureIndex.TextureSolid, Color.LightGreen, Color.Empty);
 
 doc.Save(ArtifactsDir + "Table.SetOutlineBorders.docx");

@@ -1,14 +1,14 @@
 ---
 title: ExpandedOutlineLevels
 second_title: Aspose.Words for .NET API 参考
-description: 指定查看文件时显示展开的文档大纲的多少级
+description: 指定查看文件时文档大纲中显示展开的级别
 type: docs
 weight: 60
 url: /zh/net/aspose.words.saving/outlineoptions/expandedoutlinelevels/
 ---
 ## OutlineOptions.ExpandedOutlineLevels property
 
-指定查看文件时显示展开的文档大纲的多少级。
+指定查看文件时文档大纲中显示展开的级别。
 
 ```csharp
 public int ExpandedOutlineLevels { get; set; }
@@ -16,15 +16,15 @@ public int ExpandedOutlineLevels { get; set; }
 
 ### 评论
 
-请注意，保存到 XPS 时此选项不起作用。
+请注意，保存到 XPS 时，此选项将不起作用。
 
-指定0，文档大纲将被折叠；指定 1 并且大纲中的第一级项目 将被展开等等。
+指定0，文档大纲将被折叠；指定 1，大纲中的第一级 items 将被展开，依此类推。
 
-默认为 0。有效范围为 0 到 9。
+默认值为 0。有效范围为 0 到 9。
 
 ### 例子
 
-显示如何将整个文档转换为文档大纲中具有三个级别的 PDF。
+演示如何将整个文档转换为文档大纲中具有三个级别的 PDF。
 
 ```csharp
 Document doc = new Document();

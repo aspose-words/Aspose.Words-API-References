@@ -1,14 +1,14 @@
 ---
 title: IsHeader
 second_title: Справочник по API Aspose.Words для .NET
-description: Истинно если этот объект HeaderFooter является заголовком.
+description: Истинно если это Верхний колонтитул объект является заголовком.
 type: docs
 weight: 30
 url: /ru/net/aspose.words/headerfooter/isheader/
 ---
 ## HeaderFooter.IsHeader property
 
-Истинно, если этот объект **HeaderFooter** является заголовком.
+Истинно, если это **Верхний колонтитул** объект является заголовком.
 
 ```csharp
 public bool IsHeader { get; }

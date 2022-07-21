@@ -1,14 +1,14 @@
 ---
 title: AdditionalTextPositioning
 second_title: Aspose.Words for .NET API 参考
-description: 指定是否编写附加文本定位操作符的标志
+description: 一个标志指定是否编写额外的文本定位操作符
 type: docs
 weight: 20
 url: /zh/net/aspose.words.saving/pdfsaveoptions/additionaltextpositioning/
 ---
 ## PdfSaveOptions.AdditionalTextPositioning property
 
-指定是否编写附加文本定位操作符的标志。
+一个标志，指定是否编写额外的文本定位操作符。
 
 ```csharp
 public bool AdditionalTextPositioning { get; set; }
@@ -16,9 +16,9 @@ public bool AdditionalTextPositioning { get; set; }
 
 ### 评论
 
-如果` 真` ，额外的文本定位运算符被写入输出 PDF。这可能有助于克服 某些打印机文本定位不准确的问题。缺点是增加了 PDF 文档的大小。
+如果`真的`，额外的文本定位运算符被写入输出 PDF。这可能有助于克服某些打印机的文本定位不准确的 问题。缺点是 PDF 文档大小增加。
 
-默认值为` false` 。
+默认值为`错误的`.
 
 ### 例子
 

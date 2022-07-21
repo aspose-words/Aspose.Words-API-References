@@ -16,7 +16,7 @@ public Fill Fill { get; }
 
 ### 例子
 
-显示如何设置标记格式。
+展示如何设置标记格式。
 
 ```csharp
 Document doc = new Document();

@@ -1,14 +1,14 @@
 ---
 title: SnapToGrid
 second_title: Aspose.Words for .NET API 参考
-description: 指定当前段落是否应使用每页的文档网格线设置 布局段落中的内容时
+description: 指定当前段落是否应使用每页的文档网格线设置 在对段落中的内容进行布局时
 type: docs
 weight: 280
 url: /zh/net/aspose.words/paragraphformat/snaptogrid/
 ---
 ## ParagraphFormat.SnapToGrid property
 
-指定当前段落是否应使用每页的文档网格线设置 布局段落中的内容时。
+指定当前段落是否应使用每页的文档网格线设置 在对段落中的内容进行布局时。
 
 ```csharp
 public bool SnapToGrid { get; set; }

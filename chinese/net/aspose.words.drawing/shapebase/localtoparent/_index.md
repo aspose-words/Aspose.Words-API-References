@@ -1,14 +1,14 @@
 ---
 title: LocalToParent
 second_title: Aspose.Words for .NET API 参考
-description: 将值从本地坐标空间转换为父形状的坐标空间
+description: 将一个值从局部坐标空间转换为父图形的坐标空间
 type: docs
-weight: 600
+weight: 610
 url: /zh/net/aspose.words.drawing/shapebase/localtoparent/
 ---
 ## ShapeBase.LocalToParent method
 
-将值从本地坐标空间转换为父形状的坐标空间。
+将一个值从局部坐标空间转换为父图形的坐标空间。
 
 ```csharp
 public PointF LocalToParent(PointF value)
@@ -16,7 +16,7 @@ public PointF LocalToParent(PointF value)
 
 ### 例子
 
-显示如何将形状坐标平面上的 x 和 y 坐标位置转换为父形状坐标平面上的位置。
+演示如何将形状坐标平面上的 x 和 y 坐标位置转换为父形状坐标平面上的位置。
 
 ```csharp
 Document doc = new Document();

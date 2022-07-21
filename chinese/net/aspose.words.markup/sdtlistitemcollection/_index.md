@@ -1,14 +1,14 @@
 ---
 title: SdtListItemCollection
 second_title: Aspose.Words for .NET API 参考
-description: 提供对结构化文档标签的SdtListItem./sdtlistitem元素的访问
+description: 提供对SdtListItem./sdtlistitem结构化文档标签的元素
 type: docs
-weight: 3740
+weight: 3790
 url: /zh/net/aspose.words.markup/sdtlistitemcollection/
 ---
 ## SdtListItemCollection class
 
-提供对结构化文档标签的[`SdtListItem`](../sdtlistitem)元素的访问。
+提供对[`SdtListItem`](../sdtlistitem)结构化文档标签的元素。
 
 ```csharp
 public class SdtListItemCollection : IEnumerable<SdtListItem>
@@ -19,8 +19,8 @@ public class SdtListItemCollection : IEnumerable<SdtListItem>
 | 姓名 | 描述 |
 | --- | --- |
 | [Count](../../aspose.words.markup/sdtlistitemcollection/count) { get; } | 获取集合中的项目数。 |
-| [Item](../../aspose.words.markup/sdtlistitemcollection/item) { get; } | 给定集合中从零开始的索引，返回[`SdtListItem`](../sdtlistitem)对象。 |
-| [SelectedValue](../../aspose.words.markup/sdtlistitemcollection/selectedvalue) { get; set; } | 指定此列表中当前选定的值。 Null 值允许，这意味着当前选择的条目没有与此列表项集合相关联。 |
+| [Item](../../aspose.words.markup/sdtlistitemcollection/item) { get; } | 返回一个[`SdtListItem`](../sdtlistitem)给定集合中从零开始的索引的对象。 |
+| [SelectedValue](../../aspose.words.markup/sdtlistitemcollection/selectedvalue) { get; set; } | 指定此列表中当前选定的值。 允许空值，这意味着当前选定的条目与此列表项集合没有关联。 |
 
 ## 方法
 
@@ -33,7 +33,7 @@ public class SdtListItemCollection : IEnumerable<SdtListItem>
 
 ### 例子
 
-显示如何使用下拉列表结构化文档标签。
+展示如何使用下拉列表结构化文档标签。
 
 ```csharp
 Document doc = new Document();

@@ -16,7 +16,7 @@ public Dml3DEffectsRenderingMode Dml3DEffectsRenderingMode { get; set; }
 
 ### 评论
 
-默认值为Basic。
+默认值为Basic.
 
 ### 也可以看看
 

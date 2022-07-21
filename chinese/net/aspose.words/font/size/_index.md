@@ -1,14 +1,14 @@
 ---
 title: Size
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置字体大小以磅为单位
+description: 获取或设置以磅为单位的字体大小
 type: docs
 weight: 340
 url: /zh/net/aspose.words/font/size/
 ---
 ## Font.Size property
 
-获取或设置字体大小（以磅为单位）。
+获取或设置以磅为单位的字体大小。
 
 ```csharp
 public double Size { get; set; }
@@ -20,20 +20,18 @@ public double Size { get; set; }
 
 ```csharp
 Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
+Run run = new Run(doc, "Hello world!");
 
-// 指定字体格式，然后添加文本。
-Aspose.Words.Font font = builder.Font;
-font.Size = 16;
-font.Bold = true;
-font.Color = Color.Blue;
+Aspose.Words.Font font = run.Font;
 font.Name = "Courier New";
-font.Underline = Underline.Dash;
+font.Size = 36;
+font.HighlightColor = Color.Yellow;
 
-builder.Write("Hello world!");
+doc.FirstSection.Body.FirstParagraph.AppendChild(run);
+doc.Save(ArtifactsDir + "Font.CreateFormattedRun.docx");
 ```
 
-展示如何使用 DocumentBuilder 插入格式化文本。
+演示如何使用 DocumentBuilder 插入格式化文本。
 
 ```csharp
 Document doc = new Document();

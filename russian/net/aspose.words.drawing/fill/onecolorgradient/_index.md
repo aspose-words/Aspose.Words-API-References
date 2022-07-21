@@ -1,14 +1,14 @@
 ---
 title: OneColorGradient
 second_title: Справочник по API Aspose.Words для .NET
-description: Устанавливает для указанной заливки одноцветный градиент.
+description: Задает для указанной заливки одноцветный градиент.
 type: docs
 weight: 160
 url: /ru/net/aspose.words.drawing/fill/onecolorgradient/
 ---
 ## OneColorGradient(GradientStyle, GradientVariant, double) {#onecolorgradient}
 
-Устанавливает для указанной заливки одноцветный градиент.
+Задает для указанной заливки одноцветный градиент.
 
 ```csharp
 public void OneColorGradient(GradientStyle style, GradientVariant variant, double degree)
@@ -16,13 +16,13 @@ public void OneColorGradient(GradientStyle style, GradientVariant variant, doubl
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| style | GradientStyle | Стиль градиента[`GradientStyle`](../../gradientstyle) |
-| variant | GradientVariant | Вариант градиента[`GradientVariant`](../../gradientvariant) |
-| степень | Double | Степень градиента. Может принимать значение от 0,0 (темный) до 1,0 (светлый). |
+| style | GradientStyle | Градиентный стиль[`GradientStyle`](../../gradientstyle) |
+| variant | GradientVariant | Градиентный вариант[`GradientVariant`](../../gradientvariant) |
+| degree | Double | Степень градиента. Может принимать значение от 0,0 (темный) до 1,0 (светлый). |
 
 ### Примеры
 
-Показывает, как заполнить форму градиентом.
+Показывает, как заполнить фигуру градиентами.
 
 ```csharp
 Document doc = new Document();
@@ -80,13 +80,13 @@ public void OneColorGradient(Color color, GradientStyle style, GradientVariant v
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | color | Color | Цвет для построения градиента. |
-| style | GradientStyle | Стиль градиента[`GradientStyle`](../../gradientstyle) |
-| variant | GradientVariant | Вариант градиента[`GradientVariant`](../../gradientvariant) |
-| степень | Double | Степень градиента. Может принимать значение от 0,0 (темный) до 1,0 (светлый). |
+| style | GradientStyle | Градиентный стиль[`GradientStyle`](../../gradientstyle) |
+| variant | GradientVariant | Градиентный вариант[`GradientVariant`](../../gradientvariant) |
+| degree | Double | Степень градиента. Может принимать значение от 0,0 (темный) до 1,0 (светлый). |
 
 ### Примеры
 
-Показывает, как заполнить форму градиентом.
+Показывает, как заполнить фигуру градиентами.
 
 ```csharp
 Document doc = new Document();

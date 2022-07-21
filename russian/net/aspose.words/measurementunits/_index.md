@@ -1,14 +1,14 @@
 ---
 title: MeasurementUnits
 second_title: Справочник по API Aspose.Words для .NET
-description: Задает единицу измерения.
+description: Определяет единицу измерения.
 type: docs
-weight: 3860
+weight: 3910
 url: /ru/net/aspose.words/measurementunits/
 ---
 ## MeasurementUnits enumeration
 
-Задает единицу измерения.
+Определяет единицу измерения.
 
 ```csharp
 public enum MeasurementUnits
@@ -19,10 +19,10 @@ public enum MeasurementUnits
 | Имя | Ценность | Описание |
 | --- | --- | --- |
 | Inches | `0` | Дюймы. |
-| Centimeters | `1` | Сантиметры. |
+| Centimeters | `1` | Сантиметров. |
 | Millimeters | `2` | Миллиметры. |
 | Points | `3` | Очки. |
-| Picas | `4` | Picas (обычно используется в традиционном интервале шрифта пишущей машинки). |
+| Picas | `4` | Picas (обычно используется в традиционных интервалах между шрифтами пишущей машинки). |
 
 ### Смотрите также
 

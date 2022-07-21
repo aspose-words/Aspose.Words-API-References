@@ -1,14 +1,14 @@
 ---
 title: Match
 second_title: Aspose.Words for .NET API 参考
-description: Match在期间由单个常规 表达式匹配产生 替换 
+description: 的Match由单个 regular 表达式匹配产生的 代替.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.replacing/replacingargs/match/
 ---
 ## ReplacingArgs.Match property
 
-Match在:期间由单个常规 表达式匹配产生 **替换** 。
+的Match由单个 regular 表达式匹配产生的 **代替**.
 
 ```csharp
 public Match Match { get; }
@@ -16,11 +16,11 @@ public Match Match { get; }
 
 ### 评论
 
-**Match.Index”** 从查找和替换范围的开头获取匹配的从零开始的 位置。
+**匹配索引"**从查找和替换范围的开头获取匹配的从零开始的starting 位置。
 
 ### 例子
 
-显示如何通过 FindReplaceOptions 将不同的字体应用于新内容。
+展示如何通过 FindReplaceOptions 将不同的字体应用于新内容。
 
 ```csharp
 {

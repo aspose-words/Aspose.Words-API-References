@@ -1,14 +1,14 @@
 ---
 title: NodeChangingArgs
 second_title: Aspose.Words for .NET API 参考
-description: 为INodeChangingCallback./inodechangingcallback接口的方法提供数据
+description: 为INodeChangingCallback./inodechangingcallback接口.
 type: docs
-weight: 3900
+weight: 3950
 url: /zh/net/aspose.words/nodechangingargs/
 ---
 ## NodeChangingArgs class
 
-为[`INodeChangingCallback`](../inodechangingcallback)接口的方法提供数据。
+为[`INodeChangingCallback`](../inodechangingcallback)接口.
 
 ```csharp
 public class NodeChangingArgs
@@ -18,9 +18,9 @@ public class NodeChangingArgs
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Action](../../aspose.words/nodechangingargs/action) { get; } | 获取一个值，该值指示正在发生的节点更改事件的类型。 |
-| [NewParent](../../aspose.words/nodechangingargs/newparent) { get; } | 获取将在操作完成后设置的节点的父节点。 |
-| [Node](../../aspose.words/nodechangingargs/node) { get; } | 获取正在添加或删除的[`Node`](./node)。 |
+| [Action](../../aspose.words/nodechangingargs/action) { get; } | 获取一个值，指示正在发生什么类型的节点更改事件。 |
+| [NewParent](../../aspose.words/nodechangingargs/newparent) { get; } | 获取操作完成后将设置的节点的父节点。 |
+| [Node](../../aspose.words/nodechangingargs/node) { get; } | 获取[`Node`](./node)正在添加或删除。 |
 | [OldParent](../../aspose.words/nodechangingargs/oldparent) { get; } | 在操作开始之前获取节点的父节点。 |
 
 ### 例子

@@ -1,14 +1,14 @@
 ---
 title: IDocumentLoadingCallback
 second_title: Справочник по API Aspose.Words для .NET
-description: Реализуйте этот интерфейс если вы хотите чтобы во время загрузки документа вызывался ваш собственный метод.
+description: Реализуйте этот интерфейс если вы хотите чтобы ваш собственный метод вызывался во время загрузки документа.
 type: docs
-weight: 3380
+weight: 3430
 url: /ru/net/aspose.words.loading/idocumentloadingcallback/
 ---
 ## IDocumentLoadingCallback interface
 
-Реализуйте этот интерфейс, если вы хотите, чтобы во время загрузки документа вызывался ваш собственный метод.
+Реализуйте этот интерфейс, если вы хотите, чтобы ваш собственный метод вызывался во время загрузки документа.
 
 ```csharp
 public interface IDocumentLoadingCallback

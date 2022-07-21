@@ -16,7 +16,7 @@ public bool ConvertShapeToOfficeMath { get; set; }
 
 ### 例子
 
-显示如何将 EquationXML 形状转换为 Office Math 对象。
+演示如何将 EquationXML 形状转换为 Office Math 对象。
 
 ```csharp
 LoadOptions loadOptions = new LoadOptions();

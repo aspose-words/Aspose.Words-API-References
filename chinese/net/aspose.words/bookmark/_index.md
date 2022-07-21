@@ -19,9 +19,9 @@ public class Bookmark
 | 姓名 | 描述 |
 | --- | --- |
 | [BookmarkEnd](../../aspose.words/bookmark/bookmarkend) { get; } | 获取代表书签结束的节点。 |
-| [BookmarkStart](../../aspose.words/bookmark/bookmarkstart) { get; } | 获取表示书签开始的节点。 |
+| [BookmarkStart](../../aspose.words/bookmark/bookmarkstart) { get; } | 获取代表书签开始的节点。 |
 | [FirstColumn](../../aspose.words/bookmark/firstcolumn) { get; } | 获取与书签关联的表列范围的第一列的从零开始的索引。 |
-| [IsColumn](../../aspose.words/bookmark/iscolumn) { get; } | 如果此书签是表列书签，则返回 **true** 。 |
+| [IsColumn](../../aspose.words/bookmark/iscolumn) { get; } | 返回 **真的**如果此书签是表格列书签。 |
 | [LastColumn](../../aspose.words/bookmark/lastcolumn) { get; } | 获取与书签关联的表列范围的最后一列的从零开始的索引。 |
 | [Name](../../aspose.words/bookmark/name) { get; set; } | 获取或设置书签的名称。 |
 | [Text](../../aspose.words/bookmark/text) { get; set; } | 获取或设置书签中包含的文本。 |
@@ -34,31 +34,31 @@ public class Bookmark
 
 ### 评论
 
-[`Bookmark`](../bookmark)是一个“门面” " 封装两个节点[`BookmarkStart`](./bookmarkstart) 和[`BookmarkEnd`](./bookmarkend)的对象文档树，并允许将书签作为单个对象使用。
+[`Bookmark`](../bookmark)是一个封装了两个节点的“门面”对象[`BookmarkStart`](./bookmarkstart) 和[`BookmarkEnd`](./bookmarkend)在文档树中，并允许将书签作为单个对象使用。
 
 ### 例子
 
-显示如何添加书签并更新其内容。
+展示如何添加书签和更新其内容。
 
 ```csharp
 public void CreateUpdateAndPrintBookmarks()
 {
-     // 创建一个包含三个书签的文档，然后使用自定义文档访问者实现来打印它们的内容。
+    // 创建一个包含三个书签的文档，然后使用自定义文档访问者实现来打印其内容。
     Document doc = CreateDocumentWithBookmarks(3);
     BookmarkCollection bookmarks = doc.Range.Bookmarks;
 
     PrintAllBookmarkInfo(bookmarks);
 
-     // 书签集合中可以通过索引或名称访问书签，并且可以更新它们的名称。
+    // 书签集合中可以通过索引或名称访问书签，并且可以更新它们的名称。
     bookmarks[0].Name = $"{bookmarks[0].Name}_NewName";
     bookmarks["MyBookmark_2"].Text = $"Updated text contents of {bookmarks[1].Name}";
 
-     // 再次打印所有书签以查看更新的值。
+    // 再次打印所有书签以查看更新的值。
     PrintAllBookmarkInfo(bookmarks);
 }
 
 /// <summary>
- /// 创建具有给定数量书签的文档。
+/// 创建一个具有给定数量书签的文档。
 /// </summary>
 private static Document CreateDocumentWithBookmarks(int numberOfBookmarks)
 {
@@ -80,7 +80,7 @@ private static Document CreateDocumentWithBookmarks(int numberOfBookmarks)
 }
 
 /// <summary>
- /// 使用迭代器和访问者打印集合中每个书签的信息。
+/// 使用迭代器和访问者打印集合中每个书签的信息。
 /// </summary>
 private static void PrintAllBookmarkInfo(BookmarkCollection bookmarks)
 {
@@ -105,7 +105,7 @@ private static void PrintAllBookmarkInfo(BookmarkCollection bookmarks)
 }
 
 /// <summary>
- /// 将每个访问过的书签的内容打印到控制台。
+/// 将每个访问过的书签的内容打印到控制台。
 /// </summary>
 public class BookmarkInfoPrinter : DocumentVisitor
 {

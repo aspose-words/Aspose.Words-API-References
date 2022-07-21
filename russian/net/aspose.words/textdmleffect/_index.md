@@ -3,7 +3,7 @@ title: TextDmlEffect
 second_title: Справочник по API Aspose.Words для .NET
 description: Текстовый эффект Dml для текстовых прогонов.
 type: docs
-weight: 6060
+weight: 6110
 url: /ru/net/aspose.words/textdmleffect/
 ---
 ## TextDmlEffect enumeration
@@ -18,7 +18,7 @@ public enum TextDmlEffect
 
 | Имя | Ценность | Описание |
 | --- | --- | --- |
-| Glow | `0` | Эффект свечения, при котором за пределами краев объекта добавляется цветной размытый контур. |
+| Glow | `0` | Эффект свечения, при котором за пределами краев объекта добавляется размытый цветной контур. |
 | Fill | `1` | Эффект наложения заливки. |
 | Shadow | `2` | Эффект тени. |
 | Outline | `3` | Эффект контура. |

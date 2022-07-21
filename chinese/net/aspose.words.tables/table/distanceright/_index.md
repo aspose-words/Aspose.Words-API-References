@@ -1,14 +1,14 @@
 ---
 title: DistanceRight
 second_title: Aspose.Words for .NET API 参考
-description: 获取表格右侧与周围文本之间的距离以磅为单位
+description: 获取表格右侧和周围文本之间的距离以磅为单位
 type: docs
 weight: 140
 url: /zh/net/aspose.words.tables/table/distanceright/
 ---
 ## Table.DistanceRight property
 
-获取表格右侧与周围文本之间的距离，以磅为单位。
+获取表格右侧和周围文本之间的距离，以磅为单位。
 
 ```csharp
 public double DistanceRight { get; }

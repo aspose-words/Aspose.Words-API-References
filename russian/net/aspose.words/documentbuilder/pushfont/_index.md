@@ -1,14 +1,14 @@
 ---
 title: PushFont
 second_title: Справочник по API Aspose.Words для .NET
-description: Сохраняет текущее форматирование символов в стек.
+description: Сохраняет текущее форматирование символов в стеке.
 type: docs
 weight: 570
 url: /ru/net/aspose.words/documentbuilder/pushfont/
 ---
 ## DocumentBuilder.PushFont method
 
-Сохраняет текущее форматирование символов в стек.
+Сохраняет текущее форматирование символов в стеке.
 
 ```csharp
 public void PushFont()

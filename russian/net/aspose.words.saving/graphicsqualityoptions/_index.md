@@ -1,14 +1,14 @@
 ---
 title: GraphicsQualityOptions
 second_title: Справочник по API Aspose.Words для .NET
-description: Позволяет указать дополнительные параметры качестваGraphics.
+description: Позволяет указать доп.Graphics варианты качества.
 type: docs
-weight: 4730
+weight: 4780
 url: /ru/net/aspose.words.saving/graphicsqualityoptions/
 ---
 ## GraphicsQualityOptions class
 
-Позволяет указать дополнительные параметры качестваGraphics.
+Позволяет указать доп.Graphics варианты качества.
 
 ```csharp
 public class GraphicsQualityOptions
@@ -26,11 +26,11 @@ public class GraphicsQualityOptions
 | --- | --- |
 | [CompositingMode](../../aspose.words.saving/graphicsqualityoptions/compositingmode) { get; set; } | Получает или задает значение, указывающее, как составные изображения рисуются в этом объекте Graphics. |
 | [CompositingQuality](../../aspose.words.saving/graphicsqualityoptions/compositingquality) { get; set; } | Получает или задает качество рендеринга составных изображений, нарисованных на этом объекте Graphics. |
-| [InterpolationMode](../../aspose.words.saving/graphicsqualityoptions/interpolationmode) { get; set; } | Получает или задает режим интерполяции, связанный с этим объектом Graphics. |
-| [SmoothingMode](../../aspose.words.saving/graphicsqualityoptions/smoothingmode) { get; set; } | Получает или задает качество рендеринга для этого объекта Graphics. |
-| [StringFormat](../../aspose.words.saving/graphicsqualityoptions/stringformat) { get; set; } | Получает или задает информацию о макете текста (например, выравнивание, ориентация и позиции табуляции), манипуляции с отображением (например, вставка многоточия и замена национальных цифр) и функции OpenType. |
-| [TextRenderingHint](../../aspose.words.saving/graphicsqualityoptions/textrenderinghint) { get; set; } | Получает или задает режим рендеринга для текста, связанного с этим объектом Graphics. |
-| [UseTileFlipMode](../../aspose.words.saving/graphicsqualityoptions/usetileflipmode) { get; set; } | Получает или задает флаг, указывающий, является ли WrapMode значением TileFlipXY. |
+| [InterpolationMode](../../aspose.words.saving/graphicsqualityoptions/interpolationmode) { get; set; } | Получает или задает режим интерполяции, связанный с этой графикой. |
+| [SmoothingMode](../../aspose.words.saving/graphicsqualityoptions/smoothingmode) { get; set; } | Получает или задает качество рендеринга для этой графики. |
+| [StringFormat](../../aspose.words.saving/graphicsqualityoptions/stringformat) { get; set; } | Получает или задает информацию о макете текста (например, выравнивание, ориентация и позиции табуляции), операции отображения (например, вставка многоточия и замена национальных цифр) и функции OpenType. |
+| [TextRenderingHint](../../aspose.words.saving/graphicsqualityoptions/textrenderinghint) { get; set; } | Получает или задает режим рендеринга для текста, связанного с этой графикой. |
+| [UseTileFlipMode](../../aspose.words.saving/graphicsqualityoptions/usetileflipmode) { get; set; } | Получает или устанавливает флаг, указывающий, является ли WrapMode TileFlipXY. |
 
 ### Примеры
 

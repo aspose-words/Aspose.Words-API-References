@@ -1,14 +1,14 @@
 ---
 title: Add
 second_title: Aspose.Words for .NET API 参考
-description: 将节点添加到集合的末尾
+description: 将一个节点添加到集合的末尾
 type: docs
 weight: 30
 url: /zh/net/aspose.words/nodecollection/add/
 ---
 ## NodeCollection.Add method
 
-将节点添加到集合的末尾。
+将一个节点添加到集合的末尾。
 
 ```csharp
 public void Add(Node node)
@@ -22,15 +22,15 @@ public void Add(Node node)
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| NotSupportedException | **NodeCollection** 是一个“深度”集合。 |
+| NotSupportedException | 这 **节点集合**是一个“深”的集合。 |
 
 ### 评论
 
-节点作为子节点插入到创建集合的节点对象中。
+该节点作为子节点插入到从中创建集合的节点对象中。
 
 如果 newChild 已经在树中，则首先将其移除。
 
-如果要插入的节点是从另一个文档创建的，则应使用 ImportFormatMode)将节点导入当前文档。 然后可以将导入的节点插入到当前文档中。
+如果要插入的节点是从另一个文档创建的，则应使用 [`ImportNode`](../../documentbase/importnode)将节点导入当前文档。 然后可以将导入的节点插入到当前文档中。
 
 ### 例子
 
@@ -39,18 +39,18 @@ public void Add(Node node)
 ```csharp
 Document doc = new Document();
 
- // 一个空白文档带有一个section，它有一个body，它又是一个paragraph.
- // 我们可以通过向该段落添加文本、形状或表格等元素来向该文档添加内容。
+// 一个空白文档带有一个部分，它有一个正文，而正文又是一个段落。
+// 我们可以通过向该段落添加文本、形状或表格等元素来向该文档添加内容。
 Assert.AreEqual(NodeType.Section, doc.GetChild(NodeType.Any, 0, true).NodeType);
 Assert.AreEqual(NodeType.Body, doc.Sections[0].GetChild(NodeType.Any, 0, true).NodeType);
 Assert.AreEqual(NodeType.Paragraph, doc.Sections[0].Body.GetChild(NodeType.Any, 0, true).NodeType);
 
- // 如果我们像这样添加一个新部分，它将没有主体或任何其他子节点。
+// 如果我们像这样添加一个新部分，它将没有正文或任何其他子节点。
 doc.Sections.Add(new Section(doc));
 
 Assert.AreEqual(0, doc.Sections[1].GetChildNodes(NodeType.Any, true).Count);
 
- // 运行“EnsureMinimum”方法来添加正文和段落到此部分以开始编辑它。
+// 运行“EnsureMinimum”方法，将正文和段落添加到此部分以开始编辑。
 doc.LastSection.EnsureMinimum();
 
 Assert.AreEqual(NodeType.Body, doc.Sections[1].GetChild(NodeType.Any, 0, true).NodeType);

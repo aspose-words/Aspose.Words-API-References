@@ -16,17 +16,17 @@ public string TextInputDefault { get; set; }
 
 ### 评论
 
-该属性的含义取决于TextInputType属性。
+该属性的含义取决于[`TextInputType`](../textinputtype)财产。
 
-当[`TextInputType`](../textinputtype)为Regular或 Number，此字符串指定文本表单字段的默认字符串。 此字符串是当表单域为空时Microsoft Word 将在文档中显示的内容。
+什么时候[`TextInputType`](../textinputtype)是Regularor Number，此字符串指定文本表单域的默认字符串。 此字符串是当表单域为空时Microsoft Word 将在文档中显示的内容。
 
-当[`TextInputType`](../textinputtype)为Calculated，则此字符串包含 要计算的表达式。表达式必须是符合 Microsoft Word 公式字段 要求的有效公式。当您使用此属性设置新表达式时，Aspose.Words 会自动计算公式结果 并将其插入到表单字段中。
+什么时候[`TextInputType`](../textinputtype)是Calculated，那么这个字符串包含 要计算的表达式。表达式必须是符合 Microsoft Word 公式 field 要求的有效公式。当您使用此属性设置新表达式时，Aspose.Words 会自动计算公式 result 并将其插入到表单字段中。
 
 Microsoft Word 允许最多包含 255 个字符的字符串。
 
 ### 例子
 
-展示如何将不同类型的表单字段插入到文档中，并使用文档访问者实现来处理它们。
+展示了如何将不同类型的表单域插入到文档中，并使用文档访问者实现来处理它们。
 
 ```csharp
 public void Visitor()
@@ -34,7 +34,7 @@ public void Visitor()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-     // 使用文档构建器插入组合框。
+    // 使用文档构建器插入组合框。
     builder.Write("Choose a value from this combo box: ");
     FormField comboBox = builder.InsertComboBox("MyComboBox", new[] { "One", "Two", "Three" }, 0);
     comboBox.CalculateOnExit = true;
@@ -44,7 +44,7 @@ public void Visitor()
 
     builder.InsertBreak(BreakType.ParagraphBreak);
 
-     // 使用文档生成器插入复选框。
+    // 使用文档生成器插入复选框。
     builder.Write("Click this check box to tick/untick it: ");
     FormField checkBox = builder.InsertCheckBox("MyCheckBox", false, 50);
     checkBox.IsCheckBoxExactSize = true;
@@ -58,7 +58,7 @@ public void Visitor()
 
     builder.InsertBreak(BreakType.ParagraphBreak);
 
-     // 使用文档构建器插入文本输入表单 field.
+    // 使用文档构建器插入文本输入表单字段。
     builder.Write("Enter text here: ");
     FormField textInput = builder.InsertTextInput("MyTextInput", TextFormFieldType.Regular, "", "Placeholder text", 50);
     textInput.EntryMacro = "EntryMacro";
@@ -69,20 +69,19 @@ public void Visitor()
     Assert.AreEqual(TextFormFieldType.Regular, textInput.TextInputType);
     Assert.AreEqual(50, textInput.MaxLength);
 
-     // 这个集合包含我们所有的表单域。
+    // 这个集合包含我们所有的表单字段。
     FormFieldCollection formFields = doc.Range.FormFields;
     Assert.AreEqual(3, formFields.Count);
 
-     // 字段显示我们的表单字段。我们可以打开这个document
-看到他们的域代码
+    // 字段显示我们的表单字段。我们可以通过打开这个文档看到他们的域代码
     // 在 Microsoft 中并按 Alt + F9。这些字段没有开关，
-     // 并且 FormField 对象的成员完全控制其表单字段的内容。
+    // 并且 FormField 对象的成员完全控制其表单字段的内容。
     Assert.AreEqual(3, doc.Range.Fields.Count);
     Assert.AreEqual(" FORMDROPDOWN \u0001", doc.Range.Fields[0].GetFieldCode());
     Assert.AreEqual(" FORMCHECKBOX \u0001", doc.Range.Fields[1].GetFieldCode());
     Assert.AreEqual(" FORMTEXT \u0001", doc.Range.Fields[2].GetFieldCode());
 
-     // 允许每个表单域接受一个文档访问者。
+    // 允许每个表单域接受一个文档访问者。
     FormFieldVisitor formFieldVisitor = new FormFieldVisitor();
 
     using (IEnumerator<FormField> fieldEnumerator = formFields.GetEnumerator())
@@ -106,7 +105,7 @@ public class FormFieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-     /// 在文档中遇到 FormField 节点时调用。
+    /// 在文档中遇到 FormField 节点时调用。
     /// </summary>
     public override VisitorAction VisitFormField(FormField formField)
     {
@@ -132,12 +131,12 @@ public class FormFieldVisitor : DocumentVisitor
                 break;
         }
 
-         // 让访问者继续访问其他节点。
+        // 让访问者继续访问其他节点。
         return VisitorAction.Continue;
     }
 
     /// <summary>
-     /// 将换行符终止的文本添加到当前输出。
+    /// 将换行符终止的文本添加到当前输出。
     /// </summary>
     private void AppendLine(string text)
     {
@@ -145,7 +144,7 @@ public class FormFieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-     /// 获取访问者积累的文档的纯文本。
+    /// 获取访问者积累的文档的纯文本。
     /// </summary>
     public string GetText()
     {

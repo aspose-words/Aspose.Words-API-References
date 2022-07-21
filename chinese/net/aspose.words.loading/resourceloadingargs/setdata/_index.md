@@ -8,7 +8,7 @@ url: /zh/net/aspose.words.loading/resourceloadingargs/setdata/
 ---
 ## ResourceLoadingArgs.SetData method
 
-设置所使用资源的用户提供数据 if[`ResourceLoading`](../../iresourceloadingcallback/resourceloading) 返回UserProvided。
+设置所使用资源的用户提供数据 if[`ResourceLoading`](../../iresourceloadingcallback/resourceloading) 返回UserProvided
 
 ```csharp
 public void SetData(byte[] data)
@@ -16,7 +16,7 @@ public void SetData(byte[] data)
 
 ### 例子
 
-显示如何自定义将外部资源加载到文档中的过程。
+展示如何自定义将外部资源加载到文档中的过程。
 
 ```csharp
 {

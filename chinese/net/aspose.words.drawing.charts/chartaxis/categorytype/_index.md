@@ -16,7 +16,7 @@ public AxisCategoryType CategoryType { get; set; }
 
 ### 评论
 
-仅文本类别（Category) 在 MS Office 2016 新图表中是允许的。
+仅文本类别 (Category ) 在 MS Office 2016 新图表中是允许的。
 
 ### 例子
 

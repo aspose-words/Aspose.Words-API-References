@@ -1,14 +1,14 @@
 ---
 title: RestartPageNumbering
 second_title: Справочник по API Aspose.Words для .NET
-description: Истинно  если нумерация страниц начинается с начала раздела.
+description: Истинный если нумерация страниц начинается с начала раздела.
 type: docs
 weight: 350
 url: /ru/net/aspose.words/pagesetup/restartpagenumbering/
 ---
 ## PageSetup.RestartPageNumbering property
 
-**Истинно** , если нумерация страниц начинается с начала раздела.
+**Истинный** если нумерация страниц начинается с начала раздела.
 
 ```csharp
 public bool RestartPageNumbering { get; set; }
@@ -16,7 +16,7 @@ public bool RestartPageNumbering { get; set; }
 
 ### Примечания
 
-Если установлено значение **false** , свойство **RestartPageNumbering** переопределит свойство [`PageStartingNumber`](../pagestartingnumber), чтобы нумерация страниц может продолжаться с предыдущего раздела.
+Если установлено значение **ЛОЖЬ** , **RestartPageNumbering**свойство переопределит the [`PageStartingNumber`](../pagestartingnumber) свойство, чтобы нумерация страниц могла продолжаться с предыдущего раздела.
 
 ### Примеры
 

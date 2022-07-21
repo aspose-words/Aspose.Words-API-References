@@ -1,14 +1,14 @@
 ---
 title: MovedToTextColor
 second_title: Справочник по API Aspose.Words для .NET
-description: Позволяет указать цвет который будет использоваться для областей содержимое которых было перемещено вMoving. Значение по умолчаниюByAuthor.
+description: Позволяет указать цвет который будет использоваться для областей в которые было перемещено содержимое.Moving . Значение по умолчаниюByAuthor .
 type: docs
 weight: 90
 url: /ru/net/aspose.words.layout/revisionoptions/movedtotextcolor/
 ---
 ## RevisionOptions.MovedToTextColor property
 
-Позволяет указать цвет, который будет использоваться для областей, содержимое которых было перемещено вMoving. Значение по умолчанию:ByAuthor.
+Позволяет указать цвет, который будет использоваться для областей, в которые было перемещено содержимое.Moving . Значение по умолчанию:ByAuthor .
 
 ```csharp
 public RevisionColor MovedToTextColor { get; set; }
@@ -16,49 +16,49 @@ public RevisionColor MovedToTextColor { get; set; }
 
 ### Примеры
 
-Показывает, как изменить внешний вид ревизий.
+Показывает, как изменить внешний вид редакций.
 
 ```csharp
 Document doc = new Document(MyDir + "Revisions.docx");
 
- // Получить объект RevisionOptions, управляющий внешним видом ревизий.
+// Получить объект RevisionOptions, управляющий внешним видом ревизий.
 RevisionOptions revisionOptions = doc.LayoutOptions.RevisionOptions;
 
- // Отображение ревизий вставки зеленым цветом и курсивом.
+// Отображение ревизий вставки зеленым цветом и курсивом.
 revisionOptions.InsertedTextColor = RevisionColor.Green;
 revisionOptions.InsertedTextEffect = RevisionTextEffect.Italic;
 
- // Отображаем ревизии удаления красным и полужирным шрифтом.
+// Отображение удаленных ревизий красным и полужирным шрифтом.
 revisionOptions.DeletedTextColor = RevisionColor.Red;
 revisionOptions.DeletedTextEffect = RevisionTextEffect.Bold;
 
- // Один и тот же текст появится дважды в версии механизма: 
- // один раз в пункте отправления и один раз в пункте прибытия.
- // Визуализировать текст перемещенной версии желтым цветом с двойным перечеркиванием через
- // и двойное подчеркивание синего цвета на перемещенной ревизии.
+// Один и тот же текст появится дважды в ревизии движения:
+// один раз в пункте отправления и один раз в пункте прибытия.
+// Визуализируем текст перемещенной версии желтым цветом с двойным перечеркиванием
+// и дважды подчеркнутый синим цветом ревизию, к которой был перемещен.
 revisionOptions.MovedFromTextColor = RevisionColor.Yellow;
 revisionOptions.MovedFromTextEffect = RevisionTextEffect.DoubleStrikeThrough;
 revisionOptions.MovedToTextColor = RevisionColor.Blue;
 revisionOptions.MovedFromTextEffect = RevisionTextEffect.DoubleUnderline;
 
-// Версии формата отображаются темно-красным и полужирным шрифтом.
+// Редактирование формата темно-красным и полужирным шрифтом.
 revisionOptions.RevisedPropertiesColor = RevisionColor.DarkRed;
 revisionOptions.RevisedPropertiesEffect = RevisionTextEffect.Bold;
 
- // Поместите толстую темно-синюю полосу в левой части страницы рядом со строками, затронутыми ревизиями.
+// Поместите толстую темно-синюю полосу в левой части страницы рядом со строками, затронутыми изменениями.
 revisionOptions.RevisionBarsColor = RevisionColor.DarkBlue;
 revisionOptions.RevisionBarsWidth = 15.0f;
 
- // Показать метки исправления и исходный текст.
+// Показать метки исправления и исходный текст.
 revisionOptions.ShowOriginalRevision = true;
 revisionOptions.ShowRevisionMarks = true;
 
- // Получение изменений перемещения, удаления, форматирования и комментариев для отображения зелеными выносками
- // в правой части страницы.
+// Получить перемещение, удаление, исправления форматирования и комментарии для отображения в зеленых выносках
+// в правой части страницы.
 revisionOptions.ShowInBalloons = ShowInBalloons.Format;
 revisionOptions.CommentColor = RevisionColor.BrightGreen;
 
- // Эти функции применимы только к таким форматам, как .pdf или .jpg.
+// Эти функции применимы только к таким форматам, как .pdf или .jpg.
 doc.Save(ArtifactsDir + "Revision.RevisionOptions.pdf");
 ```
 

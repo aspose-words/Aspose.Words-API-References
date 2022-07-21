@@ -23,7 +23,7 @@ public enum Granularity
 
 ### 例子
 
-显示在比较文档时指定粒度。
+显示以在比较文档时指定粒度。
 
 ```csharp
 Document docA = new Document();

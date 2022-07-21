@@ -1,14 +1,14 @@
 ---
 title: ExportListLabels
 second_title: Справочник по API Aspose.Words для .NET
-description: Указывает как метки списков экспортируются в HTML MHTML и EPUB.
+description: Указывает как метки списков экспортируются в форматы HTML MHTML и EPUB.
 type: docs
-weight: 4700
+weight: 4750
 url: /ru/net/aspose.words.saving/exportlistlabels/
 ---
 ## ExportListLabels enumeration
 
-Указывает, как метки списков экспортируются в HTML, MHTML и EPUB.
+Указывает, как метки списков экспортируются в форматы HTML, MHTML и EPUB.
 
 ```csharp
 public enum ExportListLabels
@@ -18,13 +18,13 @@ public enum ExportListLabels
 
 | Имя | Ценность | Описание |
 | --- | --- | --- |
-| Auto | `0` | Выводит метки списка в автоматическом режиме. По возможности использует собственные элементы HTML. |
+| Auto | `0` | Выводит метки списка в автоматическом режиме. По возможности использует нативные элементы HTML. |
 | AsInlineText | `1` | Выводит все метки списка как встроенный текст. |
 | ByHtmlTags | `2` | Выводит все метки списка как собственные элементы HTML. |
 
 ### Примеры
 
-Показывает, как настроить экспорт списка в HTML .
+Показывает, как настроить экспорт списка в HTML.
 
 ```csharp
 Document doc = new Document();

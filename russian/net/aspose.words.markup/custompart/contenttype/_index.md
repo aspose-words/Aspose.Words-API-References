@@ -1,14 +1,14 @@
 ---
 title: ContentType
 second_title: Справочник по API Aspose.Words для .NET
-description: Указывает тип содержимого этой пользовательской части.
+description: Определяет тип содержимого этой пользовательской части.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.markup/custompart/contenttype/
 ---
 ## CustomPart.ContentType property
 
-Указывает тип содержимого этой пользовательской части.
+Определяет тип содержимого этой пользовательской части.
 
 ```csharp
 public string ContentType { get; set; }
@@ -16,7 +16,7 @@ public string ContentType { get; set; }
 
 ### Примечания
 
-Это свойство применимо только при[`IsExternal`](../isexternal)is` false` .
+Это свойство применимо только тогда, когда[`IsExternal`](../isexternal) является`ЛОЖЬ`.
 
 Значение по умолчанию — пустая строка. Допустимое значение должно быть непустой строкой.
 

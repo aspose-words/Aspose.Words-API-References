@@ -16,7 +16,7 @@ public bool CreateOutlinesForHeadingsInTables { get; set; }
 
 ### 评论
 
-默认值为 **false** 。
+默认值为 **错误的**.
 
 ### 例子
 

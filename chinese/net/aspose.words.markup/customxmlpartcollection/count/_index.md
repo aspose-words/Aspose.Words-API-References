@@ -1,14 +1,14 @@
 ---
 title: Count
 second_title: Aspose.Words for .NET API 参考
-description: 获取集合中包含的元素数量
+description: 获取集合中包含的元素数
 type: docs
 weight: 20
 url: /zh/net/aspose.words.markup/customxmlpartcollection/count/
 ---
 ## CustomXmlPartCollection.Count property
 
-获取集合中包含的元素数量。
+获取集合中包含的元素数。
 
 ```csharp
 public int Count { get; }

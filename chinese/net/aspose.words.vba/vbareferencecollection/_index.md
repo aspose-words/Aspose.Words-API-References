@@ -1,14 +1,14 @@
 ---
 title: VbaReferenceCollection
 second_title: Aspose.Words for .NET API 参考
-description: 表示VbaReference./vbareference对象的集合
+description: 代表一个集合VbaReference./vbareference对象.
 type: docs
-weight: 6240
+weight: 6290
 url: /zh/net/aspose.words.vba/vbareferencecollection/
 ---
 ## VbaReferenceCollection class
 
-表示[`VbaReference`](../vbareference)对象的集合。
+代表一个集合[`VbaReference`](../vbareference)对象.
 
 ```csharp
 public sealed class VbaReferenceCollection : IEnumerable<VbaReference>
@@ -19,7 +19,7 @@ public sealed class VbaReferenceCollection : IEnumerable<VbaReference>
 | 姓名 | 描述 |
 | --- | --- |
 | [Count](../../aspose.words.vba/vbareferencecollection/count) { get; } | 返回集合中 VBA 引用的数量。 |
-| [Item](../../aspose.words.vba/vbareferencecollection/item) { get; } | 在指定索引处获取[`VbaReference`](../vbareference)对象。 |
+| [Item](../../aspose.words.vba/vbareferencecollection/item) { get; } | 获取[`VbaReference`](../vbareference)指定索引处的对象。 |
 
 ## 方法
 
@@ -59,7 +59,7 @@ public void RemoveVbaReference()
 }
 
 /// <summary>
- /// 返回表示指定引用的 LibId 路径的字符串。 
+/// 返回表示指定引用的 LibId 路径的字符串。 
 /// </summary>
 private static string GetLibIdPath(VbaReference reference)
 {
@@ -77,7 +77,7 @@ private static string GetLibIdPath(VbaReference reference)
 }
 
 /// <summary>
- /// 从自动化类型库的指定标识符返回路径。
+/// 从自动化类型库的指定标识符返回路径。
 /// </summary>
 private static string GetLibIdReferencePath(string libIdReference)
 {
@@ -92,7 +92,7 @@ private static string GetLibIdReferencePath(string libIdReference)
 }
 
 /// <summary>
- /// 从自动化类型库的指定标识符返回路径。
+/// 从自动化类型库的指定标识符返回路径。
 /// </summary>
 private static string GetLibIdProjectPath(string libIdProject)
 {

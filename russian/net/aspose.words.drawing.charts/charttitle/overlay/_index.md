@@ -1,14 +1,14 @@
 ---
 title: Overlay
 second_title: Справочник по API Aspose.Words для .NET
-description: Определяет разрешено ли другим элементам диаграммы перекрывать заголовок. По умолчанию оверлей имеет значение false.
+description: Определяет разрешено ли другим элементам диаграммы перекрывать заголовок. По умолчанию наложение равно false.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.drawing.charts/charttitle/overlay/
 ---
 ## ChartTitle.Overlay property
 
-Определяет, разрешено ли другим элементам диаграммы перекрывать заголовок. По умолчанию оверлей имеет значение false.
+Определяет, разрешено ли другим элементам диаграммы перекрывать заголовок. По умолчанию наложение равно false.
 
 ```csharp
 public bool Overlay { get; set; }

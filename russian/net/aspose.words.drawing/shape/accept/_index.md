@@ -16,19 +16,19 @@ public override bool Accept(DocumentVisitor visitor)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| visitor | DocumentVisitor | Посетитель, который посетит узлы. |
+| visitor | DocumentVisitor | Посетитель, который будет посещать узлы. |
 
 ### Возвращаемое значение
 
-Истинно, если были посещены все узлы; false, если DocumentVisitor остановил операцию перед посещением всех узлов.
+Истинно, если все узлы были посещены; false, если DocumentVisitor остановил операцию перед посещением всех узлов.
 
 ### Примечания
 
 Перечисляет этот узел и все его дочерние элементы. Каждый узел вызывает соответствующий метод в DocumentVisitor.
 
-Для получения дополнительной информации см. шаблон проектирования Посетитель.
+Дополнительные сведения см. в шаблоне проектирования «Посетитель».
 
-Вызовы[`VisitShapeStart`](../../../aspose.words/documentvisitor/visitshapestart), затем вызывает[`Accept`](../../../aspose.words/node/accept) для всех дочерних узлов формы и вызывает[`VisitShapeEnd`](../../../aspose.words/documentvisitor/visitshapeend)в конце.
+звонки[`VisitShapeStart`](../../../aspose.words/documentvisitor/visitshapestart) , затем звонит[`Accept`](../../../aspose.words/node/accept) для всех дочерних узлов формы и вызовов[`VisitShapeEnd`](../../../aspose.words/documentvisitor/visitshapeend) в конце.
 
 ### Примеры
 

@@ -3,7 +3,7 @@ title: ICssSavingCallback
 second_title: Справочник по API Aspose.Words для .NET
 description: Реализуйте этот интерфейс если вы хотите управлять тем как Aspose.Words сохраняет CSS каскадную таблицу стилей при сохранении документа в HTML.
 type: docs
-weight: 4820
+weight: 4870
 url: /ru/net/aspose.words.saving/icsssavingcallback/
 ---
 ## ICssSavingCallback interface
@@ -22,26 +22,26 @@ public interface ICssSavingCallback
 
 ### Примеры
 
-Показывает, как работать с таблицами стилей CSS, создаваемыми преобразованием HTML.
+Показывает, как работать с таблицами стилей CSS, которые создаются при преобразовании HTML.
 
 ```csharp
 public void ExternalCssFilenames()
 {
     Document doc = new Document(MyDir + "Rendering.docx");
 
-     // Создаем объект «HtmlFixedSaveOptions», который мы можем передать в метод «Сохранить» документа method
-     // чтобы изменить способ преобразования документа в HTML.
+    // Создаем объект "HtmlFixedSaveOptions", который мы можем передать в метод документа "Сохранить"
+    // чтобы изменить способ преобразования документа в HTML.
     HtmlSaveOptions options = new HtmlSaveOptions();
 
-     // Установите для свойства "CssStylesheetType" значение "CssStyleSheetType.External" to
-     // сопровождать сохраненный HTML-документ внешним файлом таблицы стилей CSS.
+    // Установите для свойства "CssStylesheetType" значение "CssStyleSheetType.External", чтобы
+    // сопровождать сохраненный HTML-документ внешним файлом таблицы стилей CSS.
     options.CssStyleSheetType = CssStyleSheetType.External;
 
-     // Ниже приведены два способа указания каталогов и имен файлов для выходных таблиц стилей CSS.
-    // 1 - Используйте свойство "CssStyleSheetFileName", чтобы присвоить имя файла нашей таблице стилей: 
+    // Ниже приведены два способа указания каталогов и имен файлов для выходных таблиц стилей CSS.
+    // 1 — Используйте свойство «CssStyleSheetFileName», чтобы присвоить имя файла нашей таблице стилей:
     options.CssStyleSheetFileName = ArtifactsDir + "SavingCallback.ExternalCssFilenames.css";
 
-     // 2 - Используйте пользовательский обратный вызов, чтобы назвать нашу таблицу стилей: 
+    // 2 - Используйте пользовательский обратный вызов, чтобы назвать нашу таблицу стилей:
     options.CssSavingCallback =
         new CustomCssSavingCallback(ArtifactsDir + "SavingCallback.ExternalCssFilenames.css", true, false);
 
@@ -49,7 +49,7 @@ public void ExternalCssFilenames()
 }
 
 /// <summary>
- /// Устанавливает пользовательское имя файла вместе с другими параметрами для внешней таблицы стилей CSS.
+/// Устанавливает пользовательское имя файла вместе с другими параметрами для внешней таблицы стилей CSS.
 /// </summary>
 private class CustomCssSavingCallback : ICssSavingCallback
 {
@@ -62,7 +62,7 @@ private class CustomCssSavingCallback : ICssSavingCallback
 
     public void CssSaving(CssSavingArgs args)
     {
-         // Мы можем получить доступ ко всему исходному документу через свойство "Документ".
+        // Мы можем получить доступ ко всему исходному документу через свойство «Документ».
         Assert.True(args.Document.OriginalFileName.EndsWith("Rendering.docx"));
 
         args.CssStream = new FileStream(mCssTextFileName, FileMode.Create);

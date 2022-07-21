@@ -1,14 +1,14 @@
 ---
 title: TruncateFontHeightsLikeWP6
 second_title: Справочник по API Aspose.Words для .NET
-description: Эмулировать вычисление высоты шрифта WordPerfect 6.x.
+description: Эмуляция вычисления высоты шрифта WordPerfect 6.x.
 type: docs
 weight: 560
 url: /ru/net/aspose.words.settings/compatibilityoptions/truncatefontheightslikewp6/
 ---
 ## CompatibilityOptions.TruncateFontHeightsLikeWP6 property
 
-Эмулировать вычисление высоты шрифта WordPerfect 6.x.
+Эмуляция вычисления высоты шрифта WordPerfect 6.x.
 
 ```csharp
 public bool TruncateFontHeightsLikeWP6 { get; set; }

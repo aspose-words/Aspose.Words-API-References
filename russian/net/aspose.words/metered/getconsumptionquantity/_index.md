@@ -16,26 +16,26 @@ public static decimal GetConsumptionQuantity()
 
 ### Возвращаемое значение
 
-количество потребления
+объем потребления
 
 ### Примеры
 
 Показывает, как активировать лицензию Metered и отслеживать кредит/потребление.
 
 ```csharp
- // Создать новую лицензию Metered, а затем распечатать статистику ее использования.
+// Создайте новую лицензию Metered, а затем распечатайте статистику ее использования.
 Metered metered = new Metered();
 metered.SetMeteredKey("MyPublicKey", "MyPrivateKey");
 
 Console.WriteLine($"Credit before operation: {Metered.GetConsumptionCredit()}");
 Console.WriteLine($"Consumption quantity before operation: {Metered.GetConsumptionQuantity()}");
 
- // Работаем с Aspose.Words, а затем снова распечатываем нашу измеренную статистику, чтобы увидеть, сколько мы потратили.
+// Работайте с Aspose.Words, а затем снова распечатайте нашу измеренную статистику, чтобы увидеть, сколько мы потратили.
 Document doc = new Document(MyDir + "Document.docx");
 doc.Save(ArtifactsDir + "Metered.Usage.pdf");
 
- // Механизм Aspose Metered Licensing не отправляет данные об использовании на сервер покупки каждый раз, 
- // вам нужно использовать ожидание.
+// Механизм Aspose Metered Licensing не отправляет данные об использовании на сервер покупки каждый раз,
+// вам нужно использовать ожидание.
 System.Threading.Thread.Sleep(10000);
 
 Console.WriteLine($"Credit after operation: {Metered.GetConsumptionCredit()}");

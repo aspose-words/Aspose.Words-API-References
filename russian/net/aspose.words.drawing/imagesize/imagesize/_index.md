@@ -41,7 +41,7 @@ public ImageSize(int widthPixels, int heightPixels, double horizontalResolution,
 | widthPixels | Int32 | Ширина в пикселях. |
 | heightPixels | Int32 | Высота в пикселях. |
 | horizontalResolution | Double | Горизонтальное разрешение в DPI. |
-| verticalResolution | Double | Разрешение по вертикали в DPI. |
+| verticalResolution | Double | Вертикальное разрешение в DPI. |
 
 ### Смотрите также
 

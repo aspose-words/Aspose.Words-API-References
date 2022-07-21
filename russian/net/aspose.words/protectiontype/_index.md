@@ -3,7 +3,7 @@ title: ProtectionType
 second_title: Справочник по API Aspose.Words для .NET
 description: Тип защиты документа.
 type: docs
-weight: 4210
+weight: 4260
 url: /ru/net/aspose.words/protectiontype/
 ---
 ## ProtectionType enumeration
@@ -26,7 +26,7 @@ public enum ProtectionType
 
 ### Примеры
 
-Показывает, как отключить защиту раздела.
+Показывает, как отключить защиту для раздела.
 
 ```csharp
 Document doc = new Document();
@@ -39,14 +39,14 @@ builder.Writeln("Section 2. Hello again!");
 builder.Write("Please enter text here: ");
 builder.InsertTextInput("TextInput1", TextFormFieldType.Regular, "", "Placeholder text", 0);
 
- // Применяем защиту от записи к каждому разделу в документе.
+// Применить защиту от записи к каждому разделу в документе.
 doc.Protect(ProtectionType.AllowOnlyFormFields);
 
 // Отключаем защиту от записи для первой секции.
 doc.Sections[0].ProtectedForForms = false;
 
- // В этом выходном документе мы сможем свободно редактировать первый раздел, 
- // и мы сможем редактировать содержимое поля формы только во втором разделе.
+// В этом выходном документе мы сможем свободно редактировать первый раздел,
+// и мы сможем редактировать содержимое поля формы только во втором разделе.
 doc.Save(ArtifactsDir + "Section.Protect.docx");
 ```
 

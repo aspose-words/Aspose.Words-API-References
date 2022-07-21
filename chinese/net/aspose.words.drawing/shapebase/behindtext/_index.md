@@ -18,11 +18,11 @@ public bool BehindText { get; set; }
 
 仅对顶级形状有效。
 
-默认值为 **false** 。
+默认值为 **错误的**.
 
 ### 例子
 
-显示如何插入浮动图像到页面的中心。
+演示如何将浮动图像插入页面中心。
 
 ```csharp
 Document doc = new Document();

@@ -1,14 +1,14 @@
 ---
 title: StyleName
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置应用于此表格的表格样式的名称
+description: 获取或设置应用于此表格的表格样式名称
 type: docs
 weight: 290
 url: /zh/net/aspose.words.tables/table/stylename/
 ---
 ## Table.StyleName property
 
-获取或设置应用于此表格的表格样式的名称。
+获取或设置应用于此表格的表格样式名称。
 
 ```csharp
 public string StyleName { get; set; }
@@ -47,7 +47,7 @@ tableStyle.VerticalAlignment = CellVerticalAlignment.Center;
 
 table.Style = tableStyle;
 
- // 设置表格的样式属性可能会影响表格本身的属性
+// 设置表格的样式属性可能会影响表格本身的属性。
 Assert.True(table.Bidi);
 Assert.AreEqual(5.0d, table.CellSpacing);
 Assert.AreEqual("MyTableStyle1", table.StyleName);

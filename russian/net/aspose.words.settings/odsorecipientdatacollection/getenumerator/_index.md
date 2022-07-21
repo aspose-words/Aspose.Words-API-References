@@ -1,14 +1,14 @@
 ---
 title: GetEnumerator
 second_title: Справочник по API Aspose.Words для .NET
-description: Возвращает объект перечислителя который можно использовать для перебора всех элементов коллекции.
+description: Возвращает объект перечислителя который можно использовать для перебора всех элементов в коллекции.
 type: docs
 weight: 60
 url: /ru/net/aspose.words.settings/odsorecipientdatacollection/getenumerator/
 ---
 ## OdsoRecipientDataCollection.GetEnumerator method
 
-Возвращает объект перечислителя, который можно использовать для перебора всех элементов коллекции.
+Возвращает объект перечислителя, который можно использовать для перебора всех элементов в коллекции.
 
 ```csharp
 public IEnumerator<OdsoRecipientData> GetEnumerator()
@@ -38,10 +38,10 @@ using (IEnumerator<OdsoRecipientData> enumerator = dataCollection.GetEnumerator(
     }
 }
 
- // Мы можем клонировать элементы этой коллекции.
+// Мы можем клонировать элементы этой коллекции.
 Assert.AreNotEqual(dataCollection[0], dataCollection[0].Clone());
 
- // Мы также можем удалить элементы по отдельности или очистить всю коллекцию сразу.
+// Мы также можем удалить элементы по отдельности или очистить всю коллекцию сразу.
 dataCollection.RemoveAt(0);
 
 Assert.AreEqual(69, dataCollection.Count);

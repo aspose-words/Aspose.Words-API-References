@@ -3,7 +3,7 @@ title: WebExtensionBinding
 second_title: Справочник по API Aspose.Words для .NET
 description: Указывает отношение привязки между веб-расширением и данными в документе.
 type: docs
-weight: 6390
+weight: 6440
 url: /ru/net/aspose.words.webextensions/webextensionbinding/
 ---
 ## WebExtensionBinding class

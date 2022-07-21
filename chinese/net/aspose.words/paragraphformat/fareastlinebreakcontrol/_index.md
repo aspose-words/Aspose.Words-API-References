@@ -1,14 +1,14 @@
 ---
 title: FarEastLineBreakControl
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置一个标志指示东亚换行规则是否应用于当前段落
+description: 获取或设置一个标志指示是否将东亚换行规则应用于当前段落
 type: docs
 weight: 100
 url: /zh/net/aspose.words/paragraphformat/fareastlinebreakcontrol/
 ---
 ## ParagraphFormat.FarEastLineBreakControl property
 
-获取或设置一个标志，指示东亚换行规则是否应用于当前段落。
+获取或设置一个标志，指示是否将东亚换行规则应用于当前段落。
 
 ```csharp
 public bool FarEastLineBreakControl { get; set; }

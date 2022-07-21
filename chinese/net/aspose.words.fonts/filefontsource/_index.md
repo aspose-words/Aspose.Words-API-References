@@ -1,14 +1,14 @@
 ---
 title: FileFontSource
 second_title: Aspose.Words for .NET API 参考
-description: 表示存储在文件系统中的单个 TrueType 字体文件
+description: 表示文件系统中存储的单个 TrueType 字体文件
 type: docs
-weight: 2640
+weight: 2690
 url: /zh/net/aspose.words.fonts/filefontsource/
 ---
 ## FileFontSource class
 
-表示存储在文件系统中的单个 TrueType 字体文件。
+表示文件系统中存储的单个 TrueType 字体文件。
 
 ```csharp
 public class FileFontSource : FontSourceBase
@@ -18,15 +18,15 @@ public class FileFontSource : FontSourceBase
 
 | 姓名 | 描述 |
 | --- | --- |
-| [FileFontSource](filefontsource#constructor)(string) | 克托尔。 |
-| [FileFontSource](filefontsource#constructor_1)(string, int) | 克托尔。 |
-| [FileFontSource](filefontsource#constructor_2)(string, int, string) | 克托尔。 |
+| [FileFontSource](filefontsource#constructor)(string) | 克托尔. |
+| [FileFontSource](filefontsource#constructor_1)(string, int) | 克托尔. |
+| [FileFontSource](filefontsource#constructor_2)(string, int, string) | 克托尔. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [CacheKey](../../aspose.words.fonts/filefontsource/cachekey) { get; } | 这个源在缓存中的键。 |
+| [CacheKey](../../aspose.words.fonts/filefontsource/cachekey) { get; } | 这个源在缓存中的key。 |
 | [FilePath](../../aspose.words.fonts/filefontsource/filepath) { get; } | 字体文件的路径。 |
 | [Priority](../../aspose.words.fonts/fontsourcebase/priority) { get; } | 返回字体源优先级。 |
 | override [Type](../../aspose.words.fonts/filefontsource/type) { get; } | 返回字体源的类型。 |

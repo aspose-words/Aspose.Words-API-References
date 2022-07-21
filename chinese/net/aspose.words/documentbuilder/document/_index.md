@@ -1,14 +1,14 @@
 ---
 title: Document
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置此对象附加到的Documentaspose.words/documentbuilder/document对象
+description: 获取或设置Documentaspose.words/documentbuilder/document此对象附加到的对象
 type: docs
 weight: 80
 url: /zh/net/aspose.words/documentbuilder/document/
 ---
 ## DocumentBuilder.Document property
 
-获取或设置此对象附加到的`Document`对象。
+获取或设置`Document`此对象附加到的对象。
 
 ```csharp
 public Document Document { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Справочник по API Aspose.Words для .NET
-description: Извлекает объектVbaModuleaspose.words.vba/vbamoduleпо индексу.
+description: ПолучаетVbaModuleaspose.words.vba/vbamodule объект по индексу.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.vba/vbamodulecollection/item/
 ---
 ## VbaModuleCollection indexer (1 of 2)
 
-Извлекает объект[`VbaModule`](../../vbamodule)по индексу.
+Получает[`VbaModule`](../../vbamodule) объект по индексу.
 
 ```csharp
 public VbaModule this[int index] { get; }
@@ -56,7 +56,7 @@ vbaModules.Remove(vbaModules[2]);
 
 ## VbaModuleCollection indexer (2 of 2)
 
-Извлекает объект[`VbaModule`](../../vbamodule)по имени или Null, если он не найден.
+Получает[`VbaModule`](../../vbamodule)объект по имени или Null, если он не найден.
 
 ```csharp
 public VbaModule this[string name] { get; }

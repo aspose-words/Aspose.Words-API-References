@@ -20,7 +20,7 @@ public bool AllowOverlap { get; set; }
 
 Это свойство применимо только к фигурам верхнего уровня.
 
-Значение по умолчанию: **true** .
+Значение по умолчанию **истинный**.
 
 ### Примеры
 
@@ -37,12 +37,12 @@ if (table.TextWrapping == TextWrapping.Around)
     Assert.AreEqual(RelativeVerticalPosition.Paragraph, table.VerticalAnchor);
     Assert.AreEqual(false, table.AllowOverlap);
 
-     // Только Margin, Page, Column доступны в RelativeHorizontalPosition для установки HorizontalAnchor.
-     // ArgumentException будет сгенерировано для любых других значений.
+    // Только Margin, Page, Column доступны в RelativeHorizontalPosition для установщика HorizontalAnchor.
+    // ArgumentException будет сгенерировано для любых других значений.
     table.HorizontalAnchor = RelativeHorizontalPosition.Column;
 
-     // Только Margin, Page, Paragraph доступны в RelativeVerticalPosition для установки VerticalAnchor.
-     // ArgumentException будет сгенерировано для любых других значений.
+    // Только Margin, Page, Paragraph доступны в RelativeVerticalPosition для установщика VerticalAnchor.
+    // ArgumentException будет сгенерировано для любых других значений.
     table.VerticalAnchor = RelativeVerticalPosition.Page;
 }
 ```

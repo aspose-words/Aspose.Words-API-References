@@ -22,33 +22,33 @@ public string this[int number] { get; set; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
- // TOA 字段可以按此集合中定义的类别过滤其条目。
+// TOA 字段可以按此集合中定义的类别过滤其条目。
 ToaCategories toaCategories = new ToaCategories();
 doc.FieldOptions.ToaCategories = toaCategories;
 
-// 这个类别集合带有默认值，我们可以用自定义值覆盖它。
+// 这个类别集合带有默认值，我们可以用自定义值覆盖。
 Assert.AreEqual("Cases", toaCategories[1]);
 Assert.AreEqual("Statutes", toaCategories[2]);
 
 toaCategories[1] = "My Category 1";
 toaCategories[2] = "My Category 2";
 
- // 我们总是可以通过这个集合访问默认值。
+// 我们总是可以通过这个集合访问默认值。
 Assert.AreEqual("Cases", ToaCategories.DefaultCategories[1]);
 Assert.AreEqual("Statutes", ToaCategories.DefaultCategories[2]);
 
- // 插入 2 个 TOA 字段。 TOA 字段为文档中的每个 TA 字段创建一个条目。
- // 使用“\c”开关从我们的集合中选择一个类别的索引。
- // 使用此开关，TOA 字段将仅从 TA 字段中获取条目 that
- // 还有一个带有匹配类别索引的“\c”开关。每个 TOA 字段也会显示
- // 其 "\c" 开关指向的类别的名称。
+// 插入 2 个 TOA 字段。 TOA 字段为文档中的每个 TA 字段创建一个条目。
+// 使用“\c”开关从我们的集合中选择一个类别的索引。
+// 使用此开关，TOA 字段将仅从 TA 字段中提取条目
+// 还有一个带有匹配类别索引的“\c”开关。每个 TOA 字段也将显示
+// 其 "\c" 开关指向的类别的名称。
 builder.InsertField("TOA \\c 1 \\h", null);
 builder.InsertField("TOA \\c 2 \\h", null);
 builder.InsertBreak(BreakType.PageBreak);
 
- // 跨 2 个类别插入 TOA 条目。我们的第一个 TOA 字段将收到一个条目，
- // 从第二个 TA 字段，其 "\c" 开关也指向第一个类别。
- // 第二个 TOA 字段将有来自其他两个 TA 字段的两个条目。
+// 跨 2 个类别插入 TOA 条目。我们的第一个 TOA 字段将收到一个条目，
+// 从第二个 TA 字段，其 "\c" 开关也指向第一个类别。
+// 第二个 TOA 字段将有来自其他两个 TA 字段的两个条目。
 builder.InsertField("TA \\c 2 \\l \"entry 1\"");
 builder.InsertBreak(BreakType.PageBreak);
 builder.InsertField("TA \\c 1 \\l \"entry 2\"");

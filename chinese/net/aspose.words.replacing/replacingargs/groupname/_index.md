@@ -1,14 +1,14 @@
 ---
 title: GroupName
 second_title: Aspose.Words for .NET API 参考
-description: 按名称标识Matchaspose.words.replacing/replacingargs/match中的捕获组将被替换为PAspose.Words.Replacing.ReplacingArgs.Replacement字符串
+description: 按名称标识在Matchaspose.words.replacing/replacingargs/match 被替换为Replacementaspose.words.replacing/replacingargs/replacement字符串.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.replacing/replacingargs/groupname/
 ---
 ## ReplacingArgs.GroupName property
 
-按名称标识[`Match`](../match)中的捕获组:将被替换为PAspose.Words.Replacing.ReplacingArgs.Replacement字符串。
+按名称标识在[`Match`](../match) 被替换为[`Replacement`](../replacement)字符串.
 
 ```csharp
 public string GroupName { get; set; }
@@ -16,13 +16,13 @@ public string GroupName { get; set; }
 
 ### 评论
 
-当组名为空时，GroupIndex用于标识组。
+当组名为空时，[`GroupIndex`](../groupindex)用于标识组。
 
 默认为空。
 
 ### 例子
 
-显示如何通过 FindReplaceOptions 将不同的字体应用于新内容。
+展示如何通过 FindReplaceOptions 将不同的字体应用于新内容。
 
 ```csharp
 {

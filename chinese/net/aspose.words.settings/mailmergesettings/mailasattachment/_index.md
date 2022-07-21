@@ -1,14 +1,14 @@
 ---
 title: MailAsAttachment
 second_title: Aspose.Words for .NET API 参考
-description: 指定邮件合并操作期间生成的文档应作为附件发送而不是 而不是实际电子邮件的正文默认值为 false 
+description: 指定在邮件合并操作期间生成的文档应作为附件发送而不是 而不是实际电子邮件的正文默认值为错误的.
 type: docs
 weight: 120
 url: /zh/net/aspose.words.settings/mailmergesettings/mailasattachment/
 ---
 ## MailMergeSettings.MailAsAttachment property
 
-指定邮件合并操作期间生成的文档应作为附件发送，而不是 ，而不是实际电子邮件的正文。默认值为` false` 。
+指定在邮件合并操作期间生成的文档应作为附件发送，而不是 ，而不是实际电子邮件的正文。默认值为`错误的`.
 
 ```csharp
 public bool MailAsAttachment { get; set; }
@@ -36,8 +36,8 @@ Console.WriteLine($"UDL connection string:\n\t{odso.UdlConnectString}");
 Console.WriteLine($"Table:\n\t{odso.TableName}");
 Console.WriteLine($"Query:\n\t{doc.MailMergeSettings.Query}");
 
- // 我们可以通过清除它们来重置这些设置。一旦我们这样做并保存文档，
- // Microsoft Word 在我们使用它加载文档时将不再执行邮件合并。
+// 我们可以通过清除它们来重置这些设置。一旦我们这样做并保存文档，
+// 当我们使用它加载文档时，Microsoft Word 将不再执行邮件合并。
 settings.Clear();
 
 doc.Save(ArtifactsDir + "MailMerge.OdsoEmail.docx");

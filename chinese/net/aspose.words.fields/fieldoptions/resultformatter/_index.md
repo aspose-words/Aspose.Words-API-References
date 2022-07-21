@@ -3,7 +3,7 @@ title: ResultFormatter
 second_title: Aspose.Words for .NET API 参考
 description: 允许控制字段结果的格式
 type: docs
-weight: 150
+weight: 160
 url: /zh/net/aspose.words.fields/fieldoptions/resultformatter/
 ---
 ## FieldOptions.ResultFormatter property

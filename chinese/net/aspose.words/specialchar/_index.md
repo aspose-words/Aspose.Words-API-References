@@ -3,7 +3,7 @@ title: SpecialChar
 second_title: Aspose.Words for .NET API 参考
 description: 文档中特殊字符的基类
 type: docs
-weight: 5750
+weight: 5800
 url: /zh/net/aspose.words/specialchar/
 ---
 ## SpecialChar class
@@ -20,29 +20,29 @@ public class SpecialChar : Inline
 | --- | --- |
 | [CustomNodeId](../../aspose.words/node/customnodeid) { get; set; } | 指定自定义节点标识符。 |
 | virtual [Document](../../aspose.words/node/document) { get; } | 获取该节点所属的文档。 |
-| [Font](../../aspose.words/inline/font) { get; } | 提供对该对象的字体格式的访问。 |
+| [Font](../../aspose.words/inline/font) { get; } | 提供对此对象的字体格式的访问。 |
 | virtual [IsComposite](../../aspose.words/node/iscomposite) { get; } | 如果此节点可以包含其他节点，则返回 true。 |
 | [IsDeleteRevision](../../aspose.words/inline/isdeleterevision) { get; } | 如果在启用更改跟踪时在 Microsoft Word 中删除了此对象，则返回 true。 |
 | [IsFormatRevision](../../aspose.words/inline/isformatrevision) { get; } | 如果启用更改跟踪时在 Microsoft Word 中更改了对象的格式，则返回 true。 |
 | [IsInsertRevision](../../aspose.words/inline/isinsertrevision) { get; } | 如果在启用更改跟踪时将此对象插入 Microsoft Word，则返回 true。 |
-| [IsMoveFromRevision](../../aspose.words/inline/ismovefromrevision) { get; } | 返回 **true** 如果在启用更改跟踪时在 Microsoft Word 中移动（删除）此对象。 |
-| [IsMoveToRevision](../../aspose.words/inline/ismovetorevision) { get; } | 返回 **true** 如果此对象在 Microsoft Word 中被移动（插入）而启用更改跟踪。 |
-| [NextSibling](../../aspose.words/node/nextsibling) { get; } | 获取紧跟该节点的节点。 |
-| override [NodeType](../../aspose.words/specialchar/nodetype) { get; } | 返回 **NodeType.SpecialChar** 。 |
+| [IsMoveFromRevision](../../aspose.words/inline/ismovefromrevision) { get; } | 返回 **真的**如果启用更改跟踪时此对象在 Microsoft Word 中被移动（删除）。 |
+| [IsMoveToRevision](../../aspose.words/inline/ismovetorevision) { get; } | 返回 **真的**如果启用更改跟踪时在 Microsoft Word 中移动（插入）此对象。 |
+| [NextSibling](../../aspose.words/node/nextsibling) { get; } | 获取紧跟此节点的节点。 |
+| override [NodeType](../../aspose.words/specialchar/nodetype) { get; } | 返回 **NodeType.SpecialChar**. |
 | [ParentNode](../../aspose.words/node/parentnode) { get; } | 获取此节点的直接父节点。 |
-| [ParentParagraph](../../aspose.words/inline/parentparagraph) { get; } | 检索此节点的父[`Paragraph`](../paragraph)。 |
+| [ParentParagraph](../../aspose.words/inline/parentparagraph) { get; } | 检索父级[`Paragraph`](../paragraph)这个节点的. |
 | [PreviousSibling](../../aspose.words/node/previoussibling) { get; } | 获取紧接在此节点之前的节点。 |
-| [Range](../../aspose.words/node/range) { get; } | 返回 **Range** 对象，该对象表示包含在此节点中的文档部分。 |
+| [Range](../../aspose.words/node/range) { get; } | 返回一个 **范围**表示此节点中包含的文档部分的对象。 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [Accept](../../aspose.words/specialchar/accept)(DocumentVisitor) | 接受访问者。 |
+| override [Accept](../../aspose.words/specialchar/accept)(DocumentVisitor) | 接受访客。 |
 | [Clone](../../aspose.words/node/clone)(bool) | 创建节点的副本。 |
-| [GetAncestor](../../aspose.words/node/getancestor)(NodeType) | 获取指定[`NodeType`](../nodetype)的第一个祖先。 |
+| [GetAncestor](../../aspose.words/node/getancestor)(NodeType) | 获取指定的第一个祖先[`NodeType`](../nodetype). |
 | [GetAncestor](../../aspose.words/node/getancestor)(Type) | 获取指定对象类型的第一个祖先。 |
-| override [GetText](../../aspose.words/specialchar/gettext)() | 获取此节点表示的特殊字符。 |
+| override [GetText](../../aspose.words/specialchar/gettext)() | 获取此节点代表的特殊字符。 |
 | [NextPreOrder](../../aspose.words/node/nextpreorder)(Node) | 根据前序树遍历算法获取下一个节点。 |
 | [PreviousPreOrder](../../aspose.words/node/previouspreorder)(Node) | 根据前序树遍历算法获取上一个节点。 |
 | [Remove](../../aspose.words/node/remove)() | 从父级中移除自身。 |
@@ -51,15 +51,15 @@ public class SpecialChar : Inline
 
 ### 评论
 
-Microsoft Word 文档可以包含许多特殊字符 表示字段、表单字段、形状、OLE 对象、脚注等。有关特殊字符的列表 参见[`ControlChar`](../controlchar)。
+Microsoft Word 文档可以包含许多特殊字符 ，它们表示字段、表单字段、形状、OLE 对象、脚注等。有关特殊字符的列表 ，请参见[`ControlChar`](../controlchar).
 
-**SpecialChar** 是内联节点，只能是 **的子节点 段落** 。
+**特殊字符**是一个内联节点，只能是 **段落**.
 
-**SpecialChar** char 用作更具体类的基类 表示 Aspose.Words 为其提供编程访问的特殊字符。  **SpecialChar** 类本身也用于表示 Aspose.Words 未提供详细信息的特殊字符程序化访问。
+**特殊字符**char 用作更具体的 classes 的基类，这些 classes 表示 Aspose.Words 为其提供编程访问的特殊字符。  **特殊字符**类本身也用于表示特殊字符 which Aspose.Words 不提供详细的编程访问。
 
 ### 例子
 
-展示如何使用 DocumentVisitor 实现从文档中删除所有隐藏内容。
+演示如何使用 DocumentVisitor 实现从文档中删除所有隐藏内容。
 
 ```csharp
 {

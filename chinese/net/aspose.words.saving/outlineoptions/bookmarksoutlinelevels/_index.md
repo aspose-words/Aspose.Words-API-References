@@ -16,7 +16,7 @@ public BookmarksOutlineLevelCollection BookmarksOutlineLevels { get; }
 
 ### 评论
 
-如果此集合中未指定书签级别，则DefaultBookmarksOutlineLevel值。
+如果此集合中未指定书签级别，则[`DefaultBookmarksOutlineLevel`](../defaultbookmarksoutlinelevel)值被使用。
 
 ### 例子
 

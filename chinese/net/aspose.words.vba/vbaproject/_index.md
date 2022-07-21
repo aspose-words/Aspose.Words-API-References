@@ -3,7 +3,7 @@ title: VbaProject
 second_title: Aspose.Words for .NET API 参考
 description: 提供对 VBA 项目信息的访问 文档中的 VBA 项目被定义为 VBA 模块的集合
 type: docs
-weight: 6220
+weight: 6270
 url: /zh/net/aspose.words.vba/vbaproject/
 ---
 ## VbaProject class
@@ -18,7 +18,7 @@ public class VbaProject
 
 | 姓名 | 描述 |
 | --- | --- |
-| [VbaProject](vbaproject)() | 创建一个空白 VbaProject。 |
+| [VbaProject](vbaproject)() | 创建一个空白 VbaProject. |
 
 ## 特性
 
@@ -34,7 +34,7 @@ public class VbaProject
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Clone](../../aspose.words.vba/vbaproject/clone)() | 执行[`VbaProject`](../vbaproject)的副本。 |
+| [Clone](../../aspose.words.vba/vbaproject/clone)() | 执行[`VbaProject`](../vbaproject). |
 
 ### 例子
 

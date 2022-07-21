@@ -1,14 +1,14 @@
 ---
 title: HasChart
 second_title: Справочник по API Aspose.Words для .NET
-description: Возвращает true если эта фигура имеетChartaspose.words.drawing/shape/chart.
+description: Возвращает true если эта фигура имеетChartaspose.words.drawing/shape/chart .
 type: docs
 weight: 70
 url: /ru/net/aspose.words.drawing/shape/haschart/
 ---
 ## Shape.HasChart property
 
-Возвращает true, если эта фигура имеет[`Chart`](../chart).
+Возвращает true, если эта фигура имеет[`Chart`](../chart) .
 
 ```csharp
 public bool HasChart { get; }

@@ -3,7 +3,7 @@ title: ITextShaperFactory
 second_title: Aspose.Words for .NET API 参考
 description: 
 type: docs
-weight: 5710
+weight: 5760
 url: /zh/net/aspose.words.shaping/itextshaperfactory/
 ---
 ## ITextShaperFactory interface

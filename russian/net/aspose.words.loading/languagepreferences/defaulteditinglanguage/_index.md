@@ -1,16 +1,16 @@
 ---
 title: DefaultEditingLanguage
 second_title: Справочник по API Aspose.Words для .NET
-description: Получает или устанавливает язык редактирования по умолчанию.
+description: Получает или задает язык редактирования по умолчанию.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.loading/languagepreferences/defaulteditinglanguage/
 ---
 ## LanguagePreferences.DefaultEditingLanguage property
 
-Получает или устанавливает язык редактирования по умолчанию.
+Получает или задает язык редактирования по умолчанию.
 
-Значение по умолчанию:EnglishUS.
+Значение по умолчаниюEnglishUS.
 
 ```csharp
 public EditingLanguage DefaultEditingLanguage { get; set; }

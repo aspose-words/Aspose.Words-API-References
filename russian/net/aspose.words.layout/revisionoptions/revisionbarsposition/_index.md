@@ -1,14 +1,14 @@
 ---
 title: RevisionBarsPosition
 second_title: Справочник по API Aspose.Words для .NET
-description: Возвращает или задает позицию отображения исправлений. Значение по умолчаниюOutside.
+description: Получает или задает позицию визуализации штрихов изменений. Значение по умолчаниюOutside .
 type: docs
 weight: 140
 url: /ru/net/aspose.words.layout/revisionoptions/revisionbarsposition/
 ---
 ## RevisionOptions.RevisionBarsPosition property
 
-Возвращает или задает позицию отображения исправлений. Значение по умолчанию:Outside.
+Получает или задает позицию визуализации штрихов изменений. Значение по умолчанию:Outside .
 
 ```csharp
 public HorizontalAlignment RevisionBarsPosition { get; set; }
@@ -16,7 +16,7 @@ public HorizontalAlignment RevisionBarsPosition { get; set; }
 
 ### Примечания
 
-ЗначенияCenterиInside не разрешены и вызовутArgumentOutOfRangeException.
+значенияCenter а такжеInside не разрешены и вызовутArgumentOutOfRangeException.
 
 ### Смотрите также
 

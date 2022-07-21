@@ -1,14 +1,14 @@
 ---
 title: IgnoreFields
 second_title: Справочник по API Aspose.Words для .NET
-description: Получает или задает логическое значение указывающее следует ли игнорировать текст внутри полей. Значение по умолчанию false .
+description: Получает или задает логическое значение указывающее следует ли игнорировать текст внутри полей. Значение по умолчаниюЛОЖЬ .
 type: docs
 weight: 80
 url: /ru/net/aspose.words.replacing/findreplaceoptions/ignorefields/
 ---
 ## FindReplaceOptions.IgnoreFields property
 
-Получает или задает логическое значение, указывающее, следует ли игнорировать текст внутри полей. Значение по умолчанию:` false` .
+Получает или задает логическое значение, указывающее, следует ли игнорировать текст внутри полей. Значение по умолчанию:`ЛОЖЬ` .
 
 ```csharp
 public bool IgnoreFields { get; set; }
@@ -16,7 +16,7 @@ public bool IgnoreFields { get; set; }
 
 ### Примечания
 
-Эта опция влияет на все поле (все узлы между FieldStartиFieldEnd).
+Эта опция влияет на все поле (все узлы между FieldStart а такжеFieldEnd).
 
 Чтобы игнорировать только коды полей, используйте соответствующую опцию[`IgnoreFieldCodes`](../ignorefieldcodes).
 

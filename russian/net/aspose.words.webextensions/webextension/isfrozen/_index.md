@@ -1,14 +1,14 @@
 ---
 title: IsFrozen
 second_title: Справочник по API Aspose.Words для .NET
-description: Указывает может ли пользователь взаимодействовать с веб-расширением или нет.
+description: Указывает может ли пользователь взаимодействовать с веб-расширением.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.webextensions/webextension/isfrozen/
 ---
 ## WebExtension.IsFrozen property
 
-Указывает, может ли пользователь взаимодействовать с веб-расширением или нет.
+Указывает, может ли пользователь взаимодействовать с веб-расширением.
 
 ```csharp
 public bool IsFrozen { get; set; }

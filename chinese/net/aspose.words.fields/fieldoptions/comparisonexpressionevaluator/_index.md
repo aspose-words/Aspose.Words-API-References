@@ -16,7 +16,7 @@ public IComparisonExpressionEvaluator ComparisonExpressionEvaluator { get; set; 
 
 ### 例子
 
-展示如何为 IF 和比较字段。
+显示如何为 IF 和 COMPARE 字段实施自定义评估。
 
 ```csharp
 public void ConditionEvaluationExtensionPoint(string fieldCode, sbyte comparisonResult, string comparisonError,

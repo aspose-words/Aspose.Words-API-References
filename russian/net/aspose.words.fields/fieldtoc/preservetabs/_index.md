@@ -1,14 +1,14 @@
 ---
 title: PreserveTabs
 second_title: Справочник по API Aspose.Words для .NET
-description: Получает или задает следует ли сохранять записи вкладок в записях таблицы.
+description: Получает или задает необходимость сохранения записей вкладок в записях таблицы.
 type: docs
 weight: 140
 url: /ru/net/aspose.words.fields/fieldtoc/preservetabs/
 ---
 ## FieldToc.PreserveTabs property
 
-Получает или задает, следует ли сохранять записи вкладок в записях таблицы.
+Получает или задает необходимость сохранения записей вкладок в записях таблицы.
 
 ```csharp
 public bool PreserveTabs { get; set; }

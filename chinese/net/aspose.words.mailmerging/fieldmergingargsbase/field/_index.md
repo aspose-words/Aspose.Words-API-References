@@ -16,10 +16,9 @@ public FieldMergeField Field { get; }
 
 ### 例子
 
-显示如何使用处理 HTML 文档形式的合并数据的自定义回调执行邮件合并。
+演示如何使用处理 HTML 文档形式的合并数据的自定义回调执行邮件合并。
 
 ```csharp
-public void MergeHtml()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -49,34 +48,32 @@ public void MergeHtml()
 }
 
 /// <summary>
- /// 如果邮件合并遇到名称以“html_”前缀开头的MERGEFIELD,
- /// 此回调将其合并数据解析为 HTML 内容并将结果添加到 MERGEFIELD.
- 的文档位置
+/// 如果邮件合并遇到名称以“html_”前缀开头的MERGEFIELD，
+/// 此回调将其合并数据解析为 HTML 内容，并将结果添加到 MERGEFIELD 的文档位置。
 /// </summary>
 private class HandleMergeFieldInsertHtml : IFieldMergingCallback
 {
     /// <summary>
-     /// 当邮件合并将数据合并到 MERGEFIELD.
- 时调用
+    /// 当邮件合并将数据合并到 MERGEFIELD 时调用。
     /// </summary>
     void IFieldMergingCallback.FieldMerging(FieldMergingArgs args)
     {
         if (args.DocumentFieldName.StartsWith("html_") && args.Field.GetFieldCode().Contains("\\b"))
         {
-            // 将解析后的 HTML 数据添加到文档的 body.
+            // 将解析的 HTML 数据添加到文档的正文中。
             DocumentBuilder builder = new DocumentBuilder(args.Document);
             builder.MoveToMergeField(args.DocumentFieldName);
             builder.InsertHtml((string)args.FieldValue);
 
-             // 因为我们已经手动插入了合并的内容，
-             // 我们不需要通过“Text”属性返回内容来响应这个事件。 
+            // 因为我们已经手动插入了合并的内容，
+             // 我们不需要通过“Text”属性返回内容来响应这个事件。
             args.Text = string.Empty;
         }
     }
 
     void IFieldMergingCallback.ImageFieldMerging(ImageFieldMergingArgs args)
     {
-         // 什么都不做。
+        // 没做什么。
     }
 }
 ```

@@ -1,14 +1,14 @@
 ---
 title: TextEffect
 second_title: Справочник по API Aspose.Words для .NET
-description: Анимационный эффект для текстовых прогонов.
+description: Эффект анимации для текстовых прогонов.
 type: docs
-weight: 6070
+weight: 6120
 url: /ru/net/aspose.words/texteffect/
 ---
 ## TextEffect enumeration
 
-Анимационный эффект для текстовых прогонов.
+Эффект анимации для текстовых прогонов.
 
 ```csharp
 public enum TextEffect

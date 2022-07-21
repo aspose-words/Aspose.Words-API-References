@@ -1,14 +1,14 @@
 ---
 title: IsDeleteRevision
 second_title: Справочник по API Aspose.Words для .NET
-description: Возвращает true если этот объект был удален в Microsoft Word при включенном отслеживании изменений.
+description: Возвращает значение true если этот объект был удален в Microsoft Word при включенном отслеживании изменений.
 type: docs
 weight: 240
 url: /ru/net/aspose.words.drawing/shapebase/isdeleterevision/
 ---
 ## ShapeBase.IsDeleteRevision property
 
-Возвращает true, если этот объект был удален в Microsoft Word при включенном отслеживании изменений.
+Возвращает значение true, если этот объект был удален в Microsoft Word при включенном отслеживании изменений.
 
 ```csharp
 public bool IsDeleteRevision { get; }

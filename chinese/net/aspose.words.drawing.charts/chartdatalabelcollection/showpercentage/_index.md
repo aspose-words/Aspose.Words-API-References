@@ -1,14 +1,14 @@
 ---
 title: ShowPercentage
 second_title: Aspose.Words for .NET API 参考
-description: 允许指定是否为整个系列的数据标签显示百分比值 默认值为 false 仅适用于饼图
+description: 允许指定是否为整个系列的数据标签显示百分比值 默认值为 错误的.仅适用于饼图
 type: docs
 weight: 100
 url: /zh/net/aspose.words.drawing.charts/chartdatalabelcollection/showpercentage/
 ---
 ## ChartDataLabelCollection.ShowPercentage property
 
-允许指定是否为整个系列的数据标签显示百分比值。 默认值为 **false** 。仅适用于饼图。
+允许指定是否为整个系列的数据标签显示百分比值。 默认值为 **错误的**.仅适用于饼图。
 
 ```csharp
 public bool ShowPercentage { get; set; }
@@ -16,11 +16,11 @@ public bool ShowPercentage { get; set; }
 
 ### 评论
 
-可以使用 为单个数据标签覆盖为此属性定义的值[`ShowPercentage`](../../chartdatalabel/showpercentage)属性。
+可以使用 为单个数据标签覆盖为此属性定义的值[`ShowPercentage`](../../chartdatalabel/showpercentage)属性.
 
 ### 例子
 
-显示如何使用饼图的数据标签。
+展示如何使用饼图的数据标签。
 
 ```csharp
 Document doc = new Document();

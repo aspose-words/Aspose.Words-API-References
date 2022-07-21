@@ -3,7 +3,7 @@ title: WebExtension
 second_title: Справочник по API Aspose.Words для .NET
 description: Представляет объект веб-расширения.
 type: docs
-weight: 6380
+weight: 6430
 url: /ru/net/aspose.words.webextensions/webextension/
 ---
 ## WebExtension class
@@ -21,13 +21,13 @@ public class WebExtension
 | [AlternateReferences](../../aspose.words.webextensions/webextension/alternatereferences) { get; } | Указывает альтернативные ссылки на веб-расширение. |
 | [Bindings](../../aspose.words.webextensions/webextension/bindings) { get; } | Задает список привязок веб-расширений. |
 | [Id](../../aspose.words.webextensions/webextension/id) { get; set; } | Уникально идентифицирует экземпляр веб-расширения в текущем документе. |
-| [IsFrozen](../../aspose.words.webextensions/webextension/isfrozen) { get; set; } | Указывает, может ли пользователь взаимодействовать с веб-расширением или нет. |
+| [IsFrozen](../../aspose.words.webextensions/webextension/isfrozen) { get; set; } | Указывает, может ли пользователь взаимодействовать с веб-расширением. |
 | [Properties](../../aspose.words.webextensions/webextension/properties) { get; } | Представляет набор настраиваемых свойств веб-расширения. |
 | [Reference](../../aspose.words.webextensions/webextension/reference) { get; } | Указывает основную ссылку на веб-расширение. |
 
 ### Примеры
 
-Показывает, как добавить веб-расширение к документу.
+Показывает, как добавить веб-расширение в документ.
 
 ```csharp
 Document doc = new Document();

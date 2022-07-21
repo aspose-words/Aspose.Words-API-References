@@ -1,14 +1,14 @@
 ---
 title: Chart
 second_title: Aspose.Words for .NET API 参考
-description: 如果此形状具有图表则提供对图表属性的访问
+description: 如果此形状有图表则提供对图表属性的访问
 type: docs
 weight: 20
 url: /zh/net/aspose.words.drawing/shape/chart/
 ---
 ## Shape.Chart property
 
-如果此形状具有图表，则提供对图表属性的访问。
+如果此形状有图表，则提供对图表属性的访问。
 
 ```csharp
 public Chart Chart { get; }
@@ -16,11 +16,11 @@ public Chart Chart { get; }
 
 ### 评论
 
-此属性将返回`Chart`对象，仅当[`HasChart`](../haschart) 属性对于此 Shape 为 true，否则将引发异常。
+该属性将返回`Chart`对象仅当[`HasChart`](../haschart)此 Shape 的 属性为 true，否则将引发异常。
 
 ### 例子
 
-显示如何迭代文档中的所有形状。
+演示如何遍历文档中的所有形状。
 
 ```csharp
 {

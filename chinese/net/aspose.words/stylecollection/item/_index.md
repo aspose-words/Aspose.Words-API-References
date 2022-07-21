@@ -54,7 +54,7 @@ doc.Save(ArtifactsDir + "Document.UpdatePageLayout.2.pdf");
 
 ## StyleCollection indexer (2 of 3)
 
-通过其区域设置独立标识符获取内置样式。
+通过独立于语言环境的标识符获取内置样式。
 
 ```csharp
 public Style this[StyleIdentifier sti] { get; }
@@ -62,7 +62,7 @@ public Style this[StyleIdentifier sti] { get; }
 
 | 范围 | 描述 |
 | --- | --- |
-| sti | A[`StyleIdentifier`](../../styleidentifier)指定内置样式的值取回。 |
+| sti | 一个[`StyleIdentifier`](../../styleidentifier)指定要检索的内置样式的值。 |
 
 ### 评论
 
@@ -70,7 +70,7 @@ public Style this[StyleIdentifier sti] { get; }
 
 ### 例子
 
-显示如何将样式添加到文档的样式集合中。
+演示如何将样式添加到文档的样式集合。
 
 ```csharp
 Document doc = new Document();
@@ -102,7 +102,7 @@ Assert.AreEqual(15.0, styles["MyStyle"].ParagraphFormat.FirstLineIndent);
 
 ## StyleCollection indexer (3 of 3)
 
-按索引获取样式。
+通过索引获取样式。
 
 ```csharp
 public Style this[int index] { get; }
@@ -110,7 +110,7 @@ public Style this[int index] { get; }
 
 ### 例子
 
-显示如何将样式添加到文档的样式集合中。
+演示如何将样式添加到文档的样式集合。
 
 ```csharp
 Document doc = new Document();

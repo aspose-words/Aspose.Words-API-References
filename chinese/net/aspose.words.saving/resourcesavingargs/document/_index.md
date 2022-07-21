@@ -16,7 +16,7 @@ public Document Document { get; }
 
 ### 例子
 
-展示如何使用回调来跟踪在将文档转换为 HTML 时创建的外部资源。
+演示如何使用回调来跟踪在将文档转换为 HTML 时创建的外部资源。
 
 ```csharp
 public void ResourceSavingCallback()
@@ -38,7 +38,7 @@ public void ResourceSavingCallback()
 private class FontSavingCallback : IResourceSavingCallback
 {
     /// <summary>
-     /// 当 Aspose.Words 将外部资源保存到固定页面 HTML 或 SVG 时调用。
+    /// 当 Aspose.Words 将外部资源保存到固定页面 HTML 或 SVG 时调用。
     /// </summary>
     public void ResourceSaving(ResourceSavingArgs args)
     {

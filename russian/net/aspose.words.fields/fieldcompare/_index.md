@@ -3,7 +3,7 @@ title: FieldCompare
 second_title: Справочник по API Aspose.Words для .NET
 description: Реализует поле COMPARE.
 type: docs
-weight: 1540
+weight: 1560
 url: /ru/net/aspose.words.fields/fieldcompare/
 ---
 ## FieldCompare class
@@ -27,12 +27,12 @@ public class FieldCompare : Field
 | [ComparisonOperator](../../aspose.words.fields/fieldcompare/comparisonoperator) { get; set; } | Получает или задает оператор сравнения. |
 | [DisplayResult](../../aspose.words.fields/field/displayresult) { get; } | Получает текст, представляющий результат отображаемого поля. |
 | [End](../../aspose.words.fields/field/end) { get; } | Получает узел, представляющий конец поля. |
-| [Format](../../aspose.words.fields/field/format) { get; } | Получает объект[`FieldFormat`](../fieldformat), предоставляющий типизированный доступ к форматированию поля. |
-| [IsDirty](../../aspose.words.fields/field/isdirty) { get; set; } | Получает или устанавливает, является ли текущий результат поля более неправильным (устаревшим) из-за других изменений, внесенных в документ. |
-| [IsLocked](../../aspose.words.fields/field/islocked) { get; set; } | Получает или устанавливает, заблокировано ли поле (не должно пересчитывать его результат). |
+| [Format](../../aspose.words.fields/field/format) { get; } | Получает[`FieldFormat`](../fieldformat) объект, предоставляющий типизированный доступ к форматированию поля. |
+| [IsDirty](../../aspose.words.fields/field/isdirty) { get; set; } | Получает или устанавливает, является ли текущий результат поля более неверным (устаревшим) из-за других изменений, внесенных в документ. |
+| [IsLocked](../../aspose.words.fields/field/islocked) { get; set; } | Получает или задает, заблокировано ли поле (не следует пересчитывать его результат). |
 | [LeftExpression](../../aspose.words.fields/fieldcompare/leftexpression) { get; set; } | Получает или задает левую часть выражения сравнения. |
 | [LocaleId](../../aspose.words.fields/field/localeid) { get; set; } | Получает или задает LCID поля. |
-| [Result](../../aspose.words.fields/field/result) { get; set; } | Получает или задает текст, который находится между разделителем полей и концом поля. |
+| [Result](../../aspose.words.fields/field/result) { get; set; } | Получает или задает текст, который находится между разделителем поля и концом поля. |
 | [RightExpression](../../aspose.words.fields/fieldcompare/rightexpression) { get; set; } | Получает или задает правую часть выражения сравнения. |
 | [Separator](../../aspose.words.fields/field/separator) { get; } | Получает узел, представляющий разделитель полей. Может быть нулевым. |
 | [Start](../../aspose.words.fields/field/start) { get; } | Получает узел, представляющий начало поля. |
@@ -42,20 +42,20 @@ public class FieldCompare : Field
 
 | Имя | Описание |
 | --- | --- |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode)() | Возвращает текст между началом поля и разделителем полей (или концом поля, если разделителя нет). Включены как код поля, так и результат дочерних полей. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode)() | Возвращает текст между началом поля и разделителем поля (или концом поля, если разделителя нет). Включены как код поля, так и результат поля дочерних полей. |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode)(bool) | Возвращает текст между началом поля и разделителем полей (или концом поля, если разделителя нет). |
-| [Remove](../../aspose.words.fields/field/remove)() | Удаляет поле из документа. Возвращает узел сразу после поля. Если конец поля является последним дочерним элементом его родительского узла, возвращает его родительский абзац. Если поле уже удалено, возвращает **null** . |
+| [Remove](../../aspose.words.fields/field/remove)() | Удаляет поле из документа. Возвращает узел сразу после поля. Если конец поля является последним child его родительского узла, возвращает его родительский абзац. Если поле уже удалено, возвращает **нулевой** . |
 | [Unlink](../../aspose.words.fields/field/unlink)() | Выполняет развязку поля. |
 | [Update](../../aspose.words.fields/field/update)() | Выполняет обновление поля. Выдает, если поле уже обновляется. |
 | [Update](../../aspose.words.fields/field/update)(bool) | Выполняет обновление поля. Выдает, если поле уже обновляется. |
 
 ### Примечания
 
-Сравнивает значения, обозначенные выражениями[`LeftExpression`](./leftexpression)и[`RightExpression`](./rightexpression) в сравнении с использованием оператора, обозначенного[`ComparisonOperator`](./comparisonoperator).
+Сравнивает значения, обозначенные выражениями[`LeftExpression`](./leftexpression) а также[`RightExpression`](./rightexpression) по сравнению с оператором, назначенным[`ComparisonOperator`](./comparisonoperator) .
 
 ### Примеры
 
-Показывает, как сравнивать выражения с использованием поля COMPARE.
+Показывает, как сравнивать выражения с помощью поля COMPARE.
 
 ```csharp
 Document doc = new Document();
@@ -80,7 +80,7 @@ field.ComparisonOperator = "=";
 field.RightExpression = "2 + 3";
 field.Update();
 
-// В этом поле отображается «1», так как утверждение истинно.
+// В этом поле отображается «1», так как утверждение верно.
 Assert.AreEqual(" COMPARE  5 = \"2 + 3\"", field.GetFieldCode());
 Assert.AreEqual("1", field.Result);
 

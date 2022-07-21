@@ -3,7 +3,7 @@ title: LanguagePreferences
 second_title: Aspose.Words for .NET API 参考
 description: 允许设置语言首选项
 type: docs
-weight: 3400
+weight: 3450
 url: /zh/net/aspose.words.loading/languagepreferences/
 ---
 ## LanguagePreferences class
@@ -39,7 +39,7 @@ public class LanguagePreferences
 
 ### 例子
 
-显示加载文档时如何应用语言首选项。
+显示如何在加载文档时应用语言首选项。
 
 ```csharp
 LoadOptions loadOptions = new LoadOptions();

@@ -1,14 +1,14 @@
 ---
 title: SaveFontFaceCssSeparately
 second_title: Справочник по API Aspose.Words для .NET
-description: Флаг указывает следует ли помещать правила CSS font-face в отдельный файл fontFaces.css при создании документа сохраняется с внешней таблицей стилей то есть когдаExportEmbeddedCssaspose.words.saving/htmlfixedsaveoptions/exportembeddedcss is false . Значение по умолчанию false  все правила CSS записываются в один файл styles.css.
+description: Флаг указывает следует ли помещать правила CSS font-face в отдельный файл fontFaces.css при сохранении документа с внешней таблицей стилей т.ExportEmbeddedCssaspose.words.saving/htmlfixedsaveoptions/exportembeddedcss этоЛОЖЬ . Значение по умолчаниюЛОЖЬ  все правила CSS записываются в один файл styles.css.
 type: docs
 weight: 160
 url: /ru/net/aspose.words.saving/htmlfixedsaveoptions/savefontfacecssseparately/
 ---
 ## HtmlFixedSaveOptions.SaveFontFaceCssSeparately property
 
-Флаг указывает, следует ли помещать правила CSS "@font-face" в отдельный файл "fontFaces.css" при создании документа сохраняется с внешней таблицей стилей (то есть, когда[`ExportEmbeddedCss`](../exportembeddedcss) is` false` ). Значение по умолчанию:` false` , все правила CSS записываются в один файл "styles.css".
+Флаг указывает, следует ли помещать правила CSS "@font-face" в отдельный файл "fontFaces.css" при сохранении документа с внешней таблицей стилей (т.[`ExportEmbeddedCss`](../exportembeddedcss) это`ЛОЖЬ` ). Значение по умолчанию:`ЛОЖЬ` , все правила CSS записываются в один файл "styles.css".
 
 ```csharp
 public bool SaveFontFaceCssSeparately { get; set; }
@@ -16,11 +16,11 @@ public bool SaveFontFaceCssSeparately { get; set; }
 
 ### Примечания
 
-Установка для этого свойства значения` true` восстанавливает старое поведение (отдельные файлы) для совместимости с устаревшим кодом.
+Установка для этого свойства значения`истинный` восстанавливает старое поведение (отдельные файлы) для совместимости с устаревшим кодом.
 
 ### Примеры
 
-Показывает, как поместить CSS в отдельный файл и добавить префикс ко всем именам классов CSS.
+Показывает, как поместить CSS в отдельный файл и добавить префикс ко всем именам его классов CSS.
 
 ```csharp
 Document doc = new Document(MyDir + "Bookmarks.docx");

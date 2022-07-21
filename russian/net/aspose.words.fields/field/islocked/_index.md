@@ -1,14 +1,14 @@
 ---
 title: IsLocked
 second_title: Справочник по API Aspose.Words для .NET
-description: Получает или устанавливает заблокировано ли поле не должно пересчитывать его результат.
+description: Получает или задает заблокировано ли поле не следует пересчитывать его результат.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.fields/field/islocked/
 ---
 ## Field.IsLocked property
 
-Получает или устанавливает, заблокировано ли поле (не должно пересчитывать его результат).
+Получает или задает, заблокировано ли поле (не следует пересчитывать его результат).
 
 ```csharp
 public bool IsLocked { get; set; }

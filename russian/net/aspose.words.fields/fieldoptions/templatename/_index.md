@@ -3,7 +3,7 @@ title: TemplateName
 second_title: Справочник по API Aspose.Words для .NET
 description: Получает или задает имя файла шаблона используемого документом.
 type: docs
-weight: 160
+weight: 170
 url: /ru/net/aspose.words.fields/fieldoptions/templatename/
 ---
 ## FieldOptions.TemplateName property
@@ -16,9 +16,9 @@ public string TemplateName { get; set; }
 
 ### Примечания
 
-Это свойство используется[`FieldTemplate`](../../fieldtemplate)поле, если свойство[`AttachedTemplate`](../../../aspose.words/document/attachedtemplate)пусто.
+Это свойство используется[`FieldTemplate`](../../fieldtemplate) поле, если[`AttachedTemplate`](../../../aspose.words/document/attachedtemplate) свойство пусто.
 
-Если это свойство пусто, используется имя файла шаблона по умолчанию` Normal.dotm` .
+Если это свойство пусто, имя файла шаблона по умолчанию`Обычный.dotm` используется.
 
 ### Примеры
 

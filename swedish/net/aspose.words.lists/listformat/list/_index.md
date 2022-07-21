@@ -1,0 +1,131 @@
+---
+title: List
+second_title: Aspose.Words för .NET API Referens
+description: Hämtar eller ställer in listan som detta stycke är medlem i.
+type: docs
+weight: 20
+url: /sv/net/aspose.words.lists/listformat/list/
+---
+## ListFormat.List property
+
+Hämtar eller ställer in listan som detta stycke är medlem i.
+
+```csharp
+public List List { get; set; }
+```
+
+### Anmärkningar
+
+Listan som tilldelas den här egenskapen måste tillhöra det aktuella dokumentet.
+
+Listan som tilldelas den här egenskapen får inte vara en liststilsdefinition.
+
+Om du ställer in den här egenskapen till null tar du bort punktpunkter och numrering från paragraf och ställer in listnivånumret till noll. Att ställa in den här egenskapen till null motsvarar att anropa[`RemoveNumbers`](../removenumbers).
+
+### Exempel
+
+Visar hur man kapslar en lista i en annan lista.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+// En lista låter oss organisera och dekorera uppsättningar av stycken med prefixsymboler och indrag.
+// Vi kan skapa kapslade listor genom att öka indragsnivån. 
+// Vi kan börja och avsluta en lista genom att använda en dokumentbyggares "ListFormat"-egenskap. 
+// Varje stycke som vi lägger till mellan en listas början och slutet kommer att bli ett objekt i listan.
+// Skapa en dispositionslista för rubrikerna.
+List outlineList = doc.Lists.Add(ListTemplate.OutlineNumbers);
+builder.ListFormat.List = outlineList;
+builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading1;
+builder.Writeln("This is my Chapter 1");
+
+// Skapa en numrerad lista.
+List numberedList = doc.Lists.Add(ListTemplate.NumberDefault);
+builder.ListFormat.List = numberedList;
+builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Normal;
+builder.Writeln("Numbered list item 1.");
+
+// Varje stycke som består av en lista kommer att ha denna flagga.
+Assert.True(builder.CurrentParagraph.IsListItem);
+Assert.True(builder.ParagraphFormat.IsListItem);
+
+// Skapa en punktlista.
+List bulletedList = doc.Lists.Add(ListTemplate.BulletDefault);
+builder.ListFormat.List = bulletedList;
+builder.ParagraphFormat.LeftIndent = 72;
+builder.Writeln("Bulleted list item 1.");
+builder.Writeln("Bulleted list item 2.");
+builder.ParagraphFormat.ClearFormatting();
+
+// Återgå till den numrerade listan.
+builder.ListFormat.List = numberedList;
+builder.Writeln("Numbered list item 2.");
+builder.Writeln("Numbered list item 3.");
+
+// Återgå till dispositionslistan.
+builder.ListFormat.List = outlineList;
+builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading1;
+builder.Writeln("This is my Chapter 2");
+
+builder.ParagraphFormat.ClearFormatting();
+
+builder.Document.Save(ArtifactsDir + "Lists.NestedLists.docx");
+```
+
+Visar hur man arbetar med listnivåer.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+Assert.False(builder.ListFormat.IsListItem);
+
+// En lista låter oss organisera och dekorera uppsättningar av stycken med prefixsymboler och indrag.
+// Vi kan skapa kapslade listor genom att öka indragsnivån. 
+// Vi kan börja och avsluta en lista genom att använda en dokumentbyggares "ListFormat"-egenskap. 
+// Varje stycke som vi lägger till mellan en listas början och slutet kommer att bli ett objekt i listan.
+// Nedan finns två typer av listor som vi kan skapa med hjälp av en dokumentbyggare.
+// 1 - En numrerad lista:
+// Numrerade listor skapar en logisk ordning för sina stycken genom att numrera varje objekt.
+builder.ListFormat.List = doc.Lists.Add(ListTemplate.NumberDefault);
+
+Assert.True(builder.ListFormat.IsListItem);
+
+// Genom att ställa in egenskapen "ListLevelNumber" kan vi öka listnivån
+// för att starta en fristående underlista vid det aktuella listobjektet.
+// Microsoft Word-listmallen som heter "NumberDefault" använder siffror för att skapa listnivåer för den första listnivån.
+// Djupare listnivåer använder bokstäver och gemener romerska siffror. 
+for (int i = 0; i < 9; i++)
+{
+    builder.ListFormat.ListLevelNumber = i;
+    builder.Writeln("Level " + i);
+}
+
+// 2 - En punktlista:
+// Denna lista kommer att tillämpa ett indrag och en punktsymbol ("•") före varje stycke.
+// Djupare nivåer i den här listan kommer att använda olika symboler, som "■" och "○".
+builder.ListFormat.List = doc.Lists.Add(ListTemplate.BulletDefault);
+
+for (int i = 0; i < 9; i++)
+{
+    builder.ListFormat.ListLevelNumber = i;
+    builder.Writeln("Level " + i);
+}
+
+// Vi kan inaktivera listformatering för att inte formatera några efterföljande stycken som listor genom att avaktivera "List"-flaggan.
+builder.ListFormat.List = null;
+
+Assert.False(builder.ListFormat.IsListItem);
+
+doc.Save(ArtifactsDir + "Lists.SpecifyListLevel.docx");
+```
+
+### Se även
+
+* class [List](../../list)
+* class [ListFormat](../../listformat)
+* namnutrymme [Aspose.Words.Lists](../../listformat)
+* hopsättning [Aspose.Words](../../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

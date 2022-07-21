@@ -1,14 +1,14 @@
 ---
 title: StructuredDocumentTagRangeStart
 second_title: Aspose.Words for .NET API 参考
-description: 初始化 结构化文档标记范围开始 类的新实例
+description: 初始化 结构化文档标签范围开始类.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.markup/structureddocumenttagrangestart/structureddocumenttagrangestart/
 ---
 ## StructuredDocumentTagRangeStart constructor
 
-初始化 **结构化文档标记范围开始** 类的新实例。
+初始化 **结构化文档标签范围开始**类.
 
 ```csharp
 public StructuredDocumentTagRangeStart(DocumentBase doc, SdtType type)
@@ -21,7 +21,7 @@ public StructuredDocumentTagRangeStart(DocumentBase doc, SdtType type)
 
 ### 评论
 
-可以创建以下类型的 SDT:
+可以创建以下类型的 SDT：
 
 * Checkbox
 * DropDownList

@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Справочник по API Aspose.Words для .NET
-description: Получает или задает объектGradientStopaspose.words.drawing/gradientstopв коллекции.
+description: Получает или задаетGradientStopaspose.words.drawing/gradientstop объект в коллекции.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.drawing/gradientstopcollection/item/
 ---
 ## GradientStopCollection indexer
 
-Получает или задает объект[`GradientStop`](../../gradientstop)в коллекции.
+Получает или задает[`GradientStop`](../../gradientstop) объект в коллекции.
 
 ```csharp
 public GradientStop this[int index] { get; set; }

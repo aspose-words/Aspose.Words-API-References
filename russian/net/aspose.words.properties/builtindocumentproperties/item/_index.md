@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Справочник по API Aspose.Words для .NET
-description: Возвращает объектDocumentPropertyaspose.words.properties/documentpropertyпо имени свойства.
+description: ВозвращаетDocumentPropertyaspose.words.properties/documentproperty объект по имени свойства.
 type: docs
 weight: 130
 url: /ru/net/aspose.words.properties/builtindocumentproperties/item/
 ---
 ## BuiltInDocumentProperties indexer
 
-Возвращает объект[`DocumentProperty`](../../documentproperty)по имени свойства.
+Возвращает[`DocumentProperty`](../../documentproperty) объект по имени свойства.
 
 ```csharp
 public override DocumentProperty this[string name] { get; }
@@ -20,11 +20,11 @@ public override DocumentProperty this[string name] { get; }
 
 ### Примечания
 
-Строковые имена свойств соответствуют именам типизированных свойства доступны из[`BuiltInDocumentProperties`](../../builtindocumentproperties).
+Строковые имена свойств соответствуют именам свойств typed , доступных из[`BuiltInDocumentProperties`](../../builtindocumentproperties).
 
-Если вы запрашиваете свойство, которого нет в документе, но имя свойства распознается как допустимое встроенное имя, новый[`DocumentProperty`](../../documentproperty) создается, добавляется в коллекцию и возвращается. Вновь созданному свойству присваивается значение по умолчанию (пустая строка, ноль, false или DateTime.MinValue в зависимости от типа встроенного свойства).
+Если вы запрашиваете свойство, которого нет в документе, но свойство name распознается как допустимое встроенное имя, новое[`DocumentProperty`](../../documentproperty) создается, добавляется в коллекцию и возвращается. Вновь созданному свойству присваивается значение по умолчанию (пустая строка, ноль, false или DateTime.MinValue в зависимости от type встроенного свойства).
 
-Если вы запрашиваете свойство, которого нет в документе, и имя не распознается как встроенное имя, значение null возвращается.
+Если вы запрашиваете свойство, которого нет в документе, а name не распознается как встроенное имя, возвращается null.
 
 ### Примеры
 
@@ -33,8 +33,8 @@ public override DocumentProperty this[string name] { get; }
 ```csharp
 Document doc = new Document(MyDir + "Properties.docx");
 
- // Каждый документ содержит набор настраиваемых свойств, которые, как и встроенные свойства, представляют собой пары ключ-значение.
- // Документ имеет фиксированный список встроенных свойств. Пользователь создает все настраиваемые свойства. 
+// Каждый документ содержит набор настраиваемых свойств, которые, как и встроенные свойства, представляют собой пары ключ-значение.
+// Документ имеет фиксированный список встроенных свойств. Пользователь создает все настраиваемые свойства. 
 Assert.AreEqual("Value of custom document property", doc.CustomDocumentProperties["CustomProperty"].ToString());
 
 doc.CustomDocumentProperties.Add("CustomProperty2", "Value of custom document property #2");

@@ -1,14 +1,14 @@
 ---
 title: CustomDocumentProperties
 second_title: Aspose.Words for .NET API 参考
-description: 返回代表文档的所有自定义文档属性的集合
+description: 返回一个集合表示文档的所有自定义文档属性
 type: docs
 weight: 70
 url: /zh/net/aspose.words/document/customdocumentproperties/
 ---
 ## Document.CustomDocumentProperties property
 
-返回代表文档的所有自定义文档属性的集合。
+返回一个集合，表示文档的所有自定义文档属性。
 
 ```csharp
 public CustomDocumentProperties CustomDocumentProperties { get; }
@@ -21,18 +21,18 @@ public CustomDocumentProperties CustomDocumentProperties { get; }
 ```csharp
 Document doc = new Document(MyDir + "Properties.docx");
 
- // “文档”对象在其成员中包含它的一些元数据。
+// “文档”对象在其成员中包含一些元数据。
 Console.WriteLine($"Document filename:\n\t \"{doc.OriginalFileName}\"");
 
- // 文档还在其内置属性中存储元数据。
-// 每个内置属性都是文档的“BuiltInDocumentProperties”对象的成员。
+// 文档还在其内置属性中存储元数据。
+// 每个内置属性都是文档“BuiltInDocumentProperties”对象的成员。
 Console.WriteLine("Built-in Properties:");
 foreach (DocumentProperty docProperty in doc.BuiltInDocumentProperties)
 {
     Console.WriteLine(docProperty.Name);
     Console.WriteLine($"\tType:\t{docProperty.Type}");
 
-     // 某些属性可能存储多个值。
+    // 某些属性可能存储多个值。
     if (docProperty.Value is ICollection<object>)
     {
         foreach (object value in docProperty.Value as ICollection<object>)

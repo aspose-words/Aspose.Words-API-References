@@ -1,14 +1,14 @@
 ---
 title: SizeInPoints
 second_title: Aspose.Words for .NET API 参考
-description: 获取形状的实际大小以磅为单位
+description: 以点为单位获取形状的实际大小
 type: docs
 weight: 30
 url: /zh/net/aspose.words.rendering/noderendererbase/sizeinpoints/
 ---
 ## NodeRendererBase.SizeInPoints property
 
-获取形状的实际大小（以磅为单位）。
+以点为单位获取形状的实际大小。
 
 ```csharp
 public SizeF SizeInPoints { get; }
@@ -16,11 +16,11 @@ public SizeF SizeInPoints { get; }
 
 ### 评论
 
-此属性返回实际（在页面上呈现的）边界框的大小形状。 大小考虑了形状旋转（如果有）。
+此属性返回形状的实际（在页面上呈现）边界框的大小。 该大小考虑了形状旋转（如果有）。
 
 ### 例子
 
-显示如何测量和缩放形状。
+展示如何测量和缩放形状。
 
 ```csharp
 Document doc = new Document(MyDir + "Office math.docx");

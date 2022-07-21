@@ -1,14 +1,14 @@
 ---
 title: SmoothingMode
 second_title: Справочник по API Aspose.Words для .NET
-description: Получает или задает качество рендеринга для этого объекта Graphics.
+description: Получает или задает качество рендеринга для этой графики.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.saving/graphicsqualityoptions/smoothingmode/
 ---
 ## GraphicsQualityOptions.SmoothingMode property
 
-Получает или задает качество рендеринга для этого объекта Graphics.
+Получает или задает качество рендеринга для этой графики.
 
 ```csharp
 public SmoothingMode? SmoothingMode { get; set; }

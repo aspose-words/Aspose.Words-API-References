@@ -1,14 +1,14 @@
 ---
 title: CommentDisplayMode
 second_title: Справочник по API Aspose.Words для .NET
-description: Указывает режим отображения комментариев к документу.
+description: Определяет режим отображения комментариев к документу.
 type: docs
-weight: 3040
+weight: 3090
 url: /ru/net/aspose.words.layout/commentdisplaymode/
 ---
 ## CommentDisplayMode enumeration
 
-Указывает режим отображения комментариев к документу.
+Определяет режим отображения комментариев к документу.
 
 ```csharp
 public enum CommentDisplayMode
@@ -20,7 +20,7 @@ public enum CommentDisplayMode
 | --- | --- | --- |
 | Hide | `0` | Комментарии к документу не отображаются. |
 | ShowInBalloons | `1` | Отображает комментарии к документу во всплывающих подсказках на полях. Это значение по умолчанию. |
-| ShowInAnnotations | `2` | Отображает комментарии к документу в аннотациях. Это доступно только для формата Pdf. |
+| ShowInAnnotations | `2` | Визуализирует комментарии к документам в аннотациях. Это доступно только для формата Pdf. |
 
 ### Примеры
 

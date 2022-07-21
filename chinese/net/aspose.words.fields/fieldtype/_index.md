@@ -3,7 +3,7 @@ title: FieldType
 second_title: Aspose.Words for .NET API 参考
 description: 指定 Microsoft Word 字段类型
 type: docs
-weight: 2350
+weight: 2390
 url: /zh/net/aspose.words.fields/fieldtype/
 ---
 ## FieldType enumeration
@@ -30,13 +30,13 @@ public enum FieldType
 | FieldAutoNumOutline | `52` | 指定 AUTONUMOUT 字段。 |
 | FieldAutoText | `79` | 指定自动文本字段。 |
 | FieldAutoTextList | `89` | 指定 AUTOTEXTLIST 字段。 |
-| FieldBarcode | `63` | 指定 BARCODE 字段。 |
+| FieldBarcode | `63` | 指定条形码字段。 |
 | FieldBibliography | `100500` | 指定书目字段。 |
 | FieldBidiOutline | `92` | 指定 BIDIOUTLINE 字段。 |
 | FieldCitation | `1980` | 指定 CITATION 字段。 |
 | FieldComments | `19` | 指定 COMMENTS 字段。 |
 | FieldCompare | `80` | 指定比较字段。 |
-| FieldCreateDate | `21` | 指定 CREATEDATE 字段。 |
+| FieldCreateDate | `21` | 指定创建字段。 |
 | FieldData | `40` | 指定 DATA 字段。 |
 | FieldDatabase | `78` | 指定数据库字段。 |
 | FieldDate | `31` | 指定日期字段。 |
@@ -55,7 +55,7 @@ public enum FieldType
 | FieldFootnoteRef | `5` | 指定 FOOTNOTEREF 字段。 |
 | FieldFormCheckBox | `71` | 指定 FORMCHECKBOX 字段。 |
 | FieldFormDropDown | `83` | 指定 FORMDROPDOWN 字段。 |
-| FieldFormTextInput | `70` | 指定 FORMTEXT 字段。 |
+| FieldFormTextInput | `70` | 指定格式文本字段。 |
 | FieldFormula | `34` | 指定 =（公式）字段。 |
 | FieldGreetingLine | `94` | 指定 GREETINGLINE 字段。 |
 | FieldGlossary | `47` | 指定 GLOSSARY 字段。 |
@@ -66,7 +66,7 @@ public enum FieldType
 | FieldInclude | `36` | 指定 INCLUDE 字段。 |
 | FieldIncludePicture | `67` | 指定 INCLUDEPICTURE 字段。 |
 | FieldIncludeText | `68` | 指定 INCLUDETEXT 字段。 |
-| FieldIndex | `8` | 指定 INDEX 字段。 |
+| FieldIndex | `8` | 指定索引字段。 |
 | FieldIndexEntry | `4` | 指定 XE 字段。 |
 | FieldInfo | `14` | 指定 INFO 字段。 |
 | FieldImport | `55` | 指定 IMPORT 字段。 |
@@ -114,34 +114,23 @@ public enum FieldType
 | FieldTOCEntry | `9` | 指定 TC 字段。 |
 | FieldUserAddress | `62` | 指定用户地址字段。 |
 | FieldUserInitials | `61` | 指定 USERINITIALS 字段。 |
-| FieldUserName | `60` | 指定 USERNAME 字段。 |
+| FieldUserName | `60` | 指定用户名字段。 |
 
 ### 例子
 
-显示如何使用域代码将域插入到文档中。
+演示如何使用域代码将域插入到文档中。
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-FieldDate field = (FieldDate)builder.InsertField(FieldType.FieldDate, true);
-field.Format.DateTimeFormat = "dddd, MMMM dd, yyyy";
-field.Update();
+Field field = builder.InsertField("DATE \\@ \"dddd, MMMM dd, yyyy\"");
 
-FieldChar fieldStart = field.Start;
+Assert.AreEqual(FieldType.FieldDate, field.Type);
+Assert.AreEqual("DATE \\@ \"dddd, MMMM dd, yyyy\"", field.GetFieldCode());
 
-Assert.AreEqual(FieldType.FieldDate, fieldStart.FieldType);
-Assert.AreEqual(false, fieldStart.IsDirty);
-Assert.AreEqual(false, fieldStart.IsLocked);
-
-// 检索代表文档中字段的外观对象。
-field = (FieldDate)fieldStart.GetField();
-
-Assert.AreEqual(false, field.IsLocked);
-Assert.AreEqual(" DATE  \\@ \"dddd, MMMM dd, yyyy\"", field.GetFieldCode());
-
-// 更新字段以显示当前日期。
-field.Update();
+// InsertField 方法的这个重载会自动更新插入的字段。
+Assert.That(DateTime.Parse(field.Result), Is.EqualTo(DateTime.Today).Within(1).Days);
 ```
 
 显示如何使用 FieldStart 节点。

@@ -1,14 +1,14 @@
 ---
 title: MappedDataFieldCollection
 second_title: Aspose.Words for .NET API 参考
-description: 允许在数据源 中的字段名称和文档中的邮件合并字段名称之间自动映射
+description: 允许在数据源中的字段名称 和文档中的邮件合并字段名称之间自动映射
 type: docs
-weight: 3600
+weight: 3650
 url: /zh/net/aspose.words.mailmerging/mappeddatafieldcollection/
 ---
 ## MappedDataFieldCollection class
 
-允许在数据源 中的字段名称和文档中的邮件合并字段名称之间自动映射。
+允许在数据源中的字段名称 和文档中的邮件合并字段名称之间自动映射。
 
 ```csharp
 public class MappedDataFieldCollection : IEnumerable<KeyValuePair<string, string>>
@@ -34,7 +34,7 @@ public class MappedDataFieldCollection : IEnumerable<KeyValuePair<string, string
 
 ### 评论
 
-这被实现为字符串键的集合到字符串值。 键是文档中邮件合并字段的名称，值 是数据源中的字段名称。
+这是作为字符串值的字符串键集合实现的。 键是文档中邮件合并字段的名称，而 values 是数据源中字段的名称。
 
 ### 例子
 
@@ -46,24 +46,24 @@ public void MappedDataFieldCollection()
     Document doc = CreateSourceDocMappedDataFields();
     DataTable dataTable = CreateSourceTableMappedDataFields();
 
-     // 该表有一个名为“Column2”的列，但没有具有该名称的 MERGEFIELD。
-     // 另外，我们有一个名为“Column3”的 MERGEFIELD，但数据源没有该名称的列。
-     // 如果“Column2”中的数据适合“Column3” MERGEFIELD,
-     // 我们可以将该列名映射到“MappedDataFields”键/值对中的 MERGEFIELD。
+    // 该表有一个名为“Column2”的列，但没有具有该名称的 MERGEFIELD。
+    // 另外，我们有一个名为“Column3”的 MERGEFIELD，但数据源没有具有该名称的列。
+    // 如果“Column2”中的数据适合“Column3”MERGEFIELD，
+    // 我们可以将该列名映射到“MappedDataFields”键/值对中的 MERGEFIELD。
     MappedDataFieldCollection mappedDataFields = doc.MailMerge.MappedDataFields;
 
-     // 我们可以像这样将数据源列名称链接到 MERGEFIELD 名称。
+    // 我们可以像这样将数据源列名称链接到 MERGEFIELD 名称。
     mappedDataFields.Add("MergeFieldName", "DataSourceColumnName");
 
-     // 将名为“Column2”的数据源列链接到名为“Column3”的MERGEFIELDs.
+    // 将名为“Column2”的数据源列链接到名为“Column3”的 MERGEFIELD。
     mappedDataFields.Add("Column3", "Column2");
 
-     // MERGEFIELD 名称是相应数据源列名称“值”的“键”。
+    // MERGEFIELD 名称是相应数据源列名称“值”的“键”。
     Assert.AreEqual("DataSourceColumnName", mappedDataFields["MergeFieldName"]);
     Assert.True(mappedDataFields.ContainsKey("MergeFieldName"));
     Assert.True(mappedDataFields.ContainsValue("DataSourceColumnName"));
 
-     // 现在如果我们运行这个邮件合并，“Column3”MERGEFIELDs 将从表的“Column2”获取数据。
+    // 现在如果我们运行这个邮件合并，“Column3”MERGEFIELDs 将从表的“Column2”获取数据。
     doc.MailMerge.Execute(dataTable);
 
     doc.Save(ArtifactsDir + "MailMerge.MappedDataFieldCollection.docx");
@@ -76,7 +76,7 @@ public void MappedDataFieldCollection()
             Console.WriteLine(
                 $"Column named {enumerator.Current.Value} is mapped to MERGEFIELDs named {enumerator.Current.Key}");
 
-     // 我们也可以从集合中移除元素。
+    // 我们也可以从集合中移除元素。
     mappedDataFields.Remove("MergeFieldName");
 
     Assert.False(mappedDataFields.ContainsKey("MergeFieldName"));
@@ -88,8 +88,8 @@ public void MappedDataFieldCollection()
 }
 
 /// <summary>
- /// 创建一个包含 2 个 MERGEFIELD 的文档，其中一个没有 a
- /// 来自下面方法的数据表中对应的列.
+/// 创建一个包含 2 个 MERGEFIELD 的文档，其中一个没有
+/// 来自下面方法的数据表中的对应列。
 /// </summary>
 private static Document CreateSourceDocMappedDataFields()
 {
@@ -104,8 +104,8 @@ private static Document CreateSourceDocMappedDataFields()
 }
 
 /// <summary>
- /// 创建一个2列的数据表，其中一列没有a
- /// 以上方法对应源文档中的MERGEFIELD.
+/// 创建一个有2列的数据表，其中一列没有
+/// 以上方法对应源文档中的MERGEFIELD。
 /// </summary>
 private static DataTable CreateSourceTableMappedDataFields()
 {

@@ -1,14 +1,14 @@
 ---
 title: Tab
 second_title: Справочник по API Aspose.Words для .NET
-description: Символ табуляцииx0009 или t.
+description: Символ табуляции x0009 или t.
 type: docs
 weight: 270
 url: /ru/net/aspose.words/controlchar/tab/
 ---
 ## ControlChar.Tab field
 
-Символ табуляции:"\x0009" или "\t".
+Символ табуляции: "\x0009" или "\t".
 
 ```csharp
 public static readonly string Tab;

@@ -24,7 +24,7 @@ public List GetListByListId(int listId)
 
 ### 评论
 
-通常不需要使用此方法。大多数情况下，您只需设置[`List`](../../listformat/list)属性 即可将列表格式 应用于段落[`ListFormat`](../../listformat)对象。
+您通常不需要使用此方法。大多数情况下，您只需通过设置[`List`](../../listformat/list)property 的[`ListFormat`](../../listformat)目的。
 
 ### 例子
 

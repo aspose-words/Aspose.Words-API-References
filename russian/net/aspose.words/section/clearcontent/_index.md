@@ -16,9 +16,9 @@ public void ClearContent()
 
 ### Примечания
 
-Текст[`Body`](../body)очищается, остается только один пустой абзац, представляющий разрыв раздела.
+Текст[`Body`](../body) очищается, остается только один пустой абзац, представляющий разрыв раздела.
 
-Текст всех верхних и нижних колонтитулов очищается, но[`HeaderFooter`](../../headerfooter)сами объекты не удаляются.
+Текст всех верхних и нижних колонтитулов очищается, но[`HeaderFooter`](../../headerfooter) сами объекты не удаляются.
 
 ### Примеры
 
@@ -33,8 +33,8 @@ builder.Write("Hello world!");
 Assert.AreEqual("Hello world!", doc.GetText().Trim());
 Assert.AreEqual(1, doc.FirstSection.Body.Paragraphs.Count);
 
- // Запуск метода "ClearContent" удалит все содержимое раздела
- // но оставьте пустой абзац, чтобы снова добавить содержимое.
+// Запуск метода "ClearContent" удалит все содержимое раздела
+// но оставьте пустой абзац, чтобы снова добавить содержимое.
 doc.FirstSection.ClearContent();
 
 Assert.AreEqual(string.Empty, doc.GetText().Trim());

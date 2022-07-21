@@ -22,17 +22,17 @@ public BorderCollection Borders { get; }
 Document doc = new Document(MyDir + "Tables.docx");
 
 // Ниже приведены два способа получения таблицы из документа.
- // 1 - Из коллекции "Таблицы" узла Body:
+// 1 - Из коллекции "Таблицы" узла Body:
 Table firstTable = doc.FirstSection.Body.Tables[0];
 
- // 2 - Использование метода "GetChild":
+// 2 - Используя метод "GetChild":
 Table secondTable = (Table)doc.GetChild(NodeType.Table, 1, true);
 
- // Добавляем все строки из текущей таблицы в следующую.
+// Добавляем все строки из текущей таблицы в следующую.
 while (secondTable.HasChildNodes)
     firstTable.Rows.Add(secondTable.FirstRow);
 
- // Удалить пустой контейнер таблицы.
+// Удалить пустой контейнер таблицы.
 secondTable.Remove();
 
 doc.Save(ArtifactsDir + "Table.CombineTables.docx");

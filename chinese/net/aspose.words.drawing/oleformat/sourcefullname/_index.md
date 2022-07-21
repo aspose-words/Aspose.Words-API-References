@@ -18,7 +18,7 @@ public string SourceFullName { get; set; }
 
 默认值为空字符串。
 
-如果`SourceFullName`不是空字符串，则链接 OLE 对象。
+如果`SourceFullName`不是空字符串，则 OLE 对象已链接。
 
 ### 例子
 

@@ -1,14 +1,14 @@
 ---
 title: LanguageId
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置用于格式化名称的语言 ID
+description: 获取或设置用于格式化名称的语言 id
 type: docs
 weight: 30
 url: /zh/net/aspose.words.fields/fieldgreetingline/languageid/
 ---
 ## FieldGreetingLine.LanguageId property
 
-获取或设置用于格式化名称的语言 ID。
+获取或设置用于格式化名称的语言 id。
 
 ```csharp
 public string LanguageId { get; set; }

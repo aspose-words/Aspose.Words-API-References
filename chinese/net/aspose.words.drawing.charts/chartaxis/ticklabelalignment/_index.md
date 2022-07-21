@@ -18,9 +18,9 @@ public ParagraphAlignment TickLabelAlignment { get; set; }
 
 此属性仅对多行标签有效。
 
-默认值为Center。
+默认值为Center.
 
-。
+.
 
 ### 例子
 

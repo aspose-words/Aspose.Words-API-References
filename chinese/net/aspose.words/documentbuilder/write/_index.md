@@ -20,69 +20,23 @@ public void Write(string text)
 
 ### 评论
 
-Font指定的当前字体格式属性被使用。
+指定的当前字体格式[`Font`](../font)使用属性。
 
 ### 例子
 
-显示如何将由边框包围的字符串插入到文档中。
+演示如何将由边框包围的字符串插入到文档中。
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-builder.StartTable();
+builder.Font.Border.Color = Color.Green;
+builder.Font.Border.LineWidth = 2.5d;
+builder.Font.Border.LineStyle = LineStyle.DashDotStroker;
 
-// 为文档构建器设置表格格式选项
-// 将它们应用于我们添加的每一行和单元格。
-builder.ParagraphFormat.Alignment = ParagraphAlignment.Center;
+builder.Write("Text surrounded by green border.");
 
-builder.CellFormat.ClearFormatting();
-builder.CellFormat.Width = 150;
-builder.CellFormat.VerticalAlignment = CellVerticalAlignment.Center;
-builder.CellFormat.Shading.BackgroundPatternColor = Color.GreenYellow;
-builder.CellFormat.WrapText = false;
-builder.CellFormat.FitText = true;
-
-builder.RowFormat.ClearFormatting();
-builder.RowFormat.HeightRule = HeightRule.Exactly;
-builder.RowFormat.Height = 50;
-builder.RowFormat.Borders.LineStyle = LineStyle.Engrave3D;
-builder.RowFormat.Borders.Color = Color.Orange;
-
-builder.InsertCell();
-builder.Write("Row 1, Col 1");
-
-builder.InsertCell();
-builder.Write("Row 1, Col 2");
-builder.EndRow();
-
-// 更改格式会将其应用到当前单元格，
-// 以及我们之后使用构建器创建的任何新单元格。
-// 这不会影响我们之前添加的单元格。
-builder.CellFormat.Shading.ClearFormatting();
-
-builder.InsertCell();
-builder.Write("Row 2, Col 1");
-
-builder.InsertCell();
-builder.Write("Row 2, Col 2");
-
-builder.EndRow();
-
-// 增加行高以适应垂直文本。
-builder.InsertCell();
-builder.RowFormat.Height = 150;
-builder.CellFormat.Orientation = TextOrientation.Upward;
-builder.Write("Row 3, Col 1");
-
-builder.InsertCell();
-builder.CellFormat.Orientation = TextOrientation.Downward;
-builder.Write("Row 3, Col 2");
-
-builder.EndRow();
-builder.EndTable();
-
-doc.Save(ArtifactsDir + "DocumentBuilder.InsertTable.docx");
+doc.Save(ArtifactsDir + "Border.FontBorder.docx");
 ```
 
 展示如何使用文档构建器来创建表格。
@@ -91,123 +45,66 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTable.docx");
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
+// 启动表格，然后用两个单元格填充第一行。
 builder.StartTable();
-
-// 为文档构建器设置表格格式选项
-// 将它们应用于我们添加的每一行和单元格。
-builder.ParagraphFormat.Alignment = ParagraphAlignment.Center;
-
-builder.CellFormat.ClearFormatting();
-builder.CellFormat.Width = 150;
-builder.CellFormat.VerticalAlignment = CellVerticalAlignment.Center;
-builder.CellFormat.Shading.BackgroundPatternColor = Color.GreenYellow;
-builder.CellFormat.WrapText = false;
-builder.CellFormat.FitText = true;
-
-builder.RowFormat.ClearFormatting();
-builder.RowFormat.HeightRule = HeightRule.Exactly;
-builder.RowFormat.Height = 50;
-builder.RowFormat.Borders.LineStyle = LineStyle.Engrave3D;
-builder.RowFormat.Borders.Color = Color.Orange;
-
 builder.InsertCell();
-builder.Write("Row 1, Col 1");
-
+builder.Write("Row 1, Cell 1.");
 builder.InsertCell();
-builder.Write("Row 1, Col 2");
+builder.Write("Row 1, Cell 2.");
+
+// 调用构建器的“EndRow”方法来开始一个新行。
 builder.EndRow();
-
-// 更改格式会将其应用到当前单元格，
-// 以及我们之后使用构建器创建的任何新单元格。
-// 这不会影响我们之前添加的单元格。
-builder.CellFormat.Shading.ClearFormatting();
-
 builder.InsertCell();
-builder.Write("Row 2, Col 1");
-
+builder.Write("Row 2, Cell 1.");
 builder.InsertCell();
-builder.Write("Row 2, Col 2");
-
-builder.EndRow();
-
-// 增加行高以适应垂直文本。
-builder.InsertCell();
-builder.RowFormat.Height = 150;
-builder.CellFormat.Orientation = TextOrientation.Upward;
-builder.Write("Row 3, Col 1");
-
-builder.InsertCell();
-builder.CellFormat.Orientation = TextOrientation.Downward;
-builder.Write("Row 3, Col 2");
-
-builder.EndRow();
+builder.Write("Row 2, Cell 2.");
 builder.EndTable();
 
-doc.Save(ArtifactsDir + "DocumentBuilder.InsertTable.docx");
+doc.Save(ArtifactsDir + "DocumentBuilder.CreateTable.docx");
 ```
 
-显示如何构建格式化的 2x2 表。
+展示如何构建格式化的 2x2 表格。
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-builder.StartTable();
-
-// 为文档构建器设置表格格式选项
-// 将它们应用于我们添加的每一行和单元格。
-builder.ParagraphFormat.Alignment = ParagraphAlignment.Center;
-
-builder.CellFormat.ClearFormatting();
-builder.CellFormat.Width = 150;
+Table table = builder.StartTable();
+builder.InsertCell();
 builder.CellFormat.VerticalAlignment = CellVerticalAlignment.Center;
-builder.CellFormat.Shading.BackgroundPatternColor = Color.GreenYellow;
-builder.CellFormat.WrapText = false;
-builder.CellFormat.FitText = true;
+builder.Write("Row 1, cell 1.");
+builder.InsertCell();
+builder.Write("Row 1, cell 2.");
+builder.EndRow();
 
-builder.RowFormat.ClearFormatting();
+// 在构建表格时，文档构建器将应用其当前的 RowFormat/CellFormat 属性值
+// 到其光标所在的当前行/单元格以及创建它们时的任何新行/单元格。
+Assert.AreEqual(CellVerticalAlignment.Center, table.Rows[0].Cells[0].CellFormat.VerticalAlignment);
+Assert.AreEqual(CellVerticalAlignment.Center, table.Rows[0].Cells[1].CellFormat.VerticalAlignment);
+
+builder.InsertCell();
+builder.RowFormat.Height = 100;
 builder.RowFormat.HeightRule = HeightRule.Exactly;
-builder.RowFormat.Height = 50;
-builder.RowFormat.Borders.LineStyle = LineStyle.Engrave3D;
-builder.RowFormat.Borders.Color = Color.Orange;
-
-builder.InsertCell();
-builder.Write("Row 1, Col 1");
-
-builder.InsertCell();
-builder.Write("Row 1, Col 2");
-builder.EndRow();
-
-// 更改格式会将其应用到当前单元格，
-// 以及我们之后使用构建器创建的任何新单元格。
-// 这不会影响我们之前添加的单元格。
-builder.CellFormat.Shading.ClearFormatting();
-
-builder.InsertCell();
-builder.Write("Row 2, Col 1");
-
-builder.InsertCell();
-builder.Write("Row 2, Col 2");
-
-builder.EndRow();
-
-// 增加行高以适应垂直文本。
-builder.InsertCell();
-builder.RowFormat.Height = 150;
 builder.CellFormat.Orientation = TextOrientation.Upward;
-builder.Write("Row 3, Col 1");
-
+builder.Write("Row 2, cell 1.");
 builder.InsertCell();
 builder.CellFormat.Orientation = TextOrientation.Downward;
-builder.Write("Row 3, Col 2");
-
+builder.Write("Row 2, cell 2.");
 builder.EndRow();
 builder.EndTable();
 
-doc.Save(ArtifactsDir + "DocumentBuilder.InsertTable.docx");
+// 先前添加的行和单元格不受构建器格式更改的追溯影响。
+Assert.AreEqual(0, table.Rows[0].RowFormat.Height);
+Assert.AreEqual(HeightRule.Auto, table.Rows[0].RowFormat.HeightRule);
+Assert.AreEqual(100, table.Rows[1].RowFormat.Height);
+Assert.AreEqual(HeightRule.Exactly, table.Rows[1].RowFormat.HeightRule);
+Assert.AreEqual(TextOrientation.Upward, table.Rows[1].Cells[0].CellFormat.Orientation);
+Assert.AreEqual(TextOrientation.Downward, table.Rows[1].Cells[1].CellFormat.Orientation);
+
+doc.Save(ArtifactsDir + "DocumentBuilder.BuildTable.docx");
 ```
 
-显示如何构建具有自定义边框的表格。
+演示如何构建具有自定义边框的表格。
 
 ```csharp
 Document doc = new Document();

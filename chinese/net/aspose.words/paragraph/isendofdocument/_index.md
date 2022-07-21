@@ -16,7 +16,7 @@ public bool IsEndOfDocument { get; }
 
 ### 例子
 
-显示如何在文档中插入段落。
+演示如何在文档中插入段落。
 
 ```csharp
 Document doc = new Document();
@@ -36,8 +36,7 @@ paragraphFormat.AddSpaceBetweenFarEastAndAlpha = true;
 paragraphFormat.AddSpaceBetweenFarEastAndDigit = true;
 paragraphFormat.KeepTogether = true;
 
- // "Writeln" 方法在追加 text
- 后结束段落
+// “Writeln”方法在追加文本后结束段落
 // 然后开始一个新行，添加一个新段落。
 builder.Writeln("Hello world!");
 

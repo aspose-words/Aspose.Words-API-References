@@ -1,14 +1,14 @@
 ---
 title: FontFamily
 second_title: Справочник по API Aspose.Words для .NET
-description: Определяет семейство шрифтов текстового пути.
+description: Определяет семейство шрифтов textpath.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.drawing/textpath/fontfamily/
 ---
 ## TextPath.FontFamily property
 
-Определяет семейство шрифтов текстового пути.
+Определяет семейство шрифтов textpath.
 
 ```csharp
 public string FontFamily { get; set; }

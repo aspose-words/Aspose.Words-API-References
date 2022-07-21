@@ -16,7 +16,7 @@ public RevisionsView RevisionsView { get; set; }
 
 ### 评论
 
-默认值为 。
+默认值为.
 
 ### 例子
 

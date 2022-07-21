@@ -38,7 +38,7 @@ paragraphFormat.AddSpaceBetweenFarEastAndAlpha = true;
 paragraphFormat.AddSpaceBetweenFarEastAndDigit = true;
 paragraphFormat.KeepTogether = true;
 
- // Метод Writeln заканчивает абзац после добавления text
+// Метод Writeln завершает абзац после добавления текста
 // и затем начинает новую строку, добавляя новый абзац.
 builder.Writeln("Hello world!");
 

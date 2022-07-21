@@ -16,7 +16,7 @@ public bool OmitPageNumber { get; set; }
 
 ### 例子
 
-显示如何插入 TOC 字段，并过滤哪些 TC 字段最终作为条目。
+展示如何插入一个 TOC 字段，并过滤哪些 TC 字段最终成为条目。
 
 ```csharp
 {

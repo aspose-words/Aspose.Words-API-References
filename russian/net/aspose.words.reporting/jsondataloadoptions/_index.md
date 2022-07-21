@@ -3,7 +3,7 @@ title: JsonDataLoadOptions
 second_title: Справочник по API Aspose.Words для .NET
 description: Представляет параметры анализа данных JSON.
 type: docs
-weight: 4370
+weight: 4420
 url: /ru/net/aspose.words.reporting/jsondataloadoptions/
 ---
 ## JsonDataLoadOptions class
@@ -24,13 +24,13 @@ public class JsonDataLoadOptions
 
 | Имя | Описание |
 | --- | --- |
-| [AlwaysGenerateRootObject](../../aspose.words.reporting/jsondataloadoptions/alwaysgeneraterootobject) { get; set; } | Получает или задает флаг, указывающий, всегда ли сгенерированный источник данных будет содержать объект для корневого элемента JSON . Если корневой элемент JSON содержит одно сложное свойство, такой объект по умолчанию не создается. |
-| [ExactDateTimeParseFormats](../../aspose.words.reporting/jsondataloadoptions/exactdatetimeparseformats) { get; set; } | Получает или задает точные форматы для анализа значений даты и времени JSON при загрузке JSON. Значение по умолчанию: **null** . |
-| [SimpleValueParseMode](../../aspose.words.reporting/jsondataloadoptions/simplevalueparsemode) { get; set; } | Получает или задает режим анализа простых значений JSON (null, boolean, number, integer и string) при загрузке JSON. Такой режим не влияет на синтаксический анализ значений даты и времени. Значение по умолчанию: Loose. |
+| [AlwaysGenerateRootObject](../../aspose.words.reporting/jsondataloadoptions/alwaysgeneraterootobject) { get; set; } | Получает или задает флаг, указывающий, всегда ли сгенерированный источник данных будет содержать объект для элемента JSON root . Если корневой элемент JSON содержит одно сложное свойство, такой объект по умолчанию не создается. |
+| [ExactDateTimeParseFormats](../../aspose.words.reporting/jsondataloadoptions/exactdatetimeparseformats) { get; set; } | Получает или задает точные форматы для анализа значений даты и времени JSON при загрузке JSON. По умолчанию **нулевой** . |
+| [SimpleValueParseMode](../../aspose.words.reporting/jsondataloadoptions/simplevalueparsemode) { get; set; } | Получает или задает режим анализа простых значений JSON (пустых, логических, числовых, целых и строковых) при загрузке JSON. Такой режим не влияет на синтаксический анализ значений даты и времени. По умолчанию Loose . |
 
 ### Примечания
 
-Экземпляр этого класса может быть передан в конструкторы[`JsonDataSource`](../jsondatasource).
+Экземпляр этого класса может быть передан в конструкторы[`JsonDataSource`](../jsondatasource) .
 
 ### Смотрите также
 

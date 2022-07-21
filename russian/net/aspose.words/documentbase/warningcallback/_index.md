@@ -16,49 +16,42 @@ public IWarningCallback WarningCallback { get; set; }
 
 ### Примечания
 
-Документ может генерировать предупреждения на любом этапе своего существования, поэтому важно настроить обратный вызов предупреждения как как можно раньше, чтобы избежать потери предупреждений. Например, такие свойства, как[`PageCount`](../../document/pagecount) фактически создают макет документа, который используется в дальнейшем для рендеринга, и предупреждения макета могут быть потеряны, если::Обратный вызов:47:::warning указывается только для последующих вызовов рендеринга.
+Документ может генерировать предупреждения на любом этапе своего существования, поэтому важно настроить обратный вызов предупреждения as как можно раньше, чтобы избежать потери предупреждений. Например, такие свойства, как[`PageCount`](../../document/pagecount) на самом деле создает макет документа, который позже используется для рендеринга, и предупреждения макета могут быть потеряны, если обратный вызов предупреждения указан только для вызовов рендеринга позже.
 
 ### Примеры
 
-Показывает, как использовать интерфейс IWarningCallback для мониторинга предупреждений о замене шрифта.
+Показывает, как использовать интерфейс IWarningCallback для отслеживания предупреждений о замене шрифта.
 
 ```csharp
-[Test]
-public void EnableFontSubstitution()
 {
-    // Откройте документ, содержащий текст, отформатированный шрифтом, которого нет ни в одном из наших источников шрифтов.
-    Document doc = new Document(MyDir + "Missing font.docx");
+    Document doc = new Document();
+    DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Назначаем обратный вызов для обработки предупреждений о замене шрифта.
-    HandleDocumentSubstitutionWarnings substitutionWarningHandler = new HandleDocumentSubstitutionWarnings();
-    doc.WarningCallback = substitutionWarningHandler;
+    builder.Font.Name = "Times New Roman";
+    builder.Writeln("Hello world!");
 
-    // Установите имя шрифта по умолчанию и включите замену шрифта.
-    FontSettings fontSettings = new FontSettings();
-    fontSettings.SubstitutionSettings.DefaultFontSubstitution.DefaultFontName = "Arial";
-    ;
-    fontSettings.SubstitutionSettings.FontInfoSubstitution.Enabled = true;
+    FontSubstitutionWarningCollector callback = new FontSubstitutionWarningCollector();
+    doc.WarningCallback = callback;
 
-    // Мы получим предупреждение о замене шрифта, если сохраним документ с отсутствующим шрифтом.
-    doc.FontSettings = fontSettings;
-    doc.Save(ArtifactsDir + "FontSettings.EnableFontSubstitution.pdf");
+    // Сохраняем текущую коллекцию источников шрифтов, которая будет источником шрифтов по умолчанию для каждого документа
+    // для которого мы не указываем другой источник шрифта.
+    FontSourceBase[] originalFontSources = FontSettings.DefaultInstance.GetFontsSources();
 
-    using (IEnumerator<WarningInfo> warnings = substitutionWarningHandler.FontWarnings.GetEnumerator())
-        while (warnings.MoveNext())
-            Console.WriteLine(warnings.Current.Description);
+    // В целях тестирования мы настроим Aspose.Words на поиск шрифтов только в несуществующей папке.
+    FontSettings.DefaultInstance.SetFontsFolder(string.Empty, false);
 
-    // Мы также можем проверять предупреждения в коллекции и очищать их.
-    Assert.AreEqual(WarningSource.Layout, substitutionWarningHandler.FontWarnings[0].Source);
-    Assert.AreEqual(
-        "Font '28 Days Later' has not been found. Using 'Calibri' font instead. Reason: alternative name from document.",
-        substitutionWarningHandler.FontWarnings[0].Description);
+    // При рендеринге документа негде будет найти шрифт "Times New Roman".
+    // Это вызовет предупреждение о замене шрифта, которое обнаружит наш обратный вызов.
+    doc.Save(ArtifactsDir + "FontSettings.SubstitutionWarning.pdf");
 
-    substitutionWarningHandler.FontWarnings.Clear();
+    FontSettings.DefaultInstance.SetFontsSources(originalFontSources);
 
-    Assert.That(substitutionWarningHandler.FontWarnings, Is.Empty);
+    Assert.True(callback.FontSubstitutionWarnings[0].Description
+        .Equals(
+            "Font 'Times New Roman' has not been found. Using 'Fanwood' font instead. Reason: first available font."));
 }
 
-public class HandleDocumentSubstitutionWarnings : IWarningCallback
+private class FontSubstitutionWarningCollector : IWarningCallback
 {
     /// <summary>
     /// Вызывается каждый раз, когда возникает предупреждение во время загрузки/сохранения.
@@ -66,14 +59,14 @@ public class HandleDocumentSubstitutionWarnings : IWarningCallback
     public void Warning(WarningInfo info)
     {
         if (info.WarningType == WarningType.FontSubstitution)
-            FontWarnings.Warning(info);
+            FontSubstitutionWarnings.Warning(info);
     }
 
-    public WarningInfoCollection FontWarnings = new WarningInfoCollection();
+    public WarningInfoCollection FontSubstitutionWarnings = new WarningInfoCollection();
 }
 ```
 
-Показывает, как установить свойство для поиска ближайшего соответствия отсутствующему шрифту из доступных источников шрифтов.
+Показывает, как задать свойство для поиска ближайшего соответствия отсутствующему шрифту из доступных источников шрифтов.
 
 ```csharp
 [Test]

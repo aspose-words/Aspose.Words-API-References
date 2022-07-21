@@ -18,19 +18,19 @@ public enum GradientVariant
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| None | `0` | 渐变变体“无”。 |
+| None | `0` | 渐变变体“无”. |
 | Variant1 | `1` | 梯度变体 1. |
 | Variant2 | `2` | 梯度变体 2. |
 | Variant3 | `3` | 梯度变体 3. |
-| Variant4 | `4` | 梯度变体 4. |
+| Variant4 | `4` | 渐变变体 4. |
 
 ### 评论
 
-对应于 Word 中填充效果对话框中渐变选项卡上的四个变体。
+对应 Word 中填充效果对话框中渐变选项卡上的四个变体。
 
 ### 例子
 
-显示如何使用渐变填充形状。
+展示如何用渐变填充形状。
 
 ```csharp
 Document doc = new Document();

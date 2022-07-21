@@ -16,7 +16,7 @@ public bool TickLabelSpacingIsAuto { get; set; }
 
 ### 评论
 
-默认值为 **true** 。
+默认值为 **真的**.
 
 该属性对文本类别和系列轴有效。 MS Office 2016 新图表不支持它。
 

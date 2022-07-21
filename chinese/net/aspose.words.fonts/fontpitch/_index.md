@@ -3,7 +3,7 @@ title: FontPitch
 second_title: Aspose.Words for .NET API 参考
 description: 表示字体间距
 type: docs
-weight: 2730
+weight: 2780
 url: /zh/net/aspose.words.fonts/fontpitch/
 ---
 ## FontPitch enumeration

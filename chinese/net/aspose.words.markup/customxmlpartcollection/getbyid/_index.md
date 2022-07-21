@@ -1,14 +1,14 @@
 ---
 title: GetById
 second_title: Aspose.Words for .NET API 参考
-description: 通过其标识符查找并返回自定义 XML 部分
+description: 按标识符查找并返回自定义 XML 部分
 type: docs
 weight: 70
 url: /zh/net/aspose.words.markup/customxmlpartcollection/getbyid/
 ---
 ## CustomXmlPartCollection.GetById method
 
-通过其标识符查找并返回自定义 XML 部分。
+按标识符查找并返回自定义 XML 部分。
 
 ```csharp
 public CustomXmlPart GetById(string id)
@@ -16,11 +16,11 @@ public CustomXmlPart GetById(string id)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| id | String | 区分大小写的字符串，用于标识自定义 XML 部分。 |
+| id | String | 标识自定义 XML 部分的区分大小写的字符串。 |
 
 ### 返回值
 
-如果未找到具有指定标识符的自定义 XML 部件，则返回` null` 。
+退货`无效的`如果未找到具有指定标识符的自定义 XML 部件。
 
 ### 例子
 

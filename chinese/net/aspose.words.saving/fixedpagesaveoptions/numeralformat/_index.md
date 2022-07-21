@@ -1,14 +1,14 @@
 ---
 title: NumeralFormat
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置NumeralFormataspose.words.saving/numeralformat用于呈现数字 默认使用欧洲数字
+description: 获取或设置NumeralFormataspose.words.saving/numeralformat用于渲染数字 默认使用欧洲数字
 type: docs
 weight: 40
 url: /zh/net/aspose.words.saving/fixedpagesaveoptions/numeralformat/
 ---
 ## FixedPageSaveOptions.NumeralFormat property
 
-获取或设置[`NumeralFormat`](../../numeralformat)用于呈现数字。 默认使用欧洲数字。
+获取或设置[`NumeralFormat`](../../numeralformat)用于渲染数字。 默认使用欧洲数字。
 
 ```csharp
 public NumeralFormat NumeralFormat { get; set; }
@@ -16,7 +16,7 @@ public NumeralFormat NumeralFormat { get; set; }
 
 ### 评论
 
-如果此属性的值已更改且页面布局已构建，则 [`UpdatePageLayout`](../../../aspose.words/document/updatepagelayout)被自动调用以更新任何更改。
+如果此属性的值已更改并且页面布局已构建，则 [`UpdatePageLayout`](../../../aspose.words/document/updatepagelayout)自动调用以更新任何更改。
 
 ### 例子
 

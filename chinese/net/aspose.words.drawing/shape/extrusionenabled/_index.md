@@ -16,7 +16,7 @@ public bool ExtrusionEnabled { get; }
 
 ### 例子
 
-显示如何迭代文档中的所有形状。
+演示如何遍历文档中的所有形状。
 
 ```csharp
 {

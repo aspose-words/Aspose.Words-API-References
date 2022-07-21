@@ -16,7 +16,7 @@ public Color Color2 { get; set; }
 
 ### 评论
 
-Shape的默认值是 White。
+的默认值[`Shape`](../../shape)是 White.
 
 ### 例子
 
@@ -27,8 +27,8 @@ Document doc = new Document(MyDir + "Shape stroke pattern border.docx");
 Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
 Stroke stroke = shape.Stroke;
 
- // 笔画可以有两种颜色，用于创建由双色调图像数据定义的图案。
- // 单一颜色的笔画不使用 Color2 属性。
+// 笔画可以有两种颜色，用于创建由双色调图像数据定义的图案。
+// 单一颜色的笔画不使用 Color2 属性。
 Assert.AreEqual(Color.FromArgb(255, 128, 0, 0), stroke.Color);
 Assert.AreEqual(Color.FromArgb(255, 255, 255, 0), stroke.Color2);
 

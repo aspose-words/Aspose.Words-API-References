@@ -1,14 +1,14 @@
 ---
 title: ExportXhtmlTransitional
 second_title: Справочник по API Aspose.Words для .NET
-description: Указывает следует ли записывать объявление DOCTYPE при сохранении в HTML или MHTML. Когда true  записывает объявление DOCTYPE в документ перед корневым элементом. Значение по умолчанию false . При сохранении в EPUB или HTML5 Html5 всегда записывается объявление DOCTYPE .
+description: Указывает следует ли записывать объявление DOCTYPE при сохранении в HTML или MHTML. Когдаистинный  записывает объявление DOCTYPE в документ перед корневым элементом. Значение по умолчаниюЛОЖЬ. При сохранении в EPUB или HTML5 Html5  всегда записывается объявление DOCTYPE .
 type: docs
 weight: 290
 url: /ru/net/aspose.words.saving/htmlsaveoptions/exportxhtmltransitional/
 ---
 ## HtmlSaveOptions.ExportXhtmlTransitional property
 
-Указывает, следует ли записывать объявление DOCTYPE при сохранении в HTML или MHTML. Когда` true` , записывает объявление DOCTYPE в документ перед корневым элементом. Значение по умолчанию:` false` . При сохранении в EPUB или HTML5 (Html5) всегда записывается объявление DOCTYPE .
+Указывает, следует ли записывать объявление DOCTYPE при сохранении в HTML или MHTML. Когда`истинный` , записывает объявление DOCTYPE в документ перед корневым элементом. Значение по умолчанию:`ЛОЖЬ`. При сохранении в EPUB или HTML5 (Html5 ) всегда записывается объявление DOCTYPE .
 
 ```csharp
 public bool ExportXhtmlTransitional { get; set; }
@@ -18,11 +18,17 @@ public bool ExportXhtmlTransitional { get; set; }
 
 Aspose.Words всегда пишет правильно сформированный HTML, независимо от этой настройки.
 
-Когда` true` , начало выходного HTML-документа будет выглядеть так:
+Когда`истинный`, начало выходного HTML-документа будет выглядеть так:
 
-&lt;code&gt; &lt;?xml version="1.0" encoding="utf-8" standalone="no" ?&gt; &lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3 .org/TR/xhtml1/DTD/xhtml1-transitional.dtd"&gt; &lt;html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"&gt; &lt;/code&gt;
+Aspose.Words стремится выводить XHTML в соответствии со спецификацией XHTML 1.0 Transitional, , но вывод не всегда будет проверяться на соответствие DTD. Некоторые структуры внутри документа Microsoft Word трудно или невозможно сопоставить с документом, который будет проверяться на соответствие схеме XHTML. Например, XHTML не допускает вложенных списков (UL не может быть вложен в другой элемент UL), но в документе Microsoft Word многоуровневые списки встречаются довольно часто.
 
-Aspose.Words нацелен на вывод XHTML в соответствии со спецификацией XHTML 1.0 Transitional, но вывод не всегда будет соответствовать DTD. Некоторые структуры внутри документа Microsoft Word трудно или невозможно сопоставить с документом, который будет проверяться на соответствие схеме XHTML. Например, XHTML не допускает вложенных списков (UL не может быть вложен в другой элемент UL), но в документе Microsoft Word многоуровневые списки встречаются довольно часто.
+```csharp
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<!DOCTYPE html 
+      PUBLIC "-//W3C//DTD XHTML 1.0 Переходный//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+```
 
 ### Примеры
 

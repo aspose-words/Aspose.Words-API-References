@@ -1,14 +1,14 @@
 ---
 title: SpellingChecked
 second_title: Aspose.Words for .NET API 参考
-description: 返回 true 如果已检查文档的拼写
+description: 返回 真的如果文档已检查拼写
 type: docs
 weight: 390
 url: /zh/net/aspose.words/document/spellingchecked/
 ---
 ## Document.SpellingChecked property
 
-返回 **true** 如果已检查文档的拼写。
+返回 **真的**如果文档已检查拼写。
 
 ```csharp
 public bool SpellingChecked { get; set; }
@@ -16,7 +16,7 @@ public bool SpellingChecked { get; set; }
 
 ### 评论
 
-要重新检查文档中的拼写，请将此属性设置为 **假** 。
+要重新检查文档中的拼写，请将此属性设置为 **错误的**.
 
 ### 例子
 

@@ -1,14 +1,14 @@
 ---
 title: ArrowType
 second_title: Aspose.Words for .NET API 参考
-description: 指定行尾的箭头类型
+description: 指定行尾箭头的类型
 type: docs
 weight: 480
 url: /zh/net/aspose.words.drawing/arrowtype/
 ---
 ## ArrowType enumeration
 
-指定行尾的箭头类型。
+指定行尾箭头的类型。
 
 ```csharp
 public enum ArrowType
@@ -18,13 +18,13 @@ public enum ArrowType
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| None | `0` | 该行末尾没有箭头。 |
+| None | `0` | 行尾没有箭头。 |
 | Arrow | `1` | 箭头是实心三角形。 |
 | Stealth | `2` | 箭是“隐形”箭。 |
-| Diamond | `3` | 行尾是实心菱形。 |
-| Oval | `4` | 行尾是一个实心椭圆。 |
-| Open | `5` | 箭头是开放箭头。 |
-| Default | `0` | 与None相同。 |
+| Diamond | `3` | 线端是实心菱形。 |
+| Oval | `4` | 线端是一个实心椭圆。 |
+| Open | `5` | 箭头是一个开放的箭头。 |
+| Default | `0` | 同None. |
 
 ### 例子
 
@@ -34,9 +34,9 @@ public enum ArrowType
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
- // 下面是我们可以插入到文档中的四个形状示例。
- // 1 - 虚线、水平、半透明红线
- // 左端有一个箭头，右端有一个菱形：
+// 下面是我们可以插入到文档中的四个形状示例。
+// 1 - 虚线、水平、半透明红线
+// 左端有一个箭头，右端有一个菱形：
 Shape arrow = new Shape(doc, ShapeType.Line);
 arrow.Width = 200;
 arrow.Stroke.Color = Color.Red;
@@ -53,7 +53,7 @@ Assert.AreEqual(JoinStyle.Miter, arrow.Stroke.JoinStyle);
 
 builder.InsertNode(arrow);
 
- // 2 - 带有圆形末端的粗黑色对角线：
+// 2 - 带有圆形末端的粗黑色对角线：
 Shape line = new Shape(doc, ShapeType.Line);
 line.Top = 40;
 line.Width = 200;
@@ -63,7 +63,7 @@ line.Stroke.EndCap = EndCap.Round;
 
 builder.InsertNode(line);
 
- // 3 - 带绿色填充的箭头：
+// 3 - 带绿色填充的箭头：
 Shape filledInArrow = new Shape(doc, ShapeType.Arrow);
 filledInArrow.Width = 200;
 filledInArrow.Height = 40;
@@ -73,7 +73,7 @@ filledInArrow.Fill.Visible = true;
 
 builder.InsertNode(filledInArrow);
 
- // 4 - 用 Aspose 标志填充的翻转方向箭头：
+// 4 - 用 Aspose 标志填充的翻转方向的箭头：
 Shape filledInArrowImg = new Shape(doc, ShapeType.Arrow);
 filledInArrowImg.Width = 200;
 filledInArrowImg.Height = 40;
@@ -85,8 +85,8 @@ byte[] imageBytes = File.ReadAllBytes(ImageDir + "Logo.jpg");
 using (MemoryStream stream = new MemoryStream(imageBytes))
 {
     Image image = Image.FromStream(stream);
-     // 当我们翻转箭头的方向时，我们也翻转了箭头包含的图像。
-     // 以另一种方式翻转图像以取消它，然后再让形状显示它。
+    // 当我们翻转箭头的方向时，我们也翻转了箭头包含的图像。
+    // 在让形状显示它之前，以另一种方式翻转图像以取消它。
     image.RotateFlip(RotateFlipType.RotateNoneFlipXY);
 
     filledInArrowImg.ImageData.SetImage(image);

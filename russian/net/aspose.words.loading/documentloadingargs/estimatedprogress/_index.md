@@ -1,14 +1,14 @@
 ---
 title: EstimatedProgress
 second_title: Справочник по API Aspose.Words для .NET
-description: Общий предполагаемый прогресс в процентах.
+description: Общий расчетный процент прогресса.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.loading/documentloadingargs/estimatedprogress/
 ---
 ## DocumentLoadingArgs.EstimatedProgress property
 
-Общий предполагаемый прогресс в процентах.
+Общий расчетный процент прогресса.
 
 ```csharp
 public double EstimatedProgress { get; }

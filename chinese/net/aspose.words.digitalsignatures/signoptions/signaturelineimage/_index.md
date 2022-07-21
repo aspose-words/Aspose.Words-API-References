@@ -1,14 +1,14 @@
 ---
 title: SignatureLineImage
 second_title: Aspose.Words for .NET API 参考
-description: 将在关联SignatureLineaspose.words.drawing/signatureline中显示的图像 默认值为 null 
+description: 将在关联中显示的图像SignatureLineaspose.words.drawing/signatureline. 默认值为无效的
 type: docs
 weight: 60
 url: /zh/net/aspose.words.digitalsignatures/signoptions/signaturelineimage/
 ---
 ## SignOptions.SignatureLineImage property
 
-将在关联[`SignatureLine`](../../../aspose.words.drawing/signatureline)中显示的图像。 默认值为` null` 。
+将在关联中显示的图像[`SignatureLine`](../../../aspose.words.drawing/signatureline). 默认值为`无效的`
 
 ```csharp
 public byte[] SignatureLineImage { get; set; }

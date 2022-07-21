@@ -1,14 +1,14 @@
 ---
 title: Transparency
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置一个表示渐变填充透明度的值 表示为 0.0 到 1.0 范围内的百分比
+description: 获取或设置一个表示渐变的透明度的值 fill 表示为 0.0 到 1.0 范围内的百分比
 type: docs
 weight: 40
 url: /zh/net/aspose.words.drawing/gradientstop/transparency/
 ---
 ## GradientStop.Transparency property
 
-获取或设置一个表示渐变填充透明度的值 表示为 0.0 到 1.0 范围内的百分比。
+获取或设置一个表示渐变的透明度的值 fill 表示为 0.0 到 1.0 范围内的百分比。
 
 ```csharp
 public double Transparency { get; set; }

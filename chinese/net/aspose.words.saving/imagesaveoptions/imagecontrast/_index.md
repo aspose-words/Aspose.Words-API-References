@@ -18,11 +18,11 @@ public float ImageContrast { get; set; }
 
 此属性仅在保存为光栅图像格式时有效。
 
-默认值为 0.5。该值必须介于 0 和 1 之间。
+默认值为 0.5。该值必须在 0 和 1 之间的范围内。
 
 ### 例子
 
-显示如何在 Aspose.Words 将文档转换为一。
+展示如何在 Aspose.Words 将文档转换为文档时编辑图像。
 
 ```csharp
 Document doc = new Document();

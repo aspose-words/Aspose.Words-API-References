@@ -1,14 +1,14 @@
 ---
 title: LineUnitBefore
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置段落前的间距量以网格线为单位
+description: 获取或设置段落前的间距以网格线为单位
 type: docs
 weight: 220
 url: /zh/net/aspose.words/paragraphformat/lineunitbefore/
 ---
 ## ParagraphFormat.LineUnitBefore property
 
-获取或设置段落前的间距量（以网格线为单位）。
+获取或设置段落前的间距（以网格线为单位）。
 
 ```csharp
 public double LineUnitBefore { get; set; }

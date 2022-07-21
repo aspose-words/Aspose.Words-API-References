@@ -1,14 +1,14 @@
 ---
 title: Borders
 second_title: Справочник по API Aspose.Words для .NET
-description: Получает набор границ страницы.
+description: Получает коллекцию границ страницы.
 type: docs
 weight: 50
 url: /ru/net/aspose.words/pagesetup/borders/
 ---
 ## PageSetup.Borders property
 
-Получает набор границ страницы.
+Получает коллекцию границ страницы.
 
 ```csharp
 public BorderCollection Borders { get; }

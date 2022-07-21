@@ -1,14 +1,14 @@
 ---
 title: UserAddress
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置当前用户的邮政地址
+description: 获取或设置当前用户的邮寄地址
 type: docs
 weight: 20
 url: /zh/net/aspose.words.fields/fielduseraddress/useraddress/
 ---
 ## FieldUserAddress.UserAddress property
 
-获取或设置当前用户的邮政地址。
+获取或设置当前用户的邮寄地址。
 
 ```csharp
 public string UserAddress { get; set; }

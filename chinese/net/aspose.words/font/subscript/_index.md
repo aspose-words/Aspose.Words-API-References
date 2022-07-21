@@ -8,7 +8,7 @@ url: /zh/net/aspose.words/font/subscript/
 ---
 ## Font.Subscript property
 
-如果字体格式为下标，则为真。
+如果字体格式为下标则为真。
 
 ```csharp
 public bool Subscript { get; set; }

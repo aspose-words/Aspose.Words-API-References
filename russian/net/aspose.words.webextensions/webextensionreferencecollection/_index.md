@@ -3,7 +3,7 @@ title: WebExtensionReferenceCollection
 second_title: Справочник по API Aspose.Words для .NET
 description: Задает список ссылок на веб-расширения.
 type: docs
-weight: 6450
+weight: 6500
 url: /ru/net/aspose.words.webextensions/webextensionreferencecollection/
 ---
 ## WebExtensionReferenceCollection class

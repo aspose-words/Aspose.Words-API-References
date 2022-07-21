@@ -1,14 +1,14 @@
 ---
 title: JpegQuality
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置确定 Html 文档中 JPEG 图像质量的值
+description: 获取或设置一个值确定 Html 文档中 JPEG 图像的质量
 type: docs
 weight: 20
 url: /zh/net/aspose.words.saving/fixedpagesaveoptions/jpegquality/
 ---
 ## FixedPageSaveOptions.JpegQuality property
 
-获取或设置确定 Html 文档中 JPEG 图像质量的值。
+获取或设置一个值，确定 Html 文档中 JPEG 图像的质量。
 
 ```csharp
 public int JpegQuality { get; set; }
@@ -16,15 +16,15 @@ public int JpegQuality { get; set; }
 
 ### 评论
 
-仅在文档包含 JPEG 图像时有效。
+仅当文档包含 JPEG 图像时才有效。
 
-当以固定页面格式保存时，使用此属性获取或设置文档内图像的质量。 该值可能在 0 到 100 之间变化，其中 0 表示质量最差但压缩率最高，100 表示质量最好但压缩率最低。
+当以固定页面格式保存时，使用此属性获取或设置文档中图像的质量。 该值可能在 0 到 100 之间变化，其中 0 表示质量最差但压缩最大，100 表示质量最好但压缩最小。
 
 默认值为 95。
 
 ### 例子
 
-显示如何配置压缩，同时将文档保存为 JPEG。
+显示如何在将文档另存为 JPEG 时配置压缩。
 
 ```csharp
 Document doc = new Document();

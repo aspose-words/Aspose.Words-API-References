@@ -3,7 +3,7 @@ title: OoxmlCompliance
 second_title: Aspose.Words for .NET API 参考
 description: 允许指定以 DOCX 格式保存时将使用的 OOXML 规范
 type: docs
-weight: 5010
+weight: 5060
 url: /zh/net/aspose.words.saving/ooxmlcompliance/
 ---
 ## OoxmlCompliance enumeration
@@ -18,40 +18,33 @@ public enum OoxmlCompliance
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| Ecma376_2006 | `0` | ECMA-376 第 1 版，2006 年。 |
+| Ecma376_2006 | `0` | ECMA-376 第 1 版，2006. |
 | Iso29500_2008_Transitional | `1` | ISO/IEC 29500:2008 过渡合规级别。 |
-| Iso29500_2008_Strict | `2` | ISO/IEC 29500:2008 严格的合规级别。 |
+| Iso29500_2008_Strict | `2` | ISO/IEC 29500:2008 严格合规级别。 |
 
 ### 例子
 
-展示如何将 DML 形状插入到文档中。
+演示如何将 DML 形状插入到文档中。
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 如果我们配置兼容性选项以符合 Microsoft Word 2003，
-// 插入图像将使用 VML 定义其形状。
-doc.CompatibilityOptions.OptimizeFor(MsWordVersion.Word2003);
-builder.InsertImage(ImageDir + "Transparent background logo.png");
+// 下面是形状可能具有的两种包装类型。
+// 1 - 浮动：
+builder.InsertShape(ShapeType.TopCornersRounded, RelativeHorizontalPosition.Page, 100, 
+        RelativeVerticalPosition.Page, 100, 50, 50, WrapType.None);
 
-Assert.AreEqual(ShapeMarkupLanguage.Vml, ((Shape)doc.GetChild(NodeType.Shape, 0, true)).MarkupLanguage);
+// 2 - 内联：
+builder.InsertShape(ShapeType.DiagonalCornersRounded, 50, 50);
 
-// “ISO/IEC 29500:2008”OOXML 标准不支持 VML 形状。
-// 如果我们将 SaveOptions 对象的“Compliance”属性设置为“OoxmlCompliance.Iso29500_2008_Strict”，
- // 我们在传递此对象时保存的任何文档都必须遵循该标准。
-OoxmlSaveOptions saveOptions = new OoxmlSaveOptions
-{
-    Compliance = OoxmlCompliance.Iso29500_2008_Strict,
-    SaveFormat = SaveFormat.Docx
-};
+// 如果需要创建“非原始”形状，例如 SingleCornerSnipped、TopCornersSnipped、DiagonalCornersSnipped、
+// TopCornersOneRoundedOneSnipped、SingleCornerRounded、TopCornersRounded 或 DiagonalCornersRounded,
+// 然后以“严格”或“过渡”合规性保存文档，这允许将形状保存为 DML。
+OoxmlSaveOptions saveOptions = new OoxmlSaveOptions(SaveFormat.Docx);
+saveOptions.Compliance = OoxmlCompliance.Iso29500_2008_Transitional;
 
-doc.Save(ArtifactsDir + "OoxmlSaveOptions.Iso29500Strict.docx", saveOptions);
-
-// 我们保存的文档使用 DML 定义形状以符合“ISO/IEC 29500:2008”OOXML 标准。
-doc = new Document(ArtifactsDir + "OoxmlSaveOptions.Iso29500Strict.docx");
-
-Assert.AreEqual(ShapeMarkupLanguage.Dml, ((Shape)doc.GetChild(NodeType.Shape, 0, true)).MarkupLanguage);
+doc.Save(ArtifactsDir + "Shape.ShapeInsertion.docx", saveOptions);
 ```
 
 显示如何配置列表以在每个部分重新开始编号。
@@ -60,31 +53,34 @@ Assert.AreEqual(ShapeMarkupLanguage.Dml, ((Shape)doc.GetChild(NodeType.Shape, 0,
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 如果我们配置兼容性选项以符合 Microsoft Word 2003，
-// 插入图像将使用 VML 定义其形状。
-doc.CompatibilityOptions.OptimizeFor(MsWordVersion.Word2003);
-builder.InsertImage(ImageDir + "Transparent background logo.png");
+doc.Lists.Add(ListTemplate.NumberDefault);
 
-Assert.AreEqual(ShapeMarkupLanguage.Vml, ((Shape)doc.GetChild(NodeType.Shape, 0, true)).MarkupLanguage);
+Aspose.Words.Lists.List list = doc.Lists[0];
+list.IsRestartAtEachSection = restartListAtEachSection;
 
-// “ISO/IEC 29500:2008”OOXML 标准不支持 VML 形状。
-// 如果我们将 SaveOptions 对象的“Compliance”属性设置为“OoxmlCompliance.Iso29500_2008_Strict”，
- // 我们在传递此对象时保存的任何文档都必须遵循该标准。
-OoxmlSaveOptions saveOptions = new OoxmlSaveOptions
+// “IsRestartAtEachSection”属性仅在以下情况下适用
+// 文档的 OOXML 合规级别是比“OoxmlComplianceCore.Ecma376”更新的标准。
+OoxmlSaveOptions options = new OoxmlSaveOptions
 {
-    Compliance = OoxmlCompliance.Iso29500_2008_Strict,
-    SaveFormat = SaveFormat.Docx
+    Compliance = OoxmlCompliance.Iso29500_2008_Transitional
 };
 
-doc.Save(ArtifactsDir + "OoxmlSaveOptions.Iso29500Strict.docx", saveOptions);
+builder.ListFormat.List = list;
 
-// 我们保存的文档使用 DML 定义形状以符合“ISO/IEC 29500:2008”OOXML 标准。
-doc = new Document(ArtifactsDir + "OoxmlSaveOptions.Iso29500Strict.docx");
+builder.Writeln("List item 1");
+builder.Writeln("List item 2");
+builder.InsertBreak(BreakType.SectionBreakNewPage);
+builder.Writeln("List item 3");
+builder.Writeln("List item 4");
 
-Assert.AreEqual(ShapeMarkupLanguage.Dml, ((Shape)doc.GetChild(NodeType.Shape, 0, true)).MarkupLanguage);
+doc.Save(ArtifactsDir + "OoxmlSaveOptions.RestartingDocumentList.docx", options);
+
+doc = new Document(ArtifactsDir + "OoxmlSaveOptions.RestartingDocumentList.docx");
+
+Assert.AreEqual(restartListAtEachSection, doc.Lists[0].IsRestartAtEachSection);
 ```
 
-显示如何为保存的文档设置 OOXML 合规性规范以遵守。
+演示如何设置要遵守的已保存文档的 OOXML 合规性规范。
 
 ```csharp
 Document doc = new Document();

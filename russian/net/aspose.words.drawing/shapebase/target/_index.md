@@ -3,7 +3,7 @@ title: Target
 second_title: Справочник по API Aspose.Words для .NET
 description: Получает или задает целевой кадр для гиперссылки формы.
 type: docs
-weight: 470
+weight: 480
 url: /ru/net/aspose.words.drawing/shapebase/target/
 ---
 ## ShapeBase.Target property

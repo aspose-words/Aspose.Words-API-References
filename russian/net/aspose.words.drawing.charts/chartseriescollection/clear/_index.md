@@ -1,14 +1,14 @@
 ---
 title: Clear
 second_title: Справочник по API Aspose.Words для .NET
-description: Удаляет всеChartSeriesaspose.words.drawing.charts/chartseriesиз этой коллекции.
+description: Удаляет всеChartSeriesaspose.words.drawing.charts/chartseries из этой коллекции.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.drawing.charts/chartseriescollection/clear/
 ---
 ## ChartSeriesCollection.Clear method
 
-Удаляет все[`ChartSeries`](../../chartseries)из этой коллекции.
+Удаляет все[`ChartSeries`](../../chartseries) из этой коллекции.
 
 ```csharp
 public void Clear()
@@ -16,7 +16,7 @@ public void Clear()
 
 ### Примеры
 
-Показывает, как добавлять и удалять ряды данных в диаграмме.
+Показывает, как добавлять и удалять ряды данных на диаграмме.
 
 ```csharp
 Document doc = new Document();
@@ -54,7 +54,7 @@ chartData.RemoveAt(2);
 
 Assert.False(chartData.Any(s => s.Name == "Series 3"));
 
-// С помощью этого метода мы также можем сразу очистить все данные диаграммы.
+// С помощью этого метода мы также можем очистить все данные графика сразу.
 // При создании нового графика это способ стереть все демонстрационные данные
 // прежде чем мы сможем начать работу с пустой диаграммой.
 chartData.Clear();

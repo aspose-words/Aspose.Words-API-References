@@ -1,14 +1,14 @@
 ---
 title: EndField
 second_title: Справочник по API Aspose.Words для .NET
-description: Возвращает конечное поле для области.
+description: Возвращает конечное поле для региона.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.mailmerging/mailmergeregioninfo/endfield/
 ---
 ## MailMergeRegionInfo.EndField property
 
-Возвращает конечное поле для области.
+Возвращает конечное поле для региона.
 
 ```csharp
 public FieldMergeField EndField { get; }
@@ -16,15 +16,15 @@ public FieldMergeField EndField { get; }
 
 ### Примеры
 
-Показывает, как проверять регионы слияния.
+Показывает, как проверить регионы слияния.
 
 ```csharp
 Document doc = new Document(MyDir + "Mail merge regions.docx");
 
- // Возвращает полную иерархию областей слияния, содержащих поля MERGEFIELD, доступные в документе.
+// Возвращает полную иерархию областей слияния, содержащих поля MERGEFIELD, доступные в документе.
 MailMergeRegionInfo regionInfo = doc.MailMerge.GetRegionsHierarchy();
 
- // Получить верхние регионы в документе.
+// Получить верхние регионы в документе.
 IList<MailMergeRegionInfo> topRegions = regionInfo.Regions;
 
 Assert.AreEqual(2, topRegions.Count);
@@ -33,7 +33,7 @@ Assert.AreEqual("Region2", topRegions[1].Name);
 Assert.AreEqual(1, topRegions[0].Level);
 Assert.AreEqual(1, topRegions[1].Level);
 
- // Получить вложенный регион в первом верхнем регионе.
+// Получить вложенную область в первой верхней области.
 IList<MailMergeRegionInfo> nestedRegions = topRegions[0].Regions;
 
 Assert.AreEqual(2, nestedRegions.Count);
@@ -42,7 +42,7 @@ Assert.AreEqual("NestedRegion2", nestedRegions[1].Name);
 Assert.AreEqual(2, nestedRegions[0].Level);
 Assert.AreEqual(2, nestedRegions[1].Level);
 
- // Получить список полей внутри первой верхней области.
+// Получить список полей внутри первой верхней области.
 IList<Field> fieldList = topRegions[0].Fields;
 
 Assert.AreEqual(4, fieldList.Count);

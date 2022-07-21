@@ -1,14 +1,14 @@
 ---
 title: SaveFormat
 second_title: Aspose.Words for .NET API 参考
-description: 如果使用此保存选项对象则指定保存文档的格式 只能是XamlFlow
+description: 指定使用此保存选项对象时文档将保存的格式 只能是XamlFlow.
 type: docs
 weight: 50
 url: /zh/net/aspose.words.saving/xamlflowsaveoptions/saveformat/
 ---
 ## XamlFlowSaveOptions.SaveFormat property
 
-如果使用此保存选项对象，则指定保存文档的格式。 只能是XamlFlow。
+指定使用此保存选项对象时文档将保存的格式。 只能是XamlFlow.
 
 ```csharp
 public override SaveFormat SaveFormat { get; set; }
@@ -16,7 +16,7 @@ public override SaveFormat SaveFormat { get; set; }
 
 ### 例子
 
-显示如何打印在将文档转换为流格式 .xaml 时创建的链接图像的文件名。
+演示如何打印在将文档转换为流格式 .xaml 时创建的链接图像的文件名。
 
 ```csharp
 {

@@ -1,14 +1,14 @@
 ---
 title: InternalMarginBottom
 second_title: Справочник по API Aspose.Words для .NET
-description: Задает внутреннее нижнее поле в пунктах для фигуры.
+description: Указывает внутреннее нижнее поле в точках для фигуры.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.drawing/textbox/internalmarginbottom/
 ---
 ## TextBox.InternalMarginBottom property
 
-Задает внутреннее нижнее поле в пунктах для фигуры.
+Указывает внутреннее нижнее поле в точках для фигуры.
 
 ```csharp
 public double InternalMarginBottom { get; set; }
@@ -16,7 +16,7 @@ public double InternalMarginBottom { get; set; }
 
 ### Примечания
 
-Значение по умолчанию 1/20 дюйма.
+Значение по умолчанию — 1/20 дюйма.
 
 ### Примеры
 

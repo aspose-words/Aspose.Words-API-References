@@ -1,14 +1,14 @@
 ---
 title: UseYomi
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置是否为索引条目启用读音文本
+description: 获取或设置是否为索引条目启用yomi文本
 type: docs
 weight: 170
 url: /zh/net/aspose.words.fields/fieldindex/useyomi/
 ---
 ## FieldIndex.UseYomi property
 
-获取或设置是否为索引条目启用读音文本。
+获取或设置是否为索引条目启用yomi文本。
 
 ```csharp
 public bool UseYomi { get; set; }

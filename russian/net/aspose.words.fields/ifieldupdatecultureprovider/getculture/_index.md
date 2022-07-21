@@ -1,14 +1,14 @@
 ---
 title: GetCulture
 second_title: Справочник по API Aspose.Words для .NET
-description: Возвращает объектCultureInfo который будет использоваться во время обновления поля.
+description: ВозвращаетCultureInfo объект который будет использоваться во время обновления поля.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.fields/ifieldupdatecultureprovider/getculture/
 ---
 ## IFieldUpdateCultureProvider.GetCulture method
 
-Возвращает объектCultureInfo, который будет использоваться во время обновления поля.
+ВозвращаетCultureInfo объект, который будет использоваться во время обновления поля.
 
 ```csharp
 public CultureInfo GetCulture(string culture, Field field)
@@ -16,8 +16,8 @@ public CultureInfo GetCulture(string culture, Field field)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| culture | String | Имя культуры, запрашиваемой для обновляемого поля. |
-| field | Field | Обновляемое поле. |
+| culture | String | Имя языка и региональных параметров, запрошенное для обновляемого поля. |
+| field | Field | Поле обновляется. |
 
 ### Возвращаемое значение
 
@@ -25,7 +25,7 @@ public CultureInfo GetCulture(string culture, Field field)
 
 ### Примеры
 
-Показывает, как указать язык и региональные параметры, которые анализируют формат даты/времени для каждого поля.
+Показывает, как указать язык и региональные параметры, которые анализируют форматирование даты и времени для каждого поля.
 
 ```csharp
 [Test]
@@ -38,7 +38,7 @@ public void DefineDateTimeFormatting()
 
     doc.FieldOptions.FieldUpdateCultureSource = FieldUpdateCultureSource.FieldCode;
 
-     // Установить провайдера, который возвращает объект культуры для каждого поля.
+    // Установить провайдера, который возвращает объект культуры для каждого поля.
     doc.FieldOptions.FieldUpdateCultureProvider = new FieldUpdateCultureProvider();
 
     FieldTime fieldDate = (FieldTime)doc.Range.Fields[0];
@@ -49,12 +49,12 @@ public void DefineDateTimeFormatting()
 }
 
 /// <summary>
- /// Предоставляет объект CultureInfo, который следует использовать во время обновления поля.
+/// Предоставляет объект CultureInfo, который следует использовать во время обновления поля.
 /// </summary>
 private class FieldUpdateCultureProvider : IFieldUpdateCultureProvider
 {
     /// <summary>
-     /// Возвращает объект CultureInfo, который будет использоваться во время обновления поля.
+    /// Возвращает объект CultureInfo, который будет использоваться во время обновления поля.
     /// </summary>
     public CultureInfo GetCulture(string name, Field field)
     {

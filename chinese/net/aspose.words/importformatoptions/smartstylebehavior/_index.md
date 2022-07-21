@@ -1,14 +1,14 @@
 ---
 title: SmartStyleBehavior
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置一个布尔值该值指定样式在源文档和目标文档中具有相同名称时如何导入  默认值为 false 
+description: 获取或设置一个布尔值用于指定样式在源文档和目标文档中具有相同名称时的导入方式  默认值为错误的.
 type: docs
 weight: 70
 url: /zh/net/aspose.words/importformatoptions/smartstylebehavior/
 ---
 ## ImportFormatOptions.SmartStyleBehavior property
 
-获取或设置一个布尔值，该值指定样式在源文档和目标文档中具有相同名称时如何导入 。 默认值为` false` 。
+获取或设置一个布尔值，用于指定样式在源文档和目标文档中具有相同名称时的导入方式 。 默认值为`错误的`.
 
 ```csharp
 public bool SmartStyleBehavior { get; set; }
@@ -16,13 +16,13 @@ public bool SmartStyleBehavior { get; set; }
 
 ### 评论
 
-当此选项为 **启用** ，如果使用KeepSourceFormatting导入模式，源样式将扩展为 目标文档内的直接属性。
+当这个选项是 **启用**，源样式将扩展为a 目标文档内的直接属性，如果KeepSourceFormatting使用导入模式。
 
-当此选项为 **disabled** 时，源样式仅在编号时才会扩展。现有的 目标属性不会被覆盖，包括列表。
+当这个选项是 **禁用**源样式只有在被编号时才会被扩展。 Existing 目标属性不会被覆盖，包括列表。
 
 ### 例子
 
-显示如何在插入文档时解决重复样式。
+展示如何在插入文档时解决重复的样式。
 
 ```csharp
 Document dstDoc = new Document();

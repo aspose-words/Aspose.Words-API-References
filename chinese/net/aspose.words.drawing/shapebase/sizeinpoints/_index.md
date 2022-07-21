@@ -1,14 +1,14 @@
 ---
 title: SizeInPoints
 second_title: Aspose.Words for .NET API 参考
-description: 获取形状的大小以磅为单位
+description: 以点为单位获取形状的大小
 type: docs
-weight: 460
+weight: 470
 url: /zh/net/aspose.words.drawing/shapebase/sizeinpoints/
 ---
 ## ShapeBase.SizeInPoints property
 
-获取形状的大小（以磅为单位）。
+以点为单位获取形状的大小。
 
 ```csharp
 public SizeF SizeInPoints { get; }

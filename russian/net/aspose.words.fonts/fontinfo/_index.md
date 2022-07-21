@@ -1,14 +1,14 @@
 ---
 title: FontInfo
 second_title: Справочник по API Aspose.Words для .NET
-description: Задает информацию о шрифте используемом в документе.
+description: Указывает информацию о шрифте используемом в документе.
 type: docs
-weight: 2690
+weight: 2740
 url: /ru/net/aspose.words.fonts/fontinfo/
 ---
 ## FontInfo class
 
-Задает информацию о шрифте, используемом в документе.
+Указывает информацию о шрифте, используемом в документе.
 
 ```csharp
 public class FontInfo
@@ -23,23 +23,23 @@ public class FontInfo
 | [Family](../../aspose.words.fonts/fontinfo/family) { get; set; } | Получает или задает семейство шрифтов, к которому принадлежит этот шрифт. |
 | [IsTrueType](../../aspose.words.fonts/fontinfo/istruetype) { get; set; } | Указывает, что данный шрифт является шрифтом TrueType или OpenType, а не растровым или векторным шрифтом. Значение по умолчанию — true. |
 | [Name](../../aspose.words.fonts/fontinfo/name) { get; } | Получает имя шрифта. |
-| [Panose](../../aspose.words.fonts/fontinfo/panose) { get; set; } | Получает или задает номер классификации шрифта PANOSE. |
-| [Pitch](../../aspose.words.fonts/fontinfo/pitch) { get; set; } | Шаг указывает, является ли шрифт фиксированным шагом, с пропорциональным интервалом или зависит от настройки по умолчанию. |
+| [Panose](../../aspose.words.fonts/fontinfo/panose) { get; set; } | Получает или задает классификационный номер гарнитуры шрифта PANOSE. |
+| [Pitch](../../aspose.words.fonts/fontinfo/pitch) { get; set; } | Шаг указывает, является ли шрифт фиксированным шагом, пропорциональным интервалом или зависит от настройки по умолчанию. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
 | [GetEmbeddedFont](../../aspose.words.fonts/fontinfo/getembeddedfont)(EmbeddedFontFormat, EmbeddedFontStyle) | Получает определенный встроенный файл шрифта. |
-| [GetEmbeddedFontAsOpenType](../../aspose.words.fonts/fontinfo/getembeddedfontasopentype)(EmbeddedFontStyle) | Получает встроенный файл шрифта в формате OpenType. Шрифты в формате Embedded OpenType преобразуются в OpenType. |
+| [GetEmbeddedFontAsOpenType](../../aspose.words.fonts/fontinfo/getembeddedfontasopentype)(EmbeddedFontStyle) | Получает встроенный файл шрифта в формате OpenType. Шрифты в формате Embedded OpenType конвертируются в OpenType. |
 
 ### Примечания
 
-Вы не создаете экземпляры этого класса напрямую. Используйте свойство[`FontInfos`](../../aspose.words/documentbase/fontinfos)для доступа к набору шрифтов , определенных в документе.
+Вы не создаете экземпляры этого класса напрямую. Используйте[`FontInfos`](../../aspose.words/documentbase/fontinfos) для доступа к коллекции шрифтов , определенных в документе.
 
 ### Примеры
 
-Показывает, как распечатать информацию о том, какие шрифты присутствуют в документе.
+Показывает, как напечатать сведения о том, какие шрифты присутствуют в документе.
 
 ```csharp
 Document doc = new Document(MyDir + "Embedded font.docx");

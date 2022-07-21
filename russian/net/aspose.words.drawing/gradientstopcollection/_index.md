@@ -1,14 +1,14 @@
 ---
 title: GradientStopCollection
 second_title: Справочник по API Aspose.Words для .NET
-description: Содержит набор объектовGradientStop./gradientstop.
+description: Содержит коллекциюGradientStop./gradientstop объекты.
 type: docs
 weight: 860
 url: /ru/net/aspose.words.drawing/gradientstopcollection/
 ---
 ## GradientStopCollection class
 
-Содержит набор объектов[`GradientStop`](../gradientstop).
+Содержит коллекцию[`GradientStop`](../gradientstop) объекты.
 
 ```csharp
 public class GradientStopCollection : IEnumerable<GradientStop>
@@ -19,21 +19,21 @@ public class GradientStopCollection : IEnumerable<GradientStop>
 | Имя | Описание |
 | --- | --- |
 | [Count](../../aspose.words.drawing/gradientstopcollection/count) { get; } | Получает целочисленное значение, указывающее количество элементов в коллекции. |
-| [Item](../../aspose.words.drawing/gradientstopcollection/item) { get; set; } | Получает или задает объект[`GradientStop`](../gradientstop)в коллекции. |
+| [Item](../../aspose.words.drawing/gradientstopcollection/item) { get; set; } | Получает или задает[`GradientStop`](../gradientstop) объект в коллекции. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [Add](../../aspose.words.drawing/gradientstopcollection/add)(GradientStop) | Добавляет указанный[`GradientStop`](../gradientstop)к градиенту. |
-| [GetEnumerator](../../aspose.words.drawing/gradientstopcollection/getenumerator)() | Возвращает перечислитель, который перебирает коллекцию. |
-| [Insert](../../aspose.words.drawing/gradientstopcollection/insert)(int, GradientStop) | Вставляет[`GradientStop`](../gradientstop)в коллекцию по указанному индексу. |
-| [Remove](../../aspose.words.drawing/gradientstopcollection/remove)(GradientStop) | Удаляет указанный[`GradientStop`](../gradientstop)из коллекции. |
-| [RemoveAt](../../aspose.words.drawing/gradientstopcollection/removeat)(int) | Удаляет элемент[`GradientStop`](../gradientstop)из коллекции по указанному индексу. |
+| [Add](../../aspose.words.drawing/gradientstopcollection/add)(GradientStop) | Добавляет указанный[`GradientStop`](../gradientstop) к градиенту. |
+| [GetEnumerator](../../aspose.words.drawing/gradientstopcollection/getenumerator)() | Возвращает перечислитель, который выполняет итерацию по коллекции. |
+| [Insert](../../aspose.words.drawing/gradientstopcollection/insert)(int, GradientStop) | Вставляет[`GradientStop`](../gradientstop) в коллекцию по указанному индексу. |
+| [Remove](../../aspose.words.drawing/gradientstopcollection/remove)(GradientStop) | Удаляет указанный[`GradientStop`](../gradientstop) из коллекции. |
+| [RemoveAt](../../aspose.words.drawing/gradientstopcollection/removeat)(int) | Удаляет[`GradientStop`](../gradientstop)из коллекции по указанному индексу. |
 
 ### Примечания
 
-Вы не создаете экземпляры этого класса напрямую. Используйте свойство[`GradientStops`](../fill/gradientstops)для доступа к точкам градиента объектов заливки.
+Вы не создаете экземпляры этого класса напрямую. Используйте[`GradientStops`](../fill/gradientstops) свойство для доступа к остановкам градиента объектов заливки.
 
 ### Примеры
 

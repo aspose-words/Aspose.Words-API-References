@@ -18,54 +18,46 @@ public class ComHelper
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ComHelper](comhelper)() | 初始化此类的新实例。 |
+| [ComHelper](comhelper)() | 初始化这个类的一个新实例。 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Open](../../aspose.words/comhelper/open#open)(Stream) | 允许 COM 应用程序从流中加载[`Document`](../document)。 |
-| [Open](../../aspose.words/comhelper/open#open_1)(string) | 允许 COM 应用程序从文件加载[`Document`](../document)。 |
-| [OpenIStream](../../aspose.words/comhelper/openistream)(IStream) | 允许 COM 应用程序从 IStream 对象加载[`Document`](../document)。 |
+| [Open](../../aspose.words/comhelper/open#open)(Stream) | 允许加载 COM 应用程序[`Document`](../document)来自流. |
+| [Open](../../aspose.words/comhelper/open#open_1)(string) | 允许 COM 应用程序加载[`Document`](../document)来自文件. |
+| [OpenIStream](../../aspose.words/comhelper/openistream)(IStream) | 允许 COM 应用程序加载[`Document`](../document)来自 IStream 对象。 |
 
 ### 评论
 
-使用[`ComHelper`](../comhelper)类将文件或流中的文档加载到 COM 应用程序中的 [`Document`](../document)对象中。
+使用[`ComHelper`](../comhelper)类将文档从文件或流加载到 [`Document`](../document) COM 应用程序中的对象。
 
-[`Document`](../document)类提供默认构造函数来创建新文档 和还提供了重载的构造函数来从文件或流中加载文档。 如果您在 .NET 应用程序中使用 Aspose.Words，您可以直接使用所有[`Document`](../document) 构造函数，但如果您在 COM 应用程序中使用 Aspose.Words，则 只有默认的[`Document`](../document)构造函数可用。
+这[`Document`](../document)类提供了一个默认构造函数来创建一个新的 document 并且还提供了重载的构造函数来从一个文件或流中加载一个文档。 如果你在一个 .NET 应用程序中使用 Aspose.Words，你可以使用所有的[`Document`](../document) 直接构造函数，但如果您从 COM 应用程序使用 Aspose.Words， 仅是默认值[`Document`](../document)构造函数可用。
 
 ### 例子
 
 ```csharp
- // ComHelper 类允许我们从 COM 客户端加载文档。
-ComHelper comHelper = new ComHelper();
+[VBScript]
 
- // 1 - 使用本地系统文件名：
-Document doc = comHelper.Open(MyDir + "Document.docx");
+Dim helper
+Set helper = CreateObject("Aspose.Words.ComHelper")
 
-Assert.AreEqual("Hello World!\r\rHello Word!\r\r\rHello World!", doc.GetText().Trim());
-
- // 2 - 来自流：
-using (FileStream stream = new FileStream(MyDir + "Document.docx", FileMode.Open))
-{
-    doc = comHelper.Open(stream);
-
-    Assert.AreEqual("Hello World!\r\rHello Word!\r\r\rHello World!", doc.GetText().Trim());
-}
+Dim doc
+Set doc = helper.Open(fileName)
 ```
 
-显示如何使用 ComHelper 类打开文档。
+演示如何使用 ComHelper 类打开文档。
 
 ```csharp
- // ComHelper 类允许我们从 COM 客户端加载文档。
+// ComHelper 类允许我们从 COM 客户端加载文档。
 ComHelper comHelper = new ComHelper();
 
- // 1 - 使用本地系统文件名：
+// 1 - 使用本地系统文件名：
 Document doc = comHelper.Open(MyDir + "Document.docx");
 
 Assert.AreEqual("Hello World!\r\rHello Word!\r\r\rHello World!", doc.GetText().Trim());
 
- // 2 - 来自流：
+// 2 - 从流中：
 using (FileStream stream = new FileStream(MyDir + "Document.docx", FileMode.Open))
 {
     doc = comHelper.Open(stream);

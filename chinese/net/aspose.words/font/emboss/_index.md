@@ -8,7 +8,7 @@ url: /zh/net/aspose.words/font/emboss/
 ---
 ## Font.Emboss property
 
-如果字体格式为浮雕，则为真。
+如果字体格式为浮雕则为真。
 
 ```csharp
 public bool Emboss { get; set; }
@@ -16,7 +16,7 @@ public bool Emboss { get; set; }
 
 ### 例子
 
-显示如何将雕刻/压纹效果应用于文本。
+展示如何对文本应用雕刻/浮雕效果。
 
 ```csharp
 Document doc = new Document();

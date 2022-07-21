@@ -1,14 +1,14 @@
 ---
 title: ComparisonTargetType
 second_title: Aspose.Words for .NET API 参考
-description: 允许指定将在比较期间使用的基本文档默认值为Current
+description: 允许指定将在比较期间使用的基本文档默认值为Current.
 type: docs
 weight: 270
 url: /zh/net/aspose.words.comparing/comparisontargettype/
 ---
 ## ComparisonTargetType enumeration
 
-允许指定将在比较期间使用的基本文档。默认值为Current。
+允许指定将在比较期间使用的基本文档。默认值为Current.
 
 ```csharp
 public enum ComparisonTargetType
@@ -18,16 +18,16 @@ public enum ComparisonTargetType
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| Current | `0` | 此文档在比较时用作基础。 |
-| New | `1` | 其他文档在比较时用作基础。 |
+| Current | `0` | 此文件作为比较时的基础。 |
+| New | `1` | 比较时使用其他文档作为基础。 |
 
 ### 评论
 
-与 Microsoft Word“比较文档”对话框中的“显示更改”选项相关。
+与“比较文档”对话框中的 Microsoft Word“显示更改”选项有关。
 
 ### 例子
 
-显示在进行比较时如何过滤特定类型的文档元素。
+显示如何在进行比较时过滤特定类型的文档元素。
 
 ```csharp
 // 创建原始文档并用各种元素填充它。

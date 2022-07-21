@@ -1,14 +1,14 @@
 ---
 title: Position
 second_title: Aspose.Words for .NET API 参考
-description: 指定图例在图表上的位置 默认值为Right
+description: 指定图例在图表上的位置 默认值为Right.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.drawing.charts/chartlegend/position/
 ---
 ## ChartLegend.Position property
 
-指定图例在图表上的位置。 默认值为Right。
+指定图例在图表上的位置。 默认值为Right.
 
 ```csharp
 public LegendPosition Position { get; set; }

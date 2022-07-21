@@ -1,14 +1,14 @@
 ---
 title: MetafileFormat
 second_title: Aspose.Words for .NET API 参考
-description: 指定导出为 HTMLMHTML 或 EPUB 时元文件的保存格式 默认值为Png这意味着元文件被渲染为光栅 PNG 图像
+description: 指定导出到 HTMLMHTML 或 EPUB 时元文件的保存格式 默认值为Png这意味着元文件被渲染为光栅 PNG 图像
 type: docs
 weight: 390
 url: /zh/net/aspose.words.saving/htmlsaveoptions/metafileformat/
 ---
 ## HtmlSaveOptions.MetafileFormat property
 
-指定导出为 HTML、MHTML 或 EPUB 时元文件的保存格式。 默认值为Png，这意味着元文件被渲染为光栅 PNG 图像。
+指定导出到 HTML、MHTML 或 EPUB 时元文件的保存格式。 默认值为Png，这意味着元文件被渲染为光栅 PNG 图像。
 
 ```csharp
 public HtmlMetafileFormat MetafileFormat { get; set; }
@@ -16,9 +16,9 @@ public HtmlMetafileFormat MetafileFormat { get; set; }
 
 ### 评论
 
-HTML 浏览器本身不会显示元文件。默认情况下，Aspose.Words 在导出为 HTML 时会将 WMF 和 EMF 图像转换为 PNG 文件。其他选项是将元文件转换为 SVG 图像或将 原样导出而不进行转换。
+HTML 浏览器本身不会显示元文件。默认情况下，Aspose.Words 在导出为 HTML 时会将 WMF 和 EMF 图像转换为 PNG 文件。其他选项是将元文件转换为 SVG 图像或将它们按原样导出 x000d_ 而不进行转换。
 
-如果将 导出为 HTML 而不进行转换，某些图像转换（尤其是图像裁剪）将不会应用于元文件图像。
+如果将它们 导出为 HTML 而不进行转换，则某些图像转换（尤其是图像裁剪）将不会应用于图元文件图像。
 
 ### 例子
 
@@ -79,6 +79,7 @@ switch (htmlMetafileFormat)
 ### 也可以看看
 
 * property [ImageResolution](../imageresolution)
+* property [ScaleImageToShapeSize](../scaleimagetoshapesize)
 * enum [HtmlMetafileFormat](../../htmlmetafileformat)
 * class [HtmlSaveOptions](../../htmlsaveoptions)
 * 命名空间 [Aspose.Words.Saving](../../htmlsaveoptions)

@@ -1,14 +1,14 @@
 ---
 title: DocSaveOptions
 second_title: Справочник по API Aspose.Words для .NET
-description: Инициализирует новый экземпляр этого класса который можно использовать для сохранения документа в форматеDoc.
+description: Инициализирует новый экземпляр этого класса который можно использовать для сохранения документа вDoc формат.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.saving/docsaveoptions/docsaveoptions/
 ---
 ## DocSaveOptions() {#constructor}
 
-Инициализирует новый экземпляр этого класса, который можно использовать для сохранения документа в форматеDoc.
+Инициализирует новый экземпляр этого класса, который можно использовать для сохранения документа вDoc формат.
 
 ```csharp
 public DocSaveOptions()
@@ -25,17 +25,17 @@ builder.Write("Hello world!");
 
 DocSaveOptions options = new DocSaveOptions(SaveFormat.Doc);
 
- // Установите пароль, который защитит загрузку документа Microsoft Word или Aspose.Words.
- // Обратите внимание, что это никоим образом не шифрует содержимое документа.
+// Установите пароль, который защитит загрузку документа Microsoft Word или Aspose.Words.
+// Обратите внимание, что это никоим образом не шифрует содержимое документа.
 options.Password = "MyPassword";
 
- // Если документ содержит маршрутный лист, мы можем сохранить его при сохранении, установив для этого флага значение true.
+// Если документ содержит маршрутный лист, мы можем сохранить его при сохранении, установив для этого флага значение true.
 options.SaveRoutingSlip = true;
 
 doc.Save(ArtifactsDir + "DocSaveOptions.SaveAsDoc.doc", options);
 
-// Чтобы иметь возможность загрузить документ, 
- // нам нужно будет применить пароль, который мы указали в объекте DocSaveOptions, в объекте LoadOptions.
+// Чтобы иметь возможность загрузить документ,
+// нам нужно будет применить пароль, который мы указали в объекте DocSaveOptions, в объекте LoadOptions.
 Assert.Throws<IncorrectPasswordException>(() => doc = new Document(ArtifactsDir + "DocSaveOptions.SaveAsDoc.doc"));
 
 LoadOptions loadOptions = new LoadOptions("MyPassword");
@@ -54,7 +54,7 @@ Assert.AreEqual("Hello world!", doc.GetText().Trim());
 
 ## DocSaveOptions(SaveFormat) {#constructor_1}
 
-Инициализирует новый экземпляр этого класса, который можно использовать для сохранения документа вDocили Dotформат.
+Инициализирует новый экземпляр этого класса, который можно использовать для сохранения документа вDoc или Dot формат.
 
 ```csharp
 public DocSaveOptions(SaveFormat saveFormat)
@@ -62,7 +62,7 @@ public DocSaveOptions(SaveFormat saveFormat)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| saveFormat | SaveFormat | Может бытьDocилиDot. |
+| saveFormat | SaveFormat | Может бытьDoc или жеDot. |
 
 ### Примеры
 
@@ -75,17 +75,17 @@ builder.Write("Hello world!");
 
 DocSaveOptions options = new DocSaveOptions(SaveFormat.Doc);
 
- // Установите пароль, который защитит загрузку документа Microsoft Word или Aspose.Words.
- // Обратите внимание, что это никоим образом не шифрует содержимое документа.
+// Установите пароль, который защитит загрузку документа Microsoft Word или Aspose.Words.
+// Обратите внимание, что это никоим образом не шифрует содержимое документа.
 options.Password = "MyPassword";
 
- // Если документ содержит маршрутный лист, мы можем сохранить его при сохранении, установив для этого флага значение true.
+// Если документ содержит маршрутный лист, мы можем сохранить его при сохранении, установив для этого флага значение true.
 options.SaveRoutingSlip = true;
 
 doc.Save(ArtifactsDir + "DocSaveOptions.SaveAsDoc.doc", options);
 
-// Чтобы иметь возможность загрузить документ, 
- // нам нужно будет применить пароль, который мы указали в объекте DocSaveOptions, в объекте LoadOptions.
+// Чтобы иметь возможность загрузить документ,
+// нам нужно будет применить пароль, который мы указали в объекте DocSaveOptions, в объекте LoadOptions.
 Assert.Throws<IncorrectPasswordException>(() => doc = new Document(ArtifactsDir + "DocSaveOptions.SaveAsDoc.doc"));
 
 LoadOptions loadOptions = new LoadOptions("MyPassword");

@@ -1,14 +1,14 @@
 ---
 title: NumberFormat
 second_title: Справочник по API Aspose.Words для .NET
-description: Возвращает объектChartNumberFormataspose.words.drawing.charts/chartnumberformat позволяющий определять числовые форматы для оси.
+description: ВозвращаетChartNumberFormataspose.words.drawing.charts/chartnumberformat объект который позволяет определять числовые форматы для оси.
 type: docs
 weight: 170
 url: /ru/net/aspose.words.drawing.charts/chartaxis/numberformat/
 ---
 ## ChartAxis.NumberFormat property
 
-Возвращает объект[`ChartNumberFormat`](../../chartnumberformat), позволяющий определять числовые форматы для оси.
+Возвращает[`ChartNumberFormat`](../../chartnumberformat) объект, который позволяет определять числовые форматы для оси.
 
 ```csharp
 public ChartNumberFormat NumberFormat { get; }

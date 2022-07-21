@@ -3,7 +3,7 @@ title: VbaModule
 second_title: Справочник по API Aspose.Words для .NET
 description: Предоставляет доступ к модулю проекта VBA.
 type: docs
-weight: 6190
+weight: 6240
 url: /ru/net/aspose.words.vba/vbamodule/
 ---
 ## VbaModule class
@@ -32,7 +32,7 @@ public class VbaModule
 
 | Имя | Описание |
 | --- | --- |
-| [Clone](../../aspose.words.vba/vbamodule/clone)() | Выполняет копию[`VbaModule`](../vbamodule). |
+| [Clone](../../aspose.words.vba/vbamodule/clone)() | Выполняет копирование[`VbaModule`](../vbamodule) . |
 
 ### Примеры
 

@@ -25,7 +25,7 @@ public Size GetSizeInPixels(float scale, float dpi)
 
 ### 评论
 
-此方法转换[`SizeInPoints`](../sizeinpoints)转换为像素大小，当您想要创建位图以将形状整齐地渲染到位图上时，它很有用 。
+该方法转换[`SizeInPoints`](../sizeinpoints)以像素为单位的大小，当您想要创建位图以将形状整齐地渲染到位图上时，它很有用 。
 
 ### 例子
 
@@ -99,7 +99,7 @@ public Size GetSizeInPixels(float scale, float horizontalDpi, float verticalDpi)
 
 ### 评论
 
-此方法转换[`SizeInPoints`](../sizeinpoints)转换为像素大小，当您想要创建位图以将形状整齐地渲染到位图上时，它很有用 。
+该方法转换[`SizeInPoints`](../sizeinpoints)以像素为单位的大小，当您想要创建位图以将形状整齐地渲染到位图上时，它很有用 。
 
 ### 例子
 

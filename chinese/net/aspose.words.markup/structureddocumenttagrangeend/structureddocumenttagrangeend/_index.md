@@ -1,14 +1,14 @@
 ---
 title: StructuredDocumentTagRangeEnd
 second_title: Aspose.Words for .NET API 参考
-description: 初始化 结构化文档标签范围 end 类的新实例
+description: 初始化 结构化文档标签范围结束类.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.markup/structureddocumenttagrangeend/structureddocumenttagrangeend/
 ---
 ## StructuredDocumentTagRangeEnd constructor
 
-初始化 **结构化文档标签范围 end** 类的新实例。
+初始化 **结构化文档标签范围结束**类.
 
 ```csharp
 public StructuredDocumentTagRangeEnd(DocumentBase doc, int id)
@@ -16,8 +16,8 @@ public StructuredDocumentTagRangeEnd(DocumentBase doc, int id)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| doc | DocumentBase | 所有者文档。 |
-| id | Int32 | 对应结构化文档标签范围开始的标识符。 |
+| doc | DocumentBase | 所有者文件。 |
+| id | Int32 | 相应结构化文档标记范围开始的标识符。 |
 
 ### 例子
 

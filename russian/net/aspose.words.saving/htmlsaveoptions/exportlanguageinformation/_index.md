@@ -1,14 +1,14 @@
 ---
 title: ExportLanguageInformation
 second_title: Справочник по API Aspose.Words для .NET
-description: Указывает экспортируется ли языковая информация в HTML MHTML или EPUB. По умолчанию false .
+description: Указывает экспортируется ли информация о языке в HTML MHTML или EPUB. Значение по умолчаниюЛОЖЬ .
 type: docs
 weight: 190
 url: /ru/net/aspose.words.saving/htmlsaveoptions/exportlanguageinformation/
 ---
 ## HtmlSaveOptions.ExportLanguageInformation property
 
-Указывает, экспортируется ли языковая информация в HTML, MHTML или EPUB. По умолчанию:` false` .
+Указывает, экспортируется ли информация о языке в HTML, MHTML или EPUB. Значение по умолчанию:`ЛОЖЬ` .
 
 ```csharp
 public bool ExportLanguageInformation { get; set; }
@@ -16,11 +16,11 @@ public bool ExportLanguageInformation { get; set; }
 
 ### Примечания
 
-Когда для этого свойства установлено значение` true` Aspose.Words выводит **lang** атрибут HTML в документе элементы, определяющие язык. Это может быть необходимо для сохранения семантики, связанной с языком.
+Когда это свойство установлено в`истинный` Выходные данные Aspose.Words **язык** Атрибут HTML в элементах document , указывающий язык. Это может быть необходимо для сохранения семантики, связанной с языком.
 
 ### Примеры
 
-Показывает, как сохранить информацию о языке при сохранении в .html.
+Показывает, как сохранить информацию о языке при сохранении в формате .html.
 
 ```csharp
 Document doc = new Document();

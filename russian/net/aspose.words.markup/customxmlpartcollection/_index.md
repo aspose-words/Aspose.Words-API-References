@@ -1,14 +1,14 @@
 ---
 title: CustomXmlPartCollection
 second_title: Справочник по API Aspose.Words для .NET
-description: Представляет набор пользовательских XML-частей. Это объектыCustomXmlPart./customxmlpart.
+description: Представляет набор пользовательских XML-частей. ЭлементыCustomXmlPart./customxmlpart объекты.
 type: docs
-weight: 3640
+weight: 3690
 url: /ru/net/aspose.words.markup/customxmlpartcollection/
 ---
 ## CustomXmlPartCollection class
 
-Представляет набор пользовательских XML-частей. Это объекты[`CustomXmlPart`](../customxmlpart).
+Представляет набор пользовательских XML-частей. Элементы[`CustomXmlPart`](../customxmlpart) объекты.
 
 ```csharp
 public class CustomXmlPartCollection : IEnumerable<CustomXmlPart>
@@ -34,14 +34,14 @@ public class CustomXmlPartCollection : IEnumerable<CustomXmlPart>
 | [Add](../../aspose.words.markup/customxmlpartcollection/add#add_1)(CustomXmlPart) | Добавляет элемент в коллекцию. |
 | [Add](../../aspose.words.markup/customxmlpartcollection/add#add)(string, string) | Создает новую часть XML с указанным XML и добавляет ее в коллекцию. |
 | [Clear](../../aspose.words.markup/customxmlpartcollection/clear)() | Удаляет все элементы из коллекции. |
-| [Clone](../../aspose.words.markup/customxmlpartcollection/clone)() | Делает полную копию этой коллекции и ее элементов. |
+| [Clone](../../aspose.words.markup/customxmlpartcollection/clone)() | Создает полную копию этой коллекции и ее элементов. |
 | [GetById](../../aspose.words.markup/customxmlpartcollection/getbyid)(string) | Находит и возвращает пользовательскую часть XML по ее идентификатору. |
-| [GetEnumerator](../../aspose.words.markup/customxmlpartcollection/getenumerator)() | Возвращает объект перечислителя, который можно использовать для перебора всех элементов коллекции. |
+| [GetEnumerator](../../aspose.words.markup/customxmlpartcollection/getenumerator)() | Возвращает объект перечислителя, который можно использовать для перебора всех элементов в коллекции. |
 | [RemoveAt](../../aspose.words.markup/customxmlpartcollection/removeat)(int) | Удаляет элемент по указанному индексу. |
 
 ### Примечания
 
-Обычно экземпляры этого класса создавать не требуется. Вы можете получить доступ к пользовательским XML-данным , хранящимся в документе, через свойство[`CustomXmlParts`](../../aspose.words/document/customxmlparts).
+Обычно вам не нужно создавать экземпляры этого класса. Вы можете получить доступ к пользовательским XML-данным , хранящимся в документе, через[`CustomXmlParts`](../../aspose.words/document/customxmlparts) имущество.
 
 ### Примеры
 

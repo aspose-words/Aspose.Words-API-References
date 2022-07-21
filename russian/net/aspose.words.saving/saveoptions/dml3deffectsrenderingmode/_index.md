@@ -16,7 +16,7 @@ public Dml3DEffectsRenderingMode Dml3DEffectsRenderingMode { get; set; }
 
 ### Примечания
 
-Значение по умолчанию:Basic.
+Значение по умолчанию:Basic .
 
 ### Смотрите также
 

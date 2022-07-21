@@ -1,14 +1,14 @@
 ---
 title: ImageSavingCallback
 second_title: Справочник по API Aspose.Words для .NET
-description: Позволяет управлять сохранением изображений при сохранении документа в Markdownформат.
+description: Позволяет управлять сохранением изображений при сохранении документа в Markdown формат.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.saving/markdownsaveoptions/imagesavingcallback/
 ---
 ## MarkdownSaveOptions.ImageSavingCallback property
 
-Позволяет управлять сохранением изображений при сохранении документа в Markdownформат.
+Позволяет управлять сохранением изображений при сохранении документа в Markdown формат.
 
 ```csharp
 public IImageSavingCallback ImageSavingCallback { get; set; }

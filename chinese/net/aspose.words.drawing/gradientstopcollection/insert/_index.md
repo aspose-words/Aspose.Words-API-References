@@ -1,14 +1,14 @@
 ---
 title: Insert
 second_title: Aspose.Words for .NET API 参考
-description: 在指定索引处将GradientStopaspose.words.drawing/gradientstop插入到集合中
+description: 插入一个GradientStopaspose.words.drawing/gradientstop到指定索引处的集合
 type: docs
 weight: 50
 url: /zh/net/aspose.words.drawing/gradientstopcollection/insert/
 ---
 ## GradientStopCollection.Insert method
 
-在指定索引处将[`GradientStop`](../../gradientstop)插入到集合中。
+插入一个[`GradientStop`](../../gradientstop)到指定索引处的集合。
 
 ```csharp
 public GradientStop Insert(int index, GradientStop gradientStop)

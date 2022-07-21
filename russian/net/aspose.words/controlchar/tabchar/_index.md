@@ -1,14 +1,14 @@
 ---
 title: TabChar
 second_title: Справочник по API Aspose.Words для .NET
-description: Символ табуляцииchar9 или t.
+description: Символ табуляции char9 или t.
 type: docs
 weight: 280
 url: /ru/net/aspose.words/controlchar/tabchar/
 ---
 ## ControlChar.TabChar field
 
-Символ табуляции:(char)9 или "\t".
+Символ табуляции: (char)9 или "\t".
 
 ```csharp
 public const char TabChar;

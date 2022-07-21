@@ -1,14 +1,14 @@
 ---
 title: RightExpression
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置比较表达式的右侧部分
+description: 获取或设置比较表达式的右边部分
 type: docs
 weight: 50
 url: /zh/net/aspose.words.fields/fieldif/rightexpression/
 ---
 ## FieldIf.RightExpression property
 
-获取或设置比较表达式的右侧部分。
+获取或设置比较表达式的右边部分。
 
 ```csharp
 public string RightExpression { get; set; }

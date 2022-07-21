@@ -24,7 +24,7 @@ public static SaveOptions CreateSaveOptions(SaveFormat saveFormat)
 
 ### Примеры
 
-Показывает параметр оптимизации потребления памяти при преобразовании больших документов в PDF.
+Отображает возможность оптимизации потребления памяти при преобразовании больших документов в формат PDF.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
@@ -68,7 +68,7 @@ public static SaveOptions CreateSaveOptions(string fileName)
 
 ### Примеры
 
-Показывает, как установить шаблон по умолчанию для документов, к которым нет прикрепленных шаблонов.
+Показывает, как задать шаблон по умолчанию для документов, к которым нет прикрепленных шаблонов.
 
 ```csharp
 Document doc = new Document();

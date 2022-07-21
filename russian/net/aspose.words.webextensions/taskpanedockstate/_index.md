@@ -3,7 +3,7 @@ title: TaskPaneDockState
 second_title: Справочник по API Aspose.Words для .NET
 description: Перечисляет доступные местоположения объекта панели задач.
 type: docs
-weight: 6370
+weight: 6420
 url: /ru/net/aspose.words.webextensions/taskpanedockstate/
 ---
 ## TaskPaneDockState enumeration

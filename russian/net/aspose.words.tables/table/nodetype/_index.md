@@ -19,74 +19,41 @@ public override NodeType NodeType { get; }
 Показывает, как пройти по дереву дочерних узлов составного узла.
 
 ```csharp
-public void CalculateDepthOfNestedTables()
 {
-    Document doc = new Document(MyDir + "Nested tables.docx");
-    NodeCollection tables = doc.GetChildNodes(NodeType.Table, true);
+    Document doc = new Document(MyDir + "Paragraphs.docx");
 
-    for (int i = 0; i < tables.Count; i++)
-    {
-        Table table = (Table)tables[i];
+    // Любой узел, который может содержать дочерние узлы, например сам документ, является составным.
+    Assert.True(doc.IsComposite);
 
-         // Узнать, есть ли в каких-либо ячейках таблицы дочерние таблицы.
-        int count = GetChildTableCount(table);
-        Console.WriteLine("Table #{0} has {1} tables directly within its cells", i, count);
-
-         // Узнать, вложена ли таблица в другую таблицу, и если да, то на какой глубине.
-        int tableDepth = GetNestedDepthOfTable(table);
-
-        if (tableDepth > 0)
-            Console.WriteLine("Table #{0} is nested inside another table at depth of {1}", i,
-                tableDepth);
-        else
-            Console.WriteLine("Table #{0} is a non nested table (is not a child of another table)", i);
-    }
+    // Вызываем рекурсивную функцию, которая будет проходить и печатать все дочерние узлы составного узла.
+    TraverseAllNodes(doc, 0);
 }
 
 /// <summary>
- /// Вычисляет, на каком уровне таблица вложена в другие таблицы.
+/// Рекурсивно обходит дерево узлов, печатая тип каждого узла
+/// с отступом в зависимости от глубины, а также содержимого всех встроенных узлов.
 /// </summary>
- /// <возвращает>
- /// Целое число, указывающее глубину вложенности таблицы (количество узлов родительской таблицы).
-  /// </returns>
-private static int GetNestedDepthOfTable(Table table)
+public void TraverseAllNodes(CompositeNode parentNode, int depth)
 {
-    int depth = 0;
-    Node parent = table.GetAncestor(table.NodeType);
-
-    while (parent != null)
+    for (Node childNode = parentNode.FirstChild; childNode != null; childNode = childNode.NextSibling)
     {
-        depth++;
-        parent = parent.GetAncestor(typeof(Table));
-    }
+        Console.Write($"{new string('\t', depth)}{Node.NodeTypeToString(childNode.NodeType)}");
 
-    return depth;
-}
-
-/// <summary>
- /// Определяет, содержит ли таблица какие-либо непосредственные дочерние таблицы в своих ячейках.
- /// Не выполнять рекурсивный обход этих таблиц для проверки наличия дополнительных таблиц.
-/// </summary>
- /// <возвращает>
-/// Возвращает true, если хотя бы одна дочерняя ячейка содержит таблицу.
- /// Возвращает false, если в таблице нет ячеек, содержащих таблицу.
-  /// </returns>
-private static int GetChildTableCount(Table table)
-{
-    int childTableCount = 0;
-
-    foreach (Row row in table.Rows.OfType<Row>())
-    {
-        foreach (Cell Cell in row.Cells.OfType<Cell>())
+        // Рекурсия к узлу, если это составной узел. В противном случае распечатайте его содержимое, если это встроенный узел.
+        if (childNode.IsComposite)
         {
-            TableCollection childTables = Cell.Tables;
-
-            if (childTables.Count > 0)
-                childTableCount++;
+            Console.WriteLine();
+            TraverseAllNodes((CompositeNode)childNode, depth + 1);
+        }
+        else if (childNode is Inline)
+        {
+            Console.WriteLine($" - \"{childNode.GetText().Trim()}\"");
+        }
+        else
+        {
+            Console.WriteLine();
         }
     }
-
-    return childTableCount;
 }
 ```
 
@@ -102,11 +69,11 @@ public void CalculateDepthOfNestedTables()
     {
         Table table = (Table)tables[i];
 
-         // Узнать, есть ли в каких-либо ячейках таблицы дочерние таблицы.
+        // Узнать, есть ли у каких-либо ячеек в таблице другие таблицы в качестве дочерних.
         int count = GetChildTableCount(table);
         Console.WriteLine("Table #{0} has {1} tables directly within its cells", i, count);
 
-         // Узнать, вложена ли таблица в другую таблицу, и если да, то на какой глубине.
+        // Узнать, вложена ли таблица в другую таблицу, и если да, то на какой глубине.
         int tableDepth = GetNestedDepthOfTable(table);
 
         if (tableDepth > 0)
@@ -118,11 +85,11 @@ public void CalculateDepthOfNestedTables()
 }
 
 /// <summary>
- /// Вычисляет, на каком уровне таблица вложена в другие таблицы.
+/// Вычисляет, на каком уровне таблица вложена в другие таблицы.
 /// </summary>
- /// <возвращает>
- /// Целое число, указывающее глубину вложенности таблицы (количество узлов родительской таблицы).
-  /// </returns>
+/// <returns>
+/// Целое число, указывающее глубину вложенности таблицы (количество узлов родительской таблицы).
+/// </returns>
 private static int GetNestedDepthOfTable(Table table)
 {
     int depth = 0;
@@ -138,13 +105,13 @@ private static int GetNestedDepthOfTable(Table table)
 }
 
 /// <summary>
- /// Определяет, содержит ли таблица какие-либо непосредственные дочерние таблицы в своих ячейках.
- /// Не выполнять рекурсивный обход этих таблиц для проверки наличия дополнительных таблиц.
+/// Определяет, содержит ли таблица какие-либо непосредственные дочерние таблицы в своих ячейках.
+/// Не выполняйте рекурсивный обход этих таблиц для проверки наличия других таблиц.
 /// </summary>
- /// <возвращает>
+/// <returns>
 /// Возвращает true, если хотя бы одна дочерняя ячейка содержит таблицу.
- /// Возвращает false, если в таблице нет ячеек, содержащих таблицу.
-  /// </returns>
+/// Возвращает false, если в таблице нет ячеек, содержащих таблицу.
+/// </returns>
 private static int GetChildTableCount(Table table)
 {
     int childTableCount = 0;

@@ -16,7 +16,7 @@ public bool Bubble3D { get; set; }
 
 ### 例子
 
-展示如何使用气泡图的 3D 效果。
+展示如何将 3D 效果与气泡图结合使用。
 
 ```csharp
 Document doc = new Document();

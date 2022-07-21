@@ -1,14 +1,14 @@
 ---
 title: IsEndOfSection
 second_title: Aspose.Words for .NET API 参考
-description: 如果此段落是 正文 正文故事中的最后一段则为真 部分 否则为假
+description: 如果本段是最后一段则为真 身体正文故事 部分否则为假
 type: docs
 weight: 80
 url: /zh/net/aspose.words/paragraph/isendofsection/
 ---
 ## Paragraph.IsEndOfSection property
 
-如果此段落是 **正文** （正文故事）中的最后一段，则为真 **部分** ;否则为假。
+如果本段是最后一段，则为真 **身体**（正文故事） **部分**;否则为假。
 
 ```csharp
 public bool IsEndOfSection { get; }
@@ -16,7 +16,7 @@ public bool IsEndOfSection { get; }
 
 ### 例子
 
-显示如何将一个文档的内容插入到另一个文档的书签中。
+演示如何将一个文档的内容插入到另一个文档的书签中。
 
 ```csharp
 [Test]
@@ -44,7 +44,7 @@ public void InsertAtBookmark()
 }
 
 /// <summary>
-/// 在指定节点之后插入一个文档的内容。
+/// 在指定节点之后插入文档的内容。
 /// </summary>
 static void InsertDocument(Node insertionDestination, Document docToInsert)
 {
@@ -55,8 +55,8 @@ static void InsertDocument(Node insertionDestination, Document docToInsert)
         NodeImporter importer =
             new NodeImporter(docToInsert, insertionDestination.Document, ImportFormatMode.KeepSourceFormatting);
 
-         // 循环遍历部分主体中的所有块级节点，
-         // 然后克隆并插入不是节的最后一个空段落的每个节点。
+        // 循环遍历部分主体中的所有块级节点，
+        // 然后克隆并插入不是节的最后一个空段落的每个节点。
         foreach (Section srcSection in docToInsert.Sections.OfType<Section>())
             foreach (Node srcNode in srcSection.Body)
             {

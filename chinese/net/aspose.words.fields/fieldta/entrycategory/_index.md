@@ -1,14 +1,14 @@
 ---
 title: EntryCategory
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置整数条目类别这是一个对应于 类别顺序的数字
+description: 获取或设置整数条目类别是一个与 类别顺序相对应的数字
 type: docs
 weight: 20
 url: /zh/net/aspose.words.fields/fieldta/entrycategory/
 ---
 ## FieldTA.EntryCategory property
 
-获取或设置整数条目类别，这是一个对应于 类别顺序的数字。
+获取或设置整数条目类别，是一个与 类别顺序相对应的数字。
 
 ```csharp
 public string EntryCategory { get; set; }

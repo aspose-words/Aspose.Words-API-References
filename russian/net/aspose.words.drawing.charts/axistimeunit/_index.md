@@ -1,14 +1,14 @@
 ---
 title: AxisTimeUnit
 second_title: Справочник по API Aspose.Words для .NET
-description: Задает единицу времени для осей.
+description: Определяет единицу времени для осей.
 type: docs
 weight: 590
 url: /ru/net/aspose.words.drawing.charts/axistimeunit/
 ---
 ## AxisTimeUnit enumeration
 
-Задает единицу времени для осей.
+Определяет единицу времени для осей.
 
 ```csharp
 public enum AxisTimeUnit

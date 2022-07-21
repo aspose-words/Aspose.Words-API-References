@@ -1,14 +1,14 @@
 ---
 title: ExportOriginalUrlForLinkedImages
 second_title: Aspose.Words for .NET API 参考
-description: 指定是否应使用原始 URL 作为链接图像的 URL 默认值为 false 
+description: 指定是否使用原始 URL 作为链接图像的 URL 默认值为错误的.
 type: docs
 weight: 210
 url: /zh/net/aspose.words.saving/htmlsaveoptions/exportoriginalurlforlinkedimages/
 ---
 ## HtmlSaveOptions.ExportOriginalUrlForLinkedImages property
 
-指定是否应使用原始 URL 作为链接图像的 URL。 默认值为` false` 。
+指定是否使用原始 URL 作为链接图像的 URL。 默认值为`错误的`.
 
 ```csharp
 public bool ExportOriginalUrlForLinkedImages { get; set; }
@@ -16,13 +16,13 @@ public bool ExportOriginalUrlForLinkedImages { get; set; }
 
 ### 评论
 
-如果值设置为` true`[`SourceFullName`](../../../aspose.words.drawing/imagedata/sourcefullname)值使用 因为链接图像的 URL 和链接图像未加载到文档的文件夹 或[`ImagesFolder`](../imagesfolder)。
+如果值设置为`真的`[`SourceFullName`](../../../aspose.words.drawing/imagedata/sourcefullname)value is used 作为链接图像的 URL，并且链接图像未加载到文档的文件夹 或[`ImagesFolder`](../imagesfolder).
 
-如果值设置为` false` 链接图像被加载到文档的文件夹 或[`ImagesFolder`](../imagesfolder)并且每个链接图像的 URL 是根据文档文件夹中的 ImagesFolder 和[`ImagesFolderAlias`](../imagesfolderalias)属性。
+如果值设置为`错误的`链接的图像被加载到文档的 folder 或[`ImagesFolder`](../imagesfolder)每个链接图像的 URL 是根据文档的文件夹构建的，取决于 ，[`ImagesFolder`](../imagesfolder) 和[`ImagesFolderAlias`](../imagesfolderalias)特性。
 
 ### 例子
 
-显示如何为 Aspose.Words 在将文档保存为 HTML 时创建的外部保存资源设置文件夹和文件夹别名。
+展示如何为 Aspose.Words 在将文档保存为 HTML 时创建的外部保存资源设置文件夹和文件夹别名。
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");

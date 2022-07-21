@@ -1,14 +1,14 @@
 ---
 title: NodeType
 second_title: Aspose.Words for .NET API 参考
-description: 返回 NodeType.FormField 
+description: 返回 NodeType.FormField.
 type: docs
 weight: 140
 url: /zh/net/aspose.words.fields/formfield/nodetype/
 ---
 ## FormField.NodeType property
 
-返回 **NodeType.FormField** 。
+返回 **NodeType.FormField**.
 
 ```csharp
 public override NodeType NodeType { get; }

@@ -1,14 +1,14 @@
 ---
 title: LastParagraph
 second_title: Справочник по API Aspose.Words для .NET
-description: Получает последний абзац истории.
+description: Получает последний абзац в истории.
 type: docs
 weight: 70
 url: /ru/net/aspose.words/inlinestory/lastparagraph/
 ---
 ## InlineStory.LastParagraph property
 
-Получает последний абзац истории.
+Получает последний абзац в истории.
 
 ```csharp
 public Paragraph LastParagraph { get; }
@@ -23,40 +23,40 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 Footnote footnote = builder.InsertFootnote(FootnoteType.Footnote, null);
 
- // Узлы таблицы имеют метод "EnsureMinimum()", который проверяет наличие в таблице хотя бы одной ячейки.
+// Узлы таблицы имеют метод "EnsureMinimum()", который проверяет, есть ли в таблице хотя бы одна ячейка.
 Table table = new Table(doc);
 table.EnsureMinimum();
 
- // Мы можем разместить таблицу внутри сноски, чтобы она отображалась в нижнем колонтитуле страницы, на которую ссылается.
+// Мы можем разместить таблицу внутри сноски, чтобы она отображалась в нижнем колонтитуле ссылающейся страницы.
 Assert.That(footnote.Tables, Is.Empty);
 footnote.AppendChild(table);
 Assert.AreEqual(1, footnote.Tables.Count);
 Assert.AreEqual(NodeType.Table, footnote.LastChild.NodeType);
 
-// InlineStory также имеет метод "EnsureMinimum()", но в данном случае 
- // это гарантирует, что последним дочерним элементом узла является абзац, 
- // чтобы мы могли легко нажимать и писать текст в Microsoft Word.
+// InlineStory также имеет метод "EnsureMinimum()", но в этом случае
+// это гарантирует, что последним дочерним элементом узла будет абзац,
+// чтобы мы могли легко нажимать и писать текст в Microsoft Word.
 footnote.EnsureMinimum();
 Assert.AreEqual(NodeType.Paragraph, footnote.LastChild.NodeType);
 
- // Редактируем внешний вид якоря, который представляет собой маленький надстрочный индекс number
- // в основном тексте, который указывает на сноску.
+// Редактируем внешний вид якоря, который представляет собой маленькое число в верхнем индексе
+// в основном тексте, который указывает на сноску.
 footnote.Font.Name = "Arial";
 footnote.Font.Color = Color.Green;
 
- // Все узлы встроенных историй имеют соответствующие типы историй.
+// Все встроенные узлы истории имеют соответствующие типы историй.
 Assert.AreEqual(StoryType.Footnotes, footnote.StoryType);
 
- // Комментарий — это еще один тип встроенной истории.
+// Комментарий — это еще один тип встроенной истории.
 Comment comment = (Comment)builder.CurrentParagraph.AppendChild(new Comment(doc, "John Doe", "J. D.", DateTime.Now));
 
- // Родительский абзац узла встроенной истории будет абзацем основного тела документа.
+// Родительский абзац встроенного узла истории будет абзацем основного тела документа.
 Assert.AreEqual(doc.FirstSection.Body.FirstParagraph, comment.ParentParagraph);
 
- // Тем не менее, последний абзац — это абзац из текста комментария, 
- // который будет находиться за пределами основного тела документа в речевом пузыре.
- // По умолчанию у комментария не будет дочерних узлов, 
- // поэтому мы можем применить метод ГарантиМинимум(), чтобы поместить здесь абзац.
+// Тем не менее, последний абзац — это текст содержимого комментария,
+// который будет находиться за пределами основного тела документа во всплывающей подсказке.
+// Комментарий по умолчанию не будет иметь дочерних узлов,
+// поэтому мы можем применить метод ГарантиМинимум(), чтобы поместить здесь абзац.
 Assert.Null(comment.LastParagraph);
 comment.EnsureMinimum();
 Assert.AreEqual(NodeType.Paragraph, comment.LastChild.NodeType);

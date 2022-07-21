@@ -1,14 +1,14 @@
 ---
 title: Active
 second_title: Aspose.Words for .NET API 参考
-description: 指定在执行邮件合并时是否将来自数据源的记录导入到文档中 默认值为 true 
+description: 指定在进行邮件合并时是否将来自数据源的记录导入到文档中 默认值为真的.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.settings/odsorecipientdata/active/
 ---
 ## OdsoRecipientData.Active property
 
-指定在执行邮件合并时是否将来自数据源的记录导入到文档中。 默认值为` true` 。
+指定在进行邮件合并时是否将来自数据源的记录导入到文档中。 默认值为`真的`.
 
 ```csharp
 public bool Active { get; set; }
@@ -38,10 +38,10 @@ using (IEnumerator<OdsoRecipientData> enumerator = dataCollection.GetEnumerator(
     }
 }
 
- // 我们可以克隆这个集合中的元素。
+// 我们可以克隆这个集合中的元素。
 Assert.AreNotEqual(dataCollection[0], dataCollection[0].Clone());
 
- // 我们也可以单独删除元素，或者一次清除整个集合。
+// 我们也可以单独删除元素，或者一次清除整个集合。
 dataCollection.RemoveAt(0);
 
 Assert.AreEqual(69, dataCollection.Count);

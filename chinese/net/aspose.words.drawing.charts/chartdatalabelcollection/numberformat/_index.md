@@ -1,14 +1,14 @@
 ---
 title: NumberFormat
 second_title: Aspose.Words for .NET API 参考
-description: 获取ChartNumberFormataspose.words.drawing.charts/chartnumberformat实例允许为的数据标签设置数字格式整个系列
+description: 得到一个ChartNumberFormataspose.words.drawing.charts/chartnumberformat允许为 the 整个系列的数据标签设置数字格式的实例
 type: docs
 weight: 30
 url: /zh/net/aspose.words.drawing.charts/chartdatalabelcollection/numberformat/
 ---
 ## ChartDataLabelCollection.NumberFormat property
 
-获取[`ChartNumberFormat`](../../chartnumberformat)实例，允许为的数据标签设置数字格式整个系列。
+得到一个[`ChartNumberFormat`](../../chartnumberformat)允许为 the 整个系列的数据标签设置数字格式的实例。
 
 ```csharp
 public ChartNumberFormat NumberFormat { get; }
@@ -16,7 +16,7 @@ public ChartNumberFormat NumberFormat { get; }
 
 ### 例子
 
-显示如何启用和配置图表系列的数据标签。
+展示如何为图表系列启用和配置数据标签。
 
 ```csharp
 Document doc = new Document();

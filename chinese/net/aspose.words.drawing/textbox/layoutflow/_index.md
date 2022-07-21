@@ -16,11 +16,11 @@ public LayoutFlow LayoutFlow { get; set; }
 
 ### 评论
 
-默认值为LayoutFlow。水平的。
+默认值为Horizontal.
 
 ### 例子
 
-显示如何设置文本框内的文本方向。
+演示如何设置文本框内的文本方向。
 
 ```csharp
 Document doc = new Document();

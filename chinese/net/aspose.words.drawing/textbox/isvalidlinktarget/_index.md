@@ -1,14 +1,14 @@
 ---
 title: IsValidLinkTarget
 second_title: Aspose.Words for .NET API 参考
-description: 确定此文本框是否可以链接到目标文本框
+description: 判断这个TextBox是否可以链接到目标Textbox
 type: docs
 weight: 130
 url: /zh/net/aspose.words.drawing/textbox/isvalidlinktarget/
 ---
 ## TextBox.IsValidLinkTarget method
 
-确定此文本框是否可以链接到目标文本框。
+判断这个TextBox是否可以链接到目标Textbox。
 
 ```csharp
 public bool IsValidLinkTarget(TextBox target)

@@ -21,15 +21,15 @@ public class OleFormat
 | [AutoUpdate](../../aspose.words.drawing/oleformat/autoupdate) { get; set; } | Указывает, будет ли автоматически обновляться ссылка на объект OLE в Microsoft Word. |
 | [Clsid](../../aspose.words.drawing/oleformat/clsid) { get; } | Получает CLSID объекта OLE. |
 | [IconCaption](../../aspose.words.drawing/oleformat/iconcaption) { get; } | Получает заголовок значка объекта OLE. |
-| [IsLink](../../aspose.words.drawing/oleformat/islink) { get; } | Возвращает true, если объект OLE связан (когда указано[`SourceFullName`](./sourcefullname)). |
+| [IsLink](../../aspose.words.drawing/oleformat/islink) { get; } | Возвращает значение true, если объект OLE связан (когда[`SourceFullName`](./sourcefullname) указано). |
 | [IsLocked](../../aspose.words.drawing/oleformat/islocked) { get; set; } | Указывает, заблокирована ли ссылка на объект OLE от обновлений. |
-| [OleControl](../../aspose.words.drawing/oleformat/olecontrol) { get; } | Получает объекты[`OleControl`](./olecontrol), если этот объект OLE является элементом управления ActiveX. В противном случае это свойство равно null. |
-| [OleIcon](../../aspose.words.drawing/oleformat/oleicon) { get; } | Получает аспект рисования объекта OLE. Когда **true** объект OLE отображается в виде значка. Когда **false** объект OLE отображается как содержимое. |
-| [OlePackage](../../aspose.words.drawing/oleformat/olepackage) { get; } | Предоставляет доступ к[`OlePackage`](../olepackage)если объект OLE является пакетом OLE. В противном случае возвращает null. |
+| [OleControl](../../aspose.words.drawing/oleformat/olecontrol) { get; } | получает[`OleControl`](./olecontrol) объекты, если этот объект OLE является элементом управления ActiveX. В противном случае это свойство равно null. |
+| [OleIcon](../../aspose.words.drawing/oleformat/oleicon) { get; } | Получает аспект отрисовки объекта OLE. Когда **истинный** , объект OLE отображается в виде значка. Когда **ЛОЖЬ** , объект OLE отображается как содержимое. |
+| [OlePackage](../../aspose.words.drawing/oleformat/olepackage) { get; } | Предоставить доступ к[`OlePackage`](../olepackage) если объект OLE является пакетом OLE. В противном случае возвращает null. |
 | [ProgId](../../aspose.words.drawing/oleformat/progid) { get; set; } | Получает или задает ProgID объекта OLE. |
 | [SourceFullName](../../aspose.words.drawing/oleformat/sourcefullname) { get; set; } | Получает или задает путь и имя исходного файла для связанного объекта OLE. |
 | [SourceItem](../../aspose.words.drawing/oleformat/sourceitem) { get; set; } | Получает или задает строку, которая используется для идентификации части исходного файла, на которую делается ссылка. |
-| [SuggestedExtension](../../aspose.words.drawing/oleformat/suggestedextension) { get; } | Получает расширение файла, предложенное для текущего встроенного объекта, если вы хотите сохранить его в файл. |
+| [SuggestedExtension](../../aspose.words.drawing/oleformat/suggestedextension) { get; } | Получает расширение файла, предложенное для текущего внедренного объекта, если вы хотите сохранить его в файл. |
 | [SuggestedFileName](../../aspose.words.drawing/oleformat/suggestedfilename) { get; } | Получает имя файла, предложенное для текущего встроенного объекта, если вы хотите сохранить его в файл. |
 
 ## Методы
@@ -39,11 +39,11 @@ public class OleFormat
 | [GetOleEntry](../../aspose.words.drawing/oleformat/getoleentry)(string) | Получает запись данных объекта OLE. |
 | [GetRawData](../../aspose.words.drawing/oleformat/getrawdata)() | Получает необработанные данные объекта OLE. |
 | [Save](../../aspose.words.drawing/oleformat/save#save)(Stream) | Сохраняет данные встроенного объекта в указанный поток. |
-| [Save](../../aspose.words.drawing/oleformat/save#save_1)(string) | Сохраняет данные встроенного объекта в файл с указанным именем. |
+| [Save](../../aspose.words.drawing/oleformat/save#save_1)(string) | Сохраняет данные внедренного объекта в файл с указанным именем. |
 
 ### Примечания
 
-Используйте формат[`OleFormat`](../shape/oleformat)свойство для доступа к данным объекта OLE. Вы не создаете экземпляры класса[`OleFormat`](../oleformat)напрямую.
+Использовать[`OleFormat`](../shape/oleformat) свойство для доступа к данным объекта OLE. Вы не создаете экземпляры[`OleFormat`](../oleformat) класс напрямую.
 
 ### Примеры
 

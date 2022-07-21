@@ -1,14 +1,14 @@
 ---
 title: ShowCategoryName
 second_title: Справочник по API Aspose.Words для .NET
-description: Позволяет указать будет ли отображаться название категории для меток данных на графике. Значение по умолчанию  false.
+description: Позволяет указать будет ли отображаться название категории для меток данных на диаграмме. Значение по умолчанию  false.
 type: docs
 weight: 70
 url: /ru/net/aspose.words.drawing.charts/chartdatalabel/showcategoryname/
 ---
 ## ChartDataLabel.ShowCategoryName property
 
-Позволяет указать, будет ли отображаться название категории для меток данных на графике. Значение по умолчанию — false.
+Позволяет указать, будет ли отображаться название категории для меток данных на диаграмме. Значение по умолчанию — false.
 
 ```csharp
 public bool ShowCategoryName { get; set; }

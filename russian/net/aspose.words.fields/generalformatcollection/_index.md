@@ -3,7 +3,7 @@ title: GeneralFormatCollection
 second_title: Справочник по API Aspose.Words для .NET
 description: Представляет типизированную коллекцию общих форматов.
 type: docs
-weight: 2450
+weight: 2490
 url: /ru/net/aspose.words.fields/generalformatcollection/
 ---
 ## GeneralFormatCollection class

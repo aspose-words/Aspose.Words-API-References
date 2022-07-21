@@ -1,14 +1,14 @@
 ---
 title: IsWashout
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置一个布尔值负责水印的冲洗效果 默认值为 True
+description: 获取或设置一个布尔值负责水印的冲刷效果 默认值为True
 type: docs
 weight: 20
 url: /zh/net/aspose.words/imagewatermarkoptions/iswashout/
 ---
 ## ImageWatermarkOptions.IsWashout property
 
-获取或设置一个布尔值，负责水印的冲洗效果。 默认值为 True。
+获取或设置一个布尔值，负责水印的冲刷效果。 默认值为True。
 
 ```csharp
 public bool IsWashout { get; set; }
@@ -16,7 +16,7 @@ public bool IsWashout { get; set; }
 
 ### 例子
 
-展示如何从本地文件系统中的图像创建水印。
+演示如何从本地文件系统中的图像创建水印。
 
 ```csharp
 Document doc = new Document();

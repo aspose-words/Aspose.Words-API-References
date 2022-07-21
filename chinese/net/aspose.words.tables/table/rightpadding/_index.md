@@ -29,8 +29,8 @@ builder.InsertCell();
 builder.Write("Row 1, cell 2.");
 builder.EndTable();
 
- // 对于表格中的每个单元格，设置其内容与每个边框之间的距离。 
- // 此表将通过换行文本来保持最小填充距离。
+// 对于表格中的每个单元格，设置其内容与每个边框之间的距离。 
+// 此表将通过环绕文本来保持最小填充距离。
 table.LeftPadding = 30;
 table.RightPadding = 60;
 table.TopPadding = 10;

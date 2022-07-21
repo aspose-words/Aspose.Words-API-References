@@ -16,9 +16,9 @@ public byte[] Panose { get; set; }
 
 ### 评论
 
-PANOSE 是对字体关键视觉特征的紧凑 10 字节描述， 例如对比度、粗细和衬线样式。数字代表 Family Kind、Serif Style、 Weight、Proportion、Contrast、Stroke Variation、Arm Style、Letterform、Midline 和 X-Height。
+PANOSE 是对字体关键视觉特征、 （例如对比度、粗细和衬线样式）的紧凑型 10 字节描述。数字代表 Family Kind、Serif Style、 Weight、Proportion、Contrast、Stroke Variation、Arm Style、Letterform、Midline 和 X-Height。
 
-可以是` null` 。
+可`无效的`.
 
 ### 例子
 

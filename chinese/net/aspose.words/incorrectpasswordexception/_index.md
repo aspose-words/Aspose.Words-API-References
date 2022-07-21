@@ -3,7 +3,7 @@ title: IncorrectPasswordException
 second_title: Aspose.Words for .NET API 参考
 description: 如果文档使用密码加密并且打开文档时指定的密码不正确或丢失则抛出此错误
 type: docs
-weight: 3000
+weight: 3050
 url: /zh/net/aspose.words/incorrectpasswordexception/
 ---
 ## IncorrectPasswordException class

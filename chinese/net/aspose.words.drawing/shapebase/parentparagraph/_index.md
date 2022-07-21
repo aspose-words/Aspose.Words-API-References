@@ -16,11 +16,11 @@ public Paragraph ParentParagraph { get; }
 
 ### 评论
 
-对于组形状的子形状和 Office Math 对象的子形状始终返回 null。
+对于组形状的子形状和 Office Math 对象的子形状，始终返回 null。
 
 ### 例子
 
-显示如何插入文本框，并设置其内容的字体。
+演示如何插入文本框，并设置其内容的字体。
 
 ```csharp
 Document doc = new Document();

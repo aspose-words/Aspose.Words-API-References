@@ -1,14 +1,14 @@
 ---
 title: LastChild
 second_title: Справочник по API Aspose.Words для .NET
-description: Получает последний потомок узла.
+description: Получает последний дочерний элемент узла.
 type: docs
 weight: 60
 url: /ru/net/aspose.words/compositenode/lastchild/
 ---
 ## CompositeNode.LastChild property
 
-Получает последний потомок узла.
+Получает последний дочерний элемент узла.
 
 ```csharp
 public Node LastChild { get; }
@@ -16,7 +16,7 @@ public Node LastChild { get; }
 
 ### Примечания
 
-Если нет последнего дочернего узла, возвращается нуль.
+Если нет последнего дочернего узла, возвращается null.
 
 ### Примеры
 

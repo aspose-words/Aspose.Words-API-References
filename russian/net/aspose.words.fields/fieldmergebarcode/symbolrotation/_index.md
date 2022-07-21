@@ -1,14 +1,14 @@
 ---
 title: SymbolRotation
 second_title: Справочник по API Aspose.Words для .NET
-description: Получает или задает поворот символа штрих-кода. Допустимые значения0 3
+description: Получает или задает поворот символа штрих-кода. Допустимые значения 0 3
 type: docs
 weight: 140
 url: /ru/net/aspose.words.fields/fieldmergebarcode/symbolrotation/
 ---
 ## FieldMergeBarcode.SymbolRotation property
 
-Получает или задает поворот символа штрих-кода. Допустимые значения:[0, 3]
+Получает или задает поворот символа штрих-кода. Допустимые значения: [0, 3]
 
 ```csharp
 public string SymbolRotation { get; set; }
@@ -16,7 +16,7 @@ public string SymbolRotation { get; set; }
 
 ### Примеры
 
-Показывает, как выполнить слияние почты со штрих-кодами QR.
+Показывает, как выполнять слияние со штрих-кодами QR.
 
 ```csharp
 Document doc = new Document();

@@ -1,14 +1,14 @@
 ---
 title: DocumentLoadingArgs
 second_title: Aspose.Words for .NET API 参考
-description: 传递给Notify./idocumentloadingcallback/notify的参数
+description: 传入的参数Notify./idocumentloadingcallback/notify.
 type: docs
-weight: 3340
+weight: 3390
 url: /zh/net/aspose.words.loading/documentloadingargs/
 ---
 ## DocumentLoadingArgs class
 
-传递给[`Notify`](../idocumentloadingcallback/notify)的参数。
+传入的参数[`Notify`](../idocumentloadingcallback/notify).
 
 ```csharp
 public sealed class DocumentLoadingArgs

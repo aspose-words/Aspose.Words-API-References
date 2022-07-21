@@ -1,14 +1,14 @@
 ---
 title: AddSwitch
 second_title: Aspose.Words for .NET API 参考
-description: 添加字段的开关
+description: 添加一个字段的开关
 type: docs
 weight: 30
 url: /zh/net/aspose.words.fields/fieldbuilder/addswitch/
 ---
 ## AddSwitch(string) {#addswitch}
 
-添加字段的开关。
+添加一个字段的开关。
 
 ```csharp
 public FieldBuilder AddSwitch(string switchName)
@@ -16,7 +16,7 @@ public FieldBuilder AddSwitch(string switchName)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| switchName | String | 开关名称。 |
+| switchName | String | 交换机名称。 |
 
 ### 评论
 
@@ -24,7 +24,7 @@ public FieldBuilder AddSwitch(string switchName)
 
 ### 例子
 
-显示如何使用字段构建器构造字段，然后将它们插入到文档中。
+演示如何使用字段构建器构造字段，然后将它们插入到文档中。
 
 ```csharp
 Document doc = new Document();
@@ -112,7 +112,7 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 
 ## AddSwitch(string, string) {#addswitch_3}
 
-添加字段的开关。
+添加一个字段的开关。
 
 ```csharp
 public FieldBuilder AddSwitch(string switchName, string switchArgument)
@@ -120,12 +120,12 @@ public FieldBuilder AddSwitch(string switchName, string switchArgument)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| switchName | String | 开关名称。 |
+| switchName | String | 交换机名称。 |
 | switchArgument | String | 开关值。 |
 
 ### 例子
 
-显示如何使用字段构建器构造字段，然后将它们插入到文档中。
+演示如何使用字段构建器构造字段，然后将它们插入到文档中。
 
 ```csharp
 Document doc = new Document();
@@ -213,7 +213,7 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 
 ## AddSwitch(string, int) {#addswitch_2}
 
-添加字段的开关。
+添加一个字段的开关。
 
 ```csharp
 public FieldBuilder AddSwitch(string switchName, int switchArgument)
@@ -221,12 +221,12 @@ public FieldBuilder AddSwitch(string switchName, int switchArgument)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| switchName | String | 开关名称。 |
+| switchName | String | 交换机名称。 |
 | switchArgument | Int32 | 开关值。 |
 
 ### 例子
 
-显示如何使用字段构建器构造字段，然后将它们插入到文档中。
+演示如何使用字段构建器构造字段，然后将它们插入到文档中。
 
 ```csharp
 Document doc = new Document();
@@ -314,7 +314,7 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 
 ## AddSwitch(string, double) {#addswitch_1}
 
-添加字段的开关。
+添加一个字段的开关。
 
 ```csharp
 public FieldBuilder AddSwitch(string switchName, double switchArgument)
@@ -322,12 +322,12 @@ public FieldBuilder AddSwitch(string switchName, double switchArgument)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| switchName | String | 开关名称。 |
+| switchName | String | 交换机名称。 |
 | switchArgument | Double | 开关值。 |
 
 ### 例子
 
-显示如何使用字段构建器构造字段，然后将它们插入到文档中。
+演示如何使用字段构建器构造字段，然后将它们插入到文档中。
 
 ```csharp
 Document doc = new Document();

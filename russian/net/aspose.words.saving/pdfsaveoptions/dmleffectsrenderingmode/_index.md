@@ -16,11 +16,11 @@ public override DmlEffectsRenderingMode DmlEffectsRenderingMode { get; set; }
 
 ### Примечания
 
-Значение по умолчанию:Simplified.
+Значение по умолчанию:Simplified .
 
 Это свойство используется, когда документ экспортируется в фиксированные форматы страниц.
 
-Если для[`Compliance`](../compliance)установлено значениеPdfA1aилиPdfA1b, всегда возвращаетNone.
+Если[`Compliance`](../compliance) установлен наPdfA1a или жеPdfA1b , свойство всегда возвращаетNone.
 
 ### Примеры
 

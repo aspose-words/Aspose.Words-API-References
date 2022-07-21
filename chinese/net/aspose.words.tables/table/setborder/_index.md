@@ -18,10 +18,10 @@ public void SetBorder(BorderType borderType, LineStyle lineStyle, double lineWid
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | borderType | BorderType | 要更改的表格边框。 |
-| lineStyle | LineStyle | 要应用的线型。 |
+| lineStyle | LineStyle | 要应用的线条样式。 |
 | lineWidth | Double | 要设置的线宽（以磅为单位）。 |
 | color | Color | 用于边框的颜色。 |
-| isOverrideCellBorders | Boolean | 当` 为 true` 时，会导致所有现有的显式单元格边框被删除。 |
+| isOverrideCellBorders | Boolean | 什么时候`真的`, 导致所有现有的显式单元格边框被删除。 |
 
 ### 例子
 
@@ -31,20 +31,20 @@ public void SetBorder(BorderType borderType, LineStyle lineStyle, double lineWid
 Document doc = new Document(MyDir + "Tables.docx");
 Table table = doc.FirstSection.Body.Tables[0];
 
- // 将表格与页面中心对齐
+// 将表格与页面中心对齐。
 table.Alignment = TableAlignment.Center;
 
- // 清除表格中任何现有的边框和阴影。
+// 清除表格中任何现有的边框和阴影。
 table.ClearBorders();
 table.ClearShading();
 
- // 为表格的轮廓添加绿色边框。
+// 为表格的轮廓添加绿色边框。
 table.SetBorder(BorderType.Left, LineStyle.Single, 1.5, Color.Green, true);
 table.SetBorder(BorderType.Right, LineStyle.Single, 1.5, Color.Green, true);
 table.SetBorder(BorderType.Top, LineStyle.Single, 1.5, Color.Green, true);
 table.SetBorder(BorderType.Bottom, LineStyle.Single, 1.5, Color.Green, true);
 
- // 用浅绿色纯色填充单元格。
+// 用浅绿色纯色填充单元格。
 table.SetShading(TextureIndex.TextureSolid, Color.LightGreen, Color.Empty);
 
 doc.Save(ArtifactsDir + "Table.SetOutlineBorders.docx");

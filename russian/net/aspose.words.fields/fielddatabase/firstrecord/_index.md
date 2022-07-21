@@ -1,14 +1,14 @@
 ---
 title: FirstRecord
 second_title: Справочник по API Aspose.Words для .NET
-description: Получает или задает целочисленный номер первой вставляемой записи данных.
+description: Получает или задает целочисленный номер первой записи данных для вставки.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.fields/fielddatabase/firstrecord/
 ---
 ## FieldDatabase.FirstRecord property
 
-Получает или задает целочисленный номер первой вставляемой записи данных.
+Получает или задает целочисленный номер первой записи данных для вставки.
 
 ```csharp
 public string FirstRecord { get; set; }

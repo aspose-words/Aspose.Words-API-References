@@ -1,18 +1,18 @@
 ---
 title: Aspose.Words.Fields
 second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Fields 命名空间包含 代表的类文档中的 Microsoft Word 字段
+description: 这 Aspose.Words.Fields命名空间包含 代表文档中Microsoft Word 字段的类
 type: docs
 weight: 80
 url: /zh/net/aspose.words.fields/
 ---
-**Aspose.Words.Fields** 命名空间包含 代表的类文档中的 Microsoft Word 字段。
+这 **Aspose.Words.Fields**命名空间包含 代表文档中Microsoft Word 字段的类。
 
 ## 课程
 
 | 班级 | 描述 |
 | --- | --- |
-| [BarcodeParameters](./barcodeparameters) | 条码参数传递给 BarcodeGenerator 的容器类。 |
+| [BarcodeParameters](./barcodeparameters) | 条码参数的容器类传递给 BarcodeGenerator. |
 | [ComparisonEvaluationResult](./comparisonevaluationresult) | 比较评估结果。 |
 | [ComparisonExpression](./comparisonexpression) | 比较表达式。 |
 | [DropDownItemCollection](./dropdownitemcollection) | 代表下拉表单字段中所有项目的字符串集合。 |
@@ -34,12 +34,14 @@ url: /zh/net/aspose.words.fields/
 | [FieldBuilder](./fieldbuilder) | 从域代码标记（参数和开关）构建一个域。 |
 | [FieldChar](./fieldchar) | 表示文档中字段字符的节点的基类。 |
 | [FieldCitation](./fieldcitation) | 实现 CITATION 字段。 |
-| [FieldCollection](./fieldcollection) | [`Field`](../aspose.words.fields/field)对象的集合，表示指定范围内的字段。 |
+| [FieldCollection](./fieldcollection) | 集合[`Field`](../aspose.words.fields/field)表示指定范围内的字段的对象。 |
 | [FieldComments](./fieldcomments) | 实现 COMMENTS 字段。 |
 | [FieldCompare](./fieldcompare) | 实现 COMPARE 字段。 |
 | [FieldCreateDate](./fieldcreatedate) | 实现 CREATEDATE 字段。 |
 | [FieldData](./fielddata) | 实现 DATA 字段。 |
 | [FieldDatabase](./fielddatabase) | 实现 DATABASE 字段。 |
+| [FieldDatabaseDataRow](./fielddatabasedatarow) | 为[`FieldDatabase`](../aspose.words.fields/fielddatabase)字段结果. |
+| [FieldDatabaseDataTable](./fielddatabasedatatable) | 为[`FieldDatabase`](../aspose.words.fields/fielddatabase)字段结果. |
 | [FieldDate](./fielddate) | 实现 DATE 字段。 |
 | [FieldDde](./fielddde) | 实现 DDE 字段。 |
 | [FieldDdeAuto](./fieldddeauto) | 实现 DDEAUTO 字段。 |
@@ -86,7 +88,7 @@ url: /zh/net/aspose.words.fields/
 | [FieldNumPages](./fieldnumpages) | 实现 NUMPAGES 字段。 |
 | [FieldNumWords](./fieldnumwords) | 实现 NUMWORDS 字段。 |
 | [FieldOcx](./fieldocx) | 实现 OCX 字段。 |
-| [FieldOptions](./fieldoptions) | 表示用于控制文档中的字段处理的选项。 |
+| [FieldOptions](./fieldoptions) | 表示控制文档中的字段处理的选项。 |
 | [FieldPage](./fieldpage) | 实现 PAGE 字段。 |
 | [FieldPageRef](./fieldpageref) | 实现 PAGEREF 字段。 |
 | [FieldPrint](./fieldprint) | 实现 PRINT 字段。 |
@@ -99,15 +101,15 @@ url: /zh/net/aspose.words.fields/
 | [FieldSaveDate](./fieldsavedate) | 实现 SAVEDATE 字段。 |
 | [FieldSection](./fieldsection) | 实现 SECTION 字段。 |
 | [FieldSectionPages](./fieldsectionpages) | 实现 SECTIONPAGES 字段。 |
-| [FieldSeparator](./fieldseparator) | 表示一个 Word 字段分隔符，用于将字段代码与字段结果分开。 |
+| [FieldSeparator](./fieldseparator) | 表示一个 Word 字段分隔符，用于分隔字段代码和字段结果。 |
 | [FieldSeq](./fieldseq) | 实现 SEQ 字段。 |
 | [FieldSet](./fieldset) | 实现 SET 字段。 |
 | [FieldShape](./fieldshape) | 实现 SHAPE 字段。 |
 | [FieldSkipIf](./fieldskipif) | 实现 SKIPIF 字段。 |
-| [FieldStart](./fieldstart) | 表示文档中 Word 字段的开头。 |
+| [FieldStart](./fieldstart) | 表示文档中 Word 字段的开始。 |
 | [FieldStyleRef](./fieldstyleref) | 实现 STYLEREF 字段。 |
 | [FieldSubject](./fieldsubject) | 实现 SUBJECT 字段。 |
-| [FieldSymbol](./fieldsymbol) | 实现 SYMBOL 字段。 |
+| [FieldSymbol](./fieldsymbol) | 实现一个 SYMBOL 字段。 |
 | [FieldTA](./fieldta) | 实现 TA 字段。 |
 | [FieldTC](./fieldtc) | 实现 TC 字段。 |
 | [FieldTemplate](./fieldtemplate) | 实现 TEMPLATE 字段。 |
@@ -116,12 +118,12 @@ url: /zh/net/aspose.words.fields/
 | [FieldToa](./fieldtoa) | 实现 TOA 字段。 |
 | [FieldToc](./fieldtoc) | 实现 TOC 字段。 |
 | [FieldUnknown](./fieldunknown) | 实现未知或无法识别的字段。 |
-| [FieldUserAddress](./fielduseraddress) | 实现用户地址字段。 |
+| [FieldUserAddress](./fielduseraddress) | 实现 USERADDRESS 字段。 |
 | [FieldUserInitials](./fielduserinitials) | 实现 USERINITIALS 字段。 |
 | [FieldUserName](./fieldusername) | 实现 USERNAME 字段。 |
 | [FieldXE](./fieldxe) | 实现 XE 字段。 |
 | [FormField](./formfield) | 表示单个表单域。 |
-| [FormFieldCollection](./formfieldcollection) | **FormField** 对象的集合，代表范围内的所有表单字段。 |
+| [FormFieldCollection](./formfieldcollection) | 集合 **表单域**表示范围内所有表单字段的对象。 |
 | [GeneralFormatCollection](./generalformatcollection) | 表示一般格式的类型化集合。 |
 | [MergeFieldImageDimension](./mergefieldimagedimension) | 表示在邮件合并过程中使用的图像尺寸（即宽度或高度）。 |
 | [ToaCategories](./toacategories) | 表示权限类别表。 |
@@ -130,10 +132,11 @@ url: /zh/net/aspose.words.fields/
 
 | 界面 | 描述 |
 | --- | --- |
-| [IBarcodeGenerator](./ibarcodegenerator) | 条码自定义生成器的公共接口。实施应由用户提供。 |
-| [IComparisonExpressionEvaluator](./icomparisonexpressionevaluator) | 实施时，允许覆盖[`FieldIf`](../aspose.words.fields/fieldif)和:::R5 的默认比较表达式评估:T:Aspose.Words.Fields.FieldCompare:::字段。 |
+| [IBarcodeGenerator](./ibarcodegenerator) | 条形码自定义生成器的公共接口。实施应由用户提供。 |
+| [IComparisonExpressionEvaluator](./icomparisonexpressionevaluator) | 实现时，允许覆盖默认比较表达式评估[`FieldIf`](../aspose.words.fields/fieldif)和[`FieldCompare`](../aspose.words.fields/fieldcompare)字段. |
+| [IFieldDatabaseProvider](./ifielddatabaseprovider) | 实现此接口为[`FieldDatabase`](../aspose.words.fields/fielddatabase)更新时的字段。 |
 | [IFieldResultFormatter](./ifieldresultformatter) | 如果要控制字段结果的格式，请实现此接口。 |
-| [IFieldUpdateCultureProvider](./ifieldupdatecultureprovider) | 实现时，提供CultureInfo对象，该对象应在特定字段的更新期间使用。 |
+| [IFieldUpdateCultureProvider](./ifieldupdatecultureprovider) | 实施时，提供一个CultureInfo在更新特定字段期间应使用的对象。 |
 | [IFieldUpdatingCallback](./ifieldupdatingcallback) | 如果您想在字段更新期间调用自己的自定义方法，请实现此接口。 |
 | [IFieldUserPromptRespondent](./ifielduserpromptrespondent) | 表示字段更新期间对用户提示的响应者。 |
 ## 枚举
@@ -141,11 +144,11 @@ url: /zh/net/aspose.words.fields/
 | 枚举 | 描述 |
 | --- | --- |
 | [FieldIfComparisonResult](./fieldifcomparisonresult) | 指定 IF 字段条件评估的结果。 |
-| [FieldIndexFormat](./fieldindexformat) | 指定文档中[`FieldIndex`](../aspose.words.fields/fieldindex)字段的格式。 |
+| [FieldIndexFormat](./fieldindexformat) | 指定格式[`FieldIndex`](../aspose.words.fields/fieldindex)文档中的字段。 |
 | [FieldType](./fieldtype) | 指定 Microsoft Word 字段类型。 |
 | [FieldUpdateCultureSource](./fieldupdateculturesource) | 指示在字段更新期间使用什么文化。 |
-| [GeneralFormat](./generalformat) | 指定应用于数字、文本或任何字段结果的通用格式。 一个字段可能有通用格式的组合。 |
-| [MergeFieldImageDimensionUnit](./mergefieldimagedimensionunit) | 指定在邮件合并过程中使用的图像尺寸单位（即宽度或高度）。 |
-| [TextFormFieldType](./textformfieldtype) | 指定文本表单字段的类型。 |
+| [GeneralFormat](./generalformat) | 指定应用于数字、文本或任何字段结果的通用格式。 字段可能有通用格式的组合。 |
+| [MergeFieldImageDimensionUnit](./mergefieldimagedimensionunit) | 指定邮件合并过程中使用的图像尺寸单位（即宽度或高度）。 |
+| [TextFormFieldType](./textformfieldtype) | 指定文本表单域的类型。 |
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

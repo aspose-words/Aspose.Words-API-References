@@ -1,14 +1,14 @@
 ---
 title: IsAuto
 second_title: Справочник по API Aspose.Words для .NET
-description: Возвращает флаг указывающий что граница оси должна определяться автоматически.
+description: Возвращает флаг указывающий что привязка оси должна быть определена автоматически.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.drawing.charts/axisbound/isauto/
 ---
 ## AxisBound.IsAuto property
 
-Возвращает флаг, указывающий, что граница оси должна определяться автоматически.
+Возвращает флаг, указывающий, что привязка оси должна быть определена автоматически.
 
 ```csharp
 public bool IsAuto { get; }
@@ -16,7 +16,7 @@ public bool IsAuto { get; }
 
 ### Примеры
 
-Показывает, как установить пользовательские границы осей.
+Показывает, как установить границы пользовательской оси.
 
 ```csharp
 Document doc = new Document();

@@ -1,14 +1,14 @@
 ---
 title: Table
 second_title: Справочник по API Aspose.Words для .NET
-description: Инициализирует новый экземпляр класса Table .
+description: Инициализирует новый экземпляр Стол класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.tables/table/table/
 ---
 ## Table constructor
 
-Инициализирует новый экземпляр класса **Table** .
+Инициализирует новый экземпляр **Стол** класс.
 
 ```csharp
 public Table(DocumentBase doc)
@@ -16,65 +16,41 @@ public Table(DocumentBase doc)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| doc | DocumentBase | Документ-владелец. |
+| doc | DocumentBase | Документ владельца. |
 
 ### Примечания
 
-Когда **Таблица** есть создан, он принадлежит указанному документу, но не является частью документа и **ParentNode** имеет значение null.
+Когда **Стол** создан, он принадлежит указанному документу, но не является частью документа и **Родительский узел** нулевой.
 
-Для добавления **таблицы** к документу используйте InsertAfter или InsertBefore on история, в которую вы хотите вставить таблицу.
+Чтобы добавить **Стол** к документу используйте InsertAfter или InsertBefore для истории, в которую вы хотите вставить таблицу.
 
 ### Примеры
 
 Показывает, как создать таблицу.
 
 ```csharp
-public void CreateNestedTable()
-{
-    Document doc = new Document();
+Document doc = new Document();
+Table table = new Table(doc);
+doc.FirstSection.Body.AppendChild(table);
 
-     // Создадим внешнюю таблицу с тремя строками и четырьмя столбцами, а затем добавим ее в документ.
-    Table outerTable = CreateTable(doc, 3, 4, "Outer Table");
-    doc.FirstSection.Body.AppendChild(outerTable);
+// Таблицы содержат строки, содержащие ячейки, которые могут иметь абзацы
+// с типичными элементами, такими как прогоны, формы и даже другие таблицы.
+// Вызов метода "EnsureMinimum" для таблицы гарантирует, что
+// в таблице есть хотя бы одна строка, ячейка и абзац.
+Row firstRow = new Row(doc);
+table.AppendChild(firstRow);
 
-     // Создайте еще одну таблицу с двумя строками и двумя столбцами, а затем вставьте ее в первую ячейку первой таблицы.
-    Table innerTable = CreateTable(doc, 2, 2, "Inner Table");
-    outerTable.FirstRow.FirstCell.AppendChild(innerTable);
+Cell firstCell = new Cell(doc);
+firstRow.AppendChild(firstCell);
 
-    doc.Save(ArtifactsDir + "Table.CreateNestedTable.docx");
-}
+Paragraph paragraph = new Paragraph(doc);
+firstCell.AppendChild(paragraph);
 
-/// <summary>
- /// Создает новую таблицу в документе с заданными размерами и текстом в каждой ячейке.
-/// </summary>
-private static Table CreateTable(Document doc, int rowCount, int cellCount, string cellText)
-{
-    Table table = new Table(doc);
+// Добавляем текст к первому вызову в первой строке таблицы.
+Run run = new Run(doc, "Hello world!");
+paragraph.AppendChild(run);
 
-    for (int rowId = 1; rowId <= rowCount; rowId++)
-    {
-        Row row = new Row(doc);
-        table.AppendChild(row);
-
-        for (int cellId = 1; cellId <= cellCount; cellId++)
-        {
-            Cell cell = new Cell(doc);
-            cell.AppendChild(new Paragraph(doc));
-            cell.FirstParagraph.AppendChild(new Run(doc, cellText));
-
-            row.AppendChild(cell);
-        }
-    }
-
-    // Вы можете использовать свойства «Заголовок» и «Описание», чтобы добавить заголовок и описание соответственно к вашей таблице.
-     // В таблице должна быть хотя бы одна строка, прежде чем мы сможем использовать эти свойства.
-     // Эти свойства имеют значение для документов .docx, соответствующих стандарту ISO/IEC 29500 (см. класс OoxmlCompliance).
-     // Если мы сохраняем документ в форматах, предшествующих ISO/IEC 29500, Microsoft Word игнорирует эти свойства.
-    table.Title = "Aspose table title";
-    table.Description = "Aspose table description";
-
-    return table;
-}
+doc.Save(ArtifactsDir + "Table.CreateTable.docx");
 ```
 
 Показывает, как построить вложенную таблицу без использования построителя документов.
@@ -84,11 +60,11 @@ public void CreateNestedTable()
 {
     Document doc = new Document();
 
-     // Создадим внешнюю таблицу с тремя строками и четырьмя столбцами, а затем добавим ее в документ.
+    // Создадим внешнюю таблицу с тремя строками и четырьмя столбцами, а затем добавим ее в документ.
     Table outerTable = CreateTable(doc, 3, 4, "Outer Table");
     doc.FirstSection.Body.AppendChild(outerTable);
 
-     // Создайте еще одну таблицу с двумя строками и двумя столбцами, а затем вставьте ее в первую ячейку первой таблицы.
+    // Создайте еще одну таблицу с двумя строками и двумя столбцами, а затем вставьте ее в первую ячейку первой таблицы.
     Table innerTable = CreateTable(doc, 2, 2, "Inner Table");
     outerTable.FirstRow.FirstCell.AppendChild(innerTable);
 
@@ -96,7 +72,7 @@ public void CreateNestedTable()
 }
 
 /// <summary>
- /// Создает новую таблицу в документе с заданными размерами и текстом в каждой ячейке.
+/// Создает новую таблицу в документе с заданными размерами и текстом в каждой ячейке.
 /// </summary>
 private static Table CreateTable(Document doc, int rowCount, int cellCount, string cellText)
 {
@@ -118,9 +94,9 @@ private static Table CreateTable(Document doc, int rowCount, int cellCount, stri
     }
 
     // Вы можете использовать свойства «Заголовок» и «Описание», чтобы добавить заголовок и описание соответственно к вашей таблице.
-     // В таблице должна быть хотя бы одна строка, прежде чем мы сможем использовать эти свойства.
-     // Эти свойства имеют значение для документов .docx, соответствующих стандарту ISO/IEC 29500 (см. класс OoxmlCompliance).
-     // Если мы сохраняем документ в форматах, предшествующих ISO/IEC 29500, Microsoft Word игнорирует эти свойства.
+    // В таблице должна быть хотя бы одна строка, прежде чем мы сможем использовать эти свойства.
+    // Эти свойства имеют значение для документов .docx, совместимых с ISO/IEC 29500 (см. класс OoxmlCompliance).
+    // Если мы сохраняем документ в форматах, предшествующих ISO/IEC 29500, Microsoft Word игнорирует эти свойства.
     table.Title = "Aspose table title";
     table.Description = "Aspose table description";
 

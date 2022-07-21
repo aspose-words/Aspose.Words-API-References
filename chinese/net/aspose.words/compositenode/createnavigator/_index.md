@@ -1,14 +1,14 @@
 ---
 title: CreateNavigator
 second_title: Aspose.Words for .NET API 参考
-description: 保留供系统使用 IXPath 可导航
+description: 保留供系统使用 IXPathNavigable.
 type: docs
 weight: 80
 url: /zh/net/aspose.words/compositenode/createnavigator/
 ---
 ## CompositeNode.CreateNavigator method
 
-保留供系统使用。 IXPath 可导航。
+保留供系统使用。 IXPathNavigable.
 
 ```csharp
 [EditorBrowsable(EditorBrowsableState.Never)]

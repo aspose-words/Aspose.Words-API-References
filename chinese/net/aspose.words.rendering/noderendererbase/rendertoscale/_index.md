@@ -1,14 +1,14 @@
 ---
 title: RenderToScale
 second_title: Aspose.Words for .NET API 参考
-description: 将形状渲染为Graphics 对象到指定比例
+description: 将形状渲染为Graphics 对象到指定的比例
 type: docs
 weight: 70
 url: /zh/net/aspose.words.rendering/noderendererbase/rendertoscale/
 ---
 ## NodeRendererBase.RenderToScale method
 
-将形状渲染为Graphics 对象到指定比例。
+将形状渲染为Graphics 对象到指定的比例。
 
 ```csharp
 public SizeF RenderToScale(Graphics graphics, float x, float y, float scale)
@@ -19,7 +19,7 @@ public SizeF RenderToScale(Graphics graphics, float x, float y, float scale)
 | graphics | Graphics | 渲染到的对象。 |
 | x | Single | 渲染形状左上角的 X 坐标（以世界单位为单位）。 |
 | y | Single | 渲染形状左上角的 Y 坐标（以世界单位为单位）。 |
-| scale | Single | 渲染形状的比例（1.0为100%）。 |
+| scale | Single | 渲染形状的比例（1.0 为 100%）。 |
 
 ### 返回值
 

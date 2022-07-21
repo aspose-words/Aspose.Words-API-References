@@ -1,14 +1,14 @@
 ---
 title: Font
 second_title: Aspose.Words for .NET API 参考
-description: 提供对该对象的字体格式的访问
+description: 提供对此对象的字体格式的访问
 type: docs
 weight: 190
 url: /zh/net/aspose.words.drawing/shapebase/font/
 ---
 ## ShapeBase.Font property
 
-提供对该对象的字体格式的访问。
+提供对此对象的字体格式的访问。
 
 ```csharp
 public Font Font { get; }
@@ -16,7 +16,7 @@ public Font Font { get; }
 
 ### 例子
 
-显示如何插入文本框，并设置其内容的字体。
+演示如何插入文本框，并设置其内容的字体。
 
 ```csharp
 Document doc = new Document();

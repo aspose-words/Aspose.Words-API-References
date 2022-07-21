@@ -1,14 +1,14 @@
 ---
 title: IgnoreFootnotes
 second_title: Справочник по API Aspose.Words для .NET
-description: Получает или задает логическое значение указывающее следует ли игнорировать сноски. Значение по умолчанию false .
+description: Получает или задает логическое значение указывающее следует ли игнорировать сноски. Значение по умолчаниюЛОЖЬ .
 type: docs
 weight: 90
 url: /ru/net/aspose.words.replacing/findreplaceoptions/ignorefootnotes/
 ---
 ## FindReplaceOptions.IgnoreFootnotes property
 
-Получает или задает логическое значение, указывающее, следует ли игнорировать сноски. Значение по умолчанию:` false` .
+Получает или задает логическое значение, указывающее, следует ли игнорировать сноски. Значение по умолчанию:`ЛОЖЬ` .
 
 ```csharp
 public bool IgnoreFootnotes { get; set; }
@@ -30,7 +30,7 @@ builder.InsertParagraph();
 builder.Write("Lorem ipsum dolor sit amet, consectetur adipiscing elit.");
 builder.InsertFootnote(FootnoteType.Endnote, "Lorem ipsum dolor sit amet, consectetur adipiscing elit.");
 
-// Установите для флага «IgnoreFootnotes» значение «true», чтобы получить функцию поиска и замены
+// Установите для флага "IgnoreFootnotes" значение "true", чтобы найти и заменить
 // операция для игнорирования текста внутри сносок.
 // Установите флаг «IgnoreFootnotes» в «false», чтобы получить функцию поиска и замены
 // операция также для поиска текста внутри сносок.

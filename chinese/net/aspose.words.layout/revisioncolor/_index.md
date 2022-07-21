@@ -3,7 +3,7 @@ title: RevisionColor
 second_title: Aspose.Words for .NET API 参考
 description: 允许指定文档修订的颜色
 type: docs
-weight: 3130
+weight: 3180
 url: /zh/net/aspose.words.layout/revisioncolor/
 ---
 ## RevisionColor enumeration
@@ -18,26 +18,26 @@ public enum RevisionColor
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| Auto | `0` | 默认。 |
-| Black | `1` | 表示 000000 颜色。 |
+| Auto | `0` | 默认值。 |
+| Black | `1` | 代表 000000 颜色。 |
 | Blue | `2` | 代表 2e97d3 颜色。 |
 | BrightGreen | `3` | 代表 84a35b 颜色。 |
 | ClassicBlue | `4` | 代表 0000ff 颜色。 |
 | ClassicRed | `5` | 代表 ff0000 颜色。 |
-| DarkBlue | `6` | 表示 376e96 颜色。 |
-| DarkRed | `7` | 代表 881824 颜色。 |
+| DarkBlue | `6` | 代表 376e96 颜色。 |
+| DarkRed | `7` | 代表881824色。 |
 | DarkYellow | `8` | 代表 e09a2b 颜色。 |
 | Gray25 | `9` | 代表 a0a3a9 颜色。 |
-| Gray50 | `10` | 表示 50565e 颜色。 |
-| Green | `11` | 表示 2c6234 颜色。 |
-| Pink | `12` | 表示 ce338f 颜色。 |
+| Gray50 | `10` | 代表 50565e 颜色。 |
+| Green | `11` | 代表 2c6234 颜色。 |
+| Pink | `12` | 代表 ce338f 颜色。 |
 | Red | `13` | 代表 b5082e 颜色。 |
-| Teal | `14` | 表示 1b9cab 颜色。 |
+| Teal | `14` | 代表 1b9cab 颜色。 |
 | Turquoise | `15` | 代表 3eafc2 颜色。 |
-| Violet | `16` | 表示 633277 颜色。 |
+| Violet | `16` | 代表 633277 颜色。 |
 | White | `17` | 代表 ffffff 颜色。 |
-| Yellow | `18` | 代表fad272颜色。 |
-| NoHighlight | `19` | 没有使用颜色来突出修订更改。 |
+| Yellow | `18` | 代表 fad272 颜色。 |
+| NoHighlight | `19` | 不使用颜色突出修订更改。 |
 | ByAuthor | `20` | 每个作者的修订版都会收到自己的颜色，用于从一组预定义的高对比度颜色中突出显示。 |
 
 ### 例子

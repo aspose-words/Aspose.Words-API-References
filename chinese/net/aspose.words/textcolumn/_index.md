@@ -1,14 +1,14 @@
 ---
 title: TextColumn
 second_title: Aspose.Words for .NET API 参考
-description: 表示单个文本列 TextColumn 是TextColumnCollection./textcolumncollection集合的成员  TextColumns 集合包括文档部分中的所有列
+description: 表示单个文本列 文本列是成员TextColumnCollection./textcolumncollection集合.  文本列集合包括文档部分中的所有列
 type: docs
-weight: 6040
+weight: 6090
 url: /zh/net/aspose.words/textcolumn/
 ---
 ## TextColumn class
 
-表示单个文本列。 **TextColumn** 是[`TextColumnCollection`](../textcolumncollection)集合的成员。  **TextColumns** 集合包括文档部分中的所有列。
+表示单个文本列。 **文本列**是成员[`TextColumnCollection`](../textcolumncollection)集合.  **文本列**集合包括文档部分中的所有列。
 
 ```csharp
 public class TextColumn
@@ -19,13 +19,13 @@ public class TextColumn
 | 姓名 | 描述 |
 | --- | --- |
 | [SpaceAfter](../../aspose.words/textcolumn/spaceafter) { get; set; } | 获取或设置此列与下一列之间的间距（以磅为单位）。最后一列不需要。 |
-| [Width](../../aspose.words/textcolumn/width) { get; set; } | 获取或设置文本列的宽度（以磅为单位）。 |
+| [Width](../../aspose.words/textcolumn/width) { get; set; } | 获取或设置文本列的宽度，以磅为单位。 |
 
 ### 评论
 
-**TextColumn** 对象是仅用于指定具有自定义宽度和间距的列。如果您希望 文档中的列具有相同的宽度，请设置 TextColumns。[`EvenlySpaced`](../textcolumncollection/evenlyspaced)到 **true** 。
+**文本列**对象仅用于指定具有自定义宽度和间距的列。如果您希望 文档中的列等宽，请设置 TextColumns。[`EvenlySpaced`](../textcolumncollection/evenlyspaced)至 **真的**.
 
-当一个新的 **TextColumn** 创建时，它的宽度和间距设置为零。
+当一个新的 **文本列**创建它的宽度和间距设置为零。
 
 ### 例子
 

@@ -1,14 +1,14 @@
 ---
 title: DataPoints
 second_title: Справочник по API Aspose.Words для .NET
-description: Возвращает набор объектов форматирования для всех точек данных в этом ряду.
+description: Возвращает коллекцию объектов форматирования для всех точек данных в этой серии.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.drawing.charts/chartseries/datapoints/
 ---
 ## ChartSeries.DataPoints property
 
-Возвращает набор объектов форматирования для всех точек данных в этом ряду.
+Возвращает коллекцию объектов форматирования для всех точек данных в этой серии.
 
 ```csharp
 public ChartDataPointCollection DataPoints { get; }

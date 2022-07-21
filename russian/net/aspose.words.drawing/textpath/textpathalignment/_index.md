@@ -16,7 +16,7 @@ public TextPathAlignment TextPathAlignment { get; set; }
 
 ### Примечания
 
-Значение по умолчанию:Центр.
+Значение по умолчаниюCenter.
 
 ### Примеры
 

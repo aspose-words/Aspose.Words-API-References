@@ -1,14 +1,14 @@
 ---
 title: AddSpaceBetweenFarEastAndAlpha
 second_title: Справочник по API Aspose.Words для .NET
-description: Получает или задает флаг указывающий регулируется ли автоматически межсимвольный интервал между регионами латинского текста и регионами восточноазиатского текста в текущем параграф.
+description: Получает или задает флаг указывающий регулируется ли автоматически межсимвольный интервал между регионами латинского текста и регионами восточноазиатского текста в текущем абзаце.
 type: docs
 weight: 10
 url: /ru/net/aspose.words/paragraphformat/addspacebetweenfareastandalpha/
 ---
 ## ParagraphFormat.AddSpaceBetweenFarEastAndAlpha property
 
-Получает или задает флаг, указывающий, регулируется ли автоматически межсимвольный интервал между регионами латинского текста и регионами восточноазиатского текста в текущем параграф.
+Получает или задает флаг, указывающий, регулируется ли автоматически межсимвольный интервал между регионами латинского текста и регионами восточноазиатского текста в текущем абзаце.
 
 ```csharp
 public bool AddSpaceBetweenFarEastAndAlpha { get; set; }
@@ -36,7 +36,7 @@ paragraphFormat.AddSpaceBetweenFarEastAndAlpha = true;
 paragraphFormat.AddSpaceBetweenFarEastAndDigit = true;
 paragraphFormat.KeepTogether = true;
 
- // Метод Writeln заканчивает абзац после добавления text
+// Метод Writeln завершает абзац после добавления текста
 // и затем начинает новую строку, добавляя новый абзац.
 builder.Writeln("Hello world!");
 

@@ -1,14 +1,14 @@
 ---
 title: RemoveAt
 second_title: Справочник по API Aspose.Words для .NET
-description: УдаляетChartSeriesaspose.words.drawing.charts/chartseriesпо указанному индексу.
+description: УдаляетChartSeriesaspose.words.drawing.charts/chartseries по указанному индексу.
 type: docs
 weight: 60
 url: /ru/net/aspose.words.drawing.charts/chartseriescollection/removeat/
 ---
 ## ChartSeriesCollection.RemoveAt method
 
-Удаляет[`ChartSeries`](../../chartseries)по указанному индексу.
+Удаляет[`ChartSeries`](../../chartseries) по указанному индексу.
 
 ```csharp
 public void RemoveAt(int index)
@@ -16,7 +16,7 @@ public void RemoveAt(int index)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | Int32 | Отсчитываемый от нуля индекс удаляемой серии диаграмм. |
+| index | Int32 | Отсчитываемый от нуля индекс удаляемой серии ChartSeries. |
 
 ### Примеры
 
@@ -58,7 +58,7 @@ chartData.RemoveAt(2);
 
 Assert.False(chartData.Any(s => s.Name == "Series 3"));
 
-// С помощью этого метода мы также можем сразу очистить все данные диаграммы.
+// С помощью этого метода мы также можем очистить все данные графика сразу.
 // При создании нового графика это способ стереть все демонстрационные данные
 // прежде чем мы сможем начать работу с пустой диаграммой.
 chartData.Clear();

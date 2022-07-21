@@ -16,7 +16,7 @@ public string AltName { get; set; }
 
 ### 评论
 
-不能为` null` .可以是空字符串。
+不可能是`无效的`.可以是空字符串。
 
 ### 例子
 

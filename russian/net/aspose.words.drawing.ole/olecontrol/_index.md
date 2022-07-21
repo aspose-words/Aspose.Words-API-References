@@ -18,7 +18,7 @@ public class OleControl
 
 | Имя | Описание |
 | --- | --- |
-| virtual [IsForms2OleControl](../../aspose.words.drawing.ole/olecontrol/isforms2olecontrol) { get; } | Возвращает true, если элемент управления является[`Forms2OleControl`](../forms2olecontrol). |
+| virtual [IsForms2OleControl](../../aspose.words.drawing.ole/olecontrol/isforms2olecontrol) { get; } | Возвращает true, если элемент управления является[`Forms2OleControl`](../forms2olecontrol) . |
 | [Name](../../aspose.words.drawing.ole/olecontrol/name) { get; } | Получает имя элемента управления ActiveX. |
 
 ### Примеры

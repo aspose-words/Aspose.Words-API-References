@@ -1,14 +1,14 @@
 ---
 title: WebExtension
 second_title: Aspose.Words for .NET API 参考
-description: 表示网络扩展对象
+description: 表示一个 Web 扩展对象
 type: docs
-weight: 6380
+weight: 6430
 url: /zh/net/aspose.words.webextensions/webextension/
 ---
 ## WebExtension class
 
-表示网络扩展对象。
+表示一个 Web 扩展对象。
 
 ```csharp
 public class WebExtension
@@ -27,7 +27,7 @@ public class WebExtension
 
 ### 例子
 
-显示如何添加 Web 扩展到一个文件。
+展示如何向文档添加 Web 扩展。
 
 ```csharp
 Document doc = new Document();

@@ -28,12 +28,12 @@ builder.Write("Section 2");
 
 Assert.AreEqual("Section 1\x000cSection 2", doc.GetText().Trim());
 
- // Удаляем первый раздел из документа.
+// Удаляем первый раздел из документа.
 doc.Sections.RemoveAt(0);
 
 Assert.AreEqual("Section 2", doc.GetText().Trim());
 
- // Добавляем копию того, что сейчас является первым разделом, в конец документа.
+// Добавляем копию того, что сейчас является первым разделом, в конец документа.
 int lastSectionIdx = doc.Sections.Count - 1;
 Section newSection = doc.Sections[lastSectionIdx].Clone();
 doc.Sections.Add(newSection);

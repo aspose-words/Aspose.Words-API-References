@@ -31,22 +31,22 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Параметр «Параметры страницы» раздела определяет размер полей страницы в пунктах.
- // Мы также можем использовать класс «ConvertUtil», чтобы использовать другую единицу измерения, 
- // такие как пиксели при определении границ.
+// Мы также можем использовать класс «ConvertUtil», чтобы использовать другую единицу измерения,
+// такие как пиксели при определении границ.
 PageSetup pageSetup = builder.PageSetup;
 pageSetup.TopMargin = ConvertUtil.PixelToPoint(100);
 pageSetup.BottomMargin = ConvertUtil.PixelToPoint(200);
 pageSetup.LeftMargin = ConvertUtil.PixelToPoint(225);
 pageSetup.RightMargin = ConvertUtil.PixelToPoint(125);
 
- // Пиксель равен 0,75 точки.
+// Пиксель равен 0,75 точки.
 Assert.AreEqual(0.75d, ConvertUtil.PixelToPoint(1));
 Assert.AreEqual(1.0d, ConvertUtil.PointToPixel(0.75));
 
- // Используемое значение DPI по умолчанию — 96.
+// Используемое значение DPI по умолчанию — 96.
 Assert.AreEqual(0.75d, ConvertUtil.PixelToPoint(1, 96));
 
- // Добавляем содержимое для демонстрации новых полей.
+// Добавьте содержимое, чтобы продемонстрировать новые поля.
 builder.Writeln($"This Text is {pageSetup.LeftMargin} points/{ConvertUtil.PointToPixel(pageSetup.LeftMargin)} pixels from the left, " +
                 $"{pageSetup.RightMargin} points/{ConvertUtil.PointToPixel(pageSetup.RightMargin)} pixels from the right, " +
                 $"{pageSetup.TopMargin} points/{ConvertUtil.PointToPixel(pageSetup.TopMargin)} pixels from the top, " +
@@ -74,7 +74,7 @@ public static double PointToPixel(double points, double resolution)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | points | Double | Значение для преобразования. |
-| разрешение | Double | Разрешение dpi (точек на дюйм). |
+| resolution | Double | Разрешение dpi (точек на дюйм). |
 
 ### Примечания
 
@@ -88,7 +88,7 @@ public static double PointToPixel(double points, double resolution)
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
- // Определяем размер верхнего поля этого раздела в пикселях в соответствии с пользовательским DPI.
+// Определить размер верхнего поля этого раздела в пикселях в соответствии с пользовательским значением DPI.
 const double myDpi = 192;
 
 PageSetup pageSetup = builder.PageSetup;
@@ -96,13 +96,13 @@ pageSetup.TopMargin = ConvertUtil.PixelToPoint(100, myDpi);
 
 Assert.AreEqual(37.5d, pageSetup.TopMargin, 0.01d);
 
- // При значении DPI по умолчанию, равном 96, пиксель равен 0,75 точки.
+// При значении DPI по умолчанию, равном 96, пиксель равен 0,75 точки.
 Assert.AreEqual(0.75d, ConvertUtil.PixelToPoint(1));
 
 builder.Writeln($"This Text is {pageSetup.TopMargin} points/{ConvertUtil.PointToPixel(pageSetup.TopMargin, myDpi)} " +
                 $"pixels (at a DPI of {myDpi}) from the top of the page.");
 
- // Установите новый DPI и соответствующим образом отрегулируйте значение верхнего поля.
+// Установите новый DPI и соответствующим образом отрегулируйте значение верхнего поля.
 const double newDpi = 300;
 pageSetup.TopMargin = ConvertUtil.PixelToNewDpi(pageSetup.TopMargin, myDpi, newDpi);
 Assert.AreEqual(59.0d, pageSetup.TopMargin, 0.01d);

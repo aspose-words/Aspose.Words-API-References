@@ -18,7 +18,7 @@ public double MajorUnit { get; set; }
 
 值的有效范围大于零。该属性对时间类别和 值轴有效。
 
-设置此属性会将[`MajorUnitIsAuto`](../majorunitisauto)属性设置为 **假** 。
+设置此属性会设置[`MajorUnitIsAuto`](../majorunitisauto)财产 **错误的**.
 
 ### 例子
 

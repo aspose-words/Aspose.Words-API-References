@@ -1,14 +1,14 @@
 ---
 title: Prefix
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置在引文前面的前缀
+description: 获取或设置附加到引文的前缀
 type: docs
 weight: 50
 url: /zh/net/aspose.words.fields/fieldcitation/prefix/
 ---
 ## FieldCitation.Prefix property
 
-获取或设置在引文前面的前缀。
+获取或设置附加到引文的前缀。
 
 ```csharp
 public string Prefix { get; set; }
@@ -16,7 +16,7 @@ public string Prefix { get; set; }
 
 ### 例子
 
-显示如何使用 CITATION 和 BIBLIOGRAPHY 字段。
+展示如何使用 CITATION 和 BIBLIOGRAPHY 字段。
 
 ```csharp
 // 打开一个包含我们可以在其中找到的书目来源的文档

@@ -1,14 +1,14 @@
 ---
 title: GraphicsQualityOptions
 second_title: Aspose.Words for .NET API 参考
-description: 允许为Graphics对象指定渲染模式和质量
+description: 允许指定渲染模式和质量Graphics对象.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.saving/imagesaveoptions/graphicsqualityoptions/
 ---
 ## ImageSaveOptions.GraphicsQualityOptions property
 
-允许为Graphics对象指定渲染模式和质量。
+允许指定渲染模式和质量Graphics对象.
 
 ```csharp
 public GraphicsQualityOptions GraphicsQualityOptions { get; set; }
@@ -18,11 +18,11 @@ public GraphicsQualityOptions GraphicsQualityOptions { get; set; }
 
 使用此属性覆盖 Aspose.Words 引擎默认提供的图形设置。
 
-只有在将文档保存为类图像格式时才会生效。
+只有在将文档保存为类似图像的格式时才会生效。
 
 ### 例子
 
-显示如何在将文档转换为图像格式时设置渲染质量选项。
+展示如何在将文档转换为图像格式时设置渲染质量选项。
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");

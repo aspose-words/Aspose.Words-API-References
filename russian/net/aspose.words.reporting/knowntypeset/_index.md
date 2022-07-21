@@ -1,14 +1,14 @@
 ---
 title: KnownTypeSet
 second_title: Справочник по API Aspose.Words для .NET
-description: Представляет неупорядоченный набор т. е. набор уникальных элементов содержащийTypeобъекты которые полностью или частично определенные имена могут использоваться в шаблонах отчетов для вызова соответствующих статических членов типов выполнения приведения типов и т. д.
+description: Представляет неупорядоченный набор т. е. набор уникальных элементов содержащийType объекты  полные или частично определенные имена которых можно использовать в шаблонах отчетов для вызова статических элементов соответствующих типов  выполнения приведения типов и т. д.
 type: docs
-weight: 4400
+weight: 4450
 url: /ru/net/aspose.words.reporting/knowntypeset/
 ---
 ## KnownTypeSet class
 
-Представляет неупорядоченный набор (т. е. набор уникальных элементов), содержащийTypeобъекты которые полностью или частично определенные имена могут использоваться в шаблонах отчетов для вызова соответствующих статических членов типов, выполнения приведения типов и т. д.
+Представляет неупорядоченный набор (т. е. набор уникальных элементов), содержащийType объекты , полные или частично определенные имена которых можно использовать в шаблонах отчетов для вызова статических элементов соответствующих типов , выполнения приведения типов и т. д.
 
 ```csharp
 public class KnownTypeSet : IEnumerable<Type>
@@ -24,10 +24,10 @@ public class KnownTypeSet : IEnumerable<Type>
 
 | Имя | Описание |
 | --- | --- |
-| [Add](../../aspose.words.reporting/knowntypeset/add)(Type) | Добавляет указанный объектTypeв набор. ВыдаетArgumentExceptionв следующих случаях: |
+| [Add](../../aspose.words.reporting/knowntypeset/add)(Type) | Добавляет указанныйType возражать против набора. БроскиArgumentException in следующие случаи: |
 | [Clear](../../aspose.words.reporting/knowntypeset/clear)() | Удаляет все элементы из набора. |
-| [GetEnumerator](../../aspose.words.reporting/knowntypeset/getenumerator)() | Возвращает объектIEnumeratorдля перебора элементов набора. |
-| [Remove](../../aspose.words.reporting/knowntypeset/remove)(Type) | Удаляет указанный объектTypeиз набора. ВыдаетArgumentExceptionесли *type*равно null. |
+| [GetEnumerator](../../aspose.words.reporting/knowntypeset/getenumerator)() | ВозвращаетIEnumerator объект для перебора элементов набора. |
+| [Remove](../../aspose.words.reporting/knowntypeset/remove)(Type) | Удаляет указанныйTypeобъект из набора. БроскиArgumentException если *type* равно нулю. |
 
 ### Смотрите также
 

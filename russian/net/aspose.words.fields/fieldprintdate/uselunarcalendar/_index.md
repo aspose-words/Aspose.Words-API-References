@@ -1,14 +1,14 @@
 ---
 title: UseLunarCalendar
 second_title: Справочник по API Aspose.Words для .NET
-description: Получает или задает следует ли использовать лунный календарь по хиджре или лунный календарь на иврите.
+description: Получает или задает использование лунного календаря по хиджре или лунного календаря на иврите.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.fields/fieldprintdate/uselunarcalendar/
 ---
 ## FieldPrintDate.UseLunarCalendar property
 
-Получает или задает, следует ли использовать лунный календарь по хиджре или лунный календарь на иврите.
+Получает или задает использование лунного календаря по хиджре или лунного календаря на иврите.
 
 ```csharp
 public bool UseLunarCalendar { get; set; }

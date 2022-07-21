@@ -3,7 +3,7 @@ title: VisitorAction
 second_title: Aspose.Words for .NET API 参考
 description: 允许访问者控制节点的枚举
 type: docs
-weight: 6260
+weight: 6310
 url: /zh/net/aspose.words/visitoraction/
 ---
 ## VisitorAction enumeration

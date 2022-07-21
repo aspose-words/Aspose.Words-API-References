@@ -1,14 +1,14 @@
 ---
 title: GrammarChecked
 second_title: Справочник по API Aspose.Words для .NET
-description: Возвращает true  если документ проверен на грамматику.
+description: Возвращает истинный если документ проверен на грамматику.
 type: docs
 weight: 180
 url: /ru/net/aspose.words/document/grammarchecked/
 ---
 ## Document.GrammarChecked property
 
-Возвращает **true** , если документ проверен на грамматику.
+Возвращает **истинный** если документ проверен на грамматику.
 
 ```csharp
 public bool GrammarChecked { get; set; }
@@ -16,7 +16,7 @@ public bool GrammarChecked { get; set; }
 
 ### Примечания
 
-Чтобы перепроверить грамматику в документе, установите для этого свойства значение **ложь** .
+Чтобы перепроверить грамматику в документе, установите для этого свойства значение **ЛОЖЬ** .
 
 ### Примеры
 

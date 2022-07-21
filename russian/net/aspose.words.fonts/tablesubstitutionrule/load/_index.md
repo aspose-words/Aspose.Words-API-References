@@ -86,7 +86,7 @@ doc.Save(ArtifactsDir + "FontSettings.TableSubstitutionRule.Custom.pdf");
 
 ## Load(Stream) {#load}
 
-Загружает настройки подстановки таблиц из XML-потока.
+Загружает настройки подстановки таблиц из потока XML.
 
 ```csharp
 public void Load(Stream stream)

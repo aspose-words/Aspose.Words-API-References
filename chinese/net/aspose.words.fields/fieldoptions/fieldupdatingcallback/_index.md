@@ -1,14 +1,14 @@
 ---
 title: FieldUpdatingCallback
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置IFieldUpdatingCallbackaspose.words.fields/ifieldupdatingcallback实现
+description: 获取或设置IFieldUpdatingCallbackaspose.words.fields/ifieldupdatingcallback实施
 type: docs
-weight: 100
+weight: 110
 url: /zh/net/aspose.words.fields/fieldoptions/fieldupdatingcallback/
 ---
 ## FieldOptions.FieldUpdatingCallback property
 
-获取或设置[`IFieldUpdatingCallback`](../../ifieldupdatingcallback)实现
+获取或设置[`IFieldUpdatingCallback`](../../ifieldupdatingcallback)实施
 
 ```csharp
 public IFieldUpdatingCallback FieldUpdatingCallback { get; set; }

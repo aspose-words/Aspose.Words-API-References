@@ -16,7 +16,7 @@ public bool IsDecorative { get; set; }
 
 ### Примечания
 
-Обратите внимание, что фигура не пустая[`AlternativeText`](../alternativetext)не может быть декоративным.
+Обратите внимание, что форма не пуста[`AlternativeText`](../alternativetext) не может быть декоративным.
 
 ### Примеры
 

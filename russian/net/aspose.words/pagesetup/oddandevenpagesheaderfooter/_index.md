@@ -1,14 +1,14 @@
 ---
 title: OddAndEvenPagesHeaderFooter
 second_title: Справочник по API Aspose.Words для .NET
-description: Истинно  если в документе разные верхние и нижние колонтитулы для четных и нечетных страниц.
+description: Истинныйесли документ имеет разные верхние и нижние колонтитулы для четных и нечетных страниц.
 type: docs
 weight: 270
 url: /ru/net/aspose.words/pagesetup/oddandevenpagesheaderfooter/
 ---
 ## PageSetup.OddAndEvenPagesHeaderFooter property
 
-**Истинно** , если в документе разные верхние и нижние колонтитулы для четных и нечетных страниц.
+**Истинный**если документ имеет разные верхние и нижние колонтитулы для четных и нечетных страниц.
 
 ```csharp
 public bool OddAndEvenPagesHeaderFooter { get; set; }
@@ -16,7 +16,7 @@ public bool OddAndEvenPagesHeaderFooter { get; set; }
 
 ### Примечания
 
-Обратите внимание, что изменение этого свойства влияет на все разделы в документе.
+Обратите внимание: изменение этого свойства влияет на все разделы документа.
 
 ### Примеры
 
@@ -26,38 +26,26 @@ public bool OddAndEvenPagesHeaderFooter { get; set; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Ниже приведены два типа верхних/нижних колонтитулов.
-// 1 - «Основной» верхний/нижний колонтитул, который появляется на каждой странице раздела.
- // Мы можем переопределить основной верхний/нижний колонтитул первой и четной верхней/нижней страницей.
-builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
-builder.Writeln("Primary header.");
+// Указываем, что нам нужны разные верхние и нижние колонтитулы для первой, четной и нечетной страниц.
+builder.PageSetup.DifferentFirstPageHeaderFooter = true;
+builder.PageSetup.OddAndEvenPagesHeaderFooter = true;
 
-builder.MoveToHeaderFooter(HeaderFooterType.FooterPrimary);
-builder.Writeln("Primary footer.");
-
-// 2 - "Четный" верхний/нижний колонтитул, который появляется на каждой четной странице этого раздела.
+// Создайте заголовки, затем добавьте в документ три страницы для отображения каждого типа заголовков.
+builder.MoveToHeaderFooter(HeaderFooterType.HeaderFirst);
+builder.Write("Header for the first page");
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderEven);
-builder.Writeln("Even page header.");
-
-builder.MoveToHeaderFooter(HeaderFooterType.FooterEven);
-builder.Writeln("Even page footer.");
+builder.Write("Header for even pages");
+builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
+builder.Write("Header for all other pages");
 
 builder.MoveToSection(0);
-builder.Writeln("Page 1.");
+builder.Writeln("Page1");
 builder.InsertBreak(BreakType.PageBreak);
-builder.Writeln("Page 2.");
+builder.Writeln("Page2");
 builder.InsertBreak(BreakType.PageBreak);
-builder.Writeln("Page 3.");
+builder.Writeln("Page3");
 
-// Каждый раздел имеет объект "PageSetup", который определяет свойства, связанные с внешним видом страницы
-// такие как ориентация, размер и границы.
-// Установите для свойства "OddAndEvenPagesHeaderFooter" значение "true"
-// для отображения верхнего/нижнего колонтитула четной страницы на четных страницах.
-// Установите для свойства "OddAndEvenPagesHeaderFooter" значение "false"
-// для отображения основного верхнего/нижнего колонтитула на четных страницах.
-builder.PageSetup.OddAndEvenPagesHeaderFooter = oddAndEvenPagesHeaderFooter;
-
-doc.Save(ArtifactsDir + "PageSetup.OddAndEvenPagesHeaderFooter.docx");
+doc.Save(ArtifactsDir + "DocumentBuilder.HeadersAndFooters.docx");
 ```
 
 Показывает, как включить или отключить верхние/нижние колонтитулы четных страниц.
@@ -68,7 +56,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Ниже приведены два типа верхних/нижних колонтитулов.
 // 1 - «Основной» верхний/нижний колонтитул, который появляется на каждой странице раздела.
- // Мы можем переопределить основной верхний/нижний колонтитул первой и четной верхней/нижней страницей.
+// Мы можем переопределить основной верхний/нижний колонтитул первой и четной верхней/нижней страницей.
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
 builder.Writeln("Primary header.");
 

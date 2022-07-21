@@ -18,88 +18,56 @@ public int ListLevelNumber { get; set; }
 
 В документах Word списки могут состоять из 1 или 9 уровней, пронумерованных от 0 до 8.
 
-Действует, только если свойство[`List`](../list)установлено для ссылки на действительный список.
+Имеет эффект только при[`List`](../list) свойство установлено для ссылки на действительный список.
 
 ### Примеры
 
-Показывает, как работать с уровнями списка .
+Показывает, как работать с уровнями списка.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-builder.Writeln("Aspose.Words main advantages are:");
+Assert.False(builder.ListFormat.IsListItem);
 
 // Список позволяет нам организовывать и оформлять наборы абзацев префиксными символами и отступами.
- // Мы можем создавать вложенные списки, увеличивая уровень отступа. 
- // Мы можем начать и закончить список, используя свойство "ListFormat" конструктора документов. 
- // Каждый абзац, который мы добавляем между началом и концом списка, станет элементом списка.
- // Ниже приведены два типа списков, которые мы можем создать с помощью конструктора документов.
- // 1 - Маркированный список: 
- // Этот список будет применять отступ и символ маркера ("•") перед каждым абзацем.
-builder.ListFormat.ApplyBulletDefault();
-builder.Writeln("Great performance");
-builder.Writeln("High reliability");
-builder.Writeln("Quality code and working");
-builder.Writeln("Wide variety of features");
-builder.Writeln("Easy to understand API");
+// Мы можем создавать вложенные списки, увеличивая уровень отступа. 
+// Мы можем начать и закончить список, используя свойство "ListFormat" конструктора документов. 
+// Каждый абзац, который мы добавляем между началом и концом списка, станет элементом списка.
+// Ниже приведены два типа списков, которые мы можем создать с помощью конструктора документов.
+// 1 - Нумерованный список:
+// Нумерованные списки создают логический порядок абзацев, нумеруя каждый элемент.
+builder.ListFormat.List = doc.Lists.Add(ListTemplate.NumberDefault);
 
-// Конец маркированного списка.
-builder.ListFormat.RemoveNumbers();
+Assert.True(builder.ListFormat.IsListItem);
 
-builder.InsertBreak(BreakType.ParagraphBreak);
-builder.Writeln("Aspose.Words allows:");
+// Установив свойство "ListLevelNumber", мы можем увеличить уровень списка
+// чтобы начать автономный подсписок с текущего элемента списка.
+// Шаблон списка Microsoft Word под названием «NumberDefault» использует числа для создания уровней списка для первого уровня списка.
+// Более глубокие уровни списка используют буквы и строчные римские цифры. 
+for (int i = 0; i < 9; i++)
+{
+    builder.ListFormat.ListLevelNumber = i;
+    builder.Writeln("Level " + i);
+}
 
- // 2 - Нумерованный список:
- // Нумерованные списки создают логический порядок для своих абзацев, нумеруя каждый элемент.
-builder.ListFormat.ApplyNumberDefault();
+// 2 - Маркированный список:
+// Этот список будет применять отступ и символ маркера ("•") перед каждым абзацем.
+// На более глубоких уровнях этого списка будут использоваться другие символы, такие как "■" и "○".
+builder.ListFormat.List = doc.Lists.Add(ListTemplate.BulletDefault);
 
- // Этот абзац является первым элементом. Первый элемент нумерованного списка будет иметь «1». в качестве символа элемента списка.
-builder.Writeln("Opening documents from different formats:");
+for (int i = 0; i < 9; i++)
+{
+    builder.ListFormat.ListLevelNumber = i;
+    builder.Writeln("Level " + i);
+}
 
-Assert.AreEqual(0, builder.ListFormat.ListLevelNumber);
+// Мы можем отключить форматирование списка, чтобы не форматировать последующие абзацы как списки, сняв флаг «Список».
+builder.ListFormat.List = null;
 
- // Вызов метода "ListIndent", чтобы увеличить текущий уровень списка, 
- // который начнет новый автономный список с более глубоким отступом от текущего элемента первого уровня списка.
-builder.ListFormat.ListIndent();
+Assert.False(builder.ListFormat.IsListItem);
 
-Assert.AreEqual(1, builder.ListFormat.ListLevelNumber);
-
- // Это первые три элемента списка второго уровня списка, который будет поддерживать count
- // независимо от счетчика первого уровня списка. Согласно текущему формату списка, 
- // они будут иметь символы «a.», «b.» и «c.».
-builder.Writeln("DOC");
-builder.Writeln("PDF");
-builder.Writeln("HTML");
-
- // Вызываем метод "ListOutdent", чтобы вернуться на предыдущий уровень списка.
-builder.ListFormat.ListOutdent();
-
-Assert.AreEqual(0, builder.ListFormat.ListLevelNumber);
-
- // Эти два абзаца продолжат отсчет первого уровня списка.
- // Эти элементы будут иметь символы "2." и "3."
-builder.Writeln("Processing documents");
-builder.Writeln("Saving documents in different formats:");
-
-// Если мы увеличим уровень списка до уровня, на который мы добавили элементы ранее, 
- // вложенный список будет отделен от предыдущего, и его нумерация начнется с начала. 
- // Эти элементы списка будут иметь символы «a.», «b.», «c.», «d.» и «e».
-builder.ListFormat.ListIndent();
-builder.Writeln("DOC");
-builder.Writeln("PDF");
-builder.Writeln("HTML");
-builder.Writeln("MHTML");
-builder.Writeln("Plain text");
-
- // Снова выступаем за уровень списка.
-builder.ListFormat.ListOutdent();
-builder.Writeln("Doing many other things!");
-
- // Конец нумерованного списка.
-builder.ListFormat.RemoveNumbers();
-
-doc.Save(ArtifactsDir + "Lists.ApplyDefaultBulletsAndNumbers.docx");
+doc.Save(ArtifactsDir + "Lists.SpecifyListLevel.docx");
 ```
 
 Показывает, как создавать маркированные и нумерованные списки.
@@ -111,12 +79,12 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Aspose.Words main advantages are:");
 
 // Список позволяет нам организовывать и оформлять наборы абзацев префиксными символами и отступами.
- // Мы можем создавать вложенные списки, увеличивая уровень отступа. 
- // Мы можем начать и закончить список, используя свойство "ListFormat" конструктора документов. 
- // Каждый абзац, который мы добавляем между началом и концом списка, станет элементом списка.
- // Ниже приведены два типа списков, которые мы можем создать с помощью конструктора документов.
- // 1 - Маркированный список: 
- // Этот список будет применять отступ и символ маркера ("•") перед каждым абзацем.
+// Мы можем создавать вложенные списки, увеличивая уровень отступа. 
+// Мы можем начать и закончить список, используя свойство "ListFormat" конструктора документов. 
+// Каждый абзац, который мы добавляем между началом и концом списка, станет элементом списка.
+// Ниже приведены два типа списков, которые мы можем создать с помощью конструктора документов.
+// 1 - Маркированный список:
+// Этот список будет применять отступ и символ маркера ("•") перед каждым абзацем.
 builder.ListFormat.ApplyBulletDefault();
 builder.Writeln("Great performance");
 builder.Writeln("High reliability");
@@ -130,41 +98,41 @@ builder.ListFormat.RemoveNumbers();
 builder.InsertBreak(BreakType.ParagraphBreak);
 builder.Writeln("Aspose.Words allows:");
 
- // 2 - Нумерованный список:
- // Нумерованные списки создают логический порядок для своих абзацев, нумеруя каждый элемент.
+// 2 - Нумерованный список:
+// Нумерованные списки создают логический порядок абзацев, нумеруя каждый элемент.
 builder.ListFormat.ApplyNumberDefault();
 
- // Этот абзац является первым элементом. Первый элемент нумерованного списка будет иметь «1». в качестве символа элемента списка.
+// Этот абзац является первым элементом. Первый элемент нумерованного списка будет иметь «1». в качестве символа элемента списка.
 builder.Writeln("Opening documents from different formats:");
 
 Assert.AreEqual(0, builder.ListFormat.ListLevelNumber);
 
- // Вызов метода "ListIndent", чтобы увеличить текущий уровень списка, 
- // который начнет новый автономный список с более глубоким отступом от текущего элемента первого уровня списка.
+// Вызываем метод "ListIndent" для увеличения текущего уровня списка,
+// который начнет новый автономный список с более глубоким отступом от текущего элемента первого уровня списка.
 builder.ListFormat.ListIndent();
 
 Assert.AreEqual(1, builder.ListFormat.ListLevelNumber);
 
- // Это первые три элемента списка второго уровня списка, который будет поддерживать count
- // независимо от счетчика первого уровня списка. Согласно текущему формату списка, 
- // они будут иметь символы «a.», «b.» и «c.».
+// Это первые три элемента списка второго уровня списка, в котором будет вестись подсчет
+// независимо от счетчика первого уровня списка. Согласно текущему формату списка,
+// они будут иметь символы «a.», «b.» и «c.».
 builder.Writeln("DOC");
 builder.Writeln("PDF");
 builder.Writeln("HTML");
 
- // Вызываем метод "ListOutdent", чтобы вернуться на предыдущий уровень списка.
+// Вызовите метод "ListOutdent", чтобы вернуться на предыдущий уровень списка.
 builder.ListFormat.ListOutdent();
 
 Assert.AreEqual(0, builder.ListFormat.ListLevelNumber);
 
- // Эти два абзаца продолжат отсчет первого уровня списка.
- // Эти элементы будут иметь символы "2." и "3."
+// Эти два абзаца продолжат отсчет первого уровня списка.
+// Эти элементы будут иметь символы «2.» и «3.»
 builder.Writeln("Processing documents");
 builder.Writeln("Saving documents in different formats:");
 
-// Если мы увеличим уровень списка до уровня, на который мы добавили элементы ранее, 
- // вложенный список будет отделен от предыдущего, и его нумерация начнется с начала. 
- // Эти элементы списка будут иметь символы «a.», «b.», «c.», «d.» и «e».
+// Если мы увеличим уровень списка до уровня, на который мы добавили элементы ранее,
+// вложенный список будет отделен от предыдущего, и его нумерация начнется с начала. 
+// Эти элементы списка будут иметь символы «a.», «b.», «c.», «d.» и «e».
 builder.ListFormat.ListIndent();
 builder.Writeln("DOC");
 builder.Writeln("PDF");
@@ -172,11 +140,11 @@ builder.Writeln("HTML");
 builder.Writeln("MHTML");
 builder.Writeln("Plain text");
 
- // Снова выступаем за уровень списка.
+// Снова выступаем за уровень списка.
 builder.ListFormat.ListOutdent();
 builder.Writeln("Doing many other things!");
 
- // Конец нумерованного списка.
+// Конец нумерованного списка.
 builder.ListFormat.RemoveNumbers();
 
 doc.Save(ArtifactsDir + "Lists.ApplyDefaultBulletsAndNumbers.docx");

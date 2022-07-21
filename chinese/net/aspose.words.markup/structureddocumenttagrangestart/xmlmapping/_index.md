@@ -16,11 +16,11 @@ public XmlMapping XmlMapping { get; }
 
 ### 评论
 
-您可以使用[`SetMapping`](../../xmlmapping/setmapping)这个 对象的方法将结构化文档标签范围映射到 XML 数据。
+你可以使用[`SetMapping`](../../xmlmapping/setmapping)this 对象的方法将结构化文档标记范围映射到 XML 数据。
 
 ### 例子
 
-显示如何为结构化文档标记的范围开始设置 XML 映射。
+展示如何为结构化文档标记的范围开始设置 XML 映射。
 
 ```csharp
 Document doc = new Document(MyDir + "Multi-section structured document tags.docx");

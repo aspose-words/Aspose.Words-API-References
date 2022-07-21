@@ -1,12 +1,12 @@
 ---
 title: Aspose.Words.Lists
 second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Lists 命名空间包含用于工作的类 带有在文档中定义的项目符号和编号列表
+description: 这 Aspose.Words.Lists命名空间包含 working 的类并在文档中定义了项目符号和编号列表
 type: docs
 weight: 120
 url: /zh/net/aspose.words.lists/
 ---
-**Aspose.Words.Lists** 命名空间包含用于工作的类 带有在文档中定义的项目符号和编号列表。
+这 **Aspose.Words.Lists**命名空间包含 working 的类，并在文档中定义了项目符号和编号列表。
 
 ## 课程
 

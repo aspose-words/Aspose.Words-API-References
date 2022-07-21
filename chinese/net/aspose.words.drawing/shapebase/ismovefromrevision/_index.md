@@ -1,14 +1,14 @@
 ---
 title: IsMoveFromRevision
 second_title: Aspose.Words for .NET API 参考
-description: 返回 true 如果在启用更改跟踪时在 Microsoft Word 中移动删除此对象
+description: 返回 真的如果启用更改跟踪时此对象在 Microsoft Word 中被移动删除
 type: docs
 weight: 310
 url: /zh/net/aspose.words.drawing/shapebase/ismovefromrevision/
 ---
 ## ShapeBase.IsMoveFromRevision property
 
-返回 **true** 如果在启用更改跟踪时在 Microsoft Word 中移动（删除）此对象。
+返回 **真的**如果启用更改跟踪时此对象在 Microsoft Word 中被移动（删除）。
 
 ```csharp
 public bool IsMoveFromRevision { get; }

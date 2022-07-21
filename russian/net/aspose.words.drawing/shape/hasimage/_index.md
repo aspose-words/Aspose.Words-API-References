@@ -1,14 +1,14 @@
 ---
 title: HasImage
 second_title: Справочник по API Aspose.Words для .NET
-description: Возвращает true если фигура содержит байты изображения или связывает изображение.
+description: Возвращает true если фигура содержит байты изображения или ссылается на изображение.
 type: docs
 weight: 80
 url: /ru/net/aspose.words.drawing/shape/hasimage/
 ---
 ## Shape.HasImage property
 
-Возвращает true, если фигура содержит байты изображения или связывает изображение.
+Возвращает true, если фигура содержит байты изображения или ссылается на изображение.
 
 ```csharp
 public bool HasImage { get; }
@@ -20,26 +20,15 @@ public bool HasImage { get; }
 
 ```csharp
 Document doc = new Document(MyDir + "Images.docx");
-
- // Получить набор фигур из документа,
- // и сохранить данные изображения каждой формы с изображением в виде файла в локальной файловой системе.
 NodeCollection shapes = doc.GetChildNodes(NodeType.Shape, true);
 
-Assert.AreEqual(9, shapes.Count(s => ((Shape)s).HasImage));
+Assert.AreEqual(9, shapes.OfType<Shape>().Count(s => s.HasImage));
 
-int imageIndex = 0;
 foreach (Shape shape in shapes.OfType<Shape>())
-{
-    if (shape.HasImage)
-    {
-         // Данные изображения фигур могут содержать изображения многих возможных форматов изображений. 
-         // Мы можем определить расширение файла для каждого изображения автоматически, основываясь на его формате.
-        string imageFileName =
-            $"File.ExtractImages.{imageIndex}{FileFormatUtil.ImageTypeToExtension(shape.ImageData.ImageType)}";
-        shape.ImageData.Save(ArtifactsDir + imageFileName);
-        imageIndex++;
-    }
-}
+    if (shape.HasImage) 
+        shape.Remove();
+
+Assert.AreEqual(0, shapes.OfType<Shape>().Count(s => s.HasImage));
 ```
 
 Показывает, как извлекать изображения из документа и сохранять их в локальной файловой системе в виде отдельных файлов.
@@ -47,8 +36,8 @@ foreach (Shape shape in shapes.OfType<Shape>())
 ```csharp
 Document doc = new Document(MyDir + "Images.docx");
 
- // Получить набор фигур из документа,
- // и сохранить данные изображения каждой формы с изображением в виде файла в локальной файловой системе.
+// Получить набор фигур из документа,
+// и сохранить данные изображения каждой фигуры с изображением в виде файла в локальной файловой системе.
 NodeCollection shapes = doc.GetChildNodes(NodeType.Shape, true);
 
 Assert.AreEqual(9, shapes.Count(s => ((Shape)s).HasImage));
@@ -58,8 +47,8 @@ foreach (Shape shape in shapes.OfType<Shape>())
 {
     if (shape.HasImage)
     {
-         // Данные изображения фигур могут содержать изображения многих возможных форматов изображений. 
-         // Мы можем определить расширение файла для каждого изображения автоматически, основываясь на его формате.
+        // Данные изображения фигур могут содержать изображения многих возможных форматов изображений. 
+        // Мы можем определить расширение файла для каждого изображения автоматически, исходя из его формата.
         string imageFileName =
             $"File.ExtractImages.{imageIndex}{FileFormatUtil.ImageTypeToExtension(shape.ImageData.ImageType)}";
         shape.ImageData.Save(ArtifactsDir + imageFileName);

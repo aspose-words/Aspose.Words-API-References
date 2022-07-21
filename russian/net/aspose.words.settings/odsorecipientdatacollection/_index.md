@@ -3,7 +3,7 @@ title: OdsoRecipientDataCollection
 second_title: Справочник по API Aspose.Words для .NET
 description: Типизированная коллекцияOdsoRecipientData./odsorecipientdata
 type: docs
-weight: 5590
+weight: 5640
 url: /ru/net/aspose.words.settings/odsorecipientdatacollection/
 ---
 ## OdsoRecipientDataCollection class
@@ -33,7 +33,7 @@ public class OdsoRecipientDataCollection : IEnumerable<OdsoRecipientData>
 | --- | --- |
 | [Add](../../aspose.words.settings/odsorecipientdatacollection/add)(OdsoRecipientData) | Добавляет объект в конец этой коллекции. |
 | [Clear](../../aspose.words.settings/odsorecipientdatacollection/clear)() | Удаляет все элементы из этой коллекции. |
-| [GetEnumerator](../../aspose.words.settings/odsorecipientdatacollection/getenumerator)() | Возвращает объект перечислителя, который можно использовать для перебора всех элементов коллекции. |
+| [GetEnumerator](../../aspose.words.settings/odsorecipientdatacollection/getenumerator)() | Возвращает объект перечислителя, который можно использовать для перебора всех элементов в коллекции. |
 | [RemoveAt](../../aspose.words.settings/odsorecipientdatacollection/removeat)(int) | Удаляет элемент по указанному индексу. |
 
 ### Примеры
@@ -60,10 +60,10 @@ using (IEnumerator<OdsoRecipientData> enumerator = dataCollection.GetEnumerator(
     }
 }
 
- // Мы можем клонировать элементы этой коллекции.
+// Мы можем клонировать элементы этой коллекции.
 Assert.AreNotEqual(dataCollection[0], dataCollection[0].Clone());
 
- // Мы также можем удалить элементы по отдельности или очистить всю коллекцию сразу.
+// Мы также можем удалить элементы по отдельности или очистить всю коллекцию сразу.
 dataCollection.RemoveAt(0);
 
 Assert.AreEqual(69, dataCollection.Count);

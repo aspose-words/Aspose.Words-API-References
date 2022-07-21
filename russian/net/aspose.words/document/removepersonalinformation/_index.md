@@ -1,14 +1,14 @@
 ---
 title: RemovePersonalInformation
 second_title: Справочник по API Aspose.Words для .NET
-description: Получает или устанавливает флаг указывающий что Microsoft Word удалит всю пользовательскую информацию из комментариев редакций и свойств документа при сохранении документа.
+description: Получает или устанавливает флаг указывающий что Microsoft Word удалит всю информацию о пользователе из комментариев редакций и свойств документа при сохранении документа.
 type: docs
 weight: 320
 url: /ru/net/aspose.words/document/removepersonalinformation/
 ---
 ## Document.RemovePersonalInformation property
 
-Получает или устанавливает флаг, указывающий, что Microsoft Word удалит всю пользовательскую информацию из комментариев, редакций и свойств документа при сохранении документа.
+Получает или устанавливает флаг, указывающий, что Microsoft Word удалит всю информацию о пользователе из комментариев, редакций и свойств документа при сохранении документа.
 
 ```csharp
 public bool RemovePersonalInformation { get; set; }

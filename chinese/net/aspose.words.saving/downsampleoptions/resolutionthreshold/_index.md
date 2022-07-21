@@ -1,14 +1,14 @@
 ---
 title: ResolutionThreshold
 second_title: Aspose.Words for .NET API 参考
-description: 以每英寸像素为单位指定阈值分辨率 如果文档中图像的分辨率小于阈值 将不应用下采样算法 值为 0 表示不使用阈值检查所有可以缩小尺寸的图像都被下采样
+description: 以每英寸像素为单位指定阈值分辨率 如果文档中图像的分辨率小于阈值 将不应用下采样算法 值 0 表示不使用阈值检查所有图像可以缩小尺寸被下采样
 type: docs
 weight: 40
 url: /zh/net/aspose.words.saving/downsampleoptions/resolutionthreshold/
 ---
 ## DownsampleOptions.ResolutionThreshold property
 
-以每英寸像素为单位指定阈值分辨率。 如果文档中图像的分辨率小于阈值， 将不应用下采样算法。 值为 0 表示不使用阈值检查，所有可以缩小尺寸的图像都被下采样。
+以每英寸像素为单位指定阈值分辨率。 如果文档中图像的分辨率小于阈值， 将不应用下采样算法。 值 0 表示不使用阈值检查，所有图像可以缩小尺寸被下采样。
 
 ```csharp
 public int ResolutionThreshold { get; set; }
@@ -16,7 +16,7 @@ public int ResolutionThreshold { get; set; }
 
 ### 评论
 
-默认值为 0。
+默认值为 0.
 
 ### 例子
 

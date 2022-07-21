@@ -1,14 +1,14 @@
 ---
 title: SmartTag
 second_title: Справочник по API Aspose.Words для .NET
-description: Инициализирует новый экземпляр классаSmartTagaspose.words.markup/smarttag.
+description: Инициализирует новый экземплярSmartTagaspose.words.markup/smarttag класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.markup/smarttag/smarttag/
 ---
 ## SmartTag constructor
 
-Инициализирует новый экземпляр класса[`SmartTag`](../../smarttag).
+Инициализирует новый экземпляр[`SmartTag`](../../smarttag) класс.
 
 ```csharp
 public SmartTag(DocumentBase doc)
@@ -16,13 +16,13 @@ public SmartTag(DocumentBase doc)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| doc | DocumentBase | Документ-владелец. |
+| doc | DocumentBase | Документ владельца. |
 
 ### Примечания
 
-При создании нового узла необходимо указать документ, которому узел принадлежит. Узел не может существовать без документа, потому что он зависит от общедокументных структур таких как списки и стили. Хотя узел всегда принадлежит документу, он может быть или не быть частью дерева документа.
+Когда вы создаете новый узел, вам необходимо указать документ, которому принадлежит узел. Узел не может существовать без документа, поскольку он зависит от структур документа , таких как списки и стили. Хотя узел всегда принадлежит документу, узел может быть или может не быть частью дерева документа.
 
-Когда узел создается, он принадлежит документу, но еще не является частью дерева документа и[`ParentNode`](../../../aspose.words/node/parentnode)имеет значение null. Чтобы вставить узел в документ, используйте метод [`InsertAfter`](../../../aspose.words/compositenode/insertafter)или[`InsertBefore`](../../../aspose.words/compositenode/insertbefore)методы на родительском узле.
+Когда узел создан, он принадлежит документу, но еще не является частью документа tree и[`ParentNode`](../../../aspose.words/node/parentnode) нулевой. Чтобы вставить узел в документ, используйте the [`InsertAfter`](../../../aspose.words/compositenode/insertafter) или же[`InsertBefore`](../../../aspose.words/compositenode/insertbefore) method на родительском узле.
 
 ### Примеры
 
@@ -33,30 +33,30 @@ public void Create()
 {
     Document doc = new Document();
 
-    // Смарт-тег появляется в документе, в котором Microsoft Word распознает часть своего текста как некоторую форму данных, 
-     // например, имя, дата или адрес, и преобразует их в гиперссылку, которая отображается подчеркиванием фиолетовой точкой.
+    // Смарт-тег появляется в документе, в котором Microsoft Word распознает часть своего текста как некую форму данных,
+    // таких как имя, дата или адрес, и преобразует их в гиперссылку, которая подчеркнута фиолетовой пунктирной линией.
     SmartTag smartTag = new SmartTag(doc);
 
-     // Смарт-теги — это составные узлы, содержащие полностью распознанный текст.
-     // Добавляем содержимое в этот смарт-тег вручную.
+    // Смарт-теги — это составные узлы, содержащие полностью распознанный текст.
+    // Добавляем содержимое в этот смарт-тег вручную.
     smartTag.AppendChild(new Run(doc, "May 29, 2019"));
 
-     // Microsoft Word может распознать вышеуказанное содержимое как дату.
-     // Смарт-теги используют свойство «Элемент», чтобы отразить тип данных, которые они содержат.
+    // Microsoft Word может распознать вышеуказанное содержимое как дату.
+    // Смарт-теги используют свойство «Элемент», чтобы отразить тип содержащихся в них данных.
     smartTag.Element = "date";
 
-     // Некоторые типы смарт-тегов преобразуют свое содержимое в пользовательские свойства XML.
+    // Некоторые типы смарт-тегов преобразуют свое содержимое в пользовательские свойства XML.
     smartTag.Properties.Add(new CustomXmlProperty("Day", string.Empty, "29"));
     smartTag.Properties.Add(new CustomXmlProperty("Month", string.Empty, "5"));
     smartTag.Properties.Add(new CustomXmlProperty("Year", string.Empty, "2019"));
 
-     // Установите для URI смарт-тега значение по умолчанию.
+    // Установите для URI смарт-тега значение по умолчанию.
     smartTag.Uri = "urn:schemas-microsoft-com:office:smarttags";
 
     doc.FirstSection.Body.FirstParagraph.AppendChild(smartTag);
     doc.FirstSection.Body.FirstParagraph.AppendChild(new Run(doc, " is a date. "));
 
-     // Создаем еще один смарт-тег для биржевого тикера.
+    // Создайте еще один смарт-тег для бегущей строки.
     smartTag = new SmartTag(doc);
     smartTag.Element = "stockticker";
     smartTag.Uri = "urn:schemas-microsoft-com:office:smarttags";
@@ -66,10 +66,10 @@ public void Create()
     doc.FirstSection.Body.FirstParagraph.AppendChild(smartTag);
     doc.FirstSection.Body.FirstParagraph.AppendChild(new Run(doc, " is a stock ticker."));
 
-     // Печатаем все смарт-теги в нашем документе с помощью посетителя документа.
+    // Печатаем все смарт-теги в нашем документе с помощью посетителя документа.
     doc.Accept(new SmartTagPrinter());
 
-     // Старые версии Microsoft Word поддерживают смарт-теги.
+    // Старые версии Microsoft Word поддерживают смарт-теги.
     doc.Save(ArtifactsDir + "SmartTag.Create.doc");
 
     // Используйте метод «RemoveSmartTags», чтобы удалить все смарт-теги из документа.
@@ -81,12 +81,12 @@ public void Create()
 }
 
 /// <summary>
- /// Выводит посещенные смарт-теги и их содержимое.
+/// Выводит посещенные смарт-теги и их содержимое.
 /// </summary>
 private class SmartTagPrinter : DocumentVisitor
 {
     /// <summary>
-     /// Вызывается, когда в документе встречается узел SmartTag.
+    /// Вызывается, когда в документе встречается узел SmartTag.
     /// </summary>
     public override VisitorAction VisitSmartTagStart(SmartTag smartTag)
     {
@@ -95,7 +95,7 @@ private class SmartTagPrinter : DocumentVisitor
     }
 
     /// <summary>
-     /// Вызывается, когда посещение узла SmartTag завершено.
+    /// Вызывается, когда посещение узла SmartTag завершено.
     /// </summary>
     public override VisitorAction VisitSmartTagEnd(SmartTag smartTag)
     {

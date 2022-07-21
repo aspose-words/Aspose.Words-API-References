@@ -21,11 +21,11 @@ public Rectangle GetBoundsInPixels(float scale, float dpi)
 
 ### 返回值
 
-形状的实际（在页面上呈现）边界框，以像素为单位。
+形状的实际（在页面上呈现）边界框（以像素为单位）。
 
 ### 评论
 
-此方法转换[`BoundsInPoints`](../boundsinpoints)以像素为单位的矩形。
+该方法转换[`BoundsInPoints`](../boundsinpoints)以像素为单位的矩形。
 
 ### 例子
 
@@ -95,11 +95,11 @@ public Rectangle GetBoundsInPixels(float scale, float horizontalDpi, float verti
 
 ### 返回值
 
-形状的实际（在页面上呈现）边界框，以像素为单位。
+形状的实际（在页面上呈现）边界框（以像素为单位）。
 
 ### 评论
 
-此方法转换[`BoundsInPoints`](../boundsinpoints)以像素为单位的矩形。
+该方法转换[`BoundsInPoints`](../boundsinpoints)以像素为单位的矩形。
 
 ### 例子
 

@@ -1,14 +1,14 @@
 ---
 title: Data
 second_title: Справочник по API Aspose.Words для .NET
-description: Содержит данные этой пользовательской детали.
+description: Содержит данные этой пользовательской части.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.markup/custompart/data/
 ---
 ## CustomPart.Data property
 
-Содержит данные этой пользовательской детали.
+Содержит данные этой пользовательской части.
 
 ```csharp
 public byte[] Data { get; set; }
@@ -16,9 +16,9 @@ public byte[] Data { get; set; }
 
 ### Примечания
 
-Это свойство применимо только при[`IsExternal`](../isexternal)is` false` .
+Это свойство применимо только тогда, когда[`IsExternal`](../isexternal) является`ЛОЖЬ`.
 
-Значение по умолчанию — пустой массив байтов. Значение не может быть` null` .
+Значение по умолчанию — пустой массив байтов. Значение не может быть`нулевой`.
 
 ### Примеры
 

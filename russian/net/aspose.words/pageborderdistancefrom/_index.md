@@ -3,7 +3,7 @@ title: PageBorderDistanceFrom
 second_title: Справочник по API Aspose.Words для .NET
 description: Задает положение границы страницы относительно полей страницы.
 type: docs
-weight: 4060
+weight: 4110
 url: /ru/net/aspose.words/pageborderdistancefrom/
 ---
 ## PageBorderDistanceFrom enumeration

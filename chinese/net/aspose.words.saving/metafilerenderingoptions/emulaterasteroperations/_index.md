@@ -1,14 +1,14 @@
 ---
 title: EmulateRasterOperations
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置确定是否应模拟光栅操作的值
+description: 获取或设置一个确定是否应模拟光栅操作的值
 type: docs
 weight: 30
 url: /zh/net/aspose.words.saving/metafilerenderingoptions/emulaterasteroperations/
 ---
 ## MetafileRenderingOptions.EmulateRasterOperations property
 
-获取或设置确定是否应模拟光栅操作的值。
+获取或设置一个确定是否应模拟光栅操作的值。
 
 ```csharp
 public bool EmulateRasterOperations { get; set; }
@@ -18,17 +18,17 @@ public bool EmulateRasterOperations { get; set; }
 
 可以在元文件中使用特定的光栅操作。它们不能直接渲染为矢量图形。 模拟光栅操作需要对结果矢量图形进行部分光栅化，这可能会影响 元文件渲染性能。
 
-当此值设置为` true` 时，Aspose.Words模拟光栅操作。结果输出可能 部分光栅化并且性能可能会更慢。
+当此值设置为`真的`, Aspose.Words 模拟光栅操作。生成的输出可能 部分光栅化并且性能可能会变慢。
 
-当此值设置为` false` 时，Aspose.Words 不会模拟光栅操作。当 Aspose.Words 在元文件中遇到光栅操作时，它会回退到使用 操作系统将元文件渲染为位图。
+当此值设置为`错误的`, Aspose.Words 不模拟光栅操作。当 Aspose.Words 在元文件中遇到光栅操作时，它会回退到使用 操作系统将元文件渲染为位图。
 
 此选项仅在元文件呈现为矢量图形时使用。
 
-默认值为` true` 。
+默认值为`真的`.
 
 ### 例子
 
-显示添加了位图渲染的后备和更改有关不受支持的元文件记录的警告类型。
+Shows 添加了对位图渲染的回退，并更改了有关不受支持的元文件记录的警告类型。
 
 ```csharp
 {

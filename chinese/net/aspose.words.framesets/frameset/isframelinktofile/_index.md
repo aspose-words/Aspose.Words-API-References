@@ -1,14 +1,14 @@
 ---
 title: IsFrameLinkToFile
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置一个值该值指示是否在 FrameDefaultUrl属性是与框架链接的外部资源
+description: 获取或设置一个值该值指示是否在 中指定的网页或文档文件名FrameDefaultUrlaspose.words.framesets/frameset/framedefaulturl属性是框架链接的外部资源
 type: docs
 weight: 40
 url: /zh/net/aspose.words.framesets/frameset/isframelinktofile/
 ---
 ## Frameset.IsFrameLinkToFile property
 
-获取或设置一个值，该值指示是否在 FrameDefaultUrl属性是与框架链接的外部资源。
+获取或设置一个值，该值指示是否在 中指定的网页或文档文件名[`FrameDefaultUrl`](../framedefaulturl)属性是框架链接的外部资源。
 
 ```csharp
 public bool IsFrameLinkToFile { get; set; }

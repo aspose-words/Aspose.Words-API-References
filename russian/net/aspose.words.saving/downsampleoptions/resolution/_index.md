@@ -1,14 +1,14 @@
 ---
 title: Resolution
 second_title: Справочник по API Aspose.Words для .NET
-description: Указывает разрешение в пикселях на дюйм до которого изображения должны быть уменьшены.
+description: Определяет разрешение в пикселях на дюйм до которого изображения должны быть уменьшены.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.saving/downsampleoptions/resolution/
 ---
 ## DownsampleOptions.Resolution property
 
-Указывает разрешение в пикселях на дюйм, до которого изображения должны быть уменьшены.
+Определяет разрешение в пикселях на дюйм, до которого изображения должны быть уменьшены.
 
 ```csharp
 public int Resolution { get; set; }
@@ -16,7 +16,7 @@ public int Resolution { get; set; }
 
 ### Примечания
 
-Значение по умолчанию — 220 пикселей на дюйм.
+Значение по умолчанию — 220 ppi.
 
 ### Примеры
 

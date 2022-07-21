@@ -1,14 +1,14 @@
 ---
 title: RemoveAt
 second_title: Справочник по API Aspose.Words для .NET
-description: Удаляет элементGradientStopaspose.words.drawing/gradientstopиз коллекции по указанному индексу.
+description: УдаляетGradientStopaspose.words.drawing/gradientstopиз коллекции по указанному индексу.
 type: docs
 weight: 70
 url: /ru/net/aspose.words.drawing/gradientstopcollection/removeat/
 ---
 ## GradientStopCollection.RemoveAt method
 
-Удаляет элемент[`GradientStop`](../../gradientstop)из коллекции по указанному индексу.
+Удаляет[`GradientStop`](../../gradientstop)из коллекции по указанному индексу.
 
 ```csharp
 public GradientStop RemoveAt(int index)
@@ -16,7 +16,7 @@ public GradientStop RemoveAt(int index)
 
 ### Возвращаемое значение
 
-Удалено[`GradientStop`](../../gradientstop).
+Удаленный[`GradientStop`](../../gradientstop).
 
 ### Примеры
 

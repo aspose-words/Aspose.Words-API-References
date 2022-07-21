@@ -1,14 +1,14 @@
 ---
 title: GetEmbeddedFontAsOpenType
 second_title: Справочник по API Aspose.Words для .NET
-description: Получает встроенный файл шрифта в формате OpenType. Шрифты в формате Embedded OpenType преобразуются в OpenType.
+description: Получает встроенный файл шрифта в формате OpenType. Шрифты в формате Embedded OpenType конвертируются в OpenType.
 type: docs
 weight: 90
 url: /ru/net/aspose.words.fonts/fontinfo/getembeddedfontasopentype/
 ---
 ## FontInfo.GetEmbeddedFontAsOpenType method
 
-Получает встроенный файл шрифта в формате OpenType. Шрифты в формате Embedded OpenType преобразуются в OpenType.
+Получает встроенный файл шрифта в формате OpenType. Шрифты в формате Embedded OpenType конвертируются в OpenType.
 
 ```csharp
 public byte[] GetEmbeddedFontAsOpenType(EmbeddedFontStyle style)
@@ -16,11 +16,11 @@ public byte[] GetEmbeddedFontAsOpenType(EmbeddedFontStyle style)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| style | EmbeddedFontStyle | Задает извлекаемый стиль шрифта. |
+| style | EmbeddedFontStyle | Задает стиль шрифта для получения. |
 
 ### Возвращаемое значение
 
-Возвращает` null` , если указанный шрифт не встроен.
+Возвращает`нулевой`если указанный шрифт не встроен.
 
 ### Примеры
 

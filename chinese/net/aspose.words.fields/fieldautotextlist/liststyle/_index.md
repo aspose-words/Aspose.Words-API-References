@@ -16,7 +16,7 @@ public string ListStyle { get; set; }
 
 ### 例子
 
-显示如何使用自动文本列表字段从自动图文集条目列表中进行选择。
+显示如何使用 AUTOTEXTLIST 字段从自动图文集条目列表中进行选择。
 
 ```csharp
 {

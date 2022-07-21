@@ -1,14 +1,14 @@
 ---
 title: RemoveSelfOnly
 second_title: Aspose.Words for .NET API 参考
-description: 删除结构化文档标记 的此范围开始和适当范围结束节点但将其内容保留在文档树中
+description: 删除结构化文档标记的此范围开始和适当范围结束节点 但将其内容保留在文档树内
 type: docs
 weight: 240
 url: /zh/net/aspose.words.markup/structureddocumenttagrangestart/removeselfonly/
 ---
 ## StructuredDocumentTagRangeStart.RemoveSelfOnly method
 
-删除结构化文档标记 的此范围开始和适当范围结束节点，但将其内容保留在文档树中。
+删除结构化文档标记的此范围开始和适当范围结束节点， 但将其内容保留在文档树内。
 
 ```csharp
 public void RemoveSelfOnly()

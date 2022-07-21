@@ -1,14 +1,14 @@
 ---
 title: ReplaceAction
 second_title: Справочник по API Aspose.Words для .NET
-description: Позволяет пользователю указать что происходит с текущим совпадением во время операции замены.
+description: Позволяет пользователю указать что происходит с текущим соответствием во время операции замены.
 type: docs
-weight: 4330
+weight: 4380
 url: /ru/net/aspose.words.replacing/replaceaction/
 ---
 ## ReplaceAction enumeration
 
-Позволяет пользователю указать, что происходит с текущим совпадением во время операции замены.
+Позволяет пользователю указать, что происходит с текущим соответствием во время операции замены.
 
 ```csharp
 public enum ReplaceAction

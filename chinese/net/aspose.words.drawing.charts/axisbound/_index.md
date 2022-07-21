@@ -19,7 +19,7 @@ public sealed class AxisBound
 | 姓名 | 描述 |
 | --- | --- |
 | [AxisBound](axisbound#constructor)() | 创建一个新实例，指示轴边界应由文字处理 应用程序自动确定。 |
-| [AxisBound](axisbound#constructor_2)(DateTime) | 创建一个表示为日期时间值的轴边界。 |
+| [AxisBound](axisbound#constructor_2)(DateTime) | 创建表示为日期时间值的轴边界。 |
 | [AxisBound](axisbound#constructor_1)(double) | 创建一个以数字表示的轴边界。 |
 
 ## 特性
@@ -35,7 +35,7 @@ public sealed class AxisBound
 | 姓名 | 描述 |
 | --- | --- |
 | override [Equals](../../aspose.words.drawing.charts/axisbound/equals)(object) | 确定指定对象的值是否与当前对象相等。 |
-| override [GetHashCode](../../aspose.words.drawing.charts/axisbound/gethashcode)() | 用作此类型的哈希函数。 |
+| override [GetHashCode](../../aspose.words.drawing.charts/axisbound/gethashcode)() | 用作此类型的散列函数。 |
 | override [ToString](../../aspose.words.drawing.charts/axisbound/tostring)() | 返回显示此对象值的用户友好字符串。 |
 
 ### 评论

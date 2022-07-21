@@ -16,7 +16,7 @@ public void ResetFontSources()
 
 ### 例子
 
-显示如何访问文档的系统字体源并设置字体替换。
+显示如何访问文档的系统字体源和设置字体替换。
 
 ```csharp
 Document doc = new Document();

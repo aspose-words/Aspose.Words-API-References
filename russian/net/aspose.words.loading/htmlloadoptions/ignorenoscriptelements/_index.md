@@ -1,14 +1,14 @@
 ---
 title: IgnoreNoscriptElements
 second_title: Справочник по API Aspose.Words для .NET
-description: Получает или задает значение указывающее следует ли игнорировать ltnoscriptgt HTML-элементы. Значение по умолчанию false .
+description: Получает или задает значение указывающее следует ли игнорировать HTML-элементы ltnoscriptgt. Значение по умолчаниюЛОЖЬ .
 type: docs
 weight: 40
 url: /ru/net/aspose.words.loading/htmlloadoptions/ignorenoscriptelements/
 ---
 ## HtmlLoadOptions.IgnoreNoscriptElements property
 
-Получает или задает значение, указывающее, следует ли игнорировать &lt;noscript&gt; HTML-элементы. Значение по умолчанию:` false` .
+Получает или задает значение, указывающее, следует ли игнорировать HTML-элементы &lt;noscript&gt;. Значение по умолчанию:`ЛОЖЬ` .
 
 ```csharp
 public bool IgnoreNoscriptElements { get; set; }
@@ -16,11 +16,11 @@ public bool IgnoreNoscriptElements { get; set; }
 
 ### Примечания
 
-Как и MS Word, Aspose.Words не поддерживает скрипты и по умолчанию загружает содержимое &lt;noscript&gt; elements в результирующий документ. Однако в большинстве браузеров скрипты поддерживаются, и контент из &lt;noscript&gt; не видно. Установка для этого свойства значения` true` заставляет Aspose.Words игнорировать все теги &lt;noscript&gt; elements и помогает создавать документы, которые выглядят ближе к тому, что видно в браузерах.
+Как и MS Word, Aspose.Words не поддерживает скрипты и по умолчанию загружает содержимое &lt;noscript&gt; elements в результирующий документ. Однако в большинстве браузеров сценарии поддерживаются, и содержимое &lt;noscript&gt; не отображается. Установка этого свойства в`истинный` заставляет Aspose.Words игнорировать все элементы &lt;noscript&gt; и помогает создавать документы, которые выглядят ближе к тому, что отображается в браузерах.
 
 ### Примеры
 
-Показывает, как игнорировать &lt;noscript&gt; HTML-элементы.
+Показывает, как игнорировать HTML-элементы &lt;noscript&gt;.
 
 ```csharp
 const string html = @"

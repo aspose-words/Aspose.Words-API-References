@@ -1,14 +1,14 @@
 ---
 title: Outline
 second_title: Aspose.Words for .NET API 参考
-description: 如果字体被格式化为轮廓则为真
+description: 如果字体格式为轮廓则为真
 type: docs
 weight: 290
 url: /zh/net/aspose.words/font/outline/
 ---
 ## Font.Outline property
 
-如果字体被格式化为轮廓，则为真。
+如果字体格式为轮廓则为真。
 
 ```csharp
 public bool Outline { get; set; }

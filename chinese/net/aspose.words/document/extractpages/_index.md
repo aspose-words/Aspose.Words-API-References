@@ -1,14 +1,14 @@
 ---
 title: ExtractPages
 second_title: Aspose.Words for .NET API 参考
-description: 返回表示指定页面范围的Documentaspose.words/document对象
+description: 返回Documentaspose.words/document表示指定页面范围的对象
 type: docs
 weight: 580
 url: /zh/net/aspose.words/document/extractpages/
 ---
 ## Document.ExtractPages method
 
-返回表示指定页面范围的[`Document`](../../document)对象。
+返回[`Document`](../../document)表示指定页面范围的对象。
 
 ```csharp
 public Document ExtractPages(int index, int count)
@@ -21,7 +21,7 @@ public Document ExtractPages(int index, int count)
 
 ### 评论
 
-生成的文档应该看起来像 MS Word 中的文档，就好像我们执行了“打印特定pages' – 编号、 页眉/页脚和交叉表布局将被保留。 但是由于大量的细微差别，在减少页数的同时出现，布局的完全匹配是一项安静而复杂的任务，需要付出很多努力。 根据文档的复杂性，生成的文档内容布局与源文档相比可能略有不同。 任何反馈将不胜感激。
+生成的文档应该看起来像 MS Word 中的文档，就像我们执行了“打印特定页面”一样 - 编号、 页眉/页脚和交叉表布局将被保留。 但由于存在大量细微差别，出现在减少页数的同时，完全匹配布局是一项安静而复杂的任务，需要付出很多努力。 根据文档的复杂性，生成的文档内容布局与源文档相比可能会略有不同。 任何反馈都会不胜感激。
 
 ### 例子
 

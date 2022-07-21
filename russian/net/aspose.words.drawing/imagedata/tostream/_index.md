@@ -16,11 +16,11 @@ public Stream ToStream()
 
 ### Примечания
 
-Если байты изображения хранятся в форме, создает и возвращаетMemoryStreamобъект.
+Если байты изображения хранятся в форме, создает и возвращаетMemoryStream объект.
 
-Если изображение связано и хранится в файле, открывает файл и возвращает объектFileStream.
+Если изображение связано и сохранено в файле, открывает файл и возвращаетFileStream объект.
 
-Если изображение связано и хранится по внешнему URL-адресу, загружает файл и возвращает объектMemoryStream.
+Если изображение связано и хранится по внешнему URL-адресу, загружает файл и возвращаетMemoryStream объект.
 
 Ответственность за удаление объекта потока лежит на вызывающем объекте.
 
@@ -35,10 +35,10 @@ Shape imgShape = (Shape) imgSourceDoc.GetChild(NodeType.Shape, 0, true);
 
 Assert.True(imgShape.HasImage);
 
- // ToByteArray() возвращает массив, хранящийся в свойстве ImageBytes.
+// ToByteArray() возвращает массив, хранящийся в свойстве ImageBytes.
 Assert.AreEqual(imgShape.ImageData.ImageBytes, imgShape.ImageData.ToByteArray());
 
- // Сохраняем данные изображения фигуры в файл изображения в локальной файловой системе.
+// Сохраняем данные изображения фигуры в файл изображения в локальной файловой системе.
 using (Stream imgStream = imgShape.ImageData.ToStream())
 {
     using (FileStream outStream = new FileStream(ArtifactsDir + "Drawing.GetDataFromImage.png",

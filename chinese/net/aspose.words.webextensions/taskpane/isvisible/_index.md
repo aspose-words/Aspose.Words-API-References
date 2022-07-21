@@ -1,14 +1,14 @@
 ---
 title: IsVisible
 second_title: Aspose.Words for .NET API 参考
-description: 指定当文档打开时任务窗格是否默认显示为可见
+description: 指定文档打开时任务窗格是否默认显示为可见
 type: docs
 weight: 40
 url: /zh/net/aspose.words.webextensions/taskpane/isvisible/
 ---
 ## TaskPane.IsVisible property
 
-指定当文档打开时任务窗格是否默认显示为可见。
+指定文档打开时任务窗格是否默认显示为可见。
 
 ```csharp
 public bool IsVisible { get; set; }
@@ -16,7 +16,7 @@ public bool IsVisible { get; set; }
 
 ### 例子
 
-显示如何向文档添加 Web 扩展。
+展示如何向文档添加 Web 扩展。
 
 ```csharp
 Document doc = new Document();

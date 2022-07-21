@@ -1,14 +1,14 @@
 ---
 title: EvenlySpaced
 second_title: Aspose.Words for .NET API 参考
-description: True 如果文本列的宽度相等且间距均匀
+description: 真的如果文本列的宽度相等且间距均匀
 type: docs
 weight: 20
 url: /zh/net/aspose.words/textcolumncollection/evenlyspaced/
 ---
 ## TextColumnCollection.EvenlySpaced property
 
-**True** 如果文本列的宽度相等且间距均匀。
+**真的**如果文本列的宽度相等且间距均匀。
 
 ```csharp
 public bool EvenlySpaced { get; set; }

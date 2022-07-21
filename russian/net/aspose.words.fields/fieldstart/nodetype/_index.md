@@ -1,14 +1,14 @@
 ---
 title: NodeType
 second_title: Справочник по API Aspose.Words для .NET
-description: ВозвращаетFieldStart.
+description: ВозвращаетFieldStart .
 type: docs
 weight: 20
 url: /ru/net/aspose.words.fields/fieldstart/nodetype/
 ---
 ## FieldStart.NodeType property
 
-ВозвращаетFieldStart.
+ВозвращаетFieldStart .
 
 ```csharp
 public override NodeType NodeType { get; }

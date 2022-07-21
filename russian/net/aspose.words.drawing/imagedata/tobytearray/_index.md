@@ -16,7 +16,7 @@ public byte[] ToByteArray()
 
 ### Примечания
 
-Если изображение связан, загружает изображение каждый раз, когда он вызывается.
+Если изображение связано, загружает изображение каждый раз, когда оно вызывается.
 
 ### Примеры
 
@@ -29,10 +29,10 @@ Shape imgShape = (Shape) imgSourceDoc.GetChild(NodeType.Shape, 0, true);
 
 Assert.True(imgShape.HasImage);
 
- // ToByteArray() возвращает массив, хранящийся в свойстве ImageBytes.
+// ToByteArray() возвращает массив, хранящийся в свойстве ImageBytes.
 Assert.AreEqual(imgShape.ImageData.ImageBytes, imgShape.ImageData.ToByteArray());
 
- // Сохраняем данные изображения фигуры в файл изображения в локальной файловой системе.
+// Сохраняем данные изображения фигуры в файл изображения в локальной файловой системе.
 using (Stream imgStream = imgShape.ImageData.ToStream())
 {
     using (FileStream outStream = new FileStream(ArtifactsDir + "Drawing.GetDataFromImage.png",

@@ -3,7 +3,7 @@ title: TextBoxWrapMode
 second_title: Справочник по API Aspose.Words для .NET
 description: Указывает как текст обтекает фигуру.
 type: docs
-weight: 1170
+weight: 1190
 url: /ru/net/aspose.words.drawing/textboxwrapmode/
 ---
 ## TextBoxWrapMode enumeration

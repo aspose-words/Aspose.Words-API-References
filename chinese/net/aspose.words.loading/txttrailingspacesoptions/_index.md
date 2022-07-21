@@ -1,14 +1,14 @@
 ---
 title: TxtTrailingSpacesOptions
 second_title: Aspose.Words for .NET API 参考
-description: 指定在从Text文件导入期间处理尾随空格的可用选项
+description: 指定在从导入期间处理尾随空格的可用选项Text文件.
 type: docs
-weight: 3490
+weight: 3540
 url: /zh/net/aspose.words.loading/txttrailingspacesoptions/
 ---
 ## TxtTrailingSpacesOptions enumeration
 
-指定在从Text文件导入期间处理尾随空格的可用选项。
+指定在从导入期间处理尾随空格的可用选项Text文件.
 
 ```csharp
 public enum TxtTrailingSpacesOptions
@@ -23,30 +23,30 @@ public enum TxtTrailingSpacesOptions
 
 ### 例子
 
-显示加载纯文本文档时如何修剪空白。
+显示在加载纯文本文档时如何修剪空白。
 
 ```csharp
 string textDoc = "      Line 1 \n" +
                  "    Line 2   \n" +
                  " Line 3       ";
 
- // 创建一个“TxtLoadOptions”对象，我们可以将它传递给文档的构造函数
- // 修改我们加载纯文本文档的方式。
+// 创建一个“TxtLoadOptions”对象，我们可以将它传递给文档的构造函数
+// 修改我们加载纯文本文档的方式。
 TxtLoadOptions loadOptions = new TxtLoadOptions();
 
- // 将“LeadingSpacesOptions”属性设置为“TxtLeadingSpacesOptions.Preserve”
- // 保留每行开头的所有空白字符。
- // 将“LeadingSpacesOptions”属性设置为“TxtLeadingSpacesOptions.ConvertToIndent”
- // 删除每行开头的所有空白字符，
- // 然后对段落应用左首行缩进来模拟空格的效果。
- // 将“LeadingSpacesOptions”属性设置为“TxtLeadingSpacesOptions.Trim”
- // 删除每行开头的所有空白字符。
+// 将“LeadingSpacesOptions”属性设置为“TxtLeadingSpacesOptions.Preserve”
+// 保留每行开头的所有空白字符。
+// 将“LeadingSpacesOptions”属性设置为“TxtLeadingSpacesOptions.ConvertToIndent”
+// 删除每行开头的所有空白字符，
+// 然后对段落应用左首行缩进来模拟空格的效果。
+// 将“LeadingSpacesOptions”属性设置为“TxtLeadingSpacesOptions.Trim”
+// 删除每一行开头的所有空白字符。
 loadOptions.LeadingSpacesOptions = txtLeadingSpacesOptions;
 
 // 将“TrailingSpacesOptions”属性设置为“TxtTrailingSpacesOptions.Preserve”
- // 保留每行末尾的所有空白字符。 
- // 将“TrailingSpacesOptions”属性设置为“TxtTrailingSpacesOptions.Trim”为
- // 删除每行末尾的所有空白字符。
+// 保留每行末尾的所有空白字符。 
+// 将“TrailingSpacesOptions”属性设置为“TxtTrailingSpacesOptions.Trim”以 
+// 删除每行末尾的所有空白字符。
 loadOptions.TrailingSpacesOptions = txtTrailingSpacesOptions;
 
 Document doc = new Document(new MemoryStream(Encoding.UTF8.GetBytes(textDoc)), loadOptions);

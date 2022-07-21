@@ -3,7 +3,7 @@ title: PdfDigitalSignatureDetails
 second_title: Aspose.Words for .NET API 参考
 description: 包含使用数字签名签署 PDF 文档的详细信息
 type: docs
-weight: 5100
+weight: 5150
 url: /zh/net/aspose.words.saving/pdfdigitalsignaturedetails/
 ---
 ## PdfDigitalSignatureDetails class
@@ -36,13 +36,13 @@ public class PdfDigitalSignatureDetails
 
 目前，数字签名 PDF 文档仅适用于 .NET 2.0 或更高版本。
 
-要在 Aspose.Words 创建 PDF 文档时对其进行数字签名，请设置[`DigitalSignatureDetails`](../pdfsaveoptions/digitalsignaturedetails) 属性为有效的[`PdfDigitalSignatureDetails`](../pdfdigitalsignaturedetails)对象，然后以 PDF 格式保存文档，传递 [`PdfSaveOptions`](../pdfsaveoptions)作为参数进入[`Save`](../../aspose.words/document/save)方法。
+要在 Aspose.Words 创建 PDF 文档时对其进行数字签名，请设置[`DigitalSignatureDetails`](../pdfsaveoptions/digitalsignaturedetails) 属性为有效[`PdfDigitalSignatureDetails`](../pdfdigitalsignaturedetails)对象，然后将文档保存为 PDF 格式并传递 [`PdfSaveOptions`](../pdfsaveoptions)作为参数进入[`Save`](../../aspose.words/document/save)方法。
 
-Aspose.Words 在整个 PDF 文档上创建一个 PKCS#7 签名，并使用“Adobe.PPKMS”过滤器和 “adbe. pkcs7.sha1" 创建数字签名时的子过滤器。
+Aspose.Words 在整个 PDF 文档上创建一个 PKCS#7 签名，并在创建数字签名时使用“Adobe.PPKMS”过滤器和 “adbe.pkcs7.sha1”子过滤器。
 
 ### 例子
 
-显示如何签署生成的 PDF文档。
+显示如何签署生成的 PDF 文档。
 
 ```csharp
 Document doc = new Document();

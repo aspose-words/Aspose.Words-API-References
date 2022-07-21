@@ -20,15 +20,15 @@ public void Protect(ProtectionType type)
 
 ### 评论
 
-当文档受到保护时，用户只能进行有限的更改， 例如添加注释、进行修改或填写表格。
+当文档受到保护时，用户只能进行有限的更改， ，例如添加注释、进行修订或填写表格。
 
-当您保护一个文档，并且该文档已经有一个保护密码时， 现有的保护密码不会被更改。
+当您保护文档，并且文档已经有保护密码时， 现有的保护密码不会更改。
 
-当您保护一个文档，并且该文档没有保护密码时， 此方法分配一个随机密码，使得无法在 Microsoft Word 中取消保护文档 ，但您仍然可以在 Aspose.Words 中取消保护文档，因为它在取消保护时不需要 密码。
+当您保护文档，并且文档没有保护密码时， 此方法会分配一个随机密码，使得无法在 Microsoft Word 中取消保护文档 ，但您仍然可以在 Aspose.Words 中取消保护文档，因为它没有 取消保护时需要密码。
 
 ### 例子
 
-显示如何关闭节的保护。
+显示如何关闭部分的保护。
 
 ```csharp
 Document doc = new Document();
@@ -41,14 +41,14 @@ builder.Writeln("Section 2. Hello again!");
 builder.Write("Please enter text here: ");
 builder.InsertTextInput("TextInput1", TextFormFieldType.Regular, "", "Placeholder text", 0);
 
- // 对文档中的每个部分应用写保护。
+// 对文档中的每个部分应用写保护。
 doc.Protect(ProtectionType.AllowOnlyFormFields);
 
 // 关闭第一节的写保护。
 doc.Sections[0].ProtectedForForms = false;
 
- // 在这个输出文档中，我们将可以自由编辑第一部分，
- // 我们只能在第二部分编辑表单域的内容。
+// 在这个输出文档中，我们将能够自由编辑第一部分，
+// 我们只能在第二部分编辑表单域的内容。
 doc.Save(ArtifactsDir + "Section.Protect.docx");
 ```
 
@@ -76,9 +76,9 @@ public void Protect(ProtectionType type, string password)
 
 ### 评论
 
-当文档受到保护时，用户只能进行有限的更改， 例如添加注释、进行修改或填写表格。
+当文档受到保护时，用户只能进行有限的更改， ，例如添加注释、进行修订或填写表格。
 
-请注意，文档保护不同于写保护。 使用[`WriteProtection`](../writeprotection)指定写保护。
+请注意，文档保护不同于写保护。 写保护是使用[`WriteProtection`](../writeprotection).
 
 ### 例子
 

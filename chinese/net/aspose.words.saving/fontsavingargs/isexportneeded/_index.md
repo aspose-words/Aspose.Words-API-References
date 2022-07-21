@@ -1,14 +1,14 @@
 ---
 title: IsExportNeeded
 second_title: Aspose.Words for .NET API 参考
-description: 允许指定是否将当前字体导出为字体资源默认为 true 
+description: 允许指定是否将当前字体导出为字体资源默认为真的.
 type: docs
 weight: 60
 url: /zh/net/aspose.words.saving/fontsavingargs/isexportneeded/
 ---
 ## FontSavingArgs.IsExportNeeded property
 
-允许指定是否将当前字体导出为字体资源。默认为` true` 。
+允许指定是否将当前字体导出为字体资源。默认为`真的`.
 
 ```csharp
 public bool IsExportNeeded { get; set; }
@@ -16,7 +16,7 @@ public bool IsExportNeeded { get; set; }
 
 ### 例子
 
-显示如何定义自定义逻辑以在保存为 HTML 时导出字体。
+展示如何定义自定义逻辑以在保存为 HTML 时导出字体。
 
 ```csharp
 {

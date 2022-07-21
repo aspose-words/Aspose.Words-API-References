@@ -1,14 +1,14 @@
 ---
 title: EmbeddedFontFormat
 second_title: Aspose.Words for .NET API 参考
-description: 指定FontInfo./fontinfo对象内特定嵌入字体的格式
+description: 指定内部特定嵌入字体的格式FontInfo./fontinfo目的
 type: docs
-weight: 2620
+weight: 2670
 url: /zh/net/aspose.words.fonts/embeddedfontformat/
 ---
 ## EmbeddedFontFormat enumeration
 
-指定[`FontInfo`](../fontinfo)对象内特定嵌入字体的格式。
+指定内部特定嵌入字体的格式[`FontInfo`](../fontinfo)目的。
 
 将文档保存到文件时，只记下相应格式的嵌入字体。
 
@@ -25,7 +25,7 @@ public enum EmbeddedFontFormat
 
 ### 例子
 
-展示如何从文档中提取嵌入字体，并将其保存到本地文件系统。
+演示如何从文档中提取嵌入字体，并将其保存到本地文件系统。
 
 ```csharp
 Document doc = new Document(MyDir + "Embedded font.docx");

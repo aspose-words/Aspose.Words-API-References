@@ -20,7 +20,7 @@ public void PrependContent(Section sourceSection)
 
 ### Примечания
 
-Только содержимое[`Body`](../body)копируется исходный раздел, настройки страницы, верхние и нижние колонтитулы не копируются.
+Только содержание[`Body`](../body) исходного раздела копируется, настройки страницы, верхние и нижние колонтитулы не копируются.
 
 Узлы автоматически импортируются, если исходный раздел принадлежит другому документу.
 
@@ -28,7 +28,7 @@ public void PrependContent(Section sourceSection)
 
 ### Примеры
 
-Показывает, как добавить содержимое раздела к другому разделу.
+Показывает, как добавить содержимое раздела в другой раздел.
 
 ```csharp
 Document doc = new Document();
@@ -44,15 +44,15 @@ Section section = doc.Sections[2];
 
 Assert.AreEqual("Section 3" + ControlChar.SectionBreak, section.GetText());
 
- // Вставляем содержимое первого раздела в начало третьего раздела.
+// Вставляем содержимое первого раздела в начало третьего раздела.
 Section sectionToPrepend = doc.Sections[0];
 section.PrependContent(sectionToPrepend);
 
- // Вставляем содержимое второго раздела в конец третьего раздела.
+// Вставляем содержимое второго раздела в конец третьего раздела.
 Section sectionToAppend = doc.Sections[1];
 section.AppendContent(sectionToAppend);
 
- // Методы "PrependContent" и "AppendContent" не создали новых разделов.
+// Методы "PrependContent" и "AppendContent" не создали новых секций.
 Assert.AreEqual(3, doc.Sections.Count);
 Assert.AreEqual("Section 1" + ControlChar.ParagraphBreak +
                 "Section 3" + ControlChar.ParagraphBreak +

@@ -1,14 +1,14 @@
 ---
 title: CommentDisplayMode
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置评论的呈现方式 默认值为ShowInBalloons
+description: 获取或设置评论的呈现方式 默认值为ShowInBalloons.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.layout/layoutoptions/commentdisplaymode/
 ---
 ## LayoutOptions.CommentDisplayMode property
 
-获取或设置评论的呈现方式。 默认值为ShowInBalloons。
+获取或设置评论的呈现方式。 默认值为ShowInBalloons.
 
 ```csharp
 public CommentDisplayMode CommentDisplayMode { get; set; }
@@ -16,11 +16,11 @@ public CommentDisplayMode CommentDisplayMode { get; set; }
 
 ### 评论
 
-请注意，修订不会在ShowInAnnotations。
+请注意，修订不会在气球中呈现ShowInAnnotations.
 
 ### 例子
 
-显示在将文档保存为呈现格式时如何显示注释。
+演示如何在将文档保存为呈现格式时显示注释。
 
 ```csharp
 Document doc = new Document();

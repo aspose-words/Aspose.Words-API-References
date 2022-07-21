@@ -1,14 +1,14 @@
 ---
 title: UseLegacyOrder
 second_title: Aspose.Words for .NET API 参考
-description: True 表示考虑到文本框从上到下顺序执行文本搜索 默认值为假
+description: True 表示考虑到文本框从上到下顺序执行文本搜索 默认值为 false
 type: docs
 weight: 150
 url: /zh/net/aspose.words.replacing/findreplaceoptions/uselegacyorder/
 ---
 ## FindReplaceOptions.UseLegacyOrder property
 
-True 表示考虑到文本框，从上到下顺序执行文本搜索。 默认值为假。
+True 表示考虑到文本框，从上到下顺序执行文本搜索。 默认值为 false。
 
 ```csharp
 public bool UseLegacyOrder { get; set; }

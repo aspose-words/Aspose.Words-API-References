@@ -1,14 +1,14 @@
 ---
 title: BaseWebExtensionCollectionT
 second_title: Справочник по API Aspose.Words для .NET
-description: Базовый класс дляTaskPaneCollection./taskpanecollectionWebExtensionBindingCollection./webextensionbindingcollection WebExtensionPropertyCollection./webextensionpropertycollectionиWebExtensionReferenceCollection./webextensionreferencecollectionколлекции.
+description: Базовый класс дляTaskPaneCollection./taskpanecollection WebExtensionBindingCollection./webextensionbindingcollection  WebExtensionPropertyCollection./webextensionpropertycollection а такжеWebExtensionReferenceCollection./webextensionreferencecollection коллекции.
 type: docs
-weight: 6340
+weight: 6390
 url: /ru/net/aspose.words.webextensions/basewebextensioncollection-1/
 ---
 ## BaseWebExtensionCollection&lt;T&gt; class
 
-Базовый класс для[`TaskPaneCollection`](../taskpanecollection),[`WebExtensionBindingCollection`](../webextensionbindingcollection), [`WebExtensionPropertyCollection`](../webextensionpropertycollection)и[`WebExtensionReferenceCollection`](../webextensionreferencecollection)коллекции.
+Базовый класс для[`TaskPaneCollection`](../taskpanecollection) ,[`WebExtensionBindingCollection`](../webextensionbindingcollection) , [`WebExtensionPropertyCollection`](../webextensionpropertycollection) а также[`WebExtensionReferenceCollection`](../webextensionreferencecollection) коллекции.
 
 ```csharp
 public abstract class BaseWebExtensionCollection<T> : IEnumerable<T>
@@ -32,8 +32,8 @@ public abstract class BaseWebExtensionCollection<T> : IEnumerable<T>
 | --- | --- |
 | [Add](../../aspose.words.webextensions/basewebextensioncollection`1/add)(T) | Добавляет указанный элемент в коллекцию. |
 | [Clear](../../aspose.words.webextensions/basewebextensioncollection`1/clear)() | Удаляет все элементы из коллекции. |
-| [GetEnumerator](../../aspose.words.webextensions/basewebextensioncollection`1/getenumerator)() | Возвращает перечислитель, который может перебирать коллекцию. |
-| [Remove](../../aspose.words.webextensions/basewebextensioncollection`1/remove)(int) | Удаляет элемент по указанному индексу из коллекции. |
+| [GetEnumerator](../../aspose.words.webextensions/basewebextensioncollection`1/getenumerator)() | Возвращает перечислитель, который может выполнять итерацию по коллекции. |
+| [Remove](../../aspose.words.webextensions/basewebextensioncollection`1/remove)(int) | Удаляет элемент с указанным индексом из коллекции. |
 
 ### Примеры
 

@@ -1,14 +1,14 @@
 ---
 title: TableStyleOptions
 second_title: Aspose.Words for .NET API 参考
-description: 指定表格样式如何应用于表格
+description: 指定如何将表格样式应用于表格
 type: docs
-weight: 6020
+weight: 6070
 url: /zh/net/aspose.words.tables/tablestyleoptions/
 ---
 ## TableStyleOptions enumeration
 
-指定表格样式如何应用于表格。
+指定如何将表格样式应用于表格。
 
 ```csharp
 [Flags]
@@ -22,16 +22,16 @@ public enum TableStyleOptions
 | None | `0` | 未应用表格样式格式。 |
 | FirstRow | `20` | 应用第一行条件格式。 |
 | LastRow | `40` | 应用最后一行条件格式。 |
-| FirstColumn | `80` | 应用 1 第一列条件格式。 |
+| FirstColumn | `80` | 应用 1 个第一列条件格式。 |
 | LastColumn | `100` | 应用最后一列条件格式。 |
 | RowBands | `200` | 应用行带条件格式。 |
-| ColumnBands | `400` | 应用列带条件格式。 |
-| Default2003 | `600` | 应用行和列分带。这是旧格式（如 DOC、WML 和 RTF）的 Microsoft Word 默认设置。 |
+| ColumnBands | `400` | 应用列条带条件格式。 |
+| Default2003 | `600` | 应用行和列分带。这是旧格式（如 DOC、WML 和 RTF）的 Microsoft Word 默认值。 |
 | Default | `2A0` | 这是 Microsoft Word 的默认设置。 |
 
 ### 例子
 
-显示如何在应用样式时构建新表。
+展示如何在应用样式时构建新表格。
 
 ```csharp
 Document doc = new Document();

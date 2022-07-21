@@ -1,14 +1,14 @@
 ---
 title: GradientStyle
 second_title: Справочник по API Aspose.Words для .NET
-description: Задает стиль градиентной заливки.
+description: Определяет стиль градиентной заливки.
 type: docs
 weight: 870
 url: /ru/net/aspose.words.drawing/gradientstyle/
 ---
 ## GradientStyle enumeration
 
-Задает стиль градиентной заливки.
+Определяет стиль градиентной заливки.
 
 ```csharp
 public enum GradientStyle
@@ -28,7 +28,7 @@ public enum GradientStyle
 
 ### Примеры
 
-Показывает, как заполнить форму градиентом.
+Показывает, как заполнить фигуру градиентами.
 
 ```csharp
 Document doc = new Document();

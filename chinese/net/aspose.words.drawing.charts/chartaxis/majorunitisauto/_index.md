@@ -16,7 +16,7 @@ public bool MajorUnitIsAuto { get; set; }
 
 ### 评论
 
-该属性对时间类别和值轴有效。
+该属性对时间类别和值轴有影响。
 
 ### 例子
 

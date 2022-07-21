@@ -1,14 +1,14 @@
 ---
 title: IgnoreInserted
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置一个布尔值指示忽略插入修订中的文本 默认值为 false 
+description: 获取或设置一个布尔值指示忽略插入修订中的文本 默认值为错误的.
 type: docs
 weight: 100
 url: /zh/net/aspose.words.replacing/findreplaceoptions/ignoreinserted/
 ---
 ## FindReplaceOptions.IgnoreInserted property
 
-获取或设置一个布尔值，指示忽略插入修订中的文本。 默认值为` false` 。
+获取或设置一个布尔值，指示忽略插入修订中的文本。 默认值为`错误的`.
 
 ```csharp
 public bool IgnoreInserted { get; set; }

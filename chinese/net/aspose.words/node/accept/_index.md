@@ -1,14 +1,14 @@
 ---
 title: Accept
 second_title: Aspose.Words for .NET API 参考
-description: 接受访问者
+description: 接受访客
 type: docs
 weight: 90
 url: /zh/net/aspose.words/node/accept/
 ---
 ## Node.Accept method
 
-接受访问者。
+接受访客。
 
 ```csharp
 public abstract bool Accept(DocumentVisitor visitor)
@@ -20,7 +20,7 @@ public abstract bool Accept(DocumentVisitor visitor)
 
 ### 返回值
 
-如果所有节点都被访问，则为真；如果 DocumentVisitor 在访问所有节点之前停止操作，则返回 false。
+如果访问了所有节点，则为真；如果 DocumentVisitor 在访问所有节点之前停止操作，则返回 false。
 
 ### 评论
 
@@ -30,7 +30,7 @@ public abstract bool Accept(DocumentVisitor visitor)
 
 ### 例子
 
-展示如何使用 DocumentVisitor 实现从文档中删除所有隐藏内容。
+演示如何使用 DocumentVisitor 实现从文档中删除所有隐藏内容。
 
 ```csharp
 {

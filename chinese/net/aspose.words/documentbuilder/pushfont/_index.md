@@ -16,7 +16,7 @@ public void PushFont()
 
 ### 例子
 
-显示如何使用文档构建器的格式化堆栈。
+展示如何使用文档构建器的格式化堆栈。
 
 ```csharp
 Document doc = new Document();

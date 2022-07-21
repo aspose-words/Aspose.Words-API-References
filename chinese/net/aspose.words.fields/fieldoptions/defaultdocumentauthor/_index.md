@@ -1,14 +1,14 @@
 ---
 title: DefaultDocumentAuthor
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置默认文档作者姓名如果作者的名字已经在内置文档属性中指定 不考虑这个选项
+description: 获取或设置默认文档作者的姓名如果已在内置文档属性中指定作者姓名 不考虑此选项
 type: docs
 weight: 60
 url: /zh/net/aspose.words.fields/fieldoptions/defaultdocumentauthor/
 ---
 ## FieldOptions.DefaultDocumentAuthor property
 
-获取或设置默认文档作者姓名。如果作者的名字已经在内置文档属性中指定， 不考虑这个选项。
+获取或设置默认文档作者的姓名。如果已在内置文档属性中指定作者姓名， 不考虑此选项。
 
 ```csharp
 public string DefaultDocumentAuthor { get; set; }
@@ -16,7 +16,7 @@ public string DefaultDocumentAuthor { get; set; }
 
 ### 例子
 
-显示如何使用 AUTHOR 字段来显示文档创建者的姓名。
+演示如何使用 AUTHOR 字段来显示文档创建者的姓名。
 
 ```csharp
 Document doc = new Document();

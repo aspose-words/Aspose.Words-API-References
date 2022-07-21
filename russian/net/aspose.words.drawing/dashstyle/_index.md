@@ -1,14 +1,14 @@
 ---
 title: DashStyle
 second_title: Справочник по API Aspose.Words для .NET
-description: Стиль штриховой линии.
+description: Стиль пунктирной линии.
 type: docs
 weight: 800
 url: /ru/net/aspose.words.drawing/dashstyle/
 ---
 ## DashStyle enumeration
 
-Стиль штриховой линии.
+Стиль пунктирной линии.
 
 ```csharp
 public enum DashStyle
@@ -19,17 +19,17 @@ public enum DashStyle
 | Имя | Ценность | Описание |
 | --- | --- | --- |
 | Solid | `0` | Сплошное (непрерывное) перо. |
-| ShortDash | `1` | Системный стиль тире. |
-| ShortDot | `2` | Системный стиль тире. |
-| ShortDashDot | `3` | Системный стиль тире. |
-| ShortDashDotDot | `4` | Системный стиль тире. |
+| ShortDash | `1` | Стиль системного тире. |
+| ShortDot | `2` | Стиль системного тире. |
+| ShortDashDot | `3` | Стиль системного тире. |
+| ShortDashDotDot | `4` | Стиль системного тире. |
 | Dot | `5` | Стиль квадратных точек. |
-| Dash | `6` | Стиль Dash. |
+| Dash | `6` | Стиль тире. |
 | LongDash | `7` | Стиль длинного тире. |
 | DashDot | `8` | Тире короткое тире. |
 | LongDashDot | `9` | Длинное тире короткое тире. |
-| LongDashDotDot | `10` | Длинное тире Короткое тире Короткое тире. |
-| Default | `0` | То же, чтоSolid. |
+| LongDashDotDot | `10` | Длинное тире, короткое тире, короткое тире. |
+| Default | `0` | То же, что иSolid . |
 
 ### Примеры
 
@@ -39,9 +39,9 @@ public enum DashStyle
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
- // Ниже приведены четыре примера фигур, которые мы можем вставить в наши документы.
- // 1 - Пунктирная, горизонтальная, полупрозрачная красная линия
- // со стрелкой на левом конце и ромбом на правом конце:
+// Ниже приведены четыре примера фигур, которые мы можем вставить в наши документы.
+// 1 - Пунктирная, горизонтальная, полупрозрачная красная линия
+// со стрелкой на левом конце и ромбом на правом конце:
 Shape arrow = new Shape(doc, ShapeType.Line);
 arrow.Width = 200;
 arrow.Stroke.Color = Color.Red;
@@ -58,7 +58,7 @@ Assert.AreEqual(JoinStyle.Miter, arrow.Stroke.JoinStyle);
 
 builder.InsertNode(arrow);
 
- // 2 - Толстая черная диагональная линия с закругленными концами: 
+// 2 - Толстая черная диагональная линия с закругленными концами:
 Shape line = new Shape(doc, ShapeType.Line);
 line.Top = 40;
 line.Width = 200;
@@ -68,7 +68,7 @@ line.Stroke.EndCap = EndCap.Round;
 
 builder.InsertNode(line);
 
- // 3 - Стрелка с зеленой заливкой:
+// 3 - Стрелка с зеленой заливкой:
 Shape filledInArrow = new Shape(doc, ShapeType.Arrow);
 filledInArrow.Width = 200;
 filledInArrow.Height = 40;
@@ -78,7 +78,7 @@ filledInArrow.Fill.Visible = true;
 
 builder.InsertNode(filledInArrow);
 
- // 4 - Стрелка с перевернутой ориентацией, заполненная логотипом Aspose:
+// 4 - Стрелка с перевернутой ориентацией, заполненная логотипом Aspose:
 Shape filledInArrowImg = new Shape(doc, ShapeType.Arrow);
 filledInArrowImg.Width = 200;
 filledInArrowImg.Height = 40;
@@ -90,8 +90,8 @@ byte[] imageBytes = File.ReadAllBytes(ImageDir + "Logo.jpg");
 using (MemoryStream stream = new MemoryStream(imageBytes))
 {
     Image image = Image.FromStream(stream);
-     // Когда мы меняем ориентацию нашей стрелки, мы также меняем изображение, которое содержит стрелка.
-     // Переверните изображение другим способом, чтобы отменить это, прежде чем получить фигуру для его отображения.
+    // Когда мы меняем ориентацию нашей стрелки, мы также меняем изображение, которое содержит стрелка.
+    // Переверните изображение другим способом, чтобы отменить это, прежде чем получить форму для его отображения.
     image.RotateFlip(RotateFlipType.RotateNoneFlipXY);
 
     filledInArrowImg.ImageData.SetImage(image);

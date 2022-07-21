@@ -16,7 +16,7 @@ public FontConfigSubstitutionRule FontConfigSubstitution { get; }
 
 ### Примеры
 
-Показывает подстановку конфигурации шрифта, зависящую от операционной системы.
+Показывает подстановку конфигурации шрифта в зависимости от операционной системы.
 
 ```csharp
 FontSettings fontSettings = new FontSettings();

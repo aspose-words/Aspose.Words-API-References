@@ -3,7 +3,7 @@ title: TableStyleOptions
 second_title: Справочник по API Aspose.Words для .NET
 description: Указывает как стиль таблицы применяется к таблице.
 type: docs
-weight: 6020
+weight: 6070
 url: /ru/net/aspose.words.tables/tablestyleoptions/
 ---
 ## TableStyleOptions enumeration
@@ -24,14 +24,14 @@ public enum TableStyleOptions
 | LastRow | `40` | Применить условное форматирование последней строки. |
 | FirstColumn | `80` | Применить условное форматирование 1 первого столбца. |
 | LastColumn | `100` | Применить условное форматирование последнего столбца. |
-| RowBands | `200` | Применить условное форматирование чередования строк. |
+| RowBands | `200` | Применить условное форматирование для группирования строк. |
 | ColumnBands | `400` | Применить условное форматирование группирования столбцов. |
 | Default2003 | `600` | Применяется чередование строк и столбцов. Это значение Microsoft Word по умолчанию для старых форматов, таких как DOC, WML и RTF. |
-| Default | `2A0` | Это значения по умолчанию для Microsoft Word. |
+| Default | `2A0` | Это настройки Microsoft Word по умолчанию. |
 
 ### Примеры
 
-Показывает, как построить новую таблицу при применении стиля.
+Показывает, как создать новую таблицу при применении стиля.
 
 ```csharp
 Document doc = new Document();

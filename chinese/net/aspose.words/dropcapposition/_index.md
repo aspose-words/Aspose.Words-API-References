@@ -3,7 +3,7 @@ title: DropCapPosition
 second_title: Aspose.Words for .NET API 参考
 description: 指定首字下沉文本的位置
 type: docs
-weight: 1240
+weight: 1260
 url: /zh/net/aspose.words/dropcapposition/
 ---
 ## DropCapPosition enumeration

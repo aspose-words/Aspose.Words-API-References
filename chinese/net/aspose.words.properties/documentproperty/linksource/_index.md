@@ -26,8 +26,8 @@ builder.StartBookmark("MyBookmark");
 builder.Write("Hello world!");
 builder.EndBookmark("MyBookmark");
 
-// 将新的自定义属性链接到书签。此属性的值
- // 将是它在“LinkSource”成员中引用的书签的内容。
+// 将新的自定义属性链接到书签。该物业的价值
+// 将是它在“LinkSource”成员中引用的书签的内容。
 CustomDocumentProperties customProperties = doc.CustomDocumentProperties;
 DocumentProperty customProperty = customProperties.AddLinkToContent("Bookmark", "MyBookmark");
 

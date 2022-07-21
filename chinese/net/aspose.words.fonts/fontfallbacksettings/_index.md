@@ -3,7 +3,7 @@ title: FontFallbackSettings
 second_title: Aspose.Words for .NET API 参考
 description: 指定字体回退机制设置
 type: docs
-weight: 2670
+weight: 2720
 url: /zh/net/aspose.words.fonts/fontfallbacksettings/
 ---
 ## FontFallbackSettings class
@@ -23,7 +23,7 @@ public class FontFallbackSettings
 | [Load](../../aspose.words.fonts/fontfallbacksettings/load#load_1)(string) | 从 XML 文件加载字体回退设置。 |
 | [LoadMsOfficeFallbackSettings](../../aspose.words.fonts/fontfallbacksettings/loadmsofficefallbacksettings)() | 加载模拟 Microsoft Word 后备并使用 Microsoft Office 字体的预定义后备设置。 |
 | [LoadNotoFallbackSettings](../../aspose.words.fonts/fontfallbacksettings/loadnotofallbacksettings)() | 加载使用 Google Noto 字体的预定义后备设置。 |
-| [Save](../../aspose.words.fonts/fontfallbacksettings/save#save)(Stream) | 将当前的后备设置保存到流。 |
+| [Save](../../aspose.words.fonts/fontfallbacksettings/save#save)(Stream) | 将当前的后备设置保存到流中。 |
 | [Save](../../aspose.words.fonts/fontfallbacksettings/save#save_1)(string) | 将当前的后备设置保存到文件。 |
 
 ### 评论
@@ -32,7 +32,7 @@ public class FontFallbackSettings
 
 ### 例子
 
-显示如何在 Unicode 字符代码范围内分配备用字体。
+展示如何在 Unicode 字符代码范围内分布备用字体。
 
 ```csharp
 Document doc = new Document();

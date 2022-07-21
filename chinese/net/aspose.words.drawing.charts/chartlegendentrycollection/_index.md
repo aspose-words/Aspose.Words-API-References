@@ -18,8 +18,8 @@ public class ChartLegendEntryCollection : IEnumerable<ChartLegendEntry>
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Count](../../aspose.words.drawing.charts/chartlegendentrycollection/count) { get; } | 返回此集合中[`ChartLegendEntry`](../chartlegendentry)的数量。 |
-| [Item](../../aspose.words.drawing.charts/chartlegendentrycollection/item) { get; } | 返回指定索引的[`ChartLegendEntry`](../chartlegendentry)。 |
+| [Count](../../aspose.words.drawing.charts/chartlegendentrycollection/count) { get; } | 返回数量[`ChartLegendEntry`](../chartlegendentry)在这个集合中。 |
+| [Item](../../aspose.words.drawing.charts/chartlegendentrycollection/item) { get; } | 返回[`ChartLegendEntry`](../chartlegendentry)对于指定的索引。 |
 
 ## 方法
 

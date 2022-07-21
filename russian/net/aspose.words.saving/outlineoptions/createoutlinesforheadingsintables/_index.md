@@ -16,7 +16,7 @@ public bool CreateOutlinesForHeadingsInTables { get; set; }
 
 ### Примечания
 
-Значение по умолчанию: **false** .
+Значение по умолчанию **ЛОЖЬ**.
 
 ### Примеры
 

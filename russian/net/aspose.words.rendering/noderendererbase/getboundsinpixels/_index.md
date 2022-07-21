@@ -17,7 +17,7 @@ public Rectangle GetBoundsInPixels(float scale, float dpi)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | scale | Single | Коэффициент масштабирования (1,0 соответствует 100%). |
-| dpi | Single | Разрешение (по горизонтали и вертикали) для преобразования точек в пиксели (точек на дюйм). |
+| dpi | Single | Разрешение (горизонтальное и вертикальное) для преобразования точек в пиксели (точек на дюйм). |
 
 ### Возвращаемое значение
 
@@ -25,7 +25,7 @@ public Rectangle GetBoundsInPixels(float scale, float dpi)
 
 ### Примечания
 
-Этот метод преобразует[`BoundsInPoints`](../boundsinpoints)в прямоугольник в пикселях.
+Этот метод преобразует[`BoundsInPoints`](../boundsinpoints) в прямоугольник в пикселях.
 
 ### Примеры
 
@@ -59,7 +59,7 @@ bounds = renderer.GetBoundsInPixels(1.0f, 96.0f, 150.0f);
 Assert.AreEqual(159, bounds.Width);
 Assert.AreEqual(28, bounds.Height);
 
-// Границы непрозрачности здесь тоже могут быть разными.
+// Непрозрачные границы здесь тоже могут быть разными.
 bounds = renderer.GetOpaqueBoundsInPixels(1.0f, 96.0f);
 
 Assert.AreEqual(159, bounds.Width);
@@ -99,7 +99,7 @@ public Rectangle GetBoundsInPixels(float scale, float horizontalDpi, float verti
 
 ### Примечания
 
-Этот метод преобразует[`BoundsInPoints`](../boundsinpoints)в прямоугольник в пикселях.
+Этот метод преобразует[`BoundsInPoints`](../boundsinpoints) в прямоугольник в пикселях.
 
 ### Примеры
 
@@ -133,7 +133,7 @@ bounds = renderer.GetBoundsInPixels(1.0f, 96.0f, 150.0f);
 Assert.AreEqual(159, bounds.Width);
 Assert.AreEqual(28, bounds.Height);
 
-// Границы непрозрачности здесь тоже могут быть разными.
+// Непрозрачные границы здесь тоже могут быть разными.
 bounds = renderer.GetOpaqueBoundsInPixels(1.0f, 96.0f);
 
 Assert.AreEqual(159, bounds.Width);

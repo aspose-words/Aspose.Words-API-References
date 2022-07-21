@@ -16,7 +16,7 @@ public LoadOptions()
 
 ### 例子
 
-显示如何使用基本 URI 打开包含来自流的图像的 HTML 文档。
+演示如何使用基本 URI 打开包含来自流的图像的 HTML 文档。
 
 ```csharp
 using (Stream stream = File.OpenRead(MyDir + "Document.html"))
@@ -100,49 +100,48 @@ public LoadOptions(LoadFormat loadFormat, string password, string baseUri)
 | --- | --- | --- |
 | loadFormat | LoadFormat | 要加载的文档的格式。 |
 | password | String | 打开加密文档的密码。可以是 null 或空字符串。 |
-| baseUri | String | 用于将相对 URI 解析为绝对的字符串。可以是 null 或空字符串。 |
+| baseUri | String | 将用于将相对 URI 解析为绝对的字符串。可以是 null 或空字符串。 |
 
 ### 例子
 
-显示如何将网页保存为 .docx 文件。
+显示如何将网页另存为 .docx 文件。
 
 ```csharp
- // 假设我们要加载一个 .html 文档，其中包含一个由相对 URI
- 链接的图像
-// 当图像在不同的位置时。在这种情况下，我们需要将相对 URI 解析为绝对 URI。
- // 我们可以使用 HtmlLoadOptions 对象提供基本 URI。 
-HtmlLoadOptions loadOptions = new HtmlLoadOptions(LoadFormat.Html, "", ImageDir);
+const string url = "http://www.aspose.com/";
 
-Assert.AreEqual(LoadFormat.Html, loadOptions.LoadFormat);
+using (WebClient client = new WebClient()) 
+{ 
+    using (MemoryStream stream = new MemoryStream(client.DownloadData(url)))
+    {
+        // 该 URL 再次用作 baseUri，以确保正确检索任何相对图像路径。
+        LoadOptions options = new LoadOptions(LoadFormat.Html, "", url);
 
-Document doc = new Document(MyDir + "Missing image.html", loadOptions);
+        // 从流中加载 HTML 文档并传递 LoadOptions 对象。
+        Document doc = new Document(stream, options);
 
- // 虽然图像在输入 .html 中损坏，但我们的自定义基本 URI 帮助我们修复了链接。
-Shape imageShape = (Shape)doc.GetChildNodes(NodeType.Shape, true)[0];
-Assert.True(imageShape.IsImage);
-
- // 此输出文档将显示丢失的图像。
-doc.Save(ArtifactsDir + "HtmlLoadOptions.BaseUri.docx");
+        // 在这个阶段，我们可以读取和编辑文档的内容，然后将其保存到本地文件系统。
+        doc.Save(ArtifactsDir + "Document.InsertHtmlFromWebPage.docx");
+    }
+}
 ```
 
-显示如何在打开 html 文档时指定基本 URI。
+演示如何在打开 html 文档时指定基本 URI。
 
 ```csharp
- // 假设我们要加载一个 .html 文档，其中包含一个由相对 URI
- 链接的图像
+// 假设我们要加载一个 .html 文档，其中包含一个由相对 URI 链接的图像
 // 当图像在不同的位置时。在这种情况下，我们需要将相对 URI 解析为绝对 URI。
- // 我们可以使用 HtmlLoadOptions 对象提供基本 URI。 
+ // 我们可以使用 HtmlLoadOptions 对象提供基本 URI。
 HtmlLoadOptions loadOptions = new HtmlLoadOptions(LoadFormat.Html, "", ImageDir);
 
 Assert.AreEqual(LoadFormat.Html, loadOptions.LoadFormat);
 
 Document doc = new Document(MyDir + "Missing image.html", loadOptions);
 
- // 虽然图像在输入 .html 中损坏，但我们的自定义基本 URI 帮助我们修复了链接。
+// 当输入 .html 中的图像损坏时，我们的自定义基本 URI 帮助我们修复了链接。
 Shape imageShape = (Shape)doc.GetChildNodes(NodeType.Shape, true)[0];
 Assert.True(imageShape.IsImage);
 
- // 此输出文档将显示丢失的图像。
+// 此输出文档将显示丢失的图像。
 doc.Save(ArtifactsDir + "HtmlLoadOptions.BaseUri.docx");
 ```
 

@@ -1,14 +1,14 @@
 ---
 title: AxisDisplayUnit
 second_title: Aspose.Words for .NET API 参考
-description: 提供对数值轴显示单位的缩放选项的访问
+description: 提供对数值轴显示单位缩放选项的访问
 type: docs
 weight: 540
 url: /zh/net/aspose.words.drawing.charts/axisdisplayunit/
 ---
 ## AxisDisplayUnit class
 
-提供对数值轴显示单位的缩放选项的访问。
+提供对数值轴显示单位缩放选项的访问。
 
 ```csharp
 public class AxisDisplayUnit
@@ -24,9 +24,9 @@ public class AxisDisplayUnit
 
 | 姓名 | 描述 |
 | --- | --- |
-| [CustomUnit](../../aspose.words.drawing.charts/axisdisplayunit/customunit) { get; set; } | 获取或设置用户定义的除数以缩放值轴上的显示单位。 |
+| [CustomUnit](../../aspose.words.drawing.charts/axisdisplayunit/customunit) { get; set; } | 获取或设置一个用户定义的除数来缩放值轴上的显示单位。 |
 | [Document](../../aspose.words.drawing.charts/axisdisplayunit/document) { get; } | 返回标题持有者所属的文档。 |
-| [Unit](../../aspose.words.drawing.charts/axisdisplayunit/unit) { get; set; } | 获取或设置显示单位的缩放值作为预定义值之一。 |
+| [Unit](../../aspose.words.drawing.charts/axisdisplayunit/unit) { get; set; } | 获取或设置显示单元的缩放值作为预定义值之一。 |
 
 ### 例子
 

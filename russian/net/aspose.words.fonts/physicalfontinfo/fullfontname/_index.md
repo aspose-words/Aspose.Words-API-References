@@ -1,14 +1,14 @@
 ---
 title: FullFontName
 second_title: Справочник по API Aspose.Words для .NET
-description: Полное имя шрифта.
+description: Полное название шрифта.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.fonts/physicalfontinfo/fullfontname/
 ---
 ## PhysicalFontInfo.FullFontName property
 
-Полное имя шрифта.
+Полное название шрифта.
 
 ```csharp
 public string FullFontName { get; }

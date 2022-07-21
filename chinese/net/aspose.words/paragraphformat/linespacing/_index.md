@@ -16,9 +16,9 @@ public double LineSpacing { get; set; }
 
 ### 评论
 
-当 LineSpacingRule 属性设置为 AtLeast 时，行距可以大于或等于， 但绝不会小于指定的 LineSpacing 值。
+当 LineSpacingRule 属性设置为 AtLeast 时，行距可以大于或等于， ，但不能小于指定的 LineSpacing 值。
 
-当 LineSpacingRule 属性设置为 Exactly 时，行间距永远不会从 指定的 LineSpacing 值更改，即使在其中使用了更大的字体这段落。
+当 LineSpacingRule 属性设置为 Exactly 时，行间距永远不会从 指定的 LineSpacing 值更改，即使在段落中使用了较大的字体。
 
 ### 例子
 

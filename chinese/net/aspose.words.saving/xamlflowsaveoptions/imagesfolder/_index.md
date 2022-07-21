@@ -16,15 +16,15 @@ public string ImagesFolder { get; set; }
 
 ### 评论
 
-当您保存[`Document`](../../../aspose.words/document)在 XAML 格式中，Aspose.Words 需要将文档中嵌入的所有 图像保存为独立文件。`ImagesFolder` 允许您指定图像的保存位置和ImagesFolderAlias 允许指定如何构造图像 URI。
+当你保存一个[`Document`](../../../aspose.words/document)在 XAML 格式中，Aspose.Words 需要将文档中嵌入的所有 图像保存为独立文件。`ImagesFolder` 允许您指定图像的保存位置和[`ImagesFolderAlias`](../imagesfolderalias) 允许指定如何构建图像 URI。
 
-如果将文档保存到文件中并提供文件名，Aspose.Words 默认情况下会将 图像保存在同一个文件中保存文档文件的文件夹。使用`ImagesFolder` 来覆盖此行为。
+如果您将文档保存到文件中并提供文件名，Aspose.Words 默认将 图像保存在保存文档文件的同一文件夹中。利用`ImagesFolder` 覆盖此行为。
 
-如果将文档保存到流中，Aspose.Words 没有保存图像的文件夹 但仍需要将图像保存在某处。在这种情况下，您需要在`ImagesFolder`属性中指定可访问文件夹 或通过 提供自定义流[`ImageSavingCallback`](../imagesavingcallback)事件处理程序。
+如果您将文档保存到流中，Aspose.Words 没有用于保存图像的文件夹 ，但仍需要将图像保存在某处。在这种情况下，您需要在`ImagesFolder`属性或通过 提供自定义流[`ImageSavingCallback`](../imagesavingcallback)事件处理程序。
 
 ### 例子
 
-显示如何打印在将文档转换为流格式 .xaml 时创建的链接图像的文件名。
+演示如何打印在将文档转换为流格式 .xaml 时创建的链接图像的文件名。
 
 ```csharp
 {

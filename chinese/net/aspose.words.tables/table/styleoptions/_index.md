@@ -16,7 +16,7 @@ public TableStyleOptions StyleOptions { get; set; }
 
 ### 例子
 
-显示如何在应用样式时构建新表。
+展示如何在应用样式时构建新表格。
 
 ```csharp
 Document doc = new Document();

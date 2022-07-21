@@ -1,14 +1,14 @@
 ---
 title: PreProcessCulture
 second_title: Справочник по API Aspose.Words для .NET
-description: Получает или задает культуру для предварительной обработки значений полей.
+description: Получает или задает культуру для предварительной обработки значений поля.
 type: docs
-weight: 140
+weight: 150
 url: /ru/net/aspose.words.fields/fieldoptions/preprocessculture/
 ---
 ## FieldOptions.PreProcessCulture property
 
-Получает или задает культуру для предварительной обработки значений полей.
+Получает или задает культуру для предварительной обработки значений поля.
 
 ```csharp
 public CultureInfo PreProcessCulture { get; set; }
@@ -16,9 +16,9 @@ public CultureInfo PreProcessCulture { get; set; }
 
 ### Примечания
 
-В настоящее время это свойство влияет только на значениеFieldDocProperty.
+В настоящее время это свойство влияет только на значение[`FieldDocProperty`](../../fielddocproperty) поле.
 
-Значение по умолчанию: **null** . Когда для этого свойства установлено значение **null** , значение поля[`FieldDocProperty`](../../fielddocproperty)предварительно обрабатывается с культурой, контролируемой свойством[`FieldUpdateCultureSource`](../fieldupdateculturesource).
+Значение по умолчанию **нулевой** . Когда это свойство установлено в **нулевой** ,[`FieldDocProperty`](../../fielddocproperty) значение поля предварительно обработано с культурой, контролируемой[`FieldUpdateCultureSource`](../fieldupdateculturesource) имущество.
 
 ### Примеры
 
@@ -28,19 +28,19 @@ public CultureInfo PreProcessCulture { get; set; }
 Document doc = new Document(MyDir + "Document.docx");
 DocumentBuilder builder = new DocumentBuilder(doc);
 
- // Установите культуру, в соответствии с которой некоторые поля будут форматировать отображаемые значения.
+// Установите культуру, в соответствии с которой некоторые поля будут форматировать отображаемые значения.
 doc.FieldOptions.PreProcessCulture = new CultureInfo("de-DE");
 
 Field field = builder.InsertField(" DOCPROPERTY CreateTime");
 
- // В поле DOCPROPERTY отобразится результат, отформатированный в соответствии с предпроцессом Culture
- // мы установили немецкий язык. Поле будет отображать дату/время в формате «дд.мм.гггг чч:мм».
+// В поле DOCPROPERTY отобразится результат, отформатированный в соответствии с культурой предварительной обработки
+// мы установили немецкий язык. Поле будет отображать дату/время в формате «дд.мм.гггг чч:мм».
 Assert.IsTrue(Regex.Match(field.Result, @"\d{2}[.]\d{2}[.]\d{4} \d{2}[:]\d{2}").Success);
 
 doc.FieldOptions.PreProcessCulture = CultureInfo.InvariantCulture;
 field.Update();
 
- // После переключения на инвариантный язык и региональные параметры поле DOCPROPERTY будет использовать формат "мм/дд/гггг чч:мм".
+// После переключения на инвариантный язык и региональные параметры поле DOCPROPERTY будет использовать формат «мм/дд/гггг чч:мм».
 Assert.IsTrue(Regex.Match(field.Result, @"\d{2}[/]\d{2}[/]\d{4} \d{2}[:]\d{2}").Success);
 ```
 

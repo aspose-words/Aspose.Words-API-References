@@ -20,13 +20,13 @@ public void MoveToSection(int sectionIndex)
 
 ### 评论
 
-当 sectionIndex 大于等于 0 时，它指定从 开始的索引文档的开头，0 是第一部分。当 sectionIndex 小于 0 时， 它指定从文档末尾开始的索引，其中 -1 是最后一个部分。
+当 sectionIndex 大于或等于 0 时，它指定一个索引 from 文档的开头，其中 0 是第一个部分。当 sectionIndex 小于 0, 它指定从文档末尾开始的索引，-1 是最后一个部分。
 
-光标移动到指定节的 **正文** 的第一段。
+光标移动到第一段 **身体**的指定部分。
 
 ### 例子
 
-展示如何使用 DocumentBuilder 在文档中创建页眉和页脚。
+演示如何使用 DocumentBuilder 在文档中创建页眉和页脚。
 
 ```csharp
 Document doc = new Document();

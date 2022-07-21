@@ -16,19 +16,18 @@ public object FieldValue { get; set; }
 
 ### Примечания
 
-Это свойство содержит значение, которое только что было выбрано из вашего источника данных для этого поля механизмом слияния. Вы также можете заменить значение, установив свойство.
+Это свойство содержит значение, которое только что было выбрано из вашего источника данных для этого поля механизмом слияния. Вы также можете заменить значение, установив свойство .
 
 ### Примеры
 
 Показывает, как редактировать значения, которые поля MERGEFIELD получают при слиянии почты.
 
 ```csharp
-public void FieldFormats()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-     // Вставьте несколько полей MERGEFIELD с переключателями формата, которые будут редактировать значения, которые они получат во время слияния почты.
+    // Вставьте несколько полей MERGEFIELD с переключателями формата, которые будут редактировать значения, которые они получат во время слияния.
     builder.InsertField("MERGEFIELD text_Field1 \\* Caps", null);
     builder.Write(", ");
     builder.InsertField("MERGEFIELD text_Field2 \\* Upper", null);
@@ -45,13 +44,13 @@ public void FieldFormats()
 }
 
 /// <summary>
- /// Редактирует значения, которые MERGEFIELD получают во время слияния почты.
- /// Имя MERGEFIELD должно иметь префикс, чтобы этот обратный вызов воздействовал на его значение.
+/// Редактирует значения, которые поля MERGEFIELD получают во время слияния почты.
+/// Имя MERGEFIELD должно иметь префикс, чтобы этот обратный вызов воздействовал на его значение.
 /// </summary>
 private class FieldValueMergingCallback : IFieldMergingCallback
 {
     /// <summary>
-     /// Вызывается, когда слияние почты объединяет данные в MERGEFIELD.
+    /// Вызывается, когда слияние почты объединяет данные в MERGEFIELD.
     /// </summary>
     void IFieldMergingCallback.FieldMerging(FieldMergingArgs e)
     {
@@ -63,7 +62,7 @@ private class FieldValueMergingCallback : IFieldMergingCallback
 
     void IFieldMergingCallback.ImageFieldMerging(ImageFieldMergingArgs e)
     {
-         // Ничего не делать.
+        // Ничего не делать.
     }
 }
 ```

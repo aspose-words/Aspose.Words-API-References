@@ -1,14 +1,14 @@
 ---
 title: Format
 second_title: Aspose.Words for .NET API 参考
-description: 当 Aspose.Words 应用大写格式开关时调用即  Upper
+description: 当 Aspose.Words 应用大小写格式开关时调用即  Upper.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.fields/ifieldresultformatter/format/
 ---
 ## Format(string, GeneralFormat) {#format_1}
 
-当 Aspose.Words 应用大写格式开关时调用，即 \* Upper。
+当 Aspose.Words 应用大小写格式开关时调用，即 \* Upper.
 
 ```csharp
 public string Format(string value, GeneralFormat format)
@@ -16,7 +16,7 @@ public string Format(string value, GeneralFormat format)
 
 ### 评论
 
-实现应该返回 **null** 表示应应用默认格式。
+实现应该返回 **无效的**表示应应用默认格式。
 
 ### 例子
 
@@ -162,7 +162,7 @@ private class FieldResultFormatter : IFieldResultFormatter
 
 ## Format(double, GeneralFormat) {#format}
 
-当 Aspose.Words 应用数字格式开关时调用，即 \* Ordinal。
+当 Aspose.Words 应用数字格式开关时调用，即 \* Ordinal.
 
 ```csharp
 public string Format(double value, GeneralFormat format)
@@ -170,7 +170,7 @@ public string Format(double value, GeneralFormat format)
 
 ### 评论
 
-实现应该返回 **null** 表示应应用默认格式。
+实现应该返回 **无效的**表示应应用默认格式。
 
 ### 例子
 

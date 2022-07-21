@@ -1,14 +1,14 @@
 ---
 title: CssStyleSheetType
 second_title: Aspose.Words for .NET API 参考
-description: 指定如何将 CSS层叠样式表样式导出为 HTML
+description: 指定如何将 CSS层叠样式表样式导出到 HTML
 type: docs
-weight: 4580
+weight: 4630
 url: /zh/net/aspose.words.saving/cssstylesheettype/
 ---
 ## CssStyleSheetType enumeration
 
-指定如何将 CSS（层叠样式表）样式导出为 HTML。
+指定如何将 CSS（层叠样式表）样式导出到 HTML。
 
 ```csharp
 public enum CssStyleSheetType
@@ -18,32 +18,32 @@ public enum CssStyleSheetType
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| Inline | `0` | CSS 样式是内联编写的（作为每个元素的 **样式** 属性的值）。 |
+| Inline | `0` | CSS 样式是内联编写的（作为 **风格**每个元素的属性）. |
 | Embedded | `1` | CSS 样式与嵌入在 HTML 文件中的样式表中的内容分开编写。 |
 | External | `2` | CSS 样式与外部文件的样式表中的内容分开编写。 HTML 文件链接样式表。 |
 
 ### 例子
 
-展示如何使用 CSS 样式表HTML 转换创建。
+展示如何使用 HTML 转换创建的 CSS 样式表。
 
 ```csharp
 public void ExternalCssFilenames()
 {
     Document doc = new Document(MyDir + "Rendering.docx");
 
-     // 创建一个“HtmlFixedSaveOptions”对象，我们可以将它传递给文档的“Save”方法
-     // 修改我们如何将文档转换为 HTML.
+    // 创建一个“HtmlFixedSaveOptions”对象，我们可以将它传递给文档的“Save”方法
+    // 修改我们如何将文档转换为 HTML。
     HtmlSaveOptions options = new HtmlSaveOptions();
 
-     // 将“CssStylesheetType”属性设置为“CssStyleSheetType.External” to
-     // 将保存的 HTML 文档与外部 CSS 样式表文件一起保存。
+    // 将“CssStylesheetType”属性设置为“CssStyleSheetType.External”以
+    // 将保存的 HTML 文档与外部 CSS 样式表文件一起保存。
     options.CssStyleSheetType = CssStyleSheetType.External;
 
-     // 下面是为输出 CSS 样式表指定目录和文件名的两种方式。
+    // 下面是为输出 CSS 样式表指定目录和文件名的两种方法。
     // 1 - 使用“CssStyleSheetFileName”属性为我们的样式表分配一个文件名：
     options.CssStyleSheetFileName = ArtifactsDir + "SavingCallback.ExternalCssFilenames.css";
 
-     // 2 - 使用自定义回调来命名我们的样式表：
+    // 2 - 使用自定义回调来命名我们的样式表：
     options.CssSavingCallback =
         new CustomCssSavingCallback(ArtifactsDir + "SavingCallback.ExternalCssFilenames.css", true, false);
 
@@ -51,7 +51,7 @@ public void ExternalCssFilenames()
 }
 
 /// <summary>
- /// 设置自定义文件名，以及外部 CSS 样式表的其他参数。
+/// 设置自定义文件名以及外部 CSS 样式表的其他参数。
 /// </summary>
 private class CustomCssSavingCallback : ICssSavingCallback
 {
@@ -64,7 +64,7 @@ private class CustomCssSavingCallback : ICssSavingCallback
 
     public void CssSaving(CssSavingArgs args)
     {
-         // 我们可以通过“Document”属性访问整个源文档。
+        // 我们可以通过“Document”属性访问整个源文档。
         Assert.True(args.Document.OriginalFileName.EndsWith("Rendering.docx"));
 
         args.CssStream = new FileStream(mCssTextFileName, FileMode.Create);

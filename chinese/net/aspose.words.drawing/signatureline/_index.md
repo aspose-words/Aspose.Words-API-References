@@ -3,7 +3,7 @@ title: SignatureLine
 second_title: Aspose.Words for .NET API 参考
 description: 提供对签名行属性的访问
 type: docs
-weight: 1130
+weight: 1150
 url: /zh/net/aspose.words.drawing/signatureline/
 ---
 ## SignatureLine class
@@ -18,17 +18,17 @@ public class SignatureLine
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AllowComments](../../aspose.words.drawing/signatureline/allowcomments) { get; set; } | 获取或设置一个值，指示签名者可以在“签名”对话框中添加注释。 此属性的默认值为 **false** 。 |
-| [DefaultInstructions](../../aspose.words.drawing/signatureline/defaultinstructions) { get; set; } | 获取或设置一个值，指示默认指令显示在“签名”对话框中。 此属性的默认值为 **true** 。 |
-| [Email](../../aspose.words.drawing/signatureline/email) { get; set; } | 获取或设置建议签名者的电子邮件地址。 此属性的默认值为 **空字符串** (Empty)。 |
+| [AllowComments](../../aspose.words.drawing/signatureline/allowcomments) { get; set; } | 获取或设置一个值，指示签名者可以在签名对话框中添加注释。 此属性的默认值为 **错误的**. |
+| [DefaultInstructions](../../aspose.words.drawing/signatureline/defaultinstructions) { get; set; } | 获取或设置一个值，指示默认指令显示在签名对话框中。 此属性的默认值为 **真的**. |
+| [Email](../../aspose.words.drawing/signatureline/email) { get; set; } | 获取或设置建议的签名者的电子邮件地址。 此属性的默认值为 **空字符串**(Empty ). |
 | [Id](../../aspose.words.drawing/signatureline/id) { get; set; } | 获取或设置此签名行的标识符。 |
-| [Instructions](../../aspose.words.drawing/signatureline/instructions) { get; set; } | 获取或设置在签名行签名时显示的签名者指令。 如果设置了[`DefaultInstructions`](./defaultinstructions)，则忽略此属性。 此属性的默认值为 **空字符串** (Empty)。 |
+| [Instructions](../../aspose.words.drawing/signatureline/instructions) { get; set; } | 获取或设置在签署签名行时显示给签名者的指令。 如果出现以下情况，则忽略此属性[`DefaultInstructions`](./defaultinstructions)已设置。 此属性的默认值为 **空字符串**(Empty ). |
 | [IsSigned](../../aspose.words.drawing/signatureline/issigned) { get; } | 表示签名行是数字签名的。 |
 | [IsValid](../../aspose.words.drawing/signatureline/isvalid) { get; } | 表示签名行是数字签名的，这个数字签名是有效的。 |
 | [ProviderId](../../aspose.words.drawing/signatureline/providerid) { get; set; } | 获取或设置此签名行的签名提供者标识符。 默认值为“{00000000-0000-0000-0000-000000000000}”。 |
-| [ShowDate](../../aspose.words.drawing/signatureline/showdate) { get; set; } | 获取或设置一个值，指示签名日期显示在签名行中。 此属性的默认值为 **true** 。 |
-| [Signer](../../aspose.words.drawing/signatureline/signer) { get; set; } | 获取或设置签名行的建议签名者。 此属性的默认值为 **空字符串** (Empty)。 |
-| [SignerTitle](../../aspose.words.drawing/signatureline/signertitle) { get; set; } | 获取或设置建议的签名者的头衔（例如，经理）。 此属性的默认值为 **空字符串** (Empty)。 |
+| [ShowDate](../../aspose.words.drawing/signatureline/showdate) { get; set; } | 获取或设置一个值，指示签名日期显示在签名行中。 此属性的默认值为 **真的**. |
+| [Signer](../../aspose.words.drawing/signatureline/signer) { get; set; } | 获取或设置签名行的建议签名者。 此属性的默认值为 **空字符串**(Empty ). |
+| [SignerTitle](../../aspose.words.drawing/signatureline/signertitle) { get; set; } | 获取或设置建议签名者的头衔（例如，经理）。 此属性的默认值为 **空字符串**(Empty ). |
 
 ### 例子
 

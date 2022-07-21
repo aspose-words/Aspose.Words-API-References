@@ -1,14 +1,14 @@
 ---
 title: Node
 second_title: Aspose.Words for .NET API 参考
-description: 获取正在添加或删除的Nodeaspose.words/nodechangingargs/node
+description: 获取Nodeaspose.words/nodechangingargs/node正在添加或删除
 type: docs
 weight: 30
 url: /zh/net/aspose.words/nodechangingargs/node/
 ---
 ## NodeChangingArgs.Node property
 
-获取正在添加或删除的`Node`。
+获取`Node`正在添加或删除。
 
 ```csharp
 public Node Node { get; }

@@ -1,14 +1,14 @@
 ---
 title: Position
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置一个值该值表示渐变中停靠点的位置 以百分比表示范围为 0.0 到 1.0
+description: 获取或设置一个值该值表示梯度 内的停止位置以百分比表示范围为 0.0 到 1.0.
 type: docs
 weight: 30
 url: /zh/net/aspose.words.drawing/gradientstop/position/
 ---
 ## GradientStop.Position property
 
-获取或设置一个值，该值表示渐变中停靠点的位置 以百分比表示，范围为 0.0 到 1.0。
+获取或设置一个值，该值表示梯度 内的停止位置，以百分比表示，范围为 0.0 到 1.0.
 
 ```csharp
 public double Position { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: LineNumberDistanceFromText
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置行号右边缘与文档左边缘之间的距离
+description: 获取或设置行号右边缘和文档左边缘之间的距离
 type: docs
 weight: 220
 url: /zh/net/aspose.words/pagesetup/linenumberdistancefromtext/
 ---
 ## PageSetup.LineNumberDistanceFromText property
 
-获取或设置行号右边缘与文档左边缘之间的距离。
+获取或设置行号右边缘和文档左边缘之间的距离。
 
 ```csharp
 public double LineNumberDistanceFromText { get; set; }
@@ -20,7 +20,7 @@ public double LineNumberDistanceFromText { get; set; }
 
 ### 例子
 
-显示如何为节启用行编号。
+显示如何为部分启用行号。
 
 ```csharp
 Document doc = new Document();

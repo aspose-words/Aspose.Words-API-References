@@ -10,7 +10,7 @@ url: /zh/net/aspose.words/hyphenation/unregisterdictionary/
 
 取消注册指定语言的断字字典。
 
-这与注册 Null 字典不同。取消注册字典会启用指定语言的回调。
+这与注册 Null 字典不同。取消注册字典启用指定语言的回调。
 
 ```csharp
 public static void UnregisterDictionary(string language)

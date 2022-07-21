@@ -1,14 +1,14 @@
 ---
 title: Spacing
 second_title: Aspose.Words for .NET API 参考
-description: 返回或设置字符之间的间距以磅为单位
+description: 返回或设置字符之间的间距以磅为单位 .
 type: docs
 weight: 380
 url: /zh/net/aspose.words/font/spacing/
 ---
 ## Font.Spacing property
 
-返回或设置字符之间的间距（以磅为单位）。
+返回或设置字符之间的间距（以磅为单位） .
 
 ```csharp
 public double Spacing { get; set; }

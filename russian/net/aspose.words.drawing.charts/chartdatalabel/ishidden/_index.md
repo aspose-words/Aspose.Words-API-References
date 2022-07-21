@@ -1,14 +1,14 @@
 ---
 title: IsHidden
 second_title: Справочник по API Aspose.Words для .NET
-description: Получает/устанавливает флаг указывающий скрыта ли эта метка. Значение по умолчанию false .
+description: Получает/устанавливает флаг указывающий скрыта ли эта метка. Значение по умолчанию ЛОЖЬ .
 type: docs
 weight: 20
 url: /ru/net/aspose.words.drawing.charts/chartdatalabel/ishidden/
 ---
 ## ChartDataLabel.IsHidden property
 
-Получает/устанавливает флаг, указывающий, скрыта ли эта метка. Значение по умолчанию: **false** .
+Получает/устанавливает флаг, указывающий, скрыта ли эта метка. Значение по умолчанию: **ЛОЖЬ** .
 
 ```csharp
 public bool IsHidden { get; set; }

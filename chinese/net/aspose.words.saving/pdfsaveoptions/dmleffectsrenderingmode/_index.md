@@ -16,11 +16,11 @@ public override DmlEffectsRenderingMode DmlEffectsRenderingMode { get; set; }
 
 ### 评论
 
-默认值为Simplified。
+默认值为Simplified.
 
 当文档导出为固定页面格式时使用此属性。
 
-如果[`Compliance`](../compliance)设置为PdfA1a或PdfA1b, 属性总是返回None。
+如果[`Compliance`](../compliance)被设定为PdfA1a或者PdfA1b , 属性总是返回None.
 
 ### 例子
 

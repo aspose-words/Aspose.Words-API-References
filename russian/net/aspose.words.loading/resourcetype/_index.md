@@ -3,7 +3,7 @@ title: ResourceType
 second_title: Справочник по API Aspose.Words для .NET
 description: Тип загружаемого ресурса.
 type: docs
-weight: 3450
+weight: 3500
 url: /ru/net/aspose.words.loading/resourcetype/
 ---
 ## ResourceType enumeration

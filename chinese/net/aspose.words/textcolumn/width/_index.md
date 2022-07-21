@@ -8,7 +8,7 @@ url: /zh/net/aspose.words/textcolumn/width/
 ---
 ## TextColumn.Width property
 
-获取或设置文本列的宽度（以磅为单位）。
+获取或设置文本列的宽度，以磅为单位。
 
 ```csharp
 public double Width { get; set; }

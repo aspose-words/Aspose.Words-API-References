@@ -1,19 +1,19 @@
 ---
 title: Aspose.Words.Fonts
 second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Fonts 命名空间提供类和枚举以访问有关的信息文档中使用的字体
+description: 这 Aspose.Words.Fonts命名空间提供类和枚举来访问有关文档中使用的 字体的信息
 type: docs
 weight: 90
 url: /zh/net/aspose.words.fonts/
 ---
-**Aspose.Words.Fonts** 命名空间提供类和枚举以访问有关的信息文档中使用的字体。
+这 **Aspose.Words.Fonts**命名空间提供类和枚举来访问有关文档中使用的 字体的信息。
 
 ## 课程
 
 | 班级 | 描述 |
 | --- | --- |
 | [DefaultFontSubstitutionRule](./defaultfontsubstitutionrule) | 默认字体替换规则。 |
-| [FileFontSource](./filefontsource) | 表示存储在文件系统中的单个 TrueType 字体文件。 |
+| [FileFontSource](./filefontsource) | 表示文件系统中存储的单个 TrueType 字体文件。 |
 | [FolderFontSource](./folderfontsource) | 表示包含 TrueType 字体文件的文件夹。 |
 | [FontConfigSubstitutionRule](./fontconfigsubstitutionrule) | 字体配置替换规则。 |
 | [FontFallbackSettings](./fontfallbacksettings) | 指定字体回退机制设置。 |
@@ -34,9 +34,9 @@ url: /zh/net/aspose.words.fonts/
 
 | 枚举 | 描述 |
 | --- | --- |
-| [EmbeddedFontFormat](./embeddedfontformat) | 指定[`FontInfo`](../aspose.words.fonts/fontinfo)对象内特定嵌入字体的格式。 |
-| [EmbeddedFontStyle](./embeddedfontstyle) | 指定[`FontInfo`](../aspose.words.fonts/fontinfo)对象内嵌入字体的样式。 |
-| [FontFamily](./fontfamily) | 表示字体系列。 |
+| [EmbeddedFontFormat](./embeddedfontformat) | 指定内部特定嵌入字体的格式[`FontInfo`](../aspose.words.fonts/fontinfo)目的。 |
+| [EmbeddedFontStyle](./embeddedfontstyle) | 指定嵌入字体的样式[`FontInfo`](../aspose.words.fonts/fontinfo)对象. |
+| [FontFamily](./fontfamily) | 代表字体家族。 |
 | [FontPitch](./fontpitch) | 表示字体间距。 |
 | [FontSourceType](./fontsourcetype) | 指定字体源的类型。 |
 

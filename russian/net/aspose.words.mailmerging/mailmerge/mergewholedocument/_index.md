@@ -1,14 +1,14 @@
 ---
 title: MergeWholeDocument
 second_title: Справочник по API Aspose.Words для .NET
-description: Получает или задает значение указывающее обновляются ли поля во всем документе при выполнении слияния почты с областями.
+description: Получает или задает значение указывающее обновляются ли поля во всем документе при выполнении слияния почты с регионами.
 type: docs
 weight: 70
 url: /ru/net/aspose.words.mailmerging/mailmerge/mergewholedocument/
 ---
 ## MailMerge.MergeWholeDocument property
 
-Получает или задает значение, указывающее, обновляются ли поля во всем документе при выполнении слияния почты с областями.
+Получает или задает значение, указывающее, обновляются ли поля во всем документе при выполнении слияния почты с регионами.
 
 ```csharp
 public bool MergeWholeDocument { get; set; }
@@ -16,7 +16,7 @@ public bool MergeWholeDocument { get; set; }
 
 ### Примечания
 
-Значение по умолчанию: **false** .
+Значение по умолчанию: **ЛОЖЬ** .
 
 ### Примеры
 
@@ -28,15 +28,15 @@ public void MergeWholeDocument(bool mergeWholeDocument)
     Document doc = CreateSourceDocMergeWholeDocument();
     DataTable dataTable = CreateSourceTableMergeWholeDocument();
 
-     // Если мы установим флаг "MergeWholeDocument" в "true", 
-     // слияние почты с регионами обновит каждое поле в документе.
-     // Если мы установим флаг "MergeWholeDocument" в "false", слияние будет обновлять только fields
-     // внутри области слияния, имя которой совпадает с именем таблицы источника данных.
+    // Если мы установим флаг "MergeWholeDocument" в "true",
+    // слияние почты с регионами обновит каждое поле в документе.
+    // Если мы установим флаг "MergeWholeDocument" в "false", слияние будет обновлять только поля
+    // внутри области слияния, имя которой совпадает с именем таблицы источника данных.
     doc.MailMerge.MergeWholeDocument = mergeWholeDocument;
     doc.MailMerge.ExecuteWithRegions(dataTable);
 
-     // Слияние будет обновлять только поле ЦИТАТА за пределами слияния region
-     // если мы установим флаг "MergeWholeDocument" в "true".
+    // Слияние будет обновлять только поле ЦИТАТА за пределами области слияния
+    // если мы установим флаг "MergeWholeDocument" в "true".
     doc.Save(ArtifactsDir + "MailMerge.MergeWholeDocument.docx");
 
     Assert.True(doc.GetText().Contains("This QUOTE field is inside the \"MyTable\" merge region."));
@@ -45,8 +45,8 @@ public void MergeWholeDocument(bool mergeWholeDocument)
 }
 
 /// <summary>
-/// Создайте документ с областью слияния почты, которая принадлежит источнику данных с именем "MyTable".
- /// Вставляем одно поле QUOTE внутри этого региона и еще одно за его пределами.
+/// Создайте документ с областью слияния, принадлежащей источнику данных с именем "MyTable".
+/// Вставьте одно поле QUOTE внутри этого региона и еще одно за его пределами.
 /// </summary>
 private static Document CreateSourceDocMergeWholeDocument()
 {
@@ -70,7 +70,7 @@ private static Document CreateSourceDocMergeWholeDocument()
 }
 
 /// <summary>
- /// Создаем таблицу данных, которая будет использоваться при слиянии почты.
+/// Создайте таблицу данных, которая будет использоваться при слиянии почты.
 /// </summary>
 private static DataTable CreateSourceTableMergeWholeDocument()
 {

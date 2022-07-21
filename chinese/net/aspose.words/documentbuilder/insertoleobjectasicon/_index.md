@@ -20,7 +20,7 @@ public Shape InsertOleObjectAsIcon(string fileName, bool isLinked, string iconFi
 | fileName | String | 文件的完整路径。 |
 | isLinked | Boolean | 如果为真，则插入链接的 OLE 对象，否则插入嵌入的 OLE 对象。 |
 | iconFile | String | ICO 文件的完整路径。如果值为 null，Aspose.Words 将使用预定义的图像。 |
-| iconCaption | String | 图标标题。如果值为 null，Aspose.Words 将使用文件名。 |
+| iconCaption | String | 图标标题。如果值为空，Aspose.Words 将使用文件名. |
 
 ### 返回值
 
@@ -28,7 +28,7 @@ public Shape InsertOleObjectAsIcon(string fileName, bool isLinked, string iconFi
 
 ### 例子
 
-显示如何将 OLE 对象插入到文档中。
+演示如何将 OLE 对象插入到文档中。
 
 ```csharp
 Document doc = new Document();
@@ -83,7 +83,7 @@ public Shape InsertOleObjectAsIcon(string fileName, string progId, bool isLinked
 | progId | String | OLE 对象的 ProgId。 |
 | isLinked | Boolean | 如果为真，则插入链接的 OLE 对象，否则插入嵌入的 OLE 对象。 |
 | iconFile | String | ICO 文件的完整路径。如果值为 null，Aspose.Words 将使用预定义的图像。 |
-| iconCaption | String | 图标标题。如果值为 null，Aspose.Words 将使用文件名。 |
+| iconCaption | String | 图标标题。如果值为空，Aspose.Words 将使用文件名. |
 
 ### 返回值
 
@@ -91,7 +91,7 @@ public Shape InsertOleObjectAsIcon(string fileName, string progId, bool isLinked
 
 ### 例子
 
-显示如何将嵌入或链接的 OLE 对象作为图标插入到文档中。
+演示如何将嵌入或链接的 OLE 对象作为图标插入到文档中。
 
 ```csharp
 Document doc = new Document();
@@ -149,7 +149,7 @@ public Shape InsertOleObjectAsIcon(Stream stream, string progId, string iconFile
 
 ### 例子
 
-显示如何将嵌入或链接的 OLE 对象作为图标插入到文档中。
+演示如何将嵌入或链接的 OLE 对象作为图标插入到文档中。
 
 ```csharp
 Document doc = new Document();

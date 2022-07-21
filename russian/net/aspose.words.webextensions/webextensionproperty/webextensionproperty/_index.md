@@ -1,14 +1,14 @@
 ---
 title: WebExtensionProperty
 second_title: Справочник по API Aspose.Words для .NET
-description: Создает пользовательское свойство веб-расширения с указанным именем и значением.
+description: Создает настраиваемое свойство веб-расширения с указанным именем и значением.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.webextensions/webextensionproperty/webextensionproperty/
 ---
 ## WebExtensionProperty constructor
 
-Создает пользовательское свойство веб-расширения с указанным именем и значением.
+Создает настраиваемое свойство веб-расширения с указанным именем и значением.
 
 ```csharp
 public WebExtensionProperty(string name, string value)
@@ -17,7 +17,7 @@ public WebExtensionProperty(string name, string value)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | name | String | Имя свойства. |
-| value | String | Значение свойства. |
+| value | String | Стоимость имущества. |
 
 ### Примеры
 

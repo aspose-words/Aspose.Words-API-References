@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Справочник по API Aspose.Words для .NET
-description: ВозвращаетChartDataPointaspose.words.drawing.charts/chartdatapointдля указанного индекса.
+description: ВозвращаетChartDataPointaspose.words.drawing.charts/chartdatapoint для указанного индекса.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.drawing.charts/chartdatapointcollection/item/
 ---
 ## ChartDataPointCollection indexer
 
-Возвращает[`ChartDataPoint`](../../chartdatapoint)для указанного индекса.
+Возвращает[`ChartDataPoint`](../../chartdatapoint) для указанного индекса.
 
 ```csharp
 public ChartDataPoint this[int index] { get; }

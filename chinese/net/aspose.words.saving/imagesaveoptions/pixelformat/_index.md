@@ -18,13 +18,13 @@ public ImagePixelFormat PixelFormat { get; set; }
 
 此属性仅在保存为光栅图像格式时有效。
 
-默认值为Format32BppArgb。
+默认值为Format32BppArgb.
 
-由于 GDI+ 的工作，输出图像的像素格式可能与设置值 不同。
+由于 GDI+ 的工作，输出图像的像素格式可能与设置 value 不同。
 
 ### 例子
 
-显示如何选择将文档呈现为图像的每像素比特率。
+演示如何选择将文档呈现为图像的每像素比特率。
 
 ```csharp
 Document doc = new Document();

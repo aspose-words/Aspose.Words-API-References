@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Aspose.Words for .NET API 参考
-description: 在指定索引处返回ChartSeriesaspose.words.drawing.charts/chartseries
+description: 返回一个ChartSeriesaspose.words.drawing.charts/chartseries在指定的索引处
 type: docs
 weight: 20
 url: /zh/net/aspose.words.drawing.charts/chartseriescollection/item/
 ---
 ## ChartSeriesCollection indexer
 
-在指定索引处返回[`ChartSeries`](../../chartseries)。
+返回一个[`ChartSeries`](../../chartseries)在指定的索引处。
 
 ```csharp
 public ChartSeries this[int index] { get; }
@@ -16,13 +16,13 @@ public ChartSeries this[int index] { get; }
 
 | 范围 | 描述 |
 | --- | --- |
-| index | 集合的索引。 |
+| index | 集合中的索引。 |
 
 ### 评论
 
-索引从零开始。
+该索引从零开始。
 
-负索引是允许的，表示从集合后面访问。 例如 -1 表示最后一项，-2 表示倒数第二个，依此类推。
+允许使用负索引并指示从集合的背面进行访问。 例如 -1 表示最后一项，-2 表示倒数第二个，依此类推。
 
 如果 index 大于或等于列表中的项目数，则返回空引用。
 

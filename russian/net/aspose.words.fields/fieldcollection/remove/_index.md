@@ -20,7 +20,7 @@ public void Remove(Field field)
 
 ### Примеры
 
-Показывает, как удалять поля из набора полей.
+Показывает, как удалить поля из коллекции полей.
 
 ```csharp
 Document doc = new Document();

@@ -1,14 +1,14 @@
 ---
 title: HasListName
 second_title: Aspose.Words for .NET API 参考
-description: 返回一个值该值指示抽象编号定义的名称 是否由字段的代码提供
+description: 返回一个值该值指示抽象编号定义 的名称是否由字段的代码提供
 type: docs
 weight: 20
 url: /zh/net/aspose.words.fields/fieldlistnum/haslistname/
 ---
 ## FieldListNum.HasListName property
 
-返回一个值，该值指示抽象编号定义的名称 是否由字段的代码提供。
+返回一个值，该值指示抽象编号定义 的名称是否由字段的代码提供。
 
 ```csharp
 public bool HasListName { get; }
@@ -33,7 +33,7 @@ builder.Writeln("Paragraph 1");
 
 Assert.AreEqual(" LISTNUM  \\s 0", field.GetFieldCode());
 
-// LISTNUM 字段为每个列表级别维护单独的计数。
+ // LISTNUM 字段为每个列表级别维护单独的计数。
 // 在与另一个 LISTNUM 字段相同的段落中插入一个 LISTNUM 字段
 // 增加列表级别而不是计数。
 // 下一个字段将继续我们在上面开始的计数，并在列表级别 1 显示值“1”。

@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Aspose.Words for .NET API 参考
-description: 按索引检索VbaModuleaspose.words.vba/vbamodule对象
+description: 检索一个VbaModuleaspose.words.vba/vbamodule按索引的对象.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.vba/vbamodulecollection/item/
 ---
 ## VbaModuleCollection indexer (1 of 2)
 
-按索引检索[`VbaModule`](../../vbamodule)对象。
+检索一个[`VbaModule`](../../vbamodule)按索引的对象.
 
 ```csharp
 public VbaModule this[int index] { get; }
@@ -56,7 +56,7 @@ vbaModules.Remove(vbaModules[2]);
 
 ## VbaModuleCollection indexer (2 of 2)
 
-按名称检索[`VbaModule`](../../vbamodule)对象，如果未找到则为 Null。
+检索一个[`VbaModule`](../../vbamodule)按名称显示对象，如果未找到则为 Null。
 
 ```csharp
 public VbaModule this[string name] { get; }

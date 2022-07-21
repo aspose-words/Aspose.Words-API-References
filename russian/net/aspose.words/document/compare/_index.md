@@ -1,14 +1,14 @@
 ---
 title: Compare
 second_title: Справочник по API Aspose.Words для .NET
-description: Сравнивает этот документ с другим документом производящим изменения в виде количества редакций редактирования и форматаRevisionaspose.words/revision.
+description: Сравнивает этот документ с другим документом внося изменения в виде количества редакций и форматирования.Revisionaspose.words/revision .
 type: docs
 weight: 540
 url: /ru/net/aspose.words/document/compare/
 ---
 ## Compare(Document, string, DateTime) {#compare}
 
-Сравнивает этот документ с другим документом, производящим изменения в виде количества редакций редактирования и формата[`Revision`](../../revision).
+Сравнивает этот документ с другим документом, внося изменения в виде количества редакций и форматирования.[`Revision`](../../revision) .
 
 ```csharp
 public void Compare(Document document, string author, DateTime dateTime)
@@ -17,17 +17,17 @@ public void Compare(Document document, string author, DateTime dateTime)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | document | Document | Документ для сравнения. |
-| author | String | Инициалы автора для редакций. |
-| dateTime | DateTime | Дата и время, используемые для ревизий. |
+| author | String | Инициалы автора использовать для редакций. |
+| dateTime | DateTime | Дата и время для использования для изменений. |
 
 ### Примечания
 
 На данный момент не сравниваются следующие узлы документа:
 
 * [`StructuredDocumentTag`](../../../aspose.words.markup/structureddocumenttag)
-* Item3
+* Пункт 3
 
-Документы не должны иметь ревизий перед сравнением.
+Документы не должны иметь редакций перед сравнением.
 
 ### Примеры
 
@@ -69,7 +69,7 @@ Assert.AreEqual(docOriginal.GetText(), docEdited.GetText());
 
 ## Compare(Document, string, DateTime, CompareOptions) {#compare_1}
 
-Сравнивает этот документ с другим документом, производящим изменения в виде ряда редакций редактирования и формата[`Revision`](../../revision). Позволяет указать параметры сравнения с помощью[`CompareOptions`](../../../aspose.words.comparing/compareoptions).
+Сравнивает этот документ с другим документом, внося изменения в виде количества редакций и форматирования.[`Revision`](../../revision) . Позволяет указать параметры сравнения, используя[`CompareOptions`](../../../aspose.words.comparing/compareoptions) .
 
 ```csharp
 public void Compare(Document document, string author, DateTime dateTime, CompareOptions options)

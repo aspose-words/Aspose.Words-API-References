@@ -1,14 +1,14 @@
 ---
 title: HtmlSaveOptions
 second_title: Aspose.Words for .NET API 参考
-description: 初始化此类的新实例该实例可用于在R5FAspose.Words 中保存文档  SaveFormat.Html格式
+description: 初始化此类的新实例该实例可用于将文档 保存在Html格式.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.saving/htmlsaveoptions/htmlsaveoptions/
 ---
 ## HtmlSaveOptions() {#constructor}
 
-初始化此类的新实例，该实例可用于在:::R5:F:Aspose.Words 中保存文档 。 SaveFormat.Html:::格式。
+初始化此类的新实例，该实例可用于将文档 保存在Html格式.
 
 ```csharp
 public HtmlSaveOptions()
@@ -16,7 +16,7 @@ public HtmlSaveOptions()
 
 ### 例子
 
-显示在将文档保存到 .epub 时如何使用特定编码。
+显示将文档保存到 .epub 时如何使用特定编码。
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
@@ -48,7 +48,7 @@ doc.Save(ArtifactsDir + "HtmlSaveOptions.Doc2EpubSaveOptions.epub", saveOptions)
 
 ## HtmlSaveOptions(SaveFormat) {#constructor_1}
 
-初始化此类的新实例，该实例可用于在:::R5:F:Aspose.Words 中保存文档 。 SaveFormat.Html:::,Mhtml 或Epub格式.
+初始化此类的新实例，该实例可用于将文档 保存在Html,Mhtml 或Epub格式.
 
 ```csharp
 public HtmlSaveOptions(SaveFormat saveFormat)
@@ -56,11 +56,11 @@ public HtmlSaveOptions(SaveFormat saveFormat)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| saveFormat | SaveFormat | 可以是Html,Mhtml 或Epub。 |
+| saveFormat | SaveFormat | 可Html,Mhtml 或Epub. |
 
 ### 例子
 
-显示如何将文档保存为特定版本的 HTML。
+演示如何将文档保存为特定版本的 HTML。
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");

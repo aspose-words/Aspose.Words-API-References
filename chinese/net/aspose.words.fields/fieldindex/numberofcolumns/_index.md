@@ -16,7 +16,7 @@ public string NumberOfColumns { get; set; }
 
 ### 例子
 
-展示如何使用 XE 字段使用条目填充 INDEX 字段，并修改其外观。
+展示如何使用 XE 字段填充 INDEX 字段的条目，并修改其外观。
 
 ```csharp
 Document doc = new Document();

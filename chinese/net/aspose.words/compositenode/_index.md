@@ -26,36 +26,36 @@ public abstract class CompositeNode : Node, IEnumerable<Node>, IXPathNavigable
 | [HasChildNodes](../../aspose.words/compositenode/haschildnodes) { get; } | 如果此节点有任何子节点，则返回 true。 |
 | override [IsComposite](../../aspose.words/compositenode/iscomposite) { get; } | 返回真，因为该节点可以有子节点。 |
 | [LastChild](../../aspose.words/compositenode/lastchild) { get; } | 获取节点的最后一个子节点。 |
-| [NextSibling](../../aspose.words/node/nextsibling) { get; } | 获取紧跟该节点的节点。 |
+| [NextSibling](../../aspose.words/node/nextsibling) { get; } | 获取紧跟此节点的节点。 |
 | abstract [NodeType](../../aspose.words/node/nodetype) { get; } | 获取此节点的类型。 |
 | [ParentNode](../../aspose.words/node/parentnode) { get; } | 获取此节点的直接父节点。 |
 | [PreviousSibling](../../aspose.words/node/previoussibling) { get; } | 获取紧接在此节点之前的节点。 |
-| [Range](../../aspose.words/node/range) { get; } | 返回 **Range** 对象，该对象表示包含在此节点中的文档部分。 |
+| [Range](../../aspose.words/node/range) { get; } | 返回一个 **范围**表示此节点中包含的文档部分的对象。 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| abstract [Accept](../../aspose.words/node/accept)(DocumentVisitor) | 接受访问者。 |
-| [AppendChild](../../aspose.words/compositenode/appendchild)(Node) | 将指定节点添加到此节点的子节点列表的末尾。 |
+| abstract [Accept](../../aspose.words/node/accept)(DocumentVisitor) | 接受访客。 |
+| [AppendChild](../../aspose.words/compositenode/appendchild)(Node) | 将指定节点添加到该节点的子节点列表的末尾。 |
 | [Clone](../../aspose.words/node/clone)(bool) | 创建节点的副本。 |
-| [CreateNavigator](../../aspose.words/compositenode/createnavigator)() | 保留供系统使用。 IXPath 可导航。 |
-| [GetAncestor](../../aspose.words/node/getancestor)(NodeType) | 获取指定[`NodeType`](../nodetype)的第一个祖先。 |
+| [CreateNavigator](../../aspose.words/compositenode/createnavigator)() | 保留供系统使用。 IXPathNavigable. |
+| [GetAncestor](../../aspose.words/node/getancestor)(NodeType) | 获取指定的第一个祖先[`NodeType`](../nodetype). |
 | [GetAncestor](../../aspose.words/node/getancestor)(Type) | 获取指定对象类型的第一个祖先。 |
-| [GetChild](../../aspose.words/compositenode/getchild)(NodeType, int, bool) | 返回匹配指定类型的第 N 个子节点。 |
+| [GetChild](../../aspose.words/compositenode/getchild)(NodeType, int, bool) | 返回与指定类型匹配的第 N 个子节点。 |
 | [GetChildNodes](../../aspose.words/compositenode/getchildnodes)(NodeType, bool) | 返回与指定类型匹配的子节点的实时集合。 |
-| [GetEnumerator](../../aspose.words/compositenode/getenumerator)() | 为在此节点的子节点上的每个样式迭代提供支持。 |
+| [GetEnumerator](../../aspose.words/compositenode/getenumerator)() | 为在该节点的子节点上的每个样式迭代提供支持。 |
 | override [GetText](../../aspose.words/compositenode/gettext)() | 获取该节点及其所有子节点的文本。 |
 | [IndexOf](../../aspose.words/compositenode/indexof)(Node) | 返回子节点数组中指定子节点的索引。 |
 | [InsertAfter](../../aspose.words/compositenode/insertafter)(Node, Node) | 在指定参考节点之后立即插入指定节点。 |
-| [InsertBefore](../../aspose.words/compositenode/insertbefore)(Node, Node) | 在指定参考节点之前插入指定节点。 |
+| [InsertBefore](../../aspose.words/compositenode/insertbefore)(Node, Node) | 在指定的参考节点之前插入指定的节点。 |
 | [NextPreOrder](../../aspose.words/node/nextpreorder)(Node) | 根据前序树遍历算法获取下一个节点。 |
-| [PrependChild](../../aspose.words/compositenode/prependchild)(Node) | 将指定节点添加到该节点的子节点列表的开头。 |
+| [PrependChild](../../aspose.words/compositenode/prependchild)(Node) | 将指定节点添加到此节点的子节点列表的开头。 |
 | [PreviousPreOrder](../../aspose.words/node/previouspreorder)(Node) | 根据前序树遍历算法获取上一个节点。 |
 | [Remove](../../aspose.words/node/remove)() | 从父级中移除自身。 |
 | [RemoveAllChildren](../../aspose.words/compositenode/removeallchildren)() | 移除当前节点的所有子节点。 |
 | [RemoveChild](../../aspose.words/compositenode/removechild)(Node) | 移除指定的子节点。 |
-| [RemoveSmartTags](../../aspose.words/compositenode/removesmarttags)() | 删除当前节点的所有[`SmartTag`](../../aspose.words.markup/smarttag)后代节点。 |
+| [RemoveSmartTags](../../aspose.words/compositenode/removesmarttags)() | 删除所有[`SmartTag`](../../aspose.words.markup/smarttag)当前节点的后代节点。 |
 | [SelectNodes](../../aspose.words/compositenode/selectnodes)(string) | 选择与 XPath 表达式匹配的节点列表。 |
 | [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode)(string) | 选择与 XPath 表达式匹配的第一个节点。 |
 | [ToString](../../aspose.words/node/tostring)(SaveFormat) | 将节点的内容导出为指定格式的字符串。 |
@@ -67,11 +67,11 @@ public abstract class CompositeNode : Node, IEnumerable<Node>, IXPathNavigable
 
 有关详细信息，请参阅复合设计模式。
 
-[`CompositeNode`](../compositenode)类:
+这[`CompositeNode`](../compositenode)班级：
 
 * 提供对子节点的访问。
 * 实现复合操作，例如插入和删除子项。
-* 提供 XPath 导航方法。
+* 提供用于 XPath 导航的方法。
 
 ### 例子
 

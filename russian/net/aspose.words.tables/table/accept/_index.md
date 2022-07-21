@@ -16,19 +16,19 @@ public override bool Accept(DocumentVisitor visitor)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| visitor | DocumentVisitor | Посетитель, который посетит узлы. |
+| visitor | DocumentVisitor | Посетитель, который будет посещать узлы. |
 
 ### Возвращаемое значение
 
-Истинно, если были посещены все узлы; false, если DocumentVisitor остановил операцию до посещения всех узлов.
+Истинно, если все узлы были посещены; false, если DocumentVisitor остановил операцию перед посещением всех узлов.
 
 ### Примечания
 
 Перечисляет этот узел и все его дочерние элементы. Каждый узел вызывает соответствующий метод в DocumentVisitor.
 
-Для получения дополнительной информации см. шаблон проектирования Посетитель.
+Дополнительные сведения см. в шаблоне проектирования «Посетитель».
 
-Вызывает DocumentVisitor.VisitTableStart, затем вызывает Accept для всех дочерних узлов секции и вызывает DocumentVisitor.VisitTableEnd в конце.
+Вызывает DocumentVisitor.VisitTableStart, затем вызывает Accept для всех дочерних узлов section и вызывает DocumentVisitor.VisitTableEnd в конце.
 
 ### Примеры
 
@@ -182,7 +182,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Вызывается при завершении посещения узла Таблица в документе.
+    /// Вызывается при завершении посещения узла Table в документе.
     /// </summary>
     public override VisitorAction VisitTableEnd(Table table)
     {

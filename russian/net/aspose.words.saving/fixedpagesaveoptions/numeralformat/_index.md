@@ -1,14 +1,14 @@
 ---
 title: NumeralFormat
 second_title: Справочник по API Aspose.Words для .NET
-description: Получает или устанавливаетNumeralFormataspose.words.saving/numeralformatиспользуется для отображения чисел. По умолчанию используются европейские цифры.
+description: Получает или устанавливаетNumeralFormataspose.words.saving/numeralformat используется для отображения цифр. Европейские цифры используются по умолчанию.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.saving/fixedpagesaveoptions/numeralformat/
 ---
 ## FixedPageSaveOptions.NumeralFormat property
 
-Получает или устанавливает[`NumeralFormat`](../../numeralformat)используется для отображения чисел. По умолчанию используются европейские цифры.
+Получает или устанавливает[`NumeralFormat`](../../numeralformat) используется для отображения цифр. Европейские цифры используются по умолчанию.
 
 ```csharp
 public NumeralFormat NumeralFormat { get; set; }
@@ -16,7 +16,7 @@ public NumeralFormat NumeralFormat { get; set; }
 
 ### Примечания
 
-Если значение этого свойства изменено и макет страницы уже построен, то ::R5:M:Aspose.Words.Document.UpdatePageLayout:::вызывается автоматически для обновления любых изменений.
+Если значение этого свойства изменено, а макет страницы уже построен, то [`UpdatePageLayout`](../../../aspose.words/document/updatepagelayout) вызывается автоматически для обновления любых изменений.
 
 ### Примеры
 

@@ -1,14 +1,14 @@
 ---
 title: HorizontalDistanceFromText
 second_title: Справочник по API Aspose.Words для .NET
-description: Получает расстояние по горизонтали между фреймом и окружающим текстом в пунктах.
+description: Получает горизонтальное расстояние между фреймом и окружающим текстом в пунктах.
 type: docs
 weight: 40
 url: /ru/net/aspose.words/frameformat/horizontaldistancefromtext/
 ---
 ## FrameFormat.HorizontalDistanceFromText property
 
-Получает расстояние по горизонтали между фреймом и окружающим текстом в пунктах.
+Получает горизонтальное расстояние между фреймом и окружающим текстом в пунктах.
 
 ```csharp
 public double HorizontalDistanceFromText { get; }

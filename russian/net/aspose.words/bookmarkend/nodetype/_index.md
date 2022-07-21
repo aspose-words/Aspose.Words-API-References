@@ -1,14 +1,14 @@
 ---
 title: NodeType
 second_title: Справочник по API Aspose.Words для .NET
-description: ВозвращаетBookmarkEnd.
+description: ВозвращаетBookmarkEnd .
 type: docs
 weight: 30
 url: /ru/net/aspose.words/bookmarkend/nodetype/
 ---
 ## BookmarkEnd.NodeType property
 
-ВозвращаетBookmarkEnd.
+ВозвращаетBookmarkEnd .
 
 ```csharp
 public override NodeType NodeType { get; }

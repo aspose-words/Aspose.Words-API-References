@@ -1,14 +1,14 @@
 ---
 title: GradientStops
 second_title: Aspose.Words for .NET API 参考
-description: 获取用于填充的GradientStopaspose.words.drawing/gradientstop对象的集合
+description: 获取一个集合GradientStopaspose.words.drawing/gradientstop填充对象
 type: docs
 weight: 50
 url: /zh/net/aspose.words.drawing/fill/gradientstops/
 ---
 ## Fill.GradientStops property
 
-获取用于填充的[`GradientStop`](../../gradientstop)对象的集合。
+获取一个集合[`GradientStop`](../../gradientstop)填充对象。
 
 ```csharp
 public GradientStopCollection GradientStops { get; }

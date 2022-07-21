@@ -1,14 +1,14 @@
 ---
 title: SavePictureBullet
 second_title: Aspose.Words for .NET API 参考
-description: 当 false 时PictureBullet 数据不会保存到输出文档 默认值为 true 
+description: 什么时候错误的  PictureBullet 数据不保存到输出文档 默认值为 真的.
 type: docs
 weight: 50
 url: /zh/net/aspose.words.saving/docsaveoptions/savepicturebullet/
 ---
 ## DocSaveOptions.SavePictureBullet property
 
-当` false` 时，PictureBullet 数据不会保存到输出文档。 默认值为 **true** 。
+什么时候`错误的` , PictureBullet 数据不保存到输出文档。 默认值为 **真的**.
 
 ```csharp
 public bool SavePictureBullet { get; set; }
@@ -25,9 +25,9 @@ public bool SavePictureBullet { get; set; }
 ```csharp
 Document doc = new Document(MyDir + "Image bullet points.docx");
 
- // 某些文字处理器，例如 Microsoft Word 97，与 PictureBullet 数据不兼容。
- // 通过在 SaveOptions 对象中设置一个标志，
- // 我们可以在保存的同时将所有图像要点转换为普通要点。
+// 某些文字处理器，例如 Microsoft Word 97，与 PictureBullet 数据不兼容。
+// 通过在 SaveOptions 对象中设置一个标志，
+// 我们可以在保存的同时将所有图像要点转换为普通要点。
 DocSaveOptions saveOptions = new DocSaveOptions(SaveFormat.Doc);
 saveOptions.SavePictureBullet = false;
 

@@ -1,14 +1,14 @@
 ---
 title: InsertNextNumber
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置是否为指定项插入下一个序列号
+description: 获取或设置是否为指定item插入下一个序号
 type: docs
 weight: 30
 url: /zh/net/aspose.words.fields/fieldseq/insertnextnumber/
 ---
 ## FieldSeq.InsertNextNumber property
 
-获取或设置是否为指定项插入下一个序列号。
+获取或设置是否为指定item插入下一个序号
 
 ```csharp
 public bool InsertNextNumber { get; set; }
@@ -16,7 +16,7 @@ public bool InsertNextNumber { get; set; }
 
 ### 例子
 
-使用 SEQ 字段显示创建编号。
+显示使用 SEQ 字段创建编号。
 
 ```csharp
 Document doc = new Document();

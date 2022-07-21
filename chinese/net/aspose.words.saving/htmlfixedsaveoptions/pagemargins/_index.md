@@ -16,15 +16,15 @@ public double PageMargins { get; set; }
 
 ### 评论
 
-取决于PageHorizontalAlignment属性:
+取决于价值[`PageHorizontalAlignment`](../pagehorizontalalignment)财产：
 
-* 定义顶部、底部和左侧页边距，如果值为Left。
-* 如果值为Right。
-* 如果值为Center。
+* 如果值为Left.
+* 如果值为Right.
+* 如果值为Center.
 
 ### 例子
 
-显示如何在将文档保存到HTML。
+显示将文档保存为 HTML 时如何调整页边距。
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");

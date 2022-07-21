@@ -1,14 +1,14 @@
 ---
 title: CustomXmlPartCollection
 second_title: Aspose.Words for .NET API 参考
-description: 表示自定义 XML 部件的集合这些项目是CustomXmlPart./customxmlpart对象
+description: 表示自定义 XML 部件的集合项目是CustomXmlPart./customxmlpart对象.
 type: docs
-weight: 3640
+weight: 3690
 url: /zh/net/aspose.words.markup/customxmlpartcollection/
 ---
 ## CustomXmlPartCollection class
 
-表示自定义 XML 部件的集合。这些项目是[`CustomXmlPart`](../customxmlpart)对象。
+表示自定义 XML 部件的集合。项目是[`CustomXmlPart`](../customxmlpart)对象.
 
 ```csharp
 public class CustomXmlPartCollection : IEnumerable<CustomXmlPart>
@@ -24,24 +24,24 @@ public class CustomXmlPartCollection : IEnumerable<CustomXmlPart>
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Count](../../aspose.words.markup/customxmlpartcollection/count) { get; } | 获取集合中包含的元素数量。 |
+| [Count](../../aspose.words.markup/customxmlpartcollection/count) { get; } | 获取集合中包含的元素数。 |
 | [Item](../../aspose.words.markup/customxmlpartcollection/item) { get; set; } | 获取或设置指定索引处的项目。 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Add](../../aspose.words.markup/customxmlpartcollection/add#add_1)(CustomXmlPart) | 将项目添加到集合中。 |
+| [Add](../../aspose.words.markup/customxmlpartcollection/add#add_1)(CustomXmlPart) | 将一个项目添加到集合中。 |
 | [Add](../../aspose.words.markup/customxmlpartcollection/add#add)(string, string) | 使用指定的 XML 创建一个新的 XML 部件并将其添加到集合中。 |
 | [Clear](../../aspose.words.markup/customxmlpartcollection/clear)() | 从集合中删除所有元素。 |
 | [Clone](../../aspose.words.markup/customxmlpartcollection/clone)() | 制作此集合及其项目的深层副本。 |
-| [GetById](../../aspose.words.markup/customxmlpartcollection/getbyid)(string) | 通过其标识符查找并返回自定义 XML 部分。 |
+| [GetById](../../aspose.words.markup/customxmlpartcollection/getbyid)(string) | 按标识符查找并返回自定义 XML 部分。 |
 | [GetEnumerator](../../aspose.words.markup/customxmlpartcollection/getenumerator)() | 返回一个可用于迭代集合中所有项目的枚举器对象。 |
 | [RemoveAt](../../aspose.words.markup/customxmlpartcollection/removeat)(int) | 删除指定索引处的项目。 |
 
 ### 评论
 
-通常不需要创建此类的实例。您可以通过[`CustomXmlParts`](../../aspose.words/document/customxmlparts)属性访问存储在文档中的自定义 XML 数据 。
+您通常不需要创建此类的实例。您可以通过以下方式访问存储在文档中的自定义 XML 数据 [`CustomXmlParts`](../../aspose.words/document/customxmlparts)财产。
 
 ### 例子
 

@@ -3,7 +3,7 @@ title: OfficeMathDisplayType
 second_title: Справочник по API Aspose.Words для .NET
 description: Указывает тип формата отображения уравнения.
 type: docs
-weight: 3840
+weight: 3890
 url: /ru/net/aspose.words.math/officemathdisplaytype/
 ---
 ## OfficeMathDisplayType enumeration

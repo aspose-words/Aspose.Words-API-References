@@ -16,11 +16,11 @@ public bool AutoUpdate { get; set; }
 
 ### 评论
 
-默认值为 **false** 。
+默认值为 **错误的**.
 
 ### 例子
 
-显示如何将嵌入的 OLE 对象提取到文件中。
+演示如何将嵌入的 OLE 对象提取到文件中。
 
 ```csharp
 Document doc = new Document(MyDir + "OLE spreadsheet.docm");

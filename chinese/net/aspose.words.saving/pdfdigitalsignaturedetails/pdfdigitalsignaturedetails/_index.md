@@ -63,9 +63,9 @@ public PdfDigitalSignatureDetails(CertificateHolder certificateHolder, string re
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | certificateHolder | CertificateHolder | 包含证书本身的证书持有者。 |
-| reason | String | 签名的原因。 |
-| location | String | 签名位置。 |
-| signatureDate | DateTime | 签名的日期和时间。 |
+| reason | String | 签约的原因。 |
+| location | String | 签约地点。 |
+| signatureDate | DateTime | 签字的日期和时间。 |
 
 ### 例子
 

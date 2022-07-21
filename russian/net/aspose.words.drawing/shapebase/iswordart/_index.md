@@ -1,14 +1,14 @@
 ---
 title: IsWordArt
 second_title: Справочник по API Aspose.Words для .NET
-description: Возвращает true если эта фигура является объектом WordArt.
+description: Возвращает значение true если эта фигура является объектом WordArt.
 type: docs
 weight: 350
 url: /ru/net/aspose.words.drawing/shapebase/iswordart/
 ---
 ## ShapeBase.IsWordArt property
 
-Возвращает true, если эта фигура является объектом WordArt.
+Возвращает значение true, если эта фигура является объектом WordArt.
 
 ```csharp
 public bool IsWordArt { get; }
@@ -16,7 +16,7 @@ public bool IsWordArt { get; }
 
 ### Примечания
 
-Работает до 2007 режима совместимости. В режиме совместимости 2010 и выше WordArt - это просто TextBox с причудливыми шрифтами.
+Работает до режима совместимости 2007. В режиме совместимости 2010 и выше WordArt представляет собой просто TextBox с причудливыми шрифтами.
 
 ### Примеры
 

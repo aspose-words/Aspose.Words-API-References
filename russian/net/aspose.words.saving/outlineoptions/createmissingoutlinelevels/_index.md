@@ -10,7 +10,7 @@ url: /ru/net/aspose.words.saving/outlineoptions/createmissingoutlinelevels/
 
 Получает или задает значение, определяющее, создавать ли отсутствующие уровни структуры при экспорте документа .
 
-Значение по умолчанию для этого свойства: **false** .
+Значение по умолчанию для этого свойства **ЛОЖЬ**.
 
 ```csharp
 public bool CreateMissingOutlineLevels { get; set; }

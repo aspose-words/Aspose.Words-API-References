@@ -1,14 +1,14 @@
 ---
 title: UserInitials
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置当前用户的姓名首字母
+description: 获取或设置当前用户的姓名缩写
 type: docs
 weight: 20
 url: /zh/net/aspose.words.fields/fielduserinitials/userinitials/
 ---
 ## FieldUserInitials.UserInitials property
 
-获取或设置当前用户的姓名首字母。
+获取或设置当前用户的姓名缩写。
 
 ```csharp
 public string UserInitials { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: MergePastedLists
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置一个布尔值指定是否将粘贴的列表与周围的列表合并 默认值为 false 
+description: 获取或设置一个布尔值指定是否将粘贴的列表与周围的列表合并 默认值为错误的.
 type: docs
 weight: 60
 url: /zh/net/aspose.words/importformatoptions/mergepastedlists/
 ---
 ## ImportFormatOptions.MergePastedLists property
 
-获取或设置一个布尔值，指定是否将粘贴的列表与周围的列表合并。 默认值为` false` 。
+获取或设置一个布尔值，指定是否将粘贴的列表与周围的列表合并。 默认值为`错误的`.
 
 ```csharp
 public bool MergePastedLists { get; set; }

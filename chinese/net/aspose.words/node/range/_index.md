@@ -1,14 +1,14 @@
 ---
 title: Range
 second_title: Aspose.Words for .NET API 参考
-description: 返回 Range 对象该对象表示包含在此节点中的文档部分
+description: 返回一个 范围表示此节点中包含的文档部分的对象
 type: docs
 weight: 80
 url: /zh/net/aspose.words/node/range/
 ---
 ## Node.Range property
 
-返回 **Range** 对象，该对象表示包含在此节点中的文档部分。
+返回一个 **范围**表示此节点中包含的文档部分的对象。
 
 ```csharp
 public Range Range { get; }

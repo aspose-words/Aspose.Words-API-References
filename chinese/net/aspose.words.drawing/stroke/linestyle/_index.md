@@ -16,7 +16,7 @@ public ShapeLineStyle LineStyle { get; set; }
 
 ### 评论
 
-默认值为ShapeLineStyle。单身的。
+默认值为Single.
 
 ### 例子
 

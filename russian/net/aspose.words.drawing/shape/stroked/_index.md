@@ -1,14 +1,14 @@
 ---
 title: Stroked
 second_title: Справочник по API Aspose.Words для .NET
-description: Определяет будет ли обведен путь.
+description: Определяет будет ли обведен контур.
 type: docs
 weight: 200
 url: /ru/net/aspose.words.drawing/shape/stroked/
 ---
 ## Shape.Stroked property
 
-Определяет, будет ли обведен путь.
+Определяет, будет ли обведен контур.
 
 ```csharp
 public bool Stroked { get; set; }
@@ -16,9 +16,9 @@ public bool Stroked { get; set; }
 
 ### Примечания
 
-Это ярлык для[`On`](../../stroke/on)свойство.
+Это ярлык для[`On`](../../stroke/on) имущество.
 
-Значение по умолчанию: **true** .
+Значение по умолчанию **истинный**.
 
 ### Примеры
 

@@ -1,14 +1,14 @@
 ---
 title: OleFormat
 second_title: Справочник по API Aspose.Words для .NET
-description: Предоставляет доступ к данным OLE формы. Для фигуры которая не является объектом OLE или элементом управления ActiveX возвращает значение null.
+description: Предоставляет доступ к данным OLE формы. Для фигуры которая не является объектом OLE или элементом управления ActiveX возвращает null.
 type: docs
 weight: 140
 url: /ru/net/aspose.words.drawing/shape/oleformat/
 ---
 ## Shape.OleFormat property
 
-Предоставляет доступ к данным OLE формы. Для фигуры, которая не является объектом OLE или элементом управления ActiveX, возвращает значение null.
+Предоставляет доступ к данным OLE формы. Для фигуры, которая не является объектом OLE или элементом управления ActiveX, возвращает null.
 
 ```csharp
 public OleFormat OleFormat { get; }

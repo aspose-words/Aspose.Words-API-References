@@ -3,7 +3,7 @@ title: ResourceType
 second_title: Aspose.Words for .NET API 参考
 description: 加载资源的类型
 type: docs
-weight: 3450
+weight: 3500
 url: /zh/net/aspose.words.loading/resourcetype/
 ---
 ## ResourceType enumeration
@@ -18,13 +18,13 @@ public enum ResourceType
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| Image | `0` | 图片。 |
-| CssStyleSheet | `1` | Css 样式表。 |
-| Document | `2` | 文档。 |
+| Image | `0` | 图片. |
+| CssStyleSheet | `1` | CSS 样式表。 |
+| Document | `2` | 文档. |
 
 ### 例子
 
-显示如何自定义将外部资源加载到文档中的过程。
+展示如何自定义将外部资源加载到文档中的过程。
 
 ```csharp
 {

@@ -1,14 +1,14 @@
 ---
 title: Encoding
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置将用于加载 HTMLTXT 或 CHM 文档的编码如果未指定编码 在文档中. 可以为空默认为空
+description: 获取或设置将用于加载 HTMLTXT 或 CHM 文档的编码如果未在文档中指定编码  可以为空默认为空
 type: docs
 weight: 50
 url: /zh/net/aspose.words.loading/loadoptions/encoding/
 ---
 ## LoadOptions.Encoding property
 
-获取或设置将用于加载 HTML、TXT 或 CHM 文档的编码（如果未指定编码） 在文档中. 可以为空。默认为空。
+获取或设置将用于加载 HTML、TXT 或 CHM 文档的编码（如果未在文档中指定编码） 。 可以为空。默认为空。
 
 ```csharp
 public Encoding Encoding { get; set; }
@@ -18,7 +18,7 @@ public Encoding Encoding { get; set; }
 
 此属性仅在加载 HTML、TXT 或 CHM 文档时使用。
 
-如果文档内部没有指定编码并且该属性为` null` ，那么系统将尝试 自动检测编码。
+如果文档中未指定编码并且此属性为`无效的`，然后系统会尝试to 自动检测编码。
 
 ### 例子
 

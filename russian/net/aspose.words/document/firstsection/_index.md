@@ -16,96 +16,60 @@ public Section FirstSection { get; }
 
 ### Примечания
 
-Возвращает` null` , если есть нет разделов.
+Возвращает`нулевой` если разделов нет.
 
 ### Примеры
 
 Показывает, как заменить текст в нижнем колонтитуле документа.
 
 ```csharp
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
+Document doc = new Document(MyDir + "Footer.docx");
 
-builder.Write("Section 1");
-builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
-builder.Write("Primary header");
-builder.MoveToHeaderFooter(HeaderFooterType.FooterPrimary);
-builder.Write("Primary footer");
+HeaderFooterCollection headersFooters = doc.FirstSection.HeadersFooters;
+HeaderFooter footer = headersFooters[HeaderFooterType.FooterPrimary];
 
-Section section = doc.FirstSection;
-
- // Раздел является составным узлом и может содержать дочерние узлы, 
- // но только если эти дочерние узлы имеют тип узла "Body" или "HeaderFooter".
-foreach (Node node in section)
+FindReplaceOptions options = new FindReplaceOptions
 {
-    switch (node.NodeType)
-    {
-        case NodeType.Body:
-        {
-            Body body = (Body)node;
+    MatchCase = false,
+    FindWholeWordsOnly = false
+};
 
-            Console.WriteLine("Body:");
-            Console.WriteLine($"\t\"{body.GetText().Trim()}\"");
-            break;
-        }
-        case NodeType.HeaderFooter:
-        {
-            HeaderFooter headerFooter = (HeaderFooter)node;
+int currentYear = DateTime.Now.Year;
+footer.Range.Replace("(C) 2006 Aspose Pty Ltd.", $"Copyright (C) {currentYear} by Aspose Pty Ltd.", options);
 
-            Console.WriteLine($"HeaderFooter type: {headerFooter.HeaderFooterType}:");
-            Console.WriteLine($"\t\"{headerFooter.GetText().Trim()}\"");
-            break;
-        }
-        default:
-        {
-            throw new Exception("Unexpected node type in a section.");
-        }
-    }
-}
+doc.Save(ArtifactsDir + "HeaderFooter.ReplaceText.docx");
 ```
 
 Показывает, как создать новый раздел с помощью конструктора документов.
 
 ```csharp
 Document doc = new Document();
+
+// Пустой документ по умолчанию содержит один раздел,
+// который содержит дочерние узлы, которые мы можем редактировать.
+Assert.AreEqual(1, doc.Sections.Count);
+
+// Используйте конструктор документов, чтобы добавить текст в первый раздел.
 DocumentBuilder builder = new DocumentBuilder(doc);
+builder.Writeln("Hello world!");
 
-builder.Write("Section 1");
-builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
-builder.Write("Primary header");
-builder.MoveToHeaderFooter(HeaderFooterType.FooterPrimary);
-builder.Write("Primary footer");
+// Создайте второй раздел, вставив разрыв раздела.
+builder.InsertBreak(BreakType.SectionBreakNewPage);
 
-Section section = doc.FirstSection;
+Assert.AreEqual(2, doc.Sections.Count);
 
- // Раздел является составным узлом и может содержать дочерние узлы, 
- // но только если эти дочерние узлы имеют тип узла "Body" или "HeaderFooter".
-foreach (Node node in section)
-{
-    switch (node.NodeType)
-    {
-        case NodeType.Body:
-        {
-            Body body = (Body)node;
+// Каждый раздел имеет свои настройки настройки страницы.
+// Мы можем разделить текст во втором разделе на две колонки.
+// Это не повлияет на текст в первом разделе.
+doc.LastSection.PageSetup.TextColumns.SetCount(2);
+builder.Writeln("Column 1.");
+builder.InsertBreak(BreakType.ColumnBreak);
+builder.Writeln("Column 2.");
 
-            Console.WriteLine("Body:");
-            Console.WriteLine($"\t\"{body.GetText().Trim()}\"");
-            break;
-        }
-        case NodeType.HeaderFooter:
-        {
-            HeaderFooter headerFooter = (HeaderFooter)node;
+Assert.AreEqual(1, doc.FirstSection.PageSetup.TextColumns.Count);
+Assert.AreEqual(2, doc.LastSection.PageSetup.TextColumns.Count);
 
-            Console.WriteLine($"HeaderFooter type: {headerFooter.HeaderFooterType}:");
-            Console.WriteLine($"\t\"{headerFooter.GetText().Trim()}\"");
-            break;
-        }
-        default:
-        {
-            throw new Exception("Unexpected node type in a section.");
-        }
-    }
-}
+doc.Save(ArtifactsDir + "Section.Create.docx");
 ```
 
 Показывает, как перебирать дочерние элементы составного узла.
@@ -122,8 +86,8 @@ builder.Write("Primary footer");
 
 Section section = doc.FirstSection;
 
- // Раздел является составным узлом и может содержать дочерние узлы, 
- // но только если эти дочерние узлы имеют тип узла "Body" или "HeaderFooter".
+// Раздел является составным узлом и может содержать дочерние узлы,
+// но только если эти дочерние узлы имеют тип узла "Body" или "HeaderFooter".
 foreach (Node node in section)
 {
     switch (node.NodeType)

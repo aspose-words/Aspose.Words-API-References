@@ -1,14 +1,14 @@
 ---
 title: Placeholder
 second_title: Справочник по API Aspose.Words для .NET
-description: ПолучаетBuildingBlockaspose.words.buildingblocks/buildingblockсодержащий текст-заполнитель который должен отображаться когда содержимое этого запуска SDT пусто ассоциированный отображаемый XML-элемент пуст как указано с помощьюXmlMappingaspose.words.markup/structureddocumenttag/xmlmappingelement илиR5 ЭлементPAspose.Words.Markup.StructuredDocumentTag.IsShowingPlaceholderTextимеет значение true.
+description: ПолучаетBuildingBlockaspose.words.buildingblocks/buildingblock содержащий текст-заполнитель который должен отображаться когда содержимое этого запуска SDT пусто связанный сопоставленный XML-элемент пуст как указано черезXmlMappingaspose.words.markup/structureddocumenttag/xmlmapping element илиIsShowingPlaceholderTextaspose.words.markup/structureddocumenttag/isshowingplaceholdertext элемент истинный.
 type: docs
 weight: 230
 url: /ru/net/aspose.words.markup/structureddocumenttag/placeholder/
 ---
 ## StructuredDocumentTag.Placeholder property
 
-Получает[`BuildingBlock`](../../../aspose.words.buildingblocks/buildingblock)содержащий текст-заполнитель, который должен отображаться, когда содержимое этого запуска SDT пусто ассоциированный отображаемый XML-элемент пуст, как указано с помощью[`XmlMapping`](../xmlmapping)element или:::R5 Элемент:P:Aspose.Words.Markup.StructuredDocumentTag.IsShowingPlaceholderText:::имеет значение true.
+Получает[`BuildingBlock`](../../../aspose.words.buildingblocks/buildingblock) содержащий текст-заполнитель, который должен отображаться, когда содержимое этого запуска SDT пусто, связанный сопоставленный XML-элемент пуст, как указано через[`XmlMapping`](../xmlmapping) element или[`IsShowingPlaceholderText`](../isshowingplaceholdertext) элемент истинный.
 
 ```csharp
 public BuildingBlock Placeholder { get; }
@@ -16,11 +16,11 @@ public BuildingBlock Placeholder { get; }
 
 ### Примечания
 
-Может быть нулевым, что означает, что заполнитель не применим для этого Sdt.
+Может быть нулевым, что означает, что заполнитель неприменим для этого Sdt.
 
 ### Примеры
 
-Показывает, как использовать содержимое стандартного блока в качестве пользовательского текста-заполнителя для тега структурированного документа.
+Показывает, как использовать содержимое стандартного блока в качестве настраиваемого текста-заполнителя для тега структурированного документа.
 
 ```csharp
 Document doc = new Document();

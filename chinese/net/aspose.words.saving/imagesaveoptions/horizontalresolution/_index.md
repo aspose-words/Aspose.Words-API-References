@@ -22,7 +22,7 @@ public float HorizontalResolution { get; set; }
 
 ### 例子
 
-显示如何编辑图像，而 Aspose.Words 将文档转换为一个文档。
+展示如何在 Aspose.Words 将文档转换为文档时编辑图像。
 
 ```csharp
 Document doc = new Document();

@@ -1,14 +1,14 @@
 ---
 title: IResourceLoadingCallback
 second_title: Aspose.Words for .NET API 参考
-description: 如果您想控制 Aspose.Words 在 导入文档并使用R5 插入图像时如何加载外部资源请实现此接口TAspose.Words.DocumentBuilder
+description: 如果您想控制 Aspose.Words 在 导入文档并使用插入图像时如何加载外部资源请实现此接口DocumentBuilder../aspose.words/documentbuilder.
 type: docs
-weight: 3390
+weight: 3440
 url: /zh/net/aspose.words.loading/iresourceloadingcallback/
 ---
 ## IResourceLoadingCallback interface
 
-如果您想控制 Aspose.Words 在 导入文档并使用:::R5 插入图像时如何加载外部资源，请实现此接口:T:Aspose.Words.DocumentBuilder:::。
+如果您想控制 Aspose.Words 在 导入文档并使用插入图像时如何加载外部资源，请实现此接口[`DocumentBuilder`](../../aspose.words/documentbuilder).
 
 ```csharp
 public interface IResourceLoadingCallback
@@ -18,11 +18,11 @@ public interface IResourceLoadingCallback
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ResourceLoading](../../aspose.words.loading/iresourceloadingcallback/resourceloading)(ResourceLoadingArgs) | 当 Aspose.Words 加载任何外部资源时调用。 |
+| [ResourceLoading](../../aspose.words.loading/iresourceloadingcallback/resourceloading)(ResourceLoadingArgs) | 在 Aspose.Words 加载任何外部资源时调用。 |
 
 ### 例子
 
-显示如何自定义将外部资源加载到文档中的过程。
+展示如何自定义将外部资源加载到文档中的过程。
 
 ```csharp
 {

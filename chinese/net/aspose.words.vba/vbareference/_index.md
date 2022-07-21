@@ -3,7 +3,7 @@ title: VbaReference
 second_title: Aspose.Words for .NET API 参考
 description: 实现对自动化类型库或 VBA 项目的引用
 type: docs
-weight: 6230
+weight: 6280
 url: /zh/net/aspose.words.vba/vbareference/
 ---
 ## VbaReference class
@@ -18,8 +18,8 @@ public abstract class VbaReference
 
 | 姓名 | 描述 |
 | --- | --- |
-| abstract [LibId](../../aspose.words.vba/vbareference/libid) { get; } | 获取包含自动化类型库标识符的字符串值。 |
-| abstract [Type](../../aspose.words.vba/vbareference/type) { get; } | 获取[`VbaReferenceType`](../vbareferencetype)对象，该对象指示 VbaReference 对象表示的引用类型。 |
+| abstract [LibId](../../aspose.words.vba/vbareference/libid) { get; } | 获取一个包含自动化类型库标识符的字符串值。 |
+| abstract [Type](../../aspose.words.vba/vbareference/type) { get; } | 获取[`VbaReferenceType`](../vbareferencetype)指示 VbaReference 对象表示的引用类型的对象。 |
 
 ### 例子
 
@@ -52,7 +52,7 @@ public void RemoveVbaReference()
 }
 
 /// <summary>
- /// 返回表示指定引用的 LibId 路径的字符串。 
+/// 返回表示指定引用的 LibId 路径的字符串。 
 /// </summary>
 private static string GetLibIdPath(VbaReference reference)
 {
@@ -70,7 +70,7 @@ private static string GetLibIdPath(VbaReference reference)
 }
 
 /// <summary>
- /// 从自动化类型库的指定标识符返回路径。
+/// 从自动化类型库的指定标识符返回路径。
 /// </summary>
 private static string GetLibIdReferencePath(string libIdReference)
 {
@@ -85,7 +85,7 @@ private static string GetLibIdReferencePath(string libIdReference)
 }
 
 /// <summary>
- /// 从自动化类型库的指定标识符返回路径。
+/// 从自动化类型库的指定标识符返回路径。
 /// </summary>
 private static string GetLibIdProjectPath(string libIdProject)
 {

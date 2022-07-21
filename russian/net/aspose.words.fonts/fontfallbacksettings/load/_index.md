@@ -46,7 +46,7 @@ doc.FontSettings.FallbackSettings.Save(ArtifactsDir + "FallbackSettings.xml");
 
 ## Load(Stream) {#load}
 
-Загружает резервные настройки из XML-потока.
+Загружает резервные настройки из потока XML.
 
 ```csharp
 public void Load(Stream stream)

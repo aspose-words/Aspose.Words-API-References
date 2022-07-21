@@ -3,7 +3,7 @@ title: Target
 second_title: Aspose.Words for .NET API 参考
 description: 获取或设置形状超链接的目标框架
 type: docs
-weight: 470
+weight: 480
 url: /zh/net/aspose.words.drawing/shapebase/target/
 ---
 ## ShapeBase.Target property

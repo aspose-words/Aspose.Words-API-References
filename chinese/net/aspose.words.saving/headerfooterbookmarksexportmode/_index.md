@@ -3,7 +3,7 @@ title: HeaderFooterBookmarksExportMode
 second_title: Aspose.Words for .NET API 参考
 description: 指定如何导出页眉/页脚中的书签
 type: docs
-weight: 4740
+weight: 4790
 url: /zh/net/aspose.words.saving/headerfooterbookmarksexportmode/
 ---
 ## HeaderFooterBookmarksExportMode enumeration
@@ -18,7 +18,7 @@ public enum HeaderFooterBookmarksExportMode
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| None | `0` | 页眉/页脚中的书签不会被导出。 |
+| None | `0` | 不导出页眉/页脚中的书签。 |
 | First | `1` | 仅导出该部分第一个页眉/页脚中的书签。 |
 | All | `2` | 导出所有页眉/页脚中的书签。 |
 

@@ -1,14 +1,14 @@
 ---
 title: InsertHyperlink
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置是否插入到书签段落的超链接
+description: 获取或设置是否插入书签段落的超链接
 type: docs
 weight: 30
 url: /zh/net/aspose.words.fields/fieldpageref/inserthyperlink/
 ---
 ## FieldPageRef.InsertHyperlink property
 
-获取或设置是否插入到书签段落的超链接。
+获取或设置是否插入书签段落的超链接。
 
 ```csharp
 public bool InsertHyperlink { get; set; }

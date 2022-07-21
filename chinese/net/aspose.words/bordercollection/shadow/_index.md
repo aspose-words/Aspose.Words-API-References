@@ -1,14 +1,14 @@
 ---
 title: Shadow
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置一个值指示边框是否有阴影
+description: 获取或设置边框是否有阴影的值
 type: docs
 weight: 110
 url: /zh/net/aspose.words/bordercollection/shadow/
 ---
 ## BorderCollection.Shadow property
 
-获取或设置一个值，指示边框是否有阴影。
+获取或设置边框是否有阴影的值。
 
 ```csharp
 public bool Shadow { get; set; }
@@ -22,7 +22,7 @@ public bool Shadow { get; set; }
 
 ### 例子
 
-展示如何创建带有阴影的绿色波浪页面边框。
+演示如何创建带有阴影的绿色波浪页面边框。
 
 ```csharp
 Document doc = new Document();

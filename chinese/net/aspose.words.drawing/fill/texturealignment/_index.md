@@ -16,7 +16,7 @@ public TextureAlignment TextureAlignment { get; set; }
 
 ### 例子
 
-显示如何在形状内填充和平铺纹理。
+显示如何填充和平铺形状内的纹理。
 
 ```csharp
 Document doc = new Document();

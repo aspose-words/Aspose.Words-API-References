@@ -1,14 +1,14 @@
 ---
 title: INodeChangingCallback
 second_title: Справочник по API Aspose.Words для .NET
-description: Реализуйте этот интерфейс если хотите получать уведомления при вставке или удалении узлов в документе.
+description: Реализуйте этот интерфейс если вы хотите получать уведомления при вставке или удалении узлов в документе.
 type: docs
-weight: 2950
+weight: 3000
 url: /ru/net/aspose.words/inodechangingcallback/
 ---
 ## INodeChangingCallback interface
 
-Реализуйте этот интерфейс, если хотите получать уведомления при вставке или удалении узлов в документе.
+Реализуйте этот интерфейс, если вы хотите получать уведомления при вставке или удалении узлов в документе.
 
 ```csharp
 public interface INodeChangingCallback
@@ -21,7 +21,7 @@ public interface INodeChangingCallback
 | [NodeInserted](../../aspose.words/inodechangingcallback/nodeinserted)(NodeChangingArgs) | Вызывается, когда узел, принадлежащий этому документу, был вставлен в другой узел. |
 | [NodeInserting](../../aspose.words/inodechangingcallback/nodeinserting)(NodeChangingArgs) | Вызывается непосредственно перед вставкой узла, принадлежащего этому документу, в другой узел. |
 | [NodeRemoved](../../aspose.words/inodechangingcallback/noderemoved)(NodeChangingArgs) | Вызывается, когда узел, принадлежащий этому документу, был удален из своего родителя. |
-| [NodeRemoving](../../aspose.words/inodechangingcallback/noderemoving)(NodeChangingArgs) | Вызывается непосредственно перед удалением из документа узла, принадлежащего этому документу. |
+| [NodeRemoving](../../aspose.words/inodechangingcallback/noderemoving)(NodeChangingArgs) | Вызывается непосредственно перед удалением узла, принадлежащего этому документу, из документа. |
 
 ### Примеры
 

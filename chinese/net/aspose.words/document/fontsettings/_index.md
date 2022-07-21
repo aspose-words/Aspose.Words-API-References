@@ -16,7 +16,7 @@ public FontSettings FontSettings { get; set; }
 
 ### 评论
 
-此属性允许指定每个文档的字体设置。如果设置为 null，则将使用默认静态字体设置 [`DefaultInstance`](../../../aspose.words.fonts/fontsettings/defaultinstance)。
+此属性允许指定每个文档的字体设置。如果设置为null，默认静态字体settings [`DefaultInstance`](../../../aspose.words.fonts/fontsettings/defaultinstance)将会被使用。
 
 默认值为空。
 
@@ -50,7 +50,7 @@ doc.FontSettings = new FontSettings();
 doc.FontSettings.SubstitutionSettings.TableSubstitution.SetSubstitutes(
     "Amethysta", new[] {"Arvo", "Courier New"});
 
-// “Amethysta”不可用，替换规则规定第一个用作替换的字体是“Arvo”。
+ // “Amethysta”不可用，替换规则规定第一个用作替换的字体是“Arvo”。
 Assert.False(fontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Arvo"));
 
  // "Arvo" 也不可用，但 "Courier New" 可用。

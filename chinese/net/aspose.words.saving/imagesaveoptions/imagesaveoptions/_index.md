@@ -1,14 +1,14 @@
 ---
 title: ImageSaveOptions
 second_title: Aspose.Words for .NET API 参考
-description: 初始化此类的新实例该实例可用于将渲染图像保存在 TiffPngBmp EmfJpeg或Svg格式 PngBmpJpeg 或Svg格式
+description: 初始化此类的新实例该实例可用于将渲染图像保存在 中TiffPngBmp  EmfJpeg或者Svg格式. PngBmpJpeg 或Svg格式.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.saving/imagesaveoptions/imagesaveoptions/
 ---
 ## ImageSaveOptions constructor
 
-初始化此类的新实例，该实例可用于将渲染图像保存在 Tiff,Png,Bmp, Emf,Jpeg或Svg格式。 Png,Bmp,Jpeg 或Svg格式。
+初始化此类的新实例，该实例可用于将渲染图像保存在 中Tiff,Png,Bmp , Emf,Jpeg或者Svg格式. Png,Bmp,Jpeg 或Svg格式.
 
 ```csharp
 public ImageSaveOptions(SaveFormat saveFormat)
@@ -16,7 +16,7 @@ public ImageSaveOptions(SaveFormat saveFormat)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| saveFormat | SaveFormat | 可以是 Tiff,Png,Bmp, Emf,Jpeg或Svg。 Png,Bmp,Jpeg 或Svg。 |
+| saveFormat | SaveFormat | 可以是 Tiff,Png,Bmp , Emf,Jpeg或者Svg. Png,Bmp,Jpeg 或Svg. |
 
 ### 例子
 

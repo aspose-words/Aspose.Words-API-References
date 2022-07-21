@@ -1,14 +1,14 @@
 ---
 title: VbaProject
 second_title: Справочник по API Aspose.Words для .NET
-description: Получает или задаетVbaProjectaspose.words/document/vbaproject.
+description: Получает или задаетVbaProjectaspose.words/document/vbaproject .
 type: docs
 weight: 430
 url: /ru/net/aspose.words/document/vbaproject/
 ---
 ## Document.VbaProject property
 
-Получает или задает`VbaProject`.
+Получает или задает`VbaProject` .
 
 ```csharp
 public VbaProject VbaProject { get; set; }

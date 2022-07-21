@@ -16,8 +16,8 @@ public void TwoColorGradient(GradientStyle style, GradientVariant variant)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| style | GradientStyle | Стиль градиента[`GradientStyle`](../../gradientstyle). |
-| variant | GradientVariant | Вариант градиента[`GradientVariant`](../../gradientvariant) |
+| style | GradientStyle | Градиентный стиль[`GradientStyle`](../../gradientstyle). |
+| variant | GradientVariant | Градиентный вариант[`GradientVariant`](../../gradientvariant) |
 
 ### Примеры
 
@@ -79,9 +79,9 @@ public void TwoColorGradient(Color color1, Color color2, GradientStyle style,
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | color1 | Color | Первый цвет для построения градиента. |
-| color2 | Color | Второй цвет для построения градиента. |
-| style | GradientStyle | Стиль градиента[`GradientStyle`](../../gradientstyle). |
-| variant | GradientVariant | Вариант градиента[`GradientVariant`](../../gradientvariant) |
+| color2 | Color | Второй цвет для создания градиента. |
+| style | GradientStyle | Градиентный стиль[`GradientStyle`](../../gradientstyle). |
+| variant | GradientVariant | Градиентный вариант[`GradientVariant`](../../gradientvariant) |
 
 ### Примеры
 

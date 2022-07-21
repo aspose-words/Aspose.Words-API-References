@@ -1,14 +1,14 @@
 ---
 title: FieldArgumentBuilder
 second_title: Справочник по API Aspose.Words для .NET
-description: Инициализирует экземпляр классаFieldArgumentBuilderaspose.words.fields/fieldargumentbuilder.
+description: Инициализирует экземплярFieldArgumentBuilderaspose.words.fields/fieldargumentbuilder класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.fields/fieldargumentbuilder/fieldargumentbuilder/
 ---
 ## FieldArgumentBuilder constructor
 
-Инициализирует экземпляр класса[`FieldArgumentBuilder`](../../fieldargumentbuilder).
+Инициализирует экземпляр[`FieldArgumentBuilder`](../../fieldargumentbuilder) класс.
 
 ```csharp
 public FieldArgumentBuilder()

@@ -3,7 +3,7 @@ title: PageVerticalAlignment
 second_title: Aspose.Words for .NET API 参考
 description: 指定每页上文本的垂直对齐方式
 type: docs
-weight: 4080
+weight: 4130
 url: /zh/net/aspose.words/pageverticalalignment/
 ---
 ## PageVerticalAlignment enumeration

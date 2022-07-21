@@ -1,14 +1,14 @@
 ---
 title: IncludeNoteOrComment
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置是否递增书签标记为 的脚注尾注和注释编号并插入相应的脚注尾注和评论文字
+description: 获取或设置是否递增书签标记为 的脚注尾注和注释编号并插入相应的脚注尾注和注释文本
 type: docs
 weight: 30
 url: /zh/net/aspose.words.fields/fieldref/includenoteorcomment/
 ---
 ## FieldRef.IncludeNoteOrComment property
 
-获取或设置是否递增书签标记为 的脚注、尾注和注释编号，并插入相应的脚注、尾注、和评论文字。
+获取或设置是否递增书签标记为 的脚注、尾注和注释编号，并插入相应的脚注、尾注和注释文本。
 
 ```csharp
 public bool IncludeNoteOrComment { get; set; }

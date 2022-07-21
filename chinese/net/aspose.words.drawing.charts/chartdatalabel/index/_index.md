@@ -1,14 +1,14 @@
 ---
 title: Index
 second_title: Aspose.Words for .NET API 参考
-description: 指定包含元素的索引 此索引应确定此元素适用于哪个父子集合 默认值为 0
+description: 指定包含元素的索引 此索引应确定此元素适用于哪个父子集合 默认值为 0.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.drawing.charts/chartdatalabel/index/
 ---
 ## ChartDataLabel.Index property
 
-指定包含元素的索引。 此索引应确定此元素适用于哪个父子集合。 默认值为 0。
+指定包含元素的索引。 此索引应确定此元素适用于哪个父子集合。 默认值为 0.
 
 ```csharp
 public int Index { get; }

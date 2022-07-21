@@ -1,14 +1,14 @@
 ---
 title: IDocumentReaderPlugin
 second_title: Справочник по API Aspose.Words для .NET
-description: Определяет интерфейс для внешних подключаемых модулей чтения которые могут читать файл в документ.
+description: Определяет интерфейс для внешних подключаемых модулей чтения которые могут считывать файл в документ.
 type: docs
-weight: 2930
+weight: 2980
 url: /ru/net/aspose.words/idocumentreaderplugin/
 ---
 ## IDocumentReaderPlugin interface
 
-Определяет интерфейс для внешних подключаемых модулей чтения, которые могут читать файл в документ.
+Определяет интерфейс для внешних подключаемых модулей чтения, которые могут считывать файл в документ.
 
 ```csharp
 public interface IDocumentReaderPlugin
@@ -18,7 +18,7 @@ public interface IDocumentReaderPlugin
 
 | Имя | Описание |
 | --- | --- |
-| [Read](../../aspose.words/idocumentreaderplugin/read)(Stream, LoadOptions, Document) | Считывает данные из указанного потока в экземпляр[`Document`](../document). |
+| [Read](../../aspose.words/idocumentreaderplugin/read)(Stream, LoadOptions, Document) | Считывает данные из указанного потока в[`Document`](../document) экземпляр. |
 
 ### Смотрите также
 

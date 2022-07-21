@@ -1,14 +1,14 @@
 ---
 title: FieldBuilder
 second_title: Aspose.Words for .NET API 参考
-description: 初始化FieldBuilderaspose.words.fields/fieldbuilder类的实例
+description: 初始化FieldBuilderaspose.words.fields/fieldbuilder类.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.fields/fieldbuilder/fieldbuilder/
 ---
 ## FieldBuilder constructor
 
-初始化[`FieldBuilder`](../../fieldbuilder)类的实例。
+初始化[`FieldBuilder`](../../fieldbuilder)类.
 
 ```csharp
 public FieldBuilder(FieldType fieldType)
@@ -20,7 +20,7 @@ public FieldBuilder(FieldType fieldType)
 
 ### 例子
 
-显示如何使用字段构建器创建和插入字段。
+展示如何使用字段构建器创建和插入字段。
 
 ```csharp
 Document doc = new Document();

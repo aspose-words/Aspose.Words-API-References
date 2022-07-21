@@ -1,14 +1,14 @@
 ---
 title: ThresholdForFloydSteinbergDithering
 second_title: Справочник по API Aspose.Words для .NET
-description: Получает или задает пороговое значение определяющее значение ошибки бинаризации в методе Флойда-Стейнберга. когдаImageBinarizationMethodaspose.words.saving/imagebinarizationmethodis ImageBinarizationMethod.FloydSteinbergDithering.
+description: Получает или задает пороговое значение определяющее значение ошибки бинаризации в методе Флойда-Стейнберга. приImageBinarizationMethodaspose.words.saving/imagebinarizationmethod это ImageBinarizationMethod.FloydSteinbergDithering.
 type: docs
 weight: 150
 url: /ru/net/aspose.words.saving/imagesaveoptions/thresholdforfloydsteinbergdithering/
 ---
 ## ImageSaveOptions.ThresholdForFloydSteinbergDithering property
 
-Получает или задает пороговое значение, определяющее значение ошибки бинаризации в методе Флойда-Стейнберга. когда[`ImageBinarizationMethod`](../../imagebinarizationmethod)is ImageBinarizationMethod.FloydSteinbergDithering.
+Получает или задает пороговое значение, определяющее значение ошибки бинаризации в методе Флойда-Стейнберга. при[`ImageBinarizationMethod`](../../imagebinarizationmethod) это ImageBinarizationMethod.FloydSteinbergDithering.
 
 ```csharp
 public byte ThresholdForFloydSteinbergDithering { get; set; }
@@ -16,7 +16,7 @@ public byte ThresholdForFloydSteinbergDithering { get; set; }
 
 ### Примечания
 
-Значение по умолчанию:128.
+Значение по умолчанию — 128.
 
 ### Примеры
 

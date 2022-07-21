@@ -1,14 +1,14 @@
 ---
 title: ToImage
 second_title: Aspose.Words for .NET API 参考
-description: 获取存储在形状中的图像作为Image对象
+description: 获取存储在形状中的图像作为Image对象.
 type: docs
 weight: 220
 url: /zh/net/aspose.words.drawing/imagedata/toimage/
 ---
 ## ImageData.ToImage method
 
-获取存储在形状中的图像作为Image对象。
+获取存储在形状中的图像作为Image对象.
 
 ```csharp
 public Image ToImage()
@@ -18,7 +18,7 @@ public Image ToImage()
 
 一个新的Image每次调用此方法时都会创建对象。
 
-调用者负责处置图像对象。
+调用者负责处理图像对象。
 
 ### 例子
 
@@ -31,7 +31,7 @@ Document imgSourceDoc = new Document(MyDir + "Images.docx");
 IEnumerable<Shape> shapesWithImages = 
     imgSourceDoc.GetChildNodes(NodeType.Shape, true).Cast<Shape>().Where(s => s.HasImage);
 
- // 遍历每个形状并保存它的图像。
+//遍历每个形状并保存其图像。
 ImageFormatConverter formatConverter = new ImageFormatConverter();
 
 using (IEnumerator<Shape> enumerator = shapesWithImages.GetEnumerator())

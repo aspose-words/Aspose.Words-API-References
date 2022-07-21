@@ -1,14 +1,14 @@
 ---
 title: GetEnumerator
 second_title: Справочник по API Aspose.Words для .NET
-description: Возвращает объект перечислителя который можно использовать для перебора всех элементов коллекции.
+description: Возвращает объект перечислителя который можно использовать для перебора всех элементов в коллекции.
 type: docs
 weight: 80
 url: /ru/net/aspose.words.markup/customxmlpartcollection/getenumerator/
 ---
 ## CustomXmlPartCollection.GetEnumerator method
 
-Возвращает объект перечислителя, который можно использовать для перебора всех элементов коллекции.
+Возвращает объект перечислителя, который можно использовать для перебора всех элементов в коллекции.
 
 ```csharp
 public IEnumerator<CustomXmlPart> GetEnumerator()

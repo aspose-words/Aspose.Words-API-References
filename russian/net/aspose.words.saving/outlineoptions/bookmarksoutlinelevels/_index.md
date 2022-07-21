@@ -1,14 +1,14 @@
 ---
 title: BookmarksOutlineLevels
 second_title: Справочник по API Aspose.Words для .NET
-description: Позволяет указать уровень контура отдельных закладок.
+description: Позволяет указать уровень структуры отдельных закладок.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.saving/outlineoptions/bookmarksoutlinelevels/
 ---
 ## OutlineOptions.BookmarksOutlineLevels property
 
-Позволяет указать уровень контура отдельных закладок.
+Позволяет указать уровень структуры отдельных закладок.
 
 ```csharp
 public BookmarksOutlineLevelCollection BookmarksOutlineLevels { get; }
@@ -16,7 +16,7 @@ public BookmarksOutlineLevelCollection BookmarksOutlineLevels { get; }
 
 ### Примечания
 
-Если в этой коллекции уровень закладок не указан, то[`DefaultBookmarksOutlineLevel`](../defaultbookmarksoutlinelevel)используется значение.
+Если уровень закладки не указан в этой коллекции, то[`DefaultBookmarksOutlineLevel`](../defaultbookmarksoutlinelevel) используется значение.
 
 ### Примеры
 

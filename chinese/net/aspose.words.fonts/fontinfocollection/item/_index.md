@@ -16,11 +16,11 @@ public FontInfo this[string name] { get; }
 
 | 范围 | 描述 |
 | --- | --- |
-| name | 要定位的字体名称，不区分大小写。 |
+| name | 要查找的字体的不区分大小写的名称。 |
 
 ### 例子
 
-展示如何从文档中提取嵌入字体，并将其保存到本地文件系统。
+演示如何从文档中提取嵌入字体，并将其保存到本地文件系统。
 
 ```csharp
 Document doc = new Document(MyDir + "Embedded font.docx");
@@ -61,11 +61,11 @@ public FontInfo this[int index] { get; }
 
 | 范围 | 描述 |
 | --- | --- |
-| index | 从零开始的字体索引。 |
+| index | 字体的从零开始的索引。 |
 
 ### 例子
 
-展示如何从文档中提取嵌入字体，并将其保存到本地文件系统。
+演示如何从文档中提取嵌入字体，并将其保存到本地文件系统。
 
 ```csharp
 Document doc = new Document(MyDir + "Embedded font.docx");

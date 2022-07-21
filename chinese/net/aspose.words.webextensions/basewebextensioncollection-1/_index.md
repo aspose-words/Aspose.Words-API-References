@@ -1,14 +1,14 @@
 ---
 title: BaseWebExtensionCollectionT
 second_title: Aspose.Words for .NET API 参考
-description: TaskPaneCollection./taskpanecollection的基类WebExtensionBindingCollection./webextensionbindingcollection WebExtensionPropertyCollection./webextensionpropertycollection和WebExtensionReferenceCollection./webextensionreferencecollection集合
+description: 基类TaskPaneCollection./taskpanecollectionWebExtensionBindingCollection./webextensionbindingcollection  WebExtensionPropertyCollection./webextensionpropertycollection和WebExtensionReferenceCollection./webextensionreferencecollection集合.
 type: docs
-weight: 6340
+weight: 6390
 url: /zh/net/aspose.words.webextensions/basewebextensioncollection-1/
 ---
 ## BaseWebExtensionCollection&lt;T&gt; class
 
-[`TaskPaneCollection`](../taskpanecollection)的基类,[`WebExtensionBindingCollection`](../webextensionbindingcollection), [`WebExtensionPropertyCollection`](../webextensionpropertycollection)和[`WebExtensionReferenceCollection`](../webextensionreferencecollection)集合。
+基类[`TaskPaneCollection`](../taskpanecollection),[`WebExtensionBindingCollection`](../webextensionbindingcollection) , [`WebExtensionPropertyCollection`](../webextensionpropertycollection)和[`WebExtensionReferenceCollection`](../webextensionreferencecollection)集合.
 
 ```csharp
 public abstract class BaseWebExtensionCollection<T> : IEnumerable<T>
@@ -17,13 +17,13 @@ public abstract class BaseWebExtensionCollection<T> : IEnumerable<T>
 
 | 范围 | 描述 |
 | --- | --- |
-| T | 集合项目的类型。 |
+| T | 集合项的类型。 |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Count](../../aspose.words.webextensions/basewebextensioncollection`1/count) { get; } | 获取集合中包含的元素数量。 |
+| [Count](../../aspose.words.webextensions/basewebextensioncollection`1/count) { get; } | 获取集合中包含的元素数。 |
 | [Item](../../aspose.words.webextensions/basewebextensioncollection`1/item) { get; set; } | 获取或设置指定索引处的项目。 |
 
 ## 方法

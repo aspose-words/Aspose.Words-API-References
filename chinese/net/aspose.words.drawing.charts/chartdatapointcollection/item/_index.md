@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Aspose.Words for .NET API 参考
-description: 返回指定索引的ChartDataPointaspose.words.drawing.charts/chartdatapoint
+description: 返回ChartDataPointaspose.words.drawing.charts/chartdatapoint对于指定的索引
 type: docs
 weight: 20
 url: /zh/net/aspose.words.drawing.charts/chartdatapointcollection/item/
 ---
 ## ChartDataPointCollection indexer
 
-返回指定索引的[`ChartDataPoint`](../../chartdatapoint)。
+返回[`ChartDataPoint`](../../chartdatapoint)对于指定的索引。
 
 ```csharp
 public ChartDataPoint this[int index] { get; }

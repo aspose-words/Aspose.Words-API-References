@@ -8,7 +8,7 @@ url: /zh/net/aspose.words.fields/fielddde/autoupdate/
 ---
 ## FieldDde.AutoUpdate property
 
-获取或设置是否自动更新该字段。
+获取或设置是否自动更新该字段
 
 ```csharp
 public bool AutoUpdate { get; set; }
@@ -16,7 +16,7 @@ public bool AutoUpdate { get; set; }
 
 ### 例子
 
-演示如何使用各种字段类型链接到本地文件系统中的其他文档，并显示其内容。
+展示如何使用各种字段类型链接到本地文件系统中的其他文档，并显示其内容。
 
 ```csharp
 {

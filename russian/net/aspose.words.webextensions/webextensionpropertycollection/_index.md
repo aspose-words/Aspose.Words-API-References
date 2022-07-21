@@ -3,7 +3,7 @@ title: WebExtensionPropertyCollection
 second_title: Справочник по API Aspose.Words для .NET
 description: Указывает набор настраиваемых свойств веб-расширения.
 type: docs
-weight: 6430
+weight: 6480
 url: /ru/net/aspose.words.webextensions/webextensionpropertycollection/
 ---
 ## WebExtensionPropertyCollection class
@@ -32,7 +32,7 @@ public class WebExtensionPropertyCollection : BaseWebExtensionCollection<WebExte
 
 ### Примеры
 
-Показывает, как добавить веб-расширение к документу.
+Показывает, как добавить веб-расширение в документ.
 
 ```csharp
 Document doc = new Document();

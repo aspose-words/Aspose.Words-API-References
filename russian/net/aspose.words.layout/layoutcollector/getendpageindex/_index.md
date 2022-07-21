@@ -22,12 +22,12 @@ public int GetEndPageIndex(Node node)
 Document doc = new Document();
 LayoutCollector layoutCollector = new LayoutCollector(doc);
 
- // Вызовите метод "GetNumPagesSpanned", чтобы подсчитать, сколько страниц занимает содержимое нашего документа.
- // Поскольку документ пуст, это количество страниц в настоящее время равно нулю.
+// Вызовите метод «GetNumPagesSpanned», чтобы подсчитать, сколько страниц занимает содержимое нашего документа.
+// Поскольку документ пуст, это количество страниц в настоящее время равно нулю.
 Assert.AreEqual(doc, layoutCollector.Document);
 Assert.AreEqual(0, layoutCollector.GetNumPagesSpanned(doc));
 
- // Заполнить документ 5 страницами содержимого.
+// Заполнить документ 5 страницами содержимого.
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Write("Section 1");
 builder.InsertBreak(BreakType.PageBreak);
@@ -37,8 +37,8 @@ builder.Write("Section 2");
 builder.InsertBreak(BreakType.PageBreak);
 builder.InsertBreak(BreakType.PageBreak);
 
- // Перед сборщиком макетов нам нужно вызвать метод «UpdatePageLayout», чтобы получить us
- // точная цифра для любой метрики, связанной с макетом, такой как количество страниц.
+// Перед сборщиком макетов нам нужно вызвать метод «UpdatePageLayout», чтобы получить
+// точная цифра для любой метрики, связанной с макетом, например, для количества страниц.
 Assert.AreEqual(0, layoutCollector.GetNumPagesSpanned(doc));
 
 layoutCollector.Clear();
@@ -46,7 +46,7 @@ doc.UpdatePageLayout();
 
 Assert.AreEqual(5, layoutCollector.GetNumPagesSpanned(doc));
 
- // Мы можем видеть номера начальной и конечной страниц любого узла и их общий диапазон страниц.
+// Мы можем видеть номера начальной и конечной страниц любого узла и их общий диапазон страниц.
 NodeCollection nodes = doc.GetChildNodes(NodeType.Any, true);
 foreach (Node node in nodes)
 {
@@ -56,13 +56,13 @@ foreach (Node node in nodes)
         $" spanning {layoutCollector.GetNumPagesSpanned(node)} pages.");
 }
 
- // Мы можем перебирать объекты макета, используя LayoutEnumerator.
+// Мы можем перебирать объекты макета с помощью LayoutEnumerator.
 LayoutEnumerator layoutEnumerator = new LayoutEnumerator(doc);
 
 Assert.AreEqual(LayoutEntityType.Page, layoutEnumerator.Type);
 
- // LayoutEnumerator может перемещаться по коллекции сущностей макета, например, по дереву.
- // Мы также можем применить его к соответствующему объекту макета любого узла.
+// LayoutEnumerator может перемещаться по коллекции сущностей макета, как по дереву.
+// Мы также можем применить его к соответствующему объекту макета любого узла.
 layoutEnumerator.Current = layoutCollector.GetEntity(doc.GetChild(NodeType.Paragraph, 1, true));
 
 Assert.AreEqual(LayoutEntityType.Span, layoutEnumerator.Type);

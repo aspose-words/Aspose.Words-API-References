@@ -1,14 +1,14 @@
 ---
 title: FontFallbackSettings
 second_title: Справочник по API Aspose.Words для .NET
-description: Определяет настройки резервного механизма шрифта.
+description: Задает настройки резервного механизма шрифта.
 type: docs
-weight: 2670
+weight: 2720
 url: /ru/net/aspose.words.fonts/fontfallbacksettings/
 ---
 ## FontFallbackSettings class
 
-Определяет настройки резервного механизма шрифта.
+Задает настройки резервного механизма шрифта.
 
 ```csharp
 public class FontFallbackSettings
@@ -19,11 +19,11 @@ public class FontFallbackSettings
 | Имя | Описание |
 | --- | --- |
 | [BuildAutomatic](../../aspose.words.fonts/fontfallbacksettings/buildautomatic)() | Автоматически создает резервные настройки путем сканирования доступных шрифтов. |
-| [Load](../../aspose.words.fonts/fontfallbacksettings/load#load)(Stream) | Загружает резервные настройки из XML-потока. |
+| [Load](../../aspose.words.fonts/fontfallbacksettings/load#load)(Stream) | Загружает резервные настройки из потока XML. |
 | [Load](../../aspose.words.fonts/fontfallbacksettings/load#load_1)(string) | Загружает резервные настройки шрифта из файла XML. |
-| [LoadMsOfficeFallbackSettings](../../aspose.words.fonts/fontfallbacksettings/loadmsofficefallbacksettings)() | Загружает предопределенные резервные настройки, которые имитируют резервный вариант Microsoft Word и используют офисные шрифты Microsoft. |
-| [LoadNotoFallbackSettings](../../aspose.words.fonts/fontfallbacksettings/loadnotofallbacksettings)() | Загружает предопределенные резервные настройки, в которых используются шрифты Google Noto. |
-| [Save](../../aspose.words.fonts/fontfallbacksettings/save#save)(Stream) | Сохраняет текущие резервные настройки в поток. |
+| [LoadMsOfficeFallbackSettings](../../aspose.words.fonts/fontfallbacksettings/loadmsofficefallbacksettings)() | Загружает предопределенные резервные настройки, имитирующие резервный вариант Microsoft Word и использующие офисные шрифты Microsoft. |
+| [LoadNotoFallbackSettings](../../aspose.words.fonts/fontfallbacksettings/loadnotofallbacksettings)() | Загружает предварительно определенные резервные настройки, в которых используются шрифты Google Noto. |
+| [Save](../../aspose.words.fonts/fontfallbacksettings/save#save)(Stream) | Сохраняет текущие резервные настройки в потоке. |
 | [Save](../../aspose.words.fonts/fontfallbacksettings/save#save_1)(string) | Сохраняет текущие резервные настройки в файл. |
 
 ### Примечания
@@ -41,7 +41,7 @@ FontSettings fontSettings = new FontSettings();
 doc.FontSettings = fontSettings;
 FontFallbackSettings fontFallbackSettings = fontSettings.FallbackSettings;
 
-// Настройте наши настройки шрифта так, чтобы исходные шрифты были только из папки «MyFonts».
+// Настройте наши параметры шрифта так, чтобы исходные шрифты были только из папки «MyFonts».
 FolderFontSource folderFontSource = new FolderFontSource(FontsDir, false);
 fontSettings.SetFontsSources(new FontSourceBase[] {folderFontSource});
 

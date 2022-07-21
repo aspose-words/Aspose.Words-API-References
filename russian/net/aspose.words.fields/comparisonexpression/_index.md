@@ -3,7 +3,7 @@ title: ComparisonExpression
 second_title: Справочник по API Aspose.Words для .NET
 description: Выражение сравнения.
 type: docs
-weight: 1320
+weight: 1340
 url: /ru/net/aspose.words.fields/comparisonexpression/
 ---
 ## ComparisonExpression class

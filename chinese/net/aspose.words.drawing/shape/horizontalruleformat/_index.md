@@ -16,7 +16,7 @@ public HorizontalRuleFormat HorizontalRuleFormat { get; }
 
 ### 例子
 
-展示如何插入水平线形，并自定义其格式。
+显示如何插入水平线形，并自定义其格式。
 
 ```csharp
 Document doc = new Document();

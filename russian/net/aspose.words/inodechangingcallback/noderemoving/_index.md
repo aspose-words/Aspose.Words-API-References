@@ -1,14 +1,14 @@
 ---
 title: NodeRemoving
 second_title: Справочник по API Aspose.Words для .NET
-description: Вызывается непосредственно перед удалением из документа узла принадлежащего этому документу.
+description: Вызывается непосредственно перед удалением узла принадлежащего этому документу из документа.
 type: docs
 weight: 40
 url: /ru/net/aspose.words/inodechangingcallback/noderemoving/
 ---
 ## INodeChangingCallback.NodeRemoving method
 
-Вызывается непосредственно перед удалением из документа узла, принадлежащего этому документу.
+Вызывается непосредственно перед удалением узла, принадлежащего этому документу, из документа.
 
 ```csharp
 public void NodeRemoving(NodeChangingArgs args)

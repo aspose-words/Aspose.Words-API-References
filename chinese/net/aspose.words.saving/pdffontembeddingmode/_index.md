@@ -3,7 +3,7 @@ title: PdfFontEmbeddingMode
 second_title: Aspose.Words for .NET API 参考
 description: 指定 Aspose.Words 应该如何嵌入字体
 type: docs
-weight: 5140
+weight: 5190
 url: /zh/net/aspose.words.saving/pdffontembeddingmode/
 ---
 ## PdfFontEmbeddingMode enumeration
@@ -19,12 +19,12 @@ public enum PdfFontEmbeddingMode
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
 | EmbedAll | `0` | Aspose.Words 嵌入所有字体。 |
-| EmbedNonstandard | `1` | Aspose.Words 嵌入除标准 Windows 字体 Arial 和 Times New Roman 之外的所有字体。 只有 Arial 和 Times New Roman 字体在此模式下会受到影响，因为 MS Word 在将文档保存为 PDF 时不会嵌入 只有这些字体。 |
+| EmbedNonstandard | `1` | Aspose.Words 嵌入除标准 Windows 字体 Arial 和 Times New Roman 之外的所有字体。 在此模式下仅影响 Arial 和 Times New Roman 字体，因为 MS Word 在将文档保存到 PDF 时不会嵌入 仅这些字体。 |
 | EmbedNone | `2` | Aspose.Words 不嵌入任何字体。 |
 
 ### 例子
 
-显示如何设置 Aspose.Words 以跳过将 Arial 和 Times New Roman 字体嵌入 PDF 文档。
+展示如何设置 Aspose.Words 以跳过将 Arial 和 Times New Roman 字体嵌入 PDF 文档。
 
 ```csharp
 Document doc = new Document();

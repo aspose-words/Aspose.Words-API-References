@@ -3,7 +3,7 @@ title: WebExtensionBindingType
 second_title: Справочник по API Aspose.Words для .NET
 description: Перечисляет доступные типы привязки между веб-расширением и данными в документе.
 type: docs
-weight: 6410
+weight: 6460
 url: /ru/net/aspose.words.webextensions/webextensionbindingtype/
 ---
 ## WebExtensionBindingType enumeration

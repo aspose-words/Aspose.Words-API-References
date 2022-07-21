@@ -1,14 +1,14 @@
 ---
 title: StructuredDocumentTagNode
 second_title: Справочник по API Aspose.Words для .NET
-description: Возвращает объект Node реализующий этот интерфейс.
+description: Возвращает объект узла который реализует этот интерфейс.
 type: docs
 weight: 150
 url: /ru/net/aspose.words.markup/istructureddocumenttag/structureddocumenttagnode/
 ---
 ## IStructuredDocumentTag.StructuredDocumentTagNode method
 
-Возвращает объект Node, реализующий этот интерфейс.
+Возвращает объект узла, который реализует этот интерфейс.
 
 ```csharp
 public Node StructuredDocumentTagNode()

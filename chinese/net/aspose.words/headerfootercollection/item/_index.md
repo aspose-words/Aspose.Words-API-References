@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Aspose.Words for .NET API 参考
-description: 在给定索引处检索 HeaderFooter 
+description: 检索一个 页眉页脚在给定的索引处
 type: docs
 weight: 10
 url: /zh/net/aspose.words/headerfootercollection/item/
 ---
 ## HeaderFooterCollection indexer (1 of 2)
 
-在给定索引处检索 **HeaderFooter** 。
+检索一个 **页眉页脚**在给定的索引处。
 
 ```csharp
 public HeaderFooter this[int index] { get; }
@@ -16,13 +16,13 @@ public HeaderFooter this[int index] { get; }
 
 | 范围 | 描述 |
 | --- | --- |
-| index | 集合的索引。 |
+| index | 集合中的索引。 |
 
 ### 评论
 
-索引从零开始。
+该索引从零开始。
 
-负索引是允许的，表示从集合后面访问。 例如 -1 表示最后一项，-2 表示倒数第二个，依此类推。
+允许使用负索引并指示从集合的背面进行访问。 例如 -1 表示最后一项，-2 表示倒数第二个，依此类推。
 
 如果 index 大于或等于列表中的项目数，则返回空引用。
 
@@ -30,7 +30,7 @@ public HeaderFooter this[int index] { get; }
 
 ### 例子
 
-显示如何在节之间链接页眉和页脚。
+显示如何在部分之间链接页眉和页脚。
 
 ```csharp
 Document doc = new Document();
@@ -101,7 +101,7 @@ doc.Save(ArtifactsDir + "HeaderFooter.Link.docx");
 
 ## HeaderFooterCollection indexer (2 of 2)
 
-检索指定类型的 **HeaderFooter** 。
+检索一个 **页眉页脚**指定类型的.
 
 ```csharp
 public HeaderFooter this[HeaderFooterType headerFooterType] { get; }
@@ -109,7 +109,7 @@ public HeaderFooter this[HeaderFooterType headerFooterType] { get; }
 
 | 范围 | 描述 |
 | --- | --- |
-| headerFooterType | A[`HeaderFooterType`](../../headerfootertype)value 那指定要检索的页眉/页脚的类型。 |
+| headerFooterType | 一个[`HeaderFooterType`](../../headerfootertype) value 指定要检索的页眉/页脚的类型。 |
 
 ### 评论
 
@@ -120,28 +120,21 @@ public HeaderFooter this[HeaderFooterType headerFooterType] { get; }
 显示如何替换文档页脚中的文本。
 
 ```csharp
-Document doc = new Document(MyDir + "Header and footer types.docx");
+Document doc = new Document(MyDir + "Footer.docx");
 
-// 遍历每个部分并删除各种页脚。
-foreach (Section section in doc.OfType<Section>())
+HeaderFooterCollection headersFooters = doc.FirstSection.HeadersFooters;
+HeaderFooter footer = headersFooters[HeaderFooterType.FooterPrimary];
+
+FindReplaceOptions options = new FindReplaceOptions
 {
-    // 共有三种页脚和页眉类型。
-    // 1 - “第一个”页眉/页脚，仅出现在部分的第一页上。
-    HeaderFooter footer = section.HeadersFooters[HeaderFooterType.FooterFirst];
-    footer?.Remove();
+    MatchCase = false,
+    FindWholeWordsOnly = false
+};
 
-    // 2 - “主要”页眉/页脚，出现在奇数页上。
-    footer = section.HeadersFooters[HeaderFooterType.FooterPrimary];
-    footer?.Remove();
+int currentYear = DateTime.Now.Year;
+footer.Range.Replace("(C) 2006 Aspose Pty Ltd.", $"Copyright (C) {currentYear} by Aspose Pty Ltd.", options);
 
-     // 3 - “偶数”页眉/页脚，出现在偶数页上。
-    footer = section.HeadersFooters[HeaderFooterType.FooterEven];
-    footer?.Remove();
-
-    Assert.AreEqual(0, section.HeadersFooters.Count(hf => !((HeaderFooter)hf).IsHeader));
-}
-
-doc.Save(ArtifactsDir + "HeaderFooter.RemoveFooters.docx");
+doc.Save(ArtifactsDir + "HeaderFooter.ReplaceText.docx");
 ```
 
 显示如何从文档中删除所有页脚。

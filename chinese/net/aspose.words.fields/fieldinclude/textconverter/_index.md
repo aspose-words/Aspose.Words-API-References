@@ -16,7 +16,7 @@ public string TextConverter { get; set; }
 
 ### 例子
 
-显示如何创建 INCLUDE 字段并设置其属性。
+演示如何创建 INCLUDE 字段并设置其属性。
 
 ```csharp
 Document doc = new Document();

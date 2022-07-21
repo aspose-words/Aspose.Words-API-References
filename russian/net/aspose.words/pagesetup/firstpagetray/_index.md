@@ -25,26 +25,13 @@ Document doc = new Document();
 // Вы можете определить конкретный принтер, используя свойство PrinterName объекта PrinterSettings.
 PrinterSettings settings = new PrinterSettings();
 
-// Это лоток, который мы будем использовать для страниц формата "A4".
-int printerTrayForA4 = settings.PaperSources[0].RawKind;
-
-// Это лоток, который мы будем использовать для страниц формата "Letter".
-int printerTrayForLetter = settings.PaperSources[1].RawKind;
-
-// Измените объект PageSettings этого раздела, чтобы Microsoft Word проинструктировал принтер
-// чтобы использовать один из указанных выше лотков, в зависимости от размера бумаги в этом разделе.
+// Значение лотка для бумаги, хранящееся в документах, зависит от принтера.
+// Это означает, что приведенный ниже код сбрасывает все значения лотка для страниц, чтобы использовать лоток по умолчанию для текущего принтера.
+// Вы можете перечислить PrinterSettings.PaperSources, чтобы найти другие допустимые значения лотка для бумаги выбранного принтера.
 foreach (Section section in doc.Sections.OfType<Section>())
 {
-    if (section.PageSetup.PaperSize == Aspose.Words.PaperSize.Letter)
-    {
-        section.PageSetup.FirstPageTray = printerTrayForLetter;
-        section.PageSetup.OtherPagesTray = printerTrayForLetter;
-    }
-    else if (section.PageSetup.PaperSize == Aspose.Words.PaperSize.A4)
-    {
-        section.PageSetup.FirstPageTray = printerTrayForA4;
-        section.PageSetup.OtherPagesTray = printerTrayForA4;
-    }
+    section.PageSetup.FirstPageTray = settings.DefaultPageSettings.PaperSource.RawKind;
+    section.PageSetup.OtherPagesTray = settings.DefaultPageSettings.PaperSource.RawKind;
 }
 ```
 
@@ -64,7 +51,7 @@ int printerTrayForA4 = settings.PaperSources[0].RawKind;
 int printerTrayForLetter = settings.PaperSources[1].RawKind;
 
 // Измените объект PageSettings этого раздела, чтобы Microsoft Word проинструктировал принтер
-// чтобы использовать один из указанных выше лотков, в зависимости от размера бумаги в этом разделе.
+// для использования одного из лотков, указанных выше, в зависимости от размера бумаги в этом разделе.
 foreach (Section section in doc.Sections.OfType<Section>())
 {
     if (section.PageSetup.PaperSize == Aspose.Words.PaperSize.Letter)

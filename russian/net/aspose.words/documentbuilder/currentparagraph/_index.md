@@ -1,14 +1,14 @@
 ---
 title: CurrentParagraph
 second_title: Справочник по API Aspose.Words для .NET
-description: Получает абзац выбранный в данный момент в этом DocumentBuilder.
+description: Получает абзац выбранный в настоящий момент в этом DocumentBuilder.
 type: docs
 weight: 50
 url: /ru/net/aspose.words/documentbuilder/currentparagraph/
 ---
 ## DocumentBuilder.CurrentParagraph property
 
-Получает абзац, выбранный в данный момент в этом DocumentBuilder.
+Получает абзац, выбранный в настоящий момент в этом DocumentBuilder.
 
 ```csharp
 public Paragraph CurrentParagraph { get; }

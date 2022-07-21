@@ -16,9 +16,9 @@ public FormField InsertComboBox(string name, string[] items, int selectedIndex)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| name | String | 表单字段的名称。可以是空字符串。超过 20 个字符的值将被截断。 |
+| name | String | 表单域的名称。可以是空字符串。超过 20 个字符的值将被截断。 |
 | items | String[] | ComboBox 的项目。最多为 25 个项目。 |
-| selectedIndex | Int32 | ComboBox 中所选项目的索引。 |
+| selectedIndex | Int32 | 组合框中所选项目的索引。 |
 
 ### 返回值
 
@@ -26,31 +26,22 @@ public FormField InsertComboBox(string name, string[] items, int selectedIndex)
 
 ### 评论
 
-如果为表单字段指定名称，则会自动创建具有相同名称的书签姓名。
+如果您为表单域指定名称，则会自动创建具有相同名称的书签。
 
 ### 例子
 
-显示如何将组合框表单域插入到文档中。
+演示如何将组合框表单域插入到文档中。
 
 ```csharp
-DocumentBuilder builder = new DocumentBuilder();
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 表单字段是文档中的对象，用户可以通过提示输入值与之交互。
-// 我们可以使用文档构建器创建它们，下面是两种方法。
-// 1 - 基本文本输入：
-builder.InsertTextInput("My text input", TextFormFieldType.Regular, 
-    "", "Enter your name here", 30);
+// 插入一个表单，提示用户从菜单中选择一项。
+builder.Write("Pick a fruit: ");
+string[] items = { "Apple", "Banana", "Cherry" };
+builder.InsertComboBox("DropDown", items, 0);
 
-// 2 - 带有提示文本和一系列可能值的组合框：
-string[] items =
-{
-    "-- Select your favorite footwear --", "Sneakers", "Oxfords", "Flip-flops", "Other"
-};
-
-builder.InsertParagraph();
-builder.InsertComboBox("My combo box", items, 0);
-
-builder.Document.Save(ArtifactsDir + "DocumentBuilder.CreateForm.docx");
+doc.Save(ArtifactsDir + "DocumentBuilder.InsertComboBox.docx");
 ```
 
 展示如何创建表单域。

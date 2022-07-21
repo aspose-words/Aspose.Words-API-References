@@ -20,11 +20,11 @@ public void Writeln(string text)
 
 ### 评论
 
-Font和[`ParagraphFormat`](../paragraphformat)属性被使用。
+当前字体和段落格式由[`Font`](../font)和[`ParagraphFormat`](../paragraphformat)使用属性。
 
 ### 例子
 
-显示如何构建格式化的 2x2 表。
+展示如何构建格式化的 2x2 表格。
 
 ```csharp
 Document doc = new Document();
@@ -75,7 +75,7 @@ doc.Save(ArtifactsDir + "DocumentBuilder.BuildTable.docx");
 
 ## Writeln() {#writeln}
 
-在文档中插入段落分隔符。
+在文档中插入一个段落分隔符。
 
 ```csharp
 public void Writeln()
@@ -83,11 +83,11 @@ public void Writeln()
 
 ### 评论
 
-调用[`InsertParagraph`](../insertparagraph)。
+来电[`InsertParagraph`](../insertparagraph).
 
 ### 例子
 
-展示如何使用 DocumentBuilder 在文档中创建页眉和页脚。
+演示如何使用 DocumentBuilder 在文档中创建页眉和页脚。
 
 ```csharp
 Document doc = new Document();

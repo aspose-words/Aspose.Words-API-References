@@ -1,14 +1,14 @@
 ---
 title: FieldUpdating
 second_title: Справочник по API Aspose.Words для .NET
-description: Определяемый пользователем метод который вызывается непосредственно перед обновлением поля.
+description: Определенный пользователем метод который вызывается непосредственно перед обновлением поля.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.fields/ifieldupdatingcallback/fieldupdating/
 ---
 ## IFieldUpdatingCallback.FieldUpdating method
 
-Определяемый пользователем метод, который вызывается непосредственно перед обновлением поля.
+Определенный пользователем метод, который вызывается непосредственно перед обновлением поля.
 
 ```csharp
 public void FieldUpdating(Field field)
@@ -61,7 +61,7 @@ public class FieldUpdatingCallback : IFieldUpdatingCallback
     }
 
     /// <summary>
-    /// Определяемый пользователем метод, который вызывается сразу после обновления поля.
+    /// Определенный пользователем метод, который вызывается сразу после обновления поля.
     /// </summary>
     void IFieldUpdatingCallback.FieldUpdated(Field field)
     {

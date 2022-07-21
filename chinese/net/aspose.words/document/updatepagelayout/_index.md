@@ -16,9 +16,9 @@ public void UpdatePageLayout()
 
 ### 评论
 
-此方法将文档格式化为页面并更新文档中的页码相关字段，例如 作为 PAGE、PAGES、PAGEREF 和 REF。将文档 正确呈现为固定页面格式需要最新的页面布局信息。
+此方法将文档格式化为页面，并更新文档中的页码相关字段，例如 PAGE、PAGES、PAGEREF 和 REF。将 document 正确呈现为固定页面格式需要最新的页面布局信息。
 
-当您第一次将文档转换为 PDF、XPS、图像或打印时，会自动调用此方法。 但是，如果您在渲染后修改文档然后尝试再次渲染它 - Aspose.Words 不会 自动更新页面布局。在这种情况下，您应该在 再次渲染之前调用`UpdatePageLayout`。
+当您第一次将文档转换为 PDF、XPS、图像或打印时，会自动调用此方法。 但是，如果您在渲染后修改文档然后尝试再次渲染它 - Aspose.Words 不会 自动更新页面布局。在这种情况下，您应该致电`UpdatePageLayout`before 再次渲染。
 
 ### 例子
 

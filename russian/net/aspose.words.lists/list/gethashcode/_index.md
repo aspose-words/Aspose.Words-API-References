@@ -1,14 +1,14 @@
 ---
 title: GetHashCode
 second_title: Справочник по API Aspose.Words для .NET
-description: Вычисляет хеш-код для этого объекта списка.
+description: Вычисляет хэш-код для этого объекта списка.
 type: docs
 weight: 110
 url: /ru/net/aspose.words.lists/list/gethashcode/
 ---
 ## List.GetHashCode method
 
-Вычисляет хеш-код для этого объекта списка.
+Вычисляет хэш-код для этого объекта списка.
 
 ```csharp
 public override int GetHashCode()

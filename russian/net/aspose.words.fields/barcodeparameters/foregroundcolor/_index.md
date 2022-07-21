@@ -22,14 +22,14 @@ public string ForegroundColor { get; set; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
- // Мы можем использовать собственную реализацию IBarcodeGenerator для генерации штрих-кодов, 
- // и затем вставляем их в документ как изображения.
+// Мы можем использовать собственную реализацию IBarcodeGenerator для генерации штрих-кодов,
+// и затем вставляем их в документ как изображения.
 doc.FieldOptions.BarcodeGenerator = new CustomBarcodeGenerator();
 
- // Ниже приведены четыре примера различных типов штрих-кодов, которые мы можем создать с помощью нашего генератора.
- // Для каждого штрих-кода мы указываем новый набор параметров штрих-кода, а затем генерируем изображение.
+// Ниже приведены четыре примера различных типов штрих-кодов, которые мы можем создать с помощью нашего генератора.
+// Для каждого штрих-кода мы указываем новый набор параметров штрих-кода, а затем генерируем изображение.
 // После этого мы можем вставить изображение в документ или сохранить его в локальной файловой системе.
- // 1 - QR-код: 
+// 1 - QR-код:
 BarcodeParameters barcodeParameters = new BarcodeParameters
 {
     BarcodeType = "QR",
@@ -47,7 +47,7 @@ img.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.QR.jpg");
 
 builder.InsertImage(img);
 
- // 2 - штрих-код EAN13: 
+// 2 - штрих-код EAN13:
 barcodeParameters = new BarcodeParameters
 {
     BarcodeType = "EAN13",
@@ -61,7 +61,7 @@ img = doc.FieldOptions.BarcodeGenerator.GetBarcodeImage(barcodeParameters);
 img.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.EAN13.jpg");
 builder.InsertImage(img);
 
- // 3 - Штрих-код CODE39: 
+// 3 - штрих-код CODE39:
 barcodeParameters = new BarcodeParameters
 {
     BarcodeType = "CODE39",
@@ -73,7 +73,7 @@ img = doc.FieldOptions.BarcodeGenerator.GetBarcodeImage(barcodeParameters);
 img.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.CODE39.jpg");
 builder.InsertImage(img);
 
- // 4 - штрих-код ITF14: 
+// 4 - штрих-код ITF14:
 barcodeParameters = new BarcodeParameters
 {
     BarcodeType = "ITF14",

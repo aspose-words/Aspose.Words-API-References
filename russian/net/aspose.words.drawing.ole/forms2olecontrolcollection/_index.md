@@ -1,14 +1,14 @@
 ---
 title: Forms2OleControlCollection
 second_title: Справочник по API Aspose.Words для .NET
-description: Представляет набор объектовForms2OleControl./forms2olecontrol.
+description: Представляет наборForms2OleControl./forms2olecontrol объекты.
 type: docs
 weight: 990
 url: /ru/net/aspose.words.drawing.ole/forms2olecontrolcollection/
 ---
 ## Forms2OleControlCollection class
 
-Представляет набор объектов[`Forms2OleControl`](../forms2olecontrol).
+Представляет набор[`Forms2OleControl`](../forms2olecontrol) объекты.
 
 ```csharp
 public class Forms2OleControlCollection
@@ -25,7 +25,7 @@ public class Forms2OleControlCollection
 | Имя | Описание |
 | --- | --- |
 | [Count](../../aspose.words.drawing.ole/forms2olecontrolcollection/count) { get; } | Получает количество объектов в коллекции. |
-| [Item](../../aspose.words.drawing.ole/forms2olecontrolcollection/item) { get; } | Получает объект[`Forms2OleControl`](../forms2olecontrol)по указанному индексу. |
+| [Item](../../aspose.words.drawing.ole/forms2olecontrolcollection/item) { get; } | получает[`Forms2OleControl`](../forms2olecontrol)объект по указанному индексу. |
 
 ### Примеры
 

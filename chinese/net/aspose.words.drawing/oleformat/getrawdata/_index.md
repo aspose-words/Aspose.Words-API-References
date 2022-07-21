@@ -16,7 +16,7 @@ public byte[] GetRawData()
 
 ### 例子
 
-显示如何访问嵌入的 OLE 对象的原始数据。
+演示如何访问嵌入式 OLE 对象的原始数据。
 
 ```csharp
 Document doc = new Document(MyDir + "OLE objects.docx");

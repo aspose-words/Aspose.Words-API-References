@@ -16,7 +16,7 @@ public virtual DmlEffectsRenderingMode DmlEffectsRenderingMode { get; set; }
 
 ### Примечания
 
-Значение по умолчанию:Simplified.
+Значение по умолчанию:Simplified .
 
 Это свойство используется, когда документ экспортируется в фиксированные форматы страниц.
 

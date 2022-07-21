@@ -1,14 +1,14 @@
 ---
 title: IsUnicode
 second_title: Справочник по API Aspose.Words для .NET
-description: Получает или задает интерпретируется ли код символа как значение символа Юникода.
+description: Получает или задает интерпретируется ли код символа как значение символа Unicode.
 type: docs
 weight: 80
 url: /ru/net/aspose.words.fields/fieldsymbol/isunicode/
 ---
 ## FieldSymbol.IsUnicode property
 
-Получает или задает, интерпретируется ли код символа как значение символа Юникода.
+Получает или задает, интерпретируется ли код символа как значение символа Unicode.
 
 ```csharp
 public bool IsUnicode { get; set; }

@@ -45,12 +45,10 @@ public void Solid(Color color)
 ```csharp
 Document doc = new Document(MyDir + "Two color gradient.docx");
 
- // 获取第一个 Run.
- 的 Font 的 Fill 对象
+// 获取第一个 Run 的 Font 的 Fill 对象。
 Fill fill = doc.FirstSection.Body.Paragraphs[0].Runs[0].Font.Fill;
 
-// 检查 Font.
- 的填充属性
+// 检查字体的填充属性。
 Console.WriteLine("The type of the fill is: {0}", fill.FillType);
 Console.WriteLine("The foreground color of the fill is: {0}", fill.ForeColor);
 Console.WriteLine("The fill is transparent at {0}%", fill.Transparency * 100);

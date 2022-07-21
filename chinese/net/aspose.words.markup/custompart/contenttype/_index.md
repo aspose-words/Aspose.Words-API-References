@@ -16,7 +16,7 @@ public string ContentType { get; set; }
 
 ### 评论
 
-此属性仅适用于IsExternal是` false` 。
+此属性仅适用于[`IsExternal`](../isexternal)是`错误的`.
 
 默认值为空字符串。有效值必须是非空字符串。
 

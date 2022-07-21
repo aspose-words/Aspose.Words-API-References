@@ -1,14 +1,14 @@
 ---
 title: DistanceLeft
 second_title: Aspose.Words for .NET API 参考
-description: 返回或设置文档文本与形状左边缘之间的距离以磅为单位
+description: 返回或设置文档文本和形状左边缘之间的距离以磅为单位
 type: docs
 weight: 140
 url: /zh/net/aspose.words.drawing/shapebase/distanceleft/
 ---
 ## ShapeBase.DistanceLeft property
 
-返回或设置文档文本与形状左边缘之间的距离（以磅为单位）。
+返回或设置文档文本和形状左边缘之间的距离（以磅为单位）。
 
 ```csharp
 public double DistanceLeft { get; set; }
@@ -22,7 +22,7 @@ public double DistanceLeft { get; set; }
 
 ### 例子
 
-显示如何设置围绕形状的文本的环绕距离。
+演示如何为围绕形状的文本设置环绕距离。
 
 ```csharp
 Document doc = new Document();

@@ -1,14 +1,14 @@
 ---
 title: AllCaps
 second_title: Справочник по API Aspose.Words для .NET
-description: Истинно если шрифт отформатирован как все заглавные буквы.
+description: Истинно если шрифт отформатирован так чтобы все буквы были заглавными.
 type: docs
 weight: 10
 url: /ru/net/aspose.words/font/allcaps/
 ---
 ## Font.AllCaps property
 
-Истинно, если шрифт отформатирован как все заглавные буквы.
+Истинно, если шрифт отформатирован так, чтобы все буквы были заглавными.
 
 ```csharp
 public bool AllCaps { get; set; }

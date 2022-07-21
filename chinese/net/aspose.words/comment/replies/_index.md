@@ -1,14 +1,14 @@
 ---
 title: Replies
 second_title: Aspose.Words for .NET API 参考
-description: 返回指定评论的直接子代Commentaspose.words/comment对象的集合
+description: 返回一个集合Commentaspose.words/comment作为指定注释的直接子级的对象
 type: docs
 weight: 90
 url: /zh/net/aspose.words/comment/replies/
 ---
 ## Comment.Replies property
 
-返回指定评论的直接子代[`Comment`](../../comment)对象的集合。
+返回一个集合[`Comment`](../../comment)作为指定注释的直接子级的对象。
 
 ```csharp
 public CommentCollection Replies { get; }
@@ -23,8 +23,8 @@ Document doc = new Document(MyDir + "Comments.docx");
 
 NodeCollection comments = doc.GetChildNodes(NodeType.Comment, true);
 
- // 如果评论没有祖先，则它是“顶级”评论，而不是回复类型的评论。
- // 打印所有顶级评论以及他们可能拥有的任何回复。
+// 如果评论没有祖先，则它是“顶级”评论，而不是回复类型的评论。
+// 打印所有顶级评论以及他们可能拥有的任何回复。
 foreach (Comment comment in comments.OfType<Comment>().Where(c => c.Ancestor == null))
 {
     Console.WriteLine("Top-level comment:");

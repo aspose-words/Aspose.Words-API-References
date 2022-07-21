@@ -1,14 +1,14 @@
 ---
 title: FontNameSubstitution
 second_title: Aspose.Words for .NET API 参考
-description: 字体名称替换规则相关设置
+description: 与字体名称替换规则相关的设置
 type: docs
 weight: 40
 url: /zh/net/aspose.words.fonts/fontsubstitutionsettings/fontnamesubstitution/
 ---
 ## FontSubstitutionSettings.FontNameSubstitution property
 
-字体名称替换规则相关设置。
+与字体名称替换规则相关的设置。
 
 ```csharp
 public FontNameSubstitutionRule FontNameSubstitution { get; }

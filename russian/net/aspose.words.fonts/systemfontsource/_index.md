@@ -3,7 +3,7 @@ title: SystemFontSource
 second_title: Справочник по API Aspose.Words для .NET
 description: Представляет все шрифты TrueType установленные в системе.
 type: docs
-weight: 2820
+weight: 2870
 url: /ru/net/aspose.words.fonts/systemfontsource/
 ---
 ## SystemFontSource class
@@ -18,8 +18,8 @@ public class SystemFontSource : FontSourceBase
 
 | Имя | Описание |
 | --- | --- |
-| [SystemFontSource](systemfontsource#constructor)() | Ктор. |
-| [SystemFontSource](systemfontsource#constructor_1)(int) | Ктор. |
+| [SystemFontSource](systemfontsource#constructor)() | Стор. |
+| [SystemFontSource](systemfontsource#constructor_1)(int) | Стор. |
 
 ## Характеристики
 

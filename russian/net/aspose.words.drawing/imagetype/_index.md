@@ -22,14 +22,14 @@ public enum ImageType
 | Unknown | `1` | Неизвестный тип изображения или тип изображения, который нельзя напрямую сохранить в документе Microsoft Word. |
 | Emf | `2` | Расширенный метафайл Windows. |
 | Wmf | `3` | Метафайл Windows. |
-| Pict | `4` | Macintosh PICT. Существующее изображение будет сохранено в документе, но вставка новых изображений PICT в документ не поддерживается. |
+| Pict | `4` | Macintosh ИЗОБРАЖЕНИЕ. Существующее изображение будет сохранено в документе, но вставка новых изображений PICT в документ не поддерживается. |
 | Jpeg | `5` | JPEG JFIF. |
 | Png | `6` | Портативная сетевая графика. |
 | Bmp | `7` | Растровое изображение Windows. |
 
 ### Примеры
 
-Показывает, как добавить изображение к фигуре и проверить его тип.
+Показывает, как добавить изображение к фигуре и проверить ее тип.
 
 ```csharp
 Document doc = new Document();
@@ -41,7 +41,7 @@ using (MemoryStream stream = new MemoryStream(imageBytes))
 {
     Image image = Image.FromStream(stream);
 
-     // Изображение в URL имеет формат .gif. Вставка его в документ преобразует его в .png.
+    // Изображение в URL имеет формат .gif. Вставка его в документ преобразует его в .png.
     Shape imgShape = builder.InsertImage(image);
     Assert.AreEqual(ImageType.Jpeg, imgShape.ImageData.ImageType);
 }

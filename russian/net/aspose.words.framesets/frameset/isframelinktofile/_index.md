@@ -1,14 +1,14 @@
 ---
 title: IsFrameLinkToFile
 second_title: Справочник по API Aspose.Words для .NET
-description: Получает или задает значение указывающее указано ли имя файла веб-страницы или документа в FrameDefaultUrlявляется внешним ресурсом с которым связан фрейм.
+description: Получает или задает значение указывающее является ли имя файла веб-страницы или документа указанным в параметре .FrameDefaultUrlaspose.words.framesets/frameset/framedefaulturl свойство  это внешний ресурс с которым связан фрейм.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.framesets/frameset/isframelinktofile/
 ---
 ## Frameset.IsFrameLinkToFile property
 
-Получает или задает значение, указывающее, указано ли имя файла веб-страницы или документа в FrameDefaultUrlявляется внешним ресурсом, с которым связан фрейм.
+Получает или задает значение, указывающее, является ли имя файла веб-страницы или документа указанным в параметре .[`FrameDefaultUrl`](../framedefaulturl) свойство — это внешний ресурс, с которым связан фрейм.
 
 ```csharp
 public bool IsFrameLinkToFile { get; set; }
@@ -16,7 +16,7 @@ public bool IsFrameLinkToFile { get; set; }
 
 ### Примеры
 
-Показывает, как получить доступ к кадрам на странице.
+Показывает, как получить доступ к фреймам на странице.
 
 ```csharp
 // Документ содержит несколько фреймов со ссылками на другие документы.

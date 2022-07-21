@@ -1,14 +1,14 @@
 ---
 title: IsRanged
 second_title: Справочник по API Aspose.Words для .NET
-description: Возвращает true если этот экземпляр представляет собой ранжированный структурированный тег документа.
+description: Возвращает значение true если этот экземпляр является ранжированным тегом структурированного документа.
 type: docs
 weight: 140
 url: /ru/net/aspose.words.markup/istructureddocumenttag/isranged/
 ---
 ## IStructuredDocumentTag.IsRanged method
 
-Возвращает true, если этот экземпляр представляет собой ранжированный структурированный тег документа.
+Возвращает значение true, если этот экземпляр является ранжированным тегом структурированного документа.
 
 ```csharp
 public bool IsRanged()

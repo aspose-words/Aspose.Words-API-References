@@ -1,14 +1,14 @@
 ---
 title: SuppressAuthor
 second_title: Справочник по API Aspose.Words для .NET
-description: Получает или задает будет ли информация об авторе исключена из цитирования.
+description: Получает или задает скрыта ли информация об авторе из цитирования.
 type: docs
 weight: 80
 url: /ru/net/aspose.words.fields/fieldcitation/suppressauthor/
 ---
 ## FieldCitation.SuppressAuthor property
 
-Получает или задает, будет ли информация об авторе исключена из цитирования.
+Получает или задает, скрыта ли информация об авторе из цитирования.
 
 ```csharp
 public bool SuppressAuthor { get; set; }
@@ -16,7 +16,7 @@ public bool SuppressAuthor { get; set; }
 
 ### Примеры
 
-Показывает, как работать с полями ЦИТАТА и БИБЛИОГРАФИЯ.
+Показывает, как работать с полями ЦИТАЦИЯ и БИБЛИОГРАФИЯ.
 
 ```csharp
 // Открываем документ, содержащий библиографические источники, которые мы можем найти в

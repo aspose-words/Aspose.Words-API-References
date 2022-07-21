@@ -3,7 +3,7 @@ title: TaskPane
 second_title: Справочник по API Aspose.Words для .NET
 description: Представляет объект области задач надстройки.
 type: docs
-weight: 6350
+weight: 6400
 url: /ru/net/aspose.words.webextensions/taskpane/
 ---
 ## TaskPane class
@@ -24,12 +24,12 @@ public class TaskPane
 
 | Имя | Описание |
 | --- | --- |
-| [DockState](../../aspose.words.webextensions/taskpane/dockstate) { get; set; } | Определяет последнее пристыкованное расположение этого объекта панели задач. |
+| [DockState](../../aspose.words.webextensions/taskpane/dockstate) { get; set; } | Определяет последнее пристыкованное расположение этого объекта области задач. |
 | [IsLocked](../../aspose.words.webextensions/taskpane/islocked) { get; set; } | Указывает, привязана ли область задач к документу в пользовательском интерфейсе и не может быть закрыта пользователем. |
 | [IsVisible](../../aspose.words.webextensions/taskpane/isvisible) { get; set; } | Указывает, отображается ли область задач как видимая по умолчанию при открытии документа. |
-| [Row](../../aspose.words.webextensions/taskpane/row) { get; set; } | Определяет индекс этой панели задач, перечисляемый снаружи внутрь, среди других сохраненных панелей задач, закрепленных в том же расположении по умолчанию. |
+| [Row](../../aspose.words.webextensions/taskpane/row) { get; set; } | Определяет индекс этой области задач, начиная от внешней к внутренней, среди других областей задач persisted , закрепленных в том же расположении по умолчанию. |
 | [WebExtension](../../aspose.words.webextensions/taskpane/webextension) { get; } | Представляет объект веб-расширения. |
-| [Width](../../aspose.words.webextensions/taskpane/width) { get; set; } | Указывает значение ширины по умолчанию для этого экземпляра панели задач. |
+| [Width](../../aspose.words.webextensions/taskpane/width) { get; set; } | Указывает значение ширины по умолчанию для этого экземпляра области задач. |
 
 ### Примеры
 

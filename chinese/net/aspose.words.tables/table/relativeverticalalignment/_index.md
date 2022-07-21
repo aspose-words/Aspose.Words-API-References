@@ -1,14 +1,14 @@
 ---
 title: RelativeVerticalAlignment
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置浮动表格相对垂直对齐方式
+description: 获取或设置浮动表相对垂直对齐方式
 type: docs
 weight: 240
 url: /zh/net/aspose.words.tables/table/relativeverticalalignment/
 ---
 ## Table.RelativeVerticalAlignment property
 
-获取或设置浮动表格相对垂直对齐方式。
+获取或设置浮动表相对垂直对齐方式。
 
 ```csharp
 public VerticalAlignment RelativeVerticalAlignment { get; set; }
@@ -28,7 +28,7 @@ builder.Write("Table 1, cell 1");
 builder.EndTable();
 table.PreferredWidth = PreferredWidth.FromPoints(300);
 
- // 将表格的位置设置为页面上的某个位置，例如在本例中为右下角。
+// 将表格的位置设置为页面上的某个位置，例如在本例中为右下角。
 table.RelativeVerticalAlignment = VerticalAlignment.Bottom;
 table.RelativeHorizontalAlignment = HorizontalAlignment.Right;
 
@@ -38,7 +38,7 @@ builder.Write("Table 2, cell 1");
 builder.EndTable();
 table.PreferredWidth = PreferredWidth.FromPoints(300);
 
- // 我们还可以设置从插入表格的段落位置开始的水平和垂直偏移量。 
+// 我们还可以设置从插入表格的段落位置开始的水平和垂直偏移量。 
 table.AbsoluteVerticalDistance = 50;
 table.AbsoluteHorizontalDistance = 100;
 

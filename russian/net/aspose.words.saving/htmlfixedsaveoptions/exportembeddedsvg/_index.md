@@ -1,14 +1,14 @@
 ---
 title: ExportEmbeddedSvg
 second_title: Справочник по API Aspose.Words для .NET
-description: Указывает следует ли встраивать ресурсы SVG в HTML-документ. Значение по умолчанию true .
+description: Указывает следует ли встраивать ресурсы SVG в HTML-документ. Значение по умолчаниюистинный .
 type: docs
 weight: 70
 url: /ru/net/aspose.words.saving/htmlfixedsaveoptions/exportembeddedsvg/
 ---
 ## HtmlFixedSaveOptions.ExportEmbeddedSvg property
 
-Указывает, следует ли встраивать ресурсы SVG в HTML-документ. Значение по умолчанию:` true` .
+Указывает, следует ли встраивать ресурсы SVG в HTML-документ. Значение по умолчанию:`истинный` .
 
 ```csharp
 public bool ExportEmbeddedSvg { get; set; }
@@ -21,12 +21,12 @@ public bool ExportEmbeddedSvg { get; set; }
 ```csharp
 Document doc = new Document(MyDir + "Images.docx");
 
- // Когда мы экспортируем документ с объектами SVG в .html,
- // Aspose.Words может размещать эти объекты в двух возможных местах.
- // Установка флага «ExportEmbeddedSvg» в значение «true» приведет к встраиванию всех необработанных объектов SVG data
- // в выходном HTML, внутри <image> теги.
- // Установка этого флага в "false" создаст файл в локальной файловой системе для каждого объекта SVG.
- // HTML будет ссылаться на каждый файл, используя атрибут "data" объекта <object> тег.
+// Когда мы экспортируем документ с объектами SVG в .html,
+// Aspose.Words может размещать эти объекты в двух возможных местах.
+// Установка флага «ExportEmbeddedSvg» в значение «true» приведет к внедрению всех необработанных данных объекта SVG
+// в выходном HTML, внутри <image> теги.
+// Установка этого флага в "false" создаст файл в локальной файловой системе для каждого объекта SVG.
+// HTML будет ссылаться на каждый файл, используя атрибут "data" объекта <object> ярлык.
 HtmlFixedSaveOptions htmlFixedSaveOptions = new HtmlFixedSaveOptions
 {
     ExportEmbeddedSvg = exportSvgs

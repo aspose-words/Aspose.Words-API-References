@@ -1,14 +1,14 @@
 ---
 title: SaveFormat
 second_title: Aspose.Words for .NET API 参考
-description: 如果使用此保存选项对象则指定保存文档的格式
+description: 指定使用此保存选项对象时文档的保存格式
 type: docs
 weight: 140
 url: /zh/net/aspose.words.saving/saveoptions/saveformat/
 ---
 ## SaveOptions.SaveFormat property
 
-如果使用此保存选项对象，则指定保存文档的格式。
+指定使用此保存选项对象时文档的保存格式。
 
 ```csharp
 public abstract SaveFormat SaveFormat { get; set; }
@@ -16,7 +16,7 @@ public abstract SaveFormat SaveFormat { get; set; }
 
 ### 例子
 
-显示在将文档保存到 .epub 时如何使用特定编码。
+显示将文档保存到 .epub 时如何使用特定编码。
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");

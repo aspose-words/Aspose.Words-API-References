@@ -1,14 +1,14 @@
 ---
 title: ImageCompression
 second_title: Aspose.Words for .NET API 参考
-description: 指定要用于文档中所有图像的压缩类型
+description: 指定用于文档中所有图像的压缩类型
 type: docs
 weight: 170
 url: /zh/net/aspose.words.saving/pdfsaveoptions/imagecompression/
 ---
 ## PdfSaveOptions.ImageCompression property
 
-指定要用于文档中所有图像的压缩类型。
+指定用于文档中所有图像的压缩类型。
 
 ```csharp
 public PdfImageCompression ImageCompression { get; set; }
@@ -18,15 +18,15 @@ public PdfImageCompression ImageCompression { get; set; }
 
 默认为Auto.
 
-使用Jpeg让您可以通过以下方式控制输出文档中的图像质量[`JpegQuality`](../jpegquality)属性。
+使用Jpeg让您可以通过[`JpegQuality`](../jpegquality)财产。
 
-与其他压缩类型的性能相比，使用Jpeg提供最快的转换速度, 但在这种情况下，存在有损 JPEG 压缩。
+使用Jpeg与其他压缩类型的性能相比， 提供了最快的转换速度，但在这种情况下，存在有损 JPEG 压缩。
 
-使用Auto可以通过以下方式控制输出文档中 Jpeg 的质量[`JpegQuality`](../jpegquality)属性, 但对于其他格式，原始像素数据会被提取并使用 Flate 压缩进行保存。 这种情况比Jpeg转换慢但是无损。
+使用Auto让我们通过控制输出文档中 Jpeg 的质量[`JpegQuality`](../jpegquality)属性， ，但对于其他格式，原始像素数据通过Flate压缩提取并保存。 这种情况比Jpeg转换慢但无损。
 
 ### 例子
 
-显示如何为我们要转换为 PDF 的文档中的所有图像指定压缩类型。
+演示如何为我们要转换为 PDF 的文档中的所有图像指定压缩类型。
 
 ```csharp
 Document doc = new Document();

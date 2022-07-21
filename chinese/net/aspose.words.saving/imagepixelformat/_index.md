@@ -3,7 +3,7 @@ title: ImagePixelFormat
 second_title: Aspose.Words for .NET API 参考
 description: 指定文档页面生成图像的像素格式
 type: docs
-weight: 4910
+weight: 4960
 url: /zh/net/aspose.words.saving/imagepixelformat/
 ---
 ## ImagePixelFormat enumeration
@@ -18,21 +18,21 @@ public enum ImagePixelFormat
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| Format16BppRgb555 | `0` | 每像素 16 位，RGB。 |
-| Format16BppRgb565 | `1` | 每像素 16 位，RGB。 |
-| Format16BppArgb1555 | `2` | 每像素 16 位，ARGB。 |
-| Format24BppRgb | `3` | 每像素 24 位，RGB。 |
-| Format32BppRgb | `4` | 每像素 32 位，RGB。 |
-| Format32BppArgb | `5` | 每像素 32 位，ARGB。 |
+| Format16BppRgb555 | `0` | 每像素 16 位，RGB. |
+| Format16BppRgb565 | `1` | 每像素 16 位，RGB. |
+| Format16BppArgb1555 | `2` | 每像素 16 位，ARGB. |
+| Format24BppRgb | `3` | 每像素 24 位，RGB. |
+| Format32BppRgb | `4` | 每像素 32 位，RGB. |
+| Format32BppArgb | `5` | 每像素 32 位，ARGB. |
 | Format32BppPArgb | `6` | 每像素 32 位，ARGB，预乘 alpha。 |
-| Format48BppRgb | `7` | 每像素 48 位，RGB。 |
-| Format64BppArgb | `8` | 每像素 64 位，ARGB。 |
+| Format48BppRgb | `7` | 每像素 48 位，RGB. |
+| Format64BppArgb | `8` | 每像素 64 位，ARGB. |
 | Format64BppPArgb | `9` | 每像素 64 位，ARGB，预乘 alpha。 |
-| Format1bppIndexed | `10` | 每像素 1 位，已编入索引。 |
+| Format1bppIndexed | `10` | 每像素 1 位，已索引。 |
 
 ### 例子
 
-显示如何选择将文档呈现为图像的每像素比特率。
+演示如何选择将文档呈现为图像的每像素比特率。
 
 ```csharp
 Document doc = new Document();

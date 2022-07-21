@@ -20,7 +20,7 @@ public void Writeln(string text)
 
 ### Примечания
 
-Текущий шрифт и форматирование абзаца, указанныеFontи[`ParagraphFormat`](../paragraphformat).
+Текущий шрифт и форматирование абзаца, указанные[`Font`](../font) а также[`ParagraphFormat`](../paragraphformat) используются свойства.
 
 ### Примеры
 
@@ -83,7 +83,7 @@ public void Writeln()
 
 ### Примечания
 
-Вызовы[`InsertParagraph`](../insertparagraph).
+Звонки[`InsertParagraph`](../insertparagraph).
 
 ### Примеры
 

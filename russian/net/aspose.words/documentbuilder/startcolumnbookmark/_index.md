@@ -1,14 +1,14 @@
 ---
 title: StartColumnBookmark
 second_title: Справочник по API Aspose.Words для .NET
-description: Отмечает текущую позицию в документе как начало закладки столбца. Позиция должна быть в ячейке таблицы.
+description: Помечает текущую позицию в документе как начало закладки столбца. Позиция должна быть в ячейке таблицы.
 type: docs
 weight: 590
 url: /ru/net/aspose.words/documentbuilder/startcolumnbookmark/
 ---
 ## DocumentBuilder.StartColumnBookmark method
 
-Отмечает текущую позицию в документе как начало закладки столбца. Позиция должна быть в ячейке таблицы.
+Помечает текущую позицию в документе как начало закладки столбца. Позиция должна быть в ячейке таблицы.
 
 ```csharp
 public BookmarkStart StartColumnBookmark(string bookmarkName)
@@ -16,7 +16,7 @@ public BookmarkStart StartColumnBookmark(string bookmarkName)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| bookmarkName | String | Имя закладки. |
+| bookmarkName | String | Название закладки. |
 
 ### Возвращаемое значение
 
@@ -24,11 +24,11 @@ public BookmarkStart StartColumnBookmark(string bookmarkName)
 
 ### Примечания
 
-Закладка столбца охватывает один или несколько столбцов в диапазоне строк. Чтобы создать действительную закладку, вам нужно вызвать как`StartColumnBookmark`, так и[`EndColumnBookmark`](../endcolumnbookmark)с тем же параметром  **bookmarkName** .
+Закладка столбца охватывает один или несколько столбцов в диапазоне строк. Чтобы создать действительную закладку, you нужно вызвать оба`StartColumnBookmark` а также[`EndColumnBookmark`](../endcolumnbookmark) с тем же  **bookmarkName** параметр.
 
 Неправильно сформированные закладки или закладки с повторяющимися именами будут игнорироваться при сохранении документа.
 
-Фактическое положение вставленного узла[`BookmarkStart`](../../bookmarkstart)может отличаться от текущего документа должность строителя.
+Фактическое положение вставленного[`BookmarkStart`](../../bookmarkstart) node может отличаться от текущей позиции построителя document .
 
 ### Примеры
 

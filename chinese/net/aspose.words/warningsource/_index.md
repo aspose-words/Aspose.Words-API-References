@@ -3,7 +3,7 @@ title: WarningSource
 second_title: Aspose.Words for .NET API 参考
 description: 指定在文档加载或保存期间产生警告的模块
 type: docs
-weight: 6290
+weight: 6340
 url: /zh/net/aspose.words/warningsource/
 ---
 ## WarningSource enumeration
@@ -32,7 +32,7 @@ public enum WarningSource
 | Text | `11` | 读取/写入纯文本文件的模块。 |
 | Rtf | `12` | 读取/写入 RTF 文件的模块。 |
 | WordML | `13` | 读取/写入 WML 文件的模块。 |
-| Nrx | `14` | DOCX/WML 读取器/写入器模块之间共享的公共模块。 |
+| Nrx | `14` | DOCX/WML 读取器/写入器模块之间共享的通用模块。 |
 | Odt | `15` | 读取/写入 ODT 文件的模块。 |
 | Html | `16` | 读取/写入 HTML/MHTML 文件的模块。 |
 | Validator | `17` | 验证模型一致性和有效性的模块。 |

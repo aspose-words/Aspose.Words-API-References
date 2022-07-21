@@ -1,14 +1,14 @@
 ---
 title: FontsFolderAlias
 second_title: Справочник по API Aspose.Words для .NET
-description: Задает имя папки используемой для создания URI шрифтов записываемых в документ HTML. По умолчанию пустая строка.
+description: Указывает имя папки используемой для построения URI шрифтов записываемых в документ HTML. По умолчанию  пустая строка.
 type: docs
 weight: 330
 url: /ru/net/aspose.words.saving/htmlsaveoptions/fontsfolderalias/
 ---
 ## HtmlSaveOptions.FontsFolderAlias property
 
-Задает имя папки, используемой для создания URI шрифтов, записываемых в документ HTML. По умолчанию пустая строка.
+Указывает имя папки, используемой для построения URI шрифтов, записываемых в документ HTML. По умолчанию — пустая строка.
 
 ```csharp
 public string FontsFolderAlias { get; set; }
@@ -16,15 +16,15 @@ public string FontsFolderAlias { get; set; }
 
 ### Примечания
 
-При сохранении[`Document`](../../../aspose.words/document)в формате HTML и[`ExportFontResources`](../exportfontresources) установлен в` true` , Aspose.Words необходимо сохранять шрифты, используемые в документе, как отдельные файлы. [`FontsFolder`](../fontsfolder)позволяет указать, куда будут сохраняться шрифты и `FontsFolderAlias`позволяет указать, как будут создаваться URI шрифта.
+Когда вы сохраняете[`Document`](../../../aspose.words/document) в формате HTML и[`ExportFontResources`](../exportfontresources) установлен на`истинный` , Aspose.Words необходимо сохранять шрифты, используемые в документе, как отдельные файлы. [`FontsFolder`](../fontsfolder) позволяет указать, где будут сохраняться шрифты и `FontsFolderAlias` позволяет указать, как будут создаваться URI шрифта.
 
-Если`FontsFolderAlias`не является пустой строкой, то URI шрифта записывается в HTML будет FontsFolderAlias + &lt;имя файла шрифта&gt; .
+Если`FontsFolderAlias` не является пустой строкой, то URI шрифта, написанный в HTML, будетFontsFolderAlias + &lt;имя файла шрифта&gt;.
 
-Если`FontsFolderAlias`пустая строка, то URI шрифта записывается в HTML будет FontsFolder + &lt;имя файла шрифта&gt; .
+Если`FontsFolderAlias` является пустой строкой, тогда URI шрифта, записанный в HTML, будетFontsFolder + &lt;имя файла шрифта&gt;.
 
-Если`FontsFolderAlias`имеет значение '.' (точка), то имя файла шрифта будет записано в HTML без пути независимо от других параметров.
+Если`FontsFolderAlias`установлен в '.' (точка), то имя файла шрифта будет записано в HTML без пути независимо от других параметров.
 
-Альтернативный способ указать имя папки для создания URI шрифта использовать[`ResourceFolderAlias`](../resourcefolderalias).
+Альтернативный способ указать имя папки для построения шрифта URIs — использовать[`ResourceFolderAlias`](../resourcefolderalias).
 
 ### Примеры
 

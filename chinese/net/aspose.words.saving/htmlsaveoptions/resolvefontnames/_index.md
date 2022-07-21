@@ -1,14 +1,14 @@
 ---
 title: ResolveFontNames
 second_title: Aspose.Words for .NET API 参考
-description: 指定文档中使用的字体系列名称是否根据 Document进行解析和替换FontSettings写入基于 HTML 的格式时
+description: 指定文档中使用的字体家族名称是否根据 解析和替换FontSettingsaspose.words/document/fontsettings当被写入基于 HTML 的格式时
 type: docs
 weight: 410
 url: /zh/net/aspose.words.saving/htmlsaveoptions/resolvefontnames/
 ---
 ## HtmlSaveOptions.ResolveFontNames property
 
-指定文档中使用的字体系列名称是否根据 Document进行解析和替换。FontSettings写入基于 HTML 的格式时。
+指定文档中使用的字体家族名称是否根据 解析和替换[`FontSettings`](../../../aspose.words/document/fontsettings)当被写入基于 HTML 的格式时。
 
 ```csharp
 public bool ResolveFontNames { get; set; }
@@ -16,9 +16,9 @@ public bool ResolveFontNames { get; set; }
 
 ### 评论
 
-默认情况下，此选项设置为` false` 和字体系列名称按照源文档中指定的 写入 HTML。也就是说，[`FontSettings`](../../../aspose.words/document/fontsettings)被忽略并且不解析或替换 字体系列名称。
+默认情况下，此选项设置为`错误的`和字体系列名称以源文档中指定的 形式写入 HTML。那是，[`FontSettings`](../../../aspose.words/document/fontsettings)被忽略并且不执行字体系列名称的解析或替换 。
 
-如果此选项设置为` true` ，Aspose.Words 使用PAspose.Words.Document.FontSettings将源文档中指定的每个字体系列名称解析为可用字体系列的名称，根据需要执行 字体替换.
+如果此选项设置为`真的` Aspose.Words 使用[`FontSettings`](../../../aspose.words/document/fontsettings)将源文档中指定的 每个字体系列名称解析为可用字体系列的名称，根据需要执行 字体替换。
 
 ### 例子
 

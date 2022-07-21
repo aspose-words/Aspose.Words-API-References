@@ -16,11 +16,11 @@ public string ServerUrl { get; set; }
 
 ### 评论
 
-默认值为空。 如果为空，则数字签名将不加时间戳。
+默认值为null。 如果为null，则数字签名不会加时间戳。
 
 ### 例子
 
-显示如何对保存的 PDF 文档进行数字签名并为其添加时间戳。
+展示如何以数字方式签署已保存的 PDF 文档并为其添加时间戳。
 
 ```csharp
 Document doc = new Document();

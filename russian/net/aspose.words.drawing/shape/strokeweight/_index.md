@@ -1,14 +1,14 @@
 ---
 title: StrokeWeight
 second_title: Справочник по API Aspose.Words для .NET
-description: Определяет толщину кисти которая обводит контур фигуры в точках.
+description: Определяет толщину кисти которая обводит контур фигуры в пунктах.
 type: docs
 weight: 210
 url: /ru/net/aspose.words.drawing/shape/strokeweight/
 ---
 ## Shape.StrokeWeight property
 
-Определяет толщину кисти, которая обводит контур фигуры в точках.
+Определяет толщину кисти, которая обводит контур фигуры в пунктах.
 
 ```csharp
 public double StrokeWeight { get; set; }
@@ -16,7 +16,7 @@ public double StrokeWeight { get; set; }
 
 ### Примечания
 
-Это ярлык для[`Weight`](../../stroke/weight)свойство.
+Это ярлык для[`Weight`](../../stroke/weight) имущество.
 
 Значение по умолчанию — 0,75.
 

@@ -22,15 +22,13 @@ public StoryType StoryType { get; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
- // 使用 DocumentBuilder 插入一个形状。这是一个内联形状，
- // 其中有一个父Paragraph，它是第一个section的Body.
-的子节点
+// 使用 DocumentBuilder 插入一个形状。这是一个内联形状，
+// 其中有一个父Paragraph，它是第一节Body的子节点。
 builder.InsertShape(ShapeType.Cube, 100.0, 100.0);
 
 Assert.AreEqual(1, doc.GetChildNodes(NodeType.Shape, true).Count);
 
-// 我们可以从这个 Body.
- 的子段落中删除所有形状
+// 我们可以从这个 Body 的子段落中删除所有的形状。
 Assert.AreEqual(StoryType.MainText, doc.FirstSection.Body.StoryType);
 doc.FirstSection.Body.DeleteShapes();
 

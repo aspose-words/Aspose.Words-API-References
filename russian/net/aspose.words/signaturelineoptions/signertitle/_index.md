@@ -1,14 +1,14 @@
 ---
 title: SignerTitle
 second_title: Справочник по API Aspose.Words для .NET
-description: Получает или задает предполагаемый титул подписавшего. Значение по умолчанию для этого свойства пустая строка Empty.
+description: Получает или задает предлагаемый титул подписывающей стороны. Значение по умолчанию для этого свойства пустой строки Empty .
 type: docs
 weight: 80
 url: /ru/net/aspose.words/signaturelineoptions/signertitle/
 ---
 ## SignatureLineOptions.SignerTitle property
 
-Получает или задает предполагаемый титул подписавшего. Значение по умолчанию для этого свойства: **пустая строка** (Empty).
+Получает или задает предлагаемый титул подписывающей стороны. Значение по умолчанию для этого свойства: **пустой строки** (Empty ).
 
 ```csharp
 public string SignerTitle { get; set; }

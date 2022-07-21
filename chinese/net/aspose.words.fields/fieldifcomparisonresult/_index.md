@@ -3,7 +3,7 @@ title: FieldIfComparisonResult
 second_title: Aspose.Words for .NET API 参考
 description: 指定 IF 字段条件评估的结果
 type: docs
-weight: 1820
+weight: 1860
 url: /zh/net/aspose.words.fields/fieldifcomparisonresult/
 ---
 ## FieldIfComparisonResult enumeration
@@ -19,8 +19,8 @@ public enum FieldIfComparisonResult
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
 | Error | `0` | 条件有误。 |
-| True | `1` | 条件是` true` 。 |
-| False | `2` | 条件是` false` 。 |
+| True | `1` | 条件是`真的`. |
+| False | `2` | 条件是`错误的`. |
 
 ### 例子
 

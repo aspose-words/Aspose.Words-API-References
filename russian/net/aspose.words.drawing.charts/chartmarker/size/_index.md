@@ -1,14 +1,14 @@
 ---
 title: Size
 second_title: Справочник по API Aspose.Words для .NET
-description: Получает или задает размер маркера диаграммы. Значение по умолчанию  7.
+description: Получает или задает размер маркера диаграммы. Значение по умолчанию 7.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.drawing.charts/chartmarker/size/
 ---
 ## ChartMarker.Size property
 
-Получает или задает размер маркера диаграммы. Значение по умолчанию — 7.
+Получает или задает размер маркера диаграммы. Значение по умолчанию: 7.
 
 ```csharp
 public int Size { get; set; }

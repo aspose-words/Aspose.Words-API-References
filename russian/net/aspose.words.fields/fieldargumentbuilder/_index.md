@@ -3,7 +3,7 @@ title: FieldArgumentBuilder
 second_title: Справочник по API Aspose.Words для .NET
 description: Создает сложный аргумент поля состоящий из полей узлов и простого текста.
 type: docs
-weight: 1380
+weight: 1400
 url: /ru/net/aspose.words.fields/fieldargumentbuilder/
 ---
 ## FieldArgumentBuilder class
@@ -18,13 +18,13 @@ public class FieldArgumentBuilder
 
 | Имя | Описание |
 | --- | --- |
-| [FieldArgumentBuilder](fieldargumentbuilder)() | Инициализирует экземпляр класса[`FieldArgumentBuilder`](../fieldargumentbuilder). |
+| [FieldArgumentBuilder](fieldargumentbuilder)() | Инициализирует экземпляр[`FieldArgumentBuilder`](../fieldargumentbuilder) класс. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [AddField](../../aspose.words.fields/fieldargumentbuilder/addfield)(FieldBuilder) | Добавляет поле, представленное[`FieldBuilder`](../fieldbuilder)к аргументу. |
+| [AddField](../../aspose.words.fields/fieldargumentbuilder/addfield)(FieldBuilder) | Добавляет поле, представленное[`FieldBuilder`](../fieldbuilder) к аргументу. |
 | [AddNode](../../aspose.words.fields/fieldargumentbuilder/addnode)(Inline) | Добавляет узел к аргументу. |
 | [AddText](../../aspose.words.fields/fieldargumentbuilder/addtext)(string) | Добавляет к аргументу обычный текст. |
 

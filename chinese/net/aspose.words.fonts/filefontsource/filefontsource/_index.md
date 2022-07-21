@@ -1,14 +1,14 @@
 ---
 title: FileFontSource
 second_title: Aspose.Words for .NET API 参考
-description: 克托尔
+description: 克托尔.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.fonts/filefontsource/filefontsource/
 ---
 ## FileFontSource(string) {#constructor}
 
-克托尔。
+克托尔.
 
 ```csharp
 public FileFontSource(string filePath)
@@ -44,7 +44,7 @@ Assert.AreEqual(0, fileFontSource.Priority);
 
 ## FileFontSource(string, int) {#constructor_1}
 
-克托尔。
+克托尔.
 
 ```csharp
 public FileFontSource(string filePath, int priority)
@@ -53,7 +53,7 @@ public FileFontSource(string filePath, int priority)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | filePath | String | 字体文件的路径。 |
-| priority | Int32 | 字体源优先级。有关详细信息，请参阅[`Priority`](../../fontsourcebase/priority)属性说明。 |
+| priority | Int32 | 字体来源优先。见[`Priority`](../../fontsourcebase/priority)属性描述以获取更多信息。 |
 
 ### 例子
 
@@ -81,7 +81,7 @@ Assert.AreEqual(0, fileFontSource.Priority);
 
 ## FileFontSource(string, int, string) {#constructor_2}
 
-克托尔。
+克托尔.
 
 ```csharp
 public FileFontSource(string filePath, int priority, string cacheKey)
@@ -90,8 +90,8 @@ public FileFontSource(string filePath, int priority, string cacheKey)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | filePath | String | 字体文件的路径。 |
-| priority | Int32 | 字体源优先级。有关详细信息，请参阅[`Priority`](../../fontsourcebase/priority)属性说明。 |
-| cacheKey | String | 这个源在缓存中的键。有关详细信息，请参阅[`CacheKey`](../cachekey)属性描述。 |
+| priority | Int32 | 字体来源优先。见[`Priority`](../../fontsourcebase/priority)属性描述以获取更多信息。 |
+| cacheKey | String | 此源在缓存中的键。看[`CacheKey`](../cachekey)属性描述以获取更多信息。 |
 
 ### 例子
 

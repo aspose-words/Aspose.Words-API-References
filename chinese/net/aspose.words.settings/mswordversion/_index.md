@@ -3,7 +3,7 @@ title: MsWordVersion
 second_title: Aspose.Words for .NET API 参考
 description: 允许 Aspose.Wods 模仿 MS Word 版本特定的应用程序行为
 type: docs
-weight: 5510
+weight: 5560
 url: /zh/net/aspose.words.settings/mswordversion/
 ---
 ## MsWordVersion enumeration
@@ -36,19 +36,18 @@ public void OptimizeFor()
 {
     Document doc = new Document();
 
-     // 这个对象包含一个广泛的标志列表，每个文档都是唯一的
-     // 这使我们能够促进与旧版本的 Microsoft Word.
- 的向后兼容性
+    // 此对象包含每个文档唯一的大量标志列表
+    // 这使我们能够促进与旧版本的 Microsoft Word 的向后兼容性。
     CompatibilityOptions options = doc.CompatibilityOptions;
 
     // 打印空白文档的默认设置。
     Console.WriteLine("\nDefault optimization settings:");
     PrintCompatibilityOptions(options);
 
-     // 我们可以在 Microsoft Word 中通过“文件”访问这些设置 -> “选项”-> “高级”-> “...的兼容性选项”.
+    // 我们可以在 Microsoft Word 中通过“文件”访问这些设置 -> “选项”-> “高级”-> “...的兼容性选项”。
     doc.Save(ArtifactsDir + "CompatibilityOptions.OptimizeFor.DefaultSettings.docx");
 
-     // 我们可以使用 OptimizeFor 方法来确保与特定 Microsoft Word 版本的最佳兼容性。
+    // 我们可以使用 OptimizeFor 方法来确保与特定 Microsoft Word 版本的最佳兼容性。
     doc.CompatibilityOptions.OptimizeFor(MsWordVersion.Word2010);
     Console.WriteLine("\nOptimized for Word 2010:");
     PrintCompatibilityOptions(options);
@@ -59,7 +58,7 @@ public void OptimizeFor()
 }
 
 /// <summary>
- /// 按状态对文档的兼容性选项对象中的所有标志进行分组，然后打印每个组。
+/// 按状态对文档的兼容性选项对象中的所有标志进行分组，然后打印每个组。
 /// </summary>
 private static void PrintCompatibilityOptions(CompatibilityOptions options)
 {

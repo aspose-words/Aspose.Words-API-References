@@ -1,14 +1,14 @@
 ---
 title: ClearFormat
 second_title: Aspose.Words for .NET API 参考
-description: 清除此集合中所有ChartDataPointaspose.words.drawing.charts/chartdatapoint的格式
+description: 清除所有格式ChartDataPointaspose.words.drawing.charts/chartdatapoint在这个集合中
 type: docs
 weight: 30
 url: /zh/net/aspose.words.drawing.charts/chartdatapointcollection/clearformat/
 ---
 ## ChartDataPointCollection.ClearFormat method
 
-清除此集合中所有[`ChartDataPoint`](../../chartdatapoint)的格式。
+清除所有格式[`ChartDataPoint`](../../chartdatapoint)在这个集合中。
 
 ```csharp
 public void ClearFormat()

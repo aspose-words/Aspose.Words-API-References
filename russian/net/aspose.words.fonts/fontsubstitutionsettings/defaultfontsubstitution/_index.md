@@ -1,14 +1,14 @@
 ---
 title: DefaultFontSubstitution
 second_title: Справочник по API Aspose.Words для .NET
-description: Настройки относящиеся к правилу подстановки шрифтов по умолчанию.
+description: Настройки связанные с правилом замены шрифта по умолчанию.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.fonts/fontsubstitutionsettings/defaultfontsubstitution/
 ---
 ## FontSubstitutionSettings.DefaultFontSubstitution property
 
-Настройки, относящиеся к правилу подстановки шрифтов по умолчанию.
+Настройки, связанные с правилом замены шрифта по умолчанию.
 
 ```csharp
 public DefaultFontSubstitutionRule DefaultFontSubstitution { get; }

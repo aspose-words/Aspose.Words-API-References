@@ -1,14 +1,14 @@
 ---
 title: InternalMarginLeft
 second_title: Aspose.Words for .NET API 参考
-description: 指定形状的内部左边距以磅为单位
+description: 以点为单位指定形状的内部左边距
 type: docs
 weight: 30
 url: /zh/net/aspose.words.drawing/textbox/internalmarginleft/
 ---
 ## TextBox.InternalMarginLeft property
 
-指定形状的内部左边距（以磅为单位）。
+以点为单位指定形状的内部左边距。
 
 ```csharp
 public double InternalMarginLeft { get; set; }

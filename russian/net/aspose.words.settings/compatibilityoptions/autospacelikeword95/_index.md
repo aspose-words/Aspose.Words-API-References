@@ -1,14 +1,14 @@
 ---
 title: AutoSpaceLikeWord95
 second_title: Справочник по API Aspose.Words для .NET
-description: Эмулировать межсимвольный интервал Word 95 по всей ширине.
+description: Эмулировать межсимвольный интервал Word 95.
 type: docs
 weight: 60
 url: /ru/net/aspose.words.settings/compatibilityoptions/autospacelikeword95/
 ---
 ## CompatibilityOptions.AutoSpaceLikeWord95 property
 
-Эмулировать межсимвольный интервал Word 95 по всей ширине.
+Эмулировать межсимвольный интервал Word 95.
 
 ```csharp
 public bool AutoSpaceLikeWord95 { get; set; }

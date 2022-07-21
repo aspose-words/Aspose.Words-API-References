@@ -16,28 +16,25 @@ public FontInfoCollection FontInfos { get; }
 
 ### Примечания
 
-Эта коллекция определений шрифтов загружается как есть из документа. В некоторых документах определения шрифтов могут быть необязательными, отсутствовать или быть неполными.
+Эта коллекция определений шрифтов загружается как есть из документа. Определения шрифтов могут быть необязательными, отсутствовать или быть неполными в некоторых документах.
 
-Не полагайтесь на эту коллекцию, чтобы убедиться, что в документе используется определенный шрифт. Эту коллекцию следует использовать только для получения информации о шрифтах, которые могут использоваться в документе.
+Не полагайтесь на эту коллекцию, чтобы убедиться, что в документе используется тот или иной шрифт. Эту коллекцию следует использовать только для получения информации о шрифтах, которые могут использоваться в документе.
 
 ### Примеры
 
-Показывает, как распечатать информацию о том, какие шрифты присутствуют в документе.
+Показывает, как напечатать сведения о том, какие шрифты присутствуют в документе.
 
 ```csharp
-Document doc = new Document(MyDir + "Document.docx");
+Document doc = new Document(MyDir + "Embedded font.docx");
 
-FontInfoCollection fontInfos = doc.FontInfos;
-fontInfos.EmbedTrueTypeFonts = embedAllFonts;
-fontInfos.EmbedSystemFonts = embedAllFonts;
-fontInfos.SaveSubsetFonts = embedAllFonts;
-
-doc.Save(ArtifactsDir + "Font.FontInfoCollection.docx");
-
-if (embedAllFonts)
-    Assert.That(25000, Is.LessThan(new FileInfo(ArtifactsDir + "Font.FontInfoCollection.docx").Length));
-else
-    Assert.That(15000, Is.AtLeast(new FileInfo(ArtifactsDir + "Font.FontInfoCollection.docx").Length));
+FontInfoCollection allFonts = doc.FontInfos;
+// Печатаем все используемые и неиспользуемые шрифты в документе.
+for (int i = 0; i < allFonts.Count; i++)
+{
+    Console.WriteLine($"Font index #{i}");
+    Console.WriteLine($"\tName: {allFonts[i].Name}");
+    Console.WriteLine($"\tIs {(allFonts[i].IsTrueType ? "" : "not ")}a trueType font");
+}
 ```
 
 Показывает, как сохранить документ со встроенными шрифтами TrueType.

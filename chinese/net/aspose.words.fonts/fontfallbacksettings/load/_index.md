@@ -20,7 +20,7 @@ public void Load(string fileName)
 
 ### 例子
 
-显示如何在本地文件系统中的 XML 文档中加载和保存字体回退设置。
+演示如何在本地文件系统中的 XML 文档中加载和保存字体回退设置。
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
@@ -58,7 +58,7 @@ public void Load(Stream stream)
 
 ### 例子
 
-显示如何在流中加载和保存字体回退设置。
+展示如何在流中加载和保存字体回退设置。
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");

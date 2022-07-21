@@ -20,7 +20,7 @@ public bool AxisBetweenCategories { get; set; }
 
 ### 例子
 
-显示如何让图形轴在自定义位置相交。
+显示如何让图形轴在自定义位置交叉。
 
 ```csharp
 Document doc = new Document();

@@ -1,14 +1,14 @@
 ---
 title: UpdateThumbnail
 second_title: Aspose.Words for .NET API 参考
-description: 根据指定的选项更新文档的Thumbnailaspose.words.properties/builtindocumentproperties/thumbnail
+description: 更新Thumbnailaspose.words.properties/builtindocumentproperties/thumbnail文件的根据指定的选项
 type: docs
 weight: 760
 url: /zh/net/aspose.words/document/updatethumbnail/
 ---
 ## UpdateThumbnail(ThumbnailGeneratingOptions) {#updatethumbnail_1}
 
-根据指定的选项更新文档的[`Thumbnail`](../../../aspose.words.properties/builtindocumentproperties/thumbnail)。
+更新[`Thumbnail`](../../../aspose.words.properties/builtindocumentproperties/thumbnail)文件的根据指定的选项。
 
 ```csharp
 public void UpdateThumbnail(ThumbnailGeneratingOptions options)
@@ -20,7 +20,7 @@ public void UpdateThumbnail(ThumbnailGeneratingOptions options)
 
 ### 评论
 
-[`ThumbnailGeneratingOptions`](../../../aspose.words.rendering/thumbnailgeneratingoptions)允许您指定缩略图、大小和其他选项的来源。 如果尝试生成缩略图失败，则不更改。
+的[`ThumbnailGeneratingOptions`](../../../aspose.words.rendering/thumbnailgeneratingoptions)允许您指定缩略图的来源、大小和其他选项。 如果尝试生成缩略图失败，则不更改。
 
 ### 例子
 
@@ -58,7 +58,7 @@ doc.Save(ArtifactsDir + "Document.UpdateThumbnail.FirstImage.epub");
 
 ## UpdateThumbnail() {#updatethumbnail}
 
-使用默认选项更新文档的[`Thumbnail`](../../../aspose.words.properties/builtindocumentproperties/thumbnail)。
+更新[`Thumbnail`](../../../aspose.words.properties/builtindocumentproperties/thumbnail)使用默认选项的文档。
 
 ```csharp
 public void UpdateThumbnail()

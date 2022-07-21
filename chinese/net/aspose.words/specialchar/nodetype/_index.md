@@ -1,14 +1,14 @@
 ---
 title: NodeType
 second_title: Aspose.Words for .NET API 参考
-description: 返回 NodeType.SpecialChar 
+description: 返回 NodeType.SpecialChar.
 type: docs
 weight: 10
 url: /zh/net/aspose.words/specialchar/nodetype/
 ---
 ## SpecialChar.NodeType property
 
-返回 **NodeType.SpecialChar** 。
+返回 **NodeType.SpecialChar**.
 
 ```csharp
 public override NodeType NodeType { get; }

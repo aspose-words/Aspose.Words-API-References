@@ -24,7 +24,7 @@ public BookmarkStart StartBookmark(string bookmarkName)
 
 ### 评论
 
-文档中的书签可以重叠并跨越任何范围。要创建一个有效的书签，您需要 调用`StartBookmark`和[`EndBookmark`](../endbookmark)具有相同的 **书签名称** 参数。
+文档中的书签可以重叠并跨越任何范围。要创建有效的书签，您需要 to 调用两者`StartBookmark`和[`EndBookmark`](../endbookmark)同 **书签名称** 参数。
 
 保存文档时将忽略格式错误的书签或具有重复名称的书签。
 
@@ -36,21 +36,18 @@ public BookmarkStart StartBookmark(string bookmarkName)
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-builder.StartBookmark("Bookmark1");
-builder.Write("Bookmarked text. ");
-builder.EndBookmark("Bookmark1");
-builder.Writeln("Text outside of the bookmark.");
+// 一个有效的书签需要有文档正文
+// 使用匹配的书签名称创建的 BookmarkStart 和 BookmarkEnd 节点。
+builder.StartBookmark("MyBookmark");
+builder.Writeln("Hello world!");
+builder.EndBookmark("MyBookmark");
 
-// 插入一个链接到书签的 HYPERLINK 字段。我们可以通过字段开关
-// 将“InsertHyperlink”方法作为包含引用书签名称的参数的一部分。
-builder.Font.Color = Color.Blue;
-builder.Font.Underline = Underline.Single;
-builder.InsertHyperlink("Link to Bookmark1", @"Bookmark1"" \o ""Hyperlink Tip", true);
-
-doc.Save(ArtifactsDir + "DocumentBuilder.InsertHyperlinkToLocalBookmark.docx");
+Assert.AreEqual(1, doc.Range.Bookmarks.Count);
+Assert.AreEqual("MyBookmark", doc.Range.Bookmarks[0].Name);
+Assert.AreEqual("Hello world!", doc.Range.Bookmarks[0].Text.Trim());
 ```
 
-显示如何插入引用本地书签的超链接。
+演示如何插入引用本地书签的超链接。
 
 ```csharp
 Document doc = new Document();

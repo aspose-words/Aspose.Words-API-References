@@ -16,7 +16,7 @@ public TabStopCollection TabStops { get; }
 
 ### 例子
 
-显示如何修改目录相关段落中右制表位的位置。
+显示如何修改 TOC 相关段落中右制表位的位置。
 
 ```csharp
 Document doc = new Document(MyDir + "Table of contents.docx");

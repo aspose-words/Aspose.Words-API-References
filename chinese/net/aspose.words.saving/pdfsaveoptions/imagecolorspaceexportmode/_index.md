@@ -16,15 +16,15 @@ public PdfImageColorSpaceExportMode ImageColorSpaceExportMode { get; set; }
 
 ### 评论
 
-默认值为Auto。
+默认值为Auto.
 
-IfSimpleCmyk指定值， [`ImageCompression`](../imagecompression)选项被忽略， Flate 压缩用于所有图像文档。
+如果SimpleCmyk指定值， [`ImageCompression`](../imagecompression)选项被忽略并且 Flate 压缩用于文档中的所有图像。
 
-SimpleCmyk值在保存为 PDF 时不受支持/一个。 Auto值将被使用。
+SimpleCmyk保存为 PDF/A 时不支持该值。 Auto value 将被使用。
 
 ### 例子
 
-展示了如何在将文档导出为 PDF 时为文档中的图像设置不同的色彩空间。
+展示了在我们将文档导出为 PDF 时如何为文档中的图像设置不同的色彩空间。
 
 ```csharp
 Document doc = new Document();

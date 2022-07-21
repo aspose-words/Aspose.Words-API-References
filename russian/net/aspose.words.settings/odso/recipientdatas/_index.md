@@ -1,14 +1,14 @@
 ---
 title: RecipientDatas
 second_title: Справочник по API Aspose.Words для .NET
-description: Получает или задает набор объектов определяющих включение/исключение отдельных записей при слиянии. Этот объект никогда не бывает нулевым.
+description: Получает или задает набор объектов определяющих включение/исключение отдельных записей при слиянии почты. Этот объект никогда не имеет значение null.
 type: docs
 weight: 70
 url: /ru/net/aspose.words.settings/odso/recipientdatas/
 ---
 ## Odso.RecipientDatas property
 
-Получает или задает набор объектов, определяющих включение/исключение отдельных записей при слиянии. Этот объект никогда не бывает нулевым.
+Получает или задает набор объектов, определяющих включение/исключение отдельных записей при слиянии почты. Этот объект никогда не имеет значение null.
 
 ```csharp
 public OdsoRecipientDataCollection RecipientDatas { get; set; }
@@ -38,10 +38,10 @@ using (IEnumerator<OdsoRecipientData> enumerator = dataCollection.GetEnumerator(
     }
 }
 
- // Мы можем клонировать элементы этой коллекции.
+// Мы можем клонировать элементы этой коллекции.
 Assert.AreNotEqual(dataCollection[0], dataCollection[0].Clone());
 
- // Мы также можем удалить элементы по отдельности или очистить всю коллекцию сразу.
+// Мы также можем удалить элементы по отдельности или очистить всю коллекцию сразу.
 dataCollection.RemoveAt(0);
 
 Assert.AreEqual(69, dataCollection.Count);

@@ -3,7 +3,7 @@ title: Title
 second_title: Справочник по API Aspose.Words для .NET
 description: Получает или задает заголовок заголовок текущего объекта формы.
 type: docs
-weight: 480
+weight: 490
 url: /ru/net/aspose.words.drawing/shapebase/title/
 ---
 ## ShapeBase.Title property
@@ -22,7 +22,7 @@ public string Title { get; set; }
 
 ### Примеры
 
-Показывает, как установить заголовок фигуры.
+Показывает, как задать заголовок фигуры.
 
 ```csharp
 Document doc = new Document();

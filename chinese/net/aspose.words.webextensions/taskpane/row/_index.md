@@ -1,14 +1,14 @@
 ---
 title: Row
 second_title: Aspose.Words for .NET API 参考
-description: 指定此任务窗格的索引从外到内枚举以及停靠在相同默认位置的其他持久 任务窗格
+description: 指定此任务窗格的索引从外到内枚举以及停靠在同一默认位置的其他persisted 任务窗格
 type: docs
 weight: 50
 url: /zh/net/aspose.words.webextensions/taskpane/row/
 ---
 ## TaskPane.Row property
 
-指定此任务窗格的索引，从外到内枚举，以及停靠在相同默认位置的其他持久 任务窗格。
+指定此任务窗格的索引，从外到内枚举，以及停靠在同一默认位置的其他persisted 任务窗格。
 
 ```csharp
 public int Row { get; set; }
@@ -16,7 +16,7 @@ public int Row { get; set; }
 
 ### 例子
 
-显示如何向文档添加 Web 扩展。
+展示如何向文档添加 Web 扩展。
 
 ```csharp
 Document doc = new Document();

@@ -1,14 +1,14 @@
 ---
 title: AllowComments
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置一个值指示签名者可以在签名对话框中添加注释 此属性的默认值为 false 
+description: 获取或设置一个值指示签名者可以在签名对话框中添加注释 此属性的默认值为 错误的.
 type: docs
 weight: 20
 url: /zh/net/aspose.words/signaturelineoptions/allowcomments/
 ---
 ## SignatureLineOptions.AllowComments property
 
-获取或设置一个值，指示签名者可以在“签名”对话框中添加注释。 此属性的默认值为 **false** 。
+获取或设置一个值，指示签名者可以在签名对话框中添加注释。 此属性的默认值为 **错误的**.
 
 ```csharp
 public bool AllowComments { get; set; }

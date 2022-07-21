@@ -33,7 +33,7 @@ FieldUserAddress fieldUserAddress = (FieldUserAddress)builder.InsertField(FieldT
 Assert.AreEqual(" USERADDRESS ", fieldUserAddress.GetFieldCode());
 Assert.AreEqual("123 Main Street", fieldUserAddress.Result);
 
- // Мы можем установить это свойство, чтобы наше поле переопределило значение, хранящееся в настоящее время в объекте UserInformation.
+ // Мы можем установить это свойство, чтобы наше поле переопределяло значение, хранящееся в настоящее время в объекте UserInformation.
 fieldUserAddress.UserAddress = "456 North Road";
 fieldUserAddress.Update();
 

@@ -16,7 +16,7 @@ public string BookmarkName { get; set; }
 
 ### 例子
 
-展示如何创建一个 INDEX 字段，然后使用 XE 字段在其中填充条目。
+演示如何创建 INDEX 字段，然后使用 XE 字段在其中填充条目。
 
 ```csharp
 Document doc = new Document();

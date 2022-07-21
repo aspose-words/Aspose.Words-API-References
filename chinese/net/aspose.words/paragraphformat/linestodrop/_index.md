@@ -1,14 +1,14 @@
 ---
 title: LinesToDrop
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置用于计算首字下沉高度的段落文本的行数
+description: 获取或设置用于计算首字下沉高度的段落文本行数
 type: docs
 weight: 200
 url: /zh/net/aspose.words/paragraphformat/linestodrop/
 ---
 ## ParagraphFormat.LinesToDrop property
 
-获取或设置用于计算首字下沉高度的段落文本的行数。
+获取或设置用于计算首字下沉高度的段落文本行数。
 
 ```csharp
 public int LinesToDrop { get; set; }

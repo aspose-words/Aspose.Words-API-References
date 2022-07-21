@@ -1,14 +1,14 @@
 ---
 title: AsposeWordsPrintDocument
 second_title: Aspose.Words for .NET API 参考
-description: 为在 .NET 打印中打印Document../aspose.words/document提供默认实现框架
+description: 为打印Document../aspose.words/documentinside .NET 打印框架
 type: docs
-weight: 4230
+weight: 4280
 url: /zh/net/aspose.words.rendering/asposewordsprintdocument/
 ---
 ## AsposeWordsPrintDocument class
 
-为在 .NET 打印中打印[`Document`](../../aspose.words/document)提供默认实现框架。
+为打印[`Document`](../../aspose.words/document)inside .NET 打印框架。
 
 ```csharp
 public class AsposeWordsPrintDocument : PrintDocument
@@ -18,21 +18,21 @@ public class AsposeWordsPrintDocument : PrintDocument
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AsposeWordsPrintDocument](asposewordsprintdocument)(Document) | 初始化此类的新实例。 |
+| [AsposeWordsPrintDocument](asposewordsprintdocument)(Document) | 初始化这个类的一个新实例。 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [CachePrinterSettings](../../aspose.words.rendering/asposewordsprintdocument/cacheprintersettings)() | 读取并缓存PrinterSettings 的一些字段以减少打印时间。 |
+| [CachePrinterSettings](../../aspose.words.rendering/asposewordsprintdocument/cacheprintersettings)() | 读取并缓存PrinterSettings 以减少打印时间。 |
 
 ### 评论
 
-[`AsposeWordsPrintDocument`](../asposewordsprintdocument)覆盖PrintEventArgs) 打印在P中指定的页面范围:System.Drawing.Printing.PrintDocument.PrinterSettings。
+[`AsposeWordsPrintDocument`](../asposewordsprintdocument)覆盖PrintEventArgs) 打印指定的页面范围PrinterSettings.
 
-单个 Word 文档可以由多个部分组成，这些部分指定具有不同大小、 方向和纸盘的页面。[`AsposeWordsPrintDocument`](../asposewordsprintdocument)覆盖 QueryPageSettingsEventArgs)在打印 Word 文档时正确选择纸张尺寸、方向 和纸张来源。
+一个 Word 文档可以由多个部分组成，这些部分指定具有不同大小、 方向和纸盘的页面。[`AsposeWordsPrintDocument`](../asposewordsprintdocument)覆盖 QueryPageSettingsEventArgs)在打印 Word 文档时正确选择纸张尺寸、orientation 和纸张来源。
 
-Microsoft Word 将纸盘的打印机特定值存储在 Word 文档中，因此 仅在与当用户指定纸盘时选择了 将导致从正确的纸盘打印。如果您在不同的打印机上打印文档，则很可能会使用 默认纸盘，而不是文档中指定的纸盘。
+Microsoft Word 将纸盘的打印机特定值存储在 Word 文档中，因此， 仅在与用户指定纸盘时选择的打印机型号相同的打印机型号上打印 将导致从正确的纸盘打印。如果您在不同的打印机上打印文档，则很可能 将使用默认纸盘，而不是文档中指定的纸盘。
 
 ### 也可以看看
 

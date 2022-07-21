@@ -1,14 +1,14 @@
 ---
 title: PresetTextured
 second_title: Справочник по API Aspose.Words для .NET
-description: Устанавливает заливку на предустановленную текстуру.
+description: Задает заливку предустановленной текстурой.
 type: docs
 weight: 180
 url: /ru/net/aspose.words.drawing/fill/presettextured/
 ---
 ## Fill.PresetTextured method
 
-Устанавливает заливку на предустановленную текстуру.
+Задает заливку предустановленной текстурой.
 
 ```csharp
 public void PresetTextured(PresetTexture presetTexture)

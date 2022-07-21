@@ -16,7 +16,7 @@ public static string Version { get; }
 
 ### 评论
 
-产品版本为“Major.Minor.Hotfix.0”格式。
+产品版本采用“Major.Minor.Hotfix.0”格式。
 
 ### 例子
 

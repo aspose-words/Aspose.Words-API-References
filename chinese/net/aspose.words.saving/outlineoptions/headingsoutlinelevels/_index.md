@@ -1,14 +1,14 @@
 ---
 title: HeadingsOutlineLevels
 second_title: Aspose.Words for .NET API 参考
-description: 指定在 文档大纲中包含多少级别的标题以标题样式格式化的段落
+description: 指定要包含在 文档大纲中的标题级别以标题样式格式化的段落
 type: docs
 weight: 70
 url: /zh/net/aspose.words.saving/outlineoptions/headingsoutlinelevels/
 ---
 ## OutlineOptions.HeadingsOutlineLevels property
 
-指定在 文档大纲中包含多少级别的标题（以标题样式格式化的段落）。
+指定要包含在 文档大纲中的标题级别（以标题样式格式化的段落）。
 
 ```csharp
 public int HeadingsOutlineLevels { get; set; }
@@ -18,11 +18,11 @@ public int HeadingsOutlineLevels { get; set; }
 
 指定 0 表示大纲中没有标题；为大纲中的一级标题指定 1，依此类推。
 
-默认为 0。有效范围为 0 到 9。
+默认值为 0。有效范围为 0 到 9。
 
 ### 例子
 
-显示如何将整个文档转换为文档大纲中具有三个级别的 PDF。
+演示如何将整个文档转换为文档大纲中具有三个级别的 PDF。
 
 ```csharp
 Document doc = new Document();

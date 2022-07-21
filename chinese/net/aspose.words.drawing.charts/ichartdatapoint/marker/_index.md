@@ -1,14 +1,14 @@
 ---
 title: Marker
 second_title: Aspose.Words for .NET API 参考
-description: 指定数据标记请求时会自动创建标记
+description: 指定数据标记请求时自动创建标记
 type: docs
 weight: 40
 url: /zh/net/aspose.words.drawing.charts/ichartdatapoint/marker/
 ---
 ## IChartDataPoint.Marker property
 
-指定数据标记。请求时会自动创建标记。
+指定数据标记。请求时自动创建标记。
 
 ```csharp
 public ChartMarker Marker { get; }

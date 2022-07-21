@@ -1,14 +1,14 @@
 ---
 title: StructuredDocumentTags
 second_title: Справочник по API Aspose.Words для .NET
-description: Возвращает коллекциюStructuredDocumentTagsaspose.words/range/structureddocumenttags которая представляет все теги структурированного документа в диапазоне.
+description: ВозвращаетStructuredDocumentTagsaspose.words/range/structureddocumenttags коллекция которая представляет все теги структурированного документа в диапазоне.
 type: docs
 weight: 40
 url: /ru/net/aspose.words/range/structureddocumenttags/
 ---
 ## Range.StructuredDocumentTags property
 
-Возвращает коллекцию`StructuredDocumentTags`, которая представляет все теги структурированного документа в диапазоне.
+Возвращает`StructuredDocumentTags` коллекция, которая представляет все теги структурированного документа в диапазоне.
 
 ```csharp
 public StructuredDocumentTagCollection StructuredDocumentTags { get; }

@@ -1,14 +1,14 @@
 ---
 title: Email
 second_title: Aspose.Words for .NET API 参考
-description: 获取或设置建议签名者的电子邮件地址 此属性的默认值为 空字符串 Empty
+description: 获取或设置建议的签名者的电子邮件地址 此属性的默认值为 空字符串Empty .
 type: docs
 weight: 40
 url: /zh/net/aspose.words/signaturelineoptions/email/
 ---
 ## SignatureLineOptions.Email property
 
-获取或设置建议签名者的电子邮件地址。 此属性的默认值为 **空字符串** (Empty)。
+获取或设置建议的签名者的电子邮件地址。 此属性的默认值为 **空字符串**(Empty ).
 
 ```csharp
 public string Email { get; set; }

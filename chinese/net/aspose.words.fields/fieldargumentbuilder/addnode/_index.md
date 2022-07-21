@@ -20,7 +20,7 @@ public FieldArgumentBuilder AddNode(Inline node)
 
 ### 例子
 
-显示如何使用字段构建器构造字段，然后将它们插入到文档中。
+演示如何使用字段构建器构造字段，然后将它们插入到文档中。
 
 ```csharp
 Document doc = new Document();

@@ -1,14 +1,14 @@
 ---
 title: PdfDigitalSignatureHashAlgorithm
 second_title: Справочник по API Aspose.Words для .NET
-description: Задает алгоритм цифрового хэширования используемый цифровой подписью.
+description: Определяет алгоритм цифрового хеширования используемый цифровой подписью.
 type: docs
-weight: 5110
+weight: 5160
 url: /ru/net/aspose.words.saving/pdfdigitalsignaturehashalgorithm/
 ---
 ## PdfDigitalSignatureHashAlgorithm enumeration
 
-Задает алгоритм цифрового хэширования, используемый цифровой подписью.
+Определяет алгоритм цифрового хеширования, используемый цифровой подписью.
 
 ```csharp
 public enum PdfDigitalSignatureHashAlgorithm
@@ -25,7 +25,7 @@ public enum PdfDigitalSignatureHashAlgorithm
 
 ### Примеры
 
-Показывает, как подписать сгенерированный документ PDF.
+Показывает, как подписать сгенерированный PDF-документ.
 
 ```csharp
 Document doc = new Document();

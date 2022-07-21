@@ -22,9 +22,9 @@ public double SpaceAfter { get; set; }
 
 ### Примечания
 
-Не действует, когда[`SpaceAfterAuto`](../spaceafterauto)правда.
+Не действует, когда[`SpaceAfterAuto`](../spaceafterauto) правда.
 
-Допустимые значения от 0 до 1584 включительно.
+Допустимые значения находятся в диапазоне от 0 до 1584 включительно.
 
 ### Примеры
 
@@ -38,27 +38,20 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.ParagraphFormat.SpaceBefore = 24;
 builder.ParagraphFormat.SpaceAfter = 24;
 
-// Установите для флага "NoSpaceBetweenParagraphsOfSameStyle" значение "true" для применения
-// без интервала между абзацами с одинаковым стилем, который будет группировать похожие абзацы.
-// Оставляем флаг "NoSpaceBetweenParagraphsOfSameStyle" как "false"
-// для равномерного применения интервалов к каждому абзацу.
-builder.ParagraphFormat.NoSpaceBetweenParagraphsOfSameStyle = noSpaceBetweenParagraphsOfSameStyle;
+// Установите для этих флагов значение «true», чтобы применить автоматический интервал,
+// эффективное игнорирование интервала в свойствах, которые мы установили выше.
+// Оставьте их как «false», чтобы применить наш пользовательский интервал между абзацами.
+builder.ParagraphFormat.SpaceAfterAuto = autoSpacing;
+builder.ParagraphFormat.SpaceBeforeAuto = autoSpacing;
 
-builder.ParagraphFormat.Style = doc.Styles["Normal"];
-builder.Writeln($"Paragraph in the \"{builder.ParagraphFormat.Style.Name}\" style.");
-builder.Writeln($"Paragraph in the \"{builder.ParagraphFormat.Style.Name}\" style.");
-builder.Writeln($"Paragraph in the \"{builder.ParagraphFormat.Style.Name}\" style.");
-builder.ParagraphFormat.Style = doc.Styles["Quote"];
-builder.Writeln($"Paragraph in the \"{builder.ParagraphFormat.Style.Name}\" style.");
-builder.Writeln($"Paragraph in the \"{builder.ParagraphFormat.Style.Name}\" style.");
-builder.ParagraphFormat.Style = doc.Styles["Normal"];
-builder.Writeln($"Paragraph in the \"{builder.ParagraphFormat.Style.Name}\" style.");
-builder.Writeln($"Paragraph in the \"{builder.ParagraphFormat.Style.Name}\" style.");
+// Вставьте два абзаца с интервалами сверху и снизу и сохраните документ.
+builder.Writeln("Paragraph 1.");
+builder.Writeln("Paragraph 2.");
 
-doc.Save(ArtifactsDir + "ParagraphFormat.ParagraphSpacingSameStyle.docx");
+doc.Save(ArtifactsDir + "ParagraphFormat.ParagraphSpacingAuto.docx");
 ```
 
-Показывает, как не применять интервалы между абзацами в одном стиле.
+Показывает, как применить без интервала между абзацами в одном стиле.
 
 ```csharp
 Document doc = new Document();

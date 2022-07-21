@@ -1,14 +1,14 @@
 ---
 title: StyleName
 second_title: Справочник по API Aspose.Words для .NET
-description: Получает или задает имя стиля символов примененного к данному форматированию.
+description: Получает или задает имя стиля символов примененного к этому форматированию.
 type: docs
 weight: 420
 url: /ru/net/aspose.words/font/stylename/
 ---
 ## Font.StyleName property
 
-Получает или задает имя стиля символов, примененного к данному форматированию.
+Получает или задает имя стиля символов, примененного к этому форматированию.
 
 ```csharp
 public string StyleName { get; set; }

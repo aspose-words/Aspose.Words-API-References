@@ -16,11 +16,11 @@ public byte[] ToByteArray()
 
 ### 评论
 
-如果图像已链接，每次调用时都会下载图像。
+如果图像已链接，则每次调用时都会下载图像。
 
 ### 例子
 
-显示如何创建图像文件来自形状的原始图像数据。
+演示如何从形状的原始图像数据创建图像文件。
 
 ```csharp
 Document imgSourceDoc = new Document(MyDir + "Images.docx");
@@ -29,10 +29,10 @@ Shape imgShape = (Shape) imgSourceDoc.GetChild(NodeType.Shape, 0, true);
 
 Assert.True(imgShape.HasImage);
 
- // ToByteArray() 返回存储在 ImageBytes 属性中的数组。
+// ToByteArray() 返回存储在 ImageBytes 属性中的数组。
 Assert.AreEqual(imgShape.ImageData.ImageBytes, imgShape.ImageData.ToByteArray());
 
- // 将形状的图像数据保存到本地文件系统中的图像文件中。
+// 将形状的图像数据保存到本地文件系统中的图像文件中。
 using (Stream imgStream = imgShape.ImageData.ToStream())
 {
     using (FileStream outStream = new FileStream(ArtifactsDir + "Drawing.GetDataFromImage.png",

@@ -1,14 +1,14 @@
 ---
 title: Style
 second_title: Справочник по API Aspose.Words для .NET
-description: Получает или задает стиль абзаца применяемый к данному форматированию.
+description: Получает или задает стиль абзаца применяемый к этому форматированию.
 type: docs
 weight: 330
 url: /ru/net/aspose.words/paragraphformat/style/
 ---
 ## ParagraphFormat.Style property
 
-Получает или задает стиль абзаца, применяемый к данному форматированию.
+Получает или задает стиль абзаца, применяемый к этому форматированию.
 
 ```csharp
 public Style Style { get; set; }

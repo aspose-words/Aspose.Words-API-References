@@ -1,14 +1,14 @@
 ---
 title: AlternateText
 second_title: Aspose.Words for .NET API 参考
-description: 如果名称为空则获取或设置要包含在字段中的文本
+description: 获取或设置名称为空白时要包含在字段中的文本
 type: docs
 weight: 20
 url: /zh/net/aspose.words.fields/fieldgreetingline/alternatetext/
 ---
 ## FieldGreetingLine.AlternateText property
 
-如果名称为空，则获取或设置要包含在字段中的文本。
+获取或设置名称为空白时要包含在字段中的文本。
 
 ```csharp
 public string AlternateText { get; set; }

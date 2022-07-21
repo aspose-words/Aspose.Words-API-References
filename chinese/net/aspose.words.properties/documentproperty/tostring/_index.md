@@ -1,14 +1,14 @@
 ---
 title: ToString
 second_title: Aspose.Words for .NET API 参考
-description: 将属性值作为根据当前语言环境格式化的字符串返回
+description: 以根据当前语言环境格式化的字符串形式返回属性值
 type: docs
 weight: 110
 url: /zh/net/aspose.words.properties/documentproperty/tostring/
 ---
 ## DocumentProperty.ToString method
 
-将属性值作为根据当前语言环境格式化的字符串返回。
+以根据当前语言环境格式化的字符串形式返回属性值。
 
 ```csharp
 public override string ToString()
@@ -23,21 +23,21 @@ public override string ToString()
 显示自定义文档属性的各种类型转换方法。
 
 ```csharp
-Document doc = new Document(MyDir + "Properties.docx");
+Document doc = new Document();
+CustomDocumentProperties properties = doc.CustomDocumentProperties;
 
- // 每个文档都包含一个自定义属性的集合，这些属性和内置属性一样，是键值对。
- // 文档有一个固定的内置属性列表。用户创建所有自定义属性。 
-Assert.AreEqual("Value of custom document property", doc.CustomDocumentProperties["CustomProperty"].ToString());
+DateTime authDate = DateTime.Today;
+properties.Add("Authorized", true);
+properties.Add("Authorized By", "John Doe");
+properties.Add("Authorized Date", authDate);
+properties.Add("Authorized Revision", doc.BuiltInDocumentProperties.RevisionNumber);
+properties.Add("Authorized Amount", 123.45);
 
-doc.CustomDocumentProperties.Add("CustomProperty2", "Value of custom document property #2");
-
-Console.WriteLine("Custom Properties:");
-foreach (var customDocumentProperty in doc.CustomDocumentProperties)
-{
-    Console.WriteLine(customDocumentProperty.Name);
-    Console.WriteLine($"\tType:\t{customDocumentProperty.Type}");
-    Console.WriteLine($"\tValue:\t\"{customDocumentProperty.Value}\"");
-}
+Assert.AreEqual(true, properties["Authorized"].ToBool());
+Assert.AreEqual("John Doe", properties["Authorized By"].ToString());
+Assert.AreEqual(authDate, properties["Authorized Date"].ToDateTime());
+Assert.AreEqual(1, properties["Authorized Revision"].ToInt());
+Assert.AreEqual(123.45d, properties["Authorized Amount"].ToDouble());
 ```
 
 显示如何使用自定义文档属性。
@@ -45,8 +45,8 @@ foreach (var customDocumentProperty in doc.CustomDocumentProperties)
 ```csharp
 Document doc = new Document(MyDir + "Properties.docx");
 
- // 每个文档都包含一个自定义属性的集合，这些属性和内置属性一样，是键值对。
- // 文档有一个固定的内置属性列表。用户创建所有自定义属性。 
+// 每个文档都包含一个自定义属性的集合，这些属性和内置属性一样，是键值对。
+// 文档有一个固定的内置属性列表。用户创建所有自定义属性。 
 Assert.AreEqual("Value of custom document property", doc.CustomDocumentProperties["CustomProperty"].ToString());
 
 doc.CustomDocumentProperties.Add("CustomProperty2", "Value of custom document property #2");

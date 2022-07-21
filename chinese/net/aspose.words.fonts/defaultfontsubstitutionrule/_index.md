@@ -3,7 +3,7 @@ title: DefaultFontSubstitutionRule
 second_title: Aspose.Words for .NET API 参考
 description: 默认字体替换规则
 type: docs
-weight: 2610
+weight: 2660
 url: /zh/net/aspose.words.fonts/defaultfontsubstitutionrule/
 ---
 ## DefaultFontSubstitutionRule class

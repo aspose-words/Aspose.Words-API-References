@@ -10,7 +10,7 @@ url: /zh/net/aspose.words.drawing/signatureline/id/
 
 获取或设置此签名行的标识符。
 
-在使用[`DigitalSignatureUtil`](../../../aspose.words.digitalsignatures/digitalsignatureutil)签署文档时，此标识符可以与数字签名相关联。 此值必须是唯一的，默认情况下它是随机生成的新 Guid (NewGuid)。
+当使用签名文档时，此标识符可以与数字签名相关联[`DigitalSignatureUtil`](../../../aspose.words.digitalsignatures/digitalsignatureutil). 这个值必须是唯一的，默认是随机生成的新Guid（NewGuid）。
 
 ```csharp
 public Guid Id { get; set; }
@@ -18,7 +18,7 @@ public Guid Id { get; set; }
 
 ### 例子
 
-显示如何将签名行添加到文档，然后使用数字证书对其进行签名。
+演示如何将签名行添加到文档，然后使用数字证书对其进行签名。
 
 ```csharp
 public static void Sign()

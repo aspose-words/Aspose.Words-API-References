@@ -1,14 +1,14 @@
 ---
 title: ShadeFormData
 second_title: Aspose.Words for .NET API 参考
-description: 指定是否打开表单域的灰色阴影
+description: 指定是否开启表单域的灰色阴影
 type: docs
 weight: 360
 url: /zh/net/aspose.words/document/shadeformdata/
 ---
 ## Document.ShadeFormData property
 
-指定是否打开表单域的灰色阴影。
+指定是否开启表单域的灰色阴影。
 
 ```csharp
 public bool ShadeFormData { get; set; }

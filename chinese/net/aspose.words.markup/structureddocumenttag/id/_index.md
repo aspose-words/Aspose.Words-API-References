@@ -1,14 +1,14 @@
 ---
 title: Id
 second_title: Aspose.Words for .NET API 参考
-description: 为此 SDT 指定唯一的只读持久数字 ID
+description: 为此指定一个唯一的只读持久数字 ID SDT.
 type: docs
 weight: 140
 url: /zh/net/aspose.words.markup/structureddocumenttag/id/
 ---
 ## StructuredDocumentTag.Id property
 
-为此 **SDT** 指定唯一的只读持久数字 ID。
+为此指定一个唯一的只读持久数字 ID **SDT**.
 
 ```csharp
 public int Id { get; }
@@ -16,17 +16,17 @@ public int Id { get; }
 
 ### 评论
 
-Id 属性应遵循以下规则:
+id 属性应遵循以下规则：
 
-* 仅当整个文档被克隆[`Clone`](../../../aspose.words/document/clone)时，文档才应保留 SDT id。
-* 期间[`ImportNode`](../../../aspose.words/documentbase/importnode)如果导入不会与目标文档 中的其他 SDT Id 冲突，则应保留 Id。
-* 如果多个 SDT 节点为 Id 属性指定相同的十进制数字值 那么第一个 SDT 在文档应保持此原始 ID， 并且所有后续 SDT 节点应在加载文档时分配给它们的新标识符。
+* 仅当克隆整个文档时，文档才应保留 SDT id[`Clone`](../../../aspose.words/document/clone).
+* 期间[`ImportNode`](../../../aspose.words/documentbase/importnode)如果导入不会与目标文档中的其他 SDT Id 冲突，则应保留 Id。
+* 如果多个 SDT 节点为 Id 属性指定相同的十进制数值， ，则文档中的第一个 SDT 应保持此原始 Id， ，并且在加载文档时，所有后续 SDT 节点都应分配新的标识符。
 * 在独立 SDT 期间INodeCloningListener)操作将为克隆的 SDT 节点生成新的唯一 ID。
-* 如果源文档中未指定 Id，则 SDT 节点应分配一个新的唯一标识符 加载文档时给它。
+* 如果在源文档中没有指定Id，那么当加载文档时，SDT节点应该有一个新的唯一标识符 分配给它。
 
 ### 例子
 
-显示如何在纯文本框中创建结构化文档标签并修改其外观。
+展示如何在纯文本框中创建结构化文档标签并修改其外观。
 
 ```csharp
 Document doc = new Document();
