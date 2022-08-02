@@ -32,7 +32,6 @@ public class ImageSaveOptions : FixedPageSaveOptions
 | virtual [DmlEffectsRenderingMode](../../aspose.words.saving/saveoptions/dmleffectsrenderingmode) { get; set; } | Gets or sets a value determining how DrawingML effects are rendered. |
 | [DmlRenderingMode](../../aspose.words.saving/saveoptions/dmlrenderingmode) { get; set; } | Gets or sets a value determining how DrawingML shapes are rendered. |
 | [ExportGeneratorName](../../aspose.words.saving/saveoptions/exportgeneratorname) { get; set; } | When true, causes the name and version of Aspose.Words to be embedded into produced files. Default value is **true**. |
-| [FlatOpcXmlMappingOnly](../../aspose.words.saving/saveoptions/flatopcxmlmappingonly) { get; set; } | Gets or sets value determining which document formats are allowed to be mapped by [`XmlMapping`](../../aspose.words.markup/structureddocumenttag/xmlmapping). By default only FlatOpc document format is allowed to be mapped. |
 | [GraphicsQualityOptions](../../aspose.words.saving/imagesaveoptions/graphicsqualityoptions) { get; set; } | Allows to specify rendering mode and quality for the Graphics object. |
 | [HorizontalResolution](../../aspose.words.saving/imagesaveoptions/horizontalresolution) { get; set; } | Gets or sets the horizontal resolution for the generated images, in dots per inch. |
 | [ImageBrightness](../../aspose.words.saving/imagesaveoptions/imagebrightness) { get; set; } | Gets or sets the brightness for the generated images. |

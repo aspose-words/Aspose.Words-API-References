@@ -32,7 +32,6 @@ public class XamlFlowSaveOptions : SaveOptions
 | virtual [DmlEffectsRenderingMode](../../aspose.words.saving/saveoptions/dmleffectsrenderingmode) { get; set; } | Gets or sets a value determining how DrawingML effects are rendered. |
 | [DmlRenderingMode](../../aspose.words.saving/saveoptions/dmlrenderingmode) { get; set; } | Gets or sets a value determining how DrawingML shapes are rendered. |
 | [ExportGeneratorName](../../aspose.words.saving/saveoptions/exportgeneratorname) { get; set; } | When true, causes the name and version of Aspose.Words to be embedded into produced files. Default value is **true**. |
-| [FlatOpcXmlMappingOnly](../../aspose.words.saving/saveoptions/flatopcxmlmappingonly) { get; set; } | Gets or sets value determining which document formats are allowed to be mapped by [`XmlMapping`](../../aspose.words.markup/structureddocumenttag/xmlmapping). By default only FlatOpc document format is allowed to be mapped. |
 | [ImageSavingCallback](../../aspose.words.saving/xamlflowsaveoptions/imagesavingcallback) { get; set; } | Allows to control how images are saved when a document is saved to XAML. |
 | [ImagesFolder](../../aspose.words.saving/xamlflowsaveoptions/imagesfolder) { get; set; } | Specifies the physical folder where images are saved when exporting a document to XAML format. Default is an empty string. |
 | [ImagesFolderAlias](../../aspose.words.saving/xamlflowsaveoptions/imagesfolderalias) { get; set; } | Specifies the name of the folder used to construct image URIs written into an XAML document. Default is an empty string. |

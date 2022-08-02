@@ -3,7 +3,7 @@ title: Password
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the password for opening an encrypted document. Can be null or empty string. Default is null.
 type: docs
-weight: 110
+weight: 100
 url: /net/aspose.words.loading/loadoptions/password/
 ---
 ## LoadOptions.Password property

@@ -3,7 +3,7 @@ title: UseAntiAliasing
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets a value determining whether or not to use anti-aliasing for rendering.
 type: docs
-weight: 210
+weight: 200
 url: /net/aspose.words.saving/saveoptions/useantialiasing/
 ---
 ## SaveOptions.UseAntiAliasing property
@@ -18,7 +18,7 @@ public bool UseAntiAliasing { get; set; }
 
 The default value is `false`. When this value is set to `true` anti-aliasing is used for rendering.
 
-This property is used when the document is exported to the following formats: Tiff, Png, Bmp, Jpeg, Emf. When the document is exported to the Html, Mhtml and Epub formats this option is used for raster images.
+This property is used when the document is exported to the following formats: Tiff, Png, Bmp, Jpeg, Emf. When the document is exported to the Html, Mhtml, Epub and Azw3 formats this option is used for raster images.
 
 ## Examples
 

@@ -26,6 +26,7 @@ public class LayoutEnumerator
 | --- | --- |
 | [Current](../../aspose.words.layout/layoutenumerator/current) { get; set; } | Gets or sets current position in the page layout model. This property returns an opaque object which corresponds to the current layout entity. |
 | [Document](../../aspose.words.layout/layoutenumerator/document) { get; } | Gets document this instance enumerates. |
+| [Item](../../aspose.words.layout/layoutenumerator/item) { get; } | Gets a named property of the entity. |
 | [Kind](../../aspose.words.layout/layoutenumerator/kind) { get; } | Gets the kind of the current entity. This can be an empty string but never null. |
 | [PageIndex](../../aspose.words.layout/layoutenumerator/pageindex) { get; } | Gets the 1-based index of a page which contains the current entity. |
 | [Rectangle](../../aspose.words.layout/layoutenumerator/rectangle) { get; } | Returns the bounding rectangle of the current entity relative to the page top left corner (in points). |
