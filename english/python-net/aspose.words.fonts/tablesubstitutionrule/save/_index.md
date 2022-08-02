@@ -1,0 +1,75 @@
+﻿---
+title: save method
+second_title: Aspose.Words for Python via .NET API Reference
+description: "aspose.words.fonts.TableSubstitutionRule.save method"
+type: docs
+weight: 70
+url: /python-net/aspose.words.fonts/tablesubstitutionrule/save/
+---
+
+## save(file_name) {#str}
+
+Saves the current table substitution settings to file.
+
+
+```python
+def save(self, file_name: str):
+    ...
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| file_name | str |  |
+
+## save(output_stream) {#bytesio}
+
+Saves the current table substitution settings to stream.
+
+
+```python
+def save(self, output_stream: BytesIO):
+    ...
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| output_stream | BytesIO |  |
+
+## Examples
+
+Shows how to access font substitution tables for Windows and Linux.
+
+```python
+doc = aw.Document()
+font_settings = aw.fonts.FontSettings()
+doc.font_settings = font_settings
+
+# Create a new table substitution rule and load the default Microsoft Windows font substitution table.
+table_substitution_rule = font_settings.substitution_settings.table_substitution
+table_substitution_rule.load_windows_settings()
+
+# In Windows, the default substitute for the "Times New Roman CE" font is "Times New Roman".
+self.assertListEqual(["Times New Roman"],
+    list(table_substitution_rule.get_substitutes("Times New Roman CE")))
+
+# We can save the table in the form of an XML document.
+table_substitution_rule.save(ARTIFACTS_DIR + "FontSettings.table_substitution_rule.windows.xml")
+
+# Linux has its own substitution table.
+# There are multiple substitute fonts for "Times New Roman CE".
+# If the first substitute, "FreeSerif" is also unavailable,
+# this rule will cycle through the others in the array until it finds an available one.
+table_substitution_rule.load_linux_settings()
+self.assertListEqual(["FreeSerif", "Liberation Serif", "DejaVu Serif"],
+    list(table_substitution_rule.get_substitutes("Times New Roman CE")))
+
+# Save the Linux substitution table in the form of an XML document using a stream.
+with open(ARTIFACTS_DIR + "FontSettings.table_substitution_rule.linux.xml", "wb") as file_stream:
+    table_substitution_rule.save(file_stream)
+```
+
+## See Also
+
+* module [aspose.words.fonts](../../)
+* class [TableSubstitutionRule](../)
+
