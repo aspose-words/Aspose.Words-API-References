@@ -1,14 +1,14 @@
 ---
 title: ExportShapesAsSvg
 second_title: Aspose.Words for .NET API Reference
-description: Controls whether Shapeaspose.words.drawing/shape nodes are converted to SVG images when saving to HTML MHTML or EPUB. Default value is false.
+description: Controls whether Shapeaspose.words.drawing/shape nodes are converted to SVG images when saving to HTML MHTML EPUB or AZW3. Default value is false.
 type: docs
 weight: 260
 url: /net/aspose.words.saving/htmlsaveoptions/exportshapesassvg/
 ---
 ## HtmlSaveOptions.ExportShapesAsSvg property
 
-Controls whether [`Shape`](../../../aspose.words.drawing/shape) nodes are converted to SVG images when saving to HTML, MHTML or EPUB. Default value is `false`.
+Controls whether [`Shape`](../../../aspose.words.drawing/shape) nodes are converted to SVG images when saving to HTML, MHTML, EPUB or AZW3. Default value is `false`.
 
 ```csharp
 public bool ExportShapesAsSvg { get; set; }
@@ -17,8 +17,6 @@ public bool ExportShapesAsSvg { get; set; }
 ## Remarks
 
 If this option is set to `true`, [`Shape`](../../../aspose.words.drawing/shape) nodes are exported as &lt;svg&gt; elements. Otherwise, they are rendered to bitmaps and are exported as &lt;img&gt; elements.
-
-Note that this options also affects text boxes, because they are represented by [`Shape`](../../../aspose.words.drawing/shape) nodes. As a result, if this option is set to `true`, it overrides the ExportTextBoxAsSvg property value and causes text boxes to be converted to SVG.
 
 ## Examples
 

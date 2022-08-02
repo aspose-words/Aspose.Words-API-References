@@ -3,7 +3,7 @@ title: Text
 second_title: Aspose.Words for .NET API Reference
 description: Gets text of the current span entity. Throws for other entity types.
 type: docs
-weight: 70
+weight: 80
 url: /net/aspose.words.layout/layoutenumerator/text/
 ---
 ## LayoutEnumerator.Text property

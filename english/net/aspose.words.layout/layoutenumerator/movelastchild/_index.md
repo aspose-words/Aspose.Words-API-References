@@ -3,7 +3,7 @@ title: MoveLastChild
 second_title: Aspose.Words for .NET API Reference
 description: Moves to the last child entity.
 type: docs
-weight: 100
+weight: 110
 url: /net/aspose.words.layout/layoutenumerator/movelastchild/
 ---
 ## LayoutEnumerator.MoveLastChild method

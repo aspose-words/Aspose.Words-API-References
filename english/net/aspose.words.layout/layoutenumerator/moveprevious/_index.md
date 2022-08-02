@@ -3,7 +3,7 @@ title: MovePrevious
 second_title: Aspose.Words for .NET API Reference
 description: Moves to the previous sibling entity.
 type: docs
-weight: 140
+weight: 150
 url: /net/aspose.words.layout/layoutenumerator/moveprevious/
 ---
 ## LayoutEnumerator.MovePrevious method

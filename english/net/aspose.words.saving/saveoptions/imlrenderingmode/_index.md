@@ -3,7 +3,7 @@ title: ImlRenderingMode
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets a value determining how ink InkML objects are rendered.
 type: docs
-weight: 100
+weight: 90
 url: /net/aspose.words.saving/saveoptions/imlrenderingmode/
 ---
 ## SaveOptions.ImlRenderingMode property

@@ -3,7 +3,7 @@ title: Rectangle
 second_title: Aspose.Words for .NET API Reference
 description: Returns the bounding rectangle of the current entity relative to the page top left corner in points.
 type: docs
-weight: 60
+weight: 70
 url: /net/aspose.words.layout/layoutenumerator/rectangle/
 ---
 ## LayoutEnumerator.Rectangle property

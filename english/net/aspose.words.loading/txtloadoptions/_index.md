@@ -30,7 +30,6 @@ public class TxtLoadOptions : LoadOptions
 | [DetectNumberingWithWhitespaces](../../aspose.words.loading/txtloadoptions/detectnumberingwithwhitespaces) { get; set; } | Allows to specify how numbered list items are recognized when document is imported from plain text format. The default value is true. |
 | [DocumentDirection](../../aspose.words.loading/txtloadoptions/documentdirection) { get; set; } | Gets or sets a document direction. The default value is LeftToRight. |
 | [Encoding](../../aspose.words.loading/loadoptions/encoding) { get; set; } | Gets or sets the encoding that will be used to load an HTML, TXT, or CHM document if the encoding is not specified inside the document. Can be null. Default is null. |
-| [FlatOpcXmlMappingOnly](../../aspose.words.loading/loadoptions/flatopcxmlmappingonly) { get; set; } | Gets or sets value determining which document formats are allowed to be mapped by [`XmlMapping`](../../aspose.words.markup/structureddocumenttag/xmlmapping). By default only FlatOpc document format is allowed to be mapped. |
 | [FontSettings](../../aspose.words.loading/loadoptions/fontsettings) { get; set; } | Allows to specify document font settings. |
 | [LanguagePreferences](../../aspose.words.loading/loadoptions/languagepreferences) { get; } | Gets language preferences that will be used when document is loading. |
 | [LeadingSpacesOptions](../../aspose.words.loading/txtloadoptions/leadingspacesoptions) { get; set; } | Gets or sets preferred option of a leading space handling. Default value is ConvertToIndent. |
