@@ -50,5 +50,16 @@ These are links to some useful resources:
 
 - [Aspose.Words for C++ API Reference](/words/cpp)
 
+## Aspose.Words for Python via .NET
 
+{{% alert color="primary" %}}
+
+![Aspose.Words for Python via .NET Product Logo](home_4.png)
+
+Aspose.Words for Python via .NET is a class library that enables your applications to perform a great range of document processing tasks. Aspose.Words supports DOC, DOCX, RTF, HTML, OpenDocument, PDF, XPS, EPUB, and other formats. With Aspose.Words you can generate, modify, convert, render, and print documents without utilizing Microsoft Word®.
+
+{{% /alert %}}
+
+These are links to some useful resources:
+- [Aspose.Words for Python via .NET API Reference](/words/python-net/)
 

@@ -1,0 +1,64 @@
+﻿---
+title: child_nodes property
+second_title: Aspose.Words for Python via .NET API Reference
+description: "Gets all immediate child nodes of this node."
+type: docs
+weight: 10
+url: /python-net/aspose.words/compositenode/child_nodes/
+---
+
+## CompositeNode.child_nodes property
+
+Gets all immediate child nodes of this node.
+
+Note, [CompositeNode.child_nodes](./) is equivalent to calling ``GetChildNodes(NodeType.Any, false)``
+and creates and returns a new collection every time it is accessed.
+
+If there are no child nodes, this property returns an empty collection.
+
+
+
+
+### Examples
+
+Shows how to traverse through a composite node's collection of child nodes.
+
+```python
+doc = aw.Document()
+
+# Add two runs and one shape as child nodes to the first paragraph of this document.
+paragraph = doc.get_child(aw.NodeType.PARAGRAPH, 0, True).as_paragraph()
+paragraph.append_child(aw.Run(doc, "Hello world! "))
+
+shape = aw.drawing.Shape(doc, aw.drawing.ShapeType.RECTANGLE)
+shape.width = 200
+shape.height = 200
+# Note that the 'custom_node_id' is not saved to an output file and exists only during the node lifetime.
+shape.custom_node_id = 100
+shape.wrap_type = aw.drawing.WrapType.INLINE
+paragraph.append_child(shape)
+
+paragraph.append_child(aw.Run(doc, "Hello again!"))
+
+# Iterate through the paragraph's collection of immediate children,
+# and print any runs or shapes that we find within.
+children = paragraph.child_nodes
+
+self.assertEqual(3, paragraph.child_nodes.count)
+
+for child in children:
+    if child.node_type == aw.NodeType.RUN:
+        print("Run contents:")
+        print(f"\t\"{child.get_text().strip()}\"")
+
+    elif child.node_type == aw.NodeType.SHAPE:
+        child_shape = child.as_shape()
+        print("Shape:")
+        print(f"\t{child_shape.shape_type}, {child_shape.width}x{child_shape.height}")
+```
+
+### See Also
+
+* module [aspose.words](../../)
+* class [CompositeNode](../)
+
