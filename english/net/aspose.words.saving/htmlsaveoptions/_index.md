@@ -1,14 +1,14 @@
 ---
 title: HtmlSaveOptions
 second_title: Aspose.Words for .NET API Reference
-description: Can be used to specify additional options when saving a document into the Html Mhtml or Epub format.
+description: Can be used to specify additional options when saving a document into the Html Mhtml Epub or Azw3 format.
 type: docs
 weight: 4850
 url: /net/aspose.words.saving/htmlsaveoptions/
 ---
 ## HtmlSaveOptions class
 
-Can be used to specify additional options when saving a document into the Html, Mhtml or Epub format.
+Can be used to specify additional options when saving a document into the Html, Mhtml, Epub or Azw3 format.
 
 ```csharp
 public class HtmlSaveOptions : SaveOptions
@@ -19,7 +19,7 @@ public class HtmlSaveOptions : SaveOptions
 | Name | Description |
 | --- | --- |
 | [HtmlSaveOptions](htmlsaveoptions#constructor)() | Initializes a new instance of this class that can be used to save a document in the Html format. |
-| [HtmlSaveOptions](htmlsaveoptions#constructor_1)(SaveFormat) | Initializes a new instance of this class that can be used to save a document in the Html, Mhtml or Epub format. |
+| [HtmlSaveOptions](htmlsaveoptions#constructor_1)(SaveFormat) | Initializes a new instance of this class that can be used to save a document in the Html, Mhtml, Epub or Azw3 format. |
 
 ## Properties
 
@@ -37,7 +37,7 @@ public class HtmlSaveOptions : SaveOptions
 | virtual [DmlEffectsRenderingMode](../../aspose.words.saving/saveoptions/dmleffectsrenderingmode) { get; set; } | Gets or sets a value determining how DrawingML effects are rendered. |
 | [DmlRenderingMode](../../aspose.words.saving/saveoptions/dmlrenderingmode) { get; set; } | Gets or sets a value determining how DrawingML shapes are rendered. |
 | [DocumentPartSavingCallback](../../aspose.words.saving/htmlsaveoptions/documentpartsavingcallback) { get; set; } | Allows to control how document parts are saved when a document is saved to HTML or EPUB. |
-| [DocumentSplitCriteria](../../aspose.words.saving/htmlsaveoptions/documentsplitcriteria) { get; set; } | Specifies how the document should be split when saving to Html or Epub format. Default is None for HTML and HeadingParagraph for EPUB. |
+| [DocumentSplitCriteria](../../aspose.words.saving/htmlsaveoptions/documentsplitcriteria) { get; set; } | Specifies how the document should be split when saving to Html, Epub or Azw3 format. Default is None for HTML and HeadingParagraph for EPUB and AZW3. |
 | [DocumentSplitHeadingLevel](../../aspose.words.saving/htmlsaveoptions/documentsplitheadinglevel) { get; set; } | Specifies the maximum level of headings at which to split the document. Default value is `2`. |
 | [Encoding](../../aspose.words.saving/htmlsaveoptions/encoding) { get; set; } | Specifies the encoding to use when exporting to HTML, MHTML or EPUB. Default value is `new UTF8Encoding(false)` (UTF-8 without BOM). |
 | [EpubNavigationMapLevel](../../aspose.words.saving/htmlsaveoptions/epubnavigationmaplevel) { get; set; } | Specifies the maximum level of headings populated to the navigation map when exporting to IDPF EPUB format. Default value is `3`. |
@@ -56,11 +56,10 @@ public class HtmlSaveOptions : SaveOptions
 | [ExportPageSetup](../../aspose.words.saving/htmlsaveoptions/exportpagesetup) { get; set; } | Specifies whether page setup is exported to HTML, MHTML or EPUB. Default is `false`. |
 | [ExportRelativeFontSize](../../aspose.words.saving/htmlsaveoptions/exportrelativefontsize) { get; set; } | Specifies whether font sizes should be output in relative units when saving to HTML, MHTML or EPUB. Default is `false`. |
 | [ExportRoundtripInformation](../../aspose.words.saving/htmlsaveoptions/exportroundtripinformation) { get; set; } | Specifies whether to write the roundtrip information when saving to HTML, MHTML or EPUB. Default value is `true` for HTML and `false` for MHTML and EPUB. |
-| [ExportShapesAsSvg](../../aspose.words.saving/htmlsaveoptions/exportshapesassvg) { get; set; } | Controls whether [`Shape`](../../aspose.words.drawing/shape) nodes are converted to SVG images when saving to HTML, MHTML or EPUB. Default value is `false`. |
+| [ExportShapesAsSvg](../../aspose.words.saving/htmlsaveoptions/exportshapesassvg) { get; set; } | Controls whether [`Shape`](../../aspose.words.drawing/shape) nodes are converted to SVG images when saving to HTML, MHTML, EPUB or AZW3. Default value is `false`. |
 | [ExportTextInputFormFieldAsText](../../aspose.words.saving/htmlsaveoptions/exporttextinputformfieldastext) { get; set; } | Controls how text input form fields are saved to HTML or MHTML. Default value is `false`. |
 | [ExportTocPageNumbers](../../aspose.words.saving/htmlsaveoptions/exporttocpagenumbers) { get; set; } | Specifies whether to write page numbers to table of contents when saving HTML, MHTML and EPUB. Default value is `false`. |
 | [ExportXhtmlTransitional](../../aspose.words.saving/htmlsaveoptions/exportxhtmltransitional) { get; set; } | Specifies whether to write the DOCTYPE declaration when saving to HTML or MHTML. When `true`, writes a DOCTYPE declaration in the document prior to the root element. Default value is `false`. When saving to EPUB or HTML5 (Html5) the DOCTYPE declaration is always written. |
-| [FlatOpcXmlMappingOnly](../../aspose.words.saving/saveoptions/flatopcxmlmappingonly) { get; set; } | Gets or sets value determining which document formats are allowed to be mapped by [`XmlMapping`](../../aspose.words.markup/structureddocumenttag/xmlmapping). By default only FlatOpc document format is allowed to be mapped. |
 | [FontResourcesSubsettingSizeThreshold](../../aspose.words.saving/htmlsaveoptions/fontresourcessubsettingsizethreshold) { get; set; } | Controls which font resources need subsetting when saving to HTML, MHTML or EPUB. Default is `0`. |
 | [FontSavingCallback](../../aspose.words.saving/htmlsaveoptions/fontsavingcallback) { get; set; } | Allows to control how fonts are saved when a document is saved to HTML, MHTML or EPUB. |
 | [FontsFolder](../../aspose.words.saving/htmlsaveoptions/fontsfolder) { get; set; } | Specifies the physical folder where fonts are saved when exporting a document to HTML. Default is an empty string. |
@@ -79,7 +78,7 @@ public class HtmlSaveOptions : SaveOptions
 | [ResolveFontNames](../../aspose.words.saving/htmlsaveoptions/resolvefontnames) { get; set; } | Specifies whether font family names used in the document are resolved and substituted according to [`FontSettings`](../../aspose.words/document/fontsettings) when being written into HTML-based formats. |
 | [ResourceFolder](../../aspose.words.saving/htmlsaveoptions/resourcefolder) { get; set; } | Specifies a physical folder where all resources like images, fonts, and external CSS are saved when a document is exported to HTML. Default is an empty string. |
 | [ResourceFolderAlias](../../aspose.words.saving/htmlsaveoptions/resourcefolderalias) { get; set; } | Specifies the name of the folder used to construct URIs of all resources written into an HTML document. Default is an empty string. |
-| override [SaveFormat](../../aspose.words.saving/htmlsaveoptions/saveformat) { get; set; } | Specifies the format in which the document will be saved if this save options object is used. Can be Html, Mhtml or Epub. |
+| override [SaveFormat](../../aspose.words.saving/htmlsaveoptions/saveformat) { get; set; } | Specifies the format in which the document will be saved if this save options object is used. Can be Html, Mhtml, Epub or Azw3. |
 | [ScaleImageToShapeSize](../../aspose.words.saving/htmlsaveoptions/scaleimagetoshapesize) { get; set; } | Specifies whether images are scaled by Aspose.Words to the bounding shape size when exporting to HTML, MHTML or EPUB. Default value is `true`. |
 | [TableWidthOutputMode](../../aspose.words.saving/htmlsaveoptions/tablewidthoutputmode) { get; set; } | Controls how table, row and cell widths are exported to HTML, MHTML or EPUB. Default value is All. |
 | [TempFolder](../../aspose.words.saving/saveoptions/tempfolder) { get; set; } | Specifies the folder for temporary files used when saving to a DOC or DOCX file. By default this property is `null` and no temporary files are used. |

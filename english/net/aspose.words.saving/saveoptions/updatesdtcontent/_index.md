@@ -3,7 +3,7 @@ title: UpdateSdtContent
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets value determining whether content of StructuredDocumentTagaspose.words.markup/structureddocumenttag is updated before saving.
 type: docs
-weight: 200
+weight: 190
 url: /net/aspose.words.saving/saveoptions/updatesdtcontent/
 ---
 ## SaveOptions.UpdateSdtContent property

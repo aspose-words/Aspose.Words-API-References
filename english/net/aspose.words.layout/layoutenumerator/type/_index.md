@@ -3,7 +3,7 @@ title: Type
 second_title: Aspose.Words for .NET API Reference
 description: Gets the type of the current entity.
 type: docs
-weight: 80
+weight: 90
 url: /net/aspose.words.layout/layoutenumerator/type/
 ---
 ## LayoutEnumerator.Type property

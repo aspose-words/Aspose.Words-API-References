@@ -3,7 +3,7 @@ title: UpdateFields
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets a value determining if fields of certain types should be updated before saving the document to a fixed page format. Default value for this property is true.
 type: docs
-weight: 170
+weight: 160
 url: /net/aspose.words.saving/saveoptions/updatefields/
 ---
 ## SaveOptions.UpdateFields property

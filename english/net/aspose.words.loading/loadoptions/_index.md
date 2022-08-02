@@ -30,7 +30,6 @@ public class LoadOptions
 | [ConvertMetafilesToPng](../../aspose.words.loading/loadoptions/convertmetafilestopng) { get; set; } | Gets or sets whether to convert metafile (Wmf or Emf) images to Png image format. |
 | [ConvertShapeToOfficeMath](../../aspose.words.loading/loadoptions/convertshapetoofficemath) { get; set; } | Gets or sets whether to convert shapes with EquationXML to Office Math objects. |
 | [Encoding](../../aspose.words.loading/loadoptions/encoding) { get; set; } | Gets or sets the encoding that will be used to load an HTML, TXT, or CHM document if the encoding is not specified inside the document. Can be null. Default is null. |
-| [FlatOpcXmlMappingOnly](../../aspose.words.loading/loadoptions/flatopcxmlmappingonly) { get; set; } | Gets or sets value determining which document formats are allowed to be mapped by [`XmlMapping`](../../aspose.words.markup/structureddocumenttag/xmlmapping). By default only FlatOpc document format is allowed to be mapped. |
 | [FontSettings](../../aspose.words.loading/loadoptions/fontsettings) { get; set; } | Allows to specify document font settings. |
 | [LanguagePreferences](../../aspose.words.loading/loadoptions/languagepreferences) { get; } | Gets language preferences that will be used when document is loading. |
 | [LoadFormat](../../aspose.words.loading/loadoptions/loadformat) { get; set; } | Specifies the format of the document to be loaded. Default is Auto. |

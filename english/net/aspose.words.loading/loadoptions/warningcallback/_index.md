@@ -3,7 +3,7 @@ title: WarningCallback
 second_title: Aspose.Words for .NET API Reference
 description: Called during a load operation when an issue is detected that might result in data or formatting fidelity loss.
 type: docs
-weight: 170
+weight: 160
 url: /net/aspose.words.loading/loadoptions/warningcallback/
 ---
 ## LoadOptions.WarningCallback property

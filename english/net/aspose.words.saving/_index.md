@@ -22,7 +22,7 @@ The **Aspose.Words.Saving** namespace provides classes and enumerations that all
 | [FontSavingArgs](./fontsavingargs) | Provides data for the [`FontSaving`](../aspose.words.saving/ifontsavingcallback/fontsaving) event. |
 | [GraphicsQualityOptions](./graphicsqualityoptions) | Allows to specify additional Graphics quality options. |
 | [HtmlFixedSaveOptions](./htmlfixedsaveoptions) | Can be used to specify additional options when saving a document into the HtmlFixed format. |
-| [HtmlSaveOptions](./htmlsaveoptions) | Can be used to specify additional options when saving a document into the Html, Mhtml or Epub format. |
+| [HtmlSaveOptions](./htmlsaveoptions) | Can be used to specify additional options when saving a document into the Html, Mhtml, Epub or Azw3 format. |
 | [ImageSaveOptions](./imagesaveoptions) | Allows to specify additional options when rendering document pages or shapes to images. |
 | [ImageSavingArgs](./imagesavingargs) | Provides data for the [`ImageSaving`](../aspose.words.saving/iimagesavingcallback/imagesaving) event. |
 | [MarkdownSaveOptions](./markdownsaveoptions) | Class to specify additional options when saving a document into the Markdown format. |
@@ -72,7 +72,7 @@ The **Aspose.Words.Saving** namespace provides classes and enumerations that all
 | [Dml3DEffectsRenderingMode](./dml3deffectsrenderingmode) | Specifies how 3D shape effects are rendered. |
 | [DmlEffectsRenderingMode](./dmleffectsrenderingmode) | Specifies how DrawingML effects are rendered to fixed page formats. |
 | [DmlRenderingMode](./dmlrenderingmode) | Specifies how DrawingML shapes are rendered to fixed page formats. |
-| [DocumentSplitCriteria](./documentsplitcriteria) | Specifies how the document is split into parts when saving to Html or Epub format. |
+| [DocumentSplitCriteria](./documentsplitcriteria) | Specifies how the document is split into parts when saving to Html, Epub or Azw3 format. |
 | [EmfPlusDualRenderingMode](./emfplusdualrenderingmode) | Specifies how Aspose.Words should render EMF+ Dual metafiles. |
 | [ExportFontFormat](./exportfontformat) | Indicates the format that is used to export fonts while rendering to HTML fixed format. |
 | [ExportHeadersFootersMode](./exportheadersfootersmode) | Specifies how headers and footers are exported to HTML, MHTML or EPUB. |

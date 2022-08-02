@@ -3,7 +3,7 @@ title: LanguagePreferences
 second_title: Aspose.Words for .NET API Reference
 description: Gets language preferences that will be used when document is loading.
 type: docs
-weight: 80
+weight: 70
 url: /net/aspose.words.loading/loadoptions/languagepreferences/
 ---
 ## LoadOptions.LanguagePreferences property
