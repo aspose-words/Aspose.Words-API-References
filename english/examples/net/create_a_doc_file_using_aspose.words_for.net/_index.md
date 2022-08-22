@@ -2,7 +2,7 @@
 title: Create a DOC File Using Aspose.Words for .NET
 type: docs
 weight: 10
-url: /examples/net/create_a_doc_file_using_aspose.words_for.net
+url: /examples/net/create_a_doc_file_using_aspose.words_for.net/
 description: "The code snippet explains how to create an Doc file using Aspose.Words for .NET. Classes used for creating document are Document and DocumentBuilder"
 ---
 
