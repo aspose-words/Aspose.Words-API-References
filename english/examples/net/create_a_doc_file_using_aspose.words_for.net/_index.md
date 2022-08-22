@@ -8,10 +8,10 @@ description: "The code snippet explains how to create an Doc file using Aspose.W
 
 The following code snippet explains how to create an Doc file using Aspose.Words for .NET. 
 
-1. Create an instance of [Document](../net/aspose.words/document/) class.
-2. Intialize [DocumentBuilder](../net/aspose.words/documentbuilder/) with [Document](../net/aspose.words/document/) object.
-3. Write your content with [DocumentBuilder.Writeln](../net/aspose.words/documentbuilder/writeln/#writeln_1) method.
-4. Save your document with [Document.Save](../net/aspose.words/document/save/#save_2) method.
+1. Create an instance of [Document](../../../net/aspose.words/document/) class.
+2. Intialize [DocumentBuilder](../../../net/aspose.words/documentbuilder/) with [Document](../../../net/aspose.words/document/) object.
+3. Write your content with [DocumentBuilder.Writeln](../../../net/aspose.words/documentbuilder/writeln/#writeln_1) method.
+4. Save your document with [Document.Save](../../../net/aspose.words/document/save/#save_2) method.
    
 ```csharp
 // create a blank document
@@ -27,5 +27,5 @@ doc.Save(dir + "output.docx");
 
 ### See Also
 
-* class [DocumentBase](../net/aspose.words/documentbase)
-* namespace [Aspose.Words](../net/aspose.words)
+* class [DocumentBase](../../../net/aspose.words/documentbase)
+* namespace [Aspose.Words](../../../net/aspose.words)
