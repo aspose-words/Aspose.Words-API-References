@@ -16,7 +16,7 @@ The **Aspose.Words.Fields** namespace contains classes that represent Microsoft 
 | [ComparisonEvaluationResult](./comparisonevaluationresult) | The comparison evaluation result. |
 | [ComparisonExpression](./comparisonexpression) | The comparison expression. |
 | [DropDownItemCollection](./dropdownitemcollection) | A collection of strings that represent all the items in a drop-down form field. |
-| [Field](./field) | Represents a Microsoft Word document field. |
+| [Field](./field) | Represents a Microsoft Word document field. To learn more, visit [this](https://docs.aspose.com/words/net/working-with-fields/) documentation page. |
 | [FieldAddIn](./fieldaddin) | Implements the ADDIN field. |
 | [FieldAddressBlock](./fieldaddressblock) | Implements the ADDRESSBLOCK field. |
 | [FieldAdvance](./fieldadvance) | Implements the ADVANCE field. |
