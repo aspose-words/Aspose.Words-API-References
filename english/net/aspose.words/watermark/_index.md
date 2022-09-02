@@ -10,6 +10,8 @@ url: /net/aspose.words/watermark/
 
 Represents class to work with document watermark.
 
+To learn more, visit the [Working with Watermark](https://docs.aspose.com/words/net/working-with-watermark/) documentation article.
+
 ```csharp
 public sealed class Watermark
 ```

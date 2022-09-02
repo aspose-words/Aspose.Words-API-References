@@ -39,6 +39,7 @@ public class FieldEQ : Field
 
 | Name | Description |
 | --- | --- |
+| [AsOfficeMath](../../aspose.words.fields/fieldeq/asofficemath)() | Returns Office Math object corresponded to the EQ field. |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode)() | Returns text between field start and field separator (or field end if there is no separator). Both field code and field result of child fields are included. |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode)(bool) | Returns text between field start and field separator (or field end if there is no separator). |
 | [Remove](../../aspose.words.fields/field/remove)() | Removes the field from the document. Returns a node right after the field. If the field's end is the last child of its parent node, returns its parent paragraph. If the field is already removed, returns **null**. |
