@@ -24,10 +24,11 @@ public class TxtLoadOptions : LoadOptions
 
 | Name | Description |
 | --- | --- |
+| [AutoNumberingDetection](../../aspose.words.loading/txtloadoptions/autonumberingdetection) { get; set; } | Gets or sets a boolean value indicating either automatic numbering detection will be performed while loading a document. The default value is `true`. |
 | [BaseUri](../../aspose.words.loading/loadoptions/baseuri) { get; set; } | Gets or sets the string that will be used to resolve relative URIs found in the document into absolute URIs when required. Can be null or empty string. Default is null. |
 | [ConvertMetafilesToPng](../../aspose.words.loading/loadoptions/convertmetafilestopng) { get; set; } | Gets or sets whether to convert metafile (Wmf or Emf) images to Png image format. |
 | [ConvertShapeToOfficeMath](../../aspose.words.loading/loadoptions/convertshapetoofficemath) { get; set; } | Gets or sets whether to convert shapes with EquationXML to Office Math objects. |
-| [DetectNumberingWithWhitespaces](../../aspose.words.loading/txtloadoptions/detectnumberingwithwhitespaces) { get; set; } | Allows to specify how numbered list items are recognized when document is imported from plain text format. The default value is true. |
+| [DetectNumberingWithWhitespaces](../../aspose.words.loading/txtloadoptions/detectnumberingwithwhitespaces) { get; set; } | Allows to specify how numbered list items are recognized when document is imported from plain text format. The default value is `true`. |
 | [DocumentDirection](../../aspose.words.loading/txtloadoptions/documentdirection) { get; set; } | Gets or sets a document direction. The default value is LeftToRight. |
 | [Encoding](../../aspose.words.loading/loadoptions/encoding) { get; set; } | Gets or sets the encoding that will be used to load an HTML, TXT, or CHM document if the encoding is not specified inside the document. Can be null. Default is null. |
 | [FontSettings](../../aspose.words.loading/loadoptions/fontsettings) { get; set; } | Allows to specify document font settings. |

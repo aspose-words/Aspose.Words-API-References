@@ -3,7 +3,7 @@ title: PreblendImages
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets a value determining whether or not to preblend transparent images with black background color.
 type: docs
-weight: 230
+weight: 240
 url: /net/aspose.words.saving/pdfsaveoptions/preblendimages/
 ---
 ## PdfSaveOptions.PreblendImages property

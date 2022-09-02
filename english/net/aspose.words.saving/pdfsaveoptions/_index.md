@@ -26,6 +26,7 @@ public class PdfSaveOptions : FixedPageSaveOptions
 | --- | --- |
 | [AdditionalTextPositioning](../../aspose.words.saving/pdfsaveoptions/additionaltextpositioning) { get; set; } | A flag specifying whether to write additional text positioning operators or not. |
 | [AllowEmbeddingPostScriptFonts](../../aspose.words.saving/saveoptions/allowembeddingpostscriptfonts) { get; set; } | Gets or sets a boolean value indicating whether to allow embedding fonts with PostScript outlines when embedding TrueType fonts in a document upon it is saved. The default value is **false**. |
+| [CacheHeaderFooterShapes](../../aspose.words.saving/pdfsaveoptions/cacheheaderfootershapes) { get; set; } | Gets or sets a value determining whether or not to cache shapes placed in header and footer of document. |
 | [ColorMode](../../aspose.words.saving/fixedpagesaveoptions/colormode) { get; set; } | Gets or sets a value determining how colors are rendered. |
 | [Compliance](../../aspose.words.saving/pdfsaveoptions/compliance) { get; set; } | Specifies the PDF standards compliance level for output documents. |
 | [CreateNoteHyperlinks](../../aspose.words.saving/pdfsaveoptions/createnotehyperlinks) { get; set; } | Specifies whether to convert footnote/endnote references in main text story into active hyperlinks. When clicked the hyperlink will lead to the corresponding footnote/endnote. Default is `false`. |

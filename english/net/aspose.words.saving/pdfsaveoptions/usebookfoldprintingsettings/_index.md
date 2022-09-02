@@ -3,7 +3,7 @@ title: UseBookFoldPrintingSettings
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets a boolean value indicating whether the document should be saved using a booklet printing layout if it is specified via MultiplePagesaspose.words/pagesetup/multiplepages.
 type: docs
-weight: 270
+weight: 280
 url: /net/aspose.words.saving/pdfsaveoptions/usebookfoldprintingsettings/
 ---
 ## PdfSaveOptions.UseBookFoldPrintingSettings property

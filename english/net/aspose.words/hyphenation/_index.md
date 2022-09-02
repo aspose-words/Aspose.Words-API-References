@@ -10,6 +10,8 @@ url: /net/aspose.words/hyphenation/
 
 Provides methods for working with hyphenation dictionaries. These dictionaries prescribe where words of a specific language can be hyphenated.
 
+To learn more, visit the [Working with Hyphenation](https://docs.aspose.com/words/net/working-with-hyphenation/) documentation article.
+
 ```csharp
 public static class Hyphenation
 ```

@@ -10,6 +10,8 @@ url: /net/aspose.words/bookmarkstart/
 
 Represents a start of a bookmark in a Word document.
 
+To learn more, visit the [Working with Bookmarks](https://docs.aspose.com/words/net/working-with-bookmarks/) documentation article.
+
 ```csharp
 public class BookmarkStart : Node
 ```

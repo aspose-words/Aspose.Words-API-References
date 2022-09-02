@@ -3,7 +3,7 @@ title: DmlEffectsRenderingMode
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets a value determining how DrawingML effects are rendered.
 type: docs
-weight: 80
+weight: 90
 url: /net/aspose.words.saving/pdfsaveoptions/dmleffectsrenderingmode/
 ---
 ## PdfSaveOptions.DmlEffectsRenderingMode property
