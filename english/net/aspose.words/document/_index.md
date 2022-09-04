@@ -10,6 +10,8 @@ url: /net/aspose.words/document/
 
 Represents a Word document.
 
+To learn more, visit the [Working with Document](https://docs.aspose.com/words/net/working-with-document/) documentation article.
+
 ```csharp
 public class Document : DocumentBase
 ```

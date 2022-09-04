@@ -10,6 +10,8 @@ url: /net/aspose.words.saving/saveoptions/
 
 This is an abstract base class for classes that allow the user to specify additional options when saving a document into a particular format.
 
+To learn more, visit the [Specify Save Options](https://docs.aspose.com/words/net/specify-save-options/) documentation article.
+
 ```csharp
 public abstract class SaveOptions
 ```

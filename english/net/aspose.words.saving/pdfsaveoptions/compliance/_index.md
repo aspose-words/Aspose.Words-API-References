@@ -3,7 +3,7 @@ title: Compliance
 second_title: Aspose.Words for .NET API Reference
 description: Specifies the PDF standards compliance level for output documents.
 type: docs
-weight: 30
+weight: 40
 url: /net/aspose.words.saving/pdfsaveoptions/compliance/
 ---
 ## PdfSaveOptions.Compliance property

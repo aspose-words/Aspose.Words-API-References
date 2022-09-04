@@ -10,6 +10,8 @@ url: /net/aspose.words.loading/loadoptions/
 
 Allows to specify additional options (such as password or base URI) when loading a document into a [`Document`](../../aspose.words/document) object.
 
+To learn more, visit the [Specify Load Options](https://docs.aspose.com/words/net/specify-load-options/) documentation article.
+
 ```csharp
 public class LoadOptions
 ```
