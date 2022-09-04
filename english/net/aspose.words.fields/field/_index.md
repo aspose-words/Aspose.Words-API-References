@@ -8,7 +8,7 @@ url: /net/aspose.words.fields/field/
 ---
 ## Field class
 
-Represents a Microsoft Word document field. To learn more, visit [this](https://docs.aspose.com/words/net/working-with-fields/) documentation page.
+Represents a Microsoft Word document field.
 
 To learn more, visit the ["Working with Fields"](https://docs.aspose.com/words/net/working-with-fields/) documentation article.
 
