@@ -32,3 +32,4 @@ jobs:
         dst_repo_name: apireference.aspose.com
         dst_branch: production
         src_branch: production
+        clean: true
