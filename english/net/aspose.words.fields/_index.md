@@ -34,14 +34,14 @@ The **Aspose.Words.Fields** namespace contains classes that represent Microsoft 
 | [FieldBuilder](./fieldbuilder) | Builds a field from field code tokens (arguments and switches). |
 | [FieldChar](./fieldchar) | Base class for nodes that represent field characters in a document. |
 | [FieldCitation](./fieldcitation) | Implements the CITATION field. |
-| [FieldCollection](./fieldcollection) | A collection of [`Field`](../aspose.words.fields/field) objects that represents the fields in the specified range. |
+| [FieldCollection](./fieldcollection) | A collection of [`Field`](../aspose.words.fields/field/) objects that represents the fields in the specified range. |
 | [FieldComments](./fieldcomments) | Implements the COMMENTS field. |
 | [FieldCompare](./fieldcompare) | Implements the COMPARE field. |
 | [FieldCreateDate](./fieldcreatedate) | Implements the CREATEDATE field. |
 | [FieldData](./fielddata) | Implements the DATA field. |
 | [FieldDatabase](./fielddatabase) | Implements the DATABASE field. |
-| [FieldDatabaseDataRow](./fielddatabasedatarow) | Provides data for the [`FieldDatabase`](../aspose.words.fields/fielddatabase) field result. |
-| [FieldDatabaseDataTable](./fielddatabasedatatable) | Provides data for the [`FieldDatabase`](../aspose.words.fields/fielddatabase) field result. |
+| [FieldDatabaseDataRow](./fielddatabasedatarow) | Provides data for the [`FieldDatabase`](../aspose.words.fields/fielddatabase/) field result. |
+| [FieldDatabaseDataTable](./fielddatabasedatatable) | Provides data for the [`FieldDatabase`](../aspose.words.fields/fielddatabase/) field result. |
 | [FieldDate](./fielddate) | Implements the DATE field. |
 | [FieldDde](./fielddde) | Implements the DDE field. |
 | [FieldDdeAuto](./fieldddeauto) | Implements the DDEAUTO field. |
@@ -133,8 +133,8 @@ The **Aspose.Words.Fields** namespace contains classes that represent Microsoft 
 | Interface | Description |
 | --- | --- |
 | [IBarcodeGenerator](./ibarcodegenerator) | Public interface for barcode custom generator. Implementation should be provided by user. |
-| [IComparisonExpressionEvaluator](./icomparisonexpressionevaluator) | When implemented, allows to override default comparison expressions evaluation for the [`FieldIf`](../aspose.words.fields/fieldif) and [`FieldCompare`](../aspose.words.fields/fieldcompare) fields. |
-| [IFieldDatabaseProvider](./ifielddatabaseprovider) | Implement this interface to provide data for the [`FieldDatabase`](../aspose.words.fields/fielddatabase) field when it's updated. |
+| [IComparisonExpressionEvaluator](./icomparisonexpressionevaluator) | When implemented, allows to override default comparison expressions evaluation for the [`FieldIf`](../aspose.words.fields/fieldif/) and [`FieldCompare`](../aspose.words.fields/fieldcompare/) fields. |
+| [IFieldDatabaseProvider](./ifielddatabaseprovider) | Implement this interface to provide data for the [`FieldDatabase`](../aspose.words.fields/fielddatabase/) field when it's updated. |
 | [IFieldResultFormatter](./ifieldresultformatter) | Implement this interface if you want to control how the field result is formatted. |
 | [IFieldUpdateCultureProvider](./ifieldupdatecultureprovider) | When implemented, provides a CultureInfo object that should be used during the update of a particular field. |
 | [IFieldUpdatingCallback](./ifieldupdatingcallback) | Implement this interface if you want to have your own custom methods called during a field update. |
@@ -144,7 +144,7 @@ The **Aspose.Words.Fields** namespace contains classes that represent Microsoft 
 | Enumeration | Description |
 | --- | --- |
 | [FieldIfComparisonResult](./fieldifcomparisonresult) | Specifies the result of the IF field condition evaluation. |
-| [FieldIndexFormat](./fieldindexformat) | Specifies the formatting for the [`FieldIndex`](../aspose.words.fields/fieldindex) fields in a document. |
+| [FieldIndexFormat](./fieldindexformat) | Specifies the formatting for the [`FieldIndex`](../aspose.words.fields/fieldindex/) fields in a document. |
 | [FieldType](./fieldtype) | Specifies Microsoft Word field types. |
 | [FieldUpdateCultureSource](./fieldupdateculturesource) | Indicates what culture to use during field update. |
 | [GeneralFormat](./generalformat) | Specifies a general format that is applied to a numeric, text, or any field result. A field may have a combination of general formats. |

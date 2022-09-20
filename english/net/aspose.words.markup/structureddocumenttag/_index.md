@@ -48,15 +48,15 @@ public class StructuredDocumentTag : CompositeNode, IStructuredDocumentTag
 | [IsTemporary](../../aspose.words.markup/structureddocumenttag/istemporary) { get; set; } | Specifies whether this **SDT** shall be removed from the WordProcessingML document when its contents are modified. |
 | [LastChild](../../aspose.words/compositenode/lastchild) { get; } | Gets the last child of the node. |
 | [Level](../../aspose.words.markup/structureddocumenttag/level) { get; } | Gets the level at which this **SDT** occurs in the document tree. |
-| [ListItems](../../aspose.words.markup/structureddocumenttag/listitems) { get; } | Gets [`SdtListItemCollection`](../sdtlistitemcollection) associated with this **SDT**. |
+| [ListItems](../../aspose.words.markup/structureddocumenttag/listitems) { get; } | Gets [`SdtListItemCollection`](../sdtlistitemcollection/) associated with this **SDT**. |
 | [LockContentControl](../../aspose.words.markup/structureddocumenttag/lockcontentcontrol) { get; set; } | When set to true, this property will prohibit a user from deleting this **SDT**. |
 | [LockContents](../../aspose.words.markup/structureddocumenttag/lockcontents) { get; set; } | When set to true, this property will prohibit a user from editing the contents of this **SDT**. |
 | [Multiline](../../aspose.words.markup/structureddocumenttag/multiline) { get; set; } | Specifies whether this **SDT** allows multiple lines of text. |
 | [NextSibling](../../aspose.words/node/nextsibling) { get; } | Gets the node immediately following this node. |
 | override [NodeType](../../aspose.words.markup/structureddocumenttag/nodetype) { get; } | Returns **NodeType.StructuredDocumentTag**. |
 | [ParentNode](../../aspose.words/node/parentnode) { get; } | Gets the immediate parent of this node. |
-| [Placeholder](../../aspose.words.markup/structureddocumenttag/placeholder) { get; } | Gets the [`BuildingBlock`](../../aspose.words.buildingblocks/buildingblock) containing placeholder text which should be displayed when this SDT run contents are empty, the associated mapped XML element is empty as specified via the [`XmlMapping`](./xmlmapping) element or the [`IsShowingPlaceholderText`](./isshowingplaceholdertext) element is true. |
-| [PlaceholderName](../../aspose.words.markup/structureddocumenttag/placeholdername) { get; set; } | Gets or sets Name of the [`BuildingBlock`](../../aspose.words.buildingblocks/buildingblock) containing placeholder text. |
+| [Placeholder](../../aspose.words.markup/structureddocumenttag/placeholder) { get; } | Gets the [`BuildingBlock`](../../aspose.words.buildingblocks/buildingblock/) containing placeholder text which should be displayed when this SDT run contents are empty, the associated mapped XML element is empty as specified via the [`XmlMapping`](./xmlmapping/) element or the [`IsShowingPlaceholderText`](./isshowingplaceholdertext/) element is true. |
+| [PlaceholderName](../../aspose.words.markup/structureddocumenttag/placeholdername) { get; set; } | Gets or sets Name of the [`BuildingBlock`](../../aspose.words.buildingblocks/buildingblock/) containing placeholder text. |
 | [PreviousSibling](../../aspose.words/node/previoussibling) { get; } | Gets the node immediately preceding this node. |
 | [Range](../../aspose.words/node/range) { get; } | Returns a **Range** object that represents the portion of a document that is contained in this node. |
 | [SdtType](../../aspose.words.markup/structureddocumenttag/sdttype) { get; } | Gets type of this **Structured document tag**. |
@@ -76,7 +76,7 @@ public class StructuredDocumentTag : CompositeNode, IStructuredDocumentTag
 | [Clear](../../aspose.words.markup/structureddocumenttag/clear)() | Clears contents of this structured document tag and displays a placeholder if it is defined. |
 | [Clone](../../aspose.words/node/clone)(bool) | Creates a duplicate of the node. |
 | [CreateNavigator](../../aspose.words/compositenode/createnavigator)() | Reserved for system use. IXPathNavigable. |
-| [GetAncestor](../../aspose.words/node/getancestor)(NodeType) | Gets the first ancestor of the specified [`NodeType`](../../aspose.words/nodetype). |
+| [GetAncestor](../../aspose.words/node/getancestor)(NodeType) | Gets the first ancestor of the specified [`NodeType`](../../aspose.words/nodetype/). |
 | [GetAncestor](../../aspose.words/node/getancestor)(Type) | Gets the first ancestor of the specified object type. |
 | [GetChild](../../aspose.words/compositenode/getchild)(NodeType, int, bool) | Returns an Nth child node that matches the specified type. |
 | [GetChildNodes](../../aspose.words/compositenode/getchildnodes)(NodeType, bool) | Returns a live collection of child nodes that match the specified type. |
@@ -92,7 +92,7 @@ public class StructuredDocumentTag : CompositeNode, IStructuredDocumentTag
 | [RemoveAllChildren](../../aspose.words/compositenode/removeallchildren)() | Removes all the child nodes of the current node. |
 | [RemoveChild](../../aspose.words/compositenode/removechild)(Node) | Removes the specified child node. |
 | [RemoveSelfOnly](../../aspose.words.markup/structureddocumenttag/removeselfonly)() | Removes just this SDT node itself, but keeps the content of it inside the document tree. |
-| [RemoveSmartTags](../../aspose.words/compositenode/removesmarttags)() | Removes all [`SmartTag`](../smarttag) descendant nodes of the current node. |
+| [RemoveSmartTags](../../aspose.words/compositenode/removesmarttags)() | Removes all [`SmartTag`](../smarttag/) descendant nodes of the current node. |
 | [SelectNodes](../../aspose.words/compositenode/selectnodes)(string) | Selects a list of nodes matching the XPath expression. |
 | [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode)(string) | Selects the first Node that matches the XPath expression. |
 | [SetCheckedSymbol](../../aspose.words.markup/structureddocumenttag/setcheckedsymbol)(int, string) | Sets the symbol used to represent the checked state of a check box content control. |
@@ -104,15 +104,15 @@ public class StructuredDocumentTag : CompositeNode, IStructuredDocumentTag
 
 Structured document tags (SDTs) allow to embed customer-defined semantics as well as its behavior and appearance into a document.
 
-In this version Aspose.Words provides a number of public methods and properties to manipulate the behavior and content of [`StructuredDocumentTag`](../structureddocumenttag). Mapping of SDT nodes to custom XML packages within a document can be performed with using the [`XmlMapping`](./xmlmapping) property.
+In this version Aspose.Words provides a number of public methods and properties to manipulate the behavior and content of [`StructuredDocumentTag`](./structureddocumenttag/). Mapping of SDT nodes to custom XML packages within a document can be performed with using the [`XmlMapping`](./xmlmapping/) property.
 
-[`StructuredDocumentTag`](../structureddocumenttag) can occur in a document in the following places:
+[`StructuredDocumentTag`](./structureddocumenttag/) can occur in a document in the following places:
 
-* Block-level - Among paragraphs and tables, as a child of a [`Body`](../../aspose.words/body), [`HeaderFooter`](../../aspose.words/headerfooter), [`Comment`](../../aspose.words/comment), [`Footnote`](../../aspose.words.notes/footnote) or a [`Shape`](../../aspose.words.drawing/shape) node.
-* Row-level - Among rows in a table, as a child of a [`Table`](../../aspose.words.tables/table) node.
-* Cell-level - Among cells in a table row, as a child of a [`Row`](../../aspose.words.tables/row) node.
-* Inline-level - Among inline content inside, as a child of a [`Paragraph`](../../aspose.words/paragraph).
-* Nested inside another [`StructuredDocumentTag`](../structureddocumenttag).
+* Block-level - Among paragraphs and tables, as a child of a [`Body`](../../aspose.words/body/), [`HeaderFooter`](../../aspose.words/headerfooter/), [`Comment`](../../aspose.words/comment/), [`Footnote`](../../aspose.words.notes/footnote/) or a [`Shape`](../../aspose.words.drawing/shape/) node.
+* Row-level - Among rows in a table, as a child of a [`Table`](../../aspose.words.tables/table/) node.
+* Cell-level - Among cells in a table row, as a child of a [`Row`](../../aspose.words.tables/row/) node.
+* Inline-level - Among inline content inside, as a child of a [`Paragraph`](../../aspose.words/paragraph/).
+* Nested inside another [`StructuredDocumentTag`](./structureddocumenttag/).
 
 ## Examples
 
@@ -150,9 +150,9 @@ foreach (Node node in tags)
 
 ### See Also
 
-* class [CompositeNode](../../aspose.words/compositenode)
-* interface [IStructuredDocumentTag](../istructureddocumenttag)
-* namespace [Aspose.Words.Markup](../../aspose.words.markup)
+* class [CompositeNode](../../aspose.words/compositenode/)
+* interface [IStructuredDocumentTag](../istructureddocumenttag/)
+* namespace [Aspose.Words.Markup](../../aspose.words.markup/)
 * assembly [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

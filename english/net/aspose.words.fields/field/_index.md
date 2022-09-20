@@ -10,7 +10,7 @@ url: /net/aspose.words.fields/field/
 
 Represents a Microsoft Word document field.
 
-To learn more, visit the ["Working with Fields"](https://docs.aspose.com/words/net/working-with-fields/) documentation article.
+To learn more, visit the [Working with Fields](https://docs.aspose.com/words/net/working-with-fields/) documentation article.
 
 ```csharp
 public class Field
@@ -22,7 +22,7 @@ public class Field
 | --- | --- |
 | [DisplayResult](../../aspose.words.fields/field/displayresult) { get; } | Gets the text that represents the displayed field result. |
 | [End](../../aspose.words.fields/field/end) { get; } | Gets the node that represents the field end. |
-| [Format](../../aspose.words.fields/field/format) { get; } | Gets a [`FieldFormat`](../fieldformat) object that provides typed access to field's formatting. |
+| [Format](../../aspose.words.fields/field/format) { get; } | Gets a [`FieldFormat`](../fieldformat/) object that provides typed access to field's formatting. |
 | [IsDirty](../../aspose.words.fields/field/isdirty) { get; set; } | Gets or sets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
 | [IsLocked](../../aspose.words.fields/field/islocked) { get; set; } | Gets or sets whether the field is locked (should not recalculate its result). |
 | [LocaleId](../../aspose.words.fields/field/localeid) { get; set; } | Gets or sets the LCID of the field. |
@@ -44,17 +44,17 @@ public class Field
 
 ## Remarks
 
-A field in a Word document is a complex structure consisting of multiple nodes that include field start, field code, field separator, field result and field end. Fields can be nested, contain rich content and span multiple paragraphs or sections in a document. The [`Field`](../field) class is a "facade" object that provides properties and methods that allow to work with a field as a single object.
+A field in a Word document is a complex structure consisting of multiple nodes that include field start, field code, field separator, field result and field end. Fields can be nested, contain rich content and span multiple paragraphs or sections in a document. The [`Field`](./field/) class is a "facade" object that provides properties and methods that allow to work with a field as a single object.
 
-The [`Start`](./start), [`Separator`](./separator) and [`End`](./end) properties point to the field start, separator and end nodes of the field respectively.
+The [`Start`](./start/), [`Separator`](./separator/) and [`End`](./end/) properties point to the field start, separator and end nodes of the field respectively.
 
-The content between the field start and separator is the field code. The content between the field separator and field end is the field result. The field code typically consists of one or more [`Run`](../../aspose.words/run) objects that specify instructions. The processing application is expected to execute the field code to calculate the field result.
+The content between the field start and separator is the field code. The content between the field separator and field end is the field result. The field code typically consists of one or more [`Run`](../../aspose.words/run/) objects that specify instructions. The processing application is expected to execute the field code to calculate the field result.
 
-The process of calculating field results is called the field update. Aspose.Words can update field results of most of the field types in exactly the same way as Microsoft Word does it. Most notably, Aspose.Words can calculate results of even the most complex formula fields. To calculate the field result of a single field use the [`Update`](./update) method. To update fields in the whole document use [`UpdateFields`](../../aspose.words/document/updatefields).
+The process of calculating field results is called the field update. Aspose.Words can update field results of most of the field types in exactly the same way as Microsoft Word does it. Most notably, Aspose.Words can calculate results of even the most complex formula fields. To calculate the field result of a single field use the [`Update`](./update/) method. To update fields in the whole document use [`UpdateFields`](../../aspose.words/document/updatefields/).
 
-You can get the plain text version of the field code using the [`GetFieldCode`](./getfieldcode) method. You can get and set the plain text version of the field result using the [`Result`](./result) property. Both the field code and field result can contain complex content, such as nested fields, paragraphs, shapes, tables and in this case you might want to work with the field nodes directly if you need more control.
+You can get the plain text version of the field code using the [`GetFieldCode`](./getfieldcode/) method. You can get and set the plain text version of the field result using the [`Result`](./result/) property. Both the field code and field result can contain complex content, such as nested fields, paragraphs, shapes, tables and in this case you might want to work with the field nodes directly if you need more control.
 
-You do not create instances of the [`Field`](../field) class directly. To create a new field use the [`InsertField`](../../aspose.words/documentbuilder/insertfield) method.
+You do not create instances of the [`Field`](./field/) class directly. To create a new field use the [`InsertField`](../../aspose.words/documentbuilder/insertfield/) method.
 
 ## Examples
 
@@ -75,7 +75,7 @@ Assert.That(DateTime.Parse(field.Result), Is.EqualTo(DateTime.Today).Within(1).D
 
 ### See Also
 
-* namespace [Aspose.Words.Fields](../../aspose.words.fields)
+* namespace [Aspose.Words.Fields](../../aspose.words.fields/)
 * assembly [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

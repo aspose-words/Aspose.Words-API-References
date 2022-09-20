@@ -50,10 +50,10 @@ public sealed class Comment : InlineStory
 | override [NodeType](../../aspose.words/comment/nodetype) { get; } | Returns **NodeType.Comment**. |
 | [Paragraphs](../../aspose.words/inlinestory/paragraphs) { get; } | Gets a collection of paragraphs that are immediate children of the story. |
 | [ParentNode](../../aspose.words/node/parentnode) { get; } | Gets the immediate parent of this node. |
-| [ParentParagraph](../../aspose.words/inlinestory/parentparagraph) { get; } | Retrieves the parent [`Paragraph`](../paragraph) of this node. |
+| [ParentParagraph](../../aspose.words/inlinestory/parentparagraph) { get; } | Retrieves the parent [`Paragraph`](../paragraph/) of this node. |
 | [PreviousSibling](../../aspose.words/node/previoussibling) { get; } | Gets the node immediately preceding this node. |
 | [Range](../../aspose.words/node/range) { get; } | Returns a **Range** object that represents the portion of a document that is contained in this node. |
-| [Replies](../../aspose.words/comment/replies) { get; } | Returns a collection of [`Comment`](../comment) objects that are immediate children of the specified comment. |
+| [Replies](../../aspose.words/comment/replies) { get; } | Returns a collection of [`Comment`](./comment/) objects that are immediate children of the specified comment. |
 | override [StoryType](../../aspose.words/comment/storytype) { get; } | Returns **StoryType.Comments**. |
 | [Tables](../../aspose.words/inlinestory/tables) { get; } | Gets a collection of tables that are immediate children of the story. |
 
@@ -67,7 +67,7 @@ public sealed class Comment : InlineStory
 | [Clone](../../aspose.words/node/clone)(bool) | Creates a duplicate of the node. |
 | [CreateNavigator](../../aspose.words/compositenode/createnavigator)() | Reserved for system use. IXPathNavigable. |
 | [EnsureMinimum](../../aspose.words/inlinestory/ensureminimum)() | If the last child is not a paragraph, creates and appends one empty paragraph. |
-| [GetAncestor](../../aspose.words/node/getancestor)(NodeType) | Gets the first ancestor of the specified [`NodeType`](../nodetype). |
+| [GetAncestor](../../aspose.words/node/getancestor)(NodeType) | Gets the first ancestor of the specified [`NodeType`](../nodetype/). |
 | [GetAncestor](../../aspose.words/node/getancestor)(Type) | Gets the first ancestor of the specified object type. |
 | [GetChild](../../aspose.words/compositenode/getchild)(NodeType, int, bool) | Returns an Nth child node that matches the specified type. |
 | [GetChildNodes](../../aspose.words/compositenode/getchildnodes)(NodeType, bool) | Returns a live collection of child nodes that match the specified type. |
@@ -84,7 +84,7 @@ public sealed class Comment : InlineStory
 | [RemoveAllReplies](../../aspose.words/comment/removeallreplies)() | Removes all replies to this comment. |
 | [RemoveChild](../../aspose.words/compositenode/removechild)(Node) | Removes the specified child node. |
 | [RemoveReply](../../aspose.words/comment/removereply)(Comment) | Removes the specified reply to this comment. |
-| [RemoveSmartTags](../../aspose.words/compositenode/removesmarttags)() | Removes all [`SmartTag`](../../aspose.words.markup/smarttag) descendant nodes of the current node. |
+| [RemoveSmartTags](../../aspose.words/compositenode/removesmarttags)() | Removes all [`SmartTag`](../../aspose.words.markup/smarttag/) descendant nodes of the current node. |
 | [SelectNodes](../../aspose.words/compositenode/selectnodes)(string) | Selects a list of nodes matching the XPath expression. |
 | [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode)(string) | Selects the first Node that matches the XPath expression. |
 | [SetText](../../aspose.words/comment/settext)(string) | This is a convenience method that allows to easily set text of the comment. |
@@ -95,13 +95,13 @@ public sealed class Comment : InlineStory
 
 A comment is an annotation which is anchored to a region of text or to a position in text. A comment can contain an arbitrary amount of block-level content.
 
-If a [`Comment`](../comment) object occurs on its own, the comment is anchored to the position of the [`Comment`](../comment) object.
+If a [`Comment`](./comment/) object occurs on its own, the comment is anchored to the position of the [`Comment`](./comment/) object.
 
-To anchor a comment to a region of text three objects are required: [`Comment`](../comment), [`CommentRangeStart`](../commentrangestart) and [`CommentRangeEnd`](../commentrangeend). All three objects need to share the same [`Id`](./id) value.
+To anchor a comment to a region of text three objects are required: [`Comment`](./comment/), [`CommentRangeStart`](../commentrangestart/) and [`CommentRangeEnd`](../commentrangeend/). All three objects need to share the same [`Id`](./id/) value.
 
-[`Comment`](../comment) is an inline-level node and can only be a child of [`Paragraph`](../paragraph).
+[`Comment`](./comment/) is an inline-level node and can only be a child of [`Paragraph`](../paragraph/).
 
-[`Comment`](../comment) can contain [`Paragraph`](../paragraph) and [`Table`](../../aspose.words.tables/table) child nodes.
+[`Comment`](./comment/) can contain [`Paragraph`](../paragraph/) and [`Table`](../../aspose.words.tables/table/) child nodes.
 
 ## Examples
 
@@ -154,8 +154,8 @@ doc.Save(ArtifactsDir + "Comment.AddCommentWithReply.docx");
 
 ### See Also
 
-* class [InlineStory](../inlinestory)
-* namespace [Aspose.Words](../../aspose.words)
+* class [InlineStory](../inlinestory/)
+* namespace [Aspose.Words](../../aspose.words/)
 * assembly [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

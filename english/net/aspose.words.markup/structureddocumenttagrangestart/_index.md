@@ -1,14 +1,14 @@
 ---
 title: StructuredDocumentTagRangeStart
 second_title: Aspose.Words for .NET API Reference
-description: Represents a start of ranged structured document tag which accepts multi-sections content. See also StructuredDocumentTagRangeEnd./structureddocumenttagrangeend.
+description: Represents a start of ranged structured document tag which accepts multisections content. See also StructuredDocumentTagRangeEnd./structureddocumenttagrangeend/.
 type: docs
 weight: 3850
 url: /net/aspose.words.markup/structureddocumenttagrangestart/
 ---
 ## StructuredDocumentTagRangeStart class
 
-Represents a start of **ranged** structured document tag which accepts multi-sections content. See also [`StructuredDocumentTagRangeEnd`](../structureddocumenttagrangeend).
+Represents a start of **ranged** structured document tag which accepts multi-sections content. See also [`StructuredDocumentTagRangeEnd`](../structureddocumenttagrangeend/).
 
 ```csharp
 public class StructuredDocumentTagRangeStart : Node, IEnumerable<Node>, IStructuredDocumentTag
@@ -38,8 +38,8 @@ public class StructuredDocumentTagRangeStart : Node, IEnumerable<Node>, IStructu
 | [NextSibling](../../aspose.words/node/nextsibling) { get; } | Gets the node immediately following this node. |
 | override [NodeType](../../aspose.words.markup/structureddocumenttagrangestart/nodetype) { get; } |  |
 | [ParentNode](../../aspose.words/node/parentnode) { get; } | Gets the immediate parent of this node. |
-| [Placeholder](../../aspose.words.markup/structureddocumenttagrangestart/placeholder) { get; } | Gets the [`BuildingBlock`](../../aspose.words.buildingblocks/buildingblock) containing placeholder text which should be displayed when this structured document tag run contents are empty, the associated mapped XML element is empty as specified via the [`XmlMapping`](./xmlmapping) element or the [`IsShowingPlaceholderText`](./isshowingplaceholdertext) element is true. |
-| [PlaceholderName](../../aspose.words.markup/structureddocumenttagrangestart/placeholdername) { get; set; } | Gets or sets Name of the [`BuildingBlock`](../../aspose.words.buildingblocks/buildingblock) containing placeholder text. |
+| [Placeholder](../../aspose.words.markup/structureddocumenttagrangestart/placeholder) { get; } | Gets the [`BuildingBlock`](../../aspose.words.buildingblocks/buildingblock/) containing placeholder text which should be displayed when this structured document tag run contents are empty, the associated mapped XML element is empty as specified via the [`XmlMapping`](./xmlmapping/) element or the [`IsShowingPlaceholderText`](./isshowingplaceholdertext/) element is true. |
+| [PlaceholderName](../../aspose.words.markup/structureddocumenttagrangestart/placeholdername) { get; set; } | Gets or sets Name of the [`BuildingBlock`](../../aspose.words.buildingblocks/buildingblock/) containing placeholder text. |
 | [PreviousSibling](../../aspose.words/node/previoussibling) { get; } | Gets the node immediately preceding this node. |
 | [Range](../../aspose.words/node/range) { get; } | Returns a **Range** object that represents the portion of a document that is contained in this node. |
 | [RangeEnd](../../aspose.words.markup/structureddocumenttagrangestart/rangeend) { get; } | Specifies end of range if the StructuredDocumentTag is a ranged structured document tag. Otherwise returns null. |
@@ -56,7 +56,7 @@ public class StructuredDocumentTagRangeStart : Node, IEnumerable<Node>, IStructu
 | override [Accept](../../aspose.words.markup/structureddocumenttagrangestart/accept)(DocumentVisitor) |  |
 | [AppendChild](../../aspose.words.markup/structureddocumenttagrangestart/appendchild)(Node) | Adds the specified node to the end of the stdContent range. |
 | [Clone](../../aspose.words/node/clone)(bool) | Creates a duplicate of the node. |
-| [GetAncestor](../../aspose.words/node/getancestor)(NodeType) | Gets the first ancestor of the specified [`NodeType`](../../aspose.words/nodetype). |
+| [GetAncestor](../../aspose.words/node/getancestor)(NodeType) | Gets the first ancestor of the specified [`NodeType`](../../aspose.words/nodetype/). |
 | [GetAncestor](../../aspose.words/node/getancestor)(Type) | Gets the first ancestor of the specified object type. |
 | [GetChildNodes](../../aspose.words.markup/structureddocumenttagrangestart/getchildnodes)(NodeType, bool) | Returns a live collection of child nodes that match the specified types. |
 | [GetEnumerator](../../aspose.words.markup/structureddocumenttagrangestart/getenumerator)() | Provides support for the for each style iteration over the child nodes of this node. |
@@ -71,7 +71,7 @@ public class StructuredDocumentTagRangeStart : Node, IEnumerable<Node>, IStructu
 
 ## Remarks
 
-Can be immediate child of [`Body`](../../aspose.words/body) node **only**.
+Can be immediate child of [`Body`](../../aspose.words/body/) node **only**.
 
 ## Examples
 
@@ -107,9 +107,9 @@ Console.WriteLine($"\t|NodeType: {rangeEndTag.NodeType}");
 
 ### See Also
 
-* class [Node](../../aspose.words/node)
-* interface [IStructuredDocumentTag](../istructureddocumenttag)
-* namespace [Aspose.Words.Markup](../../aspose.words.markup)
+* class [Node](../../aspose.words/node/)
+* interface [IStructuredDocumentTag](../istructureddocumenttag/)
+* namespace [Aspose.Words.Markup](../../aspose.words.markup/)
 * assembly [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

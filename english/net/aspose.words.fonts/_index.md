@@ -34,8 +34,8 @@ The **Aspose.Words.Fonts** namespace provides classes and enumerations to access
 
 | Enumeration | Description |
 | --- | --- |
-| [EmbeddedFontFormat](./embeddedfontformat) | Specifies format of particular embedded font inside [`FontInfo`](../aspose.words.fonts/fontinfo) object. |
-| [EmbeddedFontStyle](./embeddedfontstyle) | Specifies the style of an embedded font inside a [`FontInfo`](../aspose.words.fonts/fontinfo) object. |
+| [EmbeddedFontFormat](./embeddedfontformat) | Specifies format of particular embedded font inside [`FontInfo`](../aspose.words.fonts/fontinfo/) object. |
+| [EmbeddedFontStyle](./embeddedfontstyle) | Specifies the style of an embedded font inside a [`FontInfo`](../aspose.words.fonts/fontinfo/) object. |
 | [FontFamily](./fontfamily) | Represents the font family. |
 | [FontPitch](./fontpitch) | Represents the font pitch. |
 | [FontSourceType](./fontsourcetype) | Specifies the type of a font source. |

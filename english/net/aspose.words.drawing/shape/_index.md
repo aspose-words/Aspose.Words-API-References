@@ -53,7 +53,7 @@ public sealed class Shape : ShapeBase
 | [FirstParagraph](../../aspose.words.drawing/shape/firstparagraph) { get; } | Gets the first paragraph in the shape. |
 | [FlipOrientation](../../aspose.words.drawing/shapebase/fliporientation) { get; set; } | Switches the orientation of a shape. |
 | [Font](../../aspose.words.drawing/shapebase/font) { get; } | Provides access to the font formatting of this object. |
-| [HasChart](../../aspose.words.drawing/shape/haschart) { get; } | Returns true if this Shape has a [`Chart`](./chart). |
+| [HasChart](../../aspose.words.drawing/shape/haschart) { get; } | Returns true if this Shape has a [`Chart`](./chart/). |
 | [HasChildNodes](../../aspose.words/compositenode/haschildnodes) { get; } | Returns true if this node has any child nodes. |
 | [HasImage](../../aspose.words.drawing/shape/hasimage) { get; } | Returns true if the shape has image bytes or links an image. |
 | [HasSmartArt](../../aspose.words.drawing/shape/hassmartart) { get; } | Returns true if this Shape has a SmartArt object. |
@@ -96,7 +96,7 @@ public sealed class Shape : ShapeBase
 | [ShadowEnabled](../../aspose.words.drawing/shape/shadowenabled) { get; } | Returns true if a shadow effect is enabled. |
 | [ShadowFormat](../../aspose.words.drawing/shapebase/shadowformat) { get; } | Gets shadow formatting for the shape. |
 | [ShapeType](../../aspose.words.drawing/shapebase/shapetype) { get; } | Gets the shape type. |
-| [SignatureLine](../../aspose.words.drawing/shape/signatureline) { get; } | Gets [`SignatureLine`](./signatureline) object if the shape is a signature line. Returns **null** otherwise. |
+| [SignatureLine](../../aspose.words.drawing/shape/signatureline) { get; } | Gets [`SignatureLine`](./signatureline/) object if the shape is a signature line. Returns **null** otherwise. |
 | [SizeInPoints](../../aspose.words.drawing/shapebase/sizeinpoints) { get; } | Gets the size of the shape in points. |
 | [StoryType](../../aspose.words.drawing/shape/storytype) { get; } | Returns Textbox. |
 | [Stroke](../../aspose.words.drawing/shape/stroke) { get; } | Defines a stroke for a shape. |
@@ -125,7 +125,7 @@ public sealed class Shape : ShapeBase
 | [CreateNavigator](../../aspose.words/compositenode/createnavigator)() | Reserved for system use. IXPathNavigable. |
 | [FetchInheritedShapeAttr](../../aspose.words.drawing/shapebase/fetchinheritedshapeattr)(int) | Reserved for system use. IShapeAttrSource. |
 | [FetchShapeAttr](../../aspose.words.drawing/shapebase/fetchshapeattr)(int) | Reserved for system use. IShapeAttrSource. |
-| [GetAncestor](../../aspose.words/node/getancestor)(NodeType) | Gets the first ancestor of the specified [`NodeType`](../../aspose.words/nodetype). |
+| [GetAncestor](../../aspose.words/node/getancestor)(NodeType) | Gets the first ancestor of the specified [`NodeType`](../../aspose.words/nodetype/). |
 | [GetAncestor](../../aspose.words/node/getancestor)(Type) | Gets the first ancestor of the specified object type. |
 | [GetChild](../../aspose.words/compositenode/getchild)(NodeType, int, bool) | Returns an Nth child node that matches the specified type. |
 | [GetChildNodes](../../aspose.words/compositenode/getchildnodes)(NodeType, bool) | Returns a live collection of child nodes that match the specified type. |
@@ -144,7 +144,7 @@ public sealed class Shape : ShapeBase
 | [RemoveAllChildren](../../aspose.words/compositenode/removeallchildren)() | Removes all the child nodes of the current node. |
 | [RemoveChild](../../aspose.words/compositenode/removechild)(Node) | Removes the specified child node. |
 | [RemoveShapeAttr](../../aspose.words.drawing/shapebase/removeshapeattr)(int) | Reserved for system use. IShapeAttrSource. |
-| [RemoveSmartTags](../../aspose.words/compositenode/removesmarttags)() | Removes all [`SmartTag`](../../aspose.words.markup/smarttag) descendant nodes of the current node. |
+| [RemoveSmartTags](../../aspose.words/compositenode/removesmarttags)() | Removes all [`SmartTag`](../../aspose.words.markup/smarttag/) descendant nodes of the current node. |
 | [SelectNodes](../../aspose.words/compositenode/selectnodes)(string) | Selects a list of nodes matching the XPath expression. |
 | [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode)(string) | Selects the first Node that matches the XPath expression. |
 | [SetShapeAttr](../../aspose.words.drawing/shapebase/setshapeattr)(int, object) | Reserved for system use. IShapeAttrSource. |
@@ -154,11 +154,11 @@ public sealed class Shape : ShapeBase
 
 ## Remarks
 
-Using the [`Shape`](../shape) class you can create or modify shapes in a Microsoft Word document.
+Using the [`Shape`](./shape/) class you can create or modify shapes in a Microsoft Word document.
 
-An important property of a shape is its [`ShapeType`](../shapebase/shapetype). Shapes of different types can have different capabilities in a Word document. For example, only image and OLE shapes can have images inside them. Most of the shapes can have text, but not all.
+An important property of a shape is its [`ShapeType`](../shapebase/shapetype/). Shapes of different types can have different capabilities in a Word document. For example, only image and OLE shapes can have images inside them. Most of the shapes can have text, but not all.
 
-Shapes that can have text, can contain [`Paragraph`](../../aspose.words/paragraph) and [`Table`](../../aspose.words.tables/table) nodes as children.
+Shapes that can have text, can contain [`Paragraph`](../../aspose.words/paragraph/) and [`Table`](../../aspose.words.tables/table/) nodes as children.
 
 ## Examples
 
@@ -250,8 +250,8 @@ Assert.AreEqual(0, doc.GetChildNodes(NodeType.Shape, true).Count);
 
 ### See Also
 
-* class [ShapeBase](../shapebase)
-* namespace [Aspose.Words.Drawing](../../aspose.words.drawing)
+* class [ShapeBase](../shapebase/)
+* namespace [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * assembly [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->
