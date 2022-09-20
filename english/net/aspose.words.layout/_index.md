@@ -13,9 +13,9 @@ The **Aspose.Words.Layout** namespace provides classes that allow to access info
 | Class | Description |
 | --- | --- |
 | [LayoutCollector](./layoutcollector) | This class allows to compute page numbers of document nodes. |
-| [LayoutEnumerator](./layoutenumerator) | Enumerates page layout entities of a document. You can use this class to walk over the page layout model. Available properties are type, geometry, text and page index where entity is rendered, as well as overall structure and relationships. Use combination of [`GetEntity`](../aspose.words.layout/layoutcollector/getentity) and [`Current`](../aspose.words.layout/layoutenumerator/current) move to the entity which corresponds to a document node. |
+| [LayoutEnumerator](./layoutenumerator) | Enumerates page layout entities of a document. You can use this class to walk over the page layout model. Available properties are type, geometry, text and page index where entity is rendered, as well as overall structure and relationships. Use combination of [`GetEntity`](../aspose.words.layout/layoutcollector/getentity/) and [`Current`](../aspose.words.layout/layoutenumerator/current/) move to the entity which corresponds to a document node. |
 | [LayoutOptions](./layoutoptions) | Holds the options that allow controlling the document layout process. |
-| [PageLayoutCallbackArgs](./pagelayoutcallbackargs) | An argument passed into [`Notify`](../aspose.words.layout/ipagelayoutcallback/notify) |
+| [PageLayoutCallbackArgs](./pagelayoutcallbackargs) | An argument passed into [`Notify`](../aspose.words.layout/ipagelayoutcallback/notify/) |
 | [RevisionOptions](./revisionoptions) | Allows to control how document revisions are handled during layout process. |
 ## Interfaces
 

@@ -12,9 +12,9 @@ The **Aspose.Words.Themes** namespace provides classes that allow to access them
 
 | Class | Description |
 | --- | --- |
-| [Theme](./theme) | Represents document Theme, and provides access to main theme parts including [`MajorFonts`](../aspose.words.themes/theme/majorfonts), [`MinorFonts`](../aspose.words.themes/theme/minorfonts) and [`Colors`](../aspose.words.themes/theme/colors) |
+| [Theme](./theme) | Represents document Theme, and provides access to main theme parts including [`MajorFonts`](../aspose.words.themes/theme/majorfonts/), [`MinorFonts`](../aspose.words.themes/theme/minorfonts/) and [`Colors`](../aspose.words.themes/theme/colors/) |
 | [ThemeColors](./themecolors) | Represents the color scheme of the document theme which contains twelve colors. |
-| [ThemeFonts](./themefonts) | Represents a collection of fonts in the font scheme, allowing to specify different fonts for different languages [`Latin`](../aspose.words.themes/themefonts/latin), [`EastAsian`](../aspose.words.themes/themefonts/eastasian) and [`ComplexScript`](../aspose.words.themes/themefonts/complexscript). |
+| [ThemeFonts](./themefonts) | Represents a collection of fonts in the font scheme, allowing to specify different fonts for different languages [`Latin`](../aspose.words.themes/themefonts/latin/), [`EastAsian`](../aspose.words.themes/themefonts/eastasian/) and [`ComplexScript`](../aspose.words.themes/themefonts/complexscript/). |
 ## Enumeration
 
 | Enumeration | Description |

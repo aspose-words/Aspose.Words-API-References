@@ -51,7 +51,7 @@ public class Document : DocumentBase
 | [FontInfos](../../aspose.words/documentbase/fontinfos) { get; } | Provides access to properties of fonts used in this document. |
 | [FontSettings](../../aspose.words/document/fontsettings) { get; set; } | Gets or sets document font settings. |
 | [FootnoteOptions](../../aspose.words/document/footnoteoptions) { get; } | Provides options that control numbering and positioning of footnotes in this document. |
-| [Frameset](../../aspose.words/document/frameset) { get; } | Returns a [`Frameset`](./frameset) instance if this document represents a frames page. |
+| [Frameset](../../aspose.words/document/frameset) { get; } | Returns a [`Frameset`](./frameset/) instance if this document represents a frames page. |
 | [GlossaryDocument](../../aspose.words/document/glossarydocument) { get; set; } | Gets or sets the glossary document within this document or template. A glossary document is a storage for AutoText, AutoCorrect and Building Block entries defined in a document. |
 | [GrammarChecked](../../aspose.words/document/grammarchecked) { get; set; } | Returns **true** if the document has been checked for grammar. |
 | [HasChildNodes](../../aspose.words/compositenode/haschildnodes) { get; } | Returns true if this node has any child nodes. |
@@ -71,7 +71,7 @@ public class Document : DocumentBase
 | [OriginalFileName](../../aspose.words/document/originalfilename) { get; } | Gets the original file name of the document. |
 | [OriginalLoadFormat](../../aspose.words/document/originalloadformat) { get; } | Gets the format of the original document that was loaded into this object. |
 | [PackageCustomParts](../../aspose.words/document/packagecustomparts) { get; set; } | Gets or sets the collection of custom parts (arbitrary content) that are linked to the OOXML package using "unknown relationships". |
-| [PageColor](../../aspose.words/documentbase/pagecolor) { get; set; } | Gets or sets the page color of the document. This property is a simpler version of [`BackgroundShape`](../documentbase/backgroundshape). |
+| [PageColor](../../aspose.words/documentbase/pagecolor) { get; set; } | Gets or sets the page color of the document. This property is a simpler version of [`BackgroundShape`](../documentbase/backgroundshape/). |
 | [PageCount](../../aspose.words/document/pagecount) { get; } | Gets the number of pages in the document as calculated by the most recent page layout operation. |
 | [ParentNode](../../aspose.words/node/parentnode) { get; } | Gets the immediate parent of this node. |
 | [PreviousSibling](../../aspose.words/node/previoussibling) { get; } | Gets the node immediately preceding this node. |
@@ -87,10 +87,10 @@ public class Document : DocumentBase
 | [ShowSpellingErrors](../../aspose.words/document/showspellingerrors) { get; set; } | Specifies whether to display spelling errors in this document. |
 | [SpellingChecked](../../aspose.words/document/spellingchecked) { get; set; } | Returns **true** if the document has been checked for spelling. |
 | [Styles](../../aspose.words/documentbase/styles) { get; } | Returns a collection of styles defined in the document. |
-| [Theme](../../aspose.words/document/theme) { get; } | Gets the [`Theme`](./theme) object for this document. |
+| [Theme](../../aspose.words/document/theme) { get; } | Gets the [`Theme`](./theme/) object for this document. |
 | [TrackRevisions](../../aspose.words/document/trackrevisions) { get; set; } | **True** if changes are tracked when this document is edited in Microsoft Word. |
 | [Variables](../../aspose.words/document/variables) { get; } | Returns the collection of variables added to a document or template. |
-| [VbaProject](../../aspose.words/document/vbaproject) { get; set; } | Gets or sets a [`VbaProject`](./vbaproject). |
+| [VbaProject](../../aspose.words/document/vbaproject) { get; set; } | Gets or sets a [`VbaProject`](./vbaproject/). |
 | [VersionsCount](../../aspose.words/document/versionscount) { get; } | Gets the number of document versions that was stored in the DOC document. |
 | [ViewOptions](../../aspose.words/document/viewoptions) { get; } | Provides options to control how the document is displayed in Microsoft Word. |
 | [WarningCallback](../../aspose.words/documentbase/warningcallback) { get; set; } | Called during various document processing procedures when an issue is detected that might result in data or formatting fidelity loss. |
@@ -108,18 +108,18 @@ public class Document : DocumentBase
 | [AppendDocument](../../aspose.words/document/appenddocument#appenddocument)(Document, ImportFormatMode) | Appends the specified document to the end of this document. |
 | [AppendDocument](../../aspose.words/document/appenddocument#appenddocument_1)(Document, ImportFormatMode, ImportFormatOptions) | Appends the specified document to the end of this document. |
 | [Cleanup](../../aspose.words/document/cleanup#cleanup)() | Cleans unused styles and lists from the document. |
-| [Cleanup](../../aspose.words/document/cleanup#cleanup_1)(CleanupOptions) | Cleans unused styles and lists from the document depending on given [`CleanupOptions`](../cleanupoptions). |
-| [Clone](../../aspose.words/document/clone#clone)() | Performs a deep copy of the [`Document`](../document). |
+| [Cleanup](../../aspose.words/document/cleanup#cleanup_1)(CleanupOptions) | Cleans unused styles and lists from the document depending on given [`CleanupOptions`](../cleanupoptions/). |
+| [Clone](../../aspose.words/document/clone#clone)() | Performs a deep copy of the [`Document`](./document/). |
 | [Clone](../../aspose.words/node/clone)(bool) | Creates a duplicate of the node. |
-| [Compare](../../aspose.words/document/compare#compare)(Document, string, DateTime) | Compares this document with another document producing changes as number of edit and format revisions [`Revision`](../revision). |
-| [Compare](../../aspose.words/document/compare#compare_1)(Document, string, DateTime, CompareOptions) | Compares this document with another document producing changes as a number of edit and format revisions [`Revision`](../revision). Allows to specify comparison options using [`CompareOptions`](../../aspose.words.comparing/compareoptions). |
+| [Compare](../../aspose.words/document/compare#compare)(Document, string, DateTime) | Compares this document with another document producing changes as number of edit and format revisions [`Revision`](../revision/). |
+| [Compare](../../aspose.words/document/compare#compare_1)(Document, string, DateTime, CompareOptions) | Compares this document with another document producing changes as a number of edit and format revisions [`Revision`](../revision/). Allows to specify comparison options using [`CompareOptions`](../../aspose.words.comparing/compareoptions/). |
 | [CopyStylesFromTemplate](../../aspose.words/document/copystylesfromtemplate#copystylesfromtemplate)(Document) | Copies styles from the specified template to a document. |
 | [CopyStylesFromTemplate](../../aspose.words/document/copystylesfromtemplate#copystylesfromtemplate_1)(string) | Copies styles from the specified template to a document. |
 | [CreateNavigator](../../aspose.words/compositenode/createnavigator)() | Reserved for system use. IXPathNavigable. |
 | [EnsureMinimum](../../aspose.words/document/ensureminimum)() | If the document contains no sections, creates one section with one paragraph. |
 | [ExpandTableStylesToDirectFormatting](../../aspose.words/document/expandtablestylestodirectformatting)() | Converts formatting specified in table styles into direct formatting on tables in the document. |
-| [ExtractPages](../../aspose.words/document/extractpages)(int, int) | Returns the [`Document`](../document) object representing specified range of pages. |
-| [GetAncestor](../../aspose.words/node/getancestor)(NodeType) | Gets the first ancestor of the specified [`NodeType`](../nodetype). |
+| [ExtractPages](../../aspose.words/document/extractpages)(int, int) | Returns the [`Document`](./document/) object representing specified range of pages. |
+| [GetAncestor](../../aspose.words/node/getancestor)(NodeType) | Gets the first ancestor of the specified [`NodeType`](../nodetype/). |
 | [GetAncestor](../../aspose.words/node/getancestor)(Type) | Gets the first ancestor of the specified object type. |
 | [GetChild](../../aspose.words/compositenode/getchild)(NodeType, int, bool) | Returns an Nth child node that matches the specified type. |
 | [GetChildNodes](../../aspose.words/compositenode/getchildnodes)(NodeType, bool) | Returns a live collection of child nodes that match the specified type. |
@@ -133,7 +133,7 @@ public class Document : DocumentBase
 | [InsertBefore](../../aspose.words/compositenode/insertbefore)(Node, Node) | Inserts the specified node immediately before the specified reference node. |
 | [JoinRunsWithSameFormatting](../../aspose.words/document/joinrunswithsameformatting)() | Joins runs with same formatting in all paragraphs of the document. |
 | [NextPreOrder](../../aspose.words/node/nextpreorder)(Node) | Gets next node according to the pre-order tree traversal algorithm. |
-| [NormalizeFieldTypes](../../aspose.words/document/normalizefieldtypes)() | Changes field type values [`FieldType`](../../aspose.words.fields/fieldchar/fieldtype) of [`FieldStart`](../../aspose.words.fields/fieldstart), [`FieldSeparator`](../../aspose.words.fields/fieldseparator), [`FieldEnd`](../../aspose.words.fields/fieldend) in the whole document so that they correspond to the field types contained in the field codes. |
+| [NormalizeFieldTypes](../../aspose.words/document/normalizefieldtypes)() | Changes field type values [`FieldType`](../../aspose.words.fields/fieldchar/fieldtype/) of [`FieldStart`](../../aspose.words.fields/fieldstart/), [`FieldSeparator`](../../aspose.words.fields/fieldseparator/), [`FieldEnd`](../../aspose.words.fields/fieldend/) in the whole document so that they correspond to the field types contained in the field codes. |
 | [PrependChild](../../aspose.words/compositenode/prependchild)(Node) | Adds the specified node to the beginning of the list of child nodes for this node. |
 | [PreviousPreOrder](../../aspose.words/node/previouspreorder)(Node) | Gets the previous node according to the pre-order tree traversal algorithm. |
 | [Print](../../aspose.words/document/print#print)() | Prints the whole document to the default printer. |
@@ -147,7 +147,7 @@ public class Document : DocumentBase
 | [RemoveChild](../../aspose.words/compositenode/removechild)(Node) | Removes the specified child node. |
 | [RemoveExternalSchemaReferences](../../aspose.words/document/removeexternalschemareferences)() | Removes external XML schema references from this document. |
 | [RemoveMacros](../../aspose.words/document/removemacros)() | Removes all macros (the VBA project) as well as toolbars and command customizations from the document. |
-| [RemoveSmartTags](../../aspose.words/compositenode/removesmarttags)() | Removes all [`SmartTag`](../../aspose.words.markup/smarttag) descendant nodes of the current node. |
+| [RemoveSmartTags](../../aspose.words/compositenode/removesmarttags)() | Removes all [`SmartTag`](../../aspose.words.markup/smarttag/) descendant nodes of the current node. |
 | [RenderToScale](../../aspose.words/document/rendertoscale)(int, Graphics, float, float, float) | Renders a document page into a Graphics object to a specified scale. |
 | [RenderToSize](../../aspose.words/document/rendertosize)(int, Graphics, float, float, float, float) | Renders a document page into a Graphics object to a specified size. |
 | [Save](../../aspose.words/document/save#save_2)(string) | Saves the document to a file. Automatically determines the save format from the extension. |
@@ -169,37 +169,37 @@ public class Document : DocumentBase
 | [UpdateFields](../../aspose.words/document/updatefields)() | Updates the values of fields in the whole document. |
 | [UpdateListLabels](../../aspose.words/document/updatelistlabels)() | Updates list labels for all list items in the document. |
 | [UpdatePageLayout](../../aspose.words/document/updatepagelayout)() | Rebuilds the page layout of the document. |
-| [UpdateThumbnail](../../aspose.words/document/updatethumbnail#updatethumbnail)() | Updates [`Thumbnail`](../../aspose.words.properties/builtindocumentproperties/thumbnail) of the document using default options. |
-| [UpdateThumbnail](../../aspose.words/document/updatethumbnail#updatethumbnail_1)(ThumbnailGeneratingOptions) | Updates [`Thumbnail`](../../aspose.words.properties/builtindocumentproperties/thumbnail) of the document according to the specified options. |
+| [UpdateThumbnail](../../aspose.words/document/updatethumbnail#updatethumbnail)() | Updates [`Thumbnail`](../../aspose.words.properties/builtindocumentproperties/thumbnail/) of the document using default options. |
+| [UpdateThumbnail](../../aspose.words/document/updatethumbnail#updatethumbnail_1)(ThumbnailGeneratingOptions) | Updates [`Thumbnail`](../../aspose.words.properties/builtindocumentproperties/thumbnail/) of the document according to the specified options. |
 | [UpdateWordCount](../../aspose.words/document/updatewordcount#updatewordcount)() | Updates word count properties of the document. |
-| [UpdateWordCount](../../aspose.words/document/updatewordcount#updatewordcount_1)(bool) | Updates word count properties of the document, optionally updates [`Lines`](../../aspose.words.properties/builtindocumentproperties/lines) property. |
+| [UpdateWordCount](../../aspose.words/document/updatewordcount#updatewordcount_1)(bool) | Updates word count properties of the document, optionally updates [`Lines`](../../aspose.words.properties/builtindocumentproperties/lines/) property. |
 
 ## Remarks
 
 The **Document** is a central object in the Aspose.Words library.
 
-To load an existing document in any of the [`LoadFormat`](../loadformat) formats, pass a file name or a stream into one of the **Document** constructors. To create a blank document, call the constructor without parameters.
+To load an existing document in any of the [`LoadFormat`](../loadformat/) formats, pass a file name or a stream into one of the **Document** constructors. To create a blank document, call the constructor without parameters.
 
-Use one of the Save method overloads to save the document in any of the [`SaveFormat`](../saveformat) formats.
+Use one of the Save method overloads to save the document in any of the [`SaveFormat`](../saveformat/) formats.
 
-To draw document pages directly onto a **Graphics** object use [`RenderToScale`](./rendertoscale) or [`RenderToSize`](./rendertosize) method.
+To draw document pages directly onto a **Graphics** object use [`RenderToScale`](./rendertoscale/) or [`RenderToSize`](./rendertosize/) method.
 
-To print the document, use one of the [`Print`](./print) methods.
+To print the document, use one of the [`Print`](./print/) methods.
 
-[`MailMerge`](./mailmerge) is the Aspose.Words's reporting engine that allows to populate reports designed in Microsoft Word with data from various data sources quickly and easily. The data can be from a DataSet, DataTable, DataView, IDataReader or an array of values. **MailMerge** will go through the records found in the data source and insert them into mail merge fields in the document growing it as necessary.
+[`MailMerge`](./mailmerge/) is the Aspose.Words's reporting engine that allows to populate reports designed in Microsoft Word with data from various data sources quickly and easily. The data can be from a DataSet, DataTable, DataView, IDataReader or an array of values. **MailMerge** will go through the records found in the data source and insert them into mail merge fields in the document growing it as necessary.
 
-**Document** stores document-wide information such as [`Styles`](../documentbase/styles), [`BuiltInDocumentProperties`](./builtindocumentproperties), [`CustomDocumentProperties`](./customdocumentproperties), lists and macros. Most of these objects are accessible via the corresponding properties of the **Document**.
+**Document** stores document-wide information such as [`Styles`](../documentbase/styles/), [`BuiltInDocumentProperties`](./builtindocumentproperties/), [`CustomDocumentProperties`](./customdocumentproperties/), lists and macros. Most of these objects are accessible via the corresponding properties of the **Document**.
 
 The **Document** is a root node of a tree that contains all other nodes of the document. The tree is a Composite design pattern and in many ways similar to XmlDocument. The content of the document can be manipulated freely programmatically:
 
-* The nodes of the document can be accessed via typed collections, for example [`Sections`](./sections), [`ParagraphCollection`](../paragraphcollection) etc.
-* The nodes of the document can be selected by their node type using [`GetChildNodes`](../compositenode/getchildnodes) or using an XPath query with [`SelectNodes`](../compositenode/selectnodes) or [`SelectSingleNode`](../compositenode/selectsinglenode).
-* Content nodes can be added or removed from anywhere in the document using [`InsertBefore`](../compositenode/insertbefore), [`InsertAfter`](../compositenode/insertafter), [`RemoveChild`](../compositenode/removechild) and other methods provided by the base class [`CompositeNode`](../compositenode).
+* The nodes of the document can be accessed via typed collections, for example [`Sections`](./sections/), [`ParagraphCollection`](../paragraphcollection/) etc.
+* The nodes of the document can be selected by their node type using [`GetChildNodes`](../compositenode/getchildnodes/) or using an XPath query with [`SelectNodes`](../compositenode/selectnodes/) or [`SelectSingleNode`](../compositenode/selectsinglenode/).
+* Content nodes can be added or removed from anywhere in the document using [`InsertBefore`](../compositenode/insertbefore/), [`InsertAfter`](../compositenode/insertafter/), [`RemoveChild`](../compositenode/removechild/) and other methods provided by the base class [`CompositeNode`](../compositenode/).
 * The formatting attributes of each node can be changed via the properties of that node.
 
-Consider using [`DocumentBuilder`](../documentbuilder) that simplifies the task of programmatically creating or populating the document tree.
+Consider using [`DocumentBuilder`](../documentbuilder/) that simplifies the task of programmatically creating or populating the document tree.
 
-The **Document** can contain only [`Section`](../section) objects.
+The **Document** can contain only [`Section`](../section/) objects.
 
 In Microsoft Word, a valid document needs to have at least one section.
 
@@ -250,8 +250,8 @@ private static Document CreateSourceDocExecuteDataTable()
 
 ### See Also
 
-* class [DocumentBase](../documentbase)
-* namespace [Aspose.Words](../../aspose.words)
+* class [DocumentBase](../documentbase/)
+* namespace [Aspose.Words](../../aspose.words/)
 * assembly [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

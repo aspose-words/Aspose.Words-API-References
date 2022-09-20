@@ -22,11 +22,11 @@ public PlainTextDocument(string fileName)
 
 | exception | condition |
 | --- | --- |
-| [UnsupportedFileFormatException](../../unsupportedfileformatexception) | The document format is not recognized or not supported. |
-| [FileCorruptedException](../../filecorruptedexception) | The document appears to be corrupted and cannot be loaded. |
+| [UnsupportedFileFormatException](../../unsupportedfileformatexception/) | The document format is not recognized or not supported. |
+| [FileCorruptedException](../../filecorruptedexception/) | The document appears to be corrupted and cannot be loaded. |
 | Exception | There is a problem with the document and it should be reported to Aspose.Words developers. |
 | IOException | There is an input/output exception. |
-| [IncorrectPasswordException](../../incorrectpasswordexception) | The document is encrypted and requires a password to open, but you supplied an incorrect password. |
+| [IncorrectPasswordException](../../incorrectpasswordexception/) | The document is encrypted and requires a password to open, but you supplied an incorrect password. |
 | ArgumentException | The name of the file cannot be null or empty string. |
 
 ## Examples
@@ -47,8 +47,8 @@ Assert.AreEqual("Hello world!", plaintext.Text.Trim());
 
 ### See Also
 
-* class [PlainTextDocument](../../plaintextdocument)
-* namespace [Aspose.Words](../../plaintextdocument)
+* class [PlainTextDocument](../)
+* namespace [Aspose.Words](../../plaintextdocument/)
 * assembly [Aspose.Words](../../../)
 
 ---
@@ -70,11 +70,11 @@ public PlainTextDocument(string fileName, LoadOptions loadOptions)
 
 | exception | condition |
 | --- | --- |
-| [UnsupportedFileFormatException](../../unsupportedfileformatexception) | The document format is not recognized or not supported. |
-| [FileCorruptedException](../../filecorruptedexception) | The document appears to be corrupted and cannot be loaded. |
+| [UnsupportedFileFormatException](../../unsupportedfileformatexception/) | The document format is not recognized or not supported. |
+| [FileCorruptedException](../../filecorruptedexception/) | The document appears to be corrupted and cannot be loaded. |
 | Exception | There is a problem with the document and it should be reported to Aspose.Words developers. |
 | IOException | There is an input/output exception. |
-| [IncorrectPasswordException](../../incorrectpasswordexception) | The document is encrypted and requires a password to open, but you supplied an incorrect password. |
+| [IncorrectPasswordException](../../incorrectpasswordexception/) | The document is encrypted and requires a password to open, but you supplied an incorrect password. |
 | ArgumentException | The name of the file cannot be null or empty string. |
 
 ## Examples
@@ -101,9 +101,9 @@ Assert.AreEqual("Hello world!", plaintext.Text.Trim());
 
 ### See Also
 
-* class [LoadOptions](../../../aspose.words.loading/loadoptions)
-* class [PlainTextDocument](../../plaintextdocument)
-* namespace [Aspose.Words](../../plaintextdocument)
+* class [LoadOptions](../../../aspose.words.loading/loadoptions/)
+* class [PlainTextDocument](../)
+* namespace [Aspose.Words](../../plaintextdocument/)
 * assembly [Aspose.Words](../../../)
 
 ---
@@ -124,11 +124,11 @@ public PlainTextDocument(Stream stream)
 
 | exception | condition |
 | --- | --- |
-| [UnsupportedFileFormatException](../../unsupportedfileformatexception) | The document format is not recognized or not supported. |
-| [FileCorruptedException](../../filecorruptedexception) | The document appears to be corrupted and cannot be loaded. |
+| [UnsupportedFileFormatException](../../unsupportedfileformatexception/) | The document format is not recognized or not supported. |
+| [FileCorruptedException](../../filecorruptedexception/) | The document appears to be corrupted and cannot be loaded. |
 | Exception | There is a problem with the document and it should be reported to Aspose.Words developers. |
 | IOException | There is an input/output exception. |
-| [IncorrectPasswordException](../../incorrectpasswordexception) | The document is encrypted and requires a password to open, but you supplied an incorrect password. |
+| [IncorrectPasswordException](../../incorrectpasswordexception/) | The document is encrypted and requires a password to open, but you supplied an incorrect password. |
 | ArgumentNullException | The stream cannot be null. |
 | NotSupportedException | The stream does not support reading or seeking. |
 | ObjectDisposedException | The stream is a disposed object. |
@@ -158,8 +158,8 @@ using (FileStream stream = new FileStream(ArtifactsDir + "PlainTextDocument.Load
 
 ### See Also
 
-* class [PlainTextDocument](../../plaintextdocument)
-* namespace [Aspose.Words](../../plaintextdocument)
+* class [PlainTextDocument](../)
+* namespace [Aspose.Words](../../plaintextdocument/)
 * assembly [Aspose.Words](../../../)
 
 ---
@@ -181,11 +181,11 @@ public PlainTextDocument(Stream stream, LoadOptions loadOptions)
 
 | exception | condition |
 | --- | --- |
-| [UnsupportedFileFormatException](../../unsupportedfileformatexception) | The document format is not recognized or not supported. |
-| [FileCorruptedException](../../filecorruptedexception) | The document appears to be corrupted and cannot be loaded. |
+| [UnsupportedFileFormatException](../../unsupportedfileformatexception/) | The document format is not recognized or not supported. |
+| [FileCorruptedException](../../filecorruptedexception/) | The document appears to be corrupted and cannot be loaded. |
 | Exception | There is a problem with the document and it should be reported to Aspose.Words developers. |
 | IOException | There is an input/output exception. |
-| [IncorrectPasswordException](../../incorrectpasswordexception) | The document is encrypted and requires a password to open, but you supplied an incorrect password. |
+| [IncorrectPasswordException](../../incorrectpasswordexception/) | The document is encrypted and requires a password to open, but you supplied an incorrect password. |
 | ArgumentNullException | The stream cannot be null. |
 | NotSupportedException | The stream does not support reading or seeking. |
 | ObjectDisposedException | The stream is a disposed object. |
@@ -222,9 +222,9 @@ using (FileStream stream = new FileStream(ArtifactsDir + "PlainTextDocument.Load
 
 ### See Also
 
-* class [LoadOptions](../../../aspose.words.loading/loadoptions)
-* class [PlainTextDocument](../../plaintextdocument)
-* namespace [Aspose.Words](../../plaintextdocument)
+* class [LoadOptions](../../../aspose.words.loading/loadoptions/)
+* class [PlainTextDocument](../)
+* namespace [Aspose.Words](../../plaintextdocument/)
 * assembly [Aspose.Words](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

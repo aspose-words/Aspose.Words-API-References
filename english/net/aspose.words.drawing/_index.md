@@ -14,7 +14,7 @@ The **Aspose.Words.Drawing** namespace provides classes that allow to create and
 | --- | --- |
 | [Fill](./fill) | Represents fill formatting for an object. |
 | [GradientStop](./gradientstop) | Represents one gradient stop. |
-| [GradientStopCollection](./gradientstopcollection) | Contains a collection of [`GradientStop`](../aspose.words.drawing/gradientstop) objects. |
+| [GradientStopCollection](./gradientstopcollection) | Contains a collection of [`GradientStop`](../aspose.words.drawing/gradientstop/) objects. |
 | [GroupShape](./groupshape) | Represents a group of shapes in a document. |
 | [HorizontalRuleFormat](./horizontalruleformat) | Represents horizontal rule formatting. |
 | [ImageData](./imagedata) | Defines an image for a shape. |
@@ -51,7 +51,7 @@ The **Aspose.Words.Drawing** namespace provides classes that allow to create and
 | [RelativeHorizontalPosition](./relativehorizontalposition) | Specifies to what the horizontal position of a shape or text frame is relative. |
 | [RelativeVerticalPosition](./relativeverticalposition) | Specifies to what the vertical position of a shape or text frame is relative. |
 | [ShadowType](./shadowtype) | Specifies the type of a shape shadow. |
-| [ShapeLineStyle](./shapelinestyle) | Specifies the compound line style of a [`Shape`](../aspose.words.drawing/shape). |
+| [ShapeLineStyle](./shapelinestyle) | Specifies the compound line style of a [`Shape`](../aspose.words.drawing/shape/). |
 | [ShapeMarkupLanguage](./shapemarkuplanguage) | Specifies Markup language used for the shape. |
 | [ShapeType](./shapetype) | Specifies the type of shape in a Microsoft Word document. |
 | [TextBoxAnchor](./textboxanchor) | Specifies values used for shape text vertical alignment. |

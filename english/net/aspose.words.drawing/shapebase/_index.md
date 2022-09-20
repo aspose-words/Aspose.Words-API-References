@@ -98,7 +98,7 @@ public abstract class ShapeBase : CompositeNode
 | [CreateNavigator](../../aspose.words/compositenode/createnavigator)() | Reserved for system use. IXPathNavigable. |
 | [FetchInheritedShapeAttr](../../aspose.words.drawing/shapebase/fetchinheritedshapeattr)(int) | Reserved for system use. IShapeAttrSource. |
 | [FetchShapeAttr](../../aspose.words.drawing/shapebase/fetchshapeattr)(int) | Reserved for system use. IShapeAttrSource. |
-| [GetAncestor](../../aspose.words/node/getancestor)(NodeType) | Gets the first ancestor of the specified [`NodeType`](../../aspose.words/nodetype). |
+| [GetAncestor](../../aspose.words/node/getancestor)(NodeType) | Gets the first ancestor of the specified [`NodeType`](../../aspose.words/nodetype/). |
 | [GetAncestor](../../aspose.words/node/getancestor)(Type) | Gets the first ancestor of the specified object type. |
 | [GetChild](../../aspose.words/compositenode/getchild)(NodeType, int, bool) | Returns an Nth child node that matches the specified type. |
 | [GetChildNodes](../../aspose.words/compositenode/getchildnodes)(NodeType, bool) | Returns a live collection of child nodes that match the specified type. |
@@ -117,7 +117,7 @@ public abstract class ShapeBase : CompositeNode
 | [RemoveAllChildren](../../aspose.words/compositenode/removeallchildren)() | Removes all the child nodes of the current node. |
 | [RemoveChild](../../aspose.words/compositenode/removechild)(Node) | Removes the specified child node. |
 | [RemoveShapeAttr](../../aspose.words.drawing/shapebase/removeshapeattr)(int) | Reserved for system use. IShapeAttrSource. |
-| [RemoveSmartTags](../../aspose.words/compositenode/removesmarttags)() | Removes all [`SmartTag`](../../aspose.words.markup/smarttag) descendant nodes of the current node. |
+| [RemoveSmartTags](../../aspose.words/compositenode/removesmarttags)() | Removes all [`SmartTag`](../../aspose.words.markup/smarttag/) descendant nodes of the current node. |
 | [SelectNodes](../../aspose.words/compositenode/selectnodes)(string) | Selects a list of nodes matching the XPath expression. |
 | [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode)(string) | Selects the first Node that matches the XPath expression. |
 | [SetShapeAttr](../../aspose.words.drawing/shapebase/setshapeattr)(int, object) | Reserved for system use. IShapeAttrSource. |
@@ -126,19 +126,19 @@ public abstract class ShapeBase : CompositeNode
 
 ## Remarks
 
-This is an abstract class. The two derived classes that you can instantiate are [`Shape`](../shape) and [`GroupShape`](../groupshape).
+This is an abstract class. The two derived classes that you can instantiate are [`Shape`](../shape/) and [`GroupShape`](../groupshape/).
 
 A shape is a node in the document tree.
 
-If the shape is a child of a [`Paragraph`](../../aspose.words/paragraph) object, then the shape is said to be "top-level". Top-level shapes are measured and positioned in points.
+If the shape is a child of a [`Paragraph`](../../aspose.words/paragraph/) object, then the shape is said to be "top-level". Top-level shapes are measured and positioned in points.
 
-A shape can also occur as a child of a [`GroupShape`](../groupshape) object when several shapes are grouped. Child shapes of a group shape are positioned in the coordinate space and units defined by the [`CoordSize`](./coordsize) and [`CoordOrigin`](./coordorigin) properties of the parent group shape.
+A shape can also occur as a child of a [`GroupShape`](../groupshape/) object when several shapes are grouped. Child shapes of a group shape are positioned in the coordinate space and units defined by the [`CoordSize`](./coordsize/) and [`CoordOrigin`](./coordorigin/) properties of the parent group shape.
 
-A shape can be positioned inline with text or floating. The positioning method is controlled using the [`WrapType`](./wraptype) property.
+A shape can be positioned inline with text or floating. The positioning method is controlled using the [`WrapType`](./wraptype/) property.
 
-When a shape is floating, it is positioned relative to something (e.g the current paragraph, the margin or the page). The relative positioning of the shape is specified using the [`RelativeHorizontalPosition`](./relativehorizontalposition) and [`RelativeVerticalPosition`](./relativeverticalposition) properties.
+When a shape is floating, it is positioned relative to something (e.g the current paragraph, the margin or the page). The relative positioning of the shape is specified using the [`RelativeHorizontalPosition`](./relativehorizontalposition/) and [`RelativeVerticalPosition`](./relativeverticalposition/) properties.
 
-A floating shape be positioned explicitly using the [`Left`](./left) and [`Top`](./top) properties or aligned relative to some other object using the [`HorizontalAlignment`](./horizontalalignment) and [`VerticalAlignment`](./verticalalignment) properties.
+A floating shape be positioned explicitly using the [`Left`](./left/) and [`Top`](./top/) properties or aligned relative to some other object using the [`HorizontalAlignment`](./horizontalalignment/) and [`VerticalAlignment`](./verticalalignment/) properties.
 
 ## Examples
 
@@ -162,8 +162,8 @@ doc.Save(ArtifactsDir + "Image.CreateFloatingPageCenter.docx");
 
 ### See Also
 
-* class [CompositeNode](../../aspose.words/compositenode)
-* namespace [Aspose.Words.Drawing](../../aspose.words.drawing)
+* class [CompositeNode](../../aspose.words/compositenode/)
+* namespace [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * assembly [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

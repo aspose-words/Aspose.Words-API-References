@@ -41,7 +41,7 @@ public class GlossaryDocument : DocumentBase
 | [NextSibling](../../aspose.words/node/nextsibling) { get; } | Gets the node immediately following this node. |
 | [NodeChangingCallback](../../aspose.words/documentbase/nodechangingcallback) { get; set; } | Called when a node is inserted or removed in the document. |
 | override [NodeType](../../aspose.words.buildingblocks/glossarydocument/nodetype) { get; } | Returns the GlossaryDocument value. |
-| [PageColor](../../aspose.words/documentbase/pagecolor) { get; set; } | Gets or sets the page color of the document. This property is a simpler version of [`BackgroundShape`](../../aspose.words/documentbase/backgroundshape). |
+| [PageColor](../../aspose.words/documentbase/pagecolor) { get; set; } | Gets or sets the page color of the document. This property is a simpler version of [`BackgroundShape`](../../aspose.words/documentbase/backgroundshape/). |
 | [ParentNode](../../aspose.words/node/parentnode) { get; } | Gets the immediate parent of this node. |
 | [PreviousSibling](../../aspose.words/node/previoussibling) { get; } | Gets the node immediately preceding this node. |
 | [Range](../../aspose.words/node/range) { get; } | Returns a **Range** object that represents the portion of a document that is contained in this node. |
@@ -57,7 +57,7 @@ public class GlossaryDocument : DocumentBase
 | [AppendChild](../../aspose.words/compositenode/appendchild)(Node) | Adds the specified node to the end of the list of child nodes for this node. |
 | [Clone](../../aspose.words/node/clone)(bool) | Creates a duplicate of the node. |
 | [CreateNavigator](../../aspose.words/compositenode/createnavigator)() | Reserved for system use. IXPathNavigable. |
-| [GetAncestor](../../aspose.words/node/getancestor)(NodeType) | Gets the first ancestor of the specified [`NodeType`](../../aspose.words/nodetype). |
+| [GetAncestor](../../aspose.words/node/getancestor)(NodeType) | Gets the first ancestor of the specified [`NodeType`](../../aspose.words/nodetype/). |
 | [GetAncestor](../../aspose.words/node/getancestor)(Type) | Gets the first ancestor of the specified object type. |
 | [GetBuildingBlock](../../aspose.words.buildingblocks/glossarydocument/getbuildingblock)(BuildingBlockGallery, string, string) | Finds a building block using the specified gallery, category and name. |
 | [GetChild](../../aspose.words/compositenode/getchild)(NodeType, int, bool) | Returns an Nth child node that matches the specified type. |
@@ -75,7 +75,7 @@ public class GlossaryDocument : DocumentBase
 | [Remove](../../aspose.words/node/remove)() | Removes itself from the parent. |
 | [RemoveAllChildren](../../aspose.words/compositenode/removeallchildren)() | Removes all the child nodes of the current node. |
 | [RemoveChild](../../aspose.words/compositenode/removechild)(Node) | Removes the specified child node. |
-| [RemoveSmartTags](../../aspose.words/compositenode/removesmarttags)() | Removes all [`SmartTag`](../../aspose.words.markup/smarttag) descendant nodes of the current node. |
+| [RemoveSmartTags](../../aspose.words/compositenode/removesmarttags)() | Removes all [`SmartTag`](../../aspose.words.markup/smarttag/) descendant nodes of the current node. |
 | [SelectNodes](../../aspose.words/compositenode/selectnodes)(string) | Selects a list of nodes matching the XPath expression. |
 | [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode)(string) | Selects the first Node that matches the XPath expression. |
 | [ToString](../../aspose.words/node/tostring)(SaveFormat) | Exports the content of the node into a string in the specified format. |
@@ -85,9 +85,9 @@ public class GlossaryDocument : DocumentBase
 
 Some documents, usually templates, can contain AutoText, AutoCorrect entries and/or Building Blocks (also known as glossary document entries, document parts or building blocks).
 
-To access building blocks, you need to load a document into a [`Document`](../../aspose.words/document) object. Building blocks will be available via the [`GlossaryDocument`](../../aspose.words/document/glossarydocument) property.
+To access building blocks, you need to load a document into a [`Document`](../../aspose.words/document/) object. Building blocks will be available via the [`GlossaryDocument`](../../aspose.words/document/glossarydocument/) property.
 
-[`GlossaryDocument`](../glossarydocument) can contain any number of [`BuildingBlock`](../buildingblock) objects. Each [`BuildingBlock`](../buildingblock) represents one document part.
+[`GlossaryDocument`](./glossarydocument/) can contain any number of [`BuildingBlock`](../buildingblock/) objects. Each [`BuildingBlock`](../buildingblock/) represents one document part.
 
 Corresponds to the **glossaryDocument** and **docParts** elements in OOXML.
 
@@ -195,8 +195,8 @@ public class GlossaryDocVisitor : DocumentVisitor
 
 ### See Also
 
-* class [DocumentBase](../../aspose.words/documentbase)
-* namespace [Aspose.Words.BuildingBlocks](../../aspose.words.buildingblocks)
+* class [DocumentBase](../../aspose.words/documentbase/)
+* namespace [Aspose.Words.BuildingBlocks](../../aspose.words.buildingblocks/)
 * assembly [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->
