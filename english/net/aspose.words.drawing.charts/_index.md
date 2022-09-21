@@ -12,43 +12,43 @@ The **Aspose.Words.Drawing.Charts** namespace provides classes that allow to acc
 
 | Class | Description |
 | --- | --- |
-| [AxisBound](./axisbound) | Represents minimum or maximum bound of axis values. |
-| [AxisDisplayUnit](./axisdisplayunit) | Provides access to the scaling options of the display units for the value axis. |
-| [AxisScaling](./axisscaling) | Represents the scaling options of the axis. |
-| [Chart](./chart) | Provides access to the chart shape properties. |
-| [ChartAxis](./chartaxis) | Represents the axis options of the chart. |
-| [ChartDataLabel](./chartdatalabel) | Represents data label on a chart point or trendline. |
-| [ChartDataLabelCollection](./chartdatalabelcollection) | Represents a collection of [`ChartDataLabel`](../aspose.words.drawing.charts/chartdatalabel/). |
-| [ChartDataPoint](./chartdatapoint) | Allows to specify formatting of a single data point on the chart. |
-| [ChartDataPointCollection](./chartdatapointcollection) | Represents collection of a [`ChartDataPoint`](../aspose.words.drawing.charts/chartdatapoint/). |
-| [ChartFormat](./chartformat) | Represents the formatting of a chart element. |
-| [ChartLegend](./chartlegend) | Represents chart legend properties. |
-| [ChartLegendEntry](./chartlegendentry) | Represents a chart legend entry. |
-| [ChartLegendEntryCollection](./chartlegendentrycollection) | Represents a collection of chart legend entries. |
-| [ChartMarker](./chartmarker) | Represents a chart data marker. |
-| [ChartNumberFormat](./chartnumberformat) | Represents number formatting of the parent element. |
-| [ChartSeries](./chartseries) | Represents chart series properties. |
-| [ChartSeriesCollection](./chartseriescollection) | Represents collection of a [`ChartSeries`](../aspose.words.drawing.charts/chartseries/). |
-| [ChartTitle](./charttitle) | Provides access to the chart title properties. |
+| [AxisBound](./axisbound/) | Represents minimum or maximum bound of axis values. |
+| [AxisDisplayUnit](./axisdisplayunit/) | Provides access to the scaling options of the display units for the value axis. |
+| [AxisScaling](./axisscaling/) | Represents the scaling options of the axis. |
+| [Chart](./chart/) | Provides access to the chart shape properties. |
+| [ChartAxis](./chartaxis/) | Represents the axis options of the chart. |
+| [ChartDataLabel](./chartdatalabel/) | Represents data label on a chart point or trendline. |
+| [ChartDataLabelCollection](./chartdatalabelcollection/) | Represents a collection of [`ChartDataLabel`](../aspose.words.drawing.charts/chartdatalabel/). |
+| [ChartDataPoint](./chartdatapoint/) | Allows to specify formatting of a single data point on the chart. |
+| [ChartDataPointCollection](./chartdatapointcollection/) | Represents collection of a [`ChartDataPoint`](../aspose.words.drawing.charts/chartdatapoint/). |
+| [ChartFormat](./chartformat/) | Represents the formatting of a chart element. |
+| [ChartLegend](./chartlegend/) | Represents chart legend properties. |
+| [ChartLegendEntry](./chartlegendentry/) | Represents a chart legend entry. |
+| [ChartLegendEntryCollection](./chartlegendentrycollection/) | Represents a collection of chart legend entries. |
+| [ChartMarker](./chartmarker/) | Represents a chart data marker. |
+| [ChartNumberFormat](./chartnumberformat/) | Represents number formatting of the parent element. |
+| [ChartSeries](./chartseries/) | Represents chart series properties. |
+| [ChartSeriesCollection](./chartseriescollection/) | Represents collection of a [`ChartSeries`](../aspose.words.drawing.charts/chartseries/). |
+| [ChartTitle](./charttitle/) | Provides access to the chart title properties. |
 ## Interfaces
 
 | Interface | Description |
 | --- | --- |
-| [IChartDataPoint](./ichartdatapoint) | Contains properties of a single data point on the chart. |
+| [IChartDataPoint](./ichartdatapoint/) | Contains properties of a single data point on the chart. |
 ## Enumeration
 
 | Enumeration | Description |
 | --- | --- |
-| [AxisBuiltInUnit](./axisbuiltinunit) | Specifies the display units for an axis. |
-| [AxisCategoryType](./axiscategorytype) | Specifies type of a category axis. |
-| [AxisCrosses](./axiscrosses) | Specifies the possible crossing points for an axis. |
-| [AxisScaleType](./axisscaletype) | Specifies the possible scale types for an axis. |
-| [AxisTickLabelPosition](./axisticklabelposition) | Specifies the possible positions for tick labels. |
-| [AxisTickMark](./axistickmark) | Specifies the possible positions for tick marks. |
-| [AxisTimeUnit](./axistimeunit) | Specifies the unit of time for axes. |
-| [ChartAxisType](./chartaxistype) | Specifies type of chart axis. |
-| [ChartType](./charttype) | Specifies type of a chart. |
-| [LegendPosition](./legendposition) | Specifies the possible positions for a chart legend. |
-| [MarkerSymbol](./markersymbol) | Specifies marker symbol style. |
+| [AxisBuiltInUnit](./axisbuiltinunit/) | Specifies the display units for an axis. |
+| [AxisCategoryType](./axiscategorytype/) | Specifies type of a category axis. |
+| [AxisCrosses](./axiscrosses/) | Specifies the possible crossing points for an axis. |
+| [AxisScaleType](./axisscaletype/) | Specifies the possible scale types for an axis. |
+| [AxisTickLabelPosition](./axisticklabelposition/) | Specifies the possible positions for tick labels. |
+| [AxisTickMark](./axistickmark/) | Specifies the possible positions for tick marks. |
+| [AxisTimeUnit](./axistimeunit/) | Specifies the unit of time for axes. |
+| [ChartAxisType](./chartaxistype/) | Specifies type of chart axis. |
+| [ChartType](./charttype/) | Specifies type of a chart. |
+| [LegendPosition](./legendposition/) | Specifies the possible positions for a chart legend. |
+| [MarkerSymbol](./markersymbol/) | Specifies marker symbol style. |
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->
