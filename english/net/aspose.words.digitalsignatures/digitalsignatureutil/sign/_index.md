@@ -1,14 +1,14 @@
 ---
 title: Sign
 second_title: Aspose.Words for .NET API Reference
-description: Signs source document using given CertificateHolderaspose.words.digitalsignatures/certificateholder and SignOptionsaspose.words.digitalsignatures/signoptions with digital signature and writes signed document to destination stream.
+description: Signs source document using given CertificateHolderaspose.words.digitalsignatures/certificateholder/ and SignOptionsaspose.words.digitalsignatures/signoptions/ with digital signature and writes signed document to destination stream.
 type: docs
 weight: 30
 url: /net/aspose.words.digitalsignatures/digitalsignatureutil/sign/
 ---
 ## Sign(Stream, Stream, CertificateHolder, SignOptions) {#sign_1}
 
-Signs source document using given [`CertificateHolder`](../../certificateholder) and [`SignOptions`](../../signoptions) with digital signature and writes signed document to destination stream.
+Signs source document using given [`CertificateHolder`](../../certificateholder/) and [`SignOptions`](../../signoptions/) with digital signature and writes signed document to destination stream.
 
 Document should be either Doc or Docx.
 
@@ -23,8 +23,8 @@ public static void Sign(Stream srcStream, Stream dstStream, CertificateHolder ce
 | --- | --- | --- |
 | srcStream | Stream | The stream which contains the document to sign. |
 | dstStream | Stream | The stream that signed document will be written to. |
-| certHolder | CertificateHolder | [`CertificateHolder`](../../certificateholder) object with certificate that used to sign file. The certificate in holder MUST contain private keys and have the X509KeyStorageFlags.Exportable flag set. |
-| signOptions | SignOptions | [`SignOptions`](../../signoptions) object with various signing options. |
+| certHolder | CertificateHolder | [`CertificateHolder`](../../certificateholder/) object with certificate that used to sign file. The certificate in holder MUST contain private keys and have the X509KeyStorageFlags.Exportable flag set. |
+| signOptions | SignOptions | [`SignOptions`](../../signoptions/) object with various signing options. |
 
 ## Examples
 
@@ -54,17 +54,17 @@ using (Stream streamIn = new FileStream(MyDir + "Document.docx", FileMode.Open))
 
 ### See Also
 
-* class [CertificateHolder](../../certificateholder)
-* class [SignOptions](../../signoptions)
-* class [DigitalSignatureUtil](../../digitalsignatureutil)
-* namespace [Aspose.Words.DigitalSignatures](../../digitalsignatureutil)
+* class [CertificateHolder](../../certificateholder/)
+* class [SignOptions](../../signoptions/)
+* class [DigitalSignatureUtil](../)
+* namespace [Aspose.Words.DigitalSignatures](../../digitalsignatureutil/)
 * assembly [Aspose.Words](../../../)
 
 ---
 
 ## Sign(string, string, CertificateHolder, SignOptions) {#sign_3}
 
-Signs source document using given [`CertificateHolder`](../../certificateholder) and [`SignOptions`](../../signoptions) with digital signature and writes signed document to destination file.
+Signs source document using given [`CertificateHolder`](../../certificateholder/) and [`SignOptions`](../../signoptions/) with digital signature and writes signed document to destination file.
 
 Document should be either Doc or Docx.
 
@@ -77,8 +77,8 @@ public static void Sign(string srcFileName, string dstFileName, CertificateHolde
 | --- | --- | --- |
 | srcFileName | String | The file name of the document to sign. |
 | dstFileName | String | The file name of the signed document output. |
-| certHolder | CertificateHolder | [`CertificateHolder`](../../certificateholder) object with certificate that used to sign file. The certificate in holder MUST contain private keys and have the X509KeyStorageFlags.Exportable flag set. |
-| signOptions | SignOptions | [`SignOptions`](../../signoptions) object with various signing options. |
+| certHolder | CertificateHolder | [`CertificateHolder`](../../certificateholder/) object with certificate that used to sign file. The certificate in holder MUST contain private keys and have the X509KeyStorageFlags.Exportable flag set. |
+| signOptions | SignOptions | [`SignOptions`](../../signoptions/) object with various signing options. |
 
 ## Examples
 
@@ -194,17 +194,17 @@ public static void Sign()
 
 ### See Also
 
-* class [CertificateHolder](../../certificateholder)
-* class [SignOptions](../../signoptions)
-* class [DigitalSignatureUtil](../../digitalsignatureutil)
-* namespace [Aspose.Words.DigitalSignatures](../../digitalsignatureutil)
+* class [CertificateHolder](../../certificateholder/)
+* class [SignOptions](../../signoptions/)
+* class [DigitalSignatureUtil](../)
+* namespace [Aspose.Words.DigitalSignatures](../../digitalsignatureutil/)
 * assembly [Aspose.Words](../../../)
 
 ---
 
 ## Sign(Stream, Stream, CertificateHolder) {#sign}
 
-Signs source document using given [`CertificateHolder`](../../certificateholder) with digital signature and writes signed document to destination stream.
+Signs source document using given [`CertificateHolder`](../../certificateholder/) with digital signature and writes signed document to destination stream.
 
 Document should be either Doc or Docx.
 
@@ -218,7 +218,7 @@ public static void Sign(Stream srcStream, Stream dstStream, CertificateHolder ce
 | --- | --- | --- |
 | srcStream | Stream | The stream which contains the document to sign. |
 | dstStream | Stream | The stream that signed document will be written to. |
-| certHolder | CertificateHolder | [`CertificateHolder`](../../certificateholder) object with certificate that used to sign file. The certificate in holder MUST contain private keys and have the X509KeyStorageFlags.Exportable flag set. |
+| certHolder | CertificateHolder | [`CertificateHolder`](../../certificateholder/) object with certificate that used to sign file. The certificate in holder MUST contain private keys and have the X509KeyStorageFlags.Exportable flag set. |
 
 ## Examples
 
@@ -262,16 +262,16 @@ Assert.AreEqual("CN=Morzal.Me", signedDoc.DigitalSignatures[0].SubjectName);
 
 ### See Also
 
-* class [CertificateHolder](../../certificateholder)
-* class [DigitalSignatureUtil](../../digitalsignatureutil)
-* namespace [Aspose.Words.DigitalSignatures](../../digitalsignatureutil)
+* class [CertificateHolder](../../certificateholder/)
+* class [DigitalSignatureUtil](../)
+* namespace [Aspose.Words.DigitalSignatures](../../digitalsignatureutil/)
 * assembly [Aspose.Words](../../../)
 
 ---
 
 ## Sign(string, string, CertificateHolder) {#sign_2}
 
-Signs source document using given [`CertificateHolder`](../../certificateholder) with digital signature and writes signed document to destination file.
+Signs source document using given [`CertificateHolder`](../../certificateholder/) with digital signature and writes signed document to destination file.
 
 Document should be either Doc or Docx.
 
@@ -283,7 +283,7 @@ public static void Sign(string srcFileName, string dstFileName, CertificateHolde
 | --- | --- | --- |
 | srcFileName | String | The file name of the document to sign. |
 | dstFileName | String | The file name of the signed document output. |
-| certHolder | CertificateHolder | [`CertificateHolder`](../../certificateholder) object with certificate that used to sign file. The certificate in holder MUST contain private keys and have the X509KeyStorageFlags.Exportable flag set. |
+| certHolder | CertificateHolder | [`CertificateHolder`](../../certificateholder/) object with certificate that used to sign file. The certificate in holder MUST contain private keys and have the X509KeyStorageFlags.Exportable flag set. |
 
 ## Examples
 
@@ -327,9 +327,9 @@ Assert.AreEqual("CN=Morzal.Me", signedDoc.DigitalSignatures[0].SubjectName);
 
 ### See Also
 
-* class [CertificateHolder](../../certificateholder)
-* class [DigitalSignatureUtil](../../digitalsignatureutil)
-* namespace [Aspose.Words.DigitalSignatures](../../digitalsignatureutil)
+* class [CertificateHolder](../../certificateholder/)
+* class [DigitalSignatureUtil](../)
+* namespace [Aspose.Words.DigitalSignatures](../../digitalsignatureutil/)
 * assembly [Aspose.Words](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

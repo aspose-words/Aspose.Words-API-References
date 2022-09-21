@@ -18,7 +18,7 @@ public class SmartTag : CompositeNode
 
 | Name | Description |
 | --- | --- |
-| [SmartTag](smarttag)(DocumentBase) | Initializes a new instance of the [`SmartTag`](../smarttag) class. |
+| [SmartTag](smarttag)(DocumentBase) | Initializes a new instance of the [`SmartTag`](./smarttag/) class. |
 
 ## Properties
 
@@ -49,7 +49,7 @@ public class SmartTag : CompositeNode
 | [AppendChild](../../aspose.words/compositenode/appendchild)(Node) | Adds the specified node to the end of the list of child nodes for this node. |
 | [Clone](../../aspose.words/node/clone)(bool) | Creates a duplicate of the node. |
 | [CreateNavigator](../../aspose.words/compositenode/createnavigator)() | Reserved for system use. IXPathNavigable. |
-| [GetAncestor](../../aspose.words/node/getancestor)(NodeType) | Gets the first ancestor of the specified [`NodeType`](../../aspose.words/nodetype). |
+| [GetAncestor](../../aspose.words/node/getancestor)(NodeType) | Gets the first ancestor of the specified [`NodeType`](../../aspose.words/nodetype/). |
 | [GetAncestor](../../aspose.words/node/getancestor)(Type) | Gets the first ancestor of the specified object type. |
 | [GetChild](../../aspose.words/compositenode/getchild)(NodeType, int, bool) | Returns an Nth child node that matches the specified type. |
 | [GetChildNodes](../../aspose.words/compositenode/getchildnodes)(NodeType, bool) | Returns a live collection of child nodes that match the specified type. |
@@ -64,7 +64,7 @@ public class SmartTag : CompositeNode
 | [Remove](../../aspose.words/node/remove)() | Removes itself from the parent. |
 | [RemoveAllChildren](../../aspose.words/compositenode/removeallchildren)() | Removes all the child nodes of the current node. |
 | [RemoveChild](../../aspose.words/compositenode/removechild)(Node) | Removes the specified child node. |
-| [RemoveSmartTags](../../aspose.words/compositenode/removesmarttags)() | Removes all [`SmartTag`](../smarttag) descendant nodes of the current node. |
+| [RemoveSmartTags](../../aspose.words/compositenode/removesmarttags)() | Removes all [`SmartTag`](./smarttag/) descendant nodes of the current node. |
 | [SelectNodes](../../aspose.words/compositenode/selectnodes)(string) | Selects a list of nodes matching the XPath expression. |
 | [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode)(string) | Selects the first Node that matches the XPath expression. |
 | [ToString](../../aspose.words/node/tostring)(SaveFormat) | Exports the content of the node into a string in the specified format. |
@@ -74,9 +74,9 @@ public class SmartTag : CompositeNode
 
 Smart tags is a kind of custom XML markup. Smart tags provide a facility for embedding customer-defined semantics into the document via the ability to provide a basic namespace/name for a run or set of runs within a document.
 
-[`SmartTag`](../smarttag) can be a child of a [`Paragraph`](../../aspose.words/paragraph) or another [`SmartTag`](../smarttag) node.
+[`SmartTag`](./smarttag/) can be a child of a [`Paragraph`](../../aspose.words/paragraph/) or another [`SmartTag`](./smarttag/) node.
 
-The complete list of child nodes that can occur inside a smart tag consists of [`BookmarkStart`](../../aspose.words/bookmarkstart), [`BookmarkEnd`](../../aspose.words/bookmarkend), [`FieldStart`](../../aspose.words.fields/fieldstart), [`FieldSeparator`](../../aspose.words.fields/fieldseparator), [`FieldEnd`](../../aspose.words.fields/fieldend), [`FormField`](../../aspose.words.fields/formfield), [`Comment`](../../aspose.words/comment), [`Footnote`](../../aspose.words.notes/footnote), [`Run`](../../aspose.words/run), [`SpecialChar`](../../aspose.words/specialchar), [`Shape`](../../aspose.words.drawing/shape), [`GroupShape`](../../aspose.words.drawing/groupshape), [`CommentRangeStart`](../../aspose.words/commentrangestart), [`CommentRangeEnd`](../../aspose.words/commentrangeend), [`SmartTag`](../smarttag).
+The complete list of child nodes that can occur inside a smart tag consists of [`BookmarkStart`](../../aspose.words/bookmarkstart/), [`BookmarkEnd`](../../aspose.words/bookmarkend/), [`FieldStart`](../../aspose.words.fields/fieldstart/), [`FieldSeparator`](../../aspose.words.fields/fieldseparator/), [`FieldEnd`](../../aspose.words.fields/fieldend/), [`FormField`](../../aspose.words.fields/formfield/), [`Comment`](../../aspose.words/comment/), [`Footnote`](../../aspose.words.notes/footnote/), [`Run`](../../aspose.words/run/), [`SpecialChar`](../../aspose.words/specialchar/), [`Shape`](../../aspose.words.drawing/shape/), [`GroupShape`](../../aspose.words.drawing/groupshape/), [`CommentRangeStart`](../../aspose.words/commentrangestart/), [`CommentRangeEnd`](../../aspose.words/commentrangeend/), [`SmartTag`](./smarttag/).
 
 ## Examples
 
@@ -178,8 +178,8 @@ private class SmartTagPrinter : DocumentVisitor
 
 ### See Also
 
-* class [CompositeNode](../../aspose.words/compositenode)
-* namespace [Aspose.Words.Markup](../../aspose.words.markup)
+* class [CompositeNode](../../aspose.words/compositenode/)
+* namespace [Aspose.Words.Markup](../../aspose.words.markup/)
 * assembly [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

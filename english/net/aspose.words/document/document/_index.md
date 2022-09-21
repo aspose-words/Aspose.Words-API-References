@@ -16,9 +16,9 @@ public Document()
 
 ## Remarks
 
-The document paper size is Letter by default. If you want to change page setup, use [`Section.PageSetup`](../../section/pagesetup).
+The document paper size is Letter by default. If you want to change page setup, use [`Section.PageSetup`](../../section/pagesetup/).
 
-After creation, you can use [`DocumentBuilder`](../../documentbuilder) to add document content easily.
+After creation, you can use [`DocumentBuilder`](../../documentbuilder/) to add document content easily.
 
 ## Examples
 
@@ -63,8 +63,8 @@ Assert.AreEqual("Test encrypted document.", doc.FirstSection.Body.FirstParagraph
 
 ### See Also
 
-* class [Document](../../document)
-* namespace [Aspose.Words](../../document)
+* class [Document](../)
+* namespace [Aspose.Words](../../document/)
 * assembly [Aspose.Words](../../../)
 
 ---
@@ -85,11 +85,11 @@ public Document(string fileName)
 
 | exception | condition |
 | --- | --- |
-| [UnsupportedFileFormatException](../../unsupportedfileformatexception) | The document format is not recognized or not supported. |
-| [FileCorruptedException](../../filecorruptedexception) | The document appears to be corrupted and cannot be loaded. |
+| [UnsupportedFileFormatException](../../unsupportedfileformatexception/) | The document format is not recognized or not supported. |
+| [FileCorruptedException](../../filecorruptedexception/) | The document appears to be corrupted and cannot be loaded. |
 | Exception | There is a problem with the document and it should be reported to Aspose.Words developers. |
 | IOException | There is an input/output exception. |
-| [IncorrectPasswordException](../../incorrectpasswordexception) | The document is encrypted and requires a password to open, but you supplied an incorrect password. |
+| [IncorrectPasswordException](../../incorrectpasswordexception/) | The document is encrypted and requires a password to open, but you supplied an incorrect password. |
 | ArgumentException | The name of the file cannot be null or empty string. |
 
 ## Examples
@@ -145,8 +145,8 @@ Assert.AreEqual("Hello world!", textFragmentAbsorber.Text.Trim());
 
 ### See Also
 
-* class [Document](../../document)
-* namespace [Aspose.Words](../../document)
+* class [Document](../)
+* namespace [Aspose.Words](../../document/)
 * assembly [Aspose.Words](../../../)
 
 ---
@@ -168,11 +168,11 @@ public Document(string fileName, LoadOptions loadOptions)
 
 | exception | condition |
 | --- | --- |
-| [UnsupportedFileFormatException](../../unsupportedfileformatexception) | The document format is not recognized or not supported. |
-| [FileCorruptedException](../../filecorruptedexception) | The document appears to be corrupted and cannot be loaded. |
+| [UnsupportedFileFormatException](../../unsupportedfileformatexception/) | The document format is not recognized or not supported. |
+| [FileCorruptedException](../../filecorruptedexception/) | The document appears to be corrupted and cannot be loaded. |
 | Exception | There is a problem with the document and it should be reported to Aspose.Words developers. |
 | IOException | There is an input/output exception. |
-| [IncorrectPasswordException](../../incorrectpasswordexception) | The document is encrypted and requires a password to open, but you supplied an incorrect password. |
+| [IncorrectPasswordException](../../incorrectpasswordexception/) | The document is encrypted and requires a password to open, but you supplied an incorrect password. |
 | ArgumentException | The name of the file cannot be null or empty string. |
 
 ## Examples
@@ -223,9 +223,9 @@ Assert.AreEqual("Test encrypted document.", doc.FirstSection.Body.FirstParagraph
 
 ### See Also
 
-* class [LoadOptions](../../../aspose.words.loading/loadoptions)
-* class [Document](../../document)
-* namespace [Aspose.Words](../../document)
+* class [LoadOptions](../../../aspose.words.loading/loadoptions/)
+* class [Document](../)
+* namespace [Aspose.Words](../../document/)
 * assembly [Aspose.Words](../../../)
 
 ---
@@ -246,11 +246,11 @@ public Document(Stream stream)
 
 | exception | condition |
 | --- | --- |
-| [UnsupportedFileFormatException](../../unsupportedfileformatexception) | The document format is not recognized or not supported. |
-| [FileCorruptedException](../../filecorruptedexception) | The document appears to be corrupted and cannot be loaded. |
+| [UnsupportedFileFormatException](../../unsupportedfileformatexception/) | The document format is not recognized or not supported. |
+| [FileCorruptedException](../../filecorruptedexception/) | The document appears to be corrupted and cannot be loaded. |
 | Exception | There is a problem with the document and it should be reported to Aspose.Words developers. |
 | IOException | There is an input/output exception. |
-| [IncorrectPasswordException](../../incorrectpasswordexception) | The document is encrypted and requires a password to open, but you supplied an incorrect password. |
+| [IncorrectPasswordException](../../incorrectpasswordexception/) | The document is encrypted and requires a password to open, but you supplied an incorrect password. |
 | ArgumentNullException | The stream cannot be null. |
 | NotSupportedException | The stream does not support reading or seeking. |
 | ObjectDisposedException | The stream is a disposed object. |
@@ -300,8 +300,8 @@ using (WebClient webClient = new WebClient())
 
 ### See Also
 
-* class [Document](../../document)
-* namespace [Aspose.Words](../../document)
+* class [Document](../)
+* namespace [Aspose.Words](../../document/)
 * assembly [Aspose.Words](../../../)
 
 ---
@@ -323,11 +323,11 @@ public Document(Stream stream, LoadOptions loadOptions)
 
 | exception | condition |
 | --- | --- |
-| [UnsupportedFileFormatException](../../unsupportedfileformatexception) | The document format is not recognized or not supported. |
-| [FileCorruptedException](../../filecorruptedexception) | The document appears to be corrupted and cannot be loaded. |
+| [UnsupportedFileFormatException](../../unsupportedfileformatexception/) | The document format is not recognized or not supported. |
+| [FileCorruptedException](../../filecorruptedexception/) | The document appears to be corrupted and cannot be loaded. |
 | Exception | There is a problem with the document and it should be reported to Aspose.Words developers. |
 | IOException | There is an input/output exception. |
-| [IncorrectPasswordException](../../incorrectpasswordexception) | The document is encrypted and requires a password to open, but you supplied an incorrect password. |
+| [IncorrectPasswordException](../../incorrectpasswordexception/) | The document is encrypted and requires a password to open, but you supplied an incorrect password. |
 | ArgumentNullException | The stream cannot be null. |
 | NotSupportedException | The stream does not support reading or seeking. |
 | ObjectDisposedException | The stream is a disposed object. |
@@ -403,9 +403,9 @@ using (Stream stream = File.OpenRead(MyDir + "Encrypted.docx"))
 
 ### See Also
 
-* class [LoadOptions](../../../aspose.words.loading/loadoptions)
-* class [Document](../../document)
-* namespace [Aspose.Words](../../document)
+* class [LoadOptions](../../../aspose.words.loading/loadoptions/)
+* class [Document](../)
+* namespace [Aspose.Words](../../document/)
 * assembly [Aspose.Words](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

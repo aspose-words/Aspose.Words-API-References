@@ -19,7 +19,7 @@ public class FormField : SpecialChar
 | Name | Description |
 | --- | --- |
 | [CalculateOnExit](../../aspose.words.fields/formfield/calculateonexit) { get; set; } | True if references to the specified form field are automatically updated whenever the field is exited. |
-| [CheckBoxSize](../../aspose.words.fields/formfield/checkboxsize) { get; set; } | Gets or sets the size of the checkbox in points. Has effect only when [`IsCheckBoxExactSize`](./ischeckboxexactsize) is true. |
+| [CheckBoxSize](../../aspose.words.fields/formfield/checkboxsize) { get; set; } | Gets or sets the size of the checkbox in points. Has effect only when [`IsCheckBoxExactSize`](./ischeckboxexactsize/) is true. |
 | [Checked](../../aspose.words.fields/formfield/checked) { get; set; } | Gets or sets the checked status of the check box form field. Default value for this property is **false**. |
 | [CustomNodeId](../../aspose.words/node/customnodeid) { get; set; } | Specifies custom node identifier. |
 | [Default](../../aspose.words.fields/formfield/default) { get; set; } | Gets or sets the default value of the check box form field. Default value for this property is **false**. |
@@ -45,7 +45,7 @@ public class FormField : SpecialChar
 | [OwnHelp](../../aspose.words.fields/formfield/ownhelp) { get; set; } | Specifies the source of the text that's displayed in a message box when a form field has the focus and the user presses F1. |
 | [OwnStatus](../../aspose.words.fields/formfield/ownstatus) { get; set; } | Specifies the source of the text that's displayed in the status bar when a form field has the focus. |
 | [ParentNode](../../aspose.words/node/parentnode) { get; } | Gets the immediate parent of this node. |
-| [ParentParagraph](../../aspose.words/inline/parentparagraph) { get; } | Retrieves the parent [`Paragraph`](../../aspose.words/paragraph) of this node. |
+| [ParentParagraph](../../aspose.words/inline/parentparagraph) { get; } | Retrieves the parent [`Paragraph`](../../aspose.words/paragraph/) of this node. |
 | [PreviousSibling](../../aspose.words/node/previoussibling) { get; } | Gets the node immediately preceding this node. |
 | [Range](../../aspose.words/node/range) { get; } | Returns a **Range** object that represents the portion of a document that is contained in this node. |
 | [Result](../../aspose.words.fields/formfield/result) { get; set; } | Gets or sets a string that represents the result of this form field. |
@@ -61,14 +61,14 @@ public class FormField : SpecialChar
 | --- | --- |
 | override [Accept](../../aspose.words.fields/formfield/accept)(DocumentVisitor) | Accepts a visitor. |
 | [Clone](../../aspose.words/node/clone)(bool) | Creates a duplicate of the node. |
-| [GetAncestor](../../aspose.words/node/getancestor)(NodeType) | Gets the first ancestor of the specified [`NodeType`](../../aspose.words/nodetype). |
+| [GetAncestor](../../aspose.words/node/getancestor)(NodeType) | Gets the first ancestor of the specified [`NodeType`](../../aspose.words/nodetype/). |
 | [GetAncestor](../../aspose.words/node/getancestor)(Type) | Gets the first ancestor of the specified object type. |
 | override [GetText](../../aspose.words/specialchar/gettext)() | Gets the special character that this node represents. |
 | [NextPreOrder](../../aspose.words/node/nextpreorder)(Node) | Gets next node according to the pre-order tree traversal algorithm. |
 | [PreviousPreOrder](../../aspose.words/node/previouspreorder)(Node) | Gets the previous node according to the pre-order tree traversal algorithm. |
 | [Remove](../../aspose.words/node/remove)() | Removes itself from the parent. |
 | [RemoveField](../../aspose.words.fields/formfield/removefield)() | Removes the complete form field, not just the form field special character. |
-| [SetTextInputValue](../../aspose.words.fields/formfield/settextinputvalue)(object) | Applies the text format specified in [`TextInputFormat`](./textinputformat) and stores the value in [`Result`](./result). |
+| [SetTextInputValue](../../aspose.words.fields/formfield/settextinputvalue)(object) | Applies the text format specified in [`TextInputFormat`](./textinputformat/) and stores the value in [`Result`](./result/). |
 | [ToString](../../aspose.words/node/tostring)(SaveFormat) | Exports the content of the node into a string in the specified format. |
 | [ToString](../../aspose.words/node/tostring)(SaveOptions) | Exports the content of the node into a string using the specified save options. |
 
@@ -80,7 +80,7 @@ Microsoft Word provides the following form fields: checkbox, text input and drop
 
 **FormField** is represented in a document by a special character and positioned as a character within a line of text.
 
-A complete form field in a Word document is a complex structure represented by several nodes: field start, field code such as FORMTEXT, form field data, field separator, field result, field end and a bookmark. To programmatically create form fields in a Word document use [`DocumentBuilder.InsertCheckBox`](../../aspose.words/documentbuilder/insertcheckbox), [`DocumentBuilder.InsertTextInput`](../../aspose.words/documentbuilder/inserttextinput) and [`DocumentBuilder.InsertComboBox`](../../aspose.words/documentbuilder/insertcombobox) which make sure all of the form field nodes are created in a correct order and in a suitable state.
+A complete form field in a Word document is a complex structure represented by several nodes: field start, field code such as FORMTEXT, form field data, field separator, field result, field end and a bookmark. To programmatically create form fields in a Word document use [`DocumentBuilder.InsertCheckBox`](../../aspose.words/documentbuilder/insertcheckbox/), [`DocumentBuilder.InsertTextInput`](../../aspose.words/documentbuilder/inserttextinput/) and [`DocumentBuilder.InsertComboBox`](../../aspose.words/documentbuilder/insertcombobox/) which make sure all of the form field nodes are created in a correct order and in a suitable state.
 
 ## Examples
 
@@ -127,8 +127,8 @@ doc.Save(ArtifactsDir + "FormFields.Create.html");
 
 ### See Also
 
-* class [SpecialChar](../../aspose.words/specialchar)
-* namespace [Aspose.Words.Fields](../../aspose.words.fields)
+* class [SpecialChar](../../aspose.words/specialchar/)
+* namespace [Aspose.Words.Fields](../../aspose.words.fields/)
 * assembly [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->
