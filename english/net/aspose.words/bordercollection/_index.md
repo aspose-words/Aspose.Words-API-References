@@ -18,27 +18,27 @@ public sealed class BorderCollection : IEnumerable<Border>
 
 | Name | Description |
 | --- | --- |
-| [Bottom](../../aspose.words/bordercollection/bottom) { get; } | Gets the bottom border. |
-| [Color](../../aspose.words/bordercollection/color) { get; set; } | Gets or sets the border color. |
-| [Count](../../aspose.words/bordercollection/count) { get; } | Gets the number of borders in the collection. |
-| [DistanceFromText](../../aspose.words/bordercollection/distancefromtext) { get; set; } | Gets or sets distance of the border from text in points. |
-| [Horizontal](../../aspose.words/bordercollection/horizontal) { get; } | Gets the horizontal border that is used between cells or conforming paragraphs. |
-| [Item](../../aspose.words/bordercollection/item) { get; } | Retrieves a Border object by border type. (2 indexers) |
-| [Left](../../aspose.words/bordercollection/left) { get; } | Gets the left border. |
-| [LineStyle](../../aspose.words/bordercollection/linestyle) { get; set; } | Gets or sets the border style. |
-| [LineWidth](../../aspose.words/bordercollection/linewidth) { get; set; } | Gets or sets the border width in points. |
-| [Right](../../aspose.words/bordercollection/right) { get; } | Gets the right border. |
-| [Shadow](../../aspose.words/bordercollection/shadow) { get; set; } | Gets or sets a value indicating whether the border has a shadow. |
-| [Top](../../aspose.words/bordercollection/top) { get; } | Gets the top border. |
-| [Vertical](../../aspose.words/bordercollection/vertical) { get; } | Gets the vertical border that is used between cells. |
+| [Bottom](../../aspose.words/bordercollection/bottom/) { get; } | Gets the bottom border. |
+| [Color](../../aspose.words/bordercollection/color/) { get; set; } | Gets or sets the border color. |
+| [Count](../../aspose.words/bordercollection/count/) { get; } | Gets the number of borders in the collection. |
+| [DistanceFromText](../../aspose.words/bordercollection/distancefromtext/) { get; set; } | Gets or sets distance of the border from text in points. |
+| [Horizontal](../../aspose.words/bordercollection/horizontal/) { get; } | Gets the horizontal border that is used between cells or conforming paragraphs. |
+| [Item](../../aspose.words/bordercollection/item/) { get; } | Retrieves a Border object by border type. (2 indexers) |
+| [Left](../../aspose.words/bordercollection/left/) { get; } | Gets the left border. |
+| [LineStyle](../../aspose.words/bordercollection/linestyle/) { get; set; } | Gets or sets the border style. |
+| [LineWidth](../../aspose.words/bordercollection/linewidth/) { get; set; } | Gets or sets the border width in points. |
+| [Right](../../aspose.words/bordercollection/right/) { get; } | Gets the right border. |
+| [Shadow](../../aspose.words/bordercollection/shadow/) { get; set; } | Gets or sets a value indicating whether the border has a shadow. |
+| [Top](../../aspose.words/bordercollection/top/) { get; } | Gets the top border. |
+| [Vertical](../../aspose.words/bordercollection/vertical/) { get; } | Gets the vertical border that is used between cells. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [ClearFormatting](../../aspose.words/bordercollection/clearformatting)() | Removes all borders of an object. |
-| [Equals](../../aspose.words/bordercollection/equals#equals)(BorderCollection) | Compares collections of borders. |
-| [GetEnumerator](../../aspose.words/bordercollection/getenumerator)() | Returns an enumerator object that can be used to iterate over all borders in the collection. |
+| [ClearFormatting](../../aspose.words/bordercollection/clearformatting/)() | Removes all borders of an object. |
+| [Equals](../../aspose.words/bordercollection/equals/#equals)(BorderCollection) | Compares collections of borders. |
+| [GetEnumerator](../../aspose.words/bordercollection/getenumerator/)() | Returns an enumerator object that can be used to iterate over all borders in the collection. |
 
 ## Remarks
 

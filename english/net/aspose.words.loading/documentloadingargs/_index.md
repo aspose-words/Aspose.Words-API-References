@@ -18,7 +18,7 @@ public sealed class DocumentLoadingArgs
 
 | Name | Description |
 | --- | --- |
-| [EstimatedProgress](../../aspose.words.loading/documentloadingargs/estimatedprogress) { get; } | Overall estimated percentage progress. |
+| [EstimatedProgress](../../aspose.words.loading/documentloadingargs/estimatedprogress/) { get; } | Overall estimated percentage progress. |
 
 ### See Also
 

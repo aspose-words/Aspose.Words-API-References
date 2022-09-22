@@ -18,7 +18,7 @@ public interface IReplacingCallback
 
 | Name | Description |
 | --- | --- |
-| [Replacing](../../aspose.words.replacing/ireplacingcallback/replacing)(ReplacingArgs) | A user defined method that is called during a replace operation for each match found just before a replace is made. |
+| [Replacing](../../aspose.words.replacing/ireplacingcallback/replacing/)(ReplacingArgs) | A user defined method that is called during a replace operation for each match found just before a replace is made. |
 
 ## Examples
 

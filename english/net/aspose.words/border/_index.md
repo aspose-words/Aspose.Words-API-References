@@ -18,21 +18,21 @@ public class Border : InternableComplexAttr
 
 | Name | Description |
 | --- | --- |
-| [Color](../../aspose.words/border/color) { get; set; } | Gets or sets the border color. |
-| [DistanceFromText](../../aspose.words/border/distancefromtext) { get; set; } | Gets or sets distance of the border from text or from the page edge in points. |
-| [IsVisible](../../aspose.words/border/isvisible) { get; } | Returns true if the LineStyle is not LineStyle.None. |
-| [LineStyle](../../aspose.words/border/linestyle) { get; set; } | Gets or sets the border style. |
-| [LineWidth](../../aspose.words/border/linewidth) { get; set; } | Gets or sets the border width in points. |
-| [Shadow](../../aspose.words/border/shadow) { get; set; } | Gets or sets a value indicating whether the border has a shadow. |
+| [Color](../../aspose.words/border/color/) { get; set; } | Gets or sets the border color. |
+| [DistanceFromText](../../aspose.words/border/distancefromtext/) { get; set; } | Gets or sets distance of the border from text or from the page edge in points. |
+| [IsVisible](../../aspose.words/border/isvisible/) { get; } | Returns true if the LineStyle is not LineStyle.None. |
+| [LineStyle](../../aspose.words/border/linestyle/) { get; set; } | Gets or sets the border style. |
+| [LineWidth](../../aspose.words/border/linewidth/) { get; set; } | Gets or sets the border width in points. |
+| [Shadow](../../aspose.words/border/shadow/) { get; set; } | Gets or sets a value indicating whether the border has a shadow. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [ClearFormatting](../../aspose.words/border/clearformatting)() | Resets border properties to default values. |
-| [Equals](../../aspose.words/border/equals#equals)(Border) | Determines whether the specified border is equal in value to the current border. |
-| override [Equals](../../aspose.words/border/equals#equals_1)(object) | Determines whether the specified object is equal in value to the current object. |
-| override [GetHashCode](../../aspose.words/border/gethashcode)() | Serves as a hash function for this type. |
+| [ClearFormatting](../../aspose.words/border/clearformatting/)() | Resets border properties to default values. |
+| [Equals](../../aspose.words/border/equals/#equals)(Border) | Determines whether the specified border is equal in value to the current border. |
+| override [Equals](../../aspose.words/border/equals/#equals_1)(object) | Determines whether the specified object is equal in value to the current object. |
+| override [GetHashCode](../../aspose.words/border/gethashcode/)() | Serves as a hash function for this type. |
 
 ## Remarks
 

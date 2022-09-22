@@ -24,16 +24,16 @@ public class OdsoRecipientData
 
 | Name | Description |
 | --- | --- |
-| [Active](../../aspose.words.settings/odsorecipientdata/active) { get; set; } | Specifies whether the record from the data source shall be imported into a document when the mail merge is performed. The default value is `true`. |
-| [Column](../../aspose.words.settings/odsorecipientdata/column) { get; set; } | Specifies the column within the data source that contains unique data for the current record. The default value is 0. |
-| [Hash](../../aspose.words.settings/odsorecipientdata/hash) { get; set; } | Represents the hash code for this record. Sometimes Microsoft Word uses [`Hash`](./hash/) of a whole record instead of a [`UniqueTag`](./uniquetag/) value. The default value is 0. |
-| [UniqueTag](../../aspose.words.settings/odsorecipientdata/uniquetag) { get; set; } | Specifies the contents of a given record in the column containing unique data. The default value is `null`. |
+| [Active](../../aspose.words.settings/odsorecipientdata/active/) { get; set; } | Specifies whether the record from the data source shall be imported into a document when the mail merge is performed. The default value is `true`. |
+| [Column](../../aspose.words.settings/odsorecipientdata/column/) { get; set; } | Specifies the column within the data source that contains unique data for the current record. The default value is 0. |
+| [Hash](../../aspose.words.settings/odsorecipientdata/hash/) { get; set; } | Represents the hash code for this record. Sometimes Microsoft Word uses [`Hash`](./hash/) of a whole record instead of a [`UniqueTag`](./uniquetag/) value. The default value is 0. |
+| [UniqueTag](../../aspose.words.settings/odsorecipientdata/uniquetag/) { get; set; } | Specifies the contents of a given record in the column containing unique data. The default value is `null`. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Clone](../../aspose.words.settings/odsorecipientdata/clone)() | Returns a deep clone of this object. |
+| [Clone](../../aspose.words.settings/odsorecipientdata/clone/)() | Returns a deep clone of this object. |
 
 ## Remarks
 

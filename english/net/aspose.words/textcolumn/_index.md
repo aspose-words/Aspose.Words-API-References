@@ -18,8 +18,8 @@ public class TextColumn
 
 | Name | Description |
 | --- | --- |
-| [SpaceAfter](../../aspose.words/textcolumn/spaceafter) { get; set; } | Gets or sets the space between this column and the next column in points. Not required for the last column. |
-| [Width](../../aspose.words/textcolumn/width) { get; set; } | Gets or sets the width of the text column in points. |
+| [SpaceAfter](../../aspose.words/textcolumn/spaceafter/) { get; set; } | Gets or sets the space between this column and the next column in points. Not required for the last column. |
+| [Width](../../aspose.words/textcolumn/width/) { get; set; } | Gets or sets the width of the text column in points. |
 
 ## Remarks
 

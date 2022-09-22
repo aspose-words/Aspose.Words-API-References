@@ -24,9 +24,9 @@ public class CustomXmlProperty
 
 | Name | Description |
 | --- | --- |
-| [Name](../../aspose.words.markup/customxmlproperty/name) { get; } | Specifies the name of the custom XML attribute or smart tag property. |
-| [Uri](../../aspose.words.markup/customxmlproperty/uri) { get; set; } | Gets or sets the namespace URI of the custom XML attribute or smart tag property. |
-| [Value](../../aspose.words.markup/customxmlproperty/value) { get; set; } | Gets or sets the value of the custom XML attribute or smart tag property. |
+| [Name](../../aspose.words.markup/customxmlproperty/name/) { get; } | Specifies the name of the custom XML attribute or smart tag property. |
+| [Uri](../../aspose.words.markup/customxmlproperty/uri/) { get; set; } | Gets or sets the namespace URI of the custom XML attribute or smart tag property. |
+| [Value](../../aspose.words.markup/customxmlproperty/value/) { get; set; } | Gets or sets the value of the custom XML attribute or smart tag property. |
 
 ## Remarks
 

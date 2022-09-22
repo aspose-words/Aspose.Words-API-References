@@ -18,8 +18,8 @@ public class DefaultFontSubstitutionRule : FontSubstitutionRule
 
 | Name | Description |
 | --- | --- |
-| [DefaultFontName](../../aspose.words.fonts/defaultfontsubstitutionrule/defaultfontname) { get; set; } | Gets or sets the default font name. |
-| virtual [Enabled](../../aspose.words.fonts/fontsubstitutionrule/enabled) { get; set; } | Specifies whether the rule is enabled or not. |
+| [DefaultFontName](../../aspose.words.fonts/defaultfontsubstitutionrule/defaultfontname/) { get; set; } | Gets or sets the default font name. |
+| virtual [Enabled](../../aspose.words.fonts/fontsubstitutionrule/enabled/) { get; set; } | Specifies whether the rule is enabled or not. |
 
 ## Remarks
 

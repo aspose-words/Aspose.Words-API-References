@@ -18,18 +18,18 @@ public class BookmarkCollection : IEnumerable<Bookmark>
 
 | Name | Description |
 | --- | --- |
-| [Count](../../aspose.words/bookmarkcollection/count) { get; } | Returns the number of bookmarks in the collection. |
-| [Item](../../aspose.words/bookmarkcollection/item) { get; } | Returns a bookmark at the specified index. (2 indexers) |
+| [Count](../../aspose.words/bookmarkcollection/count/) { get; } | Returns the number of bookmarks in the collection. |
+| [Item](../../aspose.words/bookmarkcollection/item/) { get; } | Returns a bookmark at the specified index. (2 indexers) |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Clear](../../aspose.words/bookmarkcollection/clear)() | Removes all bookmarks from this collection and from the document. |
-| [GetEnumerator](../../aspose.words/bookmarkcollection/getenumerator)() | Returns an enumerator object. |
-| [Remove](../../aspose.words/bookmarkcollection/remove#remove)(Bookmark) | Removes the specified bookmark from the document. |
-| [Remove](../../aspose.words/bookmarkcollection/remove#remove_1)(string) | Removes a bookmark with the specified name. |
-| [RemoveAt](../../aspose.words/bookmarkcollection/removeat)(int) | Removes a bookmark at the specified index. |
+| [Clear](../../aspose.words/bookmarkcollection/clear/)() | Removes all bookmarks from this collection and from the document. |
+| [GetEnumerator](../../aspose.words/bookmarkcollection/getenumerator/)() | Returns an enumerator object. |
+| [Remove](../../aspose.words/bookmarkcollection/remove/#remove)(Bookmark) | Removes the specified bookmark from the document. |
+| [Remove](../../aspose.words/bookmarkcollection/remove/#remove_1)(string) | Removes a bookmark with the specified name. |
+| [RemoveAt](../../aspose.words/bookmarkcollection/removeat/)(int) | Removes a bookmark at the specified index. |
 
 ## Examples
 

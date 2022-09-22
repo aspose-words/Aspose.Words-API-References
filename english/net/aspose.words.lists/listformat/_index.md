@@ -18,20 +18,20 @@ public class ListFormat
 
 | Name | Description |
 | --- | --- |
-| [IsListItem](../../aspose.words.lists/listformat/islistitem) { get; } | True when the paragraph has bulleted or numbered formatting applied to it. |
-| [List](../../aspose.words.lists/listformat/list) { get; set; } | Gets or sets the list this paragraph is a member of. |
-| [ListLevel](../../aspose.words.lists/listformat/listlevel) { get; } | Returns the list level formatting plus any formatting overrides applied to the current paragraph. |
-| [ListLevelNumber](../../aspose.words.lists/listformat/listlevelnumber) { get; set; } | Gets or sets the list level number (0 to 8) for the paragraph. |
+| [IsListItem](../../aspose.words.lists/listformat/islistitem/) { get; } | True when the paragraph has bulleted or numbered formatting applied to it. |
+| [List](../../aspose.words.lists/listformat/list/) { get; set; } | Gets or sets the list this paragraph is a member of. |
+| [ListLevel](../../aspose.words.lists/listformat/listlevel/) { get; } | Returns the list level formatting plus any formatting overrides applied to the current paragraph. |
+| [ListLevelNumber](../../aspose.words.lists/listformat/listlevelnumber/) { get; set; } | Gets or sets the list level number (0 to 8) for the paragraph. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [ApplyBulletDefault](../../aspose.words.lists/listformat/applybulletdefault)() | Starts a new default bulleted list and applies it to the paragraph. |
-| [ApplyNumberDefault](../../aspose.words.lists/listformat/applynumberdefault)() | Starts a new default numbered list and applies it to the paragraph. |
-| [ListIndent](../../aspose.words.lists/listformat/listindent)() | Increases the list level of the current paragraph by one level. |
-| [ListOutdent](../../aspose.words.lists/listformat/listoutdent)() | Decreases the list level of the current paragraph by one level. |
-| [RemoveNumbers](../../aspose.words.lists/listformat/removenumbers)() | Removes numbers or bullets from the current paragraph and sets list level to zero. |
+| [ApplyBulletDefault](../../aspose.words.lists/listformat/applybulletdefault/)() | Starts a new default bulleted list and applies it to the paragraph. |
+| [ApplyNumberDefault](../../aspose.words.lists/listformat/applynumberdefault/)() | Starts a new default numbered list and applies it to the paragraph. |
+| [ListIndent](../../aspose.words.lists/listformat/listindent/)() | Increases the list level of the current paragraph by one level. |
+| [ListOutdent](../../aspose.words.lists/listformat/listoutdent/)() | Decreases the list level of the current paragraph by one level. |
+| [RemoveNumbers](../../aspose.words.lists/listformat/removenumbers/)() | Removes numbers or bullets from the current paragraph and sets list level to zero. |
 
 ## Remarks
 

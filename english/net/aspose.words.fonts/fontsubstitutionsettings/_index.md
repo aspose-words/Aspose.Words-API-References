@@ -18,11 +18,11 @@ public class FontSubstitutionSettings
 
 | Name | Description |
 | --- | --- |
-| [DefaultFontSubstitution](../../aspose.words.fonts/fontsubstitutionsettings/defaultfontsubstitution) { get; } | Settings related to default font substitution rule. |
-| [FontConfigSubstitution](../../aspose.words.fonts/fontsubstitutionsettings/fontconfigsubstitution) { get; } | Settings related to font config substitution rule. |
-| [FontInfoSubstitution](../../aspose.words.fonts/fontsubstitutionsettings/fontinfosubstitution) { get; } | Settings related to font info substitution rule. |
-| [FontNameSubstitution](../../aspose.words.fonts/fontsubstitutionsettings/fontnamesubstitution) { get; } | Settings related to font name substitution rule. |
-| [TableSubstitution](../../aspose.words.fonts/fontsubstitutionsettings/tablesubstitution) { get; } | Settings related to table substitution rule. |
+| [DefaultFontSubstitution](../../aspose.words.fonts/fontsubstitutionsettings/defaultfontsubstitution/) { get; } | Settings related to default font substitution rule. |
+| [FontConfigSubstitution](../../aspose.words.fonts/fontsubstitutionsettings/fontconfigsubstitution/) { get; } | Settings related to font config substitution rule. |
+| [FontInfoSubstitution](../../aspose.words.fonts/fontsubstitutionsettings/fontinfosubstitution/) { get; } | Settings related to font info substitution rule. |
+| [FontNameSubstitution](../../aspose.words.fonts/fontsubstitutionsettings/fontnamesubstitution/) { get; } | Settings related to font name substitution rule. |
+| [TableSubstitution](../../aspose.words.fonts/fontsubstitutionsettings/tablesubstitution/) { get; } | Settings related to table substitution rule. |
 
 ## Remarks
 

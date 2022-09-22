@@ -24,14 +24,14 @@ public class LayoutOptions
 
 | Name | Description |
 | --- | --- |
-| [Callback](../../aspose.words.layout/layoutoptions/callback) { get; set; } | Gets or sets [`IPageLayoutCallback`](../ipagelayoutcallback/) implementation used by page layout model. |
-| [CommentDisplayMode](../../aspose.words.layout/layoutoptions/commentdisplaymode) { get; set; } | Gets or sets the way comments are rendered. Default value is ShowInBalloons. |
-| [ContinuousSectionPageNumberingRestart](../../aspose.words.layout/layoutoptions/continuoussectionpagenumberingrestart) { get; set; } | Gets or sets the mode of behavior for computing page numbers when a continuous section restarts the page numbering. |
-| [IgnorePrinterMetrics](../../aspose.words.layout/layoutoptions/ignoreprintermetrics) { get; set; } | Gets or sets indication of whether the "Use printer metrics to lay out document" compatibility option is ignored. Default is True. |
-| [RevisionOptions](../../aspose.words.layout/layoutoptions/revisionoptions) { get; } | Gets revision options. |
-| [ShowHiddenText](../../aspose.words.layout/layoutoptions/showhiddentext) { get; set; } | Gets or sets indication of whether hidden text in the document is rendered. Default is False. |
-| [ShowParagraphMarks](../../aspose.words.layout/layoutoptions/showparagraphmarks) { get; set; } | Gets or sets indication of whether paragraph marks are rendered. Default is False. |
-| [TextShaperFactory](../../aspose.words.layout/layoutoptions/textshaperfactory) { get; set; } | Gets or sets [`ITextShaperFactory`](../../aspose.words.shaping/itextshaperfactory/) implementation used for Advanced Typography rendering features. |
+| [Callback](../../aspose.words.layout/layoutoptions/callback/) { get; set; } | Gets or sets [`IPageLayoutCallback`](../ipagelayoutcallback/) implementation used by page layout model. |
+| [CommentDisplayMode](../../aspose.words.layout/layoutoptions/commentdisplaymode/) { get; set; } | Gets or sets the way comments are rendered. Default value is ShowInBalloons. |
+| [ContinuousSectionPageNumberingRestart](../../aspose.words.layout/layoutoptions/continuoussectionpagenumberingrestart/) { get; set; } | Gets or sets the mode of behavior for computing page numbers when a continuous section restarts the page numbering. |
+| [IgnorePrinterMetrics](../../aspose.words.layout/layoutoptions/ignoreprintermetrics/) { get; set; } | Gets or sets indication of whether the "Use printer metrics to lay out document" compatibility option is ignored. Default is True. |
+| [RevisionOptions](../../aspose.words.layout/layoutoptions/revisionoptions/) { get; } | Gets revision options. |
+| [ShowHiddenText](../../aspose.words.layout/layoutoptions/showhiddentext/) { get; set; } | Gets or sets indication of whether hidden text in the document is rendered. Default is False. |
+| [ShowParagraphMarks](../../aspose.words.layout/layoutoptions/showparagraphmarks/) { get; set; } | Gets or sets indication of whether paragraph marks are rendered. Default is False. |
+| [TextShaperFactory](../../aspose.words.layout/layoutoptions/textshaperfactory/) { get; set; } | Gets or sets [`ITextShaperFactory`](../../aspose.words.shaping/itextshaperfactory/) implementation used for Advanced Typography rendering features. |
 
 ## Remarks
 

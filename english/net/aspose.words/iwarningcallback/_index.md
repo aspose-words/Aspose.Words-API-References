@@ -18,7 +18,7 @@ public interface IWarningCallback
 
 | Name | Description |
 | --- | --- |
-| [Warning](../../aspose.words/iwarningcallback/warning)(WarningInfo) | Aspose.Words invokes this method when it encounters some issue during document loading or saving that might result in loss of formatting or data fidelity. |
+| [Warning](../../aspose.words/iwarningcallback/warning/)(WarningInfo) | Aspose.Words invokes this method when it encounters some issue during document loading or saving that might result in loss of formatting or data fidelity. |
 
 ## Examples
 

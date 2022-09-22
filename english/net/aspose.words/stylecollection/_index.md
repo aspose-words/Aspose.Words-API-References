@@ -18,20 +18,20 @@ public class StyleCollection : IEnumerable<Style>
 
 | Name | Description |
 | --- | --- |
-| [Count](../../aspose.words/stylecollection/count) { get; } | Gets the number of styles in the collection. |
-| [DefaultFont](../../aspose.words/stylecollection/defaultfont) { get; } | Gets document default text formatting. |
-| [DefaultParagraphFormat](../../aspose.words/stylecollection/defaultparagraphformat) { get; } | Gets document default paragraph formatting. |
-| [Document](../../aspose.words/stylecollection/document) { get; } | Gets the owner document. |
-| [Item](../../aspose.words/stylecollection/item) { get; } | Gets a style by name or alias. (3 indexers) |
+| [Count](../../aspose.words/stylecollection/count/) { get; } | Gets the number of styles in the collection. |
+| [DefaultFont](../../aspose.words/stylecollection/defaultfont/) { get; } | Gets document default text formatting. |
+| [DefaultParagraphFormat](../../aspose.words/stylecollection/defaultparagraphformat/) { get; } | Gets document default paragraph formatting. |
+| [Document](../../aspose.words/stylecollection/document/) { get; } | Gets the owner document. |
+| [Item](../../aspose.words/stylecollection/item/) { get; } | Gets a style by name or alias. (3 indexers) |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Add](../../aspose.words/stylecollection/add)(StyleType, string) | Creates a new user defined style and adds it the collection. |
-| [AddCopy](../../aspose.words/stylecollection/addcopy)(Style) | Copies a style into this collection. |
-| [ClearQuickStyleGallery](../../aspose.words/stylecollection/clearquickstylegallery)() | Removes all styles from the Quick Style Gallery panel. |
-| [GetEnumerator](../../aspose.words/stylecollection/getenumerator)() | Gets an enumerator object that will enumerate styles in the alphabetical order of their names. |
+| [Add](../../aspose.words/stylecollection/add/)(StyleType, string) | Creates a new user defined style and adds it the collection. |
+| [AddCopy](../../aspose.words/stylecollection/addcopy/)(Style) | Copies a style into this collection. |
+| [ClearQuickStyleGallery](../../aspose.words/stylecollection/clearquickstylegallery/)() | Removes all styles from the Quick Style Gallery panel. |
+| [GetEnumerator](../../aspose.words/stylecollection/getenumerator/)() | Gets an enumerator object that will enumerate styles in the alphabetical order of their names. |
 
 ## Examples
 

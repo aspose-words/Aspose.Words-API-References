@@ -24,31 +24,31 @@ public sealed class FieldTC : Field
 
 | Name | Description |
 | --- | --- |
-| [DisplayResult](../../aspose.words.fields/field/displayresult) { get; } | Gets the text that represents the displayed field result. |
-| [End](../../aspose.words.fields/field/end) { get; } | Gets the node that represents the field end. |
-| [EntryLevel](../../aspose.words.fields/fieldtc/entrylevel) { get; set; } | Gets or sets the level of the entry. |
-| [Format](../../aspose.words.fields/field/format) { get; } | Gets a [`FieldFormat`](../fieldformat/) object that provides typed access to field's formatting. |
-| [IsDirty](../../aspose.words.fields/field/isdirty) { get; set; } | Gets or sets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
-| [IsLocked](../../aspose.words.fields/field/islocked) { get; set; } | Gets or sets whether the field is locked (should not recalculate its result). |
-| [LocaleId](../../aspose.words.fields/field/localeid) { get; set; } | Gets or sets the LCID of the field. |
-| [OmitPageNumber](../../aspose.words.fields/fieldtc/omitpagenumber) { get; set; } | Gets or sets whether page number in TOC should be omitted for this field. |
-| [Result](../../aspose.words.fields/field/result) { get; set; } | Gets or sets text that is between the field separator and field end. |
-| [Separator](../../aspose.words.fields/field/separator) { get; } | Gets the node that represents the field separator. Can be null. |
-| [Start](../../aspose.words.fields/field/start) { get; } | Gets the node that represents the start of the field. |
-| [Text](../../aspose.words.fields/fieldtc/text) { get; set; } | Gets or sets the text of the entry. |
-| virtual [Type](../../aspose.words.fields/field/type) { get; } | Gets the Microsoft Word field type. |
-| [TypeIdentifier](../../aspose.words.fields/fieldtc/typeidentifier) { get; set; } | Gets or sets a type identifier for this field (which is typically a letter). |
+| [DisplayResult](../../aspose.words.fields/field/displayresult/) { get; } | Gets the text that represents the displayed field result. |
+| [End](../../aspose.words.fields/field/end/) { get; } | Gets the node that represents the field end. |
+| [EntryLevel](../../aspose.words.fields/fieldtc/entrylevel/) { get; set; } | Gets or sets the level of the entry. |
+| [Format](../../aspose.words.fields/field/format/) { get; } | Gets a [`FieldFormat`](../fieldformat/) object that provides typed access to field's formatting. |
+| [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | Gets or sets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
+| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | Gets or sets whether the field is locked (should not recalculate its result). |
+| [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | Gets or sets the LCID of the field. |
+| [OmitPageNumber](../../aspose.words.fields/fieldtc/omitpagenumber/) { get; set; } | Gets or sets whether page number in TOC should be omitted for this field. |
+| [Result](../../aspose.words.fields/field/result/) { get; set; } | Gets or sets text that is between the field separator and field end. |
+| [Separator](../../aspose.words.fields/field/separator/) { get; } | Gets the node that represents the field separator. Can be null. |
+| [Start](../../aspose.words.fields/field/start/) { get; } | Gets the node that represents the start of the field. |
+| [Text](../../aspose.words.fields/fieldtc/text/) { get; set; } | Gets or sets the text of the entry. |
+| virtual [Type](../../aspose.words.fields/field/type/) { get; } | Gets the Microsoft Word field type. |
+| [TypeIdentifier](../../aspose.words.fields/fieldtc/typeidentifier/) { get; set; } | Gets or sets a type identifier for this field (which is typically a letter). |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode)() | Returns text between field start and field separator (or field end if there is no separator). Both field code and field result of child fields are included. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode)(bool) | Returns text between field start and field separator (or field end if there is no separator). |
-| [Remove](../../aspose.words.fields/field/remove)() | Removes the field from the document. Returns a node right after the field. If the field's end is the last child of its parent node, returns its parent paragraph. If the field is already removed, returns **null**. |
-| [Unlink](../../aspose.words.fields/field/unlink)() | Performs the field unlink. |
-| [Update](../../aspose.words.fields/field/update)() | Performs the field update. Throws if the field is being updated already. |
-| [Update](../../aspose.words.fields/field/update)(bool) | Performs a field update. Throws if the field is being updated already. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Returns text between field start and field separator (or field end if there is no separator). Both field code and field result of child fields are included. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Returns text between field start and field separator (or field end if there is no separator). |
+| [Remove](../../aspose.words.fields/field/remove/)() | Removes the field from the document. Returns a node right after the field. If the field's end is the last child of its parent node, returns its parent paragraph. If the field is already removed, returns **null**. |
+| [Unlink](../../aspose.words.fields/field/unlink/)() | Performs the field unlink. |
+| [Update](../../aspose.words.fields/field/update/)() | Performs the field update. Throws if the field is being updated already. |
+| [Update](../../aspose.words.fields/field/update/)(bool) | Performs a field update. Throws if the field is being updated already. |
 
 ## Remarks
 

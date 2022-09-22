@@ -24,9 +24,9 @@ public class PdfEncryptionDetails
 
 | Name | Description |
 | --- | --- |
-| [OwnerPassword](../../aspose.words.saving/pdfencryptiondetails/ownerpassword) { get; set; } | Specifies the owner password for the encrypted PDF document. |
-| [Permissions](../../aspose.words.saving/pdfencryptiondetails/permissions) { get; set; } | Specifies the operations that are allowed to a user on an encrypted PDF document. The default value is DisallowAll. |
-| [UserPassword](../../aspose.words.saving/pdfencryptiondetails/userpassword) { get; set; } | Specifies the user password required for opening the encrypted PDF document. |
+| [OwnerPassword](../../aspose.words.saving/pdfencryptiondetails/ownerpassword/) { get; set; } | Specifies the owner password for the encrypted PDF document. |
+| [Permissions](../../aspose.words.saving/pdfencryptiondetails/permissions/) { get; set; } | Specifies the operations that are allowed to a user on an encrypted PDF document. The default value is DisallowAll. |
+| [UserPassword](../../aspose.words.saving/pdfencryptiondetails/userpassword/) { get; set; } | Specifies the user password required for opening the encrypted PDF document. |
 
 ## Examples
 

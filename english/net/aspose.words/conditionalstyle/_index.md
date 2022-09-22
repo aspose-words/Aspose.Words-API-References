@@ -18,23 +18,23 @@ public sealed class ConditionalStyle
 
 | Name | Description |
 | --- | --- |
-| [Borders](../../aspose.words/conditionalstyle/borders) { get; } | Gets the collection of default cell borders for the conditional style. |
-| [BottomPadding](../../aspose.words/conditionalstyle/bottompadding) { get; set; } | Gets or sets the amount of space (in points) to add below the contents of table cells. |
-| [Font](../../aspose.words/conditionalstyle/font) { get; } | Gets the character formatting of the conditional style. |
-| [LeftPadding](../../aspose.words/conditionalstyle/leftpadding) { get; set; } | Gets or sets the amount of space (in points) to add to the left of the contents of table cells. |
-| [ParagraphFormat](../../aspose.words/conditionalstyle/paragraphformat) { get; } | Gets the paragraph formatting of the conditional style. |
-| [RightPadding](../../aspose.words/conditionalstyle/rightpadding) { get; set; } | Gets or sets the amount of space (in points) to add to the right of the contents of table cells. |
-| [Shading](../../aspose.words/conditionalstyle/shading) { get; } | Gets a [`Shading`](../shading/) object that refers to the shading formatting for this conditional style. |
-| [TopPadding](../../aspose.words/conditionalstyle/toppadding) { get; set; } | Gets or sets the amount of space (in points) to add above the contents of table cells. |
-| [Type](../../aspose.words/conditionalstyle/type) { get; } | Gets table area to which this conditional style relates. |
+| [Borders](../../aspose.words/conditionalstyle/borders/) { get; } | Gets the collection of default cell borders for the conditional style. |
+| [BottomPadding](../../aspose.words/conditionalstyle/bottompadding/) { get; set; } | Gets or sets the amount of space (in points) to add below the contents of table cells. |
+| [Font](../../aspose.words/conditionalstyle/font/) { get; } | Gets the character formatting of the conditional style. |
+| [LeftPadding](../../aspose.words/conditionalstyle/leftpadding/) { get; set; } | Gets or sets the amount of space (in points) to add to the left of the contents of table cells. |
+| [ParagraphFormat](../../aspose.words/conditionalstyle/paragraphformat/) { get; } | Gets the paragraph formatting of the conditional style. |
+| [RightPadding](../../aspose.words/conditionalstyle/rightpadding/) { get; set; } | Gets or sets the amount of space (in points) to add to the right of the contents of table cells. |
+| [Shading](../../aspose.words/conditionalstyle/shading/) { get; } | Gets a [`Shading`](../shading/) object that refers to the shading formatting for this conditional style. |
+| [TopPadding](../../aspose.words/conditionalstyle/toppadding/) { get; set; } | Gets or sets the amount of space (in points) to add above the contents of table cells. |
+| [Type](../../aspose.words/conditionalstyle/type/) { get; } | Gets table area to which this conditional style relates. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [ClearFormatting](../../aspose.words/conditionalstyle/clearformatting)() | Clears formatting of this conditional style. |
-| override [Equals](../../aspose.words/conditionalstyle/equals)(object) |  |
-| override [GetHashCode](../../aspose.words/conditionalstyle/gethashcode)() | Calculates hash code for this object. |
+| [ClearFormatting](../../aspose.words/conditionalstyle/clearformatting/)() | Clears formatting of this conditional style. |
+| override [Equals](../../aspose.words/conditionalstyle/equals/)(object) |  |
+| override [GetHashCode](../../aspose.words/conditionalstyle/gethashcode/)() | Calculates hash code for this object. |
 
 ## Examples
 

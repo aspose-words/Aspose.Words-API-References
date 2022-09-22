@@ -18,25 +18,25 @@ public class ChartDataLabel
 
 | Name | Description |
 | --- | --- |
-| [Index](../../aspose.words.drawing.charts/chartdatalabel/index) { get; } | Specifies the index of the containing element. This index shall determine which of the parent's children collection this element applies to. Default value is 0. |
-| [IsHidden](../../aspose.words.drawing.charts/chartdatalabel/ishidden) { get; set; } | Gets/sets a flag indicating whether this label is hidden. The default value is **false**. |
-| [IsVisible](../../aspose.words.drawing.charts/chartdatalabel/isvisible) { get; } | Returns true if this data label has something to display. |
-| [NumberFormat](../../aspose.words.drawing.charts/chartdatalabel/numberformat) { get; } | Returns number format of the parent element. |
-| [Separator](../../aspose.words.drawing.charts/chartdatalabel/separator) { get; set; } | Gets or sets string separator used for the data labels on a chart. The default is a comma, except for pie charts showing only category name and percentage, when a line break shall be used instead. |
-| [ShowBubbleSize](../../aspose.words.drawing.charts/chartdatalabel/showbubblesize) { get; set; } | Allows to specify if bubble size is to be displayed for the data labels on a chart. Applies only to Bubble charts. Default value is false. |
-| [ShowCategoryName](../../aspose.words.drawing.charts/chartdatalabel/showcategoryname) { get; set; } | Allows to specify if category name is to be displayed for the data labels on a chart. Default value is false. |
-| [ShowDataLabelsRange](../../aspose.words.drawing.charts/chartdatalabel/showdatalabelsrange) { get; set; } | Allows to specify if values from data labels range to be displayed in the data labels. Default value is false. |
-| [ShowLeaderLines](../../aspose.words.drawing.charts/chartdatalabel/showleaderlines) { get; set; } | Allows to specify if data label leader lines need be shown. Default value is false. |
-| [ShowLegendKey](../../aspose.words.drawing.charts/chartdatalabel/showlegendkey) { get; set; } | Allows to specify if legend key is to be displayed for the data labels on a chart. Default value is false. |
-| [ShowPercentage](../../aspose.words.drawing.charts/chartdatalabel/showpercentage) { get; set; } | Allows to specify if percentage value is to be displayed for the data labels on a chart. Default value is false. |
-| [ShowSeriesName](../../aspose.words.drawing.charts/chartdatalabel/showseriesname) { get; set; } | Returns or sets a Boolean to indicate the series name display behavior for the data labels on a chart. True to show the series name. False to hide. By default false. |
-| [ShowValue](../../aspose.words.drawing.charts/chartdatalabel/showvalue) { get; set; } | Allows to specify if values are to be displayed in the data labels. Default value is false. |
+| [Index](../../aspose.words.drawing.charts/chartdatalabel/index/) { get; } | Specifies the index of the containing element. This index shall determine which of the parent's children collection this element applies to. Default value is 0. |
+| [IsHidden](../../aspose.words.drawing.charts/chartdatalabel/ishidden/) { get; set; } | Gets/sets a flag indicating whether this label is hidden. The default value is **false**. |
+| [IsVisible](../../aspose.words.drawing.charts/chartdatalabel/isvisible/) { get; } | Returns true if this data label has something to display. |
+| [NumberFormat](../../aspose.words.drawing.charts/chartdatalabel/numberformat/) { get; } | Returns number format of the parent element. |
+| [Separator](../../aspose.words.drawing.charts/chartdatalabel/separator/) { get; set; } | Gets or sets string separator used for the data labels on a chart. The default is a comma, except for pie charts showing only category name and percentage, when a line break shall be used instead. |
+| [ShowBubbleSize](../../aspose.words.drawing.charts/chartdatalabel/showbubblesize/) { get; set; } | Allows to specify if bubble size is to be displayed for the data labels on a chart. Applies only to Bubble charts. Default value is false. |
+| [ShowCategoryName](../../aspose.words.drawing.charts/chartdatalabel/showcategoryname/) { get; set; } | Allows to specify if category name is to be displayed for the data labels on a chart. Default value is false. |
+| [ShowDataLabelsRange](../../aspose.words.drawing.charts/chartdatalabel/showdatalabelsrange/) { get; set; } | Allows to specify if values from data labels range to be displayed in the data labels. Default value is false. |
+| [ShowLeaderLines](../../aspose.words.drawing.charts/chartdatalabel/showleaderlines/) { get; set; } | Allows to specify if data label leader lines need be shown. Default value is false. |
+| [ShowLegendKey](../../aspose.words.drawing.charts/chartdatalabel/showlegendkey/) { get; set; } | Allows to specify if legend key is to be displayed for the data labels on a chart. Default value is false. |
+| [ShowPercentage](../../aspose.words.drawing.charts/chartdatalabel/showpercentage/) { get; set; } | Allows to specify if percentage value is to be displayed for the data labels on a chart. Default value is false. |
+| [ShowSeriesName](../../aspose.words.drawing.charts/chartdatalabel/showseriesname/) { get; set; } | Returns or sets a Boolean to indicate the series name display behavior for the data labels on a chart. True to show the series name. False to hide. By default false. |
+| [ShowValue](../../aspose.words.drawing.charts/chartdatalabel/showvalue/) { get; set; } | Allows to specify if values are to be displayed in the data labels. Default value is false. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [ClearFormat](../../aspose.words.drawing.charts/chartdatalabel/clearformat)() | Clears format of this data label. The properties are set to the default values defined in the parent data label collection. |
+| [ClearFormat](../../aspose.words.drawing.charts/chartdatalabel/clearformat/)() | Clears format of this data label. The properties are set to the default values defined in the parent data label collection. |
 
 ## Remarks
 

@@ -18,11 +18,11 @@ public class ResourceSavingArgs
 
 | Name | Description |
 | --- | --- |
-| [Document](../../aspose.words.saving/resourcesavingargs/document) { get; } | Gets the document object that is currently being saved. |
-| [KeepResourceStreamOpen](../../aspose.words.saving/resourcesavingargs/keepresourcestreamopen) { get; set; } | Specifies whether Aspose.Words should keep the stream open or close it after saving a resource. |
-| [ResourceFileName](../../aspose.words.saving/resourcesavingargs/resourcefilename) { get; set; } | Gets or sets the file name (without path) where the resource will be saved to. |
-| [ResourceFileUri](../../aspose.words.saving/resourcesavingargs/resourcefileuri) { get; set; } | Gets or sets the uniform resource identifier (URI) used to reference the resource file from the document. |
-| [ResourceStream](../../aspose.words.saving/resourcesavingargs/resourcestream) { get; set; } | Allows to specify the stream where the resource will be saved to. |
+| [Document](../../aspose.words.saving/resourcesavingargs/document/) { get; } | Gets the document object that is currently being saved. |
+| [KeepResourceStreamOpen](../../aspose.words.saving/resourcesavingargs/keepresourcestreamopen/) { get; set; } | Specifies whether Aspose.Words should keep the stream open or close it after saving a resource. |
+| [ResourceFileName](../../aspose.words.saving/resourcesavingargs/resourcefilename/) { get; set; } | Gets or sets the file name (without path) where the resource will be saved to. |
+| [ResourceFileUri](../../aspose.words.saving/resourcesavingargs/resourcefileuri/) { get; set; } | Gets or sets the uniform resource identifier (URI) used to reference the resource file from the document. |
+| [ResourceStream](../../aspose.words.saving/resourcesavingargs/resourcestream/) { get; set; } | Allows to specify the stream where the resource will be saved to. |
 
 ## Remarks
 

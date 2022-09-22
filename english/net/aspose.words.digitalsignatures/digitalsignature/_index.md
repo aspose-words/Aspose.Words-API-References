@@ -18,19 +18,19 @@ public class DigitalSignature
 
 | Name | Description |
 | --- | --- |
-| [CertificateHolder](../../aspose.words.digitalsignatures/digitalsignature/certificateholder) { get; } | Returns the certificate holder object that contains the certificate was used to sign the document. |
-| [Comments](../../aspose.words.digitalsignatures/digitalsignature/comments) { get; } | Gets the signing purpose comment. |
-| [IssuerName](../../aspose.words.digitalsignatures/digitalsignature/issuername) { get; } | Returns the subject distinguished name of the certificate isuuer. |
-| [IsValid](../../aspose.words.digitalsignatures/digitalsignature/isvalid) { get; } | Returns true if this digital signature is valid and the document has not been tampered with. |
-| [SignatureType](../../aspose.words.digitalsignatures/digitalsignature/signaturetype) { get; } | Gets the type of the digital signature. |
-| [SignTime](../../aspose.words.digitalsignatures/digitalsignature/signtime) { get; } | Gets the time the document was signed. |
-| [SubjectName](../../aspose.words.digitalsignatures/digitalsignature/subjectname) { get; } | Returns the subject distinguished name of the certificate that was used to sign the document. |
+| [CertificateHolder](../../aspose.words.digitalsignatures/digitalsignature/certificateholder/) { get; } | Returns the certificate holder object that contains the certificate was used to sign the document. |
+| [Comments](../../aspose.words.digitalsignatures/digitalsignature/comments/) { get; } | Gets the signing purpose comment. |
+| [IssuerName](../../aspose.words.digitalsignatures/digitalsignature/issuername/) { get; } | Returns the subject distinguished name of the certificate isuuer. |
+| [IsValid](../../aspose.words.digitalsignatures/digitalsignature/isvalid/) { get; } | Returns true if this digital signature is valid and the document has not been tampered with. |
+| [SignatureType](../../aspose.words.digitalsignatures/digitalsignature/signaturetype/) { get; } | Gets the type of the digital signature. |
+| [SignTime](../../aspose.words.digitalsignatures/digitalsignature/signtime/) { get; } | Gets the time the document was signed. |
+| [SubjectName](../../aspose.words.digitalsignatures/digitalsignature/subjectname/) { get; } | Returns the subject distinguished name of the certificate that was used to sign the document. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [ToString](../../aspose.words.digitalsignatures/digitalsignature/tostring)() | Returns a user-friendly string that displays the value of this object. |
+| override [ToString](../../aspose.words.digitalsignatures/digitalsignature/tostring/)() | Returns a user-friendly string that displays the value of this object. |
 
 ## Examples
 

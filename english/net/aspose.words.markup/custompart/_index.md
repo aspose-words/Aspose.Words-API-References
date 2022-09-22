@@ -24,17 +24,17 @@ public class CustomPart
 
 | Name | Description |
 | --- | --- |
-| [ContentType](../../aspose.words.markup/custompart/contenttype) { get; set; } | Specifies the content type of this custom part. |
-| [Data](../../aspose.words.markup/custompart/data) { get; set; } | Contains the data of this custom part. |
-| [IsExternal](../../aspose.words.markup/custompart/isexternal) { get; set; } | `False` if this custom part is stored inside the OOXML package. `True` if this custom part is an external target. |
-| [Name](../../aspose.words.markup/custompart/name) { get; set; } | Gets or sets this part's absolute name within the OOXML package or the target URL. |
-| [RelationshipType](../../aspose.words.markup/custompart/relationshiptype) { get; set; } | Gets or sets the relationship type from the parent part to this custom part. |
+| [ContentType](../../aspose.words.markup/custompart/contenttype/) { get; set; } | Specifies the content type of this custom part. |
+| [Data](../../aspose.words.markup/custompart/data/) { get; set; } | Contains the data of this custom part. |
+| [IsExternal](../../aspose.words.markup/custompart/isexternal/) { get; set; } | `False` if this custom part is stored inside the OOXML package. `True` if this custom part is an external target. |
+| [Name](../../aspose.words.markup/custompart/name/) { get; set; } | Gets or sets this part's absolute name within the OOXML package or the target URL. |
+| [RelationshipType](../../aspose.words.markup/custompart/relationshiptype/) { get; set; } | Gets or sets the relationship type from the parent part to this custom part. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Clone](../../aspose.words.markup/custompart/clone)() | Makes a "deep enough" copy of the object. Does not duplicate the bytes of the [`Data`](./data/) value. |
+| [Clone](../../aspose.words.markup/custompart/clone/)() | Makes a "deep enough" copy of the object. Does not duplicate the bytes of the [`Data`](./data/) value. |
 
 ## Remarks
 

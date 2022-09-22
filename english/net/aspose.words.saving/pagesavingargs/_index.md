@@ -24,10 +24,10 @@ public class PageSavingArgs
 
 | Name | Description |
 | --- | --- |
-| [KeepPageStreamOpen](../../aspose.words.saving/pagesavingargs/keeppagestreamopen) { get; set; } | Specifies whether Aspose.Words should keep the stream open or close it after saving a document page. |
-| [PageFileName](../../aspose.words.saving/pagesavingargs/pagefilename) { get; set; } | Gets or sets the file name where the document page will be saved to. |
-| [PageIndex](../../aspose.words.saving/pagesavingargs/pageindex) { get; } | Current page index. |
-| [PageStream](../../aspose.words.saving/pagesavingargs/pagestream) { get; set; } | Allows to specify the stream where the document page will be saved to. |
+| [KeepPageStreamOpen](../../aspose.words.saving/pagesavingargs/keeppagestreamopen/) { get; set; } | Specifies whether Aspose.Words should keep the stream open or close it after saving a document page. |
+| [PageFileName](../../aspose.words.saving/pagesavingargs/pagefilename/) { get; set; } | Gets or sets the file name where the document page will be saved to. |
+| [PageIndex](../../aspose.words.saving/pagesavingargs/pageindex/) { get; } | Current page index. |
+| [PageStream](../../aspose.words.saving/pagesavingargs/pagestream/) { get; set; } | Allows to specify the stream where the document page will be saved to. |
 
 ## Examples
 

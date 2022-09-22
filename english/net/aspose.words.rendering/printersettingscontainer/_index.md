@@ -24,9 +24,9 @@ public class PrinterSettingsContainer
 
 | Name | Description |
 | --- | --- |
-| [DefaultPageSettingsPaperSource](../../aspose.words.rendering/printersettingscontainer/defaultpagesettingspapersource) { get; } | See PaperSource of DefaultPageSettings. |
-| [PaperSizes](../../aspose.words.rendering/printersettingscontainer/papersizes) { get; } | See PaperSizes. |
-| [PaperSources](../../aspose.words.rendering/printersettingscontainer/papersources) { get; } | See PaperSources. |
+| [DefaultPageSettingsPaperSource](../../aspose.words.rendering/printersettingscontainer/defaultpagesettingspapersource/) { get; } | See PaperSource of DefaultPageSettings. |
+| [PaperSizes](../../aspose.words.rendering/printersettingscontainer/papersizes/) { get; } | See PaperSizes. |
+| [PaperSources](../../aspose.words.rendering/printersettingscontainer/papersources/) { get; } | See PaperSources. |
 
 ## Remarks
 

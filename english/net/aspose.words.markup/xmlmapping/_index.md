@@ -18,18 +18,18 @@ public class XmlMapping
 
 | Name | Description |
 | --- | --- |
-| [CustomXmlPart](../../aspose.words.markup/xmlmapping/customxmlpart) { get; } | Returns the custom XML data part to which the parent structured document tag is mapped. |
-| [IsMapped](../../aspose.words.markup/xmlmapping/ismapped) { get; } | Returns **true** if the parent structured document tag is successfully mapped to XML data. |
-| [PrefixMappings](../../aspose.words.markup/xmlmapping/prefixmappings) { get; } | Returns XML namespace prefix mappings to evaluate the [`XPath`](./xpath/). |
-| [StoreItemId](../../aspose.words.markup/xmlmapping/storeitemid) { get; } | Specifies the custom XML data identifier for the custom XML data part which shall be used to evaluate the [`XPath`](./xpath/) expression. |
-| [XPath](../../aspose.words.markup/xmlmapping/xpath) { get; } | Returns the XPath expression, which is evaluated to find the custom XML node that is mapped to the parent structured document tag. |
+| [CustomXmlPart](../../aspose.words.markup/xmlmapping/customxmlpart/) { get; } | Returns the custom XML data part to which the parent structured document tag is mapped. |
+| [IsMapped](../../aspose.words.markup/xmlmapping/ismapped/) { get; } | Returns **true** if the parent structured document tag is successfully mapped to XML data. |
+| [PrefixMappings](../../aspose.words.markup/xmlmapping/prefixmappings/) { get; } | Returns XML namespace prefix mappings to evaluate the [`XPath`](./xpath/). |
+| [StoreItemId](../../aspose.words.markup/xmlmapping/storeitemid/) { get; } | Specifies the custom XML data identifier for the custom XML data part which shall be used to evaluate the [`XPath`](./xpath/) expression. |
+| [XPath](../../aspose.words.markup/xmlmapping/xpath/) { get; } | Returns the XPath expression, which is evaluated to find the custom XML node that is mapped to the parent structured document tag. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Delete](../../aspose.words.markup/xmlmapping/delete)() | Deletes mapping of the parent structured document to XML data. |
-| [SetMapping](../../aspose.words.markup/xmlmapping/setmapping)(CustomXmlPart, string, string) | Sets a mapping between the parent structured document tag and an XML node of a custom XML data part. |
+| [Delete](../../aspose.words.markup/xmlmapping/delete/)() | Deletes mapping of the parent structured document to XML data. |
+| [SetMapping](../../aspose.words.markup/xmlmapping/setmapping/)(CustomXmlPart, string, string) | Sets a mapping between the parent structured document tag and an XML node of a custom XML data part. |
 
 ## Examples
 

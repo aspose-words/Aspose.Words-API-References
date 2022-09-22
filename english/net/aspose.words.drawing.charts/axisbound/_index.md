@@ -26,17 +26,17 @@ public sealed class AxisBound
 
 | Name | Description |
 | --- | --- |
-| [IsAuto](../../aspose.words.drawing.charts/axisbound/isauto) { get; } | Returns a flag indicating that axis bound should be determined automatically. |
-| [Value](../../aspose.words.drawing.charts/axisbound/value) { get; } | Returns numeric value of axis bound. |
-| [ValueAsDate](../../aspose.words.drawing.charts/axisbound/valueasdate) { get; } | Returns value of axis bound represented as datetime. |
+| [IsAuto](../../aspose.words.drawing.charts/axisbound/isauto/) { get; } | Returns a flag indicating that axis bound should be determined automatically. |
+| [Value](../../aspose.words.drawing.charts/axisbound/value/) { get; } | Returns numeric value of axis bound. |
+| [ValueAsDate](../../aspose.words.drawing.charts/axisbound/valueasdate/) { get; } | Returns value of axis bound represented as datetime. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [Equals](../../aspose.words.drawing.charts/axisbound/equals)(object) | Determines whether the specified object is equal in value to the current object. |
-| override [GetHashCode](../../aspose.words.drawing.charts/axisbound/gethashcode)() | Serves as a hash function for this type. |
-| override [ToString](../../aspose.words.drawing.charts/axisbound/tostring)() | Returns a user-friendly string that displays the value of this object. |
+| override [Equals](../../aspose.words.drawing.charts/axisbound/equals/)(object) | Determines whether the specified object is equal in value to the current object. |
+| override [GetHashCode](../../aspose.words.drawing.charts/axisbound/gethashcode/)() | Serves as a hash function for this type. |
+| override [ToString](../../aspose.words.drawing.charts/axisbound/tostring/)() | Returns a user-friendly string that displays the value of this object. |
 
 ## Remarks
 

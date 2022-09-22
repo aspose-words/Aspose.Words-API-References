@@ -18,19 +18,19 @@ public class ListCollection : IEnumerable<List>
 
 | Name | Description |
 | --- | --- |
-| [Count](../../aspose.words.lists/listcollection/count) { get; } | Gets the count of numbered and bulleted lists in the document. |
-| [Document](../../aspose.words.lists/listcollection/document) { get; } | Gets the owner document. |
-| [Item](../../aspose.words.lists/listcollection/item) { get; } | Gets a list by index. |
+| [Count](../../aspose.words.lists/listcollection/count/) { get; } | Gets the count of numbered and bulleted lists in the document. |
+| [Document](../../aspose.words.lists/listcollection/document/) { get; } | Gets the owner document. |
+| [Item](../../aspose.words.lists/listcollection/item/) { get; } | Gets a list by index. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Add](../../aspose.words.lists/listcollection/add#add)(ListTemplate) | Creates a new list based on a predefined template and adds it to the collection of lists in the document. |
-| [Add](../../aspose.words.lists/listcollection/add#add_1)(Style) | Creates a new list that references a list style and adds it to the collection of lists in the document. |
-| [AddCopy](../../aspose.words.lists/listcollection/addcopy)(List) | Creates a new list by copying the specified list and adding it to the collection of lists in the document. |
-| [GetEnumerator](../../aspose.words.lists/listcollection/getenumerator)() | Gets the enumerator object that will enumerate lists in the document. |
-| [GetListByListId](../../aspose.words.lists/listcollection/getlistbylistid)(int) | Gets a list by a list identifier. |
+| [Add](../../aspose.words.lists/listcollection/add/#add)(ListTemplate) | Creates a new list based on a predefined template and adds it to the collection of lists in the document. |
+| [Add](../../aspose.words.lists/listcollection/add/#add_1)(Style) | Creates a new list that references a list style and adds it to the collection of lists in the document. |
+| [AddCopy](../../aspose.words.lists/listcollection/addcopy/)(List) | Creates a new list by copying the specified list and adding it to the collection of lists in the document. |
+| [GetEnumerator](../../aspose.words.lists/listcollection/getenumerator/)() | Gets the enumerator object that will enumerate lists in the document. |
+| [GetListByListId](../../aspose.words.lists/listcollection/getlistbylistid/)(int) | Gets a list by a list identifier. |
 
 ## Remarks
 

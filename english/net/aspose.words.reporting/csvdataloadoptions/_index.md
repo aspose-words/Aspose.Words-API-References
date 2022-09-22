@@ -25,10 +25,10 @@ public class CsvDataLoadOptions
 
 | Name | Description |
 | --- | --- |
-| [CommentChar](../../aspose.words.reporting/csvdataloadoptions/commentchar) { get; set; } | Gets or sets the character that is used to comment lines of CSV data. |
-| [Delimiter](../../aspose.words.reporting/csvdataloadoptions/delimiter) { get; set; } | Gets or sets the character to be used as a column delimiter. |
-| [HasHeaders](../../aspose.words.reporting/csvdataloadoptions/hasheaders) { get; set; } | Gets or sets a value indicating whether the first record of CSV data contains column names. |
-| [QuoteChar](../../aspose.words.reporting/csvdataloadoptions/quotechar) { get; set; } | Gets or sets the character that is used to quote field values. |
+| [CommentChar](../../aspose.words.reporting/csvdataloadoptions/commentchar/) { get; set; } | Gets or sets the character that is used to comment lines of CSV data. |
+| [Delimiter](../../aspose.words.reporting/csvdataloadoptions/delimiter/) { get; set; } | Gets or sets the character to be used as a column delimiter. |
+| [HasHeaders](../../aspose.words.reporting/csvdataloadoptions/hasheaders/) { get; set; } | Gets or sets a value indicating whether the first record of CSV data contains column names. |
+| [QuoteChar](../../aspose.words.reporting/csvdataloadoptions/quotechar/) { get; set; } | Gets or sets the character that is used to quote field values. |
 
 ## Remarks
 

@@ -18,24 +18,24 @@ public class List : IComparable<List>
 
 | Name | Description |
 | --- | --- |
-| [Document](../../aspose.words.lists/list/document) { get; } | Gets the owner document. |
-| [IsListStyleDefinition](../../aspose.words.lists/list/isliststyledefinition) { get; } | Returns true if this list is a definition of a list style. |
-| [IsListStyleReference](../../aspose.words.lists/list/isliststylereference) { get; } | Returns true if this list is a reference to a list style. |
-| [IsMultiLevel](../../aspose.words.lists/list/ismultilevel) { get; } | Returns true when the list contains 9 levels; false when 1 level. |
-| [IsRestartAtEachSection](../../aspose.words.lists/list/isrestartateachsection) { get; set; } | Specifies whether list should be restarted at each section. Default value is **false**. |
-| [ListId](../../aspose.words.lists/list/listid) { get; } | Gets the unique identifier of the list. |
-| [ListLevels](../../aspose.words.lists/list/listlevels) { get; } | Gets the collection of list levels for this list. |
-| [Style](../../aspose.words.lists/list/style) { get; } | Gets the list style that this list references or defines. |
+| [Document](../../aspose.words.lists/list/document/) { get; } | Gets the owner document. |
+| [IsListStyleDefinition](../../aspose.words.lists/list/isliststyledefinition/) { get; } | Returns true if this list is a definition of a list style. |
+| [IsListStyleReference](../../aspose.words.lists/list/isliststylereference/) { get; } | Returns true if this list is a reference to a list style. |
+| [IsMultiLevel](../../aspose.words.lists/list/ismultilevel/) { get; } | Returns true when the list contains 9 levels; false when 1 level. |
+| [IsRestartAtEachSection](../../aspose.words.lists/list/isrestartateachsection/) { get; set; } | Specifies whether list should be restarted at each section. Default value is **false**. |
+| [ListId](../../aspose.words.lists/list/listid/) { get; } | Gets the unique identifier of the list. |
+| [ListLevels](../../aspose.words.lists/list/listlevels/) { get; } | Gets the collection of list levels for this list. |
+| [Style](../../aspose.words.lists/list/style/) { get; } | Gets the list style that this list references or defines. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [CompareTo](../../aspose.words.lists/list/compareto#compareto)(List) | Compares the specified list to the current list. |
-| [CompareTo](../../aspose.words.lists/list/compareto#compareto_1)(object) | Compares the specified object to the current object. |
-| [Equals](../../aspose.words.lists/list/equals#equals)(List) | Compares with the specified list. |
-| override [Equals](../../aspose.words.lists/list/equals#equals_1)(object) |  |
-| override [GetHashCode](../../aspose.words.lists/list/gethashcode)() | Calculates hash code for this list object. |
+| [CompareTo](../../aspose.words.lists/list/compareto/#compareto)(List) | Compares the specified list to the current list. |
+| [CompareTo](../../aspose.words.lists/list/compareto/#compareto_1)(object) | Compares the specified object to the current object. |
+| [Equals](../../aspose.words.lists/list/equals/#equals)(List) | Compares with the specified list. |
+| override [Equals](../../aspose.words.lists/list/equals/#equals_1)(object) |  |
+| override [GetHashCode](../../aspose.words.lists/list/gethashcode/)() | Calculates hash code for this list object. |
 
 ## Remarks
 

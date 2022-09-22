@@ -24,23 +24,23 @@ public class BarcodeParameters
 
 | Name | Description |
 | --- | --- |
-| [AddStartStopChar](../../aspose.words.fields/barcodeparameters/addstartstopchar) { get; set; } | Whether to add Start/Stop characters for barcode types NW7 and CODE39. |
-| [BackgroundColor](../../aspose.words.fields/barcodeparameters/backgroundcolor) { get; set; } | Bar code background color (0x000000 - 0xFFFFFF) |
-| [BarcodeType](../../aspose.words.fields/barcodeparameters/barcodetype) { get; set; } | Bar code type. |
-| [BarcodeValue](../../aspose.words.fields/barcodeparameters/barcodevalue) { get; set; } | Data to be encoded. |
-| [CaseCodeStyle](../../aspose.words.fields/barcodeparameters/casecodestyle) { get; set; } | Style of a Case Code for barcode type ITF14. The valid values are [STD&#x7C;EXT&#x7C;ADD] |
-| [DisplayText](../../aspose.words.fields/barcodeparameters/displaytext) { get; set; } | Whether to display barcode data (text) along with image. |
-| [ErrorCorrectionLevel](../../aspose.words.fields/barcodeparameters/errorcorrectionlevel) { get; set; } | Error correction level of QR Code. Valid values are [0, 3]. |
-| [FacingIdentificationMark](../../aspose.words.fields/barcodeparameters/facingidentificationmark) { get; set; } | Type of a Facing Identification Mark (FIM). |
-| [FixCheckDigit](../../aspose.words.fields/barcodeparameters/fixcheckdigit) { get; set; } | Whether to fix the check digit if it’s invalid. |
-| [ForegroundColor](../../aspose.words.fields/barcodeparameters/foregroundcolor) { get; set; } | Bar code foreground color (0x000000 - 0xFFFFFF) |
-| [IsBookmark](../../aspose.words.fields/barcodeparameters/isbookmark) { get; set; } | Whether [`PostalAddress`](./postaladdress/) is the name of a bookmark. |
-| [IsUSPostalAddress](../../aspose.words.fields/barcodeparameters/isuspostaladdress) { get; set; } | Whether [`PostalAddress`](./postaladdress/) is a U.S. postal address. |
-| [PosCodeStyle](../../aspose.words.fields/barcodeparameters/poscodestyle) { get; set; } | Style of a Point of Sale barcode (barcode types UPCA&#x7C;UPCE&#x7C;EAN13&#x7C;EAN8). The valid values (case insensitive) are [STD&#x7C;SUP2&#x7C;SUP5&#x7C;CASE]. |
-| [PostalAddress](../../aspose.words.fields/barcodeparameters/postaladdress) { get; set; } | Barcode postal address. |
-| [ScalingFactor](../../aspose.words.fields/barcodeparameters/scalingfactor) { get; set; } | Scaling factor for the symbol. The value is in whole percentage points and the valid values are [10, 1000]. |
-| [SymbolHeight](../../aspose.words.fields/barcodeparameters/symbolheight) { get; set; } | Bar code image height (in twips - 1/1440 inches) |
-| [SymbolRotation](../../aspose.words.fields/barcodeparameters/symbolrotation) { get; set; } | Rotation of the barcode symbol. Valid values are [0, 3]. |
+| [AddStartStopChar](../../aspose.words.fields/barcodeparameters/addstartstopchar/) { get; set; } | Whether to add Start/Stop characters for barcode types NW7 and CODE39. |
+| [BackgroundColor](../../aspose.words.fields/barcodeparameters/backgroundcolor/) { get; set; } | Bar code background color (0x000000 - 0xFFFFFF) |
+| [BarcodeType](../../aspose.words.fields/barcodeparameters/barcodetype/) { get; set; } | Bar code type. |
+| [BarcodeValue](../../aspose.words.fields/barcodeparameters/barcodevalue/) { get; set; } | Data to be encoded. |
+| [CaseCodeStyle](../../aspose.words.fields/barcodeparameters/casecodestyle/) { get; set; } | Style of a Case Code for barcode type ITF14. The valid values are [STD&#x7C;EXT&#x7C;ADD] |
+| [DisplayText](../../aspose.words.fields/barcodeparameters/displaytext/) { get; set; } | Whether to display barcode data (text) along with image. |
+| [ErrorCorrectionLevel](../../aspose.words.fields/barcodeparameters/errorcorrectionlevel/) { get; set; } | Error correction level of QR Code. Valid values are [0, 3]. |
+| [FacingIdentificationMark](../../aspose.words.fields/barcodeparameters/facingidentificationmark/) { get; set; } | Type of a Facing Identification Mark (FIM). |
+| [FixCheckDigit](../../aspose.words.fields/barcodeparameters/fixcheckdigit/) { get; set; } | Whether to fix the check digit if it’s invalid. |
+| [ForegroundColor](../../aspose.words.fields/barcodeparameters/foregroundcolor/) { get; set; } | Bar code foreground color (0x000000 - 0xFFFFFF) |
+| [IsBookmark](../../aspose.words.fields/barcodeparameters/isbookmark/) { get; set; } | Whether [`PostalAddress`](./postaladdress/) is the name of a bookmark. |
+| [IsUSPostalAddress](../../aspose.words.fields/barcodeparameters/isuspostaladdress/) { get; set; } | Whether [`PostalAddress`](./postaladdress/) is a U.S. postal address. |
+| [PosCodeStyle](../../aspose.words.fields/barcodeparameters/poscodestyle/) { get; set; } | Style of a Point of Sale barcode (barcode types UPCA&#x7C;UPCE&#x7C;EAN13&#x7C;EAN8). The valid values (case insensitive) are [STD&#x7C;SUP2&#x7C;SUP5&#x7C;CASE]. |
+| [PostalAddress](../../aspose.words.fields/barcodeparameters/postaladdress/) { get; set; } | Barcode postal address. |
+| [ScalingFactor](../../aspose.words.fields/barcodeparameters/scalingfactor/) { get; set; } | Scaling factor for the symbol. The value is in whole percentage points and the valid values are [10, 1000]. |
+| [SymbolHeight](../../aspose.words.fields/barcodeparameters/symbolheight/) { get; set; } | Bar code image height (in twips - 1/1440 inches) |
+| [SymbolRotation](../../aspose.words.fields/barcodeparameters/symbolrotation/) { get; set; } | Rotation of the barcode symbol. Valid values are [0, 3]. |
 
 ## Remarks
 

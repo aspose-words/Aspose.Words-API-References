@@ -18,7 +18,7 @@ public interface IMailMergeCallback
 
 | Name | Description |
 | --- | --- |
-| [TagsReplaced](../../aspose.words.mailmerging/imailmergecallback/tagsreplaced)() | Called when "mustache" text tags are replaced with MERGEFIELD fields. |
+| [TagsReplaced](../../aspose.words.mailmerging/imailmergecallback/tagsreplaced/)() | Called when "mustache" text tags are replaced with MERGEFIELD fields. |
 
 ## Examples
 

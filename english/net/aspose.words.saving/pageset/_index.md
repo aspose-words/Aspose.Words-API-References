@@ -26,9 +26,9 @@ public sealed class PageSet
 
 | Name | Description |
 | --- | --- |
-| static [All](../../aspose.words.saving/pageset/all) { get; } | Gets a set with all the pages of the document in their original order. |
-| static [Even](../../aspose.words.saving/pageset/even) { get; } | Gets a set with all the even pages of the document in their original order. |
-| static [Odd](../../aspose.words.saving/pageset/odd) { get; } | Gets a set with all the odd pages of the document in their original order. |
+| static [All](../../aspose.words.saving/pageset/all/) { get; } | Gets a set with all the pages of the document in their original order. |
+| static [Even](../../aspose.words.saving/pageset/even/) { get; } | Gets a set with all the even pages of the document in their original order. |
+| static [Odd](../../aspose.words.saving/pageset/odd/) { get; } | Gets a set with all the odd pages of the document in their original order. |
 
 ### See Also
 

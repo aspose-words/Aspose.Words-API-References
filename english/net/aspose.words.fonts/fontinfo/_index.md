@@ -18,20 +18,20 @@ public class FontInfo
 
 | Name | Description |
 | --- | --- |
-| [AltName](../../aspose.words.fonts/fontinfo/altname) { get; set; } | Gets or sets the alternate name for the font. |
-| [Charset](../../aspose.words.fonts/fontinfo/charset) { get; set; } | Gets or sets the character set for the font. |
-| [Family](../../aspose.words.fonts/fontinfo/family) { get; set; } | Gets or sets the font family this font belongs to. |
-| [IsTrueType](../../aspose.words.fonts/fontinfo/istruetype) { get; set; } | Indicates that this font is a TrueType or OpenType font as opposed to a raster or vector font. Default is true. |
-| [Name](../../aspose.words.fonts/fontinfo/name) { get; } | Gets the name of the font. |
-| [Panose](../../aspose.words.fonts/fontinfo/panose) { get; set; } | Gets or sets the PANOSE typeface classification number. |
-| [Pitch](../../aspose.words.fonts/fontinfo/pitch) { get; set; } | The pitch indicates if the font is fixed pitch, proportionally spaced, or relies on a default setting. |
+| [AltName](../../aspose.words.fonts/fontinfo/altname/) { get; set; } | Gets or sets the alternate name for the font. |
+| [Charset](../../aspose.words.fonts/fontinfo/charset/) { get; set; } | Gets or sets the character set for the font. |
+| [Family](../../aspose.words.fonts/fontinfo/family/) { get; set; } | Gets or sets the font family this font belongs to. |
+| [IsTrueType](../../aspose.words.fonts/fontinfo/istruetype/) { get; set; } | Indicates that this font is a TrueType or OpenType font as opposed to a raster or vector font. Default is true. |
+| [Name](../../aspose.words.fonts/fontinfo/name/) { get; } | Gets the name of the font. |
+| [Panose](../../aspose.words.fonts/fontinfo/panose/) { get; set; } | Gets or sets the PANOSE typeface classification number. |
+| [Pitch](../../aspose.words.fonts/fontinfo/pitch/) { get; set; } | The pitch indicates if the font is fixed pitch, proportionally spaced, or relies on a default setting. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [GetEmbeddedFont](../../aspose.words.fonts/fontinfo/getembeddedfont)(EmbeddedFontFormat, EmbeddedFontStyle) | Gets a specific embedded font file. |
-| [GetEmbeddedFontAsOpenType](../../aspose.words.fonts/fontinfo/getembeddedfontasopentype)(EmbeddedFontStyle) | Gets an embedded font file in OpenType format. Fonts in Embedded OpenType format are converted to OpenType. |
+| [GetEmbeddedFont](../../aspose.words.fonts/fontinfo/getembeddedfont/)(EmbeddedFontFormat, EmbeddedFontStyle) | Gets a specific embedded font file. |
+| [GetEmbeddedFontAsOpenType](../../aspose.words.fonts/fontinfo/getembeddedfontasopentype/)(EmbeddedFontStyle) | Gets an embedded font file in OpenType format. Fonts in Embedded OpenType format are converted to OpenType. |
 
 ## Remarks
 

@@ -18,14 +18,14 @@ public class FieldMergingArgs : FieldMergingArgsBase
 
 | Name | Description |
 | --- | --- |
-| [Document](../../aspose.words.mailmerging/fieldmergingargsbase/document) { get; } | Returns the [`Document`](../fieldmergingargsbase/document/) object for which the mail merge is performed. |
-| [DocumentFieldName](../../aspose.words.mailmerging/fieldmergingargsbase/documentfieldname) { get; } | Gets the name of the merge field as specified in the document. |
-| [Field](../../aspose.words.mailmerging/fieldmergingargsbase/field) { get; } | Gets the object that represents the current merge field. |
-| [FieldName](../../aspose.words.mailmerging/fieldmergingargsbase/fieldname) { get; } | Gets the name of the merge field in the data source. |
-| [FieldValue](../../aspose.words.mailmerging/fieldmergingargsbase/fieldvalue) { get; set; } | Gets or sets the value of the field from the data source. |
-| [RecordIndex](../../aspose.words.mailmerging/fieldmergingargsbase/recordindex) { get; } | Gets the zero based index of the record that is being merged. |
-| [TableName](../../aspose.words.mailmerging/fieldmergingargsbase/tablename) { get; } | Gets the name of the data table for the current merge operation or empty string if the name is not available. |
-| [Text](../../aspose.words.mailmerging/fieldmergingargs/text) { get; set; } | Gets or sets the text that will be inserted into the document for the current merge field. |
+| [Document](../../aspose.words.mailmerging/fieldmergingargsbase/document/) { get; } | Returns the [`Document`](../fieldmergingargsbase/document/) object for which the mail merge is performed. |
+| [DocumentFieldName](../../aspose.words.mailmerging/fieldmergingargsbase/documentfieldname/) { get; } | Gets the name of the merge field as specified in the document. |
+| [Field](../../aspose.words.mailmerging/fieldmergingargsbase/field/) { get; } | Gets the object that represents the current merge field. |
+| [FieldName](../../aspose.words.mailmerging/fieldmergingargsbase/fieldname/) { get; } | Gets the name of the merge field in the data source. |
+| [FieldValue](../../aspose.words.mailmerging/fieldmergingargsbase/fieldvalue/) { get; set; } | Gets or sets the value of the field from the data source. |
+| [RecordIndex](../../aspose.words.mailmerging/fieldmergingargsbase/recordindex/) { get; } | Gets the zero based index of the record that is being merged. |
+| [TableName](../../aspose.words.mailmerging/fieldmergingargsbase/tablename/) { get; } | Gets the name of the data table for the current merge operation or empty string if the name is not available. |
+| [Text](../../aspose.words.mailmerging/fieldmergingargs/text/) { get; set; } | Gets or sets the text that will be inserted into the document for the current merge field. |
 
 ## Remarks
 

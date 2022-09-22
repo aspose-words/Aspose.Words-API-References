@@ -18,16 +18,16 @@ public class CertificateHolder
 
 | Name | Description |
 | --- | --- |
-| [Certificate](../../aspose.words.digitalsignatures/certificateholder/certificate) { get; } | Returns the instance of **X509Certificate2** which holds private, public keys and certificate chain. |
+| [Certificate](../../aspose.words.digitalsignatures/certificateholder/certificate/) { get; } | Returns the instance of **X509Certificate2** which holds private, public keys and certificate chain. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| static [Create](../../aspose.words.digitalsignatures/certificateholder/create#create)(byte[], SecureString) | Creates CertificateHolder object using byte array of PKCS12 store and its password. |
-| static [Create](../../aspose.words.digitalsignatures/certificateholder/create#create_1)(byte[], string) | Creates CertificateHolder object using byte array of PKCS12 store and its password. |
-| static [Create](../../aspose.words.digitalsignatures/certificateholder/create#create_2)(string, string) | Creates CertificateHolder object using path to PKCS12 store and its password. |
-| static [Create](../../aspose.words.digitalsignatures/certificateholder/create#create_3)(string, string, string) | Creates CertificateHolder object using path to PKCS12 store, its password and the alias by using which private key and certificate will be found. |
+| static [Create](../../aspose.words.digitalsignatures/certificateholder/create/#create)(byte[], SecureString) | Creates CertificateHolder object using byte array of PKCS12 store and its password. |
+| static [Create](../../aspose.words.digitalsignatures/certificateholder/create/#create_1)(byte[], string) | Creates CertificateHolder object using byte array of PKCS12 store and its password. |
+| static [Create](../../aspose.words.digitalsignatures/certificateholder/create/#create_2)(string, string) | Creates CertificateHolder object using path to PKCS12 store and its password. |
+| static [Create](../../aspose.words.digitalsignatures/certificateholder/create/#create_3)(string, string, string) | Creates CertificateHolder object using path to PKCS12 store, its password and the alias by using which private key and certificate will be found. |
 
 ## Remarks
 

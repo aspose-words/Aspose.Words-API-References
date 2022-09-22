@@ -18,24 +18,24 @@ public abstract class NodeRendererBase
 
 | Name | Description |
 | --- | --- |
-| [BoundsInPoints](../../aspose.words.rendering/noderendererbase/boundsinpoints) { get; } | Gets the actual bounds of the shape in points. |
-| [OpaqueBoundsInPoints](../../aspose.words.rendering/noderendererbase/opaqueboundsinpoints) { get; } | Gets the opaque bounds of the shape in points. |
-| [SizeInPoints](../../aspose.words.rendering/noderendererbase/sizeinpoints) { get; } | Gets the actual size of the shape in points. |
+| [BoundsInPoints](../../aspose.words.rendering/noderendererbase/boundsinpoints/) { get; } | Gets the actual bounds of the shape in points. |
+| [OpaqueBoundsInPoints](../../aspose.words.rendering/noderendererbase/opaqueboundsinpoints/) { get; } | Gets the opaque bounds of the shape in points. |
+| [SizeInPoints](../../aspose.words.rendering/noderendererbase/sizeinpoints/) { get; } | Gets the actual size of the shape in points. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [GetBoundsInPixels](../../aspose.words.rendering/noderendererbase/getboundsinpixels#getboundsinpixels)(float, float) | Calculates the bounds of the shape in pixels for a specified zoom factor and resolution. |
-| [GetBoundsInPixels](../../aspose.words.rendering/noderendererbase/getboundsinpixels#getboundsinpixels_1)(float, float, float) | Calculates the bounds of the shape in pixels for a specified zoom factor and resolution. |
-| [GetOpaqueBoundsInPixels](../../aspose.words.rendering/noderendererbase/getopaqueboundsinpixels#getopaqueboundsinpixels)(float, float) | Calculates the opaque bounds of the shape in pixels for a specified zoom factor and resolution. |
-| [GetOpaqueBoundsInPixels](../../aspose.words.rendering/noderendererbase/getopaqueboundsinpixels#getopaqueboundsinpixels_1)(float, float, float) | Calculates the opaque bounds of the shape in pixels for a specified zoom factor and resolution. |
-| [GetSizeInPixels](../../aspose.words.rendering/noderendererbase/getsizeinpixels#getsizeinpixels)(float, float) | Calculates the size of the shape in pixels for a specified zoom factor and resolution. |
-| [GetSizeInPixels](../../aspose.words.rendering/noderendererbase/getsizeinpixels#getsizeinpixels_1)(float, float, float) | Calculates the size of the shape in pixels for a specified zoom factor and resolution. |
-| [RenderToScale](../../aspose.words.rendering/noderendererbase/rendertoscale)(Graphics, float, float, float) | Renders the shape into a Graphics object to a specified scale. |
-| [RenderToSize](../../aspose.words.rendering/noderendererbase/rendertosize)(Graphics, float, float, float, float) | Renders the shape into a Graphics object to a specified size. |
-| [Save](../../aspose.words.rendering/noderendererbase/save#save)(Stream, ImageSaveOptions) | Renders the shape into an image and saves into a stream. |
-| [Save](../../aspose.words.rendering/noderendererbase/save#save_1)(string, ImageSaveOptions) | Renders the shape into an image and saves into a file. |
+| [GetBoundsInPixels](../../aspose.words.rendering/noderendererbase/getboundsinpixels/#getboundsinpixels)(float, float) | Calculates the bounds of the shape in pixels for a specified zoom factor and resolution. |
+| [GetBoundsInPixels](../../aspose.words.rendering/noderendererbase/getboundsinpixels/#getboundsinpixels_1)(float, float, float) | Calculates the bounds of the shape in pixels for a specified zoom factor and resolution. |
+| [GetOpaqueBoundsInPixels](../../aspose.words.rendering/noderendererbase/getopaqueboundsinpixels/#getopaqueboundsinpixels)(float, float) | Calculates the opaque bounds of the shape in pixels for a specified zoom factor and resolution. |
+| [GetOpaqueBoundsInPixels](../../aspose.words.rendering/noderendererbase/getopaqueboundsinpixels/#getopaqueboundsinpixels_1)(float, float, float) | Calculates the opaque bounds of the shape in pixels for a specified zoom factor and resolution. |
+| [GetSizeInPixels](../../aspose.words.rendering/noderendererbase/getsizeinpixels/#getsizeinpixels)(float, float) | Calculates the size of the shape in pixels for a specified zoom factor and resolution. |
+| [GetSizeInPixels](../../aspose.words.rendering/noderendererbase/getsizeinpixels/#getsizeinpixels_1)(float, float, float) | Calculates the size of the shape in pixels for a specified zoom factor and resolution. |
+| [RenderToScale](../../aspose.words.rendering/noderendererbase/rendertoscale/)(Graphics, float, float, float) | Renders the shape into a Graphics object to a specified scale. |
+| [RenderToSize](../../aspose.words.rendering/noderendererbase/rendertosize/)(Graphics, float, float, float, float) | Renders the shape into a Graphics object to a specified size. |
+| [Save](../../aspose.words.rendering/noderendererbase/save/#save)(Stream, ImageSaveOptions) | Renders the shape into an image and saves into a stream. |
+| [Save](../../aspose.words.rendering/noderendererbase/save/#save_1)(string, ImageSaveOptions) | Renders the shape into an image and saves into a file. |
 
 ## Examples
 

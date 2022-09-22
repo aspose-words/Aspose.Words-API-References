@@ -24,33 +24,33 @@ public class FieldHyperlink : Field
 
 | Name | Description |
 | --- | --- |
-| [Address](../../aspose.words.fields/fieldhyperlink/address) { get; set; } | Gets or sets a location where this hyperlink jumps. |
-| [DisplayResult](../../aspose.words.fields/field/displayresult) { get; } | Gets the text that represents the displayed field result. |
-| [End](../../aspose.words.fields/field/end) { get; } | Gets the node that represents the field end. |
-| [Format](../../aspose.words.fields/field/format) { get; } | Gets a [`FieldFormat`](../fieldformat/) object that provides typed access to field's formatting. |
-| [IsDirty](../../aspose.words.fields/field/isdirty) { get; set; } | Gets or sets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
-| [IsImageMap](../../aspose.words.fields/fieldhyperlink/isimagemap) { get; set; } | Gets or sets whether to append coordinates to the hyperlink for a server-side image map. |
-| [IsLocked](../../aspose.words.fields/field/islocked) { get; set; } | Gets or sets whether the field is locked (should not recalculate its result). |
-| [LocaleId](../../aspose.words.fields/field/localeid) { get; set; } | Gets or sets the LCID of the field. |
-| [OpenInNewWindow](../../aspose.words.fields/fieldhyperlink/openinnewwindow) { get; set; } | Gets or sets whether to open the destination site in a new web browser window. |
-| [Result](../../aspose.words.fields/field/result) { get; set; } | Gets or sets text that is between the field separator and field end. |
-| [ScreenTip](../../aspose.words.fields/fieldhyperlink/screentip) { get; set; } | Gets or sets the ScreenTip text for the hyperlink. |
-| [Separator](../../aspose.words.fields/field/separator) { get; } | Gets the node that represents the field separator. Can be null. |
-| [Start](../../aspose.words.fields/field/start) { get; } | Gets the node that represents the start of the field. |
-| [SubAddress](../../aspose.words.fields/fieldhyperlink/subaddress) { get; set; } | Gets or sets a location in the file, such as a bookmark, where this hyperlink jumps. |
-| [Target](../../aspose.words.fields/fieldhyperlink/target) { get; set; } | Gets or sets the target to which the link should be redirected. |
-| virtual [Type](../../aspose.words.fields/field/type) { get; } | Gets the Microsoft Word field type. |
+| [Address](../../aspose.words.fields/fieldhyperlink/address/) { get; set; } | Gets or sets a location where this hyperlink jumps. |
+| [DisplayResult](../../aspose.words.fields/field/displayresult/) { get; } | Gets the text that represents the displayed field result. |
+| [End](../../aspose.words.fields/field/end/) { get; } | Gets the node that represents the field end. |
+| [Format](../../aspose.words.fields/field/format/) { get; } | Gets a [`FieldFormat`](../fieldformat/) object that provides typed access to field's formatting. |
+| [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | Gets or sets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
+| [IsImageMap](../../aspose.words.fields/fieldhyperlink/isimagemap/) { get; set; } | Gets or sets whether to append coordinates to the hyperlink for a server-side image map. |
+| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | Gets or sets whether the field is locked (should not recalculate its result). |
+| [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | Gets or sets the LCID of the field. |
+| [OpenInNewWindow](../../aspose.words.fields/fieldhyperlink/openinnewwindow/) { get; set; } | Gets or sets whether to open the destination site in a new web browser window. |
+| [Result](../../aspose.words.fields/field/result/) { get; set; } | Gets or sets text that is between the field separator and field end. |
+| [ScreenTip](../../aspose.words.fields/fieldhyperlink/screentip/) { get; set; } | Gets or sets the ScreenTip text for the hyperlink. |
+| [Separator](../../aspose.words.fields/field/separator/) { get; } | Gets the node that represents the field separator. Can be null. |
+| [Start](../../aspose.words.fields/field/start/) { get; } | Gets the node that represents the start of the field. |
+| [SubAddress](../../aspose.words.fields/fieldhyperlink/subaddress/) { get; set; } | Gets or sets a location in the file, such as a bookmark, where this hyperlink jumps. |
+| [Target](../../aspose.words.fields/fieldhyperlink/target/) { get; set; } | Gets or sets the target to which the link should be redirected. |
+| virtual [Type](../../aspose.words.fields/field/type/) { get; } | Gets the Microsoft Word field type. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode)() | Returns text between field start and field separator (or field end if there is no separator). Both field code and field result of child fields are included. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode)(bool) | Returns text between field start and field separator (or field end if there is no separator). |
-| [Remove](../../aspose.words.fields/field/remove)() | Removes the field from the document. Returns a node right after the field. If the field's end is the last child of its parent node, returns its parent paragraph. If the field is already removed, returns **null**. |
-| [Unlink](../../aspose.words.fields/field/unlink)() | Performs the field unlink. |
-| [Update](../../aspose.words.fields/field/update)() | Performs the field update. Throws if the field is being updated already. |
-| [Update](../../aspose.words.fields/field/update)(bool) | Performs a field update. Throws if the field is being updated already. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Returns text between field start and field separator (or field end if there is no separator). Both field code and field result of child fields are included. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Returns text between field start and field separator (or field end if there is no separator). |
+| [Remove](../../aspose.words.fields/field/remove/)() | Removes the field from the document. Returns a node right after the field. If the field's end is the last child of its parent node, returns its parent paragraph. If the field is already removed, returns **null**. |
+| [Unlink](../../aspose.words.fields/field/unlink/)() | Performs the field unlink. |
+| [Update](../../aspose.words.fields/field/update/)() | Performs the field update. Throws if the field is being updated already. |
+| [Update](../../aspose.words.fields/field/update/)(bool) | Performs a field update. Throws if the field is being updated already. |
 
 ## Remarks
 

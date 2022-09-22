@@ -18,7 +18,7 @@ public class FontInfoSubstitutionRule : FontSubstitutionRule
 
 | Name | Description |
 | --- | --- |
-| virtual [Enabled](../../aspose.words.fonts/fontsubstitutionrule/enabled) { get; set; } | Specifies whether the rule is enabled or not. |
+| virtual [Enabled](../../aspose.words.fonts/fontsubstitutionrule/enabled/) { get; set; } | Specifies whether the rule is enabled or not. |
 
 ## Remarks
 

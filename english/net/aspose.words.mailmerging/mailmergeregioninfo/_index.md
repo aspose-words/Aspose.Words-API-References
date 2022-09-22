@@ -18,13 +18,13 @@ public class MailMergeRegionInfo
 
 | Name | Description |
 | --- | --- |
-| [EndField](../../aspose.words.mailmerging/mailmergeregioninfo/endfield) { get; } | Returns an end field for the region. |
-| [Fields](../../aspose.words.mailmerging/mailmergeregioninfo/fields) { get; } | Returns a list of child fields. |
-| [Level](../../aspose.words.mailmerging/mailmergeregioninfo/level) { get; } | Returns the nesting level for the region. |
-| [Name](../../aspose.words.mailmerging/mailmergeregioninfo/name) { get; } | Returns the name of region. |
-| [ParentRegion](../../aspose.words.mailmerging/mailmergeregioninfo/parentregion) { get; } | Returns parent region info (null for top-level region). |
-| [Regions](../../aspose.words.mailmerging/mailmergeregioninfo/regions) { get; } | Returns a list of child regions. |
-| [StartField](../../aspose.words.mailmerging/mailmergeregioninfo/startfield) { get; } | Returns a start field for the region. |
+| [EndField](../../aspose.words.mailmerging/mailmergeregioninfo/endfield/) { get; } | Returns an end field for the region. |
+| [Fields](../../aspose.words.mailmerging/mailmergeregioninfo/fields/) { get; } | Returns a list of child fields. |
+| [Level](../../aspose.words.mailmerging/mailmergeregioninfo/level/) { get; } | Returns the nesting level for the region. |
+| [Name](../../aspose.words.mailmerging/mailmergeregioninfo/name/) { get; } | Returns the name of region. |
+| [ParentRegion](../../aspose.words.mailmerging/mailmergeregioninfo/parentregion/) { get; } | Returns parent region info (null for top-level region). |
+| [Regions](../../aspose.words.mailmerging/mailmergeregioninfo/regions/) { get; } | Returns a list of child regions. |
+| [StartField](../../aspose.words.mailmerging/mailmergeregioninfo/startfield/) { get; } | Returns a start field for the region. |
 
 ## Examples
 

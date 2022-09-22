@@ -18,8 +18,8 @@ public static class BuildVersionInfo
 
 | Name | Description |
 | --- | --- |
-| static [Product](../../aspose.words/buildversioninfo/product) { get; } | Gets the full name of the product. |
-| static [Version](../../aspose.words/buildversioninfo/version) { get; } | Gets the product version. |
+| static [Product](../../aspose.words/buildversioninfo/product/) { get; } | Gets the full name of the product. |
+| static [Version](../../aspose.words/buildversioninfo/version/) { get; } | Gets the product version. |
 
 ## Examples
 

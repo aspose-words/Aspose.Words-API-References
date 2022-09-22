@@ -24,8 +24,8 @@ public class ToaCategories
 
 | Name | Description |
 | --- | --- |
-| static [DefaultCategories](../../aspose.words.fields/toacategories/defaultcategories) { get; } | Gets the default table of authorities categories. |
-| [Item](../../aspose.words.fields/toacategories/item) { get; set; } | Gets or sets the category heading by category number. |
+| static [DefaultCategories](../../aspose.words.fields/toacategories/defaultcategories/) { get; } | Gets the default table of authorities categories. |
+| [Item](../../aspose.words.fields/toacategories/item/) { get; set; } | Gets or sets the category heading by category number. |
 
 ## Examples
 

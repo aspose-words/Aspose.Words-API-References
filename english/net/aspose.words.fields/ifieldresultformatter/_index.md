@@ -18,10 +18,10 @@ public interface IFieldResultFormatter
 
 | Name | Description |
 | --- | --- |
-| [Format](../../aspose.words.fields/ifieldresultformatter/format#format)(double, GeneralFormat) | Called when Aspose.Words applies a number format switch, i.e. \* Ordinal. |
-| [Format](../../aspose.words.fields/ifieldresultformatter/format#format_1)(string, GeneralFormat) | Called when Aspose.Words applies a capitalization format switch, i.e. \* Upper. |
-| [FormatDateTime](../../aspose.words.fields/ifieldresultformatter/formatdatetime)(DateTime, string, CalendarType) | Called when Aspose.Words applies a date/time format switch, i.e. \@ "dd.MM.yyyy". |
-| [FormatNumeric](../../aspose.words.fields/ifieldresultformatter/formatnumeric)(double, string) | Called when Aspose.Words applies a numeric format switch, i.e. \# "#.##". |
+| [Format](../../aspose.words.fields/ifieldresultformatter/format/#format)(double, GeneralFormat) | Called when Aspose.Words applies a number format switch, i.e. \* Ordinal. |
+| [Format](../../aspose.words.fields/ifieldresultformatter/format/#format_1)(string, GeneralFormat) | Called when Aspose.Words applies a capitalization format switch, i.e. \* Upper. |
+| [FormatDateTime](../../aspose.words.fields/ifieldresultformatter/formatdatetime/)(DateTime, string, CalendarType) | Called when Aspose.Words applies a date/time format switch, i.e. \@ "dd.MM.yyyy". |
+| [FormatNumeric](../../aspose.words.fields/ifieldresultformatter/formatnumeric/)(double, string) | Called when Aspose.Words applies a numeric format switch, i.e. \# "#.##". |
 
 ## Examples
 
