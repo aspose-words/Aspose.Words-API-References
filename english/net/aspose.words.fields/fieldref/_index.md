@@ -24,36 +24,36 @@ public class FieldRef : Field
 
 | Name | Description |
 | --- | --- |
-| [BookmarkName](../../aspose.words.fields/fieldref/bookmarkname) { get; set; } | Gets or sets the referenced bookmark's name. |
-| [DisplayResult](../../aspose.words.fields/field/displayresult) { get; } | Gets the text that represents the displayed field result. |
-| [End](../../aspose.words.fields/field/end) { get; } | Gets the node that represents the field end. |
-| [Format](../../aspose.words.fields/field/format) { get; } | Gets a [`FieldFormat`](../fieldformat/) object that provides typed access to field's formatting. |
-| [IncludeNoteOrComment](../../aspose.words.fields/fieldref/includenoteorcomment) { get; set; } | Gets or sets whether to increment footnote, endnote, and annotation numbers that are marked by the bookmark, and insert the corresponding footnote, endnote, and comment text. |
-| [InsertHyperlink](../../aspose.words.fields/fieldref/inserthyperlink) { get; set; } | Gets or sets whether to create a hyperlink to the bookmarked paragraph. |
-| [InsertParagraphNumber](../../aspose.words.fields/fieldref/insertparagraphnumber) { get; set; } | Gets or sets whether to insert the paragraph number of the referenced paragraph exactly as it appears in the document. |
-| [InsertParagraphNumberInFullContext](../../aspose.words.fields/fieldref/insertparagraphnumberinfullcontext) { get; set; } | Gets or sets whether to insert the paragraph number of the referenced paragraph in full context. |
-| [InsertParagraphNumberInRelativeContext](../../aspose.words.fields/fieldref/insertparagraphnumberinrelativecontext) { get; set; } | Gets or sets whether to insert the paragraph number of the referenced paragraph in relative context. |
-| [InsertRelativePosition](../../aspose.words.fields/fieldref/insertrelativeposition) { get; set; } | Gets or sets whether to insert the relative position of the referenced paragraph. |
-| [IsDirty](../../aspose.words.fields/field/isdirty) { get; set; } | Gets or sets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
-| [IsLocked](../../aspose.words.fields/field/islocked) { get; set; } | Gets or sets whether the field is locked (should not recalculate its result). |
-| [LocaleId](../../aspose.words.fields/field/localeid) { get; set; } | Gets or sets the LCID of the field. |
-| [NumberSeparator](../../aspose.words.fields/fieldref/numberseparator) { get; set; } | Gets or sets the character sequence that is used to separate sequence numbers and page numbers. |
-| [Result](../../aspose.words.fields/field/result) { get; set; } | Gets or sets text that is between the field separator and field end. |
-| [Separator](../../aspose.words.fields/field/separator) { get; } | Gets the node that represents the field separator. Can be null. |
-| [Start](../../aspose.words.fields/field/start) { get; } | Gets the node that represents the start of the field. |
-| [SuppressNonDelimiters](../../aspose.words.fields/fieldref/suppressnondelimiters) { get; set; } | Gets or sets whether to suppress non-delimiter characters. |
-| virtual [Type](../../aspose.words.fields/field/type) { get; } | Gets the Microsoft Word field type. |
+| [BookmarkName](../../aspose.words.fields/fieldref/bookmarkname/) { get; set; } | Gets or sets the referenced bookmark's name. |
+| [DisplayResult](../../aspose.words.fields/field/displayresult/) { get; } | Gets the text that represents the displayed field result. |
+| [End](../../aspose.words.fields/field/end/) { get; } | Gets the node that represents the field end. |
+| [Format](../../aspose.words.fields/field/format/) { get; } | Gets a [`FieldFormat`](../fieldformat/) object that provides typed access to field's formatting. |
+| [IncludeNoteOrComment](../../aspose.words.fields/fieldref/includenoteorcomment/) { get; set; } | Gets or sets whether to increment footnote, endnote, and annotation numbers that are marked by the bookmark, and insert the corresponding footnote, endnote, and comment text. |
+| [InsertHyperlink](../../aspose.words.fields/fieldref/inserthyperlink/) { get; set; } | Gets or sets whether to create a hyperlink to the bookmarked paragraph. |
+| [InsertParagraphNumber](../../aspose.words.fields/fieldref/insertparagraphnumber/) { get; set; } | Gets or sets whether to insert the paragraph number of the referenced paragraph exactly as it appears in the document. |
+| [InsertParagraphNumberInFullContext](../../aspose.words.fields/fieldref/insertparagraphnumberinfullcontext/) { get; set; } | Gets or sets whether to insert the paragraph number of the referenced paragraph in full context. |
+| [InsertParagraphNumberInRelativeContext](../../aspose.words.fields/fieldref/insertparagraphnumberinrelativecontext/) { get; set; } | Gets or sets whether to insert the paragraph number of the referenced paragraph in relative context. |
+| [InsertRelativePosition](../../aspose.words.fields/fieldref/insertrelativeposition/) { get; set; } | Gets or sets whether to insert the relative position of the referenced paragraph. |
+| [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | Gets or sets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
+| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | Gets or sets whether the field is locked (should not recalculate its result). |
+| [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | Gets or sets the LCID of the field. |
+| [NumberSeparator](../../aspose.words.fields/fieldref/numberseparator/) { get; set; } | Gets or sets the character sequence that is used to separate sequence numbers and page numbers. |
+| [Result](../../aspose.words.fields/field/result/) { get; set; } | Gets or sets text that is between the field separator and field end. |
+| [Separator](../../aspose.words.fields/field/separator/) { get; } | Gets the node that represents the field separator. Can be null. |
+| [Start](../../aspose.words.fields/field/start/) { get; } | Gets the node that represents the start of the field. |
+| [SuppressNonDelimiters](../../aspose.words.fields/fieldref/suppressnondelimiters/) { get; set; } | Gets or sets whether to suppress non-delimiter characters. |
+| virtual [Type](../../aspose.words.fields/field/type/) { get; } | Gets the Microsoft Word field type. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode)() | Returns text between field start and field separator (or field end if there is no separator). Both field code and field result of child fields are included. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode)(bool) | Returns text between field start and field separator (or field end if there is no separator). |
-| [Remove](../../aspose.words.fields/field/remove)() | Removes the field from the document. Returns a node right after the field. If the field's end is the last child of its parent node, returns its parent paragraph. If the field is already removed, returns **null**. |
-| [Unlink](../../aspose.words.fields/field/unlink)() | Performs the field unlink. |
-| [Update](../../aspose.words.fields/field/update)() | Performs the field update. Throws if the field is being updated already. |
-| [Update](../../aspose.words.fields/field/update)(bool) | Performs a field update. Throws if the field is being updated already. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Returns text between field start and field separator (or field end if there is no separator). Both field code and field result of child fields are included. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Returns text between field start and field separator (or field end if there is no separator). |
+| [Remove](../../aspose.words.fields/field/remove/)() | Removes the field from the document. Returns a node right after the field. If the field's end is the last child of its parent node, returns its parent paragraph. If the field is already removed, returns **null**. |
+| [Unlink](../../aspose.words.fields/field/unlink/)() | Performs the field unlink. |
+| [Update](../../aspose.words.fields/field/update/)() | Performs the field update. Throws if the field is being updated already. |
+| [Update](../../aspose.words.fields/field/update/)(bool) | Performs a field update. Throws if the field is being updated already. |
 
 ## Remarks
 

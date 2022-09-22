@@ -18,26 +18,26 @@ public class TextPath
 
 | Name | Description |
 | --- | --- |
-| [Bold](../../aspose.words.drawing/textpath/bold) { get; set; } | True if the font is formatted as bold. |
-| [FitPath](../../aspose.words.drawing/textpath/fitpath) { get; set; } | Defines whether the text fits the path of a shape. |
-| [FitShape](../../aspose.words.drawing/textpath/fitshape) { get; set; } | Defines whether the text fits bounding box of a shape. |
-| [FontFamily](../../aspose.words.drawing/textpath/fontfamily) { get; set; } | Defines the family of the textpath font. |
-| [Italic](../../aspose.words.drawing/textpath/italic) { get; set; } | True if the font is formatted as italic. |
-| [Kerning](../../aspose.words.drawing/textpath/kerning) { get; set; } | Determines whether kerning is turned on. |
-| [On](../../aspose.words.drawing/textpath/on) { get; set; } | Defines whether the text is displayed. |
-| [ReverseRows](../../aspose.words.drawing/textpath/reverserows) { get; set; } | Determines whether the layout order of rows is reversed. |
-| [RotateLetters](../../aspose.words.drawing/textpath/rotateletters) { get; set; } | Determines whether the letters of the text are rotated. |
-| [SameLetterHeights](../../aspose.words.drawing/textpath/sameletterheights) { get; set; } | Determines whether all letters will be the same height regardless of initial case. |
-| [Shadow](../../aspose.words.drawing/textpath/shadow) { get; set; } | Defines whether a shadow is applied to the text on a text path. |
-| [Size](../../aspose.words.drawing/textpath/size) { get; set; } | Defines the size of the font in points. |
-| [SmallCaps](../../aspose.words.drawing/textpath/smallcaps) { get; set; } | True if the font is formatted as small capital letters. |
-| [Spacing](../../aspose.words.drawing/textpath/spacing) { get; set; } | Defines the amount of spacing for text. 1 means 100%. |
-| [StrikeThrough](../../aspose.words.drawing/textpath/strikethrough) { get; set; } | True if the font is formatted as strikethrough text. |
-| [Text](../../aspose.words.drawing/textpath/text) { get; set; } | Defines the text of the text path. |
-| [TextPathAlignment](../../aspose.words.drawing/textpath/textpathalignment) { get; set; } | Defines the alignment of text. |
-| [Trim](../../aspose.words.drawing/textpath/trim) { get; set; } | Determines whether extra space is removed above and below the text. |
-| [Underline](../../aspose.words.drawing/textpath/underline) { get; set; } | True if the font is underlined. |
-| [XScale](../../aspose.words.drawing/textpath/xscale) { get; set; } | Determines whether a straight textpath will be used instead of the shape path. |
+| [Bold](../../aspose.words.drawing/textpath/bold/) { get; set; } | True if the font is formatted as bold. |
+| [FitPath](../../aspose.words.drawing/textpath/fitpath/) { get; set; } | Defines whether the text fits the path of a shape. |
+| [FitShape](../../aspose.words.drawing/textpath/fitshape/) { get; set; } | Defines whether the text fits bounding box of a shape. |
+| [FontFamily](../../aspose.words.drawing/textpath/fontfamily/) { get; set; } | Defines the family of the textpath font. |
+| [Italic](../../aspose.words.drawing/textpath/italic/) { get; set; } | True if the font is formatted as italic. |
+| [Kerning](../../aspose.words.drawing/textpath/kerning/) { get; set; } | Determines whether kerning is turned on. |
+| [On](../../aspose.words.drawing/textpath/on/) { get; set; } | Defines whether the text is displayed. |
+| [ReverseRows](../../aspose.words.drawing/textpath/reverserows/) { get; set; } | Determines whether the layout order of rows is reversed. |
+| [RotateLetters](../../aspose.words.drawing/textpath/rotateletters/) { get; set; } | Determines whether the letters of the text are rotated. |
+| [SameLetterHeights](../../aspose.words.drawing/textpath/sameletterheights/) { get; set; } | Determines whether all letters will be the same height regardless of initial case. |
+| [Shadow](../../aspose.words.drawing/textpath/shadow/) { get; set; } | Defines whether a shadow is applied to the text on a text path. |
+| [Size](../../aspose.words.drawing/textpath/size/) { get; set; } | Defines the size of the font in points. |
+| [SmallCaps](../../aspose.words.drawing/textpath/smallcaps/) { get; set; } | True if the font is formatted as small capital letters. |
+| [Spacing](../../aspose.words.drawing/textpath/spacing/) { get; set; } | Defines the amount of spacing for text. 1 means 100%. |
+| [StrikeThrough](../../aspose.words.drawing/textpath/strikethrough/) { get; set; } | True if the font is formatted as strikethrough text. |
+| [Text](../../aspose.words.drawing/textpath/text/) { get; set; } | Defines the text of the text path. |
+| [TextPathAlignment](../../aspose.words.drawing/textpath/textpathalignment/) { get; set; } | Defines the alignment of text. |
+| [Trim](../../aspose.words.drawing/textpath/trim/) { get; set; } | Determines whether extra space is removed above and below the text. |
+| [Underline](../../aspose.words.drawing/textpath/underline/) { get; set; } | True if the font is underlined. |
+| [XScale](../../aspose.words.drawing/textpath/xscale/) { get; set; } | Determines whether a straight textpath will be used instead of the shape path. |
 
 ## Remarks
 

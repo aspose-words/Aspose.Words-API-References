@@ -18,15 +18,15 @@ public sealed class VbaModuleCollection : IEnumerable<VbaModule>
 
 | Name | Description |
 | --- | --- |
-| [Count](../../aspose.words.vba/vbamodulecollection/count) { get; } | Returns the number of VBA modules in the collection. |
-| [Item](../../aspose.words.vba/vbamodulecollection/item) { get; } | Retrieves a [`VbaModule`](../vbamodule/) object by index. (2 indexers) |
+| [Count](../../aspose.words.vba/vbamodulecollection/count/) { get; } | Returns the number of VBA modules in the collection. |
+| [Item](../../aspose.words.vba/vbamodulecollection/item/) { get; } | Retrieves a [`VbaModule`](../vbamodule/) object by index. (2 indexers) |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Add](../../aspose.words.vba/vbamodulecollection/add)(VbaModule) | Adds a module to the collection. |
-| [Remove](../../aspose.words.vba/vbamodulecollection/remove)(VbaModule) | Removes the specified module from the collection. |
+| [Add](../../aspose.words.vba/vbamodulecollection/add/)(VbaModule) | Adds a module to the collection. |
+| [Remove](../../aspose.words.vba/vbamodulecollection/remove/)(VbaModule) | Removes the specified module from the collection. |
 
 ## Examples
 

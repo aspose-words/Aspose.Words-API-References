@@ -24,9 +24,9 @@ public class JsonDataLoadOptions
 
 | Name | Description |
 | --- | --- |
-| [AlwaysGenerateRootObject](../../aspose.words.reporting/jsondataloadoptions/alwaysgeneraterootobject) { get; set; } | Gets or sets a flag indicating whether a generated data source will always contain an object for a JSON root element. If a JSON root element contains a single complex property, such an object is not created by default. |
-| [ExactDateTimeParseFormats](../../aspose.words.reporting/jsondataloadoptions/exactdatetimeparseformats) { get; set; } | Gets or sets exact formats for parsing JSON date-time values while loading JSON. The default is **null**. |
-| [SimpleValueParseMode](../../aspose.words.reporting/jsondataloadoptions/simplevalueparsemode) { get; set; } | Gets or sets a mode for parsing JSON simple values (null, boolean, number, integer, and string) while loading JSON. Such a mode does not affect parsing of date-time values. The default is Loose. |
+| [AlwaysGenerateRootObject](../../aspose.words.reporting/jsondataloadoptions/alwaysgeneraterootobject/) { get; set; } | Gets or sets a flag indicating whether a generated data source will always contain an object for a JSON root element. If a JSON root element contains a single complex property, such an object is not created by default. |
+| [ExactDateTimeParseFormats](../../aspose.words.reporting/jsondataloadoptions/exactdatetimeparseformats/) { get; set; } | Gets or sets exact formats for parsing JSON date-time values while loading JSON. The default is **null**. |
+| [SimpleValueParseMode](../../aspose.words.reporting/jsondataloadoptions/simplevalueparsemode/) { get; set; } | Gets or sets a mode for parsing JSON simple values (null, boolean, number, integer, and string) while loading JSON. Such a mode does not affect parsing of date-time values. The default is Loose. |
 
 ## Remarks
 

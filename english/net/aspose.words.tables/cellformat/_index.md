@@ -18,27 +18,27 @@ public class CellFormat
 
 | Name | Description |
 | --- | --- |
-| [Borders](../../aspose.words.tables/cellformat/borders) { get; } | Gets collection of borders of the cell. |
-| [BottomPadding](../../aspose.words.tables/cellformat/bottompadding) { get; set; } | Returns or sets the amount of space (in points) to add below the contents of cell. |
-| [FitText](../../aspose.words.tables/cellformat/fittext) { get; set; } | If true, fits text in the cell, compressing each paragraph to the width of the cell. |
-| [HorizontalMerge](../../aspose.words.tables/cellformat/horizontalmerge) { get; set; } | Specifies how the cell is merged horizontally with other cells in the row. |
-| [LeftPadding](../../aspose.words.tables/cellformat/leftpadding) { get; set; } | Returns or sets the amount of space (in points) to add to the left of the contents of cell. |
-| [Orientation](../../aspose.words.tables/cellformat/orientation) { get; set; } | Returns or sets the orientation of text in a table cell. |
-| [PreferredWidth](../../aspose.words.tables/cellformat/preferredwidth) { get; set; } | Returns or sets the preferred width of the cell. |
-| [RightPadding](../../aspose.words.tables/cellformat/rightpadding) { get; set; } | Returns or sets the amount of space (in points) to add to the right of the contents of cell. |
-| [Shading](../../aspose.words.tables/cellformat/shading) { get; } | Returns a Shading object that refers to the shading formatting for the cell. |
-| [TopPadding](../../aspose.words.tables/cellformat/toppadding) { get; set; } | Returns or sets the amount of space (in points) to add above the contents of cell. |
-| [VerticalAlignment](../../aspose.words.tables/cellformat/verticalalignment) { get; set; } | Returns or sets the vertical alignment of text in the cell. |
-| [VerticalMerge](../../aspose.words.tables/cellformat/verticalmerge) { get; set; } | Specifies how the cell is merged with other cells vertically. |
-| [Width](../../aspose.words.tables/cellformat/width) { get; set; } | Gets the width of the cell in points. |
-| [WrapText](../../aspose.words.tables/cellformat/wraptext) { get; set; } | If true, wrap text for the cell. |
+| [Borders](../../aspose.words.tables/cellformat/borders/) { get; } | Gets collection of borders of the cell. |
+| [BottomPadding](../../aspose.words.tables/cellformat/bottompadding/) { get; set; } | Returns or sets the amount of space (in points) to add below the contents of cell. |
+| [FitText](../../aspose.words.tables/cellformat/fittext/) { get; set; } | If true, fits text in the cell, compressing each paragraph to the width of the cell. |
+| [HorizontalMerge](../../aspose.words.tables/cellformat/horizontalmerge/) { get; set; } | Specifies how the cell is merged horizontally with other cells in the row. |
+| [LeftPadding](../../aspose.words.tables/cellformat/leftpadding/) { get; set; } | Returns or sets the amount of space (in points) to add to the left of the contents of cell. |
+| [Orientation](../../aspose.words.tables/cellformat/orientation/) { get; set; } | Returns or sets the orientation of text in a table cell. |
+| [PreferredWidth](../../aspose.words.tables/cellformat/preferredwidth/) { get; set; } | Returns or sets the preferred width of the cell. |
+| [RightPadding](../../aspose.words.tables/cellformat/rightpadding/) { get; set; } | Returns or sets the amount of space (in points) to add to the right of the contents of cell. |
+| [Shading](../../aspose.words.tables/cellformat/shading/) { get; } | Returns a Shading object that refers to the shading formatting for the cell. |
+| [TopPadding](../../aspose.words.tables/cellformat/toppadding/) { get; set; } | Returns or sets the amount of space (in points) to add above the contents of cell. |
+| [VerticalAlignment](../../aspose.words.tables/cellformat/verticalalignment/) { get; set; } | Returns or sets the vertical alignment of text in the cell. |
+| [VerticalMerge](../../aspose.words.tables/cellformat/verticalmerge/) { get; set; } | Specifies how the cell is merged with other cells vertically. |
+| [Width](../../aspose.words.tables/cellformat/width/) { get; set; } | Gets the width of the cell in points. |
+| [WrapText](../../aspose.words.tables/cellformat/wraptext/) { get; set; } | If true, wrap text for the cell. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [ClearFormatting](../../aspose.words.tables/cellformat/clearformatting)() | Resets to default cell formatting. Does not change the width of the cell. |
-| [SetPaddings](../../aspose.words.tables/cellformat/setpaddings)(double, double, double, double) | Sets the amount of space (in points) to add to the left/top/right/bottom of the contents of cell. |
+| [ClearFormatting](../../aspose.words.tables/cellformat/clearformatting/)() | Resets to default cell formatting. Does not change the width of the cell. |
+| [SetPaddings](../../aspose.words.tables/cellformat/setpaddings/)(double, double, double, double) | Sets the amount of space (in points) to add to the left/top/right/bottom of the contents of cell. |
 
 ## Examples
 

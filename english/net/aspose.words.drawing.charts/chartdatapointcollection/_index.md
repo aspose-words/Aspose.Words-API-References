@@ -18,15 +18,15 @@ public class ChartDataPointCollection : IEnumerable<ChartDataPoint>
 
 | Name | Description |
 | --- | --- |
-| [Count](../../aspose.words.drawing.charts/chartdatapointcollection/count) { get; } | Returns the number of [`ChartDataPoint`](../chartdatapoint/) in this collection. |
-| [Item](../../aspose.words.drawing.charts/chartdatapointcollection/item) { get; } | Returns [`ChartDataPoint`](../chartdatapoint/) for the specified index. |
+| [Count](../../aspose.words.drawing.charts/chartdatapointcollection/count/) { get; } | Returns the number of [`ChartDataPoint`](../chartdatapoint/) in this collection. |
+| [Item](../../aspose.words.drawing.charts/chartdatapointcollection/item/) { get; } | Returns [`ChartDataPoint`](../chartdatapoint/) for the specified index. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [ClearFormat](../../aspose.words.drawing.charts/chartdatapointcollection/clearformat)() | Clears format of all [`ChartDataPoint`](../chartdatapoint/) in this collection. |
-| [GetEnumerator](../../aspose.words.drawing.charts/chartdatapointcollection/getenumerator)() | Returns an enumerator object. |
+| [ClearFormat](../../aspose.words.drawing.charts/chartdatapointcollection/clearformat/)() | Clears format of all [`ChartDataPoint`](../chartdatapoint/) in this collection. |
+| [GetEnumerator](../../aspose.words.drawing.charts/chartdatapointcollection/getenumerator/)() | Returns an enumerator object. |
 
 ## Examples
 

@@ -25,16 +25,16 @@ public class SystemFontSource : FontSourceBase
 
 | Name | Description |
 | --- | --- |
-| [Priority](../../aspose.words.fonts/fontsourcebase/priority) { get; } | Returns the font source priority. |
-| override [Type](../../aspose.words.fonts/systemfontsource/type) { get; } | Returns the type of the font source. |
-| [WarningCallback](../../aspose.words.fonts/fontsourcebase/warningcallback) { get; set; } | Called during processing of font source when an issue is detected that might result in formatting fidelity loss. |
+| [Priority](../../aspose.words.fonts/fontsourcebase/priority/) { get; } | Returns the font source priority. |
+| override [Type](../../aspose.words.fonts/systemfontsource/type/) { get; } | Returns the type of the font source. |
+| [WarningCallback](../../aspose.words.fonts/fontsourcebase/warningcallback/) { get; set; } | Called during processing of font source when an issue is detected that might result in formatting fidelity loss. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [GetAvailableFonts](../../aspose.words.fonts/fontsourcebase/getavailablefonts)() | Returns list of fonts available via this source. |
-| static [GetSystemFontFolders](../../aspose.words.fonts/systemfontsource/getsystemfontfolders)() | Returns system font folders or empty array if folders are not accessible. |
+| [GetAvailableFonts](../../aspose.words.fonts/fontsourcebase/getavailablefonts/)() | Returns list of fonts available via this source. |
+| static [GetSystemFontFolders](../../aspose.words.fonts/systemfontsource/getsystemfontfolders/)() | Returns system font folders or empty array if folders are not accessible. |
 
 ## Examples
 

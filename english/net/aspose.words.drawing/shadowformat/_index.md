@@ -18,14 +18,14 @@ public class ShadowFormat
 
 | Name | Description |
 | --- | --- |
-| [Type](../../aspose.words.drawing/shadowformat/type) { get; set; } | Gets or sets the specified [`ShadowType`](../shadowtype/) for ShadowFormat. |
-| [Visible](../../aspose.words.drawing/shadowformat/visible) { get; } | Returns `true` if the formatting applied to this instance is visible. |
+| [Type](../../aspose.words.drawing/shadowformat/type/) { get; set; } | Gets or sets the specified [`ShadowType`](../shadowtype/) for ShadowFormat. |
+| [Visible](../../aspose.words.drawing/shadowformat/visible/) { get; } | Returns `true` if the formatting applied to this instance is visible. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Clear](../../aspose.words.drawing/shadowformat/clear)() | Clears shadow format. |
+| [Clear](../../aspose.words.drawing/shadowformat/clear/)() | Clears shadow format. |
 
 ### See Also
 

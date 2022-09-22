@@ -18,7 +18,7 @@ public interface IResourceSavingCallback
 
 | Name | Description |
 | --- | --- |
-| [ResourceSaving](../../aspose.words.saving/iresourcesavingcallback/resourcesaving)(ResourceSavingArgs) | Called when Aspose.Words saves an external resource to fixed page HTML or SVG formats. |
+| [ResourceSaving](../../aspose.words.saving/iresourcesavingcallback/resourcesaving/)(ResourceSavingArgs) | Called when Aspose.Words saves an external resource to fixed page HTML or SVG formats. |
 
 ## Examples
 

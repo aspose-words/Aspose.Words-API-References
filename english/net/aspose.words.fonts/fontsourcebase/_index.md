@@ -18,15 +18,15 @@ public abstract class FontSourceBase
 
 | Name | Description |
 | --- | --- |
-| [Priority](../../aspose.words.fonts/fontsourcebase/priority) { get; } | Returns the font source priority. |
-| abstract [Type](../../aspose.words.fonts/fontsourcebase/type) { get; } | Returns the type of the font source. |
-| [WarningCallback](../../aspose.words.fonts/fontsourcebase/warningcallback) { get; set; } | Called during processing of font source when an issue is detected that might result in formatting fidelity loss. |
+| [Priority](../../aspose.words.fonts/fontsourcebase/priority/) { get; } | Returns the font source priority. |
+| abstract [Type](../../aspose.words.fonts/fontsourcebase/type/) { get; } | Returns the type of the font source. |
+| [WarningCallback](../../aspose.words.fonts/fontsourcebase/warningcallback/) { get; set; } | Called during processing of font source when an issue is detected that might result in formatting fidelity loss. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [GetAvailableFonts](../../aspose.words.fonts/fontsourcebase/getavailablefonts)() | Returns list of fonts available via this source. |
+| [GetAvailableFonts](../../aspose.words.fonts/fontsourcebase/getavailablefonts/)() | Returns list of fonts available via this source. |
 
 ## Examples
 

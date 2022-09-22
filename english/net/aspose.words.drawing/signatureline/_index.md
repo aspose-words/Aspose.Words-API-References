@@ -18,17 +18,17 @@ public class SignatureLine
 
 | Name | Description |
 | --- | --- |
-| [AllowComments](../../aspose.words.drawing/signatureline/allowcomments) { get; set; } | Gets or sets a value indicating that the signer can add comments in the Sign dialog. Default value for this property is **false**. |
-| [DefaultInstructions](../../aspose.words.drawing/signatureline/defaultinstructions) { get; set; } | Gets or sets a value indicating that default instructions is shown in the Sign dialog. Default value for this property is **true**. |
-| [Email](../../aspose.words.drawing/signatureline/email) { get; set; } | Gets or sets suggested signer's e-mail address. Default value for this property is **empty string** (Empty). |
-| [Id](../../aspose.words.drawing/signatureline/id) { get; set; } | Gets or sets identifier for this signature line. |
-| [Instructions](../../aspose.words.drawing/signatureline/instructions) { get; set; } | Gets or sets instructions to the signer that are displayed on signing the signature line. This property is ignored if [`DefaultInstructions`](./defaultinstructions/) is set. Default value for this property is **empty string** (Empty). |
-| [IsSigned](../../aspose.words.drawing/signatureline/issigned) { get; } | Indicates that signature line is signed by digital signature. |
-| [IsValid](../../aspose.words.drawing/signatureline/isvalid) { get; } | Indicates that signature line is signed by digital signature and this digital signature is valid. |
-| [ProviderId](../../aspose.words.drawing/signatureline/providerid) { get; set; } | Gets or sets signature provider identifier for this signature line. Default value is "{00000000-0000-0000-0000-000000000000}". |
-| [ShowDate](../../aspose.words.drawing/signatureline/showdate) { get; set; } | Gets or sets a value indicating that sign date is shown in the signature line. Default value for this property is **true**. |
-| [Signer](../../aspose.words.drawing/signatureline/signer) { get; set; } | Gets or sets suggested signer of the signature line. Default value for this property is **empty string** (Empty). |
-| [SignerTitle](../../aspose.words.drawing/signatureline/signertitle) { get; set; } | Gets or sets suggested signer's title (for example, Manager). Default value for this property is **empty string** (Empty). |
+| [AllowComments](../../aspose.words.drawing/signatureline/allowcomments/) { get; set; } | Gets or sets a value indicating that the signer can add comments in the Sign dialog. Default value for this property is **false**. |
+| [DefaultInstructions](../../aspose.words.drawing/signatureline/defaultinstructions/) { get; set; } | Gets or sets a value indicating that default instructions is shown in the Sign dialog. Default value for this property is **true**. |
+| [Email](../../aspose.words.drawing/signatureline/email/) { get; set; } | Gets or sets suggested signer's e-mail address. Default value for this property is **empty string** (Empty). |
+| [Id](../../aspose.words.drawing/signatureline/id/) { get; set; } | Gets or sets identifier for this signature line. |
+| [Instructions](../../aspose.words.drawing/signatureline/instructions/) { get; set; } | Gets or sets instructions to the signer that are displayed on signing the signature line. This property is ignored if [`DefaultInstructions`](./defaultinstructions/) is set. Default value for this property is **empty string** (Empty). |
+| [IsSigned](../../aspose.words.drawing/signatureline/issigned/) { get; } | Indicates that signature line is signed by digital signature. |
+| [IsValid](../../aspose.words.drawing/signatureline/isvalid/) { get; } | Indicates that signature line is signed by digital signature and this digital signature is valid. |
+| [ProviderId](../../aspose.words.drawing/signatureline/providerid/) { get; set; } | Gets or sets signature provider identifier for this signature line. Default value is "{00000000-0000-0000-0000-000000000000}". |
+| [ShowDate](../../aspose.words.drawing/signatureline/showdate/) { get; set; } | Gets or sets a value indicating that sign date is shown in the signature line. Default value for this property is **true**. |
+| [Signer](../../aspose.words.drawing/signatureline/signer/) { get; set; } | Gets or sets suggested signer of the signature line. Default value for this property is **empty string** (Empty). |
+| [SignerTitle](../../aspose.words.drawing/signatureline/signertitle/) { get; set; } | Gets or sets suggested signer's title (for example, Manager). Default value for this property is **empty string** (Empty). |
 
 ## Examples
 

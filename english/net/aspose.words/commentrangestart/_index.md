@@ -24,30 +24,30 @@ public sealed class CommentRangeStart : Node
 
 | Name | Description |
 | --- | --- |
-| [CustomNodeId](../../aspose.words/node/customnodeid) { get; set; } | Specifies custom node identifier. |
-| virtual [Document](../../aspose.words/node/document) { get; } | Gets the document to which this node belongs. |
-| [Id](../../aspose.words/commentrangestart/id) { get; set; } | Specifies the identifier of the comment to which this region is linked. |
-| virtual [IsComposite](../../aspose.words/node/iscomposite) { get; } | Returns true if this node can contain other nodes. |
-| [NextSibling](../../aspose.words/node/nextsibling) { get; } | Gets the node immediately following this node. |
-| override [NodeType](../../aspose.words/commentrangestart/nodetype) { get; } | Returns CommentRangeStart. |
-| [ParentNode](../../aspose.words/node/parentnode) { get; } | Gets the immediate parent of this node. |
-| [PreviousSibling](../../aspose.words/node/previoussibling) { get; } | Gets the node immediately preceding this node. |
-| [Range](../../aspose.words/node/range) { get; } | Returns a **Range** object that represents the portion of a document that is contained in this node. |
+| [CustomNodeId](../../aspose.words/node/customnodeid/) { get; set; } | Specifies custom node identifier. |
+| virtual [Document](../../aspose.words/node/document/) { get; } | Gets the document to which this node belongs. |
+| [Id](../../aspose.words/commentrangestart/id/) { get; set; } | Specifies the identifier of the comment to which this region is linked. |
+| virtual [IsComposite](../../aspose.words/node/iscomposite/) { get; } | Returns true if this node can contain other nodes. |
+| [NextSibling](../../aspose.words/node/nextsibling/) { get; } | Gets the node immediately following this node. |
+| override [NodeType](../../aspose.words/commentrangestart/nodetype/) { get; } | Returns CommentRangeStart. |
+| [ParentNode](../../aspose.words/node/parentnode/) { get; } | Gets the immediate parent of this node. |
+| [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Gets the node immediately preceding this node. |
+| [Range](../../aspose.words/node/range/) { get; } | Returns a **Range** object that represents the portion of a document that is contained in this node. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [Accept](../../aspose.words/commentrangestart/accept)(DocumentVisitor) | Accepts a visitor. |
-| [Clone](../../aspose.words/node/clone)(bool) | Creates a duplicate of the node. |
-| [GetAncestor](../../aspose.words/node/getancestor)(NodeType) | Gets the first ancestor of the specified [`NodeType`](../nodetype/). |
-| [GetAncestor](../../aspose.words/node/getancestor)(Type) | Gets the first ancestor of the specified object type. |
-| virtual [GetText](../../aspose.words/node/gettext)() | Gets the text of this node and of all its children. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder)(Node) | Gets next node according to the pre-order tree traversal algorithm. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder)(Node) | Gets the previous node according to the pre-order tree traversal algorithm. |
-| [Remove](../../aspose.words/node/remove)() | Removes itself from the parent. |
-| [ToString](../../aspose.words/node/tostring)(SaveFormat) | Exports the content of the node into a string in the specified format. |
-| [ToString](../../aspose.words/node/tostring)(SaveOptions) | Exports the content of the node into a string using the specified save options. |
+| override [Accept](../../aspose.words/commentrangestart/accept/)(DocumentVisitor) | Accepts a visitor. |
+| [Clone](../../aspose.words/node/clone/)(bool) | Creates a duplicate of the node. |
+| [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | Gets the first ancestor of the specified [`NodeType`](../nodetype/). |
+| [GetAncestor](../../aspose.words/node/getancestor/)(Type) | Gets the first ancestor of the specified object type. |
+| virtual [GetText](../../aspose.words/node/gettext/)() | Gets the text of this node and of all its children. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | Gets next node according to the pre-order tree traversal algorithm. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | Gets the previous node according to the pre-order tree traversal algorithm. |
+| [Remove](../../aspose.words/node/remove/)() | Removes itself from the parent. |
+| [ToString](../../aspose.words/node/tostring/)(SaveFormat) | Exports the content of the node into a string in the specified format. |
+| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | Exports the content of the node into a string using the specified save options. |
 
 ## Remarks
 

@@ -24,18 +24,18 @@ public class CustomPartCollection : IEnumerable<CustomPart>
 
 | Name | Description |
 | --- | --- |
-| [Count](../../aspose.words.markup/custompartcollection/count) { get; } | Gets the number of elements contained in the collection. |
-| [Item](../../aspose.words.markup/custompartcollection/item) { get; set; } | Gets or sets an item at the specified index. |
+| [Count](../../aspose.words.markup/custompartcollection/count/) { get; } | Gets the number of elements contained in the collection. |
+| [Item](../../aspose.words.markup/custompartcollection/item/) { get; set; } | Gets or sets an item at the specified index. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Add](../../aspose.words.markup/custompartcollection/add)(CustomPart) | Adds an item to the collection. |
-| [Clear](../../aspose.words.markup/custompartcollection/clear)() | Removes all elements from the collection. |
-| [Clone](../../aspose.words.markup/custompartcollection/clone)() | Makes a deep copy of this collection and its items. |
-| [GetEnumerator](../../aspose.words.markup/custompartcollection/getenumerator)() | Returns an enumerator object that can be used to iterate over all items in the collection. |
-| [RemoveAt](../../aspose.words.markup/custompartcollection/removeat)(int) | Removes an item at the specified index. |
+| [Add](../../aspose.words.markup/custompartcollection/add/)(CustomPart) | Adds an item to the collection. |
+| [Clear](../../aspose.words.markup/custompartcollection/clear/)() | Removes all elements from the collection. |
+| [Clone](../../aspose.words.markup/custompartcollection/clone/)() | Makes a deep copy of this collection and its items. |
+| [GetEnumerator](../../aspose.words.markup/custompartcollection/getenumerator/)() | Returns an enumerator object that can be used to iterate over all items in the collection. |
+| [RemoveAt](../../aspose.words.markup/custompartcollection/removeat/)(int) | Removes an item at the specified index. |
 
 ## Remarks
 

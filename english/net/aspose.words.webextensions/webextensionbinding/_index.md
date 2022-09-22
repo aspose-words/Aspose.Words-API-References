@@ -24,9 +24,9 @@ public class WebExtensionBinding
 
 | Name | Description |
 | --- | --- |
-| [AppRef](../../aspose.words.webextensions/webextensionbinding/appref) { get; set; } | Specifies the binding key used to map the binding entry in this list with the bound data in the document. |
-| [BindingType](../../aspose.words.webextensions/webextensionbinding/bindingtype) { get; set; } | Specifies the binding type. |
-| [Id](../../aspose.words.webextensions/webextensionbinding/id) { get; set; } | Specifies the binding identifier. |
+| [AppRef](../../aspose.words.webextensions/webextensionbinding/appref/) { get; set; } | Specifies the binding key used to map the binding entry in this list with the bound data in the document. |
+| [BindingType](../../aspose.words.webextensions/webextensionbinding/bindingtype/) { get; set; } | Specifies the binding type. |
+| [Id](../../aspose.words.webextensions/webextensionbinding/id/) { get; set; } | Specifies the binding identifier. |
 
 ### See Also
 

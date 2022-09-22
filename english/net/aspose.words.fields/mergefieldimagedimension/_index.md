@@ -25,8 +25,8 @@ public class MergeFieldImageDimension
 
 | Name | Description |
 | --- | --- |
-| [Unit](../../aspose.words.fields/mergefieldimagedimension/unit) { get; set; } | The unit. |
-| [Value](../../aspose.words.fields/mergefieldimagedimension/value) { get; set; } | The value. |
+| [Unit](../../aspose.words.fields/mergefieldimagedimension/unit/) { get; set; } | The unit. |
+| [Value](../../aspose.words.fields/mergefieldimagedimension/value/) { get; set; } | The value. |
 
 ## Remarks
 

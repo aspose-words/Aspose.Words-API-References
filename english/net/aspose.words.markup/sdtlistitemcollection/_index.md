@@ -18,18 +18,18 @@ public class SdtListItemCollection : IEnumerable<SdtListItem>
 
 | Name | Description |
 | --- | --- |
-| [Count](../../aspose.words.markup/sdtlistitemcollection/count) { get; } | Gets number of items in the collection. |
-| [Item](../../aspose.words.markup/sdtlistitemcollection/item) { get; } | Returns a [`SdtListItem`](../sdtlistitem/) object given its zero-based index in the collection. |
-| [SelectedValue](../../aspose.words.markup/sdtlistitemcollection/selectedvalue) { get; set; } | Specifies currently selected value in this list. Null value allowed, meaning that no currently selected entry is associated with this list item collection. |
+| [Count](../../aspose.words.markup/sdtlistitemcollection/count/) { get; } | Gets number of items in the collection. |
+| [Item](../../aspose.words.markup/sdtlistitemcollection/item/) { get; } | Returns a [`SdtListItem`](../sdtlistitem/) object given its zero-based index in the collection. |
+| [SelectedValue](../../aspose.words.markup/sdtlistitemcollection/selectedvalue/) { get; set; } | Specifies currently selected value in this list. Null value allowed, meaning that no currently selected entry is associated with this list item collection. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Add](../../aspose.words.markup/sdtlistitemcollection/add)(SdtListItem) | Adds an item to this collection. |
-| [Clear](../../aspose.words.markup/sdtlistitemcollection/clear)() | Clears all items from this collection. |
-| [GetEnumerator](../../aspose.words.markup/sdtlistitemcollection/getenumerator)() | Returns an enumerator object that can be used to iterate over all items in the collection. |
-| [RemoveAt](../../aspose.words.markup/sdtlistitemcollection/removeat)(int) | Removes a list item at the specified index. |
+| [Add](../../aspose.words.markup/sdtlistitemcollection/add/)(SdtListItem) | Adds an item to this collection. |
+| [Clear](../../aspose.words.markup/sdtlistitemcollection/clear/)() | Clears all items from this collection. |
+| [GetEnumerator](../../aspose.words.markup/sdtlistitemcollection/getenumerator/)() | Returns an enumerator object that can be used to iterate over all items in the collection. |
+| [RemoveAt](../../aspose.words.markup/sdtlistitemcollection/removeat/)(int) | Removes a list item at the specified index. |
 
 ## Examples
 

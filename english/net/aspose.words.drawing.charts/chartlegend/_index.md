@@ -18,9 +18,9 @@ public class ChartLegend
 
 | Name | Description |
 | --- | --- |
-| [LegendEntries](../../aspose.words.drawing.charts/chartlegend/legendentries) { get; } | Returns a collection of legend entries for all series and trendlines of the parent chart. |
-| [Overlay](../../aspose.words.drawing.charts/chartlegend/overlay) { get; set; } | Determines whether other chart elements shall be allowed to overlap legend. Default value is false. |
-| [Position](../../aspose.words.drawing.charts/chartlegend/position) { get; set; } | Specifies the position of the legend on a chart. Default value is Right. |
+| [LegendEntries](../../aspose.words.drawing.charts/chartlegend/legendentries/) { get; } | Returns a collection of legend entries for all series and trendlines of the parent chart. |
+| [Overlay](../../aspose.words.drawing.charts/chartlegend/overlay/) { get; set; } | Determines whether other chart elements shall be allowed to overlap legend. Default value is false. |
+| [Position](../../aspose.words.drawing.charts/chartlegend/position/) { get; set; } | Specifies the position of the legend on a chart. Default value is Right. |
 
 ## Examples
 

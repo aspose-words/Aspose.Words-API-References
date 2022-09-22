@@ -18,18 +18,18 @@ public class TextColumnCollection
 
 | Name | Description |
 | --- | --- |
-| [Count](../../aspose.words/textcolumncollection/count) { get; } | Gets the number of columns in the section of a document. |
-| [EvenlySpaced](../../aspose.words/textcolumncollection/evenlyspaced) { get; set; } | **True** if text columns are of equal width and evenly spaced. |
-| [Item](../../aspose.words/textcolumncollection/item) { get; } | Returns a text column at the specified index. |
-| [LineBetween](../../aspose.words/textcolumncollection/linebetween) { get; set; } | When **true**, adds a vertical line between columns. |
-| [Spacing](../../aspose.words/textcolumncollection/spacing) { get; set; } | When columns are evenly spaced, gets or sets the amount of space between each column in points. |
-| [Width](../../aspose.words/textcolumncollection/width) { get; } | When columns are evenly spaced, gets the width of the columns. |
+| [Count](../../aspose.words/textcolumncollection/count/) { get; } | Gets the number of columns in the section of a document. |
+| [EvenlySpaced](../../aspose.words/textcolumncollection/evenlyspaced/) { get; set; } | **True** if text columns are of equal width and evenly spaced. |
+| [Item](../../aspose.words/textcolumncollection/item/) { get; } | Returns a text column at the specified index. |
+| [LineBetween](../../aspose.words/textcolumncollection/linebetween/) { get; set; } | When **true**, adds a vertical line between columns. |
+| [Spacing](../../aspose.words/textcolumncollection/spacing/) { get; set; } | When columns are evenly spaced, gets or sets the amount of space between each column in points. |
+| [Width](../../aspose.words/textcolumncollection/width/) { get; } | When columns are evenly spaced, gets the width of the columns. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [SetCount](../../aspose.words/textcolumncollection/setcount)(int) | Arranges text into the specified number of text columns. |
+| [SetCount](../../aspose.words/textcolumncollection/setcount/)(int) | Arranges text into the specified number of text columns. |
 
 ## Remarks
 

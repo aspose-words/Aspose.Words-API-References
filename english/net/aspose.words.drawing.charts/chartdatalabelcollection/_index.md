@@ -18,25 +18,25 @@ public class ChartDataLabelCollection : IEnumerable<ChartDataLabel>
 
 | Name | Description |
 | --- | --- |
-| [Count](../../aspose.words.drawing.charts/chartdatalabelcollection/count) { get; } | Returns the number of [`ChartDataLabel`](../chartdatalabel/) in this collection. |
-| [Item](../../aspose.words.drawing.charts/chartdatalabelcollection/item) { get; } | Returns [`ChartDataLabel`](../chartdatalabel/) for the specified index. |
-| [NumberFormat](../../aspose.words.drawing.charts/chartdatalabelcollection/numberformat) { get; } | Gets an [`ChartNumberFormat`](../chartnumberformat/) instance allowing to set number format for the data labels of the entire series. |
-| [Separator](../../aspose.words.drawing.charts/chartdatalabelcollection/separator) { get; set; } | Gets or sets string separator used for the data labels of the entire series. The default is a comma, except for pie charts showing only category name and percentage, when a line break shall be used instead. |
-| [ShowBubbleSize](../../aspose.words.drawing.charts/chartdatalabelcollection/showbubblesize) { get; set; } | Allows to specify whether bubble size is to be displayed for the data labels of the entire series. Applies only to Bubble charts. Default value is **false**. |
-| [ShowCategoryName](../../aspose.words.drawing.charts/chartdatalabelcollection/showcategoryname) { get; set; } | Allows to specify whether category name is to be displayed for the data labels of the entire series. Default value is **false**. |
-| [ShowDataLabelsRange](../../aspose.words.drawing.charts/chartdatalabelcollection/showdatalabelsrange) { get; set; } | Allows to specify whether values from data labels range to be displayed in the data labels of the entire series. Default value is **false**. |
-| [ShowLeaderLines](../../aspose.words.drawing.charts/chartdatalabelcollection/showleaderlines) { get; set; } | Allows to specify whether data label leader lines need be shown for the data labels of the entire series. Default value is **false**. |
-| [ShowLegendKey](../../aspose.words.drawing.charts/chartdatalabelcollection/showlegendkey) { get; set; } | Allows to specify whether legend key is to be displayed for the data labels of the entire series. Default value is **false**. |
-| [ShowPercentage](../../aspose.words.drawing.charts/chartdatalabelcollection/showpercentage) { get; set; } | Allows to specify whether percentage value is to be displayed for the data labels of the entire series. Default value is **false**. Applies only to Pie charts. |
-| [ShowSeriesName](../../aspose.words.drawing.charts/chartdatalabelcollection/showseriesname) { get; set; } | Returns or sets a Boolean to indicate the series name display behavior for the data labels of the entire series. **True** to show the series name. **False** to hide. By default **false**. |
-| [ShowValue](../../aspose.words.drawing.charts/chartdatalabelcollection/showvalue) { get; set; } | Allows to specify whether values are to be displayed in the data labels of the entire series. Default value is **false**. |
+| [Count](../../aspose.words.drawing.charts/chartdatalabelcollection/count/) { get; } | Returns the number of [`ChartDataLabel`](../chartdatalabel/) in this collection. |
+| [Item](../../aspose.words.drawing.charts/chartdatalabelcollection/item/) { get; } | Returns [`ChartDataLabel`](../chartdatalabel/) for the specified index. |
+| [NumberFormat](../../aspose.words.drawing.charts/chartdatalabelcollection/numberformat/) { get; } | Gets an [`ChartNumberFormat`](../chartnumberformat/) instance allowing to set number format for the data labels of the entire series. |
+| [Separator](../../aspose.words.drawing.charts/chartdatalabelcollection/separator/) { get; set; } | Gets or sets string separator used for the data labels of the entire series. The default is a comma, except for pie charts showing only category name and percentage, when a line break shall be used instead. |
+| [ShowBubbleSize](../../aspose.words.drawing.charts/chartdatalabelcollection/showbubblesize/) { get; set; } | Allows to specify whether bubble size is to be displayed for the data labels of the entire series. Applies only to Bubble charts. Default value is **false**. |
+| [ShowCategoryName](../../aspose.words.drawing.charts/chartdatalabelcollection/showcategoryname/) { get; set; } | Allows to specify whether category name is to be displayed for the data labels of the entire series. Default value is **false**. |
+| [ShowDataLabelsRange](../../aspose.words.drawing.charts/chartdatalabelcollection/showdatalabelsrange/) { get; set; } | Allows to specify whether values from data labels range to be displayed in the data labels of the entire series. Default value is **false**. |
+| [ShowLeaderLines](../../aspose.words.drawing.charts/chartdatalabelcollection/showleaderlines/) { get; set; } | Allows to specify whether data label leader lines need be shown for the data labels of the entire series. Default value is **false**. |
+| [ShowLegendKey](../../aspose.words.drawing.charts/chartdatalabelcollection/showlegendkey/) { get; set; } | Allows to specify whether legend key is to be displayed for the data labels of the entire series. Default value is **false**. |
+| [ShowPercentage](../../aspose.words.drawing.charts/chartdatalabelcollection/showpercentage/) { get; set; } | Allows to specify whether percentage value is to be displayed for the data labels of the entire series. Default value is **false**. Applies only to Pie charts. |
+| [ShowSeriesName](../../aspose.words.drawing.charts/chartdatalabelcollection/showseriesname/) { get; set; } | Returns or sets a Boolean to indicate the series name display behavior for the data labels of the entire series. **True** to show the series name. **False** to hide. By default **false**. |
+| [ShowValue](../../aspose.words.drawing.charts/chartdatalabelcollection/showvalue/) { get; set; } | Allows to specify whether values are to be displayed in the data labels of the entire series. Default value is **false**. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [ClearFormat](../../aspose.words.drawing.charts/chartdatalabelcollection/clearformat)() | Clears format of all [`ChartDataLabel`](../chartdatalabel/) in this collection. |
-| [GetEnumerator](../../aspose.words.drawing.charts/chartdatalabelcollection/getenumerator)() | Returns an enumerator object. |
+| [ClearFormat](../../aspose.words.drawing.charts/chartdatalabelcollection/clearformat/)() | Clears format of all [`ChartDataLabel`](../chartdatalabel/) in this collection. |
+| [GetEnumerator](../../aspose.words.drawing.charts/chartdatalabelcollection/getenumerator/)() | Returns an enumerator object. |
 
 ## Examples
 

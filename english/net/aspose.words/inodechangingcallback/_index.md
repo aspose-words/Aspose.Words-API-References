@@ -18,10 +18,10 @@ public interface INodeChangingCallback
 
 | Name | Description |
 | --- | --- |
-| [NodeInserted](../../aspose.words/inodechangingcallback/nodeinserted)(NodeChangingArgs) | Called when a node belonging to this document has been inserted into another node. |
-| [NodeInserting](../../aspose.words/inodechangingcallback/nodeinserting)(NodeChangingArgs) | Called just before a node belonging to this document is about to be inserted into another node. |
-| [NodeRemoved](../../aspose.words/inodechangingcallback/noderemoved)(NodeChangingArgs) | Called when a node belonging to this document has been removed from its parent. |
-| [NodeRemoving](../../aspose.words/inodechangingcallback/noderemoving)(NodeChangingArgs) | Called just before a node belonging to this document is about to be removed from the document. |
+| [NodeInserted](../../aspose.words/inodechangingcallback/nodeinserted/)(NodeChangingArgs) | Called when a node belonging to this document has been inserted into another node. |
+| [NodeInserting](../../aspose.words/inodechangingcallback/nodeinserting/)(NodeChangingArgs) | Called just before a node belonging to this document is about to be inserted into another node. |
+| [NodeRemoved](../../aspose.words/inodechangingcallback/noderemoved/)(NodeChangingArgs) | Called when a node belonging to this document has been removed from its parent. |
+| [NodeRemoving](../../aspose.words/inodechangingcallback/noderemoving/)(NodeChangingArgs) | Called just before a node belonging to this document is about to be removed from the document. |
 
 ## Examples
 

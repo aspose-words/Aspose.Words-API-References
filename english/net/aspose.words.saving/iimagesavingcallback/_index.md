@@ -18,7 +18,7 @@ public interface IImageSavingCallback
 
 | Name | Description |
 | --- | --- |
-| [ImageSaving](../../aspose.words.saving/iimagesavingcallback/imagesaving)(ImageSavingArgs) | Called when Aspose.Words saves an image to HTML. |
+| [ImageSaving](../../aspose.words.saving/iimagesavingcallback/imagesaving/)(ImageSavingArgs) | Called when Aspose.Words saves an image to HTML. |
 
 ## Examples
 

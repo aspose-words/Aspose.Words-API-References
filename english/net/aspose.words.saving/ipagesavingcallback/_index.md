@@ -18,7 +18,7 @@ public interface IPageSavingCallback
 
 | Name | Description |
 | --- | --- |
-| [PageSaving](../../aspose.words.saving/ipagesavingcallback/pagesaving)(PageSavingArgs) | Called when Aspose.Words saves a separate page to fixed page formats. |
+| [PageSaving](../../aspose.words.saving/ipagesavingcallback/pagesaving/)(PageSavingArgs) | Called when Aspose.Words saves a separate page to fixed page formats. |
 
 ## Examples
 

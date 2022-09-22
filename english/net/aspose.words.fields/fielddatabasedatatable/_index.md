@@ -24,14 +24,14 @@ public class FieldDatabaseDataTable
 
 | Name | Description |
 | --- | --- |
-| [ColumnNames](../../aspose.words.fields/fielddatabasedatatable/columnnames) { get; } | Gets columns that belong to this table. |
-| [Rows](../../aspose.words.fields/fielddatabasedatatable/rows) { get; } | Gets rows that belong to this table. |
+| [ColumnNames](../../aspose.words.fields/fielddatabasedatatable/columnnames/) { get; } | Gets columns that belong to this table. |
+| [Rows](../../aspose.words.fields/fielddatabasedatatable/rows/) { get; } | Gets rows that belong to this table. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| static [CreateFrom](../../aspose.words.fields/fielddatabasedatatable/createfrom)(DataTable) | Initializes a new instance of the [`FieldDatabaseDataTable`](./fielddatabasedatatable/) class from the DataTable instance. |
+| static [CreateFrom](../../aspose.words.fields/fielddatabasedatatable/createfrom/)(DataTable) | Initializes a new instance of the [`FieldDatabaseDataTable`](./fielddatabasedatatable/) class from the DataTable instance. |
 
 ### See Also
 

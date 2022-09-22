@@ -18,7 +18,7 @@ public interface IPageLayoutCallback
 
 | Name | Description |
 | --- | --- |
-| [Notify](../../aspose.words.layout/ipagelayoutcallback/notify)(PageLayoutCallbackArgs) | This is called to notify of layout build and rendering progress. |
+| [Notify](../../aspose.words.layout/ipagelayoutcallback/notify/)(PageLayoutCallbackArgs) | This is called to notify of layout build and rendering progress. |
 
 ## Remarks
 

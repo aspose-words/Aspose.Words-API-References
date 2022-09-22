@@ -24,37 +24,37 @@ public class FieldCitation : Field
 
 | Name | Description |
 | --- | --- |
-| [AnotherSourceTag](../../aspose.words.fields/fieldcitation/anothersourcetag) { get; set; } | Gets or sets a value that mathes the **Tag** element's value of another source to be included in the citation. |
-| [DisplayResult](../../aspose.words.fields/field/displayresult) { get; } | Gets the text that represents the displayed field result. |
-| [End](../../aspose.words.fields/field/end) { get; } | Gets the node that represents the field end. |
-| [Format](../../aspose.words.fields/field/format) { get; } | Gets a [`FieldFormat`](../fieldformat/) object that provides typed access to field's formatting. |
-| [FormatLanguageId](../../aspose.words.fields/fieldcitation/formatlanguageid) { get; set; } | Gets or sets the language ID that is used in conjunction with the specified bibliographic style to format the citation in the document. |
-| [IsDirty](../../aspose.words.fields/field/isdirty) { get; set; } | Gets or sets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
-| [IsLocked](../../aspose.words.fields/field/islocked) { get; set; } | Gets or sets whether the field is locked (should not recalculate its result). |
-| [LocaleId](../../aspose.words.fields/field/localeid) { get; set; } | Gets or sets the LCID of the field. |
-| [PageNumber](../../aspose.words.fields/fieldcitation/pagenumber) { get; set; } | Gets or sets a page number associated with the citation. |
-| [Prefix](../../aspose.words.fields/fieldcitation/prefix) { get; set; } | Gets or sets a prefix that is prepended to the citation. |
-| [Result](../../aspose.words.fields/field/result) { get; set; } | Gets or sets text that is between the field separator and field end. |
-| [Separator](../../aspose.words.fields/field/separator) { get; } | Gets the node that represents the field separator. Can be null. |
-| [SourceTag](../../aspose.words.fields/fieldcitation/sourcetag) { get; set; } | Gets or sets a value that mathes the **Tag** element's value of the source to insert. |
-| [Start](../../aspose.words.fields/field/start) { get; } | Gets the node that represents the start of the field. |
-| [Suffix](../../aspose.words.fields/fieldcitation/suffix) { get; set; } | Gets or sets a suffix that is appended to the citation. |
-| [SuppressAuthor](../../aspose.words.fields/fieldcitation/suppressauthor) { get; set; } | Gets or sets whether the author information is suppressed from the citation. |
-| [SuppressTitle](../../aspose.words.fields/fieldcitation/suppresstitle) { get; set; } | Gets or sets whether the title information is suppressed from the citation. |
-| [SuppressYear](../../aspose.words.fields/fieldcitation/suppressyear) { get; set; } | Gets or sets whether the year information is suppressed from the citation. |
-| virtual [Type](../../aspose.words.fields/field/type) { get; } | Gets the Microsoft Word field type. |
-| [VolumeNumber](../../aspose.words.fields/fieldcitation/volumenumber) { get; set; } | Gets or sets a volume number associated with the citation. |
+| [AnotherSourceTag](../../aspose.words.fields/fieldcitation/anothersourcetag/) { get; set; } | Gets or sets a value that mathes the **Tag** element's value of another source to be included in the citation. |
+| [DisplayResult](../../aspose.words.fields/field/displayresult/) { get; } | Gets the text that represents the displayed field result. |
+| [End](../../aspose.words.fields/field/end/) { get; } | Gets the node that represents the field end. |
+| [Format](../../aspose.words.fields/field/format/) { get; } | Gets a [`FieldFormat`](../fieldformat/) object that provides typed access to field's formatting. |
+| [FormatLanguageId](../../aspose.words.fields/fieldcitation/formatlanguageid/) { get; set; } | Gets or sets the language ID that is used in conjunction with the specified bibliographic style to format the citation in the document. |
+| [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | Gets or sets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
+| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | Gets or sets whether the field is locked (should not recalculate its result). |
+| [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | Gets or sets the LCID of the field. |
+| [PageNumber](../../aspose.words.fields/fieldcitation/pagenumber/) { get; set; } | Gets or sets a page number associated with the citation. |
+| [Prefix](../../aspose.words.fields/fieldcitation/prefix/) { get; set; } | Gets or sets a prefix that is prepended to the citation. |
+| [Result](../../aspose.words.fields/field/result/) { get; set; } | Gets or sets text that is between the field separator and field end. |
+| [Separator](../../aspose.words.fields/field/separator/) { get; } | Gets the node that represents the field separator. Can be null. |
+| [SourceTag](../../aspose.words.fields/fieldcitation/sourcetag/) { get; set; } | Gets or sets a value that mathes the **Tag** element's value of the source to insert. |
+| [Start](../../aspose.words.fields/field/start/) { get; } | Gets the node that represents the start of the field. |
+| [Suffix](../../aspose.words.fields/fieldcitation/suffix/) { get; set; } | Gets or sets a suffix that is appended to the citation. |
+| [SuppressAuthor](../../aspose.words.fields/fieldcitation/suppressauthor/) { get; set; } | Gets or sets whether the author information is suppressed from the citation. |
+| [SuppressTitle](../../aspose.words.fields/fieldcitation/suppresstitle/) { get; set; } | Gets or sets whether the title information is suppressed from the citation. |
+| [SuppressYear](../../aspose.words.fields/fieldcitation/suppressyear/) { get; set; } | Gets or sets whether the year information is suppressed from the citation. |
+| virtual [Type](../../aspose.words.fields/field/type/) { get; } | Gets the Microsoft Word field type. |
+| [VolumeNumber](../../aspose.words.fields/fieldcitation/volumenumber/) { get; set; } | Gets or sets a volume number associated with the citation. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode)() | Returns text between field start and field separator (or field end if there is no separator). Both field code and field result of child fields are included. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode)(bool) | Returns text between field start and field separator (or field end if there is no separator). |
-| [Remove](../../aspose.words.fields/field/remove)() | Removes the field from the document. Returns a node right after the field. If the field's end is the last child of its parent node, returns its parent paragraph. If the field is already removed, returns **null**. |
-| [Unlink](../../aspose.words.fields/field/unlink)() | Performs the field unlink. |
-| [Update](../../aspose.words.fields/field/update)() | Performs the field update. Throws if the field is being updated already. |
-| [Update](../../aspose.words.fields/field/update)(bool) | Performs a field update. Throws if the field is being updated already. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Returns text between field start and field separator (or field end if there is no separator). Both field code and field result of child fields are included. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Returns text between field start and field separator (or field end if there is no separator). |
+| [Remove](../../aspose.words.fields/field/remove/)() | Removes the field from the document. Returns a node right after the field. If the field's end is the last child of its parent node, returns its parent paragraph. If the field is already removed, returns **null**. |
+| [Unlink](../../aspose.words.fields/field/unlink/)() | Performs the field unlink. |
+| [Update](../../aspose.words.fields/field/update/)() | Performs the field update. Throws if the field is being updated already. |
+| [Update](../../aspose.words.fields/field/update/)(bool) | Performs a field update. Throws if the field is being updated already. |
 
 ## Remarks
 

@@ -16,7 +16,7 @@ public interface ITextShaper : IDisposable
 
 | Name | Description |
 | --- | --- |
-| [ShapeText](../../aspose.words.shaping/itextshaper/shapetext)(string[], Direction, UnicodeScript, params FontFeature[]) |  |
+| [ShapeText](../../aspose.words.shaping/itextshaper/shapetext/)(string[], Direction, UnicodeScript, params FontFeature[]) |  |
 
 ### See Also
 

@@ -18,18 +18,18 @@ public class FrameFormat
 
 | Name | Description |
 | --- | --- |
-| [Height](../../aspose.words/frameformat/height) { get; } | Gets the height of the specified frame. |
-| [HeightRule](../../aspose.words/frameformat/heightrule) { get; } | Gets the rule for determining the height of the specified frame. |
-| [HorizontalAlignment](../../aspose.words/frameformat/horizontalalignment) { get; } | Gets horizontal alignment of the specified frame. |
-| [HorizontalDistanceFromText](../../aspose.words/frameformat/horizontaldistancefromtext) { get; } | Gets horizontal distance between a frame and the surrounding text, in points. |
-| [HorizontalPosition](../../aspose.words/frameformat/horizontalposition) { get; } | Gets horizontal distance between the edge of the frame and the item specified by the [`RelativeHorizontalPosition`](./relativehorizontalposition/) property. |
-| [IsFrame](../../aspose.words/frameformat/isframe) { get; } | Returns true if the paragraph is a frame. |
-| [RelativeHorizontalPosition](../../aspose.words/frameformat/relativehorizontalposition) { get; } | Gets the relative horizontal position of a frame. |
-| [RelativeVerticalPosition](../../aspose.words/frameformat/relativeverticalposition) { get; } | Gets the relative vertical position of a frame. |
-| [VerticalAlignment](../../aspose.words/frameformat/verticalalignment) { get; } | Gets vertical alignment of the specified frame. |
-| [VerticalDistanceFromText](../../aspose.words/frameformat/verticaldistancefromtext) { get; } | Specifies vertical distance (in points) between a frame and the surrounding text. |
-| [VerticalPosition](../../aspose.words/frameformat/verticalposition) { get; } | Gets vertical distance between the edge of the frame and the item specified by the [`RelativeVerticalPosition`](./relativeverticalposition/) property. |
-| [Width](../../aspose.words/frameformat/width) { get; } | Gets the width of the specified frame, in points. |
+| [Height](../../aspose.words/frameformat/height/) { get; } | Gets the height of the specified frame. |
+| [HeightRule](../../aspose.words/frameformat/heightrule/) { get; } | Gets the rule for determining the height of the specified frame. |
+| [HorizontalAlignment](../../aspose.words/frameformat/horizontalalignment/) { get; } | Gets horizontal alignment of the specified frame. |
+| [HorizontalDistanceFromText](../../aspose.words/frameformat/horizontaldistancefromtext/) { get; } | Gets horizontal distance between a frame and the surrounding text, in points. |
+| [HorizontalPosition](../../aspose.words/frameformat/horizontalposition/) { get; } | Gets horizontal distance between the edge of the frame and the item specified by the [`RelativeHorizontalPosition`](./relativehorizontalposition/) property. |
+| [IsFrame](../../aspose.words/frameformat/isframe/) { get; } | Returns true if the paragraph is a frame. |
+| [RelativeHorizontalPosition](../../aspose.words/frameformat/relativehorizontalposition/) { get; } | Gets the relative horizontal position of a frame. |
+| [RelativeVerticalPosition](../../aspose.words/frameformat/relativeverticalposition/) { get; } | Gets the relative vertical position of a frame. |
+| [VerticalAlignment](../../aspose.words/frameformat/verticalalignment/) { get; } | Gets vertical alignment of the specified frame. |
+| [VerticalDistanceFromText](../../aspose.words/frameformat/verticaldistancefromtext/) { get; } | Specifies vertical distance (in points) between a frame and the surrounding text. |
+| [VerticalPosition](../../aspose.words/frameformat/verticalposition/) { get; } | Gets vertical distance between the edge of the frame and the item specified by the [`RelativeVerticalPosition`](./relativeverticalposition/) property. |
+| [Width](../../aspose.words/frameformat/width/) { get; } | Gets the width of the specified frame, in points. |
 
 ## Remarks
 

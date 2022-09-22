@@ -24,7 +24,7 @@ public class AsposeWordsPrintDocument : PrintDocument
 
 | Name | Description |
 | --- | --- |
-| [CachePrinterSettings](../../aspose.words.rendering/asposewordsprintdocument/cacheprintersettings)() | Reads and caches some fields of PrinterSettings to reduce printing time. |
+| [CachePrinterSettings](../../aspose.words.rendering/asposewordsprintdocument/cacheprintersettings/)() | Reads and caches some fields of PrinterSettings to reduce printing time. |
 
 ## Remarks
 

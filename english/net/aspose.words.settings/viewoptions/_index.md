@@ -18,12 +18,12 @@ public class ViewOptions
 
 | Name | Description |
 | --- | --- |
-| [DisplayBackgroundShape](../../aspose.words.settings/viewoptions/displaybackgroundshape) { get; set; } | Controls display of the background shape in print layout view. |
-| [DoNotDisplayPageBoundaries](../../aspose.words.settings/viewoptions/donotdisplaypageboundaries) { get; set; } | Turns off display of the space between the top of the text and the top edge of the page. |
-| [FormsDesign](../../aspose.words.settings/viewoptions/formsdesign) { get; set; } | Specifies whether the document is in forms design mode. |
-| [ViewType](../../aspose.words.settings/viewoptions/viewtype) { get; set; } | Controls the view mode in Microsoft Word. |
-| [ZoomPercent](../../aspose.words.settings/viewoptions/zoompercent) { get; set; } | Gets or sets the percentage (between 10 and 500) at which you want to view your document. |
-| [ZoomType](../../aspose.words.settings/viewoptions/zoomtype) { get; set; } | Gets or sets a zoom value based on the size of the window. |
+| [DisplayBackgroundShape](../../aspose.words.settings/viewoptions/displaybackgroundshape/) { get; set; } | Controls display of the background shape in print layout view. |
+| [DoNotDisplayPageBoundaries](../../aspose.words.settings/viewoptions/donotdisplaypageboundaries/) { get; set; } | Turns off display of the space between the top of the text and the top edge of the page. |
+| [FormsDesign](../../aspose.words.settings/viewoptions/formsdesign/) { get; set; } | Specifies whether the document is in forms design mode. |
+| [ViewType](../../aspose.words.settings/viewoptions/viewtype/) { get; set; } | Controls the view mode in Microsoft Word. |
+| [ZoomPercent](../../aspose.words.settings/viewoptions/zoompercent/) { get; set; } | Gets or sets the percentage (between 10 and 500) at which you want to view your document. |
+| [ZoomType](../../aspose.words.settings/viewoptions/zoomtype/) { get; set; } | Gets or sets a zoom value based on the size of the window. |
 
 ## Examples
 

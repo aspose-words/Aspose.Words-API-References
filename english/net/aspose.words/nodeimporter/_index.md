@@ -25,7 +25,7 @@ public class NodeImporter
 
 | Name | Description |
 | --- | --- |
-| [ImportNode](../../aspose.words/nodeimporter/importnode)(Node, bool) | Imports a node from one document into another. |
+| [ImportNode](../../aspose.words/nodeimporter/importnode/)(Node, bool) | Imports a node from one document into another. |
 
 ## Remarks
 

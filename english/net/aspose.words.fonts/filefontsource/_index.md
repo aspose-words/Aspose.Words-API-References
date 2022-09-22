@@ -26,17 +26,17 @@ public class FileFontSource : FontSourceBase
 
 | Name | Description |
 | --- | --- |
-| [CacheKey](../../aspose.words.fonts/filefontsource/cachekey) { get; } | The key of this source in the cache. |
-| [FilePath](../../aspose.words.fonts/filefontsource/filepath) { get; } | Path to the font file. |
-| [Priority](../../aspose.words.fonts/fontsourcebase/priority) { get; } | Returns the font source priority. |
-| override [Type](../../aspose.words.fonts/filefontsource/type) { get; } | Returns the type of the font source. |
-| [WarningCallback](../../aspose.words.fonts/fontsourcebase/warningcallback) { get; set; } | Called during processing of font source when an issue is detected that might result in formatting fidelity loss. |
+| [CacheKey](../../aspose.words.fonts/filefontsource/cachekey/) { get; } | The key of this source in the cache. |
+| [FilePath](../../aspose.words.fonts/filefontsource/filepath/) { get; } | Path to the font file. |
+| [Priority](../../aspose.words.fonts/fontsourcebase/priority/) { get; } | Returns the font source priority. |
+| override [Type](../../aspose.words.fonts/filefontsource/type/) { get; } | Returns the type of the font source. |
+| [WarningCallback](../../aspose.words.fonts/fontsourcebase/warningcallback/) { get; set; } | Called during processing of font source when an issue is detected that might result in formatting fidelity loss. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [GetAvailableFonts](../../aspose.words.fonts/fontsourcebase/getavailablefonts)() | Returns list of fonts available via this source. |
+| [GetAvailableFonts](../../aspose.words.fonts/fontsourcebase/getavailablefonts/)() | Returns list of fonts available via this source. |
 
 ## Examples
 
