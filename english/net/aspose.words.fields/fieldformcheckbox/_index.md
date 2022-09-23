@@ -18,7 +18,7 @@ public class FieldFormCheckBox : Field
 
 | Name | Description |
 | --- | --- |
-| [FieldFormCheckBox](fieldformcheckbox)() | The default constructor. |
+| [FieldFormCheckBox](fieldformcheckbox/)() | The default constructor. |
 
 ## Properties
 

@@ -18,7 +18,7 @@ public class FieldXE : Field
 
 | Name | Description |
 | --- | --- |
-| [FieldXE](fieldxe)() | The default constructor. |
+| [FieldXE](fieldxe/)() | The default constructor. |
 
 ## Properties
 

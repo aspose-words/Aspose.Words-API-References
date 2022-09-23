@@ -18,7 +18,7 @@ public class FieldEQ : Field
 
 | Name | Description |
 | --- | --- |
-| [FieldEQ](fieldeq)() | The default constructor. |
+| [FieldEQ](fieldeq/)() | The default constructor. |
 
 ## Properties
 

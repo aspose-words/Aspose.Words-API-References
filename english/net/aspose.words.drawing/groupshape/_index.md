@@ -18,7 +18,7 @@ public class GroupShape : ShapeBase
 
 | Name | Description |
 | --- | --- |
-| [GroupShape](groupshape)(DocumentBase) | Creates a new group shape. |
+| [GroupShape](groupshape/)(DocumentBase) | Creates a new group shape. |
 
 ## Properties
 

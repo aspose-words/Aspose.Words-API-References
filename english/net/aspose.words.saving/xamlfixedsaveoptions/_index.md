@@ -18,7 +18,7 @@ public class XamlFixedSaveOptions : FixedPageSaveOptions
 
 | Name | Description |
 | --- | --- |
-| [XamlFixedSaveOptions](xamlfixedsaveoptions)() | The default constructor. |
+| [XamlFixedSaveOptions](xamlfixedsaveoptions/)() | The default constructor. |
 
 ## Properties
 

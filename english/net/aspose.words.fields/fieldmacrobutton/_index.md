@@ -18,7 +18,7 @@ public class FieldMacroButton : Field
 
 | Name | Description |
 | --- | --- |
-| [FieldMacroButton](fieldmacrobutton)() | The default constructor. |
+| [FieldMacroButton](fieldmacrobutton/)() | The default constructor. |
 
 ## Properties
 

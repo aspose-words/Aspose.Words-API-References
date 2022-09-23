@@ -18,7 +18,7 @@ public class StructuredDocumentTagRangeEnd : Node
 
 | Name | Description |
 | --- | --- |
-| [StructuredDocumentTagRangeEnd](structureddocumenttagrangeend)(DocumentBase, int) | Initializes a new instance of the **Structured document tag range end** class. |
+| [StructuredDocumentTagRangeEnd](structureddocumenttagrangeend/)(DocumentBase, int) | Initializes a new instance of the **Structured document tag range end** class. |
 
 ## Properties
 

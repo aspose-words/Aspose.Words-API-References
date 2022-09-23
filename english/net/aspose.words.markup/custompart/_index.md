@@ -18,7 +18,7 @@ public class CustomPart
 
 | Name | Description |
 | --- | --- |
-| [CustomPart](custompart)() | The default constructor. |
+| [CustomPart](custompart/)() | The default constructor. |
 
 ## Properties
 

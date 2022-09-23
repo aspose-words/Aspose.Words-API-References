@@ -18,7 +18,7 @@ public class FieldQuote : Field
 
 | Name | Description |
 | --- | --- |
-| [FieldQuote](fieldquote)() | The default constructor. |
+| [FieldQuote](fieldquote/)() | The default constructor. |
 
 ## Properties
 

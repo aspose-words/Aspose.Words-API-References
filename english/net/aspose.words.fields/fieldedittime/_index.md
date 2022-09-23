@@ -18,7 +18,7 @@ public class FieldEditTime : Field
 
 | Name | Description |
 | --- | --- |
-| [FieldEditTime](fieldedittime)() | The default constructor. |
+| [FieldEditTime](fieldedittime/)() | The default constructor. |
 
 ## Properties
 

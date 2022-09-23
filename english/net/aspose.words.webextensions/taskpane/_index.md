@@ -18,7 +18,7 @@ public class TaskPane
 
 | Name | Description |
 | --- | --- |
-| [TaskPane](taskpane)() | The default constructor. |
+| [TaskPane](taskpane/)() | The default constructor. |
 
 ## Properties
 

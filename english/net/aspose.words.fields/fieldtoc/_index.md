@@ -18,7 +18,7 @@ public class FieldToc : Field
 
 | Name | Description |
 | --- | --- |
-| [FieldToc](fieldtoc)() | The default constructor. |
+| [FieldToc](fieldtoc/)() | The default constructor. |
 
 ## Properties
 

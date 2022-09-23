@@ -18,7 +18,7 @@ public class Metered
 
 | Name | Description |
 | --- | --- |
-| [Metered](metered)() | Initializes a new instance of this class. |
+| [Metered](metered/)() | Initializes a new instance of this class. |
 
 ## Methods
 

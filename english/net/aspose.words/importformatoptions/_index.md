@@ -18,7 +18,7 @@ public class ImportFormatOptions
 
 | Name | Description |
 | --- | --- |
-| [ImportFormatOptions](importformatoptions)() | The default constructor. |
+| [ImportFormatOptions](importformatoptions/)() | The default constructor. |
 
 ## Properties
 

@@ -18,7 +18,7 @@ public class FieldSection : Field
 
 | Name | Description |
 | --- | --- |
-| [FieldSection](fieldsection)() | The default constructor. |
+| [FieldSection](fieldsection/)() | The default constructor. |
 
 ## Properties
 

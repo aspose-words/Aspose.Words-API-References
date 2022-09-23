@@ -18,7 +18,7 @@ public class FieldDatabase : Field
 
 | Name | Description |
 | --- | --- |
-| [FieldDatabase](fielddatabase)() | The default constructor. |
+| [FieldDatabase](fielddatabase/)() | The default constructor. |
 
 ## Properties
 

@@ -18,7 +18,7 @@ public class FieldBidiOutline : Field
 
 | Name | Description |
 | --- | --- |
-| [FieldBidiOutline](fieldbidioutline)() | The default constructor. |
+| [FieldBidiOutline](fieldbidioutline/)() | The default constructor. |
 
 ## Properties
 

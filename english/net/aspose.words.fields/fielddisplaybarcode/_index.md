@@ -18,7 +18,7 @@ public class FieldDisplayBarcode : Field
 
 | Name | Description |
 | --- | --- |
-| [FieldDisplayBarcode](fielddisplaybarcode)() | The default constructor. |
+| [FieldDisplayBarcode](fielddisplaybarcode/)() | The default constructor. |
 
 ## Properties
 

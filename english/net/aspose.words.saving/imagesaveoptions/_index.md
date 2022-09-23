@@ -18,7 +18,7 @@ public class ImageSaveOptions : FixedPageSaveOptions
 
 | Name | Description |
 | --- | --- |
-| [ImageSaveOptions](imagesaveoptions)(SaveFormat) | Initializes a new instance of this class that can be used to save rendered images in the Tiff, Png, Bmp, Emf, Jpeg or Svg format. Png, Bmp, Jpeg or Svg format. |
+| [ImageSaveOptions](imagesaveoptions/)(SaveFormat) | Initializes a new instance of this class that can be used to save rendered images in the Tiff, Png, Bmp, Emf, Jpeg or Svg format. Png, Bmp, Jpeg or Svg format. |
 
 ## Properties
 

@@ -18,7 +18,7 @@ public class FieldDatabaseDataRow
 
 | Name | Description |
 | --- | --- |
-| [FieldDatabaseDataRow](fielddatabasedatarow)(params string[]) | Initializes a new instance of the [`FieldDatabaseDataRow`](./fielddatabasedatarow/) class. |
+| [FieldDatabaseDataRow](fielddatabasedatarow/)(params string[]) | Initializes a new instance of the [`FieldDatabaseDataRow`](./fielddatabasedatarow/) class. |
 
 ## Properties
 

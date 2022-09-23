@@ -18,7 +18,7 @@ public class LanguagePreferences
 
 | Name | Description |
 | --- | --- |
-| [LanguagePreferences](languagepreferences)() | The default constructor. |
+| [LanguagePreferences](languagepreferences/)() | The default constructor. |
 
 ## Properties
 

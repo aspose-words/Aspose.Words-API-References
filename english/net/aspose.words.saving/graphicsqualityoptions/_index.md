@@ -18,7 +18,7 @@ public class GraphicsQualityOptions
 
 | Name | Description |
 | --- | --- |
-| [GraphicsQualityOptions](graphicsqualityoptions)() | The default constructor. |
+| [GraphicsQualityOptions](graphicsqualityoptions/)() | The default constructor. |
 
 ## Properties
 

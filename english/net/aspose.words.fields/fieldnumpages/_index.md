@@ -18,7 +18,7 @@ public class FieldNumPages : Field
 
 | Name | Description |
 | --- | --- |
-| [FieldNumPages](fieldnumpages)() | The default constructor. |
+| [FieldNumPages](fieldnumpages/)() | The default constructor. |
 
 ## Properties
 

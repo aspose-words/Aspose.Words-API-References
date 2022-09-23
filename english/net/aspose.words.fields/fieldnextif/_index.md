@@ -18,7 +18,7 @@ public class FieldNextIf : Field
 
 | Name | Description |
 | --- | --- |
-| [FieldNextIf](fieldnextif)() | The default constructor. |
+| [FieldNextIf](fieldnextif/)() | The default constructor. |
 
 ## Properties
 

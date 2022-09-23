@@ -18,7 +18,7 @@ public class FieldBuilder
 
 | Name | Description |
 | --- | --- |
-| [FieldBuilder](fieldbuilder)(FieldType) | Initializes an instance of the [`FieldBuilder`](./fieldbuilder/) class. |
+| [FieldBuilder](fieldbuilder/)(FieldType) | Initializes an instance of the [`FieldBuilder`](./fieldbuilder/) class. |
 
 ## Methods
 

@@ -18,7 +18,7 @@ public class FieldGreetingLine : Field
 
 | Name | Description |
 | --- | --- |
-| [FieldGreetingLine](fieldgreetingline)() | The default constructor. |
+| [FieldGreetingLine](fieldgreetingline/)() | The default constructor. |
 
 ## Properties
 

@@ -16,7 +16,7 @@ public class Cluster
 
 | Name | Description |
 | --- | --- |
-| [Cluster](cluster)(int[], Glyph[]) |  |
+| [Cluster](cluster/)(int[], Glyph[]) |  |
 
 ## Properties
 

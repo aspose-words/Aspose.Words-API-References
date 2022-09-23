@@ -18,7 +18,7 @@ public class HyphenationOptions
 
 | Name | Description |
 | --- | --- |
-| [HyphenationOptions](hyphenationoptions)() | The default constructor. |
+| [HyphenationOptions](hyphenationoptions/)() | The default constructor. |
 
 ## Properties
 

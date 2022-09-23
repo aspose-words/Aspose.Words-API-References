@@ -18,7 +18,7 @@ public class BarcodeParameters
 
 | Name | Description |
 | --- | --- |
-| [BarcodeParameters](barcodeparameters)() | The default constructor. |
+| [BarcodeParameters](barcodeparameters/)() | The default constructor. |
 
 ## Properties
 

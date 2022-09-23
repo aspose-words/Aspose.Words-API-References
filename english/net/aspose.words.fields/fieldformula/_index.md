@@ -18,7 +18,7 @@ public class FieldFormula : Field
 
 | Name | Description |
 | --- | --- |
-| [FieldFormula](fieldformula)() | The default constructor. |
+| [FieldFormula](fieldformula/)() | The default constructor. |
 
 ## Properties
 

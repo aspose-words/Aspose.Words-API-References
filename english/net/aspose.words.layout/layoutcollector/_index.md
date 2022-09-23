@@ -18,7 +18,7 @@ public class LayoutCollector
 
 | Name | Description |
 | --- | --- |
-| [LayoutCollector](layoutcollector)(Document) | Initializes an instance of this class. |
+| [LayoutCollector](layoutcollector/)(Document) | Initializes an instance of this class. |
 
 ## Properties
 

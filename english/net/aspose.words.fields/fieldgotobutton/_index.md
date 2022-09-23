@@ -18,7 +18,7 @@ public class FieldGoToButton : Field
 
 | Name | Description |
 | --- | --- |
-| [FieldGoToButton](fieldgotobutton)() | The default constructor. |
+| [FieldGoToButton](fieldgotobutton/)() | The default constructor. |
 
 ## Properties
 

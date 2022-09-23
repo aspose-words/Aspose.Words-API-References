@@ -18,7 +18,7 @@ public class FieldInfo : Field
 
 | Name | Description |
 | --- | --- |
-| [FieldInfo](fieldinfo)() | The default constructor. |
+| [FieldInfo](fieldinfo/)() | The default constructor. |
 
 ## Properties
 

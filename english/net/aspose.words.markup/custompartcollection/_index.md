@@ -18,7 +18,7 @@ public class CustomPartCollection : IEnumerable<CustomPart>
 
 | Name | Description |
 | --- | --- |
-| [CustomPartCollection](custompartcollection)() | The default constructor. |
+| [CustomPartCollection](custompartcollection/)() | The default constructor. |
 
 ## Properties
 

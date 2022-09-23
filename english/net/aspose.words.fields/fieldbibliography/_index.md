@@ -18,7 +18,7 @@ public class FieldBibliography : Field
 
 | Name | Description |
 | --- | --- |
-| [FieldBibliography](fieldbibliography)() | The default constructor. |
+| [FieldBibliography](fieldbibliography/)() | The default constructor. |
 
 ## Properties
 

@@ -18,7 +18,7 @@ public class MetafileRenderingOptions
 
 | Name | Description |
 | --- | --- |
-| [MetafileRenderingOptions](metafilerenderingoptions)() | The default constructor. |
+| [MetafileRenderingOptions](metafilerenderingoptions/)() | The default constructor. |
 
 ## Properties
 

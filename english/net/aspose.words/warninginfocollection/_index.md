@@ -18,7 +18,7 @@ public class WarningInfoCollection : IEnumerable<WarningInfo>, IWarningCallback
 
 | Name | Description |
 | --- | --- |
-| [WarningInfoCollection](warninginfocollection)() | The default constructor. |
+| [WarningInfoCollection](warninginfocollection/)() | The default constructor. |
 
 ## Properties
 

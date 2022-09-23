@@ -18,7 +18,7 @@ public class Row : CompositeNode
 
 | Name | Description |
 | --- | --- |
-| [Row](row)(DocumentBase) | Initializes a new instance of the **Row** class. |
+| [Row](row/)(DocumentBase) | Initializes a new instance of the **Row** class. |
 
 ## Properties
 

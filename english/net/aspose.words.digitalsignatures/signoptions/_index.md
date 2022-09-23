@@ -18,7 +18,7 @@ public class SignOptions
 
 | Name | Description |
 | --- | --- |
-| [SignOptions](signoptions)() | The default constructor. |
+| [SignOptions](signoptions/)() | The default constructor. |
 
 ## Properties
 

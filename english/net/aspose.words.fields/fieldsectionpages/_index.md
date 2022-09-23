@@ -18,7 +18,7 @@ public class FieldSectionPages : Field
 
 | Name | Description |
 | --- | --- |
-| [FieldSectionPages](fieldsectionpages)() | The default constructor. |
+| [FieldSectionPages](fieldsectionpages/)() | The default constructor. |
 
 ## Properties
 

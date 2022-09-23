@@ -18,7 +18,7 @@ public class UserInformation
 
 | Name | Description |
 | --- | --- |
-| [UserInformation](userinformation)() | The default constructor. |
+| [UserInformation](userinformation/)() | The default constructor. |
 
 ## Properties
 

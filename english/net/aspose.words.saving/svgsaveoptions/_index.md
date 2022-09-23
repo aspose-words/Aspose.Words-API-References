@@ -18,7 +18,7 @@ public class SvgSaveOptions : FixedPageSaveOptions
 
 | Name | Description |
 | --- | --- |
-| [SvgSaveOptions](svgsaveoptions)() | The default constructor. |
+| [SvgSaveOptions](svgsaveoptions/)() | The default constructor. |
 
 ## Properties
 

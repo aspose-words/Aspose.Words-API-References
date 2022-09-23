@@ -18,7 +18,7 @@ public class FieldAutoText : Field
 
 | Name | Description |
 | --- | --- |
-| [FieldAutoText](fieldautotext)() | The default constructor. |
+| [FieldAutoText](fieldautotext/)() | The default constructor. |
 
 ## Properties
 

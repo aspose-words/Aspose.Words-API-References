@@ -18,7 +18,7 @@ public class AxisDisplayUnit
 
 | Name | Description |
 | --- | --- |
-| [AxisDisplayUnit](axisdisplayunit)() | The default constructor. |
+| [AxisDisplayUnit](axisdisplayunit/)() | The default constructor. |
 
 ## Properties
 

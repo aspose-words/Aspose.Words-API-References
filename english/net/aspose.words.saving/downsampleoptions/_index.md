@@ -18,7 +18,7 @@ public class DownsampleOptions
 
 | Name | Description |
 | --- | --- |
-| [DownsampleOptions](downsampleoptions)() | The default constructor. |
+| [DownsampleOptions](downsampleoptions/)() | The default constructor. |
 
 ## Properties
 

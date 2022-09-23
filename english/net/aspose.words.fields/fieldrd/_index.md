@@ -18,7 +18,7 @@ public class FieldRD : Field
 
 | Name | Description |
 | --- | --- |
-| [FieldRD](fieldrd)() | The default constructor. |
+| [FieldRD](fieldrd/)() | The default constructor. |
 
 ## Properties
 

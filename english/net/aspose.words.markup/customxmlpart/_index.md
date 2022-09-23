@@ -18,7 +18,7 @@ public class CustomXmlPart
 
 | Name | Description |
 | --- | --- |
-| [CustomXmlPart](customxmlpart)() | The default constructor. |
+| [CustomXmlPart](customxmlpart/)() | The default constructor. |
 
 ## Properties
 

@@ -18,7 +18,7 @@ public class TxtLoadOptions : LoadOptions
 
 | Name | Description |
 | --- | --- |
-| [TxtLoadOptions](txtloadoptions)() | Initializes a new instance of this class with default values. |
+| [TxtLoadOptions](txtloadoptions/)() | Initializes a new instance of this class with default values. |
 
 ## Properties
 

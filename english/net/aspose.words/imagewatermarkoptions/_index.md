@@ -18,7 +18,7 @@ public class ImageWatermarkOptions
 
 | Name | Description |
 | --- | --- |
-| [ImageWatermarkOptions](imagewatermarkoptions)() | The default constructor. |
+| [ImageWatermarkOptions](imagewatermarkoptions/)() | The default constructor. |
 
 ## Properties
 

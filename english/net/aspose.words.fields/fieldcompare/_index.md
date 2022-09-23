@@ -18,7 +18,7 @@ public class FieldCompare : Field
 
 | Name | Description |
 | --- | --- |
-| [FieldCompare](fieldcompare)() | The default constructor. |
+| [FieldCompare](fieldcompare/)() | The default constructor. |
 
 ## Properties
 

@@ -20,11 +20,11 @@ public class Document : DocumentBase
 
 | Name | Description |
 | --- | --- |
-| [Document](document#constructor)() | Creates a blank Word document. |
-| [Document](document#constructor_1)(Stream) | Opens an existing document from a stream. Automatically detects the file format. |
-| [Document](document#constructor_3)(string) | Opens an existing document from a file. Automatically detects the file format. |
-| [Document](document#constructor_2)(Stream, LoadOptions) | Opens an existing document from a stream. Allows to specify additional options such as an encryption password. |
-| [Document](document#constructor_4)(string, LoadOptions) | Opens an existing document from a file. Allows to specify additional options such as an encryption password. |
+| [Document](document/#constructor)() | Creates a blank Word document. |
+| [Document](document/#constructor_1)(Stream) | Opens an existing document from a stream. Automatically detects the file format. |
+| [Document](document/#constructor_3)(string) | Opens an existing document from a file. Automatically detects the file format. |
+| [Document](document/#constructor_2)(Stream, LoadOptions) | Opens an existing document from a stream. Allows to specify additional options such as an encryption password. |
+| [Document](document/#constructor_4)(string, LoadOptions) | Opens an existing document from a file. Allows to specify additional options such as an encryption password. |
 
 ## Properties
 

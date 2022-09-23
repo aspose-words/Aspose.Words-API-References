@@ -18,7 +18,7 @@ public class RtfLoadOptions : LoadOptions
 
 | Name | Description |
 | --- | --- |
-| [RtfLoadOptions](rtfloadoptions)() | Initializes a new instance of this class with default values. |
+| [RtfLoadOptions](rtfloadoptions/)() | Initializes a new instance of this class with default values. |
 
 ## Properties
 

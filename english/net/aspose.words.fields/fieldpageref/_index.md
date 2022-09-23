@@ -18,7 +18,7 @@ public class FieldPageRef : Field
 
 | Name | Description |
 | --- | --- |
-| [FieldPageRef](fieldpageref)() | The default constructor. |
+| [FieldPageRef](fieldpageref/)() | The default constructor. |
 
 ## Properties
 

@@ -18,7 +18,7 @@ public class FieldIncludePicture : Field
 
 | Name | Description |
 | --- | --- |
-| [FieldIncludePicture](fieldincludepicture)() | The default constructor. |
+| [FieldIncludePicture](fieldincludepicture/)() | The default constructor. |
 
 ## Properties
 

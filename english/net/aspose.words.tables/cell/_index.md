@@ -18,7 +18,7 @@ public class Cell : CompositeNode
 
 | Name | Description |
 | --- | --- |
-| [Cell](cell)(DocumentBase) | Initializes a new instance of the **Cell** class. |
+| [Cell](cell/)(DocumentBase) | Initializes a new instance of the **Cell** class. |
 
 ## Properties
 

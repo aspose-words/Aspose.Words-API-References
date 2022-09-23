@@ -18,7 +18,7 @@ public class FieldShape : Field
 
 | Name | Description |
 | --- | --- |
-| [FieldShape](fieldshape)() | The default constructor. |
+| [FieldShape](fieldshape/)() | The default constructor. |
 
 ## Properties
 

@@ -18,7 +18,7 @@ public class CompareOptions
 
 | Name | Description |
 | --- | --- |
-| [CompareOptions](compareoptions)() | The default constructor. |
+| [CompareOptions](compareoptions/)() | The default constructor. |
 
 ## Properties
 

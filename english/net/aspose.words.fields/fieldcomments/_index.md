@@ -18,7 +18,7 @@ public class FieldComments : Field
 
 | Name | Description |
 | --- | --- |
-| [FieldComments](fieldcomments)() | The default constructor. |
+| [FieldComments](fieldcomments/)() | The default constructor. |
 
 ## Properties
 

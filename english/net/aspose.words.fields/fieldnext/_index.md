@@ -18,7 +18,7 @@ public class FieldNext : Field
 
 | Name | Description |
 | --- | --- |
-| [FieldNext](fieldnext)() | The default constructor. |
+| [FieldNext](fieldnext/)() | The default constructor. |
 
 ## Properties
 
