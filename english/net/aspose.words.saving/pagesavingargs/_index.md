@@ -18,7 +18,7 @@ public class PageSavingArgs
 
 | Name | Description |
 | --- | --- |
-| [PageSavingArgs](pagesavingargs)() | The default constructor. |
+| [PageSavingArgs](pagesavingargs/)() | The default constructor. |
 
 ## Properties
 

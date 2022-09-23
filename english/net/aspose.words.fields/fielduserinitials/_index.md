@@ -18,7 +18,7 @@ public class FieldUserInitials : Field
 
 | Name | Description |
 | --- | --- |
-| [FieldUserInitials](fielduserinitials)() | The default constructor. |
+| [FieldUserInitials](fielduserinitials/)() | The default constructor. |
 
 ## Properties
 

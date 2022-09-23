@@ -18,7 +18,7 @@ public class BuildingBlock : CompositeNode
 
 | Name | Description |
 | --- | --- |
-| [BuildingBlock](buildingblock)(GlossaryDocument) | Initializes a new instance of this class. |
+| [BuildingBlock](buildingblock/)(GlossaryDocument) | Initializes a new instance of this class. |
 
 ## Properties
 

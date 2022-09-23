@@ -18,7 +18,7 @@ public class FieldLink : Field
 
 | Name | Description |
 | --- | --- |
-| [FieldLink](fieldlink)() | The default constructor. |
+| [FieldLink](fieldlink/)() | The default constructor. |
 
 ## Properties
 

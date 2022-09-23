@@ -18,7 +18,7 @@ public class ComHelper
 
 | Name | Description |
 | --- | --- |
-| [ComHelper](comhelper)() | Initializes a new instance of this class. |
+| [ComHelper](comhelper/)() | Initializes a new instance of this class. |
 
 ## Methods
 

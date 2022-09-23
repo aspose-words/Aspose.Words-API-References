@@ -18,7 +18,7 @@ public class ReportingEngine
 
 | Name | Description |
 | --- | --- |
-| [ReportingEngine](reportingengine)() | Initializes a new instance of this class. |
+| [ReportingEngine](reportingengine/)() | Initializes a new instance of this class. |
 
 ## Properties
 

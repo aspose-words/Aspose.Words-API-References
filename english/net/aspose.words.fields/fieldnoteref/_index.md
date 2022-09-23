@@ -18,7 +18,7 @@ public class FieldNoteRef : Field
 
 | Name | Description |
 | --- | --- |
-| [FieldNoteRef](fieldnoteref)() | The default constructor. |
+| [FieldNoteRef](fieldnoteref/)() | The default constructor. |
 
 ## Properties
 

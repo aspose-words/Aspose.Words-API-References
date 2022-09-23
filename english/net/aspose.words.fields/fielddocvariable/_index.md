@@ -18,7 +18,7 @@ public class FieldDocVariable : Field
 
 | Name | Description |
 | --- | --- |
-| [FieldDocVariable](fielddocvariable)() | The default constructor. |
+| [FieldDocVariable](fielddocvariable/)() | The default constructor. |
 
 ## Properties
 

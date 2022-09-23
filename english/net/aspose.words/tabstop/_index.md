@@ -18,8 +18,8 @@ public sealed class TabStop
 
 | Name | Description |
 | --- | --- |
-| [TabStop](tabstop#constructor)(double) | Initializes a new instance of this class. |
-| [TabStop](tabstop#constructor_1)(double, TabAlignment, TabLeader) | Initializes a new instance of this class. |
+| [TabStop](tabstop/#constructor)(double) | Initializes a new instance of this class. |
+| [TabStop](tabstop/#constructor_1)(double, TabAlignment, TabLeader) | Initializes a new instance of this class. |
 
 ## Properties
 

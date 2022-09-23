@@ -18,7 +18,7 @@ public class FieldHyperlink : Field
 
 | Name | Description |
 | --- | --- |
-| [FieldHyperlink](fieldhyperlink)() | The default constructor. |
+| [FieldHyperlink](fieldhyperlink/)() | The default constructor. |
 
 ## Properties
 

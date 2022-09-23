@@ -20,7 +20,7 @@ public class BookmarkStart : Node
 
 | Name | Description |
 | --- | --- |
-| [BookmarkStart](bookmarkstart)(DocumentBase, string) | Initializes a new instance of the [`BookmarkStart`](./bookmarkstart/) class. |
+| [BookmarkStart](bookmarkstart/)(DocumentBase, string) | Initializes a new instance of the [`BookmarkStart`](./bookmarkstart/) class. |
 
 ## Properties
 

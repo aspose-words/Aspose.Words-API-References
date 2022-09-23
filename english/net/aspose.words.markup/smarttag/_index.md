@@ -18,7 +18,7 @@ public class SmartTag : CompositeNode
 
 | Name | Description |
 | --- | --- |
-| [SmartTag](smarttag)(DocumentBase) | Initializes a new instance of the [`SmartTag`](./smarttag/) class. |
+| [SmartTag](smarttag/)(DocumentBase) | Initializes a new instance of the [`SmartTag`](./smarttag/) class. |
 
 ## Properties
 

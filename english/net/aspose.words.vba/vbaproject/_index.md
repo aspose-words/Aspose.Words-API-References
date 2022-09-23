@@ -18,7 +18,7 @@ public class VbaProject
 
 | Name | Description |
 | --- | --- |
-| [VbaProject](vbaproject)() | Creates a blank VbaProject. |
+| [VbaProject](vbaproject/)() | Creates a blank VbaProject. |
 
 ## Properties
 

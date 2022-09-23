@@ -18,7 +18,7 @@ public class FieldTemplate : Field
 
 | Name | Description |
 | --- | --- |
-| [FieldTemplate](fieldtemplate)() | The default constructor. |
+| [FieldTemplate](fieldtemplate/)() | The default constructor. |
 
 ## Properties
 

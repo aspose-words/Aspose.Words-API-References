@@ -18,7 +18,7 @@ public class FieldDde : Field
 
 | Name | Description |
 | --- | --- |
-| [FieldDde](fielddde)() | The default constructor. |
+| [FieldDde](fielddde/)() | The default constructor. |
 
 ## Properties
 

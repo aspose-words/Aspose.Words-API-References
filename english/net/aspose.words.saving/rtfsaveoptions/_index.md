@@ -18,7 +18,7 @@ public class RtfSaveOptions : SaveOptions
 
 | Name | Description |
 | --- | --- |
-| [RtfSaveOptions](rtfsaveoptions)() | The default constructor. |
+| [RtfSaveOptions](rtfsaveoptions/)() | The default constructor. |
 
 ## Properties
 

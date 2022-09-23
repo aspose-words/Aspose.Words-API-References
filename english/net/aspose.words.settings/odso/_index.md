@@ -18,7 +18,7 @@ public class Odso
 
 | Name | Description |
 | --- | --- |
-| [Odso](odso)() | The default constructor. |
+| [Odso](odso/)() | The default constructor. |
 
 ## Properties
 

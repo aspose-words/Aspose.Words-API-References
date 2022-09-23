@@ -18,7 +18,7 @@ public class FieldTime : Field
 
 | Name | Description |
 | --- | --- |
-| [FieldTime](fieldtime)() | The default constructor. |
+| [FieldTime](fieldtime/)() | The default constructor. |
 
 ## Properties
 

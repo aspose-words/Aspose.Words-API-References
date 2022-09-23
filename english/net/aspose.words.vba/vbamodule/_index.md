@@ -18,7 +18,7 @@ public class VbaModule
 
 | Name | Description |
 | --- | --- |
-| [VbaModule](vbamodule)() | Creates an empty module. |
+| [VbaModule](vbamodule/)() | Creates an empty module. |
 
 ## Properties
 

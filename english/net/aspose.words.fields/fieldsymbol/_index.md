@@ -18,7 +18,7 @@ public class FieldSymbol : Field
 
 | Name | Description |
 | --- | --- |
-| [FieldSymbol](fieldsymbol)() | The default constructor. |
+| [FieldSymbol](fieldsymbol/)() | The default constructor. |
 
 ## Properties
 

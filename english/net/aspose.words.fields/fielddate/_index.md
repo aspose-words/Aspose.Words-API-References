@@ -18,7 +18,7 @@ public class FieldDate : Field
 
 | Name | Description |
 | --- | --- |
-| [FieldDate](fielddate)() | The default constructor. |
+| [FieldDate](fielddate/)() | The default constructor. |
 
 ## Properties
 

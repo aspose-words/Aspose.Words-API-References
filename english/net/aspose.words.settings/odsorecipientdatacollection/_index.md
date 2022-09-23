@@ -18,7 +18,7 @@ public class OdsoRecipientDataCollection : IEnumerable<OdsoRecipientData>
 
 | Name | Description |
 | --- | --- |
-| [OdsoRecipientDataCollection](odsorecipientdatacollection)() | The default constructor. |
+| [OdsoRecipientDataCollection](odsorecipientdatacollection/)() | The default constructor. |
 
 ## Properties
 

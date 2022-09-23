@@ -18,7 +18,7 @@ public class FieldCreateDate : Field
 
 | Name | Description |
 | --- | --- |
-| [FieldCreateDate](fieldcreatedate)() | The default constructor. |
+| [FieldCreateDate](fieldcreatedate/)() | The default constructor. |
 
 ## Properties
 

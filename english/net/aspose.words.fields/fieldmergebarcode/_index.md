@@ -18,7 +18,7 @@ public class FieldMergeBarcode : Field
 
 | Name | Description |
 | --- | --- |
-| [FieldMergeBarcode](fieldmergebarcode)() | The default constructor. |
+| [FieldMergeBarcode](fieldmergebarcode/)() | The default constructor. |
 
 ## Properties
 

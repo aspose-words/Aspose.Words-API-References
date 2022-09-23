@@ -18,7 +18,7 @@ public sealed class Section : CompositeNode
 
 | Name | Description |
 | --- | --- |
-| [Section](section)(DocumentBase) | Initializes a new instance of the Section class. |
+| [Section](section/)(DocumentBase) | Initializes a new instance of the Section class. |
 
 ## Properties
 

@@ -18,7 +18,7 @@ public class FieldAdvance : Field
 
 | Name | Description |
 | --- | --- |
-| [FieldAdvance](fieldadvance)() | The default constructor. |
+| [FieldAdvance](fieldadvance/)() | The default constructor. |
 
 ## Properties
 

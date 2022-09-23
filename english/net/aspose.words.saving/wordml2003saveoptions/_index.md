@@ -18,7 +18,7 @@ public class WordML2003SaveOptions : SaveOptions
 
 | Name | Description |
 | --- | --- |
-| [WordML2003SaveOptions](wordml2003saveoptions)() | The default constructor. |
+| [WordML2003SaveOptions](wordml2003saveoptions/)() | The default constructor. |
 
 ## Properties
 

@@ -18,7 +18,7 @@ public class OdsoFieldMapData
 
 | Name | Description |
 | --- | --- |
-| [OdsoFieldMapData](odsofieldmapdata)() | The default constructor. |
+| [OdsoFieldMapData](odsofieldmapdata/)() | The default constructor. |
 
 ## Properties
 

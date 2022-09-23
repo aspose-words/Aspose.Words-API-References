@@ -18,7 +18,7 @@ public class TxtSaveOptions : TxtSaveOptionsBase
 
 | Name | Description |
 | --- | --- |
-| [TxtSaveOptions](txtsaveoptions)() | The default constructor. |
+| [TxtSaveOptions](txtsaveoptions/)() | The default constructor. |
 
 ## Properties
 

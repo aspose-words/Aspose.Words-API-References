@@ -18,7 +18,7 @@ public class Footnote : InlineStory
 
 | Name | Description |
 | --- | --- |
-| [Footnote](footnote)(DocumentBase, FootnoteType) | Initializes an instance of the **Footnote** class. |
+| [Footnote](footnote/)(DocumentBase, FootnoteType) | Initializes an instance of the **Footnote** class. |
 
 ## Properties
 

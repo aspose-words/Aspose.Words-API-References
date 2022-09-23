@@ -18,7 +18,7 @@ public class FieldSeq : Field
 
 | Name | Description |
 | --- | --- |
-| [FieldSeq](fieldseq)() | The default constructor. |
+| [FieldSeq](fieldseq/)() | The default constructor. |
 
 ## Properties
 

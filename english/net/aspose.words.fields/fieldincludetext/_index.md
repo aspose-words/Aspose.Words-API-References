@@ -18,7 +18,7 @@ public class FieldIncludeText : Field
 
 | Name | Description |
 | --- | --- |
-| [FieldIncludeText](fieldincludetext)() | The default constructor. |
+| [FieldIncludeText](fieldincludetext/)() | The default constructor. |
 
 ## Properties
 

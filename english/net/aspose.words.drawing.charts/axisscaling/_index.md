@@ -18,7 +18,7 @@ public class AxisScaling
 
 | Name | Description |
 | --- | --- |
-| [AxisScaling](axisscaling)() | The default constructor. |
+| [AxisScaling](axisscaling/)() | The default constructor. |
 
 ## Properties
 

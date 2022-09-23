@@ -18,7 +18,7 @@ public class ToaCategories
 
 | Name | Description |
 | --- | --- |
-| [ToaCategories](toacategories)() | The default constructor. |
+| [ToaCategories](toacategories/)() | The default constructor. |
 
 ## Properties
 

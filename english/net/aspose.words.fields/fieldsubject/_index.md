@@ -18,7 +18,7 @@ public class FieldSubject : Field
 
 | Name | Description |
 | --- | --- |
-| [FieldSubject](fieldsubject)() | The default constructor. |
+| [FieldSubject](fieldsubject/)() | The default constructor. |
 
 ## Properties
 

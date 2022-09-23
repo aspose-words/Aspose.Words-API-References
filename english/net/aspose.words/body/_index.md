@@ -18,7 +18,7 @@ public class Body : Story
 
 | Name | Description |
 | --- | --- |
-| [Body](body)(DocumentBase) | Initializes a new instance of the **Body** class. |
+| [Body](body/)(DocumentBase) | Initializes a new instance of the **Body** class. |
 
 ## Properties
 

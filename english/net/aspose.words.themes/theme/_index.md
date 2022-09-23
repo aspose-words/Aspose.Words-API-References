@@ -18,7 +18,7 @@ public class Theme
 
 | Name | Description |
 | --- | --- |
-| [Theme](theme)() | The default constructor. |
+| [Theme](theme/)() | The default constructor. |
 
 ## Properties
 

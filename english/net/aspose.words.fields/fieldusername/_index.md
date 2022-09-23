@@ -18,7 +18,7 @@ public class FieldUserName : Field
 
 | Name | Description |
 | --- | --- |
-| [FieldUserName](fieldusername)() | The default constructor. |
+| [FieldUserName](fieldusername/)() | The default constructor. |
 
 ## Properties
 

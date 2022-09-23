@@ -18,7 +18,7 @@ public class FieldStyleRef : Field
 
 | Name | Description |
 | --- | --- |
-| [FieldStyleRef](fieldstyleref)() | The default constructor. |
+| [FieldStyleRef](fieldstyleref/)() | The default constructor. |
 
 ## Properties
 

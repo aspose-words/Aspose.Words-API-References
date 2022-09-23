@@ -18,7 +18,7 @@ public class TextWatermarkOptions
 
 | Name | Description |
 | --- | --- |
-| [TextWatermarkOptions](textwatermarkoptions)() | The default constructor. |
+| [TextWatermarkOptions](textwatermarkoptions/)() | The default constructor. |
 
 ## Properties
 

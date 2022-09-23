@@ -18,7 +18,7 @@ public class LayoutOptions
 
 | Name | Description |
 | --- | --- |
-| [LayoutOptions](layoutoptions)() | The default constructor. |
+| [LayoutOptions](layoutoptions/)() | The default constructor. |
 
 ## Properties
 

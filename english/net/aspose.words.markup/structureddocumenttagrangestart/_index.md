@@ -18,7 +18,7 @@ public class StructuredDocumentTagRangeStart : Node, IEnumerable<Node>, IStructu
 
 | Name | Description |
 | --- | --- |
-| [StructuredDocumentTagRangeStart](structureddocumenttagrangestart)(DocumentBase, SdtType) | Initializes a new instance of the **Structured document tag range start** class. |
+| [StructuredDocumentTagRangeStart](structureddocumenttagrangestart/)(DocumentBase, SdtType) | Initializes a new instance of the **Structured document tag range start** class. |
 
 ## Properties
 

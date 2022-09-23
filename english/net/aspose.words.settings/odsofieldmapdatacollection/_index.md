@@ -18,7 +18,7 @@ public class OdsoFieldMapDataCollection : IEnumerable<OdsoFieldMapData>
 
 | Name | Description |
 | --- | --- |
-| [OdsoFieldMapDataCollection](odsofieldmapdatacollection)() | The default constructor. |
+| [OdsoFieldMapDataCollection](odsofieldmapdatacollection/)() | The default constructor. |
 
 ## Properties
 

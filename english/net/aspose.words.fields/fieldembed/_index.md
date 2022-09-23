@@ -18,7 +18,7 @@ public class FieldEmbed : Field
 
 | Name | Description |
 | --- | --- |
-| [FieldEmbed](fieldembed)() | The default constructor. |
+| [FieldEmbed](fieldembed/)() | The default constructor. |
 
 ## Properties
 

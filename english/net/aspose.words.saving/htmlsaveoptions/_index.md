@@ -18,8 +18,8 @@ public class HtmlSaveOptions : SaveOptions
 
 | Name | Description |
 | --- | --- |
-| [HtmlSaveOptions](htmlsaveoptions#constructor)() | Initializes a new instance of this class that can be used to save a document in the Html format. |
-| [HtmlSaveOptions](htmlsaveoptions#constructor_1)(SaveFormat) | Initializes a new instance of this class that can be used to save a document in the Html, Mhtml, Epub or Azw3 format. |
+| [HtmlSaveOptions](htmlsaveoptions/#constructor)() | Initializes a new instance of this class that can be used to save a document in the Html format. |
+| [HtmlSaveOptions](htmlsaveoptions/#constructor_1)(SaveFormat) | Initializes a new instance of this class that can be used to save a document in the Html, Mhtml, Epub or Azw3 format. |
 
 ## Properties
 

@@ -18,7 +18,7 @@ public class WebExtensionProperty
 
 | Name | Description |
 | --- | --- |
-| [WebExtensionProperty](webextensionproperty)(string, string) | Creates web extension custom property with specified name and value. |
+| [WebExtensionProperty](webextensionproperty/)(string, string) | Creates web extension custom property with specified name and value. |
 
 ## Properties
 

@@ -18,7 +18,7 @@ public class Frameset
 
 | Name | Description |
 | --- | --- |
-| [Frameset](frameset)() | The default constructor. |
+| [Frameset](frameset/)() | The default constructor. |
 
 ## Properties
 

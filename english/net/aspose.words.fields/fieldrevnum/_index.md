@@ -18,7 +18,7 @@ public class FieldRevNum : Field
 
 | Name | Description |
 | --- | --- |
-| [FieldRevNum](fieldrevnum)() | The default constructor. |
+| [FieldRevNum](fieldrevnum/)() | The default constructor. |
 
 ## Properties
 

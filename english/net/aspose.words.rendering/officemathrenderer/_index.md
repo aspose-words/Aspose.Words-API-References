@@ -18,7 +18,7 @@ public class OfficeMathRenderer : NodeRendererBase
 
 | Name | Description |
 | --- | --- |
-| [OfficeMathRenderer](officemathrenderer)(OfficeMath) | Initializes a new instance of this class. |
+| [OfficeMathRenderer](officemathrenderer/)(OfficeMath) | Initializes a new instance of this class. |
 
 ## Properties
 

@@ -18,7 +18,7 @@ public class ShapeRenderer : NodeRendererBase
 
 | Name | Description |
 | --- | --- |
-| [ShapeRenderer](shaperenderer)(ShapeBase) | Initializes a new instance of this class. |
+| [ShapeRenderer](shaperenderer/)(ShapeBase) | Initializes a new instance of this class. |
 
 ## Properties
 

@@ -18,7 +18,7 @@ public sealed class CommentRangeEnd : Node
 
 | Name | Description |
 | --- | --- |
-| [CommentRangeEnd](commentrangeend)(DocumentBase, int) | Initializes a new instance of this class. |
+| [CommentRangeEnd](commentrangeend/)(DocumentBase, int) | Initializes a new instance of this class. |
 
 ## Properties
 

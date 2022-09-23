@@ -18,7 +18,7 @@ public class Table : CompositeNode
 
 | Name | Description |
 | --- | --- |
-| [Table](table)(DocumentBase) | Initializes a new instance of the **Table** class. |
+| [Table](table/)(DocumentBase) | Initializes a new instance of the **Table** class. |
 
 ## Properties
 

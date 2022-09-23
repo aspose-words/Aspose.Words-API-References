@@ -18,7 +18,7 @@ public class Paragraph : CompositeNode
 
 | Name | Description |
 | --- | --- |
-| [Paragraph](paragraph)(DocumentBase) | Initializes a new instance of the **Paragraph** class. |
+| [Paragraph](paragraph/)(DocumentBase) | Initializes a new instance of the **Paragraph** class. |
 
 ## Properties
 

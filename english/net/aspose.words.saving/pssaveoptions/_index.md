@@ -18,7 +18,7 @@ public class PsSaveOptions : FixedPageSaveOptions
 
 | Name | Description |
 | --- | --- |
-| [PsSaveOptions](pssaveoptions)() | The default constructor. |
+| [PsSaveOptions](pssaveoptions/)() | The default constructor. |
 
 ## Properties
 

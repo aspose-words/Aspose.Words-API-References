@@ -18,7 +18,7 @@ public class CleanupOptions
 
 | Name | Description |
 | --- | --- |
-| [CleanupOptions](cleanupoptions)() | The default constructor. |
+| [CleanupOptions](cleanupoptions/)() | The default constructor. |
 
 ## Properties
 

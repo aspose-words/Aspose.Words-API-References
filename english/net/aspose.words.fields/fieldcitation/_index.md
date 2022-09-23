@@ -18,7 +18,7 @@ public class FieldCitation : Field
 
 | Name | Description |
 | --- | --- |
-| [FieldCitation](fieldcitation)() | The default constructor. |
+| [FieldCitation](fieldcitation/)() | The default constructor. |
 
 ## Properties
 

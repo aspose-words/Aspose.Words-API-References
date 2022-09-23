@@ -18,7 +18,7 @@ public class FieldAddressBlock : Field
 
 | Name | Description |
 | --- | --- |
-| [FieldAddressBlock](fieldaddressblock)() | The default constructor. |
+| [FieldAddressBlock](fieldaddressblock/)() | The default constructor. |
 
 ## Properties
 

@@ -18,7 +18,7 @@ public class FramesetCollection : IEnumerable<Frameset>
 
 | Name | Description |
 | --- | --- |
-| [FramesetCollection](framesetcollection)() | The default constructor. |
+| [FramesetCollection](framesetcollection/)() | The default constructor. |
 
 ## Properties
 
