@@ -18,7 +18,7 @@ public class GlossaryDocument : DocumentBase
 
 | Name | Description |
 | --- | --- |
-| [GlossaryDocument](glossarydocument)() | The default constructor. |
+| [GlossaryDocument](glossarydocument/)() | The default constructor. |
 
 ## Properties
 

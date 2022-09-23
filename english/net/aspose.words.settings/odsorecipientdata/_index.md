@@ -18,7 +18,7 @@ public class OdsoRecipientData
 
 | Name | Description |
 | --- | --- |
-| [OdsoRecipientData](odsorecipientdata)() | The default constructor. |
+| [OdsoRecipientData](odsorecipientdata/)() | The default constructor. |
 
 ## Properties
 

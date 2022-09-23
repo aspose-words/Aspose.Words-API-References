@@ -18,7 +18,7 @@ public class OutlineOptions
 
 | Name | Description |
 | --- | --- |
-| [OutlineOptions](outlineoptions)() | The default constructor. |
+| [OutlineOptions](outlineoptions/)() | The default constructor. |
 
 ## Properties
 

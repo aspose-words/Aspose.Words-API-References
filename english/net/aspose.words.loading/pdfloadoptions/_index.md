@@ -18,7 +18,7 @@ public class PdfLoadOptions : LoadOptions
 
 | Name | Description |
 | --- | --- |
-| [PdfLoadOptions](pdfloadoptions)() | The default constructor. |
+| [PdfLoadOptions](pdfloadoptions/)() | The default constructor. |
 
 ## Properties
 

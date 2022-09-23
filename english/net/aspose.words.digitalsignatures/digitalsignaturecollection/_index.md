@@ -18,7 +18,7 @@ public class DigitalSignatureCollection : IEnumerable<DigitalSignature>
 
 | Name | Description |
 | --- | --- |
-| [DigitalSignatureCollection](digitalsignaturecollection)() | The default constructor. |
+| [DigitalSignatureCollection](digitalsignaturecollection/)() | The default constructor. |
 
 ## Properties
 

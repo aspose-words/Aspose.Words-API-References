@@ -18,7 +18,7 @@ public class PdfEncryptionDetails
 
 | Name | Description |
 | --- | --- |
-| [PdfEncryptionDetails](pdfencryptiondetails)(string, string) | Initializes an instance of this class. |
+| [PdfEncryptionDetails](pdfencryptiondetails/)(string, string) | Initializes an instance of this class. |
 
 ## Properties
 

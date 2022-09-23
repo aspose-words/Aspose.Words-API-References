@@ -18,7 +18,7 @@ public class ChmLoadOptions : LoadOptions
 
 | Name | Description |
 | --- | --- |
-| [ChmLoadOptions](chmloadoptions)() | Initializes a new instance of this class with default values. |
+| [ChmLoadOptions](chmloadoptions/)() | Initializes a new instance of this class with default values. |
 
 ## Properties
 

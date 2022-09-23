@@ -18,7 +18,7 @@ public class CustomXmlProperty
 
 | Name | Description |
 | --- | --- |
-| [CustomXmlProperty](customxmlproperty)(string, string, string) | Initializes a new instance of this class. |
+| [CustomXmlProperty](customxmlproperty/)(string, string, string) | Initializes a new instance of this class. |
 
 ## Properties
 

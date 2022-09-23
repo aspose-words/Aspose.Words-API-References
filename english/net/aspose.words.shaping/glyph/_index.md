@@ -16,7 +16,7 @@ public class Glyph
 
 | Name | Description |
 | --- | --- |
-| [Glyph](glyph)(int, short, short, short) |  |
+| [Glyph](glyph/)(int, short, short, short) |  |
 
 ## Properties
 

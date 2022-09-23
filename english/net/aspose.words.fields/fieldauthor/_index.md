@@ -18,7 +18,7 @@ public class FieldAuthor : Field
 
 | Name | Description |
 | --- | --- |
-| [FieldAuthor](fieldauthor)() | The default constructor. |
+| [FieldAuthor](fieldauthor/)() | The default constructor. |
 
 ## Properties
 

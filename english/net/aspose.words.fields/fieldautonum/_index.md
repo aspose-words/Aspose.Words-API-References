@@ -18,7 +18,7 @@ public class FieldAutoNum : Field
 
 | Name | Description |
 | --- | --- |
-| [FieldAutoNum](fieldautonum)() | The default constructor. |
+| [FieldAutoNum](fieldautonum/)() | The default constructor. |
 
 ## Properties
 

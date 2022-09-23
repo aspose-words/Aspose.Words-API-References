@@ -18,7 +18,7 @@ public class MailMergeSettings
 
 | Name | Description |
 | --- | --- |
-| [MailMergeSettings](mailmergesettings)() | The default constructor. |
+| [MailMergeSettings](mailmergesettings/)() | The default constructor. |
 
 ## Properties
 

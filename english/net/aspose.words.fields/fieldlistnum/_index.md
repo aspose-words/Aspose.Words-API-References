@@ -18,7 +18,7 @@ public class FieldListNum : Field
 
 | Name | Description |
 | --- | --- |
-| [FieldListNum](fieldlistnum)() | The default constructor. |
+| [FieldListNum](fieldlistnum/)() | The default constructor. |
 
 ## Properties
 

@@ -18,7 +18,7 @@ public class LayoutEnumerator
 
 | Name | Description |
 | --- | --- |
-| [LayoutEnumerator](layoutenumerator)(Document) | Initializes new instance of this class. |
+| [LayoutEnumerator](layoutenumerator/)(Document) | Initializes new instance of this class. |
 
 ## Properties
 

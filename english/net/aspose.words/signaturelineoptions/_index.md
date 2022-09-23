@@ -18,7 +18,7 @@ public class SignatureLineOptions
 
 | Name | Description |
 | --- | --- |
-| [SignatureLineOptions](signaturelineoptions)() | The default constructor. |
+| [SignatureLineOptions](signaturelineoptions/)() | The default constructor. |
 
 ## Properties
 

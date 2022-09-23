@@ -18,7 +18,7 @@ public class FieldTitle : Field
 
 | Name | Description |
 | --- | --- |
-| [FieldTitle](fieldtitle)() | The default constructor. |
+| [FieldTitle](fieldtitle/)() | The default constructor. |
 
 ## Properties
 

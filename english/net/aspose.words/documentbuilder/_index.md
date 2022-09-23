@@ -20,8 +20,8 @@ public class DocumentBuilder
 
 | Name | Description |
 | --- | --- |
-| [DocumentBuilder](documentbuilder#constructor)() | Initializes a new instance of this class. |
-| [DocumentBuilder](documentbuilder#constructor_1)(Document) | Initializes a new instance of this class. |
+| [DocumentBuilder](documentbuilder/#constructor)() | Initializes a new instance of this class. |
+| [DocumentBuilder](documentbuilder/#constructor_1)(Document) | Initializes a new instance of this class. |
 
 ## Properties
 

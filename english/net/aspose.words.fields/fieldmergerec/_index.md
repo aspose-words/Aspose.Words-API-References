@@ -18,7 +18,7 @@ public class FieldMergeRec : Field
 
 | Name | Description |
 | --- | --- |
-| [FieldMergeRec](fieldmergerec)() | The default constructor. |
+| [FieldMergeRec](fieldmergerec/)() | The default constructor. |
 
 ## Properties
 

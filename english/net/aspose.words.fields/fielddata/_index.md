@@ -18,7 +18,7 @@ public class FieldData : Field
 
 | Name | Description |
 | --- | --- |
-| [FieldData](fielddata)() | The default constructor. |
+| [FieldData](fielddata/)() | The default constructor. |
 
 ## Properties
 

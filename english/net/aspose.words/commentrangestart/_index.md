@@ -18,7 +18,7 @@ public sealed class CommentRangeStart : Node
 
 | Name | Description |
 | --- | --- |
-| [CommentRangeStart](commentrangestart)(DocumentBase, int) | Initializes a new instance of this class. |
+| [CommentRangeStart](commentrangestart/)(DocumentBase, int) | Initializes a new instance of this class. |
 
 ## Properties
 

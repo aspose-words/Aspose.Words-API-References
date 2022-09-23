@@ -18,7 +18,7 @@ public class TxtListIndentation
 
 | Name | Description |
 | --- | --- |
-| [TxtListIndentation](txtlistindentation)() | The default constructor. |
+| [TxtListIndentation](txtlistindentation/)() | The default constructor. |
 
 ## Properties
 

@@ -18,7 +18,7 @@ public class XmlDataLoadOptions
 
 | Name | Description |
 | --- | --- |
-| [XmlDataLoadOptions](xmldataloadoptions)() | Initializes a new instance of this class with default options. |
+| [XmlDataLoadOptions](xmldataloadoptions/)() | Initializes a new instance of this class with default options. |
 
 ## Properties
 

@@ -20,7 +20,7 @@ public class BookmarkEnd : Node
 
 | Name | Description |
 | --- | --- |
-| [BookmarkEnd](bookmarkend)(DocumentBase, string) | Initializes a new instance of the [`BookmarkEnd`](./bookmarkend/) class. |
+| [BookmarkEnd](bookmarkend/)(DocumentBase, string) | Initializes a new instance of the [`BookmarkEnd`](./bookmarkend/) class. |
 
 ## Properties
 

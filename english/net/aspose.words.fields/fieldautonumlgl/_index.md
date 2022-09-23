@@ -18,7 +18,7 @@ public class FieldAutoNumLgl : Field
 
 | Name | Description |
 | --- | --- |
-| [FieldAutoNumLgl](fieldautonumlgl)() | The default constructor. |
+| [FieldAutoNumLgl](fieldautonumlgl/)() | The default constructor. |
 
 ## Properties
 

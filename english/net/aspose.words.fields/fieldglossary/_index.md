@@ -18,7 +18,7 @@ public class FieldGlossary : Field
 
 | Name | Description |
 | --- | --- |
-| [FieldGlossary](fieldglossary)() | The default constructor. |
+| [FieldGlossary](fieldglossary/)() | The default constructor. |
 
 ## Properties
 

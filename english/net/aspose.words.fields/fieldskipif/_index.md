@@ -18,7 +18,7 @@ public class FieldSkipIf : Field
 
 | Name | Description |
 | --- | --- |
-| [FieldSkipIf](fieldskipif)() | The default constructor. |
+| [FieldSkipIf](fieldskipif/)() | The default constructor. |
 
 ## Properties
 

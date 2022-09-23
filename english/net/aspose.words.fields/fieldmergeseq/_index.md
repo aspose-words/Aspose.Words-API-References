@@ -18,7 +18,7 @@ public class FieldMergeSeq : Field
 
 | Name | Description |
 | --- | --- |
-| [FieldMergeSeq](fieldmergeseq)() | The default constructor. |
+| [FieldMergeSeq](fieldmergeseq/)() | The default constructor. |
 
 ## Properties
 

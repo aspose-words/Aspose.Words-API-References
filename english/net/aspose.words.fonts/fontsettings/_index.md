@@ -18,7 +18,7 @@ public class FontSettings
 
 | Name | Description |
 | --- | --- |
-| [FontSettings](fontsettings)() | The default constructor. |
+| [FontSettings](fontsettings/)() | The default constructor. |
 
 ## Properties
 

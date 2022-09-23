@@ -18,7 +18,7 @@ public class FieldNumWords : Field
 
 | Name | Description |
 | --- | --- |
-| [FieldNumWords](fieldnumwords)() | The default constructor. |
+| [FieldNumWords](fieldnumwords/)() | The default constructor. |
 
 ## Properties
 

@@ -18,7 +18,7 @@ public class FieldNumChars : Field
 
 | Name | Description |
 | --- | --- |
-| [FieldNumChars](fieldnumchars)() | The default constructor. |
+| [FieldNumChars](fieldnumchars/)() | The default constructor. |
 
 ## Properties
 

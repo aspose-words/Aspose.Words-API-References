@@ -18,7 +18,7 @@ public class CustomXmlPartCollection : IEnumerable<CustomXmlPart>
 
 | Name | Description |
 | --- | --- |
-| [CustomXmlPartCollection](customxmlpartcollection)() | The default constructor. |
+| [CustomXmlPartCollection](customxmlpartcollection/)() | The default constructor. |
 
 ## Properties
 

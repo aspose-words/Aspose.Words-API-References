@@ -18,7 +18,7 @@ public class FieldAutoNumOut : Field
 
 | Name | Description |
 | --- | --- |
-| [FieldAutoNumOut](fieldautonumout)() | The default constructor. |
+| [FieldAutoNumOut](fieldautonumout/)() | The default constructor. |
 
 ## Properties
 

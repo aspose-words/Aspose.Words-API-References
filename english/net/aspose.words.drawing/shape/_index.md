@@ -18,7 +18,7 @@ public sealed class Shape : ShapeBase
 
 | Name | Description |
 | --- | --- |
-| [Shape](shape)(DocumentBase, ShapeType) | Creates a new shape object. |
+| [Shape](shape/)(DocumentBase, ShapeType) | Creates a new shape object. |
 
 ## Properties
 

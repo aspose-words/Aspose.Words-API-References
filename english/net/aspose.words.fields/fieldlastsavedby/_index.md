@@ -18,7 +18,7 @@ public class FieldLastSavedBy : Field
 
 | Name | Description |
 | --- | --- |
-| [FieldLastSavedBy](fieldlastsavedby)() | The default constructor. |
+| [FieldLastSavedBy](fieldlastsavedby/)() | The default constructor. |
 
 ## Properties
 

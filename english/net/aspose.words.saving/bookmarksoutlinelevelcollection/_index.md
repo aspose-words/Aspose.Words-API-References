@@ -18,7 +18,7 @@ public class BookmarksOutlineLevelCollection : IEnumerable<KeyValuePair<string, 
 
 | Name | Description |
 | --- | --- |
-| [BookmarksOutlineLevelCollection](bookmarksoutlinelevelcollection)() | The default constructor. |
+| [BookmarksOutlineLevelCollection](bookmarksoutlinelevelcollection/)() | The default constructor. |
 
 ## Properties
 

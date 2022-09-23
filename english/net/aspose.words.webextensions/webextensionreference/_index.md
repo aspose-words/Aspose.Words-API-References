@@ -18,7 +18,7 @@ public class WebExtensionReference
 
 | Name | Description |
 | --- | --- |
-| [WebExtensionReference](webextensionreference)() | The default constructor. |
+| [WebExtensionReference](webextensionreference/)() | The default constructor. |
 
 ## Properties
 

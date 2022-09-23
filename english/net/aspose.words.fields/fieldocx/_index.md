@@ -18,7 +18,7 @@ public class FieldOcx : Field
 
 | Name | Description |
 | --- | --- |
-| [FieldOcx](fieldocx)() | The default constructor. |
+| [FieldOcx](fieldocx/)() | The default constructor. |
 
 ## Properties
 

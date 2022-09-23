@@ -18,7 +18,7 @@ public class Forms2OleControlCollection
 
 | Name | Description |
 | --- | --- |
-| [Forms2OleControlCollection](forms2olecontrolcollection)() | The default constructor. |
+| [Forms2OleControlCollection](forms2olecontrolcollection/)() | The default constructor. |
 
 ## Properties
 

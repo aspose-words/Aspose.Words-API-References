@@ -18,7 +18,7 @@ public class HeaderFooter : Story
 
 | Name | Description |
 | --- | --- |
-| [HeaderFooter](headerfooter)(DocumentBase, HeaderFooterType) | Creates a new header or footer of the specified type. |
+| [HeaderFooter](headerfooter/)(DocumentBase, HeaderFooterType) | Creates a new header or footer of the specified type. |
 
 ## Properties
 

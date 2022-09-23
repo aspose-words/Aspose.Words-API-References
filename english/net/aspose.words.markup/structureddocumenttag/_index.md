@@ -18,7 +18,7 @@ public class StructuredDocumentTag : CompositeNode, IStructuredDocumentTag
 
 | Name | Description |
 | --- | --- |
-| [StructuredDocumentTag](structureddocumenttag)(DocumentBase, SdtType, MarkupLevel) | Initializes a new instance of the **Structured document tag** class. |
+| [StructuredDocumentTag](structureddocumenttag/)(DocumentBase, SdtType, MarkupLevel) | Initializes a new instance of the **Structured document tag** class. |
 
 ## Properties
 

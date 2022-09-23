@@ -18,7 +18,7 @@ public class HtmlFixedSaveOptions : FixedPageSaveOptions
 
 | Name | Description |
 | --- | --- |
-| [HtmlFixedSaveOptions](htmlfixedsaveoptions)() | The default constructor. |
+| [HtmlFixedSaveOptions](htmlfixedsaveoptions/)() | The default constructor. |
 
 ## Properties
 

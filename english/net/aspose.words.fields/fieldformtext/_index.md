@@ -18,7 +18,7 @@ public class FieldFormText : Field
 
 | Name | Description |
 | --- | --- |
-| [FieldFormText](fieldformtext)() | The default constructor. |
+| [FieldFormText](fieldformtext/)() | The default constructor. |
 
 ## Properties
 

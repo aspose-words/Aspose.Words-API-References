@@ -18,7 +18,7 @@ public class FieldUserAddress : Field
 
 | Name | Description |
 | --- | --- |
-| [FieldUserAddress](fielduseraddress)() | The default constructor. |
+| [FieldUserAddress](fielduseraddress/)() | The default constructor. |
 
 ## Properties
 

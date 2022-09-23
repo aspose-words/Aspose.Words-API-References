@@ -18,7 +18,7 @@ public class FieldDdeAuto : Field
 
 | Name | Description |
 | --- | --- |
-| [FieldDdeAuto](fieldddeauto)() | The default constructor. |
+| [FieldDdeAuto](fieldddeauto/)() | The default constructor. |
 
 ## Properties
 

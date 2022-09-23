@@ -18,7 +18,7 @@ public class FieldImport : Field
 
 | Name | Description |
 | --- | --- |
-| [FieldImport](fieldimport)() | The default constructor. |
+| [FieldImport](fieldimport/)() | The default constructor. |
 
 ## Properties
 

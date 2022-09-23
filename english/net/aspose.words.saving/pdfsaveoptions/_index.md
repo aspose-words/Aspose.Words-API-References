@@ -18,7 +18,7 @@ public class PdfSaveOptions : FixedPageSaveOptions
 
 | Name | Description |
 | --- | --- |
-| [PdfSaveOptions](pdfsaveoptions)() | Initializes a new instance of this class that can be used to save a document in the Pdf format. |
+| [PdfSaveOptions](pdfsaveoptions/)() | Initializes a new instance of this class that can be used to save a document in the Pdf format. |
 
 ## Properties
 

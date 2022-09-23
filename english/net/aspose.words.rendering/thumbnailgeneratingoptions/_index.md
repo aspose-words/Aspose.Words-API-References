@@ -18,7 +18,7 @@ public class ThumbnailGeneratingOptions
 
 | Name | Description |
 | --- | --- |
-| [ThumbnailGeneratingOptions](thumbnailgeneratingoptions)() | The default constructor. |
+| [ThumbnailGeneratingOptions](thumbnailgeneratingoptions/)() | The default constructor. |
 
 ## Properties
 

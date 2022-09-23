@@ -18,7 +18,7 @@ public class FieldFileSize : Field
 
 | Name | Description |
 | --- | --- |
-| [FieldFileSize](fieldfilesize)() | The default constructor. |
+| [FieldFileSize](fieldfilesize/)() | The default constructor. |
 
 ## Properties
 

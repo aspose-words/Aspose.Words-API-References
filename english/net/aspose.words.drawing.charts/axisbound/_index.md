@@ -18,9 +18,9 @@ public sealed class AxisBound
 
 | Name | Description |
 | --- | --- |
-| [AxisBound](axisbound#constructor)() | Creates a new instance indicating that axis bound should be determined automatically by a word-processing application. |
-| [AxisBound](axisbound#constructor_2)(DateTime) | Creates an axis bound represented as datetime value. |
-| [AxisBound](axisbound#constructor_1)(double) | Creates an axis bound represented as a number. |
+| [AxisBound](axisbound/#constructor)() | Creates a new instance indicating that axis bound should be determined automatically by a word-processing application. |
+| [AxisBound](axisbound/#constructor_2)(DateTime) | Creates an axis bound represented as datetime value. |
+| [AxisBound](axisbound/#constructor_1)(double) | Creates an axis bound represented as a number. |
 
 ## Properties
 

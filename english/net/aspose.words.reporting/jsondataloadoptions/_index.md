@@ -18,7 +18,7 @@ public class JsonDataLoadOptions
 
 | Name | Description |
 | --- | --- |
-| [JsonDataLoadOptions](jsondataloadoptions)() | Initializes a new instance of this class with default options. |
+| [JsonDataLoadOptions](jsondataloadoptions/)() | Initializes a new instance of this class with default options. |
 
 ## Properties
 
