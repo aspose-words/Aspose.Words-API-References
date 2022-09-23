@@ -18,8 +18,8 @@ public class ChartLegendEntry
 
 | Name | Description |
 | --- | --- |
-| [Font](../../aspose.words.drawing.charts/chartlegendentry/font) { get; } | Provides access to the font formatting of this legend entry. |
-| [IsHidden](../../aspose.words.drawing.charts/chartlegendentry/ishidden) { get; set; } | Gets or sets a value indicating whether this entry is hidden in the chart legend. The default value is **false**. |
+| [Font](../../aspose.words.drawing.charts/chartlegendentry/font/) { get; } | Provides access to the font formatting of this legend entry. |
+| [IsHidden](../../aspose.words.drawing.charts/chartlegendentry/ishidden/) { get; set; } | Gets or sets a value indicating whether this entry is hidden in the chart legend. The default value is **false**. |
 
 ## Remarks
 

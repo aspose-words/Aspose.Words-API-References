@@ -24,10 +24,10 @@ public class UserInformation
 
 | Name | Description |
 | --- | --- |
-| static [DefaultUser](../../aspose.words.fields/userinformation/defaultuser) { get; } | Default user information. |
-| [Address](../../aspose.words.fields/userinformation/address) { get; set; } | Gets or sets the user's postal address. |
-| [Initials](../../aspose.words.fields/userinformation/initials) { get; set; } | Gets or sets the user's initials. |
-| [Name](../../aspose.words.fields/userinformation/name) { get; set; } | Gets or sets the user's name. |
+| static [DefaultUser](../../aspose.words.fields/userinformation/defaultuser/) { get; } | Default user information. |
+| [Address](../../aspose.words.fields/userinformation/address/) { get; set; } | Gets or sets the user's postal address. |
+| [Initials](../../aspose.words.fields/userinformation/initials/) { get; set; } | Gets or sets the user's initials. |
+| [Name](../../aspose.words.fields/userinformation/name/) { get; set; } | Gets or sets the user's name. |
 
 ## Examples
 

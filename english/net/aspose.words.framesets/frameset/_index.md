@@ -24,9 +24,9 @@ public class Frameset
 
 | Name | Description |
 | --- | --- |
-| [ChildFramesets](../../aspose.words.framesets/frameset/childframesets) { get; } | Gets the collection of child frames and frames pages. |
-| [FrameDefaultUrl](../../aspose.words.framesets/frameset/framedefaulturl) { get; set; } | Gets or sets the web page URL or document file name to display in this frame. |
-| [IsFrameLinkToFile](../../aspose.words.framesets/frameset/isframelinktofile) { get; set; } | Gets or sets a value indicating whether the web page or document file name specified in the [`FrameDefaultUrl`](./framedefaulturl/) property is an external resource the frame is linked with. |
+| [ChildFramesets](../../aspose.words.framesets/frameset/childframesets/) { get; } | Gets the collection of child frames and frames pages. |
+| [FrameDefaultUrl](../../aspose.words.framesets/frameset/framedefaulturl/) { get; set; } | Gets or sets the web page URL or document file name to display in this frame. |
+| [IsFrameLinkToFile](../../aspose.words.framesets/frameset/isframelinktofile/) { get; set; } | Gets or sets a value indicating whether the web page or document file name specified in the [`FrameDefaultUrl`](./framedefaulturl/) property is an external resource the frame is linked with. |
 
 ## Remarks
 

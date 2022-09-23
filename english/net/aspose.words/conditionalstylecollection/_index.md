@@ -18,27 +18,27 @@ public sealed class ConditionalStyleCollection : IEnumerable<ConditionalStyle>
 
 | Name | Description |
 | --- | --- |
-| [BottomLeftCell](../../aspose.words/conditionalstylecollection/bottomleftcell) { get; } | Gets the bottom left cell style. |
-| [BottomRightCell](../../aspose.words/conditionalstylecollection/bottomrightcell) { get; } | Gets the bottom right cell style. |
-| [Count](../../aspose.words/conditionalstylecollection/count) { get; } | Gets the number of conditional styles in the collection. |
-| [EvenColumnBanding](../../aspose.words/conditionalstylecollection/evencolumnbanding) { get; } | Gets the even column banding style. |
-| [EvenRowBanding](../../aspose.words/conditionalstylecollection/evenrowbanding) { get; } | Gets the even row banding style. |
-| [FirstColumn](../../aspose.words/conditionalstylecollection/firstcolumn) { get; } | Gets the first column style. |
-| [FirstRow](../../aspose.words/conditionalstylecollection/firstrow) { get; } | Gets the first row style. |
-| [Item](../../aspose.words/conditionalstylecollection/item) { get; } | Retrieves a [`ConditionalStyle`](../conditionalstyle/) object by conditional style type. (2 indexers) |
-| [LastColumn](../../aspose.words/conditionalstylecollection/lastcolumn) { get; } | Gets the last column style. |
-| [LastRow](../../aspose.words/conditionalstylecollection/lastrow) { get; } | Gets the last row style. |
-| [OddColumnBanding](../../aspose.words/conditionalstylecollection/oddcolumnbanding) { get; } | Gets the odd column banding style. |
-| [OddRowBanding](../../aspose.words/conditionalstylecollection/oddrowbanding) { get; } | Gets the odd row banding style. |
-| [TopLeftCell](../../aspose.words/conditionalstylecollection/topleftcell) { get; } | Gets the top left cell style. |
-| [TopRightCell](../../aspose.words/conditionalstylecollection/toprightcell) { get; } | Gets the top right cell style. |
+| [BottomLeftCell](../../aspose.words/conditionalstylecollection/bottomleftcell/) { get; } | Gets the bottom left cell style. |
+| [BottomRightCell](../../aspose.words/conditionalstylecollection/bottomrightcell/) { get; } | Gets the bottom right cell style. |
+| [Count](../../aspose.words/conditionalstylecollection/count/) { get; } | Gets the number of conditional styles in the collection. |
+| [EvenColumnBanding](../../aspose.words/conditionalstylecollection/evencolumnbanding/) { get; } | Gets the even column banding style. |
+| [EvenRowBanding](../../aspose.words/conditionalstylecollection/evenrowbanding/) { get; } | Gets the even row banding style. |
+| [FirstColumn](../../aspose.words/conditionalstylecollection/firstcolumn/) { get; } | Gets the first column style. |
+| [FirstRow](../../aspose.words/conditionalstylecollection/firstrow/) { get; } | Gets the first row style. |
+| [Item](../../aspose.words/conditionalstylecollection/item/) { get; } | Retrieves a [`ConditionalStyle`](../conditionalstyle/) object by conditional style type. (2 indexers) |
+| [LastColumn](../../aspose.words/conditionalstylecollection/lastcolumn/) { get; } | Gets the last column style. |
+| [LastRow](../../aspose.words/conditionalstylecollection/lastrow/) { get; } | Gets the last row style. |
+| [OddColumnBanding](../../aspose.words/conditionalstylecollection/oddcolumnbanding/) { get; } | Gets the odd column banding style. |
+| [OddRowBanding](../../aspose.words/conditionalstylecollection/oddrowbanding/) { get; } | Gets the odd row banding style. |
+| [TopLeftCell](../../aspose.words/conditionalstylecollection/topleftcell/) { get; } | Gets the top left cell style. |
+| [TopRightCell](../../aspose.words/conditionalstylecollection/toprightcell/) { get; } | Gets the top right cell style. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [ClearFormatting](../../aspose.words/conditionalstylecollection/clearformatting)() | Clears all conditional styles of the table style. |
-| [GetEnumerator](../../aspose.words/conditionalstylecollection/getenumerator)() | Returns an enumerator object that can be used to iterate over all conditional styles in the collection. |
+| [ClearFormatting](../../aspose.words/conditionalstylecollection/clearformatting/)() | Clears all conditional styles of the table style. |
+| [GetEnumerator](../../aspose.words/conditionalstylecollection/getenumerator/)() | Returns an enumerator object that can be used to iterate over all conditional styles in the collection. |
 
 ## Remarks
 

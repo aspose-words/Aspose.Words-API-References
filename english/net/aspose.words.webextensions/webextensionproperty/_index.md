@@ -24,8 +24,8 @@ public class WebExtensionProperty
 
 | Name | Description |
 | --- | --- |
-| [Name](../../aspose.words.webextensions/webextensionproperty/name) { get; set; } | Specifies a custom property name |
-| [Value](../../aspose.words.webextensions/webextensionproperty/value) { get; set; } | Specifies a custom property value. |
+| [Name](../../aspose.words.webextensions/webextensionproperty/name/) { get; set; } | Specifies a custom property name |
+| [Value](../../aspose.words.webextensions/webextensionproperty/value/) { get; set; } | Specifies a custom property value. |
 
 ### See Also
 

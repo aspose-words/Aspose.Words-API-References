@@ -18,10 +18,10 @@ public class PhysicalFontInfo
 
 | Name | Description |
 | --- | --- |
-| [FilePath](../../aspose.words.fonts/physicalfontinfo/filepath) { get; } | Path to the font file if any. |
-| [FontFamilyName](../../aspose.words.fonts/physicalfontinfo/fontfamilyname) { get; } | Family name of the font. |
-| [FullFontName](../../aspose.words.fonts/physicalfontinfo/fullfontname) { get; } | Full name of the font. |
-| [Version](../../aspose.words.fonts/physicalfontinfo/version) { get; } | Version string of the font. |
+| [FilePath](../../aspose.words.fonts/physicalfontinfo/filepath/) { get; } | Path to the font file if any. |
+| [FontFamilyName](../../aspose.words.fonts/physicalfontinfo/fontfamilyname/) { get; } | Family name of the font. |
+| [FullFontName](../../aspose.words.fonts/physicalfontinfo/fullfontname/) { get; } | Full name of the font. |
+| [Version](../../aspose.words.fonts/physicalfontinfo/version/) { get; } | Version string of the font. |
 
 ## Examples
 

@@ -18,9 +18,9 @@ public sealed class ComparisonExpression
 
 | Name | Description |
 | --- | --- |
-| [ComparisonOperator](../../aspose.words.fields/comparisonexpression/comparisonoperator) { get; } | Gets the comparison operator. |
-| [LeftExpression](../../aspose.words.fields/comparisonexpression/leftexpression) { get; } | Gets the left expression. |
-| [RightExpression](../../aspose.words.fields/comparisonexpression/rightexpression) { get; } | Gets the right expression. |
+| [ComparisonOperator](../../aspose.words.fields/comparisonexpression/comparisonoperator/) { get; } | Gets the comparison operator. |
+| [LeftExpression](../../aspose.words.fields/comparisonexpression/leftexpression/) { get; } | Gets the left expression. |
+| [RightExpression](../../aspose.words.fields/comparisonexpression/rightexpression/) { get; } | Gets the right expression. |
 
 ## Examples
 

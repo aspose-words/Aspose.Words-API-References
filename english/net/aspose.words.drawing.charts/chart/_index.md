@@ -18,13 +18,13 @@ public class Chart
 
 | Name | Description |
 | --- | --- |
-| [AxisX](../../aspose.words.drawing.charts/chart/axisx) { get; } | Provides access to properties of the X axis of the chart. |
-| [AxisY](../../aspose.words.drawing.charts/chart/axisy) { get; } | Provides access to properties of the Y axis of the chart. |
-| [AxisZ](../../aspose.words.drawing.charts/chart/axisz) { get; } | Provides access to properties of the Z axis of the chart. |
-| [Legend](../../aspose.words.drawing.charts/chart/legend) { get; } | Provides access to the chart legend properties. |
-| [Series](../../aspose.words.drawing.charts/chart/series) { get; } | Provides access to series collection. |
-| [SourceFullName](../../aspose.words.drawing.charts/chart/sourcefullname) { get; set; } | Gets the path and name of an xls/xlsx file this chart is linked to. |
-| [Title](../../aspose.words.drawing.charts/chart/title) { get; } | Provides access to the chart title properties. |
+| [AxisX](../../aspose.words.drawing.charts/chart/axisx/) { get; } | Provides access to properties of the X axis of the chart. |
+| [AxisY](../../aspose.words.drawing.charts/chart/axisy/) { get; } | Provides access to properties of the Y axis of the chart. |
+| [AxisZ](../../aspose.words.drawing.charts/chart/axisz/) { get; } | Provides access to properties of the Z axis of the chart. |
+| [Legend](../../aspose.words.drawing.charts/chart/legend/) { get; } | Provides access to the chart legend properties. |
+| [Series](../../aspose.words.drawing.charts/chart/series/) { get; } | Provides access to series collection. |
+| [SourceFullName](../../aspose.words.drawing.charts/chart/sourcefullname/) { get; set; } | Gets the path and name of an xls/xlsx file this chart is linked to. |
+| [Title](../../aspose.words.drawing.charts/chart/title/) { get; } | Provides access to the chart title properties. |
 
 ## Examples
 

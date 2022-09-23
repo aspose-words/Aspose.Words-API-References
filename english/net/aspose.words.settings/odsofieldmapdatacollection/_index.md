@@ -24,17 +24,17 @@ public class OdsoFieldMapDataCollection : IEnumerable<OdsoFieldMapData>
 
 | Name | Description |
 | --- | --- |
-| [Count](../../aspose.words.settings/odsofieldmapdatacollection/count) { get; } | Gets the number of elements contained in the collection. |
-| [Item](../../aspose.words.settings/odsofieldmapdatacollection/item) { get; set; } | Gets or sets an item in this collection. |
+| [Count](../../aspose.words.settings/odsofieldmapdatacollection/count/) { get; } | Gets the number of elements contained in the collection. |
+| [Item](../../aspose.words.settings/odsofieldmapdatacollection/item/) { get; set; } | Gets or sets an item in this collection. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Add](../../aspose.words.settings/odsofieldmapdatacollection/add)(OdsoFieldMapData) | Adds an object to the end of this collection. |
-| [Clear](../../aspose.words.settings/odsofieldmapdatacollection/clear)() | Removes all elements from this collection. |
-| [GetEnumerator](../../aspose.words.settings/odsofieldmapdatacollection/getenumerator)() | Returns an enumerator object that can be used to iterate over all items in the collection. |
-| [RemoveAt](../../aspose.words.settings/odsofieldmapdatacollection/removeat)(int) | Removes the element at the specified index. |
+| [Add](../../aspose.words.settings/odsofieldmapdatacollection/add/)(OdsoFieldMapData) | Adds an object to the end of this collection. |
+| [Clear](../../aspose.words.settings/odsofieldmapdatacollection/clear/)() | Removes all elements from this collection. |
+| [GetEnumerator](../../aspose.words.settings/odsofieldmapdatacollection/getenumerator/)() | Returns an enumerator object that can be used to iterate over all items in the collection. |
+| [RemoveAt](../../aspose.words.settings/odsofieldmapdatacollection/removeat/)(int) | Removes the element at the specified index. |
 
 ## Examples
 

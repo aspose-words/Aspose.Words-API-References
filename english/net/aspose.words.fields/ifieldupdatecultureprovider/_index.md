@@ -18,7 +18,7 @@ public interface IFieldUpdateCultureProvider
 
 | Name | Description |
 | --- | --- |
-| [GetCulture](../../aspose.words.fields/ifieldupdatecultureprovider/getculture)(string, Field) | Returns a CultureInfo object to be used during the field's update. |
+| [GetCulture](../../aspose.words.fields/ifieldupdatecultureprovider/getculture/)(string, Field) | Returns a CultureInfo object to be used during the field's update. |
 
 ## Examples
 

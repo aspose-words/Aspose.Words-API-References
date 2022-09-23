@@ -24,20 +24,20 @@ public class Odso
 
 | Name | Description |
 | --- | --- |
-| [ColumnDelimiter](../../aspose.words.settings/odso/columndelimiter) { get; set; } | Specifies the character which shall be interpreted as the column delimiter used to separate columns within external data sources. The default value is 0 which means there is no column delimiter defined. |
-| [DataSource](../../aspose.words.settings/odso/datasource) { get; set; } | Specifies the location of the external data source to be connected to a document to perform the mail merge. The default value is an empty string. |
-| [DataSourceType](../../aspose.words.settings/odso/datasourcetype) { get; set; } | Specifies the type of the external data source to be connected to as part of the ODSO connection information for this mail merge. The default value is Default. |
-| [FieldMapDatas](../../aspose.words.settings/odso/fieldmapdatas) { get; set; } | Gets or sets a collection of objects that specify how columns from the external data source are mapped to the predefined merge field names in the document. This object is never null. |
-| [FirstRowContainsColumnNames](../../aspose.words.settings/odso/firstrowcontainscolumnnames) { get; set; } | Specifies that a hosting application shall treat the first row of data in the specified external data source as a header row containing the names of each column in the data source. The default value is `false`. |
-| [RecipientDatas](../../aspose.words.settings/odso/recipientdatas) { get; set; } | Gets or sets a collection of objects that specify inclusion/exclusion of individual records in the mail merge. This object is never null. |
-| [TableName](../../aspose.words.settings/odso/tablename) { get; set; } | Specifies the particular set of data that a source shall be connected to within an external data source. The default value is an empty string. |
-| [UdlConnectString](../../aspose.words.settings/odso/udlconnectstring) { get; set; } | Specifies the Universal Data Link (UDL) connection string used to connect to an external data source. The default value is an empty string. |
+| [ColumnDelimiter](../../aspose.words.settings/odso/columndelimiter/) { get; set; } | Specifies the character which shall be interpreted as the column delimiter used to separate columns within external data sources. The default value is 0 which means there is no column delimiter defined. |
+| [DataSource](../../aspose.words.settings/odso/datasource/) { get; set; } | Specifies the location of the external data source to be connected to a document to perform the mail merge. The default value is an empty string. |
+| [DataSourceType](../../aspose.words.settings/odso/datasourcetype/) { get; set; } | Specifies the type of the external data source to be connected to as part of the ODSO connection information for this mail merge. The default value is Default. |
+| [FieldMapDatas](../../aspose.words.settings/odso/fieldmapdatas/) { get; set; } | Gets or sets a collection of objects that specify how columns from the external data source are mapped to the predefined merge field names in the document. This object is never null. |
+| [FirstRowContainsColumnNames](../../aspose.words.settings/odso/firstrowcontainscolumnnames/) { get; set; } | Specifies that a hosting application shall treat the first row of data in the specified external data source as a header row containing the names of each column in the data source. The default value is `false`. |
+| [RecipientDatas](../../aspose.words.settings/odso/recipientdatas/) { get; set; } | Gets or sets a collection of objects that specify inclusion/exclusion of individual records in the mail merge. This object is never null. |
+| [TableName](../../aspose.words.settings/odso/tablename/) { get; set; } | Specifies the particular set of data that a source shall be connected to within an external data source. The default value is an empty string. |
+| [UdlConnectString](../../aspose.words.settings/odso/udlconnectstring/) { get; set; } | Specifies the Universal Data Link (UDL) connection string used to connect to an external data source. The default value is an empty string. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Clone](../../aspose.words.settings/odso/clone)() | Returns a deep clone of this object. |
+| [Clone](../../aspose.words.settings/odso/clone/)() | Returns a deep clone of this object. |
 
 ## Remarks
 

@@ -18,28 +18,28 @@ public class OleFormat
 
 | Name | Description |
 | --- | --- |
-| [AutoUpdate](../../aspose.words.drawing/oleformat/autoupdate) { get; set; } | Specifies whether the link to the OLE object is automatically updated or not in Microsoft Word. |
-| [Clsid](../../aspose.words.drawing/oleformat/clsid) { get; } | Gets the CLSID of the OLE object. |
-| [IconCaption](../../aspose.words.drawing/oleformat/iconcaption) { get; } | Gets icon caption of OLE object. |
-| [IsLink](../../aspose.words.drawing/oleformat/islink) { get; } | Returns true if the OLE object is linked (when [`SourceFullName`](./sourcefullname/) is specified). |
-| [IsLocked](../../aspose.words.drawing/oleformat/islocked) { get; set; } | Specifies whether the link to the OLE object is locked from updates. |
-| [OleControl](../../aspose.words.drawing/oleformat/olecontrol) { get; } | Gets [`OleControl`](./olecontrol/) objects if this OLE object is an ActiveX control. Otherwise this property is null. |
-| [OleIcon](../../aspose.words.drawing/oleformat/oleicon) { get; } | Gets the draw aspect of the OLE object. When **true**, the OLE object is displayed as an icon. When **false**, the OLE object is displayed as content. |
-| [OlePackage](../../aspose.words.drawing/oleformat/olepackage) { get; } | Provide access to [`OlePackage`](../olepackage/) if OLE object is an OLE Package. Returns null otherwise. |
-| [ProgId](../../aspose.words.drawing/oleformat/progid) { get; set; } | Gets or sets the ProgID of the OLE object. |
-| [SourceFullName](../../aspose.words.drawing/oleformat/sourcefullname) { get; set; } | Gets or sets the path and name of the source file for the linked OLE object. |
-| [SourceItem](../../aspose.words.drawing/oleformat/sourceitem) { get; set; } | Gets or sets a string that is used to identify the portion of the source file that is being linked. |
-| [SuggestedExtension](../../aspose.words.drawing/oleformat/suggestedextension) { get; } | Gets the file extension suggested for the current embedded object if you want to save it into a file. |
-| [SuggestedFileName](../../aspose.words.drawing/oleformat/suggestedfilename) { get; } | Gets the file name suggested for the current embedded object if you want to save it into a file. |
+| [AutoUpdate](../../aspose.words.drawing/oleformat/autoupdate/) { get; set; } | Specifies whether the link to the OLE object is automatically updated or not in Microsoft Word. |
+| [Clsid](../../aspose.words.drawing/oleformat/clsid/) { get; } | Gets the CLSID of the OLE object. |
+| [IconCaption](../../aspose.words.drawing/oleformat/iconcaption/) { get; } | Gets icon caption of OLE object. |
+| [IsLink](../../aspose.words.drawing/oleformat/islink/) { get; } | Returns true if the OLE object is linked (when [`SourceFullName`](./sourcefullname/) is specified). |
+| [IsLocked](../../aspose.words.drawing/oleformat/islocked/) { get; set; } | Specifies whether the link to the OLE object is locked from updates. |
+| [OleControl](../../aspose.words.drawing/oleformat/olecontrol/) { get; } | Gets [`OleControl`](./olecontrol/) objects if this OLE object is an ActiveX control. Otherwise this property is null. |
+| [OleIcon](../../aspose.words.drawing/oleformat/oleicon/) { get; } | Gets the draw aspect of the OLE object. When **true**, the OLE object is displayed as an icon. When **false**, the OLE object is displayed as content. |
+| [OlePackage](../../aspose.words.drawing/oleformat/olepackage/) { get; } | Provide access to [`OlePackage`](../olepackage/) if OLE object is an OLE Package. Returns null otherwise. |
+| [ProgId](../../aspose.words.drawing/oleformat/progid/) { get; set; } | Gets or sets the ProgID of the OLE object. |
+| [SourceFullName](../../aspose.words.drawing/oleformat/sourcefullname/) { get; set; } | Gets or sets the path and name of the source file for the linked OLE object. |
+| [SourceItem](../../aspose.words.drawing/oleformat/sourceitem/) { get; set; } | Gets or sets a string that is used to identify the portion of the source file that is being linked. |
+| [SuggestedExtension](../../aspose.words.drawing/oleformat/suggestedextension/) { get; } | Gets the file extension suggested for the current embedded object if you want to save it into a file. |
+| [SuggestedFileName](../../aspose.words.drawing/oleformat/suggestedfilename/) { get; } | Gets the file name suggested for the current embedded object if you want to save it into a file. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [GetOleEntry](../../aspose.words.drawing/oleformat/getoleentry)(string) | Gets OLE object data entry. |
-| [GetRawData](../../aspose.words.drawing/oleformat/getrawdata)() | Gets OLE object raw data. |
-| [Save](../../aspose.words.drawing/oleformat/save#save)(Stream) | Saves the data of the embedded object into the specified stream. |
-| [Save](../../aspose.words.drawing/oleformat/save#save_1)(string) | Saves the data of the embedded object into a file with the specified name. |
+| [GetOleEntry](../../aspose.words.drawing/oleformat/getoleentry/)(string) | Gets OLE object data entry. |
+| [GetRawData](../../aspose.words.drawing/oleformat/getrawdata/)() | Gets OLE object raw data. |
+| [Save](../../aspose.words.drawing/oleformat/save/#save)(Stream) | Saves the data of the embedded object into the specified stream. |
+| [Save](../../aspose.words.drawing/oleformat/save/#save_1)(string) | Saves the data of the embedded object into a file with the specified name. |
 
 ## Remarks
 

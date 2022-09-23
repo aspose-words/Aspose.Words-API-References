@@ -18,17 +18,17 @@ public class FormFieldCollection : IEnumerable<FormField>
 
 | Name | Description |
 | --- | --- |
-| [Count](../../aspose.words.fields/formfieldcollection/count) { get; } | Returns the number of form fields in the collection. |
-| [Item](../../aspose.words.fields/formfieldcollection/item) { get; } | Returns a form field at the specified index. (2 indexers) |
+| [Count](../../aspose.words.fields/formfieldcollection/count/) { get; } | Returns the number of form fields in the collection. |
+| [Item](../../aspose.words.fields/formfieldcollection/item/) { get; } | Returns a form field at the specified index. (2 indexers) |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Clear](../../aspose.words.fields/formfieldcollection/clear)() | Removes all form fields from this collection and from the document. |
-| [GetEnumerator](../../aspose.words.fields/formfieldcollection/getenumerator)() | Returns an enumerator object. |
-| [Remove](../../aspose.words.fields/formfieldcollection/remove)(string) | Removes a form field with the specified name. |
-| [RemoveAt](../../aspose.words.fields/formfieldcollection/removeat)(int) | Removes a form field at the specified index. |
+| [Clear](../../aspose.words.fields/formfieldcollection/clear/)() | Removes all form fields from this collection and from the document. |
+| [GetEnumerator](../../aspose.words.fields/formfieldcollection/getenumerator/)() | Returns an enumerator object. |
+| [Remove](../../aspose.words.fields/formfieldcollection/remove/)(string) | Removes a form field with the specified name. |
+| [RemoveAt](../../aspose.words.fields/formfieldcollection/removeat/)(int) | Removes a form field at the specified index. |
 
 ## Examples
 

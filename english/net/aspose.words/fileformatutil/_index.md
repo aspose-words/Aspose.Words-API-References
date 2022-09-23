@@ -18,16 +18,16 @@ public static class FileFormatUtil
 
 | Name | Description |
 | --- | --- |
-| static [ContentTypeToLoadFormat](../../aspose.words/fileformatutil/contenttypetoloadformat)(string) | Converts IANA content type into a load format enumerated value. |
-| static [ContentTypeToSaveFormat](../../aspose.words/fileformatutil/contenttypetosaveformat)(string) | Converts IANA content type into a save format enumerated value. |
-| static [DetectFileFormat](../../aspose.words/fileformatutil/detectfileformat#detectfileformat)(Stream) | Detects and returns the information about a format of a document stored in a stream. |
-| static [DetectFileFormat](../../aspose.words/fileformatutil/detectfileformat#detectfileformat_1)(string) | Detects and returns the information about a format of a document stored in a disk file. |
-| static [ExtensionToSaveFormat](../../aspose.words/fileformatutil/extensiontosaveformat)(string) | Converts a file name extension into a [`SaveFormat`](../saveformat/) value. |
-| static [ImageTypeToExtension](../../aspose.words/fileformatutil/imagetypetoextension)(ImageType) | Converts an Aspose.Words image type enumerated value into a file extension. The returned extension is a lower-case string with a leading dot. |
-| static [LoadFormatToExtension](../../aspose.words/fileformatutil/loadformattoextension)(LoadFormat) | Converts a load format enumerated value into a file extension. The returned extension is a lower-case string with a leading dot. |
-| static [LoadFormatToSaveFormat](../../aspose.words/fileformatutil/loadformattosaveformat)(LoadFormat) | Converts a [`LoadFormat`](../loadformat/) value to a [`SaveFormat`](../saveformat/) value if possible. |
-| static [SaveFormatToExtension](../../aspose.words/fileformatutil/saveformattoextension)(SaveFormat) | Converts a save format enumerated value into a file extension. The returned extension is a lower-case string with a leading dot. |
-| static [SaveFormatToLoadFormat](../../aspose.words/fileformatutil/saveformattoloadformat)(SaveFormat) | Converts a [`SaveFormat`](../saveformat/) value to a [`LoadFormat`](../loadformat/) value if possible. |
+| static [ContentTypeToLoadFormat](../../aspose.words/fileformatutil/contenttypetoloadformat/)(string) | Converts IANA content type into a load format enumerated value. |
+| static [ContentTypeToSaveFormat](../../aspose.words/fileformatutil/contenttypetosaveformat/)(string) | Converts IANA content type into a save format enumerated value. |
+| static [DetectFileFormat](../../aspose.words/fileformatutil/detectfileformat/#detectfileformat)(Stream) | Detects and returns the information about a format of a document stored in a stream. |
+| static [DetectFileFormat](../../aspose.words/fileformatutil/detectfileformat/#detectfileformat_1)(string) | Detects and returns the information about a format of a document stored in a disk file. |
+| static [ExtensionToSaveFormat](../../aspose.words/fileformatutil/extensiontosaveformat/)(string) | Converts a file name extension into a [`SaveFormat`](../saveformat/) value. |
+| static [ImageTypeToExtension](../../aspose.words/fileformatutil/imagetypetoextension/)(ImageType) | Converts an Aspose.Words image type enumerated value into a file extension. The returned extension is a lower-case string with a leading dot. |
+| static [LoadFormatToExtension](../../aspose.words/fileformatutil/loadformattoextension/)(LoadFormat) | Converts a load format enumerated value into a file extension. The returned extension is a lower-case string with a leading dot. |
+| static [LoadFormatToSaveFormat](../../aspose.words/fileformatutil/loadformattosaveformat/)(LoadFormat) | Converts a [`LoadFormat`](../loadformat/) value to a [`SaveFormat`](../saveformat/) value if possible. |
+| static [SaveFormatToExtension](../../aspose.words/fileformatutil/saveformattoextension/)(SaveFormat) | Converts a save format enumerated value into a file extension. The returned extension is a lower-case string with a leading dot. |
+| static [SaveFormatToLoadFormat](../../aspose.words/fileformatutil/saveformattoloadformat/)(SaveFormat) | Converts a [`SaveFormat`](../saveformat/) value to a [`LoadFormat`](../loadformat/) value if possible. |
 
 ## Examples
 

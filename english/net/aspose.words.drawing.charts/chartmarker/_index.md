@@ -18,9 +18,9 @@ public class ChartMarker
 
 | Name | Description |
 | --- | --- |
-| [Format](../../aspose.words.drawing.charts/chartmarker/format) { get; } | Provides access to fill and line formatting of this marker. |
-| [Size](../../aspose.words.drawing.charts/chartmarker/size) { get; set; } | Gets or sets chart marker size. Default value is 7. |
-| [Symbol](../../aspose.words.drawing.charts/chartmarker/symbol) { get; set; } | Gets or sets chart marker symbol. |
+| [Format](../../aspose.words.drawing.charts/chartmarker/format/) { get; } | Provides access to fill and line formatting of this marker. |
+| [Size](../../aspose.words.drawing.charts/chartmarker/size/) { get; set; } | Gets or sets chart marker size. Default value is 7. |
+| [Symbol](../../aspose.words.drawing.charts/chartmarker/symbol/) { get; set; } | Gets or sets chart marker symbol. |
 
 ## Examples
 

@@ -20,18 +20,18 @@ public class ThemeColors
 
 | Name | Description |
 | --- | --- |
-| [Accent1](../../aspose.words.themes/themecolors/accent1) { get; set; } | Specifies color Accent 1. |
-| [Accent2](../../aspose.words.themes/themecolors/accent2) { get; set; } | Specifies color Accent 2. |
-| [Accent3](../../aspose.words.themes/themecolors/accent3) { get; set; } | Specifies color Accent 3. |
-| [Accent4](../../aspose.words.themes/themecolors/accent4) { get; set; } | Specifies color Accent 4. |
-| [Accent5](../../aspose.words.themes/themecolors/accent5) { get; set; } | Specifies color Accent 5. |
-| [Accent6](../../aspose.words.themes/themecolors/accent6) { get; set; } | Specifies color Accent 6. |
-| [Dark1](../../aspose.words.themes/themecolors/dark1) { get; set; } | Specifies color Dark 1. |
-| [Dark2](../../aspose.words.themes/themecolors/dark2) { get; set; } | Specifies color Dark 2. |
-| [FollowedHyperlink](../../aspose.words.themes/themecolors/followedhyperlink) { get; set; } | Specifies color for a clicked hyperlink. |
-| [Hyperlink](../../aspose.words.themes/themecolors/hyperlink) { get; set; } | Specifies color for a hyperlink. |
-| [Light1](../../aspose.words.themes/themecolors/light1) { get; set; } | Specifies color Light 1. |
-| [Light2](../../aspose.words.themes/themecolors/light2) { get; set; } | Specifies color Light 2. |
+| [Accent1](../../aspose.words.themes/themecolors/accent1/) { get; set; } | Specifies color Accent 1. |
+| [Accent2](../../aspose.words.themes/themecolors/accent2/) { get; set; } | Specifies color Accent 2. |
+| [Accent3](../../aspose.words.themes/themecolors/accent3/) { get; set; } | Specifies color Accent 3. |
+| [Accent4](../../aspose.words.themes/themecolors/accent4/) { get; set; } | Specifies color Accent 4. |
+| [Accent5](../../aspose.words.themes/themecolors/accent5/) { get; set; } | Specifies color Accent 5. |
+| [Accent6](../../aspose.words.themes/themecolors/accent6/) { get; set; } | Specifies color Accent 6. |
+| [Dark1](../../aspose.words.themes/themecolors/dark1/) { get; set; } | Specifies color Dark 1. |
+| [Dark2](../../aspose.words.themes/themecolors/dark2/) { get; set; } | Specifies color Dark 2. |
+| [FollowedHyperlink](../../aspose.words.themes/themecolors/followedhyperlink/) { get; set; } | Specifies color for a clicked hyperlink. |
+| [Hyperlink](../../aspose.words.themes/themecolors/hyperlink/) { get; set; } | Specifies color for a hyperlink. |
+| [Light1](../../aspose.words.themes/themecolors/light1/) { get; set; } | Specifies color Light 1. |
+| [Light2](../../aspose.words.themes/themecolors/light2/) { get; set; } | Specifies color Light 2. |
 
 ## Examples
 

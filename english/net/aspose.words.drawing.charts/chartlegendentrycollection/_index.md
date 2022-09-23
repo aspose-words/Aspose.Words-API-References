@@ -18,14 +18,14 @@ public class ChartLegendEntryCollection : IEnumerable<ChartLegendEntry>
 
 | Name | Description |
 | --- | --- |
-| [Count](../../aspose.words.drawing.charts/chartlegendentrycollection/count) { get; } | Returns the number of [`ChartLegendEntry`](../chartlegendentry/) in this collection. |
-| [Item](../../aspose.words.drawing.charts/chartlegendentrycollection/item) { get; } | Returns [`ChartLegendEntry`](../chartlegendentry/) for the specified index. |
+| [Count](../../aspose.words.drawing.charts/chartlegendentrycollection/count/) { get; } | Returns the number of [`ChartLegendEntry`](../chartlegendentry/) in this collection. |
+| [Item](../../aspose.words.drawing.charts/chartlegendentrycollection/item/) { get; } | Returns [`ChartLegendEntry`](../chartlegendentry/) for the specified index. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [GetEnumerator](../../aspose.words.drawing.charts/chartlegendentrycollection/getenumerator)() | Returns an enumerator object. |
+| [GetEnumerator](../../aspose.words.drawing.charts/chartlegendentrycollection/getenumerator/)() | Returns an enumerator object. |
 
 ### See Also
 

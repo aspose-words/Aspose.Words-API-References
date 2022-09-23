@@ -18,20 +18,20 @@ public class CustomXmlPropertyCollection : IEnumerable<CustomXmlProperty>
 
 | Name | Description |
 | --- | --- |
-| [Count](../../aspose.words.markup/customxmlpropertycollection/count) { get; } | Gets the number of elements contained in the collection. |
-| [Item](../../aspose.words.markup/customxmlpropertycollection/item) { get; } | Gets a property with the specified name. (2 indexers) |
+| [Count](../../aspose.words.markup/customxmlpropertycollection/count/) { get; } | Gets the number of elements contained in the collection. |
+| [Item](../../aspose.words.markup/customxmlpropertycollection/item/) { get; } | Gets a property with the specified name. (2 indexers) |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Add](../../aspose.words.markup/customxmlpropertycollection/add)(CustomXmlProperty) | Adds a property to the collection. |
-| [Clear](../../aspose.words.markup/customxmlpropertycollection/clear)() | Removes all elements from the collection. |
-| [Contains](../../aspose.words.markup/customxmlpropertycollection/contains)(string) | Determines whether the collection contains a property with the given name. |
-| [GetEnumerator](../../aspose.words.markup/customxmlpropertycollection/getenumerator)() | Returns an enumerator object that can be used to iterate over all items in the collection. |
-| [IndexOfKey](../../aspose.words.markup/customxmlpropertycollection/indexofkey)(string) | Returns the zero-based index of the specified property in the collection. |
-| [Remove](../../aspose.words.markup/customxmlpropertycollection/remove)(string) | Removes a property with the specified name from the collection. |
-| [RemoveAt](../../aspose.words.markup/customxmlpropertycollection/removeat)(int) | Removes a property at the specified index. |
+| [Add](../../aspose.words.markup/customxmlpropertycollection/add/)(CustomXmlProperty) | Adds a property to the collection. |
+| [Clear](../../aspose.words.markup/customxmlpropertycollection/clear/)() | Removes all elements from the collection. |
+| [Contains](../../aspose.words.markup/customxmlpropertycollection/contains/)(string) | Determines whether the collection contains a property with the given name. |
+| [GetEnumerator](../../aspose.words.markup/customxmlpropertycollection/getenumerator/)() | Returns an enumerator object that can be used to iterate over all items in the collection. |
+| [IndexOfKey](../../aspose.words.markup/customxmlpropertycollection/indexofkey/)(string) | Returns the zero-based index of the specified property in the collection. |
+| [Remove](../../aspose.words.markup/customxmlpropertycollection/remove/)(string) | Removes a property with the specified name from the collection. |
+| [RemoveAt](../../aspose.words.markup/customxmlpropertycollection/removeat/)(int) | Removes a property at the specified index. |
 
 ## Remarks
 

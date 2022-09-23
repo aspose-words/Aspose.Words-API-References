@@ -24,14 +24,14 @@ public class LanguagePreferences
 
 | Name | Description |
 | --- | --- |
-| [DefaultEditingLanguage](../../aspose.words.loading/languagepreferences/defaulteditinglanguage) { get; set; } | Gets or sets default editing language. |
+| [DefaultEditingLanguage](../../aspose.words.loading/languagepreferences/defaulteditinglanguage/) { get; set; } | Gets or sets default editing language. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [AddEditingLanguage](../../aspose.words.loading/languagepreferences/addeditinglanguage)(EditingLanguage) | Adds additional editing language. |
-| [AddEditingLanguages](../../aspose.words.loading/languagepreferences/addeditinglanguages)(EditingLanguage[]) | Adds additional editing languages. |
+| [AddEditingLanguage](../../aspose.words.loading/languagepreferences/addeditinglanguage/)(EditingLanguage) | Adds additional editing language. |
+| [AddEditingLanguages](../../aspose.words.loading/languagepreferences/addeditinglanguages/)(EditingLanguage[]) | Adds additional editing languages. |
 
 ## Remarks
 

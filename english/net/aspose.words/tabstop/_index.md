@@ -25,17 +25,17 @@ public sealed class TabStop
 
 | Name | Description |
 | --- | --- |
-| [Alignment](../../aspose.words/tabstop/alignment) { get; set; } | Gets or sets the alignment of text at this tab stop. |
-| [IsClear](../../aspose.words/tabstop/isclear) { get; } | Returns true if this tab stop clears any existing tab stops in this position. |
-| [Leader](../../aspose.words/tabstop/leader) { get; set; } | Gets or sets the type of the leader line displayed under the tab character. |
-| [Position](../../aspose.words/tabstop/position) { get; } | Gets the position of the tab stop in points. |
+| [Alignment](../../aspose.words/tabstop/alignment/) { get; set; } | Gets or sets the alignment of text at this tab stop. |
+| [IsClear](../../aspose.words/tabstop/isclear/) { get; } | Returns true if this tab stop clears any existing tab stops in this position. |
+| [Leader](../../aspose.words/tabstop/leader/) { get; set; } | Gets or sets the type of the leader line displayed under the tab character. |
+| [Position](../../aspose.words/tabstop/position/) { get; } | Gets the position of the tab stop in points. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Equals](../../aspose.words/tabstop/equals#equals)(TabStop) | Compares with the specified TabStop. |
-| override [GetHashCode](../../aspose.words/tabstop/gethashcode)() | Calculates hash code for this object. |
+| [Equals](../../aspose.words/tabstop/equals/#equals)(TabStop) | Compares with the specified TabStop. |
+| override [GetHashCode](../../aspose.words/tabstop/gethashcode/)() | Calculates hash code for this object. |
 
 ## Remarks
 

@@ -24,11 +24,11 @@ public class MetafileRenderingOptions
 
 | Name | Description |
 | --- | --- |
-| [EmfPlusDualRenderingMode](../../aspose.words.saving/metafilerenderingoptions/emfplusdualrenderingmode) { get; set; } | Gets or sets a value determining how EMF+ Dual metafiles should be rendered. |
-| [EmulateRasterOperations](../../aspose.words.saving/metafilerenderingoptions/emulaterasteroperations) { get; set; } | Gets or sets a value determining whether or not the raster operations should be emulated. |
-| [RenderingMode](../../aspose.words.saving/metafilerenderingoptions/renderingmode) { get; set; } | Gets or sets a value determining how metafile images should be rendered. |
-| [ScaleWmfFontsToMetafileSize](../../aspose.words.saving/metafilerenderingoptions/scalewmffontstometafilesize) { get; set; } | Gets or sets a value determining whether or not to scale fonts in WMF metafile according to metafile size on the page. |
-| [UseEmfEmbeddedToWmf](../../aspose.words.saving/metafilerenderingoptions/useemfembeddedtowmf) { get; set; } | Gets or sets a value determining how WMF metafiles with embedded EMF metafiles should be rendered. |
+| [EmfPlusDualRenderingMode](../../aspose.words.saving/metafilerenderingoptions/emfplusdualrenderingmode/) { get; set; } | Gets or sets a value determining how EMF+ Dual metafiles should be rendered. |
+| [EmulateRasterOperations](../../aspose.words.saving/metafilerenderingoptions/emulaterasteroperations/) { get; set; } | Gets or sets a value determining whether or not the raster operations should be emulated. |
+| [RenderingMode](../../aspose.words.saving/metafilerenderingoptions/renderingmode/) { get; set; } | Gets or sets a value determining how metafile images should be rendered. |
+| [ScaleWmfFontsToMetafileSize](../../aspose.words.saving/metafilerenderingoptions/scalewmffontstometafilesize/) { get; set; } | Gets or sets a value determining whether or not to scale fonts in WMF metafile according to metafile size on the page. |
+| [UseEmfEmbeddedToWmf](../../aspose.words.saving/metafilerenderingoptions/useemfembeddedtowmf/) { get; set; } | Gets or sets a value determining how WMF metafiles with embedded EMF metafiles should be rendered. |
 
 ## Examples
 

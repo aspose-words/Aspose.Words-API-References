@@ -18,17 +18,17 @@ public class RowFormat
 
 | Name | Description |
 | --- | --- |
-| [AllowBreakAcrossPages](../../aspose.words.tables/rowformat/allowbreakacrosspages) { get; set; } | True if the text in a table row is allowed to split across a page break. |
-| [Borders](../../aspose.words.tables/rowformat/borders) { get; } | Gets the collection of default cell borders for the row. |
-| [HeadingFormat](../../aspose.words.tables/rowformat/headingformat) { get; set; } | True if the row is repeated as a table heading on every page when the table spans more than one page. |
-| [Height](../../aspose.words.tables/rowformat/height) { get; set; } | Gets or sets the height of the table row in points. |
-| [HeightRule](../../aspose.words.tables/rowformat/heightrule) { get; set; } | Gets or sets the rule for determining the height of the table row. |
+| [AllowBreakAcrossPages](../../aspose.words.tables/rowformat/allowbreakacrosspages/) { get; set; } | True if the text in a table row is allowed to split across a page break. |
+| [Borders](../../aspose.words.tables/rowformat/borders/) { get; } | Gets the collection of default cell borders for the row. |
+| [HeadingFormat](../../aspose.words.tables/rowformat/headingformat/) { get; set; } | True if the row is repeated as a table heading on every page when the table spans more than one page. |
+| [Height](../../aspose.words.tables/rowformat/height/) { get; set; } | Gets or sets the height of the table row in points. |
+| [HeightRule](../../aspose.words.tables/rowformat/heightrule/) { get; set; } | Gets or sets the rule for determining the height of the table row. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [ClearFormatting](../../aspose.words.tables/rowformat/clearformatting)() | Resets to default row formatting. |
+| [ClearFormatting](../../aspose.words.tables/rowformat/clearformatting/)() | Resets to default row formatting. |
 
 ## Examples
 

@@ -24,13 +24,13 @@ public class FieldDatabaseDataRow
 
 | Name | Description |
 | --- | --- |
-| [Values](../../aspose.words.fields/fielddatabasedatarow/values) { get; } | Gets values that belong to this row. |
+| [Values](../../aspose.words.fields/fielddatabasedatarow/values/) { get; } | Gets values that belong to this row. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| static [CreateFrom](../../aspose.words.fields/fielddatabasedatarow/createfrom)(DataRow) | Initializes a new instance of the [`FieldDatabaseDataRow`](./fielddatabasedatarow/) class from the DataRow instance. |
+| static [CreateFrom](../../aspose.words.fields/fielddatabasedatarow/createfrom/)(DataRow) | Initializes a new instance of the [`FieldDatabaseDataRow`](./fielddatabasedatarow/) class from the DataRow instance. |
 
 ### See Also
 

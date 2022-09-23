@@ -25,17 +25,17 @@ public class FolderFontSource : FontSourceBase
 
 | Name | Description |
 | --- | --- |
-| [FolderPath](../../aspose.words.fonts/folderfontsource/folderpath) { get; } | Path to the folder. |
-| [Priority](../../aspose.words.fonts/fontsourcebase/priority) { get; } | Returns the font source priority. |
-| [ScanSubfolders](../../aspose.words.fonts/folderfontsource/scansubfolders) { get; } | Determines whether or not to scan the subfolders. |
-| override [Type](../../aspose.words.fonts/folderfontsource/type) { get; } | Returns the type of the font source. |
-| [WarningCallback](../../aspose.words.fonts/fontsourcebase/warningcallback) { get; set; } | Called during processing of font source when an issue is detected that might result in formatting fidelity loss. |
+| [FolderPath](../../aspose.words.fonts/folderfontsource/folderpath/) { get; } | Path to the folder. |
+| [Priority](../../aspose.words.fonts/fontsourcebase/priority/) { get; } | Returns the font source priority. |
+| [ScanSubfolders](../../aspose.words.fonts/folderfontsource/scansubfolders/) { get; } | Determines whether or not to scan the subfolders. |
+| override [Type](../../aspose.words.fonts/folderfontsource/type/) { get; } | Returns the type of the font source. |
+| [WarningCallback](../../aspose.words.fonts/fontsourcebase/warningcallback/) { get; set; } | Called during processing of font source when an issue is detected that might result in formatting fidelity loss. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [GetAvailableFonts](../../aspose.words.fonts/fontsourcebase/getavailablefonts)() | Returns list of fonts available via this source. |
+| [GetAvailableFonts](../../aspose.words.fonts/fontsourcebase/getavailablefonts/)() | Returns list of fonts available via this source. |
 
 ## Examples
 

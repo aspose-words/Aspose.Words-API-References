@@ -22,17 +22,17 @@ public class Glyph
 
 | Name | Description |
 | --- | --- |
-| [Advance](../../aspose.words.shaping/glyph/advance) { get; set; } |  |
-| [AdvanceOffset](../../aspose.words.shaping/glyph/advanceoffset) { get; } |  |
-| [AscenderOffset](../../aspose.words.shaping/glyph/ascenderoffset) { get; } |  |
-| [GlyphIndex](../../aspose.words.shaping/glyph/glyphindex) { get; } |  |
+| [Advance](../../aspose.words.shaping/glyph/advance/) { get; set; } |  |
+| [AdvanceOffset](../../aspose.words.shaping/glyph/advanceoffset/) { get; } |  |
+| [AscenderOffset](../../aspose.words.shaping/glyph/ascenderoffset/) { get; } |  |
+| [GlyphIndex](../../aspose.words.shaping/glyph/glyphindex/) { get; } |  |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Clone](../../aspose.words.shaping/glyph/clone)() |  |
-| virtual [GetWidth](../../aspose.words.shaping/glyph/getwidth)(int, float) |  |
+| [Clone](../../aspose.words.shaping/glyph/clone/)() |  |
+| virtual [GetWidth](../../aspose.words.shaping/glyph/getwidth/)(int, float) |  |
 
 ### See Also
 

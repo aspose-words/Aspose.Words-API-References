@@ -24,8 +24,8 @@ public class ThumbnailGeneratingOptions
 
 | Name | Description |
 | --- | --- |
-| [GenerateFromFirstPage](../../aspose.words.rendering/thumbnailgeneratingoptions/generatefromfirstpage) { get; set; } | Specifies whether to generate thumbnail from first page of the document or first image. |
-| [ThumbnailSize](../../aspose.words.rendering/thumbnailgeneratingoptions/thumbnailsize) { get; set; } | Size of generated thumbnail in pixels. Default is 600x900. |
+| [GenerateFromFirstPage](../../aspose.words.rendering/thumbnailgeneratingoptions/generatefromfirstpage/) { get; set; } | Specifies whether to generate thumbnail from first page of the document or first image. |
+| [ThumbnailSize](../../aspose.words.rendering/thumbnailgeneratingoptions/thumbnailsize/) { get; set; } | Size of generated thumbnail in pixels. Default is 600x900. |
 
 ## Remarks
 

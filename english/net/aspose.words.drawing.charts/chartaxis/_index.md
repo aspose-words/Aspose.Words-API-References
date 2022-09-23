@@ -18,32 +18,32 @@ public class ChartAxis
 
 | Name | Description |
 | --- | --- |
-| [AxisBetweenCategories](../../aspose.words.drawing.charts/chartaxis/axisbetweencategories) { get; set; } | Gets or sets a flag indicating whether the value axis crosses the category axis between categories. |
-| [BaseTimeUnit](../../aspose.words.drawing.charts/chartaxis/basetimeunit) { get; set; } | Returns or sets the smallest time unit that is represented on the time category axis. |
-| [CategoryType](../../aspose.words.drawing.charts/chartaxis/categorytype) { get; set; } | Gets or sets type of the category axis. |
-| [Crosses](../../aspose.words.drawing.charts/chartaxis/crosses) { get; set; } | Specifies how this axis crosses the perpendicular axis. |
-| [CrossesAt](../../aspose.words.drawing.charts/chartaxis/crossesat) { get; set; } | Specifies where on the perpendicular axis the axis crosses. |
-| [DisplayUnit](../../aspose.words.drawing.charts/chartaxis/displayunit) { get; } | Specifies the scaling value of the display units for the value axis. |
-| [Document](../../aspose.words.drawing.charts/chartaxis/document) { get; } | Returns the Document the title holder belongs. |
-| [Hidden](../../aspose.words.drawing.charts/chartaxis/hidden) { get; set; } | Gets or sets a flag indicating whether this axis is hidden or not. |
-| [MajorTickMark](../../aspose.words.drawing.charts/chartaxis/majortickmark) { get; set; } | Returns or sets the major tick marks. |
-| [MajorUnit](../../aspose.words.drawing.charts/chartaxis/majorunit) { get; set; } | Returns or sets the distance between major tick marks. |
-| [MajorUnitIsAuto](../../aspose.words.drawing.charts/chartaxis/majorunitisauto) { get; set; } | Gets or sets a flag indicating whether default distance between major tick marks shall be used. |
-| [MajorUnitScale](../../aspose.words.drawing.charts/chartaxis/majorunitscale) { get; set; } | Returns or sets the scale value for major tick marks on the time category axis. |
-| [MinorTickMark](../../aspose.words.drawing.charts/chartaxis/minortickmark) { get; set; } | Returns or sets the minor tick marks for the axis. |
-| [MinorUnit](../../aspose.words.drawing.charts/chartaxis/minorunit) { get; set; } | Returns or sets the distance between minor tick marks. |
-| [MinorUnitIsAuto](../../aspose.words.drawing.charts/chartaxis/minorunitisauto) { get; set; } | Gets or sets a flag indicating whether default distance between minor tick marks shall be used. |
-| [MinorUnitScale](../../aspose.words.drawing.charts/chartaxis/minorunitscale) { get; set; } | Returns or sets the scale value for minor tick marks on the time category axis. |
-| [NumberFormat](../../aspose.words.drawing.charts/chartaxis/numberformat) { get; } | Returns a [`ChartNumberFormat`](../chartnumberformat/) object that allows defining number formats for the axis. |
-| [ReverseOrder](../../aspose.words.drawing.charts/chartaxis/reverseorder) { get; set; } | Returns or sets a flag indicating whether values of axis should be displayed in reverse order, i.e. from max to min. |
-| [Scaling](../../aspose.words.drawing.charts/chartaxis/scaling) { get; } | Provides access to the scaling options of the axis. |
-| [TickLabelAlignment](../../aspose.words.drawing.charts/chartaxis/ticklabelalignment) { get; set; } | Gets or sets text alignment of axis tick labels. |
-| [TickLabelOffset](../../aspose.words.drawing.charts/chartaxis/ticklabeloffset) { get; set; } | Gets or sets the distance of labels from the axis. |
-| [TickLabelPosition](../../aspose.words.drawing.charts/chartaxis/ticklabelposition) { get; set; } | Returns or sets the position of the tick labels on the axis. |
-| [TickLabelSpacing](../../aspose.words.drawing.charts/chartaxis/ticklabelspacing) { get; set; } | Gets or sets the interval, at which tick labels are drawn. |
-| [TickLabelSpacingIsAuto](../../aspose.words.drawing.charts/chartaxis/ticklabelspacingisauto) { get; set; } | Gets or sets a flag indicating whether automatic interval of drawing tick labels shall be used. |
-| [TickMarkSpacing](../../aspose.words.drawing.charts/chartaxis/tickmarkspacing) { get; set; } | Gets or sets the interval, at which tick marks are drawn. |
-| [Type](../../aspose.words.drawing.charts/chartaxis/type) { get; } | Returns type of the axis. |
+| [AxisBetweenCategories](../../aspose.words.drawing.charts/chartaxis/axisbetweencategories/) { get; set; } | Gets or sets a flag indicating whether the value axis crosses the category axis between categories. |
+| [BaseTimeUnit](../../aspose.words.drawing.charts/chartaxis/basetimeunit/) { get; set; } | Returns or sets the smallest time unit that is represented on the time category axis. |
+| [CategoryType](../../aspose.words.drawing.charts/chartaxis/categorytype/) { get; set; } | Gets or sets type of the category axis. |
+| [Crosses](../../aspose.words.drawing.charts/chartaxis/crosses/) { get; set; } | Specifies how this axis crosses the perpendicular axis. |
+| [CrossesAt](../../aspose.words.drawing.charts/chartaxis/crossesat/) { get; set; } | Specifies where on the perpendicular axis the axis crosses. |
+| [DisplayUnit](../../aspose.words.drawing.charts/chartaxis/displayunit/) { get; } | Specifies the scaling value of the display units for the value axis. |
+| [Document](../../aspose.words.drawing.charts/chartaxis/document/) { get; } | Returns the Document the title holder belongs. |
+| [Hidden](../../aspose.words.drawing.charts/chartaxis/hidden/) { get; set; } | Gets or sets a flag indicating whether this axis is hidden or not. |
+| [MajorTickMark](../../aspose.words.drawing.charts/chartaxis/majortickmark/) { get; set; } | Returns or sets the major tick marks. |
+| [MajorUnit](../../aspose.words.drawing.charts/chartaxis/majorunit/) { get; set; } | Returns or sets the distance between major tick marks. |
+| [MajorUnitIsAuto](../../aspose.words.drawing.charts/chartaxis/majorunitisauto/) { get; set; } | Gets or sets a flag indicating whether default distance between major tick marks shall be used. |
+| [MajorUnitScale](../../aspose.words.drawing.charts/chartaxis/majorunitscale/) { get; set; } | Returns or sets the scale value for major tick marks on the time category axis. |
+| [MinorTickMark](../../aspose.words.drawing.charts/chartaxis/minortickmark/) { get; set; } | Returns or sets the minor tick marks for the axis. |
+| [MinorUnit](../../aspose.words.drawing.charts/chartaxis/minorunit/) { get; set; } | Returns or sets the distance between minor tick marks. |
+| [MinorUnitIsAuto](../../aspose.words.drawing.charts/chartaxis/minorunitisauto/) { get; set; } | Gets or sets a flag indicating whether default distance between minor tick marks shall be used. |
+| [MinorUnitScale](../../aspose.words.drawing.charts/chartaxis/minorunitscale/) { get; set; } | Returns or sets the scale value for minor tick marks on the time category axis. |
+| [NumberFormat](../../aspose.words.drawing.charts/chartaxis/numberformat/) { get; } | Returns a [`ChartNumberFormat`](../chartnumberformat/) object that allows defining number formats for the axis. |
+| [ReverseOrder](../../aspose.words.drawing.charts/chartaxis/reverseorder/) { get; set; } | Returns or sets a flag indicating whether values of axis should be displayed in reverse order, i.e. from max to min. |
+| [Scaling](../../aspose.words.drawing.charts/chartaxis/scaling/) { get; } | Provides access to the scaling options of the axis. |
+| [TickLabelAlignment](../../aspose.words.drawing.charts/chartaxis/ticklabelalignment/) { get; set; } | Gets or sets text alignment of axis tick labels. |
+| [TickLabelOffset](../../aspose.words.drawing.charts/chartaxis/ticklabeloffset/) { get; set; } | Gets or sets the distance of labels from the axis. |
+| [TickLabelPosition](../../aspose.words.drawing.charts/chartaxis/ticklabelposition/) { get; set; } | Returns or sets the position of the tick labels on the axis. |
+| [TickLabelSpacing](../../aspose.words.drawing.charts/chartaxis/ticklabelspacing/) { get; set; } | Gets or sets the interval, at which tick labels are drawn. |
+| [TickLabelSpacingIsAuto](../../aspose.words.drawing.charts/chartaxis/ticklabelspacingisauto/) { get; set; } | Gets or sets a flag indicating whether automatic interval of drawing tick labels shall be used. |
+| [TickMarkSpacing](../../aspose.words.drawing.charts/chartaxis/tickmarkspacing/) { get; set; } | Gets or sets the interval, at which tick marks are drawn. |
+| [Type](../../aspose.words.drawing.charts/chartaxis/type/) { get; } | Returns type of the axis. |
 
 ## Examples
 

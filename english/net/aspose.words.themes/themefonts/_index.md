@@ -18,9 +18,9 @@ public class ThemeFonts
 
 | Name | Description |
 | --- | --- |
-| [ComplexScript](../../aspose.words.themes/themefonts/complexscript) { get; set; } | Specifies font name for ComplexScript characters. |
-| [EastAsian](../../aspose.words.themes/themefonts/eastasian) { get; set; } | Specifies font name for EastAsian characters. |
-| [Latin](../../aspose.words.themes/themefonts/latin) { get; set; } | Specifies font name for Latin characters. |
+| [ComplexScript](../../aspose.words.themes/themefonts/complexscript/) { get; set; } | Specifies font name for ComplexScript characters. |
+| [EastAsian](../../aspose.words.themes/themefonts/eastasian/) { get; set; } | Specifies font name for EastAsian characters. |
+| [Latin](../../aspose.words.themes/themefonts/latin/) { get; set; } | Specifies font name for Latin characters. |
 
 ## Examples
 

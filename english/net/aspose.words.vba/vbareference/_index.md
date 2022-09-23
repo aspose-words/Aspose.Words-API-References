@@ -18,8 +18,8 @@ public abstract class VbaReference
 
 | Name | Description |
 | --- | --- |
-| abstract [LibId](../../aspose.words.vba/vbareference/libid) { get; } | Gets a string value containing the identifier of an Automation type library. |
-| abstract [Type](../../aspose.words.vba/vbareference/type) { get; } | Gets [`VbaReferenceType`](../vbareferencetype/) object that indicates the type of reference that a VbaReference object represents. |
+| abstract [LibId](../../aspose.words.vba/vbareference/libid/) { get; } | Gets a string value containing the identifier of an Automation type library. |
+| abstract [Type](../../aspose.words.vba/vbareference/type/) { get; } | Gets [`VbaReferenceType`](../vbareferencetype/) object that indicates the type of reference that a VbaReference object represents. |
 
 ## Examples
 

@@ -18,19 +18,19 @@ public class Revision
 
 | Name | Description |
 | --- | --- |
-| [Author](../../aspose.words/revision/author) { get; set; } | Gets or sets the author of this revision. Can not be empty string or null. |
-| [DateTime](../../aspose.words/revision/datetime) { get; set; } | Gets or sets the date/time of this revision. |
-| [Group](../../aspose.words/revision/group) { get; } | Gets the revision group. Returns null if the revision does not belong to any group. |
-| [ParentNode](../../aspose.words/revision/parentnode) { get; } | Gets the immediate parent node (owner) of this revision. This property will work for any revision type other than StyleDefinitionChange. |
-| [ParentStyle](../../aspose.words/revision/parentstyle) { get; } | Gets the immediate parent style (owner) of this revision. This property will work for only for the StyleDefinitionChange revision type. |
-| [RevisionType](../../aspose.words/revision/revisiontype) { get; } | Gets the type of this revision. |
+| [Author](../../aspose.words/revision/author/) { get; set; } | Gets or sets the author of this revision. Can not be empty string or null. |
+| [DateTime](../../aspose.words/revision/datetime/) { get; set; } | Gets or sets the date/time of this revision. |
+| [Group](../../aspose.words/revision/group/) { get; } | Gets the revision group. Returns null if the revision does not belong to any group. |
+| [ParentNode](../../aspose.words/revision/parentnode/) { get; } | Gets the immediate parent node (owner) of this revision. This property will work for any revision type other than StyleDefinitionChange. |
+| [ParentStyle](../../aspose.words/revision/parentstyle/) { get; } | Gets the immediate parent style (owner) of this revision. This property will work for only for the StyleDefinitionChange revision type. |
+| [RevisionType](../../aspose.words/revision/revisiontype/) { get; } | Gets the type of this revision. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Accept](../../aspose.words/revision/accept)() | Accepts this revision. |
-| [Reject](../../aspose.words/revision/reject)() | Reject this revision. |
+| [Accept](../../aspose.words/revision/accept/)() | Accepts this revision. |
+| [Reject](../../aspose.words/revision/reject/)() | Reject this revision. |
 
 ## Examples
 
