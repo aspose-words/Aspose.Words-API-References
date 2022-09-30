@@ -18,36 +18,36 @@ public class ListLevel
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Alignment](../../aspose.words.lists/listlevel/alignment) { get; set; } | 获取或设置列表项实际数量的对齐方式。 |
-| [CustomNumberStyleFormat](../../aspose.words.lists/listlevel/customnumberstyleformat) { get; } | 获取此列表级别的自定义数字样式格式。例如：“a, ç, ĝ, ...”. |
-| [Font](../../aspose.words.lists/listlevel/font) { get; } | 指定用于列表标签的字符格式。 |
-| [ImageData](../../aspose.words.lists/listlevel/imagedata) { get; } | 返回当前列表级别的图片子弹形状的图像数据。 |
-| [IsLegal](../../aspose.words.lists/listlevel/islegal) { get; set; } | 如果关卡将所有继承的数字转换为阿拉伯数字，则为真，如果保留它们的数字样式，则为假。 |
-| [LinkedStyle](../../aspose.words.lists/listlevel/linkedstyle) { get; set; } | 获取或设置链接到此列表级别的段落样式。 |
-| [NumberFormat](../../aspose.words.lists/listlevel/numberformat) { get; set; } | 返回或设置列表级别的数字格式。 |
-| [NumberPosition](../../aspose.words.lists/listlevel/numberposition) { get; set; } | 返回或设置列表级别的数字或项目符号的位置（以磅为单位）。 |
-| [NumberStyle](../../aspose.words.lists/listlevel/numberstyle) { get; set; } | 返回或设置此列表级别的数字样式。 |
-| [RestartAfterLevel](../../aspose.words.lists/listlevel/restartafterlevel) { get; set; } | 设置或返回在指定列表级别重新开始编号之前必须出现的列表级别。 |
-| [StartAt](../../aspose.words.lists/listlevel/startat) { get; set; } | 返回或设置此列表级别的起始编号。 |
-| [TabPosition](../../aspose.words.lists/listlevel/tabposition) { get; set; } | 返回或设置列表级别的制表符位置（以磅为单位）。 |
-| [TextPosition](../../aspose.words.lists/listlevel/textposition) { get; set; } | 返回或设置列表级别的第二行换行文本的位置（以磅为单位）。 |
-| [TrailingCharacter](../../aspose.words.lists/listlevel/trailingcharacter) { get; set; } | 返回或设置在列表级别的数字之后插入的字符。 |
+| [Alignment](../../aspose.words.lists/listlevel/alignment/) { get; set; } | 获取或设置列表项实际数量的对齐方式。 |
+| [CustomNumberStyleFormat](../../aspose.words.lists/listlevel/customnumberstyleformat/) { get; } | 获取此列表级别的自定义数字样式格式。例如：“a, ç, ĝ, ...”. |
+| [Font](../../aspose.words.lists/listlevel/font/) { get; } | 指定用于列表标签的字符格式。 |
+| [ImageData](../../aspose.words.lists/listlevel/imagedata/) { get; } | 返回当前列表级别的图片子弹形状的图像数据。 |
+| [IsLegal](../../aspose.words.lists/listlevel/islegal/) { get; set; } | 如果关卡将所有继承的数字转换为阿拉伯数字，则为真，如果保留它们的数字样式，则为假。 |
+| [LinkedStyle](../../aspose.words.lists/listlevel/linkedstyle/) { get; set; } | 获取或设置链接到此列表级别的段落样式。 |
+| [NumberFormat](../../aspose.words.lists/listlevel/numberformat/) { get; set; } | 返回或设置列表级别的数字格式。 |
+| [NumberPosition](../../aspose.words.lists/listlevel/numberposition/) { get; set; } | 返回或设置列表级别的数字或项目符号的位置（以磅为单位）。 |
+| [NumberStyle](../../aspose.words.lists/listlevel/numberstyle/) { get; set; } | 返回或设置此列表级别的数字样式。 |
+| [RestartAfterLevel](../../aspose.words.lists/listlevel/restartafterlevel/) { get; set; } | 设置或返回在指定列表级别重新开始编号之前必须出现的列表级别。 |
+| [StartAt](../../aspose.words.lists/listlevel/startat/) { get; set; } | 返回或设置此列表级别的起始编号。 |
+| [TabPosition](../../aspose.words.lists/listlevel/tabposition/) { get; set; } | 返回或设置列表级别的制表符位置（以磅为单位）。 |
+| [TextPosition](../../aspose.words.lists/listlevel/textposition/) { get; set; } | 返回或设置列表级别的第二行换行文本的位置（以磅为单位）。 |
+| [TrailingCharacter](../../aspose.words.lists/listlevel/trailingcharacter/) { get; set; } | 返回或设置在列表级别的数字之后插入的字符。 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [CreatePictureBullet](../../aspose.words.lists/listlevel/createpicturebullet)() | 为当前列表级别创建图片子弹形状。 |
-| [DeletePictureBullet](../../aspose.words.lists/listlevel/deletepicturebullet)() | 删除当前列表级别的图片项目符号。 |
-| [Equals](../../aspose.words.lists/listlevel/equals#equals)(ListLevel) | 与指定的 ListLevel 比较。 |
-| override [GetHashCode](../../aspose.words.lists/listlevel/gethashcode)() | 计算此对象的哈希码。 |
-| static [GetEffectiveValue](../../aspose.words.lists/listlevel/geteffectivevalue)(int, NumberStyle, string) | 报告[`ListLevel`](../listlevel)列表项的指定 index 的对象。参数指定[`NumberStyle`](../../aspose.words/numberstyle)和一个可选的格式 string 使用时Custom已指定。 |
+| [CreatePictureBullet](../../aspose.words.lists/listlevel/createpicturebullet/)() | 为当前列表级别创建图片子弹形状。 |
+| [DeletePictureBullet](../../aspose.words.lists/listlevel/deletepicturebullet/)() | 删除当前列表级别的图片项目符号。 |
+| [Equals](../../aspose.words.lists/listlevel/equals/#equals)(ListLevel) | 与指定的 ListLevel 比较。 |
+| override [GetHashCode](../../aspose.words.lists/listlevel/gethashcode/)() | 计算此对象的哈希码。 |
+| static [GetEffectiveValue](../../aspose.words.lists/listlevel/geteffectivevalue/)(int, NumberStyle, string) | 报告[`ListLevel`](./listlevel/)列表项的指定 index 的对象。参数指定[`NumberStyle`](../../aspose.words/numberstyle/)和一个可选的格式 string 使用时Custom已指定。 |
 
 ### 评论
 
-您不创建此类的对象。创建列表时会自动创建列表级对象 。您访问[`ListLevel`](../listlevel)对象通过 [`ListLevelCollection`](../listlevelcollection)收藏。
+您不创建此类的对象。创建列表时会自动创建列表级对象 。您访问[`ListLevel`](./listlevel/)对象通过 [`ListLevelCollection`](../listlevelcollection/)收藏。
 
-使用的属性[`ListLevel`](../listlevel)为各个列表级别指定列表格式设置 。
+使用的属性[`ListLevel`](./listlevel/)为各个列表级别指定列表格式设置 。
 
 ### 例子
 
@@ -107,7 +107,7 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateCustomList.docx");
 
 ### 也可以看看
 
-* 命名空间 [Aspose.Words.Lists](../../aspose.words.lists)
+* 命名空间 [Aspose.Words.Lists](../../aspose.words.lists/)
 * 部件 [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

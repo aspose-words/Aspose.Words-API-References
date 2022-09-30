@@ -1,14 +1,14 @@
 ---
 title: Sign
 second_title: Aspose.Words for .NET API 参考
-description: 使用给定的符号源文档CertificateHolderaspose.words.digitalsignatures/certificateholder和SignOptionsaspose.words.digitalsignatures/signoptions 带有数字签名并将签名文档写入目标流
+description: 使用给定的符号源文档CertificateHolderaspose.words.digitalsignatures/certificateholder/和SignOptionsaspose.words.digitalsignatures/signoptions/ 带有数字签名并将签名文档写入目标流
 type: docs
 weight: 30
 url: /zh/net/aspose.words.digitalsignatures/digitalsignatureutil/sign/
 ---
 ## Sign(Stream, Stream, CertificateHolder, SignOptions) {#sign_1}
 
-使用给定的符号源文档[`CertificateHolder`](../../certificateholder)和[`SignOptions`](../../signoptions) 带有数字签名并将签名文档写入目标流。
+使用给定的符号源文档[`CertificateHolder`](../../certificateholder/)和[`SignOptions`](../../signoptions/) 带有数字签名并将签名文档写入目标流。
 
 文件应该是Doc或者Docx.
 
@@ -23,8 +23,8 @@ public static void Sign(Stream srcStream, Stream dstStream, CertificateHolder ce
 | --- | --- | --- |
 | srcStream | Stream | 包含要签名的文档的流。 |
 | dstStream | Stream | 将写入已签名文档的流。 |
-| certHolder | CertificateHolder | [`CertificateHolder`](../../certificateholder)带有用于签署文件的证书的对象。 持有者中的证书必须包含私钥并设置 X509KeyStorageFlags.Exportable 标志。 |
-| signOptions | SignOptions | [`SignOptions`](../../signoptions)具有各种签名选项的对象。 |
+| certHolder | CertificateHolder | [`CertificateHolder`](../../certificateholder/)带有用于签署文件的证书的对象。 持有者中的证书必须包含私钥并设置 X509KeyStorageFlags.Exportable 标志。 |
+| signOptions | SignOptions | [`SignOptions`](../../signoptions/)具有各种签名选项的对象。 |
 
 ### 例子
 
@@ -54,17 +54,17 @@ using (Stream streamIn = new FileStream(MyDir + "Document.docx", FileMode.Open))
 
 ### 也可以看看
 
-* class [CertificateHolder](../../certificateholder)
-* class [SignOptions](../../signoptions)
-* class [DigitalSignatureUtil](../../digitalsignatureutil)
-* 命名空间 [Aspose.Words.DigitalSignatures](../../digitalsignatureutil)
+* class [CertificateHolder](../../certificateholder/)
+* class [SignOptions](../../signoptions/)
+* class [DigitalSignatureUtil](../)
+* 命名空间 [Aspose.Words.DigitalSignatures](../../digitalsignatureutil/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
 ## Sign(string, string, CertificateHolder, SignOptions) {#sign_3}
 
-使用给定的符号源文档[`CertificateHolder`](../../certificateholder)和[`SignOptions`](../../signoptions) 带有数字签名并将签名文档写入目标文件。
+使用给定的符号源文档[`CertificateHolder`](../../certificateholder/)和[`SignOptions`](../../signoptions/) 带有数字签名并将签名文档写入目标文件。
 
 文件应该是Doc或者Docx.
 
@@ -77,8 +77,8 @@ public static void Sign(string srcFileName, string dstFileName, CertificateHolde
 | --- | --- | --- |
 | srcFileName | String | 要签名的文档的文件名。 |
 | dstFileName | String | 签名文档输出的文件名。 |
-| certHolder | CertificateHolder | [`CertificateHolder`](../../certificateholder)带有用于签署文件的证书的对象。 持有者中的证书必须包含私钥并设置 X509KeyStorageFlags.Exportable 标志。 |
-| signOptions | SignOptions | [`SignOptions`](../../signoptions)具有各种签名选项的对象。 |
+| certHolder | CertificateHolder | [`CertificateHolder`](../../certificateholder/)带有用于签署文件的证书的对象。 持有者中的证书必须包含私钥并设置 X509KeyStorageFlags.Exportable 标志。 |
+| signOptions | SignOptions | [`SignOptions`](../../signoptions/)具有各种签名选项的对象。 |
 
 ### 例子
 
@@ -194,17 +194,17 @@ public static void Sign()
 
 ### 也可以看看
 
-* class [CertificateHolder](../../certificateholder)
-* class [SignOptions](../../signoptions)
-* class [DigitalSignatureUtil](../../digitalsignatureutil)
-* 命名空间 [Aspose.Words.DigitalSignatures](../../digitalsignatureutil)
+* class [CertificateHolder](../../certificateholder/)
+* class [SignOptions](../../signoptions/)
+* class [DigitalSignatureUtil](../)
+* 命名空间 [Aspose.Words.DigitalSignatures](../../digitalsignatureutil/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
 ## Sign(Stream, Stream, CertificateHolder) {#sign}
 
-使用给定的符号源文档[`CertificateHolder`](../../certificateholder)使用数字签名 并将签名文档写入目标流。
+使用给定的符号源文档[`CertificateHolder`](../../certificateholder/)使用数字签名 并将签名文档写入目标流。
 
 文件应该是Doc或者Docx.
 
@@ -218,7 +218,7 @@ public static void Sign(Stream srcStream, Stream dstStream, CertificateHolder ce
 | --- | --- | --- |
 | srcStream | Stream | 包含要签名的文档的流。 |
 | dstStream | Stream | 将写入已签名文档的流。 |
-| certHolder | CertificateHolder | [`CertificateHolder`](../../certificateholder)带有用于签署文件的证书的对象。 持有者中的证书必须包含私钥并设置 X509KeyStorageFlags.Exportable 标志。 |
+| certHolder | CertificateHolder | [`CertificateHolder`](../../certificateholder/)带有用于签署文件的证书的对象。 持有者中的证书必须包含私钥并设置 X509KeyStorageFlags.Exportable 标志。 |
 
 ### 例子
 
@@ -262,16 +262,16 @@ Assert.AreEqual("CN=Morzal.Me", signedDoc.DigitalSignatures[0].SubjectName);
 
 ### 也可以看看
 
-* class [CertificateHolder](../../certificateholder)
-* class [DigitalSignatureUtil](../../digitalsignatureutil)
-* 命名空间 [Aspose.Words.DigitalSignatures](../../digitalsignatureutil)
+* class [CertificateHolder](../../certificateholder/)
+* class [DigitalSignatureUtil](../)
+* 命名空间 [Aspose.Words.DigitalSignatures](../../digitalsignatureutil/)
 * 部件 [Aspose.Words](../../../)
 
 ---
 
 ## Sign(string, string, CertificateHolder) {#sign_2}
 
-使用给定的符号源文档[`CertificateHolder`](../../certificateholder)使用数字签名 并将签名文档写入目标文件。
+使用给定的符号源文档[`CertificateHolder`](../../certificateholder/)使用数字签名 并将签名文档写入目标文件。
 
 文件应该是Doc或者Docx.
 
@@ -283,7 +283,7 @@ public static void Sign(string srcFileName, string dstFileName, CertificateHolde
 | --- | --- | --- |
 | srcFileName | String | 要签名的文档的文件名。 |
 | dstFileName | String | 签名文档输出的文件名。 |
-| certHolder | CertificateHolder | [`CertificateHolder`](../../certificateholder)带有用于签署文件的证书的对象。 持有者中的证书必须包含私钥并设置 X509KeyStorageFlags.Exportable 标志。 |
+| certHolder | CertificateHolder | [`CertificateHolder`](../../certificateholder/)带有用于签署文件的证书的对象。 持有者中的证书必须包含私钥并设置 X509KeyStorageFlags.Exportable 标志。 |
 
 ### 例子
 
@@ -327,9 +327,9 @@ Assert.AreEqual("CN=Morzal.Me", signedDoc.DigitalSignatures[0].SubjectName);
 
 ### 也可以看看
 
-* class [CertificateHolder](../../certificateholder)
-* class [DigitalSignatureUtil](../../digitalsignatureutil)
-* 命名空间 [Aspose.Words.DigitalSignatures](../../digitalsignatureutil)
+* class [CertificateHolder](../../certificateholder/)
+* class [DigitalSignatureUtil](../)
+* 命名空间 [Aspose.Words.DigitalSignatures](../../digitalsignatureutil/)
 * 部件 [Aspose.Words](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

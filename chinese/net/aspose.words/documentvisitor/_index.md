@@ -18,56 +18,56 @@ public abstract class DocumentVisitor
 
 | 姓名 | 描述 |
 | --- | --- |
-| virtual [VisitAbsolutePositionTab](../../aspose.words/documentvisitor/visitabsolutepositiontab)(AbsolutePositionTab) | 当一个[`AbsolutePositionTab`](../absolutepositiontab)在文档中遇到节点。 |
-| virtual [VisitBodyEnd](../../aspose.words/documentvisitor/visitbodyend)(Body) | 当一节中的正文故事的枚举结束时调用。 |
-| virtual [VisitBodyStart](../../aspose.words/documentvisitor/visitbodystart)(Body) | 开始枚举部分中的正文故事时调用。 |
-| virtual [VisitBookmarkEnd](../../aspose.words/documentvisitor/visitbookmarkend)(BookmarkEnd) | 在文档中遇到书签结尾时调用。 |
-| virtual [VisitBookmarkStart](../../aspose.words/documentvisitor/visitbookmarkstart)(BookmarkStart) | 在文档中遇到书签开始时调用。 |
-| virtual [VisitBuildingBlockEnd](../../aspose.words/documentvisitor/visitbuildingblockend)(BuildingBlock) | 在构建块的枚举结束时调用。 |
-| virtual [VisitBuildingBlockStart](../../aspose.words/documentvisitor/visitbuildingblockstart)(BuildingBlock) | 在开始枚举构建块时调用。 |
-| virtual [VisitCellEnd](../../aspose.words/documentvisitor/visitcellend)(Cell) | 在表格单元格的枚举结束时调用。 |
-| virtual [VisitCellStart](../../aspose.words/documentvisitor/visitcellstart)(Cell) | 开始枚举表格单元格时调用。 |
-| virtual [VisitCommentEnd](../../aspose.words/documentvisitor/visitcommentend)(Comment) | 注释文本枚举结束时调用。 |
-| virtual [VisitCommentRangeEnd](../../aspose.words/documentvisitor/visitcommentrangeend)(CommentRangeEnd) | 在遇到注释文本范围的末尾时调用。 |
-| virtual [VisitCommentRangeStart](../../aspose.words/documentvisitor/visitcommentrangestart)(CommentRangeStart) | 在遇到注释文本范围的开头时调用。 |
-| virtual [VisitCommentStart](../../aspose.words/documentvisitor/visitcommentstart)(Comment) | 在注释文本的枚举开始时调用。 |
-| virtual [VisitDocumentEnd](../../aspose.words/documentvisitor/visitdocumentend)(Document) | 在文档枚举完成时调用。 |
-| virtual [VisitDocumentStart](../../aspose.words/documentvisitor/visitdocumentstart)(Document) | 在文档枚举开始时调用。 |
-| virtual [VisitEditableRangeEnd](../../aspose.words/documentvisitor/visiteditablerangeend)(EditableRangeEnd) | 在文档中遇到可编辑范围的结尾时调用。 |
-| virtual [VisitEditableRangeStart](../../aspose.words/documentvisitor/visiteditablerangestart)(EditableRangeStart) | 在文档中遇到可编辑范围的开始时调用。 |
-| virtual [VisitFieldEnd](../../aspose.words/documentvisitor/visitfieldend)(FieldEnd) | 当字段在文档中结束时调用。 |
-| virtual [VisitFieldSeparator](../../aspose.words/documentvisitor/visitfieldseparator)(FieldSeparator) | 在文档中遇到字段分隔符时调用。 |
-| virtual [VisitFieldStart](../../aspose.words/documentvisitor/visitfieldstart)(FieldStart) | 在文档中的字段开始时调用。 |
-| virtual [VisitFootnoteEnd](../../aspose.words/documentvisitor/visitfootnoteend)(Footnote) | 在脚注或尾注文本的枚举结束时调用。 |
-| virtual [VisitFootnoteStart](../../aspose.words/documentvisitor/visitfootnotestart)(Footnote) | 在开始枚举脚注或尾注文本时调用。 |
-| virtual [VisitFormField](../../aspose.words/documentvisitor/visitformfield)(FormField) | 在文档中遇到表单字段时调用。 |
-| virtual [VisitGlossaryDocumentEnd](../../aspose.words/documentvisitor/visitglossarydocumentend)(GlossaryDocument) | 在词汇表文档的枚举结束时调用。 |
-| virtual [VisitGlossaryDocumentStart](../../aspose.words/documentvisitor/visitglossarydocumentstart)(GlossaryDocument) | 在开始枚举词汇表文档时调用。 |
-| virtual [VisitGroupShapeEnd](../../aspose.words/documentvisitor/visitgroupshapeend)(GroupShape) | 在组形状的枚举结束时调用。 |
-| virtual [VisitGroupShapeStart](../../aspose.words/documentvisitor/visitgroupshapestart)(GroupShape) | 在开始枚举组形状时调用。 |
-| virtual [VisitHeaderFooterEnd](../../aspose.words/documentvisitor/visitheaderfooterend)(HeaderFooter) | 当节中的页眉或页脚枚举结束时调用。 |
-| virtual [VisitHeaderFooterStart](../../aspose.words/documentvisitor/visitheaderfooterstart)(HeaderFooter) | 在开始枚举节中的页眉或页脚时调用。 |
-| virtual [VisitOfficeMathEnd](../../aspose.words/documentvisitor/visitofficemathend)(OfficeMath) | 在 Office Math 对象的枚举结束时调用。 |
-| virtual [VisitOfficeMathStart](../../aspose.words/documentvisitor/visitofficemathstart)(OfficeMath) | 在 Office Math 对象的枚举开始时调用。 |
-| virtual [VisitParagraphEnd](../../aspose.words/documentvisitor/visitparagraphend)(Paragraph) | 段落枚举结束时调用。 |
-| virtual [VisitParagraphStart](../../aspose.words/documentvisitor/visitparagraphstart)(Paragraph) | 在开始枚举段落时调用。 |
-| virtual [VisitRowEnd](../../aspose.words/documentvisitor/visitrowend)(Row) | 在表行枚举结束时调用。 |
-| virtual [VisitRowStart](../../aspose.words/documentvisitor/visitrowstart)(Row) | 在开始枚举表行时调用。 |
-| virtual [VisitRun](../../aspose.words/documentvisitor/visitrun)(Run) | 在遇到大量文本时调用。 |
-| virtual [VisitSectionEnd](../../aspose.words/documentvisitor/visitsectionend)(Section) | 当一个节的枚举结束时调用。 |
-| virtual [VisitSectionStart](../../aspose.words/documentvisitor/visitsectionstart)(Section) | 在开始枚举部分时调用。 |
-| virtual [VisitShapeEnd](../../aspose.words/documentvisitor/visitshapeend)(Shape) | 当形状的枚举结束时调用。 |
-| virtual [VisitShapeStart](../../aspose.words/documentvisitor/visitshapestart)(Shape) | 在形状枚举开始时调用。 |
-| virtual [VisitSmartTagEnd](../../aspose.words/documentvisitor/visitsmarttagend)(SmartTag) | 当智能标签的枚举结束时调用。 |
-| virtual [VisitSmartTagStart](../../aspose.words/documentvisitor/visitsmarttagstart)(SmartTag) | 智能标记枚举开始时调用。 |
-| virtual [VisitSpecialChar](../../aspose.words/documentvisitor/visitspecialchar)(SpecialChar) | 当一个[`SpecialChar`](../specialchar)在文档中遇到节点。 |
-| virtual [VisitStructuredDocumentTagEnd](../../aspose.words/documentvisitor/visitstructureddocumenttagend)(StructuredDocumentTag) | 当结构化文档标签的枚举结束时调用。 |
-| virtual [VisitStructuredDocumentTagRangeEnd](../../aspose.words/documentvisitor/visitstructureddocumenttagrangeend)(StructuredDocumentTagRangeEnd) |  |
-| virtual [VisitStructuredDocumentTagRangeStart](../../aspose.words/documentvisitor/visitstructureddocumenttagrangestart)(StructuredDocumentTagRangeStart) |  |
-| virtual [VisitStructuredDocumentTagStart](../../aspose.words/documentvisitor/visitstructureddocumenttagstart)(StructuredDocumentTag) | 在结构化文档标签的枚举开始时调用。 |
-| virtual [VisitSubDocument](../../aspose.words/documentvisitor/visitsubdocument)(SubDocument) | 遇到子文档时调用。 |
-| virtual [VisitTableEnd](../../aspose.words/documentvisitor/visittableend)(Table) | 在表的枚举结束时调用。 |
-| virtual [VisitTableStart](../../aspose.words/documentvisitor/visittablestart)(Table) | 在表的枚举开始时调用。 |
+| virtual [VisitAbsolutePositionTab](../../aspose.words/documentvisitor/visitabsolutepositiontab/)(AbsolutePositionTab) | 当一个[`AbsolutePositionTab`](../absolutepositiontab/)在文档中遇到节点。 |
+| virtual [VisitBodyEnd](../../aspose.words/documentvisitor/visitbodyend/)(Body) | 当一节中的正文故事的枚举结束时调用。 |
+| virtual [VisitBodyStart](../../aspose.words/documentvisitor/visitbodystart/)(Body) | 开始枚举部分中的正文故事时调用。 |
+| virtual [VisitBookmarkEnd](../../aspose.words/documentvisitor/visitbookmarkend/)(BookmarkEnd) | 在文档中遇到书签结尾时调用。 |
+| virtual [VisitBookmarkStart](../../aspose.words/documentvisitor/visitbookmarkstart/)(BookmarkStart) | 在文档中遇到书签开始时调用。 |
+| virtual [VisitBuildingBlockEnd](../../aspose.words/documentvisitor/visitbuildingblockend/)(BuildingBlock) | 在构建块的枚举结束时调用。 |
+| virtual [VisitBuildingBlockStart](../../aspose.words/documentvisitor/visitbuildingblockstart/)(BuildingBlock) | 在开始枚举构建块时调用。 |
+| virtual [VisitCellEnd](../../aspose.words/documentvisitor/visitcellend/)(Cell) | 在表格单元格的枚举结束时调用。 |
+| virtual [VisitCellStart](../../aspose.words/documentvisitor/visitcellstart/)(Cell) | 开始枚举表格单元格时调用。 |
+| virtual [VisitCommentEnd](../../aspose.words/documentvisitor/visitcommentend/)(Comment) | 注释文本枚举结束时调用。 |
+| virtual [VisitCommentRangeEnd](../../aspose.words/documentvisitor/visitcommentrangeend/)(CommentRangeEnd) | 在遇到注释文本范围的末尾时调用。 |
+| virtual [VisitCommentRangeStart](../../aspose.words/documentvisitor/visitcommentrangestart/)(CommentRangeStart) | 在遇到注释文本范围的开头时调用。 |
+| virtual [VisitCommentStart](../../aspose.words/documentvisitor/visitcommentstart/)(Comment) | 在注释文本的枚举开始时调用。 |
+| virtual [VisitDocumentEnd](../../aspose.words/documentvisitor/visitdocumentend/)(Document) | 在文档枚举完成时调用。 |
+| virtual [VisitDocumentStart](../../aspose.words/documentvisitor/visitdocumentstart/)(Document) | 在文档枚举开始时调用。 |
+| virtual [VisitEditableRangeEnd](../../aspose.words/documentvisitor/visiteditablerangeend/)(EditableRangeEnd) | 在文档中遇到可编辑范围的结尾时调用。 |
+| virtual [VisitEditableRangeStart](../../aspose.words/documentvisitor/visiteditablerangestart/)(EditableRangeStart) | 在文档中遇到可编辑范围的开始时调用。 |
+| virtual [VisitFieldEnd](../../aspose.words/documentvisitor/visitfieldend/)(FieldEnd) | 当字段在文档中结束时调用。 |
+| virtual [VisitFieldSeparator](../../aspose.words/documentvisitor/visitfieldseparator/)(FieldSeparator) | 在文档中遇到字段分隔符时调用。 |
+| virtual [VisitFieldStart](../../aspose.words/documentvisitor/visitfieldstart/)(FieldStart) | 在文档中的字段开始时调用。 |
+| virtual [VisitFootnoteEnd](../../aspose.words/documentvisitor/visitfootnoteend/)(Footnote) | 在脚注或尾注文本的枚举结束时调用。 |
+| virtual [VisitFootnoteStart](../../aspose.words/documentvisitor/visitfootnotestart/)(Footnote) | 在开始枚举脚注或尾注文本时调用。 |
+| virtual [VisitFormField](../../aspose.words/documentvisitor/visitformfield/)(FormField) | 在文档中遇到表单字段时调用。 |
+| virtual [VisitGlossaryDocumentEnd](../../aspose.words/documentvisitor/visitglossarydocumentend/)(GlossaryDocument) | 在词汇表文档的枚举结束时调用。 |
+| virtual [VisitGlossaryDocumentStart](../../aspose.words/documentvisitor/visitglossarydocumentstart/)(GlossaryDocument) | 在开始枚举词汇表文档时调用。 |
+| virtual [VisitGroupShapeEnd](../../aspose.words/documentvisitor/visitgroupshapeend/)(GroupShape) | 在组形状的枚举结束时调用。 |
+| virtual [VisitGroupShapeStart](../../aspose.words/documentvisitor/visitgroupshapestart/)(GroupShape) | 在开始枚举组形状时调用。 |
+| virtual [VisitHeaderFooterEnd](../../aspose.words/documentvisitor/visitheaderfooterend/)(HeaderFooter) | 当节中的页眉或页脚枚举结束时调用。 |
+| virtual [VisitHeaderFooterStart](../../aspose.words/documentvisitor/visitheaderfooterstart/)(HeaderFooter) | 在开始枚举节中的页眉或页脚时调用。 |
+| virtual [VisitOfficeMathEnd](../../aspose.words/documentvisitor/visitofficemathend/)(OfficeMath) | 在 Office Math 对象的枚举结束时调用。 |
+| virtual [VisitOfficeMathStart](../../aspose.words/documentvisitor/visitofficemathstart/)(OfficeMath) | 在 Office Math 对象的枚举开始时调用。 |
+| virtual [VisitParagraphEnd](../../aspose.words/documentvisitor/visitparagraphend/)(Paragraph) | 段落枚举结束时调用。 |
+| virtual [VisitParagraphStart](../../aspose.words/documentvisitor/visitparagraphstart/)(Paragraph) | 在开始枚举段落时调用。 |
+| virtual [VisitRowEnd](../../aspose.words/documentvisitor/visitrowend/)(Row) | 在表行枚举结束时调用。 |
+| virtual [VisitRowStart](../../aspose.words/documentvisitor/visitrowstart/)(Row) | 在开始枚举表行时调用。 |
+| virtual [VisitRun](../../aspose.words/documentvisitor/visitrun/)(Run) | 在遇到大量文本时调用。 |
+| virtual [VisitSectionEnd](../../aspose.words/documentvisitor/visitsectionend/)(Section) | 当一个节的枚举结束时调用。 |
+| virtual [VisitSectionStart](../../aspose.words/documentvisitor/visitsectionstart/)(Section) | 在开始枚举部分时调用。 |
+| virtual [VisitShapeEnd](../../aspose.words/documentvisitor/visitshapeend/)(Shape) | 当形状的枚举结束时调用。 |
+| virtual [VisitShapeStart](../../aspose.words/documentvisitor/visitshapestart/)(Shape) | 在形状枚举开始时调用。 |
+| virtual [VisitSmartTagEnd](../../aspose.words/documentvisitor/visitsmarttagend/)(SmartTag) | 当智能标签的枚举结束时调用。 |
+| virtual [VisitSmartTagStart](../../aspose.words/documentvisitor/visitsmarttagstart/)(SmartTag) | 智能标记枚举开始时调用。 |
+| virtual [VisitSpecialChar](../../aspose.words/documentvisitor/visitspecialchar/)(SpecialChar) | 当一个[`SpecialChar`](../specialchar/)在文档中遇到节点。 |
+| virtual [VisitStructuredDocumentTagEnd](../../aspose.words/documentvisitor/visitstructureddocumenttagend/)(StructuredDocumentTag) | 当结构化文档标签的枚举结束时调用。 |
+| virtual [VisitStructuredDocumentTagRangeEnd](../../aspose.words/documentvisitor/visitstructureddocumenttagrangeend/)(StructuredDocumentTagRangeEnd) |  |
+| virtual [VisitStructuredDocumentTagRangeStart](../../aspose.words/documentvisitor/visitstructureddocumenttagrangestart/)(StructuredDocumentTagRangeStart) |  |
+| virtual [VisitStructuredDocumentTagStart](../../aspose.words/documentvisitor/visitstructureddocumenttagstart/)(StructuredDocumentTag) | 在结构化文档标签的枚举开始时调用。 |
+| virtual [VisitSubDocument](../../aspose.words/documentvisitor/visitsubdocument/)(SubDocument) | 遇到子文档时调用。 |
+| virtual [VisitTableEnd](../../aspose.words/documentvisitor/visittableend/)(Table) | 在表的枚举结束时调用。 |
+| virtual [VisitTableStart](../../aspose.words/documentvisitor/visittablestart/)(Table) | 在表的枚举开始时调用。 |
 
 ### 评论
 
@@ -79,7 +79,7 @@ public abstract class DocumentVisitor
 
 1. 创建一个派生自的类 **文档访问者**.
 2. 覆盖并提供部分或全部 VisitXXX 方法 的实现以执行一些自定义操作。
-3. 称呼[`节点接受`](../node/accept)在 **节点**that 你想开始枚举。
+3. 称呼[`节点接受`](../node/accept/)在 **节点**that 你想开始枚举。
 
 **文档访问者**为所有 VisitXXX 方法 提供默认实现，以便更轻松地创建新的文档访问者，因为只有特定的 访问者所需的方法需要被覆盖。没有必要覆盖所有的访问者方法。
 
@@ -253,7 +253,7 @@ public class DocStructurePrinter : DocumentVisitor
 
 ### 也可以看看
 
-* 命名空间 [Aspose.Words](../../aspose.words)
+* 命名空间 [Aspose.Words](../../aspose.words/)
 * 部件 [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

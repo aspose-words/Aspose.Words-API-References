@@ -18,62 +18,62 @@ public class Row : CompositeNode
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Row](row)(DocumentBase) | 初始化 **排**类. |
+| [Row](row/)(DocumentBase) | 初始化 **排**类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Cells](../../aspose.words.tables/row/cells) { get; } | 提供对 **细胞**行的子节点。 |
-| [ChildNodes](../../aspose.words/compositenode/childnodes) { get; } | 获取该节点的所有直接子节点。 |
-| [Count](../../aspose.words/compositenode/count) { get; } | 获取此节点的直接子节点数。 |
-| [CustomNodeId](../../aspose.words/node/customnodeid) { get; set; } | 指定自定义节点标识符。 |
-| virtual [Document](../../aspose.words/node/document) { get; } | 获取该节点所属的文档。 |
-| [FirstCell](../../aspose.words.tables/row/firstcell) { get; } | 返回第一个 **细胞**在行中。 |
-| [FirstChild](../../aspose.words/compositenode/firstchild) { get; } | 获取节点的第一个子节点。 |
-| [HasChildNodes](../../aspose.words/compositenode/haschildnodes) { get; } | 如果此节点有任何子节点，则返回 true。 |
-| override [IsComposite](../../aspose.words/compositenode/iscomposite) { get; } | 返回真，因为该节点可以有子节点。 |
-| [IsFirstRow](../../aspose.words.tables/row/isfirstrow) { get; } | 如果这是表中的第一行，则为真；否则为假。 |
-| [IsLastRow](../../aspose.words.tables/row/islastrow) { get; } | 如果这是表中的最后一行，则为真；否则为假。 |
-| [LastCell](../../aspose.words.tables/row/lastcell) { get; } | 返回最后一个 **细胞**在行中。 |
-| [LastChild](../../aspose.words/compositenode/lastchild) { get; } | 获取节点的最后一个子节点。 |
-| [NextSibling](../../aspose.words/node/nextsibling) { get; } | 获取紧跟此节点的节点。 |
-| override [NodeType](../../aspose.words.tables/row/nodetype) { get; } | 返回 **节点类型.Row**. |
-| [ParentNode](../../aspose.words/node/parentnode) { get; } | 获取此节点的直接父节点。 |
-| [ParentTable](../../aspose.words.tables/row/parenttable) { get; } | 返回行的直接父表。 |
-| [PreviousSibling](../../aspose.words/node/previoussibling) { get; } | 获取紧接在此节点之前的节点。 |
-| [Range](../../aspose.words/node/range) { get; } | 返回一个 **范围**表示此节点中包含的文档部分的对象。 |
-| [RowFormat](../../aspose.words.tables/row/rowformat) { get; } | 提供对行的格式化属性的访问。 |
+| [Cells](../../aspose.words.tables/row/cells/) { get; } | 提供对 **细胞**行的子节点。 |
+| [ChildNodes](../../aspose.words/compositenode/childnodes/) { get; } | 获取该节点的所有直接子节点。 |
+| [Count](../../aspose.words/compositenode/count/) { get; } | 获取此节点的直接子节点数。 |
+| [CustomNodeId](../../aspose.words/node/customnodeid/) { get; set; } | 指定自定义节点标识符。 |
+| virtual [Document](../../aspose.words/node/document/) { get; } | 获取该节点所属的文档。 |
+| [FirstCell](../../aspose.words.tables/row/firstcell/) { get; } | 返回第一个 **细胞**在行中。 |
+| [FirstChild](../../aspose.words/compositenode/firstchild/) { get; } | 获取节点的第一个子节点。 |
+| [HasChildNodes](../../aspose.words/compositenode/haschildnodes/) { get; } | 如果此节点有任何子节点，则返回 true。 |
+| override [IsComposite](../../aspose.words/compositenode/iscomposite/) { get; } | 返回真，因为该节点可以有子节点。 |
+| [IsFirstRow](../../aspose.words.tables/row/isfirstrow/) { get; } | 如果这是表中的第一行，则为真；否则为假。 |
+| [IsLastRow](../../aspose.words.tables/row/islastrow/) { get; } | 如果这是表中的最后一行，则为真；否则为假。 |
+| [LastCell](../../aspose.words.tables/row/lastcell/) { get; } | 返回最后一个 **细胞**在行中。 |
+| [LastChild](../../aspose.words/compositenode/lastchild/) { get; } | 获取节点的最后一个子节点。 |
+| [NextSibling](../../aspose.words/node/nextsibling/) { get; } | 获取紧跟此节点的节点。 |
+| override [NodeType](../../aspose.words.tables/row/nodetype/) { get; } | 返回 **节点类型.Row**. |
+| [ParentNode](../../aspose.words/node/parentnode/) { get; } | 获取此节点的直接父节点。 |
+| [ParentTable](../../aspose.words.tables/row/parenttable/) { get; } | 返回行的直接父表。 |
+| [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | 获取紧接在此节点之前的节点。 |
+| [Range](../../aspose.words/node/range/) { get; } | 返回一个 **范围**表示此节点中包含的文档部分的对象。 |
+| [RowFormat](../../aspose.words.tables/row/rowformat/) { get; } | 提供对行的格式化属性的访问。 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [Accept](../../aspose.words.tables/row/accept)(DocumentVisitor) | 接受访客。 |
-| [AppendChild](../../aspose.words/compositenode/appendchild)(Node) | 将指定节点添加到该节点的子节点列表的末尾。 |
-| [Clone](../../aspose.words/node/clone)(bool) | 创建节点的副本。 |
-| [CreateNavigator](../../aspose.words/compositenode/createnavigator)() | 保留供系统使用。 IXPathNavigable. |
-| [EnsureMinimum](../../aspose.words.tables/row/ensureminimum)() | 如果 **排**没有单元格，创建并附加一个 **细胞**. |
-| [GetAncestor](../../aspose.words/node/getancestor)(NodeType) | 获取指定的第一个祖先[`NodeType`](../../aspose.words/nodetype). |
-| [GetAncestor](../../aspose.words/node/getancestor)(Type) | 获取指定对象类型的第一个祖先。 |
-| [GetChild](../../aspose.words/compositenode/getchild)(NodeType, int, bool) | 返回与指定类型匹配的第 N 个子节点。 |
-| [GetChildNodes](../../aspose.words/compositenode/getchildnodes)(NodeType, bool) | 返回与指定类型匹配的子节点的实时集合。 |
-| [GetEnumerator](../../aspose.words/compositenode/getenumerator)() | 为在该节点的子节点上的每个样式迭代提供支持。 |
-| override [GetText](../../aspose.words.tables/row/gettext)() | 获取该行中所有单元格的文本，包括行尾字符。 |
-| [IndexOf](../../aspose.words/compositenode/indexof)(Node) | 返回子节点数组中指定子节点的索引。 |
-| [InsertAfter](../../aspose.words/compositenode/insertafter)(Node, Node) | 在指定参考节点之后立即插入指定节点。 |
-| [InsertBefore](../../aspose.words/compositenode/insertbefore)(Node, Node) | 在指定的参考节点之前插入指定的节点。 |
-| [NextPreOrder](../../aspose.words/node/nextpreorder)(Node) | 根据前序树遍历算法获取下一个节点。 |
-| [PrependChild](../../aspose.words/compositenode/prependchild)(Node) | 将指定节点添加到此节点的子节点列表的开头。 |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder)(Node) | 根据前序树遍历算法获取上一个节点。 |
-| [Remove](../../aspose.words/node/remove)() | 从父级中移除自身。 |
-| [RemoveAllChildren](../../aspose.words/compositenode/removeallchildren)() | 移除当前节点的所有子节点。 |
-| [RemoveChild](../../aspose.words/compositenode/removechild)(Node) | 移除指定的子节点。 |
-| [RemoveSmartTags](../../aspose.words/compositenode/removesmarttags)() | 删除所有[`SmartTag`](../../aspose.words.markup/smarttag)当前节点的后代节点。 |
-| [SelectNodes](../../aspose.words/compositenode/selectnodes)(string) | 选择与 XPath 表达式匹配的节点列表。 |
-| [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode)(string) | 选择与 XPath 表达式匹配的第一个节点。 |
-| [ToString](../../aspose.words/node/tostring)(SaveFormat) | 将节点的内容导出为指定格式的字符串。 |
-| [ToString](../../aspose.words/node/tostring)(SaveOptions) | 使用指定的保存选项将节点的内容导出为字符串。 |
+| override [Accept](../../aspose.words.tables/row/accept/)(DocumentVisitor) | 接受访客。 |
+| [AppendChild](../../aspose.words/compositenode/appendchild/)(Node) | 将指定节点添加到该节点的子节点列表的末尾。 |
+| [Clone](../../aspose.words/node/clone/)(bool) | 创建节点的副本。 |
+| [CreateNavigator](../../aspose.words/compositenode/createnavigator/)() | 保留供系统使用。 IXPathNavigable. |
+| [EnsureMinimum](../../aspose.words.tables/row/ensureminimum/)() | 如果 **排**没有单元格，创建并附加一个 **细胞**. |
+| [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | 获取指定的第一个祖先[`NodeType`](../../aspose.words/nodetype/). |
+| [GetAncestor](../../aspose.words/node/getancestor/)(Type) | 获取指定对象类型的第一个祖先。 |
+| [GetChild](../../aspose.words/compositenode/getchild/)(NodeType, int, bool) | 返回与指定类型匹配的第 N 个子节点。 |
+| [GetChildNodes](../../aspose.words/compositenode/getchildnodes/)(NodeType, bool) | 返回与指定类型匹配的子节点的实时集合。 |
+| [GetEnumerator](../../aspose.words/compositenode/getenumerator/)() | 为在该节点的子节点上的每个样式迭代提供支持。 |
+| override [GetText](../../aspose.words.tables/row/gettext/)() | 获取该行中所有单元格的文本，包括行尾字符。 |
+| [IndexOf](../../aspose.words/compositenode/indexof/)(Node) | 返回子节点数组中指定子节点的索引。 |
+| [InsertAfter](../../aspose.words/compositenode/insertafter/)(Node, Node) | 在指定参考节点之后立即插入指定节点。 |
+| [InsertBefore](../../aspose.words/compositenode/insertbefore/)(Node, Node) | 在指定的参考节点之前插入指定的节点。 |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | 根据前序树遍历算法获取下一个节点。 |
+| [PrependChild](../../aspose.words/compositenode/prependchild/)(Node) | 将指定节点添加到此节点的子节点列表的开头。 |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | 根据前序树遍历算法获取上一个节点。 |
+| [Remove](../../aspose.words/node/remove/)() | 从父级中移除自身。 |
+| [RemoveAllChildren](../../aspose.words/compositenode/removeallchildren/)() | 移除当前节点的所有子节点。 |
+| [RemoveChild](../../aspose.words/compositenode/removechild/)(Node) | 移除指定的子节点。 |
+| [RemoveSmartTags](../../aspose.words/compositenode/removesmarttags/)() | 删除所有[`SmartTag`](../../aspose.words.markup/smarttag/)当前节点的后代节点。 |
+| [SelectNodes](../../aspose.words/compositenode/selectnodes/)(string) | 选择与 XPath 表达式匹配的节点列表。 |
+| [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode/)(string) | 选择与 XPath 表达式匹配的第一个节点。 |
+| [ToString](../../aspose.words/node/tostring/)(SaveFormat) | 将节点的内容导出为指定格式的字符串。 |
+| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | 使用指定的保存选项将节点的内容导出为字符串。 |
 
 ### 评论
 
@@ -206,8 +206,8 @@ private static Table CreateTable(Document doc, int rowCount, int cellCount, stri
 
 ### 也可以看看
 
-* class [CompositeNode](../../aspose.words/compositenode)
-* 命名空间 [Aspose.Words.Tables](../../aspose.words.tables)
+* class [CompositeNode](../../aspose.words/compositenode/)
+* 命名空间 [Aspose.Words.Tables](../../aspose.words.tables/)
 * 部件 [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

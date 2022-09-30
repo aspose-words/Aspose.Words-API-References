@@ -18,30 +18,30 @@ public class FindReplaceOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [FindReplaceOptions](findreplaceoptions#constructor)() | 默认构造函数。 |
-| [FindReplaceOptions](findreplaceoptions#constructor_1)(FindReplaceDirection) |  |
-| [FindReplaceOptions](findreplaceoptions#constructor_3)(IReplacingCallback) |  |
-| [FindReplaceOptions](findreplaceoptions#constructor_2)(FindReplaceDirection, IReplacingCallback) |  |
+| [FindReplaceOptions](findreplaceoptions/#constructor)() | 默认构造函数。 |
+| [FindReplaceOptions](findreplaceoptions/#constructor_1)(FindReplaceDirection) |  |
+| [FindReplaceOptions](findreplaceoptions/#constructor_3)(IReplacingCallback) |  |
+| [FindReplaceOptions](findreplaceoptions/#constructor_2)(FindReplaceDirection, IReplacingCallback) |  |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ApplyFont](../../aspose.words.replacing/findreplaceoptions/applyfont) { get; } | 应用于新内容的文本格式。 |
-| [ApplyParagraphFormat](../../aspose.words.replacing/findreplaceoptions/applyparagraphformat) { get; } | 应用于新内容的段落格式。 |
-| [Direction](../../aspose.words.replacing/findreplaceoptions/direction) { get; set; } | 选择替换方向。默认值为Forward. |
-| [FindWholeWordsOnly](../../aspose.words.replacing/findreplaceoptions/findwholewordsonly) { get; set; } | True 表示 oldValue 必须是一个独立的词。 |
-| [IgnoreDeleted](../../aspose.words.replacing/findreplaceoptions/ignoredeleted) { get; set; } | 获取或设置一个布尔值，指示忽略删除修订中的文本。 默认值为`错误的`. |
-| [IgnoreFieldCodes](../../aspose.words.replacing/findreplaceoptions/ignorefieldcodes) { get; set; } | 获取或设置一个布尔值，指示忽略字段代码中的文本。 默认值为`错误的`. |
-| [IgnoreFields](../../aspose.words.replacing/findreplaceoptions/ignorefields) { get; set; } | 获取或设置一个布尔值，指示忽略字段内的文本。 默认值为`错误的`. |
-| [IgnoreFootnotes](../../aspose.words.replacing/findreplaceoptions/ignorefootnotes) { get; set; } | 获取或设置一个布尔值，指示忽略脚注。 默认值为`错误的`. |
-| [IgnoreInserted](../../aspose.words.replacing/findreplaceoptions/ignoreinserted) { get; set; } | 获取或设置一个布尔值，指示忽略插入修订中的文本。 默认值为`错误的`. |
-| [LegacyMode](../../aspose.words.replacing/findreplaceoptions/legacymode) { get; set; } | 获取或设置一个布尔值，指示使用旧的查找/替换算法。 |
-| [MatchCase](../../aspose.words.replacing/findreplaceoptions/matchcase) { get; set; } | true表示区分大小写比较，false表示不区分大小写比较。 |
-| [ReplacingCallback](../../aspose.words.replacing/findreplaceoptions/replacingcallback) { get; set; } | 在每次替换发生之前调用的用户定义方法。 |
-| [SmartParagraphBreakReplacement](../../aspose.words.replacing/findreplaceoptions/smartparagraphbreakreplacement) { get; set; } | 获取或设置一个布尔值，指示当没有下一个同级段落时是否允许替换段落 break 。 |
-| [UseLegacyOrder](../../aspose.words.replacing/findreplaceoptions/uselegacyorder) { get; set; } | True 表示考虑到文本框，从上到下顺序执行文本搜索。 默认值为 false。 |
-| [UseSubstitutions](../../aspose.words.replacing/findreplaceoptions/usesubstitutions) { get; set; } | 获取或设置一个布尔值，指示是否识别和使用替换模式中的替换。 默认值为`错误的`. |
+| [ApplyFont](../../aspose.words.replacing/findreplaceoptions/applyfont/) { get; } | 应用于新内容的文本格式。 |
+| [ApplyParagraphFormat](../../aspose.words.replacing/findreplaceoptions/applyparagraphformat/) { get; } | 应用于新内容的段落格式。 |
+| [Direction](../../aspose.words.replacing/findreplaceoptions/direction/) { get; set; } | 选择替换方向。默认值为Forward. |
+| [FindWholeWordsOnly](../../aspose.words.replacing/findreplaceoptions/findwholewordsonly/) { get; set; } | True 表示 oldValue 必须是一个独立的词。 |
+| [IgnoreDeleted](../../aspose.words.replacing/findreplaceoptions/ignoredeleted/) { get; set; } | 获取或设置一个布尔值，指示忽略删除修订中的文本。 默认值为`错误的`. |
+| [IgnoreFieldCodes](../../aspose.words.replacing/findreplaceoptions/ignorefieldcodes/) { get; set; } | 获取或设置一个布尔值，指示忽略字段代码中的文本。 默认值为`错误的`. |
+| [IgnoreFields](../../aspose.words.replacing/findreplaceoptions/ignorefields/) { get; set; } | 获取或设置一个布尔值，指示忽略字段内的文本。 默认值为`错误的`. |
+| [IgnoreFootnotes](../../aspose.words.replacing/findreplaceoptions/ignorefootnotes/) { get; set; } | 获取或设置一个布尔值，指示忽略脚注。 默认值为`错误的`. |
+| [IgnoreInserted](../../aspose.words.replacing/findreplaceoptions/ignoreinserted/) { get; set; } | 获取或设置一个布尔值，指示忽略插入修订中的文本。 默认值为`错误的`. |
+| [LegacyMode](../../aspose.words.replacing/findreplaceoptions/legacymode/) { get; set; } | 获取或设置一个布尔值，指示使用旧的查找/替换算法。 |
+| [MatchCase](../../aspose.words.replacing/findreplaceoptions/matchcase/) { get; set; } | true表示区分大小写比较，false表示不区分大小写比较。 |
+| [ReplacingCallback](../../aspose.words.replacing/findreplaceoptions/replacingcallback/) { get; set; } | 在每次替换发生之前调用的用户定义方法。 |
+| [SmartParagraphBreakReplacement](../../aspose.words.replacing/findreplaceoptions/smartparagraphbreakreplacement/) { get; set; } | 获取或设置一个布尔值，指示当没有下一个同级段落时是否允许替换段落 break 。 |
+| [UseLegacyOrder](../../aspose.words.replacing/findreplaceoptions/uselegacyorder/) { get; set; } | True 表示考虑到文本框，从上到下顺序执行文本搜索。 默认值为 false。 |
+| [UseSubstitutions](../../aspose.words.replacing/findreplaceoptions/usesubstitutions/) { get; set; } | 获取或设置一个布尔值，指示是否识别和使用替换模式中的替换。 默认值为`错误的`. |
 
 ### 例子
 
@@ -90,7 +90,7 @@ Assert.AreEqual(
 
 ### 也可以看看
 
-* 命名空间 [Aspose.Words.Replacing](../../aspose.words.replacing)
+* 命名空间 [Aspose.Words.Replacing](../../aspose.words.replacing/)
 * 部件 [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

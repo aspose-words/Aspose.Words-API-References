@@ -18,47 +18,47 @@ public class MailMerge
 
 | 姓名 | 描述 |
 | --- | --- |
-| [CleanupOptions](../../aspose.words.mailmerging/mailmerge/cleanupoptions) { get; set; } | 获取或设置一组标志，指定在邮件合并期间应删除哪些项目。 |
-| [CleanupParagraphsWithPunctuationMarks](../../aspose.words.mailmerging/mailmerge/cleanupparagraphswithpunctuationmarks) { get; set; } | 获取或设置一个值，该值指示带有标点符号的段落是否被视为空 ，如果RemoveEmptyParagraphs选项已指定。 |
-| [FieldMergingCallback](../../aspose.words.mailmerging/mailmerge/fieldmergingcallback) { get; set; } | 在文档中遇到邮件合并字段时在邮件合并期间发生。 |
-| [MailMergeCallback](../../aspose.words.mailmerging/mailmerge/mailmergecallback) { get; set; } | 允许在邮件合并期间处理特定事件。 |
-| [MappedDataFields](../../aspose.words.mailmerging/mailmerge/mappeddatafields) { get; } | 返回代表邮件合并操作的映射数据字段的集合。 |
-| [MergeDuplicateRegions](../../aspose.words.mailmerging/mailmerge/mergeduplicateregions) { get; set; } | 获取或设置一个值，该值指示在针对数据源执行与区域的邮件合并时，是否应合并具有数据源 名称的所有文档邮件合并区域，或者仅合并第一个。 |
-| [MergeWholeDocument](../../aspose.words.mailmerging/mailmerge/mergewholedocument) { get; set; } | 获取或设置一个值，该值指示在执行与区域的邮件合并时是否更新整个文档中的字段。 |
-| [PreserveUnusedTags](../../aspose.words.mailmerging/mailmerge/preserveunusedtags) { get; set; } | 获取或设置一个值，指示是否应保留未使用的“小胡子”标签。 |
-| [RegionEndTag](../../aspose.words.mailmerging/mailmerge/regionendtag) { get; set; } | 获取或设置邮件合并区域结束标记。 |
-| [RegionStartTag](../../aspose.words.mailmerging/mailmerge/regionstarttag) { get; set; } | 获取或设置邮件合并区域开始标记。 |
-| [RestartListsAtEachSection](../../aspose.words.mailmerging/mailmerge/restartlistsateachsection) { get; set; } | 获取或设置一个值，该值指示是否在执行邮件合并后在每个部分重新启动列表。 |
-| [RetainFirstSectionStart](../../aspose.words.mailmerging/mailmerge/retainfirstsectionstart) { get; set; } | 获取或设置一个值，指示是否[`SectionStart`](../../aspose.words/pagesetup/sectionstart)第一个文档部分及其后续数据源 rows 的副本在邮件合并期间保留或根据 MS Word 行为进行更新。 |
-| [TrimWhitespaces](../../aspose.words.mailmerging/mailmerge/trimwhitespaces) { get; set; } | 获取或设置一个值，该值指示是否从邮件合并值中修剪尾随和前导空格。 |
-| [UnconditionalMergeFieldsAndRegions](../../aspose.words.mailmerging/mailmerge/unconditionalmergefieldsandregions) { get; set; } | 获取或设置一个值，该值指示是否合并合并字段和合并区域，而不考虑父 IF 字段的条件。 |
-| [UseNonMergeFields](../../aspose.words.mailmerging/mailmerge/usenonmergefields) { get; set; } | 为真时，指定除了 MERGEFIELD 字段外，邮件合并到一些其他类型的字段中， 也合并到“{{fieldName}}”标签中。 |
-| [UseWholeParagraphAsRegion](../../aspose.words.mailmerging/mailmerge/usewholeparagraphasregion) { get; set; } | 获取或设置一个值，该值指示是否应将带有 TableStart 或 TableEnd 字段 的整个段落或 TableStart 和 TableEnd 字段之间的特定范围包含到邮件合并区域中。 |
+| [CleanupOptions](../../aspose.words.mailmerging/mailmerge/cleanupoptions/) { get; set; } | 获取或设置一组标志，指定在邮件合并期间应删除哪些项目。 |
+| [CleanupParagraphsWithPunctuationMarks](../../aspose.words.mailmerging/mailmerge/cleanupparagraphswithpunctuationmarks/) { get; set; } | 获取或设置一个值，该值指示带有标点符号的段落是否被视为空 ，如果RemoveEmptyParagraphs选项已指定。 |
+| [FieldMergingCallback](../../aspose.words.mailmerging/mailmerge/fieldmergingcallback/) { get; set; } | 在文档中遇到邮件合并字段时在邮件合并期间发生。 |
+| [MailMergeCallback](../../aspose.words.mailmerging/mailmerge/mailmergecallback/) { get; set; } | 允许在邮件合并期间处理特定事件。 |
+| [MappedDataFields](../../aspose.words.mailmerging/mailmerge/mappeddatafields/) { get; } | 返回代表邮件合并操作的映射数据字段的集合。 |
+| [MergeDuplicateRegions](../../aspose.words.mailmerging/mailmerge/mergeduplicateregions/) { get; set; } | 获取或设置一个值，该值指示在针对数据源执行与区域的邮件合并时，是否应合并具有数据源 名称的所有文档邮件合并区域，或者仅合并第一个。 |
+| [MergeWholeDocument](../../aspose.words.mailmerging/mailmerge/mergewholedocument/) { get; set; } | 获取或设置一个值，该值指示在执行与区域的邮件合并时是否更新整个文档中的字段。 |
+| [PreserveUnusedTags](../../aspose.words.mailmerging/mailmerge/preserveunusedtags/) { get; set; } | 获取或设置一个值，指示是否应保留未使用的“小胡子”标签。 |
+| [RegionEndTag](../../aspose.words.mailmerging/mailmerge/regionendtag/) { get; set; } | 获取或设置邮件合并区域结束标记。 |
+| [RegionStartTag](../../aspose.words.mailmerging/mailmerge/regionstarttag/) { get; set; } | 获取或设置邮件合并区域开始标记。 |
+| [RestartListsAtEachSection](../../aspose.words.mailmerging/mailmerge/restartlistsateachsection/) { get; set; } | 获取或设置一个值，该值指示是否在执行邮件合并后在每个部分重新启动列表。 |
+| [RetainFirstSectionStart](../../aspose.words.mailmerging/mailmerge/retainfirstsectionstart/) { get; set; } | 获取或设置一个值，指示是否[`SectionStart`](../../aspose.words/pagesetup/sectionstart/)第一个文档部分及其后续数据源 rows 的副本在邮件合并期间保留或根据 MS Word 行为进行更新。 |
+| [TrimWhitespaces](../../aspose.words.mailmerging/mailmerge/trimwhitespaces/) { get; set; } | 获取或设置一个值，该值指示是否从邮件合并值中修剪尾随和前导空格。 |
+| [UnconditionalMergeFieldsAndRegions](../../aspose.words.mailmerging/mailmerge/unconditionalmergefieldsandregions/) { get; set; } | 获取或设置一个值，该值指示是否合并合并字段和合并区域，而不考虑父 IF 字段的条件。 |
+| [UseNonMergeFields](../../aspose.words.mailmerging/mailmerge/usenonmergefields/) { get; set; } | 为真时，指定除了 MERGEFIELD 字段外，邮件合并到一些其他类型的字段中， 也合并到“{{fieldName}}”标签中。 |
+| [UseWholeParagraphAsRegion](../../aspose.words.mailmerging/mailmerge/usewholeparagraphasregion/) { get; set; } | 获取或设置一个值，该值指示是否应将带有 TableStart 或 TableEnd 字段 的整个段落或 TableStart 和 TableEnd 字段之间的特定范围包含到邮件合并区域中。 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [DeleteFields](../../aspose.words.mailmerging/mailmerge/deletefields)() | 从文档中删除与邮件合并相关的字段。 |
-| [Execute](../../aspose.words.mailmerging/mailmerge/execute#execute_1)(DataRow) | 将数据行中的邮件合并到文档中。 |
-| [Execute](../../aspose.words.mailmerging/mailmerge/execute#execute_2)(DataTable) | 将数据表中的邮件合并到文档中。 |
-| [Execute](../../aspose.words.mailmerging/mailmerge/execute#execute_3)(DataView) | 执行从 DataView 到文档的邮件合并。 |
-| [Execute](../../aspose.words.mailmerging/mailmerge/execute#execute_4)(IDataReader) | 将邮件从 IDataReader 合并到文档中。 |
-| [Execute](../../aspose.words.mailmerging/mailmerge/execute#execute)(IMailMergeDataSource) | 从自定义数据源执行邮件合并。 |
-| [Execute](../../aspose.words.mailmerging/mailmerge/execute#execute_5)(string[], object[]) | 对单个记录执行邮件合并操作。 |
-| [ExecuteADO](../../aspose.words.mailmerging/mailmerge/executeado)(object) | 执行从 ADO Recordset 对象到文档的邮件合并。 |
-| [ExecuteWithRegions](../../aspose.words.mailmerging/mailmerge/executewithregions#executewithregions_2)(DataSet) | 将数据集的邮件合并到具有邮件合并区域的文档中。 |
-| [ExecuteWithRegions](../../aspose.words.mailmerging/mailmerge/executewithregions#executewithregions_3)(DataTable) | 将数据表中的邮件合并到带有邮件合并区域的文档中。 |
-| [ExecuteWithRegions](../../aspose.words.mailmerging/mailmerge/executewithregions#executewithregions_4)(DataView) | 将数据视图中的邮件合并到带有邮件合并区域的文档中。 |
-| [ExecuteWithRegions](../../aspose.words.mailmerging/mailmerge/executewithregions#executewithregions)(IMailMergeDataSource) | 使用邮件合并区域从自定义数据源执行邮件合并。 |
-| [ExecuteWithRegions](../../aspose.words.mailmerging/mailmerge/executewithregions#executewithregions_1)(IMailMergeDataSourceRoot) | 使用邮件合并区域从自定义数据源执行邮件合并。 |
-| [ExecuteWithRegions](../../aspose.words.mailmerging/mailmerge/executewithregions#executewithregions_5)(IDataReader, string) | 执行从 IDataReader 到具有邮件合并区域的文档的邮件合并。 |
-| [ExecuteWithRegionsADO](../../aspose.words.mailmerging/mailmerge/executewithregionsado)(object, string) | 执行从 ADO 记录集对象到具有邮件合并区域的文档的邮件合并。 |
-| [GetFieldNames](../../aspose.words.mailmerging/mailmerge/getfieldnames)() | 返回文档中可用的邮件合并字段名称的集合。 |
-| [GetFieldNamesForRegion](../../aspose.words.mailmerging/mailmerge/getfieldnamesforregion#getfieldnamesforregion)(string) | 返回区域中可用的邮件合并字段名称的集合。 |
-| [GetFieldNamesForRegion](../../aspose.words.mailmerging/mailmerge/getfieldnamesforregion#getfieldnamesforregion_1)(string, int) | 返回区域中可用的邮件合并字段名称的集合。 |
-| [GetRegionsByName](../../aspose.words.mailmerging/mailmerge/getregionsbyname)(string) | 返回具有指定名称的邮件合并区域的集合。 |
-| [GetRegionsHierarchy](../../aspose.words.mailmerging/mailmerge/getregionshierarchy)() | 返回文档中可用区域（带字段）的完整层次结构。 |
+| [DeleteFields](../../aspose.words.mailmerging/mailmerge/deletefields/)() | 从文档中删除与邮件合并相关的字段。 |
+| [Execute](../../aspose.words.mailmerging/mailmerge/execute/#execute_1)(DataRow) | 将数据行中的邮件合并到文档中。 |
+| [Execute](../../aspose.words.mailmerging/mailmerge/execute/#execute_2)(DataTable) | 将数据表中的邮件合并到文档中。 |
+| [Execute](../../aspose.words.mailmerging/mailmerge/execute/#execute_3)(DataView) | 执行从 DataView 到文档的邮件合并。 |
+| [Execute](../../aspose.words.mailmerging/mailmerge/execute/#execute_4)(IDataReader) | 将邮件从 IDataReader 合并到文档中。 |
+| [Execute](../../aspose.words.mailmerging/mailmerge/execute/#execute)(IMailMergeDataSource) | 从自定义数据源执行邮件合并。 |
+| [Execute](../../aspose.words.mailmerging/mailmerge/execute/#execute_5)(string[], object[]) | 对单个记录执行邮件合并操作。 |
+| [ExecuteADO](../../aspose.words.mailmerging/mailmerge/executeado/)(object) | 执行从 ADO Recordset 对象到文档的邮件合并。 |
+| [ExecuteWithRegions](../../aspose.words.mailmerging/mailmerge/executewithregions/#executewithregions_2)(DataSet) | 将数据集的邮件合并到具有邮件合并区域的文档中。 |
+| [ExecuteWithRegions](../../aspose.words.mailmerging/mailmerge/executewithregions/#executewithregions_3)(DataTable) | 将数据表中的邮件合并到带有邮件合并区域的文档中。 |
+| [ExecuteWithRegions](../../aspose.words.mailmerging/mailmerge/executewithregions/#executewithregions_4)(DataView) | 将数据视图中的邮件合并到带有邮件合并区域的文档中。 |
+| [ExecuteWithRegions](../../aspose.words.mailmerging/mailmerge/executewithregions/#executewithregions)(IMailMergeDataSource) | 使用邮件合并区域从自定义数据源执行邮件合并。 |
+| [ExecuteWithRegions](../../aspose.words.mailmerging/mailmerge/executewithregions/#executewithregions_1)(IMailMergeDataSourceRoot) | 使用邮件合并区域从自定义数据源执行邮件合并。 |
+| [ExecuteWithRegions](../../aspose.words.mailmerging/mailmerge/executewithregions/#executewithregions_5)(IDataReader, string) | 执行从 IDataReader 到具有邮件合并区域的文档的邮件合并。 |
+| [ExecuteWithRegionsADO](../../aspose.words.mailmerging/mailmerge/executewithregionsado/)(object, string) | 执行从 ADO 记录集对象到具有邮件合并区域的文档的邮件合并。 |
+| [GetFieldNames](../../aspose.words.mailmerging/mailmerge/getfieldnames/)() | 返回文档中可用的邮件合并字段名称的集合。 |
+| [GetFieldNamesForRegion](../../aspose.words.mailmerging/mailmerge/getfieldnamesforregion/#getfieldnamesforregion)(string) | 返回区域中可用的邮件合并字段名称的集合。 |
+| [GetFieldNamesForRegion](../../aspose.words.mailmerging/mailmerge/getfieldnamesforregion/#getfieldnamesforregion_1)(string, int) | 返回区域中可用的邮件合并字段名称的集合。 |
+| [GetRegionsByName](../../aspose.words.mailmerging/mailmerge/getregionsbyname/)(string) | 返回具有指定名称的邮件合并区域的集合。 |
+| [GetRegionsHierarchy](../../aspose.words.mailmerging/mailmerge/getregionshierarchy/)() | 返回文档中可用区域（带字段）的完整层次结构。 |
 
 ### 评论
 
@@ -121,7 +121,7 @@ private static Document CreateSourceDocExecuteDataTable()
 
 ### 也可以看看
 
-* 命名空间 [Aspose.Words.MailMerging](../../aspose.words.mailmerging)
+* 命名空间 [Aspose.Words.MailMerging](../../aspose.words.mailmerging/)
 * 部件 [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->
