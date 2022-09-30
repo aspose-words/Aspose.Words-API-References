@@ -18,50 +18,50 @@ public class FieldToc : Field
 
 | 姓名 | 描述 |
 | --- | --- |
-| [FieldToc](fieldtoc)() | 默认构造函数。 |
+| [FieldToc](fieldtoc/)() | 默认构造函数。 |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [BookmarkName](../../aspose.words.fields/fieldtoc/bookmarkname) { get; set; } | 获取或设置书签的名称，该书签标记了用于构建表格的文档部分。 |
-| [CaptionlessTableOfFiguresLabel](../../aspose.words.fields/fieldtoc/captionlesstableoffigureslabel) { get; set; } | 获取或设置在构建不包括标题的 标签和数字的图形表时使用的序列标识符的名称。 |
-| [CustomStyles](../../aspose.words.fields/fieldtoc/customstyles) { get; set; } | 获取或设置包含在目录中的内置标题样式以外的样式列表。 |
-| [DisplayResult](../../aspose.words.fields/field/displayresult) { get; } | 获取表示显示字段结果的文本。 |
-| [End](../../aspose.words.fields/field/end) { get; } | 获取代表字段end的节点。 |
-| [EntryIdentifier](../../aspose.words.fields/fieldtoc/entryidentifier) { get; set; } | 获取或设置一个字符串，该字符串应与包含的 TC 字段的类型标识符匹配。 |
-| [EntryLevelRange](../../aspose.words.fields/fieldtoc/entrylevelrange) { get; set; } | 获取或设置要包含的目录条目的级别范围。 |
-| [EntrySeparator](../../aspose.words.fields/fieldtoc/entryseparator) { get; set; } | 获取或设置分隔条目及其页码的字符序列。 |
-| [Format](../../aspose.words.fields/field/format) { get; } | 得到一个[`FieldFormat`](../fieldformat)提供对字段格式的类型化访问的对象。 |
-| [HeadingLevelRange](../../aspose.words.fields/fieldtoc/headinglevelrange) { get; set; } | 获取或设置要包含的标题级别范围。 |
-| [HideInWebLayout](../../aspose.words.fields/fieldtoc/hideinweblayout) { get; set; } | 获取或设置是否在 Web 布局视图中隐藏选项卡前导和页码。 |
-| [InsertHyperlinks](../../aspose.words.fields/fieldtoc/inserthyperlinks) { get; set; } | 获取或设置是否使目录条目超链接。 |
-| [IsDirty](../../aspose.words.fields/field/isdirty) { get; set; } | 获取或设置字段的当前结果是否由于对文档的其他修改而不再正确（陈旧）。 |
-| [IsLocked](../../aspose.words.fields/field/islocked) { get; set; } | 获取或设置字段是否被锁定（不应重新计算其结果）。 |
-| [LocaleId](../../aspose.words.fields/field/localeid) { get; set; } | 获取或设置字段的LCID。 |
-| [PageNumberOmittingLevelRange](../../aspose.words.fields/fieldtoc/pagenumberomittinglevelrange) { get; set; } | 获取或设置目录条目的级别范围，从中省略页码。 |
-| [PrefixedSequenceIdentifier](../../aspose.words.fields/fieldtoc/prefixedsequenceidentifier) { get; set; } | 获取或设置序列的标识符，为其添加前缀到条目的页码。 |
-| [PreserveLineBreaks](../../aspose.words.fields/fieldtoc/preservelinebreaks) { get; set; } | 获取或设置是否在表条目中保留换行符。 |
-| [PreserveTabs](../../aspose.words.fields/fieldtoc/preservetabs) { get; set; } | 获取或设置是否在表条目中保留选项卡条目。 |
-| [Result](../../aspose.words.fields/field/result) { get; set; } | 获取或设置字段分隔符和字段结尾之间的文本。 |
-| [Separator](../../aspose.words.fields/field/separator) { get; } | 获取表示字段分隔符的节点。可以为空。 |
-| [SequenceSeparator](../../aspose.words.fields/fieldtoc/sequenceseparator) { get; set; } | 获取或设置用于分隔序号和页码的字符序列。 |
-| [Start](../../aspose.words.fields/field/start) { get; } | 获取表示字段开始的节点。 |
-| [TableOfFiguresLabel](../../aspose.words.fields/fieldtoc/tableoffigureslabel) { get; set; } | 获取或设置在构建图形表时使用的序列标识符的名称。 |
-| virtual [Type](../../aspose.words.fields/field/type) { get; } | 获取 Microsoft Word 字段类型。 |
-| [UseParagraphOutlineLevel](../../aspose.words.fields/fieldtoc/useparagraphoutlinelevel) { get; set; } | 获取或设置是否使用应用的段落大纲级别。 |
+| [BookmarkName](../../aspose.words.fields/fieldtoc/bookmarkname/) { get; set; } | 获取或设置书签的名称，该书签标记了用于构建表格的文档部分。 |
+| [CaptionlessTableOfFiguresLabel](../../aspose.words.fields/fieldtoc/captionlesstableoffigureslabel/) { get; set; } | 获取或设置在构建不包括标题的 标签和数字的图形表时使用的序列标识符的名称。 |
+| [CustomStyles](../../aspose.words.fields/fieldtoc/customstyles/) { get; set; } | 获取或设置包含在目录中的内置标题样式以外的样式列表。 |
+| [DisplayResult](../../aspose.words.fields/field/displayresult/) { get; } | 获取表示显示字段结果的文本。 |
+| [End](../../aspose.words.fields/field/end/) { get; } | 获取代表字段end的节点。 |
+| [EntryIdentifier](../../aspose.words.fields/fieldtoc/entryidentifier/) { get; set; } | 获取或设置一个字符串，该字符串应与包含的 TC 字段的类型标识符匹配。 |
+| [EntryLevelRange](../../aspose.words.fields/fieldtoc/entrylevelrange/) { get; set; } | 获取或设置要包含的目录条目的级别范围。 |
+| [EntrySeparator](../../aspose.words.fields/fieldtoc/entryseparator/) { get; set; } | 获取或设置分隔条目及其页码的字符序列。 |
+| [Format](../../aspose.words.fields/field/format/) { get; } | 得到一个[`FieldFormat`](../fieldformat/)提供对字段格式的类型化访问的对象。 |
+| [HeadingLevelRange](../../aspose.words.fields/fieldtoc/headinglevelrange/) { get; set; } | 获取或设置要包含的标题级别范围。 |
+| [HideInWebLayout](../../aspose.words.fields/fieldtoc/hideinweblayout/) { get; set; } | 获取或设置是否在 Web 布局视图中隐藏选项卡前导和页码。 |
+| [InsertHyperlinks](../../aspose.words.fields/fieldtoc/inserthyperlinks/) { get; set; } | 获取或设置是否使目录条目超链接。 |
+| [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | 获取或设置字段的当前结果是否由于对文档的其他修改而不再正确（陈旧）。 |
+| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | 获取或设置字段是否被锁定（不应重新计算其结果）。 |
+| [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | 获取或设置字段的LCID。 |
+| [PageNumberOmittingLevelRange](../../aspose.words.fields/fieldtoc/pagenumberomittinglevelrange/) { get; set; } | 获取或设置目录条目的级别范围，从中省略页码。 |
+| [PrefixedSequenceIdentifier](../../aspose.words.fields/fieldtoc/prefixedsequenceidentifier/) { get; set; } | 获取或设置序列的标识符，为其添加前缀到条目的页码。 |
+| [PreserveLineBreaks](../../aspose.words.fields/fieldtoc/preservelinebreaks/) { get; set; } | 获取或设置是否在表条目中保留换行符。 |
+| [PreserveTabs](../../aspose.words.fields/fieldtoc/preservetabs/) { get; set; } | 获取或设置是否在表条目中保留选项卡条目。 |
+| [Result](../../aspose.words.fields/field/result/) { get; set; } | 获取或设置字段分隔符和字段结尾之间的文本。 |
+| [Separator](../../aspose.words.fields/field/separator/) { get; } | 获取表示字段分隔符的节点。可以为空。 |
+| [SequenceSeparator](../../aspose.words.fields/fieldtoc/sequenceseparator/) { get; set; } | 获取或设置用于分隔序号和页码的字符序列。 |
+| [Start](../../aspose.words.fields/field/start/) { get; } | 获取表示字段开始的节点。 |
+| [TableOfFiguresLabel](../../aspose.words.fields/fieldtoc/tableoffigureslabel/) { get; set; } | 获取或设置在构建图形表时使用的序列标识符的名称。 |
+| virtual [Type](../../aspose.words.fields/field/type/) { get; } | 获取 Microsoft Word 字段类型。 |
+| [UseParagraphOutlineLevel](../../aspose.words.fields/fieldtoc/useparagraphoutlinelevel/) { get; set; } | 获取或设置是否使用应用的段落大纲级别。 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode)() | 返回字段开始和字段分隔符之间的文本（或字段结束，如果没有分隔符）。 包括子字段的字段代码和字段结果。 |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode)(bool) | 返回字段开始和字段分隔符之间的文本（如果没有分隔符，则返回字段结束）。 |
-| [Remove](../../aspose.words.fields/field/remove)() | 从文档中删除字段。在字段之后返回一个节点。如果字段的结尾是其父节点的最后一个 child ，则返回其父段落。如果该字段已被删除，则返回 **无效的**. |
-| [Unlink](../../aspose.words.fields/field/unlink)() | 执行字段取消链接。 |
-| [Update](../../aspose.words.fields/field/update)() | 执行字段更新。如果该字段已被更新，则抛出。 |
-| [Update](../../aspose.words.fields/field/update)(bool) | 执行字段更新。如果该字段已被更新，则抛出。 |
-| [UpdatePageNumbers](../../aspose.words.fields/fieldtoc/updatepagenumbers)() | 更新此目录中项目的页码。 |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | 返回字段开始和字段分隔符之间的文本（或字段结束，如果没有分隔符）。 包括子字段的字段代码和字段结果。 |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | 返回字段开始和字段分隔符之间的文本（如果没有分隔符，则返回字段结束）。 |
+| [Remove](../../aspose.words.fields/field/remove/)() | 从文档中删除字段。在字段之后返回一个节点。如果字段的结尾是其父节点的最后一个 child ，则返回其父段落。如果该字段已被删除，则返回 **无效的**. |
+| [Unlink](../../aspose.words.fields/field/unlink/)() | 执行字段取消链接。 |
+| [Update](../../aspose.words.fields/field/update/)() | 执行字段更新。如果该字段已被更新，则抛出。 |
+| [Update](../../aspose.words.fields/field/update/)(bool) | 执行字段更新。如果该字段已被更新，则抛出。 |
+| [UpdatePageNumbers](../../aspose.words.fields/fieldtoc/updatepagenumbers/)() | 更新此目录中项目的页码。 |
 
 ### 评论
 
@@ -220,8 +220,8 @@ doc.Save(ArtifactsDir + "Field.TOC.SEQ.docx");
 
 ### 也可以看看
 
-* class [Field](../field)
-* 命名空间 [Aspose.Words.Fields](../../aspose.words.fields)
+* class [Field](../field/)
+* 命名空间 [Aspose.Words.Fields](../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

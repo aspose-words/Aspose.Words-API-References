@@ -16,9 +16,9 @@ public Document()
 
 ### 评论
 
-文档纸张尺寸默认为 Letter。如果要更改页面设置，请使用 [`Section.PageSetup`](../../section/pagesetup).
+文档纸张尺寸默认为 Letter。如果要更改页面设置，请使用 [`Section.PageSetup`](../../section/pagesetup/).
 
-创建后，您可以使用[`DocumentBuilder`](../../documentbuilder)轻松添加文档内容。
+创建后，您可以使用[`DocumentBuilder`](../../documentbuilder/)轻松添加文档内容。
 
 ### 例子
 
@@ -63,8 +63,8 @@ Assert.AreEqual("Test encrypted document.", doc.FirstSection.Body.FirstParagraph
 
 ### 也可以看看
 
-* class [Document](../../document)
-* 命名空间 [Aspose.Words](../../document)
+* class [Document](../)
+* 命名空间 [Aspose.Words](../../document/)
 * 部件 [Aspose.Words](../../../)
 
 ---
@@ -85,11 +85,11 @@ public Document(string fileName)
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| [UnsupportedFileFormatException](../../unsupportedfileformatexception) | 文档格式无法识别或不受支持。 |
-| [FileCorruptedException](../../filecorruptedexception) | 文档似乎已损坏，无法加载。 |
+| [UnsupportedFileFormatException](../../unsupportedfileformatexception/) | 文档格式无法识别或不受支持。 |
+| [FileCorruptedException](../../filecorruptedexception/) | 文档似乎已损坏，无法加载。 |
 | Exception | 文档存在问题，应报告给 Aspose.Words 开发人员。 |
 | IOException | 存在输入/输出异常。 |
-| [IncorrectPasswordException](../../incorrectpasswordexception) | 文档已加密，需要密码才能打开，但您提供的密码不正确。 |
+| [IncorrectPasswordException](../../incorrectpasswordexception/) | 文档已加密，需要密码才能打开，但您提供的密码不正确。 |
 | ArgumentException | 文件名不能为 null 或空字符串。 |
 
 ### 例子
@@ -145,8 +145,8 @@ Assert.AreEqual("Hello world!", textFragmentAbsorber.Text.Trim());
 
 ### 也可以看看
 
-* class [Document](../../document)
-* 命名空间 [Aspose.Words](../../document)
+* class [Document](../)
+* 命名空间 [Aspose.Words](../../document/)
 * 部件 [Aspose.Words](../../../)
 
 ---
@@ -168,11 +168,11 @@ public Document(string fileName, LoadOptions loadOptions)
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| [UnsupportedFileFormatException](../../unsupportedfileformatexception) | 文档格式无法识别或不受支持。 |
-| [FileCorruptedException](../../filecorruptedexception) | 文档似乎已损坏，无法加载。 |
+| [UnsupportedFileFormatException](../../unsupportedfileformatexception/) | 文档格式无法识别或不受支持。 |
+| [FileCorruptedException](../../filecorruptedexception/) | 文档似乎已损坏，无法加载。 |
 | Exception | 文档存在问题，应报告给 Aspose.Words 开发人员。 |
 | IOException | 存在输入/输出异常。 |
-| [IncorrectPasswordException](../../incorrectpasswordexception) | 文档已加密，需要密码才能打开，但您提供的密码不正确。 |
+| [IncorrectPasswordException](../../incorrectpasswordexception/) | 文档已加密，需要密码才能打开，但您提供的密码不正确。 |
 | ArgumentException | 文件名不能为 null 或空字符串。 |
 
 ### 例子
@@ -223,9 +223,9 @@ Assert.AreEqual("Test encrypted document.", doc.FirstSection.Body.FirstParagraph
 
 ### 也可以看看
 
-* class [LoadOptions](../../../aspose.words.loading/loadoptions)
-* class [Document](../../document)
-* 命名空间 [Aspose.Words](../../document)
+* class [LoadOptions](../../../aspose.words.loading/loadoptions/)
+* class [Document](../)
+* 命名空间 [Aspose.Words](../../document/)
 * 部件 [Aspose.Words](../../../)
 
 ---
@@ -246,11 +246,11 @@ public Document(Stream stream)
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| [UnsupportedFileFormatException](../../unsupportedfileformatexception) | 文档格式无法识别或不受支持。 |
-| [FileCorruptedException](../../filecorruptedexception) | 文档似乎已损坏，无法加载。 |
+| [UnsupportedFileFormatException](../../unsupportedfileformatexception/) | 文档格式无法识别或不受支持。 |
+| [FileCorruptedException](../../filecorruptedexception/) | 文档似乎已损坏，无法加载。 |
 | Exception | 文档存在问题，应报告给 Aspose.Words 开发人员。 |
 | IOException | 存在输入/输出异常。 |
-| [IncorrectPasswordException](../../incorrectpasswordexception) | 文档已加密，需要密码才能打开，但您提供的密码不正确。 |
+| [IncorrectPasswordException](../../incorrectpasswordexception/) | 文档已加密，需要密码才能打开，但您提供的密码不正确。 |
 | ArgumentNullException | 流不能为空。 |
 | NotSupportedException | 该流不支持读取或查找。 |
 | ObjectDisposedException | 流是一个已处置的对象。 |
@@ -300,8 +300,8 @@ using (WebClient webClient = new WebClient())
 
 ### 也可以看看
 
-* class [Document](../../document)
-* 命名空间 [Aspose.Words](../../document)
+* class [Document](../)
+* 命名空间 [Aspose.Words](../../document/)
 * 部件 [Aspose.Words](../../../)
 
 ---
@@ -323,11 +323,11 @@ public Document(Stream stream, LoadOptions loadOptions)
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| [UnsupportedFileFormatException](../../unsupportedfileformatexception) | 文档格式无法识别或不受支持。 |
-| [FileCorruptedException](../../filecorruptedexception) | 文档似乎已损坏，无法加载。 |
+| [UnsupportedFileFormatException](../../unsupportedfileformatexception/) | 文档格式无法识别或不受支持。 |
+| [FileCorruptedException](../../filecorruptedexception/) | 文档似乎已损坏，无法加载。 |
 | Exception | 文档存在问题，应报告给 Aspose.Words 开发人员。 |
 | IOException | 存在输入/输出异常。 |
-| [IncorrectPasswordException](../../incorrectpasswordexception) | 文档已加密，需要密码才能打开，但您提供的密码不正确。 |
+| [IncorrectPasswordException](../../incorrectpasswordexception/) | 文档已加密，需要密码才能打开，但您提供的密码不正确。 |
 | ArgumentNullException | 流不能为空。 |
 | NotSupportedException | 该流不支持读取或查找。 |
 | ObjectDisposedException | 流是一个已处置的对象。 |
@@ -403,9 +403,9 @@ using (Stream stream = File.OpenRead(MyDir + "Encrypted.docx"))
 
 ### 也可以看看
 
-* class [LoadOptions](../../../aspose.words.loading/loadoptions)
-* class [Document](../../document)
-* 命名空间 [Aspose.Words](../../document)
+* class [LoadOptions](../../../aspose.words.loading/loadoptions/)
+* class [Document](../)
+* 命名空间 [Aspose.Words](../../document/)
 * 部件 [Aspose.Words](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

@@ -18,40 +18,40 @@ public class FieldSymbol : Field
 
 | 姓名 | 描述 |
 | --- | --- |
-| [FieldSymbol](fieldsymbol)() | 默认构造函数。 |
+| [FieldSymbol](fieldsymbol/)() | 默认构造函数。 |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [CharacterCode](../../aspose.words.fields/fieldsymbol/charactercode) { get; set; } | 获取或设置十进制或十六进制字符的代码点值。 |
-| [DisplayResult](../../aspose.words.fields/field/displayresult) { get; } | 获取表示显示字段结果的文本。 |
-| [DontAffectsLineSpacing](../../aspose.words.fields/fieldsymbol/dontaffectslinespacing) { get; set; } | 获取或设置字段检索到的字符是否影响段落的行距 |
-| [End](../../aspose.words.fields/field/end) { get; } | 获取代表字段end的节点。 |
-| [FontName](../../aspose.words.fields/fieldsymbol/fontname) { get; set; } | 获取或设置字段检索到的字符的字体名称。 |
-| [FontSize](../../aspose.words.fields/fieldsymbol/fontsize) { get; set; } | 获取或设置字段检索到的字符的字体大小。 |
-| [Format](../../aspose.words.fields/field/format) { get; } | 得到一个[`FieldFormat`](../fieldformat)提供对字段格式的类型化访问的对象。 |
-| [IsAnsi](../../aspose.words.fields/fieldsymbol/isansi) { get; set; } | 获取或设置字符代码是否被解释为 ANSI 字符的值。 |
-| [IsDirty](../../aspose.words.fields/field/isdirty) { get; set; } | 获取或设置字段的当前结果是否由于对文档的其他修改而不再正确（陈旧）。 |
-| [IsLocked](../../aspose.words.fields/field/islocked) { get; set; } | 获取或设置字段是否被锁定（不应重新计算其结果）。 |
-| [IsShiftJis](../../aspose.words.fields/fieldsymbol/isshiftjis) { get; set; } | 获取或设置字符代码是否被解释为 SHIFT-JIS 字符的值。 |
-| [IsUnicode](../../aspose.words.fields/fieldsymbol/isunicode) { get; set; } | 获取或设置字符代码是否被解释为 Unicode 字符的值。 |
-| [LocaleId](../../aspose.words.fields/field/localeid) { get; set; } | 获取或设置字段的LCID。 |
-| [Result](../../aspose.words.fields/field/result) { get; set; } | 获取或设置字段分隔符和字段结尾之间的文本。 |
-| [Separator](../../aspose.words.fields/field/separator) { get; } | 获取表示字段分隔符的节点。可以为空。 |
-| [Start](../../aspose.words.fields/field/start) { get; } | 获取表示字段开始的节点。 |
-| virtual [Type](../../aspose.words.fields/field/type) { get; } | 获取 Microsoft Word 字段类型。 |
+| [CharacterCode](../../aspose.words.fields/fieldsymbol/charactercode/) { get; set; } | 获取或设置十进制或十六进制字符的代码点值。 |
+| [DisplayResult](../../aspose.words.fields/field/displayresult/) { get; } | 获取表示显示字段结果的文本。 |
+| [DontAffectsLineSpacing](../../aspose.words.fields/fieldsymbol/dontaffectslinespacing/) { get; set; } | 获取或设置字段检索到的字符是否影响段落的行距 |
+| [End](../../aspose.words.fields/field/end/) { get; } | 获取代表字段end的节点。 |
+| [FontName](../../aspose.words.fields/fieldsymbol/fontname/) { get; set; } | 获取或设置字段检索到的字符的字体名称。 |
+| [FontSize](../../aspose.words.fields/fieldsymbol/fontsize/) { get; set; } | 获取或设置字段检索到的字符的字体大小。 |
+| [Format](../../aspose.words.fields/field/format/) { get; } | 得到一个[`FieldFormat`](../fieldformat/)提供对字段格式的类型化访问的对象。 |
+| [IsAnsi](../../aspose.words.fields/fieldsymbol/isansi/) { get; set; } | 获取或设置字符代码是否被解释为 ANSI 字符的值。 |
+| [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | 获取或设置字段的当前结果是否由于对文档的其他修改而不再正确（陈旧）。 |
+| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | 获取或设置字段是否被锁定（不应重新计算其结果）。 |
+| [IsShiftJis](../../aspose.words.fields/fieldsymbol/isshiftjis/) { get; set; } | 获取或设置字符代码是否被解释为 SHIFT-JIS 字符的值。 |
+| [IsUnicode](../../aspose.words.fields/fieldsymbol/isunicode/) { get; set; } | 获取或设置字符代码是否被解释为 Unicode 字符的值。 |
+| [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | 获取或设置字段的LCID。 |
+| [Result](../../aspose.words.fields/field/result/) { get; set; } | 获取或设置字段分隔符和字段结尾之间的文本。 |
+| [Separator](../../aspose.words.fields/field/separator/) { get; } | 获取表示字段分隔符的节点。可以为空。 |
+| [Start](../../aspose.words.fields/field/start/) { get; } | 获取表示字段开始的节点。 |
+| virtual [Type](../../aspose.words.fields/field/type/) { get; } | 获取 Microsoft Word 字段类型。 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode)() | 返回字段开始和字段分隔符之间的文本（或字段结束，如果没有分隔符）。 包括子字段的字段代码和字段结果。 |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode)(bool) | 返回字段开始和字段分隔符之间的文本（如果没有分隔符，则返回字段结束）。 |
-| [Remove](../../aspose.words.fields/field/remove)() | 从文档中删除字段。在字段之后返回一个节点。如果字段的结尾是其父节点的最后一个 child ，则返回其父段落。如果该字段已被删除，则返回 **无效的**. |
-| [Unlink](../../aspose.words.fields/field/unlink)() | 执行字段取消链接。 |
-| [Update](../../aspose.words.fields/field/update)() | 执行字段更新。如果该字段已被更新，则抛出。 |
-| [Update](../../aspose.words.fields/field/update)(bool) | 执行字段更新。如果该字段已被更新，则抛出。 |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | 返回字段开始和字段分隔符之间的文本（或字段结束，如果没有分隔符）。 包括子字段的字段代码和字段结果。 |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | 返回字段开始和字段分隔符之间的文本（如果没有分隔符，则返回字段结束）。 |
+| [Remove](../../aspose.words.fields/field/remove/)() | 从文档中删除字段。在字段之后返回一个节点。如果字段的结尾是其父节点的最后一个 child ，则返回其父段落。如果该字段已被删除，则返回 **无效的**. |
+| [Unlink](../../aspose.words.fields/field/unlink/)() | 执行字段取消链接。 |
+| [Update](../../aspose.words.fields/field/update/)() | 执行字段更新。如果该字段已被更新，则抛出。 |
+| [Update](../../aspose.words.fields/field/update/)(bool) | 执行字段更新。如果该字段已被更新，则抛出。 |
 
 ### 评论
 
@@ -112,8 +112,8 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 
 ### 也可以看看
 
-* class [Field](../field)
-* 命名空间 [Aspose.Words.Fields](../../aspose.words.fields)
+* class [Field](../field/)
+* 命名空间 [Aspose.Words.Fields](../../aspose.words.fields/)
 * 部件 [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->
