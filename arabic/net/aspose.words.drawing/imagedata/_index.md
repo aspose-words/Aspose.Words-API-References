@@ -18,47 +18,47 @@ public class ImageData
 
 | اسم | وصف |
 | --- | --- |
-| [BiLevel](../../aspose.words.drawing/imagedata/bilevel) { get; set; } | لتحديد ما إذا كان سيتم عرض الصورة بالأبيض والأسود. |
-| [Borders](../../aspose.words.drawing/imagedata/borders) { get; } | يحصل على مجموعة حدود الصورة. الحدود لها تأثير فقط على الصور المضمنة . |
-| [Brightness](../../aspose.words.drawing/imagedata/brightness) { get; set; } | الحصول على سطوع الصورة أو ضبطه . يجب أن تكون قيمة هذه الخاصية رقمًا من 0.0 (خافت) إلى 1.0 (الأكثر سطوعًا) . |
-| [ChromaKey](../../aspose.words.drawing/imagedata/chromakey) { get; set; } | يحدد قيمة اللون للصورة التي سيتم التعامل معها على أنها شفافة. |
-| [Contrast](../../aspose.words.drawing/imagedata/contrast) { get; set; } | الحصول على أو تحديد التباين للصورة المحددة. يجب أن تكون قيمة value لهذه الخاصية عددًا من 0.0 (أقل تباين) إلى 1.0 (أكبر تباين) . |
-| [CropBottom](../../aspose.words.drawing/imagedata/cropbottom) { get; set; } | يحدد جزء إزالة الصورة من الجانب السفلي. |
-| [CropLeft](../../aspose.words.drawing/imagedata/cropleft) { get; set; } | يحدد جزء إزالة الصورة من الجانب الأيسر. |
-| [CropRight](../../aspose.words.drawing/imagedata/cropright) { get; set; } | يحدد جزء إزالة الصورة من الجانب الأيمن. |
-| [CropTop](../../aspose.words.drawing/imagedata/croptop) { get; set; } | يحدد جزء إزالة الصورة من الجانب العلوي. |
-| [GrayScale](../../aspose.words.drawing/imagedata/grayscale) { get; set; } | لتحديد ما إذا كان سيتم عرض الصورة في وضع التدرج الرمادي. |
-| [HasImage](../../aspose.words.drawing/imagedata/hasimage) { get; } | إرجاع صحيح إذا كان للشكل بايت صورة أو ربط صورة. |
-| [ImageBytes](../../aspose.words.drawing/imagedata/imagebytes) { get; set; } | الحصول على أو تعيين وحدات البايت الأولية للصورة المخزنة بالشكل. |
-| [ImageSize](../../aspose.words.drawing/imagedata/imagesize) { get; } | الحصول على معلومات حول حجم الصورة ودقتها. |
-| [ImageType](../../aspose.words.drawing/imagedata/imagetype) { get; } | يحصل على نوع الصورة. |
-| [IsLink](../../aspose.words.drawing/imagedata/islink) { get; } | يعود صحيحًا إذا كانت الصورة مرتبطة بالشكل (متى[`SourceFullName`](./sourcefullname) محدد) . |
-| [IsLinkOnly](../../aspose.words.drawing/imagedata/islinkonly) { get; } | إرجاع صحيح إذا كانت الصورة مرتبطة وغير مخزنة في المستند. |
-| [SourceFullName](../../aspose.words.drawing/imagedata/sourcefullname) { get; set; } | الحصول على أو تحديد مسار واسم الملف المصدر للصورة المرتبطة. |
-| [Title](../../aspose.words.drawing/imagedata/title) { get; set; } | يحدد عنوان الصورة. _ |
+| [BiLevel](../../aspose.words.drawing/imagedata/bilevel/) { get; set; } | لتحديد ما إذا كان سيتم عرض الصورة بالأبيض والأسود. |
+| [Borders](../../aspose.words.drawing/imagedata/borders/) { get; } | يحصل على مجموعة حدود الصورة. الحدود لها تأثير فقط على الصور المضمنة . |
+| [Brightness](../../aspose.words.drawing/imagedata/brightness/) { get; set; } | الحصول على سطوع الصورة أو ضبطه . يجب أن تكون قيمة هذه الخاصية رقمًا من 0.0 (خافت) إلى 1.0 (الأكثر سطوعًا) . |
+| [ChromaKey](../../aspose.words.drawing/imagedata/chromakey/) { get; set; } | يحدد قيمة اللون للصورة التي سيتم التعامل معها على أنها شفافة. |
+| [Contrast](../../aspose.words.drawing/imagedata/contrast/) { get; set; } | الحصول على أو تحديد التباين للصورة المحددة. يجب أن تكون قيمة value لهذه الخاصية عددًا من 0.0 (أقل تباين) إلى 1.0 (أكبر تباين) . |
+| [CropBottom](../../aspose.words.drawing/imagedata/cropbottom/) { get; set; } | يحدد جزء إزالة الصورة من الجانب السفلي. |
+| [CropLeft](../../aspose.words.drawing/imagedata/cropleft/) { get; set; } | يحدد جزء إزالة الصورة من الجانب الأيسر. |
+| [CropRight](../../aspose.words.drawing/imagedata/cropright/) { get; set; } | يحدد جزء إزالة الصورة من الجانب الأيمن. |
+| [CropTop](../../aspose.words.drawing/imagedata/croptop/) { get; set; } | يحدد جزء إزالة الصورة من الجانب العلوي. |
+| [GrayScale](../../aspose.words.drawing/imagedata/grayscale/) { get; set; } | لتحديد ما إذا كان سيتم عرض الصورة في وضع التدرج الرمادي. |
+| [HasImage](../../aspose.words.drawing/imagedata/hasimage/) { get; } | إرجاع صحيح إذا كان للشكل بايت صورة أو ربط صورة. |
+| [ImageBytes](../../aspose.words.drawing/imagedata/imagebytes/) { get; set; } | الحصول على أو تعيين وحدات البايت الأولية للصورة المخزنة بالشكل. |
+| [ImageSize](../../aspose.words.drawing/imagedata/imagesize/) { get; } | الحصول على معلومات حول حجم الصورة ودقتها. |
+| [ImageType](../../aspose.words.drawing/imagedata/imagetype/) { get; } | يحصل على نوع الصورة. |
+| [IsLink](../../aspose.words.drawing/imagedata/islink/) { get; } | يعود صحيحًا إذا كانت الصورة مرتبطة بالشكل (متى[`SourceFullName`](./sourcefullname/) محدد) . |
+| [IsLinkOnly](../../aspose.words.drawing/imagedata/islinkonly/) { get; } | إرجاع صحيح إذا كانت الصورة مرتبطة وغير مخزنة في المستند. |
+| [SourceFullName](../../aspose.words.drawing/imagedata/sourcefullname/) { get; set; } | الحصول على أو تحديد مسار واسم الملف المصدر للصورة المرتبطة. |
+| [Title](../../aspose.words.drawing/imagedata/title/) { get; set; } | يحدد عنوان الصورة. _ |
 
 ## طُرق
 
 | اسم | وصف |
 | --- | --- |
-| [Save](../../aspose.words.drawing/imagedata/save#save)(Stream) | يحفظ الصورة في الدفق المحدد. |
-| [Save](../../aspose.words.drawing/imagedata/save#save_1)(string) | يحفظ الصورة في ملف . |
-| [SetImage](../../aspose.words.drawing/imagedata/setimage#setimage)(Image) | يضبط الصورة التي يعرضها الشكل. |
-| [SetImage](../../aspose.words.drawing/imagedata/setimage#setimage_1)(Stream) | يضبط الصورة التي يعرضها الشكل. |
-| [SetImage](../../aspose.words.drawing/imagedata/setimage#setimage_2)(string) | يضبط الصورة التي يعرضها الشكل. |
-| [ToByteArray](../../aspose.words.drawing/imagedata/tobytearray)() | إرجاع بايت الصورة لأي صورة بغض النظر عما إذا كانت الصورة مخزنة أو مرتبطة. |
-| [ToImage](../../aspose.words.drawing/imagedata/toimage)() | يحصل على الصورة المخزنة بالشكل كملفImage الكائن . |
-| [ToStream](../../aspose.words.drawing/imagedata/tostream)() | إنشاء وإرجاع دفق يحتوي على بايت الصورة. |
+| [Save](../../aspose.words.drawing/imagedata/save/#save)(Stream) | يحفظ الصورة في الدفق المحدد. |
+| [Save](../../aspose.words.drawing/imagedata/save/#save_1)(string) | يحفظ الصورة في ملف . |
+| [SetImage](../../aspose.words.drawing/imagedata/setimage/#setimage)(Image) | يضبط الصورة التي يعرضها الشكل. |
+| [SetImage](../../aspose.words.drawing/imagedata/setimage/#setimage_1)(Stream) | يضبط الصورة التي يعرضها الشكل. |
+| [SetImage](../../aspose.words.drawing/imagedata/setimage/#setimage_2)(string) | يضبط الصورة التي يعرضها الشكل. |
+| [ToByteArray](../../aspose.words.drawing/imagedata/tobytearray/)() | إرجاع بايت الصورة لأي صورة بغض النظر عما إذا كانت الصورة مخزنة أو مرتبطة. |
+| [ToImage](../../aspose.words.drawing/imagedata/toimage/)() | يحصل على الصورة المخزنة بالشكل كملفImage الكائن . |
+| [ToStream](../../aspose.words.drawing/imagedata/tostream/)() | إنشاء وإرجاع دفق يحتوي على بايت الصورة. |
 
 ### ملاحظات
 
-استخدم ال[`ImageData`](../shape/imagedata) للوصول إلى الصورة وتعديلها داخل الشكل . لا يمكنك إنشاء مثيلات من[`ImageData`](../imagedata) فئة مباشرة.
+استخدم ال[`ImageData`](../shape/imagedata/) للوصول إلى الصورة وتعديلها داخل الشكل . لا يمكنك إنشاء مثيلات من[`ImageData`](./imagedata/) فئة مباشرة.
 
 يمكن تخزين الصورة داخل شكل أو ربطها بملف خارجي أو كليهما (مرتبطة ومخزنة في المستند).
 
-بغض النظر عما إذا كانت الصورة مخزنة داخل الشكل أو مرتبطة ، يمكنك دائمًا الوصول إلى الصورة الفعلية باستخدام[`ToByteArray`](./tobytearray) و[`ToStream`](./tostream) و[`ToImage`](./toimage) أو[`Save`](./save) طرق . إذا تم تخزين الصورة داخل الشكل ، يمكنك أيضًا الوصول إليها مباشرةً باستخدام ملف[`ImageBytes`](./imagebytes) منشأه.
+بغض النظر عما إذا كانت الصورة مخزنة داخل الشكل أو مرتبطة ، يمكنك دائمًا الوصول إلى الصورة الفعلية باستخدام[`ToByteArray`](./tobytearray/) و[`ToStream`](./tostream/) و[`ToImage`](./toimage/) أو[`Save`](./save/) طرق . إذا تم تخزين الصورة داخل الشكل ، يمكنك أيضًا الوصول إليها مباشرةً باستخدام ملف[`ImageBytes`](./imagebytes/) منشأه.
 
-لتخزين صورة داخل شكل ، استخدم ملف[`SetImage`](./setimage) طريقة. لربط صورة بشكل ما ، قم بتعيين ملف[`SourceFullName`](./sourcefullname) منشأه.
+لتخزين صورة داخل شكل ، استخدم ملف[`SetImage`](./setimage/) طريقة. لربط صورة بشكل ما ، قم بتعيين ملف[`SourceFullName`](./sourcefullname/) منشأه.
 
 ### أمثلة
 
@@ -127,7 +127,7 @@ Assert.True(10000 > new FileInfo(ArtifactsDir + "Image.CreateLinkedImage.Linked.
 
 ### أنظر أيضا
 
-* مساحة الاسم [Aspose.Words.Drawing](../../aspose.words.drawing)
+* مساحة الاسم [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

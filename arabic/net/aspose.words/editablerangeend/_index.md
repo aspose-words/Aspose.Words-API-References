@@ -18,41 +18,41 @@ public sealed class EditableRangeEnd : Node
 
 | اسم | وصف |
 | --- | --- |
-| [CustomNodeId](../../aspose.words/node/customnodeid) { get; set; } | يحدد معرف العقدة المخصص . |
-| virtual [Document](../../aspose.words/node/document) { get; } | الحصول على المستند الذي تنتمي إليه هذه العقدة . |
-| [EditableRangeStart](../../aspose.words/editablerangeend/editablerangestart) { get; } | EditableRangeStart المقابل ، تم استلامه بواسطة ID. |
-| [Id](../../aspose.words/editablerangeend/id) { get; set; } | يحدد معرف النطاق القابل للتحرير. |
-| virtual [IsComposite](../../aspose.words/node/iscomposite) { get; } | إرجاع صحيح إذا كانت هذه العقدة يمكن أن تحتوي على عقد أخرى. |
-| [NextSibling](../../aspose.words/node/nextsibling) { get; } | يحصل على العقدة التي تلي هذه العقدة مباشرة. |
-| override [NodeType](../../aspose.words/editablerangeend/nodetype) { get; } | عوائدEditableRangeEnd . |
-| [ParentNode](../../aspose.words/node/parentnode) { get; } | الحصول على الأصل المباشر لهذه العقدة. |
-| [PreviousSibling](../../aspose.words/node/previoussibling) { get; } | يحصل على العقدة التي تسبق هذه العقدة مباشرة. |
-| [Range](../../aspose.words/node/range) { get; } | إرجاع أ **نطاق** الكائن الذي يمثل جزء المستند الموجود في هذه العقدة. |
+| [CustomNodeId](../../aspose.words/node/customnodeid/) { get; set; } | يحدد معرف العقدة المخصص . |
+| virtual [Document](../../aspose.words/node/document/) { get; } | الحصول على المستند الذي تنتمي إليه هذه العقدة . |
+| [EditableRangeStart](../../aspose.words/editablerangeend/editablerangestart/) { get; } | EditableRangeStart المقابل ، تم استلامه بواسطة ID. |
+| [Id](../../aspose.words/editablerangeend/id/) { get; set; } | يحدد معرف النطاق القابل للتحرير. |
+| virtual [IsComposite](../../aspose.words/node/iscomposite/) { get; } | إرجاع صحيح إذا كانت هذه العقدة يمكن أن تحتوي على عقد أخرى. |
+| [NextSibling](../../aspose.words/node/nextsibling/) { get; } | يحصل على العقدة التي تلي هذه العقدة مباشرة. |
+| override [NodeType](../../aspose.words/editablerangeend/nodetype/) { get; } | عوائدEditableRangeEnd . |
+| [ParentNode](../../aspose.words/node/parentnode/) { get; } | الحصول على الأصل المباشر لهذه العقدة. |
+| [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | يحصل على العقدة التي تسبق هذه العقدة مباشرة. |
+| [Range](../../aspose.words/node/range/) { get; } | إرجاع أ **نطاق** الكائن الذي يمثل جزء المستند الموجود في هذه العقدة. |
 
 ## طُرق
 
 | اسم | وصف |
 | --- | --- |
-| override [Accept](../../aspose.words/editablerangeend/accept)(DocumentVisitor) | يقبل الزائر . |
-| [Clone](../../aspose.words/node/clone)(bool) | لإنشاء نسخة مكررة من العقدة . |
-| [GetAncestor](../../aspose.words/node/getancestor)(NodeType) | يحصل على أول سلف محدد[`NodeType`](../nodetype) . |
-| [GetAncestor](../../aspose.words/node/getancestor)(Type) | الحصول على الأصل الأول لنوع الكائن المحدد. |
-| virtual [GetText](../../aspose.words/node/gettext)() | يحصل على نص هذه العقدة وجميع توابعها. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder)(Node) | الحصول على العقدة التالية وفقًا لخوارزمية اجتياز الشجرة بالطلب المسبق. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder)(Node) | الحصول على العقدة السابقة وفقًا لخوارزمية اجتياز الشجرة بالطلب المسبق. |
-| [Remove](../../aspose.words/node/remove)() | يزيل نفسه من الأصل. |
-| [ToString](../../aspose.words/node/tostring)(SaveFormat) | يصدر محتوى العقدة إلى سلسلة بالتنسيق المحدد. |
-| [ToString](../../aspose.words/node/tostring)(SaveOptions) | يصدر محتوى العقدة إلى سلسلة باستخدام خيارات الحفظ المحددة. |
+| override [Accept](../../aspose.words/editablerangeend/accept/)(DocumentVisitor) | يقبل الزائر . |
+| [Clone](../../aspose.words/node/clone/)(bool) | لإنشاء نسخة مكررة من العقدة . |
+| [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | يحصل على أول سلف محدد[`NodeType`](../nodetype/) . |
+| [GetAncestor](../../aspose.words/node/getancestor/)(Type) | الحصول على الأصل الأول لنوع الكائن المحدد. |
+| virtual [GetText](../../aspose.words/node/gettext/)() | يحصل على نص هذه العقدة وجميع توابعها. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | الحصول على العقدة التالية وفقًا لخوارزمية اجتياز الشجرة بالطلب المسبق. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | الحصول على العقدة السابقة وفقًا لخوارزمية اجتياز الشجرة بالطلب المسبق. |
+| [Remove](../../aspose.words/node/remove/)() | يزيل نفسه من الأصل. |
+| [ToString](../../aspose.words/node/tostring/)(SaveFormat) | يصدر محتوى العقدة إلى سلسلة بالتنسيق المحدد. |
+| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | يصدر محتوى العقدة إلى سلسلة باستخدام خيارات الحفظ المحددة. |
 
 ### ملاحظات
 
-يتكون النطاق الكامل القابل للتحرير في مستند Word من ملف[`EditableRangeStart`](./editablerangestart) ومطابقة[`EditableRangeEnd`](../editablerangeend) بنفس المعرف.
+يتكون النطاق الكامل القابل للتحرير في مستند Word من ملف[`EditableRangeStart`](./editablerangestart/) ومطابقة[`EditableRangeEnd`](./editablerangeend/) بنفس المعرف.
 
-[`EditableRangeStart`](./editablerangestart) و[`EditableRangeEnd`](../editablerangeend) هي مجرد علامات داخل document تحدد أين يبدأ النطاق القابل للتحرير وينتهي.
+[`EditableRangeStart`](./editablerangestart/) و[`EditableRangeEnd`](./editablerangeend/) هي مجرد علامات داخل document تحدد أين يبدأ النطاق القابل للتحرير وينتهي.
 
-استخدم ال[`EditableRange`](../editablerange)فئة كـ "واجهة" للعمل مع نطاق قابل للتحرير ككائن واحد.
+استخدم ال[`EditableRange`](../editablerange/)فئة كـ "واجهة" للعمل مع نطاق قابل للتحرير ككائن واحد.
 
-يتم دعم النطاقات القابلة للتحرير حاليًا على المستوى المضمن فقط ، أي في الداخل[`Paragraph`](../paragraph)، لكن يمكن أن يكون بداية النطاق القابل للتحرير ونهاية النطاق القابل للتحرير في فقرات مختلفة.
+يتم دعم النطاقات القابلة للتحرير حاليًا على المستوى المضمن فقط ، أي في الداخل[`Paragraph`](../paragraph/)، لكن يمكن أن يكون بداية النطاق القابل للتحرير ونهاية النطاق القابل للتحرير في فقرات مختلفة.
 
 ### أمثلة
 
@@ -164,8 +164,8 @@ public class EditableRangePrinter : DocumentVisitor
 
 ### أنظر أيضا
 
-* class [Node](../node)
-* مساحة الاسم [Aspose.Words](../../aspose.words)
+* class [Node](../node/)
+* مساحة الاسم [Aspose.Words](../../aspose.words/)
 * المجسم [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

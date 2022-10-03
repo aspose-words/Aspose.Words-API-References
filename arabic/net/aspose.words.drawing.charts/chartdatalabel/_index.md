@@ -18,29 +18,29 @@ public class ChartDataLabel
 
 | اسم | وصف |
 | --- | --- |
-| [Index](../../aspose.words.drawing.charts/chartdatalabel/index) { get; } | تحديد فهرس العنصر المحتوي. سيحدد هذا الفهرس أي مجموعة من العناصر الأبناء ينطبق عليها هذا العنصر. القيمة الافتراضية هي 0. |
-| [IsHidden](../../aspose.words.drawing.charts/chartdatalabel/ishidden) { get; set; } | يحصل / يحدد علامة تشير إلى ما إذا كانت هذه التسمية مخفية. القيمة الافتراضية هي **خاطئة** . |
-| [IsVisible](../../aspose.words.drawing.charts/chartdatalabel/isvisible) { get; } | إرجاع صحيح إذا كانت تسمية البيانات هذه بها شيء لعرضه . |
-| [NumberFormat](../../aspose.words.drawing.charts/chartdatalabel/numberformat) { get; } | إرجاع تنسيق الأرقام للعنصر الأصل. |
-| [Separator](../../aspose.words.drawing.charts/chartdatalabel/separator) { get; set; } | الحصول على أو تعيين فاصل السلسلة المستخدم لتسميات البيانات على الرسم البياني. الافتراضي هو الفاصلة ، باستثناء المخططات الدائرية التي تعرض اسم الفئة والنسبة المئوية فقط ، عند استخدام فاصل أسطر بدلاً من ذلك. |
-| [ShowBubbleSize](../../aspose.words.drawing.charts/chartdatalabel/showbubblesize) { get; set; } | يسمح بتحديد ما إذا كان سيتم عرض حجم الفقاعة لتسميات البيانات على الرسم البياني. ينطبق فقط على المخططات الفقاعية. القيمة الافتراضية خاطئة . |
-| [ShowCategoryName](../../aspose.words.drawing.charts/chartdatalabel/showcategoryname) { get; set; } | يسمح بتحديد ما إذا كان سيتم عرض اسم الفئة لتسميات البيانات على الرسم البياني. القيمة الافتراضية خاطئة . |
-| [ShowDataLabelsRange](../../aspose.words.drawing.charts/chartdatalabel/showdatalabelsrange) { get; set; } | يسمح بتحديد ما إذا كانت القيم من نطاق تسميات البيانات سيتم عرضها في تسميات البيانات. القيمة الافتراضية خاطئة . |
-| [ShowLeaderLines](../../aspose.words.drawing.charts/chartdatalabel/showleaderlines) { get; set; } | يسمح بتحديد ما إذا كانت هناك حاجة لإظهار الخطوط البادئة لتسمية البيانات. القيمة الافتراضية خاطئة . |
-| [ShowLegendKey](../../aspose.words.drawing.charts/chartdatalabel/showlegendkey) { get; set; } | يسمح بتحديد ما إذا كان سيتم عرض مفتاح وسيلة الإيضاح لتسميات البيانات على الرسم البياني. القيمة الافتراضية خاطئة . |
-| [ShowPercentage](../../aspose.words.drawing.charts/chartdatalabel/showpercentage) { get; set; } | يسمح بتحديد ما إذا كان سيتم عرض قيمة النسبة المئوية لتسميات البيانات على الرسم البياني. القيمة الافتراضية خاطئة . |
-| [ShowSeriesName](../../aspose.words.drawing.charts/chartdatalabel/showseriesname) { get; set; } | إرجاع أو تعيين قيمة منطقية للإشارة إلى سلوك عرض اسم السلسلة لتسميات البيانات على مخطط. صحيح لإظهار اسم السلسلة. خطأ للاختباء. افتراضيا false . |
-| [ShowValue](../../aspose.words.drawing.charts/chartdatalabel/showvalue) { get; set; } | يسمح بتحديد ما إذا كان سيتم عرض القيم في تسميات البيانات. القيمة الافتراضية خاطئة . |
+| [Index](../../aspose.words.drawing.charts/chartdatalabel/index/) { get; } | تحديد فهرس العنصر المحتوي. سيحدد هذا الفهرس أي مجموعة من العناصر الأبناء ينطبق عليها هذا العنصر. القيمة الافتراضية هي 0. |
+| [IsHidden](../../aspose.words.drawing.charts/chartdatalabel/ishidden/) { get; set; } | يحصل / يحدد علامة تشير إلى ما إذا كانت هذه التسمية مخفية. القيمة الافتراضية هي **خاطئة** . |
+| [IsVisible](../../aspose.words.drawing.charts/chartdatalabel/isvisible/) { get; } | إرجاع صحيح إذا كانت تسمية البيانات هذه بها شيء لعرضه . |
+| [NumberFormat](../../aspose.words.drawing.charts/chartdatalabel/numberformat/) { get; } | إرجاع تنسيق الأرقام للعنصر الأصل. |
+| [Separator](../../aspose.words.drawing.charts/chartdatalabel/separator/) { get; set; } | الحصول على أو تعيين فاصل السلسلة المستخدم لتسميات البيانات على الرسم البياني. الافتراضي هو الفاصلة ، باستثناء المخططات الدائرية التي تعرض اسم الفئة والنسبة المئوية فقط ، عند استخدام فاصل أسطر بدلاً من ذلك. |
+| [ShowBubbleSize](../../aspose.words.drawing.charts/chartdatalabel/showbubblesize/) { get; set; } | يسمح بتحديد ما إذا كان سيتم عرض حجم الفقاعة لتسميات البيانات على الرسم البياني. ينطبق فقط على المخططات الفقاعية. القيمة الافتراضية خاطئة . |
+| [ShowCategoryName](../../aspose.words.drawing.charts/chartdatalabel/showcategoryname/) { get; set; } | يسمح بتحديد ما إذا كان سيتم عرض اسم الفئة لتسميات البيانات على الرسم البياني. القيمة الافتراضية خاطئة . |
+| [ShowDataLabelsRange](../../aspose.words.drawing.charts/chartdatalabel/showdatalabelsrange/) { get; set; } | يسمح بتحديد ما إذا كانت القيم من نطاق تسميات البيانات سيتم عرضها في تسميات البيانات. القيمة الافتراضية خاطئة . |
+| [ShowLeaderLines](../../aspose.words.drawing.charts/chartdatalabel/showleaderlines/) { get; set; } | يسمح بتحديد ما إذا كانت هناك حاجة لإظهار الخطوط البادئة لتسمية البيانات. القيمة الافتراضية خاطئة . |
+| [ShowLegendKey](../../aspose.words.drawing.charts/chartdatalabel/showlegendkey/) { get; set; } | يسمح بتحديد ما إذا كان سيتم عرض مفتاح وسيلة الإيضاح لتسميات البيانات على الرسم البياني. القيمة الافتراضية خاطئة . |
+| [ShowPercentage](../../aspose.words.drawing.charts/chartdatalabel/showpercentage/) { get; set; } | يسمح بتحديد ما إذا كان سيتم عرض قيمة النسبة المئوية لتسميات البيانات على الرسم البياني. القيمة الافتراضية خاطئة . |
+| [ShowSeriesName](../../aspose.words.drawing.charts/chartdatalabel/showseriesname/) { get; set; } | إرجاع أو تعيين قيمة منطقية للإشارة إلى سلوك عرض اسم السلسلة لتسميات البيانات على مخطط. صحيح لإظهار اسم السلسلة. خطأ للاختباء. افتراضيا false . |
+| [ShowValue](../../aspose.words.drawing.charts/chartdatalabel/showvalue/) { get; set; } | يسمح بتحديد ما إذا كان سيتم عرض القيم في تسميات البيانات. القيمة الافتراضية خاطئة . |
 
 ## طُرق
 
 | اسم | وصف |
 | --- | --- |
-| [ClearFormat](../../aspose.words.drawing.charts/chartdatalabel/clearformat)() | مسح تنسيق تسمية البيانات هذه. يتم تعيين الخصائص على القيم الافتراضية المحددة في البيانات الأصلية data label collection. |
+| [ClearFormat](../../aspose.words.drawing.charts/chartdatalabel/clearformat/)() | مسح تنسيق تسمية البيانات هذه. يتم تعيين الخصائص على القيم الافتراضية المحددة في البيانات الأصلية data label collection. |
 
 ### ملاحظات
 
-في سلسلة ، ملف[`ChartDataLabel`](../chartdatalabel) الكائن عضو في[`ChartDataLabelCollection`](../chartdatalabelcollection) . ملف[`ChartDataLabelCollection`](../chartdatalabelcollection) يحتوي على[`ChartDataLabel`](../chartdatalabel) كائن لكل نقطة.
+في سلسلة ، ملف[`ChartDataLabel`](./chartdatalabel/) الكائن عضو في[`ChartDataLabelCollection`](../chartdatalabelcollection/) . ملف[`ChartDataLabelCollection`](../chartdatalabelcollection/) يحتوي على[`ChartDataLabel`](./chartdatalabel/) كائن لكل نقطة.
 
 ### أمثلة
 
@@ -118,7 +118,7 @@ private static void ApplyDataLabels(ChartSeries series, int labelsCount, string 
 
 ### أنظر أيضا
 
-* مساحة الاسم [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts)
+* مساحة الاسم [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * المجسم [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

@@ -12,32 +12,32 @@ url: /ar/net/aspose.words.loading/
 
 | فصل | وصف |
 | --- | --- |
-| [ChmLoadOptions](./chmloadoptions) | يسمح بتحديد خيارات إضافية عند تحميل مستند آلية تبادل المعلومات في ملف[`Document`](../aspose.words/document) الكائن . |
-| [DocumentLoadingArgs](./documentloadingargs) | تم تمرير وسيطة إلى[`Notify`](../aspose.words.loading/idocumentloadingcallback/notify) . |
-| [HtmlLoadOptions](./htmlloadoptions) | يسمح بتحديد خيارات إضافية عند تحميل مستند HTML في ملف[`Document`](../aspose.words/document) الكائن . |
-| [LanguagePreferences](./languagepreferences) | يسمح بإعداد تفضيلات اللغة . |
-| [LoadOptions](./loadoptions) | يسمح بتحديد خيارات إضافية (مثل كلمة المرور أو URI الأساسي) عند تحميل مستند في ملف[`Document`](../aspose.words/document) الكائن . |
-| [PdfLoadOptions](./pdfloadoptions) | يسمح بتحديد خيارات إضافية عند تحميل مستند PDF في ملف[`Document`](../aspose.words/document) الكائن . |
-| [ResourceLoadingArgs](./resourceloadingargs) | توفير بيانات لملف[`ResourceLoading`](../aspose.words.loading/iresourceloadingcallback/resourceloading) طريقة . |
-| [RtfLoadOptions](./rtfloadoptions) | يسمح بتحديد خيارات إضافية عند التحميلRtf وثيقة في[`Document`](../aspose.words/document) الكائن . |
-| [TxtLoadOptions](./txtloadoptions) | يسمح بتحديد خيارات إضافية عند التحميلText وثيقة في[`Document`](../aspose.words/document) الكائن . |
+| [ChmLoadOptions](./chmloadoptions/) | يسمح بتحديد خيارات إضافية عند تحميل مستند آلية تبادل المعلومات في ملف[`Document`](../aspose.words/document/) الكائن . |
+| [DocumentLoadingArgs](./documentloadingargs/) | تم تمرير وسيطة إلى[`Notify`](../aspose.words.loading/idocumentloadingcallback/notify/) . |
+| [HtmlLoadOptions](./htmlloadoptions/) | يسمح بتحديد خيارات إضافية عند تحميل مستند HTML في ملف[`Document`](../aspose.words/document/) الكائن . |
+| [LanguagePreferences](./languagepreferences/) | يسمح بإعداد تفضيلات اللغة . |
+| [LoadOptions](./loadoptions/) | يسمح بتحديد خيارات إضافية (مثل كلمة المرور أو URI الأساسي) عند تحميل مستند في ملف[`Document`](../aspose.words/document/) الكائن . |
+| [PdfLoadOptions](./pdfloadoptions/) | يسمح بتحديد خيارات إضافية عند تحميل مستند PDF في ملف[`Document`](../aspose.words/document/) الكائن . |
+| [ResourceLoadingArgs](./resourceloadingargs/) | توفير بيانات لملف[`ResourceLoading`](../aspose.words.loading/iresourceloadingcallback/resourceloading/) طريقة . |
+| [RtfLoadOptions](./rtfloadoptions/) | يسمح بتحديد خيارات إضافية عند التحميلRtf وثيقة في[`Document`](../aspose.words/document/) الكائن . |
+| [TxtLoadOptions](./txtloadoptions/) | يسمح بتحديد خيارات إضافية عند التحميلText وثيقة في[`Document`](../aspose.words/document/) الكائن . |
 ## واجهات
 
 | واجهه المستخدم | وصف |
 | --- | --- |
-| [IDocumentLoadingCallback](./idocumentloadingcallback) | قم بتنفيذ هذه الواجهة إذا كنت تريد استدعاء طريقتك المخصصة أثناء تحميل مستند. |
-| [IResourceLoadingCallback](./iresourceloadingcallback) | قم بتنفيذ هذه الواجهة إذا كنت تريد التحكم في كيفية تحميل Aspose.Words مورد خارجي عند استيراد مستند وإدراج الصور باستخدام[`DocumentBuilder`](../aspose.words/documentbuilder) . |
+| [IDocumentLoadingCallback](./idocumentloadingcallback/) | قم بتنفيذ هذه الواجهة إذا كنت تريد استدعاء طريقتك المخصصة أثناء تحميل مستند. |
+| [IResourceLoadingCallback](./iresourceloadingcallback/) | قم بتنفيذ هذه الواجهة إذا كنت تريد التحكم في كيفية تحميل Aspose.Words مورد خارجي عند استيراد مستند وإدراج الصور باستخدام[`DocumentBuilder`](../aspose.words/documentbuilder/) . |
 ## تعداد
 
 | تعداد | وصف |
 | --- | --- |
-| [BlockImportMode](./blockimportmode) | يحدد كيفية استيراد خصائص عناصر مستوى الكتلة من المستندات المستندة إلى HTML. |
-| [DocumentDirection](./documentdirection) | يسمح بتحديد اتجاه تدفق النص في المستند. |
-| [EditingLanguage](./editinglanguage) | يحدد لغة التحرير . |
-| [HtmlControlType](./htmlcontroltype) | نوع عقد المستند الذي يمثل عناصر &lt;input&gt; و &lt;select&gt; المستوردة من HTML . |
-| [ResourceLoadingAction](./resourceloadingaction) | يحدد وضع تحميل المورد . |
-| [ResourceType](./resourcetype) | نوع المورد الذي تم تحميله . |
-| [TxtLeadingSpacesOptions](./txtleadingspacesoptions) | يحدد الخيارات المتاحة لمعالجة المساحة الرائدة أثناء الاستيراد منText ملف . |
-| [TxtTrailingSpacesOptions](./txttrailingspacesoptions) | يحدد الخيارات المتاحة لمعالجة المسافات الزائدة أثناء الاستيراد منText ملف . |
+| [BlockImportMode](./blockimportmode/) | يحدد كيفية استيراد خصائص عناصر مستوى الكتلة من المستندات المستندة إلى HTML. |
+| [DocumentDirection](./documentdirection/) | يسمح بتحديد اتجاه تدفق النص في المستند. |
+| [EditingLanguage](./editinglanguage/) | يحدد لغة التحرير . |
+| [HtmlControlType](./htmlcontroltype/) | نوع عقد المستند الذي يمثل عناصر &lt;input&gt; و &lt;select&gt; المستوردة من HTML . |
+| [ResourceLoadingAction](./resourceloadingaction/) | يحدد وضع تحميل المورد . |
+| [ResourceType](./resourcetype/) | نوع المورد الذي تم تحميله . |
+| [TxtLeadingSpacesOptions](./txtleadingspacesoptions/) | يحدد الخيارات المتاحة لمعالجة المساحة الرائدة أثناء الاستيراد منText ملف . |
+| [TxtTrailingSpacesOptions](./txttrailingspacesoptions/) | يحدد الخيارات المتاحة لمعالجة المسافات الزائدة أثناء الاستيراد منText ملف . |
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

@@ -1,14 +1,14 @@
 ---
 title: ImageFieldMergingArgs
 second_title: Aspose.Words لمراجع .NET API
-description: توفير بيانات لملفImageFieldMerging./ifieldmergingcallback/imagefieldmerging الحدث .
+description: توفير بيانات لملفImageFieldMerging./ifieldmergingcallback/imagefieldmerging/ الحدث .
 type: docs
 weight: 3610
 url: /ar/net/aspose.words.mailmerging/imagefieldmergingargs/
 ---
 ## ImageFieldMergingArgs class
 
-توفير بيانات لملف[`ImageFieldMerging`](../ifieldmergingcallback/imagefieldmerging) الحدث .
+توفير بيانات لملف[`ImageFieldMerging`](../ifieldmergingcallback/imagefieldmerging/) الحدث .
 
 ```csharp
 public class ImageFieldMergingArgs : FieldMergingArgsBase
@@ -18,25 +18,25 @@ public class ImageFieldMergingArgs : FieldMergingArgsBase
 
 | اسم | وصف |
 | --- | --- |
-| [Document](../../aspose.words.mailmerging/fieldmergingargsbase/document) { get; } | إرجاع ملف[`Document`](../fieldmergingargsbase/document) الكائن الذي يتم تنفيذ دمج المراسلات. |
-| [DocumentFieldName](../../aspose.words.mailmerging/fieldmergingargsbase/documentfieldname) { get; } | الحصول على اسم حقل الدمج كما هو محدد في المستند. |
-| [Field](../../aspose.words.mailmerging/fieldmergingargsbase/field) { get; } | الحصول على الكائن الذي يمثل حقل الدمج الحالي. |
-| [FieldName](../../aspose.words.mailmerging/fieldmergingargsbase/fieldname) { get; } | الحصول على اسم حقل الدمج في مصدر البيانات. |
-| [FieldValue](../../aspose.words.mailmerging/fieldmergingargsbase/fieldvalue) { get; set; } | الحصول على أو تعيين قيمة الحقل من مصدر البيانات. |
-| [Image](../../aspose.words.mailmerging/imagefieldmergingargs/image) { get; set; } | يحدد الصورة التي يجب على محرك دمج المراسلات إدراجها في المستند. |
-| [ImageFileName](../../aspose.words.mailmerging/imagefieldmergingargs/imagefilename) { get; set; } | يعيّن اسم ملف الصورة الذي يجب على محرك دمج المراسلات إدراجه في المستند. |
-| [ImageHeight](../../aspose.words.mailmerging/imagefieldmergingargs/imageheight) { get; set; } | يحدد ارتفاع الصورة للصورة لإدراجها في المستند. |
-| [ImageStream](../../aspose.words.mailmerging/imagefieldmergingargs/imagestream) { get; set; } | تحديد دفق محرك دمج المراسلات لقراءة صورة منه. |
-| [ImageWidth](../../aspose.words.mailmerging/imagefieldmergingargs/imagewidth) { get; set; } | يحدد عرض الصورة للصورة لإدراجها في المستند. |
-| [RecordIndex](../../aspose.words.mailmerging/fieldmergingargsbase/recordindex) { get; } | الحصول على فهرس السجل الذي يتم دمجه على أساس الصفر. |
-| [Shape](../../aspose.words.mailmerging/imagefieldmergingargs/shape) { get; set; } | تحديد الشكل الذي يجب على محرك دمج المراسلات إدراجه في المستند. |
-| [TableName](../../aspose.words.mailmerging/fieldmergingargsbase/tablename) { get; } | الحصول على اسم جدول البيانات لعملية الدمج الحالية أو السلسلة الفارغة إذا لم يكن الاسم متاحًا . |
+| [Document](../../aspose.words.mailmerging/fieldmergingargsbase/document/) { get; } | إرجاع ملف[`Document`](../fieldmergingargsbase/document/) الكائن الذي يتم تنفيذ دمج المراسلات. |
+| [DocumentFieldName](../../aspose.words.mailmerging/fieldmergingargsbase/documentfieldname/) { get; } | الحصول على اسم حقل الدمج كما هو محدد في المستند. |
+| [Field](../../aspose.words.mailmerging/fieldmergingargsbase/field/) { get; } | الحصول على الكائن الذي يمثل حقل الدمج الحالي. |
+| [FieldName](../../aspose.words.mailmerging/fieldmergingargsbase/fieldname/) { get; } | الحصول على اسم حقل الدمج في مصدر البيانات. |
+| [FieldValue](../../aspose.words.mailmerging/fieldmergingargsbase/fieldvalue/) { get; set; } | الحصول على أو تعيين قيمة الحقل من مصدر البيانات. |
+| [Image](../../aspose.words.mailmerging/imagefieldmergingargs/image/) { get; set; } | يحدد الصورة التي يجب على محرك دمج المراسلات إدراجها في المستند. |
+| [ImageFileName](../../aspose.words.mailmerging/imagefieldmergingargs/imagefilename/) { get; set; } | يعيّن اسم ملف الصورة الذي يجب على محرك دمج المراسلات إدراجه في المستند. |
+| [ImageHeight](../../aspose.words.mailmerging/imagefieldmergingargs/imageheight/) { get; set; } | يحدد ارتفاع الصورة للصورة لإدراجها في المستند. |
+| [ImageStream](../../aspose.words.mailmerging/imagefieldmergingargs/imagestream/) { get; set; } | تحديد دفق محرك دمج المراسلات لقراءة صورة منه. |
+| [ImageWidth](../../aspose.words.mailmerging/imagefieldmergingargs/imagewidth/) { get; set; } | يحدد عرض الصورة للصورة لإدراجها في المستند. |
+| [RecordIndex](../../aspose.words.mailmerging/fieldmergingargsbase/recordindex/) { get; } | الحصول على فهرس السجل الذي يتم دمجه على أساس الصفر. |
+| [Shape](../../aspose.words.mailmerging/imagefieldmergingargs/shape/) { get; set; } | تحديد الشكل الذي يجب على محرك دمج المراسلات إدراجه في المستند. |
+| [TableName](../../aspose.words.mailmerging/fieldmergingargsbase/tablename/) { get; } | الحصول على اسم جدول البيانات لعملية الدمج الحالية أو السلسلة الفارغة إذا لم يكن الاسم متاحًا . |
 
 ### ملاحظات
 
 يحدث هذا الحدث أثناء دمج المراسلات عند مصادفة حقل merge بريد صورة في المستند. يمكنك الرد على هذا الحدث لإرجاع اسم ملف أو دفق أو ملفImage الكائن إلى محرك merge mailge بحيث يتم إدراجه في المستند.
 
-هناك ثلاث خصائص متاحة[`ImageFileName`](./imagefilename) ، [`ImageStream`](./imagestream) و[`Image`](./image) لتحديد المكان الذي يجب أن تؤخذ منه الصورة. قم بتعيين واحدة فقط من هذه الخصائص.
+هناك ثلاث خصائص متاحة[`ImageFileName`](./imagefilename/) ، [`ImageStream`](./imagestream/) و[`Image`](./image/) لتحديد المكان الذي يجب أن تؤخذ منه الصورة. قم بتعيين واحدة فقط من هذه الخصائص.
 
 لإدراج حقل دمج بريد صورة في مستند في Word ، حدد أمر إدراج / حقل ، ثم حدد MergeField واكتب Image: MyFieldName.
 
@@ -150,8 +150,8 @@ private class MergedImageResizer : IFieldMergingCallback
 
 ### أنظر أيضا
 
-* class [FieldMergingArgsBase](../fieldmergingargsbase)
-* مساحة الاسم [Aspose.Words.MailMerging](../../aspose.words.mailmerging)
+* class [FieldMergingArgsBase](../fieldmergingargsbase/)
+* مساحة الاسم [Aspose.Words.MailMerging](../../aspose.words.mailmerging/)
 * المجسم [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

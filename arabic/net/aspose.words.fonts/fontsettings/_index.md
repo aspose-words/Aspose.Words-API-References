@@ -18,33 +18,33 @@ public class FontSettings
 
 | اسم | وصف |
 | --- | --- |
-| [FontSettings](fontsettings)() | Default_Constructor |
+| [FontSettings](fontsettings/)() | Default_Constructor |
 
 ## الخصائص
 
 | اسم | وصف |
 | --- | --- |
-| static [DefaultInstance](../../aspose.words.fonts/fontsettings/defaultinstance) { get; } | إعدادات الخط الافتراضية الثابتة . |
-| [FallbackSettings](../../aspose.words.fonts/fontsettings/fallbacksettings) { get; } | الإعدادات المتعلقة بآلية النسخ الاحتياطي للخط . |
-| [SubstitutionSettings](../../aspose.words.fonts/fontsettings/substitutionsettings) { get; } | الإعدادات المتعلقة بآلية استبدال الخط. |
+| static [DefaultInstance](../../aspose.words.fonts/fontsettings/defaultinstance/) { get; } | إعدادات الخط الافتراضية الثابتة . |
+| [FallbackSettings](../../aspose.words.fonts/fontsettings/fallbacksettings/) { get; } | الإعدادات المتعلقة بآلية النسخ الاحتياطي للخط . |
+| [SubstitutionSettings](../../aspose.words.fonts/fontsettings/substitutionsettings/) { get; } | الإعدادات المتعلقة بآلية استبدال الخط. |
 
 ## طُرق
 
 | اسم | وصف |
 | --- | --- |
-| [GetFontsSources](../../aspose.words.fonts/fontsettings/getfontssources)() | يحصل على نسخة من المصفوفة التي تحتوي على قائمة المصادر حيث يبحث Aspose.Words عن خطوط TrueType . |
-| [ResetFontSources](../../aspose.words.fonts/fontsettings/resetfontsources)() | يعيد تعيين مصادر الخطوط إلى النظام الافتراضي. |
-| [SaveSearchCache](../../aspose.words.fonts/fontsettings/savesearchcache)(Stream) | يحفظ ذاكرة التخزين المؤقت للبحث عن الخط في الدفق. |
-| [SetFontsFolder](../../aspose.words.fonts/fontsettings/setfontsfolder)(string, bool) | يضبط المجلد حيث يبحث Aspose.Words عن خطوط TrueType عند عرض المستندات أو تضمين الخطوط . هذا اختصار لـ[`SetFontsFolders`](./setfontsfolders) لتعيين دليل خطوط واحد فقط. |
-| [SetFontsFolders](../../aspose.words.fonts/fontsettings/setfontsfolders)(string[], bool) | يضبط المجلدات حيث يبحث Aspose.Words عن خطوط TrueType عند عرض المستندات أو تضمين الخطوط. |
-| [SetFontsSources](../../aspose.words.fonts/fontsettings/setfontssources#setfontssources)(FontSourceBase[]) | يحدد المصادر حيث يبحث Aspose.Words عن خطوط TrueType عند عرض المستندات أو تضمين الخطوط. |
-| [SetFontsSources](../../aspose.words.fonts/fontsettings/setfontssources#setfontssources_1)(FontSourceBase[], Stream) | يعيّن المصادر حيث يبحث Aspose.Words عن خطوط TrueType ويقوم بالإضافة إلى ذلك بتحميل ذاكرة التخزين المؤقت للبحث عن الخطوط المحفوظة مسبقًا . |
+| [GetFontsSources](../../aspose.words.fonts/fontsettings/getfontssources/)() | يحصل على نسخة من المصفوفة التي تحتوي على قائمة المصادر حيث يبحث Aspose.Words عن خطوط TrueType . |
+| [ResetFontSources](../../aspose.words.fonts/fontsettings/resetfontsources/)() | يعيد تعيين مصادر الخطوط إلى النظام الافتراضي. |
+| [SaveSearchCache](../../aspose.words.fonts/fontsettings/savesearchcache/)(Stream) | يحفظ ذاكرة التخزين المؤقت للبحث عن الخط في الدفق. |
+| [SetFontsFolder](../../aspose.words.fonts/fontsettings/setfontsfolder/)(string, bool) | يضبط المجلد حيث يبحث Aspose.Words عن خطوط TrueType عند عرض المستندات أو تضمين الخطوط . هذا اختصار لـ[`SetFontsFolders`](./setfontsfolders/) لتعيين دليل خطوط واحد فقط. |
+| [SetFontsFolders](../../aspose.words.fonts/fontsettings/setfontsfolders/)(string[], bool) | يضبط المجلدات حيث يبحث Aspose.Words عن خطوط TrueType عند عرض المستندات أو تضمين الخطوط. |
+| [SetFontsSources](../../aspose.words.fonts/fontsettings/setfontssources/#setfontssources)(FontSourceBase[]) | يحدد المصادر حيث يبحث Aspose.Words عن خطوط TrueType عند عرض المستندات أو تضمين الخطوط. |
+| [SetFontsSources](../../aspose.words.fonts/fontsettings/setfontssources/#setfontssources_1)(FontSourceBase[], Stream) | يعيّن المصادر حيث يبحث Aspose.Words عن خطوط TrueType ويقوم بالإضافة إلى ذلك بتحميل ذاكرة التخزين المؤقت للبحث عن الخطوط المحفوظة مسبقًا . |
 
 ### ملاحظات
 
-يستخدم Aspose.Words إعدادات الخطوط لحل الخطوط في الوثيقة. يتم حل الخطوط في الغالب عند إنشاء المستند layout أو تقديمه إلى تنسيقات الصفحات الثابتة. ولكن عند تحميل بعض التنسيقات ، قد يطلب Aspose.Words أيضًا حل الخطوط. على سبيل المثال ، when تحميل مستندات HTML قد يقوم Aspose.Words بحل الخطوط لإجراء احتياطي للخط. لذلك يوصى بضبط إعدادات الخط في [`LoadOptions`](../../aspose.words.loading/loadoptions) عند تحميل المستند. أو على الأقل قبل إنشاء التخطيط أو تحويل المستند إلى تنسيق الصفحة الثابتة.
+يستخدم Aspose.Words إعدادات الخطوط لحل الخطوط في الوثيقة. يتم حل الخطوط في الغالب عند إنشاء المستند layout أو تقديمه إلى تنسيقات الصفحات الثابتة. ولكن عند تحميل بعض التنسيقات ، قد يطلب Aspose.Words أيضًا حل الخطوط. على سبيل المثال ، when تحميل مستندات HTML قد يقوم Aspose.Words بحل الخطوط لإجراء احتياطي للخط. لذلك يوصى بضبط إعدادات الخط في [`LoadOptions`](../../aspose.words.loading/loadoptions/) عند تحميل المستند. أو على الأقل قبل إنشاء التخطيط أو تحويل المستند إلى تنسيق الصفحة الثابتة.
 
-بشكل افتراضي ، تستخدم جميع المستندات مثيلًا واحدًا لإعدادات الخط الثابت. يمكن الوصول إليه عن طريق [`DefaultInstance`](./defaultinstance) منشأه.
+بشكل افتراضي ، تستخدم جميع المستندات مثيلًا واحدًا لإعدادات الخط الثابت. يمكن الوصول إليه عن طريق [`DefaultInstance`](./defaultinstance/) منشأه.
 
 تغيير إعدادات الخط آمن في أي وقت من أي موضوع. لكن يوصى بعدم تغيير إعدادات الخط أثناء معالجة بعض المستندات التي تستخدم هذه الإعدادات. يمكن أن يؤدي هذا إلى حقيقة أنه سيتم حل نفس الخط بشكل مختلف في أجزاء مختلفة من المستند.
 
@@ -205,7 +205,7 @@ FontSettings.DefaultInstance.SetFontsSources(originalFontSources);
 
 ### أنظر أيضا
 
-* مساحة الاسم [Aspose.Words.Fonts](../../aspose.words.fonts)
+* مساحة الاسم [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * المجسم [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

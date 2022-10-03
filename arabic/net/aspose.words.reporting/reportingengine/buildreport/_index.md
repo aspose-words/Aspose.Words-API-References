@@ -21,17 +21,17 @@ public bool BuildReport(Document document, object dataSource)
 
 ### قيمة الإرجاع
 
-علامة تشير إلى ما إذا كان تحليل مستند النموذج ناجحًا.[`Options`](../options)تشمل الخاصية الInlineErrorMessages اختيار.
+علامة تشير إلى ما إذا كان تحليل مستند النموذج ناجحًا.[`Options`](../options/)تشمل الخاصية الInlineErrorMessages اختيار.
 
 ### ملاحظات
 
-باستخدام هذا التحميل الزائد ، يمكنك الرجوع إلى أعضاء مصدر البيانات في مستند القالب ، ولكن لا يمكنك الإشارة إلى كائن مصدر البيانات نفسه. يجب عليك استخدام ملف[`BuildReport`](../buildreport) الزائد لتحقيق ذلك.
+باستخدام هذا التحميل الزائد ، يمكنك الرجوع إلى أعضاء مصدر البيانات في مستند القالب ، ولكن لا يمكنك الإشارة إلى كائن مصدر البيانات نفسه. يجب عليك استخدام ملف[`BuildReport`](./buildreport/) الزائد لتحقيق ذلك.
 
 يمكن أن يكون كائن مصدر البيانات من أحد الأنواع التالية:
 
-* [`XmlDataSource`](../../xmldatasource)
-* [`JsonDataSource`](../../jsondatasource)
-* [`CsvDataSource`](../../csvdatasource)
+* [`XmlDataSource`](../../xmldatasource/)
+* [`JsonDataSource`](../../jsondatasource/)
+* [`CsvDataSource`](../../csvdatasource/)
 * DataSet
 * DataTable
 * DataRow
@@ -45,9 +45,9 @@ public bool BuildReport(Document document, object dataSource)
 
 ### أنظر أيضا
 
-* class [Document](../../../aspose.words/document)
-* class [ReportingEngine](../../reportingengine)
-* مساحة الاسم [Aspose.Words.Reporting](../../reportingengine)
+* class [Document](../../../aspose.words/document/)
+* class [ReportingEngine](../)
+* مساحة الاسم [Aspose.Words.Reporting](../../reportingengine/)
 * المجسم [Aspose.Words](../../../)
 
 ---
@@ -68,17 +68,17 @@ public bool BuildReport(Document document, object dataSource, string dataSourceN
 
 ### قيمة الإرجاع
 
-علامة تشير إلى ما إذا كان تحليل مستند النموذج ناجحًا.[`Options`](../options)تشمل الخاصية الInlineErrorMessages اختيار.
+علامة تشير إلى ما إذا كان تحليل مستند النموذج ناجحًا.[`Options`](../options/)تشمل الخاصية الInlineErrorMessages اختيار.
 
 ### ملاحظات
 
-باستخدام هذا التحميل الزائد ، يمكنك الرجوع إلى أعضاء مصدر البيانات وكائن مصدر البيانات نفسه في القالب. إذا كنت لا تنوي الرجوع إلى كائن مصدر البيانات نفسه ، فيمكنك حذفه*dataSourceName* تمرير فارغ أو استخدام[`BuildReport`](../buildreport) الزائد .
+باستخدام هذا التحميل الزائد ، يمكنك الرجوع إلى أعضاء مصدر البيانات وكائن مصدر البيانات نفسه في القالب. إذا كنت لا تنوي الرجوع إلى كائن مصدر البيانات نفسه ، فيمكنك حذفه*dataSourceName* تمرير فارغ أو استخدام[`BuildReport`](./buildreport/) الزائد .
 
 يمكن أن يكون كائن مصدر البيانات من أحد الأنواع التالية:
 
-* [`XmlDataSource`](../../xmldatasource)
-* [`JsonDataSource`](../../jsondatasource)
-* [`CsvDataSource`](../../csvdatasource)
+* [`XmlDataSource`](../../xmldatasource/)
+* [`JsonDataSource`](../../jsondatasource/)
+* [`CsvDataSource`](../../csvdatasource/)
 * DataSet
 * DataTable
 * DataRow
@@ -92,9 +92,9 @@ public bool BuildReport(Document document, object dataSource, string dataSourceN
 
 ### أنظر أيضا
 
-* class [Document](../../../aspose.words/document)
-* class [ReportingEngine](../../reportingengine)
-* مساحة الاسم [Aspose.Words.Reporting](../../reportingengine)
+* class [Document](../../../aspose.words/document/)
+* class [ReportingEngine](../)
+* مساحة الاسم [Aspose.Words.Reporting](../../reportingengine/)
 * المجسم [Aspose.Words](../../../)
 
 ---
@@ -115,19 +115,19 @@ public bool BuildReport(Document document, object[] dataSources, string[] dataSo
 
 ### قيمة الإرجاع
 
-علامة تشير إلى ما إذا كان تحليل مستند النموذج ناجحًا.[`Options`](../options)تشمل الخاصية الInlineErrorMessages اختيار.
+علامة تشير إلى ما إذا كان تحليل مستند النموذج ناجحًا.[`Options`](../options/)تشمل الخاصية الInlineErrorMessages اختيار.
 
 ### ملاحظات
 
 باستخدام هذا التحميل الزائد ، يمكنك الرجوع إلى كائنات مصدر بيانات متعددة وأعضائها في القالب. يمكن حذف اسم مصدر البيانات الأول (أي أن تكون سلسلة فارغة أو خالية) إذا كنت تريد الإشارة إلى أعضاء مصدر البيانات وليس إلى كائن مصدر البيانات نفسه. يجب تحديد أسماء مصادر البيانات الأخرى وفريدة من نوعها.
 
-إذا كنت ستستخدم مصدر بيانات واحدًا ، ففكر في استخدام[`BuildReport`](../buildreport) و[`BuildReport`](../buildreport) الزائدة بدلا من ذلك.
+إذا كنت ستستخدم مصدر بيانات واحدًا ، ففكر في استخدام[`BuildReport`](./buildreport/) و[`BuildReport`](./buildreport/) الزائدة بدلا من ذلك.
 
 يمكن أن يكون كائن مصدر البيانات من أحد الأنواع التالية:
 
-* [`XmlDataSource`](../../xmldatasource)
-* [`JsonDataSource`](../../jsondatasource)
-* [`CsvDataSource`](../../csvdatasource)
+* [`XmlDataSource`](../../xmldatasource/)
+* [`JsonDataSource`](../../jsondatasource/)
+* [`CsvDataSource`](../../csvdatasource/)
 * DataSet
 * DataTable
 * DataRow
@@ -141,9 +141,9 @@ public bool BuildReport(Document document, object[] dataSources, string[] dataSo
 
 ### أنظر أيضا
 
-* class [Document](../../../aspose.words/document)
-* class [ReportingEngine](../../reportingengine)
-* مساحة الاسم [Aspose.Words.Reporting](../../reportingengine)
+* class [Document](../../../aspose.words/document/)
+* class [ReportingEngine](../)
+* مساحة الاسم [Aspose.Words.Reporting](../../reportingengine/)
 * المجسم [Aspose.Words](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

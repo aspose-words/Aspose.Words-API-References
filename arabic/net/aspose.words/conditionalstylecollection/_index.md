@@ -1,14 +1,14 @@
 ---
 title: ConditionalStyleCollection
 second_title: Aspose.Words لمراجع .NET API
-description: يمثل مجموعة منConditionalStyle./conditionalstyle الكائنات .
+description: يمثل مجموعة منConditionalStyle./conditionalstyle/ الكائنات .
 type: docs
 weight: 310
 url: /ar/net/aspose.words/conditionalstylecollection/
 ---
 ## ConditionalStyleCollection class
 
-يمثل مجموعة من[`ConditionalStyle`](../conditionalstyle) الكائنات .
+يمثل مجموعة من[`ConditionalStyle`](../conditionalstyle/) الكائنات .
 
 ```csharp
 public sealed class ConditionalStyleCollection : IEnumerable<ConditionalStyle>
@@ -18,31 +18,31 @@ public sealed class ConditionalStyleCollection : IEnumerable<ConditionalStyle>
 
 | اسم | وصف |
 | --- | --- |
-| [BottomLeftCell](../../aspose.words/conditionalstylecollection/bottomleftcell) { get; } | الحصول على نمط الخلية اليسرى السفلية. |
-| [BottomRightCell](../../aspose.words/conditionalstylecollection/bottomrightcell) { get; } | الحصول على نمط الخلية الأيمن السفلي. |
-| [Count](../../aspose.words/conditionalstylecollection/count) { get; } | الحصول على عدد الأنماط الشرطية في المجموعة. |
-| [EvenColumnBanding](../../aspose.words/conditionalstylecollection/evencolumnbanding) { get; } | الحصول على نمط نطاقات الأعمدة الزوجية . |
-| [EvenRowBanding](../../aspose.words/conditionalstylecollection/evenrowbanding) { get; } | يحصل على نمط نطاقات الصف الزوجي . |
-| [FirstColumn](../../aspose.words/conditionalstylecollection/firstcolumn) { get; } | يحصل على نمط العمود الأول . |
-| [FirstRow](../../aspose.words/conditionalstylecollection/firstrow) { get; } | يحصل على نمط الصف الأول . |
-| [Item](../../aspose.words/conditionalstylecollection/item) { get; } | يسترجع أ[`ConditionalStyle`](../conditionalstyle) الكائن حسب نوع النمط الشرطي. (2 indexers) |
-| [LastColumn](../../aspose.words/conditionalstylecollection/lastcolumn) { get; } | الحصول على نمط العمود الأخير . |
-| [LastRow](../../aspose.words/conditionalstylecollection/lastrow) { get; } | يحصل على نمط الصف الأخير . |
-| [OddColumnBanding](../../aspose.words/conditionalstylecollection/oddcolumnbanding) { get; } | يحصل على نمط نطاقات العمود الفردي . |
-| [OddRowBanding](../../aspose.words/conditionalstylecollection/oddrowbanding) { get; } | يحصل على نمط نطاقات الصف الفردي . |
-| [TopLeftCell](../../aspose.words/conditionalstylecollection/topleftcell) { get; } | الحصول على نمط الخلية الأيسر العلوي . |
-| [TopRightCell](../../aspose.words/conditionalstylecollection/toprightcell) { get; } | الحصول على نمط الخلية الأيمن العلوي . |
+| [BottomLeftCell](../../aspose.words/conditionalstylecollection/bottomleftcell/) { get; } | الحصول على نمط الخلية اليسرى السفلية. |
+| [BottomRightCell](../../aspose.words/conditionalstylecollection/bottomrightcell/) { get; } | الحصول على نمط الخلية الأيمن السفلي. |
+| [Count](../../aspose.words/conditionalstylecollection/count/) { get; } | الحصول على عدد الأنماط الشرطية في المجموعة. |
+| [EvenColumnBanding](../../aspose.words/conditionalstylecollection/evencolumnbanding/) { get; } | الحصول على نمط نطاقات الأعمدة الزوجية . |
+| [EvenRowBanding](../../aspose.words/conditionalstylecollection/evenrowbanding/) { get; } | يحصل على نمط نطاقات الصف الزوجي . |
+| [FirstColumn](../../aspose.words/conditionalstylecollection/firstcolumn/) { get; } | يحصل على نمط العمود الأول . |
+| [FirstRow](../../aspose.words/conditionalstylecollection/firstrow/) { get; } | يحصل على نمط الصف الأول . |
+| [Item](../../aspose.words/conditionalstylecollection/item/) { get; } | يسترجع أ[`ConditionalStyle`](../conditionalstyle/) الكائن حسب نوع النمط الشرطي. (2 indexers) |
+| [LastColumn](../../aspose.words/conditionalstylecollection/lastcolumn/) { get; } | الحصول على نمط العمود الأخير . |
+| [LastRow](../../aspose.words/conditionalstylecollection/lastrow/) { get; } | يحصل على نمط الصف الأخير . |
+| [OddColumnBanding](../../aspose.words/conditionalstylecollection/oddcolumnbanding/) { get; } | يحصل على نمط نطاقات العمود الفردي . |
+| [OddRowBanding](../../aspose.words/conditionalstylecollection/oddrowbanding/) { get; } | يحصل على نمط نطاقات الصف الفردي . |
+| [TopLeftCell](../../aspose.words/conditionalstylecollection/topleftcell/) { get; } | الحصول على نمط الخلية الأيسر العلوي . |
+| [TopRightCell](../../aspose.words/conditionalstylecollection/toprightcell/) { get; } | الحصول على نمط الخلية الأيمن العلوي . |
 
 ## طُرق
 
 | اسم | وصف |
 | --- | --- |
-| [ClearFormatting](../../aspose.words/conditionalstylecollection/clearformatting)() | يمسح كل الأنماط الشرطية لنمط الجدول. |
-| [GetEnumerator](../../aspose.words/conditionalstylecollection/getenumerator)() | إرجاع كائن العداد الذي يمكن استخدامه للتكرار على كافة الأنماط الشرطية في المجموعة. |
+| [ClearFormatting](../../aspose.words/conditionalstylecollection/clearformatting/)() | يمسح كل الأنماط الشرطية لنمط الجدول. |
+| [GetEnumerator](../../aspose.words/conditionalstylecollection/getenumerator/)() | إرجاع كائن العداد الذي يمكن استخدامه للتكرار على كافة الأنماط الشرطية في المجموعة. |
 
 ### ملاحظات
 
-لا يمكن إضافة أو إزالة عناصر من هذه المجموعة. يحتوي على مجموعة دائمة من العناصر: عنصر واحد مقابل_ لكل قيمة من[`ConditionalStyleType`](../conditionalstyletype) نوع التعداد .
+لا يمكن إضافة أو إزالة عناصر من هذه المجموعة. يحتوي على مجموعة دائمة من العناصر: عنصر واحد مقابل_ لكل قيمة من[`ConditionalStyleType`](../conditionalstyletype/) نوع التعداد .
 
 ### أمثلة
 
@@ -113,8 +113,8 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 
 ### أنظر أيضا
 
-* class [ConditionalStyle](../conditionalstyle)
-* مساحة الاسم [Aspose.Words](../../aspose.words)
+* class [ConditionalStyle](../conditionalstyle/)
+* مساحة الاسم [Aspose.Words](../../aspose.words/)
 * المجسم [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

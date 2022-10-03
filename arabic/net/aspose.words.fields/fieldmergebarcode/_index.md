@@ -18,46 +18,46 @@ public class FieldMergeBarcode : Field
 
 | اسم | وصف |
 | --- | --- |
-| [FieldMergeBarcode](fieldmergebarcode)() | Default_Constructor |
+| [FieldMergeBarcode](fieldmergebarcode/)() | Default_Constructor |
 
 ## الخصائص
 
 | اسم | وصف |
 | --- | --- |
-| [AddStartStopChar](../../aspose.words.fields/fieldmergebarcode/addstartstopchar) { get; set; } | الحصول على أو تحديد ما إذا كان سيتم إضافة أحرف بدء / إيقاف لأنواع الباركود NW7 و CODE39. |
-| [BackgroundColor](../../aspose.words.fields/fieldmergebarcode/backgroundcolor) { get; set; } | الحصول على أو تحديد لون خلفية رمز الباركود. القيم الصالحة موجودة في النطاق [0 ، 0xFFFFFF] |
-| [BarcodeType](../../aspose.words.fields/fieldmergebarcode/barcodetype) { get; set; } | الحصول على نوع الرمز الشريطي أو تعيينه (QR ، وما إلى ذلك) |
-| [BarcodeValue](../../aspose.words.fields/fieldmergebarcode/barcodevalue) { get; set; } | الحصول على قيمة الرمز الشريطي أو تعيينها. |
-| [CaseCodeStyle](../../aspose.words.fields/fieldmergebarcode/casecodestyle) { get; set; } | الحصول على أو تحديد نمط رمز الحالة لنوع الرمز الشريطي ITF14. القيم الصالحة هي [STD &#x7C; EXT &#x7C; ADD] |
-| [DisplayResult](../../aspose.words.fields/field/displayresult) { get; } | يحصل على النص الذي يمثل نتيجة الحقل المعروض. |
-| [DisplayText](../../aspose.words.fields/fieldmergebarcode/displaytext) { get; set; } | الحصول على أو تحديد ما إذا كان سيتم عرض بيانات الباركود (نص) مع الصورة. |
-| [End](../../aspose.words.fields/field/end) { get; } | يحصل على العقدة التي تمثل نهاية الحقل. |
-| [ErrorCorrectionLevel](../../aspose.words.fields/fieldmergebarcode/errorcorrectionlevel) { get; set; } | الحصول على أو تعيين مستوى تصحيح الخطأ لرمز الاستجابة السريعة. القيم الصالحة هي [0 ، 3] . |
-| [FixCheckDigit](../../aspose.words.fields/fieldmergebarcode/fixcheckdigit) { get; set; } | الحصول على أو تحديد ما إذا كان سيتم إصلاح رقم التحقق إذا كان غير صالح. |
-| [ForegroundColor](../../aspose.words.fields/fieldmergebarcode/foregroundcolor) { get; set; } | الحصول على أو تحديد اللون الأمامي لرمز الباركود. القيم الصالحة موجودة في النطاق [0 ، 0xFFFFFF] |
-| [Format](../../aspose.words.fields/field/format) { get; } | يحصل على أ[`FieldFormat`](../fieldformat) كائن يوفر وصولاً مكتوبًا إلى تنسيق الحقل. |
-| [IsDirty](../../aspose.words.fields/field/isdirty) { get; set; } | الحصول على أو تحديد ما إذا كانت النتيجة الحالية للحقل لم تعد صحيحة (قديمة) بسبب التعديلات الأخرى التي تم إجراؤها على المستند. |
-| [IsLocked](../../aspose.words.fields/field/islocked) { get; set; } | تحديد ما إذا كان الحقل مغلقًا أم لا (يجب عدم إعادة حساب النتيجة). |
-| [LocaleId](../../aspose.words.fields/field/localeid) { get; set; } | الحصول على أو تحديد LCID للحقل. |
-| [PosCodeStyle](../../aspose.words.fields/fieldmergebarcode/poscodestyle) { get; set; } | الحصول على أو تعيين نمط الرمز الشريطي لنقطة البيع (أنواع الرموز الشريطية UPCA &#x7C; UPCE &#x7C; EAN13 &#x7C; EAN8). القيم الصالحة (غير حساسة لحالة الأحرف) هي [STD &#x7C; SUP2 &#x7C; SUP5 &#x7C; CASE] . |
-| [Result](../../aspose.words.fields/field/result) { get; set; } | الحصول على أو تعيين النص الموجود بين فاصل الحقل ونهاية الحقل. |
-| [ScalingFactor](../../aspose.words.fields/fieldmergebarcode/scalingfactor) { get; set; } | الحصول على أو تعيين عامل تحجيم للرمز. القيمة بالنقاط المئوية الكاملة والقيم الصالحة هي [10 ، 1000] |
-| [Separator](../../aspose.words.fields/field/separator) { get; } | يحصل على العقدة التي تمثل فاصل المجال. يمكن أن يكون فارغًا. |
-| [Start](../../aspose.words.fields/field/start) { get; } | يحصل على العقدة التي تمثل بداية الحقل. |
-| [SymbolHeight](../../aspose.words.fields/fieldmergebarcode/symbolheight) { get; set; } | الحصول على ارتفاع الرمز أو تحديده. الوحدات في TWIPS (1/1440 بوصة). |
-| [SymbolRotation](../../aspose.words.fields/fieldmergebarcode/symbolrotation) { get; set; } | الحصول على أو تعيين تدوير رمز الباركود. القيم الصالحة هي [0 ، 3] |
-| virtual [Type](../../aspose.words.fields/field/type) { get; } | يحصل على نوع حقل Microsoft Word . |
+| [AddStartStopChar](../../aspose.words.fields/fieldmergebarcode/addstartstopchar/) { get; set; } | الحصول على أو تحديد ما إذا كان سيتم إضافة أحرف بدء / إيقاف لأنواع الباركود NW7 و CODE39. |
+| [BackgroundColor](../../aspose.words.fields/fieldmergebarcode/backgroundcolor/) { get; set; } | الحصول على أو تحديد لون خلفية رمز الباركود. القيم الصالحة موجودة في النطاق [0 ، 0xFFFFFF] |
+| [BarcodeType](../../aspose.words.fields/fieldmergebarcode/barcodetype/) { get; set; } | الحصول على نوع الرمز الشريطي أو تعيينه (QR ، وما إلى ذلك) |
+| [BarcodeValue](../../aspose.words.fields/fieldmergebarcode/barcodevalue/) { get; set; } | الحصول على قيمة الرمز الشريطي أو تعيينها. |
+| [CaseCodeStyle](../../aspose.words.fields/fieldmergebarcode/casecodestyle/) { get; set; } | الحصول على أو تحديد نمط رمز الحالة لنوع الرمز الشريطي ITF14. القيم الصالحة هي [STD &#x7C; EXT &#x7C; ADD] |
+| [DisplayResult](../../aspose.words.fields/field/displayresult/) { get; } | يحصل على النص الذي يمثل نتيجة الحقل المعروض. |
+| [DisplayText](../../aspose.words.fields/fieldmergebarcode/displaytext/) { get; set; } | الحصول على أو تحديد ما إذا كان سيتم عرض بيانات الباركود (نص) مع الصورة. |
+| [End](../../aspose.words.fields/field/end/) { get; } | يحصل على العقدة التي تمثل نهاية الحقل. |
+| [ErrorCorrectionLevel](../../aspose.words.fields/fieldmergebarcode/errorcorrectionlevel/) { get; set; } | الحصول على أو تعيين مستوى تصحيح الخطأ لرمز الاستجابة السريعة. القيم الصالحة هي [0 ، 3] . |
+| [FixCheckDigit](../../aspose.words.fields/fieldmergebarcode/fixcheckdigit/) { get; set; } | الحصول على أو تحديد ما إذا كان سيتم إصلاح رقم التحقق إذا كان غير صالح. |
+| [ForegroundColor](../../aspose.words.fields/fieldmergebarcode/foregroundcolor/) { get; set; } | الحصول على أو تحديد اللون الأمامي لرمز الباركود. القيم الصالحة موجودة في النطاق [0 ، 0xFFFFFF] |
+| [Format](../../aspose.words.fields/field/format/) { get; } | يحصل على أ[`FieldFormat`](../fieldformat/) كائن يوفر وصولاً مكتوبًا إلى تنسيق الحقل. |
+| [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | الحصول على أو تحديد ما إذا كانت النتيجة الحالية للحقل لم تعد صحيحة (قديمة) بسبب التعديلات الأخرى التي تم إجراؤها على المستند. |
+| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | تحديد ما إذا كان الحقل مغلقًا أم لا (يجب عدم إعادة حساب النتيجة). |
+| [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | الحصول على أو تحديد LCID للحقل. |
+| [PosCodeStyle](../../aspose.words.fields/fieldmergebarcode/poscodestyle/) { get; set; } | الحصول على أو تعيين نمط الرمز الشريطي لنقطة البيع (أنواع الرموز الشريطية UPCA &#x7C; UPCE &#x7C; EAN13 &#x7C; EAN8). القيم الصالحة (غير حساسة لحالة الأحرف) هي [STD &#x7C; SUP2 &#x7C; SUP5 &#x7C; CASE] . |
+| [Result](../../aspose.words.fields/field/result/) { get; set; } | الحصول على أو تعيين النص الموجود بين فاصل الحقل ونهاية الحقل. |
+| [ScalingFactor](../../aspose.words.fields/fieldmergebarcode/scalingfactor/) { get; set; } | الحصول على أو تعيين عامل تحجيم للرمز. القيمة بالنقاط المئوية الكاملة والقيم الصالحة هي [10 ، 1000] |
+| [Separator](../../aspose.words.fields/field/separator/) { get; } | يحصل على العقدة التي تمثل فاصل المجال. يمكن أن يكون فارغًا. |
+| [Start](../../aspose.words.fields/field/start/) { get; } | يحصل على العقدة التي تمثل بداية الحقل. |
+| [SymbolHeight](../../aspose.words.fields/fieldmergebarcode/symbolheight/) { get; set; } | الحصول على ارتفاع الرمز أو تحديده. الوحدات في TWIPS (1/1440 بوصة). |
+| [SymbolRotation](../../aspose.words.fields/fieldmergebarcode/symbolrotation/) { get; set; } | الحصول على أو تعيين تدوير رمز الباركود. القيم الصالحة هي [0 ، 3] |
+| virtual [Type](../../aspose.words.fields/field/type/) { get; } | يحصل على نوع حقل Microsoft Word . |
 
 ## طُرق
 
 | اسم | وصف |
 | --- | --- |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode)() | إرجاع النص بين بداية الحقل وفاصل الحقل (أو نهاية الحقل إذا لم يكن هناك فاصل) . يتم تضمين كل من رمز الحقل ونتيجة الحقل للحقول الفرعية. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode)(bool) | إرجاع النص بين بداية الحقل وفاصل الحقل (أو نهاية الحقل إذا لم يكن هناك فاصل) . |
-| [Remove](../../aspose.words.fields/field/remove)() | يزيل الحقل من المستند. إرجاع عقدة بعد الحقل مباشرة. إذا كانت نهاية الحقل هي آخر child من العقدة الأصلية ، يتم إرجاع فقرته الأصلية. إذا تمت إزالة الحقل بالفعل ، يعود **لا شيء** . |
-| [Unlink](../../aspose.words.fields/field/unlink)() | يقوم بإلغاء ربط الحقل. |
-| [Update](../../aspose.words.fields/field/update)() | يقوم بالتحديث الميداني. يرمي إذا تم تحديث الحقل بالفعل. |
-| [Update](../../aspose.words.fields/field/update)(bool) | يقوم بإجراء تحديث ميداني. يرمي إذا تم تحديث الحقل بالفعل. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | إرجاع النص بين بداية الحقل وفاصل الحقل (أو نهاية الحقل إذا لم يكن هناك فاصل) . يتم تضمين كل من رمز الحقل ونتيجة الحقل للحقول الفرعية. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | إرجاع النص بين بداية الحقل وفاصل الحقل (أو نهاية الحقل إذا لم يكن هناك فاصل) . |
+| [Remove](../../aspose.words.fields/field/remove/)() | يزيل الحقل من المستند. إرجاع عقدة بعد الحقل مباشرة. إذا كانت نهاية الحقل هي آخر child من العقدة الأصلية ، يتم إرجاع فقرته الأصلية. إذا تمت إزالة الحقل بالفعل ، يعود **لا شيء** . |
+| [Unlink](../../aspose.words.fields/field/unlink/)() | يقوم بإلغاء ربط الحقل. |
+| [Update](../../aspose.words.fields/field/update/)() | يقوم بالتحديث الميداني. يرمي إذا تم تحديث الحقل بالفعل. |
+| [Update](../../aspose.words.fields/field/update/)(bool) | يقوم بإجراء تحديث ميداني. يرمي إذا تم تحديث الحقل بالفعل. |
 
 ### ملاحظات
 
@@ -228,8 +228,8 @@ doc.Save(ArtifactsDir + "Field.MERGEBARCODE.QR.docx");
 
 ### أنظر أيضا
 
-* class [Field](../field)
-* مساحة الاسم [Aspose.Words.Fields](../../aspose.words.fields)
+* class [Field](../field/)
+* مساحة الاسم [Aspose.Words.Fields](../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

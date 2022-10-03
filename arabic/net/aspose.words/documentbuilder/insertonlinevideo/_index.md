@@ -26,14 +26,14 @@ public Shape InsertOnlineVideo(string videoUrl, double width, double height)
 
 ### ملاحظات
 
-يمكنك تغيير حجم الصورة والموقع وطريقة تحديد المواقع والإعدادات الأخرى باستخدام [`Shape`](../../../aspose.words.drawing/shape) تم إرجاع الكائن بهذه الطريقة.
+يمكنك تغيير حجم الصورة والموقع وطريقة تحديد المواقع والإعدادات الأخرى باستخدام [`Shape`](../../../aspose.words.drawing/shape/) تم إرجاع الكائن بهذه الطريقة.
 
 يتم دعم إدراج الفيديو عبر الإنترنت من الموارد التالية:
 
 * https://www.youtube.com/
 * https://vimeo.com/
 
-إذا لم يتم عرض مقطع الفيديو الخاص بك على الإنترنت بشكل صحيح ، فاستخدم[`InsertOnlineVideo`](../insertonlinevideo)، الذي يقبل كود html مضمن مخصص.
+إذا لم يتم عرض مقطع الفيديو الخاص بك على الإنترنت بشكل صحيح ، فاستخدم[`InsertOnlineVideo`](./insertonlinevideo/)، الذي يقبل كود html مضمن مخصص.
 
 يمكن أن يختلف رمز تضمين الفيديو بين مقدمي الخدمة ، استشر المزود المناسب الذي تختاره للحصول على التفاصيل.
 
@@ -53,9 +53,9 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertVideoWithUrl.docx");
 
 ### أنظر أيضا
 
-* class [Shape](../../../aspose.words.drawing/shape)
-* class [DocumentBuilder](../../documentbuilder)
-* مساحة الاسم [Aspose.Words](../../documentbuilder)
+* class [Shape](../../../aspose.words.drawing/shape/)
+* class [DocumentBuilder](../)
+* مساحة الاسم [Aspose.Words](../../documentbuilder/)
 * المجسم [Aspose.Words](../../../)
 
 ---
@@ -86,14 +86,14 @@ public Shape InsertOnlineVideo(string videoUrl, RelativeHorizontalPosition horzP
 
 ### ملاحظات
 
-يمكنك تغيير حجم الصورة والموقع وطريقة تحديد المواقع والإعدادات الأخرى باستخدام [`Shape`](../../../aspose.words.drawing/shape) تم إرجاع الكائن بهذه الطريقة.
+يمكنك تغيير حجم الصورة والموقع وطريقة تحديد المواقع والإعدادات الأخرى باستخدام [`Shape`](../../../aspose.words.drawing/shape/) تم إرجاع الكائن بهذه الطريقة.
 
 يتم دعم إدراج الفيديو عبر الإنترنت من الموارد التالية:
 
 * https://www.youtube.com/
 * https://vimeo.com/
 
-إذا لم يتم عرض مقطع الفيديو الخاص بك على الإنترنت بشكل صحيح ، فاستخدم[`InsertOnlineVideo`](../insertonlinevideo)، الذي يقبل كود html مضمن مخصص.
+إذا لم يتم عرض مقطع الفيديو الخاص بك على الإنترنت بشكل صحيح ، فاستخدم[`InsertOnlineVideo`](./insertonlinevideo/)، الذي يقبل كود html مضمن مخصص.
 
 يمكن أن يختلف رمز تضمين الفيديو بين مقدمي الخدمة ، استشر المزود المناسب الذي تختاره للحصول على التفاصيل.
 
@@ -119,12 +119,12 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertOnlineVideo.docx");
 
 ### أنظر أيضا
 
-* class [Shape](../../../aspose.words.drawing/shape)
-* enum [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition)
-* enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition)
-* enum [WrapType](../../../aspose.words.drawing/wraptype)
-* class [DocumentBuilder](../../documentbuilder)
-* مساحة الاسم [Aspose.Words](../../documentbuilder)
+* class [Shape](../../../aspose.words.drawing/shape/)
+* enum [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/)
+* enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/)
+* enum [WrapType](../../../aspose.words.drawing/wraptype/)
+* class [DocumentBuilder](../)
+* مساحة الاسم [Aspose.Words](../../documentbuilder/)
 * المجسم [Aspose.Words](../../../)
 
 ---
@@ -152,7 +152,7 @@ public Shape InsertOnlineVideo(string videoUrl, string videoEmbedCode, byte[] th
 
 ### ملاحظات
 
-يمكنك تغيير حجم الصورة والموقع وطريقة تحديد المواقع والإعدادات الأخرى باستخدام [`Shape`](../../../aspose.words.drawing/shape) تم إرجاع الكائن بهذه الطريقة.
+يمكنك تغيير حجم الصورة والموقع وطريقة تحديد المواقع والإعدادات الأخرى باستخدام [`Shape`](../../../aspose.words.drawing/shape/) تم إرجاع الكائن بهذه الطريقة.
 
 ### أمثلة
 
@@ -195,9 +195,9 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertOnlineVideoCustomThumbnail.docx")
 
 ### أنظر أيضا
 
-* class [Shape](../../../aspose.words.drawing/shape)
-* class [DocumentBuilder](../../documentbuilder)
-* مساحة الاسم [Aspose.Words](../../documentbuilder)
+* class [Shape](../../../aspose.words.drawing/shape/)
+* class [DocumentBuilder](../)
+* مساحة الاسم [Aspose.Words](../../documentbuilder/)
 * المجسم [Aspose.Words](../../../)
 
 ---
@@ -231,7 +231,7 @@ public Shape InsertOnlineVideo(string videoUrl, string videoEmbedCode, byte[] th
 
 ### ملاحظات
 
-يمكنك تغيير حجم الصورة والموقع وطريقة تحديد المواقع والإعدادات الأخرى باستخدام [`Shape`](../../../aspose.words.drawing/shape) تم إرجاع الكائن بهذه الطريقة.
+يمكنك تغيير حجم الصورة والموقع وطريقة تحديد المواقع والإعدادات الأخرى باستخدام [`Shape`](../../../aspose.words.drawing/shape/) تم إرجاع الكائن بهذه الطريقة.
 
 ### أمثلة
 
@@ -274,12 +274,12 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertOnlineVideoCustomThumbnail.docx")
 
 ### أنظر أيضا
 
-* class [Shape](../../../aspose.words.drawing/shape)
-* enum [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition)
-* enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition)
-* enum [WrapType](../../../aspose.words.drawing/wraptype)
-* class [DocumentBuilder](../../documentbuilder)
-* مساحة الاسم [Aspose.Words](../../documentbuilder)
+* class [Shape](../../../aspose.words.drawing/shape/)
+* enum [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/)
+* enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/)
+* enum [WrapType](../../../aspose.words.drawing/wraptype/)
+* class [DocumentBuilder](../)
+* مساحة الاسم [Aspose.Words](../../documentbuilder/)
 * المجسم [Aspose.Words](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

@@ -18,30 +18,30 @@ public class CustomDocumentProperties : DocumentPropertyCollection
 
 | اسم | وصف |
 | --- | --- |
-| [Count](../../aspose.words.properties/documentpropertycollection/count) { get; } | الحصول على عدد العناصر في المجموعة. |
-| [Item](../../aspose.words.properties/documentpropertycollection/item) { get; } | إرجاع أ[`DocumentProperty`](../documentproperty) كائن بالفهرس . |
-| virtual [Item](../../aspose.words.properties/documentpropertycollection/item) { get; } | إرجاع أ[`DocumentProperty`](../documentproperty) الكائن باسم الخاصية . |
+| [Count](../../aspose.words.properties/documentpropertycollection/count/) { get; } | الحصول على عدد العناصر في المجموعة. |
+| [Item](../../aspose.words.properties/documentpropertycollection/item/) { get; } | إرجاع أ[`DocumentProperty`](../documentproperty/) كائن بالفهرس . |
+| virtual [Item](../../aspose.words.properties/documentpropertycollection/item/) { get; } | إرجاع أ[`DocumentProperty`](../documentproperty/) الكائن باسم الخاصية . |
 
 ## طُرق
 
 | اسم | وصف |
 | --- | --- |
-| [Add](../../aspose.words.properties/customdocumentproperties/add#add)(string, bool) | إنشاء خاصية مستند مخصصة جديدة لملف **نوع الملكية. منطقي** نوع البيانات . |
-| [Add](../../aspose.words.properties/customdocumentproperties/add#add_3)(string, DateTime) | إنشاء خاصية مستند مخصصة جديدة لملف **PropertyType.DateTime** نوع البيانات . |
-| [Add](../../aspose.words.properties/customdocumentproperties/add#add_1)(string, double) | إنشاء خاصية مستند مخصصة جديدة لملف **نوع الملكية** نوع البيانات . |
-| [Add](../../aspose.words.properties/customdocumentproperties/add#add_2)(string, int) | إنشاء خاصية مستند مخصصة جديدة لملف **نوع الملكية** نوع البيانات . |
-| [Add](../../aspose.words.properties/customdocumentproperties/add#add_4)(string, string) | إنشاء خاصية مستند مخصصة جديدة لملف **PropertyType.String** نوع البيانات . |
-| [AddLinkToContent](../../aspose.words.properties/customdocumentproperties/addlinktocontent)(string, string) | إنشاء ارتباط جديد بخاصية مستند مخصص للمحتوى. |
-| [Clear](../../aspose.words.properties/documentpropertycollection/clear)() | يزيل كل الخصائص من المجموعة. |
-| [Contains](../../aspose.words.properties/documentpropertycollection/contains)(string) | إرجاع صحيح في حالة وجود خاصية بالاسم المحدد في المجموعة. |
-| [GetEnumerator](../../aspose.words.properties/documentpropertycollection/getenumerator)() | إرجاع كائن العداد الذي يمكن استخدامه للتكرار على كافة العناصر في المجموعة. |
-| [IndexOf](../../aspose.words.properties/documentpropertycollection/indexof)(string) | الحصول على فهرس الخاصية بالاسم . |
-| [Remove](../../aspose.words.properties/documentpropertycollection/remove)(string) | يزيل خاصية بالاسم المحدد من المجموعة. |
-| [RemoveAt](../../aspose.words.properties/documentpropertycollection/removeat)(int) | يزيل خاصية في الفهرس المحدد . |
+| [Add](../../aspose.words.properties/customdocumentproperties/add/#add)(string, bool) | إنشاء خاصية مستند مخصصة جديدة لملف **نوع الملكية. منطقي** نوع البيانات . |
+| [Add](../../aspose.words.properties/customdocumentproperties/add/#add_3)(string, DateTime) | إنشاء خاصية مستند مخصصة جديدة لملف **PropertyType.DateTime** نوع البيانات . |
+| [Add](../../aspose.words.properties/customdocumentproperties/add/#add_1)(string, double) | إنشاء خاصية مستند مخصصة جديدة لملف **نوع الملكية** نوع البيانات . |
+| [Add](../../aspose.words.properties/customdocumentproperties/add/#add_2)(string, int) | إنشاء خاصية مستند مخصصة جديدة لملف **نوع الملكية** نوع البيانات . |
+| [Add](../../aspose.words.properties/customdocumentproperties/add/#add_4)(string, string) | إنشاء خاصية مستند مخصصة جديدة لملف **PropertyType.String** نوع البيانات . |
+| [AddLinkToContent](../../aspose.words.properties/customdocumentproperties/addlinktocontent/)(string, string) | إنشاء ارتباط جديد بخاصية مستند مخصص للمحتوى. |
+| [Clear](../../aspose.words.properties/documentpropertycollection/clear/)() | يزيل كل الخصائص من المجموعة. |
+| [Contains](../../aspose.words.properties/documentpropertycollection/contains/)(string) | إرجاع صحيح في حالة وجود خاصية بالاسم المحدد في المجموعة. |
+| [GetEnumerator](../../aspose.words.properties/documentpropertycollection/getenumerator/)() | إرجاع كائن العداد الذي يمكن استخدامه للتكرار على كافة العناصر في المجموعة. |
+| [IndexOf](../../aspose.words.properties/documentpropertycollection/indexof/)(string) | الحصول على فهرس الخاصية بالاسم . |
+| [Remove](../../aspose.words.properties/documentpropertycollection/remove/)(string) | يزيل خاصية بالاسم المحدد من المجموعة. |
+| [RemoveAt](../../aspose.words.properties/documentpropertycollection/removeat/)(int) | يزيل خاصية في الفهرس المحدد . |
 
 ### ملاحظات
 
-كل[`DocumentProperty`](../documentproperty) يمثل الكائن خاصية مخصصة لمستند حاوية.
+كل[`DocumentProperty`](../documentproperty/) يمثل الكائن خاصية مخصصة لمستند حاوية.
 
 أسماء الخصائص غير حساسة لحالة الأحرف.
 
@@ -71,11 +71,11 @@ foreach (var customDocumentProperty in doc.CustomDocumentProperties)
 
 ### أنظر أيضا
 
-* class [Document](../../aspose.words/document)
-* property [BuiltInDocumentProperties](../../aspose.words/document/builtindocumentproperties)
-* property [CustomDocumentProperties](../../aspose.words/document/customdocumentproperties)
-* class [DocumentPropertyCollection](../documentpropertycollection)
-* مساحة الاسم [Aspose.Words.Properties](../../aspose.words.properties)
+* class [Document](../../aspose.words/document/)
+* property [BuiltInDocumentProperties](../../aspose.words/document/builtindocumentproperties/)
+* property [CustomDocumentProperties](../../aspose.words/document/customdocumentproperties/)
+* class [DocumentPropertyCollection](../documentpropertycollection/)
+* مساحة الاسم [Aspose.Words.Properties](../../aspose.words.properties/)
 * المجسم [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

@@ -1,14 +1,14 @@
 ---
 title: FontSavingArgs
 second_title: Aspose.Words لمراجع .NET API
-description: توفير بيانات لملفFontSaving./ifontsavingcallback/fontsaving الحدث .
+description: توفير بيانات لملفFontSaving./ifontsavingcallback/fontsaving/ الحدث .
 type: docs
 weight: 4770
 url: /ar/net/aspose.words.saving/fontsavingargs/
 ---
 ## FontSavingArgs class
 
-توفير بيانات لملف[`FontSaving`](../ifontsavingcallback/fontsaving) الحدث .
+توفير بيانات لملف[`FontSaving`](../ifontsavingcallback/fontsaving/) الحدث .
 
 ```csharp
 public class FontSavingArgs
@@ -18,29 +18,29 @@ public class FontSavingArgs
 
 | اسم | وصف |
 | --- | --- |
-| [Bold](../../aspose.words.saving/fontsavingargs/bold) { get; } | يشير إلى ما إذا كان الخط الحالي غامقًا . |
-| [Document](../../aspose.words.saving/fontsavingargs/document) { get; } | يحصل على كائن المستند الذي يتم حفظه . |
-| [FontFamilyName](../../aspose.words.saving/fontsavingargs/fontfamilyname) { get; } | يشير إلى اسم عائلة الخط الحالي. |
-| [FontFileName](../../aspose.words.saving/fontsavingargs/fontfilename) { get; set; } | الحصول على أو تحديد اسم الملف (بدون مسار) حيث سيتم حفظ الخط فيه. |
-| [FontStream](../../aspose.words.saving/fontsavingargs/fontstream) { get; set; } | يسمح بتحديد التدفق حيث سيتم حفظ الخط فيه. |
-| [IsExportNeeded](../../aspose.words.saving/fontsavingargs/isexportneeded) { get; set; } | يسمح بتحديد ما إذا كان سيتم تصدير الخط الحالي كمورد خطوط. الافتراضي هو`حقيقي` . |
-| [IsSubsettingNeeded](../../aspose.words.saving/fontsavingargs/issubsettingneeded) { get; set; } | يسمح بتحديد ما إذا كان سيتم تقسيم الخط الحالي قبل التصدير كمورد للخط. |
-| [Italic](../../aspose.words.saving/fontsavingargs/italic) { get; } | يشير إلى ما إذا كان الخط الحالي مائلاً. |
-| [KeepFontStreamOpen](../../aspose.words.saving/fontsavingargs/keepfontstreamopen) { get; set; } | يحدد ما إذا كان يجب على Aspose.Words إبقاء الدفق مفتوحًا أو إغلاقه بعد حفظ الخط. |
-| [OriginalFileName](../../aspose.words.saving/fontsavingargs/originalfilename) { get; } | يحصل على اسم ملف الخط الأصلي بامتداد . |
-| [OriginalFileSize](../../aspose.words.saving/fontsavingargs/originalfilesize) { get; } | يحصل على حجم ملف الخط الأصلي. |
+| [Bold](../../aspose.words.saving/fontsavingargs/bold/) { get; } | يشير إلى ما إذا كان الخط الحالي غامقًا . |
+| [Document](../../aspose.words.saving/fontsavingargs/document/) { get; } | يحصل على كائن المستند الذي يتم حفظه . |
+| [FontFamilyName](../../aspose.words.saving/fontsavingargs/fontfamilyname/) { get; } | يشير إلى اسم عائلة الخط الحالي. |
+| [FontFileName](../../aspose.words.saving/fontsavingargs/fontfilename/) { get; set; } | الحصول على أو تحديد اسم الملف (بدون مسار) حيث سيتم حفظ الخط فيه. |
+| [FontStream](../../aspose.words.saving/fontsavingargs/fontstream/) { get; set; } | يسمح بتحديد التدفق حيث سيتم حفظ الخط فيه. |
+| [IsExportNeeded](../../aspose.words.saving/fontsavingargs/isexportneeded/) { get; set; } | يسمح بتحديد ما إذا كان سيتم تصدير الخط الحالي كمورد خطوط. الافتراضي هو`حقيقي` . |
+| [IsSubsettingNeeded](../../aspose.words.saving/fontsavingargs/issubsettingneeded/) { get; set; } | يسمح بتحديد ما إذا كان سيتم تقسيم الخط الحالي قبل التصدير كمورد للخط. |
+| [Italic](../../aspose.words.saving/fontsavingargs/italic/) { get; } | يشير إلى ما إذا كان الخط الحالي مائلاً. |
+| [KeepFontStreamOpen](../../aspose.words.saving/fontsavingargs/keepfontstreamopen/) { get; set; } | يحدد ما إذا كان يجب على Aspose.Words إبقاء الدفق مفتوحًا أو إغلاقه بعد حفظ الخط. |
+| [OriginalFileName](../../aspose.words.saving/fontsavingargs/originalfilename/) { get; } | يحصل على اسم ملف الخط الأصلي بامتداد . |
+| [OriginalFileSize](../../aspose.words.saving/fontsavingargs/originalfilesize/) { get; } | يحصل على حجم ملف الخط الأصلي. |
 
 ### ملاحظات
 
-عندما يحفظ Aspose.Words مستندًا بتنسيق HTML أو تنسيقات ذات صلة وملفات[`ExportFontResources`](../htmlsaveoptions/exportfontresources) تم ضبط على **حقيقي**، فإنه يحفظ كل موضوع خط للتصدير إلى ملف منفصل.
+عندما يحفظ Aspose.Words مستندًا بتنسيق HTML أو تنسيقات ذات صلة وملفات[`ExportFontResources`](../htmlsaveoptions/exportfontresources/) تم ضبط على **حقيقي**، فإنه يحفظ كل موضوع خط للتصدير إلى ملف منفصل.
 
-[`FontSavingArgs`](../fontsavingargs) يتحكم في ما إذا كان يجب تصدير مورد خط معين وكيفية ذلك.
+[`FontSavingArgs`](./fontsavingargs/) يتحكم في ما إذا كان يجب تصدير مورد خط معين وكيفية ذلك.
 
-[`FontSavingArgs`](../fontsavingargs)يسمح أيضًا بإعادة تعريف كيفية إنشاء أسماء ملفات الخطوط أو التحايل تمامًا على حفظ الخطوط في الملفات من خلال توفير كائنات البث الخاصة بك.
+[`FontSavingArgs`](./fontsavingargs/)يسمح أيضًا بإعادة تعريف كيفية إنشاء أسماء ملفات الخطوط أو التحايل تمامًا على حفظ الخطوط في الملفات من خلال توفير كائنات البث الخاصة بك.
 
-لتحديد ما إذا كنت تريد حفظ مورد خط معين ، استخدم امتداد[`IsExportNeeded`](./isexportneeded) منشأه.
+لتحديد ما إذا كنت تريد حفظ مورد خط معين ، استخدم امتداد[`IsExportNeeded`](./isexportneeded/) منشأه.
 
-لحفظ الخطوط في التدفقات بدلاً من الملفات ، استخدم ملحق[`FontStream`](./fontstream) منشأه.
+لحفظ الخطوط في التدفقات بدلاً من الملفات ، استخدم ملحق[`FontStream`](./fontstream/) منشأه.
 
 ### أمثلة
 
@@ -98,7 +98,7 @@ public class HandleFontSaving : IFontSavingCallback
 
 ### أنظر أيضا
 
-* مساحة الاسم [Aspose.Words.Saving](../../aspose.words.saving)
+* مساحة الاسم [Aspose.Words.Saving](../../aspose.words.saving/)
 * المجسم [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

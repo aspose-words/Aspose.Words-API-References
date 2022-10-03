@@ -1,14 +1,14 @@
 ---
 title: OfficeMathRenderer
 second_title: Aspose.Words لمراجع .NET API
-description: توفير طرق لتصيير فردOfficeMath../aspose.words.math/officemath إلى صورة نقطية أو متجهة أو إلى كائن رسومي.
+description: توفير طرق لتصيير فردOfficeMath../aspose.words.math/officemath/ إلى صورة نقطية أو متجهة أو إلى كائن رسومي.
 type: docs
 weight: 4300
 url: /ar/net/aspose.words.rendering/officemathrenderer/
 ---
 ## OfficeMathRenderer class
 
-توفير طرق لتصيير فرد[`OfficeMath`](../../aspose.words.math/officemath) إلى صورة نقطية أو متجهة أو إلى كائن رسومي.
+توفير طرق لتصيير فرد[`OfficeMath`](../../aspose.words.math/officemath/) إلى صورة نقطية أو متجهة أو إلى كائن رسومي.
 
 ```csharp
 public class OfficeMathRenderer : NodeRendererBase
@@ -18,30 +18,30 @@ public class OfficeMathRenderer : NodeRendererBase
 
 | اسم | وصف |
 | --- | --- |
-| [OfficeMathRenderer](officemathrenderer)(OfficeMath) | تهيئة مثيل جديد لهذه الفئة. |
+| [OfficeMathRenderer](officemathrenderer/)(OfficeMath) | تهيئة مثيل جديد لهذه الفئة. |
 
 ## الخصائص
 
 | اسم | وصف |
 | --- | --- |
-| [BoundsInPoints](../../aspose.words.rendering/noderendererbase/boundsinpoints) { get; } | يحصل على الحدود الفعلية للشكل بالنقاط . |
-| [OpaqueBoundsInPoints](../../aspose.words.rendering/noderendererbase/opaqueboundsinpoints) { get; } | يحصل على الحدود المعتمة للشكل بالنقاط . |
-| [SizeInPoints](../../aspose.words.rendering/noderendererbase/sizeinpoints) { get; } | الحصول على الحجم الفعلي للشكل بالنقاط . |
+| [BoundsInPoints](../../aspose.words.rendering/noderendererbase/boundsinpoints/) { get; } | يحصل على الحدود الفعلية للشكل بالنقاط . |
+| [OpaqueBoundsInPoints](../../aspose.words.rendering/noderendererbase/opaqueboundsinpoints/) { get; } | يحصل على الحدود المعتمة للشكل بالنقاط . |
+| [SizeInPoints](../../aspose.words.rendering/noderendererbase/sizeinpoints/) { get; } | الحصول على الحجم الفعلي للشكل بالنقاط . |
 
 ## طُرق
 
 | اسم | وصف |
 | --- | --- |
-| [GetBoundsInPixels](../../aspose.words.rendering/noderendererbase/getboundsinpixels)(float, float) | حساب حدود الشكل بالبكسل لعامل تكبير ودقة محددين . |
-| [GetBoundsInPixels](../../aspose.words.rendering/noderendererbase/getboundsinpixels)(float, float, float) | حساب حدود الشكل بالبكسل لعامل تكبير ودقة محددين . |
-| [GetOpaqueBoundsInPixels](../../aspose.words.rendering/noderendererbase/getopaqueboundsinpixels)(float, float) | لحساب الحدود المعتمة للشكل بالبكسل لعامل تكبير ودقة محددين . |
-| [GetOpaqueBoundsInPixels](../../aspose.words.rendering/noderendererbase/getopaqueboundsinpixels)(float, float, float) | لحساب الحدود المعتمة للشكل بالبكسل لعامل تكبير ودقة محددين . |
-| [GetSizeInPixels](../../aspose.words.rendering/noderendererbase/getsizeinpixels)(float, float) | حساب حجم الشكل بالبكسل لعامل تكبير ودقة محددين . |
-| [GetSizeInPixels](../../aspose.words.rendering/noderendererbase/getsizeinpixels)(float, float, float) | حساب حجم الشكل بالبكسل لعامل تكبير ودقة محددين . |
-| [RenderToScale](../../aspose.words.rendering/noderendererbase/rendertoscale)(Graphics, float, float, float) | يجعل الشكل في ملفGraphics كائن إلى مقياس محدد . |
-| [RenderToSize](../../aspose.words.rendering/noderendererbase/rendertosize)(Graphics, float, float, float, float) | يجعل الشكل في ملفGraphics كائن لحجم محدد . |
-| [Save](../../aspose.words.rendering/noderendererbase/save)(Stream, ImageSaveOptions) | يجسد الشكل في صورة ويحفظ في تدفق . |
-| [Save](../../aspose.words.rendering/noderendererbase/save)(string, ImageSaveOptions) | يعرض الشكل في صورة وحفظه في ملف. |
+| [GetBoundsInPixels](../../aspose.words.rendering/noderendererbase/getboundsinpixels/)(float, float) | حساب حدود الشكل بالبكسل لعامل تكبير ودقة محددين . |
+| [GetBoundsInPixels](../../aspose.words.rendering/noderendererbase/getboundsinpixels/)(float, float, float) | حساب حدود الشكل بالبكسل لعامل تكبير ودقة محددين . |
+| [GetOpaqueBoundsInPixels](../../aspose.words.rendering/noderendererbase/getopaqueboundsinpixels/)(float, float) | لحساب الحدود المعتمة للشكل بالبكسل لعامل تكبير ودقة محددين . |
+| [GetOpaqueBoundsInPixels](../../aspose.words.rendering/noderendererbase/getopaqueboundsinpixels/)(float, float, float) | لحساب الحدود المعتمة للشكل بالبكسل لعامل تكبير ودقة محددين . |
+| [GetSizeInPixels](../../aspose.words.rendering/noderendererbase/getsizeinpixels/)(float, float) | حساب حجم الشكل بالبكسل لعامل تكبير ودقة محددين . |
+| [GetSizeInPixels](../../aspose.words.rendering/noderendererbase/getsizeinpixels/)(float, float, float) | حساب حجم الشكل بالبكسل لعامل تكبير ودقة محددين . |
+| [RenderToScale](../../aspose.words.rendering/noderendererbase/rendertoscale/)(Graphics, float, float, float) | يجعل الشكل في ملفGraphics كائن إلى مقياس محدد . |
+| [RenderToSize](../../aspose.words.rendering/noderendererbase/rendertosize/)(Graphics, float, float, float, float) | يجعل الشكل في ملفGraphics كائن لحجم محدد . |
+| [Save](../../aspose.words.rendering/noderendererbase/save/)(Stream, ImageSaveOptions) | يجسد الشكل في صورة ويحفظ في تدفق . |
+| [Save](../../aspose.words.rendering/noderendererbase/save/)(string, ImageSaveOptions) | يعرض الشكل في صورة وحفظه في ملف. |
 
 ### أمثلة
 
@@ -89,8 +89,8 @@ Assert.AreEqual(30, bounds.Height);
 
 ### أنظر أيضا
 
-* class [NodeRendererBase](../noderendererbase)
-* مساحة الاسم [Aspose.Words.Rendering](../../aspose.words.rendering)
+* class [NodeRendererBase](../noderendererbase/)
+* مساحة الاسم [Aspose.Words.Rendering](../../aspose.words.rendering/)
 * المجسم [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->
