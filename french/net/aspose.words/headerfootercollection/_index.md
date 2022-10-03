@@ -1,14 +1,14 @@
 ---
 title: HeaderFooterCollection
 second_title: Référence de l'API Aspose.Words pour .NET
-description: Fournit un accès typé àHeaderFooter./headerfooter noeuds dun Section .
+description: Fournit un accès typé àHeaderFooter./headerfooter/ noeuds dun Section .
 type: docs
 weight: 2930
 url: /fr/net/aspose.words/headerfootercollection/
 ---
 ## HeaderFooterCollection class
 
-Fournit un accès typé à[`HeaderFooter`](../headerfooter) noeuds d'un **Section** .
+Fournit un accès typé à[`HeaderFooter`](../headerfooter/) noeuds d'un **Section** .
 
 ```csharp
 public class HeaderFooterCollection : NodeCollection
@@ -18,30 +18,30 @@ public class HeaderFooterCollection : NodeCollection
 
 | Nom | La description |
 | --- | --- |
-| [Count](../../aspose.words/nodecollection/count) { get; } | Obtient le nombre de nœuds dans la collection. |
-| [Item](../../aspose.words/headerfootercollection/item) { get; } | Récupère un **En-têtePied de page** à l'index donné. (3 indexers) |
+| [Count](../../aspose.words/nodecollection/count/) { get; } | Obtient le nombre de nœuds dans la collection. |
+| [Item](../../aspose.words/headerfootercollection/item/) { get; } | Récupère un **En-têtePied de page** à l'index donné. (3 indexers) |
 
 ## Méthodes
 
 | Nom | La description |
 | --- | --- |
-| [Add](../../aspose.words/nodecollection/add)(Node) | Ajoute un nœud à la fin de la collection. |
-| [Clear](../../aspose.words/nodecollection/clear)() | Supprime tous les nœuds de cette collection et du document. |
-| [Contains](../../aspose.words/nodecollection/contains)(Node) | Détermine si un nœud est dans la collection. |
-| [GetEnumerator](../../aspose.words/nodecollection/getenumerator)() | Fournit une simple itération de style "foreach" sur la collection de nœuds. |
-| [IndexOf](../../aspose.words/nodecollection/indexof)(Node) | Renvoie l'index de base zéro du nœud spécifié. |
-| [Insert](../../aspose.words/nodecollection/insert)(int, Node) | Insère un nœud dans la collection à l'index spécifié. |
-| [LinkToPrevious](../../aspose.words/headerfootercollection/linktoprevious#linktoprevious_1)(bool) | Lie ou dissocie tous les en-têtes et pieds de page aux en-têtes et pieds de page correspondants dans la section précédente. |
-| [LinkToPrevious](../../aspose.words/headerfootercollection/linktoprevious#linktoprevious)(HeaderFooterType, bool) | Lie ou dissocie l'en-tête ou le pied de page spécifié de l'en-tête ou du pied de page correspondant dans la section précédente. |
-| [Remove](../../aspose.words/nodecollection/remove)(Node) | Supprime le nœud de la collection et du document. |
-| [RemoveAt](../../aspose.words/nodecollection/removeat)(int) | Supprime le nœud à l'index spécifié de la collection et du document. |
-| [ToArray](../../aspose.words/headerfootercollection/toarray#toarray)() | Copie tout`En-têtePied de page` s de la collection à un nouveau tableau de`En-têtePied de page` s. (2 methods) |
+| [Add](../../aspose.words/nodecollection/add/)(Node) | Ajoute un nœud à la fin de la collection. |
+| [Clear](../../aspose.words/nodecollection/clear/)() | Supprime tous les nœuds de cette collection et du document. |
+| [Contains](../../aspose.words/nodecollection/contains/)(Node) | Détermine si un nœud est dans la collection. |
+| [GetEnumerator](../../aspose.words/nodecollection/getenumerator/)() | Fournit une simple itération de style "foreach" sur la collection de nœuds. |
+| [IndexOf](../../aspose.words/nodecollection/indexof/)(Node) | Renvoie l'index de base zéro du nœud spécifié. |
+| [Insert](../../aspose.words/nodecollection/insert/)(int, Node) | Insère un nœud dans la collection à l'index spécifié. |
+| [LinkToPrevious](../../aspose.words/headerfootercollection/linktoprevious/#linktoprevious_1)(bool) | Lie ou dissocie tous les en-têtes et pieds de page aux en-têtes et pieds de page correspondants dans la section précédente. |
+| [LinkToPrevious](../../aspose.words/headerfootercollection/linktoprevious/#linktoprevious)(HeaderFooterType, bool) | Lie ou dissocie l'en-tête ou le pied de page spécifié de l'en-tête ou du pied de page correspondant dans la section précédente. |
+| [Remove](../../aspose.words/nodecollection/remove/)(Node) | Supprime le nœud de la collection et du document. |
+| [RemoveAt](../../aspose.words/nodecollection/removeat/)(int) | Supprime le nœud à l'index spécifié de la collection et du document. |
+| [ToArray](../../aspose.words/headerfootercollection/toarray/#toarray)() | Copie tout`En-têtePied de page` s de la collection à un nouveau tableau de`En-têtePied de page` s. (2 methods) |
 
 ### Remarques
 
 Il peut y avoir au maximum un **En-têtePied de page**
 
-de chaque[`HeaderFooterType`](../headerfootertype) par  **Section** .
+de chaque[`HeaderFooterType`](../headerfootertype/) par  **Section** .
 
 **En-têtePied de page** les objets peuvent apparaître dans n'importe quel ordre dans la collection.
 
@@ -108,8 +108,8 @@ doc.Save(ArtifactsDir + "HeaderFooter.Create.docx");
 
 ### Voir également
 
-* class [NodeCollection](../nodecollection)
-* espace de noms [Aspose.Words](../../aspose.words)
+* class [NodeCollection](../nodecollection/)
+* espace de noms [Aspose.Words](../../aspose.words/)
 * Assemblée [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

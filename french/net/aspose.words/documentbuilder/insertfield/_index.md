@@ -21,11 +21,11 @@ public Field InsertField(FieldType fieldType, bool updateField)
 
 ### Return_Value
 
-UN[`Field`](../../../aspose.words.fields/field) objet qui représente le champ inséré.
+UN[`Field`](../../../aspose.words.fields/field/) objet qui représente le champ inséré.
 
 ### Remarques
 
-Cette méthode insère un champ dans un document. Aspose.Words peut mettre à jour les champs de la plupart des types, mais pas tous. Pour plus de détails, voir the [`InsertField`](../insertfield) surcharge.
+Cette méthode insère un champ dans un document. Aspose.Words peut mettre à jour les champs de la plupart des types, mais pas tous. Pour plus de détails, voir the [`InsertField`](./insertfield/) surcharge.
 
 ### Exemples
 
@@ -71,10 +71,10 @@ else
 
 ### Voir également
 
-* class [Field](../../../aspose.words.fields/field)
-* enum [FieldType](../../../aspose.words.fields/fieldtype)
-* class [DocumentBuilder](../../documentbuilder)
-* espace de noms [Aspose.Words](../../documentbuilder)
+* class [Field](../../../aspose.words.fields/field/)
+* enum [FieldType](../../../aspose.words.fields/fieldtype/)
+* class [DocumentBuilder](../)
+* espace de noms [Aspose.Words](../../documentbuilder/)
 * Assemblée [Aspose.Words](../../../)
 
 ---
@@ -93,11 +93,11 @@ public Field InsertField(string fieldCode)
 
 ### Return_Value
 
-UN[`Field`](../../../aspose.words.fields/field) objet qui représente le champ inséré.
+UN[`Field`](../../../aspose.words.fields/field/) objet qui représente le champ inséré.
 
 ### Remarques
 
-Cette méthode insère un champ dans un document et met à jour le résultat du champ immédiatement. Aspose.Words peut mettre à jour les champs de la plupart des types, mais pas tous. Pour plus de détails, voir the [`InsertField`](../insertfield) surcharge.
+Cette méthode insère un champ dans un document et met à jour le résultat du champ immédiatement. Aspose.Words peut mettre à jour les champs de la plupart des types, mais pas tous. Pour plus de détails, voir the [`InsertField`](./insertfield/) surcharge.
 
 ### Exemples
 
@@ -142,9 +142,9 @@ doc.Save(ArtifactsDir + "DocumentBuilder.MergeFields.docx");
 
 ### Voir également
 
-* class [Field](../../../aspose.words.fields/field)
-* class [DocumentBuilder](../../documentbuilder)
-* espace de noms [Aspose.Words](../../documentbuilder)
+* class [Field](../../../aspose.words.fields/field/)
+* class [DocumentBuilder](../)
+* espace de noms [Aspose.Words](../../documentbuilder/)
 * Assemblée [Aspose.Words](../../../)
 
 ---
@@ -164,7 +164,7 @@ public Field InsertField(string fieldCode, string fieldValue)
 
 ### Return_Value
 
-UN[`Field`](../../../aspose.words.fields/field) objet qui représente le champ inséré.
+UN[`Field`](../../../aspose.words.fields/field/) objet qui représente le champ inséré.
 
 ### Remarques
 
@@ -174,7 +174,7 @@ Vous pouvez basculer entre l'affichage des codes de champ et des résultats dans
 
 Pour créer un champ, vous devez spécifier un type de champ, un code de champ et une valeur de champ "espace réservé". Si vous n'êtes pas sûr de la syntaxe d'un code de champ particulier, créez le champ dans Microsoft Word first et basculez pour voir son code de champ .
 
-Aspose.Words peut calculer les résultats de champ pour la plupart des types de champs, mais cette méthode ne met pas automatiquement à jour le résultat de champ. Étant donné que le résultat du champ n'est pas calculé automatiquement, vous devez transmettre une valeur de chaîne (ou même une chaîne vide) qui sera insérée dans le résultat du champ. Cette valeur restera dans le résultat du champ en tant qu'espace réservé jusqu'à ce que le champ soit updated. Pour mettre à jour le résultat du champ, vous pouvez appeler[`Update`](../../../aspose.words.fields/field/update)sur l'objet de terrain qui vous a été renvoyé ou[`UpdateFields`](../../document/updatefields) pour mettre à jour les champs dans tout le document.
+Aspose.Words peut calculer les résultats de champ pour la plupart des types de champs, mais cette méthode ne met pas automatiquement à jour le résultat de champ. Étant donné que le résultat du champ n'est pas calculé automatiquement, vous devez transmettre une valeur de chaîne (ou même une chaîne vide) qui sera insérée dans le résultat du champ. Cette valeur restera dans le résultat du champ en tant qu'espace réservé jusqu'à ce que le champ soit updated. Pour mettre à jour le résultat du champ, vous pouvez appeler[`Update`](../../../aspose.words.fields/field/update/)sur l'objet de terrain qui vous a été renvoyé ou[`UpdateFields`](../../document/updatefields/) pour mettre à jour les champs dans tout le document.
 
 ### Exemples
 
@@ -232,9 +232,9 @@ doc.Save(ArtifactsDir + "PageSetup.PageNumbering.docx");
 
 ### Voir également
 
-* class [Field](../../../aspose.words.fields/field)
-* class [DocumentBuilder](../../documentbuilder)
-* espace de noms [Aspose.Words](../../documentbuilder)
+* class [Field](../../../aspose.words.fields/field/)
+* class [DocumentBuilder](../)
+* espace de noms [Aspose.Words](../../documentbuilder/)
 * Assemblée [Aspose.Words](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

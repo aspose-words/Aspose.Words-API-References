@@ -18,42 +18,42 @@ public class FieldDatabase : Field
 
 | Nom | La description |
 | --- | --- |
-| [FieldDatabase](fielddatabase)() | Default_Constructor |
+| [FieldDatabase](fielddatabase/)() | Default_Constructor |
 
 ## Propriétés
 
 | Nom | La description |
 | --- | --- |
-| [Connection](../../aspose.words.fields/fielddatabase/connection) { get; set; } | Obtient ou définit une connexion aux données. |
-| [DisplayResult](../../aspose.words.fields/field/displayresult) { get; } | Obtient le texte qui représente le résultat du champ affiché. |
-| [End](../../aspose.words.fields/field/end) { get; } | Obtient le nœud qui représente la fin du champ. |
-| [FileName](../../aspose.words.fields/fielddatabase/filename) { get; set; } | Obtient ou définit le chemin complet et le nom de fichier de la base de données |
-| [FirstRecord](../../aspose.words.fields/fielddatabase/firstrecord) { get; set; } | Obtient ou définit le numéro d'enregistrement intégral du premier enregistrement de données à insérer. |
-| [Format](../../aspose.words.fields/field/format) { get; } | Obtient un[`FieldFormat`](../fieldformat) objet qui fournit un accès typé au formatage du champ. |
-| [FormatAttributes](../../aspose.words.fields/fielddatabase/formatattributes) { get; set; } | Obtient ou définit les attributs du format à appliquer à la table. |
-| [InsertHeadings](../../aspose.words.fields/fielddatabase/insertheadings) { get; set; } | Obtient ou définit s'il faut insérer les noms de champ de la base de données en tant qu'en-têtes de colonne dans la table résultante. |
-| [InsertOnceOnMailMerge](../../aspose.words.fields/fielddatabase/insertonceonmailmerge) { get; set; } | Obtient ou définit s'il faut insérer des données au début d'une fusion. |
-| [IsDirty](../../aspose.words.fields/field/isdirty) { get; set; } | Obtient ou définit si le résultat actuel du champ n'est plus correct (périmé) en raison d'autres modifications apportées au document. |
-| [IsLocked](../../aspose.words.fields/field/islocked) { get; set; } | Obtient ou définit si le champ est verrouillé (ne doit pas recalculer son résultat). |
-| [LastRecord](../../aspose.words.fields/fielddatabase/lastrecord) { get; set; } | Obtient ou définit le numéro d'enregistrement intégral du dernier enregistrement de données à insérer. |
-| [LocaleId](../../aspose.words.fields/field/localeid) { get; set; } | Obtient ou définit le LCID du champ. |
-| [Query](../../aspose.words.fields/fielddatabase/query) { get; set; } | Obtient ou définit un ensemble d'instructions SQL qui interrogent la base de données. |
-| [Result](../../aspose.words.fields/field/result) { get; set; } | Obtient ou définit le texte qui se trouve entre le séparateur de champ et la fin du champ. |
-| [Separator](../../aspose.words.fields/field/separator) { get; } | Obtient le nœud qui représente le séparateur de champs. Peut être null. |
-| [Start](../../aspose.words.fields/field/start) { get; } | Obtient le nœud qui représente le début du champ. |
-| [TableFormat](../../aspose.words.fields/fielddatabase/tableformat) { get; set; } | Obtient ou définit le format à appliquer au résultat de la requête de base de données. |
-| virtual [Type](../../aspose.words.fields/field/type) { get; } | Obtient le type de champ Microsoft Word. |
+| [Connection](../../aspose.words.fields/fielddatabase/connection/) { get; set; } | Obtient ou définit une connexion aux données. |
+| [DisplayResult](../../aspose.words.fields/field/displayresult/) { get; } | Obtient le texte qui représente le résultat du champ affiché. |
+| [End](../../aspose.words.fields/field/end/) { get; } | Obtient le nœud qui représente la fin du champ. |
+| [FileName](../../aspose.words.fields/fielddatabase/filename/) { get; set; } | Obtient ou définit le chemin complet et le nom de fichier de la base de données |
+| [FirstRecord](../../aspose.words.fields/fielddatabase/firstrecord/) { get; set; } | Obtient ou définit le numéro d'enregistrement intégral du premier enregistrement de données à insérer. |
+| [Format](../../aspose.words.fields/field/format/) { get; } | Obtient un[`FieldFormat`](../fieldformat/) objet qui fournit un accès typé au formatage du champ. |
+| [FormatAttributes](../../aspose.words.fields/fielddatabase/formatattributes/) { get; set; } | Obtient ou définit les attributs du format à appliquer à la table. |
+| [InsertHeadings](../../aspose.words.fields/fielddatabase/insertheadings/) { get; set; } | Obtient ou définit s'il faut insérer les noms de champ de la base de données en tant qu'en-têtes de colonne dans la table résultante. |
+| [InsertOnceOnMailMerge](../../aspose.words.fields/fielddatabase/insertonceonmailmerge/) { get; set; } | Obtient ou définit s'il faut insérer des données au début d'une fusion. |
+| [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | Obtient ou définit si le résultat actuel du champ n'est plus correct (périmé) en raison d'autres modifications apportées au document. |
+| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | Obtient ou définit si le champ est verrouillé (ne doit pas recalculer son résultat). |
+| [LastRecord](../../aspose.words.fields/fielddatabase/lastrecord/) { get; set; } | Obtient ou définit le numéro d'enregistrement intégral du dernier enregistrement de données à insérer. |
+| [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | Obtient ou définit le LCID du champ. |
+| [Query](../../aspose.words.fields/fielddatabase/query/) { get; set; } | Obtient ou définit un ensemble d'instructions SQL qui interrogent la base de données. |
+| [Result](../../aspose.words.fields/field/result/) { get; set; } | Obtient ou définit le texte qui se trouve entre le séparateur de champ et la fin du champ. |
+| [Separator](../../aspose.words.fields/field/separator/) { get; } | Obtient le nœud qui représente le séparateur de champs. Peut être null. |
+| [Start](../../aspose.words.fields/field/start/) { get; } | Obtient le nœud qui représente le début du champ. |
+| [TableFormat](../../aspose.words.fields/fielddatabase/tableformat/) { get; set; } | Obtient ou définit le format à appliquer au résultat de la requête de base de données. |
+| virtual [Type](../../aspose.words.fields/field/type/) { get; } | Obtient le type de champ Microsoft Word. |
 
 ## Méthodes
 
 | Nom | La description |
 | --- | --- |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode)() | Renvoie le texte entre le début du champ et le séparateur de champ (ou la fin du champ s'il n'y a pas de séparateur). Le code de champ et le résultat du champ des champs enfants sont inclus. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode)(bool) | Renvoie le texte entre le début du champ et le séparateur de champ (ou la fin du champ s'il n'y a pas de séparateur). |
-| [Remove](../../aspose.words.fields/field/remove)() | Supprime le champ du document. Renvoie un nœud juste après le champ. Si la fin du champ est le dernier enfant de son nœud parent, renvoie son paragraphe parent. Si le champ est déjà supprimé, renvoie **nul** . |
-| [Unlink](../../aspose.words.fields/field/unlink)() | Effectue la dissociation du champ. |
-| [Update](../../aspose.words.fields/field/update)() | Effectue la mise à jour du champ. Lance si le champ est déjà mis à jour. |
-| [Update](../../aspose.words.fields/field/update)(bool) | Effectue une mise à jour du champ. Lance si le champ est déjà mis à jour. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Renvoie le texte entre le début du champ et le séparateur de champ (ou la fin du champ s'il n'y a pas de séparateur). Le code de champ et le résultat du champ des champs enfants sont inclus. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Renvoie le texte entre le début du champ et le séparateur de champ (ou la fin du champ s'il n'y a pas de séparateur). |
+| [Remove](../../aspose.words.fields/field/remove/)() | Supprime le champ du document. Renvoie un nœud juste après le champ. Si la fin du champ est le dernier enfant de son nœud parent, renvoie son paragraphe parent. Si le champ est déjà supprimé, renvoie **nul** . |
+| [Unlink](../../aspose.words.fields/field/unlink/)() | Effectue la dissociation du champ. |
+| [Update](../../aspose.words.fields/field/update/)() | Effectue la mise à jour du champ. Lance si le champ est déjà mis à jour. |
+| [Update](../../aspose.words.fields/field/update/)(bool) | Effectue une mise à jour du champ. Lance si le champ est déjà mis à jour. |
 
 ### Remarques
 
@@ -110,8 +110,8 @@ doc.Save(ArtifactsDir + "Field.DATABASE.docx");
 
 ### Voir également
 
-* class [Field](../field)
-* espace de noms [Aspose.Words.Fields](../../aspose.words.fields)
+* class [Field](../field/)
+* espace de noms [Aspose.Words.Fields](../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

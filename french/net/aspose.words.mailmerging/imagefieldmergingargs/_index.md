@@ -1,14 +1,14 @@
 ---
 title: ImageFieldMergingArgs
 second_title: Référence de l'API Aspose.Words pour .NET
-description: Fournit des données pour leImageFieldMerging./ifieldmergingcallback/imagefieldmerging événement.
+description: Fournit des données pour leImageFieldMerging./ifieldmergingcallback/imagefieldmerging/ événement.
 type: docs
 weight: 3610
 url: /fr/net/aspose.words.mailmerging/imagefieldmergingargs/
 ---
 ## ImageFieldMergingArgs class
 
-Fournit des données pour le[`ImageFieldMerging`](../ifieldmergingcallback/imagefieldmerging) événement.
+Fournit des données pour le[`ImageFieldMerging`](../ifieldmergingcallback/imagefieldmerging/) événement.
 
 ```csharp
 public class ImageFieldMergingArgs : FieldMergingArgsBase
@@ -18,25 +18,25 @@ public class ImageFieldMergingArgs : FieldMergingArgsBase
 
 | Nom | La description |
 | --- | --- |
-| [Document](../../aspose.words.mailmerging/fieldmergingargsbase/document) { get; } | Renvoie le[`Document`](../fieldmergingargsbase/document) objet pour lequel le publipostage est effectué. |
-| [DocumentFieldName](../../aspose.words.mailmerging/fieldmergingargsbase/documentfieldname) { get; } | Obtient le nom du champ de fusion tel que spécifié dans le document. |
-| [Field](../../aspose.words.mailmerging/fieldmergingargsbase/field) { get; } | Obtient l'objet qui représente le champ de fusion actuel. |
-| [FieldName](../../aspose.words.mailmerging/fieldmergingargsbase/fieldname) { get; } | Obtient le nom du champ de fusion dans la source de données. |
-| [FieldValue](../../aspose.words.mailmerging/fieldmergingargsbase/fieldvalue) { get; set; } | Obtient ou définit la valeur du champ à partir de la source de données. |
-| [Image](../../aspose.words.mailmerging/imagefieldmergingargs/image) { get; set; } | Spécifie l'image que le moteur de publipostage doit insérer dans le document. |
-| [ImageFileName](../../aspose.words.mailmerging/imagefieldmergingargs/imagefilename) { get; set; } | Définit le nom de fichier de l'image que le moteur de publipostage doit insérer dans le document. |
-| [ImageHeight](../../aspose.words.mailmerging/imagefieldmergingargs/imageheight) { get; set; } | Spécifie la hauteur de l'image à insérer dans le document. |
-| [ImageStream](../../aspose.words.mailmerging/imagefieldmergingargs/imagestream) { get; set; } | Spécifie le flux à partir duquel le moteur de publipostage lit une image. |
-| [ImageWidth](../../aspose.words.mailmerging/imagefieldmergingargs/imagewidth) { get; set; } | Spécifie la largeur de l'image à insérer dans le document. |
-| [RecordIndex](../../aspose.words.mailmerging/fieldmergingargsbase/recordindex) { get; } | Obtient l'index de base zéro de l'enregistrement en cours de fusion. |
-| [Shape](../../aspose.words.mailmerging/imagefieldmergingargs/shape) { get; set; } | Spécifie la forme que le moteur de publipostage doit insérer dans le document. |
-| [TableName](../../aspose.words.mailmerging/fieldmergingargsbase/tablename) { get; } | Obtient le nom de la table de données pour l'opération de fusion en cours ou une chaîne vide si le nom n'est pas disponible. |
+| [Document](../../aspose.words.mailmerging/fieldmergingargsbase/document/) { get; } | Renvoie le[`Document`](../fieldmergingargsbase/document/) objet pour lequel le publipostage est effectué. |
+| [DocumentFieldName](../../aspose.words.mailmerging/fieldmergingargsbase/documentfieldname/) { get; } | Obtient le nom du champ de fusion tel que spécifié dans le document. |
+| [Field](../../aspose.words.mailmerging/fieldmergingargsbase/field/) { get; } | Obtient l'objet qui représente le champ de fusion actuel. |
+| [FieldName](../../aspose.words.mailmerging/fieldmergingargsbase/fieldname/) { get; } | Obtient le nom du champ de fusion dans la source de données. |
+| [FieldValue](../../aspose.words.mailmerging/fieldmergingargsbase/fieldvalue/) { get; set; } | Obtient ou définit la valeur du champ à partir de la source de données. |
+| [Image](../../aspose.words.mailmerging/imagefieldmergingargs/image/) { get; set; } | Spécifie l'image que le moteur de publipostage doit insérer dans le document. |
+| [ImageFileName](../../aspose.words.mailmerging/imagefieldmergingargs/imagefilename/) { get; set; } | Définit le nom de fichier de l'image que le moteur de publipostage doit insérer dans le document. |
+| [ImageHeight](../../aspose.words.mailmerging/imagefieldmergingargs/imageheight/) { get; set; } | Spécifie la hauteur de l'image à insérer dans le document. |
+| [ImageStream](../../aspose.words.mailmerging/imagefieldmergingargs/imagestream/) { get; set; } | Spécifie le flux à partir duquel le moteur de publipostage lit une image. |
+| [ImageWidth](../../aspose.words.mailmerging/imagefieldmergingargs/imagewidth/) { get; set; } | Spécifie la largeur de l'image à insérer dans le document. |
+| [RecordIndex](../../aspose.words.mailmerging/fieldmergingargsbase/recordindex/) { get; } | Obtient l'index de base zéro de l'enregistrement en cours de fusion. |
+| [Shape](../../aspose.words.mailmerging/imagefieldmergingargs/shape/) { get; set; } | Spécifie la forme que le moteur de publipostage doit insérer dans le document. |
+| [TableName](../../aspose.words.mailmerging/fieldmergingargsbase/tablename/) { get; } | Obtient le nom de la table de données pour l'opération de fusion en cours ou une chaîne vide si le nom n'est pas disponible. |
 
 ### Remarques
 
 Cet événement se produit lors du publipostage lorsqu'un champ image mail merge est rencontré dans le document. Vous pouvez répondre à cet événement pour renvoyer un nom de fichier, un flux ou unImage objet au moteur de publipostage afin qu'il soit inséré dans le document.
 
-Il y a trois propriétés disponibles[`ImageFileName`](./imagefilename) , [`ImageStream`](./imagestream) et[`Image`](./image) pour spécifier d'où l'image doit être prise. Définissez une seule de ces propriétés.
+Il y a trois propriétés disponibles[`ImageFileName`](./imagefilename/) , [`ImageStream`](./imagestream/) et[`Image`](./image/) pour spécifier d'où l'image doit être prise. Définissez une seule de ces propriétés.
 
 Pour insérer un champ de fusion et publipostage d'image dans un document dans Word, sélectionnez la commande Insert/Field, puis sélectionnez MergeField et tapez Image:MyFieldName.
 
@@ -150,8 +150,8 @@ private class MergedImageResizer : IFieldMergingCallback
 
 ### Voir également
 
-* class [FieldMergingArgsBase](../fieldmergingargsbase)
-* espace de noms [Aspose.Words.MailMerging](../../aspose.words.mailmerging)
+* class [FieldMergingArgsBase](../fieldmergingargsbase/)
+* espace de noms [Aspose.Words.MailMerging](../../aspose.words.mailmerging/)
 * Assemblée [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

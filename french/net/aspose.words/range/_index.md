@@ -18,25 +18,25 @@ public class Range
 
 | Nom | La description |
 | --- | --- |
-| [Bookmarks](../../aspose.words/range/bookmarks) { get; } | Renvoie un[`Bookmarks`](./bookmarks) collection qui représente tous les signets de la plage. |
-| [Fields](../../aspose.words/range/fields) { get; } | Renvoie un[`Fields`](./fields) collection qui représente tous les champs de la plage. |
-| [FormFields](../../aspose.words/range/formfields) { get; } | Renvoie un[`FormFields`](./formfields) collection qui représente tous les champs de formulaire de la plage. |
-| [StructuredDocumentTags](../../aspose.words/range/structureddocumenttags) { get; } | Renvoie un[`StructuredDocumentTags`](./structureddocumenttags) collection qui représente toutes les balises de document structuré de la plage. |
-| [Text](../../aspose.words/range/text) { get; } | Obtient le texte de la plage. |
+| [Bookmarks](../../aspose.words/range/bookmarks/) { get; } | Renvoie un[`Bookmarks`](./bookmarks/) collection qui représente tous les signets de la plage. |
+| [Fields](../../aspose.words/range/fields/) { get; } | Renvoie un[`Fields`](./fields/) collection qui représente tous les champs de la plage. |
+| [FormFields](../../aspose.words/range/formfields/) { get; } | Renvoie un[`FormFields`](./formfields/) collection qui représente tous les champs de formulaire de la plage. |
+| [StructuredDocumentTags](../../aspose.words/range/structureddocumenttags/) { get; } | Renvoie un[`StructuredDocumentTags`](./structureddocumenttags/) collection qui représente toutes les balises de document structuré de la plage. |
+| [Text](../../aspose.words/range/text/) { get; } | Obtient le texte de la plage. |
 
 ## Méthodes
 
 | Nom | La description |
 | --- | --- |
-| [Delete](../../aspose.words/range/delete)() | Supprime tous les caractères de la plage. |
-| [NormalizeFieldTypes](../../aspose.words/range/normalizefieldtypes)() | Modifie les valeurs de type de champ[`FieldType`](../../aspose.words.fields/fieldchar/fieldtype) de[`FieldStart`](../../aspose.words.fields/fieldstart) ,[`FieldSeparator`](../../aspose.words.fields/fieldseparator) ,[`FieldEnd`](../../aspose.words.fields/fieldend) dans cette plage afin qu'ils correspondent aux types de champs contenus dans les codes de champs. |
-| [Replace](../../aspose.words/range/replace#replace_2)(Regex, string) | Remplace toutes les occurrences d'un modèle de caractère spécifié par une expression régulière par une autre chaîne. |
-| [Replace](../../aspose.words/range/replace#replace)(string, string) | Remplace toutes les occurrences d'un modèle de chaîne de caractères spécifié par une chaîne de remplacement. |
-| [Replace](../../aspose.words/range/replace#replace_3)(Regex, string, FindReplaceOptions) | Remplace toutes les occurrences d'un modèle de caractère spécifié par une expression régulière par une autre chaîne. |
-| [Replace](../../aspose.words/range/replace#replace_1)(string, string, FindReplaceOptions) | Remplace toutes les occurrences d'un modèle de chaîne de caractères spécifié par une chaîne de remplacement. |
-| [ToDocument](../../aspose.words/range/todocument)() | Construit un nouveau document entièrement formé qui contient la plage. |
-| [UnlinkFields](../../aspose.words/range/unlinkfields)() | Dissocie les champs de cette plage. |
-| [UpdateFields](../../aspose.words/range/updatefields)() | Met à jour les valeurs des champs de document dans cette plage. |
+| [Delete](../../aspose.words/range/delete/)() | Supprime tous les caractères de la plage. |
+| [NormalizeFieldTypes](../../aspose.words/range/normalizefieldtypes/)() | Modifie les valeurs de type de champ[`FieldType`](../../aspose.words.fields/fieldchar/fieldtype/) de[`FieldStart`](../../aspose.words.fields/fieldstart/) ,[`FieldSeparator`](../../aspose.words.fields/fieldseparator/) ,[`FieldEnd`](../../aspose.words.fields/fieldend/) dans cette plage afin qu'ils correspondent aux types de champs contenus dans les codes de champs. |
+| [Replace](../../aspose.words/range/replace/#replace_2)(Regex, string) | Remplace toutes les occurrences d'un modèle de caractère spécifié par une expression régulière par une autre chaîne. |
+| [Replace](../../aspose.words/range/replace/#replace)(string, string) | Remplace toutes les occurrences d'un modèle de chaîne de caractères spécifié par une chaîne de remplacement. |
+| [Replace](../../aspose.words/range/replace/#replace_3)(Regex, string, FindReplaceOptions) | Remplace toutes les occurrences d'un modèle de caractère spécifié par une expression régulière par une autre chaîne. |
+| [Replace](../../aspose.words/range/replace/#replace_1)(string, string, FindReplaceOptions) | Remplace toutes les occurrences d'un modèle de chaîne de caractères spécifié par une chaîne de remplacement. |
+| [ToDocument](../../aspose.words/range/todocument/)() | Construit un nouveau document entièrement formé qui contient la plage. |
+| [UnlinkFields](../../aspose.words/range/unlinkfields/)() | Dissocie les champs de cette plage. |
+| [UpdateFields](../../aspose.words/range/updatefields/)() | Met à jour les valeurs des champs de document dans cette plage. |
 
 ### Remarques
 
@@ -61,7 +61,7 @@ Assert.AreEqual("Hello world!", doc.Range.Text.Trim());
 
 ### Voir également
 
-* espace de noms [Aspose.Words](../../aspose.words)
+* espace de noms [Aspose.Words](../../aspose.words/)
 * Assemblée [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

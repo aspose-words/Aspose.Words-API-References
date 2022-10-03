@@ -26,14 +26,14 @@ Le nœud d'image qui vient d'être inséré.
 
 ### Remarques
 
-Vous pouvez modifier la taille de l'image, l'emplacement, la méthode de positionnement et d'autres paramètres à l'aide du [`Shape`](../../../aspose.words.drawing/shape) objet renvoyé par cette méthode.
+Vous pouvez modifier la taille de l'image, l'emplacement, la méthode de positionnement et d'autres paramètres à l'aide du [`Shape`](../../../aspose.words.drawing/shape/) objet renvoyé par cette méthode.
 
 L'insertion de vidéo en ligne à partir des ressources suivantes est prise en charge :
 
 * https://www.youtube.com/
 * https://vimeo.com/
 
-Si votre vidéo en ligne ne s'affiche pas correctement, utilisez[`InsertOnlineVideo`](../insertonlinevideo), qui accepte le code html intégré personnalisé.
+Si votre vidéo en ligne ne s'affiche pas correctement, utilisez[`InsertOnlineVideo`](./insertonlinevideo/), qui accepte le code html intégré personnalisé.
 
 Le code d'intégration de la vidéo peut varier d'un fournisseur à l'autre, consultez le fournisseur correspondant de votre choix pour plus de détails.
 
@@ -53,9 +53,9 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertVideoWithUrl.docx");
 
 ### Voir également
 
-* class [Shape](../../../aspose.words.drawing/shape)
-* class [DocumentBuilder](../../documentbuilder)
-* espace de noms [Aspose.Words](../../documentbuilder)
+* class [Shape](../../../aspose.words.drawing/shape/)
+* class [DocumentBuilder](../)
+* espace de noms [Aspose.Words](../../documentbuilder/)
 * Assemblée [Aspose.Words](../../../)
 
 ---
@@ -86,14 +86,14 @@ Le nœud d'image qui vient d'être inséré.
 
 ### Remarques
 
-Vous pouvez modifier la taille de l'image, l'emplacement, la méthode de positionnement et d'autres paramètres à l'aide du [`Shape`](../../../aspose.words.drawing/shape) objet renvoyé par cette méthode.
+Vous pouvez modifier la taille de l'image, l'emplacement, la méthode de positionnement et d'autres paramètres à l'aide du [`Shape`](../../../aspose.words.drawing/shape/) objet renvoyé par cette méthode.
 
 L'insertion de vidéo en ligne à partir des ressources suivantes est prise en charge :
 
 * https://www.youtube.com/
 * https://vimeo.com/
 
-Si votre vidéo en ligne ne s'affiche pas correctement, utilisez[`InsertOnlineVideo`](../insertonlinevideo), qui accepte le code html intégré personnalisé.
+Si votre vidéo en ligne ne s'affiche pas correctement, utilisez[`InsertOnlineVideo`](./insertonlinevideo/), qui accepte le code html intégré personnalisé.
 
 Le code d'intégration de la vidéo peut varier d'un fournisseur à l'autre, consultez le fournisseur correspondant de votre choix pour plus de détails.
 
@@ -119,12 +119,12 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertOnlineVideo.docx");
 
 ### Voir également
 
-* class [Shape](../../../aspose.words.drawing/shape)
-* enum [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition)
-* enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition)
-* enum [WrapType](../../../aspose.words.drawing/wraptype)
-* class [DocumentBuilder](../../documentbuilder)
-* espace de noms [Aspose.Words](../../documentbuilder)
+* class [Shape](../../../aspose.words.drawing/shape/)
+* enum [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/)
+* enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/)
+* enum [WrapType](../../../aspose.words.drawing/wraptype/)
+* class [DocumentBuilder](../)
+* espace de noms [Aspose.Words](../../documentbuilder/)
 * Assemblée [Aspose.Words](../../../)
 
 ---
@@ -152,7 +152,7 @@ Le nœud d'image qui vient d'être inséré.
 
 ### Remarques
 
-Vous pouvez modifier la taille de l'image, l'emplacement, la méthode de positionnement et d'autres paramètres à l'aide du [`Shape`](../../../aspose.words.drawing/shape) objet renvoyé par cette méthode.
+Vous pouvez modifier la taille de l'image, l'emplacement, la méthode de positionnement et d'autres paramètres à l'aide du [`Shape`](../../../aspose.words.drawing/shape/) objet renvoyé par cette méthode.
 
 ### Exemples
 
@@ -195,9 +195,9 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertOnlineVideoCustomThumbnail.docx")
 
 ### Voir également
 
-* class [Shape](../../../aspose.words.drawing/shape)
-* class [DocumentBuilder](../../documentbuilder)
-* espace de noms [Aspose.Words](../../documentbuilder)
+* class [Shape](../../../aspose.words.drawing/shape/)
+* class [DocumentBuilder](../)
+* espace de noms [Aspose.Words](../../documentbuilder/)
 * Assemblée [Aspose.Words](../../../)
 
 ---
@@ -231,7 +231,7 @@ Le nœud d'image qui vient d'être inséré.
 
 ### Remarques
 
-Vous pouvez modifier la taille de l'image, l'emplacement, la méthode de positionnement et d'autres paramètres à l'aide du [`Shape`](../../../aspose.words.drawing/shape) objet renvoyé par cette méthode.
+Vous pouvez modifier la taille de l'image, l'emplacement, la méthode de positionnement et d'autres paramètres à l'aide du [`Shape`](../../../aspose.words.drawing/shape/) objet renvoyé par cette méthode.
 
 ### Exemples
 
@@ -274,12 +274,12 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertOnlineVideoCustomThumbnail.docx")
 
 ### Voir également
 
-* class [Shape](../../../aspose.words.drawing/shape)
-* enum [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition)
-* enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition)
-* enum [WrapType](../../../aspose.words.drawing/wraptype)
-* class [DocumentBuilder](../../documentbuilder)
-* espace de noms [Aspose.Words](../../documentbuilder)
+* class [Shape](../../../aspose.words.drawing/shape/)
+* enum [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/)
+* enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/)
+* enum [WrapType](../../../aspose.words.drawing/wraptype/)
+* class [DocumentBuilder](../)
+* espace de noms [Aspose.Words](../../documentbuilder/)
 * Assemblée [Aspose.Words](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

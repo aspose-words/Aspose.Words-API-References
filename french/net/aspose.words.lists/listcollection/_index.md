@@ -18,33 +18,33 @@ public class ListCollection : IEnumerable<List>
 
 | Nom | La description |
 | --- | --- |
-| [Count](../../aspose.words.lists/listcollection/count) { get; } | Obtient le nombre de listes numérotées et à puces dans le document. |
-| [Document](../../aspose.words.lists/listcollection/document) { get; } | Obtient le document propriétaire. |
-| [Item](../../aspose.words.lists/listcollection/item) { get; } | Obtient une liste par index. |
+| [Count](../../aspose.words.lists/listcollection/count/) { get; } | Obtient le nombre de listes numérotées et à puces dans le document. |
+| [Document](../../aspose.words.lists/listcollection/document/) { get; } | Obtient le document propriétaire. |
+| [Item](../../aspose.words.lists/listcollection/item/) { get; } | Obtient une liste par index. |
 
 ## Méthodes
 
 | Nom | La description |
 | --- | --- |
-| [Add](../../aspose.words.lists/listcollection/add#add)(ListTemplate) | Crée une nouvelle liste basée sur un modèle prédéfini et l'ajoute à la collection de listes dans le document. |
-| [Add](../../aspose.words.lists/listcollection/add#add_1)(Style) | Crée une nouvelle liste qui fait référence à un style de liste et l'ajoute à la collection de listes dans le document. |
-| [AddCopy](../../aspose.words.lists/listcollection/addcopy)(List) | Crée une nouvelle liste en copiant la liste spécifiée et en l'ajoutant à la collection de listes dans le document. |
-| [GetEnumerator](../../aspose.words.lists/listcollection/getenumerator)() | Obtient l'objet énumérateur qui énumérera les listes dans le document. |
-| [GetListByListId](../../aspose.words.lists/listcollection/getlistbylistid)(int) | Obtient une liste par un identifiant de liste. |
+| [Add](../../aspose.words.lists/listcollection/add/#add)(ListTemplate) | Crée une nouvelle liste basée sur un modèle prédéfini et l'ajoute à la collection de listes dans le document. |
+| [Add](../../aspose.words.lists/listcollection/add/#add_1)(Style) | Crée une nouvelle liste qui fait référence à un style de liste et l'ajoute à la collection de listes dans le document. |
+| [AddCopy](../../aspose.words.lists/listcollection/addcopy/)(List) | Crée une nouvelle liste en copiant la liste spécifiée et en l'ajoutant à la collection de listes dans le document. |
+| [GetEnumerator](../../aspose.words.lists/listcollection/getenumerator/)() | Obtient l'objet énumérateur qui énumérera les listes dans le document. |
+| [GetListByListId](../../aspose.words.lists/listcollection/getlistbylistid/)(int) | Obtient une liste par un identifiant de liste. |
 
 ### Remarques
 
-Une liste dans un document Microsoft Word est un ensemble de propriétés de formatage de liste. Le formatage des listes est stocké dans le[`ListCollection`](../listcollection) collection séparement des paragraphes de texte.
+Une liste dans un document Microsoft Word est un ensemble de propriétés de formatage de liste. Le formatage des listes est stocké dans le[`ListCollection`](./listcollection/) collection séparement des paragraphes de texte.
 
-Vous ne créez pas d'objets de cette classe. Il n'y a toujours qu'un[`ListCollection`](../listcollection) objet par document et il est accessible via le[`Lists`](../../aspose.words/documentbase/lists) propriété.
+Vous ne créez pas d'objets de cette classe. Il n'y a toujours qu'un[`ListCollection`](./listcollection/) objet par document et il est accessible via le[`Lists`](../../aspose.words/documentbase/lists/) propriété.
 
-Pour créer une nouvelle liste basée sur un modèle de liste prédéfini ou sur un style de liste, utilisez le[`Add`](./add) méthode.
+Pour créer une nouvelle liste basée sur un modèle de liste prédéfini ou sur un style de liste, utilisez le[`Add`](./add/) méthode.
 
-Pour créer une nouvelle liste avec un formatage identique à une liste existante, utilisez le[`AddCopy`](./addcopy) méthode.
+Pour créer une nouvelle liste avec un formatage identique à une liste existante, utilisez le[`AddCopy`](./addcopy/) méthode.
 
-Pour faire un paragraphe à puces ou numéroté, vous devez appliquer le formatage de liste à un paragraphe en attribuant un[`List`](../list) objecter à the [`List`](../listformat/list) propriété de[`ListFormat`](../listformat).
+Pour faire un paragraphe à puces ou numéroté, vous devez appliquer le formatage de liste à un paragraphe en attribuant un[`List`](../list/) objecter à the [`List`](../listformat/list/) propriété de[`ListFormat`](../listformat/).
 
-Pour supprimer la mise en forme de liste d'un paragraphe, utilisez la[`RemoveNumbers`](../listformat/removenumbers) méthode .
+Pour supprimer la mise en forme de liste d'un paragraphe, utilisez la[`RemoveNumbers`](../listformat/removenumbers/) méthode .
 
 Si vous connaissez un peu WordprocessingML, vous savez peut-être qu'il définit des concepts distincts pour "liste" et "définition de liste". Cela correspond exactement à la façon dont le formatage de la liste est stocké dans un document Microsoft Word au niveau inférieur. La définition de liste est comme un "schéma" et la liste est comme une instance d'une définition de liste.
 
@@ -177,8 +177,8 @@ doc.Save(ArtifactsDir + "Lists.SpecifyListLevel.docx");
 
 ### Voir également
 
-* class [List](../list)
-* espace de noms [Aspose.Words.Lists](../../aspose.words.lists)
+* class [List](../list/)
+* espace de noms [Aspose.Words.Lists](../../aspose.words.lists/)
 * Assemblée [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

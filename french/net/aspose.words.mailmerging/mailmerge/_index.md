@@ -18,47 +18,47 @@ public class MailMerge
 
 | Nom | La description |
 | --- | --- |
-| [CleanupOptions](../../aspose.words.mailmerging/mailmerge/cleanupoptions) { get; set; } | Obtient ou définit un ensemble d'indicateurs qui spécifient les éléments à supprimer lors du publipostage. |
-| [CleanupParagraphsWithPunctuationMarks](../../aspose.words.mailmerging/mailmerge/cleanupparagraphswithpunctuationmarks) { get; set; } | Obtient ou définit une valeur indiquant si les paragraphes avec des signes de ponctuation sont considérés comme vides et doivent être supprimés si leRemoveEmptyParagraphs l'option est spécifiée. |
-| [FieldMergingCallback](../../aspose.words.mailmerging/mailmerge/fieldmergingcallback) { get; set; } | Se produit pendant le publipostage lorsqu'un champ de publipostage est rencontré dans le document. |
-| [MailMergeCallback](../../aspose.words.mailmerging/mailmerge/mailmergecallback) { get; set; } | Permet de gérer des événements particuliers lors du publipostage. |
-| [MappedDataFields](../../aspose.words.mailmerging/mailmerge/mappeddatafields) { get; } | Renvoie une collection qui représente les champs de données mappés pour l'opération de fusion et publipostage. |
-| [MergeDuplicateRegions](../../aspose.words.mailmerging/mailmerge/mergeduplicateregions) { get; set; } | Obtient ou définit une valeur indiquant si toutes les régions de publipostage de document portant le nom d'une source de données doivent être fusionnées lors de l'exécution d'un publipostage avec des régions sur la source de données ou uniquement la première. |
-| [MergeWholeDocument](../../aspose.words.mailmerging/mailmerge/mergewholedocument) { get; set; } | Obtient ou définit une valeur indiquant si les champs du document entier sont mis à jour lors de l'exécution d'un publipostage avec des régions. |
-| [PreserveUnusedTags](../../aspose.words.mailmerging/mailmerge/preserveunusedtags) { get; set; } | Obtient ou définit une valeur indiquant si les balises "moustache" inutilisées doivent être conservées. |
-| [RegionEndTag](../../aspose.words.mailmerging/mailmerge/regionendtag) { get; set; } | Obtient ou définit une balise de fin de région de fusion et publipostage. |
-| [RegionStartTag](../../aspose.words.mailmerging/mailmerge/regionstarttag) { get; set; } | Obtient ou définit une balise de début de région de fusion et publipostage. |
-| [RestartListsAtEachSection](../../aspose.words.mailmerging/mailmerge/restartlistsateachsection) { get; set; } | Obtient ou définit une valeur indiquant si les listes sont redémarrées à chaque section après l'exécution d'un publipostage. |
-| [RetainFirstSectionStart](../../aspose.words.mailmerging/mailmerge/retainfirstsectionstart) { get; set; } | Obtient ou définit une valeur indiquant si le[`SectionStart`](../../aspose.words/pagesetup/sectionstart) de la première section de document et ses copies pour les lignes de source de données suivantes sont conservées lors du publipostage ou mises à jour en fonction du comportement de MS Word. |
-| [TrimWhitespaces](../../aspose.words.mailmerging/mailmerge/trimwhitespaces) { get; set; } | Obtient ou définit une valeur indiquant si les espaces de fin et de début sont supprimés des valeurs de publipostage. |
-| [UnconditionalMergeFieldsAndRegions](../../aspose.words.mailmerging/mailmerge/unconditionalmergefieldsandregions) { get; set; } | Obtient ou définit une valeur indiquant si les champs de fusion et les régions de fusion sont fusionnés quelle que soit la condition du champ IF parent. |
-| [UseNonMergeFields](../../aspose.words.mailmerging/mailmerge/usenonmergefields) { get; set; } | Lorsqu'il est vrai, spécifie qu'en plus des champs MERGEFIELD, le publipostage est effectué dans d'autres types de champs et également dans les balises "{{fieldName}}". |
-| [UseWholeParagraphAsRegion](../../aspose.words.mailmerging/mailmerge/usewholeparagraphasregion) { get; set; } | Obtient ou définit une valeur indiquant si le paragraphe entier avec le champ TableStart ou TableEnd ou une plage particulière entre les champs TableStart et TableEnd doit être inclus dans la région de fusion et publipostage. |
+| [CleanupOptions](../../aspose.words.mailmerging/mailmerge/cleanupoptions/) { get; set; } | Obtient ou définit un ensemble d'indicateurs qui spécifient les éléments à supprimer lors du publipostage. |
+| [CleanupParagraphsWithPunctuationMarks](../../aspose.words.mailmerging/mailmerge/cleanupparagraphswithpunctuationmarks/) { get; set; } | Obtient ou définit une valeur indiquant si les paragraphes avec des signes de ponctuation sont considérés comme vides et doivent être supprimés si leRemoveEmptyParagraphs l'option est spécifiée. |
+| [FieldMergingCallback](../../aspose.words.mailmerging/mailmerge/fieldmergingcallback/) { get; set; } | Se produit pendant le publipostage lorsqu'un champ de publipostage est rencontré dans le document. |
+| [MailMergeCallback](../../aspose.words.mailmerging/mailmerge/mailmergecallback/) { get; set; } | Permet de gérer des événements particuliers lors du publipostage. |
+| [MappedDataFields](../../aspose.words.mailmerging/mailmerge/mappeddatafields/) { get; } | Renvoie une collection qui représente les champs de données mappés pour l'opération de fusion et publipostage. |
+| [MergeDuplicateRegions](../../aspose.words.mailmerging/mailmerge/mergeduplicateregions/) { get; set; } | Obtient ou définit une valeur indiquant si toutes les régions de publipostage de document portant le nom d'une source de données doivent être fusionnées lors de l'exécution d'un publipostage avec des régions sur la source de données ou uniquement la première. |
+| [MergeWholeDocument](../../aspose.words.mailmerging/mailmerge/mergewholedocument/) { get; set; } | Obtient ou définit une valeur indiquant si les champs du document entier sont mis à jour lors de l'exécution d'un publipostage avec des régions. |
+| [PreserveUnusedTags](../../aspose.words.mailmerging/mailmerge/preserveunusedtags/) { get; set; } | Obtient ou définit une valeur indiquant si les balises "moustache" inutilisées doivent être conservées. |
+| [RegionEndTag](../../aspose.words.mailmerging/mailmerge/regionendtag/) { get; set; } | Obtient ou définit une balise de fin de région de fusion et publipostage. |
+| [RegionStartTag](../../aspose.words.mailmerging/mailmerge/regionstarttag/) { get; set; } | Obtient ou définit une balise de début de région de fusion et publipostage. |
+| [RestartListsAtEachSection](../../aspose.words.mailmerging/mailmerge/restartlistsateachsection/) { get; set; } | Obtient ou définit une valeur indiquant si les listes sont redémarrées à chaque section après l'exécution d'un publipostage. |
+| [RetainFirstSectionStart](../../aspose.words.mailmerging/mailmerge/retainfirstsectionstart/) { get; set; } | Obtient ou définit une valeur indiquant si le[`SectionStart`](../../aspose.words/pagesetup/sectionstart/) de la première section de document et ses copies pour les lignes de source de données suivantes sont conservées lors du publipostage ou mises à jour en fonction du comportement de MS Word. |
+| [TrimWhitespaces](../../aspose.words.mailmerging/mailmerge/trimwhitespaces/) { get; set; } | Obtient ou définit une valeur indiquant si les espaces de fin et de début sont supprimés des valeurs de publipostage. |
+| [UnconditionalMergeFieldsAndRegions](../../aspose.words.mailmerging/mailmerge/unconditionalmergefieldsandregions/) { get; set; } | Obtient ou définit une valeur indiquant si les champs de fusion et les régions de fusion sont fusionnés quelle que soit la condition du champ IF parent. |
+| [UseNonMergeFields](../../aspose.words.mailmerging/mailmerge/usenonmergefields/) { get; set; } | Lorsqu'il est vrai, spécifie qu'en plus des champs MERGEFIELD, le publipostage est effectué dans d'autres types de champs et également dans les balises "{{fieldName}}". |
+| [UseWholeParagraphAsRegion](../../aspose.words.mailmerging/mailmerge/usewholeparagraphasregion/) { get; set; } | Obtient ou définit une valeur indiquant si le paragraphe entier avec le champ TableStart ou TableEnd ou une plage particulière entre les champs TableStart et TableEnd doit être inclus dans la région de fusion et publipostage. |
 
 ## Méthodes
 
 | Nom | La description |
 | --- | --- |
-| [DeleteFields](../../aspose.words.mailmerging/mailmerge/deletefields)() | Supprime les champs liés au publipostage du document. |
-| [Execute](../../aspose.words.mailmerging/mailmerge/execute#execute_1)(DataRow) | Effectue un publipostage à partir d'un DataRow dans le document. |
-| [Execute](../../aspose.words.mailmerging/mailmerge/execute#execute_2)(DataTable) | Effectue une fusion et publipostage à partir d'un DataTable dans le document. |
-| [Execute](../../aspose.words.mailmerging/mailmerge/execute#execute_3)(DataView) | Effectue un publipostage à partir d'un DataView dans le document. |
-| [Execute](../../aspose.words.mailmerging/mailmerge/execute#execute_4)(IDataReader) | Effectue une fusion et publipostage depuis IDataReader dans le document. |
-| [Execute](../../aspose.words.mailmerging/mailmerge/execute#execute)(IMailMergeDataSource) | Effectue un publipostage à partir d'une source de données personnalisée. |
-| [Execute](../../aspose.words.mailmerging/mailmerge/execute#execute_5)(string[], object[]) | Effectue une opération de fusion et publipostage pour un seul enregistrement. |
-| [ExecuteADO](../../aspose.words.mailmerging/mailmerge/executeado)(object) | Effectue une fusion et publipostage à partir d'un objet ADO Recordset dans le document. |
-| [ExecuteWithRegions](../../aspose.words.mailmerging/mailmerge/executewithregions#executewithregions_2)(DataSet) | Effectue un publipostage à partir d'un DataSet dans un document avec des régions de publipostage. |
-| [ExecuteWithRegions](../../aspose.words.mailmerging/mailmerge/executewithregions#executewithregions_3)(DataTable) | Effectue une fusion et publipostage à partir d'un DataTable dans le document avec des régions de fusion et publipostage. |
-| [ExecuteWithRegions](../../aspose.words.mailmerging/mailmerge/executewithregions#executewithregions_4)(DataView) | Effectue un publipostage à partir d'un DataView dans le document avec des régions de publipostage. |
-| [ExecuteWithRegions](../../aspose.words.mailmerging/mailmerge/executewithregions#executewithregions)(IMailMergeDataSource) | Effectue un publipostage à partir d'une source de données personnalisée avec des régions de publipostage. |
-| [ExecuteWithRegions](../../aspose.words.mailmerging/mailmerge/executewithregions#executewithregions_1)(IMailMergeDataSourceRoot) | Effectue un publipostage à partir d'une source de données personnalisée avec des régions de publipostage. |
-| [ExecuteWithRegions](../../aspose.words.mailmerging/mailmerge/executewithregions#executewithregions_5)(IDataReader, string) | Effectue un publipostage depuis IDataReader dans le document avec les régions de publipostage. |
-| [ExecuteWithRegionsADO](../../aspose.words.mailmerging/mailmerge/executewithregionsado)(object, string) | Effectue une fusion et publipostage à partir d'un objet ADO Recordset dans le document avec des régions de fusion et publipostage. |
-| [GetFieldNames](../../aspose.words.mailmerging/mailmerge/getfieldnames)() | Renvoie une collection de noms de champs de publipostage disponibles dans le document. |
-| [GetFieldNamesForRegion](../../aspose.words.mailmerging/mailmerge/getfieldnamesforregion#getfieldnamesforregion)(string) | Renvoie une collection de noms de champs de publipostage disponibles dans la région. |
-| [GetFieldNamesForRegion](../../aspose.words.mailmerging/mailmerge/getfieldnamesforregion#getfieldnamesforregion_1)(string, int) | Renvoie une collection de noms de champs de publipostage disponibles dans la région. |
-| [GetRegionsByName](../../aspose.words.mailmerging/mailmerge/getregionsbyname)(string) | Renvoie une collection de régions de fusion et publipostage avec le nom spécifié. |
-| [GetRegionsHierarchy](../../aspose.words.mailmerging/mailmerge/getregionshierarchy)() | Renvoie une hiérarchie complète des régions (avec champs) disponibles dans le document. |
+| [DeleteFields](../../aspose.words.mailmerging/mailmerge/deletefields/)() | Supprime les champs liés au publipostage du document. |
+| [Execute](../../aspose.words.mailmerging/mailmerge/execute/#execute_1)(DataRow) | Effectue un publipostage à partir d'un DataRow dans le document. |
+| [Execute](../../aspose.words.mailmerging/mailmerge/execute/#execute_2)(DataTable) | Effectue une fusion et publipostage à partir d'un DataTable dans le document. |
+| [Execute](../../aspose.words.mailmerging/mailmerge/execute/#execute_3)(DataView) | Effectue un publipostage à partir d'un DataView dans le document. |
+| [Execute](../../aspose.words.mailmerging/mailmerge/execute/#execute_4)(IDataReader) | Effectue une fusion et publipostage depuis IDataReader dans le document. |
+| [Execute](../../aspose.words.mailmerging/mailmerge/execute/#execute)(IMailMergeDataSource) | Effectue un publipostage à partir d'une source de données personnalisée. |
+| [Execute](../../aspose.words.mailmerging/mailmerge/execute/#execute_5)(string[], object[]) | Effectue une opération de fusion et publipostage pour un seul enregistrement. |
+| [ExecuteADO](../../aspose.words.mailmerging/mailmerge/executeado/)(object) | Effectue une fusion et publipostage à partir d'un objet ADO Recordset dans le document. |
+| [ExecuteWithRegions](../../aspose.words.mailmerging/mailmerge/executewithregions/#executewithregions_2)(DataSet) | Effectue un publipostage à partir d'un DataSet dans un document avec des régions de publipostage. |
+| [ExecuteWithRegions](../../aspose.words.mailmerging/mailmerge/executewithregions/#executewithregions_3)(DataTable) | Effectue une fusion et publipostage à partir d'un DataTable dans le document avec des régions de fusion et publipostage. |
+| [ExecuteWithRegions](../../aspose.words.mailmerging/mailmerge/executewithregions/#executewithregions_4)(DataView) | Effectue un publipostage à partir d'un DataView dans le document avec des régions de publipostage. |
+| [ExecuteWithRegions](../../aspose.words.mailmerging/mailmerge/executewithregions/#executewithregions)(IMailMergeDataSource) | Effectue un publipostage à partir d'une source de données personnalisée avec des régions de publipostage. |
+| [ExecuteWithRegions](../../aspose.words.mailmerging/mailmerge/executewithregions/#executewithregions_1)(IMailMergeDataSourceRoot) | Effectue un publipostage à partir d'une source de données personnalisée avec des régions de publipostage. |
+| [ExecuteWithRegions](../../aspose.words.mailmerging/mailmerge/executewithregions/#executewithregions_5)(IDataReader, string) | Effectue un publipostage depuis IDataReader dans le document avec les régions de publipostage. |
+| [ExecuteWithRegionsADO](../../aspose.words.mailmerging/mailmerge/executewithregionsado/)(object, string) | Effectue une fusion et publipostage à partir d'un objet ADO Recordset dans le document avec des régions de fusion et publipostage. |
+| [GetFieldNames](../../aspose.words.mailmerging/mailmerge/getfieldnames/)() | Renvoie une collection de noms de champs de publipostage disponibles dans le document. |
+| [GetFieldNamesForRegion](../../aspose.words.mailmerging/mailmerge/getfieldnamesforregion/#getfieldnamesforregion)(string) | Renvoie une collection de noms de champs de publipostage disponibles dans la région. |
+| [GetFieldNamesForRegion](../../aspose.words.mailmerging/mailmerge/getfieldnamesforregion/#getfieldnamesforregion_1)(string, int) | Renvoie une collection de noms de champs de publipostage disponibles dans la région. |
+| [GetRegionsByName](../../aspose.words.mailmerging/mailmerge/getregionsbyname/)(string) | Renvoie une collection de régions de fusion et publipostage avec le nom spécifié. |
+| [GetRegionsHierarchy](../../aspose.words.mailmerging/mailmerge/getregionshierarchy/)() | Renvoie une hiérarchie complète des régions (avec champs) disponibles dans le document. |
 
 ### Remarques
 
@@ -121,7 +121,7 @@ private static Document CreateSourceDocExecuteDataTable()
 
 ### Voir également
 
-* espace de noms [Aspose.Words.MailMerging](../../aspose.words.mailmerging)
+* espace de noms [Aspose.Words.MailMerging](../../aspose.words.mailmerging/)
 * Assemblée [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

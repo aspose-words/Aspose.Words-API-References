@@ -18,30 +18,30 @@ public class FindReplaceOptions
 
 | Nom | La description |
 | --- | --- |
-| [FindReplaceOptions](findreplaceoptions#constructor)() | Default_Constructor |
-| [FindReplaceOptions](findreplaceoptions#constructor_1)(FindReplaceDirection) |  |
-| [FindReplaceOptions](findreplaceoptions#constructor_3)(IReplacingCallback) |  |
-| [FindReplaceOptions](findreplaceoptions#constructor_2)(FindReplaceDirection, IReplacingCallback) |  |
+| [FindReplaceOptions](findreplaceoptions/#constructor)() | Default_Constructor |
+| [FindReplaceOptions](findreplaceoptions/#constructor_1)(FindReplaceDirection) |  |
+| [FindReplaceOptions](findreplaceoptions/#constructor_3)(IReplacingCallback) |  |
+| [FindReplaceOptions](findreplaceoptions/#constructor_2)(FindReplaceDirection, IReplacingCallback) |  |
 
 ## Propriétés
 
 | Nom | La description |
 | --- | --- |
-| [ApplyFont](../../aspose.words.replacing/findreplaceoptions/applyfont) { get; } | Formatage du texte appliqué au nouveau contenu. |
-| [ApplyParagraphFormat](../../aspose.words.replacing/findreplaceoptions/applyparagraphformat) { get; } | Mise en forme des paragraphes appliquée au nouveau contenu. |
-| [Direction](../../aspose.words.replacing/findreplaceoptions/direction) { get; set; } | Sélectionne la direction de remplacement. La valeur par défaut estForward . |
-| [FindWholeWordsOnly](../../aspose.words.replacing/findreplaceoptions/findwholewordsonly) { get; set; } | True indique que l'ancienne valeur doit être un mot autonome. |
-| [IgnoreDeleted](../../aspose.words.replacing/findreplaceoptions/ignoredeleted) { get; set; } | Obtient ou définit une valeur booléenne indiquant soit d'ignorer le texte à l'intérieur des révisions de suppression. La valeur par défaut est`faux` . |
-| [IgnoreFieldCodes](../../aspose.words.replacing/findreplaceoptions/ignorefieldcodes) { get; set; } | Obtient ou définit une valeur booléenne indiquant soit d'ignorer le texte à l'intérieur des codes de champ. La valeur par défaut est`faux` . |
-| [IgnoreFields](../../aspose.words.replacing/findreplaceoptions/ignorefields) { get; set; } | Obtient ou définit une valeur booléenne indiquant soit d'ignorer le texte à l'intérieur des champs. La valeur par défaut est`faux` . |
-| [IgnoreFootnotes](../../aspose.words.replacing/findreplaceoptions/ignorefootnotes) { get; set; } | Obtient ou définit une valeur booléenne indiquant soit d'ignorer les notes de bas de page. La valeur par défaut est`faux` . |
-| [IgnoreInserted](../../aspose.words.replacing/findreplaceoptions/ignoreinserted) { get; set; } | Obtient ou définit une valeur booléenne indiquant soit d'ignorer le texte à l'intérieur des révisions d'insertion. La valeur par défaut est`faux` . |
-| [LegacyMode](../../aspose.words.replacing/findreplaceoptions/legacymode) { get; set; } | Obtient ou définit une valeur booléenne indiquant que l'ancien algorithme de recherche/remplacement est utilisé. |
-| [MatchCase](../../aspose.words.replacing/findreplaceoptions/matchcase) { get; set; } | True indique une comparaison sensible à la casse, false indique une comparaison insensible à la casse. |
-| [ReplacingCallback](../../aspose.words.replacing/findreplaceoptions/replacingcallback) { get; set; } | La méthode définie par l'utilisateur qui est appelée avant chaque occurrence de remplacement. |
-| [SmartParagraphBreakReplacement](../../aspose.words.replacing/findreplaceoptions/smartparagraphbreakreplacement) { get; set; } | Obtient ou définit une valeur booléenne indiquant qu'il est autorisé à remplacer le paragraphe break lorsqu'il n'y a pas de paragraphe frère suivant. |
-| [UseLegacyOrder](../../aspose.words.replacing/findreplaceoptions/uselegacyorder) { get; set; } | True indique qu'une recherche de texte est effectuée séquentiellement de haut en bas en tenant compte des zones de texte. La valeur par défaut est false. |
-| [UseSubstitutions](../../aspose.words.replacing/findreplaceoptions/usesubstitutions) { get; set; } | Obtient ou définit une valeur booléenne indiquant s'il faut reconnaître et utiliser des substitutions dans les modèles de remplacement. La valeur par défaut est`faux` . |
+| [ApplyFont](../../aspose.words.replacing/findreplaceoptions/applyfont/) { get; } | Formatage du texte appliqué au nouveau contenu. |
+| [ApplyParagraphFormat](../../aspose.words.replacing/findreplaceoptions/applyparagraphformat/) { get; } | Mise en forme des paragraphes appliquée au nouveau contenu. |
+| [Direction](../../aspose.words.replacing/findreplaceoptions/direction/) { get; set; } | Sélectionne la direction de remplacement. La valeur par défaut estForward . |
+| [FindWholeWordsOnly](../../aspose.words.replacing/findreplaceoptions/findwholewordsonly/) { get; set; } | True indique que l'ancienne valeur doit être un mot autonome. |
+| [IgnoreDeleted](../../aspose.words.replacing/findreplaceoptions/ignoredeleted/) { get; set; } | Obtient ou définit une valeur booléenne indiquant soit d'ignorer le texte à l'intérieur des révisions de suppression. La valeur par défaut est`faux` . |
+| [IgnoreFieldCodes](../../aspose.words.replacing/findreplaceoptions/ignorefieldcodes/) { get; set; } | Obtient ou définit une valeur booléenne indiquant soit d'ignorer le texte à l'intérieur des codes de champ. La valeur par défaut est`faux` . |
+| [IgnoreFields](../../aspose.words.replacing/findreplaceoptions/ignorefields/) { get; set; } | Obtient ou définit une valeur booléenne indiquant soit d'ignorer le texte à l'intérieur des champs. La valeur par défaut est`faux` . |
+| [IgnoreFootnotes](../../aspose.words.replacing/findreplaceoptions/ignorefootnotes/) { get; set; } | Obtient ou définit une valeur booléenne indiquant soit d'ignorer les notes de bas de page. La valeur par défaut est`faux` . |
+| [IgnoreInserted](../../aspose.words.replacing/findreplaceoptions/ignoreinserted/) { get; set; } | Obtient ou définit une valeur booléenne indiquant soit d'ignorer le texte à l'intérieur des révisions d'insertion. La valeur par défaut est`faux` . |
+| [LegacyMode](../../aspose.words.replacing/findreplaceoptions/legacymode/) { get; set; } | Obtient ou définit une valeur booléenne indiquant que l'ancien algorithme de recherche/remplacement est utilisé. |
+| [MatchCase](../../aspose.words.replacing/findreplaceoptions/matchcase/) { get; set; } | True indique une comparaison sensible à la casse, false indique une comparaison insensible à la casse. |
+| [ReplacingCallback](../../aspose.words.replacing/findreplaceoptions/replacingcallback/) { get; set; } | La méthode définie par l'utilisateur qui est appelée avant chaque occurrence de remplacement. |
+| [SmartParagraphBreakReplacement](../../aspose.words.replacing/findreplaceoptions/smartparagraphbreakreplacement/) { get; set; } | Obtient ou définit une valeur booléenne indiquant qu'il est autorisé à remplacer le paragraphe break lorsqu'il n'y a pas de paragraphe frère suivant. |
+| [UseLegacyOrder](../../aspose.words.replacing/findreplaceoptions/uselegacyorder/) { get; set; } | True indique qu'une recherche de texte est effectuée séquentiellement de haut en bas en tenant compte des zones de texte. La valeur par défaut est false. |
+| [UseSubstitutions](../../aspose.words.replacing/findreplaceoptions/usesubstitutions/) { get; set; } | Obtient ou définit une valeur booléenne indiquant s'il faut reconnaître et utiliser des substitutions dans les modèles de remplacement. La valeur par défaut est`faux` . |
 
 ### Exemples
 
@@ -90,7 +90,7 @@ Assert.AreEqual(
 
 ### Voir également
 
-* espace de noms [Aspose.Words.Replacing](../../aspose.words.replacing)
+* espace de noms [Aspose.Words.Replacing](../../aspose.words.replacing/)
 * Assemblée [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

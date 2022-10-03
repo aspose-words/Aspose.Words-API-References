@@ -18,36 +18,36 @@ public class ListLevel
 
 | Nom | La description |
 | --- | --- |
-| [Alignment](../../aspose.words.lists/listlevel/alignment) { get; set; } | Obtient ou définit la justification du numéro réel de l'élément de liste. |
-| [CustomNumberStyleFormat](../../aspose.words.lists/listlevel/customnumberstyleformat) { get; } | Obtient le format de style de nombre personnalisé pour ce niveau de liste. Par exemple : "a, ç, ĝ, ...". |
-| [Font](../../aspose.words.lists/listlevel/font) { get; } | Spécifie le formatage des caractères utilisé pour l'étiquette de la liste. |
-| [ImageData](../../aspose.words.lists/listlevel/imagedata) { get; } | Renvoie les données d'image de la forme de puce d'image pour le niveau de liste actuel. |
-| [IsLegal](../../aspose.words.lists/listlevel/islegal) { get; set; } | Vrai si le niveau transforme tous les nombres hérités en arabe, faux s'il conserve leur style de nombre. |
-| [LinkedStyle](../../aspose.words.lists/listlevel/linkedstyle) { get; set; } | Obtient ou définit le style de paragraphe lié à ce niveau de liste. |
-| [NumberFormat](../../aspose.words.lists/listlevel/numberformat) { get; set; } | Renvoie ou définit le format numérique pour le niveau de liste. |
-| [NumberPosition](../../aspose.words.lists/listlevel/numberposition) { get; set; } | Renvoie ou définit la position (en points) du numéro ou de la puce pour le niveau de liste. |
-| [NumberStyle](../../aspose.words.lists/listlevel/numberstyle) { get; set; } | Renvoie ou définit le style de numérotation pour ce niveau de liste. |
-| [RestartAfterLevel](../../aspose.words.lists/listlevel/restartafterlevel) { get; set; } | Définit ou renvoie le niveau de liste qui doit apparaître avant que le niveau de liste spécifié ne redémarre la numérotation. |
-| [StartAt](../../aspose.words.lists/listlevel/startat) { get; set; } | Renvoie ou définit le numéro de départ pour ce niveau de liste. |
-| [TabPosition](../../aspose.words.lists/listlevel/tabposition) { get; set; } | Renvoie ou définit la position de tabulation (en points) pour le niveau de liste. |
-| [TextPosition](../../aspose.words.lists/listlevel/textposition) { get; set; } | Renvoie ou définit la position (en points) de la deuxième ligne de texte d'habillage pour le niveau de liste. |
-| [TrailingCharacter](../../aspose.words.lists/listlevel/trailingcharacter) { get; set; } | Renvoie ou définit le caractère inséré après le numéro pour le niveau de liste. |
+| [Alignment](../../aspose.words.lists/listlevel/alignment/) { get; set; } | Obtient ou définit la justification du numéro réel de l'élément de liste. |
+| [CustomNumberStyleFormat](../../aspose.words.lists/listlevel/customnumberstyleformat/) { get; } | Obtient le format de style de nombre personnalisé pour ce niveau de liste. Par exemple : "a, ç, ĝ, ...". |
+| [Font](../../aspose.words.lists/listlevel/font/) { get; } | Spécifie le formatage des caractères utilisé pour l'étiquette de la liste. |
+| [ImageData](../../aspose.words.lists/listlevel/imagedata/) { get; } | Renvoie les données d'image de la forme de puce d'image pour le niveau de liste actuel. |
+| [IsLegal](../../aspose.words.lists/listlevel/islegal/) { get; set; } | Vrai si le niveau transforme tous les nombres hérités en arabe, faux s'il conserve leur style de nombre. |
+| [LinkedStyle](../../aspose.words.lists/listlevel/linkedstyle/) { get; set; } | Obtient ou définit le style de paragraphe lié à ce niveau de liste. |
+| [NumberFormat](../../aspose.words.lists/listlevel/numberformat/) { get; set; } | Renvoie ou définit le format numérique pour le niveau de liste. |
+| [NumberPosition](../../aspose.words.lists/listlevel/numberposition/) { get; set; } | Renvoie ou définit la position (en points) du numéro ou de la puce pour le niveau de liste. |
+| [NumberStyle](../../aspose.words.lists/listlevel/numberstyle/) { get; set; } | Renvoie ou définit le style de numérotation pour ce niveau de liste. |
+| [RestartAfterLevel](../../aspose.words.lists/listlevel/restartafterlevel/) { get; set; } | Définit ou renvoie le niveau de liste qui doit apparaître avant que le niveau de liste spécifié ne redémarre la numérotation. |
+| [StartAt](../../aspose.words.lists/listlevel/startat/) { get; set; } | Renvoie ou définit le numéro de départ pour ce niveau de liste. |
+| [TabPosition](../../aspose.words.lists/listlevel/tabposition/) { get; set; } | Renvoie ou définit la position de tabulation (en points) pour le niveau de liste. |
+| [TextPosition](../../aspose.words.lists/listlevel/textposition/) { get; set; } | Renvoie ou définit la position (en points) de la deuxième ligne de texte d'habillage pour le niveau de liste. |
+| [TrailingCharacter](../../aspose.words.lists/listlevel/trailingcharacter/) { get; set; } | Renvoie ou définit le caractère inséré après le numéro pour le niveau de liste. |
 
 ## Méthodes
 
 | Nom | La description |
 | --- | --- |
-| [CreatePictureBullet](../../aspose.words.lists/listlevel/createpicturebullet)() | Crée une forme de puce d'image pour le niveau de liste actuel. |
-| [DeletePictureBullet](../../aspose.words.lists/listlevel/deletepicturebullet)() | Supprime la puce d'image pour le niveau de liste actuel. |
-| [Equals](../../aspose.words.lists/listlevel/equals#equals)(ListLevel) | Compare avec le ListLevel. spécifié |
-| override [GetHashCode](../../aspose.words.lists/listlevel/gethashcode)() | Calcule le code de hachage pour cet objet. |
-| static [GetEffectiveValue](../../aspose.words.lists/listlevel/geteffectivevalue)(int, NumberStyle, string) | Indique la représentation sous forme de chaîne du[`ListLevel`](../listlevel) objet pour l'index spécifié de l'élément de liste. Les paramètres spécifient le[`NumberStyle`](../../aspose.words/numberstyle) et un format optionnel string utilisé lorsqueCustom est spécifié. |
+| [CreatePictureBullet](../../aspose.words.lists/listlevel/createpicturebullet/)() | Crée une forme de puce d'image pour le niveau de liste actuel. |
+| [DeletePictureBullet](../../aspose.words.lists/listlevel/deletepicturebullet/)() | Supprime la puce d'image pour le niveau de liste actuel. |
+| [Equals](../../aspose.words.lists/listlevel/equals/#equals)(ListLevel) | Compare avec le ListLevel. spécifié |
+| override [GetHashCode](../../aspose.words.lists/listlevel/gethashcode/)() | Calcule le code de hachage pour cet objet. |
+| static [GetEffectiveValue](../../aspose.words.lists/listlevel/geteffectivevalue/)(int, NumberStyle, string) | Indique la représentation sous forme de chaîne du[`ListLevel`](./listlevel/) objet pour l'index spécifié de l'élément de liste. Les paramètres spécifient le[`NumberStyle`](../../aspose.words/numberstyle/) et un format optionnel string utilisé lorsqueCustom est spécifié. |
 
 ### Remarques
 
-Vous ne créez pas d'objets de cette classe. Les objets de niveau liste sont créés automatiquement lors de la création d'une liste. Vous accédez[`ListLevel`](../listlevel) objets via the [`ListLevelCollection`](../listlevelcollection) le recueil.
+Vous ne créez pas d'objets de cette classe. Les objets de niveau liste sont créés automatiquement lors de la création d'une liste. Vous accédez[`ListLevel`](./listlevel/) objets via the [`ListLevelCollection`](../listlevelcollection/) le recueil.
 
-Utilisez les propriétés de[`ListLevel`](../listlevel) pour spécifier le formatage de liste pour les niveaux de liste individuels.
+Utilisez les propriétés de[`ListLevel`](./listlevel/) pour spécifier le formatage de liste pour les niveaux de liste individuels.
 
 ### Exemples
 
@@ -107,7 +107,7 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateCustomList.docx");
 
 ### Voir également
 
-* espace de noms [Aspose.Words.Lists](../../aspose.words.lists)
+* espace de noms [Aspose.Words.Lists](../../aspose.words.lists/)
 * Assemblée [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

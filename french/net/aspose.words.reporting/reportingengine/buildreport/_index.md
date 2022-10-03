@@ -21,17 +21,17 @@ public bool BuildReport(Document document, object dataSource)
 
 ### Return_Value
 
-Un indicateur indiquant si l'analyse du modèle de document a réussi. L'indicateur renvoyé n'a de sens que si une valeur du[`Options`](../options)propriété comprend leInlineErrorMessages option.
+Un indicateur indiquant si l'analyse du modèle de document a réussi. L'indicateur renvoyé n'a de sens que si une valeur du[`Options`](../options/)propriété comprend leInlineErrorMessages option.
 
 ### Remarques
 
-En utilisant cette surcharge, vous pouvez référencer les membres de la source de données dans le modèle de document, mais vous ne pouvez pas référencer l'objet de source de données lui-même. Vous devriez utiliser le[`BuildReport`](../buildreport) surcharge pour y parvenir.
+En utilisant cette surcharge, vous pouvez référencer les membres de la source de données dans le modèle de document, mais vous ne pouvez pas référencer l'objet de source de données lui-même. Vous devriez utiliser le[`BuildReport`](./buildreport/) surcharge pour y parvenir.
 
 Un objet de source de données peut être de l'un des types suivants :
 
-* [`XmlDataSource`](../../xmldatasource)
-* [`JsonDataSource`](../../jsondatasource)
-* [`CsvDataSource`](../../csvdatasource)
+* [`XmlDataSource`](../../xmldatasource/)
+* [`JsonDataSource`](../../jsondatasource/)
+* [`CsvDataSource`](../../csvdatasource/)
 * DataSet
 * DataTable
 * DataRow
@@ -45,9 +45,9 @@ Pour plus d'informations sur l'utilisation de sources de données de différents
 
 ### Voir également
 
-* class [Document](../../../aspose.words/document)
-* class [ReportingEngine](../../reportingengine)
-* espace de noms [Aspose.Words.Reporting](../../reportingengine)
+* class [Document](../../../aspose.words/document/)
+* class [ReportingEngine](../)
+* espace de noms [Aspose.Words.Reporting](../../reportingengine/)
 * Assemblée [Aspose.Words](../../../)
 
 ---
@@ -68,17 +68,17 @@ public bool BuildReport(Document document, object dataSource, string dataSourceN
 
 ### Return_Value
 
-Un indicateur indiquant si l'analyse du modèle de document a réussi. L'indicateur renvoyé n'a de sens que si une valeur du[`Options`](../options)propriété comprend leInlineErrorMessages option.
+Un indicateur indiquant si l'analyse du modèle de document a réussi. L'indicateur renvoyé n'a de sens que si une valeur du[`Options`](../options/)propriété comprend leInlineErrorMessages option.
 
 ### Remarques
 
-À l'aide de cette surcharge, vous pouvez référencer les membres de la source de données et l'objet de la source de données lui-même dans le modèle. Si vous n'allez pas référencer l'objet source de données lui-même, vous pouvez omettre*dataSourceName* passant null ou utilisez le[`BuildReport`](../buildreport) surcharge.
+À l'aide de cette surcharge, vous pouvez référencer les membres de la source de données et l'objet de la source de données lui-même dans le modèle. Si vous n'allez pas référencer l'objet source de données lui-même, vous pouvez omettre*dataSourceName* passant null ou utilisez le[`BuildReport`](./buildreport/) surcharge.
 
 Un objet de source de données peut être de l'un des types suivants :
 
-* [`XmlDataSource`](../../xmldatasource)
-* [`JsonDataSource`](../../jsondatasource)
-* [`CsvDataSource`](../../csvdatasource)
+* [`XmlDataSource`](../../xmldatasource/)
+* [`JsonDataSource`](../../jsondatasource/)
+* [`CsvDataSource`](../../csvdatasource/)
 * DataSet
 * DataTable
 * DataRow
@@ -92,9 +92,9 @@ Pour plus d'informations sur l'utilisation de sources de données de différents
 
 ### Voir également
 
-* class [Document](../../../aspose.words/document)
-* class [ReportingEngine](../../reportingengine)
-* espace de noms [Aspose.Words.Reporting](../../reportingengine)
+* class [Document](../../../aspose.words/document/)
+* class [ReportingEngine](../)
+* espace de noms [Aspose.Words.Reporting](../../reportingengine/)
 * Assemblée [Aspose.Words](../../../)
 
 ---
@@ -115,19 +115,19 @@ public bool BuildReport(Document document, object[] dataSources, string[] dataSo
 
 ### Return_Value
 
-Un indicateur indiquant si l'analyse du modèle de document a réussi. L'indicateur renvoyé n'a de sens que si une valeur du[`Options`](../options)propriété comprend leInlineErrorMessages option.
+Un indicateur indiquant si l'analyse du modèle de document a réussi. L'indicateur renvoyé n'a de sens que si une valeur du[`Options`](../options/)propriété comprend leInlineErrorMessages option.
 
 ### Remarques
 
 À l'aide de cette surcharge, vous pouvez référencer plusieurs objets de source de données et leurs membres dans le modèle. Le nom de la première source de données peut être omis (c'est-à-dire être une chaîne vide ou null) si vous allez référencer les membres de la source de données mais pas l'objet source de données lui-même. Les noms des autres sources de données doivent être spécifiés et uniques.
 
-Si vous prévoyez d'utiliser une seule source de données, envisagez d'utiliser[`BuildReport`](../buildreport) et[`BuildReport`](../buildreport) surcharges à la place.
+Si vous prévoyez d'utiliser une seule source de données, envisagez d'utiliser[`BuildReport`](./buildreport/) et[`BuildReport`](./buildreport/) surcharges à la place.
 
 Un objet de source de données peut être de l'un des types suivants :
 
-* [`XmlDataSource`](../../xmldatasource)
-* [`JsonDataSource`](../../jsondatasource)
-* [`CsvDataSource`](../../csvdatasource)
+* [`XmlDataSource`](../../xmldatasource/)
+* [`JsonDataSource`](../../jsondatasource/)
+* [`CsvDataSource`](../../csvdatasource/)
 * DataSet
 * DataTable
 * DataRow
@@ -141,9 +141,9 @@ Pour plus d'informations sur l'utilisation de sources de données de différents
 
 ### Voir également
 
-* class [Document](../../../aspose.words/document)
-* class [ReportingEngine](../../reportingengine)
-* espace de noms [Aspose.Words.Reporting](../../reportingengine)
+* class [Document](../../../aspose.words/document/)
+* class [ReportingEngine](../)
+* espace de noms [Aspose.Words.Reporting](../../reportingengine/)
 * Assemblée [Aspose.Words](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

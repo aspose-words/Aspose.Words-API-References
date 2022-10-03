@@ -18,26 +18,26 @@ public sealed class FieldOptions
 
 | Nom | La description |
 | --- | --- |
-| [BarcodeGenerator](../../aspose.words.fields/fieldoptions/barcodegenerator) { get; set; } | Obtient ou définit un générateur de code-barres personnalisé. |
-| [BuiltInTemplatesPaths](../../aspose.words.fields/fieldoptions/builtintemplatespaths) { get; set; } | Obtient ou définit les chemins des modèles intégrés MS Word. |
-| [ComparisonExpressionEvaluator](../../aspose.words.fields/fieldoptions/comparisonexpressionevaluator) { get; set; } | Obtient ou définit l'évaluateur d'expressions de comparaison de champs. |
-| [CurrentUser](../../aspose.words.fields/fieldoptions/currentuser) { get; set; } | Obtient ou définit les informations de l'utilisateur actuel. |
-| [CustomTocStyleSeparator](../../aspose.words.fields/fieldoptions/customtocstyleseparator) { get; set; } | Obtient ou définit un séparateur de style personnalisé pour le commutateur \t dans[`FieldToc`](../fieldtoc) champ. |
-| [DefaultDocumentAuthor](../../aspose.words.fields/fieldoptions/defaultdocumentauthor) { get; set; } | Obtient ou définit le nom de l'auteur du document par défaut. Si le nom de l'auteur est déjà spécifié dans les propriétés de document intégrées, cette option n'est pas prise en compte. |
-| [FieldDatabaseProvider](../../aspose.words.fields/fieldoptions/fielddatabaseprovider) { get; set; } | Obtient ou définit un fournisseur qui renvoie un résultat de requête pour le[`FieldDatabase`](../fielddatabase) champ. |
-| [FieldIndexFormat](../../aspose.words.fields/fieldoptions/fieldindexformat) { get; set; } | Obtient ou définit un[`FieldIndexFormat`](./fieldindexformat) qui représente la mise en forme du[`FieldIndex`](../fieldindex)champs dans le document. |
-| [FieldUpdateCultureProvider](../../aspose.words.fields/fieldoptions/fieldupdatecultureprovider) { get; set; } | Obtient ou définit un fournisseur qui renvoie un objet de culture spécifique à chaque champ particulier. |
-| [FieldUpdateCultureSource](../../aspose.words.fields/fieldoptions/fieldupdateculturesource) { get; set; } | Spécifie la culture à utiliser pour formater le résultat du champ. |
-| [FieldUpdatingCallback](../../aspose.words.fields/fieldoptions/fieldupdatingcallback) { get; set; } | Obtient ou définit[`IFieldUpdatingCallback`](../ifieldupdatingcallback) mise en œuvre |
-| [FileName](../../aspose.words.fields/fieldoptions/filename) { get; set; } | Obtient ou définit le nom de fichier du document. |
-| [IsBidiTextSupportedOnUpdate](../../aspose.words.fields/fieldoptions/isbiditextsupportedonupdate) { get; set; } | Obtient ou définit la valeur indiquant si le texte bidirectionnel est entièrement pris en charge lors de la mise à jour du champ ou non. |
-| [LegacyNumberFormat](../../aspose.words.fields/fieldoptions/legacynumberformat) { get; set; } | Obtient ou définit la valeur indiquant si le format numérique hérité (antérieur à AW 13.10) pour les champs est activé ou non. |
-| [PreProcessCulture](../../aspose.words.fields/fieldoptions/preprocessculture) { get; set; } | Obtient ou définit la culture pour prétraiter les valeurs de champ. |
-| [ResultFormatter](../../aspose.words.fields/fieldoptions/resultformatter) { get; set; } | Permet de contrôler la façon dont le résultat du champ est formaté. |
-| [TemplateName](../../aspose.words.fields/fieldoptions/templatename) { get; set; } | Obtient ou définit le nom de fichier du modèle utilisé par le document. |
-| [ToaCategories](../../aspose.words.fields/fieldoptions/toacategories) { get; set; } | Obtient ou définit la table des catégories d'autorités. |
-| [UseInvariantCultureNumberFormat](../../aspose.words.fields/fieldoptions/useinvariantculturenumberformat) { get; set; } | Obtient ou définit la valeur indiquant que le format numérique est analysé à l'aide d'une culture invariante ou non |
-| [UserPromptRespondent](../../aspose.words.fields/fieldoptions/userpromptrespondent) { get; set; } | Obtient ou définit le répondant sur les invites de l'utilisateur lors de la mise à jour du champ. |
+| [BarcodeGenerator](../../aspose.words.fields/fieldoptions/barcodegenerator/) { get; set; } | Obtient ou définit un générateur de code-barres personnalisé. |
+| [BuiltInTemplatesPaths](../../aspose.words.fields/fieldoptions/builtintemplatespaths/) { get; set; } | Obtient ou définit les chemins des modèles intégrés MS Word. |
+| [ComparisonExpressionEvaluator](../../aspose.words.fields/fieldoptions/comparisonexpressionevaluator/) { get; set; } | Obtient ou définit l'évaluateur d'expressions de comparaison de champs. |
+| [CurrentUser](../../aspose.words.fields/fieldoptions/currentuser/) { get; set; } | Obtient ou définit les informations de l'utilisateur actuel. |
+| [CustomTocStyleSeparator](../../aspose.words.fields/fieldoptions/customtocstyleseparator/) { get; set; } | Obtient ou définit un séparateur de style personnalisé pour le commutateur \t dans[`FieldToc`](../fieldtoc/) champ. |
+| [DefaultDocumentAuthor](../../aspose.words.fields/fieldoptions/defaultdocumentauthor/) { get; set; } | Obtient ou définit le nom de l'auteur du document par défaut. Si le nom de l'auteur est déjà spécifié dans les propriétés de document intégrées, cette option n'est pas prise en compte. |
+| [FieldDatabaseProvider](../../aspose.words.fields/fieldoptions/fielddatabaseprovider/) { get; set; } | Obtient ou définit un fournisseur qui renvoie un résultat de requête pour le[`FieldDatabase`](../fielddatabase/) champ. |
+| [FieldIndexFormat](../../aspose.words.fields/fieldoptions/fieldindexformat/) { get; set; } | Obtient ou définit un[`FieldIndexFormat`](./fieldindexformat/) qui représente la mise en forme du[`FieldIndex`](../fieldindex/)champs dans le document. |
+| [FieldUpdateCultureProvider](../../aspose.words.fields/fieldoptions/fieldupdatecultureprovider/) { get; set; } | Obtient ou définit un fournisseur qui renvoie un objet de culture spécifique à chaque champ particulier. |
+| [FieldUpdateCultureSource](../../aspose.words.fields/fieldoptions/fieldupdateculturesource/) { get; set; } | Spécifie la culture à utiliser pour formater le résultat du champ. |
+| [FieldUpdatingCallback](../../aspose.words.fields/fieldoptions/fieldupdatingcallback/) { get; set; } | Obtient ou définit[`IFieldUpdatingCallback`](../ifieldupdatingcallback/) mise en œuvre |
+| [FileName](../../aspose.words.fields/fieldoptions/filename/) { get; set; } | Obtient ou définit le nom de fichier du document. |
+| [IsBidiTextSupportedOnUpdate](../../aspose.words.fields/fieldoptions/isbiditextsupportedonupdate/) { get; set; } | Obtient ou définit la valeur indiquant si le texte bidirectionnel est entièrement pris en charge lors de la mise à jour du champ ou non. |
+| [LegacyNumberFormat](../../aspose.words.fields/fieldoptions/legacynumberformat/) { get; set; } | Obtient ou définit la valeur indiquant si le format numérique hérité (antérieur à AW 13.10) pour les champs est activé ou non. |
+| [PreProcessCulture](../../aspose.words.fields/fieldoptions/preprocessculture/) { get; set; } | Obtient ou définit la culture pour prétraiter les valeurs de champ. |
+| [ResultFormatter](../../aspose.words.fields/fieldoptions/resultformatter/) { get; set; } | Permet de contrôler la façon dont le résultat du champ est formaté. |
+| [TemplateName](../../aspose.words.fields/fieldoptions/templatename/) { get; set; } | Obtient ou définit le nom de fichier du modèle utilisé par le document. |
+| [ToaCategories](../../aspose.words.fields/fieldoptions/toacategories/) { get; set; } | Obtient ou définit la table des catégories d'autorités. |
+| [UseInvariantCultureNumberFormat](../../aspose.words.fields/fieldoptions/useinvariantculturenumberformat/) { get; set; } | Obtient ou définit la valeur indiquant que le format numérique est analysé à l'aide d'une culture invariante ou non |
+| [UserPromptRespondent](../../aspose.words.fields/fieldoptions/userpromptrespondent/) { get; set; } | Obtient ou définit le répondant sur les invites de l'utilisateur lors de la mise à jour du champ. |
 
 ### Exemples
 
@@ -73,7 +73,7 @@ Thread.CurrentThread.CurrentCulture = currentCulture;
 
 ### Voir également
 
-* espace de noms [Aspose.Words.Fields](../../aspose.words.fields)
+* espace de noms [Aspose.Words.Fields](../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->
