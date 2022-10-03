@@ -1,14 +1,14 @@
 ---
 title: HeaderFooterCollection
 second_title: Справочник по API Aspose.Words для .NET
-description: Предоставляет типизированный доступ кHeaderFooter./headerfooter узлы Раздел .
+description: Предоставляет типизированный доступ кHeaderFooter./headerfooter/ узлы Раздел .
 type: docs
 weight: 2930
 url: /ru/net/aspose.words/headerfootercollection/
 ---
 ## HeaderFooterCollection class
 
-Предоставляет типизированный доступ к[`HeaderFooter`](../headerfooter) узлы **Раздел** .
+Предоставляет типизированный доступ к[`HeaderFooter`](../headerfooter/) узлы **Раздел** .
 
 ```csharp
 public class HeaderFooterCollection : NodeCollection
@@ -18,30 +18,30 @@ public class HeaderFooterCollection : NodeCollection
 
 | Имя | Описание |
 | --- | --- |
-| [Count](../../aspose.words/nodecollection/count) { get; } | Получает количество узлов в коллекции. |
-| [Item](../../aspose.words/headerfootercollection/item) { get; } | Получает **Верхний колонтитул** по данному индексу. (3 indexers) |
+| [Count](../../aspose.words/nodecollection/count/) { get; } | Получает количество узлов в коллекции. |
+| [Item](../../aspose.words/headerfootercollection/item/) { get; } | Получает **Верхний колонтитул** по данному индексу. (3 indexers) |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [Add](../../aspose.words/nodecollection/add)(Node) | Добавляет узел в конец коллекции. |
-| [Clear](../../aspose.words/nodecollection/clear)() | Удаляет все узлы из этой коллекции и из документа. |
-| [Contains](../../aspose.words/nodecollection/contains)(Node) | Определяет, находится ли узел в коллекции. |
-| [GetEnumerator](../../aspose.words/nodecollection/getenumerator)() | Обеспечивает простую итерацию в стиле foreach по набору узлов. |
-| [IndexOf](../../aspose.words/nodecollection/indexof)(Node) | Возвращает отсчитываемый от нуля индекс указанного узла. |
-| [Insert](../../aspose.words/nodecollection/insert)(int, Node) | Вставляет узел в коллекцию по указанному индексу. |
-| [LinkToPrevious](../../aspose.words/headerfootercollection/linktoprevious#linktoprevious_1)(bool) | Связывает или разъединяет все верхние и нижние колонтитулы с соответствующими верхними и нижними колонтитулами в предыдущем разделе. |
-| [LinkToPrevious](../../aspose.words/headerfootercollection/linktoprevious#linktoprevious)(HeaderFooterType, bool) | Связывает или разъединяет указанный верхний или нижний колонтитул с соответствующим верхним или нижним колонтитулом в предыдущем разделе. |
-| [Remove](../../aspose.words/nodecollection/remove)(Node) | Удаляет узел из коллекции и из документа. |
-| [RemoveAt](../../aspose.words/nodecollection/removeat)(int) | Удаляет узел с указанным индексом из коллекции и из документа. |
-| [ToArray](../../aspose.words/headerfootercollection/toarray#toarray)() | Копирует все`ЗаголовокFooter` s из коллекции в новый массив`ЗаголовокFooter` с. (2 methods) |
+| [Add](../../aspose.words/nodecollection/add/)(Node) | Добавляет узел в конец коллекции. |
+| [Clear](../../aspose.words/nodecollection/clear/)() | Удаляет все узлы из этой коллекции и из документа. |
+| [Contains](../../aspose.words/nodecollection/contains/)(Node) | Определяет, находится ли узел в коллекции. |
+| [GetEnumerator](../../aspose.words/nodecollection/getenumerator/)() | Обеспечивает простую итерацию в стиле foreach по набору узлов. |
+| [IndexOf](../../aspose.words/nodecollection/indexof/)(Node) | Возвращает отсчитываемый от нуля индекс указанного узла. |
+| [Insert](../../aspose.words/nodecollection/insert/)(int, Node) | Вставляет узел в коллекцию по указанному индексу. |
+| [LinkToPrevious](../../aspose.words/headerfootercollection/linktoprevious/#linktoprevious_1)(bool) | Связывает или разъединяет все верхние и нижние колонтитулы с соответствующими верхними и нижними колонтитулами в предыдущем разделе. |
+| [LinkToPrevious](../../aspose.words/headerfootercollection/linktoprevious/#linktoprevious)(HeaderFooterType, bool) | Связывает или разъединяет указанный верхний или нижний колонтитул с соответствующим верхним или нижним колонтитулом в предыдущем разделе. |
+| [Remove](../../aspose.words/nodecollection/remove/)(Node) | Удаляет узел из коллекции и из документа. |
+| [RemoveAt](../../aspose.words/nodecollection/removeat/)(int) | Удаляет узел с указанным индексом из коллекции и из документа. |
+| [ToArray](../../aspose.words/headerfootercollection/toarray/#toarray)() | Копирует все`ЗаголовокFooter` s из коллекции в новый массив`ЗаголовокFooter` с. (2 methods) |
 
 ### Примечания
 
 Может быть максимум один **Верхний колонтитул**
 
-каждого[`HeaderFooterType`](../headerfootertype) per  **Раздел** .
+каждого[`HeaderFooterType`](../headerfootertype/) per  **Раздел** .
 
 **Верхний колонтитул** объекты могут встречаться в коллекции в любом порядке.
 
@@ -108,8 +108,8 @@ doc.Save(ArtifactsDir + "HeaderFooter.Create.docx");
 
 ### Смотрите также
 
-* class [NodeCollection](../nodecollection)
-* пространство имен [Aspose.Words](../../aspose.words)
+* class [NodeCollection](../nodecollection/)
+* пространство имен [Aspose.Words](../../aspose.words/)
 * сборка [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

@@ -18,33 +18,33 @@ public class ListCollection : IEnumerable<List>
 
 | Имя | Описание |
 | --- | --- |
-| [Count](../../aspose.words.lists/listcollection/count) { get; } | Получает количество нумерованных и маркированных списков в документе. |
-| [Document](../../aspose.words.lists/listcollection/document) { get; } | Получает документ владельца. |
-| [Item](../../aspose.words.lists/listcollection/item) { get; } | Получает список по индексу. |
+| [Count](../../aspose.words.lists/listcollection/count/) { get; } | Получает количество нумерованных и маркированных списков в документе. |
+| [Document](../../aspose.words.lists/listcollection/document/) { get; } | Получает документ владельца. |
+| [Item](../../aspose.words.lists/listcollection/item/) { get; } | Получает список по индексу. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [Add](../../aspose.words.lists/listcollection/add#add)(ListTemplate) | Создает новый список на основе предопределенного шаблона и добавляет его в коллекцию списков в документе. |
-| [Add](../../aspose.words.lists/listcollection/add#add_1)(Style) | Создает новый список, который ссылается на стиль списка, и добавляет его в коллекцию списков в документе. |
-| [AddCopy](../../aspose.words.lists/listcollection/addcopy)(List) | Создает новый список, копируя указанный список и добавляя его в коллекцию списков в документе. |
-| [GetEnumerator](../../aspose.words.lists/listcollection/getenumerator)() | Получает объект перечислителя, который будет перечислять списки в документе. |
-| [GetListByListId](../../aspose.words.lists/listcollection/getlistbylistid)(int) | Получает список по идентификатору списка. |
+| [Add](../../aspose.words.lists/listcollection/add/#add)(ListTemplate) | Создает новый список на основе предопределенного шаблона и добавляет его в коллекцию списков в документе. |
+| [Add](../../aspose.words.lists/listcollection/add/#add_1)(Style) | Создает новый список, который ссылается на стиль списка, и добавляет его в коллекцию списков в документе. |
+| [AddCopy](../../aspose.words.lists/listcollection/addcopy/)(List) | Создает новый список, копируя указанный список и добавляя его в коллекцию списков в документе. |
+| [GetEnumerator](../../aspose.words.lists/listcollection/getenumerator/)() | Получает объект перечислителя, который будет перечислять списки в документе. |
+| [GetListByListId](../../aspose.words.lists/listcollection/getlistbylistid/)(int) | Получает список по идентификатору списка. |
 
 ### Примечания
 
-Список в документе Microsoft Word представляет собой набор свойств форматирования списка. Форматирование списков хранится в[`ListCollection`](../listcollection) сбор отдельно от абзацев текста.
+Список в документе Microsoft Word представляет собой набор свойств форматирования списка. Форматирование списков хранится в[`ListCollection`](./listcollection/) сбор отдельно от абзацев текста.
 
-Вы не создаете объекты этого класса. Всегда есть только один[`ListCollection`](../listcollection) объекта на документ, и он доступен через[`Lists`](../../aspose.words/documentbase/lists) имущество.
+Вы не создаете объекты этого класса. Всегда есть только один[`ListCollection`](./listcollection/) объекта на документ, и он доступен через[`Lists`](../../aspose.words/documentbase/lists/) имущество.
 
-Чтобы создать новый список на основе предопределенного шаблона списка или на основе стиля списка, используйте команду[`Add`](./add) метод.
+Чтобы создать новый список на основе предопределенного шаблона списка или на основе стиля списка, используйте команду[`Add`](./add/) метод.
 
-Чтобы создать новый список с форматированием, идентичным существующему списку, используйте команду[`AddCopy`](./addcopy) метод.
+Чтобы создать новый список с форматированием, идентичным существующему списку, используйте команду[`AddCopy`](./addcopy/) метод.
 
-Чтобы сделать абзац маркированным или пронумерованным, необходимо применить к абзацу list formatting , назначив[`List`](../list) возражать против the [`List`](../listformat/list) свойство[`ListFormat`](../listformat).
+Чтобы сделать абзац маркированным или пронумерованным, необходимо применить к абзацу list formatting , назначив[`List`](../list/) возражать против the [`List`](../listformat/list/) свойство[`ListFormat`](../listformat/).
 
-Чтобы удалить форматирование списка из абзаца, используйте[`RemoveNumbers`](../listformat/removenumbers) метод.
+Чтобы удалить форматирование списка из абзаца, используйте[`RemoveNumbers`](../listformat/removenumbers/) метод.
 
 Если вы немного знакомы с WordprocessingML, то, возможно, знаете, что он определяет отдельные понятия concept для «списка» и «определения списка». Это в точности соответствует тому, как форматирование списка хранится в документе Microsoft Word на низком уровне. Определение списка похоже на «схему», а список похож на экземпляр определения списка.
 
@@ -177,8 +177,8 @@ doc.Save(ArtifactsDir + "Lists.SpecifyListLevel.docx");
 
 ### Смотрите также
 
-* class [List](../list)
-* пространство имен [Aspose.Words.Lists](../../aspose.words.lists)
+* class [List](../list/)
+* пространство имен [Aspose.Words.Lists](../../aspose.words.lists/)
 * сборка [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

@@ -18,45 +18,45 @@ public class BookmarkStart : Node
 
 | Имя | Описание |
 | --- | --- |
-| [BookmarkStart](bookmarkstart)(DocumentBase, string) | Инициализирует новый экземпляр[`BookmarkStart`](../bookmarkstart) класс. |
+| [BookmarkStart](bookmarkstart/)(DocumentBase, string) | Инициализирует новый экземпляр[`BookmarkStart`](./bookmarkstart/) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [Bookmark](../../aspose.words/bookmarkstart/bookmark) { get; } | Получает объект фасада, который инкапсулирует начало и конец этой закладки. |
-| [CustomNodeId](../../aspose.words/node/customnodeid) { get; set; } | Указывает идентификатор пользовательского узла. |
-| virtual [Document](../../aspose.words/node/document) { get; } | Получает документ, которому принадлежит этот узел. |
-| virtual [IsComposite](../../aspose.words/node/iscomposite) { get; } | Возвращает true, если этот узел может содержать другие узлы. |
-| [Name](../../aspose.words/bookmarkstart/name) { get; set; } | Получает или задает имя закладки. |
-| [NextSibling](../../aspose.words/node/nextsibling) { get; } | Получает узел, следующий сразу за этим узлом. |
-| override [NodeType](../../aspose.words/bookmarkstart/nodetype) { get; } | ВозвращаетBookmarkStart . |
-| [ParentNode](../../aspose.words/node/parentnode) { get; } | Получает непосредственного родителя этого узла. |
-| [PreviousSibling](../../aspose.words/node/previoussibling) { get; } | Получает узел, непосредственно предшествующий этому узлу. |
-| [Range](../../aspose.words/node/range) { get; } | Возвращает **Диапазон** объект, представляющий часть документа, содержащегося в этом узле. |
+| [Bookmark](../../aspose.words/bookmarkstart/bookmark/) { get; } | Получает объект фасада, который инкапсулирует начало и конец этой закладки. |
+| [CustomNodeId](../../aspose.words/node/customnodeid/) { get; set; } | Указывает идентификатор пользовательского узла. |
+| virtual [Document](../../aspose.words/node/document/) { get; } | Получает документ, которому принадлежит этот узел. |
+| virtual [IsComposite](../../aspose.words/node/iscomposite/) { get; } | Возвращает true, если этот узел может содержать другие узлы. |
+| [Name](../../aspose.words/bookmarkstart/name/) { get; set; } | Получает или задает имя закладки. |
+| [NextSibling](../../aspose.words/node/nextsibling/) { get; } | Получает узел, следующий сразу за этим узлом. |
+| override [NodeType](../../aspose.words/bookmarkstart/nodetype/) { get; } | ВозвращаетBookmarkStart . |
+| [ParentNode](../../aspose.words/node/parentnode/) { get; } | Получает непосредственного родителя этого узла. |
+| [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Получает узел, непосредственно предшествующий этому узлу. |
+| [Range](../../aspose.words/node/range/) { get; } | Возвращает **Диапазон** объект, представляющий часть документа, содержащегося в этом узле. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| override [Accept](../../aspose.words/bookmarkstart/accept)(DocumentVisitor) | Принимает посетителя. |
-| [Clone](../../aspose.words/node/clone)(bool) | Создает дубликат узла. |
-| [GetAncestor](../../aspose.words/node/getancestor)(NodeType) | Получает первого предка указанного[`NodeType`](../nodetype) . |
-| [GetAncestor](../../aspose.words/node/getancestor)(Type) | Получает первого предка указанного типа объекта. |
-| override [GetText](../../aspose.words/bookmarkstart/gettext)() | Возвращает пустую строку. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder)(Node) | Получает следующий узел в соответствии с алгоритмом обхода дерева предварительного порядка. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder)(Node) | Получает предыдущий узел в соответствии с алгоритмом обхода дерева предварительного порядка. |
-| [Remove](../../aspose.words/node/remove)() | Удаляет себя из родителя. |
-| [ToString](../../aspose.words/node/tostring)(SaveFormat) | Экспортирует содержимое узла в строку в указанном формате. |
-| [ToString](../../aspose.words/node/tostring)(SaveOptions) | Экспортирует содержимое узла в строку, используя указанные параметры сохранения. |
+| override [Accept](../../aspose.words/bookmarkstart/accept/)(DocumentVisitor) | Принимает посетителя. |
+| [Clone](../../aspose.words/node/clone/)(bool) | Создает дубликат узла. |
+| [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | Получает первого предка указанного[`NodeType`](../nodetype/) . |
+| [GetAncestor](../../aspose.words/node/getancestor/)(Type) | Получает первого предка указанного типа объекта. |
+| override [GetText](../../aspose.words/bookmarkstart/gettext/)() | Возвращает пустую строку. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | Получает следующий узел в соответствии с алгоритмом обхода дерева предварительного порядка. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | Получает предыдущий узел в соответствии с алгоритмом обхода дерева предварительного порядка. |
+| [Remove](../../aspose.words/node/remove/)() | Удаляет себя из родителя. |
+| [ToString](../../aspose.words/node/tostring/)(SaveFormat) | Экспортирует содержимое узла в строку в указанном формате. |
+| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | Экспортирует содержимое узла в строку, используя указанные параметры сохранения. |
 
 ### Примечания
 
-Полная закладка в документе Word состоит из[`BookmarkStart`](../bookmarkstart) и соответствующий[`BookmarkEnd`](../bookmarkend) с тем же названием закладки.
+Полная закладка в документе Word состоит из[`BookmarkStart`](./bookmarkstart/) и соответствующий[`BookmarkEnd`](../bookmarkend/) с тем же названием закладки.
 
-[`BookmarkStart`](../bookmarkstart) а также[`BookmarkEnd`](../bookmarkend) являются просто маркерами внутри document , которые указывают, где закладка начинается и заканчивается.
+[`BookmarkStart`](./bookmarkstart/) а также[`BookmarkEnd`](../bookmarkend/) являются просто маркерами внутри document , которые указывают, где закладка начинается и заканчивается.
 
-Использовать[`Bookmark`](./bookmark) class как «фасад» для работы с bookmark как с единым объектом.
+Использовать[`Bookmark`](./bookmark/) class как «фасад» для работы с bookmark как с единым объектом.
 
 ### Примеры
 
@@ -147,8 +147,8 @@ public class BookmarkInfoPrinter : DocumentVisitor
 
 ### Смотрите также
 
-* class [Node](../node)
-* пространство имен [Aspose.Words](../../aspose.words)
+* class [Node](../node/)
+* пространство имен [Aspose.Words](../../aspose.words/)
 * сборка [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

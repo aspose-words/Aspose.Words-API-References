@@ -18,17 +18,17 @@ public class SignatureLine
 
 | Имя | Описание |
 | --- | --- |
-| [AllowComments](../../aspose.words.drawing/signatureline/allowcomments) { get; set; } | Получает или задает значение, указывающее, что подписывающая сторона может добавлять комментарии в диалоговом окне «Подписание». Значение по умолчанию для этого свойства: **ЛОЖЬ** . |
-| [DefaultInstructions](../../aspose.words.drawing/signatureline/defaultinstructions) { get; set; } | Получает или задает значение, указывающее, что инструкции по умолчанию отображаются в диалоговом окне Sign. Значение по умолчанию для этого свойства: **истинный** . |
-| [Email](../../aspose.words.drawing/signatureline/email) { get; set; } | Получает или задает предполагаемый адрес электронной почты подписывающей стороны. Значение по умолчанию для этого свойства: **пустой строки** (Empty ). |
-| [Id](../../aspose.words.drawing/signatureline/id) { get; set; } | Получает или устанавливает идентификатор для этой строки подписи. |
-| [Instructions](../../aspose.words.drawing/signatureline/instructions) { get; set; } | Получает или задает инструкции для подписывающей стороны, которые отображаются при подписании строки подписи. Это свойство игнорируется, если[`DefaultInstructions`](./defaultinstructions) установлено. Значение по умолчанию для этого свойства **пустой строки** (Empty ). |
-| [IsSigned](../../aspose.words.drawing/signatureline/issigned) { get; } | Указывает, что строка подписи подписана цифровой подписью. |
-| [IsValid](../../aspose.words.drawing/signatureline/isvalid) { get; } | Указывает, что строка подписи подписана цифровой подписью и эта цифровая подпись действительна. |
-| [ProviderId](../../aspose.words.drawing/signatureline/providerid) { get; set; } | Получает или задает идентификатор поставщика подписи для этой строки подписи. Значение по умолчанию: "{00000000-0000-0000-0000-000000000000}". |
-| [ShowDate](../../aspose.words.drawing/signatureline/showdate) { get; set; } | Получает или задает значение, указывающее, что дата подписания отображается в строке подписи. Значение по умолчанию для этого свойства: **истинный** . |
-| [Signer](../../aspose.words.drawing/signatureline/signer) { get; set; } | Получает или задает предполагаемую подписывающую сторону строки подписи. Значение по умолчанию для этого свойства: **пустой строки** (Empty ). |
-| [SignerTitle](../../aspose.words.drawing/signatureline/signertitle) { get; set; } | Получает или задает предлагаемый титул подписавшего (например, Менеджер). Значение по умолчанию для этого свойства: **пустой строки** (Empty ). |
+| [AllowComments](../../aspose.words.drawing/signatureline/allowcomments/) { get; set; } | Получает или задает значение, указывающее, что подписывающая сторона может добавлять комментарии в диалоговом окне «Подписание». Значение по умолчанию для этого свойства: **ЛОЖЬ** . |
+| [DefaultInstructions](../../aspose.words.drawing/signatureline/defaultinstructions/) { get; set; } | Получает или задает значение, указывающее, что инструкции по умолчанию отображаются в диалоговом окне Sign. Значение по умолчанию для этого свойства: **истинный** . |
+| [Email](../../aspose.words.drawing/signatureline/email/) { get; set; } | Получает или задает предполагаемый адрес электронной почты подписывающей стороны. Значение по умолчанию для этого свойства: **пустой строки** (Empty ). |
+| [Id](../../aspose.words.drawing/signatureline/id/) { get; set; } | Получает или устанавливает идентификатор для этой строки подписи. |
+| [Instructions](../../aspose.words.drawing/signatureline/instructions/) { get; set; } | Получает или задает инструкции для подписывающей стороны, которые отображаются при подписании строки подписи. Это свойство игнорируется, если[`DefaultInstructions`](./defaultinstructions/) установлено. Значение по умолчанию для этого свойства **пустой строки** (Empty ). |
+| [IsSigned](../../aspose.words.drawing/signatureline/issigned/) { get; } | Указывает, что строка подписи подписана цифровой подписью. |
+| [IsValid](../../aspose.words.drawing/signatureline/isvalid/) { get; } | Указывает, что строка подписи подписана цифровой подписью и эта цифровая подпись действительна. |
+| [ProviderId](../../aspose.words.drawing/signatureline/providerid/) { get; set; } | Получает или задает идентификатор поставщика подписи для этой строки подписи. Значение по умолчанию: "{00000000-0000-0000-0000-000000000000}". |
+| [ShowDate](../../aspose.words.drawing/signatureline/showdate/) { get; set; } | Получает или задает значение, указывающее, что дата подписания отображается в строке подписи. Значение по умолчанию для этого свойства: **истинный** . |
+| [Signer](../../aspose.words.drawing/signatureline/signer/) { get; set; } | Получает или задает предполагаемую подписывающую сторону строки подписи. Значение по умолчанию для этого свойства: **пустой строки** (Empty ). |
+| [SignerTitle](../../aspose.words.drawing/signatureline/signertitle/) { get; set; } | Получает или задает предлагаемый титул подписавшего (например, Менеджер). Значение по умолчанию для этого свойства: **пустой строки** (Empty ). |
 
 ### Примеры
 
@@ -74,7 +74,7 @@ doc.Save(ArtifactsDir + "Shape.SignatureLine.docx");
 
 ### Смотрите также
 
-* пространство имен [Aspose.Words.Drawing](../../aspose.words.drawing)
+* пространство имен [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

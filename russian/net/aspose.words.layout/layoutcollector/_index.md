@@ -18,31 +18,31 @@ public class LayoutCollector
 
 | Имя | Описание |
 | --- | --- |
-| [LayoutCollector](layoutcollector)(Document) | Инициализирует экземпляр этого класса. |
+| [LayoutCollector](layoutcollector/)(Document) | Инициализирует экземпляр этого класса. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [Document](../../aspose.words.layout/layoutcollector/document) { get; set; } | Получает или задает документ, к которому прикреплен этот экземпляр сборщика. |
+| [Document](../../aspose.words.layout/layoutcollector/document/) { get; set; } | Получает или задает документ, к которому прикреплен этот экземпляр сборщика. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [Clear](../../aspose.words.layout/layoutcollector/clear)() | Очищает все собранные данные макета. Вызовите этот метод после обновления документа вручную или перестроения макета. |
-| [GetEndPageIndex](../../aspose.words.layout/layoutcollector/getendpageindex)(Node) | Получает отсчитываемый от 1 индекс страницы, на которой заканчивается узел. Возвращает 0, если узел не может быть сопоставлен со страницей. |
-| [GetEntity](../../aspose.words.layout/layoutcollector/getentity)(Node) | Возвращает непрозрачную позицию[`LayoutEnumerator`](../layoutenumerator) который соответствует указанному узлу. Вы можете использовать возвращаемое значение в качестве аргумента для[`Current`](../layoutenumerator/current) учитывая, что перечисляемый документ be и документ узла совпадают. |
-| [GetNumPagesSpanned](../../aspose.words.layout/layoutcollector/getnumpagesspanned)(Node) | Получает количество страниц, которые охватывает указанный узел. 0, если узел находится на одной странице. Это то же самое, что и[`GetEndPageIndex`](./getendpageindex) -[`GetStartPageIndex`](./getstartpageindex) . |
-| [GetStartPageIndex](../../aspose.words.layout/layoutcollector/getstartpageindex)(Node) | Получает отсчитываемый от 1 индекс страницы, с которой начинается узел. Возвращает 0, если узел не может быть сопоставлен со страницей. |
+| [Clear](../../aspose.words.layout/layoutcollector/clear/)() | Очищает все собранные данные макета. Вызовите этот метод после обновления документа вручную или перестроения макета. |
+| [GetEndPageIndex](../../aspose.words.layout/layoutcollector/getendpageindex/)(Node) | Получает отсчитываемый от 1 индекс страницы, на которой заканчивается узел. Возвращает 0, если узел не может быть сопоставлен со страницей. |
+| [GetEntity](../../aspose.words.layout/layoutcollector/getentity/)(Node) | Возвращает непрозрачную позицию[`LayoutEnumerator`](../layoutenumerator/) который соответствует указанному узлу. Вы можете использовать возвращаемое значение в качестве аргумента для[`Current`](../layoutenumerator/current/) учитывая, что перечисляемый документ be и документ узла совпадают. |
+| [GetNumPagesSpanned](../../aspose.words.layout/layoutcollector/getnumpagesspanned/)(Node) | Получает количество страниц, которые охватывает указанный узел. 0, если узел находится на одной странице. Это то же самое, что и[`GetEndPageIndex`](./getendpageindex/) -[`GetStartPageIndex`](./getstartpageindex/) . |
+| [GetStartPageIndex](../../aspose.words.layout/layoutcollector/getstartpageindex/)(Node) | Получает отсчитываемый от 1 индекс страницы, с которой начинается узел. Возвращает 0, если узел не может быть сопоставлен со страницей. |
 
 ### Примечания
 
-Когда вы создаете[`LayoutCollector`](../layoutcollector) и указать[`Document`](../../aspose.words/document)объект документа для присоединения, сборщик запишет сопоставление узлов документа с объектами макета, когда документ отформатирован в страницы.
+Когда вы создаете[`LayoutCollector`](./layoutcollector/) и указать[`Document`](../../aspose.words/document/)объект документа для присоединения, сборщик запишет сопоставление узлов документа с объектами макета, когда документ отформатирован в страницы.
 
-Вы сможете узнать, на какой странице находится тот или иной узел документа (например, серия, абзац или ячейка таблицы) с помощью[`GetStartPageIndex`](./getstartpageindex) ,[`GetEndPageIndex`](./getendpageindex) а также[`GetNumPagesSpanned`](./getnumpagesspanned) методы. Эти методы автоматически создают модель макета страницы документа и при необходимости обновляют поля.
+Вы сможете узнать, на какой странице находится тот или иной узел документа (например, серия, абзац или ячейка таблицы) с помощью[`GetStartPageIndex`](./getstartpageindex/) ,[`GetEndPageIndex`](./getendpageindex/) а также[`GetNumPagesSpanned`](./getnumpagesspanned/) методы. Эти методы автоматически создают модель макета страницы документа и при необходимости обновляют поля.
 
-Когда вам больше не нужно собирать информацию о макете, лучше всего установить[`Document`](./document) свойство на null , чтобы избежать ненужного сбора дополнительных сопоставлений макета.
+Когда вам больше не нужно собирать информацию о макете, лучше всего установить[`Document`](./document/) свойство на null , чтобы избежать ненужного сбора дополнительных сопоставлений макета.
 
 ### Примеры
 
@@ -101,7 +101,7 @@ Assert.AreEqual("¶", layoutEnumerator.Text);
 
 ### Смотрите также
 
-* пространство имен [Aspose.Words.Layout](../../aspose.words.layout)
+* пространство имен [Aspose.Words.Layout](../../aspose.words.layout/)
 * сборка [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

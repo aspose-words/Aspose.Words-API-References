@@ -18,52 +18,52 @@ public class ParagraphFormat
 
 | Имя | Описание |
 | --- | --- |
-| [AddSpaceBetweenFarEastAndAlpha](../../aspose.words/paragraphformat/addspacebetweenfareastandalpha) { get; set; } | Получает или задает флаг, указывающий, регулируется ли автоматически межсимвольный интервал между регионами латинского текста и регионами восточноазиатского текста в текущем абзаце. |
-| [AddSpaceBetweenFarEastAndDigit](../../aspose.words/paragraphformat/addspacebetweenfareastanddigit) { get; set; } | Получает или задает флаг, указывающий, регулируется ли автоматически межсимвольный интервал между регионами чисел и регионами восточноазиатского текста в текущем абзаце. |
-| [Alignment](../../aspose.words/paragraphformat/alignment) { get; set; } | Получает или задает выравнивание текста для абзаца. |
-| [Bidi](../../aspose.words/paragraphformat/bidi) { get; set; } | Получает или задает, является ли это абзацем с письмом справа налево. |
-| [Borders](../../aspose.words/paragraphformat/borders) { get; } | Получает набор границ абзаца. |
-| [CharacterUnitFirstLineIndent](../../aspose.words/paragraphformat/characterunitfirstlineindent) { get; set; } | Получает или задает значение (в символах) для первой строки или висячего отступа. |
-| [CharacterUnitLeftIndent](../../aspose.words/paragraphformat/characterunitleftindent) { get; set; } | Получает или задает значение отступа слева (в символах) для указанных абзацев. |
-| [CharacterUnitRightIndent](../../aspose.words/paragraphformat/characterunitrightindent) { get; set; } | Получает или задает правильное значение отступа (в символах) для указанных абзацев. |
-| [DropCapPosition](../../aspose.words/paragraphformat/dropcapposition) { get; set; } | Получает или задает положение текста буквицы. |
-| [FarEastLineBreakControl](../../aspose.words/paragraphformat/fareastlinebreakcontrol) { get; set; } | Получает или задает флаг, указывающий, применяются ли восточноазиатские правила разрыва строк к текущему абзацу. |
-| [FirstLineIndent](../../aspose.words/paragraphformat/firstlineindent) { get; set; } | Получает или задает значение (в пунктах) для первой строки или висячего отступа. |
-| [HangingPunctuation](../../aspose.words/paragraphformat/hangingpunctuation) { get; set; } | Получает или устанавливает флаг, указывающий, включена ли для текущего абзаца висячая пунктуация. |
-| [IsHeading](../../aspose.words/paragraphformat/isheading) { get; } | Истинно, если стиль абзаца является одним из встроенных стилей заголовков. |
-| [IsListItem](../../aspose.words/paragraphformat/islistitem) { get; } | Истинно, если абзац является элементом маркированного или нумерованного списка. |
-| [KeepTogether](../../aspose.words/paragraphformat/keeptogether) { get; set; } | Истинно, если все строки абзаца должны оставаться на одной странице. |
-| [KeepWithNext](../../aspose.words/paragraphformat/keepwithnext) { get; set; } | Истинно, если абзац должен оставаться на той же странице, что и следующий за ним абзац. |
-| [LeftIndent](../../aspose.words/paragraphformat/leftindent) { get; set; } | Получает или задает значение (в пунктах), представляющее отступ слева для абзаца. |
-| [LineSpacing](../../aspose.words/paragraphformat/linespacing) { get; set; } | Получает или задает межстрочный интервал (в пунктах) для абзаца. |
-| [LineSpacingRule](../../aspose.words/paragraphformat/linespacingrule) { get; set; } | Получает или задает межстрочный интервал для абзаца. |
-| [LinesToDrop](../../aspose.words/paragraphformat/linestodrop) { get; set; } | Получает или задает количество строк текста абзаца, используемого для расчета высоты буквицы. |
-| [LineUnitAfter](../../aspose.words/paragraphformat/lineunitafter) { get; set; } | Получает или задает величину интервала (в линиях сетки) после абзацев. |
-| [LineUnitBefore](../../aspose.words/paragraphformat/lineunitbefore) { get; set; } | Получает или задает величину интервала (в линиях сетки) перед абзацами. |
-| [NoSpaceBetweenParagraphsOfSameStyle](../../aspose.words/paragraphformat/nospacebetweenparagraphsofsamestyle) { get; set; } | Если верно,[`SpaceBefore`](./spacebefore) а также[`SpaceAfter`](./spaceafter) будет игнорироваться между абзацами одного стиля. |
-| [OutlineLevel](../../aspose.words/paragraphformat/outlinelevel) { get; set; } | Указывает уровень структуры абзаца в документе. |
-| [PageBreakBefore](../../aspose.words/paragraphformat/pagebreakbefore) { get; set; } | Истинно, если разрыв страницы принудительно ставится перед абзацем. |
-| [RightIndent](../../aspose.words/paragraphformat/rightindent) { get; set; } | Получает или задает значение (в пунктах), представляющее правый отступ для абзаца. |
-| [Shading](../../aspose.words/paragraphformat/shading) { get; } | Возвращает объект Shading, который ссылается на форматирование затенения абзаца. |
-| [SnapToGrid](../../aspose.words/paragraphformat/snaptogrid) { get; set; } | Указывает, должен ли текущий абзац использовать настройки линий сетки документа на странице при расположении содержимого в абзаце. |
-| [SpaceAfter](../../aspose.words/paragraphformat/spaceafter) { get; set; } | Получает или задает величину интервала (в пунктах) после абзаца. |
-| [SpaceAfterAuto](../../aspose.words/paragraphformat/spaceafterauto) { get; set; } | Истинно, если интервал после абзаца устанавливается автоматически. |
-| [SpaceBefore](../../aspose.words/paragraphformat/spacebefore) { get; set; } | Получает или задает величину интервала (в пунктах) перед абзацем. |
-| [SpaceBeforeAuto](../../aspose.words/paragraphformat/spacebeforeauto) { get; set; } | Истинно, если интервал перед абзацем устанавливается автоматически. |
-| [Style](../../aspose.words/paragraphformat/style) { get; set; } | Получает или задает стиль абзаца, применяемый к этому форматированию. |
-| [StyleIdentifier](../../aspose.words/paragraphformat/styleidentifier) { get; set; } | Получает или задает независимый от языкового стандарта идентификатор стиля абзаца, применяемого к данному форматированию. |
-| [StyleName](../../aspose.words/paragraphformat/stylename) { get; set; } | Получает или задает имя стиля абзаца, примененного к этому форматированию. |
-| [SuppressAutoHyphens](../../aspose.words/paragraphformat/suppressautohyphens) { get; set; } | Указывает, должен ли текущий абзац быть освобожден от любых переносов, которые применяются в настройках документа. |
-| [SuppressLineNumbers](../../aspose.words/paragraphformat/suppresslinenumbers) { get; set; } | Указывает, следует ли исключить строки текущего абзаца из нумерации строк , которая применяется в родительском разделе. |
-| [TabStops](../../aspose.words/paragraphformat/tabstops) { get; } | Получает коллекцию пользовательских позиций табуляции, определенных для этого объекта. |
-| [WidowControl](../../aspose.words/paragraphformat/widowcontrol) { get; set; } | Истинно, если первая и последняя строки в абзаце должны оставаться на той же странице, что и остальная часть абзаца. |
-| [WordWrap](../../aspose.words/paragraphformat/wordwrap) { get; set; } | Если это свойство **ЛОЖЬ** латинский текст в середине слова можно переносить на текущего абзаца. В противном случае латинский текст переносится целыми словами. |
+| [AddSpaceBetweenFarEastAndAlpha](../../aspose.words/paragraphformat/addspacebetweenfareastandalpha/) { get; set; } | Получает или задает флаг, указывающий, регулируется ли автоматически межсимвольный интервал между регионами латинского текста и регионами восточноазиатского текста в текущем абзаце. |
+| [AddSpaceBetweenFarEastAndDigit](../../aspose.words/paragraphformat/addspacebetweenfareastanddigit/) { get; set; } | Получает или задает флаг, указывающий, регулируется ли автоматически межсимвольный интервал между регионами чисел и регионами восточноазиатского текста в текущем абзаце. |
+| [Alignment](../../aspose.words/paragraphformat/alignment/) { get; set; } | Получает или задает выравнивание текста для абзаца. |
+| [Bidi](../../aspose.words/paragraphformat/bidi/) { get; set; } | Получает или задает, является ли это абзацем с письмом справа налево. |
+| [Borders](../../aspose.words/paragraphformat/borders/) { get; } | Получает набор границ абзаца. |
+| [CharacterUnitFirstLineIndent](../../aspose.words/paragraphformat/characterunitfirstlineindent/) { get; set; } | Получает или задает значение (в символах) для первой строки или висячего отступа. |
+| [CharacterUnitLeftIndent](../../aspose.words/paragraphformat/characterunitleftindent/) { get; set; } | Получает или задает значение отступа слева (в символах) для указанных абзацев. |
+| [CharacterUnitRightIndent](../../aspose.words/paragraphformat/characterunitrightindent/) { get; set; } | Получает или задает правильное значение отступа (в символах) для указанных абзацев. |
+| [DropCapPosition](../../aspose.words/paragraphformat/dropcapposition/) { get; set; } | Получает или задает положение текста буквицы. |
+| [FarEastLineBreakControl](../../aspose.words/paragraphformat/fareastlinebreakcontrol/) { get; set; } | Получает или задает флаг, указывающий, применяются ли восточноазиатские правила разрыва строк к текущему абзацу. |
+| [FirstLineIndent](../../aspose.words/paragraphformat/firstlineindent/) { get; set; } | Получает или задает значение (в пунктах) для первой строки или висячего отступа. |
+| [HangingPunctuation](../../aspose.words/paragraphformat/hangingpunctuation/) { get; set; } | Получает или устанавливает флаг, указывающий, включена ли для текущего абзаца висячая пунктуация. |
+| [IsHeading](../../aspose.words/paragraphformat/isheading/) { get; } | Истинно, если стиль абзаца является одним из встроенных стилей заголовков. |
+| [IsListItem](../../aspose.words/paragraphformat/islistitem/) { get; } | Истинно, если абзац является элементом маркированного или нумерованного списка. |
+| [KeepTogether](../../aspose.words/paragraphformat/keeptogether/) { get; set; } | Истинно, если все строки абзаца должны оставаться на одной странице. |
+| [KeepWithNext](../../aspose.words/paragraphformat/keepwithnext/) { get; set; } | Истинно, если абзац должен оставаться на той же странице, что и следующий за ним абзац. |
+| [LeftIndent](../../aspose.words/paragraphformat/leftindent/) { get; set; } | Получает или задает значение (в пунктах), представляющее отступ слева для абзаца. |
+| [LineSpacing](../../aspose.words/paragraphformat/linespacing/) { get; set; } | Получает или задает межстрочный интервал (в пунктах) для абзаца. |
+| [LineSpacingRule](../../aspose.words/paragraphformat/linespacingrule/) { get; set; } | Получает или задает межстрочный интервал для абзаца. |
+| [LinesToDrop](../../aspose.words/paragraphformat/linestodrop/) { get; set; } | Получает или задает количество строк текста абзаца, используемого для расчета высоты буквицы. |
+| [LineUnitAfter](../../aspose.words/paragraphformat/lineunitafter/) { get; set; } | Получает или задает величину интервала (в линиях сетки) после абзацев. |
+| [LineUnitBefore](../../aspose.words/paragraphformat/lineunitbefore/) { get; set; } | Получает или задает величину интервала (в линиях сетки) перед абзацами. |
+| [NoSpaceBetweenParagraphsOfSameStyle](../../aspose.words/paragraphformat/nospacebetweenparagraphsofsamestyle/) { get; set; } | Если верно,[`SpaceBefore`](./spacebefore/) а также[`SpaceAfter`](./spaceafter/) будет игнорироваться между абзацами одного стиля. |
+| [OutlineLevel](../../aspose.words/paragraphformat/outlinelevel/) { get; set; } | Указывает уровень структуры абзаца в документе. |
+| [PageBreakBefore](../../aspose.words/paragraphformat/pagebreakbefore/) { get; set; } | Истинно, если разрыв страницы принудительно ставится перед абзацем. |
+| [RightIndent](../../aspose.words/paragraphformat/rightindent/) { get; set; } | Получает или задает значение (в пунктах), представляющее правый отступ для абзаца. |
+| [Shading](../../aspose.words/paragraphformat/shading/) { get; } | Возвращает объект Shading, который ссылается на форматирование затенения абзаца. |
+| [SnapToGrid](../../aspose.words/paragraphformat/snaptogrid/) { get; set; } | Указывает, должен ли текущий абзац использовать настройки линий сетки документа на странице при расположении содержимого в абзаце. |
+| [SpaceAfter](../../aspose.words/paragraphformat/spaceafter/) { get; set; } | Получает или задает величину интервала (в пунктах) после абзаца. |
+| [SpaceAfterAuto](../../aspose.words/paragraphformat/spaceafterauto/) { get; set; } | Истинно, если интервал после абзаца устанавливается автоматически. |
+| [SpaceBefore](../../aspose.words/paragraphformat/spacebefore/) { get; set; } | Получает или задает величину интервала (в пунктах) перед абзацем. |
+| [SpaceBeforeAuto](../../aspose.words/paragraphformat/spacebeforeauto/) { get; set; } | Истинно, если интервал перед абзацем устанавливается автоматически. |
+| [Style](../../aspose.words/paragraphformat/style/) { get; set; } | Получает или задает стиль абзаца, применяемый к этому форматированию. |
+| [StyleIdentifier](../../aspose.words/paragraphformat/styleidentifier/) { get; set; } | Получает или задает независимый от языкового стандарта идентификатор стиля абзаца, применяемого к данному форматированию. |
+| [StyleName](../../aspose.words/paragraphformat/stylename/) { get; set; } | Получает или задает имя стиля абзаца, примененного к этому форматированию. |
+| [SuppressAutoHyphens](../../aspose.words/paragraphformat/suppressautohyphens/) { get; set; } | Указывает, должен ли текущий абзац быть освобожден от любых переносов, которые применяются в настройках документа. |
+| [SuppressLineNumbers](../../aspose.words/paragraphformat/suppresslinenumbers/) { get; set; } | Указывает, следует ли исключить строки текущего абзаца из нумерации строк , которая применяется в родительском разделе. |
+| [TabStops](../../aspose.words/paragraphformat/tabstops/) { get; } | Получает коллекцию пользовательских позиций табуляции, определенных для этого объекта. |
+| [WidowControl](../../aspose.words/paragraphformat/widowcontrol/) { get; set; } | Истинно, если первая и последняя строки в абзаце должны оставаться на той же странице, что и остальная часть абзаца. |
+| [WordWrap](../../aspose.words/paragraphformat/wordwrap/) { get; set; } | Если это свойство **ЛОЖЬ** латинский текст в середине слова можно переносить на текущего абзаца. В противном случае латинский текст переносится целыми словами. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [ClearFormatting](../../aspose.words/paragraphformat/clearformatting)() | Восстанавливает форматирование абзаца по умолчанию. |
+| [ClearFormatting](../../aspose.words/paragraphformat/clearformatting/)() | Восстанавливает форматирование абзаца по умолчанию. |
 
 ### Примеры
 
@@ -114,7 +114,7 @@ doc.Save(ArtifactsDir + "Section.CreateManually.docx");
 
 ### Смотрите также
 
-* пространство имен [Aspose.Words](../../aspose.words)
+* пространство имен [Aspose.Words](../../aspose.words/)
 * сборка [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

@@ -18,27 +18,27 @@ public class CellFormat
 
 | Имя | Описание |
 | --- | --- |
-| [Borders](../../aspose.words.tables/cellformat/borders) { get; } | Получает набор границ ячейки. |
-| [BottomPadding](../../aspose.words.tables/cellformat/bottompadding) { get; set; } | Возвращает или задает количество места (в пунктах) для добавления под содержимым ячейки. |
-| [FitText](../../aspose.words.tables/cellformat/fittext) { get; set; } | Если true, текст помещается в ячейку, каждый абзац сжимается до ширины ячейки. |
-| [HorizontalMerge](../../aspose.words.tables/cellformat/horizontalmerge) { get; set; } | Указывает, как ячейка объединяется по горизонтали с другими ячейками в строке. |
-| [LeftPadding](../../aspose.words.tables/cellformat/leftpadding) { get; set; } | Возвращает или задает количество места (в пунктах), которое нужно добавить слева от содержимого ячейки. |
-| [Orientation](../../aspose.words.tables/cellformat/orientation) { get; set; } | Возвращает или задает ориентацию текста в ячейке таблицы. |
-| [PreferredWidth](../../aspose.words.tables/cellformat/preferredwidth) { get; set; } | Возвращает или задает предпочтительную ширину ячейки. |
-| [RightPadding](../../aspose.words.tables/cellformat/rightpadding) { get; set; } | Возвращает или задает количество места (в пунктах), которое нужно добавить справа от содержимого ячейки. |
-| [Shading](../../aspose.words.tables/cellformat/shading) { get; } | Возвращает объект Shading, который ссылается на форматирование затенения для ячейки. |
-| [TopPadding](../../aspose.words.tables/cellformat/toppadding) { get; set; } | Возвращает или задает количество места (в пунктах) для добавления над содержимым ячейки. |
-| [VerticalAlignment](../../aspose.words.tables/cellformat/verticalalignment) { get; set; } | Возвращает или задает вертикальное выравнивание текста в ячейке. |
-| [VerticalMerge](../../aspose.words.tables/cellformat/verticalmerge) { get; set; } | Указывает, как ячейка объединяется с другими ячейками по вертикали. |
-| [Width](../../aspose.words.tables/cellformat/width) { get; set; } | Получает ширину ячейки в пунктах. |
-| [WrapText](../../aspose.words.tables/cellformat/wraptext) { get; set; } | Если true, перенос текста для ячейки. |
+| [Borders](../../aspose.words.tables/cellformat/borders/) { get; } | Получает набор границ ячейки. |
+| [BottomPadding](../../aspose.words.tables/cellformat/bottompadding/) { get; set; } | Возвращает или задает количество места (в пунктах) для добавления под содержимым ячейки. |
+| [FitText](../../aspose.words.tables/cellformat/fittext/) { get; set; } | Если true, текст помещается в ячейку, каждый абзац сжимается до ширины ячейки. |
+| [HorizontalMerge](../../aspose.words.tables/cellformat/horizontalmerge/) { get; set; } | Указывает, как ячейка объединяется по горизонтали с другими ячейками в строке. |
+| [LeftPadding](../../aspose.words.tables/cellformat/leftpadding/) { get; set; } | Возвращает или задает количество места (в пунктах), которое нужно добавить слева от содержимого ячейки. |
+| [Orientation](../../aspose.words.tables/cellformat/orientation/) { get; set; } | Возвращает или задает ориентацию текста в ячейке таблицы. |
+| [PreferredWidth](../../aspose.words.tables/cellformat/preferredwidth/) { get; set; } | Возвращает или задает предпочтительную ширину ячейки. |
+| [RightPadding](../../aspose.words.tables/cellformat/rightpadding/) { get; set; } | Возвращает или задает количество места (в пунктах), которое нужно добавить справа от содержимого ячейки. |
+| [Shading](../../aspose.words.tables/cellformat/shading/) { get; } | Возвращает объект Shading, который ссылается на форматирование затенения для ячейки. |
+| [TopPadding](../../aspose.words.tables/cellformat/toppadding/) { get; set; } | Возвращает или задает количество места (в пунктах) для добавления над содержимым ячейки. |
+| [VerticalAlignment](../../aspose.words.tables/cellformat/verticalalignment/) { get; set; } | Возвращает или задает вертикальное выравнивание текста в ячейке. |
+| [VerticalMerge](../../aspose.words.tables/cellformat/verticalmerge/) { get; set; } | Указывает, как ячейка объединяется с другими ячейками по вертикали. |
+| [Width](../../aspose.words.tables/cellformat/width/) { get; set; } | Получает ширину ячейки в пунктах. |
+| [WrapText](../../aspose.words.tables/cellformat/wraptext/) { get; set; } | Если true, перенос текста для ячейки. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [ClearFormatting](../../aspose.words.tables/cellformat/clearformatting)() | Восстанавливает форматирование ячейки по умолчанию. Не изменяет ширину ячейки. |
-| [SetPaddings](../../aspose.words.tables/cellformat/setpaddings)(double, double, double, double) | Устанавливает количество места (в пунктах) для добавления слева/сверху/справа/снизу содержимого ячейки. |
+| [ClearFormatting](../../aspose.words.tables/cellformat/clearformatting/)() | Восстанавливает форматирование ячейки по умолчанию. Не изменяет ширину ячейки. |
+| [SetPaddings](../../aspose.words.tables/cellformat/setpaddings/)(double, double, double, double) | Устанавливает количество места (в пунктах) для добавления слева/сверху/справа/снизу содержимого ячейки. |
 
 ### Примеры
 
@@ -152,7 +152,7 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTable.docx");
 
 ### Смотрите также
 
-* пространство имен [Aspose.Words.Tables](../../aspose.words.tables)
+* пространство имен [Aspose.Words.Tables](../../aspose.words.tables/)
 * сборка [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

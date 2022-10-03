@@ -1,14 +1,14 @@
 ---
 title: TabStopCollection
 second_title: Справочник по API Aspose.Words для .NET
-description: КоллекцияTabStop./tabstopобъекты представляющие настраиваемые вкладки для абзаца или стиля.
+description: КоллекцияTabStop./tabstop/объекты представляющие настраиваемые вкладки для абзаца или стиля.
 type: docs
 weight: 5910
 url: /ru/net/aspose.words/tabstopcollection/
 ---
 ## TabStopCollection class
 
-Коллекция[`TabStop`](../tabstop)объекты, представляющие настраиваемые вкладки для абзаца или стиля.
+Коллекция[`TabStop`](../tabstop/)объекты, представляющие настраиваемые вкладки для абзаца или стиля.
 
 ```csharp
 public class TabStopCollection : InternableComplexAttr
@@ -18,25 +18,25 @@ public class TabStopCollection : InternableComplexAttr
 
 | Имя | Описание |
 | --- | --- |
-| [Count](../../aspose.words/tabstopcollection/count) { get; } | Получает количество позиций табуляции в коллекции. |
-| [Item](../../aspose.words/tabstopcollection/item) { get; } | Получает позицию табуляции по заданному индексу. (2 indexers) |
+| [Count](../../aspose.words/tabstopcollection/count/) { get; } | Получает количество позиций табуляции в коллекции. |
+| [Item](../../aspose.words/tabstopcollection/item/) { get; } | Получает позицию табуляции по заданному индексу. (2 indexers) |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [Add](../../aspose.words/tabstopcollection/add#add)(TabStop) | Добавляет или заменяет позицию табуляции в коллекции. |
-| [Add](../../aspose.words/tabstopcollection/add#add_1)(double, TabAlignment, TabLeader) | Добавляет или заменяет позицию табуляции в коллекции. |
-| [After](../../aspose.words/tabstopcollection/after)(double) | Получает первую позицию табуляции справа от указанной позиции. |
-| [Before](../../aspose.words/tabstopcollection/before)(double) | Получает первую позицию табуляции слева от указанной позиции. |
-| [Clear](../../aspose.words/tabstopcollection/clear)() | Удаляет все позиции табуляции. |
-| override [Equals](../../aspose.words/tabstopcollection/equals#equals_1)(object) | Определяет, равен ли указанный объект по значению текущему объекту. |
-| [Equals](../../aspose.words/tabstopcollection/equals#equals)(TabStopCollection) | Определяет, равна ли указанная коллекция TabStopCollection по значению текущей коллекции TabStopCollection. |
-| override [GetHashCode](../../aspose.words/tabstopcollection/gethashcode)() | Служит хэш-функцией для этого типа. |
-| [GetIndexByPosition](../../aspose.words/tabstopcollection/getindexbyposition)(double) | Получает индекс позиции табуляции с указанной позицией в пунктах. |
-| [GetPositionByIndex](../../aspose.words/tabstopcollection/getpositionbyindex)(int) | Получает позицию (в пунктах) позиции табуляции по указанному индексу. |
-| [RemoveByIndex](../../aspose.words/tabstopcollection/removebyindex)(int) | Удаляет позицию табуляции по указанному индексу из коллекции. |
-| [RemoveByPosition](../../aspose.words/tabstopcollection/removebyposition)(double) | Удаляет позицию табуляции в указанной позиции из коллекции. |
+| [Add](../../aspose.words/tabstopcollection/add/#add)(TabStop) | Добавляет или заменяет позицию табуляции в коллекции. |
+| [Add](../../aspose.words/tabstopcollection/add/#add_1)(double, TabAlignment, TabLeader) | Добавляет или заменяет позицию табуляции в коллекции. |
+| [After](../../aspose.words/tabstopcollection/after/)(double) | Получает первую позицию табуляции справа от указанной позиции. |
+| [Before](../../aspose.words/tabstopcollection/before/)(double) | Получает первую позицию табуляции слева от указанной позиции. |
+| [Clear](../../aspose.words/tabstopcollection/clear/)() | Удаляет все позиции табуляции. |
+| override [Equals](../../aspose.words/tabstopcollection/equals/#equals_1)(object) | Определяет, равен ли указанный объект по значению текущему объекту. |
+| [Equals](../../aspose.words/tabstopcollection/equals/#equals)(TabStopCollection) | Определяет, равна ли указанная коллекция TabStopCollection по значению текущей коллекции TabStopCollection. |
+| override [GetHashCode](../../aspose.words/tabstopcollection/gethashcode/)() | Служит хэш-функцией для этого типа. |
+| [GetIndexByPosition](../../aspose.words/tabstopcollection/getindexbyposition/)(double) | Получает индекс позиции табуляции с указанной позицией в пунктах. |
+| [GetPositionByIndex](../../aspose.words/tabstopcollection/getpositionbyindex/)(int) | Получает позицию (в пунктах) позиции табуляции по указанному индексу. |
+| [RemoveByIndex](../../aspose.words/tabstopcollection/removebyindex/)(int) | Удаляет позицию табуляции по указанному индексу из коллекции. |
+| [RemoveByPosition](../../aspose.words/tabstopcollection/removebyposition/)(double) | Удаляет позицию табуляции в указанной позиции из коллекции. |
 
 ### Примечания
 
@@ -87,8 +87,8 @@ doc.Save(ArtifactsDir + "TabStopCollection.TabStopCollection.docx");
 
 ### Смотрите также
 
-* class [InternableComplexAttr](../internablecomplexattr)
-* пространство имен [Aspose.Words](../../aspose.words)
+* class [InternableComplexAttr](../internablecomplexattr/)
+* пространство имен [Aspose.Words](../../aspose.words/)
 * сборка [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

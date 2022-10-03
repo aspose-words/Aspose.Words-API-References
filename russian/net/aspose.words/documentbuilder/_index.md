@@ -18,128 +18,128 @@ public class DocumentBuilder
 
 | Имя | Описание |
 | --- | --- |
-| [DocumentBuilder](documentbuilder#constructor)() | Инициализирует новый экземпляр этого класса. |
-| [DocumentBuilder](documentbuilder#constructor_1)(Document) | Инициализирует новый экземпляр этого класса. |
+| [DocumentBuilder](documentbuilder/#constructor)() | Инициализирует новый экземпляр этого класса. |
+| [DocumentBuilder](documentbuilder/#constructor_1)(Document) | Инициализирует новый экземпляр этого класса. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [Bold](../../aspose.words/documentbuilder/bold) { get; set; } | Истинно, если шрифт отформатирован как полужирный. |
-| [CellFormat](../../aspose.words/documentbuilder/cellformat) { get; } | Возвращает объект, представляющий текущие свойства форматирования ячейки таблицы. |
-| [CurrentNode](../../aspose.words/documentbuilder/currentnode) { get; } | Получает узел, выбранный в данный момент в этом DocumentBuilder. |
-| [CurrentParagraph](../../aspose.words/documentbuilder/currentparagraph) { get; } | Получает абзац, выбранный в настоящий момент в этом DocumentBuilder. |
-| [CurrentSection](../../aspose.words/documentbuilder/currentsection) { get; } | Получает раздел, выбранный в данный момент в этом DocumentBuilder. |
-| [CurrentStory](../../aspose.words/documentbuilder/currentstory) { get; } | Получает историю, выбранную в данный момент в этом DocumentBuilder. |
-| [Document](../../aspose.words/documentbuilder/document) { get; set; } | Получает или задает[`Document`](./document) объект, к которому прикреплен этот объект. |
-| [Font](../../aspose.words/documentbuilder/font) { get; } | Возвращает объект, представляющий текущие свойства форматирования шрифта. |
-| [IsAtEndOfParagraph](../../aspose.words/documentbuilder/isatendofparagraph) { get; } | Возвращает true, если курсор находится в конце текущего абзаца. |
-| [IsAtStartOfParagraph](../../aspose.words/documentbuilder/isatstartofparagraph) { get; } | Возвращает true, если курсор находится в начале текущего абзаца (перед курсором нет текста). |
-| [Italic](../../aspose.words/documentbuilder/italic) { get; set; } | Истинно, если шрифт отформатирован как курсив. |
-| [ListFormat](../../aspose.words/documentbuilder/listformat) { get; } | Возвращает объект, представляющий текущие свойства форматирования списка. |
-| [PageSetup](../../aspose.words/documentbuilder/pagesetup) { get; } | Возвращает объект, представляющий текущую настройку страницы и свойства раздела. |
-| [ParagraphFormat](../../aspose.words/documentbuilder/paragraphformat) { get; } | Возвращает объект, представляющий текущие свойства форматирования абзаца. |
-| [RowFormat](../../aspose.words/documentbuilder/rowformat) { get; } | Возвращает объект, представляющий текущие свойства форматирования строки таблицы. |
-| [Underline](../../aspose.words/documentbuilder/underline) { get; set; } | Получает/устанавливает тип подчеркивания для текущего шрифта. |
+| [Bold](../../aspose.words/documentbuilder/bold/) { get; set; } | Истинно, если шрифт отформатирован как полужирный. |
+| [CellFormat](../../aspose.words/documentbuilder/cellformat/) { get; } | Возвращает объект, представляющий текущие свойства форматирования ячейки таблицы. |
+| [CurrentNode](../../aspose.words/documentbuilder/currentnode/) { get; } | Получает узел, выбранный в данный момент в этом DocumentBuilder. |
+| [CurrentParagraph](../../aspose.words/documentbuilder/currentparagraph/) { get; } | Получает абзац, выбранный в настоящий момент в этом DocumentBuilder. |
+| [CurrentSection](../../aspose.words/documentbuilder/currentsection/) { get; } | Получает раздел, выбранный в данный момент в этом DocumentBuilder. |
+| [CurrentStory](../../aspose.words/documentbuilder/currentstory/) { get; } | Получает историю, выбранную в данный момент в этом DocumentBuilder. |
+| [Document](../../aspose.words/documentbuilder/document/) { get; set; } | Получает или задает[`Document`](./document/) объект, к которому прикреплен этот объект. |
+| [Font](../../aspose.words/documentbuilder/font/) { get; } | Возвращает объект, представляющий текущие свойства форматирования шрифта. |
+| [IsAtEndOfParagraph](../../aspose.words/documentbuilder/isatendofparagraph/) { get; } | Возвращает true, если курсор находится в конце текущего абзаца. |
+| [IsAtStartOfParagraph](../../aspose.words/documentbuilder/isatstartofparagraph/) { get; } | Возвращает true, если курсор находится в начале текущего абзаца (перед курсором нет текста). |
+| [Italic](../../aspose.words/documentbuilder/italic/) { get; set; } | Истинно, если шрифт отформатирован как курсив. |
+| [ListFormat](../../aspose.words/documentbuilder/listformat/) { get; } | Возвращает объект, представляющий текущие свойства форматирования списка. |
+| [PageSetup](../../aspose.words/documentbuilder/pagesetup/) { get; } | Возвращает объект, представляющий текущую настройку страницы и свойства раздела. |
+| [ParagraphFormat](../../aspose.words/documentbuilder/paragraphformat/) { get; } | Возвращает объект, представляющий текущие свойства форматирования абзаца. |
+| [RowFormat](../../aspose.words/documentbuilder/rowformat/) { get; } | Возвращает объект, представляющий текущие свойства форматирования строки таблицы. |
+| [Underline](../../aspose.words/documentbuilder/underline/) { get; set; } | Получает/устанавливает тип подчеркивания для текущего шрифта. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [DeleteRow](../../aspose.words/documentbuilder/deleterow)(int, int) | Удаляет строку из таблицы. |
-| [EndBookmark](../../aspose.words/documentbuilder/endbookmark)(string) | Помечает текущую позицию в документе как конец закладки. |
-| [EndColumnBookmark](../../aspose.words/documentbuilder/endcolumnbookmark)(string) | Помечает текущую позицию в документе как конец закладки столбца. Позиция должна быть в ячейке таблицы. |
-| [EndEditableRange](../../aspose.words/documentbuilder/endeditablerange#endeditablerange)() | Помечает текущую позицию в документе как конец редактируемого диапазона. |
-| [EndEditableRange](../../aspose.words/documentbuilder/endeditablerange#endeditablerange_1)(EditableRangeStart) | Помечает текущую позицию в документе как конец редактируемого диапазона. |
-| [EndRow](../../aspose.words/documentbuilder/endrow)() | Завершает строку таблицы в документе. |
-| [EndTable](../../aspose.words/documentbuilder/endtable)() | Завершает таблицу в документе. |
-| [InsertBreak](../../aspose.words/documentbuilder/insertbreak)(BreakType) | Вставляет в документ разрыв указанного типа. |
-| [InsertCell](../../aspose.words/documentbuilder/insertcell)() | Вставляет ячейку таблицы в документ. |
-| [InsertChart](../../aspose.words/documentbuilder/insertchart#insertchart_1)(ChartType, double, double) | Вставляет объект диаграммы в документ и масштабирует его до указанного размера. |
-| [InsertChart](../../aspose.words/documentbuilder/insertchart#insertchart)(ChartType, RelativeHorizontalPosition, double, RelativeVerticalPosition, double, double, double, WrapType) | Вставляет объект диаграммы в документ и масштабирует его до указанного размера. |
-| [InsertCheckBox](../../aspose.words/documentbuilder/insertcheckbox#insertcheckbox_1)(string, bool, int) | Вставляет поле формы флажка в текущую позицию. |
-| [InsertCheckBox](../../aspose.words/documentbuilder/insertcheckbox#insertcheckbox)(string, bool, bool, int) | Вставляет поле формы флажка в текущую позицию. |
-| [InsertComboBox](../../aspose.words/documentbuilder/insertcombobox)(string, string[], int) | Вставляет поле формы со списком в текущую позицию. |
-| [InsertDocument](../../aspose.words/documentbuilder/insertdocument#insertdocument)(Document, ImportFormatMode) | Вставляет документ в позицию курсора. |
-| [InsertDocument](../../aspose.words/documentbuilder/insertdocument#insertdocument_1)(Document, ImportFormatMode, ImportFormatOptions) | Вставляет документ в позицию курсора. |
-| [InsertField](../../aspose.words/documentbuilder/insertfield#insertfield_1)(string) | Вставляет поле Word в документ и обновляет результат поля. |
-| [InsertField](../../aspose.words/documentbuilder/insertfield#insertfield)(FieldType, bool) | Вставляет поле Word в документ и при необходимости обновляет результат поля. |
-| [InsertField](../../aspose.words/documentbuilder/insertfield#insertfield_2)(string, string) | Вставляет поле Word в документ без обновления результата поля. |
-| [InsertFootnote](../../aspose.words/documentbuilder/insertfootnote#insertfootnote)(FootnoteType, string) | Вставляет сноску или концевую сноску в документ. |
-| [InsertFootnote](../../aspose.words/documentbuilder/insertfootnote#insertfootnote_1)(FootnoteType, string, string) | Вставляет сноску или концевую сноску в документ. |
-| [InsertHorizontalRule](../../aspose.words/documentbuilder/inserthorizontalrule)() | Вставляет в документ форму горизонтальной линейки. |
-| [InsertHtml](../../aspose.words/documentbuilder/inserthtml#inserthtml)(string) | Вставляет строку HTML в документ. |
-| [InsertHtml](../../aspose.words/documentbuilder/inserthtml#inserthtml_2)(string, bool) | Вставляет строку HTML в документ. |
-| [InsertHtml](../../aspose.words/documentbuilder/inserthtml#inserthtml_1)(string, HtmlInsertOptions) | Вставляет строку HTML в документ. Позволяет указать дополнительные параметры. |
-| [InsertHyperlink](../../aspose.words/documentbuilder/inserthyperlink)(string, string, bool) | Вставляет гиперссылку в документ. |
-| [InsertImage](../../aspose.words/documentbuilder/insertimage#insertimage)(byte[]) | Вставляет изображение из байтового массива в документ. Изображение вставляется в строку и в масштабе 100%. |
-| [InsertImage](../../aspose.words/documentbuilder/insertimage#insertimage_3)(Image) | Вставляет изображение из .NETImage в документ. Изображение вставляется в строку и в масштабе 100%. |
-| [InsertImage](../../aspose.words/documentbuilder/insertimage#insertimage_6)(Stream) | Вставляет изображение из потока в документ. Изображение вставляется в строку и в масштабе 100%. |
-| [InsertImage](../../aspose.words/documentbuilder/insertimage#insertimage_9)(string) | Вставляет изображение из файла или URL-адреса в документ. Изображение вставляется в строку и в масштабе 100%. |
-| [InsertImage](../../aspose.words/documentbuilder/insertimage#insertimage_2)(byte[], double, double) | Вставляет встроенное изображение из массива байтов в документ и масштабирует его до указанного размера. |
-| [InsertImage](../../aspose.words/documentbuilder/insertimage#insertimage_5)(Image, double, double) | Вставляет встроенное изображение из .NETImage объект в документ и масштабирует его до указанного размера. |
-| [InsertImage](../../aspose.words/documentbuilder/insertimage#insertimage_8)(Stream, double, double) | Вставляет встроенное изображение из потока в документ и масштабирует его до указанного размера. |
-| [InsertImage](../../aspose.words/documentbuilder/insertimage#insertimage_11)(string, double, double) | Вставляет встроенное изображение из файла или URL-адреса в документ и масштабирует его до указанного размера. |
-| [InsertImage](../../aspose.words/documentbuilder/insertimage#insertimage_1)(byte[], RelativeHorizontalPosition, double, RelativeVerticalPosition, double, double, double, WrapType) | Вставляет изображение из массива байтов в указанной позиции и размере. |
-| [InsertImage](../../aspose.words/documentbuilder/insertimage#insertimage_4)(Image, RelativeHorizontalPosition, double, RelativeVerticalPosition, double, double, double, WrapType) | Вставляет изображение из .NETImage объект в указанной позиции и размере. |
-| [InsertImage](../../aspose.words/documentbuilder/insertimage#insertimage_7)(Stream, RelativeHorizontalPosition, double, RelativeVerticalPosition, double, double, double, WrapType) | Вставляет изображение из потока в указанной позиции и размере. |
-| [InsertImage](../../aspose.words/documentbuilder/insertimage#insertimage_10)(string, RelativeHorizontalPosition, double, RelativeVerticalPosition, double, double, double, WrapType) | Вставляет изображение из файла или URL-адреса в указанной позиции и размере. |
-| [InsertNode](../../aspose.words/documentbuilder/insertnode)(Node) | Вставляет узел текстового уровня внутри текущего абзаца перед курсором. |
-| [InsertOleObject](../../aspose.words/documentbuilder/insertoleobject#insertoleobject)(Stream, string, bool, Stream) | Вставляет встроенный объект OLE из потока в документ. |
-| [InsertOleObject](../../aspose.words/documentbuilder/insertoleobject#insertoleobject_1)(string, bool, bool, Stream) | Вставляет встроенный или связанный объект OLE из файла в документ. Определяет тип объекта OLE, используя расширение файла. |
-| [InsertOleObject](../../aspose.words/documentbuilder/insertoleobject#insertoleobject_2)(string, string, bool, bool, Stream) | Вставляет встроенный или связанный объект OLE из файла в документ. Определяет тип объекта OLE, используя заданный параметр progID. |
-| [InsertOleObjectAsIcon](../../aspose.words/documentbuilder/insertoleobjectasicon#insertoleobjectasicon)(Stream, string, string, string) | Вставляет встроенный объект OLE в виде значка из потока в документ. Позволяет указать файл значка и заголовок. Определяет тип объекта OLE, используя заданный параметр progID. |
-| [InsertOleObjectAsIcon](../../aspose.words/documentbuilder/insertoleobjectasicon#insertoleobjectasicon_1)(string, bool, string, string) | Вставляет встроенный или связанный объект OLE в качестве значка в документ. Позволяет указать файл значка и заголовок. Определяет тип объекта OLE, используя расширение файла. |
-| [InsertOleObjectAsIcon](../../aspose.words/documentbuilder/insertoleobjectasicon#insertoleobjectasicon_2)(string, string, bool, string, string) | Вставляет встроенный или связанный объект OLE в качестве значка в документ. Позволяет указать файл значка и заголовок. Определяет тип объекта OLE, используя заданный параметр progID. |
-| [InsertOnlineVideo](../../aspose.words/documentbuilder/insertonlinevideo#insertonlinevideo_1)(string, double, double) | Вставляет объект онлайн-видео в документ и масштабирует его до указанного размера. |
-| [InsertOnlineVideo](../../aspose.words/documentbuilder/insertonlinevideo#insertonlinevideo_3)(string, string, byte[], double, double) | Вставляет объект онлайн-видео в документ и масштабирует его до указанного размера. |
-| [InsertOnlineVideo](../../aspose.words/documentbuilder/insertonlinevideo#insertonlinevideo)(string, RelativeHorizontalPosition, double, RelativeVerticalPosition, double, double, double, WrapType) | Вставляет объект онлайн-видео в документ и масштабирует его до указанного размера. |
-| [InsertOnlineVideo](../../aspose.words/documentbuilder/insertonlinevideo#insertonlinevideo_2)(string, string, byte[], RelativeHorizontalPosition, double, RelativeVerticalPosition, double, double, double, WrapType) | Вставляет объект онлайн-видео в документ и масштабирует его до указанного размера. |
-| [InsertParagraph](../../aspose.words/documentbuilder/insertparagraph)() | Вставляет разрыв абзаца в документ. |
-| [InsertShape](../../aspose.words/documentbuilder/insertshape#insertshape_1)(ShapeType, double, double) | Вставляет встроенную фигуру указанного типа и размера. |
-| [InsertShape](../../aspose.words/documentbuilder/insertshape#insertshape)(ShapeType, RelativeHorizontalPosition, double, RelativeVerticalPosition, double, double, double, WrapType) | Вставляет свободно плавающую фигуру с указанным положением, размером и типом обтекания текстом. |
-| [InsertSignatureLine](../../aspose.words/documentbuilder/insertsignatureline#insertsignatureline)(SignatureLineOptions) | Вставляет строку подписи в текущую позицию. |
-| [InsertSignatureLine](../../aspose.words/documentbuilder/insertsignatureline#insertsignatureline_1)(SignatureLineOptions, RelativeHorizontalPosition, double, RelativeVerticalPosition, double, WrapType) | Вставляет строку подписи в указанную позицию. |
-| [InsertStyleSeparator](../../aspose.words/documentbuilder/insertstyleseparator)() | Вставляет разделитель стилей в документ. |
-| [InsertTableOfContents](../../aspose.words/documentbuilder/inserttableofcontents)(string) | Вставляет поле TOC (оглавление) в документ. |
-| [InsertTextInput](../../aspose.words/documentbuilder/inserttextinput)(string, TextFormFieldType, string, string, int) | Вставляет поле текстовой формы в текущую позицию. |
-| [MoveTo](../../aspose.words/documentbuilder/moveto)(Node) | Перемещает курсор на встроенный узел или в конец абзаца. |
-| [MoveToBookmark](../../aspose.words/documentbuilder/movetobookmark#movetobookmark)(string) | Перемещает курсор на закладку. |
-| [MoveToBookmark](../../aspose.words/documentbuilder/movetobookmark#movetobookmark_1)(string, bool, bool) | Перемещает курсор к закладке с большей точностью. |
-| [MoveToCell](../../aspose.words/documentbuilder/movetocell)(int, int, int, int) | Перемещает курсор в ячейку таблицы в текущем разделе. |
-| [MoveToDocumentEnd](../../aspose.words/documentbuilder/movetodocumentend)() | Перемещает курсор в конец документа. |
-| [MoveToDocumentStart](../../aspose.words/documentbuilder/movetodocumentstart)() | Перемещает курсор в начало документа. |
-| [MoveToField](../../aspose.words/documentbuilder/movetofield)(Field, bool) | Перемещает курсор в поле документа. |
-| [MoveToHeaderFooter](../../aspose.words/documentbuilder/movetoheaderfooter)(HeaderFooterType) | Перемещает курсор в начало верхнего или нижнего колонтитула в текущем разделе. |
-| [MoveToMergeField](../../aspose.words/documentbuilder/movetomergefield#movetomergefield)(string) | Перемещает курсор в положение сразу за указанным полем слияния и удаляет поле слияния. |
-| [MoveToMergeField](../../aspose.words/documentbuilder/movetomergefield#movetomergefield_1)(string, bool, bool) | Перемещает поле слияния в указанное поле слияния. |
-| [MoveToParagraph](../../aspose.words/documentbuilder/movetoparagraph)(int, int) | Перемещает курсор на абзац в текущем разделе. |
-| [MoveToSection](../../aspose.words/documentbuilder/movetosection)(int) | Перемещает курсор в начало тела в указанном разделе. |
-| [PopFont](../../aspose.words/documentbuilder/popfont)() | Извлекает форматирование символов, ранее сохраненное в стеке. |
-| [PushFont](../../aspose.words/documentbuilder/pushfont)() | Сохраняет текущее форматирование символов в стеке. |
-| [StartBookmark](../../aspose.words/documentbuilder/startbookmark)(string) | Помечает текущую позицию в документе как начало закладки. |
-| [StartColumnBookmark](../../aspose.words/documentbuilder/startcolumnbookmark)(string) | Помечает текущую позицию в документе как начало закладки столбца. Позиция должна быть в ячейке таблицы. |
-| [StartEditableRange](../../aspose.words/documentbuilder/starteditablerange)() | Помечает текущую позицию в документе как начало редактируемого диапазона. |
-| [StartTable](../../aspose.words/documentbuilder/starttable)() | Запускает таблицу в документе. |
-| [Write](../../aspose.words/documentbuilder/write)(string) | Вставляет строку в документ в текущей позиции вставки. |
-| [Writeln](../../aspose.words/documentbuilder/writeln#writeln)() | Вставляет разрыв абзаца в документ. |
-| [Writeln](../../aspose.words/documentbuilder/writeln#writeln_1)(string) | Вставляет в документ строку и разрыв абзаца. |
+| [DeleteRow](../../aspose.words/documentbuilder/deleterow/)(int, int) | Удаляет строку из таблицы. |
+| [EndBookmark](../../aspose.words/documentbuilder/endbookmark/)(string) | Помечает текущую позицию в документе как конец закладки. |
+| [EndColumnBookmark](../../aspose.words/documentbuilder/endcolumnbookmark/)(string) | Помечает текущую позицию в документе как конец закладки столбца. Позиция должна быть в ячейке таблицы. |
+| [EndEditableRange](../../aspose.words/documentbuilder/endeditablerange/#endeditablerange)() | Помечает текущую позицию в документе как конец редактируемого диапазона. |
+| [EndEditableRange](../../aspose.words/documentbuilder/endeditablerange/#endeditablerange_1)(EditableRangeStart) | Помечает текущую позицию в документе как конец редактируемого диапазона. |
+| [EndRow](../../aspose.words/documentbuilder/endrow/)() | Завершает строку таблицы в документе. |
+| [EndTable](../../aspose.words/documentbuilder/endtable/)() | Завершает таблицу в документе. |
+| [InsertBreak](../../aspose.words/documentbuilder/insertbreak/)(BreakType) | Вставляет в документ разрыв указанного типа. |
+| [InsertCell](../../aspose.words/documentbuilder/insertcell/)() | Вставляет ячейку таблицы в документ. |
+| [InsertChart](../../aspose.words/documentbuilder/insertchart/#insertchart_1)(ChartType, double, double) | Вставляет объект диаграммы в документ и масштабирует его до указанного размера. |
+| [InsertChart](../../aspose.words/documentbuilder/insertchart/#insertchart)(ChartType, RelativeHorizontalPosition, double, RelativeVerticalPosition, double, double, double, WrapType) | Вставляет объект диаграммы в документ и масштабирует его до указанного размера. |
+| [InsertCheckBox](../../aspose.words/documentbuilder/insertcheckbox/#insertcheckbox_1)(string, bool, int) | Вставляет поле формы флажка в текущую позицию. |
+| [InsertCheckBox](../../aspose.words/documentbuilder/insertcheckbox/#insertcheckbox)(string, bool, bool, int) | Вставляет поле формы флажка в текущую позицию. |
+| [InsertComboBox](../../aspose.words/documentbuilder/insertcombobox/)(string, string[], int) | Вставляет поле формы со списком в текущую позицию. |
+| [InsertDocument](../../aspose.words/documentbuilder/insertdocument/#insertdocument)(Document, ImportFormatMode) | Вставляет документ в позицию курсора. |
+| [InsertDocument](../../aspose.words/documentbuilder/insertdocument/#insertdocument_1)(Document, ImportFormatMode, ImportFormatOptions) | Вставляет документ в позицию курсора. |
+| [InsertField](../../aspose.words/documentbuilder/insertfield/#insertfield_1)(string) | Вставляет поле Word в документ и обновляет результат поля. |
+| [InsertField](../../aspose.words/documentbuilder/insertfield/#insertfield)(FieldType, bool) | Вставляет поле Word в документ и при необходимости обновляет результат поля. |
+| [InsertField](../../aspose.words/documentbuilder/insertfield/#insertfield_2)(string, string) | Вставляет поле Word в документ без обновления результата поля. |
+| [InsertFootnote](../../aspose.words/documentbuilder/insertfootnote/#insertfootnote)(FootnoteType, string) | Вставляет сноску или концевую сноску в документ. |
+| [InsertFootnote](../../aspose.words/documentbuilder/insertfootnote/#insertfootnote_1)(FootnoteType, string, string) | Вставляет сноску или концевую сноску в документ. |
+| [InsertHorizontalRule](../../aspose.words/documentbuilder/inserthorizontalrule/)() | Вставляет в документ форму горизонтальной линейки. |
+| [InsertHtml](../../aspose.words/documentbuilder/inserthtml/#inserthtml)(string) | Вставляет строку HTML в документ. |
+| [InsertHtml](../../aspose.words/documentbuilder/inserthtml/#inserthtml_2)(string, bool) | Вставляет строку HTML в документ. |
+| [InsertHtml](../../aspose.words/documentbuilder/inserthtml/#inserthtml_1)(string, HtmlInsertOptions) | Вставляет строку HTML в документ. Позволяет указать дополнительные параметры. |
+| [InsertHyperlink](../../aspose.words/documentbuilder/inserthyperlink/)(string, string, bool) | Вставляет гиперссылку в документ. |
+| [InsertImage](../../aspose.words/documentbuilder/insertimage/#insertimage)(byte[]) | Вставляет изображение из байтового массива в документ. Изображение вставляется в строку и в масштабе 100%. |
+| [InsertImage](../../aspose.words/documentbuilder/insertimage/#insertimage_3)(Image) | Вставляет изображение из .NETImage в документ. Изображение вставляется в строку и в масштабе 100%. |
+| [InsertImage](../../aspose.words/documentbuilder/insertimage/#insertimage_6)(Stream) | Вставляет изображение из потока в документ. Изображение вставляется в строку и в масштабе 100%. |
+| [InsertImage](../../aspose.words/documentbuilder/insertimage/#insertimage_9)(string) | Вставляет изображение из файла или URL-адреса в документ. Изображение вставляется в строку и в масштабе 100%. |
+| [InsertImage](../../aspose.words/documentbuilder/insertimage/#insertimage_2)(byte[], double, double) | Вставляет встроенное изображение из массива байтов в документ и масштабирует его до указанного размера. |
+| [InsertImage](../../aspose.words/documentbuilder/insertimage/#insertimage_5)(Image, double, double) | Вставляет встроенное изображение из .NETImage объект в документ и масштабирует его до указанного размера. |
+| [InsertImage](../../aspose.words/documentbuilder/insertimage/#insertimage_8)(Stream, double, double) | Вставляет встроенное изображение из потока в документ и масштабирует его до указанного размера. |
+| [InsertImage](../../aspose.words/documentbuilder/insertimage/#insertimage_11)(string, double, double) | Вставляет встроенное изображение из файла или URL-адреса в документ и масштабирует его до указанного размера. |
+| [InsertImage](../../aspose.words/documentbuilder/insertimage/#insertimage_1)(byte[], RelativeHorizontalPosition, double, RelativeVerticalPosition, double, double, double, WrapType) | Вставляет изображение из массива байтов в указанной позиции и размере. |
+| [InsertImage](../../aspose.words/documentbuilder/insertimage/#insertimage_4)(Image, RelativeHorizontalPosition, double, RelativeVerticalPosition, double, double, double, WrapType) | Вставляет изображение из .NETImage объект в указанной позиции и размере. |
+| [InsertImage](../../aspose.words/documentbuilder/insertimage/#insertimage_7)(Stream, RelativeHorizontalPosition, double, RelativeVerticalPosition, double, double, double, WrapType) | Вставляет изображение из потока в указанной позиции и размере. |
+| [InsertImage](../../aspose.words/documentbuilder/insertimage/#insertimage_10)(string, RelativeHorizontalPosition, double, RelativeVerticalPosition, double, double, double, WrapType) | Вставляет изображение из файла или URL-адреса в указанной позиции и размере. |
+| [InsertNode](../../aspose.words/documentbuilder/insertnode/)(Node) | Вставляет узел текстового уровня внутри текущего абзаца перед курсором. |
+| [InsertOleObject](../../aspose.words/documentbuilder/insertoleobject/#insertoleobject)(Stream, string, bool, Stream) | Вставляет встроенный объект OLE из потока в документ. |
+| [InsertOleObject](../../aspose.words/documentbuilder/insertoleobject/#insertoleobject_1)(string, bool, bool, Stream) | Вставляет встроенный или связанный объект OLE из файла в документ. Определяет тип объекта OLE, используя расширение файла. |
+| [InsertOleObject](../../aspose.words/documentbuilder/insertoleobject/#insertoleobject_2)(string, string, bool, bool, Stream) | Вставляет встроенный или связанный объект OLE из файла в документ. Определяет тип объекта OLE, используя заданный параметр progID. |
+| [InsertOleObjectAsIcon](../../aspose.words/documentbuilder/insertoleobjectasicon/#insertoleobjectasicon)(Stream, string, string, string) | Вставляет встроенный объект OLE в виде значка из потока в документ. Позволяет указать файл значка и заголовок. Определяет тип объекта OLE, используя заданный параметр progID. |
+| [InsertOleObjectAsIcon](../../aspose.words/documentbuilder/insertoleobjectasicon/#insertoleobjectasicon_1)(string, bool, string, string) | Вставляет встроенный или связанный объект OLE в качестве значка в документ. Позволяет указать файл значка и заголовок. Определяет тип объекта OLE, используя расширение файла. |
+| [InsertOleObjectAsIcon](../../aspose.words/documentbuilder/insertoleobjectasicon/#insertoleobjectasicon_2)(string, string, bool, string, string) | Вставляет встроенный или связанный объект OLE в качестве значка в документ. Позволяет указать файл значка и заголовок. Определяет тип объекта OLE, используя заданный параметр progID. |
+| [InsertOnlineVideo](../../aspose.words/documentbuilder/insertonlinevideo/#insertonlinevideo_1)(string, double, double) | Вставляет объект онлайн-видео в документ и масштабирует его до указанного размера. |
+| [InsertOnlineVideo](../../aspose.words/documentbuilder/insertonlinevideo/#insertonlinevideo_3)(string, string, byte[], double, double) | Вставляет объект онлайн-видео в документ и масштабирует его до указанного размера. |
+| [InsertOnlineVideo](../../aspose.words/documentbuilder/insertonlinevideo/#insertonlinevideo)(string, RelativeHorizontalPosition, double, RelativeVerticalPosition, double, double, double, WrapType) | Вставляет объект онлайн-видео в документ и масштабирует его до указанного размера. |
+| [InsertOnlineVideo](../../aspose.words/documentbuilder/insertonlinevideo/#insertonlinevideo_2)(string, string, byte[], RelativeHorizontalPosition, double, RelativeVerticalPosition, double, double, double, WrapType) | Вставляет объект онлайн-видео в документ и масштабирует его до указанного размера. |
+| [InsertParagraph](../../aspose.words/documentbuilder/insertparagraph/)() | Вставляет разрыв абзаца в документ. |
+| [InsertShape](../../aspose.words/documentbuilder/insertshape/#insertshape_1)(ShapeType, double, double) | Вставляет встроенную фигуру указанного типа и размера. |
+| [InsertShape](../../aspose.words/documentbuilder/insertshape/#insertshape)(ShapeType, RelativeHorizontalPosition, double, RelativeVerticalPosition, double, double, double, WrapType) | Вставляет свободно плавающую фигуру с указанным положением, размером и типом обтекания текстом. |
+| [InsertSignatureLine](../../aspose.words/documentbuilder/insertsignatureline/#insertsignatureline)(SignatureLineOptions) | Вставляет строку подписи в текущую позицию. |
+| [InsertSignatureLine](../../aspose.words/documentbuilder/insertsignatureline/#insertsignatureline_1)(SignatureLineOptions, RelativeHorizontalPosition, double, RelativeVerticalPosition, double, WrapType) | Вставляет строку подписи в указанную позицию. |
+| [InsertStyleSeparator](../../aspose.words/documentbuilder/insertstyleseparator/)() | Вставляет разделитель стилей в документ. |
+| [InsertTableOfContents](../../aspose.words/documentbuilder/inserttableofcontents/)(string) | Вставляет поле TOC (оглавление) в документ. |
+| [InsertTextInput](../../aspose.words/documentbuilder/inserttextinput/)(string, TextFormFieldType, string, string, int) | Вставляет поле текстовой формы в текущую позицию. |
+| [MoveTo](../../aspose.words/documentbuilder/moveto/)(Node) | Перемещает курсор на встроенный узел или в конец абзаца. |
+| [MoveToBookmark](../../aspose.words/documentbuilder/movetobookmark/#movetobookmark)(string) | Перемещает курсор на закладку. |
+| [MoveToBookmark](../../aspose.words/documentbuilder/movetobookmark/#movetobookmark_1)(string, bool, bool) | Перемещает курсор к закладке с большей точностью. |
+| [MoveToCell](../../aspose.words/documentbuilder/movetocell/)(int, int, int, int) | Перемещает курсор в ячейку таблицы в текущем разделе. |
+| [MoveToDocumentEnd](../../aspose.words/documentbuilder/movetodocumentend/)() | Перемещает курсор в конец документа. |
+| [MoveToDocumentStart](../../aspose.words/documentbuilder/movetodocumentstart/)() | Перемещает курсор в начало документа. |
+| [MoveToField](../../aspose.words/documentbuilder/movetofield/)(Field, bool) | Перемещает курсор в поле документа. |
+| [MoveToHeaderFooter](../../aspose.words/documentbuilder/movetoheaderfooter/)(HeaderFooterType) | Перемещает курсор в начало верхнего или нижнего колонтитула в текущем разделе. |
+| [MoveToMergeField](../../aspose.words/documentbuilder/movetomergefield/#movetomergefield)(string) | Перемещает курсор в положение сразу за указанным полем слияния и удаляет поле слияния. |
+| [MoveToMergeField](../../aspose.words/documentbuilder/movetomergefield/#movetomergefield_1)(string, bool, bool) | Перемещает поле слияния в указанное поле слияния. |
+| [MoveToParagraph](../../aspose.words/documentbuilder/movetoparagraph/)(int, int) | Перемещает курсор на абзац в текущем разделе. |
+| [MoveToSection](../../aspose.words/documentbuilder/movetosection/)(int) | Перемещает курсор в начало тела в указанном разделе. |
+| [PopFont](../../aspose.words/documentbuilder/popfont/)() | Извлекает форматирование символов, ранее сохраненное в стеке. |
+| [PushFont](../../aspose.words/documentbuilder/pushfont/)() | Сохраняет текущее форматирование символов в стеке. |
+| [StartBookmark](../../aspose.words/documentbuilder/startbookmark/)(string) | Помечает текущую позицию в документе как начало закладки. |
+| [StartColumnBookmark](../../aspose.words/documentbuilder/startcolumnbookmark/)(string) | Помечает текущую позицию в документе как начало закладки столбца. Позиция должна быть в ячейке таблицы. |
+| [StartEditableRange](../../aspose.words/documentbuilder/starteditablerange/)() | Помечает текущую позицию в документе как начало редактируемого диапазона. |
+| [StartTable](../../aspose.words/documentbuilder/starttable/)() | Запускает таблицу в документе. |
+| [Write](../../aspose.words/documentbuilder/write/)(string) | Вставляет строку в документ в текущей позиции вставки. |
+| [Writeln](../../aspose.words/documentbuilder/writeln/#writeln)() | Вставляет разрыв абзаца в документ. |
+| [Writeln](../../aspose.words/documentbuilder/writeln/#writeln_1)(string) | Вставляет в документ строку и разрыв абзаца. |
 
 ### Примечания
 
 **DocumentBuilder** делает процесс создания **Документ** проще.  **Документ**представляет собой составной объект, состоящий из дерева узлов, и хотя вставка узлов content непосредственно в дерево возможна, это требует хорошего понимания структуры дерева.  **DocumentBuilder** является «фасадом» сложной структуры **Документ** и позволяет быстро и легко вставлять содержимое и форматирование.
 
-Создать **DocumentBuilder** и связать его с[`Document`](./document).
+Создать **DocumentBuilder** и связать его с[`Document`](./document/).
 
-**DocumentBuilder** имеет внутренний курсор, куда будет вставляться текст при вызове[`Write`](./write) ,[`Writeln`](./writeln) ,[`InsertBreak`](./insertbreak) и другие методы. Вы можете перемещаться по **DocumentBuilder** курсор в другое место в документе с использованием различных методов MoveToXXX.
+**DocumentBuilder** имеет внутренний курсор, куда будет вставляться текст при вызове[`Write`](./write/) ,[`Writeln`](./writeln/) ,[`InsertBreak`](./insertbreak/) и другие методы. Вы можете перемещаться по **DocumentBuilder** курсор в другое место в документе с использованием различных методов MoveToXXX.
 
-Использовать[`Font`](./font) свойство, чтобы указать форматирование символов, которое будет применяться ко всему тексту, вставляемому с текущей позиции в документе.
+Использовать[`Font`](./font/) свойство, чтобы указать форматирование символов, которое будет применяться ко всему тексту, вставляемому с текущей позиции в документе.
 
-Использовать[`ParagraphFormat`](./paragraphformat) чтобы указать форматирование абзаца для current и всех абзацев, которые будут вставлены.
+Использовать[`ParagraphFormat`](./paragraphformat/) чтобы указать форматирование абзаца для current и всех абзацев, которые будут вставлены.
 
-Использовать[`PageSetup`](./pagesetup)свойство, чтобы указать свойства страницы и раздела для раздела current и всех разделов, которые будут вставлены.
+Использовать[`PageSetup`](./pagesetup/)свойство, чтобы указать свойства страницы и раздела для раздела current и всех разделов, которые будут вставлены.
 
-Использовать[`CellFormat`](./cellformat) а также[`RowFormat`](./rowformat) properties для указания свойств форматирования для ячеек и строк таблицы. Пользователь[`InsertCell`](./insertcell) и [`EndRow`](./endrow) методы построения таблицы.
+Использовать[`CellFormat`](./cellformat/) а также[`RowFormat`](./rowformat/) properties для указания свойств форматирования для ячеек и строк таблицы. Пользователь[`InsertCell`](./insertcell/) и [`EndRow`](./endrow/) методы построения таблицы.
 
 Обратите внимание, что **Шрифт** , **Формат абзаца** а также **Настройка страницы** свойства обновляются всякий раз , когда вы переходите в другое место в документе, чтобы отразить свойства форматирования, доступные в новом месте.
 
@@ -260,7 +260,7 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTable.docx");
 
 ### Смотрите также
 
-* пространство имен [Aspose.Words](../../aspose.words)
+* пространство имен [Aspose.Words](../../aspose.words/)
 * сборка [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

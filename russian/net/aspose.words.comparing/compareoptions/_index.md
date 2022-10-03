@@ -18,23 +18,23 @@ public class CompareOptions
 
 | Имя | Описание |
 | --- | --- |
-| [CompareOptions](compareoptions)() | Конструктор по умолчанию. |
+| [CompareOptions](compareoptions/)() | Конструктор по умолчанию. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [Granularity](../../aspose.words.comparing/compareoptions/granularity) { get; set; } | Указывает, отслеживаются ли изменения по символам или по словам. Значение по умолчанию:WordLevel . |
-| [IgnoreCaseChanges](../../aspose.words.comparing/compareoptions/ignorecasechanges) { get; set; } | True указывает, что сравнение документов не зависит от регистра. По умолчанию сравнение чувствительно к регистру. |
-| [IgnoreComments](../../aspose.words.comparing/compareoptions/ignorecomments) { get; set; } | Указывает, следует ли сравнивать различия в комментариях. По умолчанию комментарии не игнорируются. |
-| [IgnoreDmlUniqueId](../../aspose.words.comparing/compareoptions/ignoredmluniqueid) { get; set; } | Указывает, следует ли игнорировать разницу в уникальном идентификаторе DrawingML. Значение по умолчанию: **ЛОЖЬ** . |
-| [IgnoreFields](../../aspose.words.comparing/compareoptions/ignorefields) { get; set; } | Указывает, следует ли сравнивать различия в полях. По умолчанию поля не игнорируются. |
-| [IgnoreFootnotes](../../aspose.words.comparing/compareoptions/ignorefootnotes) { get; set; } | Указывает, следует ли сравнивать различия в сносках и концевых сносках. По умолчанию сноски не игнорируются. |
-| [IgnoreFormatting](../../aspose.words.comparing/compareoptions/ignoreformatting) { get; set; } | True указывает, что форматирование игнорируется. По умолчанию форматирование документа не игнорируется. |
-| [IgnoreHeadersAndFooters](../../aspose.words.comparing/compareoptions/ignoreheadersandfooters) { get; set; } | True указывает, что содержимое верхних и нижних колонтитулов игнорируется. По умолчанию верхние и нижние колонтитулы не игнорируются. |
-| [IgnoreTables](../../aspose.words.comparing/compareoptions/ignoretables) { get; set; } | Указывает, следует ли сравнивать различия в данных, содержащихся в таблицах. По умолчанию таблицы не игнорируются. |
-| [IgnoreTextboxes](../../aspose.words.comparing/compareoptions/ignoretextboxes) { get; set; } | Указывает, следует ли сравнивать различия в данных, содержащихся в текстовых полях. По умолчанию текстовые поля не игнорируются. |
-| [Target](../../aspose.words.comparing/compareoptions/target) { get; set; } | Указывает, какой документ будет использоваться в качестве эталона при сравнении. |
+| [Granularity](../../aspose.words.comparing/compareoptions/granularity/) { get; set; } | Указывает, отслеживаются ли изменения по символам или по словам. Значение по умолчанию:WordLevel . |
+| [IgnoreCaseChanges](../../aspose.words.comparing/compareoptions/ignorecasechanges/) { get; set; } | True указывает, что сравнение документов не зависит от регистра. По умолчанию сравнение чувствительно к регистру. |
+| [IgnoreComments](../../aspose.words.comparing/compareoptions/ignorecomments/) { get; set; } | Указывает, следует ли сравнивать различия в комментариях. По умолчанию комментарии не игнорируются. |
+| [IgnoreDmlUniqueId](../../aspose.words.comparing/compareoptions/ignoredmluniqueid/) { get; set; } | Указывает, следует ли игнорировать разницу в уникальном идентификаторе DrawingML. Значение по умолчанию: **ЛОЖЬ** . |
+| [IgnoreFields](../../aspose.words.comparing/compareoptions/ignorefields/) { get; set; } | Указывает, следует ли сравнивать различия в полях. По умолчанию поля не игнорируются. |
+| [IgnoreFootnotes](../../aspose.words.comparing/compareoptions/ignorefootnotes/) { get; set; } | Указывает, следует ли сравнивать различия в сносках и концевых сносках. По умолчанию сноски не игнорируются. |
+| [IgnoreFormatting](../../aspose.words.comparing/compareoptions/ignoreformatting/) { get; set; } | True указывает, что форматирование игнорируется. По умолчанию форматирование документа не игнорируется. |
+| [IgnoreHeadersAndFooters](../../aspose.words.comparing/compareoptions/ignoreheadersandfooters/) { get; set; } | True указывает, что содержимое верхних и нижних колонтитулов игнорируется. По умолчанию верхние и нижние колонтитулы не игнорируются. |
+| [IgnoreTables](../../aspose.words.comparing/compareoptions/ignoretables/) { get; set; } | Указывает, следует ли сравнивать различия в данных, содержащихся в таблицах. По умолчанию таблицы не игнорируются. |
+| [IgnoreTextboxes](../../aspose.words.comparing/compareoptions/ignoretextboxes/) { get; set; } | Указывает, следует ли сравнивать различия в данных, содержащихся в текстовых полях. По умолчанию текстовые поля не игнорируются. |
+| [Target](../../aspose.words.comparing/compareoptions/target/) { get; set; } | Указывает, какой документ будет использоваться в качестве эталона при сравнении. |
 
 ### Примеры
 
@@ -109,7 +109,7 @@ docOriginal.Save(ArtifactsDir + "Document.CompareOptions.docx");
 
 ### Смотрите также
 
-* пространство имен [Aspose.Words.Comparing](../../aspose.words.comparing)
+* пространство имен [Aspose.Words.Comparing](../../aspose.words.comparing/)
 * сборка [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

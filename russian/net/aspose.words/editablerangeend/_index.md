@@ -18,41 +18,41 @@ public sealed class EditableRangeEnd : Node
 
 | Имя | Описание |
 | --- | --- |
-| [CustomNodeId](../../aspose.words/node/customnodeid) { get; set; } | Указывает идентификатор пользовательского узла. |
-| virtual [Document](../../aspose.words/node/document) { get; } | Получает документ, которому принадлежит этот узел. |
-| [EditableRangeStart](../../aspose.words/editablerangeend/editablerangestart) { get; } | Соответствующий EditableRangeStart, полученный ID. |
-| [Id](../../aspose.words/editablerangeend/id) { get; set; } | Задает идентификатор редактируемого диапазона. |
-| virtual [IsComposite](../../aspose.words/node/iscomposite) { get; } | Возвращает true, если этот узел может содержать другие узлы. |
-| [NextSibling](../../aspose.words/node/nextsibling) { get; } | Получает узел, следующий сразу за этим узлом. |
-| override [NodeType](../../aspose.words/editablerangeend/nodetype) { get; } | ВозвращаетEditableRangeEnd . |
-| [ParentNode](../../aspose.words/node/parentnode) { get; } | Получает непосредственного родителя этого узла. |
-| [PreviousSibling](../../aspose.words/node/previoussibling) { get; } | Получает узел, непосредственно предшествующий этому узлу. |
-| [Range](../../aspose.words/node/range) { get; } | Возвращает **Диапазон** объект, представляющий часть документа, содержащегося в этом узле. |
+| [CustomNodeId](../../aspose.words/node/customnodeid/) { get; set; } | Указывает идентификатор пользовательского узла. |
+| virtual [Document](../../aspose.words/node/document/) { get; } | Получает документ, которому принадлежит этот узел. |
+| [EditableRangeStart](../../aspose.words/editablerangeend/editablerangestart/) { get; } | Соответствующий EditableRangeStart, полученный ID. |
+| [Id](../../aspose.words/editablerangeend/id/) { get; set; } | Задает идентификатор редактируемого диапазона. |
+| virtual [IsComposite](../../aspose.words/node/iscomposite/) { get; } | Возвращает true, если этот узел может содержать другие узлы. |
+| [NextSibling](../../aspose.words/node/nextsibling/) { get; } | Получает узел, следующий сразу за этим узлом. |
+| override [NodeType](../../aspose.words/editablerangeend/nodetype/) { get; } | ВозвращаетEditableRangeEnd . |
+| [ParentNode](../../aspose.words/node/parentnode/) { get; } | Получает непосредственного родителя этого узла. |
+| [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Получает узел, непосредственно предшествующий этому узлу. |
+| [Range](../../aspose.words/node/range/) { get; } | Возвращает **Диапазон** объект, представляющий часть документа, содержащегося в этом узле. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| override [Accept](../../aspose.words/editablerangeend/accept)(DocumentVisitor) | Принимает посетителя. |
-| [Clone](../../aspose.words/node/clone)(bool) | Создает дубликат узла. |
-| [GetAncestor](../../aspose.words/node/getancestor)(NodeType) | Получает первого предка указанного[`NodeType`](../nodetype) . |
-| [GetAncestor](../../aspose.words/node/getancestor)(Type) | Получает первого предка указанного типа объекта. |
-| virtual [GetText](../../aspose.words/node/gettext)() | Получает текст этого узла и всех его дочерних элементов. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder)(Node) | Получает следующий узел в соответствии с алгоритмом обхода дерева предварительного порядка. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder)(Node) | Получает предыдущий узел в соответствии с алгоритмом обхода дерева предварительного порядка. |
-| [Remove](../../aspose.words/node/remove)() | Удаляет себя из родителя. |
-| [ToString](../../aspose.words/node/tostring)(SaveFormat) | Экспортирует содержимое узла в строку в указанном формате. |
-| [ToString](../../aspose.words/node/tostring)(SaveOptions) | Экспортирует содержимое узла в строку, используя указанные параметры сохранения. |
+| override [Accept](../../aspose.words/editablerangeend/accept/)(DocumentVisitor) | Принимает посетителя. |
+| [Clone](../../aspose.words/node/clone/)(bool) | Создает дубликат узла. |
+| [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | Получает первого предка указанного[`NodeType`](../nodetype/) . |
+| [GetAncestor](../../aspose.words/node/getancestor/)(Type) | Получает первого предка указанного типа объекта. |
+| virtual [GetText](../../aspose.words/node/gettext/)() | Получает текст этого узла и всех его дочерних элементов. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | Получает следующий узел в соответствии с алгоритмом обхода дерева предварительного порядка. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | Получает предыдущий узел в соответствии с алгоритмом обхода дерева предварительного порядка. |
+| [Remove](../../aspose.words/node/remove/)() | Удаляет себя из родителя. |
+| [ToString](../../aspose.words/node/tostring/)(SaveFormat) | Экспортирует содержимое узла в строку в указанном формате. |
+| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | Экспортирует содержимое узла в строку, используя указанные параметры сохранения. |
 
 ### Примечания
 
-Полный редактируемый диапазон в документе Word состоит из[`EditableRangeStart`](./editablerangestart) и соответствующий[`EditableRangeEnd`](../editablerangeend) с тем же идентификатором.
+Полный редактируемый диапазон в документе Word состоит из[`EditableRangeStart`](./editablerangestart/) и соответствующий[`EditableRangeEnd`](./editablerangeend/) с тем же идентификатором.
 
-[`EditableRangeStart`](./editablerangestart) а также[`EditableRangeEnd`](../editablerangeend) являются просто маркерами внутри document , которые указывают, где начинается и заканчивается редактируемый диапазон.
+[`EditableRangeStart`](./editablerangestart/) а также[`EditableRangeEnd`](./editablerangeend/) являются просто маркерами внутри document , которые указывают, где начинается и заканчивается редактируемый диапазон.
 
-Использовать[`EditableRange`](../editablerange)class как «фасад» для работы с редактируемым диапазоном как с единым объектом.
+Использовать[`EditableRange`](../editablerange/)class как «фасад» для работы с редактируемым диапазоном как с единым объектом.
 
-В настоящее время редактируемые диапазоны поддерживаются только на встроенном уровне, то есть внутри[`Paragraph`](../paragraph), , но начало редактируемого диапазона и конец редактируемого диапазона могут быть в разных абзацах.
+В настоящее время редактируемые диапазоны поддерживаются только на встроенном уровне, то есть внутри[`Paragraph`](../paragraph/), , но начало редактируемого диапазона и конец редактируемого диапазона могут быть в разных абзацах.
 
 ### Примеры
 
@@ -164,8 +164,8 @@ public class EditableRangePrinter : DocumentVisitor
 
 ### Смотрите также
 
-* class [Node](../node)
-* пространство имен [Aspose.Words](../../aspose.words)
+* class [Node](../node/)
+* пространство имен [Aspose.Words](../../aspose.words/)
 * сборка [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

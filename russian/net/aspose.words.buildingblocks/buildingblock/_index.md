@@ -18,70 +18,70 @@ public class BuildingBlock : CompositeNode
 
 | Имя | Описание |
 | --- | --- |
-| [BuildingBlock](buildingblock)(GlossaryDocument) | Инициализирует новый экземпляр этого класса. |
+| [BuildingBlock](buildingblock/)(GlossaryDocument) | Инициализирует новый экземпляр этого класса. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [Behavior](../../aspose.words.buildingblocks/buildingblock/behavior) { get; set; } | Определяет поведение, которое должно применяться, когда содержимое стандартного блока вставляется в основной документ. |
-| [Category](../../aspose.words.buildingblocks/buildingblock/category) { get; set; } | Задает категоризацию второго уровня для стандартного блока. |
-| [ChildNodes](../../aspose.words/compositenode/childnodes) { get; } | Получает все непосредственные дочерние узлы этого узла. |
-| [Count](../../aspose.words/compositenode/count) { get; } | Получает количество непосредственных дочерних элементов этого узла. |
-| [CustomNodeId](../../aspose.words/node/customnodeid) { get; set; } | Указывает идентификатор пользовательского узла. |
-| [Description](../../aspose.words.buildingblocks/buildingblock/description) { get; set; } | Получает или задает описание, связанное с этим стандартным блоком. |
-| virtual [Document](../../aspose.words/node/document) { get; } | Получает документ, которому принадлежит этот узел. |
-| [FirstChild](../../aspose.words/compositenode/firstchild) { get; } | Получает первого потомка узла. |
-| [FirstSection](../../aspose.words.buildingblocks/buildingblock/firstsection) { get; } | Получает первый раздел в стандартном блоке. |
-| [Gallery](../../aspose.words.buildingblocks/buildingblock/gallery) { get; set; } | Задает категоризацию первого уровня для стандартного блока в целях классификации или сортировки пользовательского интерфейса. |
-| [Guid](../../aspose.words.buildingblocks/buildingblock/guid) { get; set; } | Получает или задает идентификатор (128-битный GUID), однозначно идентифицирующий этот строительный блок. |
-| [HasChildNodes](../../aspose.words/compositenode/haschildnodes) { get; } | Возвращает true, если у этого узла есть дочерние узлы. |
-| override [IsComposite](../../aspose.words/compositenode/iscomposite) { get; } | Возвращает true, так как этот узел может иметь дочерние узлы. |
-| [LastChild](../../aspose.words/compositenode/lastchild) { get; } | Получает последний дочерний элемент узла. |
-| [LastSection](../../aspose.words.buildingblocks/buildingblock/lastsection) { get; } | Получает последний раздел в строительном блоке. |
-| [Name](../../aspose.words.buildingblocks/buildingblock/name) { get; set; } | Получает или задает имя этого стандартного блока. |
-| [NextSibling](../../aspose.words/node/nextsibling) { get; } | Получает узел, следующий сразу за этим узлом. |
-| override [NodeType](../../aspose.words.buildingblocks/buildingblock/nodetype) { get; } | ВозвращаетBuildingBlock значение. |
-| [ParentNode](../../aspose.words/node/parentnode) { get; } | Получает непосредственного родителя этого узла. |
-| [PreviousSibling](../../aspose.words/node/previoussibling) { get; } | Получает узел, непосредственно предшествующий этому узлу. |
-| [Range](../../aspose.words/node/range) { get; } | Возвращает **Диапазон** объект, представляющий часть документа, содержащегося в этом узле. |
-| [Sections](../../aspose.words.buildingblocks/buildingblock/sections) { get; } | Возвращает коллекцию, представляющую все разделы в стандартном блоке. |
-| [Type](../../aspose.words.buildingblocks/buildingblock/type) { get; set; } | Указывает тип стандартного блока. |
+| [Behavior](../../aspose.words.buildingblocks/buildingblock/behavior/) { get; set; } | Определяет поведение, которое должно применяться, когда содержимое стандартного блока вставляется в основной документ. |
+| [Category](../../aspose.words.buildingblocks/buildingblock/category/) { get; set; } | Задает категоризацию второго уровня для стандартного блока. |
+| [ChildNodes](../../aspose.words/compositenode/childnodes/) { get; } | Получает все непосредственные дочерние узлы этого узла. |
+| [Count](../../aspose.words/compositenode/count/) { get; } | Получает количество непосредственных дочерних элементов этого узла. |
+| [CustomNodeId](../../aspose.words/node/customnodeid/) { get; set; } | Указывает идентификатор пользовательского узла. |
+| [Description](../../aspose.words.buildingblocks/buildingblock/description/) { get; set; } | Получает или задает описание, связанное с этим стандартным блоком. |
+| virtual [Document](../../aspose.words/node/document/) { get; } | Получает документ, которому принадлежит этот узел. |
+| [FirstChild](../../aspose.words/compositenode/firstchild/) { get; } | Получает первого потомка узла. |
+| [FirstSection](../../aspose.words.buildingblocks/buildingblock/firstsection/) { get; } | Получает первый раздел в стандартном блоке. |
+| [Gallery](../../aspose.words.buildingblocks/buildingblock/gallery/) { get; set; } | Задает категоризацию первого уровня для стандартного блока в целях классификации или сортировки пользовательского интерфейса. |
+| [Guid](../../aspose.words.buildingblocks/buildingblock/guid/) { get; set; } | Получает или задает идентификатор (128-битный GUID), однозначно идентифицирующий этот строительный блок. |
+| [HasChildNodes](../../aspose.words/compositenode/haschildnodes/) { get; } | Возвращает true, если у этого узла есть дочерние узлы. |
+| override [IsComposite](../../aspose.words/compositenode/iscomposite/) { get; } | Возвращает true, так как этот узел может иметь дочерние узлы. |
+| [LastChild](../../aspose.words/compositenode/lastchild/) { get; } | Получает последний дочерний элемент узла. |
+| [LastSection](../../aspose.words.buildingblocks/buildingblock/lastsection/) { get; } | Получает последний раздел в строительном блоке. |
+| [Name](../../aspose.words.buildingblocks/buildingblock/name/) { get; set; } | Получает или задает имя этого стандартного блока. |
+| [NextSibling](../../aspose.words/node/nextsibling/) { get; } | Получает узел, следующий сразу за этим узлом. |
+| override [NodeType](../../aspose.words.buildingblocks/buildingblock/nodetype/) { get; } | ВозвращаетBuildingBlock значение. |
+| [ParentNode](../../aspose.words/node/parentnode/) { get; } | Получает непосредственного родителя этого узла. |
+| [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Получает узел, непосредственно предшествующий этому узлу. |
+| [Range](../../aspose.words/node/range/) { get; } | Возвращает **Диапазон** объект, представляющий часть документа, содержащегося в этом узле. |
+| [Sections](../../aspose.words.buildingblocks/buildingblock/sections/) { get; } | Возвращает коллекцию, представляющую все разделы в стандартном блоке. |
+| [Type](../../aspose.words.buildingblocks/buildingblock/type/) { get; set; } | Указывает тип стандартного блока. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| override [Accept](../../aspose.words.buildingblocks/buildingblock/accept)(DocumentVisitor) | Принимает посетителя. |
-| [AppendChild](../../aspose.words/compositenode/appendchild)(Node) | Добавляет указанный узел в конец списка дочерних узлов для этого узла. |
-| [Clone](../../aspose.words/node/clone)(bool) | Создает дубликат узла. |
-| [CreateNavigator](../../aspose.words/compositenode/createnavigator)() | Зарезервировано для системного использования. IXPathNavigable. |
-| [GetAncestor](../../aspose.words/node/getancestor)(NodeType) | Получает первого предка указанного[`NodeType`](../../aspose.words/nodetype) . |
-| [GetAncestor](../../aspose.words/node/getancestor)(Type) | Получает первого предка указанного типа объекта. |
-| [GetChild](../../aspose.words/compositenode/getchild)(NodeType, int, bool) | Возвращает N-й дочерний узел, соответствующий указанному типу. |
-| [GetChildNodes](../../aspose.words/compositenode/getchildnodes)(NodeType, bool) | Возвращает динамическую коллекцию дочерних узлов, соответствующих указанному типу. |
-| [GetEnumerator](../../aspose.words/compositenode/getenumerator)() | Обеспечивает поддержку для каждой итерации стиля над дочерними узлами этого узла. |
-| override [GetText](../../aspose.words/compositenode/gettext)() | Получает текст этого узла и всех его дочерних элементов. |
-| [IndexOf](../../aspose.words/compositenode/indexof)(Node) | Возвращает индекс указанного дочернего узла в массиве дочерних узлов. |
-| [InsertAfter](../../aspose.words/compositenode/insertafter)(Node, Node) | Вставляет указанный узел сразу после указанного ссылочного узла. |
-| [InsertBefore](../../aspose.words/compositenode/insertbefore)(Node, Node) | Вставляет указанный узел непосредственно перед указанным ссылочным узлом. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder)(Node) | Получает следующий узел в соответствии с алгоритмом обхода дерева предварительного порядка. |
-| [PrependChild](../../aspose.words/compositenode/prependchild)(Node) | Добавляет указанный узел в начало списка дочерних узлов для этого узла. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder)(Node) | Получает предыдущий узел в соответствии с алгоритмом обхода дерева предварительного порядка. |
-| [Remove](../../aspose.words/node/remove)() | Удаляет себя из родителя. |
-| [RemoveAllChildren](../../aspose.words/compositenode/removeallchildren)() | Удаляет все дочерние узлы текущего узла. |
-| [RemoveChild](../../aspose.words/compositenode/removechild)(Node) | Удаляет указанный дочерний узел. |
-| [RemoveSmartTags](../../aspose.words/compositenode/removesmarttags)() | Удаляет все[`SmartTag`](../../aspose.words.markup/smarttag) узлы-потомки текущего узла. |
-| [SelectNodes](../../aspose.words/compositenode/selectnodes)(string) | Выбирает список узлов, соответствующих выражению XPath. |
-| [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode)(string) | Выбирает первый узел, соответствующий выражению XPath. |
-| [ToString](../../aspose.words/node/tostring)(SaveFormat) | Экспортирует содержимое узла в строку в указанном формате. |
-| [ToString](../../aspose.words/node/tostring)(SaveOptions) | Экспортирует содержимое узла в строку, используя указанные параметры сохранения. |
+| override [Accept](../../aspose.words.buildingblocks/buildingblock/accept/)(DocumentVisitor) | Принимает посетителя. |
+| [AppendChild](../../aspose.words/compositenode/appendchild/)(Node) | Добавляет указанный узел в конец списка дочерних узлов для этого узла. |
+| [Clone](../../aspose.words/node/clone/)(bool) | Создает дубликат узла. |
+| [CreateNavigator](../../aspose.words/compositenode/createnavigator/)() | Зарезервировано для системного использования. IXPathNavigable. |
+| [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | Получает первого предка указанного[`NodeType`](../../aspose.words/nodetype/) . |
+| [GetAncestor](../../aspose.words/node/getancestor/)(Type) | Получает первого предка указанного типа объекта. |
+| [GetChild](../../aspose.words/compositenode/getchild/)(NodeType, int, bool) | Возвращает N-й дочерний узел, соответствующий указанному типу. |
+| [GetChildNodes](../../aspose.words/compositenode/getchildnodes/)(NodeType, bool) | Возвращает динамическую коллекцию дочерних узлов, соответствующих указанному типу. |
+| [GetEnumerator](../../aspose.words/compositenode/getenumerator/)() | Обеспечивает поддержку для каждой итерации стиля над дочерними узлами этого узла. |
+| override [GetText](../../aspose.words/compositenode/gettext/)() | Получает текст этого узла и всех его дочерних элементов. |
+| [IndexOf](../../aspose.words/compositenode/indexof/)(Node) | Возвращает индекс указанного дочернего узла в массиве дочерних узлов. |
+| [InsertAfter](../../aspose.words/compositenode/insertafter/)(Node, Node) | Вставляет указанный узел сразу после указанного ссылочного узла. |
+| [InsertBefore](../../aspose.words/compositenode/insertbefore/)(Node, Node) | Вставляет указанный узел непосредственно перед указанным ссылочным узлом. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | Получает следующий узел в соответствии с алгоритмом обхода дерева предварительного порядка. |
+| [PrependChild](../../aspose.words/compositenode/prependchild/)(Node) | Добавляет указанный узел в начало списка дочерних узлов для этого узла. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | Получает предыдущий узел в соответствии с алгоритмом обхода дерева предварительного порядка. |
+| [Remove](../../aspose.words/node/remove/)() | Удаляет себя из родителя. |
+| [RemoveAllChildren](../../aspose.words/compositenode/removeallchildren/)() | Удаляет все дочерние узлы текущего узла. |
+| [RemoveChild](../../aspose.words/compositenode/removechild/)(Node) | Удаляет указанный дочерний узел. |
+| [RemoveSmartTags](../../aspose.words/compositenode/removesmarttags/)() | Удаляет все[`SmartTag`](../../aspose.words.markup/smarttag/) узлы-потомки текущего узла. |
+| [SelectNodes](../../aspose.words/compositenode/selectnodes/)(string) | Выбирает список узлов, соответствующих выражению XPath. |
+| [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode/)(string) | Выбирает первый узел, соответствующий выражению XPath. |
+| [ToString](../../aspose.words/node/tostring/)(SaveFormat) | Экспортирует содержимое узла в строку в указанном формате. |
+| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | Экспортирует содержимое узла в строку, используя указанные параметры сохранения. |
 
 ### Примечания
 
-[`BuildingBlock`](../buildingblock) может содержать только[`Section`](../../aspose.words/section) узлы.
+[`BuildingBlock`](./buildingblock/) может содержать только[`Section`](../../aspose.words/section/) узлы.
 
-[`BuildingBlock`](../buildingblock) может быть только ребенком[`GlossaryDocument`](../glossarydocument).
+[`BuildingBlock`](./buildingblock/) может быть только ребенком[`GlossaryDocument`](../glossarydocument/).
 
 Вы можете создавать новые стандартные блоки и вставлять их в глоссарий. Вы можете изменять или удалять существующие стандартные блоки. Вы можете копировать или перемещать стандартные блоки между документами. Вы можете вставить содержимое стандартного блока в документ.
 
@@ -184,8 +184,8 @@ public class BuildingBlockVisitor : DocumentVisitor
 
 ### Смотрите также
 
-* class [CompositeNode](../../aspose.words/compositenode)
-* пространство имен [Aspose.Words.BuildingBlocks](../../aspose.words.buildingblocks)
+* class [CompositeNode](../../aspose.words/compositenode/)
+* пространство имен [Aspose.Words.BuildingBlocks](../../aspose.words.buildingblocks/)
 * сборка [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

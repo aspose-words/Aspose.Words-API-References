@@ -18,29 +18,29 @@ public class ChartDataLabel
 
 | Имя | Описание |
 | --- | --- |
-| [Index](../../aspose.words.drawing.charts/chartdatalabel/index) { get; } | Указывает индекс содержащего элемента. Этот индекс должен определять, к какой из дочерних коллекций родителя относится этот элемент. Значение по умолчанию: 0. |
-| [IsHidden](../../aspose.words.drawing.charts/chartdatalabel/ishidden) { get; set; } | Получает/устанавливает флаг, указывающий, скрыта ли эта метка. Значение по умолчанию: **ЛОЖЬ** . |
-| [IsVisible](../../aspose.words.drawing.charts/chartdatalabel/isvisible) { get; } | Возвращает true, если эта метка данных имеет что-то для отображения. |
-| [NumberFormat](../../aspose.words.drawing.charts/chartdatalabel/numberformat) { get; } | Возвращает числовой формат родительского элемента. |
-| [Separator](../../aspose.words.drawing.charts/chartdatalabel/separator) { get; set; } | Получает или задает разделитель строк, используемый для меток данных на диаграмме. По умолчанию используется запятая, за исключением круговых диаграмм, показывающих только название категории и процентное соотношение, когда вместо этого следует использовать разрыв строки . |
-| [ShowBubbleSize](../../aspose.words.drawing.charts/chartdatalabel/showbubblesize) { get; set; } | Позволяет указать, должен ли размер пузырька отображаться для меток данных на диаграмме. Применяется только к пузырьковым диаграммам. Значение по умолчанию — false. |
-| [ShowCategoryName](../../aspose.words.drawing.charts/chartdatalabel/showcategoryname) { get; set; } | Позволяет указать, будет ли отображаться название категории для меток данных на диаграмме. Значение по умолчанию — false. |
-| [ShowDataLabelsRange](../../aspose.words.drawing.charts/chartdatalabel/showdatalabelsrange) { get; set; } | Позволяет указать, будут ли значения из диапазона меток данных отображаться в метках данных. Значение по умолчанию — false. |
-| [ShowLeaderLines](../../aspose.words.drawing.charts/chartdatalabel/showleaderlines) { get; set; } | Позволяет указать, нужно ли отображать линии выноски меток данных. Значение по умолчанию — false. |
-| [ShowLegendKey](../../aspose.words.drawing.charts/chartdatalabel/showlegendkey) { get; set; } | Позволяет указать, должен ли отображаться ключ легенды для меток данных на диаграмме. Значение по умолчанию — false. |
-| [ShowPercentage](../../aspose.words.drawing.charts/chartdatalabel/showpercentage) { get; set; } | Позволяет указать, будет ли отображаться процентное значение для меток данных на диаграмме. Значение по умолчанию — false. |
-| [ShowSeriesName](../../aspose.words.drawing.charts/chartdatalabel/showseriesname) { get; set; } | Возвращает или задает логическое значение, указывающее поведение отображения имени ряда для меток данных на диаграмме. Истинно, чтобы показать название серии. Ложь скрывать. По умолчанию ложь. |
-| [ShowValue](../../aspose.words.drawing.charts/chartdatalabel/showvalue) { get; set; } | Позволяет указать, должны ли значения отображаться в метках данных. Значение по умолчанию — false. |
+| [Index](../../aspose.words.drawing.charts/chartdatalabel/index/) { get; } | Указывает индекс содержащего элемента. Этот индекс должен определять, к какой из дочерних коллекций родителя относится этот элемент. Значение по умолчанию: 0. |
+| [IsHidden](../../aspose.words.drawing.charts/chartdatalabel/ishidden/) { get; set; } | Получает/устанавливает флаг, указывающий, скрыта ли эта метка. Значение по умолчанию: **ЛОЖЬ** . |
+| [IsVisible](../../aspose.words.drawing.charts/chartdatalabel/isvisible/) { get; } | Возвращает true, если эта метка данных имеет что-то для отображения. |
+| [NumberFormat](../../aspose.words.drawing.charts/chartdatalabel/numberformat/) { get; } | Возвращает числовой формат родительского элемента. |
+| [Separator](../../aspose.words.drawing.charts/chartdatalabel/separator/) { get; set; } | Получает или задает разделитель строк, используемый для меток данных на диаграмме. По умолчанию используется запятая, за исключением круговых диаграмм, показывающих только название категории и процентное соотношение, когда вместо этого следует использовать разрыв строки . |
+| [ShowBubbleSize](../../aspose.words.drawing.charts/chartdatalabel/showbubblesize/) { get; set; } | Позволяет указать, должен ли размер пузырька отображаться для меток данных на диаграмме. Применяется только к пузырьковым диаграммам. Значение по умолчанию — false. |
+| [ShowCategoryName](../../aspose.words.drawing.charts/chartdatalabel/showcategoryname/) { get; set; } | Позволяет указать, будет ли отображаться название категории для меток данных на диаграмме. Значение по умолчанию — false. |
+| [ShowDataLabelsRange](../../aspose.words.drawing.charts/chartdatalabel/showdatalabelsrange/) { get; set; } | Позволяет указать, будут ли значения из диапазона меток данных отображаться в метках данных. Значение по умолчанию — false. |
+| [ShowLeaderLines](../../aspose.words.drawing.charts/chartdatalabel/showleaderlines/) { get; set; } | Позволяет указать, нужно ли отображать линии выноски меток данных. Значение по умолчанию — false. |
+| [ShowLegendKey](../../aspose.words.drawing.charts/chartdatalabel/showlegendkey/) { get; set; } | Позволяет указать, должен ли отображаться ключ легенды для меток данных на диаграмме. Значение по умолчанию — false. |
+| [ShowPercentage](../../aspose.words.drawing.charts/chartdatalabel/showpercentage/) { get; set; } | Позволяет указать, будет ли отображаться процентное значение для меток данных на диаграмме. Значение по умолчанию — false. |
+| [ShowSeriesName](../../aspose.words.drawing.charts/chartdatalabel/showseriesname/) { get; set; } | Возвращает или задает логическое значение, указывающее поведение отображения имени ряда для меток данных на диаграмме. Истинно, чтобы показать название серии. Ложь скрывать. По умолчанию ложь. |
+| [ShowValue](../../aspose.words.drawing.charts/chartdatalabel/showvalue/) { get; set; } | Позволяет указать, должны ли значения отображаться в метках данных. Значение по умолчанию — false. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [ClearFormat](../../aspose.words.drawing.charts/chartdatalabel/clearformat)() | Очищает формат этой метки данных. Для свойств установлены значения по умолчанию, определенные в родительской коллекции меток data . |
+| [ClearFormat](../../aspose.words.drawing.charts/chartdatalabel/clearformat/)() | Очищает формат этой метки данных. Для свойств установлены значения по умолчанию, определенные в родительской коллекции меток data . |
 
 ### Примечания
 
-В сериале[`ChartDataLabel`](../chartdatalabel) объект является членом[`ChartDataLabelCollection`](../chartdatalabelcollection) . [`ChartDataLabelCollection`](../chartdatalabelcollection) содержит[`ChartDataLabel`](../chartdatalabel) объект для каждой точки.
+В сериале[`ChartDataLabel`](./chartdatalabel/) объект является членом[`ChartDataLabelCollection`](../chartdatalabelcollection/) . [`ChartDataLabelCollection`](../chartdatalabelcollection/) содержит[`ChartDataLabel`](./chartdatalabel/) объект для каждой точки.
 
 ### Примеры
 
@@ -118,7 +118,7 @@ private static void ApplyDataLabels(ChartSeries series, int labelsCount, string 
 
 ### Смотрите также
 
-* пространство имен [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts)
+* пространство имен [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

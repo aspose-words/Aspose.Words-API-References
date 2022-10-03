@@ -1,7 +1,7 @@
 ---
 title: BarcodeParameters
 second_title: Справочник по API Aspose.Words для .NET
-description: Класс-контейнер для параметров штрих-кода для передачи в BarcodeGenerator.
+description: Классконтейнер для параметров штрихкода для передачи в BarcodeGenerator.
 type: docs
 weight: 1320
 url: /ru/net/aspose.words.fields/barcodeparameters/
@@ -18,29 +18,29 @@ public class BarcodeParameters
 
 | Имя | Описание |
 | --- | --- |
-| [BarcodeParameters](barcodeparameters)() | Конструктор по умолчанию. |
+| [BarcodeParameters](barcodeparameters/)() | Конструктор по умолчанию. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [AddStartStopChar](../../aspose.words.fields/barcodeparameters/addstartstopchar) { get; set; } | Добавлять ли символы Start/Stop для типов штрих-кодов NW7 и CODE39. |
-| [BackgroundColor](../../aspose.words.fields/barcodeparameters/backgroundcolor) { get; set; } | Цвет фона штрих-кода (0x000000 - 0xFFFFFF) |
-| [BarcodeType](../../aspose.words.fields/barcodeparameters/barcodetype) { get; set; } | Тип штрих-кода. |
-| [BarcodeValue](../../aspose.words.fields/barcodeparameters/barcodevalue) { get; set; } | Данные для кодирования. |
-| [CaseCodeStyle](../../aspose.words.fields/barcodeparameters/casecodestyle) { get; set; } | Стиль кода случая для штрих-кода типа ITF14. Допустимые значения: [STD&#x7C;EXT&#x7C;ADD] |
-| [DisplayText](../../aspose.words.fields/barcodeparameters/displaytext) { get; set; } | Отображать ли данные штрих-кода (текст) вместе с изображением. |
-| [ErrorCorrectionLevel](../../aspose.words.fields/barcodeparameters/errorcorrectionlevel) { get; set; } | Уровень исправления ошибок QR-кода. Допустимые значения: [0, 3]. |
-| [FacingIdentificationMark](../../aspose.words.fields/barcodeparameters/facingidentificationmark) { get; set; } | Тип маркировки лицевой стороны (FIM). |
-| [FixCheckDigit](../../aspose.words.fields/barcodeparameters/fixcheckdigit) { get; set; } | Нужно ли исправлять контрольную цифру, если она недействительна. |
-| [ForegroundColor](../../aspose.words.fields/barcodeparameters/foregroundcolor) { get; set; } | Основной цвет штрих-кода (0x000000 - 0xFFFFFF) |
-| [IsBookmark](../../aspose.words.fields/barcodeparameters/isbookmark) { get; set; } | Будь то[`PostalAddress`](./postaladdress) имя закладки. |
-| [IsUSPostalAddress](../../aspose.words.fields/barcodeparameters/isuspostaladdress) { get; set; } | Будь то[`PostalAddress`](./postaladdress) почтовый адрес в США. |
-| [PosCodeStyle](../../aspose.words.fields/barcodeparameters/poscodestyle) { get; set; } | Стиль штрих-кода торговой точки (типы штрих-кода UPCA&#x7C;UPCE&#x7C;EAN13&#x7C;EAN8). Допустимые значения (без учета регистра): [STD&#x7C;SUP2&#x7C;SUP5&#x7C;CASE]. |
-| [PostalAddress](../../aspose.words.fields/barcodeparameters/postaladdress) { get; set; } | Почтовый адрес со штрих-кодом. |
-| [ScalingFactor](../../aspose.words.fields/barcodeparameters/scalingfactor) { get; set; } | Коэффициент масштабирования символа. Значение указано в целых процентах, допустимые значения: [10, 1000]. |
-| [SymbolHeight](../../aspose.words.fields/barcodeparameters/symbolheight) { get; set; } | Высота изображения штрих-кода (в твипах - 1/1440 дюйма) |
-| [SymbolRotation](../../aspose.words.fields/barcodeparameters/symbolrotation) { get; set; } | Вращение символа штрих-кода. Допустимые значения: [0, 3]. |
+| [AddStartStopChar](../../aspose.words.fields/barcodeparameters/addstartstopchar/) { get; set; } | Добавлять ли символы Start/Stop для типов штрих-кодов NW7 и CODE39. |
+| [BackgroundColor](../../aspose.words.fields/barcodeparameters/backgroundcolor/) { get; set; } | Цвет фона штрих-кода (0x000000 - 0xFFFFFF) |
+| [BarcodeType](../../aspose.words.fields/barcodeparameters/barcodetype/) { get; set; } | Тип штрих-кода. |
+| [BarcodeValue](../../aspose.words.fields/barcodeparameters/barcodevalue/) { get; set; } | Данные для кодирования. |
+| [CaseCodeStyle](../../aspose.words.fields/barcodeparameters/casecodestyle/) { get; set; } | Стиль кода случая для штрих-кода типа ITF14. Допустимые значения: [STD&#x7C;EXT&#x7C;ADD] |
+| [DisplayText](../../aspose.words.fields/barcodeparameters/displaytext/) { get; set; } | Отображать ли данные штрих-кода (текст) вместе с изображением. |
+| [ErrorCorrectionLevel](../../aspose.words.fields/barcodeparameters/errorcorrectionlevel/) { get; set; } | Уровень исправления ошибок QR-кода. Допустимые значения: [0, 3]. |
+| [FacingIdentificationMark](../../aspose.words.fields/barcodeparameters/facingidentificationmark/) { get; set; } | Тип маркировки лицевой стороны (FIM). |
+| [FixCheckDigit](../../aspose.words.fields/barcodeparameters/fixcheckdigit/) { get; set; } | Нужно ли исправлять контрольную цифру, если она недействительна. |
+| [ForegroundColor](../../aspose.words.fields/barcodeparameters/foregroundcolor/) { get; set; } | Основной цвет штрих-кода (0x000000 - 0xFFFFFF) |
+| [IsBookmark](../../aspose.words.fields/barcodeparameters/isbookmark/) { get; set; } | Будь то[`PostalAddress`](./postaladdress/) имя закладки. |
+| [IsUSPostalAddress](../../aspose.words.fields/barcodeparameters/isuspostaladdress/) { get; set; } | Будь то[`PostalAddress`](./postaladdress/) почтовый адрес в США. |
+| [PosCodeStyle](../../aspose.words.fields/barcodeparameters/poscodestyle/) { get; set; } | Стиль штрих-кода торговой точки (типы штрих-кода UPCA&#x7C;UPCE&#x7C;EAN13&#x7C;EAN8). Допустимые значения (без учета регистра): [STD&#x7C;SUP2&#x7C;SUP5&#x7C;CASE]. |
+| [PostalAddress](../../aspose.words.fields/barcodeparameters/postaladdress/) { get; set; } | Почтовый адрес со штрих-кодом. |
+| [ScalingFactor](../../aspose.words.fields/barcodeparameters/scalingfactor/) { get; set; } | Коэффициент масштабирования символа. Значение указано в целых процентах, допустимые значения: [10, 1000]. |
+| [SymbolHeight](../../aspose.words.fields/barcodeparameters/symbolheight/) { get; set; } | Высота изображения штрих-кода (в твипах - 1/1440 дюйма) |
+| [SymbolRotation](../../aspose.words.fields/barcodeparameters/symbolrotation/) { get; set; } | Вращение символа штрих-кода. Допустимые значения: [0, 3]. |
 
 ### Примечания
 
@@ -122,7 +122,7 @@ doc.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.docx");
 
 ### Смотрите также
 
-* пространство имен [Aspose.Words.Fields](../../aspose.words.fields)
+* пространство имен [Aspose.Words.Fields](../../aspose.words.fields/)
 * сборка [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

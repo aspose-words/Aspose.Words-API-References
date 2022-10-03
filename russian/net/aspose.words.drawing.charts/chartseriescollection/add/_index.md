@@ -1,14 +1,14 @@
 ---
 title: Add
 second_title: Справочник по API Aspose.Words для .NET
-description: Добавляет новыйChartSeriesaspose.words.drawing.charts/chartseriesв эту коллекцию. Используйте этот метод для добавления рядов к любым типам гистограмм столбцов линейных и поверхностных диаграмм.
+description: Добавляет новыйChartSeriesaspose.words.drawing.charts/chartseries/в эту коллекцию. Используйте этот метод для добавления рядов к любым типам гистограмм столбцов линейных и поверхностных диаграмм.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.drawing.charts/chartseriescollection/add/
 ---
 ## Add(string, string[], double[]) {#add_3}
 
-Добавляет новый[`ChartSeries`](../../chartseries)в эту коллекцию. Используйте этот метод для добавления рядов к любым типам гистограмм, столбцов, линейных и поверхностных диаграмм.
+Добавляет новый[`ChartSeries`](../../chartseries/)в эту коллекцию. Используйте этот метод для добавления рядов к любым типам гистограмм, столбцов, линейных и поверхностных диаграмм.
 
 ```csharp
 public ChartSeries Add(string seriesName, string[] categories, double[] values)
@@ -16,7 +16,7 @@ public ChartSeries Add(string seriesName, string[] categories, double[] values)
 
 ### Возвращаемое значение
 
-Недавно добавленный[`ChartSeries`](../../chartseries) объект.
+Недавно добавленный[`ChartSeries`](../../chartseries/) объект.
 
 ### Примеры
 
@@ -105,16 +105,16 @@ private static Chart AppendChart(DocumentBuilder builder, ChartType chartType, d
 
 ### Смотрите также
 
-* class [ChartSeries](../../chartseries)
-* class [ChartSeriesCollection](../../chartseriescollection)
-* пространство имен [Aspose.Words.Drawing.Charts](../../chartseriescollection)
+* class [ChartSeries](../../chartseries/)
+* class [ChartSeriesCollection](../)
+* пространство имен [Aspose.Words.Drawing.Charts](../../chartseriescollection/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
 ## Add(string, double[], double[]) {#add}
 
-Добавляет новый[`ChartSeries`](../../chartseries) в эту коллекцию. Используйте этот метод, чтобы добавить серии к любому типу точечных диаграмм.
+Добавляет новый[`ChartSeries`](../../chartseries/) в эту коллекцию. Используйте этот метод, чтобы добавить серии к любому типу точечных диаграмм.
 
 ```csharp
 public ChartSeries Add(string seriesName, double[] xValues, double[] yValues)
@@ -122,7 +122,7 @@ public ChartSeries Add(string seriesName, double[] xValues, double[] yValues)
 
 ### Возвращаемое значение
 
-Недавно добавленный[`ChartSeries`](../../chartseries) объект.
+Недавно добавленный[`ChartSeries`](../../chartseries/) объект.
 
 ### Примеры
 
@@ -211,16 +211,16 @@ private static Chart AppendChart(DocumentBuilder builder, ChartType chartType, d
 
 ### Смотрите также
 
-* class [ChartSeries](../../chartseries)
-* class [ChartSeriesCollection](../../chartseriescollection)
-* пространство имен [Aspose.Words.Drawing.Charts](../../chartseriescollection)
+* class [ChartSeries](../../chartseries/)
+* class [ChartSeriesCollection](../)
+* пространство имен [Aspose.Words.Drawing.Charts](../../chartseriescollection/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
 ## Add(string, DateTime[], double[]) {#add_2}
 
-Добавляет новый[`ChartSeries`](../../chartseries) в эту коллекцию. Используйте этот метод для добавления рядов к любому типу площадных, радарных и фондовых диаграмм.
+Добавляет новый[`ChartSeries`](../../chartseries/) в эту коллекцию. Используйте этот метод для добавления рядов к любому типу площадных, радарных и фондовых диаграмм.
 
 ```csharp
 public ChartSeries Add(string seriesName, DateTime[] dates, double[] values)
@@ -313,16 +313,16 @@ private static Chart AppendChart(DocumentBuilder builder, ChartType chartType, d
 
 ### Смотрите также
 
-* class [ChartSeries](../../chartseries)
-* class [ChartSeriesCollection](../../chartseriescollection)
-* пространство имен [Aspose.Words.Drawing.Charts](../../chartseriescollection)
+* class [ChartSeries](../../chartseries/)
+* class [ChartSeriesCollection](../)
+* пространство имен [Aspose.Words.Drawing.Charts](../../chartseriescollection/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
 ## Add(string, double[], double[], double[]) {#add_1}
 
-Добавляет новый[`ChartSeries`](../../chartseries) в эту коллекцию. Используйте этот метод для добавления рядов в пузырьковые диаграммы любого типа.
+Добавляет новый[`ChartSeries`](../../chartseries/) в эту коллекцию. Используйте этот метод для добавления рядов в пузырьковые диаграммы любого типа.
 
 ```csharp
 public ChartSeries Add(string seriesName, double[] xValues, double[] yValues, double[] bubbleSizes)
@@ -330,7 +330,7 @@ public ChartSeries Add(string seriesName, double[] xValues, double[] yValues, do
 
 ### Возвращаемое значение
 
-Недавно добавленный[`ChartSeries`](../../chartseries) объект.
+Недавно добавленный[`ChartSeries`](../../chartseries/) объект.
 
 ### Примеры
 
@@ -419,9 +419,9 @@ private static Chart AppendChart(DocumentBuilder builder, ChartType chartType, d
 
 ### Смотрите также
 
-* class [ChartSeries](../../chartseries)
-* class [ChartSeriesCollection](../../chartseriescollection)
-* пространство имен [Aspose.Words.Drawing.Charts](../../chartseriescollection)
+* class [ChartSeries](../../chartseries/)
+* class [ChartSeriesCollection](../)
+* пространство имен [Aspose.Words.Drawing.Charts](../../chartseriescollection/)
 * сборка [Aspose.Words](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

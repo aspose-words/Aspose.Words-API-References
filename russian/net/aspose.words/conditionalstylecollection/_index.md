@@ -1,14 +1,14 @@
 ---
 title: ConditionalStyleCollection
 second_title: Справочник по API Aspose.Words для .NET
-description: Представляет наборConditionalStyle./conditionalstyle объекты.
+description: Представляет наборConditionalStyle./conditionalstyle/ объекты.
 type: docs
 weight: 310
 url: /ru/net/aspose.words/conditionalstylecollection/
 ---
 ## ConditionalStyleCollection class
 
-Представляет набор[`ConditionalStyle`](../conditionalstyle) объекты.
+Представляет набор[`ConditionalStyle`](../conditionalstyle/) объекты.
 
 ```csharp
 public sealed class ConditionalStyleCollection : IEnumerable<ConditionalStyle>
@@ -18,31 +18,31 @@ public sealed class ConditionalStyleCollection : IEnumerable<ConditionalStyle>
 
 | Имя | Описание |
 | --- | --- |
-| [BottomLeftCell](../../aspose.words/conditionalstylecollection/bottomleftcell) { get; } | Получает стиль нижней левой ячейки. |
-| [BottomRightCell](../../aspose.words/conditionalstylecollection/bottomrightcell) { get; } | Получает стиль нижней правой ячейки. |
-| [Count](../../aspose.words/conditionalstylecollection/count) { get; } | Получает количество условных стилей в коллекции. |
-| [EvenColumnBanding](../../aspose.words/conditionalstylecollection/evencolumnbanding) { get; } | Получает стиль полос четных столбцов. |
-| [EvenRowBanding](../../aspose.words/conditionalstylecollection/evenrowbanding) { get; } | Получает стиль чередования четных строк. |
-| [FirstColumn](../../aspose.words/conditionalstylecollection/firstcolumn) { get; } | Получает стиль первого столбца. |
-| [FirstRow](../../aspose.words/conditionalstylecollection/firstrow) { get; } | Получает стиль первой строки. |
-| [Item](../../aspose.words/conditionalstylecollection/item) { get; } | Получает[`ConditionalStyle`](../conditionalstyle) объект по типу условного стиля. (2 indexers) |
-| [LastColumn](../../aspose.words/conditionalstylecollection/lastcolumn) { get; } | Получает стиль последнего столбца. |
-| [LastRow](../../aspose.words/conditionalstylecollection/lastrow) { get; } | Получает стиль последней строки. |
-| [OddColumnBanding](../../aspose.words/conditionalstylecollection/oddcolumnbanding) { get; } | Получает стиль чередования нечетных столбцов. |
-| [OddRowBanding](../../aspose.words/conditionalstylecollection/oddrowbanding) { get; } | Получает стиль чередования нечетных строк. |
-| [TopLeftCell](../../aspose.words/conditionalstylecollection/topleftcell) { get; } | Получает стиль верхней левой ячейки. |
-| [TopRightCell](../../aspose.words/conditionalstylecollection/toprightcell) { get; } | Получает стиль верхней правой ячейки. |
+| [BottomLeftCell](../../aspose.words/conditionalstylecollection/bottomleftcell/) { get; } | Получает стиль нижней левой ячейки. |
+| [BottomRightCell](../../aspose.words/conditionalstylecollection/bottomrightcell/) { get; } | Получает стиль нижней правой ячейки. |
+| [Count](../../aspose.words/conditionalstylecollection/count/) { get; } | Получает количество условных стилей в коллекции. |
+| [EvenColumnBanding](../../aspose.words/conditionalstylecollection/evencolumnbanding/) { get; } | Получает стиль полос четных столбцов. |
+| [EvenRowBanding](../../aspose.words/conditionalstylecollection/evenrowbanding/) { get; } | Получает стиль чередования четных строк. |
+| [FirstColumn](../../aspose.words/conditionalstylecollection/firstcolumn/) { get; } | Получает стиль первого столбца. |
+| [FirstRow](../../aspose.words/conditionalstylecollection/firstrow/) { get; } | Получает стиль первой строки. |
+| [Item](../../aspose.words/conditionalstylecollection/item/) { get; } | Получает[`ConditionalStyle`](../conditionalstyle/) объект по типу условного стиля. (2 indexers) |
+| [LastColumn](../../aspose.words/conditionalstylecollection/lastcolumn/) { get; } | Получает стиль последнего столбца. |
+| [LastRow](../../aspose.words/conditionalstylecollection/lastrow/) { get; } | Получает стиль последней строки. |
+| [OddColumnBanding](../../aspose.words/conditionalstylecollection/oddcolumnbanding/) { get; } | Получает стиль чередования нечетных столбцов. |
+| [OddRowBanding](../../aspose.words/conditionalstylecollection/oddrowbanding/) { get; } | Получает стиль чередования нечетных строк. |
+| [TopLeftCell](../../aspose.words/conditionalstylecollection/topleftcell/) { get; } | Получает стиль верхней левой ячейки. |
+| [TopRightCell](../../aspose.words/conditionalstylecollection/toprightcell/) { get; } | Получает стиль верхней правой ячейки. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [ClearFormatting](../../aspose.words/conditionalstylecollection/clearformatting)() | Очищает все условные стили таблицы style. |
-| [GetEnumerator](../../aspose.words/conditionalstylecollection/getenumerator)() | Возвращает объект перечислителя, который можно использовать для перебора всех условных стилей в коллекции. |
+| [ClearFormatting](../../aspose.words/conditionalstylecollection/clearformatting/)() | Очищает все условные стили таблицы style. |
+| [GetEnumerator](../../aspose.words/conditionalstylecollection/getenumerator/)() | Возвращает объект перечислителя, который можно использовать для перебора всех условных стилей в коллекции. |
 
 ### Примечания
 
-Невозможно добавлять или удалять элементы из этой коллекции. Он содержит постоянный набор элементов: один элемент для каждого значения[`ConditionalStyleType`](../conditionalstyletype) тип перечисления.
+Невозможно добавлять или удалять элементы из этой коллекции. Он содержит постоянный набор элементов: один элемент для каждого значения[`ConditionalStyleType`](../conditionalstyletype/) тип перечисления.
 
 ### Примеры
 
@@ -113,8 +113,8 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 
 ### Смотрите также
 
-* class [ConditionalStyle](../conditionalstyle)
-* пространство имен [Aspose.Words](../../aspose.words)
+* class [ConditionalStyle](../conditionalstyle/)
+* пространство имен [Aspose.Words](../../aspose.words/)
 * сборка [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

@@ -18,43 +18,43 @@ public class FieldCitation : Field
 
 | Имя | Описание |
 | --- | --- |
-| [FieldCitation](fieldcitation)() | Конструктор по умолчанию. |
+| [FieldCitation](fieldcitation/)() | Конструктор по умолчанию. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [AnotherSourceTag](../../aspose.words.fields/fieldcitation/anothersourcetag) { get; set; } | Получает или задает значение, соответствующее **Ярлык** значение элемента другого источника для включения в цитату. |
-| [DisplayResult](../../aspose.words.fields/field/displayresult) { get; } | Получает текст, представляющий результат отображаемого поля. |
-| [End](../../aspose.words.fields/field/end) { get; } | Получает узел, представляющий конец поля. |
-| [Format](../../aspose.words.fields/field/format) { get; } | Получает[`FieldFormat`](../fieldformat) объект, предоставляющий типизированный доступ к форматированию поля. |
-| [FormatLanguageId](../../aspose.words.fields/fieldcitation/formatlanguageid) { get; set; } | Получает или задает идентификатор языка, который используется в сочетании с указанным библиографическим стилем для форматирования citation в документе. |
-| [IsDirty](../../aspose.words.fields/field/isdirty) { get; set; } | Получает или устанавливает, является ли текущий результат поля более неверным (устаревшим) из-за других изменений, внесенных в документ. |
-| [IsLocked](../../aspose.words.fields/field/islocked) { get; set; } | Получает или задает, заблокировано ли поле (не следует пересчитывать его результат). |
-| [LocaleId](../../aspose.words.fields/field/localeid) { get; set; } | Получает или задает LCID поля. |
-| [PageNumber](../../aspose.words.fields/fieldcitation/pagenumber) { get; set; } | Получает или задает номер страницы, связанный с цитатой. |
-| [Prefix](../../aspose.words.fields/fieldcitation/prefix) { get; set; } | Получает или задает префикс, который добавляется к цитате. |
-| [Result](../../aspose.words.fields/field/result) { get; set; } | Получает или задает текст, который находится между разделителем поля и концом поля. |
-| [Separator](../../aspose.words.fields/field/separator) { get; } | Получает узел, представляющий разделитель полей. Может быть нулевым. |
-| [SourceTag](../../aspose.words.fields/fieldcitation/sourcetag) { get; set; } | Получает или задает значение, соответствующее **Ярлык**значение элемента источника для вставки. |
-| [Start](../../aspose.words.fields/field/start) { get; } | Получает узел, представляющий начало поля. |
-| [Suffix](../../aspose.words.fields/fieldcitation/suffix) { get; set; } | Получает или задает суффикс, который добавляется к цитате. |
-| [SuppressAuthor](../../aspose.words.fields/fieldcitation/suppressauthor) { get; set; } | Получает или задает, скрыта ли информация об авторе из цитирования. |
-| [SuppressTitle](../../aspose.words.fields/fieldcitation/suppresstitle) { get; set; } | Получает или задает, скрыта ли информация о заголовке из цитирования. |
-| [SuppressYear](../../aspose.words.fields/fieldcitation/suppressyear) { get; set; } | Получает или задает, будет ли информация о годе скрыта из цитирования. |
-| virtual [Type](../../aspose.words.fields/field/type) { get; } | Получает тип поля Microsoft Word. |
-| [VolumeNumber](../../aspose.words.fields/fieldcitation/volumenumber) { get; set; } | Получает или задает номер тома, связанный с цитатой. |
+| [AnotherSourceTag](../../aspose.words.fields/fieldcitation/anothersourcetag/) { get; set; } | Получает или задает значение, соответствующее **Ярлык** значение элемента другого источника для включения в цитату. |
+| [DisplayResult](../../aspose.words.fields/field/displayresult/) { get; } | Получает текст, представляющий результат отображаемого поля. |
+| [End](../../aspose.words.fields/field/end/) { get; } | Получает узел, представляющий конец поля. |
+| [Format](../../aspose.words.fields/field/format/) { get; } | Получает[`FieldFormat`](../fieldformat/) объект, предоставляющий типизированный доступ к форматированию поля. |
+| [FormatLanguageId](../../aspose.words.fields/fieldcitation/formatlanguageid/) { get; set; } | Получает или задает идентификатор языка, который используется в сочетании с указанным библиографическим стилем для форматирования citation в документе. |
+| [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | Получает или устанавливает, является ли текущий результат поля более неверным (устаревшим) из-за других изменений, внесенных в документ. |
+| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | Получает или задает, заблокировано ли поле (не следует пересчитывать его результат). |
+| [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | Получает или задает LCID поля. |
+| [PageNumber](../../aspose.words.fields/fieldcitation/pagenumber/) { get; set; } | Получает или задает номер страницы, связанный с цитатой. |
+| [Prefix](../../aspose.words.fields/fieldcitation/prefix/) { get; set; } | Получает или задает префикс, который добавляется к цитате. |
+| [Result](../../aspose.words.fields/field/result/) { get; set; } | Получает или задает текст, который находится между разделителем поля и концом поля. |
+| [Separator](../../aspose.words.fields/field/separator/) { get; } | Получает узел, представляющий разделитель полей. Может быть нулевым. |
+| [SourceTag](../../aspose.words.fields/fieldcitation/sourcetag/) { get; set; } | Получает или задает значение, соответствующее **Ярлык**значение элемента источника для вставки. |
+| [Start](../../aspose.words.fields/field/start/) { get; } | Получает узел, представляющий начало поля. |
+| [Suffix](../../aspose.words.fields/fieldcitation/suffix/) { get; set; } | Получает или задает суффикс, который добавляется к цитате. |
+| [SuppressAuthor](../../aspose.words.fields/fieldcitation/suppressauthor/) { get; set; } | Получает или задает, скрыта ли информация об авторе из цитирования. |
+| [SuppressTitle](../../aspose.words.fields/fieldcitation/suppresstitle/) { get; set; } | Получает или задает, скрыта ли информация о заголовке из цитирования. |
+| [SuppressYear](../../aspose.words.fields/fieldcitation/suppressyear/) { get; set; } | Получает или задает, будет ли информация о годе скрыта из цитирования. |
+| virtual [Type](../../aspose.words.fields/field/type/) { get; } | Получает тип поля Microsoft Word. |
+| [VolumeNumber](../../aspose.words.fields/fieldcitation/volumenumber/) { get; set; } | Получает или задает номер тома, связанный с цитатой. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode)() | Возвращает текст между началом поля и разделителем поля (или концом поля, если разделителя нет). Включены как код поля, так и результат поля дочерних полей. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode)(bool) | Возвращает текст между началом поля и разделителем полей (или концом поля, если разделителя нет). |
-| [Remove](../../aspose.words.fields/field/remove)() | Удаляет поле из документа. Возвращает узел сразу после поля. Если конец поля является последним child его родительского узла, возвращает его родительский абзац. Если поле уже удалено, возвращает **нулевой** . |
-| [Unlink](../../aspose.words.fields/field/unlink)() | Выполняет развязку поля. |
-| [Update](../../aspose.words.fields/field/update)() | Выполняет обновление поля. Выдает, если поле уже обновляется. |
-| [Update](../../aspose.words.fields/field/update)(bool) | Выполняет обновление поля. Выдает, если поле уже обновляется. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Возвращает текст между началом поля и разделителем поля (или концом поля, если разделителя нет). Включены как код поля, так и результат поля дочерних полей. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Возвращает текст между началом поля и разделителем полей (или концом поля, если разделителя нет). |
+| [Remove](../../aspose.words.fields/field/remove/)() | Удаляет поле из документа. Возвращает узел сразу после поля. Если конец поля является последним child его родительского узла, возвращает его родительский абзац. Если поле уже удалено, возвращает **нулевой** . |
+| [Unlink](../../aspose.words.fields/field/unlink/)() | Выполняет развязку поля. |
+| [Update](../../aspose.words.fields/field/update/)() | Выполняет обновление поля. Выдает, если поле уже обновляется. |
+| [Update](../../aspose.words.fields/field/update/)(bool) | Выполняет обновление поля. Выдает, если поле уже обновляется. |
 
 ### Примечания
 
@@ -113,8 +113,8 @@ doc.Save(ArtifactsDir + "Field.CITATION.docx");
 
 ### Смотрите также
 
-* class [Field](../field)
-* пространство имен [Aspose.Words.Fields](../../aspose.words.fields)
+* class [Field](../field/)
+* пространство имен [Aspose.Words.Fields](../../aspose.words.fields/)
 * сборка [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

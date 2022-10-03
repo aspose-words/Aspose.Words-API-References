@@ -18,42 +18,42 @@ public class FieldIncludeText : Field
 
 | Имя | Описание |
 | --- | --- |
-| [FieldIncludeText](fieldincludetext)() | Конструктор по умолчанию. |
+| [FieldIncludeText](fieldincludetext/)() | Конструктор по умолчанию. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [BookmarkName](../../aspose.words.fields/fieldincludetext/bookmarkname) { get; set; } | Получает или задает имя закладки в документе для включения. |
-| [DisplayResult](../../aspose.words.fields/field/displayresult) { get; } | Получает текст, представляющий результат отображаемого поля. |
-| [Encoding](../../aspose.words.fields/fieldincludetext/encoding) { get; set; } | Получает или задает кодировку, применяемую к данным в указанном файле. |
-| [End](../../aspose.words.fields/field/end) { get; } | Получает узел, представляющий конец поля. |
-| [Format](../../aspose.words.fields/field/format) { get; } | Получает[`FieldFormat`](../fieldformat) объект, предоставляющий типизированный доступ к форматированию поля. |
-| [IsDirty](../../aspose.words.fields/field/isdirty) { get; set; } | Получает или устанавливает, является ли текущий результат поля более неверным (устаревшим) из-за других изменений, внесенных в документ. |
-| [IsLocked](../../aspose.words.fields/field/islocked) { get; set; } | Получает или задает, заблокировано ли поле (не следует пересчитывать его результат). |
-| [LocaleId](../../aspose.words.fields/field/localeid) { get; set; } | Получает или задает LCID поля. |
-| [LockFields](../../aspose.words.fields/fieldincludetext/lockfields) { get; set; } | Получает или задает, следует ли запретить обновление полей во включенном документе. |
-| [MimeType](../../aspose.words.fields/fieldincludetext/mimetype) { get; set; } | Получает или задает MIME-тип файла, на который указывает ссылка. |
-| [NamespaceMappings](../../aspose.words.fields/fieldincludetext/namespacemappings) { get; set; } | Получает или задает сопоставления пространств имен для запросов XPath. |
-| [Result](../../aspose.words.fields/field/result) { get; set; } | Получает или задает текст, который находится между разделителем поля и концом поля. |
-| [Separator](../../aspose.words.fields/field/separator) { get; } | Получает узел, представляющий разделитель полей. Может быть нулевым. |
-| [SourceFullName](../../aspose.words.fields/fieldincludetext/sourcefullname) { get; set; } | Получает или задает расположение документа с помощью IRI. |
-| [Start](../../aspose.words.fields/field/start) { get; } | Получает узел, представляющий начало поля. |
-| [TextConverter](../../aspose.words.fields/fieldincludetext/textconverter) { get; set; } | Получает или задает имя текстового преобразователя для формата включаемого файла. |
-| virtual [Type](../../aspose.words.fields/field/type) { get; } | Получает тип поля Microsoft Word. |
-| [XPath](../../aspose.words.fields/fieldincludetext/xpath) { get; set; } | Получает или задает XPath для нужной части файла XML. |
-| [XslTransformation](../../aspose.words.fields/fieldincludetext/xsltransformation) { get; set; } | Получает или задает расположение преобразования XSL для форматирования данных XML. |
+| [BookmarkName](../../aspose.words.fields/fieldincludetext/bookmarkname/) { get; set; } | Получает или задает имя закладки в документе для включения. |
+| [DisplayResult](../../aspose.words.fields/field/displayresult/) { get; } | Получает текст, представляющий результат отображаемого поля. |
+| [Encoding](../../aspose.words.fields/fieldincludetext/encoding/) { get; set; } | Получает или задает кодировку, применяемую к данным в указанном файле. |
+| [End](../../aspose.words.fields/field/end/) { get; } | Получает узел, представляющий конец поля. |
+| [Format](../../aspose.words.fields/field/format/) { get; } | Получает[`FieldFormat`](../fieldformat/) объект, предоставляющий типизированный доступ к форматированию поля. |
+| [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | Получает или устанавливает, является ли текущий результат поля более неверным (устаревшим) из-за других изменений, внесенных в документ. |
+| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | Получает или задает, заблокировано ли поле (не следует пересчитывать его результат). |
+| [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | Получает или задает LCID поля. |
+| [LockFields](../../aspose.words.fields/fieldincludetext/lockfields/) { get; set; } | Получает или задает, следует ли запретить обновление полей во включенном документе. |
+| [MimeType](../../aspose.words.fields/fieldincludetext/mimetype/) { get; set; } | Получает или задает MIME-тип файла, на который указывает ссылка. |
+| [NamespaceMappings](../../aspose.words.fields/fieldincludetext/namespacemappings/) { get; set; } | Получает или задает сопоставления пространств имен для запросов XPath. |
+| [Result](../../aspose.words.fields/field/result/) { get; set; } | Получает или задает текст, который находится между разделителем поля и концом поля. |
+| [Separator](../../aspose.words.fields/field/separator/) { get; } | Получает узел, представляющий разделитель полей. Может быть нулевым. |
+| [SourceFullName](../../aspose.words.fields/fieldincludetext/sourcefullname/) { get; set; } | Получает или задает расположение документа с помощью IRI. |
+| [Start](../../aspose.words.fields/field/start/) { get; } | Получает узел, представляющий начало поля. |
+| [TextConverter](../../aspose.words.fields/fieldincludetext/textconverter/) { get; set; } | Получает или задает имя текстового преобразователя для формата включаемого файла. |
+| virtual [Type](../../aspose.words.fields/field/type/) { get; } | Получает тип поля Microsoft Word. |
+| [XPath](../../aspose.words.fields/fieldincludetext/xpath/) { get; set; } | Получает или задает XPath для нужной части файла XML. |
+| [XslTransformation](../../aspose.words.fields/fieldincludetext/xsltransformation/) { get; set; } | Получает или задает расположение преобразования XSL для форматирования данных XML. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode)() | Возвращает текст между началом поля и разделителем поля (или концом поля, если разделителя нет). Включены как код поля, так и результат поля дочерних полей. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode)(bool) | Возвращает текст между началом поля и разделителем полей (или концом поля, если разделителя нет). |
-| [Remove](../../aspose.words.fields/field/remove)() | Удаляет поле из документа. Возвращает узел сразу после поля. Если конец поля является последним child его родительского узла, возвращает его родительский абзац. Если поле уже удалено, возвращает **нулевой** . |
-| [Unlink](../../aspose.words.fields/field/unlink)() | Выполняет развязку поля. |
-| [Update](../../aspose.words.fields/field/update)() | Выполняет обновление поля. Выдает, если поле уже обновляется. |
-| [Update](../../aspose.words.fields/field/update)(bool) | Выполняет обновление поля. Выдает, если поле уже обновляется. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Возвращает текст между началом поля и разделителем поля (или концом поля, если разделителя нет). Включены как код поля, так и результат поля дочерних полей. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Возвращает текст между началом поля и разделителем полей (или концом поля, если разделителя нет). |
+| [Remove](../../aspose.words.fields/field/remove/)() | Удаляет поле из документа. Возвращает узел сразу после поля. Если конец поля является последним child его родительского узла, возвращает его родительский абзац. Если поле уже удалено, возвращает **нулевой** . |
+| [Unlink](../../aspose.words.fields/field/unlink/)() | Выполняет развязку поля. |
+| [Update](../../aspose.words.fields/field/update/)() | Выполняет обновление поля. Выдает, если поле уже обновляется. |
+| [Update](../../aspose.words.fields/field/update/)(bool) | Выполняет обновление поля. Выдает, если поле уже обновляется. |
 
 ### Примечания
 
@@ -101,8 +101,8 @@ public FieldIncludeText CreateFieldIncludeText(DocumentBuilder builder, string s
 
 ### Смотрите также
 
-* class [Field](../field)
-* пространство имен [Aspose.Words.Fields](../../aspose.words.fields)
+* class [Field](../field/)
+* пространство имен [Aspose.Words.Fields](../../aspose.words.fields/)
 * сборка [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

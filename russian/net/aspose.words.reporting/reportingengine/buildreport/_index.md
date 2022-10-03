@@ -21,17 +21,17 @@ public bool BuildReport(Document document, object dataSource)
 
 ### Возвращаемое значение
 
-Флаг, указывающий, был ли разбор документа шаблона успешным. Возвращаемый флаг имеет смысл только в том случае, если значение[`Options`](../options)свойство включает InlineErrorMessages вариант.
+Флаг, указывающий, был ли разбор документа шаблона успешным. Возвращаемый флаг имеет смысл только в том случае, если значение[`Options`](../options/)свойство включает InlineErrorMessages вариант.
 
 ### Примечания
 
-Используя эту перегрузку, вы можете ссылаться на элементы источника данных в документе шаблона, но вы не можете ссылаться на сам объект источника данных. Вы должны использовать[`BuildReport`](../buildreport) перегрузите для достижения этого.
+Используя эту перегрузку, вы можете ссылаться на элементы источника данных в документе шаблона, но вы не можете ссылаться на сам объект источника данных. Вы должны использовать[`BuildReport`](./buildreport/) перегрузите для достижения этого.
 
 Объект источника данных может быть одного из следующих типов:
 
-* [`XmlDataSource`](../../xmldatasource)
-* [`JsonDataSource`](../../jsondatasource)
-* [`CsvDataSource`](../../csvdatasource)
+* [`XmlDataSource`](../../xmldatasource/)
+* [`JsonDataSource`](../../jsondatasource/)
+* [`CsvDataSource`](../../csvdatasource/)
 * DataSet
 * DataTable
 * DataRow
@@ -45,9 +45,9 @@ public bool BuildReport(Document document, object dataSource)
 
 ### Смотрите также
 
-* class [Document](../../../aspose.words/document)
-* class [ReportingEngine](../../reportingengine)
-* пространство имен [Aspose.Words.Reporting](../../reportingengine)
+* class [Document](../../../aspose.words/document/)
+* class [ReportingEngine](../)
+* пространство имен [Aspose.Words.Reporting](../../reportingengine/)
 * сборка [Aspose.Words](../../../)
 
 ---
@@ -68,17 +68,17 @@ public bool BuildReport(Document document, object dataSource, string dataSourceN
 
 ### Возвращаемое значение
 
-Флаг, указывающий, был ли разбор документа шаблона успешным. Возвращаемый флаг имеет смысл только в том случае, если значение[`Options`](../options)свойство включает InlineErrorMessages вариант.
+Флаг, указывающий, был ли разбор документа шаблона успешным. Возвращаемый флаг имеет смысл только в том случае, если значение[`Options`](../options/)свойство включает InlineErrorMessages вариант.
 
 ### Примечания
 
-С помощью этой перегрузки вы можете ссылаться на элементы источника данных и сам объект источника данных в шаблоне. Если вы не собираетесь ссылаться на сам объект источника данных, вы можете опустить*dataSourceName* с передачей null или используйте[`BuildReport`](../buildreport) перегрузка.
+С помощью этой перегрузки вы можете ссылаться на элементы источника данных и сам объект источника данных в шаблоне. Если вы не собираетесь ссылаться на сам объект источника данных, вы можете опустить*dataSourceName* с передачей null или используйте[`BuildReport`](./buildreport/) перегрузка.
 
 Объект источника данных может быть одного из следующих типов:
 
-* [`XmlDataSource`](../../xmldatasource)
-* [`JsonDataSource`](../../jsondatasource)
-* [`CsvDataSource`](../../csvdatasource)
+* [`XmlDataSource`](../../xmldatasource/)
+* [`JsonDataSource`](../../jsondatasource/)
+* [`CsvDataSource`](../../csvdatasource/)
 * DataSet
 * DataTable
 * DataRow
@@ -92,9 +92,9 @@ public bool BuildReport(Document document, object dataSource, string dataSourceN
 
 ### Смотрите также
 
-* class [Document](../../../aspose.words/document)
-* class [ReportingEngine](../../reportingengine)
-* пространство имен [Aspose.Words.Reporting](../../reportingengine)
+* class [Document](../../../aspose.words/document/)
+* class [ReportingEngine](../)
+* пространство имен [Aspose.Words.Reporting](../../reportingengine/)
 * сборка [Aspose.Words](../../../)
 
 ---
@@ -115,19 +115,19 @@ public bool BuildReport(Document document, object[] dataSources, string[] dataSo
 
 ### Возвращаемое значение
 
-Флаг, указывающий, был ли разбор документа шаблона успешным. Возвращаемый флаг имеет смысл только в том случае, если значение[`Options`](../options)свойство включает InlineErrorMessages вариант.
+Флаг, указывающий, был ли разбор документа шаблона успешным. Возвращаемый флаг имеет смысл только в том случае, если значение[`Options`](../options/)свойство включает InlineErrorMessages вариант.
 
 ### Примечания
 
 С помощью этой перегрузки вы можете ссылаться на несколько объектов источников данных и их членов в шаблоне. Имя первого источника данных может быть опущено (т. е. быть пустой строкой или нулевым значением), если вы собираетесь ссылаться на элементы источника данных, но не на сам объект источника данных. Имена других источников данных должны быть указаны и уникальны.
 
-Если вы собираетесь использовать один источник данных, рассмотрите возможность использования[`BuildReport`](../buildreport) и[`BuildReport`](../buildreport) вместо этого перегружается.
+Если вы собираетесь использовать один источник данных, рассмотрите возможность использования[`BuildReport`](./buildreport/) и[`BuildReport`](./buildreport/) вместо этого перегружается.
 
 Объект источника данных может быть одного из следующих типов:
 
-* [`XmlDataSource`](../../xmldatasource)
-* [`JsonDataSource`](../../jsondatasource)
-* [`CsvDataSource`](../../csvdatasource)
+* [`XmlDataSource`](../../xmldatasource/)
+* [`JsonDataSource`](../../jsondatasource/)
+* [`CsvDataSource`](../../csvdatasource/)
 * DataSet
 * DataTable
 * DataRow
@@ -141,9 +141,9 @@ public bool BuildReport(Document document, object[] dataSources, string[] dataSo
 
 ### Смотрите также
 
-* class [Document](../../../aspose.words/document)
-* class [ReportingEngine](../../reportingengine)
-* пространство имен [Aspose.Words.Reporting](../../reportingengine)
+* class [Document](../../../aspose.words/document/)
+* class [ReportingEngine](../)
+* пространство имен [Aspose.Words.Reporting](../../reportingengine/)
 * сборка [Aspose.Words](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

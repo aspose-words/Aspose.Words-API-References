@@ -1,14 +1,14 @@
 ---
 title: ImageFieldMergingArgs
 second_title: Справочник по API Aspose.Words для .NET
-description: Предоставляет данные дляImageFieldMerging./ifieldmergingcallback/imagefieldmerging событие.
+description: Предоставляет данные дляImageFieldMerging./ifieldmergingcallback/imagefieldmerging/ событие.
 type: docs
 weight: 3610
 url: /ru/net/aspose.words.mailmerging/imagefieldmergingargs/
 ---
 ## ImageFieldMergingArgs class
 
-Предоставляет данные для[`ImageFieldMerging`](../ifieldmergingcallback/imagefieldmerging) событие.
+Предоставляет данные для[`ImageFieldMerging`](../ifieldmergingcallback/imagefieldmerging/) событие.
 
 ```csharp
 public class ImageFieldMergingArgs : FieldMergingArgsBase
@@ -18,25 +18,25 @@ public class ImageFieldMergingArgs : FieldMergingArgsBase
 
 | Имя | Описание |
 | --- | --- |
-| [Document](../../aspose.words.mailmerging/fieldmergingargsbase/document) { get; } | Возвращает[`Document`](../fieldmergingargsbase/document) объект, для которого выполняется слияние. |
-| [DocumentFieldName](../../aspose.words.mailmerging/fieldmergingargsbase/documentfieldname) { get; } | Получает имя поля слияния, как указано в документе. |
-| [Field](../../aspose.words.mailmerging/fieldmergingargsbase/field) { get; } | Получает объект, представляющий текущее поле слияния. |
-| [FieldName](../../aspose.words.mailmerging/fieldmergingargsbase/fieldname) { get; } | Получает имя поля слияния в источнике данных. |
-| [FieldValue](../../aspose.words.mailmerging/fieldmergingargsbase/fieldvalue) { get; set; } | Получает или задает значение поля из источника данных. |
-| [Image](../../aspose.words.mailmerging/imagefieldmergingargs/image) { get; set; } | Указывает изображение, которое механизм слияния должен вставить в документ. |
-| [ImageFileName](../../aspose.words.mailmerging/imagefieldmergingargs/imagefilename) { get; set; } | Устанавливает имя файла изображения, которое модуль слияния должен вставить в документ. |
-| [ImageHeight](../../aspose.words.mailmerging/imagefieldmergingargs/imageheight) { get; set; } | Задает высоту изображения для вставки в документ. |
-| [ImageStream](../../aspose.words.mailmerging/imagefieldmergingargs/imagestream) { get; set; } | Указывает поток, из которого механизм слияния считывает изображение. |
-| [ImageWidth](../../aspose.words.mailmerging/imagefieldmergingargs/imagewidth) { get; set; } | Задает ширину изображения для вставки в документ. |
-| [RecordIndex](../../aspose.words.mailmerging/fieldmergingargsbase/recordindex) { get; } | Получает нулевой индекс объединяемой записи. |
-| [Shape](../../aspose.words.mailmerging/imagefieldmergingargs/shape) { get; set; } | Указывает форму, которую механизм слияния должен вставить в документ. |
-| [TableName](../../aspose.words.mailmerging/fieldmergingargsbase/tablename) { get; } | Получает имя таблицы данных для текущей операции слияния или пустую строку, если имя недоступно. |
+| [Document](../../aspose.words.mailmerging/fieldmergingargsbase/document/) { get; } | Возвращает[`Document`](../fieldmergingargsbase/document/) объект, для которого выполняется слияние. |
+| [DocumentFieldName](../../aspose.words.mailmerging/fieldmergingargsbase/documentfieldname/) { get; } | Получает имя поля слияния, как указано в документе. |
+| [Field](../../aspose.words.mailmerging/fieldmergingargsbase/field/) { get; } | Получает объект, представляющий текущее поле слияния. |
+| [FieldName](../../aspose.words.mailmerging/fieldmergingargsbase/fieldname/) { get; } | Получает имя поля слияния в источнике данных. |
+| [FieldValue](../../aspose.words.mailmerging/fieldmergingargsbase/fieldvalue/) { get; set; } | Получает или задает значение поля из источника данных. |
+| [Image](../../aspose.words.mailmerging/imagefieldmergingargs/image/) { get; set; } | Указывает изображение, которое механизм слияния должен вставить в документ. |
+| [ImageFileName](../../aspose.words.mailmerging/imagefieldmergingargs/imagefilename/) { get; set; } | Устанавливает имя файла изображения, которое модуль слияния должен вставить в документ. |
+| [ImageHeight](../../aspose.words.mailmerging/imagefieldmergingargs/imageheight/) { get; set; } | Задает высоту изображения для вставки в документ. |
+| [ImageStream](../../aspose.words.mailmerging/imagefieldmergingargs/imagestream/) { get; set; } | Указывает поток, из которого механизм слияния считывает изображение. |
+| [ImageWidth](../../aspose.words.mailmerging/imagefieldmergingargs/imagewidth/) { get; set; } | Задает ширину изображения для вставки в документ. |
+| [RecordIndex](../../aspose.words.mailmerging/fieldmergingargsbase/recordindex/) { get; } | Получает нулевой индекс объединяемой записи. |
+| [Shape](../../aspose.words.mailmerging/imagefieldmergingargs/shape/) { get; set; } | Указывает форму, которую механизм слияния должен вставить в документ. |
+| [TableName](../../aspose.words.mailmerging/fieldmergingargsbase/tablename/) { get; } | Получает имя таблицы данных для текущей операции слияния или пустую строку, если имя недоступно. |
 
 ### Примечания
 
 Это событие происходит во время слияния, когда в документе встречается поле изображения mail merge . Вы можете отреагировать на это событие, чтобы вернуть a имя файла, поток илиImage объект почтовому механизму merge , чтобы он был вставлен в документ.
 
-Доступны три свойства[`ImageFileName`](./imagefilename) , [`ImageStream`](./imagestream) а также[`Image`](./image) чтобы указать, откуда должно быть взято изображение. Установите только одно из этих свойств.
+Доступны три свойства[`ImageFileName`](./imagefilename/) , [`ImageStream`](./imagestream/) а также[`Image`](./image/) чтобы указать, откуда должно быть взято изображение. Установите только одно из этих свойств.
 
 Чтобы вставить поле слияния изображений в документ Word, выберите команду Insert/Field, , затем выберите MergeField и введите Image:MyFieldName.
 
@@ -150,8 +150,8 @@ private class MergedImageResizer : IFieldMergingCallback
 
 ### Смотрите также
 
-* class [FieldMergingArgsBase](../fieldmergingargsbase)
-* пространство имен [Aspose.Words.MailMerging](../../aspose.words.mailmerging)
+* class [FieldMergingArgsBase](../fieldmergingargsbase/)
+* пространство имен [Aspose.Words.MailMerging](../../aspose.words.mailmerging/)
 * сборка [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

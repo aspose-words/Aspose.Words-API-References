@@ -18,30 +18,30 @@ public class CustomDocumentProperties : DocumentPropertyCollection
 
 | Имя | Описание |
 | --- | --- |
-| [Count](../../aspose.words.properties/documentpropertycollection/count) { get; } | Получает количество элементов в коллекции. |
-| [Item](../../aspose.words.properties/documentpropertycollection/item) { get; } | Возвращает[`DocumentProperty`](../documentproperty) объект по индексу. |
-| virtual [Item](../../aspose.words.properties/documentpropertycollection/item) { get; } | Возвращает[`DocumentProperty`](../documentproperty) объект по имени свойства. |
+| [Count](../../aspose.words.properties/documentpropertycollection/count/) { get; } | Получает количество элементов в коллекции. |
+| [Item](../../aspose.words.properties/documentpropertycollection/item/) { get; } | Возвращает[`DocumentProperty`](../documentproperty/) объект по индексу. |
+| virtual [Item](../../aspose.words.properties/documentpropertycollection/item/) { get; } | Возвращает[`DocumentProperty`](../documentproperty/) объект по имени свойства. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [Add](../../aspose.words.properties/customdocumentproperties/add#add)(string, bool) | Создает новое пользовательское свойство документа **PropertyType.Boolean** тип данных. |
-| [Add](../../aspose.words.properties/customdocumentproperties/add#add_3)(string, DateTime) | Создает новое пользовательское свойство документа **PropertyType.DateTime** тип данных. |
-| [Add](../../aspose.words.properties/customdocumentproperties/add#add_1)(string, double) | Создает новое пользовательское свойство документа **PropertyType.Float** тип данных. |
-| [Add](../../aspose.words.properties/customdocumentproperties/add#add_2)(string, int) | Создает новое пользовательское свойство документа **PropertyType.Number** тип данных. |
-| [Add](../../aspose.words.properties/customdocumentproperties/add#add_4)(string, string) | Создает новое пользовательское свойство документа **Тип свойства.String** тип данных. |
-| [AddLinkToContent](../../aspose.words.properties/customdocumentproperties/addlinktocontent)(string, string) | Создает новое настраиваемое свойство документа, связанное с содержимым. |
-| [Clear](../../aspose.words.properties/documentpropertycollection/clear)() | Удаляет все свойства из коллекции. |
-| [Contains](../../aspose.words.properties/documentpropertycollection/contains)(string) | Возвращает значение true, если свойство с указанным именем существует в коллекции. |
-| [GetEnumerator](../../aspose.words.properties/documentpropertycollection/getenumerator)() | Возвращает объект перечислителя, который можно использовать для перебора всех элементов в коллекции. |
-| [IndexOf](../../aspose.words.properties/documentpropertycollection/indexof)(string) | Получает индекс свойства по имени. |
-| [Remove](../../aspose.words.properties/documentpropertycollection/remove)(string) | Удаляет свойство с указанным именем из коллекции. |
-| [RemoveAt](../../aspose.words.properties/documentpropertycollection/removeat)(int) | Удаляет свойство по указанному индексу. |
+| [Add](../../aspose.words.properties/customdocumentproperties/add/#add)(string, bool) | Создает новое пользовательское свойство документа **PropertyType.Boolean** тип данных. |
+| [Add](../../aspose.words.properties/customdocumentproperties/add/#add_3)(string, DateTime) | Создает новое пользовательское свойство документа **PropertyType.DateTime** тип данных. |
+| [Add](../../aspose.words.properties/customdocumentproperties/add/#add_1)(string, double) | Создает новое пользовательское свойство документа **PropertyType.Float** тип данных. |
+| [Add](../../aspose.words.properties/customdocumentproperties/add/#add_2)(string, int) | Создает новое пользовательское свойство документа **PropertyType.Number** тип данных. |
+| [Add](../../aspose.words.properties/customdocumentproperties/add/#add_4)(string, string) | Создает новое пользовательское свойство документа **Тип свойства.String** тип данных. |
+| [AddLinkToContent](../../aspose.words.properties/customdocumentproperties/addlinktocontent/)(string, string) | Создает новое настраиваемое свойство документа, связанное с содержимым. |
+| [Clear](../../aspose.words.properties/documentpropertycollection/clear/)() | Удаляет все свойства из коллекции. |
+| [Contains](../../aspose.words.properties/documentpropertycollection/contains/)(string) | Возвращает значение true, если свойство с указанным именем существует в коллекции. |
+| [GetEnumerator](../../aspose.words.properties/documentpropertycollection/getenumerator/)() | Возвращает объект перечислителя, который можно использовать для перебора всех элементов в коллекции. |
+| [IndexOf](../../aspose.words.properties/documentpropertycollection/indexof/)(string) | Получает индекс свойства по имени. |
+| [Remove](../../aspose.words.properties/documentpropertycollection/remove/)(string) | Удаляет свойство с указанным именем из коллекции. |
+| [RemoveAt](../../aspose.words.properties/documentpropertycollection/removeat/)(int) | Удаляет свойство по указанному индексу. |
 
 ### Примечания
 
-Каждый[`DocumentProperty`](../documentproperty) object представляет пользовательское свойство документа-контейнера.
+Каждый[`DocumentProperty`](../documentproperty/) object представляет пользовательское свойство документа-контейнера.
 
 Имена свойств нечувствительны к регистру.
 
@@ -71,11 +71,11 @@ foreach (var customDocumentProperty in doc.CustomDocumentProperties)
 
 ### Смотрите также
 
-* class [Document](../../aspose.words/document)
-* property [BuiltInDocumentProperties](../../aspose.words/document/builtindocumentproperties)
-* property [CustomDocumentProperties](../../aspose.words/document/customdocumentproperties)
-* class [DocumentPropertyCollection](../documentpropertycollection)
-* пространство имен [Aspose.Words.Properties](../../aspose.words.properties)
+* class [Document](../../aspose.words/document/)
+* property [BuiltInDocumentProperties](../../aspose.words/document/builtindocumentproperties/)
+* property [CustomDocumentProperties](../../aspose.words/document/customdocumentproperties/)
+* class [DocumentPropertyCollection](../documentpropertycollection/)
+* пространство имен [Aspose.Words.Properties](../../aspose.words.properties/)
 * сборка [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

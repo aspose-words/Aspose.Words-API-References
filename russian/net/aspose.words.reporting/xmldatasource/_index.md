@@ -1,7 +1,7 @@
 ---
 title: XmlDataSource
 second_title: Справочник по API Aspose.Words для .NET
-description: Предоставляет доступ к данным XML-файла или потока для использования в отчете.
+description: Предоставляет доступ к данным XMLфайла или потока для использования в отчете.
 type: docs
 weight: 4490
 url: /ru/net/aspose.words.reporting/xmldatasource/
@@ -18,20 +18,20 @@ public class XmlDataSource
 
 | Имя | Описание |
 | --- | --- |
-| [XmlDataSource](xmldatasource#constructor)(Stream) | Создает новый источник данных с данными из потока XML, используя параметры по умолчанию для загрузки данных XML. |
-| [XmlDataSource](xmldatasource#constructor_4)(string) | Создает новый источник данных с данными из файла XML, используя параметры по умолчанию для загрузки данных XML. |
-| [XmlDataSource](xmldatasource#constructor_2)(Stream, Stream) | Создает новый источник данных с данными из потока XML с использованием потока определения схемы XML. Параметры по умолчанию используются для загрузки данных XML. |
-| [XmlDataSource](xmldatasource#constructor_1)(Stream, XmlDataLoadOptions) | Создает новый источник данных с данными из потока XML, используя указанные параметры загрузки данных XML. |
-| [XmlDataSource](xmldatasource#constructor_6)(string, string) | Создает новый источник данных с данными из файла XML, используя файл определения схемы XML. Параметры по умолчанию используются для загрузки данных XML. |
-| [XmlDataSource](xmldatasource#constructor_5)(string, XmlDataLoadOptions) | Создает новый источник данных с данными из файла XML, используя указанные параметры загрузки данных XML. |
-| [XmlDataSource](xmldatasource#constructor_3)(Stream, Stream, XmlDataLoadOptions) | Создает новый источник данных с данными из потока XML с использованием потока определения схемы XML. Указанные параметры используются для загрузки XML-данных. |
-| [XmlDataSource](xmldatasource#constructor_7)(string, string, XmlDataLoadOptions) | Создает новый источник данных с данными из файла XML, используя файл определения схемы XML. Указанные параметры используются для загрузки XML-данных. |
+| [XmlDataSource](xmldatasource/#constructor)(Stream) | Создает новый источник данных с данными из потока XML, используя параметры по умолчанию для загрузки данных XML. |
+| [XmlDataSource](xmldatasource/#constructor_4)(string) | Создает новый источник данных с данными из файла XML, используя параметры по умолчанию для загрузки данных XML. |
+| [XmlDataSource](xmldatasource/#constructor_2)(Stream, Stream) | Создает новый источник данных с данными из потока XML с использованием потока определения схемы XML. Параметры по умолчанию используются для загрузки данных XML. |
+| [XmlDataSource](xmldatasource/#constructor_1)(Stream, XmlDataLoadOptions) | Создает новый источник данных с данными из потока XML, используя указанные параметры загрузки данных XML. |
+| [XmlDataSource](xmldatasource/#constructor_6)(string, string) | Создает новый источник данных с данными из файла XML, используя файл определения схемы XML. Параметры по умолчанию используются для загрузки данных XML. |
+| [XmlDataSource](xmldatasource/#constructor_5)(string, XmlDataLoadOptions) | Создает новый источник данных с данными из файла XML, используя указанные параметры загрузки данных XML. |
+| [XmlDataSource](xmldatasource/#constructor_3)(Stream, Stream, XmlDataLoadOptions) | Создает новый источник данных с данными из потока XML с использованием потока определения схемы XML. Указанные параметры используются для загрузки XML-данных. |
+| [XmlDataSource](xmldatasource/#constructor_7)(string, string, XmlDataLoadOptions) | Создает новый источник данных с данными из файла XML, используя файл определения схемы XML. Указанные параметры используются для загрузки XML-данных. |
 
 ### Примечания
 
-Чтобы получить доступ к данным соответствующего файла или потока при создании отчета, передайте экземпляр этого класса как источник данных одному из[`ReportingEngine`](../reportingengine) Перегрузки .BuildReport.
+Чтобы получить доступ к данным соответствующего файла или потока при создании отчета, передайте экземпляр этого класса как источник данных одному из[`ReportingEngine`](../reportingengine/) Перегрузки .BuildReport.
 
-В шаблонных документах, если XML-элемент верхнего уровня содержит только список элементов одного типа, [`XmlDataSource`](../xmldatasource) Экземпляр следует рассматривать так же, как если бы он был aDataTable экземпляр . В противном случае[`XmlDataSource`](../xmldatasource) Экземпляр следует рассматривать так же, как если бы он был aDataRow экземпляр . Дополнительные сведения см. в справочнике по синтаксису шаблона (https://docs.aspose.com/display/wordsnet/Template+Syntax).
+В шаблонных документах, если XML-элемент верхнего уровня содержит только список элементов одного типа, [`XmlDataSource`](./xmldatasource/) Экземпляр следует рассматривать так же, как если бы он был aDataTable экземпляр . В противном случае[`XmlDataSource`](./xmldatasource/) Экземпляр следует рассматривать так же, как если бы он был aDataRow экземпляр . Дополнительные сведения см. в справочнике по синтаксису шаблона (https://docs.aspose.com/display/wordsnet/Template+Syntax).
 
 Когда определение схемы XML передается конструктору этого класса, типы данных значений простых элементов XML и атрибутов определяются в соответствии со схемой. Таким образом, в документах-шаблонах вы можете работать с типизированными значениями , а не только со строками.
 
@@ -45,11 +45,11 @@ public class XmlDataSource
 
 Обратите внимание, что для работы автоматического распознавания типов данных строковые представления значений простых XML-элементов и атрибутов должны формироваться с использованием инвариантных настроек культуры.
 
-Чтобы переопределить поведение загрузки данных XML по умолчанию, инициализируйте и передайте[`XmlDataLoadOptions`](../xmldataloadoptions) экземпляр в конструктор этого класса.
+Чтобы переопределить поведение загрузки данных XML по умолчанию, инициализируйте и передайте[`XmlDataLoadOptions`](../xmldataloadoptions/) экземпляр в конструктор этого класса.
 
 ### Смотрите также
 
-* пространство имен [Aspose.Words.Reporting](../../aspose.words.reporting)
+* пространство имен [Aspose.Words.Reporting](../../aspose.words.reporting/)
 * сборка [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

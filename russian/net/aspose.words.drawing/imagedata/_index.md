@@ -18,47 +18,47 @@ public class ImageData
 
 | Имя | Описание |
 | --- | --- |
-| [BiLevel](../../aspose.words.drawing/imagedata/bilevel) { get; set; } | Определяет, будет ли изображение отображаться черно-белым. |
-| [Borders](../../aspose.words.drawing/imagedata/borders) { get; } | Получает набор границ изображения. Границы действуют только для встроенных изображений. |
-| [Brightness](../../aspose.words.drawing/imagedata/brightness) { get; set; } | Получает или задает яркость изображения. Значение этого свойства должно быть числом от 0,0 (самый тусклый) до 1,0 (самый яркий). |
-| [ChromaKey](../../aspose.words.drawing/imagedata/chromakey) { get; set; } | Определяет значение цвета изображения, которое будет считаться прозрачным. |
-| [Contrast](../../aspose.words.drawing/imagedata/contrast) { get; set; } | Получает или задает контраст для указанного изображения. Значение для этого свойства должно быть числом от 0,0 (наименьший контраст) до 1,0 (наибольший контраст). |
-| [CropBottom](../../aspose.words.drawing/imagedata/cropbottom) { get; set; } | Определяет долю удаления изображения с нижней стороны. |
-| [CropLeft](../../aspose.words.drawing/imagedata/cropleft) { get; set; } | Определяет долю удаления изображения с левой стороны. |
-| [CropRight](../../aspose.words.drawing/imagedata/cropright) { get; set; } | Определяет долю удаления изображения с правой стороны. |
-| [CropTop](../../aspose.words.drawing/imagedata/croptop) { get; set; } | Определяет долю удаления изображения с верхней стороны. |
-| [GrayScale](../../aspose.words.drawing/imagedata/grayscale) { get; set; } | Определяет, будет ли изображение отображаться в оттенках серого. |
-| [HasImage](../../aspose.words.drawing/imagedata/hasimage) { get; } | Возвращает true, если фигура содержит байты изображения или ссылается на изображение. |
-| [ImageBytes](../../aspose.words.drawing/imagedata/imagebytes) { get; set; } | Получает или задает необработанные байты изображения, хранящегося в форме. |
-| [ImageSize](../../aspose.words.drawing/imagedata/imagesize) { get; } | Получает информацию о размере и разрешении изображения. |
-| [ImageType](../../aspose.words.drawing/imagedata/imagetype) { get; } | Получает тип изображения. |
-| [IsLink](../../aspose.words.drawing/imagedata/islink) { get; } | Возвращает true, если изображение связано с фигурой (когда[`SourceFullName`](./sourcefullname) указано). |
-| [IsLinkOnly](../../aspose.words.drawing/imagedata/islinkonly) { get; } | Возвращает true, если изображение связано и не хранится в документе. |
-| [SourceFullName](../../aspose.words.drawing/imagedata/sourcefullname) { get; set; } | Получает или задает путь и имя исходного файла для связанного изображения. |
-| [Title](../../aspose.words.drawing/imagedata/title) { get; set; } | Определяет заголовок изображения. |
+| [BiLevel](../../aspose.words.drawing/imagedata/bilevel/) { get; set; } | Определяет, будет ли изображение отображаться черно-белым. |
+| [Borders](../../aspose.words.drawing/imagedata/borders/) { get; } | Получает набор границ изображения. Границы действуют только для встроенных изображений. |
+| [Brightness](../../aspose.words.drawing/imagedata/brightness/) { get; set; } | Получает или задает яркость изображения. Значение этого свойства должно быть числом от 0,0 (самый тусклый) до 1,0 (самый яркий). |
+| [ChromaKey](../../aspose.words.drawing/imagedata/chromakey/) { get; set; } | Определяет значение цвета изображения, которое будет считаться прозрачным. |
+| [Contrast](../../aspose.words.drawing/imagedata/contrast/) { get; set; } | Получает или задает контраст для указанного изображения. Значение для этого свойства должно быть числом от 0,0 (наименьший контраст) до 1,0 (наибольший контраст). |
+| [CropBottom](../../aspose.words.drawing/imagedata/cropbottom/) { get; set; } | Определяет долю удаления изображения с нижней стороны. |
+| [CropLeft](../../aspose.words.drawing/imagedata/cropleft/) { get; set; } | Определяет долю удаления изображения с левой стороны. |
+| [CropRight](../../aspose.words.drawing/imagedata/cropright/) { get; set; } | Определяет долю удаления изображения с правой стороны. |
+| [CropTop](../../aspose.words.drawing/imagedata/croptop/) { get; set; } | Определяет долю удаления изображения с верхней стороны. |
+| [GrayScale](../../aspose.words.drawing/imagedata/grayscale/) { get; set; } | Определяет, будет ли изображение отображаться в оттенках серого. |
+| [HasImage](../../aspose.words.drawing/imagedata/hasimage/) { get; } | Возвращает true, если фигура содержит байты изображения или ссылается на изображение. |
+| [ImageBytes](../../aspose.words.drawing/imagedata/imagebytes/) { get; set; } | Получает или задает необработанные байты изображения, хранящегося в форме. |
+| [ImageSize](../../aspose.words.drawing/imagedata/imagesize/) { get; } | Получает информацию о размере и разрешении изображения. |
+| [ImageType](../../aspose.words.drawing/imagedata/imagetype/) { get; } | Получает тип изображения. |
+| [IsLink](../../aspose.words.drawing/imagedata/islink/) { get; } | Возвращает true, если изображение связано с фигурой (когда[`SourceFullName`](./sourcefullname/) указано). |
+| [IsLinkOnly](../../aspose.words.drawing/imagedata/islinkonly/) { get; } | Возвращает true, если изображение связано и не хранится в документе. |
+| [SourceFullName](../../aspose.words.drawing/imagedata/sourcefullname/) { get; set; } | Получает или задает путь и имя исходного файла для связанного изображения. |
+| [Title](../../aspose.words.drawing/imagedata/title/) { get; set; } | Определяет заголовок изображения. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [Save](../../aspose.words.drawing/imagedata/save#save)(Stream) | Сохраняет изображение в указанный поток. |
-| [Save](../../aspose.words.drawing/imagedata/save#save_1)(string) | Сохраняет изображение в файл. |
-| [SetImage](../../aspose.words.drawing/imagedata/setimage#setimage)(Image) | Задает изображение, отображаемое фигурой. |
-| [SetImage](../../aspose.words.drawing/imagedata/setimage#setimage_1)(Stream) | Задает изображение, отображаемое фигурой. |
-| [SetImage](../../aspose.words.drawing/imagedata/setimage#setimage_2)(string) | Задает изображение, отображаемое фигурой. |
-| [ToByteArray](../../aspose.words.drawing/imagedata/tobytearray)() | Возвращает байты изображения для любого изображения, независимо от того, сохранено ли изображение или связано. |
-| [ToImage](../../aspose.words.drawing/imagedata/toimage)() | Получает изображение, хранящееся в форме, какImage объект. |
-| [ToStream](../../aspose.words.drawing/imagedata/tostream)() | Создает и возвращает поток, содержащий байты изображения. |
+| [Save](../../aspose.words.drawing/imagedata/save/#save)(Stream) | Сохраняет изображение в указанный поток. |
+| [Save](../../aspose.words.drawing/imagedata/save/#save_1)(string) | Сохраняет изображение в файл. |
+| [SetImage](../../aspose.words.drawing/imagedata/setimage/#setimage)(Image) | Задает изображение, отображаемое фигурой. |
+| [SetImage](../../aspose.words.drawing/imagedata/setimage/#setimage_1)(Stream) | Задает изображение, отображаемое фигурой. |
+| [SetImage](../../aspose.words.drawing/imagedata/setimage/#setimage_2)(string) | Задает изображение, отображаемое фигурой. |
+| [ToByteArray](../../aspose.words.drawing/imagedata/tobytearray/)() | Возвращает байты изображения для любого изображения, независимо от того, сохранено ли изображение или связано. |
+| [ToImage](../../aspose.words.drawing/imagedata/toimage/)() | Получает изображение, хранящееся в форме, какImage объект. |
+| [ToStream](../../aspose.words.drawing/imagedata/tostream/)() | Создает и возвращает поток, содержащий байты изображения. |
 
 ### Примечания
 
-Использовать[`ImageData`](../shape/imagedata) свойство для доступа и изменения изображения внутри формы. Вы не создаете экземпляры[`ImageData`](../imagedata) класс напрямую.
+Использовать[`ImageData`](../shape/imagedata/) свойство для доступа и изменения изображения внутри формы. Вы не создаете экземпляры[`ImageData`](./imagedata/) класс напрямую.
 
 Изображение может быть сохранено внутри фигуры, связано с внешним файлом или и то, и другое (связано и сохранено в документе).
 
-Независимо от того, хранится ли изображение внутри фигуры или связано с ним, вы всегда можете получить доступ к изображению fact с помощью команды[`ToByteArray`](./tobytearray) ,[`ToStream`](./tostream) ,[`ToImage`](./toimage) или же[`Save`](./save) методы. Если изображение хранится внутри формы, вы также можете напрямую получить к нему доступ с помощью[`ImageBytes`](./imagebytes) имущество.
+Независимо от того, хранится ли изображение внутри фигуры или связано с ним, вы всегда можете получить доступ к изображению fact с помощью команды[`ToByteArray`](./tobytearray/) ,[`ToStream`](./tostream/) ,[`ToImage`](./toimage/) или же[`Save`](./save/) методы. Если изображение хранится внутри формы, вы также можете напрямую получить к нему доступ с помощью[`ImageBytes`](./imagebytes/) имущество.
 
-Чтобы сохранить изображение внутри фигуры, используйте[`SetImage`](./setimage) метод. Чтобы связать изображение с фигурой, установите[`SourceFullName`](./sourcefullname) имущество.
+Чтобы сохранить изображение внутри фигуры, используйте[`SetImage`](./setimage/) метод. Чтобы связать изображение с фигурой, установите[`SourceFullName`](./sourcefullname/) имущество.
 
 ### Примеры
 
@@ -127,7 +127,7 @@ Assert.True(10000 > new FileInfo(ArtifactsDir + "Image.CreateLinkedImage.Linked.
 
 ### Смотрите также
 
-* пространство имен [Aspose.Words.Drawing](../../aspose.words.drawing)
+* пространство имен [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->
